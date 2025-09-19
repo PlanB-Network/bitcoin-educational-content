@@ -1,5 +1,5 @@
 ---
-name: Rijd de bliksem (RTL)
+name: Ride The Lightning (RTL)
 description: Gebruik Ride The Lightning (RTL) om je Lightning-knooppunt te beheren
 ---
 ![cover](assets/cover.webp)

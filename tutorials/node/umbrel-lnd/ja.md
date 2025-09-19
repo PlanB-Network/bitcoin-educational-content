@@ -1,5 +1,5 @@
 ---
-name: アンブレル LND
+name: Umbrel LND
 description: Lightning Network Daemon(LND)のUmbrelへのインストールと設定に関する上級チュートリアル
 ---
 ![cover](assets/cover.webp)

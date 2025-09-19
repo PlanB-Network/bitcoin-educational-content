@@ -1,5 +1,5 @@
 ---
-name: بیت‌فینکس
+name: Bitfinex
 description: چگونه از Bitfinex استفاده کنم؟
 ---
 ![cover](assets/cover.webp)

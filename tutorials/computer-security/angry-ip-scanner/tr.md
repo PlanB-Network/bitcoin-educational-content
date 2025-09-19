@@ -1,5 +1,5 @@
 ---
-name: Kızgın IP Tarayıcı
+name: Angry IP Scanner
 description: Ağınızı taramanın basit bir yolu
 ---
 ![cover](assets/cover.webp)

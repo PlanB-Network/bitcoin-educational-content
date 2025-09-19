@@ -1,5 +1,5 @@
 ---
-name: ブル Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: WalletブルBitcoinの使い方はこちら
 ---
 

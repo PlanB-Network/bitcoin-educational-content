@@ -1,5 +1,5 @@
 ---
-name: PayJoin
+name: Payjoin
 description: PayJoin kwenye Bitcoin ni nini?
 ---
 ![Payjoin thumbnail - steganography](assets/cover.webp)

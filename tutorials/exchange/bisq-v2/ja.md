@@ -1,5 +1,5 @@
 ---
-name: ビスク2
+name: Bisq 2
 description: Bisq 2の使い方とビットコインのP2P交換の完全ガイド
 ---
 ![cover](assets/cover.webp)

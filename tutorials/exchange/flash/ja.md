@@ -1,5 +1,5 @@
 ---
-name: フラッシュ
+name: Flash
 description: Lightningの力で100CFAフランからビットコインを購入。
 ---
 

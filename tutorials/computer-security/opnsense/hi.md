@@ -1,5 +1,5 @@
 ---
-name: ओपीएनसेंस
+name: OPNsense
 description: मैं OPNsense फ़ायरवॉल कैसे स्थापित और कॉन्फ़िगर करूँ?
 ---
 ![cover](assets/cover.webp)

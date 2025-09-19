@@ -1,5 +1,5 @@
 ---
-name: Biru Wallet
+name: Blue Wallet
 
 description: Bitcoin Portofolio yang Sangat Sederhana dan Kuat
 ---

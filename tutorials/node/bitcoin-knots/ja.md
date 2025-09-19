@@ -1,5 +1,5 @@
 ---
-name: Bitcoin ノット
+name: Bitcoin Knots
 description: Bitcoin Knots代替クライアントでノードを起動するには？
 ---
 ![cover](assets/cover.webp)

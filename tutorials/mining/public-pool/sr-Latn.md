@@ -1,5 +1,5 @@
 ---
-name: Javni bazen
+name: Public Pool
 description: Uvod u javni bazen
 ---
 

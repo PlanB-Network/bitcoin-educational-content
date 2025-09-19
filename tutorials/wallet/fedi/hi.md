@@ -1,5 +1,5 @@
 ---
-name: फेडी
+name: Fedi
 description: आपका Bitcoin सुपर Wallet समुदायों द्वारा संचालित
 ---
 

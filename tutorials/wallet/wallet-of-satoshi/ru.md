@@ -1,5 +1,5 @@
 ---
-name: Wallet из Satoshi
+name: Wallet of Satoshi
 description: Простейшая опекунская Wallet для начала работы
 ---
 ![cover](assets/cover.webp)

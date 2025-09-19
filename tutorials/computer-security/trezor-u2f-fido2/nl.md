@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Versterk je online beveiliging met Trezor
 ---
 ![cover](assets/cover.webp)

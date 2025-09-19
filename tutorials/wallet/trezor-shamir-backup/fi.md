@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamirin varmuuskopiointi
+name: Trezor Shamir Backup
 description: Yhden ja useamman osakkeen Mnemonic-lauseet Trezorissa
 ---
 ![cover](assets/cover.webp)

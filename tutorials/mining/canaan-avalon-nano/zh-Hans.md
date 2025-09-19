@@ -1,5 +1,5 @@
 ---
-name: 迦南阿瓦隆纳米 3S
+name: Canaan Avalon Nano 3S
 description: 将 ASIC Avalon 配置为独矿或 Miner 矿池
 ---
 

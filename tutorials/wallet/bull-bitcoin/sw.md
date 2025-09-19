@@ -1,5 +1,5 @@
 ---
-name: Ng'ombe Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Jua jinsi ya kutumia Wallet Bull Bitcoin
 ---
 

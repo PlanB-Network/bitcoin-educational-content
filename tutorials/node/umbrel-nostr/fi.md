@@ -1,5 +1,5 @@
 ---
-name: Sateenvarjo Nostr
+name: Umbrel Nostr
 description: Nostr-sovellusten määrittäminen ja käyttö Umbrelissa
 ---
 

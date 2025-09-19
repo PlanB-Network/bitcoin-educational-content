@@ -1,5 +1,5 @@
 ---
-name: アクア
+name: Aqua
 description: ビットコイン、ライトニング、リキッドを一つの財布に
 ---
 ![cover](assets/cover.webp)

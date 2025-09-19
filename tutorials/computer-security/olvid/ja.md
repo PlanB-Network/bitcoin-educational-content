@@ -1,5 +1,5 @@
 ---
-name: オルヴィド
+name: Olvid
 description: プライベートメッセージ
 ---
 ![cover](assets/cover.webp)

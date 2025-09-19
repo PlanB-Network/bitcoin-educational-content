@@ -1,5 +1,5 @@
 ---
-name: Portaal
+name: Portal
 description: TwentyTwo-Devices riistvara rahakoti portaali konfigureerimine ja kasutamine
 ---
 ![cover](assets/cover.webp)

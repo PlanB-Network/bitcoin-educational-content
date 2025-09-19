@@ -1,0 +1,9 @@
+question: Satoshiナカモトの白書は何を示しているのか？
+answer: インターネット上のExchangeの分散型手段。
+wrong_answers:
+  - 新しいリベラルな政策
+  - 集中型のExchangeプロトコル。
+  - 政治的プログラム。
+explanation: |
+  Satoshi白書 中本は、Bitcoinをインターネット上のExchangeの分散型媒体として提示している。Bitcoinは、Exchangeにおけるインターネット上の分散型媒体であり、中央当局を持たないピアツーピアの電子決済システムを提案している。
+reviewed: false

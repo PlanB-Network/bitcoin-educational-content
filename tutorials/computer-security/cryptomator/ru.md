@@ -1,5 +1,5 @@
 ---
-name: Криптоматор
+name: Cryptomator
 description: Шифруйте свои файлы в облаке
 ---
 ![cover](assets/cover.webp)

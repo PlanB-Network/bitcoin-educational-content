@@ -1,5 +1,5 @@
 ---
-name: サンダーバード
+name: Thunderbird
 description: プロフェッショナルおよび個人向けのセキュアなメッセージング
 ---
 

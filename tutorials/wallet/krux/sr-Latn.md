@@ -1,5 +1,5 @@
 ---
-name: Krux - Single i Multi Sig
+name: Krux
 description: postavljanje Krux DIY Bitcoin uređaja za potpisivanje, flešovanje njegovog firmvera i korišćenje za single-sig i Multisig novčanike.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: RGB Lightning 節點
+name: RGB Lightning Node
 description: 如何使用 RLN 啟動 RGB 相容的 Lightning 節點？
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Kryptomator
+name: Cryptomator
 description: Kryptera dina filer i molnet
 ---
 ![cover](assets/cover.webp)

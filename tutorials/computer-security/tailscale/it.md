@@ -1,5 +1,5 @@
 ---
-name: Scala della coda
+name: Tailscale
 description: Esercitazione avanzata di Tailscale
 ---
 ![cover](assets/cover.webp)

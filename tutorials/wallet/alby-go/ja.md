@@ -1,5 +1,5 @@
 ---
-name: アルビー・ゴー
+name: Alby Go
 description: Alby Goモバイルアプリのご案内
 ---
 

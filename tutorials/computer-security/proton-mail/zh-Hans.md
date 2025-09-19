@@ -1,5 +1,5 @@
 ---
-name: 质子邮箱
+name: Proton Mail
 description: 设置安全邮箱
 ---
 ![cover](assets/cover.webp)

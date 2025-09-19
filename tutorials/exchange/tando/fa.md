@@ -1,5 +1,5 @@
 ---
-name: تندو
+name: Tando
 description: Bitcoin را در هر جای کنیا خرج کنید.
 ---
 

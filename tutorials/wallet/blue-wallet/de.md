@@ -1,5 +1,5 @@
 ---
-name: Blau Wallet
+name: Blue Wallet
 
 description: Bitcoin Radikal einfaches und leistungsstarkes Portfolio
 ---

@@ -1,5 +1,5 @@
 ---
-name: プロトン財布
+name: Proton Wallet
 description: Proton Bitcoinウォレットのインストールと使用
 ---
 ![cover](assets/cover.webp)

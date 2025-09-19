@@ -1,5 +1,5 @@
 ---
-name: لینیس
+name: Lynis
 description: انجام یک ممیزی امنیتی از یک ماشین لینوکس با استفاده از Lynis
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: एलिमेंट्री ओएस
+name: Elementary OS
 description: Windows और MacOS के लिए आदर्श प्रतिस्थापन
 ---
 

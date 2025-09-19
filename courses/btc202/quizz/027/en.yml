@@ -1,0 +1,9 @@
+question: What's special about an SPV node?
+answer: It retains only the block headers
+wrong_answers:
+  - It retains the entire Blockchain since the Genesis block
+  - It stores only the most recent blocks
+  - It only keeps the UTXO set, not the Blockchain
+explanation: |
+  An SPV node verifies transactions via block headers and Merkle proofs, without storing the complete data.
+reviewed: false

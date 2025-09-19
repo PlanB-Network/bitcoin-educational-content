@@ -1,5 +1,5 @@
 ---
-name: リライ
+name: Relai
 description: ビットコインの旅にRelaiを使うための簡単なチュートリアル！
 ---
 ![cover](assets/cover.webp)

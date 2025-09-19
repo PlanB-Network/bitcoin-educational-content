@@ -1,5 +1,5 @@
 ---
-name: Lango
+name: Portal
 description: Kusanidi na kutumia Tovuti ya Hardware Wallet ya Vifaa Ishirini na Mbili
 ---
 ![cover](assets/cover.webp)

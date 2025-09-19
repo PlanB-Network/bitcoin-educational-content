@@ -1,5 +1,5 @@
 ---
-name: बीआईपी-85
+name: BIP-85
 description: मैं मुख्य seed से BIP-85 से generate तक के एकाधिक बीजवाक्यांशों का उपयोग कैसे कर सकता हूँ?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: ब्लॉकस्ट्रीम ऐप - केवल देखने के लिए
+name: Blockstream App - Watch-Only
 description: मैं ब्लॉकस्ट्रीम ऐप पर Watch-only wallet कैसे कॉन्फ़िगर करूं?
 ---
 

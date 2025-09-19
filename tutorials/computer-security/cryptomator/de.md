@@ -1,5 +1,5 @@
 ---
-name: Kryptomator
+name: Cryptomator
 description: Verschlüsseln Sie Ihre Dateien in der Cloud
 ---
 ![cover](assets/cover.webp)

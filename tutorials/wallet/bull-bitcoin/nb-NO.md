@@ -1,5 +1,5 @@
 ---
-name: Oks Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Finn ut hvordan du bruker Wallet Bull Bitcoin
 ---
 

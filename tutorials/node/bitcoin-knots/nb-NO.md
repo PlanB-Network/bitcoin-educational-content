@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Knuter
+name: Bitcoin Knots
 description: Hvordan starter jeg en node med den alternative Bitcoin Knots-klienten?
 ---
 ![cover](assets/cover.webp)

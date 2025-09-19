@@ -1,5 +1,5 @@
 ---
-name: GrafeenOS
+name: GrapheneOS
 
 description: Een mobiel besturingssysteem gericht op veiligheid en privacy, gebaseerd op Android
 ---

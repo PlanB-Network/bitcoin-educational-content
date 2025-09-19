@@ -1,0 +1,9 @@
+question: "스스로 생각하라"는 모토는 누구의 모토인가요?
+answer: Kant.
+wrong_answers:
+  - 스피노자.
+  - Diderot.
+  - 도널드 트럼프.
+explanation: |
+  스스로 생각하라(sapere aude)는 임마누엘 칸트의 좌우명이자 계몽주의의 표어입니다. 다른 사람의 가르침 없이 자신의 이해력을 활용할 수 있는 용기를 갖는다는 의미입니다.
+reviewed: false

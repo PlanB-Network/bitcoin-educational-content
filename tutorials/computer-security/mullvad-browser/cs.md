@@ -1,5 +1,5 @@
 ---
-name: Prohlížeč Mullvad
+name: Mullvad Browser
 description: Jak používat prohlížeč Mullvad pro ochranu soukromí
 ---
 

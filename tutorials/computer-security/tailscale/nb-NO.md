@@ -1,5 +1,5 @@
 ---
-name: Haleskala
+name: Tailscale
 description: Avansert opplæring i Tailscale
 ---
 ![cover](assets/cover.webp)

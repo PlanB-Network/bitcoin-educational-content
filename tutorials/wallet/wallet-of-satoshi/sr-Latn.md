@@ -1,5 +1,5 @@
 ---
-name: Wallet od Satoshi
+name: Wallet of Satoshi
 description: Najjednostavniji skrbnički Wallet za početak
 ---
 ![cover](assets/cover.webp)

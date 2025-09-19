@@ -1,5 +1,5 @@
 ---
-name: オリオンブラウザ
+name: Orion Browser
 description: MacとiPhoneでプライバシーを守るOrion Browserの使い方とは？
 ---
 

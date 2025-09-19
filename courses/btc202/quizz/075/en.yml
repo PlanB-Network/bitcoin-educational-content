@@ -1,0 +1,9 @@
+question: Why does the size of the UTXO set tend to grow structurally over time?
+answer: Each payment generally creates two new UTXOs
+wrong_answers:
+  - Conventional payments consume no UTXO in input
+  - Each Fork multiplies the number of existing UTXOs
+  - The number of bitcoins that can be created is infinite
+explanation: |
+  A payment transaction consumes one UTXO and often recreates two (payment + exchange), inflating the total size of the set.
+reviewed: false

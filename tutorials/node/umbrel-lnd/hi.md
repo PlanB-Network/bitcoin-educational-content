@@ -1,5 +1,5 @@
 ---
-name: छाता LND
+name: Umbrel LND
 description: Umbrel पर Lightning Network Daemon (LND) को स्थापित करने और कॉन्फ़िगर करने पर उन्नत ट्यूटोरियल
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Ô dù
+name: Umbrel
 description: Khám phá và cài đặt Umbrel - Nút Bitcoin và máy chủ gia đình của bạn
 ---
 

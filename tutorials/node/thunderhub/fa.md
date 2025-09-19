@@ -1,5 +1,5 @@
 ---
-name: تاندرهاب
+name: ThunderHub
 description: مدیریت نود لایتنینگ وب Interface LND
 ---
 ![cover](assets/cover.webp)

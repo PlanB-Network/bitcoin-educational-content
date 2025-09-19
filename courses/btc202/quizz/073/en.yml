@@ -1,0 +1,9 @@
+question: What is the function of the assumevalid parameter in Bitcoin core?
+answer: Ignore script verification before a reference block
+wrong_answers:
+  - Ignore proof-of-work verification before a reference block
+  - Ignore header verification before a reference block
+  - Force Tor for peer discovery
+explanation: |
+  Assumevalid speeds up IBD by ignoring script verification before a known block, while retaining all other validations.
+reviewed: false

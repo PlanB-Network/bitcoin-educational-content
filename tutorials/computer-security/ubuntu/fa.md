@@ -1,5 +1,5 @@
 ---
-name: اوبونتو
+name: Ubuntu
 description: راهنمای کامل نصب و استفاده از اوبونتو به عنوان جایگزینی برای ویندوز
 ---
 ![cover](assets/cover.webp)

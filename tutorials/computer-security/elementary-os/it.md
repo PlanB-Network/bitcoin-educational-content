@@ -1,5 +1,5 @@
 ---
-name: OS elementare
+name: Elementary OS
 description: Il sostituto ideale per Windows e MacOS
 ---
 

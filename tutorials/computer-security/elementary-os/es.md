@@ -1,5 +1,5 @@
 ---
-name: Sistema operativo elemental
+name: Elementary OS
 description: El sustituto ideal de Windows y MacOS
 ---
 

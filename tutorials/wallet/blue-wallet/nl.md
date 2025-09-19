@@ -1,5 +1,5 @@
 ---
-name: Blauw Wallet
+name: Blue Wallet
 
 description: Bitcoin Radicaal eenvoudige en krachtige portfolio
 ---

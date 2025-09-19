@@ -1,5 +1,5 @@
 ---
-name: 初級作業系統
+name: Elementary OS
 description: Windows 和 MacOS 的理想替代品
 ---
 

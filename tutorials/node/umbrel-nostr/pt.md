@@ -1,5 +1,5 @@
 ---
-name: Guarda-chuva Nostr
+name: Umbrel Nostr
 description: Configuração e utilização de aplicações Nostr na Umbrel
 ---
 

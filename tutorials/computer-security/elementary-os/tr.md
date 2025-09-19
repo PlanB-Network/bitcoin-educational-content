@@ -1,5 +1,5 @@
 ---
-name: İlköğretim İşletim Sistemi
+name: Elementary OS
 description: Windows ve MacOS için ideal yedek
 ---
 

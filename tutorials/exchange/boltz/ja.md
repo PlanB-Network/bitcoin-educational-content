@@ -1,5 +1,5 @@
 ---
-name: ボルツ
+name: Boltz
 description: コントロールを維持したまま、異なるBitcoinレイヤーを入れ替える。
 ---
 

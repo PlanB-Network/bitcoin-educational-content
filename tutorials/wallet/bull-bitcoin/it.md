@@ -1,5 +1,5 @@
 ---
-name: Toro Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Scopri come usare il toro Wallet Bitcoin
 ---
 

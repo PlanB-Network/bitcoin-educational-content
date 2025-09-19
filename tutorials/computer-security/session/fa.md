@@ -1,5 +1,5 @@
 ---
-name: جلسه
+name: Session
 description: پیام‌های رمزگذاری‌شده ارسال کنید، نه فراداده
 ---
 ![cover](assets/cover.webp)

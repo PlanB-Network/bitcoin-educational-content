@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Vrabec
+name: Jade Plus - Sparrow
 description: Pokročilá konfigurace Jade Plus s peněženkou Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

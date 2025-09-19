@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Gorrión
+name: Jade Plus - Sparrow
 description: Configuración avanzada de Jade Plus con Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

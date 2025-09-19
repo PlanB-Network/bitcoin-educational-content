@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 結
+name: Bitcoin Knots
 description: 如何使用 Bitcoin Knots 替代用戶端啟動節點？
 ---
 ![cover](assets/cover.webp)

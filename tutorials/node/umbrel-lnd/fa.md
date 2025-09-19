@@ -1,5 +1,5 @@
 ---
-name: آمبرل LND
+name: Umbrel LND
 description: آموزش پیشرفته نصب و پیکربندی Lightning Network Daemon (LND) بر روی Umbrel
 ---
 ![cover](assets/cover.webp)

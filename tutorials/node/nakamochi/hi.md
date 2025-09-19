@@ -1,5 +1,5 @@
 ---
-name: नकामोची
+name: Nakamochi
 description: नोड संचालन अब आसान - Nakamochi Bitcoin और Lightning नोड को कॉन्फ़िगर और उपयोग कैसे करें।
 ---
 ![image](assets/cover.webp)

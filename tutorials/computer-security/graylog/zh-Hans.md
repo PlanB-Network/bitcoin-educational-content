@@ -1,5 +1,5 @@
 ---
-name: 灰度日志
+name: Graylog
 description: 集中管理并轻松分析日志
 ---
 ![cover](assets/cover.webp)

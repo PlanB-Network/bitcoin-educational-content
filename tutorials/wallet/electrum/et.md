@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: Täielik Electrumi juhend algajast eksperdiks
+description: Täielik Electrumi juhend, algajast asjatundjaks
 ---
 
 ![kaas](assets/cover.webp)
 
-Kirjeldus Electrumi kohta
+Allpool leiad mõned Electrumi kirjeldusallikad:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Pean ütlema, kui ma selle juhendi leidsin, olin ma šokeeritud. Palju õnne Arman the Parman'ile selle eest. Oleks olnud kahju, kui seda siin ei oleks majutatud ja tõlgitud võimalikult paljudesse keeltesse. Ausalt, andke sellele tüübile jootraha." Rogzy
 

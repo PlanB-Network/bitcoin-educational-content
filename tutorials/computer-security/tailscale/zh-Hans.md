@@ -1,5 +1,5 @@
 ---
-name: 尾标
+name: Tailscale
 description: 尾标高级教程
 ---
 ![cover](assets/cover.webp)

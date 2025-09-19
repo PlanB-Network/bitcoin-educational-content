@@ -1,5 +1,5 @@
 ---
-name: 比特栈
+name: Bitstack
 description: 在 Bitstack 应用程序上买卖比特币
 ---
 ![cover](assets/cover.webp)

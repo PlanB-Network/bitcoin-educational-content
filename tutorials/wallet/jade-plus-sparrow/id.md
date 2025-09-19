@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Burung Gereja
+name: Jade Plus - Sparrow
 description: Konfigurasi lanjutan Jade Plus dengan Dompet Sparrow
 ---
 ![cover](assets/cover.webp)

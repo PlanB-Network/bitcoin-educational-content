@@ -1,5 +1,5 @@
 ---
-name: カナーン・アバロン・ナノ3S
+name: Canaan Avalon Nano 3S
 description: ソロマイニングまたはMinerプーリングのためのASICアバロンの設定
 ---
 

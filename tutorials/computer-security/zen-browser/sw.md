@@ -1,5 +1,5 @@
 ---
-name: Kivinjari cha Zen
+name: Zen Browser
 description: Jinsi ya kutumia Kivinjari cha Zen kwa kuvinjari kwa tija na kwa siri?
 ---
 

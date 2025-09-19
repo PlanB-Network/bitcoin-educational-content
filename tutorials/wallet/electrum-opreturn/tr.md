@@ -1,5 +1,5 @@
 ---
-name: Elektrum OP_RETURN
+name: Electrum OP_RETURN
 description: Electrum ile Blockchain Bitcoin üzerine bir mesaj kaydedin
 ---
 

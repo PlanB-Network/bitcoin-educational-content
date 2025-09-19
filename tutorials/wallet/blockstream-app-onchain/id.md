@@ -1,5 +1,5 @@
 ---
-name: Aplikasi Blockstream - Onchain
+name: Blockstream App - Onchain
 description: Mengatur Aplikasi Blockstream di ponsel dan mengelola transaksi onchain
 ---
 ![cover](assets/cover.webp)

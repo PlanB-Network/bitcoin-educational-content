@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - 麻雀
+name: Jade Plus - Sparrow
 description: Jade Plus 與 Sparrow Wallet 的進階配置
 ---
 ![cover](assets/cover.webp)

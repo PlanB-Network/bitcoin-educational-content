@@ -1,5 +1,5 @@
 ---
-name: संकेत
+name: Signal
 description: अपने आप को स्वतंत्र रूप से अभिव्यक्त करें
 ---
 ![cover](assets/cover.webp)

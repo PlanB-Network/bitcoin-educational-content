@@ -1,5 +1,5 @@
 ---
-name: سرعت Wallet
+name: Speed Wallet
 description: پرداخت و Exchange به بیت‌کوین و USDT به‌صورت فوری
 ---
 ![cover](assets/cover.webp)

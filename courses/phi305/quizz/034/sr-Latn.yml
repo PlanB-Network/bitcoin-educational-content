@@ -1,0 +1,9 @@
+question: Ko je Lamarck?
+answer: Francuski prirodnjak koji je prethodio Darwinu.
+wrong_answers:
+  - Holandski filozof.
+  - Učenik Spinoze.
+  - Klasični slikar.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) bio je francuski prirodnjak koji je predložio teoriju evolucije pre Darvina. Njegova teorija transformizma uključivala je nasleđivanje stečenih osobina.
+reviewed: false

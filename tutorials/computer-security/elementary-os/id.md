@@ -1,5 +1,5 @@
 ---
-name: OS Dasar
+name: Elementary OS
 description: Pengganti ideal untuk Windows dan MacOS
 ---
 

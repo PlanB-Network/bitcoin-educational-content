@@ -1,5 +1,5 @@
 ---
-name: Pfirsich
+name: Peach
 description: Vollständiger Leitfaden zur Verwendung von Peach und zum P2P-Tausch von Bitcoins
 ---
 ![cover](assets/cover.webp)

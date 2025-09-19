@@ -1,5 +1,5 @@
 ---
-name: استخر عمومی
+name: Public Pool
 description: مقدمه‌ای بر استخر عمومی
 ---
 

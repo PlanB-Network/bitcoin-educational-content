@@ -1,5 +1,5 @@
 ---
-name: Virsik
+name: Peach
 description: Täielik juhend Peach'i kasutamise ja bitcoinide P2P vahetamise kohta
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Brzina Wallet
+name: Speed Wallet
 description: Platite i Exchange u bitkoinima i USDT odmah
 ---
 ![cover](assets/cover.webp)

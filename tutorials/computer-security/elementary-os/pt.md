@@ -1,5 +1,5 @@
 ---
-name: SO elementar
+name: Elementary OS
 description: O substituto ideal para Windows e MacOS
 ---
 

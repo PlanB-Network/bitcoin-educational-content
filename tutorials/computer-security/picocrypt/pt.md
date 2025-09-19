@@ -1,5 +1,5 @@
 ---
-name: Picocriptografia
+name: Picocrypt
 description: Uma ferramenta de código aberto para encriptar os seus dados
 ---
 ![cover](assets/cover.webp)

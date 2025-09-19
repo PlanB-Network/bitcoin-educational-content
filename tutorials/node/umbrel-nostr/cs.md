@@ -1,5 +1,5 @@
 ---
-name: Deštník Nostr
+name: Umbrel Nostr
 description: Konfigurace a používání aplikací Nostr v systému Umbrel
 ---
 

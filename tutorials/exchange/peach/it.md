@@ -1,5 +1,5 @@
 ---
-name: Pesca
+name: Peach
 description: Guida completa all'utilizzo di Peach e allo scambio di bitcoin P2P
 ---
 ![cover](assets/cover.webp)

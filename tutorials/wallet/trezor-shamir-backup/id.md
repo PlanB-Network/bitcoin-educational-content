@@ -1,5 +1,5 @@
 ---
-name: Cadangan Trezor Shamir
+name: Trezor Shamir Backup
 description: Frasa Mnemonic satu-bagi dan multi-bagi di Trezor
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: ピーチ
+name: Peach
 description: Peachの使い方とビットコインのP2P交換完全ガイド
 ---
 ![cover](assets/cover.webp)

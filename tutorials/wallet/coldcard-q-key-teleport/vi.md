@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Dịch chuyển chìa khóa
+name: COLDCARD Q - Key Teleport
 description: Key Teleport là gì và tôi sử dụng nó như thế nào?
 ---
 

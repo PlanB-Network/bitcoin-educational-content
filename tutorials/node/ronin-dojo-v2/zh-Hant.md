@@ -532,7 +532,7 @@ Block explorer 將來自 Bitcoin Blockchain 的原始資訊轉換成結構化、
 若要深入瞭解 CoinJoin 及其在 Bitcoin 上的使用，我也邀請您參閱這篇文章：了解並在 Bitcoin 上使用 CoinJoin，我在這篇文章中詳細介紹了有關這項技術的所有知識。
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### 使用 Whirlpool 統計工具 (WST)
 

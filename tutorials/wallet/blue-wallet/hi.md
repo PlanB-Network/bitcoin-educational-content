@@ -1,5 +1,5 @@
 ---
-name: नीला Wallet
+name: Blue Wallet
 
 description: Bitcoin मौलिक रूप से सरल और शक्तिशाली पोर्टफोलियो
 ---

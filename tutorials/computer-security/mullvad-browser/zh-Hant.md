@@ -1,5 +1,5 @@
 ---
-name: Mullvad 瀏覽器
+name: Mullvad Browser
 description: 如何使用 Mullvad 瀏覽器來保護隱私
 ---
 

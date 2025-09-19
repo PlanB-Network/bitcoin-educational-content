@@ -1,5 +1,5 @@
 ---
-name: Тандо
+name: Tando
 description: Проведите Bitcoin в любой точке Кении.
 ---
 

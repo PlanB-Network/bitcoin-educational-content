@@ -1,5 +1,5 @@
 ---
-name: Blixt Wallet
+name: Blitz Wallet
 
 description: Den enklaste Bitcoin Wallet.
 ---

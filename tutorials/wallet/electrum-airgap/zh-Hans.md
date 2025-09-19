@@ -1,6 +1,6 @@
 ---
-name: 电石气隙
-description: 迈向安全的第一步，带有电解质的 Cold Wallet
+name: Electrum Airgap
+description: 通往安全的第一步，使用Electrum的冷钱包
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ description: 迈向安全的第一步，带有电解质的 Cold Wallet
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 下载后，在安装之前一定要验证版本，然后进行 "一台服务器 "配置，您可以在帮助部分的 "从虚拟 Wallet 开始 "中找到这一点。
 

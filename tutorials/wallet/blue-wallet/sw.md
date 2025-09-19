@@ -1,5 +1,5 @@
 ---
-name: Bluu Wallet
+name: Blue Wallet
 
 description: Bitcoin Radically Radically na Nguvu Portfolio
 ---

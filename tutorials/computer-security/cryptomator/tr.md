@@ -1,5 +1,5 @@
 ---
-name: Kriptomatör
+name: Cryptomator
 description: Dosyalarınızı bulutta şifreleyin
 ---
 ![cover](assets/cover.webp)

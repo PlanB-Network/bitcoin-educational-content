@@ -1,6 +1,6 @@
 ---
-name: Zeus Embedded - Edistyneet
-description: Usean solmun itsesäätelyjärjestelmä Wallet
+name: Zeus Embedded - Edistynyt
+description: Monisolmuinen itsehallinnoitava Lightning-lompakko
 ---
 
 ![Zeus](assets/cover.webp)
@@ -14,13 +14,13 @@ ZEUS on Bitcoin Wallet- ja solmujen hallintasovellus, jossa on Bitcoin Lightning
 
 ### Kenelle ZEUS on tarkoitettu?
 
-Tällä hetkellä ZEUS on tarkoitettu ihmisille, jotka käyttävät omia [Lightning Network Daemon (LND)](https://lightning.engineering/) tai [Core Lightning Lightning (CLN)](https://blockstream.com/lightning/) koti-/yrityssolmujaan ja hallinnoivat niitä Zeuksen kautta etänä.
+Tällä hetkellä ZEUS on tarkoitettu ihmisille, jotka pyörittävät omia koti- / yrityssolmujaan [Lightning Network Daemon (LND)](https://lightning.engineering/) tai [Core Lightning (CLN)](https://blockstream.com/lightning/) ja hallinnoivat niitä etänä Zeuksen kautta.
 
 
-Kauppiaat, jotka käyttävät [BTCPay](https://btcpayserver.org/) tai [LNBits](https://lnbits.com/) tai [Alby](https://getalby.com/) (tai mitä tahansa muuta LNDhub-tiliä), voivat myös muodostaa yhteyden solmuihinsa / tileihinsä, käyttää niitä ja hallita niitä ZEUSista.
+Kauppiaat, jotka käyttävät [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) tai [Alby](https://getalby.com/) (tai mitä tahansa muuta LNDhub-tiliä), voivat myös ZEUSin kautta yhdistää, käyttää ja hallinnoida solmujaan / tilejään.
 
 
-[Alkaen v0.8:sta](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS alkaa palvella tavallisia käyttäjiä, jotka haluavat vain yksinkertaisen tavan tehdä nopeita ja halpoja Bitcoin-maksuja mobiililaitteestaan, sillä ZEUSissa on [sisäänrakennettu mobiili Lightning-solmu](https://docs.zeusln.app/category/embedded-node), jossa on integroitu [Lightning-palveluntarjoaja (Lightning Service Provider, LSP)](https://docs.zeusln.app/lsp/intro).
+[Alkaen versiosta v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) ZEUS alkaa palvella tavallisia käyttäjiä, jotka haluavat yksinkertaisen tavan tehdä nopeita ja halpoja bitcoin-maksuja mobiililaitteestaan, tarjoamalla [sisäänrakennetun mobiili-Lightning-solmun](https://docs.zeusln.app/category/embedded-node) integroidulla [Lightning-palveluntarjoajalla (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Tärkeitä Zeus-resursseja:
@@ -28,10 +28,10 @@ Kauppiaat, jotka käyttävät [BTCPay](https://btcpayserver.org/) tai [LNBits](h
 
 - Zeuksen virallinen verkkosivusto - [https://zeusln.app/](https://zeusln.app/)
 - Zeus Documentation - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Zeus Github arkisto](https://github.com/ZeusLN/zeus)
-- [Zeus Telegram -tukiryhmä](https://t.me/ZeusLN)
-- [Zeus on NOSTR](https://iris.to/zeus@zeusln.app)
-- [Zeus Blogin ilmoitukset](https://blog.zeusln.com)
+- [Zeus Github-repositorio](https://github.com/ZeusLN/zeus)
+- [Zeus Telegram-tukiryhmä](https://t.me/ZeusLN)
+- [Zeus NOSTR:ssa](https://iris.to/zeus@zeusln.app)
+- [Zeus Blogi-ilmoitukset](https://blog.zeusln.com)
 
 
 ### Zeuksen ominaisuudet
@@ -70,13 +70,13 @@ Jotta voisit käyttää Zeusta ja hallita Lightning-kanavia, likviditeettiä, ma
 #### Oppaat:
 
 
-- [LND - Lightning Network Daemon Documentation](https://docs.lightning.engineering/)
-- [CLN - Core Lightning Documentation](https://lightning.readthedocs.io/index.html)
-- [Aloittelijoiden salamaopas](https://bitcoiner.guide/lightning/) - Bitcoin Q&A mukaan
-- [Lightning Node Management](https://www.lightningnode.info/) - by openoms
-- [Lightning Network ja lentoaseman analogia](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
-- [Salamasolmun likviditeetin hallinta](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Salamasolmun ylläpito](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [LND - Lightning Network Daemon -dokumentaatio](https://docs.lightning.engineering/)
+- [CLN - Core Lightning -dokumentaatio](https://lightning.readthedocs.io/index.html)
+- [Aloittelijan Lightning-opas](https://bitcoiner.guide/lightning/) – kirjoittanut Bitcoin K&A
+- [Lightning-solmun hallinta](https://www.lightningnode.info/) – kirjoittanut openoms
+- [Lightning-verkko ja lentokenttävertaus](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [Lightning-solmun likviditeetin hallinta](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Lightning-solmun ylläpito](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### BTC Sessionsin video-opastus
@@ -98,7 +98,7 @@ Omistan tämän oppaan kaikille niille uusille Lightning Network (LN) -käyttäj
 Oletetaan, että olet jo käynyt läpi kaiken tuon huoltajien LN-lompakoiden runsauden, mutta et ole vielä valmis aloittamaan PUBLIC-routing LN-solmun käyttöä, vaan haluat vain pinota enemmän Sats:ta LN:n päälle enemmän itse huoltajina ja suorittaa säännölliset maksut LN:n kautta.
 
 
-Täältä tulee Zeus, alkaen [versio v0.8.0 ilmoitti blogissaan](https://blog.zeusln.com/new-release-zeus-v0-8-0/), tarjoaa nyt upotettu LND solmun sovellukseen. Tähän asti Zeus oli noodien etähallintasovellus + LNDhub-tilit. Mutta nyt... solmu on puhelimessa!
+Tässä tulee Zeus, alkaen [versiosta v0.8.0, joka ilmoitettiin heidän blogissaan](https://blog.zeusln.com/new-release-zeus-v0-8-0/), ja tarjoaa nyt upotetun LND-solmun sovellukseen. Tähän asti Zeus oli etäsolmujen hallintasovellus + LNDhub-tilit. Mutta nyt… solmu on puhelimessa!
 
 
 ![Image](assets/en/02.webp)
@@ -110,7 +110,7 @@ Täältä tulee Zeus, alkaen [versio v0.8.0 ilmoitti blogissaan](https://blog.ze
 
 - **Yksityinen LND-solmu** - Tämä tarkoittaa, että tämä solmu EI reititä muiden maksuja julkisesti solmusi kautta. Solmu ja kanavat ovat ilmoittamattomia (yksityisiä, eivät näy julkisessa LN-grafiikassa). Maksujen vastaanottaminen ja suorittaminen tapahtuu perusteellisesti yhdistettyjen LSP-vertaisvertaisvertaistesi kautta. MUISTUTUS: Zeus Embedded Node EI tee julkista reititystä!
 - **Pysyvä LND-palvelu** - käyttäjä voi aktivoida tämän ominaisuuden ja pitää LND-palvelun jatkuvasti aktiivisena kuten minkä tahansa tavallisen LN-solmun. Sovelluksen ei tarvitse olla avoinna, vaan jatkuva palvelu pitää kaiken viestinnän verkossa.
-- **Neutrino-lohkosuodattimet** - lohkosynkronointi tapahtuu [lohkosuodattimien ja Neutrino-protokollan](https://bitcoinops.org/en/topics/compact-block-filters/) avulla (kun ei ole tietoa käyttäjien On-Chain-varoista). Muistutus: korkean viiveen / hitaiden internetyhteyksien osalta tämä neutriinoon perustuva lohkosynkronointi voi joskus epäonnistua. Vaihtaminen lähellä olevaan neutriinopalvelimeen voi auttaa synkronoinnin palauttamisessa. Ilman tätä synkronointia LND-solmusi ei voi käynnistyä!
+-   **Neutrino-lohkosuodattimet** - lohkojen synkronointi tehdään käyttäen [lohkojen suodattimia ja Neutrino-protokollaa](https://bitcoinops.org/en/topics/compact-block-filters/) (ilman tietoja käyttäjiemme on-chain-varallisuudesta). Muistutus: suurilla viiveillä / hitailla internet-yhteyksillä tämä Neutrino-pohjainen lohkojen synkronointi saattaa joskus epäonnistua. Lähistöllä olevaan Neutrino-palvelimeen vaihtaminen voi auttaa palauttamaan synkronoinnin. Ilman tätä synkronointia LND-solmunne ei voi käynnistyä!
 - **Yksinkertaiset Taproot-kanavat** - Kun nämä kanavat suljetaan, käyttäjille aiheutuu vähemmän maksuja ja he saavat enemmän yksityisyyttä, koska ne näyttävät On-Chain-jalanjälkeä tarkasteltaessa samalta kuin muutkin Taproot-kanavat.
 - **Integroitu LSP** - Olympus on Zeuksen uusi LSP-solmu. Käyttäjät voivat vastaanottaa Sats:ää LN:n kautta välittömästi ilman, että LN-kanavia on aiemmin määritetty. Heidän on vain luotava LN Invoice ja maksettava mistä tahansa muusta LN Wallet:sta Zeuksen 0-conf-kanavapalvelun avulla. Lue lisää Zeus LSP:stä täältä. LSP tarjoaa myös lisää yksityisyyttä käyttäjillemme tarjoamalla heille käärittyjä laskuja, jotka salaavat solmujensa julkiset avaimet maksajilta.
 - **Yhteystietokirja** - voit tallentaa yhteystietoja manuaalisesti tai tuoda niitä NOSTR:stä, jotta voit helposti lähettää maksuja tavallisiin kohteisiisi.
@@ -123,7 +123,7 @@ Täältä tulee Zeus, alkaen [versio v0.8.0 ilmoitti blogissaan](https://blog.ze
 ### Kuinka päästä alukselle Zeus LN Node (LND sulautettu) kanssa
 
 
-Tässä oppaassa puhun vain sulautetusta LND-solmusta, enkä muista tavoista käyttää tätä upeaa sovellusta (solmujen etähallinta ja LNDhub-tilit). Muista yhteystyypeistä voit lukea [Zeus Docs -sivulta](https://docs.zeusln.app/category/getting-started), joka on selitetty erittäin hyvin, eikä erillistä opasta tarvitse kirjoittaa.
+Tässä oppaassa puhun vain sisäänrakennetusta LND-solmusta, enkä muista tavoista käyttää tätä upeaa sovellusta (etäsolmujen hallinta ja LNDhub-tilit). Muihin yhteystyyppeihin viitaten, katso [Zeus-dokumentaatiosivu](https://docs.zeusln.app/category/getting-started), joka on erittäin hyvin selitetty eikä vaadi erillistä opasta.
 
 
 #### VAIHE 1 - ALKUASENNUS
@@ -137,7 +137,7 @@ Koska Zeus on täysi LND-solmu, minulla on joitakin alustavia suosituksia:
 - Käytä mobiilikäyttöjärjestelmänä vähintään Android 11:tä ja päivitä sitä niin paljon kuin mahdollista. IOS:lle sama, yritä käyttää paljon korkeampaa käyttöjärjestelmäversiota.
 - Tarvitset vähintään 1 Gt levytilaa tietojen tallentamista varten. Ajan mittaan voi kasvaa enemmän, mutta on olemassa toiminto, jolla tietokanta voidaan tiivistää MB:n tasolle.
 - Zeusta ei tarvitse käyttää Tor- tai Orbot-palvelun kanssa. Älkää mutkistako asioita enempää kuin on tarpeen. Tor ei tässä tapauksessa tarjoa sinulle lisää yksityisyyttä, vaan vain huonontaa asioita alkuperäisen synkronoinnin osalta. Ole myös varovainen sen kanssa mitä VPN:ää käytät ja tarkista yhteyden latenssi neutrino-palvelimille päin. Pidä mielessä, että Neutrino-estosuodatin ei vuoda tai jäljitä laitteesi identiteettiä, se vain palvelee estoja. LN:n liikenne on myös LSP:n takana yksityisillä kanavilla, joten hyvin vähän tietoa tulee ulos, ei ole mitään syytä pelätä yksityisyyttä.
-- Kärsivällisyyttä synkronoinnin alkuvaiheessa, se voi kestää useita minuutteja. Yritä olla yhteydessä laajakaistayhteyteen, jossa on hyvä viive. Jos sinulla on oma Bitcoin-solmu, [voit aktivoida neutriinopalvelun](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) ja liittää Zeuksen omaan solmuun, vaikka sisäisen lähiverkon kautta, jolloin saat maksiminopeuden.
+-   Ole kärsivällinen alkuperäisen synkronoinnin aikana, se voi kestää useita minuutteja. Yritä olla yhteydessä laajakaistayhteyteen, jossa on hyvä latenssi. Jos ajat omaa Bitcoin-solmua, [voit aktivoida neutrino-palvelun](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) ja yhdistää Zeuksesi omaan solmuusi, jopa sisäistä LAN-verkkoa käyttäen, jolloin saat maksimaalisen nopeuden.
 
 
 Kun olet määrittänyt yhteystyypin "Sulautettu solmu", sovellus alkaa synkronoida jonkin aikaa. Odota kärsivällisesti tämän osan loppuun ja siirry sitten pääasetussivulle.
@@ -155,7 +155,7 @@ Tutustutaan lyhyesti kuhunkin Asetukset-osioon ja selvitetään joitakin tärkei
 Tämä on osio, jossa on koko sovelluksen yleiset asetukset
 
 
-**1 - Salamapalveluntarjoaja (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Tässä esitellään kaksi LSP-palvelua:
@@ -166,7 +166,7 @@ Tässä esitellään kaksi LSP-palvelua:
 - _Kanavien tilaaminen etukäteen_ - voit ostaa saapuvia kanavia Olympus LSP:ltä suoraan sovelluksesta useilla eri vaihtoehdoilla ja määrillä (saapuvia ja lähteviä kanavia varten).
 
 
-LSP auttaa yhdistämään käyttäjät Lightning Network:ään avaamalla maksukanavat niiden solmukohtiin. [Lue lisää LSP:stä täältä](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUSiin on integroitu uusi LSP nimeltään [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), joka on kaikkien uutta sulautettua solmua käyttävien käyttäjien käytettävissä.
+LSP auttaa yhdistämään käyttäjät Lightning-verkkoon avaamalla maksukanavia heidän solmuihinsa. [Lue lisää LSP:stä täältä](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUSissa on uusi integroitu LSP nimeltä [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), joka on käytettävissä kaikille käyttäjille, jotka käyttävät uutta sisäänrakennettua solmua.
 
 
 Tässä osiossa on oletuksena Olympus LSP (https://0conf.lnolymp.us), mutta pian voit myös asettaa toisen 0conf LSP:n, joka tukee tätä protokollaa.
@@ -304,7 +304,7 @@ Tässä on live-demovideo Zeus PoS:n käytöstä:
 **B - Wallet:n varmuuskopio**
 
 
-ZEUSin sulautettu solmu perustuu LND:een ja käyttää [aezeed seed -formaattia] (https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Tämä on erilainen kuin tyypillinen [BIP39-muoto](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki), joka esiintyy useimmissa Bitcoin-lompakoissa, vaikka se saattaa vaikuttaa samankaltaiselta. Aezeed sisältää joitain lisätietoja, kuten Wallet:n syntymäpäivän, jotka auttavat palauttamisen aikana tehtäviä uudelleenkuvauksia tehostamaan.
+ZEUSin sulautettu solmu perustuu LND:een ja käyttää [aezeed seed -formaattia](https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Tämä on erilainen kuin tyypillinen [BIP39-muoto](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki), joka esiintyy useimmissa Bitcoin-lompakoissa, vaikka se saattaa vaikuttaa samankaltaiselta. Aezeed sisältää joitain lisätietoja, kuten Wallet:n syntymäpäivän, jotka auttavat palauttamisen aikana tehtäviä uudelleenkuvauksia tehostamaan.
 
 
 Aezeed-avaimen muodon pitäisi olla yhteensopiva seuraavien mobiililompakoiden kanssa: Blixt, BlueWallet ja Breez. Huomaa, että pelkkä seed ei riitä palauttamaan kaikkia saldojasi, jos sinulla on avoimia tai vireillä olevia sulkemiskanavia !
@@ -465,7 +465,7 @@ Tästä viimeisestä osiosta löydät linkit Zeuksen dokumentointisivulle, Githu
 Muista, että Zeus on tarkoitettu käytettäväksi pääasiassa LN Wallet:n kanssa, jotta maksujen suorittaminen LN:n kautta olisi helppoa ja nopeaa. Toki se sisältää myös onchain Wallet:n, mutta sitä tulisi käyttää yksinomaan LN-kanavien avaamiseen/sulkemiseen eikä kahvin säännöllisiin maksuihin.
 
 
-Lue toinen oppaani [kuinka olla oma pankkisi Stash:n kolmen tason avulla] (https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
+Lue toinen oppaani [kuinka olla oma pankkisi Stash:n kolmen tason avulla](https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
 
 
 Tällä hetkellä käyttäjällä on kaksi tapaa aloittaa Zeuksen käyttö:
@@ -695,7 +695,7 @@ Jos haluat maksaa itsellesi tuon Invoice:n (ympyränmuotoinen uudelleentasapaino
 Keysend on hyvin aliarvostettu LN:n ominaisuus, ja käyttäjien pitäisi käyttää sitä useammin.
 
 
-[Keysend] (https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) antaa Lightning Network:n käyttäjille mahdollisuuden lähettää maksuja muille suoraan heidän julkiseen avaimeensa, kunhan heidän solmullaan on julkiset kanavat ja keysend on käytössä. Keysend ei edellytä, että maksunsaaja antaa Invoice:n.
+[Keysend](https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) antaa Lightning Network:n käyttäjille mahdollisuuden lähettää maksuja muille suoraan heidän julkiseen avaimeensa, kunhan heidän solmullaan on julkiset kanavat ja keysend on käytössä. Keysend ei edellytä, että maksunsaaja antaa Invoice:n.
 
 
 Miten se onnistuu Zeuksen kanssa?

@@ -1,5 +1,5 @@
 ---
-name: Paraplu LND
+name: Umbrel LND
 description: Gevorderde tutorial over het installeren en configureren van Lightning Network Daemon (LND) op Umbrel
 ---
 ![cover](assets/cover.webp)

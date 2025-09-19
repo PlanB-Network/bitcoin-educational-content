@@ -1,5 +1,5 @@
 ---
-name: ser-BOP
+name: be-BOP
 description: Guia prático para rentabilizar o seu negócio com o be-BOP
 ---
 

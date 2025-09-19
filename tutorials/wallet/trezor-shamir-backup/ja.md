@@ -1,5 +1,5 @@
 ---
-name: トレザー・シャミール・バックアップ
+name: Trezor Shamir Backup
 description: TrezorのシングルシェアおよびマルチシェアMnemonicフレーズ
 ---
 ![cover](assets/cover.webp)

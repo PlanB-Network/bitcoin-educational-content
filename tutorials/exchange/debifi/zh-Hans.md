@@ -1,5 +1,5 @@
 ---
-name: 德比菲
+name: Debifi
 description: 在不出售或放弃控制权的情况下为 Bitcoin 获取资金
 ---
 

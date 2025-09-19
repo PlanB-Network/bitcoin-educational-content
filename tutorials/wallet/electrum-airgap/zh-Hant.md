@@ -1,6 +1,6 @@
 ---
-name: 電鍍氣隙
-description: 邁向安全的第一步，Cold Wallet 搭配 Electrum
+name: Electrum Airgap
+description: 邁向安全的第一步，使用Electrum的冷錢包
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ description: 邁向安全的第一步，Cold Wallet 搭配 Electrum
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 下載後，安裝前請先確認發行版本，然後進行「單一伺服器」設定，您可以在說明部分的「從虛擬 Wallet 開始」中找到。
 

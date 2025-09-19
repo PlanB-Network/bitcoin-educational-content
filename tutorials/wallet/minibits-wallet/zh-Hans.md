@@ -73,7 +73,7 @@ ecash的特点：难以置信的私密性（交易不会留下可追踪的历史
 
 备份可以说是整个设置过程中最关键的一步。要访问 "备份 "选项，请导航至 "设置"->"备份"，您会在这里找到两个重要选项：
 
-1.您的 seed 短语 "包含 "12 个单词"，允许您在设备丢失时恢复您的现金余额。此 seed 短语是您在所有已添加的造币厂中使用所有 ecash 的万能钥匙。将其写在物理介质（纸张或金属）上，并安全地存储在多个位置。切勿将您的 seed 短语以数字形式存储，以免泄露。考虑访问此 [教程](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 以了解保护您的 Wallet 的最佳做法。
+1.您的 seed 短语 "包含 "12 个单词"，允许您在设备丢失时恢复您的现金余额。此 seed 短语是您在所有已添加的造币厂中使用所有 ecash 的万能钥匙。将其写在物理介质（纸张或金属）上，并安全地存储在多个位置。切勿将您的 seed 短语以数字形式存储，以免泄露。考虑访问此 [教程](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 以了解保护您的 Wallet 的最佳做法。
 
 2.Wallet backup"，其中包含一个长备份字符串。
 

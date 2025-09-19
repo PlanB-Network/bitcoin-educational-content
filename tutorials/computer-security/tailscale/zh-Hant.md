@@ -1,5 +1,5 @@
 ---
-name: 尾尺
+name: Tailscale
 description: Tailscale 進階教學
 ---
 ![cover](assets/cover.webp)

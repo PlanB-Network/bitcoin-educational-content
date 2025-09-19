@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - 進階
+name: COLDCARD Q - 專家
 description: 使用 COLDCARD Q 的進階選項
 ---
 ![cover](assets/cover.webp)

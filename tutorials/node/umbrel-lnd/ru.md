@@ -1,5 +1,5 @@
 ---
-name: Амбре LND
+name: Umbrel LND
 description: Продвинутый учебник по установке и настройке Lightning Network Daemon (LND) на Umbrel
 ---
 ![cover](assets/cover.webp)

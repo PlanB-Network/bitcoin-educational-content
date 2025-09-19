@@ -1,5 +1,5 @@
 ---
-name: Uzel RGB Lightning
+name: RGB Lightning Node
 description: Jak spustím uzel Lightning kompatibilní s RGB pomocí RLN?
 ---
 ![cover](assets/cover.webp)

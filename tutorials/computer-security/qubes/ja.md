@@ -1,5 +1,5 @@
 ---
-name: キューブ
+name: Qubes
 description: そこそこ安全なオペレーティング・システム。
 ---
 

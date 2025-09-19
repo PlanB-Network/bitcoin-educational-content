@@ -1,5 +1,5 @@
 ---
-name: Cold Kartica
+name: COLDCARD Mk
 
 description: Kreiranje, pravljenje rezervne kopije i korišćenje Bitcoin privatnog ključa sa Coldcard uređajem i Bitcoin Core
 ---

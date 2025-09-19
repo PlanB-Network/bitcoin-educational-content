@@ -1,5 +1,5 @@
 ---
-name: بیت‌اسپندا
+name: BitSpenda
 description: سریع‌ترین راه برای تبدیل Bitcoin به پول موبایل.
 ---
 

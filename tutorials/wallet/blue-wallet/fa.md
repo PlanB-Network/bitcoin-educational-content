@@ -1,5 +1,5 @@
 ---
-name: آبی Wallet
+name: Blue Wallet
 
 description: Bitcoin پرتفوی به‌طور رادیکال ساده و قدرتمند
 ---

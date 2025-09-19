@@ -1,6 +1,6 @@
 ---
-name: Zeus Iliyopachikwa - Advanced
-description: Wallet yenye nodi nyingi
+name: Zeus Embedded - Ya Juu
+description: Wallet ya Lightning yenye nodi nyingi ya kujihifadhi
 ---
 
 ![Zeus](assets/cover.webp)
@@ -14,13 +14,13 @@ ZEUS ni programu ya simu ya Bitcoin Wallet na usimamizi wa nodi yenye utendaji k
 
 ### ZEUS ni ya nani?
 
-Kwa sasa ZEUS ni ya watu wanaoendesha zao [Lightning Network Daemon (LND)](https://lightning.engineering/) au [Umeme wa Msingi wa Umeme (CLN)](https://blockstream.com/lightning/) nyumbani / nodi za biashara na uzidhibiti kupitia Zeus, ukiwa mbali.
+Kwa sasa ZEUS ni kwa watu wanaoendesha nodi zao za nyumbani / biashara kwa [Lightning Network Daemon (LND)](https://lightning.engineering/) au [Core Lightning (CLN)](https://blockstream.com/lightning/) na kuzisimamia kwa mbali kupitia Zeus.
 
 
-Wauzaji wanaotumia [BTCPay](https://btcpayserver.org/) au [LNBits](https://lnbits.com/) au [Alby](https://getalby.com/) (au akaunti nyingine yoyote ya LNDhub) wanaweza pia kuunganisha kwenye, kutumia, na kudhibiti nodi/akaunti zao kutoka ZEUS.
+Wafanyabiashara wanaotumia [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) au [Alby](https://getalby.com/) (au akaunti nyingine yoyote ya LNDhub) pia wanaweza kuunganisha, kutumia na kudhibiti nodi / akaunti zao kutoka ZEUS.
 
 
-[Kuanzia v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS itaanza kuhudumia watumiaji wastani ambao wanataka tu njia rahisi ya kufanya malipo ya haraka na ya bei nafuu ya Bitcoin kutoka kwa vifaa vyao vya mkononi kwa kuwa na [Njia ya umeme ya simu iliyojengewa ndani](https://docs.zeusl-nodi iliyojumuishwa na Huduma iliyojumuishwa) Mtoa huduma (LSP)](https://docs.zeusln.app/lsp/intro).
+[Kuanzia v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS utaanza kuhudumia watumiaji wa kawaida wanaotaka njia rahisi ya kufanya malipo ya bitcoin ya haraka na ya bei nafuu kutoka kwenye kifaa chao cha mkononi, kwa kuwa na [node ya Lightning ya simu iliyojengewa ndani](https://docs.zeusln.app/category/embedded-node) yenye [Mtoa Huduma wa Lightning (LSP)](https://docs.zeusln.app/lsp/intro) aliyeunganishwa.
 
 
 ### Rasilimali muhimu za Zeus:
@@ -28,8 +28,8 @@ Wauzaji wanaotumia [BTCPay](https://btcpayserver.org/) au [LNBits](https://lnbit
 
 - Ukurasa rasmi wa wavuti wa Zeus - [https://zeusln.app/](https://zeusln.app/)
 - Hati za Zeus - [https://docs.zeusln.app/](https://docs.zeusln.app/)
-- [Hazina ya Zeus Github](https://github.com/ZeusLN/zeus)
-- [Kikundi cha usaidizi cha Zeus Telegram](https://t.me/ZeusLN)
+- [Hifadhi ya Zeus kwenye Github](https://github.com/ZeusLN/zeus)
+- [Kikundi cha msaada cha Zeus kwenye Telegram](https://t.me/ZeusLN)
 - [Zeus kwenye NOSTR](https://iris.to/zeus@zeusln.app)
 - [Matangazo ya Blogu ya Zeus](https://blog.zeusln.com)
 
@@ -70,13 +70,13 @@ Ili kuweza kutumia Zeus na kudhibiti chaneli za Umeme, ukwasi, ada n.k, ni bora 
 #### Waelekezi:
 
 
-- [LND - Lightning Network Daemon Hati](https://docs.lightning.engineering/)
-- [CLN - Hati Kuu ya Umeme](https://lightning.readthedocs.io/index.html)
-- [Mwongozo wa Umeme wa Wanaoanza](https://bitcoiner.guide/lightning/) – na Bitcoin Q&A
-- [Udhibiti wa Njia ya Umeme](https://www.lightningnode.info/) - kwa njia za kufungua
-- [Lightning Network na mlinganisho wa uwanja wa ndege](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
-- [Kudhibiti Upeo wa Njia ya Umeme](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Utunzaji wa Njia ya Umeme](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [LND - Nyaraka za Lightning Network Daemon](https://docs.lightning.engineering/)
+- [CLN - Nyaraka za Core Lightning](https://lightning.readthedocs.io/index.html)
+- [Mwongozo wa Lightning kwa wanaoanza](https://bitcoiner.guide/lightning/) – na Bitcoin Q&A
+- [Usimamizi wa Node ya Lightning](https://www.lightningnode.info/) – na openoms
+- [Mtandao wa Lightning na mfano wa uwanja wa ndege](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [Usimamizi wa ukwasi wa Node ya Lightning](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Matengenezo ya Node ya Lightning](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Mafunzo ya video na Vikao vya BTC
@@ -98,7 +98,7 @@ Ninatoa mwongozo huu kwa watumiaji wote wapya wa Lightning Network (LN) ambao wa
 Hebu tuzingatie kwamba tayari unapitia wingi huo wote wa pochi za LN za ulinzi, lakini hauko tayari kuanza kuendesha nodi ya UMMA ya LN ya kuelekeza, unataka tu kuweka Sats zaidi juu ya LN kwa njia ya kujidhibiti zaidi na kufanya malipo yako ya kawaida zaidi ya LN.
 
 
-Huyu hapa Zeus anakuja, akianza na [toleo la v0.8.0 lililotangazwa kwenye blogu yao](https://blog.zeusln.com/new-release-zeus-v0-8-0/), inatoa sasa nodi iliyopachikwa ya LND kwenye programu. Hadi sasa Zeus ilikuwa programu ya usimamizi wa nodi ya mbali + akaunti za LNDhub. Lakini sasa… nodi iko kwenye simu!
+Hapa anakuja Zeus, kuanzia [toleo v0.8.0 lililotangazwa kwenye blogu yao](https://blog.zeusln.com/new-release-zeus-v0-8-0/), sasa inatoa node ya LND iliyojengewa ndani ya programu. Hadi sasa Zeus ilikuwa programu ya kusimamia node za mbali + akaunti za LNDhub. Lakini sasa… node ipo kwenye simu!
 
 
 ![Image](assets/en/02.webp)
@@ -110,7 +110,7 @@ Huyu hapa Zeus anakuja, akianza na [toleo la v0.8.0 lililotangazwa kwenye blogu 
 
 - Nodi ya kibinafsi ya **LND** - Hiyo ina maana kwamba nodi hii HAITAFANYA uelekezaji wa malipo ya watu wengine kwa umma kupitia nodi yako. Node na njia hazijatangazwa (za kibinafsi, hazionekani kwenye grafu ya umma ya LN). Kupokea na kufanya malipo kutafanywa kwa ukamilifu na washirika wako waliounganishwa wa LSP. **KUMBUKA**: Njia Iliyopachikwa ya Zeus HAITAFANYA uelekezaji wa umma!
 - **Huduma endelevu ya LND** - mtumiaji anaweza kuwezesha kipengele hiki na kuweka huduma ya LND amilifu mfululizo kama nodi yoyote ya kawaida ya LN. Programu haifai kuwa wazi, huduma inayoendelea itaweka mawasiliano yote mtandaoni.
-- Vichujio vya kuzuia **Neutrino** - usawazishaji wa kuzuia hufanywa kwa kutumia [vichungi vya kuzuia na itifaki ya Neutrino](https://bitcoinops.org/en/topics/compact-block-filters/) (haijatolewa taarifa kuhusu fedha za On-Chain za watumiaji wetu). Kikumbusho: kwa miunganisho ya kasi ya juu/ya polepole ya intaneti usawazishaji huu wa kuzuia kulingana na neutrino, wakati mwingine unaweza kushindwa. Kujaribu kubadili hadi seva ya karibu ya neutrino kunaweza kusaidia kurejesha usawazishaji. Bila usawazishaji huu nodi yako ya LND haikuweza kuanza!
+-   **Vichujio vya bloku vya Neutrino** - usawazishaji wa bloku unafanywa kwa kutumia [vichujio vya bloku na itifaki ya Neutrino](https://bitcoinops.org/en/topics/compact-block-filters/) (bila kutoa taarifa kuhusu fedha za on-chain za watumiaji wetu). Kumbuka: kwa muunganisho wa intaneti wenye ucheleweshaji mkubwa / polepole, usawazishaji huu wa bloku unaotegemea Neutrino wakati mwingine unaweza kushindwa. Kujaribu kubadilisha kwa seva ya Neutrino iliyo karibu kunaweza kusaidia kurejesha usawazishaji. Bila usawazishaji huu, nodi yako ya LND haiwezi kuanza!
 - **Vituo Rahisi vya Taproot** - Wakati wa kufunga vituo hivi, watumiaji hutozwa ada kidogo na hupewa faragha zaidi kwa vile wanaonekana kupenda matumizi mengine yoyote ya Taproot wanapokagua alama zao za On-Chain.
 - LSP iliyojumuishwa - Olympus ndio nodi mpya ya LSP ya Zeus. Watumiaji wanaweza kupokea Sats juu ya LN mara moja, bila kuwa na mipangilio ya awali ya vituo vya LN. Itabidi tu kuunda LN Invoice na kulipa kutoka LN Wallet nyingine yoyote, kwa huduma ya chaneli ya Zeus 0-conf. Soma zaidi kuhusu Zeus LSP hapa. LSP pia hutoa ufaragha ulioongezwa kwa watumiaji wetu kwa kuwapa ankara zilizofungwa ambazo huficha funguo zao za umma kutoka kwa walipaji.
 - **Kitabu cha Anwani** - unaweza kuhifadhi mwenyewe anwani au kuagiza kutoka NOSTR, kwa ajili ya kutuma malipo kwa urahisi kwenye unakoenda mara kwa mara.
@@ -123,7 +123,7 @@ Huyu hapa Zeus anakuja, akianza na [toleo la v0.8.0 lililotangazwa kwenye blogu 
 ### Jinsi ya kuingia kwenye Nodi ya Zeus LN (LND iliyopachikwa)
 
 
-Katika mwongozo huu nitazungumza tu kuhusu nodi iliyopachikwa ya LND, na si kuhusu njia nyingine za kutumia programu hii nzuri (usimamizi wa nodi za mbali na akaunti za LNDhub). Kwa aina zingine za miunganisho, tafadhali rejelea [ukurasa wa Hati za Zeus](https://docs.zeusln.app/category/getting-started), ambayo imefafanuliwa vizuri sana na hakuna haja ya kuandika mwongozo maalum.
+Katika mwongozo huu nitazungumza tu kuhusu nodi ya LND iliyojengewa ndani, na siyo njia nyingine za kutumia programu hii ya kipekee (usimamizi wa nodi za mbali na akaunti za LNDhub). Kwa aina nyingine za miunganisho, tafadhali rejelea [ukurasa wa Nyaraka za Zeus](https://docs.zeusln.app/category/getting-started), ambao umeelezwa vizuri sana na hauna haja ya mwongozo maalum.
 
 
 #### HATUA YA 1 - KUWEKA MIPANGILIO YA AWALI
@@ -137,7 +137,7 @@ Kwa sababu ya ukweli kwamba Zeus ni nodi kamili ya LND nitakuwa na mapendekezo y
 - Tumia angalau Android 11 kama OS ya rununu na usasishe kadri uwezavyo. Kwa iOS sawa, jaribu kutumia toleo la juu zaidi la OS.
 - Utahitaji angalau nafasi ya diski 1GB kwa hifadhi ya data. Baada ya muda inaweza kukua zaidi, lakini kuna utendaji wa kuunganisha hifadhidata kwa kiwango cha MB.
 - HAKUNA haja ya kutumia Zeus na huduma ya Tor au Orbot. Tafadhali usifanye mambo kuwa magumu zaidi kuliko inavyohitajika. Tor katika kesi hii haitakupa faragha zaidi lakini itazidisha mambo kwa usawazishaji wa kwanza. Pia kuwa mwangalifu na ni VPN gani unaitumia na angalia muda wa muunganisho kuelekea seva za neutrino. Kumbuka, kichujio cha kuzuia Neutrino hakivuji au kufuatilia utambulisho wa kifaa chako, ni vizuizi tu. Trafiki ya LN pia iko nyuma ya LSP iliyo na chaneli za kibinafsi kwa hivyo habari chache sana zimetolewa, hakuna sababu ya kuogopa kuhusu faragha.
-- Kuwa na subira kwa usawazishaji wa kwanza, inaweza kuchukua dakika kadhaa. Jaribu kuunganishwa kwenye muunganisho wa mtandao wa broadband ukiwa na utulivu mzuri. Ukiendesha nodi yako mwenyewe ya Bitcoin, [unaweza kuwezesha huduma ya neutrino](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) na uunganishe Zeus yako kwenye nodi yako mwenyewe, hata ukitumia LAN ya juu zaidi, ili uwe na kasi ya juu ya ndani.
+-   Kuwa na subira kwa usawazishaji wa awali, unaweza kuchukua dakika kadhaa. Jaribu kuunganishwa na muunganisho wa intaneti wa broadband wenye latency nzuri. Ikiwa unaendesha nodi yako ya Bitcoin, [unaweza kuwezesha huduma ya neutrino](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) na kuunganisha Zeus wako kwenye nodi yako mwenyewe, hata kwa kutumia LAN ya ndani, ili upate kasi ya juu zaidi.
 
 
 Mara baada ya kusanidi aina ya muunganisho "Njia iliyopachikwa" programu itaanza kusawazisha kwa muda. Subiri kwa subira ili kumaliza sehemu hiyo, kisha uingie kwenye ukurasa mkuu wa Mipangilio.
@@ -155,7 +155,7 @@ Kwa kifupi, hebu tuzame katika kila sehemu ya Mipangilio na tuelewe baadhi ya vi
 Hii ni sehemu iliyo na mipangilio ya jumla ya programu nzima
 
 
-**1 - Mtoa Huduma ya Umeme (LSP)**
+**1 - Lightning Service Provider (LSP)**
 
 
 Hapa kuna huduma mbili za LSP:
@@ -166,7 +166,7 @@ Hapa kuna huduma mbili za LSP:
 - _Omba vituo mapema_ - unaweza kununua chaneli zinazoingia kutoka kwa Olympus LSP moja kwa moja kwenye programu ukitumia chaguo na viwango vingi (kwa zinazoingia na kutoka).
 
 
-LSP husaidia kuunganisha watumiaji kwenye Lightning Network kwa kufungua njia za malipo kwenye nodi zao. [Soma zaidi kuhusu LSP hapa](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ina LSP mpya iliyounganishwa ndani yake iitwayo [OLYMPUS na ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d74974830583f9 watumiaji wote wanaopatikana), nodi.
+LSP husaidia kuunganisha watumiaji kwenye mtandao wa Lightning kwa kufungua njia za malipo kwenye nodi zao. [Soma zaidi kuhusu LSP hapa](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ina LSP mpya iliyoingizwa inayoitwa [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), inayopatikana kwa watumiaji wote wanaotumia nodi mpya iliyojengewa ndani.
 
 
 Katika sehemu hii, kwa chaguo-msingi ni Olympus LSP ( https://0conf.lnolymp.us ), lakini hivi karibuni unaweza pia kuweka 0conf LSP nyingine inayotumia itifaki hii.

@@ -1,0 +1,9 @@
+question: Chúng ta có thể học được gì từ Copernicus?
+answer: Rằng Trái Đất quay quanh Mặt Trời.
+wrong_answers:
+  - Rằng Trái Đất phẳng.
+  - Rằng Trái Đất là trung tâm của Vũ trụ.
+  - Các phương trình của Euclid là sai.
+explanation: |
+  Nicolas Copernicus (1473-1543) nổi tiếng với việc chứng minh Trái Đất quay quanh Mặt Trời, làm thay đổi hoàn toàn quan niệm của chúng ta về vũ trụ. Khám phá này có ảnh hưởng sâu sắc đến triết học và chủ nghĩa duy lý hiện đại.
+reviewed: false

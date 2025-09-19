@@ -1,5 +1,5 @@
 ---
-name: ジェイド・プラス - スズメ
+name: Jade Plus - Sparrow
 description: Jade PlusとSparrow Walletの高度な設定
 ---
 ![cover](assets/cover.webp)

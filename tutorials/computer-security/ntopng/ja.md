@@ -1,5 +1,5 @@
 ---
-name: エヌトプング
+name: Ntopng
 description: ntopngでネットワークを監視
 ---
 ![cover](assets/cover.webp)

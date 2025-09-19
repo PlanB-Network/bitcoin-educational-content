@@ -1,5 +1,5 @@
 ---
-name: 密码器
+name: Cryptomator
 description: 在云中加密你的文件
 ---
 ![cover](assets/cover.webp)

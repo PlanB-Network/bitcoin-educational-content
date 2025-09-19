@@ -1,5 +1,5 @@
 ---
-name: Pulpit GitHub
+name: GitHub Desktop
 description: Jak skonfigurować lokalne środowisko pracy?
 ---
 ![github](assets/cover.webp)

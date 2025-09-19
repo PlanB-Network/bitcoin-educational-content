@@ -1,5 +1,5 @@
 ---
-name: RGB-salamasolmu
+name: RGB Lightning Node
 description: Miten käynnistän RGB-yhteensopivan Lightning-solmun RLN:llä?
 ---
 ![cover](assets/cover.webp)

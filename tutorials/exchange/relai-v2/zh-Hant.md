@@ -1,5 +1,5 @@
 ---
-name: 繼電器
+name: Relai
 description: 使用 Relai 進行 Bitcoin 之旅的簡單教學！
 ---
 

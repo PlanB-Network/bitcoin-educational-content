@@ -1,5 +1,5 @@
 ---
-name: アーチリナックス
+name: Arch Linux
 description: KISSの哲学に基づいて設計された、ミニマリストで高性能なディストリビューション。
 ---
 

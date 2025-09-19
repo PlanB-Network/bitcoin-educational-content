@@ -1,5 +1,5 @@
 ---
-name: スズメ Wallet
+name: Sparrow Wallet
 description: Sparrow Walletのインストール、設定、使用方法
 ---
 ![cover](assets/cover.webp)

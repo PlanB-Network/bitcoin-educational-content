@@ -1,5 +1,5 @@
 ---
-name: کیوبز
+name: Qubes
 description: یک سیستم عامل نسبتاً ایمن.
 ---
 

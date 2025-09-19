@@ -359,3 +359,5 @@ LineageOS offre une alternative mature pour reprendre le contrôle de votre smar
 ### Communauté
 - [Subreddit r/LineageOS](https://reddit.com/r/LineageOS)
 - [Compte Mastodon @LineageOS](https://fosstodon.org/@LineageOS)
+
+https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

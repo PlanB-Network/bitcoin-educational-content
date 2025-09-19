@@ -156,7 +156,7 @@ node main.js
 dans votre terminal (à partir de maintenant, ce cours supposera que vous savez que c'est ainsi que vous exécutez un programme).
 
 
-Cela devrait se traduire par l'impression suivante
+Cela devrait afficher 
 
 
 ```
@@ -164,7 +164,7 @@ Cela devrait se traduire par l'impression suivante
 ```
 
 
-Vous pouvez transmettre plusieurs éléments, comme
+Vous pouvez passer plusieurs éléments en arguments, comme
 
 
 ```javascript
@@ -172,7 +172,7 @@ console.log(16, 8, 1993)
 ```
 
 
-Ceci imprimera
+Ceci affichera
 
 
 ```
@@ -191,7 +191,7 @@ Les programmes exécutent généralement des opérations sur des données.
 Les variables sont comme des boîtes nommées que nous utilisons pour stocker des données. Elles nous permettent d'associer un élément de données à un nom spécifique, de sorte que nous puissions le retrouver plus tard en utilisant ce nom.
 
 
-### déclarations `let
+### déclarations `let`
 
 
 Pour déclarer une variable en JavaScript, on peut utiliser le mot-clé `let`.
@@ -210,13 +210,13 @@ console.log(age)
 ```
 
 
-Le nom d'une variable (techniquement appelé "identificateur") peut généralement contenir des lettres, des traits de soulignement (`_`), le signe du dollar (`$`) et des chiffres, bien que le premier caractère ne puisse pas être un chiffre.
+Le nom d'une variable (techniquement appelé "identifiant") peut généralement contenir des lettres, des tirets bas (`_`), le symbole dollar (`$`) et des chiffres, bien que le premier caractère ne puisse pas être un chiffre.
 
 
 Dans le code ci-dessus, nous avons déclaré une variable appelée `age` et y avons stocké la valeur `25`.
 
 
-Ensuite, nous avons imprimé la valeur en utilisant `console.log(age)`.
+Ensuite, nous avons affiché sa valeur en utilisant `console.log(age)`.
 
 
 Si vous exécutez ce code avec `node main.js`, la sortie sera :
@@ -227,7 +227,7 @@ Si vous exécutez ce code avec `node main.js`, la sortie sera :
 ```
 
 
-Les identificateurs sont sensibles à la casse, ce qui signifie que les minuscules et les majuscules comptent comme des différences dans les identificateurs
+Les noms de variables sont sensibles à la casse, ce qui signifie que les minuscules et les majuscules sont considérés comme des caractères différents. Par exemple
 
 
 ```javascript
@@ -239,7 +239,7 @@ console.log(age)
 ```
 
 
-imprimera 25, car il s'agit de deux variables complètement distinctes !
+affichera 25, car il s'agit de deux variables complètement distinctes !
 
 
 Vous pouvez également stocker des chaînes de caractères (texte) dans une variable :
@@ -252,7 +252,7 @@ console.log(message)
 ```
 
 
-Ce message s'imprimera :
+Ceci s'affichera :
 
 
 ```
@@ -277,7 +277,7 @@ console.log(message)
 ```
 
 
-L'exécution de cette opération entraînera l'impression d'un message :
+L'exécution de ce programme provoquera l'affichage de :
 
 
 ```
@@ -305,10 +305,10 @@ console.log(score)
 ```
 
 
-Tout d'abord, nous assignons `10` à `score`, puis nous l'imprimons.
+Tout d'abord, nous assignons `10` à `score`, puis nous l'affichons.
 
 
-Ensuite, nous changeons la valeur de `score` en `15` et nous l'imprimons à nouveau.
+Ensuite, nous changeons la valeur de `score` en `15` et nous l'affichons à nouveau.
 
 
 Le résultat sera le suivant :
@@ -320,7 +320,7 @@ Le résultat sera le suivant :
 ```
 
 
-Cette fonction est très utile lorsque la valeur change avec le temps, comme dans un jeu où le score augmente.
+C'est très utile lorsque la valeur change avec le temps, comme dans un jeu où le score augmente.
 
 
 Ajoutons une autre variable au mélange :
@@ -341,7 +341,7 @@ console.log(player)
 ```
 
 
-Ce message s'imprimera :
+Ce message s'affichera :
 
 
 ```
@@ -355,7 +355,7 @@ Bob
 Comme vous pouvez le voir, `score` et `player` ont été modifiés.
 
 
-### déclarations `const` (en français dans le texte)
+### déclarations `const`
 
 
 La plupart du temps, nous ne voulons pas qu'une variable change après sa création. Pour cela, nous utilisons `const`.
@@ -370,7 +370,7 @@ console.log(pi)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -385,12 +385,12 @@ Mais si vous essayez de le faire :
 const pi = 3.14
 console.log(pi)
 
-pi = 99 // this line will cause an error
+pi = 99 // cette ligne provoquera une erreur
 console.log(pi)
 ```
 
 
-JavaScript vous donnera une erreur comme :
+JavaScript vous renverra une erreur comme :
 
 
 ```
@@ -401,10 +401,10 @@ TypeError: Assignment to constant variable.
 C'est parce que `pi` a été déclaré en utilisant `const`, et vous ne pouvez pas changer sa valeur après cela. Vous communiquez à l'interpréteur JavaScript que vous ne voulez pas que cette variable change.
 
 
-C'est utile parce que cela réduit les risques de modification par erreur. Lorsque les programmes deviennent très volumineux, avec des milliers de lignes de code, il est impossible de suivre tout ce qui se passe en même temps (c'est la principale raison pour laquelle nous utilisons des ordinateurs, pour exécuter des processus complexes que nous ne pouvons pas calculer avec notre cerveau), il devient donc utile d'avoir des restrictions comme celle-ci, qui rendent le programme plus déterministe.
+C'est utile car cela réduit les risques de modification par erreur. Lorsque les programmes deviennent très volumineux, avec des milliers de lignes de code, il est impossible de suivre tout ce qu'il se passe en même temps (c'est la principale raison pour laquelle nous utilisons des ordinateurs, pour exécuter des processus complexes que nous ne pouvons pas calculer avec notre cerveau), il devient donc utile d'avoir des restrictions comme celle-ci, qui rendent le programme plus déterministe.
 
 
-La meilleure pratique consiste à toujours déclarer nos valeurs comme `const`, à moins que nous ne soyons sûrs de vouloir les modifier plus tard.
+Il est considéré comme bonne pratique de toujours déclarer nos variables comme `const`, à moins que nous ne soyons sûrs de vouloir les modifier plus tard.
 
 
 ### Commentaires en JavaScript
@@ -420,13 +420,13 @@ Pour écrire un commentaire d'une seule ligne, utilisez `//`
 
 
 ```javascript
-// This is a comment
-const x = 10 // This is also a comment
+// Ceci est un commentaire
+const x = 10 // Ceci est aussi un commentaire
 console.log(x)
 ```
 
 
-L'impression se fera quand même :
+Cela affichera toujours :
 
 
 ```
@@ -442,15 +442,15 @@ Vous pouvez également écrire des commentaires sur plusieurs lignes en utilisan
 
 ```javascript
 /*
-This is a multi-line comment.
-It can span several lines.
+Ceci est un commentaire multiligne.
+Il peut s'étendre sur plusieurs lignes.
 */
 const y = 20
 console.log(y)
 ```
 
 
-Ceci imprimera
+Ceci affichera
 
 
 ```
@@ -481,13 +481,13 @@ Javascript a quelques types de base, et dans cette section nous allons explorer 
 Le premier type que nous allons introduire est `number`.
 
 
-Les nombres en JavaScript peuvent être des entiers (comme `5`) ou des décimales (comme `3.14`).
+Les nombres en JavaScript peuvent être des entiers (comme `5`) ou des décimaux (comme `3.14`).
 
 
 Ils permettent de faire de l'arithmétique : addition, soustraction, multiplication et division.
 
 
-Voici un exemple de base :
+Voici un exemple basique :
 
 
 ```javascript
@@ -506,7 +506,7 @@ console.log(quotient)
 ```
 
 
-Ce message s'imprimera :
+Cela affichera :
 
 
 ```
@@ -526,7 +526,7 @@ console.log(result)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -543,7 +543,7 @@ console.log(result)
 ```
 
 
-Cela s'imprimerait :
+Cela afficherait :
 
 
 ```
@@ -571,7 +571,7 @@ console.log(name)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -593,7 +593,7 @@ console.log(fullGreeting)
 ```
 
 
-Ce message s'imprimera :
+Ceci affichera :
 
 
 ```
@@ -601,7 +601,7 @@ hello Bob
 ```
 
 
-Mais il existe une façon plus agréable de combiner des chaînes de caractères appelée **interpolation de chaînes**. Vous utilisez des antisèches pour déclarer la chaîne `` `...` ` et vous écrivez des variables en utilisant `${...}` à l'intérieur de la chaîne :
+Mais il existe une façon plus agréable de combiner des chaînes de caractères appelée **interpolation de chaînes**. Vous utilisez des accent graves pour déclarer la chaîne `` `...` `` et vous écrivez des variables en utilisant `${...}` à l'intérieur de la chaîne :
 
 
 ```javascript
@@ -613,7 +613,7 @@ console.log(fullGreeting)
 ```
 
 
-Il s'imprime également :
+Ceci affiche également :
 
 
 ```
@@ -630,7 +630,7 @@ console.log(`Next year, I will be ${age + 1} years old.`)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -662,7 +662,7 @@ console.log(thisCourseIsBad)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -744,7 +744,7 @@ Un **tableau** est un type qui peut contenir plusieurs valeurs dans une liste.
 Vous créez un tableau en utilisant des crochets `[]` et en séparant les éléments par des virgules.
 
 
-Voici un exemple de base :
+Voici un exemple basique :
 
 
 ```javascript
@@ -753,7 +753,7 @@ console.log(numbers)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -770,7 +770,7 @@ console.log(things)
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -806,7 +806,7 @@ console.log(colors[2])
 ```
 
 
-Ce message s'imprimera :
+Cela affichera :
 
 
 ```
@@ -828,7 +828,7 @@ console.log(colors)
 ```
 
 
-Ce message s'imprimera :
+Ce message s'affichera :
 
 
 ```
@@ -847,7 +847,7 @@ console.log(colors[i])
 ```
 
 
-Ce message s'imprimera :
+Ceci affichera :
 
 
 ```
@@ -864,7 +864,7 @@ console.log(colors[3])
 ```
 
 
-Cette empreinte :
+Ce message s'affiche :
 
 
 ```
@@ -890,7 +890,7 @@ console.log(name)
 ```
 
 
-Cette empreinte :
+Ceci s'affiche :
 
 
 ```
@@ -910,7 +910,7 @@ console.log(fruits[2]) // There is no index 2
 ```
 
 
-Cette empreinte :
+Ceci s'affiche :
 
 
 ```
@@ -936,7 +936,7 @@ console.log(currentUser)
 ```
 
 
-Cette empreinte :
+Affiche :
 
 
 ```
@@ -957,7 +957,7 @@ console.log(winner)
 ```
 
 
-Cette empreinte :
+Ceci s'affiche :
 
 
 ```
@@ -982,16 +982,16 @@ Mais lorsque nous codons, nous pouvons contrôler l'ordre d'exécution.
 C'est ce qu'on appelle le **flux de contrôle**.
 
 
-Commençons par comprendre ce que sont les blocs et le champ d'application.
+Commençons par comprendre ce que sont les blocs et la portée.
 
 
-### Le champ d'application mondial
+### Le portée globale
 
 
-Chaque variable que nous déclarons existe dans un **scope**, c'est-à-dire la région du code où la variable est connue.
+Chaque variable que nous déclarons existe dans un **scope**, ou **portée**, c'est-à-dire la région du code où la variable est connue. 
 
 
-Si vous déclarez une variable en dehors de tout bloc, elle existe dans la **portée globale**.
+Si vous déclarez une variable en dehors de tout bloc, elle existe dans le **scope globale**.
 
 
 ```javascript
@@ -1016,7 +1016,7 @@ console.log(size)
 ```
 
 
-Les variables `color` et `size` sont des variables globales. Elles sont disponibles partout dans le fichier.
+Alors les variables `color` et `size` sont des variables globales. Elles sont disponibles partout dans le fichier.
 
 
 Mais que se passe-t-il à l'intérieur d'un bloc ?
@@ -1039,7 +1039,7 @@ console.log(message)
 ```
 
 
-Cette empreinte :
+Ceci affiche :
 
 
 ```
@@ -1092,7 +1092,7 @@ console.log("Yes I am!")
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -1119,7 +1119,7 @@ console.log("Yes I am!")
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -1143,7 +1143,7 @@ console.log("No, I am not.")
 ```
 
 
-Cette empreinte :
+Cela affiche :
 
 
 ```
@@ -1173,7 +1173,7 @@ console.log("No, I am not.")
 }
 ```
 
-Il s'imprime toujours :
+Cela affiche toujours :
 
 
 ```
@@ -1190,10 +1190,10 @@ Parce que nous avons utilisé l'opérateur `!` pour inverser la variable `adult`
 En utilisant des blocs, des opérateurs logiques et des opérateurs de comparaison, nous pouvons structurer l'exécution du programme en définissant des variables qui doivent être "vraies" (ou "fausses") pour que quelque chose se produise.
 
 
-### `pendant`, `interrompre`, `continuer`
+### `while`, `break`, `continue`
 
 
-Une boucle `while` répète le code *tant qu'une condition est vraie.
+Une boucle `while` répète le code *tant* qu'une condition est vraie.
 
 
 ```javascript

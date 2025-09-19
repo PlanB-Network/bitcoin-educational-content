@@ -1,5 +1,5 @@
 ---
-name: Jadeit
+name: Jade
 
 description: Jak skonfigurować urządzenie JADE
 ---

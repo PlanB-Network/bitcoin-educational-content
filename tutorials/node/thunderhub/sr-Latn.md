@@ -590,13 +590,13 @@ ThunderHub uveliko olakšava ovu operaciju, koja bi inače bila zamorna na koman
 
 
 
-- Odaberite **source**** kanal: Prvo odaberite **outgoing (source)** kanal, tj. kanal iz kojeg imate previše lokalne likvidnosti za premeštanje. U praksi, to je kanal gde je vaš lokalni udeo visok (> 50%). Zamislimo kanal A sa 1,000,000 Sats-a, od kojih je 900,000 lokalno - dobar kandidat za slanje Sats-a na drugo mesto. Klikom na ovaj kanal A kao "outgoing", ThunderHub ga označava kao izvor.
+- Odaberite **source** kanal: Prvo odaberite **outgoing (source)** kanal, tj. kanal iz kojeg imate previše lokalne likvidnosti za premeštavanje. U praksi, to je kanal gde je vaš lokalni udeo visok (> 50%). Zamislimo kanal A sa 1,000,000 Sats-a, od kojih je 900,000 lokalno - dobar kandidat za slanje Sats-a na drugo mesto. Klikom na ovaj kanal A kao "outgoing", ThunderHub ga označava kao izvor.
 
 
 
 
 
-- Izaberite **ciljni kanal****: Zatim izaberite **dolazni (ciljni)** kanal koji treba da primi likvidnost. Obično će to biti kanal gde je situacija obrnuta - većina sredstava je na udaljenoj strani (npr. samo 100,000 lokalnih Sats-a od 1,000,000). ThunderHub, kada je izvorni kanal izabran, će sortirati ostale kanale u obrnutom redosledu (opadajući saldo) kako bi pomogao u identifikaciji najkomplementarnijih kanala. Izaberite B kanal koji ima prostora na lokalnoj strani. ThunderHub će tada jasno prikazati koja dva kanala su izabrana (izvor A i cilj B).
+- Izaberite **ciljni kanal**: Zatim izaberite **dolazni (ciljni)** kanal koji treba da primi likvidnost. Obično će to biti kanal gde je situacija obrnuta - većina sredstava je na udaljenoj strani (npr. samo 100,000 lokalnih Sats-a od 1,000,000). ThunderHub, kada je izvorni kanal izabran, će sortirati ostale kanale u obrnutom redosledu (opadajući saldo) kako bi pomogao u identifikaciji najkomplementarnijih kanala. Izaberite B kanal koji ima prostora na lokalnoj strani. ThunderHub će tada jasno prikazati koja dva kanala su izabrana (izvor A i cilj B).
 
 
 
@@ -844,7 +844,7 @@ Sekcija **Alati** okuplja razne napredne alate za upravljanje vašim čvorom. Ev
 
 - **Računovodstvo:** Alat za izvoz finansijskih izveštaja uključujući zarađene/plaćene naknade i obime usmerene tokom datog perioda.
 - **Potpisane poruke:** **Potpišite ili verifikujte poruke** sa svojim čvorom kako biste dokazali Ownership vašeg Lightning čvora putem kriptografske potpise.
-- **Makroni (Pekara sekcija):** Upravljajte LND** makronima kako biste kreirali prilagođeni pristup. Interface "Pekara" vam omogućava da precizno odaberete svaku dozvolu: "Dodaj ili ukloni Peers", "Kreiraj Lančane Adrese", "Kreiraj Fakture", "Kreiraj Makrone", "Izvedi Ključeve", "Dobij Pristupne Ključeve", "Dobij Lančane Transakcije", "Dobij Fakture", "Dobij Wallet Info", "Dobij Uplate", "Dobij Peers", "Plati Fakture", "Poništi Pristupne Id-ove", "Pošalji na Lančane Adrese", "Potpiši bajtove", "Potpiši Poruke", "Zaustavi daemon", "Verifikuj potpis bajtova", "Verifikuj poruke", i tako dalje. Svaka dozvola može biti aktivirana pojedinačno sa "Da/Ne" dugmadima kako bi se kreirao makron po meri.
+- **Makroni (Pekara sekcija):** Upravljajte LND makronima kako biste kreirali prilagođeni pristup. Interface "Pekara" vam omogućava da precizno odaberete svaku dozvolu: "Dodaj ili ukloni Peers", "Kreiraj Lančane Adrese", "Kreiraj Fakture", "Kreiraj Makrone", "Izvedi Ključeve", "Dobij Pristupne Ključeve", "Dobij Lančane Transakcije", "Dobij Fakture", "Dobij Wallet Info", "Dobij Uplate", "Dobij Peers", "Plati Fakture", "Poništi Pristupne Id-ove", "Pošalji na Lančane Adrese", "Potpiši bajtove", "Potpiši Poruke", "Zaustavi daemon", "Verifikuj potpis bajtova", "Verifikuj poruke", i tako dalje. Svaka dozvola može biti aktivirana pojedinačno sa "Da/Ne" dugmadima kako bi se kreirao makron po meri.
 - **Informacije o sistemu:** Prikaz verzije novčanika i aktiviranih RPC-ova.
 
 
@@ -939,6 +939,6 @@ ThunderHub demokratizuje napredno upravljanje Lightning čvorovima, čineći dos
 
 
 
-- Zvanična veb stranica:** [thunderhub.io](https://thunderhub.io)
-- Dokumentacija:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- Izvorni kod na GitHub-u:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Zvanična veb stranica:** [thunderhub.io](https://thunderhub.io)
+- **Dokumentacija:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **Izvorni kod na GitHub-u:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

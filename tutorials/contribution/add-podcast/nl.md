@@ -80,9 +80,9 @@ Hier zijn de gegevens die je voor elk veld moet invullen:
 
 
 
-- `naam`**: Geef de naam van je podcast aan.
+- **`naam`**: Geef de naam van je podcast aan.
 - `host`**: Vermeld de namen of pseudoniemen van de sprekers of de host van de podcast. Elke naam moet gescheiden worden door een komma.
-- `taal`**: Geef de taalcode aan van de taal die in je podcast wordt gesproken. Bijvoorbeeld, voor Engels, noteer `en`, voor Italiaans `it`...
+- **`taal`**: Geef de taalcode aan van de taal die in je podcast wordt gesproken. Bijvoorbeeld, voor Engels, noteer `en`, voor Italiaans `it`...
 
 
 
@@ -93,11 +93,11 @@ Hier zijn de gegevens die je voor elk veld moet invullen:
 
 
 
-- `description`**: Voeg een korte paragraaf toe die je podcast beschrijft. De beschrijving moet in dezelfde taal zijn als aangegeven in het `taal:` veld.
+- `description`: **Voeg een korte paragraaf toe die je podcast beschrijft. De beschrijving moet in dezelfde taal zijn als aangegeven in het `taal:` veld.**
 
 
 
-- `tags`**: Voeg twee tags toe die bij je podcast horen. Voorbeelden:
+- **`tags`**: Voeg twee tags toe die bij je podcast horen. Voorbeelden:
     - gW-6
     - `technologie`
     - economie
@@ -105,7 +105,7 @@ Hier zijn de gegevens die je voor elk veld moet invullen:
 
 
 
-- `contributors`**: Vermeld je contribuant ID als je die hebt.
+- `contributors`**: Vermeld je contribuant ID als je die hebt.**
 
 
 Je YAML-bestand zou er bijvoorbeeld zo uit kunnen zien:

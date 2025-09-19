@@ -1,5 +1,5 @@
 ---
-name: Correo Proton
+name: Proton Mail
 description: Configurar un buzón seguro
 ---
 ![cover](assets/cover.webp)
@@ -306,7 +306,7 @@ La pestaña "*Filtros*" te permite gestionar los filtros de los correos electró
 
 
 
-La pestaña "Reenvío y respuesta automática*" le permite gestionar el reenvío y la respuesta automática de sus correos electrónicos.
+La pestaña **"Reenvío y respuesta automática"** le permite gestionar el reenvío y la respuesta automática de sus correos electrónicos.
 
 
 

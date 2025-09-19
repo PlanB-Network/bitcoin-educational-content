@@ -1,5 +1,5 @@
 ---
-name: デビフィ
+name: Debifi
 description: Bitcoinを売却することなく、支配権を手放すことなく、ドルを手に入れる
 ---
 
@@ -18,4 +18,4 @@ description: Bitcoinを売却することなく、支配権を手放すことな
 ![video](https://youtu.be/02gzg-en8n0)
 
 
-**このチュートリアルは英語版のみの草稿です。もしそのような方がいらっしゃいましたら、私たちの[Telegram](https://t.me/PlanBNetwork_ContentBuilder/325)または[GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)までご連絡ください。
+**このチュートリアルは英語版のみの草稿です。もしそのような方がいらっしゃいましたら、私たちの**[Telegram](https://t.me/PlanBNetwork_ContentBuilder/325)**または**[GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)**までご連絡ください。**

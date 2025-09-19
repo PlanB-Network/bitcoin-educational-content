@@ -1,5 +1,5 @@
 ---
-name: Peněženka Proton
+name: Proton Wallet
 description: Instalace a používání peněženky Proton Bitcoin
 ---
 ![cover](assets/cover.webp)

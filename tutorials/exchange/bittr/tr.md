@@ -1,5 +1,5 @@
 ---
-name: Bittr ile Bitcoin'ı kendi Wallet'inize nasıl dönüştürebilirsiniz?
+name: Bittr
 description: Kendi kendine velayet Bitcoin satın alımları için adım adım basit bir kılavuz
 ---
 

@@ -118,7 +118,7 @@ Antes de instalar o Qubes OS, é essencial garantir que o seu hardware cumpre os
 
 - O **Processador**: Um processador de 64 bits compatível com a virtualização de hardware (Intel VT-x ou AMD-V).
 - RAM: é necessário um mínimo de 8 GB, mas recomendamos uma RAM de 16 GB ou mais para executar vários qubes em simultâneo.
-- Espaço de armazenamento**: um mínimo de 36 GB, idealmente 128 GB num SSD para um desempenho ótimo.
+- **Espaço de armazenamento**: um mínimo de 36 GB, idealmente 128 GB num SSD para um desempenho ótimo.
 
 
 
@@ -148,7 +148,7 @@ Quando estas condições estiverem reunidas, reinicie o computador e aceda à BI
 
 
 
-**Ecrã de arranque
+**Ecrã de arranque**
 
 
 Ao arrancar a partir da pen USB, será levado diretamente para o menu **GRUB**, onde poderá escolher a ação a executar. Utilizando as teclas de setas do teclado, selecione "Install Qubes OS" e prima "Enter".

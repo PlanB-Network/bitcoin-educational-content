@@ -1,5 +1,5 @@
 ---
-name: Spekter
+name: Specter
 
 description: Vodič za postavljanje Specter-a
 ---

@@ -400,9 +400,9 @@ Innan vi går närmare in på komprimeringsfunktionen är det viktigt att först
 
 
 
-- Konjunktion (AND)**: betecknas $\land$, motsvarar ett logiskt "AND".
-- Disjunction (OR)**: betecknas $\lor$, motsvarar ett logiskt "OR".
-- Negation (NOT)**: betecknas $\lnot$ och motsvarar ett logiskt "NOT".
+- **Konjunktion (AND)**: betecknas $\land$, motsvarar ett logiskt "AND".
+- **Disjunction (OR)**: betecknas $\lor$, motsvarar ett logiskt "OR".
+- **Negation (NOT)**: betecknas $\lnot$ och motsvarar ett logiskt "NOT".
 
 
 Utifrån dessa grundläggande operationer kan vi definiera mer komplexa operationer, till exempel "Exclusive OR" (XOR) som betecknas $\oplus$ och som ofta används inom kryptografi.
@@ -523,9 +523,9 @@ I det föregående steget delade vi upp vår indata i flera 512-bitars bitar $P$
 
 
 
-- Meddelandeorden $W_i$**: för $i$ från 0 till 63.
-- Konstanterna $K_i$**: för $i$ från 0 till 63, definierade i föregående steg.
-- Tillståndsvariablerna $A, B, C, D, E, F, G, H$**: initialiseras med värdena från föregående steg.
+- Meddelandeorden **$W_i$**: för $i$ från 0 till 63.
+- Konstanterna **$K_i$**: för $i$ från 0 till 63, definierade i föregående steg.
+- Tillståndsvariablerna $A, B, C, D, E, F, G, H$ initialiseras med värdena från föregående steg.
 
 
 De första 16 orden, $W_0$ till $W_{15}$, extraheras direkt från det bearbetade 512-bitarsblocket $P$. Varje ord $W_i$ består av 32 på varandra följande bitar från blocket. Vi tar till exempel vår första indata $P_1$ och delar upp den i mindre 32-bitars bitar som vi kallar ord.
@@ -562,7 +562,7 @@ Vi utför sedan följande operationer på våra indata:
 
 
 
-- Funktion $\Sigma_0$:**
+- Funktion $\Sigma_0$:
 
 
 $$
@@ -571,7 +571,7 @@ $$
 
 
 
-- Funktion $\Sigma_1$:**
+- Funktion $\Sigma_1$:
 
 
 $$
@@ -580,7 +580,7 @@ $$
 
 
 
-- Funktion $Ch$ ("_Choose_"):**
+- Funktion $Ch$ ("_Choose_")**:**
 
 
 $$
@@ -589,7 +589,7 @@ $$
 
 
 
-- Funktion $Maj$ ("_Majoritet_"):**
+- Funktion $Maj$ ("_Majoritet_"):
 
 
 $$
@@ -765,8 +765,8 @@ I Bitcoin-plånböcker används huvudsakligen 2 derivationsalgoritmer:
 
 
 
-- HMAC (_Hash-baserad kod för autentisering av meddelanden_)**
-- PBKDF2 (_Password-Based Key Derivation Function 2_)**
+- HMAC (_Hash-baserad kod för autentisering av meddelanden_)
+- PBKDF2 (**Password-Based Key Derivation Function 2**)
 
 
 Vi kommer tillsammans att undersöka hur var och en av dem fungerar och vilken roll de har.
@@ -1716,8 +1716,8 @@ Den initiala entropi som används för en HD Wallet är i allmänhet 128 bitar e
 
 
 
-- 128 bitars entropi** motsvarar en Mnemonic-fras på **12 ord**;
-- 256 bitars entropi** motsvarar en Mnemonic-fras på **24 ord**.
+- 128 bitars entropi motsvarar en Mnemonic-fras på **12 ord**;
+- 256 bitars entropi motsvarar en Mnemonic-fras på **24 ord**.
 
 
 I de flesta fall genereras detta slumptal automatiskt av programvaran Wallet med hjälp av en PRNG (_Pseudo-Random Number Generator_). PRNG är en kategori av algoritmer som används för att generate generera talsekvenser från ett initialt tillstånd, som har egenskaper som närmar sig ett slumpmässigt tal, utan att egentligen vara ett sådant. En bra PRNG måste ha egenskaper som enhetlighet i utdata, oförutsägbarhet och motståndskraft mot prediktiva attacker. Till skillnad från äkta slumptalsgeneratorer (TRNG) är PRNG deterministiska och reproducerbara.
@@ -1892,7 +1892,7 @@ Som vi just har sett genereras HD-plånböcker från en Mnemonic-fras som vanlig
 passphrase är ett valfritt lösenord, som du kan välja fritt, som läggs till Mnemonic-frasen i nyckelhärledningsprocessen för att förbättra Wallet:s säkerhet.
 
 
-Var försiktig, passphrase ska inte förväxlas med PIN-koden för din Hardware Wallet eller lösenordet som används för att låsa upp åtkomst till din Wallet på din dator. Till skillnad från alla dessa Elements spelar passphrase en roll i härledningen av din Wallet:s nycklar. **Detta innebär att utan den kommer du aldrig att kunna återfå dina bitcoins
+Var försiktig, passphrase ska inte förväxlas med PIN-koden för din Hardware Wallet eller lösenordet som används för att låsa upp åtkomst till din Wallet på din dator. Till skillnad från alla dessa Elements spelar passphrase en roll i härledningen av din Wallet:s nycklar. **Detta innebär att utan den kommer du aldrig att kunna återfå dina bitcoins.**
 
 
 passphrase fungerar tillsammans med Mnemonic-frasen och modifierar seed från vilken nycklarna genereras. Även om någon får tag på din 12- eller 24-ordsfras kan de alltså inte komma åt dina pengar utan passphrase. Genom att använda en passphrase skapas i princip en ny Wallet med distinkta nycklar. Om passphrase modifieras (även något) blir generate en annan Wallet.
@@ -2093,13 +2093,13 @@ I det följande kommer vi att använda följande notation:
 En utökad nyckel är uppbyggd på följande sätt:
 
 
-- Version**: Versionskod för att identifiera nyckelns karaktär (`xprv`, `xpub`, `yprv`, `ypub`...). Vi kommer i slutet av detta kapitel att se vad bokstäverna "x", "y" och "z" motsvarar.
-- Djup**: Hierarkisk nivå i HD Wallet i förhållande till huvudnyckeln (0 för huvudnyckeln).
-- Överordnat fingeravtryck**: De första 4 bytena av HASH160 Hash för den överordnade offentliga nyckel som används för att härleda den nyckel som finns i nyttolasten.
-- Indexnummer**: Identifierar barnet bland syskonnycklar, det vill säga bland alla nycklar på samma härledningsnivå som har samma föräldranycklar.
-- chain code**: En unik 32-byte kod för att härleda barnnycklar.
-- Nyckel**: Den privata nyckeln (med 1 byte som prefix för storlek) eller den offentliga nyckeln.
-- Checksumma**: En kontrollsumma som beräknas med funktionen HASH256 (dubbel SHA256) läggs också till, vilket gör det möjligt att verifiera den utökade nyckelns integritet under överföring eller lagring.
+- **Version**: Versionskod för att identifiera nyckelns karaktär (`xprv`, `xpub`, `yprv`, `ypub`...). Vi kommer i slutet av detta kapitel att se vad bokstäverna "x", "y" och "z" motsvarar.
+- **Djup**: Hierarkisk nivå i HD Wallet i förhållande till huvudnyckeln (0 för huvudnyckeln).
+- **Överordnat fingeravtryck**: De första 4 bytena av HASH160 Hash för den överordnade offentliga nyckel som används för att härleda den nyckel som finns i nyttolasten.
+- **Indexnummer**: Identifierar barnet bland syskonnycklar, det vill säga bland alla nycklar på samma härledningsnivå som har samma föräldranycklar.
+- **chain code**: En unik 32-byte kod för att härleda barnnycklar.
+- **Nyckel**: Den privata nyckeln (med 1 byte som prefix för storlek) eller den offentliga nyckeln.
+- **Checksumma**: En kontrollsumma som beräknas med funktionen HASH256 (dubbel SHA256) läggs också till, vilket gör det möjligt att verifiera den utökade nyckelns integritet under överföring eller lagring.
 
 
 Det fullständiga formatet för en utökad nyckel är därför 78 byte utan kontrollsumma och 82 byte med kontrollsumma. Den konverteras sedan till Base58 för att ge en representation som är lättläst för användarna. Base58-formatet är detsamma som används för *Legacy*-mottagningsadresser (före *SegWit*).
@@ -2148,7 +2148,7 @@ För att bättre förstå den interna strukturen i en utökad nyckel, låt oss t
 
 
 
-- I Base58**:
+- I Base58:
 
 
 ```text
@@ -2157,7 +2157,7 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 
 
-- I hexadecimal**:
+- I hexadecimal:
 
 
 ```text
@@ -2231,8 +2231,8 @@ Låt oss undersöka hur denna deterministiska härledning fungerar.
 Som vi kort berörde i föregående kapitel är barnnycklar indelade i två huvudtyper.
 
 
-- Normala underordnade nycklar** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Dessa härleds från den utökade publika nyckeln ($K_{\text{PAR}}$), eller den utökade privata nyckeln ($k_{\text{PAR}}$), genom att först härleda den publika nyckeln.
-- Härdade underordnade nycklar** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Dessa kan endast härledas från den utökade privata nyckeln ($k_{\text{PAR}}$) och är därför osynliga för observatörer som endast har den utökade publika nyckeln.
+- **Normala underordnade nycklar** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Dessa härleds från den utökade publika nyckeln ($K_{\text{PAR}}$), eller den utökade privata nyckeln ($k_{\text{PAR}}$), genom att först härleda den publika nyckeln.
+- **Härdade underordnade nycklar** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Dessa kan endast härledas från den utökade privata nyckeln ($k_{\text{PAR}}$) och är därför osynliga för observatörer som endast har den utökade publika nyckeln.
 
 
 Varje underordnat nyckelpar identifieras med ett 32-bitars **index** (som kallas $i$ i våra beräkningar). Indexen för normala nycklar sträcker sig från $0$ till $2^{31}-1$, medan de för härdade nycklar sträcker sig från $2^{31}$ till $2^{32}-1$. Dessa nummer används för att skilja syskonnyckelpar åt under härledningen. Varje föräldranyckelpar måste kunna härleda flera barnnyckelpar. Om vi skulle tillämpa samma beräkning systematiskt från föräldranycklarna skulle alla syskonnycklar som erhålls vara identiska, vilket inte är önskvärt. Indexet introducerar således en variabel som modifierar härledningsberäkningen, vilket gör att varje syskonpar kan differentieras. Med undantag för specifik användning i vissa protokoll och härledningsstandarder börjar vi i allmänhet med att härleda den första underordnade nyckeln med index "0", den andra med index "1" och så vidare.
@@ -2244,8 +2244,8 @@ Varje underordnat nyckelpar identifieras med ett 32-bitars **index** (som kallas
 Härledningen av varje underordnad nyckel baseras på HMAC-SHA512-funktionen, som vi diskuterade i avsnitt 2 om Hash-funktioner. Den tar två ingångar: den överordnade chain code $C_{\text{PAR}}$ och sammankopplingen av den överordnade nyckeln (antingen den publika nyckeln $K_{\text{PAR}}$ eller den privata nyckeln $k_{\text{PAR}}$, beroende på vilken typ av underordnad nyckel som önskas) med indexet. Resultatet av HMAC-SHA512 är en 512-bitarssekvens som är uppdelad i två delar:
 
 
-- De första 32 bytena** (eller $h_1$) används för att beräkna det nya barnparet.
-- De sista 32 byte** (eller $h_2$) fungerar som den nya chain code $C_{\text{CHD}}$ för barnparet.
+- De första 32 bytena (eller $h_1$) används för att beräkna det nya barnparet.
+- De sista 32 byte (eller $h_2$) fungerar som den nya chain code $C_{\text{CHD}}$ för barnparet.
 
 
 I alla våra beräkningar kommer jag att beteckna $\text{Hash}$ utdata från HMAC-SHA512-funktionen.
@@ -2436,8 +2436,8 @@ Här är en schematisk bild av den övergripande härledningen:
 En fråga som kan uppstå är hur en normal publik nyckel för barn som härrör från en publik nyckel för förälder kan motsvara en normal privat nyckel för barn som härrör från motsvarande privat nyckel för förälder. Denna länk säkerställs exakt av egenskaperna hos elliptiska kurvor. För att härleda en normal underordnad publik nyckel används HMAC-SHA512 på samma sätt, men dess resultat används på ett annat sätt:
 
 
-   - Normal privat nyckel för barn**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
-   - Normal offentlig nyckel för barn**: $K_{\text{CHD}}^n = \text{parse256}(h_1) \cdot G + K_{\text{PAR}}$
+- Normal privat nyckel för barn: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
+- **Normal offentlig nyckel för barn**: $K_{\text{CHD}}^n = \text{parse256}(h_1) \cdot G + K_{\text{PAR}}$
 
 
 Tack vare additions- och dubblingsoperationerna på den elliptiska kurvan ger båda metoderna konsekventa resultat: den publika nyckel som härleds från barnets privata nyckel är identisk med den publika nyckel som härleds direkt från förälderns publika nyckel.
@@ -2533,8 +2533,8 @@ Denna uppdelning i olika konton är frivillig. Den syftar till att förenkla org
 Varje konto som definieras på djupet 3 struktureras sedan i två kedjor:
 
 
-- Den externa kedjan**: I denna kedja härleds vad som kallas "offentliga" adresser. Dessa mottagaradresser är avsedda att låsa UTXO:er som kommer från externa transaktioner (det vill säga som härrör från konsumtion av UTXO:er som inte tillhör dig). För att uttrycka det enkelt används denna externa kedja när man vill ta emot bitcoins. När du klickar på "*receive*" i din Wallet-programvara är det alltid en Address från den externa kedjan som erbjuds dig. Denna kedja representeras av ett par nycklar som härleds med indexet $/0/$.
-- Den interna kedjan (förändring)**: Denna kedja är reserverad för att ta emot adresser som låser bitcoins som kommer från konsumtionen av UTXO som tillhör dig, med andra ord ändra adresser. Den identifieras med indexet $/1/$.
+- **Den externa kedjan**: I denna kedja härleds vad som kallas "offentliga" adresser. Dessa mottagaradresser är avsedda att låsa UTXO:er som kommer från externa transaktioner (det vill säga som härrör från konsumtion av UTXO:er som inte tillhör dig). För att uttrycka det enkelt används denna externa kedja när man vill ta emot bitcoins. När du klickar på "*receive*" i din Wallet-programvara är det alltid en Address från den externa kedjan som erbjuds dig. Denna kedja representeras av ett par nycklar som härleds med indexet $/0/$.
+- **Den interna kedjan (förändring)**: Denna kedja är reserverad för att ta emot adresser som låser bitcoins som kommer från konsumtionen av UTXO som tillhör dig, med andra ord ändra adresser. Den identifieras med indexet $/1/$.
 
 
 **Djup 5: Address Index (BIP32)**
@@ -3010,7 +3010,7 @@ I samband med Bitcoin erbjuder BCH-koder en bättre kompromiss mellan storlek oc
 För att beräkna kontrollsumman med BCH-koder måste vi förbereda flera Elements.
 
 
-- HRP (*Human Readable Part*)**: För Bitcoin Mainnet är HRP `bc`;
+- HRP (**Human Readable Part**): För Bitcoin Mainnet är HRP `bc`;
 
 
 HRP måste utvidgas genom att varje karaktär delas upp i två delar:
@@ -3035,15 +3035,15 @@ Med separatorn `0` mellan de två tecknen är HRP-tillägget därför:
 
 
 
-- Vittnets version**: För SegWit version 0, är det "00";
+- **Vittnets version**: För SegWit version 0, är det "00";
 
 
 
-- Nyttolasten**: Decimalvärdena för den publika nyckeln Hash;
+- **Nyttolasten**: Decimalvärdena för den publika nyckeln Hash;
 
 
 
-- Reservationen för kontrollsumman**: Vi lägger till 6 nollor `[0, 0, 0, 0, 0, 0, 0]` i slutet av sekvensen.
+- **Reservationen för kontrollsumman**: Vi lägger till 6 nollor `[0, 0, 0, 0, 0, 0, 0]` i slutet av sekvensen.
 
 
 Alla kombinerade data som ska matas in i programmet för att beräkna kontrollsumman är följande:
@@ -3070,9 +3070,9 @@ Beräkningen av kontrollsumman är ganska komplex. Den involverar polynomial fin
 Vi kan nu konstruera den mottagande Address genom att i tur och ordning sammankoppla följande Elements:
 
 
-- SegWit version**: `00`
-- Nyttolasten**: Den publika nyckeln Hash
-- Kontrollsumman**: De värden som erhölls i föregående steg (`10 16 11 04 13 18`)
+- **SegWit version**: `00`
+- **Nyttolasten**: Den publika nyckeln Hash
+- **Kontrollsumman**: De värden som erhölls i föregående steg (`10 16 11 04 13 18`)
 
 
 Detta ger oss i decimal:
@@ -3182,7 +3182,7 @@ var:
 
 
 
-- $\text{H}_{\text{TapTweak}}$** är en SHA256 Hash-funktion taggad med taggen `TapTweak`. Om du inte är bekant med vad en taggad Hash-funktion är, uppmanar jag dig att läsa kapitel 3.3;
+- $\text{H}_{\text{TapTweak}}$ **är en SHA256 Hash-funktion taggad med taggen `TapTweak`. Om du inte är bekant med vad en taggad Hash-funktion är, uppmanar jag dig att läsa kapitel 3.3;**
 - $P$ är den interna offentliga nyckeln, representerad i sitt komprimerade 256-bitarsformat, med endast $x$-koordinaten.
 
 
@@ -3207,9 +3207,9 @@ Taproot Address genereras genom att $x$-koordinaten för $Q$ kodas i formatet _b
 
 
 
-- HRP (_Human Readable Part_)**: `bc`, för att ange huvudnätverket Bitcoin;
-- Version**: `1` för att indikera Taproot / SegWit v1;
-- Kontrollsumman**.
+- **HRP (_Human Readable Part_)**: `bc`, för att ange huvudnätverket Bitcoin;
+- **Version**: `1` för att indikera Taproot / SegWit v1;
+- **Kontrollsumman**.
 
 
 Den slutliga Address kommer därför att ha formatet:

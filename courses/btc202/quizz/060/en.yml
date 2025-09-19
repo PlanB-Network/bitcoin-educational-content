@@ -1,0 +1,9 @@
+question: What is the role of a Nostr relay installed on Umbrel?
+answer: Host your publications locally
+wrong_answers:
+  - Check Bitcoin transactions
+  - Create Nostr channels with your contacts
+  - Local backup of Blockchain Nostr
+explanation: |
+  A Nostr relay on Umbrel enables data to be hosted locally, guaranteeing availability and sovereignty.
+reviewed: false

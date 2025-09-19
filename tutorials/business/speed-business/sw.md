@@ -28,25 +28,25 @@ Kasi ina anuwai ya vipengele vya kufunika vipengele vya kifedha vya biashara yak
 
 
 
-- Mipangilio ya malipo ya mtandaoni**: Pokea malipo kutoka kwa wateja wako popote walipo, shukrani kwa tovuti yako.
+- **Mipangilio ya malipo ya mtandaoni**: Pokea malipo kutoka kwa wateja wako popote walipo, shukrani kwa tovuti yako.
 
 
 
 
 
-- Malipo ya tovuti**: Yanafaa kwa maduka na biashara zinazokusanya pesa dukani.
+- **Malipo ya tovuti**: Yanafaa kwa maduka na biashara zinazokusanya pesa dukani.
 
 
 
 
 
-- Uondoaji**: Toa mali yako vizuri na utumie bitcoins zako kulipa wateja wako na mishahara.
+- **Uondoaji**: Toa mali yako vizuri na utumie bitcoins zako kulipa wateja wako na mishahara.
 
 
 
 
 
-- Muunganisho na mifumo mingine**: Je, unatumia zana za nje kudhibiti malipo yako? Kasi hukupa uwezekano wa kuziunganisha kwenye jukwaa lake, kwa mfumo ikolojia wa kila mmoja unaoakisi biashara yako.
+- **Muunganisho na mifumo mingine**: Je, unatumia zana za nje kudhibiti malipo yako? Kasi hukupa uwezekano wa kuziunganisha kwenye jukwaa lake, kwa mfumo ikolojia wa kila mmoja unaoakisi biashara yako.
 
 
 
@@ -265,13 +265,13 @@ Katika menyu ya **Tuma Malipo**, utapata chaguo zote za kuhamisha pesa kwa kasi.
 
 
 
-- Malipo ya papo hapo**: Ukiwa na chaguo la Kutuma Papo Hapo, tuma bitcoins kwa usalama papo hapo kutoka kwa akaunti yako ya mfanyabiashara.
+- **Malipo ya papo hapo**: Ukiwa na chaguo la Kutuma Papo Hapo, tuma bitcoins kwa usalama papo hapo kutoka kwa akaunti yako ya mfanyabiashara.
 
 
 
 
 
-- Viungo vya uondoaji vya generate** ili kuwezesha washirika na wasambazaji wako kufikia malipo yao baadaye bila kuhitaji uwepo wako mtandaoni.
+- Viungo vya uondoaji vya **generate** ili kuwezesha washirika na wasambazaji wako kufikia malipo yao baadaye bila kuhitaji uwepo wako mtandaoni.
 
 
 
@@ -289,7 +289,7 @@ Katika chaguo la **Viungo vya Kutoa **, tengeneza kiungo kipya cha uondoaji, kis
 
 
 
-- Malipo**: Katika menyu ya Malipo, anzisha uondoaji kutoka kwa salio lako la Kasi ya Biashara hadi Wallet yako ya kibinafsi.
+- **Malipo**: Katika menyu ya Malipo, anzisha uondoaji kutoka kwa salio lako la Kasi ya Biashara hadi Wallet yako ya kibinafsi.
 
 
 
@@ -299,7 +299,7 @@ Katika chaguo la **Viungo vya Kutoa **, tengeneza kiungo kipya cha uondoaji, kis
 
 
 
-- Punguzo**: Watie moyo wateja wako wa kawaida kwa kuweka chaguo za punguzo ili kupata bonasi.
+- **Punguzo**: Watie moyo wateja wako wa kawaida kwa kuweka chaguo za punguzo ili kupata bonasi.
 
 
 
@@ -436,4 +436,3 @@ Una ufahamu mzuri wa Kasi, unganisha Bitcoin kwenye biashara yako na uendeleze u
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

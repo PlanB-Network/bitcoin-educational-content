@@ -538,12 +538,12 @@ Um besser zu verstehen, wie Gebühren funktionieren, betrachten wir dasselbe Lig
 Für dieselbe Zahlung von **40.000 Satoshis** an Bob muss Alice ein wenig mehr senden, da jeder Zwischenknoten seine Gebühren abzieht:
 
 - **Carol** zieht 1,04 Satoshis auf dem Kanal mit Bob ab:
-  $$ f*{\text{Carol-Bob}} = \text{Basisgebühr} + \left(\frac{\text{ppm} \times \text{Betrag}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ Sats} $$
+$$ f_{\text{Carol-Bob}} = \text{Basisgebühr} + \left(\frac{\text{ppm} \times \text{Betrag}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ Sats} $$
 
 - **Suzie** zieht 8 Satoshis an Gebühren auf dem Kanal mit Carol ab:
-  $$ f*{\text{Suzie-Carol}} = \text{Basisgebühr} + \left(\frac{\text{ppm} \times \text{Betrag}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ Sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{Basisgebühr} + \left(\frac{\text{ppm} \times \text{Betrag}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ Sats} $$
 
 Die Gesamtgebühren für diese Zahlung auf diesem Weg betragen daher **9,04 Satoshis**. Somit muss Alice **40.009,04 Satoshis** senden, damit Bob genau **40.000 Satoshis** erhält.
 

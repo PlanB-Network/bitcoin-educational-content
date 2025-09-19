@@ -1,0 +1,9 @@
+question: Nchi ambayo Spinoza aliishi na kuandika kazi yake ni?
+answer: Mikoa ya Muungano.
+wrong_answers:
+  - Ufaransa.
+  - Uingereza.
+  - Uswidi.
+explanation: |
+  Spinoza aliishi na kuandika kazi zake zote katika Mikoa ya Muungano (sasa ni Uholanzi), ambayo wakati huo ilikuwa kimbilio la wanafikra huru na walio wachache wa kidini walioteswa kwingineko katika Ulaya.
+reviewed: false

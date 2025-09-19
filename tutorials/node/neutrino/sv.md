@@ -2,24 +2,28 @@
 name: Neutrino
 description: Installationshandbok för LND Neutrino
 ---
+![image](assets/cover.webp)
 
-# Konfiguration av Raspberry Pi med LND
+
+## Konfiguration av Raspberry Pi med LND
 
 
-#### 1. Ladda ner Raspberry Pi OS Lite
+### 1. Ladda ner Raspberry Pi OS Lite
+
 
 Instruktioner för att ladda ner och installera bilden på ett micro SD-kort i Windows, Mac och Linux finns på [den här sidan] (https://www.raspberrypi.org/software/operating-systems/).
 
 
-#### 2. Formatera SD-kortet
+### 2. Formatera SD-kortet
 
-använd Raspberry Pi Imager eller balenaEtcher.
+
+Använd Raspberry Pi Imager eller balenaEtcher.
 
 
 **Symbolen `$` används som en prompt och gör det möjligt för användaren att skriva in kommandon i datorn, kommandona tolkas av bash i Linux. Symbolen `#` i början av en rad anger att den följande texten är en kommentar.
 
 
-#### 3. Aktivera SSH
+### 3. Aktivera SSH
 
 
 Innan vi startar Raspberry Pi med det formaterade minnet måste vi sätta in det i en dator och skapa två filer som gör att vi kan fjärransluta. Med kommandot `touch` skapar vi en tom fil i /boot-partitionen, vilket möjliggör SSH-anslutning vid den första starten av det nyformaterade SD-kortet.
@@ -31,7 +35,9 @@ Innan vi startar Raspberry Pi med det formaterade minnet måste vi sätta in det
 $ touch /boot/ssh
 ```
 
-#### 4. Skapa fil för Wi-Fi-anslutning
+
+### 4. Skapa fil för Wi-Fi-anslutning
+
 
 Med hjälp av kommandot nano skapar vi filen `wpa_supplicant.conf` och börjar direkt redigera den. I den här filen måste vi kopiera wifi-konfigurationen, kopiera texten mellan START och END och ändra SSID och lösenord för det wifi du vill ansluta till.
 
@@ -52,14 +58,17 @@ psk="password"
 ```
 
 
-#### 5. Anslutning
+### 5. Anslutning
+
 
 Sedan sätter vi in SD-kortet i Raspberry Pi och ansluter Pi till strömkällan för att starta operativsystemet. Vi måste identifiera den i nätverket, och mDNS-protokollet kommer sannolikt att tilldela den namnet raspberrypi.local. Låt oss försöka ansluta via SSH.
+
 
 ```
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
+
 
 Om det inte fungerar måste vi ta reda på nätverket. Låt oss ta reda på vilken IP Address vi är anslutna till.
 
@@ -86,7 +95,8 @@ password: raspberry
 ```
 
 
-#### 6. Konfigurera Pi
+### 6. Konfigurera Pi
+
 
 ```
 $ sudo raspi-config
@@ -100,7 +110,8 @@ $ sudo raspi-config
 - Avsluta
 
 
-#### 7. Uppdatera nu operativsystemet
+### 7. Uppdatera nu operativsystemet
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
@@ -108,14 +119,15 @@ $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim 
 ```
 
 
-#### 8. Lägg till Bitcoin-användaren
+### 8. Lägg till Bitcoin-användaren
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
 
-#### 9. Säkra rpi
+### 9. Säkra rpi
 
 
 ```
@@ -132,9 +144,10 @@ $ sudo apt install fail2ban
 ```
 
 
-#### 10. Installera Go
+### 10. Installera Go
 
-Om du inte använder en raspberry pi kan du ladda ner go for your architecture [här] (https://golang.org/dl/)
+
+Om du inte använder en raspberry pi kan du ladda ner go for your architecture [här] (https://golang.org/dl/).
 
 
 ```
@@ -148,7 +161,7 @@ $ go version # should display the following message 'go version go1.13.5 linux/a
 ```
 
 
-#### 11. Kompilera och installera LND
+### 11. Kompilera och installera LND
 
 
 ```
@@ -163,7 +176,8 @@ lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c
 ```
 
 
-#### 12. Skapa LND conf-fil
+### 12. Skapa LND conf-fil
+
 
 Skapa konfigurationsfilen för LND, detta bör göras med användaren "Bitcoin
 
@@ -200,7 +214,8 @@ neutrino.connect=bb2.breez.technology
 ```
 
 
-#### 13. LND tjänst autostart
+### 13. LND tjänst autostart
+
 
 För att få LND att starta efter rpi-start måste vi skapa .service-filen i systemd. Om vi är inloggade som Bitcoin-användare och vill byta tillbaka till pi-användaren skriver vi helt enkelt "exit
 
@@ -284,7 +299,7 @@ $ sudo journalctl -f -u lnd
 ```
 
 
-#### 14. Nu börjar vi LND
+### 14. Nu börjar vi LND
 
 
 ```
@@ -293,7 +308,7 @@ $ lncli create
 ```
 
 
-#### 15. Tillför medel till noden
+### 15. Tillför medel till noden
 
 
 ```
@@ -321,6 +336,7 @@ När transaktionen har bekräftats kan vi öppna en kanal. Om du inte vet vilken
 
 Öppna en anslutning till en nod:
 
+
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
@@ -328,12 +344,14 @@ $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836
 
 Öppna sedan en kanal:
 
+
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
 
 Kontrollera våra fonder:
+
 
 ```
 $ lncli walletbalance
@@ -343,6 +361,7 @@ $ lncli channelbalance
 
 Vi kan se de väntande och aktiva kanalerna:
 
+
 ```
 $ lncli pendingchannels
 $ lncli listchannels
@@ -351,12 +370,14 @@ $ lncli listchannels
 
 För att betala en blixt Invoice:
 
+
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
 
 För att ta emot en betalning skapar du en Invoice för ett visst belopp:
+
 
 ```
 $ lncli addinvoice --memo 'my first payment on LN' --amt 100
@@ -365,6 +386,7 @@ $ lncli addinvoice --memo 'my first payment on LN' --amt 100
 
 För att se information om min nod:
 
+
 ```
 $ lncli getinfo
 ```
@@ -372,12 +394,14 @@ $ lncli getinfo
 
 Den fullständiga listan över kommandon kan ses genom att köra kommandot lncli:
 
+
 ```
 $ lncli
 ```
 
 
 Slutligen, för att göra anrop till LND API:
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"

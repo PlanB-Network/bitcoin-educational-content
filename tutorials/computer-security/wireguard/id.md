@@ -79,7 +79,7 @@ Sekarang saya akan bercerita tentang lab saya dan apa yang akan kami siapkan har
 
 
 
-Saya akan menggunakan mesin Debian 11 sebagai server WireGuard dan klien Windows sebagai klien VPN WireGuard. Meskipun agak menyesatkan untuk berbicara tentang hubungan klien-server, karena **WireGuard bekerja dengan model "peer-to-peer". Itu sedikit keliru ketika Anda mencoba menyiapkan koneksi "klien-ke-situs". Katakanlah saya akan memiliki dua pasang atau **dua titik koneksi WireGuard** jika Anda lebih suka: satu di bawah Debian 11 dan yang lainnya di bawah Windows.
+Saya akan menggunakan mesin Debian 11 sebagai server WireGuard dan klien Windows sebagai klien VPN WireGuard. Meskipun agak menyesatkan untuk berbicara tentang hubungan klien-server, karena **WireGuard bekerja dengan model "peer-to-peer"**. Itu sedikit keliru ketika Anda mencoba menyiapkan koneksi "klien-ke-situs". Katakanlah saya akan memiliki dua pasang atau **dua titik koneksi WireGuard** jika Anda lebih suka: satu di bawah Debian 11 dan yang lainnya di bawah Windows.
 
 
 
@@ -101,9 +101,9 @@ Dari segi alamat IP, ini memberikan:
 
 
 
-- Jaringan rumah**: 192.168.1.0/24
-- Jaringan korporat**: 192.168.100.0/24
-- Jaringan terowongan WireGuard**: 192.168.110.0/24
+- **Jaringan rumah**: 192.168.1.0/24
+- **Jaringan korporat**: 192.168.100.0/24
+- **Jaringan terowongan WireGuard**: 192.168.110.0/24
 
 
 + IP Address dari Peer 1 (Windows) di dalam terowongan: 192.168.110.2/24
@@ -117,7 +117,7 @@ Hanya itu saja yang bisa dilakukan! Mari kita lanjutkan ke konfigurasi!
 
 
 
-**Catatan: secara default, WireGuard beroperasi dalam mode UDP pada **port 51820**.
+**Catatan: secara default, WireGuard beroperasi dalam mode UDP pada port 51820.**
 
 
 
@@ -219,10 +219,10 @@ Bagian `[Interface]` digunakan untuk mendeklarasikan bagian server. Berikut adal
 
 
 
-- Address**: IP Address dari Interface WireGuard di dalam terowongan VPN (subnet yang berbeda dari LAN jarak jauh)
-- SaveConfig**: konfigurasi disimpan (dan dilindungi) selama Interface aktif
-- ListenPort **: Port pendengaran WireGuard. Dalam hal ini, 51820 adalah port default, tetapi Anda dipersilakan untuk menyesuaikannya
-- PrivateKey**: nilai kunci pribadi server kami (*wg-private.key*)
+- **Address**: IP Address dari Interface WireGuard di dalam terowongan VPN (subnet yang berbeda dari LAN jarak jauh)
+- **SaveConfig**: konfigurasi disimpan (dan dilindungi) selama Interface aktif
+- **ListenPort**: Port pendengaran WireGuard. Dalam hal ini, 51820 adalah port default, tetapi Anda dipersilakan untuk menyesuaikannya
+- **PrivateKey**: nilai kunci pribadi server kami (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Tambahkan baris-baris ini di akhir berkas untuk **mengaktifkan penyamaran IP pad
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Mulailah dengan membuka perangkat lunak untuk membuat terowongan baru. Untuk mel
 
 
 
-Jendela konfigurasi akan terbuka. Setiap kali konfigurasi terowongan baru dibuat, WireGuard menghasilkan pasangan kunci privat/publik khusus untuk konfigurasi ini. **Dalam konfigurasi ini, kita perlu mendeklarasikan "peer", yaitu server jarak jauh:
+Jendela konfigurasi akan terbuka. Setiap kali konfigurasi terowongan baru dibuat, WireGuard menghasilkan pasangan kunci privat/publik khusus untuk konfigurasi ini. **Dalam konfigurasi ini, kita perlu mendeklarasikan "peer", yaitu server jarak jauh:**
 
 
 
@@ -523,15 +523,15 @@ Dalam gambar:
 
 
 
-**Beberapa penjelasan tentang blok [Peer]:
+**Beberapa penjelasan tentang blok [Peer]:**
 
 
 
 
 
-- PublicKey**: ini adalah kunci publik dari server WireGuard Debian 11 (Anda dapat memperoleh nilainya dengan perintah "*sudo wg*")
-- AllowedIPs**: ini adalah alamat IP/subnet yang dapat diakses melalui jaringan VPN WireGuard ini, dalam hal ini subnet khusus untuk VPN WireGuard saya (*192.168.110.0/24*) dan LAN jarak jauh saya (*192.168.100.0/24*)
-- Titik akhir**: ini adalah IP Address dari hos Debian 11, karena ini adalah titik koneksi WireGuard kami (Anda harus menentukan IP Address publik)
+- **PublicKey**: ini adalah kunci publik dari server WireGuard Debian 11 (Anda dapat memperoleh nilainya dengan perintah "*sudo wg*")
+- **AllowedIPs**: ini adalah alamat IP/subnet yang dapat diakses melalui jaringan VPN WireGuard ini, dalam hal ini subnet khusus untuk VPN WireGuard saya (*192.168.110.0/24*) dan LAN jarak jauh saya (*192.168.100.0/24*)
+- **Titik akhir**: ini adalah IP Address dari hos Debian 11, karena ini adalah titik koneksi WireGuard kami (Anda harus menentukan IP Address publik)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Sekarang setelah konfigurasi siap, kita dapat memulainya dari PC Windows. Untuk melakukan ini, pada klien "**WireGuard**", klik tombol "**Aktifkan**": koneksi akan **berubah dari "Mati" ke "Hidup "**, tetapi itu tidak berarti akan berhasil. Semuanya tergantung pada apakah konfigurasi Anda sudah benar atau belum. **Ketika koneksi dibuat, kedua mesin kami berkomunikasi melalui Interface WireGuard yang dikonfigurasikan di setiap sisi!
+Sekarang setelah konfigurasi siap, kita dapat memulainya dari PC Windows. Untuk melakukan ini, pada klien **WireGuard**, klik tombol **Aktifkan**: koneksi akan berubah dari **Mati** ke **Hidup**, tetapi itu tidak berarti akan berhasil. Semuanya tergantung pada apakah konfigurasi Anda sudah benar atau belum. **Ketika koneksi dibuat, kedua mesin kami berkomunikasi melalui Interface WireGuard yang dikonfigurasikan di setiap sisi!**
 
 
 
@@ -663,7 +663,7 @@ Dari PC jarak jauh saya, saya bisa melakukan ping ke IP Address dari Interface W
 
 
 
-Dari PC jarak jauh saya yang terhubung ke VPN WireGuard, saya bisa mengakses server berkas dan mentransfer berkas melalui [SMB] (https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), untuk melihat kecepatan transfernya. **Dengan WireGuard, saya mencapai kecepatan maksimal sekitar 45 Mb/s, yang sangat bagus, karena saya menggunakan WiFi
+Dari PC jarak jauh saya yang terhubung ke VPN WireGuard, saya bisa mengakses server berkas dan mentransfer berkas melalui [SMB] (https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), untuk melihat kecepatan transfernya. **Dengan WireGuard, saya mencapai kecepatan maksimal sekitar 45 Mb/s, yang sangat bagus, karena saya menggunakan WiFi**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Anda dapat melihat bahwa ini juga mengaktifkan opsi "**Kill switch*".
+Anda dapat melihat bahwa ini juga mengaktifkan opsi "**Kill switch**".
 
 
 
@@ -783,4 +783,4 @@ Dokumentasi tambahan:
 
 
 
-**WireGuard VPN Anda sudah aktif dan berjalan! Selamat!
+**WireGuard VPN Anda sudah aktif dan berjalan! Selamat!**

@@ -108,7 +108,7 @@ Syftet med den här kursen är att ge dig allt du behöver för att skapa och ef
 
 
 
-**Avsnitt 1: Inledning
+**Avsnitt 1: Inledning**
 
 
 Vi börjar med att belysa vikten av att förena människor kring Bitcoin, oavsett om det sker genom online-communities eller lokala möten. Du kommer att upptäcka varför och var du ska starta din egen community, tillsammans med hur du sätter upp tydliga mål för att främja dess tillväxt och långsiktiga hållbarhet.
@@ -476,7 +476,7 @@ Nästa steg i uppbyggnaden av din community är att **definiera dess identitet**
 I det här avsnittet finns handledningar och nybörjarvänliga programvarulösningar som hjälper dig att utforma din kommuns visuella identitet, även med nybörjarkunskaper.
 
 
-**Varför är identitet viktigt?
+**Varför är identitet viktigt?**
 
 Människor känner sig mer engagerade och delaktiga när de kan identifiera sig med en grupp. En stark identitet hjälper ditt samhälle att sticka ut och främjar en känsla av tillhörighet.
 
@@ -567,7 +567,7 @@ Om du blir inspirerad kan du ta det ännu längre: skapa ett vapen, ett motto el
 
 
 
-Du kan använda [Canva](https://www.canva.com/)** för att skapa de olika bilderna för din community.
+Du kan använda [Canva](https://www.canva.com/) för att skapa de olika bilderna för din community.
 
 
 
@@ -612,7 +612,7 @@ Här finns färdiga Canva-mallar som du kan kopiera och anpassa till din organis
 
 
 
-- Affisch för mötesannonsering** (för sociala medier och A4/A3-utskrift): [länk](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Affisch för mötesannonsering (för sociala medier och A4/A3-utskrift): [länk](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Här finns färdiga Canva-mallar som du kan kopiera och anpassa till din organis
 
 
 
-- Evenemangsaffisch** (för sociala medier och A4/A3-utskrifter): [länk](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Evenemangsaffisch** (för sociala medier och A4/A3-utskrifter): [länk](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- banners för sociala medier**: [länk] (https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **banners för sociala medier**: [länk](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Tillkännagivande av tävling**: [länk](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Tillkännagivande av tävling**: [länk](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -643,19 +643,19 @@ Här finns färdiga Canva-mallar som du kan kopiera och anpassa till din organis
 
 
 
-- riktlinjer för varumärket** för vårt bibliotek, visas på A4 vid möten: [länk](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **riktlinjer för varumärket** för vårt bibliotek, visas på A4 vid möten: [länk](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- PowerPoint-presentation** "Kapitel 2 - Förstå Bitcoin-transaktioner", av @ProfEduStream: [länk](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **PowerPoint-presentation** "Kapitel 2 - Förstå Bitcoin-transaktioner", av @ProfEduStream: [länk](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- flygblad** "21 skäl att använda Bitcoin", skrivet av @ProfEduStream: [länk](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- flygblad **"21 skäl att använda Bitcoin"**, skrivet av @ProfEduStream: [länk](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -703,7 +703,7 @@ Affischer: A4 är det vanliga utskriftsformatet
 Canva erbjuder ett brett utbud av verktyg för att skapa logotyper, affischer, banderoller och flygblad, men det är inte det enda alternativet. Om du är mer bekväm med annan programvara (som Photoshop eller Illustrator) kan du använda det som fungerar bäst för dig.
 
 
-Oavsett om du utformar en logotyp för ett samhälle eller förbättrar affischer, presentationer eller flygblad kan artificiell intelligens vara en kraftfull allierad för att skapa unika och tilltalande bilder**.
+Oavsett om du utformar en logotyp för ett samhälle eller förbättrar affischer, presentationer eller flygblad kan artificiell intelligens vara en kraftfull allierad för att skapa unika och tilltalande bilder.
 
 
 
@@ -804,7 +804,7 @@ Resultatet ser riktigt häftigt ut!
 Som nämnts ovan kan en grupps kommunikationskanaler variera beroende på motiv och vanor.
 
 
-I Frankrike, Tyskland och Italien är till exempel Telegram och Twitter de dominerande plattformarna** och har blivit "standarden" för Bitcoin-communities.
+I Frankrike, Tyskland och Italien är till exempel Telegram och Twitter de dominerande plattformarna och har blivit "standarden" för Bitcoin-communities.
 
 I Tjeckien däremot använder många grupper **Matrix**, ett säkert protokoll för snabbmeddelanden, i stället för Telegram.
 
@@ -1067,7 +1067,7 @@ I "Group settings" kan det vara klokt att **aktivera "Approve new members"**.
 Vissa Bitcoin Telegram-grupper har utsatts för tusentals falska konton som utformats för att skräpposta eller störa gemenskapen.
 
 
-**Om du aktiverar medlemsgodkännande kan du rädda din grupp från en spamattack
+**Om du aktiverar medlemsgodkännande kan du rädda din grupp från en spamattack**
 
 
 
@@ -1092,15 +1092,15 @@ Med hjälp av **boten [@GroupHelpBot](https://telegram.me/grouphelpbot)** är de
 
 
 - Ett **regelkommando** (/rules) för att visa dina riktlinjer för communityn;
-- Anti-spam**-skydd för att filtrera misstänkta meddelanden och konton;
-- Anpassningsbara automatiska välkomstmeddelanden** för nya medlemmar (med möjlighet till automatisk radering efter några minuter)
-- Skydd mot översvämningar** för att förhindra skräppost
+- **Anti-spam**-skydd för att filtrera misstänkta meddelanden och konton;
+- **Anpassningsbara automatiska välkomstmeddelanden** för nya medlemmar (med möjlighet till automatisk radering efter några minuter)
+- **Skydd mot översvämningar** för att förhindra skräppost
 - Ett **@administrator-kommando** för att snabbt nå gruppadministratörer
-- Blockeringsregler** för oönskat innehåll
+- **Blockeringsregler** för oönskat innehåll
 - Ett **kommando för grupplänk** (/link)
 - Kommando **hantering av behörigheter**
-- Automatisk radering** av specifika meddelandetyper
-- Botblockering** och **blockering av in- och utpassering** för att hålla din grupp säker
+- **Automatisk radering** av specifika meddelandetyper
+- **Botblockering** och **blockering av in- och utpassering** för att hålla din grupp säker
 - Lista din **samhällsgrupps sociala nätverk** (/nätverk)
 - Och mycket mer...
 
@@ -1193,7 +1193,7 @@ Det är därför som det kan vara värt att ta sig tid att utforska andra altern
 Under de kommande månaderna kommer den här kursen och planb.network-plattformen att erbjuda handledning i hur man använder alternativa protokoll som **Simplex och Element**: decentraliserade, krypterade och mycket anpassningsbara kommunikationsverktyg.
 
 
-**Varför bry sig om att undersöka dessa alternativ?
+**Varför bry sig om att undersöka dessa alternativ?**
 
 För precis som det sociala nätverket NOSTR ger de inte bara större integritet utan också ett skydd mot censur eller godtycklig avstängning av din Telegram-grupp.
 
@@ -1216,7 +1216,7 @@ Och vad kan egentligen vara mer i linje med andan i Bitcoin än att vara censurr
 
 
 
-Så, din community är igång. Du har skapat ditt Telegram- eller Matrix-utrymme ... men för tillfället är du den enda där. **Dags att låta folk veta att du finns!
+Så, din community är igång. Du har skapat ditt Telegram- eller Matrix-utrymme ... men för tillfället är du den enda där. **Dags att låta folk veta att du finns!**
 
 
 Det är enkelt: om ingen kan komma åt din grupp och se när nästa möte äger rum, kommer du bara att posta i tomma intet. Det är därför sociala medier, och några specifika plattformar som vi kommer att ta upp senare, är så viktiga för att bygga upp din grupp.
@@ -1308,8 +1308,8 @@ Här är de **viktigaste sakerna att fokusera på för att öka din synlighet**:
     - Uppmuntra din community att interagera:
         - Gilla = vikt 0,5
         - Retweet = vikt 1
-        - Svar = vikt 27 (!!)**
-    - Svara personer som svarar på dina tweets** (vikt av 75!!);
+- Svar = vikt 27 (!!)
+- Svara personer som svarar på dina tweets (vikt av 75!!);
     - Undvik att placera länkar i huvudtweeten: lägg istället till dem i den första kommentaren..;
     - Skriv orden i sin helhet, undvik förkortningar.
 
@@ -1748,7 +1748,7 @@ Rom byggdes inte på en dag, och det kommer inte heller ditt samhälle att göra
 För att få det att hända är en sak avgörande: **hålla deltagarna engagerade**.
 
 
-Det kan börja med en liten grupp passionerade bitcoinare, vars mål är att träffas regelbundet och prata om Bitcoin. Med tiden, beroende på varje persons tillgänglighet och intressen, kan du **dela vissa organisatoriska uppgifter med gruppen**, eller bjuda in kärnmedlemmar **att ta sig an specifika projekt**. Dessa kan vara unika för din gemenskap, dina möten eller din stad eller till och med inspirerade av de många initiativ som föreslås i [del 6/8 av denna kurs] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Detta främjar inte bara Commitment från dina kärnmedlemmar utan hjälper också din gemenskap att växa och frodas.
+Det kan börja med en liten grupp passionerade bitcoinare, vars mål är att träffas regelbundet och prata om Bitcoin. Med tiden, beroende på varje persons tillgänglighet och intressen, kan du **dela vissa organisatoriska uppgifter med gruppen**, eller bjuda in kärnmedlemmar **att ta sig an specifika projekt**. Dessa kan vara unika för din gemenskap, dina möten eller din stad eller till och med inspirerade av de många initiativ som föreslås i [del 6/8 av denna kurs] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Detta främjar inte bara Commitment från dina kärnmedlemmar utan hjälper också din gemenskap att växa och frodas.**
 
 
 Allteftersom dina möten fortskrider kommer nya ansikten att dyka upp: människor som köpte BTC och/eller altcoins i tidigare cykler, teknikentusiaster som vill fördjupa sin förståelse eller nybörjare som är nyfikna på detta ocensurerbara, decentraliserade, transparenta och rättvisa betalningssystem som fungerar utan villkor och utan betrodda tredje parter.
@@ -1757,8 +1757,8 @@ Allteftersom dina möten fortskrider kommer nya ansikten att dyka upp: människo
 För att se till att alla känner sig inkluderade på dina evenemang bör du fokusera på två viktiga aspekter:
 
 
-- Social inkludering**: Alla som deltar ska känna sig välkomna. Bemöda dig om att hälsa på nykomlingar, fråga varför de kom och presentera dem för andra. När människor känner sig inkluderade är det mer sannolikt att de kommer tillbaka och kanske till och med hjälper till att organisera framtida evenemang.
-- Tålamod och öppenhet**: Detta tar tid och motivation. Om du pratar med en engagerad shitcoiner (eller ännu värre, en XRP Maximalist), kan det vara frestande att avfärda dem. Men genom att engagera dig i en konversation kan du reda ut missförstånd eller felaktiga resonemang. Om de är villiga att lyssna kan de vara redo att verkligen förstå Bitcoin.
+- **Social inkludering**: Alla som deltar ska känna sig välkomna. Bemöda dig om att hälsa på nykomlingar, fråga varför de kom och presentera dem för andra. När människor känner sig inkluderade är det mer sannolikt att de kommer tillbaka och kanske till och med hjälper till att organisera framtida evenemang.
+- **Tålamod och öppenhet**: Detta tar tid och motivation. Om du pratar med en engagerad shitcoiner (eller ännu värre, en XRP Maximalist), kan det vara frestande att avfärda dem. Men genom att engagera dig i en konversation kan du reda ut missförstånd eller felaktiga resonemang. Om de är villiga att lyssna kan de vara redo att verkligen förstå Bitcoin.
 
 
 
@@ -2238,7 +2238,7 @@ Vissa medlemmar i din community kanske vill skapa multimediainnehåll, t.ex. han
 Du kan också hålla presentationer på mötesplatser eller till och med på universitet.
 
 
-**När den tiden kommer kommer en särskild videokanal att låta dig publicera och centralisera allt ditt innehåll på ett ställe
+**När den tiden kommer kommer en särskild videokanal att låta dig publicera och centralisera allt ditt innehåll på ett ställe**
 
 
 Populära plattformar inkluderar:
@@ -2609,7 +2609,7 @@ För det första, om du har 500 personer som diskuterar alla möjliga ämnen i e
 
 För det andra innebär fler personer i dina kanaler fler botar, fler bedrägerier och därmed mer moderering att hantera. Var redo för det genom att skapa en tydlig uppsättning regler som du kan hänvisa till när du modererar meddelanden. Vår erfarenhet är att detta är ett bra sätt att undvika konflikter, särskilt om reglerna är lättillgängliga i dina kanaler.
 
-Ett bra exempel är **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/) som skrevs för några år sedan för sin Telegram-grupp och Discord-server. Den är baserad på enkla, universella principer, och du kan till och med ta [en anpassningsbar version av designen här](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Ett bra exempel är **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/)** som skrevs för några år sedan för sin Telegram-grupp och Discord-server. Den är baserad på enkla, universella principer, och du kan till och med ta [en anpassningsbar version av designen här](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2673,7 +2673,7 @@ Utan denna åtkomst är det nästan omöjligt för någon annan att ta över på
 Om du inte har någon betrodd kontakt inom din mötesgrupp kan du alltid kontakta @ProfEduStream, @copinmalin eller @gabtribe på Telegram. De kan hjälpa till att hitta en motiverad efterträdare och samordna överföringen av konton och administratörsrättigheter.
 
 
-**Varför decentralisering är viktigt
+**Varför decentralisering är viktigt**
 
 
 Om du är den enda som är involverad och du har all kontroll, vad händer om du försvinner? Svaret är enkelt: din gemenskap försvinner också.
@@ -2682,7 +2682,7 @@ Om du är den enda som är involverad och du har all kontroll, vad händer om du
 Lösningen: decentralisera uppgifter, roller och åtkomst så att gruppen kan fortsätta att fungera även om en organisatör hoppar av, oavsett om det beror på tidsbegränsningar eller, i ett mörkare scenario, för att de arresteras för att ha Bitcoin utan kundkännedom.
 
 
-**Hur decentraliseringen kan drivas vidare
+**Hur decentraliseringen kan drivas vidare**
 
 Anta **fri programvara med öppen källkod** som [framasoft-sviten] (https://framasoft.org/fr/) för att minska beroendet av centraliserade plattformar och öka motståndskraften mot potentiell statlig censur eller Bitcoin-förbud.
 
@@ -2876,15 +2876,15 @@ I Frankrike, till exempel, har nästan ett dussin av de cirka sextio communities
 Fördelarna är tvåfaldiga:
 
 
-- Officiellt erkännande**: du kan öppna ett bankkonto för föreningen, få uppmärksamhet i press/media och till och med ansöka om bidrag.
-- Strukturerad organisation**: du kan definiera tydliga roller, vilket gör det lättare att driva din community och genomföra projekt.
+- **Officiellt erkännande**: du kan öppna ett bankkonto för föreningen, få uppmärksamhet i press/media och till och med ansöka om bidrag.
+- **Strukturerad organisation**: du kan definiera tydliga roller, vilket gör det lättare att driva din community och genomföra projekt.
 
 
-För att hjälpa ditt samhälle att växa ytterligare, **en uppföljning av COMMU302-kursen<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+För att hjälpa ditt samhälle att växa ytterligare, **en uppföljning av COMMU302-kursen**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-kan komma att släppas på [planb.network] (https://planb.network/) under de kommande månaderna**.
+kan komma att släppas på [planb.network](https://planb.network/) under de kommande månaderna.
 
 
 Nästa session kan behandla avancerade ämnen som t.ex:

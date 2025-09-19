@@ -1,5 +1,5 @@
 ---
-name: Paraply Nostr
+name: Umbrel Nostr
 description: Konfigurera och använda Nostr-applikationer på Umbrel
 ---
 
@@ -69,7 +69,7 @@ Du ser dess Interface-webb via Umbrel: den innehåller grundläggande informatio
 
 
 
-** För att dra nytta av ditt Umbrel-relä ..:
+**För att dra nytta av ditt Umbrel-relä..:**
 
 
 
@@ -326,7 +326,7 @@ Av säkerhetsskäl är din Umbrel som standard endast tillgänglig i ditt lokala
 
 
 
-- Åtkomst via Tor:** Umbrel konfigurerar automatiskt en **Tor-tjänst (.onion)** för sin Interface-webb och applikationer. Detta innebär att du kan komma åt Interface Umbrel (inklusive _noStrudel_ eller _Snort_) var som helst, med hjälp av Tor-webbläsaren, utan att exponera din offentliga IP. _Tor används för att komma åt dina Umbrel-tjänster från utanför ditt lokala nätverk, utan att exponera din enhet för Internet ([Installera Tor på ditt system - Guider - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))._ För att använda detta alternativ, gå till Umbrel-inställningar och hämta din Umbrels .onion URL (eller skanna den QR-kod som tillhandahålls). I en Tor-webbläsare, gå till denna .onion Address: du får samma Interface som lokalt. Du kan sedan använda dina Nostr-appar precis som hemma.
+- **Åtkomst via Tor:** Umbrel konfigurerar automatiskt en **Tor-tjänst (.onion)** för sin Interface-webb och applikationer. Detta innebär att du kan komma åt Interface Umbrel (inklusive *noStrudel* eller *Snort*) var som helst, med hjälp av Tor-webbläsaren, utan att exponera din offentliga IP. *Tor används för att komma åt dina Umbrel-tjänster från utanför ditt lokala nätverk, utan att exponera din enhet för Internet ([Installera Tor på ditt system - Guider - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww)).* För att använda detta alternativ, gå till Umbrel-inställningar och hämta din Umbrels .onion URL (eller skanna den QR-kod som tillhandahålls). I en Tor-webbläsare, gå till denna .onion Address: du får samma Interface som lokalt. Du kan sedan använda dina
 
 
 **Nostr relä via Tor:** Om du vill att ditt Nostr relä ska vara nåbart via Tor för dina kunder (eller auktoriserade vänner) är detta möjligt. Umbrel tillhandahåller inte reläets .onion Address direkt, men eftersom det körs på port 4848 kan du antingen :
@@ -341,7 +341,7 @@ Av säkerhetsskäl är din Umbrel som standard endast tillgänglig i ditt lokala
 
 
 
-    - Eller** exponera port 4848 som en separat löktjänst. Detta kräver att man pillar med Tor-konfigurationen på Umbrel (reserverat för avancerade användare som är bekväma med SSH). Alternativt kan du överväga en **Tor-tunnel** på en annan server som omdirigerar till Umbrel: för personligt bruk är det dock enklast att använda Tailscale.
+- Eller exponera port 4848 som en separat löktjänst. Detta kräver att man pillar med Tor-konfigurationen på Umbrel (reserverat för avancerade användare som är bekväma med SSH). Alternativt kan du överväga en **Tor-tunnel** på en annan server som omdirigerar till Umbrel: för personligt bruk är det dock enklast att använda Tailscale.
 
 
 
@@ -358,7 +358,7 @@ Med Tailscale kan du dessutom komma åt Interface Umbrel (och därmed webbklient
 
 
 
-**Tor och Tailscale är inte ömsesidigt uteslutande. Du kan hålla Tor aktivt för anonymiserad åtkomst eller specifika tjänster, och använda Tailscale dagligen för dess enkelhet. I båda fallen behöver du inte öppna en port på din router, vilket stärker säkerheten.
+**Tor och Tailscale är inte ömsesidigt uteslutande. Du kan hålla Tor aktivt för anonymiserad åtkomst eller specifika tjänster, och använda Tailscale dagligen för dess enkelhet. I båda fallen behöver du inte öppna en port på din router, vilket stärker säkerheten.**
 
 
 
@@ -372,31 +372,31 @@ Om du är värd för ett Nostr-relä på Umbrel, särskilt i ett avancerat samma
 
 
 
-- Privat eller begränsat relä:** Som standard är ditt Umbrel-relä privat (inte offentligt tillkännagivet) och om du bara kommer åt det via Tailscale eller ditt LAN kommer det att förbli otillgängligt för främlingar. **Håll länken konfidentiell ** Sänd den inte på offentliga Nostr-nätverk om du inte frivilligt vill vara värd för andra användare, vilket är en helt annan fråga (moderering, bandbredd etc.). För personligt bruk rekommenderar vi att du begränsar åtkomsten till dig själv och, om det behövs, till några få betrodda vänner och familj.
+- Privat eller begränsat relä: Som standard är ditt Umbrel-relä privat (inte offentligt tillkännagivet) och om du bara kommer åt det via Tailscale eller ditt LAN kommer det att förbli otillgängligt för främlingar. **Håll länken konfidentiell** Sänd den inte på offentliga Nostr-nätverk om du inte frivilligt vill vara värd för andra användare, vilket är en helt annan fråga (moderering, bandbredd etc.). För personligt bruk rekommenderar vi att du begränsar åtkomsten till dig själv och, om det behövs, till några få betrodda vänner och familj.
 
 
 
 
 
-- Vitlista / Auth**: Nostr-rs-relay-implementeringen stöder en **NIP-42** autentiseringsmekanism samt _vitlistor_ över publika nycklar. Genom att aktivera dessa alternativ kan du begränsa ditt relä så att det **bara accepterar händelser signerade av vissa nycklar (dina)**, eller att klienter måste autentisera sig för att publicera. att ställa in detta kräver redigering av reläets `config.toml`-konfigurationsfil i Umbrel (via SSH i Docker-containern)._ Det är en avancerad manipulation, men till exempel kan du lista de annonser som tillåts (`pubkey_whitelist`). På så sätt, även om någon upptäcker ditt relä, kommer de inte att kunna publicera något där om de inte finns på listan.
+- Vitlista / Auth: Nostr-rs-relay-implementeringen stöder en **NIP-42** autentiseringsmekanism samt *vitlistor* över publika nycklar. Genom att aktivera dessa alternativ kan du begränsa ditt relä så att det **bara accepterar händelser signerade av vissa nycklar (dina)**, eller att klienter måste autentisera sig för att publicera. *Att ställa in detta kräver redigering av reläets `config.toml`-konfigurationsfil i Umbrel (via SSH i Docker-containern).* Det är en avancerad manipulation, men till exempel kan du lista de annonser som tillåts (`pubkey_whitelist`). På så sätt, även om någon upptäcker ditt relä, kommer de inte att kunna publicera något där om de inte finns på listan.
 
 
 
 
 
-- Uppdateringar och underhåll:** Håll din Umbrel och _Nostr Relay_-appen uppdaterade. Uppdateringar kan innehålla prestandaförbättringar (t.ex. bättre skräpposthantering) och säkerhetsfixar. På Umbrel, kontrollera App Store regelbundet för uppdateringar till _Nostr Relay_, och tillämpa dem vid behov.
+- **Uppdateringar och underhåll:** Håll din Umbrel och *Nostr Relay*-appen uppdaterade. Uppdateringar kan innehålla prestandaförbättringar (t.ex. bättre skräpposthantering) och säkerhetsfixar. På Umbrel, kontrollera App Store regelbundet för uppdateringar till *Nostr Relay*, och tillämpa dem vid behov.
 
 
 
 
 
-- Övervakning och begränsningar:** Håll ett öga på hur ditt relä används. Om du öppnar upp det för andra bör du hålla ett öga på belastningen (CPU/RAM-lagring) på din Umbrel, eftersom ett relä snabbt kan samla på sig mycket data. nostr-rs-relay erbjuder konfigurerbara **hastighets- och lagringsgränser** (`gränser` i konfigurationen, t.ex. antal händelser per sekund, max händelsestorlek, rensning av gamla händelser ...). För privat bruk behöver du förmodligen inte röra dessa, men var medveten om att dessa parametrar finns om du behöver dem ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
+- **Övervakning och begränsningar:** Håll ett öga på hur ditt relä används. Om du öppnar upp det för andra bör du hålla ett öga på belastningen (CPU/RAM-lagring) på din Umbrel, eftersom ett relä snabbt kan samla på sig mycket data. nostr-rs-relay erbjuder konfigurerbara **hastighets- och lagringsgränser** (`gränser` i konfigurationen, t.ex. antal händelser per sekund, max händelsestorlek, rensning av gamla händelser ...). För privat bruk behöver du förmodligen inte röra dessa, men var medveten om att dessa parametrar finns om du behöver dem ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
 
 
 
 
 
-- Säkra Nostr-nycklar:** Den här punkten har redan nämnts, men den är avgörande: ange aldrig dina privata Nostr-nycklar i en Interface som du inte litar helt på. Använd istället webbläsartillägg eller externa enheter (t.ex. Nostr _signers_ på separata telefoner) för att signera känsliga åtgärder. På Umbrel kan dina webbklienter som _Snort_ och _noStrudel_ fungera utan att känna till din hemliga nyckel, via NIP-07. Utnyttja denna möjlighet att kombinera komfort och säkerhet.
+- **Säkra Nostr-nycklar:** Den här punkten har redan nämnts, men den är avgörande: ange aldrig dina privata Nostr-nycklar i en Interface som du inte litar helt på. Använd istället webbläsartillägg eller externa enheter (t.ex. Nostr *signers* på separata telefoner) för att signera känsliga åtgärder. På Umbrel kan dina webbklienter som *Snort* och *noStrudel* fungera utan att känna till din hemliga nyckel, via NIP-07. Utnyttja denna möjlighet att kombinera komfort och säkerhet.
 
 
 

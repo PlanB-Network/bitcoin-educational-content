@@ -1,0 +1,9 @@
+question: Kdo napsal: "V přírodě se neděje nic, co by se dalo přičíst na vrub
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Byl to Spinoza, kdo napsal: "V přírodě se neděje nic, co by se dalo přičíst nějaké neřesti, která v ní existuje." Tato věta vyjadřuje myšlenku, že příroda je dokonalá ve svém druhu a že vady jsou pouze lidským úsudkem.
+reviewed: false

@@ -1,12 +1,12 @@
 ---
-name: Varpunen Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Luo monen allekirjoituksen salkku Sparrow'ssa
 ---
 ![cover](assets/cover.webp)
 
 
 
-Usean allekirjoituksen Wallet (usein "Multisig*") on Bitcoin Wallet-rakenne, joka vaatii useita kryptografisia allekirjoituksia eri avaimilla menon hyväksymiseksi. Toisin kuin tavanomaisessa ("*singlesig*") Wallet:ssä, jossa yksi yksityinen avain riittää UTXO:n avaamiseen, Multisig perustuu **m-of-n**-malliin: Wallet:ään liittyvistä _n_ avaimesta _m_:n on ehdottomasti allekirjoitettava jokainen tapahtuma.
+Usean allekirjoituksen Wallet (usein **Multisig**) on Bitcoin Wallet-rakenne, joka vaatii useita kryptografisia allekirjoituksia eri avaimilla menon hyväksymiseksi. Toisin kuin tavanomaisessa (**singlesig**) Wallet:ssä, jossa yksi yksityinen avain riittää UTXO:n avaamiseen, Multisig perustuu **m-of-n**-malliin: Wallet:ään liittyvistä *n* avaimesta *m*:n on ehdottomasti allekirjoitettava jokainen tapahtuma.
 
 
 

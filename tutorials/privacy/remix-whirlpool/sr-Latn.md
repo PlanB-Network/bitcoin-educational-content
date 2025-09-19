@@ -80,7 +80,7 @@ Zato smatram da je upotreba Whirlpool-a posebno relevantna u strategiji `HODL ->
 Nadam se da je ovaj odgovor rasvetlio Whirlpool model. Ako želite da saznate više o tome kako coinjoins funkcionišu na Bitcoin-u, preporučujem da pročitate moj obuhvatan članak na ovu temu:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Spoljni resursi:**
 
@@ -89,3 +89,4 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c7
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.
+

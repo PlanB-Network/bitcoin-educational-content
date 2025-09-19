@@ -46,8 +46,8 @@ Ik zal je meer vertellen: lees helemaal door. De voorgestelde oplossing is goedk
 
 
 
-- Kosten**: ongeveer 15,00 op het moment van schrijven van deze tutorial (augustus 2025).
-- Continuïteit van de productie**: Raspberry garandeert productie tot januari 2030.
+- **Kosten**: ongeveer 15,00 op het moment van schrijven van deze tutorial (augustus 2025).
+- **Continuïteit van de productie**: Raspberry garandeert productie tot januari 2030.
 
 
 
@@ -76,7 +76,7 @@ Toen ik besloot om verder te gaan, vond ik [deze kit](https://www.amazon.it/-/en
 
 
 
-- Kosten**: 19.99 euro.
+- **Kosten**: 19.99 euro.
 
 
 

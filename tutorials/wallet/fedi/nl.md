@@ -33,7 +33,7 @@ Fedi Wallet is een Bitcoin Wallet met een nieuwe benadering voor het opslaan van
 
 
 
-- Bewaarnemers**: U besluit uw vertrouwen te stellen in een externe entiteit, de Wallet ontwikkelaar, die de herstelwoorden voor uw Wallet voor u bewaart. U heeft geen toegang of de mogelijkheid om uw Bitcoin Wallet te exporteren.
+- **Bewaarnemers**: U besluit uw vertrouwen te stellen in een externe entiteit, de Wallet ontwikkelaar, die de herstelwoorden voor uw Wallet voor u bewaart. U heeft geen toegang of de mogelijkheid om uw Bitcoin Wallet te exporteren.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Zelf-custodialen** : De applicatie geeft je toegang tot herstelwoorden zodra je je Wallet aanmaakt. Je kunt je bitcoins dus vrij exporteren naar de Wallet die het beste bij je past.
+- **Zelf-custodialen**: De applicatie geeft je toegang tot herstelwoorden zodra je je Wallet aanmaakt. Je kunt je bitcoins dus vrij exporteren naar de Wallet die het beste bij je past.
 
 
 
@@ -103,7 +103,7 @@ Scroll in het menu **Federaties** naar een federatie en klik vervolgens op **Fed
 
 
 
-- Bitcoins ontvangen op Fedi**: Selecteer op de startpagina de federatie die je wilt gebruiken om bitcoins te ontvangen en klik vervolgens op de knop **Ontvangen** om een Lightning Invoice aan te maken met een te ontvangen bedrag.
+- **Bitcoins ontvangen op Fedi**: Selecteer op de startpagina de federatie die je wilt gebruiken om bitcoins te ontvangen en klik vervolgens op de knop **Ontvangen** om een Lightning Invoice aan te maken met een te ontvangen bedrag.
 
 
 
@@ -113,7 +113,7 @@ Scroll in het menu **Federaties** naar een federatie en klik vervolgens op **Fed
 
 
 
-- Bitcoins versturen**: Klik op de startpagina op de knop **Verstuur** om bitcoins naar een Lightning Address te sturen, een Invoice te betalen of een offline betaling te doen.
+- **Bitcoins versturen**: Klik op de startpagina op de knop **Verstuur** om bitcoins naar een Lightning Address te sturen, een Invoice te betalen of een offline betaling te doen.
 
 
 

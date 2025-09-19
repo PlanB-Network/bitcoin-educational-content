@@ -18,7 +18,7 @@ Esta frase é, portanto, a informação única que lhe permite restaurar o acess
 
 Por isso, é importante guardar esta frase com o máximo cuidado e mantê-la num local seguro, como iremos detalhar nas secções seguintes.
 
-**A sua frase mnemónica está assim exposta a dois riscos principais: roubo e perda
+**A sua frase mnemónica está assim exposta a dois riscos principais: roubo e perda**
 
 O roubo pode ocorrer de duas formas principais:
 

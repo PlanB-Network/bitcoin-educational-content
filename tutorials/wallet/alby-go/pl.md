@@ -16,11 +16,11 @@ description: Przewodnik po aplikacji mobilnej Alby Go
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(zalecane)*
-- Umbrel**, **Start9**, **RaspiBlitz** (za pośrednictwem **Alby Hub**)
-- Coinos** *(nietestowane)*
-- Primal** *(nietestowany)*
-- Minibity** *(nietestowane)*
+- [Alby Hub](https://albyhub.com/) **(zalecane)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (za pośrednictwem **Alby Hub**)
+- **Coinos** *(nietestowane)*
+- **Primal** *(nietestowany)*
+- **Minibity** *(nietestowane)*
 
 
 Większość usług obsługujących NWC powinna działać. Jeśli testujesz nową usługę, poinformuj społeczność o wynikach!
@@ -33,9 +33,9 @@ Dostępne na głównych platformach:
 
 
 
-- iOS:** [Pobierz z App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Pobierz z Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Pobierz z App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Pobierz z Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ Bez nadęcia. Bez zamieszania. Błyskawicznie.
 - dodawanie, usuwanie i eksportowanie portfeli
 
 
-**Potrzebujesz pomocy?
+**Potrzebujesz pomocy?**
 
 Odwiedź stronę getalby.com, aby uzyskać wsparcie i aktualizacje.

@@ -14,12 +14,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.24
+    reward: 0.23
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: de
     last_contribution_date:
     urgency: 1
@@ -34,12 +34,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -55,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -65,12 +65,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.85
+    reward: 0.84
   - language: zh-Hans
     last_contribution_date: '2025-08-19'
     urgency: 1
@@ -81,37 +81,37 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.85
+    reward: 0.84
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.97
+    reward: 0.96
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.72
+    reward: 0.71
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -121,9 +121,9 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.59
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.72
+    reward: 0.71

@@ -1162,10 +1162,10 @@ Henri Pirenne, umuhinga mu vya kahise w’Umubiligi wo mu ntango z’ikinjana ca
 > Nk’uko Pirenne abivuga, ivyo bisagara vy’ubudandaji, kubera ubucuruzi bwavyo bukomeye be n’aho vyari bifise ingamba nziza ku nzira z’ikiyaga, vyari vyarateye imbere mu migenzo y’ubutunzi iranga ubu kapitalizimu bwari bukiri bushasha. Arashimika canecane ku:
 
 
-- Iterambere ry’ubudandaji bw’umuntu ku giti ciwe:** Abacuruzi b’Abataliyano, akenshi bava mu miryango y’abatunzi, barashira amahera yabo mu ngendo z’ubudandaji zo kure, gutyo bakitwararika ingorane kandi bakitega inyungu nyinshi.
-- Ukwaguka kw’inguzanyo:** Ugutera imbere kw’ubudandaji mpuzamakungu kwatumye hakoreshwa ibikoresho bitandukanye vy’inguzanyo, nk’amafaranga y’inguzanyo ya Exchange n’ibikorwa vya banki, ivyo bikaba vyatumye habaho ugutanga amahera y’ibikorwa vy’ubudandaji no kworohereza ugutwara umutungo.
-- Gukurikirana inyungu:** Ikintu ca mbere catuma abacuruzi b’Abataliyano bakora ni ugukurikirana inyungu z’ubudandaji. Baciye bagira ibikorwa vy’akaga, bizigiye ko boronka inyungu nyinshi mu kugurisha ibintu vy’agaciro mu masoko yo kure.
-- Uguseruka kw’ibiharuro:** Ugukekeranya gusanzwe mu ngendo zo mu kiyaga n’uguhinduka kw’ibiciro vyatumye habaho imigenzo y’ibiharuro, aho abacuruzi batera imbere ku guhinduka kw’ibiciro vy’ibicuruzwa.
+- **Iterambere ry'ubudandaji bw'umuntu ku giti ciwe:** Abacuruzi b'Abataliyano, akenshi bava mu miryango y'abatunzi, barashira amahera yabo mu ngendo z'ubudandaji zo kure, gutyo bakitwararika ingorane kandi bakitega inyungu nyinshi.
+- **Ukwaguka kw'inguzanyo:** Ugutera imbere kw'ubudandaji mpuzamakungu kwatumye hakoreshwa ibikoresho bitandukanye vy'inguzanyo, nk'amafaranga y'inguzanyo ya Exchange n'ibikorwa vya banki, ivyo bikaba vyatumye habaho ugutanga amahera y'ibikorwa vy'ubudandaji no kworohereza ugutwara umutungo.
+- **Gukurikirana inyungu:** Ikintu ca mbere catuma abacuruzi b'Abataliyano bakora ni ugukurikirana inyungu z'ubudandaji. Baciye bagira ibikorwa vy'akaga, bizigiye ko boronka inyungu nyinshi mu kugurisha ibintu vy'agaciro mu masoko yo kure.
+- **Uguseruka kw'ibiharuro:** Ugukekeranya gusanzwe mu ngendo zo mu kiyaga n'uguhinduka kw'ibiciro vyatumye habaho imigenzo y'ibiharuro, aho abacuruzi batera imbere ku guhinduka kw'ibiciro vy'ibicuruzwa.
 
 
 Pirenne abona ko iyo migenzo, naho yariho mu bindi bice vyo mu Buraya, yateye imbere canecane kandi ikomeye cane mu bisagara-bihugu vy’Ubutaliyano. Ico kintu avuga ko giterwa n’ibintu vyinshi, harimwo n’ugutera imbere kw’ubudandaji bwo mu kiyaga, akosho k’intambara z’abakristu, ugucika intege kw’imibumbe y’abanyagihugu, be n’impwemu y’ubuhinga bushasha iranga ivyo bisagara vy’ubudandaji.

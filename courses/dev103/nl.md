@@ -730,9 +730,9 @@ In dit gedeelte behandelen we nog drie typen die veel voorkomen in JavaScript-pr
 
 
 
-- Arrays**: opeenvolgingen van waarden
-- undefined**: een speciale waarde die betekent "er is niets toegewezen"
-- null**: een andere speciale waarde die "opzettelijk leeg" betekent
+- **Arrays**: opeenvolgingen van waarden
+- **undefined**: een speciale waarde die betekent "er is niets toegewezen"
+- **null**: een andere speciale waarde die "opzettelijk leeg" betekent
 
 
 ### Matrices en indextoegang
@@ -1503,7 +1503,7 @@ Dit was een heel saai voorbeeld, maar hopelijk heeft het de (incidentele) behoef
 <chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
 
 
-Als je programma's groeien, zul je vaak stukken code** willen hergebruiken.
+Als je programma's groeien, zul je vaak stukken **code** willen hergebruiken.
 
 
 Daar zijn **functies** voor: hiermee kun je code groeperen, een naam geven en uitvoeren wanneer je maar wilt.
@@ -2530,7 +2530,7 @@ Zo werkt het:
 
 
 - De code in het `try` blok wordt eerst geprobeerd.
-- Als er een fout optreedt, springt JavaScript naar het `catch` blok**, waarbij de rest van het `try` blok wordt overgeslagen.
+- Als er een fout optreedt, springt JavaScript naar het `catch` blok, waarbij de rest van het `try` blok wordt overgeslagen.
 - Het `catch` blok ontvangt de fout, zodat je deze kunt afdrukken, of op een andere manier kunt afhandelen, zoals bijvoorbeeld
 
 
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Wat gebeurt hier?
+**Wat gebeurt hier?**
 
 
 1. We geven `input` door als de lijst met getallen die we willen verdubbelen.
@@ -5048,7 +5048,7 @@ Deze zijn handig als je een variabele wilt bijwerken met zijn eigen waarde.
 ### Destructurering
 
 
-*met *Destructureren** kun je waarden uit arrays of objecten halen en ze eenvoudig opslaan in variabelen.
+**Met destructureren** kun je waarden uit arrays of objecten halen en ze eenvoudig opslaan in variabelen.
 
 
 #### Rijen
@@ -6431,10 +6431,10 @@ NodeJS heeft vier hoofdtypen streams:
 
 
 
-- Leesbaar**: streams waarvan je gegevens kunt lezen (zoals het lezen van een bestand)
-- Writable**: streams waar je gegevens naar kunt schrijven (zoals naar een bestand)
-- Duplex**: streams die zowel leesbaar als beschrijfbaar zijn
-- Transformeer**: zoals duplex streams, maar ze kunnen de gegevens veranderen (transformeren) terwijl ze stromen
+- **Leesbaar**: streams waarvan je gegevens kunt lezen (zoals het lezen van een bestand)
+- **Writable**: streams waar je gegevens naar kunt schrijven (zoals naar een bestand)
+- **Duplex**: streams die zowel leesbaar als beschrijfbaar zijn
+- **Transformeer**: zoals duplex streams, maar ze kunnen de gegevens veranderen (transformeren) terwijl ze stromen
 
 
 ### Leesbare streams

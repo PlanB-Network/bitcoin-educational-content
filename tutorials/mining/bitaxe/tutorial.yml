@@ -70,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.68
+    reward: 5.67
   - language: it
     last_contribution_date:
     urgency: 1
@@ -80,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.8
+    reward: 6.79
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -111,7 +111,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.68
+    reward: 5.67
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -121,7 +121,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.45
+    reward: 3.44
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -131,7 +131,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.68
+    reward: 5.67
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.56
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.79
 tags:
   - hardware
   - mining

@@ -205,7 +205,7 @@ Hapa chini unaweza kupata mifano michache ya masuala ya umbizo la kuzingatia, un
 
 
 
-- Zingatia uakifishaji wa ajabu kama `\*\*\`, au ``**`` ambao unaweza kuwakilisha uwasilishaji mbaya wa ishara nzito. Katika picha hapa chini, unaweza kuona kwamba nyota ziko tu upande wa kulia wa neno, ambalo linaonekana kuwa la ajabu.
+- Zingatia uakifishaji wa ajabu kama `**`, au `**` ambao unaweza kuwakilisha uwasilishaji mbaya wa ishara nzito. Katika picha hapa chini, unaweza kuona kwamba nyota ziko tu upande wa kulia wa neno, ambalo linaonekana kuwa la ajabu.
 
 
 

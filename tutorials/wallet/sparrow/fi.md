@@ -1,5 +1,5 @@
 ---
-name: Varpunen Wallet
+name: Sparrow Wallet
 description: Sparrow Wallet:n asentaminen, konfigurointi ja käyttö
 ---
 ![cover](assets/cover.webp)
@@ -366,7 +366,7 @@ Mukauta maksua nykyisten markkinaolosuhteiden mukaan. Voit tehdä tämän syött
 
 ![Image](assets/fr/53.webp)
 
-Interface:n alareunassa voit valita "*Tehokkuus*" ja "Yksityisyys*". Minun tapauksessani "*Privacy*"-vaihtoehto ei ole käytettävissä, koska minulla on vain yksi UTXO tässä salkussa. "*Efficiency*" vastaa klassista transaktiota, kun taas "*Privacy*" on Stonewall-tyyppinen transaktio, transaktiorakenne, joka vahvistaa luottamuksellisuuttasi simuloimalla mini-CoinJoin:tä, mikä tekee ketjuanalyysistä monimutkaisempaa.
+Interface:n alareunassa voit valita "**Tehokkuus**" ja "**Yksityisyys**". Minun tapauksessani "**Privacy**"-vaihtoehto ei ole käytettävissä, koska minulla on vain yksi UTXO tässä salkussa. "**Efficiency**" vastaa klassista transaktiota, kun taas "**Privacy**" on Stonewall-tyyppinen transaktio, transaktiorakenne, joka vahvistaa luottamuksellisuuttasi simuloimalla mini-CoinJoin:tä, mikä tekee ketjuanalyysistä monimutkaisempaa.
 
 ![Image](assets/fr/54.webp)
 
@@ -446,7 +446,7 @@ Tämä avaa tiedostonhallinnan kansioon, jossa Sparrow tallentaa lompakot. Valit
 "*Työkalut*"-välilehdelle on koottu useita kehittyneitä työkaluja, kuten :
 
 
-- "*Sign/Verify Message*" (allekirjoita/varmenna viesti*) -valinnalla voit todistaa vastaanottavan Address:n hallussapidon tai vahvistaa allekirjoituksen.
+- **Sign/Verify Message** (allekirjoita/varmenna viesti) -valinnalla voit todistaa vastaanottavan Address:n hallussapidon tai vahvistaa allekirjoituksen.
 - "*Lähetys monelle*" tarjoaa yksinkertaistetun Interface:n, jolla voidaan suorittaa tapahtumia useisiin vastaanottajaosoitteisiin kerralla, mikä on kätevää eräkuluja varten.
 - "*Sweep Private Key*" mahdollistaa bitcoinien hakemisen yksinkertaisella yksityisellä avaimella suojattuna ja niiden siirtämisen Sparrow Wallet:een. Tämä voi olla erityisen hyödyllistä niille, joiden bitcoinit ovat peräisin 2010-luvun alusta, ennen HD-lompakoiden aikakautta.
 - "Tarkista lataus" tarkistaa ladatun ohjelmiston eheyden ja aitouden ennen sen asentamista laitteeseen.

@@ -1891,7 +1891,7 @@ Vanwege **existentiële onvervalsbaarheid** kan een aanvaller het bericht $M$ op
 Een MAC garandeert dat een bericht werkelijk door Bob werd gemaakt. Deze authenticiteit impliceert automatisch berichtintegriteit-dat wil zeggen, als Bob een bericht heeft gemaakt, dan is het ipso facto op geen enkele manier gewijzigd door een aanvaller. Dus vanaf hier moet elke zorg voor authenticatie automatisch begrepen worden als een zorg voor integriteit.
 
 
-Hoewel ik in mijn discussie een onderscheid heb gemaakt tussen authenticiteit en integriteit van berichten, is het ook gebruikelijk om deze termen als synoniemen te gebruiken. Ze verwijzen dan naar het idee van berichten die door een bepaalde afzender zijn gemaakt en op geen enkele manier zijn gewijzigd. In deze geest worden authenticatiecodes voor berichten vaak ook integriteitcodes** voor berichten genoemd.
+Hoewel ik in mijn discussie een onderscheid heb gemaakt tussen authenticiteit en integriteit van berichten, is het ook gebruikelijk om deze termen als synoniemen te gebruiken. Ze verwijzen dan naar het idee van berichten die door een bepaalde afzender zijn gemaakt en op geen enkele manier zijn gewijzigd. In deze geest worden authenticatiecodes voor berichten vaak ook **integriteitcodes** voor berichten genoemd.
 
 
 
@@ -2960,7 +2960,7 @@ Bijvoorbeeld, als $N = 12$, dan zijn 1, 5, 7 en 11 de enige coprimes die aan bov
 Stel dat $N$ een priemgetal is. Dan is elk geheel getal kleiner dan $N$ maar groter of gelijk aan 1 er copriem mee. Dit omvat alle Elements in de volgende verzameling: ${1,2,3,....,N - 1}$. Als $N$ priem is, is de orde van $N$ dus $N - 1$. Dit staat in stelling 1, waarbij $phi(N)$ de orde van $N$ is.
 
 
-**Stelling 1. $phi(N) = N - 1$ als $N$ priem is
+**Stelling 1.** $\phi(N) = N - 1$ als $N$ priem is
 
 
 Stel dat $N$ geen priemgetal is. Je kunt dan de orde berekenen met **Eulers Phi-functie**. Terwijl het berekenen van de orde van een klein geheel getal relatief eenvoudig is, wordt de Phi-functie van Euler vooral belangrijk voor grotere gehele getallen. De stelling van de Phi-functie van Euler staat hieronder.
@@ -3075,7 +3075,7 @@ Het gehele getal 7 deelt in totaal 2.233 keer door 15.624. De rest van het delen
 Vervolgens kun je met behulp van de Phi-functie van Euler, **stelling 2**, **stelling 5** hieronder afleiden.
 
 
-**Stelling 5. $ \phi(a \cdot b) = \phi(a) \cdot \phi(b)$ voor willekeurige positieve gehele getallen $a$ en $b$.
+**Stelling 5.** $\phi(a \cdot b) = \phi(a) \cdot \phi(b)$ voor willekeurige positieve gehele getallen $a$ en $b$.
 
 
 We zullen niet laten zien waarom dit zo is. Merk alleen op dat je het bewijs voor deze stelling al gezien hebt door het feit dat $ \phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ als $p$ en $q$ priemgetallen zijn, zoals staat in **Stelling 2**.
@@ -3108,7 +3108,7 @@ Stel dat we nu een geheel getal $e$ kiezen uit de verzameling $C_R$. We weten ui
 We kunnen dit resultaat gebruiken om een uitspraak te doen over ons oorspronkelijke gehele getal $N$. Dit is samengevat in **Stelling 7**.
 
 
-**Stelling 7. Stel dat $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Dan geldt voor elk element $a$ van de verzameling $C_N$ dat $a^{e \cdot d \mod \phi(N)} = a^{1 \mod \phi(N)} = a \mod N$.
+**Stelling 7.** Stel dat $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Dan geldt voor elk element $a$ van de verzameling $C_N$ dat $a^{e \cdot d \mod \phi(N)} = a^{1 \mod \phi(N)} = a \mod N$.
 
 
 We hebben nu alle getaltheoretische resultaten die nodig zijn om het RSA probleem duidelijk te stellen.

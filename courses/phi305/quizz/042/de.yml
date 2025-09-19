@@ -1,0 +1,9 @@
+question: Wer schrieb: "Nichts geschieht in der Natur, das auf einen Zufall zurückzuführen ist
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Es war Spinoza, der schrieb: "In der Natur geschieht nichts, was auf ein in ihr vorhandenes Laster zurückzuführen wäre". Dieser Satz drückt die Idee aus, dass die Natur in ihrer Art vollkommen ist und dass Fehler lediglich menschliche Urteile sind.
+reviewed: false

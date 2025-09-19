@@ -44,7 +44,7 @@ In diesem Sinne sind alle, die an Plan ₿ Network mitarbeiten, Pädagogen!
 ## Die ersten Schritte vor dem Korrekturlesen auf Plan ₿ Network
 
 
-Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Network-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/PlanB-Network/projects/3) eröffnet. Wenn Sie den Link zur Ausgabe erhalten, geben Sie einfach an, dass Sie mit dem Korrekturlesen des betreffenden Inhalts beginnen**.
+Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Network-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/PlanB-Network/projects/3) eröffnet. Wenn Sie den Link zur Ausgabe erhalten, geben Sie einfach an, dass Sie mit dem Korrekturlesen des betreffenden Inhalts beginnen.
 
 
 Dieses System hilft dem Koordinator, den Fortschritt innerhalb des Repos zu verfolgen, und ermöglicht es, dass der Inhalt vom Korrekturleser "beansprucht" wird, um doppelte Arbeit durch jemand anderen zu verhindern.
@@ -172,7 +172,7 @@ Achten Sie darauf, dass Sie **niemals die Hash-Zeichen** vor einem Titel lösche
 Gleichzeitig **verändern** Sie nicht den Teil der Kapitel-ID, den Sie im obigen Bild sehen können, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` oder die Video-Referenzen wie ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
 
 
-Wenn wir ``#`` vor einem Titel einfügen, wird dieser in der Kursvorschau automatisch fett. Vermeiden Sie es also, die Titel während der Korrektur fett zu machen**.
+Wenn wir ``#`` vor einem Titel einfügen, wird dieser in der Kursvorschau automatisch fett. Vermeiden Sie es also, die Titel während der Korrektur fett zu machen.
 
 
 Nebenbei bemerkt: In der EN-Version von Kursen beginnen **Titel, die mit einem oder zwei ``#`` eingeleitet werden, alle Wörter in Großbuchstaben**, während Titel, die mit drei oder vier ``#`` beginnen, normalerweise nicht dieser Regel folgen. Stellen Sie nach Möglichkeit sicher, dass die Titel in Ihrer Zielsprache dieser Struktur folgen.

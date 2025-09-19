@@ -865,7 +865,7 @@ Bir yönetici bu ayarı devre dışı bırakmak isteyebilir. Aşağıdaki dize i
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 

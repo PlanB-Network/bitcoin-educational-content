@@ -1,5 +1,5 @@
 ---
-name: BIP39 密码短语账本
+name: BIP-39 Passphrase Ledger
 description: 如何为您的Ledger钱包添加密码短语？
 ---
 ![cover](assets/cover.webp)

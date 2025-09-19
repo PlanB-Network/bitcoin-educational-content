@@ -138,3 +138,13 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.61
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.91

@@ -1,5 +1,5 @@
 ---
-name: Basen Braiins
+name: Braiins Pool
 
 description: Wprowadzenie do Braiins Pool
 ---

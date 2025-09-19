@@ -1,5 +1,5 @@
 ---
-name: Vilkku
+name: Blink
 description: Täydellinen Blink Wallet -opetusohjelma - lähetä, vastaanota ja käytä Bitcoin:ta helpoiten
 ---
 

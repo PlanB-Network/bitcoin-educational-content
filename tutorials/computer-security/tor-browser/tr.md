@@ -1,5 +1,5 @@
 ---
-name: Tor Tarayıcı
+name: Tor Browser
 description: Tor Browser nasıl kullanılır?
 ---
 ![cover](assets/cover.webp)

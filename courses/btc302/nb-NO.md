@@ -20,7 +20,7 @@ objectives:
 I dag finnes det et vell av pedagogisk innhold tilgjengelig på nettet, slik at alle kan lære om Bitcoin og økosystemet.
 
 
-Men det er én ting som ofte mangler: muligheten til å møtes, Exchange ideer, dele kunnskap** og fremfor alt **å bygge sammen**.
+Men det er én ting som ofte mangler: muligheten til å møtes, exchange ideer, dele kunnskap **og fremfor alt å bygge sammen**.
 
 
 
@@ -108,7 +108,7 @@ Målet med dette kurset er å gi deg alt du trenger for å opprette og effektivt
 
 
 
-**Avsnitt 1: Innledning
+**Avsnitt 1: Innledning**
 
 
 Vi begynner med å fremheve viktigheten av å samle folk rundt Bitcoin, enten det er gjennom nettsamfunn eller lokale møter. Du får vite hvorfor og hvor du kan starte ditt eget fellesskap, og hvordan du kan sette deg klare mål for å fremme vekst og langsiktig bærekraft.
@@ -248,7 +248,7 @@ Som nevnt tidligere kommer **møter vanligvis etter at et fellesskap er etablert
 Etter hvert som en bitcoiner utvikler seg, oppstår det ofte et ønske, eller til og med et behov, **for å møte og samhandle personlig med andre** fra det samme økosystemet. Dette kan komme av at man føler seg isolert eller rett og slett ikke har noen å snakke med om Bitcoin i dagliglivet.
 
 
-Meetups gir en mer personlig og innbydende opplevelse enn lyd- eller videosamtaler på nettet. Enten det er over en drink eller et måltid**, skaper de uformelle, vennlige rom der folk kan utveksle ideer åpent og direkte.
+Meetups gir en mer personlig og innbydende opplevelse enn lyd- eller videosamtaler på nettet. Enten det er over en drink eller et måltid, skaper de uformelle, vennlige rom der folk kan utveksle ideer åpent og direkte.
 
 
 
@@ -323,7 +323,7 @@ Etter litt research kan du kanskje finne et eksisterende møtepunkt eller felles
 Bitcoin er desentralisert, så det står naturligvis enhver fritt å gjøre som de vil.
 
 
-Det er imidlertid ofte mer fornuftig å slå seg sammen enn å splitte nærliggende lokalsamfunn og redusere effekten av hvert enkelt**. Å starte et helt nytt lokalsamfunn der det allerede finnes et, kan utilsiktet skape konkurranse.
+Det er imidlertid ofte mer fornuftig å slå seg sammen enn å splitte nærliggende lokalsamfunn og redusere effekten av hvert enkelt. Å starte et helt nytt lokalsamfunn der det allerede finnes et, kan utilsiktet skape konkurranse.
 
 
 I så måte kan en enkel "tommelfingerregel" være til hjelp: Hvis det ikke finnes et aktivt Bitcoin-fellesskap innen 30-45 minutter fra der du bor, kan det lønne seg å starte et nytt. Når det er sagt, står du alltid fritt til å gjøre som du vil.
@@ -351,7 +351,7 @@ Her er noen punkter du kan bruke som veiledning:
 
 
 
-1/ **Hvorfor oppretter jeg dette fellesskapet som bitcoiner? Utdanne andre? Lære av mer erfarne jevnaldrende? Møte likesinnede mennesker? Bli involvert i Bitcoin-økosystemet? Få kontakt med profesjonelle? Eller bare ta en drink og få nye venner?
+1/ **Hvorfor oppretter jeg dette fellesskapet som bitcoiner? Utdanne andre? Lære av mer erfarne jevnaldrende? Møte likesinnede mennesker? Bli involvert i Bitcoin-økosystemet? Få kontakt med profesjonelle? Eller bare ta en drink og få nye venner?**
 
 
 
@@ -367,7 +367,7 @@ Hvis målet ditt bare er å møte andre bitcoinere og dele erfaringer, kan du ve
 På denne måten vil du lettere skape sosiale bånd. Men husk alltid at **øldrikking ikke er den rette veien å gå for å bygge morgendagens verden**.
 
 
-Derfor er det viktig å sette seg konkrete mål og prosjekter**.
+Derfor er det viktig å sette seg konkrete mål og prosjekter.
 
 
 
@@ -476,7 +476,7 @@ Neste trinn i oppbyggingen av fellesskapet er å **definere identiteten**, både
 I denne delen finner du veiledninger og nybegynnervennlige programvareløsninger som kan hjelpe deg med å utforme fellesskapets visuelle identitet, selv med nybegynnerferdigheter.
 
 
-**Hvorfor er identitet viktig?
+**Hvorfor er identitet viktig?**
 
 Folk føler seg mer engasjerte og forpliktet når de kan identifisere seg med en gruppe. En sterk identitet bidrar til at lokalsamfunnet skiller seg ut og skaper en følelse av tilhørighet.
 
@@ -567,7 +567,7 @@ Hvis du blir inspirert, kan du ta det enda lenger: Lag et våpenskjold, et motto
 
 
 
-Du kan bruke [Canva] (https://www.canva.com/)** til å lage de ulike visuelle elementene for fellesskapet ditt.
+Du kan bruke [Canva](https://www.canva.com/) til å lage de ulike visuelle elementene for fellesskapet ditt.
 
 
 
@@ -612,7 +612,7 @@ Her er ferdige Canva-maler som du kan kopiere og tilpasse til din organisasjon:
 
 
 
-- Plakat for kunngjøring av møtet** (for sosiale medier og A4/A3-utskrift): [lenke](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Plakat for kunngjøring av møtet** (for sosiale medier og A4/A3-utskrift): [lenke](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Her er ferdige Canva-maler som du kan kopiere og tilpasse til din organisasjon:
 
 
 
-- Arrangementsplakat** (for sosiale medier og A4/A3-utskrift): [lenke] (https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Arrangementsplakat** (for sosiale medier og A4/A3-utskrift): [lenke] (https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- bannere i sosiale medier**: [lenke](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **bannere i sosiale medier**: [lenke](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Kunngjøring av konkurransen**: [lenke] (https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Kunngjøring av konkurransen**: [lenke](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -643,19 +643,19 @@ Her er ferdige Canva-maler som du kan kopiere og tilpasse til din organisasjon:
 
 
 
-- bibliotekets retningslinjer**, som vises på A4-ark ved møter: [lenke] (https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **bibliotekets retningslinjer**, som vises på A4-ark ved møter: [lenke] (https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- PowerPoint-presentasjon** "Chapter 2 - Understanding Bitcoin transactions", av @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **PowerPoint-presentasjon** "Chapter 2 - Understanding Bitcoin transactions", av @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- brosjyre** "21 grunner til å bruke Bitcoin", skrevet av @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **brosjyre** "21 grunner til å bruke Bitcoin", skrevet av @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1067,7 +1067,7 @@ I "Gruppeinnstillinger" kan det være lurt å **aktivere "Godkjenn nye medlemmer
 Noen Bitcoin Telegram-grupper har blitt angrepet av tusenvis av falske kontoer som er designet for å spamme eller forstyrre fellesskapet.
 
 
-**Aktivering av medlemsgodkjenning kan redde gruppen din fra spam-angrep
+**Aktivering av medlemsgodkjenning kan redde gruppen din fra spam-angrep**
 
 
 
@@ -1092,15 +1092,15 @@ Ved hjelp av **roboten [@GroupHelpBot] (https://telegram.me/grouphelpbot)** er d
 
 
 - En **regelkommando** (/rules) for å vise fellesskapets retningslinjer;
-- Antispam**-beskyttelse for å filtrere mistenkelige meldinger og kontoer;
-- Tilpassbare automatiske velkomstmeldinger** til nye medlemmer (med mulighet for automatisk sletting etter noen minutter)
-- Beskyttelse mot oversvømmelse** for å forhindre spam
+- **Antispam**-beskyttelse for å filtrere mistenkelige meldinger og kontoer;
+- **Tilpassbare automatiske velkomstmeldinger** til nye medlemmer (med mulighet for automatisk sletting etter noen minutter)
+- **Beskyttelse mot oversvømmelse** for å forhindre spam
 - En **@administrator-kommando** for raskt å nå gruppeadministratorer
-- Blokkeringsregler** for uønsket innhold
+- **Blokkeringsregler** for uønsket innhold
 - En **kommando for gruppelink** (/link)
 - Kommando **tillatelsesadministrasjon**
-- Automatisk sletting** av bestemte meldingstyper
-- Botblokkering** og **inngangs-/utgangsblokkering** for å holde gruppen din sikker
+- **Automatisk sletting** av bestemte meldingstyper
+- **Botblokkering** og **inngangs-/utgangsblokkering** for å holde gruppen din sikker
 - Liste over **fellesskapets sosiale nettverk** (/nettverk)
 - Og mye mer...
 
@@ -1193,7 +1193,7 @@ Derfor kan det være verdt å ta seg tid til å utforske andre alternativer når
 I løpet av de kommende månedene vil dette kurset og planb.network-plattformen tilby opplæring i hvordan man bruker alternative protokoller som **Simplex og Element**: desentraliserte, krypterte og svært tilpassbare kommunikasjonsverktøy.
 
 
-**Hvorfor gidder du å undersøke disse alternativene?
+**Hvorfor gidder du å undersøke disse alternativene?**
 
 For akkurat som det sosiale nettverket NOSTR gir de ikke bare større personvern, men også en beskyttelse mot sensur eller vilkårlig nedleggelse av Telegram-gruppen din.
 
@@ -1216,7 +1216,7 @@ Og hva kan vel egentlig være mer i tråd med Bitcoin-ånden enn å være sensur
 
 
 
-Så, fellesskapet ditt er oppe og går. Du har satt opp Telegram- eller Matrix-området ditt ... men foreløpig er du den eneste som er der. **På tide å la folk få vite at du eksisterer!
+Så, fellesskapet ditt er oppe og går. Du har satt opp Telegram- eller Matrix-området ditt ... men foreløpig er du den eneste som er der. **På tide å la folk få vite at du eksisterer!**
 
 
 Det er enkelt: Hvis ingen har tilgang til gruppen din og kan se når neste møte skal finne sted, vil du bare poste innlegg i tomrommet. Det er derfor sosiale medier, og noen få spesifikke plattformer som vi skal se nærmere på senere, er så viktige for å bygge opp et fellesskap.
@@ -1275,7 +1275,7 @@ Twitter er svært enkelt å bruke, og for å forbedre personvernet ditt må du j
 
 
 
-I tillegg er det verdt å justere noen personverninnstillinger**:
+I tillegg er det verdt å justere noen **personverninnstillinger**:
 
 
 
@@ -1308,8 +1308,8 @@ Her er de **viktigste tingene du bør fokusere på for å øke synligheten din**
     - Oppmuntre lokalsamfunnet til å samhandle:
         - Liker = vekt 0,5
         - Retweet = vekt 1
-        - Svar = vekt 27 (!!)**
-    - Svar på folk som svarer på tweets** (vekt på 75!!);
+- Svar = vekt 27 (**!!**)
+- Svar på folk som svarer på **tweets** (vekt på 75!!);
     - Unngå å plassere lenker i hovedtweeten: legg dem i stedet til i den første kommentaren;
     - Skriv ordene fullt ut, unngå forkortelser.
 
@@ -1376,7 +1376,7 @@ Dette skaper **muligheter til å følge hverandre, tagge hverandre og øke den k
 
 
 
-Selv om det kan virke trivielt for noen, kan det å følge med på kontoene til lokalsamfunn og initiativer føre til samarbeid eller til og med partnerskap**. For eksempel har miljøene Bitcoin Liège og Bitcoin Lille (og likeledes Bitcoin Aix og Bitcoin Marseille) fått kontakt på denne måten, noe som har ført til at de nå arrangerer et årlig møte sammen.
+Selv om det kan virke trivielt for noen, kan det å følge med på kontoene til lokalsamfunn og initiativer føre til samarbeid eller til og med **partnerskap**. For eksempel har miljøene Bitcoin Liège og Bitcoin Lille (og likeledes Bitcoin Aix og Bitcoin Marseille) fått kontakt på denne måten, noe som har ført til at de nå arrangerer et årlig møte sammen.
 
 Måltidene i **Cercle du Coin** er et annet godt eksempel.
 
@@ -1418,7 +1418,7 @@ Disse inkluderer:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, et nettsted med to kart som oppdateres daglig: **[verdenskartet over virksomheter som godtar Bitcoin](https://btcmap.org/map)** og **[kartet over lokalsamfunn i verden](https://btcmap.org/communities/map)**. Mange bitcoinere sjekker disse kartene regelmessig, enten de er ute og reiser eller går rundt i hverdagen, for å møte nye mennesker eller finne steder å bruke Sats på. Btcmap er den globale referansen, og det er viktig for synligheten din at du lister opp samfunnet ditt der
+- [Btcmap.org](https://btcmap.org/), et nettsted med to kart som oppdateres daglig: **[verdenskartet over virksomheter som godtar Bitcoin](https://btcmap.org/map)** og **[kartet over lokalsamfunn i verden](https://btcmap.org/communities/map)**. Mange bitcoinere sjekker disse kartene regelmessig, enten de er ute og reiser eller går rundt i hverdagen, for å møte nye mennesker eller finne steder å bruke Sats på. Btcmap er den globale referansen, og det er viktig for synligheten din at du lister opp samfunnet ditt der
 - [BitcoinerEvents] (https://www.bitcoinerevents.com/), et nettsted laget av bitcoinere, for bitcoinere. **Her kan du legge ut kommende arrangementer i ditt fellesskap**. I Frankrike er det imidlertid fortsatt ikke mye brukt.
 - avhengig av hvilket land du bor i, kan det finnes andre lokale initiativer. I Frankrike finnes det for eksempel [Bitcoin.fr] (https://Bitcoin.fr/events/categories/evenements/), som **lister opp dusinvis av Bitcoin-arrangementer hver måned**. Så hvis du ennå ikke har fulgt dem på Twitter eller kontaktet dem for å dele informasjon om ditt lokalsamfunn og arrangementer, er det på tide nå! **For å holde den franske arrangementskalenderen oppdatert, ville det være flott om alle franske Bitcoin-fellesskap gjorde det til en vane å:**
     - nevner @bitcoinpointfr på Twitter for hvert nye fellesskapsarrangement
@@ -1748,7 +1748,7 @@ Roma ble ikke bygget på én dag, og det vil heller ikke ditt fellesskap bli. Mo
 For å få det til, er det én ting som er avgjørende: **holde deltakerne engasjert**.
 
 
-Det kan begynne med en liten gruppe lidenskapelige bitcoinere, som har som mål å møtes regelmessig og snakke om Bitcoin. Over tid, avhengig av hver enkelt persons tilgjengelighet og interesser, kan du **dele visse organisatoriske oppgaver med gruppen**, eller invitere sentrale **medlemmer til å ta på seg spesifikke prosjekter**. Disse kan være unike for ditt lokalsamfunn, dine møter eller din by, eller til og med inspirert av de mange initiativene som er foreslått i [del 6/8 av dette kurset] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Dette fremmer ikke bare Commitment fra kjernemedlemmene, men bidrar også til at fellesskapet vokser og trives.
+Det kan begynne med en liten gruppe lidenskapelige bitcoinere, som har som mål å møtes regelmessig og snakke om Bitcoin. Over tid, avhengig av hver enkelt persons tilgjengelighet og interesser, kan du **dele visse organisatoriske oppgaver med gruppen**, eller invitere sentrale **medlemmer til å ta på seg spesifikke prosjekter**. Disse kan være unike for ditt lokalsamfunn, dine møter eller din by, eller til og med inspirert av de mange initiativene som er foreslått i [del 6/8 av dette kurset] (https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Dette fremmer ikke bare Commitment fra kjernemedlemmene, men bidrar også til at fellesskapet vokser og trives.**
 
 
 Etter hvert som møtene utvikler seg, vil nye ansikter dukke opp: folk som har kjøpt BTC og/eller altcoins i tidligere sykluser, teknologientusiaster som ønsker å utdype sin forståelse, eller nybegynnere som er nysgjerrige på dette ikke-sensurerbare, desentraliserte, transparente og rettferdige betalingssystemet som fungerer uten betingelser og uten pålitelige tredjeparter.
@@ -1757,8 +1757,8 @@ Etter hvert som møtene utvikler seg, vil nye ansikter dukke opp: folk som har k
 For å sikre at alle føler seg inkludert på arrangementene dine, bør du fokusere på to viktige aspekter:
 
 
-- Sosial inkludering**: Alle som deltar, skal føle seg velkomne. Gjør en innsats for å hilse på nykommere, spør hvorfor de kom, og introduser dem for andre. Når folk føler seg inkludert, er det mer sannsynlig at de kommer tilbake og kanskje til og med hjelper til med å organisere fremtidige arrangementer.
-- Tålmodighet og åpenhet**: Dette krever tid og motivasjon. Hvis du snakker med en engasjert shitcoiner (eller enda verre, en XRP Maximalist), kan det være fristende å avfeie vedkommende. Men ved å engasjere deg i en samtale kan du kanskje oppklare misforståelser eller feilaktige resonnementer. Hvis de er villige til å lytte, kan de være klare til å virkelig forstå Bitcoin.
+- **Sosial inkludering**: Alle som deltar, skal føle seg velkomne. Gjør en innsats for å hilse på nykommere, spør hvorfor de kom, og introduser dem for andre. Når folk føler seg inkludert, er det mer sannsynlig at de kommer tilbake og kanskje til og med hjelper til med å organisere fremtidige arrangementer.
+- **Tålmodighet og åpenhet**: Dette krever tid og motivasjon. Hvis du snakker med en engasjert shitcoiner (eller enda verre, en XRP Maximalist), kan det være fristende å avfeie vedkommende. Men ved å engasjere deg i en samtale kan du kanskje oppklare misforståelser eller feilaktige resonnementer. Hvis de er villige til å lytte, kan de være klare til å virkelig forstå Bitcoin.
 
 
 
@@ -1770,7 +1770,7 @@ Fra et praktisk synspunkt bør du tenke på den totale opplevelsen av arrangemen
 
 
 - Var **stedet hyggelig**?
-- Var det **lett å få tilgang til?
+- Var det **lett å få tilgang til**?
 - Hvorfor var det noen som meldte seg på, men ikke møtte opp?
 - Hvilke diskusjoner ble holdt? Var diskusjonene for tekniske for nybegynnere?
 - Var diskusjonene for alkoholiserte?
@@ -1867,7 +1867,7 @@ Du finner også mer redigerbart materiale i [Bitcoin Teaching Toolbox] (https://
 Kapittel 2 og 7 kan deles opp i to kortere presentasjoner for å unngå å overvelde deltakerne. Ved å kjøre dem i én økt frigjøres det imidlertid plass i kalenderen til spesielle aktiviteter, for eksempel fellesmøter med nabogrupper, spørrekonkurranser eller workshops.
 
 
-**Du står fritt til å bruke, tilpasse og dele disse ressursene, men husk å oppgi opphavspersonene hvis du gjenbruker arbeidet deres
+**Du står fritt til å bruke, tilpasse og dele disse ressursene, men husk å oppgi opphavspersonene hvis du gjenbruker arbeidet deres**
 
 
 Siden ikke alle kan delta på alle møter, er det en god idé å ta opp presentasjoner og laste dem opp til en strømmeplattform eller nettstedet ditt. På den måten kan de som er fraværende, ta igjen det tapte, og deltakerne kan gå tilbake til materialet senere.
@@ -2238,7 +2238,7 @@ Noen medlemmer av fellesskapet ditt ønsker kanskje å lage multimedieinnhold, f
 Du kan også holde presentasjoner på møter eller til og med på universiteter.
 
 
-**Når den tiden kommer, vil en dedikert videokanal gi deg mulighet til å publisere og samle alt innholdet ditt på ett sted
+**Når den tiden kommer, vil en dedikert videokanal gi deg mulighet til å publisere og samle alt innholdet ditt på ett sted**
 
 
 Populære plattformer inkluderer:
@@ -2592,7 +2592,7 @@ Da Bitcoin gikk inn i sin fjerde epoke ved blokk 840 000, begynte flere og flere
 I likhet med fremveksten av internett vil denne revolusjonen ta tid, noe som faktisk er en fordel. Det gir folk sjansen til å **lære seg Bitcoins grunnleggende prinsipper**, forstå hvordan man bruker det, og det gir utviklere og selskaper muligheten til å **bygge protokollene og applikasjonene** som vil frigjøre det fulle potensialet.
 
 
-Ingen kan spå om fremtiden, men vi kan **forvente en kraftig økning i bruken av Bitcoin**. Det betyr at vi må være klare for alle scenarier**, selv de mest ekstreme, som for eksempel en kollaps i det tradisjonelle finanssystemet eller et direkte forbud mot Bitcoin.
+Ingen kan spå om fremtiden, men vi kan **forvente en kraftig økning i bruken av Bitcoin**. Det betyr at vi må være klare for alle scenarier, selv de mest ekstreme, som for eksempel en kollaps i det tradisjonelle finanssystemet eller et direkte forbud mot Bitcoin.
 
 
 I denne syvende og nest siste delen av kurset tar vi for oss viktige punkter du bør huske på når fellesskapet og møteplassene dine vokser.
@@ -2609,7 +2609,7 @@ For det første, hvis du har 500 personer som diskuterer alle slags emner i én 
 
 For det andre betyr flere mennesker i kanalene dine flere roboter, mer svindel og dermed mer moderering å håndtere. Vær forberedt på dette ved å lage et tydelig sett med regler som du kan henvise til når du modererer meldinger. Vår erfaring viser at dette i stor grad bidrar til å unngå konflikter, spesielt hvis reglene er lett tilgjengelige i kanalene dine.
 
-Et godt eksempel er **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/) som ble skrevet for noen år siden for deres Telegram-gruppe og Discord-server. Den er basert på enkle, universelle prinsipper, og du kan til og med få tak i [en tilpassbar versjon av designet her](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Et godt eksempel er **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/)** som ble skrevet for noen år siden for deres Telegram-gruppe og Discord-server. Den er basert på enkle, universelle prinsipper, og du kan til og med få tak i [en tilpassbar versjon av designet her](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2673,7 +2673,7 @@ Uten denne tilgangen er det nesten umulig for andre å ta over på en effektiv m
 Hvis du ikke har en betrodd kontaktperson i møtegruppen din, kan du alltid ta kontakt med @ProfEduStream, @copinmalin eller @gabtribe på Telegram. De kan hjelpe deg med å finne en motivert etterfølger og koordinere overføringen av kontoer og administratorrettigheter.
 
 
-**Hvorfor desentralisering er viktig?
+**Hvorfor desentralisering er viktig?**
 
 
 Hvis du er den eneste som er involvert og har all kontroll, hva skjer da hvis du forsvinner? Svaret er enkelt: Da forsvinner også fellesskapet ditt.
@@ -2682,7 +2682,7 @@ Hvis du er den eneste som er involvert og har all kontroll, hva skjer da hvis du
 Løsningen: desentraliser oppgaver, roller og tilganger slik at gruppen kan fortsette å fungere selv om en av arrangørene faller fra, enten det er på grunn av tidsbegrensninger eller, i et mørkere scenario, fordi de blir arrestert for å inneha Bitcoin som ikke er godkjent av myndighetene.
 
 
-**Hvordan fremme desentralisering ytterligere?
+**Hvordan fremme desentralisering ytterligere?**
 
 Ta i bruk **gratis programvare med åpen kildekode**, for eksempel [framasoft-pakken] (https://framasoft.org/fr/), for å redusere avhengigheten av sentraliserte plattformer og øke motstandsdyktigheten mot potensiell statlig sensur eller Bitcoin-forbud.
 
@@ -2854,7 +2854,7 @@ I stedet bør du **søke hjelp fra bitcoinere som allerede har gått i den samme
 Alene kan du raskt utforske en av de mange tunnelene i Bitcoin-kaninhullet. Men husk at det finnes utallige andre retninger å utforske.
 
 
-**Ved å opprette og/eller bli med i et fellesskap av bitcoinere, og ved å dele og utveksle med dem regelmessig, vil du bevege deg i alle retninger ned kaninhullet samtidig
+**Ved å opprette og/eller bli med i et fellesskap av bitcoinere, og ved å dele og utveksle med dem regelmessig, vil du bevege deg i alle retninger ned kaninhullet samtidig.**
 
 
 
@@ -2876,15 +2876,15 @@ I Frankrike, for eksempel, har nesten et dusin av de rundt seksti lokalsamfunnen
 Fordelene er todelt:
 
 
-- Offisiell anerkjennelse**: Dere kan åpne en bankkonto for foreningen, få oppmerksomhet i presse/media og til og med søke om støtte.
-- Strukturert organisasjon**: Du kan definere klare roller, noe som gjør det enklere å drive fellesskapet og gjennomføre prosjekter.
+- **Offisiell anerkjennelse**: Dere kan åpne en bankkonto for foreningen, få oppmerksomhet i presse/media og til og med søke om støtte.
+- **Strukturert organisasjon**: Du kan definere klare roller, noe som gjør det enklere å drive fellesskapet og gjennomføre prosjekter.
 
 
-For å hjelpe fellesskapet ditt til å vokse ytterligere, **en oppfølging av COMMU302-kurset<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+For å hjelpe fellesskapet ditt til å vokse ytterligere, **en oppfølging av COMMU302-kurset**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-kan bli utgitt på [planb.network] (https://planb.network/) i løpet av de kommende månedene**.
+kan bli utgitt på [planb.network](https://planb.network/) i løpet av de kommende månedene.
 
 
 Den neste økten kan ta for seg avanserte temaer som for eksempel

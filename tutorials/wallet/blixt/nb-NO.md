@@ -673,7 +673,7 @@ I mellomtiden er her alle lenkene om denne fantastiske Bitcoin Lightning Node:
 *Jeg får ikke betalt eller støtte fra utviklerne av denne appen på noen måte. Jeg skrev denne guiden fordi jeg så at interessen for denne Wallet-appen øker, og at nye brukere fortsatt ikke forstår hvordan de skal begynne med den. Også for å hjelpe Hampus (hovedutvikleren) med dokumentasjon om bruk av denne noden Wallet.*
 
 
-*Jeg har ingen andre interesser i å promotere denne LN-appen, annet enn å fremme innføringen av Bitcoin og LN. Dette er den eneste måten!
+*Jeg har ingen andre interesser i å promotere denne LN-appen, annet enn å fremme innføringen av Bitcoin og LN. Dette er den eneste måten!*
 
 
 ---

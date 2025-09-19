@@ -61,9 +61,9 @@ Los puntos fuertes de Nmap son muchos:
 
 
 
-- Potente y flexible**: Nmap puede escanear grandes redes y utilizar técnicas de detección avanzadas. Es compatible con UDP, TCP, ICMP, IPv4 e IPv6, y puede realizar detección de versiones, análisis de vulnerabilidades o interacciones específicas con protocolos. Su arquitectura es modular, gracias en particular a los scripts NSE (Nmap Scripting Engine), que veremos más adelante en este tutorial.
-- Facilidad de uso**: la documentación oficial es abundante y de la máxima calidad. También hay disponibles numerosos recursos de la comunidad para ayudarte a empezar.
-- Popularidad y longevidad**: Nmap es una referencia en su campo desde 1998. La versión actual, en el momento de esta actualización, es la 7.95. Aunque existen otras herramientas para tareas específicas, Nmap sigue siendo imprescindible para el mapeo y análisis de redes.
+- **Potente y flexible**: Nmap puede escanear grandes redes y utilizar técnicas de detección avanzadas. Es compatible con UDP, TCP, ICMP, IPv4 e IPv6, y puede realizar detección de versiones, análisis de vulnerabilidades o interacciones específicas con protocolos. Su arquitectura es modular, gracias en particular a los scripts NSE (Nmap Scripting Engine), que veremos más adelante en este tutorial.
+- **Facilidad de uso**: la documentación oficial es abundante y de la máxima calidad. También hay disponibles numerosos recursos de la comunidad para ayudarte a empezar.
+- **Popularidad y longevidad**: Nmap es una referencia en su campo desde 1998. La versión actual, en el momento de esta actualización, es la 7.95. Aunque existen otras herramientas para tareas específicas, Nmap sigue siendo imprescindible para el mapeo y análisis de redes.
 
 
 
@@ -87,7 +87,7 @@ También aparece en otras obras cinematográficas.
 
 
 
-**Comentarios
+**Comentarios**
 
 
 
@@ -485,25 +485,25 @@ Tanto en Linux como en Windows, hay muchos casos en los que Nmap le pedirá acce
 
 
 
-- Construcción de paquetes de red "sin procesar "**: Nmap es capaz de realizar una amplia gama de métodos de sondeo, incluyendo la manipulación y construcción avanzada de paquetes. Este es el caso, por ejemplo, cuando queremos realizar sondeos TCP SYN, que no respetan el clásico _Three-way handshake_ de los intercambios TCP. Para ello, Nmap necesita utilizar funciones distintas a las nativas de los sistemas operativos, que sólo saben respetar las buenas prácticas en las comunicaciones de red (recurre a las librerías "Npcap" y "libcap" vistas anteriormente). Es gracias a que Nmap no hace las cosas de la manera "estándar" que es capaz de deducir cierta información sobre sistemas operativos, servicios y ciertas vulnerabilidades.
+- Construcción de paquetes de red **sin procesar**: Nmap es capaz de realizar una amplia gama de métodos de sondeo, incluyendo la manipulación y construcción avanzada de paquetes. Este es el caso, por ejemplo, cuando queremos realizar sondeos TCP SYN, que no respetan el clásico *Three-way handshake* de los intercambios TCP. Para ello, Nmap necesita utilizar funciones distintas a las nativas de los sistemas operativos, que sólo saben respetar las buenas prácticas en las comunicaciones de red (recurre a las librerías "Npcap" y "libcap" vistas anteriormente). Es gracias a que Nmap no hace las cosas de la manera "estándar" que es capaz de deducir cierta información sobre sistemas operativos, servicios y ciertas vulnerabilidades.
 
 
 
 
 
-- Escuchar el tráfico de red**: algunas de las opciones de Nmap requieren que escuche la red para recuperar cierta información. Esta acción se considera sensible en sistemas operativos, ya que también le permite escuchar las comunicaciones de otras aplicaciones del sistema. Al igual que Wireshark, Nmap necesita privilegios específicos para hacer esto, que son más fáciles de obtener estando directamente en una sesión privilegiada.
+- **Escuchar el tráfico de red**: algunas de las opciones de Nmap requieren que escuche la red para recuperar cierta información. Esta acción se considera sensible en sistemas operativos, ya que también le permite escuchar las comunicaciones de otras aplicaciones del sistema. Al igual que Wireshark, Nmap necesita privilegios específicos para hacer esto, que son más fáciles de obtener estando directamente en una sesión privilegiada.
 
 
 
 
 
-- Escuchar en puertos privilegiados**: en los sistemas operativos se dice que los puertos del 0 al 1024 (tanto TCP como UDP) son privilegiados, es decir, que están reservados de alguna forma para usos muy específicos y por tanto protegidos. Aunque esta es una razón algo obsoleta hoy en día, sigue siendo necesario tener ciertos privilegios para escuchar en estos puertos, algo que Nmap puede tener que hacer dependiendo de cómo se vaya a utilizar.
+- **Escuchar en puertos privilegiados**: en los sistemas operativos se dice que los puertos del 0 al 1024 (tanto TCP como UDP) son privilegiados, es decir, que están reservados de alguna forma para usos muy específicos y por tanto protegidos. Aunque esta es una razón algo obsoleta hoy en día, sigue siendo necesario tener ciertos privilegios para escuchar en estos puertos, algo que Nmap puede tener que hacer dependiendo de cómo se vaya a utilizar.
 
 
 
 
 
-- Envío de paquetes UDP:** Del mismo modo, escuchar una aplicación de red en los puertos UDP (un protocolo sin estado) requiere derechos privilegiados en los sistemas operativos. Por lo tanto, será necesaria una sesión privilegiada si desea realizar un sondeo UDP, para el que Nmap tendrá que escuchar una respuesta con el fin de analizar las respuestas a sus sondeos.
+- Envío de paquetes UDP: Del mismo modo, escuchar una aplicación de red en los puertos UDP (un protocolo sin estado) requiere derechos privilegiados en los sistemas operativos. Por lo tanto, será necesaria una sesión privilegiada si desea realizar un sondeo UDP, para el que Nmap tendrá que escuchar una respuesta con el fin de analizar las respuestas a sus sondeos.
 
 
 
@@ -562,13 +562,13 @@ A partir de ahora, recuerde escanear únicamente hosts en un entorno controlado 
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Plataforma de formación en hacking, Hack The Box pone constantemente a tu disposición sistemas vulnerables para que los ataques a tu antojo. Hay varios centenares de sistemas disponibles, pero durante todo el año se ofrece gratuitamente un fondo renovado de 20 máquinas, con acceso a través de una VPN OpenVPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Plataforma de formación en hacking, Hack The Box pone constantemente a tu disposición sistemas vulnerables para que los ataques a tu antojo. Hay varios centenares de sistemas disponibles, pero durante todo el año se ofrece gratuitamente un fondo renovado de 20 máquinas, con acceso a través de una VPN OpenVPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Esta plataforma ofrece numerosos sistemas intencionadamente vulnerables para su descarga, que pueden utilizarse a través de VirtualBox (también una solución gratuita) u otros medios. Una vez descargados, no es necesaria una VPN: todo es local.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Esta plataforma ofrece numerosos sistemas intencionadamente vulnerables para su descarga, que pueden utilizarse a través de VirtualBox (también una solución gratuita) u otros medios. Una vez descargados, no es necesaria una VPN: todo es local.
 
 
 
@@ -815,7 +815,7 @@ respuesta a un paquete TCP SYN enviado al puerto 22, activo en el objetivo de ex
 
 
 
-En la captura de pantalla anterior, vemos un paquete TCP SYN/ACK enviado por el host de destino**. El puerto está activo y expone un servicio. Nmap acusa recibo de la respuesta y luego termina la conexión (TCP RST/ACK). **Así es como supo que el puerto TCP/22 estaba activo**.
+En la captura de pantalla anterior, vemos un paquete TCP SYN/ACK enviado por el host de destino. El puerto está activo y expone un servicio. Nmap acusa recibo de la respuesta y luego termina la conexión (TCP RST/ACK). **Así es como supo que el puerto TCP/22 estaba activo**.
 
 
 
@@ -976,7 +976,7 @@ Como hemos visto, el propio Nmap elige el número y los puertos a analizar si no
 
 
 
-**¿Cómo se eligen estos puertos?
+**¿Cómo se eligen estos puertos?**
 
 
 
@@ -1060,7 +1060,7 @@ Independientemente del orden, Nmap comprobará todos estos puertos, y sólo los 
 
 
 
-**Escanear una serie de puertos
+**Escanear una serie de puertos**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Escaneo de puertos TCP y UDP
+**Escaneo de puertos TCP y UDP**
 
 
 
@@ -1134,7 +1134,7 @@ Es una forma interesante de personalizar las exploraciones
 
 
 
-**Escanear todos los puertos
+**Escanear todos los puertos**
 
 
 
@@ -1347,7 +1347,7 @@ Pero hay más que eso. Puedes ver en la captura de Wireshark de arriba que los p
 
 
 
-**¿Por qué enviar paquetes TCP a los puertos como parte del descubrimiento de la red?
+**¿Por qué enviar paquetes TCP a los puertos como parte del descubrimiento de la red?**
 
 
 
@@ -2165,31 +2165,31 @@ Seamos claros: Nmap no es capaz de realizar una prueba de penetración completa 
 
 
 
-- Cobertura limitada**: aunque los scripts de NSE de Nmap son potentes, la cobertura de sus pruebas puede ser limitada en comparación con otras herramientas especializadas en el descubrimiento de vulnerabilidades. Algunas vulnerabilidades pueden no estar cubiertas por los scripts de NSE disponibles, como las vulnerabilidades de Active Directory, la exposición de datos confidenciales o casos más avanzados de aplicaciones web vulnerables.
+- **Cobertura limitada**: aunque los scripts de NSE de Nmap son potentes, la cobertura de sus pruebas puede ser limitada en comparación con otras herramientas especializadas en el descubrimiento de vulnerabilidades. Algunas vulnerabilidades pueden no estar cubiertas por los scripts de NSE disponibles, como las vulnerabilidades de Active Directory, la exposición de datos confidenciales o casos más avanzados de aplicaciones web vulnerables.
 
 
 
 
 
-- Complejidad de la vulnerabilidad**: ciertos tipos de vulnerabilidad pueden ser difíciles de detectar utilizando scripts de NSE debido a su complejidad. Por ejemplo, las vulnerabilidades que requieren una interacción compleja con un servicio remoto pueden no ser detectadas eficazmente por Nmap (como en el caso de permisos excesivos en un archivo compartido o un fallo de control de permisos en una aplicación web).
+- **Complejidad de la vulnerabilidad**: ciertos tipos de vulnerabilidad pueden ser difíciles de detectar utilizando scripts de NSE debido a su complejidad. Por ejemplo, las vulnerabilidades que requieren una interacción compleja con un servicio remoto pueden no ser detectadas eficazmente por Nmap (como en el caso de permisos excesivos en un archivo compartido o un fallo de control de permisos en una aplicación web).
 
 
 
 
 
-- Detección pasiva**: Nmap se centra principalmente en exploraciones activas para detectar vulnerabilidades, lo que significa que puede no detectar de forma efectiva vulnerabilidades potenciales sin establecer una conexión activa con los hosts objetivo. Por lo tanto, las vulnerabilidades que no se manifiestan durante un análisis activo pueden pasar desapercibidas (como en el caso de una inyección de código en una aplicación web).
+- **Detección pasiva**: Nmap se centra principalmente en exploraciones activas para detectar vulnerabilidades, lo que significa que puede no detectar de forma efectiva vulnerabilidades potenciales sin establecer una conexión activa con los hosts objetivo. Por lo tanto, las vulnerabilidades que no se manifiestan durante un análisis activo pueden pasar desapercibidas (como en el caso de una inyección de código en una aplicación web).
 
 
 
 
 
-- Dependencia de las actualizaciones**: La [base de datos](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) de scripts NSE de Nmap está en constante evolución, pero puede haber un retraso entre el descubrimiento de una nueva vulnerabilidad y la adición del script correspondiente a Nmap. Como resultado, Nmap puede no estar siempre actualizado con las últimas vulnerabilidades.
+- **Dependencia de las actualizaciones**: La [base de datos](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) de scripts NSE de Nmap está en constante evolución, pero puede haber un retraso entre el descubrimiento de una nueva vulnerabilidad y la adición del script correspondiente a Nmap. Como resultado, Nmap puede no estar siempre actualizado con las últimas vulnerabilidades.
 
 
 
 
 
-- Falsos positivos y falsos negativos**: como con cualquier herramienta de seguridad, los scripts NSE de Nmap pueden producir falsos positivos (falsas alertas de vulnerabilidades) o falsos negativos (vulnerabilidades reales no detectadas). Esto es algo a tener en cuenta cuando se analizan los resultados de Nmap.
+- **Falsos positivos y falsos negativos**: como con cualquier herramienta de seguridad, los scripts NSE de Nmap pueden producir falsos positivos (falsas alertas de vulnerabilidades) o falsos negativos (vulnerabilidades reales no detectadas). Esto es algo a tener en cuenta cuando se analizan los resultados de Nmap.
 
 
 

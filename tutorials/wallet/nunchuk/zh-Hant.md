@@ -1,5 +1,5 @@
 ---
-name: 雙節棍
+name: Nunchuk
 description: Wallet 移動式適用於所有
 ---
 ![cover](assets/cover.webp)

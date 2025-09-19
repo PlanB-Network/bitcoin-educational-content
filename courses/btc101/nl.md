@@ -950,7 +950,7 @@ Politici hebben meestal een kortetermijnvisie en ze hebben economische groei nod
 
 Critici erkennen niet dat Bitcoin het gebruik van groene energie bevordert. De vlammen die in oliebronnen worden ontstoken om methaan te verbranden en vervuiling te voorkomen, kunnen bijvoorbeeld worden gedoofd door Bitcoin miners, omdat methaan kan worden omgezet in elektriciteit om mining machines aan te drijven, wat goed is voor het milieu.
 
-**Volg één van de stelregels van Bitcoin: Vertrouw niet, controleer zelf!
+**Volg één van de stelregels van Bitcoin: Vertrouw niet, controleer zelf!**
 
 ### Korte samenvatting van de technische kenmerken van Bitcoin
 

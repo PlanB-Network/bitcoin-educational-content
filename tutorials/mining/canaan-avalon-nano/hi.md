@@ -1,5 +1,5 @@
 ---
-name: कनान एवलॉन नैनो 3एस
+name: Canaan Avalon Nano 3S
 description: अपने ASIC Avalon को सोलोमाइनिंग या Miner पूलिंग के लिए कॉन्फ़िगर करना
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: BTC 地圖
+name: BTC Map
 description: 尋找消磨 Sats 的地方
 ---
 ![cover](assets/cover.webp)

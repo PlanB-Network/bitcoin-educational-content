@@ -1,5 +1,5 @@
 ---
-name: Cụm từ BIP39
+name: BIP-39 Passphrase
 description: Hiểu cách hoạt động của một cụm từ bí mật
 ---
 ![cover](assets/cover.webp)

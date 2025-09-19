@@ -1,5 +1,5 @@
 ---
-name: Ramani ya BTC
+name: BTC Map
 description: Tafuta maeneo ya kutumia Sats yako
 ---
 ![cover](assets/cover.webp)

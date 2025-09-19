@@ -1,5 +1,5 @@
 ---
-name: Thư Proton
+name: Proton Mail
 description: Thiết lập hộp thư an toàn
 ---
 ![cover](assets/cover.webp)
@@ -306,7 +306,7 @@ Tab "*Bộ lọc*" cho phép bạn quản lý bộ lọc cho các email bạn nh
 
 
 
-Tab "Chuyển tiếp và trả lời tự động*" cho phép bạn quản lý việc chuyển tiếp và trả lời tự động cho email của mình.
+Tab "Chuyển tiếp và trả lời tự động" cho phép bạn quản lý việc chuyển tiếp và trả lời tự động cho email của mình.
 
 
 

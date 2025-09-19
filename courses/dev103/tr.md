@@ -730,9 +730,9 @@ Bu bölümde, JavaScript programlarında çok yaygın olan üç türü daha ele 
 
 
 
-- Diziler**: değer dizileri
-- undefined**: "hiçbir şey atanmadı" anlamına gelen özel bir değer
-- null**: "kasıtlı olarak boş" anlamına gelen başka bir özel değer
+- **Diziler**: değer dizileri
+- **undefined**: "hiçbir şey atanmadı" anlamına gelen özel bir değer
+- **null**: "kasıtlı olarak boş" anlamına gelen başka bir özel değer
 
 
 ### Diziler ve dizin erişimi
@@ -1193,7 +1193,7 @@ Blokları, mantık ve karşılaştırma operatörlerini kullanarak, bir şeyin g
 ### `while`, `break`, `continue`
 
 
-Bir `while` döngüsü, bir koşul doğru olduğu sürece * kodu tekrarlar.
+Bir `while` döngüsü, bir koşul doğru olduğu sürece kodu tekrarlar.
 
 
 ```javascript
@@ -1506,7 +1506,7 @@ Bu çok sıkıcı bir örnekti ama umarım etiketlere olan (zaman zaman) ihtiyac
 Programlarınız büyüdükçe, genellikle kod parçalarını **yeniden kullanmak** isteyeceksiniz.
 
 
-Fonksiyonlar** bunun içindir: bazı kodları bir araya getirmenize, bir isim vermenize ve istediğiniz zaman çalıştırmanıza izin verirler.
+**Fonksiyonlar** bunun içindir: bazı kodları bir araya getirmenize, bir isim vermenize ve istediğiniz zaman çalıştırmanıza izin verirler.
 
 
 ### İşlev bildirimi
@@ -3324,7 +3324,7 @@ console.log(user)
 ```
 
 
-Köşeli parantez kullanarak nesneyi oluştururken * dinamik bir anahtar bile kullanabilirsiniz:
+Köşeli parantez kullanarak nesneyi oluştururken **dinamik bir anahtar bile kullanabilirsiniz:**
 
 
 ```javascript
@@ -3660,7 +3660,7 @@ console.log(myMap.get(objKey))     // Object as key
 ```
 
 
-Bir anahtarın var olup olmadığını kontrol etmek** için `myMap.has(key)` kullanın:
+Bir anahtarın var olup olmadığını kontrol etmek için **`myMap.has(key)`** kullanın:
 
 
 ```javascript
@@ -3706,7 +3706,7 @@ const mySet = new Set()
 ```
 
 
-Değer eklemek** için `mySet.add(value)` kullanın:
+**Değer eklemek** için `mySet.add(value)` kullanın:
 
 
 ```javascript
@@ -3719,7 +3719,7 @@ mySet.add(2) // duplicate, will be ignored
 2`yi iki kez eklemeye çalışmamıza rağmen, küme yalnızca bir kopya tutacaktır.
 
 
-Bir değerin sette olup olmadığını kontrol etmek** için `mySet.has(value)` kullanın:
+Bir değerin sette olup olmadığını kontrol etmek için **`mySet.has(value)`** kullanın:
 
 
 ```javascript
@@ -3736,7 +3736,7 @@ mySet.delete(2)
 ```
 
 
-Her şeyi** temizlemek için `mySet.clear()` işlevini kullanın:
+Her şeyi temizlemek için `mySet.clear()` işlevini kullanın:
 
 
 ```javascript
@@ -3773,7 +3773,7 @@ Bir **iterator**, JavaScript'te bir öğe listesinde **her seferinde bir tane ol
 ### `Object` yineleyicileri
 
 
-Dizilerin veya haritaların aksine, normal nesneler `for...of` ile yinelenemez**. Eğer bunu denerseniz:
+Dizilerin veya haritaların aksine, normal nesneler `for...of` ile **yinelenemez**. Eğer bunu denerseniz:
 
 
 ```javascript
@@ -3831,7 +3831,7 @@ age
 #### `Object.values()`
 
 
-Değerler** üzerinde döngü yapmak için `Object.values()` işlevini kullanın:
+**Değerler** üzerinde döngü yapmak için `Object.values()` işlevini kullanın:
 
 
 ```javascript
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Burada neler oluyor?
+**Burada neler oluyor?**
 
 
 1. Giriş`i ikiye katlamak istediğimiz sayıların listesi olarak iletiyoruz.
@@ -4757,7 +4757,7 @@ Normal bir adım adım program gibi görünür, ancak yine de asenkron olarak da
 <chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
 
 
-Yineleyicileri** ve diziler ve diğer yinelenebilir şeyler üzerinde döngü yapmak için `for...of`u nasıl kullanabileceğimizi zaten öğrendiniz.
+**Yineleyicileri** ve diziler ve diğer yinelenebilir şeyler üzerinde döngü yapmak için `for...of`u nasıl kullanabileceğimizi zaten öğrendiniz.
 
 
 Peki ya üzerinde yineleme yapmak istediğimiz verilerin ulaşması zaman alıyorsa?
@@ -5126,7 +5126,7 @@ Destructuring, nesneler ve dizilerle çalışırken kodunuzun daha temiz olması
 ### Yayılma Sözdizimi
 
 
-Spread sözdizimi** değerleri açmak veya kopyalamak için `...` kullanır.
+**Spread sözdizimi** değerleri açmak veya kopyalamak için `...` kullanır.
 
 
 #### Diziler
@@ -5586,7 +5586,7 @@ Sync API basittir ve küçük komut dosyaları için iyidir, ancak iş bitene ka
 ### Callback async API
 
 
-Geri çağırma API'si** bloklama yapmaz: dosya işlemi gerçekleşirken NodeJS'nin başka şeyler yapmaya devam etmesini sağlar.
+**Geri çağırma API'si** bloklama yapmaz: dosya işlemi gerçekleşirken NodeJS'nin başka şeyler yapmaya devam etmesini sağlar.
 
 
 Sonucu doğrudan döndürmek yerine, işlem tamamlandığında çağrılacak bir işlev (bir **callback**) alır.
@@ -6431,10 +6431,10 @@ NodeJS dört ana akış türüne sahiptir:
 
 
 
-- Okunabilir**: veri okuyabileceğiniz akışlar (bir dosyayı okumak gibi)
-- Writable**: veri yazabileceğiniz akışlar (bir dosyaya yazmak gibi)
-- Duplex**: hem okunabilir hem de yazılabilir akışlar
-- Dönüştür**: çift yönlü akışlar gibi, ancak verileri akarken değiştirebilirler (dönüştürebilirler)
+- **Okunabilir**: veri okuyabileceğiniz akışlar (bir dosyayı okumak gibi)
+- **Writable**: veri yazabileceğiniz akışlar (bir dosyaya yazmak gibi)
+- **Duplex**: hem okunabilir hem de yazılabilir akışlar
+- **Dönüştür**: çift yönlü akışlar gibi, ancak verileri akarken değiştirebilirler (dönüştürebilirler)
 
 
 ### Okunabilir akışlar
@@ -6555,7 +6555,7 @@ Tıpkı okunabilir akışlar gibi, yazılabilir akışlar da büyük veriler iç
 ### Boru akışları
 
 
-Akışlarla ilgili en güzel şeylerden biri, onları birbirine **borulayabilmenizdir: okunabilir bir akışı doğrudan yazılabilir bir akışa bağlayabilirsiniz.
+Akışlarla ilgili en güzel şeylerden biri, onları birbirine **borulayabilmenizdir**: okunabilir bir akışı doğrudan yazılabilir bir akışa bağlayabilirsiniz.
 
 
 ```javascript

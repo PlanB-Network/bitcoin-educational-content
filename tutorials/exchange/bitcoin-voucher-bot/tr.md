@@ -161,7 +161,7 @@ Daha sonra uygulamanız veya bankanız aracılığıyla ödemeye devam edebilirs
 ![image](assets/it/11.webp)
 
 
-VoucherBot çok önemli bir uyarı içeren bir mesajla yanıt verir: *en azından kupon alınana kadar *sohbeti silmeyin**, çünkü siparişi yeniden oluşturmanın ve devam ettirmenin tek yolu budur.
+VoucherBot çok önemli bir uyarı içeren bir mesajla yanıt verir: *en azından kupon alınana kadar **sohbeti silmeyin***, çünkü siparişi yeniden oluşturmanın ve devam ettirmenin tek yolu budur.
 
 
 ![image](assets/it/12.webp)

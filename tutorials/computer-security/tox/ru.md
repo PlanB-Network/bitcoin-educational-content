@@ -1,5 +1,5 @@
 ---
-name: Токс
+name: Tox
 description: Открывайте разговоры без посредников на децентрализованном протоколе Tox
 ---
 ![cover](assets/cover.webp)

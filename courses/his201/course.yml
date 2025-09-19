@@ -79,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.41
+    reward: 97.44
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -105,13 +105,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 97.41
+    reward: 97.44
   - language: sw
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 48.71
+    reward: 48.72
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -126,7 +126,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 73.08
+    reward: 73.11
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -137,6 +137,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 121.78
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 97.44
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 146.12
 tags:
   - historical
   - protocols

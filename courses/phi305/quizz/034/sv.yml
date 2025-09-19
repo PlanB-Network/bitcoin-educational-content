@@ -1,0 +1,9 @@
+question: Vem är Lamarck?
+answer: En fransk naturforskare som var Darwins föregångare.
+wrong_answers:
+  - En holländsk filosof.
+  - En lärjunge till Spinoza.
+  - En klassisk målare.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) var en fransk naturforskare som före Darwin lade fram en evolutionsteori. Hans teori om transformism inkluderade ärftlighet av förvärvade egenskaper.
+reviewed: false

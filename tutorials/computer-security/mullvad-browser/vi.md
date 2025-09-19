@@ -1,5 +1,5 @@
 ---
-name: Trình duyệt Mullvad
+name: Mullvad Browser
 description: Cách sử dụng Trình duyệt Mullvad để bảo vệ quyền riêng tư
 ---
 
@@ -13,10 +13,10 @@ Trong một thế giới mà việc giám sát kỹ thuật số đang trở nê
 
 
 
-- Cookie của bên thứ ba**: các tệp nhỏ được các trang web bên ngoài gửi đến để theo dõi bạn từ trang web này sang trang web khác
-- Lấy dấu vân tay**: thu thập các đặc điểm riêng biệt của trình duyệt và thiết bị của bạn (độ phân giải màn hình, phông chữ đã cài đặt, plugin, v.v.) để nhận dạng bạn mà không cần cookie
-- Theo dõi tập lệnh**: mã JavaScript vô hình phân tích hành vi duyệt web của bạn (nhấp chuột, cuộn, thời gian sử dụng)
-- Phân tích IP Address**: vị trí địa lý và nhận dạng nhà cung cấp dịch vụ Internet của bạn
+- **Cookie của bên thứ ba**: các tệp nhỏ được các trang web bên ngoài gửi đến để theo dõi bạn từ trang web này sang trang web khác
+- **Lấy dấu vân tay**: thu thập các đặc điểm riêng biệt của trình duyệt và thiết bị của bạn (độ phân giải màn hình, phông chữ đã cài đặt, plugin, v.v.) để nhận dạng bạn mà không cần cookie
+- **Theo dõi tập lệnh**: mã JavaScript vô hình phân tích hành vi duyệt web của bạn (nhấp chuột, cuộn, thời gian sử dụng)
+- **Phân tích IP Address**: vị trí địa lý và nhận dạng nhà cung cấp dịch vụ Internet của bạn
 
 
 
@@ -74,25 +74,25 @@ Trình duyệt Mullvad được thiết kế với một mục tiêu chính: **b
 
 
 
-- Giảm đáng kể việc theo dõi quảng cáo và theo dõi** bởi các trang web và công ty quảng cáo. Theo mặc định, Mullvad Browser chặn các trình theo dõi của bên thứ ba, cookie theo dõi và tập lệnh dấu vân tay có thể nhận dạng bạn.
+- Giảm đáng kể việc theo dõi quảng cáo và **theo dõi** bởi các trang web và công ty quảng cáo. Theo mặc định, Mullvad Browser chặn các trình theo dõi của bên thứ ba, cookie theo dõi và tập lệnh dấu vân tay có thể nhận dạng bạn.
 
 
 
 
 
-- Chuẩn hóa dấu vân tay của trình duyệt** để **"hòa nhập với đám đông"**. Dấu vân tay giống như một "thẻ căn cước" độc nhất được tạo ra bằng cách kết hợp tất cả các đặc điểm của trình duyệt. Trình duyệt Mullvad đảm bảo rằng tất cả người dùng đều có cùng một "thẻ căn cước", khiến việc phân biệt từng người dùng trở nên bất khả thi.
+- Chuẩn hóa dấu vân tay của trình duyệt để **"hòa nhập với đám đông"**. Dấu vân tay giống như một "thẻ căn cước" độc nhất được tạo ra bằng cách kết hợp tất cả các đặc điểm của trình duyệt. Trình duyệt Mullvad đảm bảo rằng tất cả người dùng đều có cùng một "thẻ căn cước", khiến việc phân biệt từng người dùng trở nên bất khả thi.
 
 
 
 
 
-- Cung cấp khả năng bảo vệ tức thì mà không cần tiện ích mở rộng bổ sung**. Trình duyệt Mullvad có cấu hình "sẵn sàng sử dụng": người dùng không cần cài đặt nhiều tiện ích mở rộng hoặc sửa đổi bất kỳ cài đặt nào để được bảo vệ.
+- Cung cấp khả năng bảo vệ tức thì mà không cần tiện ích mở rộng bổ sung. Trình duyệt Mullvad có cấu hình "sẵn sàng sử dụng": người dùng không cần cài đặt nhiều tiện ích mở rộng hoặc sửa đổi bất kỳ cài đặt nào để được bảo vệ.
 
 
 
 
 
-- Đừng hy sinh hiệu suất hoặc tính công thái học** nhiều hơn mức cần thiết. Khi không có định tuyến Tor, Trình duyệt Mullvad mang lại tốc độ duyệt web nhanh hơn nhiều so với Trình duyệt Tor, gần bằng hiệu suất của một trình duyệt tiêu chuẩn kết hợp với VPN.
+- Đừng hy sinh hiệu suất hoặc tính công thái học nhiều hơn mức cần thiết. Khi không có định tuyến Tor, Trình duyệt Mullvad mang lại tốc độ duyệt web nhanh hơn nhiều so với Trình duyệt Tor, gần bằng hiệu suất của một trình duyệt tiêu chuẩn kết hợp với VPN.
 
 
 
@@ -106,36 +106,36 @@ Trình duyệt Mullvad bao gồm một loạt các tính năng **bảo mật và
 
 
 
-- Duyệt web riêng tư mọi lúc:** Chế độ duyệt web riêng tư được kích hoạt theo mặc định và không thể tắt. **Không có lịch sử, cookie hoặc bộ nhớ đệm nào được lưu trữ từ phiên này sang phiên khác**. Ngay khi bạn đóng Trình duyệt Mullvad, mọi dữ liệu duyệt web sẽ bị xóa.
+- **Duyệt web riêng tư mọi lúc:** Chế độ duyệt web riêng tư được kích hoạt theo mặc định và không thể tắt. **Không có lịch sử, cookie hoặc bộ nhớ đệm nào được lưu trữ từ phiên này sang phiên khác**. Ngay khi bạn đóng Trình duyệt Mullvad, mọi dữ liệu duyệt web sẽ bị xóa.
 
 
 
 
 
-- Tăng cường bảo vệ chống lại dấu vân tay:** Trình duyệt áp dụng các thiết lập nghiêm ngặt để ngăn chặn dấu vân tay kỹ thuật số. Điều này bao gồm:
- - Chuẩn hóa phiên bản trình duyệt và tác nhân người dùng**
- - Múi giờ được đặt thành UTC** cho tất cả người dùng
- - Letterboxing**: một kỹ thuật tự động thêm lề xám xung quanh các trang web để chuẩn hóa kích thước hiển thị và ngăn chặn việc nhận dạng theo kích thước màn hình của bạn
- - Chặn API lấy dấu vân tay**: Các công nghệ Canvas (bản vẽ 2D), WebGL (đồ họa 3D) và AudioContext (xử lý âm thanh) bị vô hiệu hóa vì chúng có thể tiết lộ các chi tiết duy nhất về phần cứng của bạn
- - Phông chữ hệ thống được chuẩn hóa** để tránh bị nhận dạng bởi phông chữ đã cài đặt
+- **Tăng cường bảo vệ chống lại dấu vân tay:** Trình duyệt áp dụng các thiết lập nghiêm ngặt để ngăn chặn dấu vân tay kỹ thuật số. Điều này bao gồm:
+- **Chuẩn hóa phiên bản trình duyệt và tác nhân người dùng**
+- Múi giờ được đặt thành **UTC** cho tất cả người dùng
+- **Letterboxing**: một kỹ thuật tự động thêm lề xám xung quanh các trang web để chuẩn hóa kích thước hiển thị và ngăn chặn việc nhận dạng theo kích thước màn hình của bạn
+- Chặn API lấy dấu vân tay: Các công nghệ Canvas (bản vẽ 2D), WebGL (đồ họa 3D) và AudioContext (xử lý âm thanh) bị vô hiệu hóa vì chúng có thể tiết lộ các chi tiết duy nhất về phần cứng của bạn
+- Phông chữ hệ thống được **chuẩn hóa** để tránh bị nhận dạng bởi phông chữ đã cài đặt
 
 
 
 
 
-- Chặn trình theo dõi và quảng cáo:** Trình duyệt Mullvad tích hợp sẵn tiện ích mở rộng **uBlock Origin** (được cài đặt sẵn) với các danh sách bảo vệ bổ sung để chặn **trình theo dõi của bên thứ ba, tập lệnh quảng cáo và nội dung độc hại khác**. Tính năng bảo vệ này đi kèm với **First-Party Isolation**: một kỹ thuật lưu trữ cookie trong các "kho" riêng biệt cho mỗi trang web, ngăn không cho một trang web đọc cookie do trang web khác gửi.
+- **Chặn trình theo dõi và quảng cáo:** Trình duyệt Mullvad tích hợp sẵn tiện ích mở rộng **uBlock Origin** (được cài đặt sẵn) với các danh sách bảo vệ bổ sung để chặn **trình theo dõi của bên thứ ba, tập lệnh quảng cáo và nội dung độc hại khác**. Tính năng bảo vệ này đi kèm với **First-Party Isolation**: một kỹ thuật lưu trữ cookie trong các "kho" riêng biệt cho mỗi trang web, ngăn không cho một trang web đọc cookie do trang web khác gửi.
 
 
 
 
 
-- Nút đặt lại phiên:** Giống như nút "Danh tính mới" của Tor Browser, Mullvad Browser cung cấp một nút để **khởi động lại trình duyệt một cách nhanh chóng với phiên mới, trống**.
+- Nút đặt lại phiên: Giống như nút "Danh tính mới" của Tor Browser, Mullvad Browser cung cấp một nút để **khởi động lại trình duyệt một cách nhanh chóng với phiên mới, trống**.
 
 
 
 
 
-- Mức độ bảo mật có thể điều chỉnh:** Bạn có thể điều chỉnh mức độ bảo mật (*Bình thường*, *An toàn hơn*, *An toàn nhất*) trong phần cài đặt, giống như trong Tor Browser.
+- **Mức độ bảo mật có thể điều chỉnh:** Bạn có thể điều chỉnh mức độ bảo mật (*Bình thường*, *An toàn hơn*, *An toàn nhất*) trong phần cài đặt, giống như trong Tor Browser.
 
 
 
@@ -174,9 +174,9 @@ NoScript chạy ở chế độ nền để quản lý **mức độ bảo mật
 
 
 
-- Kiểm soát việc thực thi JavaScript** theo mức độ đã chọn (Bình thường/Bảo mật nhất/Bảo mật nhất)
-- Tự động lọc các cuộc tấn công XSS** (Cross-Site Scripting)
-- Chặn nội dung hoạt động nguy hiểm** trên các trang web không phải HTTPS
+- Kiểm soát việc thực thi **JavaScript** theo mức độ đã chọn (Bình thường/Bảo mật nhất/Bảo mật nhất)
+- Tự động lọc các cuộc tấn công **XSS** (Cross-Site Scripting)
+- Chặn nội dung **hoạt động nguy hiểm** trên các trang web không phải HTTPS
 - Biểu tượng của nó bị ẩn theo mặc định, nhưng có thể hiển thị thông qua "Tùy chỉnh thanh công cụ"
 
 
@@ -193,10 +193,10 @@ Tiện ích mở rộng dành riêng cho Mullvad này cung cấp các chức nă
 
 
 
-- Kiểm tra kết nối cơ bản**: hiển thị IP công khai hiện tại của bạn và một số thông tin kết nối
-- Khuyến nghị về quyền riêng tư**: mẹo để cải thiện cài đặt bảo mật của bạn (DNS, chỉ HTTPS, công cụ tìm kiếm)
-- Kiểm soát WebRTC**: bật/tắt để ngăn chặn rò rỉ IP Address
-- Có thể xóa mà không ảnh hưởng** đến dấu vết kỹ thuật số của bạn nếu bạn không sử dụng Mullvad VPN
+- **Kiểm tra kết nối cơ bản**: hiển thị IP công khai hiện tại của bạn và một số thông tin kết nối
+- **Khuyến nghị về quyền riêng tư**: mẹo để cải thiện cài đặt bảo mật của bạn (DNS, chỉ HTTPS, công cụ tìm kiếm)
+- **Kiểm soát WebRTC**: bật/tắt để ngăn chặn rò rỉ IP Address
+- Có thể xóa mà không ảnh hưởng đến dấu vết kỹ thuật số của bạn nếu bạn không sử dụng Mullvad VPN
 
 
 
@@ -209,16 +209,16 @@ Tiện ích mở rộng này sẽ bộc lộ hết tiềm năng của nó với 
 
 
 
-- Proxy SOCKS5 tích hợp**: kết nối một cú nhấp chuột tới proxy máy chủ Mullvad VPN
- - Địa chỉ IP cố định Address**: không giống như VPN, có thể thay đổi địa chỉ IP Address, proxy luôn đảm bảo đầu ra Address giống nhau
- - Công tắc ngắt tự động**: nếu VPN bị ngắt kết nối, lưu lượng truy cập trình duyệt sẽ bị chặn ngay lập tức
- - Hỗ trợ IPv6**: Kết nối IPv6 ngay cả khi kết nối VPN của bạn không bật tính năng này
+- **Proxy SOCKS5 tích hợp**: kết nối một cú nhấp chuột tới proxy máy chủ Mullvad VPN
+- Địa chỉ IP cố định **Address**: không giống như VPN, có thể thay đổi địa chỉ IP Address, proxy luôn đảm bảo đầu ra Address giống nhau
+- **Công tắc ngắt tự động**: nếu VPN bị ngắt kết nối, lưu lượng truy cập trình duyệt sẽ bị chặn ngay lập tức
+- **Hỗ trợ IPv6**: Kết nối IPv6 ngay cả khi kết nối VPN của bạn không bật tính năng này
 
 
 
 
 
-- Multihop (VPN kép)**: khả năng thay đổi vị trí proxy để tạo đường hầm bên trong đường hầm
+- **Multihop (VPN kép)**: khả năng thay đổi vị trí proxy để tạo đường hầm bên trong đường hầm
  - Lưu lượng truy cập của bạn trước tiên phải đi qua máy chủ VPN của bạn, sau đó "nhảy" đến một máy chủ Mullvad khác
  - Chỉ sử dụng bản địa hóa khác nhau cho trình duyệt
 
@@ -226,13 +226,13 @@ Tiện ích mở rộng này sẽ bộc lộ hết tiềm năng của nó với 
 
 
 
-- Giám sát kết nối nâng cao**: giám sát trạng thái VPN, máy chủ được kết nối và phát hiện rò rỉ DNS theo thời gian thực
+- **Giám sát kết nối nâng cao**: giám sát trạng thái VPN, máy chủ được kết nối và phát hiện rò rỉ DNS theo thời gian thực
 
 
 
 
 
-- Truy cập vào Mullvad Leta**: công cụ tìm kiếm riêng tư dành riêng cho người đăng ký (mặc dù Mullvad không khuyến nghị vì lý do liên quan đến tài khoản của bạn)
+- Truy cập vào **Mullvad Leta**: công cụ tìm kiếm riêng tư dành riêng cho người đăng ký (mặc dù Mullvad không khuyến nghị vì lý do liên quan đến tài khoản của bạn)
 
 
 
@@ -250,25 +250,25 @@ Ba tiện ích mở rộng này hoạt động cùng nhau để tạo ra một h
 
 
 
-- Bảo vệ quyền riêng tư tuyệt vời theo mặc định:** Trình duyệt Mullvad áp dụng các cài đặt quyền riêng tư rất nghiêm ngặt ngay từ đầu, không cần cấu hình thủ công.
+- **Bảo vệ quyền riêng tư tuyệt vời theo mặc định:** Trình duyệt Mullvad áp dụng các cài đặt quyền riêng tư rất nghiêm ngặt ngay từ đầu, không cần cấu hình thủ công.
 
 
 
 
 
-- Hiệu suất tốt hơn Tor Browser:** Do không có onion routing, Mullvad Browser **nhanh hơn đáng kể và phản hồi nhanh hơn** so với Tor Browser khi duyệt web thông thường.
+- Hiệu suất tốt hơn Tor Browser: Do không có onion routing, Mullvad Browser **nhanh hơn đáng kể và phản hồi nhanh hơn** so với Tor Browser khi duyệt web thông thường.
 
 
 
 
 
-- Sự đơn giản quen thuộc của Interface:** Trình duyệt Mullvad dựa trên Interface của Firefox. Nếu bạn đã quen với Firefox hoặc thậm chí là Tor Browser, bạn sẽ không cảm thấy lạc lõng.
+- **Sự đơn giản quen thuộc của Interface:** Trình duyệt Mullvad dựa trên Interface của Firefox. Nếu bạn đã quen với Firefox hoặc thậm chí là Tor Browser, bạn sẽ không cảm thấy lạc lõng.
 
 
 
 
 
-- Sự hợp tác đáng tin cậy và mã được kiểm tra:** Trình duyệt Mullvad được hưởng lợi từ chuyên môn của Dự án Tor và toàn bộ mã nguồn đều có thể được kiểm tra bên ngoài.
+- **Sự hợp tác đáng tin cậy và mã được kiểm tra:** Trình duyệt Mullvad được hưởng lợi từ chuyên môn của Dự án Tor và toàn bộ mã nguồn đều có thể được kiểm tra bên ngoài.
 
 
 
@@ -278,25 +278,25 @@ Ba tiện ích mở rộng này hoạt động cùng nhau để tạo ra một h
 
 
 
-- Không thể ẩn danh mạng nếu không có VPN:** Điểm quan trọng nhất là **Trình duyệt Mullvad không tự ẩn IP Address của bạn** (giống như tất cả các trình duyệt khác, ngoại trừ Trình duyệt Tor). IP Address của bạn giống như "Address bưu điện" trên Internet: nó tiết lộ vị trí và nhà cung cấp dịch vụ Internet (ISP) của bạn. Do đó, nó **phụ thuộc rất nhiều vào VPN** (mạng riêng ảo) để ẩn thông tin quan trọng này.
+- Không thể ẩn danh mạng nếu không có VPN: Điểm quan trọng nhất là **Trình duyệt Mullvad không tự ẩn IP Address của bạn** (giống như tất cả các trình duyệt khác, ngoại trừ Trình duyệt Tor). IP Address của bạn giống như "Address bưu điện" trên Internet: nó tiết lộ vị trí và nhà cung cấp dịch vụ Internet (ISP) của bạn. Do đó, nó **phụ thuộc rất nhiều vào VPN** (mạng riêng ảo) để ẩn thông tin quan trọng này.
 
 
 
 
 
-- Không có phiên bản di động:** Cho đến nay, Mullvad Browser chỉ khả dụng trên PC (Windows, Mac, Linux).
+- **Không có phiên bản di động:** Cho đến nay, Mullvad Browser chỉ khả dụng trên PC (Windows, Mac, Linux).
 
 
 
 
 
-- Không tương thích với một số thói quen nhất định:** **Chế độ riêng tư vĩnh viễn** nghĩa là bạn không thể duy trì một phiên sử dụng từ lần sử dụng này sang lần sử dụng khác. Không thể duy trì kết nối với một tài khoản web từ phiên này sang phiên khác.
+- Không tương thích với một số thói quen nhất định: **Chế độ riêng tư vĩnh viễn** nghĩa là bạn không thể duy trì một phiên sử dụng từ lần sử dụng này sang lần sử dụng khác. Không thể duy trì kết nối với một tài khoản web từ phiên này sang phiên khác.
 
 
 
 
 
-- Tính năng bị hạn chế:** Để duy trì tính đồng nhất của dấu vân tay, Trình duyệt Mullvad đã **vô hiệu hóa một số tính năng** có trong Firefox và không dành cho mục đích tùy chỉnh.
+- **Tính năng bị hạn chế:** Để duy trì tính đồng nhất của dấu vân tay, Trình duyệt Mullvad đã **vô hiệu hóa một số tính năng** có trong Firefox và không dành cho mục đích tùy chỉnh.
 
 
 
@@ -381,7 +381,7 @@ Trình duyệt cũng bao gồm **DNS-over-HTTPS (DoH)** sử dụng dịch vụ 
 
 
 
-Bạn có thể điều chỉnh mức độ bảo mật bằng cách nhấp vào **menu ứng dụng** (ba thanh ngang) ở góc trên bên phải, sau đó nhấp vào **"Cài đặt"**, rồi đến tab **"Quyền riêng tư & Bảo mật". Cuộn xuống phần **"Bảo mật"**:
+Bạn có thể điều chỉnh mức độ bảo mật bằng cách nhấp vào **menu ứng dụng** (ba thanh ngang) ở góc trên bên phải, sau đó nhấp vào **"Cài đặt"**, rồi đến tab **"Quyền riêng tư & Bảo mật"**. Cuộn xuống phần **"Bảo mật"**:
 
 
 
@@ -399,13 +399,13 @@ Trình duyệt Mullvad cung cấp ba cấp độ bảo mật:
 
 
 
-- Bình thường** (mức mặc định hiện tại): Tất cả các chức năng của trình duyệt và trang web đều được bật
+- **Bình thường** (mức mặc định hiện tại): Tất cả các chức năng của trình duyệt và trang web đều được bật
 
 
 
 
 
-- An toàn hơn**: Vô hiệu hóa các chức năng thường nguy hiểm của trang web, có thể dẫn đến mất chức năng trên một số trang web:
+- **An toàn hơn**: Vô hiệu hóa các chức năng thường nguy hiểm của trang web, có thể dẫn đến mất chức năng trên một số trang web:
  - JavaScript bị vô hiệu hóa đối với các trang web không phải HTTPS
  - Một số phông chữ và ký hiệu toán học bị vô hiệu hóa
  - Âm thanh và video (phương tiện HTML5) cũng như WebGL đều có thể "nhấp để phát"
@@ -414,7 +414,7 @@ Trình duyệt Mullvad cung cấp ba cấp độ bảo mật:
 
 
 
-- An toàn nhất**: Chỉ cho phép các chức năng trang web cần thiết cho các trang web tĩnh và các dịch vụ cơ bản:
+- **An toàn nhất**: Chỉ cho phép các chức năng trang web cần thiết cho các trang web tĩnh và các dịch vụ cơ bản:
  - JavaScript bị vô hiệu hóa theo mặc định cho tất cả các trang web
  - Một số phông chữ, biểu tượng, hình ảnh và ký hiệu toán học bị vô hiệu hóa
  - Âm thanh và video (phương tiện HTML5) cũng như WebGL đều có thể "nhấp để phát"
@@ -477,7 +477,7 @@ Nếu bạn vẫn quyết định cài đặt tiện ích mở rộng, hãy lưu
 
 
 
-1. **Luôn sử dụng VPN: Trình duyệt Mullvad không che giấu IP của bạn. VPN là điều cần thiết để ẩn danh hoàn toàn.
+1. **Luôn sử dụng VPN:** Trình duyệt Mullvad không che giấu IP của bạn. VPN là điều cần thiết để ẩn danh hoàn toàn.
 
 
 
@@ -494,9 +494,9 @@ Nếu bạn vẫn quyết định cài đặt tiện ích mở rộng, hãy lưu
 
 
 
-   - Bình thường (khuyến nghị)**: Dành cho việc duyệt web hàng ngày. Đã cung cấp khả năng bảo vệ tuyệt vời trong khi vẫn duy trì hoạt động của trang web. Đây là mức cân bằng tốt nhất cho 95% người dùng.
-   - An toàn hơn**: Nếu bạn đang truy cập các trang web không xác định hoặc có khả năng nguy hiểm, hoặc cần bảo vệ thêm trên mạng Wi-Fi công cộng. Một số trang web có thể gặp sự cố.
-   - An toàn nhất**: Dành riêng cho các tình huống rủi ro cao (báo chí điều tra, thông tin nhạy cảm, môi trường thù địch). Hầu hết các trang web hiện đại đều có thể bị tấn công, nhưng đó là cái giá phải trả cho mức độ bảo mật tối đa.
+- **Bình thường (khuyến nghị)**: Dành cho việc duyệt web hàng ngày. Đã cung cấp khả năng bảo vệ tuyệt vời trong khi vẫn duy trì hoạt động của trang web. Đây là mức cân bằng tốt nhất cho 95% người dùng.
+- **An toàn hơn**: Nếu bạn đang truy cập các trang web không xác định hoặc có khả năng nguy hiểm, hoặc cần bảo vệ thêm trên mạng Wi-Fi công cộng. Một số trang web có thể gặp sự cố.
+- **An toàn nhất**: Dành riêng cho các tình huống rủi ro cao (báo chí điều tra, thông tin nhạy cảm, môi trường thù địch). Hầu hết các trang web hiện đại đều có thể bị tấn công, nhưng đó là cái giá phải trả cho mức độ bảo mật tối đa.
 
 
 

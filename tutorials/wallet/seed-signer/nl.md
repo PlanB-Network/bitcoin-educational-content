@@ -1,5 +1,5 @@
 ---
-name: seed Ondertekenaar
+name: SeedSigner
 
 description: Instellen van uw seed ondertekenaar
 ---

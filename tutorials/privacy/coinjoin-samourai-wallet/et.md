@@ -66,7 +66,7 @@ Whirlpool on loodud arvestades kahte olulist nõuet:
 Need imperatiivid juhtisid Samourai Walleti arendajaid Whirlpooli kujundamisel, sundides neid piirama osalejate arvu tsükli kohta. Liiga vähesed osalejad oleksid ohustanud coinjoin'i efektiivsust, drastiliselt vähendades iga tsükli jooksul genereeritud anonüümsete osalejate hulka, samas kui liiga paljud osalejad oleksid tekitanud haldusprobleeme mobiilirakendustes ja takistanud tsüklite voolu.
 **Lõppkokkuvõttes pole Whirlpoolis iga coinjoin'i kohta vaja suurt osalejate arvu, kuna anonüümsete osalejate hulk saavutatakse mitme coinjoin-tsükli kuhjumise kaudu.**
 
-[-> Uuri lähemalt Whirlpooli anonüümsete osalejate kohta.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Uuri lähemalt Whirlpooli anonüümsete osalejate kohta.
 
 ### Basseinid ja coinjoin tasud
 Selleks, et need mitmed tsüklid tõhusalt suurendaksid segatud müntide anonüümsete osalejate hulka, tuleb kehtestada teatud raamistik, et piirata kasutatavate UTXO-de summasid. Whirlpool määratleb seega erinevad basseinid.
@@ -369,7 +369,7 @@ Veenduge, et teie SCODE on õigesti registreeritud, klõpsates veel kord kolmel 
 
 ## Kuidas teada meie coinjoin tsüklite kvaliteeti?
 Selleks, et coinjoin oleks tõeliselt efektiivne, on oluline, et see näitaks head ühtsust sisendite ja väljundite summade vahel. See ühtsus suurendab võimalike tõlgenduste arvu välise vaatleja silmis, suurendades seeläbi tehingu ümber olevat ebakindlust. Selle ebakindluse kvantifitseerimiseks, mida coinjoin tekitab, võib kasutada tehingu entroopia arvutamist. Nende näitajate süvauuringuks viitan teid õpetusele: [BOLTZMANNI KALKULAATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Whirlpooli mudelit tunnustatakse kui seda, mis toob coinjoinidele kõige rohkem homogeensust.
-Järgnevalt hinnatakse mitme coinjoin tsükli sooritust lähtuvalt rühmade ulatusest, milles münt on peidetud. Nende rühmade suurus määratleb, mida nimetatakse anonüümseteks komplektideks. Anonüümseid komplekte on kahte tüüpi: esimene hindab saavutatud privaatsust tagasiulatuva analüüsi (olevikust minevikku) põhjal ja teine, tulevikku suunatud analüüsi (minevikust olevikku) põhjal. Nende kahe näitaja detailse selgituse saamiseks kutsun teid tutvuma õpetusega: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
+Järgnevalt hinnatakse mitme coinjoin tsükli sooritust lähtuvalt rühmade ulatusest, milles münt on peidetud. Nende rühmade suurus määratleb, mida nimetatakse anonüümseteks komplektideks. Anonüümseid komplekte on kahte tüüpi: esimene hindab saavutatud privaatsust tagasiulatuva analüüsi (olevikust minevikku) põhjal ja teine, tulevikku suunatud analüüsi (minevikust olevikku) põhjal. Nende kahe näitaja detailse selgituse saamiseks kutsun teid tutvuma õpetusega: WHIRLPOOL STATS TOOLS - ANONSETS.
 
 ## Kuidas hallata postmixi?
 Pärast coinjoin tsüklite sooritamist on parim strateegia hoida oma UTXOsid **postmix** kontol, oodates nende tulevast kasutamist. On isegi soovitatav lasta neil lõputult remixida, kuni on vaja neid kulutada.
@@ -401,6 +401,7 @@ Järgmisena peate olema ettevaatlik doxxic muutuse haldamisel, muutusega, mis ei
 - [Samourai Wallet Dokumentatsioon - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitteri lõim coinjoins kohta](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogipostitus coinjoins kohta](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

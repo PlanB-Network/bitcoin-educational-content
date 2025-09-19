@@ -103,9 +103,9 @@ Breez pakub teile kolm võimalust:
 
 
 
-- Saate välguga või ID** Invoice: generate ja Invoice ja saate tasu.
-- Vastuvõtmine Bitcoin Address** kaudu: Vastuvõtmine bitcoinide abil tehingutega Bitcoin põhivõrgus.
-- Osta Bitcoin**: Breez sisaldab võimalust saada Bitcoin otse fiat-valuutast.
+- Saate välguga või **ID Invoice**: generate ja Invoice ja saate tasu.
+- **Vastuvõtmine Bitcoin Address kaudu**: Vastuvõtmine bitcoinide abil tehingutega Bitcoin põhivõrgus.
+- **Osta Bitcoin**: Breez sisaldab võimalust saada Bitcoin otse fiat-valuutast.
 
 
 
@@ -139,9 +139,9 @@ Breez pakub sulle bitcoinide saatmiseks kolm võimalust.
 
 
 
-- Sisestage Invoice või kasutaja ID**: Maksa välk Invoice.
-- Ühendage tasumiseks**: Looge sessioon ja kutsuge oma saaja sessiooniga liituma, et saata talle bitcoine.
-- Saada BTC Address**: Tehingud Bitcoin põhivõrgus.
+- Sisestage Invoice või kasutaja **ID**: Maksa välk Invoice.
+- **Ühendage tasumiseks**: Looge sessioon ja kutsuge oma saaja sessiooniga liituma, et saata talle bitcoine.
+- **Saada BTC Address**: Tehingud Bitcoin põhivõrgus.
 
 
 
@@ -169,7 +169,7 @@ Leiad kasulikud teenused otse rakendusest.
 
 
 
-- Kuulake podcaste**: Breez on podcast 2.0-mängija, mis võimaldab sul toetada armastatud loojaid Bitcoin annetustega.
+- Kuulake podcaste: **Breez on podcast 2.0-mängija, mis võimaldab sul toetada armastatud loojaid Bitcoin annetustega.**
 
 
 Valige menüüst **Podcastid**, seejärel leidke, avastage ja kuulake oma lemmikloojaid.
@@ -186,7 +186,7 @@ Toetage armastatud sisu loojate tööd, tehes annetusi.
 
 
 
-- Müügipunkt**: Breez kohandub ideaalselt teie ettevõttele, võimaldades teil rakenduses käivitada müügipunkti. Saate hallata oma kaupluse inventari, võtta klientidelt makseid vastu ja generate printida iga ostu kohta prinditavaid arveid. Veelgi enam, saate leida oma kohalikke valuutasid Breezi poolt toetatud arvukate valuutade hulgast.
+- **Müügipunkt**: Breez kohandub ideaalselt teie ettevõttele, võimaldades teil rakenduses käivitada müügipunkti. Saate hallata oma kaupluse inventari, võtta klientidelt makseid vastu ja genereerida iga ostu kohta prinditavaid arveid. Veelgi enam, saate leida oma kohalikke valuutasid Breezi poolt toetatud arvukate valuutade hulgast.
 
 
 
@@ -210,7 +210,7 @@ Kui teie inventuur on valmis, saate hõlpsasti Invoice oma klientidele neid toot
 
 
 
-- Juurdepääs kolmandate isikute teenustele**: Breez integreerib kolmanda osapoole teenuseid, mis võimaldavad teil võtta rohkem meetmeid, ilma et peaksite portfellist lahkuma. Nende hulka kuuluvad Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- Juurdepääs kolmandate isikute teenustele: Breez integreerib kolmanda osapoole teenuseid, mis võimaldavad teil võtta rohkem meetmeid, ilma et peaksite portfellist lahkuma. Nende hulka kuuluvad Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)

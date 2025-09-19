@@ -1,0 +1,9 @@
+question: Ayn Rand kimdir?
+answer: "La Grève" ve "La Source Vive" kitaplarının yazarı.
+wrong_answers:
+  - Spinoza'nın yoldaşı.
+  - İngiliz politikacı.
+  - Romantik bir yazar.
+explanation: |
+  Ayn Rand (1905-1982) Atlas Shrugged ve The Fountainhead kitaplarının yazarıdır. Rasyonel bireyciliği ve kapitalizmi savunan Objektivizm adlı bir felsefe geliştirmiştir.
+reviewed: false

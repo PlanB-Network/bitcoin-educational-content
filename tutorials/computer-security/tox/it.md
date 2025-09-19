@@ -1,5 +1,5 @@
 ---
-name: Tossico
+name: Tox
 description: Aprire conversazioni senza intermediari sul protocollo decentralizzato Tox
 ---
 ![cover](assets/cover.webp)

@@ -24,7 +24,7 @@ Er ontbreekt echter vaak **één ding: de mogelijkheid om elkaar te ontmoeten, E
 
 
 
-Om aan deze groeiende behoefte te voldoen, kiezen veel bitcoiners er regelmatig voor om lokale gemeenschappen** te creëren.
+Om aan deze groeiende behoefte te voldoen, kiezen veel bitcoiners er regelmatig voor om lokale **gemeenschappen** te creëren.
 
 Zodra er genoeg deelnemers zijn, worden er meet-ups georganiseerd en deze terugkerende bijeenkomsten worden vaak een vruchtbare bodem voor technische presentaties, praktische workshops en bredere discussies.
 
@@ -108,7 +108,7 @@ Het doel van deze cursus is om je alles te geven wat je nodig hebt om een Bitcoi
 
 
 
-**Deel 1: Inleiding
+**Deel 1: Inleiding**
 
 
 We beginnen met het benadrukken van het belang van het verenigen van mensen rond Bitcoin, hetzij door online gemeenschappen of lokale meetups. Je zult ontdekken waarom en waar je je eigen community kunt starten, samen met hoe je duidelijke doelen kunt stellen om de groei en duurzaamheid op lange termijn te bevorderen.
@@ -476,7 +476,7 @@ De volgende stap in het opbouwen van je community is het **definiëren van de id
 In dit gedeelte vind je tutorials en beginnersvriendelijke software-oplossingen om je te helpen de visuele identiteit van je community te ontwerpen, zelfs met beginnersvaardigheden.
 
 
-**Waarom is identiteit belangrijk?
+**Waarom is identiteit belangrijk?**
 
 Mensen voelen zich meer betrokken en geëngageerd als ze zich kunnen identificeren met een groep. Een sterke identiteit helpt je gemeenschap zich te onderscheiden en bevordert het gevoel erbij te horen.
 
@@ -567,7 +567,7 @@ Als je inspiratie krijgt, kun je nog verder gaan: maak een wapen, een motto of z
 
 
 
-Je kunt [Canva](https://www.canva.com/)** gebruiken om de verschillende visuals voor je community te maken.
+Je kunt **[Canva](https://www.canva.com/)** gebruiken om de verschillende visuals voor je community te maken.
 
 
 
@@ -612,7 +612,7 @@ Hier zijn kant-en-klare Canva-sjablonen die je kunt dupliceren en aanpassen voor
 
 
 
-- Affiche voor aankondiging bijeenkomst** (voor sociale media en afdrukken op A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Affiche voor aankondiging bijeenkomst** (voor sociale media en afdrukken op A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Hier zijn kant-en-klare Canva-sjablonen die je kunt dupliceren en aanpassen voor
 
 
 
-- Evenementposter** (voor sociale media en A4/A3 afdrukken): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Evenementposter** (voor sociale media en A4/A3 afdrukken): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- banners voor sociale media**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **banners voor sociale media**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Wedstrijdaankondiging**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Wedstrijdaankondiging**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -643,19 +643,19 @@ Hier zijn kant-en-klare Canva-sjablonen die je kunt dupliceren en aanpassen voor
 
 
 
-- merkrichtlijnen** van onze bibliotheek, weergegeven op A4 bij meet-ups: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **merkrichtlijnen** van onze bibliotheek, weergegeven op A4 bij meet-ups: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- PowerPoint-presentatie** "Hoofdstuk 2 - Bitcoin transacties begrijpen", door @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **PowerPoint-presentatie** "Hoofdstuk 2 - Bitcoin transacties begrijpen", door @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- flyer** "21 redenen om Bitcoin te gebruiken", geschreven door @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **flyer** "21 redenen om Bitcoin te gebruiken", geschreven door @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1092,15 +1092,15 @@ Met **de bot [@GroupHelpBot](https://telegram.me/grouphelpbot)** zijn de handigs
 
 
 - Een **rules commando** (/rules) om je communityrichtlijnen weer te geven;
-- Anti-spam** bescherming om verdachte berichten en accounts te filteren;
-- Aanpasbare automatische welkomstberichten** voor nieuwe leden (met optionele automatische verwijdering na een paar minuten)
-- Anti-spambeveiliging** om spam van berichten te voorkomen
+- **Anti-spam** bescherming om verdachte berichten en accounts te filteren;
+- **Aanpasbare automatische welkomstberichten** voor nieuwe leden (met optionele automatische verwijdering na een paar minuten)
+- **Anti-spambeveiliging** om spam van berichten te voorkomen
 - Een **@administrator commando** om snel groepbeheerders te bereiken
-- Blokkeerregels** voor ongewenste inhoud
+- **Blokkeerregels** voor ongewenste inhoud
 - Een **groepskoppelingscommando** (/link)
 - Commando **toegangsbeheer**
-- Automatisch verwijderen** van specifieke berichttypes
-- Botblokkering** en **ingangs-/uitgangsblokkering** om uw groep veilig te houden
+- **Automatisch verwijderen** van specifieke berichttypes
+- **Botblokkering** en **ingangs-/uitgangsblokkering** om uw groep veilig te houden
 - Maak een lijst van de sociale netwerken** van je **gemeenschap (/networks)
 - En nog veel meer...
 
@@ -1150,7 +1150,7 @@ Natuurlijk vergt het beheren van zowel Telegram als Discord iets meer tijd, voor
 
 
 
-Om het je makkelijker te maken, delen we een [Discord server die je kunt dupliceren en aanpassen](https://discord.com/template/bDY4eXXJk2C8)**:
+Om het je makkelijker te maken, delen we een [Discord server die je kunt dupliceren en aanpassen](https://discord.com/template/bDY4eXXJk2C8):
 
 
 
@@ -1193,7 +1193,7 @@ Daarom kan het de moeite waard zijn om de tijd te nemen om andere opties te onde
 In de komende maanden zullen deze cursus en het planb.network platform tutorials aanbieden over het gebruik van alternatieve protocollen zoals **Simplex en Element**: gedecentraliseerde, versleutelde en zeer aanpasbare communicatiemiddelen.
 
 
-**Waarom moeite doen om deze opties te bekijken?
+**Waarom moeite doen om deze opties te bekijken?**
 
 Omdat ze, net als het sociale netwerk NOSTR, niet alleen meer privacy bieden, maar ook een bescherming tegen censuur of het willekeurig afsluiten van je Telegram-groep.
 
@@ -1239,7 +1239,7 @@ Dat is wat het collectief FREE Madeira heeft gedaan.
 Natuurlijk kunnen andere platforms ook nuttig zijn. Facebook (met een groep of een pagina), of zelfs LinkedIn.
 
 
-Houd er wel rekening mee dat **hoe meer communicatiekanalen en sociale netwerken je beheert, hoe meer tijd het kost**. Het is vaak beter om je te richten op de meest relevante**, Twitter (en NOSTR) zijn goede opties om mee te beginnen.
+Houd er wel rekening mee dat **hoe meer communicatiekanalen en sociale netwerken je beheert, hoe meer tijd het kost**. Het is vaak beter om je te richten op de meest relevante. **Twitter (en NOSTR) zijn goede opties om mee te beginnen.**
 
 
 
@@ -1308,8 +1308,8 @@ Dit zijn de **belangrijkste dingen waarop je je moet richten om je zichtbaarheid
     - Moedig je gemeenschap aan tot interactie:
         - Zoals = gewicht 0,5
         - Retweet = gewicht 1
-        - Antwoord = gewicht 27 (!!)**
-    - Beantwoord mensen die reageren op je tweets** (gewicht van 75!!);
+- Antwoord = gewicht 27 (**!!**)
+- Beantwoord mensen die reageren op je tweets (gewicht van 75!!);
     - Plaats links niet in de hoofdtweet, maar in het eerste commentaar;
     - Schrijf woorden voluit, vermijd afkortingen.
 
@@ -1620,7 +1620,7 @@ Daarnaast zijn er drie belangrijke punten om in gedachten te houden:
 - tot slot willen sommige gemeenschappen **alleen hun evenementen houden op plaatsen die Bitcoin betalingen accepteren**, wat begrijpelijk is. In dit geval is het een goed idee om **te beginnen met het zoeken naar Bitcoin accepterende bedrijven in jouw stad** (op [btcmap.org](https://btcmap.org/map/)en contact met ze op te nemen om te zien of ze aan jouw criteria voldoen. Als er niets geschikts beschikbaar is, kun je proberen nieuwe handelaren aan te nemen, maar verwacht veel weigeringen, wat ontmoedigend kan zijn. Daarom is het vaak het beste om dit niet vanaf het begin als doel te stellen, maar het te overwegen zodra je gemeenschap goed gevestigd is en je genoeg "vuurkracht" hebt
 
 
-Aarzel bij het opstarten van je meet-up niet om de eerste paar maanden van locatie te veranderen**. Dit zal je helpen om **relaties op te bouwen met verschillende managers**, verschillende sferen te verkennen en informatie te verzamelen over potentiële toekomstige hosts.
+Aarzel bij het opstarten van je meet-up niet om de eerste paar maanden van locatie te veranderen. Dit zal je helpen om **relaties op te bouwen met verschillende managers**, verschillende sferen te verkennen en informatie te verzamelen over potentiële toekomstige hosts.
 
 
 Later, als je groep is gegroeid, zou je zelfs een middag kunnen nemen om verschillende bedrijven en bars te bezoeken en te vragen of ze een ruimte hebben die geschikt is voor het houden van je maandelijkse evenementen en meet-ups.
@@ -1757,8 +1757,8 @@ Naarmate je meetups vorderen, zullen er nieuwe gezichten opduiken: mensen die BT
 Om ervoor te zorgen dat iedereen zich betrokken voelt bij je evenementen, moet je je richten op twee belangrijke aspecten:
 
 
-- Sociale inclusie**: Iedereen die aanwezig is moet zich welkom voelen. Doe de moeite om nieuwkomers te begroeten, vraag waarom ze gekomen zijn en stel ze voor aan anderen. Als mensen zich betrokken voelen, is de kans groter dat ze terugkomen en misschien zelfs helpen bij het organiseren van toekomstige evenementen.
-- Geduld en openheid**: Dit kost tijd en motivatie. Als je praat met een toegewijde schijtlijder (of erger nog, een XRP Maximalist), kan het verleidelijk zijn om hem af te wijzen. Maar door in gesprek te gaan, kun je misverstanden of verkeerde redeneringen ophelderen. Als ze bereid zijn om te luisteren, zijn ze misschien bereid om Bitcoin echt te begrijpen.
+- **Sociale inclusie**: Iedereen die aanwezig is moet zich welkom voelen. Doe de moeite om nieuwkomers te begroeten, vraag waarom ze gekomen zijn en stel ze voor aan anderen. Als mensen zich betrokken voelen, is de kans groter dat ze terugkomen en misschien zelfs helpen bij het organiseren van toekomstige evenementen.
+- **Geduld en openheid**: Dit kost tijd en motivatie. Als je praat met een toegewijde schijtlijder (of erger nog, een XRP Maximalist), kan het verleidelijk zijn om hem af te wijzen. Maar door in gesprek te gaan, kun je misverstanden of verkeerde redeneringen ophelderen. Als ze bereid zijn om te luisteren, zijn ze misschien bereid om Bitcoin echt te begrijpen.
 
 
 
@@ -1836,7 +1836,7 @@ De sleutel is om je er gewoon bewust van te zijn.
 Zodra je een kerngroep van ongeveer tien mensen hebt opgebouwd, kun je beginnen met presentaties toe te voegen aan elk evenement. Deze kunnen een vooraf aangekondigd thema volgen of volledig los van elkaar staan.
 
 
-Bij het plannen van presentaties of workshops helpt het om een duidelijk, goed gestructureerd verloop te creëren. Het doel is om de kernconcepten van Bitcoin stap voor stap** te behandelen, zodat de deelnemers een compleet beeld krijgen van het onderwerp vanuit verschillende invalshoeken.
+Bij het plannen van presentaties of workshops helpt het om een duidelijk, goed gestructureerd verloop te creëren. Het doel is om de kernconcepten van Bitcoin **stap voor stap** te behandelen, zodat de deelnemers een compleet beeld krijgen van het onderwerp vanuit verschillende invalshoeken.
 
 
 In Frankrijk werkten organisatoren tijdens de zomer van 2023 aan **een jaarlijkse progressie**.
@@ -2466,7 +2466,7 @@ Meestal krijg je een "nee" en misschien een verbaasde, of zelfs licht veroordele
 
 Als ze vragen wat Bitcoin is, houd het dan kort en zonder jargon. Bijvoorbeeld:
 
-*"Bitcoin is geld dat niet gecontroleerd wordt door banken, zonder tussenpersonen werkt, niet gecensureerd kan worden, niet onderhevig is aan inflatie en lagere kosten heeft dan traditioneel bankieren
+**"Bitcoin is geld dat niet gecontroleerd wordt door banken, zonder tussenpersonen werkt, niet gecensureerd kan worden, niet onderhevig is aan inflatie en lagere kosten heeft dan traditioneel bankieren"**
 
 Geef ze dan een flyer, zoals "21 redenen om Bitcoin te gebruiken" of "10 redenen om Bitcoin in je bedrijf te gebruiken", met je contactgegevens of de details van je bijeenkomst. Op die manier weten ze waar ze je kunnen vinden als ze klaar zijn voor een demo.
 
@@ -2592,7 +2592,7 @@ Toen Bitcoin zijn vierde tijdperk inging bij blok 840.000, begonnen steeds meer 
 Net als de opkomst van het internet zal deze revolutie tijd kosten, wat eigenlijk een voordeel is. Het geeft mensen de kans om **de grondbeginselen van Bitcoin te leren**, te begrijpen hoe het te gebruiken en stelt ontwikkelaars en bedrijven in staat om **de protocollen en toepassingen** te bouwen die het volledige potentieel zullen ontsluiten.
 
 
-Niemand kan de toekomst voorspellen, maar we kunnen **een sterke toename verwachten in het gebruik van Bitcoin**. Dat betekent dat we voorbereid moeten zijn op alle scenario's**, zelfs extreme, zoals een ineenstorting van het traditionele financiële systeem of een algeheel verbod op Bitcoin.
+Niemand kan de toekomst voorspellen, maar we kunnen **een sterke toename verwachten in het gebruik van Bitcoin**. Dat betekent dat we voorbereid moeten zijn op alle scenario's, zelfs extreme, zoals een ineenstorting van het traditionele financiële systeem of een algeheel verbod op Bitcoin.
 
 
 In dit zevende en voorlaatste deel van de cursus kijken we naar belangrijke punten om in gedachten te houden wanneer je community en meet-ups groeien.
@@ -2609,7 +2609,7 @@ Ten eerste, als je 500 mensen hebt die allerlei onderwerpen bespreken in een enk
 
 Ten tweede, meer mensen in je kanalen betekent meer bots, meer scams en dus meer moderatie om af te handelen. Wees daarop voorbereid door een duidelijke set regels op te stellen waarnaar je kunt verwijzen bij het modereren van berichten. Onze ervaring is dat dit veel helpt om conflicten te voorkomen, vooral als de regels gemakkelijk toegankelijk zijn in je kanalen.
 
-Een goed voorbeeld is **[Bitcoin Lille's open-source regelboek](https://bitcoinlille.fr/reglement/) dat een paar jaar geleden is geschreven voor de Telegram-groep en Discord-server. Het is gebaseerd op eenvoudige, universele principes en je kunt zelfs [een aanpasbare versie van het ontwerp hier](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Een goed voorbeeld is **[Bitcoin Lille's open-source regelboek](https://bitcoinlille.fr/reglement/)** dat een paar jaar geleden is geschreven voor de Telegram-groep en Discord-server. Het is gebaseerd op eenvoudige, universele principes en je kunt zelfs [een aanpasbare versie van het ontwerp hier](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2628,7 +2628,7 @@ Met deze stijging in bezoekersaantallen:
 
 a) Neem een **Bitcoin thema-presentatie** op tijdens deze evenementen, omdat dit natuurlijk een groot deel van het gesprek in de richting van dat onderwerp zal sturen (en weg van het laatste zogenaamd "revolutionaire" shitcoin project);
 
-b) **Vermijd het om alleen met mede-bitcoiners** om te gaan. Maak er in plaats daarvan een punt van om nieuwkomers** te benaderen, zelfs als dat betekent dat je achter in de kamer moet staan om ze te begroeten. Van daaruit kunt u praten over waarom ze gekomen zijn, wat ze zoeken, de doelen (of zelfs de kernprincipes) van uw gemeenschap, enzovoort.
+b) **Vermijd het om alleen met mede-bitcoiners om te gaan.** Maak er in plaats daarvan een punt van om **nieuwkomers** te benaderen, zelfs als dat betekent dat je achter in de kamer moet staan om ze te begroeten. Van daaruit kunt u praten over waarom ze gekomen zijn, wat ze zoeken, de doelen (of zelfs de kernprincipes) van uw gemeenschap, enzovoort.
 
 
 Tot slot, hoewel het jammer is om het te moeten zeggen, kunnen oplichters opduiken op meetups. Hun doel kan zijn om eindeloos te praten over hun Ponzi schema, MLM, of een of andere "Blockchain revolutie aangedreven door AI." Het is ook heel goed mogelijk dat iemand met slechte bedoelingen op een dag speciaal komt om geld wit te wassen of BTC probeert te kopen met valse biljetten.
@@ -2682,7 +2682,7 @@ Als jij de enige betrokkene bent en alle controle in handen hebt, wat gebeurt er
 De oplossing: decentraliseer taken, rollen en toegang zodat de groep kan blijven draaien, zelfs als één organisator afhaakt, of dat nu komt door tijdgebrek of, in een duister scenario, omdat hij/zij gearresteerd wordt omdat hij/zij een Bitcoin zonder KYC heeft.
 
 
-**Hoe decentralisatie verder doorvoeren?
+**Hoe decentralisatie verder doorvoeren?**
 
 Gebruik **vrije en open-source software** zoals [de framasoft suite](https://framasoft.org/fr/) om afhankelijkheid van gecentraliseerde platforms te verminderen en weerbaarheid te bieden tegen mogelijke staatscensuur of Bitcoin-verboden.
 
@@ -2876,15 +2876,15 @@ In Frankrijk bijvoorbeeld hebben bijna een dozijn van de ongeveer zestig communi
 De voordelen zijn tweeledig:
 
 
-- Officiële erkenning**: je kunt een bankrekening van een vereniging openen, aandacht van de pers/media krijgen en zelfs subsidies aanvragen.
-- Gestructureerde organisatie**: je kunt duidelijke rollen definiëren, waardoor het eenvoudiger wordt om je community te leiden en projecten uit te voeren.
+- **Officiële erkenning**: je kunt een bankrekening van een vereniging openen, aandacht van de pers/media krijgen en zelfs subsidies aanvragen.
+- **Gestructureerde organisatie**: je kunt duidelijke rollen definiëren, waardoor het eenvoudiger wordt om je community te leiden en projecten uit te voeren.
 
 
-Om je community verder te helpen groeien, **een vervolg op de COMMU302 cursus<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Om je community verder te helpen groeien, **een vervolg op de COMMU302 cursus**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-wordt de komende maanden mogelijk uitgebracht op [planb.network](https://planb.network/)**.
+wordt de komende maanden mogelijk uitgebracht op [planb.network](https://planb.network/).
 
 
 Tijdens deze volgende sessie kunnen geavanceerde onderwerpen aan bod komen, zoals:

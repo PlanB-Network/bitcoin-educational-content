@@ -17,12 +17,12 @@ description: Bevara din integritet och konfidentialitet.
 
 
 
-- Gratis**: Som de flesta Linux-distributioner är Whonix ett system med öppen källkod som licensieras helt kostnadsfritt. Det utvecklas i öppen källkod med ett aktivt och öppet community.
-- Integritet, säkerhet och anonymitet**: Whonix huvudmål är att erbjuda en extremt säker miljö, där alla dina uppgifter skyddas och din kommunikation krypteras via Tor-nätverket.
-- Lätt att använda**: Whonix erbjuder en intuitiv, förkonfigurerad grafisk Interface, som passar även för nybörjare. Du behöver inte vara expert för att dra nytta av avancerat skydd.
-- Idealisk miljö för säker utveckling**: Med Whonix kan du utveckla, testa, granska eller köra program utan att någonsin avslöja din riktiga IP Address eller avslöja dina surf- eller nätverkskommunikationsvanor.
-- Engångssessioner och Live-läge**: Whonix kan startas i Live-läge eller via engångsmaskiner (t.ex. via **Qubes OS**), vilket gör att kritiska uppgifter kan utföras utan att lämna bestående spår när sessionen har avslutats.
-- Relativt enkel installation**: Färdiga avbildningar levereras för snabb installation i virtuella maskiner (VirtualBox, KVM, Qubes). Systemet är dokumenterat och uppdateras regelbundet.
+- **Gratis**: Som de flesta Linux-distributioner är Whonix ett system med öppen källkod som licensieras helt kostnadsfritt. Det utvecklas i öppen källkod med ett aktivt och öppet community.
+- **Integritet, säkerhet och anonymitet**: Whonix huvudmål är att erbjuda en extremt säker miljö, där alla dina uppgifter skyddas och din kommunikation krypteras via Tor-nätverket.
+- **Lätt att använda**: Whonix erbjuder en intuitiv, förkonfigurerad grafisk Interface, som passar även för nybörjare. Du behöver inte vara expert för att dra nytta av avancerat skydd.
+- **Idealisk miljö för säker utveckling**: Med Whonix kan du utveckla, testa, granska eller köra program utan att någonsin avslöja din riktiga IP Address eller avslöja dina surf- eller nätverkskommunikationsvanor.
+- **Engångssessioner och Live-läge**: Whonix kan startas i Live-läge eller via engångsmaskiner (t.ex. via **Qubes OS**), vilket gör att kritiska uppgifter kan utföras utan att lämna bestående spår när sessionen har avslutats.
+- **Relativt enkel installation**: Färdiga avbildningar levereras för snabb installation i virtuella maskiner (VirtualBox, KVM, Qubes). Systemet är dokumenterat och uppdateras regelbundet.
 
 
 
@@ -56,9 +56,9 @@ Här är de rekommenderade specifikationerna för en smidig och stabil upplevels
 
 
 
-- Random Access Memory (RAM)**: minst **8 GB** rekommenderas starkt. Ju mer RAM-minne du har, desto mer resurser kan du tilldela de virtuella maskinerna (Gateway och Workstation), vilket förbättrar prestandan.
+- **Random Access Memory (RAM)**: minst **8 GB** rekommenderas starkt. Ju mer RAM-minne du har, desto mer resurser kan du tilldela de virtuella maskinerna (Gateway och Workstation), vilket förbättrar prestandan.
 - Tillgängligt diskutrymme**: se till att det finns minst 30 GB ledigt diskutrymme**. Detta inkluderar det utrymme som krävs för de två virtuella maskinerna, systemfiler och eventuella data eller ögonblicksbilder.
-- Processor**: en processor med minst **4 fysiska kärnor** (8 logiska trådar) rekommenderas, särskilt om du vill köra andra tjänster eller verktyg parallellt.
+- **Processor**: en processor med minst **4 fysiska kärnor** (8 logiska trådar) rekommenderas, särskilt om du vill köra andra tjänster eller verktyg parallellt.
 
 
 

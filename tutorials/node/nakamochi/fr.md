@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Comment configurer et utiliser Nakamochi Bitcoin et Lightning node.
+description: Exécution de nœud simplifiée - Comment configurer et utiliser le nœud Nakamochi Bitcoin et Lightning.
 ---
+![image](assets/cover.webp)
+
 L'exploitation de votre propre nœud Bitcoin et Lightning ne doit plus être une tâche complexe réservée aux experts techniques. Traditionnellement, la mise en place et la gestion des nœuds exigeaient des connaissances approfondies en cryptographie, en réseau et en développement de logiciels. Nakamochi change cela en rendant les nœuds accessibles à tous, quel que soit le bagage technique.
 
 Avec Nakamochi, n'importe qui peut mettre en place et exploiter un nœud depuis son domicile, ce qui permet une totale confidentialité et une indépendance financière. L'exploitation d'un nœud complet permet non seulement de sécuriser ses propres transactions, mais aussi de contribuer à la solidité du réseau Bitcoin. Un réseau Bitcoin décentralisé et résistant repose sur une large distribution de nœuds pour garantir sa sécurité et son indépendance.
@@ -36,27 +38,29 @@ Votre nœud Nakamochi est géré via une application mobile, [BitBanana (Android
 
 ![image](assets/en/01.webp)
 
-connectez-vous à l'électricité et écrivez votre phrase-clé de 24 mots
+_Branchez à l’alimentation et notez votre phrase de récupération de 24 mots_
 
 ![image](assets/en/02.webp)
 
-attendez que la blockchain ait rattrapé son retard
+_Attendez que la blockchain ait rattrapé son retard_
 
 ![image](assets/en/03.webp)
 
-créer un nouveau portefeuille dans l'onglet "Lightning"
+_Configurer un nouveau portefeuille dans l’onglet Lightning_
 
 ![image](assets/en/04.webp)
 
-scanner le code QR avec l'application de gestion des nœuds
+_Scannez le code QR avec l’application de gestion de nœud_
 
 ![image](assets/en/05.webp)
 
-pour une plus grande sécurité, définissez un code PIN
+_Pour plus de sécurité, définissez un code PIN_
 
-**Note:** _Autorisez votre nœud Nakamochi à se synchroniser avec la blockchain. Ce processus peut prendre un certain temps en fonction de votre connexion internet
+**Remarque :** _Laissez votre nœud Nakamochi se synchroniser avec la blockchain. Ce processus peut prendre un certain temps selon votre connexion Internet._
 
 ## À propos du réseau Lightning
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Le Bitcoin Lightning Network révolutionne les transactions Bitcoin en les rendant plus rapides, moins chères et plus efficaces. Il est parfait pour une utilisation quotidienne, permettant des paiements quasi instantanés avec des frais minimes, idéal pour les microtransactions comme l'achat d'un café ou la gestion de petits achats fréquents.
 
@@ -108,7 +112,7 @@ Pour plus d'informations : [Canaux | Documentation Zeus](https://docs.zeusln.app
 
 capture d'écran de Bitbanana
 
-Pour plus d'informations : [BitBanana] (https://bitbanana.com)
+Pour plus d’informations : [BitBanana](https://bitbanana.com)
 
 Une fois que votre canal est ouvert, les paiements peuvent être acheminés vers d'autres participants du réseau. Les soldes sont ajustés en dehors de la chaîne, ce qui garantit que les transactions sont presque instantanées et n'entraînent que des frais minimes.
 
@@ -120,4 +124,4 @@ En règle générale, nous recommandons de laisser les canaux ouverts afin de r�
 
 
 - [A propos de Nakamochi](https://nakamochi.io/)
-- [S'abonner à la lettre d'information de Nakamochi] (https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [S’abonner à la newsletter de Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

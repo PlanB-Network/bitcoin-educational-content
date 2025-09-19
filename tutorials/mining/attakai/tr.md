@@ -453,7 +453,7 @@ Oturum açma sayfasına girdikten sonra, varsayılan kimlik bilgilerini kullanar
 - parola: root
 
 
-**Varsayılan şifre çalışmazsa nasıl sıfırlanır?
+**Varsayılan şifre çalışmazsa nasıl sıfırlanır?**
 
 
 Ana işletim sistemi nispeten basittir. 4 sekme ile: Sistem, Miner Yapılandırması, Miner Durumu, Ağ. Miner Yapılandırma sekmesinde, 3 adede kadar Mining havuzu yapılandırabilirsiniz.
@@ -713,4 +713,3 @@ Sonuç olarak elektrik watt'ı başına daha yüksek bir Hash oranı elde edilir
 
 
 Bu kılavuz DecouvreBitcoin tarafından oluşturulmuştur, MIN201 hakkında daha fazla bilgi - Jim ve Ajelex'e kredi
-

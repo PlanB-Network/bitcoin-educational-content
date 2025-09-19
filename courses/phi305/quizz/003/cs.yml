@@ -1,0 +1,9 @@
+question: Země, ve které Spinoza žil a napsal své dílo, je?
+answer: Spojené provincie.
+wrong_answers:
+  - Francie.
+  - Velká Británie.
+  - Švédsko.
+explanation: |
+  Spinoza žil a celé své dílo napsal ve Spojených provinciích (dnešní Nizozemsko), které byly v té době útočištěm svobodomyslných lidí a náboženských menšin pronásledovaných v jiných částech Evropy.
+reviewed: false

@@ -107,9 +107,9 @@ Una chaguzi kadhaa:
 
 
 
-- Google Play Store**: Tafuta "Ente Auth" kwa usakinishaji wa kawaida
-- F-Droid**: Inapatikana kutoka kwa orodha ya programu huria ya Android, ikiwa na hakikisho la ujenzi uliothibitishwa na hakuna maudhui ya umiliki.
-- Usakinishaji mwenyewe** : Faili za APK zinaweza kupakuliwa kutoka kwa [ukurasa wa GitHub wa mradi](https://github.com/ente-io/auth/releases) kwa arifa iliyounganishwa ya matoleo mapya
+- **Google Play Store**: Tafuta "Ente Auth" kwa usakinishaji wa kawaida
+- **F-Droid**: Inapatikana kutoka kwa orodha ya programu huria ya Android, ikiwa na hakikisho la ujenzi uliothibitishwa na hakuna maudhui ya umiliki.
+- **Usakinishaji mwenyewe**: Faili za APK zinaweza kupakuliwa kutoka kwa [ukurasa wa GitHub wa mradi](https://github.com/ente-io/auth/releases) kwa arifa iliyounganishwa ya matoleo mapya
 
 
 
@@ -129,9 +129,9 @@ Ente Auth inatoa programu asilia za eneo-kazi. Tembelea [ente.io/download](https
 
 
 
-- Windows**: Kisakinishi cha EXE kimetolewa
-- macOS**: Buruta-na-dondosha picha ya diski ya DMG katika Programu
-- Linux** : Miundo kadhaa inayopatikana (AppImage portable, .deb kwa Debian/Ubuntu, .rpm kwa Fedora/Red Hat)
+- **Windows**: Kisakinishi cha EXE kimetolewa
+- **macOS**: Buruta-na-dondosha picha ya diski ya DMG katika Programu
+- **Linux**: Miundo kadhaa inayopatikana (AppImage portable, .deb kwa Debian/Ubuntu, .rpm kwa Fedora/Red Hat)
 
 
 
@@ -196,9 +196,9 @@ Ninapendekeza sana kuwezesha ulinzi wa ndani kwa kutumia msimbo au bayometriki. 
 
 
 
-- Kufungua kwa kibayometriki**: Kitambulisho cha Uso, alama ya vidole kulingana na uwezo wa kifaa chako
-- PIN/nenosiri mahususi kwa programu**
-- Ucheleweshaji wa Kufunga Kiotomatiki**: k.m. "Mara moja" au baada ya sekunde 30 za kutofanya kazi
+- **Kufungua kwa kibayometriki**: Kitambulisho cha Uso, alama ya vidole kulingana na uwezo wa kifaa chako
+- PIN/nenosiri mahususi kwa programu
+- **Ucheleweshaji wa Kufunga Kiotomatiki**: k.m. "Mara moja" au baada ya sekunde 30 za kutofanya kazi
 
 
 
@@ -294,7 +294,7 @@ Unaweza kubinafsisha jina la huduma na kuingia kwako ili kurahisisha kupatikana.
 
 
 
-**Nambari za kuhifadhi nakala**: Bull Bitcoin itakupa misimbo ya urejeshaji. **Zihifadhi mahali salama, tofauti na kithibitishaji chako.
+**Nambari za kuhifadhi nakala**: Bull Bitcoin itakupa misimbo ya urejeshaji. **Zihifadhi mahali salama, tofauti na kithibitishaji chako.**
 
 
 
@@ -431,10 +431,10 @@ Mipangilio ya jumla ni pamoja na:
 
 
 
-- Lugha**: Interface ya lugha nyingi
-- Onyesha**: ikoni kubwa, hali ya kompakt
-- Faragha**: Ficha misimbo, utafutaji wa haraka
-- Telemetry**: Kuripoti hitilafu (inaweza kuzimwa)
+- **Lugha**: Interface ya lugha nyingi
+- **Onyesha**: ikoni kubwa, hali ya kompakt
+- **Faragha**: Ficha misimbo, utafutaji wa haraka
+- **Telemetry**: Kuripoti hitilafu (inaweza kuzimwa)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth inatokana na usimbaji fiche thabiti kutoka mwisho hadi mwisho na usani
 
 
 
-**Usanifu usio na maarifa: Ente haiwezi kufikia data yako kimwili. Hata metadata (majina ya huduma, vitambulisho, noti) husimbwa kwa njia fiche kwa upande wa mteja kabla ya kutumwa. Mbinu hii inahakikisha kwamba, katika tukio la kushambuliwa kwa seva zako au ombi la serikali, Ente inaweza tu kufichua data iliyosimbwa ambayo haiwezi kusomwa bila nenosiri lako.
+**Usanifu usio na maarifa:** Ente haiwezi kufikia data yako kimwili. Hata metadata (majina ya huduma, vitambulisho, noti) husimbwa kwa njia fiche kwa upande wa mteja kabla ya kutumwa. Mbinu hii inahakikisha kwamba, katika tukio la kushambuliwa kwa seva zako au ombi la serikali, Ente inaweza tu kufichua data iliyosimbwa ambayo haiwezi kusomwa bila nenosiri lako.
 
 
 
@@ -516,9 +516,9 @@ Kwa vile msimbo ni [chanzo huria](https://github.com/ente-io/auth), jumuiya inaw
 
 
 
-- Cure53** (Ujerumani): Maombi na ukaguzi wa usalama wa kriptografia
-- Programu ya Alama** (Ufaransa): Utaalam maalum wa kriptografia
-- Haiwezekani** (India): Jaribio la kupenya na uchanganuzi wa kuathirika
+- **Cure53** (Ujerumani): Maombi na ukaguzi wa usalama wa kriptografia
+- **Programu ya Alama** (Ufaransa): Utaalam maalum wa kriptografia
+- **Haiwezekani** (India): Jaribio la kupenya na uchanganuzi wa kuathirika
 
 
 
@@ -600,37 +600,37 @@ Kwa timu zinazosimamia akaunti nyeti, Ente Auth huwezesha ushirikiano wakati wa 
 
 
 
-- Hifadhi misimbo yako ya dharura**: Weka misimbo ya uokoaji inayotolewa na kila huduma mbali na simu yako.
+- **Hifadhi misimbo yako ya dharura**: Weka misimbo ya uokoaji inayotolewa na kila huduma mbali na simu yako.
 
 
 
 
 
-- Tumia nenosiri kuu dhabiti**: Nenosiri lako kuu la Ente Auth lazima liwe la kipekee na thabiti, kwani linalinda misimbo yako yote.
+- **Tumia nenosiri kuu dhabiti**: Nenosiri lako kuu la Ente Auth lazima liwe la kipekee na thabiti, kwani linalinda misimbo yako yote.
 
 
 
 
 
-- Washa ulinzi wa ndani**: Sanidi PIN au bayometriki ili kuzuia ufikiaji wa kimwili ambao haujaidhinishwa.
+- **Washa ulinzi wa ndani**: Sanidi PIN au bayometriki ili kuzuia ufikiaji wa kimwili ambao haujaidhinishwa.
 
 
 
 
 
-- Usigeuze kukufaa**: Epuka marekebisho ya hali ya juu ambayo yanaweza kuathiri usawazishaji.
+- **Usigeuze kukufaa**: Epuka marekebisho ya hali ya juu ambayo yanaweza kuathiri usawazishaji.
 
 
 
 
 
-- Sasisha programu**: Inasasisha dosari sahihi za usalama na kuboresha utendakazi.
+- **Sasisha programu**: Inasasisha dosari sahihi za usalama na kuboresha utendakazi.
 
 
 
 
 
-- Marejesho ya jaribio**: Mara kwa mara hakikisha kwamba unaweza kurejesha misimbo yako kwenye kifaa kingine.
+- **Marejesho ya jaribio**: Mara kwa mara hakikisha kwamba unaweza kurejesha misimbo yako kwenye kifaa kingine.
 
 
 
@@ -659,9 +659,9 @@ Iwe wewe ni mtu binafsi unayetafuta kulinda akaunti zako za kibinafsi, au timu i
 
 
 
-- Tovuti rasmi**: [ente.io/auth](https://ente.io/auth)
-- Kituo cha usaidizi**: [help.ente.io/auth](https://help.ente.io/auth)
-- Blogu ya kiufundi**: [ente.io/blog](https://ente.io/blog)
+- **Tovuti rasmi**: [ente.io/auth](https://ente.io/auth)
+- **Kituo cha usaidizi**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Blogu ya kiufundi**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Iwe wewe ni mtu binafsi unayetafuta kulinda akaunti zako za kibinafsi, au timu i
 
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Ukaguzi wa siri**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Ukaguzi wa siri**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Iwe wewe ni mtu binafsi unayetafuta kulinda akaunti zako za kibinafsi, au timu i
 
 
 
-- Mfarakano**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Mfarakano**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

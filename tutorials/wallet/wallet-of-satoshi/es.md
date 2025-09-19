@@ -1,5 +1,5 @@
 ---
-name: Wallet de Satoshi
+name: Wallet of Satoshi
 description: El Wallet de custodia más sencillo para empezar
 ---
 ![cover](assets/cover.webp)

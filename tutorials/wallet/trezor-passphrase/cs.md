@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Jak mohu do svého portfolia produktů Trezor přidat produkt passphrase?
 ---
 ![cover](assets/cover.webp)

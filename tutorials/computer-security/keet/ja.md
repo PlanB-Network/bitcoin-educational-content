@@ -1,5 +1,5 @@
 ---
-name: キート
+name: Keet
 description: ピアツーピアチャット
 ---
 ![cover](assets/cover.webp)

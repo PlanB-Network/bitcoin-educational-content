@@ -1,5 +1,5 @@
 ---
-name: Okyanus Mining
+name: Ocean Mining
 
 description: Okyanus Mining'e Giriş
 ---

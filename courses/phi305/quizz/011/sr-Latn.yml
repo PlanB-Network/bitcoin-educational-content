@@ -1,0 +1,9 @@
+question: Šta Spinoza misli o slučaju?
+answer: Ne postoji.
+wrong_answers:
+  - Postoji.
+  - On to izjednačava sa fatalizmom.
+  - On to smatra sujeverjem.
+explanation: |
+  Za Spinozu, ne postoji nešto kao što je slučajnost. Sve u univerzumu prati nužne i određene zakone. Ono što nam se čini kao slučajnost samo je rezultat našeg neznanja o pravim uzrocima.
+reviewed: false

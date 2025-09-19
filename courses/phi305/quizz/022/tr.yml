@@ -1,0 +1,9 @@
+question: "Makine hayvanlar" kavramı kime atfediliyor?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Makine hayvanlar kavramı Descartes'a atfedilir. Bu teoriye göre hayvanlar, ruhu ya da bilinci olmayan, yalnızca mekanik prensiplerle çalışan karmaşık otomatlardır.
+reviewed: false

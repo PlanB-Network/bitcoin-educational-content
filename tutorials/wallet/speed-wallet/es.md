@@ -1,5 +1,5 @@
 ---
-name: Velocidad Wallet
+name: Speed Wallet
 description: Paga y Exchange en bitcoins y USDT al instante
 ---
 ![cover](assets/cover.webp)

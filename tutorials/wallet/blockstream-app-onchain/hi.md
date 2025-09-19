@@ -1,5 +1,5 @@
 ---
-name: ब्लॉकस्ट्रीम ऐप - ऑनचेन
+name: Blockstream App - Onchain
 description: मोबाइल पर ब्लॉकस्ट्रीम ऐप सेट अप करें और ऑनचेन लेनदेन प्रबंधित करें
 ---
 ![cover](assets/cover.webp)

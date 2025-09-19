@@ -1,5 +1,5 @@
 ---
-name: 阿尔比-戈
+name: Alby Go
 description: Alby Go 移动应用程序指南
 ---
 

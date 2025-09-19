@@ -1,5 +1,5 @@
 ---
-name: बिस्क 2
+name: Bisq 2
 description: Bisq 2 का उपयोग करने और बिटकॉइन का आदान-प्रदान करने के लिए पूर्ण गाइड P2P
 ---
 ![cover](assets/cover.webp)

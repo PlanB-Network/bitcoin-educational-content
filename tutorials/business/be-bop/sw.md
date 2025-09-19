@@ -1,5 +1,5 @@
 ---
-name: kuwa-BOP
+name: be-BOP
 description: Mwongozo wa vitendo wa kuchuma mapato kwa biashara yako na be-BOP
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Simpul Petir RGB
+name: RGB Lightning Node
 description: Bagaimana cara meluncurkan node Lightning yang kompatibel dengan RGB dengan RLN?
 ---
 ![cover](assets/cover.webp)

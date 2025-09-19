@@ -1,5 +1,5 @@
 ---
-name: Sonni Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Selvitä, miten Wallet Bull Bitcoin:ta käytetään
 ---
 

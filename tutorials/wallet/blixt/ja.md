@@ -1,5 +1,5 @@
 ---
-name: ブリックスWallet
+name: Blixt Wallet
 description: パワフルなLNノードをモバイルで使い始めるには？
 ---
 ![cover](assets/cover.webp)

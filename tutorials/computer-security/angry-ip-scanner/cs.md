@@ -1,5 +1,5 @@
 ---
-name: Rozzlobený IP skener
+name: Angry IP Scanner
 description: Jednoduchý způsob skenování sítě
 ---
 ![cover](assets/cover.webp)

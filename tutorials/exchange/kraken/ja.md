@@ -1,5 +1,5 @@
 ---
-name: クラーケン
+name: Kraken
 description: Krakenでビットコインを売買する方法を教えてください。
 ---
 ![cover](assets/cover.webp)

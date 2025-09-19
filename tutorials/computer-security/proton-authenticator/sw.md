@@ -1,5 +1,5 @@
 ---
-name: Kithibitishaji cha Protoni
+name: Proton Authenticator
 description: Ninawezaje kutumia Kithibitishaji cha Proton ili kulinda akaunti zangu na 2FA?
 ---
 ![cover](assets/cover.webp)

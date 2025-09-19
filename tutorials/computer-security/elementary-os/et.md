@@ -1,5 +1,5 @@
 ---
-name: Elementaarne operatsioonisüsteem
+name: Elementary OS
 description: Ideaalne asendaja Windowsile ja MacOSile
 ---
 

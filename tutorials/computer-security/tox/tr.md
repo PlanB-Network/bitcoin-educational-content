@@ -1,5 +1,5 @@
 ---
-name: Toksikoloji
+name: Tox
 description: Merkezi olmayan Tox protokolünde aracılar olmadan konuşmalar açın
 ---
 ![cover](assets/cover.webp)

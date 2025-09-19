@@ -1,5 +1,5 @@
 ---
-name: Gió nhẹ
+name: Breez
 description: Lightning Wallet giúp bạn kiểm soát mọi thứ.
 ---
 

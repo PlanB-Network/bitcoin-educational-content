@@ -1,5 +1,5 @@
 ---
-name: پشتیبان‌گیری شامیر ترزور
+name: Trezor Shamir Backup
 description: عبارات Mnemonic تک‌سهم و چندسهم در Trezor
 ---
 ![cover](assets/cover.webp)

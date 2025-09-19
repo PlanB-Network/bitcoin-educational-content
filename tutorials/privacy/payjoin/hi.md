@@ -1,5 +1,5 @@
 ---
-name: जीडब्ल्यू-0
+name: Payjoin
 description: Bitcoin पर PayJoin क्या है?
 ---
 ![Payjoin thumbnail - steganography](assets/cover.webp)

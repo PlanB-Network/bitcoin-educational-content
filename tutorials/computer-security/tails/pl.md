@@ -1,5 +1,5 @@
 ---
-name: Ogony
+name: Tails
 
 description: Zainstaluj Tails na kluczu USB
 ---

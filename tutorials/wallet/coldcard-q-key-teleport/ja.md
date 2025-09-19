@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - キー・テレポート
+name: COLDCARD Q - Key Teleport
 description: キー・テレポートとは何ですか？
 ---
 

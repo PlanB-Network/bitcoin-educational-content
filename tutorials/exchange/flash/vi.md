@@ -1,5 +1,5 @@
 ---
-name: Đèn nháy
+name: Flash
 description: Mua bitcoin từ 100 franc CFA nhờ sức mạnh của Lightning.
 ---
 

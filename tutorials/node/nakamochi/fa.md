@@ -1,5 +1,5 @@
 ---
-name: ناکاموچی
+name: Nakamochi
 description: اجرای نود به‌سادگی - چگونه نود Nakamochi Bitcoin و Lightning را پیکربندی و استفاده کنیم.
 ---
 

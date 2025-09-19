@@ -1,5 +1,5 @@
 ---
-name: پروتون Wallet
+name: Proton Wallet
 description: نصب و استفاده از Proton Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)

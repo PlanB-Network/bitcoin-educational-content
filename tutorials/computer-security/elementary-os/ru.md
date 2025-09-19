@@ -1,5 +1,5 @@
 ---
-name: Элементарная ОС
+name: Elementary OS
 description: Идеальная замена для Windows и MacOS
 ---
 

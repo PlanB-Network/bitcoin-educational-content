@@ -1,5 +1,5 @@
 ---
-name: एल्बी गो
+name: Alby Go
 description: एल्बी गो मोबाइल ऐप के लिए गाइड
 ---
 

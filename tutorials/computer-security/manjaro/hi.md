@@ -1,5 +1,5 @@
 ---
-name: मंजारो
+name: Manjaro
 description: आर्क लिनक्स की शक्ति को और अधिक सुलभ बनाना
 ---
 ![cover](assets/cover.webp)

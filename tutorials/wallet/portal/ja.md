@@ -1,5 +1,5 @@
 ---
-name: ポータル
+name: Portal
 description: TwentyTwo-Devices ハードウェアウォレットポータルの設定と使用
 ---
 ![cover](assets/cover.webp)

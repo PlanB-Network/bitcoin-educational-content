@@ -1,5 +1,5 @@
 ---
-name: 特使
+name: Envoy
 description: 使用 Envoy 應用程式設定和使用 Passport
 ---
 ![cover](assets/cover.webp)

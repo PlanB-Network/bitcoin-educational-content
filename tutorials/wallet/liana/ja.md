@@ -1,5 +1,5 @@
 ---
-name: リアーナ
+name: Liana
 description: Lianaでのウォレットの設定と使用
 ---
 ![cover](assets/cover.webp)

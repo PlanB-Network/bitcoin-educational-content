@@ -1,5 +1,5 @@
 ---
-name: Portál
+name: Portal
 description: Konfigurace a používání hardwarové peněženky TwentyTwo-Devices Portál
 ---
 ![cover](assets/cover.webp)

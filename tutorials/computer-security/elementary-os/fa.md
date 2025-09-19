@@ -1,5 +1,5 @@
 ---
-name: المنتری OS
+name: Elementary OS
 description: جایگزین ایده‌آل برای ویندوز و مک‌اواس
 ---
 

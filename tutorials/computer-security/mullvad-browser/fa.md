@@ -1,5 +1,5 @@
 ---
-name: مرورگر Mullvad
+name: Mullvad Browser
 description: نحوه استفاده از مرورگر Mullvad برای حفظ حریم خصوصی
 ---
 

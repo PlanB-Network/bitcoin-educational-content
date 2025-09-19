@@ -1,5 +1,5 @@
 ---
-name: BTC-kart
+name: BTC Map
 description: Finn steder du kan bruke Sats på
 ---
 ![cover](assets/cover.webp)

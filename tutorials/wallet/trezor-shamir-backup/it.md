@@ -1,5 +1,5 @@
 ---
-name: Backup di Trezor Shamir
+name: Trezor Shamir Backup
 description: Frasi Mnemonic a condivisione singola e multipla su Trezor
 ---
 ![cover](assets/cover.webp)

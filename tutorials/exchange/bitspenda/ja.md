@@ -1,5 +1,5 @@
 ---
-name: ビットスペンダ
+name: BitSpenda
 description: Bitcoinをモバイルマネーに変換する最速の方法。
 ---
 

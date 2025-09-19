@@ -1,5 +1,5 @@
 ---
-name: アンブレル・ノストル
+name: Umbrel Nostr
 description: Umbrel上でのNostrアプリケーションの設定と使用
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Varpunen
+name: Jade Plus - Sparrow
 description: Jade Plussan edistynyt konfigurointi Sparrow-lompakon kanssa
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: छाता
+name: Umbrel
 description: Umbrel खोजें और इंस्टॉल करें - आपका Bitcoin नोड और होम सर्वर
 ---
 

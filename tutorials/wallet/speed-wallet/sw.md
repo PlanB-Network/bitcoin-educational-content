@@ -1,5 +1,5 @@
 ---
-name: Kasi ya Wallet
+name: Speed Wallet
 description: Lipa na Exchange katika bitcoins na USDT papo hapo
 ---
 ![cover](assets/cover.webp)

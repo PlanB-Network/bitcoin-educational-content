@@ -1,5 +1,5 @@
 ---
-name: Браузер Орион
+name: Orion Browser
 description: Как использовать Orion Browser для защиты конфиденциальности на Mac и iPhone?
 ---
 

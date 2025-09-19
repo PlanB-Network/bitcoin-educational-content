@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 结
+name: Bitcoin Knots
 description: 如何使用 Bitcoin 结替代客户端启动节点？
 ---
 ![cover](assets/cover.webp)

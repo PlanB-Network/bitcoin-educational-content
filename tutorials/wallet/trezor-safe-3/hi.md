@@ -1,5 +1,5 @@
 ---
-name: ट्रेज़ोर सेफ 3
+name: Trezor Safe 3
 description: Hardware Wallet Safe 3 को कॉन्फ़िगर करना और उपयोग करना
 ---
 ![cover](assets/cover.webp)

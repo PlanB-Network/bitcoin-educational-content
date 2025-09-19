@@ -1,5 +1,5 @@
 ---
-name: Nodi Bitcoin
+name: Bitcoin Knots
 description: Come si lancia un nodo con il client alternativo Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)

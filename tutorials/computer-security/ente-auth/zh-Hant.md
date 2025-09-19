@@ -1,5 +1,5 @@
 ---
-name: 授權
+name: Ente Auth
 description: 開放原始碼、端對端加密的 2FA 認證器
 ---
 ![cover](assets/cover.webp)

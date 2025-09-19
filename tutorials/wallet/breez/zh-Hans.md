@@ -1,5 +1,5 @@
 ---
-name: 微风
+name: Breez
 description: 闪电 Wallet 让你掌控一切。
 ---
 

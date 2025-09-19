@@ -1,5 +1,5 @@
 ---
-name: 比特币交易所
+name: Bitfinex
 description: 如何使用 Bitfinex？
 ---
 ![cover](assets/cover.webp)

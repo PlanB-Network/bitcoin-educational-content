@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Miten lisään passphrase:n Trezor-salkkuuni?
 ---
 ![cover](assets/cover.webp)

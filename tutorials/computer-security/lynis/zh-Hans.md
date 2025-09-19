@@ -1,5 +1,5 @@
 ---
-name: 林尼斯
+name: Lynis
 description: 使用 Lynis 对 Linux 机器进行安全审计
 ---
 ![cover](assets/cover.webp)

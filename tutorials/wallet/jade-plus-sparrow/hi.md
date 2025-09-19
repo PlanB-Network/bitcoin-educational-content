@@ -1,5 +1,5 @@
 ---
-name: जेड प्लस - स्पैरो
+name: Jade Plus - Sparrow
 description: जेड प्लस के एडवांस्ड कॉन्फ़िगरेशन को स्पैरो Wallet के साथ कैसे सेट करें
 ---
 ![cover](assets/cover.webp)

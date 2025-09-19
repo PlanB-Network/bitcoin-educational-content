@@ -1,5 +1,5 @@
 ---
-name: Hệ điều hành cơ bản
+name: Elementary OS
 description: Sự thay thế lý tưởng cho Windows và MacOS
 ---
 

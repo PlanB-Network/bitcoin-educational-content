@@ -1,5 +1,5 @@
 ---
-name: イージス認証
+name: Aegis Authenticator
 description: Aegis Authenticatorを使用して二重認証でアカウントを保護する方法は？
 ---
 

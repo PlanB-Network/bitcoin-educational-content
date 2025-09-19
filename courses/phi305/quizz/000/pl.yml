@@ -1,0 +1,9 @@
+question: Ambasadorem jakiego nurtu filozoficznego jest Spinoza?
+answer: Racjonalizm.
+wrong_answers:
+  - Ruch romantyczny.
+  - Scholastyka.
+  - Strukturalizm.
+explanation: |
+  Spinoza jest uważany za jednego z największych przedstawicieli XVII-wiecznego racjonalizmu, obok Kartezjusza i Leibniza. Rozwinął filozofię opartą na rozumie i logice, starając się zrozumieć świat poprzez racjonalne zasady, a nie wiarę czy tradycję.
+reviewed: false

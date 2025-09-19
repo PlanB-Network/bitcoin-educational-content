@@ -1,5 +1,5 @@
 ---
-name: Mfumo wa Uendeshaji wa Msingi
+name: Elementary OS
 description: Uingizwaji bora wa Windows na MacOS
 ---
 

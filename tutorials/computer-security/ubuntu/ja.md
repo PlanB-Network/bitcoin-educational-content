@@ -1,5 +1,5 @@
 ---
-name: ウブントゥ
+name: Ubuntu
 description: Windowsの代替としてUbuntuをインストールし、使用するための完全ガイド
 ---
 ![cover](assets/cover.webp)

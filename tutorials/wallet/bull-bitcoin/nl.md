@@ -1,5 +1,5 @@
 ---
-name: Stier Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Ontdek hoe u de Wallet Bull Bitcoin gebruikt
 ---
 

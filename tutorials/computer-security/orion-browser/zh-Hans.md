@@ -1,5 +1,5 @@
 ---
-name: 猎户座浏览器
+name: Orion Browser
 description: 如何在 Mac 和 iPhone 上使用 Orion 浏览器保护隐私？
 ---
 

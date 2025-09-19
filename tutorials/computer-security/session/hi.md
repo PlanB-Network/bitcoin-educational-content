@@ -1,5 +1,5 @@
 ---
-name: सत्र
+name: Session
 description: एन्क्रिप्टेड संदेश भेजें, मेटाडेटा नहीं
 ---
 ![cover](assets/cover.webp)

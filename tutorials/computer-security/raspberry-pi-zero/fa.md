@@ -1,5 +1,5 @@
 ---
-name: رزبری پای زیرو
+name: Raspberry Pi Zero
 description: چگونه با استفاده از یک Raspberry Pi Zero و یک کیت لوازم جانبی یک رایانه ساده، ایزوله و کم‌هزینه بسازیم.
 ---
 ![cover](assets/cover.webp)

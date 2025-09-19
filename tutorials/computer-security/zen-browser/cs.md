@@ -1,5 +1,5 @@
 ---
-name: Prohlížeč Zen Browser
+name: Zen Browser
 description: Jak používat Zen Browser pro produktivní a důvěrné procházení?
 ---
 

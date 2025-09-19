@@ -1,5 +1,5 @@
 ---
-name: Benim Düğümüm
+name: My Node
 description: Bitcoin MyNode'unuzu ayarlayın
 ---
 

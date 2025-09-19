@@ -1,5 +1,5 @@
 ---
-name: 硬币卡
+name: Coincards
 description: 如何使用 Coincards 以 BTC 购买商品和服务？
 ---
 ![cover](assets/cover.webp)

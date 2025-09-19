@@ -1,0 +1,9 @@
+question: Bernardin de Saint-Pierre alikuwa nani?
+answer: Mkurugenzi wa Makumbusho ya Historia ya Asili ya Paris mwanzoni mwa karne ya 19.
+wrong_answers:
+  - Waziri wa Louis XIV.
+  - Mwanafalsafa wa Ufaransa.
+  - Mwanamapinduzi wa ugaidi.
+explanation: |
+  Bernardin de Saint-Pierre (1737-1814) alikuwa mkurugenzi wa Jardin des Plantes (makumbusho ya historia ya asili) huko Paris mwanzoni mwa karne ya 19. Anajulikana zaidi kwa riwaya yake Paul et Virginie na maelezo yake ya asili.
+reviewed: false

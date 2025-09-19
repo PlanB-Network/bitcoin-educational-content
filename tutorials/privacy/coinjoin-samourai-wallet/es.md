@@ -64,7 +64,7 @@ Whirlpool fue diseñado teniendo en cuenta dos requisitos importantes:
 Estos imperativos guiaron a los desarrolladores de Samourai Wallet en el diseño de Whirlpool, llevándolos a limitar el número de participantes por ciclo. Muy pocos participantes habrían comprometido la eficiencia del coinjoin, reduciendo drásticamente los anonsets generados en cada ciclo, mientras que demasiados participantes habrían planteado problemas de gestión en aplicaciones móviles y habrían obstaculizado el flujo de ciclos.
 **En última instancia, no es necesario tener un alto número de participantes por coinjoin en Whirlpool ya que los anonsets se logran a través de la acumulación de varios ciclos de coinjoin.**
 
-[-> Aprende más sobre los anonsets de Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Aprende más sobre los anonsets de Whirlpool.
 
 ### Las piscinas y las tarifas de coinjoin
 Para que estos múltiples ciclos aumenten efectivamente los anonsets de las monedas mezcladas, se debe establecer un cierto marco para restringir las cantidades de UTXO utilizadas. Whirlpool define diferentes piscinas.
@@ -369,7 +369,7 @@ Asegúrate de que tu SCODE haya sido registrado correctamente haciendo clic una 
 ## ¿Cómo saber la calidad de nuestros ciclos de coinjoin?
 Para que un coinjoin sea verdaderamente efectivo, es esencial que demuestre una buena uniformidad entre las cantidades de entradas y salidas. Esta uniformidad amplifica el número de posibles interpretaciones a los ojos de un observador externo, aumentando así la incertidumbre que rodea a la transacción. Para cuantificar esta incertidumbre generada por un coinjoin, se puede recurrir a calcular la entropía de la transacción. Para una exploración en profundidad de estos indicadores, te remito al tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). El modelo Whirlpool es reconocido como el que aporta más homogeneidad a los coinjoins.
 
-A continuación, se evalúa el rendimiento de varios ciclos de coinjoin basándose en la extensión de los grupos en los que se oculta una moneda. El tamaño de estos grupos define lo que se llama los anonsets. Hay dos tipos de anonsets: el primero evalúa la privacidad obtenida contra un análisis retrospectivo (del presente al pasado) y el segundo, contra un análisis prospectivo (del pasado al presente). Para una explicación detallada de estos dos indicadores, te invito a consultar el tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+A continuación, se evalúa el rendimiento de varios ciclos de coinjoin basándose en la extensión de los grupos en los que se oculta una moneda. El tamaño de estos grupos define lo que se llama los anonsets. Hay dos tipos de anonsets: el primero evalúa la privacidad obtenida contra un análisis retrospectivo (del presente al pasado) y el segundo, contra un análisis prospectivo (del pasado al presente). Para una explicación detallada de estos dos indicadores, te invito a consultar el tutorial: WHIRLPOOL STATS TOOLS - ANONSETS
 
 ## Cómo gestionar el postmix?
 Después de realizar ciclos de coinjoin, la mejor estrategia es mantener tus UTXOs en la cuenta de **postmix**, esperando su uso futuro. Incluso es aconsejable dejarlos remixear indefinidamente hasta que necesites gastarlos.
@@ -399,6 +399,7 @@ Tutoriales detallados sobre la implementación de estas diferentes técnicas se 
 - [Documentación de Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Hilo en Twitter sobre coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Publicación en blog sobre coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

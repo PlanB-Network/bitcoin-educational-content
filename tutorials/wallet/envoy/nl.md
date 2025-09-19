@@ -1,5 +1,5 @@
 ---
-name: Gezant
+name: Envoy
 description: Een paspoort instellen en gebruiken met de Envoy-toepassing
 ---
 ![cover](assets/cover.webp)

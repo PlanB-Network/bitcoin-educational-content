@@ -1,5 +1,5 @@
 ---
-name: البی هاب
+name: Alby Hub
 description: چگونه به راحتی نود لایتنینگ خود را راه‌اندازی کنید؟
 ---
 ![cover](assets/cover.webp)

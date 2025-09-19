@@ -1,5 +1,5 @@
 ---
-name: Calculator ya Boltzmann
+name: Boltzmann Calculator
 description: Kuelewa dhana ya Entropy na jinsi ya kutumia Boltzmann
 ---
 ![cover](assets/cover.webp)

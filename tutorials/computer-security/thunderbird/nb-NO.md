@@ -1,5 +1,5 @@
 ---
-name: Tordenfugl
+name: Thunderbird
 description: Sikker meldingsutveksling for profesjonelle og privatpersoner
 ---
 

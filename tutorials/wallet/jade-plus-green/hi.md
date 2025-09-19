@@ -1,5 +1,5 @@
 ---
-name: जेड प्लस - Green
+name: Jade Plus - Green
 description: जेड प्लस को Green के साथ आसानी से कॉन्फ़िगर करें
 ---
 ![cover](assets/cover.webp)

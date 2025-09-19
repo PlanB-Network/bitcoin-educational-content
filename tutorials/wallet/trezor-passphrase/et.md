@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Kuidas lisada passphrase oma Trezori portfelli?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: रोनिनडोजो
+name: RoninDojo
 
 description: अपने RoninDojo Bitcoin नोड को स्थापित करना और उसका उपयोग करना।
 ---

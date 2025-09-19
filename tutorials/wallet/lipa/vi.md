@@ -1,5 +1,5 @@
 ---
-name: Môi
+name: Lipa
 description: Thiết lập và sử dụng ví di động Lipa Lightning
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Staartschaal
+name: Tailscale
 description: Tips voor gevorderde Tailscale
 ---
 ![cover](assets/cover.webp)

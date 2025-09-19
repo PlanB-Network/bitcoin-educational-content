@@ -1,5 +1,5 @@
 ---
-name: Sparrow - multisig
+name: Sparrow Wallet - Multisig
 description: Creare un wallet multi-firma su Sparrow
 ---
 ![cover](assets/cover.webp)

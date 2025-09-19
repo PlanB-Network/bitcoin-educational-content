@@ -1,5 +1,5 @@
 ---
-name: Sateenvarjo
+name: Umbrel
 description: Tutustu ja asenna Umbrel - Bitcoin-solmusi ja kotipalvelimesi
 ---
 

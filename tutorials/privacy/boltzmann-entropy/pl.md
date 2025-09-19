@@ -1,5 +1,5 @@
 ---
-name: Kalkulator Boltzmanna
+name: Boltzmann Calculator
 description: Zrozumienie pojęcia entropii i sposobu korzystania z metody Boltzmanna
 ---
 ![cover](assets/cover.webp)

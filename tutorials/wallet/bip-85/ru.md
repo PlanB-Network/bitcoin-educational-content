@@ -1,5 +1,5 @@
 ---
-name: БИП-85
+name: BIP-85
 description: Как я могу использовать BIP-85 для generate нескольких seed-фраз из основного seed?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 巴卡
+name: Bacca
 description: 在沒有 Ledger Live 軟體的情況下設定 Ledger
 ---
 ![cover](assets/cover.webp)

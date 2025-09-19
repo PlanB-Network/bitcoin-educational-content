@@ -1,5 +1,5 @@
 ---
-name: Узел RGB Lightning
+name: RGB Lightning Node
 description: Как запустить RGB-совместимый узел Lightning с помощью RLN?
 ---
 ![cover](assets/cover.webp)

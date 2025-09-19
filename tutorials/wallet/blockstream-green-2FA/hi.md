@@ -1,5 +1,5 @@
 ---
-name: जीडब्ल्यू-0 - 2एफए
+name: Blockstream Green - 2FA
 description: Green Wallet पर 2/2 Multisig की स्थापना
 ---
 ![cover](assets/cover.webp)

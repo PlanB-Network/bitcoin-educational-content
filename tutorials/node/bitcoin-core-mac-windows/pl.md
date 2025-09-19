@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Core (macOS i Windows)
+name: "Bitcoin Core (macOS & Windows)"
 description: Instalacja Bitcoin Core na komputerach Mac lub Windows
 ---
 

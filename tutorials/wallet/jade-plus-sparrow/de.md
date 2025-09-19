@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Spatz
+name: Jade Plus - Sparrow
 description: Erweiterte Konfiguration von Jade Plus mit Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

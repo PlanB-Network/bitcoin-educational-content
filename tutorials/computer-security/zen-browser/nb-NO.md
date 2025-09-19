@@ -1,5 +1,5 @@
 ---
-name: Zen-nettleser
+name: Zen Browser
 description: Hvordan bruke Zen Browser for produktiv og konfidensiell surfing?
 ---
 

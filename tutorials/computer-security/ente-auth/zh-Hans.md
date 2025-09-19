@@ -1,5 +1,5 @@
 ---
-name: 认证
+name: Ente Auth
 description: 开源端到端加密 2FA 验证器
 ---
 ![cover](assets/cover.webp)

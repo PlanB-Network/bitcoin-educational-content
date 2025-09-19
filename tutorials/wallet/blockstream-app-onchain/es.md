@@ -1,5 +1,5 @@
 ---
-name: Aplicación Blockstream - Onchain
+name: Blockstream App - Onchain
 description: Instala Blockstream App en tu móvil y gestiona las transacciones onchain
 ---
 ![cover](assets/cover.webp)

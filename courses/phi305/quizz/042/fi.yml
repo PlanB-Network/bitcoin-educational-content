@@ -1,0 +1,9 @@
+question: Kuka kirjoitti: "Luonnossa ei tapahdu mitään sellaista, joka voidaan katsoa johtuvan
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Spinoza kirjoitti: "Luonnossa ei tapahdu mitään sellaista, joka voitaisiin katsoa johtuvan siinä olevasta paheesta". Tämä lause ilmaisee ajatuksen siitä, että luonto on lajissaan täydellinen ja että puutteet ovat vain inhimillisiä arvioita.
+reviewed: false

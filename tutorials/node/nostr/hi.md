@@ -1,5 +1,5 @@
 ---
-name: नोस्ट्र
+name: NOSTR
 
 description: NOSTR को खोजें और उसका उपयोग शुरू करें
 ---

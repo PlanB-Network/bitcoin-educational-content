@@ -1,5 +1,5 @@
 ---
-name: Alleen Sentinel Watch
+name: Sentinel
 description: Wat is een Watch-only wallet en hoe gebruik je hem?
 ---
 

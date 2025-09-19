@@ -1,5 +1,5 @@
 ---
-name: Kichunguzi cha IP chenye hasira
+name: Angry IP Scanner
 description: Njia rahisi ya kuchanganua mtandao wako
 ---
 ![cover](assets/cover.webp)

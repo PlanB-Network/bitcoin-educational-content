@@ -2158,11 +2158,11 @@ Kami terus memantau kasus ini dan perkembangan alat yang terkait. Yakinlah bahwa
 
 Di bab berikutnya, kita akan mengetahui apa itu "anonset", bagaimana indikator ini dihitung, dan bagaimana indikator ini dapat membantu kita memperkirakan efisiensi siklus coinjoin.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Set anonimitas
 
@@ -2237,7 +2237,7 @@ Anda dapat menghitung anonset secara manual menggunakan block explorer untuk ans
 
 Seperti yang telah kita lihat pada bab ini, anonset hanya dapat dihitung jika ada homogenitas tertentu dalam struktur coinjoin. Pada bab selanjutnya, kita akan mengetahui bagaimana cara menghitung homogenitas ini pada sebuah transaksi Bitcoin, baik itu coinjoin maupun transaksi yang lebih tradisional.
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropi
 
@@ -2586,7 +2586,7 @@ Kesulitan dalam menggunakan payjoin terletak pada ketergantungannya pada partisi
 
 Salah satu solusinya adalah dengan menggunakan struktur transaksi yang memperkenalkan ambiguitas ke dalam analisis rantai tanpa memerlukan kerja sama dari penerima. Hal ini akan memungkinkan kita untuk meningkatkan kerahasiaan pembayaran tanpa bergantung pada partisipasi aktif dari pedagang. Inilah yang akan kita bahas pada bab selanjutnya.
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 

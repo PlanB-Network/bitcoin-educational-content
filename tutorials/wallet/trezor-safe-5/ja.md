@@ -1,5 +1,5 @@
 ---
-name: トレザー・セーフ5
+name: Trezor Safe 5
 description: Hardware Wallet Safe 5 の設定と使用
 ---
 ![cover](assets/cover.webp)

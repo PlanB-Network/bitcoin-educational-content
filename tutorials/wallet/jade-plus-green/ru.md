@@ -1,5 +1,5 @@
 ---
-name: Нефрит Плюс - зеленый
+name: Jade Plus - Green
 description: Простая настройка Jade Plus с помощью Green
 ---
 ![cover](assets/cover.webp)

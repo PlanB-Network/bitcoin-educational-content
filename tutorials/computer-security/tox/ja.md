@@ -1,5 +1,5 @@
 ---
-name: トックス
+name: Tox
 description: 分散型Toxプロトコルで仲介者なしで会話をオープンにする
 ---
 ![cover](assets/cover.webp)

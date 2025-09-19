@@ -1,5 +1,5 @@
 ---
-name: Lince
+name: Lynis
 description: Efetuar uma auditoria de segurança a uma máquina Linux com o Lynis
 ---
 ![cover](assets/cover.webp)

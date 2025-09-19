@@ -1,0 +1,9 @@
+question: Spinoza'nın yaşadığı ve eserini yazdığı ülke hangisidir?
+answer: Birleşik Eyaletler.
+wrong_answers:
+  - Fransa.
+  - Büyük Britanya.
+  - İsveç.
+explanation: |
+  Spinoza tüm çalışmalarını, o dönemde Avrupa'nın başka yerlerinde zulüm gören özgür düşünürler ve dini azınlıklar için bir sığınak olan Birleşik Eyaletler'de (şimdiki Hollanda) yaşadı ve yazdı.
+reviewed: false

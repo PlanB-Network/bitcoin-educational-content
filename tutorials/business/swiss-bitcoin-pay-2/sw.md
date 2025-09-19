@@ -1,5 +1,5 @@
 ---
-name: Uswisi Bitcoin Pay
+name: Swiss Bitcoin Pay
 description: Jinsi ya kukubali malipo ya Bitcoin kwa urahisi?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Pilha de bits
+name: Bitstack
 description: Comprar e vender bitcoins na aplicação Bitstack
 ---
 ![cover](assets/cover.webp)

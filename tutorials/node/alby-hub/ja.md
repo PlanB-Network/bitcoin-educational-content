@@ -1,5 +1,5 @@
 ---
-name: アルビー・ハブ
+name: Alby Hub
 description: Lightningノードを簡単に立ち上げるには？
 ---
 ![cover](assets/cover.webp)

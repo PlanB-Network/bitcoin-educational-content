@@ -1,5 +1,5 @@
 ---
-name: Saadik
+name: Envoy
 description: Passi seadistamine ja kasutamine koos Envoy rakendusega
 ---
 ![cover](assets/cover.webp)

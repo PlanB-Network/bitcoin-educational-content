@@ -1,5 +1,5 @@
 ---
-name: Braiins 游泳池
+name: Braiins Pool
 
 description: Braiins Pool 簡介
 ---

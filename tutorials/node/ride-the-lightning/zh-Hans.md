@@ -1,5 +1,5 @@
 ---
-name: 驾驭闪电 (RTL)
+name: Ride The Lightning (RTL)
 description: 使用 Ride The Lightning (RTL) 管理您的 "闪电 "节点
 ---
 ![cover](assets/cover.webp)

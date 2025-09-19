@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Sõlmede sõlmimine
+name: Bitcoin Knots
 description: Kuidas käivitada sõlme Bitcoin Knots alternatiivse kliendiga?
 ---
 ![cover](assets/cover.webp)

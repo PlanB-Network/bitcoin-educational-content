@@ -1,0 +1,9 @@
+question: Apakah Immanuel Kant?
+answer: Seorang filsuf Jerman pada masa Pencerahan.
+wrong_answers:
+  - Seorang filsuf Inggris dan murid Newton
+  - Seorang filsuf abad ke-17.
+  - Seorang filsuf Kristen.
+explanation: |
+  Immanuel Kant (1724-1804) adalah seorang filsuf Jerman pada masa Pencerahan. Dia mengembangkan filsafat kritis yang sangat memengaruhi pemikiran modern, terutama dengan 'Kritik atas Nalar Murni'.
+reviewed: false

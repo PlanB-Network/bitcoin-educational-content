@@ -1,5 +1,5 @@
 ---
-name: برنامه Blockstream - Liquid
+name: Blockstream App - Liquid
 description: نحوه پیکربندی برنامه Blockstream و استفاده از Liquid Network
 ---
 ![cover](assets/cover.webp)

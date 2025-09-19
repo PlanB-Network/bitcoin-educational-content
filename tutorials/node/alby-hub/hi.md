@@ -1,5 +1,5 @@
 ---
-name: एल्बी हब
+name: Alby Hub
 description: आप आसानी से अपना स्वयं का लाइटनिंग नोड कैसे लॉन्च करते हैं?
 ---
 ![cover](assets/cover.webp)

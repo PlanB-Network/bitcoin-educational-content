@@ -1,5 +1,5 @@
 ---
-name: 卢克
+name: LUKS
 description: 使用 LUKS 和 cryptsetup 为 USB 闪存盘加密
 ---
 ![cover](assets/cover.webp)

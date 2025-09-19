@@ -1,5 +1,5 @@
 ---
-name: बांक्सास
+name: Banxaas
 description: सेनेगल में हर जगह सातोशी और XOF का व्यापार करें
 ---
 

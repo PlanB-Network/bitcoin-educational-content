@@ -1,5 +1,5 @@
 ---
-name: Ninja SAFU
+name: SAFU Ninja
 description: Lưu seed của bạn bằng phương pháp SAFU Ninja
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: وایرگارد
+name: WireGuard
 description: راه‌اندازی WireGuard VPN در دبیان و ویندوز
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Мигание
+name: Blink
 description: Полное руководство по Blink Wallet - отправляйте, получайте и используйте Bitcoin с легкостью
 ---
 

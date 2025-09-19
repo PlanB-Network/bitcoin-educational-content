@@ -1,5 +1,5 @@
 ---
-name: Kivinjari cha Mullvad
+name: Mullvad Browser
 description: Jinsi ya kutumia Kivinjari cha Mullvad kwa faragha
 ---
 

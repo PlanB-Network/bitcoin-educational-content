@@ -1,5 +1,5 @@
 ---
-name: Màu xanh Wallet
+name: Blue Wallet
 
 description: Bitcoin Danh mục đầu tư cực kỳ đơn giản và mạnh mẽ
 ---

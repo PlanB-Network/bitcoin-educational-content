@@ -1,5 +1,5 @@
 ---
-name: Spurv Wallet
+name: Sparrow Wallet
 description: Installere, konfigurere og bruke Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

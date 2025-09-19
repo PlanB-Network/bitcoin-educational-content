@@ -1,5 +1,5 @@
 ---
-name: ग्रेलॉग
+name: Graylog
 description: अपने लॉग को आसानी से केंद्रीकृत और विश्लेषित करें
 ---
 ![cover](assets/cover.webp)

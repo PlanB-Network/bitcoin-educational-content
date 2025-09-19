@@ -1,5 +1,5 @@
 ---
-name: Sentinel endast för bevakning
+name: Sentinel
 description: Vad är en Watch-only wallet och hur använder man den?
 ---
 

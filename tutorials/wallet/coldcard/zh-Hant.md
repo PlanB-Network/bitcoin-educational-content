@@ -1,5 +1,5 @@
 ---
-name: Cold 卡
+name: COLDCARD Mk
 
 description: 使用 Coldcard 裝置和 Bitcoin Core 建立、備份和使用 Bitcoin 私密金鑰
 ---

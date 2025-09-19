@@ -1,5 +1,5 @@
 ---
-name: エンボイ
+name: Envoy
 description: Envoyアプリケーションでのパスポートの設定と使用
 ---
 ![cover](assets/cover.webp)

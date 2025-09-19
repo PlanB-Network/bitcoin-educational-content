@@ -1,5 +1,5 @@
 ---
-name: Sateenvarjo LND
+name: Umbrel LND
 description: Edistyneempi ohje Lightning Network Daemon:n (LND) asentamiseen ja konfigurointiin Umbrelissa
 ---
 ![cover](assets/cover.webp)

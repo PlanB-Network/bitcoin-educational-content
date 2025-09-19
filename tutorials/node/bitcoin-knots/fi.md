@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Solmut
+name: Bitcoin Knots
 description: Miten käynnistän solmun vaihtoehtoisella Bitcoin Knots -asiakasohjelmalla?
 ---
 ![cover](assets/cover.webp)

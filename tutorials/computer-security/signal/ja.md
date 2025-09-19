@@ -1,5 +1,5 @@
 ---
-name: 信号
+name: Signal
 description: 自由に自分を表現する
 ---
 ![cover](assets/cover.webp)

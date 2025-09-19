@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Napredno
+name: COLDCARD Q - Stručnjak
 description: Korišćenje naprednih opcija COLDCARD Q
 ---
 ![cover](assets/cover.webp)

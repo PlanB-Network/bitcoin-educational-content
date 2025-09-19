@@ -1,5 +1,5 @@
 ---
-name: Boze IP-scanner
+name: Angry IP Scanner
 description: Een eenvoudige manier om je netwerk te scannen
 ---
 ![cover](assets/cover.webp)

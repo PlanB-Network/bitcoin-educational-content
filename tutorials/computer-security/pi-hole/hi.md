@@ -1,5 +1,5 @@
 ---
-name: पाई-होल
+name: Pi-Hole
 description: आपके संपूर्ण नेटवर्क के लिए एक विज्ञापन अवरोधक
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 导线保护
+name: WireGuard
 description: 在 Debian 和 Windows 上设置 WireGuard VPN
 ---
 ![cover](assets/cover.webp)

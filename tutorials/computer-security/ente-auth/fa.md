@@ -1,5 +1,5 @@
 ---
-name: ورود به سیستم
+name: Ente Auth
 description: یک احراز هویت دو مرحله‌ای متن‌باز و رمزگذاری‌شده سرتاسری
 ---
 ![cover](assets/cover.webp)

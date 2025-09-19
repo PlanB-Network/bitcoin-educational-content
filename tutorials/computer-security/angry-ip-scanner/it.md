@@ -1,5 +1,5 @@
 ---
-name: Scanner IP arrabbiato
+name: Angry IP Scanner
 description: Un modo semplice per scansionare la rete
 ---
 ![cover](assets/cover.webp)

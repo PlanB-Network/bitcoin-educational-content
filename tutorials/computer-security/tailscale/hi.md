@@ -1,5 +1,5 @@
 ---
-name: टेलस्केल
+name: Tailscale
 description: उन्नत टेलस्केल ट्यूटोरियल
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - Napredni
+name: Zeus Embedded - Napredno
 description: Više-čvorni samostalno-kustodijalni Lightning novčanik
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: グレイログ
+name: Graylog
 description: ログの一元化と分析が容易
 ---
 ![cover](assets/cover.webp)

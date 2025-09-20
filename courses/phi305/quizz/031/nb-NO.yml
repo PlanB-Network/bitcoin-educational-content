@@ -1,0 +1,9 @@
+question: Hva er finalisme?
+answer: Å snu om på årsak og virkning for å forstå noe.
+wrong_answers:
+  - En politisk teori.
+  - En oppskrift på matlaging.
+  - Et prinsipp i psykoanalysen.
+explanation: |
+  Finalisme er å snu om på årsak og virkning for å forstå noe. Det er å forklare et fenomen ut fra dets antatte formål snarere enn ut fra dets faktiske årsaker, noe Spinoza kritiserer som en illusjon.
+reviewed: false

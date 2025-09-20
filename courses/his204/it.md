@@ -1252,7 +1252,7 @@ Come ha fatto Turgot a diventare così importante? Il merito è di una combinazi
 ![image](assets/fr/106.webp)
 
 
-Fu contemporaneo dei fisiocratici, di Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet e altri. **Terzo: la sua precocità intellettuale. Mentre era studente alla Sorbona, a 22 anni scrisse una lettera sulla carta moneta, tenne discorsi notevoli e a 24 anni compose una lista di 52 opere da scrivere.
+Fu contemporaneo dei fisiocratici, di Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet e altri. **Terzo: la sua precocità intellettuale.** Mentre era studente alla Sorbona, a 22 anni scrisse una lettera sulla carta moneta, tenne discorsi notevoli e a 24 anni compose una lista di 52 opere da scrivere.
 
 
 
@@ -1353,9 +1353,9 @@ Poiché la regione era così povera, non era di interesse per i ministri. Ciò d
 
 
 
-- La ridistribuzione della taille**, l'imposta personale (Turgot mirava a introdurre la massima obiettività possibile nella sua valutazione).
-- La corvée**, una forma di tassa pagata in lavoro, in cui i contadini erano costretti a lavorare alla costruzione di strade. Visitando la regione, Turgot notò subito le cattive condizioni delle strade. Sostituì la corvée con una tassa monetaria.
-- Il reclutamento di milizie**, eserciti di contadini mobilitati in tempo di guerra.
+- La ridistribuzione della **taille**, l'imposta personale (Turgot mirava a introdurre la massima obiettività possibile nella sua valutazione).
+- La **corvée**, una forma di tassa pagata in lavoro, in cui i contadini erano costretti a lavorare alla costruzione di strade. Visitando la regione, Turgot notò subito le cattive condizioni delle strade. Sostituì la corvée con una tassa monetaria.
+- Il reclutamento di **milizie**, eserciti di contadini mobilitati in tempo di guerra.
 
 
 ![image](assets/fr/115.webp)

@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Tăng cường bảo mật trực tuyến của bạn với Ledger
 ---
 ![cover](assets/cover.webp)

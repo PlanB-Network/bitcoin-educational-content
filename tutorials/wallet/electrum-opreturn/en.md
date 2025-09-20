@@ -115,8 +115,8 @@ Select the message you wish to enter (e.g. `Thanks Satoshi`). Note: OP_RETURN me
 *Take a moment to think: what you write on the Blockchain Bitcoin is eternal and accessible to all, so :*
 
 
-- leave a beautiful expression of our humanity,*
-- avoid entering content you may regret*
+- leave a beautiful expression of our humanity,
+- avoid entering content you may regret
 
 
 *Blockchain space and your bitcoins are precious, use them wisely and with intention*
@@ -162,9 +162,9 @@ which is made up of :
 
 
 
-- Destination address**: A valid Bitcoin address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. This can be your own address, if you wish to return the transferred funds to yourself;
-- Amount transferred**: the amount of the transaction, here `0.00001` BTC. **Please note**: since the unit used in Electrum is BTC, the amount indicated in the transaction script must also be expressed in BTC, and not in Sats ;
-- Script OP_RETURN**: The message converted to hexadecimal preceded by script(`OP_RETURN <messsage>), 0`. Here, `5468616e6b73205361746f736869` for the message in hexadecimal.
+- **Destination address**: A valid Bitcoin address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. This can be your own address, if you wish to return the transferred funds to yourself;
+- **Amount transferred**: the amount of the transaction, here `0.00001` BTC. **Please note**: since the unit used in Electrum is BTC, the amount indicated in the transaction script must also be expressed in BTC, and not in Sats ;
+- Script **OP_RETURN**: The message converted to hexadecimal preceded by script(`OP_RETURN <messsage>), 0`. Here, `5468616e6b73205361746f736869` for the message in hexadecimal.
 
 
 ⚠️ **Caution**: It's very important to indicate `0` after the OP_RETURN, as this opcode marks the script as invalid, making the output permanently unspendable. Network nodes will delete this output from their UTXO set. If you enter a value other than `0`, it will be irretrievably lost: your bitcoins will be considered burnt. You should therefore always enter `0` with a OP_RETURN in order to record the desired data, but without associating funds with it, which would be lost.

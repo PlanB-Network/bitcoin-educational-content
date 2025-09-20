@@ -56,45 +56,45 @@ Op Git en GitHub zul je commando's en functies tegenkomen waarvan de namen ingew
 
 
 
-- Fetch origin:** Commando dat recente informatie en wijzigingen van een remote repository ophaalt zonder ze samen te voegen met je lokale werk. Het werkt je lokale repository bij met nieuwe branches en commits die aanwezig zijn in het remote repository.
+- **Fetch origin:** Commando dat recente informatie en wijzigingen van een remote repository ophaalt zonder ze samen te voegen met je lokale werk. Het werkt je lokale repository bij met nieuwe branches en commits die aanwezig zijn in het remote repository.
 
 
 
-- Pull origin:** Commando dat updates ophaalt van een remote repository en deze direct integreert in je lokale branch om deze te synchroniseren. Dit combineert de stappen van fetch en merge in een enkel commando.
-- Sync Fork:** Een functie op GitHub waarmee je je Fork van een project kunt bijwerken met de laatste wijzigingen uit de bronrepository. Dit zorgt ervoor dat jouw kopie van het project up-to-date blijft met de hoofdontwikkeling.
-- Push origin:** Commando om je lokale wijzigingen naar een remote repository te sturen.
+- **Pull origin:** Commando dat updates ophaalt van een remote repository en deze direct integreert in je lokale branch om deze te synchroniseren. Dit combineert de stappen van fetch en merge in een enkel commando.
+- **Sync Fork:** Een functie op GitHub waarmee je je Fork van een project kunt bijwerken met de laatste wijzigingen uit de bronrepository. Dit zorgt ervoor dat jouw kopie van het project up-to-date blijft met de hoofdontwikkeling.
+- **Push origin:** Commando om je lokale wijzigingen naar een remote repository te sturen.
 
 
 
-- Pull Request:** Een verzoek gestuurd door een bijdrager om aan te geven dat ze wijzigingen naar een branch in een remote repository hebben gepushed en dat ze willen dat deze wijzigingen worden bekeken en mogelijk worden samengevoegd in de hoofdbranch van het repository.
+- **Pull Request:** Een verzoek gestuurd door een bijdrager om aan te geven dat ze wijzigingen naar een branch in een remote repository hebben gepushed en dat ze willen dat deze wijzigingen worden bekeken en mogelijk worden samengevoegd in de hoofdbranch van het repository.
 
 
 
-- Vastleggen:** Je wijzigingen opslaan. Een vastlegging is als een momentopname van je werk op een bepaald moment, waarmee je een geschiedenis van wijzigingen kunt bijhouden. Elke vastlegging bevat een beschrijvende boodschap die uitlegt wat er gewijzigd is.
+- **Vastleggen:** Je wijzigingen opslaan. Een vastlegging is als een momentopname van je werk op een bepaald moment, waarmee je een geschiedenis van wijzigingen kunt bijhouden. Elke vastlegging bevat een beschrijvende boodschap die uitlegt wat er gewijzigd is.
 
 
 
-- Branch:** Een parallelle versie van het repository, waarmee je aan wijzigingen kunt werken zonder de hoofd branch (vaak "main" of "master" genoemd) te beïnvloeden. Branches faciliteren de ontwikkeling van nieuwe functies en de correctie van bugs zonder het risico te lopen om stabiele code te verstoren.
+- **Branch:** Een parallelle versie van het repository, waarmee je aan wijzigingen kunt werken zonder de hoofd branch (vaak "main" of "master" genoemd) te beïnvloeden. Branches faciliteren de ontwikkeling van nieuwe functies en de correctie van bugs zonder het risico te lopen om stabiele code te verstoren.
 
 
 
-- Samenvoegen:** Samenvoegen bestaat uit het integreren van de wijzigingen van de ene branch in de andere. Het wordt bijvoorbeeld gebruikt om de wijzigingen van een working branch toe te voegen aan de hoofd branch, waardoor de verschillende bijdragen toegevoegd kunnen worden.
+- **Samenvoegen:** Samenvoegen bestaat uit het integreren van de wijzigingen van de ene branch in de andere. Het wordt bijvoorbeeld gebruikt om de wijzigingen van een working branch toe te voegen aan de hoofd branch, waardoor de verschillende bijdragen toegevoegd kunnen worden.
 
 
 
-- Fork:** Forken van een repository betekent een kopie maken van dat repository op je eigen GitHub account, waarmee je aan het project kunt werken zonder het originele repository te beïnvloeden. De Fork kan zijn eigen weg gaan en een ander project worden dan het origineel, of het kan regelmatig synchroniseren met het originele project om eraan bij te dragen.
+- **Fork:** Forken van een repository betekent een kopie maken van dat repository op je eigen GitHub account, waarmee je aan het project kunt werken zonder het originele repository te beïnvloeden. De Fork kan zijn eigen weg gaan en een ander project worden dan het origineel, of het kan regelmatig synchroniseren met het originele project om eraan bij te dragen.
 
 
 
-- Klonen:** Een archief klonen betekent dat je een lokale kopie op je computer maakt, die je toegang geeft tot alle bestanden en de geschiedenis. Hierdoor kun je direct lokaal aan het project werken.
+- **Klonen:** Een archief klonen betekent dat je een lokale kopie op je computer maakt, die je toegang geeft tot alle bestanden en de geschiedenis. Hierdoor kun je direct lokaal aan het project werken.
 
 
 
-- Repository:** Opslagruimte voor een project op GitHub. Een repository bevat alle projectbestanden en ook de geschiedenis van alle wijzigingen die eraan gemaakt zijn. Het is de basis van opslag en samenwerking op GitHub.
+- **Repository:** Opslagruimte voor een project op GitHub. Een repository bevat alle projectbestanden en ook de geschiedenis van alle wijzigingen die eraan gemaakt zijn. Het is de basis van opslag en samenwerking op GitHub.
 
 
 
-- Issue:** Een tool voor het bijhouden van taken en bugs op GitHub. Met issues kun je problemen melden, verbeteringen voorstellen of nieuwe functies bespreken. Elk issue kan worden toegewezen, gelabeld en becommentarieerd.
+- **Issue:** Een tool voor het bijhouden van taken en bugs op GitHub. Met issues kun je problemen melden, verbeteringen voorstellen of nieuwe functies bespreken. Elk issue kan worden toegewezen, gelabeld en becommentarieerd.
 
 
 Deze lijst is natuurlijk niet volledig. Er zijn veel andere technische termen die specifiek zijn voor Git en GitHub. Maar degene die hier genoemd zijn, zijn de belangrijkste die je vaak zult tegenkomen.

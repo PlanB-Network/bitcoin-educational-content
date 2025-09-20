@@ -8,7 +8,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.08
+    reward: 0.07
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -43,13 +43,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.23
+    reward: 0.22
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.1
+    reward: 0.09
   - language: it
     last_contribution_date:
     urgency: 1
@@ -59,7 +59,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.2
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -94,18 +94,18 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.2
   - language: zh-Hans
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.1
+    reward: 0.09
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -125,4 +125,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.18

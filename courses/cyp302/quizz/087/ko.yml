@@ -1,0 +1,9 @@
+question: 초기화 벡터를 사용하고 확률적 암호화를 생성하는 블록 암호 방식은 무엇인가요?
+answer: CBC(암호 블록 체인)
+wrong_answers:
+  - ECB(전자 코드 북)
+  - AES-128
+  - SHA-256
+explanation: |
+  CBC 방식은 초기화 벡터를 사용하고 각 일반 텍스트 블록과 이전 암호화된 블록 사이에 XOR을 적용하여 ECB보다 확률적이고 안전한 암호화를 수행합니다.
+reviewed: false

@@ -126,7 +126,7 @@ Giao dịch của bạn hiện đã được xác nhận.
 
 ### Thiết lập DCA
 
-Trung bình chi phí đô la* (DCA) là một chiến lược đầu tư hấp dẫn để tích lũy bitcoin trong khi giảm thiểu rủi ro liên quan đến tính biến động của nó. Bằng cách thường xuyên mua một lượng cố định, bất kể giá cả, bạn có thể làm phẳng chi phí mua lại của mình và tránh đưa ra quyết định bốc đồng. DCA giúp giảm bớt các thành kiến về hành vi như nỗi sợ bỏ lỡ cơ hội hoặc hoảng loạn trong trường hợp giá giảm, và do đó cho phép bạn quản lý khoản tiết kiệm bitcoin của mình theo cách thanh thản và có kỷ luật.
+Trung bình chi phí đô la (DCA) là một chiến lược đầu tư hấp dẫn để tích lũy bitcoin trong khi giảm thiểu rủi ro liên quan đến tính biến động của nó. Bằng cách thường xuyên mua một lượng cố định, bất kể giá cả, bạn có thể làm phẳng chi phí mua lại của mình và tránh đưa ra quyết định bốc đồng. DCA giúp giảm bớt các thành kiến về hành vi như nỗi sợ bỏ lỡ cơ hội hoặc hoảng loạn trong trường hợp giá giảm, và do đó cho phép bạn quản lý khoản tiết kiệm bitcoin của mình theo cách thanh thản và có kỷ luật.
 
 Để thiết lập giao dịch mua định kỳ (DCA) trên Bitstack, hãy vào mục "*Tiết kiệm*" trên trang chủ và chọn "*Định kỳ*". Sau đó nhấn "*Tiếp tục*".
 

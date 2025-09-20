@@ -1,0 +1,9 @@
+question: Sonuç yapısal enflasyon mu?
+answer: Supply parasında bir artış.
+wrong_answers:
+  - Fiyat artışları
+  - Maliye politikası.
+  - Liberalizm karşıtı önlemler.
+explanation: |
+  Yapısal enflasyon Supply parasındaki artışın bir sonucudur. Dolaşımdaki para miktarı mal ve hizmet üretiminden daha hızlı arttığında, bu durum fiyatlarda genel bir artışa yol açar.
+reviewed: false

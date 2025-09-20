@@ -18,17 +18,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: et
     last_contribution_date:
     urgency: 1
@@ -43,23 +43,23 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.96
+    reward: 0.95
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.36
+    reward: 0.35
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.84
+    reward: 0.83
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -74,7 +74,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -94,13 +94,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.84
+    reward: 0.83
   - language: zh-Hans
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.36
+    reward: 0.35
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -115,7 +115,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.47
+    reward: 0.46
   - language: nl
     last_contribution_date:
     urgency: 1

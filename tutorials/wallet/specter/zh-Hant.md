@@ -1,5 +1,5 @@
 ---
-name: 光譜
+name: Specter
 
 description: Specter 設定指南
 ---

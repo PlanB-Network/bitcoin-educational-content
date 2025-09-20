@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39 Ledger
+name: BIP-39 Passphrase Ledger
 description: Hvordan legger du til en passordfrase i Ledger-lommeboken din?
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ Alternativet "midlertidig passordfrase" lagrer ikke passordfrasen på enheten. H
 
 I denne veiledningen bruker jeg Ledger Flex som eksempel. Hvis du bruker en annen Ledger-modell, er prosessen den samme. For Ledger Stax er grensesnittet det samme som for Ledger Flex. Når det gjelder Nano S-, Nano S Plus- og Nano X-modellene, er prosessen og navnene på menyene de samme, selv om grensesnittet er annerledes.
 
-**Hvis du allerede har mottatt bitcoins på din Ledger før du aktiverer passordfrasen, må du overføre dem via en Bitcoin-transaksjon. Passordfrasen genererer et sett med nye nøkler, og oppretter dermed en lommebok som er helt uavhengig av den opprinnelige lommeboken din. Når du legger til passordfrasen, får du en ny lommebok som vil være tom. Dette sletter imidlertid ikke den første lommeboken din uten passordfrase. Du kan fortsatt få tilgang til den, enten direkte via Ledger uten å skrive inn passordfrasen, eller via en annen programvare ved hjelp av 24-ordsfrasen din.
+**Hvis du allerede har mottatt bitcoins på din Ledger før du aktiverer passordfrasen, må du overføre dem via en Bitcoin-transaksjon. Passordfrasen genererer et sett med nye nøkler, og oppretter dermed en lommebok som er helt uavhengig av den opprinnelige lommeboken din. Når du legger til passordfrasen, får du en ny lommebok som vil være tom. Dette sletter imidlertid ikke den første lommeboken din uten passordfrase. Du kan fortsatt få tilgang til den, enten direkte via Ledger uten å skrive inn passordfrasen, eller via en annen programvare ved hjelp av 24-ordsfrasen din.**
 
 Før du starter denne veiledningen, må du forsikre deg om at du allerede har initialisert reskontroen og generert minnefrasen din. Hvis dette ikke er tilfelle og hovedboken din er ny, må du følge den spesifikke veiledningen for din modell som er tilgjengelig på PlanB Network. Når dette trinnet er fullført, kan du gå tilbake til denne veiledningen.
 

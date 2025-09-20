@@ -1,5 +1,5 @@
 ---
-name: Mlinzi wa Bitcoin - Usalama wa Funguo nyingi
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - programu ya rununu inayokuruhusu kuunda pochi zote mbili za Hot na vaults za kuhifadhi za Cold kwa uokoaji wa muda mrefu.
 ---
 

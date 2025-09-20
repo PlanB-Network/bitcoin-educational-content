@@ -1,5 +1,5 @@
 ---
-name: Kuweka lebo UTXO
+name: Labelling UTXO
 description: Jinsi ya kuweka lebo ya UTXO yako vizuri?
 ---
 ![cover](assets/cover.webp)

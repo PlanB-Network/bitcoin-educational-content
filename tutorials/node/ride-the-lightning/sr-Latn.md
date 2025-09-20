@@ -9,11 +9,11 @@ description: Koristite Ride The Lightning (RTL) za upravljanje vašim Lightning 
 
 
 
-**Ride The Lightning (RTL)** je kompletna veb aplikacija za upravljanje čvorom Lightning mreže . Ova samostalno hostovana veb aplikacija nudi Lightning** "kokpit" dostupan iz vašeg pregledača. RTL radi sa svim glavnim Lightning implementacijama (LND, Core Lightning/CLN i Eclair) i pruža vam potpunu kontrolu nad vašim čvorom i kanalima. Kao open-source (MIT licenca) i besplatna, RTL aplikacija je integrisan po defaultu u mnogim rešenjima za čvorove spremnim za upotrebu (RaspiBlitz, MyNode, Umbrel, itd.).
+**Ride The Lightning (RTL)** je kompletna veb aplikacija za upravljanje čvorom Lightning mreže. Ova samostalno hostovana veb aplikacija nudi Lightning **"kokpit"** dostupan iz vašeg pregledača. RTL radi sa svim glavnim Lightning implementacijama (LND, Core Lightning/CLN i Eclair) i pruža vam potpunu kontrolu nad vašim čvorom i kanalima. Kao open-source (MIT licenca) i besplatna, RTL aplikacija je integrisan po defaultu u mnogim rešenjima za čvorove spremnim za upotrebu (RaspiBlitz, MyNode, Umbrel, itd.).
 
 
 
-**Bez grafičkog interfejsa, Lightning čvorovima se može upravljati samo putem jednostavnih CLI komandi prilagođenih korisniku. RTL pojednostavljuje ove operacije ergonomskim interfejsom. Ovde su **glavne aplikacije**:
+**Bez grafičkog interfejsa, Lightning čvorovima se može upravljati samo putem jednostavnih CLI komandi prilagođenih korisniku. RTL pojednostavljuje ove operacije ergonomskim interfejsom. Ovde su** glavne aplikacije:
 
 
 

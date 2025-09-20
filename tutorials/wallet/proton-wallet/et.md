@@ -1,5 +1,5 @@
 ---
-name: Proton rahakott
+name: Proton Wallet
 description: Proton Bitcoini rahakoti paigaldamine ja kasutamine
 ---
 ![cover](assets/cover.webp)

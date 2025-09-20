@@ -40,25 +40,25 @@ Lukuisista saatavilla olevista Linux-jakeluista Fedora erottuu erityisesti:
 
 
 
-- Modulaarisuus**: Fedora on yhteensopiva eri prosessoriarkkitehtuurien kanssa, joten se voidaan asentaa useimpiin tietokoneisiin, jopa pienitehoisiin, ja se mukautuu täydellisesti tarpeisiisi.
+- **Modulaarisuus**: Fedora on yhteensopiva eri prosessoriarkkitehtuurien kanssa, joten se voidaan asentaa useimpiin tietokoneisiin, jopa pienitehoisiin, ja se mukautuu täydellisesti tarpeisiisi.
 
 
 
 
 
-- Yksinkertainen, intuitiivinen Interface**: Fedora yhdistää nykyaikaisen graafisen Interface:n ja tehokkaan komentorivin Interface:n, mikä tekee siitä helppokäyttöisen kaikille profiileille.
+- Yksinkertainen, intuitiivinen **Interface**: Fedora yhdistää nykyaikaisen graafisen Interface:n ja tehokkaan komentorivin Interface:n, mikä tekee siitä helppokäyttöisen kaikille profiileille.
 
 
 
 
 
-- Ytimen vakaus**: Fedora on tunnettu Red Hatiin perustuvasta Fedora-ohjelmistosta, joka on tunnettu päivitystensä luotettavuudesta, erityisesti ytimen päivityksistä, jotka toteutetaan ilman suurempia virheitä laajan yhteisön ilmaisen panoksen ansiosta.
+- **Ytimen vakaus**: Fedora on tunnettu Red Hatiin perustuvasta Fedora-ohjelmistosta, joka on tunnettu päivitystensä luotettavuudesta, erityisesti ytimen päivityksistä, jotka toteutetaan ilman suurempia virheitä laajan yhteisön ilmaisen panoksen ansiosta.
 
 
 
 
 
-- Nopea ja helppo asennus**: vain 3 GB:n kuvakoko mahdollistaa nopean ja helpon asennuksen myös koneilla, joilla on rajalliset resurssit.
+- **Nopea ja helppo asennus**: vain 3 GB:n kuvakoko mahdollistaa nopean ja helpon asennuksen myös koneilla, joilla on rajalliset resurssit.
 
 
 
@@ -72,19 +72,19 @@ Profiilisi ja käyttötarkoituksesi mukaan Fedora tarjoaa tarpeisiisi sopivia ve
 
 
 
-- Fedora Workstation**: Tämä versio on ihanteellinen henkilökohtaiseen ja/tai ammatilliseen käyttöön tietokoneillasi, ja siihen on asennettu yleisiä apuohjelmia, kuten selaimia, toimistopaketti (tekstieditorit) ja median toisto-ohjelmisto.
+- **Fedora Workstation**: Tämä versio on ihanteellinen henkilökohtaiseen ja/tai ammatilliseen käyttöön tietokoneillasi, ja siihen on asennettu yleisiä apuohjelmia, kuten selaimia, toimistopaketti (tekstieditorit) ja median toisto-ohjelmisto.
 
 
 
 
 
-- Fedora Server**: Tämä painos on omistettu palvelimen hallinnalle. Fedora Server sisältää erilaisia työkaluja, joiden avulla voit ottaa käyttöön ja hallita palvelimia omassa mittakaavassa.
+- **Fedora Server**: Tämä painos on omistettu palvelimen hallinnalle. Fedora Server sisältää erilaisia työkaluja, joiden avulla voit ottaa käyttöön ja hallita palvelimia omassa mittakaavassa.
 
 
 
 
 
-- Fedora CoreOS**: Haluatko helposti ajaa ja ottaa käyttöön pilvisovelluksia? Fedora CoreOS on painos, joka antaa sinulle työkalut kuvien luomiseen ja hallintaan esimerkiksi Dockerin ja Kubernetin avulla.
+- **Fedora CoreOS**: Haluatko helposti ajaa ja ottaa käyttöön pilvisovelluksia? Fedora CoreOS on painos, joka antaa sinulle työkalut kuvien luomiseen ja hallintaan esimerkiksi Dockerin ja Kubernetin avulla.
 
 
 
@@ -103,7 +103,7 @@ Fedora Workstationin asentaminen edellyttää seuraavia laitteistokokoonpanoja:
 
 - Vähintään **8 Gt:n** USB-levy käyttöjärjestelmän käynnistämistä varten.
 - Vähintään **40 Gt vapaata tilaa** tietokoneen Hard -levyllä.
-- 4 Gt RAM-muistia** sujuvaan käyttökokemukseen.
+- 4 Gt RAM-muistia sujuvaan käyttökokemukseen.
 
 
 
@@ -156,7 +156,7 @@ Käynnistä tietokone ja avaa BIOS käynnistyksen aikana painamalla F2-, F12- ta
 
 
 
-Valitse käynnistysvaihtoehdoissa USB-levy ensisijaiseksi käynnistyslaitteeksi. Kun vahvistat tämän valinnan, tietokone käynnistyy uudelleen ja käynnistää automaattisesti USB-tikulla olevan Fedora-asennusohjelman**.
+Valitse käynnistysvaihtoehdoissa USB-levy ensisijaiseksi käynnistyslaitteeksi. Kun vahvistat tämän valinnan, tietokone käynnistyy uudelleen ja käynnistää automaattisesti USB-tikulla olevan **Fedora-asennusohjelman**.
 
 
 
@@ -169,7 +169,7 @@ Tässä vaiheessa sinulla on seuraavat vaihtoehdot:
 
 
 
-- Testivälineet**: Tämän vaihtoehdon avulla voit tarkistaa USB-tikun eheyden ja varmistaa, että kaikki oikean asennuksen edellyttämät riippuvuudet ovat mukana. Tämä on valinnainen vaihe, mutta sitä suositellaan, jos sinulla on epäilyksiä USB-tikun suhteen.
+- **Testivälineet**: Tämän vaihtoehdon avulla voit tarkistaa USB-tikun eheyden ja varmistaa, että kaikki oikean asennuksen edellyttämät riippuvuudet ovat mukana. Tämä on valinnainen vaihe, mutta sitä suositellaan, jos sinulla on epäilyksiä USB-tikun suhteen.
 
 
 
@@ -183,7 +183,7 @@ Tässä vaiheessa sinulla on seuraavat vaihtoehdot:
 
 
 
-- Käynnistä Fedora**: Tämä käynnistää Fedoran "live"-tilassa ilman asennusta.
+- **Käynnistä Fedora**: Tämä käynnistää Fedoran "live"-tilassa ilman asennusta.
 
 
 
@@ -368,9 +368,9 @@ Fedora sisältää oletuksena **LibreOffice**-toimistopaketin, joka tarjoaa usei
 
 
 
-- Writer** tekstinkäsittelyä varten.
-- Calc** taulukkolaskentaa varten.
-- Impress** esitysten luomiseen.
+- **Writer** tekstinkäsittelyä varten.
+- **Calc** taulukkolaskentaa varten.
+- **Impress** esitysten luomiseen.
 
 
 ## Sovellusten asentaminen

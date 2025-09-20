@@ -50,11 +50,11 @@ Obecnie Jami jest dostępny na wielu systemach. Słynie z wydajności, płynnoś
 
 
 
-- Jest to oprogramowanie open-source i całkowicie darmowe**, więc można z niego korzystać bez żadnych kosztów.
-- Komplet przydatnych funkcji**: to oprogramowanie pozwala korzystać z wielu opcji dzięki możliwości łatwego dodawania wtyczek ze sklepu. Możliwe jest nawet tworzenie własnych rozszerzeń dla funkcji bardziej dostosowanych do twoich potrzeb.
-- Łatwy w użyciu i intuicyjny Interface**: pomimo wielu funkcji, które oferuje Jami, nadal jest bardzo łatwy do opanowania.
-- Silne bezpieczeństwo**: Jami wykorzystuje zaawansowany algorytm szyfrowania, który gwarantuje bezpieczeństwo komunikacji przy jednoczesnym poszanowaniu prywatności użytkownika.
-- Wysoka dostępność i szybkość**: oferuje łatwą komunikację nawet przy ograniczonej przepustowości, co zwiększa łatwość obsługi.
+- Jest to oprogramowanie open-source i całkowicie darmowe, więc można z niego korzystać bez żadnych kosztów.
+- **Komplet przydatnych funkcji**: to oprogramowanie pozwala korzystać z wielu opcji dzięki możliwości łatwego dodawania wtyczek ze sklepu. Możliwe jest nawet tworzenie własnych rozszerzeń dla funkcji bardziej dostosowanych do twoich potrzeb.
+- Łatwy w użyciu i intuicyjny **Interface**: pomimo wielu funkcji, które oferuje Jami, nadal jest bardzo łatwy do opanowania.
+- **Silne bezpieczeństwo**: Jami wykorzystuje zaawansowany algorytm szyfrowania, który gwarantuje bezpieczeństwo komunikacji przy jednoczesnym poszanowaniu prywatności użytkownika.
+- **Wysoka dostępność i szybkość**: oferuje łatwą komunikację nawet przy ograniczonej przepustowości, co zwiększa łatwość obsługi.
 
 
 
@@ -338,9 +338,9 @@ Jami oferuje również **zaawansowane funkcje** dla użytkowników, którzy chc�
 
 
 
-- Utwórz punkt spotkania**: Ta funkcja umożliwia utworzenie **punktu spotkania** dla komunikacji, przydatnego do organizowania bezpiecznych sesji lub wymiany między kilkoma użytkownikami.
-- Połączenie z serwerem Jami**: Możesz połączyć Jami z **serwerem Jami**, co może poprawić wydajność lub dostępność komunikacji, szczególnie w środowiskach profesjonalnych.
-- Konfiguracja konta SIP**: Możesz skonfigurować konto **SIP** (Session Initiation Protocol), umożliwiające integrację Jami z istniejącymi systemami telefonicznymi lub wykonywanie połączeń telefonicznych.
+- **Utwórz punkt spotkania**: Ta funkcja umożliwia utworzenie **punktu spotkania** dla komunikacji, przydatnego do organizowania bezpiecznych sesji lub wymiany między kilkoma użytkownikami.
+- **Połączenie z serwerem Jami**: Możesz połączyć Jami z **serwerem Jami**, co może poprawić wydajność lub dostępność komunikacji, szczególnie w środowiskach profesjonalnych.
+- **Konfiguracja konta SIP**: Możesz skonfigurować konto **SIP** (Session Initiation Protocol), umożliwiające integrację Jami z istniejącymi systemami telefonicznymi lub wykonywanie połączeń telefonicznych.
 
 
 

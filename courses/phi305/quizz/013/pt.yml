@@ -1,0 +1,9 @@
+question: O que é a etologia?
+answer: Uma ciência das formas de ser.
+wrong_answers:
+  - Uma ciência natural.
+  - Uma ciência mecânica.
+  - Um derivado da astrologia.
+explanation: |
+  A etologia é a ciência do ser, do comportamento. Para Spinoza e Deleuze, é o estudo do que um corpo pode fazer, dos seus afectos e capacidades de ação e paixão.
+reviewed: false

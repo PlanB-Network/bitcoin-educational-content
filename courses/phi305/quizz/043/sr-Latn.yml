@@ -1,0 +1,9 @@
+question: Ko je rekao "Zlo je ništa"?
+answer: Sokrat.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Dekart.
+explanation: |
+  zlo je ništa" je ideja koja se pripisuje Sokratu i preuzeta je u filozofskoj tradiciji. Za Sokrata, zlo dolazi iz neznanja; niko ne čini zlo dobrovoljno ako zaista zna šta je dobro.
+reviewed: false

@@ -15,4 +15,4 @@ Viittaa lohkoon, jolla ei ole lapsia: kelvollinen lohko, mutta joka on suljettu 
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► *Englanniksi sitä kutsutaan nimellä "Stale Block". Ranskassa sitä voidaan kutsua myös nimellä "bloc périmé" tai "bloc abandonné". Vaikka en ole samaa mieltä tästä käytännöstä, jotkut bitcoin-käyttäjät käyttävät termiä "bloc orphelin" viittaamaan siihen, että kyseessä on itse asiassa vanhentunut lohko.* *
+> ► *Englanniksi sitä kutsutaan nimellä "Stale Block". Ranskassa sitä voidaan kutsua myös nimellä "bloc périmé" tai "bloc abandonné". Vaikka en ole samaa mieltä tästä käytännöstä, jotkut bitcoin-käyttäjät käyttävät termiä "bloc orphelin" viittaamaan siihen, että kyseessä on itse asiassa vanhentunut lohko.*

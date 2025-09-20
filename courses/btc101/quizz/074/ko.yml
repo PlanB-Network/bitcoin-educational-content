@@ -1,0 +1,12 @@
+question: 자기 관리 측면에서 Bitcoin Wallet을 선택할 때 스스로에게 물어봐야 할 핵심 질문은 무엇인가요?
+answer: 자금의 소유자는 본인입니까, 아니면 제3자에게 자금 관리를 맡기시나요?
+wrong_answers:
+  - Wallet는 passphrase로 고정되어 있나요?
+  - Wallet로 비트코인을 주고받을 수 있나요?
+  - Wallet를 다른 사람과 공유할 수 있나요?
+explanation: |
+  Bitcoin Wallet을 선택할 때 가장 중요한 질문은 다음과 같습니다:
+  자금의 소유자는 귀하입니까, 아니면 제 3 자에게 자금 관리를
+  제삼자에게 돈을 맡기시겠습니까? 이는 개인 키의 소유자가
+  개인 키의 소유자가 비트코인의 소유자이기 때문입니다.
+reviewed: true

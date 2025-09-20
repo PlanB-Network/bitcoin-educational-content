@@ -271,7 +271,7 @@ Safe 3, rastgele sayı üretecini kullanarak Mnemonic cümlenizi oluşturacaktı
 
 
 
-***Açıkçası, bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir
+**Açıkçası, bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.**
 
 
 

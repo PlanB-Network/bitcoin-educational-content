@@ -423,7 +423,7 @@ Zodra je Satoshi's CoinJoins maken, gaan ze van mixdiepte naar mixdiepte tot ze 
 
 
 
-Hier zijn we dan eindelijk bij het sappigste onderdeel van JoinMarket, de tumbler! Als je naar de podcast hebt geluisterd, weet je al waar dit over gaat. Eén aanbeveling voordat we beginnen: **Vergeet niet de limieten in te stellen in het joinmarket.cfg bestand (zoals uitgelegd aan het begin) en overweeg het programma alleen te draaien wanneer de onchain fees relatief laag zijn (onder de 10 Sats/vB).
+Hier zijn we dan eindelijk bij het sappigste onderdeel van JoinMarket, de tumbler! Als je naar de podcast hebt geluisterd, weet je al waar dit over gaat. Eén aanbeveling voordat we beginnen: **Vergeet niet de limieten in te stellen in het joinmarket.cfg bestand (zoals uitgelegd aan het begin) en overweeg het programma alleen te draaien wanneer de onchain fees relatief laag zijn (onder de 10 Sats/vB).**
 
 
 

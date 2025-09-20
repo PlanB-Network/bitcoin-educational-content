@@ -25,10 +25,10 @@ Det återstod dock ett stort problem mellan Bitcoin-protokollets lager: interope
 
 
 
-- on chain**: Bitcoin:s huvudkedja där transaktioner bekräftas var 10:e minut i genomsnitt, är transaktionsavgifterna ofta höga, vilket inte nödvändigtvis uppfyller användarnas behov ;
-- Lightning Network**: Bitcoin-överlägget för omedelbara betalningar till låga avgifter, vilket gör att Bitcoin kan användas för dagliga betalningar;
-- Liquid Network**: ett överlägg för Bitcoin skapat av Blockstream, vilket möjliggör snabba, Confidential Transactions och användning av andra Bitcoin-baserade finansiella instrument;
-- RootStock**: En lösning för att utveckla smarta kontrakt baserade på Bitcoin-protokollet.
+- **on chain**: Bitcoin:s huvudkedja där transaktioner bekräftas var 10:e minut i genomsnitt, är transaktionsavgifterna ofta höga, vilket inte nödvändigtvis uppfyller användarnas behov ;
+- **Lightning Network**: Bitcoin-överlägget för omedelbara betalningar till låga avgifter, vilket gör att Bitcoin kan användas för dagliga betalningar;
+- **Liquid Network**: ett överlägg för Bitcoin skapat av Blockstream, vilket möjliggör snabba, Confidential Transactions och användning av andra Bitcoin-baserade finansiella instrument;
+- **RootStock**: En lösning för att utveckla smarta kontrakt baserade på Bitcoin-protokollet.
 
 
 

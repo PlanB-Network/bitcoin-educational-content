@@ -60,7 +60,7 @@ Android-käyttäjät voivat asentaa sovelluksen myös .apk-tiedoston kautta [saa
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Käynnistä sovellus ja ruksaa "Hyväksyn ehdot...*" -ruutu.
+Käynnistä sovellus ja ruksaa **"Hyväksyn ehdot..."** -ruutu.
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -271,4 +271,3 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit v
 Suosittelen myös tutustumaan tähän muuhun kattavaan oppaaseen Blockstream Green -mobiilisovelluksesta Liquid-lompakon perustamiseksi :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

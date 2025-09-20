@@ -17,11 +17,11 @@ Debian es una distribución GNU/Linux libre, famosa por su robustez y fiabilidad
 
 
 
-- Libre y abierto**: Debian es totalmente de código abierto, lo que garantiza la transparencia y la ausencia de costes de licencia.
-- Estabilidad y seguridad**: cada versión pasa por un exhaustivo proceso de pruebas, haciendo de Debian una de las distribuciones más fiables y seguras del mercado.
-- Comunidad activa**: una amplia comunidad y una extensa documentación están a su disposición para ayudarle siempre que lo necesite.
-- Ligero y escalable**: puede instalar Debian en máquinas con recursos modestos manteniendo un buen rendimiento.
-- Amplio catálogo de software**: más de 50.000 paquetes oficiales disponibles a través de los repositorios.
+- **Libre y abierto**: Debian es totalmente de código abierto, lo que garantiza la transparencia y la ausencia de costes de licencia.
+- **Estabilidad y seguridad**: cada versión pasa por un exhaustivo proceso de pruebas, haciendo de Debian una de las distribuciones más fiables y seguras del mercado.
+- **Comunidad activa**: una amplia comunidad y una extensa documentación están a su disposición para ayudarle siempre que lo necesite.
+- **Ligero y escalable**: puede instalar Debian en máquinas con recursos modestos manteniendo un buen rendimiento.
+- **Amplio catálogo de software**: más de 50.000 paquetes oficiales disponibles a través de los repositorios.
 
 
 
@@ -35,12 +35,12 @@ Debian ofrece varios entornos de escritorio que se adaptan a sus necesidades:
 
 
 
-- GNOME**: Interface moderno e intuitivo, ideal para principiantes. Ofrece un menú gráfico fluido y fácil de usar para acceder a las aplicaciones.
-- XFCE**: ligero y rápido, perfecto para máquinas menos potentes.
-- KDE Plasma**: altamente personalizable, con una apariencia similar a Windows.
-- Cinnamon**: Interface sencillo y elegante, inspirado en Windows.
-- LXDE / LXQt**: ultraligero, adecuado para ordenadores antiguos.
-- MATE**: sencillo y clásico, cercano al antiguo GNOME.
+- **GNOME**: Interface moderno e intuitivo, ideal para principiantes. Ofrece un menú gráfico fluido y fácil de usar para acceder a las aplicaciones.
+- **XFCE**: ligero y rápido, perfecto para máquinas menos potentes.
+- **KDE Plasma**: altamente personalizable, con una apariencia similar a Windows.
+- **Cinnamon**: Interface sencillo y elegante, inspirado en Windows.
+- **LXDE / LXQt**: ultraligero, adecuado para ordenadores antiguos.
+- **MATE**: sencillo y clásico, cercano al antiguo GNOME.
 
 
 
@@ -61,9 +61,9 @@ Antes de iniciar la instalación, asegúrese de que dispone del siguiente equipo
 
 
 
-- Llave USB**: 8 GB como mínimo para guardar la imagen ISO de arranque.
-- Memoria de acceso aleatorio (RAM)**: 4 GB para una instalación y un funcionamiento sin problemas.
-- Espacio en disco**: al menos 15 GB de espacio libre para el sistema y las actualizaciones.
+- **Llave USB**: 8 GB como mínimo para guardar la imagen ISO de arranque.
+- **Memoria de acceso aleatorio (RAM)**: 4 GB para una instalación y un funcionamiento sin problemas.
+- **Espacio en disco**: al menos 15 GB de espacio libre para el sistema y las actualizaciones.
 
 
 
@@ -77,9 +77,9 @@ La elección de la imagen de Debian depende de la arquitectura de su procesador:
 
 
 
-- AMD64**: descargue la edición "live hybrid" de la lista [download] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: obtenga la imagen de DVD del sitio web oficial de [Debian] (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Otras arquitecturas**: busque la ISO correspondiente a su arquitectura [aquí](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: descargue la edición "live hybrid" de la lista [download] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: obtenga la imagen de DVD del sitio web oficial de [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Otras arquitecturas**: busque la ISO correspondiente a su arquitectura [aquí](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Una vez descargada la imagen ISO adecuada, proceda a crear el soporte de instala
 
 
 
-- Descarga Balena Etcher** desde el [sitio web oficial](https://etcher.balena.io/), luego obtén el binario para tu sistema e instálalo.
+- Descarga **Balena Etcher** desde el [sitio web oficial](https://etcher.balena.io/), luego obtén el binario para tu sistema e instálalo.
 
 
 
@@ -106,9 +106,9 @@ Una vez descargada la imagen ISO adecuada, proceda a crear el soporte de instala
 
 
 
-- Inicie Etcher**: abra el software y seleccione la imagen ISO de Debian previamente descargada.
-- Elige la llave USB**: especifica tu llave (8 GB+) como destino.
-- Iniciar flash**: pulsa sobre **¡Flash!** y espera a que se complete el proceso.
+- Inicie **Etcher**: abra el software y seleccione la imagen ISO de Debian previamente descargada.
+- Elige la llave USB: especifica tu llave (8 GB+) como destino.
+- Iniciar flash: pulsa sobre **¡Flash!** y espera a que se complete el proceso.
 
 
 
@@ -133,10 +133,10 @@ Para iniciar la instalación desde la llave USB:
 
 
 
-- Apague** completamente el ordenador.
-- Reinicie** y acceda a BIOS/UEFI pulsando inmediatamente `ESC`, `F2`, `F11` (o la tecla dedicada dependiendo de su marca).
+- **Apague** completamente el ordenador.
+- **Reinicie** y acceda a BIOS/UEFI pulsando inmediatamente `ESC`, `F2`, `F11` (o la tecla dedicada dependiendo de su marca).
 - En el menú de arranque, **selecciona tu llave USB** como dispositivo de arranque.
-- Confirme** con la tecla Intro para iniciar la imagen de Debian: esto le llevará a la pantalla de bienvenida del instalador.
+- **Confirme** con la tecla Intro para iniciar la imagen de Debian: esto le llevará a la pantalla de bienvenida del instalador.
 
 
 
@@ -157,9 +157,9 @@ Al arrancar desde la memoria USB, la pantalla de bienvenida de Debian ofrece var
 
 
 
-- Live System**: lanza Debian sin instalarlo, ideal para probar el entorno.
-- Start Installer**: inicia la instalación directamente en el disco Hard.
-- Opciones de instalación avanzadas**: le da acceso a modos de instalación personalizados.
+- **Live System**: lanza Debian sin instalarlo, ideal para probar el entorno.
+- **Start Installer**: inicia la instalación directamente en el disco Hard.
+- **Opciones de instalación avanzadas**: le da acceso a modos de instalación personalizados.
 
 
 
@@ -173,7 +173,7 @@ Para explorar Debian en modo vivo, seleccione **Sistema vivo** y confirme con **
 
 
 
-- Selección de idioma** (opcional)
+- **Selección de idioma** (opcional)
 
 
 
@@ -187,7 +187,7 @@ Seleccione el idioma principal de su sistema Debian de la lista y pulse Aceptar.
 
 
 
-- Zona horaria** (GMT)
+- **Zona horaria** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Selecciona el idioma y la distribución del teclado. Utilice el campo de prueba 
 
 
 
-- Borrar disco**: si tienes una partición dedicada, esta opción borrará todo su contenido.
-- Particionado manual**: elija esta opción para crear, redimensionar o eliminar particiones según sus necesidades.
+- **Borrar disco**: si tienes una partición dedicada, esta opción borrará todo su contenido.
+- **Particionado manual**: elija esta opción para crear, redimensionar o eliminar particiones según sus necesidades.
 
 
 
@@ -244,7 +244,7 @@ Introduzca su nombre completo, el nombre de su cuenta y una contraseña segura p
 
 
 
-- Resumen de parámetros**
+- **Resumen de parámetros**
 
 
 
@@ -272,7 +272,7 @@ Haga clic en **Instalar** para empezar a copiar archivos y configurar el sistema
 
 
 
-- Reiniciar**
+- **Reiniciar**
 
 
 

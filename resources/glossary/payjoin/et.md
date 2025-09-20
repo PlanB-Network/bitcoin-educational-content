@@ -8,4 +8,4 @@ Payjoini tehing täidab kaks eesmärki. Esiteks on selle eesmärk eksitada väli
 
 ![](../../dictionnaire/assets/14.webp)
 
-> ► *Payjoin'i nimetatakse mõnikord ka "P2EP (Pay-to-End-Point)", "Stowaway" või "steganograafiline tehing"
+> ► *Payjoin'i nimetatakse mõnikord ka "P2EP (Pay-to-End-Point)", "Stowaway" või "steganograafiline tehing"*

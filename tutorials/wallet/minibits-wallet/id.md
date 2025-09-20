@@ -73,7 +73,7 @@ Secara default, mint Minibits diaktifkan ketika Anda memulai aplikasi. Namun, sa
 
 Pencadangan bisa dibilang merupakan langkah yang paling penting dalam keseluruhan proses penyiapan. Untuk mengakses opsi Pencadangan, navigasikan ke `Pengaturan`-> `Pencadangan` Di sini Anda akan menemukan dua opsi penting:
 
-1. 'Frasa seed Anda' yang berisi '12 kata' yang memungkinkan Anda untuk memulihkan saldo ecash Anda jika perangkat hilang. Frasa seed ini adalah kunci utama Anda untuk semua ecash di semua koin yang telah Anda tambahkan. Tuliskan pada media fisik (kertas atau logam) dan simpan dengan aman di beberapa lokasi. Jangan pernah menyimpan frasa seed Anda secara digital di tempat yang dapat membahayakan. Pertimbangkan untuk mengunjungi [tutorial] (https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) ini untuk mengetahui praktik terbaik dalam melindungi Wallet Anda.
+1. 'Frasa seed Anda' yang berisi '12 kata' yang memungkinkan Anda untuk memulihkan saldo ecash Anda jika perangkat hilang. Frasa seed ini adalah kunci utama Anda untuk semua ecash di semua koin yang telah Anda tambahkan. Tuliskan pada media fisik (kertas atau logam) dan simpan dengan aman di beberapa lokasi. Jangan pernah menyimpan frasa seed Anda secara digital di tempat yang dapat membahayakan. Pertimbangkan untuk mengunjungi [tutorial] (https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) ini untuk mengetahui praktik terbaik dalam melindungi Wallet Anda.
 
 2. `Backup Wallet` yang berisi string backup yang panjang.
 

@@ -340,7 +340,7 @@ Under denna process för att erhålla vår betalkod använde vi en komprimerad p
 Konkret, för att få den offentliga nyckeln och chain code för den återanvändbara betalkoden, kommer vi att beräkna den privata huvudnyckeln från seed och sedan härleda ett barnpar med index 47 + 2^31 (härdad härledning). Sedan härleder vi ytterligare två barnpar med index 2^31 (härdad härledning).
 
 
-**Om du vill lära dig mer om att härleda barnnyckelpar inom en hierarkisk deterministisk Bitcoin Wallet rekommenderar jag att du tar CRYPTO301.
+**Om du vill lära dig mer om att härleda barnnyckelpar inom en hierarkisk deterministisk Bitcoin Wallet rekommenderar jag att du tar CRYPTO301.**
 
 
 ### Den kryptografiska metoden: Elliptisk kurva Diffie-Hellman-nyckel Exchange (ECDH).

@@ -1,5 +1,5 @@
 ---
-name: Trezor Model Eén
+name: Trezor Model One
 description: Instellen en gebruiken van de Hardware Wallet Model One
 ---
 ![cover](assets/cover.webp)
@@ -201,7 +201,7 @@ De Model One zal uw Mnemonic zin creëren met behulp van zijn willekeurige numme
 
 
 
-***Het spreekt voor zich dat je deze woorden nooit mag delen op het Internet, zoals ik doe in deze tutorial. Dit voorbeeld Wallet zal alleen gebruikt worden op de Testnet en zal aan het einde van de tutorial verwijderd worden
+**Het spreekt voor zich dat je deze woorden nooit mag delen op het Internet, zoals ik doe in deze tutorial. Dit voorbeeld Wallet zal alleen gebruikt worden op de Testnet en zal aan het einde van de tutorial verwijderd worden**
 
 
 

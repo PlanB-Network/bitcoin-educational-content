@@ -1353,9 +1353,9 @@ Fordi regionen var så fattig, var den ikke av interesse for ministrene. Dette g
 
 
 
-- Omfordelingen av taille**, den personlige skatten (Turgot forsøkte å innføre så mye objektivitet som mulig i vurderingen av den).
-- Corvée**, en form for skatt som ble betalt i form av arbeid, der bøndene ble tvunget til å jobbe med veibygging. Da Turgot reiste rundt i regionen, la han raskt merke til den dårlige tilstanden på veiene. Han erstattet corvée med en pengeskatt.
-- Rekruttering av militser**, bondehærer som ble mobilisert i krigstid.
+- Omfordelingen av **taille**, den personlige skatten (Turgot forsøkte å innføre så mye objektivitet som mulig i vurderingen av den).
+- **Corvée**, en form for skatt som ble betalt i form av arbeid, der bøndene ble tvunget til å jobbe med veibygging. Da Turgot reiste rundt i regionen, la han raskt merke til den dårlige tilstanden på veiene. Han erstattet corvée med en pengeskatt.
+- Rekruttering av **militser**, bondehærer som ble mobilisert i krigstid.
 
 
 ![image](assets/fr/115.webp)

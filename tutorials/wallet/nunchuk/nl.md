@@ -91,7 +91,7 @@ In het venster dat verschijnt, vind je velden om "in te vullen": kies de knop _B
 ![image](assets/en/07.webp)
 
 
-**N.B. de schermafbeelding is van een Windows PC, dezelfde praktijk kan gebruikt worden voor elk besturingssysteem op je computer, je hoeft alleen Sparrow wallet geïnstalleerd te hebben. En geverifieerd!
+**N.B.** de schermafbeelding is van een Windows PC, dezelfde praktijk kan gebruikt worden voor elk besturingssysteem op je computer, je hoeft alleen Sparrow wallet geïnstalleerd te hebben. En geverifieerd!
 
 
 

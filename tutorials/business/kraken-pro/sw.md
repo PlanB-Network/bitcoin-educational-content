@@ -87,8 +87,8 @@ Baada ya akaunti yako kuthibitishwa, utafikia jukwaa ambapo utapewa violesura vi
 
 
 
-- Kraken**: Interface iliyorahisishwa inayotoa utendaji muhimu.
-- Kraken Pro**: Interface ya hali ya juu iliyo na vipengele vya ziada, haswa kwa biashara.
+- **Kraken**: Interface iliyorahisishwa inayotoa utendaji muhimu.
+- **Kraken Pro**: Interface ya hali ya juu iliyo na vipengele vya ziada, haswa kwa biashara.
 
 
 Ikiwa lengo lako ni kununua na kuuza Bitcoin pekee, chagua Interface iliyorahisishwa. Utakuwa na chaguo la kubadilisha hadi Interface ya hali ya juu baadaye ikiwa ni lazima.
@@ -233,9 +233,9 @@ Kwa miamala hii, unaweza kuchagua kati ya aina tofauti za agizo: *Soko*, *Limit*
 
 
 
-- Market*: Inaruhusu ununuzi wa mara moja kwa bei ya sasa ya soko;
-- Kikomo*: Hukuruhusu kubainisha bei ya ununuzi, na agizo litatekelezwa tu ikiwa bei ya soko itafikia kiasi hiki;
-- Simamisha-Hasara*: Inauzwa kiotomatiki bei inapofikia kiwango fulani.
+- **Market**: Inaruhusu ununuzi wa mara moja kwa bei ya sasa ya soko;
+- **Kikomo**: Hukuruhusu kubainisha bei ya ununuzi, na agizo litatekelezwa tu ikiwa bei ya soko itafikia kiasi hiki;
+- **Simamisha-Hasara**: Inauzwa kiotomatiki bei inapofikia kiwango fulani.
 
 
 ## 7 - Usimamizi wa shughuli na uhasibu

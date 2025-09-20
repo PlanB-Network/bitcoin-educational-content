@@ -1,0 +1,9 @@
+question: Linux에서 고정 IP Address을 Interface에 추가하는 데 사용할 수 있는 명령은 무엇인가요?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - iP 경로 추가 [Address] dev [Interface]
+  - 경로 추가 -넷 [Address] 넷마스크 [마스크] 개발 [Interface]
+explanation: |
+  "ip addr add" 명령은 Linux에서 네트워크 Interface에 고정 IP Address을 할당하기 위한 최신 방법입니다.
+reviewed: false

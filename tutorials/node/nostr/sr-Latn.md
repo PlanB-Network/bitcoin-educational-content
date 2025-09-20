@@ -4,11 +4,12 @@ name: NOSTR
 description: Otkrijte i počnite koristiti NOSTR
 ---
 
-Na kraju ovog vodiča, razumećete šta je Nostr, kreiraćete nalog i moći ćete da ga koristite.
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*Na kraju ovog vodiča, razumećete šta je Nostr, napravićete nalog i moći ćete da ga koristite.*
 
 ## Šta je Nostr?
 
@@ -51,7 +52,7 @@ Klijenti su softver koji omogućavaju interakciju sa Nostr. Glavni klijenti su:
 
 
 - iOS: damus
-- Android: ametist
+- Android: amethyst
 - Web: iris.to; snort.social; astral.ninja
 
 
@@ -67,7 +68,7 @@ Releji su jednostavni serveri koje možete napustiti u bilo kom trenutku ako vam
 💡 **Pro tip:** Plaćeni releji su generalno efikasniji u filtriranju spama i neželjenog sadržaja.
 
 
-### Vodič
+## Vodič
 
 
 Sada znate dovoljno o Nostr-u da započnete i kreirate svoj prvi identitet na ovom protokolu.

@@ -1,5 +1,5 @@
 ---
-name: Чат SimpleX
+name: SimpleX Chat
 description: Первый почтовый ящик без идентификатора пользователя
 ---
 ![cover](assets/cover.webp)

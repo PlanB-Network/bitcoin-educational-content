@@ -1,0 +1,9 @@
+question: What are the three main benefits of regular OS and app updates?
+answer: Safety, reliability, functionality
+wrong_answers:
+  - Speed, anonymity, compatibility
+  - Security, memory, storage
+  - Confidentiality, functionality, reliability
+explanation: |
+  Updates ensure security against vulnerabilities, compatibility with evolutions and new features, and system reliability.
+reviewed: false

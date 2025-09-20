@@ -10,4 +10,4 @@ Lo spread retrospettivo, invece, è il rapporto tra l'anonset retrospettivo del 
 
 Questi due indicatori servono a valutare l'efficacia della miscelazione del vostro pezzo rispetto al potenziale offerto dal pool. Un basso spread prospettico, ad esempio il 5%, indica un margine significativo per un possibile miglioramento attraverso miscele aggiuntive. Al contrario, uno spread prospettico elevato, come il 97%, significa che è possibile ottenere poco anonset aggiuntivo con ulteriori coinjoin.
 
-> *In inglese, "spread" potrebbe essere tradotto come "tasso di diffusione" o "tasso di propagazione"
+> *In inglese, "spread" potrebbe essere tradotto come "tasso di diffusione" o "tasso di propagazione"*

@@ -269,7 +269,7 @@ Valet av operativsystem bör baseras på dina behov och preferenser. Linux-syste
 ### Uppdateringar av programvara
 
 
-När det gäller uppdateringar är regeln enkel: **Det är viktigt att regelbundet uppdatera operativsystemet och applikationerna
+När det gäller uppdateringar är regeln enkel: **Det är viktigt att regelbundet uppdatera operativsystemet och applikationerna**
 
 
 I Windows 10 sker uppdateringar nästan kontinuerligt, och det är viktigt att inte blockera eller fördröja dem. Varje år identifieras cirka 15 000 sårbarheter, vilket understryker vikten av att hålla programvaran uppdaterad för att skydda mot skadlig kod och andra cyberhot. I allmänhet upphör programvarusupporten mellan 3 och 5 år efter lanseringen, så det är nödvändigt att uppgradera till en högre version för att fortsätta dra nytta av säkerhetsuppdateringar.

@@ -1,5 +1,5 @@
 ---
-name: Roboti
+name: Robosats
 
 description: Jinsi ya kutumia Roboti
 ---

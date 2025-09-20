@@ -36,7 +36,6 @@ Aan het einde van de cursus moet je in staat zijn om je eigen programma's in Jav
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-In dit gedeelte gaan we onze machine instellen om ons eerste JavaScript programma te schrijven en uit te voeren.
 
 
 Een JavaScript-programma is gewoon een verzameling van (een of meer) tekstbestanden die opdrachten bevatten die moeten worden uitgevoerd door een JavaScript-runtime.
@@ -54,13 +53,13 @@ Een JavaScript runtime is een speciaal programma dat deze bestanden uitvoert.
 ![](assets/en/1.webp)
 
 
-### NodeJS installatie
+### De NodeJS-runtime
 
 
 De meest gebruikte JavaScript runtime is NodeJS.
 
 
-Je kunt het installeren door de [officiële instructies] (https://nodejs.org/en/download) te volgen.
+Uw IDE bevat het mogelijk al, of u moet het downloaden van de [officiële website](https://nodejs.org/en/download).
 
 
 Op de downloadpagina vind je instructies voor alle drie de grote besturingssystemen (OS): Windows, Linux en MacOS. Er wordt van uitgegaan dat je weet hoe je een terminal in je OS moet openen.
@@ -75,22 +74,16 @@ Dit betekent dat je bijvoorbeeld een eenvoudige videogame in JavaScript kunt sch
 ![](assets/en/2.webp)
 
 
-### Tekst bewerken
 
 
-Een van de leuke dingen van programmeren is dat je code kunt schrijven met elke teksteditor, zelfs het standaard kladblok van je besturingssysteem.
 
 
-Er zijn echter enkele teksteditors die gespecialiseerd zijn in het schrijven van code. Sommige zijn gratis beschikbaar, voor andere moet je betalen voor een licentie.
 
 
-De keuze van een code editor is een gigantisch konijnenhol dat het bereik van deze cursus overstijgt, dus daar gaan we het hier niet over hebben. Als je niet weet wat je moet gebruiken, de meest gebruikte gratis editor is [VSCode](https://code.visualstudio.com/).
 
 
-De Interface is een beetje opgeblazen, maar het heeft wat je nodig hebt: een bestandseditor, een bestandsverkenner (om de bestanden en submappen in de map waar je werkt te visualiseren) en een terminal om je code uit te voeren. Het ondersteunt ook veel plugins en JavaScript syntax highlighting is standaard aanwezig.
 
 
-Als je een beetje meer Cypherpunk-y wilt zijn, kun je in plaats daarvan [VSCodium](https://vscodium.com/) gebruiken.
 
 
 ### Eerste programma (hello world)
@@ -102,7 +95,7 @@ Traditioneel, wanneer je een programmeertaal bestudeert, bestaat het eerste prog
 Maak een map genaamd `my_js_code/`, met daarin een bestand genaamd `main.js` (deze namen zijn willekeurig).
 
 
-Open de map met VSCode.
+Open de map met uw code-editor.
 
 
 Schrijf deze code in je bestand:
@@ -737,9 +730,9 @@ In dit gedeelte behandelen we nog drie typen die veel voorkomen in JavaScript-pr
 
 
 
-- Arrays**: opeenvolgingen van waarden
-- undefined**: een speciale waarde die betekent "er is niets toegewezen"
-- null**: een andere speciale waarde die "opzettelijk leeg" betekent
+- **Arrays**: opeenvolgingen van waarden
+- **undefined**: een speciale waarde die betekent "er is niets toegewezen"
+- **null**: een andere speciale waarde die "opzettelijk leeg" betekent
 
 
 ### Matrices en indextoegang
@@ -1510,7 +1503,7 @@ Dit was een heel saai voorbeeld, maar hopelijk heeft het de (incidentele) behoef
 <chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
 
 
-Als je programma's groeien, zul je vaak stukken code** willen hergebruiken.
+Als je programma's groeien, zul je vaak stukken **code** willen hergebruiken.
 
 
 Daar zijn **functies** voor: hiermee kun je code groeperen, een naam geven en uitvoeren wanneer je maar wilt.
@@ -2537,7 +2530,7 @@ Zo werkt het:
 
 
 - De code in het `try` blok wordt eerst geprobeerd.
-- Als er een fout optreedt, springt JavaScript naar het `catch` blok**, waarbij de rest van het `try` blok wordt overgeslagen.
+- Als er een fout optreedt, springt JavaScript naar het `catch` blok, waarbij de rest van het `try` blok wordt overgeslagen.
 - Het `catch` blok ontvangt de fout, zodat je deze kunt afdrukken, of op een andere manier kunt afhandelen, zoals bijvoorbeeld
 
 
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Wat gebeurt hier?
+**Wat gebeurt hier?**
 
 
 1. We geven `input` door als de lijst met getallen die we willen verdubbelen.
@@ -5055,7 +5048,7 @@ Deze zijn handig als je een variabele wilt bijwerken met zijn eigen waarde.
 ### Destructurering
 
 
-*met *Destructureren** kun je waarden uit arrays of objecten halen en ze eenvoudig opslaan in variabelen.
+**Met destructureren** kun je waarden uit arrays of objecten halen en ze eenvoudig opslaan in variabelen.
 
 
 #### Rijen
@@ -6438,10 +6431,10 @@ NodeJS heeft vier hoofdtypen streams:
 
 
 
-- Leesbaar**: streams waarvan je gegevens kunt lezen (zoals het lezen van een bestand)
-- Writable**: streams waar je gegevens naar kunt schrijven (zoals naar een bestand)
-- Duplex**: streams die zowel leesbaar als beschrijfbaar zijn
-- Transformeer**: zoals duplex streams, maar ze kunnen de gegevens veranderen (transformeren) terwijl ze stromen
+- **Leesbaar**: streams waarvan je gegevens kunt lezen (zoals het lezen van een bestand)
+- **Writable**: streams waar je gegevens naar kunt schrijven (zoals naar een bestand)
+- **Duplex**: streams die zowel leesbaar als beschrijfbaar zijn
+- **Transformeer**: zoals duplex streams, maar ze kunnen de gegevens veranderen (transformeren) terwijl ze stromen
 
 
 ### Leesbare streams

@@ -28,25 +28,25 @@ Speed dispone de una amplia gama de funciones para cubrir los aspectos financier
 
 
 
-- Configuración de pago en línea**: Reciba los pagos de sus clientes estén donde estén, gracias a su página web.
+- **Configuración de pago en línea**: Reciba los pagos de sus clientes estén donde estén, gracias a su página web.
 
 
 
 
 
-- Pagos in situ**: Ideal para tiendas y comercios que cobran en efectivo en la tienda.
+- **Pagos in situ**: Ideal para tiendas y comercios que cobran en efectivo en la tienda.
 
 
 
 
 
-- Retiradas**: Retira tus activos sin problemas y utiliza tus bitcoins para pagar a tus clientes y salarios.
+- **Retiradas**: Retira tus activos sin problemas y utiliza tus bitcoins para pagar a tus clientes y salarios.
 
 
 
 
 
-- Conexión con otras plataformas**: ¿Utiliza herramientas externas para gestionar sus pagos? Speed le ofrece la posibilidad de conectarlas a su plataforma, para un ecosistema todo en uno que refleje su negocio.
+- **Conexión con otras plataformas**: ¿Utiliza herramientas externas para gestionar sus pagos? Speed le ofrece la posibilidad de conectarlas a su plataforma, para un ecosistema todo en uno que refleje su negocio.
 
 
 
@@ -265,13 +265,13 @@ En el menú **Enviar pagos**, encontrará todas las opciones de transferencia de
 
 
 
-- Pagos instantáneos**: Con la opción de envío instantáneo, envíe bitcoins de forma segura al instante desde su cuenta de comerciante.
+- **Pagos instantáneos**: Con la opción de envío instantáneo, envíe bitcoins de forma segura al instante desde su cuenta de comerciante.
 
 
 
 
 
-- generate enlaces de retirada** para permitir a sus socios y proveedores acceder a su pago en una fecha posterior sin necesidad de su presencia en línea.
+- generate **enlaces de retirada** para permitir a sus socios y proveedores acceder a su pago en una fecha posterior sin necesidad de su presencia en línea.
 
 
 
@@ -289,7 +289,7 @@ En la opción **Enlaces de retirada**, cree un nuevo enlace de retirada y, a con
 
 
 
-- Pagos**: En el menú Pagos, inicie retiros de su saldo de Speed Business a su Wallet personal.
+- **Pagos**: En el menú Pagos, inicie retiros de su saldo de Speed Business a su Wallet personal.
 
 
 
@@ -299,7 +299,7 @@ En la opción **Enlaces de retirada**, cree un nuevo enlace de retirada y, a con
 
 
 
-- Descuentos**: Incentive a sus clientes habituales estableciendo opciones de reembolso para obtener bonificaciones.
+- **Descuentos**: Incentive a sus clientes habituales estableciendo opciones de reembolso para obtener bonificaciones.
 
 
 
@@ -436,4 +436,3 @@ Ya tiene un buen conocimiento de Speed, integre Bitcoin en su negocio y desarrol
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

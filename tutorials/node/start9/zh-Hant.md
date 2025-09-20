@@ -1,5 +1,5 @@
 ---
-name: 開始9
+name: Start9
 description: 設定您的 Start 9 節點
 ---
 

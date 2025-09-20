@@ -1,0 +1,9 @@
+question: Bitcoin 메인 네트워크의 P2P 연결에 기본적으로 사용되는 네트워크 포트는 무엇인가요?
+answer: 8333
+wrong_answers:
+  - 443
+  - 22
+  - 9050
+explanation: |
+  포트 8333은 Bitcoin 노드가 Mainnet에 피어 투 피어 연결을 위해 사용하는 표준 포트입니다.
+reviewed: false

@@ -1768,7 +1768,7 @@ Hovedfordelen med descriptors ligger i deres evne til å innkapsle all den essen
 
 En descriptor består av flere elementer:
 * Skriptfunksjoner som `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignatur*), og `sortedmulti` (*Multisignatur med sorterte nøkler*);
-* Avledningsveier, for eksempel `[d34db33f/44h/0h/0h]` som indikerer en avledet kontovei og et spesifikt hovednøkkelfingeravtrykk;
+**Avledningsveier**, for eksempel `[d34db33f/44h/0h/0h]` som indikerer en avledet kontovei og et spesifikt hovednøkkelfingeravtrykk;
 * Nøkler i ulike formater som heksadesimale offentlige nøkler eller utvidede offentlige nøkler (`xpub`);
 * En sjekksum, forutgått av et hash-tegn, for å verifisere integriteten til descriptor.
 For eksempel kan en beskrivelse for en P2WPKH (SegWit v0) lommebok se slik ut:

@@ -1243,7 +1243,7 @@ przedstawiając go jako największego ekonomistę XVIII wieku, obok Cantillona.
 ![image](assets/fr/104.webp)
 
 
-Jak to się stało, że Turgot osiągnął tak wysoką pozycję? Sprowadzało się to do połączenia trzech kluczowych czynników. **Po pierwsze**, jego prestiżowe pochodzenie rodzinne. Pochodził z długiej linii królewskich administratorów, z których wielu zajmowało wysokie stanowiska rządowe. **Po drugie, złoty wiek, w którym się urodził i wychował. Turgot miał 21 lat, gdy Montesquieu opublikował *L'Esprit des Lois* i 24 lata, gdy ukazał się pierwszy tom *Encyclopédie*.
+Jak to się stało, że Turgot osiągnął tak wysoką pozycję? Sprowadzało się to do połączenia trzech kluczowych czynników. **Po pierwsze**, jego prestiżowe pochodzenie rodzinne. Pochodził z długiej linii królewskich administratorów, z których wielu zajmowało wysokie stanowiska rządowe. **Po drugie**, złoty wiek, w którym się urodził i wychował. Turgot miał 21 lat, gdy Montesquieu opublikował *L'Esprit des Lois* i 24 lata, gdy ukazał się pierwszy tom *Encyclopédie*.
 
 
 ![image](assets/fr/105.webp)
@@ -1353,9 +1353,9 @@ Ponieważ region był tak biedny, nie interesował ministrów. Dało to Turgotow
 
 
 
-- Redystrybucja taille**, podatek osobisty (Turgot dążył do wprowadzenia jak największego obiektywizmu w jego ocenie).
-- Pańszczyzna**, forma podatku płaconego za pracę, gdzie chłopi byli zmuszani do pracy przy budowie dróg. Zwiedzając region, Turgot szybko zauważył zły stan dróg. Zastąpił pańszczyznę podatkiem pieniężnym.
-- Rekrutacja milicji**, armii chłopskich mobilizowanych w czasie wojny.
+- Redystrybucja **taille**, podatek osobisty (Turgot dążył do wprowadzenia jak największego obiektywizmu w jego ocenie).
+- **Pańszczyzna**, forma podatku płaconego za pracę, gdzie chłopi byli zmuszani do pracy przy budowie dróg. Zwiedzając region, Turgot szybko zauważył zły stan dróg. Zastąpił pańszczyznę podatkiem pieniężnym.
+- Rekrutacja **milicji**, armii chłopskich mobilizowanych w czasie wojny.
 
 
 ![image](assets/fr/115.webp)

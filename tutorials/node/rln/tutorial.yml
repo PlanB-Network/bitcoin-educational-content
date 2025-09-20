@@ -136,6 +136,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 10.04
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.06
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.03
 tags:
   - lightning
   - node

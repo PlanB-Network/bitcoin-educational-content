@@ -1,5 +1,5 @@
 ---
-name: Mini Miner Braiins
+name: Braiins Mini Miner
 description: Evden kolayca Mining yapmak.
 ---
 ![cover](assets/cover.webp)

@@ -112,7 +112,7 @@ Klik op "*Setup Jade*".
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
 
-Selecteer "Advanced Setup*".
+Selecteer "**Advanced Setup**".
 
 
 ![Image](assets/fr/07.webp)
@@ -130,7 +130,7 @@ Klik op de knop "*Doorgaan*" om je nieuwe herstelzin weer te geven.
 ![Image](assets/fr/09.webp)
 
 
-Uw Jade Plus toont uw 12-woord Mnemonic zin. **Deze Mnemonic geeft u volledige, onbeperkte toegang tot al uw bitcoins. Iedereen die in het bezit is van deze zin kan uw fondsen stelen, zelfs zonder fysieke toegang tot uw Jade Plus. De 12-woorden zin herstelt de toegang tot uw bitcoins in geval van verlies, diefstal of breuk van uw Jade. Het is daarom erg belangrijk om het zorgvuldig te bewaren en op een veilige locatie op te bergen.
+Uw Jade Plus toont uw 12-woord Mnemonic zin. **Deze Mnemonic geeft u volledige, onbeperkte toegang tot al uw bitcoins. Iedereen die in het bezit is van deze zin kan uw fondsen stelen, zelfs zonder fysieke toegang tot uw Jade Plus. De 12-woorden zin herstelt de toegang tot uw bitcoins in geval van verlies, diefstal of breuk van uw Jade. Het is daarom erg belangrijk om het zorgvuldig te bewaren en op een veilige locatie op te bergen.**
 
 
 Je kunt het op het meegeleverde karton schrijven, of voor extra veiligheid raad ik aan om het op een roestvrijstalen basis te graveren om het te beschermen tegen brand, overstroming of instorting.
@@ -144,7 +144,7 @@ Voor meer informatie over de juiste manier om je Mnemonic zinnen op te slaan en 
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-natuurlijk mag je deze woorden nooit delen op het Internet, zoals ik in deze tutorial doe. Dit voorbeeld Wallet zal alleen gebruikt worden op Testnet en zal verwijderd worden aan het einde van de tutorial.**_
+natuurlijk mag je deze woorden nooit delen op het Internet, zoals ik in deze tutorial doe. Dit voorbeeld Wallet zal alleen gebruikt worden op Testnet en zal verwijderd worden aan het einde van de tutorial.
 
 
 Klik op de pijl aan de rechterkant van het scherm om de volgende woorden weer te geven.

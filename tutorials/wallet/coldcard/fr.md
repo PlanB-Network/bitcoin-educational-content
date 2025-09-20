@@ -1,6 +1,5 @@
 ---
-name: Cold Card
-
+name: COLDCARD Mk
 description: Création, sauvegarde et utilisation d'une clé privée Bitcoin avec un appareil Coldcard et Bitcoin Core
 ---
 

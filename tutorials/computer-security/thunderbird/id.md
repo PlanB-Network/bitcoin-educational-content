@@ -17,13 +17,13 @@ Thunderbird adalah aplikasi email yang terkenal dengan fleksibilitas dan berbaga
 
 
 
-- Gratis dan sumber terbuka**: tidak seperti banyak aplikasi perpesanan lainnya, Thunderbird benar-benar gratis. Namun, Anda dapat mendukung komunitas pengembang dengan mengirimkan donasi kepada mereka.
-- Interface yang intuitif dan mudah dipelajari**: Konfigurasi Thunderbird, sebagian besar, sangat mudah, jadi Anda tidak perlu khawatir.
-- Cocok untuk beberapa jenis email**: baik Gmail, Yahoo, Outlook, atau bahkan email bisnis yang terkait dengan nama domain, kotak surat ini sangat serbaguna.
-- Multi-akun**: Thunderbird memungkinkan Anda terhubung ke beberapa akun email sekaligus, sehingga memudahkan untuk mengakses semua pesan Anda.
-- Fitur berkinerja tinggi dan skalabilitas**: secara default, Thunderbird menawarkan berbagai macam fitur untuk mengelola akun email dan kalender acara Anda. Namun, Anda juga dapat menambahkan opsi lebih lanjut berkat banyaknya ekstensi yang tersedia.
-- Multi-platform**: Thunderbird tersedia di berbagai perangkat (Android, Windows, Linux, macOS), memberikan Anda akses yang mudah ke email Anda.
-- Keamanan**: Thunderbird adalah aplikasi yang sangat aman, memungkinkan Anda untuk mendapatkan manfaat dari enkripsi end-to-end berdasarkan RSA atau ECC (Elliptic Curve) untuk menjamin kerahasiaan data Anda.
+- **Gratis dan sumber terbuka**: tidak seperti banyak aplikasi perpesanan lainnya, Thunderbird benar-benar gratis. Namun, Anda dapat mendukung komunitas pengembang dengan mengirimkan donasi kepada mereka.
+- **Interface yang intuitif dan mudah dipelajari**: Konfigurasi Thunderbird, sebagian besar, sangat mudah, jadi Anda tidak perlu khawatir.
+- Cocok untuk beberapa jenis email: baik Gmail, Yahoo, Outlook, atau bahkan email bisnis yang terkait dengan nama domain, kotak surat ini sangat serbaguna.
+- **Multi-akun**: Thunderbird memungkinkan Anda terhubung ke beberapa akun email sekaligus, sehingga memudahkan untuk mengakses semua pesan Anda.
+- **Fitur berkinerja tinggi dan skalabilitas**: secara default, Thunderbird menawarkan berbagai macam fitur untuk mengelola akun email dan kalender acara Anda. Namun, Anda juga dapat menambahkan opsi lebih lanjut berkat banyaknya ekstensi yang tersedia.
+- **Multi-platform**: Thunderbird tersedia di berbagai perangkat (Android, Windows, Linux, macOS), memberikan Anda akses yang mudah ke email Anda.
+- **Keamanan**: Thunderbird adalah aplikasi yang sangat aman, memungkinkan Anda untuk mendapatkan manfaat dari enkripsi end-to-end berdasarkan RSA atau ECC (Elliptic Curve) untuk menjamin kerahasiaan data Anda.
 
 
 
@@ -59,8 +59,8 @@ Pada Windows, jalankan file yang telah diunduh untuk memulai penginstalan. Klik 
 
 
 
-- Standar**: memungkinkan instalasi langsung tanpa konfigurasi sebelumnya.
-- Custom**: memungkinkan Anda memilih folder instalasi dan membuat pintasan desktop atau tidak.
+- **Standar**: memungkinkan instalasi langsung tanpa konfigurasi sebelumnya.
+- **Custom**: memungkinkan Anda memilih folder instalasi dan membuat pintasan desktop atau tidak.
 
 
 

@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Pokretanje čvora postalo je lako - Kako postaviti i koristiti Nakamochi Bitcoin i Lightning čvor.
+description: Pokretanje noda olakšano - Kako konfigurisati i koristiti Nakamochi Bitcoin i Lightning nod.
 ---
+
+![image](assets/cover.webp)
 
 Pokretanje sopstvenog Bitcoin i Lightning full node-a više ne mora biti složen zadatak ograničen na tehničke stručnjake. Tradicionalno, postavljanje i upravljanje čvorovima zahtevalo je duboko poznavanje kriptografije, umrežavanja i razvoja softvera. Nakamochi to menja tako što čini čvorove dostupnim svima, bez obzira na tehničku pozadinu.
 
@@ -49,35 +51,37 @@ Vaš Nakamochi čvor se upravlja putem mobilne aplikacije, [BitBanana (Android)]
 
 ![image](assets/en/01.webp)
 
-_Povežite se na napajanje i zapišite svoju seed frazu od 24 reči_
+_Povežite na struju i zapišite svoju seed frazu od 24 reči_
 
 
 ![image](assets/en/02.webp)
 
-_Sačekajte da se blokčejn potpuno sinhronizuje._
+_Sačekajte dok blockchain ne sustigne_
 
 
 ![image](assets/en/03.webp)
 
-_Postavite novi novčanik na Lightning kartici._
+_Podesite novi novčanik u Lightning kartici_
 
 
 ![image](assets/en/04.webp)
 
-_Skeniraj QR kod pomoću aplikacije za upravljanje čvorovima_
+_Skenirajte QR kod pomoću aplikacije za upravljanje nodom_
 
 
 ![image](assets/en/05.webp)
 
-_Za dodatnu sigurnost postavite PIN kod_
+_Za dodatnu sigurnost podesite PIN kod_
 
 
-**Napomena:** _Dozvolite da se vaš Nakamochi čvor sinhronizuje sa Blockchain-om. Ovaj proces može potrajati u zavisnosti od vaše internet konekcije._
+**Napomena:** _Dozvolite da se vaš Nakamochi nod sinhronizuje sa blockchainom. Ovaj proces može potrajati neko vreme u zavisnosti od vaše internet konekcije._
 
 
 
 ## O Lightning mreži
 
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning mreža revolucioniše Bitcoin transakcije čineći ih bržim, jeftinijim i efikasnijim. Savršena je za svakodnevnu upotrebu, omogućavajući skoro trenutna plaćanja sa minimalnim naknadama, idealna za mikrotransakcije poput kupovine kafe ili obavljanja čestih malih kupovina.
 
@@ -160,4 +164,4 @@ Generalno, preporučujemo ostavljanje kanala otvorenim kako biste smanjili troš
 
 
 - [O Nakamochi](https://nakamochi.io/)
-- [Pretplatite se na Nakamochijev bilten](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Pretplatite se na Nakamochi Newsletter](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

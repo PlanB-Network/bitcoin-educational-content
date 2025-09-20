@@ -1,5 +1,5 @@
 ---
-name: कनान एवलॉन मिनी 3
+name: Canaan Avalon Mini 3
 description: अपने ASIC Avalon को सोलोमाइनिंग या Miner पूलिंग के लिए कॉन्फ़िगर करना
 ---
 

@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Snadné spuštění uzlu - Jak nastavit a používat uzel Nakamochi Bitcoin a Lightning.
+description: Provoz uzlu snadno - Jak nastavit a používat uzel Nakamochi Bitcoin a Lightning.
 ---
+![image](assets/cover.webp)
+
 Provozování vlastního uzlu Bitcoin a Lightning už nemusí být složitý úkol omezený na technické experty. Zřizování a správa uzlů tradičně vyžadovaly hluboké znalosti kryptografie, sítí a vývoje softwaru. Nakamochi to mění tím, že uzly zpřístupňuje všem bez ohledu na technické zázemí.
 
 Díky službě Nakamochi si může každý zřídit a provozovat uzel z domova, což mu umožní plné soukromí a finanční nezávislost. Provozování plnohodnotného uzlu nejen zabezpečuje vlastní transakce, ale také přispívá k síle sítě Bitcoin. Decentralizovaná a odolná síť Bitcoin spoléhá na široké rozložení uzlů, které zajišťuje její bezpečnost a nezávislost.
@@ -36,27 +38,29 @@ Váš uzel Nakamochi je spravován prostřednictvím mobilní aplikace [BitBanan
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase_ (Připojte se k napájení a zapište si svou 24slovnou frázi)
+_Připojte k napájení a zapište si svou 24slovnou počáteční frázi_
 
 ![image](assets/en/02.webp)
 
-_Počkejte, až Blockchain dožene_
+_Počkejte, dokud blockchain nedohoní_
 
 ![image](assets/en/03.webp)
 
-_Nastavení nové peněženky na kartě Lightning_
+_Nastavte novou peněženku na kartě Lightning_
 
 ![image](assets/en/04.webp)
 
-_Skenování QR kódu pomocí aplikace pro správu uzlů_
+_Naskenujte QR kód pomocí aplikace pro správu uzlu_
 
 ![image](assets/en/05.webp)
 
-_Pro větší bezpečnost nastavte kód PIN_
+_Pro zvýšenou bezpečnost nastavte PIN kód_
 
-**Poznámka:** _Povolte uzlu Nakamochi synchronizaci s blockchainem. Tento proces může trvat nějakou dobu v závislosti na vašem internetovém připojení._
+**Poznámka:** _Nechte svůj uzel Nakamochi synchronizovat s blockchainem. Tento proces může nějakou dobu trvat v závislosti na vašem internetovém připojení._
 
 ## O síti Lightning Network
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Blesková síť bitcoinů přináší revoluci v transakcích bitcoinů, protože je zrychluje, zlevňuje a zefektivňuje. Je ideální pro každodenní použití, protože umožňuje téměř okamžité platby s minimálními poplatky, což je ideální pro mikrotransakce, jako je nákup kávy nebo vyřizování častých drobných nákupů.
 
@@ -108,7 +112,7 @@ Další informace: [Kanály | Dokumentace Zeus](https://docs.zeusln.app/)
 
 _Bitbanana Snímek obrazovky_
 
-Další informace: [BitBanana](https://bitbanana.com)
+Pro více informací: [BitBanana](https://bitbanana.com)
 
 Jakmile je váš kanál otevřen, lze přes něj směrovat platby ostatním účastníkům sítě. Zůstatky se upravují mimo řetězec, což zajišťuje, že transakce probíhají téměř okamžitě a jsou zatíženy minimálními poplatky.
 
@@ -120,4 +124,4 @@ Obecně doporučujeme ponechat kanály otevřené, aby se snížily náklady a z
 
 
 - [O Nakamochi](https://nakamochi.io/)
-- [Přihlásit se k odběru novinek Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Přihlaste se k odběru newsletteru Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

@@ -40,25 +40,25 @@ Bland de många Linux-distributioner som finns tillgängliga utmärker sig Fedor
 
 
 
-- Modularitet**: Fedora är kompatibel med olika processorarkitekturer och kan installeras på de flesta datorer, även de med låg effekt, och anpassas perfekt till dina behov.
+- **Modularitet**: Fedora är kompatibel med olika processorarkitekturer och kan installeras på de flesta datorer, även de med låg effekt, och anpassas perfekt till dina behov.
 
 
 
 
 
-- En enkel, intuitiv Interface**: Fedora kombinerar en modern grafisk Interface med en kraftfull kommandorads-Interface, vilket gör den lätt att använda för alla profiler.
+- **En enkel, intuitiv Interface**: Fedora kombinerar en modern grafisk Interface med en kraftfull kommandorads-Interface, vilket gör den lätt att använda för alla profiler.
 
 
 
 
 
-- Stabilitet i kärnan**: Fedora är baserat på Red Hat och är känt för sina tillförlitliga uppdateringar, särskilt uppdateringar av kärnan, som genomförs utan större buggar tack vare fria bidrag från en stor community.
+- **Stabilitet i kärnan**: Fedora är baserat på Red Hat och är känt för sina tillförlitliga uppdateringar, särskilt uppdateringar av kärnan, som genomförs utan större buggar tack vare fria bidrag från en stor community.
 
 
 
 
 
-- Snabb och enkel installation**: med en bildstorlek på bara 3 GB är installationen snabb och enkel, även på maskiner med begränsade resurser.
+- **Snabb och enkel installation**: med en bildstorlek på bara 3 GB är installationen snabb och enkel, även på maskiner med begränsade resurser.
 
 
 
@@ -72,19 +72,19 @@ Beroende på din profil och användning erbjuder Fedora utgåvor som passar dina
 
 
 
-- Fedora Workstation**: Den här utgåvan är idealisk för personlig och/eller professionell användning på dina datorer och är installerad med generiska verktyg som webbläsare, en kontorssvit (textredigerare) och programvara för mediauppspelning.
+- **Fedora Workstation**: Den här utgåvan är idealisk för personlig och/eller professionell användning på dina datorer och är installerad med generiska verktyg som webbläsare, en kontorssvit (textredigerare) och programvara för mediauppspelning.
 
 
 
 
 
-- Fedora Server**: Denna utgåva är dedikerad till serverhantering. Fedora Server innehåller en mängd olika verktyg som hjälper dig att driftsätta och hantera servrar i din egen skala.
+- **Fedora Server**: Denna utgåva är dedikerad till serverhantering. Fedora Server innehåller en mängd olika verktyg som hjälper dig att driftsätta och hantera servrar i din egen skala.
 
 
 
 
 
-- Fedora CoreOS**: Vill du enkelt kunna köra och distribuera molnapplikationer? Fedora CoreOS är utgåvan som ger dig verktygen för att skapa och hantera avbildningar med till exempel Docker och Kubernets.
+- **Fedora CoreOS**: Vill du enkelt kunna köra och distribuera molnapplikationer? Fedora CoreOS är utgåvan som ger dig verktygen för att skapa och hantera avbildningar med till exempel Docker och Kubernets.
 
 
 
@@ -103,7 +103,7 @@ Installation av Fedora Workstation kräver följande maskinvarukonfiguration:
 
 - Ett USB-minne på minst **8 GB** för att starta operativsystemet.
 - Minst **40 GB ledigt utrymme** på datorns Hard-disk.
-- 4 GB RAM** för en smidig upplevelse.
+- 4 GB **RAM** för en smidig upplevelse.
 
 
 
@@ -156,7 +156,7 @@ Slå på datorn och öppna BIOS under uppstarten genom att trycka på tangenten 
 
 
 
-I startalternativen väljer du din USB-nyckel som primär startenhet. Genom att bekräfta detta val kommer datorn att starta om och automatiskt starta Fedora-installationsprogrammet** som finns på USB-nyckeln.
+I startalternativen väljer du din USB-nyckel som primär startenhet. Genom att bekräfta detta val kommer datorn att starta om och automatiskt starta **Fedora-installationsprogrammet** som finns på USB-nyckeln.
 
 
 
@@ -169,7 +169,7 @@ I det här skedet har du följande alternativ:
 
 
 
-- Testa media**: Med det här alternativet kan du kontrollera USB-minnets integritet och se till att alla beroenden som krävs för en korrekt installation finns tillgängliga. Detta är ett valfritt steg, men rekommenderas om du har några tvivel om USB-minnet.
+- **Testa media**: Med det här alternativet kan du kontrollera USB-minnets integritet och se till att alla beroenden som krävs för en korrekt installation finns tillgängliga. Detta är ett valfritt steg, men rekommenderas om du har några tvivel om USB-minnet.
 
 
 
@@ -183,7 +183,7 @@ I det här skedet har du följande alternativ:
 
 
 
-- Starta Fedora**: Detta startar Fedora i "live"-läge, utan installation.
+- **Starta Fedora**: Detta startar Fedora i "live"-läge, utan installation.
 
 
 
@@ -368,9 +368,9 @@ Fedora innehåller kontorspaketet **LibreOffice** som standard, vilket erbjuder 
 
 
 
-- Writer** för ordbehandling.
-- Calc** för kalkylblad.
-- Impress** för att skapa presentationer.
+- **Writer** för ordbehandling.
+- **Calc** för kalkylblad.
+- **Impress** för att skapa presentationer.
 
 
 ## Installera program

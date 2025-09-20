@@ -16,7 +16,7 @@ ten samouczek służy wyłącznie celom edukacyjnym i informacyjnym. Nie popiera
 
 ---
 
-> *Złam założenia analizy Blockchain dzięki matematycznie udowodnionym wątpliwościom między nadawcą a odbiorcą transakcji
+> **Złam założenia analizy Blockchain dzięki matematycznie udowodnionym wątpliwościom między nadawcą a odbiorcą transakcji**
 
 ## Czym jest transakcja Stonewall?
 

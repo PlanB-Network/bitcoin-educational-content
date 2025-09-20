@@ -16,9 +16,9 @@ _Deze tekst is afkomstig van de Breez-documentatiewebsite: https://doc.breez.tec
 
 
 
-- Lightning** is een Bitcoin betalingsnetwerk dat de transactietijd terugbrengt van minuten naar milliseconden en de transactiekosten van meerdere dollars naar een paar cent of minder. Lightning verandert Bitcoin van digitaal goud in digitale valuta met behoud van alle voordelen die Bitcoin geweldig maken.
-- Non-custodial** betekent dat Breez geen bezit neemt van het geld van gebruikers. Veel Lightning apps nemen wel bezit van het geld van hun gebruikers. Het zijn in feite Bitcoin banken. Met een niet-custodial app zoals Breez zijn alle gebruikers hun eigen bank.
-- Full-service** betekent dat Breez bijna alle technische handelingen automatisch en op de achtergrond uitvoert. Zaken als het aanmaken van kanalen, inkomende liquiditeit en routing blijven onder de motorkap. (Maar Breez is ook open source, dus degenen die geïnteresseerd zijn in het controleren van de technologie zijn welkom om dat te doen!)
+- **Lightning** is een Bitcoin betalingsnetwerk dat de transactietijd terugbrengt van minuten naar milliseconden en de transactiekosten van meerdere dollars naar een paar cent of minder. Lightning verandert Bitcoin van digitaal goud in digitale valuta met behoud van alle voordelen die Bitcoin geweldig maken.
+- **Non-custodial** betekent dat Breez geen bezit neemt van het geld van gebruikers. Veel Lightning apps nemen wel bezit van het geld van hun gebruikers. Het zijn in feite Bitcoin banken. Met een niet-custodial app zoals Breez zijn alle gebruikers hun eigen bank.
+- **Full-service** betekent dat Breez bijna alle technische handelingen automatisch en op de achtergrond uitvoert. Zaken als het aanmaken van kanalen, inkomende liquiditeit en routing blijven onder de motorkap. (Maar Breez is ook open source, dus degenen die geïnteresseerd zijn in het controleren van de technologie zijn welkom om dat te doen!)
 
 
 **Breez POS** is de afkorting van onze point-of-sale modus. Met andere woorden, Breez werkt als een digitale kassa voor bedrijven en winkeliers die Lightning-betalingen willen accepteren (naast de "standaard" modus, die lijkt op de digitale versie van een leren Wallet voor Bitcoin, en een volgende generatie podcastspeler). Laten we nu eens kijken hoe je Breez kunt instellen als Lightning-kassa voor jouw bedrijf.

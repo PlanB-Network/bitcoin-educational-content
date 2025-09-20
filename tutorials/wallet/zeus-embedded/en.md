@@ -10,7 +10,7 @@ ZEUS is initially a mobile application for remote management of lightning nodes,
 But the application also features an "Embedded node".
 
 
-**It's this facet of the application that we'll be exploring in this tutorial. This allows anyone to have their own lightning node on mobile, without the need for a dedicated server, in the same way as ACINQ offers its incredible Wallet lightning Phoenix.
+**It's this facet of the application that we'll be exploring in this tutorial.** This allows anyone to have their own lightning node on mobile, without the need for a dedicated server, in the same way as ACINQ offers its incredible Wallet lightning Phoenix.
 
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
@@ -191,7 +191,7 @@ On the next screen, you are asked to open a channel in collaboration with **"Oly
 
 For this tutorial, we'll choose this option for simplicity's sake, but it's perfectly possible to open channels with any node on the network.
 
-It is even possible to open several channels in a single transaction by selecting "OPEN ADDITIONAL CHANNEL". *But we'll look into this in an "advanced" version of the **Zeus Embedded**** tutorial.
+It is even possible to open several channels in a single transaction by selecting "OPEN ADDITIONAL CHANNEL". *But we'll look into this in an "advanced" version of the **Zeus Embedded** tutorial.*
 
 
 

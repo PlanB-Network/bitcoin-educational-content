@@ -1,5 +1,5 @@
 ---
-name: Cold कार्ड
+name: COLDCARD Mk
 
 description: कोल्डकार्ड डिवाइस और Bitcoin कोर के साथ Bitcoin निजी कुंजी बनाना, उसका बैकअप लेना और उसका उपयोग करना
 ---
@@ -110,8 +110,8 @@ Bitcoin कोर के लिए हमारी स्थापना और 
 
 
 
-- Bitcoin कोर के साथ अपना स्वयं का नोड चलाना:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
-- Bitcoin कोर नोड के लिए Tor को कॉन्फ़िगर करना:** https://agora256.com/configuration-tor-Bitcoin-core/
+- **Bitcoin कोर के साथ अपना स्वयं का नोड चलाना:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
+- **Bitcoin कोर नोड के लिए Tor को कॉन्फ़िगर करना:** https://agora256.com/configuration-tor-Bitcoin-core/
 
 
 सबसे पहले, कोल्डकार्ड में माइक्रो एसडी कार्ड डालें, फिर इन चरणों का पालन करके Wallet को Bitcoin कोर के लिए निर्यात करें: उन्नत/उपकरण > Wallet निर्यात करें > Bitcoin कोर। माइक्रो एसडी कार्ड में दो फाइलें लिखी जाएंगी: Bitcoin-core.sig और Bitcoin-core.txt। माइक्रो एसडी कार्ड को उस कंप्यूटर में डालें जहाँ Bitcoin कोर स्थापित है, और .txt फ़ाइल खोलें। आपको "मास्टर कुंजी फ़िंगरप्रिंट के साथ Wallet के लिए" लाइन दिखाई देगी। सत्यापित करें कि आठ-वर्ण XFP उस से मेल खाता है जिसे आपने अपनी निजी कुंजी बनाते समय नोट किया था।'

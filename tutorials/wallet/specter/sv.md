@@ -1,5 +1,5 @@
 ---
-name: Spegeln
+name: Specter
 
 description: Specter installationsguide
 ---

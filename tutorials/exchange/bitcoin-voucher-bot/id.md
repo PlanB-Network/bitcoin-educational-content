@@ -104,14 +104,14 @@ Setelah beberapa saat, yang diperlukan untuk memproses data, VoucherBot membalas
 
 - `IBAN`, yang penting untuk setoran, serta Address penerima;
 - 'jumlah yang dipilih' sebelumnya melalui batas waktu, yang harus dipenuhi agar VoucherBot dapat mengenali pesanan saat pembayaran diterima;
-- 'Alasan pembayaran', yaitu alasan pembayaran. **Harus disalin dan ditempelkan tanpa menghapus atau menambahkan apa pun pada kolom yang sesuai dengan transfer Anda. Tanda "." atau "-" yang ada pada alasan pembayaran dapat diganti dengan `spasi kosong`.
+- 'Alasan pembayaran', yaitu alasan pembayaran. **Harus disalin dan ditempelkan tanpa menghapus atau menambahkan apa pun pada kolom yang sesuai dengan transfer Anda.** Tanda "." atau "-" yang ada pada alasan pembayaran dapat diganti dengan `spasi kosong`.
 - `OrderID` unik untuk merujuk saat meminta bantuan apa pun.
 
 Anda kemudian dapat melanjutkan pembayaran, melalui aplikasi atau bank Anda. Ketika pembayaran telah diterima oleh bank, penting untuk diingat untuk menekan _Notify payment_ dalam obrolan dengan VoucherBot. Operasi sederhana ini akan memberi tahu Anda bahwa pembayaran sedang dalam proses.
 
 ![image](assets/it/11.webp)
 
-VoucherBot merespons dengan pesan yang berisi peringatan yang sangat penting: **Jangan hapus obrolan, setidaknya sampai voucher diterima, karena ini adalah satu-satunya cara untuk merekonstruksi pesanan dan menjaganya tetap berjalan.
+VoucherBot merespons dengan pesan yang berisi peringatan yang sangat penting: **Jangan hapus obrolan, setidaknya sampai voucher diterima, karena ini adalah satu-satunya cara untuk merekonstruksi pesanan dan menjaganya tetap berjalan.**
 
 ![image](assets/it/12.webp)
 

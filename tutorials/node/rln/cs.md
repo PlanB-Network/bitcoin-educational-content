@@ -1,5 +1,5 @@
 ---
-name: Uzel RGB Lightning
+name: RGB Lightning Node
 description: Jak spustím uzel Lightning kompatibilní s RGB pomocí RLN?
 ---
 ![cover](assets/cover.webp)
@@ -67,17 +67,17 @@ Na konci tohoto příkazu bude ve vašem `$CARGO_HOME/bin/` k dispozici spustite
 Démon `rgb-lightning-node` potřebuje ke své funkci přítomnost a konfiguraci :
 
 
-- Uzel `bitcoind`**
+- Uzel `bitcoind`
 
 Každá instance RLN bude muset komunikovat s `bitcoind`, aby mohla vysílat a monitorovat své transakce v řetězci. Démonovi bude třeba poskytnout autentizaci (přihlašovací jméno/heslo) a adresu URL (hostitel/port).
 
 
-- Indexer** (Electrum nebo Esplora)
+- **Indexer** (Electrum nebo Esplora)
 
 Démon musí být schopen vypsat a prozkoumat transakce v řetězci, zejména najít UTXO, na kterém bylo aktivum ukotveno. Je třeba zadat adresu URL serveru Electrum nebo Esplora.
 
 
-- Proxy server RGB**
+- Proxy server **RGB**
 
 Proxy server je součást (volitelná, ale velmi doporučená), která zjednodušuje výměnu *konzistencí RGB* mezi rovnocennými uživateli Lightning. Opět je třeba zadat adresu URL.
 

@@ -1,0 +1,9 @@
+question: TCP와 UDP의 주요 차이점은 무엇인가요?
+answer: TCP는 연결 지향적이지만, UDP는 그렇지 않습니다
+wrong_answers:
+  - TCP는 로컬 네트워크에서만 작동하고, UDP는 인터넷에서만 작동합니다
+  - TCP는 항상 암호화를 사용하지만, UDP는 절대 사용하지 않습니다
+  - TCP는 IP 조각화 관리, UDP는 압축 처리
+explanation: |
+  TCP는 연결을 설정하고 모니터링해야 하는 반면, UDP는 사전 세션을 설정하거나 제어하지 않고 패킷을 전송합니다.
+reviewed: false

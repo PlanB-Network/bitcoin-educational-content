@@ -1455,10 +1455,10 @@ ___
 
 
 
-- Serija od četiri članka pod nazivom: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), koju je napravio Samourai Wallet 2021. godine;*
-- Različiti izveštaji sa [OXT Research](https://medium.com/oxt-research), kao i njihov besplatni alat za analizu blokčejna (trenutno nije dostupan nakon hapšenja osnivača Samourai Wallet-a);*
-- Šire gledano, moje znanje dolazi iz raznih tvitova i sadržaja od [@LaurentMT](https://twitter.com/LaurentMT) i [@ErgoBTC](https://twitter.com/ErgoBTC);*
-- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) u kojem sam učestvovao u društvu [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) i [@LaurentMT](https://twitter.com/LaurentMT).*
+- Serija od četiri članka pod nazivom: **Understanding Bitcoin Privacy with OXT**, koju je napravio Samourai Wallet 2021. godine;
+- Različiti izveštaji sa [OXT Research](https://medium.com/oxt-research), kao i njihov besplatni alat za analizu blokčejna (trenutno nije dostupan nakon hapšenja osnivača Samourai Wallet-a);
+- Šire gledano, moje znanje dolazi iz raznih tvitova i sadržaja od [@LaurentMT](https://twitter.com/LaurentMT) i [@ErgoBTC](https://twitter.com/ErgoBTC);
+- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) u kojem sam učestvovao u društvu [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) i [@LaurentMT](https://twitter.com/LaurentMT).
 
 
 *Želeo bih da zahvalim njihovim autorima, developerima i producentima. Takođe hvala lektorima koji su pažljivo ispravili članak na kojem se zasniva ovaj deo 3 i dali mi svoje stručno mišljenje:*
@@ -1466,7 +1466,7 @@ ___
 
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan);*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 
@@ -1501,7 +1501,7 @@ Tehnički, Bitcoin adresa za primanje ne "prima" bitkoine u doslovnom smislu, ve
 ![BTC204](assets/fr/067.webp)
 
 
-Bitcoin adrese dolaze u različitim tipovima, u zavisnosti od korišćenog modela skriptovanja. Prvi modeli, poznati kao "Legacy*", uključuju `P2PKH` (*Pay-to-PubKey-Hash*) i `P2SH` (*Pay-to-Script-Hash*) adrese. P2PKH adrese uvek počinju sa `1`, a P2SH sa `3`. Iako su i dalje bezbedni, ovi formati su sada zastareli, jer podrazumevaju veće troškove transakcija i nude manje poverljivosti u poređenju sa novim standardima.
+Bitcoin adrese dolaze u različitim tipovima, u zavisnosti od korišćenog modela skriptovanja. Prvi modeli, poznati kao **Legacy**, uključuju `P2PKH` (*Pay-to-PubKey-Hash*) i `P2SH` (*Pay-to-Script-Hash*) adrese. P2PKH adrese uvek počinju sa `1`, a P2SH sa `3`. Iako su i dalje bezbedni, ovi formati su sada zastareli, jer podrazumevaju veće troškove transakcija i nude manje poverljivosti u poređenju sa novim standardima.
 
 
 SegWit V0 (`P2WPKH` i `P2WSH`) i Taproot / SegWit V1 (`P2TR`) adrese predstavljaju moderne formate. SegWit adrese počinju sa `bc1q`, a Taproot adrese, uvedene 2021. godine, počinju sa `bc1p`.
@@ -2128,7 +2128,7 @@ Drugi načini za sticanje bitkoina uz zaštitu vaše privatnosti uključuju, nar
 Drugi metod je da radite u zamenu za bitkoine. Ovaj metod sticanja može biti zanimljiv, ali stepen potrebne identifikacije znatno varira u zavisnosti od okolnosti.
 
 
-*Da napišem ovo poglavlje, koristio sam BTC205 kurs obuke koji drži [@pivi___](https://x.com/pivi___) na Plan ₿ Network (trenutno dostupan samo na francuskom)
+*Da napišem ovo poglavlje, koristio sam BTC205 kurs obuke koji drži* [@pivi___](https://x.com/pivi___) *na Plan ₿ Network (trenutno dostupan samo na francuskom)*
 
 
 ## Konsolidacija, UTXO menadžment i CIOH
@@ -2529,7 +2529,7 @@ Takozvani "Chaumian" coinjoini kombinuju upotrebu Tor-a i slepih potpisa Davida 
 Proces konstruisanja transakcije CoinJoin uključuje 3 glavne faze: registraciju ulaza, registraciju izlaza i potpisivanje transakcije. Pogledajmo ovaj proces kroz primer Alise, jedne od učesnica CoinJoin-a. Svi ostali učesnici prate iste korake kao Alisa, svaki za sebe.
 
 
-**Korak 1: Unos registracije
+**Korak 1: Unos registracije**
 
 
 
@@ -3104,11 +3104,11 @@ Pažljivo pratimo ovaj slučaj i razvoj povezanih alata. Budite sigurni da ćemo
 U sledećem poglavlju saznaćemo šta su "anonsets", kako se ovi indikatori izračunavaju i kako nam mogu pomoći da procenimo efikasnost CoinJoin ciklusa.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Skupovi anonimnosti
 
@@ -3219,7 +3219,7 @@ Za manje grupe, anonseti se mogu izračunati ručno pomoću block explorer-a. Me
 Kao što smo videli u ovom poglavlju, anonseti se mogu izračunati samo ako postoji određena homogenost u CoinJoin strukturi. U sledećem poglavlju, saznaćemo kako kvantifikovati ovu homogenost na Bitcoin transakciji, bilo da je to CoinJoin ili tradicionalnija transakcija.
 
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropija
 
@@ -3673,7 +3673,7 @@ Teškoća u korišćenju PayJoin-a leži u njegovoj zavisnosti od učešća trgo
 Jedno rešenje bi bilo korišćenje struktura transakcija koje uvode nejasnoće u analizu lanca bez potrebe za saradnjom primaoca. Ovo bi nam omogućilo da poboljšamo poverljivost naših plaćanja bez oslanjanja na aktivno učešće trgovaca. Upravo to ćemo razmotriti u narednom poglavlju.
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 

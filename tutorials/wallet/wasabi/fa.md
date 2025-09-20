@@ -1,5 +1,5 @@
 ---
-name: واسابی Wallet
+name: Wasabi Wallet
 
 description: یاد بگیرید چگونه حریم خصوصی خود را بازیابی کنید
 ---

@@ -1,0 +1,9 @@
+question: What is the main function of a Bitcoin node?
+answer: Save Blockchain and validate transactions and blocks
+wrong_answers:
+  - Store private keys and build transactions
+  - Create new addresses for users
+  - Convert bitcoins into fiat currencies
+explanation: |
+  A Bitcoin node keeps a copy of the Blockchain and participates in the validation and relaying of transactions and blocks.
+reviewed: false

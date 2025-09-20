@@ -1,0 +1,8 @@
+question: gW-0은 비잔틴 장군 문제를 어떻게 해결하나요?
+answer: 부동 난이도가 있는 Proof of Work을 기반으로 한 Blockchain를 사용합니다.
+wrong_answers:
+  - 디지털 서명을 사용합니다.
+  - 공용 Ledger를 사용합니다.
+  - 지분 증명 알고리즘을 사용합니다.
+explanation: >-
+reviewed: true

@@ -77,10 +77,10 @@ Bitfinex tillämpar en verifieringsprocess (KYC) som överensstämmer med gälla
 
 
 
-- Basic* är ett läge med enbart visning, vilket innebär att du kan läsa plattformen utan att utföra några åtgärder;
-- Basic Plus* ger tillgång till viktiga funktioner, inklusive transaktioner på spotmarknaden och utvalda insättnings- och uttagsalternativ;
-- Intermediate* ger tillgång till avancerade tjänster som marginalhandel, lån, P2P och OTC-transaktioner och erbjuder kortare insättningsfrister;
-- Full* ger dig tillgång till internationella banköverföringar och alla plattformens funktioner.
+- **Basic** är ett läge med enbart visning, vilket innebär att du kan läsa plattformen utan att utföra några åtgärder;
+- **Basic Plus** ger tillgång till viktiga funktioner, inklusive transaktioner på spotmarknaden och utvalda insättnings- och uttagsalternativ;
+- **Intermediate** ger tillgång till avancerade tjänster som marginalhandel, lån, P2P och OTC-transaktioner och erbjuder kortare insättningsfrister;
+- **Full** ger dig tillgång till internationella banköverföringar och alla plattformens funktioner.
 
 
 För varje nivå krävs ytterligare dokument för verifiering. För de flesta användare räcker det i allmänhet med ett *Basic Plus*- eller *Intermediate*-konto.
@@ -115,11 +115,11 @@ När du är inloggad ser du ett navigeringsfält högst upp på Interface med: "
 
 
 
-- Handel**: "*klassisk*" marknad där du kan lägga order för att köpa och sälja kryptovalutor (inklusive Bitcoin) ;
-- OTC**: Over-The-Counter-tjänst för handel med stora volymer direkt med en annan aktör, utanför de publika orderböckerna;
-- Finansiering**: Område för utlåning och marginalfinansiering;
-- Derivat**: Sektion för derivat (terminer m.m.), avsedd för erfarna handlare;
-- P2P**: Gör att du kan köpa eller sälja krypton från andra användare på peer-to-peer-basis.
+- **Handel**: "*klassisk*" marknad där du kan lägga order för att köpa och sälja kryptovalutor (inklusive Bitcoin) ;
+- **OTC**: Over-The-Counter-tjänst för handel med stora volymer direkt med en annan aktör, utanför de publika orderböckerna;
+- **Finansiering**: Område för utlåning och marginalfinansiering;
+- **Derivat**: Sektion för derivat (terminer m.m.), avsedd för erfarna handlare;
+- **P2P**: Gör att du kan köpa eller sälja krypton från andra användare på peer-to-peer-basis.
 
 
 För standardanvändning (köp / försäljning av bitcoins och insättningar / uttag) använder du främst fliken "*Trading *" samt avsnitten "*Wallet *", "*Deposit *" och "*Withdraw *".

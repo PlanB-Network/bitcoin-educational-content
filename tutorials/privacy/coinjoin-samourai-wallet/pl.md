@@ -1,5 +1,5 @@
 ---
-name: CoinJoin - Samourai Wallet
+name: Coinjoin - Samourai Wallet
 description: Jak wykonać CoinJoin na Samourai Wallet?
 ---
 ![cover](assets/cover.webp)
@@ -110,10 +110,10 @@ Whirlpool został zaprojektowany z uwzględnieniem dwóch ważnych wymagań:
 
 Te imperatywy kierowały twórcami Samourai Wallet przy projektowaniu Whirlpool, prowadząc ich do ograniczenia liczby uczestników na cykl. Zbyt mała liczba uczestników zagroziłaby wydajności CoinJoin, drastycznie zmniejszając liczbę anonsów generowanych w każdym cyklu, podczas gdy zbyt wielu uczestników stanowiłoby problemy z zarządzaniem aplikacjami mobilnymi i utrudniałoby przepływ cykli.
 
-**Ostatecznie nie ma potrzeby posiadania dużej liczby uczestników na CoinJoin na Whirlpool, ponieważ anonsety są osiągane poprzez akumulację kilku cykli CoinJoin
+**Ostatecznie nie ma potrzeby posiadania dużej liczby uczestników na CoinJoin na Whirlpool, ponieważ anonsety są osiągane poprzez akumulację kilku cykli CoinJoin.**
 
 
-[-> Dowiedz się więcej o anonsach Whirlpool](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Dowiedz się więcej o anonsach Whirlpool
 
 
 ### Baseny i opłaty CoinJoin
@@ -602,7 +602,7 @@ Aby CoinJoin był naprawdę skuteczny, ważne jest, aby wykazywał dobrą jednor
 W celu dogłębnego zbadania tych wskaźników (model Whirlpool jest uznawany za ten, który zapewnia największą jednorodność coinjoinów), odsyłam do samouczka: [KALKULATOR BOLTZMANNA](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
 
-Następnie wydajność kilku cykli CoinJoin jest oceniana na podstawie zakresu grup, w których moneta jest ukryta. Rozmiar tych grup definiuje tak zwane anonsety. Istnieją dwa rodzaje anonsetów: pierwszy ocenia prywatność uzyskaną na podstawie analizy retrospektywnej (od teraźniejszości do przeszłości), a drugi na podstawie analizy prospektywnej (od przeszłości do teraźniejszości). Aby uzyskać szczegółowe wyjaśnienie tych dwóch wskaźników, zapraszam do zapoznania się z samouczkiem: [Whirlpool STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Następnie wydajność kilku cykli CoinJoin jest oceniana na podstawie zakresu grup, w których moneta jest ukryta. Rozmiar tych grup definiuje tak zwane anonsety. Istnieją dwa rodzaje anonsetów: pierwszy ocenia prywatność uzyskaną na podstawie analizy retrospektywnej (od teraźniejszości do przeszłości), a drugi na podstawie analizy prospektywnej (od przeszłości do teraźniejszości). Aby uzyskać szczegółowe wyjaśnienie tych dwóch wskaźników, zapraszam do zapoznania się z samouczkiem: Whirlpool STATS TOOLS - ANONSETS
 
 
 ## Jak zarządzać postmixem?
@@ -632,12 +632,12 @@ Najprostszym i najbezpieczniejszym rozwiązaniem jest pozostawienie zmieszanych 
 Następnie należy zachować ostrożność w zarządzaniu doksyczną zmianą, zmianą, która nie mogła wejść do puli CoinJoin. Te toksyczne UTXO, wynikające z użycia Whirlpool, stanowią zagrożenie dla prywatności użytkownika, ponieważ tworzą powiązanie między użytkownikiem a użyciem CoinJoin. Dlatego konieczne jest ostrożne obchodzenie się z nimi i nie łączenie ich z innymi UTXO, zwłaszcza mieszanymi UTXO. Oto różne strategie, które należy rozważyć przy ich użyciu:
 
 
-- Wymieszaj je w mniejszych basenach:** Jeśli toksyczny UTXO jest wystarczająco duży, aby samodzielnie dostać się do mniejszego basenu, rozważ jego wymieszanie. Jest to często najlepsza opcja. Jednak ważne jest, aby nie łączyć kilku toksycznych UTXO, aby uzyskać dostęp do puli, ponieważ może to połączyć różne wpisy.
-- Oznacz je jako "niewydawalne":** Innym podejściem jest zaprzestanie ich używania, oznaczenie ich jako "niewydawalnych" na dedykowanym koncie i po prostu HODL. Gwarantuje to, że nie zostaną one przypadkowo wydane. Jeśli wartość Bitcoin wzrośnie, mogą pojawić się nowe pule bardziej odpowiednie dla toksycznych UTXO;
-- Darowizny:** Rozważ przekazanie darowizny, nawet skromnej, deweloperom pracującym nad Bitcoin i powiązanym oprogramowaniem. Możesz również przekazać darowiznę organizacjom, które akceptują BTC. Jeśli zarządzanie toksycznymi UTXO wydaje się zbyt skomplikowane, możesz się ich po prostu pozbyć, przekazując darowiznę;
-- Kupowanie kart podarunkowych:** Platformy takie jak [Bitrefill](https://www.bitrefill.com/) pozwalają na Exchange bitcoinów na karty podarunkowe, które można wykorzystać u różnych sprzedawców. Może to być sposób na pozbycie się toksycznych UTXO bez utraty związanej z nimi wartości;
-- Skonsoliduj je na Monero:** Samourai Wallet oferuje teraz usługę atomic swap pomiędzy BTC i XMR. Jest to idealne rozwiązanie do zarządzania toksycznymi UTXO poprzez konsolidację ich na Monero, bez narażania prywatności poprzez KYC, przed odesłaniem ich z powrotem do Bitcoin. Opcja ta może być jednak kosztowna pod względem opłat Mining i premii ze względu na ograniczenia płynności;
-- Przesłanie ich do Lightning Network:** Przeniesienie tych UTXO do Lightning Network w celu skorzystania z obniżonych opłat transakcyjnych jest opcją, która może być interesująca. Ta metoda może jednak ujawniać pewne informacje w zależności od sposobu korzystania z Lightning i dlatego należy ją stosować ostrożnie.
+- Wymieszaj je w mniejszych basenach: Jeśli toksyczny UTXO jest wystarczająco duży, aby samodzielnie dostać się do mniejszego basenu, rozważ jego wymieszanie. Jest to często najlepsza opcja. Jednak ważne jest, aby nie łączyć kilku toksycznych UTXO, aby uzyskać dostęp do puli, ponieważ może to połączyć różne wpisy.
+- Oznacz je jako **"niewydawalne"**: Innym podejściem jest zaprzestanie ich używania, oznaczenie ich jako "niewydawalnych" na dedykowanym koncie i po prostu HODL. Gwarantuje to, że nie zostaną one przypadkowo wydane. Jeśli wartość Bitcoin wzrośnie, mogą pojawić się nowe pule bardziej odpowiednie dla toksycznych UTXO;
+- **Darowizny:** Rozważ przekazanie darowizny, nawet skromnej, deweloperom pracującym nad Bitcoin i powiązanym oprogramowaniem. Możesz również przekazać darowiznę organizacjom, które akceptują BTC. Jeśli zarządzanie toksycznymi UTXO wydaje się zbyt skomplikowane, możesz się ich po prostu pozbyć, przekazując darowiznę;
+- **Kupowanie kart podarunkowych:** Platformy takie jak [Bitrefill](https://www.bitrefill.com/) pozwalają na Exchange bitcoinów na karty podarunkowe, które można wykorzystać u różnych sprzedawców. Może to być sposób na pozbycie się toksycznych UTXO bez utraty związanej z nimi wartości;
+- Skonsoliduj je na **Monero:** Samourai Wallet oferuje teraz usługę atomic swap pomiędzy BTC i XMR. Jest to idealne rozwiązanie do zarządzania toksycznymi UTXO poprzez konsolidację ich na Monero, bez narażania prywatności poprzez KYC, przed odesłaniem ich z powrotem do Bitcoin. Opcja ta może być jednak kosztowna pod względem opłat Mining i premii ze względu na ograniczenia płynności;
+- Przesłanie ich do Lightning Network: Przeniesienie tych UTXO do Lightning Network w celu skorzystania z obniżonych opłat transakcyjnych jest opcją, która może być interesująca. Ta metoda może jednak ujawniać pewne informacje w zależności od sposobu korzystania z Lightning i dlatego należy ją stosować ostrożnie.
 
 
 Szczegółowe samouczki dotyczące wdrażania tych różnych technik zostaną wkrótce udostępnione w PlanB Network.
@@ -645,7 +645,7 @@ Szczegółowe samouczki dotyczące wdrażania tych różnych technik zostaną wk
 
 **Dodatkowe zasoby:**
 
-[Samourai Wallet video tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
+[Samourai Wallet video tutorial]()
 
 
 - [Dokumentacja Samourai Wallet - Whirlpool](https://docs.samourai.io/Whirlpool/basic-concepts);

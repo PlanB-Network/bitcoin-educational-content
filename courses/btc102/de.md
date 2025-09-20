@@ -3214,11 +3214,11 @@ Viele Menschen zögern diesen Schritt aufgrund falscher Vorstellungen hinaus, di
 
 
 - "*Ich muss einen Anwalt beauftragen.*" → **Falsch**. Ein Anwalt kann zwar bei rechtlichen Fragen hilfreich sein, aber ein technischer Bitcoin-Erbschaftsplan kann auch ohne ihn erstellt werden. Das Wichtigste ist, dass die Anweisungen klar und verständlich sind;
-- "*Ich muss einer dritten Partei vertrauen. " → **Falsch**. dein Plan kann so gestaltet werden, dass der Bedarf an Vertrauen minimiert wird, z.B. durch die Verteilung von Informationen auf mehrere Parteien oder die Verwendung von Lösungen mit mehreren Unterschriften, mit oder ohne Zeitsperre;
+- "*Ich muss einer dritten Partei vertrauen.*" → **Falsch**. dein Plan kann so gestaltet werden, dass der Bedarf an Vertrauen minimiert wird, z.B. durch die Verteilung von Informationen auf mehrere Parteien oder die Verwendung von Lösungen mit mehreren Unterschriften, mit oder ohne Zeitsperre;
 - "Ein gut durchdachter Plan schützt vor Diebstahlsversuchen und stellt gleichzeitig sicher, dass deine Erben dein Vermögen sicher zurückerhalten können. Es ist jedoch wichtig zu wissen, dass keine Lösung narrensicher ist: Ein Nachlassplan erhöht das Risiko eines Diebstahls, je nachdem, welche Informationen weitergegeben werden. Darauf werden wir später noch genauer eingehen;
 - "*Der Wert meiner Bitcoins ist zu gering, um zu planen.*" → **Falsch**. Es ist immer besser, im Voraus zu planen. deine Angehörigen kennen wahrscheinlich nicht die genaue Menge an Bitcoin, die du besitzt, und das ist auch gut so. Aber wenn dir etwas zustösst, würden sie es dann nicht zurückerhalten wollen, auch wenn sie den genauen Betrag nicht kennen? Der Wert von Bitcoin kann im Laufe der Zeit beträchtlich ansteigen. Daher ist es ratsam, ihnen den Zugriff auf dein Geld zu erleichtern und zu vermeiden, dass sie sich falsche Hoffnungen über den Wert machen oder nach etwas suchen, das möglicherweise nicht existiert.
 - "*Meine Erben werden es selbst herausfinden.*" → **Falsch**. Bitcoin ist nicht wie ein normales Bankkonto. Ohne klare Anweisungen können deine Angehörigen möglicherweise nie auf dein Geld zugreifen oder nur einen Teil davon finden. Im Gegensatz zu Bankkonten, bei denen Finanzinstitute oder Notare die Familienangehörigen im Todesfall kontaktieren, gibt es keinen Vermittler, der deine Familie über dein Bitcoin Wallet informieren wird. Daher musst du es ausdrücklich in deine Nachlassplanung aufnehmen;
-- "*Ein Smart contract kann alles verwalten " → **Falsch**. Ein Smart Contract, wie z.B. ein 'multi-sig' Wallet mit Zeitschloss, kann ein Teil der Lösung sein, aber er wird niemals einen gut strukturierten Plan ersetzen, insbesondere für Personen, die mit Bitcoin nicht vertraut sind. Beide Lösungen sind komplementär.
+- "**Ein Smart contract kann alles verwalten**" → **Falsch**. Ein Smart Contract, wie z.B. ein *multi-sig* Wallet mit Zeitschloss, kann ein Teil der Lösung sein, aber er wird niemals einen gut strukturierten Plan ersetzen, insbesondere für Personen, die mit Bitcoin nicht vertraut sind. Beide Lösungen sind komplementär.
 
 
 
@@ -3613,7 +3613,6 @@ So vielen Menschen wie möglich durch Bitcoin zu finanzieller Souveränität zu 
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

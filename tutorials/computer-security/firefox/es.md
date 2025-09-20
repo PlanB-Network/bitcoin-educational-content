@@ -36,10 +36,10 @@ Pero elegir Firefox es sólo el primer paso. Por defecto, incluso Firefox requie
 
 
 
-- Libre y de código abierto** (motor Gecko): código auditable y transparente
-- Organización sin ánimo de lucro**: Fundación Mozilla, misión de interés general
-- Protecciones nativas integradas**: Protección de rastreo mejorada (ETP), Protección total de cookies (TCP), Partición de estados, Modo sólo HTTPS, DNS sobre HTTPS (DoH)
-- Personalización avanzada**: a diferencia de Chrome, Firefox te permite modificar su comportamiento en profundidad
+- **Libre y de código abierto** (motor Gecko): código auditable y transparente
+- **Organización sin ánimo de lucro**: Fundación Mozilla, misión de interés general
+- **Protecciones nativas integradas**: Protección de rastreo mejorada (ETP), Protección total de cookies (TCP), Partición de estados, Modo sólo HTTPS, DNS sobre HTTPS (DoH)
+- **Personalización avanzada**: a diferencia de Chrome, Firefox te permite modificar su comportamiento en profundidad
 
 
 
@@ -49,9 +49,9 @@ Pero elegir Firefox es sólo el primer paso. Por defecto, incluso Firefox requie
 
 
 
-- No hay receta universal**: cuanto más se modifica, más se corre el riesgo de destacar (fingerprinting). El objetivo es estar mejor protegido sin destacar entre la multitud.
-- Progresa paso a paso**: Cambia una configuración, prueba tus sitios habituales y continúa. No es necesario cambiarlo todo a la vez.
-- Equilibrio personal**: Encuentra TU compromiso entre privacidad y facilidad de uso.
+- **No hay receta universal**: cuanto más se modifica, más se corre el riesgo de destacar (fingerprinting). El objetivo es estar mejor protegido sin destacar entre la multitud.
+- **Progresa paso a paso**: Cambia una configuración, prueba tus sitios habituales y continúa. No es necesario cambiarlo todo a la vez.
+- **Equilibrio personal**: Encuentra TU compromiso entre privacidad y facilidad de uso.
 
 
 
@@ -69,9 +69,9 @@ Pero elegir Firefox es sólo el primer paso. Por defecto, incluso Firefox requie
 
 
 
-- Windows**: descargue el instalador `.exe`, haga doble clic y siga las instrucciones del asistente de instalación
-- macOS**: descarga el archivo `.dmg`, ábrelo y arrastra Firefox a la carpeta Aplicaciones
-- Linux**: varias opciones disponibles - paquete `.deb`/`.rpm`, Flatpak (Flathub), Snap, o mediante gestor de paquetes (apt, dnf, pacman). Prefiera las fuentes oficiales de Mozilla.
+- **Windows**: descargue el instalador `.exe`, haga doble clic y siga las instrucciones del asistente de instalación
+- **macOS**: descarga el archivo `.dmg`, ábrelo y arrastra Firefox a la carpeta Aplicaciones
+- **Linux**: varias opciones disponibles - paquete `.deb`/`.rpm`, Flatpak (Flathub), Snap, o mediante gestor de paquetes (apt, dnf, pacman). Prefiera las fuentes oficiales de Mozilla.
 
 
 
@@ -106,9 +106,9 @@ Pero elegir Firefox es sólo el primer paso. Por defecto, incluso Firefox requie
 
 
 
-- Aislamiento de sitios (Fisión)**: en despliegue progresivo. Esta función ejecuta cada sitio en un proceso separado para evitar que una pestaña maliciosa acceda a los datos de otra. Compruebe su estado a través de `about:support` (busque "Fission"). Si no está activada, puedes activarla manualmente en `about:config` con `fission.autostart = true`.
-- Protección total de cookies (TCP)**: activa por defecto. Las cookies y otros tipos de almacenamiento se limitan al sitio de la primera parte (un "tarro" por sitio), lo que neutraliza el seguimiento entre sitios. Se hacen excepciones temporales a través de la API de acceso al almacenamiento cuando es necesario (botones de inicio de sesión integrados).
-- Protección de rastreo de rebote/redirección**: Firefox detecta y limpia automáticamente las cookies que dejan los sitios de rebote (enlaces que te redirigen a través de un rastreador antes del destino), reduciendo este canal de rastreo sin ninguna acción por tu parte.
+- **Aislamiento de sitios (Fisión)**: en despliegue progresivo. Esta función ejecuta cada sitio en un proceso separado para evitar que una pestaña maliciosa acceda a los datos de otra. Compruebe su estado a través de `about:support` (busque "Fission"). Si no está activada, puedes activarla manualmente en `about:config` con `fission.autostart = true`.
+- **Protección total de cookies (TCP)**: activa por defecto. Las cookies y otros tipos de almacenamiento se limitan al sitio de la primera parte (un "tarro" por sitio), lo que neutraliza el seguimiento entre sitios. Se hacen excepciones temporales a través de la API de acceso al almacenamiento cuando es necesario (botones de inicio de sesión integrados).
+- **Protección de rastreo de rebote/redirección**: Firefox detecta y limpia automáticamente las cookies que dejan los sitios de rebote (enlaces que te redirigen a través de un rastreador antes del destino), reduciendo este canal de rastreo sin ninguna acción por tu parte.
 
 
 
@@ -146,13 +146,13 @@ Estos son los diferentes niveles de seguridad de ETP:
 
 
 
-- Estándar** (equilibrado, máxima compatibilidad)
+- **Estándar** (equilibrado, máxima compatibilidad)
   - Bloquea: rastreadores sociales, cookies de sitios cruzados (todas las ventanas), rastreo de contenido en navegación privada, mineros de criptomonedas, detectores de huellas dactilares.
   - Incluye **Protección Total de Cookies** (TCP): un tarro por sitio.
-- Estricto** (recomendado para la confidencialidad)
+- **Estricto** (recomendado para la confidencialidad)
   - También bloquea el contenido de rastreo en todas las ventanas + huellas dactilares conocidas y sospechosas.
   - Puede romper algunos sitios; utilice el escudo 🛡️ para una excepción local.
-- Personalizado** (avanzado)
+- **Personalizado** (avanzado)
   - Ajuste fino: cookies, rastreo de contenidos, menores, huellas dactilares (conocidas/sospechosas).
 
 
@@ -161,7 +161,7 @@ Estos son los diferentes niveles de seguridad de ETP:
 
 
 
-**Cookies y datos del sitio
+**Cookies y datos del sitio**
 
 
 
@@ -176,9 +176,9 @@ Estos son los diferentes niveles de seguridad de ETP:
 
 
 - Desactiva el **autocompletado** (DNI, direcciones, tarjetas). Utiliza un gestor de contraseñas.
-- Búsqueda**: desactivar **"Mostrar sugerencias de búsqueda "**.
-- Barra Address**: cortar **"Sugerencias patrocinadas "** y **"Sugerencias contextuales "**.
-- Inicio**: desactivar **Bolsillo** y **contenido patrocinado**.
+- **Búsqueda**: desactivar **"Mostrar sugerencias de búsqueda"**.
+- **Barra Address**: cortar **"Sugerencias patrocinadas"** y **"Sugerencias contextuales"**.
+- **Inicio**: desactivar **Bolsillo** y **contenido patrocinado**.
 
 
 
@@ -198,14 +198,14 @@ Estos son los diferentes niveles de seguridad de ETP:
 
 
 
-**Medición de la telemetría y la publicidad
+**Medición de la telemetría y la publicidad**
 
 
 
 
 - En "Recogida de datos por Firefox", **desmarcar todo**.
 - Desactivar **"Medidas de publicidad respetuosas con la intimidad "** (PPA).
-- Navegación segura**: mantenla activada (recomendado). Firefox comprueba los sitios con listas de amenazas mediante consultas hash y comprobaciones locales, protegiendo contra el phishing y el malware con un impacto mínimo en la privacidad.
+- **Navegación segura**: mantenla activada (recomendado). Firefox comprueba los sitios con listas de amenazas mediante consultas hash y comprobaciones locales, protegiendo contra el phishing y el malware con un impacto mínimo en la privacidad.
 
 
 
@@ -218,7 +218,7 @@ Estos son los diferentes niveles de seguridad de ETP:
 
 
 
-**Motor de búsqueda
+**Motor de búsqueda**
 
 
 
@@ -245,10 +245,10 @@ Estos son los diferentes niveles de seguridad de ETP:
 
 
 
-- uBlock Origin**: bloquea los anuncios y el rastreo actual, ligero.
-- Privacy Badger**: aprende a bloquear lo que te sigue; envía Do Not Track / GPC.
-- ClearURLs** (opcional): Firefox (ETP Strict) y uBO ya limpian mucho; mantenlo si aún ves URLs "sucias" (utm, fbclid).
-- Contenedores multicuenta de Firefox**: **aísla cookies/sesiones y almacenamiento por contenedor; multicuentas paralelas; menos rastreo entre sitios**. Extensión oficial: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: bloquea los anuncios y el rastreo actual, ligero.
+- **Privacy Badger**: aprende a bloquear lo que te sigue; envía Do Not Track / GPC.
+- **ClearURLs** (opcional): Firefox (ETP Strict) y uBO ya limpian mucho; mantenlo si aún ves URLs "sucias" (utm, fbclid).
+- **Contenedores multicuenta de Firefox**: aísla cookies/sesiones y almacenamiento por contenedor; multicuentas paralelas; menos rastreo entre sitios. Extensión oficial: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -256,12 +256,12 @@ Estos son los diferentes niveles de seguridad de ETP:
 
 
 
-**Contraseñas y 2FA
+**Contraseñas y 2FA**
 
 
 
 
-- Utiliza un gestor de contraseñas dedicado** (Bitwarden, KeePassXC). **Evita** almacenar contraseñas en el navegador. **Activar 2FA** siempre que sea posible.
+- Utiliza un **gestor de contraseñas dedicado** (Bitwarden, KeePassXC). **Evita** almacenar contraseñas en el navegador. **Activar 2FA** siempre que sea posible.
 
 
 
@@ -278,11 +278,11 @@ Objetivo: compartimentar las actividades y reducir las fugas de la red.
 
 
 
-- Estado por defecto**: Activado automáticamente en algunas regiones (EE.UU., Canadá, Rusia, Ucrania). En el resto, se requiere activación manual.
-- Configuración**: Configuración → General → Configuración de red → **Habilitar DoH** → **Cloudflare** o **Quad9** → **Protección máxima**.
-- Máxima protección = TRR-only** (no fallback to system DNS). Si una red corporativa/hotelera bloquea, vuelva a **Estándar** o desactive DoH.
-- Redundancia**: Si ya estás utilizando una VPN de confianza con su propio DNS seguro, DoH puede ser redundante.
-- Prueba de verificación**: `https://www.dnsleaktest.com/` debe mostrar sólo el proveedor de DoH elegido.
+- **Estado por defecto**: Activado automáticamente en algunas regiones (EE.UU., Canadá, Rusia, Ucrania). En el resto, se requiere activación manual.
+- **Configuración**: Configuración → General → Configuración de red → **Habilitar DoH** → **Cloudflare** o **Quad9** → **Protección máxima**.
+- Máxima protección = **TRR-only** (no fallback to system DNS). Si una red corporativa/hotelera bloquea, vuelva a **Estándar** o desactive DoH.
+- **Redundancia**: Si ya estás utilizando una VPN de confianza con su propio DNS seguro, DoH puede ser redundante.
+- **Prueba de verificación**: `https://www.dnsleaktest.com/` debe mostrar sólo el proveedor de DoH elegido.
 
 
 
@@ -290,20 +290,20 @@ Objetivo: compartimentar las actividades y reducir las fugas de la red.
 
 
 
-**Compartimentación con contenedores y perfiles
+**Compartimentación con contenedores y perfiles**
 
 
 
 
-- Contenedores Multicuenta**: cree espacios (Personal, Trabajo, Finanzas, Redes Sociales, Compras, Desechable). Configure **"Abrir siempre en este contenedor "** para sus sitios recurrentes. Extensión oficial: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Contenedores Multicuenta**: cree espacios (Personal, Trabajo, Finanzas, Redes Sociales, Compras, Desechable). Configure **"Abrir siempre en este contenedor"** para sus sitios recurrentes. Extensión oficial: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - ¿Por qué utilizarlos?
-  - Fuerte aislamiento** de cookies/sesiones/almacenamiento por espacio.
-  - Menos cross-site tracking**: confinar a los gigantes (Facebook, Google).
-  - Multicuentas simultáneas** en el mismo servicio.
-  - Menor riesgo de CSRF/XSS** entre identidades segmentadas.
+- **Fuerte aislamiento** de cookies/sesiones/almacenamiento por espacio.
+- Menos cross-site tracking: confinar a los gigantes (Facebook, Google).
+- **Multicuentas simultáneas** en el mismo servicio.
+- Menor riesgo de **CSRF/XSS** entre identidades segmentadas.
   - Consejo: como mínimo, contenedores dedicados para Redes Sociales/Google, Trabajo, Finanzas.
-- Facebook Container** (opcional): una versión simplificada dedicada a FB/Instagram.
-- Perfiles separados**: mediante `about:profiles` (perfil principal, perfil mínimo "ultraseguro", perfil de prueba). Compartimentación total de datos y extensiones.
+- **Facebook Container** (opcional): una versión simplificada dedicada a FB/Instagram.
+- **Perfiles separados**: mediante `about:profiles` (perfil principal, perfil mínimo "ultraseguro", perfil de prueba). Compartimentación total de datos y extensiones.
 
 
 
@@ -312,8 +312,8 @@ Objetivo: compartimentar las actividades y reducir las fugas de la red.
 
 
 
-- Cookie AutoDelete**: borra las cookies de un sitio en cuanto se cierra la pestaña (útil si Firefox está abierto mucho tiempo).
-- LocalCDN**: sirve las bibliotecas actuales localmente (reduce las llamadas a Google/Microsoft). Compatibilidad parcial.
+- **Cookie AutoDelete**: borra las cookies de un sitio en cuanto se cierra la pestaña (útil si Firefox está abierto mucho tiempo).
+- **LocalCDN**: sirve las bibliotecas actuales localmente (reduce las llamadas a Google/Microsoft). Compatibilidad parcial.
 
 
 
@@ -322,7 +322,7 @@ Objetivo: compartimentar las actividades y reducir las fugas de la red.
 
 
 
-- Firefox Android + uBlock Origin**: protección similar en movimiento.
+- **Firefox Android + uBlock Origin**: protección similar en movimiento.
 
 
 
@@ -542,11 +542,11 @@ Buenas prácticas
 
 
 
-- Actualizaciones**: Firefox y extensiones al día.
-- Prórrogas**: razonables y fiables; cuidado con los canjes "dudosos".
-- Descargas**: precaución; compruebe los archivos sensibles en VirusTotal.
-- Contraseñas**: **gestor dedicado** (Bitwarden, KeePassXC); **2FA** activado; evitar almacenar en navegador.
-- Higiene**: confinar Google/Facebook a contenedores; cerrar/abrir regularmente para "resetear" el contexto.
+- **Actualizaciones**: Firefox y extensiones al día.
+- **Prórrogas**: razonables y fiables; cuidado con los canjes "dudosos".
+- **Descargas**: precaución; compruebe los archivos sensibles en VirusTotal.
+- **Contraseñas**: **gestor dedicado** (Bitwarden, KeePassXC); **2FA** activado; evitar almacenar en navegador.
+- **Higiene**: confinar Google/Facebook a contenedores; cerrar/abrir regularmente para "resetear" el contexto.
 
 
 
@@ -559,7 +559,7 @@ Buenas prácticas
 - Un navegador reforzado ≠ anonimato en la red: sin **VPN**, tu IP sigue siendo visible; incluso con ella, la correlación sigue siendo posible.
 - Modificar demasiado puede hacerte **único**. **RFP** estandariza; las herramientas de aleatorización (por ejemplo, Chameleon) pueden... diferenciarte. Probar, comparar, ajustar.
 - Alternativas/complementos:
- - Tor Browser: anonimato en la red a través de Tor; más lento. Consulte nuestra guía completa de instalación y configuración**:
+- Tor Browser: anonimato en la red a través de Tor; más lento. Consulte nuestra guía completa de instalación y configuración:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Navegador Mullvad: "Tor sin Tor", para combinar con VPN; huella estandarizada. Descubre cómo instalarlo en nuestro tutorial dedicado**:
+- Navegador Mullvad: "Tor sin Tor", para combinar con VPN; huella estandarizada. Descubre cómo instalarlo en nuestro **tutorial dedicado**:
 
 
 
@@ -591,7 +591,7 @@ Siguiendo esta guía paso a paso, habrás transformado Firefox en un verdadero b
 
 
 
-**Recuerda: la confidencialidad nunca es un hecho. Pon a prueba tu protección con regularidad, actualiza tus ajustes y no dudes en adaptar tu configuración a medida que cambien tus hábitos. Tu anonimato en Internet depende tanto de tus herramientas como de tus prácticas.
+**Recuerda: la confidencialidad nunca es un hecho. Pon a prueba tu protección con regularidad, actualiza tus ajustes y no dudes en adaptar tu configuración a medida que cambien tus hábitos. Tu anonimato en Internet depende tanto de tus herramientas como de tus prácticas.**
 
 
 
@@ -604,7 +604,7 @@ Siguiendo esta guía paso a paso, habrás transformado Firefox en un verdadero b
 
 
 
-- SCU 202 - Mejora de tu seguridad digital personal: Para saber más sobre los conceptos de seguridad digital tratados en este tutorial**
+- SCU 202 - Mejora de tu seguridad digital personal: Para saber más sobre los conceptos de seguridad digital tratados en este tutorial
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Navegadores de escritorio](https://www.privacyguides.org/en/desktop-browsers/): Recomendaciones y comparaciones de navegadores
-- Reddit**: r/firefox, r/privacy para comentarios y apoyo
-- Foro de PrivacyGuides**: debates técnicos en profundidad
+- **Reddit**: r/firefox, r/privacy para comentarios y apoyo
+- **Foro de PrivacyGuides**: debates técnicos en profundidad
 
 
 

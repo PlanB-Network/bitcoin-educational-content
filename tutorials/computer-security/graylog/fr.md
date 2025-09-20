@@ -29,9 +29,9 @@ Graylog est un outil d'analyse et de surveillance qui va vous permettre d'identi
 
 La **stack Graylog** s'appuie sur **plusieurs composants** que nous devrons installer et configurer. Ici, nous installerons tous les composants sur le même serveur, mais il est possible de créer des clusters basés sur plusieurs nœuds et de répartir les rôles sur plusieurs serveurs. Dans le cadre de ce tutoriel, nous installerons **Graylog 6.1**, soit la version la plus récente à ce jour.
 
-* **MongoDB 7**, qui est la version actuellement recommandée pour Graylog (minimum 5.0.7, maximum 7.x)
+**MongoDB 7**, qui est la version actuellement recommandée pour Graylog (minimum 5.0.7, maximum 7.x)
 * **OpenSearch**, qui est un fork open source de Elasticsearch créé par Amazon (minimum 1.1.x, maximum 2.15.x)
-* **OpenJDK 17**
+**OpenJDK 17**
 
 Le **serveur Graylog** est sous **Debian 12**, mais l'installation est possible sur d'autres distributions, y compris par l'intermédiaire de Docker. La machine virtuelle est équipée de **8 Go de RAM** et **256 Go d'espace disque**, afin d'avoir assez de ressources pour tous les composants (sinon cela peut avoir un impact important sur les performances). Mais, je l'indique à titre indicatif, car **le dimensionnement de l'architecture Graylog dépend de la quantité d'informations à traiter**. Graylog peut tout à fait traiter 30 Mo ou 300 Mo de données par jour, comme 300 Go de données par jour... C'est une **solution scalable** capable de gérer **des téraoctets de logs** (voir [cette page](https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C_____0)).
 
@@ -163,14 +163,14 @@ plugins.security.disabled: true
 
 Cette configuration OpenSearch est destinée à configurer un nœud unique. Voici des explications sur les différents paramètres que nous utilisons:
 
-* **cluster.name: graylog**: ce paramètre nomme le cluster OpenSearch avec le nom "**graylog**".
-* **node.name: ${HOSTNAME}**: le nom du nœud est défini dynamiquement pour correspondre à celui de la machine Linux locale. Même si nous n'avons qu'un seul nœud, il est important de le nommer correctement.
-* **path.data: /var/lib/opensearch**: ce chemin spécifie où OpenSearch stocke ses données sur la machine locale, en l'occurrence dans "**/var/lib/opensearch**".
+**cluster.name: graylog**: ce paramètre nomme le cluster OpenSearch avec le nom "**graylog**".
+**node.name: ${HOSTNAME}**: le nom du nœud est défini dynamiquement pour correspondre à celui de la machine Linux locale. Même si nous n'avons qu'un seul nœud, il est important de le nommer correctement.
+**path.data: /var/lib/opensearch**: ce chemin spécifie où OpenSearch stocke ses données sur la machine locale, en l'occurrence dans "**/var/lib/opensearch**".
 * **path.logs: /var/log/opensearch**: ce chemin définit où les fichiers journaux d'OpenSearch sont stockés, ici dans "**/var/log/opensearch**".
 * **discovery.type: single-node**: ce paramètre configure OpenSearch pour fonctionner avec un nœud unique, d'où le choix de l'option "**single-node**".
-* **network.host: 127.0.0.1**: cette configuration fait qu'OpenSearch écoute uniquement sur son interface de boucle locale, ce qui est suffisant puisqu'il est sur le même serveur que Graylog.
-* **action.auto_create_index: false**: en désactivant la création automatique d'index, OpenSearch ne créera pas d’index automatiquement lorsqu’un document est envoyé sans index existant.
-* **plugins.security.disabled: true**: cette option désactive le plugin de sécurité d'OpenSearch, ce qui signifie qu'il n'y aura ni authentification, ni gestion des accès, ni chiffrement des communications. Ce paramétrage permet de gagner du temps pour effectuer la mise en place de Graylog, mais il est à éviter en production (voir [cette page](https://opensearch.org/docs/1.0/security-plugin/index/)).
+**network.host: 127.0.0.1**: cette configuration fait qu'OpenSearch écoute uniquement sur son interface de boucle locale, ce qui est suffisant puisqu'il est sur le même serveur que Graylog.
+**action.auto_create_index: false**: en désactivant la création automatique d'index, OpenSearch ne créera pas d'index automatiquement lorsqu'un document est envoyé sans index existant.
+**plugins.security.disabled: true**: cette option désactive le plugin de sécurité d'OpenSearch, ce qui signifie qu'il n'y aura ni authentification, ni gestion des accès, ni chiffrement des communications. Ce paramétrage permet de gagner du temps pour effectuer la mise en place de Graylog, mais il est à éviter en production (voir [cette page](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 Certaines options sont déjà présentes, donc vous devez simplement enlever le "#" pour les activer, puis indiquer votre valeur. Si vous ne trouvez pas une option, vous pouvez la déclarer directement à la fin du fichier.
 

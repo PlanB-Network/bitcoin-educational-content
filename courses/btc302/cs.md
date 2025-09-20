@@ -108,7 +108,7 @@ Cílem tohoto kurzu je poskytnout vám vše, co potřebujete k vytvoření a efe
 
 
 
-**Odddíl 1: Úvod
+**Oddíl 1: Úvod**
 
 
 Na začátku zdůrazníme význam sdružování lidí kolem Bitcoin, ať už prostřednictvím online komunit nebo místních setkání. Dozvíte se, proč a kde založit vlastní komunitu a jak si stanovit jasné cíle, které podpoří její růst a dlouhodobou udržitelnost.
@@ -567,7 +567,7 @@ Pokud se vám dostane inspirace, můžete jít ještě dál: vytvořit znak, mot
 
 
 
-K vytvoření různých vizuálních prvků pro vaši komunitu můžete použít aplikaci [Canva](https://www.canva.com/)**.
+K vytvoření různých vizuálních prvků pro vaši komunitu můžete použít aplikaci [Canva](https://www.canva.com/).
 
 
 
@@ -612,7 +612,7 @@ Zde jsou připravené šablony Canva, které můžete zkopírovat a upravit pro 
 
 
 
-- Plakát s oznámením o setkání** (pro sociální média a tisk ve formátu A4/A3): [odkaz](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Plakát s oznámením o setkání** (pro sociální média a tisk ve formátu A4/A3): [odkaz](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Zde jsou připravené šablony Canva, které můžete zkopírovat a upravit pro 
 
 
 
-- Plakát události** (pro sociální média a tisk A4/A3): [odkaz](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Plakát události** (pro sociální média a tisk A4/A3): [odkaz](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- bannery na sociálních sítích**: [odkaz](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **bannery na sociálních sítích**: [odkaz](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Oznámení o soutěži**: [odkaz](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Oznámení o soutěži**: [odkaz](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -643,19 +643,19 @@ Zde jsou připravené šablony Canva, které můžete zkopírovat a upravit pro 
 
 
 
-- směrnice značky** naší knihovny, vystavené na formátu A4 při setkáních: [odkaz](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- směrnice **značky naší knihovny**, vystavené na formátu A4 při setkáních: [odkaz](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Prezentace PowerPoint** "Chapter 2 - Understanding Bitcoin transactions", autor: @ProfEduStream: [odkaz](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Prezentace **PowerPoint** "Chapter 2 - Understanding Bitcoin transactions", autor: @ProfEduStream: [odkaz](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- leták** "21 důvodů, proč používat Bitcoin", napsal @ProfEduStream: [odkaz](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **leták** "21 důvodů, proč používat Bitcoin", napsal @ProfEduStream: [odkaz](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1092,15 +1092,15 @@ Pomocí **bota [@GroupHelpBot](https://telegram.me/grouphelpbot)** jsou nejužit
 
 
 - Příkaz **rules** (/rules), který zobrazí pravidla komunity;
-- Ochrana proti spamu**, která filtruje podezřelé zprávy a účty;
-- Přizpůsobitelné automatické uvítací zprávy** pro nové členy (s volitelným automatickým smazáním po několika minutách)
-- Ochrana proti záplavám**, která zabraňuje zasílání nevyžádaných zpráv
+- **Ochrana proti spamu**, která filtruje podezřelé zprávy a účty;
+- **Přizpůsobitelné automatické uvítací zprávy** pro nové členy (s volitelným automatickým smazáním po několika minutách)
+- **Ochrana proti záplavám**, která zabraňuje zasílání nevyžádaných zpráv
 - Příkaz **@administrator** pro rychlé oslovení správců skupin
-- Pravidla blokování** nežádoucího obsahu
+- **Pravidla blokování** nežádoucího obsahu
 - Příkaz **propojení skupiny** (/link)
 - Příkaz **řízení povolení**
-- Automatické mazání** určitých typů zpráv
-- Blokování botů** a **blokování vstupu a výstupu** pro zajištění bezpečnosti skupiny
+- **Automatické mazání** určitých typů zpráv
+- **Blokování botů** a **blokování vstupu a výstupu** pro zajištění bezpečnosti skupiny
 - Seznam sociálních sítí **komunity** (/networks)
 - A mnoho dalšího...
 
@@ -1308,8 +1308,8 @@ Zde jsou **klíčové věci, na které se zaměřte, abyste zvýšili svou vidit
     - Povzbuzujte svou komunitu k interakci:
         - Like = hmotnost 0,5
         - Retweet = váha 1
-        - Odpověď = hmotnost 27 (!!)**
-    - Odpovězte lidem, kteří reagují na vaše tweety** (váha 75!!);
+- Odpověď = hmotnost 27 (!!)
+- Odpovězte lidem, kteří reagují na vaše **tweety** (váha 75!!);
     - Vyhněte se umisťování odkazů do hlavního tweetu: přidejte je raději do prvního komentáře;
     - Pište slova celá, vyhněte se zkratkám.
 
@@ -1429,7 +1429,7 @@ Patří mezi ně:
 ![image](assets/fr/027.webp)
 
 
-Zviditelnit se můžete i na jiných platformách. *jednou z nich je *[Meetup](https://www.meetup.com/)**, což je webová stránka (a aplikace pro telefony), kde můžete vytvořit událost a najít ostatní v okolí.
+Zviditelnit se můžete i na jiných platformách. *Jednou z nich je* **[Meetup](https://www.meetup.com/)**, což je webová stránka (a aplikace pro telefony), kde můžete vytvořit událost a najít ostatní v okolí.
 
 Stojí přibližně 8 EUR měsíčně (nebo asi 90 EUR ročně), což může být pro malou nestrukturovanou komunitu drahé. Přesto je Meetup v některých zemích, zejména v Kanadě a Spojených státech, hojně využíván a je užitečný pro správu registrací.
 
@@ -1757,8 +1757,8 @@ Jak budou vaše setkání postupovat, budou se objevovat nové tváře: lidé, k
 Abyste zajistili, že se na vašich akcích budou cítit všichni, zaměřte se na dva klíčové aspekty:
 
 
-- Sociální začlenění**: Všichni účastníci by se měli cítit vítáni. Snažte se přivítat nově příchozí, zeptejte se jich, proč přišli, a představte je ostatním. Když se lidé cítí začleněni, je pravděpodobnější, že se vrátí a možná dokonce pomohou s organizací budoucích akcí.
-- Trpělivost a otevřenost**: To vyžaduje čas a motivaci. Pokud mluvíte s odhodlaným sráčem (nebo ještě hůř, s XRP Maximalist), může být lákavé ho odmítnout. Zapojením se do rozhovoru však můžete objasnit nedorozumění nebo chybné uvažování. Pokud jsou ochotni naslouchat, mohou být připraveni Bitcoin skutečně pochopit.
+- **Sociální začlenění**: Všichni účastníci by se měli cítit vítáni. Snažte se přivítat nově příchozí, zeptejte se jich, proč přišli, a představte je ostatním. Když se lidé cítí začleněni, je pravděpodobnější, že se vrátí a možná dokonce pomohou s organizací budoucích akcí.
+- **Trpělivost a otevřenost**: To vyžaduje čas a motivaci. Pokud mluvíte s odhodlaným sráčem (nebo ještě hůř, s XRP Maximalist), může být lákavé ho odmítnout. Zapojením se do rozhovoru však můžete objasnit nedorozumění nebo chybné uvažování. Pokud jsou ochotni naslouchat, mohou být připraveni Bitcoin skutečně pochopit.
 
 
 
@@ -2609,7 +2609,7 @@ Zaprvé, pokud v jednom chatu diskutuje 500 lidí na nejrůznější témata, sa
 
 Za druhé, více lidí v kanálech znamená více botů, více podvodů, a tedy i více moderování. Připravte se na to vytvořením jasného souboru pravidel, na která se můžete při moderování zpráv odvolávat. Podle našich zkušeností se tak dá předejít konfliktům, zejména pokud jsou pravidla ve vašich kanálech snadno dostupná.
 
-Dobrým příkladem je **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/) napsaný před několika lety pro skupinu Telegram a server Discord. Je založen na jednoduchých, univerzálních principech a můžete si dokonce vzít [upravitelnou verzi návrhu zde](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Dobrým příkladem je **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/)** napsaný před několika lety pro skupinu Telegram a server Discord. Je založen na jednoduchých, univerzálních principech a můžete si dokonce vzít [upravitelnou verzi návrhu zde](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2704,7 +2704,7 @@ Používejte **šifrované nebo anonymní komunikační nástroje** k ochraně s
 
 
 
-Velká hospodářská krize (krach na burze v roce 1929) samozřejmě není naší současnou realitou. Mohla by však vláda jednoho dne udělat totéž s Bitcoin: **zakázat soukromý Ownership přímo?
+Velká hospodářská krize (krach na burze v roce 1929) samozřejmě není naší současnou realitou. Mohla by však vláda jednoho dne udělat totéž s Bitcoin: **zakázat soukromý Ownership přímo?**
 
 
 Pravdou je, že takové orwellovské opatření by ve skutečnosti nikomu nezabránilo v tom, aby skutečně vlastnil BTC, protože žádný zákon nemůže člověku zabránit v tom, aby si zapamatoval posloupnost slov.
@@ -2815,7 +2815,7 @@ Pro rychlejší přehled je k dispozici toto 21minutové video, které tyto krok
 
 
 
-Nezapomeňte: *pamatujte si: *nejste sami, existující komunity jsou tu pro vás**.
+Nezapomeňte: *pamatujte si: nejste sami, existující komunity jsou tu pro vás*.
 
 
 
@@ -2876,15 +2876,15 @@ Například ve Francii má ze zhruba šedesáti komunit a setkání téměř tuc
 Výhody jsou dvojí:
 
 
-- Oficiální uznání**: můžete si otevřít bankovní účet sdružení, získat pozornost tisku/médií a dokonce požádat o dotace.
-- Strukturovaná organizace**: můžete definovat jasné role, což usnadňuje řízení komunity a realizaci projektů.
+- **Oficiální uznání**: můžete si otevřít bankovní účet sdružení, získat pozornost tisku/médií a dokonce požádat o dotace.
+- **Strukturovaná organizace**: můžete definovat jasné role, což usnadňuje řízení komunity a realizaci projektů.
 
 
-Abyste pomohli své komunitě dále růst, **doplnění kurzu COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Abyste pomohli své komunitě dále růst, **doplnění kurzu COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-může být v příštích měsících zveřejněn na [planb.network](https://planb.network/)**.
+může být v příštích měsících zveřejněn na [planb.network](https://planb.network/).
 
 
 Další zasedání by se mohlo zabývat pokročilými tématy, jako jsou:

@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Florian Duchemin pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Florian Duchemin pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -160,9 +160,9 @@ Qui vedo 3 interfacce:
 
 
 
-- Lo**: è il Interface di loopback; è un Interface virtuale che "fa il giro" sull'apparecchiatura. In pratica, questo Interface, il cui Address è 127.0.0.1 (anche se qualsiasi Address in 127.0.0.0/8 va bene, poiché questo intervallo è riservato a questo scopo) viene utilizzato per contattare l'apparecchiatura stessa. Se avete installato un sito web sulla vostra workstation (usando WAMPP, per esempio), probabilmente avete usato il Address "*localhost*" Address per visualizzare il sito ospitato sulla propria macchina. Questo nome di host è associato al Address 127.0.0.1 e quindi al loopback del Interface.
-- ens33**: questo è il mio primo Interface, che ha ricevuto un Address qui dal mio DHCP
-- ens36**: il mio secondo Interface
+- **Lo**: è il Interface di loopback; è un Interface virtuale che "fa il giro" sull'apparecchiatura. In pratica, questo Interface, il cui Address è 127.0.0.1 (anche se qualsiasi Address in 127.0.0.0/8 va bene, poiché questo intervallo è riservato a questo scopo) viene utilizzato per contattare l'apparecchiatura stessa. Se avete installato un sito web sulla vostra workstation (usando WAMPP, per esempio), probabilmente avete usato il Address "*localhost*" Address per visualizzare il sito ospitato sulla propria macchina. Questo nome di host è associato al Address 127.0.0.1 e quindi al loopback del Interface.
+- **ens33**: questo è il mio primo Interface, che ha ricevuto un Address qui dal mio DHCP
+- **ens36**: il mio secondo Interface
 
 
 
@@ -211,8 +211,8 @@ Ecco alcune spiegazioni di questi primi cambiamenti:
 
 
 
-- auto *Interface***: "avvia" automaticamente Interface all'avvio del sistema
-- iface *Interface* inet manual**: per usare il Interface senza alcun IP Address. Come la parola chiave "static" per definire un IP Address statico o "dhcp" per utilizzare un indirizzamento dinamico
+- auto **Interface**: "avvia" automaticamente Interface all'avvio del sistema
+- iface *Interface* inet **manual**: per usare il Interface senza alcun IP Address. Come la parola chiave "static" per definire un IP Address statico o "dhcp" per utilizzare un indirizzamento dinamico
 
 
 
@@ -239,10 +239,10 @@ Anche qui, alcune spiegazioni:
 
 
 
-- iface br0 inet static**: qui ho definito il mio bridge Interface (*br0*) con un Address statico.
-- Address, netmask, gateway**: informazioni sull'indirizzamento della scheda
-- bridge_ports**: interfacce da includere nel bridge
-- bridge_stp**: il protocollo Spanning Tree viene utilizzato quando si interconnettono gli switch per rilevare i collegamenti ridondanti ed evitare i loop. Poiché un ponte può essere inserito tra due percorsi di rete, può essere la fonte di un loop, da cui la possibilità di abilitare questo protocollo. Non ne ho bisogno qui, quindi lo disabilito.
+- **iface br0 inet static**: qui ho definito il mio bridge Interface (*br0*) con un Address statico.
+- **Address, netmask, gateway**: informazioni sull'indirizzamento della scheda
+- **bridge_ports**: interfacce da includere nel bridge
+- **bridge_stp**: il protocollo Spanning Tree viene utilizzato quando si interconnettono gli switch per rilevare i collegamenti ridondanti ed evitare i loop. Poiché un ponte può essere inserito tra due percorsi di rete, può essere la fonte di un loop, da cui la possibilità di abilitare questo protocollo. Non ne ho bisogno qui, quindi lo disabilito.
 
 
 
@@ -281,8 +281,8 @@ Per impostazione predefinita, i sorgenti dei pacchetti contengono solo pacchetti
 
 
 
-- contrib**: pacchetti contenenti software conforme a DFSG, ma che utilizzano dipendenze che non fanno parte del ramo **main**
-- non-free**: contiene pacchetti che non sono conformi a DFSG
+- **contrib**: pacchetti contenenti software conforme a DFSG, ma che utilizzano dipendenze che non fanno parte del ramo **main**
+- **non-free**: contiene pacchetti che non sono conformi a DFSG
 
 
 
@@ -442,7 +442,7 @@ Per dimostrarlo, lancio un video di YouTube sul mio host:
 
 
 
-**Il traffico è stato immediatamente riconosciuto e categorizzato!
+**Il traffico è stato immediatamente riconosciuto e categorizzato!**
 
 
 

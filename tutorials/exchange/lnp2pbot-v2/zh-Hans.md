@@ -43,7 +43,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 **推荐的投资组合**
 
 
-- [Breez](https://breez.technology)**：
+- [Breez](https://breez.technology)：
   - 非常适合初学者
   - 直观、现代的界面
   - 非托管（您保留对资金的控制权）
@@ -54,7 +54,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Phoenix](https://phoenix.acinq.co)** ：
+- [Phoenix](https://phoenix.acinq.co)：
   - 简单可靠
   - 自动通道配置
   - 原生支持 BOLT11 发票
@@ -65,7 +65,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** ：
+- [Blixt](https://blixtwallet.github.io)：
   - 技术性较强，但非常完整
   - 高级配置选项
   - 非常适合有经验的用户
@@ -81,9 +81,9 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 ⚠️ **重要**：在销售 sats 之前，请确保您的投资组合支持 "持有 "发票，机器人将其用作托管系统。
 
 
-- 中本聪钱包**：接收中本聪效果很好，但如果销售取消，余额更新可能会出现延迟。
-- Muun**：不建议使用，因为机器人路由费限制（最高 0.2%）可能导致支付失败。
-- Aqua**：可接收卫星信号，但在销售取消的情况下，余额更新可能会延迟很长时间（最长 48 小时）。
+- 中本聪钱包：接收中本聪效果很好，但如果销售取消，余额更新可能会出现延迟。
+- **Muun**：不建议使用，因为机器人路由费限制（最高 0.2%）可能导致支付失败。
+- **Aqua**：可接收卫星信号，但在销售取消的情况下，余额更新可能会延迟很长时间（最长 48 小时）。
 
 💡 **提示**：为获得最佳体验，请选择推荐的组合（Breez、Phoenix 或 Blixt）。
 
@@ -153,7 +153,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 点击卖家昵称，打开私人聊天频道，您可以在此交流法币支付细节。
 
-**5.付款确认
+**5.付款确认**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -246,17 +246,17 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 ### Lnp2pbot 的优势
 
 
-- 无需 KYC** ：与某些平台不同，Lnp2pbot 不需要身份验证，从而保护了用户的机密性。
-- 快速交易**：得益于闪电网络，交易几乎瞬时完成。
-- 费用低** ：交易费用低于传统交易所。
-- 移动可用性**：LNP2PBot 可通过 Telegram 访问，便于在移动设备上使用。
-- 易于使用** ：Lnp2pbot 界面直观，即使经验不足的用户也能轻松使用。
+- **无需 KYC**：与某些平台不同，Lnp2pbot 不需要身份验证，从而保护了用户的机密性。
+- **快速交易**：得益于闪电网络，交易几乎瞬时完成。
+- **费用低**：交易费用低于传统交易所。
+- **移动可用性**：LNP2PBot 可通过 Telegram 访问，便于在移动设备上使用。
+- **易于使用**：Lnp2pbot 界面直观，即使经验不足的用户也能轻松使用。
 
 ### Lnp2pbot 的缺点
 
 
-- 依赖 Telegram**：使用 Lnp2pbot 需要 Telegram 帐户，这可能不适合所有用户。
-- 流动性较低**：与 Bisq 等更成熟的平台相比，流动性可能更有限。
+- 依赖 **Telegram**：使用 Lnp2pbot 需要 Telegram 帐户，这可能不适合所有用户。
+- **流动性较低**：与 Bisq 等更成熟的平台相比，流动性可能更有限。
 
 相比之下，Bisq 等解决方案提供更高的流动性和桌面界面，但可能涉及更高的费用和更长的交易时间。同时，HodlHodl 和 Robosat 也提供免 KYC 交易，但收费结构和界面不同。
 

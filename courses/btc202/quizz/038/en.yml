@@ -1,0 +1,9 @@
+question: Why is an HDD not recommended for a Bitcoin node?
+answer: Because it significantly slows down IBD and general use
+wrong_answers:
+  - Because it cannot store Blockchain files
+  - Because it consumes too little energy and risks exploding
+  - Because it is incompatible with Bitcoin core
+explanation: |
+  Mechanical discs limit performance, lengthen IBD enormously and wear out quickly under node load.
+reviewed: false

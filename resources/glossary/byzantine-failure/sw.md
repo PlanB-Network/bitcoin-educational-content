@@ -11,4 +11,4 @@ Kushindwa kwa Byzantine, au tabia ya Byzantine, inarejelea tabia yoyote ya mfumo
 Uthibitishaji, kutia saini na maafikiano kupitia njia za siri na algoriti za "Byzantine Fault Tolerant (BFT)" husaidia kupunguza matatizo haya.
 
 
-> ► *Kushindwa kwa Byzantine kunarejelea tatizo la majenerali wa Byzantine, sitiari inayohusika na kuhoji kutegemewa kwa upokezaji na uadilifu wa wahusika.
+> ► *Kushindwa kwa Byzantine kunarejelea tatizo la majenerali wa Byzantine, sitiari inayohusika na kuhoji kutegemewa kwa upokezaji na uadilifu wa wahusika.*

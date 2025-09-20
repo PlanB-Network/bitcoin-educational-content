@@ -308,53 +308,53 @@ Kwa kuendesha Bitcoin Core, unapata uwezo wa:
 - **Thibitisha miamala na vizuizi vyako**: Kuhakikisha kwamba sheria za mtandao wa Bitcoin zinafuatwa bila kutegemea wahusika wengine.
 - **Imarisha mtandao**: Kwa kushiriki katika mtandao, unasaidia kuuweka katika ugatuzi, na kufanya Bitcoin kustahimili mashambulizi zaidi.
 - **Pogoa Blockchain**: Punguza mahitaji ya hifadhi kwa kuweka miamala ya hivi karibuni pekee, ambayo ni bora ikiwa una nafasi ndogo ya diski.
-- **Tumia vipengele vya kina vya pochi**: Dhibiti Bitcoin yako kwa faragha na usalama, funguo za faragha za zalisha nje ya mtandao, na utie sahihi katika miamala kwa usalama.
+- **Tumia vipengele vya kina vya wallet**: Dhibiti Bitcoin yako kwa faragha na usalama, funguo za faragha za zalisha nje ya mtandao, na utie sahihi katika miamala kwa usalama.
 - **Wasiliana na mtandao wa Bitcoin moja kwa moja**: Kwa kutumia Bitcoin Core, unaweza kuunganisha moja kwa moja kwenye mtandao bila wapatanishi, kuhakikisha unapata data sahihi zaidi.
 - **Faidika kutokana na kuongezeka kwa faragha**: Kama mwendeshaji wa nodi kamili, si lazima uamini huduma za nje, zinazolinda faragha ya muamala wako dhidi ya uangalizi wa nje.
 
-Faida za kuendesha nodi ya Bitcoin ni kubwa kwa Bitcoiner yoyote aliyejitolea. Sio tu kwamba unasaidia kulinda mtandao na kuimarisha ugatuaji wake, lakini pia unaboresha faragha yako, unahakikisha uadilifu wa muamala wako mwenyewe, na kuchukua jukumu tendaji katika mfumo ikolojia wa Bitcoin. Kuendesha nodi ni hatua muhimu katika kufikia mamlaka ya kifedha na kukumbatia kikamilifu asili ya ugatuzi ya Bitcoin.
+Faida za kuendesha node ya Bitcoin ni kubwa kwa Bitcoiner yoyote aliyejitolea. Sio tu kwamba unasaidia kulinda mtandao na kuimarisha ugatuaji wake, lakini pia unaboresha faragha yako, unahakikisha uadilifu wa muamala wako mwenyewe, na kuchukua jukumu tendaji katika mfumo ikolojia wa Bitcoin. Kuendesha nodi ni hatua muhimu katika kufikia mamlaka ya kifedha na kukumbatia kikamilifu asili ya ugatuzi ya Bitcoin.
 
 ### Amri za Msingi
 
 Hizi ni baadhi ya amri za msingi wakati wa kusanidi nodi zako:
 
 
-- Angalia hali ya Bitcoin daemon**:
+- **Angalia hali ya Bitcoin daemon**:
 
 ```bash
 sudo systemctl status bitcoind
 ```
 
 
-- Anzisha Bitcoin daemon:**:
+- **Anzisha Bitcoin daemon:**:
 
 ```bash
 systemctl start bitcoind
 ```
 
 
-- Zima Bitcoin daemon:**:
+- **Zima Bitcoin daemon:**:
 
 ```bash
 sudo systemctl stop bitcoind
 ```
 
 
-  - Pata maelezo ya kina**:
+  - **Pata maelezo ya kina**:
 
 ```bash
 bitcoin-cli getblockchaininfo
 ```
 
 
-- Pogoa Blockchain ili kuokoa nafasi ya diski kwa kuweka tu vizuizi vya hivi karibuni:**:
+- **Pogoa Blockchain ili kuokoa nafasi ya diski kwa kuweka tu blovks vya hivi karibuni:**:
 
 ```bash
 prune=550
 ```
 
 
-- Washa seva ya Bitcoin Core na usanidi mipangilio ya RPC:**:
+- **Washa server ya Bitcoin Core na usanidi mipangilio ya RPC:**:
 
 ```bash
 server=1
@@ -363,26 +363,26 @@ rpcpassword=yourpassword
 ```
 
 
-- Angalia hali ya Bitcoin daemon**:
+- **Angalia hali ya Bitcoin daemon**:
 
 ```bash
 sudo systemctl status bitcoind
 ```
 
 
-- Angalia salio la Bitcoin kwenye pochi lako:**:
+- **Angalia salio la Bitcoin kwenye pochi lako:**:
 
 ```bash
 sudo systemctl status bitcoind
 ```
 
-### Ufungaji wa C-umeme
+### Ufungaji wa C-lightning
 
 :::video id=e13a1407-46e3-4b03-9a7a-b0f4a338c3c7:::
 
 #### 1. **Muhtasari wa Msingi wa Bitcoin**
 
-Hebu tuanze na muhtasari mfupi wa hatua zinazohusika katika kusakinisha Bitcoin Core kwenye VM ya wingu, kwa kuwa hii itakuwa muhimu kwa usanidi wetu wa C-Lightning.
+Hebu tuanze na muhtasari mfupi wa hatua zinazohusika katika kusakinisha Bitcoin Core kwenye VM ya cloud, kwa kuwa hii itakuwa muhimu kwa usanidi wetu wa C-Lightning.
 
 **Kuweka upya Bitcoin Core kwenye Cloud VM**
 
@@ -440,9 +440,9 @@ sudo mkdir -p /var/lib/bitcoind
 sudo chown bitcoin:bitcoin /var/lib/bitcoind
 ```
 
-**Tumia Nafasi Ndogo ya Diski kwa Kupogoa Blockchain**
+**Tumia Nafasi Ndogo ya Disk kwa Kupogoa (prune) Blockchain**
 
-Ili kuhifadhi nafasi ya diski, wezesha kupogoa kwenye faili ya usanidi.
+Ili kuhifadhi nafasi ya diski, wezesha kupogoa (prune) kwenye faili ya usanidi.
 
 ```sh
 sudo nano /var/lib/bitcoind/bitcoin.conf
@@ -456,11 +456,11 @@ prune=550
 
 Kwa hatua hizi, unapaswa kuwa na Bitcoin Core up na inayofanya kazi na utumiaji mdogo wa diski, tayari kuingiliana na C-Lightning.
 
-#### 2. **Muhtasari wa Umeme wa C na Ufungaji**
+#### 2. **Muhtasari wa C-lightning na Ufungaji**
 
-**Muhtasari wa Umeme wa C**
+**Muhtasari wa C-lightning**
 
-Umeme wa C, pia unajulikana kama Core-Lightning, ni itifaki ya safu ya 2 inayowezesha miamala ya haraka na nafuu kwa kutumia chaneli za off-chain. Inajitokeza kwa sababu ya usanifu wake wa kawaida na wa kirafiki wa msanidi programu, ambayo inaruhusu ubinafsishaji wa kina kupitia programu-jalizi.
+C-lightning, pia unajulikana kama Core-Lightning, ni protocol ya safu ya 2 inayowezesha miamala ya haraka na nafuu kwa kutumia chaneli za off-chain. Inajitokeza kwa sababu ya usanifu wake wa kawaida na wa kirafiki wa msanidi programu, ambayo inaruhusu ubinafsishaji wa kina kupitia programu-jalizi.
 
 **Umuhimu wa Modularity na Upanuzi na Plugins**
 
@@ -471,7 +471,7 @@ Muundo wa kawaida wa Umeme wa C unamaanisha kuwa unaweza kuongeza au kuondoa vip
 - **Ada za Uelekezaji**: Rekebisha ada za uelekezaji kulingana na hali ya mtandao.
 - **Otomatiki**: Weka kazi otomatiki kama vile usimamizi wa kituo na utoaji wa ukwasi.
 
-### Ufungaji wa Umeme wa C
+### Ufungaji wa C-lightning
 
 Wacha tuendelee kusakinisha C-Lightning.
 
@@ -485,7 +485,7 @@ sha256sum clightning-v22.11.1.tar.gz
 # Verify the hash against the provided hash
 ```
 
-**Thibitisha Uadilifu kwa Vifunguo vya GPG**
+**Thibitisha Uadilifu kwa Vifunguo vya GPG (GPG Keys)**
 
 Thibitisha kila mara uadilifu wa faili iliyopakuliwa na vitufe vya GPG.
 
@@ -496,7 +496,7 @@ gpg --verify clightning-v22.11.1.tar.gz.asc clightning-v22.11.1.tar.gz
 
 **Sakinisha Vitegemezi na Unda kutoka kwa Msimbo wa Chanzo**
 
-Sakinisha vitegemezi vinavyohitajika na uandae Umeme wa C kutoka kwa chanzo.
+Sakinisha vitegemezi vinavyohitajika na uandae C-lightning kutoka kwa chanzo.
 
 ```sh
 sudo apt-get update
@@ -533,11 +533,11 @@ Restart=on-failure
 WantedBy=multi-user.target
 ```
 
-#### 3. **Usanidi na Usanidi**
+#### 3. **Usanidi na Upangaji**
 
 **Unda Saraka Muhimu na Faili za Usanidi**
 
-Unda saraka na faili za usanidi zinazohitajika kwa Umeme wa C.
+Unda saraka na faili za usanidi zinazohitajika kwa C-lightning.
 
 ```sh
 sudo mkdir -p /var/lib/lightning
@@ -553,7 +553,7 @@ log-level=debug
 plugin=/usr/local/libexec/c-lightning/plugins
 ```
 
-**Weka Mipangilio ya Umeme wa C ili Kuunganisha na Bitcoin Core kwenye Testnet**
+**Weka Mipangilio ya C-lightning ili Kuunganisha na Bitcoin Core kwenye Testnet**
 
 Hakikisha kuwa C-Lightning inaweza kuunganishwa na Bitcoin Core kwa kuongeza mistari ifuatayo:
 
@@ -597,9 +597,9 @@ Hifadhi nakala ya siri ya HSM kwa urejeshaji wa pesa.
 sudo cp /var/lib/lightning/hsm_secret /path/to/secure/location
 ```
 
-**Jaribu Viunganisho na Udhibitishe Hali ya Uendeshaji ya Nodi**
+**Jaribu Viunganisho na Udhibitishe Hali ya Uendeshaji ya Node**
 
-Hatimaye, thibitisha hali ya uendeshaji wa nodi yako kwa kupima miunganisho na kuhakikisha kila kitu kinafanya kazi kama inavyotarajiwa.
+Hatimaye, thibitisha hali ya uendeshaji wa node yako kwa kupima miunganisho na kuhakikisha kila kitu kinafanya kazi kama inavyotarajiwa.
 
 ```sh
 lightning-cli getinfo
@@ -623,41 +623,41 @@ Karibu kwenye mhadhara wetu kuhusu usalama na usanidi wa kifaa kwa Bitcoin. Leng
 
 **Zana: Specter Desktop Wallet na Emulator ya Leja**
 
-Specter ni Pochi la eneo-kazi iliyoundwa kuwezesha uundaji na usimamizi wa pochi za Bitcoin, haswa zile zinazotumia vifaa vya maunzi. Kwa onyesho letu, tutatumia emulator ya Leja, ambayo inaiga utendaji wa Ledger Hardware Wallet.
+Specter ni wallet ya eneo-kazi iliyoundwa kuwezesha uundaji na usimamizi wa Bitcoin Wallet, haswa zile zinazotumia vifaa vya maunzi. Kwa onyesho letu, tutatumia emulator ya Leja, ambayo inaiga utendaji wa Ledger Hardware Wallet.
 
 **Tofauti Kati ya leja Kifaa na Utata wa Kampuni**
 
 Kifaa cha Leja, maarufu Hardware Wallet, kinaadhimishwa kwa usalama wake thabiti. Hata hivyo, kampuni iliyo nyuma ya Leja imekabiliwa na uchunguzi kutokana na mizozo mbalimbali kuhusu faragha ya data ya mtumiaji. Kuelewa tofauti kati ya usalama wa kifaa halisi na mazoea ya kampuni ni muhimu kwa matumizi ya habari.
 
-**Miundo ya Usalama: Umuhimu wa Pochi za sahihi nyingi na Vifaa Mbalimbali**
+**Miundo ya Usalama: Umuhimu wa wallets za Multiple Signatures na Vifaa Mbalimbali**
 
-Kipengele muhimu cha usalama wa Bitcoin ni kutumia pochi zenye sahihi nyingi (multi-sig). Pochi za sahihi nyingi zinahitaji funguo nyingi za faragha ili kuidhinisha muamala, na hivyo kuimarisha usalama kwa kiasi kikubwa. Zaidi ya hayo, kutumia aina tofauti za pochi za maunzi hutofautisha hatari na huimarisha mtindo wa usalama.
+Kipengele muhimu cha usalama wa Bitcoin ni kutumia Wallet zenye sahihi nyingi (multi-sig). Wallet za multi-sig zinahitaji funguo nyingi za faragha ili kuidhinisha muamala, na hivyo kuimarisha usalama kwa kiasi kikubwa. Zaidi ya hayo, kutumia aina tofauti za pochi za maunzi hutofautisha hatari na huimarisha mtindo wa usalama.
 
-### Usanidi na Usanidi
+### Usanidi na upsngaji
 
 **Kupakua na Kuweka Vipimo**
 
 Hatua ya kwanza katika mchakato wetu wa usanidi inahusisha kupakua Specter kutoka kwenye hazina yake rasmi. Ni muhimu kuthibitisha uadilifu wa upakuaji ili kuepuka programu kuathirika. Mara baada ya kupakuliwa, sakinisha Specter kwenye eneo-kazi lako na uzindua programu.
 
-**Kusanidi Specter ili Kuunganishwa na Bitcoin Core au Seva za Electrum**
+**Kusanidi Specter ili Kuunganishwa na Bitcoin Core au Server za Electrum**
 
-Ili kusanidi Specter, unahitaji kuiunganisha kwenye seva ya Bitcoin Core au Electrum. Seva hizi hutoa data muhimu ya Blockchain kwa shughuli za pochi. Usanidi unahusisha kuweka seva Anwani katika mipangilio ya Specter na kuhakikisha muunganisho thabiti.
+Ili kusanidi Specter, unahitaji kuiunganisha kwenye server ya Bitcoin Core au Electrum server hizi hutoa data muhimu ya Blockchain kwa shughuli za Wallet. Usanidi unahusisha kuweka server address katika mipangilio ya Specter na kuhakikisha muunganisho thabiti.
 
 **Kuelezea Njia za Utoaji na Urejeshaji wa Ufunguo wa Umma**
 
-Kuelewa njia za utokaji ni muhimu kwa usimamizi wa Pochi. Njia za utokezi hufafanua jinsi funguo zinatolewa kutoka kwa ufunguo mkuu. Katika Specter, unaweza kupata funguo za umma kwa kuunganisha Hardware Wallet (au emulator) yako na kupitia Wallet Interface. Hakikisha umeandika njia hizi kwa marejeleo ya baadaye.
+Kuelewa njia za utokaji ni muhimu kwa usimamizi wa wallet. Njia za utokezi hufafanua jinsi funguo zinatolewa kutoka kwa ufunguo mkuu. Katika Specter, unaweza kupata funguo za umma kwa kuunganisha Hardware Wallet (au emulator) yako na kupitia Wallet Interface. Hakikisha umeandika njia hizi kwa marejeleo ya baadaye.
 
 **Onyesho la Kivitendo: Kutumia Kiigaji cha Leja**
 
-Sasa tutatumia emulator ya Leja kuleta funguo. Hii inahusisha kuunganisha emulator kwa Specter, kuelekea kwenye sehemu muhimu ya usimamizi, na kuchagua vitufe vinavyofaa kwa uundaji wa pochi.
+Sasa tutatumia emulator ya Leja kuleta funguo. Hii inahusisha kuunganisha emulator kwa Specter, kuelekea kwenye sehemu muhimu ya usimamizi, na kuchagua vitufe vinavyofaa kwa uundaji wa wallet.
 
-**Kuunda na Kusimamia Pochi katika Specter**
+**Kuunda na Kusimamia wallet katika Specter**
 
-Kuunda Pochi katika Specter ni moja kwa moja. Fikia uundaji wa Wallet Interface, weka maelezo muhimu, na ujumuishe funguo zako za umma zilizorejeshwa. Baada ya kuundwa, unaweza kudhibiti pochi, kufuatilia miamala na kuhakikisha mbinu thabiti za usalama.
+Kuunda wallet katika Specter ni moja kwa moja. Fikia uundaji wa Wallet Interface, weka maelezo muhimu, na ujumuishe funguo zako za umma zilizorejeshwa. Baada ya kuundwa, unaweza kudhibiti wallet, kufuatilia miamala na kuhakikisha mbinu thabiti za usalama.
 
 **Kupokea na Kufuatilia Miamala**
 
-Baada ya usanidi wa pochi, kupokea miamala ni rahisi kama kushirikisha Pochi ya Anwani yako. Specter hutoa ufuatiliaji wa wakati halisi wa miamala inayoingia, ili kuhakikisha kuwa unasasishwa kila wakati kuhusu hali ya Pochi yako.
+Baada ya usanidi wa Wallet, kupokea miamala ni rahisi kama kushirikisha wallet ya address yako. Specter hutoa ufuatiliaji wa wakati halisi wa miamala inayoingia, ili kuhakikisha kuwa unasasishwa kila wakati kuhusu hali ya Wallet yako.
 
 ### Mipangilio ya Kina
 
@@ -667,7 +667,7 @@ Kwa watumiaji wa hali ya juu, kusanidi Specter ya mbali daemon kunaweza kuimaris
 
 **Kuwezesha Tor kwa Faragha**
 
-Ili kuimarisha faragha, kusanidi Specter kutumia Tor kunapendekezwa sana. Tor huficha utambulisho wa trafiki ya mtandao wako, huku ikilinda IP ya Anwani yako dhidi ya uangalizi unaowezekana. Hii ni muhimu sana kwa watumiaji wanaojali kuhusu faragha na usalama.
+Ili kuimarisha faragha, kusanidi Specter kutumia Tor kunapendekezwa sana. Tor huficha utambulisho wa trafiki ya mtandao wako, huku ikilinda  IP address yako dhidi ya uangalizi unaowezekana. Hii ni muhimu sana kwa watumiaji wanaojali kuhusu faragha na usalama.
 
 **Kuunganisha kwa Njia za Mbali kwa Usalama**
 
@@ -679,23 +679,23 @@ Kukumbana na masuala ni jambo lisiloepukika. Utatuzi wa kivitendo unahusisha kua
 
 **Suala la Mfano: Ufikiaji Saraka wa Data**
 
-Suala la kawaida ni ufikiaji usio sahihi wa saraka wa data. Thibitisha kuwa njia ya saraka yako ya data ya Bitcoin Core imewekwa ipasavyo katika usanidi wa Specter. Hii inahakikisha Specter ina ufikiaji wa data muhimu ya Blockchain kwa shughuli za Pochi.
+Suala la kawaida ni ufikiaji usio sahihi wa saraka wa data. Thibitisha kuwa njia ya saraka yako ya data ya Bitcoin Core imewekwa ipasavyo katika usanidi wa Specter. Hii inahakikisha Specter ina ufikiaji wa data muhimu ya Blockchain kwa miamala ya Wallet.
 
 **Hatua Zinazofuata na Muunganisho**
 
-Tunapohitimisha, hatua zinazofuata zinahusisha kuunganisha Specter na Lightning Network. Hii huwezesha kutuma pesa kutoka kwa Specter hadi eneo la Umeme, kuwezesha shughuli za haraka na za bei nafuu. Masomo yajayo yatashughulikia muunganisho huu kwa undani, na kuboresha uwezo wako wa muamala wa Bitcoin.
+Tunapohitimisha, hatua zinazofuata zinahusisha kuunganisha Specter na Lightning Network. Hii huwezesha kutuma pesa kutoka kwa Specter hadi eneo la lightning, kuwezesha shughuli za haraka na za bei nafuu. Masomo yajayo yatashughulikia muunganisho huu kwa undani, na kuboresha uwezo wako wa muamala wa Bitcoin.
 
 **Kuzuia Utofauti wa Muda**
 
-Kuelewa tofauti ya muda wa kuzuia ni muhimu. Vitalu vya Bitcoin vinaweza kuchimbwa kwa vipindi tofauti, vinavyoathiri nyakati za uthibitishaji wa shughuli. Tofauti hii lazima ihesabiwe katika usanidi wote na uendeshaji wa Pochi.
+Kuelewa tofauti ya muda wa kuzuia ni muhimu. Vitalu vya Bitcoin vinaweza kuchimbwa kwa vipindi tofauti, vinavyoathiri nyakati za uthibitishaji wa shughuli. Tofauti hii lazima ihesabiwe katika usanidi wote na uendeshaji wa Wallet.
 
 **Nyenzo za Kujifunza**
 
 Kwa mafunzo ya ziada, zingatia nyenzo kama vile "Mastering the Lightning Network" na mafunzo ya Rusty Russell. Nyenzo hizi hutoa ujuzi wa kina juu ya nodi za Umeme na usanidi wa juu wa Bitcoin.
 
-**Ufungaji wa Nodi na Usalama wa Tor**
+**Ufungaji wa Node na Usalama wa Tor**
 
-Kusakinisha nodi, iwe ndani au kwa mbali, hunufaika kwa kutumia Tor kwa usalama ulioimarishwa. Kuendesha nodi yako mwenyewe huhakikisha uthibitishaji wa shughuli za kibinafsi, kuboresha usalama na faragha.
+Kusakinisha node, iwe ndani au kwa mbali, hunufaika kwa kutumia Tor kwa usalama ulioimarishwa. Kuendesha node yako mwenyewe huhakikisha uthibitishaji wa shughuli za kibinafsi, kuboresha usalama na faragha.
 
 **Falsafa: Kujitosheleza katika Kujifunza**
 
@@ -729,7 +729,7 @@ Uwezo wa kupanua umekuwa tatizo linaloendelea katika ukuzaji wa Bitcoin. Uwezo w
 
 #### Fungua Matatizo katika Usalama
 
-Kupata mali ya Bitcoin ni kazi ngumu, iliyojaa changamoto. Pochi moto, ambazo hutumiwa mara kwa mara kwa shughuli za kila siku, husababisha hatari kubwa za usalama, haswa kwa wale wanaoendesha nodi za Umeme. Zaidi ya hayo, upangaji wa urithi wa mali ya Bitcoin unasalia kuwa mchakato wenye utata na mara nyingi usio salama. Ugumu wa hatua hizi za usalama unaweza kuzuia watumiaji wanaowezekana na kutatiza upitishaji ulioenea.
+Kupata mali ya Bitcoin ni kazi ngumu, iliyojaa changamoto. Hot wallet , ambazo hutumiwa mara kwa mara kwa miamala ya kila siku, husababisha hatari kubwa za usalama, haswa kwa wale wanaoendesha node za lightning. Zaidi ya hayo, upangaji wa urithi wa mali ya Bitcoin unasalia kuwa mchakato wenye utata na mara nyingi usio salama. Ugumu wa hatua hizi za usalama unaweza kuzuia watumiaji wanaowezekana na kutatiza upitishaji ulioenea.
 
 #### Fungua Matatizo katika Faragha
 
@@ -737,7 +737,7 @@ Faragha ni suala lingine muhimu ndani ya mfumo ikolojia wa Bitcoin. Ingawa farag
 
 #### Fungua Matatizo katika Kubadilika
 
-Unyumbufu ndani ya itifaki ya Bitcoin ni muhimu ili kukuza uboreshaji wa faragha, usalama na uboreshaji. Hata hivyo, kunyumbulika kupita kiasi kunaweza kuwa hatari, ikiwezekana kutumika kama vekta ya mashambulizi na kutishia ugatuaji wa mtandao. Kuweka usawa sahihi ni muhimu ili kudumisha uadilifu na uthabiti wa itifaki ya Bitcoin.
+Unyumbufu ndani ya protocol ya Bitcoin ni muhimu ili kukuza uboreshaji wa faragha, usalama na uboreshaji. Hata hivyo, kunyumbulika kupita kiasi kunaweza kuwa hatari, ikiwezekana kutumika kama vekta ya mashambulizi na kutishia ugatuaji wa mtandao. Kuweka usawa sahihi ni muhimu ili kudumisha uadilifu na uthabiti wa itifaki ya Bitcoin.
 
 ### Marekebisho katika Kuimarisha Bitcoin
 
@@ -745,11 +745,11 @@ Unyumbufu ndani ya itifaki ya Bitcoin ni muhimu ili kukuza uboreshaji wa faragha
 
 ![Image](assets/en/1/7.webp)
 
-Juhudi za kuimarisha utumiaji wa Bitcoin mara nyingi huja kwa gharama ya usalama na faragha. Kwa mfano, pochi za uhifadhi zinazofaa mtumiaji, kama vile pochi ya Satoshi, hutoa Interface inayoweza kufikiwa lakini inaathiri sana usalama na faragha. Mifumo iliyorahisishwa inaweza kuongeza utumiaji lakini inaweza kusababisha masuala kama vile kutumia tena Anwani, jambo ambalo linadhoofisha faragha. Kwa hivyo,uboresho wowote katika utumiaji lazima upimwe kwa uangalifu dhidi ya uwezekano wa usalama na ubadilishanaji wa faragha.
+Juhudi za kuimarisha utumiaji wa Bitcoin mara nyingi huja kwa gharama ya usalama na faragha. Kwa mfano, Wallet za uhifadhi zinazofaa mtumiaji, kama vile Wallet of Satoshi, hutoa Interface inayoweza kufikiwa lakini inaathiri sana usalama na faragha. Mifumo iliyorahisishwa inaweza kuongeza utumiaji lakini inaweza kusababisha masuala kama vile kutumia tena Anwani, jambo ambalo linadhoofisha faragha. Kwa hivyo,uboresho wowote katika utumiaji lazima upimwe kwa uangalifu dhidi ya uwezekano wa usalama na ubadilishanaji wa faragha.
 
 #### uwezo wa kupanua na Biashara ya Faragha
 
-Ubora na faragha mara nyingi hutofautiana katika mtandao wa Bitcoin. uboresho ambao unaboresha upanuzi, kama vile UTXO kubwa zaidi au ufiche uliopunguzwa wa kriptografia, kwa ujumla hupunguza faragha. Kinyume chake, mbinu zinazolenga faragha kama vile sahihi za pete za Monero huongeza kutokujulikana kwa mtumiaji lakini huathiri vibaya uboreshaji. Zaidi ya hayo, kuanzishwa kwa mikataba ya serikali, kama inavyoonekana katika Ethereum, kunatoa unyumbufu ulioongezeka kwa gharama ya kupunguzwa kwa usalama na hatari. Kusawazisha biashara hizi ni changamoto changamano inayohitaji kuzingatiwa kwa kina.
+Ubora na faragha mara nyingi hutofautiana katika mtandao wa Bitcoin. uboresho ambao unaboresha upanuzi, kama vile UTXO kubwa zaidi au ufiche uliopunguzwa wa cryptography, kwa ujumla hupunguza faragha. Kinyume chake, mbinu zinazolenga faragha kama vile sahihi za pete za Monero huongeza kutokujulikana kwa mtumiaji lakini huathiri vibaya uboreshaji. Zaidi ya hayo, kuanzishwa kwa mikataba ya serikali, kama inavyoonekana katika Ethereum, kunatoa unyumbufu ulioongezeka kwa gharama ya kupunguzwa kwa usalama na hatari. Kusawazisha biashara hizi ni changamoto changamano inayohitaji kuzingatiwa kwa kina.
 
 ### Mbinu za Faragha
 
@@ -763,9 +763,9 @@ Kubadilisha utaratibu wa makubaliano wa Bitcoin ni jitihada adimu na yenye chang
 
 Kuzingatia mazoea sanifu katika ukuzaji wa pochi la Bitcoin ni muhimu kwa kuhakikisha urahisi wa matumizi na usalama. Pochi nyingi kwa sasa hazifuati viwango vilivyowekwa, na hivyo kusababisha kugawanyika na udhaifu unaowezekana. Kusawazisha kunaweza kuboresha kwa kiasi kikubwa matumizi ya mtumiaji na usalama wa jumla wa miamala ya Bitcoin.
 
-Vishazi vya jadi vya chelezo vya maneno 12, ingawa vinatumika kwa matumizi ya msingi ya Bitcoin, si rahisi kuafiki itifaki za off-chain kama vile Lightning Network. Viwango vya hifadhi rudufu vya siku zijazo vinahitaji kubadilika ili kutoa usalama bora na utumiaji wa vipengele hivi vya juu, kuhakikisha kwamba watumiaji wanaweza kudhibiti mali zao kwa usalama katika tabaka tofauti za mfumo ikolojia wa Bitcoin.
+Vishazi vya jadi vya chelezo vya maneno 12, ingawa vinatumika kwa matumizi ya msingi ya Bitcoin, si rahisi kuafiki protocols za off-chain kama vile Lightning Network. Viwango vya hifadhi rudufu vya siku zijazo vinahitaji kubadilika ili kutoa usalama bora na utumiaji wa vipengele hivi vya juu, kuhakikisha kwamba watumiaji wanaweza kudhibiti mali zao kwa usalama katika tabaka tofauti za mfumo ikolojia wa Bitcoin.
 
-Kurahisisha mchakato wa malipo kupitia itifaki zilizounganishwa ni muhimu ili kuboresha matumizi ya mtumiaji. Itifaki zilizopo kama vile BIP70, BIP78, na Payneem hutoa suluhisho mbalimbali, lakini kuna nafasi ya uvumbuzi zaidi. Itifaki ya malipo iliyoratibiwa zaidi na inayomfaa mtumiaji inaweza kuwezesha kupitishwa kwa mapana na urahisi wa matumizi.
+Kurahisisha mchakato wa malipo kupitia protocol zilizounganishwa ni muhimu ili kuboresha matumizi ya mtumiaji. protocols zilizopo kama vile BIP70, BIP78, na Payneem hutoa suluhisho mbalimbali, lakini kuna nafasi ya uvumbuzi zaidi. protocol ya malipo iliyoratibiwa zaidi na inayomfaa mtumiaji inaweza kuwezesha kupitishwa kwa mapana na urahisi wa matumizi.
 
 Utengenezaji wa zana bora na maunzi ni muhimu kwa kuboresha utumiaji na usalama wa Bitcoin. Ubunifu kama vile pochi za maunzi (k.m., Ledger na Trezor) hutoa suluhu dhabiti za usalama lakini lazima ziendelee kubadilika hadi vitisho vinavyoibuka vya Anwani. Zana zilizoboreshwa zinaweza kufanya Bitcoin kufikiwa zaidi na salama kwa hadhira pana.
 
@@ -777,13 +777,13 @@ Kuunda nyenzo za kielimu ili kuboresha utumiaji, usalama na faragha ya Bitcoin k
 
 ![Image](assets/en/1/3.webp)
 
-**safu 1 na safu 2 Mabadiliko**
+**Mabadiliko ya safu 1 na safu 2 **
 
-Ubunifu katika msingi wa safu (Layer 1) ni changamoto lakini muhimu kwa mageuzi ya muda mrefu ya Bitcoin. Masuluhisho ya safu 2, kama vile Lightning Network, yanaruhusu mabadiliko zaidi ya majaribio na yanaweza kubadilika kwa kasi ya Anwani na masuala ya faragha kwa urahisi zaidi. Tabaka zote mbili zina jukumu muhimu katika maendeleo yanayoendelea ya Bitcoin.
+Ubunifu katika msingi wa safu (Layer 1) ni changamoto lakini muhimu kwa mageuzi ya muda mrefu ya Bitcoin. Masuluhisho ya safu 2 (Layer 2), kama vile Lightning Network, yanaruhusu mabadiliko zaidi ya majaribio na yanaweza kubadilika kwa kasi ya Anwani na masuala ya faragha kwa urahisi zaidi. Tabaka zote mbili zina jukumu muhimu katika maendeleo yanayoendelea ya Bitcoin.
 
 **Uratibu wa Makubaliano**
 
-Mabadiliko ya itifaki ya Bitcoin yanahitaji uratibu muhimu na maafikiano ya jumuiya. Asili ya ugatuzi ya Bitcoin hufanya mchakato huu kuwa na changamoto. Uratibu wa ufanisi na mawasiliano ya wazi ni muhimu ili kukabiliana na matatizo ya mabadiliko ya itifaki na kuhakikisha kupitishwa kwa ufanisi wa maboresho.
+Mabadiliko ya protocol ya Bitcoin yanahitaji uratibu muhimu na maafikiano ya jumuiya. Asili ya ugatuzi ya Bitcoin hufanya mchakato huu kuwa na changamoto. Uratibu wa ufanisi na mawasiliano ya wazi ni muhimu ili kukabiliana na matatizo ya mabadiliko ya itifaki na kuhakikisha kupitishwa kwa ufanisi wa maboresho.
 
 **Changamoto za kuongeza kasi**
 
@@ -803,7 +803,7 @@ Kwa kumalizia, kuendelea kushughulikia matatizo haya ya wazi na ubunifu ndani ya
 
 :::video id=08101af2-1ded-4f3a-b1db-d4477c6ab63e:::
 
-Karibu kwenye somo la leo kuhusu **Usalama na Kuegemea**. Lengo letu ni kuchunguza uhusiano kati ya vipengele hivi viwili vya msingi vya uundaji wa mfumo na matumizi katika hali za ulimwengu halisi.
+Karibu kwenye somo la leo kuhusu **Usalama na Kutegemewa**. Lengo letu ni kuchunguza uhusiano kati ya vipengele hivi viwili vya msingi vya uundaji wa mfumo na matumizi katika hali za ulimwengu halisi.
 
 ### Utangulizi wa Fikra za Usalama
 
@@ -811,7 +811,7 @@ Fikra za usalama zinatokana na kanuni zilizoundwa kulinda mifumo dhidi ya masham
 
 #### Uhusiano kati ya Usalama na Kuegemea
 
-Ingawa usalama na kutegemewa vinalenga kudumisha uadilifu wa mfumo, mbinu zao hutofautiana sana. Uhandisi wa kutegemewa hushughulikia uwezekano wa kushindwa kwa mfumo kutokana na matukio ya nasibu na mara nyingi hutumia mbinu za takwimu kutabiri na kupunguza hitilafu hizi. Kwa upande mwingine, usalama lazima uzingatie asili ya makusudi na ya kiakili ya mashambulizi, inayohitaji mkakati wa ulinzi wa tabaka nyingi inayojulikana kama "ulinzi wa kina."
+Ingawa usalama na kutegemewa vinalenga kudumisha uadilifu wa mfumo, mbinu zao hutofautiana sana. Uhandisi wa kutegemewa hushughulikia uwezekano wa kushindwa kwa mfumo kutokana na matukio ya nasibu na mara nyingi hutumia mbinu za takwimu kutabiri na kupunguza hitilafu hizi. Kwa upande mwingine, usalama lazima uzingatie asili ya makusudi na ya kiakili ya mashambulizi, inayohitaji mkakati wa ulinzi wa tabaka nyingi inayojulikana kama. "Defense in Depth."
 
 #### Usalama dhidi ya Kuegemea
 
@@ -819,23 +819,23 @@ Mfano mzuri kabisa wa uhandisi wa kutegemewa unaweza kufuatiliwa hadi karne ya 1
 
 ![Image](assets/en/2/1.webp)
 
-Tofauti na kuegemea, usalama unahusika na vitisho vya kukusudia. Kwa mfano, ufunguo wa kriptografia wa biti 256 hutoa uhakikisho wa kihisabati wa usalama kutokana na kutowezekana kwa kuulazimisha kwa ukatili. Hatua za usalama lazima zizingatie miundo tofauti ya vitisho, kutoka kwa kuchezea kimwili hadi kwa mashambulizi ya kisasa ya mtandao.
+Tofauti na kuegemea, usalama unahusika na vitisho vya kukusudia. Kwa mfano, ufunguo wa cryptography wa biti 256 hutoa uhakikisho wa kihisabati wa usalama kutokana na kutowezekana kwa kuulazimisha kwa ukatili. Hatua za usalama lazima zizingatie miundo tofauti ya vitisho, kutoka kwa kuchezea kimwili hadi kwa mashambulizi ya kisasa ya mtandao.
 
 ### Maombi ya Ulimwengu Halisi
 
-Fikiria mchakato wa kuunda na kuhifadhi funguo za Bitcoin kwa kutumia pochi za karatasi. Wakati pochi za karatasi zinaweza kuwa salama, zinaweza kuathiriwa na uharibifu wa kimwili na kuchezewa. Kuhakikisha uadilifu wa pochi kama hizo kunahitaji mbinu zinazoonekana kuharibika na itifaki thabiti za uthibitishaji.
+Fikiria mchakato wa kuunda na kuhifadhi funguo za Bitcoin kwa kutumia pochi za karatasi. Wakati pochi za karatasi zinaweza kuwa salama, zinaweza kuathiriwa na uharibifu wa kimwili na kuchezewa. Kuhakikisha uadilifu wa Wallet kama hizo kunahitaji mbinu zinazoonekana kuharibika na itifaki thabiti za uthibitishaji.
 
 Katika hali nyingine, fikiria eneo la kuchukua ndege kwenye uwanja wa ndege ambapo rubani anatumia msimbo wa siri kuthibitisha abiria. Hatua hii rahisi lakini yenye ufanisi ya usalama inazuia walaghai kudanganya pande zote mbili.
 
-Nchini Guatemala, uwekaji muhuri wa matokeo ya uchaguzi ulikuwa na jukumu muhimu katika kuhakikisha uadilifu wa mchakato wa uchaguzi. Kwa kutumia mbinu za kriptografia kwa data ya muhuri wa muda, maafisa wa uchaguzi wanaweza kutoa uthibitisho unaoonekana wazi wa uhalisi wa matokeo, na kuwazuia wadanganyifu wanaoweza kuendeshwa na motisha kubwa za kifedha.
+Nchini Guatemala, uwekaji muhuri wa matokeo ya uchaguzi ulikuwa na jukumu muhimu katika kuhakikisha uadilifu wa mchakato wa uchaguzi. Kwa kutumia mbinu za cryptography kwa data ya muhuri wa muda, maafisa wa uchaguzi wanaweza kutoa uthibitisho unaoonekana wazi wa uhalisi wa matokeo, na kuwazuia wadanganyifu wanaoweza kuendeshwa na motisha kubwa za kifedha.
 
 ![Image](assets/en/2/2.webp)
 
 ### Kutambua na Kupunguza Vitisho Vinavyowezekana
 
-Muundo wa vitisho ni mchakato wa kutambua vitisho vya usalama vinavyoweza kutokea na kuunda mikakati ya kukabiliana navyo. Hii inahusisha kuelewa mazingira ya mfumo, kutambua washambuliaji wanaowezekana, na kuunda itifaki salama kulingana na mawazo na uchanganuzi wa uwezekano.
+Muundo wa vitisho ni mchakato wa kutambua vitisho vya usalama vinavyoweza kutokea na kuunda mikakati ya kukabiliana navyo. Hii inahusisha kuelewa mazingira ya mfumo, kutambua washambuliaji wanaowezekana, na kuunda protocol salama kulingana na mawazo na uchanganuzi wa uwezekano.
 
-#### Kuunda Itifaki Salama
+#### Kuunda protocol Salama
 
 Ili kulinda uchaguzi, kwa mfano, uangalizi usio na upendeleo au ufuatiliaji wa vyama mbalimbali unaweza kutekelezwa ili kuhakikisha uwazi na uadilifu. Mbinu za kriptografia, kama vile kuweka muhuri wa muda na uthibitishaji mtambuka, husaidia kudumisha uhalisia wa data na kuzuia kuchezewa.
 
@@ -849,11 +849,11 @@ Kujenga uaminifu si mara moja; inahitaji kuunganisha njia nyingi za uaminifu na 
 
 #### Motisha kwa Usalama
 
-Kuelewa jukumu la motisha ni muhimu katika kudumisha usalama. Kwa mfano, modeli ya usalama ya Bitcoin inategemea motisha ya wachimbaji na uthibitishaji wa washiriki wa mtandao, inayoangazia umuhimu wa motisha za kiuchumi katika kulinda mifumo ikolojia ya dijitali.
+Kuelewa jukumu la motisha ni muhimu katika kudumisha usalama. Kwa mfano, modeli ya usalama ya Bitcoin inategemea motisha ya miners na uthibitishaji wa washiriki wa mtandao, inayoangazia umuhimu wa motisha za kiuchumi katika kulinda mifumo ikolojia ya dijitali.
 
 #### Kulinda Pochi za Bitcoin
 
-Mikakati ya kupata pochi za Bitcoin ni pamoja na usanidi wa sahihi nyingi na uhifadhi wa aina mbalimbali. Mbinu hizi huhakikisha kwamba hata kama kijenzi kimoja kimeathiriwa, usalama wa jumla unasalia kuwa sawa.
+Mikakati ya kupata Wallet za Bitcoin ni pamoja na usanidi wa sahihi nyingi na uhifadhi wa aina mbalimbali. Mbinu hizi huhakikisha kwamba hata kama kijenzi kimoja kimeathiriwa, usalama wa jumla unasalia kuwa sawa.
 
 #### Umuhimu wa Uthibitishaji
 
@@ -861,7 +861,7 @@ Hatimaye, uthibitishaji wa mtumiaji ni muhimu katika kudumisha mtandao salama. J
 
 Kwa kumalizia, kuelewa na kuunganisha kanuni za usalama na kutegemewa ni muhimu katika kubuni mifumo thabiti. Kwa kujifunza kutoka kwa mifano ya kihistoria, kutumia mikakati ya ulimwengu halisi, na kuendelea kuthibitisha uaminifu, tunaweza kuunda mifumo ambayo ni salama na inayotegemeka.
 
-## Programu ya Chanzo Huria na Huria (FLOSS) katika Bitcoin
+## Free/Libre and Open Source Software (FLOSS) katika Bitcoin
 
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
 
@@ -869,7 +869,7 @@ Kwa kumalizia, kuelewa na kuunganisha kanuni za usalama na kutegemewa ni muhimu 
 
 :::video id=4544ef7a-685e-4aaf-98a0-8a10dce06172:::
 
-Matumizi ya Programu Huria na Huria (FLOSS) ni muhimu katika mfumo ikolojia wa Bitcoin. Peter Todd anachunguza umuhimu wa FLOSS kwa Bitcoin, akichunguza historia ya FLOSS na kuchunguza jinsi Github inaturuhusu kwa ushirikiano kuunda programu huria kama Bitcoin.
+Matumizi ya Free/Libre and Open Source Software (FLOSS) ni muhimu katika mfumo ikolojia wa Bitcoin. Peter Todd anachunguza umuhimu wa FLOSS kwa Bitcoin, akichunguza historia ya FLOSS na kuchunguza jinsi Github inaturuhusu kwa ushirikiano kuunda programu huria kama Bitcoin.
 
 ### Asili na Umuhimu wa Programu
 
@@ -879,7 +879,7 @@ Moja ya tofauti kuu kati ya programu na maunzi ni dhana ya chanzo-wazi. Ingawa m
 
 Mfumo wa kisheria unaosimamia programu kimsingi unahusu sheria za hakimiliki. Sheria hizi humpa mtayarishi wa programu haki za kipekee za kutumia, kurekebisha na kusambaza kazi zao. Hata hivyo, leseni za tovuti huria hutoa utaratibu wa kushiriki haki hizi na umma, chini ya masharti maalum. Muundo huu wa kisheria ni muhimu katika kuelewa mienendo ya usambazaji na urekebishaji wa programu.
 
-Kwa muhtasari, asili ya programu kama msimbo na data inayoweza kunakiliwa kwa urahisi, pamoja na mbinu za kisheria zinazotolewa na leseni za programu huria, inasisitiza umuhimu wake muhimu katika mazingira ya kisasa ya kidijitali. Mfumo huu hauendelei tu na uvumbuzi lakini pia huhakikisha kwamba programu inaweza kushirikishwa kwa uhuru na kuboreshwa na jumuiya ya kimataifa.
+Kwa muhtasari, asili ya programu kama msimbo na data zinazoweza kunakiliwa kwa urahisi, pamoja na mbinu za kisheria zinazotolewa na leseni za programu huria, inasisitiza umuhimu wake katika mazingira ya kisasa ya kidijitali. Mfumo huu hauendelei tu uvumbuzi bali pia huhakikisha kwamba programu inaweza kushirikishwa kwa uhuru na kuboreshwa na jumuiya ya kimataifa.
 
 ### Historia ya Mwendo Huria wa Programu
 

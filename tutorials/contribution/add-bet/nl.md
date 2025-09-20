@@ -31,12 +31,12 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/02.webp)
 
 
-- Klik rechtsboven op de knop `Bestand toevoegen` en vervolgens op `Nieuw bestand maken`:
+- Klik rechtsboven op de knop `Add file` (Bestand toevoegen) en vervolgens op `Create new file` (Nieuw bestand maken):
 
 ![event](assets/03.webp)
 
 
-- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een Fork van het originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de `Fork this repository` knop:
+- Als je nog nooit hebt bijgedragen aan de inhoud van PlanB Network, zul je een fork van de originele repository moeten maken. Een repository forken betekent dat je een kopie van die repository maakt op je eigen GitHub account, waarmee je aan het project kunt werken zonder de originele repository te beïnvloeden. Klik op de knop `Fork this repository`:
 
 ![event](assets/04.webp)
 
@@ -46,7 +46,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/05.webp)
 
 
-- Maak een map voor je inhoud. Om dit te doen, schrijf je in het vak `Naam je bestand...` de naam van je inhoud in kleine letters met streepjes in plaats van spaties. Laten we in mijn voorbeeld zeggen dat ik een PDF-visual van de BIP39-lijst van 2048 woorden wil toevoegen. Dus noem ik mijn map `bip39-wordlist`: ![event](assets/06.webp)
+- Maak een map voor je inhoud. Om dit te doen, schrijf je in het vak `Name your file...` de naam van je inhoud in kleine letters met streepjes in plaats van spaties. Laten we in mijn voorbeeld zeggen dat ik een PDF-visual van de BIP39-lijst van 2048 woorden wil toevoegen. Dus noem ik mijn map `bip39-wordlist`: ![event](assets/06.webp)
 - Om de aanmaak van de map te bevestigen, voeg je gewoon een schuine streep toe na de naam in hetzelfde vak, bijvoorbeeld: `bip39-wordlist/`. Door een schuine streep toe te voegen, wordt automatisch een map aangemaakt in plaats van een bestand:
 
 ![event](assets/07.webp)

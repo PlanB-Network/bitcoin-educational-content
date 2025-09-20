@@ -1476,7 +1476,7 @@ Bitcoin Core ndio utekelezaji unaotumika sana wa Full node Inafanya kazi mbili k
 
 - **Utumiaji**: Inaweza kutumika kupitia Laini ya Amri Interface (CLI) na mtumiaji wa picha Interface (GUI).
 - **Asili ya Chanzo Huria**: Nambari hii ni chanzo huria, inayowaruhusu wasanidi programu kuchangia na kukagua utendakazi wake.
-- **Lugha**: Imeandikwa katika C++ na majaribio katika Python, kuhakikisha utendaji thabiti na kutegemewa.
+- **Language**: Imeandikwa katika C++ na majaribio katika Python, kuhakikisha utendaji thabiti na kutegemewa.
 
 ![cli-gui](assets/en/3/13.webp)
 
@@ -1508,9 +1508,9 @@ test/functional/test_runner.py
 
 - Kuunda na kutekeleza jaribio katika Python ili kudhibitisha utendakazi maalum. Faili [example.py](https://github.com/Bitcoin/Bitcoin/blob/master/test/functional/example_test.py) ni mfano uliotolewa maoni sana wa kesi ya majaribio ambayo hutumia miingiliano ya RPC na P2P.
 
-#### Utekelezaji wa Nodi Mbadala
+#### Utekelezaji wa Node Mbadala
 
-Zaidi ya Bitcoin Core, kuna utekelezaji wa nodi mbadala kadhaa:
+Zaidi ya Bitcoin Core, kuna utekelezaji wa node mbadala kadhaa:
 
 
 - **Bitcoin Knots**: Inatoa vipengele vya juu zaidi kuliko msingi wa Bitcoin, inachukua nafasi zaidi na kumbukumbu.
@@ -1521,17 +1521,17 @@ Utekelezaji wa njia hizi mbadala huja na hatari zake, haswa kuhusu sheria za mak
 
 ![implementation](assets/en/3/14.webp)
 
-### Pochi za Bitcoin na Usalama
+### Bitcoin Wallet na Usalama
 
-Pochi za Bitcoin ni muhimu kwa kudhibiti umiliki wako wa Bitcoin kwa usalama. Wanakuja katika aina mbalimbali, kila moja ikiwa na vipengele tofauti na masuala ya usalama.
+Wallet za Bitcoin ni muhimu kwa kudhibiti umiliki wako wa Bitcoin kwa usalama. Wanakuja katika aina mbalimbali, kila moja ikiwa na vipengele tofauti na masuala ya usalama.
 
-#### Aina za Pochi za Bitcoin
+#### Aina za Wallet za Bitcoin
 
-1. **Mlinzi dhidi ya Asiye Mlinzi**:
+1. **Huduma ya Mlinzi dhidi ya Huduma Isiyo ya Mlinzi**:
 
 
-   - **Pochi za Mlinzi**: Inadhibitiwa na wahusika wengine, inayotoa urahisi lakini inayohitaji kuaminiwa na mtunzaji.
-   - **Pochi Zisizo Mlinzi**: Inadhibitiwa na watumiaji, ikitoa usalama na faragha ya juu.
+   - **Custodial wallets (wallets zilixo na ulinzi)**: Inadhibitiwa na wahusika wengine, inayotoa urahisi lakini inayohitaji kuaminiwa na mtunzaji.
+   - **Non-Custodial wallets (wallets Zisizo Mlinzi)**: Inadhibitiwa na watumiaji, ikitoa usalama na faragha ya juu.
 
 2. **Desktop dhidi ya Simu ya Mkononi**:
 
@@ -1539,13 +1539,13 @@ Pochi za Bitcoin ni muhimu kwa kudhibiti umiliki wako wa Bitcoin kwa usalama. Wa
    - **Pochi ya Eneo-kazi**: Kwa kawaida ina vipengele vingi na salama.
    - **Pochi ya Simu**: Toa urahisi na kubebeka.
 
-3. **On-Chain dhidi ya Umeme**:
+3. **On-Chain dhidi ya Lightning**:
 
 
-   - **Pochi ya On-Chain**: Wasiliana moja kwa moja na Bitcoin Blockchain.
-   - **Pochi za Umeme**: Wezesha shughuli za haraka na nafuu za off-chain.
+   - **Wallet ya On-Chain**: Wasiliana moja kwa moja na Bitcoin Blockchain.
+   - **Lightning wallet**: Wezesha shughuli za haraka na nafuu za off-chain.
 
-4. **Pochi za Cold dhidi ya Hot**:
+4. **Cold wallet dhidi ya Hot wallet**:
 
 
    - **Cold Wallet**: Haijaunganishwa kwenye mtandao, inatoa usalama wa hali ya juu dhidi ya udukuzi.
@@ -1553,21 +1553,21 @@ Pochi za Bitcoin ni muhimu kwa kudhibiti umiliki wako wa Bitcoin kwa usalama. Wa
 
 #### Cold Wallet Usalama
 
-Pochi za Cold zinaheshimiwa kwa usalama wao. Kwa kubaki nje ya mtandao, ni sugu kwa udukuzi wa mtandaoni. Hata hivyo, ni muhimu kuhakikisha kwamba miamala inayofanywa kupitia pochi za Cold ni salama na sahihi ili kuzuia kutuma Bitcoin kwa watendaji hasidi bila kukusudia.
+Cold Wallet zinaheshimiwa kwa usalama wao. Kwa kubaki nje ya mtandao, ni sugu kwa udukuzi wa mtandaoni. Hata hivyo, ni muhimu kuhakikisha kwamba miamala inayofanywa kupitia Cold wallets ni salama na sahihi ili kuzuia kutuma Bitcoin kwa watendaji hasidi bila kukusudia.
 
-#### Wallet za Kutazama Pekee
+#### Wallet za Kutazama Pekee (Watch-only wallet)
 
-Pochi za kutazama pekee zina funguo za umma pekee, zinazowaruhusu watumiaji kupokea Bitcoin na kufuatilia salio lao bila uwezo wa kutumia. Kipengele hiki kinaongeza safu ya ziada ya usalama kwa wale wanaohitaji kufuatilia kwa karibu mali zao.
+Pochi za kutazama pekee (Watch-only wallet) zina funguo za umma pekee, zinazowaruhusu watumiaji kupokea Bitcoin na kufuatilia salio lao bila uwezo wa kutumia. Kipengele hiki kinaongeza safu ya ziada ya usalama kwa wale wanaohitaji kufuatilia kwa karibu mali zao.
 
-#### Kazi za Msingi za Pochi ya Bitcoin 
+#### Kazi za Msingi za  Bitcoin wallet 
 
-Bila kujali aina, kila Pochi ya Bitcoin hufanya kazi tatu za kimsingi:
+Bila kujali aina, kila wallet ya Bitcoin hufanya kazi tatu za kimsingi:
 
-1. **Pokea Bitcoin**: Anwani za kuzalisha na ufuatilie kwa miamala inayoingia.
+1. **Pokea Bitcoin**: Address za kuzalisha na ufuatilie kwa miamala inayoingia.
 
 2. **Tuma Bitcoin**: Unda na tangaza miamala kwa mtandao.
 
-3. **Onyesha Salio**: Onyesha salio la sasa la pochi.
+3. **Onyesha Salio**: Onyesha salio la sasa la wallet.
 
 #### Jukumu la Pochi za Bitcoin
 
@@ -1588,27 +1588,27 @@ Bila kujali aina, kila Pochi ya Bitcoin hufanya kazi tatu za kimsingi:
 
 #### Reusability ya Mantiki ya Wallet
 
-Kwa kuzingatia kwamba pochi zote za Bitcoin zinashiriki utendakazi sawa, kuandika upya mantiki ya Pochi mara kwa mara hakufai. Hapa ndipo Kifaa cha Maendeleo cha Bitcoin (BDK) kinapotumika.
+Kwa kuzingatia kwamba wallets zote za Bitcoin zinashiriki utendakazi sawa, kuandika upya mantiki ya wallet mara kwa mara hakufai. Hapa ndipo Kifaa cha Maendeleo cha Bitcoin (Bitcoin Dev Kit) (BDK) kinapotumika.
 
 ### Bitcoin Development Kit (BDK) na Dhana za Kiufundi
 
-Bitcoin Development Kit (BDK) ni maktaba iliyoundwa ili kurahisisha uundaji na usimamizi wa pochi za Bitcoin.
+Bitcoin Development Kit (BDK) ni maktaba iliyoundwa ili kurahisisha uundaji na usimamizi wa wallet za Bitcoin.
 
 #### Muhtasari wa BDK
 
-BDK hurahisisha uundaji wa Pochi kwa kutoa utendakazi wa hali ya juu uliojengwa juu ya Rust Bitcoin. Inaauni lugha nyingi za programu kupitia vifungo, ikiwa ni pamoja na Kotlin, Swift, na Python.
+BDK hurahisisha uundaji wa Wallet kwa kutoa utendakazi wa hali ya juu uliojengwa juu ya Rust Bitcoin. Inaauni lugha nyingi za programu kupitia vifungo, ikiwa ni pamoja na Kotlin, Swift, na Python.
 
 #### Maktaba Nyingine za Bitcoin
 
-Maktaba nyingi za Bitcoin zinahudumia lugha tofauti za programu, kama vile Python, JavaScript, Java, Go, na C. Maktaba hizi hutoa zana mbalimbali za ukuzaji wa Bitcoin.
+Maktaba nyingi za Bitcoin zinahudumia languages tofauti za programu, kama vile Python, JavaScript, Java, Go, na C. Maktaba hizi hutoa zana mbalimbali za ukuzaji wa Bitcoin.
 
 #### Dhana Muhimu za Kiufundi
 
 1. **Vifafanuzi**: Vifafanuzi hufafanua jinsi ya kupata hati na anwani za Bitcoin kutoka kwa funguo, hivyo kuruhusu utendakazi unaonyumbulika na wenye nguvu zaidi wa Pochi.
 
-2. **PSBT (Miamala ya Bitcoin Iliyotiwa Sahihi kwa Kiasi)**: PSBT ni muundo wa miamala inayohitaji sahihi nyingi, kuwezesha miamala shirikishi na usalama ulioimarishwa.
+2. **PSBT (Partially Signed Bitcoin Transaction.)**: PSBT ni muundo wa miamala inayohitaji sahihi nyingi, kuwezesha miamala shirikishi na usalama ulioimarishwa.
 
-3. **Sintaksia ya Rust**: Dhana muhimu katika Rust, kama vile `Chaguo` la usalama batili na aina ya `Matokeo` ya kushughulikia makosa, ni muhimu katika kuelewa na kutumia BDK kwa ufanisi.
+3. **Sintaksia ya Rust**: Dhana muhimu katika Rust, kama vile `choice ` la usalama batili na aina ya `Results` ya kushughulikia makosa, ni muhimu katika kuelewa na kutumia BDK kwa ufanisi.
 
 #### Kuunda na Kusimamia Miamala
 
@@ -1618,12 +1618,12 @@ BDK inarahisisha mchakato wa kujenga, kutia sahihi na kutangaza shughuli:
 
 2. **Sahihi za Miamala**: Tumia PSBT kukusanya sahihi.
 
-3. **Miamala ya Tangaza**: Tuma miamala iliyokamilishwa kwa mtandao.
+3. **Tangaza Miamala**: Tuma miamala iliyokamilishwa kwa mtandao.
 
 #### Mfano Mtiririko wa kazi katika BDK
 
 
-- **Sanidi Pochi**: Anzisha Pochi lenye vifafanuzi.
+- **Sanidi wallet**: Anzisha wallet lenye vifafanuzi.
 
 ```Rust
 use bdk::{Wallet, SyncOptions};
@@ -1643,7 +1643,7 @@ Ok(())
 ```
 
 
-- **Anwani za Kuzalisha**: Unda anwani mpya za kupokea Bitcoin kutoka kwa Testnet Faucet.
+- **Kuzalisha address**: Unda address mpya za kupokea Bitcoin kutoka kwa Testnet Faucet.
 
 ```Rust
 //import AddressIndex outside the main function
@@ -1653,7 +1653,7 @@ let address = wallet.get_address(AddressIndex::New)?;
 ```
 
 
-- **Angalia Salio**: Fuatilia salio la Pochi, kwanza kwa kuunganisha kwenye elektromu, kusawazisha Pochi na kupata salio kutoka kwa Pochi.
+- **Angalia Salio**: Fuatilia salio la wallet, kwanza kwa kuunganisha kwenye elektromu, kusawazisha wallet na kupata salio kutoka kwa wallet.
 
 ```Rust
 //connect to Electrum server and save the blockchain
@@ -1704,7 +1704,7 @@ Kukabidhi na kuchapisha shughuli ya ID (txid) huruhusu ufuatiliaji kwenye mifumo
 
 #### Mazingatio ya Matumizi na Faragha ya BDK
 
-BDK ni ya thamani sana kwa kurahisisha maendeleo ya Pochi la Bitcoin . Kwa ufaragha ulioimarishwa, zana kama vile Electrum, Explora, na nodi za Bitcoin Core za kibinafsi zinapendekezwa.
+BDK ni ya thamani sana kwa kurahisisha maendeleo ya wallet la Bitcoin . Kwa ufaragha ulioimarishwa, zana kama vile Electrum, Explora, na node za Bitcoin Core za kibinafsi zinapendekezwa.
 
 #### Lugha za Kupanga Programu
 
@@ -1714,7 +1714,7 @@ Wakati wa kuendeleza miradi ya Bitcoin, Rust mara nyingi hupendekezwa kutokana n
 
 BDK inategemea vitegemezi kadhaa muhimu, ikiwa ni pamoja na Rust-Bitcoin na Rust-Miniscipt. Maktaba za ziada zinaweza kuajiriwa kwa usimamizi wa hifadhi data na usimbaji fiche.
 
-Kwa kuelewa vipengele hivi, kutoka nodi na pochi za Bitcoin hadi Kifaa cha Maendeleo cha Bitcoin (BDK), unaweza kuabiri mfumo ikolojia wa Bitcoin kwa ujasiri na umahiri zaidi. Maarifa haya yanakupa uwezo wa kutengeneza programu dhabiti na salama za Bitcoin, na kuchangia katika mabadiliko yanayoendelea ya teknolojia hii ya kimapinduzi.
+Kwa kuelewa vipengele hivi, kutoka node na Wallets za Bitcoin hadi Kifaa cha Maendeleo cha Bitcoin (BDK), unaweza kuabiri mfumo ikolojia wa Bitcoin kwa ujasiri na umahiri zaidi. Maarifa haya yanakupa uwezo wa kutengeneza programu dhabiti na salama za Bitcoin, na kuchangia katika mabadiliko yanayoendelea ya teknolojia hii ya kimapinduzi.
 
 # Lightning Network
 
@@ -1730,11 +1730,11 @@ Kwa kuelewa vipengele hivi, kutoka nodi na pochi za Bitcoin hadi Kifaa cha Maend
 
 ### Historia ya Njia za Malipo
 
-Karibu kwenye mhadhara wetu kuhusu suluhu za kisasa za malipo ndani ya teknolojia ya Blockchain. Leo, tutachunguza muktadha wa kihistoria na maendeleo muhimu ya kufuli za aina nyingi (MHLs) na Lightning Network.
+Karibu kwenye mhadhara wetu kuhusu suluhu za kisasa za malipo ndani ya teknolojia ya Blockchain. Leo, tutachunguza muktadha wa kihistoria na maendeleo muhimu ya Multi-Hop Locks (MHLs) na Lightning Network.
 
 #### Muktadha na Muktadha wa Kihistoria
 
-Kufuli za Multi-hop (MHLs) na Lightning Network ni dhana za hali ya juu katika teknolojia ya Blockchain ambayo hurahisisha malipo madogo madogo na salama kwenye mtandao. Kihistoria, hitaji la ubunifu huu lilitokana na kutofaulu na mapungufu yaliyoonekana katika uwekaji wa awali wa teknolojia za Blockchain, haswa Bitcoin. Tunapochunguza kwa undani zaidi, utaelewa jinsi miundo kulingana na mada na mbinu zilizowekwa zimeleta mapinduzi katika shughuli za Blockchain.
+Multi-hop locks (MHLs) na Lightning Network ni dhana za hali ya juu katika teknolojia ya Blockchain ambayo hurahisisha malipo madogo madogo na salama kwenye mtandao. Kihistoria, hitaji la ubunifu huu lilitokana na kutofaulu na mapungufu yaliyoonekana katika uwekaji wa awali wa teknolojia za Blockchain, haswa Bitcoin. Tunapochunguza kwa undani zaidi, utaelewa jinsi miundo kulingana na mada na mbinu zilizowekwa zimeleta mapinduzi katika shughuli za Blockchain.
 
 ### Muundo Kulingana na Mada
 
@@ -1742,17 +1742,17 @@ Kuanzishwa kwa MHL na Lightning Network kunaashiria mabadiliko ya dhana kutoka k
 
 ### Matatizo na Bitcoin
 
-Bitcoin, mwanzilishi wa teknolojia ya Blockchain, ilianzisha mfumo uliogatuliwa ambapo shughuli zinatangazwa kwenye mtandao mzima. Wakati wa mapinduzi, njia hii kwa asili haina ufanisi. Kila nodi kwenye mtandao lazima ithibitishe kila muamala, hivyo basi kusababisha ucheleweshaji mkubwa na vikwazo, hasa wakati wa kiasi kikubwa cha malipo.
+Bitcoin, mwanzilishi wa teknolojia ya Blockchain, ilianzisha mfumo uliogatuliwa ambapo shughuli zinatangazwa kwenye mtandao mzima. Wakati wa mapinduzi, njia hii kwa asili haina ufanisi. Kila node kwenye mtandao lazima ithibitishe kila muamala, hivyo basi kusababisha ucheleweshaji mkubwa na vikwazo, hasa wakati wa kiasi kikubwa cha malipo.
 
-Mchakato wa uthibitishaji uliogatuliwa wa Bitcoin unahitaji rasilimali nyingi za hesabu. Kila muamala lazima uthibitishwe na kurekodiwa na nodi nyingi, ukitumia kiasi kikubwa cha nishati na nguvu ya usindikaji. Hii sio tu huongeza gharama za uendeshaji lakini pia huweka mzigo kwenye kipimo data cha mtandao, na kusababisha kuongezeka kwa ada za ununuzi na nyakati za usindikaji polepole.
+Mchakato wa uthibitishaji uliogatuliwa wa Bitcoin unahitaji rasilimali nyingi za hesabu. Kila muamala lazima uthibitishwe na kurekodiwa na node nyingi, ukitumia kiasi kikubwa cha nishati na nguvu ya usindikaji. Hii sio tu huongeza gharama za uendeshaji lakini pia huweka mzigo kwenye kipimo data cha mtandao, na kusababisha kuongezeka kwa ada za ununuzi na nyakati za usindikaji polepole.
 
-Ingawa ugatuaji wa Bitcoin ni mojawapo ya nguvu zake kuu, pia unaleta changamoto kubwa. Hali ya umma ya Blockchain inamaanisha kuwa miamala yote inaonekana kwa kila mtu, na hivyo kuibua wasiwasi wa faragha. Zaidi ya hayo, hitaji la makubaliano kati ya nodi nyingi linaweza kusababisha shinikizo la uwekaji kati, kwani nguvu ya Uchimbaji inakuwa imejilimbikizia mikononi mwa vyombo vikubwa vichache.
+Ingawa ugatuaji wa Bitcoin ni mojawapo ya nguvu zake kuu, pia unaleta changamoto kubwa. Hali ya umma ya Blockchain inamaanisha kuwa miamala yote inaonekana kwa kila mtu, na hivyo kuibua wasiwasi wa faragha. Zaidi ya hayo, hitaji la makubaliano kati ya node nyingi linaweza kusababisha shinikizo la uwekaji kati, kwani nguvu ya mining inakuwa imejilimbikizia mikononi mwa vyombo vikubwa vichache.
 
 ### Njia za Malipo kama Suluhisho
 
 ![Gold coin](assets/en/4/1.webp)_Gold Standard Metaphor_
 
-Kwa Anwani uzembe na masuala ya faragha ya Bitcoin, njia za malipo zimependekezwa kama suluhisho linalowezekana. Njia ndogo za malipo huruhusu miamala kutokea off-chain, na hivyo kupunguza hitaji la kushiriki data mara kwa mara kwenye mtandao mzima. Hii kwa kiasi kikubwa hupunguza mzigo kwenye Blockchain, kuruhusu kwa shughuli za haraka na za bei nafuu.
+Kwa address uzembe na masuala ya faragha ya Bitcoin, njia za malipo zimependekezwa kama suluhisho linalowezekana. Njia ndogo za malipo huruhusu miamala kutokea off-chain, na hivyo kupunguza hitaji la kushiriki data mara kwa mara kwenye mtandao mzima. Hii kwa kiasi kikubwa hupunguza mzigo kwenye Blockchain, kuruhusu kwa shughuli za haraka na za bei nafuu.
 
 Kanuni ya msingi ya njia za malipo ni dhana ya kuchukua miamala off-chain. Badala ya kutangaza kila muamala kwa mtandao mzima, wahusika wanaweza kufungua njia ya malipo na kufanya miamala mingi kati yao. Ni ufunguzi na kufungwa kwa chaneli pekee ndiko kunakorekodiwa kwenye Blockchain, na kuboresha kwa kiasi kikubwa ufanisi na faragha.
 
@@ -1774,11 +1774,11 @@ Katika majadiliano yetu ya awali, tuliangazia misingi ya njia msingi za malipo. 
 
 ### Hops za Kati
 
-Kwa Anwani mapungufu haya, Manny Rosenfeld alipendekeza dhana ya hops kuu mwaka wa 2012. Muundo huu ulianzisha vichakataji vya malipo ya kati, kama vile TrustPay, kwa njia ya malipo kati ya watumiaji. Ingawa njia hii inaweza kupunguza haja ya njia nyingi za moja kwa moja, inaleta vikwazo muhimu. Humle za serikali kuu zinakabiliwa na masuala ya usalama, wasiwasi wa uaminifu, ukiukaji wa faragha, uwezekano wa ulaghai, udhibiti, na shida za kutegemewa. Watumiaji lazima waamini huluki hizi zilizowekwa kati ili kuwezesha shughuli zao, jambo ambalo ni kinyume na kanuni za ugatuaji.
+Kwa address pungufu hii, Manny Rosenfeld alipendekeza dhana ya hops kuu mwaka wa 2012. Muundo huu ulianzisha vichakataji vya malipo ya kati, kama vile TrustPay, kwa njia ya malipo kati ya watumiaji. Ingawa njia hii inaweza kupunguza haja ya njia nyingi za moja kwa moja, inaleta vikwazo muhimu. Humle za serikali kuu zinakabiliwa na masuala ya usalama, wasiwasi wa uaminifu, ukiukaji wa faragha, uwezekano wa ulaghai, udhibiti, na shida za kutegemewa. Watumiaji lazima waamini huluki hizi zilizowekwa kati ili kuwezesha shughuli zao, jambo ambalo ni kinyume na kanuni za ugatuaji.
 
 ### Hashed Time Lock Contract (HTLC) na Utekelezaji
 
-Mapungufu na vikwazo vya humle wa kati viliitaka suluhu iliyo salama zaidi na iliyogatuliwa. Hitaji hili lilisababisha kutengenezwa kwa Njia ya Kufuli ya Muda ya Hashed Contract (HTLC), iliyopendekezwa mwaka wa 2015 na Joseph Poon na Thaddeus Dreijer kama sehemu ya Lightning Network. HTLC huchanganya kanuni za kufuli za saa na kufuli za Hash ili kuhakikisha atomiki na uaminifu katika miamala. Hii ina maana kwamba muamala unakamilika kikamilifu au haufanyiki kabisa, hivyo basi kupunguza hatari zinazohusiana na malipo yasiyokamilika.
+Mapungufu na vikwazo vya humle wa kati viliitaka suluhu iliyo salama zaidi na iliyogatuliwa. Hitaji hili lilisababisha kutengenezwa kwa Njia ya Hashed Time-Lock Contract (HTLC), iliyopendekezwa mwaka wa 2015 na Joseph Poon na Thaddeus Dreijer kama sehemu ya Lightning Network. HTLC huchanganya kanuni za kufuli za saa na kufuli za Hash ili kuhakikisha atomiki na uaminifu katika miamala. Hii ina maana kwamba muamala unakamilika kikamilifu au haufanyiki kabisa, hivyo basi kupunguza hatari zinazohusiana na malipo yasiyokamilika.
 
 Mtiririko wa kazi wa HTLC unahusisha mchakato wa hatua nyingi unaohakikisha uelekezaji salama kupitia wapatanishi wengi. Tuseme Alice anataka kumlipa Eric kupitia waamuzi Bob, Carol, na Diana. Kila hatua katika mchakato inahusisha kuunda miamala ya kujitolea na kupunguza kufuli za muda na kiasi. Ikiwa ni lazima, hatua ya mwisho inaweza kutangazwa kwa mtandao wa Bitcoin ili kukamilisha shughuli.
 
@@ -1796,7 +1796,7 @@ Vituo vinasasisha hali yao kulingana na makubaliano ya pande zote na sahihi kati
 
 #### Atomicity Imehakikishwa
 
-Utaratibu wa HTLC huhakikisha atomiki kupitia matumizi ya kufuli wakati na sahihi. Ulinzi huu huhakikisha kwamba itifaki ya malipo inahakikisha ama kufaulu au kutofaulu kamili, kulinda dhidi ya upotevu wa sehemu ya hazina.
+Utaratibu wa HTLC huhakikisha atomiki kupitia matumizi ya kufuli wakati na sahihi. Ulinzi huu huhakikisha kwamba protocol ya malipo inahakikisha ama kufaulu au kutofaulu kamili, kulinda dhidi ya upotevu wa sehemu ya hazina.
 
 ![Time lock and signatures](assets/en/4/3.webp)_Combine restrictions_
 
@@ -1810,17 +1810,17 @@ Hata hivyo, kurukaruka zaidi katika njia ya malipo kunaweza kuongeza muda wa kus
 
 #### Grafu ya Channel na Ukwasi
 
-Nodi ndani ya mtandao zinaweza kuwa sehemu ya grafu ya kituo iliyotangazwa kwa umma au kusalia bila kutangazwa. Ukwasi wa njia hizi una jukumu muhimu katika uelekezaji bora kwa kuwa nodi zinahitaji salio la kutosha ili kuwasilisha malipo kwa mafanikio.
+Nodi ndani ya mtandao zinaweza kuwa sehemu ya grafu ya kituo iliyotangazwa kwa umma au kusalia bila kutangazwa. Ukwasi wa njia hizi una jukumu muhimu katika uelekezaji bora kwa kuwa node zinahitaji salio la kutosha ili kuwasilisha malipo kwa mafanikio.
 
 #### Uelekezaji wa Chanzo na Faragha
 
-Alice lazima awe na ujuzi wa topolojia ya mtandao ili kuamua njia ya malipo. Uelekezaji wa chanzo hutumika kuhifadhi faragha licha ya ugumu wa uelekezaji wa malipo kupitia wapatanishi wengi.
+Alice lazima awe na ujuzi wa topology ya mtandao ili kuamua njia ya malipo. Uelekezaji wa chanzo hutumika kuhifadhi faragha licha ya ugumu wa uelekezaji wa malipo kupitia wapatanishi wengi.
 
 ![Source Routing](assets/en/4/4.webp)_Source Routing Path_
 
 #### Hitimisho
 
-Kwa muhtasari, utendakazi sahihi wa nodi huhakikisha malipo ya atomiki, na Lightning Network inalenga Anwani ya masuala mengi yanayokabili mifumo ya kawaida ya malipo kama vile Ripple. Kwa kutumia HTLCs na uelekezaji wa kimkakati, Lightning Network hutoa suluhisho linaloweza kupanuka zaidi, bora na salama kwa malipo yaliyogatuliwa.
+Kwa muhtasari, utendakazi sahihi wa node huhakikisha malipo ya atomiki, na Lightning Network inalenga address ya masuala mengi yanayokabili mifumo ya kawaida ya malipo kama vile Ripple. Kwa kutumia HTLCs na uelekezaji wa kimkakati, Lightning Network hutoa suluhisho linaloweza kupanuka zaidi, bora na salama kwa malipo yaliyogatuliwa.
 
 ## Mapitio ya Bolt
 
@@ -1828,11 +1828,11 @@ Kwa muhtasari, utendakazi sahihi wa nodi huhakikisha malipo ya atomiki, na Light
 
 :::video id=f0d17fe4-d793-4b90-924e-b551db501fbb:::
 
-Mtandao wa Bitcoin unafanya kazi kama mfumo wa Trustless wa thamani wa Ubadilishanaji, unaotumika kimsingi kama suluhu la safu ambapo miamala hurekodiwa kwenye Leja ya umma. Hii inahakikisha usalama na kutobadilika lakini inakuja na vikwazo, haswa katika suala la kasi ya ununuzi na ada. Matokeo yake, Bitcoin inaweza kuwa na ufanisi kwa shughuli ndogo za kila siku.
+Mtandao wa Bitcoin unafanya kazi kama mfumo wa Trustless wa thamani wa exchange, unaotumika kimsingi kama suluhu la safu ambapo miamala hurekodiwa kwenye Leja ya umma. Hii inahakikisha usalama na kutobadilika lakini inakuja na vikwazo, haswa katika suala la kasi ya ununuzi na ada. Matokeo yake, Bitcoin inaweza kuwa na ufanisi kwa shughuli ndogo za kila siku.
 
 Ingiza Lightning Network, ambayo inafanya kazi kama safu ya pili juu ya Bitcoin Blockchain. Mtandao huu wa malipo umeundwa ili kuwezesha miamala ya haraka na ya gharama nafuu. Kwa kufungua njia ya malipo kati ya pande mbili, wanaweza kufanya shughuli za off-chain, kurekodi tu salio la awali na la mwisho kwenye Bitcoin Blockchain. Hii inapunguza kwa kiasi kikubwa mzigo kwenye mtandao kuu, kuongeza kasi na kufanya shughuli ndogo iwezekanavyo.
 
-Ili kufahamu dhana vizuri zaidi, fikiria mlinganisho wa kichupo cha upau. Unapofungua kichupo kwenye baa, unaweza kuagiza vinywaji bila kulipa baada ya kila kimoja. Hatimaye, unalipa jumla ya kiasi mwishoni mwa usiku. Vile vile, chaneli ya Umeme inaruhusu shughuli nyingi za off-chain, ambazo hutuliwa tu On-Chain wakati chaneli imefungwa. Mfano mwingine ni uwanja wa ndege, ambapo kuelekeza malipo kupitia nodi nyingi ni sawa na kuchukua ndege za kuunganisha ili kufikia unakoenda. Kila nodi (au "ndege") husaidia kuelekeza malipo yako inapohitaji kwenda, na kuhakikisha uelekezaji mzuri.
+Ili kufahamu dhana vizuri zaidi, fikiria mlinganisho wa kichupo cha upau. Unapofungua kichupo kwenye baa, unaweza kuagiza vinywaji bila kulipa baada ya kila kimoja. Hatimaye, unalipa jumla ya kiasi mwishoni mwa usiku. Vile vile, chaneli ya Lightning inaruhusu shughuli nyingi za off-chain, ambazo hutuliwa tu On-Chain wakati chaneli imefungwa. Mfano mwingine ni uwanja wa ndege, ambapo kuelekeza malipo kupitia node nyingi ni sawa na kuchukua ndege za kuunganisha ili kufikia unakoenda. Kila node (au "ndege") husaidia kuelekeza malipo yako inapohitaji kwenda, na kuhakikisha uelekezaji mzuri.
 
 ![airport analogy](assets/en/4/5.webp)_The airport analogy of LN_
 
@@ -1840,7 +1840,7 @@ Kimsingi, Lightning Network inakamilisha mtandao wa Bitcoin kwa kushughulikia ma
 
 ### **Vipimo vya Lightning Network**
 
-Itifaki ya Lightning Network inafafanuliwa kwa uangalifu kupitia BOLT 10 (Msingi wa Teknolojia ya Umeme). BOLT hizi zilikubaliwa wakati wa mkutano huko Milan na hutumika kama msingi wa utekelezaji mbalimbali wa Lightning Network.
+Protocol ya Lightning Network inafafanuliwa kwa uangalifu kupitia BOLT 10 (Basis of Lightning Technology). BOLT hizi zilikubaliwa wakati wa mkutano huko Milan na hutumika kama msingi wa utekelezaji mbalimbali wa Lightning Network.
 
 ![bolt](assets/en/4/6.webp)_BOLT Diagram _
 
@@ -1849,7 +1849,7 @@ Itifaki ya Lightning Network inafafanuliwa kwa uangalifu kupitia BOLT 10 (Msingi
 Bolt 1 inaangazia uumbizaji wa ujumbe kwa kutumia muundo wa Thamani ya Aina ya Urefu (TLV), ambao huhakikisha kuwa ujumbe unaeleweka kwa usawa katika utekelezaji tofauti. Mawasiliano kwa kawaida hufanywa kupitia mlango maalum wa TCP, na ujumbe unaweza kuainishwa katika:
 
 
-- Ujumbe wa Mawasiliano**: Hizi ni pamoja na `Init`, `Error`, `Onyo`, `Ping` na `Pong` ujumbe, ambazo huanzisha miunganisho, kushughulikia hitilafu, kuchunguza hali ya muunganisho na kutatiza trafiki.
+- **Ujumbe wa Mawasiliano**: Hizi ni pamoja na `Init`, `Error`, `Onyo`, `Ping` na `Pong` ujumbe, ambazo huanzisha miunganisho, kushughulikia hitilafu, kuchunguza hali ya muunganisho na kutatiza trafiki.
 - **Ujumbe wa Kuanzisha Kituo**: Hizi ni muhimu wakati wa awamu ya uanzishaji wa kituo.
 - **Ujumbe wa Hali ya Idhaa**: Ujumbe huu hushughulikia masasisho ndani ya chaneli zinazotumika, kuhakikisha pande zote mbili zinasawazishwa.
 - **Ujumbe wa Udaku**: Hizi hutumika kwa ugunduzi wa topolojia ya mtandao na masasisho.
@@ -1860,7 +1860,7 @@ Bolt 1 inaangazia uumbizaji wa ujumbe kwa kutumia muundo wa Thamani ya Aina ya U
 Bolt 2 hujishughulisha na mzunguko wa maisha wa chaneli, kuanzia uanzishwaji hadi shughuli za kawaida na, hatimaye, suluhu. Taratibu kuu ni pamoja na:
 
 
-- **Uanzishaji wa Kituo**: Katika awamu hii, wahusika hufungua chaneli, sahihi za ubadilishanaji, na kuunda shughuli ya ufadhili.
+- **Uanzishaji wa Kituo**: Katika awamu hii, wahusika hufungua chaneli, sahihi za exchange, na kuunda shughuli ya ufadhili.
 - **Uendeshaji wa Kawaida**: Hapa, hali ya kituo inasasishwa mara kwa mara kwa kutumia Mikataba Iliyofungwa kwa Muda wa Hash (HTLCs). Kujitolea na jumbe za ubatilishaji zinahakikisha pande zote mbili zinakubaliana kuhusu hali ya sasa.
 - **Suluhu**: Hii inahusisha kufunga chaneli, kwa kawaida kupitia makubaliano ya pande zote mbili na mazungumzo ya ada, ili kukamilisha miamala bila kuingiza kitanzi cha kufungwa kwa muda usiojulikana.
 
@@ -1878,27 +1878,27 @@ Njia zinaweza kufungwa kupitia makubaliano ya pande zote mbili, hatua ya upande 
 
 #### Hubadilishana kwa Usimamizi wa Ukwasi
 
-Ubadilishanaji huwezesha uondoaji wa On-Chain na usimamizi bora wa ukwasi bila kufunga chaneli. Suluhisho za siku zijazo kama vile kuunganisha zinatengenezwa ili kuboresha mchakato huu.
+Exchange huwezesha uondoaji wa On-Chain na usimamizi bora wa ukwasi bila kufunga chaneli. Suluhisho za siku zijazo kama vile kuunganisha zinatengenezwa ili kuboresha mchakato huu.
 
 #### Hatua za Usalama
 
 Shughuli za kujitolea hujumuisha mbinu kama vile nLockTime, OPCheckSequenceVerify, na funguo za kubatilisha ili kupata pesa na kuzuia wizi.
 
-### Njia na Njia ya vitunguu
+### Routing na Onion Routing
 
-![onion routing](assets/en/4/7.webp)_Njia Za Vitunguu diagram _
+![onion routing](assets/en/4/7.webp)_Onion Routing  diagram _
 
-Malipo hupitishwa kwa kutumia njia ya vitunguu, ambayo inahusisha kuunda pakiti zilizosimbwa kwa njia fiche zinazotumwa kupitia nodi nyingi. HTLC hulinda muamala, kuhakikisha faragha na usalama.
+Malipo hupitishwa kwa kutumia Onion Routing, ambayo inahusisha kuunda pakiti zilizosimbwa kwa njia fiche zinazotumwa kupitia node nyingi. HTLC hulinda muamala, kuhakikisha faragha na usalama.
 
 ### Muundo wa Invoice
 
-Ankara za Lightning Network (Bolt 11) zimesimbwa katika Bech32 na zinajumuisha maelezo kama vile malipo ya Hash, maelezo na mwisho wa matumizi. Kila anwani ya ununuzi lazima itumike mara moja ili kuzuia matatizo ya kutumia tena.
+Invoice za Lightning Network (Bolt 11) zimesimbwa katika Bech32 na zinajumuisha maelezo kama vile malipo ya Hash, maelezo na mwisho wa matumizi. Kila anwani ya ununuzi lazima itumike mara moja ili kuzuia matatizo ya kutumia tena.
 
 ![Invoice structure](assets/en/4/8.webp)_BOLT11 Invoice_
 
 #### Usimbaji fiche na Uthibitishaji
 
-Taratibu za kupeana mkono na usimbaji fiche (Chacha20) kwa uthibitishaji (Poly1305) huhakikisha uadilifu wa ujumbe na faragha katika miamala ya Umeme.
+Taratibu za kupeana mkono na usimbaji fiche (Chacha20) kwa uthibitishaji (Poly1305) huhakikisha uadilifu wa ujumbe na faragha katika miamala ya Lightning.
 
 #### Njia Mbadala
 
@@ -1906,14 +1906,14 @@ Mbinu nyingine za ombi la malipo kama vile LNURL, KeySend, na Bolt 12 hutoa vipe
 
 #### Ugunduzi wa Mtandao
 
-Ugunduzi wa mtandao katika Lightning Network umebadilika kutoka kwa matumizi yake ya awali ya IRC (Internet Relay Communication) hadi itifaki ya kisasa zaidi iliyofafanuliwa na Bolt 7. Itifaki hii hutumia jumbe mahususi za Umeme-hujulikana kama jumbe za porojo-ili kugundua na kudumisha topolojia ya mtandao.
+Ugunduzi wa mtandao katika Lightning Network umebadilika kutoka kwa matumizi yake ya awali ya IRC (Internet Relay Communication) hadi protocol ya kisasa zaidi iliyofafanuliwa na Bolt 7. protocol hii hutumia jumbe mahususi ya Lightning-hujulikana kama jumbe za porojo-ili kugundua na kudumisha topolojia ya mtandao.
 
 #### Ujumbe wa Bolt7
 
 Ujumbe muhimu wa Bolt 7 ni pamoja na:
 
 
-- **Tangazo la Nodi**: Ujumbe huu unatangaza kuwepo kwa nodi.
+- **Tangazo la Node**: Ujumbe huu unatangaza kuwepo kwa node.
 - **Tangazo la Kituo**: Ujumbe huu unafahamisha mtandao kuhusu kuundwa kwa kituo kipya.
 - **Sahihi ya Tangazo**: Hii inahakikisha uhalisi wa ujumbe wa matangazo.
 - **Usasishaji wa Kituo**: Ujumbe huu huwasilisha masasisho kuhusu kituo, kama vile miundo ya ada na viwango vya juu vya HTLC.
@@ -1924,15 +1924,15 @@ Mchakato huanza na wenzao wa karibu kubadilishana utambulisho na maelezo ya kitu
 
 #### DNS Bootstrap
 
-Kugundua wenzao wa Umeme kunawezeshwa na maswali ya DNS na Bitcoin mbegu ya DNS, ambayo hutoa maelezo ya IP na nodi. Utaratibu huu wa awali wa ugunduzi husaidia nodi kuunganishwa kwenye mtandao haraka.
+Kugundua wenzao wa Lightning kunawezeshwa na maswali ya DNS na Bitcoin seed ya DNS, ambayo hutoa maelezo ya IP na node. Utaratibu huu wa awali wa ugunduzi husaidia node kuunganishwa kwenye mtandao haraka.
 
-#### Matangazo ya Kipengele
+#### Matangazo ya element
 
-Nodi zinaweza kutangaza vipengele vyake vinavyotumika, kuhakikisha uoanifu wa nyuma huku ukiruhusu uboreshaji wa hiari. Unyumbulifu huu huhakikisha kwamba nodi zote zinaweza kuingiliana vizuri, hata jinsi itifaki inavyobadilika.
+Node zinaweza kutangaza elements zake zinavyotumika, kuhakikisha uoanifu wa nyuma huku ukiruhusu uboreshaji wa hiari. Unyumbulifu huu huhakikisha kwamba node zote zinaweza kuingiliana vizuri, hata jinsi itifaki inavyobadilika.
 
-#### Kushughulikia ankara za Bolt11
+#### Kushughulikia Invoice za Bolt11
 
-Mtandao huhakikisha upekee wa ankara za Bolt 11 ili kuepuka malipo mengi ya Anwani ya ununuzi sawa. Ikiwa Anwani ya ununuzi inatumiwa tena, nodi za mtandao hukata na kuzuia malipo mara mbili, kudumisha uadilifu wa ununuzi.
+Mtandao huhakikisha upekee wa Invoice za Bolt 11 ili kuepuka malipo mengi ya address ya ununuzi sawa. Ikiwa address ya ununuzi inatumiwa tena, node za mtandao hukata na kuzuia malipo mara mbili, kudumisha uadilifu wa ununuzi.
 
 #### Usambazaji wa Data ya Sauti
 
@@ -1954,29 +1954,29 @@ Kwa kumalizia, kuelewa Umuhimu wa Pili wa safu, Maagizo ya Lightning Network, na
 
 :::video id=90240cb6-a942-4015-b0c2-b721c48309ec:::
 
-Lightning Network (LN) inawakilisha mafanikio makubwa katika kuongeza kasi ya Bitcoin na kasi ya muamala. Wateja wa LN, ambao kwa kawaida hujulikana kama pochi za umeme, ni programu au programu maalum zinazowawezesha watumiaji kufanya miamala kupitia Lightning Network. Pochi hizi hutumika kama Interface muhimu kati ya mtumiaji na LN, kuwezesha shughuli za malipo ya papo hapo, za ada ya chini kwa kutumia njia za off-chain.
+Lightning Network (LN) inawakilisha mafanikio makubwa katika kuongeza kasi ya Bitcoin na kasi ya muamala. Wateja wa LN, ambao kwa kawaida hujulikana kama Wallet za lightning, ni programu au programu maalum zinazowawezesha watumiaji kufanya miamala kupitia Lightning Network. wallet hizi hutumika kama Interface muhimu kati ya mtumiaji na LN, kuwezesha shughuli za malipo ya papo hapo, za ada ya chini kwa kutumia njia za off-chain.
 
-Pochi za umeme zimeundwa ili kufanya mchakato kuwa rahisi kwa watumiaji, kuruhusu hata wale walio na ujuzi mdogo wa kiufundi kufaidika kutokana na utendaji wa juu wa Bitcoin. Kwa kuwezesha miamala midogo ya haraka na ya gharama nafuu, pochi hizi huchangia pakubwa katika upitishaji mpana wa Bitcoin kwa shughuli za kila siku.
+Lightning wallets zimeundwa ili kufanya mchakato kuwa rahisi kwa watumiaji, kuruhusu hata wale walio na ujuzi mdogo wa kiufundi kufaidika kutokana na utendaji wa juu wa Bitcoin. Kwa kuwezesha miamala midogo ya haraka na ya gharama nafuu, Wallets hizi huchangia pakubwa katika upitishaji mpana wa Bitcoin kwa shughuli za kila siku.
 
 ![LN Clients](assets/en/4/9.webp)_Lightning Wallets_
 
-### Pochi za Bitcoin dhidi ya Pochi za Umeme
+### Bitcoin Wallet dhidi ya Lightning wallet 
 
-Pochi za Bitcoin na pochi za Umeme hutofautiana kimsingi katika usanifu na matumizi yao, ingawa zinashiriki kipengele cha kawaida cha usimamizi wa funguo za kibinafsi:
+Bitcoin Wallet na Lightning wallet hutofautiana kimsingi katika usanifu na matumizi yao, ingawa zinashiriki kipengele cha kawaida cha usimamizi wa funguo za kibinafsi:
 
-#### Pochi za Bitcoin:
-
-
-- **Wasiwasi wa Ufunguo wa Faragha**: Jambo kuu linalozingatia pochi za Bitcoin ni nani anayeshikilia ufunguo wa faragha. Hii huamua usalama na udhibiti wa fedha za mtumiaji.
-- **Utata wa Muamala**: Pochi za Bitcoin hushughulikia hati mbalimbali za miamala kama vile Segregated Witness (SegWit) na Taproot, ambayo huongeza ukubwa wa miamala na kuimarisha faragha na usalama.
-
-#### Pochi za Umeme:
+#### Lightning wallet:
 
 
-- **Usimamizi wa Ufunguo wa Kibinafsi**: Sawa na pochi za Bitcoin, udhibiti wa funguo za kibinafsi bado ni muhimu.
-- **Udhibiti wa Ukwasi**: Kipengele tofauti cha pochi za Umeme ni hitaji la kudhibiti ukwasi, ambayo inahusisha kusawazisha ukwasi wa ndani (utokao nje) na wa mbali (unaoingia) ili kuhakikisha uelekezaji laini wa muamala. Hii inahitaji watumiaji kuelewa na kuboresha vituo vyao ili kuwezesha usambazaji bora wa malipo.
+- **Wasiwasi wa Ufunguo wa Faragha**: Jambo kuu linalozingatia Bitcoin Wallet ni nani anayeshikilia ufunguo wa faragha. Hii huamua usalama na udhibiti wa fedha za mtumiaji.
+- **Utata wa Muamala**: wallet za Bitcoin hushughulikia hati mbalimbali za miamala kama vile Segregated Witness (SegWit) na Taproot, ambayo huongeza ukubwa wa miamala na kuimarisha faragha na usalama.
 
-#### Usimamizi wa Umeme katika Pochi za Umeme
+#### Lightning wallet:
+
+
+- **Usimamizi wa Ufunguo wa Kibinafsi**: Sawa na Wallets za Bitcoin, udhibiti wa funguo za kibinafsi bado ni muhimu.
+- **Udhibiti wa Ukwasi**: Kipengele tofauti cha Lightning wallet ni hitaji la kudhibiti ukwasi, ambayo inahusisha kusawazisha ukwasi wa ndani (utokao nje) na wa mbali (unaoingia) ili kuhakikisha uelekezaji laini wa muamala. Hii inahitaji watumiaji kuelewa na kuboresha vituo vyao ili kuwezesha usambazaji bora wa malipo.
+
+#### Usimamizi wa Umeme katika Lightning wallet
 
 Udhibiti mzuri wa ukwasi ni msingi wa shughuli zilizofanikiwa za Lightning Network. Inahusisha usawa wa kimkakati wa aina mbili za msingi za ukwasi:
 
@@ -2010,13 +2010,13 @@ Hata hivyo, ikiwa mojawapo ya njia hizi inakabiliwa na upungufu au matatizo ya m
 - **Kupungua kwa Idhaa**: Baada ya muda, chaneli zinaweza kukosa usawa, pesa zikiwa zimejilimbikizia upande mmoja, hivyo basi kupunguza uwezo wa kufanya miamala.
 - **Masuala ya Muunganisho**: Uelekezaji mzuri wa shughuli unahitaji miunganisho thabiti ya mtandao, ambayo inaweza kuwa changamoto kudumisha.
 
-Kwa Anwani changamoto hizi, Watoa Huduma za Liquidity (LSPs) hutoa huduma ili kusaidia kudhibiti ukwasi, mara nyingi kwa ada, kuhakikisha watumiaji wanadumisha salio bora zaidi za chaneli kwa miamala laini.
+Kwa Address changamoto hizi, Lightning Service Providers (LSPs) hutoa huduma ili kusaidia kudhibiti ukwasi, mara nyingi kwa ada, kuhakikisha watumiaji wanadumisha salio bora zaidi za chaneli kwa miamala laini.
 
-### Pochi tofauti na sifa zake
+### Wallets tofauti na sifa zake
 
-Pochi mbalimbali za umeme zinapatikana, kila moja inakidhi mahitaji na matakwa tofauti ya mtumiaji. Hapa kuna baadhi ya mifano:
+Wallets mbalimbali za lightning zinapatikana, kila moja inakidhi mahitaji na matakwa tofauti ya mtumiaji. Hapa kuna baadhi ya mifano:
 
-#### Wallet ya Satoshi:
+#### Wallet of Satoshi:
 
 
 - **Vipengele**: Inadhibitiwa kikamilifu, inayoweza kufaa mtumiaji, lakini chanzo kilichofungwa chenye maswala ya faragha yanayoweza kutokea.
@@ -2026,27 +2026,27 @@ Pochi mbalimbali za umeme zinapatikana, kila moja inakidhi mahitaji na matakwa t
 
 - **Vipengele**: Kiendelezi cha Kivinjari, chanzo-wazi, kinaauni miundo ya uangalizi na isiyo ya uangalizi, inayoboresha utumizi mwingi.
 
-#### Upepo:
+#### Breeze:
 
 
-- **Vipengele**: Nodi nyepesi kwenye simu, chanzo huria, huchanganya kujilinda na ukwasi unaodhibitiwa, kutoa usawa wa udhibiti na urahisi.
+- **Vipengele**: Node nyepesi kwenye simu, chanzo huria, huchanganya kujilinda na ukwasi unaodhibitiwa, kutoa usawa wa udhibiti na urahisi.
 
 #### Phoenix:
 
 
 - **Vipengele**: Sawa na Breeze, hutumia modeli ya LSP kwa ukwasi, chanzo huria, inaangazia urahisi wa mtumiaji na usimamizi madhubuti wa ukwasi.
 
-#### Fungua Pochi ya Bitcoin (OBW):
+###Open Bitcoin Wallet (OBW):
 
 
-- **Vipengele**: Huunganisha pochi za On-Chain na Umeme, inasaidia chaneli zinazopangishwa, chanzo-wazi na vipengele vya hali ya juu, vinavyofaa kwa watumiaji wa nishati.
+- **Vipengele**: Huunganisha pochi za On-Chain na Lightning, inasaidia chaneli zinazopangishwa, chanzo-wazi na vipengele vya hali ya juu, vinavyofaa kwa watumiaji wa nishati.
 
 ### Matrix ya Usimamizi wa Uhifadhi na Ukwasi
 
-Pochi zinaweza kuainishwa kulingana na nani ana funguo za faragha na ni nani anayesimamia ukwasi. Matrix hii husaidia watumiaji kuchagua pochi zinazolingana na mapendeleo yao kwa usalama na urahisi:
+Wallet zinaweza kuainishwa kulingana na nani ana funguo za faragha na ni nani anayesimamia ukwasi. Matrix hii husaidia watumiaji kuchagua Wallets zinazolingana na mapendeleo yao kwa usalama na urahisi:
 
 
-- **Pochi za Utunzaji**: Mtu wa tatu hushikilia funguo za faragha, kwa kawaida hutoa usimamizi otomatiki wa ukwasi. Mifano ni pamoja na Wallet ya Satoshi.
+- **Pochi za Utunzaji (Custodial Wallets)**: Mtu wa tatu hushikilia funguo za faragha, kwa kawaida hutoa usimamizi otomatiki wa ukwasi. Mifano ni pamoja na Wallet of Satoshi.
 - **Pochi Zisizo Miliki**: Watumiaji hushikilia funguo za faragha, huenda wakahitaji udhibiti wa ukwasi mwenyewe. Mifano ni pamoja na Breeze na OBW.
 
 ![Liquidity Lightning](assets/en/4/12.webp)_2x2 Matrix of LN Clients_

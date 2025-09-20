@@ -921,7 +921,7 @@ Karibu! Leo, tutazama katika vipengele muhimu vya usimbaji fiche ambavyo kila ms
 
 ### Dhana za Msingi za Cryptographic kwa Wasanidi wa Bitcoin
 
-Katika sehemu hii, tutachunguza dhana muhimu za kriptografia muhimu kwa wasanidi wa Bitcoin, ikijumuisha utendaji wa Hash, miti ya Merkle, sahihi za kidijitali na mikunjo ya duaradufu.
+Katika sehemu hii, tutachunguza dhana muhimu za cryptography muhimu kwa wasanidi wa Bitcoin, ikijumuisha utendaji wa Hash,  Merkle tree,  digital signatures na multi-sig.
 
 ![Image](assets/en/2/6.webp)
 
@@ -929,15 +929,15 @@ Katika sehemu hii, tutachunguza dhana muhimu za kriptografia muhimu kwa wasanidi
 
 ![Image](assets/en/2/7.webp)
 
-**Sifa za Usalama**: Vitendo vya Cryptographic Hash lazima vizingatie sifa kadhaa za usalama. Upinzani wa picha kabla ya picha huhakikisha kuwa haiwezekani kwa hesabu kubadilisha uhandisi ingizo asili kutoka kwa pato la Hash. Upinzani wa pili wa picha kabla ya picha inamaanisha inapaswa kuwa ngumu kupata pembejeo tofauti ambayo hutoa pato sawa la Hash. Upinzani wa mgongano huhakikisha kuwa haiwezekani kupata pembejeo mbili tofauti ambazo hutoa pato sawa la Hash.
+**Sifa za Usalama**: Vitendo vya Cryptographic Hash lazima vizingatie sifa kadhaa za usalama. Upinzani wa picha kabla ya picha huhakikisha kuwa haiwezekani kwa hesabu kubadilisha uhandisi ingizo asili kutoka kwa Hash output. Upinzani wa pili wa picha kabla ya picha inamaanisha inapaswa kuwa ngumu kupata pembejeo tofauti ambayo hutoa pato sawa la Hash. Upinzani wa mgongano huhakikisha kuwa haiwezekani kupata pembejeo mbili tofauti ambazo hutoa pato sawa la Hash.
 
-**Merkle Trees**: Merkle Tree ni muundo wa data unaowezesha uthibitishaji bora na salama wa seti kubwa za data. Vipengee vya data huharakishwa katika jozi, na heshi zinazotokana zimeunganishwa mara kwa mara na kuunda mzizi mmoja wa Hash. Katika Bitcoin, miti ya Merkle ni muhimu katika kuunda vitalu na uthibitishaji wa miamala, hasa kwa wateja wa Uthibitishaji Rahisi wa Malipo (SPV) na Taproot (Mast).
+**Merkle Trees**: Merkle Tree ni muundo wa data unaowezesha uthibitishaji bora na salama wa seti kubwa za data. Vipengee vya data huharakishwa katika jozi, na heshi zinazotokana zimeunganishwa mara kwa mara na kuunda root mmoja wa Hash. Katika Bitcoin, miti ya Merkle ni muhimu katika kuunda blocks na uthibitishaji wa miamala, hasa kwa wateja wa Simplified Payment Verification (SPV) na Taproot (Mast).
 
 ![Image](assets/en/2/8.webp)
 
-**Sahihi Za Dijitali (ECDSA)**: Kanuni ya Sahihi ya Elliptic Curve Digital Sahihi (ECDSA) inatumika kuhakikisha uhalisi na uadilifu katika miamala ya Bitcoin. Inajumuisha kutoa sahihi kwa kutumia ufunguo wa faragha ambao unaweza kuthibitishwa kwa kutumia ufunguo unaolingana na wa umma. Dhana muhimu ni pamoja na kuelewa nyuga zenye kikomo, logarithmu tofauti, na umuhimu wa nonces.
+**Digital Signatures (ECDSA)**: Kanuni ya Sahihi ya Elliptic Curve Digital Sahihi (ECDSA) inatumika kuhakikisha uhalisi na uadilifu katika miamala ya Bitcoin. Inajumuisha kutoa sahihi kwa kutumia ufunguo wa faragha ambao unaweza kuthibitishwa kwa kutumia ufunguo unaolingana na wa umma. Dhana muhimu ni pamoja na kuelewa nyuga zenye kikomo, logarithmu tofauti, na umuhimu wa nonces.
 
-**Miviringo ya Mviringo**: Miigo ya mviringo inatumika katika usimbaji fiche wa vitufe vya umma kwa sababu ya ufanisi na usalama wake. Usalama wa kriptografia ya mkunjo wa mviringo hutegemea ugumu wa kutatua tatizo la logarithmu tofauti.
+**Elliptic Curves**: Elliptic curves zinatumika katika usimbaji fiche wa vitufe vya umma kwa sababu ya ufanisi na usalama wake. Usalama wa kriptografia ya Elliptic Curve hutegemea ugumu wa kutatua tatizo la logarithmu tofauti.
 
 ![Image](assets/en/2/9.webp)
 
@@ -945,29 +945,29 @@ Katika sehemu hii, tutachunguza dhana muhimu za kriptografia muhimu kwa wasanidi
 
 Katika sehemu hii, tutachunguza matumizi ya dhana hizi katika maendeleo ya ulimwengu halisi ya Bitcoin na mbinu bora za usalama za kufuata.
 
-**Cryptografia = Hatari**: Siri za siri ni upanga wenye makali kuwili. Ingawa inalinda dhidi ya uharibifu wa data na vitendo vibaya, utekelezaji usio sahihi unaweza kusababisha udhaifu mkubwa. Ni lazima wasanidi programu waelewe kwa kina mbinu za siri ili kuhakikisha utekelezaji salama na uwezo wa kutatua masuala yanayoweza kutokea. Kwa mfano, matokeo ya 256-bit ya SHA-2 huhakikisha mashambulizi ya hakikisho yanahitaji takriban 2^256 kazi, na upinzani wa mgongano karibu 2^128 kazi.
+**Cryptography = Hatari**: Siri kuu ni upanga wenye makali kuwili. Ingawa inalinda dhidi ya uharibifu wa data na vitendo vibaya, utekelezaji usio sahihi unaweza kusababisha udhaifu mkubwa. Ni lazima wasanidi programu waelewe kwa kina mbinu za siri ili kuhakikisha utekelezaji salama na uwezo wa kutatua masuala yanayoweza kutokea. Kwa mfano, matokeo ya 256-bit ya SHA-2 huhakikisha mashambulizi ya hakikisho yanahitaji takriban 2^256 kazi, na upinzani wa mgongano karibu 2^128 kazi.
 
 ![Image](assets/en/2/10.webp)
 
-**Programu za Miti ya Merkle**: Kuelewa ukubwa wa uthibitisho wa logarithmu na kuhakikisha muundo wa mti kwa uangalifu ni muhimu ili kuepuka dosari, kama vile kunakili Hash katika uthibitishaji wa shughuli. Miti ya Merkle hutumiwa kuunda vitalu, uthibitishaji wa miamala na uboreshaji kama vile Taproot.
+**Programu za Merkle tree**: Kuelewa ukubwa wa uthibitisho wa logarithmu na kuhakikisha muundo wa mti kwa uangalifu ni muhimu ili kuepuka dosari, kama vile kunakili Hash katika uthibitishaji wa shughuli. Miti ya Merkle hutumiwa kuunda blocks, uthibitishaji wa miamala na uboreshaji kama vile Taproot.
 
-**Hriptografia ya Ufunguo wa Umma**: Logariti tofauti na sehemu zenye kikomo ni muhimu katika hesabu za kriptografia katika Bitcoin. Itifaki za kukabiliana na changamoto hutumika kuthibitisha ujuzi wa ufunguo wa faragha bila kuufichua.
+**Hriptografia ya Ufunguo wa Umma**: Logariti tofauti na sehemu zenye kikomo ni muhimu katika hesabu za cryptography katika Bitcoin. Protocol za kukabiliana na changamoto hutumika kuthibitisha ujuzi wa ufunguo wa faragha bila kuufichua.
 
 ![Image](assets/en/2/11.webp)
 
 **Athari za Usalama**: Mifano ya kihistoria inaonyesha hasara kubwa za kifedha kutokana na kutumia tena Nonce. Kuelewa umuhimu wa kutengeneza nonces za kipekee ni muhimu. Kutumia maktaba zinazoaminika kama LibSecP256k1 huhakikisha utendakazi thabiti na salama wa kriptografia.
 
-**Usiri wa Mviringo wa Mviringo (ECC)**: Mipangilio ya sahihi imebadilika kutoka itifaki za utambulisho hadi mifumo kama vile sahihi za Schnorr, zinazotumika sasa katika Bitcoin (BIP 340). Ujuzi wa mikondo ya duaradufu na hesabu ya uga yenye kikomo huhakikisha utekelezaji salama wa kriptografia.
+**Elliptic Curve Cryptography(ECC)**: Mipangilio ya sahihi imebadilika kutoka protocols za utambulisho hadi mifumo kama vile sahihi za Schnorr, zinazotumika sasa katika Bitcoin (BIP 340). Ujuzi wa mikondo ya duaradufu na hesabu ya uga yenye kikomo huhakikisha utekelezaji salama wa cryptography.
 
-**Ushauri wa Jumla kwa Wasanidi**: Itifaki za kriptografia lazima zipitiwe na ukaguzi wa kina wa marafiki. Wasanidi lazima wawe sahihi na waelewe kikamilifu kila hatua ya taratibu za kriptografia. Ufahamu wa hitilafu za kawaida katika utekelezaji wa kriptografia unaweza kuzuia udhaifu mkubwa.
+**Ushauri wa Jumla kwa Wasanidi**: protocol za cryptography lazima zipitiwe na ukaguzi wa kina wa marafiki. Wasanidi lazima wawe sahihi na waelewe kikamilifu kila hatua ya taratibu za cryptography. Ufahamu wa hitilafu za kawaida katika utekelezaji wa cryptography unaweza kuzuia udhaifu mkubwa.
 
-**Mwindo wa Mviringo katika Crystalgraphy**: Urekebishaji wa ufunguo na usalama ni mada muhimu, kama vile kurekebisha ufunguo wa umma kwa kutumia ufunguo wa ziada wa faragha huku ukihakikisha usalama. Mviringo mahususi wa duaradufu wa Bitcoin, SECP256K1, na vigezo vyake (P na N) ni msingi kwa utekelezaji wake.
+**Elliptic Curve katika Cryptography**: Urekebishaji wa ufunguo na usalama ni mada muhimu, kama vile kurekebisha ufunguo wa umma kwa kutumia ufunguo wa ziada wa faragha huku ukihakikisha usalama. Mviringo mahususi wa duaradufu wa Bitcoin, SECP256K1, na vigezo vyake (P na N) ni msingi kwa utekelezaji wake.
 
 #### Hitimisho
 
-Katika mhadhara huu, tumechunguza dhana za kimsingi za kriptografia ambazo zinasimamia usalama na utendakazi wa Bitcoin. Kuanzia majukumu muhimu ya utendakazi wa Hash, miti ya Merkle, na sahihi za dijitali hadi hisabati changamano ya kriptografia ya mkunjo wa mviringo, hivi vipengele huunda uti wa mgongo wa mtandao uliogatuliwa wa Bitcoin. Kuelewa dhana hizi sio tu kuhusu kufahamu nadharia—ni kuhusu kutambua athari za vitendo na mitego inayoweza kutokea katika maendeleo ya ulimwengu halisi.
+Katika mhadhara huu, tumechunguza dhana za kimsingi za cryptography ambazo zinasimamia usalama na utendakazi wa Bitcoin. Kuanzia majukumu muhimu ya utendakazi wa Hash, Merkle tree, na Digital Signatures hadi hisabati changamano ya cryptography ya Elliptic Curve, hivi vipengele huunda uti wa mgongo wa mtandao uliogatuliwa wa Bitcoin. Kuelewa dhana hizi sio tu kuhusu kufahamu nadharia—ni kuhusu kutambua athari za vitendo na mitego inayoweza kutokea katika maendeleo ya ulimwengu halisi.
 
-Kama watengenezaji wa Bitcoin, ni muhimu kushughulikia utekelezaji wa kriptografia kwa tahadhari na usahihi. Usalama wa mtandao wa Bitcoin unategemea pakubwa matumizi sahihi na salama ya kanuni hizi za kriptografia. Iwe unathibitisha miamala, unaunda vipengele vipya, au unahakikisha uadilifu wa Blockchain, ujuzi wa kina wa usimbaji fiche utakuwezesha kuunda suluhu thabiti zaidi, salama na bunifu ndani ya mfumo ikolojia wa Bitcoin.
+Kama watengenezaji wa Bitcoin, ni muhimu kushughulikia utekelezaji wa cryptography kwa tahadhari na usahihi. Usalama wa mtandao wa Bitcoin unategemea pakubwa matumizi sahihi na salama ya kanuni hizi za cryptography. Iwe unathibitisha miamala, unaunda vipengele vipya, au unahakikisha uadilifu wa Blockchain, ujuzi wa kina wa usimbaji fiche utakuwezesha kuunda suluhu thabiti zaidi, salama na bunifu ndani ya mfumo ikolojia wa Bitcoin.
 
 Kwa kufahamu dhana hizi na kuzingatia mbinu bora zaidi, utakuwa umejitayarisha vyema kuchangia ipasavyo maendeleo yanayoendelea ya Bitcoin, kuhakikisha uthabiti na usalama wake kwa siku zijazo.
 
@@ -981,7 +981,7 @@ Kwa kufahamu dhana hizi na kuzingatia mbinu bora zaidi, utakuwa umejitayarisha v
 
 ### Asili ya Bitcoin
 
-Bitcoin ni sarafu ya kidijitali inayofanya kazi kwa itifaki ya makubaliano, seti ya sheria zilizokubaliwa na washiriki wa mtandao ili kuhakikisha usawa na utendakazi. Kiini chake, Bitcoin ni Leja iliyogatuliwa inayojulikana kama Blockchain, ambapo miamala hurekodiwa na kuthibitishwa na nodi za mtandao. Nodi kamili, ambazo huhifadhi historia nzima ya Bitcoin Blockchain, zina jukumu muhimu katika kudumisha uadilifu wa Leja hii. Aina zingine za nodi, kama vile nodi za kumbukumbu, nodi zilizokatwa, na nodi za SPV (Uthibitishaji Rahisi wa Malipo), pia huchangia kwenye mtandao kwa njia mbalimbali. Itifaki ya makubaliano inahakikisha kwamba nodi hizi zote zinakubaliana kuhusu hali ya Blockchain, na kufanya Bitcoin kuwa imara dhidi ya udhibiti na ulaghai.
+Bitcoin ni sarafu ya kidijitali inayofanya kazi kwa protocol ya makubaliano, seti ya sheria zilizokubaliwa na washiriki wa mtandao ili kuhakikisha usawa na utendakazi. Kiini chake, Bitcoin ni Leja iliyogatuliwa inayojulikana kama Blockchain, ambapo miamala hurekodiwa na kuthibitishwa na node za mtandao. Full node, ambazo huhifadhi historia nzima ya Bitcoin Blockchain, zina jukumu muhimu katika kudumisha uadilifu wa Leja hii. Aina zingine za nodi, kama vile node za kumbukumbu, node zilizokatwa, na node za SPV (Simplified Payment Verification), pia huchangia kwenye mtandao kwa njia mbalimbali. protocol ya makubaliano inahakikisha kwamba node hizi zote zinakubaliana kuhusu hali ya Blockchain, na kufanya Bitcoin kuwa imara dhidi ya udhibiti na ulaghai.
 
 #### Kuzuia Mabadiliko
 
@@ -989,11 +989,11 @@ Utawala katika Bitcoin ni muhimu ili kuzuia mabadiliko ya kiholela au hasidi kwa
 
 Utekelezaji wa Msingi wa Bitcoin na mbadala una watunzaji ambao husimamia uundaji na utunzaji wa programu. Wasimamizi hawa wana wajibu wa kuunganisha mabadiliko ya misimbo, kuhakikisha kwamba wanazingatia sheria za maafikiano na hawaanzishi udhaifu.
 
-#### Uma nyororo vs Uma ngumu
+#### Uma nyororo (Soft fork) vs Uma ngumu (Hard fork)
 
-Uma nyororo ni mabadiliko ambayo yanaimarisha sheria zilizopo za itifaki ya Bitcoin, na kufanya baadhi ya miamala halali ya awali kuwa batili. Zinaendana nyuma, kumaanisha kuwa nodi ambazo hazijasasishwa bado zitatambua sheria mpya. Mfano wa Uma nyororo ni kurekebisha kwa mdudu wa kufurika mwaka 2010, ambayo ilizuia kuundwa kwa fedha kutoka kwa hewa nyembamba.
+Uma nyororo (Soft fork) ni mabadiliko ambayo yanaimarisha sheria zilizopo za protocol ya Bitcoin, na kufanya baadhi ya miamala halali ya awali kuwa batili. Zinaendana nyuma, kumaanisha kuwa node ambazo hazijasasishwa bado zitatambua sheria mpya. Mfano wa Uma nyororo (Soft fork) ni kurekebisha kwa software bug mwaka 2010, ambayo ilizuia kuundwa kwa fedha kutoka kwa hewa nyembamba.
 
-Uma ngumu ni mabadiliko yanayolegeza sheria zilizopo, kuruhusu aina mpya za miamala. Hizi haziambatani na kurudi nyuma, kumaanisha kuwa nodi ambazo hazijasasishwa hazitatambua sheria mpya. Mfano wa Uma ngumu unaweza kuhitajika kwa tatizo la Mwaka 2106 ili kuhakikisha Bitcoin inaendelea kufanya kazi zaidi ya tarehe hii.
+Uma ngumu ni mabadiliko yanayolegeza sheria zilizopo, kuruhusu aina mpya za miamala. Hizi haziambatani na kurudi nyuma, kumaanisha kuwa node ambazo hazijasasishwa hazitatambua sheria mpya. Mfano wa Uma ngumu unaweza kuhitajika kwa tatizo la Mwaka 2106 ili kuhakikisha Bitcoin inaendelea kufanya kazi zaidi ya tarehe hii.
 
 ![Image](assets/en/2/12.webp)
 
@@ -1001,9 +1001,9 @@ Uma ngumu ni mabadiliko yanayolegeza sheria zilizopo, kuruhusu aina mpya za miam
 
 ### Mifano ya Utawala
 
-Mifano kadhaa za ulimwengu halisi zinaonyesha utawala wa Bitcoin kwa vitendo. Marekebisho ya mdudu yaliyofurika mnamo 2010 ilikuwa Uma nyororo ambayo ilishughulikia dosari muhimu. Tatizo la Mwaka 2106 huenda likahitaji Uma ngumu hadi Anwani athari zake. Mpito kutoka kwa msururu mrefu hadi msururu wa kazi zaidi unaonyesha uamuzi muhimu wa utawala ambao uliathiri jinsi maafikiano yanavyopatikana.
+Mifano kadhaa za ulimwengu halisi zinaonyesha utawala wa Bitcoin kwa vitendo. Marekebisho ya mdudu yaliyofurika mnamo 2010 ilikuwa Uma nyororo (software) ambayo ilishughulikia dosari muhimu. Tatizo la Mwaka 2106 huenda likahitaji Uma ngumu hadi Anwani athari zake. Mpito kutoka kwa msururu mrefu hadi msururu wa kazi zaidi unaonyesha uamuzi muhimu wa utawala ambao uliathiri jinsi maafikiano yanavyopatikana.
 
-Utawala wa Bitcoin pia unashughulikia mabadiliko ya ulimwengu halisi katika matumizi ya itifaki. Kwa mfano, utangulizi wa kanuni na maandishi huonyesha jinsi mabadiliko ya itifaki yanaweza kushindwa kudhibiti miamala. Vile vile, utekelezaji wa Full RBF (Replace-by-fee) ulibadilisha taratibu za uingizwaji wa miamala bila kubadilisha sheria za makubaliano.
+Utawala wa Bitcoin pia unashughulikia mabadiliko ya ulimwengu halisi katika matumizi ya protocol. Kwa mfano, utangulizi wa kanuni na maandishi huonyesha jinsi mabadiliko ya protocol yanaweza kushindwa kudhibiti miamala. Vile vile, utekelezaji wa Full RBF (Replace-by-fee) ulibadilisha taratibu za uingizwaji wa miamala bila kubadilisha sheria za makubaliano.
 
 #### Motisha za Mabadiliko na Makubaliano
 
@@ -1011,11 +1011,11 @@ Mabadiliko kwenye Bitcoin yanaweza kuendeshwa na motisha mbalimbali, kama vile k
 
 Utaratibu wa makubaliano wa Bitcoin unaifanya kuwa ya kisiasa, inayohitaji makubaliano mapana ili mabadiliko yakubalike. Kipengele hiki cha kisiasa ni muhimu kwa kudumisha hali ya ugatuzi wa mtandao na kuhakikisha kuwa marekebisho yoyote ni kwa manufaa ya jumuiya.
 
-Nodi zinazoendesha zinaweza kuthibitisha sheria za Bitcoin na kushiriki katika mtandao, hata kwa itifaki tofauti za mawasiliano kama vile Blockstream Satellite. Hii inaangazia utengano kati ya utaratibu wa makubaliano ya Bitcoin na mbinu za mawasiliano za data zinazotumiwa na mtandao. Umuhimu wa kiuchumi wa nodi, haswa zile zinazoendeshwa na taasisi kubwa kama Binance, zinaweza kushawishi kupitishwa kwa mabadiliko. Mashirika haya yana maslahi makubwa ya kiuchumi katika mtandao na yanaweza kushawishi maamuzi kwa kuendesha nodi zenye ushawishi.
+Node zinazoendesha zinaweza kuthibitisha sheria za Bitcoin na kushiriki katika mtandao, hata kwa protocol tofauti za mawasiliano kama vile Blockstream Satellite. Hii inaangazia utengano kati ya utaratibu wa makubaliano ya Bitcoin na mbinu za mawasiliano za data zinazotumiwa na mtandao. Umuhimu wa kiuchumi wa node, haswa zile zinazoendeshwa na taasisi kubwa kama Binance, zinaweza kushawishi kupitishwa kwa mabadiliko. Mashirika haya yana maslahi makubwa ya kiuchumi katika mtandao na yanaweza kushawishi maamuzi kwa kuendesha node zenye ushawishi.
 
 ### Mjadala wa Ukubwa wa kuzuia
 
-Mjadala wa ukubwa wa vitalu ulikuwa suala muhimu la utawala, linalohusu kama kuongeza ukubwa wa vitalu vya Bitcoin. Mzozo huu ulitatuliwa na utekelezaji wa SegWit, Uma nyoror ambao uliongeza ukubwa wa kuzuia ufanisi na kuwezesha Lightning Network.
+Mjadala wa blocksize ulikuwa suala muhimu la utawala, linalohusu kama kuongeza ukubwa wa blocks za Bitcoin. Mzozo huu ulitatuliwa na utekelezaji wa SegWit, Uma nyororo( soft fork)  ambao uliongeza ukubwa wa kuzuia ufanisi na kuwezesha Lightning Network.
 
 ![Image](assets/en/2/14.webp)
 
@@ -1023,13 +1023,13 @@ Mjadala wa ukubwa wa vitalu ulikuwa suala muhimu la utawala, linalohusu kama kuo
 
 Kumekuwa na majaribio ya kisheria ya kulazimisha wasanidi wa Bitcoin kubadilisha sheria za Blockchain kwa manufaa ya kibinafsi, kama vile mashtaka ya Craig Wright. Majaribio haya yanaangazia changamoto na mazingatio ya kimaadili yanayohusika katika utawala wa Bitcoin.
 
-Katika Bitcoin, utawala wa wengi una jukumu muhimu. Iwapo 60% ya wachimbaji watachukua sheria mpya, vitalu vyao vitakataliwa na wale wanaoendesha Msingi wa awali wa Bitcoin, na kusababisha mgawanyiko. Mfano wa Uma ngumu iliyoshindwa kutokana na ukosefu wa usaidizi wa jamii ni Maono ya Bitcoin Satoshi (BSV).
+Katika Bitcoin, utawala wa wengi una jukumu muhimu. Iwapo 60% ya miners watachukua sheria mpya, blocks vyao vitakataliwa na wale wanaoendesha Msingi wa awali wa Bitcoin, na kusababisha mgawanyiko. Mfano wa Uma ngumu iliyoshindwa kutokana na ukosefu wa usaidizi wa jamii ni Maono ya Bitcoin Satoshi (BSV).
 
 Wacha tupitie kwa ufupi dhana kadhaa muhimu.
 
-**Kulazimishwa kwa uma nyororo**: Dhana ya kutekeleza sheria zenye vikwazo ili kubadilisha Bitcoin inaweza kusababisha migawanyiko zaidi na masuala ya utawala. Mbinu hii inaonyesha utata na migogoro inayoweza kutokea ndani ya jumuiya ya Bitcoin.
+**Kulazimishwa kwa uma nyororo: (Forced soft fork)**: Dhana ya kutekeleza sheria zenye vikwazo ili kubadilisha Bitcoin inaweza kusababisha migawanyiko zaidi na masuala ya utawala. Mbinu hii inaonyesha utata na migogoro inayoweza kutokea ndani ya jumuiya ya Bitcoin.
 
-**51% Mashambulizi**: Shambulio la 51% linaelezea hali ambapo nguvu nyingi za hashing zinaweza kushambulia Bitcoin kwa vitalu tupu vya uchimbaji. Hii inaweza kuua mtandao ipasavyo isipokuwa jumuiya ipitishe sheria mpya za makubaliano kwa Anwani ya shambulio hilo.
+**51% Attack**: 51% Attack linaelezea hali ambapo nguvu nyingi za hashing zinaweza kushambulia Bitcoin kwa blocks tupu za miners. Hii inaweza kuua mtandao ipasavyo isipokuwa jumuiya ipitishe sheria mpya za makubaliano kwa address ya shambulio hilo.
 
 **Check-Lock-Time-Verify (CLTV)**: Check-Lock-Time-Verify (CLTV) ni mfano wa mabadiliko ya utawala yaliyotekelezwa kama Uma nyororo. CLTV huhakikisha kwamba miamala ni halali baada ya muda fulani pekee, ambayo ni muhimu kwa njia za malipo na vitufe vya kuhifadhi nakala. Mabadiliko haya yaliimarisha sheria kwa kutumia opcode ambayo hapo awali haikufanya chochote.
 
@@ -1039,7 +1039,7 @@ Kwa kumalizia, mustakabali na mabadiliko ya Bitcoin yanaamuliwa na mapenzi ya pa
 
 <partId>5300855f-e5e4-5bca-9afe-2397f7c76260</partId>
 
-## Vipengele vya Node katika Bitcoin
+## Elements za Node katika Bitcoin
 
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
@@ -1047,33 +1047,33 @@ Kwa kumalizia, mustakabali na mabadiliko ya Bitcoin yanaamuliwa na mapenzi ya pa
 
 :::video id=6fae79f6-da81-4870-927b-923bd1672176:::
 
-Adam Gibson huvunja vipengele mbalimbali vya nodi ya Bitcoin. Sura inaangazia jukumu la kila sehemu katika kudumisha utendakazi na uadilifu wa mtandao. Hasa anaangazia kwa nini tunapaswa kuendesha nodi ya Bitcoin, nodi ya Bitcoin inafanya nini, na jinsi vipengele tofauti vya nodi ya Bitcoin inavyofanya kazi.
+Adam Gibson huvunja elements mbalimbali vya node ya Bitcoin. Sura inaangazia jukumu la kila sehemu katika kudumisha utendakazi na uadilifu wa mtandao. Hasa anaangazia kwa nini tunapaswa kuendesha nodi ya Bitcoin, nodi ya Bitcoin inafanya nini, na jinsi elements tofauti vya node ya Bitcoin inavyofanya kazi.
 
-### Utangulizi wa Nodi za Bitcoin
+### Utangulizi wa Node za Bitcoin
 
-Kuelewa jukumu la nodi za Bitcoin ni muhimu kwa mtu yeyote anayehusika katika mtandao wa Bitcoin. Kuendesha nodi ya Bitcoin huruhusu watumiaji kuthibitisha miamala, kushiriki katika maafikiano, na kudumisha udhibiti wa faragha yao. Hotuba hii inaangazia kwa nini kuendesha nodi ya Bitcoin kuna manufaa na jinsi inavyochangia usalama wa jumla na ugatuaji wa mtandao wa Bitcoin.
+Kuelewa jukumu la node za Bitcoin ni muhimu kwa mtu yeyote anayehusika katika mtandao wa Bitcoin. Kuendesha node ya Bitcoin huruhusu watumiaji kuthibitisha miamala, kushiriki katika maafikiano, na kudumisha udhibiti wa faragha yao. Hotuba hii inaangazia kwa nini kuendesha nodi ya Bitcoin kuna manufaa na jinsi inavyochangia usalama wa jumla na ugatuaji wa mtandao wa Bitcoin.
 
 ### Kwa nini Uendeshe Njia ya Bitcoin?
 
-Kuendesha nodi ya Bitcoin ni muhimu kwa sababu kadhaa:
+Kuendesha node ya Bitcoin ni muhimu kwa sababu kadhaa:
 
-1. **Uthibitishaji**: Kwa kuendesha nodi, unaweza kuthibitisha miamala wewe mwenyewe, na kuhakikisha kuwa Bitcoin unayopokea ni halali bila kutegemea wahusika wengine.
+1. **Uthibitishaji**: Kwa kuendesha node, unaweza kuthibitisha miamala wewe mwenyewe, na kuhakikisha kuwa Bitcoin unayopokea ni halali bila kutegemea wahusika wengine.
 
-2. **Kushiriki katika Makubaliano**: Nodi zina jukumu muhimu katika kubainisha sheria za mtandao wa Bitcoin, hivyo kushiriki katika makubaliano husaidia kudumisha uadilifu na usalama wa Blockchain.
+2. **Kushiriki katika Makubaliano**: Node zina jukumu muhimu katika kubainisha sheria za mtandao wa Bitcoin, hivyo kushiriki katika makubaliano husaidia kudumisha uadilifu na usalama wa Blockchain.
 
-3. **Faragha na Udhibiti**: Kuendesha nodi yako mwenyewe huhakikisha kwamba huhitaji kutegemea nodi za nje, jambo ambalo linaweza kuhatarisha faragha yako kwa kufuatilia miamala yako na salio la pochi lako.
+3. **Faragha na Udhibiti**: Kuendesha node yako mwenyewe huhakikisha kwamba huhitaji kutegemea node za nje, jambo ambalo linaweza kuhatarisha faragha yako kwa kufuatilia miamala yako na salio la pochi lako.
 
-### Bitcoin nodi hufanya nini?
+### Bitcoin node hufanya nini?
 
 
-- **Huhifadhi orodha ya programu zingine**: Nodi lazima zitafute na ziunganishwe na nodi zingine kwenye mtandao kwa maelezo ya ubadilishanaji.
-- **Inapokea na kutuma miamala na vizuizi halali**: Nodi za Bitcoin zina jukumu la kueneza miamala na vizuizi halali kwenye mtandao.
+- **Huhifadhi orodha ya programu zingine**: Node lazima zitafute na ziunganishwe na node zingine kwenye mtandao kwa maelezo ya ubadilishanaji.
+- **Inapokea na kutuma miamala na blocks halali**: Node za Bitcoin zina jukumu la kueneza miamala na vizuizi halali kwenye mtandao.
 - **Huhifadhi historia ya vizuizi na mlolongo mzito zaidi**: Nodi huhifadhi nakala zao wenyewe za Blockchain, ambayo huwaruhusu kuthibitisha uhalisi wa miamala na vizuizi.
-- **Huhifadhi orodha ya wagombea halali; Mempool**: Nodi lazima ziweke orodha ya waombaji wanaowezekana wa miamala katika Mempool ili kujumuishwa kwenye vitalu.
+- **Huhifadhi orodha ya wagombea halali; Mempool**: Node lazima ziweke orodha ya waombaji wanaowezekana wa miamala katika Mempool ili kujumuishwa kwenye blocks.
 
 ![nodes network](assets/en/3/18.webp)
 
-**KUMBUKA**: Mempool ni eneo la kuhifadhi la muda kwa miamala ambayo imethibitishwa lakini bado haijajumuishwa kwenye kizuizi.
+**KUMBUKA**: Mempool ni eneo la kuhifadhi la muda kwa miamala ambayo imethibitishwa lakini bado haijajumuishwa kwenye block.
 
 ### Vipengele vya Node
 
@@ -1082,24 +1082,24 @@ Kuendesha nodi ya Bitcoin ni muhimu kwa sababu kadhaa:
 ![Bitcoin core modules](assets/en/3/19.webp)
 
 
-- **Ugunduzi wa rika**: Ugunduzi wa rika ni mchakato ambao nodi hupata nodi zingine za kuunganishwa.
-- **Injini ya uthibitishaji**: Injini ya uthibitishaji ina jukumu la kuangalia uhalali wa miamala na vizuizi kulingana na sheria za mtandao.
-- **RPC (Simu ya Utaratibu wa Mbali)**: Bitcoin Core inajumuisha RPC Interface inayoruhusu programu za nje, kama vile pochi, kuingiliana na nodi.
-- **Uhifadhi wa vitalu na Hali ya Chain**: Bitcoin Core inaweza kuhifadhi Blockchain nzima au la, iwe ni kumbukumbu au nodi iliyokatwa. Pia huhifadhi hali ya sasa ya mtandao (Seti ya UTXO) kwenye diski.
+- **Ugunduzi wa peer**: Ugunduzi wa peer ni mchakato ambao node hupata node zingine za kuunganishwa.
+- **Injini ya uthibitishaji**: Injini ya uthibitishaji ina jukumu la kuangalia uhalali wa miamala na blocks kulingana na sheria za mtandao.
+- **RPC (Remote Procedure Call)**: Bitcoin Core inajumuisha RPC Interface inayoruhusu programu za nje, kama vile Wallet, kuingiliana na node.
+- **Uhifadhi wa block na Hali ya Chain**: Bitcoin Core inaweza kuhifadhi Blockchain nzima au la, iwe ni kumbukumbu au node iliyokatwa. Pia huhifadhi hali ya sasa ya mtandao (Seti ya UTXO) kwenye disk.
 
 #### Tunaweza kuondoa nini?
 
 
-- **Mchimbaji**: Nodi nyingi za Bitcoin hazishiriki katika uchimbaji kutokana na nguvu ya juu ya kukokotoa inayohitajika.
-- **RPC (Seva)**: Bitcoin Core inatekeleza JSON-RPC Interface ambayo inaweza kufikiwa kwa kutumia msaidizi wa mstari wa amri bitcoin-cli.
-- **Pochi (lemaza pochi)**: Ikiwa unapendelea kutumia pochi ya nje, unaweza kuzima utendakazi wa Pochi katika Bitcoin Core. Hii hukuruhusu kudhibiti funguo zako za faragha kando.
-- **Mempool (blocksonly)**: Kwa watumiaji wanaotafuta kupunguza matumizi ya kipimo data, kuendesha nodi ya "blocksonly" inaweza kuwa suluhisho ambapo nodi huchakata tu huzuia, kupuuza miamala.
+- **Miner**: Node nyingi za Bitcoin hazishiriki katika mining kutokana na nguvu ya juu ya kukokotoa inayohitajika.
+- **RPC (Server)**: Bitcoin Core inatekeleza JSON-RPC Interface ambayo inaweza kufikiwa kwa kutumia msaidizi wa mstari wa amri bitcoin-cli.
+- **Wallet (lemaza Wallet)**: Ikiwa unapendelea kutumia Wallet ya nje, unaweza kuzima utendakazi wa Wallet katika Bitcoin Core. Hii hukuruhusu kudhibiti funguo zako za faragha kando.
+- **Mempool (blocksonly)**: Kwa watumiaji wanaotafuta kupunguza matumizi ya kipimo data, kuendesha node ya "blocksonly" inaweza kuwa suluhisho ambapo nodi huchakata tu huzuia, kupuuza miamala.
 
-### Jimbo la Chain
+### Chain state
 
 #### Sarafu ziko wapi?
 
-Sarafu hazihifadhiwi kwenye anwani; wanakaa katika UTXOs, ambayo inawakilisha matokeo yote ya shughuli ambazo hazijatumika. Unaweza kupata habari hii kwa amri:
+Sarafu hazihifadhiwi kwenye address; wanakaa katika UTXOs, ambayo inawakilisha matokeo yote ya shughuli ambazo hazijatumika. Unaweza kupata habari hii kwa amri:
 
 ```Bash
 bitcoin-cli gettxoutsetinfo
@@ -1125,21 +1125,21 @@ Tunaweza kukagua kwamba idadi ya Bitcoins ni sahihi.
 
 Ni orodha ya miamala ambayo haijathibitishwa katika kila nodi, ambayo inaitwa shughuli za mgombea. Imehifadhiwa kwenye RAM kwa ufikiaji wa haraka na sio sehemu ya makubaliano.
 
-#### Mazingatio ya Usalama kwa Nodi za Bitcoin
+#### Mazingatio ya Usalama kwa Node za Bitcoin
 
-Usalama ni muhimu wakati wa kuendesha nodi ya Bitcoin. Hapa kuna mambo muhimu ya kuzingatia:
+Usalama ni muhimu wakati wa kuendesha node ya Bitcoin. Hapa kuna mambo muhimu ya kuzingatia:
 
 #### Kuepuka Kuweka Kati
 
-Kutegemea chanzo kimoja cha data ya Blockchain, kama vile kupakua vizuizi vyote kutoka kwa seva kuu, kunaleta hatari kubwa. Ili kudumisha hali ya ugatuzi ya Bitcoin, nodi zinapaswa kuunganishwa na programu zingine nyingi na kuthibitisha data wanazopokea.
+Kutegemea chanzo kimoja cha data ya Blockchain, kama vile kupakua vizuizi vyote kutoka kwa server kuu, kunaleta hatari kubwa. Ili kudumisha hali ya ugatuzi ya Bitcoin, node zinapaswa kuunganishwa na programu zingine nyingi na kuthibitisha data wanazopokea.
 
 #### Kuzuia Mashambulizi ya Kutengwa
 
-Mashambulizi ya kutengwa hutokea wakati nodi inapodanganywa ili iunganishwe na seti ndogo ya programu zingine, na kuruhusu mvamizi kulisha data isiyo sahihi. Kwa kuunganisha kwa vikundi tofauti vya programu zingine na kuthibitisha data iliyopokelewa, nodi zinaweza kujilinda dhidi ya mashambulizi haya.
+Mashambulizi ya kutengwa hutokea wakati nodi inapodanganywa ili iunganishwe na seti ndogo ya programu zingine, na kuruhusu mvamizi kulisha data isiyo sahihi. Kwa kuunganisha kwa vikundi tofauti vya programu zingine na kuthibitisha data iliyopokelewa, node zinaweza kujilinda dhidi ya mashambulizi haya.
 
 #### Kusimamia Miunganisho ya Rika
 
-Nodi lazima zidhibiti kwa uangalifu miunganisho ya programu rika ili kuhakikisha haziunganishi na watendaji hasidi. Hii ni pamoja na kudumisha orodha ya wenzao waliopigwa marufuku ambao wameonyesha tabia ya kutiliwa shaka na kusasisha mara kwa mara orodha ya programu rika ili kuepuka kutegemea kikundi kidogo cha nodi.
+Node lazima zidhibiti kwa uangalifu miunganisho ya programu rika ili kuhakikisha haziunganishi na watendaji hasidi. Hii ni pamoja na kudumisha orodha ya wenzao waliopigwa marufuku ambao wameonyesha tabia ya kutiliwa shaka na kusasisha mara kwa mara orodha ya peer  program  ili kuepuka kutegemea kikundi kidogo cha node.
 
 #### Umuhimu wa Seti ya UTXO
 
@@ -1147,7 +1147,7 @@ Seti ya UTXO inawakilisha hali ya sasa ya Bitcoin, ikiorodhesha matokeo yote ya 
 
 #### Hitimisho
 
-Kuendesha nodi ya Bitcoin ni njia thabiti ya kushiriki katika mtandao wa Bitcoin, kukupa uwezo wa kuthibitisha miamala, kudumisha faragha, na kuchangia usalama na ugatuaji wa Blockchain. Iwapo utachagua kuendesha Nodi Kamili au kubinafsisha usanidi wako kwa kupogoa Blockchain au kuzima vipengee fulani, kuelewa kazi kuu na masuala ya usalama ya nodi ya Bitcoin kutakupa uwezo wa kufanya maamuzi sahihi na kuchangia mabadiliko yanayoendelea ya Bitcoin.
+Kuendesha node ya Bitcoin ni njia thabiti ya kushiriki katika mtandao wa Bitcoin, kukupa uwezo wa kuthibitisha miamala, kudumisha faragha, na kuchangia usalama na ugatuaji wa Blockchain. Iwapo utachagua kuendesha Full Node au kubinafsisha usanidi wako kwa kupogoa Blockchain au kuzima vipengee fulani, kuelewa kazi kuu na masuala ya usalama ya node ya Bitcoin kutakupa uwezo wa kufanya maamuzi sahihi na kuchangia mabadiliko yanayoendelea ya Bitcoin.
 
 ## Miundo ya Data ya Bitcoin
 
@@ -1157,9 +1157,9 @@ Kuendesha nodi ya Bitcoin ni njia thabiti ya kushiriki katika mtandao wa Bitcoin
 
 :::video id=1790e5fb-33f5-4e0e-982e-41589cd02965:::
 
-Lengo la msingi la muhadhara huu ni kukuongoza katika mchakato wa kuchanganua kizuizi cha Bitcoin kwa kusimba kichanganuzi katika Rust. Hii inahusisha kuelewa muundo wa vitalu na miamala ya Bitcoin, na kutekeleza mantiki muhimu ili kutoa na kutafsiri data hii.
+Lengo la msingi la muhadhara huu ni kukuongoza katika mchakato wa kuchanganua block ya Bitcoin kwa kusimba kichanganuzi katika Rust. Hii inahusisha kuelewa muundo wa blocks na miamala ya Bitcoin, na kutekeleza mantiki muhimu ili kutoa na kutafsiri data hii.
 
-### Kuchanganua Vitalu na Miamala ya Bitcoin katika Rust
+### Kuchanganua Blocks na Miamala ya Bitcoin katika Rust
 
 #### Vipengele vya Kuchanganua
 
@@ -1167,7 +1167,7 @@ Ili kuchanganua kizuizi cha Bitcoin, utahitaji kuzingatia vipengele vifuatavyo:
 
 1. **Zuia Kijaju**
 
-2. **Miamala ndani ya Kitalu**
+2. **Miamala ndani ya block**
 
 3. **Pembejeo na Matokeo ya Muamala**
 
@@ -1177,14 +1177,14 @@ Kichwa cha block ndio msingi wa block ya Bitcoin na ina sehemu zifuatazo:
 
 
 - **Toleo**: Inaonyesha toleo la kizuizi.
-- **Kizuizi Kilichotangulia**: Rejelea kizuizi kilichotangulia kwenye Blockchain.
-- **Merkle Root**: Hash inayowakilisha Hash iliyojumuishwa ya shughuli zote kwenye block.
-- **Muhuri wa muda**: Wakati ambapo block ilichimbwa.
-- **Bits**: Kiwango cha juu kinacholengwa cha kizuizi halali cha Hash.
-- **Nonce**: Thamani ambayo wachimbaji hurekebisha ili kufikia Hash chini ya kiwango kinacholengwa.
+- **Block iliyotangulia**: Rejelea Block iliyotangulia kwenye Blockchain.
+- **Merkle Root**: Hash inayowakilisha Hash iliyojumuishwa ya miamala zote kwenye block.
+- **Muhuri wa muda**: Wakati ambapo block iliminiwa.
+- **Bits**: Kiwango cha juu kinacholengwa cha block halali cha Hash.
+- **Nonce**: Thamani ambayo miners hurekebisha ili kufikia Hash chini ya kiwango kinacholengwa.
 - **Hesabu ya Muamala**: Idadi ya miamala kwenye block.
 
-**Kumbuka**: Baiti 80 za kwanza pekee (zinazojumuisha kichwa cha kuzuia) ndizo zinazoharakishwa wakati wa Uchimbaji.
+**Kumbuka**: Baiti 80 za kwanza pekee (zinazojumuisha kichwa cha kuzuia) ndizo zinazoharakishwa wakati wa mining.
 
 ![Block header structure](assets/en/3/1.webp)
 
@@ -1193,7 +1193,7 @@ Kichwa cha block ndio msingi wa block ya Bitcoin na ina sehemu zifuatazo:
 Ili kuweka mfano wetu kudhibitiwa:
 
 
-- Tutazingatia katika kuchanganua vizuizi vya kabla ya SegWit (iliyorithiwa), tukiepuka utata ulioongezwa wa Mashahidi Waliotengwa.
+- Tutazingatia katika kuchanganua blocks za kabla ya SegWit (iliyorithiwa), tukiepuka utata ulioongezwa wa Mashahidi Waliotengwa.
 - Tutaruka opcodes fulani katika lugha ya uandishi ya Bitcoin, tukizingatia chache ambazo tunahitaji kuchanganua kizuizi kamili.
 
 #### Muundo wa Muamala
@@ -1257,13 +1257,13 @@ Ili kuhakikisha kichanganuzi chetu kinafanya kazi ipasavyo:
 
 
 - Linganisha data iliyochanganuliwa dhidi ya maelezo ya block inayojulikana (k.m., kutoka Mempool.space).
-- Thibitisha hesabu za malipo yaliyochanganuliwa na maelezo ya kizuizi yalingane na thamani zinazotarajiwa.
+- Thibitisha hesabu za malipo yaliyochanganuliwa na maelezo ya block yalingane na thamani zinazotarajiwa.
 
 ### Kushughulikia Kesi Maalum na Uchanganuzi wa Hati
 
 #### Utekelezaji wa Kazi ya 'changanua'
 
-Tutatekeleza kipengele cha `changanua` ili kushughulikia kizuizi kamili, ikiwa ni pamoja na kichwa cha kuzuia na miamala. Hii inajumuisha kusoma data ya kuzuia na kutoa sehemu zinazohusika.
+Tutatekeleza kipengele cha `changanua` ili kushughulikia block kamili, ikiwa ni pamoja na kichwa cha kuzuia na miamala. Hii inajumuisha kusoma data ya kuzuia na kutoa sehemu zinazohusika.
 
 ```Rust
 impl Parse for Block {
@@ -1312,15 +1312,15 @@ transactions: Vec<Transaction>,
 
 #### Rust Syntax Elements
 
-Tambulisha sintaksia ya Vipengele vya Rust kama vile alama ya kuuliza (`?`) kwa kushughulikia makosa. Hii itarahisisha msimbo wetu na kuufanya usomeke zaidi.
+Tambulisha sintaksia ya elements za Rust kama vile alama ya kuuliza (`?`) kwa kushughulikia makosa. Hii itarahisisha msimbo wetu na kuufanya usomeke zaidi.
 
 #### Madai
 
-Ongeza madai ili kuthibitisha kuwa hakuna baiti zilizosalia bila kugawanywa baada ya kuchakata block kamili. Hii inahakikisha uadilifu wa mchakato wetu wa uchanganuzi.
+Ongeza madai ili kuthibitisha kwamba hakuna bytes zilizobaki bila kugawanywa baada ya kuchakata block kamili. Hii inahakikisha uadilifu wa mchakato wa uchanganuzi.
 
-#### Kesi Maalum kama Shughuli za Coinbase
+#### Kesi Maalum kama miamala za Coinbase
 
-Shughuli za Coinbase, ambayo ni shughuli ya kwanza katika block inayotumiwa kudai Block reward, ina sifa za kipekee. Tunahitaji kushughulikia kesi hizi maalum ipasavyo.
+Miamala ya Coinbase, ambayo ni shughuli ya kwanza katika block inayotumiwa kudai Block reward, ina sifa za kipekee. Tunahitaji kushughulikia kesi hizi maalum ipasavyo.
 
 ```Rust
 struct OutPoint {
@@ -1400,9 +1400,9 @@ Ok((Script(opcodes), &bytes[len.0 as usize..]))
 }
 ```
 
-#### Vitalu Compact
+#### Block Compact
 
-Matumizi ya vitalu vya kompakt kwa sasa hutumiwa kuongeza ufanisi wa usambazaji wa data kati ya nodi. Hii inapunguza matumizi ya kipimo data na kuongeza kasi ya muingiliano kwa kutuma shughuli ambazo hazikuwepo kwenye Mempool, kuzijaza na shughuli ambayo nodi tayari ilikuwa nayo kwenye kizuizi, na kisha kuithibitisha.
+Matumizi ya Compact blocks kwa sasa hutumiwa kuongeza ufanisi wa usambazaji wa data kati ya node. Hii inapunguza matumizi ya kipimo data na kuongeza kasi ya muingiliano kwa kutuma miamala ambazo hazikuwepo kwenye Mempool, kuzijaza na Miamala ambayo node tayari ilikuwa nayo kwenye kizuizi, na kisha kuithibitisha.
 
 #### Matumizi ya Maktaba Zilizopo
 
@@ -1410,37 +1410,37 @@ Kwa maombi muhimu ya maelewano, inashauriwa kutumia maktaba zilizopo ili kuepuka
 
 ![libraries](assets/en/3/9.webp)
 
-### Ufanisi na Usalama katika Uchimbaji wa Bitcoin 
+### Ufanisi na Usalama katika Bitcoin mining 
 
-#### Ufanisi katika uchimbaji
+#### Ufanisi katika mining
 
-Vitalu tupu vya Uchimbaji vinaweza kuwa na ufanisi zaidi kwa wachimbaji:
+Blocks tupu za Mining zinaweza kuwa na ufanisi zaidi kwa miners:
 
 
-- Wachimbaji huanzisha vitalu tupu vya uchimbaji ili kuokoa muda.
-- Vitalu tupu vinaweza kuchimbwa haraka kabla ya kubadili hadi kwenye kizuizi kamili mara tu kizuizi kilichotangulia kinapothibitishwa.
+- Miners huanzisha blocks tupu vya miners ili kuokoa muda.
+- Blocks tupu zinaweza kuminiwa haraka kabla ya kubadili hadi kwenye blocks kamili mara tu kizuizi kilichotangulia kinapothibitishwa.
 
-#### Sababu za Vitalu Tupu vya Uchimbaji
+#### Sababu za Blocks Tupu za miners
 
-Vitalu tupu wakati mwingine huchimbwa kwa sababu ya maswala ya wakati. Wachimbaji wanaweza kuwa hawajapokea orodha kamili ya miamala wakati wanaanzisha Uchimbaji kizuizi kinachofuata, kwa hivyo wanachagua kuchimba kizuizi kisicho na kitu badala yake.
+Miners tupu wakati mwingine huchimbwa kwa sababu ya maswala ya wakati. Miners wanaweza kuwa hawajapokea orodha kamili ya miamala wakati wanaanzisha mining ya block inayofuata, kwa hivyo wanachagua kumine block isiyo na kitu badala yake.
 
 ![empty block](assets/en/3/10.webp)
 
-#### Uchimbaji Hasidi wa Vitalu Tupu
+#### Mining Hasidi wa Blocks Tupu
 
-Wakati uchimbaji mbaya ya vitalu tupu unawezekana, haujazingatiwa. Sababu ya msingi ya vizuizi tupu ni kizuizi cha muda badala ya nia mbaya.
+Wakati mining isiyofaa  ya blocks tupu inawezekana, haijazingatiwa. Sababu ya msingi ya blocks tupu ni block ya muda badala ya nia mbaya.
 
-#### Athari za Vitalu Tupu
+#### Athari za Block Tupu
 
-Kutokea kwa vizuizi tupu ni kipengele cha kawaida cha mchakato wa Uchimbaji na kimsingi ni kutokana na masuala ya muda. Ingawa hazina miamala, bado zinapanua Blockchain na kuchangia usalama wa mtandao.
+Kutokea kwa blocks tupu ni kipengele cha kawaida cha mchakato wa mining na kimsingi ni kutokana na masuala ya muda. Ingawa hazina miamala, bado zinapanua Blockchain na kuchangia usalama wa mtandao.
 
 #### Umuhimu wa Usalama
 
-Usalama katika Uchimbaji Wa Bitcoin  ni muhimu. Kwa kuzingatia utendakazi bora na kutumia maktaba zilizochunguzwa vyema, wachimba migodi na wasanidi programu wanaweza kuhakikisha uadilifu wa Blockchain na kulinda dhidi ya udhaifu unaoweza kutokea.
+Usalama katika Bitcoin mining   ni muhimu. Kwa kuzingatia utendakazi bora na kutumia maktaba zilizochunguzwa vyema, miners na wasanidi programu wanaweza kuhakikisha uadilifu wa Blockchain na kulinda dhidi ya udhaifu unaoweza kutokea.
 
-Kwa kumalizia, kuchanganua vizuizi na miamala ya Bitcoin katika Rust inahusisha kuelewa miundo changamano na kutekeleza mbinu bora za uchanganuzi. Kushughulikia kesi maalum na uchanganuzi wa hati kunahitaji kuzingatiwa kwa uangalifu, na kuzingatia ufanisi na usalama huhakikisha uimara wa mtandao wa Bitcoin.
+Kwa kumalizia, kuchanganua blocks na miamala ya Bitcoin katika Rust inahusisha kuelewa miundo changamano na kutekeleza mbinu bora za uchanganuzi. Kushughulikia kesi maalum na uchanganuzi wa hati kunahitaji kuzingatiwa kwa uangalifu, na kuzingatia ufanisi na usalama huhakikisha uimara wa mtandao wa Bitcoin.
 
-## Muhtasari wa Programu ya Bitcoin na Utekelezaji wa Nodi
+## Muhtasari wa Programu ya Bitcoin na Utekelezaji wa Node
 
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
@@ -1448,30 +1448,30 @@ Kwa kumalizia, kuchanganua vizuizi na miamala ya Bitcoin katika Rust inahusisha 
 
 :::video id=1d148008-9197-446f-afb5-628d4c3a5015:::
 
-Daniela Brozzoni anatoa muhtasari wa kina wa mrundikano wa programu ya Safu ya Bitcoin 1, akifafanua tabaka zinazojumuisha msingi wa itifaki ya Bitcoin (yaani. Bitcoin nodi na pochi za Bitcoin) na jinsi ya kuunda programu ya Bitcoin kwa utangulizi wa GW-7 ya GW-4 ya kina ya GW-4 ya Maendeleo ya GW-4 na Bitcoin. (BDK).
+Daniela Brozzoni anatoa muhtasari wa kina wa mrundikano wa programu ya Safu ya Bitcoin 1, akifafanua tabaka zinazojumuisha msingi wa itifaki ya Bitcoin (yaani. Bitcoin node na Wallets za Bitcoin) na jinsi ya kuunda programu ya Bitcoin kwa utangulizi wa GW-7 ya GW-4 ya kina ya GW-4 ya Maendeleo ya GW-4 na Bitcoin. (BDK).
 
 ### Muhtasari wa Programu ya Bitcoin
 
-Mlundikano wa programu wa Bitcoin ni msingi kwa uendeshaji wake na unajumuisha Vipengele mbalimbali, ikiwa ni pamoja na nodi na pochi. Sehemu muhimu ya mfumo ikolojia huu ni kuendeleza Bitcoin Kit (BDK), ambayo tutaichunguza kwa undani baadaye. Kwanza, hebu tuzingatie jukumu la nodi ndani ya mtandao wa Bitcoin.
+Mlundikano wa programu wa Bitcoin ni msingi kwa uendeshaji wake na unajumuisha Vipengele mbalimbali, ikiwa ni pamoja na node na wallet. Sehemu muhimu ya mfumo ikolojia huu ni kuendeleza Bitcoin Kit (BDK), ambayo tutaichunguza kwa undani baadaye. Kwanza, hebu tuzingatie jukumu la node ndani ya mtandao wa Bitcoin.
 
-#### Nodi za Bitcoin
+#### Node za Bitcoin
 
-Nodi za Bitcoin ni uti wa mgongo wa mtandao wa Bitcoin. Wanaunganisha kwa kila mmoja, shughuli za Ubadilishanaji na vitalu, na kuthibitisha data zinazoingia. Kuna aina tofauti za nodi, kila moja hutumikia kusudi la kipekee:
+Node za Bitcoin ni uti wa mgongo wa mtandao wa Bitcoin. Wanaunganisha kwa kila mmoja, shughuli za exchange na blocks, na kuthibitisha data zinazoingia. Kuna aina tofauti za nodi, kila moja hutumikia kusudi la kipekee:
 
 
-- **Nodi Kamili**: Nodi hizi huhifadhi Blockchain nzima na kuthibitisha miamala na vizuizi vyote. Zinatoa kiwango cha juu cha usalama na ni muhimu kwa ugatuaji wa mtandao.
-  - **Nodi za Kumbukumbu**: Kikundi kidogo cha nodi kamili, nodi za kumbukumbu huhifadhi data yote ya Blockchain, na kuzifanya ziwe muhimu kwa uchanganuzi wa kihistoria na utatuzi.
+- **Full node**: Node hizi huhifadhi Blockchain nzima na kuthibitisha miamala na blocks zote. Zinatoa kiwango cha juu cha usalama na ni muhimu kwa ugatuaji wa mtandao.
+  - **Archive nodes**: Kikundi kidogo cha full nodes, Archive nodes huhifadhi data yote ya Blockchain, na kuzifanya ziwe muhimu kwa uchanganuzi wa kihistoria na utatuzi.
 
 ![archival node](assets/en/3/11.webp)
 
 
-  - **Nodi Zilizopogolewa**: Nodi zilizokatwa huhifadhi nafasi ya diski kwa kuweka tu sehemu ya Blockchain, kuondoa data ya zamani ambayo haihitajiki tena kwa uthibitishaji.
+  - **Pruned nodes**: Pruned nodes huhifadhi nafasi ya disk kwa kuweka tu sehemu ya Blockchain, kuondoa data ya zamani ambayo haihitajiki tena kwa uthibitishaji.
 
 ![pruned node](assets/en/3/12.webp)
 
 #### Msingi wa Bitcoin
 
-Bitcoin Core ndio utekelezaji unaotumika sana wa Nodi Kamili. Inafanya kazi mbili kama Nodi Kamili na Pochi. Vipengele muhimu vya Bitcoin Core ni pamoja na:
+Bitcoin Core ndio utekelezaji unaotumika sana wa Full node Inafanya kazi mbili kama full node  na wallet. Vipengele muhimu vya Bitcoin Core ni pamoja na:
 
 
 - **Utumiaji**: Inaweza kutumika kupitia Laini ya Amri Interface (CLI) na mtumiaji wa picha Interface (GUI).

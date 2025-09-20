@@ -7,7 +7,10 @@ description: What is CoSign and how to use it on ColdCard devices ?
 
 https://youtu.be/MjMPDUWWegw
 
-A quoi sert ColdCard Co-Sign ?
+*Ce tutoriel s'adresse à des personnes ayant déjà un peu d'expérience avec les wallet multisignatures et des logiciels comme Sparrow Wallet ou Nunchuk.*
+
+
+**A quoi sert ColdCard Co-Sign ?**
 
 Cette fonctionnalité permet d'ajouter des **conditions de dépenses** à votre appareil à la manière d'un Hardware Security Module (HSM), pour protéger vos fonds tout en gardant une bonne flexibilité et un contrôle appréciable sur ceux-ci.
 
@@ -155,6 +158,62 @@ Donnez un nom à votre wallet tel qu'il apparaitra dans Sparrow, et choisissez u
 
 ![Co-Sign](assets/fr/15.webp)
 
-Nous voilà parés pour recevoir nos premiers satoshis et tester les conditions de dépenses que nous lui avons appliqué.
+Nous voilà parés pour recevoir nos premiers satoshis et tester les conditions de dépenses que nous avons appliqué à notre wallet.
 
 ![Co-Sign](assets/fr/16.webp)
+
+### Test des conditions de dépenses (spending policies) prédéfinies
+
+Pour rappel nous avions décidé une magnitude maximum de 21212 satoshis pour notre wallet. C'est à dire qu'à chaque fois que la "Spending Policiy Key" (Key C) signerait un transaction  alors cette dernière ne serait valide que si le montant dépensé est inférieur ou égal à 21212.
+
+Allons tester ça. Tout d'abord cliquons sur l'onglet "Receive" dans Sparrow et déposons quelques sats sur le wallet, qui nous serviront tout au long de ce tutoriel.
+
+![Co-Sign](assets/fr/17.webp)
+
+![Co-Sign](assets/fr/18.webp)
+
+Puis essayons de dépenser davantage que les 21212 satoshis autorisés en simulant une transaction de 50000 sats.
+
+![Co-Sign](assets/fr/19.webp)
+
+![Co-Sign](assets/fr/20.webp)
+
+![Co-Sign](assets/fr/21.webp)
+
+![Co-Sign](assets/fr/22.webp)
+
+Après avoir scanné le QR code avec notre ColdCardQ pour importer la transaction voilà ce qui nous est indiqué à l'écran. Un message d'avertissement nous indique que les conditions dépenses ne sont pas respectées. Si on signe la transaction quand même, alors seule une des 2 clés (la master seed de l'appareil) signera.
+
+
+![Co-Sign](assets/fr/23.webp)
+
+Effectivement on voit ici après avoir importé notre transaction dans Sparrow qu'une seule des signature a été appliquée à la transaction.
+
+![Co-Sign](assets/fr/24.webp)
+
+
+Réitérons désormais l'expérience mais pour une transaction de 21000 satoshis, c'est à dire un montant inférieur à la magnitude maximale (21212 sats) que nous avons réglé pour ce wallet.
+
+
+![Co-Sign](assets/fr/25.webp)
+
+![Co-Sign](assets/fr/26.webp)
+
+![Co-Sign](assets/fr/27.webp)
+
+![Co-Sign](assets/fr/28.webp)
+
+Essayons de signer cette transaction avec notre ColdCardQ.
+Pas de problème cette fois, aucun message d'alerte n'apparait et quand on importe la transation signée dans Sparrow Wallet, cette fois les 2 signatures ont bien été appliquée, rendant la transaction valide et prête à être diffusée.
+
+
+![Co-Sign](assets/fr/29.webp)
+
+
+![Co-Sign](assets/fr/30.webp)
+
+
+
+### Exporter le wallet multisig 2-sur-3 vers Nunchuk
+
+Nous allons dans ce paragraphe utiliser notre wallet multisig Co-Sign avec Nuncuk, et en profitez pour appliquer de nouvelles conditions de dépenses pour voir comment cela se passe.

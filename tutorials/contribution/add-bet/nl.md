@@ -11,7 +11,7 @@ De missie van PlanB is om toonaangevende educatieve bronnen aan te bieden op Bit
 Naast tutorials en training biedt PlanB Network ook een uitgebreide bibliotheek aan met gevarieerde educatieve inhoud over Bitcoin, toegankelijk voor iedereen, [in de "BET" (_Bitcoin Educational Toolkit_) sectie](https://planb.network/resources/bet). Deze database bevat educatieve posters, memes, humoristische propagandaposters, technische diagrammen, logo's en andere hulpmiddelen voor gebruikers. Het doel van dit initiatief is om individuen en gemeenschappen die wereldwijd Bitcoin onderwijzen te ondersteunen door hen te voorzien van de nodige visuele middelen.
 
 
-Wil je meewerken aan het verrijken van deze database, maar weet je niet hoe? Deze tutorial is voor jou!
+Wil je meewerken aan het verrijken van deze database, maar weet je niet hoe? Dan is deze tutorial voor jou!
 
 
 *Het is noodzakelijk dat alle inhoud die in de site wordt geïntegreerd vrij is van rechten of de licentie van het bronbestand respecteert. Alle visuals gepubliceerd op PlanB Network zijn beschikbaar onder de [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licentie.*

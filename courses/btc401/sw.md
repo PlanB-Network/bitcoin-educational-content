@@ -5,12 +5,12 @@ objectives:
 
   - Elewa dhana za msingi na teknolojia inayosimamia Bitcoin.
   - Pata ujuzi wa vitendo katika usalama wa Bitcoin, ukuzaji wa programu, na usimamizi wa mtandao.
-  - Kuendeleza umilisi wa Lightning Network na itifaki zake zinazohusiana.
+  - Kuendeleza umilisi wa Lightning Network na protocol zake zinazohusiana.
 
 ---
 Karibu kwenye kozi za ukuzaji za Cubo+ za Bitcoin!
 
-Kwa muda wa saa 20 zijazo, utazama ndani kabisa ya itifaki za BTC na LN. Kozi hii imeundwa kwa ajili ya watayarishaji programu wanaotaka kuanza kufanya kazi katika mfumo ikolojia wa BTC na wanatafuta ufahamu thabiti wa rundo tofauti za teknolojia za BTC na LN.
+Kwa muda wa saa 20 zijazo, utazama ndani kabisa ya protocol za BTC na LN. Kozi hii imeundwa kwa ajili ya watayarishaji programu wanaotaka kuanza kufanya kazi katika mfumo ikolojia wa BTC na wanatafuta ufahamu thabiti wa rundo tofauti za teknolojia za BTC na LN.
 
 Video hizo zilirekodiwa moja kwa moja wakati wa kambi ya CUBO+ 2023 huko El Salvador na kufanikiwa kuwaleta pamoja walimu mashuhuri duniani. Kozi hii ilitolewa bila malipo kwa ukarimu wa Fulgure Venture na juhudi za ushirikiano wa walimu, ofisi za Bitcoin, DecouvreBitcoin, na waigizaji wengine wengi.
 
@@ -53,16 +53,16 @@ Karibu kwenye hotuba ya kwanza ya mpango wa elimu wa **Cubo Plus**. Leo, tunaing
 
 ![Unbanked Population](assets/en/1/1.webp)
 
-_Watu Wasio na Benki Ulimwenguni_
+_Unbanked Population_
 
 ### Bitcoin: Uhuru wa Kifedha na Athari Zake kwa El Salvador
 
-Mhadhara huu, **"Kwa Nini El Salvador Inahitaji Bitcoin,"** unatoa muhtasari wa **itifaki ya Bitcoin**, mizizi yake katika harakati za **Cypherpunk**, na jukumu lake kama chombo cha uhuru-kuwezesha **fedha ambazo hazijadhibitiwa**, **ujumuisho wa kifedha**, na mengi zaidi.
+Mhadhara huu, **"Kwa Nini El Salvador Inahitaji Bitcoin,"** unatoa muhtasari wa **protocol ya Bitcoin**, mizizi yake katika harakati za **Cypherpunk**, na jukumu lake kama chombo cha uhuru-kuwezesha **fedha ambazo hazijadhibitiwa**, **ujumuisho wa kifedha**, na mengi zaidi.
 
 > **Ufafanuzi:**
 >
 
-> - Itifaki ya _Bitcoin:_ Sheria na muundo unaosimamia jinsi Bitcoin inavyofanya kazi kama sarafu ya kidijitali iliyogatuliwa.
+> - Protocol  ya _Bitcoin:_ Sheria na muundo unaosimamia jinsi Bitcoin inavyofanya kazi kama sarafu ya kidijitali iliyogatuliwa.
 > - _Cypherpunk movement:_ Kundi linalotetea matumizi fiche ili kuhakikisha faragha na uhuru katika nafasi za kidijitali.
 > - _Ujumuisho wa kifedha:_ Kutoa ufikiaji wa huduma za kifedha kwa watu ambao wametengwa kutoka kwa mifumo ya kawaida ya benki, ambayo mara nyingi hujulikana kama "isiyo na benki."
 > - _Pesa zisizopimwa:_ Pesa ambazo haziwezi kudhibitiwa au kuwekewa vikwazo na serikali au taasisi za fedha.
@@ -74,7 +74,7 @@ Safari ya Ricky katika Bitcoin inatokana na kazi yake kama mtetezi wa haki za bi
 
 Bitcoin ni zaidi ya sarafu ya kidijitali. Ni chombo cha kulinda faragha na kuhakikisha uhuru wa kifedha. Kwa kutumia **funguo za faragha**, ambazo huwa kama nenosiri kuu, watumiaji wanaweza kudhibiti Bitcoin yao kwa usalama, wakiwa na udhibiti kamili wa fedha zao.
 
-Katika tawala za kimabavu, ambapo ukandamizaji wa kifedha ni jambo la kawaida, **asili isiyoweza kurekebishwa** ya Bitcoin huwaruhusu watu kufanya miamala bila hofu ya pesa zao kufungiwa au kunyang'anywa. Asili yake ya **chanzo huria** inahimiza ushiriki wa kimataifa, ikikuza jumuiya inayoendelea kuboresha mtandao.
+Katika tawala za kimabavu, ambapo ukandamizaji wa kifedha ni jambo la kawaida, asili isiyoweza kudhibitiwa ya Bitcoin huwaruhusu watu kufanya miamala bila hofu ya pesa zao kufungiwa au kunyang’anywa. Asili yake ya open-source inahimiza ushiriki wa kimataifa, na kukuza jumuiya inayoendelea kuboresha mtandao.
 
 ![Image](assets/en/1/4.webp)
 
@@ -83,13 +83,13 @@ Licha ya uwezo wake, Bitcoin inakabiliwa na changamoto kubwa. Katika maeneo kama
 > **Ufafanuzi:**
 >
 
-> - _Vifunguo vya faragha:_ Nambari za siri zinazotoa ufikiaji wa Bitcoin ya mtumiaji.
-> - _Chanzo-wazi:_ Programu ambayo mtu yeyote anaweza kukagua, kurekebisha, na kuboresha.
+> - _Private keys:_ Nambari za siri zinazotoa ufikiaji wa Bitcoin ya mtumiaji.
+> - __Open-source:_ Programu ambayo mtu yeyote anaweza kukagua, kurekebisha, na kuboresha.
 ### Kesi ya El Salvador
 
-Uamuzi wa El Salvador wa kupitisha Bitcoin kama zabuni ya kisheria unaonyesha uwezo wake wa kuleta mabadiliko. Kwa kutumia Bitcoin, nchi inalenga kuvutia uwekezaji wa kigeni na kuimarisha utulivu wa kifedha. Miradi kama vile **Bitcoin Beach** inaonyesha jinsi uchumi wa ndani unavyoweza kukua kwa kutumia Bitcoin kama njia ya ubadilishanaji.
+Uamuzi wa El Salvador wa kupitisha Bitcoin kama zabuni ya kisheria unaonyesha uwezo wake wa kuleta mabadiliko. Kwa kutumia Bitcoin, nchi inalenga kuvutia uwekezaji wa kigeni na kuimarisha utulivu wa kifedha. Miradi kama vile **Bitcoin Beach** inaonyesha jinsi uchumi wa ndani unavyoweza kukua kwa kutumia Bitcoin kama njia ya exchange .
 
-Hata hivyo, kupitishwa kwa Bitcoin duniani kote kunakabiliwa na vikwazo kama vile ujinga, upinzani dhidi ya teknolojia mpya, na changamoto katika miundombinu. Njia ya mfumo wa kifedha unaojumuisha zaidi—ambapo Bitcoin inaweza kusaidia kuinua mataifa yanayoendelea—ni ndefu lakini yenye matumaini. Hali ya ugatuzi na chanzo huria cha Bitcoin kinatoa matumaini kwa siku zijazo ambapo usawa wa kifedha unapatikana kwa kila mtu.
+Hata hivyo, kupitishwa kwa Bitcoin duniani kote kunakabiliwa na vikwazo kama vile kutojua, upinzani dhidi ya teknolojia mpya, na changamoto katika miundombinu. Njia kuelekea mfumo wa kifedha unaojumuisha zaidi—ambapo Bitcoin inaweza kusaidia kuinua mataifa yanayoendelea—ni ndefu lakini yenye matumaini. Hali ya ugatuzi na chanzo huria cha Bitcoin inatoa matumaini kwa siku zijazo ambapo usawa wa kifedha unapatikana kwa kila mtu.
 
 #### Hitimisho
 
@@ -114,7 +114,7 @@ Wakati huo huo, **Uchumi wa Austria** ulitoa msingi wa kanuni za fedha za Bitcoi
 > **Ufafanuzi:**
 >
 
-> - _Uhaba:_ Upatikanaji mdogo, kuunda thamani kupitia hitaji la ugawaji makini.
+> -_Scarcity_ Upatikanaji mdogo, kuunda thamani kupitia hitaji la ugawaji makini.
 ### Uumbaji wa Bitcoin
 
 **Satoshi Nakamoto** alichanganya mawazo haya ili kuunda Bitcoin mwaka wa 2008 kama sarafu ya dijitali iliyogatuliwa na inayostahimili udhibiti. Kwa kuunganisha maadili ya Cypherpunk ya faragha na kanuni za Austria za pesa nzuri, Bitcoin inatoa mfumo wa kifedha unaopinga benki za jadi na udhibiti wa serikali.
@@ -142,7 +142,7 @@ Kupitisha kwa El Salvador kwa Bitcoin kunaonyesha uwezo wake kama zana ya uhuru 
 ![Image](assets/en/1/5.webp)
 
 
-- **Mashindano**: Bitcoin inatanguliza ushindani katika hali ya kifedha kwa kutoa njia mbadala ya benki ya kitamaduni, kuruhusu Wasalvador kuwapita walinzi wa fedha na kuchagua huduma zinazokidhi mahitaji yao vyema.
+- **Mashindano**: Bitcoin inatanguliza ushindani katika hali ya kifedha kwa kutoa njia mbadala ya benki ya kitamaduni, kuruhusu Wanasalvador kuwapita walinzi wa fedha na kuchagua huduma zinazokidhi mahitaji yao vyema.
 - **Ukiritimba**: Kwa kugatua ufikiaji wa kifedha, Bitcoin inavunja ukiritimba wa benki na sarafu zilizotolewa na serikali, kupunguza utegemezi wa taasisi za serikali kuu na kukuza ujumuishaji wa kifedha.
 - **Kunyang'anywa**: Upinzani wa Bitcoin dhidi ya unyakuzi huwapa Wasalvador udhibiti wa mali zao, kulinda utajiri wao dhidi ya mshtuko wa nje na kuimarisha mamlaka ya kifedha.
 
@@ -319,42 +319,42 @@ Faida za kuendesha nodi ya Bitcoin ni kubwa kwa Bitcoiner yoyote aliyejitolea. S
 Hizi ni baadhi ya amri za msingi wakati wa kusanidi nodi zako:
 
 
-- Angalia hali ya **Bitcoin daemon**:
+- Angalia hali ya Bitcoin daemon**:
 
 ```bash
 sudo systemctl status bitcoind
 ```
 
 
-- **Anzisha Bitcoin daemon**:
+- Anzisha Bitcoin daemon:**:
 
 ```bash
 systemctl start bitcoind
 ```
 
 
-- **Zima Bitcoin daemon**:
+- Zima Bitcoin daemon:**:
 
 ```bash
 sudo systemctl stop bitcoind
 ```
 
 
-- Pata maelezo ya kina:
+  - Pata maelezo ya kina**:
 
 ```bash
 bitcoin-cli getblockchaininfo
 ```
 
 
-- Pogoa Blockchain ili kuokoa nafasi ya diski kwa kuweka tu vizuizi vya hivi karibuni:
+- Pogoa Blockchain ili kuokoa nafasi ya diski kwa kuweka tu vizuizi vya hivi karibuni:**:
 
 ```bash
 prune=550
 ```
 
 
-- **Washa seva ya Bitcoin Core na usanidi mipangilio ya RPC:**
+- Washa seva ya Bitcoin Core na usanidi mipangilio ya RPC:**:
 
 ```bash
 server=1
@@ -363,14 +363,14 @@ rpcpassword=yourpassword
 ```
 
 
-- Angalia hali ya **Bitcoin daemon**:
+- Angalia hali ya Bitcoin daemon**:
 
 ```bash
 sudo systemctl status bitcoind
 ```
 
 
-- Angalia salio la Bitcoin kwenye pochi lako**:**
+- Angalia salio la Bitcoin kwenye pochi lako:**:
 
 ```bash
 sudo systemctl status bitcoind
@@ -1213,7 +1213,7 @@ Kila shughuli katika block ya Bitcoin ina yafuatayo:
 - **Idadi ya Matokeo**: Hesabu ya matokeo ya muamala.
 - **Matokeo**: Ina Thamani na ScriptPubKey.
   - **Thamani**: Thamani ya muamala.
-- **Urefu wa Hati ya PubKey**: Urefu wa hati ya PubKey.
+  - Urefu wa Hati ya PubKey**: Urefu wa hati ya PubKey.
   - **Hati ya PubKey**: Ina ufunguo wa umma kama usanidi wa kudai matokeo.
 - **Muda wa Kufunga**: Huonyesha urefu wa kizuizi au Muhuri wa muda ambapo muamala huu unaweza kujumuishwa kwenye kizuizi.
 
@@ -1849,7 +1849,7 @@ Itifaki ya Lightning Network inafafanuliwa kwa uangalifu kupitia BOLT 10 (Msingi
 Bolt 1 inaangazia uumbizaji wa ujumbe kwa kutumia muundo wa Thamani ya Aina ya Urefu (TLV), ambao huhakikisha kuwa ujumbe unaeleweka kwa usawa katika utekelezaji tofauti. Mawasiliano kwa kawaida hufanywa kupitia mlango maalum wa TCP, na ujumbe unaweza kuainishwa katika:
 
 
-- **Ujumbe wa Mawasiliano**: Hizi ni pamoja na `Init`, `Error`, `Onyo`, `Ping` na `Pong` ujumbe, ambazo huanzisha miunganisho, kushughulikia hitilafu, kuchunguza hali ya muunganisho na kutatiza trafiki.
+- Ujumbe wa Mawasiliano**: Hizi ni pamoja na `Init`, `Error`, `Onyo`, `Ping` na `Pong` ujumbe, ambazo huanzisha miunganisho, kushughulikia hitilafu, kuchunguza hali ya muunganisho na kutatiza trafiki.
 - **Ujumbe wa Kuanzisha Kituo**: Hizi ni muhimu wakati wa awamu ya uanzishaji wa kituo.
 - **Ujumbe wa Hali ya Idhaa**: Ujumbe huu hushughulikia masasisho ndani ya chaneli zinazotumika, kuhakikisha pande zote mbili zinasawazishwa.
 - **Ujumbe wa Udaku**: Hizi hutumika kwa ugunduzi wa topolojia ya mtandao na masasisho.

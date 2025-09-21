@@ -87,8 +87,8 @@ Zodra je account is geverifieerd, krijg je toegang tot het platform waar je twee
 
 
 
-- Kraken**: Een vereenvoudigde Interface met essentiële functionaliteit.
-- Kraken Pro**: Een geavanceerde Interface met extra functies, speciaal voor trading.
+- **Kraken**: Een vereenvoudigde Interface met essentiële functionaliteit.
+- **Kraken Pro**: Een geavanceerde Interface met extra functies, speciaal voor trading.
 
 
 Als je alleen Bitcoin wilt kopen en verkopen, kies dan voor de vereenvoudigde Interface. Je hebt altijd de optie om later over te schakelen naar de geavanceerde Interface, mocht dat nodig zijn.
@@ -233,9 +233,9 @@ Voor deze transacties kun je kiezen uit verschillende ordertypes: *Markt*, *Limi
 
 
 
-- Markt*: Maakt onmiddellijke aankoop tegen de huidige marktprijs mogelijk;
-- Limiet*: Hiermee kunt u een aankoopprijs opgeven en de order wordt alleen uitgevoerd als de marktprijs dit bedrag bereikt;
-- Stop-Loss*: Automatisch verkopen wanneer de prijs een bepaalde drempel bereikt.
+- **Markt**: Maakt onmiddellijke aankoop tegen de huidige marktprijs mogelijk;
+- **Limiet**: Hiermee kunt u een aankoopprijs opgeven en de order wordt alleen uitgevoerd als de marktprijs dit bedrag bereikt;
+- **Stop-Loss**: Automatisch verkopen wanneer de prijs een bepaalde drempel bereikt.
 
 
 ## 7 - Transactiebeheer en boekhouding

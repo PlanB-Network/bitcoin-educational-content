@@ -1,5 +1,5 @@
 ---
-name: Punto de venta Breez
+name: Breez - POS
 
 description: Guía para comenzar a aceptar Bitcoin utilizando Breez POS
 ---

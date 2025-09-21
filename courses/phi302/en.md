@@ -1222,7 +1222,7 @@ In an [email thread](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/201
   - a released patch ASAP
   - wide notification of the need to upgrade (or to disable affected systems)
   - minimal disclosure of the actual problem, to delay attacks 
-* A non-critical vulnerability (because it is difficult or expensive to exploit) will be dealt with by:
+**A non-critical vulnerability (because it is difficult or expensive to exploit) will be dealt with by:**
   - patch and review undertaken in the ordinary flow of development
   - backport of a fix or workaround from master to the current released version
 - Devs will attempt to ensure that publication of the fix does not reveal the nature of the vulnerability by providing the proposed fix to experienced devs who have not been informed of the vulnerability, telling them that it fixes a vulnerability, and asking them to identify the vulnerability.
@@ -1552,7 +1552,7 @@ You can test the depth of your understanding by writing [mini-essay](https://www
 #### Upgrading
 
 - What is Speedy Trial and why was it necessary to activate Taproot?
-* Why do we need such a high percentage of miners to upgrade in a softfork? Why is the threshold not just 51%?
+**Why do we need such a high percentage of miners to upgrade in a softfork? Why is the threshold not just 51%?**
 
 
 #### Adversarial thinking

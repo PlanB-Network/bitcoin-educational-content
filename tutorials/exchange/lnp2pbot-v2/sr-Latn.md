@@ -60,7 +60,7 @@ Počnite instaliranjem kompatibilnog Lightning novčanika. Evo naših detaljnih 
 
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Odlično za početnike
   - Intuitivan, moderno korisničko iskustvo
   - Nekastodijalni (vi zadržavate kontrolu nad svojim sredstvima)
@@ -74,7 +74,7 @@ Ispod je link ka uputstvu za ovaj Wallet:
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Jednostavan i pouzdan
   - Automatska konfiguracija kanala
   - Izvorna podrška za BOLT11 fakture
@@ -88,7 +88,7 @@ Ispod je link ka uputstvu za ovaj novčanik:
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Više tehnički, ali veoma kompletno
   - Napredne opcije konfiguracije
   - Savršeno za iskusne korisnike
@@ -216,7 +216,7 @@ Jednom kada je faktura poslata, bot vas povezuje sa prodavcem.
 Kliknite na nadimak prodavca da otvorite privatni kanal za ćaskanje gde možete razmeniti detalje o fiat plaćanju.
 
 
-**5. Potvrda o uplati
+**5. Potvrda o uplati**
 
 
 ![Confirmation du paiement](assets/fr/05.webp)

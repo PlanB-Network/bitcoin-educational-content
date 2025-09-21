@@ -1,0 +1,9 @@
+question: Lightning Invoice에서 사람이 읽을 수 있는 부분의 접두사 lnbc는 무엇을 의미하나요?
+answer: Bitcoin Blockchain의 라이트닝 트랜잭션을 나타냅니다
+wrong_answers:
+  - Invoice는 Bitcoin Testnet에서만 유효합니다
+  - Invoice은 bech32로 인코딩됩니다
+  - On-Chain 트랜잭션이라는 것
+explanation: |
+  접두사 'lnbc'는 Invoice가 다른 네트워크가 아닌 Bitcoin 네트워크의 라이트닝 트랜잭션용임을 나타냅니다.
+reviewed: true

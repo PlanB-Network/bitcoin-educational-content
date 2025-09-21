@@ -1,0 +1,9 @@
+question: Descriptor에서 접두사 `wpkh`는 무엇을 의미하나요?
+answer: Pay-to-Witness-PubKey-Hash
+wrong_answers:
+  - 페이투펍키
+  - Pay-to-Script-Hash
+  - 증인 스크립트 Hash
+explanation: |
+  접두사 `wpkh`는 Pay-to-Witness-Public-Key-Hash 주소를 사용하는 SegWit v0 스크립트를 나타냅니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 모듈로 연산과 XOR의 등가물은 무엇인가요?
+answer: XOR은 비트에 대한 모듈로 2 연산과 동일합니다
+wrong_answers:
+  - XOR은 고전적인 뺄셈 모듈로 3과 동일합니다
+  - XOR은 비트에 대한 모듈로 7 연산과 동일합니다
+  - XOR은 덧셈의 역수입니다
+explanation: |
+  XOR 연산은 모듈로 2를 사용하여 비트를 더하는 것으로 볼 수 있으므로 결과는 동일합니다.
+reviewed: false

@@ -4,11 +4,12 @@ name: NOSTR
 description: Upptäck och börja använda NOSTR
 ---
 
-I slutet av den här guiden kommer du att förstå vad Nostr är, du kommer att ha skapat ett konto och du kommer att kunna använda det.
 
 
 ![A new challenger has arrived](assets/1.webp)
 
+
+*I slutet av denna guide kommer du att förstå vad Nostr är, du kommer att ha skapat ett konto och du kommer att kunna använda det.*
 
 ## Vad är Nostr?
 
@@ -51,8 +52,8 @@ Klienter är programvara som tillåter interaktion med Nostr. De viktigaste klie
 
 
 - iOS: damus
-- Android: ametist
-- Webb: iris.to; snort.social; astral.ninja
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 
 Klienter tillåter användare att generate ett nytt nyckelpar (motsvarande att skapa ett konto) eller autentisera sig med ett befintligt nyckelpar.
@@ -67,7 +68,7 @@ Reläer är förenklade servrar som du kan överge när som helst om du inte gil
 💡 **Proffstips:** Betalda reläer är i allmänhet mer effektiva när det gäller att filtrera skräppost och oönskat innehåll.
 
 
-### Guide
+## Guide
 
 
 Nu vet du tillräckligt om Nostr för att komma igång och skapa din första identitet på detta protokoll.

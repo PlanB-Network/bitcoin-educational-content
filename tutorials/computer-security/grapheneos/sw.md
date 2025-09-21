@@ -10,6 +10,8 @@ description: Mfumo wa uendeshaji wa simu unaolenga usalama na faragha unaotegeme
 GrapheneOS, iliyoanzishwa mwaka wa 2014 kama 'CopperheadOS' inategemea Kanuni ya jadi ya Android (AOSP), lakini ikiwa na mabadiliko mengi na maboresho yanayolenga kuboresha faragha na usalama wa mtumiaji. GrapheneOS huweka mtumiaji udhibiti wa simu zao, si makampuni makubwa ya teknolojia.
 
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire:
 
 
@@ -344,7 +346,7 @@ Kushoto: Threema, Kulia: Simplex
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
@@ -482,10 +484,10 @@ Walakini unapohamia GrapheneOS, kuna starehe za kiumbe ambazo lazima uache kwa s
 
 
 
-- Apple CarPlay/Android Auto** - Utahitaji kushikamana na Bluetooth ya mtindo wa zamani, USB au Aux.
-- Apple/Google Pay** - Kila mtu hubeba Wallet yake hata hivyo!
-- Programu za benki** - Sio kwamba hizi hazifanyi kazi hata kidogo. Wengine hufanya, kwa kweli kabisa. Wengine hufanya kazi tu na Huduma za Google Play zimewezeshwa (soma zaidi juu ya hiyo hapa chini) na zingine hazifanyi kazi hata kidogo. Soma ripoti kwenye benki yako [hapa](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) ili kuona hali ya sasa ya uchezaji. Usiogope ikiwa yako iko kwenye orodha ambayo haifanyi kazi, kumbuka unaweza tu kuhifadhi URL kama programu ya wavuti kwenye skrini yako ya kwanza.
-- Arifa za Push** - Programu nyingi zinazokutumia masasisho wakati hutumii programu mahususi zitafanya hivyo kupitia Huduma za Google Play. Hizi hazijasakinishwa kwa chaguo-msingi kwenye GrapheneOS, kwa hivyo ukijikuta huarifiwi mara moja rafiki yako anapokutumia barua pepe, hii ndiyo sababu inayofanya. Habari njema ni kwamba baadhi ya programu zilizotajwa hapo juu zimetumia muunganisho wao wa usuli ili kuangalia mara kwa mara masasisho na kisha kukupa arifa inapohitajika.
+- **Apple CarPlay/Android Auto** - Utahitaji kushikamana na Bluetooth ya mtindo wa zamani, USB au Aux.
+- **Apple/Google Pay** - Kila mtu hubeba Wallet yake hata hivyo!
+- **Programu za benki** - Sio kwamba hizi hazifanyi kazi hata kidogo. Wengine hufanya, kwa kweli kabisa. Wengine hufanya kazi tu na Huduma za Google Play zimewezeshwa (soma zaidi juu ya hiyo hapa chini) na zingine hazifanyi kazi hata kidogo. Soma ripoti kwenye benki yako [hapa](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) ili kuona hali ya sasa ya uchezaji. Usiogope ikiwa yako iko kwenye orodha ambayo haifanyi kazi, kumbuka unaweza tu kuhifadhi URL kama programu ya wavuti kwenye skrini yako ya kwanza.
+- **Arifa za Push** - Programu nyingi zinazokutumia masasisho wakati hutumii programu mahususi zitafanya hivyo kupitia Huduma za Google Play. Hizi hazijasakinishwa kwa chaguo-msingi kwenye GrapheneOS, kwa hivyo ukijikuta huarifiwi mara moja rafiki yako anapokutumia barua pepe, hii ndiyo sababu inayofanya. Habari njema ni kwamba baadhi ya programu zilizotajwa hapo juu zimetumia muunganisho wao wa usuli ili kuangalia mara kwa mara masasisho na kisha kukupa arifa inapohitajika.
 
 
 ### Google Play ya Sandboxed

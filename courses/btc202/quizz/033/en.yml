@@ -1,0 +1,9 @@
+question: Who is maintaining the Bitcoin Knots project?
+answer: Luke Dashjr
+wrong_answers:
+  - Gavin Andresen
+  - Wladimir J. Van Der Laan
+  - Pieter Wuille
+explanation: |
+  Bitcoin Knots is maintained by Luke Dashjr and is the main alternative customer to Bitcoin core.
+reviewed: false

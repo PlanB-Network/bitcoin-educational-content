@@ -201,7 +201,7 @@ Model One loob teie Mnemonic fraasi juhusliku numbrigeneraatori abil. Veenduge, 
 
 
 
-***Es on selge, et te ei tohi neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidist Wallet kasutatakse ainult Testnet-l ja see kustutatakse õpetuse lõpus
+**Es on selge, et te ei tohi neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidist Wallet kasutatakse ainult Testnet-l ja see kustutatakse õpetuse lõpus**
 
 
 

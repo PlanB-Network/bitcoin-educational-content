@@ -1,5 +1,5 @@
 ---
-name: Blå Wallet
+name: Blue Wallet
 
 description: Bitcoin Radikalt enkel och kraftfull portfölj
 ---
@@ -152,7 +152,7 @@ Du kan ta bort en eller alla mottagare genom att klicka på **Remove Recipient**
 
 
 
-- Uppblåsta avgifter**: Har du gjort en transaktion som det tar lång tid att få bekräftad? Genom att aktivera avgiftsinflation kan du lägga till ytterligare transaktionsavgifter till din väntande transaktion för att påskynda dess bekräftelse.
+- **Uppblåsta avgifter**: Har du gjort en transaktion som det tar lång tid att få bekräftad? Genom att aktivera avgiftsinflation kan du lägga till ytterligare transaktionsavgifter till din väntande transaktion för att påskynda dess bekräftelse.
 
 
 
@@ -248,7 +248,7 @@ Att ta emot bitcoins i en multi-signatur Wallet är samma process som när du ä
 
 
 
-- Skicka bitcoins** :
+- Skicka **bitcoins**:
 
 
 
@@ -274,7 +274,7 @@ Den andra Wallet-signatören, om han eller hon också är en användare, kan sig
 
 
 
-- Gå längre med portföljen Multi signature**:
+- Gå längre med portföljen **Multi signature**:
 
 
 

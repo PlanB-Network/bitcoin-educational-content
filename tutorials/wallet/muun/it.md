@@ -6,15 +6,15 @@ description: Configurazione del tuo portafoglio Muun
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) è un portafoglio auto-custodito per bitcoin e lightning.
+[Muun](https://muun.com/) è un portafoglio auto-custodiale per bitcoin e lightning.
 
-## tutorial video
+## Tutorial video
 
 ![tutorial video](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Wallet - Guida completa all'uso
 
-Guida completa all'uso (con screenshot) dell'applicazione Muun; un portafoglio mobile Bitcoin user-friendly che consente di effettuare transazioni sulla rete Lightning.
+Guida completa per l’utente (con schermate) per l’applicazione Muun; un portafoglio Bitcoin mobile facile da usare che consente di effettuare transazioni sulla Rete Lightning.
 
 ![image](assets/0.5.webp)
 
@@ -122,15 +122,15 @@ Ecco la traduzione delle istruzioni:
 
 Questa procedura di emergenza ti aiuterà a recuperare i tuoi fondi se non sei in grado di utilizzare Muun sul tuo dispositivo.
 
-1. Trova il tuo codice di recupero
+- Trova il tuo codice di recupero
 
 Hai scritto questo codice su un pezzo di carta prima di creare il tuo kit di emergenza. Ne avrai bisogno in seguito.
 
-2. Scarica lo strumento di recupero
+- Scarica lo strumento di recupero
 
 Vai alla pagina https://github.com/muun/recovery e scarica lo strumento sul tuo computer.
 
-3. Recupera i tuoi fondi
+- Recupera i tuoi fondi
 
 Esegui lo strumento di recupero e segui i passaggi. Lo strumento si occuperà di trasferire i tuoi fondi a un indirizzo Bitcoin a tua scelta.
 
@@ -174,7 +174,7 @@ Le opzioni di personalizzazione si trovano nel menu "Impostazioni fattura". Qui 
 
 ![image](assets/28.webp)
 
-## Utilizzare la funzione LNURL
+## Utilizzo della funzione LNURL
 
 Il portafoglio Muun offre la possibilità di utilizzare LNURL per ricevere transazioni. Questa funzione, che si attiva premendo il simbolo quadrato di scansione in alto a destra della pagina, ha alcuni vantaggi, tra cui evitare di dover condividere una fattura per ricevere una transazione. Invece, è necessario scansionare un codice QR per ricevere le informazioni di pagamento che potrete poi confermare per confermare il processo di transazione.
 

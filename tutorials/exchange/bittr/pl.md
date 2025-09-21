@@ -21,23 +21,23 @@ Przyjrzyjmy się, jak łatwo jest rozpocząć układanie Sats za pomocą Bittr.
 ## Rozpoczęcie pracy z Bittr
 
 
-1) Na stronie internetowej lub telefonie komórkowym przejdź do [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) i kliknij "Kup Bitcoin"
+- Na stronie internetowej lub telefonie komórkowym przejdź do [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) i kliknij "Kup Bitcoin"
 
 
 
-- Brak konta:** Nie musisz tworzyć konta, aby kupić Bitcoin
-- Brak procesu KYC:** Nie musisz przechodzić przez KYC (do 999CHF na 30 dni)
-- Bezpośredni start:** Zaczynasz od razu i możesz otrzymać Sats w ciągu kilku minut
+- **Brak konta:** Nie musisz zakładać konta, aby kupić Bitcoina
+- **Brak procesu KYC:** Nie musisz przechodzić przez KYC (do 999 CHF na 30 dni)
+- **Bezpośredni start:** Zaczynasz od razu i możesz otrzymać swoje saty w ciągu kilku minut
 
 
 ![image1](assets/en/01.webp)
 
 
-2) Wprowadź IBAN, z którego będziesz wysyłać
+- Wprowadź IBAN, z którego będziesz wysyłać
 
 
 
-- Tylko SEPA:** Bittr działa tylko w Europie
+- **Tylko SEPA:** Bittr działa tylko w Europie
 
 
 ![image2](assets/en/02.webp)
@@ -58,37 +58,37 @@ Zaczniemy od BlueWallet dla początkujących, a w dalszej części samouczka sko
 Zalecamy przeprowadzenie konfiguracji w cichym i prywatnym miejscu. Nie powinno to zająć więcej niż 5 minut.
 
 
-1) Wybierz "bluewallet" na stronie internetowej
+- Wybierz "bluewallet" na stronie internetowej
 
 
-2) Pobierz aplikację BlueWallet tutaj: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Pobierz aplikację BlueWallet tutaj: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Kliknij "Dodaj Wallet" (jeśli masz już Wallet, przejdź do następnego kroku).
+- Kliknij "Dodaj Wallet" (jeśli masz już Wallet, przejdź do następnego kroku).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Wybierz swój Wallet i przejdź do podpisywania wiadomości
+- Wybierz swój Wallet i przejdź do podpisywania wiadomości
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Zakończ podpisywanie wiadomości i wklej swój podpis na stronie internetowej
+- Zakończ podpisywanie wiadomości i wklej swój podpis na stronie internetowej
 
 
 ![image6](assets/en/06.webp)
 
 
-**Uwaga: Możesz również kliknąć "Udostępnij" w BlueWallet, skopiować cały link i wkleić go w polu na stronie Bittr
+**Uwaga: Możesz również kliknąć „Udostępnij” w BlueWallet, skopiować cały link i wkleić go w polu na stronie Bittr.**
 
 
-6) Skonfiguruj przelew bankowy z osobistym opisem płatności
+- Skonfiguruj przelew bankowy z osobistym opisem płatności
 
 
 ![image7](assets/en/07.webp)
@@ -97,25 +97,25 @@ Zalecamy przeprowadzenie konfiguracji w cichym i prywatnym miejscu. Nie powinno 
 ## Kup Bitcoin bezpośrednio w BitBox
 
 
-1) Wybierz "BitBox"
+- Wybierz "BitBox"
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Kliknij, aby otworzyć aplikację BitBox na komputerze
+- Kliknij, aby otworzyć aplikację BitBox na komputerze
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Odblokuj skrzynkę BitBox i postępuj zgodnie z instrukcjami, aby dokończyć podpisywanie wiadomości
+- Odblokuj skrzynkę BitBox i postępuj zgodnie z instrukcjami, aby dokończyć podpisywanie wiadomości
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Skonfiguruj przelew bankowy z osobistym opisem płatności
+- Skonfiguruj przelew bankowy z osobistym opisem płatności
 
 
 ![image11](assets/en/11.webp)

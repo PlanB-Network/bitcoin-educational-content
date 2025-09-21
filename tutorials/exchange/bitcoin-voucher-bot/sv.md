@@ -5,10 +5,10 @@ description: En Telegram-bot för att köpa Bitcoin i sekretess
 ![image](assets/cover.webp)
 
 
-_Den här handledningen skrevs av_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+_Denna handledning är skriven av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
-# Inledning
+## Introduktion
 
 
 BitcoinVoucherBot är ett verktyg med vilket Bitcoins kan köpas i Exchange för euro.
@@ -47,7 +47,7 @@ I Telegram-chatten förbereder vi en beställning, med en banköverföring betal
 Aktivering är en enkel engångsoperation. Från Telegram, sök efter _@BitcoinVoucherBot_ och så snart du kommer till Bot-chatten, sticker en stor _Start / Start_-knapp ut längst ner. Operationen får Bot att svara, vilket presenterar en meny med de viktigaste kommandona som är tillgängliga för den. De första välkomstmeddelandena visas också, som vi rekommenderar att du läser noggrant.
 
 
-** Varning **: det finns flera bedragare som poserar som original VoucherBot. Om du inte är säker på sökningen via Telegram, vänligen gå till länken BitcoinVoucherBot från [officiell webbplats](https://www.bitcoinvoucherbot.com/)
+**Varning**: det finns flera bedragare som utger sig för att vara den ursprungliga VoucherBot. Om du inte är säker på sökningen via Telegram, använd länken till BitcoinVoucherBot från [officiella webbplatsen](https://www.bitcoinvoucherbot.com/)
 
 
 ![image](assets/it/01.webp)
@@ -75,10 +75,10 @@ Större verksamheter inkluderar:
 - _/support_: i händelse av behov, dyker upp kontakter för att rapportera problem till supportteamet.
 
 
-# Bitcoin inköpsförfarande
+## Procedur för att köpa Bitcoin
 
 
-## Förberedelse av order
+### Förberedelse av beställning
 
 
 Klicka på _/köpa_ i kommandomenyn
@@ -141,7 +141,7 @@ Om allt är korrekt fortsätter du genom att klicka på _Proceed_.
 ![image](assets/it/10.webp)
 
 
-## Betalning
+### Betalning
 
 
 Efter några ögonblick, som är nödvändiga för att behandla uppgifterna, svarar VoucherBot med ett meddelande som innehåller alla detaljer som krävs för att slutföra beställningen. Beroende på vad din bank kräver är den relevanta informationen:
@@ -179,7 +179,7 @@ Vänligen notera:
 
 
 ---
-## Återlösen
+### Inlösen
 
 
 Så snart betalningen är framgångsrik skickar Bitcoin VoucherBot kupongen direkt till chatten. Blixtkupongen är i form av en QR-kod, tryckt på en orange bakgrund.
@@ -201,7 +201,7 @@ Där finns alla uppgifter som behövs för att tjäna in pengarna:
 Du kan lösa in värdebeviset genom att rama in QR-koden med skanningsfunktionen på en kompatibel Wallet Lightning Network, eller via LNURL, som också visas under QR-koden.
 
 
-För denna handledning använde vi Wallet Of Satoshi, med hjälp av skanningsfunktionen som aktiveras av _Send_-tangenten
+För denna handledning använde vi Wallet Of Satoshi, med skanningsfunktionen som aktiveras av knappen _Send_.
 
 
 ![image](assets/it/32.webp)
@@ -213,13 +213,13 @@ Med mobiltelefonens kamera aktiverad, rama in QR-koden i chatten, öppna Telegra
 ![image](assets/it/34.webp)
 
 
-Innan du fortsätter, Wallet Av Satoshi från en verifieringsskärm som inkluderar beloppet, som exakt matchar det belopp som uttrycks på kupongen och, som en beskrivning, BitcoinVoucherBot. För att ta ut kupongen, klicka helt enkelt på _Receive_
+Innan du fortsätter visar Wallet Of Satoshi en verifieringsskärm som innehåller beloppet, vilket exakt motsvarar det som anges på kupongen, och som beskrivning, BitcoinVoucherBot. För att lösa in kupongen är det bara att klicka på _Receive_.
 
 
 ![image](assets/it/35.webp)
 
 
-Wallet av Satoshi processer under några ögonblick
+Wallet Of Satoshi bearbetar i några ögonblick.
 
 
 ![image](assets/it/36.webp)
@@ -228,7 +228,7 @@ Wallet av Satoshi processer under några ögonblick
 och slutligen rapporteras insamlingen och är omedelbart tillgänglig i Wallet-saldot.
 
 
-**Wallet av Satoshi är en förvaringsapp: omedelbart efter att kupongen har lösts in är det lämpligt att flytta Sats till en Wallet som inte är förvaringsapp.**
+**Wallet of Satoshi är en förvaringsapp: direkt efter att vouchern löses in rekommenderas det att flytta satsen till en icke-förvaringsplånbok.**
 
 
 ![image](assets/it/37.webp)

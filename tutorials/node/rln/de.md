@@ -1,5 +1,5 @@
 ---
-name: RGB-Blitzknoten
+name: RGB Lightning Node
 description: Wie kann ich einen RGB-kompatiblen Lightning-Knoten mit RLN starten?
 ---
 ![cover](assets/cover.webp)
@@ -67,17 +67,17 @@ Am Ende dieses Befehls wird eine ausführbare Datei `rgb-lightning-node` in Ihre
 Um zu funktionieren, benötigt der "rgb-lightning-node"-Daemon das Vorhandensein und die Konfiguration von :
 
 
-- Ein `bitcoind`**-Knoten
+- Ein **bitcoind**-Knoten
 
 Jede RLN-Instanz muss mit `bitcoind` kommunizieren, um ihre On-Chain-Transaktionen zu übertragen und zu überwachen. Die Authentifizierung (Login/Passwort) und die URL (Host/Port) müssen dem Daemon mitgeteilt werden.
 
 
-- Ein Indexierer** (Electrum oder Esplora)
+- Ein **Indexierer** (Electrum oder Esplora)
 
 Der Daemon muss in der Lage sein, On-Chain-Transaktionen aufzulisten und zu untersuchen, insbesondere um den UTXO zu finden, auf dem ein Vermögenswert verankert wurde. Sie müssen die URL Ihres Electrum-Servers oder Esplora angeben.
 
 
-- Ein RGB**-Proxy
+- Ein **RGB-Proxy**
 
 Der Proxyserver ist eine Komponente (optional, aber sehr empfehlenswert), die den Austausch von RGB *Zuordnungen* zwischen Lightning-Peers vereinfacht. Auch hier muss eine URL angegeben werden.
 

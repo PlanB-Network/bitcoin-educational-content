@@ -367,13 +367,12 @@ Danas smo svedoci istorijske prekretnice. Dolar, koji je dugo dominirao, izgleda
 Zbog ovih premisa, revolucija Bitkoina dobija na zamahu. Suprotno prethodnim valutama, ne zahteva **pouzdanu treću stranu** i ima za cilj da odvoji državu od novca.
 
 
-![image](assets/en/15.webp)
 
 
 Zapravo, Bitkoin se predstavlja kao odgovor na ove sistemske izazove predlažući decentralizovano rešenje i novi paralelni monetarni sistem. Istorijski gledano, ako je zlato bilo favorizovano kao valuta zbog svoje otpornosti na falsifikovanje, Bitkoin se slično ne može falsifikovati. Štaviše, ograničen je na 21 milion jedinica, zahvaljujući svojoj decentralizovanoj i kriptografskoj prirodi. Bitkoin je valuta koja se oslanja na transparentnost i neutralnost, nudeći privlačnu alternativu trenutnom centralizovanom monetarnom sistemu.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/15.webp)
 
 
 Još jedan razlog zašto je Bitkoin privukao pažnju je pojava digitalnih valuta centralnih banaka, ili CBDC-a, što izgleda neizbežno. Ovaj novi oblik novca bi razvio centralno planiranu ekonomiju, i mogao bi i da ometa finansijsku slobodu pojedinaca i da olakša autoritarne zloupotrebe.
@@ -415,13 +414,13 @@ Kada dođe do hiperinflacije, više ne govorimo o 20% godišnje, već o 20% mese
 Ključno je razumeti da hiperinflacija ne nastaje slučajno, zbog kapitalizma ili političkih napada protivnika. Hiperinflacija je direktna posledica loših monetarnih odluka koje donose centralni bankari i političari. Njene posledice pogađaju svakog građanina i čak utiču na naredne generacije. Ljubazno vas pozivamo da provedete pet minuta čitajući sledeću tabelu kako biste u potpunosti shvatili pravi uticaj ovog fenomena (kurs ECO204 detaljnije obrađuje ovu temu). Kao što možete videti, nijedna zemlja ili valuta nije potencijalno sigurna.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/16.webp)
 
 
 ### Koje su faze hiperinflacije?
 
 
-![image](assets/en/18.webp)
+![image](assets/en/17.webp)
 
 
 Da bi došlo do hiperinflacije, moraju se desiti određeni događaji.
@@ -448,7 +447,7 @@ Faza 3 - Začarani krug štampanja novca
 - Tako je potrebno sve više i više novčanica za kupovinu robe, što dovodi do nestašice papirnog novca. Kao odgovor, vlade pribegavaju štampanju više novčanica, što dodatno podstiče inflaciju.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/18.webp)
 
 
 Faza 4 - Pojava nove valute
@@ -479,7 +478,7 @@ Nemačka valuta postala je toliko bezvredna da su neki građani radije spaljival
 Na kraju su vlasti stvorile novu valutu, podržanu dugovima Nemačke, Francuske i Engleske, i garantovanu nemačkom zemljom.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/19.webp)
 
 
 
@@ -495,7 +494,7 @@ Mađarska se našla na gubitničkoj strani sukoba, sa većinom svojih industrijs
 Poslednja novčanica koja je puštena u opticaj bila je 100 miliona milijardi penga (100.000.000.000.000.000) 1946. godine.
 
 
-![image](assets/en/21.webp)
+![image](assets/en/20.webp)
 
 
 
@@ -514,7 +513,6 @@ U junu 2007. vlada je već reagovala uvođenjem kontrole cena, ali ova akcija ni
 U aprilu 2009. godine, ministar finansija je najavio suspenziju zimbabveanskog dolara i odobrio upotrebu različitih stranih valuta za trgovinu. Svi bankovni računi, penzije i finansijske institucije su preko noći ostali bez svojih sredstava.
 
 
-![image](assets/en/15.webp)
 
 
 U zaključku, hiperinflacija ima efekat brzog degradiranja vrednosti valute, što dovodi do erozije štednje i gubitka poverenja u monetarni sistem. Kao što je Volter jednom sugerisao, fiat valuta će uvek na kraju izgubiti svoju intrinzičnu vrednost i konvergirati ka nuli.
@@ -539,7 +537,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 Bitkoin je decentralizovana digitalna valuta sa unapred definisanom maksimalnom količinom od **21 milion jedinica**. Ova intrinzična karakteristika oskudice određena je njenim kompjuterskim kodom i ojačana konsenzusom svih korisnika koji učestvuju u protokolu.
 
 
-![image](assets/en/22.webp)
+![image](assets/en/21.webp)
 
 
 Njegovo monetarno izdavanje može biti ilustrovano krivom koja predstavlja količinu bitkoina stvorenih tokom vremena. Na primer, u 2022. godini, približno 18,5 miliona bitkoina bilo je u opticaju. Prognoze ukazuju da će do 2025. godine biti oko 19,5 miliona bitkoina, što predstavlja oko 93% ukupne ponude, a do 2037. godine, ova cifra će dostići 20,4 miliona.
@@ -551,7 +549,7 @@ Njegovo monetarno izdavanje može biti ilustrovano krivom koja predstavlja koli�
 Kreiranje novih bitkoina rezultat je procesa rudarenja. Ukratko, rudari koriste moćne računare koji rešavaju složene matematičke probleme (Hash), koji validiraju i osiguravaju transakcije. Kada je problem rešen (ili je pronađen validan Hash), rudar dodaje novi blok transakcija u Blockchain, decentralizovani i distribuirani Ledger(registar) koji beleži sve transakcije izvršene na mreži. Blockchain obezbeđuje transparentnost i sigurnost, jer je svaki blok povezan sa prethodnim, što čini gotovo nemogućim menjanje prethodnih podataka bez konsenzusa mreže.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/22.webp)
 
 
 Nakon uspešnog izvršavanja ovog zadatka, rudari dobijaju nagradu u vidu izdavanja novih bitkoina svakih deset minuta. Ova nagrada je programirana da se prepolovi na svakih 210.000 blokova, što je otprilike svake četiri godine (događaj poznat kao "Halving"-prepolovljavanje), dajući krivi monetarnog izdavanja oblik stepenica. Zbog ovog mehanizma, može se matematički predvideti da će kreiranje novih bitkoina prestati oko godine 2140, kada ukupan broj dostigne svoj limit od 21 milion.
@@ -596,7 +594,7 @@ Limit od 21 milion je osnova oskudice Bitkoina, i garantovana je kroz dva ključ
 Težina pronalaženja validnog Hash-a prati neku vrstu ciklusa: ako se broj rudara poveća i više blokova se pronađe brže, to uzrokuje smanjenje prosečnog vremena za pronalaženje bloka i tako se povećava težina. Kao posledica toga, broj blokova koje rudari pronađu se smanjuje, što znači da se mehanizam vraća na prosek od 10 minuta po bloku. Molimo pogledajte sliku ispod za vizuelni prikaz.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/23.webp)
 
 
 S druge strane, ako manje rudara radi i blokovi se pronalaze sporije, težina rudarenja se smanjuje, ubrzavajući prosečno vreme za pronalaženje bloka.
@@ -612,7 +610,7 @@ Dakle, kako se broj izdatih bitkoina približava granici od 21 milion, rudari ć
 - Teorija igara je matematički koncept koji se oslanja na ljudsku racionalnost. Pretpostavlja da pojedinci deluju logično, nastojeći da maksimiziraju sopstvene koristi dok razmatraju potencijalne odluke drugih. U Bitkoinu, teorija igara pomaže da se osigura da će većina rudara i korisnika delovati u najboljem interesu mreže. Zapravo, pošto korisnici glasaju o promenama protokola, svaka modifikacija Bitkoin protokola zahtevala bi saglasnost cele zajednice korisnika, što je veoma složeno. Dakle, ako bi neko želeo da kreira 22. milion bitkoina, morao bi da ubedi sve korisnike da dobrovoljno obezvrede sopstvenu štednju, što je malo verovatno da će se desiti jer je Bitkoin globalan i nije pod upravom centralne grupe.
 
 
-![image](assets/en/25.webp)
+![image](assets/en/24.webp)
 
 
 Ideja devalvacije valute je protivna fundamentalnoj filozofiji Bitkoina, tako da je promena u njenoj ukupnoj količini veoma malo verovatna.
@@ -682,7 +680,7 @@ Bitkoin novčanik može imati mnogo oblika i formi: softver na vašem računaru,
 Portfolija se tako mogu kategorizovati u široke porodice upotrebe, uvek fokusirane na ključno pitanje: da li ste vi vlasnik sredstava ili prepuštate kontrolu nad svojim novcem trećoj strani? Ovu temu ćemo detaljno istražiti u narednom poglavlju, ali pitanje ostaje jednostavno: da li je novac u vašem džepu ili u džepu vašeg bankara?
 
 
-![image](assets/en/26.webp)
+![image](assets/en/25.webp)
 
 
 ### Kako funkcioniše Bitkoin novčanik?
@@ -717,7 +715,7 @@ Ove adrese automatski kreira vaš novčanik i mogu se sigurno deliti. Da biste m
 Ukratko, ova tehnologija nam omogućava da primamo bitkoine bez da primalac može ukrasti naša sredstva! Poštansko sanduče bi moglo biti prikladna metafora: ljudi mogu u njega ubaciti novac, ali samo vi možete da ga otvorite.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/26.webp)
 
 
 ### Da li su bitkoini u novčaniku?
@@ -726,7 +724,7 @@ Ukratko, ova tehnologija nam omogućava da primamo bitkoine bez da primalac mož
 Iako su vaši ključevi sačuvani u vašem novčaniku, sami bitkoini su zapravo "sačuvani" u bitkoin Blockchain-u, što je javno distribuirani Ledger(registar) unutar Bitkoin peer-to-peer mreže (o tome ćemo detaljnije govoriti u odeljku 3). To znači da gubitak uređaja koji sadrži vaš novčanik ne dovodi nužno do gubitka vaših bitkoina. Ono što vam omogućava da ponovo kreirate vaš novčanik i trošite vaš bitkoin je zapravo privatni ključ, zato ga uvek pravilno osigurajte!
 
 
-![image](assets/en/28.webp)
+![image](assets/en/27.webp)
 
 
 Srećom, od 2017. godine, privatni ključ može biti predstavljen jednostavnom listom od 12 ili 24 reči, poznatom kao 'Mnemonic fraza, koje je prilično lako sačuvati. Ova fraza služi kao rezervna kopija za vaša sredstva i omogućava vam da ponovo kreirate vaš novčanik koristeći bilo koji Bitkoin softver ili aplikaciju. Stoga, svako ko pronađe ovu listu reči može pristupiti vašim bitkoinima.
@@ -738,7 +736,7 @@ Srećom, od 2017. godine, privatni ključ može biti predstavljen jednostavnom l
 Šta ako neko slučajno pogodi našu listu od 12 ili 24 reči? Kratak odgovor je da je to veoma malo verovatno, zahvaljujući kriptografiji koja se koristi za kreiranje novčanika. Da bismo to stavili u perspektivu, slučajno otkrivanje vaše iste Mnemonic fraze je slično pronalaženju "pravog" broja između 1 i 2 podignuto na stepen 256, što je gotovo ekvivalentno pronalaženju "pravog" atoma u Univerzumu. Međutim, ako niste zadovoljni ovom podrazumevanom sigurnošću, uvek je možete poboljšati dodavanjem passphrase (dodatne reči) vašem bitkoin Wallet.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/28.webp)
 
 
 Dakle, verovatnoća hakovanja vašeg Bitkoin novčanika je astronomski niska ako pratite dobre bezbednosne prakse koje ćemo detaljno opisati u sledećem odeljku.
@@ -774,7 +772,7 @@ Kada posedujete bitkoine, bezbednost vaših sredstava je glavna briga. Najbolji 
 Zapravo ne postoji univerzalni odgovor ili rešenje, zato odvojite vreme da odgovorite na ova pitanja, jer će vam to pomoći da prilagodite svoje bezbednosne mere vašim potrebama.
 
 
-![image](assets/en/30.webp)
+![image](assets/en/29.webp)
 
 
 ### Razmišljanje o Bitkoin novčanicima u smislu složenosti
@@ -787,7 +785,7 @@ Ovde dole, definisaćemo nekoliko nivoa bezbednosti:
 - **Nivo 0**, koristite takozvanu "uslužnu službu" gde niste jedini vlasnik svojih bitkoina. Budite svesni da vam ova pouzdana treća strana može ograničiti pristup vašim sredstvima u bilo kom trenutku. U ovom slučaju, vaš nivo finansijskog suvereniteta je sličan onom u tradicionalnom bankarskom sistemu sa bankovnim računom.
 
 
-![image](assets/en/31.webp)
+![image](assets/en/30.webp)
 
 
 
@@ -812,7 +810,7 @@ https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672
 
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
-![image](assets/en/32.webp)
+![image](assets/en/31.webp)
 
 
 
@@ -824,14 +822,14 @@ Da biste saznali više o upotrebi i funkcionisanju BIP39 passphrase (lozinke):
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![image](assets/en/33.webp)
+![image](assets/en/32.webp)
 
 
 
 - **Nivo 4**, koristite skup novčanika za kreiranje "Multisig" novčanik, što znači da su potrebni višestruki potpisi za obavljanje transakcije. U ovom slučaju, budite svesni da svaki deo Multisig treba biti uskladišten na različitim lokacijama. Ovaj pristup se često smatra naprednom upotrebom Bitkoina, prvenstveno za upravljanje velikim iznosima i za korporativne svrhe.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/33.webp)
 
 
 Naravno, različiti slučajevi upotrebe takođe zahtevaju različite Bitkoin novčanike, i ne postoji univerzalno rešenje.
@@ -884,7 +882,7 @@ Treba bukvalno da uzmete prazan list papira ili da odštampate ovaj [šablon](ht
 Evo primera kako da sastavite papir: reči su lažne, zato ih nemojte koristiti!
 
 
-![image](assets/en/35.webp)
+![image](assets/en/34.webp)
 
 
 ### Naši saveti za pravilno postupanje
@@ -893,7 +891,7 @@ Evo primera kako da sastavite papir: reči su lažne, zato ih nemojte koristiti!
 Obavezno pazite da ne napravite greške dok jasno i čitko prepisujete Mnemonic frazu , inače bi vaši naslednici mogli imati poteškoća da je pročitaju i možda neće moći da povrate sredstva. Kada sačuvate reči, preporučljivo je napraviti drugu kopiju i čuvati je na drugom mestu od prve. Ovo osigurava da imate rezervnu kopiju u slučaju da se original izgubi ili ošteti.
 
 
-![image](assets/en/36.webp)
+![image](assets/en/35.webp)
 
 
 Liste reči treba čuvati na sigurnom mestu koje možete lako zapamtiti. Izbegavajte kreiranje previše komplikovanih planova skrivanja koji bi mogli dovesti do njihovog gubitka.
@@ -931,7 +929,7 @@ Jedan metod za dugoročno osiguranje vaših bitkoina je graviranje vaše Mnemoni
 Različita rešenja su dostupna: neka od njih su niskobudžetna, kao što je "Blockmit", dok druga mogu zahtevati specijalizovaniju opremu. Možete dalje istražiti ovu temu u [tutorijalima](https://planb.network/en/tutorials/wallet) sekciji naše akademije.
 
 
-![image](assets/en/37.webp)
+![image](assets/en/36.webp)
 
 
 ### Razmišljajte o sledećoj generaciji!
@@ -943,7 +941,7 @@ Uporedo sa ovom prvom praksom, kreiranje plana nasledstva je ključni korak kako
 Ako želite dalje istražiti temu plana nasleđivanja za vaše bitkoine, preporučujemo da pročitate knjigu Pamele Morgan [Cryptoasset Inheritance Plan](https://planb.network/resources/books/28) ili da se upišete na kurs BTC102, gde pružamo smernice za kreiranje vašeg plana.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/37.webp)
 
 
 ### Privatnost je važna
@@ -1000,7 +998,7 @@ Sada kada smo pokrili osnove Bitkoin novčanika i najbolje prakse za njihovu za�
 ### Hajde da počnemo sa malo istorije.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/38.webp)
 
 
 31. oktobar 2008. označava rođenje nove finansijske tehnologije koja se zove Bitkoin. Tog dana, anonimni Satoshi Nakamoto predstavio je svoju inovaciju svetu putem emaila poslatog na mailing listu cypherpunks-a, zajednice entuzijasta kriptografije posvećenih promociji privatnosti na internetu. Ovaj email je sadržao dokument nazvan "White Paper", koji je predstavio kako Bitkoin funkcioniše.
@@ -1009,19 +1007,19 @@ Sada kada smo pokrili osnove Bitkoin novčanika i najbolje prakse za njihovu za�
 Ova inicijativa nije odmah izazvala entuzijazam, verovatno zbog prethodnih neuspeha u pokušajima stvaranja sistema digitalnog novca. Ipak, ovaj White Paper je na kraju postao referenca za Bitkoin korisnike i bio je predmet mnogih debata u Bitkoin ekosistemu tokom godina.
 
 
-![image](assets/en/40.webp)
+![image](assets/en/39.webp)
 
 
 Dana 3. januara 2009. godine, Satoshi je zvanično inaugurisao mrežu Bitkoin kreiranjem prvog bloka, poznatog i kao "Genesis blok", čime je označen početak bitkoin Blockchain-a. Ovaj blok sadrži otkrivajuću poruku koja odražava misiju Bitkoina: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
 
-![image](assets/en/41.webp)
+![image](assets/en/40.webp)
 
 
 > "Možemo dobiti veliku bitku u trci u naoružanju i steći"
 > novu teritoriju slobode za nekoliko godina.” - Satoshi Nakamoto
 
-![image](assets/en/44.webp)
+![image](assets/en/41.webp)
 
 
 ### Bitkoin Protokol Oživljava
@@ -1030,7 +1028,7 @@ Dana 3. januara 2009. godine, Satoshi je zvanično inaugurisao mrežu Bitkoin kr
 Dana 9. januara 2009. godine, Satoshi je najavio izdavanje verzije Bitkoin 0.1.0. Nedugo zatim, Hal Finney je preuzeo softver i pridružio se mreži, što je označilo prisustvo dva čvora i, samim tim, dva rudara u mreži. Finney je čak ovekovečio ovaj korak tvitom, 'Running bitkoin'. Dana 12. januara 2009. godine, prva Bitkoin transakcija od 10 BTC obavljena je između Satoshi-ja i Hala Finney-a, i lako je možete pronaći ako se vratite na blok 170.
 
 
-![image](assets/en/43.webp)
+![image](assets/en/42.webp)
 
 
 Interesovanje za Bitkoin brzo je raslo, što je navelo mnoge ljude da ga testiraju, učestvuju u debatama, rešavaju greške i razmišljaju o njegovim etičkim, ekonomskim i filozofskim aspektima. Ljudi su bili toliko očarani da je Satoshi kreirao bitkoinTalk forum 22. novembra 2009. godine kako bi olakšao ovu vrstu komunikacije.
@@ -1041,7 +1039,7 @@ Forum je brzo postao preferirano mesto za diskusiju među korisnicima Bitkoin-a,
 **Da li ste znali?** Dana 22. maja 2010. godine, Laszlo Hanyecz je ušao u istoriju ponudivši da kupi dve pice za 10.000 BTC: to je bio prvi put da je bitkoin korišćen za kupovinu fizičke robe.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/43.webp)
 
 
 ### Nestanak Satoshi-ja Nakamoto-a
@@ -1063,7 +1061,7 @@ Za neke, Bitkoin je definisan kao gljivični entitet poput [micelijuma](https://
 Da biste saznali više o spisima Satoshi-ja Nakamoto-a, preporučujemo čitanje ["The Book of Satoshi"](https://planb.network/en/resources/books/98) autora Phil Champagne ili ARTE dokumentarac "Le mystaire Satoshi".
 
 
-![image](assets/en/45.webp)
+![image](assets/en/44.webp)
 
 
 > “Osnovni problem sa konvencionalnom valutom je svo poverenje koje je potrebno da bi ona funkcionisala. Centralnoj banci se mora verovati da neće obezvrediti valutu, ali istorija fiat valuta je puna kršenja tog poverenja. Bankama se mora verovati da će čuvati naš novac i prenositi ga elektronski, ali one ga pozajmljuju u talasima kreditnih balona sa jedva delićem u rezervi” - [Satoshi Nakamoto](https://Satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
@@ -1095,7 +1093,7 @@ Nakon toga, Bob obavlja transakciju otvaranjem svog bitkoin Wallet i pritiskom n
 Da bi finalizovao transakciju, Bob mora da je potpiše svojim privatnim ključem kako bi potvrdio da je vlasnik bitkoina koje želi da prenese. Ovaj korak je obično automatski na mobilnim novčanicima, ili se pojavljuje kao potvrda na vašem fizičkom novčaniku: "Da li ste sigurni da želite da pošaljete X ka Y? Da ili ne".
 
 
-![image](assets/en/46.webp)
+![image](assets/en/45.webp)
 
 
 **Zašto plaćamo naknade?** Naknade su ključne za stvaranje slobodnog tržišta za uključivanje transakcija u blokove. Naime, blok ima veličinu od 1 MB (koja je proširena na 4 MB nakon SegWit ažuriranja), tako da je broj transakcija koje se mogu "ubaciti" u blok ograničen na nekoliko hiljada transakcija po bloku. Veličina transakcije zavisi od njene složenosti. Stoga, složenije transakcije obično podrazumevaju veće naknade.
@@ -1107,7 +1105,7 @@ Da bi finalizovao transakciju, Bob mora da je potpiše svojim privatnim ključem
 U ovoj fazi, transakcija je kreirana i Bobov novčanik će je podeliti sa Bitkoin mrežom. Da bi to uradio, njegov novčanik će komunicirati sa čvorom Bitkoin mreže, koji će ovu informaciju propagirati drugim čvorovima. Ovakav proces omogućava celoj mreži da vidi ovu novu transakciju i uzme je u obzir.
 
 
-![image](assets/en/47.webp)
+![image](assets/en/46.webp)
 
 
 U ovom trenutku, iako je ova transakcija poznata svima (putem alata zvanog Mempool), ne može se smatrati potvrđenom dok ne bude umetnuta u blok od strane rudara, koji je jedini koji potvrđuje transakcije uključujući ih u Blockchain.
@@ -1116,7 +1114,7 @@ U ovom trenutku, iako je ova transakcija poznata svima (putem alata zvanog Mempo
 Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija kako bi ih sastavili u blok. Ukratko, moraju rešiti kriptografski zadatak u procesu nazvanom "Proof of Work"(dokaz o radu) kako bi njihov blok bio sledeći u Bitkoin Blockchain-u.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/47.webp)
 
 
 ### Korak 3: Transakcija se rudari u bloku pod strane rudara.
@@ -1125,7 +1123,7 @@ Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija k
 Sistem Proof of Work zahteva pronalaženje važećeg "Hash-a" za dati blok: zamislite to kao jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash-a zavisi od stepena težine Bitkoin mreže (o tome ćemo kasnije detaljnije). Za sada, uzmite u obzir da je rudar  pronašao važeći blok, i da je Bobova transakcija ka Alisi uključena u njega. Zatim, novi važeći blok se dodaje u Blockchain, zajednički Ledger za sve korisnike bitkoina.
 
 
-![image](assets/en/49.webp)
+![image](assets/en/48.webp)
 
 
 ### Korak 4: Blok je važeći i verifikovan od strane Alisinog referentnog čvora.
@@ -1134,7 +1132,7 @@ Sistem Proof of Work zahteva pronalaženje važećeg "Hash-a" za dati blok: zami
 U ovoj fazi, transakcija se smatra validnom: rudar će zatim propagirati novi blok na mrežu preko svog čvora, i Alisin novčanik će biti ažuriran.
 
 
-![image](assets/en/50.webp)
+![image](assets/en/49.webp)
 
 
 **Napomena:** Čak i ako je Alisa obaveštena da je primila bitkoine na jednu od svojih adresa, preporučljivo je smatrati transakciju nepromenljivom tek nakon što dobije **šest** potvrda. To znači da šest dodatnih blokova mora biti iskopano iznad bloka koji sadrži Bobovu transakciju. Drugim rečima, što je transakcija starija u Blockchain-u, to postaje nepromenljivija.
@@ -1177,7 +1175,7 @@ Hajde da detaljnije pogledamo kako funkcioniše Bitkoin čvor.
 Stoga, svaki uređaj koji pokreće deo Bitkoin softvera, nazvan bitkoin čvor (često koristeći [bitkoin Core](https://bitkoin.org/en/bitkoin-core/)), doprinosi decentralizaciji mreže.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/50.webp)
 
 
 ### Čvorovi su centralna jezgra Bitkoin-a.
@@ -1189,7 +1187,7 @@ Svaki čvor drži kopiju Blockchain, koja omogućava verifikaciju transakcija i 
 Čvorovi su sposobni da verifikuju validnost blokova i transakcija jer prate pravila Bitkoin konsenzusa. Ova pravila uspostavljaju Bitkoin monetarnu politiku, kao što je iznos nagrade za rudarenje (o čemu ćemo detaljnije govoriti u sledećem odeljku) i količinu bitkoina u opticaju. Na neki način, čvorovi deluju kao pravni sistem mreže jer sprovode bitkoin pravila, održavajući mrežu neutralnom. Pravila konsenzusa se retko menjaju, ako uopšte, jer je za promene potrebna saglasnost svih čvorova.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/51.webp)
 
 
 Upravljanje unutar protokola prevazilazi okvire ovog osnovnog kursa, ali je važno napomenuti da svaki korisnik koji pokreće bitkoin čvor može odlučiti koje će pravila slediti. Korisnik može odlučiti da se pridržava različitih pravila (tj. da izvrši izmene u kodu), ali ako te promene poništavaju trenutna pravila konsenzusa, taj čvor više neće biti deo Bitkoin mreže. Shodno tome, velike izmene su retke i zahtevaju značajnu koordinaciju među hiljadama učesnika sa različitim ideologijama i interesima, što ih primorava da pruže ažuriranja koja se smatraju 'boljim' od strane svih Bitkoin korisnika.
@@ -1201,7 +1199,7 @@ Upravljanje unutar protokola prevazilazi okvire ovog osnovnog kursa, ali je važ
 Postoji nekoliko opcija dostupnih kada želite da instalirate svoj čvor, sa različitim troškovima održavanja. Možete jednostavno pokrenuti bitkoin Core softver na svom računaru, ali će vam biti potreban značajan prostor za skladištenje, jer Blockchain zauzima oko ~500GB. Da biste prevazišli ovo ograničenje, možete izabrati da u memoriji zadržite samo poslednje N blokova kreiranjem "pruned node". Za ovo drugo rešenje, trošak je zanemarljiv jer je čvor aktivan samo kada vam je potreban.
 
 
-![image](assets/en/53.webp)
+![image](assets/en/52.webp)
 
 
 Druga opcija je korišćenje posebnog hardvera za ovu svrhu, kao što je Raspberry Pi 4 sa dovoljno velikim SSD-om (oko ~2TB). Ova druga opcija je skuplja ako morate da kupite hardver, ali predstavlja nešto manje od €10.00 godišnje u smislu potrošnje električne energije.
@@ -1218,7 +1216,7 @@ Povoljna cena i dostupnost Bitkoin čvora u smislu hardverskih resursa, skladiš
 Zaista, svako ima dobar razlog da pokrene čvor! Troškovi i napori su minimalni u poređenju sa dobijenom koristi. Samo treba da se upustimo u avanturu i pridružimo se hiljadama drugih Bitkoinera kako biste svi zajedno formirali Bitkoin mrežu.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/53.webp)
 
 
 Naprotiv, ako bi blokovi bili 100 puta teži, mogli bismo svakako obaviti 100 puta više transakcija svakih 10 minuta, ali pokretanje bitkoin čvora bi zahtevalo 50TB Hard disk, propusni opseg veći od 500GB/mesec, i hardver sposoban za validaciju stotina hiljada transakcija za manje od 10 minuta. U ovoj hipotetičkoj situaciji sa 100 puta većim blokovima, pokretanje Bitkoin čvora ne bi bilo dostupno prosečnoj osobi, što bi ugrozilo i decentralizaciju protokola i nepromenljivost transakcija i pravila konsenzusa.
@@ -1239,7 +1237,7 @@ Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvaraj
 **Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem ASIC mašina da reše Bitkoin Proof of Work(dokaz o radu).**
 
 
-![image](assets/en/55.webp)
+![image](assets/en/54.webp)
 
 
 ### Objašnjenje Proof of Work
@@ -1262,7 +1260,7 @@ Mašine rade neprekidno, i nakon prosečno 10 minuta, pojavljuje se pobednik: ov
 Svakih 2016 blokova (otprilike svake dve nedelje), **podešavanje težine** ponovo balansira globalnu rudarsku igru na osnovu broja učesnika. Ovo podešavanje je neophodno jer broj rudara i njihova kombinovana računarska snaga mogu značajno varirati tokom vremena. Da bi se održalo ciljno vreme bloka, mreža ponovo kalibriše nivo težine na osnovu toga koliko brzo su poslednjih 2016 blokova iskopani. Ako su iskopani prebrzo, težina se povećava, čineći teže pronalaženje tačnog Hash-a. Suprotno tome, ako su iskopani presporo, težina se smanjuje, čineći ga lakšim.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/55.webp)
 
 
 ### Rudarenje se stalno razvija
@@ -1748,13 +1746,13 @@ Konačno, važno je napomenuti da poreske obaveze mogu varirati u zavisnosti od 
 Kao i svaka nova tehnologija, usvajanje bitkoin prati S-krivu, koja ilustruje napredak od ranih usvojitelja do šire prihvaćenosti. Prešli smo izvan ere ranih usvojitelja, a indikatori sugerišu potencijalnu demokratizaciju Bitkoina. Uostalom, to je viralna tehnologija koja se ne može zaustaviti. S jedne strane, El Salvador je preduzeo hrabar korak potpuno usvojivši Bitkoin kao zakonsko sredstvo plaćanja. S druge strane, druge zemlje su reagovale zabranom i kriminalizacijom njegove upotrebe, što pokazuje da je usvajanje Bitkoina složeno i podložno uticaju kulturnih, istorijskih i nacionalnih faktora.
 
 
-![image](assets/en/02.webp)
+![image](assets/en/77.webp)
 
 
 Uspon Bitkoina primorava kompanije, univerzitete, regulatore i pojedince da uzmu u obzir ovu novu tehnologiju. Potrebno je kreirati nove alate, prilagoditi usluge i nastaviti sa inovacijama kako bi se osigurao njihov opstanak. Ovaj kontekst postavlja mnoga pitanja vezana za različite oblasti, uključujući kriptografiju, teoriju igara, ekonomiju i monetarnu politiku, računarstvo, filozofiju, energiju, zakone i regulative. Ukratko, Bitkoin je multidisciplinarna tema.
 
 
-![image](assets/en/01.webp)
+![image](assets/en/78.webp)
 
 
 ### bitkoin je od 0 do 1
@@ -1763,7 +1761,7 @@ Uspon Bitkoina primorava kompanije, univerzitete, regulatore i pojedince da uzmu
 Na kraju, pozivamo vas da razmislite o ovoj novoj monetarnoj revoluciji. Ima toliko toga za istražiti sa Bitkoinom da je komplikovano asimilovati sve odjednom. Uzmite svoje vreme, Bitkoin neće nestati. Naprotiv, revolucija je tek počela. Verujemo da smo sposobni stvoriti svet koji želimo poveriti našoj deci: svet gde je ljudski suverenitet pravo, gde je privatnost po defaultu poštovana i gde novac nije manipulisan. Nadamo se da ćemo to zajedno postići.
 
 
-![image](assets/en/77.webp)
+![image](assets/en/79.webp)
 
 
 Ako želite da proširite svoje znanje o Bitkoinu, ovo je pravo vreme: veliki broj autora, mislilaca i esejista kreirao je edukativni sadržaj o Bitkoinu. Poslednjih nekoliko godina, mi smo popisivali i kategorizovali ove radove kako bismo ponudili [biblioteku resursa](https://planb.network/resources) najradoznalijima među vama. U tom odeljku, naći ćete najbolje podkaste, vebsajtove, članke, tutorijale, knjige i drugi sadržaj.
@@ -1798,7 +1796,7 @@ Lightning mreža je revolucionarna tehnologija koja je duboko promenila naše sh
 Da biste u potpunosti razumeli Lightning mrežu, ključno je razumeti kako se Bitkoin razvija i napreduje u slojevima infrastrukture: prvi Layer je Blockchain, a drugi je Lightning mreža.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/80.webp)
 
 
 ### Blockchain ne može rasti beskonačno
@@ -1810,7 +1808,7 @@ Lightning mreža je validirana i implementirana 2017. godine kako bi rešio prob
 Problem skalabilnosti odnosi se na izazov implementacije monetarnog sistema sposobnog da obezbedi sve veći broj transakcija po sekundi kao odgovor na rastuće usvajanje. Ovo pitanje se odnosi na Blockchain trilemu. Zamislite trougao sa decentralizacijom, sigurnošću i skalabilnošću kao njegovim vrhovima.
 
 
-![image](assets/en/79.webp)
+![image](assets/en/81.webp)
 
 
 Prema tome, protokol zasnovan na Blockchain-u može zadovoljiti samo dve od tri navedene karakteristike. U okviru Bitkoin protokola, programeri su napravili izbore u korist decentralizacije i sigurnosti. S jedne strane, veličina bloka od 1MB i vreme između dva bloka (u proseku 10 minuta) omogućavaju pokretanje Bitkoin čvora uz niže troškove, što favorizuje decentralizaciju. S druge strane, proizvodnja blokova putem Proof-of-Work čini prevaru unutar protokola izuzetno skupom, dok olakšava verifikaciju od strane mrežnih čvorova i favorizuje sigurnost. Međutim, ovi izbori nameću ograničenje na prosečan broj transakcija u bloku, što otprilike odgovara nekoliko transakcija po sekundi. Ovaj broj je smešan u poređenju sa računarskim kapacitetom platnih procesora kao što je VISA (1700/s), ali ovo ograničenje je neophodno kako bi se transakcije sa Bitkoinom obavljale na način otporan na cenzuru i bez poverenja. Ipak, oni koji razvijaju Bitkoin razmišljaju o ovom problemu od samog početka.
@@ -1822,13 +1820,13 @@ Prema tome, protokol zasnovan na Blockchain-u može zadovoljiti samo dve od tri 
 Nakon godina razmatranja i višestrukih pokušaja, pojavio se Lightning protokol. Koristeći određeni broj specifikacija, ovaj protokol konstruira peer-to-peer mrežu plaćanja oslanjajući se na sigurnost i programabilnost Bitkoin transakcijskog protokola. Lightning mreža djeluje kao mreža kanala plaćanja, omogućavajući trenutne transakcije sa niskim naknadama za pošiljaoca, a čak kreira rute za razmenu između pojedinaca koji nemaju direktnu vezu kanala.
 
 
-![image](assets/en/80.webp)
+![image](assets/en/82.webp)
 
 
 Tradicionalne usluge prenosa novca kao što su Western Union, centralne banke, Visa i Mastercard mogle bi nestati ako ne usvoje tehnologiju Lightning mreže, koja je efikasnija i isplativija od trenutnih platnih sistema. Zapravo, Lightning mreža omogućava gotovo neograničene transakcije između dva korisnika koji dele kanal, pri čemu se snose samo troškovi energije povezani sa transakcijom za najavu kreiranja kanala, umesto za svaku pojedinačnu transakciju.
 
 
-![image](assets/en/81.webp)
+![image](assets/en/83.webp)
 
 
 Transakcije su osigurane kroz kriptografiju i indirektno kroz energiju koju troše rudari na Bitkoinu. Mogu se izvršiti trenutno, bez geografskih ograničenja, uz izuzetno niske naknade (često manje od 0.5%).
@@ -1866,25 +1864,25 @@ Ova peer-to-peer mreža ima za cilj da olakša mikro-transakcije (sa veoma nisko
 Ova tehnologija otvara vrata širokom spektru potencijalnih primena za Bitkoin koje su ranije bile nedostižne zbog neophodnih ograničenja za osiguranje sigurnosti i decentralizaciju Bitkoina. Među ovim svakodnevnim slučajevima upotrebe, možemo pomenuti instant naplatu u fizičkoj i online trgovini, strimovanje novca za plaćanja u realnom vremenu i mikro-donacije za kreatore sadržaja. Omogućavanjem mreže gotovo trenutnih, sigurnih i niskotarifnih transakcija (u proseku manje od 0,5%), mnogi ranije nezamislivi poslovni modeli mogu biti ostvareni. Ovo je moguće jer Lightning mreža funkcioniše koristeći satoshije (Sats), najmanju jedinicu bitkoina.
 
 
-![image](assets/en/82.webp)
+![image](assets/en/84.webp)
 
 
 Industrija video igara nudi posebno zanimljiv primer kako se Lightning mreža može koristiti za transformaciju postojećih poslovnih modela. Koncept "skin in the game" - koža u igri - je ideja koja je nedavno stekla popularnost u ovom kontekstu. U suštini, to podrazumeva da imate finansijski ulog u ishodu igre. Zapravo, Lightning mreža omogućava igračima da se klade na vrlo male iznose novca dok igraju igre, kao što su nekoliko satoshija (oko delić euro centa) kako bi uspostavili ulog koji podstiče konkurenciju, dok značajno povećava troškove korišćenja botova.
 
 
-![image](assets/en/83.webp)
+![image](assets/en/85.webp)
 
 
 Ukratko, budućnost mikrotransakcija sa Bitkoinom izgleda obećavajuće zahvaljujući inovacijama poput Lightning mreža. Kako se ove tehnologije nastavljaju razvijati i sazrevati, možemo očekivati pojavu novih i uzbudljivih aplikacija u bliskoj budućnosti.
 
 
-![image](assets/en/84.webp)
+![image](assets/en/86.webp)
 
 
 Još jedan primer može biti "strimovanje novca": putem Lightning mreže, možemo vršiti mikro-transakcije svake minute (potencijalno bez pouzdane treće strane), što otvara vrata eksperimentisanju sa ekonomskim modelima gde potrošači plaćaju za sadržaj na osnovu njihove stvarne potrošnje. Čak je zamislivo koristiti ovaj sistem za iznajmljivanje dobara. U takvom sistemu, novac se automatski deli, na osnovu unapred definisanog procenta, među različitim doprinosiocima usluge ili proizvoda. Ovo bi moglo revolucionisati način na koji razmišljamo o modelima plaćanja: umesto plaćanja mesečne pretplate za uslugu, korisnici bi mogli biti naplaćeni po minuti, ili čak po sekundi, za vreme koje provode koristeći uslugu. Takav ekonomski model mogao bi imati duboke implikacije za kreatore sadržaja, koji bi bili motivisani da proizvode kvalitetan sadržaj kako bi zadržali pažnju korisnika.
 
 
-![image](assets/en/85.webp)
+![image](assets/en/87.webp)
 
 
 Zaključno, Lightning mreža otvara mnoštvo uzbudljivih upotreba za korisnike Bitkoina. Rezultirajući ekonomski modeli i poslovne prilike su brojni i raznovrsni, i ohrabrujemo vas da sami proverite isprobavanjem aplikacije za podkaste [Fountain](https://www.fountain.fm/), koja vam omogućava da budete nagrađeni sa nekoliko Sats za slušanje vaših omiljenih podkasta!

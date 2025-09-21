@@ -8,4 +8,4 @@ Kontrollsumma on andmekogumi põhjal arvutatud väärtus, mida kasutatakse andme
 Bitcoin-s kasutatakse rakendustasandil kontrollsummasid, et tagada vastuvõtvate aadresside terviklikkus. Kontrollsumma arvutatakse kasutaja Address kasuliku koormuse põhjal ja lisatakse seejärel sellele Address-le, et tuvastada kõik vead selle sisendis. Kontrollsumma on olemas ka taastamislausetes (mnemonites).
 
 
-> ► *Üldiselt on aktsepteeritud kasutada inglise keele terminit "checksum" otse prantsuse keeles
+> ► *Üldiselt on aktsepteeritud kasutada inglise keele terminit "checksum" otse prantsuse keeles*

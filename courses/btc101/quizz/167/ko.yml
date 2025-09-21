@@ -1,0 +1,8 @@
+question: Miner의 일반적인 비용은 얼마인가요?
+answer: 전기 소비 및 하드웨어 구매.
+wrong_answers:
+  - 하드웨어 구매만 가능합니다.
+  - 거래 수수료.
+  - 전기 소비량 및 거래 수수료.
+explanation: >-
+reviewed: false

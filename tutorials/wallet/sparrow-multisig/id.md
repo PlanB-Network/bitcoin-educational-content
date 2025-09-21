@@ -1,5 +1,5 @@
 ---
-name: Burung gereja Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Membuat portofolio multi-tanda tangan di Sparrow
 ---
 ![cover](assets/cover.webp)

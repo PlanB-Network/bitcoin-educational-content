@@ -156,7 +156,7 @@ BT güvenliğinizi tamamen kontrol altına almaya, bireysel egemenliğinizi gü�
 
 
 
-*N.B.: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe] (https://planb.network/resources/glossary) başvurun
+*N.B.: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe](https://planb.network/resources/glossary) başvurun*
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman "açık kaynak" teriminin kullanımını açıkça eleştirmekt
 
 
 
-*Kaynak: Nathaniel Welch
+**Kaynak: Nathaniel Welch**
 
 
 
@@ -764,7 +764,7 @@ Bu montaj işi, bileşenlerini felsefesine (basitlik, hafiflik, güvenlik, karar
 
 
 
-→ Not:** Bir *dönen sürüm* dağıtımı, en son yazılım sürümlerini kullanılabilir hale gelir gelmez entegre eder, bu da sürekli güncel ancak potansiyel olarak daha az kararlı bir sistemle sonuçlanır. Tersine, *kararlı* bir dağıtım, ana sürüm yayınlandığında yazılım sürümlerini gönderir ve yenilik pahasına daha fazla güvenilirliği garanti eder.
+→ **Not:** Bir *dönen sürüm* dağıtımı, en son yazılım sürümlerini kullanılabilir hale gelir gelmez entegre eder, bu da sürekli güncel ancak potansiyel olarak daha az kararlı bir sistemle sonuçlanır. Tersine, **kararlı** bir dağıtım, ana sürüm yayınlandığında yazılım sürümlerini gönderir ve yenilik pahasına daha fazla güvenilirliği garanti eder.
 
 
 
@@ -794,7 +794,7 @@ Bu ilk çabalar Linux dağıtımlarının doğuşuna işaret etti:
 
 
 
-- Şubat 1992: MCC Geçici Linux**
+- Şubat 1992: **MCC Geçici Linux**
 
 
 
@@ -804,7 +804,7 @@ Manchester Üniversitesi'nde geliştirilen MCC Interim Linux, ilk Linux dağıt�
 
 
 
-- Mayıs 1992: Softlanding Linux Sistemi (SLS)**
+- Mayıs 1992: **Softlanding Linux Sistemi (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS artık mevcut değildir. Bilinen son versiyonu 1994'ün sonlarına dayanıyo
 
 
 
-- Temmuz 1993: Slackware**
+- Temmuz 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware bugün hala kullanılmaktadır ve bu da onu hala kullanılan en eski L
 
 
 
-- Ağustos 1993: Debian**
+- Ağustos 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Böylece Debian, GNU/Linux dünyasının teknik ve ideolojik temellerinden biri 
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -1052,7 +1052,7 @@ Bir Linux dağıtımı seçimi özel ihtiyaçlarınıza, teknik seviyenize ve ku
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1068,7 +1068,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1088,7 +1088,7 @@ Mint basitliği, multimedya kodeklerinin varsayılan olarak bulunması ve iyi ta
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1106,7 +1106,7 @@ Kurulum sorunsuzdur, temel yazılımlar önceden yüklenmiştir ve "Lite" sürü
 
 
 
-- temel işletim sistemi**:
+- **temel işletim sistemi**:
 
 
 2011 yılında piyasaya sürülen elementary OS, her şeyden önce Interface'nin tasarımına ve tutarlılığına odaklanan Ubuntu tabanlı bir dağıtımdır. MacOS'tan esinlenen Pantheon masaüstü ortamı minimalist, zarif ve akıcıdır. Bununla birlikte, sistem diğer dağıtımlara göre daha az özelleştirilebilir ve bazı ileri düzey kullanıcılar Interface'nin seçenekleri ve kasıtlı olarak kilitlenmiş yapısı ile sınırlı hissedebilir. Günlük kullanım için basit, tutarlı bir sistem arayan estetik açıdan hassas kullanıcılar için çok uygundur.
@@ -1121,7 +1121,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1143,7 +1143,7 @@ Amerikan System76 şirketi tarafından geliştirilen Pop!OS da Ubuntu tabanlıd�
 
 
 
-- Fedora** (İş İstasyonu veya KDE Plazma):
+- **Fedora** (İş İstasyonu veya KDE Plazma):
 
 
 
@@ -1157,7 +1157,7 @@ Fedora, en son teknolojilere (Wayland, PipeWire, Flatpak...) yönelik Red Hat de
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed veya Leap):
+- **openSUSE** (Tumbleweed veya Leap):
 
 
 
@@ -1171,7 +1171,7 @@ openSUSE, yuvarlanan bir sürüm veya kararlı dağıtım olarak mevcuttur. Sist
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1185,7 +1185,7 @@ Debian, *Stable* (çok güvenilir, ancak daha eski yazılım) ve *Testing* (daha
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1199,7 +1199,7 @@ Arch'ı temel alan Manjaro, Arch Linux'u erişilebilir kılıyor. Bu dağıtım 
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1217,7 +1217,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 
 
-- Kali Linux**:
+- **Kali Linux**:
 
 
 Kali Linux, sızma testi ve güvenlik denetimi için tasarlanmış Debian tabanlı bir dağıtımdır. Yüzlerce pentest aracı içerir. Bu dağıtım günlük kullanım için ana sistem olarak pek uygun değildir.
@@ -1230,7 +1230,7 @@ Kali Linux, sızma testi ve güvenlik denetimi için tasarlanmış Debian tabanl
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1244,7 +1244,7 @@ Parrot OS de Debian'dan türetilmiştir. Pentesting, saldırgan güvenlik ve giz
 
 
 
-- Kuyruklar**:
+- **Kuyruklar**:
 
 
 
@@ -1264,7 +1264,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1278,7 +1278,7 @@ Qubes OS, Fedora tabanlıdır ve kullanımı bölümlere ayırmak için Xen sana
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1292,7 +1292,7 @@ BlackArch, Arch Linux'un (Debian'daki Kali gibi) pentest odaklı bir uzantısıd
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1308,7 +1308,7 @@ PureOS, Purism tarafından geliştirilen Debian türevi bir dağıtımdır ve ta
 https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 
-- Raspberry Pi OS**:
+- **Raspberry Pi OS**:
 
 
 Raspberry Pi OS (eski adıyla Raspbian), Raspberry Pi mikro bilgisayarları için optimize edilmiş bir dağıtımdır. ARM mimarisi için yeniden derlenmiş paketlerle Debian'a dayanmaktadır. Eğitim projeleri, elektronik testler veya küçük kişisel sunucular için kullanılabilir.
@@ -1321,7 +1321,7 @@ Raspberry Pi OS (eski adıyla Raspbian), Raspberry Pi mikro bilgisayarları içi
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1377,55 +1377,55 @@ Bir Linux dağıtımındaki masaüstü ortamı tek bir uygulama değil, işletim
 
 
 
-- Bir pencere yöneticisi**: pencere kenarlıklarını çizer, yerleşimlerini, yeniden boyutlandırmalarını ve geçiş efektlerini yönetir... Örneğin: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Bir pencere yöneticisi**: pencere kenarlıklarını çizer, yerleşimlerini, yeniden boyutlandırmalarını ve geçiş efektlerini yönetir... Örneğin: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Bir dosya yöneticisi**: dizin ağacında gezinmenizi, dosyaları görsel olarak kopyalamanızı, taşımanızı veya silmenizi sağlar. Örnekler: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Bir dosya yöneticisi**: dizin ağacında gezinmenizi, dosyaları görsel olarak kopyalamanızı, taşımanızı veya silmenizi sağlar. Örnekler: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Bir yapılandırma merkezi**: Bu, kullanıcının komut satırından geçmeden sistem parametrelerini değiştirmesini sağlayan bir dizi araçtır: görünüm, duvar kağıdı, kullanıcı yönetimi, ağ, çevre birimleri...
+- **Bir yapılandırma merkezi**: Bu, kullanıcının komut satırından geçmeden sistem parametrelerini değiştirmesini sağlayan bir dizi araçtır: görünüm, duvar kağıdı, kullanıcı yönetimi, ağ, çevre birimleri...
 
 
 
 
 
-- Sistem uygulamaları**: bunlar görev çubuğundaki (veya "panel") küçük simgeler ve etkileşimli modüllerdir, örneğin ses kontrolü, pil seviyesi, ağ bağlantısı, saat...
+- **Sistem uygulamaları**: bunlar görev çubuğundaki (veya "panel") küçük simgeler ve etkileşimli modüllerdir, örneğin ses kontrolü, pil seviyesi, ağ bağlantısı, saat...
 
 
 
 
 
-- Panel veya gösterge paneli**: genellikle ekranın üst veya alt kısmında bulunan ve ana menü, sistem uygulamaları, kısayollar, bildirim bölgesi vb. içeren görünür çubuk.
+- **Panel veya gösterge paneli**: genellikle ekranın üst veya alt kısmında bulunan ve ana menü, sistem uygulamaları, kısayollar, bildirim bölgesi vb. içeren görünür çubuk.
 
 
 
 
 
-- Bir oturum yöneticisi**: başlangıçta çalışır, oturum açma ekranını görüntüler ve seçilen grafik oturumu başlatır. Örneğin: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Bir oturum yöneticisi**: başlangıçta çalışır, oturum açma ekranını görüntüler ve seçilen grafik oturumu başlatır. Örneğin: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Bildirim yöneticisi**: sistem bildirimlerinin (mesajlar, uyarılar, güncellemeler, vb.) görüntülenmesini yönetir. Örneğin: dunst, Plasma-notifier, xfce4-notifyd.
+- **Bildirim yöneticisi**: sistem bildirimlerinin (mesajlar, uyarılar, güncellemeler, vb.) görüntülenmesini yönetir. Örneğin: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 birleştirici (isteğe bağlı)**: pencere yöneticisinin birleştirmeyi desteklemediği ortamlarda görsel efektler (gölgeler, saydamlık, animasyonlar) ekler. Örneğin: compton, picom.
+- **X11 birleştirici (isteğe bağlı)**: pencere yöneticisinin birleştirmeyi desteklemediği ortamlarda görsel efektler (gölgeler, saydamlık, animasyonlar) ekler. Örneğin: compton, picom.
 
 
 
 
 
-- Bir görüntü sunucusu**: bu, sistem (çekirdek ve grafik sürücüleri aracılığıyla) ve grafik uygulamaları arasındaki iletişimi yöneten yazılımdır. Pencereleri ekranda görüntüler ve klavye ve fare girişlerini yönetir. Görüntü sunucusu genellikle masaüstü ortamının farklı bir bileşenidir, ancak giderek daha fazla sistem, görüntü sunucusu rolünün doğrudan pencere yöneticisi (örneğin GNOME altında Mutter veya KDE altında KWin) tarafından devralınabileceği modern bir protokol olan Wayland'ı benimsemektedir. Bu daha sonra "Wayland compositing" olarak adlandırılır.
+- **Bir görüntü sunucusu**: bu, sistem (çekirdek ve grafik sürücüleri aracılığıyla) ve grafik uygulamaları arasındaki iletişimi yöneten yazılımdır. Pencereleri ekranda görüntüler ve klavye ve fare girişlerini yönetir. Görüntü sunucusu genellikle masaüstü ortamının farklı bir bileşenidir, ancak giderek daha fazla sistem, görüntü sunucusu rolünün doğrudan pencere yöneticisi (örneğin GNOME altında Mutter veya KDE altında KWin) tarafından devralınabileceği modern bir protokol olan Wayland'ı benimsemektedir. Bu daha sonra "Wayland compositing" olarak adlandırılır.
 
 
 
@@ -1892,7 +1892,7 @@ Ubuntu'yu başlattıktan sonra, kurulum sihirbazı sizi adım adım yönlendirir
 
 
 
-- Windows ile birlikte kurulum (*dual boot*)**
+- Windows ile birlikte kurulum (*dual boot*)
 
 
 
@@ -1917,7 +1917,7 @@ Bunu düzgün bir şekilde yapmak için, önce Windows'ta seçtiğiniz diskte ay
 
 
 
-- Pencerelerin tamamen değiştirilmesi**
+- **Pencerelerin tamamen değiştirilmesi**
 
 
 
@@ -2035,10 +2035,10 @@ Her depo bölümlere ayrılmıştır. Ubuntu varsayılan olarak dört ana bölü
 
 
 
-- main**: Canonical tarafından resmi olarak sürdürülen özgür yazılım. Örnekler: Firefox, LibreOffice, bash
-- kısıtlı**: donanımın düzgün çalışması için gerekli olan özgür olmayan yazılım. Örnekler: NVIDIA sürücüleri, Wi-Fi ürün yazılımı, özel kodekler
-- universe**: topluluk tarafından sürdürülen özgür yazılım. Örnekler: GIMP, Inkscape, Audacity
-- multiverse**: yazılım yasal kısıtlamalara tabidir (patentler, özgür olmayan lisanslar). Kullanılabilirlik ülkeye göre değişebilir. Örnekler: belirli ses/video kodekleri, Steam
+- **main**: Canonical tarafından resmi olarak sürdürülen özgür yazılım. Örnekler: Firefox, LibreOffice, bash
+- **kısıtlı**: donanımın düzgün çalışması için gerekli olan özgür olmayan yazılım. Örnekler: NVIDIA sürücüleri, Wi-Fi ürün yazılımı, özel kodekler
+- **universe**: topluluk tarafından sürdürülen özgür yazılım. Örnekler: GIMP, Inkscape, Audacity
+- **multiverse**: yazılım yasal kısıtlamalara tabidir (patentler, özgür olmayan lisanslar). Kullanılabilirlik ülkeye göre değişebilir. Örnekler: belirli ses/video kodekleri, Steam
 
 
 
@@ -3556,7 +3556,7 @@ Sisteminizde otomatik güncellemeler etkinleştirilmiş olsa bile, bekleyen gün
 
 
 
-- Windows* işletim sistemi
+- **Windows** işletim sistemi
 
 
 
@@ -3580,7 +3580,7 @@ Aynı menüde isteğe bağlı güncellemeleri kontrol etmeyi unutmayın.
 
 
 
-- Linux* işletim sistemi
+- **Linux** işletim sistemi
 
 
 
@@ -3633,7 +3633,7 @@ sudo pacman -Syu
 
 
 
-- MacOS* işletim sistemi
+- **MacOS** işletim sistemi
 
 
 
@@ -3669,25 +3669,25 @@ Bazı yazılımlar diğerlerinden daha hassastır, çünkü doğrudan dış dün
 
 
 
-- Web tarayıcıları*: doğrulanmamış içeriği gerçek zamanlı olarak işledikleri ve özellikle geniş bir saldırı yüzeyine sahip oldukları için saldırıların ön saflarında yer alırlar. Dahası, kişisel verilerinizin korunmasında merkezi bir rol oynarlar. Ve hepsinden önemlisi, daha önce yerel olarak kullanılan birçok yazılım uygulamasının (e-posta istemcileri, ofis paketleri, medya oynatıcılar...) yerini alma eğilimindedirler. Ancak bu noktaya SCU202 kursunun bir sonraki bölümünde geri döneceğiz;
+- **Web tarayıcıları**: doğrulanmamış içeriği gerçek zamanlı olarak işledikleri ve özellikle geniş bir saldırı yüzeyine sahip oldukları için saldırıların ön saflarında yer alırlar. Dahası, kişisel verilerinizin korunmasında merkezi bir rol oynarlar. Ve hepsinden önemlisi, daha önce yerel olarak kullanılan birçok yazılım uygulamasının (e-posta istemcileri, ofis paketleri, medya oynatıcılar...) yerini alma eğilimindedirler. Ancak bu noktaya SCU202 kursunun bir sonraki bölümünde geri döneceğiz;
 
 
 
 
 
-- Posta istemcileri*: harici kaynaklardan kontrol edilemeyen ve bu nedenle riskli olan ekler veya bağlantılar alırlar;
+- **Posta istemcileri**: harici kaynaklardan kontrol edilemeyen ve bu nedenle riskli olan ekler veya bağlantılar alırlar;
 
 
 
 
 
-- İletişim araçları* (TeamViewer, Zoom, Signal, Teams...): etkileşimli yapıları nedeniyle casusluk saldırıları veya uzaktan kontrol girişimleri için hedeftirler. E-posta istemcileriyle aynı şekilde, iletişim araçları da kimlik avı girişimleri veya kötü amaçlı eklerin dağıtımı için vektör olarak kullanılabilir;
+- **İletişim araçları** (TeamViewer, Zoom, Signal, Teams...): etkileşimli yapıları nedeniyle casusluk saldırıları veya uzaktan kontrol girişimleri için hedeftirler. E-posta istemcileriyle aynı şekilde, iletişim araçları da kimlik avı girişimleri veya kötü amaçlı eklerin dağıtımı için vektör olarak kullanılabilir;
 
 
 
 
 
-- Antivirüs, güvenlik duvarı ve diğer tespit çözümleri*: bu araçlar dosyalarınızı, işlemlerinizi ve ağ bağlantılarınızı sürekli olarak taradıkları için genellikle yüksek ayrıcalıklara sahiptir. Güncel olmayan bir imza tabanı, zayıf yapılandırma veya yazılımın kendisindeki bir güvenlik açığı, kötü amaçlı yazılımların tespit edilmemesine ve hatta yüksek ayrıcalıklar elde etmesine olanak tanıyabilir.
+- **Antivirüs, güvenlik duvarı ve diğer tespit çözümleri**: bu araçlar dosyalarınızı, işlemlerinizi ve ağ bağlantılarınızı sürekli olarak taradıkları için genellikle yüksek ayrıcalıklara sahiptir. Güncel olmayan bir imza tabanı, zayıf yapılandırma veya yazılımın kendisindeki bir güvenlik açığı, kötü amaçlı yazılımların tespit edilmemesine ve hatta yüksek ayrıcalıklar elde etmesine olanak tanıyabilir.
 
 
 
@@ -3870,7 +3870,7 @@ MacOS altında 2 ana yöntem vardır: *Launchpad* veya *Finder* aracılığıyla
 
 
 
-Sil düğmesi görünmezse, uygulama App Store'dan yüklenmemiş demektir. Bu durumda *Bulucu* öğesini kullanın. Çalışıyorsa önce uygulamayı kapatın. Bulucu'yu* açın, `/Uygulamalar' dizinine gidin, silmek istediğiniz uygulamayı seçin ve ardından geri dönüşüm çöp kutusuna taşıyın. Son olarak, kaldırma işlemini tamamlamak için geri dönüşüm çöp kutusunu boşaltın.
+Sil düğmesi görünmezse, uygulama App Store'dan yüklenmemiş demektir. Bu durumda *Bulucu* öğesini kullanın. Çalışıyorsa önce uygulamayı kapatın. *Bulucu'yu* açın, `/Uygulamalar` dizinine gidin, silmek istediğiniz uygulamayı seçin ve ardından geri dönüşüm çöp kutusuna taşıyın. Son olarak, kaldırma işlemini tamamlamak için geri dönüşüm çöp kutusunu boşaltın.
 
 
 
@@ -3908,7 +3908,7 @@ Bir denetim rutini oluşturursanız (basit bir rutin bile olsa) kötü amaçlı 
 
 
 
-- Microsoft Defender*: Windows'ta iyi bir antivirüse sahip olmak temel bir gerekliliktir. Uzun yıllar boyunca, sistemin yerleşik antivirüsü olan Microsoft Defender (eski adıyla Windows Defender) güvenilmez olarak kabul edildi ve bunun yerine üçüncü taraf çözümler önerildi. Ancak bu yazılım zaman içinde önemli ölçüde gelişti ve bence artık kişisel kullanım için temel koruma sağlamak için yeterli. Bununla birlikte, antivirüs yazılımının rolünü abartmamalıyız: güvenliğinizi sağlayan her şeyden önce kendi dijital uygulamalarınızdır. Defender'ın avantajlarından biri Windows ile yerel entegrasyonudur. Gerçek zamanlı korumaya ek olarak, haftalık olarak planlayabileceğiniz veya düzenli aralıklarla manuel olarak çalıştırabileceğiniz kapsamlı taramalar sunar.
+- **Microsoft Defender**: Windows'ta iyi bir antivirüse sahip olmak temel bir gerekliliktir. Uzun yıllar boyunca, sistemin yerleşik antivirüsü olan Microsoft Defender (eski adıyla Windows Defender) güvenilmez olarak kabul edildi ve bunun yerine üçüncü taraf çözümler önerildi. Ancak bu yazılım zaman içinde önemli ölçüde gelişti ve bence artık kişisel kullanım için temel koruma sağlamak için yeterli. Bununla birlikte, antivirüs yazılımının rolünü abartmamalıyız: güvenliğinizi sağlayan her şeyden önce kendi dijital uygulamalarınızdır. Defender'ın avantajlarından biri Windows ile yerel entegrasyonudur. Gerçek zamanlı korumaya ek olarak, haftalık olarak planlayabileceğiniz veya düzenli aralıklarla manuel olarak çalıştırabileceğiniz kapsamlı taramalar sunar.
 
 
 
@@ -3918,12 +3918,12 @@ Bir denetim rutini oluşturursanız (basit bir rutin bile olsa) kötü amaçlı 
 
 
 
-- Sysinternals Suite*: Bu, Windows'u tanılamak, izlemek ve sorun gidermek için Microsoft tarafından sunulan çok daha gelişmiş bir araç setidir. İşte bu paketteki ana araçlar:
-    - Süreç Monitörü*: aktif süreçleri, dosya erişimlerini, kayıtları vb. gerçek zamanlı olarak gözlemlemenizi sağlar;
-    - Autoruns*: başlangıçta başlatılan tüm programları görüntüler, kalıcı kötü amaçlı yazılımları veya çalışmaması gereken uygulamaları hızlı bir şekilde tespit etmenize yardımcı olur;
-    - Process Explorer*: süreçleri izler ve şüpheli davranışları tespit eder;
-    - TCPView*: aktif ağ bağlantılarını görselleştirir (anormal bağlantıların tespiti) ;
-    - Sigcheck*: dosyalar üzerindeki dijital imzaları kötü amaçlı kodlara karşı kontrol eder.
+- **Sysinternals Suite**: Bu, Windows'u tanılamak, izlemek ve sorun gidermek için Microsoft tarafından sunulan çok daha gelişmiş bir araç setidir. İşte bu paketteki ana araçlar:
+- **Süreç Monitörü**: aktif süreçleri, dosya erişimlerini, kayıtları vb. gerçek zamanlı olarak gözlemlemenizi sağlar;
+- **Autoruns**: başlangıçta başlatılan tüm programları görüntüler, kalıcı kötü amaçlı yazılımları veya çalışmaması gereken uygulamaları hızlı bir şekilde tespit etmenize yardımcı olur;
+- **Process Explorer**: süreçleri izler ve şüpheli davranışları tespit eder;
+- **TCPView**: aktif ağ bağlantılarını görselleştirir (anormal bağlantıların tespiti);
+- **Sigcheck**: dosyalar üzerindeki dijital imzaları kötü amaçlı kodlara karşı kontrol eder.
 
 
 
@@ -3933,7 +3933,7 @@ Bir denetim rutini oluşturursanız (basit bir rutin bile olsa) kötü amaçlı 
 
 
 
-- GlassWire*: bir ağ izleme aracı. Gelen ve giden bağlantıları gerçek zamanlı olarak izler ve olağandışı etkinliklere karşı sizi uyarır.
+- **GlassWire**: bir ağ izleme aracı. Gelen ve giden bağlantıları gerçek zamanlı olarak izler ve olağandışı etkinliklere karşı sizi uyarır.
 
 
 
@@ -3951,7 +3951,7 @@ Kişisel amaçlar için kullanılan bakımlı bir Linux makinesinde riskler daha
 
 
 
-- Fail2ban*: başarısız erişim girişimleri için sistem günlüklerini izler (kaba kuvvet SSH oturum açma girişimleri gibi). Şüpheli davranış tespit edildiğinde, `iptables` aracılığıyla rahatsız edici IP Address'ü geçici olarak yasaklar;
+- **Fail2ban**: başarısız erişim girişimleri için sistem günlüklerini izler (kaba kuvvet SSH oturum açma girişimleri gibi). Şüpheli davranış tespit edildiğinde, `iptables` aracılığıyla rahatsız edici IP Address'ü geçici olarak yasaklar;
 
 
 
@@ -3961,7 +3961,7 @@ Kişisel amaçlar için kullanılan bakımlı bir Linux makinesinde riskler daha
 
 
 
-- Lynis*: sisteminizi yanlış yapılandırmalar, bilinen zayıflıklar veya en iyi uygulamalardan sapmalar için analiz eden kapsamlı bir güvenlik denetim aracıdır. Güvenlik puanı ve önerilerle birlikte okunması kolay bir rapor oluşturur.
+- **Lynis**: sisteminizi yanlış yapılandırmalar, bilinen zayıflıklar veya en iyi uygulamalardan sapmalar için analiz eden kapsamlı bir güvenlik denetim aracıdır. Güvenlik puanı ve önerilerle birlikte okunması kolay bir rapor oluşturur.
 
 
 
@@ -3980,7 +3980,7 @@ macOS, özellikle uygulama imza politikaları ve nispeten kapalı mimarisi sayes
 
 
 
-- KnockKnock*: başlangıçta çalışmak üzere yapılandırılmış tüm Elements'leri (ajanlar, daemonlar, çekirdek modülleri...) tarar ve potansiyel olarak şüpheli, imzasız veya bilinmeyenleri tanımlar. Sisteminizdeki kötü niyetli kalıcılığı hızlı bir şekilde belirlemenizi sağlar.
+- **KnockKnock**: başlangıçta çalışmak üzere yapılandırılmış tüm Elements'leri (ajanlar, daemonlar, çekirdek modülleri...) tarar ve potansiyel olarak şüpheli, imzasız veya bilinmeyenleri tanımlar. Sisteminizdeki kötü niyetli kalıcılığı hızlı bir şekilde belirlemenizi sağlar.
 
 
 
@@ -4192,7 +4192,7 @@ Son olarak, PGP imzasını doğrulamak için geliştiricinin açık anahtarına 
 
 
 
-Sparrow wallet* durumunda, geliştiricinin açık anahtarını [Keybase'de Craig Raw] (https://keybase.io/craigraw) bulabilirsiniz. Doğrudan terminalden indirmek için aşağıdaki komutu çalıştırın:
+Sparrow wallet durumunda, geliştiricinin açık anahtarını [Keybase'de Craig Raw](https://keybase.io/craigraw) bulabilirsiniz. Doğrudan terminalden indirmek için aşağıdaki komutu çalıştırın:
 
 
 
@@ -4564,7 +4564,7 @@ Tam şifreleme bir kilit gibidir: parola verilmediği sürece veriler kullanıla
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4581,7 +4581,7 @@ Harici bir diski veya USB belleği şifrelemek isterseniz, bu işlem komut satı
 
 
 
-Cryptsetup* paketinin yüklü olduğundan emin olun:
+**Cryptsetup** paketinin yüklü olduğundan emin olun:
 
 
 
@@ -4823,7 +4823,7 @@ Son olarak, anahtarı bilgisayarınızdan temiz bir şekilde çıkarmak için sa
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4872,7 +4872,7 @@ Harici depolama ortamları (Hard diskleri, USB bellekler, vb.) için şifreleme 
 
 
 - Cihazı seçin, "*Sil*" üzerine tıklayın
-- "GUID* Bölümleme Tablosu" şemasını seçin
+- "**GUID Bölümleme Tablosu**" şemasını seçin
 - Ardından şifrelenmiş bir dosya sistemi biçimi seçin (*APFS* veya *Mac OS extended*)
 - Güçlü bir parola seçin
 - "*Sil*" ve ardından "*Tamam*" üzerine tıkladığınızda şifreleme tamamlanır
@@ -4979,7 +4979,7 @@ Bu paket, daha sonra doğrudan komut satırından kullanabileceğiniz `exiftool`
 
 
 
-- Adım 2: Dosya meta verilerini görüntüleme** (Fransızca)
+- **Adım 2: Dosya meta verilerini görüntüleme** (Fransızca)
 
 
 
@@ -5725,7 +5725,7 @@ Blink tabanlı tarayıcılar, genellikle belirli kullanım durumlarını karşı
 
 
 
-- Arc**:
+- **Arc**:
 
 
 
@@ -5743,7 +5743,7 @@ Teknik açıdan bakıldığında Arc, Chromium'a dayanmaktadır, ancak tescilli 
 
 
 
-- Polipan** :
+- **Polipan** :
 
 
 
@@ -6250,25 +6250,25 @@ Oltalama, kullanıcıları bilgileri olmadan hassas verileri ifşa etmeleri içi
 
 
 
-- URL'yi analiz edin**: saldırganlar genellikle orijinaline çok yakın adresler kullanır (örn. `micr0soft-support.com`, `paypal-verif.net`, vb.). Bazıları da Unicode karakterlerinden yararlanarak görsel olarak benzer karakterleri değiştirir. Address'in şüpheli ön ekler veya son ekler olmadan beklenen siteye tam olarak karşılık gelip gelmediğini kontrol edin.
+- **URL'yi analiz edin**: saldırganlar genellikle orijinaline çok yakın adresler kullanır (örn. `micr0soft-support.com`, `paypal-verif.net`, vb.). Bazıları da Unicode karakterlerinden yararlanarak görsel olarak benzer karakterleri değiştirir. Address'in şüpheli ön ekler veya son ekler olmadan beklenen siteye tam olarak karşılık gelip gelmediğini kontrol edin.
 
 
 
 
 
-- Kısaltılmış bağlantılardan** kaçının: `bit.ly` veya `t.co` gibi hizmetler nihai Address'u maskeleyebilir. Kısaltılmış bir bağlantı alırsanız, şüphelenin veya hedefini kontrol etmek için bir URL genişletme hizmeti kullanın.
+- **Kısaltılmış bağlantılardan** kaçının: `bit.ly` veya `t.co` gibi hizmetler nihai Address'u maskeleyebilir. Kısaltılmış bir bağlantı alırsanız, şüphelenin veya hedefini kontrol etmek için bir URL genişletme hizmeti kullanın.
 
 
 
 
 
-- Telaşlandırıcı mesajlara dikkat edin**: Kimlik avı girişimleri genellikle güçlü duyguları (aciliyet, tehdit, ödül, merak...) istismar eder. Hesabınızın bloke edilmek üzere olduğunu veya bir paketin teslim edilemeyeceğini iddia eden bir e-posta doğal olarak şüphelidir.
+- **Telaşlandırıcı mesajlara dikkat edin**: Kimlik avı girişimleri genellikle güçlü duyguları (aciliyet, tehdit, ödül, merak...) istismar eder. Hesabınızın bloke edilmek üzere olduğunu veya bir paketin teslim edilemeyeceğini iddia eden bir e-posta doğal olarak şüphelidir.
 
 
 
 
 
-- Hassas bilgileri asla alınan bir bağlantı aracılığıyla iletmeyin**: Meşru bir kurum sizden asla basit bir e-posta veya SMS yoluyla şifre, kimlik doğrulama kodu veya kimliğinizin taranmış bir kopyasını istemez.
+- **Hassas bilgileri asla alınan bir bağlantı aracılığıyla iletmeyin**: Meşru bir kurum sizden asla basit bir e-posta veya SMS yoluyla şifre, kimlik doğrulama kodu veya kimliğinizin taranmış bir kopyasını istemez.
 
 
 
@@ -6278,7 +6278,7 @@ Ve işte kimlik avı riskini en aza indirmek için doğrudan tarayıcınızda uy
 
 
 
-- Yer imleriniz aracılığıyla kritik sitelere erişin**:
+- **Yer imleriniz aracılığıyla kritik sitelere erişin**:
 
 
 
@@ -6292,7 +6292,7 @@ Vergi dairesinden bir bağlantı içeren bir e-posta mı aldınız? Üzerine tı
 
 
 
-- İyi kimlik doğrulama uygulamalarına saygı gösterin** :
+- **İyi kimlik doğrulama uygulamalarına saygı gösterin**:
 
 
 
@@ -6310,7 +6310,7 @@ Bu önlemlere ek olarak, tarayıcı uzantısı olarak iyi bir parola yöneticisi
 
 
 
-- SSL/TLS** sertifikalarını inceleyin:
+- **SSL/TLS** sertifikalarını inceleyin:
 
 
 
@@ -6356,19 +6356,19 @@ Amaç basittir: belirli bir faaliyeti içeren bir olayın (çerez sızıntısı,
 
 
 
-- Birkaç farklı tarayıcı kullanın**: örneğin, kişisel kullanım için Firefox, hassas etkinlikler için Tor veya Mullvad ve profesyonel görevler için Chromium. Her tarayıcı, çerezleri, oturumları ve uzantıları tamamen izole eden kendi depolama örneğini kullanır. Bu aynı zamanda tarayıcı ayarlarını özel kullanım durumlarınıza göre uyarlamanıza olanak tanır.
+- **Birkaç farklı tarayıcı kullanın**: örneğin, kişisel kullanım için Firefox, hassas etkinlikler için Tor veya Mullvad ve profesyonel görevler için Chromium. Her tarayıcı, çerezleri, oturumları ve uzantıları tamamen izole eden kendi depolama örneğini kullanır. Bu aynı zamanda tarayıcı ayarlarını özel kullanım durumlarınıza göre uyarlamanıza olanak tanır.
 
 
 
 
 
-- Tek bir tarayıcıda birden fazla profil oluşturun**: Bazı tarayıcılar, her biri kendi geçmişine, oturumlarına, uzantılarına ve ayarlarına sahip bağımsız profiller oluşturmanıza izin verir. Bu, birkaç ayrı tarayıcı kullanmaktan biraz daha az kısıtlayıcı bir çözümdür, ancak yine de daha az etkilidir.
+- **Tek bir tarayıcıda birden fazla profil oluşturun**: Bazı tarayıcılar, her biri kendi geçmişine, oturumlarına, uzantılarına ve ayarlarına sahip bağımsız profiller oluşturmanıza izin verir. Bu, birkaç ayrı tarayıcı kullanmaktan biraz daha az kısıtlayıcı bir çözümdür, ancak yine de daha az etkilidir.
 
 
 
 
 
-- Yerleşik kapsayıcıları kullanın**: Firefox, her biri kendi oturum açma bilgilerine ve çerezlerine sahip ayrı sekmeler açmanıza olanak tanıyan [Multi-Account Containers] uzantısını (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) sunar. Ayrıca, her açıldığında ayrı tutmak için belirli siteleri otomatik olarak belirli bir kapsayıcıya atayabilirsiniz.
+- **Yerleşik kapsayıcıları kullanın**: Firefox, her biri kendi oturum açma bilgilerine ve çerezlerine sahip ayrı sekmeler açmanıza olanak tanıyan [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) uzantısını sunar. Ayrıca, her açıldığında ayrı tutmak için belirli siteleri otomatik olarak belirli bir kapsayıcıya atayabilirsiniz.
 
 
 
@@ -6378,7 +6378,7 @@ Amaç basittir: belirli bir faaliyeti içeren bir olayın (çerez sızıntısı,
 
 
 
-- Yalıtılmış bir sistem ortamı kullanın**: Özellikle hassas kullanımlar için, tarayıcınızı ana ortamınızdan tamamen ayrı tutmak için bir sanal makine veya Docker konteyneri içinde de çalıştırabilirsiniz.
+- **Yalıtılmış bir sistem ortamı kullanın**: Özellikle hassas kullanımlar için, tarayıcınızı ana ortamınızdan tamamen ayrı tutmak için bir sanal makine veya Docker konteyneri içinde de çalıştırabilirsiniz.
 
 
 
@@ -6866,7 +6866,7 @@ Hassas cihazlar için en iyi çözüm, biyometrik devre dışı bırakma ile bir
 #### Ayrı bir profesyonel profil kullanın
 
 
-Çalışma Profili* Android'e özgü bir özelliktir (Android 5.0'dan beri) ve aynı akıllı telefon içinde ayrı bir yazılım bölümü oluşturmanıza olanak tanır. Pratik anlamda, bu profil yalıtılmış bir konteyner olarak işlev görür: Bu alanda depolanan uygulamalar, hesaplar ve veriler kişisel profildekilerle etkileşime giremez. Bu ayrım, iki alan arasında veri sızıntısını önler ve uygulamalar için erişim haklarını sınırlar. Bu özellik genellikle şirketlerde dahili olarak yönetilir, ancak uygulamaları izole etmek için kişisel olarak kullanmanın yolları da vardır.
+Çalışma Profili Android'e özgü bir özelliktir (Android 5.0'dan beri) ve aynı akıllı telefon içinde ayrı bir yazılım bölümü oluşturmanıza olanak tanır. Pratik anlamda, bu profil yalıtılmış bir konteyner olarak işlev görür: Bu alanda depolanan uygulamalar, hesaplar ve veriler kişisel profildekilerle etkileşime giremez. Bu ayrım, iki alan arasında veri sızıntısını önler ve uygulamalar için erişim haklarını sınırlar. Bu özellik genellikle şirketlerde dahili olarak yönetilir, ancak uygulamaları izole etmek için kişisel olarak kullanmanın yolları da vardır.
 
 
 ![Image](assets/fr/143.webp)
@@ -7102,7 +7102,7 @@ Telegram, ergonomisi ve özellikleri (genel kanallar, botlar, büyük gruplar...
 Bu nedenle Telegram, açıkça korunmayan konuşmaların çoğunun içeriğine teknik olarak erişebilir. Şirket hükümet yetkililerine karşı sağlam bir duruş sergilese bile, Telegram, günlük bazda çok daha az pratik olan "gizli değişimlerini" açıkça kullanmadığınız sürece, gizli veya hassas alışverişler için en uygun çözüm değildir.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7878,7 +7878,7 @@ Google Fotoğraflar, görüntüleri otomatik olarak buluta kaydetmek, düzenleme
 - [Basit Galeri](https://github.com/SimpleMobileTools/Simple-Gallery)
 
 
-Simple Gallery tamamen çevrimdışı çalışan minimalist bir açık kaynak uygulamasıdır. Basit Mobil Araçlar* paketinin bir parçasıdır. Cihazınızdan hiçbir veri çıkmadan resimlerinizi yönetmenizi, sıralamanızı, görüntülemenizi ve düzenlemenizi sağlar. Ayrıca rötuşlama, parola koruması ve silinen öğeleri kurtarmak için geri dönüşüm çöp kutusu özelliklerine sahiptir. Takip yok, zorunlu senkronizasyon yok: Fotoğraflarınız sizinle kalır.
+Simple Gallery tamamen çevrimdışı çalışan minimalist bir açık kaynak uygulamasıdır. **Basit Mobil Araçlar** paketinin bir parçasıdır. Cihazınızdan hiçbir veri çıkmadan resimlerinizi yönetmenizi, sıralamanızı, görüntülemenizi ve düzenlemenizi sağlar. Ayrıca rötuşlama, parola koruması ve silinen öğeleri kurtarmak için geri dönüşüm çöp kutusu özelliklerine sahiptir. Takip yok, zorunlu senkronizasyon yok: Fotoğraflarınız sizinle kalır.
 
 
 
@@ -8130,8 +8130,8 @@ Kelime anlamı "birbirine bağlı ağ" olan İnternet, milyarlarca cihazın birb
 
 
 
-- IP** (*Internet Protokolü*) Bağlı her cihazı tanımlar ve veri paketlerini yönlendirir.
-- TCP** (*İletim Kontrol Protokolü*) Akışı bölümlere ayırır, hataları kontrol eder ve bölümleri tekrar sıraya koyar.
+- **IP** (*Internet Protokolü*) Bağlı her cihazı tanımlar ve veri paketlerini yönlendirir.
+- **TCP** (*İletim Kontrol Protokolü*) Akışı bölümlere ayırır, hataları kontrol eder ve bölümleri tekrar sıraya koyar.
 
 
 → Güvenilirliğin gecikmeden daha az önemli olduğu gerçek zamanlı kullanımlar için (VoIP, DNS, akış, vb.), TCP yerine genellikle başka bir aktarım protokolü kullanılır: UDP (*User Datagram Protocol*).
@@ -8165,14 +8165,14 @@ Bu cihaz 2 ana işlevi bir araya getirir:
 
 
 
-- Modem rolü**
+- **Modem rolü**
 
 
 Modem ("*modülatör-demodülatör*"ün kısaltması) İSS ağınızı evinize bağlayan bileşendir. Alınan elektrik veya optik sinyalleri (fiber optik, koaksiyel kablo, ADSL veya mobil ağ yoluyla) cihazlarınız tarafından anlaşılabilecek dijital sinyallere uyarlar. Tersine, ekipmanınızdan gelen verileri operatörün altyapısı üzerinden iletilebilecek bir formata dönüştürür. Ev ağınız İnternet ile iletişim kuracaksa bu adım çok önemlidir.
 
 
 
-- Yönlendirici rolü**
+- **Yönlendirici rolü**
 
 
 Yönlendirici, yerel ağınızın kalbidir. İnternet bağlantısını tüm cihazlarınıza dağıtır: Bilgisayarlar, akıllı telefonlar, bağlı nesneler, yazıcılar vb. Her birine yerel bir IP Address atar (İnternette görünen genel IP'nizden farklıdır). Yönlendirici daha sonra gelen ve giden trafiği düzenleyerek verilerin doğru cihaza ulaşmasını sağlar. Ayrıca bir güvenlik duvarı entegre edebilir, ağ paketlerini filtreleyebilir veya port yönlendirme kurallarını yönetebilir. NAT, tüm cihazlarınızı temsil etmek için tek bir genel IP Address kullanarak yerel ağınızı İnternet'in gözünden maskeler. Hangi yerel cihazın hangi isteği başlattığını yalnızca yönlendirici bilir.
@@ -8416,21 +8416,21 @@ Bazı özelliklerden kaçınılmalı veya sistematik olarak devre dışı bırak
 
 
 
-- UPnP (*Evrensel Tak ve Çalıştır*)**:
+- UPnP (**Evrensel Tak ve Çalıştır**):
 
 
 Bu işlev, ağınızdaki cihazların yönlendiriciden bağlantı noktalarını otomatik olarak açmasını istemesini sağlar. Bu, belirli kullanımları (çevrimiçi oyunlar, bağlı kameralar vb.) kolaylaştırırken, aynı zamanda izniniz olmadan ağ yapılandırmasını değiştirebilen kötü amaçlı uygulamalara da kapı açar. UPnP, dahili hizmetlerin dış dünyaya istemeden maruz kalmasının ana nedenlerinden biridir.
 
 
 
-- WPS (*Wi-Fi Korumalı Kurulum*)**:
+- **WPS (*Wi-Fi Korumalı Kurulum*)**:
 
 
 Başlangıçta parola girmeden cihazları Wi-Fi'ye bağlamayı kolaylaştırmak için tasarlanan bu sistem, genellikle zayıf olan ve kaba kuvvetle kolayca saldırıya uğrayan bir PIN koduna dayanmaktadır. Devre dışı bırakmanızı tavsiye ederim.
 
 
 
-- Uzaktan erişim (*Uzaktan Yönetim*)**:
+- Uzaktan erişim (**Uzaktan Yönetim**):
 
 
 Bazı yönlendiriciler, Interface yönetimine dışarıdan, İnternet üzerinden bağlanmanıza izin verir. Bu özellik, yönlendiricinizin saldırı yüzeyini makul olmayan bir şekilde artırır. Uzaktan yönetime özel bir ihtiyacınız olmadığı sürece bu özelliği tamamen devre dışı bırakın. O zaman bile, her zaman bir VPN kullanın.
@@ -8439,14 +8439,14 @@ Bazı yönlendiriciler, Interface yönetimine dışarıdan, İnternet üzerinden
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Eski veya güvensiz protokoller**:
+- **Eski veya güvensiz protokoller**:
 
 
 Telnet, FTP, şifrelenmemiş HTTP veya SMBv1 gibi düz metin protokollerini kullanan tüm yönetim hizmetlerini devre dışı bırakın. Bu protokoller, değiş tokuş edilen verilerin ne gizliliğini ne de bütünlüğünü sağlar ve genellikle kötü amaçlı yazılımlar tarafından hedef alınır. Yerel veya uzaktan erişime ihtiyacınız varsa, yalnızca HTTPS (şifreli Interface), SSH veya SFTP üzerinden uygun bağlantıları kullanın.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Bazı yönlendiriciler dışarıdan gönderilen ICMP isteklerine varsayılan olarak yanıt verir (`ping` komutu). Bu, bir saldırganın ağınızın aktif ve erişilebilir olup olmadığını kontrol etmesini sağlar. İhtiyacınız yoksa, yönlendiricinin güvenlik duvarında bu yanıtı devre dışı bırakın.
@@ -8535,15 +8535,15 @@ Ardından, DNS sorgularının ele geçirilmesini veya izlenmesini önlemek için
 
 
 
-- DoH (*HTTPS üzerinden DNS*)**: DNS isteklerini HTTPS protokolü içinde kapsülleyerek geleneksel şifreli web trafiğinden ayırt edilemez hale getirir
+- **DoH (*HTTPS üzerinden DNS*)**: DNS isteklerini HTTPS protokolü içinde kapsülleyerek geleneksel şifreli web trafiğinden ayırt edilemez hale getirir
 
 
 
-- DoT (*TLS üzerinden DNS*)**: Cihazınız ile DNS sunucusu arasında belirli bir şifreli kanal oluşturur
+- DoT (**TLS üzerinden DNS**): Cihazınız ile DNS sunucusu arasında belirli bir şifreli kanal oluşturur
 
 
 
-- DoQ (* QUIC üzerinden DNS*)**: DNS isteklerini UDP tabanlı QUIC protokolü üzerinden aktarır
+- DoQ (**QUIC üzerinden DNS**): DNS isteklerini UDP tabanlı QUIC protokolü üzerinden aktarır
 
 
 Pratik açıdan, DNS şifreleme ve sunucu değiştirme çeşitli düzeylerde uygulanabilir:

@@ -1,0 +1,9 @@
+question: What is the main alternative implementation of Bitcoin core?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin Cash
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, developed by Luke Dashjr, is Core's Fork, offering additional options and a more conservative vision.
+reviewed: false

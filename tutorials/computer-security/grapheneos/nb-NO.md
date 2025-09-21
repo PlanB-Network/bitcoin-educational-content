@@ -9,6 +9,8 @@ description: Et mobilt operativsystem fokusert på sikkerhet og personvern, base
 
 GrapheneOS, opprinnelig grunnlagt i 2014 som 'CopperheadOS', er basert på den tradisjonelle Android-koden (AOSP), men med mange endringer og forbedringer rettet mot å forbedre brukerens personvern og sikkerhet. GrapheneOS gir brukeren kontroll over telefonen sin, ikke de store teknologiselskapene.
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Innholdsfortegnelse:
 
 - Introduksjon
@@ -223,7 +225,7 @@ Venstre: Threema; Høyre: Simplex
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
@@ -410,3 +412,4 @@ GrapheneOS er et kaninhull enhver kunne lett tilbringe uker på å utforske. Det
 - [GrapheneOS Generell Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast av 'Watchman Privacy'
 
 *Denne veiledningen er en tilpasning av det opprinnelige innholdet publisert av [BitcoinQnA på Bitcoiner.Guide under MIT-lisensen](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), som har all ære for det opprinnelige skrivearbeidet.*
+

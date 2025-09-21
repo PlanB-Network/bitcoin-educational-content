@@ -1,5 +1,5 @@
 ---
-name: Wallet od Satoshi
+name: Wallet of Satoshi
 description: Najjednostavniji skrbnički Wallet za početak
 ---
 ![cover](assets/cover.webp)
@@ -79,7 +79,7 @@ Wallet od Satoshi je poslao poruku na navedeni email inbox.
 U poštanskom sandučetu ćemo pronaći dve reči, koje treba da unesemo, prepisujući ih, u prostor koji je obezbedila aplikacija.
 
 
-- ne aktivirajte prevodioca: reči su na engleskom i moraju ostati na engleskom**
+- ne aktivirajte prevodioca: reči su na engleskom i moraju ostati na engleskom
 - ponovo napiši
 
 

@@ -1,0 +1,9 @@
+question: Que economista austríaco fala de planismo?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) foi o economista austríaco que cunhou o termo "planismo" para descrever o planeamento económico centralizado. Critica esta abordagem em "O caminho para a servidão".
+reviewed: false

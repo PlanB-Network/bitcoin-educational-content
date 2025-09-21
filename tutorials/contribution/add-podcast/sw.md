@@ -80,24 +80,24 @@ Hapa kuna maelezo ya kujaza kwa kila sehemu:
 
 
 
-- `jina`**: Onyesha jina la podikasti yako.
-- `mwenyeji`**: Orodhesha jina au majina bandia ya spika au mwenyeji wa podikasti. Kila jina linapaswa kutengwa kwa koma.
-- `lugha`**: Onyesha msimbo wa lugha inayozungumzwa katika podikasti yako. Kwa mfano, kwa Kiingereza, kumbuka `en`, kwa Kiitaliano `it`...
+- **`jina`**: Onyesha jina la podikasti yako.
+- **`mwenyeji`**: Orodhesha jina au majina bandia ya spika au mwenyeji wa podikasti. Kila jina linapaswa kutengwa kwa koma.
+- **`lugha`**: Onyesha msimbo wa lugha inayozungumzwa katika podikasti yako. Kwa mfano, kwa Kiingereza, kumbuka `en`, kwa Kiitaliano `it`...
 
 
 
-- `viungo`**: Toa viungo kwa maudhui yako. Una chaguzi mbili:
+- **`viungo`**: Toa viungo kwa maudhui yako. Una chaguzi mbili:
  - `podcast`: kiungo cha podikasti yako,
  - `twitter`: kiungo cha wasifu wa Twitter wa podikasti au shirika linaloitayarisha,
  - `tovuti`: kiungo cha tovuti ya podikasti au shirika linaloitayarisha.
 
 
 
-- `maelezo`**: Ongeza aya fupi inayoelezea podikasti yako. Maelezo lazima yawe katika lugha sawa na kama ilivyoonyeshwa katika sehemu ya `lugha:`.
+- `maelezo`: Ongeza aya fupi inayoelezea podikasti yako. Maelezo lazima yawe katika lugha sawa na kama ilivyoonyeshwa katika sehemu ya `lugha:`.
 
 
 
-- `tagi`**: Ongeza lebo mbili zinazohusiana na podikasti yako. Mifano:
+- **`tagi`**: Ongeza lebo mbili zinazohusiana na podikasti yako. Mifano:
     - `Bitcoin`
     - `teknolojia`
     - `uchumi`
@@ -105,7 +105,7 @@ Hapa kuna maelezo ya kujaza kwa kila sehemu:
 
 
 
-- `wachangiaji`**: Taja kitambulisho chako cha mchangiaji ikiwa unacho.
+- **`wachangiaji`**: Taja kitambulisho chako cha mchangiaji ikiwa unacho.
 
 
 Kwa mfano, faili yako ya YAML inaweza kuonekana kama hii:

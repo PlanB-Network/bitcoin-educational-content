@@ -1,9 +1,11 @@
 ---
-name: LAPP bitcoin
-description: Учебник по разработке вашего первого LApp
+name: Lightning App
+description: Учебник по созданию вашего первого Lightning-приложения (LAPP)
 ---
 
-Научитесь программировать ваше первое приложение Lightning
+![cover](assets/cover.webp)
+
+## Научитесь писать свой первый lightning-приложение
 
 Требования:
 
@@ -18,6 +20,8 @@ NodeJs можно скачать с его официального сайта
 
 - Express для нашего веб-сервера
 - Шаблоны Pug + bootstrap для нашего фронтенда
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Операционная система
 

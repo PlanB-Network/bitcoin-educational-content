@@ -38,7 +38,7 @@ Dalam demonstrasi ini, mesin Windows 11 22H2 dengan OneDrive akan digunakan, tet
 
 
 
-Cryptomator merupakan alternatif dari aplikasi lain, terutama Picocrypt yang disajikan pada artikel lain, yang terlihat berbeda, tetapi sama-sama mudah digunakan. Cryptomator juga **sumber terbuka**, sesuai dengan RGPD, dan akan mengenkripsi data dengan algoritma enkripsi AES-256 bit**. Sebaliknya, Picocrypt mengandalkan algoritma XChaCha20 yang lebih cepat (juga 256-bit).
+Cryptomator merupakan alternatif dari aplikasi lain, terutama Picocrypt yang disajikan pada artikel lain, yang terlihat berbeda, tetapi sama-sama mudah digunakan. Cryptomator juga **sumber terbuka**, sesuai dengan RGPD, dan akan mengenkripsi data dengan algoritma enkripsi **AES-256 bit**. Sebaliknya, Picocrypt mengandalkan algoritma XChaCha20 yang lebih cepat (juga 256-bit).
 
 
 
@@ -114,7 +114,7 @@ Berikutnya, Anda dapat menyesuaikan opsi di bawah pengaturan pakar.
 
 
 
-Selanjutnya, Anda perlu menentukan kata sandi yang sesuai dengan kunci enkripsi. Kata sandi ini akan memungkinkan anda untuk membuka kunci brankas Cryptomator dan mengakses datanya. **Jika Anda kehilangan kata sandi ini, Anda akan kehilangan akses ke data Anda. Terakhir, anda masih memiliki pilihan untuk **membuat kunci cadangan** dengan mencentang opsi "**Ya, lebih baik aman daripada menyesal**", dengan semangat yang sama dengan kunci pemulihan [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Hal ini disarankan, tetapi jangan simpan kunci cadangan ini di root OneDrive Anda!
+Selanjutnya, Anda perlu menentukan kata sandi yang sesuai dengan kunci enkripsi. Kata sandi ini akan memungkinkan anda untuk membuka kunci brankas Cryptomator dan mengakses datanya. **Jika Anda kehilangan kata sandi ini, Anda akan kehilangan akses ke data Anda.** Terakhir, anda masih memiliki pilihan untuk **membuat kunci cadangan** dengan mencentang opsi **"Ya, lebih baik aman daripada menyesal"**, dengan semangat yang sama dengan kunci pemulihan [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Hal ini disarankan, tetapi jangan simpan kunci cadangan ini di root OneDrive Anda!
 
 
 
@@ -170,7 +170,7 @@ Anda harus memasukkan kata sandi untuk membuka kunci brankas. Kemudian klik "**L
 
 
 
-Di sisi OneDrive, kita tidak bisa menelusuri brankas Cryptomator secara langsung. Kita tidak bisa melihat datanya (baik nama file maupun isinya). Ini berarti Anda tidak perlu menambahkan data ke brankas Cryptomator melalui pintasan OneDrive biasa. **Anda harus menambahkan data Anda menggunakan drive virtual Cryptomator
+Di sisi OneDrive, kita tidak bisa menelusuri brankas Cryptomator secara langsung. Kita tidak bisa melihat datanya (baik nama file maupun isinya). Ini berarti Anda tidak perlu menambahkan data ke brankas Cryptomator melalui pintasan OneDrive biasa. **Anda harus menambahkan data Anda menggunakan drive virtual Cryptomator.**
 
 
 

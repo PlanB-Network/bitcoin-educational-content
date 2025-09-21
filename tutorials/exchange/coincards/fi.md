@@ -1,5 +1,5 @@
 ---
-name: Kolikkokortit
+name: Coincards
 description: Miten voin ostaa tavaroita ja palveluita BTC:nä Coincardsilla?
 ---
 ![cover](assets/cover.webp)

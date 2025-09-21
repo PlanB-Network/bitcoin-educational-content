@@ -1,5 +1,5 @@
 ---
-name: Lähettiläs
+name: Envoy
 description: Passin määrittäminen ja käyttö Envoy-sovelluksen kanssa
 ---
 ![cover](assets/cover.webp)
@@ -256,7 +256,7 @@ Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaa
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
+näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.
 
 Tee fyysinen varmuuskopio tästä lauseesta.
 

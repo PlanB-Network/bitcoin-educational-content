@@ -16,11 +16,11 @@ description: Leitfaden für die Alby Go Mobile App
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(empfohlen)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(ungetestet)*
-- Primal** *(ungetestet)*
-- Minibits** *(ungetestet)*
+- [Alby Hub](https://albyhub.com/) **(empfohlen)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(ungetestet)*
+- **Primal** *(ungetestet)*
+- **Minibits** *(ungetestet)*
 
 
 Die meisten NWC-fähigen Dienste sollten funktionieren. Wenn Sie einen neuen Dienst testen, teilen Sie der Gemeinschaft Ihre Ergebnisse mit!
@@ -33,9 +33,9 @@ Verfügbar auf den wichtigsten Plattformen:
 
 
 
-- iOS:** [Herunterladen aus dem App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Herunterladen von Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Herunterladen aus dem App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Herunterladen von Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ Keine Aufblähung. Kein Aufhebens. Blitzschnell.
 - 🧷 Hinzufügen, Entfernen und Exportieren von Geldbörsen
 
 
-**💡 Brauchen Sie Hilfe?*
+**💡 Brauchen Sie Hilfe?**
 
 Besuchen Sie getalby.com für Support und Updates.

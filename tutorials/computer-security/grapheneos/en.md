@@ -9,6 +9,8 @@ description: A mobile operating system focused on security and privacy based on 
 
 GrapheneOS, originally founded in 2014 as 'CopperheadOS' is based on the traditional Android Code (AOSP), but with many changes and improvements aimed at improving user privacy and security. GrapheneOS puts the user in control of their phone, not the big tech companies.
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire:
 
 - Intro
@@ -231,7 +233,7 @@ Left: Threema, Right: Simplex
 
 https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
 
@@ -410,4 +412,5 @@ GrapheneOS is a rabbit hole anyone could easily spend weeks going down. There's 
 - [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast by 'Watchman Privacy'
 
 *This tutorial is an adaptation of the original content published by [BitcoinQnA on Bitcoiner.Guide under MIT license](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), to whom full credit goes for the initial writing.*
+
 

@@ -57,7 +57,7 @@ Aina hii ya punguzo ni nzuri zaidi kwa maduka ya kimwili, hasa kwa bidhaa zinazo
 ##### Mfano
 
 
-Nchi zote za Ulaya zinakabiliwa na kodi ya matumizi inayoitwa Kodi ya Ongezeko la Thamani kwa Kiingereza, [VAT](https://en.wikipedia.org/wiki/Value-added_tax) kama ifuatavyo. Kodi hii ilivumbuliwa nchini Ufaransa mwaka wa 1954, na kufikia 1970 tayari ilikuwa imeanza kuenea katika Jumuiya ya awali ya Ulaya. Kufikia 2020, ilikuwa imeenea sehemu kubwa ya ulimwengu.
+Nchi zote za Ulaya ziko chini ya ushuru wa matumizi, unaoitwa kwa Kiingereza "Value-added Tax", hapa baadae [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Kodi hii ilibuniwa Ufaransa mnamo 1954, ifikapo 1970 tayari ilikuwa imeanza kusambaa katika Jumuiya ya Ulaya ya awali; kufikia 2020 ilikuwa imeenea sehemu kubwa ya dunia.
 
 
 Kwa mfano huu, tuchukulie kuwa tuko Ulaya, ndani ya nchi ambayo kiwango cha VAT ni 20% kwa aina yoyote ya bidhaa. Tuko kwenye duka la viatu, na tuseme jozi ya viatu vya ngozi hugharimu $120 ikiwa italipwa kwa kadi ya benki.
@@ -126,7 +126,7 @@ Njia ya utekelezaji imeachwa kwa mfanyabiashara, lakini kwa ufupi, hapa kuna cha
 ### Ramani ya BTC
 
 
-Vyovyote vile, daima ni mazoezi mazuri kuhakikisha kuwa biashara yako, ikiwa ina eneo halisi, ipo na imesasishwa kwenye [BTC Map](https://btcmap.org/map). Watumiaji wengi wa Bitcoin wanafahamu zana hii, na karibu wote ambao wametumia Bitcoin katika maduka ya kimwili wameangalia angalau mara moja ili kuona ni maeneo gani yanakubali. Ikiwa unataka kujifunza jinsi ya kuongeza duka lako kwenye Ramani ya BTC au unataka maelezo zaidi, tazama mafunzo haya:
+Kwa hali yoyote, daima ni mazoea mazuri kuhakikisha kwamba biashara yako, ikiwa ina eneo la kimwili, ipo na imesasishwa kwenye [BTC Map](https://btcmap.org/map). Watumiaji wengi wa bitcoin wanafahamu zana hii, na karibu wote ambao wametumia bitcoin katika maduka ya kimwili wameangalia angalau mara moja kuona ni maeneo gani yanayokubali. Ikiwa unataka kujifunza jinsi ya kuongeza duka lako kwenye BTC Map au unataka habari zaidi, tazama mafunzo haya:
 
 
 https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6

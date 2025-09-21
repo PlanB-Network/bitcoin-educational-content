@@ -1,5 +1,5 @@
 ---
-name: Wallet của Satoshi - Điểm bán hàng
+name: Wallet of Satoshi - POS
 description: Áp dụng Bitcoin thông qua Lightning Network vào doanh nghiệp của bạn.
 ---
 

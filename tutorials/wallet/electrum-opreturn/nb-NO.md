@@ -151,7 +151,7 @@ Velg meldingen du ønsker å legge inn (f.eks. `Takk Satoshi`). Merk: OP_RETURN-
 
 
 - etterlater et vakkert uttrykk for vår menneskelighet
-- unngå å legge inn innhold du kanskje vil angre på*
+- unngå å legge inn innhold du kanskje vil angre på
 
 
 
@@ -208,9 +208,9 @@ som består av :
 
 
 
-- Destinasjon Address**: En gyldig Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Dette kan være din egen Address, hvis du ønsker å returnere de overførte midlene til deg selv;
-- Overført beløp**: transaksjonsbeløpet, her `0,00001` BTC. **Vær oppmerksom på**: siden enheten som brukes i Electrum er BTC, må beløpet som er angitt i transaksjonsskriptet også uttrykkes i BTC, og ikke i Sats ;
-- Skript OP_RETURN**: Meldingen konvertert til heksadesimal innledes med script(`OP_RETURN <messsage>), 0`. Her, `5468616e6b73205361746f736869` for meldingen i heksadesimal.
+- **Destinasjon Address**: En gyldig Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Dette kan være din egen Address, hvis du ønsker å returnere de overførte midlene til deg selv;
+- **Overført beløp**: transaksjonsbeløpet, her `0,00001` BTC. **Vær oppmerksom på**: siden enheten som brukes i Electrum er BTC, må beløpet som er angitt i transaksjonsskriptet også uttrykkes i BTC, og ikke i Sats ;
+- Skript **OP_RETURN**: Meldingen konvertert til heksadesimal innledes med script(`OP_RETURN <messsage>), 0`. Her, `5468616e6b73205361746f736869` for meldingen i heksadesimal.
 
 
 

@@ -18,11 +18,11 @@ Sul on juba olemas:
 Selles kogenud Git-kasutajatele mõeldud õpetuses võtame lühidalt kokku peamised sammud ja olulised suunised uue Plan ₿ Networki õpetuse pakkumiseks. Kui te ei ole Gitiga ja GitHubiga kursis, soovitan teil selle asemel jälgida ühte neist kahest teisest üksikasjalikumast juhendmaterjalist, mis viivad teid samm-sammult edasi:
 
 
-- Vahepealne (GitHub Desktop)**:
+- **Vahepealne (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Algajad (veebiliides)**:
+- **Algajad (veebiliides)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,30 +31,30 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 Markdown-failide redigeerimiseks:
 
 
-- Obsidian** (tasuta, mitte avatud lähtekoodiga)
-- Mark Text** (tasuta, avatud lähtekoodiga)
-- Zettlr** (tasuta, avatud lähtekoodiga)
-- Typora** (tasuline tarkvara, ~15€, mitte avatud lähtekoodiga)
+- **Obsidian** (tasuta, mitte avatud lähtekoodiga)
+- **Mark Text** (tasuta, avatud lähtekoodiga)
+- **Zettlr** (tasuta, avatud lähtekoodiga)
+- **Typora** (tasuline tarkvara, ~15€, mitte avatud lähtekoodiga)
 
 Giti jaoks:
 
 
-- Git** (tasuta, avatud lähtekoodiga)
-- GitHub Desktop** (tasuta, avatud lähtekoodiga)
-- Sourcetree** (tasuta, mitte avatud lähtekoodiga)
+- **Git** (tasuta, avatud lähtekoodiga)
+- **GitHub Desktop** (tasuta, avatud lähtekoodiga)
+- **Sourcetree** (tasuta, mitte avatud lähtekoodiga)
 
 YAML-failide redigeerimiseks:
 
 
-- Visual Studio Code** (tasuta, avatud lähtekoodiga)
-- Sublime Text** (piirangutega tasuta, mitte avatud lähtekoodiga)
+- **Visual Studio Code** (tasuta, avatud lähtekoodiga)
+- **Sublime Text** (piirangutega tasuta, mitte avatud lähtekoodiga)
 
 Diagrammide ja visuaalide loomiseks:
 
 
-- Canva** (tasuta ja tasulised võimalused, mitte avatud lähtekoodiga)
-- Inkscape** (tasuta, avatud lähtekoodiga)
-- Penpot** (tasuta, avatud lähtekoodiga)
+- **Canva** (tasuta ja tasulised võimalused, mitte avatud lähtekoodiga)
+- **Inkscape** (tasuta, avatud lähtekoodiga)
+- **Penpot** (tasuta, avatud lähtekoodiga)
 
 ## Töökorraldused
 
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Sisu loomise standardid
 
 
-- Platvormil toetatud vormindamine**:
+- **Platvormil toetatud vormindamine**:
     - Klassikaline Markdown: nimekirjad, lingid, pildid, tsitaadid, paksus, kursiiv jne.
     - LaTeX (ainult plokk, mitte inline): piiritletud `$$$`.
     - Inline-kood: Süntaks ühe tagurpidi märgiga.
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Illustratsioonid ja diagrammid**:
+- **Illustratsioonid ja diagrammid**:
     - Kõik pildid peavad olema WebP-vormingus. Vajaduse korral kasutage nende teisendamiseks seda tasuta tööriista: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Nimetage visuaalid kahe või kolme numbriga (nt `001.webp`, `002.webp`).
     - Mobiili- või riistvara rahakotiõpetuse jaoks kasutage mock-up'e.
     - Kasutage ainult ise loodud või kasutustasuta visuaalset materjali.
     - Veenduge, et need on asjakohased ja kvaliteetsed.
-- Graafiline harta**:
+- **Graafiline harta**:
     - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Värviplaan ₿ Võrk:
         - Oranž: `#FF5C00`

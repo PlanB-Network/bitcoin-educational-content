@@ -248,13 +248,13 @@ Kysymys on syvällinen ja kattaa useita Bitcoinin louhinnan ulottuvuuksia. Tasap
 
 - Louhinta voiton vuoksi:
 
-* Puolesta: Louhijat houkutellaan luonnollisesti Bitcoin-louhinnan potentiaalisilla tuloilla. Kalliisiin louhintalaitteisiin sijoittaminen voidaan kattaa louhintapalkkioilla ja transaktiomaksuilla, erityisesti kun Bitcoinin hinta on korkea.
-* Vastaan: Voiton tavoittelu voi johtaa laskentatehon keskittymiseen, jos vain muutamat suuret yritykset pystyvät sijoittamaan huippuluokan louhintalaitteisiin. Lisäksi, voiton tavoittelu voi aiheuttaa merkittävän ympäristövaikutuksen.
+**Puolesta:** Louhijat houkutellaan luonnollisesti Bitcoin-louhinnan potentiaalisilla tuloilla. Kalliisiin louhintalaitteisiin sijoittaminen voidaan kattaa louhintapalkkioilla ja transaktiomaksuilla, erityisesti kun Bitcoinin hinta on korkea.
+**Vastaan:** Voiton tavoittelu voi johtaa laskentatehon keskittymiseen, jos vain muutamat suuret yritykset pystyvät sijoittamaan huippuluokan louhintalaitteisiin. Lisäksi, voiton tavoittelu voi aiheuttaa merkittävän ympäristövaikutuksen.
 
 - Louhinta verkon vuoksi:
 
-* Puolesta: Louhinta Bitcoin-verkon turvallisuuden ja hajauttamisen edistämiseksi on jalotavoitteinen aloite. Se auttaa vahvistamaan verkon sietokykyä ja vastustamaan sensuuria sekä hyökkäyksiä.
-* Vastaan: Ilman riittävää taloudellista kannustinta louhijoiden voi olla vaikea jatkaa verkon tukemista, erityisesti jos he toimivat tappiolla.
+**Puolesta:** Louhinta Bitcoin-verkon turvallisuuden ja hajauttamisen edistämiseksi on jalotavoitteinen aloite. Se auttaa vahvistamaan verkon sietokykyä ja vastustamaan sensuuria sekä hyökkäyksiä.
+**Vastaan:** Ilman riittävää taloudellista kannustinta louhijoiden voi olla vaikea jatkaa verkon tukemista, erityisesti jos he toimivat tappiolla.
   Attakai-aloite korostaa verkostoon panostamisen tärkeyttä tarjoten samalla ratkaisuja, jotka tekevät louhinnasta helpommin saavutettavaa ja vähemmän haitallista. Mahdollisuus louhia kotona, edullisemmilla laitteilla ja ratkaisuilla melusaasteen vähentämiseksi, voi auttaa demokratisoimaan Bitcoin-louhintaa. Se kannustaa Bitcoinista kiinnostuneita ei ainoastaan investoimaan ja pitämään bitcoineja, vaan myös aktiivisesti osallistumaan verkon turvaamiseen. Testatun laitteiston ja kokoamis- sekä asennusoppaiden tarjoamisen myötä Attakai tekee Bitcoin-louhinnan maailmaan astumisen helpommaksi. Se myös kannustaa innovaatioihin ja jatkuviin parannuksiin, kutsuen yhteisön jakamaan ideoitaan ja kokemuksiaan kotilouhinnan parantamiseksi. Attakai-malli on vastaus kysymykseen louhimisesta voiton vai verkon hyväksi. Kyse ei ole vain voittojen tekemisestä, vaan myös Bitcoin-verkon jakelun ja turvallisuuden vahvistamisesta, samalla mahdollistaen useammille ihmisille osallistumisen louhintaan, oppimisen ja tämän keskeisen alan ymmärtämisen. Mahdollisen louhintakiellon haaste Euroopassa pysyy avoimena kysymyksenä. Tämä herättää huolia Bitcoin-louhinnan tulevaisuudesta alueella ja tasapainoisen sääntelyn tarpeesta, joka tunnistaa louhinnan tärkeyden Bitcoin-verkon turvallisuudelle ja elinkelpoisuudelle samalla käsitellen ympäristökysymyksiä. Attakai ja muut vastaavat aloitteet voivat näytellä keskeistä roolia tässä keskustelussa, osoittaen, että on mahdollista louhia kestävämmällä ja vastuullisemmalla tavalla, samalla positiivisesti edistäen Bitcoin-verkkoa.
 
 ## Suvereniteetti ja Sääntely

@@ -1,5 +1,5 @@
 ---
-name: Snelheid Wallet
+name: Speed Wallet
 description: Direct betalen en Exchange in bitcoins en USDT
 ---
 ![cover](assets/cover.webp)
@@ -143,7 +143,7 @@ Op de **Wallet** startpagina vindt u :
 
 
 
-- Betalingen ontvangen op Speed Wallet :**
+- Betalingen ontvangen op Speed Wallet:
 
 
 
@@ -161,7 +161,7 @@ Je kunt ook gewoon je Lightning Address gebruiken als je de verzender de flexibi
 
 
 
-- Bitcoins versturen met Speed Wallet** :
+- **Bitcoins versturen met Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Met de **Koop** en **Wissel** opties kun je Exchange bitcoins wisselen voor ande
 
 
 
-- Koop Bitcoin met je creditcard**: Speed Wallet maakt het gemakkelijk om Bitcoin te kopen van de fiatvaluta's die je elke dag gebruikt. Het bevat een betalingsaggregator waarmee je bitcoins kunt betalen met je creditcard.
+- **Koop Bitcoin met je creditcard**: Speed Wallet maakt het gemakkelijk om Bitcoin te kopen van de fiatvaluta's die je elke dag gebruikt. Het bevat een betalingsaggregator waarmee je bitcoins kunt betalen met je creditcard.
 
 
 
@@ -201,7 +201,7 @@ Met de **Koop** en **Wissel** opties kun je Exchange bitcoins wisselen voor ande
 
 
 
-- Bitcoin kopen van andere cryptocurrencies**: U kunt Exchange uw USDT, USDC voor bitcoins in uw Wallet en vice versa. Door deze optie vereenvoudigt Speed Wallet het proces van Bitcoin kopen en verkopen, zonder naar externe Exchange platforms te hoeven verwijzen. Je kunt dus handelen voor slechts 20.000 satoshis, ongeveer $20 tegen de huidige koers, zonder je Speed Wallet te verlaten.
+- **Bitcoin kopen van andere cryptocurrencies**: U kunt Exchange uw USDT, USDC voor bitcoins in uw Wallet en vice versa. Door deze optie vereenvoudigt Speed Wallet het proces van Bitcoin kopen en verkopen, zonder naar externe Exchange platforms te hoeven verwijzen. Je kunt dus handelen voor slechts 20.000 satoshis, ongeveer $20 tegen de huidige koers, zonder je Speed Wallet te verlaten.
 
 
 
@@ -375,25 +375,25 @@ De volgende opties zijn voornamelijk gericht op betalingen:
 
 
 
-- Online betalingen**: Met deze optie kunt u Bitcoin accepteren als betaalmiddel voor uw digitale producten, via betaallinks, facturering en abonnementen.
+- **Online betalingen**: Met deze optie kunt u Bitcoin accepteren als betaalmiddel voor uw digitale producten, via betaallinks, facturering en abonnementen.
 
 
 
 
 
-- Betalingen ter plaatse**: Om betalingen in je winkel te innen.
+- **Betalingen ter plaatse**: Om betalingen in je winkel te innen.
 
 
 
 
 
-- Directe betalingen**: Een optie waarmee je vergoedingen, opnames, uitgaven en loonstroken van werknemers rechtstreeks vanuit Speed Business Interface kunt beheren.
+- **Directe betalingen**: Een optie waarmee je vergoedingen, opnames, uitgaven en loonstroken van werknemers rechtstreeks vanuit Speed Business Interface kunt beheren.
 
 
 
 
 
-- Platformbetalingen**: Verbind je Speed Business-account met externe tools die je gebruikt voor overschrijvingen en betalingen naar deze platforms.
+- **Platformbetalingen**: Verbind je Speed Business-account met externe tools die je gebruikt voor overschrijvingen en betalingen naar deze platforms.
 
 
 

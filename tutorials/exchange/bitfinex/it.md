@@ -53,10 +53,10 @@ Il vostro account è stato creato. Cliccate su "*Log in*" per accedere alla piat
 Bitfinex applica un processo di verifica (KYC) conforme alle normative vigenti. In modalità "Basic" non è possibile effettuare depositi, prelievi o transazioni, il che rende indispensabile ottenere almeno il livello di verifica "Basic Plus", o anche "Intermediate" o "Full" se necessario:
 
 
-- Basic* è una modalità di sola visualizzazione, che consente di consultare la piattaforma senza eseguire alcuna operazione;
-- Basic Plus* consente di accedere alle funzioni essenziali, tra cui le transazioni sul mercato a pronti e alcune opzioni di deposito e prelievo;
-- Intermediate* sblocca servizi avanzati come il margin trading, i prestiti, le transazioni P2P e OTC e offre scadenze ridotte per i depositi;
-- Full* vi dà accesso ai trasferimenti bancari internazionali e a tutte le funzionalità della piattaforma.
+- **Basic** è una modalità di sola visualizzazione, che consente di consultare la piattaforma senza eseguire alcuna operazione;
+- **Basic Plus** consente di accedere alle funzioni essenziali, tra cui le transazioni sul mercato a pronti e alcune opzioni di deposito e prelievo;
+- **Intermediate** sblocca servizi avanzati come il margin trading, i prestiti, le transazioni P2P e OTC e offre scadenze ridotte per i depositi;
+- **Full** vi dà accesso ai trasferimenti bancari internazionali e a tutte le funzionalità della piattaforma.
 
 Per ogni livello sono richiesti ulteriori documenti di verifica. Per la maggior parte degli utenti, gli account *Basic Plus* o *Intermediate* sono generalmente sufficienti.
 
@@ -79,11 +79,11 @@ Completate i passaggi fornendo le informazioni e i documenti richiesti. Una volt
 Una volta effettuato l'accesso, vedrete una barra di navigazione nella parte superiore dell'interfaccia con: "*Trading*", "*Derivati*", "*Fondi*", "*OTC*", "*P2P*", "*Portafoglio*", ecc. Bitfinex offre un'ampia gamma di funzionalità, tra cui :
 
 
-- Trading**: mercato "*classico*" dove è possibile inserire ordini di acquisto e vendita di criptovalute (incluso bitcoin);
-- OTC**: Servizio Over-The-Counter per la negoziazione di grandi volumi direttamente con un altro operatore, al di fuori dei libri degli ordini pubblici;
-- Finanziamenti**: Area dedicata ai prestiti e al finanziamento dei margini;
-- Derivati**: Sezione per i derivati (futures, ecc.), destinata ai trader esperti;
-- P2P**: Permette di acquistare o vendere criptovalute da altri utenti su base peer-to-peer.
+- **Trading**: mercato "*classico*" dove è possibile inserire ordini di acquisto e vendita di criptovalute (incluso bitcoin);
+- **OTC**: Servizio Over-The-Counter per la negoziazione di grandi volumi direttamente con un altro operatore, al di fuori dei libri degli ordini pubblici;
+- **Finanziamenti**: Area dedicata ai prestiti e al finanziamento dei margini;
+- **Derivati**: Sezione per i derivati (futures, ecc.), destinata ai trader esperti;
+- **P2P**: Permette di acquistare o vendere criptovalute da altri utenti su base peer-to-peer.
 
 Per l'utilizzo standard (acquisto/vendita di bitcoin e depositi/prelievi), si utilizzerà principalmente la scheda "*Trading*", nonché le sezioni "*Wallet*", "*Deposit*" e "*Withdraw*".
 

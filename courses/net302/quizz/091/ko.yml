@@ -1,0 +1,9 @@
+question: 호스트의 열린 포트를 스캔하고 액세스 가능한 서비스를 식별하는 데 사용되는 명령은 무엇인가요?
+answer: nmap
+wrong_answers:
+  - dig
+  - ethtool
+  - iP 이웃
+explanation: |
+  nmap은 열린 포트, 노출된 서비스, 때로는 원격 운영 체제의 유형을 감지합니다.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Mijn knooppunt
+name: My Node
 description: Uw Bitcoin MyNode instellen
 ---
 

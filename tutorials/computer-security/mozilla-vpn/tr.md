@@ -14,7 +14,7 @@ Veri toplamanın dijital çağında, çevrimiçi gizlilik biz İnternet kullanı
 
 
 
-Sanal Özel Ağ*** (VPN), farklı yerel ağlara bağlı uzak bilgisayarlar arasında doğrudan bir bağlantı oluşturmak için kullanılan bir sistemdir. Başka bir deyişle, alışverişlerinizi İnternet'teki trafiğin geri kalanından izole eden ve şifreleyen bir sistemdir. VPN'ler, kullanımları ve kullanmanın faydaları hakkında daha fazla bilgi edinmek için SCU 101 kursuna bir göz atın:
+**Sanal Özel Ağ** (VPN), farklı yerel ağlara bağlı uzak bilgisayarlar arasında doğrudan bir bağlantı oluşturmak için kullanılan bir sistemdir. Başka bir deyişle, alışverişlerinizi İnternet'teki trafiğin geri kalanından izole eden ve şifreleyen bir sistemdir. VPN'ler, kullanımları ve kullanmanın faydaları hakkında daha fazla bilgi edinmek için SCU 101 kursuna bir göz atın:
 
 
 

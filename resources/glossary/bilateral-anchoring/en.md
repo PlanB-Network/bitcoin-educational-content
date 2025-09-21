@@ -7,4 +7,4 @@ To achieve this, bitcoins are temporarily locked on the main blockchain, and an 
 When users wish to return to the Bitcoin blockchain, the process is reversed: the assets on the sidechain are destroyed, and the corresponding bitcoins are unlocked. There are many different bilateral anchoring mechanisms that can rely on:
 * A single trusted third party;
 * A federation of entities;
-* The miners of the main chain (drivechain).
+*The miners of the main chain (drivechain).*

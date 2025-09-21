@@ -1,0 +1,11 @@
+question: Bitcoin Wallet의 기본 보안을 어떻게 강화할 수 있나요?
+answer: Bitcoin Wallet에 passphrase를 추가하면 됩니다.
+wrong_answers:
+  - Bitcoin Wallet에 두 번째 개인 키를 추가합니다.
+  - Bitcoin Wallet에 두 번째 공개 키를 추가합니다.
+  - Bitcoin Wallet에 두 번째 Mnemonic 문구를 추가하면 됩니다.
+explanation: |
+  기본 보안이 만족스럽지 않은 경우
+  Bitcoin Wallet의 기본 보안이 만족스럽지 않다면 언제든지 Bitcoin Wallet에
+  passphrase를 추가하여 보안을 강화할 수 있습니다.
+reviewed: true

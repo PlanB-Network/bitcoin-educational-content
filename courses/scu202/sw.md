@@ -156,7 +156,7 @@ Je, uko tayari kudhibiti kikamilifu usalama wako wa TEHAMA, kuimarisha mamlaka y
 
 
 
-*NB
+**NB**
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman anakosoa kwa uwazi matumizi ya neno "open source", akiona kuwa 
 
 
 
-*Chanzo: Nathaniel Welch
+**Chanzo:** Nathaniel Welch
 
 
 
@@ -794,7 +794,9 @@ Juhudi hizi za mapema ziliashiria kuzaliwa kwa usambazaji wa Linux:
 
 
 
-- **Februari 1992: Linux ya Muda ya MCC**
+
+- Februari 1992: Linux ya Muda ya **MCC**
+
 
 
 
@@ -804,7 +806,9 @@ Iliyoundwa katika Chuo Kikuu cha Manchester, Linux ya Muda ya MCC inachukuliwa k
 
 
 
-- **Mei 1992: Softlanding Linux System (SLS)**
+
+- Mei 1992: **Softlanding Linux System (SLS)**
+
 
 
 
@@ -826,7 +830,9 @@ SLS haipo tena. Toleo lake la mwisho linalojulikana lilianza mwishoni mwa 1994.
 
 
 
-- **Julai 1993: Slackware**
+
+- Julai 1993: **Slackware**
+
 
 
 
@@ -848,7 +854,9 @@ Slackware bado inadumishwa leo, na kuifanya usambazaji wa zamani zaidi wa Linux 
 
 
 
-- **Agosti 1993: Debian**
+
+- Agosti 1993: **Debian**
+
 
 
 
@@ -886,7 +894,9 @@ Kwa hivyo Debian ikawa moja ya nguzo za kiufundi na kiitikadi za ulimwengu wa GN
 
 
 
-- **1994: Red Hat Linux**
+
+- 1994: **Red Hat Linux**
+
 
 
 
@@ -1238,7 +1248,9 @@ Parrot OS pia inatokana na Debian. Inatoa mazingira kwa ajili ya pentesting, usa
 
 
 
+
 - **Tails**:
+
 
 
 
@@ -1362,7 +1374,9 @@ Mazingira ya eneo-kazi katika usambazaji wa Linux sio programu moja, lakini seti
 
 
 
+
 - **Kidhibiti windows**: huchora mipaka ya dirisha, hudhibiti uwekaji, kubadilisha ukubwa, na athari za mpito... Kwa mfano: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+
 
 
 
@@ -1404,6 +1418,7 @@ Mazingira ya eneo-kazi katika usambazaji wa Linux sio programu moja, lakini seti
 
 
 
+
 - **Mtunzi wa X11 (si lazima)**: huongeza athari za kuona (vivuli, uwazi, uhuishaji) katika mazingira ambapo kidhibiti windows hakitumii utungaji. Kwa mfano: compton, picom.
 
 
@@ -1411,6 +1426,7 @@ Mazingira ya eneo-kazi katika usambazaji wa Linux sio programu moja, lakini seti
 
 
 - **Seva ya kuonyesha**: hii ni programu inayoshughulikia mawasiliano kati ya mfumo (kupitia kernel na viendeshi vya michoro) na programu za michoro. Inaonyesha madirisha kwenye skrini na kudhibiti pembejeo za kibodi na kipanya. Seva ya onyesho mara nyingi ni sehemu tofauti ya mazingira ya eneo-kazi, lakini mifumo zaidi na zaidi inapitisha Wayland, itifaki ya kisasa ambapo jukumu la seva ya kuonyesha linaweza kuchukuliwa moja kwa moja na msimamizi wa dirisha (k.m. Mutter chini ya GNOME au KWin chini ya KDE). Hii basi inajulikana kama "Wayland compositing".
+
 
 
 
@@ -1873,7 +1889,7 @@ Mara tu unapoanzisha Ubuntu, kielekezi cha usakinishaji kitakuongoza hatua kwa h
 
 
 
-- **Ufungaji kando ya Windows (* buti mbili*)**
+- Ufungaji kando ya Windows (**buti mbili**)
 
 
 
@@ -3539,7 +3555,7 @@ Hata kama masasisho ya kiotomatiki yamewashwa kwenye mfumo wako, bado ni muhimu 
 
 
 
-- *Mfumo wa uendeshaji wa Windows*
+- Mfumo wa uendeshaji wa Windows
 
 
 
@@ -3563,8 +3579,8 @@ Usisahau kuangalia masasisho ya hiari katika menyu sawa.
 
 
 
-- *Linux* mfumo wa uendeshaji
 
+- **Linux** mfumo wa uendeshaji
 
 
 Usambazaji wa Linux unatokana na mfumo wa vifurushi vinavyotunzwa na jumuiya na wasimamizi wa usambazaji wako. Masasisho yanatumika kupitia kidhibiti kifurushi.
@@ -3616,7 +3632,9 @@ sudo pacman -Syu
 
 
 
-- *Mfumo wa uendeshaji wa MacOS*
+
+- Mfumo wa uendeshaji wa *MacOS*
+
 
 
 
@@ -3652,25 +3670,25 @@ Baadhi ya programu ni nyeti zaidi kuliko zingine, kwa sababu inaingiliana moja k
 
 
 
-- *Vivinjari vya wavuti*: viko mstari wa mbele wa mashambulizi, huku vikichakata maudhui ambayo hayajathibitishwa kwa wakati halisi na kuwa na eneo kubwa la mashambulizi. Zaidi ya hayo, wana jukumu kuu katika kulinda data yako ya kibinafsi. Na, juu ya yote, huwa na nafasi ya programu nyingi za programu zilizotumiwa hapo awali (wateja wa barua pepe, vyumba vya ofisi, vicheza media ...). Lakini tutarejea katika hatua hii katika sehemu inayofuata ya kozi ya SCU202;
+- Vivinjari vya wavuti: viko mstari wa mbele wa mashambulizi, huku vikichakata maudhui ambayo hayajathibitishwa kwa wakati halisi na kuwa na eneo kubwa la mashambulizi. Zaidi ya hayo, wana jukumu kuu katika kulinda data yako ya kibinafsi. Na, juu ya yote, huwa na nafasi ya programu nyingi za programu zilizotumiwa hapo awali (wateja wa barua pepe, vyumba vya ofisi, vicheza media ...). Lakini tutarejea katika hatua hii katika sehemu inayofuata ya kozi ya SCU202;
 
 
 
 
 
-- Mail clients: hupokea viambatisho au viungo kutoka kwa vyanzo vya nje visivyoweza kudhibitishwa, na hivyo kuwa hatari;
+- Wateja wa barua: wanapokea viambatisho au viungo kutoka vyanzo vya nje ambavyo havidhibitiki na hivyo ni hatari;
 
 
 
 
 
-- *Zana za mawasiliano* (TeamViewer, Zoom, Signal, Teams...): kwa sababu ya asili yao ya mwingiliano, wao hulengwa kwa mashambulizi ya kijasusi au majaribio ya udhibiti wa mbali. Kwa njia sawa na wateja wa barua pepe, zana za mawasiliano zinaweza kutumika kama vekta za majaribio ya kuhadaa ili kupata maelezo ya kibinafsi au usambazaji wa viambatisho hasidi;
+- Zana za mawasiliano (TeamViewer, Zoom, Signal, Teams...): kwa sababu ya asili yao ya mwingiliano, wao hulengwa kwa mashambulizi ya kijasusi au majaribio ya udhibiti wa mbali. Kwa njia sawa na wateja wa barua pepe, zana za mawasiliano zinaweza kutumika kama vekta za majaribio ya kuhadaa ili kupata maelezo ya kibinafsi au usambazaji wa viambatisho hasidi;
 
 
 
 
 
-- Antivirus, firewalls, na suluhisho zingine za ugunduzi: zana hizi kwa kawaida huwa na high privileges, kwani huchanganua files zako, processes, na network connections kila mara. Signature database iliyopitwa na wakati, poor configuration, au udhaifu katika programu yenyewe unaweza kuruhusu malware kupita bila kutambuliwa, au hata kupata high-level privileges.
+- Antivirus, ngome na suluhisho zingine za ugunduzi: zana hizi kwa ujumla hufurahia mapendeleo ya hali ya juu, kwani huchanganua faili zako, michakato na miunganisho ya mtandao kila mara. Saini ya msingi iliyopitwa na wakati, usanidi duni au athari katika programu yenyewe inaweza kuruhusu programu hasidi kwenda bila kutambuliwa, au hata kupata upendeleo wa hali ya juu.
 
 
 
@@ -3891,7 +3909,8 @@ Kama tulivyoona katika sehemu iliyotangulia, Windows kihistoria imekuwa ikilengw
 
 
 
-- *Microsoft Defender*: kwenye Windows, kuwa na antivirus nzuri ni hitaji la msingi. Kwa miaka mingi, Microsoft Defender (zamani Windows Defender), antivirus iliyojengwa ndani ya mfumo, ilionekana kuwa haiwezi kutegemewa, na ufumbuzi wa tatu ulipendekezwa badala yake. Lakini programu hii imeboreshwa sana kwa wakati, na sasa, kwa maoni yangu, inatosha kutoa ulinzi wa kimsingi kwa matumizi ya kibinafsi. Hiyo ilisema, hatupaswi kukadiria kupita kiasi jukumu la programu ya kingavirusi: ni juu ya mazoea yako yote ya kidijitali ambayo yanahakikisha usalama wako. Moja ya faida za Defender ni ujumuishaji wake wa asili na Windows. Kando na ulinzi wa wakati halisi, inatoa uchanganuzi wa kina ambao unaweza kuratibu kila wiki au kukimbia mwenyewe kwa vipindi vya kawaida.
+
+- Microsoft Defender: kwenye Windows, kuwa na antivirus nzuri ni hitaji la msingi. Kwa miaka mingi, Microsoft Defender (zamani Windows Defender), antivirus iliyojengwa ndani ya mfumo, ilionekana kuwa haiwezi kutegemewa, na ufumbuzi wa tatu ulipendekezwa badala yake. Lakini programu hii imeboreshwa sana kwa wakati, na sasa, kwa maoni yangu, inatosha kutoa ulinzi wa kimsingi kwa matumizi ya kibinafsi. Hiyo ilisema, hatupaswi kukadiria kupita kiasi jukumu la programu ya kingavirusi: ni juu ya mazoea yako yote ya kidijitali ambayo yanahakikisha usalama wako. Moja ya faida za Defender ni ujumuishaji wake wa asili na Windows. Kando na ulinzi wa wakati halisi, inatoa uchanganuzi wa kina ambao unaweza kuratibu kila wiki au kukimbia mwenyewe kwa vipindi vya kawaida.
 
 
 
@@ -3901,12 +3920,13 @@ Kama tulivyoona katika sehemu iliyotangulia, Windows kihistoria imekuwa ikilengw
 
 
 
-- *Sysinternals Suite*: hii ni seti ya juu zaidi ya zana zinazotolewa na Microsoft kwa ajili ya kuchunguza, kufuatilia na kutatua Windows. Hapa kuna zana kuu katika seti hii:
-    - *Ufuatiliaji wa Mchakato*: hukuruhusu kutazama michakato inayotumika, ufikiaji wa faili, rejista, nk kwa wakati halisi;
-    - *Autoruns*: huonyesha programu zote zilizozinduliwa wakati wa kuanzishwa, kukusaidia kugundua kwa haraka programu hasidi inayoendelea au programu ambazo hazifai kuendeshwa;
-    - *Mchakato wa Kichunguzi*: hufuatilia michakato na kugundua tabia ya kutiliwa shaka;
-    - *TCPView*: hutazama miunganisho amilifu ya mtandao (ugunduzi wa miunganisho isiyo ya kawaida);
-    - *Sigcheck*: hukagua sahihi za dijitali kwenye faili ili kupata msimbo hasidi.
+
+- **Sysinternals Suite**: hii ni seti ya juu zaidi ya zana zinazotolewa na Microsoft kwa ajili ya kuchunguza, kufuatilia na kutatua Windows. Hapa kuna zana kuu katika seti hii:
+- **Ufuatiliaji wa Mchakato**: hukuruhusu kutazama michakato inayotumika, ufikiaji wa faili, rejista, nk kwa wakati halisi;
+- **Autoruns**: huonyesha programu zote zilizozinduliwa wakati wa kuanzishwa, kukusaidia kugundua kwa haraka programu hasidi inayoendelea au programu ambazo hazifai kuendeshwa;
+- Mchakato wa Kichunguzi: hufuatilia michakato na kugundua tabia ya kutiliwa shaka;
+- **TCPView**: hutazama miunganisho amilifu ya mtandao (ugunduzi wa miunganisho isiyo ya kawaida);
+- **Sigcheck**: hukagua sahihi za dijitali kwenye faili ili kupata msimbo hasidi.
 
 
 
@@ -3916,7 +3936,8 @@ Kama tulivyoona katika sehemu iliyotangulia, Windows kihistoria imekuwa ikilengw
 
 
 
-- *GlassWire*: zana ya ufuatiliaji wa mtandao. Hufuatilia miunganisho inayoingia na inayotoka kwa wakati halisi, na kukuarifu kuhusu shughuli isiyo ya kawaida.
+
+- **GlassWire**: zana ya ufuatiliaji wa mtandao. Hufuatilia miunganisho inayoingia na inayotoka kwa wakati halisi, na kukuarifu kuhusu shughuli isiyo ya kawaida.
 
 
 
@@ -3934,7 +3955,8 @@ Kwenye mashine ya Linux iliyotunzwa vizuri inayotumika kwa madhumuni ya kibinafs
 
 
 
-- *Fail2ban*: Hufuatilia system logs kwa failed attempts (kama vile brute-force SSH login attempts). Wakati suspicious behavior inagunduliwa, huweka temporary ban IP dhalimu Address kupitia `iptables` ;
+
+- **Fail2ban**: hufuatilia kumbukumbu za mfumo kwa majaribio ambayo hayajafaulu (kama vile majaribio ya kuingia kwa SSH ya nguvu ya kikatili). Wakati tabia ya kutiliwa shaka inapogunduliwa, hupiga marufuku kwa muda IP dhalimu Address kupitia `iptables`;
 
 
 
@@ -3944,7 +3966,7 @@ Kwenye mashine ya Linux iliyotunzwa vizuri inayotumika kwa madhumuni ya kibinafs
 
 
 
-- *Lynis*: Zana ya kina ya ukaguzi wa usalama ambayo huchanganua mfumo wako kwa misconfiguration, known vulnerabilities au mikengeuko kutoka kwa best practices. Hutoa ripoti ambayo ni rahisi kusoma, yenye alama za usalama na mapendekezo.
+- **Lynis**: zana ya kina ya ukaguzi wa usalama ambayo huchanganua mfumo wako kwa usanidi usiofaa, udhaifu unaojulikana au mikengeuko kutoka kwa utendaji bora. Hutoa ripoti ambayo ni rahisi kusoma, yenye alama za usalama na mapendekezo.
 
 
 
@@ -3963,7 +3985,8 @@ macOS inajulikana kwa usalama wake, shukrani haswa kwa sera zake za saini za utu
 
 
 
-- *KnockKnock*: huchanganua Elements zote zilizosanidiwa ili kuendeshwa wakati wa kuanza (mawakala, daemoni, moduli za kernel...) na kubainisha zile ambazo zinaweza kutiliwa shaka, ambazo hazijatiwa saini au zisizojulikana. Inakuruhusu kutambua haraka uendelevu hasidi kwenye mfumo wako.
+
+- **KnockKnock**: huchanganua Elements zote zilizosanidiwa ili kuendeshwa wakati wa kuanza (mawakala, daemoni, moduli za kernel...) na kubainisha zile ambazo zinaweza kutiliwa shaka, ambazo hazijatiwa saini au zisizojulikana. Inakuruhusu kutambua haraka uendelevu hasidi kwenye mfumo wako.
 
 
 
@@ -4546,7 +4569,8 @@ Usimbaji fiche kamili ni kama kufuli: mradi tu nenosiri halijatolewa, data itaba
 
 
 
-- *Linux (Debian)*
+
+- Linux (Debian)
 
 
 
@@ -4852,7 +4876,7 @@ Baada ya FileVault kuamilishwa, utahitaji kuchagua mbinu ya kurejesha nenosiri i
 Kwa vyombo vya habari vya hifadhi ya nje (diski za Hard, vijiti vya USB, nk), usimbuaji unafanywa kwa kutumia matumizi ya diski. Utahitaji kurekebisha kabisa kiasi:
 
 - Chagua kifaa, bonyeza "*Futa*"
-- Chagua mpango wa "GUID* Jedwali la Sehemu".
+- Chagua mpango wa "GUID Jedwali la Sehemu".
 - Kisha chagua umbizo la mfumo wa faili uliosimbwa kwa njia fiche (*APFS* au *Mac OS iliyopanuliwa*)
 - Chagua nenosiri dhabiti
 - Bonyeza "*Futa*" kisha "*Sawa*" na usimbaji fiche umekamilika
@@ -4932,7 +4956,8 @@ Kifurushi hiki husakinisha `exiftool`, ambayo unaweza kutumia moja kwa moja kuto
 
 
 
-- **Hatua ya 2: Kuangalia metadata ya faili** (kwa Kifaransa)
+
+- Hatua ya 2: Kuangalia metadata ya faili (kwa Kifaransa)
 
 
 
@@ -6205,7 +6230,8 @@ Ili kuepuka mashambulizi haya wakati wa kuvinjari mtandaoni, ni muhimu kufuata m
 
 
 
-- **Kamwe usisambaze taarifa nyeti kupitia kiungo kilichopokelewa**: Taasisi halali haitawahi kukuuliza nenosiri, nambari ya kuthibitisha au nakala iliyochanganuliwa ya kitambulisho chako kupitia barua pepe rahisi au SMS.
+
+- Kamwe usisambaze taarifa nyeti kupitia kiungo kilichopokelewa: **Taasisi halali haitawahi kukuuliza nenosiri, nambari ya kuthibitisha au nakala iliyochanganuliwa ya kitambulisho chako kupitia barua pepe rahisi au SMS.**
 
 
 
@@ -6293,19 +6319,20 @@ Lengo ni rahisi: kuzuia tukio linalohusisha shughuli mahususi (kama vile kuvuja 
 
 
 
-- **Tumia vivinjari kadhaa tofauti**: kwa mfano, Firefox kwa matumizi ya kibinafsi, Tor au Mullvad kwa shughuli nyeti, na Chromium kwa kazi za kitaalamu. Kila kivinjari hutumia mfano wake wa uhifadhi, ambao hutenganisha vidakuzi, vipindi na viendelezi. Hii pia hukuruhusu kubinafsisha mipangilio ya kivinjari kulingana na hali zako mahususi za utumiaji.
+
+- Tumia vivinjari kadhaa tofauti: kwa mfano, Firefox kwa matumizi ya kibinafsi, Tor au Mullvad kwa shughuli nyeti, na Chromium kwa kazi za kitaalamu. Kila kivinjari hutumia mfano wake wa uhifadhi, ambao hutenganisha vidakuzi, vipindi na viendelezi. Hii pia hukuruhusu kubinafsisha mipangilio ya kivinjari kulingana na hali zako mahususi za utumiaji.
 
 
 
 
 
-- **Unda wasifu nyingi ndani ya kivinjari kimoja**: baadhi ya vivinjari hukuruhusu kuunda wasifu huru, kila moja ikiwa na historia yake, vipindi, viendelezi na mipangilio. Hili ni suluhisho la vikwazo kidogo kuliko kutumia vivinjari kadhaa tofauti, lakini bado halifai.
+- Unda wasifu nyingi ndani ya kivinjari kimoja: baadhi ya vivinjari hukuruhusu kuunda wasifu huru, kila moja ikiwa na historia yake, vipindi, viendelezi na mipangilio. Hili ni suluhisho la vikwazo kidogo kuliko kutumia vivinjari kadhaa tofauti, lakini bado halifai.
 
 
 
 
 
-- **Tumia vyombo vilivyojengewa ndani**: Firefox inatoa kiendelezi cha [Vyombo vya Akaunti nyingi] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), ambayo hukuwezesha kufungua vichupo tofauti, kila kimoja kikiwa na kuingia na vidakuzi vyake. Unaweza pia kukabidhi tovuti fulani kiotomatiki kwa kontena mahususi, ili kuzitenganisha kila zinapofunguliwa.
+- Tumia vyombo vilivyojengewa ndani: Firefox inatoa kiendelezi cha [Vyombo vya Akaunti nyingi] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), ambayo hukuwezesha kufungua vichupo tofauti, kila kimoja kikiwa na kuingia na vidakuzi vyake. Unaweza pia kukabidhi tovuti fulani kiotomatiki kwa kontena mahususi, ili kuzitenganisha kila zinapofunguliwa.
 
 
 
@@ -6315,7 +6342,8 @@ Lengo ni rahisi: kuzuia tukio linalohusisha shughuli mahususi (kama vile kuvuja 
 
 
 
-- **Tumia mazingira ya mfumo uliotengwa**: Kwa matumizi nyeti haswa, unaweza pia kuendesha kivinjari chako ndani ya mashine pepe au kontena ya Docker, ili kukitenga kabisa na mazingira yako kuu.
+
+- Tumia mazingira ya mfumo uliotengwa: Kwa matumizi nyeti haswa, unaweza pia kuendesha kivinjari chako ndani ya mashine pepe au kontena ya Docker, ili kukitenga kabisa na mazingira yako kuu.
 
 
 
@@ -7039,7 +7067,7 @@ Telegram ni huduma maarufu sana ya ujumbe kutokana na urahisi wa matumizi na vip
 Telegram kwa hivyo inaweza kufikia kitaalam maudhui ya mazungumzo mengi ambayo hayajasimbwa end-to-end. Hata kama kampuni ikichukua msimamo thabiti dhidi ya mamlaka za serikali, Telegram si chaguo salama kwa mawasiliano nyeti au ya siri, isipokuwa utumie waziwazi secret chats, ambazo hazitumiki sana katika matumizi ya kila siku.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8101,7 +8129,8 @@ Kifaa hiki kinachanganya kazi kuu 2:
 
 
 
-- **Jukumu la modem**
+
+- Jukumu la **modem**
 
 
 Modem (fupi ya "modulator-demodulator") ni kijenzi kinachounganisha mtandao wa ISP yako na nyumba yako. Hubadilisha mawimbi ya umeme au ya mwanga yanayopokelewa (kupitia nyuzi za optic, kebo ya coaxial, ADSL au mtandao wa simu) kuwa mawimbi ya kidijitali yanayoweza kueleweka na vifaa vyako. Vilevile, hubadilisha data kutoka kwa kifaa chako hadi umbizo linaloweza kusambazwa kupitia miundombinu ya mtoa huduma. Hatua hii ni muhimu ili mtandao wako wa nyumbani uweze kuwasiliana na Mtandao.
@@ -8109,6 +8138,7 @@ Modem (fupi ya "modulator-demodulator") ni kijenzi kinachounganisha mtandao wa I
 
 
 - **Jukumu la router**
+
 
 
 Router ndicho kiini cha mtandao wako wa karibu. Inasambaza muunganisho wa Intaneti kwa vifaa vyako vyote: kompyuta, simu mahiri, vifaa vilivyounganishwa, vichapishaji, n.k. Huwapa kila kifaa anwani ya ndani ya IP (tofauti na anwani ya IP ya umma inayoonekana kwenye Intaneti). Kisha router husimamia trafiki inayoingia na kutoka, kuhakikisha kwamba data inafika kwenye kifaa sahihi. Pia inaweza kujumuisha firewall, kuchuja pakiti za mtandao au kudhibiti sheria za usambazaji wa milango. NAT huficha mtandao wako wa karibu kutoka kwenye macho ya Intaneti, kwa kutumia anwani moja ya umma ya IP kuwakilisha vifaa vyote. Ni router pekee inayojua ni kifaa gani cha ndani kilianzisha ombi fulani.
@@ -8352,7 +8382,7 @@ Baadhi ya vipengele vinapaswa kuepukwa au kuzimwa kwa utaratibu:
 
 
 
--**UPnP = (*Plug ya Universal na play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Chaguo hili la kukokotoa huruhusu vifaa kwenye mtandao wako kuomba router ifungue ports kiotomatiki. Ingawa hii hurahisisha matumizi fulani (kama michezo ya mtandaoni, kamera zilizounganishwa, n.k.), pia hufungua mlango kwa programu hasidi zinazoweza kurekebisha usanidi wa mtandao bila idhini yako. UPnP ni miongoni mwa sababu kuu za kufichuliwa kwa huduma za ndani bila kukusudia kwa ulimwengu wa nje.
@@ -8366,7 +8396,8 @@ Hapo awali iliundwa ili kurahisisha kuunganisha vifaa kwenye Wi-Fi bila kuweka n
 
 
 
-- **Ufikiaji wa mbali (*Udhibiti wa Mbali*)**:
+
+- Ufikiaji wa mbali (**Udhibiti wa Mbali**):
 
 
 Baadhi ya ruta hukuruhusu kuunganisha kwa utawala wao Interface kutoka nje, kupitia mtandao. Kipengele hiki huongeza bila sababu eneo la mashambulizi la kipanga njia chako. Zima kabisa, isipokuwa kama una hitaji maalum la usimamizi wa mbali. Hata hivyo, tumia VPN kila wakati.
@@ -8382,10 +8413,10 @@ Zima huduma zozote za usimamizi zinazotumia protocol za maandishi wazi kama Teln
 
 
 
-- **Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
-Baadhi ya vipanga njia hujibu kwa chaguo-msingi maombi ya ICMP yaliyotumwa kutoka nje (amri ya `ping`). Hii humruhusu mshambulizi kuangalia kama mtandao wako unatumika na unapatikana. Ikiwa huhitaji, zima jibu hili kwenye firewall ya router.
+Baadhi ya router hujibu kwa chaguo-msingi maombi ya ICMP yaliyotumwa kutoka nje (amri ya `ping`). Hii humruhusu mshambulizi kuangalia kama mtandao wako unatumika na unapatikana. Ikiwa huhitaji, zima jibu hili kwenye firewall ya router.
 
 
 Hatimaye, kumbuka kuzuia ufikiaji wa usimamizi wa router interface kwa vifaa vinavyoaminika pekee, kwa kuzuia ufikiaji kwa IP address maalum ikiwa interface inaruhusu hivyo. Baadhi ya firmware, kama OpenWrt, hutoa udhibiti wa kina juu ya vigezo hivi.
@@ -8471,14 +8502,17 @@ Kisha, washa protocol ya usimbaji wa hoja ya DNS ili kuzuia hoja za DNS kuingili
 
 
 
+
 - **DoH (*DNS over HTTPS*)**: Hujumuisha maombi ya DNS katika itifaki ya HTTPS, na kuyafanya yasitofautishwe na trafiki ya kawaida iliyosimbwa kwa njia fiche.
+
 
 
 
 - **DoT (*DNS over TLS*)**: Huunda chaneli mahususi iliyosimbwa kati ya kifaa chako na seva ya DNS
 
 
- **DoQ= (*DNS over QUIC*)**: Husafirisha maombi ya DNS kupitia itifaki ya QUIC yenye msingi wa UDP
+
+- DoQ (**DNS juu ya QUIC**): Husafirisha maombi ya DNS kupitia itifaki ya QUIC yenye msingi wa UDP
 
 
 Kwa maneno ya vitendo, usimbaji fiche wa DNS na ubadilishaji wa seva unaweza kutekelezwa katika viwango tofauti:

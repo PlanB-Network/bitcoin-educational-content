@@ -79,7 +79,7 @@ Hier zijn de gegevens die je voor elk veld moet invullen:
 
 
 
-- `project`**: Geef de identificatiecode van je organisatie op PlanB Network aan. Als je nog geen "project" identifier hebt voor je bedrijf, kun je er een aanmaken door deze tutorial te volgen.
+- `project`: Geef de identificatiecode van je organisatie op PlanB Network aan. Als je nog geen "project" identifier hebt voor je bedrijf, kun je er een aanmaken door deze tutorial te volgen.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -88,13 +88,13 @@ Als je er geen hebt, kun je gewoon je naam, je pseudoniem of de naam van je bedr
 
 
 
-- `type`**: Selecteer de aard van uw inhoud uit de volgende twee opties:
+- `type`: Selecteer de aard van uw inhoud uit de volgende twee opties:
  - educatieve inhoud` voor educatieve inhoud.
  - `Visuele inhoud` voor andere soorten diverse inhoud.
 
 
 
-- `links`**: Geef links naar je inhoud. Je hebt twee opties:
+- `links`: Geef links naar je inhoud. Je hebt twee opties:
  - Als je ervoor kiest om je inhoud direct op PlanB's GitHub te hosten, moet je de links naar dit bestand toevoegen tijdens de volgende stappen.
  - Als je inhoud elders wordt gehost, bijvoorbeeld op je persoonlijke website, geef dan hier de bijbehorende links aan:
      - `download`: Een link om je inhoud te downloaden.
@@ -102,7 +102,7 @@ Als je er geen hebt, kun je gewoon je naam, je pseudoniem of de naam van je bedr
 
 
 
-- `tags`**: Voeg twee tags toe die aan je inhoud zijn gekoppeld. Voorbeelden:
+- `tags`: Voeg twee tags toe die aan je inhoud zijn gekoppeld. Voorbeelden:
  - Bitcoin
  - technologie
  - economie
@@ -111,7 +111,7 @@ Als je er geen hebt, kun je gewoon je naam, je pseudoniem of de naam van je bedr
 
 
 
-- `contributors`**: Vermeld je contributor identifier als je die hebt.
+- `contributors`**: Vermeld je contributor identifier als je die hebt.**
 
 
 Je YAML-bestand zou er bijvoorbeeld zo uit kunnen zien:

@@ -1,0 +1,9 @@
+question: Kdo řekl, že "Zlo není nic"?
+answer: Sokrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  zlo není nic" je myšlenka připisovaná Sokratovi a převzatá do filozofické tradice. Podle Sokrata zlo pochází z nevědomosti; nikdo nečiní zlo dobrovolně, pokud skutečně ví, co je dobré.
+reviewed: false

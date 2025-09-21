@@ -1,0 +1,11 @@
+question: Mining의 보상이 절반으로 줄어드는 이벤트의 이름은 무엇인가요?
+answer: Halving
+wrong_answers:
+  - 두 배로 늘리기
+  - 쿼터링
+  - 3배 증가
+explanation: |
+  Mining의 보상이 절반으로 줄어드는 이벤트는 다음과 같습니다
+  Halving. 이 이벤트는 화폐 발행 곡선에 계단 모양의
+  계단 모양이 됩니다.
+reviewed: true

@@ -16,13 +16,13 @@ Bir işletim sistemi (OS), bilgisayarınızın tüm kaynaklarını yöneten ana 
 
 
 
-- Geliştirilmiş güvenlik**: Linux dağıtımları güvenlik ve sağlamlıklarıyla ünlüdür
-- Sıfır maliyet**: Ubuntu ve çoğu Linux dağıtımı ücretsizdir
-- Geniş topluluk**: Forumlar ve eğitimler aracılığıyla yardım etmeye hazır bir kullanıcı topluluğu
-- Mahremiyete saygı**: Daha fazla şeffaflık için açık kaynak sistemi
-- Basitlik**: Kullanıcı dostu Interface ve kullanım kolaylığı
-- Zengin ekosistem**: Kapsamlı açık kaynak yazılım kataloğu
-- Düzenli destek**: Canonical'dan güvenli güncellemeler
+- **Geliştirilmiş güvenlik**: Linux dağıtımları güvenlik ve sağlamlıklarıyla ünlüdür
+- **Sıfır maliyet**: Ubuntu ve çoğu Linux dağıtımı ücretsizdir
+- **Geniş topluluk**: Forumlar ve eğitimler aracılığıyla yardım etmeye hazır bir kullanıcı topluluğu
+- **Mahremiyete saygı**: Daha fazla şeffaflık için açık kaynak sistemi
+- **Basitlik**: Kullanıcı dostu Interface ve kullanım kolaylığı
+- **Zengin ekosistem**: Kapsamlı açık kaynak yazılım kataloğu
+- **Düzenli destek**: Canonical'dan güvenli güncellemeler
 
 
 ## Kurulum ve yapılandırma
@@ -110,7 +110,7 @@ USB anahtarından önyükleme yaparken, Ubuntu'yu başlatmanızı sağlayan bu e
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
 
-**Dil seçimi
+**Dil seçimi**
 
 
 Kurulum ve sistem için tercih ettiğiniz dili seçin.
@@ -119,7 +119,7 @@ Kurulum ve sistem için tercih ettiğiniz dili seçin.
 ![Sélection de la langue](assets/fr/07.webp)
 
 
-**Erişilebilirlik seçenekleri
+**Erişilebilirlik seçenekleri**
 
 
 Gerekirse erişilebilirlik seçeneklerini yapılandırın (ekran okuyucu, yüksek kontrast, vb.).
@@ -128,7 +128,7 @@ Gerekirse erişilebilirlik seçeneklerini yapılandırın (ekran okuyucu, yükse
 ![Options d'accessibilité](assets/fr/08.webp)
 
 
-**Klavye yapılandırması
+**Klavye yapılandırması**
 
 
 Klavye düzeninizi seçin. Tuşların yapılandırmanıza uygun olup olmadığını kontrol etmek için bir test alanı mevcuttur.
@@ -146,7 +146,7 @@ Kurulum sırasında güncellemeleri indirmek için Wi-Fi veya kablolu ağınıza
 ![Configuration réseau](assets/fr/10.webp)
 
 
-**Kurulum türü
+**Kurulum türü**
 
 
 "Ubuntu'yu Dene" (yüklemeden test etmek için) veya "Ubuntu'yu Yükle" arasında seçim yapın.
@@ -155,7 +155,7 @@ Kurulum sırasında güncellemeleri indirmek için Wi-Fi veya kablolu ağınıza
 ![Choix du type d'installation](assets/fr/11.webp)
 
 
-**Kurulum yöntemi
+**Kurulum yöntemi**
 
 
 Etkileşimli kurulumu seçin.
@@ -164,7 +164,7 @@ Etkileşimli kurulumu seçin.
 ![Mode d'installation](assets/fr/12.webp)
 
 
-**Uygulama seçimi
+**Uygulama seçimi**
 
 
 Varsayılan kurulum veya genişletilmiş uygulama seçimi arasında seçim yapın.
@@ -173,7 +173,7 @@ Varsayılan kurulum veya genişletilmiş uygulama seçimi arasında seçim yapı
 ![Sélection des applications](assets/fr/13.webp)
 
 
-**Üçüncü taraf uygulamaları
+**Üçüncü taraf uygulamaları**
 
 
 Ek sürücüler ve tescilli yazılımlar yükleyip yüklemeyeceğinize karar verin.
@@ -182,7 +182,7 @@ Ek sürücüler ve tescilli yazılımlar yükleyip yüklemeyeceğinize karar ver
 ![Installation applications tierces](assets/fr/14.webp)
 
 
-**Bölümleme türü
+**Bölümleme türü**
 
 
 İki ana seçeneğiniz var:
@@ -197,7 +197,7 @@ Ek sürücüler ve tescilli yazılımlar yükleyip yüklemeyeceğinize karar ver
 ![Choix du partitionnement](assets/fr/15.webp)
 
 
-**Kullanıcı hesabı oluşturma
+**Kullanıcı hesabı oluşturma**
 
 
 Ubuntu hesabınız için kullanıcı adınızı ve parolanızı belirleyin.
@@ -206,7 +206,7 @@ Ubuntu hesabınız için kullanıcı adınızı ve parolanızı belirleyin.
 ![Création du compte](assets/fr/16.webp)
 
 
-**Zaman dilimi
+**Zaman dilimi**
 
 
 Sistem saatini ayarlamak için coğrafi bölgenizi seçin.
@@ -240,7 +240,7 @@ Yeni bir kurulumdan sonra sisteminizi güncellemek önemli bir adımdır. İki s
 - Güncellemeleri yüklemek için ekrandaki talimatları izleyin
 
 
-**Seçenek 2: Terminal Üzerinden
+**Seçenek 2: Terminal Üzerinden**
 
 
 
@@ -273,7 +273,7 @@ sudo apt upgrade
 ### 5. Temel görevleri keşfetme
 
 
-**5.1 İnternette Gezinme
+**5.1 İnternette Gezinme**
 
 
 Varsayılan olarak, Firefox'u genellikle başlatma çubuğunda bulursunuz.
@@ -285,7 +285,7 @@ Firefox'u başlatın ve gezinmeye başlayın.
 Diğer tarayıcılar (Chrome, Brave, vb.) Yazılım Yöneticisi veya .deb paketleri aracılığıyla kurulabilir.
 
 
-**5.2 Kelime işlem
+**5.2 Kelime işlem**
 
 
 Ubuntu, LibreOffice paketi (kelime işlem için Writer) ile birlikte gelir.
@@ -297,7 +297,7 @@ Açmak için: Etkinlikler > "LibreOffice Writer" için arama yapın veya çubukt
 Çeşitli formatlarda (.docx dahil) belgeler oluşturabilir, düzenleyebilir ve kaydedebilirsiniz.
 
 
-**5.3 Uygulamaların yüklenmesi
+**5.3 Uygulamaların yüklenmesi**
 
 
 Yazılım yöneticisi ("Ubuntu Software" olarak adlandırılır): uygulamaları aramak ve yüklemek için grafiksel Interface.

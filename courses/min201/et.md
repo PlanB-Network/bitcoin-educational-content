@@ -249,13 +249,13 @@ Küsimus on sügav ja hõlmab mitmeid Bitcoini kaevandamise dimensioone. Tasakaa
 
 - Kaevandamine kasumi eesmärgil:
 
-* Poolt: Kaevurid on loomulikult tõmmatud potentsiaalsete tuluallikate poole, mida Bitcoini kaevandamine pakub. Investeeringud kallitesse kaevandamisseadmetesse võivad tasuda end ära kaevandamispreemiate ja tehingutasude näol, eriti kui Bitcoini hind on kõrge.
-* Vastu: Kasumi tagaajamine võib viia hash jõu tsentraliseerumiseni, kui ainult mõned suured ettevõtted saavad endale lubada investeeringuid tipptasemel kaevandamisseadmetesse. Lisaks võib kasumi eesmärgil kaevandamine avaldada olulist keskkonnamõju.
+**Poolt:** Kaevurid on loomulikult tõmmatud potentsiaalsete tuluallikate poole, mida Bitcoini kaevandamine pakub. Investeeringud kallitesse kaevandamisseadmetesse võivad tasuda end ära kaevandamispreemiate ja tehingutasude näol, eriti kui Bitcoini hind on kõrge.
+**Vastu:** Kasumi tagaajamine võib viia hash jõu tsentraliseerumiseni, kui ainult mõned suured ettevõtted saavad endale lubada investeeringuid tipptasemel kaevandamisseadmetesse. Lisaks võib kasumi eesmärgil kaevandamine avaldada olulist keskkonnamõju.
 
 - Kaevandamine võrgu jaoks:
 
-* Poolt: Kaevandamine, et panustada Bitcoini võrgu turvalisusele ja detsentraliseeritusele, on üllas algatus. See aitab tugevdada võrgu vastupidavust ja vastupanuvõimet tsensuurile ning rünnakutele.
-* Vastu: Ilma piisava rahalise stiimulita võib kaevuritel olla raske jätkata võrgu toetamist, eriti kui nad tegutsevad kahjumiga.
+**Poolt:** Kaevandamine, et panustada Bitcoini võrgu turvalisusele ja detsentraliseeritusele, on üllas algatus. See aitab tugevdada võrgu vastupidavust ja vastupanuvõimet tsensuurile ning rünnakutele.
+**Vastu:** Ilma piisava rahalise stiimulita võib kaevuritel olla raske jätkata võrgu toetamist, eriti kui nad tegutsevad kahjumiga.
   Attakai algatus rõhutab võrgustikku panustamise tähtsust, pakkudes samal ajal lahendusi, et muuta kaevandamine kättesaadavamaks ja vähem kahjulikuks. Võimalus kaevandada kodus, kasutades taskukohasemat varustust ja lahendusi müra saaste vähendamiseks, võib aidata demokratiseerida Bitcoini kaevandamist. See julgustab Bitcoini vastu huvi tundvaid inimesi mitte ainult investeerima ja bitcoine hoidma, vaid ka aktiivselt võrgustiku turvalisuses osalema. Testitud seadmete ning kokkupaneku ja paigalduse juhendite pakkumisega teeb Attakai Bitcoini kaevandamise maailma sisenemise lihtsamaks. Samuti julgustab see innovatsiooni ja pidevaid täiustusi, kutsudes kogukonda panustama ja jagama oma ideid ning kogemusi kodukaevandamise parendamiseks. Attakai mudel on vastus küsimusele, kas kaevandada kasumi või võrgustiku jaoks. See ei ole ainult kasumi teenimise küsimus, vaid ka Bitcoini võrgustiku jaotuse ja turvalisuse tugevdamine, võimaldades samal ajal rohkem inimestel kaevandamises osaleda, õppida ja mõista seda olulist tööstusharu. Potentsiaalse kaevandamiskeelu väljakutse Euroopas on endiselt avatud küsimus. See tõstatab muret Bitcoini kaevandamise tuleviku pärast piirkonnas ja vajaduse tasakaalustatud regulatsiooni järele, mis tunnistab kaevandamise tähtsust Bitcoini võrgustiku turvalisuse ja elujõulisuse jaoks, samal ajal käsitledes keskkonnaprobleeme. Attakai ja teised sarnased algatused võivad selles arutelus mängida olulist rolli, näidates, et on võimalik kaevandada jätkusuutlikumal ja vastutustundlikumal viisil, samal ajal positiivselt panustades Bitcoini võrgustikku.
 
 ## Suveräänsus ja Regulatsioon

@@ -1,0 +1,9 @@
+question: 2009년 1월 할 피니의 예상 가격은 달러로 얼마였나요?
+answer: 10,000,000
+wrong_answers:
+  - 1,000,000
+  - 100,000
+  - 10,000
+explanation: |
+  그는](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 오늘날 몇 센트의 컴퓨팅 시간으로 유닛을 생성할 수 있는 가능성은 매우 좋은 베팅이 될 수 있다고 썼습니다.
+reviewed: true

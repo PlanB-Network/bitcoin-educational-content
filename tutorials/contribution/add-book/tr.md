@@ -8,7 +8,7 @@ description: PlanB Network'e yeni bir kitap nasıl eklenir?
 PlanB'nin misyonu, Bitcoin hakkında mümkün olduğunca çok dilde üst düzey eğitim kaynakları sağlamaktır. Sitede yayınlanan tüm içerik açık kaynaklıdır ve GitHub'da barındırılarak herkesin platformun zenginleştirilmesine katkıda bulunmasına olanak tanır.
 
 
-**PlanB Network sitesine Bitcoin ile ilgili bir kitap eklemek ve çalışmanızın görünürlüğünü artırmak istiyor ama nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!
+**PlanB Network sitesine Bitcoin ile ilgili bir kitap eklemek ve çalışmanızın görünürlüğünü artırmak istiyor ama nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!**
 
 ![book](assets/01.webp)
 
@@ -70,12 +70,12 @@ tags:
 İşte her bir alan için doldurulması gereken ayrıntılar:
 
 
-- `author`**: Kitabın yazarının adını belirtin.
-- `seviye`**: Kitabı iyi okuyabilmek ve anlayabilmek için gerekli seviyeyi belirtiniz. Aşağıdakiler arasından bir seviye seçin:
+- `author`: **Kitabın yazarının adını belirtin.**
+- **`seviye`**: Kitabı iyi okuyabilmek ve anlayabilmek için gerekli seviyeyi belirtiniz. Aşağıdakiler arasından bir seviye seçin:
  - `başlangıç`
  - `intermediate`
 - `ileri` - `uzman`
-- `etiketler`**: Kitabınızla ilgili iki veya üç etiket ekleyin. Örneğin:
+- **etiketler**: Kitabınızla ilgili iki veya üç etiket ekleyin. Örneğin:
     - `Bitcoin`
     - `tarih`
     - `teknoloji`
@@ -247,11 +247,11 @@ contributors:
 İşte her bir alan için doldurulması gereken ayrıntılar:
 
 
-- `title`**: Kitabın adını tırnak içinde belirtin.
-- `publication_year`**: Kitabın yayınlandığı yılı belirtin.
-- `cover`**: Düzenlemekte olduğunuz YAML dosyasının diline uygun olarak kapak resmine karşılık gelen dosyanın adını belirtin. Örneğin, `en.yml` dosyasını düzenliyorsanız ve daha önce `cover_en.webp` başlıklı İngilizce kapak resmini eklediyseniz, bu alanda `cover_en.webp` ifadesini belirtmeniz yeterlidir.
-- `açıklama`**: Kitabı tanımlayan kısa bir paragraf ekleyin. Açıklama, YAML dosyasının başlığında belirtilenle aynı dilde olmalıdır.
-- `contributors`**: Eğer varsa katılımcı kimliğinizi ekleyin.
+- **`title`**: Kitabın adını tırnak içinde belirtin.
+- `publication_year`: Kitabın yayınlandığı yılı belirtin.
+- `cover`: Düzenlemekte olduğunuz YAML dosyasının diline uygun olarak kapak resmine karşılık gelen dosyanın adını belirtin. Örneğin, `en.yml` dosyasını düzenliyorsanız ve daha önce `cover_en.webp` başlıklı İngilizce kapak resmini eklediyseniz, bu alanda `cover_en.webp` ifadesini belirtmeniz yeterlidir.
+- **`açıklama`**: Kitabı tanımlayan kısa bir paragraf ekleyin. Açıklama, YAML dosyasının başlığında belirtilenle aynı dilde olmalıdır.
+- `contributors`**: Eğer varsa katılımcı kimliğinizi ekleyin.**
 
 
 Örneğin, YAML dosyanız aşağıdaki gibi görünebilir:

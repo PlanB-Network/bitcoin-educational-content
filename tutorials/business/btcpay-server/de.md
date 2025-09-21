@@ -1,5 +1,5 @@
 ---
-name: BTCpay Server
+name: BTCPay Server
 
 description: Anleitung zur Einrichtung und Verwaltung Ihres BTCPay-Servers
 ---

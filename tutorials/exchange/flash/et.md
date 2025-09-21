@@ -39,8 +39,8 @@ Platvormi poolt pakutavad kaks peamist teenust:
 
 
 
-- FlashX**: Exchange bitcoinid Mobile Money'ga.
-- FlashPayment**: Kasutage Bitcoin igapäevaste teenuste jaoks.
+- **FlashX**: Exchange bitcoinid Mobile Money'ga.
+- **FlashPayment**: Kasutage Bitcoin igapäevaste teenuste jaoks.
 
 
 
@@ -73,9 +73,9 @@ Flash teostab oma tehinguid kohaliku Mobiilse Raha abil. Sõltuvalt teie asukoha
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Oranž.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Oranž.
 
 
 
@@ -157,10 +157,10 @@ Lisaks bitcoinide ostmisele ja müümisele pakub Flash oma kogukonnale Bitcoin k
 
 
 
-- GSM**-üksused;
-- Internetipaketid**;
-- Kutsungipaketid**;
-- Kõne- ja internetipaketi kombinatsioon**.
+- **GSM-üksused**;
+- **Internetipaketid**;
+- **Kutsungipaketid**;
+- **Kõne- ja internetipaketi kombinatsioon**.
 
 
 
@@ -203,4 +203,3 @@ Kui see õpetus oli teile Flashiga tutvumisel kasulik, siis andke meile Green p�
 
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-

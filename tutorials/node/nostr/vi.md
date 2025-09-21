@@ -4,9 +4,10 @@ name: NOSTR
 description: Khám phá và bắt đầu sử dụng NOSTR
 ---
 
-Cuối hướng dẫn này, bạn sẽ hiểu Nostr là gì, bạn đã tạo một tài khoản và bạn sẽ có thể sử dụng nó.
 
 ![Một thách thức mới đã xuất hiện](assets/1.webp)
+
+*Vào cuối hướng dẫn này, bạn sẽ hiểu Nostr là gì, bạn sẽ tạo một tài khoản và bạn sẽ có thể sử dụng nó.*
 
 ## Nostr là gì?
 
@@ -34,9 +35,9 @@ Khóa công khai, npub, là một định danh duy nhất mà tất cả nội d
 
 Khách hàng là phần mềm cho phép tương tác với Nostr. Các khách hàng chính là:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Khách hàng cho phép người dùng tạo một cặp khóa mới (tương đương với việc tạo một tài khoản) hoặc xác thực với một cặp khóa đã có.
 
@@ -46,7 +47,7 @@ Relay là các máy chủ đơn giản mà bạn có thể bỏ qua bất cứ l
 
 > 💡 Mẹo chuyên nghiệp: Các relay trả phí thường hiệu quả hơn trong việc lọc spam và nội dung không mong muốn.
 
-# Hướng dẫn
+## Hướng dẫn
 
 Bây giờ bạn đã biết đủ về Nostr để bắt đầu và tạo danh tính đầu tiên của mình trên giao thức này.
 

@@ -28,8 +28,8 @@ Jinými slovy, díky této implementaci můžete :
 
 
 
-- Interakce s Lightning Network**: Pomocí příkazových řádků můžete vytvářet portfolia Lightning, spravovat platební kanály a trasy a mnoho dalšího přímo z terminálu počítače.
-- Propojení vzdáleného uzlu Bitcoin nebo vlastní instance jádra Bitcoin**: LND umožňuje propojit instanci Bitcoin a používat ji jako backend. Pro použití této implementace nemusíte mít na svém počítači spuštěnou instanci jádra Bitcoin.
+- **Interakce s Lightning Network**: Pomocí příkazových řádků můžete vytvářet portfolia Lightning, spravovat platební kanály a trasy a mnoho dalšího přímo z terminálu počítače.
+- **Propojení vzdáleného uzlu Bitcoin nebo vlastní instance jádra Bitcoin**: LND umožňuje propojit instanci Bitcoin a používat ji jako backend. Pro použití této implementace nemusíte mít na svém počítači spuštěnou instanci jádra Bitcoin.
 
 
 
@@ -57,10 +57,10 @@ V tomto smyslu zvyšuje provoz uzlu Lightning bezpečnost a integritu vašich da
 
 
 
-- Úplná kontrola**: Spravujte své vlastní platební kanály, staňte se svou vlastní bankou a buďte pánem svého majetku.
-- Důvěrnost**: Transakce probíhají bez spoléhání se na třetí strany, které chrání vaše soukromí.
-- Učení a samostatnost**: Díky příkazům `lncli` můžete lépe porozumět základním procesům systému Lightning, a to tak, že se sami přihlásíte z terminálu.
-- Decentralizace**: Bitcoin / Lightning Network: aktivně se podílejte na posilování a decentralizaci Bitcoin / Lightning Network.
+- **Úplná kontrola**: Spravujte své vlastní platební kanály, staňte se svou vlastní bankou a buďte pánem svého majetku.
+- **Důvěrnost**: Transakce probíhají bez spoléhání se na třetí strany, které chrání vaše soukromí.
+- **Učení a samostatnost**: Díky příkazům `lncli` můžete lépe porozumět základním procesům systému Lightning, a to tak, že se sami přihlásíte z terminálu.
+- **Decentralizace**: Bitcoin / Lightning Network: aktivně se podílejte na posilování a decentralizaci Bitcoin / Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Protože je LND napsán v jazyce Go, musíte se ujistit, že máte na počítač
 
 
 
-- Hardwarové požadavky:**
+- **Hardwarové požadavky:**
 
 
 Pro hladký a bezproblémový provoz musí mít váš počítač potřebnou kapacitu pro provoz uzlu LND Lightning.
@@ -105,7 +105,7 @@ Budete potřebovat :
 
 
 
-- Instalace užitečných závislostí:**
+- **Instalace užitečných závislostí:**
 
 
 Níže uvedený příkaz vám umožní nainstalovat do počítače nástroje potřebné ke spuštění LND. Mimo jiné budete potřebovat nainstalovat `Git`, nástroj pro správu verzí, a `make`, který dokáže spustit a sestavit implementaci LND ze zdrojového kódu.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Instalace GoLangu do počítače se systémem Linux**
+- Instalace GoLangu do počítače se systémem **Linux**
 
 
 
-K datu vydání tohoto návodu vyžaduje LND k instalaci verzi 1.23.6 aplikace Go***.
+K datu vydání tohoto návodu vyžaduje LND k instalaci verzi 1.23.6 aplikace **Go**.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Konfigurace prostředí Go**
+- **Konfigurace prostředí Go**
 
 
 V souboru `~/.bashrc` inicializujte následující proměnné prostředí, abyste do systému Linux přidali příkaz Go.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Kontrola instalace** (ve francouzštině)
+- **Kontrola instalace** (ve francouzštině)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Kontrola instalace** (ve francouzštině)
+- **Kontrola instalace** (ve francouzštině)
 
 
 
@@ -334,37 +334,37 @@ Na základě obsahu souboru `~/.LND/LND.conf` jsou zde uvedeny podrobnosti o pol
 
 
 
-- noseedbackup**: Umožňuje zvolit, zda chcete, aby společnost LND prováděla automatické zálohování vašich portfolií.  Nastavení této vlastnosti na `0` vám umožní ručně ukládat informace o obnově do osobně zvoleného zabezpečeného umístění.
+- **noseedbackup**: Umožňuje zvolit, zda chcete, aby společnost LND prováděla automatické zálohování vašich portfolií. Nastavení této vlastnosti na `0` vám umožní ručně ukládat informace o obnově do osobně zvoleného zabezpečeného umístění.
 
 
 
 
 
-- debuglevel**: Umožňuje definovat úroveň podrobnosti chyb a protokolů v případě chyb, které se vyskytnou během akce.
+- **debuglevel**: Umožňuje definovat úroveň podrobnosti chyb a protokolů v případě chyb, které se vyskytnou během akce.
 
 
 
 
 
-- Bitcoin.active**: LND je instruován, aby pracoval jako uzel Bitcoin a komunikoval se sítí Bitcoin.
+- **Bitcoin.active**: LND je instruován, aby pracoval jako uzel Bitcoin a komunikoval se sítí Bitcoin.
 
 
 
 
 
-- Bitcoin.Mainnet**: Pro sítě Bitcoin Signet a Bitcoin Regtest lze nastavit hodnoty `bitcoind.signet` a `bitcoind.regtest`
+- **Bitcoin.Mainnet**: Pro sítě Bitcoin Signet a Bitcoin Regtest lze nastavit hodnoty `bitcoind.signet` a `bitcoind.regtest`
 
 
 
 
 
-- Bitcoin.node**: Určuje typ uzlu Bitcoin, ke kterému se má LND připojit.
+- **Bitcoin.node**: Určuje typ uzlu Bitcoin, ke kterému se má LND připojit.
 
 
 
 
 
-- Bitcoin.rpcuser** a **Bitcoin.rpcpassword** : Zastupují.
+- **Bitcoin.rpcuser** a **Bitcoin.rpcpassword**: Zastupují.
 
 
 resp. přihlašovací údaje (uživatel, heslo) pro připojení k uzlu Bitcoin
@@ -373,7 +373,7 @@ resp. přihlašovací údaje (uživatel, heslo) pro připojení k uzlu Bitcoin
 
 
 
-- bitcoind.zmqpubrawblock** a **bitcoind.zmqpubrawtx**: definují koncové body ZeroMQ pro příjem oznámení o nových blocích a transakcích v síti Bitcoin.
+- **bitcoind.zmqpubrawblock** a **bitcoind.zmqpubrawtx**: definují koncové body ZeroMQ pro příjem oznámení o nových blocích a transakcích v síti Bitcoin.
 
 
 
@@ -492,9 +492,9 @@ Chcete-li se připojit k uzlu Lightning, budete potřebovat tři informace:
 
 
 
-- Veřejný klíč uzlu**: Jedná se o jedinečný identifikátor uzlu v síti Bitcoin;
-- IP** : IP adresa počítače, na kterém je uzel nainstalován;
-- PORT** :  Port otevřený na počítači, který umožňuje komunikaci s tímto uzlem.
+- **Veřejný klíč uzlu**: Jedná se o jedinečný identifikátor uzlu v síti Bitcoin;
+- **IP** : IP adresa počítače, na kterém je uzel nainstalován;
+- **PORT**: Port otevřený na počítači, který umožňuje komunikaci s tímto uzlem.
 
 
 
@@ -519,25 +519,25 @@ Ujistěte se, že se připojujete k **spolehlivým uzlům**, abyste zachovali in
 
 
 
-- Geografická diverzifikace**: Připojení k uzlům v různých regionech.
+- **Geografická diverzifikace**: Připojení k uzlům v různých regionech.
 
 
 
 
 
-- Pověst**: Vybírejte uzly s dobrou dostupností.
+- **Pověst**: Vybírejte uzly s dobrou dostupností.
 
 
 
 
 
-- Kapacita**: Vybírejte uzly s dobrou likviditou.
+- **Kapacita**: Vybírejte uzly s dobrou likviditou.
 
 
 
 
 
-- Poplatky**: Poplatky za směrování šeků.
+- **Poplatky**: Poplatky za směrování šeků.
 
 
 ### Otevření platebního kanálu
@@ -590,7 +590,7 @@ Aktivní kanál v aktuálním uzlu lze uzavřít dvěma způsoby.
 
 
 
-- Uzavření spolupráce**: To signalizuje přání uzlu odstoupit od platebního kanálu, čímž se zajistí dokončení probíhajících úkolů a zálohování dat, aby se zabránilo ztrátě finančních prostředků.
+- **Uzavření spolupráce**: To signalizuje přání uzlu odstoupit od platebního kanálu, čímž se zajistí dokončení probíhajících úkolů a zálohování dat, aby se zabránilo ztrátě finančních prostředků.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Nucené uzavření**: tato akce přeruší probíhající procesy v platebním kanálu a zvyšuje riziko ztráty finančních prostředků.
+- **Nucené uzavření**: tato akce přeruší probíhající procesy v platebním kanálu a zvyšuje riziko ztráty finančních prostředků.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- Chyba připojení bitcoind** : Zkontrolujte přihlašovací údaje k RPC
-- Synchronizace zablokována** : Zkontrolujte připojení k internetu
-- Chyba oprávnění**: Zkontrolujte práva složky `~/.LND`
+- Chyba připojení **bitcoind**: Zkontrolujte přihlašovací údaje k RPC
+- **Synchronizace zablokována**: Zkontrolujte připojení k internetu
+- **Chyba oprávnění**: Zkontrolujte práva složky `~/.LND`
 
 
 

@@ -209,7 +209,7 @@ Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemot
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorium tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht.**_
+natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorium tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht.
 
 Machen Sie eine physische Sicherung dieses Satzes.
 
@@ -485,4 +485,3 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie Passport konfigurieren und ve
 Weitere Informationen finden Sie in unserem Tutorium zur Liana-Software:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
-

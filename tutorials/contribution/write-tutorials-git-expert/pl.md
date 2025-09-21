@@ -209,23 +209,23 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- id**: UUID (_Universally Unique Identifier_), który jednoznacznie identyfikuje samouczek. Można go generate za pomocą [narzędzia online](https://www.uuidgenerator.net/version4). Jedynym wymogiem jest to, aby ten identyfikator UUID był losowy, aby uniknąć konfliktów z innym identyfikatorem UUID na platformie;
+- **id**: UUID (_Universally Unique Identifier_), który jednoznacznie identyfikuje samouczek. Można go generate za pomocą [narzędzia online](https://www.uuidgenerator.net/version4). Jedynym wymogiem jest to, aby ten identyfikator UUID był losowy, aby uniknąć konfliktów z innym identyfikatorem UUID na platformie;
 
 
 
-- project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Network utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
+- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Network utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
 
 
 
-- tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Network] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Network] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- category**: Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Network (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Network (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- level**: Poziom trudności samouczka, wybierany spośród:
+- **level**: Poziom trudności samouczka, wybierany spośród:
     - początkujący
     - `średniozaawansowany`
     - `zaawansowany`
@@ -233,20 +233,20 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Twój `professor_id` (UUID) wyświetlany w [profilu profesora](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- original_language**: Oryginalny język samouczka (np. `fr`, `en` itp.);
+- **original_language**: Oryginalny język samouczka (np. `fr`, `en` itp.);
 
 
 
-- korekta**: Informacje o procesie korekty. Ukończ pierwszą część, ponieważ korekta własnego samouczka liczy się jako pierwsza weryfikacja:
-    - language**: Kod języka korekty (np. `fr`, `en` itp.).
-    - last_contribution_date**: Data dnia.
-    - pilne**: 1
-    - contributor_names**: Twój identyfikator GitHub.
-    - nagroda**: 0
+- **korekta**: Informacje o procesie korekty. Ukończ pierwszą część, ponieważ korekta własnego samouczka liczy się jako pierwsza weryfikacja:
+- **language**: Kod języka korekty (np. `fr`, `en` itp.).
+- **last_contribution_date**: Data dnia.
+- **pilne**: 1
+- **contributor_names**: Twój identyfikator GitHub.
+- **nagroda**: 0
 
 
 Aby uzyskać więcej informacji na temat identyfikatora nauczyciela, zapoznaj się z odpowiednim samouczkiem:
@@ -361,7 +361,7 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Formatowanie obsługiwane na platformie**:
+- **Formatowanie obsługiwane na platformie**:
     - Klasyczny Markdown: listy, linki, obrazy, cytaty, pogrubienie, kursywa itp.
     - LaTeX (tylko blok, nie inline): ograniczone przez `$$`.
     - Kod wbudowany: Składnia z pojedynczym backtickiem.
@@ -374,13 +374,13 @@ print("Hello, Bitcoin!")
 
 
 
-- Ilustracje i wykresy**:
+- **Ilustracje i wykresy**:
     - Wszystkie obrazy muszą być w formacie WebP. Użyj tego bezpłatnego narzędzia, aby przekonwertować je w razie potrzeby: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Nazwij wizualizacje za pomocą 2 lub 3 cyfr (np. `001.webp`, `002.webp`).
     - W przypadku samouczków mobilnych lub Hardware Wallet użyj makiet.
     - Używaj tylko samodzielnie stworzonych lub bezpłatnych materiałów wizualnych.
     - Upewnij się, że są one istotne i wysokiej jakości.
-- Karta graficzna**:
+- **Karta graficzna**:
     - Czcionka: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Kolory Plan ₿ Network:
         - Pomarańczowy: `#FF5C00`

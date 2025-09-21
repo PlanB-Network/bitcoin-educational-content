@@ -1,5 +1,5 @@
 ---
-name: MỞ CỬA
+name: OPENDIME
 description: Thiết lập OENPNDIME của bạn
 ---
 

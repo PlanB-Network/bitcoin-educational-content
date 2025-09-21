@@ -1,0 +1,9 @@
+question: Apakah skolastisisme?
+answer: Sebuah filosofi dari Abad Pertengahan.
+wrong_answers:
+  - Sebuah filosofi zaman modern.
+  - Sebuah filosofi kuno.
+  - Sebuah filosofi ateis.
+explanation: |
+  Skolastik adalah filsafat abad pertengahan yang berusaha mendamaikan iman Kristen dengan filsafat Aristoteles. Aliran ini mendominasi universitas-universitas di Eropa sebelum munculnya filsafat modern.
+reviewed: false

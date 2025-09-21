@@ -82,7 +82,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
 
-برنامه را راه‌اندازی کنید، سپس کادر "شرایط را می‌پذیرم...*" را علامت بزنید.
+برنامه را راه‌اندازی کنید، سپس کادر "شرایط را می‌پذیرم..." را علامت بزنید.
 
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)

@@ -126,7 +126,7 @@ Teie tehing on nüüd kinnitatud.
 
 ### DCA loomine
 
-Dollar Cost Averaging* (DCA) on atraktiivne investeerimisstrateegia bitcoini kogumiseks, vähendades samal ajal selle volatiilsusega seotud riske. Ostes regulaarselt kindla summa, olenemata hinnast, saate tasandada oma soetamiskulud ja vältida impulsiivseid otsuseid. DCA aitab vähendada käitumuslikke eelarvamusi, näiteks hirmu võimalusest ilma jääda või paanikat hinnalanguse korral, ning võimaldab teil seega juhtida oma bitcoinide sääste rahulikult ja distsiplineeritult.
+**Dollar Cost Averaging** (DCA) on atraktiivne investeerimisstrateegia bitcoini kogumiseks, vähendades samal ajal selle volatiilsusega seotud riske. Ostes regulaarselt kindla summa, olenemata hinnast, saate tasandada oma soetamiskulud ja vältida impulsiivseid otsuseid. DCA aitab vähendada käitumuslikke eelarvamusi, näiteks hirmu võimalusest ilma jääda või paanikat hinnalanguse korral, ning võimaldab teil seega juhtida oma bitcoinide sääste rahulikult ja distsiplineeritult.
 
 Et seadistada Bitstackis korduvostu (DCA), minge kodulehe jaotisse "*Säästud*" ja valige "*Korduv*". Seejärel vajutage "*Jätka*".
 

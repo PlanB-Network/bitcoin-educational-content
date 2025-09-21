@@ -1,0 +1,9 @@
+question: Kraj, w którym żył i tworzył Spinoza to?
+answer: Zjednoczone Prowincje.
+wrong_answers:
+  - Francja.
+  - Wielka Brytania.
+  - Szwecja.
+explanation: |
+  Spinoza żył i napisał wszystkie swoje prace w Zjednoczonych Prowincjach (obecnie Holandia), które w tamtym czasie były przystanią dla wolnych myślicieli i mniejszości religijnych prześladowanych w innych częściach Europy.
+reviewed: false

@@ -73,7 +73,7 @@ Kwa chaguo-msingi, mint ya Minibits imewezeshwa unapoanzisha programu. Hata hivy
 
 Kuhifadhi nakala bila shaka ni hatua muhimu zaidi katika mchakato mzima wa usanidi. Ili kufikia chaguo za Hifadhi rudufu, nenda kwenye `Mipangilio`-> `Chelezo` Hapa utapata chaguo mbili muhimu:
 
-1. `Kifungu chako cha maneno cha seed` ambacho kina `maneno 12` ambayo hukuruhusu kurejesha salio la pesa zako endapo kifaa kitapotea. Kifungu hiki cha maneno cha seed ndicho ufunguo wako mkuu wa pesa zote kwenye minti zote ambazo umeongeza. Iandike kwenye nyenzo halisi (karatasi au chuma) na uihifadhi kwa usalama katika sehemu nyingi. Usiwahi kuhifadhi maneno yako ya seed kidijitali ambapo yanaweza kuathiriwa. Fikiria kutembelea [mafunzo] haya (https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) kwa mbinu bora za kulinda Wallet yako.
+1. `Kifungu chako cha maneno cha seed` ambacho kina `maneno 12` ambayo hukuruhusu kurejesha salio la pesa zako endapo kifaa kitapotea. Kifungu hiki cha maneno cha seed ndicho ufunguo wako mkuu wa pesa zote kwenye minti zote ambazo umeongeza. Iandike kwenye nyenzo halisi (karatasi au chuma) na uihifadhi kwa usalama katika sehemu nyingi. Usiwahi kuhifadhi maneno yako ya seed kidijitali ambapo yanaweza kuathiriwa. Fikiria kutembelea [mafunzo] haya (https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) kwa mbinu bora za kulinda Wallet yako.
 
 2. `Chelezo ya Wallet` ambayo ina mfuatano wa chelezo mrefu.
 

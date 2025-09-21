@@ -6,7 +6,7 @@ description: A Telegram bot to purchase Bitcoin in confidentiality
 
 _This tutorial was written by_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Introduction
+## Introduction
 
 The BitcoinVoucherBot is a tool with which Bitcoins can be purchased in exchange for euros.
 
@@ -32,7 +32,7 @@ In the Telegram chat we prepare an order, with a bank transfer we pay for it, an
 
 Activation is a simple one-time operation. From Telegram, search for _@BitcoinVoucherBot_ and as soon as you get to the Bot's chat, a large _Start/Start_ button stands out at the bottom. The operation causes the Bot to respond, which presents a menu of the main commands available to it. The first welcome messages also appear, for which we recommend careful reading.
 
-**Warning**: there are several scammers posing as original VoucherBot. If you are not sure about the search via Telegram, please access the BitcoinVoucherBot link from the [official website](https://www.bitcoinvoucherbot.com/)
+**Warning**: there are several scammers posing as the original VoucherBot. If you are not sure about the search via Telegram, access the BitcoinVoucherBot link from the [official website](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Major operations include:
 - _/fees_: a command to check network fees. To evaluate them, it is always best to rely on Mempool.space.
 - _/support_: in case of need, pops up contacts to report issues to the support team.
 
-# Bitcoin purchasing procedure
+## Bitcoin Purchase Procedure
 
-## Order preparation
+### Order Preparation
 
 Click _/purchase_ in the command menu
 
@@ -97,7 +97,7 @@ If everything is correct, continue by clicking _Proceed_.
 
 ![image](assets/it/10.webp)
 
-## Payment
+### Payment
 
 After a few moments, necessary to process the data, VoucherBot replies with a message containing all the details necessary to complete the order. Depending on what your bank requires, the relevant information is:
 
@@ -124,7 +124,7 @@ Please note:
 - for any needs, Bitcoin VoucherBot has an excellent [support](https://t.me/BitcoinVoucherGroup) service on Telegram.
 
 ---
-## Redemption
+### Redemption
 
 As soon as the payment is successful, Bitcoin VoucherBot sends the voucher directly into the chat. The lightning voucher is in the form of a QR code, printed on an orange background.
 
@@ -139,7 +139,7 @@ There is all the data needed to cash it in:
 
 You can cash in the voucher by framing the QR code with the scan function of a compatible Wallet Lightning Network, or via LNURL, also shown below the QR code.
 
-For this tutorial we used Wallet Of Satoshi, using the scan function activated by the _Send_ key
+For this tutorial we used Wallet Of Satoshi, using the scan function activated by the _Send_ button.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ With the cell phone camera activated, frame the QR code in the chat, opening Tel
 
 ![image](assets/it/34.webp)
 
-Before proceeding, Wallet Of Satoshi from a verification screen that includes the amount, which exactly matches the amount expressed on the voucher and, as a description, BitcoinVoucherBot. To cash out the voucher, simply click on _Receive_
+Before proceeding, Wallet Of Satoshi displays a verification screen that includes the amount, which exactly matches the one stated on the voucher, and as a description, BitcoinVoucherBot. To redeem the voucher, simply click on _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet Of Satoshi processes for a few moments
+Wallet Of Satoshi processes for a few moments.
 
 ![image](assets/it/36.webp)
 
 and finally the collection is reported and immediately available in the Wallet balance.
 
-**Wallet of Satoshi is a custodial app: immediately after cashing in the voucher, it is advisable to move Sats to a Wallet non-custodial.**
+**Wallet of Satoshi is a custodial app: immediately after redeeming the voucher it is advisable to move the sats to a non-custodial wallet.**
 
 ![image](assets/it/37.webp)
 

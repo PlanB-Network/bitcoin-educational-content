@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Återhämtning
+name: Samourai Wallet - Recover
 description: Hur återställer jag bitcoins som fastnat på Samourai Wallet?
 ---
 
@@ -29,7 +29,7 @@ Eftersom Samourai Wallet-sidan inte längre är tillgänglig i Google Play Store
 
 Om Samourai Wallet redan är installerat på din smartphone bör du fortfarande kunna komma åt appen. För att använda Wallet-funktionaliteten i Samourai är det viktigt att ansluta en Dojo. Tidigare var användare utan en personlig Dojo beroende av Samourais servrar för att få tillgång till Bitcoin Blockchain information och för att sända transaktioner. I och med att dessa servrar har beslagtagits kan appen inte längre komma åt dessa data.
 
-Om du inte hade en ansluten Dojo tidigare men har en nu kan du ställa in den så att den använder din Samourai-app igen. Detta innebär att du kontrollerar dina säkerhetskopior, raderar Wallet (Wallet, inte applikationen) och återställer Wallet genom att ansluta din Dojo till applikationen. För mer information om dessa steg kan du läsa [denna handledning, i avsnittet "_Preparing your Samourai Wallet_" : CoinJoin - DOJO](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2).
+Om du inte hade en ansluten Dojo tidigare men har en nu kan du ställa in den så att den använder din Samourai-app igen. Detta innebär att du kontrollerar dina säkerhetskopior, raderar Wallet (Wallet, inte applikationen) och återställer Wallet genom att ansluta din Dojo till applikationen. För mer information om dessa steg kan du läsa denna handledning, i avsnittet "_Preparing your Samourai Wallet_" : CoinJoin - DOJO.
 
 Om din Samourai-app redan var ansluten till din egen Dojo, fungerar Wallet-delen perfekt för dig. Du kan fortfarande se ditt saldo och sända transaktioner. Trots allt som händer tycker jag att Samourai Wallet fortfarande är den bästa mobila Wallet-programvaran för tillfället. Personligen planerar jag att fortsätta använda den.
 
@@ -461,7 +461,7 @@ Det är därför viktigt att överväga det värsta tänkbara scenariot och gör
 Under denna överföring rekommenderar jag att du undviker konsolidering av dina mynt. Om vi antar att dina xpubar är komprometterade kommer konsolideringen inte att ha någon inverkan ur synvinkeln för den person som har tillgång till dessa xpubar, eftersom din integritet redan är komprometterad med dem. Jag råder dig dock att inte konsolidera dina mynt för mycket, främst för att skydda din integritet från andra människor. I värsta fall kan det vara så att endast myndigheterna har tillgång till dina xpubar, men resten av världen känner inte till dem. Ur andras synvinkel kan konsolidering av dina mynt således skada din integritet avsevärt på grund av Common Input Ownership Heuristic (CIOH).
 
 
-**För att definitivt bryta spårningen kan du också överväga att utföra coinjoins från denna nya Wallet.
+**För att definitivt bryta spårningen kan du också överväga att utföra coinjoins från denna nya Wallet.**
 
 ** Varning:** Att bara hämta din Samourai Wallet på Sparrow wallet räcker inte. Det är nödvändigt att skapa en helt ny Wallet med en ny återställningsfras om du vill undvika att använda xpubar som kan ha läckt. Om du importerar din befintliga seed till Sparrow ändrar du bara Wallet:s hanteringsprogramvara, men Wallet förblir densamma.
 
@@ -512,7 +512,7 @@ Slutligen är det viktigt att beakta den ursprungliga anonset för ditt mynt, f�
 
 Eftersom WST-verktyget nu är ur drift efter nedläggningen av OXT.me kan du bara uppskatta dessa anonsets. För den retrospektiva anonset finns det inte så mycket att oroa sig för eftersom Whirlpool-modellen säkerställer att den är mycket hög från den första CoinJoin, tack vare arvet från dina kamrater. Det enda fallet där detta kan utgöra ett problem är om ditt mynt inte har blivit remixat på flera år och det mixades i början av en pools lansering. När det gäller den potentiella anonset kan du undersöka hur länge ditt mynt har varit tillgängligt för coinjoins. Om det har gått flera månader så har det förmodligen en extremt hög prospektiv anonset. Omvänt, om det lades till i en pool bara några timmar innan servrarna beslagtogs, så är dess prospektiva anonset förmodligen mycket lågt.
 
-[**-> Lär dig mer om anonsets och deras beräkningsmetod.**](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+**-> Lär dig mer om anonsets och deras beräkningsmetod.**
 
 
 En annan aspekt att beakta är konsolideringens inverkan på anonsets av mynt som har blandats. Med tanke på att Whirlpool-konton inte längre är tillgängliga via Samourai-appen är det troligt att många användare har överfört sina Wallet till annan programvara och försökt ta ut sina medel från Whirlpool. I synnerhet förra helgen, när transaktionsavgifterna i Bitcoin-nätverket var relativt höga, fanns det ett starkt tekniskt och ekonomiskt incitament att konsolidera post-mix-mynt. Detta innebär att det är troligt att många användare har gjort betydande konsolideringar.

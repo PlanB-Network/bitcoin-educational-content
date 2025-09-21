@@ -1,0 +1,9 @@
+question: HD Wallet과 연결된 passphrase을 분실하면 어떻게 되나요?
+answer: 해당 Wallet에 연결된 비트코인에 대한 액세스 권한을 잃게 됩니다
+wrong_answers:
+  - Mnemonic 문구만으로 Wallet에 액세스할 수 있습니다
+  - Bitcoin 지원팀에 문의하여 passphrase를 재설정할 수 있습니다
+  - 미확인 거래만 손실됩니다
+explanation: |
+  passphrase은 키 생성에 필수적인 요소입니다. 이것이 없으면 키를 다시 생성할 수 없으므로 비트코인에 액세스할 수 없습니다.
+reviewed: false

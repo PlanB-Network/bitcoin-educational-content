@@ -90,9 +90,9 @@ Para que o Manjaro funcione da melhor forma, o seu computador deve cumprir algun
 
 
 
-- Um processador de 64 bits (x86_64)**
-- 4 GB de RAM recomendados (mínimo de 2 GB)** (ver abaixo)
-- 30 GB de espaço em disco (mais se criar uma partição `/home` dedicada)**
+- Um processador de 64 bits (x86_64)
+- **4 GB de RAM recomendados (mínimo de 2 GB)** (ver abaixo)
+- 30 GB de espaço em disco (mais se criar uma partição `/home` dedicada)
 
 
 
@@ -219,8 +219,8 @@ O Manjaro permite-lhe escolher entre o **FreeOffice** e o **LibreOffice**.
 
 
 
-- O LibreOffice** é mais completo, com uma gama mais vasta de software e funcionalidades avançadas.
-- O FreeOffice**, por outro lado, é mais leve e inclui apenas o essencial: **TextMaker**, PlanMaker** e Presentations**.
+- O **LibreOffice** é mais completo, com uma gama mais vasta de software e funcionalidades avançadas.
+- O **FreeOffice**, por outro lado, é mais leve e inclui apenas o essencial: **TextMaker**, **PlanMaker** e **Presentations**.
 
 
 
@@ -366,7 +366,7 @@ sudo ufw status verbose
 
 
 
-1. **Criar um utilizador não privilegiado
+1. **Criar um utilizador não privilegiado**
 
 
 
@@ -377,7 +377,7 @@ sudo passwd username
 
 
 
-2. **Configuração do ficheiro sudoers
+2. **Configuração do ficheiro sudoers**
 
 
 

@@ -52,7 +52,7 @@ Tamamen **ücretsiz ve açık kaynak** olan PicoCrypt **Windows,** **Linux** ve 
 
 
 
-Picocrypt** şifreleme yazılımı kendisini **VeraCrypt** ve **Cryptomator** (*Bulut ortamlarındaki* verileri şifrelemek için tasarlanmıştır) veya **AxCrypt** gibi diğer iyi bilinen çözümlere **bir alternatif** olarak sunar. Bu arada, Picocrypt'in resmi GitHub'ında bazı rakiplerle bir karşılaştırma bulabilirsiniz:
+**Picocrypt** şifreleme yazılımı kendisini **VeraCrypt** ve **Cryptomator** (*Bulut ortamlarındaki* verileri şifrelemek için tasarlanmıştır) veya **AxCrypt** gibi diğer iyi bilinen çözümlere **bir alternatif** olarak sunar. Bu arada, Picocrypt'in resmi GitHub'ında bazı rakiplerle bir karşılaştırma bulabilirsiniz:
 
 
 
@@ -84,7 +84,7 @@ Picocrypt **çok hafiftir**, sadece **3 MB** ağırlığındadır ve yüklenmesi
 
 
 
-- XChaCha20** şifreleme algoritması
+- **XChaCha20** şifreleme algoritması
 - Anahtar bypass fonksiyonu **Argon2**
 
 
@@ -159,11 +159,11 @@ Veri şifre çözme hakkında konuşmadan önce, işte mevcut seçeneklerden baz
 
 
 
-- Paranoid mod**: Picocrypt tarafından sunulan en yüksek güvenlik seviyesini kullanın. Araç, veri kimlik doğrulaması için BLAKE2b yerine birkaç basamaklı şifreleme algoritması (XChaCha20 ve Serpent) ve HMAC-SHA3 kullanacaktır.
-- Reed-Solomon**: Bozuk verilerde hata düzeltmeyi kolaylaştırmak için *Reed-Solomon* hata düzeltme kodlarını uygular. Bu, dosyanızın yaklaşık %3'lük bir bozulma seviyesini desteklemenizi sağlar.
-- Parçalara böl** veya **birkaç parçaya böl**: Eğer büyük bir dosyayı şifreliyorsanız, Picocrypt'ten dosyayı birkaç parçaya bölmesini isteyebilirsiniz. Bu, dosyanın aktarılmasını kolaylaştırabilir.
-- Dosyaları Sıkıştır** veya **Dosyaları sıkıştır**: şifrelenmiş dosyaların boyutunu azaltmak için dosyaları sıkıştırın.
-- Silinen dosyalar** veya **Fichiers supprimés**: yalnızca şifrelenmiş sürümü saklamak için kaynak dosyaları silin
+- **Paranoid mod**: Picocrypt tarafından sunulan en yüksek güvenlik seviyesini kullanın. Araç, veri kimlik doğrulaması için BLAKE2b yerine birkaç basamaklı şifreleme algoritması (XChaCha20 ve Serpent) ve HMAC-SHA3 kullanacaktır.
+- **Reed-Solomon**: Bozuk verilerde hata düzeltmeyi kolaylaştırmak için *Reed-Solomon* hata düzeltme kodlarını uygular. Bu, dosyanızın yaklaşık %3'lük bir bozulma seviyesini desteklemenizi sağlar.
+- **Parçalara böl** veya **birkaç parçaya böl**: Eğer büyük bir dosyayı şifreliyorsanız, Picocrypt'ten dosyayı birkaç parçaya bölmesini isteyebilirsiniz. Bu, dosyanın aktarılmasını kolaylaştırabilir.
+- **Dosyaları Sıkıştır** veya **Dosyaları sıkıştır**: şifrelenmiş dosyaların boyutunu azaltmak için dosyaları sıkıştırın.
+- **Silinen dosyalar** veya **Fichiers supprimés**: yalnızca şifrelenmiş sürümü saklamak için kaynak dosyaları silin
 
 
 

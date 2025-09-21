@@ -1,0 +1,9 @@
+question: Kes ütles: "Kurjus ei ole midagi"?
+answer: Sokrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  kurjus ei ole midagi" on Sokratesele omistatud ja filosoofilises traditsioonis üle võetud mõte. Sokratese jaoks tuleneb kurjus teadmatusest; keegi ei tee vabatahtlikult kurja, kui ta tõesti teab, mis on hea.
+reviewed: false

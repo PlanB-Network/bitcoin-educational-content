@@ -1,5 +1,5 @@
 ---
-name: Respaldo Trezor Shamir
+name: Trezor Shamir Backup
 description: Frases Mnemonic monopartitas y multipartitas en Trezor
 ---
 ![cover](assets/cover.webp)
@@ -145,7 +145,7 @@ En el Trezor, seleccione el número total de acciones que desea configurar. Las 
 
 
 
-*Para los usuarios de Safe 5, aunque la pantalla diga "*Toque para continuar*", en realidad tendrá que deslizar el dedo hacia arriba para confirmar
+*Para los usuarios de Safe 5, aunque la pantalla diga "Toque para continuar", en realidad tendrá que deslizar el dedo hacia arriba para confirmar*
 
 
 
@@ -173,7 +173,7 @@ En la parte superior de la pantalla puede ver qué acción está viendo en ese m
 
 
 
-por supuesto, nunca debes compartir estas palabras en Internet, como estoy haciendo en este tutorial. Este ejemplo Wallet sólo se utilizará en el Testnet y se eliminará al final del tutorial.**_
+por supuesto, nunca debes compartir estas palabras en Internet, como estoy haciendo en este tutorial. Este ejemplo Wallet sólo se utilizará en el Testnet y se eliminará al final del tutorial.
 
 
 

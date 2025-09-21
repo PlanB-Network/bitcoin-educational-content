@@ -26,9 +26,9 @@ description: 在不同的 Bitcoin 層間切換，同時保持控制。
 
 
 - on chain**：Bitcoin 的主鏈，交易平均每 10 分鐘確認一次，交易費用通常很高，不一定能滿足使用者的需求；
-- Lightning Network**：覆蓋 Bitcoin 即時付款，費用低廉，可讓 Bitcoin 用於日常付款；
-- Liquid Network**：由 Blockstream 創建的 Bitcoin 的覆蓋層，可實現快速、Confidential Transactions 以及使用其他基於 Bitcoin 的金融工具；
-- RootStock**：以 Bitcoin 通訊協定為基礎開發智慧型契約的解決方案。
+- **Lightning Network**：覆蓋 Bitcoin 即時付款，費用低廉，可讓 Bitcoin 用於日常付款；
+- **Liquid Network**：由 Blockstream 創建的 Bitcoin 的覆蓋層，可實現快速、Confidential Transactions 以及使用其他基於 Bitcoin 的金融工具；
+- **RootStock**：以 Bitcoin 通訊協定為基礎開發智慧型契約的解決方案。
 
 
 

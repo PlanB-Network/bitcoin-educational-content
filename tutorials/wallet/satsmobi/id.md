@@ -166,40 +166,37 @@ Pemilik grup bisa ngundang bot ini ke obrolan dan nunjuk SatsMobi sebagai admin.
 - _/tipjar_ (di menu _/advanced_) membuat jenis distribusi lain yang dapat dikirim ke pengguna dalam grup.
 
 
-Masing-masing perintah ini memiliki sintaks, yang dijelaskan dalam menu perintah utama.
+Setiap perintah punya sintaks tersendiri, yang bisa kamu lihat di menu perintah utama.
 
-
-Dan jika kita bukan pemilik grup? Tidak masalah: cukup minta pendiri grup untuk mengundang Sats.Mobi, tambahkan sebagai admin grup, dan Anda sudah siap!
+Kalau kamu bukan pemilik grup, nggak masalah. Cukup minta pendiri grup untuk mengundang Sats.Mobi, jadikan admin grup, dan kamu sudah siap!
 
 
 ## Tempat Penjualan (POS)
 
 
-Ketika Sats.Mobi diluncurkan untuk pertama kalinya, bot juga menciptakan fitur lain untuk pengguna: **POS**. "Perangkat" ini diaktifkan oleh pengguna dengan perintah _/pos_ atau dengan mengklik tombol terkait dari konsol di kanan bawah. Faktanya, POS adalah aplikasi web, yang terbuka sebagai pop-up di obrolan Telegram
+Waktu Sats.Mobi pertama kali diluncurkan, bot juga ngenalin fitur lain buat pengguna: **POS**. “Perangkat” ini bisa diaktifkan lewat perintah _/pos_ atau dengan klik tombol yang ada di konsol kanan bawah. Sebenarnya, POS ini adalah aplikasi web yang muncul sebagai pop-up di obrolan Telegram.
 
 
 ![image](assets/it/14.webp)
 
 
-Interface menampilkan pegangan Telegram pribadi pengguna di kiri atas dan digunakan dengan cara yang sama seperti semua POS: dengan mengetikkan jumlah pada keypad. Anggaplah sekarang kita ingin mengumpulkan 21 sen euro untuk sebuah layanan. Mengetahui bahwa Sats.Mobi hanya mengelola Sats secara native, tidak mudah untuk melakukan konversi di kepala Anda. Sebaliknya, POS menampilkan euro sebagai unit akun, yang sekaligus menunjukkan padanannya dalam Satoshi.
-
+Interface bakal nampilin handle Telegram pribadi kamu di kiri atas, dan dipakai dengan cara yang sama kayak semua POS: cukup ketik jumlah di keypad. Misalnya kita mau ngumpulin 21 sen euro buat sebuah layanan. Karena Sats.Mobi cuma ngelola Sats dari bawaannya, nggak gampang kalau harus ngitung konversinya di kepala. Nah, POS langsung nampilin euro sebagai unit akun, sambil nunjukin padanannya dalam Satoshi.
 
 ![image](assets/it/15.webp)
 
-Mengklik _/OK_ akan menampilkan Invoice yang dapat ditunjukkan kepada pelanggan melalui kode QR, atau yang dapat dikirim sebagai string melalui pesan instan, sehingga dapat dibayar.
+Mengklik _/OK_ akan menampilkan Invoice yang bisa ditunjukkan kepada pelanggan melalui kode QR, atau yang dapat dikirim sebagai string melalui pesan instan, sehingga dapat dibayar.
 
 ![image](assets/it/16.webp)
 
 ![image](assets/it/17.webp)
 
 
-Tentu saja, POS juga tersedia di ponsel, diakses dengan cara yang sama seperti yang ditunjukkan sebelumnya.
-
+Tentu, POS juga bisa dipakai di ponsel, dan cara aksesnya sama persis kayak yang udah dijelasin sebelumnya.
 
 ![image](assets/it/18.webp)
 
 
-Ini juga ditampilkan dengan baik pada layar ponsel:
+Ini juga ditampilkan dengan bagus pada layar ponsel:
 
 
 ![image](assets/it/19.webp)
@@ -208,23 +205,21 @@ Ini juga ditampilkan dengan baik pada layar ponsel:
 ## Fitur Tambahan
 
 
-Ada fitur lain yang melengkapi penawaran Sats.Mobi Wallet, yang, seperti yang telah kita lihat, memperluas konsep Wallet di luar operasi penerimaan dan pengiriman pembayaran:
+Ada juga fitur lain yang melengkapi Sats.Mobi Wallet, yang—seperti udah kita lihat—ngembangin konsep Wallet lebih jauh dari sekadar nerima dan ngirim pembayaran:
 
 
-- _/nostr_: untuk menghubungkan Wallet ke pengguna Nostr Anda sendiri untuk menerima zaps;
+- _/nostr_: untuk menghubungkan Wallet ke pengguna Nostr milikmu sendiri untuk menerima zaps;
 - _/cashback_: menunjukkan kode yang dapat ditunjukkan kepada pedagang untuk mendapatkan cashback atas pembelian;
 - _/buy_: memulai prosedur yang dipandu di dalam bot, yang memungkinkan pembelian Sats dengan harga euro;
 - _/activatecard_: untuk meminta aktivasi kartu debit NFC, yang dapat diisi ulang melalui Sats.Mobi Wallet dan yang dapat diaktifkan notifikasinya;
-- _/link_: membuat tautan untuk Zeus atau Blue Wallet Anda sendiri, yang dapat digunakan sebagai remote control untuk Wallet ini.
+- _/link_: membuat tautan untuk Zeus atau Blue Wallet milikmu sendiri, yang dapat digunakan sebagai remote control untuk Wallet ini.
 
 
 ## Kesimpulan
 
-Sats.Mobi merupakan Wallet yang menyenangkan dan menyenangkan untuk digunakan, yang membawa kembali pengalaman menggunakan LNTipBot dengan menggunakan fungsi yang lebih canggih dari LNBits. Namun, penting untuk diingat bahwa **ini adalah layanan kustodian**. Oleh karena itu, layanan ini sebaiknya digunakan untuk menyimpan sedikit Sats, bukan sebagai Wallet utama untuk dana Lightning Network Anda. Ada juga batas kapasitas intrinsik, yaitu 500.000 Sats, batas yang disarankan untuk tidak dilampaui.
+Sats.Mobi adalah Wallet yang seru dan enak dipakai, yang ngehadirin lagi pengalaman LNTipBot tapi dengan fungsi lebih canggih dari LNBits. Tapi penting diinget, **ini layanan kustodian**. Jadi, sebaiknya dipakai cuma buat nyimpen sedikit Sats, bukan jadi Wallet utama buat dana Lightning Network kamu. Ada juga batas kapasitas bawaan, yaitu 500.000 Sats, dan batas ini disarankan supaya nggak dilampaui.
 
-
-Jika Anda mencari dompet Lightning Network non-kustodian, sangat disarankan untuk melihat produk lain.
-
+Kalau kamu lagi nyari dompet Lightning Network non-kustodian, sangat disarankan buat cek produk lain.
 
 ---
 ### Dokumentasi

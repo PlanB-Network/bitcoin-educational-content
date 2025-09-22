@@ -1,6 +1,6 @@
 question: Gizli tarama ile TOR ağını kullanmak arasındaki temel fark nedir?
 answer: Tor, kullanıcının IP Address'ını maskelerken, Özel tarama bunu yapmaz.
-wrong_answers:
+wrong_answers: 
   - Gizli tarama ve TOR aynı şeydir.
   - Gizli tarama kullanıcının IP Address'ini maskelerken TOR bunu yapmaz.
   - TOR bilgisayarınızda yerel izler bırakırken, gizli tarama bırakmaz.

@@ -150,9 +150,9 @@ Un message est automatiquement envoyé au numéro préenregistré et cet utilisa
 
 Vous pouvez retrouver la [vidéo démo d'envoi](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) de bitcoins par PIO TARAS (Lead Machankura Afrique Francophone) via Machankura sur un téléphone basique.
 
-Vidéo de Vladimir FOMENE, développeur bitcoin.
+*Vidéo de Vladimir FOMENE, développeur bitcoin :*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rrovhcpg7ao?si=Tk-d6rGaNlSW4LEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![video](https://youtu.be/rrovhcpg7ao)
 
 ### Vérifier votre solde 
 
@@ -173,8 +173,6 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 Vous avez également la fonction « **Clan** » qui permet de gérer un système coopératif de multisignatures : les membres du clan doivent approuver chaque dépense, et vous pouvez répartir automatiquement les fonds entre ces derniers.
 
-
-
 ## Utilisation avec un smartphone
  
 En ce qui concerne son utilisation sur smartphone, Machankura a choisi WhatsApp comme plateforme intermédiaire.
@@ -185,7 +183,8 @@ La seconde, qui n'est qu'une suite logique de la première, est celle d'être un
 
 ### Créer son portefeuille
 
-Pour commencer, vous devez écrire un message au bot WhatsApp de Machankura (un simple ”Salut” suffit largement). Son numéro WhatsApp c'est le [+27 73 762 5720](https://wa.me/+27737625720). 
+Pour commencer, vous devez écrire un message au bot WhatsApp de Machankura (un simple ”Salut” suffit largement). Son numéro WhatsApp c'est le [+27 73 762 5720](https://wa.me/+27737625720).
+
 Il vous demandera de choisir la langue dans laquelle vous voudriez discuter.
 
 ![wallet|220](assets/fr/03.webp)
@@ -219,19 +218,23 @@ Machankura vous permet d'envoyer vos bitcoins via différentes options :
 
 https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
-Machankura permet une interopérabilité entre les différents portefeuilles Lightning. Dans cette démonstration, nous envoyons des bitcoins depuis notre portefeuille Machankura WhatsApp vers un portefeuille Wallet of Satoshi. 
+Machankura permet une interopérabilité entre les différents portefeuilles Lightning. Dans cette démonstration, nous envoyons des bitcoins depuis notre portefeuille Machankura WhatsApp vers un portefeuille Wallet of Satoshi.
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-Pour envoyer, veuillez saisir le chiffre 1, correspondant à l'option "ENVOYER BTC". Par la suite, choisissez l'option d'envoi "Adresse Lightning", puis indiquer l'adresse du destinataire des bitcoins. Enfin, sélectionnez la mesure de valeur "sats", indiquez le nombre de satoshis à envoyer et confirmez l'envoi. 
+Pour envoyer, veuillez saisir le chiffre 1, correspondant à l'option "ENVOYER BTC". Par la suite, choisissez l'option d'envoi "Adresse Lightning", puis indiquer l'adresse du destinataire des bitcoins. Enfin, sélectionnez la mesure de valeur "sats", indiquez le nombre de satoshis à envoyer et confirmez l'envoi.
 
-![wallet|220](assets/fr/07.webp)![wallet|220](assets/fr/08.webp)![wallet|220](assets/fr/09.webp)
+![wallet|220](assets/fr/07.webp)
+
+![wallet|220](assets/fr/08.webp)
+
+![wallet|220](assets/fr/09.webp)
 
 Félicitations !! Vous venez d'envoyer des satoshis à votre destinataire.
 
 ### Recevoir des bitcoins
 
-Une fois dans le menu, Sélectionnez **2**, qui correspond à l'option ''**Recevoir BTC**''. Le bot vous affichera votre adresse Lightning. 
+Une fois dans le menu, Sélectionnez **2**, qui correspond à l'option ''**Recevoir BTC**''. Le bot vous affichera votre adresse Lightning.
 
 Il vous proposera aussi diverses options, notamment : 
 - UTILISER BTC ;
@@ -249,7 +252,9 @@ L’option 4 ''UNE ADRESSE ONCHAIN'' vous permet d'obtenir une nouvelle adresse 
 
 Tandis que les autres options vous redirigent vers une page web reliée à votre adresse Lightning.  
 
-![wallet|220](assets/fr/12.webp)    ![wallet|220](assets/fr/13.webp)
+![wallet|220](assets/fr/12.webp)    
+
+![wallet|220](assets/fr/13.webp)
 
 Vous avez la possibilité de vous procurer : 
 - soit le code QR de votre portefeuille ; 
@@ -261,15 +266,23 @@ Vous avez la possibilité de vous procurer :
 Pour obtenir une facture précise, veuillez indiquer l'unité de compte et le montant de bitcoins dans cette unité de compte que vous souhaitez recevoir. 
 Après avoir indiqué le montant dans cette unité de compte, le système s'occupe de convertir l'équivalent en Bitcoin, et vice versa. 
 
-![wallet|220](assets/fr/15.webp) ![wallet|220](assets/fr/16.webp) ![wallet|220](assets/fr/17.webp)
+![wallet|220](assets/fr/15.webp) 
+
+![wallet|220](assets/fr/16.webp)
+
+![wallet|220](assets/fr/17.webp)
 
 Notez que, vous pouvez aussi obtenir votre adresse onchain sur la page web reliée à votre portefeuille.  
 
-![wallet|220](assets/fr/18.webp) ![wallet|220](assets/fr/19.webp)
+![wallet|220](assets/fr/18.webp)
+
+![wallet|220](assets/fr/19.webp)
 
 De plus, Machankura offre la possibilité à toute personne souhaitant vous envoyer des bitcoins de le faire depuis votre site web en utilisant son portefeuille dédié. Il vous suffit de lui envoyer le lien de la page web associée à votre adresse Lightning. Après avoir accédé à cette page web, il aura la possibilité d'ouvrir votre code QR ou votre facture directement dans son portefeuille.
 
-![wallet|220](assets/fr/20.webp)   ![wallet|220](assets/fr/21.webp)
+![wallet|220](assets/fr/20.webp)
+
+![wallet|220](assets/fr/21.webp)
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
@@ -282,4 +295,5 @@ Vous pouvez consulter votre solde sur le portefeuille Machankura en sélectionna
 ![wallet|220](assets/fr/22.webp)
 
 Félicitations !! Vous êtes à présent en mesure d'utiliser par vous-même Machankura  pour recevoir et dépenser des bitcoins.
+
 Si ce tutoriel vous a été utile, je vous prie de me laisser un pouce vert ci-dessous. Merci beaucoup !

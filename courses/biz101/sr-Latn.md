@@ -142,7 +142,7 @@ Sistemi plaćanja su metode i infrastrukture koje omogućavaju transfer sredstav
     - Fokus je često na sledljivosti, dokumentaciji i sposobnosti da se obrade transakcije većih vrednosti.
     - Korišćenje kartica postoji, ali je manje uobičajeno zbog viših naknada i ograničenja transakcija. Digitalna rešenja poput integrisanih platformi za plaćanje se pojavljuju kako bi pojednostavila i automatizovala procese potraživanja/obaveza.
 
-![BIZ101](assets/en/01.webp)
+![BIZ101](assets/sr-Latn/001.webp)
 
 *Grafik: Globalni trendovi u metodama plaćanja na prodajnim mestima (POS) (2023-2027), Izveštaj o globalnim plaćanjima 2024, Worldpay.*
 
@@ -150,7 +150,7 @@ Sistemi plaćanja su metode i infrastrukture koje omogućavaju transfer sredstav
 
 Kada kupac koristi kreditnu karticu u prodavnici, kartica se očitava putem POS terminala, koji bezbedno prenosi podatke o transakciji banci trgovca koja prihvata sredstva. Banka koja prihvata sredstva prosleđuje ove informacije relevantnoj kartičnoj mreži (npr. Visa ili Mastercard), koja zatim usmerava zahtev izdavaocu—banci koja je izdala karticu kupcu. Izdavalac proverava račun ili kreditnu liniju kupca i šalje nazad autorizaciju putem mreže i banke koja prihvata sredstva, omogućavajući trgovcu da prihvati plaćanje.
 
-![BIZ101](assets/en/02.webp)
+![BIZ101](assets/sr-Latn/002.webp)
 
 Ova naizgled jednostavna transakcija zapravo uključuje preko 15 koraka, 7 posrednika i u proseku traje između 48 sati i 5 dana da trgovac primi sredstva. Tokom narednih dana, odvija se proces kliringa i poravnanja. Kartična mreža agregira dnevne transakcije i koordinira razmenu sredstava između banke koja prihvata sredstva i izdavaoca. Centralna banka osigurava tačnost i stabilnost ovih međubankarskih poravnanja. Na kraju, bankovni račun trgovca prima neto iznos (umanjen za naknade) koji je kreditiran od strane banke primaoca sredstava, čime se završava životni ciklus transakcije.
 
@@ -199,13 +199,13 @@ Bitkoin je **peer-to-peer sistem plaćanja baziran na digitalnoj valuti** (elekt
 
 Zajedno čine Bitkoin **imovinom na donosioca** i digitalnom valutom **bez izdavaoca**. Vlasništvo je osigurano isključivo držanjem **privatnog kriptografskog ključa**, što omogućava potpunu kontrolu **bez posrednika ili pouzdanih trećih strana**. Kada se prenese, vlasništvo je **konačno**: novi vlasnik ga u potpunosti poseduje bez oslanjanja na centralni autoritet za zaštitu ili konvertibilnost. Transakcije su **nepromenljive**—jednom zabeležene na Blockchain-u, ne mogu se izmeniti ili obrisati.
 
-![BIZ101](assets/en/11.webp)
+![BIZ101](assets/sr-Latn/003.webp)
 
 Bitkoin ima fiksnu monetarnu politiku, sa **ograničenjem od 21 milion bitkoina**, od kojih je ~19,8 miliona već distribuirano. Ovo ga čini **deflatornim**, sa vrednošću koja raste tokom vremena kako korisnici u njemu čuvaju ušteđevinu i dobitke u produktivnosti.
 
 Njegove tehničke karakteristike nadmašuju one od zlata i dolara zajedno, čineći ga najtvrđim finansijskim sredstvom ikada stvorenim. Bitkoin je i čuvar vrednosti i sredstvo razmene, valuta u nastajanju. Zamislite prenos vrednosti iz trezora jedne kompanije u drugu brzo, bez posrednika, uz minimalne troškove, bez prevare, 24/7, i bez uključivanja treće strane.
 
-![BIZ101](assets/en/03.webp)
+![BIZ101](assets/sr-Latn/004.webp)
 
 Bitkoin efikasno čuva vrednost jer je njegova knjiga nepromenljiva. Njegova vrednost raste zbog retke i ograničene ponude u kombinaciji sa sve većim brojem mogućnosti razmene, podstaknutih rastućim brojem korisnika.
 
@@ -255,7 +255,7 @@ Lightning Mreža je **protokol i mreža** koja omogućava Bitkoin transakcije uz
 - **On-Chain poravnanja:** Samo **konačno stanje** transakcija kanala se objavljuje na glavnom Bitkoin Blockchain-u (**"On-Chain**"), omogućavajući da se u međuvremenu dogodi mnoštvo transakcija. Ovo grupisanje više uplata smanjuje zagušenje i time snižava naknade u poređenju sa obavljanjem mnogih On-Chain transakcija.
 - **Zatvaranje kanala:** Korisnik može zatvoriti svoj kanal u bilo kom trenutku i povratiti svoj bitkoin objavljivanjem najnovijeg stanja transakcije. Ovo je princip da transakcije mogu biti **"objavljene" u bilo kom trenutku, ali "neobjavljene"** dok ne postanu neophodne. Izlaz (zatvaranje kanala) može biti jednostran (odlučen od strane bilo koje od 2 strane u bilo kom trenutku) ili uzajamno dogovoren (što rezultira nižim On-Chain naknadama).
 
-![BIZ101](assets/en/04.webp)
+![BIZ101](assets/sr-Latn/005.webp)
 
 Ovaj pristup izbegava sporost i složenost obavljanja svake transakcije direktno na glavnom Blockchain-u Bitkoina, beležeći samo konačna stanja i zadržavajući njegovu sigurnost. Lightning Mreža je sloj "iznad" Bitkoina, ali ostaje usidren za njega.
 
@@ -265,7 +265,7 @@ Protokol stvara **mrežu** mašina gde kanali formiraju univerzalni sistem plać
 
 Lightning Mreža omogućava trenutnu razmenu vrednosti brzinom svetlosti. To je kao protokol e-pošte primenjen na plaćanja: mreža plaćanja sledeće generacije. Radikalno transformiše način na koji se "novac" kreće, čineći ga slobodnim i brzim kao prenos podataka na internetu.
 
-![BIZ101](assets/en/12.webp)
+![BIZ101](assets/sr-Latn/006.webp)
 
 **Ključne prednosti:**
 
@@ -373,7 +373,7 @@ Pre nego što počne da pravi koplje, ribar odlučuje da odvoji nešto ribe kako
 
 Dok posvećuje svoje vreme izgradnji koplja, oslanja se na svoje rezerve, dobrovoljno odlažući deo svoje trenutne udobnosti (odraz njegove **vremenske preferencije**). Nakon nekoliko dana rada na Hard, završava čvrsto koplje.
 
-![BIZ101](assets/en/05.webp)
+![BIZ101](assets/sr-Latn/007.webp)
 
 Sa kopljem, sada može da lovi ribu mnogo brže i sa manje napora. Više ne mora da se iscrpljuje kao ranije i čak počinje da akumulira višak ribe. Ovaj višak otvara nove mogućnosti: može ga skladištiti, deliti ili uložiti u druge projekte na ostrvu. Odlaganjem trenutne potrošnje i korišćenjem svog kapitala, ribar je značajno poboljšao svoju efikasnost i buduće izglede."
 
@@ -429,7 +429,7 @@ Bitkoin nudi način za akumulaciju i očuvanje kapitala na duži rok bez erozije
 - **Milton Friedman**: Iako nije direktno povezan sa Austrijskom školom, Friedman je podržavao mnoge pro-tržišne i liberalne ideje. Njegova monetaristička politika se razlikuje od austrijskog mišljenja, ali deli njihovu kritiku prekomerne državne intervencije u ekonomiji.
 - **Frédéric Bastiat**: Francuski ekonomista iz 19. veka, Bastiat je uticao na Austrijsku školu svojim radovima o slobodnoj trgovini i nevidljivim posledicama ekonomskih politika. Njegov esej _What Is Seen and What Is Not Seen_ (_Šta se vidi i šta se ne vidi_) je osnovni tekst ekonomskog liberalizma.
 
-![BIZ101](assets/en/06.webp)
+![BIZ101](assets/sr-Latn/008.webp)
 
 *Atribucija: Ludwig von Mises Institut*
 
@@ -482,7 +482,7 @@ Prvo, **prošle performanse ne garantuju buduće rezultate**. Sve dok Bitkoin os
 
 Drugo, Bitkoin je do sada iskusio **4-godišnje cikluse**, što znači da je sa vremenskim horizontom dužim od 4 godine uvek bio profitabilan. Za one koji vide bitkoin kao investiciju, kratkoročni horizont (<4 godine) može biti rizičan.
 
-![BIZ101](assets/en/07.webp)
+![BIZ101](assets/sr-Latn/009.webp)
 
 *MICHAEL SAYLOR: "Najbolji Bitkoin signal cene je 4-godišnji jednostavni pokretni prosek."* Pogledajte gornji grafikon.
 
@@ -544,7 +544,7 @@ Ne morate kupiti tačno 1 bitkoin, jer je bitkoin deljiv na podjedinice zvane sa
 
 Štaviše, ukupno 21 milion bitkoina—ili **2,1 kvadriliona satoshija**—može biti efikasno predstavljen 64-bitnim celim brojem. To znači da, uprkos visokoj ceni po bitkoinu, ostaje dostupan širokom spektru investitora zahvaljujući svojoj deljivosti. Stoga ne morate kupiti ceo bitkoin da biste učestvovali u mreži ili investirali u ovaj digitalni aset.
 
-![BIZ101](assets/en/08.webp)
+![BIZ101](assets/sr-Latn/010.webp)
 
 Setimo da njegova relativno niska ukupna tržišna kapitalizacija, u poređenju sa drugim sredstvima kao što su akcije, zlato ili nekretnine, ostavlja njegov kapacitet za aprecijaciju netaknutim. Sa još uvek veoma niskom penetracijom (oko 1% globalne populacije), smatra se da smo tek na početku njegovog uspona. Ovo ga čini **najasimetričnijom opkladom naše generacije**: sada postoji veoma mala verovatnoća da će pasti na nulu u ovom trenutku, i jaka verovatnoća da će nastaviti da dobija na značaju.
 
@@ -581,7 +581,7 @@ Zbog ovih razlika, **neki vlasnici preduzeća odlučuju da kupe i drže bitkoin 
 
 Postoje tri načina za nabavku bitkoina:
 
-![BIZ101](assets/en/09.webp)
+![BIZ101](assets/sr-Latn/011.webp)
 
 
 - **U zamenu za robu ili usluge:**
@@ -606,7 +606,7 @@ https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 Da biste saznali više o metodama za sticanje bitkoina putem manjačnice ili peer-to-peer, možete [pogledati odeljak "Exchange" u našim tutorijalima](https://planb.network/tutorials/exchange).
 
-![BIZ101](assets/en/16.webp)
+![BIZ101](assets/sr-Latn/012.webp)
 
 ### Po kojoj ceni?
 
@@ -630,7 +630,7 @@ U stvarnosti, potencijalna aprecijacija bitkoina je takva da čak i ako biste po
 
 Industrija nekretnina često ponavlja da je „uvek pravo vreme za kupovinu“, zaboravljajući da, ako bi nekretnine izgubile svoju funkciju kao čuvara vrednosti—prelazeći na imovinu poput bitkoina—cene bi se mogle vratiti bliže njihovoj korisnoj vrednosti (pružanje skloništa). Bitkoin, nasuprot tome, ne služi nijednoj svrsi osim čuvanja vrednosti, što bi moglo značiti da je „uvek pravo vreme za kupovinu“. Budućnost će pokazati.
 
-![BIZ101](assets/en/13.webp)
+![BIZ101](assets/sr-Latn/013.webp)
 
 *Kredit: [Bitkoin Kancelarija](https://Bitkoin.gob.sv/)*
 
@@ -657,11 +657,11 @@ Na primer, menjačnica ili neki drugi servis za kupovinu može kreirati nalog za
 
 Ovo su tradicionalni finansijski instrumenti koji predstavljaju delove bitkoina, replicirajući njegovu cenovnu performansu. Institucija koja stoji iza proizvoda teoretski kupuje i drži osnovni bitkoin. Vaši depoziti i povlačenja se vrše u tradicionalnoj valuti (npr. dolarima ili evrima), a ne u bitkoinu. Osim za određene proizvode koji dozvoljavaju povlačenje u stvarnom bitkoinu (da bi se izbegao oporezivi događaj u nekim jurisdikcijama), ovi instrumenti uključuju godišnje naknade za upravljanje. Ovde se oslanjate na sigurnost institucije i suočavate se sa rizikom druge strane (na primer, ako bi vlada odlučila da zapleni sav institucionalno držani bitkoin, kao što se desilo sa zlatom 1933. pod američkim Izvršnim naređenjem 6102). Njihova primarna prednost je lak pristup, jer se distribuiraju kroz tradicionalne finansijske kanale. Oni zaobilaze potrebu za obezbeđivanjem kriptografskih ključeva, ali ne nude nijedno od inherentnih svojstava bitkoina: ne možete koristiti Bitkoin mrežu 24/7 za slobodno premeštanje vrednosti bez dozvole. Oni samo repliciraju finansijsku performansu, a ne funkcionalnost ili suverenitet samog Bitkoina.
 
-![BIZ101](assets/en/15.webp)
+![BIZ101](assets/sr-Latn/014.webp)
 
 Pored toga, oblik u kojem držite Bitkoin značajno utiče na mere bezbednosti potrebne za zaštitu vašeg korporativnog trezora. Bilo da se odlučite za samostalno čuvanje, koristeći hardverske novčanike sa jednim ili više potpisa, itd. kako biste zadržali direktnu kontrolu nad vašim ključevima, ili delegirate ovaj zadatak uslugama trećih strana ili ETF-ovima, svaka opcija nosi svoj profil rizika. Na primer, samostalno čuvanje nudi pun pristup, ali zahteva rigorozne interne bezbednosne protokole, dok rešenja trećih strana smanjuju teret upravljanja na račun rizika od druge strane. Da bi se dodatno ilustrovale razlike, ovaj grafikon prikazuje model bezbednosti za svaki tip čuvanja, pomažući vam da odaberete pristup koji najbolje odgovara potrebama vaše organizacije :
 
-![BIZ101](assets/en/14.webp)
+![BIZ101](assets/sr-Latn/015.webp)
 
 ### Od koga kupiti?
 
@@ -709,7 +709,7 @@ U ranim danima, internet mreža je omogućila uklanjanje posrednika iz komunikac
 
 Bitkoin je infrastruktura poverenja, čija je prva primena uklanjanje posrednika iz čuvanja i razmene vrednosti—novca. Druge trenutno nezamislive primene će se pojaviti na ovoj infrastrukturi. Vaše početno prisustvo ovde je ekvivalentno posedovanju veb sajta: prolaz ka peer-to-peer plaćanjima i razmenama vrednosti.
 
-![BIZ101](assets/en/17.webp)
+![BIZ101](assets/sr-Latn/016.webp)
 
 Sada, razmotrite perspektivu praktičnog poslovanja čija osnovna delatnost nema nikakve veze sa Bitkoinom. Zašto bi odlučio da prihvati bitkoin plaćanja?
 
@@ -835,19 +835,19 @@ U narednim poglavljima, detaljno ćemo opisati svaki poslovni profil i rešenja 
 
 Profil Početnik je dizajniran za preduzeća, kreatore i pojedince koji žele da istraže Bitkoin plaćanja bez ulaganja značajnih resursa ili stručnosti. To su obično oni koji obrađuju vrlo mali obim transakcija (možda nekoliko napojnica, donacija ili povremenih prodaja) i traže jednostavan, lagan uvod u Bitkoin i ekosistem Lightning mreže. Ključna vrednost pristupa Početnika leži u minimalnom podešavanju: u većini slučajeva, sve što je potrebno je pametni telefon ili tablet opremljen osnovnim Lightning-kompatibilnim novčanikom.
 
-![BIZ101-profiles](assets/en/18.webp)
+![BIZ101-profiles](assets/sr-Latn/017.webp)
 
 Jedna od ključnih karakteristika ovog profila je fokus na plaćanja malog obima koja retko prelaze nekoliko stotina evra ili dolara mesečno. Ova skromna skala čini ga odličnim izborom za svakoga ko želi da testira tržište sa Bitkoinom, bez složenosti koje su svojstvene implementacijama većeg obima. Pored toga, omogućava neposredno praktično učenje; pošto su operativni pritisci manji i ulozi u novcu manji, greške se mogu kontrolisati, a lekcije se brzo uče. Od umetnika koji prodaju ručno rađene zanate na vikend sajmovima do neprofitnih grupa koje prihvataju jednokratne donacije, korisnici u ovoj kategoriji često naglašavaju pristupačnost i jednostavnost korišćenja u odnosu na napredne funkcionalnosti.
 
 Dve najčešće postavke novčanika za profil Početnika uključuju odlučivanje između poveravanja ključeva za čuvanje sredstava i ličnog čuvanja. Vlasnički novčanik (kao što su Wallet od Satoshi ili Blink) omogućava trećoj strani da upravlja privatnim ključevima i pozadinskim operacijama, čime se smanjuje tehnička odgovornost korisnika. Ova postavka je posebno privlačna za one koji cene praktičnost iznad svega i žele najjednostavniji mogući početak. S druge strane, Lightning novčanici čiji korisnici sami čuvaju ključeve (poput Phoenix ili Breez) stavljaju privatne ključeve i potpunu kontrolu u ruke vlasnika biznisa, nudeći veću autonomiju i privatnost u zamenu uz nešto više početnog truda. U oba slučaja, moderni interfejsi su obično toliko korisnički prijateljski da svako može obaviti osnovne zadatke (generisanje QR koda, unos iznosa za plaćanje i potvrđivanje transakcija) u roku od nekoliko minuta.
 
-![BIZ101-profiles](assets/en/19.webp)
+![BIZ101-profiles](assets/sr-Latn/018.webp)
 
 Iako se bezbednosni problemi mogu činiti manje hitnim kada su transakcije male, ipak je ključno uspostaviti osnovne zaštitne mere. Čak i jedan pametni telefon ili tablet koji se koristi za primanje Bitkoin uplata treba da bude zaključan lozinkom ili biometrijskom sigurnošću, a procedure za pravljenje rezervnih kopija (od praćenja podataka za prijavljivanje za novčanik čije ključeve čuva treća strana do zaštite seed fraze za novčanike koje čuvate sami) moraju se shvatiti ozbiljno. Članovi osoblja koji rukuju transakcijama u fizičkom okruženju imali bi koristi od poznavanja osnova: kako otvoriti aplikaciju, kako predstaviti QR kod kupcu i kako proveriti da li je uplata zaista stigla.
 
 Računovodstvo i izveštavanje, iako relativno jednostavni pod Početničkim profilom, ipak zahtevaju pažljivo razmatranje. Iako obim transakcija može biti minimalan, zadržavanje tačnih zapisa sprečava zabunu kasnije i pomaže u održavanju transparentnosti u slučaju finansijskih revizija ili poreskih prijava. Mnoge aplikacije za novčanike omogućavaju korisnicima da izvoze osnovnu istoriju transakcija kao CSV fajl; za malo preduzeće ili pojedinačnog preduzetnika, redovno čuvanje ovih fajlova može znatno olakšati usklađivanje računa. Takođe je mudro pratiti približnu fiat vrednost (na primer, u evrima ili dolarima) u trenutku kada je svaka transakcija primljena. Pošto cena bitkoina može varirati, posedovanje zapisa o kursnim razlikama je neprocenjivo za knjigovodstvo i poresku usklađenost.
 
-![BIZ101-profiles](assets/en/20.webp)
+![BIZ101-profiles](assets/sr-Latn/019.webp)
 
 Za preduzeća koja žele da dopune svoje fizičke ili lične uplate sa online donacijama ili napojnicama, sada je jednostavno integrisati Lightning dugme za napojnice ili donacijski vidžet na vebsajt ili blog. Platforme kao što je BTCPay Server nude lako konfigurisane dugmiće za plaćanje, dok neke društvene mreže i usluge za prenos uživo već podržavaju Lightning napojnice sa adresama. Kao rezultat toga, čak i početničko preduzeće može izgraditi skromnu, ali globalnu mrežu pokrovitelja. U međuvremenu, oni koji ne žele da drže bitkoin dugoročno mogu istražiti delimičnu ili automatsku konverziju u fiat valutu koristeći određene novčanike čije ključeve čuva treća strana ili usluge trećih strana. Iako ova opcija uključuje dodatne naknade i moguće KYC obaveze, pomaže preduzećima da izbegnu volatilnost kursa razmene i održe svoje postojeće finansijske tokove uz minimalne poremećaje.
 
@@ -878,23 +878,23 @@ Za razliku od Početničkog profila, preduzeća sa Osnovnim profilom obično sma
 
 Tehnološke preporuke u ovom segmentu često se fokusiraju na **Swiss Bitkoin Pay**, pojednostavljeno rešenje za trgovce da lako prihvate bitkoin uplate. Odlikuje ga aplikacija za PoS koja je jednostavna za korišćenje, ne zahteva tehničku stručnost zaposlenih. Za razliku od standardnih bitkoin novčanika, fokusira se isključivo na primanje uplata, omogućavajući zaposlenima korišćenje uređaja bez bezbednosnih rizika. Više PoS aplikacija može se povezati na isti nalog, a mogu se koristiti na tabletima, kasama, pametnim telefonima ili putem veb verzije za računare, podržavajući Android i iOS. Takođe možete kreirati meni sa artiklima koje prodajete i njihovim cenama, omogućavajući zaposlenom da jednostavno izabere korpu artikala za kupca na PoS-u i zatim naplati ukupnu sumu.
 
-![BIZ101-profiles](assets/en/21.webp)
+![BIZ101-profiles](assets/sr-Latn/020.webp)
 
 Uplate se mogu ili povući u bitkoin na određenu adresu ili konvertovati u fiat valutu i svakodnevno deponovati na bankovni račun. Swiss Bitkoin Pay automatizuje proces, upravljajući Bitkoin i Lightning mrežnim plaćanjima bez manuelne intervencije. Sredstva se drže maksimalno 24 sata pre transfera. Iako nije potpuno ne-kustodijalan kao BTCPay Server, balansira pogodnost i sigurnost, i ne zahteva KYC.
 
-![BIZ101-profiles](assets/en/22.webp)
+![BIZ101-profiles](assets/sr-Latn/021.webp)
 
 Naknade su konkurentne: 0,21% za prvu godinu, zatim 1% za bitkoin uplate i 1,5% za konverzije u fiat valutu, uključujući troškove bitkoin transakcija. Swiss Bitkoin Pay nudi praktično srednje rešenje između kustodijalnih rešenja kao što je Open Node i složenih samostalno hostovanih sistema kao što je BTCPay Server, dajući prioritet jednostavnosti, sigurnosti i finansijskoj autonomiji.
 
 Ova vrsta postavke omogućava preduzećima koja posluju sa klijentima lično da brzo generišu fakture za plaćanje, prikažu QR kodove svojim klijentima i prihvate Lightning ili On-Chain transakcije sa minimalnim naporom. Osoblju je potrebna samo kratka obuka za rukovanje ovim plaćanjima, dok menadžeri mogu da se prijave na online kontrolnu tablu kako bi uskladili dnevnu prodaju i pristupili osnovnim izveštajima. Dostupnost pojednostavljene administrativne konzole takođe pomaže manjim ustanovama da prate i fiat i kripto prihode sa jednog Interface, čime se smanjuje konfuzija i vreme provedeno na ručnom knjigovodstvu.
 
-![BIZ101-profiles](assets/en/23.webp)
+![BIZ101-profiles](assets/sr-Latn/022.webp)
 
 Još jedna ključna prednost Osnovnog pristupa je naglasak na brzoj implementaciji i minimalnim prekidima. Rešenja poput Swiss Bitkoin Pay mogu se postaviti za nekoliko sati umesto dana ili nedelja. Za vlasnika ili menadžera umereno prometnog restorana, na primer, krajnji cilj je integrisati prihvatanje bitkoina bez izazivanja kašnjenja na kasi ili konfuzije među osobljem. Kada je POS konfigurisan, menadžer može jednostavno pružiti zaposlenima brza uputstva o prikazivanju fakture i proveriti da li je uplata prošla. U najboljem slučaju, transakcija kupca se potvrđuje gotovo trenutno putem Lightning mreže, a administrativni panel preduzeća istovremeno registruje novu uplatu u realnom vremenu.
 
 Iako Osnovni profil ne zahteva visoko sofisticirane računovodstvene sisteme, ipak je pametno održavati ispravne evidencije transakcija. Alati poput Swiss Bitkoin Pay nude funkcije izvoza u CSV formatu, omogućavajući menadžerima da zabeleže fiat-ekvivalentnu vrednost svake bitkoin prodaje i prate je zajedno sa drugim izvorima prihoda. Ovaj nivo dokumentacije je dovoljan za većinu malih preduzeća, a osnovno razumevanje kursnih razlika će pomoći pri podnošenju poreskih prijava i opštem finansijskom nadzoru.
 
-![BIZ101-profiles](assets/en/24.webp)
+![BIZ101-profiles](assets/sr-Latn/023.webp)
 
 Najprikladnije hibridno rešenje za vaš profil je verovatno Swiss Bitkoin Pay:
 
@@ -915,19 +915,19 @@ Profesionalni profil je namenjen preduzećima koja su prevazišla povremena ili 
 
 Jedna od definisajućih karakteristika Profesionalnog trgovca je potreba za **naprednim funkcijama** i **prilagodljivim rešenjima** koja održavaju efikasnost čak i kada obim transakcija raste. Za razliku od Osnovnih korisnika, koji mogu biti zadovoljni pojednostavljenim alatom koji se lepo uklapa u aplikaciju za pametne telefone, Profesionalni biznisi obično zahtevaju funkcije kao što su detaljna prilagođavanja faktura, sofisticirane kontrolne table za izveštavanje i mogućnost dodeljivanja više administrativnih uloga.
 
-![BIZ101-profiles](assets/en/25.webp)
+![BIZ101-profiles](assets/sr-Latn/024.webp)
 
 Grupa restorana, na primer, može imati članove osoblja posvećene fakturisanju i upravljanju zalihama, dok poseban tim nadgleda liste proizvoda i marketinške kampanje. U ovom okruženju, Bitkoin rešenje za plaćanje mora se savršeno uklopiti u ove već postojeće organizacione strukture.
 
-![BIZ101-profiles](assets/en/26.webp)
+![BIZ101-profiles](assets/sr-Latn/025.webp)
 
 Što se tiče tehnologije i alata, rešenja kao što je **BTC Pay Server** često čine srž profesionalnog postavljanja. BTC Pay Server je platforma otvorenog koda koja se može implementirati ili na lokaciji ili putem cloud hostinga i koja nudi opsežne opcije integracije za veb-sajtove i e-commerce platforme. Pokretanjem sopstvene instance, preduzeća zadržavaju visok stepen kontrole nad svakim aspektom toka plaćanja, od automatski generisanih stranica za naplatu do obaveštenja koja pokreću interne procese nakon što je plaćanje potvrđeno.
 
-![BIZ101-profiles](assets/en/27.webp)
+![BIZ101-profiles](assets/sr-Latn/026.webp)
 
 Pored toga, alati kao što su [Zaprite](https://zaprite.com/) ili [Musqet](https://musqet.tech/) mogu dodatno poboljšati iskustvo naplate, omogućavajući detaljniju prilagodbu (od izbora brenda do sofisticiranih mogućnosti izveštavanja). Oni koji preferiraju sve-u-jednom online maloprodajno okruženje mogu se opredeliti za [Be-BOP](https://be-bop.io/), rešenje za e-prodavnice napravljeno da olakša Bitkoin plaćanja bez žrtvovanja jednostavnosti korišćenja.
 
-![BIZ101-profiles](assets/en/28.webp)
+![BIZ101-profiles](assets/sr-Latn/027.webp)
 
 Implementacija ovih tehnologija u profesionalnom okruženju znači posvećivanje posebne pažnje **operativnoj složenosti**. Automatizovani tokovi fakturisanja, prikazi u više valuta i sinhronizacija sa postojećim sistemima inventara su sve odlike dobro integrisane platforme. Sposobnost preciznog izvoza podataka o transakcijama (bilo kao CSV datoteke, direktni API pozivi ili prilagođeni formati) pomaže preduzećima da efikasno usklade Bitkoin prodaje sa drugim prihodnim tokovima.
 
@@ -935,7 +935,7 @@ Bezbednost i upravljanje ulogama predstavljaju još jedan ključni aspekt za pro
 
 Kada je reč o primerima iz stvarnog sveta, razmislite o srednje velikoj e-commerce prodavnici specijalizovanoj za tehnološke dodatke. Kompanija bi mogla integrisati BTC Pay Server u svoju postojeću online prodavnicu, automatski generišući Bitkoin adrese za plaćanje tokom naplate. Kupci završavaju svoje kupovine skeniranjem Lightning ili On-Chain Address, a platforma prodavnice odmah potvrđuje uplatu. Istovremeno, interni sistem ažurira status narudžbine i pokreće obaveštenja o isporuci. Zahvaljujući naprednim funkcijama izveštavanja, finansijski tim može lako pregledati dnevne Bitkoin prodaje, izvesti konsolidovani Ledger za reviziju i pratiti vrednost bilo kojih BTC sredstava koje kompanija odluči da zadrži.
 
-![BIZ101-profiles](assets/en/29.webp)
+![BIZ101-profiles](assets/sr-Latn/028.webp)
 
 *[Credit: Bitkoin Bazar shop in Paris, France.](https://Bitkoinbazar.fr/)*
 
@@ -1000,7 +1000,7 @@ Nove infrastrukture uspevaju jer su efikasnije, a rani usvojitelji se pridružuj
 - **Poboljšano upravljanje čvorovima i kanalima:** I pojedinačna i profesionalna rešenja su napredovala. Na primer, BTC Pay Server sada podržava brojne dodatke za povezivanje sa drugim provajderima (PSP-ovima, on/off rampama, itd.). Novi provajderi infrastrukture, kao što su LightSpark i Alby Hub, takođe ulaze u proizvodnju.
 - **Rast usvajanja od strane trgovaca:** Trgovci poput BitRefill-a izveštavaju o porastu bitkoin plaćanja među svojim aktivnim korisnicima, uz jasan pomak ka Bitkoin mreži u odnosu na Lightning. Pored toga, ultra-niske naknade Lightning-a čine ga preferiranim izborom za mala plaćanja (prosečno €32 po transakciji).
 
-![BIZ101-profiles](assets/en/30.webp)
+![BIZ101-profiles](assets/sr-Latn/029.webp)
 
 *[Izvor: BTC Map](https://btcmap.org/)*
 
@@ -1012,7 +1012,7 @@ Nove infrastrukture uspevaju jer su efikasnije, a rani usvojitelji se pridružuj
 
 Bitkoin i Lightning mreža dovršavaju **digitalnu revoluciju novčanika**. Novi veb servisi sada omogućavaju **transakcije bez potrebe za kreiranjem naloga**—vaš novčanik postaje vaš identitet! Sa protokolima kao što su **Nostr Wallet Connect (NWC)** i **LN-URL-AUTH**, novčanici mogu besprekorno autentifikovati korisnike i omogućiti transakcije bez tradicionalnih naloga. Prošla su vremena zamaranja kreiranjem naloga za jednostavne kupovine ili pretplate. Nema više potrebe za pružanjem ličnih ili platnih informacija koje bi mogle biti hakovane i prodate na dark vebu, na šta nas prečesto podsećaju nedavni događaji.
 
-![BIZ101](assets/en/10.webp)
+![BIZ101](assets/sr-Latn/030.webp)
 
 Trgovci sutrašnjice će prihvatiti ovu inovaciju, nudeći kupcima sigurnije, jednostavnije (jedan klik) iskustvo koje takođe poštuje njihovu privatnost.
 
@@ -1185,7 +1185,7 @@ Kada kompanija odluči da integriše bitkoin u svoje računovodstvo, razni alati
 
 Oni su često mudar dodatak za velike organizacije sa više novčanika i sredstava na različitim platformama ili berzama.
 
-![BIZ101](assets/en/31.webp)
+![BIZ101](assets/sr-Latn/031.webp)
 
 Međutim, jednostavna `.csv` datoteka koja sadrži istoriju transakcija često je dovoljna za većinu malih preduzeća. Cilj je dokumentovati, za svaku uplatu, datum, iznos, ekvivalentnu vrednost u evrima/dolarima i relevantne bitkoin adrese. Velika većina bitkoin rešenja za plaćanje (BTC Pay Server, Swiss Bitkoin Pay, itd.) ili platformi poput menjačnica (Bitfinex, Kraken, Coinbase, itd.) već nudi mehanizam za izvoz istorije transakcija. Pružanjem ove datoteke računovođi, postaje moguće pojednostaviti unos podataka i jasno razlikovati dolazne i odlazne tokove povezane sa bitkoinom.
 

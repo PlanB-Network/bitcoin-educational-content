@@ -69,12 +69,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 63.89
+    reward: 64.02
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 95.78
+    reward: 95.99
   - language: et
     last_contribution_date:
     urgency: 1
@@ -89,7 +89,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 79.83
+    reward: 80.0
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -110,18 +110,18 @@ proofreading:
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 31.94
+    reward: 32.01
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 31.94
+    reward: 32.01
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 79.83
+    reward: 80.0
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -131,7 +131,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.94
+    reward: 48.04
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -141,7 +141,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 79.83
+    reward: 80.0
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 64.02
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 95.99
 tags:
   - keys
   - wallets

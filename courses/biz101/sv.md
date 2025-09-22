@@ -137,7 +137,7 @@ Betalningssystem är metoder och infrastrukturer som möjliggör överföring av
     - Fokus ligger ofta på spårbarhet, dokumentation och förmågan att hantera större transaktionsvärden.
     - Kortanvändning förekommer men tenderar att bli mindre vanligt på grund av högre avgifter och transaktionsgränser. Digitala lösningar som integrerade betalningsplattformar växer fram för att effektivisera och automatisera processerna för kund- och leverantörsreskontra.
 
-![BIZ101](assets/sv/01.webp)
+![BIZ101](assets/sv/001.webp)
 
 *Grafik: Globala trender inom betalningsmetoder för försäljningsställen (POS) (2023-2027), The Global Payments Report 2024, Worldpay.*
 
@@ -145,7 +145,7 @@ Betalningssystem är metoder och infrastrukturer som möjliggör överföring av
 
 När en kund använder ett kreditkort i en butik läses kortet av kassaterminalen, som på ett säkert sätt överför transaktionsuppgifterna till handlarens inlösande bank. Inlösaren vidarebefordrar denna information till det relevanta kortnätverket (t.ex. Visa eller Mastercard), som sedan vidarebefordrar begäran till utgivaren - den bank som tillhandahöll kundens kort. Kortutgivaren kontrollerar kundens konto eller kreditgräns och skickar tillbaka en auktorisation via nätverket och inlösaren, vilket gör det möjligt för handlaren att acceptera betalningen.
 
-![BIZ101](assets/sv/02.webp)
+![BIZ101](assets/sv/002.webp)
 
 Denna till synes enkla transaktion omfattar i själva verket över 15 steg och involverar sju mellanhänder. Det tar i genomsnitt mellan 48 timmar och fem dagar innan handlaren faktiskt får pengarna. Under dessa dagar genomförs en clearing- och avvecklingsprocess, där kortnätverket samlar in dagens transaktioner och samordnar överföringen av medel mellan inlösaren och utgivaren. En centralbank säkerställer att mellanbanksavvecklingarna sker korrekt och stabilt. Slutligen sätts nettobeloppet (efter avgifter) in på handlarens bankkonto av inlösaren, och därmed är transaktionens livscykel avslutad.
 
@@ -193,13 +193,13 @@ Bitcoin är ett peer-to-peer-system för digitalt utbyte och handel (elektronisk
 
 Tillsammans gör de Bitcoin till en **innehavartillgång** och en digital valuta **utan utgivare**. Ägarskap är säkrat enbart genom innehav av den **privata kryptografiska nyckeln**, vilket ger full kontroll **utan mellanhänder eller betrodda tredje parter**. När ägarskap överförs är **finaliteten** omedelbar: den nya innehavaren äger den helt utan att förlita sig på en central myndighet för skydd eller konvertibilitet. Transaktioner är **oföränderliga** - när de väl har registrerats på blockkedjan kan de inte ändras eller raderas.
 
-![BIZ101](assets/sv/11.webp)
+![BIZ101](assets/sv/003.webp)
 
 Bitcoin har en fast penningpolitik, med ett **tak på 21 miljoner bitcoins**, av vilka ~19,8 miljoner redan har distribuerats. Detta gör den **deflationär**, med ett värde som ökar över tid när användarna förvarar besparingar och produktivitetsvinster i den.
 
 Dess tekniska egenskaper överträffar guld och dollar tillsammans, vilket gör den till den hårdaste finansiella tillgången som någonsin skapats. Bitcoin är både en värdebevarare och ett bytesmedel, en valuta som håller på att formas. Föreställ dig att snabbt överföra värde från ett företags kassa till ett annat, utan mellanhänder, till minimal kostnad, utan bedrägeri, dygnet runt och utan att någon tredje part är inblandad.
 
-![BIZ101](assets/sv/03.webp)
+![BIZ101](assets/sv/004.webp)
 
 Bitcoin bevarar effektivt sitt värde eftersom dess register är manipuleringssäkert. Dess värde ökar på grund av dess sällsynta och begränsade utbyd i kombination med det växande antalet växelmöjligheter, som drivs av det ökande antalet användare.
 
@@ -247,7 +247,7 @@ Lightning Network är **ett protokoll och ett nätverk** som underlättar Bitcoi
 - **On-chain-avveckling:** Endast **det slutliga saldot** av en kanals transaktioner publiceras på Bitcoins huvudblockkedja (**"on-chain**"), vilket gör att många transaktioner kan ske under tiden. Denna sammanfogning av flera betalningar minskar överbelastningen och sänker därmed avgifterna jämfört med att göra många on-chain-transaktioner.
 - **Kanalstängning:** En användare kan när som helst stänga sin kanal och återfå sina bitcoin genom att publicera det senaste transaktionsstatuset. Detta är principen för transaktioner som är **"publicerbara" när som helst men "opublicerade"** tills det är nödvändigt. Avslutet (kanalstängning) kan vara ensidigt (beslutas av någon av de två parterna när som helst) eller ömsesidigt beslutat (vilket resulterar i lägre on-chain-avgifter)
 
-![BIZ101](assets/sv/04.webp)
+![BIZ101](assets/sv/005.webp)
 
 Detta tillvägagångssätt undviker långsamheten och komplexiteten i att utföra varje transaktion direkt på Bitcoins huvudblockkedja, som endast registrerar slutliga saldon och behåller sin säkerhet. Lightning Network är en nivå "ovanpå" Bitcoin men förblir förankrad i den.
 
@@ -257,7 +257,7 @@ Protokollet skapar ett **nätverk** av maskiner där kanalerna bildar ett univer
 
 Lightning Network möjliggör omedelbar värdeöverföring med ljusets hastighet. Det är som ett e-postprotokoll tillämpat på betalningar: ett nästa generations betalningsnätverk. Det förändrar radikalt hur "pengar" rör sig och gör det lika fritt och snabbt som dataöverföring på internet.
 
-![BIZ101](assets/sv/12.webp)
+![BIZ101](assets/sv/006.webp)
 
 **Viktiga fördelar:**
 
@@ -366,7 +366,7 @@ Innan han börjar tillverka spjutet bestämmer sig fiskaren för att lägga unda
 
 Medan han ägnar sin tid åt att tillverka spjutet, förlitar han sig på sina reserver och fördröjer gärna några av sina omedelbara bekvämligheter (en återspegling av hans **tidspreferens**). Efter flera dagars hårt arbete färdigställer han ett robust spjut.
 
-![BIZ101](assets/sv/05.webp)
+![BIZ101](assets/sv/007.webp)
 
 Med spjutet kan han nu fånga fisk mycket snabbare och med mindre ansträngning. Han behöver inte längre slita ut sig som tidigare och börjar till och med samla på sig ett överskott av fisk. Detta överskott öppnar nya möjligheter: han kan förvara det, dela med sig av det eller investera det i andra projekt på ön. Genom att skjuta upp den omedelbara konsumtionen och utnyttja sitt kapital har fiskaren avsevärt förbättrat sin effektivitet och sina framtidsutsikter."
 
@@ -420,7 +420,7 @@ Den **österrikiska ekonomiska skolan** är en tradition av ekonomiskt tänkande
 - **Milton Friedman**: Även om Friedman inte direkt förknippas med den österrikiska skolan stödde han många marknadsvänliga och liberala idéer. Hans monetaristiska politik skiljer sig från österrikiska tankar men delar deras kritik av överdriven statlig inblandning i ekonomin.
 - **Frédéric Bastiat**: Bastiat var en fransk ekonom på 1800-talet som påverkade den österrikiska skolan med sina verk om frihandel och de osynliga konsekvenserna av ekonomisk politik. Hans essä _What Is Seen and What Is Not Seen_ är en grundläggande text i den ekonomiska liberalismen.
 
-![BIZ101](assets/sv/06.webp)
+![BIZ101](assets/sv/008.webp)
 
 *Källa: Ludwig von Mises-institutet*
 
@@ -473,7 +473,7 @@ För det första: **tidigare resultat garanterar inte framtida resultat**. Så l
 
 För det andra har Bitcoin hittills upplevt **4-årscykler**, vilket innebär att med en tidshorisont på mer än 4 år har spelet alltid varit lönsamt. För dem som ser Bitcoin som en investering kan en kortsiktig horisont (<4 år) vara riskfylld.
 
-![BIZ101](assets/sv/07.webp)
+![BIZ101](assets/sv/009.webp)
 
 *MICHAEL SAYLOR: "Den bästa prissignalen för Bitcoin är det 4-åriga enkla rörliga medelvärdet."* Se ovanstående diagram.
 
@@ -549,7 +549,7 @@ Du behöver inte köpa exakt 1 Bitcoin, eftersom Bitcoin är delbart i mindre en
 
 Dessutom kan det totala antalet 21 miljoner bitcoins - eller **2,1 kvadriljoner satoshis** - effektivt representeras av ett 64-bitars heltal. Detta innebär att trots ett högt pris per hel bitcoin förblir den tillgänglig för ett brett spektrum av investerare tack vare dess delbarhet. Du behöver därför inte köpa en hel Bitcoin för att delta i nätverket eller investera i denna digitala tillgång.
 
-![BIZ101](assets/sv/08.webp)
+![BIZ101](assets/sv/010.webp)
 
 Låt oss komma ihåg att dess relativt låga totala marknadsvärde, jämfört med andra tillgångar som aktier, guld eller fastigheter, gör att dess kapacitet för värdeökning är intakt. Eftersom penetrationen fortfarande är mycket låg (cirka 1% av världens befolkning) är det troligt att vi bara befinner oss i början av dess uppgång. Detta gör det till **den mest asymmetriska satsningen i vår generation**: det finns nu en mycket låg sannolikhet för att den kommer att falla till noll vid denna tidpunkt, och en stark sannolikhet för att den kommer att fortsätta att få ökat inflytande.
 
@@ -585,7 +585,7 @@ På grund av dessa skillnader väljer **vissa företagare att köpa och äga Bit
 
 Det finns tre sätt att skaffa Bitcoin:
 
-![BIZ101](assets/sv/09.webp)
+![BIZ101](assets/sv/011.webp)
 
 - **I utbyte mot varor eller tjänster:**
 
@@ -608,7 +608,7 @@ https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 Om du vill lära dig mer om metoder för att förvärva bitcoins via en börs eller peer-to-peer kan du [läsa avsnittet "Exchange" i våra handledningar](https://planb.network/tutorials/exchange).
 
-![BIZ101](assets/sv/16.webp)
+![BIZ101](assets/sv/012.webp)
 
 ### Till vilket pris?
 
@@ -632,7 +632,7 @@ I själva verket är Bitcoins potentiella uppgång sådan att även om du skulle
 
 Fastighetsbranschen upprepar ofta att "det alltid är rätt tid att köpa" och glömmer att om fastigheter skulle förlora sin funktion som värdebevarare - och övergå till tillgångar som Bitcoin - skulle priserna kunna återgå närmare sitt bruksvärde (logi). Bitcoin tjänar däremot inget annat syfte än att förvara värde, vilket kan innebära att "det alltid är rätt tid att köpa". Framtiden får utvisa detta.
 
-![BIZ101](assets/sv/13.webp)
+![BIZ101](assets/sv/013.webp)
 
 *Källa: [Bitcoin Office] (https://Bitcoin.gob.sv/)*
 
@@ -657,11 +657,11 @@ Till exempel kan en börs eller en köptjänst skapa ett konto åt dig, konverte
 
 Dessa är traditionella finansiella instrument som representerar fraktioner av Bitcoin och replikerar dess prisutveckling. Institutionen bakom produkten köper och innehar teoretiskt sett den underliggande Bitcoin. Dina bidrag och uttag görs i traditionell valuta (t.ex. dollar eller euro), inte i Bitcoin. Med undantag för vissa produkter som tillåter uttag i faktiska Bitcoin (för att undvika en skattepliktig händelse i vissa jurisdiktioner), innebär dessa instrument årliga förvaltningsavgifter. Här förlitar du dig på institutionens säkerhet och står inför motpartsrisk (till exempel om en regering beslutar att beslagta alla Bitcoin som innehas av institutioner, vilket hände med guld 1933 enligt USA:s Executive Order 6102). Deras främsta fördel är att de är lättillgängliga, eftersom de distribueras via traditionella finansiella kanaler. De kringgår behovet av att säkra kryptografiska nycklar men erbjuder inga av Bitcoins inneboende egenskaper: du kan inte använda Bitcoin-nätverket 24/7 för att flytta värde fritt utan tillstånd. De replikerar bara den finansiella prestandan, inte funktionaliteten eller suveräniteten hos Bitcoin självt.
 
-![BIZ101](assets/sv/15.webp)
+![BIZ101](assets/sv/014.webp)
 
 Dessutom har den form i vilken du innehar Bitcoin en betydande inverkan på de säkerhetsåtgärder som krävs för att skydda din företagskassa. Oavsett om du väljer självförvaring, använder hårdvaruplånböcker med en eller flera signaturer etc. för att upprätthålla direkt kontroll över dina nycklar, eller delegerar denna uppgift till tredje parts förvaringstjänster eller ETF: er, har varje alternativ sin egen riskprofil. Självförvaring ger till exempel full tillgång men kräver rigorösa interna säkerhetsprotokoll, medan tredjepartslösningar minskar förvaltningsbördan på bekostnad av motpartsrisken. För att ytterligare illustrera skillnaderna beskriver detta diagram säkerhetsmodellen för varje förvaringstyp, vilket hjälper dig att välja det tillvägagångssätt som bäst passar din organisations behov:
 
-![BIZ101](assets/sv/14.webp)
+![BIZ101](assets/sv/015.webp)
 
 ### Vem ska man köpa från?
 
@@ -708,7 +708,7 @@ Till en början möjliggjorde internet att mellanhänder kunde tas bort från ko
 
 Bitcoin är en infrastruktur för förtroende, vars första tillämpning är att eliminera mellanhänder vid förvaring och utbyte av värde – det vill säga pengar. På denna grund kommer andra, i dag otänkbara, tillämpningar att växa fram. Din första närvaro här motsvarar att ha en webbplats: en port till peer-to-peer-betalningar och värdeöverföringar.
 
-![BIZ101](assets/sv/17.webp)
+![BIZ101](assets/sv/016.webp)
 
 Tänk nu på perspektivet för ett praktiskt företag vars kärnverksamhet inte har något att göra med Bitcoin. Varför skulle de välja att acceptera Bitcoin-betalningar?
 
@@ -831,19 +831,19 @@ I de följande kapitlen kommer vi att beskriva varje affärsprofil och de lösni
 
 Nybörjar-profilen är utformad för företag, kreatörer och individer som vill utforska Bitcoin-betalningar utan att engagera betydande resurser eller expertis. Dessa är vanligtvis de som hanterar en mycket liten volym transaktioner (kanske lite dricks, donationer eller tillfällig försäljning) och söker en enkel, lätt introduktion till Bitcoin och Lightning Network. Det viktigaste värdet med Nybörjar-metoden ligger i den minimala installationen: i de flesta fall är allt som krävs en smartphone eller surfplatta utrustad med en grundläggande Lightning-kompatibel plånbok.
 
-![BIZ101-profiles](assets/sv/18.webp)
+![BIZ101-profiles](assets/sv/017.webp)
 
 En av de avgörande egenskaperna hos denna profil är dess fokus på lågvolymsbetalningar som sällan överstiger några hundra euro eller dollar per månad. Denna blygsamma skala gör det till ett utmärkt val för alla som vill testa marknaden med Bitcoin, utan de komplexiteter som är förknippade med större volymer. Dessutom möjliggör det omedelbar praktisk inlärning; eftersom det finns färre operativa påtryckningar och mindre monetära insatser kan misstag begränsas och lärdomar dras snabbt. Från konstnärer som säljer handgjorda hantverk på helgmarknader till ideella grupper som tar emot engångsdonationer - användare i den här kategorin föredrar ofta tillgänglighet och användarvänlighet framför avancerade funktioner.
 
 De två vanligaste plånbokslösningarna för nybörjar-profilen handlar om att välja mellan custodial och non-custodial alternativ. En custodial-plånbok (som Wallet of Satoshi eller Blink) låter en tredjepart hantera de privata nycklarna och den tekniska infrastrukturen i bakgrunden, vilket minskar användarens tekniska ansvar. Denna lösning är särskilt tilltalande för dem som värdesätter bekvämlighet högst och vill ha en så enkel onboarding som möjligt. Å andra sidan ger non-custodial Lightning-plånböcker (som Phoenix eller Breez) företagsägaren full kontroll över de privata nycklarna och ökad självständighet och integritet – i utbyte mot en något högre tröskel i början. I båda fallen är moderna gränssnitt idag så användarvänliga att vem som helst kan hantera grundläggande funktioner – som att generera en QR-kod, ange ett belopp och bekräfta en transaktion – på bara några minuter.
 
-![BIZ101-profiles](assets/sv/19.webp)
+![BIZ101-profiles](assets/sv/018.webp)
 
 Även om säkerhetsfrågor kan kännas mindre akuta vid små transaktioner, är det ändå avgörande att införa grundläggande skyddsåtgärder. Även en enda smartphone eller surfplatta som används för att ta emot Bitcoin-betalningar bör vara skyddad med lösenord eller biometrisk säkerhet. Dessutom måste rutiner för backup tas på allvar – från att hålla ordning på inloggningsuppgifter för en custodial-plånbok till att förvara en seed phrase för en non-custodial plånbok på ett säkert sätt. Personal som hanterar transaktioner i en fysisk miljö bör känna till grunderna: hur man öppnar appen, visar en QR-kod för kunden och kontrollerar att betalningen verkligen kommit in.
 
 Bokföring och rapportering är visserligen relativt enkla under nybörkar-profilen, men förtjänar ändå noggrann uppmärksamhet. Även om transaktionsvolymerna kan vara små, är det viktigt att behålla korrekta register för att undvika förvirring längre fram och för att upprätthålla transparens vid exempelvis revision eller skattedeklarationer. Många plånboksappar gör det möjligt att exportera en grundläggande transaktionshistorik som en CSV-fil. För ett mindre företag eller en enskild företagare kan det underlätta avstämningen betydligt att regelbundet spara dessa filer. Det är också klokt att notera det ungefärliga fiatvärdet (till exempel i euro eller dollar) vid tidpunkten då varje transaktion tas emot. Eftersom priset på Bitcoin kan variera är ett register över växlingskurser ovärderligt för både bokföring och skatteöverensstämmelse.
 
-![BIZ101-profiles](assets/sv/20.webp)
+![BIZ101-profiles](assets/sv/019.webp)
 
 För företag som vill komplettera sina fysiska eller personliga betalningar med online-donationer eller dricks, är det numera enkelt att integrera en Lightning-dricksknapp eller ett donationswidget på en webbplats eller blogg. Plattformar som BTCPay Server erbjuder lättkonfigurerade betalningsknappar, och vissa sociala medier och livestreamingtjänster har redan stöd för Lightning-dricks via adresser. På så sätt kan även ett företag i nybörjar-profilen bygga upp ett blygsamt – men globalt – nätverk av stödjare. Samtidigt kan den som inte vill behålla Bitcoin långsiktigt överväga delvis eller automatisk konvertering till fiatvaluta via vissa custodial-plånböcker eller tredjepartstjänster. Även om detta innebär extra avgifter och eventuella KYC-krav, kan det hjälpa företag att undvika växelkursvolatilitet och bibehålla sina befintliga ekonomiska rutiner med minimal störning.
 
@@ -876,23 +876,23 @@ Till skillnad från nybörjar-profilen ser företag i grundläggande-kategorin v
 
 Teknikrekommendationer inom detta segment kretsar ofta kring **Swiss Bitcoin Pay** – en förenklad lösning som gör det enkelt för handlare att ta emot Bitcoin-betalningar. Den erbjuder en användarvänlig PoS-app (Point of Sale) som inte kräver någon teknisk expertis från personalens sida. Till skillnad från vanliga Bitcoin-plånböcker är lösningen helt fokuserad på att ta emot betalningar, vilket gör att anställda kan använda enheten utan säkerhetsrisker. Flera PoS-appar kan kopplas till samma konto och användas på surfplattor, kassasystem, smartphones eller via en webbversion för datorer, med stöd för både Android och iOS. Du kan dessutom skapa en produktmeny med artiklar och priser, så att personalen enkelt kan välja en varukorg åt kunden direkt i appen och därefter ta betalt för totalbeloppet.
 
-![BIZ101-profiles](assets/sv/21.webp)
+![BIZ101-profiles](assets/sv/020.webp)
 
 Betalningar kan antingen tas ut i Bitcoin till en specifik adress eller konverteras till fiatvaluta och sättas in på ett bankkonto dagligen. Swiss Bitcoin Pay automatiserar processen och hanterar Bitcoin- och Lightning Network-betalningar utan manuellt ingripande. Pengarna hålls kvar i högst 24 timmar innan de överförs. Även om det inte är helt non-custodial som BTCPay Server, balanserar det bekvämlighet och säkerhet och kräver ingen KYC.
 
-![BIZ101-profiles](assets/sv/22.webp)
+![BIZ101-profiles](assets/sv/021.webp)
 
 Avgifterna är konkurrenskraftiga: 0,21% för det första året, sedan 1% för Bitcoin-betalningar och 1,5% för fiat-konverteringsbetalningar, inklusive Bitcoin-transaktionskostnader. Swiss Bitcoin Pay erbjuder en praktisk mellanväg mellan custodial-lösningar som Open Node och komplexa självhanterade system som BTCPay Server, som prioriterar enkelhet, säkerhet och ekonomisk autonomi.
 
 Denna typ av upplägg gör det möjligt för verksamheter med fysiska kundmöten att snabbt generera betalningsfakturor, visa QR-koder för kunderna och ta emot både Lightning- och on-chain-transaktioner med minimal friktion. Personalen behöver endast en kort introduktion för att kunna hantera betalningarna, medan chefer enkelt kan logga in på en onlinebaserad kontrollpanel för att stämma av dagens försäljning och ta del av grundläggande rapporter. Tillgången till ett förenklat administrativt gränssnitt hjälper även mindre verksamheter att följa både fiat- och kryptointäkter från ett och samma system, vilket minskar risken för förvirring och sparar tid vid manuell bokföring.
 
-![BIZ101-profiles](assets/sv/23.webp)
+![BIZ101-profiles](assets/sv/022.webp)
 
 En annan viktig fördel med grundläggande-profilen är betoningen på snabb implementering och minimal störning i verksamheten. Lösningar som Swiss Bitcoin Pay kan sättas upp på några timmar istället för dagar eller veckor. För en ägare eller chef på en måttligt trafikerad restaurang är målet att integrera Bitcoin-betalningar utan att orsaka förseningar i kassan eller förvirring bland personalen. När PoS-systemet väl är konfigurerat, kan chefen enkelt ge personalen snabba instruktioner om hur man visar fakturan och verifierar att betalningen har genomförts. I bästa fall bekräftas kundens transaktion nästan omedelbart via Lightning-nätverket, och företagets administrationspanel registrerar samtidigt betalningen i realtid.
 
 Även om grundläggande-profilen inte kräver avancerade bokföringssystem, är det ändå klokt att föra ordentliga transaktionsregister. Verktyg som Swiss Bitcoin Pay erbjuder exportfunktioner i CSV-format, vilket gör det möjligt för chefer att registrera det fiat-ekvivalenta värdet av varje Bitcoin-försäljning och följa upp det tillsammans med övriga intäktskällor. Denna nivå av dokumentation är tillräcklig för de flesta småföretag, och en grundläggande förståelse för växlingskurser underlättar vid deklaration och generell ekonomisk uppföljning.
 
-![BIZ101-profiles](assets/sv/24.webp)
+![BIZ101-profiles](assets/sv/023.webp)
 
 Den mest lämpliga hybridlösningen för din profil är sannolikt Swiss Bitcoin Pay:
 
@@ -915,19 +915,19 @@ Den professionella profilen riktar sig till företag som har gått vidare från 
 
 En av de definierande egenskaperna hos den professionella handlaren är behovet av **avancerade funktioner** och **anpassningsbara lösningar** som bibehåller effektiviteten även när transaktionsvolymerna växer. Till skillnad från de grundläggande användarna, som kanske nöjer sig med ett förenklat verktyg som passar perfekt i en smartphone-app, kräver professionella företag vanligtvis funktioner som detaljerad fakturaanpassning, sofistikerade rapporteringsinstrument och möjlighet att tilldela flera administrativa roller.
 
-![BIZ101-profiles](assets/sv/25.webp)
+![BIZ101-profiles](assets/sv/024.webp)
 
 En restauranggrupp kan till exempel ha personal som ägnar sig åt fakturering och lagerhantering, medan ett separat team övervakar produktlistor och marknadsföringskampanjer. I den här miljön måste en Bitcoin-betalningslösning passa väl in i dessa redan befintliga organisationsstrukturer.
 
-![BIZ101-profiles](assets/sv/26.webp)
+![BIZ101-profiles](assets/sv/025.webp)
 
 När det gäller teknik och verktyg utgör lösningar som **BTC Pay Server** ofta kärnan i en professionell installation. BTC Pay Server är en plattform med öppen källkod som kan distribueras antingen lokalt eller via molnhosting och som erbjuder omfattande integrationsalternativ för webbplatser och e-handelsplattformar. Genom att köra sin egen instans behåller företagen en hög grad av kontroll över alla aspekter av betalningsflödet, från automatiskt genererade kassasidor till meddelanden som utlöser interna processer när en betalning har bekräftats.
 
-![BIZ101-profiles](assets/sv/27.webp)
+![BIZ101-profiles](assets/sv/026.webp)
 
 Dessutom kan verktyg som [Zaprite] (https://zaprite.com/) eller [Musqet] (https://musqet.tech/) ytterligare förfina kassaupplevelsen, vilket möjliggör mer detaljerad anpassning (från varumärkesval till sofistikerade rapporteringsfunktioner). De som föredrar en allt-i-ett-miljö för detaljhandel online kan dras till [Be-BOP] (https://be-bop.io/), en e-butik lösning byggd för att underlätta Bitcoin betalningar utan att offra användarvänligheten.
 
-![BIZ101-profiles](assets/sv/28.webp)
+![BIZ101-profiles](assets/sv/027.webp)
 
 Att implementera dessa teknologier i en professionell miljö innebär att noggrant beakta den **operationella komplexiteten**. Automatiserade faktureringsflöden, visning i flera valutor och synkronisering med befintliga lagersystem är kännetecken på en välintegrerad plattform. Möjligheten att exakt exportera transaktionsdata, oavsett om det sker via CSV-filer, direkta API-anrop eller anpassade format, gör det enklare för företag att samstämma bitcoinförsäljning med andra intäktsströmmar på ett effektivt sätt.
 
@@ -935,7 +935,7 @@ Säkerhet och rollhantering utgör en annan central aspekt för användare inom 
 
 När det gäller exempel från verkligheten kan man tänka sig en medelstor e-handelsbutik som specialiserar sig på tekniktillbehör. Företaget kan integrera BTC Pay Server i sin befintliga onlinebutik och automatiskt generera Bitcoin-betalningsadresser vid checkout. Kunderna slutför sina inköp genom att skanna en Lightning eller On-Chain Address, och butikens plattform bekräftar omedelbart betalningen. Samtidigt uppdaterar ett internt system orderstatus och utlöser leveransaviseringar. Tack vare de avancerade rapporteringsfunktionerna kan ekonomiteamet enkelt granska den dagliga Bitcoin-försäljningen, exportera ett konsoliderat register för revision och spåra värdet på alla BTC-innehav som företaget beslutar att behålla.
 
-![BIZ101-profiles](assets/sv/29.webp)
+![BIZ101-profiles](assets/sv/028.webp)
 
 *[Källa: Bitcoin Bazar-butik i Paris, Frankrike.] (https://bitcoinbazar.fr/)*
 
@@ -1000,7 +1000,7 @@ Nya infrastrukturer lyckas eftersom de är mer effektiva, och tidiga användare 
 - **Förbättrad nod- och kanalhantering:** Både individuella och professionella lösningar har avancerat. Till exempel stöder BTC Pay Server nu många plugins för anslutning till andra leverantörer (PSP, on / off-ramper etc.). Nya infrastrukturleverantörer, som LightSpark och Alby Hub, går också in i produktionen.
 - **Ökad användning bland handlare:** Företag som BitRefill rapporterar en växande andel Bitcoin-betalningar bland sina aktiva användare, med ett tydligt skifte mot betalningar via Lightning-nätverket. De extremt låga avgifterna i Lightning gör det dessutom till det föredragna alternativet för småbetalningar (ett genomsnitt på 32 euro per transaktion).
 
-![BIZ101-profiles](assets/sv/30.webp)
+![BIZ101-profiles](assets/sv/029.webp)
 
 *[Källa: BTC Map](https://btcmap.org/)*
 
@@ -1012,7 +1012,7 @@ Nya infrastrukturer lyckas eftersom de är mer effektiva, och tidiga användare 
 
 Bitcoin och Lightning Network fullbordar den **digitala plånboks-revolutionen**. Nya webbtjänster tillåter nu **transaktioner utan att du behöver skapa ett konto** - din plånbok blir din identitet! Med protokoll som **Nostr Wallet Connect (NWC)** och **LN-URL-AUTH** kan plånböcker sömlöst autentisera användare och möjliggöra transaktioner utan traditionella konton. Tiden är förbi då enkla köp eller prenumerationer krävde kontoregistreringar. Det finns inte längre något behov av att lämna ut personliga uppgifter eller betalningsinformation som riskerar att bli hackad och hamna till salu på darknet, något vi ständigt påminns om genom aktuella dataintrång och läckor.
 
-![BIZ101](assets/sv/10.webp)
+![BIZ101](assets/sv/030.webp)
 
 Morgondagens handlare kommer att anamma denna innovation och erbjuda kunderna en säkrare och mer sömlös upplevelse (med ett klick) som också respekterar deras integritet.
 
@@ -1171,7 +1171,7 @@ När ett företag beslutar att integrera Bitcoin i sin bokföring kan olika verk
 
 De är ofta ett klokt komplement för stora organisationer med flera plånböcker och tillgångar på olika plattformar eller börser.
 
-![BIZ101](assets/sv/31.webp)
+![BIZ101](assets/sv/031.webp)
 
 En enkel "csv"-fil som innehåller transaktionshistoriken är dock ofta tillräcklig för de flesta småföretag. Målet är att för varje betalning dokumentera datum, belopp, motsvarande värde i euro/dollar och de relevanta Bitcoin-adresserna. De allra flesta Bitcoin-betalningslösningar (BTC Pay Server, Swiss Bitcoin Pay, etc.) eller börs-plattformar (Bitfinex, Kraken, Coinbase, etc.) erbjuder redan en mekanism för att exportera transaktionshistorik. Genom att tillhandahålla denna fil till en revisor blir det möjligt att effektivisera datainmatningen och tydligt skilja mellan inkommande och utgående flöden relaterade till Bitcoin.
 

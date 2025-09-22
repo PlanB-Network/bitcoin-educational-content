@@ -67,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.18
+    reward: 18.17
   - language: et
     last_contribution_date:
     urgency: 1
@@ -82,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 15.17
+    reward: 15.16
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -108,12 +108,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 6.08
+    reward: 6.07
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 15.17
+    reward: 15.16
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -123,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.14
+    reward: 9.13
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -133,7 +133,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 15.17
+    reward: 15.16
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 12.15
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 18.17
 tags:
   - protocols
   - smart-contracts

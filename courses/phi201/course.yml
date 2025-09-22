@@ -66,7 +66,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 55.88
+    reward: 55.84
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
@@ -107,12 +107,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.76
+    reward: 111.67
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.76
+    reward: 111.67
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -127,7 +127,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 83.85
+    reward: 83.78
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -138,6 +138,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 139.56
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 111.67
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 167.46
 tags:
   - historical
   - self-sovereignty

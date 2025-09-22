@@ -83,31 +83,37 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-b
 **On-chain → Lightning** : Le processus débute par la configuration du swap sur l'interface web Zeus Swap. L'utilisateur peut utiliser la flèche placée entre les champs on-chain et Lightning pour inverser le sens du swap.
 
 ![Interface de création de swap](assets/fr/01.webp)
+
 *Interface Zeus Swap : sélection du montant (50 000 sats → 49 648 sats après frais) avec affichage transparent des frais réseau (302 sats) et service Zeus (50 sats).*
 
 Pendant le processus, Zeus vous propose de télécharger la clé de récupération universelle :
 
 ![Téléchargement de la Zeus Swaps Rescue Key](assets/fr/02.webp)
+
 *Dialogue de téléchargement de la Zeus Swaps Rescue Key - clé universelle remplaçant les anciens fichiers de remboursement individuels.*
 
 Si vous possédez déjà une clé, Zeus permet de la vérifier :
 
 ![Vérification de la clé existante](assets/fr/03.webp)
+
 *Interface de vérification d'une Zeus Swaps Rescue Key existante pour s'assurer de sa validité.*
 
 Une fois configuré, Zeus génère l'adresse Bitcoin de dépôt et affiche les instructions :
 
 ![Adresse de dépôt et instructions](assets/fr/04.webp)
+
 *Page de finalisation du swap : QR code et adresse Bitcoin pour l'envoi de 50 000 sats, avec rappel du délai d'expiration de 24h.*
 
 Le swap passe ensuite en attente de confirmation Bitcoin :
 
 ![Attente de confirmation](assets/fr/05.webp)
+
 *Statut "Transaction in mempool" - attente de la confirmation Bitcoin pour finaliser le swap.*
 
 Une fois confirmé, le swap se finalise automatiquement :
 
 ![Swap réussi](assets/fr/06.webp)
+
 *Confirmation de réussite : 49 648 sats reçus sur Lightning après déduction des frais réseau et service.*
 
 ### Utilisation Zeus App
@@ -115,12 +121,15 @@ Une fois confirmé, le swap se finalise automatiquement :
 **Lightning → on-chain** : L'application Zeus offre une expérience intégrée pour les swaps reverse (Lightning vers Bitcoin).
 
 ![Navigation vers les swaps dans Zeus](assets/fr/07.webp)
+
 *Écran principal Zeus montrant les soldes Lightning (69 851 sats) et on-chain (38 018 sats), accès aux swaps via le menu latéral.*
 
 ![Configuration du swap reverse](assets/fr/08.webp)
+
 *Interface de création de swap reverse : 50 000 sats Lightning → 49 220 sats on-chain, avec frais réseau (530 sats) et service (250 sats) clairement affichés. L'utilisateur peut soit saisir manuellement une adresse Bitcoin de réception, soit en générer une automatiquement depuis le wallet Zeus via le bouton "GENERATE ON-CHAIN ADDRESS".*
 
 ![Finalisation du swap mobile](assets/fr/09.webp)
+
 *Écrans de finalisation : écran de paiement de la facture Lightning avec "PAY THIS INVOICE", confirmation de paiement Lightning réussi en 9,96 secondes, et état des soldes avec les 49 162 sats en attente de confirmation.*
 
 ### Surveillance et sécurité

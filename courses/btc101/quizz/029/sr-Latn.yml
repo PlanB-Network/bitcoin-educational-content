@@ -1,9 +1,12 @@
-question: Zašto zlato nije prenosiv materijal?
-answer: Zato što je gust i težak, što ga čini nezgodnim za nošenje u velikim količinama.
+question: Šta znači termin fiducijarni u kontekstu valuta?
+answer: Odnosi se na valute koje su vredne samo zbog poverenja u centralnu instituciju koja ih reguliše.
 wrong_answers:
-  - Zato što je previše vredno da bi se pomeralo.
-  - Zato što se ne može lako oblikovati u manje forme.
-  - Zato što je tečno na sobnoj temperaturi.
+  - Odnosi se na valute koje su podržane zlatom i koje izdaju male komercijalne banke.
+  - Odnosi se na valute koje su vredne samo za fiducijarne transakcije.
+  - Odnosi se na valute koje se koriste samo unutar određene institucije.
 explanation: |
-  Zlato je gusto i teško, što znači da nošenje velikih količina može biti fizički izazovno. Ova težina ga čini manje pogodnim za transport u poređenju sa lakšim materijalima.
+  Fiducijarne valute nisu podržane fizičkom robom
+  kao što su zlato ili srebro. Njihova vrednost proizlazi iz poverenja
+  i uverenja koje ljudi imaju u institucije koje ih izdaju
+  i regulišu.
 reviewed: true

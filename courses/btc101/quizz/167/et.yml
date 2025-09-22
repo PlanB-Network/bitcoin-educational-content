@@ -1,9 +1,9 @@
-question: Mis on peamine kriitika praeguse finantssüsteemi suhtes seoses keskkonnaga?
-answer: See soodustab üle tarbimist ja võlga
+question: Mis on üks teguritest, mis võib põhjustada Bitcoini hinna kõikumist?
+answer: Turu variatsioonid ja tõusvad ning langevad turufaasid.
 wrong_answers:
-  - See edendab fossiilkütuste kasutamist
-  - See ei investeeri taastuvenergiasse
-  - See ei reguleeri kaupade tootmist
+  - Interneti kasutajate arv.
+  - Ilmastik.
+  - Kulla hind.
 explanation: >-
-  Praegust finantssüsteemi kritiseeritakse üle tarbimise ja võla soodustamise eest, mis põhjustab tõsiseid keskkonnaprobleeme. See on tingitud kergest juurdepääsust krediidile, pankade poolt rahalise emissiooni kasutamisest ja osalise reservi panganduse kasutamisest.
-reviewed: false
+  Bitcoini hind on tihti iseloomustatud olulise volatiilsusega,
+  mida võivad mõjutada turu variatsioonid ja tõusvad ning langevad turufaasid.

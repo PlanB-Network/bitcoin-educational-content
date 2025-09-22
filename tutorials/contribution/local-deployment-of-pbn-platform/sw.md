@@ -33,7 +33,7 @@ Mafunzo haya yanatoa hatua za kina za kusanidi jukwaa, kushughulikia funguo za d
 
 
 
-**2. Funga Hifadhi **
+**2. Funga Hifadhi**
 
 Funga hazina kwa mashine yako ya karibu:
 
@@ -130,7 +130,7 @@ Ndani ya folda yako ya `../Bitcoin-learning-management-system/`, anza mazingira 
 docker compose up --build -V
 ```
 
-Pia unaendesha amri hii ifuatayo kwa njia hii, hutaona magogo kwenye terminal yako.
+Pia unaendesha amri hii ifuatayo kwa njia hii, hautaona magogo kwenye terminal yako.
 
 ```bash
 docker compose up -d --build -V
@@ -160,7 +160,7 @@ Kumbuka: kwamba programu itapakia upya kiotomatiki ikiwa utabadilisha faili zozo
 Mara ya kwanza, utahitaji kuendesha uhamishaji wa DB.
 
 
-Ili kufanya hivyo, endesha hati ya uhamiaji : `pnpm run dev:db:migrate`
+Ili kufanya hivyo, endesha hati ya uhamiaji: `pnpm run dev:db:migrate`
 
 
 ```markdown

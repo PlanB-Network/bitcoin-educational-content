@@ -1,0 +1,9 @@
+question: Which command can be used to check which interface and gateway a packet to 8.8.8.8 would be routed through?
+answer: ip route get 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - netstat -r 8.8.8.8
+explanation: |
+  ip route get <Address> shows the exact path a packet would take to reach a specific destination.
+reviewed: false

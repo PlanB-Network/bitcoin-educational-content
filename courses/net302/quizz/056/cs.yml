@@ -1,0 +1,9 @@
+question: Jaký je hlavní účel propojení sítí?
+answer: Agregace více fyzických síťových rozhraní
+wrong_answers:
+  - Přidání virtuálních adres IP do místní sítě
+  - Vytvoření mostu Wi-Fi
+  - Zmenšení velikosti paketů na kabelu RJ45
+explanation: |
+  Síťové propojení spojuje více fyzických rozhraní do jednoho logického a poskytuje redundanci nebo větší šířku pásma.
+reviewed: false

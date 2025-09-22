@@ -5,5 +5,5 @@ wrong_answers:
   - The optimization of immediate investments  
   - The ability to balance supply and demand  
 explanation: |  
-  Time preference refers to the choice of immediate consumption over deferred benefit, which influences decisions on saving and investing.  
-reviewed: false  
+  Time preference refers to the preference for immediate consumption over deferred benefits, which influences decisions on saving and investing.  
+reviewed: true  

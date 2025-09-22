@@ -1,0 +1,9 @@
+question: Tổ chức nào quản lý việc phân bổ ban đầu các khối IPv6 Address trên toàn thế giới?
+answer: IANA
+wrong_answers:
+  - Viện Tiêu chuẩn và Công nghệ Quốc gia (NIST)
+  - NCC CHÍN
+  - ARIN
+explanation: |
+  IANA nằm ở vị trí cao nhất trong hệ thống phân bổ, phân bổ các khối IPv6 cho năm Cơ quan đăng ký Internet khu vực (RIR).
+reviewed: false

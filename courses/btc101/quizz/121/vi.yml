@@ -1,9 +1,11 @@
-question: Kể từ khi được tạo ra, mạng lưới Bitcoin đã hoạt động ổn định bao nhiêu phần trăm thời gian?
-answer: 99.988%.
+question: Khi bạn tạo một kế hoạch thừa kế, điều gì không cần thiết phải bao gồm?
+answer: Tên của ví Bitcoin mà bạn thường sử dụng.
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
+  - Một bức thư viết tay liệt kê các tài sản của bạn.
+  - Mô tả cách truy cập vào quỹ của bạn.
+  - Thông tin liên lạc của những người đáng tin cậy.
 explanation: |
-  Tính sẵn có trực tuyến của Bitcoin là 99.988% kể từ năm 2009.
+  việc tạo một kế hoạch thừa kế là bước quan trọng để đảm bảo rằng bitcoin của bạn sẽ được quản lý đúng cách sau khi bạn qua đời.
+  Kế hoạch này có thể bao gồm một bức thư viết tay liệt kê các tài sản của bạn,
+  phương pháp truy cập vào chúng, và thông tin liên lạc của những người đáng tin cậy để liên hệ
 reviewed: true

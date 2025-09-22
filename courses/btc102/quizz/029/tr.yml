@@ -1,0 +1,9 @@
+question: Bitcoin madenciliği (mining) için ASIC (uygulamaya özel entegre devreler-bilgisayar çipleri) tasarlayan başlıca şirket hangisidir?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry ABD
+explanation: |
+  Bitmain, Bitcoin Mining için özel donanımların önde gelen üreticilerinden biridir.
+reviewed: false

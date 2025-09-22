@@ -4,12 +4,15 @@ description: 在 Green Wallet 上設定 2/2 Multisig
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***注意：** 自2025年5月起，將無法再啟用受雙重驗證（2FA）保護的新帳戶。此功能僅適用於先前已啟用此類帳戶的使用者。*
+
+___
 
 Software Wallet 是安裝在電腦、智慧型手機或其他連網裝置上的應用程式，可讓您管理並保護 Bitcoin Wallet 金鑰。與隔離私人金鑰的硬體錢包不同，"Hot "錢包因此會在可能遭受網路攻擊的環境中運作，增加盜版和竊取的風險。
 
-
 軟體錢包應該用來管理合理數量的比特幣，尤其是用於日常交易。對於 Bitcoin 資產有限的人來說，軟體錢包也是一個有趣的選擇，因為對他們來說，投資 Hardware Wallet 似乎不相稱。然而，它們經常暴露在網際網路中，對於儲存長期儲蓄或大筆資金而言，安全性較低。對於後者，最好選擇更安全的解決方案，例如硬體錢包。
-
 
 在本教程中，我將向您介紹如何使用 Blockstream Green 上的 "*2FA*"選項來提高 Hot Wallet 的安全性。
 
@@ -29,7 +32,7 @@ Green 是一款特別容易使用的應用程式，因此對初學者來說非�
 Blockstream Green 也支援 Liquid Network，這是 Blockstream 為 fast 開發的 Bitcoin Sidechain，Confidential Transactions 以外主要是 Blockchain。在本教程中，我們專注於 Bitcoin，但我也做了另一個教程，學習如何在 Green 上使用 Liquid ：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 Multisig 選項 (2FA)
 
@@ -58,7 +61,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-
 如果您不想使用 2FA 選項，而只想在 Green 上設定一個 "*singlesig*"Green 上的 Wallet，我邀請您參閱此其他教學 ：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 安裝和設定 Blockstream Green 軟體
 
@@ -79,7 +82,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
 
-啟動應用程式，然後勾選「我接受條件...*」方塊。
+啟動應用程式，然後勾選「我接受條件...」方塊。
 
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
@@ -145,7 +148,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-
 然後您可以選擇 12 個字或 24 個字的 Mnemonic 詞組。當您的手機發生問題時，這個詞組可讓您從任何相容的軟體恢復存取 Wallet。目前，選擇 24 字短語不會比 12 字短語更安全。因此，我建議您選擇 12 個字的 Mnemonic 詞組。
 
 
-Green 接著會提供您 Mnemonic 的詞組。在繼續之前，請確定您沒有被監視。按一下「*Show recovery phrase*（顯示復原詞組*）」，將其顯示在螢幕上。
+Green 接著會提供您 Mnemonic 的詞組。在繼續之前，請確定您沒有被監視。按一下「**Show recovery phrase**（顯示復原詞組）」，將其顯示在螢幕上。
 
 
 ![GREEN 2FA MULTISIG](assets/fr/15.webp)
@@ -157,7 +160,7 @@ Green 接著會提供您 Mnemonic 的詞組。在繼續之前，請確定您沒�
 它可讓您在手機遺失、遭竊或損壞時恢復本機鑰匙的存取權。因此，小心備份**在實體媒體（非數位）**上，並將其存放在安全的地方是非常重要的。您可以將它寫在一張紙上，或者為了增加安全性，如果是大型的 Wallet，我建議將它刻在不銹鋼支架上，以防止火災、水災或倒塌的風險（對於專門用來保護少量比特幣的 Hot Wallet，簡單的紙張備份可能就足夠了)。
 
 
-*顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。本範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。
+**顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。本範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。**
 
 
 ![GREEN 2FA MULTISIG](assets/fr/16.webp)
@@ -237,7 +240,7 @@ Green 接著會顯示 QR 碼和復原金鑰。此密鑰可讓您在遺失 Authy 
 ![GREEN 2FA MULTISIG](assets/fr/26.webp)
 
 
-*顯然，您絕對不能在網路上分享此密鑰和 QR 碼，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。
+**顯然，您絕對不能在網路上分享此密鑰和 QR 碼，就像我在本教程中所做的一樣。這個範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。**
 
 
 按一下「*繼續*」按鈕。
@@ -393,4 +396,4 @@ Green 接著會在您的 Wallet 中顯示第一個空白的接收 Address。您�
 我也建議您查看 Blockstream Green 手機應用程式設定 Liquid Wallet 的其他綜合教學：
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

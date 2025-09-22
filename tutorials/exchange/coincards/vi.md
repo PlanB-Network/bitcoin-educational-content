@@ -1,5 +1,5 @@
 ---
-name: Thẻ Coincards
+name: Coincards
 description: Làm thế nào tôi có thể mua hàng hóa và dịch vụ bằng BTC với Coincards?
 ---
 ![cover](assets/cover.webp)
@@ -67,7 +67,7 @@ Coincards cam kết bảo vệ quyền riêng tư của bạn. Họ cho phép b�
 
 
 
-Bạn có thể tìm thấy một số hướng dẫn về danh mục đầu tư Lightning chính (Phoenix, Breez, BitKit, Zeus...) tại đây: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Bạn có thể tìm thấy một số hướng dẫn về danh mục đầu tư Lightning chính (Phoenix, Breez, BitKit, Zeus...) tại đây: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

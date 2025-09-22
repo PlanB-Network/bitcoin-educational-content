@@ -1,9 +1,12 @@
-question: Lightning Network tạo ra loại mạng lưới nào?
-answer: Một mạng lưới của các kênh thanh toán.
+question: Mục đích chính của Lightning Network là gì?
+answer: Để tạo điều kiện cho các giao dịch nhỏ.
 wrong_answers:
-  - Một mạng lưới của các nút đào.
-  - Một mạng lưới của các nút blockchain.
-  - Một mạng lưới của các sàn giao dịch tiền mã hóa.
+  - Để tăng giá trị của Bitcoin.
+  - Để thay thế giao thức Bitcoin.
+  - Để tạo ra một loại tiền mã hóa mới.
 explanation: >-
-  Lightning Network hoạt động như một mạng lưới của các kênh thanh toán, cho phép thực hiện các giao dịch tức thì với phí thấp cho người gửi.
+  Lightning Network là một giải pháp tầng thứ hai cho giao thức Bitcoin
+  nhằm mục đích tạo điều kiện cho các giao dịch nhỏ, đó là các giao dịch có giá trị rất thấp
+  mà nếu không sẽ trở nên không thực tế do phí cao và thời gian xác nhận lâu
+  trên blockchain của Bitcoin.
 reviewed: true

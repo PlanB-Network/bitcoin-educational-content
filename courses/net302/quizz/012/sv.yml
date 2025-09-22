@@ -1,0 +1,9 @@
+question: Vad är det numeriska värdet för den klassiska Internetprotokollversionen (IPv4)?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 motsvarar värdet 4 i fältet "Version" i IP-rubriken.
+reviewed: false

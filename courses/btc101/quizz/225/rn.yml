@@ -1,0 +1,8 @@
+question: Ni bangahe ubunini bw’ibarabara riri muri porotokole ya Bitcoin?
+answer: 4MB.
+wrong_answers:
+  - 1MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
+reviewed: true

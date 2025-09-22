@@ -1,0 +1,12 @@
+question: Vad är Wei Dais B-pengar?
+answer: En idé om en anonym digital valuta där bedrägerier upptäcks av en grupp utvärderare snarare än av en central myndighet.
+wrong_answers:
+  - En digital valuta som användes flitigt före Bitcoin och som kontrollerades av en grupp cypherpunks.
+  - En form av digitala pengar som skapades av CIA och användes av militären.
+  - En digital valuta som skapades av Wei Dai som en konkurrent till Bitcoin för att vara mer skalbar.
+explanation: |
+  Wei Dais b-pengar var idén om en anonym digital valuta utan
+  valuta utan någon central enhet som starkt inspirerade skapandet av
+  skapandet av Bitcoin. Faktum är att det citeras i Bitcoin
+  vitbok.
+reviewed: true

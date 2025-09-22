@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Fares CHELLOUG opublikowanej na [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Fares CHELLOUG opublikowanej na [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -22,7 +22,7 @@ ___
 
 
 
-**W tym poradniku nauczymy się jak przeprowadzić audyt bezpieczeństwa na maszynie z systemem Linux przy użyciu Lynis! Dla tych z was, którzy nie znają **Lynis,** jest to małe narzędzie wiersza poleceń, które przeanalizuje konfigurację twojego serwera i wyda zalecenia dotyczące **poprawy bezpieczeństwa twojej maszyny**
+**W tym poradniku nauczymy się jak przeprowadzić audyt bezpieczeństwa na maszynie z systemem Linux przy użyciu Lynis!** Dla tych z was, którzy nie znają **Lynis**, jest to małe narzędzie wiersza poleceń, które przeanalizuje konfigurację twojego serwera i wyda zalecenia dotyczące **poprawy bezpieczeństwa twojej maszyny**.
 
 
 
@@ -82,7 +82,7 @@ Ten tryb instalacji pozwala na użycie polecenia **lynis** z dowolnego miejsca w
 
 
 
-Połącz się z serwerem przez SSH i wprowadź następujące polecenia, aby zainstalować Lynis :
+Połącz się z serwerem przez SSH i wprowadź następujące polecenia, aby zainstalować Lynis:
 
 
 
@@ -209,7 +209,7 @@ Aby wyświetlić dostępne polecenia, wystarczy wpisać następującą komendę:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ To jest to, co otrzymujesz:
 
 
 
-Aby wyświetlić wszystkie opcje, należy wprowadzić :
+Aby wyświetlić wszystkie opcje, należy wprowadzić:
 
 
 
@@ -321,10 +321,10 @@ Następnie Lynis wymieni zestaw punktów odpowiadających wszystkiemu, co sprawd
 
 
 
-- Czerwony** dla krytycznego Elements lub nieprzestrzegania najlepszych praktyk (na przykład brakujący pakiet), tj. serwer nie przestrzega tego punktu
-- Żółty** dla sugestii lub częściowej zgodności z zaleceniem (powiedzmy, że plusem jest zgodność z punktem wyróżnionym tym kolorem (niepriorytetowym))
-- Green** dla punktów, w których konfiguracja serwera jest zgodna
-- Biały**, gdy neutralny
+- **Czerwony** dla krytycznego Elements lub nieprzestrzegania najlepszych praktyk (na przykład brakujący pakiet), tj. serwer nie przestrzega tego punktu
+- **Żółty** dla sugestii lub częściowej zgodności z zaleceniem (powiedzmy, że plusem jest zgodność z punktem wyróżnionym tym kolorem (niepriorytetowym))
+- **Green** dla punktów, w których konfiguracja serwera jest zgodna
+- **Biały**, gdy neutralny
 
 
 
@@ -336,7 +336,7 @@ Tutaj widzimy, że Lynis zaleca zainstalowanie **fail2ban**:
 
 
 
-W sekcji "**Boot i usługi**" widzimy, że ochrona usług przez *systemd* mogłaby zostać poprawiona. Z drugiej strony, Grub2 jest obecny i nie ma problemów z uprawnieniami na :
+W sekcji "**Boot i usługi**" widzimy, że ochrona usług przez *systemd* mogłaby zostać poprawiona. Z drugiej strony, Grub2 jest obecny i nie ma problemów z uprawnieniami na:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Niektóre informacje o zainstalowanych pakietach :
+Niektóre informacje o zainstalowanych pakietach:
 
 
 
 
 
-- Clamav** to program antywirusowy.
-- unattend-upgrades** umożliwia automatyczne zarządzanie aktualizacjami, a nawet ponowne uruchomienie komputera lub automatyczne usuwanie starych pakietów, jest w pełni konfigurowalny.
-- rkhunter** to antyrootkit, który skanuje system plików.
-- Fail2ban** będzie bazował na plikach dziennika zgodnie z tym, co dasz mu do odczytu i będzie współpracował z **iptables**, na przykład w celu zablokowania adresów IP, które próbują "brute force" twojego serwera w SSH.
+- **Clamav** to program antywirusowy.
+- **unattend-upgrades** umożliwia automatyczne zarządzanie aktualizacjami, a nawet ponowne uruchomienie komputera lub automatyczne usuwanie starych pakietów, jest w pełni konfigurowalny.
+- **rkhunter** to antyrootkit, który skanuje system plików.
+- **Fail2ban** będzie bazował na plikach dziennika zgodnie z tym, co dasz mu do odczytu i będzie współpracował z **iptables**, na przykład w celu zablokowania adresów IP, które próbują "brute force" twojego serwera w SSH.
 
 
 
@@ -623,7 +623,7 @@ Przyjrzyjmy się zaleceniom SSH. Są one wymienione poniżej. Nie martw się, za
 
 
 
-Przyjrzyjmy się bliżej mojej obecnej konfiguracji **SSH** w :**/etc/ssh/sshd_config**
+Przyjrzyjmy się bliżej mojej obecnej konfiguracji **SSH** w:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Sugerowana poniżej konfiguracja może być jeszcze zoptymalizowana, ale daje do
 
 
 
-Będziemy :
+Będziemy:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Zachowanie uwierzytelniania hasłem :
+- Zachowanie uwierzytelniania hasłem:
 
 
 
@@ -804,7 +804,7 @@ Warto zauważyć, że w niektórych jurysdykcjach wysłanie wiadomości przed uw
 
 
 
-W obrazach daje to :
+W obrazach daje to:
 
 
 
@@ -820,7 +820,7 @@ Na koniec nie zapomnijmy sprawdzić **wyniku audytu Lynis**! Widzimy, że **mój
 
 
 
-**Innymi słowy, im wyższy wynik, tym lepiej! Dlatego należy pracować nad konfiguracją, aby osiągnąć jak najwyższy wynik, jednocześnie umożliwiając normalne działanie maszyny i hostowanych usług (co oznacza przeprowadzanie testów funkcjonalnych).
+**Innymi słowy, im wyższy wynik, tym lepiej! Dlatego należy pracować nad konfiguracją, aby osiągnąć jak najwyższy wynik, jednocześnie umożliwiając normalne działanie maszyny i hostowanych usług (co oznacza przeprowadzanie testów funkcjonalnych).**
 
 
 
@@ -896,4 +896,4 @@ Wreszcie, można również porównać **Lynis** z innymi narzędziami, których 
 
 
 
-**Tutorial dobiegł końca, miłej zabawy z Lynis!
+**Tutorial dobiegł końca, miłej zabawy z Lynis!**

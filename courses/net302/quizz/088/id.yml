@@ -1,0 +1,9 @@
+question: Perintah Linux mana yang menampilkan tabel perutean jaringan yang aktif?
+answer: pertunjukan rute ip
+wrong_answers:
+  - ifconfig -a
+  - rute ping
+  - netstat -s
+explanation: |
+  ip route show menampilkan daftar rute yang diketahui oleh kernel dan jalur yang diambil oleh paket IP.
+reviewed: false

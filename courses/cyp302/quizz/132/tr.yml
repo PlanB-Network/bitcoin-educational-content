@@ -1,0 +1,9 @@
+question: Bir Bitcoin işleminde, senaryonun kilidini açarak fonların Ownership'ını kanıtlamak için genellikle hangi teknoloji kullanılır?
+answer: Dijital imzalar
+wrong_answers:
+  - Dijital sertifikalar
+  - Simetrik şifreleme
+  - Mesaj Kimlik Doğrulama Kodları (MAC)
+explanation: |
+  Bitcoin'deki dijital imzalar, bir UTXO'ü güvence altına alan senaryonun kilidini açmak için işlemleri özel bir anahtarla imzalayarak fonlara sahip olunduğunu kanıtlar.
+reviewed: false

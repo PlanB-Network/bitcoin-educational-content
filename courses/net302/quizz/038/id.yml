@@ -1,0 +1,9 @@
+question: Berapa kisaran CIDR yang mewakili ukuran blok IPv4 yang dialokasikan oleh IANA ke RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA membagi ruang IPv4 ke dalam blok-blok dengan ukuran /8, masing-masing berisi 2^24 alamat.
+reviewed: false

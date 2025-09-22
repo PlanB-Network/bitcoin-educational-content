@@ -1,5 +1,5 @@
 ---
-name: Монетные карточки
+name: Coincards
 description: Как я могу покупать товары и услуги в BTC с помощью Coincards?
 ---
 ![cover](assets/cover.webp)
@@ -67,7 +67,7 @@ Coincards обязуется сохранять вашу конфиденциа�
 
 
 
-Подборку руководств по основным портфелям Lightning (Phoenix, Breez, BitKit, Zeus...) можно найти здесь: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Подборку руководств по основным портфелям Lightning (Phoenix, Breez, BitKit, Zeus...) можно найти здесь: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

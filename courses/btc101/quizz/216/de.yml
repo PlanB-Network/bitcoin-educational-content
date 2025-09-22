@@ -1,12 +1,11 @@
-question: Was ist der Status von Bitcoin in El Salvador?
-answer: Gesetzliches Zahlungsmittel.
+question: Was ist das Blockchain-Trilemma?
+answer: Ein auf einer Blockchain basierendes Protokoll kann nur zwei der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
 wrong_answers:
-  - Kriminalisiert.
-  - Unbekannt.
-  - Unreguliert.
+  - Ein auf einer Blockchain basierendes Protokoll kann nur eines der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
+  - Ein auf einer Blockchain basierendes Protokoll kann alle Kriterien der Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
+  - Ein auf einer Blockchain basierendes Protokoll kann keines der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
 explanation: |
-  Der Kursinhalt erwähnt, dass einige Länder die Verwendung von Bitcoin verboten
-  und kriminalisiert haben, was die Komplexität der Bitcoin-Adoption basierend auf Kulturen, Epochen und
-  Nationen erhöht. El Salvador war jedoch mutig genug, es
-  als gesetzliches Zahlungsmittel zu adoptieren.
+  Das Blockchain-Trilemma bezieht sich auf die Herausforderung, dass
+  ein auf einer Blockchain basierendes Protokoll nur zwei Kriterien aus
+  Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen kann.
 reviewed: true

@@ -118,7 +118,7 @@ Układy ASIC to układy porównywalne z układami CPU, jednak zostały one oprac
 Obecnie górnicy używają wyłącznie układów ASIC dedykowanych tej operacji, zoptymalizowanych pod kątem testowania maksymalnej liczby kombinacji przy jak najmniejszym zużyciu energii i tak szybko, jak to możliwe. Komputery te, niezdolne do wykonywania zadań innych niż Bitcoin Mining, są namacalnym świadectwem ciągłej ewolucji i rosnącej specjalizacji branży Bitcoin Mining. Ta ciągła ewolucja odzwierciedla wewnętrzną dynamikę Bitcoin, gdzie dostosowanie trudności zapewnia produkcję bloku co dziesięć minut, pomimo wykładniczego wzrostu wydajności Mining.
 
 
-Aby zilustrować intensywność tego procesu, rozważmy typowy Miner zdolny do osiągnięcia 14 TeraHash na sekundę lub 14 bilionów prób w każdej sekundzie, aby znaleźć prawidłowy Hash. W skali sieci Bitcoin osiągamy teraz około 300 HexaHash na sekundę, podkreślając zbiorową moc zmobilizowaną w Bitcoin Mining.
+Aby zilustrować intensywność tego procesu, rozważmy typowy Miner zdolny do osiągnięcia 14 TeraHash na sekundę lub 14 bilionów prób w każdej sekundzie, aby znaleźć prawidłowy Hash. W skali sieci Bitcoin osiągamy teraz około 300 ExaHash na sekundę, podkreślając zbiorową moc zmobilizowaną w Bitcoin Mining.
 
 
 ### Dostosowanie trudności
@@ -522,7 +522,7 @@ Kwestia ta może stać się problematyczna i stanowi poważne zagrożenie dla ne
 Kiedy Miner wychodzi z fabryki, nie nadaje się do użytku jako grzejnik w domu, ze względu na dwa główne problemy: nadmierny hałas i brak regulacji. Problemy te można jednak łatwo rozwiązać za pomocą modyfikacji sprzętu i oprogramowania, co pozwala na uzyskanie znacznie cichszego Miner, który można skonfigurować i zautomatyzować jak nowoczesne grzejniki elektryczne.
 
 
-**Attakaï to inicjatywa edukacyjna, która uczy, jak zmodernizować Antminer S9 w najbardziej opłacalny sposób
+**Attakaï to inicjatywa edukacyjna, która uczy, jak zmodernizować Antminer S9 w najbardziej opłacalny sposób**
 
 
 Jest to doskonała okazja, aby uczyć się poprzez praktykę, a jednocześnie być nagradzanym za udział w satoshis bez KYC.
@@ -614,7 +614,7 @@ Następnie można usunąć Mining pool poprzedniego właściciela, aby później
 Po zapoznaniu się z tymi wszystkimi punktami, możesz kupić swoją maszynę z dużym stopniem pewności. W razie wątpliwości należy skonsultować się ze społecznością.
 
 
-Podsumowując ten przewodnik w jednym zdaniu: **"Nie ufaj, weryfikuj"
+Podsumowując ten przewodnik w jednym zdaniu: **"Nie ufaj, weryfikuj"**
 
 
 [Można również zwrócić się do profesjonalistów w dziedzinie regeneracji maszyn Mining, takich jak nasz partner 21energy. Oferują oni przetestowane maszyny S9, wyczyszczone i z zainstalowanym oprogramowaniem BraiiinOS+. Z kodem partnerskim "decouvre" otrzymasz 10% zniżki na zakup S9, wspierając jednocześnie projekt Attakai](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)

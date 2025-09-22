@@ -1,5 +1,5 @@
 ---
-name: Mini Miner Braiins
+name: Braiins Mini Miner
 description: Snadná výroba Mining z domova.
 ---
 ![cover](assets/cover.webp)

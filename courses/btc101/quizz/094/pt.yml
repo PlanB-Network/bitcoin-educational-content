@@ -1,14 +1,11 @@
-question: Qual é o risco de usar uma carteira multisig?
-answer: Não ter acesso a chaves privadas individuais ou componentes de backup suficientes.
+question: Qual é o método padrão para restaurar sua carteira?
+answer: Inserir sua frase mnemônica em qualquer software de carteira.
 wrong_answers:
-  - Ter acesso a chaves privadas individuais ou componentes de backup suficientes.
-  - Compartilhar suas chaves privadas com outras partes.
-  - Compartilhar suas chaves públicas com outras partes.
+  - Salvar sua frase mnemônica em um arquivo digital.
+  - Escrever sua frase mnemônica em um quadro branco.
+  - Compartilhar sua frase mnemônica com um amigo de confiança.
 explanation: |
-  Ao usar uma carteira multisig, cada chave privada do
-  multisig deve ser armazenada em locais diferentes. Isso é
-  porque o multisig requer múltiplas assinaturas para realizar
-  uma transação, então um certo número de carteiras são
-  necessárias. Assim, armazenar cada parte em um local diferente
-  adiciona uma camada extra de segurança.
-reviewed: true
+  O método padrão de fazer backup da chave privada em uma
+  carteira Bitcoin é inserindo sua frase mnemônica em qualquer
+  software de carteira. Isso permite que você restaure sua carteira.
+reviewed: false

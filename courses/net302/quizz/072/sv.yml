@@ -1,0 +1,9 @@
+question: Vilken typ av IPv6-blockering gör att ett företag kan behålla sitt prefix även när det byter ISP?
+answer: PI (oberoende leverantör)
+wrong_answers:
+  - PA (leverantör aggregerbar)
+  - LIR (lokalt internetregister)
+  - IP (utbytbar leverantör)
+explanation: |
+  Ett PI-block (Provider Independent) tilldelas direkt till en organisation av en RIR, oberoende av Internetleverantören.
+reviewed: false

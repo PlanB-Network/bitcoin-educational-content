@@ -156,7 +156,7 @@ Da li ste spremni da u potpunosti preuzmete kontrolu nad svojom IT sigurnošću,
 
 
 
-*N.B.: Ako naiđete na bilo koje nepoznate pojmove tokom kursa, molimo vas da se obratite [rečniku](https://planb.network/resources/glossary) za definicije
+*N.B.: Ako naiđete na bilo koje nepoznate pojmove tokom kursa, molimo vas da se obratite [rečniku](https://planb.network/resources/glossary) za definicije*
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman otvoreno kritikuje upotrebu termina "open source", smatrajući 
 
 
 
-*Izvor: Nathaniel Welch
+**Izvor: Nathaniel Welch**
 
 
 
@@ -794,7 +794,7 @@ Ovi rani napori označili su rođenje Linux distribucija:
 
 
 
-- Februar 1992: MCC Privremeni Linux**
+- Februar 1992: MCC Privremeni **Linux**
 
 
 
@@ -804,7 +804,7 @@ Razvijen na Univerzitetu u Mančesteru, MCC Interim Linux se smatra prvom Linux 
 
 
 
-- Maj 1992: Softlanding Linux System (SLS)**
+- Maj 1992: **Softlanding Linux System (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS više ne postoji. Njegova poslednja poznata verzija datira iz kasne 1994. go
 
 
 
-- Jul 1993: Slackware**
+- Jul 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware se i dalje održava danas, što ga čini najstarijom Linux distribucij
 
 
 
-- Avgust 1993: Debian**
+- Avgust 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Debian je tako postao jedan od tehničkih i ideoloških stubova GNU/Linux sveta,
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -1050,7 +1050,7 @@ Izbor Linux distribucije zavisi od vaših specifičnih potreba, vašeg tehničko
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1062,11 +1062,11 @@ Razvijen od strane Canonical-a i lansiran 2004. godine, Ubuntu je jedna od najpo
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1074,7 +1074,7 @@ Pokrenut 2006. godine, Linux Mint je distribucija izvedena iz Ubuntu-a, dizajnir
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint se ističe svojom jednostavnošću, prisustvom multimedijalnih kodeka po defaultu i dobro dizajniranim alatom za ažuriranje. S druge strane, u velikoj meri se oslanja na Ubuntu infrastrukturu, što ga čini zavisnim od Ubuntu-ovih tehničkih izbora (posebno na nivou kernela i repozitorijuma). Mint je posebno pogodan za netehničke korisnike, ili one koji žele sistem spreman za upotrebu koji ne zahteva previše učenja.
 
@@ -1086,7 +1086,7 @@ Mint se ističe svojom jednostavnošću, prisustvom multimedijalnih kodeka po de
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,7 +1104,7 @@ Instalacija je glatka, osnovni softver je unapred instaliran, a "Lite" verzija v
 
 
 
-- elementary OS**:
+- **elementary OS**:
 
 Pokrenut 2011. godine, elementary OS je distribucija zasnovana na Ubuntu-u koja se pre svega fokusira na dizajn i doslednost Interface. Njegovo radno okruženje Pantheon, inspirisano macOS-om, je minimalističko, elegantno i fluidno. Međutim, sistem ostaje manje prilagodljiv od drugih distribucija, i neki napredni korisnici mogu se osećati ograničeno izborima Interface i njegovom namerno zaključanom strukturom. Dobro je prilagođen estetski osetljivim korisnicima koji traže jednostavan, koherentan sistem za svakodnevnu upotrebu.
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Razvijen od strane američke kompanije System76, Pop!OS je takođe zasnovan na U
 
 
 
-- Fedora** (Workstation ili KDE Plasma):
+- **Fedora** (Workstation ili KDE Plasma):
 
 
 
@@ -1154,7 +1154,7 @@ Fedora je distribucija podržana od strane Red Hat-a, usmerena ka najnovijim teh
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed ili Leap):
+- **openSUSE** (Tumbleweed ili Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE je dostupan kao rolling release ili stabilna distribucija. Sadrži YaST
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,7 +1182,7 @@ Debian postoji u nekoliko grana, uključujući *Stable* (veoma pouzdan, ali sa s
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Baziran na Arch-u, Manjaro čini Arch Linux pristupačnim. Ova distribucija nudi
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### Specijalizovana distribucija
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux je distribucija zasnovana na Debianu, dizajnirana za testiranje penetracije i bezbednosnu reviziju. Uključuje stotine alata za pentest. Ova distribucija nije baš pogodna kao glavni sistem za svakodnevnu upotrebu.
 
@@ -1224,7 +1224,7 @@ Kali Linux je distribucija zasnovana na Debianu, dizajnirana za testiranje penet
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS je takođe izveden iz Debiana. Nudi okruženje za pentesting, ofanzivn
 
 
 
-- Repovi**:
+- **Repovi**:
 
 
 
@@ -1246,7 +1246,7 @@ Tails je distribucija zasnovana na Debianu, fokusirana na privatnost. Sve prolaz
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Napomena:** Živa distribucija je Linux operativni sistem koji se može koristiti direktno sa USB stika ili CD-a, bez instalacije na Hard disk.
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating%20system/tails-15108
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OS je zasnovan na Fedora sistemu i koristi Xen virtualizacioni sistem za p
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch je pentest-orijentisano proširenje za Arch Linux (kao Kali na Debianu
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1300,9 +1300,9 @@ PureOS je distribucija izvedena iz Debiana koju razvija Purism, potpuno besplatn
 
 
 
-- Raspberry Pi OS**:
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (ranije Raspbian) je distribucija optimizovana za Raspberry Pi mikroračunare. Bazirana je na Debianu, sa paketima rekompajliranim za ARM arhitekturu. Može se koristiti za obrazovne projekte, elektronsko testiranje ili male lične servere.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (ranije Raspbian) je distribucija optimizovana za Raspberry Pi m
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1326,36 +1326,23 @@ Whonix kombinuje Debian sa Tor mrežom u arhitekturi sa dve VM (gateway + workst
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Ova panorama vam daje pregled trenutnog ekosistema Linux distribucija, omogućavajući vam da odaberete distribuciju koja najbolje odgovara vašem tehničkom profilu i ciljevima.
-
-
 
 U sledećem poglavlju SCU202, detaljnije ćemo razmotriti praktično Linux okruženje, počevši od grafičkih okruženja koja čine osnovu vaših svakodnevnih interakcija sa sistemom.
 
-
-
 ## Linux desktop okruženja
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 U GNU/Linux sistemu, okruženje radne površine igra jednu od najvažnijih uloga u korisničkom iskustvu. To je grafički Layer koji omogućava interakciju sa sistemom, zasnovan na poznatim vizuelnim prikazima: prozori, meniji, ikone, paneli i unapred instalirane aplikacije.
-
-
 
 U ovom poglavlju istražujem strukturu i ulogu desktop okruženja, njegove tipične komponente, glavne dostupne porodice, kriterijume za odabir i njihovu integraciju u najpopularnije Linux distribucije.
 
-
-
 ### Šta je kancelarijsko okruženje?
 
-
-
 Radno okruženje (ili "*DE*" za *Desktop Environment*) odnosi se na skup programa koji čine kompletan grafički Interface operativnog sistema. Na Windows i macOS sistemima, jedno radno okruženje je ponuđeno po defaultu, integrisano u sistem, bez mogućnosti potpunog menjanja (postoje samo određene ljuske za delimičnu modifikaciju Interface). Linux sistemi, s druge strane, su mnogo modularniji, tretirajući radno okruženje kao nezavisnu komponentu koja se može slobodno zameniti.
-
-
 
 U Linuxu je važno jasno razlikovati sve slojeve: kernel (koji upravlja interakcijom sa hardverom), server za prikaz (koji deluje kao posrednik između aplikacija, grafičkih drajvera i hardvera preko kernela), i na kraju sam desktop okruženje, koje se oslanja na ovu infrastrukturu da bi korisniku isporučilo koherentan grafički Interface. Ova razlika ponekad može biti manje jasna, jer mnoge Linux distribucije dolaze sa unapred instaliranim desktop okruženjem koje ponekad uključuje sopstveni Wayland kompozitor, koji tada deluje kao server za prikaz.
 
@@ -1375,55 +1362,55 @@ Radno okruženje u Linux distribuciji nije jedna aplikacija, već koherentan sku
 
 
 
-- Menadžer prozora**: crta okvire prozora, upravlja njihovim postavljanjem, promenom veličine i efektima prelaza... Na primer: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Menadžer prozora**: crta okvire prozora, upravlja njihovim postavljanjem, promenom veličine i efektima prelaza... Na primer: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Menadžer fajlova**: omogućava vam da se krećete kroz stablo direktorijuma, vizuelno kopirate, premještate ili brišete fajlove. Primeri: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Menadžer fajlova**: omogućava vam da se krećete kroz stablo direktorijuma, vizuelno kopirate, premještate ili brišete fajlove. Primeri: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Centar za konfiguraciju**: ovo je skup alata koji omogućava korisniku da modifikuje sistemske parametre bez korišćenja komandne linije: izgled, pozadina, upravljanje korisnicima, mreža, periferije...
+- **Centar za konfiguraciju**: ovo je skup alata koji omogućava korisniku da modifikuje sistemske parametre bez korišćenja komandne linije: izgled, pozadina, upravljanje korisnicima, mreža, periferije...
 
 
 
 
 
-- Sistemski apleti**: ovo su male ikone i interaktivni moduli u traci zadataka (ili "panelu"), kao što su kontrola zvuka, nivo baterije, mrežna veza, sat...
+- **Sistemski apleti**: ovo su male ikone i interaktivni moduli u traci zadataka (ili "panelu"), kao što su kontrola zvuka, nivo baterije, mrežna veza, sat...
 
 
 
 
 
-- Panel ili kontrolna tabla**: vidljiva traka, često na vrhu ili dnu ekrana, koja sadrži glavni meni, sistemske aplete, prečice, zonu za obaveštenja, itd.
+- **Panel ili kontrolna tabla**: vidljiva traka, često na vrhu ili dnu ekrana, koja sadrži glavni meni, sistemske aplete, prečice, zonu za obaveštenja, itd.
 
 
 
 
 
-- Menadžer sesije**: pokreće se pri pokretanju sistema, prikazuje ekran za prijavu i pokreće izabranu grafičku sesiju. Na primer: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Menadžer sesije**: pokreće se pri pokretanju sistema, prikazuje ekran za prijavu i pokreće izabranu grafičku sesiju. Na primer: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Upravljač obaveštenjima**: upravlja prikazom sistemskih obaveštenja (poruke, upozorenja, ažuriranja, itd.). Na primer: dunst, Plasma-notifier, xfce4-notifyd.
+- **Upravljač obaveštenjima**: upravlja prikazom sistemskih obaveštenja (poruke, upozorenja, ažuriranja, itd.). Na primer: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 kompozitor (opciono)**: dodaje vizuelne efekte (senke, transparentnost, animacije) u okruženjima gde menadžer prozora ne podržava kompoziting. Na primer: compton, picom.
+- **X11 kompozitor (opciono)**: dodaje vizuelne efekte (senke, transparentnost, animacije) u okruženjima gde menadžer prozora ne podržava kompoziting. Na primer: compton, picom.
 
 
 
 
 
-- Server za prikaz**: ovo je softver koji upravlja komunikacijom između sistema (putem kernela i grafičkih drajvera) i grafičkih aplikacija. Prikazuje prozore na ekranu i upravlja unosima sa tastature i miša. Server za prikaz je često drugačija komponenta desktop okruženja, ali sve više sistema usvaja Wayland, moderan protokol gde ulogu servera za prikaz može direktno preuzeti menadžer prozora (npr. Mutter pod GNOME ili KWin pod KDE). Ovo se tada naziva "Wayland kompozitovanje".
+- **Server za prikaz**: ovo je softver koji upravlja komunikacijom između sistema (putem kernela i grafičkih drajvera) i grafičkih aplikacija. Prikazuje prozore na ekranu i upravlja unosima sa tastature i miša. Server za prikaz je često drugačija komponenta desktop okruženja, ali sve više sistema usvaja Wayland, moderan protokol gde ulogu servera za prikaz može direktno preuzeti menadžer prozora (npr. Mutter pod GNOME ili KWin pod KDE). Ovo se tada naziva "Wayland kompozitovanje".
 
 
 
@@ -1890,7 +1877,7 @@ Kada pokrenete Ubuntu, čarobnjak za instalaciju vodi vas korak po korak. Pratit
 
 
 
-- Instalacija pored Windows-a (*dual boot*)**
+- Instalacija pored Windows-a (*dual boot*)
 
 
 
@@ -1915,7 +1902,7 @@ Da biste to uradili kako treba, preporučujem da prvo kreirate nealokovanu parti
 
 
 
-- Potpuna zamena Windows-a**
+- **Potpuna zamena Windows-a**
 
 
 
@@ -2033,10 +2020,10 @@ Svako spremište je podeljeno na sekcije. Po defaultu, Ubuntu aktivira četiri g
 
 
 
-- main**: besplatan softver zvanično održavan od strane Canonical-a. Primeri: Firefox, LibreOffice, bash
-- restricted**: non-free software that is essential for the hardware to function properly. Examples: NVIDIA drivers, Wi-Fi firmware, proprietary codecs
-- universe**: besplatan softver koji održava zajednica. Primeri: GIMP, Inkscape, Audacity
-- multiverse**: softver podložan pravnim ograničenjima (patenti, neliberalne licence). Dostupnost može varirati u zavisnosti od zemlje. Primeri: određeni audio/video kodeci, Steam
+- **main**: besplatan softver zvanično održavan od strane Canonical-a. Primeri: Firefox, LibreOffice, bash
+- **restricted**: non-free software that is essential for the hardware to function properly. Examples: NVIDIA drivers, Wi-Fi firmware, proprietary codecs
+- **universe**: besplatan softver koji održava zajednica. Primeri: GIMP, Inkscape, Audacity
+- **multiverse**: softver podložan pravnim ograničenjima (patenti, neliberalne licence). Dostupnost može varirati u zavisnosti od zemlje. Primeri: određeni audio/video kodeci, Steam
 
 
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kancelarijski paket
 
 
@@ -3553,7 +3541,7 @@ Konačno, imajte na umu da u mnogim slučajevima određene kritične nadogradnje
 
 
 
-- Windows* operativni sistem
+- **Windows** operativni sistem
 
 
 
@@ -3577,7 +3565,7 @@ Ne zaboravite da proverite opcione ažuriranja u istom meniju.
 
 
 
-- Linux* operativni sistem
+- **Linux** operativni sistem
 
 
 
@@ -3630,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- Operativni sistem MacOS*
+- Operativni sistem **MacOS**
 
 
 
@@ -3666,25 +3654,25 @@ Neki softveri su osetljiviji od drugih, jer direktno komuniciraju sa spoljnim sv
 
 
 
-- Veb pregledači*: oni su na prvoj liniji napada, jer obrađuju neprovereni sadržaj u realnom vremenu i imaju posebno veliku površinu napada. Štaviše, oni igraju centralnu ulogu u zaštiti vaših ličnih podataka. I, iznad svega, oni imaju tendenciju da zamene mnoge softverske aplikacije koje su se ranije koristile lokalno (klijenti e-pošte, kancelarijski paketi, medija plejeri...). Ali vratićemo se na ovu tačku u sledećem delu SCU202 kursa;
+- **Veb pregledači**: oni su na prvoj liniji napada, jer obrađuju neprovereni sadržaj u realnom vremenu i imaju posebno veliku površinu napada. Štaviše, oni igraju centralnu ulogu u zaštiti vaših ličnih podataka. I, iznad svega, oni imaju tendenciju da zamene mnoge softverske aplikacije koje su se ranije koristile lokalno (klijenti e-pošte, kancelarijski paketi, medija plejeri...). Ali vratićemo se na ovu tačku u sledećem delu SCU202 kursa;
 
 
 
 
 
-- Klijenti e-pošte*: primaju priloge ili linkove iz spoljašnjih izvora koji su nekontrolisani i stoga rizični;
+- **Klijenti e-pošte**: primaju priloge ili linkove iz spoljašnjih izvora koji su nekontrolisani i stoga rizični;
 
 
 
 
 
-- Komunikacioni alati* (TeamViewer, Zoom, Signal, Teams...): zbog njihove interaktivne prirode, oni su mete za špijunske napade ili pokušaje daljinske kontrole. Na isti način kao i klijenti e-pošte, komunikacioni alati mogu biti korišćeni kao vektori za pokušaje fišinga ili distribuciju zlonamernih priloga;
+- **Komunikacioni alati** (TeamViewer, Zoom, Signal, Teams...): zbog njihove interaktivne prirode, oni su mete za špijunske napade ili pokušaje daljinske kontrole. Na isti način kao i klijenti e-pošte, komunikacioni alati mogu biti korišćeni kao vektori za pokušaje fišinga ili distribuciju zlonamernih priloga;
 
 
 
 
 
-- Antivirus, firewall i druga rešenja za detekciju*: ovi alati obično imaju povišene privilegije, jer kontinuirano skeniraju vaše fajlove, procese i mrežne konekcije. Zastarela baza potpisa, loša konfiguracija ili ranjivost u samom softveru mogu omogućiti malveru da ostane neprimećen, ili čak da dobije povišene privilegije.
+- Antivirus, firewall i druga rešenja za detekciju: ovi alati obično imaju povišene privilegije, jer kontinuirano skeniraju vaše fajlove, procese i mrežne konekcije. Zastarela baza potpisa, loša konfiguracija ili ranjivost u samom softveru mogu omogućiti malveru da ostane neprimećen, ili čak da dobije povišene privilegije.
 
 
 
@@ -3905,7 +3893,7 @@ Kao što smo videli u prethodnom odeljku, Windows je istorijski bio više izlož
 
 
 
-- Microsoft Defender*: na Windows-u, imati dobar antivirus je osnovna potreba. Dugi niz godina, Microsoft Defender (ranije Windows Defender), ugrađeni antivirus sistema, smatran je nepouzdanim, i preporučivana su rešenja trećih strana. Ali ovaj softver se značajno poboljšao tokom vremena, i sada je, po mom mišljenju, dovoljan da pruži osnovnu zaštitu za ličnu upotrebu. Ipak, ne smemo preceniti ulogu antivirus softvera: pre svega su vaše digitalne prakse te koje osiguravaju vašu sigurnost. Jedna od prednosti Defender-a je njegova prirodna integracija sa Windows-om. Pored zaštite u realnom vremenu, nudi sveobuhvatne preglede koje možete zakazati nedeljno ili pokretati ručno u redovnim intervalima.
+- **Microsoft Defender**: na Windows-u, imati dobar antivirus je osnovna potreba. Dugi niz godina, Microsoft Defender (ranije Windows Defender), ugrađeni antivirus sistema, smatran je nepouzdanim, i preporučivana su rešenja trećih strana. Ali ovaj softver se značajno poboljšao tokom vremena, i sada je, po mom mišljenju, dovoljan da pruži osnovnu zaštitu za ličnu upotrebu. Ipak, ne smemo preceniti ulogu antivirus softvera: pre svega su vaše digitalne prakse te koje osiguravaju vašu sigurnost. Jedna od prednosti Defender-a je njegova prirodna integracija sa Windows-om. Pored zaštite u realnom vremenu, nudi sveobuhvatne preglede koje možete zakazati nedeljno ili pokretati ručno u redovnim intervalima.
 
 
 
@@ -3915,12 +3903,12 @@ Kao što smo videli u prethodnom odeljku, Windows je istorijski bio više izlož
 
 
 
-- Sysinternals Suite*: ovo je mnogo napredniji skup alata koje nudi Microsoft za dijagnostikovanje, nadgledanje i rešavanje problema u Windows-u. Ovde su glavni alati u ovom paketu:
-    - Process Monitor*: omogućava vam da posmatrate aktivne procese, pristupe fajlovima, registre, itd. u realnom vremenu;
-    - Autoruns*: prikazuje sve programe pokrenute pri pokretanju sistema, pomažući vam da brzo otkrijete postojani malver ili aplikacije koje ne bi trebalo da budu pokrenute;
-    - Process Explorer*: nadgleda procese i otkriva sumnjivo ponašanje;
-    - TCPView*: vizualizuje aktivne mrežne konekcije (detekcija abnormalnih konekcija) ;
-    - Sigcheck*: proverava digitalne potpise na fajlovima za zlonamerni kod.
+- **Sysinternals Suite**: ovo je mnogo napredniji skup alata koje nudi Microsoft za dijagnostikovanje, nadgledanje i rešavanje problema u Windows-u. Ovde su glavni alati u ovom paketu:
+- **Process Monitor**: omogućava vam da posmatrate aktivne procese, pristupe fajlovima, registre, itd. u realnom vremenu;
+- **Autoruns**: prikazuje sve programe pokrenute pri pokretanju sistema, pomažući vam da brzo otkrijete postojani malver ili aplikacije koje ne bi trebalo da budu pokrenute;
+- **Process Explorer**: nadgleda procese i otkriva sumnjivo ponašanje;
+- **TCPView**: vizualizuje aktivne mrežne konekcije (detekcija abnormalnih konekcija) ;
+- **Sigcheck**: proverava digitalne potpise na fajlovima za zlonamerni kod.
 
 
 
@@ -3930,7 +3918,7 @@ Kao što smo videli u prethodnom odeljku, Windows je istorijski bio više izlož
 
 
 
-- GlassWire*: alat za praćenje mreže. Prati dolazne i odlazne veze u realnom vremenu i upozorava vas na neobične aktivnosti.
+- **GlassWire**: alat za praćenje mreže. Prati dolazne i odlazne veze u realnom vremenu i upozorava vas na neobične aktivnosti.
 
 
 
@@ -3948,7 +3936,7 @@ Na dobro održavanom Linux računaru koji se koristi u lične svrhe, rizici su m
 
 
 
-- Fail2ban*: nadgleda sistemske dnevnike za neuspešne pokušaje pristupa (kao što su brute-force pokušaji prijave na SSH). Kada se otkrije sumnjivo ponašanje, privremeno zabranjuje IP Address putem `iptables` ;
+- **Fail2ban**: nadgleda sistemske dnevnike za neuspešne pokušaje pristupa (kao što su brute-force pokušaji prijave na SSH). Kada se otkrije sumnjivo ponašanje, privremeno zabranjuje IP Address putem `iptables`;
 
 
 
@@ -3958,7 +3946,7 @@ Na dobro održavanom Linux računaru koji se koristi u lične svrhe, rizici su m
 
 
 
-- Lynis*: sveobuhvatan alat za bezbednosnu reviziju koji analizira vaš sistem za pogrešne konfiguracije, poznate slabosti ili odstupanja od najboljih praksi. Generiše lako čitljiv izveštaj, sa bezbednosnim skorom i preporukama.
+- **Lynis**: sveobuhvatan alat za bezbednosnu reviziju koji analizira vaš sistem za pogrešne konfiguracije, poznate slabosti ili odstupanja od najboljih praksi. Generiše lako čitljiv izveštaj, sa bezbednosnim skorom i preporukama.
 
 
 
@@ -3977,7 +3965,7 @@ macOS je poznat po svojoj sigurnosti, zahvaljujući posebno svojim politikama po
 
 
 
-- KnockKnock*: skenira sve Elements konfiguracije za pokretanje pri startup-u (agenti, demoni, kernel moduli...) i identifikuje one koje su potencijalno sumnjive, nepotpisane ili nepoznate. Omogućava vam brzo prepoznavanje zlonamerne postojanosti na vašem sistemu.
+- **KnockKnock**: skenira sve Elements konfiguracije za pokretanje pri startup-u (agenti, demoni, kernel moduli...) i identifikuje one koje su potencijalno sumnjive, nepotpisane ili nepoznate. Omogućava vam brzo prepoznavanje zlonamerne postojanosti na vašem sistemu.
 
 
 
@@ -4561,7 +4549,7 @@ Puna enkripcija je kao brava: sve dok lozinka nije obezbeđena, podaci ostaju ne
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4820,7 +4808,7 @@ Na kraju, kliknite na dugme u obliku strelice u gornjem desnom uglu da biste isp
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4866,7 +4854,7 @@ Kada je FileVault aktiviran, moraćete da izaberete metod oporavka u slučaju gu
 Za spoljne medije za skladištenje (Hard diskovi, USB stikovi, itd.), enkripcija se vrši korišćenjem alata za diskove. Biće potrebno potpuno preformatirati volumen:
 
 - Izaberite uređaj, kliknite na "*Delete*"
-- Odaberite šemu "GUID* Partition Table"
+- Odaberite šemu "GUID Partition Table"
 - Zatim izaberite format šifrovanog fajl sistema (*APFS* ili *Mac OS extended*)
 - Izaberite jaku lozinku
 - Kliknite na "*Delete*" zatim "*OK*" i enkripcija je završena
@@ -4946,7 +4934,7 @@ Ovaj paket instalira `exiftool`, koji zatim možete koristiti direktno iz komand
 
 
 
-- Korak 2: Pregledanje metapodataka datoteke** (na francuskom)
+- Korak 2: **Pregledanje metapodataka datoteke** (na francuskom)
 
 
 
@@ -5692,7 +5680,7 @@ Pregledači zasnovani na Blink-u takođe uključuju brojne manje zastupljene pre
 
 
 
-- Arc** :
+- **Arc**:
 
 
 
@@ -5710,7 +5698,7 @@ Sa tehničke tačke gledišta, Arc je zasnovan na Chromium-u, ali ostaje vlasni�
 
 
 
-- Polypane** :
+- **Polypane** :
 
 
 
@@ -5754,6 +5742,7 @@ Firefox ostaje merilo za sigurnost i privatnost, uprkos tome što zaostaje malo 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor Pregledač
 
 
@@ -5774,15 +5763,11 @@ Nedostatak je značajno smanjenje performansi (visoka latencija) i ograničena k
 
 #### Mullvad Browser
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) je rezultat saradnje između Tor Foundation i Mullvad VPN. Baziran je na Tor pretraživaču, koji je sam po sebi izveden iz Firefox ESR. Mullvad Browser je dizajniran da maksimizira privatnost korisnika. Podrazumevano uključuje naprednu zaštitu protiv otiska prsta, tragača i skripti trećih strana.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Ima većinu sigurnosnih i privatnih funkcija koje nudi Tor Browser, sa jednom razlikom: ne preusmerava saobraćaj preko Tor mreže. Da biste izbegli curenje IP Address, možete ga koristiti u kombinaciji sa VPN-om (idealno, Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Podrazumevano, LibreWolf aktivira napredna sigurnosna podešavanja Firefoxa (kao
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen Browser
-
-
 
 [Zen Browser](https://zen-browser.app/) je besplatan i otvoren izvorni pregledač zasnovan na Firefoxu (Gecko engine), pokrenut 2024. godine. Njegov cilj je da ponudi moderno, elegantno, visoko prilagodljivo i pre svega iskustvo pregledanja usmereno na privatnost, bez oslanjanja na Chromium.
 
-
-
 Zen se ističe svojim radikalnim pristupom Interface i upotrebljivošću, u velikoj meri inspirisan Arc pregledačem, ali oslobođen od njega svojom open-source prirodom i Gecko endžinom. Uključuje :
-
-
-
 
 - Minimalistički, modularni Interface, sa vertikalnom bočnom trakom za kartice, podeljenim prikazom i *workspace* sistemom za grupisanje skupova kartica po projektu;
 - Sistem prilagodljivih Interface šablona (*Zen Mods*) koji se mogu koristiti za duboku izmenu izgleda pregledača;
 - Originalna funkcija pod nazivom *Glance*, koja otvara link u laganom privremenom prozoru, izbegavajući nered sa karticama...
 
-
-
 Zen takođe podržava ekstenzije za Firefox, kao i sinhronizaciju putem Mozilla naloga.
-
-
 
 Sa stanovišta bezbednosti i privatnosti, Zen ima ugrađeno blokiranje trećih strana koje prate korisnike. Pregledač sam po sebi ne prikuplja nikakve podatke, a takođe omogućava da se onemogući Mozilla telemetrija. Takođe automatski odbacuje zastarele ili neusklađene SSL sertifikate.
 
-
-
 Zen Browser je zanimljiva alternativa ako tražite Gecko okruženje za pregledavanje koje je besplatno, inovativno, pregledno i poštuje vašu privatnost.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Pregledači zasnovani na WebKit-u
 
-
-
 #### Safari
-
-
 
 Glavni pregledač koji još uvek koristi WebKit rendering engine (nije Fork kao Blink) je Safari. [Safari](https://www.apple.com/safari/) je ekskluzivni pregledač kompanije Apple za macOS. Nudi odličnu integraciju sa Apple ekosistemom, visoke performanse, i sada uključuje jaču zaštitu protiv praćenja i fingerprintinga.
 
-
-
 Međutim, Safari ostaje zatvoren, ograničen na macOS za svoju desktop verziju, i zavisan od Apple ekosistema. Iako Apple ima snažnu politiku privatnosti, sa poslovnim modelom koji se prvenstveno zasniva na prodaji hardvera, a ne na oglašavanju, ostaje nejasno u vezi sa određenim internim praksama.
-
-
 
 Ovde se fokusiramo na desktop pregledače, ali je važno napomenuti da na iOS-u, Apple zahteva da svi pregledači koriste WebKit rendering engine (ograničenje koje bi se, međutim, uskoro moglo promeniti kao rezultat određenih evropskih regulativa). To znači da pregledači kao što su Chrome, Firefox ili Brave moraju, na iOS-u, ponuditi aplikaciju zasnovanu na WebKit-u, a ne na njihovom uobičajenom rendering engine-u.
 
@@ -5889,6 +5855,7 @@ Orion je u potpunosti razvijen od strane Kagi tima (poznatog po svom pretraživa
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Pregledači bez renderovanja motora
 
 
@@ -6223,25 +6190,25 @@ Da biste izbegli ove napade prilikom pretraživanja interneta, važno je pratiti
 
 
 
-- Analizirajte URL**: napadači često koriste adrese vrlo slične originalu (npr. `micr0soft-support.com`, `paypal-verif.net`, itd.). Neki takođe zamenjuju vizuelno slične karaktere, koristeći Unicode karaktere. Proverite da li Address tačno odgovara očekivanom sajtu, bez sumnjivih prefiksa ili sufiksa.
+- Analizirajte **URL**: napadači često koriste adrese vrlo slične originalu (npr. `micr0soft-support.com`, `paypal-verif.net`, itd.). Neki takođe zamenjuju vizuelno slične karaktere, koristeći Unicode karaktere. Proverite da li Address tačno odgovara očekivanom sajtu, bez sumnjivih prefiksa ili sufiksa.
 
 
 
 
 
-- Izbegavajte skraćene linkove**: servisi kao što su `bit.ly` ili `t.co` mogu sakriti krajnji Address. Ako dobijete skraćeni link, budite sumnjičavi ili koristite servis za proširenje URL-a da proverite njegovo odredište.
+- **Izbegavajte skraćene linkove**: servisi kao što su `bit.ly` ili `t.co` mogu sakriti krajnji Address. Ako dobijete skraćeni link, budite sumnjičavi ili koristite servis za proširenje URL-a da proverite njegovo odredište.
 
 
 
 
 
-- Čuvajte se alarmantnih poruka**: pokušaji fišinga često iskorišćavaju jaka osećanja (hitnost, pretnja, nagrada, radoznalost...). E-mail koji tvrdi da će vaš nalog uskoro biti blokiran ili da paket ne može biti isporučen je prirodno sumnjiv.
+- Čuvajte se **alarmantnih poruka**: pokušaji fišinga često iskorišćavaju jaka osećanja (hitnost, pretnja, nagrada, radoznalost...). E-mail koji tvrdi da će vaš nalog uskoro biti blokiran ili da paket ne može biti isporučen je prirodno sumnjiv.
 
 
 
 
 
-- Nikada ne šaljite osetljive informacije putem primljenog linka**: Legitimna institucija nikada neće tražiti od vas lozinku, kod za autentifikaciju ili skeniranu kopiju vaše lične karte putem običnog e-maila ili SMS-a.
+- **Nikada ne šaljite osetljive informacije putem primljenog linka**: Legitimna institucija nikada neće tražiti od vas lozinku, kod za autentifikaciju ili skeniranu kopiju vaše lične karte putem običnog e-maila ili SMS-a.
 
 
 
@@ -6251,7 +6218,7 @@ A evo nekoliko preventivnih mera koje možete direktno primeniti u svom pregleda
 
 
 
-- Pristupite kritičnim sajtovima putem vaših obeleživača**:
+- Pristupite kritičnim sajtovima putem vaših **obeleživača**:
 
 
 
@@ -6265,7 +6232,7 @@ Da li ste primili e-mail od poreske uprave koji sadrži link? Nemojte kliknuti n
 
 
 
-- Poštujte dobre prakse autentifikacije** :
+- **Poštujte dobre prakse autentifikacije** :
 
 
 
@@ -6283,7 +6250,7 @@ Pored ovih mera, korišćenje dobrog menadžera lozinki kao ekstenzije za pregle
 
 
 
-- Pregledajte SSL/TLS** sertifikate:
+- Pregledajte **SSL/TLS** sertifikate:
 
 
 
@@ -6329,19 +6296,19 @@ Cilj je jednostavan: sprečiti da incident koji uključuje određenu aktivnost (
 
 
 
-- Koristite nekoliko različitih pregledača**: na primer, Firefox za ličnu upotrebu, Tor ili Mullvad za osetljive aktivnosti, i Chromium za profesionalne zadatke. Svaki pregledač koristi svoju instancu skladišta, što potpuno izoluje kolačiće, sesije i ekstenzije. Ovo vam takođe omogućava da prilagodite postavke pregledača vašim specifičnim slučajevima upotrebe.
+- Koristite nekoliko različitih pregledača: na primer, Firefox za ličnu upotrebu, Tor ili Mullvad za osetljive aktivnosti, i Chromium za profesionalne zadatke. Svaki pregledač koristi svoju instancu skladišta, što potpuno izoluje kolačiće, sesije i ekstenzije. Ovo vam takođe omogućava da prilagodite postavke pregledača vašim specifičnim slučajevima upotrebe.
 
 
 
 
 
-- Kreirajte više profila unutar jednog pregledača**: neki pregledači omogućavaju kreiranje nezavisnih profila, svaki sa sopstvenom istorijom, sesijama, ekstenzijama i podešavanjima. Ovo je nešto manje restriktivno rešenje od korišćenja nekoliko odvojenih pregledača, ali je i dalje manje efikasno.
+- **Kreirajte više profila unutar jednog pregledača**: neki pregledači omogućavaju kreiranje nezavisnih profila, svaki sa sopstvenom istorijom, sesijama, ekstenzijama i podešavanjima. Ovo je nešto manje restriktivno rešenje od korišćenja nekoliko odvojenih pregledača, ali je i dalje manje efikasno.
 
 
 
 
 
-- Koristite ugrađene kontejnere**: Firefox nudi ekstenziju [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), koja vam omogućava da otvorite zasebne kartice, svaka sa svojim prijavama i kolačićima. Takođe možete automatski dodeliti određene sajtove specifičnom kontejneru, kako biste ih držali odvojenim svaki put kada se otvore.
+- Koristite ugrađene kontejnere: Firefox nudi ekstenziju [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), koja vam omogućava da otvorite zasebne kartice, svaka sa svojim prijavama i kolačićima. Takođe možete automatski dodeliti određene sajtove specifičnom kontejneru, kako biste ih držali odvojenim svaki put kada se otvore.
 
 
 
@@ -6351,7 +6318,7 @@ Cilj je jednostavan: sprečiti da incident koji uključuje određenu aktivnost (
 
 
 
-- Koristite izolovano sistemsko okruženje**: Za posebno osetljive upotrebe, možete takođe pokrenuti svoj pregledač unutar virtuelne mašine ili Docker kontejnera, kako biste ga potpuno odvojili od vašeg glavnog okruženja.
+- **Koristite izolovano sistemsko okruženje**: Za posebno osetljive upotrebe, možete takođe pokrenuti svoj pregledač unutar virtuelne mašine ili Docker kontejnera, kako biste ga potpuno odvojili od vašeg glavnog okruženja.
 
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS integriše bez vlasničkih komponenti. Slobodni ste da dodate Google 
 Grafen je kompatibilan samo sa novijim Google Pixelima (Pixel 6, 7, 8 i 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7075,7 +7042,7 @@ Telegram je veoma popularna usluga za razmenu poruka zahvaljujući svojoj ergono
 Telegram tehnički može pristupiti sadržaju većine razgovora koji nisu eksplicitno zaštićeni. Čak i ako kompanija zauzme čvrst stav prema državnim vlastima, Telegram nije optimalno rešenje za poverljive ili osetljive razmene, osim ako eksplicitno ne koristite njegove "tajne razmene", koje su daleko manje praktične na dnevnoj bazi.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile je mobilna verzija popularnog open-source e-mail klijenta raz
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis je sveobuhvatna aplikacija otvorenog koda. Šifrira vašu 2FA bazu podatak
 Ente Auth je moderno, open-source, multiplatformsko rešenje sa end-to-end enkriptovanim rezervnim kopijama. Omogućava vam da sigurno sinhronizujete vaše 2FA kodove na mobilnim uređajima, desktopu i webu. Takođe ga možete koristiti offline, bez rezervne kopije u oblaku ili kreiranja naloga.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth nudi mnoge dodatne funkcije: Organizacija po oznakama, prilagođene ikone za svaku uslugu, beleške, omiljene stavke, integrisana pretraga, sigurno deljenje kodova sa timom.
 
 
@@ -7642,6 +7611,7 @@ Authy nudi sinhronizaciju 2FA na više uređaja, što može biti korisno, ali ap
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Ako želite da saznate više o menadžerima lozinki, 2FA autentifikaciji i VPN-ovima, preporučujem da pročitate posvećena poglavlja u kursu SCU-101:
 
 
@@ -8035,6 +8005,7 @@ Dostupan na F-Droid-u i potpuno otvorenog koda, Chrono nudi moderan, pregledan I
 Aplikacija takođe integriše tajmer i štopericu, sa snimanjem krugova, statistikom, poređenjem vremena i upravljanjem više tajmera. Možete konfigurisati više vremenskih zona, prilagoditi temu (boje, stilove, animacije), pa čak i organizovati svoje alarme i tajmere sa oznakama.
 
 
+Da biste dublje istražili temu, preporučujem da posetite sajt [*Awesome Privacy*](https://awesome-privacy.xyz/), koji navodi najbolje alternative koje poštuju privatnost za softver koji koristite svakodnevno.
 ___
 
 
@@ -8099,8 +8070,8 @@ Infrastruktura Interneta se uglavnom zasniva na dva protokola:
 
 
 
-- IP** (*Internet Protocol*) Identifikuje svaki povezani uređaj i usmerava pakete podataka.
-- TCP** (*Transmission Control Protocol*) Segmentira tok, proverava greške i vraća segmente u ispravan redosled.
+- **IP** (*Internet Protocol*) Identifikuje svaki povezani uređaj i usmerava pakete podataka.
+- **TCP** (*Transmission Control Protocol*) Segmentira tok, proverava greške i vraća segmente u ispravan redosled.
 
 
 → Za upotrebe u realnom vremenu gde je pouzdanost manje važna od kašnjenja (VoIP, DNS, streaming, itd.), često se koristi drugi transportni protokol umesto TCP: UDP (*User Datagram Protocol*).
@@ -8134,14 +8105,14 @@ Ovaj uređaj kombinuje 2 glavne funkcije:
 
 
 
-- Uloga modema**
+- **Uloga modema**
 
 
 Modem (skraćeno od "*modulator-demodulator*") je komponenta koja povezuje mrežu vašeg ISP-a sa vašim domom. On prilagođava električne ili optičke signale primljene (putem optičkih vlakana, koaksijalnog kabla, ADSL-a ili mobilne mreže) u digitalne signale koje vaši uređaji mogu razumeti. Obrnuto, on konvertuje podatke sa vaše opreme u format koji se može preneti preko infrastrukture operatera. Ovaj korak je ključan ako vaša kućna mreža treba da komunicira sa Internetom.
 
 
 
-- Uloga rutera**
+- **Uloga rutera**
 
 
 Ruter je srce vaše lokalne mreže. On distribuira Internet konekciju na sve vaše uređaje: Računare, pametne telefone, povezane objekte, štampače, itd. Dodeljuje svakom od njih lokalnu IP Address (različitu od vaše javne IP vidljive na Internetu). Ruter zatim organizuje dolazni i odlazni saobraćaj, osiguravajući da podaci stignu do pravog uređaja. Takođe može integrisati firewall, filtrirati mrežne pakete ili upravljati pravilima za prosleđivanje portova. NAT maskira vašu lokalnu mrežu od očiju Interneta, koristeći jednu javnu IP Address da predstavlja sve vaše uređaje. Samo ruter zna koji lokalni uređaj je inicirao koji zahtev.
@@ -8385,21 +8356,21 @@ Neke funkcije treba izbegavati ili sistematski deaktivirati:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Ova funkcija omogućava uređajima na vašoj mreži da automatski zatraže od rutera otvaranje portova. Iako ovo olakšava određene upotrebe (online igre, povezane kamere, itd.), takođe otvara vrata zlonamernim aplikacijama koje su sposobne da modifikuju mrežnu konfiguraciju bez vaše dozvole. UPnP je jedan od glavnih uzroka nenamernog izlaganja internih servisa spoljašnjem svetu.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- WPS (*Wi-Fi Protected Setup*):
 
 
 Prvobitno dizajniran da pojednostavi povezivanje uređaja na Wi-Fi bez unosa lozinke, ovaj sistem se zasniva na PIN kodu koji je često slab i lako napadnut metodom brute force. Savetujem vam da ga onemogućite.
 
 
 
-- Daljinski pristup (*Remote Management*)**:
+- Daljinski pristup (**Remote Management**):
 
 
 Neki ruteri omogućavaju povezivanje na njihovu administraciju Interface spolja, putem Interneta. Ova funkcija nerazumno povećava površinu napada vašeg rutera. Onemogućite je u potpunosti, osim ako nemate specifičnu potrebu za daljinskim upravljanjem. Čak i tada, uvek koristite VPN.
@@ -8408,14 +8379,14 @@ Neki ruteri omogućavaju povezivanje na njihovu administraciju Interface spolja,
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Zastareli ili nesigurni protokoli**:
+- **Zastareli ili nesigurni protokoli**:
 
 
 Onemogući sve administrativne usluge koje koriste protokole u običnom tekstu kao što su Telnet, FTP, nešifrovani HTTP ili SMBv1. Ovi protokoli ne obezbeđuju poverljivost niti integritet razmenjenih podataka i često su meta malvera. Ako vam je potreban lokalni ili daljinski pristup, koristite samo veze putem HTTPS (šifrovani Interface), SSH ili SFTP, prema potrebi.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Neki ruteri po defaultu odgovaraju na ICMP zahteve poslate spolja (komanda `ping`). Ovo omogućava napadaču da proveri da li je vaša mreža aktivna i dostupna. Ako vam to nije potrebno, onemogućite ovaj odgovor u firewall-u rutera.
@@ -8504,15 +8475,15 @@ Zatim, aktivirajte protokol za šifrovanje DNS upita kako biste sprečili presre
 
 
 
-- DoH (*DNS over HTTPS*)**: Encapsulira DNS zahteve u HTTPS protokol, čineći ih nerazlučivim od konvencionalnog šifrovanog web saobraćaja
+- DoH (**DNS over HTTPS**): Encapsulira DNS zahteve u HTTPS protokol, čineći ih nerazlučivim od konvencionalnog šifrovanog web saobraćaja
 
 
 
-- DoT (*DNS over TLS*)**: Kreira specifičan enkriptovani kanal između vašeg uređaja i DNS servera
+- DoT (**DNS over TLS**): Kreira specifičan enkriptovani kanal između vašeg uređaja i DNS servera
 
 
 
-- DoQ (*DNS over QUIC*)**: Prenosi DNS zahteve putem UDP-baziranog QUIC protokola
+- DoQ (**DNS over QUIC**): Prenosi DNS zahteve putem UDP-baziranog QUIC protokola
 
 
 U praktičnom smislu, enkripcija DNS-a i prebacivanje servera mogu se implementirati na različitim nivoima:
@@ -8526,6 +8497,7 @@ U praktičnom smislu, enkripcija DNS-a i prebacivanje servera mogu se implementi
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na nivou operativnog sistema: Neki OS-ovi nativno integrišu podršku za enkriptovani DNS (DoT ili DoH), što osigurava sve DNS zahteve koji prolaze kroz mrežni stek sistema. Međutim, ovo ne osigurava ceo računar ili telefon: Aplikacije mogu zaobići ovo podešavanje ako su konfigurisane da koriste drugi DNS resolver ili protokol.
 
 
@@ -8626,3 +8598,4 @@ Prateći ovih nekoliko koraka, izgradićete robustno, sigurno mrežno okruženje
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

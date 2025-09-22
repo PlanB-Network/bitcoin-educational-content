@@ -1,0 +1,9 @@
+question: Ni kuki bihambaye ko buhorobuhoro usubiriza amajambo y’ibanga yawe ya kera n’ayo akozwe n’umucungerezi w’amajambo y’ibanga?
+answer: Amajambo banga akomoka ku mucungerezi w’amajambo banga arakomeye kandi arareha, agatanga umutekano mwinshi.
+wrong_answers:
+  - Umucungerezi w’ijambobanga aca afuta amajambobanga ya kera.
+  - Abacungezi b’amajambobanga bashobora gusa kubika amajambobanga makeyi.
+  - Abacungezi b’amajambo banga basaba ko amajambo banga yose akomoka kuri bo.
+explanation: |
+  Umucungerezi w’ijambobanga atanga amajambobanga akomeye kandi maremare, agatanga umutekano mwinshi. Mu gusubirira buhorobuhoro amajambo y’ibanga yawe ya kera n’ayo, urashobora kwongereza umutekano w’amakonti yawe yo kuri Internet.
+reviewed: true

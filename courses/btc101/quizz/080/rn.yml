@@ -1,0 +1,13 @@
+question: Multisig Wallet ni iki?
+answer: Igitero c’amasakoshi asaba amasinyatire menshi kugira ngo umuntu akore igikorwa.
+wrong_answers:
+  - Wallet isaba umukono umwe kugira ngo umuntu akore igikorwa.
+  - Wallet isaba ko umuntu adashirako umukono kugira ngo akore igikorwa.
+  - Wallet isaba umukono w’umubiri kugira ngo umuntu akore igikorwa.
+explanation: |
+  Multisig Wallet ni ubwoko bw’indege Bitcoin Wallet isaba .
+  imikono myinshi kugira ngo ukore igikorwa. Ivyo vyongerako
+  extra Layer y’umutekano, kuko bisigura ko umuntu umwe gusa .
+  ntishobora gukora igikorwa ata kwemererwa na
+  abandi.
+reviewed: true

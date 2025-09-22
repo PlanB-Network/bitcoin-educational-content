@@ -1,0 +1,8 @@
+question: BTCMap nedir?
+answer: Bitcoin kabul eden tüm tüccarları listeleyen bir platform.
+wrong_answers:
+  - Dünyadaki tüm Bitcoin madenlerinin bir haritası.
+  - Dünyadaki tüm Bitcoin borsalarının bir haritası.
+  - Dünyadaki tüm Bitcoin kullanıcılarının bir haritası.
+explanation: >-
+reviewed: true

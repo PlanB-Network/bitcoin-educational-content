@@ -1,0 +1,9 @@
+question: Kaydırmalı şifrelemede, anahtarı 17 olan DOG kelimesi için sonuç nedir?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Alfabede 17'lik bir kayma ile D U, O F ve G X olur. Bu nedenle şifrelenmiş kelime UFX'tir.
+reviewed: false

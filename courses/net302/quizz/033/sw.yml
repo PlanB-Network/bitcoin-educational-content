@@ -1,0 +1,9 @@
+question: Ni mbinu gani huruhusu mashine nyingi za ndani kushiriki IP moja ya umma Address kufikia Mtandao?
+answer: NAT (Tafsiri ya Mtandao wa Address)
+wrong_answers:
+  - ARP (Itifaki ya Azimio la Address)
+  - DHCP (Itifaki ya Usanidi wa Mwenyeji Mwenye Nguvu)
+  - CIDR (Uelekezaji wa Kikoa Isiyo na Hatari)
+explanation: |
+  NAT hutafsiri anwani za ndani za kibinafsi kuwa IP ya umma Address, kuwezesha vifaa vingi kushiriki muunganisho sawa wa nje.
+reviewed: false

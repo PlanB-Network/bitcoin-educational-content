@@ -1,13 +1,13 @@
-question: Co je Prohlášení o nezávislosti kyberprostoru?
-answer: Text tvrdící, že kyberprostor je odlišná sféra od fyzického světa a neměl by podléhat stejným zákonům.
+question: Proč se zlato stalo standardním prostředkem výměny?
+answer: Kvůli jeho vzácnosti, trvanlivosti a dělitelnosti.
 wrong_answers:
-  - Prohlášení uvádějící nezávislost Bitcoinu na tradičních finančních systémech.
-  - Text tvrdící, že kyberprostor by měl být kontrolován vládní regulací.
-  - Prohlášení, které zastává nezávislost pirátského hnutí na jakékoliv regulaci.
+  - Kvůli jeho hojnosti, trvanlivosti a nedělitelnosti.
+  - Kvůli jeho vzácnosti, pominutelnosti a dělitelnosti.
+  - Kvůli jeho hojnosti, pominutelnosti a nedělitelnosti.
 explanation: |
-  Prohlášení o nezávislosti kyberprostoru bylo
-  napsáno Johnem Perrym Barlowem v roce 1996. Tento dokument tvrdí,
-  že kyberprostor je odlišná sféra od fyzického
-  světa, takže průmyslové vlády nemohou tam uplatňovat svou
-  autoritu.
+  Zlato se stalo standardním prostředkem výměny díky své
+  vzácnosti, trvanlivosti a dělitelnosti: jeho vzácnost zabránila
+  devalvaci způsobené produkcí; jeho trvanlivost zajistila, že
+  se časem nerozpadne, a jeho dělitelnost umožnila použití
+  v transakcích různých velikostí.
 reviewed: true

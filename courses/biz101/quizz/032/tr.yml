@@ -1,0 +1,9 @@
+question: Bitcoin ödemelerini ilk kez kabul ederken küçükten başlamanın bir faydası nedir?
+answer: İşletmenin birkaç ilk işlemden bir şeyler öğrenmesine ve müşteri talebi artarsa kademeli olarak daha sofistike çözümlere geçmesine olanak tanır.
+wrong_answers:
+  - İşletmeyi derhal yalnızca kendi kendine saklama çözümlerini kullanmaya zorlar.
+  - İşletmenin daha sonra sağlayıcı yükseltmesini veya değiştirmesini önler.
+  - Bir şirketin süreci anlamadan önce her müşteriden Bitcoin'i kabul etmesini gerektirir.
+explanation: |
+  Basit, başlangıç seviyesinde bir yaklaşımla başlamak, işletmenin önemli bir risk almadan pratik deneyim kazanmasını sağlar. Bitcoin ödemelerine gösterilen ilginin değerli olduğu kanıtlanırsa, şirket daha sonra altyapısını yükseltebilir ve daha gelişmiş araçları entegre edebilir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kes kirjutas: "Looduses ei juhtu midagi sellist, mida saaks omistada
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Just Spinoza kirjutas: "Looduses ei juhtu midagi, mida saaks seostada selles eksisteeriva pahega." See oli Spinoza, kes kirjutas: "Looduses ei juhtu midagi, mida saaks seostada selles eksisteeriva pahega". See lause väljendab ideed, et loodus on oma olemuselt täiuslik ja et puudused on vaid inimlikud hinnangud.
+reviewed: false

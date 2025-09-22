@@ -1,12 +1,9 @@
-question: Qual è lo scopo delle normative KYC?
-answer: Combattere il finanziamento al terrorismo, l'evasione fiscale e il riciclaggio di denaro.
+question: Qual è una delle possibili conseguenze del non seguire le normative del proprio paese quando si acquista Bitcoin?
+answer: Mettere a rischio sé stessi.
 wrong_answers:
-  - Aumentare il prezzo di Bitcoin e far pagare più tasse all'utente.
+  - L'aumento del prezzo di Bitcoin.
   - Controllare l'offerta di Bitcoin.
-  - Impedire alle persone di acquistare Bitcoin.
+  - Impedire ad altri di acquistare Bitcoin.
 explanation: |
-  Il testo del corso spiega che le normative Know Your Customer (KYC)
-  richiedono agli utenti di fornire un'identificazione per
-  combattere il finanziamento al terrorismo, l'evasione fiscale e il
-  riciclaggio di denaro.
+  Il testo del corso menziona che non seguire le normative del proprio paese quando si acquista Bitcoin può mettere a rischio sé stessi.
 reviewed: true

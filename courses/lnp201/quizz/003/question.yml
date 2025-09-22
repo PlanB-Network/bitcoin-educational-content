@@ -47,10 +47,12 @@ proofreading:
     contributor_names:
     reward: 0.26
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
-    reward: 0.19
+      - AlbertoMagno21
+      - f205sats
+    reward: 0.05
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -70,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.22
+    reward: 0.23
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -95,14 +97,44 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.22
+    reward: 0.23
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.22
+    reward: 0.23
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.22
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.22
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.29

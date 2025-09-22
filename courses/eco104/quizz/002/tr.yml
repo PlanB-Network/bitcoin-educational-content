@@ -1,0 +1,11 @@
+question: Para ile altın gibi emtialar arasındaki tarihsel bağlantı nedir?
+answer: Altın az bulunur ve değer deposu olarak yaygın kabul görür
+wrong_answers:
+  - Altın parayı daha cazip gösteriyor
+  - Altın kolayca bölünebilir
+  - Altın eşsizdir
+explanation: |
+  Altının doğadaki küreselleşmiş kıtlığı ve gereken önemli yatırım göz önüne alındığında
+  çıkarılması, rafine edilmesi ve depolanması için, altın sürekli olarak daha yüksek bir primle işlem görmüştür
+  diğer para türleri.
+reviewed: true

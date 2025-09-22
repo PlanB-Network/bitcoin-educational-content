@@ -1,0 +1,9 @@
+question: NAT 网关必须为每个网络流记录哪些基本信息？
+answer: 内部 IP 和公共 IP 之间的映射
+wrong_answers:
+  - 使用的网线类型
+  - IP Address 与 DNS 服务器之间的映射
+  - 使用的网络协议类型
+explanation: |
+  NAT 依靠翻译表来保持对应关系，跟踪内部地址和公共地址之间的映射，确保数据包正确路由。
+reviewed: false

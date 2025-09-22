@@ -1,14 +1,12 @@
-question: What is the concept of skin in the game in the context of the video game industry?
-answer: Having a financial stake in the outcome of a game.
+question: What are some potential business opportunities provided by the Lightning Network?
+answer: New economic models where consumers pay for content based on what they consume.
 wrong_answers:
-  - Customizing characters with unique skins that enhance gameplay.
-  - Buying in-game items with real money.
-  - Selling game skins for real money.
-explanation: |
-  The concept of skin in the game is an idea that has
-  recently gained popularity in the video game industry. It
-  essentially refers to the idea that developers and
-  stakeholders have a personal investment or stake in the
-  success of a game, which aligns their interests with
-  delivering a quality product.
+  - New economic models where consumers pay using different cryptocurrencies.
+  - New economic models where consumers use personalized blockchains.
+  - New economic models where consumers don't pay for any content.
+explanation: >-
+  The Lightning Network opens up a multitude of exciting use cases for
+  Bitcoin users. The resulting economic models and business opportunities are numerous
+  and varied, including new economic models where consumers pay for content based
+  on what they consume.
 reviewed: true

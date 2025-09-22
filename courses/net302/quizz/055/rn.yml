@@ -1,0 +1,9 @@
+question: Ni itegeko irihe ryerekana ivyerekeye ido n’ido ry’imirongo yose y’urubuga muri Linux?
+answer: ip aderesi yerekana
+wrong_answers:
+  - ifup -a
+  - urusenga -i
+  - ip yerekana inzira
+explanation: |
+  "ip addr show" itegeko ritanga urutonde rw'imirongo yose y'urubuga, hamwe n'imimerere yayo, aderesi, n'ibijanye n'ivyo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Galois Alanları AES şifrelemesinin hangi aşamasında kullanılır?
+answer: Bayt değiştirme ve MixColumns işleminde
+wrong_answers:
+  - Özel anahtarın oluşturulmasında
+  - Metni 128 bitlik bloklara bölerken
+  - XOR işleminin her aşamasında
+explanation: |
+  Galois Alanları, çarpımsal tersi hesaplamak için bayt yerine koyma işleminde ve indirgenemez bir polinomun modulo çarpımlarını gerçekleştirmek için MixColumns işleminde kullanılır.
+reviewed: false

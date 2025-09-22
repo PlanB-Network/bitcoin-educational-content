@@ -1,0 +1,9 @@
+question: Ni ubuhe bunini bw’ivyiyumviro vy’urugero rwa IP?
+answer: 65.536 bayiti
+wrong_answers:
+  - Bayiti 1.500
+  - 512 bayiti
+  - 255 bayiti
+explanation: |
+  Ingano nkuru y'uruzitiro rwa IP ni 65.536 bytes zigenwa n'umupaka w'uburebure bwose bw'umwanya uri mu mutwe wa IP.
+reviewed: false

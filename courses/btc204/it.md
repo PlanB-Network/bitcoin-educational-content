@@ -100,7 +100,7 @@ Questo modello differisce profondamente dai sistemi bancari tradizionali, che si
 
 Il Bitcoin funziona in modo diverso. Il concetto di conto non esiste e le unità monetarie non sono gestite attraverso i saldi, ma attraverso gli UTXO. Un UTXO rappresenta una quantità specifica di bitcoin non ancora spesi, formando così un "pezzo di bitcoin", che può essere grande o piccolo. Ad esempio, un UTXO può valere `500 BTC` o semplicemente `700 SATS`.
 
-**> Il satoshi, spesso abbreviato in sat, è l'unità più piccola di Bitcoin, paragonabile al centesimo di dollaro nelle valute fiat.
+**Ricorda:** Il satoshi, spesso abbreviato in sat, è l'unità più piccola di Bitcoin, paragonabile al centesimo di dollaro nelle valute fiat.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Il Bitcoin funziona in modo diverso. Il concetto di conto non esiste e le unità
 
 Teoricamente, un UTXO può rappresentare qualsiasi valore in bitcoin, da un sat a un massimo teorico di circa 21 milioni di BTC. Tuttavia, è logicamente impossibile possedere tutti i 21 milioni di bitcoin, ed esiste una soglia economica inferiore chiamata "polvere", al di sotto della quale un UTXO è considerato economicamente non conveniente da spendere.
 
-**> Il più grande UTXO mai creato su Bitcoin aveva un valore di 500.000 BTC. È stato creato dalla piattaforma MtGox durante un'operazione di consolidamento nel novembre 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Lo sapevi?** Il più grande UTXO mai creato su Bitcoin aveva un valore di 500.000 BTC. È stato creato dalla piattaforma MtGox durante un'operazione di consolidamento nel novembre 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXO e condizioni di spesa
 
@@ -148,7 +148,7 @@ Ogni transazione Bitcoin è quindi composta da uno o più ingressi e da una o pi
 
 ![BTC204](assets/fr/011.webp)
 
-**> In teoria, una transazione bitcoin potrebbe avere un numero infinito di ingressi e uscite. L'unico limite è la dimensione massima del blocco.
+**Lo sapevi?** In teoria, una transazione bitcoin potrebbe avere un numero infinito di ingressi e uscite. L'unico limite è la dimensione massima del blocco.
 
 Ogni input in una transazione Bitcoin si riferisce a un precedente UTXO non speso. Per utilizzare un UTXO come input, il suo titolare deve dimostrare di esserne il legittimo proprietario convalidando la scrittura associata, cioè soddisfacendo la condizione di spesa imposta. In generale, ciò significa fornire una firma digitale prodotta con la chiave privata corrispondente alla chiave pubblica che ha garantito inizialmente questo UTXO. La scrittura consiste quindi nel verificare che la firma corrisponda alla chiave pubblica utilizzata al momento della ricezione dei fondi.
 
@@ -211,7 +211,7 @@ I bitcoin sovvenzionati in blocco sono nuovi BTC creati da zero, secondo un prog
 
 Per quanto riguarda le commissioni di transazione, sebbene anch'esse rappresentino BTC creati ex novo, non devono superare la differenza tra gli input e gli output totali di tutte le transazioni in un blocco. Abbiamo visto in precedenza che queste commissioni rappresentano la parte di input che non viene utilizzata nelle transazioni in uscita. Questa parte è tecnicamente "persa" durante la transazione e il miner ha il diritto di ricreare questo valore sotto forma di uno o più nuovi UTXO. Si tratta di un trasferimento di valore tra l'emittente della transazione e il miner che la aggiunge alla blockchain.
 
-**> I bitcoin generati da una transazione coinbase sono soggetti a un periodo di maturità di 100 blocchi, durante il quale non possono essere spesi dal miner. Questa regola è stata pensata per evitare complicazioni legate all'utilizzo di bitcoin appena creati su una catena che potrebbe in seguito essere resa obsoleta.
+**Lo sapevi?** I bitcoin generati da una transazione coinbase sono soggetti a un periodo di maturità di 100 blocchi, durante il quale non possono essere spesi dal miner. Questa regola è stata pensata per evitare complicazioni legate all'utilizzo di bitcoin appena creati su una catena che potrebbe in seguito essere resa obsoleta.
 
 ### Le implicazioni del modello UTXO
 
@@ -235,10 +235,8 @@ Ecco perché usiamo il denaro per spostare il valore sia nello spazio che nel te
 ![BTC204](assets/fr/018.webp)
 
 Affinché la moneta risolva questo problema, è essenziale che la parte che fornisce un bene o un servizio sia convinta della sua capacità di spendere quella somma in un momento successivo. Pertanto, qualsiasi individuo razionale che desideri accettare una moneta, sia essa digitale o fisica, si assicurerà che essa soddisfi due criteri fondamentali:
-
-
-- Il pezzo deve avere integrità e autenticità ;**
-- e non deve essere speso due volte.**
+- **Il pezzo deve avere integrità e autenticità ;**
+- **e non deve essere speso due volte.**
 
 Se si utilizza una moneta fisica, la prima caratteristica è la più complessa da affermare. In diversi periodi storici, l'integrità delle monete metalliche è stata spesso compromessa da pratiche come la rifilatura o la foratura. Nell'antica Roma, ad esempio, era pratica comune per i cittadini raschiare i bordi delle monete d'oro per raccogliere un po' di metallo prezioso, conservandolo per future transazioni. In questo modo il valore intrinseco della moneta veniva ridotto, ma il suo valore nominale rimaneva invariato. Questo è uno dei motivi per cui il bordo della moneta è stato successivamente scanalato.
 
@@ -262,7 +260,7 @@ L'unico modo per evitare questa duplicazione di un asset digitale è quello di e
 
 Su Bitcoin, la doppia spesa viene impedita allo stesso modo. Cerchiamo di confermare l'assenza di una transazione che abbia già speso le monete in questione. Se le monete non sono mai state utilizzate, possiamo essere certi che non si verificherà una doppia spesa. Questo principio è stato descritto da Satoshi Nakamoto nel Libro Bianco con la famosa frase:
 
-**L'unico modo per confermare l'assenza di una transazione è essere a conoscenza di tutte le transazioni
+**L'unico modo per confermare l'assenza di una transazione è essere a conoscenza di tutte le transazioni**
 
 Ma a differenza del modello bancario, con Bitcoin non vogliamo doverci fidare di un'entità centrale. Quindi tutti gli utenti devono essere in grado di confermare l'assenza di doppie spese, senza affidarsi a terzi. Quindi tutti devono essere a conoscenza di tutte le transazioni Bitcoin. Per questo motivo le transazioni Bitcoin sono trasmesse pubblicamente su tutti i nodi della rete e registrate in chiaro sulla blockchain.
 
@@ -302,12 +300,9 @@ Tuttavia, poiché le transazioni Bitcoin sono rese pubbliche, è comunque possib
 L'analisi della catena di bit è la pratica di tracciare il flusso di bitcoin sulla catena di bit. In generale, l'analisi della catena si basa sull'osservazione di caratteristiche in campioni di transazioni precedenti. Consiste quindi nell'identificare queste stesse caratteristiche in una transazione che si desidera analizzare e nel dedurre da esse interpretazioni plausibili. Questo metodo di risoluzione dei problemi, basato su un approccio pratico per trovare una soluzione sufficientemente buona, è noto come "euristica".
 
 In parole povere, l'analisi della catena si articola in tre fasi principali:
-
 1. **Osservare la blockchain ;**
-
 2. **L'identificazione di caratteristiche note ;**
-
-3. **La deduzione di ipotesi
+3. **La deduzione di ipotesi**
 
 ![BTC204](assets/fr/026.webp)
 
@@ -356,9 +351,9 @@ Il senso dell'analisi a catena sta proprio nell'aggregazione di varie euristiche
 Queste famose euristiche possono essere raggruppate in diverse categorie, che descriveremo in dettaglio di seguito:
 
 
-- Modelli di transazione ;**
+- Modelli di transazione;
 - Euristica interna alle transazioni ;**
-- Euristica esterna alla transazione.**
+- Euristica esterna alla transazione.
 
 ### Satoshi Nakamoto e l'analisi della catena
 
@@ -1010,7 +1005,7 @@ Il fuso orario UTC-7 è particolarmente rilevante in estate, in quanto comprende
 
 Queste informazioni suggeriscono che Loïc risiede probabilmente sulla costa occidentale degli Stati Uniti o in Canada.
 
-*esercizio 8:****
+**esercizio 8:**
 
 L'analisi di questa transazione rivela 5 ingressi e un'unica uscita, il che suggerisce un consolidamento. Applicando l'euristica CIOH, possiamo ipotizzare che tutti gli UTXO di input siano di proprietà di un'unica entità e che anche l'UTXO di output appartenga a questa entità. Sembra che l'utente abbia scelto di raggruppare diversi UTXO di sua proprietà per formare un unico UTXO in uscita, con l'obiettivo di consolidare le sue parti. Questa mossa era probabilmente motivata dal desiderio di sfruttare i bassi costi di transazione dell'epoca, per ridurre i costi futuri.
 
@@ -1019,10 +1014,10 @@ ___
 *Per la stesura di questa parte 3 sull'analisi di filiera, ho attinto alle seguenti risorse:*
 
 
-- La serie di quattro articoli intitolata: [Capire la privacy di Bitcoin con OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), realizzata da Samourai Wallet nel 2021 ;*
-- I vari rapporti di [OXT Research](https://medium.com/oxt-research), così come il loro strumento gratuito di analisi della blockchain (per il momento non più disponibile in seguito all'arresto dei fondatori di Samourai Wallet) ;*
-- Più in generale, la mia conoscenza deriva da vari tweet e contenuti di [@LaurentMT](https://twitter.com/LaurentMT) e [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
-- Lo [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) a cui ho partecipato in compagnia di [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) e [@LaurentMT](https://twitter.com/LaurentMT).*
+- La serie di quattro articoli intitolata: [Capire la privacy di Bitcoin con OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), realizzata da Samourai Wallet nel 2021;
+- I vari rapporti di [OXT Research](https://medium.com/oxt-research), così come il loro strumento gratuito di analisi della blockchain (per il momento non più disponibile in seguito all'arresto dei fondatori di Samourai Wallet);
+- Più in generale, la mia conoscenza deriva da vari tweet e contenuti di [@LaurentMT](https://twitter.com/LaurentMT) e [@ErgoBTC](https://twitter.com/ErgoBTC);
+- Lo [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) a cui ho partecipato in compagnia di [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) e [@LaurentMT](https://twitter.com/LaurentMT).
 
 *Vorrei ringraziare i loro autori, sviluppatori e produttori. Grazie anche ai correttori di bozze che hanno corretto meticolosamente l'articolo su cui si basa questa parte 3 e mi hanno dato i loro consigli da esperti :*
 
@@ -1052,7 +1047,7 @@ Tecnicamente, un indirizzo di ricezione Bitcoin non "riceve" bitcoin in senso le
 > "*Per spendere questo nuovo UTXO, è necessario fornire una firma digitale utilizzando la chiave privata associata a questo indirizzo di ricezione.*"
 ![BTC204](assets/fr/067.webp)
 
-Gli indirizzi Bitcoin sono di diversi tipi, a seconda del modello di scripting utilizzato. I primi modelli, noti come "Legacy*", comprendono gli indirizzi `P2PKH` (*Pay-to-PubKey-Hash*) e `P2SH` (*Pay-to-Script-Hash*). Gli indirizzi P2PKH iniziano sempre con `1`, mentre P2SH con `3`. Sebbene siano ancora sicuri, questi formati sono ormai obsoleti, poiché comportano costi di transazione più elevati e offrono una minore riservatezza rispetto ai nuovi standard.
+Gli indirizzi Bitcoin sono di diversi tipi, a seconda del modello di scripting utilizzato. I primi modelli, noti come "Legacy", comprendono gli indirizzi `P2PKH` (*Pay-to-PubKey-Hash*) e `P2SH` (*Pay-to-Script-Hash*). Gli indirizzi P2PKH iniziano sempre con `1`, mentre P2SH con `3`. Sebbene siano ancora sicuri, questi formati sono ormai obsoleti, poiché comportano costi di transazione più elevati e offrono una minore riservatezza rispetto ai nuovi standard.
 
 Gli indirizzi SegWit V0 (`P2WPKH` e `P2WSH`) e Taproot / SegWit V1 (`P2TR`) rappresentano formati moderni. Gli indirizzi SegWit iniziano con `bc1q` e gli indirizzi Taproot, introdotti nel 2021, iniziano con `bc1p`.
 
@@ -1499,7 +1494,7 @@ Altri modi per acquisire bitcoin proteggendo la propria privacy sono, ovviamente
 
 Un altro metodo è quello di lavorare in cambio di bitcoin. Questo metodo di acquisizione può essere interessante, ma il grado di identificazione richiesto varia notevolmente a seconda delle circostanze.
 
-*Per scrivere questo capitolo, ho utilizzato il corso di formazione BTC205 tenuto da [@pivi___](https://x.com/pivi___) sulla rete Plan ₿ (per ora disponibile solo in francese)
+*Per scrivere questo capitolo, ho utilizzato il corso di formazione BTC205 tenuto da [@pivi___](https://x.com/pivi___) sulla rete Plan ₿ (per ora disponibile solo in francese)*
 
 ## Consolidamento, gestione UTXO e CIOH
 
@@ -1597,11 +1592,11 @@ Vediamo alcune altre buone pratiche per ottimizzare la vostra privacy su Bitcoin
 Possedere i propri bitcoin in autocustodia è fantastico, ma utilizzare il proprio nodo completo è ancora meglio! Ecco perché avere un proprio nodo è fondamentale per un uso pienamente sovrano di Bitcoin:
 
 
-- Resistenza alla censura**: Le vostre transazioni non possono essere bloccate da nessuno;
-- Indipendenza da terzi**: Non dipendete più da alcun servizio esterno per verificare i dati della blockchain;
-- Partecipazione attiva**: È possibile definire le proprie regole di convalida e partecipare direttamente al consenso;
-- Contributo alla rete**: Gestendo un nodo, si contribuisce a rafforzare e distribuire la rete Bitcoin;
-- Formazione tecnica**: La gestione di un nodo completo è un ottimo modo per approfondire la conoscenza tecnica di Bitcoin.
+- **Resistenza alla censura**: Le vostre transazioni non possono essere bloccate da nessuno;
+- **Indipendenza da terzi**: Non dipendete più da alcun servizio esterno per verificare i dati della blockchain;
+- **Partecipazione attiva**: È possibile definire le proprie regole di convalida e partecipare direttamente al consenso;
+- **Contributo alla rete**: Gestendo un nodo, si contribuisce a rafforzare e distribuire la rete Bitcoin;
+- **Formazione tecnica**: La gestione di un nodo completo è un ottimo modo per approfondire la conoscenza tecnica di Bitcoin.
 
 Oltre a questi vantaggi, l'utilizzo di un nodo completo migliora anche la riservatezza durante la trasmissione delle transazioni. Quando si emette una transazione, questa viene prima creata e firmata tramite il proprio portafoglio. Per diffonderla sulla rete Bitcoin, deve essere conosciuta da almeno un nodo. Utilizzando il proprio nodo, si ha il controllo diretto su questa distribuzione, rafforzando così la propria riservatezza e limitando il rischio di fuga di dati.
 
@@ -1770,7 +1765,7 @@ Le cosiddette coinjoin "chaumiane" combinano l'uso di Tor e delle firme cieche d
 
 Il processo di costruzione della transazione coinjoin prevede 3 fasi principali: la registrazione degli input, la registrazione degli output e la firma della transazione. Vediamo questo processo attraverso l'esempio di Alice, uno dei partecipanti al coinjoin. Tutti gli altri partecipanti seguono gli stessi passi di Alice, ognuno per conto proprio.
 
-**Fase 1: registrazione dell'ingresso
+**Fase 1: registrazione dell'ingresso**
 
 
 - Alice trasmette al coordinatore l'UTXO che desidera utilizzare come input per la transazione, nonché l'indirizzo di ricezione mascherato che desidera utilizzare come output per ricevere i suoi bitcoin. Il coordinatore non ha quindi modo di conoscere l'indirizzo di Alice. Vede solo la sua versione mascherata:
@@ -1821,7 +1816,7 @@ Sono proprio questi due aspetti, pubblico e privato, abilitati dall'uso delle fi
 
 È difficile stabilire con certezza chi abbia introdotto per primo l'idea del coinjoin in Bitcoin e chi abbia avuto l'idea di utilizzare le firme cieche di David Chaum in questo contesto. Spesso si pensa che sia stato Gregory Maxwell a parlarne per primo in [un messaggio su BitcoinTalk del 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
-> *"Utilizza le firme cieche di Chaum: Gli utenti si collegano e forniscono gli input (e si scambiano gli indirizzi) e una versione crittograficamente blindata dell'indirizzo a cui desiderano inviare le loro parti private; il server firma i token e li invia indietro. Gli utenti si riconnettono in modo anonimo, smascherano i loro indirizzi di uscita e li inviano nuovamente al server. Il server può vedere che tutti gli output sono stati firmati da lui e che, di conseguenza, tutti gli output provengono da partecipanti validi. In seguito, le persone si riconnettono e si registrano
+> *"Utilizza le firme cieche di Chaum: Gli utenti si collegano e forniscono gli input (e si scambiano gli indirizzi) e una versione crittograficamente blindata dell'indirizzo a cui desiderano inviare le loro parti private; il server firma i token e li invia indietro. Gli utenti si riconnettono in modo anonimo, smascherano i loro indirizzi di uscita e li inviano nuovamente al server. Il server può vedere che tutti gli output sono stati firmati da lui e che, di conseguenza, tutti gli output provengono da partecipanti validi. In seguito, le persone si riconnettono e si registrano"*
 Maxwell, G. (2013, 22 agosto). *CoinJoin: La privacy dei Bitcoin per il mondo reale*. Forum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)
@@ -1859,7 +1854,7 @@ Attualmente, Whirlpool è l'unica implementazione di coinjoin che applica rigoro
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-*Nel 2024 stiamo assistendo a grandi cambiamenti negli strumenti a disposizione degli utenti che desiderano effettuare coinjoin su Bitcoin. Siamo attualmente a un punto di svolta e il mercato delle coinjoin sta subendo una profonda ristrutturazione. Questo capitolo sarà sicuramente aggiornato nel tempo
+*Nel 2024 stiamo assistendo a grandi cambiamenti negli strumenti a disposizione degli utenti che desiderano effettuare coinjoin su Bitcoin. Siamo attualmente a un punto di svolta e il mercato delle coinjoin sta subendo una profonda ristrutturazione. Questo capitolo sarà sicuramente aggiornato nel tempo*
 
 Al momento esistono principalmente 3 diverse implementazioni di coinjoin su Bitcoin:
 
@@ -2004,17 +1999,13 @@ Un pool rappresenta un gruppo di utenti che desiderano mescolarsi tra loro e che
 
 Quando si entra in una pool con i propri bitcoin, questi vengono suddivisi per generare UTXO perfettamente omogenei con quelli degli altri partecipanti alla pool. Ogni pool ha un limite massimo, quindi per importi superiori a questo limite, dovrete effettuare due ingressi separati nello stesso pool, oppure passare a un altro pool con un importo superiore:
 
-| Pool (bitcoin) | Importo massimo per iscrizione (bitcoin)
 
-|----------------|--------------------------------------|
-
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
 Un UTXO è considerato appartenente a un pool quando è pronto per essere integrato in una coinjoin. Tuttavia, questo non significa che l'utente ne perda il possesso. Come abbiamo visto nei primi capitoli di questa sezione, attraverso i vari cicli di miscelazione, l'utente mantiene il pieno controllo delle proprie chiavi e, di conseguenza, dei propri bitcoin. Questo è ciò che differenzia la tecnica coinjoin da altre tecniche di miscelazione centralizzate.
 
@@ -2022,17 +2013,14 @@ Per entrare a far parte di un pool di coinjoin, è necessario pagare una quota d
 
 La quota di servizio per l'utilizzo di Whirlpool deve essere pagata una sola volta al momento dell'iscrizione alla piscina. Una volta iscritti, è possibile partecipare a un numero illimitato di remix senza alcun costo aggiuntivo. Ecco le tariffe fisse attuali per ogni pool:
 
-| Pool (bitcoin) | Quota di iscrizione (bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50.000 saturazioni) |
-
-| 0,001 | 0,00005 (5.000 saturazioni) |
 
 Queste commissioni fungono essenzialmente da biglietto d'ingresso al pool prescelto, indipendentemente dall'importo versato in coinjoin. Quindi, sia che si entri nel pool 0,01 con esattamente 0,01 BTC o 0,5 BTC, le commissioni rimarranno le stesse in termini assoluti.
 
@@ -2149,12 +2137,12 @@ Successivamente, dovrete prestare attenzione alla gestione dei doxxic exchange, 
 Ecco alcune strategie per utilizzarli:
 
 
-- Miscelare in vasche più piccole:** Se l'UTXO tossico è abbastanza grande da poter essere inserito da solo in una vasca più piccola, si può pensare di miscelarlo. Questa è spesso l'opzione migliore. Tuttavia, non è consigliabile unire più UTXO tossici per accedere a una piscina, poiché ciò potrebbe collegare le diverse voci;
-- Contrassegnarli come "non spendibili":** Un altro approccio è quello di smettere di usarli, contrassegnarli come "non spendibili" nel loro conto dedicato e limitarsi ad hodl. In questo modo si evita di spenderli accidentalmente. Se il valore del bitcoin aumenta, potrebbero emergere nuovi pool più adatti ai vostri UTXO tossici;
-- Fare donazioni:** Considerate la possibilità di fare donazioni, per quanto modeste, agli sviluppatori che lavorano su Bitcoin e sul software correlato. Potete anche fare donazioni alle associazioni che accettano BTC. Se la gestione degli UTXO tossici sembra troppo complicata, potete semplicemente sbarazzarvene e fare una donazione;
-- Acquistare carte regalo:** Piattaforme come [Bitrefill](https://www.bitrefill.com/) consentono di scambiare bitcoin con carte regalo che possono essere utilizzate presso vari commercianti. Questo può essere un modo per separarsi dai propri UTXO tossici senza perdere il valore associato;
-- Consolidarli su Monero:** Samourai Wallet offre un servizio di scambio atomico tra BTC e XMR. Questo è ideale per gestire gli UTXO tossici consolidandoli su Monero, senza compromettere la riservatezza tramite CIOH, prima di rimandarli in Bitcoin. Tuttavia, questa opzione può essere costosa in termini di commissioni di mining e di premio a causa dei vincoli di liquidità;
-- Trasferire questi UTXO alla rete Lightning: ** Trasferire questi UTXO alla rete Lightning per beneficiare di commissioni di transazione ridotte può essere un'opzione interessante. Tuttavia, questo metodo può rivelare alcune informazioni a seconda dell'uso che si fa di Lightning e deve quindi essere usato con cautela.
+- Miscelare in vasche più piccole: Se l'UTXO tossico è abbastanza grande da poter essere inserito da solo in una vasca più piccola, si può pensare di miscelarlo. Questa è spesso l'opzione migliore. Tuttavia, non è consigliabile unire più UTXO tossici per accedere a una piscina, poiché ciò potrebbe collegare le diverse voci;
+- Contrassegnarli come "non spendibili": **Un altro approccio è quello di smettere di usarli, contrassegnarli come "non spendibili" nel loro conto dedicato e limitarsi ad hodl. In questo modo si evita di spenderli accidentalmente. Se il valore del bitcoin aumenta, potrebbero emergere nuovi pool più adatti ai vostri UTXO tossici;**
+- **Fare donazioni:** Considerate la possibilità di fare donazioni, per quanto modeste, agli sviluppatori che lavorano su Bitcoin e sul software correlato. Potete anche fare donazioni alle associazioni che accettano BTC. Se la gestione degli UTXO tossici sembra troppo complicata, potete semplicemente sbarazzarvene e fare una donazione;
+- **Acquistare carte regalo:** Piattaforme come [Bitrefill](https://www.bitrefill.com/) consentono di scambiare bitcoin con carte regalo che possono essere utilizzate presso vari commercianti. Questo può essere un modo per separarsi dai propri UTXO tossici senza perdere il valore associato;
+- Consolidarli su Monero: **Samourai Wallet** offre un servizio di scambio atomico tra BTC e XMR. Questo è ideale per gestire gli UTXO tossici consolidandoli su Monero, senza compromettere la riservatezza tramite CIOH, prima di rimandarli in Bitcoin. Tuttavia, questa opzione può essere costosa in termini di commissioni di mining e di premio a causa dei vincoli di liquidità;
+- Trasferire questi UTXO alla rete Lightning: **Trasferire questi UTXO alla rete Lightning per beneficiare di commissioni di transazione ridotte può essere un'opzione interessante. Tuttavia, questo metodo può rivelare alcune informazioni a seconda dell'uso che si fa di Lightning e deve quindi essere usato con cautela.**
 
 ### Come si usa Whirlpool?
 
@@ -2168,11 +2156,11 @@ Stiamo tenendo d'occhio questo caso e gli sviluppi degli strumenti associati. Vi
 
 Nel prossimo capitolo scopriremo cosa sono gli "anonset", come vengono calcolati questi indicatori e come possono aiutarci a stimare l'efficienza dei cicli coinjoin.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Set di anonimato
 
@@ -2204,8 +2192,8 @@ Se necessario, gli anonset possono essere utilizzati per giudicare la qualità d
 esistono 2 tipi di anonset:
 
 
-- L'anonset prospettico ;**
-- Retrospettiva anonset.**
+- L'anonset prospettico;
+- Retrospettiva anonset.
 
 ### L'anonset prospettico
 
@@ -2247,7 +2235,7 @@ Ad esempio, immaginiamo che la nostra parte coinjoin abbia un anonset retrospett
 
 Come abbiamo visto in questo capitolo, gli anonset possono essere calcolati solo se esiste una certa omogeneità nella struttura della coinjoin. Nel prossimo capitolo scopriremo come quantificare questa omogeneità su una transazione Bitcoin, sia essa una coinjoin o una transazione più tradizionale.
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropia
 
@@ -2596,7 +2584,7 @@ La difficoltà nell'utilizzo di payjoin risiede nella sua dipendenza dalla parte
 
 Una soluzione potrebbe essere quella di utilizzare strutture di transazione che introducano ambiguità nell'analisi della catena senza richiedere la cooperazione del destinatario. Questo ci permetterebbe di migliorare la riservatezza dei nostri pagamenti senza dipendere dalla partecipazione attiva dei commercianti. Questo è esattamente ciò che vedremo nel prossimo capitolo.
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
@@ -3010,7 +2998,7 @@ Nel sistema bancario tradizionale, ad esempio, siamo abituati a condividere il n
 
 Tuttavia, Bitcoin funziona in modo diverso: per ogni transazione in entrata deve essere generato un nuovo indirizzo di ricezione. Questo compromesso tra facilità d'uso e riservatezza risale alle origini stesse del Libro Bianco di Bitcoin. Già alla fine del 2008, con la pubblicazione della prima versione del documento, Satoshi Nakamoto ci avvertiva di questo rischio:
 
-**Come ulteriore firewall, si potrebbe utilizzare una nuova coppia di chiavi per ogni transazione, in modo da non collegarle a un proprietario comune
+**Come ulteriore firewall, si potrebbe utilizzare una nuova coppia di chiavi per ogni transazione, in modo da non collegarle a un proprietario comune**
 
 Esistono molti modi per ricevere più pagamenti su un singolo identificatore senza dover riutilizzare un indirizzo. Ognuno di essi ha i propri compromessi e svantaggi. Tra questi metodi c'è BIP47, una proposta sviluppata da Justus Ranvier e pubblicata nel 2015. Questa proposta mira a creare codici di pagamento riutilizzabili che consentano di effettuare più transazioni nei confronti della stessa persona, evitando il riutilizzo dell'indirizzo. In breve, BIP47 mira a offrire un sistema di pagamento intuitivo come un identificativo unico, preservando al contempo la riservatezza delle transazioni.
 
@@ -3079,12 +3067,12 @@ Come già detto, il codice di pagamento riutilizzabile si trova alla profondità
 Il codice di pagamento di 80 byte si suddivide come segue:
 
 
-- Byte `0`: La versione**. Per la prima versione di BIP47, questo byte è impostato su `0x01`;
-- Byte `1`: Il campo dei bit**. Questo spazio è riservato all'integrazione di indicazioni aggiuntive per usi specifici. Per l'uso classico di PayNym, questo byte è impostato su `0x00`;
-- Il byte `2`: La parità di `y`**. Questo byte è `0x02` o `0x03`, a indicare se l'ordinata della chiave pubblica è pari o dispari, poiché viene utilizzata una chiave pubblica compressa;
-- Dal byte `3` al byte `34`: Il valore di `x`**. Questi byte rappresentano l'ascissa della chiave pubblica. La concatenazione di `x` e della parità di `y` forma la chiave pubblica compressa completa;
-- Dal byte `35` al byte `66`: Il codice stringa**. Questo spazio contiene il codice stringa associato alla chiave pubblica;
-- Dal byte `67` al byte `79`: Il padding**. Questo spazio è destinato a possibili evoluzioni future. Per la versione attuale, si mettono semplicemente degli zeri qui per raggiungere la dimensione di 80 byte richiesta per l'output di `OP_RETURN`.
+- Byte `0`: La **versione**. Per la prima versione di BIP47, questo byte è impostato su `0x01`;
+- Byte `1`: Il campo dei **bit**. Questo spazio è riservato all'integrazione di indicazioni aggiuntive per usi specifici. Per l'uso classico di PayNym, questo byte è impostato su `0x00`;
+- Il byte `2`: La parità di `y`. Questo byte è `0x02` o `0x03`, a indicare se l'ordinata della chiave pubblica è pari o dispari, poiché viene utilizzata una chiave pubblica compressa;
+- Dal byte `3` al byte `34`: Il valore di `x`. Questi byte rappresentano l'ascissa della chiave pubblica. La concatenazione di `x` e della parità di `y` forma la chiave pubblica compressa completa;
+- Dal byte `35` al byte `66`: Il codice **stringa**. Questo spazio contiene il codice stringa associato alla chiave pubblica;
+- Dal byte `67` al byte `79`: Il **padding**. Questo spazio è destinato a possibili evoluzioni future. Per la versione attuale, si mettono semplicemente degli zeri qui per raggiungere la dimensione di 80 byte richiesta per l'output di `OP_RETURN`.
 
 Ecco la rappresentazione esadecimale del mio codice di pagamento riutilizzabile già presentato nella sezione precedente:
 
@@ -3817,7 +3805,7 @@ Bob può quindi rimborsare Alice nello stesso modo in cui lei gli ha inviato i p
 
 ![BTC204](assets/fr/235.webp)
 
-*Un sentito ringraziamento a [Fanis Michalakis](https://x.com/FanisMichalakis) per la sua correzione di bozze e per i suoi consigli sull'articolo che ha ispirato la stesura di questo capitolo!
+*Un sentito ringraziamento a [Fanis Michalakis](https://x.com/FanisMichalakis) per la sua correzione di bozze e per i suoi consigli sull'articolo che ha ispirato la stesura di questo capitolo!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
@@ -4219,7 +4207,7 @@ Presto vi forniremo un tutorial dettagliato su come impostare il vostro indirizz
 
 Poiché questa funzione è nuova, vi consigliamo di usare cautela e di evitare di utilizzare i pagamenti silenziosi per importi elevati su mainnet.
 
-*Per creare questo capitolo sui pagamenti silenziosi, ho utilizzato [il sito di spiegazione dei pagamenti silenziosi](https://silentpayments.xyz/) e [il documento di spiegazione del BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)
+*Per creare questo capitolo sui pagamenti silenziosi, ho utilizzato [il sito di spiegazione dei pagamenti silenziosi](https://silentpayments.xyz/) e [il documento di spiegazione del BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)*
 
 # Sezione finale
 

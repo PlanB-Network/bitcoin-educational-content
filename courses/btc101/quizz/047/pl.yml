@@ -1,12 +1,10 @@
-question: Czym jest hiperinflacja?
-answer: Drastyczny wzrost masy pieniężnej.
+question: Jaka jest druga faza zjawiska hiperinflacji?
+answer: Upadek waluty i wzrost cen.
 wrong_answers:
-  - Niewielki wzrost masy pieniężnej.
-  - Drastyczny spadek masy pieniężnej.
-  - Niewielki spadek masy pieniężnej.
+  - Utrata zaufania.
+  - Błędne koło drukowania pieniędzy.
+  - Pojawia się nowa waluta.
 explanation: |
-  Hiperinflacja to zjawisko monetarne charakteryzujące się
-  drastycznym wzrostem inflacji poprzez dodruk pieniądza
-  przez władze, co prowadzi do całkowitej utraty
-  zaufania do waluty.
+  Drugą fazą hiperinflacji jest upadek waluty i wzrost cen
+  wzrost cen, tuż po fazie utraty zaufania.
 reviewed: true

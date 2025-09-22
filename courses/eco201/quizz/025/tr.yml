@@ -1,0 +1,14 @@
+question: İstekler sorununun çifte tesadüfünün üç boyutu nedir?
+answer: Mekânsal, zamansal ve kişiler arası.
+wrong_answers:
+  - Mekânsal, zamansal ve içsel.
+  - Mekânsal, zamanlararası ve kişilerarası.
+  - Mekânlar arası, zamansal ve kişiler arası.
+explanation: |
+  İstekler sorununun çifte tesadüfü şu anlama gelir
+  her iki tarafın da sahip olması gereken takasta zorluk
+  diğerinin aynı yer ve zamanda arzuladığı bir şey.
+  Bu sorunun üç boyutu vardır; mekânsal (aynı yer),
+  zamansal (aynı zaman) ve kişilerarası (karşılıklı arzu
+  birbirlerinin malları).
+reviewed: true

@@ -190,4 +190,5 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya di aplikasi seluler Blockstream Green, yang merupakan solusi menarik lainnya untuk menyiapkan dompet Liquid Anda:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+

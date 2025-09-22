@@ -1,0 +1,8 @@
+question: La politique mercantiliste ne öneriyor?
+answer: ihracat, ödeme olarak alınan altın ve gümüşü istiflemek
+wrong_answers:
+  - ithalat, yabancı malları biriktirmek
+  - ikisi de değil, ticaret kısır ve anlamsız
+  - ithalat ve ihracat arasındaki denge
+explanation: |
+  Merkantilizm, ulusal zenginleşmeyi teşvik etmek için devlet müdahalesini savunan ekonomik bir doktrindir. Temel amaç, ticaret dengesi fazlası vererek, yani ithalattan daha fazla ihracat yaparak değerli metaller (altın ve gümüş) biriktirmektir.

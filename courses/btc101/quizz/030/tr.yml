@@ -1,0 +1,12 @@
+question: Güvene dayalı para birimlerini ihraç etmekten sorumlu kuruluşlar hangileridir?
+answer: Merkez bankaları.
+wrong_answers:
+  - Ticari bankalar.
+  - Hükümetler.
+  - Özel Kurumlar.
+explanation: |
+  Merkez bankaları, para basmaktan sorumlu kuruluşlardır
+  güvene dayalı para birimi. Para politikasına karar verirler ve
+  ne kadar paranın dolaşıma sokulması gerektiğini belirlemek veya
+  basılı.
+reviewed: true

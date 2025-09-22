@@ -166,7 +166,7 @@ Dans les cours, les parties les plus importantes sont introduites par un seul si
 
 
 
-Veillez à ne JAMAIS supprimer les signes Hash** avant un titre, sinon vous créerez des problèmes avec la structure du texte.
+Veillez à ne JAMAIS supprimer les signes **Hash** avant un titre, sinon vous créerez des problèmes avec la structure du texte.
 
 
 En même temps, **ne changez pas** la partie chapterID que vous pouvez voir dans l'image ci-dessus, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` ou les références vidéo comme ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
@@ -222,7 +222,7 @@ Par conséquent, vérifiez toujours le texte original en anglais pour voir si un
 
 
 
-- Les mêmes problèmes peuvent se produire avec des symboles comme $ et `` ` ``.
+- Les mêmes problèmes peuvent se produire avec des symboles comme ``$`` et `` ` ``.
 
 Veillez à vérifier le fichier de la langue originale (souvent EN ou FR) pour voir où ces symboles sont censés se trouver. Vous pouvez toujours demander l'aide du coordinateur à ce sujet.
 
@@ -234,8 +234,6 @@ Veillez à vérifier le fichier de la langue originale (souvent EN ou FR) pour v
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Relecture du questionnaire
 
 
@@ -245,11 +243,20 @@ Saviez-vous que vous pouvez également relire les questions des quiz de chaque c
 Une fois de plus, assurez-vous que vous vous trouvez dans une agence spécialement ouverte à cet effet et informez-en toujours le coordinateur.
 
 
-Après avoir examiné la question, assurez-vous de changer le statut "examiné" de "faux" à "vrai", comme le montre l'image ci-dessous.
-
+Une chose importante à garder à l'esprit lors de la relecture de ce type de fichier _yml_ est d'éviter d'ajouter des deux points ``:`` à l'intérieur du texte. En fait, les deux points sont **uniquement** utilisés pour séparer les paires clé-valeur comme "wrong_answers" du reste. Vous pouvez voir un exemple dans l'image ci-dessous :
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Après avoir examiné la question, assurez-vous de changer le statut "reviewed" de "false" à "true", comme le montre l'image ci-dessous. Veillez à ce que ces mots d'état restent en anglais, quelle que soit la langue dans laquelle vous travaillez !
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Si la ligne de statut "reviewed:true" est manquante, assurez-vous de **l'ajouter à la fin du quiz**.
 
 
 ## Relecture du glossaire
@@ -258,7 +265,35 @@ Après avoir examiné la question, assurez-vous de changer le statut "examiné" 
 Tout comme les quiz, vous pouvez également relire le glossaire. Le glossaire original a été rédigé en français, vous y trouverez donc des phrases comme : "En français, cette expression peut se traduire par..."
 
 
-Dans ce cas, veuillez adapter cette phrase à votre langue cible ou à l'anglais.
+Dans ce cas, veuillez adapter la phrase à votre langue cible ou à l'anglais. Par exemple, vous pouvez écrire "En anglais, cette expression...".
+
+Si le titre est laissé en anglais, vous pouvez adapter la phrase à votre langue : "En swahili, cette expression..."
+
+
+En outre, veillez à écrire les titres en LETTRES MAJUSCULES.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Le titre et la description de votre RP
+
+
+Lorsque vous envoyez votre RP, il serait souhaitable que vous le nommiez en utilisant ce format : [RELECTURE] NOM DU CONTENU - LANGUE :
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+En outre, dans la **commentaire du PR**, vous pouvez écrire "closes" + le numéro de la question que le coordinateur vous a envoyé lorsque vous avez commencé la tâche de relecture, précédé par ``#``.
+
+Par exemple, si vous venez d'envoyer un PR avec la relecture de cyp201 + quiz, vous pouvez écrire "closes [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+De cette manière, le PR et le problème seront liés, et quiconque lit le dépôt public Github peut facilement trouver des informations.
+
 
 
 ## Autres bonnes pratiques
@@ -269,11 +304,11 @@ Dans ce cas, veuillez adapter cette phrase à votre langue cible ou à l'anglais
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-Lorsque vous utilisez la fonction "remplacer tout", il est important de vérifier les résultats pour s'assurer que les liens n'ont pas été modifiés. Par exemple, si vous souhaitez remplacer le mot "Bitcoin" par "Bitkoin" (ce qui peut être nécessaire dans certaines langues), la fonction "remplacer tout" permet de mettre à jour efficacement toutes les occurrences dans le texte. Cependant, il faut savoir que cet outil modifiera également tous les liens contenant ce mot, ce qui peut entraîner des problèmes de redirection.
+Lorsque vous utilisez la fonction "remplacer tout", il est important de vérifier les résultats pour s'assurer que les liens n'ont pas été modifiés. Par exemple, si vous souhaitez remplacer le mot "Bitcoin" par "Bitkoin" (ce qui peut être nécessaire dans certaines langues), la fonction "remplacer tout" permet de mettre à jour efficacement toutes les occurrences dans le texte. Toutefois, il faut savoir que cet outil modifiera également tous les liens contenant ce mot, ce qui peut entraîner des problèmes de redirection.
 
 
 Dans l'exemple ci-dessous, le correcteur a utilisé la fonction ci-dessus pour remplacer "Satoshi" par "Satoshi(Sats)", et a également modifié le lien vers un didacticiel contenant le mot lui-même. En conséquence, le lien est devenu invalide.
@@ -283,23 +318,35 @@ Vérifiez toujours tous les liens hypertextes dans le texte, afin de vous assure
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Si l'auteur insère un lien renvoyant à un cours ou à un tutoriel Plan ₿ Network (**non** entre parenthèses), le site web créera automatiquement une "carte" affichant la vignette correspondante. Par conséquent, assurez-vous toujours qu'il y a **un espace entre le texte et le lien lui-même**, sinon vous risquez de voir l'erreur suivante sur le site web.
+- Si l'auteur insère un lien renvoyant à un cours ou à un tutoriel Plan ₿ Network (**non** entre parenthèses), le site web créera automatiquement une "carte" affichant la vignette correspondante. Par conséquent, veillez toujours à **ajouter une nouvelle ligne entre le texte et le lien lui-même**, sinon vous risquez de voir apparaître l'erreur suivante sur le site web.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+Il en va de même pour les "codes d'image" comme celui-ci ``[IMAGE](asset/fr/001.webp)`` : veillez à toujours ajouter une nouvelle ligne entre le code d'image et le texte. Un exemple ci-dessous :
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Enfin, une autre bonne pratique à appliquer lorsque vous avez terminé votre tâche de relecture et envoyé le PR est de retourner au problème original ouvert par le coordinateur et de commenter avec "Relecture effectuée". **N'oubliez pas d'y insérer également le lien de votre PR**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Conclusion
@@ -309,6 +356,9 @@ En résumé, le fait d'être conscient des erreurs courantes des correcteurs peu
 
 
 Gardez toujours à l'esprit qu'un débutant peut lire ces cours et tutoriels, et qu'il est donc de notre responsabilité de veiller à ce qu'il les comprenne parfaitement. En tant que correcteur, vous êtes un éducateur !
+
+
+Vous êtes maintenant prêt à relire les cours, les tutoriels, les quiz et les glossaires. Restez à l'écoute pour commencer à vérifier les images et les transcriptions vidéo ;)
 
 
 Merci d'avoir lu ce tutoriel et bonne lecture !

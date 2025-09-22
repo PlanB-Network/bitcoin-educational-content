@@ -1,11 +1,13 @@
-question: Mikä on Kyberavaruuden itsenäisyysjulistus?
-answer: Teksti, joka väittää kyberavaruuden olevan erillinen alue fyysisestä maailmasta ja sen ei tulisi olla samojen lakien alainen.
+question: Miksi kulta tuli vaihdon välineen standardiksi?
+answer: Sen harvinaisuuden, kestävyyden ja jaettavuuden vuoksi.
 wrong_answers:
-  - Julistus, joka toteaa Bitcoinin itsenäisyyden perinteisistä rahoitusjärjestelmistä.
-  - Teksti, joka väittää kyberavaruuden tulisi olla hallituksen sääntelyn alainen.
-  - Julistus, joka vakuuttaa merirosvoliikkeen itsenäisyyden mistä tahansa sääntelystä.
+  - Sen runsauden, kestävyyden ja jakamattomuuden vuoksi.
+  - Sen harvinaisuuden, pilaantuvuuden ja jaettavuuden vuoksi.
+  - Sen runsauden, pilaantuvuuden ja jakamattomuuden vuoksi.
 explanation: |
-  Kyberavaruuden itsenäisyysjulistus kirjoitettiin John Perry Barlown toimesta vuonna 1996. Tämä asiakirja väittää,
-  että kyberavaruus on erillinen alue fyysisestä maailmasta, joten teollisuusvaltioiden hallitukset eivät voi
-  pakottaa valtaansa sinne.
+  Kulta tuli vaihdon välineen standardiksi sen
+  harvinaisuuden, kestävyyden ja jaettavuuden ansiosta: sen harvinaisuus esti
+  arvon alenemisen tuotannon myötä; sen kestävyys
+  varmisti, että se ei kuluisi ajan myötä, ja sen jaettavuus
+  mahdollisti käytön erikokoisissa transaktioissa.
 reviewed: true

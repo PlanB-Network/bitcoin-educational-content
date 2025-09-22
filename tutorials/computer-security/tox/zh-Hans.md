@@ -1,5 +1,5 @@
 ---
-name: 毒素
+name: Tox
 description: 在去中心化的 Tox 协议上，无需中介即可开启对话
 ---
 ![cover](assets/cover.webp)

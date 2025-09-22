@@ -1,0 +1,10 @@
+question: Abahinguzi barihwa gute muri JoinMarket?
+answer: Biciye mu mahera yishurwa n’ababifata.
+wrong_answers:
+  - Biciye mu mahera ya Mining.
+  - Biciye ku ntererano z’ubushake zitangwa n’abazifata.
+  - Biciye mu nkunga zitangwa n’umuryango wa Bitcoin.
+explanation: |
+  Ababikora basiga ama bitcoins yabo kugira ngo abayafata bashobore kuyaronka, bagaca baronka amahera y’ivyo bakoze. Abafata na bo nyene bariha kugira ngo bakoreshe ama bitcoins y’abayakora kugira ngo bashobore gukora ibikorwa vyabo vya CoinJoin.
+  
+reviewed: false

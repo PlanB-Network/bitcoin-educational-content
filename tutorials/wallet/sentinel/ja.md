@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: ウォッチオンリーウォレットとは何か、そしてその使用方法について
 ---
 ![cover](assets/cover.webp)

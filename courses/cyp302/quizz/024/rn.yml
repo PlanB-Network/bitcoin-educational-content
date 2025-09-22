@@ -1,0 +1,9 @@
+question: None 42 mod 2 ifise agaciro akahe?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  Mu kugabanya 42 na 2, igisigaye ni zero, rero 42 mod 2 ingana na 0.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni kazi gani kuu ya MAC Address katika mtandao wa ndani?
+answer: Tambua mtandao wa Interface pekee
+wrong_answers:
+  - Tafsiri jina la kikoa katika IP Address
+  - Toa IP Address kwa nguvu kwa mwenyeji
+  - Bainisha kasi ya muunganisho wako wa intaneti
+explanation: |
+  MAC Address hutumika kama kitambulisho cha kipekee cha maunzi kwa kila mtandao wa Interface, kuwezesha vifaa kutofautishwa kimwili kwenye mtandao wa ndani.
+reviewed: false

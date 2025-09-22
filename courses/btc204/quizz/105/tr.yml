@@ -1,0 +1,8 @@
+question: Klasik bir ödeme işlemine kıyasla PayJoin işleminin temel avantajı nedir?
+answer: Gizliliği artırır
+wrong_answers:
+  - Onay hızını artırır
+  - İşlem ücretlerini düşürür
+  - Alıcıyı yanlış yönlendirir
+explanation: |
+  PayJoin işlemi, yanıltıcı zincir analizi ile paydaşların gizliliğini artırır.

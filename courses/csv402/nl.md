@@ -141,7 +141,7 @@ Het begrip **consensus** in een gedistribueerd systeem omvat twee aspecten:
 
 
 
-- Erkenning van de geldigheid** van toestandsveranderingen (volgens protocolregels);
+- Erkenning van de **geldigheid** van toestandsveranderingen (volgens protocolregels);
 - De **overeenkomst over de volgorde** van deze toestandsveranderingen, die het onmogelijk maakt om achteraf gevalideerde operaties te herschrijven of terug te draaien (dit staat in Bitcoin ook bekend als "double-spend protection").
 
 
@@ -168,9 +168,9 @@ Om te begrijpen hoe Client-side Validation en RGB Address problemen oplossen die
 
 
 
-- Schaalbaarheid, Decentralisatie, Privacy**;
-- CAP** Stelling (Consistentie, Beschikbaarheid, Partitietolerantie);
-- CIA** trilemma (Vertrouwelijkheid, Integriteit, Beschikbaarheid).
+- **Schaalbaarheid, Decentralisatie, Privacy**;
+- **CAP** Stelling (Consistentie, Beschikbaarheid, Partitietolerantie);
+- **CIA** trilemma (Vertrouwelijkheid, Integriteit, Beschikbaarheid).
 
 
 #### 1. Schaalbaarheid, decentralisatie en vertrouwelijkheid
@@ -178,7 +178,7 @@ Om te begrijpen hoe Client-side Validation en RGB Address problemen oplossen die
 
 
 
-- Blockchain (Bitcoin)**
+- **Blockchain (Bitcoin)**
 
 
 Blockchain is zeer gedecentraliseerd, maar niet erg schaalbaar. Bovendien, omdat alles in een globaal, publiek register staat, is de vertrouwelijkheid beperkt. We kunnen proberen de vertrouwelijkheid te verbeteren met zero-knowledge technologieën (Confidential Transactions, mimblewimble schema's, etc.), maar de publieke keten kan de transactiegrafiek niet verbergen.
@@ -186,7 +186,7 @@ Blockchain is zeer gedecentraliseerd, maar niet erg schaalbaar. Bovendien, omdat
 
 
 
-- Bliksem/staatskanalen**
+- **Bliksem/staatskanalen**
 
 
 Staatskanalen (zoals Lightning Network) zijn schaalbaarder en meer privé dan Blockchain, omdat transacties off-chain plaatsvinden. Echter, de verplichting om bepaalde Elements (financieringstransacties, netwerktopologie) openbaar te maken en het monitoren van netwerkverkeer kan de vertrouwelijkheid deels in gevaar brengen. Decentralisatie lijdt er ook onder: routing is geld-intensief, en grote knooppunten kunnen centralisatiepunten worden. Dit is precies het fenomeen dat we op Lightning beginnen te zien.
@@ -194,7 +194,7 @@ Staatskanalen (zoals Lightning Network) zijn schaalbaarder en meer privé dan Bl
 
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 
 Dit nieuwe paradigma is nog schaalbaarder en vertrouwelijker, omdat we niet alleen zero-disclosure proof-of-knowledge technieken kunnen integreren, maar er is ook geen globale grafiek van transacties, omdat niemand het hele register bezit. Aan de andere kant impliceert het ook een zeker compromis over decentralisatie: de uitgever van een Smart contract kan een centrale rol hebben (zoals een "Contract deployer" in Ethereum). In tegenstelling tot Blockchain, worden bij Client-side Validation echter alleen de contracten waarin je geïnteresseerd bent opgeslagen en gevalideerd, wat de schaalbaarheid ten goede komt, omdat je niet alle bestaande toestanden hoeft te downloaden en te verifiëren.
@@ -211,7 +211,7 @@ De CAP stelling benadrukt dat het onmogelijk is voor een gedistribueerd systeem 
 
 
 
-- Blockchain**
+- **Blockchain**
 
 
 De Blockchain is voorstander van consistentie en beschikbaarheid, maar doet het niet goed met netwerkpartitionering: als je een blok niet kunt zien, kun je niet handelen en hetzelfde zicht hebben als het hele netwerk.
@@ -219,7 +219,7 @@ De Blockchain is voorstander van consistentie en beschikbaarheid, maar doet het 
 
 
 
-- Bliksem**
+- **Bliksem**
 
 
 Een systeem van toestandskanalen heeft tolerantie voor beschikbaarheid en partitionering (omdat twee knooppunten met elkaar verbonden kunnen blijven, zelfs als het netwerk gefragmenteerd is), maar de algehele consistentie hangt af van het openen en sluiten van kanalen op de Blockchain.
@@ -227,7 +227,7 @@ Een systeem van toestandskanalen heeft tolerantie voor beschikbaarheid en partit
 
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 
 Een systeem als RGB biedt consistentie (elke deelnemer valideert zijn gegevens lokaal, zonder dubbelzinnigheid) en partitioneringstolerantie (je bewaart je gegevens autonoom), maar garandeert geen wereldwijde beschikbaarheid (iedereen moet ervoor zorgen dat ze de relevante stukken geschiedenis hebben, en sommige deelnemers publiceren misschien niets of stoppen met het delen van bepaalde informatie).
@@ -268,9 +268,9 @@ We kunnen ons het ecosysteem dus als volgt voorstellen:
 
 
 
-- De Blockchain (Bitcoin)** als basis die zorgt voor een volledige replicatie van een minimaal register en dient als tijdstempel Layer;
-- De Lightning Network** voor snel, Confidential Transactions, nog steeds gebaseerd op de zekerheid en definitieve regeling van de Bitcoin Blockchain;
-- RGB en Client-side Validation** om complexere Smart contract logica toe te voegen, zonder de Blockchain te vervuilen of vertrouwelijkheid te verliezen.
+- De **Blockchain (Bitcoin)** als basis die zorgt voor een volledige replicatie van een minimaal register en dient als tijdstempel Layer;
+- De **Lightning Network** voor snel, Confidential Transactions, nog steeds gebaseerd op de zekerheid en definitieve regeling van de Bitcoin Blockchain;
+- **RGB en Client-side Validation** om complexere Smart contract logica toe te voegen, zonder de Blockchain te vervuilen of vertrouwelijkheid te verliezen.
 
 
 ![RGB-Bitcoin](assets/fr/007.webp)
@@ -312,8 +312,8 @@ Dit model heeft echter twee grote nadelen:
 
 
 
-- Schaalbaarheid**: omdat elk knooppunt ieders transacties moet verwerken, verifiëren en archiveren, is er een duidelijke limiet aan de transactiecapaciteit, met name gekoppeld aan de maximale blokgrootte (gemiddeld 1 MB over 10 minuten voor Bitcoin, exclusief cookies);
-- Privacy**: alles wordt openbaar uitgezonden en opgeslagen (bedragen, bestemmingsadressen, enz.), wat de vertrouwelijkheid van uitwisselingen beperkt.
+- **Schaalbaarheid**: omdat elk knooppunt ieders transacties moet verwerken, verifiëren en archiveren, is er een duidelijke limiet aan de transactiecapaciteit, met name gekoppeld aan de maximale blokgrootte (gemiddeld 1 MB over 10 minuten voor Bitcoin, exclusief cookies);
+- **Privacy**: alles wordt openbaar uitgezonden en opgeslagen (bedragen, bestemmingsadressen, enz.), wat de vertrouwelijkheid van uitwisselingen beperkt.
 
 
 ![RGB-Bitcoin](assets/fr/012.webp)
@@ -370,7 +370,7 @@ Client-side Validation biedt twee belangrijke voordelen:
 
 
 
-- Schaalbaarheid:**
+- **Schaalbaarheid:**
 
 
 De *opdrachten* in de Blockchain zijn klein (in de orde van enkele tientallen bytes). Dit zorgt ervoor dat de blokruimte niet verzadigd raakt, omdat alleen de Hash opgenomen hoeft te worden. Het zorgt er ook voor dat het off-chain protocol kan evolueren, omdat elke gebruiker alleen zijn of haar geschiedenisfragment hoeft op te slaan (zijn of haar _stash_).
@@ -378,7 +378,7 @@ De *opdrachten* in de Blockchain zijn klein (in de orde van enkele tientallen by
 
 
 
-- Privacy:**
+- **Privacy:**
 
 
 Transacties zelf (d.w.z. hun gedetailleerde inhoud) worden niet gepubliceerd On-Chain. Alleen hun vingerafdrukken (*Hash*). Bedragen, adressen en Contract logica blijven dus privé en de ontvanger kan lokaal de geldigheid van zijn Shard controleren door alle voorgaande overgangen te inspecteren. Er is geen reden voor de ontvanger om deze gegevens openbaar te maken, behalve in geval van een geschil of wanneer bewijs nodig is.
@@ -459,12 +459,12 @@ De volgende vergelijking helpt om dit principe te begrijpen:
 
 
 
-- Cryptografische Commitment (Hash)**: Met een Hash functie kun je een stuk data (een getal) vastleggen door de Hash ervan te publiceren. De data blijft geheim totdat je de pre-image onthult, maar je kunt bewijzen dat je het van tevoren wist;
-- Timestamp (Blockchain)**: Door deze Hash in de Blockchain in te voegen, bewijzen we ook dat we het op een precies moment wisten (dat van opname in een blok);
-- Single-Use Seal**: Met zegels voor eenmalig gebruik gaan we een stap verder door de Commitment uniek te maken. Met een enkele Hash kun je meerdere tegenstrijdige toezeggingen tegelijk doen (het probleem van de dokter die "*Het is een jongen*" aan de familie vertelt en "*Het is een meisje*" in zijn persoonlijke dagboek). De Single-Use Seal elimineert deze mogelijkheid door de Commitment te verbinden met een bewijs-van-publicatie medium, zoals de Bitcoin Blockchain, zodat een uitgave van UTXO de Commitment definitief verzegelt. Eenmaal uitgegeven, kan dezelfde UTXO niet opnieuw uitgegeven worden om de Commitment te vervangen.
-- Cryptografische Commitment (Hash)**: Met een Hash functie kun je een stuk data (een getal) vastleggen door de Hash ervan te publiceren. De data blijft geheim totdat je het pre-image onthult, maar je kunt bewijzen dat je het van te voren wist;
-- Timestamp (Blockchain)**: Door deze Hash in de Blockchain in te voegen, bewijzen we ook dat we het op een precies moment wisten (dat van opname in een blok);
-- Single-Use Seal**: Met afdichtingen voor eenmalig gebruik gaan we nog een stap verder door de Commitment uniek te maken. Met één Hash kun je meerdere tegenstrijdige toezeggingen tegelijk doen (het probleem van de dokter die "*Het is een jongen*" aan de familie vertelt en "*Het is een meisje*" in zijn persoonlijke dagboek). De Single-Use Seal elimineert deze mogelijkheid door de Commitment te verbinden met een bewijs-van-publicatie medium, zoals de Bitcoin Blockchain, zodat een uitgave van UTXO de Commitment definitief verzegelt. Eenmaal uitgegeven, kan dezelfde UTXO niet opnieuw uitgegeven worden om de Commitment te vervangen.
+- **Cryptografische Commitment (Hash)**: Met een Hash functie kun je een stuk data (een getal) vastleggen door de Hash ervan te publiceren. De data blijft geheim totdat je de pre-image onthult, maar je kunt bewijzen dat je het van tevoren wist;
+- **Timestamp (Blockchain)**: Door deze Hash in de Blockchain in te voegen, bewijzen we ook dat we het op een precies moment wisten (dat van opname in een blok);
+- **Single-Use Seal**: Met zegels voor eenmalig gebruik gaan we een stap verder door de Commitment uniek te maken. Met een enkele Hash kun je meerdere tegenstrijdige toezeggingen tegelijk doen (het probleem van de dokter die "*Het is een jongen*" aan de familie vertelt en "*Het is een meisje*" in zijn persoonlijke dagboek). De Single-Use Seal elimineert deze mogelijkheid door de Commitment te verbinden met een bewijs-van-publicatie medium, zoals de Bitcoin Blockchain, zodat een uitgave van UTXO de Commitment definitief verzegelt. Eenmaal uitgegeven, kan dezelfde UTXO niet opnieuw uitgegeven worden om de Commitment te vervangen.
+- **Cryptografische Commitment (Hash)**: Met een Hash functie kun je een stuk data (een getal) vastleggen door de Hash ervan te publiceren. De data blijft geheim totdat je het pre-image onthult, maar je kunt bewijzen dat je het van te voren wist;
+- **Timestamp (Blockchain)**: Door deze Hash in de Blockchain in te voegen, bewijzen we ook dat we het op een precies moment wisten (dat van opname in een blok);
+- **Single-Use Seal**: Met afdichtingen voor eenmalig gebruik gaan we nog een stap verder door de Commitment uniek te maken. Met één Hash kun je meerdere tegenstrijdige toezeggingen tegelijk doen (het probleem van de dokter die "*Het is een jongen*" aan de familie vertelt en "*Het is een meisje*" in zijn persoonlijke dagboek). De Single-Use Seal elimineert deze mogelijkheid door de Commitment te verbinden met een bewijs-van-publicatie medium, zoals de Bitcoin Blockchain, zodat een uitgave van UTXO de Commitment definitief verzegelt. Eenmaal uitgegeven, kan dezelfde UTXO niet opnieuw uitgegeven worden om de Commitment te vervangen.
 
 
 |                                                                                  | Simple commitment (digest/hash) | Timestamps | Single-use seals |
@@ -571,8 +571,8 @@ Twee van de belangrijkste GitHub repositories van het project (onder de LNPBP or
 
 
 
-- client_side_validation**: Bevat Rust primitieven voor lokale validatie;
-- single_use_seals**: Implementeert de logica om deze afdichtingen veilig te definiëren en te sluiten.
+- **client_side_validation**: Bevat Rust primitieven voor lokale validatie;
+- **single_use_seals**: Implementeert de logica om deze afdichtingen veilig te definiëren en te sluiten.
 
 
 ![RGB-Bitcoin](assets/fr/020.webp)
@@ -652,7 +652,7 @@ Om de logica te begrijpen, herinneren we ons het basisprincipe: om een _single-u
 
 
 
-- Gebruik een openbare sleutel of Address**
+- Gebruik een openbare sleutel of **Address**
 
 
 We kunnen besluiten dat een bepaalde publieke sleutel of Address de _single-use seal_ is. Zodra deze sleutel of Address On-Chain verschijnt in een transactie, betekent dit dat de Seal is afgesloten met een bepaald bericht.
@@ -690,8 +690,8 @@ We zullen niet in detail treden over elk van deze configuraties, omdat we er in 
 
 
 
-- "Seal Definition"**: Een bepaald _uitgangspunt_ (geïdentificeerd door txid + uitgangsnr.);
-- "Seal sluiten "**: De transactie die dit _outpoint_ uitgeeft, waarin een _commitment_ aan een bericht wordt toegevoegd.
+- **"Seal Definition"**: Een bepaald _uitgangspunt_ (geïdentificeerd door txid + uitgangsnr.);
+- **"Seal sluiten"**: De transactie die dit _outpoint_ uitgeeft, waarin een _commitment_ aan een bericht wordt toegevoegd.
 
 
 Dit schema is gekozen vanwege de compatibiliteit met de RGB architectuur, maar andere configuraties kunnen nuttig zijn voor verschillende toepassingen.
@@ -768,7 +768,7 @@ Om de structuur te verduidelijken, vatten we het proces samen in twee transactie
 
 
 
-- Transactie 1**: Dit bevat de _seal definitie_, d.w.z. het _uitgangspunt_ dat zal dienen als de Seal.
+- **Transactie 1**: Dit bevat de _seal definitie_, d.w.z. het _uitgangspunt_ dat zal dienen als de Seal.
 
 
 ![RGB-Bitcoin](assets/fr/031.webp)
@@ -776,7 +776,7 @@ Om de structuur te verduidelijken, vatten we het proces samen in twee transactie
 
 
 
-- Transactie 2**: Geeft dit _outpoint_ uit. Dit sluit de Seal en voegt in dezelfde transactie de _commitment_ in op het bericht.
+- **Transactie 2**: Geeft dit _outpoint_ uit. Dit sluit de Seal en voegt in dezelfde transactie de _commitment_ in op het bericht.
 
 
 ![RGB-Bitcoin](assets/fr/033.webp)
@@ -790,8 +790,8 @@ Om dit op een andere manier te illustreren, kunnen we twee lagen voorstellen:
 
 
 
-- De bovenste Layer (Blockchain, openbaar)**: iedereen ziet de transactie en weet dat er een _outpoint_ is uitgegeven;
-- De lagere Layer (client-side, privé)**: alleen Alice (of de persoon in kwestie) weet dat deze uitgave overeenkomt met een dergelijk bericht, via het cryptografische bewijs en het bericht dat ze lokaal bewaart.
+- De bovenste Layer (Blockchain, openbaar): iedereen ziet de transactie en weet dat er een *outpoint* is uitgegeven;
+- De lagere Layer (client-side, privé): alleen Alice (of de persoon in kwestie) weet dat deze uitgave overeenkomt met een dergelijk bericht, via het cryptografische bewijs en het bericht dat ze lokaal bewaart.
 
 
 ![RGB-Bitcoin](assets/fr/034.webp)
@@ -818,12 +818,12 @@ Ongeacht de methode (PkO, TxO2, enz.) kan de _commitment_ worden ingevoegd:
 
 
 - In een **Invoer** via:
-    - Sigtweak** (wijzigt de `r` component van de ECDSA handtekening, vergelijkbaar met het "Sign-to-Contract" principe);
-    - Witweak** (de _segregated witness_ gegevens van de transactie zijn gewijzigd).
+- **Sigtweak** (wijzigt de `r` component van de ECDSA handtekening, vergelijkbaar met het "Sign-to-Contract" principe);
+- **Witweak** (de _segregated witness_ gegevens van de transactie zijn gewijzigd).
 - In een **Uitvoer** via:
-    - Keytweak** (de openbare sleutel van de ontvanger wordt "getweakt" met het bericht);
-    - Opret** (het bericht wordt in een niet-besteedbare uitvoer `OP_RETURN` geplaatst);
-    - Tapret** (of _Taptweak_), dat vertrouwt op Taproot om Commitment in te voegen in het scriptgedeelte van een Taproot sleutel, waardoor de openbare sleutel deterministisch gewijzigd wordt.
+- **Keytweak** (de openbare sleutel van de ontvanger wordt "getweakt" met het bericht);
+- **Opret** (het bericht wordt in een niet-besteedbare uitvoer `OP_RETURN` geplaatst);
+- **Tapret** (of _Taptweak_), dat vertrouwt op Taproot om Commitment in te voegen in het scriptgedeelte van een Taproot sleutel, waardoor de openbare sleutel deterministisch gewijzigd wordt.
 
 
 ![RGB-Bitcoin](assets/fr/035.webp)
@@ -1024,8 +1024,8 @@ Volgens de Taproot regels moet elke tak/blad gecombineerd worden volgens een lex
 
 
 
-- `tHT` > `tHABC`**: de Tapret Commitment beweegt naar rechts in de boom. Het bewijs van uniciteit heeft alleen `tHABC` en `P` nodig;
-- `tHT` < `tHABC`**: de Tapret Commitment is links geplaatst. Om te bewijzen dat er geen andere Tapret Commitment aan de rechterkant is, moeten `tHAB` en `tHC` onthuld worden om de afwezigheid van een dergelijk schrift aan te tonen.
+- `tHT` > `tHABC`: de Tapret Commitment beweegt naar rechts in de boom. Het bewijs van uniciteit heeft alleen `tHABC` en `P` nodig;
+- `tHT` < `tHABC`: de Tapret Commitment is links geplaatst. Om te bewijzen dat er geen andere Tapret Commitment aan de rechterkant is, moeten `tHAB` en `tHC` onthuld worden om de afwezigheid van een dergelijk schrift aan te tonen.
 
 
 Visueel voorbeeld voor het eerste geval (`tHABC < tHT`):
@@ -1333,7 +1333,7 @@ Dit mechanisme zorgt ervoor dat:
 #### Overzicht van de MPC-structuur
 
 
-Multi Protocol Commitment* (MPC) is het principe dat RGB in staat stelt om meerdere contracten samen te voegen in een enkele Bitcoin transactie, met behoud van de uniciteit van de verplichtingen en vertrouwelijkheid ten opzichte van andere deelnemers. Dankzij de deterministische constructie van de boom krijgt elke Contract een unieke positie toegewezen en de aanwezigheid van "dummy" bladeren (*Entropy Leaves*) verhult gedeeltelijk het totale aantal contracten dat deelneemt aan de transactie.
+Multi Protocol Commitment (MPC) is het principe dat RGB in staat stelt om meerdere contracten samen te voegen in een enkele Bitcoin transactie, met behoud van de uniciteit van de verplichtingen en vertrouwelijkheid ten opzichte van andere deelnemers. Dankzij de deterministische constructie van de boom krijgt elke Contract een unieke positie toegewezen en de aanwezigheid van "dummy" bladeren (*Entropy Leaves*) verhult gedeeltelijk het totale aantal contracten dat deelneemt aan de transactie.
 
 
 De hele Merkle Tree wordt nooit opgeslagen op de client. We generate gewoon een _Merkle pad_ voor elke Contract in kwestie, dat doorgestuurd wordt naar de ontvanger (die dan de Commitment kan valideren). In sommige gevallen heb je meerdere assets die door dezelfde UTXO zijn gegaan. Je kunt dan meerdere _Merkle paden_ samenvoegen in een zogenaamd _multi-protocol Commitment blok_, om te voorkomen dat je teveel gegevens dupliceert.
@@ -1495,9 +1495,9 @@ Het is belangrijk om te begrijpen dat deze contracten niet beperkt zijn tot de e
 
 
 
-- De verstrekker** of maker van de Contract, die de Genesis van de Contract en zijn initiële variabelen definieert;
-- Partijen met rechten** (*Ownership*) of andere handhavingsmogelijkheden;
-- Waarnemers**, die mogelijk beperkt zijn tot het zien van bepaalde informatie, maar die geen wijzigingen kunnen teweegbrengen.
+- De **verstrekker** of maker van de Contract, die de Genesis van de Contract en zijn initiële variabelen definieert;
+- Partijen met **rechten** (*Ownership*) of andere handhavingsmogelijkheden;
+- **Waarnemers**, die mogelijk beperkt zijn tot het zien van bepaalde informatie, maar die geen wijzigingen kunnen teweegbrengen.
 
 
 Deze scheiding van rollen draagt bij aan censuurbestendigheid, door ervoor te zorgen dat alleen geautoriseerde personen kunnen communiceren met de contractuele staat. Het geeft RGB ook de mogelijkheid om horizontaal te schalen: de meeste validaties vinden plaats buiten Blockchain, en alleen cryptografische ankers (de *commitments*) worden op Bitcoin vastgelegd.
@@ -1522,7 +1522,7 @@ Tegelijkertijd valt de **Contract State** vaak uiteen in twee componenten:
 
 
 - A **Global State**: openbaar deel, mogelijk waarneembaar door iedereen (afhankelijk van configuratie);
-- Eigen Staten**: private delen, specifiek toegewezen aan eigenaars via UTXO's waarnaar verwezen wordt in de Contract logica.
+- **Eigen Staten**: private delen, specifiek toegewezen aan eigenaars via UTXO's waarnaar verwezen wordt in de Contract logica.
 
 
 Zoals we in de volgende hoofdstukken zullen zien, moet elke statusupdate (*Contract Operation*) aansluiten op een Bitcoin _commitment_ (via `Opret` of `Tapret`) en voldoen aan de *Business Logic* scripts om als geldig beschouwd te worden.
@@ -1577,7 +1577,7 @@ Slimme contracten in RGB introduceren een model van digitale toonderinstrumenten
 
 - Een **Contract State**, die de huidige configuratie van de Contract aangeeft (rechten, saldi, variabelen, enz.);
 - Een **Business Logic** (*Schema*), die definieert welke overgangen zijn toegestaan en hoe ze moeten worden gevalideerd;
-- Contract Operaties**, die deze toestand stap voor stap bijwerken, dankzij vastleggingen die verankerd zijn in Bitcoin transacties.
+- **Contract Operaties**, die deze toestand stap voor stap bijwerken, dankzij vastleggingen die verankerd zijn in Bitcoin transacties.
 
 
 In het volgende hoofdstuk gaan we dieper in op de concrete representatie van deze ***staten*** en ***staatovergangen*** op off-chain-niveau, en hoe ze zich verhouden tot de UTXO's en Enkelvoudige Verzegelingen die zijn ingebed in Bitcoin. Dit zal een gelegenheid zijn om te zien hoe de interne mechanica van RGB, gebaseerd op Client-side Validation, erin slaagt om de consistentie van slimme contracten te handhaven met behoud van de vertrouwelijkheid van gegevens.
@@ -1677,7 +1677,7 @@ In deze context volgen hier enkele terminologische herinneringen:
 
 - Een ***Assignment*** combineert het volgende:
     - Een ***Seal Definition*** (wat wijst op een UTXO);
-    - Owned States**, d.w.z. gegevens gekoppeld aan Ownership (bijvoorbeeld de hoeveelheid overgedragen tokens).
+- **Owned States**, d.w.z. gegevens gekoppeld aan Ownership (bijvoorbeeld de hoeveelheid overgedragen tokens).
 - Een **Global State** brengt de algemene eigenschappen van de Contract samen, zichtbaar voor iedereen, en verzekert de globale consistentie van evoluties.
 
 
@@ -1751,9 +1751,9 @@ State Transitions kunnen daarom gebruikt worden om Ownership van een goed over t
 
 
 
-- State Transition**;
-- Genesis**;
-- State Extension**.
+- **State Transition**;
+- **Genesis**;
+- State **Extension**.
 
 
 Hiervan worden **Genesis** en **State Extension** soms "*State Generation Operations*" genoemd, omdat ze nieuwe toestanden creëren zonder er meteen een te sluiten. Dit is een zeer belangrijk punt: **Genesis** en **State Extension** gaan niet over het sluiten van een Seal. In plaats daarvan definiëren ze een nieuwe Seal, die dan uitgegeven moet worden door een volgende **State Transition** om echt gevalideerd te worden in de Blockchain geschiedenis.
@@ -1878,11 +1878,11 @@ De Elements van de **Nieuwe Staat** zijn:
 
 
 
-- Opdrachten**, waarin zijn gedefinieerd:
+- **Opdrachten**, waarin zijn gedefinieerd:
  - De **Seal Definition**;
  - De **Owned State**.
 - De **Global State**, die kan worden aangepast of verrijkt;
-- Valenties**, mogelijk gedefinieerd in een State Transition of Genesis.
+- **Valenties**, mogelijk gedefinieerd in een State Transition of Genesis.
 
 
 Naar de **Old State** wordt verwezen via:
@@ -1890,8 +1890,8 @@ Naar de **Old State** wordt verwezen via:
 
 
 
-- Inputs**, die wijzen naar *Assignments* van vorige toestandsovergangen (niet aanwezig in Genesis);
-- Terugbetalingen**, die verwijzen naar eerder gedefinieerde valenties (alleen in uitbreidingen van staten).
+- **Inputs**, die wijzen naar *Assignments* van vorige toestandsovergangen (niet aanwezig in Genesis);
+- **Terugbetalingen**, die verwijzen naar eerder gedefinieerde valenties (alleen in uitbreidingen van staten).
 
 
 Daarnaast bevat een Contract Operation meer algemene velden die specifiek zijn voor de operatie:
@@ -1924,8 +1924,8 @@ De **Contract State** vertegenwoordigt de set informatie die het RGB protocol mo
 
 
 
-- Een enkele Global State**: dit is het openbare, globale deel van de Contract, zichtbaar voor iedereen;
-- Een of meer Eigen Staten**: elke Owned State is geassocieerd met een unieke Seal (en dus een UTXO op Bitcoin). Er wordt onderscheid gemaakt tussen:
+- Een enkele **Global State**: dit is het openbare, globale deel van de Contract, zichtbaar voor iedereen;
+- Een of meer **Eigen Staten**: elke Owned State is geassocieerd met een unieke Seal (en dus een UTXO op Bitcoin). Er wordt onderscheid gemaakt tussen:
     - De **publieke** staten,
     - De **private** staten in eigendom.
 
@@ -1941,8 +1941,8 @@ Een belangrijk kenmerk van RGB is de manier waarop de Global State en Eigen Stat
 
 
 
-- Mutable**: wanneer een toestandselement wordt beschreven als muteerbaar, vervangt elke nieuwe operatie de vorige toestand door een nieuwe toestand. De oude gegevens worden dan als verouderd beschouwd;
-- Accumuleren**: wanneer een toestandselement is gedefinieerd als accumuleren, voegt elke nieuwe bewerking nieuwe informatie toe aan de vorige toestand, zonder deze te overschrijven. Het resultaat is een soort geaccumuleerde geschiedenis.
+- **Mutable**: wanneer een toestandselement wordt beschreven als muteerbaar, vervangt elke nieuwe operatie de vorige toestand door een nieuwe toestand. De oude gegevens worden dan als verouderd beschouwd;
+- **Accumuleren**: wanneer een toestandselement is gedefinieerd als accumuleren, voegt elke nieuwe bewerking nieuwe informatie toe aan de vorige toestand, zonder deze te overschrijven. Het resultaat is een soort geaccumuleerde geschiedenis.
 
 
 Als een toestandselement in de Contract niet gedefinieerd is als muteerbaar of cumulatief, blijft dit element leeg voor volgende bewerkingen (met andere woorden, er zijn geen nieuwe versies voor dit veld). Het is de Contract Schema (d.w.z. de gecodeerde Business Logic) die bepaalt of een toestand (Globaal of Eigendom) muteerbaar, cumulatief of vast is. Als de Genesis eenmaal is gedefinieerd, kunnen deze eigenschappen alleen worden gewijzigd als de Contract dat zelf toestaat, bijvoorbeeld via een specifieke State Extension.
@@ -2024,14 +2024,14 @@ De *Seal Definition* heeft in zijn onthulde vorm vier basisvelden: `txptr`, `vou
 
 
 
-- txptr**: dit is een verwijzing naar een UTXO op Bitcoin:
+- **txptr**: dit is een verwijzing naar een UTXO op Bitcoin:
     - In het geval van een **Genesis Seal**, verwijst het direct naar een bestaande UTXO (degene die geassocieerd is met de Genesis);
     - In het geval van een **Graph Seal**, kunnen we hebben:
         - Een eenvoudige `txid`, als deze verwijst naar een specifieke UTXO,
         - Of een `WitnessTx`, die een zelfverwijzing aangeeft: de Seal wijst naar de transactie zelf. Dit is vooral handig als er geen externe UTXO beschikbaar is, bijvoorbeeld bij Lightning channel opening transacties, of als de ontvanger geen UTXO heeft.
-- vout**: het uitvoernummer van de transactie aangegeven door `txptr`. Alleen aanwezig voor een standaard Graph Seal (niet voor `WitnessTx`);
-- blindering**: een willekeurig getal van 8 bytes, om de vertrouwelijkheid te versterken en brute force pogingen op de identiteit van de UTXO te voorkomen;
-- methode**: geeft de gebruikte verankeringsmethode aan (`Tapret` of `Opret`).
+- **vout**: het uitvoernummer van de transactie aangegeven door `txptr`. Alleen aanwezig voor een standaard Graph Seal (niet voor `WitnessTx`);
+- **blindering**: een willekeurig getal van 8 bytes, om de vertrouwelijkheid te versterken en brute force pogingen op de identiteit van de UTXO te voorkomen;
+- **methode**: geeft de gebruikte verankeringsmethode aan (`Tapret` of `Opret`).
 
 
 De *verborgen* vorm van de Seal Definition is een SHA256 Hash (getagd) van de aaneenschakeling van deze 4 velden, met een tag specifiek voor RGB.
@@ -2048,8 +2048,8 @@ De tweede component van *Assignment* is de Owned State. In tegenstelling tot de 
 
 
 
-- Publieke Owned State**: iedereen kent de gegevens die geassocieerd zijn met de Seal. Bijvoorbeeld een openbare afbeelding;
-- Privé Owned State**: de gegevens zijn verborgen, alleen bekend bij de eigenaar (en eventueel de validator). Bijvoorbeeld het aantal tokens in bezit.
+- **Publieke Owned State**: iedereen kent de gegevens die geassocieerd zijn met de Seal. Bijvoorbeeld een openbare afbeelding;
+- **Privé Owned State**: de gegevens zijn verborgen, alleen bekend bij de eigenaar (en eventueel de validator). Bijvoorbeeld het aantal tokens in bezit.
 
 
 RGB definieert vier mogelijke toestandsvormen (*StateTypes*) voor een Owned State:
@@ -2057,9 +2057,9 @@ RGB definieert vier mogelijke toestandsvormen (*StateTypes*) voor een Owned Stat
 
 
 
-- Declaratief**: bevat geen numerieke gegevens, alleen een declaratief recht (bijv. stemrecht). De verborgen en onthulde vormen zijn identiek;
-- Fungible**: vertegenwoordigt een fungibele hoeveelheid (zoals tokens). In onthulde vorm hebben we `bedrag` en `blindering`. In verborgen vorm hebben we een enkele *Pedersen commitment* die het bedrag en de blindering verbergt;
-- Structured**: slaat gestructureerde gegevens op (tot 64 kB). In geopenbaarde vorm is het de blob met gegevens. In verborgen vorm is het een Hash van deze blob:
+- **Declaratief**: bevat geen numerieke gegevens, alleen een declaratief recht (bijv. stemrecht). De verborgen en onthulde vormen zijn identiek;
+- **Fungible**: vertegenwoordigt een fungibele hoeveelheid (zoals tokens). In onthulde vorm hebben we `bedrag` en `blindering`. In verborgen vorm hebben we een enkele *Pedersen commitment* die het bedrag en de blindering verbergt;
+- **Structured**: slaat gestructureerde gegevens op (tot 64 kB). In geopenbaarde vorm is het de blob met gegevens. In verborgen vorm is het een Hash van deze blob:
 
 
 ```txt
@@ -2077,7 +2077,7 @@ tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 
 
 
-- Attachments**: koppelt een bestand (audio, afbeelding, binair, enz.) aan de Owned State, waarbij het Hash `file_hash`, het MIME type `media type` en een cryptografische salt `salt` worden opgeslagen. Het bestand zelf wordt elders gehost. In verborgen vorm is het een Hash getagd met de drie voorgaande gegevensitems:
+- **Attachments**: koppelt een bestand (audio, afbeelding, binair, enz.) aan de Owned State, waarbij het Hash `file_hash`, het MIME type `media type` en een cryptografische salt `salt` worden opgeslagen. Het bestand zelf wordt elders gehost. In verborgen vorm is het een Hash getagd met de drie voorgaande gegevensitems:
 
 
 ```txt
@@ -2281,7 +2281,7 @@ Een van de belangrijkste innovaties van RGB is de strikte scheiding tussen twee 
 
 
 
-- Validatie**: controleren of een State Transition de regels van de Contract respecteert (Business Logic, geschiedenis, enz.);
+- **Validatie**: controleren of een State Transition de regels van de Contract respecteert (Business Logic, geschiedenis, enz.);
 - De **Ownership** (Ownership, of controle): het feit dat je de Bitcoin UTXO bezit, waardoor de Single-Use Seal kan worden uitgegeven (of gesloten), en dus de State Transition kan plaatsvinden.
 
 
@@ -2308,8 +2308,8 @@ Naast het versiebeheer van semantische code bevat RGB een systeem om de consensu
 
 
 
-- Snel vooruit**
-- Push-back** (in het Frans)
+- **Snel vooruit**
+- **Push-back** (in het Frans)
 
 
 Een fast-forward treedt op wanneer een voorheen ongeldige regel geldig wordt. Bijvoorbeeld, als de Contract evolueert om een nieuw type `AssignmentType` of een nieuw veld toe te staan:
@@ -2414,8 +2414,8 @@ Dit mechanisme bestaat uit twee hoofdbewerkingen:
 
 
 
-- Commit**: een cryptografische functie wordt toegepast op een bericht `m` en een willekeurig getal `r` om `C` te produceren;
-- Verify**: we gebruiken `C`, het `m` bericht en de `r` waarde om te controleren of deze Commitment correct is. De functie retourneert `True` of `False`.
+- **Commit**: een cryptografische functie wordt toegepast op een bericht `m` en een willekeurig getal `r` om `C` te produceren;
+- **Verify**: we gebruiken `C`, het `m` bericht en de `r` waarde om te controleren of deze Commitment correct is. De functie retourneert `True` of `False`.
 
 
 Een Commitment moet twee eigenschappen respecteren:
@@ -2423,7 +2423,7 @@ Een Commitment moet twee eigenschappen respecteren:
 
 
 
-- Binding**: het moet onmogelijk zijn om twee verschillende berichten te vinden die dezelfde `C` produceren:
+- **Binding**: het moet onmogelijk zijn om twee verschillende berichten te vinden die dezelfde `C` produceren:
 
 
 $$
@@ -2441,7 +2441,7 @@ $$
 
 
 
-- Verbergen**: kennis van `C` mag de inhoud van `m` niet onthullen.
+- **Verbergen**: kennis van `C` mag de inhoud van `m` niet onthullen.
 
 
 In het RGB protocol wordt een Commitment opgenomen in een Bitcoin transactie om het bestaan van een bepaald stuk informatie op een bepaald moment te bewijzen, zonder de informatie zelf te onthullen.
@@ -2455,8 +2455,8 @@ Een **Consignment** groepeert de gegevens die tussen de partijen worden uitgewis
 
 
 
-- Contract Consignment**: geleverd door de *emittent* (Contract emittent), het bevat initialisatie-informatie zoals Schema, Genesis, Interface en Interface Implementation.
-- Consignment**: Geleverd door de betalende partij (*betaler*). Het bevat de hele geschiedenis van toestandsovergangen die leiden tot Terminal Consignment (d.w.z. de uiteindelijke toestand ontvangen door de betaler).
+- **Contract Consignment**: geleverd door de *emittent* (Contract emittent), het bevat initialisatie-informatie zoals Schema, Genesis, Interface en Interface Implementation.
+- **Consignment**: Geleverd door de betalende partij (*betaler*). Het bevat de hele geschiedenis van toestandsovergangen die leiden tot Terminal Consignment (d.w.z. de uiteindelijke toestand ontvangen door de betaler).
 
 
 Deze zendingen worden niet openbaar geregistreerd op de Blockchain; ze worden rechtstreeks uitgewisseld tussen de betrokken partijen via het communicatiekanaal van hun keuze.
@@ -2476,9 +2476,9 @@ Een Contract Operation is een Contract statusupdate uitgevoerd volgens Schema re
 
 
 
-- State Transition**;
-- Genesis**;
-- State Extension**.
+- **State Transition**;
+- **Genesis**;
+- State **Extension**.
 
 
 Elke bewerking wijzigt de toestand door bepaalde gegevens toe te voegen of te vervangen (Global State, Owned State...).
@@ -2505,9 +2505,9 @@ Contract Rights verwijzen naar de verschillende rechten die kunnen worden uitgeo
 
 
 
-- Ownership-rechten**, geassocieerd met de Ownership van een bepaalde UTXO (via een _Seal Definition_);
-- Uitvoeringsrechten**, d.w.z. de mogelijkheid om een of meer overgangen (State Transitions) te bouwen in overeenstemming met de Schema;
-- Openbare rechten**, wanneer de Schema bepaalde openbare toepassingen toestaat, bijvoorbeeld de creatie van een State Extension via de inwisseling van een Valency.
+- **Ownership-rechten**, geassocieerd met de Ownership van een bepaalde UTXO (via een _Seal Definition_);
+- **Uitvoeringsrechten**, d.w.z. de mogelijkheid om een of meer overgangen (State Transitions) te bouwen in overeenstemming met de Schema;
+- **Openbare rechten**, wanneer de Schema bepaalde openbare toepassingen toestaat, bijvoorbeeld de creatie van een State Extension via de inwisseling van een Valency.
 
 
 #### Contract State
@@ -2519,7 +2519,7 @@ De Contract State komt overeen met de huidige toestand van een Contract op een b
 
 
 - De **Global State**, die de openbare eigenschappen van de Contract bevat (ingesteld in Genesis of toegevoegd via geautoriseerde updates);
-- Owned States**, die toebehoren aan specifieke eigenaars, geïdentificeerd door hun UTXO.
+- **Owned States**, die toebehoren aan specifieke eigenaars, geïdentificeerd door hun UTXO.
 
 
 #### Deterministic Bitcoin Commitment - DBC
@@ -2530,8 +2530,8 @@ Deterministic Bitcoin Commitment (DBC) is de verzameling regels die gebruikt wor
 
 
 
-- Opret**
-- Tapret**
+- **Opret**
+- **Tapret**
 
 
 Deze mechanismen definiëren precies hoe de _commitment_ wordt gecodeerd in de uitvoer of structuur van een Bitcoin transactie, om ervoor te zorgen dat deze Commitment deterministisch traceerbaar en verifieerbaar is.
@@ -2779,10 +2779,10 @@ Samengevat bestaat elke Contract uit:
 
 
 
-- Genesis**, dat is de begintoestand van de Contract (en kan worden vergeleken met een speciale transactie die de eerste Ownership van een activum, een recht of een ander parametriseerbaar gegeven definieert);
-- Schema**, die de Business Logic van de Contract beschrijft (gegevenstypen, validatieregels, enzovoort);
-- Interface**, die een semantische Layer biedt voor zowel portemonnees als menselijke gebruikers, die het lezen en uitvoeren van transacties verduidelijkt;
-- Implementatie** Interface, die de kloof overbrugt tussen Business Logic en presentatie, om ervoor te zorgen dat de definitie van Contract consistent is met de gebruikerservaring.
+- **Genesis**, dat is de begintoestand van de Contract (en kan worden vergeleken met een speciale transactie die de eerste Ownership van een activum, een recht of een ander parametriseerbaar gegeven definieert);
+- **Schema**, die de Business Logic van de Contract beschrijft (gegevenstypen, validatieregels, enzovoort);
+- **Interface**, die een semantische Layer biedt voor zowel portemonnees als menselijke gebruikers, die het lezen en uitvoeren van transacties verduidelijkt;
+- **Implementatie Interface**, die de kloof overbrugt tussen Business Logic en presentatie, om ervoor te zorgen dat de definitie van Contract consistent is met de gebruikerservaring.
 
 
 ![RGB-Bitcoin](assets/fr/070.webp)
@@ -2931,10 +2931,10 @@ Voordat we in de code duiken, is het de moeite waard om de algemene structuur va
 
 - Een mogelijke `SchemaId` die het gebruik van een andere basis Schema als sjabloon aangeeft;
 - De **wereldwijde staten** en **eigen staten** (met hun strikte types);
-- Valencies** (indien van toepassing);
+- **Valencies** (indien van toepassing);
 - De **Operaties** (Genesis, toestandsovergangen, toestandsuitbreidingen) die naar deze toestanden en valenties kunnen verwijzen;
 - Het **Strict Type System** dat wordt gebruikt om gegevens te beschrijven en te valideren;
-- Validatiescripts** (uitgevoerd via AluVM).
+- **Validatiescripts** (uitgevoerd via AluVM).
 
 
 ![RGB-Bitcoin](assets/fr/072.webp)
@@ -3019,7 +3019,7 @@ EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET,
 
 
 
-- (1) - Functie-header en SubSchema**
+- (1) - **Functie-header en SubSchema**
 
 
 De `nia_schema()` functie retourneert een `SubSchema`, wat aangeeft dat deze Schema gedeeltelijk kan erven van een meer generieke Schema. In het RGB ecosysteem maakt deze flexibiliteit het mogelijk om bepaalde standaard Elements van een master Schema te hergebruiken, en dan regels te definiëren die specifiek zijn voor de Contract in kwestie. Hier kiezen we ervoor om overerving niet mogelijk te maken, omdat `subset_of` `None` zal zijn.
@@ -3027,7 +3027,7 @@ De `nia_schema()` functie retourneert een `SubSchema`, wat aangeeft dat deze Sch
 
 
 
-- (2) - Algemene eigenschappen: ffv, subset_of, type_system**
+- (2) - Algemene eigenschappen: ffv, subset_of, **type_system**
 
 
 De `ffv` eigenschap komt overeen met de *fast-forward* versie van de Contract. Een waarde van `nul!()` hier geeft aan dat we bij versie 0 zijn of de initiële versie van deze Schema. Als je later nieuwe functionaliteiten wilt toevoegen (nieuw type bewerking, enz.), kun je deze versie verhogen om een consensus wijziging aan te geven.
@@ -3120,7 +3120,7 @@ Dit modelleert het gedrag van een basisoverdracht, die tokens verbruikt op een U
 
 
 
-- (9) - AluVM script en ingangspunten** (in het Frans)
+- (9) - **AluVM script en ingangspunten** (in het Frans)
 
 
 Tenslotte declareren we een AluVM script (`Script::AluVM(AluScript { ... })`). Dit script bevat:
@@ -3177,7 +3177,7 @@ Deze methode heeft veel voordelen:
 
 
 
-- Standaardisatie:**
+- **Standaardisatie:**
 
 
 Hetzelfde type Contract kan ondersteund worden door een standaard Interface, gedeeld door verschillende Wallet implementaties. Dit vergemakkelijkt compatibiliteit en hergebruik van code.
@@ -3185,7 +3185,7 @@ Hetzelfde type Contract kan ondersteund worden door een standaard Interface, ged
 
 
 
-- Duidelijke scheiding tussen Schema en Interface:**
+- Duidelijke scheiding tussen Schema en Interface:
 
 
 In het RGB ontwerp zijn Schema (Business Logic) en Interface (presentatie en manipulatie) twee onafhankelijke entiteiten. De ontwikkelaars die de Contract logica schrijven, kunnen zich concentreren op Schema, zonder zich zorgen te maken over ergonomie of datarepresentatie, terwijl een ander team (of hetzelfde team, maar op een andere tijdlijn) Interface kan ontwikkelen.
@@ -3193,7 +3193,7 @@ In het RGB ontwerp zijn Schema (Business Logic) en Interface (presentatie en man
 
 
 
-- Flexibele evolutie:**
+- **Flexibele evolutie:**
 
 
 De Interface kan worden gewijzigd of aangevuld nadat het middel is uitgegeven, zonder dat de Contract zelf hoeft te worden gewijzigd. Dit is een groot verschil met sommige On-Chain Smart contract systemen, waar de Interface (vaak gemengd met de uitvoeringscode) bevroren is in de Blockchain.
@@ -3274,7 +3274,7 @@ Het RGB20 Interface kan bijvoorbeeld gekoppeld worden aan het **Non-Inflatable A
 - De mogelijkheid voor de eigenaar om een "*gravure*" in de geschiedenis in te voeren om Ownership van een NFT uit het verleden te bewijzen.
 
 
-**RGB25** is een hybride standaard die fungibele en niet-fungibele aspecten combineert. Het is ontworpen voor gedeeltelijk fungibele activa, zoals vastgoed tokenization, waar je een eigendom wilt opsplitsen met behoud van een link naar een enkele root asset (met andere woorden, je hebt fungibele stukken van een huis, gelinkt aan een niet-fungibel huis). Technisch gezien kan deze Interface gekoppeld worden aan de **Collectible Fungible Asset* (CFA)** Schema, die rekening houdt met de notie van opsplitsen terwijl het oorspronkelijke actief getraceerd wordt.
+**RGB25** is een hybride standaard die fungibele en niet-fungibele aspecten combineert. Het is ontworpen voor gedeeltelijk fungibele activa, zoals vastgoed tokenization, waar je een eigendom wilt opsplitsen met behoud van een link naar een enkele root asset (met andere woorden, je hebt fungibele stukken van een huis, gelinkt aan een niet-fungibel huis). Technisch gezien kan deze Interface gekoppeld worden aan de **Collectible Fungible Asset (CFA)** Schema, die rekening houdt met de notie van opsplitsen terwijl het oorspronkelijke actief getraceerd wordt.
 
 
 #### Interfaces in ontwikkeling
@@ -3285,11 +3285,11 @@ Andere interfaces zijn gepland voor meer gespecialiseerd gebruik, maar zijn nog 
 
 
 
-- RGB22**, gewijd aan digitale identiteiten, voor het beheren van identifiers en On-Chain profielen in het RGB ecosysteem;
-- RGB23**, voor geavanceerde tijdstempels, gebruikmakend van enkele ideeën van *Opentimestamps*, maar met traceerbaarheidsfuncties;
-- RGB24**, dat streeft naar het equivalent van een gedecentraliseerd domeinnaamsysteem (DNS) vergelijkbaar met de *Ethereum Name Service*;
-- RGB26**, ontworpen om DAO's (*Gedecentraliseerde Autonome Organisatie*) in een complexere vorm te beheren (bestuur, stemmen, enz.);
-- RGB30**, zeer vergelijkbaar met RGB20, maar met de bijzonderheid dat er rekening wordt gehouden met gedecentraliseerde initiële uitgifte en dat er gebruik wordt gemaakt van staatsuitbreidingen. Dit zou worden gebruikt voor activa waarvan de heruitgifte wordt beheerd door verschillende entiteiten, of waarvoor fijnere voorwaarden gelden.
+- **RGB22**, gewijd aan digitale identiteiten, voor het beheren van identifiers en On-Chain profielen in het RGB ecosysteem;
+- **RGB23**, voor geavanceerde tijdstempels, gebruikmakend van enkele ideeën van *Opentimestamps*, maar met traceerbaarheidsfuncties;
+- **RGB24**, dat streeft naar het equivalent van een gedecentraliseerd domeinnaamsysteem (DNS) vergelijkbaar met de *Ethereum Name Service*;
+- **RGB26**, ontworpen om DAO's (*Gedecentraliseerde Autonome Organisatie*) in een complexere vorm te beheren (bestuur, stemmen, enz.);
+- **RGB30**, zeer vergelijkbaar met RGB20, maar met de bijzonderheid dat er rekening wordt gehouden met gedecentraliseerde initiële uitgifte en dat er gebruik wordt gemaakt van staatsuitbreidingen. Dit zou worden gebruikt voor activa waarvan de heruitgifte wordt beheerd door verschillende entiteiten, of waarvoor fijnere voorwaarden gelden.
 
 
 Natuurlijk kunnen deze interfaces, afhankelijk van de datum waarop je deze cursus raadpleegt, al operationeel en toegankelijk zijn.
@@ -3861,7 +3861,7 @@ Samengevat is dit het volledige overdrachtsproces:
 
 
 
-- Vertrouwelijkheid**:
+- **Vertrouwelijkheid**:
 
 
 Alleen Alice en Bob hebben toegang tot alle State Transition gegevens. Zij Exchange deze informatie buiten de Blockchain, via zendingen. De cryptografische vastleggingen in de Bitcoin transactie onthullen het type activa of het bedrag niet, wat een veel grotere vertrouwelijkheid garandeert dan andere On-Chain token systemen.
@@ -3869,7 +3869,7 @@ Alleen Alice en Bob hebben toegang tot alle State Transition gegevens. Zij Excha
 
 
 
-- Klantzijdige validatie**:
+- **Klantzijdige validatie**:
 
 
 Bob kan de consistentie van de overdracht controleren door de *Consignment* te vergelijken met de *ankers* in de Bitcoin Blockchain. Hij heeft geen validatie door derden nodig. Alice hoeft niet de volledige geschiedenis op de Blockchain te publiceren, wat de belasting van het basisprotocol vermindert en de vertrouwelijkheid verbetert.
@@ -3877,7 +3877,7 @@ Bob kan de consistentie van de overdracht controleren door de *Consignment* te v
 
 
 
-- Vereenvoudigde atomiciteit**:
+- **Vereenvoudigde atomiciteit**:
 
 
 Complexe uitwisselingen (atomaire swaps tussen BTC en een RGB activum, bijvoorbeeld) kunnen worden uitgevoerd binnen een enkele transactie, waardoor er geen HTLC of PTLC scripts nodig zijn. Als de overeenkomst niet wordt uitgezonden, kan iedereen zijn UTXO's op andere manieren hergebruiken.
@@ -3985,10 +3985,10 @@ Laten we deze URL analyseren:
 
 
 - `RGB:`** (prefix): geeft een link aan die het RGB protocol aanroept (analoog aan `http:` of `Bitcoin:` in andere contexten);
-- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: vertegenwoordigt de `ContractId` van de token die je wilt manipuleren;
-- `/RGB20/100`**: geeft aan dat de `RGB20` Interface wordt gebruikt en dat 100 eenheden van het goed worden gevraagd. De syntaxis is: `/Interface/bedrag`;
-- `+utxob:`**: geeft aan dat informatie over de ontvanger UTXO (of, preciezer, de definitie van de Single-Use Seal) wordt toegevoegd;
-- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**: dit is de *blinded* UTXO (of Seal Definition). Met andere woorden, Bob heeft zijn exacte UTXO gemaskeerd, dus de afzender (Alice) weet niet wat de exacte Address is. Ze weet alleen dat er een geldige Seal is, die verwijst naar een UTXO die Bob controleert.
+- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: vertegenwoordigt de `ContractId` van de token die je wilt manipuleren;
+- `/RGB20/100`: geeft aan dat de `RGB20` Interface wordt gebruikt en dat 100 eenheden van het goed worden gevraagd. De syntaxis is: `/Interface/bedrag`;
+- `+utxob:`**: geeft aan dat informatie over de ontvanger UTXO (of, preciezer, de definitie van de Single-Use Seal) wordt toegevoegd;**
+- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: dit is de *blinded* UTXO (of Seal Definition). Met andere woorden, Bob heeft zijn exacte UTXO gemaskeerd, dus de afzender (Alice) weet niet wat de exacte Address is. Ze weet alleen dat er een geldige Seal is, die verwijst naar een UTXO die Bob controleert.
 
 
 Het feit dat alles in één URL past, maakt het leven van de gebruiker eenvoudiger: een simpele klik of scan in de Wallet en de bewerking is klaar om uitgevoerd te worden.
@@ -4027,11 +4027,11 @@ Hier zien we:
 
 
 
-- gW-1917:**: URL prefix;
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT);
-- rGB21**: Interface voor niet-vluchtige activa (NFT);
-- `DbwzvSu-4BZU81jEp-...`**: een expliciete verwijzing naar het unieke deel van de NFT, bijvoorbeeld een Hash van de gegevensblob (media, metagegevens...);
-- `+utxob:egXsFnw-...`**: de Seal Definition.
+- **gW-1917**: URL prefix;
+- **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT);
+- **rGB21**: Interface voor niet-vluchtige activa (NFT);
+- `DbwzvSu-4BZU81jEp-...`: **een expliciete verwijzing naar het unieke deel van de NFT, bijvoorbeeld een Hash van de gegevensblob (media, metagegevens...);**
+- **`+utxob:egXsFnw-...`**: de Seal Definition.
 
 
 Het idee is hetzelfde: zend een unieke link die de Wallet kan interpreteren en die duidelijk het unieke goed identificeert dat moet worden overgedragen.
@@ -4059,7 +4059,7 @@ Hier vinden we:
 - `+utxob:`: de Seal Definition.
 
 
-Op de Wallet zou bijvoorbeeld kunnen staan: "Ik ben gevraagd om een `uitgifte` operatie uit te voeren van de `RGB20` Interface, op die en die Contract, voor 100.000 eenheden, ten voordele van die en die Single-Use Seal.*"
+Op de Wallet zou bijvoorbeeld kunnen staan: "Ik ben gevraagd om een `uitgifte` operatie uit te voeren van de `RGB20` Interface, op die en die Contract, voor 100.000 eenheden, ten voordele van die en die Single-Use Seal."
 
 
 Nu we de belangrijkste Elements van RGB programmering hebben bekeken, neem ik je mee door het volgende hoofdstuk over hoe je een RGB Contract opstelt.
@@ -4375,8 +4375,8 @@ In de meeste gevallen vindt interactie tussen de deelnemers aan een Contract (bi
 
 
 
-- Alice** (de emittent van de Invoice);
-- Bob** (die de Invoice ontvangt en uitvoert).
+- **Alice** (de emittent van de Invoice);
+- **Bob** (die de Invoice ontvangt en uitvoert).
 
 
 In tegenstelling tot andere ecosystemen is een RGB Invoice niet beperkt tot het begrip betaling. Het kan elk verzoek inhouden dat gekoppeld is aan de Contract: een sleutel intrekken, stemmen, een gravure (*gravure*) maken op een NFT, enz. De overeenkomstige operatie kan worden beschreven in de Contract Interface. De overeenkomstige operatie kan beschreven worden in de Contract Interface.
@@ -4575,8 +4575,8 @@ Tot slot wil ik, voordat we naar het volgende deel gaan, een overzicht geven van
 
 
 
-- Archief**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Kratten**: [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
+- **Archief**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Kratten**: [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
 
 
 Beheer van off-chain validatie en Single Use Seals logica.
@@ -4587,8 +4587,8 @@ Beheer van off-chain validatie en Single Use Seals logica.
 
 
 
-- Archief**: [bp-kern](https://github.com/BP-WG/bp-core)
-- Krat**: [bp-dbc](https://crates.io/crates/bp-dbc)
+- **Archief**: [bp-kern](https://github.com/BP-WG/bp-core)
+- **Krat**: [bp-dbc](https://crates.io/crates/bp-dbc)
 
 
 Beheer van deterministische verankering in Bitcoin transacties (Tapret, OP_RETURN, enz.).
@@ -4599,8 +4599,8 @@ Beheer van deterministische verankering in Bitcoin transacties (Tapret, OP_RETUR
 
 
 
-- Archief**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Krat**: [commit_verify](https://crates.io/crates/commit_verify)
+- **Archief**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Krat**: [commit_verify](https://crates.io/crates/commit_verify)
 
 
 Meerdere inschakelcombinaties en integratie met verschillende protocollen.
@@ -4611,9 +4611,9 @@ Meerdere inschakelcombinaties en integratie met verschillende protocollen.
 
 
 
-- Specificaties**: [website strict-types.org] (https://www.strict-types.org/)
-- Repositories**: [strikte types](https://github.com/strict-types/strict-types), [strikte codering](https://github.com/strict-types/strict-encoding)
-- Kratten**: [strikte_typen](https://crates.io/crates/strict_types), [strikte_codering](https://crates.io/crates/strict_encoding)
+- **Specificaties**: [website strict-types.org](https://www.strict-types.org/)
+- **Repositories**: [strikte types](https://github.com/strict-types/strict-types), [strikte codering](https://github.com/strict-types/strict-encoding)
+- **Kratten**: [strikte_typen](https://crates.io/crates/strict_types), [strikte_codering](https://crates.io/crates/strict_encoding)
 
 
 Het strikte typeringssysteem en de deterministische serialisatie gebruikt voor Client-side Validation.
@@ -4624,8 +4624,8 @@ Het strikte typeringssysteem en de deterministische serialisatie gebruikt voor C
 
 
 
-- Archief**: [RGB-core](https://github.com/RGB-WG/RGB-core)
-- Krat**: [RGB-core](https://crates.io/crates/RGB-core)
+- **Archief**: [RGB-core](https://github.com/RGB-WG/RGB-core)
+- **Krat**: [RGB-core](https://crates.io/crates/RGB-core)
 
 
 De kern van het protocol, die de hoofdlogica van de RGB validatie omvat.
@@ -4636,8 +4636,8 @@ De kern van het protocol, die de hoofdlogica van de RGB validatie omvat.
 
 
 
-- Archief**: [RGB-std](https://github.com/RGB-WG/RGB-std)
-- Krat**: [RGB-std](https://crates.io/crates/RGB-std)
+- **Archief**: [RGB-std](https://github.com/RGB-WG/RGB-std)
+- **Krat**: [RGB-std](https://crates.io/crates/RGB-std)
 
 
 Standaard implementaties, Stash en Wallet beheer.
@@ -4648,8 +4648,8 @@ Standaard implementaties, Stash en Wallet beheer.
 
 
 
-- Archief**: [RGB](https://github.com/RGB-WG/RGB)
-- Kratten**: [RGB-CLI](https://crates.io/crates/RGB-CLI), [RGB-Wallet](https://crates.io/crates/RGB-Wallet)
+- **Archief**: [RGB](https://github.com/RGB-WG/RGB)
+- **Kratten**: [RGB-CLI](https://crates.io/crates/RGB-CLI), [RGB-Wallet](https://crates.io/crates/RGB-Wallet)
 
 
 De `RGB` CLI en crate Wallet, voor commandoregelmanipulatie van contracten.
@@ -4660,7 +4660,7 @@ De `RGB` CLI en crate Wallet, voor commandoregelmanipulatie van contracten.
 
 
 
-- Archief**: [RGB-schemata](https://github.com/RGB-WG/RGB-schemata/)
+- **Archief**: [RGB-schemata](https://github.com/RGB-WG/RGB-schemata/)
 
 
 Bevat voorbeelden van schema's (NIA, UDA, enz.) en hun implementaties.
@@ -4671,9 +4671,9 @@ Bevat voorbeelden van schema's (NIA, UDA, enz.) en hun implementaties.
 
 
 
-- Info**: [AluVM.org](https://www.AluVM.org/)
-- Repositories**: [AluVM-spec](https://github.com/AluVM/AluVM-spec), [alure](https://github.com/AluVM/alure)
-- Kratten**: [AluVM](https://crates.io/crates/AluVM), [aluasm](https://crates.io/crates/aluasm)
+- **Info**: [AluVM.org](https://www.AluVM.org/)
+- **Repositories**: [AluVM-spec](https://github.com/AluVM/AluVM-spec), [alure](https://github.com/AluVM/alure)
+- **Kratten**: [AluVM](https://crates.io/crates/AluVM), [aluasm](https://crates.io/crates/aluasm)
 
 
 Op register gebaseerde virtuele machine die wordt gebruikt om validatiescripts uit te voeren.
@@ -4684,7 +4684,7 @@ Op register gebaseerde virtuele machine die wordt gebruikt om validatiescripts u
 
 
 
-- Repositories**: [bp-kern](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-Wallet](https://github.com/BP-WG/bp-Wallet)
+- **Repositories**: [bp-kern](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-Wallet](https://github.com/BP-WG/bp-Wallet)
 
 
 Toevoegingen om het Bitcoin protocol te ondersteunen (transacties, bypasses, enz.).
@@ -4695,7 +4695,7 @@ Toevoegingen om het Bitcoin protocol te ondersteunen (transacties, bypasses, enz
 
 
 
-- Archief**: [UBIDECO](https://github.com/UBIDECO)
+- **Archief**: [UBIDECO](https://github.com/UBIDECO)
 
 
 Ecosysteem gekoppeld aan open-source deterministische ontwikkelingen.
@@ -4790,7 +4790,7 @@ Het bedrijf achter Bitmask beperkt zich niet tot de eenvoudige ontwikkeling van 
 
 - Een **marktplaats** voor het uitwisselen van tokens, vooral in **RGB21** vorm;
 - Compatibiliteit met andere portemonnees (zoals *Iris Wallet*);
-- Transfer batching** technieken, d.w.z. de mogelijkheid om meerdere opeenvolgende RGB transfers in een enkele transactie op te nemen.
+- **Transfer batching** technieken, d.w.z. de mogelijkheid om meerdere opeenvolgende RGB transfers in een enkele transactie op te nemen.
 
 
 Tegelijkertijd werken we aan **WebBTC** of **WebLN** (standaarden waarmee websites de Wallet kunnen vragen om Bitcoin- of Lightning-transacties te ondertekenen), evenals aan de mogelijkheid om Ordinals-items te "telebranden" (als we Ordinals willen repatriëren naar een discreter en flexibeler RGB-formaat).
@@ -5075,7 +5075,7 @@ Elke RLN instantie zal moeten communiceren met `bitcoind` om zijn On-Chain trans
 
 
 
-- Een indexer** (Electrum of Esplora)
+- Een **indexer** (Electrum of Esplora)
 
 
 De daemon moet On-Chain transacties kunnen oplijsten en verkennen, in het bijzonder om de UTXO te vinden waarop een actief is verankerd. Je moet de URL van je Electrum server of Esplora specificeren.

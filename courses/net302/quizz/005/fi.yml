@@ -1,0 +1,9 @@
+question: Mikä asiakirja on TCP/IP-protokollan teknisenä viitteenä?
+answer: RFC
+wrong_answers:
+  - Valkoinen kirja
+  - ISO
+  - IIP
+explanation: |
+  RFC:t (Request For Comments) ovat viiteasiakirjoja, joissa määritellään TCP/IP-protokollien määrittelyt.
+reviewed: false

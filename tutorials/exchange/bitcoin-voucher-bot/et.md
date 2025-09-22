@@ -4,9 +4,9 @@ description: Telegram bot, et osta Bitcoin konfidentsiaalselt
 ---
 ![image](assets/cover.webp)
 
-_Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_See juhend on kirjutatud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) poolt
 
-# Sissejuhatus
+## Sissejuhatus
 
 BitcoinVoucherBot on vahend, mille abil saab Exchange-s Bitcoine osta eurode eest.
 
@@ -32,7 +32,7 @@ Telegrami vestluses koostame tellimuse, maksame selle eest pangaülekandega ja l
 
 Aktiveerimine on lihtne ühekordne toiming. Otsige Telegramist _@BitcoinVoucherBot_ ja niipea, kui jõuate Bot'i vestlusesse, paistab alt suur _Start/Start_ nupp. Operatsioon põhjustab Bot'i reageerimise, mis esitab talle kättesaadavate peamiste käskude menüü. Samuti ilmuvad esimesed tervitussõnumid, mida soovitame hoolikalt lugeda.
 
-**Hoiatus**: on mitmeid pettureid, kes esinevad originaalse VoucherBot'ina. Kui te ei ole kindel, et otsing Telegrami kaudu, palun pääseda BitcoinVoucherBot link [ametlikul kodulehel](https://www.bitcoinvoucherbot.com/)
+**Tähelepanu**: on mitu petturit, kes esinevad originaalse VoucherBoti nime all. Kui sa ei ole kindel otsingus Telegrami kaudu, ava BitcoinVoucherBoti link [ametlikult veebisaidilt](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Peamised tegevused hõlmavad:
 - _/fees_: käsk võrgutasude kontrollimiseks. Nende hindamiseks on alati kõige parem tugineda Mempool.space'ile.
 - _/support_: vajaduse korral avanevad kontaktid, et teatada probleemidest tugimeeskonnale.
 
-# Bitcoin ostumenetlus
+## Bitcoini ostmise protseduur
 
-## Tellimuse ettevalmistamine
+### Tellimuse ettevalmistamine
 
 Klõpsake käsurea menüüs _/osta_
 
@@ -97,7 +97,7 @@ Kui kõik on õige, jätkake, klõpsates nuppu _Proceed_.
 
 ![image](assets/it/10.webp)
 
-## Maksmine
+### Makse
 
 Pärast mõne hetke möödumist, mis on vajalik andmete töötlemiseks, vastab VoucherBot sõnumiga, mis sisaldab kõiki tellimuse täitmiseks vajalikke andmeid. Sõltuvalt sellest, mida teie pank nõuab, on asjakohane teave:
 
@@ -124,7 +124,7 @@ Palun võtke arvesse:
 - mis tahes vajaduste korral on Bitcoin VoucherBotil suurepärane [tugi](https://t.me/BitcoinVoucherGroup) teenus Telegramis.
 
 ---
-## Lunastus
+### Lunastus
 
 Niipea kui makse on edukas, saadab Bitcoin VoucherBot vautšeri otse vestlusesse. Välkvautšer on QR-koodi kujul, mis on trükitud oranžile taustale.
 
@@ -139,7 +139,7 @@ Seal on kõik vajalikud andmed, et seda sisse nõuda:
 
 Voucheri saate sisse maksta, kui kujundate QR-koodi ühilduva Wallet Lightning Network skaneerimisfunktsiooniga või LNURL-i kaudu, mis on samuti QR-koodi all näidatud.
 
-Selle õpetuse jaoks kasutasime Wallet Of Satoshi, kasutades skaneerimisfunktsiooni, mis on aktiveeritud klahviga _Send_
+Selles õpetuses kasutasime Wallet Of Satoshi rakendust, kasutades skaneerimisfunktsiooni, mis on aktiveeritud nupuga _Send_.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Kui mobiiltelefoni kaamera on aktiveeritud, raamige QR-koodi vestluses, avades T
 
 ![image](assets/it/34.webp)
 
-Enne jätkamist, Wallet Of Satoshi alates kontrolli ekraani, mis sisaldab summa, mis täpselt vastab summa väljendatud vautšeri ja, nagu kirjeldus, BitcoinVoucherBot. Vautšeri väljamaksmiseks klõpsake lihtsalt nuppu _Receive_
+Enne jätkamist kuvab Wallet Of Satoshi kontrolliekraani, mis sisaldab summat, mis vastab täpselt voucheril märgitule, ja kirjeldusena BitcoinVoucherBot. Voucheri lunastamiseks piisab, kui klõpsata _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet Satoshi protsessid mõne hetke jooksul
+Wallet Of Satoshi töötleb mõne hetke.
 
 ![image](assets/it/36.webp)
 
 ja lõpuks teatatakse kogumisest ja see on kohe kättesaadav Wallet bilansis.
 
-**Wallet Satoshi on eestkostetav rakendus: kohe pärast vautšeri lunastamist on soovitav Sats üle viia Wallet mitte-eestkostetavaks.**
+**Wallet of Satoshi on hoiuäpp: kohe pärast voucheri lunastamist on soovitatav satsid liigutada mitte-hoiupõhisele rahakotile.**
 
 ![image](assets/it/37.webp)
 

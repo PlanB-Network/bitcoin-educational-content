@@ -1,5 +1,5 @@
 ---
-name: Speed Wallet - PoS
+name: Speed Wallet - POS
 description: Integrate bitcoin and stablecoin payments into your business with ease
 ---
 ![cover](assets/cover.webp)
@@ -17,23 +17,23 @@ The worldwide adoption of Bitcoin is based on tangible use cases in everyday lif
 [Speed Business](https://www.tryspeed.com/) is a platform developed by [Speed Wallet](https://www.speed.app/) that enables any merchant to integrate instant, low-cost Bitcoin and stablecoin payments.
 
 
-Speed has a wide range of features to cover the financial aspects of your business. You'll find :
+Speed has a wide range of features to cover the financial aspects of your business. You'll find:
 
 
 
-- Online payment configuration**: Receive payments from your customers wherever they are, thanks to your website.
+- **Online payment configuration**: Receive payments from your customers wherever they are, thanks to your website.
 
 
 
-- On-site payments**: Ideal for stores and businesses that collect cash in-store.
+- **On-site payments**: Ideal for stores and businesses that collect cash in-store.
 
 
 
-- Withdrawals**: Withdraw your assets smoothly and use your bitcoins to pay back your customers and salaries.
+- **Withdrawals**: Withdraw your assets smoothly and use your bitcoins to pay back your customers and salaries.
 
 
 
-- Connection with other platforms**: Do you use external tools to manage your payments? Speed offers you the possibility of connecting them to its platform, for an all-in-one ecosystem that reflects your business.
+- **Connection with other platforms**: Do you use external tools to manage your payments? Speed offers you the possibility of connecting them to its platform, for an all-in-one ecosystem that reflects your business.
 
 
 Create your account on [Speed](https://app.tryspeed.com/register/) and we'll start setting up payments for your business.
@@ -196,11 +196,11 @@ In the **Send Payments** menu, you'll find all the money transfer options speed 
 
 
 
-- Instant payments**: With the Instant Send option, securely send bitcoins instantly from your merchant account.
+- **Instant payments**: With the Instant Send option, securely send bitcoins instantly from your merchant account.
 
 
 
-- Generate withdrawal links** to enable your partners and suppliers to access their payment at a later date without requiring your online presence.
+- Generate **withdrawal links** to enable your partners and suppliers to access their payment at a later date without requiring your online presence.
 
 
 In the **Withdrawal Links** option, create a new withdrawal link, then configure it by defining the currency, the amount and a password to secure your recipient's transaction.
@@ -213,14 +213,14 @@ In the **Withdrawal Links** option, create a new withdrawal link, then configure
 
 
 
-- Payouts**: In the Payouts menu, initiate withdrawals from your Speed Business balance to your personal wallet.
+- **Payouts**: In the Payouts menu, initiate withdrawals from your Speed Business balance to your personal wallet.
 
 
 ![payouts](assets/fr/22.webp)
 
 
 
-- Discounts**: Encourage your regular customers by setting up rebate options to earn bonuses.
+- **Discounts**: Encourage your regular customers by setting up rebate options to earn bonuses.
 
 
 ![cashbacks](assets/fr/23.webp)
@@ -321,4 +321,3 @@ You've got a good grasp of Speed, integrate Bitcoin into your business and devel
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

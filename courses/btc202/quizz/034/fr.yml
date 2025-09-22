@@ -1,0 +1,9 @@
+question: Quelle est la différence principale entre une implémentation brute et un node-in-a-box ?
+answer: La présence d’une interface et d’applications intégrées
+wrong_answers:
+  - La compatibilité avec le réseau
+  - La taille de la blockchain stockée sur le disque
+  - Le protocole et la monnaie utilisés
+explanation: |
+  Une implémentation brute installe seulement le logiciel de nœud, tandis qu’un node-in-a-box ajoute une interface, un App Store et des services intégrés.
+reviewed: false

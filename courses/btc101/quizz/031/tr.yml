@@ -1,0 +1,12 @@
+question: Var olabilecek en fazla Bitcoin birimi sayısı nedir?
+answer: 21 milyon.
+wrong_answers:
+  - 3 trilyon.
+  - 100 milyon.
+  - Bunun bir sınırı yok.
+explanation: |
+  Bitcoin'in toplam Supply miktarı 21 milyon ünite ile sınırlandırılmıştır.
+  Bu, Bitcoin'i farklılaştıran önemli bir özelliktir
+  basılabilen güvene dayalı para birimlerinden
+  merkez bankaları tarafından sınırsız miktarda.
+reviewed: true

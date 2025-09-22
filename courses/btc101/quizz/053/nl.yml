@@ -1,11 +1,11 @@
-question: Er is een historisch geval van een dagelijkse inflatie van 100%; waar en wanneer gebeurde dat?
-answer: In Zimbabwe, 2007.
+question: Hoe wordt het proces genoemd dat transacties op het Bitcoin netwerk verifieert?
+answer: Mining
 wrong_answers:
-  - In Hongarije, 1945.
-  - In China, 1940.
-  - Dit is eigenlijk een onrealistisch geval dat niet kan gebeuren.
+  - Graven
+  - Oogsten
+  - Landbouw
 explanation: |
-  Een inflatie van 100% per dag is een realistisch scenario dat
-  gebeurde in Zimbabwe in 2007, waar de geldwaarde ruwweg
-  elke 24 uur verdubbelde.
+  Het proces dat transacties verifieert op het Bitcoin
+  netwerk wordt Mining genoemd. Miners voeren een cryptografische
+  taak en worden beloond met de uitgifte van nieuwe bitcoins.
 reviewed: true

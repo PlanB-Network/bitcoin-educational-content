@@ -1,0 +1,13 @@
+question: Ni kuki bihambaye gushira imbere ukwizigirwa n’ubuhinga kuruta gukundwa igihe uhitamwo VPN?
+answer: Abatanga VPN bakorakoranya amakuru makeyi cane y’umuntu ku giti ciwe ni bo muri rusangi batekanye kuruta abandi bose.
+wrong_answers:
+  - Abatanga VPN bazwi cane ni bo bashobora guterwa n’abasuma.
+  - Abatanga VPN bazwi cane barashobora kugira umuvuduko muto wa internet.
+  - Abatanga VPN bazwi cane barashobora kuba bafise uburenganzira bwo kuba.
+explanation: |
+  Igihe uhisemwo VPN, birahambaye ko ushira imbere .
+  kwizigirwa n’ubuhinga kuruta gukundwa. Ibi ni
+  kuko abatanga VPN bakorakoranya ibintu bike cane vy’umuntu ku giti ciwe
+  amakuru muri rusangi ni yo atekanye kuruta ayandi yose, agatanga ivyiza
+  uburinzi bw’umutekano wawe wo kuri Internet.
+reviewed: true

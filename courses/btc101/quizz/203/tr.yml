@@ -1,0 +1,8 @@
+question: Hangi ülke Bitcoin'ı yasal para birimi olarak ilan etmiştir?
+answer: El Salvador.
+wrong_answers:
+  - Birleşik Devletler.
+  - Çin.
+  - Hindistan.
+explanation: >-
+reviewed: true

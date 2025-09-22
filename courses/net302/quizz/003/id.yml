@@ -1,0 +1,9 @@
+question: Dalam topologi bus, apa keuntungan utamanya?
+answer: Biaya pemasangan rendah
+wrong_answers:
+  - Redundansi tinggi
+  - Latensi rendah
+  - Ketersediaan tinggi
+explanation: |
+  Bus ini bergantung pada media fisik tunggal, yang menurunkan biaya pemasangan tetapi juga memperkenalkan satu titik kegagalan.
+reviewed: false

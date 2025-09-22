@@ -1,0 +1,9 @@
+question: Ni isano irihe riri hagati y’umwidegemvyo wa politike n’umwidegemvyo w’ubutunzi, nk’uko Constant abivuga?
+answer: Uwo mwidegemvyo ubiri urafatanya.
+wrong_answers:
+  - Umwidegemvyo wa politike ni ikintu gikenewe kugira umuntu agire umwidegemvyo mu vy’ubutunzi.
+  - Umwidegemvyo mu vy’ubutunzi ni ikintu gikenewe kugira umuntu agire umwidegemvyo mu vya politike.
+  - Uwo mwidegemvyo ubiri ntuhuye.
+explanation: |
+  Ku bwa Benjamin Constant, umwidegemvyo wa politike n’umwidegemvyo w’ubutunzi birafitaniye isano cane, kuko ubwigenge bw’umuntu ku giti ciwe buvana cane n’ubushobozi bwo kugira uruhara mu bikorwa vya Leta nk’uko buvana n’umwidegemvyo wo kurongora ibikorwa vy’ubutunzi ata n’umwe amubuza.
+reviewed: true

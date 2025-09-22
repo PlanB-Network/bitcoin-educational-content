@@ -1,0 +1,9 @@
+question: Mu bikorwa vy’ukwishura vyoroshe aho hariho inyungu y’ama Sats 500.000 igabanywemwo umusaruro umwe w’ama Sats 47.500 n’uwundi 451.000 Sats, ni uwuhe UTXO ushobora kuba ari wo uhinduka?
+answer: Iryo ry’amashanyarazi 451.000 Sats.
+wrong_answers:
+  - Iryo ry’amashanyarazi 500.000 Sats.
+  - Iryo ry’amashanyarazi 47.500 Sats.
+  - Nta n’umwe muri bo.
+explanation: |
+  Iyo hariho itandukaniro rinini rihagije hagati y’ibisohoka bibiri mu gucuruza ku buryo bworoshe bwo kwishura, birashobora kugereranywa ko igisohoka kinini ari co gishobora kuba ari co gihinduka.
+reviewed: false

@@ -1,12 +1,11 @@
-question: What action does Bitcoin force companies, universities, regulators, and individuals to do?
-answer: To take it into account.
+question: What is the nature of Bitcoin's adoption as described in this course?
+answer: Viral.
 wrong_answers:
-  - To ignore it.
-  - To ban it.
-  - To criminalize it.
-explanation: >-
-  The rise of Bitcoin forces companies, universities, regulators, and
-  individuals
-  to take this new technology into account. New tools need to be created, services
-  need to be adapted, and innovation must continue to ensure their survival.
+  - Slow and steady.
+  - Rapid and uncontrollable.
+  - Sporadic and unpredictable.
+explanation: |
+  The course text describes Bitcoin's adoption as viral,
+  suggesting that it spreads rapidly and widely from one
+  person to another, much like a virus, but a good one.
 reviewed: true

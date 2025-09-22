@@ -1,0 +1,9 @@
+question: 哪一條指令會顯示封包到達 IP 目的地的路徑？
+answer: traceroute
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute 使用 TTL 顯示傳送者和目標之間的每個中間路由器。
+reviewed: false

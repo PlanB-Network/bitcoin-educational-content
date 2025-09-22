@@ -1,0 +1,9 @@
+question: 프랑스어로 출판된 Bitcoin을 소개하는 첫 번째 글의 저자는 누구인가요?
+answer: 루시앙 그론딘(그론딜루)
+wrong_answers:
+  - 라이오넬 드리코 (플룸)
+  - 아모리 세셰(데달닉스)
+  - 데이비드 프랑수아 (davout)
+explanation: |
+  2010년 9월 30일에 LinuxFr.org에 게시된 [텍스트](https: //linuxfr.org/news/connaissez-vous-les-bitcoins)의 제목은 "비트코인에 대해 알고 계십니까?"였습니다.
+reviewed: true

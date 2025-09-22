@@ -1,11 +1,11 @@
-question: ¿Cuál es el propósito de un monedero de Bitcoin?
-answer: Almacenar claves privadas para realizar transacciones con bitcoins.
+question: ¿Quién fue la primera persona en unirse a la red de Bitcoin después de Satoshi Nakamoto?
+answer: Hal Finney.
 wrong_answers:
-  - Usar los recursos del dispositivo para minar bitcoins.
-  - Comprar bitcoins a través de la clave pública.
-  - Almacenar bitcoins en un dispositivo.
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Los monederos de Bitcoin son un tipo de software que se utiliza para
-  almacenar las claves privadas que te permiten realizar transacciones
-  con tus bitcoins.
+  Hal Finney fue la primera persona en unirse a la red de Bitcoin
+  después del propio Satoshi Nakamoto. Incluso tuiteó Running
+  Bitcoin para marcar la ocasión.
 reviewed: true

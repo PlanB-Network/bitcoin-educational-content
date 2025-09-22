@@ -1,0 +1,9 @@
+question: 何時使用 lsof 中的 -u 選項？
+answer: 若要依使用者篩選
+wrong_answers:
+  - 若要強制 DNS 解析
+  - 若要顯示開啟的連接埠
+  - 若要指定 DNS 伺服器
+explanation: |
+  lsof 中的 -u 選項會限制輸出至特定使用者或 UID 開啟的檔案。
+reviewed: false

@@ -147,7 +147,7 @@ Ovaj model se duboko razlikuje od tradicionalnih bankarskih sistema, koji se osl
 Bitcoin funkcioniše drugačije. Koncept računa ne postoji, a monetarne jedinice se ne upravljaju putem stanja, već kroz UTXO-e. UTXO predstavlja određenu količinu bitkoina koja još nije potrošena, čime se formira "deo Bitcoina", koji može biti veliki ili mali. Na primer, jedan UTXO može vredeti `500 BTC` ili jednostavno `700 Sats`.
 
 
-**> Satoši, često skraćeno na sat, je najmanja jedinica Bitcoin-a, uporediva sa centimom u fiat valutama.**
+**Podsetnik:** Satoši, često skraćeno na sat, je najmanja jedinica Bitcoin-a, uporediva sa centimom u fiat valutama.
 
 
 ```plaintext
@@ -158,7 +158,7 @@ Bitcoin funkcioniše drugačije. Koncept računa ne postoji, a monetarne jedinic
 Teoretski, jedan UTXO može predstavljati bilo koju vrednost u bitkoinima, u rasponu od jednog sata do teoretskog maksimuma od oko 21 milion BTC. Međutim, logički je nemoguće posedovati svih 21 milion bitkoina, i postoji niži ekonomski prag nazvan prašina (eng. Dust), ispod kojeg se UTXO smatra ekonomski neisplativim za trošenje.
 
 
-**> Najveći UTXO ikada kreiran na Bitcoin imao je vrednost od `500,000 BTC`. Kreirala ga je MtGox platforma tokom konsolidacione operacije u novembru 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)**
+**Da li ste znali?** Najveći UTXO ikada kreiran na Bitcoin imao je vrednost od `500,000 BTC`. Kreirala ga je MtGox platforma tokom konsolidacione operacije u novembru 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXO-i uslovi trošenja
@@ -215,7 +215,7 @@ Svaka Bitcoin transakcija se stoga sastoji od jednog ili više ulaza i jednog il
 ![BTC204](assets/fr/011.webp)
 
 
-**> Teoretski, Bitcoin transakcija može imati beskonačan broj ulaza i izlaza. Jedino ograničenje je maksimalna veličina bloka.**
+**Da li ste znali?** Teoretski, Bitcoin transakcija može imati beskonačan broj ulaza i izlaza. Jedino ograničenje je maksimalna veličina bloka.
 
 
 Svaki ulaz u Bitcoin transakciji odnosi se na prethodni neutrošeni UTXO. Da bi se UTXO koristio kao ulaz, njegov vlasnik mora dokazati da je zakoniti vlasnik validacijom pridružene skripte, tj. ispunjavanjem nametnutog uslova trošenja. Generalno govoreći, to znači pružanje digitalnog potpisa proizvedenog privatnim ključem koji odgovara javnom ključu koji je prvobitno osigurao ovaj UTXO. Skript se stoga sastoji u verifikaciji da potpis odgovara javnom ključu korišćenom kada su sredstva primljena.
@@ -306,7 +306,7 @@ Bitkoini subvencionisani blokom su novi BTC stvoreni od nule, prema unapred utvr
 Što se tiče naknada za transakcije, iako one takođe predstavljaju novo kreirane BTC, ne smeju premašiti razliku između ukupnih ulaza i izlaza svih transakcija u bloku. Ranije smo videli da ove naknade predstavljaju deo ulaza koji nije iskorišćen u izlazima transakcija. Ovaj deo je tehnički "izgubljen" tokom transakcije, a rudar ima pravo da rekreira ovu vrednost u obliku jednog ili više novih UTXO-a. Ovo je transfer vrednosti između izdavaoca transakcije i rudara koji ga dodaje blokčejnu.
 
 
-**> Bitcoini generisani od strane Coinbase transakcije podležu periodu zrelosti od 100 blokova, tokom kojeg ih rudar ne može potrošiti. Ovo pravilo je osmišljeno kako bi se izbegle komplikacije povezane sa korišćenjem novokreiranih bitcoina na lancu koji bi kasnije mogao postati zastareo.**
+**Da li ste znali?** Bitcoini generisani od strane Coinbase transakcije podležu periodu zrelosti od 100 blokova, tokom kojeg ih rudar ne može potrošiti. Ovo pravilo je osmišljeno kako bi se izbegle komplikacije povezane sa korišćenjem novokreiranih bitcoina na lancu koji bi kasnije mogao postati zastareo.
 
 
 ### Implikacije UTXO modela 
@@ -341,10 +341,6 @@ Zato koristimo novac da premestimo vrednost u prostoru i vremenu.
 
 
 Da bi kovanice rešile ovaj problem, neophodno je da strana koja pruža robu ili uslugu bude uverena u sposobnost da iznos koji primi može da potroši kasnije. Stoga će svaka racionalna osoba koja želi da prihvati kovanicu, bilo digitalnu ili fizičku, osigurati da ispunjava dva osnovna kriterijuma:
-
-
-
-
 - **Komad mora imati integritet i autentičnost;**
 - **i ne sme doći do duple potrošnje.**
 
@@ -441,14 +437,8 @@ Blockchain analiza je praksa praćenja toka bitkoina na blokčejnu. Generalno go
 
 
 Laički rečeno, postoje tri glavne faze u analizi lanca:
-
-
 1. **Posmatranje blokčejna;**
-
-
 2. **Identifikacija poznatih karakteristika;**
-
-
 3. **Izvođenje pretpostavki**
 
 
@@ -1465,10 +1455,10 @@ ___
 
 
 
-- Serija od četiri članka pod nazivom: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), koju je napravio Samourai Wallet 2021. godine;*
-- Različiti izveštaji sa [OXT Research](https://medium.com/oxt-research), kao i njihov besplatni alat za analizu blokčejna (trenutno nije dostupan nakon hapšenja osnivača Samourai Wallet-a);*
-- Šire gledano, moje znanje dolazi iz raznih tvitova i sadržaja od [@LaurentMT](https://twitter.com/LaurentMT) i [@ErgoBTC](https://twitter.com/ErgoBTC);*
-- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) u kojem sam učestvovao u društvu [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) i [@LaurentMT](https://twitter.com/LaurentMT).*
+- Serija od četiri članka pod nazivom: **Understanding Bitcoin Privacy with OXT**, koju je napravio Samourai Wallet 2021. godine;
+- Različiti izveštaji sa [OXT Research](https://medium.com/oxt-research), kao i njihov besplatni alat za analizu blokčejna (trenutno nije dostupan nakon hapšenja osnivača Samourai Wallet-a);
+- Šire gledano, moje znanje dolazi iz raznih tvitova i sadržaja od [@LaurentMT](https://twitter.com/LaurentMT) i [@ErgoBTC](https://twitter.com/ErgoBTC);
+- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) u kojem sam učestvovao u društvu [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) i [@LaurentMT](https://twitter.com/LaurentMT).
 
 
 *Želeo bih da zahvalim njihovim autorima, developerima i producentima. Takođe hvala lektorima koji su pažljivo ispravili članak na kojem se zasniva ovaj deo 3 i dali mi svoje stručno mišljenje:*
@@ -1476,7 +1466,7 @@ ___
 
 
 
-- [Gilles Cadignan](https://twitter.com/gillesCadignan);*
+- [Gilles Cadignan](https://twitter.com/gillesCadignan);
 - [Ludovic Lars](https://viresinnumeris.fr/)
 
 
@@ -1511,7 +1501,7 @@ Tehnički, Bitcoin adresa za primanje ne "prima" bitkoine u doslovnom smislu, ve
 ![BTC204](assets/fr/067.webp)
 
 
-Bitcoin adrese dolaze u različitim tipovima, u zavisnosti od korišćenog modela skriptovanja. Prvi modeli, poznati kao "Legacy*", uključuju `P2PKH` (*Pay-to-PubKey-Hash*) i `P2SH` (*Pay-to-Script-Hash*) adrese. P2PKH adrese uvek počinju sa `1`, a P2SH sa `3`. Iako su i dalje bezbedni, ovi formati su sada zastareli, jer podrazumevaju veće troškove transakcija i nude manje poverljivosti u poređenju sa novim standardima.
+Bitcoin adrese dolaze u različitim tipovima, u zavisnosti od korišćenog modela skriptovanja. Prvi modeli, poznati kao **Legacy**, uključuju `P2PKH` (*Pay-to-PubKey-Hash*) i `P2SH` (*Pay-to-Script-Hash*) adrese. P2PKH adrese uvek počinju sa `1`, a P2SH sa `3`. Iako su i dalje bezbedni, ovi formati su sada zastareli, jer podrazumevaju veće troškove transakcija i nude manje poverljivosti u poređenju sa novim standardima.
 
 
 SegWit V0 (`P2WPKH` i `P2WSH`) i Taproot / SegWit V1 (`P2TR`) adrese predstavljaju moderne formate. SegWit adrese počinju sa `bc1q`, a Taproot adrese, uvedene 2021. godine, počinju sa `bc1p`.
@@ -2138,7 +2128,7 @@ Drugi načini za sticanje bitkoina uz zaštitu vaše privatnosti uključuju, nar
 Drugi metod je da radite u zamenu za bitkoine. Ovaj metod sticanja može biti zanimljiv, ali stepen potrebne identifikacije znatno varira u zavisnosti od okolnosti.
 
 
-*Da napišem ovo poglavlje, koristio sam BTC205 kurs obuke koji drži [@pivi___](https://x.com/pivi___) na Plan ₿ Network (trenutno dostupan samo na francuskom)
+*Da napišem ovo poglavlje, koristio sam BTC205 kurs obuke koji drži* [@pivi___](https://x.com/pivi___) *na Plan ₿ Network (trenutno dostupan samo na francuskom)*
 
 
 ## Konsolidacija, UTXO menadžment i CIOH
@@ -2539,7 +2529,7 @@ Takozvani "Chaumian" coinjoini kombinuju upotrebu Tor-a i slepih potpisa Davida 
 Proces konstruisanja transakcije CoinJoin uključuje 3 glavne faze: registraciju ulaza, registraciju izlaza i potpisivanje transakcije. Pogledajmo ovaj proces kroz primer Alise, jedne od učesnica CoinJoin-a. Svi ostali učesnici prate iste korake kao Alisa, svaki za sebe.
 
 
-**Korak 1: Unos registracije
+**Korak 1: Unos registracije**
 
 
 
@@ -3114,11 +3104,11 @@ Pažljivo pratimo ovaj slučaj i razvoj povezanih alata. Budite sigurni da ćemo
 U sledećem poglavlju saznaćemo šta su "anonsets", kako se ovi indikatori izračunavaju i kako nam mogu pomoći da procenimo efikasnost CoinJoin ciklusa.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Skupovi anonimnosti
 
@@ -3229,7 +3219,7 @@ Za manje grupe, anonseti se mogu izračunati ručno pomoću block explorer-a. Me
 Kao što smo videli u ovom poglavlju, anonseti se mogu izračunati samo ako postoji određena homogenost u CoinJoin strukturi. U sledećem poglavlju, saznaćemo kako kvantifikovati ovu homogenost na Bitcoin transakciji, bilo da je to CoinJoin ili tradicionalnija transakcija.
 
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropija
 
@@ -3683,7 +3673,7 @@ Teškoća u korišćenju PayJoin-a leži u njegovoj zavisnosti od učešća trgo
 Jedno rešenje bi bilo korišćenje struktura transakcija koje uvode nejasnoće u analizu lanca bez potrebe za saradnjom primaoca. Ovo bi nam omogućilo da poboljšamo poverljivost naših plaćanja bez oslanjanja na aktivno učešće trgovaca. Upravo to ćemo razmotriti u narednom poglavlju.
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 

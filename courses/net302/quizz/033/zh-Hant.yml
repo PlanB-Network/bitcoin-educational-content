@@ -1,0 +1,9 @@
+question: 什麼技術可讓多台內部機器共用單一公用 IP Address 存取網際網路？
+answer: NAT（網路 Address 轉換）
+wrong_answers:
+  - ARP（Address 解析通訊協定）
+  - DHCP（動態主機組態協定）
+  - CIDR (無類別網域間路由)
+explanation: |
+  NAT 將私有內部位址轉換為公共 IP Address，讓多台裝置可以共用相同的外部連線。
+reviewed: false

@@ -1,10 +1,9 @@
-question: Hvilken teknologi brukes i Bitcoin Wallet for å sikre bruk av midler i Bitcoin Wallet?
-answer: Elliptisk kurvekryptografi
+question: Hva er risikoen ved å gjøre sikkerheten og tilgjengeligheten av dine bitcoins for komplisert?
+answer: Du kan skade deg selv hvis du håndterer sikkerhetskopiene av lommebøkene dine feil
 wrong_answers:
-  - Symmetrisk kryptografi
-  - Kvantekryptografi
-  - RSA-kryptografi
+  - Du kan skade deg selv hvis du håndterer de fysiske lommebøkene feil
+  - Du kan skade deg selv hvis du håndterer de digitale lommebøkene feil
+  - Du kan skade deg selv hvis du håndterer multisig-lommebøkene feil
 explanation: |
-  For å bruke Bitcoins kreves det at eieren bruker elliptiske kurver for å lage en signatur
-  for en Bitcoin-transaksjon.
+  Å gjøre sikkerheten og tilgjengeligheten av dine bitcoins for komplisert kan skade deg hvis du for eksempel håndterer sikkerhetskopiene av lommebøkene dine feil. Dette er fordi enkle sikkerhetskopieringsprosedyrer er avgjørende for å gjenopprette tilgangen til midlene dine i tilfelle tap av telefonen eller datamaskinen din.
 reviewed: true

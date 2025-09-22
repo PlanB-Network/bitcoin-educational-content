@@ -1,0 +1,9 @@
+question: Za koji filozofski pravac je Spinoza ambasador?
+answer: Racionalizam.
+wrong_answers:
+  - Romantični pokret.
+  - Skolastika.
+  - Strukturalizam.
+explanation: |
+  Spinoza se smatra jednim od najvećih predstavnika racionalizma 17. veka, uz Dekarta i Lajbnica. Razvio je filozofiju zasnovanu na razumu i logici, nastojeći da razume svet kroz racionalne principe, a ne kroz veru ili tradiciju.
+reviewed: false

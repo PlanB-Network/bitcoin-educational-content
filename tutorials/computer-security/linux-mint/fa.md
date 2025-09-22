@@ -1,5 +1,5 @@
 ---
-name: لینوکس مینت
+name: Linux Mint
 
 description: راه‌اندازی یک کامپیوتر برای تراکنش‌های Bitcoin
 ---

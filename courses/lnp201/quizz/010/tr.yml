@@ -1,0 +1,9 @@
+question: İki katılımcı arasında bir Lightning kanalı açmanın ilk adımı nedir?
+answer: Miktarları ve açık anahtarları içeren Exchange mesajları
+wrong_answers:
+  - Blockchain'de derhal bir para yatırma işlemi yayınlayın
+  - Önceden Exchange olmadan 2/2 çoklu imza Address oluşturma
+  - Açık anahtarların Exchange'ünden önce para çekme işlemini imzalayın
+explanation: |
+  Bir kanalın açılması, iki taraf arasında taahhüt etmek istedikleri miktarları ve açık anahtarlarını paylaştıkları bir Exchange mesajıyla başlar.
+reviewed: false

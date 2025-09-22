@@ -1,0 +1,8 @@
+question: Ni imvo imwe iyihe ituma igiciro ca Bitcoin gishobora kugabanuka n’ibice 10%, 20%, canke mbere 50% mu misi mikeyi gusa?
+answer: Ivyiyumviro vy’isoko ry’ugutera imbere n’ugutera imbere.
+wrong_answers:
+  - Igitigiri c’abantu bakoresha internet.
+  - Ivy’ikirere.
+  - Igiciro c’inzahabu.
+explanation: >-
+reviewed: true

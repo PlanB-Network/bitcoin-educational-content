@@ -1,0 +1,9 @@
+question: Vad måste läggas till i NAT för att säkra ett nätverk på rätt sätt?
+answer: En brandvägg
+wrong_answers:
+  - En lokal DNS-server
+  - En HTTP-proxy
+  - Ett antivirusprogram
+explanation: |
+  NAT är inte ensamt tillräckligt för att filtrera skadlig trafik: det måste kompletteras med brandväggsregler för finkornig trafikstyrning.
+reviewed: false

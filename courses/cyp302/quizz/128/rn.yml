@@ -1,0 +1,9 @@
+question: Ni ikibazo ikihe kigoye c’ubuhinga bw’ibarabara gifitaniye isano n’imirongo y’ubuhinga butagira uburinganire nka RSA?
+answer: Umubare w'ibanze
+wrong_answers:
+  - Gukubitisha kw'imibare yose
+  - Guhingura imibare miremire y'imburakimazi
+  - Urufunguzo rwo gukingira Exchange.
+explanation: |
+  RSA ishingiye ku ngorane yo gucapura imibare y’intango, igikorwa kigoye mu vy’ubuhinga bw’ibarabara gituma ubuhinga bwo gukingira ibitero.
+reviewed: false

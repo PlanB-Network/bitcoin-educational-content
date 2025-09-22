@@ -1,5 +1,5 @@
 ---
-name: کوین‌کارت‌ها
+name: Coincards
 description: چگونه می‌توانم کالا و خدمات را با بیت‌کوین از طریق Coincards خریداری کنم؟
 ---
 ![cover](assets/cover.webp)
@@ -67,7 +67,7 @@ Coincards متعهد به حفظ حریم خصوصی شما است. آنها ب�
 
 
 
-مجموعه‌ای از آموزش‌ها در مورد پورتفولیوهای اصلی لایتنینگ (Phoenix، Breez، BitKit، Zeus...) را می‌توانید اینجا پیدا کنید: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+مجموعه‌ای از آموزش‌ها در مورد پورتفولیوهای اصلی لایتنینگ (Phoenix، Breez، BitKit، Zeus...) را می‌توانید اینجا پیدا کنید: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

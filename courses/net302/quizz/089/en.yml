@@ -1,0 +1,9 @@
+question: Which protocol does the ping command use to test network connectivity?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  The ping command uses the ICMP protocol to send echo requests and measure network latency.
+reviewed: false

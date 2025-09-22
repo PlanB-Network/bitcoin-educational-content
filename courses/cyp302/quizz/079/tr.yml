@@ -1,0 +1,9 @@
+question: Shift şifreleme neden kaba kuvvet saldırılarına karşı savunmasızdır?
+answer: Çünkü sadece 26 olası anahtarı vardır
+wrong_answers:
+  - Çünkü bir açık anahtar kullanır
+  - Simetrik şifrelemeye dayalı olduğu için
+  - Çünkü rastgele sayılar kullanır
+explanation: |
+  Shift şifreleme, alfabenin boyutuna bağlı olan modulo 26 kullanımı nedeniyle 0'dan 25'e kadar yalnızca 26 olası anahtara sahip olduğundan kaba kuvvet saldırılarına karşı kolayca hassastır. Daha büyük geçerli anahtarlar kullanamazsınız, çünkü bunlar her durumda 0 ile 25 arasındaki bir anahtara eşdeğer olacaktır. Bu nedenle, mesajı bulmak için her birini test etmek yeterlidir.
+reviewed: false

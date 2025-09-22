@@ -1,0 +1,10 @@
+question: Ni ibihe bibazo 2 vy’ubuzima bwite bijanye no guhitamwo ibiceri?
+answer: CIOH n’ihuriro hagati y’ibintu vyinjijwe / akaranga n’uwubihabwa.
+wrong_answers:
+  - IP Address gukurikirana n’uguhuza ibikorwa.
+  - Gukurikirana igihe no gusubira gukoresha Address.
+  - Address gusubira gukoresha n’ihuriro hagati y’ibintu vyinjijwe / akaranga n’umuntu wo hanze yihweza.
+explanation: |
+  Ivyago bibiri bikwiye kwitwararikwa igihe uhitamwo ibiceri: ubushobozi bw’uko uwuronka amahera yo guhuza igice c’akaranga kawe n’ama UTXO akoreshwa nk’ibintu vy’injiza be n’ubushobozi bw’umugenzuzi wo hanze bwo gushinga amasano hagati y’ama UTXO yose akoreshwa nk’ibintu vy’injiza (CIOH).
+  
+reviewed: false

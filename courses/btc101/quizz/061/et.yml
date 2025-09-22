@@ -1,10 +1,10 @@
-question: Mis on sündmuse nimi, kui kaevandamise tasu poole võrra väheneb?
-answer: Poolitamine
+question: Kui tihti poolitatakse kaevandamise tasu?
+answer: Iga 210,000 ploki järel
 wrong_answers:
-  - Kahekordistamine
-  - Neljandikustamine
-  - Kolmekordistamine
+  - Iga 120,000 ploki järel
+  - Iga 540,000 ploki järel
+  - Iga 2,100,000 ploki järel
 explanation: |
-  Sündmus, kui kaevandamise tasu poole võrra väheneb, on nimetatud poolitamiseks. See
-  sündmus annab rahalise emiteerimise kõverale trepi-kujulise kuju.
+  Kaevandamise tasu on programmeeritud poolituma iga 210,000 ploki järel, mis
+  on ligikaudu iga nelja aasta tagant, sündmust tuntakse kui halving (poolitumine).
 reviewed: true

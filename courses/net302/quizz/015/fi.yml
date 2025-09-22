@@ -1,0 +1,9 @@
+question: Mikä on IP-datagrammin teoreettinen enimmäiskoko?
+answer: 65,536 tavua
+wrong_answers:
+  - 1,500 tavua
+  - 512 tavua
+  - 255 tavua
+explanation: |
+  IP-datagrammin enimmäiskoko on 65 536 tavua, joka määräytyy IP-otsikon kokonaispituuskentän rajan mukaan.
+reviewed: false

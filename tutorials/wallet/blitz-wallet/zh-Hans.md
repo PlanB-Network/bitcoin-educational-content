@@ -93,23 +93,23 @@ Blitz Wallet 的特色之一是支持 Bitcoin 生态系统中的不同网络和�
 
 
 
-- Lightning Network** ：Bitcoin 重叠之一，可让您即时进行微交易。
+- **Lightning Network**：Bitcoin 重叠之一，可让您即时进行微交易。
 
 
 
 
 
-- Bitcoin Mainnet** ：Bitcoin 协议的主链，适用于大额交易。
+- **Bitcoin Mainnet**：Bitcoin 协议的主链，适用于大额交易。
 
 
 
 
 
-- Liquid Network**：Bitcoin、Mainnet 的平行链，由 BlockStream 开发，使用 Liquid 比特币执行快速、Confidential Transactions。
+- **Liquid Network**：Bitcoin、Mainnet 的平行链，由 BlockStream 开发，使用 Liquid 比特币执行快速、Confidential Transactions。
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 默认情况下，您的所有交易都将在 Liquid Network 上进行，但 Blitz 允许您通过点击**选择格式**按钮来定义接收卫星币的网络。
 
@@ -169,7 +169,7 @@ Blitz Wallet 可让您通过 Wallet 轻松发送比特币。
 
 
 
-- 获取人工智能服务**：使用生成式人工智能模型，如Claude 3-5 sonnet、gpt-4o、gpt-4o-mini gemini-flash-1.5，并直接用比特币支付。
+- 获取人工智能服务：使用生成式人工智能模型，如Claude 3-5 sonnet、gpt-4o、gpt-4o-mini gemini-flash-1.5，并直接用比特币支付。
 
 
 
@@ -179,7 +179,7 @@ Blitz Wallet 可让您通过 Wallet 轻松发送比特币。
 
 
 
-- 在世界任何地方发送短信**：在 Blitz 商店，您可以使用 GSM 服务，在世界任何地方匿名发送短信，并以 Bitcoin 直接计费。
+- 在世界任何地方发送短信：在 Blitz 商店，您可以使用 GSM 服务，在世界任何地方匿名发送短信，并以 Bitcoin 直接计费。
 
 
 
@@ -189,7 +189,7 @@ Blitz Wallet 可让您通过 Wallet 轻松发送比特币。
 
 
 
-- 上网完全保密**：在 Wallet Blitz 商店用比特币支付 WireGuard VPN（虚拟专用网络）订阅费。
+- 上网完全保密：在 Wallet Blitz 商店用比特币支付 **WireGuard VPN**（虚拟专用网络）订阅费。
 
 
 
@@ -249,7 +249,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-- 在您的商店接受 Bitcoin** ：
+- 在您的商店接受 **Bitcoin**：
 
 
 

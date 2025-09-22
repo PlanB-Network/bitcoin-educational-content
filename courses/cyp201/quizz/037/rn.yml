@@ -1,0 +1,9 @@
+question: Ni igiki gihambaye kigabanya amafaranga y’amasakoshi ya JBOK?
+answer: Bisaba ububiko bwigenga ku rufunguzo rw'ibanga rwose
+wrong_answers:
+  - Ntibemera ko habaho aderesi nshasha .
+  - Ntibihuye n'imikono ya digitale
+  - Bakoresha imfunguruzo za bose zitashizweko
+explanation: |
+  JBOK wallets zihatira uwuzikoresha gukora backup y’urufunguzo rw’ibanga rwose ku giti ciwe, bikaba bigora uburongozi bwazo.
+reviewed: false

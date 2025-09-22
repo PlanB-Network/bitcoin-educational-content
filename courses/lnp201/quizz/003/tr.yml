@@ -1,0 +1,9 @@
+question: Bir katılımcının bir ödeme kanalına gönderebileceği fonlara ilişkin ana kural nedir?
+answer: Fonları yalnızca kanalın kendi taraflarından gönderebilirler.
+wrong_answers:
+  - Kanalın toplam kapasitesinin yarısına kadar gönderebilirler.
+  - Önceden bir anlaşma olduğu sürece herhangi bir miktar gönderebilirler.
+  - Gerekirse diğer katılımcı tarafından fon ödünç alabilirler.
+explanation: |
+  Her katılımcı, işlemleri için kanalda tuttukları satoshis miktarı ile sınırlıdır ve fonların her zaman karşılanmasını sağlar.
+reviewed: false

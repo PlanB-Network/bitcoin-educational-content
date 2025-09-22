@@ -1,13 +1,13 @@
-question: ¿Qué es una cold wallet?
-answer: Una billetera en un dispositivo físico que almacena tus claves y no está conectada a internet.
+question: ¿Qué necesitas respaldar cuando usas una billetera con una frase de paso?
+answer: Necesitas respaldar tanto la lista de 12 o 24 palabras como tu frase de paso.
 wrong_answers:
-  - Una billetera que físicamente está fría al tacto.
-  - Una billetera que es impopular entre los usuarios de Bitcoin.
-  - Una billetera que se recomienda para almacenar pequeñas cantidades de bitcoins.
+  - Solo necesitas respaldar la lista de 12 o 24 palabras.
+  - Solo necesitas respaldar tu frase de paso.
+  - No necesitas respaldar ni la lista de 12 o 24 palabras ni tu frase de paso.
 explanation: |
-  Una cold wallet es un término utilizado para describir una billetera de Bitcoin
-  que se almacena en un dispositivo que no está conectado a la
-  internet. Esto la hace menos vulnerable a amenazas en línea,
-  pero también significa que la billetera es menos accesible para
-  transacciones diarias.
+  Cuando usas una billetera con una frase de paso, necesitas respaldar
+  tanto la lista de 12 o 24 palabras como tu frase de paso,
+  porque tanto la lista de palabras como la frase de paso son necesarias
+  para recuperar el acceso a tus fondos en caso de pérdida de tu teléfono o computadora.
+  Sin uno o el otro, los fondos no son accesibles.
 reviewed: true

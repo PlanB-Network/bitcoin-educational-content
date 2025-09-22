@@ -1,0 +1,13 @@
+question: Multisig Wallet için önerilen kullanım şekli nedir?
+answer: Kurumsal kullanım için büyük miktarlarda depolama.
+wrong_answers:
+  - Kişisel kullanım için küçük miktarlarda depolama.
+  - Kar amacı gütmeyen kullanım için orta miktarlarda depolama.
+  - Bireysel kullanım için günlük harcamaların saklanması.
+explanation: |
+  Büyük miktarlarda depolama için bir Multisig Wallet önerilir
+  ve kurumsal kullanım için birden fazla
+  bir işlem gerçekleştirmek için imzalar. Bu süreç bir
+  ekstra Layer güvenlik, çünkü tek bir kişi
+  başkalarının onayı olmadan bir işlem yapmak.
+reviewed: true

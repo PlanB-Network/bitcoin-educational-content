@@ -1,0 +1,14 @@
+question: Avusturyalı ekonomistlere göre tasarruflar ve yaşam standardı arasındaki ilişki nedir?
+answer: Ne kadar çok tasarruf edersek, o kadar çok sermaye biriktirebiliriz ve bu da daha fazla mal üreten verimlilik artışlarına dönüşür. Böylece daha yüksek bir yaşam standardı elde edilir.
+wrong_answers:
+  - Ne kadar çok tasarruf yaparsak, yaşam standardımız o kadar düşer.
+  - Tasarruflar ile yaşam standardı arasında bir ilişki yoktur.
+  - Ne kadar az tasarruf edersek, yaşam standardımız o kadar yükselir.
+explanation: |
+  Avusturyalı ekonomistler, zaman tercihlerinin düşürülmesinin
+  tasarruf → daha fazla sermaye malı şeklindeki erdemli bir döngünün başlangıç noktası
+  → daha fazla üretkenlik → daha fazla mal = daha yüksek yaşam standardı → daha düşük zaman tercihi.
+  Dolayısıyla, ne kadar çok tasarruf edersek, o kadar çok sermaye biriktirebiliriz,
+  bu da daha fazla ürün elde edilmesini sağlayacak verimlilik artışlarına dönüşecektir.
+  Bu da daha yüksek bir yaşam standardına yol açar.
+reviewed: true

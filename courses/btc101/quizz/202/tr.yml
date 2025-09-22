@@ -1,0 +1,8 @@
+question: Bitcoin'ın benimsenme eğrisi neye benzer?
+answer: Bir S-eğrisi.
+wrong_answers:
+  - Bir U eğrisi.
+  - Bir V eğrisi.
+  - Bir W-eğrisi.
+explanation: >-
+reviewed: true

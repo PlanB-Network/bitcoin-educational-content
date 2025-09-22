@@ -1,12 +1,9 @@
-question: Co je mnemonická fráze v Bitcoinové peněžence?
-answer: Seznam 12 nebo 24 slov, který vám umožňuje přístup k vašim bitcoinům.
+question: Jaká technologie se používá k bezpečnému utrácení prostředků pomocí Bitcoinové peněženky?
+answer: Eliptická křivková kryptografie.
 wrong_answers:
-  - Vybrané heslo pro přístup k Bitcoinové peněžence.
-  - Kód pro šifrování Bitcoinových transakcí.
-  - Tajná obnovovací fráze, která v případě potřeby zničí Bitcoinovou peněženku.
+  - Symetrická kryptografie.
+  - Kvantová kryptografie.
+  - RSA kryptografie.
 explanation: |
-  Od roku 2017 může být soukromý klíč zakódován do jednoduchého seznamu
-  12 nebo 24 slov, nazývaného mnemonická fráze. Tato fráze
-  je zálohou vaší Bitcoinové peněženky, takže vám umožňuje
-  přístup k vašim bitcoinům pomocí jakéhokoli softwaru/aplikace pro Bitcoinové peněženky.
+  K utracení Bitcoinů je potřeba, aby vlastník použil Eliptickou křivkovou digitální podpisovou algoritmu (ECDSA) k vytvoření podpisu pro propagaci Bitcoinové transakce.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Hvilken form for NAT knytter en privat IP Address permanent sammen med en offentlig IP Address?
+answer: Statisk oversettelse
+wrong_answers:
+  - Dynamisk oversettelse
+  - PAT (Port Address-oversettelse)
+  - Dynamisk ruting
+explanation: |
+  Statisk oversettelse skaper en fast mapping mellom en intern IP Address og en offentlig IP Address, noe som er nyttig for å gjøre interne ressurser tilgjengelige fra utsiden.
+reviewed: false

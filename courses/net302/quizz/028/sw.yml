@@ -1,0 +1,9 @@
+question: Je, ni kitengo gani cha data ambacho hutiririka kupitia Transport Layer kwa TCP?
+answer: Sehemu
+wrong_answers:
+  - Datagramu
+  - Fremu
+  - Tiririsha
+explanation: |
+  Katika Layer ya Usafiri yenye TCP, kitengo cha data kinaitwa sehemu, wakati UDP inatumia neno pakiti.
+reviewed: false

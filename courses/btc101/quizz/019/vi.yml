@@ -1,12 +1,13 @@
-question: Ba chức năng cơ bản của tiền tệ là gì?
-answer: Lưu trữ giá trị, Phương tiện trao đổi, Đơn vị kế toán.
+question: Tại sao vàng không thể phát triển tốt trong một thế giới toàn cầu hóa và số hóa?
+answer: Bởi vì nó cần một thực thể trung tâm để làm cho nó có thể chia nhỏ và dễ dàng trao đổi.
 wrong_answers:
-  - Lưu trữ giá trị, Phương tiện trao đổi, Phương tiện sản xuất.
-  - Lưu trữ giá trị, Phương tiện sản xuất, Đơn vị kế toán.
-  - Phương tiện trao đổi, Phương tiện sản xuất, Đơn vị kế toán.
+  - Bởi vì nó không đủ giá trị.
+  - Bởi vì nó không hiếm đủ.
+  - Bởi vì nó bị ăn mòn theo thời gian.
 explanation: |
-  Theo Aristotle, tiền tệ đảm nhận ba chức năng: nó là
-  một phương tiện lưu trữ giá trị, một phương tiện trao đổi, và một đơn vị
-  kế toán. Ngày nay, chức năng phương tiện trao đổi được
-  công nhận rộng rãi là chính, trước hai chức năng khác.
+  Vàng không thể theo kịp trong một thế giới toàn cầu hóa và số hóa
+  bởi vì nó cần một thực thể trung tâm để làm cho nó có thể chia nhỏ và
+  dễ dàng trao đổi. Điều này làm cho nó kém thực tiễn để sử dụng trong
+  một thế giới nơi các giao dịch ngày càng trở nên số hóa và
+  phi tập trung.
 reviewed: true

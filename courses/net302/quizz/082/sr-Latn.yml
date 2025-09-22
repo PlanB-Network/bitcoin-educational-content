@@ -1,0 +1,9 @@
+question: Koji moderni alat zamenjuje arp na novijim Linux distribucijama?
+answer: ip sused
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - ruta
+explanation: |
+  ip neigh, from the iproute2 suite, zamenjuje arp za upravljanje IP/MAC asocijacijama na modernom Linuxu.
+reviewed: false

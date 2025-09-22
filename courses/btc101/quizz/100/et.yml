@@ -1,10 +1,9 @@
-question: Mida näitab mnemoonilise fraasi puudumine rahakotis?
-answer: Rahakott ei ole turvaline pikaajaliseks hoiustamiseks
+question: Mis on notari roll Bitcoin'i pärandi kontekstis?
+answer: Tagada maksudega kooskõla
 wrong_answers:
-  - Rahakott on turvaline pikaajaliseks hoiustamiseks
-  - Rahakott ei ole turvaline lühiajaliseks hoiustamiseks
-  - Rahakott ei ole turvaline kulutamiseks
+  - Hallata sinu bitcoine pärast sinu surma
+  - Koostada sinu pärandiplaani
+  - Turvata sinu bitcoine
 explanation: |
-  12 või 24 sõnast koosneva nimekirja, ehk mnemoonilise fraasi puudumine rahakotis peaks teid hoiatama, et
-  rahakott ei ole turvaline, kuna see ei järgi standardset varundamisprotseduuri.
-reviewed: true
+  Bitcoin'i pärandi kontekstis on oluline arutada bitcoine pärandamist notariga, et tagada maksudega kooskõla.
+reviewed: false

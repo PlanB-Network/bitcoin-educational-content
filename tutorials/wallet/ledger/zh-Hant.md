@@ -1,5 +1,5 @@
 ---
-name: Ledger 奈米 S
+name: Ledger Nano S
 
 description: 如何設定您的 Ledger Nano S 裝置
 ---

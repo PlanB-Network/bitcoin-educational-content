@@ -1,13 +1,12 @@
-question: Qual é a principal desvantagem das moedas fiduciárias?
-answer: Seu valor é constantemente erodido pela inflação monetária.
+question: Qual das seguintes opções não é uma vantagem do Bitcoin como moeda?
+answer: É usado para pagar impostos.
 wrong_answers:
-  - Elas não são facilmente transportáveis.
-  - Seu valor é constantemente apreciado pela inflação monetária.
-  - Elas não são divisíveis.
+  - É divisível.
+  - É transportável.
+  - Não requer permissão.
 explanation: |
-  A principal desvantagem das moedas fiduciárias, como o
-  dólar e o euro, é que seu valor é constantemente
-  erodido pela inflação monetária. Isso se deve à
-  desvalorização causada pelas entidades que as controlam (rei,
-  banco central, imperador, ditador).
+  O Bitcoin, devido às suas propriedades como divisibilidade,
+  verificabilidade, aspecto sem necessidade de permissão e transportabilidade,
+  oferece um excelente armazenamento de valor. Além disso, como uma moeda neutra
+  da internet, representa um bom meio de troca que não conhece fronteiras.
 reviewed: true

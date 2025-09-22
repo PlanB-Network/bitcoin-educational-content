@@ -147,7 +147,7 @@ Model ten znacznie różni się od tradycyjnych systemów bankowych, które opie
 Bitcoin działa inaczej. Koncepcja konta nie istnieje, a jednostki pieniężne nie są zarządzane poprzez salda, ale poprzez UTXO. UTXO reprezentuje określoną ilość bitcoinów, które nie zostały jeszcze wydane, tworząc w ten sposób "kawałek Bitcoin", który może być duży lub mały. Na przykład, jeden UTXO może być wart `500 BTC` lub po prostu `700 Sats`.
 
 
-**> Satoshi, często skracana do sat, jest najmniejszą jednostką Bitcoin, porównywalną z centymem w walutach fiducjarnych.
+**Przypomnieć:** Satoshi, często skracana do sat, jest najmniejszą jednostką Bitcoin, porównywalną z centymem w walutach fiducjarnych.
 
 
 ```plaintext
@@ -158,7 +158,7 @@ Bitcoin działa inaczej. Koncepcja konta nie istnieje, a jednostki pieniężne n
 Teoretycznie jeden UTXO może reprezentować dowolną wartość w bitcoinach, od jednego do teoretycznego maksimum wynoszącego około 21 milionów BTC. Jednak logicznie niemożliwe jest posiadanie wszystkich 21 milionów bitcoinów i istnieje niższy próg ekonomiczny zwany "Dust", poniżej którego UTXO jest uważany za ekonomicznie nieopłacalny do wydania.
 
 
-**> Największy UTXO kiedykolwiek utworzony na Bitcoin miał wartość `500 000 BTC`. Został on utworzony przez platformę MtGox podczas operacji konsolidacji w listopadzie 2011 roku: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Czy wiesz?** Największy UTXO kiedykolwiek utworzony na Bitcoin miał wartość `500 000 BTC`. Został on utworzony przez platformę MtGox podczas operacji konsolidacji w listopadzie 2011 roku: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXO i warunki wydatków
@@ -215,7 +215,7 @@ Każda transakcja Bitcoin składa się z jednego lub więcej wejść i jednego l
 ![BTC204](assets/fr/011.webp)
 
 
-**> Teoretycznie transakcja Bitcoin może mieć nieskończoną liczbę wejść i wyjść. Jedynym ograniczeniem jest maksymalny rozmiar bloku.
+**Czy wiesz?** Teoretycznie transakcja Bitcoin może mieć nieskończoną liczbę wejść i wyjść. Jedynym ograniczeniem jest maksymalny rozmiar bloku.
 
 
 Każde wejście w transakcji Bitcoin odnosi się do poprzedniego niewydanego UTXO. Aby użyć UTXO jako danych wejściowych, jego posiadacz musi wykazać, że jest jego prawowitym właścicielem poprzez walidację powiązanego skryptu, tj. poprzez spełnienie nałożonego warunku wydatkowania. Ogólnie rzecz biorąc, oznacza to dostarczenie podpisu cyfrowego złożonego za pomocą klucza prywatnego odpowiadającego kluczowi publicznemu, który pierwotnie zabezpieczył ten UTXO. Skrypt polega zatem na sprawdzeniu, czy podpis odpowiada kluczowi publicznemu użytemu w momencie otrzymania środków.
@@ -306,7 +306,7 @@ Bitcoiny subsydiowane blokowo to nowe BTC tworzone od podstaw, zgodnie z wcześn
 Jeśli chodzi o opłaty transakcyjne, to chociaż one również reprezentują nowo utworzone BTC, nie mogą one przekraczać różnicy między całkowitymi danymi wejściowymi i wyjściowymi wszystkich transakcji w bloku. Widzieliśmy wcześniej, że opłaty te reprezentują część wejść, która nie jest wykorzystywana w wyjściach transakcji. Ta część jest technicznie "tracona" podczas transakcji, a Miner ma prawo do odtworzenia tej wartości w postaci jednego lub więcej nowych UTXO. Jest to transfer wartości między wystawcą transakcji a Miner, który dodaje ją do Blockchain.
 
 
-**> Bitcoiny wygenerowane przez Coinbase Transaction podlegają okresowi zapadalności wynoszącemu 100 bloków, podczas którego nie mogą zostać wydane przez Miner. Zasada ta ma na celu uniknięcie komplikacji związanych z wykorzystaniem nowo utworzonych bitcoinów w łańcuchu, który później może stać się przestarzały.
+**Czy wiesz?** Bitcoiny wygenerowane przez Coinbase Transaction podlegają okresowi zapadalności wynoszącemu 100 bloków, podczas którego nie mogą zostać wydane przez Miner. Zasada ta ma na celu uniknięcie komplikacji związanych z wykorzystaniem nowo utworzonych bitcoinów w łańcuchu, który później może stać się przestarzały.
 
 
 ### Implikacje modelu UTXO
@@ -341,12 +341,8 @@ Dlatego używamy pieniędzy do przenoszenia wartości zarówno w czasie, jak i p
 
 
 Aby monety mogły rozwiązać ten problem, konieczne jest, aby strona dostarczająca towar lub usługę była przekonana o swojej zdolności do wydania tej kwoty w późniejszym terminie. Tak więc każda racjonalna osoba, która chce zaakceptować monetę, cyfrową lub fizyczną, upewni się, że spełnia ona dwa podstawowe kryteria:
-
-
-
-
-- Utwór musi charakteryzować się integralnością i autentycznością ;**
-- i nie mogą być wydawane podwójnie**
+- **Utwór musi charakteryzować się integralnością i autentycznością ;**
+- **i nie mogą być wydawane podwójnie**
 
 
 Jeśli korzystasz z fizycznej waluty, jest to pierwsza cecha, która jest najbardziej złożona do potwierdzenia. W różnych okresach historii integralność metalowych monet była często naruszana przez praktyki takie jak przycinanie lub przekłuwanie. Na przykład w starożytnym Rzymie powszechną praktyką obywateli było zdrapywanie krawędzi złotych monet w celu zebrania odrobiny cennego metalu, zachowując je na przyszłe transakcje. Wewnętrzna wartość monety została w ten sposób zmniejszona, ale jej wartość nominalna pozostała taka sama. Jest to jeden z powodów, dla których krawędź monety została później karbowana.
@@ -382,7 +378,7 @@ Jedynym sposobem na uniknięcie powielania zasobów cyfrowych jest posiadanie wi
 Na Bitcoin, Double-spending jest uniemożliwiony w ten sam sposób. Staramy się potwierdzić brak transakcji, która już wydała dane monety. Jeśli monety nigdy nie zostały użyte, możemy być pewni, że nie dojdzie do podwójnego wydania. Zasada ta została opisana przez Satoshi Nakamoto w Białej Księdze słynnym zwrotem:
 
 
-**Jedynym sposobem na potwierdzenie braku transakcji jest bycie świadomym wszystkich transakcji
+**Jedynym sposobem na potwierdzenie braku transakcji jest bycie świadomym wszystkich transakcji**
 
 
 Ale w przeciwieństwie do modelu bankowego, nie chcemy ufać centralnemu podmiotowi w Bitcoin. Tak więc wszyscy użytkownicy muszą być w stanie potwierdzić brak podwójnych wydatków, bez polegania na stronie trzeciej. Każdy musi więc być świadomy wszystkich transakcji Bitcoin. Właśnie dlatego transakcje Bitcoin są publicznie transmitowane we wszystkich węzłach sieci i rejestrowane w postaci czystego tekstu na Blockchain.
@@ -441,15 +437,9 @@ Analiza Blockchain to praktyka śledzenia przepływu bitcoinów na Blockchain. O
 
 
 Mówiąc prościej, istnieją trzy główne etapy analizy łańcucha:
-
-
 1. **Obserwacja Blockchain ;**
-
-
 2. **Identyfikacja znanych cech ;**
-
-
-3. **Odliczenie założeń **
+3. **Odliczenie założeń**
 
 
 ![BTC204](assets/fr/026.webp)
@@ -521,9 +511,9 @@ Te słynne heurystyki można podzielić na różne kategorie, które opiszemy sz
 
 
 
-- Wzorce transakcji ;**
-- Wewnętrzna heurystyka transakcji ;**
-- Heurystyka zewnętrzna w stosunku do transakcji.**
+- Wzorce transakcji**;**
+- Wewnętrzna heurystyka transakcji**;**
+- Heurystyka zewnętrzna w stosunku do transakcji.
 
 
 ### Satoshi Nakamoto i analiza łańcucha
@@ -1465,10 +1455,10 @@ ___
 
 
 
-- Seria czterech artykułów zatytułowanych: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), opracowana przez Samourai Wallet w 2021 r. ;*
-- Różne raporty z [OXT Research](https://medium.com/oxt-research), a także ich bezpłatne narzędzie do analizy Blockchain (chwilowo niedostępne po aresztowaniu założycieli Samourai Wallet) ;*
-- Mówiąc szerzej, moja wiedza pochodzi z różnych tweetów i treści od [@LaurentMT](https://twitter.com/LaurentMT) i [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
-- Kosmiczny Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), w którym brałem udział w towarzystwie [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) i [@LaurentMT](https://twitter.com/LaurentMT).*
+- Seria czterech artykułów zatytułowanych: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), opracowana przez Samourai Wallet w 2021 r.;
+- Różne raporty z [OXT Research](https://medium.com/oxt-research), a także ich bezpłatne narzędzie do analizy Blockchain (chwilowo niedostępne po aresztowaniu założycieli Samourai Wallet);
+- Mówiąc szerzej, moja wiedza pochodzi z różnych tweetów i treści od [@LaurentMT](https://twitter.com/LaurentMT) i [@ErgoBTC](https://twitter.com/ErgoBTC);
+- Kosmiczny Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), w którym brałem udział w towarzystwie [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) i [@LaurentMT](https://twitter.com/LaurentMT).
 
 
 *Chciałbym podziękować ich autorom, deweloperom i producentom. Dziękuję również korektorom, którzy skrupulatnie poprawili artykuł, na którym opiera się ta część 3, i udzielili mi swoich fachowych porad :*
@@ -1512,7 +1502,7 @@ Technicznie rzecz biorąc, Bitcoin otrzymujący Address nie "otrzymuje" bitcoin�
 ![BTC204](assets/fr/067.webp)
 
 
-Adresy Bitcoin występują w różnych typach, w zależności od używanego modelu skryptowego. Pierwsze modele, znane jako "Legacy*", obejmują adresy `P2PKH` (*Pay-to-PubKey-Hash*) i `P2SH` (*Pay-to-Script-Hash*). Adresy P2PKH zawsze zaczynają się od `1`, a P2SH od `3`. Formaty te, choć nadal bezpieczne, są obecnie przestarzałe, ponieważ wiążą się z wyższymi kosztami transakcji i oferują mniejszą poufność niż nowe standardy.
+Adresy Bitcoin występują w różnych typach, w zależności od używanego modelu skryptowego. Pierwsze modele, znane jako **Legacy**, obejmują adresy `P2PKH` (*Pay-to-PubKey-Hash*) i `P2SH` (*Pay-to-Script-Hash*). Adresy P2PKH zawsze zaczynają się od `1`, a P2SH od `3`. Formaty te, choć nadal bezpieczne, są obecnie przestarzałe, ponieważ wiążą się z wyższymi kosztami transakcji i oferują mniejszą poufność niż nowe standardy.
 
 
 Adresy SegWit V0 (`P2WPKH` i `P2WSH`) i Taproot / SegWit V1 (`P2TR`) reprezentują nowoczesne formaty. Adresy SegWit zaczynają się od `bc1q`, a adresy Taproot, wprowadzone w 2021 roku, zaczynają się od `bc1p`.
@@ -2140,7 +2130,7 @@ Inne sposoby pozyskiwania bitcoinów przy jednoczesnej ochronie prywatności obe
 Inną metodą jest praca w Exchange za bitcoiny. Ta metoda pozyskiwania może być interesująca, ale stopień wymaganej identyfikacji różni się znacznie w zależności od okoliczności.
 
 
-*Aby napisać ten rozdział, skorzystałem z kursu szkoleniowego BTC205 prowadzonego przez [@pivi___](https://x.com/pivi___) na Plan ₿ Network (na razie dostępnego tylko w języku francuskim)
+*Aby napisać ten rozdział, skorzystałem z kursu szkoleniowego BTC205 prowadzonego przez [@pivi___](https://x.com/pivi___) na Plan ₿ Network (na razie dostępnego tylko w języku francuskim)*
 
 
 ## Konsolidacja, zarządzanie UTXO i CIOH
@@ -2282,11 +2272,11 @@ Posiadanie bitcoinów na własnym utrzymaniu jest świetne, ale korzystanie z w�
 
 
 
-- Odporność na cenzurę**: Twoje transakcje nie mogą zostać przez nikogo zablokowane;
-- Niezależność od stron trzecich**: Nie jesteś już zależny od żadnej zewnętrznej usługi w celu weryfikacji danych Blockchain;
-- Aktywne uczestnictwo**: Użytkownik może zdefiniować własne zasady walidacji i brać bezpośredni udział w konsensusie;
-- Wkład w sieć**: Prowadząc węzeł, pomagasz wzmocnić i rozpowszechnić sieć Bitcoin;
-- Edukacja techniczna**: Zarządzanie kompletnym węzłem to świetny sposób na pogłębienie wiedzy technicznej na temat Bitcoin.
+- **Odporność na cenzurę**: Twoje transakcje nie mogą zostać przez nikogo zablokowane;
+- **Niezależność od stron trzecich**: Nie jesteś już zależny od żadnej zewnętrznej usługi w celu weryfikacji danych Blockchain;
+- **Aktywne uczestnictwo**: Użytkownik może zdefiniować własne zasady walidacji i brać bezpośredni udział w konsensusie;
+- **Wkład w sieć**: Prowadząc węzeł, pomagasz wzmocnić i rozpowszechnić sieć Bitcoin;
+- **Edukacja techniczna**: Zarządzanie kompletnym węzłem to świetny sposób na pogłębienie wiedzy technicznej na temat Bitcoin.
 
 
 Oprócz tych korzyści, korzystanie z kompletnego węzła zwiększa również poufność podczas nadawania transakcji. Gdy wystawiasz transakcję, jest ona najpierw tworzona i podpisywana za pośrednictwem Wallet. Aby rozgłosić ją w sieci Bitcoin, musi być ona znana przez co najmniej jeden węzeł. Korzystając z własnego węzła, masz bezpośrednią kontrolę nad tą dystrybucją, wzmacniając w ten sposób swoją poufność i ograniczając ryzyko wycieku danych.
@@ -2542,7 +2532,7 @@ Tak zwane "Chaumian" coinjoiny łączą wykorzystanie Tora i ślepych podpisów 
 Proces tworzenia transakcji CoinJoin obejmuje 3 główne etapy: rejestrację danych wejściowych, rejestrację danych wyjściowych i podpisanie transakcji. Przyjrzyjmy się temu procesowi na przykładzie Alice, jednego z uczestników CoinJoin. Wszyscy pozostali uczestnicy wykonują te same kroki co Alice, każdy na własną rękę.
 
 
-**Krok 1: Rejestracja danych wejściowych
+**Krok 1: Rejestracja danych wejściowych**
 
 
 
@@ -2622,7 +2612,7 @@ To właśnie te dwa publiczne i prywatne aspekty, możliwe dzięki wykorzystaniu
 Hard nie ma pewności, kto pierwszy wprowadził pomysł CoinJoin do Bitcoin i kto wpadł na pomysł wykorzystania ślepych podpisów Davida Chauma w tym kontekście. Często uważa się, że to Gregory Maxwell jako pierwszy wspomniał o tym w [wiadomości na BitcoinTalk w 2013 r.](https://bitcointalk.org/index.php?topic=279249.0) :
 
 
-> *"Używając ślepych podpisów Chauma: Użytkownicy logują się i dostarczają dane wejściowe (i adresy Exchange), a także kryptograficznie blinded wersję Address, do której chcą wysłać swoje prywatne części; serwer podpisuje tokeny i wysyła je z powrotem. Użytkownicy ponownie łączą się anonimowo, demaskują swoje adresy wyjściowe i wysyłają je z powrotem do serwera. Serwer widzi, że wszystkie dane wyjściowe zostały przez niego podpisane i że w związku z tym wszystkie dane wyjściowe pochodzą od prawidłowych uczestników. Później ludzie łączą się ponownie i logują
+> *"Używając ślepych podpisów Chauma: Użytkownicy logują się i dostarczają dane wejściowe (i adresy Exchange), a także kryptograficznie blinded wersję Address, do której chcą wysłać swoje prywatne części; serwer podpisuje tokeny i wysyła je z powrotem. Użytkownicy ponownie łączą się anonimowo, demaskują swoje adresy wyjściowe i wysyłają je z powrotem do serwera. Serwer widzi, że wszystkie dane wyjściowe zostały przez niego podpisane i że w związku z tym wszystkie dane wyjściowe pochodzą od prawidłowych uczestników. Później ludzie łączą się ponownie i logują"*
 Maxwell, G. (2013, 22 sierpnia). *CoinJoin: Bitcoin prywatność dla prawdziwego świata*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 
@@ -2678,7 +2668,7 @@ Obecnie Whirlpool jest jedyną implementacją CoinJoin, która rygorystycznie st
 
 
 
-*W 2024 roku jesteśmy świadkami poważnych zmian w narzędziach dostępnych dla użytkowników chcących tworzyć coinjoiny na Bitcoin. Obecnie znajdujemy się w punkcie zwrotnym, a rynek CoinJoin przechodzi poważną restrukturyzację. Ten rozdział z pewnością będzie z czasem aktualizowany
+*W 2024 roku jesteśmy świadkami poważnych zmian w narzędziach dostępnych dla użytkowników chcących tworzyć coinjoiny na Bitcoin. Obecnie znajdujemy się w punkcie zwrotnym, a rynek CoinJoin przechodzi poważną restrukturyzację. Ten rozdział z pewnością będzie z czasem aktualizowany.*
 
 
 Na chwilę obecną istnieją głównie 3 różne implementacje CoinJoin na Bitcoin:
@@ -3089,12 +3079,12 @@ Oto kilka strategii korzystania z nich:
 
 
 
-- Wymieszaj je w mniejszych basenach:** Jeśli toksyczny UTXO jest wystarczająco duży, aby zmieścić się w mniejszym basenie, rozważ jego wymieszanie. Często jest to najlepsza opcja. Nie zaleca się jednak łączenia kilku toksycznych UTXO w celu uzyskania dostępu do puli, ponieważ może to połączyć różne wpisy;
-- Oznacz je jako "niewydawalne":** Innym podejściem jest zaprzestanie ich używania, oznaczenie ich jako "niewydawalnych" na dedykowanym koncie i po prostu HODL. Gwarantuje to, że nie zostaną one przypadkowo wydane. Jeśli wartość Bitcoin wzrośnie, mogą pojawić się nowe pule bardziej odpowiednie dla toksycznych UTXO;
-- Przekazywanie darowizn:** Rozważ przekazanie darowizny, choćby skromnej, deweloperom pracującym nad Bitcoin i powiązanym oprogramowaniem. Możesz również przekazać darowiznę stowarzyszeniom, które akceptują BTC. Jeśli zarządzanie toksycznymi UTXO wydaje się zbyt skomplikowane, możesz po prostu się ich pozbyć i przekazać darowiznę;
-- Kupowanie kart podarunkowych:** Platformy takie jak [Bitrefill](https://www.bitrefill.com/) pozwalają na Exchange bitcoinów na karty podarunkowe, które można wykorzystać u różnych sprzedawców. Może to być sposób na rozstanie się z toksycznymi UTXO bez utraty związanej z nimi wartości;
-- Skonsoliduj je na Monero:** Samourai Wallet oferuje usługę atomic swap pomiędzy BTC i XMR. Jest to idealne rozwiązanie do zarządzania toksycznymi UTXO poprzez konsolidację ich na Monero, bez narażania poufności za pośrednictwem CIOH, przed wysłaniem ich z powrotem do Bitcoin. Opcja ta może być jednak kosztowna pod względem opłat Mining i premii ze względu na ograniczenia płynności;
-- Wyślij je do Lightning Network:** Przeniesienie tych UTXO do Lightning Network w celu skorzystania z obniżonych opłat transakcyjnych może być atrakcyjną opcją. Jednak ta metoda może ujawnić pewne informacje w zależności od sposobu korzystania z Lightning, dlatego należy jej używać ostrożnie.
+- **Wymieszaj je w mniejszych basenach:** Jeśli toksyczny UTXO jest wystarczająco duży, aby zmieścić się w mniejszym basenie, rozważ jego wymieszanie. Często jest to najlepsza opcja. Nie zaleca się jednak łączenia kilku toksycznych UTXO w celu uzyskania dostępu do puli, ponieważ może to połączyć różne wpisy;
+- Oznacz je jako **"niewydawalne"**: Innym podejściem jest zaprzestanie ich używania, oznaczenie ich jako "niewydawalnych" na dedykowanym koncie i po prostu HODL. Gwarantuje to, że nie zostaną one przypadkowo wydane. Jeśli wartość Bitcoin wzrośnie, mogą pojawić się nowe pule bardziej odpowiednie dla toksycznych UTXO;
+- **Przekazywanie darowizn:** Rozważ przekazanie darowizny, choćby skromnej, deweloperom pracującym nad Bitcoin i powiązanym oprogramowaniem. Możesz również przekazać darowiznę stowarzyszeniom, które akceptują BTC. Jeśli zarządzanie toksycznymi UTXO wydaje się zbyt skomplikowane, możesz po prostu się ich pozbyć i przekazać darowiznę;
+- **Kupowanie kart podarunkowych:** Platformy takie jak [Bitrefill](https://www.bitrefill.com/) pozwalają na Exchange bitcoinów na karty podarunkowe, które można wykorzystać u różnych sprzedawców. Może to być sposób na rozstanie się z toksycznymi UTXO bez utraty związanej z nimi wartości;
+- **Skonsoliduj je na Monero:** Samourai Wallet oferuje usługę atomic swap pomiędzy BTC i XMR. Jest to idealne rozwiązanie do zarządzania toksycznymi UTXO poprzez konsolidację ich na Monero, bez narażania poufności za pośrednictwem CIOH, przed wysłaniem ich z powrotem do Bitcoin. Opcja ta może być jednak kosztowna pod względem opłat Mining i premii ze względu na ograniczenia płynności;
+- Wyślij je do Lightning Network: Przeniesienie tych UTXO do Lightning Network w celu skorzystania z obniżonych opłat transakcyjnych może być atrakcyjną opcją. Jednak ta metoda może ujawnić pewne informacje w zależności od sposobu korzystania z Lightning, dlatego należy jej używać ostrożnie.
 
 
 ### Jak używać Whirlpool?
@@ -3115,11 +3105,11 @@ Uważnie obserwujemy tę sprawę i rozwój związanych z nią narzędzi. Zapewni
 W następnym rozdziale dowiemy się, czym są "anonsety", jak obliczane są te wskaźniki i jak mogą one pomóc nam oszacować wydajność cykli CoinJoin.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Zestawy anonimowości
 
@@ -3166,8 +3156,8 @@ istnieją 2 rodzaje anonsów:
 
 
 
-- Potencjalny anonset ;**
-- Retrospektywne anonset.**
+- Potencjalny anonset ;
+- Retrospektywne **anonset**.
 
 
 ### Perspektywiczny anonset
@@ -3230,7 +3220,7 @@ Możliwe jest ręczne obliczenie anonsetów przy użyciu Block explorer dla mał
 Jak widzieliśmy w tym rozdziale, anonsety można obliczyć tylko wtedy, gdy istnieje pewna jednorodność w strukturze CoinJoin. W następnym rozdziale dowiemy się, jak określić ilościowo tę jednorodność w transakcji Bitcoin, niezależnie od tego, czy jest to CoinJoin, czy bardziej tradycyjna transakcja.
 
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropia
 
@@ -3679,7 +3669,7 @@ Trudność w korzystaniu z PayJoin polega na jego zależności od udziału sprze
 Jednym z rozwiązań byłoby wykorzystanie struktur transakcji, które wprowadzają niejednoznaczność do analizy łańcucha bez konieczności współpracy odbiorcy. Umożliwiłoby nam to poprawę poufności naszych płatności bez polegania na aktywnym udziale sprzedawców. Właśnie temu zagadnieniu przyjrzymy się w następnym rozdziale.
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
@@ -4296,7 +4286,7 @@ Na przykład w tradycyjnym systemie bankowym jesteśmy przyzwyczajeni do udostę
 Bitcoin działa jednak inaczej: dla każdej przychodzącej transakcji musi zostać wygenerowany nowy odbiorczy Address. Ten kompromis między łatwością użytkowania a poufnością sięga samych początków białej księgi Bitcoin. Już w momencie publikacji pierwszej wersji swojego dokumentu pod koniec 2008 r., Satoshi Nakamoto ostrzegał nas przed tym ryzykiem:
 
 
-**Jako dodatkowy firewall, dla każdej transakcji można użyć nowej pary kluczy, aby nie były one powiązane ze wspólnym właścicielem
+**Jako dodatkowy firewall, dla każdej transakcji można użyć nowej pary kluczy, aby nie były one powiązane ze wspólnym właścicielem.**
 
 
 Istnieje wiele sposobów otrzymywania wielu płatności na podstawie jednego identyfikatora bez konieczności ponownego korzystania z Address. Każdy z nich ma swoje własne kompromisy i wady. Wśród tych metod jest BIP47, propozycja opracowana przez Justusa Ranviera i opublikowana w 2015 roku. Propozycja ta ma na celu stworzenie kodów płatniczych wielokrotnego użytku, które umożliwiają przeprowadzanie wielu transakcji przeciwko tej samej osobie, przy jednoczesnym uniknięciu ponownego użycia Address. Krótko mówiąc, BIP47 ma na celu zaoferowanie systemu płatności tak intuicyjnego jak unikalny identyfikator, przy jednoczesnym zachowaniu poufności transakcji.
@@ -4394,12 +4384,12 @@ Jak wspomniano wcześniej, kod płatności wielokrotnego użytku znajduje się n
 
 
 
-- Bajt `0`: Wersja**. Dla pierwszej wersji BIP47 ten bajt jest ustawiony na `0x01`;
-- Bajt `1`: Pole bitowe**. Ta przestrzeń jest zarezerwowana do integracji dodatkowych wskazań dla określonych zastosowań. Dla klasycznego użycia PayNym, ten bajt jest ustawiony na `0x00`;
-- Bajt `2`: Parzystość `y`**. Ten bajt to `0x02` lub `0x03`, wskazujący, czy rzędna klucza publicznego jest parzysta czy nieparzysta, ponieważ używany jest skompresowany klucz publiczny;
-- Od bajtu `3` do bajtu `34`: Wartość `x`**. Te bajty reprezentują odciętą klucza publicznego. Konkatenacja `x` i parzystości `y` tworzy kompletny skompresowany klucz publiczny;
-- Od bajtu `35` do bajtu `66`: Kod ciągu**. To miejsce zawiera kod łańcuchowy powiązany z kluczem publicznym;
-- Od bajtu `67` do bajtu `79`: Wypełnienie**. To miejsce jest przeznaczone na ewentualne przyszłe ewolucje. W obecnej wersji po prostu umieszczamy tu zera, aby osiągnąć 80-bajtowy rozmiar wymagany dla wyjścia `OP_RETURN`.
+- Bajt `0`: **Wersja**. Dla pierwszej wersji BIP47 ten bajt jest ustawiony na `0x01`;
+- Bajt `1`: **Pole bitowe**. Ta przestrzeń jest zarezerwowana do integracji dodatkowych wskazań dla określonych zastosowań. Dla klasycznego użycia PayNym, ten bajt jest ustawiony na `0x00`;
+- Bajt `2`: Parzystość `y`. Ten bajt to `0x02` lub `0x03`, wskazujący, czy rzędna klucza publicznego jest parzysta czy nieparzysta, ponieważ używany jest skompresowany klucz publiczny;
+- Od bajtu `3` do bajtu `34`: Wartość `x`. Te bajty reprezentują odciętą klucza publicznego. Konkatenacja `x` i parzystości `y` tworzy kompletny skompresowany klucz publiczny;
+- Od bajtu `35` do bajtu `66`: Kod ciągu. To miejsce zawiera kod łańcuchowy powiązany z kluczem publicznym;
+- Od bajtu `67` do bajtu `79`: **Wypełnienie**. To miejsce jest przeznaczone na ewentualne przyszłe ewolucje. W obecnej wersji po prostu umieszczamy tu zera, aby osiągnąć 80-bajtowy rozmiar wymagany dla wyjścia `OP_RETURN`.
 
 
 Oto szesnastkowa reprezentacja mojego kodu płatności wielokrotnego użytku, który został już przedstawiony w poprzedniej sekcji:
@@ -4499,7 +4489,7 @@ Zanim przejdziemy do mechanizmów Diffiego-Hellmana, pozwolę sobie krótko przy
 
 
 
-- Liczba pierwsza** to liczba naturalna, która ma tylko dwa dzielniki: $1$ i samą siebie. Na przykład, $7$ jest liczbą pierwszą, ponieważ może być podzielna tylko przez $1$ i $7$. Z drugiej strony, 8$ nie jest liczbą pierwszą, ponieważ jest podzielne przez 1$, 2$, 4$ i 8$. Liczba ta ma zatem cztery dzielniki całkowite dodatnie zamiast dwóch;
+- **Liczba pierwsza** to liczba naturalna, która ma tylko dwa dzielniki: $1$ i samą siebie. Na przykład, $7$ jest liczbą pierwszą, ponieważ może być podzielna tylko przez $1$ i $7$. Z drugiej strony, $8$ nie jest liczbą pierwszą, ponieważ jest podzielne przez $1$, $2$, $4$ i $8$. Liczba ta ma zatem cztery dzielniki całkowite dodatnie zamiast dwóch;
 - **modulo** (znane jako $mod$ lub $%$) to operacja matematyczna, która pomiędzy dwiema liczbami całkowitymi zwraca resztę z euklidesowego dzielenia pierwszej przez drugą. Na przykład, $16\bmod 5 = $1$.
 
 
@@ -5447,7 +5437,7 @@ Bob może następnie zwrócić Alice pieniądze w ten sam sposób, w jaki ona wy
 ![BTC204](assets/fr/235.webp)
 
 
-*Wielkie podziękowania dla [Fanisa Michalakisa] (https://x.com/FanisMichalakis) za korektę i fachowe porady dotyczące artykułu, który zainspirował napisanie tego rozdziału!
+*Wielkie podziękowania dla [Fanisa Michalakisa](https://x.com/FanisMichalakis) za korektę i fachowe porady dotyczące artykułu, który zainspirował napisanie tego rozdziału!*
 
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
@@ -6018,7 +6008,7 @@ Wkrótce udostępnimy szczegółowy samouczek, jak skonfigurować własną staty
 Ponieważ funkcja ta jest nowa, radzimy zachować ostrożność i unikać korzystania z Silent Payments w przypadku dużych kwot na Mainnet.
 
 
-*Do stworzenia tego rozdziału na temat cichych płatności wykorzystałem [stronę z wyjaśnieniami na temat cichych płatności] (https://silentpayments.xyz/) oraz [dokument z wyjaśnieniami na temat BIP352] (https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki)
+*Do stworzenia tego rozdziału na temat cichych płatności wykorzystałem [stronę z wyjaśnieniami na temat cichych płatności](https://silentpayments.xyz/) oraz [dokument z wyjaśnieniami na temat BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki)*
 
 
 # Sekcja końcowa

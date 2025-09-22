@@ -1,5 +1,5 @@
 ---
-name: Prędkość Wallet - PoS
+name: Speed Wallet - POS
 description: Z łatwością zintegruj płatności Bitcoin i stablecoin w swojej firmie
 ---
 ![cover](assets/cover.webp)
@@ -22,31 +22,31 @@ Przyjęcie Bitcoin na całym świecie opiera się na konkretnych przypadkach uż
 
 
 
-Speed posiada szeroki zakres funkcji obejmujących finansowe aspekty działalności. Znajdziesz tu :
+Speed posiada szeroki zakres funkcji obejmujących finansowe aspekty działalności. Znajdziesz tu:
 
 
 
 
 
-- Konfiguracja płatności online**: Otrzymuj płatności od swoich klientów gdziekolwiek są, dzięki swojej stronie internetowej.
+- **Konfiguracja płatności online**: Otrzymuj płatności od swoich klientów gdziekolwiek są, dzięki swojej stronie internetowej.
 
 
 
 
 
-- Płatności na miejscu**: Idealny dla sklepów i firm, które pobierają gotówkę w sklepie.
+- **Płatności na miejscu**: Idealny dla sklepów i firm, które pobierają gotówkę w sklepie.
 
 
 
 
 
-- Wypłaty**: Wypłacaj swoje aktywa płynnie i używaj bitcoinów do spłacania swoich klientów i wynagrodzeń.
+- **Wypłaty**: Wypłacaj swoje aktywa płynnie i używaj bitcoinów do spłacania swoich klientów i wynagrodzeń.
 
 
 
 
 
-- Połączenie z innymi platformami**: Korzystasz z zewnętrznych narzędzi do zarządzania płatnościami? Speed oferuje możliwość podłączenia ich do swojej platformy, aby uzyskać kompleksowy ekosystem, który odzwierciedla Twoją działalność.
+- **Połączenie z innymi platformami**: Korzystasz z zewnętrznych narzędzi do zarządzania płatnościami? Speed oferuje możliwość podłączenia ich do swojej platformy, aby uzyskać kompleksowy ekosystem, który odzwierciedla Twoją działalność.
 
 
 
@@ -265,13 +265,13 @@ W menu **Wyślij płatność** znajdziesz wszystkie opcje przelewów pieniężny
 
 
 
-- Natychmiastowe płatności**: Opcja natychmiastowego wysyłania umożliwia bezpieczne wysyłanie bitcoinów z konta sprzedawcy.
+- **Natychmiastowe płatności**: Opcja natychmiastowego wysyłania umożliwia bezpieczne wysyłanie bitcoinów z konta sprzedawcy.
 
 
 
 
 
-- Łącza do wypłat generate** umożliwiające partnerom i dostawcom dostęp do płatności w późniejszym terminie bez konieczności obecności online.
+- Łącza do wypłat **generate** umożliwiające partnerom i dostawcom dostęp do płatności w późniejszym terminie bez konieczności obecności online.
 
 
 
@@ -289,7 +289,7 @@ linki do wypłaty ⚠️Les mogą być użyte tylko raz, zdecydowanie zalecamy u
 
 
 
-- Wypłaty**: W menu Wypłaty zainicjuj wypłaty z salda Speed Business do osobistego Wallet.
+- **Wypłaty**: W menu Wypłaty zainicjuj wypłaty z salda Speed Business do osobistego Wallet.
 
 
 
@@ -299,7 +299,7 @@ linki do wypłaty ⚠️Les mogą być użyte tylko raz, zdecydowanie zalecamy u
 
 
 
-- Rabaty**: Zachęcaj swoich stałych klientów, ustawiając opcje rabatowe, aby zdobywać bonusy.
+- **Rabaty**: Zachęcaj swoich stałych klientów, ustawiając opcje rabatowe, aby zdobywać bonusy.
 
 
 
@@ -436,4 +436,3 @@ Masz już dobre pojęcie o Speed, zintegruj Bitcoin ze swoją firmą i rozwijaj 
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

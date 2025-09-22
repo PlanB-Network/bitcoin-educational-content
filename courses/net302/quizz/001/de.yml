@@ -1,0 +1,9 @@
+question: Welche Topologie verbindet alle Geräte mit einem einzigen zentralen Punkt?
+answer: Stern
+wrong_answers:
+  - Ring
+  - Bus
+  - Masche
+explanation: |
+  In einer Sterntopologie ist jedes Gerät mit einem zentralen Gerät verbunden, was die Verwaltung und Wartung erleichtert.
+reviewed: false

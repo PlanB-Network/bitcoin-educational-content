@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe ca Hash gikoreshwa mu kubara umubare w’igenzura w’invugo ya Mnemonic?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Igitigiri c’igenzura c’ijambo Mnemonic giharurwa hakoreshejwe SHA256 Hash yoroshe ku ntungamubiri.
+reviewed: false

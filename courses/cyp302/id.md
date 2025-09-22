@@ -161,7 +161,7 @@ Ketiga, skema enkripsi klasik, seperti yang digunakan pada sandi Beale, lebih me
 
 Secara khusus, kriptografi modern berpusat pada **bukti keamanan** formal. Setiap bukti keamanan untuk skema kriptografi berlangsung dalam tiga langkah:
 
-1.	Pernyataan definisi keamanan kriptografi**, yaitu serangkaian tujuan keamanan dan ancaman yang ditimbulkan oleh penyerang.
+1.	Pernyataan definisi **keamanan kriptografi**, yaitu serangkaian tujuan keamanan dan ancaman yang ditimbulkan oleh penyerang.
 
 2.	Pernyataan dari setiap asumsi matematis yang berkaitan dengan kompleksitas komputasi skema. Sebagai contoh, sebuah skema kriptografi mungkin berisi sebuah generator angka acak semu. Meskipun kita tidak dapat membuktikan bahwa ini ada, kita dapat mengasumsikan bahwa mereka ada.
 
@@ -674,7 +674,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(bilangan prima terbesar yang kurang dari $2^{256}$). Koordinat $x$ adalah kunci privat dan koordinat $y$ adalah kunci publik Anda.
+(yang merupakan bilangan prima terbesar yang kurang dari $2^{256}$).
 
 Transaksi dalam Bitcoin biasanya melibatkan penguncian output ke satu atau lebih kunci publik dengan cara tertentu. Nilai dari transaksi ini dapat dibuka dengan membuat tanda tangan digital dengan kunci privat yang sesuai.
 
@@ -1764,7 +1764,7 @@ Akan tetapi, implementasi praktis dari skema asimetris ditemukan setahun kemudia
 
 Fungsi pintu jebakan yang digunakan dalam kriptografi asimetris (dan pertukaran kunci Diffie Helmann) semuanya terkait dengan dua masalah utama yang sulit secara komputasi: faktorisasi prima dan kalkulasi logaritma diskrit.
 
-**Faktorisasi prima membutuhkan, sesuai dengan namanya, penguraian sebuah bilangan bulat menjadi faktor-faktor primanya. Masalah RSA sejauh ini merupakan contoh yang paling terkenal dari sebuah kriptosistem yang berhubungan dengan faktorisasi prima.
+**Faktorisasi prima membutuhkan, sesuai dengan namanya, penguraian sebuah bilangan bulat menjadi faktor-faktor primanya. Masalah RSA sejauh ini merupakan contoh yang paling terkenal dari sebuah kriptosistem yang berhubungan dengan faktorisasi prima.**
 
 Masalah logaritma diskrit adalah masalah yang terjadi pada grup siklik. Diberikan sebuah generator dalam grup siklik tertentu, dibutuhkan perhitungan eksponen unik yang diperlukan untuk menghasilkan elemen lain dalam grup dari generator tersebut.
 
@@ -1874,7 +1874,7 @@ Kita sudah menemukan fungsi hash di Bab 4 dengan pembuatan pesan autentikasi ber
 
 Mari kita mulai dengan mendefinisikan fungsi hash. Fungsi hash adalah fungsi yang dapat dikomputasi secara efisien yang mengambil input dengan ukuran sembarang dan menghasilkan output dengan panjang yang tetap.
 
-Fungsi hash kriptografi** hanyalah sebuah fungsi hash yang berguna untuk aplikasi dalam kriptografi. Keluaran dari fungsi hash kriptografi biasanya disebut **hash**, **nilai hash**, atau **intisari pesan**.
+Fungsi hash kriptografi hanyalah sebuah fungsi hash yang berguna untuk aplikasi dalam kriptografi. Keluaran dari fungsi hash kriptografi biasanya disebut **hash**, **nilai hash**, atau **intisari pesan**.
 
 Dalam konteks kriptografi, "fungsi hash" biasanya mengacu pada fungsi hash kriptografi. Saya akan mengadopsi praktik tersebut mulai sekarang.
 

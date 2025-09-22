@@ -1,0 +1,9 @@
+question: 2010년 10월에 Miner m0mchil이 설계한 기능 중 클라이언트 노드가 후보 블록을 검색하고 해결책을 찾으면 Proof of Work을 반환할 수 있도록 하는 함수는?
+answer: getwork
+wrong_answers:
+  - 계층
+  - gethash
+  - getcredit
+explanation: |
+  10월 1일에 게시되었습니다. 11월 23일, Satoshi는 이 기능의 수정된 버전을 기본 소프트웨어에 포함시켰습니다.
+reviewed: true

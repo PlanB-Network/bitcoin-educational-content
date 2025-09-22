@@ -1,0 +1,9 @@
+question: インターネット・アーキテクチャにおけるDNSの主な役割は？
+answer: ドメイン名とIPアドレスのマッピング
+wrong_answers:
+  - ルーター間の通信を暗号化
+  - デバイスにMACアドレスを動的に割り当てる
+  - ウェブサーバーへのアクセスを制御する
+explanation: |
+  DNS（Domain Name System）は、人間が読めるドメイン名を、ルーティングに必要な数値のIPアドレスに変換する。
+reviewed: false

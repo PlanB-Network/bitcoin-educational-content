@@ -1,0 +1,9 @@
+question: RGB'da kullanılan tek kullanımlık contaların temel özelliği nedir?
+answer: Sadece bir kez kapatılabilirler
+wrong_answers:
+  - Sadece iki kez kapatılabilirler
+  - İşlemlerin gizliliğini garanti ederler
+  - Blockchain üzerinde uzlaşma ihtiyacını ortadan kaldırırlar
+explanation: |
+  Tek kullanımlık mühürler, benzersiz kriptografik taahhütlerin oluşturulmasını sağlayarak mükerrerliği veya çifte harcamayı önler.
+reviewed: false

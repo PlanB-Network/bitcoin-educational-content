@@ -562,7 +562,7 @@ Zatim izvodimo sledeće operacije na našim ulazima:
 
 
 
-- Funkcija $\Sigma_0$:**
+- Funkcija $\Sigma_0$:
 
 
 $$
@@ -571,7 +571,7 @@ $$
 
 
 
-- Funkcija $\Sigma_1$:**
+- Funkcija $\Sigma_1$:
 
 
 $$
@@ -580,7 +580,7 @@ $$
 
 
 
-- Funkcija $Ch$ ("_Choose_"):**
+- Funkcija $Ch$ ("_Choose_"):
 
 
 $$
@@ -589,7 +589,7 @@ $$
 
 
 
-- Funkcija $Maj$ ("_Majority_"):**
+- Funkcija $Maj$ ("_Majority_"):
 
 
 $$
@@ -2654,7 +2654,7 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 ```
 
 
-Zatim, notacija `/<0;1>/*` označava da deskriptor može generisati adrese iz spoljašnjeg lanca (`0`) i unutrašnjeg lanca (`1`), sa džoker znakom (`*`) koji omogućava sekvencijalnu derivaciju više adresa na konfigurisani način, slično upravljanju "gap limitom" na tradicionalnom novčanik softveru.
+Notacija `/<0;1>/*` označava da deskriptor može generisati adrese iz spoljnog lanca (`0`) i iz unutrašnjeg lanca (`1`). Džoker znak (`*`) na kraju putanje znači da se sa ove pozicije mogu sekvencijalno izvesti svi neojačani („*unhardened*“) podključevI, bilo da su to spoljne ili unutrašnje adrese. Ova sintaksa ne podrazumeva direktno pojam *gap limit*, koji pripada mehanizmu specifičnom za novčanike za detekciju adresa, već ovde služi samo da pokaže da se sve moguće derivacije na ovoj poziciji uzimaju u obzir.
 
 
 Konačno, `#jy0l7nr4` predstavlja kontrolni zbir za verifikaciju integriteta deskriptora.
@@ -3181,7 +3181,7 @@ gde:
 
 
 
-- $\text{H}_{\text{TapTweak}}$** je SHA256 heš funkcija označena oznakom `TapTweak`. Ako niste upoznati sa time šta je označena heš funkcija, pozivam vas da pogledate poglavlje 3.3;
+- $\text{H}_{\text{TapTweak}}$ je SHA256 heš funkcija označena oznakom `TapTweak`. Ako niste upoznati sa time šta je označena heš funkcija, pozivam vas da pogledate poglavlje 3.3;
 - $P$ je interni javni ključ, predstavljen u kompresovanom formatu od 256 bita, koristeći samo $x$ koordinatu.
 
 

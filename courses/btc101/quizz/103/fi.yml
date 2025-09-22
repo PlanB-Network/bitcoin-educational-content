@@ -1,13 +1,11 @@
-question: Mikä on perinnönjärjestelysuunnitelman luomisen tarkoitus bitcoineillesi?
-answer: Varmistaa, että bitcoinit hallinnoidaan asianmukaisesti kuolemasi jälkeen.
+question: Mikä on Blockmit Bitcoin-turvallisuuden kontekstissa?
+answer: Edullinen ratkaisu kaivertaa muistisanesi teräspalaseen.
 wrong_answers:
-  - Välttääkseen veroja bitcoineistasi.
-  - Vähentääkseen bitcoiniesi arvoa.
-  - Estääkseen bitcoiniesi varastamisen.
+  - Eräänlainen Bitcoin-lompakko, jolla voi allekirjoittaa useita siirtoja kerralla.
+  - Edullinen ratkaisu louhia bitcoineja kotona.
+  - Eräänlainen Bitcoin-lompakko, joka vaatii useita allekirjoituksia UTXOjen käyttämiseen.
 explanation: |
-  Perinnönjärjestelysuunnitelma varmistaa, että bitcoinit
-  hallinnoidaan asianmukaisesti kuolemasi jälkeen. Se voi sisältää
-  käsinkirjoitetun kirjeen, jossa kerrotaan omaisuudestasi, niiden
-  käyttömenetelmistä ja luotettavien henkilöiden yhteystiedot,
-  joihin ottaa yhteyttä.
+  Blockmit on edullinen ratkaisu kaivertaa muistisanesi
+  kestävään materiaaliin, kuten teräkseen, näin
+  turvaten bitcoinsi pitkällä aikavälillä.
 reviewed: true

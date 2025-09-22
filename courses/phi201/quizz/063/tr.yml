@@ -1,0 +1,9 @@
+question: Ortaçağ Kilisesi'nin faizli kredilere karşı tutumu neydi?
+answer: Onları yasakladı.
+wrong_answers:
+  - Bu onları cesaretlendirdi.
+  - Bazı durumlarda bunlara müsamaha gösterdi.
+  - Bu konuda hiçbir fikri yoktu.
+explanation: |
+  Ortaçağ Kilisesi faizli kredileri yasaklamış, bu uygulamayı tefecilik günahı olarak değerlendirmiş, bir krediden başlangıçtaki miktardan daha fazlasını talep ederek kazanç sağlamayı ahlaksızlık olarak görmüştür.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: サンダーハブ
+name: ThunderHub
 description: Interface ライトニング・ノード管理ウェブ LND
 ---
 ![cover](assets/cover.webp)

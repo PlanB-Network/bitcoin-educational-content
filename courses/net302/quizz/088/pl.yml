@@ -1,0 +1,9 @@
+question: Które polecenie systemu Linux wyświetla aktywną tablicę routingu sieciowego?
+answer: ip route show
+wrong_answers:
+  - ifconfig -a
+  - trasa ping
+  - netstat -s
+explanation: |
+  ip route show wyświetla trasy znane kernelowi i ścieżki podejmowane przez pakiety IP.
+reviewed: false

@@ -243,7 +243,7 @@ SimpleX genererer deretter en engangskobling. Du kan videresende den til kontakt
 
 
 
-Du kan også velge hvilken profil du vil knytte til denne invitasjonslenken. Dette gjør du ved å klikke på profilen din rett under QR-koden. Du vil da kunne velge :
+Du kan også velge hvilken profil du vil knytte til denne invitasjonslenken. Dette gjør du ved å klikke på profilen din rett under QR-koden. Du vil da kunne velge:
 
 
 
@@ -313,7 +313,7 @@ En av SimpleX' kraftigste funksjoner er muligheten til å administrere flere hel
 
 
 
-Du kan for eksempel opprette :
+Du kan for eksempel opprette:
 
 
 

@@ -1,11 +1,11 @@
-question: Jedna preporučena alternativa korišćenju papira za čuvanje vaše Mnemonic fraze je korišćenje metalne pločice ili uređaja specijalno dizajniranog za čuvanje fraza.
-answer: Urezivanje na metalnu ploču.
+question: Zašto je privatnost važna u kontekstu Bitkoina?
+answer: Da biste minimizirali rizik od praćenja vaših sredstava.
 wrong_answers:
-  - Čuvanje u digitalnoj datoteci.
-  - Pisanje na beloj tabli.
-  - Čuvanje kao kontakt u vašem telefonu.
+  - Da smanjite vrednost vaših bitkoina.
+  - Da sprečite krađu vaših bitkoina.
+  - Da platite porez na vaše bitkoine.
 explanation: |
-  Jedna od preporučenih alternativa papiru za čuvanje
-  vaše Mnemonic fraze je graviranje na metalnoj ploči. Ovo
-  rešenje je izdržljivije i dugotrajnije.
+  Privatnost je važna u kontekstu Bitkoina kako bi se smanjili
+  rizici da vaša sredstva budu praćena, što može olakšati
+  vaše nadgledanje.
 reviewed: true

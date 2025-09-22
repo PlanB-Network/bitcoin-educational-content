@@ -1,0 +1,9 @@
+question: Ni nde yahinguye urubuga rwo kw’isi yose maze akagira urubuga rwa mbere rwo gukoresha urubuga?
+answer: Tim Berners-Lee
+wrong_answers:
+  - Mariko Andereseni
+  - Jimu
+  - Brendan Eich
+explanation: |
+  Tim Berners-Lee niwe yahinguye urubuga rwo kw'isi yose kandi yateguye umucukumbuzi wambere, urubuga rwo kw'isi yose (ubu ni Nexus), mu 1990.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on tärkein syy siihen, miksi IPv5:tä ei ole koskaan otettu laajasti käyttöön?
+answer: Se pysyi kokeellisena
+wrong_answers:
+  - Sen käyttöönotto oli liian kallista
+  - Se ei ollut yhteensopiva IPv6:n kanssa
+  - Siinä oli merkittäviä tietoturva-aukkoja
+explanation: |
+  IPv5 toteutettiin vain kokeellisesti. Sitä ei koskaan standardoitu tai otettu laajasti käyttöön, ja lopulta siitä luovuttiin IPv6:n hyväksi.
+reviewed: false

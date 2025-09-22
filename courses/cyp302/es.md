@@ -175,7 +175,7 @@ La criptografía se considera una subdisciplina de la **ciberseguridad**, que se
 
 Por ejemplo, si una empresa aloja costosos servidores a nivel local, puede que le preocupe proteger este hardware de robos y daños. Aunque se trata de un problema de ciberseguridad, tiene poco que ver con la criptografía.
 
-Por ejemplo, los ataques de suplantación de identidad (phishing)** son un problema común en nuestra era moderna. Estos ataques intentan engañar a la gente a través de un correo electrónico o algún otro medio de mensaje para que renuncie a información sensible como contraseñas o números de tarjetas de crédito. Aunque la criptografía puede ayudar a hacer frente a los ataques de phishing hasta cierto punto, un enfoque integral requiere algo más que el uso de algo de criptografía.
+Por ejemplo, los ataques de suplantación de identidad **(phishing)** son un problema común en nuestra era moderna. Estos ataques intentan engañar a la gente a través de un correo electrónico o algún otro medio de mensaje para que renuncie a información sensible como contraseñas o números de tarjetas de crédito. Aunque la criptografía puede ayudar a hacer frente a los ataques de phishing hasta cierto punto, un enfoque integral requiere algo más que el uso de algo de criptografía.
 
 **Notas:**
 
@@ -678,7 +678,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(el mayor número primo menor que $2^{256}$). La coordenada $x$ es la clave privada y la coordenada $y$ es tu clave pública.
+(el mayor número primo menor que $2^{256}$).
 
 Las transacciones en Bitcoin normalmente implican bloquear las salidas a una o más claves públicas de alguna manera. El valor de estas transacciones puede, entonces, ser desbloqueado haciendo firmas digitales con las correspondientes claves privadas.
 

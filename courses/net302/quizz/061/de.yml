@@ -1,0 +1,9 @@
+question: Was ist ein anycast Address in IPv6?
+answer: Ein Address, der mehreren Knoten zugewiesen ist
+wrong_answers:
+  - Ein Address für das globale Multicasting
+  - Ein Address, das sich bei jedem Neustart ändert
+  - Ein Address, das für die technische Dokumentation reserviert ist
+explanation: |
+  Ein Anycast Address wird mehreren Geräten zugewiesen, und das Routing leitet das Paket an das topologisch am nächsten gelegene Gerät weiter.
+reviewed: false

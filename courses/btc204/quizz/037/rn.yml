@@ -1,0 +1,9 @@
+question: Ni igiki igiharuro c’Ivyiyumviro rusangi Ownership (CIOH) kirimwo?
+answer: Iyo igikorwa co gucuruza kirimwo ibintu vyinshi, ivyo vyose birashoboka ko biva ku kigo kimwe.
+wrong_answers:
+  - Iyo igikorwa co gucuruza kirimwo ibintu vyinshi, ivyo vyose birashoboka ko biva mu bigo bitandukanye.
+  - Iyo igikorwa co gucuruza kirimwo ibisohoka vyinshi, ivyo vyose birashoboka ko bija mu kigo kimwe.
+  - Iyo igikorwa co gucuruza kirimwo ibisohoka vyinshi, ivyo vyose birashoboka ko bija mu bigo bitandukanye.
+explanation: |
+  CIOH ni heuristic ivuga ko iyo igikorwa gifise ibintu vyinshi, ivyo bintu vyose bishobora kuba biva ku kintu kimwe. Ku bw’ivyo, Ownership yabo irasanzwe.
+reviewed: false

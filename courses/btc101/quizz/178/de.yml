@@ -1,9 +1,9 @@
-question: Was ist der allgemeine Trend von Bitcoin, wenn man dessen begrenztes Angebot und den Halbierungsprozess berücksichtigt?
-answer: Ein allgemeiner Aufwärtstrend.
+question: Im Vergleich zu Fiat-Währungen, wie wird Bitcoin wahrgenommen?
+answer: Als eine parallele Wirtschaft.
 wrong_answers:
-  - Ein allgemeiner Abwärtstrend.
-  - Kein Trend erkennbar.
-  - Ein Trend, der wild schwankt, ohne erkennbares Muster.
+  - Als eine Ersatzwirtschaft.
+  - Als eine Industriewirtschaft.
+  - Als eine tertiäre Wirtschaft.
 explanation: >-
-  Bitcoin folgt aufgrund seiner begrenzten Menge von 21 Millionen Bitcoins und seines Halbierungsprozesses (die Halbierung der Geldschöpfung alle 4 Jahre im Durchschnitt) einem allgemeinen Aufwärtstrend.
+  Bitcoin wird als eine parallele Wirtschaft zu Fiat-Währungen angesehen, was bedeutet, dass es neben traditionellen Wirtschaftssystemen operiert und direkt für Transaktionen verwendet werden kann, ohne dass eine Umwandlung über eine Austauschplattform notwendig ist.
 reviewed: true

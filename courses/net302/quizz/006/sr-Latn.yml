@@ -1,0 +1,9 @@
+question: Koja organizacija nadgleda tehničko upravljanje internet protokolima?
+answer: Internet Architecture Board
+wrong_answers:
+  - Internet zajednica
+  - World Wide Web Konzorcijum
+  - Institut inženjera elektrotehnike i elektronike
+explanation: |
+  Internet Architecture Board (IAB) nadgleda tehničko upravljanje i koordinira evoluciju internet protokola.
+reviewed: false

@@ -11,7 +11,7 @@ Um die Notwendigkeit zu umgehen, Ledger Live während der Erstkonfiguration Ihre
 In diesem Tutorial zeige ich Ihnen, wie Sie dieses Tool verwenden können, damit Sie auf die Ledger Live-Software verzichten und trotzdem Ledger-Geräte nutzen können. Es funktioniert auf allen Geräten: Nano S Classic, Nano S Plus, Nano X, Flex und Stax.
 
 ---
-*Bitte beachten Sie, dass dieses Tool recht neu ist und seine Entwickler angeben, dass es sich noch **in der Testphase** befindet. Sie empfehlen, es nur zu Testzwecken zu verwenden und nicht für ein Gerät, das eine echte Bitcoin-Wallet hosten soll, obwohl dies möglich ist. In dieser Hinsicht empfehle ich Ihnen, den Empfehlungen der Entwickler dieses Tools zu folgen, die [in der README ihres GitHub-Repositorys](https://github.com/darosior/ledger_installer) angegeben sind
+*Bitte beachten Sie, dass dieses Tool recht neu ist und seine Entwickler angeben, dass es sich noch* **in der Testphase** *befindet. Sie empfehlen, es nur zu Testzwecken zu verwenden und nicht für ein Gerät, das eine echte Bitcoin-Wallet hosten soll, obwohl dies möglich ist. In dieser Hinsicht empfehle ich Ihnen, den Empfehlungen der Entwickler dieses Tools zu folgen, die [in der README ihres GitHub-Repositorys](https://github.com/darosior/ledger_installer) angegeben sind*
 
 ---
 ## Voraussetzungen
@@ -141,4 +141,3 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 Ich empfehle Ihnen auch einen Blick auf dieses Tutorial über GnuPG, in dem erklärt wird, wie Sie die Integrität und Authentizität Ihrer Software vor der Installation überprüfen können. Dies ist eine wichtige Praxis, insbesondere bei der Installation von Portfolio-Management-Software wie Liana oder Sparrow :
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
-

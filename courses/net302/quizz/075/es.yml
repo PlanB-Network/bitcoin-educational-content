@@ -1,0 +1,9 @@
+question: ¿Qué tipo de registro DNS se utiliza para encontrar el nombre asociado a un Address IPv6?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Pointer Record) permite la resolución inversa, es decir, vincula un Address IPv6 a un nombre de dominio.
+reviewed: false

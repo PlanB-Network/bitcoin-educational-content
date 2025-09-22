@@ -1,0 +1,9 @@
+question: IPv6 पर स्थानांतरण क्यों आवश्यक हो गया?
+answer: IPv4 Address थकावट
+wrong_answers:
+  - IPv4 पर NAT प्रोटोकॉल की विफलता
+  - सबनेट मास्क असंगतता
+  - DHCP समर्थन का अंत
+explanation: |
+  IPv4 पतों के समाप्त हो जाने के कारण IPv6 की ओर संक्रमण हुआ, जो कि काफी बड़ा Address स्थान प्रदान करता है।
+reviewed: false

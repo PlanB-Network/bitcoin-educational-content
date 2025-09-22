@@ -80,7 +80,7 @@ Los ASIC son chips, similares a los chips de una CPU, sin embargo, están diseñ
 
 En la actualidad, los mineros utilizan exclusivamente ASICs dedicados a esta operación, optimizados para probar el mayor número posible de combinaciones con el menor consumo de energía y la mayor rapidez posible. Estas computadoras, incapaces de realizar tareas distintas a la minería de Bitcoin, son un testimonio tangible de la continua evolución y especialización de la industria minera de Bitcoin. Esta evolución constante refleja la dinámica intrínseca de Bitcoin, donde un ajuste de la dificultad garantiza la producción de un bloque cada diez minutos a pesar del aumento exponencial de la capacidad de minería.
 
-Para ilustrar la intensidad de este proceso, consideremos un minero típico capaz de realizar 14 TeraHash por segundo, es decir, 14 mil millones de intentos cada segundo para encontrar el hash correcto. A escala de la red de Bitcoin, actualmente se alcanzan aproximadamente 300 HexaHash por segundo, lo que destaca la potencia colectiva movilizada en la minería de Bitcoin.
+Para ilustrar la intensidad de este proceso, consideremos un minero típico capaz de realizar 14 TeraHash por segundo, es decir, 14 mil millones de intentos cada segundo para encontrar el hash correcto. A escala de la red de Bitcoin, actualmente se alcanzan aproximadamente 300 ExaHash por segundo, lo que destaca la potencia colectiva movilizada en la minería de Bitcoin.
 
 ### Ajuste de la dificultad:
 
@@ -255,13 +255,13 @@ La pregunta es profunda y abarca varias dimensiones de la minería de Bitcoin. E
 
 - Minar para el beneficio:
 
-* A favor: Los mineros están naturalmente atraídos por el potencial de ganancia que ofrece la minería de Bitcoin. La inversión en equipos de minería costosos puede ser rentabilizada a través de las recompensas de minería y las tarifas de transacción, especialmente cuando el precio del Bitcoin es alto.
-* En contra: La búsqueda de ganancias puede llevar a la centralización del poder de hash si solo unas pocas grandes empresas pueden permitirse invertir en equipos de minería de alta gama. Además, el consumo de energía de la minería para obtener ganancias puede tener un impacto ambiental significativo.
+**A favor:** Los mineros están naturalmente atraídos por el potencial de ganancia que ofrece la minería de Bitcoin. La inversión en equipos de minería costosos puede ser rentabilizada a través de las recompensas de minería y las tarifas de transacción, especialmente cuando el precio del Bitcoin es alto.
+**En contra:** La búsqueda de ganancias puede llevar a la centralización del poder de hash si solo unas pocas grandes empresas pueden permitirse invertir en equipos de minería de alta gama. Además, el consumo de energía de la minería para obtener ganancias puede tener un impacto ambiental significativo.
 
 - Minar para la red:
 
 * A favor: Minar para contribuir a la seguridad y la descentralización de la red Bitcoin es una iniciativa noble. Esto ayuda a fortalecer la resiliencia de la red y a resistir la censura y los ataques.
-* En contra: Sin un incentivo financiero suficiente, puede ser difícil para los mineros continuar apoyando la red, especialmente si operan con pérdidas.
+**En contra:** Sin un incentivo financiero suficiente, puede ser difícil para los mineros continuar apoyando la red, especialmente si operan con pérdidas.
 
 La iniciativa Attakai destaca la importancia de contribuir a la red mientras ofrece soluciones para hacer la minería más accesible y menos perjudicial. La posibilidad de minar en casa, con equipos más asequibles y soluciones para reducir la contaminación acústica, puede ayudar a democratizar la minería de Bitcoin. Attakai anima a aquellos interesados en Bitcoin a no solo invertir y poseer bitcoins, sino también a participar activamente en la seguridad de la red. Al proporcionar equipos probados y guías para el ensamblaje e instalación, Attakai facilita la entrada al mundo de la minería de Bitcoin. Además, fomenta la innovación y las mejoras continuas, invitando a la comunidad a contribuir y compartir ideas y experiencias para mejorar la minería en casa. El modelo Attakai responde a la pregunta de si minar por ganancias o por la red: no se trata solo de obtener beneficios, sino también de fortalecer la distribución y la seguridad de la red, permitiendo que más personas participen y comprendan esta industria crucial.
 

@@ -77,7 +77,7 @@ Na začátku dominovala éra CPU, kdy těžaři používali své osobní počít
 
 ASIC jsou čipy, srovnatelné s čipem CPU, nicméně jsou vyvinuty k provádění pouze jednoho konkrétního typu výpočtu co nejefektivnějším způsobem. Jinými slovy, CPU je schopno provádět mnoho různých typů výpočtů, aniž by bylo zvláště optimalizováno pro jeden konkrétní typ výpočtu, zatímco ASIC bude schopno provádět pouze jeden typ výpočtu, ale velmi efektivně. V případě Bitcoin ASIC jsou tyto čipy navrženy pro výpočet algoritmu SHA256. Dnes již těžaři výhradně používají ASIC určené pro tuto operaci, optimalizované tak, aby testovaly maximální počet kombinací s co nejmenší spotřebou energie a co nejrychleji. Tyto počítače, neschopné provádět jiné úkoly než těžbu Bitcoinu, jsou hmatatelným svědectvím neustálého vývoje a rostoucí specializace průmyslu těžby Bitcoinu. Tento neustálý vývoj odráží vnitřní dynamiku Bitcoinu, kde úprava obtížnosti zajišťuje produkci bloku každých deset minut navzdory exponenciálnímu nárůstu těžební kapacity.
 
-Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopného dosáhnout 14 TeraHash za sekundu, neboli 14 bilionů pokusů každou sekundu najít správný hash. Na úrovni sítě Bitcoinu dosahujeme nyní přibližně 300 HexaHash za sekundu, což zdůrazňuje kolektivní sílu mobilizovanou v těžbě Bitcoinu.
+Pro ilustraci intenzity tohoto procesu si vezměte typického těžaře schopného dosáhnout 14 TeraHash za sekundu, neboli 14 bilionů pokusů každou sekundu najít správný hash. Na úrovni sítě Bitcoinu dosahujeme nyní přibližně 300 ExaHash za sekundu, což zdůrazňuje kolektivní sílu mobilizovanou v těžbě Bitcoinu.
 
 ### Úprava obtížnosti:
 
@@ -249,13 +249,13 @@ Otázka je hluboká a zahrnuje několik dimenzí těžby Bitcoinu. Rovnováha me
 
 - Těžba pro zisk:
 
-* Pro: Těžaři jsou přirozeně přitahováni potenciálními výdělky z těžby Bitcoinu. Investice do drahého těžebního zařízení mohou být vyváženy těžebními odměnami a transakčními poplatky, zejména když je cena Bitcoinu vysoká.
-* Proti: Snaha o zisk může vést k centralizaci výpočetního výkonu, pokud si pouze několik velkých společností může dovolit investovat do špičkového těžebního zařízení. Navíc těžba za účelem zisku může mít významný dopad na životní prostředí.
+**Pro:** Těžaři jsou přirozeně přitahováni potenciálními výdělky z těžby Bitcoinu. Investice do drahého těžebního zařízení mohou být vyváženy těžebními odměnami a transakčními poplatky, zejména když je cena Bitcoinu vysoká.
+**Proti:** Snaha o zisk může vést k centralizaci výpočetního výkonu, pokud si pouze několik velkých společností může dovolit investovat do špičkového těžebního zařízení. Navíc těžba za účelem zisku může mít významný dopad na životní prostředí.
 
 - Těžba pro síť:
 
-* Pro: Těžba s cílem přispět k bezpečnosti a decentralizaci sítě Bitcoinu je ušlechtilá iniciativa. Pomáhá posílit odolnost sítě a odolávat cenzuře a útokům.
-* Proti: Bez dostatečného finančního podnětu může být pro těžaře obtížné pokračovat v podpoře sítě, zejména pokud provozují se ztrátou.
+**Pro:** Těžba s cílem přispět k bezpečnosti a decentralizaci sítě Bitcoinu je ušlechtilá iniciativa. Pomáhá posílit odolnost sítě a odolávat cenzuře a útokům.
+**Proti:** Bez dostatečného finančního podnětu může být pro těžaře obtížné pokračovat v podpoře sítě, zejména pokud provozují se ztrátou.
   Iniciativa Attakai zdůrazňuje důležitost přispívání do sítě a zároveň nabízí řešení, jak těžbu udělat dostupnější a méně škodlivou. Možnost těžit doma s cenově dostupnějším vybavením a řešeními na snížení hlukového znečištění může pomoci demokratizovat těžbu Bitcoinu. Podporuje ty, kteří mají zájem o Bitcoin, aby nejen investovali a drželi bitcoiny, ale také aktivně participovali na zabezpečení sítě. Poskytováním otestovaného vybavení a průvodců pro montáž a instalaci usnadňuje Attakai vstup do světa těžby Bitcoinu. Také podporuje inovace a nepřetržité zlepšování, zve komunitu, aby přispívala a sdílela své nápady a zkušenosti, čímž vylepšuje domácí těžbu. Model Attakai je odpovědí na otázku těžby pro zisk nebo pro síť. Nejde jen o zisk, ale také o posílení distribuce a bezpečnosti sítě Bitcoinu, zatímco umožňuje více lidem účastnit se těžby, učit se a rozumět tomuto klíčovému průmyslu. Výzva potenciálního zákazu těžby v Evropě zůstává otevřenou otázkou. To vyvolává obavy o budoucnost těžby Bitcoinu v regionu a potřebu vyvážené regulace, která uznává význam těžby pro bezpečnost a životaschopnost sítě Bitcoinu, zatímco řeší environmentální problémy. Attakai a další podobné iniciativy mohou hrát klíčovou roli v této debatě, ukazujíce, že je možné těžit udržitelnějším a odpovědnějším způsobem, zatímco pozitivně přispívat do sítě Bitcoinu.
 
 ## Suverenita a regulace

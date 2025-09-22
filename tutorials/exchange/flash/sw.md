@@ -1,5 +1,5 @@
 ---
-name: Mwako
+name: Flash
 description: Nunua bitcoins kutoka faranga 100 za CFA shukrani kwa nguvu ya Umeme.
 ---
 
@@ -7,7 +7,7 @@ description: Nunua bitcoins kutoka faranga 100 za CFA shukrani kwa nguvu ya Umem
 
 
 
-Kufanya kupitishwa kwa Bitcoin kupatikana katika nchi zinazoendelea imekuwa sekta ambayo vijana na viongozi wanavumbua mambo mengi. Hili linadhihirika zaidi katika bara la Afrika kwa kuibuka kwa jumuiya za mzunguko, zinazoishi na rasilimali chache wakati mwingine na ambao wanaona Bitcoin kama njia ya kurejesha uhuru wao katika kukabiliana na mfumo wa kifedha unaoonekana kushindwa.
+Kufanya kupitishwa kwa Bitcoin kupatikana katika nchi zinazoendelea imekuwa sekta ambayo vijana na viongozi wanavumbua mambo mengi. Hili linadhihirika zaidi katika bara la Afrika kwa kuibuka kwa jumuiya ya mizunguko, zinazoishi na rasilimali chache wakati mwingine na ambao wanaona Bitcoin kama njia ya kurejesha uhuru wao katika kukabiliana na mfumo wa kifedha unaoonekana kushindwa.
 
 
 
@@ -39,8 +39,8 @@ Kuna huduma mbili kuu zinazotolewa na jukwaa:
 
 
 
-- FlashX**: bitcoins za Exchange na Pesa ya Simu.
-- FlashPayment**: Tumia Bitcoin kwa huduma za kila siku.
+- **FlashX**: bitcoins za Exchange na Pesa ya Simu.
+- **FlashPayment**: Tumia Bitcoin kwa huduma za kila siku.
 
 
 
@@ -73,9 +73,9 @@ Flash huendesha shughuli zake kwa kutumia Mobile Money ya ndani. Kulingana na en
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Machungwa.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo** : Moov Togo.
+- **Burkina-Faso**: Machungwa.
 
 
 
@@ -157,10 +157,10 @@ Mbali na kununua na kuuza bitcoins, Flash inatoa matumizi ya muktadha wa jamii y
 
 
 
-- vitengo vya GSM**;
-- Vifurushi vya mtandao **;
-- Vifurushi vya kupiga simu **;
-- Mchanganyiko wa simu na kifurushi cha Intaneti**.
+- **vitengo vya GSM**;
+- **Vifurushi vya mtandao**;
+- **Vifurushi vya kupiga simu**;
+- **Mchanganyiko wa simu na kifurushi cha Intaneti**.
 
 
 

@@ -53,7 +53,7 @@ Aggiungi al file le informazioni relative alla tua conferenza copiano questo mod
 ```yaml
 year: 
 name: 
-builder: 
+project: 
 location: 
 language: 
   - 
@@ -70,7 +70,7 @@ Ad esempio, il tuo file YAML potrebbe apparire così:
 ```yaml
 year: 2024-08
 name: Paris Bitcoin Conference 2024
-builder: Paris Bitcoin Conference
+project: Paris Bitcoin Conference
 location: Paris, France
 language: 
   - fr
@@ -303,3 +303,4 @@ Assicurati di seguire il progresso della tua PR. È possibile che un admin possa
 ![conference](assets/46.webp)
 
 Grazie mille per il tuo prezioso contributo! :)
+

@@ -10,7 +10,7 @@ objectives:
 
 # Un voyage au cœur des portefeuilles Bitcoin
 
-Découvrez les secrets des portefeuilles Bitcoin déterministes et hiérarchiques avec notre formation CYP201 ! Que vous soyez un utilisateur régulier ou un passionné cherchant à approfondir vos connaissances, ce cours vous offre une immersion complète dans les rouages de ces outils que nous utilisons tous au quotidien.
+Découvrez les secrets des portefeuilles Bitcoin déterministes et hiérarchiques, ou portefeuilles HD, avec notre formation CYP201 ! Que vous soyez un utilisateur régulier ou un passionné cherchant à approfondir vos connaissances, ce cours vous offre une immersion complète dans les rouages de ces outils que nous utilisons tous au quotidien.
 
 Découvrez les mécanismes des fonctions de hachage, des signatures numériques (ECDSA et Schnorr), de la phrase mnémonique, des clés cryptographiques et de la création des adresses de réception, tout en explorant des stratégies de sécurisation avancées.
 
@@ -36,15 +36,15 @@ L’objectif de cette formation est de vous donner les clés pour maîtriser les
 
 Avant d’entrer dans le détail de la construction et du fonctionnement des portefeuilles Bitcoin, nous commencerons avec quelques chapitres sur les primitives cryptographiques à connaître pour la suite.
 
-Nous débuterons avec les fonctions de hachage cryptographique, fondamentales tant pour les portefeuilles que pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : SHA256.
+Nous commencerons par les fonctions de hachage cryptographique, fondamentales pour les portefeuilles comme pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : SHA256.
 
 ![CYP201](assets/fr/010.webp)
 
-Ensuite, nous aborderons le fonctionnement des algorithmes de signature numérique que vous utilisez au quotidien pour sécuriser vos UTXOs. Bitcoin en utilise deux : ECDSA et le protocole de Schnorr. Vous apprendrez quelles primitives mathématiques sous-tendent ces algorithmes et comment ils garantissent la sécurité des transactions.
+Ensuite, nous aborderons le fonctionnement des algorithmes de signature numérique que vous utilisez au quotidien pour sécuriser vos UTXOs. Bitcoin en utilise deux : ECDSA et le protocole de Schnorr. Vous apprendrez sur quelles primitives mathématiques ces algorithmes reposent et comment ils garantissent la sécurité des transactions.
 
 ![CYP201](assets/fr/021.webp)
 
-Une fois que nous aurons bien compris ces quelques éléments sur la cryptographie, nous passerons enfin au cœur de la formation : les portefeuilles déterministes et hiérarchiques ! Il y a tout d'abord une section dédiée aux phrases mnémoniques, ces suites de 12 ou 24 mots qui permettent de créer et de restaurer vos portefeuilles. Vous découvrirez comment ces mots sont générés à partir d’une source d’entropie et en quoi ils facilitent l’utilisation de Bitcoin.
+Une fois que nous aurons bien compris ces quelques éléments de cryptographie, nous passerons enfin au cœur de la formation : les portefeuilles déterministes et hiérarchiques ! Il y a tout d'abord une section dédiée aux phrases mnémoniques, ces suites de 12 ou 24 mots qui permettent de créer et de restaurer vos portefeuilles. Vous découvrirez comment ces mots sont générés à partir d’une source d’entropie et en quoi ils facilitent l’utilisation de Bitcoin.
 
 ![CYP201](assets/fr/040.webp)
 
@@ -66,7 +66,7 @@ Cette formation vous permettra d’utiliser vos logiciels de portefeuille en tou
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
 
-Le premier type d'algorithmes cryptographiques utilisé sur Bitcoin regroupe les fonctions de hachage. Elles jouent un rôle essentiel à différents niveaux du protocole, mais également au sein des portefeuilles Bitcoin. Découvrons ensemble ce qu'est une fonction de hachage et à quoi ça sert sur Bitcoin.
+Le premier type d'algorithmes cryptographiques utilisé par Bitcoin regroupe les fonctions de hachage. Elles jouent un rôle essentiel à différents niveaux du protocole et également au sein des portefeuilles Bitcoin. Découvrons ensemble ce qu'est une fonction de hachage et à quoi ça sert sur Bitcoin.
 
 ### Définition et principe du hachage
 
@@ -93,7 +93,7 @@ Ces fonctions de hachage cryptographiques possèdent plusieurs caractéristiques
 
 #### 1. L'irréversibilité (résistance à la préimage) :
 
-L'irréversibilité signifie qu'il est facile de calculer le hash à partir de l'information en entrée, mais que le calcul inverse, c'est-à-dire retrouver l'entrée à partir du hash, est pratiquement impossible. Cette propriété rend les fonctions de hachage parfaites pour créer des empreintes numériques uniques sans compromettre les informations d'origine.
+L'irréversibilité signifie qu'il est facile de calculer le hash à partir de l'information en entrée, mais que le calcul inverse, c'est-à-dire retrouver l'entrée à partir du hash, est pratiquement impossible. Cette propriété rend les fonctions de hachage parfaites pour créer des empreintes numériques uniques sans compromettre les informations d'origine. Cette propriété est à l'origine du nom de fonction à sens unique, parfois utilisé pour décrire les fonctions de hashage.
 
 Dans l'exemple donné, obtenir le hash `24f1b9…` en connaissant l'entrée "_PlanB_" est simple et rapide. Toutefois, retrouver le message "_PlanB_" en connaissant uniquement `24f1b9…` est impossible.
 
@@ -103,7 +103,7 @@ Il est donc impossible de trouver une préimage $m$ pour un hash $h$ tel que $h 
 
 #### 2. La résistance à la falsification (effet avalanche)
 
-La deuxième caractéristique est la résistance à la falsification, également connue sous le nom d'**effet avalanche**. Cette caractéristique s'observe sur une fonction de hachage si une petite modification du message d'entrée entraîne une modification radicale du hash de sortie.
+La deuxième caractéristique est la résistance à la falsification, également connue sous le nom d'**effet avalanche**. Cette caractéristique s'observe sur une fonction de hachage si une petite modification du message d'entrée entraîne une modification très importante du hash de sortie.
 
 Si l'on reprend notre exemple avec l’entrée "_PlanB_" et la fonction SHA256, nous avons vu que le hash généré est le suivant :
 
@@ -135,11 +135,11 @@ En réalité, il est mathématiquement inévitable que des collisions existent p
 
 Ainsi, cette caractéristique ne signifie pas qu'il n'existe aucune collision pour les fonctions de hachage, mais plutôt qu'une bonne fonction de hachage rend la probabilité de trouver une collision négligeable. Cette caractéristique n’est par exemple plus vérifiée sur les algorithmes SHA-0 et SHA-1, prédécesseurs des SHA-2, pour lesquels des collisions ont été trouvées. Ces fonctions sont donc aujourd’hui déconseillées et souvent considérées comme désuètes.
 
-Pour une fonction de hachage de $n$ bits, la résistance aux collisions est de l'ordre de $2^{\frac{n}{2}}$, conformément à l'attaque de l'anniversaire. Par exemple, pour SHA256 ($n = 256$), la complexité de trouver une collision est de l'ordre de $2^{128}$ essais. Concrètement, cela veut dire que si l'on passe $2^{128}$ messages différents dans la fonction, on va probablement trouver une collision.
+Pour une fonction de hachage de $n$ bits, la résistance aux collisions est de l'ordre de $2^{\frac{n}{2}}$, conformément à l'attaque des anniversaires. Par exemple, pour SHA256 ($n = 256$), la complexité de trouver une collision est de l'ordre de $2^{128}$ essais. Concrètement, cela veut dire que si l'on passe $2^{128}$ messages différents dans la fonction, on va probablement trouver une collision.
 
 #### 4. La résistance à la seconde préimage
 
-La résistance à la seconde préimage est une autre caractéristique importante des fonctions de hachage. Elle stipule qu'étant donné un message $m_1$ et son hash $h$, il est computationnellement infaisable de trouver un autre message $m_2 \neq m_1$ tel que :
+La résistance à la seconde préimage est une autre caractéristique importante des fonctions de hachage. Elle stipule qu'étant donné un message $m_1$ et son hash $h$, il est computationnellement impossible de trouver un autre message $m_2 \neq m_1$ tel que :
 
 $$
 \text{HASH}(m_1) = \text{HASH}(m_2)
@@ -153,7 +153,7 @@ La résistance à la seconde préimage est donc un petit peu similaire à la ré
 
 La fonction de hachage la plus utilisée dans Bitcoin est **SHA256** ("_Secure Hash Algorithm 256 bits"_). Conçue au début des années 2000 par la NSA et standardisée par le NIST, elle produit un hash de 256 bits en sortie.
 
-Cette fonction est utilisée dans de nombreux aspects de Bitcoin. Au niveau protocolaire, elle intervient dans le mécanisme de Proof-of-Work, où elle est appliquée en double hachage pour rechercher une collision partielle entre l'en-tête d'un bloc candidat, créé par un mineur, et la cible de difficulté. Si cette collision partielle est trouvée, le bloc candidat devient valide et peut être ajouté à la blockchain.
+Cette fonction est utilisée dans de nombreux aspects de Bitcoin. Au niveau protocolaire, elle intervient dans le mécanisme de Proof-of-Work, où elle est appliquée deux fois de suite pour rechercher une collision partielle entre l'en-tête d'un bloc candidat, créé par un mineur, et la cible de difficulté. Si cette collision partielle est trouvée, le bloc candidat devient valide et peut être ajouté à la blockchain.
 
 SHA256 est également utilisée dans la construction d'un arbre de Merkle, qui est notamment l'accumulateur utilisé pour l'enregistrement des transactions dans les blocs. On retrouve aussi cette structure dans le protocole Utreexo qui permet de réduire la taille de l'UTXO Set. Aussi, avec l'introduction de Taproot en 2021, SHA256 est exploitée dans les MAST (_Merkelised Alternative Script Tree_), qui permettent de ne révéler que les conditions de dépense effectivement utilisées dans un script, sans divulguer les autres options possibles. On la retrouve également dans le calcul de l'identifiant des transactions, dans la transmission des paquets sur le réseau P2P, dans les signatures électroniques... Enfin, et c'est ce qui nous intéressera particulièrement dans cette formation, SHA256 est utilisée au niveau applicatif pour la construction des portefeuilles Bitcoin et la dérivation des adresses.
 
@@ -747,7 +747,7 @@ La clé privée est simplement un nombre aléatoire ou pseudo-aléatoire. Dans l
 
 Cependant, en pratique, il existe seulement $n$ points distincts sur notre courbe elliptique secp256k1, où $n$ est l'ordre du point générateur $G$ de la courbe. Nous verrons plus tard à quoi correspond ce nombre, mais retenez simplement qu'une clé privée valide est un nombre entier compris entre $1$ et $n-1$, en sachant que $n$ est un nombre proche mais légèrement plus petit que $2^{256}$. Il existe donc certains nombres de 256 bits qui ne sont pas valides pour devenir une clé privée dans Bitcoin, en l'occurrence, ce sont tous les nombres compris entre $n$ et $2^{256}$. Si la génération du nombre aléatoire (la clé privée) produit une valeur $k$ telle que $k \geq n$, celle-ci est considérée comme invalide, et il faudra générer une nouvelle valeur aléatoire.
 
-Le nombre de possibilités pour une clé privée Bitcoin est donc d'environ $n$, qui est un nombre proche de $1.158 \times 10^{77}$. C'est un nombre tellement grand que si vous choisissez une clé privée aléatoirement, il est statistiquement presque impossible de tomber sur la clé privée d'un autre utilisateur. Pour vous donner un ordre de grandeur, le nombre de clés privées possibles sur Bitcoin est d’un ordre de magnitude proche de celui des atomes estimés dans l'univers observable.
+Le nombre de possibilités pour une clé privée Bitcoin est donc d'environ $n$, qui est un nombre proche de $1.158 \times 10^{77}$. C'est un nombre tellement grand que si vous choisissez une clé privée aléatoirement, il est statistiquement presque impossible de tomber sur la clé privée d'un autre utilisateur. Pour vous donner une idée, le nombre de clés privées possibles sur Bitcoin est d’un ordre de grandeur proche de celui du nombre estimé d'atomes dans l'univers observable.
 
 Comme nous le verrons dans les prochains chapitres, aujourd'hui, la majorité des clés privées utilisées sur Bitcoin ne sont pas générées aléatoirement mais sont le résultat d'une dérivation déterministe depuis une phrase mnémonique, elle-même pseudo-aléatoire (c'est la fameuse phrase de 12 ou 24 mots). Cette information ne change rien pour l'utilisation des algorithmes de signature comme ECDSA, mais elle permet de recentrer notre vulgarisation sur Bitcoin.
 
@@ -757,7 +757,7 @@ Pour la suite de l'explication, la clé privée sera notée par la lettre minusc
 
 La clé publique est un point sur la courbe elliptique, noté par la lettre majuscule $K$, et est calculée à partir de la clé privée $k$. Ce point $K$ est représenté par une paire de coordonnées $(x, y)$ sur la courbe elliptique, chaque coordonnée étant un entier modulo $p$, le nombre premier définissant le corps fini $\mathbb{F}_p$.
 
-En pratique, une clé publique non compressée est représentée par 512 bits (ou 64 octets), correspondant à deux nombres mis bout-à-bout de 256 bits ($x$ et $y$). Ces nombres, ce sont l'abscisse ($x$) et l'ordonnée ($y$) de notre point sur secp256k1. Si l'on ajoute le préfixe, la clé publique fait au total 520 bits.
+En pratique, une clé publique non compressée est représentée par 520 bits (ou 65 octets), correspondant à deux nombres mis bout-à-bout de 256 bits ($x$ et $y$), précédé du préfixe à 8 bits $0x04$. Ces nombres, ce sont l'abscisse ($x$) et l'ordonnée ($y$) de notre point sur secp256k1.
 
 Cependant, il est aussi possible de représenter la clé publique de manière compressée en utilisant seulement 33 octets (264 bits) en conservant uniquement l'abscisse $x$ de notre point sur la courbe et un octet indiquant la parité de $y$. C'est ce qu'on appelle une clé publique compressée. Je vous en parlerai plus en détail dans les derniers chapitres de cette formation. Mais ce qu'il faut retenir, c'est qu'une clé publique $K$ est un point décrit par $x$ et $y$.
 
@@ -1066,7 +1066,7 @@ Et de même, plusieurs signatures peuvent être agrégées en une seule signatur
 
 ![CYP201](assets/fr/025.webp)
 
-De plus, l’agrégation des signatures améliore la confidentialité. Avec Schnorr, il devient impossible de distinguer une transaction multisignature d'une transaction standard à une seule signature. Cette homogénéité rend les analyses de la chaîne plus difficiles, car elle limite la possibilité d'identifier des empreintes de portefeuille.
+De plus, l’agrégation des signatures améliore la confidentialité. Avec Schnorr, il devient impossible de distinguer une transaction multisignature d'une transaction standard à une seule signature. Cette homogénéité rend les analyses de la chaîne plus difficiles, car elle limite la possibilité d'identifier des empreintes numériques de portefeuille (aucun lien avec les fonctions de hachages ici).
 
 Enfin, Schnorr offre également la possibilité de vérification par lot. En vérifiant plusieurs signatures simultanément, les nœuds peuvent gagner en efficacité, surtout pour les blocs contenant de nombreuses transactions. Cette optimisation réduit le temps et les ressources nécessaires pour valider un bloc.
 
@@ -1163,7 +1163,7 @@ Avant d'entrer dans les détails techniques, il est essentiel de clarifier ce qu
 
 ### Qu'est-ce qu'un portefeuille Bitcoin ?
 
-Contrairement aux portefeuilles classiques, qui permettent de stocker des billets et des pièces physiques, un portefeuille Bitcoin ne "contient" pas de bitcoins à proprement parler. En effet, les bitcoins n'existent pas sous forme physique ou numérique stockable, mais sont représentés par des unités de compte représentées sur le système sous forme d'**UTXOs** (_Unspent Transaction Output_).
+Contrairement aux portefeuilles classiques, qui permettent de stocker des billets et des pièces physiques, un portefeuille Bitcoin ne "contient" pas de bitcoins à proprement parler. En effet, les bitcoins n'existent pas sous forme physique ou numérique stockable, mais sont représentés par des unités de compte elles-même représentées sur le système Bitcoin sous forme d'**UTXOs** (_Unspent Transaction Output_).
 
 Les UTXOs représentent donc des fragments de bitcoins, de tailles variables, pouvant être dépensés à condition que leur _scriptPubKey_ soit satisfait. Pour dépenser ses bitcoins, un utilisateur doit fournir un _scriptSig_ qui déverrouille le _scriptPubKey_ associé à son UTXO. Cette preuve se fait généralement par une signature numérique, générée à partir de la clé privée correspondant à la clé publique présente dans le _scriptPubKey_. Ainsi, l'élément crucial que l’utilisateur doit sécuriser est la clé privée.
 
@@ -1175,9 +1175,9 @@ Les premiers portefeuilles utilisés sur Bitcoin étaient des portefeuilles JBOK
 
 ![CYP201](assets/fr/033.webp)
 
-Si l’on souhaitait utiliser plusieurs clés privées, il fallait alors effectuer autant de sauvegardes pour garantir l’accès aux fonds en cas de problème avec l’appareil hébergeant le portefeuille. Si l’on utilise une seule clé privée, cette structure de portefeuille peut convenir, puisqu’une seule sauvegarde suffit. Cependant, cela pose un problème : sur Bitcoin, il est fortement déconseillé d’utiliser toujours la même clé privée. En effet, une clé privée est associée à une adresse unique, et les adresses de réception sur Bitcoin sont normalement conçues pour un usage unique. À chaque fois que vous recevez des fonds, vous devriez générer une nouvelle adresse vierge.
+Si l’on souhaitait utiliser plusieurs clés privées, il fallait alors effectuer autant de sauvegardes qu'il y a de clés pour garantir l’accès aux fonds en cas de problème avec l’appareil hébergeant le portefeuille. Si l’on utilise une seule clé privée, cette structure de portefeuille peut convenir, puisqu’une seule sauvegarde suffit. Cependant, cela pose un problème : sur Bitcoin, il est fortement déconseillé d’utiliser toujours la même clé privée. En effet, une clé privée est associée à une adresse unique, et les adresses de réception sur Bitcoin sont normalement conçues pour un usage unique. À chaque fois que vous recevez des fonds, vous devriez générer une nouvelle adresse vierge.
 
-Cette contrainte découle du modèle de confidentialité de Bitcoin. En réutilisant une même adresse, on facilite le travail des observateurs externes qui peuvent alors retracer l’ensemble de mes transactions Bitcoin. C’est pourquoi la réutilisation d’une adresse de réception est fortement déconseillée. Or, pour disposer de plusieurs adresses et séparer publiquement nos transactions, il est nécessaire de gérer de multiples clés privées. Dans le cas des portefeuilles JBOK, cela implique de créer autant de sauvegardes qu'il y a de nouvelles paires de clés, une tâche qui peut rapidement devenir complexe et difficile à maintenir pour les utilisateurs.
+Cette contrainte découle du modèle de confidentialité de Bitcoin. En réutilisant une même adresse, on facilite le travail des observateurs externes qui peuvent alors retracer l’ensemble des transactions Bitcoin associées à cette adresse. C’est pourquoi la réutilisation d’une adresse de réception est fortement déconseillée. Or, pour disposer de plusieurs adresses et séparer publiquement nos transactions, il est nécessaire de gérer de multiples clés privées. Dans le cas des portefeuilles JBOK, nous rappelons que cela implique de créer autant de sauvegardes qu'il y a de nouvelles paires de clés, une tâche qui peut rapidement devenir complexe et difficile à maintenir pour les utilisateurs.
 
 Pour en savoir plus sur le modèle de confidentialité de Bitcoin et découvrir les méthodes pour protéger votre vie privée, je vous recommande également de suivre ma formation BTC204 sur Plan ₿ Network :
 
@@ -1185,7 +1185,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Les portefeuilles HD (_Hierarchical Deterministic_)
 
-Pour résoudre cette limitation des portefeuilles JBOK, on a ensuite utilisé une nouvelle structure de portefeuille. En 2012, Pieter Wuille propose une amélioration avec le BIP32, qui introduit les portefeuilles déterministes hiérarchiques. Le principe d’un portefeuille HD est de dériver l'ensemble des clés privées d'une unique source d'information, appelée graine (ou "seed"), de façon déterministe et hiérarchique. Cette graine est générée de manière aléatoire lors de la création du portefeuille et constitue une unique sauvegarde qui permet de recréer l'ensemble des clés privées du portefeuille. Ainsi, l'utilisateur peut générer un très grand nombre de clés privées pour éviter la réutilisation d'adresse et préserver sa confidentialité, tout en ne faisant qu'une seule sauvegarde de son portefeuille via la graine.
+Pour résoudre cette limitation des portefeuilles JBOK, une nouvelle structure de portefeuille a été mise en place. En 2012, Pieter Wuille propose une amélioration avec le BIP32, qui introduit les portefeuilles déterministes hiérarchiques. Le principe d’un portefeuille HD est de dériver l'ensemble des clés privées à partir d'une unique source d'information, appelée graine (ou "seed"), de façon déterministe et hiérarchique. Cette graine est générée de manière aléatoire lors de la création du portefeuille et constitue une unique sauvegarde qui permet de recréer l'ensemble des clés privées du portefeuille. Ainsi, l'utilisateur peut générer un très grand nombre de clés privées pour éviter la réutilisation d'adresse et préserver sa confidentialité, tout en ne faisant qu'une seule sauvegarde de son portefeuille via la graine.
 
 ![CYP201](assets/fr/034.webp)
 
@@ -1220,7 +1220,7 @@ L’entropie initiale utilisée pour un portefeuille HD est généralement de 12
 - **128 bits d’entropie** correspondent à une phrase mnémonique de **12 mots** ;
 - **256 bits d’entropie** correspondent à une phrase mnémonique de **24 mots**.
 
-Dans la plupart des cas, ce nombre aléatoire est généré automatiquement par le logiciel de portefeuille grâce à un PRNG (_Pseudo-Random Number Generator_). Les PRNG sont une catégorie d'algorithmes utilisés pour générer des séquences de nombres à partir d'un état initial, qui disposent de caractéristiques s'approchant d'un nombre aléatoire, sans pour autant en être. Un bon PRNG doit avoir des propriétés telles que l'uniformité des sorties, l'imprévisibilité et la résistance aux attaques prédictives. Contrairement aux générateurs de nombres véritablement aléatoires (TRNG), les PRNG sont en revanche déterministes et reproduisibles.
+Dans la plupart des cas, ce nombre aléatoire est généré automatiquement par le logiciel de portefeuille grâce à un PRNG (_Pseudo-Random Number Generator_). Les PRNG sont une catégorie d'algorithmes utilisés pour générer des séquences de nombres à partir d'un état initial, qui disposent de caractéristiques s'approchant d'un nombre aléatoire, sans pour autant en être un. Un bon PRNG doit avoir des propriétés telles que l'uniformité des sorties, l'imprévisibilité et la résistance aux attaques prédictives. Contrairement aux générateurs de nombres véritablement aléatoires (TRNG), les PRNG sont en revanche déterministes et reproductibles.
 
 ![CYP201](assets/fr/035.webp)
 
@@ -1362,7 +1362,7 @@ Enfin, l'utilisation d'une passphrase est intéressante lorsque l’on souhaite 
 
 Pour que la passphrase soit efficace, elle doit être suffisamment longue et aléatoire. Comme pour un mot de passe fort, je vous recommande de choisir une passphrase la plus longue et aléatoire possible, avec une diversité de lettres, de chiffres et de symboles pour rendre toute attaque par brute force impossible.
 
-Il est également important de bien sauvegarder cette passphrase, de la même manière que la phrase mnémonique. **La perdre revient à perdre l’accès aux bitcoins**. Je vous déconseille fortement de la retenir uniquement de tête, car cela augmente irraisonnablement les risques de perte. L’idéal est de la noter sur un support physique (en papier ou en métal) séparé de la phrase mnémonique. Cette sauvegarde devra évidemment être stockée dans un lieu différent de celui où est stockée votre phrase mnémonique pour éviter que les deux soient compromis simultanément.
+Il est également important de bien sauvegarder cette passphrase, de la même manière que la phrase mnémonique. **La perdre revient à perdre l’accès aux bitcoins**. Je vous déconseille fortement de la retenir uniquement de tête, car cela augmente déraisonnablement les risques de perte. L’idéal est de la noter sur un support physique (en papier ou en métal) séparé de la phrase mnémonique. Cette sauvegarde devra évidemment être stockée dans un lieu différent de celui où est stockée votre phrase mnémonique pour éviter que les deux soient compromis simultanément.
 
 ![CYP201](assets/fr/042.webp)
 
@@ -1465,11 +1465,11 @@ La clé étendue se compose de deux parties :
 
 ### Fonctionnement des clés étendues
 
-Lorsque la clé étendue contient une clé privée, on dit que c'est une clé privée étendue. Elle se reconnait par son préfixe qui contient la mention `prv`. En plus de la clé privée, la clé privée étendue contient donc également le code chaîne associé à la clé. Avec ce type de clé étendue, il est possible de dériver tous les types de clés privées enfants, et donc par addition et doublement de points sur les courbes elliptiques, elle permet également de dériver l’intégralité des clés publiques enfants.
+Lorsque la clé étendue contient une clé privée, on dit que c'est une clé privée étendue. Elle se reconnait par son préfixe qui contient la mention `prv`. En plus de la clé privée, la clé privée étendue contient donc également le code chaîne associé à la clé. Avec ce type de clé étendue, il est possible de dériver tous les types de clés privées enfants. Ainsi, par addition et doublement de points sur les courbes elliptiques, la clé privé étendue permet également de dériver l’intégralité des clés publiques enfants.
 
 Lorsque la clé étendue ne contient pas une clé privée, mais à la place, une clé publique, on dit que c'est une clé publique étendue. Elle se reconnait par son préfixe qui contient la mention `pub`. Évidemment, en plus de la clé, elle contient également le code de chaîne associé. Contrairement à la clé privée étendue, la clé publique étendue permet de dériver uniquement les clés publiques enfants dites "normales" (c'est-à-dire qu'elle ne peut pas dériver les clés enfants "endurcies"). Nous verrons dans le chapitre suivant ce que signifient ces qualificatifs "normale" et "endurcie".
 
-Mais dans tous les cas, la clé publique étendue ne permet pas de dériver des clés privées enfants. Par conséquent, même si une personne a accès à une `xpub`, elle ne pourra pas dépenser les fonds associés, car elle n’aura pas accès aux clés privées correspondantes. Elle pourra seulement dériver les clés publiques enfant pour observer les transactions associées.
+Mais dans tous les cas, la clé publique étendue ne permet pas de dériver des clés privées enfants. Par conséquent, même si une personne a accès à une `xpub` (nous définirons plus tard à quoi correspond le `x`), elle ne pourra pas dépenser les fonds associés, car elle n’aura pas accès aux clés privées correspondantes. Elle pourra seulement dériver les clés publiques enfant pour observer les transactions associées.
 
 Pour la suite, nous adopterons la notation suivante :
 
@@ -1619,7 +1619,7 @@ $$
 \text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 $$
 
-Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique associée à la clé privée parent. La clé publique parent est utilisée ici car nous cherchons à dériver une clé enfant normale, et non endurcie.
+Dans ce calcul, on observe que notre fonction HMAC prend deux entrées : d’abord le code de chaîne parent, puis la concaténation de l’index avec la clé publique associée à la clé privée parent. La clé publique parent est utilisée ici car nous cherchons à dériver une clé enfant normale, et non une clé endurcie.
 
 On a donc maintenant un $\text{hash}$ de 64 octets que l'on va séparer en 2 parties de 32 octets chacune : $h_1$ et $h_2$ :
 
@@ -1631,7 +1631,7 @@ $$
 h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 $$
 
-La clé privée enfant $k_{\text{CHD}}^n$ est alors calculée comme cela :
+La clé privée enfant $k_{\text{CHD}}^n$ est alors calculée comme ceci :
 
 $$
 k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
@@ -1689,7 +1689,7 @@ On peut donc constater que la dérivation normale et la dérivation endurcie fon
 
 #### Dérivation d'une clé publique enfant à partir d’une clé publique parent
 
-Si l'on n'a connaissance que de la clé publique parent $K_{\text{PAR}}$ et du code de chaîne associé $C_{\text{PAR}}$, c'est-à-dire une clé publique étendue, il est possible de dériver des clés publiques enfant $K_{\text{CHD}}^n$, mais seulement pour des clés enfants normales (non endurcies). Ce principe permet notamment de pouvoir surveiller les mouvements d'un compte dans un portefeuille Bitcoin à partir de la `xpub` (_watch-only_).
+Si l'on a uniquement connaissance de la clé publique parent $K_{\text{PAR}}$ et du code de chaîne associé $C_{\text{PAR}}$, c'est-à-dire une clé publique étendue, il est possible de dériver des clés publiques enfant $K_{\text{CHD}}^n$, mais seulement pour des clés enfants normales (non endurcies). Ce principe permet notamment de pouvoir surveiller les mouvements d'un compte dans un portefeuille Bitcoin à partir de la `xpub` (_watch-only_).
 
 Pour réaliser ce calcul, on va calculer le $\text{hash}$ avec un index $i < 2^{31}$ (dérivation normale) :
 
@@ -1837,7 +1837,7 @@ Dans cet exemple :
 - $84'$ indique le standard P2WPKH (SegWit v0) ;
 - $0'$ indique la devise Bitcoin sur le mainnet ;
 - $1'$ correspond au deuxième compte dans le portefeuille ;
-- $0$ désigne que l'adresse est sur la chaîne externe ;
+- $0$ indique que l'adresse est sur la chaîne externe ;
 - $7$ désigne la 8ème adresse externe de ce compte.
 
 ### Résumé de la structure de dérivation
@@ -1861,13 +1861,13 @@ Dans le prochain chapitre, nous allons découvrir ce que sont les "_output scrip
 
 On vous dit souvent que la phrase mnémonique seule suffit pour récupérer l’accès à un portefeuille. En réalité, les choses sont un peu plus complexes. Dans le chapitre précédent, nous avons vu la structure de dérivation du portefeuille HD, et vous avez peut-être constaté que ce processus est assez complexe. Les chemins de dérivation indiquent à un logiciel la direction à suivre pour dériver les clés de l’utilisateur. Cependant, lors de la récupération d’un portefeuille Bitcoin, si l’on ne connaît pas ces chemins, la phrase mnémonique seule ne suffit pas. Elle permet d’obtenir la clé maîtresse et le code de chaîne maître, mais il est ensuite nécessaire de connaître les index utilisés pour atteindre les clés enfant.
 
-Théoriquement, il faudrait donc sauvegarder non seulement la phrase mnémonique de notre portefeuille, mais aussi les chemins vers les comptes que l’on utilise. En pratique, on parvient souvent à retrouver l’accès aux clés enfant sans cette information, à condition d’avoir suivi les standards. En testant un à un chaque standard, on parvient généralement à retrouver l’accès aux bitcoins. Cependant, cela n’est pas garanti et c'est surtout compliqué pour les débutants. Aussi, avec la diversification des types de scripts et l’émergence de configurations plus complexes, ces informations pourraient devenir difficiles à extrapoler, transformant ainsi ces données en informations privées et difficilement récupérables par brute force. C’est pourquoi une innovation a récemment été introduite et commence à être intégrée dans vos logiciels de portefeuille préférés : les _output script descriptors_.
+Théoriquement, il faudrait donc sauvegarder non seulement la phrase mnémonique de notre portefeuille, mais aussi les chemins vers les comptes que l’on utilise. En pratique, on parvient souvent à retrouver l’accès aux clés enfant sans cette information, à condition d’avoir suivi les standards. En testant chaque standard un par un, on parvient généralement à retrouver l’accès aux bitcoins. Cependant, cela n’est pas garanti et c'est surtout compliqué pour les débutants. Aussi, avec la diversification des types de scripts et l’émergence de configurations plus complexes, ces informations pourraient devenir difficiles à extrapoler, transformant ainsi ces données en informations privées et difficilement récupérables par brute force. C’est pourquoi une innovation a récemment été introduite et commence à être intégrée dans vos logiciels de portefeuille préférés : les _output script descriptors_.
 
 ### C'est quoi un "descriptor" ?
 
 Les "_output script descriptors_", ou simplement "_descriptors_", sont des expressions structurées qui décrivent intégralement un script de sortie (_scriptPubKey_) et fournissent toutes les informations nécessaires pour suivre les transactions associées à un script particulier. Ils facilitent la gestion des clés dans les portefeuilles HD en offrant une description standardisée et complète de la structure du portefeuille et des types d’adresses utilisés.
 
-L’avantage principal des descriptors réside dans leur capacité à encapsuler toutes les informations essentielles pour restaurer un portefeuille dans une seule chaîne de caractères (en complément de la phrase de récupération). En sauvegardant un descriptor avec les phrases mnémoniques associées, il devient possible de restaurer les clés privées en connaissant précisément leur position dans la hiérarchie. Pour les portefeuilles multisig, dont la sauvegarde était initialement plus complexe, le descriptor inclut les `xpub` de chaque facteur, ce qui garantit ainsi la possibilité de régénérer les adresses en cas de problème.
+L’avantage principal des descriptors réside dans leur capacité à encapsuler toutes les informations essentielles pour restaurer un portefeuille dans une seule chaîne de caractères (en complément de la phrase de récupération). En sauvegardant un descriptor avec les phrases mnémoniques associées, il devient possible de restaurer les clés privées en connaissant précisément leur position dans la hiérarchie. Pour les portefeuilles multisig, dont la sauvegarde était initialement plus complexe, le descriptor inclut les `xpub` de chaque facteur, ce qui garantit ainsi la possibilité de regénérer les adresses en cas de problème.
 
 ### Construction d'un descriptor
 
@@ -1897,11 +1897,11 @@ Le descriptor inclut également la clé publique étendue utilisée sur ce porte
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Ensuite, la notation `/<0;1>/*` spécifie que le descriptor peut générer des adresses à partir de la chaîne externe (`0`) et interne (`1`), avec un wildcard (`*`) permettant la dérivation séquentielle de plusieurs adresses de manière paramétrable, similaire à la gestion d'un « *gap limit* » sur des logiciels de portefeuille classiques.
+La notation `/<0;1>/*` indique que le descripteur peut produire des adresses issues à la fois de la chaîne externe (`0`) et de la chaîne interne (`1`). Le caractère générique (`*`) en fin de chemin signifie que l’on peut dériver, de manière séquentielle, toutes les clés enfants non renforcées ("*unhardened*") à partir de cette position, qu’il s’agisse d’adresses externes ou internes. Cette syntaxe n’implique pas directement la notion de *gap limit*, qui relève d’un mécanisme spécifique aux portefeuilles pour la détection d’adresses, mais sert ici uniquement à indiquer que toutes les dérivations possibles à cet emplacement sont prises en compte.
 
 Enfin, `#jy0l7nr4` représente la somme de contrôle pour vérifier l'intégrité du descriptor.
 
-Vous savez désormais tout sur le fonctionnement du portefeuille HD sur Bitcoin et sur le processus de dérivation des paires de clés. Cependant, dans les derniers chapitres, nous nous sommes limités à la génération des clés privées et publiques, sans aborder la construction des adresses de réception. Ce sera justement l’objet du prochain chapitre !
+Vous savez désormais tout sur le fonctionnement des portefeuilles HD sur Bitcoin et sur le processus de dérivation des paires de clés. Cependant, dans les derniers chapitres, nous nous sommes limités à la génération des clés privées et publiques, sans aborder la construction des adresses de réception. Ce sera justement l’objet du prochain chapitre !
 
 ## Les adresses de réception
 
@@ -1987,7 +1987,7 @@ Donc pour résumer, ce script permet de vérifier, à l’aide de la signature n
 
 ### Les différents types d'adresses Bitcoin
 
-Au fil de l’évolution de Bitcoin, plusieurs modèles de script standards ont été ajoutés. Chacun d’entre eux utilise un type d’adresse de réception distinct. Voici un aperçu des principaux modèles de script disponibles à ce jour :
+Au cours de l’évolution de Bitcoin, plusieurs modèles de script standards ont été ajoutés. Chacun d’entre eux utilise un type d’adresse de réception distinct. Voici un aperçu des principaux modèles de script disponibles à ce jour :
 
 **P2PK (_Pay-to-PubKey_)** :
 
@@ -2153,7 +2153,7 @@ Une fois le hash encodé en groupes de 5 bits, on ajoute une somme de contrôle 
 
 Pour les anciennes adresses Bitcoin _Legacy_, la somme de contrôle était simplement calculée à partir du début du hash de l'adresse avec la fonction HASH256. Avec l’introduction de SegWit et du format _bech32_, on utilise désormais des codes BCH (_Bose, Ray-Chaudhuri, et Hocquenghem_). Ces codes de correction d’erreurs sont utilisés pour détecter et corriger les erreurs dans des séquences de données. Ils garantissent que les informations transmises arrivent intactes à destination, même en cas d’altérations mineures. Les codes BCH sont utilisés dans de nombreux domaines, tels que les SSD, les DVD et les QR codes. Par exemple, grâce à ces codes BCH, un QR code partiellement masqué peut encore être lu et décodé.
 
-Dans le contexte de Bitcoin, les codes BCH offrent un meilleur compromis entre la taille et la capacité de détection d’erreurs par rapport aux simples fonctions de hachage utilisées pour les adresses _Legacy_. Cependant, sur Bitcoin, les codes BCH sont utilisés uniquement pour détecter les erreurs, et non pour les corriger. Ainsi, un logiciel de portefeuille signalera une adresse de réception incorrecte, mais ne la corrigera pas automatiquement. Cette limitation est délibérée : permettre la correction automatique réduirait la capacité de détection d’erreurs.
+Dans le contexte de Bitcoin, les codes BCH offrent un meilleur compromis entre la taille et la capacité de détection d’erreurs par rapport aux simples fonctions de hachage utilisées pour les adresses _Legacy_. Cependant, sur Bitcoin, les codes BCH sont utilisés uniquement pour détecter les erreurs, et non pour les corriger. Ainsi, un logiciel de portefeuille signalera une adresse de réception incorrecte, mais ne la corrigera pas automatiquement. Cette limitation est faite délibérément, car permettre la correction automatique réduirait la capacité de détection d’erreurs.
 
 Pour calculer la somme de contrôle avec les codes BCH, nous devons préparer plusieurs éléments :
 

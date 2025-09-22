@@ -1,0 +1,9 @@
+question: IPv5 (Stream Protocol, ST) 的主要目的是什麼？
+answer: 確保特定流量的服務品質
+wrong_answers:
+  - 擴充 IP 位址容量
+  - 提供與 IPv6 的向後相容性
+  - 縮小 TCP/IP 網路封包的大小
+explanation: |
+  IPv5 (ST) 旨在透過保證頻寬和優先順序，為 VoIP 等多媒體串流提供服務品質 (QoS)。
+reviewed: false

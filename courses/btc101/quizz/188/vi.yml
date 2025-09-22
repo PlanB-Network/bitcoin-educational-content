@@ -1,9 +1,11 @@
-question: BTCMap là gì?
-answer: Một nền tảng liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin.
+question: Những hành động nào sau đây có thể giúp những người muốn sử dụng Bitcoin trong cuộc sống hàng ngày?
+answer: Có một danh sách tất cả các nhà bán lẻ chấp nhận Bitcoin.
 wrong_answers:
-  - Bản đồ tất cả các mỏ Bitcoin trên thế giới.
-  - Bản đồ tất cả các sàn giao dịch Bitcoin trên thế giới.
-  - Bản đồ tất cả người dùng Bitcoin trên thế giới.
+  - Tăng giá của Bitcoin.
+  - Giảm số lượng Bitcoin.
+  - Hạn chế việc sử dụng Bitcoin.
 explanation: >-
-  BTCMap là một dự án mã nguồn mở và cộng tác liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin cũng như các cộng đồng Bitcoin khác nhau trên thế giới.
+  Một cách để tạo điều kiện thuận lợi cho việc sử dụng Bitcoin trong các giao dịch hàng ngày
+  là liệt kê tất cả các nhà bán lẻ chấp nhận Bitcoin. Điều này có thể được thực hiện thông qua các nền tảng
+  như BTCMap.
 reviewed: true

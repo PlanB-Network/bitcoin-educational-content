@@ -1,0 +1,9 @@
+question: Ni irihe tandukaniro rikomeye riri hagati y’ugucuruza n’ugushiramwo amahera?
+answer: Ubucuruzi ni ubw’igihe gito kandi ni ubw’ugutekereza ku bintu, gushiramwo amahera ni ubw’igihe kirekire kandi ni ingamba
+wrong_answers:
+  - Ubucuruzi bujanye n'amahera adahinduka, gushiramwo amahera birimwo amahera ahinduka
+  - Ubucuruzi bushingiye ku gusuzuma ivy'ishimikiro, gushiramwo amahera ku migenderanire mikuru
+  - Gucuruza ntaco bitera nk'ugushiramwo amahera
+explanation: |
+  Ubucuruzi busaba guhora bugenzurwa n’ubuhinga bwo gukora, mu gihe gushiramwo amahera bishingiye ku ciyumviro c’igihe kirekire.
+reviewed: false

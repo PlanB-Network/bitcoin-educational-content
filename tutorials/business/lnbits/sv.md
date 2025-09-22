@@ -614,7 +614,7 @@ Om du är nybörjare kan du börja med denna [MakerBits-presentationer] (https:/
 - Genom att lägga till lightning:lnurl1234xyz skapas en QR som begär att öppna användarens Wallet för denna Invoice vid skanning (senast installerade lightning-app på iOS, inställning i Android)
 - Om du flashar en esp32 via webben fungerar det bara med dessa webbläsare (TL:DR Chrome, Edge & Opera).
 - Observera denna PIN-OUT-referens för esp
-- När du använder FOSSoftware eller FOSGuides, vänligen länka alltid författaren. Alla älskar att se sitt barn växa och det initierar också en byggkedja som är ganska fantastisk att se :)
+- När du använder FOSSoftware eller FOSGuides, vänligen länka alltid författaren. Alla älskar att se sitt barn växa och det initierar också en byggkedja som är ganska fantastisk att se:)
 
 
 Kom till [Makerbits Telegram Group] (https://t.me/makerbits) om du behöver hjälp med ett projekt - vi har dig!

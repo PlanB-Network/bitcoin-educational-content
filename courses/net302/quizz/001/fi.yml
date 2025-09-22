@@ -1,0 +1,9 @@
+question: Mikä topologia yhdistää kaikki laitteet yhteen keskitettyyn pisteeseen?
+answer: Tähti
+wrong_answers:
+  - Sormus
+  - Bussi
+  - Mesh
+explanation: |
+  Tähtitopologiassa jokainen laite on yhteydessä keskuslaitteeseen, mikä helpottaa hallintaa ja ylläpitoa.
+reviewed: false

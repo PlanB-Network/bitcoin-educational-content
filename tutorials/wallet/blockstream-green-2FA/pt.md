@@ -4,6 +4,12 @@ description: Configurar um multisig 2/2 na Carteira Verde
 ---
 ![cover](assets/cover.webp)
 
+___
+
+***Observação:** A partir de maio de 2025, não será mais possível ativar novas contas protegidas com autenticação de dois fatores (2FA). Este recurso está disponível apenas para usuários que já haviam ativado esse tipo de conta anteriormente.*
+
+___
+
 Uma carteira de software é uma aplicação instalada num computador, smartphone ou outro dispositivo ligado à Internet, que lhe permite gerir e proteger as chaves da sua carteira Bitcoin. Ao contrário das carteiras de hardware, que isolam as chaves privadas, as carteiras "quentes" funcionam, portanto, num ambiente potencialmente exposto a ciberataques, aumentando o risco de pirataria e roubo.
 
 As carteiras de software devem ser utilizadas para gerir quantidades razoáveis de bitcoins, especialmente para transacções diárias. Podem também ser uma opção interessante para pessoas com activos bitcoin limitados, para quem o investimento numa carteira de hardware pode parecer desproporcionado. No entanto, a sua exposição constante à Internet torna-as menos seguras para armazenar as suas poupanças a longo prazo ou grandes fundos. Para estes últimos, é melhor optar por soluções mais seguras, como as carteiras de hardware.
@@ -20,7 +26,7 @@ Green é uma aplicação particularmente fácil de utilizar, o que a torna inter
 
 A Blockstream Green também suporta a rede Liquid, uma sidechain Bitcoin desenvolvida pela Blockstream para transacções rápidas e confidenciais fora da blockchain principal. Neste tutorial, concentramo-nos exclusivamente no Bitcoin, mas também criei outro tutorial para aprender a usar o Liquid no Green :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## opção 2/2 multisig (2FA)
 
@@ -40,7 +46,7 @@ Outra desvantagem deste método de segurança é o facto de ter de utilizar mode
 
 Se preferir não utilizar a opção 2FA e desejar simplesmente criar uma carteira "*singlesig*" no Green, convido-o a consultar este outro tutorial :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Instalação e configuração do software Blockstream Green
 
@@ -54,7 +60,7 @@ Para os utilizadores de Android, também é possível instalar a aplicação atr
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Inicie a aplicação e selecione a caixa "Aceito as condições...*".
+Inicie a aplicação e selecione a caixa "Aceito as condições...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -106,7 +112,7 @@ Green vai então fornecer-lhe a sua frase mnemónica. Antes de continuar, certif
 
 Permite-lhe restaurar o acesso às suas chaves locais em caso de perda, roubo ou quebra do seu telemóvel. Por isso, é muito importante fazer uma cópia de segurança cuidadosa **num suporte físico (não digital)** e guardá-la num local seguro. Pode escrevê-la num pedaço de papel ou, para maior segurança, se for uma carteira grande, recomendo gravá-la num suporte de aço inoxidável para a proteger do risco de incêndio, inundação ou desmoronamento (para uma carteira quente concebida para proteger uma pequena quantidade de bitcoins, uma simples cópia de segurança em papel é provavelmente suficiente).
 
-*Obviamente, nunca deve partilhar estas palavras na Internet, como eu faço neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
+*Obviamente, nunca deve partilhar estas palavras na Internet, como eu faço neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial.*
 
 ![GREEN 2FA MULTISIG](assets/fr/16.webp)
 
@@ -160,7 +166,7 @@ Na sua aplicação de autenticação, adicione um novo código e, em seguida, di
 
 ![GREEN 2FA MULTISIG](assets/fr/26.webp)
 
-*Obviamente, nunca deves partilhar esta chave e o código QR na Internet, como estou a fazer neste tutorial. Esta carteira de amostra só será utilizada na Testnet e será eliminada no final do tutorial
+*Obviamente, nunca deves partilhar esta chave e o código QR na Internet, como estou a fazer neste tutorial. Esta carteira de amostra só será utilizada na Testnet e será eliminada no final do tutorial.*
 
 Clique no botão "*Continuar*".
 
@@ -264,4 +270,4 @@ Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Si
 
 Também recomendo que você verifique este outro tutorial abrangente sobre o aplicativo móvel Blockstream Green para configurar uma carteira Liquid :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

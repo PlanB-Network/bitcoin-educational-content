@@ -1,5 +1,5 @@
 ---
-name: मिनी Miner ब्रेन्स
+name: Braiins Mini Miner
 description: घर से आसानी से Mining बनाना।
 ---
 ![cover](assets/cover.webp)

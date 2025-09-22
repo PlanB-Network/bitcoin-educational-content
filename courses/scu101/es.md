@@ -306,8 +306,12 @@ Con un gestor de contraseñas, ya no tienes que preocuparte por olvidar tus cont
 - Bitwarden: Es una herramienta de código abierto, lo que significa que puedes revisar su código para verificar su seguridad. Aunque Bitwarden ofrece un servicio de alojamiento, también permite a los usuarios de conservar localmente sus propios datos (self-hosting), lo que significa que puedes controlar dónde se almacenan tus contraseñas, ofreciendo potencialmente más seguridad y control.
 
 - KeePass: Es una solución de código abierto que está principalmente destinada al alojamiento propio. Tus datos se almacenan localmente de forma predeterminada, pero puedes sincronizar la base de datos de contraseñas utilizando diferentes métodos si lo deseas. KeePass es ampliamente reconocido por su seguridad y flexibilidad, aunque puede ser un poco menos intuitivo para los principiantes.
-  ![](assets/notext/18.webp)
-  (Nota: Elegir entre un servicio de terceros o un servicio de autohospedaje depende de tu nivel de comodidad tecnológica y de cómo priorices el control frente a la conveniencia. Los servicios de terceros suelen ser más convenientes para la mayoría de las personas, mientras que el autohospedaje requiere más conocimientos técnicos pero puede ofrecer más control y tranquilidad en términos de seguridad.)
+
+![](assets/notext/18.webp)
+
+Para soluciones autoalojadas como KeePass, es posible sincronizar su base de datos entre varios dispositivos sin utilizar servicios centralizados de terceros. Herramientas como **Syncthing** permiten una sincronización cifrada y descentralizada directamente entre sus dispositivos. Este enfoque mantiene sus datos bajo su control mientras garantiza su disponibilidad en todos sus dispositivos.
+
+(Nota: Elegir entre un servicio de terceros o un servicio de autohospedaje depende de tu nivel de comodidad tecnológica y de cómo priorices el control frente a la conveniencia. Los servicios de terceros suelen ser más convenientes para la mayoría de las personas, mientras que el autohospedaje requiere más conocimientos técnicos pero puede ofrecer más control y tranquilidad en términos de seguridad.)
 
 ### ¿Qué es una buena contraseña?
 
@@ -341,7 +345,9 @@ Este segundo paso puede ser:
 - Un código temporal enviado por SMS.
 - Un código generado por una aplicación como Google Authenticator o Authy.
 - Una llave electronica de seguridad que insertas fisicamente en tu computadora.
+
   ![](assets/notext/19.webp)
+
   Con la autenticación de dos factores (2FA), incluso si un pirata informático obtiene tu contraseña, no podrá acceder a tu cuenta sin este segundo factor de verificación. Esto hace que la 2FA sea esencial para proteger tus cuentas en línea contra accesos no autorizados.
 
 ### ¿Qué opción elegir?
@@ -353,6 +359,8 @@ Las diferentes opciones para la autenticación fuerte ofrecen niveles variables 
 - Los tokens físicos, como las llaves USB o las tarjetas inteligentes, ofrecen una seguridad óptima al generar una clave privada única para cada sitio y verificar la URL antes de autorizar la conexión.
 
 Para una seguridad óptima con una autenticación mas fuerte, se recomienda utilizar una dirección de correo electrónico segura, un administrador de contraseñas seguro y adoptar el 2FA utilizando YubiKey. También se recomienda comprar dos YubiKey para prever la pérdida o el robo, por ejemplo, mantener una copia de seguridad en casa y otra en tu persona.
+
+En cuanto a las amenazas potenciales para la autenticación de dos factores (2FA) mediante SIM, un ejemplo común es un ataque de intercambio de SIM, donde un atacante roba el número de teléfono de un usuario al vincularlo a una tarjeta SIM controlada por el atacante. Hay varias formas en que un atacante puede llevar a cabo el ataque; sin embargo, esta amenaza suele ser una preocupación importante solo para individuos de alto perfil y personas de interés.
 
 La biometría se puede utilizar como un sustituto, pero es menos segura que la combinación de conocimiento y posesión. Los datos biométricos deben permanecer en el dispositivo de autenticación y no deben divulgarse en línea. Es importante tener en cuenta el modelo de amenaza asociado con los diferentes métodos de autenticación y adaptar tus prácticas en consecuencia.
 

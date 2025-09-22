@@ -1,9 +1,9 @@
-question: ¿Qué operaciones definen la evolución de un contrato inteligente en RGB?
-answer: Transición de estados, génesis y ampliación de estados
+question: ¿Qué operaciones definen la evolución de un smart contract en RGB?
+answer: State Transition, Genesis, y State Extension
 wrong_answers:
-  - Creación del sello, cumplimiento del contrato y validación final
-  - Transferencia de UTXO, generación de pruebas y compromiso de hash
-  - Paquetes de transición, sellos de un solo uso y creación de valencias
+  - Seal Creation, Contract Observance, y Final Validation
+  - UTXO Transfer, Proof Generation, y Hash Commitment
+  - Transition Bundles, Single-use Seals, y Valency Creation
 explanation: |
   Estas operaciones crean o modifican el estado del contrato, al tiempo que garantizan su validez mediante anclas Bitcoin.
 reviewed: false

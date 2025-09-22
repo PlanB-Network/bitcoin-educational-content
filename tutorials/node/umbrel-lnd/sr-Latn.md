@@ -1,6 +1,6 @@
 ---
 name: Umbrel LND
-description: Napredni vodič za instalaciju i konfiguraciju Lightning Network Daemon (LND) na Umbrel
+description: Napredni vodič za instalaciju i konfiguraciju Lightning Network Daemon (LND) na Umbrel-u
 ---
 ![cover](assets/cover.webp)
 
@@ -19,7 +19,7 @@ Ovaj napredni vodič vas vodi korak-po-korak kroz instalaciju, konfiguraciju i k
 
 
 
-Pre nego što implementirate Lightning, potrebno je da imate potpuno operativan Bitcoin čvor na Umbrel-u. Ovo uključuje instalaciju Umbrel-a (na Raspberry Pi, NAS ili drugoj mašini) i potpunu sinhronizaciju Blockchain Bitcoin.
+Pre nego što implementirate Lightning, potrebno je da imate potpuno operativan Bitcoin čvor na Umbrel-u. Ovo uključuje instalaciju Umbrel-a (na Raspberry Pi, NAS ili drugoj mašini) i potpunu sinhronizaciju Bitcoin Blockchain-a .
 
 
 
@@ -33,19 +33,19 @@ Proverite da je vaš Bitcoin čvor ažuriran i ispravno radi, jer Lightning Netw
 
 
 
-## 2. Uvod u Lightning Network
+## 2. Uvod u Lightning mrežu
 
 
 
-Lightning Network je drugi Layer protokol dizajniran da ubrza i smanji troškove Bitcoin transakcija tako što ih obavlja izvan glavnog Blockchain.
+Lightning mreža je protokol drugog sloja, osmišljen da ubrza i smanji troškove Bitcoin transakcija tako što ih obavlja van glavnog blokčejna.
 
 
 
-U konkretnim terminima, Lightning koristi mrežu platnih kanala između čvorova: dva korisnika otvaraju kanal blokiranjem On-Chain BTC (inicijalna transakcija), zatim mogu trenutno Exchange plaćanja unutar ovog kanala. Ove off-chain transakcije nisu zabeležene na Blockchain, otuda njihova brzina i praktično nulti trošak.
+U konkretnim terminima, Lightning koristi mrežu platnih kanala između čvorova: dva korisnika otvaraju kanal blokiranjem on-chain BTC-a (inicijalna transakcija), zatim mogu trenutno razmenjivati plaćanja unutar ovog kanala. Ove off-chain transakcije nisu zabeležene na Blockchain-u, otuda njihova brzina i praktično nulti trošak.
 
 
 
-Plaćanja se mogu usmeravati kroz više kanala (zahvaljujući posredničkim čvorovima) kako bi stigla do bilo kog primaoca na mreži, omogućavajući gotovo neograničenu skalu trenutnih transakcija. Lightning tako nudi veoma brze, niskotarifne transakcije, idealne za svakodnevna plaćanja ili mikro-transakcije, dok smanjuje opterećenje na Blockchain Bitcoin.
+Plaćanja se mogu usmeravati kroz više kanala (zahvaljujući posredničkim čvorovima) kako bi stigla do bilo kog primaoca na mreži, omogućavajući gotovo neograničen broj trenutnih transakcija. Lightning tako nudi veoma brze, niskotarifne transakcije, idealne za svakodnevna plaćanja ili mikro-transakcije, dok smanjuje opterećenje na Bitcoin Blockchain-u.
 
 
 
@@ -53,13 +53,13 @@ Da bi radio, Lightning čvor mora biti stalno povezan na mrežu i komunicirati s
 
 
 
-Za potpuni teorijski uvod u Lightning Network, preporučujemo da pohađate naš posvećeni kurs :
+Za potpuni teorijski uvod u Lightning mrežu, preporučujemo da pohađate naš posvećeni kurs :
 
 
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Ovaj kurs će vam pružiti temeljno razumevanje osnovnih pojmova Lightning Network, pre nego što pređete na vežbanje sa vašim LND čvorom.
+Ovaj kurs će vam pružiti temeljno razumevanje osnovnih pojmova Lightning mreže, a zatim će vas voditi ka praktičnom radu sa vašim LND čvorom.
 
 
 
@@ -67,7 +67,7 @@ Ovaj kurs će vam pružiti temeljno razumevanje osnovnih pojmova Lightning Netwo
 
 
 
-Rukovanje sopstvenim Lightning čvorom (LND) na Umbrel-u vam daje potpunu suverenost nad vašim sredstvima i kanalima, u poređenju sa kustodijalnim ili polu-kustodijalnim rešenjima.
+Rukovanje sopstvenim Lightning čvorom (LND) na Umbrel-u vam daje potpunu suverenost nad vašim sredstvima i kanalima, u poređenju sa čuvanjem sredstava kod treće strane ili polu-povereničkim rešenjima.
 
 
 
@@ -75,7 +75,7 @@ Rukovanje sopstvenim Lightning čvorom (LND) na Umbrel-u vam daje potpunu suvere
 
 
 
-**Rešenja za čuvanje (npr: Wallet ili Satoshi)** :
+**Rešenja za čuvanje (npr: Wallet of Satoshi)**:
 
 
 
@@ -87,12 +87,12 @@ Rukovanje sopstvenim Lightning čvorom (LND) na Umbrel-u vam daje potpunu suvere
 
 
 
-**Portfelji potrošača koji nisu roba (npr. Phoenix, Breez)** :
+**Prilagođeni novčanici  (npr. Phoenix, Breez)** :
 
 
 
 
-- Korisnici zadržavaju svoje privatne ključeve i time Ownership svog BTC
+- Korisnici zadržavaju svoje privatne ključeve i time vlasništvo nad svojim BTC-om
 - Nema potpunog upravljanja čvorovima - aplikacija upravlja kanalima u pozadini
 - Kompromis između jednostavnosti i suvereniteta
 - Zavisnost od infrastrukture dobavljača za likvidnost
@@ -100,7 +100,7 @@ Rukovanje sopstvenim Lightning čvorom (LND) na Umbrel-u vam daje potpunu suvere
 
 
 
-**Self-hosted LND čvor (Umbrel)** :
+**Samostalno hostovan LND čvor (Umbrel)** :
 
 
 
@@ -134,7 +134,7 @@ Jednom kada se vaš Umbrel čvor (Bitcoin) sinhronizuje, pratite ove korake :
 
 
 
-Instalirajte aplikaciju Lightning Node iz odeljka "App Store" na Interface Umbrel.
+Preuzmite i instalirajte aplikaciju Lightning čvora preko „App Store“ dela Umbrel interfejsa.
 
 
 
@@ -150,11 +150,11 @@ LND (Lightning Network Daemon) će biti implementiran na vašem Umbrel-u kao apl
 
 
 
-Možete birati između kreiranja novog čvora ili obnavljanja jednog iz sigurnosne kopije/seed. Za prvu instalaciju, izaberite kreiranje novog čvora. Aplikacija Lightning Node će generate 24-rečnu Mnemonic frazu (vaš seed Lightning): zapišite je vrlo pažljivo (idealno offline, na papiru), jer će biti korišćena za obnavljanje vaših Lightning sredstava ako bude potrebno.
+Možete birati između kreiranja novog čvora ili obnavljanja jednog iz sigurnosne kopije/seed. Za prvu instalaciju, izaberite kreiranje novog čvora. Aplikacija Lightning Node će generisati Mnemonic frazu sa 24 reči (vaš Lightning seed): zapišite je vrlo pažljivo (idealno offline, na papiru), jer će biti korišćena za obnavljanje vaših Lightning sredstava ako bude potrebno.
 
 
 
-**Napomena: Na novijim verzijama Umbrel-a, instalacija Lightning aplikacije obezbeđuje ovih 24 reči seed (sam Bitcoin Umbrel čvor to ne čini).
+**Napomena:** Kod novijih verzija Umbrela, prilikom instalacije Lightning aplikacije dobija se seed od 24 reči (dok sam Bitcoin Umbrel čvor to ne obezbeđuje).
 
 
 
@@ -162,7 +162,7 @@ Možete birati između kreiranja novog čvora ili obnavljanja jednog iz sigurnos
 
 
 
-Nakon inicijalizacije, pristupićeš glavnom Interface Lightning Node-a.
+Nakon inicijalizacije, pristupićeš glavnom interfejsu Lightning Node-a.
 
 
 
@@ -176,7 +176,7 @@ U postavkama aplikacije pronaći ćete niz važnih opcija:
 
 
    - Konsultujte svoj ID čvora (jedinstveni identifikator vašeg čvora)
-   - Povezivanje spoljnog Wallet (Poveži Wallet)
+   - Povezivanje spoljnog novčanika (Connect Wallet)
    - Prikaži tajne reči
    - Pristupite naprednim postavkama
    - Oporavi kanale
@@ -198,7 +198,7 @@ Ove opcije su ključne za sigurnost i upravljanje vašim Lightning čvorom. Obav
 - [Umbrel Community](https://community.umbrel.com) - Forum za diskusiju gde korisnici mogu deliti probleme i rešenja u vezi sa Umbrelom i njegovim ekosistemom
 
 
-> - [Umbrel App Store - Lightning Node (LND)](https://apps.umbrel.com/app/lightning) - Opis funkcija aplikacije Lightning Node na Umbrel
+> - [Umbrel App Store - Lightning Node (LND)](https://apps.umbrel.com/app/lightning) - Opis funkcija aplikacije Lightning Node na Umbrel-u
 > - [LND Docs - Quickstart](https://docs.lightning.engineering/lightning-network-tools/LND/run-LND) - Zvanična LND dokumentacija
 
 ### 4.2 Otvaranje Lightning kanala
@@ -249,7 +249,7 @@ Na početnoj stranici Lightning Node-a, kliknite na dugme "+ OPEN CHANNEL"
 
 
 
-Na stranici za konfiguraciju kanala :
+Na stranici za konfiguraciju kanala:
 
 
 
@@ -264,7 +264,7 @@ Na stranici za konfiguraciju kanala :
 
 
 
-Jednom kada je transakcija poslana, kanal će se pojaviti kao "otvaranje" na početnoj stranici. Sačekajte potvrdu On-Chain transakcije.
+Nakon što je transakcija poslata, kanal će se na početnoj stranici prikazati kao „u procesu otvaranja“ (eng. opening). Sačekajte potvrdu On-Chain transakcije.
 
 
 
@@ -301,12 +301,12 @@ Lightning Network+ je dostupan u Umbrel App Store-u kako bi olakšao primanje no
 
 
 
-Glavni Interface nudi tri važne opcije:
+Glavni interfejs nudi tri važne opcije:
 
 
 
 
-- "Likvidnosne zamene: istražite dostupne ponude zamene
+- "Likvidnosne zamene" (eng. Liquidity swaps): istražite dostupne ponude zamene
 - "Open For Me": filtriraj zamene za koje ispunjavaš uslove
 - "To Docs": pristup dokumentaciji
 
@@ -316,7 +316,7 @@ Glavni Interface nudi tri važne opcije:
 
 
 
-Napomena: Ako još nemate otvoren kanal, videćete ovu poruku o grešci kada kliknete na "Otvori za mene".
+Napomena: Ako još nemate otvoren kanal, videćete ovu poruku o grešci kada kliknete na "Open for me".
 
 
 
@@ -324,7 +324,7 @@ Napomena: Ako još nemate otvoren kanal, videćete ovu poruku o grešci kada kli
 
 
 
-Stranica "Liquidity Swaps" prikazuje sve dostupne ponude zamene na mreži.
+Stranica "Liquidity Swaps" prikazuje sve dostupne ponude zamena na mreži.
 
 
 
@@ -340,7 +340,7 @@ Stranica "Liquidity Swaps" prikazuje sve dostupne ponude zamene na mreži.
 
 
 
-Primer detalja zamene :
+Primer detalja zamene:
 
 
 
@@ -360,7 +360,7 @@ Da biste daljinski kontrolisali vaš Lightning čvor (pametni telefon), možete 
 
 
 
-**Konfiguracija Zeusa sa Umbrel :**
+**Konfiguracija Zeusa za Umbrel:**
 
 
 
@@ -371,7 +371,7 @@ Da biste daljinski kontrolisali vaš Lightning čvor (pametni telefon), možete 
 Uverite se da je vaš Umbrel čvor dostupan (podrazumevano putem Tor-a).
 
 
-U Interface Umbrelu, otvorite aplikaciju Lightning Node, zatim kliknite na dugme "Connect Wallet" kako je naznačeno strelicom.
+U Umbrelu interfejsu, otvorite aplikaciju Lightning Node, zatim kliknite na dugme "Connect Wallet" kako je naznačeno strelicom.
 
 
 
@@ -394,7 +394,7 @@ Na vašem telefonu :
 
    - Otvorite Zeus
    - Na početnoj stranici kliknite na "Advanced setup" da povežete svoj Lightning čvor.
-   - U parametrima, izaberite "Kreiraj ili poveži Wallet"
+   - U parametrima, izaberite "Create or connect a Wallet" ili u prevodu "Kreiraj ili poveži novčanik"
 
 
 
@@ -426,15 +426,15 @@ Podrazumevano, veza Zeus ↔ Umbrel je putem Tor-a. Za bržu vezu, postoje dve a
 
 
 
-**Lightning Node Connect (LNC)** :
+**Lightning Node Connect (LNC)**:
 
 
 
 
    - Mehanizam šifrovane veze Lightning Labs
    - Instalirajte aplikaciju Lightning Terminal na Umbrel (uključuje pristup LNC-u)
-   - generate QR kod za povezivanje u Lightning Terminalu (Connect → Connect Zeus via LNC)
-   - Skeniraj to u Zeus (izaberi "LNC" kao tip konekcije)
+   - generišite QR kod za povezivanje u Lightning Terminalu (Connect → Connect Zeus via LNC)
+   - Skeniraj to u Zeus aplikaciji (izaberi "LNC" kao tip konekcije)
 
 
 
@@ -466,7 +466,7 @@ Upravljanje samostalno hostovanim Lightning čvorom zahteva posebnu pažnju prem
 
 
 
-### Bekap i sigurnost za vaš čvor
+### Rezervna kopija i sigurnost za vaš čvor
 
 
 
@@ -478,29 +478,29 @@ Vašem Lightning Umbrel čvoru su potrebne dve vrste rezervnih kopija:
 
 
 
-**Rečenica seed (24 reči)**
+**Seed fraza (24 reči)**
 
 
 
 
 - Obnavlja On-Chain sredstva
-- Potrebno je ponovo kreirati vaš Wallet Lightning
+- Neophodna za ponovno kreiranje vašeg Lightning novčanika
 - Za ultra-sigurno skladištenje (offline, na papiru)
 
 
 
-**Static Channel Backup (SCB)** fajl
+**Fajl statičnog bekapa kanala (SCB)** 
 
 
 
 
 - Sadrži informacije o Lightning kanalu
 - Omogućava prisilno zatvaranje kanala u slučaju pada sistema
-- Važno:** Nikada ručno ne čuvajte datoteku `channel.db` (rizik od kazni)
+- **Važno:** Nikada ručno ne čuvajte datoteku `channel.db` (rizik od kaznenih penala)
 
 
 
-**Ručna procedura za pravljenje rezervne kopije
+**Ručna procedura za pravljenje rezervne kopije**
 
 
 
@@ -528,7 +528,7 @@ Umbrel ima sofisticirani automatski sistem za pravljenje rezervnih kopija koji o
 
 
 
-*Zaštita podataka:*
+*Zaštitu podataka:*
 
 
 
@@ -536,7 +536,7 @@ Umbrel ima sofisticirani automatski sistem za pravljenje rezervnih kopija koji o
 - Šifrovanje na strani klijenta pre prenosa
 - Slanje putem Tor mreže
 - Podaci dopunjeni nasumičnim popunjavanjem
-- Ključ za šifrovanje jedinstven za vaš uređaj
+- Jedinstven ključ za šifrovanje za vaš uređaj
 
 
 
@@ -546,7 +546,7 @@ Umbrel ima sofisticirani automatski sistem za pravljenje rezervnih kopija koji o
 
 
 - Trenutne sigurnosne kopije pri promenama statusa
-- Lažni" rezervni podaci u nasumičnim intervalima
+- "Lažni" rezervni podaci u nasumičnim intervalima
 - Sakrij promene veličine rezervne kopije
 - Zaštita protiv vremenske analize
 
@@ -557,8 +557,8 @@ Umbrel ima sofisticirani automatski sistem za pravljenje rezervnih kopija koji o
 
 
 
-- Identifikator i ključ izvedeni iz vašeg seed Umbrel
-- Potpuna restauracija moguća samo sa frazom Mnemonic
+- Identifikator i ključ izvedeni iz vašeg Umbrel seed-a
+- Potpuna restauracija moguća samo sa Mnemonic frazom 
 - Automatski oporavak najnovijih rezervnih kopija
 - Vratite postavke kanala i podatke
 
@@ -574,12 +574,12 @@ Ako je vaš čvor izgubljen (kvar hardvera, oštećena SD kartica) :
 
 
 - Ponovo instaliraj Umbrel
-- Unesite vaš 24-reči seed u aplikaciju Lightning
+- Unesite vašs seed od 24-reči u Lightning aplikaciju 
 - Uvezite SCB datoteku tokom restauracije
 
 
 
-LND će kontaktirati svakog partnera vaših starih kanala kako bi ih zatvorio i povratio vaš deo sredstava On-Chain. Kanali će biti trajno zatvoreni (da bi se ponovo otvorili ako bude potrebno).
+LND će kontaktirati svakog partnera vaših starih kanala kako bi ih zatvorio i povratio vaš deo On-Chain sredstava. Kanali će biti trajno zatvoreni (da bi se ponovo otvorili ako bude potrebno).
 
 
 
@@ -593,7 +593,7 @@ Idealno, ostavite svoj čvor online što je češće moguće. U slučaju dužeg 
 
 
 - Zlonamerni čvor mogao bi pokušati emitovati staro stanje kanala
-- Munja omogućava "period protesta" (oko 2 nedelje na LND)
+- Lightning omogućava „period žalbe“ (oko 2 nedelje na LND-u).
 - Ako ćete biti odsutni duže vreme, postavite Watchtower
 
 
@@ -603,7 +603,7 @@ Idealno, ostavite svoj čvor online što je češće moguće. U slučaju dužeg 
 
 
 
-- U naprednim postavkama LND, dodajte URL pouzdanog Watchtower servera
+- U naprednim LND postavkama, dodajte URL pouzdanog Watchtower servera
 - Možete koristiti javnu uslugu ili instalirati svoj vlastiti Watchtower
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Ažuriranja softvera:** Održavajte Umbrel i LND ažurnim (bezbednosne ispravke)
-- Zaštita hardvera:** Koristite stabilan sistem (Raspberry Pi sa SSD-om, mini-PC) i UPS
-- Mreža sigurnost:** Zadrži podrazumevanu Tor konfiguraciju, promeni Umbrel administratorsku lozinku (podrazumevano: "moneyprintergobrrr")
-- Šifrovanje:** Omogućite šifrovanje diska ako je moguće
+- **Ažuriranja softvera:** Održavajte Umbrel i LND ažurnim (bezbednosne ispravke)
+- **Zaštita hardvera:** Koristite stabilan sistem (Raspberry Pi sa SSD-om, mini-PC) i UPS
+- **Mreža sigurnost:** Zadrži podrazumevanu Tor konfiguraciju, promeni Umbrel administratorsku lozinku (podrazumevano: "moneyprintergobrrr")
+- **Šifrovanje:** Omogućite šifrovanje diska ako je moguće
 
 
 
@@ -639,7 +639,7 @@ Umbrelova aplikacija Lightning Node pruža osnovne funkcije za upravljanje vaši
 
 
 
-Interface moderan veb-zasnovan sistem za upravljanje Lightning čvorovima koji se može instalirati putem Umbrel App Store-a.
+Moderni web interfejs za upravljanje Lightning čvorom, koji se može instalirati putem Umbrel App Store-a.
 
 
 
@@ -652,19 +652,19 @@ Interface moderan veb-zasnovan sistem za upravljanje Lightning čvorovima koji s
 - Integrisani alati za rebalansiranje
 - Podrška za naplatu putem više puteva (MPP)
 - Generisanje QR koda LNURL
-- Upravljanje transakcijama On-Chain
+- Upravljanje On-Chain transakcijama 
 
 
 
-ThunderHub je idealan za praćenje aktivnog ruting čvora i izvođenje jednostavnog balansiranja.
+ThunderHub je idealan za praćenje aktivnog čvora za rutiranje i obavljanje jednostavnog balansiranja kanala.
 
 
 
-### Vozi munju (RTL)
+### Ride The Lightning (RTL)
 
 
 
-Interface web kompatibilan sa nekoliko Lightning implementacija (LND, Core Lightning, Eclair).
+Web kompatibilan interfejs sa nekoliko Lightning implementacija (LND, Core Lightning, Eclair).
 
 
 
@@ -673,9 +673,9 @@ Interface web kompatibilan sa nekoliko Lightning implementacija (LND, Core Light
 
 
 
-- Upravljanje više čvorova
+- Upravljanje sa više čvorova
 - Kontrolne table osetljive na kontekst
-- Podrška za zamene podmornica (Lightning Loop)
+- Podrška za submarine swaps putem Lightning Loop-a
 - dvofaktorska autentifikacija
 - Izvoz/uvoz rezervnih kopija kanala
 
@@ -691,10 +691,10 @@ RTL je kompletan "švajcarski nož" za administriranje Lightning čvora sa prist
 
 
 
-- Lightning Shell** : Komandna linija (lncli) putem pregledača
-- BTC RPC Explorer & Mempool** : Monitoring Blockchain
-- LNmetrics & Torq**: Analiza performansi rutiranja
-- Amboss & 1ML**: "Socijalno" upravljanje vašim čvorom (aliasi, kontakti, analiza mreže)
+- **Lightning Shell**: Komandna linija (lncli) putem pregledača
+- **BTC RPC Explorer & Mempool** : Monitoring Blockchain-a
+- **LNmetrics & Torq**: Analiza performansi rutiranja
+- **Amboss & 1ML**: Upravljanje čvorom sa socijalnim funkcijama (aliasi, kontakti, analiza mreže)
 
 
 

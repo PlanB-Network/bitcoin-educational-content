@@ -1,12 +1,7 @@
-question: Hur överför användare Ownership av sina pengar i Bitcoin-nätverket?
-answer: Genom att digitalt signera transaktioner med sina privata nycklar.
+question: Vad är bandbreddskravet för att köra en Bitcoin-nod, med tanke på 1 block på 1 MB var 10 e minut?
+answer: Cirka 5 GB per månad.
 wrong_answers:
-  - Genom att fysiskt lämna över sina Bitcoins.
-  - Genom att skicka ett e-postmeddelande till mottagaren.
-  - Genom att tillhandahålla sin Bitcoin Address till mottagaren.
-explanation: |
-  Användare i Bitcoin-nätverket överför Ownership av sina
-  pengar genom att digitalt signera transaktioner med sina privata
-  nycklar. Detta verifierar att de är ägare till de
-  bitcoins som de vill överföra.
+  - Cirka 1 GB per månad.
+  - Cirka 10 GB per månad.
+  - Cirka 20 GB per månad.
 reviewed: true

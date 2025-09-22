@@ -1,0 +1,10 @@
+question: Ni gute P2P transport V2 itera imbere mu bijanye n’ubuzima bwite n’umutekano w’ivy’itumanaho hagati y’ibice?
+answer: Mu gushiramwo ububiko bw'akaryo
+wrong_answers:
+  - Mu gushiramwo ukwemeza
+  - Mu gukoresha ibindi bikoresho
+  - Mu gukoresha Tor
+explanation: |
+  P2P transport V2 ishiramwo Layer y’ugushiramwo amakuru y’akaryo kugira ngo haboneke ubuzima bwite n’umutekano w’ivy’itumanaho hagati y’ibice.
+  
+reviewed: false

@@ -1,0 +1,10 @@
+question: Czym jest Manifest Cypherpunk?
+answer: Tekst napisany przez Erica Hughesa zapewniający, że prywatność jest prawem podstawowym.
+wrong_answers:
+  - Książka napisana przez Juliana Assange'a o przyszłości technologii.
+  - Dokument przedstawiający zasady Bitcoin.
+  - Manifest napisany przez Davida Chauma na temat znaczenia cyfrowej waluty.
+explanation: |
+  Manifest Cypherpunk został napisany przez Erica Hughesa w 1993 roku
+  i stwierdza, że prywatność jest prawem podstawowym.
+reviewed: true

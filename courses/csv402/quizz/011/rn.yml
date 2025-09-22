@@ -1,0 +1,9 @@
+question: Ni igiki gifise Anchor muri RGB?
+answer: transaction ID, MPC, DBC, n'Ikimenyamenya c'Ibindi Bicuruzwa
+wrong_answers:
+  - Genesis, Seal Definition, na Transition Bundle.
+  - Contract Schema, Business Logic, na Owned State.
+  - Umukono, Ibikorwa Hash, na Pedersen commitment
+explanation: |
+  Anchor irimwo amakuru akenewe kugira ngo yerekane ko hariho Commitment yihariye mu gucuruza Bitcoin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bastiat'ya göre toplumdaki kötülüğün çaresi nedir?
+answer: Özgürlüğün kendisinde
+wrong_answers:
+  - Güç istencinde
+  - Baskıcı ve uzlaşmaz bir yargı sistemi tarafından cezalandırılırken
+  - Mükemmel eşitlik arayışında
+explanation: |
+  Bastiat, özgürlüğün tam ve eksiksiz bireysel sorumlulukla birleştiğinde kötülüğe karşı koymanın ve daha sorumlu ve adil eylemleri teşvik etmenin bir yolu olduğuna inanmaktadır.
+reviewed: false

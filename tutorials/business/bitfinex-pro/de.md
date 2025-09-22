@@ -64,7 +64,7 @@ Wählen Sie unter "*Kontotyp*" die Option "*Unternehmen*". In meinem Fall möcht
 
 ![BITFINEX](assets/fr/09.webp)
 
-Vervollständigen Sie die Schritte durch Angabe von :
+Vervollständigen Sie die Schritte durch Angabe von:
 
 
 - Unternehmensinformationen (Firmenname, Kontaktdaten, Branche usw.) ;
@@ -77,14 +77,14 @@ Nachdem Ihr Antrag ausgefüllt und eingereicht wurde, kann es einige Tage dauern
 
 ## 3 - Schnelle Einführung in die Bitfinex-Schnittstelle
 
-Sobald Sie angemeldet sind, sehen Sie oben auf der Oberfläche eine Navigationsleiste mit: "*Handel*", "*Derivate*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", usw. Bitfinex bietet eine breite Palette von Funktionalitäten, einschließlich :
+Sobald Sie angemeldet sind, sehen Sie oben auf der Oberfläche eine Navigationsleiste mit: "*Handel*", "*Derivate*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", usw. Bitfinex bietet eine breite Palette von Funktionalitäten, einschließlich:
 
 
-- Handel**: "*klassischer*" Markt, auf dem Sie Aufträge zum Kauf und Verkauf von Kryptowährungen (einschließlich Bitcoin) erteilen können;
-- OTC**: Over-The-Counter-Dienst für den direkten Handel großer Volumina mit einem anderen Marktteilnehmer, außerhalb der öffentlichen Orderbücher;
-- Finanzierungen**: Bereich, der der Kreditvergabe und der Margenfinanzierung gewidmet ist;
-- Derivate**: Abschnitt für Derivate (Termingeschäfte usw.), der für erfahrene Händler gedacht ist;
-- P2P**: Ermöglicht es Ihnen, Kryptos von anderen Nutzern auf Peer-to-Peer-Basis zu kaufen oder zu verkaufen.
+- **Handel**: "*klassischer*" Markt, auf dem Sie Aufträge zum Kauf und Verkauf von Kryptowährungen (einschließlich Bitcoin) erteilen können;
+- **OTC**: Over-The-Counter-Dienst für den direkten Handel großer Volumina mit einem anderen Marktteilnehmer, außerhalb der öffentlichen Orderbücher;
+- **Finanzierungen**: Bereich, der der Kreditvergabe und der Margenfinanzierung gewidmet ist;
+- **Derivate**: Abschnitt für Derivate (Termingeschäfte usw.), der für erfahrene Händler gedacht ist;
+- **P2P**: Ermöglicht es Ihnen, Kryptos von anderen Nutzern auf Peer-to-Peer-Basis zu kaufen oder zu verkaufen.
 
 Für den normalen Gebrauch (Kauf/Verkauf von Bitcoins, Einzahlungen/Abhebungen und Bargeldverwaltung) werden Sie hauptsächlich die Registerkarte "*Handel*" sowie die Bereiche "*Wallet*", "*Einzahlung*" und "*Abhebung*" verwenden.
 

@@ -1,33 +1,46 @@
 ---
 name: Neutrino
-description: LND Neutrinoのインストールガイド
+description: LND Neutrinoインストレーション・ガイド
 ---
+![image](assets/cover.webp)
 
-# Raspberry PiでLNDを設定する
 
-1. Raspberry Pi OS Liteのダウンロード
+## Raspberry PiとLNDの構成
 
-Raspberry Pi OS Liteをダウンロードします。Windows、Mac、Linuxでのイメージのダウンロードとmicro SDカードへのインストール方法は、[このページ](https://www.raspberrypi.org/software/operating-systems/) で見つけることができます。
 
-2. SDカードのフォーマット化
+### 1.Raspberry Pi OS Liteをダウンロード
 
-Raspberry Pi ImagerまたはbalenaEtcherを使用してSDカードをフォーマット化します。
 
-> 注意: シンボル`$`はプロンプトとして使用され、ユーザーがコンピュータにコマンドを入力することを可能にします。これらのコマンドはLinuxのbashによって解釈されます。行の先頭に`#`がある場合、その後のテキストはコメントであることを示します。
+Windows、Mac、LinuxでマイクロSDカードにイメージをダウンロードしてインストールする手順は、[このページ](https://www.raspberrypi.org/software/operating-systems/)にあります。
 
-3. SSHの有効化
 
-フォーマット化されたメモリを持つRaspberry Piを起動する前に、リモート接続を可能にするための2つのファイルを作成する必要があります。`touch`コマンドを使用して、/bootパーティションに空のファイルを作成し、新しくフォーマット化されたSDカードの最初の起動時にSSH接続を有効にします。
+### 2.SDカードをフォーマットする
+
+
+Raspberry Pi ImagerまたはbalenaEtcherを使用する。
+
+
+**コマンドはLinuxのbashによって解釈される。行頭の記号 `#` は次のテキストがコメントであることを示します。
+
+
+### 3.SSHを有効にする
+
+
+フォーマットしたメモリーでRaspberry Piを起動する前に、コンピューターに挿入し、リモート接続を可能にする2つのファイルを作成する必要がある。touch`コマンドを使って/bootパーティションに空のファイルを作成し、フォーマットしたばかりのSDカードの初回起動時にSSH接続ができるようにする。
+
 
 ```
-# 注意: microSDカードが/media/microSDにマウントされている場合、コマンドは
-# $ sudo touch /media/microSD/boot/ssh となります
+# NOTE: If the microSD card has been mounted at /media/microSD, the command
+# should be $ sudo touch /media/microSD/boot/ssh
 $ touch /boot/ssh
 ```
 
-4. nanoコマンドの使用
 
-wpa_supplicant.confファイルを作成し、直接編集を開始します。このファイルには、wifi設定をコピーする必要があり、STARTとENDの間のテキストをコピーし、接続したいwifiのSSIDとパスワードを変更します。
+### 4.Wi-Fi接続用ファイルの作成
+
+
+nanoコマンドを使って`wpa_supplicant.conf`ファイルを作成し、直接編集を始める。このファイルでは、無線LANの設定をコピーし、STARTとENDの間のテキストをコピーし、接続したい無線LANのSSIDとパスワードを修正する必要がある。
+
 
 ```
 $ nano /boot/wpa_supplicant.conf
@@ -38,84 +51,104 @@ update_config=1
 ctrl_interface=/var/run/wpa_supplicant
 
 network={
- ssid="MyNetworkSSID"
- psk="password"
+ssid="MyNetworkSSID"
+psk="password"
 }
 ------ END -------
 ```
 
-5. 接続
 
-その後、SDカードをRaspberry Piに挿入し、Piを電源に接続してオペレーティングシステムを起動します。ネットワーク上でそれを識別する必要があります。mDNSプロトコルがそれにraspberrypi.localという名前を割り当てる可能性があります。SSH経由で接続してみましょう。
+### 5.接続
+
+
+次に、SDカードをRaspberry Piに挿入し、Piを電源に接続してOSを起動する。mDNSプロトコルがraspberrypi.localという名前を割り当てるだろう。SSHで接続してみよう。
+
 
 ```
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
 
-うまくいかない場合は、ネットワークを調べる必要があります。接続しているIPアドレスを見つけましょう。
+
+うまくいかない場合は、ネットワークを調べる必要がある。接続されているIP Addressを調べてみよう。
+
 
 ```
 $ ifconfig
 ```
 
-例えば、それが192.168.0.0である場合、nmapを使用してPiを見つけます。
+
+例えば192.168.0.0なら、nmapを使ってPiを見つける。
+
 
 ```
 nmap -v 192.168.0.0/24
 ```
 
-ネットワーク上に新しいIPを見つけたと仮定して、SSH経由で入ります。
+
+ネットワーク上に新しいIPが見つかったとして、SSHで入ってみよう。
+
 
 ```
 $ ssh pi@192.168.0.30
 password: raspberry
 ```
 
-1. Piの設定
+
+### 6.Piの設定
+
 
 ```
 $ sudo raspi-config
 ```
 
-- option (1) を選択し、ユーザーpiのパスワードを変更します。
-- option (8) を選択して、設定ツールを最新バージョンに更新します。
-- option (4) を選択して、タイムゾーンを選択します。
-- option (7) を選択し、その後ファイルシステムの拡張を選択します。
-- Finish（完了）
 
-  7.- OSを更新します。
+- オプション(1)を選択し、ユーザーπのパスワードを変更する。
+- オプション(8)を選択し、コンフィギュレーション・ツールを最新バージョンにアップデートする。
+- オプション(4)を選択し、タイムゾーンを選択します。
+- オプション(7)を選択し、ファイルシステムを展開します。
+- 終了
+
+
+### 7.OSをアップデートする
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim --install-recommends -y
 ```
 
-8.- bitcoin userを追加します。
+
+### 8.Bitcoinユーザーを追加する
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
-9.- rpiをセキュアにします。
+
+### 9.Rpiの確保
+
 
 ```
 $ sudo apt install ufw
-```
-
-```
 $ sudo ufw default deny incoming
 $ sudo ufw default allow outgoing
-$ sudo ufw allow 22 comment 'LANからSSHを許可'
-$ sudo ufw allow 9735 comment 'Lightningを許可'
-$ sudo ufw allow 10009 comment 'Lightning gRPCを許可'
+$ sudo ufw allow 22 comment 'allow SSH from LAN'
+$ sudo ufw allow 9735 comment 'allow Lightning'
+$ sudo ufw allow 10009 comment 'Lightning gRPC'
 $ sudo ufw enable
 $ sudo systemctl enable ufw
 $ sudo ufw status
 $ sudo apt install fail2ban
 ```
 
-10.- Goのインストール：raspberry piを使用していない場合は、こちらからアーキテクチャに合ったGoをダウンロードしてください (https://golang.org/dl/)
+
+### 10.囲碁のインストール
+
+
+ラズベリーパイを使用していない場合は、お使いのアーキテクチャに合わせてgoをダウンロードしてください[こちら](https://golang.org/dl/)。
+
 
 ```
 $ wget https://golang.org/dl/go1.15.linux-armv6l.tar.gz
@@ -124,10 +157,12 @@ $ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
 $ echo "export GOPATH=$HOME/go" >> ~/.bashrc
 $ echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bashrc
 $ source ~/.bashrc
-$ go version # 'go version go1.13.5 linux/arm'というメッセージが表示されるはずです
+$ go version # should display the following message 'go version go1.13.5 linux/arm'
 ```
 
-11.- lndのコンパイルとインストール
+
+### 11.LNDのコンパイルとインストール
+
 
 ```
 $ git clone https://github.com/lightningnetwork/lnd.git
@@ -140,13 +175,19 @@ $ lncli --version
 lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c1a7b97746f
 ```
 
-12.- lnd設定ファイルの作成、これは'bitcoin'userで行うべきです。
+
+### 12.LND confファイルの作成
+
+
+LNDのコンフィギュレーションファイルを作成する。
+
 
 ```
 $ sudo su - bitcoin
 $ mkdir .lnd
 $ nano .lnd/lnd.conf
 ```
+
 
 ```
 [Application Options]
@@ -172,12 +213,18 @@ bitcoin.node=neutrino
 neutrino.connect=bb2.breez.technology
 ```
 
-13.- RPI起動後にLNDが起動するようにするには、systemdに.serviceファイルを作成する必要があります。bitcoin userとしてログインしていて、piユーザーに戻りたい場合は、単に'exit'と入力します
+
+### 13.LNDサービス自動開始
+
+
+LNDをrpiブート後に起動させるには、systemdに.serviceファイルを作成する必要がある。Bitcoinユーザーとしてログインしていて、piユーザーに戻りたい場合は、単に'exit'とタイプする。
+
 
 ```
 $ exit
 $ sudo nano /etc/systemd/system/lnd.service
 ```
+
 
 ```
 [Unit]
@@ -236,101 +283,130 @@ MemoryDenyWriteExecute=true
 WantedBy=multi-user.target
 ```
 
+
 ```
 $ sudo systemctl enable lnd
 $ sudo systemctl start lnd
 $ systemctl status lnd
 ```
 
-ログを表示するには、次のコマンドを実行します：journalctl
+
+journalctlコマンドを実行すれば、ログを見ることができる。
+
 
 ```
 $ sudo journalctl -f -u lnd
 ```
 
-14. これで lnd を開始します。
+
+### 14.LNDが始まる
+
 
 ```
 $ sudo su - bitcoin
 $ lncli create
 ```
 
-15. 私たちのノードに資金を追加します。
+
+### 15.ノードに資金を追加する
+
 
 ```
 $ lncli newaddress p2wkh
 ```
 
-lnd が返したアドレスに btc を送ります。
+LNDから戻ってきたAddressにBTCを送金できるようになった。
 
-残高を確認する
+
+このコマンドでバランスをチェックできる：
+
 
 ```
 $ lncli walletbalance
 {
-    "total_balance": "500000",
-    "confirmed_balance": "0",
-    "unconfirmed_balance": "500000"
+"total_balance": "500000",
+"confirmed_balance": "0",
+"unconfirmed_balance": "500000"
 }
 ```
 
-トランザクションが確認されたら、チャネルを開くことができます。どのノードとチャネルを開くかわからない場合は、1ml.com にアクセスしてノードを選択できます。
+
+取引が確認されたら、チャネルを開設することができる。どのノードでチャンネルを開設するか分からない場合は、1ml.comにアクセスしてノードを選択することができます。
+
 
 ノードへの接続を開く：
+
 
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
 
-その後、チャネルを開きます。
+
+それからチャンネルを開く：
+
 
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
-私たちの資金を確認します。
+
+私たちの資金を確認してください：
+
 
 ```
 $ lncli walletbalance
 $ lncli channelbalance
 ```
 
-保留中およびアクティブなチャネルを表示できます。
+
+保留中のチャンネルやアクティブなチャンネルを見ることができる：
+
 
 ```
 $ lncli pendingchannels
 $ lncli listchannels
 ```
 
-ライトニングインボイスを支払う方法
+
+稲妻Invoiceを支払うために：
+
 
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
-支払いを受け取るには、特定の金額のインボイスを作成します。
+
+支払いを受けるには、特定の金額でInvoiceを作成する：
+
 
 ```
 $ lncli addinvoice --memo 'my first payment on LN' --amt 100
 ```
 
-私のノードに関する情報を表示する
+
+自分のノードに関する情報を見るには
+
 
 ```
 $ lncli getinfo
 ```
 
-コマンドの完全なリストは、単に lncli を実行することで見ることができます。
+
+コマンドの完全なリストは、lncliコマンドを実行するだけで見ることができる：
+
 
 ```
 $ lncli
 ```
 
-lnd API への呼び出しを行う方法
+
+最後に、LND APIを呼び出す：
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"
 $ curl -X GET --cacert .lnd/tls.cert --header "$MACAROON_HEADER" https://localhost:8080/v1/getinfo |jq
 ```
 
-> 終わり
+
+ガイド終了！

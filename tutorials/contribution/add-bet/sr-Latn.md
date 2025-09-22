@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 ```yaml
-builder:
+project:
 type:
 links:
 download:
@@ -79,7 +79,7 @@ Evo detalja za popunjavanje svakog polja:
 
 
 
-- `builder`**: Naznačite identifikator vaše organizacije na PlanB mreži. Ako još nemate "builder" identifikator za vašu kompaniju, možete ga kreirati prateći ovaj vodič.
+- `project`: Naznačite identifikator vaše organizacije na PlanB mreži. Ako još nemate "project" identifikator za vašu kompaniju, možete ga kreirati prateći ovaj vodič.
 
 
 https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
@@ -88,13 +88,13 @@ Ako nemate jedan, možete jednostavno koristiti svoje ime, svoj pseudonim ili im
 
 
 
-- `tip`**: Izaberite prirodu vašeg sadržaja među sledeće dve opcije:
+- **`tip`**: Izaberite prirodu vašeg sadržaja među sledeće dve opcije:
  - `Obrazovni sadržaj` za obrazovne sadržaje.
  - `Vizuelni sadržaj` za druge vrste raznovrsnih sadržaja.
 
 
 
-- `links`**: Pružite linkove ka vašim sadržajima. Imate dve opcije:
+- `links`**: Pružite linkove ka vašim sadržajima. Imate dve opcije:**
  - Ako odlučite da hostujete svoj sadržaj direktno na PlanB-ovom GitHub-u, biće potrebno da dodate linkove u ovu datoteku tokom sledećih koraka.
  - Ako je vaš sadržaj hostovan negde drugde, kao na vašem ličnom veb-sajtu, navedite odgovarajuće linkove ovde:
      - `download`: Veza za preuzimanje vašeg sadržaja.
@@ -102,7 +102,7 @@ Ako nemate jedan, možete jednostavno koristiti svoje ime, svoj pseudonim ili im
 
 
 
-- `tagovi`**: Dodajte dve oznake povezane sa vašim sadržajem. Primeri:
+- **`tagovi`**: Dodajte dve oznake povezane sa vašim sadržajem. Primeri:
  - Bitcoin
  - tehnologija
  - ekonomija
@@ -118,7 +118,7 @@ Na primer, vaša YAML datoteka može izgledati ovako:
 
 
 ```yaml
-builder: PlanB-Network
+project: PlanB-Network
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

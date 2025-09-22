@@ -1,5 +1,5 @@
 ---
-name: Kolikkokortit
+name: Coincards
 description: Miten voin ostaa tavaroita ja palveluita BTC:nä Coincardsilla?
 ---
 ![cover](assets/cover.webp)
@@ -67,7 +67,7 @@ Tämä on tilaisuus muistuttaa niitä, jotka haluaisivat maksaa lahjakorttinsa B
 
 
 
-Valikoima Lightning-portfolioiden (Phoenix, Breez, BitKit, Zeus...) opetusohjelmia löytyy täältä: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Valikoima Lightning-portfolioiden (Phoenix, Breez, BitKit, Zeus...) opetusohjelmia löytyy täältä: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

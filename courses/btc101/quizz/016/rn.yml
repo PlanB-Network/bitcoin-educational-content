@@ -1,0 +1,14 @@
+question: Amahera afise uruhara uruhe nk’igikoresho co guhanahana amakuru?
+answer: Bituma umuntu ashobora guhanahana amakuru y’agaciro mu kibanza no mu gihe kandi ata nkenerwa yo kwizigira uwundi muntu.
+wrong_answers:
+  - Bituma umuntu ashobora guhanahana amakuru y’agaciro mu kirere gusa kandi ataco akeneye kwizigira uwundi.
+  - Bituma umuntu ashobora guseruranira akari ku mutima mu gihe cose gusa kandi ataco akeneye kwizigira uwundi.
+  - Bituma umuntu ashobora guhanahana amakuru y’agaciro mu kibanza no mu gihe kandi akeneye kwizigira uwundi.
+explanation: |
+  Amahera nk’igikoresho co guhanahana amakuru bituma haba uguhanahana amakuru hagati y’abantu bose
+  ikibanza n’igihe, uko duhindura umwanya wacu n’inguvu zacu tukabigira .
+  umutungo ushobora gusubira gukoreshwa muri kazoza ata ngorane zo
+  gutakaza agaciro. Bituma kandi umuntu ashobora kuvugana n’abandi mu buryo bwose .
+  ururimi rusangi, rushoboza abanyamahanga babiri Exchange, ubudandaji, .
+  kandi mwemeranye ku gaciro k’ibintu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: लिनक्स पर Interface में स्थिर IP Address जोड़ने के लिए किस कमांड का उपयोग किया जा सकता है?
+answer: आईपी ​​पता जोड़ें [Address]/[मास्क] देव [Interface]
+wrong_answers:
+  - ifconfig [Interface] ऊपर [Address]/[मास्क]
+  - आईपी ​​मार्ग जोड़ें [Address] देव [Interface]
+  - रूट ऐड -नेट [Address] नेटमास्क [मास्क] देव [Interface]
+explanation: |
+  "ip addr add" कमांड, लिनक्स पर नेटवर्क Interface को स्थिर IP Address निर्दिष्ट करने के लिए आधुनिक विधि है।
+reviewed: false

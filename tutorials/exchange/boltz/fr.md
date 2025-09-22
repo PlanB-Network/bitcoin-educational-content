@@ -98,6 +98,6 @@ Boltz vous offre un niveau de confidentialité accru grâce à son accès via un
  
 ![onion](assets/fr/13.webp)
  
-https://planb.network/tutorials/computer-security/communication/a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
  
 Vous connaissez désormais Boltz, une plateforme d'échange unique en son genre qui effectue l'interopérabilité entre les différentes couches de l'écosystème Bitcoin.

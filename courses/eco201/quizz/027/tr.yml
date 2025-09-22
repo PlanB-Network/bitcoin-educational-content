@@ -1,0 +1,13 @@
+question: İnsan eylemlerinin zamanlararası koordinasyonunda para nasıl bir rol oynar?
+answer: Değerin şimdiki zamanda depolanmasına ve kişinin gelecekteki benliğine aktarılmasına olanak tanır.
+wrong_answers:
+  - Değerin gelecekte depolanmasına ve kişinin şimdiki benliğine aktarılmasına olanak tanır.
+  - Değerin şimdiki zamanda depolanmasına ve diğer insanlara aktarılmasına olanak tanır.
+  - Gelecekte değerin depolanmasına ve diğer insanlara aktarılmasına olanak tanır.
+explanation: |
+  Bireyler para depolayarak, yani tasarruf ederek, aşağıdakilere karşı korunurlar
+  gelecekteki belirsizlik ve böylece kendilerini
+  eylemlerini daha uzun zaman ufuklarına doğru yönlendirmektedirler. Ancak, onlar
+  ancak kullanılan para bir mağaza oluşturuyorsa bunu başarabilir
+  bir değer.
+reviewed: true

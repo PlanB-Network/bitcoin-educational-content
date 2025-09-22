@@ -100,7 +100,7 @@ Tämä malli eroaa huomattavasti perinteisistä pankkijärjestelmistä, joissa r
 
 Bitcoin toimii eri tavalla. Tilin käsitettä ei ole olemassa, eikä rahayksiköitä hallinnoida saldojen vaan UTXO:iden avulla. UTXO edustaa tiettyä määrää bitcoineja, joita ei ole vielä käytetty, ja muodostaa siten "bitcoin-palan", joka voi olla suuri tai pieni. Yksi UTXO voi esimerkiksi olla arvoltaan `500 BTC` tai yksinkertaisesti `700 SATS`.
 
-**> Satoshi, josta usein käytetään lyhennettä sat, on Bitcoinin pienin yksikkö, joka on verrattavissa fiat-valuuttojen sentteihin.
+**Muistuttaa:** Satoshi, josta usein käytetään lyhennettä sat, on Bitcoinin pienin yksikkö, joka on verrattavissa fiat-valuuttojen sentteihin.
 
 ```plaintext
 1 BTC = 100 000 000 SATS
@@ -108,7 +108,7 @@ Bitcoin toimii eri tavalla. Tilin käsitettä ei ole olemassa, eikä rahayksikö
 
 Teoriassa yksi UTXO voi edustaa mitä tahansa arvoa bitcoineina, joka voi vaihdella satista teoreettiseen maksimissaan noin 21 miljoonaan BTC:hen. On kuitenkin loogisesti mahdotonta omistaa kaikkia 21 miljoonaa bitcoinia, ja on olemassa "pölyksi" kutsuttu alempi taloudellinen kynnysarvo, jonka alapuolella UTXO:n käyttäminen katsotaan taloudellisesti kannattamattomaksi.
 
-**> Bitcoinilla koskaan luodun suurimman UTXO:n arvo oli 500 000 BTC. Se luotiin MtGox-alustalla konsolidointioperaation aikana marraskuussa 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**Tiesitkö?** Bitcoinilla koskaan luodun suurimman UTXO:n arvo oli 500 000 BTC. Se luotiin MtGox-alustalla konsolidointioperaation aikana marraskuussa 2011: [29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 ### UTXO:t ja menoedellytykset
 
@@ -148,7 +148,7 @@ Jokainen Bitcoin-tapahtuma koostuu siis yhdestä tai useammasta syötteestä ja 
 
 ![BTC204](assets/fr/011.webp)
 
-**> Teoriassa bitcoin-tapahtumassa voisi olla ääretön määrä tuloja ja lähtöjä. Ainoa rajoitus on lohkojen enimmäiskoko.
+**Tiesitkö?** Teoriassa bitcoin-tapahtumassa voisi olla ääretön määrä tuloja ja lähtöjä. Ainoa rajoitus on lohkojen enimmäiskoko.
 
 Bitcoin-tapahtuman jokainen panos viittaa edelliseen käyttämättömään UTXO:hon. Jotta UTXO:ta voidaan käyttää syötteenä, sen haltijan on osoitettava olevansa sen laillinen omistaja validoimalla siihen liittyvä käsikirjoitus eli täyttämällä asetetun käyttöehdon. Yleisesti ottaen tämä tarkoittaa digitaalisen allekirjoituksen antamista, joka on tuotettu julkista avainta vastaavalla yksityisellä avaimella, jolla kyseinen UTXO on alun perin suojattu. Käsikirjoituksessa on siis tarkistettava, että allekirjoitus vastaa julkista avainta, jota käytettiin varojen vastaanottamisen yhteydessä.
 
@@ -211,7 +211,7 @@ Lohkoihin subventoidut bitcoinit ovat uusia BTC:itä, jotka luodaan tyhjästä k
 
 Vaikka transaktiopalkkiot edustavat myös vastaperustettuja BTC:tä, ne eivät saa ylittää lohkon kaikkien transaktioiden yhteenlaskettujen tulojen ja menojen erotusta. Näimme aiemmin, että nämä palkkiot edustavat sitä osaa panoksista, jota ei käytetä transaktioiden tuotoksiin. Tämä osuus on teknisesti "menetetty" transaktion aikana, ja louhijalla on oikeus luoda tämä arvo uudelleen yhden tai useamman uuden UTXO:n muodossa. Kyseessä on arvon siirto transaktion liikkeeseenlaskijan ja sen lohkoketjuun lisäävän louhijan välillä.
 
-**> Coinbase-tapahtuman tuottamiin bitcoineihin sovelletaan 100 lohkon maturiteettiaikaa, jonka aikana louhija ei voi käyttää niitä. Tämän säännön tarkoituksena on välttää komplikaatioita, jotka liittyvät äskettäin luotujen bitcoinien käyttöön ketjussa, joka voi myöhemmin vanhentua.
+**Tiesitkö?** Coinbase-tapahtuman tuottamiin bitcoineihin sovelletaan 100 lohkon maturiteettiaikaa, jonka aikana louhija ei voi käyttää niitä. Tämän säännön tarkoituksena on välttää komplikaatioita, jotka liittyvät äskettäin luotujen bitcoinien käyttöön ketjussa, joka voi myöhemmin vanhentua.
 
 ### UTXO-mallin vaikutukset
 
@@ -235,10 +235,8 @@ Siksi käytämme rahaa arvon siirtämiseen sekä tilassa että ajassa.
 ![BTC204](assets/fr/018.webp)
 
 Jotta kolikoilla voitaisiin ratkaista tämä ongelma, on olennaista, että tavaran tai palvelun tarjoava osapuoli on vakuuttunut siitä, että se pystyy käyttämään kyseisen summan myöhemmin. Näin ollen jokainen järkevä henkilö, joka haluaa hyväksyä kolikon, olipa se sitten digitaalinen tai fyysinen, varmistaa, että se täyttää kaksi peruskriteeriä:
-
-
-- Teoksen on oltava eheä ja aito ;**
-- eikä niitä saa käyttää kahteen kertaan.**
+- **Teoksen on oltava eheä ja aito ;**
+- **eikä niitä saa käyttää kahteen kertaan.**
 
 Jos käytät fyysistä valuuttaa, se on ensimmäinen ominaisuus, joka on vaikeinta vahvistaa. Metallirahojen eheyteen on historian eri aikoina usein vaikuttanut esimerkiksi kolikoiden leikkaaminen tai lävistäminen. Esimerkiksi muinaisessa Roomassa oli tavallista, että kansalaiset raaputtivat kultakolikoiden reunoja kerätäkseen hieman jalometallia ja säästäessään niitä tulevia liiketoimia varten. Kolikon itseisarvo pieneni näin, mutta sen nimellisarvo pysyi samana. Tämä on yksi syy siihen, miksi kolikon reuna oli myöhemmin uurrettu.
 
@@ -262,7 +260,7 @@ Ainoa tapa välttää tämä digitaalisen omaisuuden päällekkäisyys on olla t
 
 Bitcoinissa kaksinkertainen kuluttaminen estetään samalla tavalla. Pyrimme vahvistamaan, ettei kyseessä ole transaktio, joka on jo käyttänyt kyseiset kolikot. Jos kolikoita ei ole koskaan käytetty, voimme olla varmoja siitä, että tuplakäyttöä ei tapahdu. Satoshi Nakamoto kuvasi tätä periaatetta valkoisessa kirjassaan kuuluisalla lauseella:
 
-** Ainoa tapa varmistaa, ettei tapahtumaa ole tapahtunut, on olla tietoinen kaikista tapahtumista
+**Ainoa tapa varmistaa, ettei tapahtumaa ole tapahtunut, on olla tietoinen kaikista tapahtumista**
 
 Mutta toisin kuin pankkimallissa, Bitcoinissa ei haluta luottaa keskusyksikköön. Kaikkien käyttäjien on siis pystyttävä vahvistamaan, ettei tuplakäyttöä esiinny, ilman että he luottavat kolmanteen osapuoleen. Kaikkien on siis oltava tietoisia kaikista Bitcoin-tapahtumista. Tämän vuoksi Bitcoin-tapahtumat lähetetään julkisesti kaikkiin verkon solmuihin ja tallennetaan selkeänä tekstinä lohkoketjuun.
 
@@ -307,7 +305,7 @@ Maallikon kielellä ketjuanalyysissä on kolme päävaihetta:
 
 2. **Tunnettujen piirteiden tunnistaminen ;**
 
-3. **Edellytysten vähentäminen **
+3. **Edellytysten vähentäminen**
 
 ![BTC204](assets/fr/026.webp)
 
@@ -356,9 +354,9 @@ Ketjuanalyysin koko tarkoitus on juuri erilaisten heuristiikkojen yhdistäminen 
 Nämä kuuluisat heuristiikat voidaan ryhmitellä eri luokkiin, joita kuvaamme yksityiskohtaisesti jäljempänä:
 
 
-- Tapahtumamallit ;**
+- Tapahtumamallit
 - Transaktioiden sisäiset heuristiikat ;**
-- Tapahtuman ulkopuoliset heuristiikat.**
+- Tapahtuman ulkopuoliset heuristiikat.
 
 ### Satoshi Nakamoto ja ketjuanalyysi
 
@@ -1019,10 +1017,10 @@ ___
 *Kirjoittaessani tätä ketjuanalyysia käsittelevää kolmatta osaa käytin seuraavia lähteitä:*
 
 
-- Neljän artikkelin sarja otsikolla: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), tuotettu Samourai Wallet vuonna 2021 ;*
-- Eri raportit [OXT Research](https://medium.com/oxt-research), sekä heidän ilmainen lohkoketjuanalyysityökalunsa (ei enää saatavilla tällä hetkellä Samourai Walletin perustajien pidätyksen jälkeen) ;*
-- Laajemmin ottaen tietoni ovat peräisin [@LaurentMT](https://twitter.com/LaurentMT) ja [@ErgoBTC](https://twitter.com/ErgoBTC) twiiteistä ja sisällöstä ;*
-- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), johon osallistuin [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) ja [@LaurentMT](https://twitter.com/LaurentMT) seurassa.*
+- Neljän artikkelin sarja otsikolla: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), tuotettu Samourai Wallet vuonna 2021;
+- Eri raportit [OXT Research](https://medium.com/oxt-research), sekä heidän ilmainen lohkoketjuanalyysityökalunsa (ei enää saatavilla tällä hetkellä Samourai Walletin perustajien pidätyksen jälkeen);
+- Laajemmin ottaen tietoni ovat peräisin [@LaurentMT](https://twitter.com/LaurentMT) ja [@ErgoBTC](https://twitter.com/ErgoBTC) twiiteistä ja sisällöstä ;)
+- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), johon osallistuin [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) ja [@LaurentMT](https://twitter.com/LaurentMT) seurassa.
 
 *Haluan kiittää niiden tekijöitä, kehittäjiä ja tuottajia. Kiitos myös oikolukijoille, jotka korjasivat huolellisesti artikkelin, johon tämä osa 3 perustuu, ja antoivat minulle asiantuntevia neuvojaan :*
 
@@ -1052,7 +1050,7 @@ Teknisesti ottaen Bitcoinin vastaanottava osoite ei "vastaanota" bitcoineja kirj
 > "*Voidaksesi käyttää tämän uuden UTXO:n, sinun on annettava digitaalinen allekirjoitus käyttäen tähän vastaanottoosoitteeseen liittyvää yksityistä avainta.*"
 ![BTC204](assets/fr/067.webp)
 
-Bitcoin-osoitteita on erityyppisiä riippuen käytetystä skriptausmallista. Ensimmäiset mallit, jotka tunnetaan nimellä "Legacy*", sisältävät `P2PKH- (*Pay-to-PubKey-Hash*) ja `P2SH- (*Pay-to-Script-Hash*) osoitteet. P2PKH-osoitteet alkavat aina numerolla `1` ja P2SH-osoitteet numerolla `3`. Vaikka nämä muodot ovat edelleen turvallisia, ne ovat nyt vanhentuneita, sillä ne aiheuttavat korkeampia transaktiokustannuksia ja tarjoavat vähemmän luottamuksellisuutta kuin uudet standardit.
+Bitcoin-osoitteita on erityyppisiä riippuen käytetystä skriptausmallista. Ensimmäiset mallit, jotka tunnetaan nimellä **Legacy**, sisältävät `P2PKH`- (**Pay-to-PubKey-Hash**) ja `P2SH`- (**Pay-to-Script-Hash**) osoitteet. P2PKH-osoitteet alkavat aina numerolla `1` ja P2SH-osoitteet numerolla `3`. Vaikka nämä muodot ovat edelleen turvallisia, ne ovat nyt vanhentuneita, sillä ne aiheuttavat korkeampia transaktiokustannuksia ja tarjoavat vähemmän luottamuksellisuutta kuin uudet standardit.
 
 SegWit V0 (`P2WPKH` ja `P2WSH`) ja Taproot / SegWit V1 (`P2TR`) osoitteet edustavat nykyaikaisia muotoja. SegWit-osoitteet alkavat kirjaimella `bc1q` ja vuonna 2021 käyttöön otetut Taproot-osoitteet kirjaimella `bc1p`.
 
@@ -1499,7 +1497,7 @@ Muita tapoja hankkia bitcoineja yksityisyyttäsi suojaten ovat tietenkin louhint
 
 Toinen tapa on työskennellä bitcoineja vastaan. Tämä hankintamenetelmä voi olla mielenkiintoinen, mutta vaadittava tunnistautumisaste vaihtelee huomattavasti olosuhteista riippuen.
 
-*Kirjoittaakseni tämän luvun käytin [@pivi___](https://x.com/pivi___) Plan ₿ Network -verkkopalvelussa antamaa BTC205-koulutusta (tällä hetkellä saatavilla vain ranskaksi)
+*Kirjoittaakseni tämän luvun käytin* [@pivi___](https://x.com/pivi___) *Plan ₿ Network -verkkopalvelussa antamaa BTC205-koulutusta (tällä hetkellä saatavilla vain ranskaksi)*
 
 ## Konsolidointi, UTXO:n johto ja CIOH
 
@@ -1597,11 +1595,11 @@ Katsotaanpa muutamia muita parhaita käytäntöjä, joilla voit optimoida yksity
 Bitcoinien omistaminen omassa säilytyksessä on hienoa, mutta oman täydellisen solmun käyttäminen on vielä hienompaa! Tässä kerrotaan, miksi oman solmun omistaminen on ratkaisevan tärkeää Bitcoinin täysin suvereenin käytön kannalta:
 
 
-- Sensuurin vastustaminen**: Kukaan ei voi estää transaktioitasi;
-- Riippumattomuus kolmansista osapuolista**: Lohkoketjutietojen todentaminen ei ole enää riippuvainen mistään ulkoisesta palvelusta;
-- Aktiivinen osallistuminen**: Voit määritellä omat validointisääntösi ja osallistua suoraan konsensukseen;
-- Verkon osuus**: Käyttämällä solmua autat vahvistamaan ja jakamaan Bitcoin-verkkoa;
-- Tekninen koulutus**: Se on hyvä tapa syventää teknistä tietämystäsi Bitcoinista.
+- **Sensuurin vastustaminen**: Kukaan ei voi estää transaktioitasi;
+- **Riippumattomuus kolmansista osapuolista**: Lohkoketjutietojen todentaminen ei ole enää riippuvainen mistään ulkoisesta palvelusta;
+- **Aktiivinen osallistuminen**: Voit määritellä omat validointisääntösi ja osallistua suoraan konsensukseen;
+- **Verkon osuus**: Käyttämällä solmua autat vahvistamaan ja jakamaan Bitcoin-verkkoa;
+- **Tekninen koulutus**: Se on hyvä tapa syventää teknistä tietämystäsi Bitcoinista.
 
 Näiden etujen lisäksi täydellisen solmun käyttö parantaa myös luottamuksellisuutta, kun lähetät tapahtumia. Kun lähetät transaktion, se luodaan ja allekirjoitetaan ensin lompakkosi kautta. Jotta se voidaan lähettää Bitcoin-verkossa, sen on oltava vähintään yhden solmun tiedossa. Käyttämällä omaa solmua sinulla on suora kontrolli tähän jakeluun, mikä vahvistaa luottamuksellisuuttasi ja rajoittaa tietovuodon riskiä.
 
@@ -1770,7 +1768,7 @@ Niin sanotuissa "Chaumian" coinjoineissa yhdistetään Torin käyttö ja David C
 
 Coinjoin-transaktioiden rakentamisprosessiin kuuluu kolme päävaihetta: syötteen rekisteröinti, tuotoksen rekisteröinti ja transaktion allekirjoittaminen. Tarkastellaan tätä prosessia esimerkkinä Alice, yksi coinjoinin osallistujista. Kaikki muut osallistujat noudattavat samoja vaiheita kuin Alice, kukin omana itsenään.
 
-**Vaihe 1: Syötteen rekisteröinti
+**Vaihe 1: Syötteen rekisteröinti**
 
 
 - Alice lähettää koordinaattorille UTXO-osoitteen, jota hän haluaa käyttää transaktion syöttöosoitteena, sekä naamioidun vastaanotto-osoitteen, jota hän haluaa käyttää lähtöosoitteena bitcoiniensa vastaanottamiseen. Koordinaattorilla ei siis ole mitään mahdollisuutta tietää Alicen osoitetta. Se näkee vain hänen naamioidun versionsa:
@@ -1821,7 +1819,7 @@ Juuri nämä kaksi julkista ja yksityistä näkökohtaa, jotka David Chaumin sok
 
 On vaikea sanoa varmasti, kuka esitteli ensimmäisenä coinjoin-idean Bitcoinissa ja kuka keksi käyttää David Chaumin sokeita allekirjoituksia tässä yhteydessä. Usein ajatellaan, että Gregory Maxwell mainitsi sen ensimmäisenä [BitcoinTalkin viestissä vuonna 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
-> *"Chaumin sokeiden allekirjoitusten käyttäminen: Käyttäjät kirjautuvat sisään ja antavat syötteet (ja vaihtavat osoitteet) sekä kryptografisesti sokean version osoitteesta, johon he haluavat lähettää yksityiset osuutensa; palvelin allekirjoittaa merkit ja lähettää ne takaisin. Käyttäjät yhdistyvät uudelleen anonyymisti, paljastavat lähtöosoitteensa ja lähettävät ne takaisin palvelimelle. Palvelin näkee, että se on allekirjoittanut kaikki lähdöt ja että kaikki lähdöt ovat peräisin päteviltä osallistujilta. Myöhemmin ihmiset ottavat uudelleen yhteyden ja kirjautuvat sisään
+> *"Chaumin sokeiden allekirjoitusten käyttäminen: Käyttäjät kirjautuvat sisään ja antavat syötteet (ja vaihtavat osoitteet) sekä kryptografisesti sokean version osoitteesta, johon he haluavat lähettää yksityiset osuutensa; palvelin allekirjoittaa merkit ja lähettää ne takaisin. Käyttäjät yhdistyvät uudelleen anonyymisti, paljastavat lähtöosoitteensa ja lähettävät ne takaisin palvelimelle. Palvelin näkee, että se on allekirjoittanut kaikki lähdöt ja että kaikki lähdöt ovat peräisin päteviltä osallistujilta. Myöhemmin ihmiset ottavat uudelleen yhteyden ja kirjautuvat sisään"*
 Maxwell, G. (2013, 22. elokuuta). *CoinJoin: Bitcoinin yksityisyys reaalimaailmassa*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)
@@ -1859,7 +1857,7 @@ Whirlpool on tällä hetkellä ainoa coinjoin-toteutus, joka soveltaa tiukasti Z
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-*Vuonna 2024 olemme todistamassa suuria muutoksia niiden käyttäjien käytettävissä olevissa työkaluissa, jotka haluavat tehdä kolikkoliitoksia Bitcoinissa. Olemme tällä hetkellä käännekohdassa, ja coinjoin-markkinat ovat suuressa rakennemuutoksessa. Tätä lukua päivitetään varmasti ajan myötä
+*Vuonna 2024 olemme todistamassa suuria muutoksia niiden käyttäjien käyttettävissä olevissa työkaluissa, jotka haluavat tehdä kolikkoliitoksia Bitcoinissa. Olemme tällä hetkellä käännekohdassa, ja coinjoin-markkinat ovat suuressa rakennemuutoksessa. Tätä lukua päivitetään varmasti ajan myötä.*
 
 Tällä hetkellä Bitcoinissa on pääasiassa 3 erilaista coinjoin-toteutusta:
 
@@ -2004,17 +2002,14 @@ Pool edustaa ryhmää käyttäjiä, jotka haluavat sekoittaa yhdessä ja jotka s
 
 Kun syötät bitcoinisi pooliin, ne jaetaan siten, että ne tuottavat UTXO:t, jotka ovat täysin samanlaisia kuin poolin muiden osallistujien UTXO:t. Jokaisella poolilla on enimmäisraja, joten jos summat ylittävät tämän rajan, sinun on joko tehtävä kaksi erillistä merkintää samaan pooliin tai siirryttävä toiseen pooliin, jossa on suurempi summa:
 
-| Pool (bitcoin) | Maksimimäärä per merkintä (bitcoin) |
 
-|----------------|--------------------------------------|
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 UTXO:n katsotaan kuuluvan pooliin, kun se on valmis liitettäväksi coinjoiniin. Tämä ei kuitenkaan tarkoita, että käyttäjä menettää sen hallinnan. Kuten tämän jakson ensimmäisissä luvuissa nähtiin, eri sekoitussyklien aikana käyttäjä säilyttää täyden määräysvallan avaimiinsa ja näin ollen myös bitcoineihinsa. Tämä erottaa coinjoin-tekniikan muista keskitetyistä sekoitustekniikoista.
 
@@ -2022,17 +2017,14 @@ Jos haluat liittyä coinjoin-pooliin, sinun on maksettava palvelumaksu ja louhin
 
 Porealtaan käytöstä perittävä palvelumaksu maksetaan vain kerran, kun liityt altaaseen. Kun olet liittynyt, voit osallistua rajattomaan määrään remixejä ilman lisämaksua. Tässä ovat kunkin poolin nykyiset kiinteät maksut:
 
-| Pool (bitcoin) | Osallistumismaksu (bitcoin) |
 
-|----------------|---------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50 000 satelliittia) |
-
-| 0,001 | 0,00005 (5 000 satelliittia) |
 
 Nämä maksut toimivat lähinnä pääsylippuna valittuun pooliin riippumatta siitä, kuinka paljon panostat coinjoiniin. Joten riippumatta siitä, osallistutko 0,01 pooliin tasan 0,01 BTC:llä vai 0,5 BTC:llä, maksut pysyvät absoluuttisesti samoina.
 
@@ -2065,9 +2057,9 @@ HD-lompakko voi teoriassa johtaa jopa `2^(31)` eri tilejä. Alkuperäinen tili, 
 Whirlpooliin mukautetuissa salkuissa käytetään 4 tiliä ZeroLink-prosessin tarpeiden täyttämiseksi:
 
 
-- Talletustili**, jonka tunnus on indeksi `0'` ;
+- **Talletustili**, jonka tunnus on indeksi `0` ;
 - **Pahan pankin** (tai "doksisen muutoksen") tili, joka on merkitty indeksillä `2 147 483 644'` ;
-- Premix**-tili, joka on merkitty indeksillä "2 147 483 645" ;
+- **Premix-tili**, joka on merkitty indeksillä "2 147 483 645" ;
 - **postmix**-tili, jonka tunnus on "2 147 483 646".
 
 Kullakin näistä tileistä on oma tehtävänsä coinjoin-prosessissa, jota tarkastellaan seuraavissa kappaleissa.
@@ -2149,12 +2141,12 @@ Seuraavaksi sinun on oltava varovainen doxxic exchange -vaihtopankin hallinnoinn
 Seuraavassa on muutamia strategioita niiden käyttämiseksi:
 
 
-- Sekoita ne pienempiin altaisiin:** Jos myrkyllinen UTXO on tarpeeksi suuri mahtuakseen pienempään altaaseen yksinään, harkitse sen sekoittamista. Tämä on usein paras vaihtoehto. Ei kuitenkaan ole suositeltavaa yhdistää useita myrkyllisiä UTXO:ita päästäkseen yhteen pooliin, sillä tämä voi yhdistää eri merkintöjäsi;
-- Merkitse ne "käyttökelvottomiksi":** Toinen tapa on lopettaa niiden käyttö, merkitä ne "käyttökelvottomiksi" niille tarkoitetulle tilille ja vain hodlata ne. Näin varmistat, ettet käytä niitä vahingossa. Jos bitcoinin arvo nousee, voi syntyä uusia pooleja, jotka sopivat paremmin myrkyllisille UTXO:ille;
-- Tee lahjoituksia:** Harkitse lahjoitusten tekemistä Bitcoinin ja siihen liittyvien ohjelmistojen parissa työskenteleville kehittäjille, vaikka ne olisivat kuinka vaatimattomia. Voit myös lahjoittaa yhdistyksille, jotka hyväksyvät BTC:tä. Jos myrkyllisten UTXO:iden hallinta tuntuu liian monimutkaiselta, voit yksinkertaisesti hankkiutua niistä eroon ja tehdä lahjoituksen;
-- Osta lahjakortteja:** Alustojen, kuten [Bitrefill](https://www.bitrefill.com/), avulla voit vaihtaa bitcoineja lahjakortteihin, joita voit käyttää eri kauppiailla. Tämä voi olla keino luopua myrkyllisistä UTXO:istasi menettämättä niihin liittyvää arvoa;
-- Konsolidoi ne Moneroon:** Samourai Wallet tarjoaa atomivaihtopalvelun BTC:n ja XMR:n välillä. Tämä sopii erinomaisesti myrkyllisten UTXO:iden hallintaan konsolidoimalla ne Moneroon vaarantamatta luottamuksellisuuttasi CIOH:n kautta, ennen kuin lähetät ne takaisin Bitcoiniin. Tämä vaihtoehto voi kuitenkin olla kallis kaivosmaksujen ja preemion osalta likviditeettirajoitusten vuoksi;
-- Lähetä ne Lightning-verkkoon:** Näiden UTXO:iden siirtäminen Lightning-verkkoon voi olla houkutteleva vaihtoehto, jos haluat hyötyä alennetuista transaktiomaksuista. Tämä menetelmä voi kuitenkin paljastaa tiettyjä tietoja riippuen siitä, miten käytät Lightningia, ja siksi sitä tulisi käyttää varoen.
+- **Sekoita ne pienempiin altaisiin:** Jos myrkyllinen UTXO on tarpeeksi suuri mahtuakseen pienempään altaaseen yksinään, harkitse sen sekoittamista. Tämä on usein paras vaihtoehto. Ei kuitenkaan ole suositeltavaa yhdistää useita myrkyllisiä UTXO:ita päästäkseen yhteen pooliin, sillä tämä voi yhdistää eri merkintöjäsi;
+- Merkitse ne **"käyttökelvottomiksi"**: Toinen tapa on lopettaa niiden käyttö, merkitä ne "käyttökelvottomiksi" niille tarkoitetulle tilille ja vain hodlata ne. Näin varmistat, ettet käytä niitä vahingossa. Jos bitcoinin arvo nousee, voi syntyä uusia pooleja, jotka sopivat paremmin myrkyllisille UTXO:ille;
+- **Tee lahjoituksia:** Harkitse lahjoitusten tekemistä Bitcoinin ja siihen liittyvien ohjelmistojen parissa työskenteleville kehittäjille, vaikka ne olisivat kuinka vaatimattomia. Voit myös lahjoittaa yhdistyksille, jotka hyväksyvät BTC:tä. Jos myrkyllisten UTXO:iden hallinta tuntuu liian monimutkaiselta, voit yksinkertaisesti hankkiutua niistä eroon ja tehdä lahjoituksen;
+- **Osta lahjakortteja:** Alustojen, kuten [Bitrefill](https://www.bitrefill.com/), avulla voit vaihtaa bitcoineja lahjakortteihin, joita voit käyttää eri kauppiailla. Tämä voi olla keino luopua myrkyllisistä UTXO:istasi menettämättä niihin liittyvää arvoa;
+- Konsolidoi ne Moneroon: **Samourai Wallet** tarjoaa atomivaihtopalvelun BTC:n ja XMR:n välillä. Tämä sopii erinomaisesti myrkyllisten UTXO:iden hallintaan konsolidoimalla ne Moneroon vaarantamatta luottamuksellisuuttasi CIOH:n kautta, ennen kuin lähetät ne takaisin Bitcoiniin. Tämä vaihtoehto voi kuitenkin olla kallis kaivosmaksujen ja preemion osalta likviditeettirajoitusten vuoksi;
+- Lähetä ne Lightning-verkkoon: Näiden UTXO:iden siirtäminen Lightning-verkkoon voi olla houkutteleva vaihtoehto, jos haluat hyötyä alennetuista transaktiomaksuista. Tämä menetelmä voi kuitenkin paljastaa tiettyjä tietoja riippuen siitä, miten käytät Lightningia, ja siksi sitä tulisi käyttää varoen.
 
 ### Miten käytän Whirlpoolia?
 
@@ -2168,11 +2160,11 @@ Seuraamme tiiviisti tätä tapausta ja siihen liittyvien työkalujen kehitystä.
 
 Seuraavassa luvussa selvitetään, mitä "anonsetit" ovat, miten nämä indikaattorit lasketaan ja miten niiden avulla voidaan arvioida coinjoin-syklien tehokkuutta.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Anonymiteettisarjat
 
@@ -2204,8 +2196,8 @@ Tarvittaessa anonsetteja voidaan käyttää rinnakkaisliitosten laadun arviointi
 on olemassa 2 erilaista anonyymiä asetusta:
 
 
-- Tuleva anonset ;**
-- Takautuva anonset.**
+- Tuleva anonset ;
+- Takautuva anonset.
 
 ### Mahdollinen alkamisajankohta
 
@@ -2247,7 +2239,7 @@ Pienille kokonaisuuksille on mahdollista laskea anonsetit manuaalisesti lohkoets
 
 Kuten olemme nähneet tässä luvussa, anonsetit voidaan laskea vain, jos coinjoin-rakenteessa on tietty homogeenisuus. Seuraavassa luvussa selvitetään, miten tämä homogeenisuus voidaan määrittää määrällisesti Bitcoin-tapahtumassa, olipa kyseessä sitten coinjoin tai perinteisempi tapahtuma.
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropia
 
@@ -2596,7 +2588,7 @@ Payjoinin käytön vaikeus on sen riippuvuus kauppiaan osallistumisesta. Asiakka
 
 Yksi ratkaisu olisi käyttää transaktiorakenteita, jotka tuovat ketjuanalyysiin epäselvyyttä ilman, että vastaanottajan on tehtävä yhteistyötä. Näin voisimme parantaa maksujen luottamuksellisuutta turvautumatta kauppiaiden aktiiviseen osallistumiseen. Juuri tätä tarkastelemme seuraavassa luvussa.
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
@@ -3010,7 +3002,7 @@ Esimerkiksi perinteisessä pankkijärjestelmässä olemme tottuneet jakamaan IBA
 
 Bitcoin toimii kuitenkin eri tavalla: jokaiselle saapuvalle transaktiolle on luotava uusi vastaanottava osoite. Tämä helppokäyttöisyyden ja luottamuksellisuuden välinen kompromissi juontaa juurensa Bitcoinin valkoisen kirjan alkulähteille. Satoshi Nakamoto varoitti tästä riskistä jo julkaisemalla asiakirjansa ensimmäisen version vuoden 2008 lopussa:
 
-**Lisäpalomuurina voitaisiin käyttää uutta avainparia jokaiselle tapahtumalle, jotta ne eivät olisi sidoksissa yhteiseen omistajaan
+**Lisäpalomuurina voitaisiin käyttää uutta avainparia jokaiselle tapahtumalle, jotta ne eivät olisi sidoksissa yhteiseen omistajaan.**
 
 On monia tapoja vastaanottaa useita maksuja yhdellä tunnisteella ilman, että osoitetta tarvitsee käyttää uudelleen. Jokaisella on omat kompromissinsa ja haittansa. Yksi näistä menetelmistä on Justus Ranvierin kehittämä ja vuonna 2015 julkaistu ehdotus BIP47 . Ehdotuksen tavoitteena on luoda uudelleenkäytettäviä maksutunnuksia, jotka mahdollistavat useiden maksutapahtumien suorittamisen samaa henkilöä vastaan ja välttävät samalla osoitteen uudelleenkäytön. Lyhyesti sanottuna BIP47:n tavoitteena on tarjota maksujärjestelmä, joka on yhtä intuitiivinen kuin yksilöllinen tunniste, mutta säilyttää samalla maksutapahtumien luottamuksellisuus.
 
@@ -3079,12 +3071,12 @@ Kuten aiemmin mainittiin, uudelleenkäytettävä maksukoodi sijaitsee HD-lompako
 80 tavun maksukoodi jakautuu seuraavasti:
 
 
-- Tavu `0`: Versio**. BIP47:n ensimmäisessä versiossa tämä tavu on `0x01`;
-- Tavu `1`: Bittikenttä**. Tämä tila on varattu lisämerkintöjen integroimiseksi erityiskäyttöön. Perinteisessä PayNym-käytössä tämä tavu asetetaan arvoon `0x00`;
-- 2-byte: Pariteetti `y`**. Tämä tavu on `0x02` tai `0x03`, mikä osoittaa, onko julkisen avaimen ordinaatti parillinen vai pariton, koska käytetään pakattua julkista avainta;
-- Tavusta "3" tavuun "34": Arvo `x`**. Nämä tavut edustavat julkisen avaimen abessiivia. `x`:n ja `y`:n pariteetin ketjutus muodostaa täydellisen pakatun julkisen avaimen;
-- Tavusta "35" tavuun "66": Merkkijonokoodi**. Tämä tila sisältää julkiseen avaimeen liittyvän merkkijonokoodin;
-- Tavusta "67" tavuun "79": Pehmuste**. Tämä tila on tarkoitettu mahdollista tulevaa kehitystä varten. Nykyisessä versiossa asetamme tänne vain nollia, jotta saavutamme 80 tavun koon, joka vaaditaan `OP_RETURN`-tulostusta varten.
+- Tavu `0`: **Versio**. BIP47:n ensimmäisessä versiossa tämä tavu on `0x01`;
+- Tavu `1`: **Bittikenttä**. Tämä tila on varattu lisämerkintöjen integroimiseksi erityiskäyttöön. Perinteisessä PayNym-käytössä tämä tavu asetetaan arvoon `0x00`;
+- 2-byte: Pariteetti **y**. Tämä tavu on `0x02` tai `0x03`, mikä osoittaa, onko julkisen avaimen ordinaatti parillinen vai pariton, koska käytetään pakattua julkista avainta;
+- Tavusta "3" tavuun "34": Arvo **x**. Nämä tavut edustavat julkisen avaimen abessiivia. **x**:n ja **y**:n pariteetin ketjutus muodostaa täydellisen pakatun julkisen avaimen;
+- Tavusta "35" tavuun "66": **Merkkijonokoodi**. Tämä tila sisältää julkiseen avaimeen liittyvän merkkijonokoodin;
+- Tavusta "67" tavuun "79": **Pehmuste**. Tämä tila on tarkoitettu mahdollista tulevaa kehitystä varten. Nykyisessä versiossa asetamme tänne vain nollia, jotta saavutamme 80 tavun koon, joka vaaditaan `OP_RETURN`-tulostusta varten.
 
 Tässä on edellisessä jaksossa jo esitellyn uudelleenkäytettävän maksukoodini heksadesimaalinen esitys:
 
@@ -3817,7 +3809,7 @@ Bob voi sitten korvata Liisalle maksun samalla tavalla kuin Alice lähetti häne
 
 ![BTC204](assets/fr/235.webp)
 
-*Suuret kiitokset [Fanis Michalakisille](https://x.com/FanisMichalakis) oikoluvusta ja asiantuntevista neuvoista tämän luvun kirjoittamiseen innoittaneen artikkelin osalta!
+*Suuret kiitokset [Fanis Michalakisille](https://x.com/FanisMichalakis) oikoluvusta ja asiantuntevista neuvoista tämän luvun kirjoittamiseen innoittaneen artikkelin osalta!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 

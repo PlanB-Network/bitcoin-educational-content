@@ -156,7 +156,7 @@ objectives:
 
 
 
-*注意：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.network/resources/glossary) 以瞭解定義。
+*注意：如果您在課程中遇到任何不熟悉的詞彙，請參閱 [詞彙表](https://planb.network/resources/glossary) 以瞭解定義。*
 
 
 
@@ -670,7 +670,7 @@ Linux 核心的故事始於 1991 年，Linus Torvalds 當時是芬蘭赫爾辛�
 
 
 
-→ ***Tux****：Linux 核心的吉祥物和標誌，由 Larry Ewing 於 1996 年使用 GIMP 軟體創造。
+→ **Tux**：Linux 核心的吉祥物和標誌，由 Larry Ewing 於 1996 年使用 GIMP 軟體創造。
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman 公開批評「開放源碼」一詞的使用，認為它過於
 
 
 
-*來源：Nathaniel Welch
+**來源：Nathaniel Welch**
 
 
 
@@ -749,7 +749,7 @@ Linux 發行版（通常縮寫為 "*distro*"）是一個完整的作業系統，
 - 與硬體通訊並管理系統資源 (CPU、記憶體、磁碟等) 的 **Linux 核心**。
 - ** 開機載入程式**，例如 *GRUB*，以啟動系統
 - 一個**初始化系統**，允許在開機時啟動服務： *systemd*、*OpenRC*、*SysV init* 或 *runit*，視發行版本的哲學選擇而定。
-- 套件管理系統**，可讓您安裝、更新及移除軟體。最常見的有 *APT* (Debian、Ubuntu)、*RPM/DNF* (Fedora、RHEL)、*Pacman* (Arch)、*Zypper* (openSUSE) 或 *APK* (Alpine)
+- 套件管理系統，可讓您安裝、更新及移除軟體。最常見的有 *APT* (Debian、Ubuntu)、*RPM/DNF* (Fedora、RHEL)、*Pacman* (Arch)、*Zypper* (openSUSE) 或 *APK* (Alpine)
 - 線上**軟體儲存庫**，集中可用應用程式的驗證版本
 - 一套**的系統工具**（shell、編輯器、編譯器、網路介面等），通常還有預先設定的桌面環境（*GNOME*、*KDE Plasma*、*XFCE*等）。
 - 設定腳本、文件，以及某些情況下的支援服務
@@ -764,7 +764,7 @@ Linux 發行版（通常縮寫為 "*distro*"）是一個完整的作業系統，
 
 
 
-→ **註：** ** 滾動發行版*發行版會在最新軟體版本推出時立即將其整合到系統中，因此系統會不斷更新，但可能較不穩定。相反地，*穩定*發行版會在主要版本推出時傳送軟體版本，以犧牲新穎性來保證更高的可靠性。
+→ **註：** **滾動發行版**發行版會在最新軟體版本推出時立即將其整合到系統中，因此系統會不斷更新，但可能較不穩定。相反地，**穩定**發行版會在主要版本推出時傳送軟體版本，以犧牲新穎性來保證更高的可靠性。
 
 
 
@@ -794,7 +794,7 @@ Linux 發行版（通常縮寫為 "*distro*"）是一個完整的作業系統，
 
 
 
-- 1992 年 2 月：MCC Interim Linux**
+- 1992 年 2 月：MCC Interim Linux
 
 
 
@@ -804,7 +804,7 @@ MCC Interim Linux 由曼徹斯特大學開發，被認為是最早的 Linux 發�
 
 
 
-- 1992 年 5 月：Softlanding Linux 系統 (SLS)**
+- 1992 年 5 月：**Softlanding Linux 系統 (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS 已不復存在。其最新版本可追溯至 1994 年末。
 
 
 
-- 1993 年 7 月：Slackware**
+- 1993 年 7 月：**Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware 至今仍在維護中，使其成為仍在使用中的最古老 Linux 
 
 
 
-- 1993 年 8 月：Debian**
+- 1993 年 8 月：**Debian**
 
 
 
@@ -876,7 +876,7 @@ Slackware 至今仍在維護中，使其成為仍在使用中的最古老 Linux 
 
 
 
-在早期，Debian 發表了《Debian 社會 Contract》* 和《Debian 自由軟體指導方針》(Debian Free Software Guidelines, DFSG)，建立了一個明確的程式碼自由和透明度的章程，正式確立了 Debian 的道德承諾。在自由軟體基金會的贊助下，Debian 於 1997 年成立了非營利組織 Software in the Public Interest (SPI)，從而在法律上獨立。
+在早期，Debian 發表了《Debian 社會 Contract》和《Debian 自由軟體指導方針》(Debian Free Software Guidelines, DFSG)，建立了一個明確的程式碼自由和透明度的章程，正式確立了 Debian 的道德承諾。在自由軟體基金會的贊助下，Debian 於 1997 年成立了非營利組織 Software in the Public Interest (SPI)，從而在法律上獨立。
 
 
 
@@ -886,7 +886,7 @@ Debian 因此成為 GNU/Linux 世界的技術和意識形態支柱之一，在�
 
 
 
-- 1994:Red Hat Linux**
+- 1994: Red Hat Linux
 
 
 
@@ -1050,7 +1050,7 @@ Linux 發行版的選擇取決於您的特定需求、技術水準和預定用�
 
 
 
-- Ubuntu**：
+- **Ubuntu**：
 
 
 
@@ -1062,11 +1062,11 @@ Ubuntu 由 Canonical 開發，於 2004 年推出，是全球最受歡迎的發�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- Linux Mint**：
+- **Linux Mint**：
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint 於 2006 年推出，是源自 Ubuntu 的發行版，旨在提供更�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint 以其簡單、預設的多媒體編解碼器和設計良好的更新工具脫穎而出。另一方面，Mint 嚴重依賴 Ubuntu 的基礎架構，使得它必須依賴 Ubuntu 的技術選擇 (尤其是在核心與儲存庫層級)。Mint 特別適合非技術性使用者，或是想要一個不需要太多學習、即開即用的系統的人。
 
@@ -1086,7 +1086,7 @@ Mint 以其簡單、預設的多媒體編解碼器和設計良好的更新工具
 
 
 
-- Zorin OS**：
+- **Zorin OS**：
 
 
 
@@ -1104,7 +1104,7 @@ Zorin OS 由一個愛爾蘭團隊於 2008 年創立，明確以尋求平順過�
 
 
 
-- 基本作業系統**：
+- 基本作業系統：
 
 elementary OS 於 2011 年推出，是以 Ubuntu 為基礎的發行版，主要著重於 Interface 的設計與一致性。其 Pantheon 桌面環境的靈感來自 macOS，簡約、優雅且流暢。然而，與其他發行版相比，該系統的自訂性仍然較低，一些進階使用者可能會因為 Interface 的選擇及其刻意鎖定的結構而感到受限。Interface 非常適合對美學敏感、尋求簡單連貫系統作日常使用的使用者。
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**：
+- **Pop!OS**：
 
 
 
@@ -1140,7 +1140,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Fedora** (工作站或 KDE Plasma)：
+- **Fedora** (工作站或 KDE Plasma)：
 
 
 
@@ -1154,7 +1154,7 @@ Fedora 是 Red Hat 支持的發行版，面向最新的技術 (Wayland、PipeWir
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed 或 Leap)：
+- **openSUSE** (Tumbleweed 或 Leap)：
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE 提供滾動發行版或穩定發行版。它採用 YaST 工具進行�
 
 
 
-- Debian**：
+- **Debian**：
 
 
 
@@ -1182,7 +1182,7 @@ Debian 有多個分支，包括 *Stable* (非常可靠，但軟件較舊) 和 *T
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**：
+- **Manjaro**：
 
 
 
@@ -1196,7 +1196,7 @@ Manjaro 以 Arch 為基礎，讓 Arch Linux 更容易上手。此發行版提供
 
 
 
-- Arch Linux**：
+- **Arch Linux**：
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### 專業配送
 
-- Kali Linux**：
+- **Kali Linux**：
 
 Kali Linux 是基於 Debian 的發行版，專為滲透測試和安全稽核而設計。它包含數百個 pentest 工具。此發行版並不適合作為日常使用的主要系統。
 
@@ -1224,7 +1224,7 @@ Kali Linux 是基於 Debian 的發行版，專為滲透測試和安全稽核而�
 
 
 
-- Parrot OS**：
+- **Parrot OS**：
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS 也是源自 Debian。它為 pentesting、攻擊性安全和隱私保�
 
 
 
-- 尾部**：
+- 尾部：
 
 
 
@@ -1246,7 +1246,7 @@ Tails 是一個以 Debian 為基礎、注重隱私的 Live 發行版。所有東
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **註：** Live 發行版是可以直接從 USB 隨身碟或 CD 使用的 Linux 作業系統，無須在 Hard 磁碟上安裝。
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating%20system/tails-15108
 
 
 
-- Qubes OS**：
+- **Qubes OS**：
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OS 以 Fedora 為基礎，並使用 Xen 虛擬化系統來區隔使用。�
 
 
 
-- BlackArch**：
+- **BlackArch**：
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch 是 Arch Linux 以五測為導向的擴充套件 (就像 Debian 上的
 
 
 
-- PureOS**：
+- **PureOS**：
 
 
 
@@ -1300,9 +1300,9 @@ PureOS 是 Purism 所開發的 Debian 衍生發行版，完全免費 (FSF 核准
 
 
 
-- Raspberry Pi OS**：
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-
+- **Raspberry Pi OS**：
 
 Raspberry Pi OS（前身為 Raspbian）是專為 Raspberry Pi 微型電腦最佳化的發行版。它以 Debian 為基礎，並針對 ARM 架構重新編譯套件。它可用於教育專案、電子測試或小型個人伺服器。
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS（前身為 Raspbian）是專為 Raspberry Pi 微型電腦最佳
 
 
 
-- Whonix**：
+- **Whonix**：
 
 
 
@@ -1326,36 +1326,23 @@ Whonix 以雙虛擬機器架構 (閘道 + 工作站) 結合 Debian 與 Tor 網�
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 這個全景圖讓您對目前的 Linux 發行版生態系統有一個概觀的了解，讓您能夠選擇最適合您的技術規格和目標的發行版。
-
-
 
 在 SCU202 的下一章，我們將進一步了解實際的 Linux 環境，從構成您與系統日常互動基礎的圖形環境開始。
 
-
-
 ## Linux 桌面環境
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 在 GNU/Linux 系統中，桌面環境在使用者體驗中扮演最重要的角色之一。它是圖形化的 Layer，能與系統互動，以熟悉的視覺表示為基礎：視窗、功能表、圖示、面板和預先安裝的應用程式。
-
-
 
 在本章中，我將探討桌面環境的結構與角色、其典型元件、可用的主要系列、選擇標準以及它們與最流行 Linux 發行版本的整合。
 
-
-
 ### 什麼是辦公室環境？
 
-
-
 桌面環境 (或「*DE*」，代表 *Desktop Environment*)，是指構成作業系統完整圖形化 Interface 的程式集。在 Windows 和 macOS 上，預設會提供單一的桌面環境，並整合到系統中，無法完全修改（只有某些 shell 可以部分修改 Interface）。另一方面，Linux 系統的模組化程度要高得多，將桌面環境視為可自由更換的獨立元件。
-
-
 
 在 Linux 中，清楚區分所有層級是很重要的：核心 (負責管理與硬體的互動)、顯示伺服器 (透過核心作為應用程式、繪圖驅動程式與硬體之間的中介)，以及最後的桌面環境本身 (依賴這些基礎架構來提供連貫的圖形 Interface 給使用者)。這個區別有時可能不太明確，因為許多 Linux 發行版都預先安裝了桌面環境，有時還會包含自己的 Wayland 合成器，然後再作為顯示伺服器。
 
@@ -1375,55 +1362,55 @@ Linux 發行版中的桌面環境不是單一的應用程式，而是一套連�
 
 
 
-- 視窗管理員**：繪製視窗邊界、管理視窗的位置、大小調整和轉換效果...例如Mutter (GNOME)、KWin (KDE Plasma)、Xfwm (Xfce)。
+- 視窗管理員：繪製視窗邊界、管理視窗的位置、大小調整和轉換效果...例如Mutter (GNOME)、KWin (KDE Plasma)、Xfwm (Xfce)。
 
 
 
 
 
-- 檔案管理員**：可讓您導覽目錄樹，以視覺化方式複製、移動或刪除檔案。範例：Nautilus (GNOME)、Dolphin (KDE)、Thunar (Xfce)。
+- 檔案管理員：可讓您導覽目錄樹，以視覺化方式複製、移動或刪除檔案。範例：Nautilus (GNOME)、Dolphin (KDE)、Thunar (Xfce)。
 
 
 
 
 
-- 配置中心**：這是一組工具，讓使用者無需透過指令行即可修改系統參數：外觀、壁紙、使用者管理、網路、週邊設備...
+- 配置中心：這是一組工具，讓使用者無需透過指令行即可修改系統參數：外觀、壁紙、使用者管理、網路、週邊設備...
 
 
 
 
 
-- 系統小程序**：這些是工作列（或「面板」）上的小圖示和互動模組，例如聲音控制、電池電量、網路連線、時鐘...
+- 系統小程序：這些是工作列（或「面板」）上的小圖示和互動模組，例如聲音控制、電池電量、網路連線、時鐘...
 
 
 
 
 
-- 面板或儀表板**：通常位於螢幕頂部或底部的可見條狀物，包含主功能表、系統小程式、捷徑、通知區等。
+- 面板或儀表板：通常位於螢幕頂部或底部的可見條狀物，包含主功能表、系統小程式、捷徑、通知區等。
 
 
 
 
 
-- 會話管理員**：在啟動時執行，顯示登入畫面並啟動所選擇的圖形會話。例如GDM (GNOME)、SDDM (KDE)、LightDM (Xfce)。
+- **會話管理員**：在啟動時執行，顯示登入畫面並啟動所選擇的圖形會話。例如GDM (GNOME)、SDDM (KDE)、LightDM (Xfce)。
 
 
 
 
 
-- 通知管理員**：管理系統通知（訊息、警示、更新等）的顯示。例如：dunst、Plasma-notifier、xfce4-notifyd。
+- 通知管理員：管理系統通知（訊息、警示、更新等）的顯示。例如：dunst、Plasma-notifier、xfce4-notifyd。
 
 
 
 
 
-- X11 合成器 (可選)**：在視窗管理程式不支援合成的環境中加入視覺效果 (陰影、透明度、動畫)。例如：Compton、Picom。
+- **X11 合成器 (可選)**：在視窗管理程式不支援合成的環境中加入視覺效果 (陰影、透明度、動畫)。例如：Compton、Picom。
 
 
 
 
 
-- 顯示伺服器**：這是處理系統（透過核心和繪圖驅動程式）與繪圖應用程式之間通訊的軟體。它會在螢幕上顯示視窗，並管理鍵盤和滑鼠的輸入。顯示伺服器通常是桌面環境的不同元件，但越來越多的系統採用 Wayland，這是一種現代的通訊協定，顯示伺服器的角色可直接由視窗管理程式 (例如 GNOME 下的 Mutter 或 KDE 下的 KWin) 接管。這就是所謂的「Wayland 合成」。
+- 顯示伺服器：這是處理系統（透過核心和繪圖驅動程式）與繪圖應用程式之間通訊的軟體。它會在螢幕上顯示視窗，並管理鍵盤和滑鼠的輸入。顯示伺服器通常是桌面環境的不同元件，但越來越多的系統採用 Wayland，這是一種現代的通訊協定，顯示伺服器的角色可直接由視窗管理程式 (例如 GNOME 下的 Mutter 或 KDE 下的 KWin) 接管。這就是所謂的「Wayland 合成」。
 
 
 
@@ -1890,7 +1877,7 @@ LTS 版本與非 LTS 版本 Ubuntu 的主要差異在於支援與穩定性的時
 
 
 
-- 與 Windows 同時安裝 (*dual boot*)**
+- 與 Windows 同時安裝 (**dual boot**)
 
 
 
@@ -1915,7 +1902,7 @@ LTS 版本與非 LTS 版本 Ubuntu 的主要差異在於支援與穩定性的時
 
 
 
-- 完全更換 Windows**
+- 完全更換 **Windows**
 
 
 
@@ -2033,10 +2020,10 @@ sudo reboot
 
 
 
-- main**：由 Canonical 官方維護的自由軟體。範例：Firefox、LibreOffice、bash
-- 限制**：非自由軟體，是硬體正常運作的必要條件。例如：NVIDIA 驅動程式、Wi-Fi 韌體、專屬編碼器
-- universe**: 由社群維護的自由軟體。範例：GIMP、Inkscape、Audacity
-- multiverse**: 軟體受法律限制 (專利、非自由授權)。可用性可能因國家而異。例如：某些音訊/視訊編解碼器、Steam
+- **main**：由 Canonical 官方維護的自由軟體。範例：Firefox、LibreOffice、bash
+- 限制：非自由軟體，是硬體正常運作的必要條件。例如：NVIDIA 驅動程式、Wi-Fi 韌體、專屬編碼器
+- **universe**: 由社群維護的自由軟體。範例：GIMP、Inkscape、Audacity
+- **multiverse**: 軟體受法律限制 (專利、非自由授權)。可用性可能因國家而異。例如：某些音訊/視訊編解碼器、Steam
 
 
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### 辦公室套件
 
 
@@ -3553,7 +3541,7 @@ https://planb.network/tutorials/computer-security/operating-system/virtualbox-64
 
 
 
-- Windows* 作業系統
+- **Windows** 作業系統
 
 
 
@@ -3577,7 +3565,7 @@ Settings → Windows Update → Check for updates
 
 
 
-- Linux* 作業系統
+- **Linux** 作業系統
 
 
 
@@ -3630,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- MacOS* 作業系統
+- **MacOS** 作業系統
 
 
 
@@ -3666,25 +3654,25 @@ macOS 會透過相同功能表中的「*自動更新*」選項自動下載安全
 
 
 
-- 網頁瀏覽器*：瀏覽器處於攻擊的最前線，因為它們會即時處理未經認證的內容，而且攻擊面特別大。更重要的是，它們在保護您的個人資料方面扮演著重要的角色。最重要的是，它們往往會取代許多以前在本機使用的軟體應用程式 (電子郵件用戶端、辦公室套件、媒體播放器...)。但我們會在 SCU202 課程的下一節再討論這一點；
+- 網頁瀏覽器：瀏覽器處於攻擊的最前線，因為它們會即時處理未經認證的內容，而且攻擊面特別大。更重要的是，它們在保護您的個人資料方面扮演著重要的角色。最重要的是，它們往往會取代許多以前在本機使用的軟體應用程式 (電子郵件用戶端、辦公室套件、媒體播放器...)。但我們會在 SCU202 課程的下一節再討論這一點；
 
 
 
 
 
-- 郵件用戶端*：它們會收到來自外部來源的附件或連結，這些都是不可控的，因此存在風險；
+- 郵件用戶端：它們會收到來自外部來源的附件或連結，這些都是不可控的，因此存在風險；
 
 
 
 
 
-- 通訊工具* (TeamViewer、Zoom、Signal、Teams...)：由於其互動性質，因此成為間諜攻擊或遠端控制企圖的目標。與電子郵件用戶端一樣，通訊工具也可能被用來作為網路釣魚嘗試或散佈惡意附件的媒介；
+- **通訊工具** (TeamViewer、Zoom、Signal、Teams...)：由於其互動性質，因此成為間諜攻擊或遠端控制企圖的目標。與電子郵件用戶端一樣，通訊工具也可能被用來作為網路釣魚嘗試或散佈惡意附件的媒介；
 
 
 
 
 
-- 防毒軟體、防火牆和其他偵測解決方案*：這些工具通常享有較高的權限，因為它們會持續掃描您的檔案、進程和網路連線。過時的簽章庫、不佳的組態或軟體本身的漏洞，都可能讓惡意軟體未被偵測到，甚至獲得較高的權限。
+- 防毒軟體、防火牆和其他偵測解決方案：這些工具通常享有較高的權限，因為它們會持續掃描您的檔案、進程和網路連線。過時的簽章庫、不佳的組態或軟體本身的漏洞，都可能讓惡意軟體未被偵測到，甚至獲得較高的權限。
 
 
 
@@ -3905,7 +3893,7 @@ sudo apt autoremove
 
 
 
-- Microsoft Defender*：在 Windows 上，擁有良好的防毒軟體是基本的必要條件。多年來，系統內建的防毒軟體 Microsoft Defender（前身為 Windows Defender）被認為不可靠，因此建議改用第三方解決方案。但隨著時間的推移，此軟體已有相當大的改進，在我看來，現在已足以提供個人使用的基本防護。儘管如此，我們不能高估防毒軟體的作用：最重要的是您自己的數位作業方式才能確保您的安全。Defender 的優勢之一是與 Windows 的原生整合。除了即時防護外，它還提供全面掃描，您可以排程每週掃描一次，或定期手動執行掃描。
+- **Microsoft Defender**：在 Windows 上，擁有良好的防毒軟體是基本的必要條件。多年來，系統內建的防毒軟體 Microsoft Defender（前身為 Windows Defender）被認為不可靠，因此建議改用第三方解決方案。但隨著時間的推移，此軟體已有相當大的改進，在我看來，現在已足以提供個人使用的基本防護。儘管如此，我們不能高估防毒軟體的作用：最重要的是您自己的數位作業方式才能確保您的安全。Defender 的優勢之一是與 Windows 的原生整合。除了即時防護外，它還提供全面掃描，您可以排程每週掃描一次，或定期手動執行掃描。
 
 
 
@@ -3915,12 +3903,12 @@ sudo apt autoremove
 
 
 
-- Sysinternals Suite*：這是微軟提供的一套更進階的工具，用於診斷、監控和疑難排解 Windows。以下是此套件中的主要工具：
-    - 進程監視器*：可讓您即時觀察活動進程、檔案存取、暫存器等；
-    - Autoruns*：顯示啟動時啟動的所有程式，協助您快速偵測持續存在的惡意軟體或不應執行的應用程式；
-    - Process Explorer*：監視進程並偵測可疑行為；
-    - TCPView*：可視化作用中的網路連線（偵測異常連線） ；
-    - Sigcheck*: 檢查檔案上的數位簽章是否有惡意程式碼。
+- **Sysinternals Suite**：這是微軟提供的一套更進階的工具，用於診斷、監控和疑難排解 Windows。以下是此套件中的主要工具：
+- 進程監視器：可讓您即時觀察活動進程、檔案存取、暫存器等；
+- **Autoruns**：顯示啟動時啟動的所有程式，協助您快速偵測持續存在的惡意軟體或不應執行的應用程式；
+- **Process Explorer**：監視進程並偵測可疑行為；
+- **TCPView**：可視化作用中的網路連線（偵測異常連線）；
+- **Sigcheck**: 檢查檔案上的數位簽章是否有惡意程式碼。
 
 
 
@@ -3930,7 +3918,7 @@ sudo apt autoremove
 
 
 
-- GlassWire*: 網路監控工具。它能即時追蹤傳入和傳出連線，並對異常活動發出警示。
+- **GlassWire**: 網路監控工具。它能即時追蹤傳入和傳出連線，並對異常活動發出警示。
 
 
 
@@ -3948,7 +3936,7 @@ sudo apt autoremove
 
 
 
-- Fail2ban*：監視系統日誌中不成功的存取嘗試（例如強行 SSH 登入嘗試）。偵測到可疑行為時，會透過 `iptables` 暫時封鎖違規 IP Address ；
+- **Fail2ban**：監視系統日誌中不成功的存取嘗試（例如強行 SSH 登入嘗試）。偵測到可疑行為時，會透過 `iptables` 暫時封鎖違規 IP Address ；
 
 
 
@@ -3958,7 +3946,7 @@ sudo apt autoremove
 
 
 
-- Lynis*: 全面的安全稽核工具，可分析您系統中的錯誤設定、已知弱點或偏離最佳作法的情況。它會產生一份易於閱讀的報告，其中包含安全評分和建議。
+- **Lynis**: 全面的安全稽核工具，可分析您系統中的錯誤設定、已知弱點或偏離最佳作法的情況。它會產生一份易於閱讀的報告，其中包含安全評分和建議。
 
 
 
@@ -3977,7 +3965,7 @@ macOS 以其安全性著稱，這主要歸功於其應用程式簽章政策和�
 
 
 
-- KnockKnock*: 掃描所有設定為在啟動時執行的 Elements（代理程式、守护程式、核心模組...），並找出那些可能可疑、未簽署或未知的程式。它可讓您快速識別系統上的惡意持續狀態。
+- **KnockKnock**: 掃描所有設定為在啟動時執行的 Elements（代理程式、守护程式、核心模組...），並找出那些可能可疑、未簽署或未知的程式。它可讓您快速識別系統上的惡意持續狀態。
 
 
 
@@ -4561,7 +4549,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4820,7 +4808,7 @@ sudo apt install -y gnome-disk-utility
 
 
 
-- 視窗：**
+- 視窗：
 
 
 
@@ -4866,7 +4854,7 @@ FileVault 啟用後，您需要選擇密碼遺失時的復原方法：使用您�
 對於外接式儲存媒體 (Hard 磁碟、USB 隨身碟等)，可使用磁碟公用程式執行加密。您需要完全重新格式化磁碟區：
 
 - 選取裝置，按一下「*刪除*」。
-- 選擇「GUID* 磁碟分割表」方案
+- 選擇「GUID 磁碟分割表」方案
 - 然後選擇加密檔案系統格式 (*APFS* 或 *Mac OS extended*)
 - 選擇強大的密碼
 - 按一下「*刪除*」，然後按一下「*確定*」，加密就完成了
@@ -4946,7 +4934,7 @@ sudo apt install libimage-exiftool-perl
 
 
 
-- 步驟 2：檢視檔案元資料** (法語)
+- 步驟 2：檢視檔案元資料 (法語)
 
 
 
@@ -5692,7 +5680,7 @@ Brave 是 Chrome 的強大替代方案，結合了速度、增強的安全性、
 
 
 
-- Arc** ：
+- **Arc**：
 
 
 
@@ -5710,7 +5698,7 @@ Brave 是 Chrome 的強大替代方案，結合了速度、增強的安全性、
 
 
 
-- 聚氨酯** ：
+- **聚氨酯**：
 
 
 
@@ -5754,6 +5742,7 @@ Firefox 儘管在某些效能領域稍稍落後於以 Blink 為基礎的瀏覽�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor 瀏覽器
 
 
@@ -5774,15 +5763,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 #### Mullvad 瀏覽器
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) 是 Tor 基金會與 Mullvad VPN 合作的成果。它以 Tor 瀏覽器為基礎，而 Tor 瀏覽器本身則源自 Firefox ESR。Mullvad 瀏覽器的設計旨在最大化使用者隱私。在預設情況下，它包含了針對指紋、追蹤者和第三方腳本的進階保護。
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 它具有 Tor 瀏覽器提供的大部分安全和隱私功能，但有一點不同：它不會透過 Tor 網路重定向流量。為了避免 IP Address 洩漏，您可以將它與 VPN（最好是 Mullvad VPN）結合使用。
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen 瀏覽器
-
-
 
 [Zen Browser](https://zen-browser.app/) 是基於 Firefox (Gecko 引擎) 的免費開放原始碼瀏覽器，於 2024 年推出。它的目標是提供現代、優雅、高度自訂且最重要的是以隱私為中心的瀏覽體驗，而不需依賴 Chromium。
 
-
-
 Zen 因其激進的 Interface 方法和可用性而脫穎而出，其主要靈感來自 Arc 瀏覽器，但又因其開放源碼特性和 Gecko 引擎而從 Arc 瀏覽器中解放出來。它包括 ：
-
-
-
 
 - 簡約、模組化的 Interface，具有垂直側邊欄標籤、分割檢視，以及按專案分組標籤集的*工作區*系統；
 - 可自訂的 Interface 模版系統 (*Zen Mods*)，可用來深度修改瀏覽器的外觀；
 - 稱為 *Glance* 的原始功能，可在輕量級的臨時視窗中開啟連結，避免標籤頁的雜亂...
 
-
-
 Zen 也支援 Firefox 擴充套件，以及透過 Mozilla 帳戶進行同步處理。
-
-
 
 從安全性與隱私權的角度來看，Zen 具備本機封鎖第三方追蹤者的功能。瀏覽器本身不會收集任何資料，也允許停用 Mozilla 的遙測功能。它也會自動拒絕過時或不符合規定的 SSL 證書。
 
-
-
 如果您正在尋找一個免費、創新、不雜亂且尊重您隱私的 Gecko 瀏覽環境，Zen Browser 是一個有趣的選擇。
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### 基於 WebKit 的瀏覽器
 
-
-
 #### 野生動物園
-
-
 
 仍在使用 WebKit 渲染引擎（而非 Blink 之類的 Fork）的主要瀏覽器是 Safari。[Safari](https://www.apple.com/safari/)是 Apple 專為 macOS 設計的瀏覽器。它提供了與 Apple 生態系統的絕佳整合、高效能，現在還包括更強大的防追蹤和指紋保護。
 
-
-
 然而，Safari 仍然是封閉的，其桌面版本僅限於 macOS，並且依賴於 Apple 生態系統。雖然 Apple 擁有強大的隱私權政策，其商業模式主要以硬體銷售而非廣告為基礎，但對於某些內部作法仍不清楚。
-
-
 
 在此，我們將焦點放在桌上型電腦瀏覽器上，但必須注意的是，在 iOS 上，Apple 要求所有瀏覽器都必須使用 WebKit 渲染引擎 (不過，由於某些歐洲法規的規定，這項限制可能很快就會改變)。這表示 Chrome、Firefox 或 Brave 等瀏覽器必須在 iOS 上提供以 WebKit 為基礎的應用程式，而不是以其慣用的渲染引擎為基礎。
 
@@ -5889,6 +5855,7 @@ Orion 完全由 Kagi 團隊 (以其無廣告搜尋引擎而聞名) 所開發。�
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### 無渲染引擎的瀏覽器
 
 
@@ -6223,25 +6190,25 @@ Cookie 則是瀏覽器應網站要求儲存的小檔案。它們用於記住您�
 
 
 
-- 分析 URL**：攻擊者通常使用非常接近原始的位址 (例如 `micr0soft-support.com`、`paypal-verif.net` 等)。有些攻擊者還會利用 Unicode 字元來取代視覺上相似的字元。檢查 Address 是否與預期的網站完全符合，沒有可疑的前綴或後綴。
+- 分析 URL：攻擊者通常使用非常接近原始的位址 (例如 `micr0soft-support.com`、`paypal-verif.net` 等)。有些攻擊者還會利用 Unicode 字元來取代視覺上相似的字元。檢查 Address 是否與預期的網站完全符合，沒有可疑的前綴或後綴。
 
 
 
 
 
-- 避免縮短連結**： `bit.ly`或`t.co`等服務會掩蓋最終的 Address。如果您收到縮短連結，請提高警覺或使用 URL 擴充服務來檢查其目的地。
+- 避免縮短連結：`bit.ly`或`t.co`等服務會掩蓋最終的 Address。如果您收到縮短連結，請提高警覺或使用 URL 擴充服務來檢查其目的地。
 
 
 
 
 
-- 提防危言聳聽的訊息**：網路釣魚嘗試通常會利用強烈的情緒（緊急感、威脅、獎賞、好奇心......）。聲稱您的帳戶即將被凍結或包裹無法送達的電子郵件自然令人起疑。
+- 提防危言聳聽的訊息：網路釣魚嘗試通常會利用強烈的情緒（緊急感、威脅、獎賞、好奇心......）。聲稱您的帳戶即將被凍結或包裹無法送達的電子郵件自然令人起疑。
 
 
 
 
 
-- 切勿透過接收到的連結傳送敏感資訊**：合法的機構絕不會透過簡單的電子郵件或簡訊要求您提供密碼、驗證碼或身分證掃描複本。
+- 切勿透過接收到的連結傳送敏感資訊：合法的機構絕不會透過簡單的電子郵件或簡訊要求您提供密碼、驗證碼或身分證掃描複本。
 
 
 
@@ -6251,7 +6218,7 @@ Cookie 則是瀏覽器應網站要求儲存的小檔案。它們用於記住您�
 
 
 
-- 透過書籤存取重要網站**：
+- 透過書籤存取重要網站：
 
 
 
@@ -6265,7 +6232,7 @@ Cookie 則是瀏覽器應網站要求儲存的小檔案。它們用於記住您�
 
 
 
-- 尊重良好的認證實務** ：
+- **尊重良好的認證實務**：
 
 
 
@@ -6283,7 +6250,7 @@ Cookie 則是瀏覽器應網站要求儲存的小檔案。它們用於記住您�
 
 
 
-- 檢查 SSL/TLS** 證書：
+- 檢查 **SSL/TLS** 證書：
 
 
 
@@ -6329,19 +6296,19 @@ Address 欄中的掛鎖圖示表示加密連接，但不保證網站的合法性
 
 
 
-- 使用多種不同的瀏覽器**：例如，個人使用 Firefox，敏感活動使用 Tor 或 Mullvad，專業工作使用 Chromium。每個瀏覽器都使用自己的儲存範例，可完全隔離 Cookie、會話和擴充功能。這也讓您可以針對特定使用情況來調整瀏覽器設定。
+- 使用多種不同的瀏覽器：例如，個人使用 Firefox，敏感活動使用 Tor 或 Mullvad，專業工作使用 Chromium。每個瀏覽器都使用自己的儲存範例，可完全隔離 Cookie、會話和擴充功能。這也讓您可以針對特定使用情況來調整瀏覽器設定。
 
 
 
 
 
-- 在單一瀏覽器中建立多個設定檔**：有些瀏覽器允許您建立獨立的設定檔，每個設定檔都有自己的歷程記錄、會話、擴展功能和設定。這種解決方案比使用數個獨立瀏覽器的限制性稍低，但效果仍較差。
+- 在單一瀏覽器中建立多個設定檔：有些瀏覽器允許您建立獨立的設定檔，每個設定檔都有自己的歷程記錄、會話、擴展功能和設定。這種解決方案比使用數個獨立瀏覽器的限制性稍低，但效果仍較差。
 
 
 
 
 
-- 使用內建的容器**：Firefox 提供 [Multi-Account Containers] 擴充套件 (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)，可讓您開啟獨立的標籤頁，每個標籤頁都有自己的登入帳號和 cookies。您也可以自動將某些網站指定到特定的容器，讓它們每次開啟時都能分開。
+- 使用內建的容器：Firefox 提供 [Multi-Account Containers] 擴充套件 (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)，可讓您開啟獨立的標籤頁，每個標籤頁都有自己的登入帳號和 cookies。您也可以自動將某些網站指定到特定的容器，讓它們每次開啟時都能分開。
 
 
 
@@ -6351,7 +6318,7 @@ Address 欄中的掛鎖圖示表示加密連接，但不保證網站的合法性
 
 
 
-- 使用隔離的系統環境**：對於特別敏感的用途，您也可以在虛擬機器或 Docker 容器中執行瀏覽器，使其與主環境完全分離。
+- 使用隔離的系統環境：對於特別敏感的用途，您也可以在虛擬機器或 Docker 容器中執行瀏覽器，使其與主環境完全分離。
 
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS 沒有整合任何專屬元件。您可以自由添加或不添加 Go
 Graphene 僅與最近的 Google Pixels (Pixel 6、7、8 和 9) 相容。
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6839,7 +6806,7 @@ Android 和 iOS 現在提供細粒度的權限控制。您可以依應用程式�
 #### 使用獨立的專業檔案
 
 
-工作設定檔*是 Android 的原生功能 (自 Android 5.0 起)，可讓您在同一智慧型手機中建立獨立的軟體分割區。實際上，此設定檔的功能就像是一個獨立的容器：儲存在此空間中的應用程式、帳號和資料，無法與個人設定檔中的應用程式、帳號和資料互動。這種分隔可防止兩個空間之間的資料洩漏，並限制應用程式的存取權限。此功能通常由公司內部管理，但個人也有使用此功能隔離應用程式的方法。
+工作設定檔是 Android 的原生功能 (自 Android 5.0 起)，可讓您在同一智慧型手機中建立獨立的軟體分割區。實際上，此設定檔的功能就像是一個獨立的容器：儲存在此空間中的應用程式、帳號和資料，無法與個人設定檔中的應用程式、帳號和資料互動。這種分隔可防止兩個空間之間的資料洩漏，並限制應用程式的存取權限。此功能通常由公司內部管理，但個人也有使用此功能隔離應用程式的方法。
 
 
 ![Image](assets/fr/143.webp)
@@ -6995,7 +6962,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ### 為什麼 SMS 訊息無法保護您的交換？
 
 
-SMS (*Short Message Service* 短訊服務*) 在文字交換方面歷來都很受歡迎，但它是以 1980 年代末期的過時通訊協定為基礎。這個整合在 GSM (*Global System for Mobile communications*) 標準中的通訊協定，並未提供端對端加密機制。實際上，每條傳送的 SMS 都是以明文透過行動運營商網路傳送 (有時只在 Interface 無線電上加密，但從來沒有端對端加密)。這表示訊息內容可以在多個層級被截取：
+SMS (**Short Message Service** 短訊服務) 在文字交換方面歷來都很受歡迎，但它是以 1980 年代末期的過時通訊協定為基礎。這個整合在 GSM (**Global System for Mobile communications**) 標準中的通訊協定，並未提供端對端加密機制。實際上，每條傳送的 SMS 都是以明文透過行動運營商網路傳送 (有時只在 Interface 無線電上加密，但從來沒有端對端加密)。這表示訊息內容可以在多個層級被截取：
 
 
 
@@ -7075,7 +7042,7 @@ Telegram 是非常受歡迎的訊息服務，這要歸功於它的人性化設�
 因此 Telegram 在技術上可以存取大部分未明確保護的對話內容。即使該公司對政府機關採取堅定的立場，Telegram 對於機密或敏感的交換內容也不是最佳解決方案，除非您明確使用其「秘密交換」，但這在日常工作中實用性要低得多。
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile 是 Mozilla 基金會開發的流行開放原始碼電子郵�
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis 是一款全面的開放原始碼應用程式。它用密碼加密您的 2
 Ente Auth 是一個現代化、開放源碼、多平台的解決方案，具有端對端加密備份功能。它能讓您在行動裝置、桌上型電腦和網頁上安全地同步您的 2FA 代碼。您也可以離線使用，無需雲端備份或建立帳戶。
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth 提供許多附加功能：依標籤組織、每項服務的自訂圖示、備註、我的最愛、整合搜尋、安全的團隊程式碼分享。
 
 
@@ -7642,6 +7611,7 @@ Authy 提供跨多個裝置的 2FA 同步功能，非常方便，但此應用程
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 如果您想瞭解更多關於密碼管理器、2FA 認證和 VPN 的資訊，我建議您閱讀 SCU-101 課程中的專門章節：
 
 
@@ -8035,10 +8005,11 @@ Chrono 可在 F-Droid 上使用，完全開放原始碼，提供現代、簡潔�
 本應用程式還整合了計時器和秒錶，並具備圈數記錄、統計、時間比較和多計時器管理功能。您可以設定多個時區、自訂主題 (顏色、樣式、動畫)，甚至用標籤來組織您的鬧鈴和計時器。
 
 
+為了更深入了解這個主題，我建議您造訪網站 [*Awesome Privacy*](https://awesome-privacy.xyz/)，該網站收錄了您日常使用的軟體的最佳隱私友好型替代方案。
 ___
 
 
-⚠️ ***注意事項**：雖然本章所介紹的替代方案大多是開放原始碼且以隱私為導向，但它們並非沒有限制或風險。有些可能會停止維護、有未修補的漏洞、變成專屬軟體，甚至可能是惡意軟體。有些在您當地的司法管轄區也可能是非法的。我是在 2025 年 6 月撰寫本章的，但這些應用程式的情況可能在那之後已經改變。
+⚠️ **注意事項**：雖然本章所介紹的替代方案大多是開放原始碼且以隱私為導向，但它們並非沒有限制或風險。有些可能會停止維護、有未修補的漏洞、變成專屬軟體，甚至可能是惡意軟體。有些在您當地的司法管轄區也可能是非法的。我是在 2025 年 6 月撰寫本章的，但這些應用程式的情況可能在那之後已經改變。
 
 
 此外，我沒有親自審核所有提及工具的程式碼，我的建議絕對不能視為絕對保證。因此，在使用這些應用程式之前，每個人都必須自行進行研究。
@@ -8099,8 +8070,8 @@ ___
 
 
 
-- IP** (* 網際網路通訊協定*) 識別每個連接的裝置，並路由資料封包。
-- TCP** (* 傳輸控制通訊協定*) 將流量分段、檢查錯誤並將分段排回順序。
+- **IP** (*網際網路通訊協定*) 識別每個連接的裝置，並路由資料封包。
+- **TCP** (*傳輸控制通訊協定*) 將流量分段、檢查錯誤並將分段排回順序。
 
 
 → 對於可靠性不如延遲性重要的即時用途 (VoIP、DNS、串流等)，通常會使用另一種傳輸通訊協定來取代 TCP：UDP (*User Datagram Protocol*)。
@@ -8127,21 +8098,21 @@ ___
 在大多數的現代家庭中，網際網路存取是透過一個中央裝置來提供的，這個裝置就像是一個數據機和路由器。這個裝置的名稱因國家而異（在法國，它被稱為「Internet Box」）。ISP 提供的這個多功能裝置將您連接到網際網路的其他部分。
 
 
-→ *ISP = 網際網路服務供應商。
+→ *ISP = 網際網路服務供應商。*
 
 
 本裝置結合了 2 個主要功能：
 
 
 
-- 數據機的作用**
+- **數據機的作用**
 
 
 數據機（「*調變器-解調器*」的縮寫）是將 ISP 網路連接到您家中的元件。它將接收到的電子或光訊號（透過光纖、同軸電纜、ADSL 或行動網路）轉換成您的設備可以理解的數位訊號。反過來，它會將來自您設備的資料轉換成可透過營運商基礎設施傳輸的格式。如果您的家庭網路要與網際網路通訊，這個步驟是不可或缺的。
 
 
 
-- 路由器角色**
+- **路由器角色**
 
 
 路由器是本機網路的核心。它將網際網路連線分佈到您所有的裝置：電腦、智慧型手機、連線物件、印表機等。路由器會為每個裝置指派本機 IP Address（有別於網際網路上可見的公用 IP）。然後，路由器會組織傳入和傳出的流量，確保資料傳送到正確的裝置。它也可以整合防火牆、過濾網路封包或管理埠轉送規則。NAT 使用單一公用 IP Address 來代表您的所有裝置，從網際網路的視線中遮蔽您的本機網路。只有路由器知道是哪一台本機裝置啟動了哪一個請求。
@@ -8296,7 +8267,7 @@ Wi-Fi（「*無線保真*」的縮寫）是一種無線通訊技術，可讓您�
 在回顧了理論基礎之後，本章將引導您採取明確、實際且有效的步驟來加強本機網路的安全性。
 
 
-*請注意：由於 Plan ₿ Network 針對的是國際受眾，因此此處提供的資訊屬於一般資訊。依據您當地的情況和 ISP，某些最佳作法可能不會在此提及，或可能以不同的方式適用。
+**請注意：由於 Plan ₿ Network 針對的是國際受眾，因此此處提供的資訊屬於一般資訊。依據您當地的情況和 ISP，某些最佳作法可能不會在此提及，或可能以不同的方式適用。**
 
 
 ### 選擇和保護您的網路設備
@@ -8385,21 +8356,21 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-- UPnP (* 通用隨插即用*)**：
+- UPnP (**通用隨插即用**)：
 
 
 此功能可讓您網路上的裝置要求路由器自動開啟連接埠。雖然這有助於某些用途 (線上遊戲、連線攝影機等)，但也為惡意應用程式打開了方便之門，這些惡意應用程式能夠在未經您授權的情況下修改網路組態。UPnP 是導致內部服務無意中暴露於外部世界的主要原因之一。
 
 
 
-- WPS (*Wi-Fi Protected Setup*) **：
+- WPS (*Wi-Fi Protected Setup*)**：**
 
 
 此系統原本是為了簡化無需輸入密碼即可將裝置連線至 Wi-Fi 而設計，但它是以 PIN 碼為基礎，而 PIN 碼通常較弱，容易受到暴力攻擊。我建議您停用它。
 
 
 
-- 遠端存取（*遠端管理*）**：
+- 遠端存取（*遠端管理*）：
 
 
 有些路由器允許您從外部透過網際網路連線至其管理 Interface。此功能不合理地增加了路由器的攻擊面。除非您有遠端管理的特定需求，否則請完全停用此功能。即使如此，也請務必使用 VPN。
@@ -8408,14 +8379,14 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- 過時或不安全的通訊協定**：
+- **過時或不安全的通訊協定**：
 
 
 停用任何使用純文字通訊協定 (例如 Telnet、FTP、未加密的 HTTP 或 SMBv1) 的管理服務。 這些通訊協定無法確保交換資料的機密性或完整性，而且經常是惡意軟體的攻擊目標。如果您需要本機或遠端存取，請視情況僅透過 HTTPS (加密的 Interface)、SSH 或 SFTP 使用連線。
 
 
 
-- Ping WAN / ICMP**：
+- Ping WAN / ICMP：
 
 
 有些路由器預設會回應從外部傳送的 ICMP 請求 (`ping`指令)。這可讓攻擊者檢查您的網路是否啟動且可存取。如果您不需要，請在路由器的防火牆中停用此回應。
@@ -8504,15 +8475,15 @@ DNS (*Domain Name System*) 是一種網際網路服務，可將人類可理解�
 
 
 
-- DoH (*DNS over HTTPS*)**：將 DNS 請求封裝在 HTTPS 通訊協定中，使其與傳統的加密網頁流量無異。
+- DoH (**DNS over HTTPS**)：將 DNS 請求封裝在 HTTPS 通訊協定中，使其與傳統的加密網頁流量無異。
 
 
 
-- DoT (*DNS over TLS*)**：在您的裝置和 DNS 伺服器之間建立特定的加密通道
+- DoT (*DNS over TLS*)：在您的裝置和 DNS 伺服器之間建立特定的加密通道
 
 
 
-- DoQ (*DNS over QUIC*)**：透過基於 UDP 的 QUIC 通訊協定傳輸 DNS 請求
+- DoQ (**DNS over QUIC**)：透過基於 UDP 的 QUIC 通訊協定傳輸 DNS 請求
 
 
 實際上，DNS 加密和伺服器切換可以在不同層級上實作：
@@ -8526,6 +8497,7 @@ DNS (*Domain Name System*) 是一種網際網路服務，可將人類可理解�
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - 在作業系統層級：有些作業系統原生整合了加密 DNS 支援 (DoT 或 DoH)，可保護所有通過系統網路堆疊的 DNS 請求。不過，這並不能確保整個電腦或電話的安全：如果應用程式設定為使用不同的 DNS 解析器或通訊協定，就可以繞過此設定。
 
 
@@ -8626,3 +8598,4 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

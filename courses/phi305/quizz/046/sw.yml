@@ -1,0 +1,9 @@
+question: Spinoza anafafanuaje chuki?
+answer: Huzuni inayohusishwa na wazo la sababu ya nje.
+wrong_answers:
+  - Furaha inayohusishwa na wazo la sababu ya nje.
+  - Hisia ya hatia.
+  - Hisia ya kupinga angavu.
+explanation: |
+  Spinoza anafafanua chuki kama huzuni inayohusishwa na wazo la sababu ya nje. Ni athari mbaya ambayo inapunguza uwezo wetu wa kutenda na kutufunga kwa kile tunachochukia.
+reviewed: false

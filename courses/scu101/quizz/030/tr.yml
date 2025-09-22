@@ -1,0 +1,11 @@
+question: Sahte e-postalardan korunmak için altın kural nedir?
+answer: E-postanın kaynağının yanı sıra gönderenin tam adını da dikkatlice kontrol edin.
+wrong_answers:
+  - Şüpheli e-postaları her zaman yanıtlayın.
+  - İçeriklerini kontrol etmek için tüm e-posta eklerini açın.
+  - Kişisel bilgilerinizi yalnızca bilinen göndericilerle paylaşın.
+explanation: |
+  Sahte e-postalardan korunmak için altın kural
+  gönderenin tam adını da dikkatlice kontrol etmektir
+  e-postanın kaynağı olarak. Şüpheye düştüğünüzde silin!
+reviewed: true

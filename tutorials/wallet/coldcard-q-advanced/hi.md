@@ -1,5 +1,5 @@
 ---
-name: कोल्डकार्ड क्यू - उन्नत
+name: COLDCARD Q - विशेषज्ञ
 description: COLDCARD Q के उन्नत विकल्पों का उपयोग करना
 ---
 ![cover](assets/cover.webp)

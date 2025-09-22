@@ -1,5 +1,5 @@
 ---
-name: 訊號
+name: Signal
 description: 自由表達
 ---
 ![cover](assets/cover.webp)

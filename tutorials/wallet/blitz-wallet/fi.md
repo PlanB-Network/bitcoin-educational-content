@@ -93,23 +93,23 @@ Yksi Blitz Wallet:n erityispiirteistä on, että se tukee eri verkkoja ja kanavi
 
 
 
-- Lightning Network** : Yksi Bitcoin:n päällekkäisyyksistä, jonka avulla voit suorittaa mikrotransaktioita välittömästi.
+- **Lightning Network**: Yksi Bitcoin:n päällekkäisyyksistä, jonka avulla voit suorittaa mikrotransaktioita välittömästi.
 
 
 
 
 
-- Bitcoin Mainnet** : Bitcoin-protokollan pääketju, joka soveltuu suurten rahamäärien maksamiseen.
+- **Bitcoin Mainnet**: Bitcoin-protokollan pääketju, joka soveltuu suurten rahamäärien maksamiseen.
 
 
 
 
 
-- Liquid Network**: Bitcoin Mainnet:n rinnakkaisketju, jonka on kehittänyt BlockStream ja joka käyttää Liquid Bitcoineja nopeiden, Confidential Transactions.
+- **Liquid Network**: Bitcoin Mainnet:n rinnakkaisketju, jonka on kehittänyt BlockStream ja joka käyttää Liquid Bitcoineja nopeiden, Confidential Transactions.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Oletusarvoisesti kaikki transaktiosi tapahtuvat Liquid Network:lla, mutta Blitz antaa sinun määrittää verkon, jossa haluat vastaanottaa satosheja, napsauttamalla **Valitse muoto** -painiketta.
 
@@ -169,7 +169,7 @@ Bitcoin-siirtotoimintojen lisäksi Blitz Wallet tarjoaa sinulle myymälän, joss
 
 
 
-- Pääsy tekoälypalveluihin**: Käytä generatiivisia tekoälymalleja, kuten: Gpt-4o, gpt-4o-mini gemini-flash-1.5 ja maksa suoraan bitcoineilla.
+- **Pääsy tekoälypalveluihin**: Käytä generatiivisia tekoälymalleja, kuten: Gpt-4o, gpt-4o-mini gemini-flash-1.5 ja maksa suoraan bitcoineilla.
 
 
 
@@ -179,7 +179,7 @@ Bitcoin-siirtotoimintojen lisäksi Blitz Wallet tarjoaa sinulle myymälän, joss
 
 
 
-- Lähetä tekstiviestejä minne tahansa maailmassa**: Voit käyttää Blitz-kaupassa GSM-palvelua, jonka avulla voit lähettää tekstiviestejä nimettömänä minne tahansa päin maailmaa, ja laskutus tapahtuu suoraan Bitcoin:ssä.
+- **Lähetä tekstiviestejä minne tahansa maailmassa**: Voit käyttää Blitz-kaupassa GSM-palvelua, jonka avulla voit lähettää tekstiviestejä nimettömänä minne tahansa päin maailmaa, ja laskutus tapahtuu suoraan Bitcoin:ssä.
 
 
 
@@ -189,7 +189,7 @@ Bitcoin-siirtotoimintojen lisäksi Blitz Wallet tarjoaa sinulle myymälän, joss
 
 
 
-- Surffaa täysin luottamuksellisesti**: WireGuard VPN (Virtual Private Network) -tilaus Wallet Blitz -kaupassa bitcoineilla.
+- **Surffaa täysin luottamuksellisesti**: WireGuard VPN (Virtual Private Network) -tilaus Wallet Blitz -kaupassa bitcoineilla.
 
 
 
@@ -249,7 +249,7 @@ Aktivoimalla Lightning-tilan, kun pääedellytys on täyttynyt (saldo 500 000 sa
 
 
 
-- Hyväksy Bitcoin myymälässäsi** :
+- **Hyväksy Bitcoin myymälässäsi**:
 
 
 

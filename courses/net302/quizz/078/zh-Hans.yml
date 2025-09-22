@@ -1,0 +1,9 @@
+question: PTR 记录放在哪个 DNS 区域中进行 IPv6 反向解析？
+answer: ip6.arpa
+wrong_answers:
+  - in-addr.arpa
+  - ipv6.arpa
+  - rev.arpa
+explanation: |
+  ip6.arpa 区域专门用于 IPv6 地址的反向解析，而 in-addr.arpa 则用于 IPv4。
+reviewed: false

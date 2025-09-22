@@ -1,9 +1,9 @@
-question: 比特币中个人责任的重要性是什么？
-answer: 这是至关重要的，因为你负责备份
+question: 记录的第一笔比特币交易是什么？
+answer: Satoshi和Hal Finney之间的10 BTC交易
 wrong_answers:
-  - 这是基本的，因为你必须挖掘比特币
-  - 购买比特币是必要的
-  - 这是至关重要的，因为你负责钱包主题
+  - 用10,000 BTC购买2个比萨的交易
+  - Satoshi和Hal Finney之间的1 BTC交易
+  - Laszlo Hanyecz和Hal Finney之间的10,000 BTC交易
 explanation: |
-  在比特币中，财务主权与个人责任密不可分，因为你必须按照推荐的备份程序自行保管你的资金。
+  记录的第一笔比特币交易是Satoshi Nakamoto和Hal Finney之间的10 BTC交易。
 reviewed: true

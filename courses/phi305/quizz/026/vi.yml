@@ -1,0 +1,9 @@
+question: Ai nghĩ rằng con người có thể làm xáo trộn thiên nhiên thay vì phải chịu sự chi phối của nó?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Thánh Augustin.
+explanation: |
+  Descartes tin rằng con người có thể làm xáo trộn Tự nhiên thay vì chịu đựng nó. Quan điểm nhị nguyên này đặt con người đối đầu với tự nhiên, và cho rằng chúng ta có thể vượt lên trên các quy luật tự nhiên bằng ý chí của mình.
+reviewed: false

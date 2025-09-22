@@ -1,0 +1,9 @@
+question: Apa peran utama protokol TCP dalam model TCP/IP?
+answer: Memastikan transfer data yang andal dan teratur
+wrong_answers:
+  - Mengenkripsi komunikasi jaringan
+  - Menetapkan alamat IP ke mesin
+  - Fragmen datagram pada tingkat fisik
+explanation: |
+  TCP memastikan transmisi data yang andal dengan memverifikasi integritas, menjaga ketertiban, dan menangani pemulihan jika terjadi kehilangan.
+reviewed: false

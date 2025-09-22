@@ -1,0 +1,12 @@
+question: Bir ekonomide enflasyon ve deflasyon arasındaki ilişki nedir?
+answer: Enflasyon ve deflasyon bir ekonomide birbiriyle iletişim kuran damarlar gibidir. Üretimdeki bir artış deflasyona yol açabilir, ancak Supply parası aynı anda artırılırsa, deflasyonist etki iptal edilir ve enflasyonla sonuçlanır.
+wrong_answers:
+  - Bir ekonomide enflasyon ve deflasyon birbirinden bağımsızdır.
+  - Enflasyon bir ekonomide her zaman deflasyona yol açar.
+  - Deflasyon bir ekonomide her zaman enflasyona yol açar.
+explanation: |
+  Bu bölümde enflasyon ve deflasyonun iletişim kurmak gibi olduğu açıklanmaktadır
+  bir ekonomideki kaplar. Üretimdeki bir artış deflasyona yol açabilir, ancak eğer
+  gW-1 parası eş zamanlı olarak artırıldığında deflasyonist etki ortadan kalkmaktadır,
+  enflasyona neden olur.
+reviewed: false

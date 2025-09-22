@@ -1,0 +1,9 @@
+question: Który zakres IPv4 Address jest zarezerwowany do testowania lokalnej pętli zwrotnej?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Zakres 127.0.0.0/8 jest używany dla lokalnej pętli zwrotnej. Każde żądanie skierowane do tego zakresu pozostaje w obrębie maszyny źródłowej.
+reviewed: false

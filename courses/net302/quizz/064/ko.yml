@@ -1,0 +1,9 @@
+question: IPv6 Address의 비트 길이는 어떻게 되나요?
+answer: 128비트
+wrong_answers:
+  - 512비트
+  - 64비트
+  - 256비트
+explanation: |
+  IPv6 Address의 길이는 128비트인 반면, IPv4 Address의 길이는 32비트입니다.
+reviewed: false

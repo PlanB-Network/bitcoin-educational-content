@@ -1,6 +1,7 @@
 id: 7df81d1e-4b74-4729-9a67-bc9c11bff858
 topic: business
 subtopic: business
+type: theory
 level: beginner
 hours: 102
 test_only: false
@@ -22,11 +23,12 @@ published_at: 2025-04-11
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - jramos0
-    reward: 7.0
+      - 2raj2raj
+    reward: 3.51
 tags:
   - business
   - finance

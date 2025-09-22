@@ -39,8 +39,8 @@ La plataforma ofrece dos servicios principales:
 
 
 
-- FlashX**: Exchange bitcoins con dinero móvil.
-- PagoFlash**: Utilice Bitcoin para los servicios cotidianos.
+- **FlashX**: Exchange bitcoins con dinero móvil.
+- **PagoFlash**: Utilice Bitcoin para los servicios cotidianos.
 
 
 
@@ -73,9 +73,9 @@ Flash realiza sus transacciones utilizando el servicio local Mobile Money. Depen
 
 
 
-- Benín**: MTN Benín, Moov Benín, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Naranja.
+- **Benín**: MTN Benín, Moov Benín, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Naranja.
 
 
 
@@ -157,10 +157,10 @@ Además de comprar y vender bitcoins, Flash ofrece a su comunidad un uso context
 
 
 
-- Unidades GSM**;
-- Paquetes de Internet**;
-- Paquetes de llamadas**;
-- Una combinación de paquete de llamadas e Internet**.
+- Unidades **GSM**;
+- **Paquetes de Internet**;
+- **Paquetes de llamadas**;
+- Una combinación de paquete de llamadas e Internet.
 
 
 
@@ -203,4 +203,3 @@ Si este tutorial te ha resultado útil para familiarizarte con Flash, danos un G
 
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-

@@ -1,0 +1,9 @@
+question: Ni izihe ntumbero nyamukuru za Leta nk’uko Locke abivuga?
+answer: Kugira ngo umuntu akingire ubuzima, umwidegemvyo n’itunga ryiwe.
+wrong_answers:
+  - Kugira ngo itegeko rikurikizwe no kubungabunga urutonde.
+  - Guteza imbere imibereho myiza rusangi n’ubutungane mu kibano.
+  - Kugira ngo barwanire idini n’ingingo ngenderwako.
+explanation: |
+  Ku bwa Locke, igikorwa nyamukuru ca Leta ni ugucungera umutekano w’uburenganzira bwa muntu, cane cane ubuzima, umwidegemvyo n’itunga, kugira ngo abantu bashobore kubaho mu mahoro no guterimbere.
+reviewed: true

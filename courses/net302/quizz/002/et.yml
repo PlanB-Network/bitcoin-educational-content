@@ -1,0 +1,9 @@
+question: Mis on rõngavõrgu peamine nõrkus?
+answer: Ühe seadme rike võib katkestada kogu võrgu töö
+wrong_answers:
+  - Iga seadme ühendamiseks on vaja palju kaableid
+  - Raske on laiendada
+  - Selle juhtimine on keeruline
+explanation: |
+  Ringtopoloogias katkestab ühe seadme rike silmuse ja takistab andmete liikumist.
+reviewed: false

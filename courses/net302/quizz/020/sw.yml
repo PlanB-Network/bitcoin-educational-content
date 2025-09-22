@@ -1,0 +1,9 @@
+question: Ni tofauti gani kuu kati ya TCP na UDP?
+answer: TCP ina mwelekeo wa uunganisho, UDP sio
+wrong_answers:
+  - TCP inafanya kazi tu kwenye mitandao ya ndani, UDP kwenye Mtandao
+  - TCP hutumia usimbaji fiche kila wakati, UDP haifanyi hivyo kamwe
+  - TCP inasimamia mgawanyiko wa IP, UDP inashughulikia ukandamizaji
+explanation: |
+  TCP inahitaji muunganisho kuanzishwa na kufuatiliwa, wakati UDP inatuma pakiti bila kusanidi au kudhibiti kipindi cha awali.
+reviewed: false

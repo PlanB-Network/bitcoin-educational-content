@@ -1,10 +1,9 @@
-question: What was the outcome of the block war in 2017?
-answer: Users and nodes rejected the proposed change to increase the block size, and activated an update called SegWit.
+question: What is the coinbase transaction?
+answer: The first transaction of the block that includes the miner's reward.
 wrong_answers:
-  - Users and nodes accepted the proposed change to increase the block size, and activated an update called SegWit.
-  - Users and nodes rejected the proposed change to increase the block size, and did not activate any updates.
-  - Users and nodes accepted the proposed change to increase the block size, and did not activate any updates.
+  - A transaction carried out on the exchange Coinbase.
+  - The second transaction of the block that includes the highest fees.
+  - A transaction carried out by the miner after he receives the reward.
 explanation: >-
-  In the block war in 2017, users and nodes triumphed by rejecting the
-  proposed change to increase the block size, and activated an update called SegWit.
+  The coinbase transaction is always the first transaction of a block. It includes the miner's reward for performing the validator's work.
 reviewed: true

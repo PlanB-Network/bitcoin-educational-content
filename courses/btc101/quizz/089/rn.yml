@@ -1,0 +1,11 @@
+question: Urufunguzo rw’ibanga akenshi rugereranywa n’uruhe muri Bitcoin Wallet?
+answer: Urutonde rw’amajambo 12 canke 24.
+wrong_answers:
+  - Urutonde rw’amajambo 12 canke 48.
+  - Urutonde rw’amajambo 32.
+  - Urutonde rw’amajambo 64.
+explanation: |
+  Mu Bitcoin Wallet, urufunguzo rw'ibanga akenshi ruraserurwa
+  n’urutonde rw’amajambo 12 canke 24, azwi kandi ko ari interuro seed .
+  canke ijambo Mnemonic.
+reviewed: true

@@ -1,0 +1,9 @@
+question: seed ivyara na PBKDF2 ni ingana iki?
+answer: 512 ibice
+wrong_answers:
+  - 128 ibice
+  - 256 ibice
+  - Ihinduka bivanye n'uburebure bw'ijambo Mnemonic
+explanation: |
+  Utitaye ku burebure bw'ijambo Mnemonic, PBKDF2 yama itanga seed y'ibice 512.
+reviewed: false

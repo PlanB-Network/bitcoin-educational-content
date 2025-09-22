@@ -1,0 +1,9 @@
+question: What is the purpose of the "ACK" flag in a TCP segment?
+answer: To acknowledge receipt of segments
+wrong_answers:
+  - To initiate connection closure
+  - To encrypt the exchanged data flow
+  - To identify the service port used
+explanation: |
+  When set, the ACK flag confirms that a segment has been successfully received and specifies the next expected sequence number.
+reviewed: false

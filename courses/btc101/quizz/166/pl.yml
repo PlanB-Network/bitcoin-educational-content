@@ -1,12 +1,8 @@
-question: Co górnicy mogą zrobić dla tych elektrowni, które nie są jeszcze podłączone do sieci?
-answer: Mogą oni działać jako kupujący w ostateczności.
+question: Jaki jest jeden z powodów, dla których Bitcoin jest atrakcyjny dla niektórych grup?
+answer: Jego zdolność do oferowania rozwiązań takich jak elektroniczna gotówka Trustless, odporność na cenzurę czy przejrzysta i niezmienna polityka pieniężna.
 wrong_answers:
-  - Mogą one dostarczać energię elektryczną do elektrowni.
-  - Mogą one podłączać elektrownie do sieci.
-  - Mogą regulować cenę energii elektrycznej.
-explanation: |
-  Górnicy mogą działać jako ostateczny nabywca dla elektrowni, które
-  nie są jeszcze podłączone do sieci. Pozwala to elektrowniom
-  zabezpieczyć finansowanie jeszcze przed podłączeniem do
-  sieci elektrycznej.
+  - Jest łatwy do podrobienia i może tworzyć rozwiązania umożliwiające otrzymanie większej ilości pieniędzy za pomocą jednego kliknięcia.
+  - Jest on kontrolowany przez centralny organ, który swobodnie dystrybuuje kapitał wśród użytkowników.
+  - Nie jest pseudonimowy, więc każdy użytkownik jest dobrze znany i zaufany.
+explanation: >-
 reviewed: true

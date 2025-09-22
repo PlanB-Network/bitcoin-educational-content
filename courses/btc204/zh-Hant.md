@@ -147,7 +147,7 @@ Bitcoin 通訊協定以 UTXO 模式為基礎，代表「未使用的交易輸出
 Bitcoin 的運作方式不同。帳戶的概念並不存在，貨幣單位也不是透過餘額來管理，而是透過 UTXOs 來管理。一個 UTXO 代表特定數量的比特幣，這些比特幣尚未被花掉，因此形成「一塊 Bitcoin」，可大可小。例如，一個 UTXO 可以值 `500 BTC` 或簡單的 `700 Sats`。
 
 
-**> Satoshi，通常縮寫為 sat，是 Bitcoin 的最小單位，相當於法定貨幣中的美分。
+**提醒：** Satoshi，通常縮寫為 sat，是 Bitcoin 的最小單位，相當於法定貨幣中的美分。
 
 
 ```plaintext
@@ -158,7 +158,7 @@ Bitcoin 的運作方式不同。帳戶的概念並不存在，貨幣單位也不
 理論上，一個 UTXO 可以代表任何價值的比特幣，從一個 sat 到理論最大值約 2,100 萬 BTC 不等。然而，邏輯上不可能擁有所有的 2,100 萬個比特幣，而且有一個較低的經濟門檻，稱為「Dust」，低於這個門檻的 UTXO 被認為在經濟上是無利可圖的。
 
 
-**> 在 Bitcoin 上創建的最大 UTXO 的價值為`500,000 BTC`。它是 MtGox 平台在 2011 年 11 月的一次整合行動中創建的：[29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**你可知道？** 在 Bitcoin 上創建的最大 UTXO 的價值為`500,000 BTC`。它是 MtGox 平台在 2011 年 11 月的一次整合行動中創建的：[29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXOs和支出條件
@@ -215,7 +215,7 @@ Bitcoin 交易是記錄在 Blockchain 上的一個操作，將 Ownership 的比�
 ![BTC204](assets/fr/011.webp)
 
 
-**> 理論上，一個 Bitcoin 交易可以有無限多的輸入和輸出。唯一的限制是最大區塊大小。
+**你可知道？** 理論上，一個 Bitcoin 交易可以有無限多的輸入和輸出。唯一的限制是最大區塊大小。
 
 
 Bitcoin 交易中的每個輸入都是指先前未使用的 UTXO。要使用 UTXO 作為輸入，其持有者必須證明他/她是合法的擁有者，方法是驗證相關的腳本，也就是滿足所施加的支出條件。一般而言，這意味著提供一個數位簽章，該數位簽章是以對應公開金鑰的私密金鑰製作，而公開金鑰則是該 UTXO 的初始保證。因此，腳本包括驗證該簽章與收到資金時所使用的公開金鑰相符。
@@ -306,7 +306,7 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 至於交易費用，雖然它們也代表新創建的 BTC，但不得超過區塊中所有交易的總投入和總輸出之差。我們之前看到，這些費用代表未用於交易輸出的那部分輸入。技術上來說，這部分會在交易過程中「遺失」，而 Miner 有權以一個或多個新 UTXO 的形式重新創造這部分價值。這是交易發行者與 Miner 之間的價值轉移，Miner 將其加入 Blockchain。
 
 
-**> Coinbase Transaction 產生的比特幣有 100 個區塊的成熟期，在此期間，Miner 不能使用這些比特幣。此規則的設計是為了避免因使用新產生的比特幣而造成的複雜問題，因為新產生的比特幣可能會在之後被淘汰。
+**你可知道？** Coinbase Transaction 產生的比特幣有 100 個區塊的成熟期，在此期間，Miner 不能使用這些比特幣。此規則的設計是為了避免因使用新產生的比特幣而造成的複雜問題，因為新產生的比特幣可能會在之後被淘汰。
 
 
 ### UTXO 模型的影響
@@ -341,12 +341,8 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 
 
 為了讓硬幣解決這個問題，提供商品或服務的一方必須確信自己有能力在日後花費這筆錢。因此，任何希望接受硬幣（無論是數位硬幣還是實物硬幣）的理性個體，都會確保它符合兩項基本標準：
-
-
-
-
-- 作品必須具有完整性和真實性 ;**
-- 且不得雙重花費。
+- **作品必須具有完整性和真實性 ;**
+- **且不得雙重花費。**
 
 
 如果您使用的是實體貨幣，這是第一個最難確定的特徵。在不同的歷史時期，金屬錢幣的完整性經常受到修剪或穿孔等做法的影響。例如，在古羅馬，公民通常的做法是刮掉金幣的邊緣，以收集一點貴金屬，同時保存金幣以備日後交易之用。硬幣的內在價值因此而降低，但其面值卻維持不變。這也是後來硬幣邊緣出現凹槽的原因之一。
@@ -382,7 +378,7 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 在 Bitcoin 上，Double-spending 以相同的方式防止。我們尋求確認是否有交易已經花掉了相關的硬幣。如果硬幣從未被使用過，那麼我們就可以確定不會發生雙重花費的情況。Satoshi Nakamoto 在白皮書中用著名的短語描述了這一原則：
 
 
-** 確認沒有交易的唯一方法是注意所有交易
+**確認沒有交易的唯一方法是注意所有交易**
 
 
 但與銀行模式不同的是，我們不希望必須信任 Bitcoin 上的中央實體。因此，所有使用者都需要能夠確認這種沒有雙重花費的情況，而不需要依賴第三方。所以每個人都需要瞭解所有的 Bitcoin 交易。這就是 Bitcoin 交易在所有網路節點上公開廣播，並在 Blockchain 上以明文記錄的原因。
@@ -441,15 +437,9 @@ Blockchain 分析是追蹤比特幣在 Blockchain 上流向的做法。一般來
 
 
 通俗來說，連鎖分析有三個主要階段：
-
-
-1. **Observing the Blockchain ;**
-
-
+1. **觀察區塊鏈;**
 2. **識別已知特徵；**
-
-
-3. **假設的演繹 **
+3. **假設的演繹**
 
 
 ![BTC204](assets/fr/026.webp)
@@ -510,7 +500,7 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 ### 連鎖分析方法
 
 
-重要的是要了解弦分析不是一門精確的科學。它依賴於從先前觀察或邏輯詮釋所衍生出來的啟發式方法。這些規則允許我們得到相當可靠的結果，但絕非絕對精確。換句話說，**弦分析所得出的結論總是有一定的可能性。舉例來說，我們或許能夠以不同程度的確切性估計兩個位址屬於同一個實體，但總是無法完全確定。
+重要的是要了解弦分析不是一門精確的科學。它依賴於從先前觀察或邏輯詮釋所衍生出來的啟發式方法。這些規則允許我們得到相當可靠的結果，但絕非絕對精確。換句話說，**弦分析所得出的結論總是有一定的可能性**。舉例來說，我們或許能夠以不同程度的確切性估計兩個位址屬於同一個實體，但總是無法完全確定。
 
 
 連鎖分析的重點正是在於聚合各種啟發式方法，將出錯的風險降到最低。在某種程度上，這是一種證據的累積，讓我們更接近現實。
@@ -523,7 +513,7 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 
 - 交易模式 ;**
 - 交易內部啟發式方法 ;**
-- 交易外部的啟發式 **
+- 交易外部的啟發式
 
 
 ### Satoshi 中本與連鎖分析
@@ -1097,7 +1087,7 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 首先，我會向您介紹練習。請使用您的 Block explorer 完成這些練習，並將答案寫在紙上。然後，在本章的最後，我會提供您答案，以便您檢查和修正您的結果。
 
 
-*這些練習所選取的交易，純粹是以有點隨機的方式，根據其特性而選取的。本章僅用於教育和資訊目的。我想清楚說明，我既不支持也不鼓勵惡意使用這些工具。目的是教您如何保護自己免受字串分析的傷害，而不是進行分析以揭露他人的私人資訊。
+*這些練習所選取的交易，純粹是以有點隨機的方式，根據其特性而選取的。本章僅用於教育和資訊目的。我想清楚說明，我既不支持也不鼓勵惡意使用這些工具。目的是教您如何保護自己免受字串分析的傷害，而不是進行分析以揭露他人的私人資訊。*
 
 
 ### 練習 1
@@ -1465,13 +1455,13 @@ ___
 
 
 
-- 由 Samourai Wallet 於 2021 年製作的四篇系列文章，題為：[使用 OXT 瞭解 Bitcoin 隱私權](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923) ;*
+- 由 Samourai Wallet 於 2021 年製作的四篇系列文章，題為：[使用 OXT 瞭解 Bitcoin 隱私權](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923)；
 - 來自 [OXT Research](https://medium.com/oxt-research) 的各種報告，以及他們免費的 Blockchain 分析工具 (在 Samourai Wallet 的創辦人被捕後，暫時已無法使用)；* *。
-- 更廣泛而言，我的知識來自 [@LaurentMT](https://twitter.com/LaurentMT) 和 [@ErgoBTC](https://twitter.com/ErgoBTC) 的各種推文和內容 ;*
-- 我和 [@louneskmt](https://twitter.com/louneskmt)、[@TheoPantamis](https://twitter.com/TheoPantamis)、[@Sosthene___](https://twitter.com/Sosthene___) 和 [@LaurentMT](https://twitter.com/LaurentMT) 一起參加的 [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji)。*
+- 更廣泛而言，我的知識來自 [@LaurentMT](https://twitter.com/LaurentMT) 和 [@ErgoBTC](https://twitter.com/ErgoBTC) 的各種推文和內容；
+- 我和 [@louneskmt](https://twitter.com/louneskmt)、[@TheoPantamis](https://twitter.com/TheoPantamis)、[@Sosthene___](https://twitter.com/Sosthene___) 和 [@LaurentMT](https://twitter.com/LaurentMT) 一起參加的 [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji)。
 
 
-*我要感謝他們的作者、開發人員和製作人員。同時也感謝校對人員，他們仔細地修正了本第 3 部分所依據的文章，並給了我專業的建議 :* *。
+*我要感謝他們的作者、開發人員和製作人員。同時也感謝校對人員，他們仔細地修正了本第 3 部分所依據的文章，並給了我專業的建議。*
 
 
 
@@ -1512,7 +1502,7 @@ ___
 ![BTC204](assets/fr/067.webp)
 
 
-Bitcoin 位址有不同的類型，取決於所使用的腳本模型。第一種模式稱為「傳統*」，包括 `P2PKH` (*Pay-to-PubKey-Hash*) 和 `P2SH` (*Pay-to-Script-Hash*) 位址。P2PKH 位址總是以 `1` 開頭，而 P2SH 則以 `3` 開頭。雖然這些格式仍然安全，但現在已經過時，因為它們需要較高的交易成本，而且提供的保密性也比新標準低。
+Bitcoin 位址有不同的類型，取決於所使用的腳本模型。第一種模式稱為「傳統」，包括 `P2PKH` (*Pay-to-PubKey-Hash*) 和 `P2SH` (*Pay-to-Script-Hash*) 位址。P2PKH 位址總是以 `1` 開頭，而 P2SH 則以 `3` 開頭。雖然這些格式仍然安全，但現在已經過時，因為它們需要較高的交易成本，而且提供的保密性也比新標準低。
 
 
 SegWit V0 (`P2WPKH`和`P2WSH`) 和 Taproot / SegWit V1 (`P2TR`)位址代表現代格式。SegWit 位址以 `bc1q` 開頭，而 2021 年推出的 Taproot 位址則以 `bc1p` 開頭。
@@ -1801,7 +1791,7 @@ UTXO 選擇方法如 FIFO（*先入先出*）和 LIFO（*後入先出*）是最�
 更進階的方法是 *Knapsack Solver*。在 0.17 版之前，Bitcoin Core Wallet 一直使用此方法。它包括從 Wallet 中反覆隨機選取 UTXO，將它們以子集的方式相加，並盡可能保留可降低交易權重的解決方案，以降低使用者的成本。
 
 
-分支與邊界* (BNB)，常因其發明者而被暱稱為 「Murch 演算法」，自 0.17 版起已取代 Bitcoin Core 中的*Knapsack Solver*。這種更先進的方法旨在找到一組與滿足交易輸出所需金額完全對應的 UTXO。BNB 的目標是藉由減少所謂的浪費準則 (waste criterion)，將 Exchange 的數額以及費用降至最低，此浪費準則同時考慮到 Exchange 的即時成本以及預期的未來成本。此方法源自 Ailsa Land 和 Alison Harcourt 於 1960 年構思的 *Branch-and-Bound* 原始概念，提供比 *Knapsack Solver* 更精確的費用最佳化。
+分支與邊界 **(BNB)**，常因其發明者而被暱稱為 「Murch 演算法」，自 0.17 版起已取代 Bitcoin Core 中的 **Knapsack Solver**。這種更先進的方法旨在找到一組與滿足交易輸出所需金額完全對應的 UTXO。BNB 的目標是藉由減少所謂的浪費準則 (waste criterion)，將 Exchange 的數額以及費用降至最低，此浪費準則同時考慮到 Exchange 的即時成本以及預期的未來成本。此方法源自 Ailsa Land 和 Alison Harcourt 於 1960 年構思的 **Branch-and-Bound** 原始概念，提供比 **Knapsack Solver** 更精確的費用最佳化。
 
 
 所有這些自動 UTXO 選擇方法都可能有效降低交易成本，但在保護使用者機密性方面卻往往無效。事實上，這些演算法可以將多個 UTXOs 合併為輸入，從而揭露這些 UTXOs 因 CIOH 而產生的共同屬性。顯然，這些方法無法考慮到貼在 UTXOs 上的標籤，而這些標籤對於有意識地選擇向交易接收者揭露哪些部分是至關重要的。目前，選擇硬幣時優化保密性的唯一方法就是手動操作。
@@ -2140,7 +2130,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 另一種方法是在 Exchange 中進行比特幣的工作。這種獲取方法可能很有趣，但所需的識別程度因情況不同而有很大差異。
 
 
-*為了撰寫本章，我使用了 [@pivi___](https://x.com/pivi___) 所提供的 BTC205 訓練課程，內容是關於 Plan ₿ Network（目前只有法文版）。
+*為了撰寫本章，我使用了* [@pivi___](https://x.com/pivi___) *所提供的 BTC205 訓練課程，內容是關於 Plan ₿ Network（目前只有法文版）。*
 
 
 ## 整合、UTXO 管理和 CIOH
@@ -2282,11 +2272,11 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 
 
 
-- 抵抗審查**：任何人都無法阻止您的交易；
-- 獨立於第三方**：您不再依賴任何外部服務驗證 Blockchain 資料；
-- 主動參與**：您可以定義自己的驗證規則，並直接參與共識；
-- 網路貢獻**：藉由執行一個節點，您可以幫助強化和分散 Bitcoin 網路；
-- 技術教育**：管理完整的節點是加深 Bitcoin 技術知識的好方法。
+- **抵抗審查**：任何人都無法阻止您的交易；
+- 獨立於第三方：您不再依賴任何外部服務驗證 Blockchain 資料；
+- 主動參與：您可以定義自己的驗證規則，並直接參與共識；
+- 網路貢獻：藉由執行一個節點，您可以幫助強化和分散 Bitcoin 網路；
+- **技術教育**：管理完整的節點是加深 Bitcoin 技術知識的好方法。
 
 
 除了這些好處之外，使用完整的節點還可以提高您在廣播交易時的機密性。當您發佈交易時，它會先透過您的 Wallet 建立並簽署。若要在 Bitcoin 網路上廣播，必須至少有一個節點知道它。透過使用您自己的節點，您可以直接控制此分發，從而加強您的機密性，並限制資料外洩的風險。
@@ -2542,7 +2532,7 @@ Chaum 的盲簽章是數位簽章的一種形式，簽章的簽發者不知道�
 CoinJoin 的交易建構過程包含 3 個主要階段：輸入登記、輸出登記和交易簽章。讓我們以 CoinJoin 參與者之一的 Alice 為例，來看看這個過程。所有其他參與者都各自遵循與 Alice 相同的步驟。
 
 
-**步驟 1：輸入註冊
+**步驟 1：輸入註冊**
 
 
 
@@ -2622,7 +2612,7 @@ CoinJoin 的交易建構過程包含 3 個主要階段：輸入登記、輸出�
 要確定是誰最先將 CoinJoin 的想法介紹給 Bitcoin，以及是誰提出在這種情況下使用 David Chaum 的盲簽名的想法，是 Hard 的事。通常認為是 Gregory Maxwell 在 [2013 年 BitcoinTalk 上的一則消息](https://bitcointalk.org/index.php?topic=279249.0) 中最先提到的：
 
 
-> *"使用 Chaum 的盲簽名：使用者登入並提供輸入（和 Exchange 位址），以及他們希望傳送私人部分的加密 blinded 版本的 Address；伺服器簽署代幣並傳送回來。使用者以匿名方式重新連線，解除其輸出位址的遮罩，並傳送回伺服器。伺服器可以看到所有的輸出都經由它簽署，因此所有的輸出都來自有效的參與者。之後，人們重新連線並登入
+> *"使用 Chaum 的盲簽名：使用者登入並提供輸入（和 Exchange 位址），以及他們希望傳送私人部分的加密 blinded 版本的 Address；伺服器簽署代幣並傳送回來。使用者以匿名方式重新連線，解除其輸出位址的遮罩，並傳送回伺服器。伺服器可以看到所有的輸出都經由它簽署，因此所有的輸出都來自有效的參與者。之後，人們重新連線並登入"*
 Maxwell, G. (2013, August 22). *CoinJoin：Bitcoin 現實世界的隱私*.BitcoinTalk 論壇. https://bitcointalk.org/index.php?topic=279249.0
 
 
@@ -2678,7 +2668,7 @@ Zerolink 採取的一項重要預防措施，是使用獨立的密碼金鑰集�
 
 
 
-*2024 年，我們見證了希望在 Bitcoin 上進行硬幣接合的使用者所能使用的工具發生了重大變化。我們目前正處於轉捩點，CoinJoin 市場正經歷重大的重整。本章一定會隨著時間更新
+**2024 年，我們見證了希望在 Bitcoin 上進行硬幣接合的使用者所能使用的工具發生了重大變化。我們目前正處於轉捩點，CoinJoin 市場正經歷重大的重整。本章一定會隨著時間更新**
 
 
 目前，Bitcoin 上主要有 3 種不同的 CoinJoin 實作：
@@ -2965,7 +2955,7 @@ Whirlpool 在設計時考慮到兩項重要需求：
 
 
 
-- 存款**帳戶，以索引 `0'` 識別；
+- 存款**帳戶**，以索引 `0'` 識別；
 - **壞銀行**（或 "doxxic change「）帳戶，以索引 」2,147,483,644'`"來識別；
 - 以索引 `2 147 483 645'` ` 識別的 **premix** 帳戶 ；
 - **postmix** 帳戶，以索引 `2 147 483 646'` 識別。
@@ -3089,12 +3079,12 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 
 
 
-- 將其混合到較小的水池中：** 如果您的有毒 UTXO 夠大，可以單獨放入較小的水池中，請考慮將其混合。這通常是最好的選擇。但是，將幾個有毒的 UTXO 合併進入一個池子並不可取，因為這可能會將您的不同條目連結起來；
-- 將它們標示為「不可花費」：** 另一種方法是停止使用，在專用帳戶中將它們標示為「不可花費」，並直接使用 HODL。這樣可以確保您不會不小心花掉它們。如果 Bitcoin 的價值上升，可能會出現更適合您的有毒 UTXOs 的新池；
-- 捐款：** 請考慮捐款給開發 Bitcoin 和相關軟體的開發人員，無論捐款多少。您也可以捐款給接受 BTC 的協會。如果管理您的有毒 UTXO 看起來太複雜，您可以直接丟掉它們，然後捐獻；
-- 購買禮物卡：** [Bitrefill](https://www.bitrefill.com/) 等平台允許您用 Exchange 比特幣換取可在不同商家使用的禮物卡。這可以讓您在不損失相關價值的情況下，捨棄有毒的 UTXOs；
-- 在 Monero 上整合它們：** Samourai Wallet 提供 BTC 和 XMR 之間的原子交換服務。這是管理有毒 UTXOs 的理想選擇，您可以將其整合到 Monero 上，而不會透過 CIOH 洩露您的機密性，然後再將其發送回 Bitcoin。然而，由於流動性的限制，此選項在 Mining 費用和溢價方面可能成本高昂；
-- 將它們傳送至 Lightning Network：** 將這些 UTXO 傳送至 Lightning Network，以享受交易費用的降低，可能是一個很有吸引力的選擇。然而，此方法可能會透露某些資訊，這取決於您如何使用 Lightning，因此應謹慎使用。
+- 將其混合到較小的水池中：**如果您的有毒 UTXO 夠大，可以單獨放入較小的水池中，請考慮將其混合。這通常是最好的選擇。但是，將幾個有毒的 UTXO 合併進入一個池子並不可取，因為這可能會將您的不同條目連結起來；**
+- 將它們標示為「不可花費」：**另一種方法是停止使用，在專用帳戶中將它們標示為「不可花費」，並直接使用 HODL。這樣可以確保您不會不小心花掉它們。如果 Bitcoin 的價值上升，可能會出現更適合您的有毒 UTXOs 的新池；**
+- 捐款：**請考慮捐款給開發 Bitcoin 和相關軟體的開發人員，無論捐款多少。您也可以捐款給接受 BTC 的協會。如果管理您的有毒 UTXO 看起來太複雜，您可以直接丟掉它們，然後捐獻；**
+- 購買禮物卡：**[Bitrefill](https://www.bitrefill.com/)** 等平台允許您用 Exchange 比特幣換取可在不同商家使用的禮物卡。這可以讓您在不損失相關價值的情況下，捨棄有毒的 UTXOs；
+- 在 Monero 上整合它們：**Samourai Wallet 提供 BTC 和 XMR 之間的原子交換服務。這是管理有毒 UTXOs 的理想選擇，您可以將其整合到 Monero 上，而不會透過 CIOH 洩露您的機密性，然後再將其發送回 Bitcoin。然而，由於流動性的限制，此選項在 Mining 費用和溢價方面可能成本高昂**；
+- 將它們傳送至 Lightning Network：將這些 UTXO 傳送至 Lightning Network，以享受交易費用的降低，可能是一個很有吸引力的選擇。然而，此方法可能會透露某些資訊，這取決於您如何使用 Lightning，因此應謹慎使用。
 
 
 ### 如何使用 Whirlpool？
@@ -3115,11 +3105,11 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 在下一章中，我們會瞭解什麼是「anonsets」、這些指標是如何計算出來的，以及它們如何幫助我們估計 CoinJoin 循環的效率。
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## 匿名套裝
 
@@ -3166,8 +3156,8 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 
 
 
-- 前瞻性的anonset ;**
-- 回顧anonset.**
+- 前瞻性的anonset；
+- 回顧anonset.
 
 
 ### 未來的不發作
@@ -3230,7 +3220,7 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 正如我們在本章所看到的，只有在 CoinJoin 結構具有一定同质性的情況下，才能計算出 anonsets。在下一章中，我們將發現如何在 Bitcoin 交易上量化這種同質性，無論是 CoinJoin 還是更傳統的交易。
 
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## 熵
 
@@ -3678,7 +3668,7 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 其中一個解決方案是使用交易結構，在不需要收款人合作的情況下，將模糊性引入連鎖分析。這將使我們能夠提高支付的保密性，而無需依賴商家的積極參與。這正是我們在下一章要探討的。
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
@@ -4294,7 +4284,7 @@ Tor 不僅可以加密資料，還可以隱藏通訊的來源和目的地。透�
 然而，Bitcoin 的運作方式不同：每筆傳入的交易都必須產生新的接收 Address。這種在易用性和機密性之間的折衷，可以追溯到 Bitcoin 白皮書的起源。早在 2008 年底發表第一版文件時，Satoshi Nakamoto 就已經提醒我們注意這個風險：
 
 
-**作為額外的防火牆，每筆交易都可以使用新的金鑰對，以保持它們與共同擁有者無關。
+**作為額外的防火牆，每筆交易都可以使用新的金鑰對，以保持它們與共同擁有者無關。**
 
 
 有許多方法可以在單一識別碼上接收多筆付款，而無需重複使用 Address。每種方法都有自己的取捨和缺點。在這些方法中，BIP47 是由 Justus Ranvier 提出並於 2015 年發表的提案。該提案旨在創建可重複使用的付款代碼，使同一人可進行多筆交易，同時避免重複使用 Address。簡而言之，BIP47 旨在提供像唯一識別碼一樣直觀的支付系統，同時保護交易的機密性。
@@ -4392,12 +4382,12 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 位元組 `0`：版本**。對於 BIP47 的第一個版本，此位元組設為 `0x01` ；
-- 位元組 `1`：位元欄位**。此空間保留用於整合特定用途的附加指示。對於傳統的 PayNym 用途，此位元組設為 `0x00` ；
-- `2` 位元組：y`** 的奇偶校驗。此位元組為 `0x02` 或 `0x03`，表示公開金鑰的序數是偶數或奇數，因為使用的是壓縮公開金鑰；
-- 從位元組 `3` 到位元組 `34`：`x`** 的值。這些位元組代表公開金鑰的餘數。`x` 和 `y` 的奇偶校驗的串接，形成完整的壓縮公開金鑰；
-- 從 byte `35` 到 byte `66`：字串代碼**。此空間包含與公開金鑰相關的字串代碼；
-- 從位元組 `67` 到位元組 `79`：填充**。這個空間是為了將來可能的演進。對於目前的版本，我們只需在此處放置零，即可達到 `OP_RETURN` 輸出所需的 80 位元組大小。
+- 位元組 `0`：版本。對於 BIP47 的第一個版本，此位元組設為 `0x01`；
+- 位元組 `1`：位元欄位。此空間保留用於整合特定用途的附加指示。對於傳統的 PayNym 用途，此位元組設為 `0x00`；
+- `2` 位元組：`y` 的奇偶校驗。此位元組為 `0x02` 或 `0x03`，表示公開金鑰的序數是偶數或奇數，因為使用的是壓縮公開金鑰；
+- 從位元組 `3` 到位元組 `34`：**x** 的值。這些位元組代表公開金鑰的餘數。`x` 和 `y` 的奇偶校驗的串接，形成完整的壓縮公開金鑰；
+- 從 byte `35` 到 byte `66`：字串代碼。此空間包含與公開金鑰相關的字串代碼；
+- 從位元組 `67` 到位元組 `79`：**填充**。這個空間是為了將來可能的演進。對於目前的版本，我們只需在此處放置零，即可達到 `OP_RETURN` 輸出所需的 80 位元組大小。
 
 
 以下是我在上一節中已經介紹過的可重複使用的付款代碼的十六進位表示：
@@ -5445,7 +5435,7 @@ $$ K0 = k0 \cdot G $$
 ![BTC204](assets/fr/235.webp)
 
 
-*非常感謝 [Fanis Michalakis](https://x.com/FanisMichalakis)，感謝他對文章的校對和專家意見，啟發了本章的撰寫！
+*非常感謝 [Fanis Michalakis](https://x.com/FanisMichalakis)，感謝他對文章的校對和專家意見，啟發了本章的撰寫！*
 
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
@@ -5467,7 +5457,7 @@ BIP47 因其鏈上效率低而廣受批評。如前一章所述，它需要為�
 
 
 ---
-*要完全理解本章內容，必須先掌握 ECDH (Elliptic Curve Diffie-Hellman) 的工作原理，以及 HD Wallet 的加密金鑰推演。這些概念已在前面有關 BIP47 的章節中詳細說明。在此不再重複。如果您還不熟悉這些概念，我建議您先參考前一章，再繼續這一章。我不會再重複與重複使用收款位址相關的風險，也不會再重複為收款設定唯一識別碼的重要性。
+*要完全理解本章內容，必須先掌握 ECDH (Elliptic Curve Diffie-Hellman) 的工作原理，以及 HD Wallet 的加密金鑰推演。這些概念已在前面有關 BIP47 的章節中詳細說明。在此不再重複。如果您還不熟悉這些概念，我建議您先參考前一章，再繼續這一章。我不會再重複與重複使用收款位址相關的風險，也不會再重複為收款設定唯一識別碼的重要性。*
 
 
 ---
@@ -5883,7 +5873,7 @@ Bob 發佈的靜態 Address 現在將由 $B_{\text{scan}}$ 和 $B_m$ 組成。�
 $$ B = B_{\text{scan}}\text{ ‖ }B_1 $$
 
 
-> *我們只從標籤 1 開始，因為標籤 0 是預留給變更的。
+> *我們只從標籤 1 開始，因為標籤 0 是預留給變更的。*
 Alice 則會以與之前相同的方式推導出單一付款 Address $P$，但使用新的 $B_1$ 而非 $B_{text\{spend}}$ ：
 
 

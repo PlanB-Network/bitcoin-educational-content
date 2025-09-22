@@ -1,0 +1,9 @@
+question: BT'de bir ağın temel rolü nedir?
+answer: Verileri etkinleştir Exchange
+wrong_answers:
+  - Bilgisayar belleğinin artırılması
+  - Yedek kopyalar oluşturun
+  - Bilgisayar ekipmanının Exchange'ini etkinleştirin
+explanation: |
+  Bir ağ, bilginin dolaşımına ve Exchange'ye izin vermek için birden fazla cihazı birbirine bağlar.
+reviewed: false

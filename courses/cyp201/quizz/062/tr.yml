@@ -1,0 +1,9 @@
+question: Genişletilmiş bir açık anahtar nelerin türetilmesine izin verir?
+answer: Yalnızca normal çocuk açık anahtarları
+wrong_answers:
+  - Yalnızca normal çocuk özel anahtarları
+  - Hem sertleştirilmiş hem de normal çocuk açık anahtarları
+  - Hem sertleştirilmiş hem de normal çocuk özel anahtarları
+explanation: |
+  Genişletilmiş bir açık anahtar, özel anahtarların veya sertleştirilmiş anahtarların değil, yalnızca normal alt açık anahtarların türetilmesine izin verir.
+reviewed: false

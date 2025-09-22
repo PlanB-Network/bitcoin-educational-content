@@ -30,7 +30,7 @@ pfSense on ilmainen, avoimen lähdekoodin käyttöjärjestelmä, joka muuttaa mi
 
 
 
-Sen päätoiminnot ovat kehittyneet huomattavasti vuosien varrella, ja niitä on parannettu jokaisen uuden version myötä. Tähän mennessä pfSense tarjoaa :
+Sen päätoiminnot ovat kehittyneet huomattavasti vuosien varrella, ja niitä on parannettu jokaisen uuden version myötä. Tähän mennessä pfSense tarjoaa:
 
 
 
@@ -63,7 +63,7 @@ Lopuksi kannattaa muistaa, että pfSense vaatii vähintään kaksi fyysistä ver
 
 
 
-Tämän ohjeen kirjoittamishetkellä pfSensen viimeisin vakaa versio on 2.8 (julkaistu kesäkuussa 2025). Voit ladata ISO-kuvan tai laitteistoympäristöösi sovitetun asennustiedoston suoraan viralliselta verkkosivustolta :
+Tämän ohjeen kirjoittamishetkellä pfSensen viimeisin vakaa versio on 2.8 (julkaistu kesäkuussa 2025). Voit ladata ISO-kuvan tai laitteistoympäristöösi sovitetun asennustiedoston suoraan viralliselta verkkosivustolta:
 
 
 
@@ -73,7 +73,7 @@ Tämän ohjeen kirjoittamishetkellä pfSensen viimeisin vakaa versio on 2.8 (jul
 
 
 
-Latausportaalin avulla voit valita :
+Latausportaalin avulla voit valita:
 
 
 
@@ -105,15 +105,15 @@ Tässä esimerkissä asennus suoritetaan VirtualBoxia käyttävään virtuaaliko
 
 
 
-Standardikäyttöön suosittelemme :
+Standardikäyttöön suosittelemme:
 
 
 
 
 
-- vähintään 1 Gt RAM-muistia** (2 Gt tai enemmän suositellaan lisäpakettien tai ZFS-tuen mahdollistamiseksi).
-- 8 Gt levytilaa** (20 Gt tai enemmän on suositeltava edistyneemmille kokoonpanoille, erityisesti jos asennat välityspalvelimen välimuistin, IDS/IPS-järjestelmän tai yksityiskohtaiset lokit).
-- Vähintään kaksi virtuaalista verkkoliitäntää** (yksi WAN:lle ja yksi LAN:lle). Lisää ne VirtualBoxissa VM:n asetuksiin ennen käynnistystä.
+- vähintään 1 Gt RAM-muistia (2 Gt tai enemmän suositellaan lisäpakettien tai ZFS-tuen mahdollistamiseksi).
+- 8 Gt levytilaa (20 Gt tai enemmän on suositeltava edistyneemmille kokoonpanoille, erityisesti jos asennat välityspalvelimen välimuistin, IDS/IPS-järjestelmän tai yksityiskohtaiset lokit).
+- Vähintään kaksi virtuaalista verkkoliitäntää (yksi WAN:lle ja yksi LAN:lle). Lisää ne VirtualBoxissa VM:n asetuksiin ennen käynnistystä.
 
 
 
@@ -221,7 +221,7 @@ Ensimmäinen kysymys koskee VLANien määritystä. Tässä vaiheessa peruskonfig
 
 
 
-tämän jälkeen pfSense pyytää sinua määrittämään, mitä Interface:ta käytetään WAN-verkkoon (Internet-yhteys). Voit valita :
+tämän jälkeen pfSense pyytää sinua määrittämään, mitä Interface:ta käytetään WAN-verkkoon (Internet-yhteys). Voit valita:
 
 
 
@@ -304,13 +304,13 @@ Siirry selaimessasi konsolin osoittamaan Address:een (oletusarvoisesti `https://
 
 
 
-Kirjautumisnäyttö tulee näkyviin. Oletusarvoiset tunnukset ovat :
+Kirjautumisnäyttö tulee näkyviin. Oletusarvoiset tunnukset ovat:
 
 
 
 
-- Käyttäjänimi:** `admin`
-- Salasana:** `pfsense`
+- **Käyttäjänimi:** `admin`
+- **Salasana:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Kun muodostat ensimmäisen yhteyden, pfSense kehottaa sinua noudattamaan **Ohjat
 
 
 
-Voit :
+Voit:
 
 
 
@@ -352,7 +352,7 @@ Ilmoita sivustosi aikavyöhyke, jotta lokit ja aikataulut ovat yhdenmukaisia (es
 
 
 
-Määritä WAN-yhteys :
+Määritä WAN-yhteys:
 
 
 
@@ -383,7 +383,7 @@ Suojaa pfSense asettamalla heti vahva salasana käyttäjälle `admin`.
 
 
 
-Varmista ennen palomuurin käyttöönottoa, että sinulla on uusin versio :
+Varmista ennen palomuurin käyttöönottoa, että sinulla on uusin versio:
 
 
 
@@ -423,16 +423,16 @@ Kriittisissä ympäristöissä kannattaa harkita automaattista konfiguraation va
 
 
 
-Voit lopettaa komennuksesi mielenrauhassa :
+Voit lopettaa komennuksesi mielenrauhassa:
 
 
 
 
 
-- Muokkaa palomuurisääntöjä**: oletusarvoisesti pfSense sallii kaiken lähtevän liikenteen lähiverkossa ja estää saapuvan liikenteen WANissa. Muokkaa näitä sääntöjä tarpeen mukaan.
-- Määritä suojattu etäkäyttö**: Ota Interface:n verkkoyhteys käyttöön WAN:sta vain VPN:n kautta tai IP-rajoitusten avulla, jos se on tarpeen.
-- Ota ilmoitukset käyttöön**: määritä SMTP-palvelin vastaanottamaan ilmoituksia (epäonnistumiset, päivitykset, virheet).
-- Asenna hyödyllisiä laajennuksia**: esimerkiksi IDS/IPS (Snort, Suricata), välityspalvelin (Squid), DNS-suodatus (pfBlockerNG).
+- **Muokkaa palomuurisääntöjä**: oletusarvoisesti pfSense sallii kaiken lähtevän liikenteen lähiverkossa ja estää saapuvan liikenteen WANissa. Muokkaa näitä sääntöjä tarpeen mukaan.
+- **Määritä suojattu etäkäyttö**: Ota Interface:n verkkoyhteys käyttöön WAN:sta vain VPN:n kautta tai IP-rajoitusten avulla, jos se on tarpeen.
+- **Ota ilmoitukset käyttöön**: määritä SMTP-palvelin vastaanottamaan ilmoituksia (epäonnistumiset, päivitykset, virheet).
+- Asenna hyödyllisiä laajennuksia: esimerkiksi IDS/IPS (Snort, Suricata), välityspalvelin (Squid), DNS-suodatus (pfBlockerNG).
 
 
 

@@ -93,23 +93,23 @@ Jedną ze szczególnych cech Blitz Wallet jest to, że obsługuje różne sieci 
 
 
 
-- Lightning Network** : Jedna z nakładek Bitcoin, która umożliwia natychmiastowe wykonywanie mikrotransakcji.
+- **Lightning Network**: Jedna z nakładek Bitcoin, która umożliwia natychmiastowe wykonywanie mikrotransakcji.
 
 
 
 
 
-- Bitcoin Mainnet** : Główny łańcuch protokołu Bitcoin, odpowiedni do transakcji o dużej wartości.
+- **Bitcoin Mainnet**: Główny łańcuch protokołu Bitcoin, odpowiedni do transakcji o dużej wartości.
 
 
 
 
 
-- Liquid Network**: Łańcuch równoległy do Bitcoin Mainnet opracowany przez BlockStream, który wykorzystuje Liquid Bitcoinów do przeprowadzania szybkich, Confidential Transactions.
+- **Liquid Network**: Łańcuch równoległy do Bitcoin Mainnet opracowany przez BlockStream, który wykorzystuje Liquid Bitcoinów do przeprowadzania szybkich, Confidential Transactions.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Domyślnie wszystkie transakcje będą dokonywane w Liquid Network, ale Blitz pozwala zdefiniować sieć, w której chcesz otrzymywać satoshis, klikając przycisk **Wybierz format**.
 
@@ -169,7 +169,7 @@ Oprócz operacji transferu Bitcoin, Blitz Wallet oferuje sklep, w którym można
 
 
 
-- Dostęp do usług AI**: Korzystaj z generatywnych modeli sztucznej inteligencji, takich jak: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 i płać bezpośrednio w bitcoinach.
+- **Dostęp do usług AI**: Korzystaj z generatywnych modeli sztucznej inteligencji, takich jak: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 i płać bezpośrednio w bitcoinach.
 
 
 
@@ -179,7 +179,7 @@ Oprócz operacji transferu Bitcoin, Blitz Wallet oferuje sklep, w którym można
 
 
 
-- Wysyłaj wiadomości tekstowe w dowolne miejsce na świecie**: W sklepie Blitz masz dostęp do usługi GSM, która umożliwia anonimowe wysyłanie wiadomości tekstowych w dowolne miejsce na świecie, z bezpośrednim rozliczeniem w Bitcoin.
+- **Wysyłaj wiadomości tekstowe w dowolne miejsce na świecie**: W sklepie Blitz masz dostęp do usługi GSM, która umożliwia anonimowe wysyłanie wiadomości tekstowych w dowolne miejsce na świecie, z bezpośrednim rozliczeniem w Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Oprócz operacji transferu Bitcoin, Blitz Wallet oferuje sklep, w którym można
 
 
 
-- Surfuj w całkowitej poufności**: Zapłać za subskrypcję WireGuard VPN (Virtual Private Network) w sklepie Wallet Blitz swoimi bitcoinami.
+- **Surfuj w całkowitej poufności**: Zapłać za subskrypcję WireGuard VPN (Virtual Private Network) w sklepie Wallet Blitz swoimi bitcoinami.
 
 
 
@@ -249,7 +249,7 @@ Aktywując tryb Lightning, po spełnieniu głównego warunku (saldo 500 000 sato
 
 
 
-- Akceptuj Bitcoin w swoim sklepie** :
+- **Akceptuj Bitcoin w swoim sklepie**:
 
 
 

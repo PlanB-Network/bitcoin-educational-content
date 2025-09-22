@@ -118,7 +118,7 @@ ASICs är chip som kan jämföras med ett CPU-chip, men de är utvecklade för a
 Numera använder miners uteslutande ASIC:er som är avsedda för denna operation, optimerade för att testa det maximala antalet kombinationer med minsta möjliga energiförbrukning och så snabbt som möjligt. Dessa datorer, som inte kan utföra andra uppgifter än Bitcoin Mining, är ett påtagligt bevis på den kontinuerliga utvecklingen och den ökande specialiseringen av Bitcoin Mining-industrin. Denna ständiga utveckling återspeglar den inneboende dynamiken i Bitcoin, där en svårighetsjustering säkerställer produktionen av ett block var tionde minut trots den exponentiella ökningen av Mining-kapaciteten.
 
 
-För att illustrera intensiteten i denna process kan man tänka sig en typisk Miner som kan uppnå 14 TeraHash per sekund, eller 14 biljoner försök varje sekund att hitta rätt Hash. I Bitcoin-nätverkets skala når vi nu cirka 300 HexaHash per sekund, vilket belyser den kollektiva kraften som mobiliserats i Bitcoin Mining.
+För att illustrera intensiteten i denna process kan man tänka sig en typisk Miner som kan uppnå 14 TeraHash per sekund, eller 14 biljoner försök varje sekund att hitta rätt Hash. I Bitcoin-nätverkets skala når vi nu cirka 300 ExaHash per sekund, vilket belyser den kollektiva kraften som mobiliserats i Bitcoin Mining.
 
 
 ### Justering av svårighetsgrad
@@ -516,13 +516,13 @@ Vissa enheter innehar en betydande andel av den totala Hashrate i stora Mining-f
 Denna fråga kan bli problematisk och utgör en betydande risk för nätverkets neutralitet. En aktör med mer än 51% av Hashrate skulle lättare kunna censurera transaktioner om de så önskade. Det är därför det är viktigt att fördela Hashrate mellan flera aktörer snarare än centraliserade enheter som lättare kan beslagtas av till exempel en regering.
 
 
-**Om miners är fördelade på tusentals, eller till och med miljontals, hushåll runt om i världen blir det mycket svårt för en stat att ta kontroll över dem
+**Om miners är fördelade på tusentals, eller till och med miljontals, hushåll runt om i världen blir det mycket svårt för en stat att ta kontroll över dem.**
 
 
 När den kommer ut från fabriken är en Miner inte lämplig att använda som värmare i ett hem, på grund av två huvudproblem: överdrivet buller och brist på justering. Dessa problem kan dock enkelt lösas genom modifieringar av hård- och mjukvara, vilket ger en mycket tystare Miner som kan konfigureras och automatiseras på samma sätt som moderna elektriska värmare.
 
 
-**Attakaï är ett utbildningsinitiativ som lär dig hur du kan eftermontera Antminer S9 på det mest kostnadseffektiva sättet
+**Attakaï är ett utbildningsinitiativ som lär dig hur du kan eftermontera Antminer S9 på det mest kostnadseffektiva sättet**
 
 
 Detta är ett utmärkt tillfälle att lära sig genom att öva samtidigt som du belönas för ditt deltagande med KYC-fria satoshis.

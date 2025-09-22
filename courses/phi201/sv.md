@@ -1162,10 +1162,10 @@ Henri Pirenne, en belgisk historiker från början av 1900-talet, ägnade en del
 > Enligt Pirenne hade dessa handelsstäder, tack vare sin kommersiella dynamik och sitt strategiska läge längs sjövägarna, utvecklat ekonomiska metoder som var typiska för den framväxande kapitalismen. Han lyfter särskilt fram följande:
 
 
-- Uppkomsten av enskilda företag:** Italienska köpmän, ofta från rika familjer, investerade sina medel i avlägsna kommersiella expeditioner och tog därmed på sig riskerna och förväntade sig betydande vinster.
-- Kreditexpansionen:** Utvecklingen av den internationella handeln stimulerade användningen av olika kreditinstrument, t.ex. växlar och banktransaktioner, vilket möjliggjorde finansiering av transaktioner och underlättade kapitalrörelser.
-- Strävan efter vinst:** De italienska köpmännens främsta drivkraft var strävan efter kommersiella vinster. De engagerade sig i riskabla satsningar i hopp om att maximera sina vinster genom att handla värdefulla produkter på avlägsna marknader.
-- Spekulationens framväxt:** Den osäkerhet som var förknippad med sjöresor och prisfluktuationer gav upphov till spekulationsverksamhet, där köpmän satsade på råvaruprisernas utveckling.
+- **Uppkomsten av enskilda företag:** Italienska köpmän, ofta från rika familjer, investerade sina medel i avlägsna kommersiella expeditioner och tog därmed på sig riskerna och förväntade sig betydande vinster.
+- **Kreditexpansionen:** Utvecklingen av den internationella handeln stimulerade användningen av olika kreditinstrument, t.ex. växlar och banktransaktioner, vilket möjliggjorde finansiering av transaktioner och underlättade kapitalrörelser.
+- **Strävan efter vinst:** De italienska köpmännens främsta drivkraft var strävan efter kommersiella vinster. De engagerade sig i riskabla satsningar i hopp om att maximera sina vinster genom att handla värdefulla produkter på avlägsna marknader.
+- **Spekulationens framväxt:** Den osäkerhet som var förknippad med sjöresor och prisfluktuationer gav upphov till spekulationsverksamhet, där köpmän satsade på råvaruprisernas utveckling.
 
 
 Pirenne konstaterar att dessa sedvänjor, även om de förekom i andra delar av Europa, fick en särskilt tidig och intensiv utveckling i de italienska stadsstaterna. Han tillskriver detta fenomen flera faktorer, bland annat den ökande sjöhandeln, korstågens inflytande, försvagningen av de feodala strukturerna och den innovativa anda som kännetecknade dessa handelsstäder.
@@ -2240,12 +2240,6 @@ Enligt Hayek beror marknadsekonomins tidigare instabilitet på att den viktigast
 Hayek trodde att en fri marknad med privata valutor skulle leda till större monetär stabilitet. Nästan 50 år senare förkroppsligar en kryptovaluta som Bitcoin Hayeks konkurrensvision genom att erbjuda ett decentraliserat alternativ till centralbankernas monopolistiska system. Bitcoin, med sin fasta emissionsgräns på 21 miljoner enheter, fungerar som ett skydd mot inflation och tillsynsmyndigheternas godtycke.
 
 
-## Recensioner & betyg
-
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-
-<isCourseReview>true</isCourseReview>
 
 ## Slutsats: Idéernas kraft
 

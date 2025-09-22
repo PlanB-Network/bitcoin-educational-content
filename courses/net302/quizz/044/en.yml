@@ -1,0 +1,9 @@
+question: What is the main role of DNS in Internet architecture?
+answer: Mapping domain names to IP addresses
+wrong_answers:
+  - Encrypt communications between routers
+  - Dynamically assign MAC addresses to devices
+  - Control access to web servers
+explanation: |
+  DNS (Domain Name System) translates human-readable domain names into numerical IP addresses required for routing.
+reviewed: false

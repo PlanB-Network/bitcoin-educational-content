@@ -1,0 +1,31 @@
+id: 922b0564-84c6-11f0-8121-b7a29b946d30
+
+
+topic: protocol
+subtopic: client side validation
+type: practice
+level: expert
+hours: 14
+test_only: true
+
+professors_id:
+  - 303993a1-6506-4c25-b0b6-6d3f0497859b
+
+contributor_names:
+  - Asi0Flammeus
+published_at: 2025-08-29
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: '2025-08-18'
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 25.91
+tags:
+  - protocols
+  - complex-DIY
+  - technical-analysis
+

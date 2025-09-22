@@ -1,0 +1,9 @@
+question: What is the advantage of a dedicated laptop over a mini-PC?
+answer: Its battery acts as an inverter
+wrong_answers:
+  - It's quieter
+  - It lasts longer
+  - It consumes less energy
+explanation: |
+  A laptop's battery acts as a natural UPS, preventing sudden stops in the event of a power cut.
+reviewed: true

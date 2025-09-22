@@ -1,10 +1,9 @@
-question: Hva er naturen til Bitcoins adopsjon ifølge teksten?
-answer: Viral
+question: Når ble Lightning Network validert og implementert?
+answer: 2017
 wrong_answers:
-  - Langsom og stabil
-  - Rask og ukontrollerbar
-  - Sporadisk og uforutsigbar
+  - 2015
+  - 2016
+  - 2018
 explanation: >-
-  Teksten beskriver Bitcoins adopsjon som viral, noe som antyder at den sprer seg
-  raskt og bredt fra en person til en annen, mye som et virus.
+  Lightning Network ble validert og implementert i 2017.
 reviewed: false

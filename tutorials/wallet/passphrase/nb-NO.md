@@ -1,5 +1,5 @@
 ---
-name: Passphrase BIP39
+name: BIP-39 Passphrase
 description: Forstå hvordan en passordfrase fungerer
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ Det er her passordfrasen kommer inn i bildet. Det er et valgfritt passord som du
 
 ![PASSPHRASE BIP39](assets/notext/02.webp)
 
-Vær forsiktig så du ikke forveksler passordfrasen med PIN-koden til maskinvarelommeboken eller passordet som brukes til å låse opp tilgangen til lommeboken på datamaskinen. I motsetning til alle disse elementene spiller passordfrasen en rolle i utledningen av lommebokens nøkler. **Dette betyr at uten den vil du aldri kunne få tilbake bitcoinsene dine
+Vær forsiktig så du ikke forveksler passordfrasen med PIN-koden til maskinvarelommeboken eller passordet som brukes til å låse opp tilgangen til lommeboken på datamaskinen. I motsetning til alle disse elementene spiller passordfrasen en rolle i utledningen av lommebokens nøkler. **Dette betyr at uten den vil du aldri kunne få tilbake bitcoinsene dine.**
 
 Passordfrasen fungerer sammen med den mnemoniske frasen, og endrer frøet som nøklene genereres ut fra. Selv om noen skulle få tak i frasen på 12 eller 24 ord, kan de ikke få tilgang til pengene dine uten passordfrasen. **Ved å bruke en passordfrase oppretter du i praksis en ny lommebok med egne nøkler. Hvis du endrer (selv bare litt) på passordfrasen, genereres en annen lommebok**
 
@@ -27,6 +27,10 @@ Deretter kan den brukes strategisk til å lage en lokke-lommebok, for å håndte
 Til slutt er det interessant å bruke en passordfrase når man ønsker å kontrollere tilfeldigheten i HD-lommebokens seed-generering.
 
 ## Hvordan velge en god passordfrase?
+
+Ifølge [en studie utført av Trezor i 2019](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) kunne en angriper med tilgang til din seed og som bruker et høykvalitets GPU leid fra AWS (NVIDIA Tesla V100), teste nesten 620 millioner passfraser for 1 dollar. For å sette det i perspektiv: Med kapasiteten i 2019 ville det i gjennomsnitt koste **77 millioner dollar** å knekke en passfrase bestående av 12 tilfeldige små bokstaver.
+
+Jeg anbefaler likevel ikke å begrense deg til 12 tegn. Sikt heller mot dagens standarder for sterke passord: i 2025 bør du minst bruke 13 tilfeldige tegn som inkluderer tall, små og store bokstaver samt symboler; eller 14 tegn dersom du kun bruker små og store bokstaver. Selvfølgelig anbefaler jeg å gå enda lenger, for eksempel ved å bruke en passfrase på 20 tegn med symboler, for å forutse fremtidige utviklinger og ta høyde for menneskelige risikoer som ikke dekkes i disse studiene.
 
 For at passordfrasen skal være effektiv, må den være tilstrekkelig lang og tilfeldig. Akkurat som med et sterkt passord, anbefaler jeg at du velger en passordfrase som er så lang og tilfeldig som mulig, med en rekke bokstaver, tall og symboler som gjør det umulig å utføre et brute force-angrep.
 
@@ -53,4 +57,3 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 På en Trezor-enhet (Safe 3, Safe 5 eller Model One):
 
 https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
-

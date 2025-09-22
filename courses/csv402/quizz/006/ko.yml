@@ -1,0 +1,9 @@
+question: RGB에서 Single-Use Seal이 닫히면 Commitment은 어디에 있나요?
+answer: 아웃포인트를 지출하는 트랜잭션의 출력에서
+wrong_answers:
+  - 아웃포인트를 지출하는 트랜잭션의 입력에서
+  - 아웃포인트를 소비하는 트랜잭션의 스크립트 서명에서
+  - 아웃포인트를 지출하는 거래의 증인에서
+explanation: |
+  Commitment는 Single-Use Seal을 정의하는 아웃포인트를 소비하는 트랜잭션의 출력에 삽입됩니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kubera iki bigorana ko urudodo rurungika amakuru rushobora kugereranya amahera nyayo y’umurongo?
+answer: Kuko abo babiri bonyene ni bo bazi neza ukuntu amahera azogabanywa .
+wrong_answers:
+  - Kubera ko ubushobozi bwose bw’imirongo buguma buhinduka .
+  - Kuko amafaranga y’ibice vy’ubuhuza atamenyeshwa .
+  - Kuko imirongo ifunga ubwo nyene inyuma y'ugucuruza kwose
+explanation: |
+  Ugusangira neza kw’amahera mu muhora kuboneka gusa ku nzira zibiri zigira uruhara, bikaba bibuza izindi nzira kugereranya amahera ariho yo gukoresha mu gukoresha inzira.
+reviewed: false

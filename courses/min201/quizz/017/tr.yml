@@ -1,0 +1,13 @@
+question: Düzenlemenin Bitcoin Mining üzerindeki potansiyel etkisi nedir?
+answer: Amerika Birleşik Devletleri gibi bir ülke belirli Bitcoin işlemlerini düzenlemeye veya yasaklamaya karar verirse, özellikle de hash gücünün büyük bir kısmı o ülkede merkezileşmişse, ağ üzerinde önemli bir etkisi olabilir.
+wrong_answers:
+  - Amerika Birleşik Devletleri gibi bir ülke Bitcoin Mining'ü düzenlemeye veya yasaklamaya karar verirse, bu Bitcoin'ün değerinde bir artışa yol açabilir.
+  - Amerika Birleşik Devletleri gibi bir ülke Bitcoin Mining'yi düzenlemeye veya yasaklamaya karar verirse, bu Block reward'te bir artışa yol açabilir.
+  - Amerika Birleşik Devletleri gibi bir ülke Bitcoin Mining'u düzenlemeye veya yasaklamaya karar verirse, işlem hızında bir artışa yol açabilir.
+explanation: |
+  Bu bölümde, eğer Birleşik Devletler gibi bir ülke
+  Devletler belirli Bitcoin'ları düzenlemeye veya yasaklamaya karar verecekti
+  işlemler üzerinde önemli bir etkiye sahip olabilir
+  ağında, özellikle de hash gücünün büyük bir kısmı
+  o ülkede merkezileştirilmiştir.
+reviewed: true

@@ -5,10 +5,10 @@ description: یک ربات تلگرام برای خرید Bitcoin به صورت 
 ![image](assets/cover.webp)
 
 
-_این آموزش توسط_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) _نوشته شده است._
+_این آموزش نوشته شده توسط_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
-# معرفی
+## مقدمه
 
 
 ربات BitcoinVoucherBot ابزاری است که با آن می‌توان بیت‌کوین‌ها را در Exchange با یورو خریداری کرد.
@@ -47,7 +47,7 @@ _این آموزش توسط_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 
 فعال‌سازی یک عملیات ساده و یک‌باره است. در تلگرام، به دنبال _@BitcoinVoucherBot_ بگردید و به محض ورود به چت بات، یک دکمه بزرگ _Start/Start_ در پایین صفحه به چشم می‌خورد. این عملیات باعث می‌شود که بات پاسخ دهد و منویی از دستورات اصلی موجود را ارائه دهد. پیام‌های خوش‌آمدگویی اولیه نیز ظاهر می‌شوند که توصیه می‌کنیم با دقت خوانده شوند.
 
 
-**هشدار**: چندین کلاهبردار به عنوان VoucherBot اصلی جا زده‌اند. اگر در مورد جستجو از طریق تلگرام مطمئن نیستید، لطفاً از لینک BitcoinVoucherBot در [وب‌سایت رسمی](https://www.bitcoinvoucherbot.com/) دسترسی پیدا کنید.
+**توجه**: چندین کلاهبردار وجود دارند که خود را به جای VoucherBot اصلی جا می‌زنند. اگر در جستجو از طریق تلگرام مطمئن نیستید، به لینک BitcoinVoucherBot از [وب‌سایت رسمی](https://www.bitcoinvoucherbot.com/) مراجعه کنید
 
 
 ![image](assets/it/01.webp)
@@ -75,10 +75,10 @@ _این آموزش توسط_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 
 - _/support_: in case of need, pops up contacts to report issues to the support team.
 
 
-# Bitcoin purchasing procedure
+## روند خرید بیت‌کوین
 
 
-## Order preparation
+### آماده‌سازی سفارش
 
 
 Click _/purchase_ in the command menu
@@ -141,7 +141,7 @@ If everything is correct, continue by clicking _Proceed_.
 ![image](assets/it/10.webp)
 
 
-## Payment
+### پرداخت
 
 
 After a few moments, necessary to process the data, VoucherBot replies with a message containing all the details necessary to complete the order. Depending on what your bank requires, the relevant information is:
@@ -179,7 +179,7 @@ Please note:
 
 
 ---
-## Redemption
+### بازخرید
 
 
 As soon as the payment is successful, Bitcoin VoucherBot sends the voucher directly into the chat. The lightning voucher is in the form of a QR code, printed on an orange background.
@@ -201,7 +201,7 @@ There is all the data needed to cash it in:
 You can cash in the voucher by framing the QR code with the scan function of a compatible Wallet Lightning Network, or via LNURL, also shown below the QR code.
 
 
-For this tutorial we used Wallet Of Satoshi, using the scan function activated by the _Send_ key
+برای این آموزش ما از Wallet Of Satoshi استفاده کردیم و از عملکرد اسکن که با دکمه _Send_ فعال می‌شود بهره بردیم.
 
 
 ![image](assets/it/32.webp)
@@ -213,13 +213,13 @@ With the cell phone camera activated, frame the QR code in the chat, opening Tel
 ![image](assets/it/34.webp)
 
 
-Before proceeding, Wallet Of Satoshi from a verification screen that includes the amount, which exactly matches the amount expressed on the voucher and, as a description, BitcoinVoucherBot. To cash out the voucher, simply click on _Receive_
+پیش از ادامه، Wallet Of Satoshi صفحه‌ای برای بررسی نمایش می‌دهد که شامل مبلغی است که دقیقاً با مبلغ درج‌شده روی ووچر مطابقت دارد و به‌عنوان توضیح، BitcoinVoucherBot ذکر شده است. برای نقد کردن ووچر کافی است روی _Receive_ کلیک کنید.
 
 
 ![image](assets/it/35.webp)
 
 
-Wallet Of Satoshi processes for a few moments
+Wallet Of Satoshi برای چند لحظه پردازش می‌کند.
 
 
 ![image](assets/it/36.webp)
@@ -228,7 +228,7 @@ Wallet Of Satoshi processes for a few moments
 and finally the collection is reported and immediately available in the Wallet balance.
 
 
-**Wallet of Satoshi is a custodial app: immediately after cashing in the voucher, it is advisable to move Sats to a Wallet non-custodial.**
+**Wallet of Satoshi یک اپلیکیشن امانی است: بلافاصله پس از نقد کردن ووچر توصیه می‌شود ساتس‌ها را به کیف پول غیرامانی منتقل کنید.**
 
 
 ![image](assets/it/37.webp)

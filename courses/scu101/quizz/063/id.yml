@@ -1,9 +1,9 @@
-question: Apa saja beberapa aspek kriptografi yang digunakan dalam keamanan siber?
-answer: SSL/TLS, enkripsi simetris/asimetris
+question: Sertifikasi apa yang diakui di seluruh dunia dalam bidang keamanan siber?
+answer: CISSP
 wrong_answers:
-  - RSA, DSA, ECC
-  - AES, DES, 3DES
-  - MD5, SHA-1, SHA-256
+  - PMP
+  - ITIL
+  - SHA2
 explanation: |
-  Bab ini mencantumkan SSL/TLS dan enkripsi simetris/asimetris sebagai beberapa
-  aspek kriptografi yang digunakan dalam keamanan siber.
+  Sertifikasi CISSP adalah salah satu yang paling diakui secara internasional di bidang keamanan siber.
+reviewed: false

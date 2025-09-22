@@ -1,0 +1,9 @@
+question: Ni igiki gitandukanya uruzi rw’urufunguzo rwa RC4 rw’uburebure busanzwe n’urufunguzo rworoshe rwerekanwa mu karorero?
+answer: Uburebure bw'urutonde rwa S muri RC4 isanzwe ni 256 bytes
+wrong_answers:
+  - Ububiko bwa S bugarukira kuri bytes 128
+  - Urufunguzo rukoreshwa rutegerezwa kuba rurenze bytes 8
+  - Nta burebure buhamye bwa S mu RC4 isanzwe.
+explanation: |
+  Mu RC4 isanzwe, urutonde rwa S rurimwo ama bytes 256, ivyo bikaba bituma imibare irushiriza kugorana kandi bikongera umutekano ugereranyije n’urutonde rworoshe rufise ama bytes 8 gusa.
+reviewed: false

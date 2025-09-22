@@ -1,0 +1,8 @@
+---
+term: VERONDERSTELLEN GELDIG
+---
+
+Configuratieparameter in de meerderheidsclient Bitcoin core die een knooppunt dat net is geïnitialiseerd (maar de IBD nog niet heeft uitgevoerd) toestaat om de verificatie van handtekeningen over te slaan voor alle transacties in blokken voorafgaand aan een bepaald blok. Dit beroemde blok wordt gedefinieerd door de afdruk van de header, dat wil zeggen, de Hash. Het gekozen blok wordt vernieuwd bij elk nieuw blok. Het gekozen blok wordt vernieuwd met elke nieuwe versie van Bitcoin core. Bij de initialisatie, als het knooppunt deze parameter heeft geactiveerd, zal het daarom de keten van blokkopregels controleren om de tak met het meeste geaccumuleerde werk te vinden. Als het knooppunt de Hash van Core in de gekozen tak aantreft, laat het de verificatie van handtekeningen voor de voorgaande blokken achterwege. Anders zal het knooppunt doorgaan met een traditionele synchronisatie (IBD) om alles zelf te verifiëren.
+
+
+Het doel van Assume Valid is om het proces van de initiële synchronisatie van een node te versnellen zonder de veiligheid in gevaar te brengen, ervan uitgaande dat de meerderheid van het netwerk deze transacties in het verleden al heeft gevalideerd. Het enige echte compromis voor het knooppunt is dat in het geval van een eerdere diefstal van bitcoins, het niet zal worden geïnformeerd. Het kan echter nog steeds de nauwkeurigheid van het aantal uitgegeven bitcoins garanderen. Knooppunten gaan door met het verifiëren van handtekeningen voor transacties na het Assume Valid blok. Deze aanpak is gebaseerd op de aanname dat als een transactie lang genoeg door het netwerk is geaccepteerd zonder betwisting, het onwaarschijnlijk is dat deze frauduleus is.

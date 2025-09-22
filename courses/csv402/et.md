@@ -30,15 +30,15 @@ Kursus põhineb Fulgur'Ventures'i korraldatud elusseminaril, mida õpetavad kolm
 
 Tere kõigile ja tere tulemast sellele koolituskursusele, mis on pühendatud RGB-le, kliendipoolselt valideeritud aruka lepingu süsteemile, mis töötab Bitcoini ja Lightning Networki peal. Selle kursuse ülesehitus on loodud selleks, et võimaldada selle keerulise teema põhjalikku uurimist. Kursus on korraldatud järgmiselt:
 
-**1. jagu: teooria
+**1. jagu: teooria**
 
 Esimene osa on pühendatud teoreetilistele mõistetele, mis on vajalikud kliendipoolse valideerimise ja RGB põhimõtete mõistmiseks. Nagu te selle kursuse käigus avastate, tutvustab RGB hulgaliselt tehnilisi mõisteid, mida Bitcoinis tavaliselt ei nähta. Selles jaotises leiate ka sõnastiku, mis sisaldab kõigi RGB-protokollile omaste terminite määratlusi.
 
-** 2. jagu: Praktika
+**2. jagu: Praktika**
 
 Teises osas keskendutakse 1. osas vaadeldud teoreetiliste kontseptsioonide rakendamisele. Õpime, kuidas luua ja manipuleerida RGB-lepinguid. Samuti näeme, kuidas nende vahenditega programmeerida. Need kaks esimest osa esitab Maxim Orlovsky.
 
-**Jagu 3: Rakendused
+**Jagu 3: Rakendused**
 
 Viimase osa juhivad teised kõnelejad, kes tutvustavad konkreetseid RGB-põhiseid rakendusi, et tuua esile reaalseid kasutusjuhtumeid.
 
@@ -98,7 +98,7 @@ Jaotatud andmetöötlus, mis on arvutiteaduse eriharu, uurib protokolle, mida ka
 Eelkõige hõlmab mõiste **konsensus** hajutatud süsteemis kahte aspekti:
 
 
-- Seisundi muutuste kehtivuse** tunnustamine (vastavalt protokolli reeglitele);
+- **Seisundi muutuste kehtivuse** tunnustamine (vastavalt protokolli reeglitele);
 - **Kokkulepe nende oleku muutuste järjekorras**, mis muudab võimatuks ümberkirjutamise või tagurpidi valideeritud operatsioonide tagantjärele teostamise (seda tuntakse Bitcoinis ka kui "topeltkulutuste kaitset").
 
 Satoshi Nakamoto võttis Bitcoiniga kasutusele esimese funktsionaalse, lubadusteta jaotatud konsensusmehhanismi, tänu plokiahela andmestruktuuri ja Proof-of-Work (PoW) algoritmi kombineeritud kasutamisele. Selles süsteemis sõltub plokkide ajaloo usaldusväärsus sõlmede (kaevurite) poolt sellele pühendatud arvutusvõimsusest. Bitcoin on seega oluline ja ajalooline näide kõigile avatud hajutatud konsensussüsteemist (*vabaduseta*).
@@ -116,24 +116,24 @@ Hiljem tutvustame ka üht olulist terminit: mõistet "**stash**", mis viitab kli
 Et mõista, kuidas kliendipoolne valideerimine ja RGB lahendavad probleeme, mida plokiahelad ja Lightning ei lahenda, avastame 3 peamist "kolmikmängu" hajutatud andmetöötluses:
 
 
-- Skaleeritavus, detsentraliseerimine, privaatsus** ;
-- CAP** teoreem (järjepidevus, kättesaadavus, partitsiooni taluvus) ;
-- CIA** trilemma (konfidentsiaalsus, terviklikkus, kättesaadavus).
+- **Skaleeritavus, detsentraliseerimine, privaatsus**;
+- **CAP** teoreem (järjepidevus, kättesaadavus, partitsiooni taluvus);
+- **CIA** trilemma (konfidentsiaalsus, terviklikkus, kättesaadavus).
 
 #### 1. Skaleeritavus, detsentraliseerimine ja konfidentsiaalsus
 
 
-- Blockchain (Bitcoin)**
+- **Blockchain (Bitcoin)**
 
 Blockchain on väga detsentraliseeritud, kuid mitte väga skaleeritav. Veelgi enam, kuna kõik on ülemaailmses, avalikus registris, on konfidentsiaalsus piiratud. Konfidentsiaalsust saab püüda parandada nullteabe tehnoloogiate abil (konfidentsiaalsed tehingud, mimblewimble-skeemid jne), kuid avalik ahel ei suuda tehingugraafikut varjata.
 
 
-- Välk/riiklikud kanalid**
+- **Välk/riiklikud kanalid**
 
 Riigi kanalid (nagu Lightning Network) on paremini skaleeritavad ja privaatsemad kui plokiahelad, kuna tehingud toimuvad väljaspool ahelat. Kuid kohustus teatavatest elementidest (rahastamistehingud, võrgu topoloogia) avalikult teada anda ja võrguliikluse jälgimine võib osaliselt ohustada konfidentsiaalsust. Ka detsentraliseerimine kannatab: marsruutimine on sularahamahukas ja suuremad sõlmed võivad muutuda tsentraliseerimispunktideks. Just seda nähtust hakkame Lightningi puhul nägema.
 
 
-- Kliendipoolne valideerimine (RGB)**
+- Kliendipoolne valideerimine **(RGB)**
 
 See uus paradigma on veelgi skaleeritavam ja konfidentsiaalsem, sest me ei saa mitte ainult integreerida nullsaladuse tõendamise tehnikat, vaid meil puudub ka tehingute globaalne graaf, sest kogu registrit ei ole kellegi käes. Teisest küljest tähendab see ka teatavat kompromissi detsentraliseerimise osas: nutilepingu emitendil võib olla keskne roll (nagu Ethereumis "lepingu kasutuselevõtja"). Erinevalt plokiahelast salvestate ja valideerite kliendipoolse valideerimise puhul siiski ainult need lepingud, millest olete huvitatud, mis parandab skaleeritavust, kuna ei ole vaja alla laadida ja kontrollida kõiki olemasolevaid olekuid.
 
@@ -144,17 +144,17 @@ See uus paradigma on veelgi skaleeritavam ja konfidentsiaalsem, sest me ei saa m
 CAP-teoreem rõhutab, et hajutatud süsteemil on võimatu rahuldada samaaegselt järjepidevust (*Konsistentsus*), kättesaadavust (*Kättesaadavus*) ja jaotustaluvust (*Partitsiooni taluvus*).
 
 
-- Blockchain**
+- **Blockchain**
 
 Plokiahelad eelistavad järjepidevust ja kättesaadavust, kuid ei saa hästi hakkama võrgu jagunemisega: kui sa ei näe plokki, ei saa sa tegutseda ja omada sama vaateid kui kogu võrk.
 
 
-- Välk** (prantsuse keeles)
+- **Välk** (prantsuse keeles)
 
 Riigi kanalite süsteemil on kättesaadavuse ja jagunemise tolerantsus (kuna kaks sõlme võivad jääda üksteisega ühendatuks isegi siis, kui võrk on killustunud), kuid üldine järjepidevus sõltub kanalite avamisest ja sulgemisest plokiahelas.
 
 
-- Kliendipoolne valideerimine (RGB)**
+- Kliendipoolne valideerimine **(RGB)**
 
 Selline süsteem nagu RGB pakub järjepidevust (iga osaleja valideerib oma andmed lokaalselt, ilma mitmetähenduslikkuseta) ja partitsioneerimistolerantsust (te säilitate oma andmeid iseseisvalt), kuid ei taga üldist kättesaadavust (igaüks peab veenduma, et tal on asjakohased ajalootükid olemas, ja mõned osalejad võivad midagi mitte avaldada või lõpetada teatud teabe jagamise).
 
@@ -181,9 +181,9 @@ RGB-tüüpi arukate lepingute puhul jagame need vastavalt lepingutele endile. Ig
 Seega võime ökosüsteemi ette kujutada järgmiselt:
 
 
-- Plokiahel (Bitcoin)** kui alus, mis tagab minimaalse registri täieliku kordamise ja toimib ajatempli kihina;
-- Lightning Network** kiirete ja konfidentsiaalsete tehingute jaoks, mis põhinevad endiselt Bitcoini plokiahela turvalisusel ja lõplikul arveldamisel;
-- RGB ja kliendipoolne valideerimine**, et lisada keerulisemat aruka lepingu loogikat, ilma et see segaks plokiahelat või kaotaks konfidentsiaalsust.
+- **Plokiahel (Bitcoin)** kui alus, mis tagab minimaalse registri täieliku kordamise ja toimib ajatempli kihina;
+- **Lightning Network** kiirete ja konfidentsiaalsete tehingute jaoks, mis põhinevad endiselt Bitcoini plokiahela turvalisusel ja lõplikul arveldamisel;
+- RGB ja kliendipoolne **valideerimine**, et lisada keerulisemat aruka lepingu loogikat, ilma et see segaks plokiahelat või kaotaks konfidentsiaalsust.
 
 ![RGB-Bitcoin](assets/fr/007.webp)
 
@@ -211,8 +211,8 @@ Bitcoini plokiahela puhul põhineb tehingu valideerimine lihtsal reeglil:
 Sellel mudelil on siiski kaks peamist puudust:
 
 
-- Skaleeritavus**: kuna iga sõlme peab töötlema, kontrollima ja arhiveerima kõigi tehinguid, on tehingumahule ilmselge piir, mis on seotud eelkõige maksimaalse plokisuurusega (1 MB keskmiselt 10 minuti jooksul Bitcoini puhul, välja arvatud küpsised);
-- Privaatsus**: kõik edastatakse ja salvestatakse avalikult (summad, sihtaadressid jne), mis piirab teabevahetuse konfidentsiaalsust.
+- **Skaleeritavus**: kuna iga sõlme peab töötlema, kontrollima ja arhiveerima kõigi tehinguid, on tehingumahule ilmselge piir, mis on seotud eelkõige maksimaalse plokisuurusega (1 MB keskmiselt 10 minuti jooksul Bitcoini puhul, välja arvatud küpsised);
+- **Privaatsus**: kõik edastatakse ja salvestatakse avalikult (summad, sihtaadressid jne), mis piirab teabevahetuse konfidentsiaalsust.
 
 ![RGB-Bitcoin](assets/fr/012.webp)
 
@@ -250,7 +250,7 @@ Konkreetselt on RGB-staatuste ülemineku tööpõhimõte järgmine:
 Kliendipoolne valideerimine pakub kahte olulist eelist:
 
 
-- Skaleeritavus:**
+- **Skaleeritavus:**
 
 Plokiahelas sisalduvad kohustused (*commitments*) on väikesed (suurusjärgus mõnikümmend baiti). See tagab, et plokiruumi ei küllastata, kuna vaja on lisada ainult hash. See võimaldab ka ahelavälise protokolli arengut, kuna iga kasutaja peab salvestama ainult oma ajaloofragmenti (oma _stash_).
 
@@ -309,9 +309,9 @@ Erinevalt lihtsatest _commitments_ (hash) või ajatemplitest, mis tõendavad ole
 Järgnev võrdlus aitab seda põhimõtet mõista:
 
 
-- Krüptograafiline kohustus (hash)**: Hash-funktsiooni abil saab andmete (numbri) suhtes pühenduda, avaldades selle hash'i. Andmed jäävad salajaseks, kuni te avaldate eelkujutise, kuid te saate tõestada, et te teadsite seda eelnevalt;
-- Ajatempel (plokiahela)**: Lisades selle hash'i plokiahelasse, tõestame ka, et me teadsime seda konkreetsel hetkel (plokki lisamise ajal);
-- Ühekordselt kasutatav pitsat**: Ühekordsete pitserite puhul läheme sammu võrra kaugemale, muutes kohustuse ainulaadseks. Ühe hashiga saab paralleelselt luua mitu vastandlikku kohustust (arstide probleem, kes teatab perele "*See on poiss*" ja oma isiklikus päevikusse "*See on tüdruk*"). Ühekordne pitsat välistab selle võimaluse, ühendades kohustuse avaldustõendiga, näiteks Bitcoini plokiahelaga, nii et UTXO kulutamine pitseerib kohustuse lõplikult. Pärast kulutamist ei saa sama UTXO-d uuesti kulutada, et asendada kohustust.
+- **Krüptograafiline kohustus (hash)**: Hash-funktsiooni abil saab andmete (numbri) suhtes pühenduda, avaldades selle hash'i. Andmed jäävad salajaseks, kuni te avaldate eelkujutise, kuid te saate tõestada, et te teadsite seda eelnevalt;
+- **Ajatempel (plokiahela)**: Lisades selle hash'i plokiahelasse, tõestame ka, et me teadsime seda konkreetsel hetkel (plokki lisamise ajal);
+- **Ühekordselt kasutatav pitsat**: Ühekordsete pitserite puhul läheme sammu võrra kaugemale, muutes kohustuse ainulaadseks. Ühe hashiga saab paralleelselt luua mitu vastandlikku kohustust (arstide probleem, kes teatab perele "*See on poiss*" ja oma isiklikus päevikusse "*See on tüdruk*"). Ühekordne pitsat välistab selle võimaluse, ühendades kohustuse avaldustõendiga, näiteks Bitcoini plokiahelaga, nii et UTXO kulutamine pitseerib kohustuse lõplikult. Pärast kulutamist ei saa sama UTXO-d uuesti kulutada, et asendada kohustust.
 
 |                                                                                  | Lihtne kohustus (digest/hash) | Ajatemplid | Ühekordsed pitsatid |
 | -------------------------------------------------------------------------------- | ----------------------------- | ---------- | ------------------- |
@@ -389,8 +389,8 @@ RGB-arukas leping võib vajada samaaegselt mitme ühekordse kasutusega pitseri (
 Projekti kaks peamist GitHubi repositooriumi (LNPBP organisatsiooni all) koondavad nende esimeses peatükis uuritud kontseptsioonide põhilisi rakendusi:
 
 
-- kliendi_poolne_valideerimine** : Sisaldab Rusti primitiive kohalikuks valideerimiseks ;
-- ühekordse_kasutuse_plommid**: Rakendab loogikat nende plommide turvaliseks määratlemiseks ja sulgemiseks.
+- **kliendi_poolne_valideerimine** : Sisaldab Rusti primitiive kohalikuks valideerimiseks ;
+- **ühekordse_kasutuse_plommid**: Rakendab loogikat nende plommide turvaliseks määratlemiseks ja sulgemiseks.
 
 ![RGB-Bitcoin](assets/fr/020.webp)
 
@@ -443,12 +443,12 @@ Nagu me nägime kursuse esimeses peatükis, on ühekordse kasutusega pitsatid ü
 Loogika mõistmiseks tuletame meelde põhiprintsiipi: _korduvkasutatava pitseri_ sulgemiseks kulutame pitseriga kaetud ala, sisestades antud sõnumi kohta _commitment_. Bitcoinis saab seda teha mitmel viisil:
 
 
-- Kasutage avalikku võtit või aadressi**
+- Kasutage avalikku võtit või aadressi
 
 Me võime otsustada, et konkreetne avalik võti või aadress on _kasutatav pitsat_. Niipea kui see võti või aadress ilmub tehingus ahelas, tähendab see, et pitser on suletud teatud sõnumiga.
 
 
-- Kasutage Bitcoin** tehingu väljundit
+- Kasutage **Bitcoin** tehingu väljundit
 
 See tähendab, et _korduvkasutatav pitsat_ on määratletud täpse _väljundpunktina_ (TXID + väljundnumbri paar). Niipea kui see _väljundpunkt_ on kulutatud, suletakse pitser.
 
@@ -467,11 +467,11 @@ RGB kallal töötades leidsime vähemalt 4 erinevat võimalust nende pitserite r
 | PkI           | Avaliku võtme väärtus     | Tehingu sisend          | Ainult Taproot & ei ühildu vanade rahakottidega                 | Bitcoinil põhinevad identiteedid | Sigtweak, witweak              |
 | TxO1          | Tehingu väljund           | Tehingu sisend          | Ainult Taproot & ei ühildu vanade rahakottidega                 | Hetkel puudub              | Sigtweak, witweak               |
 
-Me ei hakka iga sellise konfiguratsiooni kohta üksikasjalikult rääkima, sest RGB-s oleme otsustanud kasutada **pitseri määratlusena **väljundit** ja paigutada _sisselülitus_ tehingu väljundisse, mis kulutab seda _väljundit_. Seega võime järgmiseks kasutusele võtta järgmised mõisted:
+Me ei hakka iga sellise konfiguratsiooni kohta üksikasjalikult rääkima, sest RGB-s oleme otsustanud kasutada **pitseri määratlusena** **väljundit** ja paigutada _sisselülitus_ tehingu väljundisse, mis kulutab seda _väljundit_. Seega võime järgmiseks kasutusele võtta järgmised mõisted:
 
 
-- "Pitseri määratlus "** : Antud _väljundpunkt_ (identifitseeritud TXID + väljundi nr.) ;
-- "Pitseri sulgemine "**: Tehing, mis kulutab selle _väljapunkti_, kus sõnumile lisatakse _commitment_.
+- **"Pitseri määratlus"**: Antud _väljundpunkt_ (identifitseeritud TXID + väljundi nr.) ;
+- **"Pitseri sulgemine"**: Tehing, mis kulutab selle _väljapunkti_, kus sõnumile lisatakse _commitment_.
 
 See skeem on valitud RGB-arhitektuuriga ühilduvuse tõttu, kuid muud konfiguratsioonid võivad olla kasulikud erinevatel kasutusaladel.
 
@@ -522,12 +522,12 @@ Kolmandatel isikutel ei ole seda teavet. Nad näevad ainult seda, et UTXO on kul
 Struktuuri selgitamiseks võtame protsessi kokku kahes tehingus:
 
 
-- Tehing 1**: See sisaldab _pitsati määratlust_, st _väljundpunkti_, mida kasutatakse pitsatina.
+- **Tehing 1**: See sisaldab _pitsati määratlust_, st _väljundpunkti_, mida kasutatakse pitsatina.
 
 ![RGB-Bitcoin](assets/fr/031.webp)
 
 
-- Tehing 2**: Kulutab selle _väljapunkti_. Sellega suletakse pitser ja samas tehingus sisestatakse sõnumile _commitment_.
+- **Tehing 2**: Kulutab selle _väljapunkti_. Sellega suletakse pitser ja samas tehingus sisestatakse sõnumile _commitment_.
 
 ![RGB-Bitcoin](assets/fr/033.webp)
 
@@ -536,8 +536,8 @@ Seepärast nimetame teist tehingut "_tunnistustehinguks_".
 Et illustreerida seda teise nurga alt, võime kujutada kahte kihti:
 
 
-- Ülemine kiht (plokiahelat, avalik)**: kõik näevad tehingut ja teavad, et _väljapunkt_ on kulutatud;
-- Madalam kiht (kliendipoolne, privaatne)** : ainult Alice (või asjaomane isik) teab, et see kulu vastab sellisele ja sellisele sõnumile, kasutades selleks krüptograafilist tõestust ja sõnumit, mida ta hoiab kohapeal.
+- **Ülemine kiht (plokiahelat, avalik)**: kõik näevad tehingut ja teavad, et _väljapunkt_ on kulutatud;
+- **Madalam kiht (kliendipoolne, privaatne)**: ainult Alice (või asjaomane isik) teab, et see kulu vastab sellisele ja sellisele sõnumile, kasutades selleks krüptograafilist tõestust ja sõnumit, mida ta hoiab kohapeal.
 
 ![RGB-Bitcoin](assets/fr/034.webp)
 
@@ -554,13 +554,13 @@ _tunnistustehing_ kulutab kuulsa UTXO (ehk _pitsatimääruse_) ja see kulu vasta
 Olenemata meetodist (PkO, TxO2 jne.), saab _kohustust_ sisestada :
 
 
-- Sisend** kaudu :
-    - Sigtweak** (muudab ECDSA allkirja "r" komponenti, sarnaselt "Sign-to-contract" põhimõttele) ;
-    - Witweak** (tehingu _segregeeritud tunnistaja_ andmeid muudetakse).
-- Väljundis** kaudu :
-    - Keytweak** (vastuvõtja avalik võti "tweakitakse" koos sõnumiga) ;
-    - Opret** (sõnum paigutatakse mittekasutatavasse väljundisse `OP_RETURN`) ;
-    - Tapret** (või _Taptweak_), mis tugineb taproot'ile, et sisestada taproot-võtme skriptiosasse kohustus, muutes seega avalikku võtit deterministlikult.
+- **Sisend** kaudu :
+- **Sigtweak** (muudab ECDSA allkirja "r" komponenti, sarnaselt "Sign-to-contract" põhimõttele) ;
+- **Witweak** (tehingu _segregeeritud tunnistaja_ andmeid muudetakse).
+- **Väljundis** kaudu :
+- **Keytweak** (vastuvõtja avalik võti "tweakitakse" koos sõnumiga) ;
+- **Opret** (sõnum paigutatakse mittekasutatavasse väljundisse `OP_RETURN`) ;
+- **Tapret** (või _Taptweak_), mis tugineb taproot'ile, et sisestada taproot-võtme skriptiosasse kohustus, muutes seega avalikku võtit deterministlikult.
 
 ![RGB-Bitcoin](assets/fr/035.webp)
 
@@ -677,7 +677,7 @@ Kaasamise ja ainulaadsuse tõestamine taproot-puus taandub siinkohal ühele sise
 
 #### Tapret'i integreerimine olemasolevasse skriptipidi
 
-Teine stsenaarium on seotud keerukama `Q` taproot** väljundiga, mis sisaldab juba mitmeid skripte. Näiteks on meil 3 skriptist koosnev puu:
+Teine stsenaarium on seotud keerukama **Q taproot** väljundiga, mis sisaldab juba mitmeid skripte. Näiteks on meil 3 skriptist koosnev puu:
 
 ![RGB-Bitcoin](assets/fr/049.webp)
 
@@ -697,7 +697,7 @@ Taproot-reeglite kohaselt tuleb iga haru/leht kombineerida leksikograafilise has
 
 
 - `tHT` > `tHABC`: Tapret'i kohustus liigub puu paremale poole. Ainulaadsuse tõestamiseks on vaja ainult `tHABC` ja `P` ;
-- tHT` < `tHABC`**: Tapret'i kohustus paigutatakse vasakule. Et tõestada, et paremal ei ole muud Tapret-kohustust, tuleb `tHAB` ja `tHC` paljastada, et näidata, et puudub mõni muu selline skript.
+- **tHT` < `tHABC`**: Tapret'i kohustus paigutatakse vasakule. Et tõestada, et paremal ei ole muud Tapret-kohustust, tuleb `tHAB` ja `tHC` paljastada, et näidata, et puudub mõni muu selline skript.
 
 Visuaalne näide esimese juhtumi kohta (`tHABC < tHT`):
 
@@ -1038,9 +1038,9 @@ Nutikat lepingut RGB-s võib vaadelda kui riigimasinat, mis on määratletud :
 Oluline on mõista, et need lepingud ei piirdu pelgalt žetoonide ülekandmisega. Need võivad kehastada väga erinevaid rakendusi: alates traditsioonilistest varadest (märgid, aktsiad, võlakirjad) kuni keerulisemate mehaanikateni (kasutusõigused, äritingimused jne). Erinevalt teistest plokiahelatest, kus lepingukood on kõigile kättesaadav ja täidetav, on RGB lähenemisviisiga lepingule juurdepääs ja teadmised lepingust jaotatud osalejatele ("***lepingu osalejad***"). Rolle on mitu:
 
 
-- Emitent** või lepingu looja, kes määratleb lepingu tekkepõhimõtted ja selle algsed muutujad;
-- Õigustega** (*omand*) või muude täitevõimalustega osapooled ;
-- Vaatlejad**, kes võivad näha ainult teatud teavet, kuid ei saa käivitada muudatusi.
+- **Emitent** või lepingu looja, kes määratleb lepingu tekkepõhimõtted ja selle algsed muutujad;
+- **Õigustega** (*omand*) või muude täitevõimalustega osapooled ;
+- **Vaatlejad**, kes võivad näha ainult teatud teavet, kuid ei saa käivitada muudatusi.
 
 Selline rollide eraldamine aitab kaasa tsensuurivastasusele, tagades, et ainult volitatud isikud saavad lepingulise riigiga suhelda. Samuti annab see RGB-le võime horisontaalselt skaleeruda: enamik valideerimisi toimub väljaspool plokiahelat ja Bitcoini on kantud ainult krüptograafilised ankurdused (*sõlmimised*).
 
@@ -1057,7 +1057,7 @@ Samal ajal jaguneb **Liikmesriik** sageli kaheks komponendiks:
 
 
 - **Globaalne olek**: avalik osa, mida võivad kõik jälgida (sõltuvalt konfiguratsioonist);
-- Omandis olevad riigid**: eraõiguslikud osad, mis eraldatakse omanikele konkreetselt lepinguloogikas viidatud UTXOde kaudu.
+- **Omandis olevad riigid**: eraõiguslikud osad, mis eraldatakse omanikele konkreetselt lepinguloogikas viidatud UTXOde kaudu.
 
 Nagu me näeme järgmistes peatükkides, peab iga staatuse uuendamine (*Liikumisoperatsioon*) dubleerima Bitcoini _commitment_-iga (läbi `Opret` või `Tapret`) ja vastama *Business Logic* skriptidele, et seda saaks pidada kehtivaks.
 
@@ -1093,9 +1093,9 @@ Selline DAG-topoloogia (lihtsa lineaarse ahela asemel) kajastab võimalust, et l
 RGB nutikate lepingutega võetakse kasutusele digitaalsete esitajainstrumentide mudel, mis on detsentraliseeritud, kuid mille aluseks on Bitcoin, et tagada tehingute ajaline tempelmine ja nende järjekord. Nende lepingute automatiseeritud täitmine põhineb :
 
 
-- **Lepingu olek*, mis näitab lepingu praegust konfiguratsiooni (õigused, saldod, muutujad jne);
+- **Lepingu olek**, mis näitab lepingu praegust konfiguratsiooni (õigused, saldod, muutujad jne);
 - **Ülesandeloogika** (*Skeem*), mis määratleb, millised üleminekud on lubatud ja kuidas neid tuleb valideerida;
-- Lepingulised operatsioonid**, mis ajakohastavad seda seisundit samm-sammult tänu Bitcoini tehingutesse kinnistatud kohustustele.
+- **Lepingulised operatsioonid**, mis ajakohastavad seda seisundit samm-sammult tänu Bitcoini tehingutesse kinnistatud kohustustele.
 
 Järgmises peatükis käsitleme üksikasjalikumalt nende ***seisundite*** ja ***seisundi üleminekute*** konkreetset esitust ahelavälisel tasandil ning nende seost Bitcoini sisseehitatud UTXOde ja ühekordsete pitsatitega. See annab võimaluse näha, kuidas RGB sisemine mehaanika, mis põhineb kliendipoolsel valideerimisel, suudab säilitada arukate lepingute järjepidevust, säilitades samal ajal andmete konfidentsiaalsuse.
 
@@ -1111,7 +1111,7 @@ Selles peatükis vaatleme, kuidas toimivad operatsioonid nutikontraktides ja ole
 
 Üldine põhimõte on endiselt kliendipoolne valideerimine, kus riigiandmed on omaniku valduses ja vastuvõtja poolt valideeritud. RGB puhul seisneb eripära aga selles, et Bob kui vastuvõtja palub Alice'il lisada lepinguandmetesse teatud teavet, et omada tegelikku kontrolli saadud vara üle, kasutades selleks varjatud viidet ühele oma UTXO-le.
 
-Riigi ülemineku* protsessi (mis on üks põhilistest ***Lepinguoperatsioonidest*** RGB-s) illustreerimiseks võtame samm-sammulise näite varade ülekandmisest Alice'i ja Bobi vahel:
+Riigi ülemineku protsessi (mis on üks põhilistest **Lepinguoperatsioonidest** RGB-s) illustreerimiseks võtame samm-sammulise näite varade ülekandmisest Alice'i ja Bobi vahel:
 
 **Esialgne olukord:**
 
@@ -1135,7 +1135,7 @@ Bob saadab Alice'ile ***arve*** kujul kodeeritud teabe (arve koostamisest rääg
 
 Seejärel loob Alice Bitcoini tehingu, mille käigus ta kulutab eelmises pitseris viidatud UTXO-d (see, mis legitimeeris teda kui omanikku). Selle tehingu väljundisse lisatakse *commitment* (läbi `Opret` või `Tapret`), et kinnitada uus RGB olek. Kohustused `Opret` või `Tapret` tuletatakse *MPC-puust* (nagu eelmistes peatükkides nähtud), mis võib koondada mitu üleminekut erinevatest lepingutest.
 
-**Saadetise* edastamine Bobile:**
+**Saadetise edastamine Bobile:**
 
 Enne tehingu edastamist saadab Alice Bobile ***Consignment***, mis sisaldab kõiki vajalikke *kliendipoolseid* andmeid (tema *varamu*) ja Bobi kasuks uut olekuteavet. Sel hetkel kohaldab Bob RGB konsensusreegleid:
 
@@ -1160,16 +1160,16 @@ See näitab, et Genesis määratleb pitseri (*pitseri määratlus*), seejärel *
 Sellega seoses on siinkohal mõned terminoloogilised meeldetuletused:
 
 
-- Ülesanne*** ühendab :
+- **Ülesanne** ühendab :
     - ***Seal Definition*** (mis osutab UTXO-le);
-    - Omandis olevad riigid**, st andmed, mis on seotud omandiõigusega (näiteks ülekantud žetoonide kogus).
+- Omandis olevad riigid, st andmed, mis on seotud omandiõigusega (näiteks ülekantud žetoonide kogus).
 - **Global State** koondab lepingu üldised omadused, mis on kõigile nähtavad ja tagavad evolutsioonide globaalse järjepidevuse.
 
-Eelmises peatükis kirjeldatud riigi üleminekud** on peamine lepingu toimimise vorm. Nad viitavad ühele või mitmele eelmisele olekule (Genesis'ist või mõnest teisest olekute üleminekust) ja ajakohastavad need uueks olekuks.
+Eelmises peatükis kirjeldatud **riigi üleminekud** on peamine lepingu toimimise vorm. Nad viitavad ühele või mitmele eelmisele olekule (Genesis'ist või mõnest teisest olekute üleminekust) ja ajakohastavad need uueks olekuks.
 
 ![RGB-Bitcoin](assets/fr/063.webp)
 
-See diagramm näitab, kuidas *State Transition Bundle'is* saab ühe näidistehingu käigus sulgeda mitu pitserit, avades samal ajal uusi pitsereid. RGB-protokolli huvitav omadus on tõepoolest selle võime skaleeruda: mitu üleminekut saab koondada üleminekupaketiks, kusjuures iga koondamine on seotud *MPC-puu* konkreetse lehega (unikaalse paketi identifikaatoriga). Tänu *Deterministliku Bitcoin Commitment* (DBC) mehhanismile sisestatakse kogu teade `Tapret` või `Opret` väljundisse, sulgedes samal ajal eelmised pitsatid ja määratledes võimalusel uued. `Anchor* on otsene ühendus plokiahelasse salvestatud kohustuse ja kliendipoolse valideerimisstruktuuri (*kliendipoolne*) vahel.
+See diagramm näitab, kuidas **State Transition Bundle'is** saab ühe näidistehingu käigus sulgeda mitu pitserit, avades samal ajal uusi pitsereid. RGB-protokolli huvitav omadus on tõepoolest selle võime skaleeruda: mitu üleminekut saab koondada üleminekupaketiks, kusjuures iga koondamine on seotud **MPC-puu** konkreetse lehega (unikaalse paketi identifikaatoriga). Tänu **Deterministliku Bitcoin Commitment** (DBC) mehhanismile sisestatakse kogu teade `Tapret` või `Opret` väljundisse, sulgedes samal ajal eelmised pitsatid ja määratledes võimalusel uued. **Anchor** on otsene ühendus plokiahelasse salvestatud kohustuse ja kliendipoolse valideerimisstruktuuri (*kliendipoolne*) vahel.
 
 Järgnevates peatükkides vaatleme kõiki komponente ja protsesse, mis on seotud oleku ülemineku koostamise ja kinnitamisega. Enamik neist elementidest on osa RGB-konsensusest, mis on rakendatud **RGB Core Library's**.
 
@@ -1214,9 +1214,9 @@ Viidates igale sissekandele ainult üks kord ja järjekindlalt, väldime, et sam
 Riigi üleminekut saab seega kasutada vara omandiõiguse üleandmiseks ühelt isikult teisele. Need ei ole siiski ainsad võimalikud toimingud RGB-protokollis. Protokollis on määratletud kolm **lepingutoimingut** :
 
 
-- Riigi üleminek** ;
-- Genesis** ;
-- Riiklik laiendus**.
+- **Riigi üleminek**;
+- **Genesis**;
+- **Riiklik laiendus**.
 
 Nendest operatsioonidest kutsutakse **Genesis** ja **State Extension** mõnikord "*State Generation operatsioonideks*", sest need loovad uusi olekuid, ilma et neid kohe sulgeksid. See on väga oluline punkt: **Genesis** ja **State Extension** ei hõlma pitseri sulgemist. Pigem määratlevad nad uue pitseri, mis tuleb seejärel kulutada järgneva **State Transition** abil, et olla tõeliselt kinnitatud plokiahela ajaloos.
 
@@ -1237,7 +1237,7 @@ Kuna tegemist on lepingu esimese tehinguga, ei viita Genesis ühelegi eelmisele 
 
 ### Riigi laiendamine
 
-Riigi laiendused** pakuvad nutikate lepingute jaoks originaalset funktsiooni. Need võimaldavad lunastada teatavaid lepingu määratluses ette nähtud digitaalseid õigusi (*Valencies*), ilma et pitserit kohe sulgeda. Enamasti puudutab see :
+**Riigi laiendused** pakuvad nutikate lepingute jaoks originaalset funktsiooni. Need võimaldavad lunastada teatavaid lepingu määratluses ette nähtud digitaalseid õigusi (*Valencies*), ilma et pitserit kohe sulgeda. Enamasti puudutab see :
 
 
 - Jaotatud sümboolsete märkide emissioonid;
@@ -1316,17 +1316,17 @@ Kui me vaatame ülaltoodud diagrammi, näeme, et lepinguoperatsioon sisaldab ele
 **Uue riigi** elemendid on :
 
 
-- Ülesanded**, milles on määratletud :
+- **Ülesanded**, milles on määratletud :
  - **Seal Definition**;
  - **Omanikust riik**.
 - **Global State**, mida saab muuta või rikastada ;
-- Valencies**, mis võib olla määratletud State Transitionis või Genesis.
+- **Valencies**, mis võib olla määratletud State Transitionis või Genesis.
 
 **Vana riik** on viidatud :
 
 
-- Sisendid**, mis viitavad *Sisendite* eelnevatele olekute üleminekutele (Genesis ei ole olemas);
-- Lunastused**, mis viitavad eelnevalt määratletud väärtustele (ainult riigilaiendustes).
+- **Sisendid**, mis viitavad *Sisendite* eelnevatele olekute üleminekutele (Genesis ei ole olemas);
+- **Lunastused**, mis viitavad eelnevalt määratletud väärtustele (ainult riigilaiendustes).
 
 Lisaks sellele sisaldab lepinguline toiming üldisemaid toimingule omaseid välju:
 
@@ -1350,8 +1350,8 @@ RGB-lepingut identifitseeritakse seejärel `ContractId` abil, mis on tuletatud G
 **Lepingu olek** kujutab endast teabe kogumit, mida RGB-protokoll peab konkreetse lepingu puhul jälgima. See koosneb järgmistest elementidest:
 
 
-- Üks globaalne riik**: see on lepingu avalik, globaalne osa, mis on kõigile nähtav;
-- Üks või mitu omandatud riiki**: iga omandatud riik on seotud unikaalse pitseriga (ja seega ka UTXO Bitcoinis). Eristatakse :
+- **Üks globaalne riik**: see on lepingu avalik, globaalne osa, mis on kõigile nähtav;
+- **Üks või mitu omandatud riiki**: iga omandatud riik on seotud unikaalse pitseriga (ja seega ka UTXO Bitcoinis). Eristatakse:
     - **avalik** omandis olevad riigid,
     - **privaatse** omandiõigusega riigid.
 
@@ -1362,8 +1362,8 @@ RGB-lepingut identifitseeritakse seejärel `ContractId` abil, mis on tuletatud G
 RGB peamine omadus on viis, kuidas muudetakse globaalset riiki ja omandatud riike. Üldiselt on kahte tüüpi käitumist:
 
 
-- Muutuv**: kui olekuelement on kirjeldatud muutuvana, siis iga uus operatsioon asendab eelmise oleku uue olekuga. Vanad andmed loetakse siis vananenudeks;
-- Akumuleeriv**: kui olekute element on defineeritud akumuleerivana, siis iga uus operatsioon lisab eelmisele olekule uut teavet, ilma seda ülekirjutamata. Tulemuseks on omamoodi akumuleeritud ajalugu.
+- **Muutuv**: kui olekuelement on kirjeldatud muutuvana, siis iga uus operatsioon asendab eelmise oleku uue olekuga. Vanad andmed loetakse siis vananenudeks;
+- **Akumuleeriv**: kui olekute element on defineeritud akumuleerivana, siis iga uus operatsioon lisab eelmisele olekule uut teavet, ilma seda ülekirjutamata. Tulemuseks on omamoodi akumuleeritud ajalugu.
 
 Kui lepingus ei ole seisundielementi määratletud muutuva või kumulatiivse elemendina, jääb see element järgnevate operatsioonide puhul tühjaks (teisisõnu, selle välja jaoks ei ole uusi versioone). See on lepingu skeem (st kodeeritud äriloogika), mis määrab, kas olek (globaalne või omandatud) on muutuv, kumulatiivne või fikseeritud. Kui Genesis on defineeritud, saab neid omadusi muuta ainult siis, kui leping ise seda lubab, näiteks konkreetse State Extension'i kaudu.
 
@@ -1424,14 +1424,14 @@ Seda globaalset olekut saab paigutada avalikele ressurssidele (veebilehed, IPFS,
 *Seal Definition* on oma ilmnenud kujul nelja põhiväljaga: `txptr`, `vout`, `blinding` ja `method` :
 
 
-- txptr**: see on viide UTXO-le Bitcoinis :
+- **txptr**: see on viide UTXO-le Bitcoinis :
     - **Genesis'i pitseri** puhul osutab see otse olemasolevale UTXO-le (mis on seotud Genesis'iga);
     - **Graafilise pitseri** puhul saame :
         - Lihtne `txid`, kui see osutab konkreetsele UTXO-le,
         - Või `WitnessTx`, mis tähistab enesereferentsi: pitser osutab tehingule endale. See on eriti kasulik, kui väline UTXO ei ole kättesaadav, näiteks Lightning-kanali avamistehingute puhul või kui vastuvõtjal puudub UTXO.
-- vout** : tehingu väljundnumber, mis on märgitud `txptr`. Esineb ainult standardse graafikapitsati puhul (mitte `WitnessTx` puhul);
-- blinding**: juhuslik 8 baidi suurune number, et tugevdada konfidentsiaalsust ja vältida UTXO identiteedi räpase jõu abil tehtavaid katseid;
-- method** : näitab kasutatud ankurdamismeetodit (`Tapret` või `Opret`).
+- **vout** : tehingu väljundnumber, mis on märgitud `txptr`. Esineb ainult standardse graafikapitsati puhul (mitte `WitnessTx` puhul);
+- **blinding**: juhuslik 8 baidi suurune number, et tugevdada konfidentsiaalsust ja vältida UTXO identiteedi räpase jõu abil tehtavaid katseid;
+- **method**: näitab kasutatud ankurdamismeetodit (`Tapret` või `Opret`).
 
 Pitsatimääratluse *varjatud* vorm on nende 4 välja ühendamise SHA256-hash (märgistatud) koos RGB-le omase märgisega.
 
@@ -1442,15 +1442,15 @@ Pitsatimääratluse *varjatud* vorm on nende 4 välja ühendamise SHA256-hash (m
 Teine komponent *Assignment* on Owned State. Erinevalt globaalsest riigist võib see eksisteerida nii avalikul kui ka privaatsel kujul:
 
 
-- Avalik omandis olev riik**: kõik teavad pitseriga seotud andmeid. Näiteks avalik pilt;
-- Private Owned State**: andmed on peidetud, neid teab ainult omanik (ja vajadusel ka valideerija). Näiteks käes olevate žetoonide arv.
+- **Avalik omandis olev riik**: kõik teavad pitseriga seotud andmeid. Näiteks avalik pilt;
+- **Private Owned State**: andmed on peidetud, neid teab ainult omanik (ja vajadusel ka valideerija). Näiteks käes olevate žetoonide arv.
 
 RGB määratleb neli võimalikku olekutüüpi (*StateTypes*) Owned State'i jaoks:
 
 
-- Deklaratiivne**: ei sisalda numbrilisi andmeid, vaid ainult deklaratiivset õigust (nt hääleõigus). Varjatud ja avalikustatud vormid on identsed;
-- Fungible**: esindab asendatavat kogust (nagu žetoonid). Avaldatud kujul on meil "summa" ja "siduva". Varjatud kujul on meil üks *Pederseni kohustus*, mis peidab summa ja siduva;
-- Struktureeritud**: salvestab struktureeritud andmeid (kuni 64 kB). Avatud kujul on see andmeplokk. Varjatud kujul on see selle blobi märgistatud hash:
+- **Deklaratiivne**: ei sisalda numbrilisi andmeid, vaid ainult deklaratiivset õigust (nt hääleõigus). Varjatud ja avalikustatud vormid on identsed;
+- **Fungible**: esindab asendatavat kogust (nagu žetoonid). Avaldatud kujul on meil "summa" ja "siduva". Varjatud kujul on meil üks *Pederseni kohustus*, mis peidab summa ja siduva;
+- **Struktureeritud**: salvestab struktureeritud andmeid (kuni 64 kB). Avatud kujul on see andmeplokk. Varjatud kujul on see selle blobi märgistatud hash:
 
 ```txt
 SHA-256(SHA-256(tag_data) || SHA-256(tag_data) || blob)
@@ -1463,7 +1463,7 @@ tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 ```
 
 
-- Attachments**: lingib faili (audio, pilt, binaarne jne) omandatud olekuga, salvestades faili hashi `file_hash`, MIME-tüübi `media type` ja krüptograafilise soola `salt`. Faili ennast hoitakse mujal. Varjatud kujul on see hash, mis on märgistatud kolme eelneva andmeelemendiga:
+- **Attachments**: lingib faili (audio, pilt, binaarne jne) omandatud olekuga, salvestades faili hashi `file_hash`, MIME-tüübi `media type` ja krüptograafilise soola `salt`. Faili ennast hoitakse mujal. Varjatud kujul on see hash, mis on märgistatud kolme eelneva andmeelemendiga:
 
 ```txt
 SHA-256(SHA-256(tag_attachment) || SHA-256(tag_attachment) || file_hash || media_type || salt)
@@ -1532,7 +1532,7 @@ Väli **Metadata** võib olla kuni 64 KiB ja seda kasutatakse ajutiste andmete l
 
 ### Valentsused
 
-Valencies** on originaalne RGB-protokolli mehhanism. Neid võib leida Genesis, State Transitions või State Extensions. Nad esindavad numbrilisi õigusi, mida saab aktiveerida State Extensioniga (*Redeems* kaudu) ja seejärel lõpule viia järgneva Transitioniga. Iga Valentsi identifitseeritakse `ValencyType` (16 bitti) abil. Selle semantika (reissue-õigus, tokeni vahetamine, põletusõigus jne) on määratletud skeemis.
+**Valencies** on originaalne RGB-protokolli mehhanism. Neid võib leida Genesis, State Transitions või State Extensions. Nad esindavad numbrilisi õigusi, mida saab aktiveerida State Extensioniga (*Redeems* kaudu) ja seejärel lõpule viia järgneva Transitioniga. Iga Valentsi identifitseeritakse `ValencyType` (16 bitti) abil. Selle semantika (reissue-õigus, tokeni vahetamine, põletusõigus jne) on määratletud skeemis.
 
 Konkreetselt võiksime ette kujutada Genesis'i, mis määratleb "õiguse uuesti välja anda" valentsi. Riigi laiendus tarbib seda (*Redeem*), kui teatud tingimused on täidetud, et võtta kasutusele uus kogus märke. Seejärel saab sel viisil loodud pitseri omanikult lähtuv oleku üleminek neid uusi märke üle kanda.
 
@@ -1607,12 +1607,12 @@ See piirang tagab :
 Üks RGB peamisi uuendusi on kahe mõiste range eraldamine:
 
 
-- Valideerimine**: kontrollimine, et oleku üleminek vastab lepingu reeglitele (äriloogika, ajalugu jne);
+- **Valideerimine**: kontrollimine, et oleku üleminek vastab lepingu reeglitele (äriloogika, ajalugu jne);
 - **omand** (omandiõigus või kontroll): Bitcoini UTXO omamine, mis võimaldab ühekordselt kasutatava pitseri kulutada (või sulgeda) ja seega toimub riigi üleminek.
 
-Valideerimine** toimub RGB tarkvarapaketi tasandil (raamatukogud, *sõlmimisprotokoll* jne). Selle ülesanne on tagada, et lepingu sisemisi reegleid (summad, õigused jne) järgitakse. Vaatlejad või teised osalejad võivad samuti andmete ajalugu valideerida.
+**Valideerimine** toimub RGB tarkvarapaketi tasandil (raamatukogud, *sõlmimisprotokoll* jne). Selle ülesanne on tagada, et lepingu sisemisi reegleid (summad, õigused jne) järgitakse. Vaatlejad või teised osalejad võivad samuti andmete ajalugu valideerida.
 
-Omanik** seevastu tugineb täielikult Bitcoini turvalisusele. UTXO privaatvõtme omamine tähendab, et kontrollitakse võimalust käivitada uus üleminek (ühekordse pitseri sulgemine). Seega, isegi kui keegi saab andmeid näha või valideerida, ei saa ta seisundit muuta, kui ta ei oma asjaomast UTXO-d.
+**Omanik** seevastu tugineb täielikult Bitcoini turvalisusele. UTXO privaatvõtme omamine tähendab, et kontrollitakse võimalust käivitada uus üleminek (ühekordse pitseri sulgemine). Seega, isegi kui keegi saab andmeid näha või valideerida, ei saa ta seisundit muuta, kui ta ei oma asjaomast UTXO-d.
 
 ![RGB-Bitcoin](assets/fr/069.webp)
 
@@ -1625,8 +1625,8 @@ Veelgi enam, selline lahtisidumine võimaldab RGB-l loomulikult integreeruda Lig
 Lisaks semantilise koodi versioonimisele sisaldab RGB süsteemi lepingu konsensusreeglite arendamiseks või ajakohastamiseks aja jooksul. Evolutsiooni on kaks peamist vormi:
 
 
-- Kiiresti edasi**
-- Push-back** (prantsuse keeles)
+- Kiiresti edasi
+- **Push-back** (prantsuse keeles)
 
 Kiiresti toimub, kui varem kehtetu reegel muutub kehtivaks. Näiteks kui leping areneb nii, et see lubab uut tüüpi `AssignmentType` või uut välja :
 
@@ -1698,13 +1698,13 @@ $$
 See mehhanism koosneb kahest peamisest toimingust:
 
 
-- Commit**: krüptograafilist funktsiooni rakendatakse sõnumi "m" ja juhusliku arvu "r" suhtes, et saada "C";
-- Verify**: me kasutame `C`, `m` sõnumit ja `r` väärtust, et kontrollida, kas see kohustus on õige. Funktsioon tagastab `True` või `False`.
+- **Commit**: krüptograafilist funktsiooni rakendatakse sõnumi "m" ja juhusliku arvu "r" suhtes, et saada "C";
+- **Verify**: me kasutame `C`, `m` sõnumit ja `r` väärtust, et kontrollida, kas see kohustus on õige. Funktsioon tagastab `True` või `False`.
 
 Kohustus peab järgima kahte omadust:
 
 
-- Sidumine**: peab olema võimatu leida kahte erinevat sõnumit, mis toodavad sama "C" :
+- **Sidumine**: peab olema võimatu leida kahte erinevat sõnumit, mis toodavad sama "C":
 
 $$
 m' : \, | \, : m' \neq m \quad \text{and} \quad r' : \, | \, : r' \neq r \quad
@@ -1717,7 +1717,7 @@ $$
 $$
 
 
-- Varjamine**: teadmine `C` ei tohi paljastada `m` sisu.
+- **Varjamine**: teadmine `C` ei tohi paljastada `m` sisu.
 
 RGB-protokollis lisatakse Bitcoini tehingusse kohustus, mis tõestab teatud teabe olemasolu teatud ajal, ilma et see teave ise paljastuks.
 
@@ -1726,8 +1726,8 @@ RGB-protokollis lisatakse Bitcoini tehingusse kohustus, mis tõestab teatud teab
 **Konsignatsioon** koondab poolte vahel vahetatavad andmed, mille suhtes kohaldatakse RGB-süsteemi kliendipoolset valideerimist. On olemas kaks peamist saadetise kategooriat:
 
 
-- Lepingu saadetis**: *väljaandja* (lepingu väljastaja) poolt esitatud teave, mis sisaldab initsialiseerimisandmeid, nagu skeem, genesis, liides ja liidese rakendamine.
-- Ülekandmissaadetis**: maksja (*maksja*) poolt esitatud. Sisaldab kogu ajaloo seisundite üleminekutest, mis viivad lõppsaatmiseni (st maksja poolt saadud lõppseisundini).
+- **Lepingu saadetis**: *väljaandja* (lepingu väljastaja) poolt esitatud teave, mis sisaldab initsialiseerimisandmeid, nagu skeem, genesis, liides ja liidese rakendamine.
+- **Ülekandmissaadetis**: maksja (*maksja*) poolt esitatud. Sisaldab kogu ajaloo seisundite üleminekutest, mis viivad lõppsaatmiseni (st maksja poolt saadud lõppseisundini).
 
 Neid saadetisi ei registreerita avalikult plokiahelas; neid vahetatakse otse asjaomaste osapoolte vahel nende valitud sidekanali kaudu.
 
@@ -1740,9 +1740,9 @@ Leping on õiguste kogum, mis täidetakse digitaalselt mitme osalise vahel RGB-p
 Lepingu operatsioon on lepingu staatuse ajakohastamine vastavalt skeemi reeglitele. RGB-s on olemas järgmised operatsioonid:
 
 
-- Riigi üleminek** ;
-- Genesis** ;
-- Riiklik laiendus**.
+- **Riigi üleminek**;
+- **Genesis**;
+- **Riiklik laiendus**.
 
 Iga operatsioon muudab olekut, lisades või asendades teatud andmeid (globaalne olek, omandatud olek...).
 
@@ -1760,9 +1760,9 @@ Lepingus osaleja on osaleja, kes osaleb lepinguga seotud toimingutes. RGB-s eris
 Lepingulised õigused viitavad erinevatele õigustele, mida RGB lepingus osalejad võivad kasutada. Need jagunevad mitmesse kategooriasse:
 
 
-- Omandiõigused**, mis on seotud konkreetse UTXO omandiõigusega (_Seal Definition_ kaudu);
-- Täitjaõigused**, st võime ehitada üks või mitu üleminekut (State Transitions) vastavalt skeemile ;
-- Avalikud õigused**, kui skeem lubab teatavaid avalikke kasutusviise, näiteks riigi laienduse loomine Valentsi lunastamise kaudu.
+- **Omandiõigused**, mis on seotud konkreetse UTXO omandiõigusega (_Seal Definition_ kaudu);
+- **Täitjaõigused**, st võime ehitada üks või mitu üleminekut (State Transitions) vastavalt skeemile ;
+- **Avalikud õigused**, kui skeem lubab teatavaid avalikke kasutusviise, näiteks riigi laienduse loomine Valentsi lunastamise kaudu.
 
 #### Lepingu riik
 
@@ -1770,15 +1770,15 @@ Lepingu olek vastab lepingu hetkeseisundile. See võib koosneda nii avalikest ku
 
 
 - **Global State**, mis sisaldab lepingu avalikke omadusi (mis on loodud Genesis'is või lisatud volitatud uuenduste kaudu);
-- Omandis olevad riigid**, mis kuuluvad konkreetsetele omanikele, kes on kindlaks määratud nende UTXOde järgi.
+- Omandis olevad **riigid**, mis kuuluvad konkreetsetele omanikele, kes on kindlaks määratud nende UTXOde järgi.
 
 #### Deterministlik Bitcoin Commitment - DBC
 
 Deterministlik Bitcoin Commitment (DBC) on reeglite kogum, mida kasutatakse Bitcoini tehingu _commitment_ tõestatavaks ja unikaalseks registreerimiseks. RGB-protokollis on kaks peamist DBC vormi:
 
 
-- Opret**
-- Tapret**
+- **Opret**
+- **Tapret**
 
 Need mehhanismid määravad täpselt kindlaks, kuidas Bitcoini tehingu väljundis või struktuuris kodeeritakse _commitment_, et tagada selle kohustuse deterministlik jälgitavus ja kontrollitavus.
 
@@ -1945,10 +1945,10 @@ Selline modulaarsus on RGB huvitav omadus, sest see võimaldab erinevatel arenda
 Kokkuvõttes koosneb iga leping :
 
 
-- Genesis**, mis on lepingu algseisund (ja mida võib võrrelda spetsiaalse tehinguga, mis määratleb vara, õiguse või mis tahes muu parameetrile vastavate andmete esmase omandiõiguse);
-- Skeem**, mis kirjeldab lepingu äriloogikat (andmetüübid, valideerimisreeglid jne);
-- Liides**, mis pakub semantilist kihti nii rahakottidele kui ka inimkasutajatele, selgitades tehingute lugemist ja täitmist;
-- Rakendus** liides, mis katab lõhe äriloogika ja esitusviisi vahel, tagamaks, et lepingu määratlus on kooskõlas kasutajakogemusega.
+- **Genesis**, mis on lepingu algseisund (ja mida võib võrrelda spetsiaalse tehinguga, mis määratleb vara, õiguse või mis tahes muu parameetrile vastavate andmete esmase omandiõiguse);
+- **Skeem**, mis kirjeldab lepingu äriloogikat (andmetüübid, valideerimisreeglid jne);
+- **Liides**, mis pakub semantilist kihti nii rahakottidele kui ka inimkasutajatele, selgitades tehingute lugemist ja täitmist;
+- **Rakendusliides**, mis katab lõhe äriloogika ja esitusviisi vahel, tagamaks, et lepingu määratlus on kooskõlas kasutajakogemusega.
 
 ![RGB-Bitcoin](assets/fr/070.webp)
 
@@ -2054,10 +2054,10 @@ Enne koodiga tutvumist tasub meenutada RGB skeemi üldist struktuuri. Seal on ri
 
 - Võimalik `SchemaId`, mis näitab teise põhiskeemi kasutamist mallina;
 - **Globaalriigid** ja **Omanikmesriigid** (koos nende rangete tüüpidega) ;
-- Väärtused** (kui neid on);
+- **Väärtused** (kui neid on);
 - **Operatsioonid** (Genesis, State Transitions, State Extensions), mis võivad viidata nendele seisunditele ja valentsidele;
 - **Strict Type System**, mida kasutatakse andmete kirjeldamiseks ja valideerimiseks;
-- Valideerimisskriptid** (käivitatakse AluVMi kaudu).
+- **Valideerimisskriptid** (käivitatakse AluVMi kaudu).
 
 ![RGB-Bitcoin](assets/fr/072.webp)
 
@@ -2128,12 +2128,12 @@ EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET,
 ```
 
 
-- (1) - Funktsiooni päis ja SubSchema**
+- (1) - Funktsiooni päis ja **SubSchema**
 
 Funktsioon `nia_schema()` tagastab `SubSchema`, mis näitab, et see skeem võib osaliselt pärituda üldisemast skeemist. RGB ökosüsteemis võimaldab selline paindlikkus taaskasutada teatud standardseid põhiskeemi elemente ja seejärel määratleda konkreetse lepingu jaoks spetsiifilised reeglid. Siinkohal otsustame mitte lubada pärimist, kuna `subset_of` on `None`.
 
 
-- (2) - Üldised omadused: ffv, subset_of, type_system**
+- (2) - Üldised omadused: ffv, subset_of, **type_system**
 
 Omadus `ffv` vastab lepingu *kiiresti edastatavale* versioonile. Väärtus `null!()` näitab, et me oleme selle skeemi versioonil 0 või algsel versioonil. Kui te soovite hiljem lisada uusi funktsioone (uut tüüpi operatsioone jne), saate seda versiooni suurendada, et näidata konsensuse muutmist.
 
@@ -2158,7 +2158,7 @@ Võtmesõna `once(...)` tähendab, et iga selline väli võib esineda ainult ük
 Kirjas `owned_types` deklareerime `OS_ASSET`, mis kirjeldab asendatavat olekut. Kasutame `StateSchema::Fungible(FungibleType::Unsigned64Bit)`, mis näitab, et varade (žetoonide) kogus on salvestatud 64-bitise täisarvuna. Seega saadab iga tehing teatud koguse selle märgi ühikuid, mis valideeritakse selle rangelt tüpiseeritud numbrilise struktuuri järgi.
 
 
-- (5) - Valencies**
+- (5) - **Valencies**
 
 Me märgime `valentsi_tüübid: none!()`, mis tähendab, et selles skeemis ei ole mingeid valentsusi, teisisõnu mingeid eri- või lisaõigusi (nagu korduvkasutamine, tingimuslik põletamine jne). Kui skeem sisaldaks neid, siis deklareeritaks need selles jaotises.
 
@@ -2195,7 +2195,7 @@ Väli `extensions: none!()` näitab, et selles lepingus ei ole ette nähtud üht
 See modelleerib põhisiirde käitumist, mis tarbib UTXO-l märke, loob seejärel uusi omandatud seisundeid saajate kasuks ja säilitab seega sisendite ja väljundite kogusumma võrdsuse.
 
 
-- (9) - AluVM skript ja sisenemiskohad** (prantsuse keeles)
+- (9) - **AluVM skript ja sisenemiskohad** (prantsuse keeles)
 
 Lõpuks deklareerime AluVM skripti (`Script::AluVM(AluScript { ... })`). See skript sisaldab :
 
@@ -2233,17 +2233,17 @@ Tänu liidesele saate näiteks rahakotis kirjutada koodi, mis väljadega manipul
 Sellel meetodil on palju eeliseid:
 
 
-- Standardimine:**
+- **Standardimine:**
 
 Sama tüüpi lepingut võib toetada standardne liides, mida jagavad mitu rahakoti rakendust. See hõlbustab ühilduvust ja koodi taaskasutamist.
 
 
-- Selge eraldatus skeemi ja liidese vahel:**
+- Selge eraldatus skeemi ja liidese vahel:
 
 RGB kujunduses on skeem (äriloogika) ja kasutajaliides (esitus ja manipuleerimine) kaks sõltumatut üksust. Arendajad, kes kirjutavad lepinguloogikat, saavad keskenduda skeemile, muretsemata ergonoomika või andmete esituse pärast, samal ajal kui teine meeskond (või sama meeskond, kuid teisel ajagraafikul) võib arendada kasutajaliidest.
 
 
-- Paindlik areng:**
+- **Paindlik areng:**
 
 Kasutajaliidest saab muuta või täiendada pärast vara väljaandmist, ilma et peaks muutma lepingut ennast. See on oluline erinevus võrreldes mõne ahelas oleva aruka lepingu süsteemiga, kus liides (sageli segatud täitmiskoodiga) on plokiahelas külmutatud.
 
@@ -2297,18 +2297,18 @@ Näiteks saab RGB20 liidest ühendada **Non-Inflatable Asset (NIA) skeemiga**, m
 - Integreeritud tugi faili (kuni 16 MB) otseseks lisamiseks lepingusse (kliendipoolseks päringuks);
 - Omaniku võimalus sisestada "*graveering*" ajalukku, et tõestada NFT varasemat omamist.
 
-**RGB25** on hübriidstandard, mis ühendab asendatavad ja mittekõrvaldatavad aspektid. See on mõeldud osaliselt asendatavate varade jaoks, näiteks kinnisvara tokeniseerimiseks, kus soovite jagada kinnisvara, säilitades samal ajal lingi ühe juurvaraga (teisisõnu, teil on asendatavad majatükid, mis on seotud mitte-kungifitseeritava majaga). Tehniliselt saab selle liidese siduda **Collectible Fungible Asset* (CFA)** skeemiga, mis võtab arvesse jagamise mõistet, jälgides samal ajal algset vara.
+**RGB25** on hübriidstandard, mis ühendab asendatavad ja mittekõrvaldatavad aspektid. See on mõeldud osaliselt asendatavate varade jaoks, näiteks kinnisvara tokeniseerimiseks, kus soovite jagada kinnisvara, säilitades samal ajal lingi ühe juurvaraga (teisisõnu, teil on asendatavad majatükid, mis on seotud mitte-kungifitseeritava majaga). Tehniliselt saab selle liidese siduda **Collectible Fungible Asset** *(CFA)* skeemiga, mis võtab arvesse jagamise mõistet, jälgides samal ajal algset vara.
 
 #### Arendamisel olevad liideseid
 
 Muud liidesed on kavandatud spetsiifilisemateks kasutusaladeks, kuid need ei ole veel saadaval:
 
 
-- RGB22**, mis on pühendatud digitaalsetele identiteetidele, et hallata identifikaatoreid ja ahelas olevaid profiile RGB ökosüsteemis;
-- RGB23**, täiustatud ajatemplite jaoks, mis kasutab mõningaid *Opentimestamps* ideid, kuid millel on jälgitavuse funktsioonid;
-- RGB24**, mille eesmärk on detsentraliseeritud domeeninimede süsteemi (DNS) sarnane *Ethereum Name Service* ;
-- RGB26**, mis on mõeldud DAOde (*Decentralized Autonomous Organization*) haldamiseks keerulisemas vormis (juhtimine, hääletamine jne);
-- RGB30**, mis on väga sarnane RGB20-le, kuid mille eripära on detsentraliseeritud algse emiteerimise arvessevõtmine ja riigi laienduste kasutamine. Seda kasutataks varade puhul, mille taasväljaandmist haldavad mitu üksust või mille suhtes kehtivad täpsemad tingimused.
+- **RGB22**, mis on pühendatud digitaalsetele identiteetidele, et hallata identifikaatoreid ja ahelas olevaid profiile RGB ökosüsteemis;
+- **RGB23**, täiustatud ajatemplite jaoks, mis kasutab mõningaid *Opentimestamps* ideid, kuid millel on jälgitavuse funktsioonid;
+- **RGB24**, mille eesmärk on detsentraliseeritud domeeninimede süsteemi (DNS) sarnane *Ethereum Name Service*;
+- **RGB26**, mis on mõeldud DAOde (*Decentralized Autonomous Organization*) haldamiseks keerulisemas vormis (juhtimine, hääletamine jne);
+- **RGB30**, mis on väga sarnane RGB20-le, kuid mille eripära on detsentraliseeritud algse emiteerimise arvessevõtmine ja riigi laienduste kasutamine. Seda kasutataks varade puhul, mille taasväljaandmist haldavad mitu üksust või mille suhtes kehtivad täpsemad tingimused.
 
 Loomulikult võivad need liidesed sõltuvalt kuupäevast, mil te selle kursusega konsulteerite, juba toimida ja olla kättesaadavad.
 
@@ -2760,17 +2760,17 @@ Kokkuvõttes on siin täielik ülekandeprotsess:
 ### RGB-ülekannete eelised
 
 
-- Konfidentsiaalsus** :
+- **Konfidentsiaalsus**:
 
 Ainult Alice'il ja Bobil on juurdepääs kõikidele oleku üleminekuandmetele. Nad vahetavad seda teavet väljaspool plokiahelat, saadetiste kaudu. Bitcoini tehingu krüptograafilised kohustused ei avalda vara liiki ega summat, mis tagab palju suurema konfidentsiaalsuse kui teised ahelasisesed sümboolsed süsteemid.
 
 
-- Kliendipoolne valideerimine** :
+- **Kliendipoolne valideerimine**:
 
 Bob saab kontrollida ülekande järjepidevust, võrreldes *saatekirja* Bitcoini plokiahela *ankritega*. Ta ei vaja kolmanda osapoole kinnitust. Alice ei pea kogu ajalugu plokiahelas avaldama, mis vähendab alusprotokolli koormust ja parandab konfidentsiaalsust.
 
 
-- Lihtsustatud aatomisus** :
+- **Lihtsustatud aatomisus**:
 
 Keerulisi vahetusi (näiteks BTC ja RGB vara vahelised aatomivahetuslepingud) saab teostada ühe tehinguga, vältides vajadust HTLC või PTLC skriptide järele. Kui kokkulepet ei edastata, saab igaüks oma UTXOsid muul viisil uuesti kasutada.
 
@@ -2846,10 +2846,10 @@ Analüüsime seda URL-i:
 
 
 - `rgb:`** (eesliide): tähistab linki, mis kasutab RGB-protokolli (analoogne `http:` või `bitcoin:` teistes kontekstides);
-- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: tähistab selle sümboli `ContractId`, millega soovite manipuleerida;
-- `/RGB20/100`**: näitab, et kasutatakse liidest `RGB20` ja et taotletakse 100 ühikut vara. Süntaks on järgmine: `/Interface/amount` ;
+- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`: tähistab selle sümboli `ContractId`, millega soovite manipuleerida;
+- `/RGB20/100`: näitab, et kasutatakse liidest `RGB20` ja et taotletakse 100 ühikut vara. Süntaks on järgmine: `/Interface/amount` ;
 - `+utxob:`**: määrab, et lisatakse teave vastuvõtva UTXO kohta (või täpsemalt, ühekordse pitseri määratlus);
-- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**: see on *pimendatud* UTXO (või pitseri määratlus). Teisisõnu, Bob on maskeerinud oma täpse UTXO, nii et saatja (Alice) ei tea, milline on täpne aadress. Ta teab ainult, et on olemas kehtiv pitser, mis viitab Bobi kontrollitavale UTXO-le.
+- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: see on *pimendatud* UTXO (või pitseri määratlus). Teisisõnu, Bob on maskeerinud oma täpse UTXO, nii et saatja (Alice) ei tea, milline on täpne aadress. Ta teab ainult, et on olemas kehtiv pitser, mis viitab Bobi kontrollitavale UTXO-le.
 
 Asjaolu, et kõik mahub ühte URL-i, teeb kasutaja elu lihtsamaks: lihtne klõps või skaneerimine rahakotis ja operatsioon on valmis.
 
@@ -2877,10 +2877,10 @@ Siin näeme :
 
 
 - `rgb:`**: URL prefiks ;
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Lepingu ID (NFT) ;
-- rGB21**: liides mittekantavate varade jaoks (NFT) ;
-- `DbwzvSu-4BZU81jEp-...`**: selgesõnaline viide NFT unikaalsele osale, näiteks andmeploki (meedia, metaandmed...) hash;
-- `+utxob:egXsFnw-...`**: pitseri määratlus.
+- **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Lepingu ID (NFT) ;
+- **rGB21**: liides mittekantavate varade jaoks (NFT);
+- **`DbwzvSu-4BZU81jEp-...`**: selgesõnaline viide NFT unikaalsele osale, näiteks andmeploki (meedia, metaandmed...) hash;
+- **`+utxob:egXsFnw-...`**: pitseri määratlus.
 
 Idee on sama: edastada unikaalne link, mida rahakott suudab tõlgendada ja mis selgelt identifitseerib ülekantava vara.
 
@@ -2900,7 +2900,7 @@ Siit leiame :
 - `/RGB20/issue/100000`: näitab, et soovite kasutada üleminekut "*Issue*", et luua veel 100 000 märgi;
 - `+utxob:`: pitseri määratlus.
 
-Näiteks võib rahakotis olla kirjas: "Mul on palutud teostada `RGB20` liidesest `issue` operatsioon, sellise ja sellise lepingu alusel, 100 000 ühiku ulatuses, sellise ja sellise ühekordse kasutusega pitseri kasuks.*"
+Näiteks võib rahakotis olla kirjas: "Mul on palutud teostada `RGB20` liidesest `issue` operatsioon, sellise ja sellise lepingu alusel, 100 000 ühiku ulatuses, sellise ja sellise ühekordse kasutusega pitseri kasuks."
 
 Nüüd, kui me oleme vaadanud RGB-programmeerimise põhielemente, tutvustan teile järgmises peatükis, kuidas koostada RGB-lepingut.
 
@@ -3129,8 +3129,8 @@ See loob kausta kogu varanduse üksikasjadega.
 Enamasti toimub lepingus osalejate (nt Alice ja Bob) vaheline suhtlus arve koostamise kaudu. Kui Alice soovib, et Bob täidaks midagi (sümboolika ülekandmine, uuesti väljastamine, tegevus DAOs jne), loob Alice arve, milles kirjeldatakse üksikasjalikult tema juhiseid Bobile. Seega on meil :
 
 
-- Alice** (arve väljastaja) ;
-- Bob** (kes võtab arve vastu ja täidab selle).
+- **Alice** (arve väljastaja) ;
+- **Bob** (kes võtab arve vastu ja täidab selle).
 
 Erinevalt teistest ökosüsteemidest ei ole RGB-arve piiratud makse mõistega. Sellesse võib sisse põimida mis tahes lepinguga seotud taotluse: võtme tühistamine, hääletamine, NFT-le graveeringu (*graveeringu*) loomine jne. Vastavat toimingut saab kirjeldada lepingu liideses. Vastavat toimingut saab kirjeldada lepingu liideses.
 
@@ -3270,87 +3270,87 @@ Lõpuks, enne järgmise jaotise juurde minekut, tahaksin anda teile ülevaate RG
 #### Kliendipoolne valideerimine
 
 
-- Hoiukoht**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Kastid** : [kliendipoolne_valideerimine](https://crates.io/crates/client_side_validation), [ühekordsed_kasutustõkendid](https://crates.io/crates/single_use_seals)
+- **Hoiukoht**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Kastid**: [kliendipoolne_valideerimine](https://crates.io/crates/client_side_validation), [ühekordsed_kasutustõkendid](https://crates.io/crates/single_use_seals)
 
 Ahelavälise valideerimise ja ühekordse kasutusega plommide loogika haldamine.
 
 #### Deterministlikud Bitcoini kohustused (DBC)
 
 
-- Hoiukoht**: [bp-core](https://github.com/BP-WG/bp-core)
-- Kast**: [bp-dbc](https://crates.io/crates/bp-dbc)
+- **Hoiukoht**: [bp-core](https://github.com/BP-WG/bp-core)
+- **Kast**: [bp-dbc](https://crates.io/crates/bp-dbc)
 
 Deterministliku ankurdamise haldamine Bitcoini tehingutes (Tapret, OP_RETURN jne).
 
 #### Mitme protokolliga seotud kohustused (MPC)
 
 
-- Hoiukoht**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Kast** : [commit_verify](https://crates.io/crates/commit_verify)
+- **Hoiukoht**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- **Kast**: [commit_verify](https://crates.io/crates/commit_verify)
 
 Mitmesugused sidumiskombinatsioonid ja integratsioon erinevate protokollidega.
 
 #### Ranged tüübid ja range kodeerimine
 
 
-- Spetsifikatsioonid**: [veebisait strict-types.org](https://www.strict-types.org/)
-- Repositooriumid**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
-- Kastid** : [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
+- **Spetsifikatsioonid**: [veebisait strict-types.org](https://www.strict-types.org/)
+- **Repositooriumid**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
+- **Kastid**: [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
 
 Kliendipoolseks valideerimiseks kasutatav range tüübisüsteem ja deterministlik serialiseerimine.
 
 #### RGB tuum
 
 
-- Hoiukoht**: [rgb-core](https://github.com/RGB-WG/rgb-core)
-- Kast**: [rgb-core](https://crates.io/crates/rgb-core)
+- **Hoiukoht**: [rgb-core](https://github.com/RGB-WG/rgb-core)
+- **Kast**: [rgb-core](https://crates.io/crates/rgb-core)
 
 Protokolli tuum, mis hõlmab RGB valideerimise peamist loogikat.
 
 #### RGB standardne raamatukogu ja rahakott
 
 
-- Hoiukoht**: [rgb-std](https://github.com/RGB-WG/rgb-std)
-- Kast** : [rgb-std](https://crates.io/crates/rgb-std)
+- **Hoiukoht**: [rgb-std](https://github.com/RGB-WG/rgb-std)
+- **Kast**: [rgb-std](https://crates.io/crates/rgb-std)
 
 Standardsed rakendused, varude ja rahakoti haldamine.
 
 #### RGB CLI
 
 
-- Hoiukoht**: [rgb](https://github.com/RGB-WG/rgb)
-- Kastid**: [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
+- **Hoiukoht**: [rgb](https://github.com/RGB-WG/rgb)
+- **Kastid**: [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
 
 `rgb` CLI ja crate wallet, lepingute käsurea manipuleerimiseks.
 
 #### RGB skeem
 
 
-- Hoiukoht**: [rgb-skeemid](https://github.com/RGB-WG/rgb-schemata/)
+- **Hoiukoht**: [rgb-skeemid](https://github.com/RGB-WG/rgb-schemata/)
 
 Sisaldab näiteid skeemide (NIA, UDA jne) ja nende rakenduste kohta.
 
 #### ALuVM
 
 
-- Info** : [aluvm.org](https://www.aluvm.org/)
-- Repositooriumid**: [aluvm-spec](https://github.com/AluVM/aluvm-spec), [alure](https://github.com/AluVM/alure)
-- Kastid**: [aluvm](https://crates.io/crates/aluvm), [aluasm](https://crates.io/crates/aluasm)
+- **Info**: [aluvm.org](https://www.aluvm.org/)
+- **Repositooriumid**: [aluvm-spec](https://github.com/AluVM/aluvm-spec), [alure](https://github.com/AluVM/alure)
+- **Kastid**: [aluvm](https://crates.io/crates/aluvm), [aluasm](https://crates.io/crates/aluasm)
 
 Registripõhine virtuaalmasin, mida kasutatakse valideerimisskriptide käivitamiseks.
 
 #### Bitcoini protokoll - BP
 
 
-- Repositooriumid** : [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-wallet](https://github.com/BP-WG/bp-wallet)
+- **Repositooriumid**: [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-wallet](https://github.com/BP-WG/bp-wallet)
 
 Bitcoini protokolli (tehingud, ümbersõidud jne) toetavad lisaseadmed.
 
 #### Ubiquitous Deterministic Computing - UBIDECO
 
 
-- Hoiukoht**: [UBIDECO](https://github.com/UBIDECO)
+- **Hoiukoht**: [UBIDECO](https://github.com/UBIDECO)
 
 Ökosüsteem, mis on seotud avatud lähtekoodiga deterministlike arendustega.
 
@@ -3414,7 +3414,7 @@ Bitmaski taga olev ettevõte ei piirdu ainult rahakoti arendamisega. DIBA kavats
 
 - **turg** žetoonide vahetamiseks, eelkõige **RGB21** kujul;
 - Ühilduvus teiste rahakottidega (näiteks *Iris Wallet*);
-- Ülekannete batching** tehnika, st võimalus lisada mitu järjestikust RGB ülekannet ühte tehingusse.
+- **Ülekannete batching** tehnika, st võimalus lisada mitu järjestikust RGB ülekannet ühte tehingusse.
 
 Samal ajal töötame **WebBTC** või **WebLN** (standardid, mis võimaldavad veebilehtedel paluda rahakotil allkirjastada Bitcoin- või Lightning-tehinguid), samuti võime "telebronnida" Ordinals-kirjeid (kui tahame Ordinals'i diskreetsemasse ja paindlikumasse RGB-vormingusse repatrieerida).
 
@@ -3604,17 +3604,17 @@ Selle käsu lõpus on teie `$CARGO_HOME/bin/` käsureale `$CARGO_HOME/bin/` saad
 Selleks, et toimida, vajab deemon `rgb-lightning-node` olemasolu ja konfiguratsiooni :
 
 
-- Sõlm `bitcoind`**
+- Sõlm `bitcoind`
 
 Iga RLNi instants peab suhtlema "bitcoindiga", et edastada ja jälgida oma ahelasisesed tehingud. Daemonile tuleb esitada autentimine (sisselogimine/parool) ja URL (host/port).
 
 
-- Indekseerija** (Electrum või Esplora)
+- **Indekseerija** (Electrum või Esplora)
 
 Deemon peab suutma loetleda ja uurida ahelas toimuvaid tehinguid, eelkõige leida UTXO, millele vara on ankurdatud. Peate määrama oma Electrumi serveri või Esplora URL-i.
 
 
-- RGB** proxy
+- **RGB** proxy
 
 Nagu eelmistes peatükkides on näha, on **proxy server** komponent (valikuline, kuid väga soovitatav), mis lihtsustab Lightning-partnerite vahelist *saatekirjade* vahetamist. Jällegi tuleb määrata URL.
 

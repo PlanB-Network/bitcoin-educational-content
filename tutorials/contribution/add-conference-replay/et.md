@@ -29,7 +29,7 @@ Täitke see fail oma konverentsi kohta käiva teabega, kasutades seda malli:
 ```yaml
 year: 
 name: 
-builder: 
+project: 
 location: 
 language: 
   - 
@@ -46,7 +46,7 @@ Näiteks võiks teie YAML-fail välja näha selline:
 ```yaml
 year: 2024-08
 name: Pariisi Bitcoin Konverents 2024
-builder: Pariisi Bitcoin Konverents
+project: Pariisi Bitcoin Konverents
 location: Pariis, Prantsusmaa
 language: 
   - fr
@@ -60,7 +60,7 @@ tags:
 ```
 
 ![konverents](assets/09.webp)
-Kui teie organisatsioonil ei ole veel "*builder*" identifikaatorit, saate selle lisada [järgides seda teist õpetust](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
+Kui teie organisatsioonil ei ole veel "*project*" identifikaatorit, saate selle lisada [järgides seda teist õpetust](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
 - Kui olete selle faili muutmisega lõpetanud, salvestage muudatused, klõpsates nupul `Commit changes...`:
 ![konverents](assets/10.webp)
 - Lisage oma muudatustele pealkiri, samuti lühike description:
@@ -199,3 +199,4 @@ Palun jälgige oma PR-i edenemist. On võimalik, et administraator võib jätta 
 ![konverents](assets/46.webp)
 
 Suur tänu teie väärtusliku panuse eest! :)
+

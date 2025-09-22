@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Fares CHELLOUG publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Fares CHELLOUG publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -22,7 +22,7 @@ ___
 
 
 
-**I denne veiledningen skal vi lære hvordan du utfører en sikkerhetsrevisjon på en Linux-maskin ved hjelp av Lynis! For de av dere som ikke kjenner **Lynis,** er det et lite kommandolinjeverktøy som analyserer serverens konfigurasjon og kommer med anbefalinger for å **forbedre sikkerheten på maskinen din.**
+**I denne veiledningen skal vi lære hvordan du utfører en sikkerhetsrevisjon på en Linux-maskin ved hjelp av Lynis!** For de av dere som ikke kjenner **Lynis**, er det et lite kommandolinjeverktøy som analyserer serverens konfigurasjon og kommer med anbefalinger for å **forbedre sikkerheten på maskinen din**.
 
 
 
@@ -51,7 +51,7 @@ Verktøyet er mye brukt av et bredt spekter av brukere, inkludert systemadminist
 
 
 
-Prosjektet er tilgjengelig på denne Address på **Github** :
+Prosjektet er tilgjengelig på denne Address på **Github**:
 
 
 
@@ -82,7 +82,7 @@ Denne installasjonsmodusen gjør at du kan bruke kommandoen **lynis** fra hvor s
 
 
 
-Koble til serveren din via SSH, og skriv inn følgende kommandoer for å installere Lynis :
+Koble til serveren din via SSH, og skriv inn følgende kommandoer for å installere Lynis:
 
 
 
@@ -209,7 +209,7 @@ Du kan vise de tilgjengelige kommandoene ved å skrive inn følgende kommando:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Dette er hva du får:
 
 
 
-Hvis du ønsker å vise alle alternativene, må du taste inn :
+Hvis du ønsker å vise alle alternativene, må du taste inn:
 
 
 
@@ -321,10 +321,10 @@ Deretter lister Lynis opp et sett med punkter som tilsvarer alt han har sjekket 
 
 
 
-- Rød** for kritisk Elements eller beste praksis som ikke respekteres (for eksempel en manglende pakke), dvs. at serveren din ikke respekterer dette punktet
-- Gul** for forslag eller delvis etterlevelse av anbefalingen (la oss si at det er et pluss å etterleve et punkt som er uthevet med denne fargen (ikke-prioritert))
-- Green** for punkter der serverkonfigurasjonen din er kompatibel
-- Hvit**, når den er nøytral
+- **Rød** for kritisk Elements eller beste praksis som ikke respekteres (for eksempel en manglende pakke), dvs. at serveren din ikke respekterer dette punktet
+- **Gul** for forslag eller delvis etterlevelse av anbefalingen (la oss si at det er et pluss å etterleve et punkt som er uthevet med denne fargen (ikke-prioritert))
+- **Green** for punkter der serverkonfigurasjonen din er kompatibel
+- **Hvit**, når den er nøytral
 
 
 
@@ -336,7 +336,7 @@ Her kan vi se at Lynis anbefaler å installere **fail2ban**:
 
 
 
-I avsnittet "**Boot and services**" ser vi at tjenestebeskyttelsen via *systemd* kan forbedres. På den positive siden er Grub2 til stede, og det er ingen problemer med tillatelser på :
+I avsnittet "**Boot and services**" ser vi at tjenestebeskyttelsen via *systemd* kan forbedres. På den positive siden er Grub2 til stede, og det er ingen problemer med tillatelser på:
 
 
 
@@ -368,7 +368,7 @@ Her er hva du kan finne i seksjonene "**Shells", "Files Systems" og "USB Devices
 
 
 
-Deretter seksjonene: "**Navnetjenester", "Porter og pakker", "Nettverk", Her står det at pakker som ikke lenger er i bruk, kan slettes, og at det ikke finnes noe verktøy som kan håndtere automatiske oppdateringer.
+Deretter seksjonene: **Navnetjenester**, **Porter og pakker**, **Nettverk**. Her står det at pakker som ikke lenger er i bruk, kan slettes, og at det ikke finnes noe verktøy som kan håndtere automatiske oppdateringer.
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Litt informasjon om de installerte pakkene :
+Litt informasjon om de installerte pakkene:
 
 
 
 
 
-- Clamav** er et antivirusprogram.
-- unattend-upgrades** gjør at du kan administrere oppdateringene dine automatisk og til og med starte maskinen på nytt eller automatisk fjerne gamle pakker.
-- rkhunter** er et anti-rootkit som skanner filsystemet ditt.
-- Fail2ban** baserer seg på loggfilene dine i henhold til det du gir den tillatelse til å lese, og den fungerer med **iptables**, for eksempel for å utestenge IP-adresser som prøver å "brute force" serveren din i SSH.
+- **Clamav** er et antivirusprogram.
+- **unattend-upgrades** gjør at du kan administrere oppdateringene dine automatisk og til og med starte maskinen på nytt eller automatisk fjerne gamle pakker.
+- **rkhunter** er et anti-rootkit som skanner filsystemet ditt.
+- **Fail2ban** baserer seg på loggfilene dine i henhold til det du gir den tillatelse til å lese, og den fungerer med **iptables**, for eksempel for å utestenge IP-adresser som prøver å "brute force" serveren din i SSH.
 
 
 
@@ -623,7 +623,7 @@ La oss ta en titt på SSH-anbefalingene. De er listet opp nedenfor. Ikke bekymre
 
 
 
-La oss ta en nærmere titt på min nåværende **SSH**-konfigurasjon i :**/etc/ssh/sshd_config**
+La oss ta en nærmere titt på min nåværende **SSH**-konfigurasjon i:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Konfigurasjonen som er foreslått nedenfor, kan fortsatt optimaliseres, men gir 
 
 
 
-Vi vil :
+Vi vil:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Behold passordgodkjenning :
+- Behold passordgodkjenning:
 
 
 
@@ -804,7 +804,7 @@ Det er verdt å merke seg at i enkelte jurisdiksjoner kan det å sende en meldin
 
 
 
-I bilder gir dette :
+I bilder gir dette:
 
 
 
@@ -820,7 +820,7 @@ Til slutt, la oss ikke glemme å sjekke **Lynis audit score**! Vi ser at **herdi
 
 
 
-**Med andre ord: Jo høyere poengsum, desto bedre! Du må derfor jobbe med konfigurasjonen for å oppnå høyest mulig poengsum, samtidig som du lar maskinen og de hostede tjenestene fungere normalt (det vil si at du må utføre funksjonstester).
+**Med andre ord: Jo høyere poengsum, desto bedre! Du må derfor jobbe med konfigurasjonen for å oppnå høyest mulig poengsum, samtidig som du lar maskinen og de hostede tjenestene fungere normalt (det vil si at du må utføre funksjonstester).**
 
 
 
@@ -884,7 +884,7 @@ Du kommer sannsynligvis ikke til å bruke den samme konfigurasjonen for en VPS s
 
 
 
-Når du har funnet en konfigurasjon som passer deg når det gjelder herding, er det lurt å ta i bruk et automatiseringsverktøy, slik at du slipper å gjøre oppgavene manuelt, noe som er tidkrevende og feilutsatt. Du kan for eksempel bruke **: Puppet, Chef, Ansible osv
+Når du har funnet en konfigurasjon som passer deg når det gjelder herding, er det lurt å ta i bruk et automatiseringsverktøy, slik at du slipper å gjøre oppgavene manuelt, noe som er tidkrevende og feilutsatt. Du kan for eksempel bruke: **Puppet, Chef, Ansible osv.**
 
 
 
@@ -896,4 +896,4 @@ Til slutt kan du også sammenligne **Lynis** med andre verktøy, som det finnes 
 
 
 
-**Denne veiledningen er over, ha det gøy med Lynis!
+**Denne veiledningen er over, ha det gøy med Lynis!**

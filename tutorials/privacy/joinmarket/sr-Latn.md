@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Vodič i uputstvo kako koristiti JoinMarket za CoinJoin preko Bitcoin putem komandne linije
+description: Vodič i uputstvo za korišćenje JoinMarket-a za CoinJoin transakcije na Bitcoin-u putem komandne linije.
 ---
 
 ![cover](assets/cover.webp)
@@ -18,19 +18,18 @@ Cilj ovog tutorijala je da ilustruje teorijski i praktični rad JoinMarket-a, pu
 
 
 
-## JoinMarket Teorijska Definicija
+## Teorijska definicija JoinMarket-a
 
 
 
-Možemo definisati JoinMarket kao alat, ili Wallet, koji omogućava CoinJoin sa drugim korisnicima na potpuno Trustless način i bez ikakvog centralnog koordinatora.
+JoinMarket možemo definisati kao alat ili novčanik koji omogućava CoinJoin sa drugim korisnicima, bez potrebe za poverenjem i bez centralnog posrednika.
+
+
+Pošto je ceo teorijski deo ovog alata izuzetno širok, odlučio sam da ga adresiramo u specifičnoj epizodi mog podkasta. Za one koji razumeju italijanski, toplo preporučujem da nastavite sa čitanjem nakon slušanja epizode, kako biste bolje usvojili osnovne koncepte za pravilno korišćenje ovog programa.
 
 
 
-Pošto je ceo teorijski deo ovog alata izuzetno širok, odlučio sam da ga Address u specifičnoj epizodi mog podkasta. Za one koji razumeju italijanski, toplo preporučujem da nastavite sa čitanjem nakon slušanja epizode, kako biste bolje usvojili osnovne koncepte za pravilno korišćenje ovog programa.
-
-
-
-Možete nadoknaditi epizodu na ovim direktnim linkovima:
+Epizodu možete pogledati putem sledećih direktnih linkova:
 
 
 
@@ -60,7 +59,7 @@ Operativni sistemi:
 
 
 
-## Konfiguracione Datoteke
+## Konfiguracione datoteke
 
 
 
@@ -81,7 +80,7 @@ python wallet-tool.py generate
 ```
 
 
-U ovom trenutku bismo trebali dobiti grešku, ali to će uzrokovati da softver generate unapred postavljenu datoteku sa podešavanjima za nas. Možemo otići i urediti datoteku sa podešavanjima iz terminala sa:
+U ovom trenutku bismo trebali dobiti grešku, ali to će uzrokovati da softver generiše unapred postavljenu datoteku sa podešavanjima za nas. Možemo otići i urediti datoteku sa podešavanjima iz terminala sa:
 
 
 
@@ -107,15 +106,15 @@ jednom kada otvorimo, primetićemo brojne linije sa različitim podešavanjima i
 
 
 
-- `merge_algorithm` u slučaju da radimo kao kreator, ovo polje podešava koliko agresivno će softver konsolidovati nepotrošene Izlaze. U slučaju da imamo mnogo UTXO-a za konsolidaciju, može imati smisla prebaciti se sa _postepenog_ na _pohlepni_
-- `tx_fees` podešava kao taker naknade sa kojima se plaća transakcija, veoma je korisno promeniti ovo podešavanje u slučaju da često koristite tumbler (o tome ćemo kasnije govoriti) jer ako dođe do skoka u naknadama tokom izvršenja istog, ako ne postavimo ovo polje ispravno, rizikujemo da potrošimo mnogo Sats za CoinJoin. Postavljanjem vrednosti u hiljadama (kao što je 2000) ovo će biti jednako 2 Sats/vBytes, 3500 za 3.5 Sats/vBytes, i tako dalje. Preporučio bih broj u rasponu od 1500 do 6000 u zavisnosti od vaših potreba.
-- `max_cj_fee_abs` se koristi da se odredi koliko smo spremni da platimo u apsolutnim iznosima za proizvođače koje izaberemo tokom CoinJoin. Podrazumevano, ovo polje za proizvođače je 200 Sats, dobra opcija bi mogla biti broj u rasponu od 200 do 1000 Sats po partneru (ovo se zasniva na tome koliko želite da potrošite i koliko anon-set tražite za vaše CoinJoin-e)
-- `max_cj_fee_rel` ima istu funkciju kao i polje iznad, ali specificira relativne naknade (procenat) koje smo spremni da platimo svakoj drugoj strani. Pošto je ovo vrednost u `procentima`, budite pažljivi da ne postavite visoke vrednosti kako biste izbegli visoke troškove u CoinJoins sa velikim iznosima. Podrazumevana vrednost za kreatore je _0.00002_, preporučujem sličnu ili malo višu vrednost.
+- `merge_algorithm` u slučaju kada nastupamo kao maker, ovo polje određuje koliko agresivno će softver konsolidovati nepotrošene izlaze (UTXO-e). U slučaju da imamo mnogo UTXO-a za konsolidaciju, može imati smisla preći sa _postepenog_ (gradual) na _pohlepni_ (greedy) pristup.
+- `tx_fees` kao taker, ovo podešavanje određuje visinu naknade koju plaćamo za transakciju. Veoma je korisno prilagoditi ovu opciju ukoliko često koristimo tumbler (o tome ćemo govoriti kasnije), jer u slučaju naglog porasta naknada tokom njegovog izvođenja, ako ovo polje nije pravilno podešeno, postoji rizik da ćemo potrošiti mnogo satošija za CoinJoin. Postavljanjem vrednosti u hiljadama (kao što je 2000) ovo će biti jednako 2 Sats/vBytes, 3500 za 3.5 Sats/vBytes, i tako dalje. Preporučio bih broj u rasponu od 1500 do 6000 u zavisnosti od vaših potreba.
+- `max_cj_fee_abs` Koristi se za određivanje koliko smo spremni da platimo, u apsolutnim vrednostima, maker-ima koje biramo tokom CoinJoin-a. Podrazumevana vrednost za makere iznosi 200 satošija, a dobra opcija može biti broj u rasponu od 200 do 1000 satošija po učesniku, u zavisnosti od toga koliko želite da potrošite i koliki nivo anonimnosti (anon-set) želite da postignete svojim CoinJoin-ima.
+- `max_cj_fee_rel` ima istu funkciju kao i polje iznad, ali specificira relativne naknade (procenat) koje smo spremni da platimo svakoj drugoj strani. Pošto je ovo vrednost u `procentima`, budite pažljivi da ne postavite visoke vrednosti kako biste izbegli visoke troškove u CoinJoins sa velikim iznosima. Podrazumevana vrednost za makere je _0.00002_, preporučujem sličnu ili malo višu vrednost.
 - `minimum_makers` je polje koje određuje sa koliko drugih suprotnih strana radimo CoinJoin, po defaultu joinMarket uvek bira od 4 do 9 suprotnih strana, ako želimo, za veću privatnost, možemo povećati ovu vrednost na 5 ili 6 (to će ipak učiniti transakcije skupljim).
-- `cjfee_a` specificira, u slučaju da delujemo kao maker, koliko Sats u apsolutnim terminima želimo da prikupimo za iznajmljivanje naše likvidnosti. Ovo polje je potpuno subjektivno, podrazumevana vrednost je već veoma dobra (tako ćemo imati bolju privatnost kao maker) možemo razmotriti da ga postavimo na 0 ako želimo da napravimo više CoinJoin za manje vremena.
+- `cjfee_a` specificira, u slučaju da delujemo kao maker, koliko satošija u apsolutnim terminima želimo da prikupimo za iznajmljivanje naše likvidnosti. Ovo polje je potpuno subjektivno, podrazumevana vrednost je već veoma dobra (tako ćemo imati bolju privatnost kao maker) možemo razmotriti da ga postavimo na 0 ako želimo da napravimo više CoinJoin-ova za manje vremena.
 - `cjfee_r` isto kao gore navedeno polje, ali u procentima, a ne apsolutno. Opet preporučujem da ostavite podrazumevanu vrednost ili je smanjite kako biste privukli više korisnika.
-- `ordertype` sa ovim poljem biramo od proizvođača da li da naplati apsolutno (absoffer) ili procentualno (reloffer). Obično primaoci preferiraju apsolutne ponude zbog ekonomskih razloga.
-- `minsize` ako ne želimo da UTXO bude previše mali kao proizvođači, možemo odrediti minimalni CoinJoin za učešće. Ovo polje je izraženo u Satoshi i potpuno je subjektivno. Možemo ostaviti ovo polje na 0 ili povećati na 500000 (Sats), 1000000 (Sats), i tako dalje.
+- `ordertype` sa ovim poljem biramo od makera da li da naplati apsolutno (absoffer) ili procentualno (reloffer). Obično primaoci preferiraju apsolutne ponude zbog ekonomskih razloga.
+- `minsize` ako ne želimo da UTXO bude previše mali kao makeri, možemo odrediti minimalni CoinJoin za učešće. Ovo polje je izraženo u satošijima i potpuno je subjektivno. Možemo ostaviti ovo polje na 0 ili povećati na 500000 (satošija), 1000000 (satošija), i tako dalje.
 
 
 
@@ -123,7 +122,7 @@ Budite veoma pažljivi da ne menjate pogrešna polja, neka od varijabli u joinma
 
 
 
-## Postavka Radnog Okruženja
+## Postavka radnog okruženja
 
 
 
@@ -140,7 +139,7 @@ Neki čvorovi automatski postavljaju ispravne vrednosti za ova polja unutar join
 
 
 
-U ovom trenutku možemo nastaviti sa kreiranjem našeg Wallet unutar JoinMarket:
+U ovom trenutku možemo nastaviti sa kreiranjem našeg novčanika unutar JoinMarket:
 
 
 
@@ -150,9 +149,9 @@ python wallet-tool.py generate
 
 
 
-Ova komanda će nas uvesti u unos lozinke kojom ćemo šifrovati Wallet i ime koje želimo da mu damo, kada vas pita da li želite da podržite fidelity bonds preporučujem korišćenje opcije _yes_, izlaz koji će biti vraćen izgledaće ovako:
+Ova komanda će tražiti da unesemo lozinku kojom ćemo enkriptovati novčanik, kao i naziv koji želimo da mu damo. Kada vas upita da li želite da podržite fidelity bonds, preporučujem da izaberete opciju da, eng. _yes_. Povratni izlaz izgledaće ovako:
 
-
+ 
 
 ```bash
 (jmvenv)$ python wallet-tool.py generate
@@ -180,20 +179,20 @@ Sada možemo pokušati da pokrenemo:
 
 
 ```bash
-python wallet-tool.py *nome del wallet prima creato*
-esempio: python wallet-tool.py wallet.jmdat
+python wallet-tool.py *naziv novčanika prethodno kreiranog*
+primer: python wallet-tool.py wallet.jmdat
 ```
 
 
 
-ova komanda će vam prikazati sve različite Wallet dubine mešanja sa različitim adresama kategorizovanim kao:
+ova komanda će vam prikazati sve različite novčanike dubine mešanja sa različitim adresama kategorizovanim kao:
 
 
 
 
-- Novo (Address nikad korišćen)
-- Zamena (ostatak prethodne transakcije)
-- Cj-out (izlaz iz CoinJoin)
+- Novo (nikad korišćena adresa)
+- Kusur (ostatak prethodne transakcije)
+- Cj-out (izlaz iz CoinJoin-a)
 
 
 
@@ -267,15 +266,15 @@ Total balance:	0.00000000
 ```
 
 
-Sada možemo nastaviti sa deponovanjem naših prvih Satošija na jednu ili više adresa, sećajući se da bez obzira na to da li smo maker ili taker, softver nikada neće direktno konsolidovati UTXO u različite mixdepth-ove, na ovaj način možemo držati Satse sa različitim nivoima privatnosti odvojeno unutar Wallet.
+Sada možemo nastaviti sa deponovanjem naših prvih satošija na jednu ili više adresa, sećajući se da bez obzira na to da li smo maker ili taker, softver nikada neće direktno konsolidovati UTXO u različite mixdepth-ove, na ovaj način možemo držati satošije sa različitim nivoima privatnosti odvojeno unutar novčanika.
 
 
 
-## Slanje Bitcoin sa CoinJoin Single
+## Slanje Bitcoin-a sa CoinJoin Single
 
 
 
-Sada možemo premestiti naše Satošije. Jedna od glavnih komandi u ovom softveru je skripta:
+Sada možemo premestiti naše satošije. Jedna od glavnih komandi u ovom softveru je skripta:
 
 
 
@@ -284,7 +283,7 @@ pyhton sendpayment.py
 ```
 
 
-što će nam omogućiti slanje transakcija na druge adrese sa ili bez CoinJoin. Hajde da pređemo na to kako funkcioniše i neke praktične primere. Podrazumevano formatiranje komande je (zapamtite da zamenite tekst obuhvaćen simbolima < i >):
+što će nam omogućiti slanje transakcija na druge adrese sa ili bez CoinJoin-a. Hajde da pređemo na to kako funkcioniše i neke praktične primere. Podrazumevano formatiranje komande je (zapamtite da zamenite tekst obuhvaćen simbolima < i >):
 
 
 
@@ -303,7 +302,7 @@ python sendpayment.py wallet.jmdat 5000000 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c
 ```
 
 
-u ovom slučaju ćemo poslati na Address 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c 0.05 Btc tj. 5000000 Satoshi iz našeg mixdepth 0 (podrazumevani) tako što ćemo izabrati od 4 do 9 suprotnih strana za CoinJoin (podrazumevana opcija).
+u ovom slučaju ćemo poslati na adresu 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c 0.05 Btc tj. 5000000 satošija iz našeg mixdepth 0 (podrazumevani) tako što ćemo izabrati od 4 do 9 suprotnih strana za CoinJoin (podrazumevana opcija).
 
 
 
@@ -316,7 +315,7 @@ python sendpayment.py -N 5 -m 1 wallet.jmdat 100000000 1mprGzBA9rQk82Ly41TsmpQGa
 ```
 
 
-u ovom primeru dodali smo dve specifikacije: -N označava sa koliko ćemo se protivstrana mešati, -m dubinu mešanja iz koje ćemo povući sredstva. U stvari, poslali smo 100,000,000 Sats (1 btc) na Address 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c sa sredstvima u dubini mešanja 1 i mešanjem sa 5 protivstrana.
+u ovom primeru dodali smo dve specifikacije: -N označava sa koliko ćemo se protivstrana mešati, -m dubinu mešanja iz koje ćemo povući sredstva. U stvari, poslali smo 100,000,000 satošija (1 btc) na adresu 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c sa sredstvima u dubini mešanja 1 i mešanjem sa 5 protivstrana.
 
 
 
@@ -334,7 +333,7 @@ ovde smo poslali sva sredstva iz mixdepth 0 (mogli smo da ga ne navedemo jer je 
 
 
 
-Komanda sendpayment koristi se za prebacivanje sredstava iz joinMarket-a na eksterni Wallet ili za slanje Satoshi osobi dodavanjem Layer nivoa privatnosti između nas i njega. Da bismo postigli dovoljan nivo privatnosti na našim UTXO-ima, prikladnije je koristiti komandu tumbler.py koju ćemo objasniti kasnije u ovom vodiču.
+Komanda sendpayment koristi se za prebacivanje sredstava iz joinMarket-a na eksterni novčanik ili za slanje satošija osobi dodavanjem nivoa privatnosti između nas i njega/nje. Da bismo postigli dovoljan nivo privatnosti na našim UTXO-ima, prikladnije je koristiti komandu tumbler.py koju ćemo objasniti kasnije u ovom vodiču.
 
 
 
@@ -372,7 +371,9 @@ python3 wallet-tool.py testwallet.jmdat gettimelockaddress 2025-11
 
 
 
-izlaz koji će nam biti vraćen biće Bitcoin Address (tj. onaj na koji ćete morati da položite sredstva koja želite da dodelite vernosti).
+Dobijeni izlaz biće Bitcoin adresa, odnosno ona na koju treba da deponujete sredstva koja želite da posvetite fidelity-u.
+
+
 
 
 
@@ -382,41 +383,40 @@ izlaz koji će nam biti vraćen biće Bitcoin Address (tj. onaj na koji ćete mo
 
 
 
-- jednom kada sredstva budu uložena, ne mogu se ponovo premestiti dok ne isteknu. Obratite pažnju na to koliko Satss šaljete na Address i kako formatirate datum. Greške nisu dozvoljene!
-- Fidelity bond je lako prepoznatljiv na lancu, pa je preporučljivo deponovati sredstva putem CoinJoin i sa poreklom koje nije povezano sa vašim identitetom. Isto je preporučljivo uraditi kada želite da premestite istekli fidelity bond iz JoinMarket-a.
+- jednom kada sredstva budu uložena, ne mogu se ponovo premestiti dok ne isteknu. Obratite pažnju na to koliko satošija šaljete na adresu i kako formatirate datum. Greške nisu dozvoljene!
+- Fidelity bond je lako prepoznatljiv na lancu, pa je preporučljivo deponovati sredstva putem CoinJoin-a i sa poreklom koje nije povezano sa vašim identitetom. Isto je preporučljivo uraditi kada želite da premestite istekli fidelity bond iz JoinMarket-a.
 
 
 
-Važno je zapamtiti da je moguće ponovo napuniti fiducijarni bond samo jednom transakcijom, u slučaju UTXO višestrukih samo će najveći biti smatran validnim za FB.
+Važno je zapamtiti da je moguće ponovo napuniti fiducijarni bond samo jednom transakcijom, u slučaju da postoji više UTXO-a samo će najveći biti smatran validnim za FB.
 
 
 
-Sada ćemo se pozabaviti skriptom pomenutim na početku ovog pasusa, kada smo kreirali fiducijarni bond (koji je, podsećamo, opcionalan) spremni smo da pokrenemo izvršni fajl kako bismo delovali kao maker na joinMarket-u. Kada su Satss deponovani na različite adrese i mixdepth možemo pokrenuti komandu:
-
-
-
-```bash
-python yg-privacyenhanced.py <wallet name>
-```
-
-
-
-Od ovog trenutka (nakon nekoliko minuta povezivanja na mrežu) i dok ne zaustavimo skriptu, naš JoinMarket klijent će se pojaviti na listi aktivnih makera na protokolu i ponuditi našu likvidnost raznim suprotnim stranama za pravljenje CoinJoin. Ne očekujte desetine CoinJoin-ova dnevno (osim ako nemate ogromnu fiducijarnost i veliku likvidnost deponovanu na Wallet), takođe zapamtite da faktori kao što su potrebne naknade i deponovani Satoshiji utiču na to koliko često ćete biti maker.
-
-
-
-Pokretanjem komande ispod moći ćete da vidite istoriju svih transakcija napravljenih na Wallet i bilo koji dobitak (ako ste kreator) ili trošak naknade (ako ste primalac) koji ste imali tokom trajanja Wallet.
+Sada ćemo se pozabaviti skriptom pomenutim na početku ovog pasusa, kada smo kreirali fiducijarni bond (koji je, podsećamo, opcionalan) spremni smo da pokrenemo izvršni fajl kako bismo delovali kao maker na joinMarket-u. Kada su satošiji deponovani na različite adrese i mixdepth možemo pokrenuti komandu:
 
 
 
 ```bash
-python wallet-tool.py <wallet name> history
+python yg-privacyenhanced.py <naziv računa>
 ```
 
 
 
-Jednom kada vaši Satoshiji naprave CoinJoins, oni će se kretati iz mixdepth-a u mixdepth dok ne stignu do poslednjeg. Kada prođu četvrti, vratiće se u mixdepth 0, na vama je koliko privatnosti želite pre nego što ih premestite na Cold Wallet, preporučljivo je završiti ceo Wallet ciklus.
+Od ovog trenutka (nakon nekoliko minuta povezivanja na mrežu) i dok ne zaustavimo skriptu, naš JoinMarket klijent će se pojaviti na listi aktivnih makera na protokolu i ponuditi našu likvidnost raznim suprotnim stranama za pravljenje CoinJoin-a. Ne očekujte desetine CoinJoin-ova dnevno (osim ako nemate ogromnu fiducijarnost i veliku likvidnost deponovanu na novčanik), takođe zapamtite da faktori kao što su potrebne naknade i deponovani satošiji utiču na to koliko često ćete biti maker.
 
+
+
+Pokretanjem komande ispod moći ćete da vidite istoriju svih transakcija napravljenih na novčaniku i bilo koji dobitak (ako ste maker) ili trošak naknade (ako ste taker) koji ste imali tokom trajanja novčanika.
+
+
+
+```bash
+python wallet-tool.py <naziv novčanika> history
+```
+
+
+
+Jednom kada vaši satošiji naprave CoinJoins, oni će se kretati iz mixdepth-a u mixdepth dok ne stignu do poslednjeg. Nakon četvrtog nivoa (mixdepth), sredstva se vraćaju na mixdepth 0. Na vama je da odlučite koliko privatnosti želite postići pre nego što ih prebacite u hladni novčanik ([Cold Wallet](https://planb.network/resources/glossary/cold-wallet)), ali se preporučuje da završite ceo ciklus novčanika.
 
 
 ## Tumbler
@@ -432,7 +432,7 @@ Da biste pokrenuli tumbler, potrebno je zaustaviti skriptu iz maker-a (ako je bi
 
 
 ```bash
-python tumbler.py <wallet name> <receiving address (1)> <receiving address (2)> <receiving address (3)>
+python tumbler.py <naziv novčanika> <adresa za primanje (1)> <adresa za primanje (2)> <adresa za primanje (3)>
 ```
 
 
@@ -447,11 +447,11 @@ pyhton tumbler.py TestWallet.jmdat -N 7 2 -c 3 1 bc1qz3f80rtv0ux85d7rc06ldtvmpqy
 
 
 
-U ovom slučaju pokrenuli smo skriptu za tumbler koja neće koristiti podrazumevani broj partnera (parametar -N označava da zahtevamo 7 partnera sa maksimalnom varijansom od 2, tako da je nasumičan broj kreatora od 5 do 9) i sa većim brojem CoinJoin po mixdepth-u (po defaultu ova skripta pravi nasumičan broj CoinJoin po sekciji Wallet u rasponu od 1 do 3, koristeći komandu -c 3 1 umesto toga će biti od 2 DO 4). Na ovaj način ćemo potrošiti više Sats na naknade, ali ćemo imati veći set anonimnosti.
+U ovom slučaju pokrenuli smo skriptu za tumbler koja neće koristiti podrazumevani broj partnera (parametar -N označava da zahtevamo 7 partnera sa maksimalnom varijansom od 2, tako da je nasumičan broj kreatora od 5 do 9) i sa većim brojem CoinJoin-a po mixdepth-u (po defaultu ova skripta pravi nasumičan broj CoinJoin po sekciji novčanika u rasponu od 1 do 3, koristeći komandu -c 3 1 umesto toga će biti od 2 DO 4). Na ovaj način ćemo potrošiti više satošija na naknade, ali ćemo imati veći set anonimnosti.
 
 
 
-Možete dodati onoliko izlaznih adresa koliko želite (minimum 3, nema maksimalnog broja osim zdravog razuma). Međutim, nije moguće, zbog problema privatnosti, odlučiti kako će Satoshi biti raspoređen među adresama navedenim kao izlaz.
+Možete dodati onoliko izlaznih adresa koliko želite (minimum 3, nema maksimalnog broja osim zdravog razuma). Međutim, nije moguće, zbog problema privatnosti, odlučiti kako će satošiji biti raspoređeni među adresama navedenim kao izlaz.
 
 
 
@@ -475,7 +475,7 @@ sudo apt install tmux
 
 
 
-Pokretanjem iz ljuske kucanjem `tmux` otvoriće vam terminal koji će ostati aktivan u pozadini čak i ako zatvorite udaljenu vezu. Kada se ponovo povežete na vaš čvor sa komandom: `tmux attach` ponovo ćete otvoriti ljusku koja je ostala aktivna u pozadini.
+Pokretanjem iz shell terminala kucanjem `tmux` otvoriće vam terminal koji će ostati aktivan u pozadini čak i ako zatvorite udaljenu vezu. Kada se ponovo povežete na vaš čvor sa komandom: `tmux attach` ponovo ćete otvoriti shell terminal koji je ostao aktivan u pozadini.
 
 
 
@@ -483,11 +483,11 @@ Pokretanjem iz ljuske kucanjem `tmux` otvoriće vam terminal koji će ostati akt
 
 
 
-JoinMarket je beskonačan i prilagodljiv softver. U ovom vodiču smo otkrili glavne funkcije kako bi bilo moguće da ga bilo ko koristi (ili sam barem pokušao, shvatam da korišćenje ovog softvera nije jednostavno). Jedan od najvećih problema sa JoinMarket-om je upravo to: broj ljudi koji ga koriste i koji su tvorci. Ako malo korisnika koristi ovaj softver, ukupna privatnost (anon-set) je smanjena. Zato se nadam da će ovaj vodič podstaći korišćenje i ubediti vas da preuzmete i instalirate moj omiljeni softver za pravljenje CoinJoin. U slučaju da želite da se još dublje upustite u neke aspekte, preporučujem da pročitate razne detaljne dokumente na github-u, oni su stvarno dobro urađeni i možete ih pronaći ovde.
+JoinMarket je beskonačan i prilagodljiv softver. U ovom vodiču smo otkrili glavne funkcije kako bi bilo moguće da ga bilo ko koristi (ili sam barem pokušao, shvatam da korišćenje ovog softvera nije jednostavno). Jedan od najvećih problema kod JoinMarket-a upravo je to: mali broj ljudi koji ga koriste i koji deluju kao maker-i. Ako malo korisnika koristi ovaj softver, ukupna privatnost (anon-set) je smanjena. Zato se nadam da će ovaj vodič podstaći korišćenje i ubediti vas da preuzmete i instalirate moj omiljeni softver za pravljenje CoinJoin-a. U slučaju da želite da se još dublje upustite u neke aspekte, preporučujem da pročitate razne detaljne dokumente na github-u, oni su stvarno dobro urađeni i možete ih pronaći ovde.
 
 
 
-Srećno mešanje kornjača!🐢 💚
+Srećno mešanje, kornjače!🐢 💚
 
 
 

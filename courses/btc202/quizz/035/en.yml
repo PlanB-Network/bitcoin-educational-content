@@ -6,4 +6,4 @@ wrong_answers:
   - A USB hub
 explanation: |
   An inverter prevents sudden shutdowns in the event of a power failure and protects the node's stability.
-reviewed: false
+reviewed: true

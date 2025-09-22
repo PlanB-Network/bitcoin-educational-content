@@ -6,4 +6,4 @@ wrong_answers:
   - Force Tor for peer discovery
 explanation: |
   Assumevalid speeds up IBD by ignoring script verification before a known block, while retaining all other validations.
-reviewed: false
+reviewed: true

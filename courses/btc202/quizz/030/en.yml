@@ -6,4 +6,4 @@ wrong_answers:
   - Compatibility with a currency other than Bitcoin
 explanation: |
   The node-in-a-box simplifies the installation and management of numerous ancillary applications via a unified Interface.
-reviewed: false
+reviewed: true

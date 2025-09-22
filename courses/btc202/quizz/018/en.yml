@@ -1,9 +1,9 @@
 question: What is the most widely used Bitcoin node implementation?
-answer: Bitcoin core
+answer: Bitcoin Core
 wrong_answers:
   - Bitcoin Knots
   - Bitcoin Classic
   - Bcoin
 explanation: |
-  With around 9 out of 10 nodes on the network, Bitcoin core is the majority customer.
-reviewed: false
+  With around 9 out of 10 nodes on the network, Bitcoin Core is the majority customer.
+reviewed: true

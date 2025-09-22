@@ -1,0 +1,9 @@
+question: Jenis mesin apa yang disajikan sebagai kompromi terbaik untuk home node Bitcoin?
+answer: Mini-PC tipe NUC
+wrong_answers:
+  - Komputer laptop
+  - Sebuah komputer super
+  - Konsol game
+explanation: |
+  Mini-PC (NUC, Tiny, OptiPlex Micro...) memiliki konsumsi daya yang rendah, dapat diandalkan, dan mudah beradaptasi, menjadikannya kompromi yang ideal.
+reviewed: true

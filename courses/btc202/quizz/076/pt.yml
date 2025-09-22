@@ -1,0 +1,9 @@
+question: Qual é o limite de tamanho predefinido do Mempool no Bitcoin core?
+answer: 300 MB
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  Por defeito, o Bitcoin core limita o Mempool a 300 MB. Para além disso, expulsa as transacções menos rentáveis.
+reviewed: true

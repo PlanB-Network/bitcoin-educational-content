@@ -1,0 +1,9 @@
+question: Walletがサードパーティのノードに依存する場合のリスクは？
+answer: 監視と検閲のリスク
+wrong_answers:
+  - 自動Double-spendingのリスク
+  - 秘密鍵紛失のリスク
+  - 紛失のリスクと監視
+explanation: |
+  サードパーティのノードは、あなたの取引を分析したりブロックしたり、あるいはあなたのデータとあなたの身元を関連付けたりすることができる。
+reviewed: true

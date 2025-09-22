@@ -1,0 +1,9 @@
+question: Mutabakat kuralları ile röle kuralları arasındaki fark nedir?
+answer: Mutabakat geçerliliği tanımlar, işlemlerin yayılımını aktarır
+wrong_answers:
+  - Mutabakat ücretleri tanımlar, röle adresleri tanımlar
+  - Konsensüs Blockchain'ı yönetir, röle özel anahtarları yönetir
+  - Konsensüs madencileri seçer, röle tüccarları seçer
+explanation: |
+  Mutabakat kuralları Bitcoin'de neyin geçerli olduğunu belirlerken, röle kuralları düğümler arasındaki işlemleri yönetir.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Sự khác biệt chính giữa Electrs và Fulcrum là gì?
+answer: Electrs nhỏ gọn hơn, Fulcrum mạnh mẽ hơn
+wrong_answers:
+  - Electrs không miễn phí, Fulcrum thì miễn phí
+  - Fulcrum không hỗ trợ giao thức Electrum
+  - Electrs là độc quyền, Fulcrum là mã nguồn mở
+explanation: |
+  Electrs sử dụng ít dung lượng đĩa hơn, trong khi Fulcrum phản hồi yêu cầu nhanh hơn nhưng lại tiêu tốn nhiều tài nguyên hơn.
+reviewed: true

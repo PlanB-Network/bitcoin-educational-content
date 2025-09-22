@@ -1,0 +1,9 @@
+question: 以 2025 年为单位，建议 Bitcoin 节点的固态硬盘最低容量是多少？
+answer: 2 To
+wrong_answers:
+  - 512 GB
+  - 10 To
+  - 256 GB
+explanation: |
+  随着 Blockchain 超过 700 GB，以及更多的应用，2 TB 已成为合理的最小值。
+reviewed: true

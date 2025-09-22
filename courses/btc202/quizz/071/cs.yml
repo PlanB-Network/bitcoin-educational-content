@@ -1,0 +1,9 @@
+question: Do kterých souborů se uzel při restartu nejprve podívá, aby našel své staré kolegy?
+answer: anchors.dat a peers.dat
+wrong_answers:
+  - Mempool.dat a peers.dat
+  - Mempool.dat a ip.dat
+  - ip.dat a anchors.dat
+explanation: |
+  Bitcoin core nejprve zkonzultuje soubor anchors.dat (předchozí odchozí peery) a poté soubor peers.dat (známá kniha Address), aby se znovu připojil.
+reviewed: true

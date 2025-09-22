@@ -1,0 +1,9 @@
+question: 建议使用哪个组件在断电时保护节点？
+answer: 逆变器
+wrong_answers:
+  - 第二块图形卡
+  - 额外的路由器
+  - 一个 USB 集线器
+explanation: |
+  逆变器可防止断电时突然关机，保护节点的稳定性。
+reviewed: true

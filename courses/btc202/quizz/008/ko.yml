@@ -1,0 +1,9 @@
+question: Bitcoin Wallet의 주요 기능은 무엇인가요?
+answer: 개인 키 저장 및 관리
+wrong_answers:
+  - 전체 Blockchain 저장 및 관리
+  - 블록 유효성 확인
+  - 네트워크 트랜잭션 릴레이
+explanation: |
+  Bitcoin Wallet는 비트코인을 사용할 수 있는 개인 키를 관리하지만 노드의 기능은 수행하지 않습니다.
+reviewed: true

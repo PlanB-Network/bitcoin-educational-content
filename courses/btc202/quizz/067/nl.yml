@@ -1,0 +1,9 @@
+question: Welke back-ups zijn nodig om een Lightning-node te herstellen?
+answer: seed en SCB
+wrong_answers:
+  - seed en txindexbestand
+  - seed en openbaar IP Address
+  - seed en 2FA
+explanation: |
+  Voor het herstellen van een Lightning-knooppunt zijn zowel seed als SCB (Static Channel Backup) nodig, zonder welke kanaalfondsen niet hersteld kunnen worden.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 哪种 "盒中节点 "解决方案是当今市场的领导者？
+answer: 伞
+wrong_answers:
+  - 开始9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel 因其安装简便和丰富的应用程序商店而成为最受欢迎的节点盒解决方案。
+reviewed: true

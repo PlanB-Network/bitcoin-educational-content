@@ -1,0 +1,9 @@
+question: Umbrel'de bir hata olması durumunda atılacak ilk adım nedir?
+answer: generate bir tanılama paketi
+wrong_answers:
+  - Bitcoin core'i yeniden yükleyin ve IBD'yi yeniden yapın
+  - Önbelleği temizle
+  - 2FA'yı devre dışı bırak
+explanation: |
+  Bir sorun olması durumunda, sorunu analiz etmek ve bir kayıt tutmak için sorun giderme bölümünde bir tanılama paketi oluşturarak başlıyoruz.
+reviewed: true

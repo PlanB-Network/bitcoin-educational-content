@@ -1,0 +1,9 @@
+question: Ni vipengele vipi viwili vimesambazwa na Bitcoin core tangu toleo la 0.5?
+answer: Bitcoin-qt na bitcoind
+wrong_answers:
+  - bitcoin-cli na Bitcoin-gui
+  - Bitcoin-Miner na Bitcoin-Wallet
+  - Bitcoin-msingi na Bitcoin-nodi
+explanation: |
+  Tangu toleo la 0.5, Bitcoin core inajumuisha Interface ya picha (Bitcoin-qt) na mstari wa amri Interface (bitcoind).
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hva må en Wallet gjøre for å se statusen til Blockchain?
+answer: Koble til en lokal eller ekstern node
+wrong_answers:
+  - Spør andre lommebøker i nettverket
+  - Intervjuer med nettverksgruvearbeidere
+  - Koble til en online Exchange-plattform
+explanation: |
+  En Wallet må koble seg til en node for å få tilgang til Blockchain-statusen og kringkaste sine transaksjoner.
+reviewed: true

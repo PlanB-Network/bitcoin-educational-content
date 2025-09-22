@@ -6,4 +6,4 @@ wrong_answers:
   - Relay network transactions
 explanation: |
   A Bitcoin wallet manages the private keys that enable bitcoins to be spent, but does not perform the functions of a node.
-reviewed: false
+reviewed: true

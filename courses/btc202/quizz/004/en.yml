@@ -5,5 +5,5 @@ wrong_answers:
   - A miner producing new blocks for Bitcoin
   - A central server managing the Bitcoin network and transaction confirmation
 explanation: |
-  A Bitcoin node is a machine running software like Bitcoin core that implements the protocol and participates in the network.
-reviewed: false
+  A Bitcoin node is a computer running software, such as Bitcoin Core, that implements the protocol and participates in the Bitcoin network.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Who was the last Bitcoin core main maintainer before this role was abolished in 2023?
+question: Who was the last Bitcoin Core main maintainer before this role was abolished in 2023?
 answer: Wladimir J. Van Der Laan
 wrong_answers:
   - Gavin Andresen
   - Pieter Wuille
   - Satoshi Nakamoto
 explanation: |
-  Wladimir J. Van Der Laan held this role from 2014 to 2023, after Gavin Andresen and before the role was discontinued.
-reviewed: false
+  Wladimir J. Van Der Laan held this role from 2014 to 2023, succeeding Gavin Andresen and preceding the discontinuation of the role.
+reviewed: true

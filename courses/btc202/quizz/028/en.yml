@@ -6,4 +6,4 @@ wrong_answers:
   - It does not keep any local copy of the Blockchain, only the UTXO set
 explanation: |
   The pruned node validates the entire chain, but retains only a recent portion of the blocks to limit its storage.
-reviewed: false
+reviewed: true

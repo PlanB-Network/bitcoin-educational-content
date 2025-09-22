@@ -5,5 +5,5 @@ wrong_answers:
   - Disk corruption
   - Reduced RAM capacity
 explanation: |
-  Dust blocks ventilation, causes overheating and leads to throttling, reducing processor efficiency.
-reviewed: false
+  Dust blocks ventilation, causes overheating, and leads to throttling, reducing processor efficiency.
+reviewed: true

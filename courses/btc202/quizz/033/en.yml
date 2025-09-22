@@ -5,5 +5,5 @@ wrong_answers:
   - Wladimir J. Van Der Laan
   - Pieter Wuille
 explanation: |
-  Bitcoin Knots is maintained by Luke Dashjr and is the main alternative customer to Bitcoin core.
-reviewed: false
+  Bitcoin Knots is maintained by Luke Dashjr and serves as the primary alternative client to Bitcoin Core.
+reviewed: true

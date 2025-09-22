@@ -6,4 +6,4 @@ wrong_answers:
   - 256 GB
 explanation: |
   With a Blockchain exceeding 700 GB and additional applications, 2 TB has become the reasonable minimum.
-reviewed: false
+reviewed: true

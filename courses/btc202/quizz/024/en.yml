@@ -6,4 +6,4 @@ wrong_answers:
   - Risk of loss and monitoring
 explanation: |
   A third-party node can analyze or block your transactions, or even associate your data with your identity.
-reviewed: false
+reviewed: true

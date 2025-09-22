@@ -6,4 +6,4 @@ wrong_answers:
   - Connect to an online exchange platform
 explanation: |
   A wallet must connect to a node to access the Blockchain status and broadcast its transactions.
-reviewed: false
+reviewed: true

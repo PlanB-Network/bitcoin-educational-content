@@ -6,4 +6,4 @@ wrong_answers:
   - It consumes less energy
 explanation: |
   A laptop's battery acts as a natural UPS, preventing sudden stops in the event of a power cut.
-reviewed: false
+reviewed: true

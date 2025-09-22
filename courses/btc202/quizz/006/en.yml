@@ -6,4 +6,4 @@ wrong_answers:
   - Because it doesn't validate sales or addresses
 explanation: |
   A wallet does not directly validate blocks and transactions; it simply manages the keys and depends on the nodes for the rest.
-reviewed: false
+reviewed: true

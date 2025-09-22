@@ -6,4 +6,4 @@ wrong_answers:
   - netstat -umbrel
 explanation: |
   In the event of detection problems, you can use the hostname -I command on the Umbrel machine to find out its local IP.
-reviewed: false
+reviewed: true

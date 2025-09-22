@@ -6,4 +6,4 @@ wrong_answers:
   - When selecting the fee amount
 explanation: |
   A pruned node does not retain old blocks, which may prevent past transactions from being scanned during restoration.
-reviewed: false
+reviewed: true

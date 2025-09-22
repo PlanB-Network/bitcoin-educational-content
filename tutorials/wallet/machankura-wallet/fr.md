@@ -1,6 +1,6 @@
 ---
 name: Machankura
-description: Utilisez bitcoin sur n'importe quel téléphone et sans Internet.
+description: Utilisez bitcoin sur n'importe quel téléphone, sans Internet.
 ---
 
 ![cover](assets/cover.webp)
@@ -10,20 +10,22 @@ L’Afrique avance, innove, bâtit, pourtant elle continue de faire face à de n
 Selon l'Union Internationale des Télécommunications, en 2024, le taux de pénétration d’Internet en Afrique (le rapport du nombre d’individus utilisant Internet sur la population totale du continent) était de 38 %, contre 68 % à l’échelle mondiale.
 
 Relativement à l’accès aux services financiers, les services de transfert d’argent (mobile money) ont connu un essor sur le continent suite aux difficultés d’accès aux services de crédits bancaires.
-Face à ce constat, Kgothatso Ngako, un développeur sud-africain crée une solution révolutionnaire qui permet à cette couche de la société africaine sans internet et non bancarisée de bénéficier de bitcoin avec son projet dénommé Machankura.
+Face à ce constat, Kgothatso Ngako, un développeur sud-africain, a créé une solution révolutionnaire qui permet à cette couche de la société africaine sans internet et non bancarisée de bénéficier de bitcoin avec son projet dénommé **Machankura**.
 
 ## QU’EST-CE MACHANKURA ?
 
 Machankura, argot sud-africain signifiant « argent » est un projet qui a pour vision de connecter l'Afrique avec ses couches rurales à l'écosystème Bitcoin.
-Il s'agit d'un portefeuille custodial qui permet d’envoyer et de recevoir des bitcoins sur le Lightning Network via la technologie USSD. Machankura fonctionne sur tous les téléphones, même les plus basiques (téléphone symbian) en utilisant le réseau GSM traditionnel.
+
+Il s'agit d'un portefeuille custodial qui permet d’envoyer et de recevoir des bitcoins sur le Lightning Network via la technologie USSD. Machankura fonctionne sur tous les téléphones, même les plus basiques (téléphone Symbian) en utilisant le réseau GSM traditionnel.
 Le **8333.mobi** qui figure généralement en bas du logo est un clin d’œil assez subtil. En effet, **8333** est le port par défaut qu’utilisent les nœuds bitcoin pour communiquer entre eux. Machankura montre ainsi que l'Afrique ne reste pas en marge de cette révolution et constitue une terre d'innovation dans le domaine.
+
 Le domaine **.mobi** est conçu pour les services mobiles qui fonctionnent sur des téléphones basiques via USSD. Par conséquent, le **8333.mobi** résume bien la particularité de la solution Machankura.
 
 Avant de continuer ce tutoriel, attardons-nous un peu sur l’USSD, cette technologie qui permet l’utilisation de la solution Machankura sans internet. 
 
 ## L'USSD
 
-La technologie USSD (Unstructured supplementary Service Data) qui signifie ‘’Service supplémentaire pour les données non structurées’’ est utilisée généralement par les opérateurs de téléphonie mobile GSM. C’est une fonctionnalité qui permet de communiquer avec un service distant et ceci même sans internet à travers des codes spécifiques et en sélectionnant une option suivant les possibilités offertes par ce service.
+La technologie USSD (*Unstructured supplementary Service Data*) qui signifie ‘’Service supplémentaire pour les données non structurées’’ est utilisée généralement par les opérateurs de téléphonie mobile GSM. C’est une fonctionnalité qui permet de communiquer avec un service distant et ceci même sans internet à travers des codes spécifiques et en sélectionnant une option suivant les possibilités offertes par ce service.
 
 Dans un processus de communication USSD, imaginez que vous tapez un code spécial comme `*123#` sur votre téléphone. En exécutant ce code USSD, vous envoyez une requête spécifique à votre réseau GSM afin d'accéder au service relié à ce code. 
 
@@ -53,8 +55,9 @@ Machankura est un service développé puis relié à un code GSM dans le but de 
 
 En se basant sur ce tableau, nous pouvons constater que les pays tels que la Tanzanie, l'Ouganda, et l'Afrique du Sud ne disposent pas de code USSD spécifique pour le service. 
 
-Toutefois, Machankura pâlie à ce problème en élargissant ses fonctionnalités via son site web, une messagerie SMS et WhatsApp.
-Pour être informé des nouveaux pays où le service sera disponible, veuillez consulter régulièrement leur [site web](https://8333.mobi.com).
+Toutefois, Machankura pallie ce problème en élargissant ses fonctionnalités via son site web, une messagerie SMS et WhatsApp.
+
+Pour être informé des nouveaux pays où le service sera disponible, veuillez consulter régulièrement leur [site web](https://8333.mobi).
 
 Ce tutoriel explique pas à pas comment utiliser Machankura, d’abord sur un téléphone basique sans Internet, puis sur un smartphone.
 
@@ -132,7 +135,7 @@ Le processus est simple :
 - Sélectionnez le numéro d’ordre de l’option ‘’Recevoir des bitcoins’’. 
 - Entrez le code de 16 chiffres (le code de référence du bon Azteco qui se trouve au bas du bon ou le code PIN du 1Voucher sur la facture).
 
-Les bitcoins équivalant au montant du bon acheté sont directement ajoutés à votre portefeuille Machankura.
+Les bitcoins équivalents au montant du bon acheté sont directement ajoutés à votre portefeuille Machankura.
 
 ### Envoyer des Bitcoins
 
@@ -142,11 +145,11 @@ Les bitcoins équivalant au montant du bon acheté sont directement ajoutés à 
 - Mettez ensuite le montant à envoyer en sats.
 - Confirmez avec votre code PIN.
 
-Machankura envoie alors les bitcoins via le Lightning Network en quelques secondes. Notons que, l’envoyeur a la possibilité d’envoyer les bitcoins dans d’autres devises notamment des devises locales.
+Machankura envoie alors les bitcoins via le Lightning Network en quelques secondes. Notons que l’envoyeur a la possibilité d’envoyer les bitcoins dans d’autres devises notamment des devises locales.
 
 Lorsque le numéro du destinataire n'est pas encore inscrit en tant qu'utilisateur, Machankura effectue un préenregistrement puis crédite le compte de votre destinataire. 
 
-Un message est automatiquement envoyé au numéro préenregistré et cet utilisateur entre en possession de ces bitcoins une fois qu'il a confirmé son inscription au service.
+Un message est automatiquement envoyé au numéro préenregistré et cet utilisateur entre en possession de ses bitcoins une fois qu'il a confirmé son inscription au service.
 
 Vous pouvez retrouver la [vidéo démo d'envoi](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) de bitcoins par PIO TARAS (Lead Machankura Afrique Francophone) via Machankura sur un téléphone basique.
 
@@ -157,7 +160,7 @@ Vous pouvez retrouver la [vidéo démo d'envoi](https://www.linkedin.com/posts/a
 ### Vérifier votre solde 
 
 - Sélectionnez le numéro d’ordre de l’option ‘’Solde’’ dans le menu principal.
-- Votre solde s'affiche en satoshis et en équivalant monnaie locale.
+- Votre solde s'affiche en satoshis et en équivalent monnaie locale.
 
 ### Historique des transactions
 
@@ -179,7 +182,7 @@ En ce qui concerne son utilisation sur smartphone, Machankura a choisi WhatsApp 
 
 Cela pour deux principales raisons. La première étape consiste à rendre la solution plus accessible aux Africains sans les obliger à installer une application : une application qu'ils pourraient facilement désinstaller en cas de problème de mémoire de stockage sur leur téléphone. 
 
-La seconde, qui n'est qu'une suite logique de la première, est celle d'être une solution inclusive et de proximité en passant par une application prisée par les Africains dans leurs échanges quotidiens : WhatsApp.
+La seconde, qui n'est qu'une suite logique de la première, est celle d'être une solution inclusive et de proximité en passant par une application très utilisée par les Africains dans leurs échanges quotidiens : WhatsApp.
 
 ### Créer son portefeuille
 
@@ -214,7 +217,7 @@ Machankura vous permet d'envoyer vos bitcoins via différentes options :
 - adresse Lightning, ce format d'adresse Bitcoin humainement lisible est beaucoup plus utilisé pour éviter les erreurs de frappe lors des paiements ;
 - nom d’utilisateur du récepteur, dans le cadre d'un paiement vers un compte Machankura ;
 - facture LN, une facture Lightning standard ;
-- adresse On chain, par l'intermédiaire du service Boltz.
+- adresse on-chain, par l'intermédiaire du service Boltz.
 
 https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
@@ -240,13 +243,13 @@ Il vous proposera aussi diverses options, notamment :
 - UTILISER BTC ;
 - Facture LN (Bolt11) ;
 - Le code QR ; 
-- L'adresse On Chain.
+- L'adresse on-chain.
 
 L’option 1 ‘’UTILISER BTC’’ vous permet de recharger votre compte avec un bon Azteco. 
 
 ![wallet](assets/fr/10.webp)
 
-L’option 4 ''UNE ADRESSE ONCHAIN'' vous permet d'obtenir une nouvelle adresse on chain à usage unique pour garder plus d'anonymat. 
+L’option 4 ''UNE ADRESSE ONCHAIN'' vous permet d'obtenir une nouvelle adresse on-chain à usage unique pour garder plus d'anonymat. 
 
 ![wallet](assets/fr/11.webp)
 
@@ -272,7 +275,7 @@ Après avoir indiqué le montant dans cette unité de compte, le système s'occu
 
 ![wallet](assets/fr/17.webp)
 
-Notez que, vous pouvez aussi obtenir votre adresse onchain sur la page web reliée à votre portefeuille.  
+Notez que, vous pouvez aussi obtenir votre adresse on-chain sur la page web reliée à votre portefeuille.  
 
 ![wallet](assets/fr/18.webp)
 

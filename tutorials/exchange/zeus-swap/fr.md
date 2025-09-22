@@ -1,6 +1,6 @@
 ---
 name: Zeus Swap
-description: Service d'échange non-custodial entre Bitcoin on-chain et Lightning Network
+description: Service d'échange non-custodial entre bitcoins on-chain et Lightning Network
 ---
 
 ![cover](assets/cover.webp)
@@ -25,12 +25,13 @@ Pour un submarine swap (on-chain → Lightning), l'utilisateur envoie des bitcoi
 
 Pour un reverse swap (Lightning → on-chain), l'utilisateur paie une facture Lightning de Zeus LSP, révélant une préimage permettant le déblocage d'une transaction Bitcoin préparée vers l'adresse de destination.
 
-Pour plus de détail sur le fonctionnement du Lightning Network, n'hésitez pas à consulter notre cours dédié : 
+Pour plus de détails sur le fonctionnement du Lightning Network, n'hésitez pas à consulter notre cours dédié : 
 
-https://planb.network/courses/introduction-theorique-au-lightning-network-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### Modèle économique
 
-Zeus LSP agit comme market maker, maintenant liquidité on-chain et Lightning pour honorer les échanges. Pour les swaps, Zeus applique des frais variables (généralement 0.1% à 0.5% selon direction et conditions) plus frais de minage Bitcoin, affichés de manière transparente avant validation.
+Zeus LSP agit comme market maker, maintenant liquidité on-chain et Lightning pour honorer les échanges. Pour les swaps, Zeus applique des frais variables (généralement 0.1% à 0.5% selon direction et conditions) auxquels s’ajoutent les frais de minage de Bitcoin, affichés de manière transparente avant la validation.
 
 En tant que Lightning Service Provider, Zeus optimise les coûts grâce à son expertise : ouverture de canaux à la demande, routage efficace, solutions de liquidité personnalisées.
 
@@ -74,7 +75,7 @@ Zeus Swap ajuste automatiquement délais d'expiration et frais de minage selon l
 
 **Application Zeus** (iOS/Android) : expérience intégrée combinant wallet et swaps, adaptée aux utilisateurs réguliers.
 
-Vous pouvez consulter notre tutoriel Zeus pour en apprendre d'avantage sur ce wallet complet : 
+Vous pouvez consulter notre tutoriel Zeus pour en apprendre davantage sur ce wallet complet : 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
@@ -165,7 +166,7 @@ Chaque swap possède un identifiant unique avec suivi temps réel. Affichage pro
 - Vérifiez minutieusement les adresses Bitcoin (copier-coller recommandé)
 - **Sauvegardez la Zeus Swaps Rescue Key** : téléchargez et stockez la clé de récupération en lieu sûr
 - Documentez : ID contrat, adresse remboursement, délai expiration
-- Utilisez frais de minage appropriés pour confirmation dans les délais
+- Utilisez des frais de minage appropriés pour une confirmation dans les délais
 
 ### Stratégie d'usage
 

@@ -1049,12 +1049,12 @@ Warunki te mają zastosowanie tylko wtedy, gdy kanał zostanie zamknięty (tj. t
 
 Ponadto, jeśli kanał zostanie zamknięty, podczas gdy kilka kontraktów HTLC jest w toku, będzie tyle dodatkowych wyjść, ile trwa HTLC.
 
-Jeśli kanał nie zostanie zamknięty, to po wygaśnięciu lub powodzeniu płatności Lightning tworzone są nowe transakcje zobowiązujące, aby odzwierciedlić nowy, teraz stabilny stan kanału, czyli bez żadnych oczekujących kontraktów HTLC. Dane wyjściowe związane z HTLC można zatem usunąć z transakcji zobowiązującej.
+Jeśli kanał nie zostanie zamknięty, to po wygaśnięciu lub dokonaniu płatności Lightning tworzone są nowe transakcje zobowiązujące, aby odzwierciedlić nowy, teraz stabilny stan kanału, czyli bez żadnych oczekujących kontraktów HTLC. Dane wyjściowe związane z HTLC można zatem usunąć z transakcji zobowiązującej.
 
 ![LNP201](assets/en/60.webp)
 
 
-Wreszcie, w przypadku zamknięcia kanału współpracy, gdy aktywny jest kontrakt HTLC, Alicja i Suzie przestają akceptować nowe płatności i czekają na rozwiązanie lub wygaśnięcie trwających HTLC. Pozwala im to opublikować lżejszą transakcję zamknięcia, bez danych wyjściowych związanych z HTLC, zmniejszając w ten sposób opłaty i unikając oczekiwania na ewentualną blokadę czasową.
+Wreszcie, w przypadku zamknięcia kanału współpracy, gdy aktywny jest kontrakt HTLC, Alicja i Suzie przestają akceptować nowe płatności i czekają na rozwiązanie lub wygaśnięcie trwających kontraktów HTLC. Pozwala im to opublikować lżejszą transakcję zamknięcia, bez danych wyjściowych związanych z HTLC, zmniejszając w ten sposób opłaty i unikając oczekiwania na ewentualną blokadę czasową.
 
 
 **Co powinieneś wynieść z tego rozdziału?
@@ -1069,7 +1069,7 @@ Kontrakty HTLC umożliwiają kierowanie płatności Lightning przez wiele węzł
 - Dopóki HTLC nie zostanie rozwiązany ani nie wygaśnie, jest on utrzymywany jako ważny w ostatnich transakcjach zobowiązujących.
 
 
-W następnym rozdziale dowiemy się, w jaki sposób węzeł wydający transakcję Lightning znajduje i wybiera trasy dla swojej płatności, aby dotrzeć do węzła odbiorcy.
+W następnym rozdziale dowiemy się, w jaki sposób węzeł inicjujący transakcję Lightning znajduje i wybiera trasy dla swojej płatności, aby dotrzeć do węzła odbiorcy.
 
 
 ## Znajdowanie drogi
@@ -1152,7 +1152,7 @@ Ponieważ jednak Alicja nie zna dokładnej dystrybucji środków w każdym kanal
 
 - **Prawdopodobieństwo sukcesu**: kanał o wyższej całkowitej przepustowości z większym prawdopodobieństwem będzie zawierał wystarczającą płynność. Na przykład, kanał między węzłem 2 a węzłem 3 ma całkowitą przepustowość 110 000 satów, więc znalezienie 100 000 satów lub więcej po stronie węzła 2 jest mało prawdopodobne, choć nadal możliwe.
 - **Opłaty transakcyjne**: wybierając najlepszą trasę, węzeł wysyłający bierze również pod uwagę opłaty stosowane przez każdy węzeł pośredni i dąży do zminimalizowania całkowitego kosztu routingu.
-- **Wygaśnięcie kontraktu HTLC**: aby uniknąć zablokowania płatności, czas wygaśnięcia HTLC jest również parametrem, który należy wziąć pod uwagę.
+- **Wygaśnięcie kontraktu HTLC**: aby uniknąć zablokowania płatności, czas wygaśnięcia kontraktu HTLC jest również parametrem, który należy wziąć pod uwagę.
 - **Liczba węzłów pośrednich**: wreszcie, bardziej ogólnie, węzeł wysyłający będzie starał się znaleźć trasę z jak najmniejszą liczbą węzłów, aby zmniejszyć ryzyko niepowodzenia i ograniczyć opłaty za transakcje błyskawiczne.
 
 
@@ -1183,7 +1183,7 @@ Następnie Alicja próbuje skierować swoją płatność przy użyciu drugiej tr
 Poszukiwanie trasy odbywa się w następujący sposób: węzeł wysyłający rozpoczyna od zidentyfikowania najlepszych możliwych tras, a następnie próbuje kolejno dokonywać płatności, aż do znalezienia funkcjonalnej trasy.
 
 
-Warto zauważyć, że Bob może dostarczyć Alicji informacje w **fakturze**, aby ułatwić routing. Na przykład może wskazać pobliskie kanały o wystarczającej płynności lub ujawnić istnienie kanałów prywatnych. Wskazówki te pozwalają Alicji unikać tras o niewielkich szansach powodzenia i w pierwszej kolejności wypróbować ścieżki zalecane przez Boba.
+Warto zauważyć, że Bob może dostarczyć Alicji informacji w **fakturze**, aby ułatwić routing. Na przykład może wskazać pobliskie kanały o wystarczającej płynności lub ujawnić istnienie kanałów prywatnych. Wskazówki te pozwolą Alicji uniknąć tras o niewielkich szansach powodzenia i w pierwszej kolejności wypróbować ścieżki zalecane przez Boba.
 
 
 **Co powinieneś wynieść z tego rozdziału?
@@ -1226,7 +1226,7 @@ Jak wyjaśniono w rozdziale dotyczącym kontraktów HTLC, każda płatność roz
 
 
 - **Część czytelna dla człowieka**: ta sekcja zawiera wyraźnie widoczne metadane w celu poprawy komfortu użytkowania.
-- **Payload**: ta sekcja zawiera informacje przeznaczone dla maszyn do przetwarzania płatności.
+- **Ładunek danych faktury**: ta sekcja zawiera informacje dotyczące przetwarzania płatności przeznaczone dla maszyn.
 
 
 Typowa struktura faktury zaczyna się od identyfikatora `LN` dla „Lightning”, po którym następuje `bc` dla Bitcoina, a następnie wysokość faktury. Separator `1` odróżnia część czytelną dla człowieka od części danych (ładunku).
@@ -1240,7 +1240,7 @@ lnbc100u1p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx
 ```
 
 
-Możemy już podzielić go na 2 części. Pierwsza to część czytelna dla człowieka:
+Możemy już podzielić ją na 2 części. Pierwsza to część czytelna dla człowieka:
 
 
 ```invoice
@@ -1260,20 +1260,20 @@ p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsq
 Obie części są oddzielone znakiem `1`. Separator ten został wybrany zamiast znaku specjalnego, aby umożliwić łatwe kopiowanie i wklejanie całej faktury poprzez dwukrotne kliknięcie.
 
 
-W pierwszej części możemy to zobaczyć:
+W pierwszej części możemy zobaczyć następujące elementy:
 
 
 
 - `LN` wskazuje, że jest to transakcja Lightning.
-- `bc` wskazuje, że Lightning Network znajduje się na Bitcoin Blockchain (a nie na Testnet lub na Litecoin).
-- `100u` oznacza ilość Invoice, wyrażoną w **mikrobitcoinach** (`u` oznacza „mikro”), co tutaj równa się 10 000 satów.
+- `bc` wskazuje, że sieć Lightning znajduje się w łańcuchu bloków Bitcoina (a nie na Testnet lub na Litecoin).
+- `100u` oznacza wysokość faktury, wyrażoną w **mikrobitcoinach** (`u` oznacza „mikro”), co tutaj jest równoważne 10 000 satom.
 
 
-Aby określić kwotę płatności, jest ona wyrażana w podjednostkach Bitcoin. Oto używane jednostki:
+Kwota płatności jest wyrażana w podjednostkach Bitcoina. Oto używane jednostki:
 
 
 
-- Millibitcoin (oznaczany `m`):** Reprezentuje jedną tysięczną Bitcoin.
+- Millibitcoin (oznaczany `m`):** Reprezentuje jedną tysięczną Bitcoina.
 
 
 $$
@@ -1282,7 +1282,7 @@ $$
 
 
 
-- Microbitcoin (oznaczany `u`):** Czasami nazywany również „bitem”, reprezentuje jedną milionową Bitcoin.
+- Microbitcoin (oznaczany `u`):** Czasami nazywany również „bitem”, reprezentuje jedną milionową Bitcoina.
 
 
 $$
@@ -1291,7 +1291,7 @@ $$
 
 
 
-- Nanobitcoin (oznaczany `n`):** Reprezentuje jedną miliardową Bitcoin.
+- Nanobitcoin (oznaczany `n`):** Reprezentuje jedną miliardową Bitcoina.
 
 
 $$
@@ -1300,52 +1300,52 @@ $$
 
 
 
-- Picobitcoin (oznaczany jako `p`):** Reprezentuje jedną bilionową Bitcoin.
+- Picobitcoin (oznaczany jako `p`):** Reprezentuje jedną bilionową Bitcoina.
 
 $$
 1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satów}
 $$
 
 
-### Ładunek użyteczny Invoice
+### Ładunek danych faktury
 
 
-Ładunek Invoice zawiera kilka informacji niezbędnych do przetworzenia płatności:
+Ładunek danych faktury zawiera kilka informacji niezbędnych do przetworzenia płatności:
 
 
 
-- Timestamp:** Moment utworzenia Invoice, wyrażony w Unix Timestamp (liczba sekund, które upłynęły od 1 stycznia 1970 r.).
-- Hashowanie sekretu**: Jak widzieliśmy w sekcji dotyczącej HTLC, węzeł odbierający musi dostarczyć węzłowi wysyłającemu Hash obrazu wstępnego. Jest to używane w HTLC do zabezpieczenia transakcji. Określiliśmy to jako „_r_”.
-- Sekret płatności**: Kolejny sekret jest generowany przez odbiorcę, ale tym razem jest on przesyłany do węzła wysyłającego. Jest on używany w routingu cebulowym, aby uniemożliwić węzłom pośrednim odgadnięcie, czy następny węzeł jest odbiorcą końcowym, czy nie. W ten sposób odbiorca zachowuje pewną formę poufności w odniesieniu do ostatniego węzła pośredniego na trasie.
-- Klucz publiczny odbiorcy**: Wskazuje płatnikowi identyfikator osoby, która ma otrzymać płatność.
-- Czas wygaśnięcia**: Maksymalny czas, przez jaki Invoice ma być opłacany (domyślnie 1 godzina).
-- Routing Hints**: Dodatkowe informacje dostarczone przez odbiorcę, aby pomóc nadawcy zoptymalizować trasę płatności.
-- Podpis**: Gwarantuje integralność Invoice poprzez uwierzytelnienie wszystkich informacji.
+- **Stempel czasu:** Moment utworzenia faktury, wyrażony w Unix Timestamp (liczba sekund, które upłynęły od 1 stycznia 1970 r.).
+- **Haszowanie sekretu**: Jak widzieliśmy w sekcji dotyczącej kontraktów HTLC, węzeł odbierający musi dostarczyć węzłowi wysyłającemu hasz obrazu wstępnego. W kontrakcie HTLC służy to do zabezpieczenia transakcji. Określiliśmy to jako „_r_”.
+- **Sekret płatności**: Kolejny sekret jest generowany przez odbiorcę, ale tym razem jest on przesyłany do węzła wysyłającego. Jest on używany w routingu warstwowym, aby uniemożliwić węzłom pośrednim odgadnięcie, czy następny węzeł jest odbiorcą końcowym, czy nie. W ten sposób odbiorca zachowuje pewną formę poufności w odniesieniu do ostatniego węzła pośredniego na trasie.
+- **Klucz publiczny odbiorcy**: Wskazuje płatnikowi identyfikator osoby, która ma otrzymać płatność.
+- **Czas wygaśnięcia**: Maksymalny czas, w ciągu którego faktura ma być opłacona (domyślnie 1 godzina).
+- **Wskazówki dotyczące trasy**: Dodatkowe informacje dostarczone przez odbiorcę, aby pomóc nadawcy zoptymalizować trasę płatności.
+- **Podpis**: Gwarantuje integralność faktury poprzez uwierzytelnienie wszystkich informacji.
 
 
-Faktury są następnie kodowane w **bech32**, takim samym formacie jak dla adresów Bitcoin SegWit (format zaczynający się od `bc1`).
+Faktury są następnie kodowane w **bech32**, takim samym formacie jak adresy Bitcoin SegWit (format zaczynający się od `bc1`).
 
 
-### Wycofanie LNURL
+### Wypłata LNURL
 
 
-W tradycyjnej transakcji, takiej jak zakup w sklepie, Invoice jest generowany dla całkowitej kwoty do zapłaty. Po przedstawieniu Invoice (w postaci kodu QR lub ciągu znaków) klient może go zeskanować i sfinalizować transakcję. Płatność przebiega następnie zgodnie z tradycyjnym procesem, który przeanalizowaliśmy w poprzedniej sekcji. Jednak proces ten może być czasami bardzo uciążliwy dla użytkownika, ponieważ wymaga od odbiorcy wysłania informacji do nadawcy za pośrednictwem Invoice.
+W tradycyjnej transakcji, takiej jak zakupy w sklepie, faktura jest generowana dla całkowitej kwoty do zapłaty. Klient otrzymuje fakturę w postaci kodu QR lub ciągu znaków, który może zeskanować i sfinalizować transakcję. Płatność przebiega następnie zgodnie z tradycyjnym procesem, który przeanalizowaliśmy w poprzedniej sekcji. Jednak proces ten może być czasami bardzo uciążliwy dla użytkownika, ponieważ wymaga od odbiorcy wysłania informacji do nadawcy za pośrednictwem faktury.
 
 
-W niektórych sytuacjach, takich jak wypłata bitcoinów z usługi online, tradycyjny proces jest zbyt uciążliwy. W takich przypadkach rozwiązanie do wypłat **LNURL** upraszcza ten proces, wyświetlając kod QR, który skanuje Wallet odbiorcy, aby automatycznie utworzyć Invoice. Następnie usługa płaci Invoice, a użytkownik po prostu widzi natychmiastową wypłatę.
+W niektórych sytuacjach, takich jak wypłata bitcoinów za pomocą usługi online, tradycyjny proces jest zbyt uciążliwy. W takich przypadkach funkcja wypłaty **LNURL** upraszcza ten proces, wyświetlając kod QR, który skanuje portfel odbiorcy, aby automatycznie utworzyć fakturę. Następnie usługa płaci fakturę, a użytkownik po prostu widzi natychmiastową wypłatę.
 
 
 ![LNP201](assets/en/69.webp)
 
 
-LNURL to protokół komunikacyjny, który określa zestaw funkcji zaprojektowanych w celu uproszczenia interakcji między węzłami Lightning i klientami, a także aplikacjami innych firm. Wycofanie LNURL, jak właśnie widzieliśmy, jest więc tylko jednym z przykładów wśród innych funkcjonalności.
+LNURL to protokół komunikacyjny, który określa zestaw funkcji zaprojektowanych w celu uproszczenia interakcji między węzłami Lightning i klientami, a także aplikacjami innych firm. Wypłata LNURL, jak właśnie widzieliśmy, jest więc tylko jednym z przykładów funkcjonalności.
 
-Protokół ten opiera się na protokole HTTP i umożliwia tworzenie linków do różnych operacji, takich jak żądanie płatności, żądanie wypłaty lub inne funkcje, które poprawiają komfort użytkowania. Każdy LNURL to zakodowany w bech32 adres URL z prefiksem lnurl, który po zeskanowaniu uruchamia serię automatycznych działań na Lightning Wallet.
+Protokół ten opiera się na protokole HTTP i umożliwia tworzenie linków do różnych operacji, takich jak żądanie płatności, żądanie wypłaty lub inne funkcje, które poprawiają komfort użytkowania. Każdy LNURL to zakodowany w bech32 adres URL z prefiksem lnurl, który po zeskanowaniu uruchamia serię automatycznych działań w portfelu Lightning.
 
-Na przykład funkcja LNURL-withdraw (LUD-03) umożliwia wypłacanie środków z usługi poprzez zeskanowanie kodu QR, bez konieczności ręcznego generate i Invoice. Podobnie, LNURL-auth (LUD-04) umożliwia logowanie się do usług online przy użyciu klucza prywatnego na urządzeniu Lightning Wallet zamiast hasła.
+Na przykład funkcja LNURL-withdraw (LUD-03) umożliwia wypłacanie środków za pomocą usługi poprzez zeskanowanie kodu QR, bez konieczności ręcznego generowania faktury. Podobnie, LNURL-auth (LUD-04) umożliwia logowanie się do usług online przy użyciu klucza prywatnego w portfelu Lightning zamiast hasła.
 
 
-### Wysyłanie płatności błyskawicznej bez Invoice: Keysend
+### Wysyłanie płatności błyskawicznej bez faktury: Keysend
 
 
 Innym interesującym przypadkiem jest transfer środków bez wcześniejszego otrzymania Invoice, znany jako „**Keysend**”. Protokół ten umożliwia wysyłanie środków poprzez dodanie obrazu wstępnego do zaszyfrowanych danych płatności, dostępnych tylko dla odbiorcy. Ten obraz wstępny umożliwia odbiorcy odblokowanie HTLC, a tym samym odzyskanie środków bez wcześniejszego wygenerowania Invoice.

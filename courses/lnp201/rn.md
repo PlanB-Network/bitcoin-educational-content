@@ -192,7 +192,7 @@ Urufunguzo rw’ibanga ni ikintu c’ibanga **kidakwiye kwigera gisangizwa**, mu
 ### Bitcoin Ibikorwa: Kwohereza Amahera n'Inyandiko
 
 
-Ku Bitcoin, ugucuruza ni ukurungika amahera kuva kuri Address imwe aja ku yindi. Reka dufate akarorero ka Alice yohereza 0.002 Bitcoin kuri Bob. Alice akoresha urufunguzo rw’ibanga rujanye n’urufunguzo rwiwe rwa Address kugira ngo **asinye** iyo nzira, gutyo yerekane ko vy’ukuri ashobora gukoresha ayo mahera. Ariko none, ni igiki nyabuna kiba inyuma y’ivyo bicuruzwa? Amahera ari kuri Bitcoin Address akingirwa n’inyandiko**, ubwoko bwa porogarama ntoyi ishiraho ibintu bimwebimwe kugira ngo ayo mahera akoreshwe.
+Ku Bitcoin, ugucuruza ni ukurungika amahera kuva kuri Address imwe aja ku yindi. Reka dufate akarorero ka Alice yohereza 0.002 Bitcoin kuri Bob. Alice akoresha urufunguzo rw'ibanga rujanye n'urufunguzo rwiwe rwa Address kugira ngo **asinye** iyo nzira, gutyo yerekane ko vy'ukuri ashobora gukoresha ayo mahera. Ariko none, ni igiki nyabuna kiba inyuma y'ivyo bicuruzwa? Amahera ari kuri Bitcoin Address akingirwa n'**inyandiko**, ubwoko bwa porogarama ntoyi ishiraho ibintu bimwebimwe kugira ngo ayo mahera akoreshwe.
 
 
 Inyandiko isanzwe cane isaba umukono n'urufunguzo rw'ibanga rujanye n'i Address. Iyo Alice asinye igikorwa n’urufunguzo rwiwe rw’ibanga, **afungura inyandiko** ibuza ayo mahera, hanyuma agashobora kwimurirwa. Ukwo kwimurira amafaranga birimwo kwongerako inyandiko nshasha kuri ayo mahera, ivuga ko kugira ngo umuntu ayakoreshe muri iki gihe, hazokenerwa umukono w’urufunguzo rw’ibanga rwa **Bob**.
@@ -248,8 +248,8 @@ Ubwo bwoko bwa Address ni bwo nyene buserukira kuri Bitcoin Blockchain y'imirong
 
 - **Bitcoin Address** ikomoka ku rufunguzo rwa bose, narwo ubwarwo rukomoka ku rufunguzo rw’ibanga.
 - Amafaranga ari kuri Bitcoin arakingirwa n’**inyandiko**, kandi kugira ngo umuntu akoreshe ayo mahera, ategerezwa guhazwa n’inyandiko, ivyo muri rusangi bikaba birimwo gutanga umukono n’urufunguzo rw’ibanga rujanye n’ivyo.
-- UTXOs** ni ibice vy’ama bitcoins bikingiwe n’inyandiko, kandi igikorwa cose gikoreshwa kuri Bitcoin gifise ugufungura UTXO hanyuma ugahingura kimwe canke vyinshi bishasha mu gusubiza.
-- 2/2 amaderesi afise imikono myinshi** asaba umukono w’imfunguruzo zibiri z’ibanga kugira ngo akoreshe amahera. Izo aderesi zidasanzwe zikoreshwa mu bijanye n’Imiravyo kugira ngo haboneke uburyo bwo kwishura.
+- **UTXOs** ni ibice vy'ama bitcoins bikingiwe n'inyandiko, kandi igikorwa cose gikoreshwa kuri Bitcoin gifise ugufungura UTXO hanyuma ugahingura kimwe canke vyinshi bishasha mu gusubiza.
+- 2/2 amaderesi afise imikono myinshi asaba umukono w'imfunguruzo zibiri z'ibanga kugira ngo akoreshe amahera. Izo aderesi zidasanzwe zikoreshwa mu bijanye n'Imiravyo kugira ngo haboneke uburyo bwo kwishura.
 
 
 Iki gice kivuga kuri Bitcoin caratumye dusubiramwo ivyiyumviro bimwebimwe vy’ingenzi ku bijanye n’ibizokurikira. Mu kigabane gikurikira, tuzobona mu buryo budasanzwe ingene ugufungura imirongo kuri Lightning Network bikora.
@@ -276,7 +276,7 @@ Muri iki gice, tuzobona neza ingene twofungura umurongo wo kwishura kuri Lightni
 ### Imirongo y'umuravyo
 
 
-Nk'uko twabibonye mu kigabane ca mbere, **umurongo wo kwishura** kuri Lightning ushobora kugereranywa n'"umuyoboro" wo guhana amafaranga hagati y'abantu babiri bari muri iyo nama (**Alice** na **Bob** mu ngero zacu). Ubushobozi bw’uwo muhora bujanye n’umubare w’amahera ariho ku ruhande rumwe rumwe. Mu karorero kacu, Alice ifise **amasatoshi 100.000** na Bob ifise **amasatoshi 30.000**, bikaba bitanga **ubushobozi bwose hamwe** bw’amasatoshi 130.000**.
+Nk'uko twabibonye mu kigabane ca mbere, **umurongo wo kwishura** kuri Lightning ushobora kugereranywa n'"umuyoboro" wo guhana amafaranga hagati y'abantu babiri bari muri iyo nama (**Alice** na **Bob** mu ngero zacu). Ubushobozi bw'uwo muhora bujanye n'umubare w'amahera ariho ku ruhande rumwe rumwe. Mu karorero kacu, Alice ifise **amasatoshi 100.000** na Bob ifise **amasatoshi 30.000**, bikaba bitanga **ubushobozi bwose hamwe** bw'amasatoshi **130.000**.
 
 
 ![LNP201](assets/en/09.webp)
@@ -289,9 +289,9 @@ Ni ngombwa cane gutandukanya neza ingero zitandukanye za Exchange kuri Lightning
 
 
 
-- Ivy’uguhanahana amakuru hagati y’abantu (Lightning protocol)**: Ubu ni ubutumwa ama node ya Lightning yoherezanya kugira ngo avugane. Tuzoserukira ubwo butumwa n’imirongo y’umwirabura ifise uturongo mu bishushanyo vyacu.
-- Inzira zo kwishura (Protocole ya Lightning)**: Izo ni zo nzira zo guhana amafaranga kuri Lightning, tuzoziserukira n’imirongo y’umwirabura ikomeye.
-- Ibikorwa vya Bitcoin (protocole ya Bitcoin)**: Ivyo ni ibikorwa vyakozwe ku ruzitiro, ivyo tuzobiserukira n’imirongo y’umutuku.
+- **Ivy'uguhanahana amakuru hagati y'abantu (Lightning protocol)**: Ubu ni ubutumwa ama node ya Lightning yoherezanya kugira ngo avugane. Tuzoserukira ubwo butumwa n'imirongo y'umwirabura ifise uturongo mu bishushanyo vyacu.
+- **Inzira zo kwishura (Protocole ya Lightning)**: Izo ni zo nzira zo guhana amafaranga kuri Lightning, tuzoziserukira n'imirongo y'umwirabura ikomeye.
+- **Ibikorwa vya Bitcoin (protocole ya Bitcoin)**: Ivyo ni ibikorwa vyakozwe ku ruzitiro, ivyo tuzobiserukira n'imirongo y'umutuku.
 
 
 ![LNP201](assets/en/10.webp)
@@ -304,42 +304,42 @@ Ni vyiza kumenya ko node ya Lightning ishobora kuvugana biciye ku nzira ya P2P i
 
 
 
-- Ubutumwa Exchange**: Alice ashaka gufungura umurongo na Bob. Amurungikira ubutumwa burimwo amahera ashaka gushiramwo mu muhora (130.000 Sats) n’urufunguzo rwiwe rwa bose. Bob arishura mu gusangira urufunguzo rwiwe bwite rwa bose.
+- **Ubutumwa Exchange**: Alice ashaka gufungura umurongo na Bob. Amurungikira ubutumwa burimwo amahera ashaka gushiramwo mu muhora (130.000 Sats) n'urufunguzo rwiwe rwa bose. Bob arishura mu gusangira urufunguzo rwiwe bwite rwa bose.
 
 
 ![LNP201](assets/en/11.webp)
 
 
 
-- Guhingura Address y’imikono myinshi**: Hakoreshejwe izo mfunguruzo zibiri za bose, Alice irema **2/2 Address** y’imikono myinshi, bisobanura ko amahera azoheza ashirwa kuri iyi Address azosaba ko iyo mikono yose (Alice na Bob) iba.
+- Guhingura Address y'imikono myinshi: Hakoreshejwe izo mfunguruzo zibiri za bose, Alice irema **2/2 Address** y'imikono myinshi, bisobanura ko amahera azoheza ashirwa kuri iyi Address azosaba ko iyo mikono yose (Alice na Bob) iba.
 
 
 ![LNP201](assets/en/12.webp)
 
 
 
-- Gushiramwo amafaranga**: Alice itegura amafaranga yo gushiramwo amafaranga kuri iyi Address ifise amasinyatire menshi. Nk'akarorero, yoshobora gufata ingingo yo kohereza **130.000 satoshis** kuri iyi Address ifise amasinya menshi. Iryo soko **ryubatswe ariko ntiryasohotse** kuri Blockchain.
+- **Gushiramwo amafaranga**: Alice itegura amafaranga yo gushiramwo amafaranga kuri iyi Address ifise amasinyatire menshi. Nk'akarorero, yoshobora gufata ingingo yo kohereza **130.000 satoshis** kuri iyi Address ifise amasinya menshi. Iryo soko **ryubatswe ariko ntiryasohotse** kuri Blockchain.
 
 
 ![LNP201](assets/en/13.webp)
 
 
 
-- Ibikorwa vyo gukura amahera**: Imbere yo gutangaza ibikorwa vyo gushiramwo amahera, Alice yubaka ibikorwa vyo gukura amahera kugira ngo ashobore gusubirana amahera yiwe mu gihe hoba ingorane na Bob. Nkako, Alice amaze gutangaza ivy’ugushiramwo amahera, Sats yiwe izokingirwa kuri Address y’imikono myinshi 2/2 isaba ko umukono wiwe n’uwa Bob vyose bifungurwa. Alice irinda iyo ngorane yo gutakaza mu kwubaka igikorwa co gukura amahera kimufasha gusubirana amahera yiwe.
+- Ibikorwa vyo gukura amahera: Imbere yo gutangaza ibikorwa vyo gushiramwo amahera, Alice yubaka ibikorwa vyo gukura amahera kugira ngo ashobore gusubirana amahera yiwe mu gihe hoba ingorane na Bob. Nkako, Alice amaze gutangaza ivy'ugushiramwo amahera, Sats yiwe izokingirwa kuri Address y'imikono myinshi 2/2 isaba ko umukono wiwe n'uwa Bob vyose bifungurwa. Alice irinda iyo ngorane yo gutakaza mu kwubaka igikorwa co gukura amahera kimufasha gusubirana amahera yiwe.
 
 
 ![LNP201](assets/en/14.webp)
 
 
 
-- Umukono wa Bob**: Alice yohereza amahera yo gushiramwo amahera kuri Bob nk’ikimenyamenya, akamusaba gusinya amahera yo gukura amahera. Iyo umukono wa Bob umaze kuronka ku bijanye n’ugukura amahera, Alice arazi neza ko azoshobora gusubirana amahera yiwe igihe cose, kuko ubu umukono wiwe bwite ni wo ukenewe gusa kugira ngo umuntu ashobore gufungura umukono mwinshi.
+- **Umukono wa Bob**: Alice yohereza amahera yo gushiramwo amahera kuri Bob nk'ikimenyamenya, akamusaba gusinya amahera yo gukura amahera. Iyo umukono wa Bob umaze kuronka ku bijanye n'ugukura amahera, Alice arazi neza ko azoshobora gusubirana amahera yiwe igihe cose, kuko ubu umukono wiwe bwite ni wo ukenewe gusa kugira ngo umuntu ashobore gufungura umukono mwinshi.
 
 
 ![LNP201](assets/en/15.webp)
 
 
 
-- Gutangaza ivy’ugushiramwo amahera**: Iyo umukono wa Bob umaze kuronswa, Alice irashobora gutangaza ivy’ugushiramwo amahera kuri Bitcoin Blockchain, gutyo igafungura ku mugaragaro umurongo wa Lightning hagati y’abo bakoresha babiri.
+- **Gutangaza ivy'ugushiramwo amahera**: Iyo umukono wa Bob umaze kuronswa, Alice irashobora gutangaza ivy'ugushiramwo amahera kuri Bitcoin Blockchain, gutyo igafungura ku mugaragaro umurongo wa Lightning hagati y'abo bakoresha babiri.
 
 
 ![LNP201](assets/en/16.webp)
@@ -355,7 +355,7 @@ Uwo muhora ufatwa nk’uwuguruye iyo igikorwa co gushiramwo amahera kishizwe mu 
 
 
 
-- Gufungura umurongo bitangura na Exchange y’ubutumwa** hagati y’ababiri (Exchange y’amahera n’imfunguruzo za bose).
+- Gufungura umurongo bitangura na **Exchange y'ubutumwa** hagati y'ababiri (Exchange y'amahera n'imfunguruzo za bose).
 - Umurongo ukorwa mu guhingura **2/2 Address** y’imikono myinshi hanyuma ukayishiramwo amahera biciye mu gucuruza Bitcoin.
 - Umuntu yugurura iyo nzira araba neza ko bashobora **gusubirana amahera yabo** biciye mu gikorwa co gukura amahera gishizweko umukono n’uwundi mbere yo gutangaza igitabu co gushiramwo amahera.
 
@@ -387,7 +387,7 @@ Nk’uko twabibonye mbere, umurongo wa Lightning utangura n’**ugufungura** bic
 ### Igihugu c'intango c'umurongo
 
 
-Igihe uwo muhora wafungurwa, Alice yashize **130.000 satoshis** ku muhora Address w’amasinya menshi. Gutyo, mu gihe c’intango, amahera yose ari ku ruhande rwa Alice. Imbere yo gufungura uwo muhora, Alice na we nyene yasavye Bob gusinya ku masezerano yo gukura amahera**, ivyo bikaba vyari kumufasha gusubirana amahera yiwe iyo yipfuza gufunga uwo muhora.
+Igihe uwo muhora wafungurwa, Alice yashize **130.000 satoshis** ku muhora Address w'amasinya menshi. Gutyo, mu gihe c'intango, amahera yose ari ku ruhande rwa Alice. Imbere yo gufungura uwo muhora, Alice na we nyene yasavye Bob gusinya ku masezerano yo gukura amahera, ivyo bikaba vyari kumufasha gusubirana amahera yiwe iyo yipfuza gufunga uwo muhora.
 
 
 ![LNP201](assets/en/18.webp)
@@ -403,8 +403,8 @@ Reka dufate akarorero ka Alice yohereza amasatoshi 30.000 kuri Bob:
 
 
 
-- Mu ntango**: Alice ifise amasatoshi 130.000.
-- Inyuma y’ugucuruza**: Alice ifise amasatoshi 100.000, Bob na yo ifise amasatoshi 30.000.
+- **Mu ntango**: Alice ifise amasatoshi 130.000.
+- **Inyuma y'ugucuruza**: Alice ifise amasatoshi 100.000, Bob na yo ifise amasatoshi 30.000.
 
 Kugira ngo ivyo bimenyekane, Alice na Bob barahingura **isoko rishasha rya Bitcoin ritasohotse** ryorungika **amasatoshi 100.000 kuri Alice** na **amasatoshi 30.000 kuri Bob** bivuye ku Bob y’imikono myinshi. Bompi bubaka iyo nzira bigenga, ariko bafise amakuru amwe (amahera n’amaderesi). Iyo bamaze kwubaka, umwe wese arashira umukono kuri iyo nzira, agaca ahindura umukono wiwe n’uwundi. Ivyo bituma umwe wese mu bagize uruhande ashobora gutangaza iyo nzira igihe cose bikenewe kugira ngo asubire kuronka umugabane wiwe ku muhora Bitcoin Blockchain.
 
@@ -430,8 +430,8 @@ Reka dufate akandi karorero: inyuma y’ugucuruza kwa mbere aho Alice yohereje a
 
 
 
-- Alice** ubu ifise **amasatoshi 110.000**.
-- Bob** ifise **amasatoshi 20.000**.
+- **Alice** ubu ifise **amasatoshi 110.000**.
+- **Bob** ifise **amasatoshi 20.000**.
 
 
 ![LNP201](assets/en/21.webp)
@@ -472,7 +472,7 @@ Reka dufate akarorero koroshe:
 
 
 
-- Igihugu c’intango**: Alice ifise **amasatoshi 100.000**, Bob **amasatoshi 30.000**.
+- **Igihugu c'intango**: Alice afise **amasatoshi 100.000**, Bob **amasatoshi 30.000**.
 - Inyuma y’ugucuruza aho Alice yohereza **40.000 satoshis** kuri Bob, Commitment Transaction nshasha igabanya ayo mahera gutya:
   - Alice: **amasatoshi 60.000**
   - Bob: **amasatoshi 70.000**
@@ -506,8 +506,8 @@ Kugira ngo ntihagire ubwo bwoko bw’ubuhendanyi bukorwa na Alice, kuri Lightnin
 
 
 
-- Igihe**: Commitment Transaction yose irimwo igihe c’amahera ya Alice. Igihe ni Smart contract primitive ishiraho igihe kigomba gushikwako kugira ngo igikorwa congerewe ku gice. Ivyo bisigura ko Alice adashobora gusubirana amahera yiwe gushika umubare kanaka w’amabuye uheze iyo asohoye kimwe mu bikorwa vya Commitment. Iyi nzira y'igihe itangura gukoreshwa kuva kwemezwa kwa Commitment Transaction. Igihe kimara muri rusangi kijanye n’ubunini bw’umurongo, ariko kandi gishobora gutunganirizwa n’amaboko.
-- Urufunguzo rwo gukuraho**: Amahera ya Alice na yo nyene arashobora gukoreshwa ubwo nyene na Bob iyo afise **urufunguzo rwo gukuraho**. Urufunguzo rugizwe n’ibanga rifiswe na Alice n’ibanga rifiswe na Bob. Zirikana ko iryo banga ritandukanye kuri buri Commitment Transaction.
+- **Igihe**: Commitment Transaction yose irimwo igihe c'amahera ya Alice. Igihe ni Smart contract primitive ishiraho igihe kigomba gushikwako kugira ngo igikorwa congerewe ku gice. Ivyo bisigura ko Alice adashobora gusubirana amahera yiwe gushika umubare kanaka w'amabuye uheze iyo asohoye kimwe mu bikorwa vya Commitment. Iyi nzira y'igihe itangura gukoreshwa kuva kwemezwa kwa Commitment Transaction. Igihe kimara muri rusangi kijanye n'ubunini bw'umurongo, ariko kandi gishobora gutunganirizwa n'amaboko.
+- **Urufunguzo rwo gukuraho**: Amahera ya Alice na yo nyene arashobora gukoreshwa ubwo nyene na Bob iyo afise **urufunguzo rwo gukuraho**. Urufunguzo rugizwe n'ibanga rifiswe na Alice n'ibanga rifiswe na Bob. Zirikana ko iryo banga ritandukanye kuri buri Commitment Transaction.
 
 Kubera izo nzira 2 zihurikiye hamwe, Bob irafise umwanya wo kumenya ko Alice agerageza guhenda, no kumuhana mu kugarura ivyo yasohoye akoresheje urufunguzo rwo gukuraho, ivyo kuri Bob bisigura kugarura amahera yose y’umuhora. Commitment Transaction yacu nshasha ubu izomera gutya:
 
@@ -533,7 +533,7 @@ Reka dufate akarorero kugira ngo dutahure neza iyo nzira:
 
 
 
-- Igihugu c’intango**: Alice ifise **amasatoshi 100.000**, Bob **amasatoshi 30.000**.
+- **Igihugu c'intango**: Alice afise **amasatoshi 100.000**, Bob **amasatoshi 30.000**.
 
 
 ![LNP201](assets/en/26.webp)
@@ -600,9 +600,9 @@ Hari uburyo butatu nyamukuru bwo gufunga uwo muhora, bushobora kwitwa **ivyiza, 
 
 
 
-- Ivyiza**: **ugufunga kw’ubufatanye**, aho Alice na Bob bemera gufunga umuyoboro.
-- Ibibi**: **ugufunga ku nguvu**, aho umwe mu bafatanyabikorwa afata ingingo yo gufunga umuyoboro ata buryarya, ariko uwundi ataco yemeye.
-- The Ugly**: **ugufunga n’ubuhendanyi**, aho umwe mu bagize uruhara agerageza kwiba amahera mu gusohora igitabu ca kera ca Commitment Transaction (ico ari co cose ariko si ica nyuma, kigaragaza ukuntu amahera agabanywa vy’ukuri kandi mu buryo bubereye).
+- **Ivyiza**: **ugufunga kw'ubufatanye**, aho Alice na Bob bemera gufunga umuyoboro.
+- **Ibibi**: **ugufunga ku nguvu**, aho umwe mu bafatanyabikorwa afata ingingo yo gufunga umuyoboro ata buryarya, ariko uwundi ataco yemeye.
+- **The Ugly**: **ugufunga n'ubuhendanyi**, aho umwe mu bagize uruhara agerageza kwiba amahera mu gusohora igitabu ca kera ca Commitment Transaction (ico ari co cose ariko si ica nyuma, kigaragaza ukuntu amahera agabanywa vy'ukuri kandi mu buryo bubereye).
 
 
 Reka dufate akarorero:
@@ -635,7 +635,7 @@ Mu **gufunga kw’ubufatanye**, Alice na Bob bemera gufunga umuyoboro. Ehe ingen
 - Baca bubaka **isoko ryo gufunga** rishasha. Iryo soko risa n’irya Commitment Transaction, ariko ata gihe ry’ugufunga canke uburyo bwo gukuraho, kuko abo bompi bariko barakorana kandi nta ngorane yo guhenda. Iryo soko ry’ugufunga ry’amakoperative rero ritandukanye n’iryo soko rya Commitment.
 
 
-Nk’akarorero, nimba Alice ifise **amasatoshi 100.000** na Bob **amasatoshi 30.000**, igikorwa co gufunga kizorungika **amasatoshi 100.000** kuri Address ya Alice na **amasatoshi 30.000 kuri GW-200 n’ashi-800. igihe co gufunga. Iyo iyo nzira imaze gusinywa n’impande zompi, irasohorwa na Alice. Igihe iyo nzira izoba yemejwe kuri Bitcoin Blockchain, umurongo wa Lightning uzopfungwa ku mugaragaro.
+Nk'akarorero, nimba Alice ifise **amasatoshi 100.000** na Bob **amasatoshi 30.000**, igikorwa co gufunga kizorungika **amasatoshi 100.000** kuri Address ya Alice na **amasatoshi 30.000** kuri GW-200 n'ashi-800. igihe co gufunga. Iyo iyo nzira imaze gusinywa n'impande zompi, irasohorwa na Alice. Igihe iyo nzira izoba yemejwe kuri Bitcoin Blockchain, umurongo wa Lightning uzopfungwa ku mugaragaro.
 
 
 ![LNP201](assets/en/32.webp)
@@ -692,9 +692,9 @@ Hari uburyo butatu bwo gufunga umurongo:
 
 
 
-- Gufunga mu Bufatanye**: Bica vyihuta kandi bitazimvye, aho bompi bemeranya gufunga umuhora no gutangaza igikorwa co gufunga gihuye n’ivyo umuntu akeneye.
-- Gufunga ku nguvu**: Ntivyipfuzwa cane, kuko bishingiye ku gusohora Commitment Transaction, n’amahera ashobora kuba adakwiriye be n’igihe co gufunga, ivyo bikaba bigabanya ugufunga.
-- Guhenda**: Iyo umwe mu babiri agerageje kwiba amahera mu gutangaza igikorwa ca kera, uwundi arashobora gukoresha urufunguzo rwo gukuraho kugira ngo ahane ukwo guhenda.
+- **Gufunga mu Bufatanye**: Bica vyihuta kandi bitazimvye, aho bompi bemeranya gufunga umuhora no gutangaza igikorwa co gufunga gihuye n'ivyo umuntu akeneye.
+- **Gufunga ku nguvu**: Ntivyipfuzwa cane, kuko bishingiye ku gusohora Commitment Transaction, n'amahera ashobora kuba adakwiriye be n'igihe co gufunga, ivyo bikaba bigabanya ugufunga.
+- **Guhenda**: Iyo umwe mu babiri agerageje kwiba amahera mu gutangaza igikorwa ca kera, uwundi arashobora gukoresha urufunguzo rwo gukuraho kugira ngo ahane ukwo guhenda.
 
 
 Mu bice bizoza, tuzokwihweza Lightning Network mu buryo bwagutse, twibanda ku kuntu uruja n’uruza rwayo rukora.
@@ -731,8 +731,8 @@ Nk’akarorero, wiyumvire ko:
 
 
 
-- Alice** (mu rangi y’umuhondo) ifise umurongo uriko **Suzie** (mu rangi y’umweru) ufise **amasatoshi 100.000** ku ruhande rwiwe na **amasatoshi 30.000** ku ruhande rwa Suzie.
-- Suzie** afise umurongo ufise **Bob** aho afise **amasatoshi 250.000** aho Bob ata masatoshi afise.
+- **Alice** (mu rangi y'umuhondo) ifise umurongo uriko **Suzie** (mu rangi y'umweru) ufise **amasatoshi 100.000** ku ruhande rwiwe na **amasatoshi 30.000** ku ruhande rwa Suzie.
+- **Suzie** afise umurongo ufise **Bob** aho afise **amasatoshi 250.000** aho Bob ata masatoshi afise.
 
 
 ![LNP201](assets/en/37.webp)
@@ -745,8 +745,8 @@ Twibaze ko Alice ashaka kohereza **amasatoshi 50.000** kuri Bob:
 
 
 
-- Alice** yohereza amasatoshi 50.000 kuri **Suzie** mu muhora wabo rusangi.
-- Suzie** asubiramwo iyo nzira mu kurungika ama satoshi 50.000 kuri **Bob** mu muhora wabo.
+- **Alice** yohereza amasatoshi 50.000 kuri **Suzie** mu muhora wabo rusangi.
+- **Suzie** asubiramwo iyo nzira mu kurungika ama satoshi 50.000 kuri **Bob** mu muhora wabo.
 
 
 ![LNP201](assets/en/38.webp)
@@ -765,9 +765,9 @@ Reka dufate akarorero k’ivyiyumviro k’iyindi nzira ifise:
 
 
 
-- 130.000 satoshis** ku ruhande rwa Alice (mu rangi y’umuhondo) mu muhora wiwe ari kumwe na **Suzie** (mu rangi y’umuhondo).
-- 90.000** ku ruhande rwa **Suzie** na **200.000** ku ruhande rwa **Carol** (mu rangi y’umutuku).
-- 150.000** ku ruhande rwa **Carol** na **100.000** ku ruhande rwa **Bob**.
+- 130.000 satoshis ku ruhande rwa **Alice** (mu rangi y'umuhondo) mu muhora wiwe ari kumwe na **Suzie** (mu rangi y'umuhondo).
+- **90.000** ku ruhande rwa **Suzie** na **200.000** ku ruhande rwa **Carol** (mu rangi y'umutuku).
+- **150.000** ku ruhande rwa **Carol** na **100.000** ku ruhande rwa **Bob**.
 
 
 ![LNP201](assets/en/39.webp)
@@ -817,8 +817,8 @@ Nk’akarorero, ku bijanye n’umurongo uri hagati ya Alice na Suzie, twoshobora
 
 
 
-- Alice**: amafaranga y’ishimikiro ya 1 sat na 1 ppm ku mafaranga ahinduka.
-- Suzie**: amafaranga y’ishimikiro ya 0.5 sat na 10 ppm ku mafaranga ahinduka.
+- **Alice**: amafaranga y'ishimikiro ya 1 sat na 1 ppm ku mafaranga ahinduka.
+- **Suzie**: amafaranga y'ishimikiro ya 0.5 sat na 10 ppm ku mafaranga ahinduka.
 
 
 ![LNP201](assets/en/42.webp)
@@ -830,7 +830,7 @@ Kugira ngo dutahure neza ingene amafaranga akora, reka twige Lightning Network n
 
 - Umurongo **Alice - Suzie**: amafaranga y'ishimikiro ya Satoshi 1 na 1 ppm ku Alice.
 - Umurongo **Suzi - Carol**: amafaranga y’ishimikiro ni 0 Satoshi na 200 ppm kuri Suzi.
-- Carol - Bob** Umurongo: amafaranga y'ishimikiro ya Satoshi n'igice kimwe kuri Suzie 2.
+- Carol - **Bob** Umurongo: amafaranga y'ishimikiro ya Satoshi n'igice kimwe kuri Suzie 2.
 
 ![LNP201](assets/en/43.webp)
 
@@ -839,19 +839,19 @@ Ku bijanye n’ugutanga **40.000 satoshis** kuri Bob, Alice izobwirizwa kohereza
 
 
 
-- Carol** akuraho amasatoshi 1,04 ku muhora afise Bob:
+- **Carol** akuraho amasatoshi 1,04 ku muhora afise Bob:
 
-$$ f*{\umwandiko{Carol-Bob}} = \umwandiko{amahera y'ishimikiro} + \ibubamfu(\frac{\umwandiko{ppm} \incuro \umwandiko{umubare}}{10^6}\iburyo) $$
+$$ f_{\text{Carol-Bob}} = \text{amahera y'ishimikiro} + \text{ibubamfu}(\frac{\text{ppm} \times \text{umubare}}{10^6}) $$
 
-$$ f*{\umwandiko{Karoli-Bob}} = 1 + \frac{1 \incuro 40000}{10^6} = 1 + 0,04 = 1,04 \umwandiko{Sats} $$
+$$ f_{\text{Karoli-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ Sats} $$
 
 
 
-- Suzie** akuraho amasatoshi 8 mu mahera ku muhora ari kumwe na Carol:
+- **Suzie** akuraho amasatoshi 8 mu mahera ku muhora ari kumwe na Carol:
 
-$$ f*{\umwandiko{Suzie-Carol}} = \umwandiko{amahera y'ishimikiro} + \ibubamfu(\frac{\umwandiko{ppm} \incuro \umwandiko{umubare}}{10^6}\iburyo) $$
+$$ f_{\text{Suzie-Carol}} = \text{amahera y'ishimikiro} + \text{ibubamfu}\left(\frac{\text{ppm} \times \text{umubare}}{10^6}\right) $$
 
-$$ f*{\umwandiko{Suzie-Carol}} = 0 + \frac{200 \incuro 40001.04}{10^6} = 0 + 8.0002 \hafi 8 \umwandiko{Sats} $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
 
 
 Amafaranga yose y’ivyo kwishura kuri iyi nzira rero ni **9.04 satoshis**. Gutyo, Alice itegerezwa kohereza **amasatoshi 40.009,04** kugira ngo Bob aronke neza na neza **amasatoshi 40.000**.
@@ -873,8 +873,8 @@ Kugira ngo ushire amahera kuva ku wohereje gushika ku wakira, Lightning Network 
 
 
 
-- Igikoresho co kohereza giharura inzira yose**: Alice, nk'akarorero, igena ko amahera yiwe ategerezwa guca kuri Suzie na Carol imbere y'uko ashika kuri Bob.
-- Buri nzira y’ubuhuza izi gusa umubanyi wayo wa hafi**: Suzie azi gusa ko yaronse amahera ya Alice kandi ko ategerezwa kuyarungikira Carol. Ariko rero, Suzie ntazi nimba Alice ari yo nzira y’inkomoko canke iyo nzira y’ubuhuza, kandi ntazi nimba Carol ari yo nzira y’ukwakira canke ari uwundi murongo w’ubuhuza gusa. Iryo hame rirakora no kuri Carol no ku zindi nzira zose ziri mu nzira. Gutyo, ubuhinga bwo gukoresha igitunguru burazigama ibanga ry’ibintu bigurishwa mu gupfuka akaranga k’uwubirungitse n’uwubirungitse.
+- **Igikoresho co kohereza giharura inzira yose**: Alice, nk'akarorero, igena ko amahera yiwe ategerezwa guca kuri Suzie na Carol imbere y'uko ashika kuri Bob.
+- **Buri nzira y'ubuhuza izi gusa umubanyi wayo wa hafi**: Suzie azi gusa ko yaronse amahera ya Alice kandi ko ategerezwa kuyarungikira Carol. Ariko rero, Suzie ntazi nimba Alice ari yo nzira y'inkomoko canke iyo nzira y'ubuhuza, kandi ntazi nimba Carol ari yo nzira y'ukwakira canke ari uwundi murongo w'ubuhuza gusa. Iryo hame rirakora no kuri Carol no ku zindi nzira zose ziri mu nzira. Gutyo, ubuhinga bwo gukoresha igitunguru burazigama ibanga ry'ibintu bigurishwa mu gupfuka akaranga k'uwubirungitse n'uwubirungitse.
 
 Kugira ngo node irungika ishobore kubara inzira yuzuye ija ku wakira mu nzira y’igitunguru, itegerezwa kuguma ifise **igishushanyo c’urubuga** kugira ngo imenye topologie yayo no kumenya inzira zishoboka.
 
@@ -931,8 +931,8 @@ HTLC ni Contract idasanzwe ishingiye ku ngingo ngenderwako zibiri:
 
 
 
-- Ivyangombwa vyo kuronka**: Uwuronka ategerezwa guhishura ibanga kugira ngo afungure amahera akwiye guhabwa.
-- Igihe co guhera**: Iyo amahera atarangiriye mu kiringo categekanijwe, arakurwaho, amahera agasubira ku yarungitse.
+- **Ivyangombwa vyo kuronka**: Uwuronka ategerezwa guhishura ibanga kugira ngo afungure amahera akwiye guhabwa.
+- **Igihe co guhera**: Iyo amahera atarangiriye mu kiringo categekanijwe, arakurwaho, amahera agasubira ku yarungitse.
 
 
 Ehe ingene iyo nzira ikora mu karorero kacu na Alice, Suzie, na Bob:
@@ -1126,14 +1126,14 @@ Ehe ukuntu amafaranga nyayo agabanywa muri iyo mihora:
 
 
 
-- Umuyoboro uri hagati ya Alice na 1**: 250.000 Sats ku ruhande rwa Alice, 80.000 ku ruhande rwa 1 (ubushobozi bwose hamwe ni 330.000 Sats).
-- Umuyoboro uri hagati ya 1 na 2**: 300.000 Sats ku ruhande rwa 1, 200.000 ku ruhande rwa 2 (ubushobozi bwose hamwe ni 500.000 Sats).
-- Umuyoboro uri hagati ya 2 na 3**: 50.000 Sats ku ruhande rwa 2, 60.000 ku ruhande rwa 3 (ubushobozi bwose hamwe ni 110.000 Sats).
-- Umuyoboro uri hagati ya 2 na 5**: 90.000 Sats ku ruhande rwa 2, 160.000 ku ruhande rwa 5 (ubushobozi bwose hamwe ni 250.000 Sats).
-- Umuyoboro uri hagati ya 2 na 4**: 180.000 Sats ku ruhande rwa 2, 110.000 ku ruhande rwa 4 (ubushobozi bwose hamwe ni 290.000 Sats).
-- Umuyoboro uri hagati ya 4 na 5**: 200.000 Sats ku ruhande rwa 4, 10.000 ku ruhande rwa 5 (ubushobozi bwose hamwe ni 210.000 Sats).
-- Umuyoboro uri hagati ya 3 na Bob**: 50.000 Sats ku ruhande rwa 3, 250.000 ku ruhande rwa Bob (ubushobozi bwose hamwe ni 300.000 Sats).
-- Umuyoboro uri hagati ya 5 na Bob**: 260.000 Sats ku ruhande rwa 5, 100.000 ku ruhande rwa Bob (ubushobozi bwose hamwe ni 360.000 Sats).
+- Umuyoboro uri hagati ya Alice na **1**: 250.000 Sats ku ruhande rwa Alice, 80.000 ku ruhande rwa 1 (ubushobozi bwose hamwe ni 330.000 Sats).
+- **Umuyoboro uri hagati ya 1 na 2**: 300.000 Sats ku ruhande rwa 1, 200.000 ku ruhande rwa 2 (ubushobozi bwose hamwe ni 500.000 Sats).
+- **Umuyoboro uri hagati ya 2 na 3**: 50.000 Sats ku ruhande rwa 2, 60.000 ku ruhande rwa 3 (ubushobozi bwose hamwe ni 110.000 Sats).
+- **Umuyoboro uri hagati ya 2 na 5**: 90.000 Sats ku ruhande rwa 2, 160.000 ku ruhande rwa 5 (ubushobozi bwose hamwe ni 250.000 Sats).
+- **Umuyoboro uri hagati ya 2 na 4**: 180.000 Sats ku ruhande rwa 2, 110.000 ku ruhande rwa 4 (ubushobozi bwose hamwe ni 290.000 Sats).
+- **Umuyoboro uri hagati ya 4 na 5**: 200.000 Sats ku ruhande rwa 4, 10.000 ku ruhande rwa 5 (ubushobozi bwose hamwe ni 210.000 Sats).
+- Umuyoboro uri hagati ya 3 na **Bob**: 50.000 Sats ku ruhande rwa 3, 250.000 ku ruhande rwa Bob (ubushobozi bwose hamwe ni 300.000 Sats).
+- Umuyoboro uri hagati ya 5 na **Bob**: 260.000 Sats ku ruhande rwa 5, 100.000 ku ruhande rwa Bob (ubushobozi bwose hamwe ni 360.000 Sats).
 
 
 ![LNP201](assets/en/64.webp)
@@ -1149,10 +1149,10 @@ Ariko kubera ko Alice atazi neza ukuntu amahera azogabanywa mu muhora umwumwe wo
 
 
 
-- Ivyiza vyo kuroranirwa**: umurongo ufise ubushobozi bwose hamwe bwinshi urashobora kubamwo amahera ahagije. Nk’akarorero, umuyoboro uri hagati y’uruzitiro rwa 2 n’uruzitiro rwa 3 ufise ubushobozi bwo gutanga 110.000 Sats, rero ntibishoboka ko umuntu asanga 100.000 Sats canke zirenga ku ruhande rw’uruzitiro rwa 2, naho nyene biguma bishoboka.
-- Amafaranga y’ugucuruza**: mu guhitamwo inzira nziza, uruganda rurungika na rwo nyene rurazirikana amafaranga akoreshwa n’uruganda rumwe rumwe rwo hagati kandi rukarondera kugabanya igiciro cose c’inzira.
-- Igihe c’iherezo ry’ama HTLC**: kugira ngo wirinde kwishura ubujijwe, igihe c’iherezo ry’ama HTLC na co nyene ni ikintu co kwitwararika.
-- Igitigiri c’ibihimba vyo hagati**: mu nyuma, mu buryo bwagutse, ibihimba birungika bizorondera inzira ifise ibihimba bikeyi bishoboka kugira ngo bigabanye ingorane zo kunanirwa no kugabanya amafaranga y’ugucuruza Lightning.
+- **Ivyiza vyo kuroranirwa**: umurongo ufise ubushobozi bwose hamwe bwinshi urashobora kubamwo amahera ahagije. Nk'akarorero, umuyoboro uri hagati y'uruzitiro rwa 2 n'uruzitiro rwa 3 ufise ubushobozi bwo gutanga 110.000 Sats, rero ntibishoboka ko umuntu asanga 100.000 Sats canke zirenga ku ruhande rw'uruzitiro rwa 2, naho nyene biguma bishoboka.
+- **Amafaranga y'ugucuruza**: mu guhitamwo inzira nziza, uruganda rurungika na rwo nyene rurazirikana amafaranga akoreshwa n'uruganda rumwe rumwe rwo hagati kandi rukarondera kugabanya igiciro cose c'inzira.
+- Igihe c'iherezo ry'ama **HTLV**: kugira ngo wirinde kwishura ubujijwe, igihe c'iherezo ry'ama HTLV na co nyene ni ikintu co kwitwararika.
+- Igitigiri c'ibihimba vyo hagati: mu nyuma, mu buryo bwagutse, ibihimba birungika bizorondera inzira ifise ibihimba bikeyi bishoboka kugira ngo bigabanye ingorane zo kunanirwa no kugabanya amafaranga y'ugucuruza Lightning.
 
 
 Mu gusuzuma ivyo bipimo, urudodo rurungika rurashobora kugerageza inzira zishoboka cane maze rukagerageza kuzitunganya neza. Mu karorero kacu, Alice yoshobora gushiramwo inzira nziza cane nk’uko bikurikira:
@@ -1224,8 +1224,8 @@ Nk’uko vyasiguwe mu kigabane kivuga ku ma HTLC, ukwishyura kwose gutangura n�
 
 
 
-- Igice Gisomwa n’Umuntu**: iki gice kirimwo amakuru aboneka neza kugira ngo umuntu ashobore gukoresha neza.
-- The Payload**: iki gice kirimwo amakuru agenewe imashini zikora ivyo kwishura.
+- **Igice Gisomwa n'Umuntu**: iki gice kirimwo amakuru aboneka neza kugira ngo umuntu ashobore gukoresha neza.
+- **The Payload**: iki gice kirimwo amakuru agenewe imashini zikora ivyo kwishura.
 
 
 Ubuhinga busanzwe bwa Invoice butangura n'ikimenyetso `LN` ku "Umuravyo", gikurikirwa na `bc` ku Bitcoin, hanyuma umubare wa Invoice. Igitandukanya `1` gitandukanya igice gisomwa n'umuntu n'igice c'amakuru (payload).
@@ -1272,7 +1272,7 @@ Kugira ngo umuntu amenyeshe amahera yo kwishura, agaragazwa mu bice bitobito vya
 
 
 
-- Imiliyoni (igaragazwa na `m`):** Igereranya ica gihumbi ca Bitcoin.
+- **Imiliyoni (igaragazwa na `m`):** Igereranya ica gihumbi ca Bitcoin.
 
 
 $$
@@ -1281,7 +1281,7 @@ $$
 
 
 
-- Microbitcoin (igaragazwa na `u`):** Rimwe na rimwe yitwa "bit", igereranya ica miliyoni kimwe ca Bitcoin.
+- **Microbitcoin (igaragazwa na `u`):** Rimwe na rimwe yitwa "bit", igereranya ica miliyoni kimwe ca Bitcoin.
 
 
 $$
@@ -1290,7 +1290,7 @@ $$
 
 
 
-- Nanobitcoin (igaragazwa n'`n`):** Igereranya kimwe ca miliyaridi ca Bitcoin.
+- **Nanobitcoin (igaragazwa n'`n`):** Igereranya kimwe ca miliyaridi ca Bitcoin.
 
 
 $$
@@ -1299,7 +1299,7 @@ $$
 
 
 
-- Picobitcoin (igaragazwa na `p`):** Igereranya ica kabiri c'ibihumbi amajana c'amafaranga 500.
+- **Picobitcoin (igaragazwa na `p`):** Igereranya ica kabiri c'ibihumbi amajana c'amafaranga 500.
 
 $$
 1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}
@@ -1313,13 +1313,13 @@ Ivyimburwa vy’ikete Invoice birimwo amakuru menshi akenewe kugira ngo umuntu a
 
 
 
-- Timestamp:** Igihe Invoice yaremwe, kigaragazwa muri Unix Timestamp (umubare w’amasegonda yaheze kuva kw’igenekerezo rya 1 Mukakaro 1970).
-- Hashing the Secret**: Nk’uko twabibonye mu gice kivuga ku ma HTLC, urudodo rwakira rutegerezwa guha urudodo rwohereje Hash y’ishusho y’imbere. Ivyo bikoreshwa muri HTLCs kugira ngo umuntu ashobore gukingira ivy’ugucuruza. Twarayise "_r_".
-- Ibanga ry’Ukwishura**: Irindi banga riterwa n’uwuronka, ariko ubu rirungikwa ku nzira y’ugutuma. Ikoreshwa mu nzira y’igitunguru kugira ngo ibuze amanode yo hagati gukeka nimba amanode akurikira ari yo ya nyuma canke atari yo. Ivyo rero bituma uwuronka amakuru aguma afise ibanga ku bijanye n’urudodo rwa nyuma rwo hagati ruri ku nzira.
-- Urufunguzo rwa bose rw’Uwuronka**: Rugaragaza uwuriha ikimenyetso c’umuntu azorihwa.
-- Igihe co Guhera**: Igihe kinini cane co kwishura Invoice (isaha 1 ku buryo busanzwe).
-- Ivyiyumviro vyo gukoresha inzira**: Amakuru y’inyongera atangwa n’uwuyakira kugira ngo afashe uwurungitse gukoresha neza inzira yo kwishura.
-- Umukono**: Uremeza ubutungane bwa Invoice mu kwemeza amakuru yose.
+- **Timestamp:** Igihe Invoice yaremwe, kigaragazwa muri Unix Timestamp (umubare w'amasegonda yaheze kuva kw'igenekerezo rya 1 Mukakaro 1970).
+- **Hashing the Secret**: Nk'uko twabibonye mu gice kivuga ku ma HTLC, urudodo rwakira rutegerezwa guha urudodo rwohereje Hash y'ishusho y'imbere. Ivyo bikoreshwa muri HTLCs kugira ngo umuntu ashobore gukingira ivy'ugucuruza. Twarayise "_r_".
+- **Ibanga ry'Ukwishura**: Irindi banga riterwa n'uwuronka, ariko ubu rirungikwa ku nzira y'ugutuma. Ikoreshwa mu nzira y'igitunguru kugira ngo ibuze amanode yo hagati gukeka nimba amanode akurikira ari yo ya nyuma canke atari yo. Ivyo rero bituma uwuronka amakuru aguma afise ibanga ku bijanye n'urudodo rwa nyuma rwo hagati ruri ku nzira.
+- **Urufunguzo rwa bose rw'Uwuronka**: Rugaragaza uwuriha ikimenyetso c'umuntu azorihwa.
+- **Igihe co Guhera**: Igihe kinini cane co kwishura Invoice (isaha 1 ku buryo busanzwe).
+- **Ivyiyumviro vyo gukoresha inzira**: Amakuru y'inyongera atangwa n'uwuyakira kugira ngo afashe uwurungitse gukoresha neza inzira yo kwishura.
+- **Umukono**: Uremeza ubutungane bwa Invoice mu kwemeza amakuru yose.
 
 
 Amafagitire aca ashirwa mu **bech32**, uburyo bumwe n’ubw’amaderesi ya Bitcoin SegWit (uburyo butangura na `bc1`).
@@ -1387,9 +1387,9 @@ Hariho imirongo itatu y'abakoresha kuri Lightning, umwe wese afise ivyo akeneye:
 
 
 
-- Uwuriha**: Uyu ni we akora ivyo kwishura. Bakeneye amahera asohoka kugira ngo bashobore gutanga amahera ku bandi bakoresha. Nk’akarorero, uwo yoshobora kuba ari umuguzi.
-- Uwugurisha (canke Uwuhembwa)**: Uyu ni we aronka amahera. Bakeneye amahera yinjira kugira ngo bashobore kwemera amahera yishurwa ku node yabo. Nk’akarorero, ivyo vyoshobora kuba ubudandaji canke iduka ryo kuri Internet.
-- The Router**: Igikoresho co guhuza, akenshi kijejwe gutanga amahera, kigomba gutuma amahera yaco agenda neza mu muhora wose kugira ngo ashobore gutanga amahera menshi ashoboka kandi aronke amahera.
+- **Uwuriha**: Uyu ni we akora ivyo kwishura. Bakeneye amahera asohoka kugira ngo bashobore gutanga amahera ku bandi bakoresha. Nk'akarorero, uwo yoshobora kuba ari umuguzi.
+- **Uwugurisha (canke Uwuhembwa)**: Uyu ni we aronka amahera. Bakeneye amahera yinjira kugira ngo bashobore kwemera amahera yishurwa ku node yabo. Nk'akarorero, ivyo vyoshobora kuba ubudandaji canke iduka ryo kuri Internet.
+- **The Router**: Igikoresho co guhuza, akenshi kijejwe gutanga amahera, kigomba gutuma amahera yaco agenda neza mu muhora wose kugira ngo ashobore gutanga amahera menshi ashoboka kandi aronke amahera.
 
 
 Ivyo bimenyetso biragaragara ko bitagumaho; umukoresha ashobora guhindura hagati y'uwutanga n'uwuhabwa bivanye n'ibikorwa. Nk'akarorero, Bob yoshobora kuronka umushahara wiwe kuri Lightning ku mukozi wiwe, bikamushira mu kibanza c'"umuguzi" asaba amahera yinjira. Hanyuma, iyo ashaka gukoresha umushahara wiwe mu kugura ivyo kurya, aca aba "umuriha" hanyuma ategerezwa kuba afise amahera asohoka.
@@ -1422,22 +1422,22 @@ Ku rundi ruhande, ku wugurisha, igikorwa kirarushiriza kugorana. Kugira ngo bash
 
 
 
-- Gukwegera imirongo**: Umucuruzi yungukira ku nyungu kubera ubwinshi bw’amahera yinjira yitezwe ku nzira yiwe. Babifashe mu muzirikanyi, barashobora kugerageza gukwegera amashirahamwe y’inzira arondera inyungu mu mahera y’ugucuruza kandi yoshobora gufungura imihora ibajako, bizigiye ko yorungika amahera yabo no gutora amahera ajanye n’ivyo.
+- Gukwegera imirongo: Umucuruzi yungukira ku nyungu kubera ubwinshi bw'amahera yinjira yitezwe ku nzira yiwe. Babifashe mu muzirikanyi, barashobora kugerageza gukwegera amashirahamwe y'inzira arondera inyungu mu mahera y'ugucuruza kandi yoshobora gufungura imihora ibajako, bizigiye ko yorungika amahera yabo no gutora amahera ajanye n'ivyo.
 
 
 
-- Liquidity movement**: Uwugurisha arashobora kandi gufungura umurongo maze akarungika amwe mu mahera ku rundi ruhande mu gutanga amahera y’ibinyoma ku yindi node, iyo node ikazogarura amahera mu bundi buryo. Tuzobona mu gice gikurikira ingene twokora iyo operation.
+- **Liquidity movement**: Uwugurisha arashobora kandi gufungura umurongo maze akarungika amwe mu mahera ku rundi ruhande mu gutanga amahera y'ibinyoma ku yindi node, iyo node ikazogarura amahera mu bundi buryo. Tuzobona mu gice gikurikira ingene twokora iyo operation.
 
 
 
-- Gufungura mu mfuruka zitatu**: Hariho ama platforms y’ibice vyipfuza gufungura imihora mu bufatanye, bikaba bituma umwe wese ashobora kwungukira ku mafaranga yinjira n’asohoka. Nk’akarorero, [Umuravyo+](https://umuravyo.plus/) uratanga iyo serivisi. Nimba Alice, Bob, na Suzie bashaka gufungura umurongo ufise Sats 100.000, barashobora kwemeranya kuri iyi nzira kugira ngo Alice yugurure umurongo uja kuri Bob, Bob yerekeza kuri Suzie, na Suzie yerekeza kuri Alice. Muri ubwo buryo, umwe wese afise 100.000 Sats z’amahera asohoka n’100.000 Sats y’amahera yinjira, mu gihe afise gusa 100.000 Sats.
+- **Gufungura mu mfuruka zitatu**: Hariho ama platforms y'ibice vyipfuza gufungura imihora mu bufatanye, bikaba bituma umwe wese ashobora kwungukira ku mafaranga yinjira n'asohoka. Nk'akarorero, [Umuravyo+](https://umuravyo.plus/) uratanga iyo serivisi. Nimba Alice, Bob, na Suzie bashaka gufungura umurongo ufise Sats 100.000, barashobora kwemeranya kuri iyi nzira kugira ngo Alice yugurure umurongo uja kuri Bob, Bob yerekeza kuri Suzie, na Suzie yerekeza kuri Alice. Muri ubwo buryo, umwe wese afise 100.000 Sats z'amahera asohoka n'100.000 Sats y'amahera yinjira, mu gihe afise gusa 100.000 Sats.
 
 
 ![LNP201](assets/en/73.webp)
 
 
 
-- Gugura imirongo**: Ibikorwa vyo gukodesha imirongo y’umuravyo navyo nyene birahari kugira ngo umuntu aronke amahera yinjira, nka [Bitrefill Thor] Nk’akarorero, Alice irashobora kugura umurongo w’amasatoshi miliyoni imwe yerekeza ku nzira yiwe kugira ngo ishobore kwakira amahera.
+- **Gugura imirongo**: Ibikorwa vyo gukodesha imirongo y'umuravyo navyo nyene birahari kugira ngo umuntu aronke amahera yinjira, nka [Bitrefill Thor] Nk'akarorero, Alice irashobora kugura umurongo w'amasatoshi miliyoni imwe yerekeza ku nzira yiwe kugira ngo ishobore kwakira amahera.
 
 
 ![LNP201](assets/en/74.webp)
@@ -1504,7 +1504,7 @@ Mu bice vya mbere, twasuzumye ingene imigwi ibiri, mu gufungura umurongo wo kwis
 
 
 
-- Gufungura umurongo**: Guhingura umurongo bikorwa biciye mu gukoresha Bitcoin bifunga amafaranga mu 2/2 Address y'imikono myinshi. Ivyo bibanza bigereranya umurongo w'umuravyo kuri Blockchain.
+- **Gufungura umurongo**: Guhingura umurongo bikorwa biciye mu gukoresha Bitcoin bifunga amafaranga mu 2/2 Address y'imikono myinshi. Ivyo bibanza bigereranya umurongo w'umuravyo kuri Blockchain.
 
 
 ![LNP201](assets/en/76.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
@@ -1513,7 +1513,7 @@ Mu bice vya mbere, twasuzumye ingene imigwi ibiri, mu gufungura umurongo wo kwis
 
 
 
-- Gucungera no Gufunga**: Abaje mu nama bariyemeza gukingira umurongo mushasha mu guhana imfunguruzo zo gukuraho kugira ngo bacunge amafaranga no gukingira ubuhendanyi bwose. Bompi barashobora gufunga umuyoboro mu gufashanya mu gukora igikorwa gishasha ku Bitcoin Blockchain, canke nk’uburyo bwa nyuma biciye mu gufunga ku nguvu. Uwo murongo wa nyuma, naho udakora neza cane kubera ko ureha kandi rimwe na rimwe ugasuzumwa nabi mu bijanye n’amahera, uracari ushobora gusubirana amahera. Mu gihe umuntu yahemukiye, uwuhemukiye arashobora guhana uwo yamuhemukiye mu gusubiza amahera yose yari ku muhora uri kuri Blockchain.
+- **Gucungera no Gufunga**: Abaje mu nama bariyemeza gukingira umurongo mushasha mu guhana imfunguruzo zo gukuraho kugira ngo bacunge amafaranga no gukingira ubuhendanyi bwose. Bompi barashobora gufunga umuyoboro mu gufashanya mu gukora igikorwa gishasha ku Bitcoin Blockchain, canke nk'uburyo bwa nyuma biciye mu gufunga ku nguzu. Uwo murongo wa nyuma, naho udakora neza cane kubera ko ureha kandi rimwe na rimwe ugasuzumwa nabi mu bijanye n'amahera, uracari ushobora gusubirana amahera. Mu gihe umuntu yahemukiye, uwuhemukiye arashobora guhana uwo yamuhemukiye mu gusubiza amahera yose yari ku muhora uri kuri Blockchain.
 
 
 ![LNP201](assets/en/78.webp)
@@ -1526,21 +1526,21 @@ Tumaze kwiga imirongo iri ukwayo, twaguye isesengura ryacu ku rusobe rw’imiron
 
 
 
-- Inzira**: Iyo imigwi ibiri idahujwe ataco ihinduye n’umurongo, urubuga ruremeza guca mu nzira biciye mu nzira zihuza. Ivyo kwishura bica biva ku nzira imwe bikaja ku yindi.
+- **Inzira**: Iyo imigwi ibiri idahujwe ataco ihinduye n'umurongo, urubuga ruremeza guca mu nzira biciye mu nzira zihuza. Ivyo kwishura bica biva ku nzira imwe bikaja ku yindi.
 
 
 ![LNP201](assets/en/79.webp)
 
 
 
-- HTLCs**: Ivyishyurwa bica mu nzira z'ubuhuza bikingirwa na "_Hash Time-Locked Contracts_" (HTLC), bituma amahera ashobora gukingirwa gushika ivyishyurwa birangiye kuva ku mpera kugeza ku mpera.
+- **HTLCs**: Ivyishyurwa bica mu nzira z'ubuhuza bikingirwa na "_Hash Time-Locked Contracts_" (HTLC), bituma amahera ashobora gukingirwa gushika ivyishyurwa birangiye kuva ku mpera kugeza ku mpera.
 
 
 ![LNP201](assets/en/80.webp)
 
 
 
-- Onion Routing**: Kugira ngo ibanga ry’ukwishyura ribe ibanga, onion routing ipfuka aho iherezo rishika ku nzira z’ubuhuza. Igikoresho co kohereza rero kigomba kubara inzira yose, ariko iyo ata makuru yuzuye yerekeye amahera y’imirongo, gica mu bigeragezo bikurikirana kugira ngo kirongore inzira y’ukwishura.
+- **Onion Routing**: Kugira ngo ibanga ry'ukwishyura ribe ibanga, onion routing ipfuka aho iherezo rishika ku nzira z'ubuhuza. Igikoresho co kohereza rero kigomba kubara inzira yose, ariko iyo ata makuru yuzuye yerekeye amahera y'imirongo, gica mu bigeragezo bikurikirana kugira ngo kirongore inzira y'ukwishura.
 
 
 ![LNP201](assets/en/81.webp)
@@ -1553,23 +1553,23 @@ Twarabonye ko gucunga amafaranga ari ingorane kuri Lightning kugira ngo amafaran
 
 
 
-- Gukwegera imirongo**: Mu guhimiriza izindi nzira gufungura imirongo yerekeza kuri we nyene, uwukoresha aronka amahera yinjira.
+- **Gukwegera imirongo**: Mu guhimiriza izindi nzira gufungura imirongo yerekeza kuri we nyene, uwukoresha aronka amahera yinjira.
 
 
 
-- Kwimura Amafaranga**: Mu kohereza amahera mu yindi mihora, amafaranga yimukira ku ruhande rutari rwo.
+- **Kwimura Amafaranga**: Mu kohereza amahera mu yindi mihora, amafaranga yimukira ku ruhande rutari rwo.
 
 
 ![LNP201](assets/en/82.webp)
 
 
 
-- Gukoresha Serivisi nka Loop na Pool**: Izo serivisi zituma umuntu ashobora gusubira gupima canke kugura imirongo ifise amahera ku ruhande rumwe.
+- Gukoresha Serivisi nka Loop na Pool: Izo serivisi zituma umuntu ashobora gusubira gupima canke kugura imirongo ifise amahera ku ruhande rumwe.
 
 ![LNP201](assets/en/83.webp)
 
 
-- Ivyugururo vy’ubufatanye**: Hariho kandi n’ibibanza vyo gufatanya kugira ngo ukore ivyugururo vy’inkomoko itatu no kugira ngo ugire amahera yinjira.
+- **Ivyugururo vy'ubufatanye**: Hariho kandi n'ibibanza vyo gufatanya kugira ngo ukore ivyugururo vy'inkomoko itatu no kugira ngo ugire amahera yinjira.
 
 
 ![LNP201](assets/en/84.webp)

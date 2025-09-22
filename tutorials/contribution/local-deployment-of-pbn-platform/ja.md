@@ -15,7 +15,7 @@ description: Plan ₿ Networkでのコンテンツ投稿や教育コンテンツ
 
 このチュートリアルでは、プラットフォームのセットアップ、ダミーキーの取り扱い、リポジトリのカスタマイズについて、詳細な手順を説明します。以下の手順に従って、よくある問題を回避し、ローカル環境を適切に設定してください。
 
-**1.前提条件
+**1.前提条件**
 
 
 - DockerとDocker ComposeがインストールされたLinuxマシン（Windowsでも動作報告あり）。
@@ -36,7 +36,7 @@ git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 
-**3.環境変数の設定
+**3.環境変数の設定**
 
 1\..env.example`ファイルを複製する：
 
@@ -60,7 +60,7 @@ SENDGRID_KEY=dummySendgridKey
 ```
 
 ---
-**4.依存関係のインストール
+**4.依存関係のインストール**
 
 nodejsの適切なバージョンをインストールしてください。2024-12現在、v22.12.0 (LTS)が動作確認されています。
 
@@ -100,7 +100,7 @@ docker compose up -d --build -V
 
 これは、ドッカーズから必要なコンテナをすべてビルドして起動する。
 
-**6.アプリケーションにアクセスする
+**6.アプリケーションにアクセスする**
 
 コンテナが起動したら、フロントエンドにアクセスする：
 
@@ -110,7 +110,7 @@ docker compose up -d --build -V
 
 注意：ソースファイルを変更すると、アプリは自動的にリロードされます。
 
-**データベースのセットアップ Schema
+**データベースのセットアップ Schema**
 
 最初の実行では、DBマイグレーションを実行する必要がある。
 
@@ -120,7 +120,7 @@ docker compose up -d --build -V
 pnpm run dev:db:migrate
 ```
 
-**8.リポジトリからデータをインポート
+**8.リポジトリからデータをインポート**
 
 データベースにデータをインポートするには、APIにリクエストする：
 
@@ -128,7 +128,7 @@ pnpm run dev:db:migrate
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-**9.同期ボリュームのアクセスに関する問題を修正しました。
+**9.同期ボリュームのアクセスに関する問題を修正しました。**
 
 もし `cdn` ボリュームと `sync` ボリュームへのアクセスに問題が発生した場合は、以下を実行してください：
 
@@ -144,7 +144,7 @@ curl -X POST http://localhost:3000/api/github/sync
 
 ![Plan ₿ Network Local](assets/en/2.webp)
 
-**10.リポジトリをカスタマイズする（オプション）***。
+**10.リポジトリをカスタマイズする（オプション）**
 
 Forkや特定のブランチを使う必要がある場合：
 

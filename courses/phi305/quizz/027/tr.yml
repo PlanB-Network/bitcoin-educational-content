@@ -1,0 +1,9 @@
+question: Spinoza için özgür irade nedir?
+answer: Bir yanılsama.
+wrong_answers:
+  - İnsani bir nitelik.
+  - İmkansız bir fikir.
+  - Bir proje.
+explanation: |
+  Spinoza'ya göre özgür irade bir yanılsamadır. Özgür olduğumuza inanırız çünkü bizi belirleyen nedenleri görmezden geliriz. Gerçek özgürlük, zorunluluğu anlamak ve kabul etmekten ibarettir.
+reviewed: false

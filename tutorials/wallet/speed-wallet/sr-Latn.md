@@ -1,5 +1,5 @@
 ---
-name: Brzina Wallet
+name: Speed Wallet
 description: Platite i Exchange u bitkoinima i USDT odmah
 ---
 ![cover](assets/cover.webp)
@@ -161,7 +161,7 @@ Takođe možete jednostavno koristiti svoj Lightning Address kada želite da svo
 
 
 
-- Pošalji bitkoine sa Speed Wallet** :
+- Pošalji bitkoine sa **Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Opcije **Buy** i **Swap** omogućavaju vam da Exchange bitcoina za druge valute 
 
 
 
-- Kupite Bitcoin kreditnom karticom**: Speed Wallet olakšava nabavku Bitcoin iz fiat valuta koje koristite svakodnevno. Uključuje agregator plaćanja koji vam omogućava da platite bitkoine svojom kreditnom karticom.
+- **Kupite Bitcoin kreditnom karticom**: Speed Wallet olakšava nabavku Bitcoin iz fiat valuta koje koristite svakodnevno. Uključuje agregator plaćanja koji vam omogućava da platite bitkoine svojom kreditnom karticom.
 
 
 
@@ -201,7 +201,7 @@ Opcije **Buy** i **Swap** omogućavaju vam da Exchange bitcoina za druge valute 
 
 
 
-- Kupite Bitcoin od drugih kriptovaluta**: Možete Exchange svoj USDT, USDC za bitkoine u svom Wallet i obrnuto. Kroz ovu opciju, Speed Wallet pojednostavljuje proces kupovine i prodaje Bitcoin bez upućivanja na spoljne Exchange platforme. Tako možete trgovati za samo 20,000 satoshija, što je oko $20 po trenutnom kursu, bez napuštanja vašeg Speed Wallet.
+- **Kupite Bitcoin od drugih kriptovaluta**: Možete Exchange svoj USDT, USDC za bitkoine u svom Wallet i obrnuto. Kroz ovu opciju, Speed Wallet pojednostavljuje proces kupovine i prodaje Bitcoin bez upućivanja na spoljne Exchange platforme. Tako možete trgovati za samo 20,000 satoshija, što je oko $20 po trenutnom kursu, bez napuštanja vašeg Speed Wallet.
 
 
 
@@ -375,25 +375,25 @@ U suštini fokusiran na plaćanja, naći ćete sledeće opcije:
 
 
 
-- Online payments**: Sa ovom opcijom, možete prihvatiti Bitcoin kao sredstvo plaćanja za vaše digitalne proizvode, putem linkova za plaćanje, fakturisanja i pretplata.
+- **Online payments**: Sa ovom opcijom, možete prihvatiti Bitcoin kao sredstvo plaćanja za vaše digitalne proizvode, putem linkova za plaćanje, fakturisanja i pretplata.
 
 
 
 
 
-- Plaćanja na licu mesta**: Za prikupljanje uplata u vašoj prodavnici.
+- **Plaćanja na licu mesta**: Za prikupljanje uplata u vašoj prodavnici.
 
 
 
 
 
-- Instant payments**: Opcija koja vam omogućava upravljanje nadoknadama, povlačenjima, troškovima i platnim listama zaposlenih direktno iz Speed Business Interface.
+- **Instant payments**: Opcija koja vam omogućava upravljanje nadoknadama, povlačenjima, troškovima i platnim listama zaposlenih direktno iz Speed Business Interface.
 
 
 
 
 
-- Platform payments**: Povežite svoj Speed Business račun sa spoljnim alatima koje koristite za obavljanje transfera i plaćanja na ovim platformama.
+- **Platform payments**: Povežite svoj Speed Business račun sa spoljnim alatima koje koristite za obavljanje transfera i plaćanja na ovim platformama.
 
 
 

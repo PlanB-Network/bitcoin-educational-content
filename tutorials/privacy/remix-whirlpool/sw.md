@@ -81,7 +81,7 @@ Ndiyo maana ninachukulia matumizi ya Whirlpool kuwa muhimu hasa katika mkakati w
 
 Natumai jibu hili limetoa mwanga juu ya mfano wa Whirlpool. Ikiwa unataka kujifunza zaidi kuhusu jinsi CoinJoin inavyofanya kazi kwenye Bitcoin, napendekeza kusoma makala yangu ya kina juu ya mada hii:
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Nyenzo za nje:**
 
@@ -90,3 +90,4 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c7
 - https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-Whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-Wallet/diving-head-first-into-Whirlpool-anonymity-sets-4156a54b0bc7.
+

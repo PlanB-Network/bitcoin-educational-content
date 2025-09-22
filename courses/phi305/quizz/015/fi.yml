@@ -1,0 +1,9 @@
+question: Onko Traité théologico-politique koskaan julkaistu?
+answer: Anonyymisti.
+wrong_answers:
+  - Vuonna 1677.
+  - Postuumisti.
+  - Itsekustantaminen.
+explanation: |
+  Teologis-poliittinen tutkielma julkaistiin nimettömänä vuonna 1670 Spinozan suojelemiseksi vainoamiselta. Teos kiellettiin pian monissa maissa, koska se sisälsi vallankumouksellisia ajatuksia uskonnosta ja politiikasta.
+reviewed: false

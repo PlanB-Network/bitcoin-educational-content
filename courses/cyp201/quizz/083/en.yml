@@ -1,4 +1,4 @@
-question: What type of address starts with `1` and belongs to the Legacy standard?
+question: What type of address starts with 1 and belongs to the Legacy standard?
 answer: P2PKH
 wrong_answers:
   - P2WPKH

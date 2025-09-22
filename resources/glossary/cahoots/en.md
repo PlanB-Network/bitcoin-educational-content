@@ -7,5 +7,5 @@ Participating in a Cahoot means jointly creating a transaction by exchanging par
 
 Types of Cahoot transactions include:
 * Stowaway transactions (Payjoin);
-* Stonewall x2 transactions;
-* Joinbot transactions.
+**Stonewall x2 transactions;**
+*Joinbot transactions.*

@@ -25,10 +25,10 @@ Er bleef echter een groot probleem bestaan tussen de lagen van het Bitcoin proto
 
 
 
-- on chain**: Bitcoin's hoofdketen waar transacties gemiddeld elke 10 minuten worden bevestigd, de transactiekosten zijn vaak hoog, wat niet noodzakelijkerwijs voldoet aan de behoeften van gebruikers;
-- Lightning Network**: De Bitcoin overlay voor directe betalingen tegen lage kosten, waardoor de Bitcoin kan worden gebruikt voor dagelijkse betalingen;
-- Liquid Network**: een overlay voor Bitcoin gemaakt door Blockstream, die snel Confidential Transactions en het gebruik van andere op Bitcoin gebaseerde financiële instrumenten mogelijk maakt;
-- RootStock**: Een oplossing voor het ontwikkelen van slimme contracten gebaseerd op het Bitcoin protocol.
+- **on chain**: Bitcoin's hoofdketen waar transacties gemiddeld elke 10 minuten worden bevestigd, de transactiekosten zijn vaak hoog, wat niet noodzakelijkerwijs voldoet aan de behoeften van gebruikers;
+- **Lightning Network**: De Bitcoin overlay voor directe betalingen tegen lage kosten, waardoor de Bitcoin kan worden gebruikt voor dagelijkse betalingen;
+- **Liquid Network**: een overlay voor Bitcoin gemaakt door Blockstream, die snel Confidential Transactions en het gebruik van andere op Bitcoin gebaseerde financiële instrumenten mogelijk maakt;
+- **RootStock**: Een oplossing voor het ontwikkelen van slimme contracten gebaseerd op het Bitcoin protocol.
 
 
 

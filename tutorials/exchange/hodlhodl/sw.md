@@ -1,5 +1,5 @@
 ---
-name: HODL HODL
+name: Hodl Hodl
 
 description: Mwongozo wa hatua kwa hatua wa HODLHODL
 ---

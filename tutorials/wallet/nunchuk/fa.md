@@ -1,5 +1,5 @@
 ---
-name: نونچاک
+name: Nunchuk
 description: Wallet موبایل مناسب برای همه
 ---
 ![cover](assets/cover.webp)

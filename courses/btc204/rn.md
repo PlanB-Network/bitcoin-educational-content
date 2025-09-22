@@ -343,8 +343,8 @@ Ni co gituma dukoresha amahera kugira ngo twimure agaciro mu kibanza no mu gihe.
 Kugira ngo amafaranga y’ibiceri atore umuti w’ico kibazo, birahambaye ko uwutanga ikintu canke igikorwa yemera neza ko afise ubushobozi bwo gukoresha ayo mahera mu nyuma. Gutyo, umuntu wese afise ivyiyumviro vyiza yipfuza kwemera Coin, yaba iyo kuri digitale canke iyo mu mubiri, azokwitwararika ko ihuye n’ingingo zibiri z’ishimikiro:
 
 
-- Ico gice kigomba kuba gifise ubunyankamugayo n’ukuri;**
-- kandi ntibitegerezwa gukoreshwa kabiri.**
+- Ico gice kigomba kuba gifise ubunyankamugayo n'ukuri;
+- kandi ntibitegerezwa gukoreshwa kabiri.
 
 
 Niba uriko urakoresha amafaranga y’umubiri, ni co kintu ca mbere kigoye cane kwemeza. Mu bihe bitandukanye vyo muri kahise, ubutungane bw’ibiceri vy’ivyuma bwarashikiwe kenshi n’imigenzo nk’ugukata canke gutobora. Nk’akarorero, i Roma ya kera, vyari bimenyerewe ko abanyagihugu bakaraba ku mpande z’ibiceri vy’inzahabu kugira ngo baronke utugingo ngengabuzima dutoduto tw’agaciro, mu gihe bakabizigama kugira ngo bazobikoreshe mu gihe kizoza. Agaciro k’imbere muri Coin rero karagabanutse, ariko agaciro kayo k’imbere karaguma ari uko nyene. Ivyo ni bimwe mu vyatumye uruhande rw’indege Coin rwaheza rugaterwa n’imirongo.
@@ -380,7 +380,7 @@ Uburyo bumwe rudende bwo kwirinda iyo nzira yo kwisubiriza umutungo w’ubuhinga
 Ku Bitcoin, Double-spending na yo irabujijwe muri ubwo buryo nyene. Turarondera kwemeza ko ata gicuruzwa camaze gukoresha ivyo biceri bivugwa. Nimba ivyo biceri bitigeze bikoreshwa, rero turashobora kwemera tudakeka ko ata n’umwe azokoresha amahera kabiri. Iryo hame ryadondowe na Satoshi Nakamoto mu gitabu cera n’amajambo azwi cane ngo:
 
 
-**Uburyo bwonyene bwo kwemeza ko ata n'imwe igurishwa ni ukumenya ibikorwa vyose
+**Uburyo bwonyene bwo kwemeza ko ata n'imwe igurishwa ni ukumenya ibikorwa vyose**
 
 
 Ariko bitandukanye n'akarorero ka banki, ntidushaka kwizigira ikigo gikuru ku Bitcoin. Rero abakoresha bose barakeneye kumenya kwemeza uku kutagira amahera akoreshwa incuro zibiri, batizigiye uwundi muntu. Rero umuntu wese arakeneye kumenya amafaranga yose akoreshwa muri Bitcoin. Ni co gituma amafaranga y'ubudandaji ya Bitcoin atangazwa ku mugaragaro ku nzira zose z'urubuga kandi yandikwa mu nyandiko zitomoye kuri Blockchain.
@@ -519,9 +519,9 @@ Ivyo bimenyetso bizwi cane bishobora gushirwa mu mice itandukanye, ivyo tuzobido
 
 
 
-- Uburyo bwo gucuruza;**
-- Ivyiyumviro vy'imbere mu bikorwa vy'ubudandaji;**
-- Ivyiyumviro vyo hanze y'ugucuruza.**
+- Uburyo bwo gucuruza;
+- Ivyiyumviro vy'imbere mu bikorwa vy'ubudandaji;
+- Ivyiyumviro vyo hanze y'ugucuruza.
 
 
 ### Satoshi Nakamoto n'isesengura ry'uruzitiro
@@ -1463,10 +1463,10 @@ ___
 
 
 
-- Urutonde rw’ingingo zine zifise umutwe uvuga ngo: [Gutahura ubuzima bwite bwa Bitcoin na OXT](https://medium.com/oxt-research/gutahura-ubuzima bwite-na-oxt igice-ca-1-4-8177a40a5923), zasohowe na Samou27*;
-- Raporo zitandukanye zivuye muri [ubushakashatsi bwa OXT](https://medium.com/oxt-research), hamwe n’igikoresho cabo co gusesangura Blockchain ku buntu (ntikigihari muri iki gihe gikurikira ugufatwa kw’abashinze Samourai Wallet);*
-- Mu buryo bwagutse, ubumenyi bwanje buva ku ma tweets atandukanye n’ibirimwo bivuye kuri [@LaurentMT](https://twitter.com/LaurentMT](@@ErgoBTC](https://twitter.com/ErgoBTC);*
-- Ivyo [Space Kek #19] (abamenyeshamakuru b’ibiganiro. [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](@@TheoPantamis](@@TheoPantamis](@@Sosthene___](Sosthene___) na [@LaurentMT](Laurent*MT).
+- Urutonde rw'ingingo zine zifise umutwe uvuga ngo: [Gutahura ubuzima bwite bwa Bitcoin na OXT](https://medium.com/oxt-research/gutahura-ubuzima bwite-na-oxt igice-ca-1-4-8177a40a5923), zasohowe na Samou27;
+- Raporo zitandukanye zivuye muri **ubushakashatsi bwa OXT**, hamwe n'igikoresho cabo co gusesangura Blockchain ku buntu (ntikigihari muri iki gihe gikurikira ugufatwa kw'abashinze Samourai Wallet);
+- Mu buryo bwagutse, ubumenyi bwanje buva ku ma tweets atandukanye n'ibirimwo bivuye kuri [@LaurentMT](https://twitter.com/LaurentMT) na [@ErgoBTC](https://twitter.com/ErgoBTC);
+- Ivyo [Space Kek #19] (abamenyeshamakuru b'ibiganiro. [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) na [@LaurentMT](https://twitter.com/LaurentMT).
 
 
 *Ndashima abanditsi bavyo, ababiteguye n'ababikora. Ndashimira kandi abakosora bakosoye neza ingingo iki gice ca 3 gishingiyeko, bakampa impanuro zabo z’abahinga:*
@@ -1474,7 +1474,7 @@ ___
 
 
 
-- [Gilles Cadignan](ku rubuga rwa Twitter);*
+- [Gilles Cadignan](ku rubuga rwa Twitter);
 - [Ludovic Lars](ibara ry'umugera.fr/)
 
 
@@ -1510,7 +1510,7 @@ Mu buryo bw'ubuhinga, Bitcoin yakira Address nti "yakira" ama bitcoins mu buryo 
 ![BTC204](assets/fr/067.webp)
 
 
-Amaderesi ya Bitcoin aza mu bwoko butandukanye, bivanye n’uburyo bwo kwandika bukoreshwa. Ivyitegererezo vya mbere, bizwi nka "Iragi*", birimwo aderesi `P2PKH` (*Ishura-ku-Rufunguzo-Hash*) na `P2SH` (*Pay-to-Script-Hash*). Amaderesi ya P2PKH yama atangura na `1`, na P2SH na `3`. Naho izo nzira zikiri zitekanye, ubu ntizikoreshwa, kuko zituma umuntu atanga amahera menshi kandi zikaba zitanga ibanga ritoyi kuruta izo nzira nshasha.
+Amaderesi ya Bitcoin aza mu bwoko butandukanye, bivanye n'uburyo bwo kwandika bukoreshwa. Ivyitegererezo vya mbere, bizwi nka **Iragi**, birimwo aderesi `P2PKH` (**Ishura-ku-Rufunguzo-Hash**) na `P2SH` (**Pay-to-Script-Hash**). Amaderesi ya P2PKH yama atangura na `1`, na P2SH na `3`. Naho izo nzira zikiri zitekanye, ubu ntizikoreshwa, kuko zituma umuntu atanga amahera menshi kandi zikaba zitanga ibanga ritoyi kuruta izo nzira nshasha.
 
 
 Amaderesi ya SegWit V0 (`P2WPKH` na `P2WSH`) n'aya Taproot / SegWit V1 (`P2TR`) agereranya imiterere y'ubu. Aderesi za SegWit zitangura na `bc1q` na aderesi za Taproot, zashizweho mu 2021, zitangura na `bc1p`.
@@ -1801,7 +1801,7 @@ Uburyo bwo guhitamwo UTXO nka FIFO (*Ubwa mbere Mu Mbere Gusohoka*) na LIFO (*Ub
 Uburyo buteye imbere cane ni *Umutorera umuti w'Isakoshi*. Ivyo vyakoreshejwe kuri Bitcoin core Wallet gushika kuri verisiyo 0.17. Bigizwe no guhitamwo mu buryo busubiramwo kandi mu buryo butandukanye UTXOs muri Wallet, ukazishira mu bice bitobito, no kugumiza umuti ugabanya uburemere bw’ugucuruza uko bishoboka kwose, kugira ngo ugabanye igiciro ku wukoresha.
 
 
-*Ishami-n'Imbohe* (BNB), akenshi yitwa "Murch algorithm" inyuma y'uwayihinguye, yasubiriye *Igisubizo c'Isakoshi* muri Bitcoin core kuva kuri verisiyo 0.17. Ubwo buryo buteye imbere cane bufise intumbero yo kurondera umugwi w’ama UTXO ahuye neza n’amahera akenewe kugira ngo umuntu ahaze ivyiza biva mu gucuruza. Intumbero ya BNB ni ugugabanya amafaranga y’ihinduka hamwe n’amahera, mu kugabanya ivyo bita ikigereranyo c’imyanda, kikaba gifata mu muzirikanyi amafaranga y’ubu nyene n’amafaranga yitezwe muri kazoza y’ivyo bikoresho vya Exchange. Ubu buryo buva ku ciyumviro c’intango c’Ishami-n’Igihugu*, cavuzwe mu 1960 na Ailsa Land na Alison Harcourt, kandi butanga ugutunganya neza amafaranga kuruta *Knapsack Solver*.
+*Ishami-n'Imbohe* (BNB), akenshi yitwa "Murch algorithm" inyuma y'uwayihinguye, yasubiriye *Igisubizo c'Isakoshi* muri Bitcoin core kuva kuri verisiyo 0.17. Ubwo buryo buteye imbere cane bufise intumbero yo kurondera umugwi w'ama UTXO ahuye neza n'amahera akenewe kugira ngo umuntu ahaze ivyiza biva mu gucuruza. Intumbero ya BNB ni ugugabanya amafaranga y'ihinduka hamwe n'amahera, mu kugabanya ivyo bita ikigereranyo c'imyanda, kikaba gifata mu muzirikanyi amafaranga y'ubu nyene n'amafaranga yitezwe muri kazoza y'ivyo bikoresho vya Exchange. Ubu buryo buva ku ciyumviro c'intango c'*Ishami-n'Igihugu*, cavuzwe mu 1960 na Ailsa Land na Alison Harcourt, kandi butanga ugutunganya neza ama
 
 
 Ubu buryo bwose bwo guhitamwo UTXO bwikora burashobora kuba bwiza mu kugabanya amahera y’ugucuruza, ariko kenshi ntibugira ico bukoze mu kuzigama ibanga ry’abakoresha. Nkako, izo algorithme zishobora gufatanya UTXO nyinshi mu vyo kwinjiza, gutyo zigahishura umutungo rusangi w’izo UTXO kubera CIOH. Biragaragara ko ubwo buryo butashobora kwitwararika ibimenyetso bishirwa ku ma UTXO, naho biri ukwo bikaba ari ngirakamaro mu guhitamwo neza ama UTXO yo guhishurira uwuronka amafaranga. Muri iki gihe, uburyo bumwe rudende bwo gutuma ibanga riguma ryiza igihe uhitamwo ibiceri ni ukubigira n’amaboko.
@@ -2140,7 +2140,7 @@ Ubundi buryo bwo kuronka bitcoins mu gihe urinda ubuzima bwite bwawe harimwo, bi
 Ubundi buryo ni ugukora muri Exchange ku bitcoins. Ubwo buryo bwo kuronka umuntu burashobora gushimisha, mugabo urugero rwo kumenya umuntu rusabwa ruratandukanye cane bivanye n’ingene ivyo bintu vyifashe.
 
 
-*Kugira ngo ndiko ndandika iki gice, nakoresheje inyigisho ya BTC205 yatanzwe na [@pivi___](https://x.com/pivi___) ku rupapuro rwa Plan ₿ Network (ruboneka mu gifaransa gusa muri iki gihe)
+*Kugira ngo ndiko ndandika iki gice, nakoresheje inyigisho ya BTC205 yatanzwe na* [@pivi___](https://x.com/pivi___) *ku rupapuro rwa Plan ₿ Network (ruboneka mu gifaransa gusa muri iki gihe)*
 
 
 ## Gushiramwo, uburongozi bwa UTXO na CIOH
@@ -2282,11 +2282,11 @@ Kugira ama bitcoins yawe mu kwizigama ni vyiza cane, ariko gukoresha Full node y
 
 
 
-- Uguhangana n’ugucengera**: Ivyo ukora nta n’umwe ashobora kubibuza;
-- Ukwigenga ku bandi bantu**: Ntugishingiye ku gikorwa ico ari co cose co hanze co kugenzura amakuru ya Blockchain;
-- Ukwifatanya n’abandi**: Ushobora gusobanura amategeko yawe yo kwemeza kandi ukagira uruhara mu buryo butaziguye mu guhurizako;
-- Intambwe y’urubuga**: Mu gukoresha urudodo, ufasha gukomeza no gukwiragiza urubuga rwa Bitcoin;
-- Uburezi bw'ubuhinga**: Gucungera Full node ni uburyo bwiza bwo gukomeza ubumenyi bwawe bw'ubuhinga bwa Bitcoin.
+- **Uguhangana n'ugucengera**: Ivyo ukora nta n'umwe ashobora kubibuza;
+- **Ukwigenga ku bandi bantu**: Ntugishingiye ku gikorwa ico ari co cose co hanze co kugenzura amakuru ya Blockchain;
+- **Ukwifatanya n'abandi**: Ushobora gusobanura amategeko yawe yo kwemeza kandi ukagira uruhara mu buryo butaziguye mu guhurizako;
+- **Intambwe y'urubuga**: Mu gukoresha urudodo, ufasha gukomeza no gukwiragiza urubuga rwa Bitcoin;
+- **Uburezi bw'ubuhinga**: Gucungera Full node ni uburyo bwiza bwo gukomeza ubumenyi bwawe bw'ubuhinga bwa Bitcoin.
 
 
 Uretse izo nyungu, gukoresha Full node na vyo nyene biratuma urushiriza kugira ibanga igihe utangaza amafaranga yawe. Iyo utanga amafaranga, abanza kuremwa no gusinywa biciye ku Wallet yawe. Kugira ngo imenyekane ku rubuga rwa Bitcoin, itegerezwa kumenyekana n’imiburiburi n’urudodo rumwe. Mu gukoresha urudodo rwawe bwite, urafise ububasha butaziguye kuri iyo nzira yo gukwiragiza, gutyo ugakomeza ibanga ryawe kandi ugagabanya ingorane zo gusohoka kw’amakuru.
@@ -2542,7 +2542,7 @@ Ivyo bita "Chaumian" coinjoins bifatanya gukoresha imikono ya Tor na David Chaum
 Ivy’ubwubatsi bw’ibikorwa vya CoinJoin birimwo intambwe 3 nyamukuru: kwandika ivyinjijwe, kwandika ivy’isohoka n’ugushirako umukono ku bikorwa. Reka turabe iyo nzira biciye ku karorero ka Alice, umwe mu bari muri CoinJoin. Abandi bose bari muri iyo nama bakurikiza intambwe nk’izo Alice ikoresha, umwe wese ku giti ciwe.
 
 
-**Intambwe ya 1: Kwiyandikisha
+**Intambwe ya 1: Kwiyandikisha**
 
 
 
@@ -2622,7 +2622,7 @@ Ni vyo nyene ivyo bice 2 vya Leta n’ivy’abikorera ku giti cabo, bishobozwa n
 Ni Hard kuvuga ata gukeka uwabanje gushiramwo iciyumviro ca CoinJoin kuri Bitcoin, n’uwaje n’iciyumviro co gukoresha imikono y’impumyi ya David Chaum muri iki gihe. Kenshi vyiyumvirwa ko ari Gregory Maxwell yabivuze ubwa mbere muri [ubutumwa bwo kuri BitcoinTalk mu 2013](279249.0):
 
 
-> *"Gukoresha imikono y'impumyi ya Chaum: Abakoresha binjira bagatanga inyishu (n'amaderesi ya Exchange) hamwe n'uburyo bw'ibanga bwa blinded bwa Address bipfuza koherezako UTXO zabo bwite; the server. Server ishobora kubona ko ibisohoka vyose vyashizweko umukono na yo kandi ko, kubera ivyo, ibisohoka vyose biva ku baje mu nama babereye Mu nyuma, abantu barasubira kwifatanya maze bagashirako umukono.
+> *"Gukoresha imikono y'impumyi ya Chaum: Abakoresha binjira bagatanga inyishu (n'amaderesi ya Exchange) hamwe n'uburyo bw'ibanga bwa blinded bwa Address bipfuza koherezako UTXO zabo bwite; the server. Server ishobora kubona ko ibisohoka vyose vyashizweko umukono na yo kandi ko, kubera ivyo, ibisohoka vyose biva ku baje mu nama babereye Mu nyuma, abantu barasubira kwifatanya maze bagashirako umukono."*
 Maxwell, G. (2013, 22 Myandagaro). *CoinJoin: Bitcoin ubuzima bwite bw'isi nyakuri*. Ihuriro ry'Ibiganiro vya Bitcoin. 279249.0
 
 
@@ -2678,7 +2678,7 @@ Ubu, Whirlpool ni yo yonyene ikoresha CoinJoin ikoresha cane umurongo wa Zerolin
 
 
 
-*Mu mwaka w'2024, turiko turabona amahinduka akomeye mu bikoresho biriho ku bakoresha bipfuza gukora coinjoins kuri Bitcoin. Ubu turi mu gihe c’ihinduka, kandi isoko rya CoinJoin ririko rihindurwa cane. Iki gice nta gukeka ko kizosubirwamwo uko igihe kigenda kirarenga
+**Mu mwaka w'2024, turiko turabona amahinduka akomeye mu bikoresho biriho ku bakoresha bipfuza gukora coinjoins kuri Bitcoin. Ubu turi mu gihe c'ihinduka, kandi isoko rya CoinJoin ririko rihindurwa cane. Iki gice nta gukeka ko kizosubirwamwo uko igihe kigenda kirarenga**
 
 
 Kugeza ubu hariho ahanini 3 bitandukanye CoinJoin gushirwa mu ngiro kuri Bitcoin:
@@ -2986,7 +2986,7 @@ Reka turabe intambwe zitandukanye z’igikoresho ca Whirlpool CoinJoin muri izo 
 Intango ya Whirlpool CoinJoin iyo ari yo yose ni konti ya **ibiziga**. Iyi ni konti ukoresha ubwawe iyo uremye Bitcoin Wallet nshasha. Iyi konti izokenera gushirwamwo ama bitcoins wipfuza guvanga.
 
 
-Tx0" ni intambwe ya mbere mu nzira yo guvanga Whirlpool. Intumbero yayo ni ugutegura no kuringaniza UTXOs za CoinJoin, kuzigabanya mu bice bihuye n'ingero y'ikidengeri catowe, kugira ngo habeho ukuvanga guhuye. As UTXOs rero ziringanijwe ni the**mi ntishobora kwinjira mu kidengeri, itandukanijwe muri konti yihariye: **banki mbi** (canke "ihinduka rya doxxic").
+Tx0" ni intambwe ya mbere mu nzira yo guvanga Whirlpool. Intumbero yayo ni ugutegura no kuringaniza UTXOs za CoinJoin, kuzigabanya mu bice bihuye n'ingero y'ikidengeri catowe, kugira ngo habeho ukuvanga guhuye. As UTXOs rero ziringanijwe ni **the**mi ntishobora kwinjira mu kidengeri, itandukanijwe muri konti yihariye: **banki mbi** (canke "ihinduka rya doxxic").
 
 
 Iryo soko rya mbere `Tx0` rikoreshwa kandi mu kwishura amahera y’ibikorwa akwiye guhabwa umuhuzabikorwa wa CoinJoin. Mu buryo butandukanye n’intambwe zikurikira, iyo nzira y’ugucuruza ntabwo ari iyo gukorana, rero uwuyikoresha ategerezwa kwikorera igiciro cose ca Mining:
@@ -3089,12 +3089,12 @@ Akira ingamba zimwe zimwe zo kubikoresha:
 
 
 
-- Bivange mu bidengeri bitobito:** Nimba UTXO yawe y’ubumara ari nini cane ku buryo ishobora kwinjira mu kidengeri gitoyi ubwayo, nuzirikane kuyivanga. Akenshi ivyo ni vyo vyiza kuruta ibindi vyose. Ariko rero, si vyiza gufatanya UTXO nyinshi zitera ubumara kugira ngo ushikire ikidengeri, kuko ivyo bishobora guhuza ivyinjijwe vyawe bitandukanye;
-- Bishireko ikimenyetso c'uko "bidashobora gukoreshwa":** Ubundi buryo ni ukubihagarika, ubishireko ikimenyetso c'uko "bidashobora gukoreshwa" muri konti yabo yihariye, na HODL gusa. Ivyo bituma udashobora kubikoresha mu mpanuka. Iyo agaciro ka Bitcoin kaduze, ibidengeri bishasha bibereye cane UTXO zawe zitera ubumara birashobora guseruka;
-- Gutanga intererano:** Niwiyumvire gutanga intererano, naho yoba ari nto gute, ku bahinga bakora kuri Bitcoin n’amaporogarama ajanye na yo. Ushobora kandi gutanga amahera ku mashirahamwe yemera BTC. Nimba gucunga UTXO zawe zitera ubumara bisa n’ibigoye cane, urashobora gusa kuzikuramwo maze ugatanga intererano;
-- Gura amakarita y’ingabirano:** Ivyuma nka [Bitrefill](https://www.bitrefill.com/) biguha uburenganzira bwo gukoresha amafaranga Exchange ku makarita y’ingabirano ashobora gukoreshwa ku badandaza batandukanye. Ivyo bishobora kuba uburyo bwo gutandukana n’ama UTXO yawe y’ubumara utatakaje agaciro kajana;
-- Bishire hamwe kuri Monero:** Samourai Wallet itanga ubuhinga bwo guhindura atome hagati ya BTC na XMR. Ivyo ni vyiza cane mu gucunga UTXOs zitera ubumara mu kuzishira kuri Monero, ataco zihinduye ku ibanga ryawe biciye kuri CIOH, imbere yo kuzisubiza kuri Bitcoin. Ariko rero, iyo nzira ishobora gutwara amahera menshi mu bijanye n’amahera ya Mining n’amahera y’imbere kubera ingorane z’amahera;
-- Birungike kuri Lightning Network:** Kwimurira izo UTXO kuri Lightning Network kugira ngo zironke inyungu ku mahera y’ugucuruza agabanutse birashobora kuba uburyo bukwegera. Ariko rero, ubu buryo burashobora guhishura amakuru amwamwe bivanye n’ingene ukoresha Lightning, kandi rero ukwiye kubukoresha witonze.
+- Bivange mu bidengeri bitobito: Nimba UTXO yawe y'ubumara ari nini cane ku buryo ishobora kwinjira mu kidengeri gitoyi ubwayo, nuzirikane kuyivanga. Akenshi ivyo ni vyo vyiza kuruta ibindi vyose. Ariko rero, si vyiza gufatanya UTXO nyinshi zitera ubumara kugira ngo ushikire ikidengeri, kuko ivyo bishobora guhuza ivyinjijwe vyawe bitandukanye;
+- Bishireko ikimenyetso c'uko "bidashobora gukoreshwa": Ubundi buryo ni ukubihagarika, ubishireko ikimenyetso c'uko "bidashobora gukoreshwa" muri konti yabo yihariye, na HODL gusa. Ivyo bituma udashobora kubikoresha mu mpanuka. Iyo agaciro ka Bitcoin kaduze, ibidengeri bishasha bibereye cane UTXO zawe zitera ubumara birashobora guseruka;
+- **Gutanga intererano:** Niwiyumvire gutanga intererano, naho yoba ari nto gute, ku bahinga bakora kuri Bitcoin n'amaporogarama ajanye na yo. Ushobora kandi gutanga amahera ku mashirahamwe yemera BTC. Nimba gucunga UTXO zawe zitera ubumara bisa n'ibigoye cane, urashobora gusa kuzikuramwo maze ugatanga intererano;
+- **Gura amakarita y'ingabirano:** Ivyuma nka [Bitrefill](https://www.bitrefill.com/) biguha uburenganzira bwo gukoresha amafaranga Exchange ku makarita y'ingabirano ashobora gukoreshwa ku badandaza batandukanye. Ivyo bishobora kuba uburyo bwo gutandukana n'ama UTXO yawe y'ubumara utatakaje agaciro kajana;
+- Bishire hamwe kuri Monero: **Samourai Wallet** itanga ubuhinga bwo guhindura atome hagati ya BTC na XMR. Ivyo ni vyiza cane mu gucunga UTXOs zitera ubumara mu kuzishira kuri Monero, ataco zihinduye ku ibanga ryawe biciye kuri CIOH, imbere yo kuzisubiza kuri Bitcoin. Ariko rero, iyo nzira ishobora gutwara amahera menshi mu bijanye n'amahera ya Mining n'amahera y'imbere kubera ingorane z'amahera;
+- Birungike kuri Lightning Network: Kwimurira izo UTXO kuri Lightning Network kugira ngo zironke inyungu ku mahera y'ugucuruza agabanutse birashobora kuba uburyo bukwegera. Ariko rero, ubu buryo burashobora guhishura amakuru amwamwe bivanye n'ingene ukoresha Lightning, kandi rero ukwiye kubukoresha witonze.
 
 
 ### Nokoresha gute Whirlpool?
@@ -3115,11 +3115,11 @@ Turaguma twihweza cane iki kibazo n'iterambere mu bikoresho bijanye naco. Nimwiz
 Mu gice gikurikira, tuzomenya ivyo "anonsets" ari vyo, ingene ivyo bimenyetso biharurwa, n'ingene bishobora kudufasha kugereranya ubushobozi bw'ingendo za CoinJoin.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Ivy'ukutamenyekana
 
@@ -3166,8 +3166,8 @@ Niba ari ngombwa, anonsets zishobora gukoreshwa mu gucira urubanza uburyo coinjo
 
 
 
-- Imbere anonset;**
-- gusubira inyuma.**
+- Imbere anonset;
+- gusubira inyuma.
 
 
 ### Imbere anonset
@@ -3230,7 +3230,7 @@ Birashoboka kubara anonsets n'amaboko ukoresheje Block explorer ku bice bitobito
 Nk’uko twabibonye muri iki kigabane, anonsets zishobora kubarwa gusa iyo hariho ubumwe bumwe bumwe mu miterere ya CoinJoin. Mu kigabane gikurikira, tuzobona ingene twogereranya ubwo bumwe ku bijanye n’ugucuruza kwa Bitcoin, yaba ari ugucuruza kwa CoinJoin canke ugucuruza kwa kera.
 
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropi
 
@@ -3684,7 +3684,7 @@ Ingorane yo gukoresha PayJoin iri mu kuba ivana n’uruhara rw’umucuruzi. Nk�
 Umuti umwe woba ari ugukoresha imiterere y’ugucuruza izana ubusobanuro butari bwo mu gusesangura uruhererekane ataco bisaba ubufatanye bw’uwuronka. Ivyo vyotuma dushobora gutuma ivyo twishura biguma ari ibanga ata kwizigira uruhara rw’abadandaza. Ivyo nyene ni vyo tuzoba turiko turaraba mu kigabane gikurikira.
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
@@ -4300,7 +4300,7 @@ Nk’akarorero, mu bijanye n’amabanki ya kera, twamenyereye gusangira IBAN yac
 Ariko rero, Bitcoin ikora mu buryo butandukanye: Address nshasha yakira itegerezwa guterwa ku bijanye n’ugucuruza kwose kwinjira. Ukwo gusenyera ku mugozi umwe hagati y’ukworohereza gukoresha n’ugukingira ibanga gusubira mu ntango nyene y’Igitabu Cera ca Bitcoin. Igihe nyene igitabu ciwe ca mbere casohorwa mu mpera z’umwaka w’2008, Satoshi Nakamoto yari amaze kutugabisha ku bijanye n’ico kigeragezo:
 
 
-**Nk'uruhome rw'umuriro rw'inyongera, urufunguzo rushasha rwoshobora gukoreshwa ku bikorwa vyose kugira ngo bigume bitahuye n'uwubifise
+**Nk'uruhome rw'umuriro rw'inyongera, urufunguzo rushasha rwoshobora gukoreshwa ku bikorwa vyose kugira ngo bigume bitahuye n'uwubifise**
 
 
 Hari uburyo bwinshi bwo kwakira amahera menshi ku kimenyetso kimwe ataco ukeneye gusubira gukoresha Address. Imwe yose irafise ivyo ishobora gukora n’ivyo ikora. Muri ubwo buryo harimwo BIP47, igitekerezo categuwe na Justus Ranvier kigasohoka mu 2015. Ico ciyumviro kigamije guhingura amakode y’ukwishura ashobora gusubirwamwo atuma umuntu ashobora gukoresha amafaranga menshi ku muntu umwe, mu gihe umuntu yirinda gusubira gukoresha Address. Muri make, BIP47 ifise intumbero yo gutanga uburyo bwo kwishura busanzwe nk’ikimenyetso kidasanzwe, mu gihe nyene izigama ibanga ry’ibikorwa.
@@ -4398,12 +4398,12 @@ Kode y’ukwishura y’ama byte 80 igabanywa gutya:
 
 
 
-- Byte `0`: Verisiyo**. Ku verisiyo ya mbere ya BIP47, iyi byte iteguwe kuri `0x01`;
-- Byte `1`: Umurima w'ibice**. Ico kibanza cagenewe gushiramwo ibindi bimenyetso vy’ikoreshwa ry’ibintu vyihariye. Ku gukoresha PayNym ya kera, iyi byte iteguwe kuri `0x00`;
-- Byte `2`: Uburinganire bwa `y`**. Iyi byte ni `0x02` canke `0x03`, yerekana nimba ordinate y'urufunguzo rwa bose ari umubare canke udasanzwe, nk'uko urufunguzo rwa bose rukoreshwa;
-- Kuva kuri byte `3` gushika kuri byte `34`: Agaciro ka `x`**. Izo bytes zigereranya abscisse y'urufunguzo rwa bose. Ihuriro rya `x` n'uburinganire bwa `y` bikora urufunguzo rwa bose rwuzuye;
-- Kuva kuri byte `35` gushika kuri byte `66`: Kode y'urudodo**. Ico kibanza kirimwo kode y'urudodo ifatanye n'urufunguzo rwa bose;
-- Kuva kuri byte `67` gushika kuri byte `79`: Ivyo gushiramwo**. Ico kibanza kigenewe amahinduka ashobora kubaho muri kazoza. Ku bijanye n'ubu, dushira gusa zero hano kugira ngo tugere ku bunini bwa 80-byte busabwa ku gisohoka ca `OP_RETURN`.
+- Byte `0`: **Verisiyo**. Ku verisiyo ya mbere ya BIP47, iyi byte iteguwe kuri `0x01`;
+- Byte `1`: Umurima w'ibice. Ico kibanza cagenewe gushiramwo ibindi bimenyetso vy'ikoreshwa ry'ibintu vyihariye. Ku gukoresha PayNym ya kera, iyi byte iteguwe kuri `0x00`;
+- Byte `2`: Uburinganire bwa `y`. Iyi byte ni `0x02` canke `0x03`, yerekana nimba ordinate y'urufunguzo rwa bose ari umubare canke udasanzwe, nk'uko urufunguzo rwa bose rukoreshwa;
+- Kuva kuri byte `3` gushika kuri byte `34`: Agaciro ka **x**. Izo bytes zigereranya abscisse y'urufunguzo rwa bose. Ihuriro rya `x` n'uburinganire bwa `y` bikora urufunguzo rwa bose rwuzuye;
+- Kuva kuri byte `35` gushika kuri byte `66`: **Kode y'urudodo**. Ico kibanza kirimwo kode y'urudodo ifatanye n'urufunguzo rwa bose;
+- Kuva kuri byte `67` gushika kuri byte `79`: Ivyo gushiramwo. Ico kibanza kigenewe amahinduka ashobora kubaho muri kazoza. Ku bijanye n'ubu, dushira gusa zero hano kugira ngo tugere ku bunini bwa 80-byte busabwa ku gisohoka ca `OP_RETURN`.
 
 
 Aha niho hari igishushanyo c'icumi na gatandatu c'itegeko ryanje ryo kwishura rishobora gusubirwamwo ryaramaze gushikirizwa mu gice c'imbere:
@@ -5450,7 +5450,7 @@ Bob ashobora rero kwishura Alice mu buryo bumwe nyene yamurungikiye amahera. Uru
 ![BTC204](assets/fr/235.webp)
 
 
-*Turakoze cane [Fanis Michalakis](https://x.com/FanisMichalakis) ku gukosora n’impanuro z’abahinga ku ngingo yatumye ndiko ndandika iki gice!
+*Turakoze cane [Fanis Michalakis](https://x.com/FanisMichalakis) ku gukosora n'impanuro z'abahinga ku ngingo yatumye ndiko ndandika iki gice!*
 
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
@@ -6021,7 +6021,7 @@ Tuzoba turiko turaguha inyigisho ido n'ido y'ingene woshiraho amahera yawe bwite
 Kubera ko iki kintu ari gishasha, turaguhanura kwiyubara no kwirinda gukoresha Silent Payments ku mahera menshi kuri Mainnet.
 
 
-*Kugira ngo nkore iki gice ku vyerekeye Ukwishura mu gacerere, nakoresheje [urubuga rw’insobanuro y’ukwishyura mu gacerere](https://silentpayments.xyz/) na [inyandiko y’insobanuro ya BIP352]
+**Kugira ngo nkore iki gice ku vyerekeye Ukwishura mu gacerere, nakoresheje [urubuga rw'insobanuro y'ukwishyura mu gacerere](https://silentpayments.xyz/) na [inyandiko y'insobanuro ya BIP352]**
 
 
 # Igice ca nyuma

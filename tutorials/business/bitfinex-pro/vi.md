@@ -80,11 +80,11 @@ Sau khi đơn đăng ký của bạn đã hoàn tất và gửi đi, có thể m
 Sau khi đăng nhập, bạn sẽ thấy thanh điều hướng ở đầu giao diện với: "*Giao dịch*", "*Phái sinh*", "*Tài trợ*", "*OTC*", "*P2P*", "*Ví*", v.v. Bitfinex cung cấp nhiều chức năng, bao gồm:
 
 
-- Giao dịch**: thị trường "*cổ điển*" nơi bạn có thể đặt lệnh mua và bán tiền điện tử (bao gồm cả bitcoin);
-- OTC**: Dịch vụ giao dịch qua quầy để giao dịch khối lượng lớn trực tiếp với một bên khác, bên ngoài sổ lệnh công khai;
-- Tài trợ**: Khu vực dành riêng cho việc cho vay và tài trợ ký quỹ;
-- Sản phẩm phái sinh**: Mục sản phẩm phái sinh (tương lai, v.v.), dành cho các nhà giao dịch có kinh nghiệm;
-- P2P**: Cho phép bạn mua hoặc bán tiền điện tử từ người dùng khác trên cơ sở ngang hàng.
+- **Giao dịch**: thị trường "*cổ điển*" nơi bạn có thể đặt lệnh mua và bán tiền điện tử (bao gồm cả bitcoin);
+- **OTC**: Dịch vụ giao dịch qua quầy để giao dịch khối lượng lớn trực tiếp với một bên khác, bên ngoài sổ lệnh công khai;
+- **Tài trợ**: Khu vực dành riêng cho việc cho vay và tài trợ ký quỹ;
+- **Sản phẩm phái sinh**: Mục sản phẩm phái sinh (tương lai, v.v.), dành cho các nhà giao dịch có kinh nghiệm;
+- **P2P**: Cho phép bạn mua hoặc bán tiền điện tử từ người dùng khác trên cơ sở ngang hàng.
 
 Đối với mục đích sử dụng tiêu chuẩn (mua/bán bitcoin, gửi/rút tiền và quản lý tiền mặt), bạn chủ yếu sử dụng tab "*Giao dịch*", cũng như các phần "*Ví*", "*Gửi tiền*" và "*Rút tiền*".
 

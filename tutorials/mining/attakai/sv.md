@@ -73,7 +73,7 @@ Denna fråga skulle kunna bli problematisk och utgöra en betydande risk för n�
 "På fabriken är en Miner inte lämplig att använda som radiator i ett hus på grund av två huvudproblem: för högt ljud och brist på justering. Dessa problem kan dock enkelt lösas genom enkla modifieringar av hård- och mjukvaran, vilket ger en mycket tystare Miner som kan konfigureras och automatiseras på samma sätt som moderna elektriska värmare.
 
 
-**Attakaï är ett utbildningsinitiativ som lär dig hur du kan eftermontera Antminer S9 på ett så kostnadseffektivt sätt som möjligt
+**Attakaï är ett utbildningsinitiativ som lär dig hur du kan eftermontera Antminer S9 på ett så kostnadseffektivt sätt som möjligt**
 
 
 Det här är ett utmärkt tillfälle att lära sig genom att praktisera. Förutom att du minskar din elräkning belönas du för ditt deltagande med gratis KYC Sats.
@@ -453,7 +453,7 @@ När du är på inloggningssidan måste du logga in på ASIC med hjälp av stand
 - lösenord: root
 
 
-**Hur återställer jag om standardlösenordet inte fungerar?
+**Hur återställer jag om standardlösenordet inte fungerar?**
 
 
 Huvudoperativsystemet är relativt grundläggande. Med de 4 flikarna: System, Miner-konfiguration, Miner-status, nätverk. På fliken Miner Configuration kan du konfigurera upp till 3 Mining-pooler.
@@ -713,4 +713,3 @@ Slutresultatet blir ett högre Hash-pris per watt elektricitet, vilket innebär 
 
 
 Denna guide har skapats av DecouvreBitcoin, mer information om MIN201 - kredit Jim och Ajelex
-

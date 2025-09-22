@@ -1,4 +1,4 @@
-question: "curl -X POST /issueassetnia"는 RLN에서 무엇을 할 수 있나요?
+question: curl -X POST /issueassetnia 는 RLN에서 무엇을 할 수 있나요?
 answer: 인플레이션이 없는 새로운 대체 가능한 RGB 자산 만들기
 wrong_answers:
   - 대체 불가능한 RGB 자산을 새로 생성합니다

@@ -63,12 +63,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 2.4
+    reward: 2.39
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.15
+    reward: 7.13
   - language: et
     last_contribution_date:
     urgency: 1
@@ -83,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.97
+    reward: 5.96
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -103,17 +103,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.8
+    reward: 4.79
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.8
+    reward: 4.79
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.97
+    reward: 5.96
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -133,7 +133,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.97
+    reward: 5.96
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.79
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.13
 tags:
   - guides
   - user-friendly

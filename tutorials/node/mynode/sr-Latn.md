@@ -1,5 +1,5 @@
 ---
-name: MyNode
+name: My Node
 description: Postavite svoj Bitcoin MyNode
 ---
 

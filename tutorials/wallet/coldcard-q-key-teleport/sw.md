@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Muhimu Teleport
+name: COLDCARD Q - Key Teleport
 description: Teleport muhimu ni nini na ninaitumiaje?
 ---
 
@@ -31,10 +31,10 @@ Hii inaweza kutumika kuhamisha:
 
 
 
-- Vifungu vya maneno vya gW-0** (Nyimbo kuu ya seed ya ColdCard Q au siri zilizohifadhiwa katika [seed Vault] ya ColdCardQ)(https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- madokezo ya siri na manenosiri**: hii inaweza kuwa siri yoyote au saraka nzima ya [Vidokezo Salama na Manenosiri] (https://coldcard.com/docs/secure_notes/) kwenye ColdCardQ yako.
-- chelezo ya ColdCardQ yako yote**: ColdCardQ inayopokea nakala hii lazima isiwe na seed Master ili hii ifanye kazi.
-- gW-3 (*Miamala ya Bitcoin Iliyotiwa Saini kwa Kiasi*) kama sehemu ya mpango wa sahihi nyingi**.
+- Vifungu vya maneno vya **gW-0** (Nyimbo kuu ya seed ya ColdCard Q au siri zilizohifadhiwa katika [seed Vault] ya ColdCardQ)(https://coldcard.com/docs/temporary-seeds/#seed-vault).
+- **madokezo ya siri na manenosiri**: hii inaweza kuwa siri yoyote au saraka nzima ya [Vidokezo Salama na Manenosiri] (https://coldcard.com/docs/secure_notes/) kwenye ColdCardQ yako.
+- **chelezo ya ColdCardQ yako yote**: ColdCardQ inayopokea nakala hii lazima isiwe na seed Master ili hii ifanye kazi.
+- gW-3 (**Miamala ya Bitcoin Iliyotiwa Saini kwa Kiasi**) kama sehemu ya mpango wa sahihi nyingi.
 
 
 
@@ -102,9 +102,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- ilizalisha jozi za vitufe vya muda mfupi (ya umma/faragha mtawalia Ka na ka na Ka=G.ka, G ikiwa sehemu ya jenereta ya ECDH), na nenosiri la tarakimu 8*.
-- alitumia nenosiri hili kusimba ufunguo wa umma (Ka) kupitia AES-256-CTR, kisha akasambaza nenosiri hili kupitia njia ya mawasiliano A hadi "kutuma" ColdCardQ.*
-- hatimaye, tulituma pakiti iliyosimbwa kwa njia fiche kwa mtumaji kupitia msimbo wa QR ulio hapo juu, kwa kutumia chaneli ya pili ya mawasiliano B tofauti na ya 1*.
+- ilizalisha jozi za vitufe vya muda mfupi (ya umma/faragha mtawalia Ka na ka na Ka=G.ka, G ikiwa sehemu ya jenereta ya ECDH), na nenosiri la tarakimu **8**.
+- alitumia nenosiri hili kusimba ufunguo wa umma (Ka) kupitia AES-256-CTR, kisha akasambaza nenosiri hili kupitia njia ya mawasiliano A hadi "kutuma" **ColdCardQ**.
+- hatimaye, tulituma pakiti iliyosimbwa kwa njia fiche kwa mtumaji kupitia msimbo wa QR ulio hapo juu, kwa kutumia chaneli ya pili ya mawasiliano **B** tofauti na ya **1**.
 
 
 
@@ -129,10 +129,10 @@ Kutoka kwenye kifaa kinachotuma, bofya kitufe cha **"QR "** ili kuchanganua msim
 
 
 
-- tuliingiza data iliyosimbwa kwa kuchanganua msimbo wa QR kwenye kifaa kinachopokea*.
-- kisha tukasimbua kwa kutumia nenosiri la tarakimu 8 lililotumwa kwetu kupitia kituo cha pili*.
-- kwa hivyo tunamiliki ufunguo wa umma (Ka) uliotolewa na mpokeaji mwanzoni.*
-- Kisha tunagenerate jozi mpya ya vitufe vya muda mfupi (Kb/kb, na Kb=G.kb) kwenye kifaa cha kutuma, ambacho tunatumia kutumia ECDH kwa Ka. Kwa hivyo tunafanya operesheni kb.Ka=Ks , ambapo Ks inaitwa **"Ufunguo wa Kipindi "**.*
+- tuliingiza data iliyosimbwa kwa kuchanganua msimbo wa QR kwenye kifaa kinachopokea.
+- kisha tukasimbua kwa kutumia nenosiri la tarakimu 8 lililotumwa kwetu kupitia kituo cha pili.
+- kwa hivyo tunamiliki ufunguo wa umma (Ka) uliotolewa na mpokeaji mwanzoni.
+- Kisha tunagenerate jozi mpya ya vitufe vya muda mfupi (Kb/kb, na Kb=G.kb) kwenye kifaa cha kutuma, ambacho tunatumia kutumia ECDH kwa Ka. Kwa hivyo tunafanya operesheni kb.Ka=Ks , ambapo Ks inaitwa **"Ufunguo wa Kipindi"**.
 
 
 
@@ -169,8 +169,8 @@ Bonyeza **"ENTER "** na utawasilishwa na msimbo mpya wa QR. Ichanganue na kifaa 
 
 
 
-- baada ya kuchagua siri za kutumwa, tuna generate nenosiri jipya la random linaloitwa **"Nenosiri la Teleport "***.
-- kisha tunasimba siri kupitia AES-256-CTR kwa kutumia **"Ufunguo wa Kipindi "**, "Ks", uliotolewa katika hatua ya awali.*
+- baada ya kuchagua siri za kutumwa, tuna generate nenosiri jipya la random linaloitwa **"Nenosiri la Teleport"**.
+- kisha tunasimba siri kupitia AES-256-CTR kwa kutumia **"Ufunguo wa Kipindi"**, "Ks", uliotolewa katika hatua ya awali.
 - tunaweka kiambishi awali pakiti ambayo tayari imesimbwa kwa njia fiche kwa **"Ufunguo wa Kipindi "** kwa ufunguo wetu wa umma wa Kb, kisha uongeze usimbaji zaidi wa Layer wa AES-256-CTR kwa **"Nenosiri la Simu "**. Jambo zima basi limesimbwa kama msimbo wa QR
 
 
@@ -203,10 +203,10 @@ Kisha data hutambulishwa na kufanywa ieleweke kwa kifaa kinachopokea. Ujumbe uli
 
 
 
-- tumesimbua data inayotumwa na mtumaji kwa kutumia **"Nenosiri la Simu "**.*
+- tumesimbua data inayotumwa na mtumaji kwa kutumia **"Nenosiri la Simu"**.
 - kwa hivyo tuna ufunguo wa umma Kb na ujumbe wetu wa siri uliosimbwa kwa njia fiche na **"Ufunguo wa Kipindi "**, "Ks". Lakini tunawezaje kufanya hivi kwani, kama mpokeaji, hatujui Ks, ambayo iliundwa na mtumaji?
-- Tunahitaji kutumia ufunguo wetu wa faragha "ka" kutoka hatua ya awali **"Andaa kifaa kitakachopokea data "** kwa ufunguo wa umma Kb.*
-- Kwa kweli, kwa kuhesabu ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, tunapata Ks. Ambayo hatimaye inatumiwa kufafanua ujumbe wa siri.*
+- Tunahitaji kutumia ufunguo wetu wa faragha "ka" kutoka hatua ya awali **"Andaa kifaa kitakachopokea data"** kwa ufunguo wa umma Kb.
+- Kwa kweli, kwa kuhesabu ka.Kb = ka.kb.G=kb.ka.G=kb.Ka=Ks, tunapata Ks. Ambayo hatimaye inatumiwa kufafanua ujumbe wa siri.
 
 
 

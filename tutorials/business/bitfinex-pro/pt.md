@@ -80,11 +80,11 @@ Uma vez preenchida e submetida a sua candidatura, pode demorar vários dias até
 Depois de iniciar sessão, verá uma barra de navegação na parte superior da interface com: "*Trading*", "*Derivativos*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. A Bitfinex oferece uma vasta gama de funcionalidades, incluindo:
 
 
-- Negociação**: mercado "*clássico*" onde pode colocar ordens de compra e venda de criptomoedas (incluindo bitcoin) ;
-- OTC**: Serviço de balcão para negociar grandes volumes diretamente com outro interveniente, fora dos livros de ordens públicas;
-- Financiamento**: Área dedicada à concessão de empréstimos e ao financiamento de margens;
-- Derivados**: Secção de produtos derivados (futuros, etc.), destinada a operadores experientes;
-- P2P**: Permite-lhe comprar ou vender criptos a outros utilizadores numa base peer-to-peer.
+- **Negociação**: mercado "*clássico*" onde pode colocar ordens de compra e venda de criptomoedas (incluindo bitcoin);
+- **OTC**: Serviço de balcão para negociar grandes volumes diretamente com outro interveniente, fora dos livros de ordens públicas;
+- **Financiamento**: Área dedicada à concessão de empréstimos e ao financiamento de margens;
+- **Derivados**: Secção de produtos derivados (futuros, etc.), destinada a operadores experientes;
+- **P2P**: Permite-lhe comprar ou vender criptos a outros utilizadores numa base peer-to-peer.
 
 Para uma utilização normal (compra/venda de bitcoins, depósitos/levantamentos e gestão de dinheiro), utilizará principalmente o separador "*Trading*", bem como as secções "*Wallet*", "*Deposit*" e "*Withdraw*".
 

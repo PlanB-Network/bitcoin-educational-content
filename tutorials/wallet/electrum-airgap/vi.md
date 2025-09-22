@@ -1,6 +1,6 @@
 ---
-name: Khoảng cách không khí Electrum
-description: Bước đầu tiên hướng tới sự an toàn, Cold Wallet với Electrum
+name: Electrum Airgap
+description: Bước đầu tiên hướng tới bảo mật, một cold wallet với Electrum
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ Hai Ví này sẽ, về mọi mặt, rất khác nhau. Điểm chung duy nhất 
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Sau khi tải xuống, hãy luôn xác minh bản phát hành trước khi cài đặt, sau đó tiến hành cấu hình "Một máy chủ", như bạn sẽ tìm thấy trong phần trợ giúp, trong mục `Bắt đầu với Wallet giả`.
 

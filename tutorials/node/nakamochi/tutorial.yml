@@ -63,12 +63,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 3.61
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.34
+    reward: 5.36
   - language: id
     last_contribution_date:
     urgency: 1
@@ -78,7 +78,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.47
+    reward: 4.48
   - language: et
     last_contribution_date:
     urgency: 1
@@ -103,7 +103,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 3.61
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -114,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.47
+    reward: 4.48
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -124,7 +124,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.72
+    reward: 2.73
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -134,7 +134,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.47
+    reward: 4.48
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.61
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.36
 tags:
   - node
   - guides

@@ -18,15 +18,15 @@ The Ninja SAFU approach offers several advantages:
 
 
 
-- Confidentiality**: You're not buying a product identified as being intended for cryptocurrency backup. The components are standard (washers, bolts, metal box), available in hardware stores, which reduces the risk of targeting in the event of a data leak from a specialized vendor.
+- **Confidentiality**: You're not buying a product identified as being intended for cryptocurrency backup. The components are standard (washers, bolts, metal box), available in hardware stores, which reduces the risk of targeting in the event of a data leak from a specialized vendor.
 
 
 
-- Affordability** : This solution costs between **15 and 140 EUR**, depending on the tools you already have.
+- **Affordability**: This solution costs between **15 and 140 EUR**, depending on the tools you already have.
 
 
 
-- Reliability**: Tested since 2020, the method has been tried and tested by safety experts such as [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), who have subjected it to rigorous stress tests (extreme heat, corrosion, mechanical pressure).
+- **Reliability**: Tested since 2020, the method has been tried and tested by safety experts such as [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), who have subjected it to rigorous stress tests (extreme heat, corrosion, mechanical pressure).
 
 
 This step-by-step guide will show you how to make your own Ninja SAFU backup, to better protect your bitcoins against loss or destruction. If you'd like to learn more about backing up and protecting a seed phrase, please consult the appendices.
@@ -43,35 +43,35 @@ To create a Ninja SAFU backup, you'll need the following components, all availab
 
 
 
-- Stainless steel washers (M8 recommended)** :
- - Material**: Stainless steel (e.g. 304 or V4A for enhanced corrosion resistance)
-    - Size**: M8 (inner diameter 8 mm, outer diameter ~24 mm). M6 washers are too small and difficult to engrave.
-    - Quantity**: 12 or 24 washers for a standard seed sentence, plus optional washers (see section 3.4) and ten or so for tests or errors.
+- **Stainless steel washers (M8 recommended)**:
+- **Material**: Stainless steel (e.g. 304 or V4A for enhanced corrosion resistance)
+- **Size**: M8 (inner diameter 8 mm, outer diameter ~24 mm). M6 washers are too small and difficult to engrave.
+- **Quantity**: 12 or 24 washers for a standard seed sentence, plus optional washers (see section 3.4) and ten or so for tests or errors.
 
 
 
-- Stainless steel bolt and nut (M8)** :
- - Specifications**: Bolt 2.5 to 5 cm long, depending on number and thickness of washers, diameter 8mm. A wing nut facilitates tool-free opening, but a simple nut can also be used.
+- **Stainless steel bolt and nut (M8)**:
+- **Specifications**: Bolt 2.5 to 5 cm long, depending on number and thickness of washers, diameter 8mm. A wing nut facilitates tool-free opening, but a simple nut can also be used.
 
 
 ![image](assets/fr/03.webp)
 
 
 
-- Letter and number punch set (3 mm or 6 mm)** :
-    - Specifications**: 6 mm high characters facilitate legibility and may be preferable if part of the lettering is degraded. Choose a sturdy set for repeated use.
+- **Letter and number punch set (3 mm or 6 mm)**:
+- **Specifications**: 6 mm high characters facilitate legibility and may be preferable if part of the lettering is degraded. Choose a sturdy set for repeated use.
 
 
 ![image](assets/fr/04.webp)
 
 
 
-- Hammer or sledgehammer** :
+- **Hammer or sledgehammer**:
     - A sledgehammer is preferable for sufficient and precise stamping force
 
 
 
-- Anvil or sturdy surface** :
+- **Anvil or sturdy surface**:
  - A thick, hard surface (e.g. 1 kg anvil or 10 cm paving stone) to absorb shocks.
 
 
@@ -82,21 +82,21 @@ If you don't want to invest in a set of punches, you can also engrave your washe
 
 
 
-- Stamping device**: Holds the washer and guides the punch, allowing for precise, clean stamping, better orientation and even spacing of letters
+- **Stamping device**: Holds the washer and guides the punch, allowing for precise, clean stamping, better orientation and even spacing of letters
 
 
 ![image](assets/fr/05.webp)
 
 
 
-- Sealing devices**: Sealed pouch or sealing strip
+- **Sealing devices**: Sealed pouch or sealing strip
 
 
 ![image](assets/fr/06.webp)
 
 
 
-- Hermetically sealed container**: For storing the block of washers
+- **Hermetically sealed container**: For storing the block of washers
 
 
 ![image](assets/fr/07.webp)
@@ -105,19 +105,19 @@ If you don't want to invest in a set of punches, you can also engrave your washe
 
 
 
-- Gloves** and **Safety glasses** recommended.
-- Pipe wrench** into which to slide the punch, so that you hold the punch with the pipe wrench and not with your fingers.
+- **Gloves** and **Safety glasses** recommended.
+- **Pipe wrench** into which to slide the punch, so that you hold the punch with the pipe wrench and not with your fingers.
 
 
 ### 2.4 Quantities and estimated cost
 
 
 
-- Quantity for a 24-word backup**: 24 washers (minimum), 1 bolt, 1 wing nut, 1 set of punches, 1 hammer/massette, 1 anvil/support.
+- **Quantity for a 24-word backup**: 24 washers (minimum), 1 bolt, 1 wing nut, 1 set of punches, 1 hammer/massette, 1 anvil/support.
 
 
 
-- Total cost** :
+- **Total cost**:
  - Washers and bolts/nuts: ~ 15 EUR
  - Punch set: ~ 45 EUR
  - Protective case: ~ 55 EUR
@@ -182,7 +182,7 @@ If you don't want to invest in a set of punches, you can also engrave your washe
 
 
     - From your new backup, try to recover your portfolio
-- Sealing the backup** (optional and recommended) :
+- **Sealing the backup** (optional and recommended):
  - By sealing strips, or in sealed pouches.
  - If you use a pouch, make a note of its unique identification number, so that you can check that it's the right pouch and not a decoy replacing the original.
 
@@ -194,7 +194,7 @@ If you don't want to invest in a set of punches, you can also engrave your washe
 ### 4.1 Choose a suitable location
 
 
-Store your backup in a **discreet location**, out of sight and accessible for periodic checks. Choose fireproof and watertight storage**, at home or in a place under your **exclusive control**.
+Store your backup in a **discreet location**, out of sight and accessible for periodic checks. Choose **fireproof and watertight storage**, at home or in a place under your **exclusive control**.
 
 
 Avoid locations where you are dependent on a third party (bank safe, notary): you will lose autonomous access to your funds, which goes against Bitcoin's principles of sovereignty.
@@ -228,7 +228,7 @@ Even when well stored, your backup needs to be **checked regularly**:
 
 
 
-*STAY SAFU !
+**STAY SAFU !**
 
 ![image](assets/fr/08.webp)
 
@@ -277,21 +277,21 @@ According to Jameson Lopp:
 
 
 
-- Washers** for
+- **Washers** for
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Washers + nut + protective case** (for washers)
+- **Washers + nut + protective case** (for washers)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Punch set
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Basis of typing**
+- **Basis of typing**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Tapping device** (guide)
+- **Tapping device** (guide)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Sealing device
  - [Sealed pouch](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Sealing strips](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Complete** kit
+- **Complete** kit
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

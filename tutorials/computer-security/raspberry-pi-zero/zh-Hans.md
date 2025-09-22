@@ -1,5 +1,5 @@
 ---
-name: 树莓派 Zero
+name: Raspberry Pi Zero
 description: 如何使用 Raspberry Pi Zero 和配件套件构建一个最小化、隔离且低成本的计算机。
 ---
 ![cover](assets/cover.webp)
@@ -46,8 +46,8 @@ description: 如何使用 Raspberry Pi Zero 和配件套件构建一个最小化
 
 
 
-- 费用**：编写本教程时（2025 年 8 月）约为 15.00 美元。
-- 持续生产**：覆盆子保证生产到 2030 年 1 月。
+- 费用：编写本教程时（2025 年 8 月）约为 15.00 美元。
+- 持续生产：覆盆子保证生产到 2030 年 1 月。
 
 
 
@@ -76,7 +76,7 @@ dtoverlay=disable-bt
 
 
 
-- 费用**： 19.99 欧元。
+- 费用：19.99 欧元。
 
 
 

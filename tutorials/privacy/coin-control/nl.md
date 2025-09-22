@@ -161,7 +161,7 @@ Hoewel ik ervan overtuigd ben dat KYC-gelden in een aparte Wallet moeten worden 
 
 
 
-Door de juiste UTXO te selecteren om een uitgave te doen, kunnen kosten worden geoptimaliseerd**. Weer uitgaande van ons eerste voorbeeld, selecteerde Software Wallet twee UTXO's om de uitgave te dekken. Twee UTXO's impliceren twee handtekeningen die aan het netwerk moeten worden getoond. Hieruit volgt dat de transactie een groter "gewicht" heeft in termen van vBytes.
+Door de juiste UTXO te selecteren om een uitgave te doen, kunnen kosten worden geoptimaliseerd. Weer uitgaande van ons eerste voorbeeld, selecteerde Software Wallet twee UTXO's om de uitgave te dekken. Twee UTXO's impliceren twee handtekeningen die aan het netwerk moeten worden getoond. Hieruit volgt dat de transactie een groter "gewicht" heeft in termen van vBytes.
 
 
 

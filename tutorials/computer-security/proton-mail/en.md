@@ -231,7 +231,7 @@ The "*Filters*" tab lets you manage filters for the emails you receive.
 ![proton](assets/notext/32.webp)
 
 
-The "Forward and auto-reply*" tab lets you manage forwarding and auto-reply for your emails.
+The "Forward and auto-reply" tab lets you manage forwarding and auto-reply for your emails.
 
 
 ![proton](assets/notext/33.webp)

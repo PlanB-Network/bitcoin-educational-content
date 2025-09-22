@@ -1499,7 +1499,7 @@ Trong lúc thế giới đang theo dõi với sự kinh hoàng khi Taliban giàn
 
 ![image](assets/5.webp)
 
-\***Hình ảnh:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Hình ảnh:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 Roya Mahboob là một người tiên phong trong lĩnh vực công nghệ và khởi nghiệp tại Afghanistan. Không chỉ được [bình chọn](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) là một trong 100 Người Có Ảnh Hưởng Nhất Thế Giới của TIME Magazine năm 2013 sau khi "xây dựng các lớp học internet tại các trường trung học ở Afghanistan." Bà còn sáng lập Công ty Phần mềm Citadel Afghanistan vào năm 2010, với mục tiêu "tạo việc làm cho các sinh viên mới tốt nghiệp - đặc biệt là phụ nữ." Và nếu như điều đó là chưa đủ, bà tiếp tục thành lập Quỹ Công dân Số. Tổ chức phi lợi nhuận này làm việc để trao quyền cho phụ nữ và trẻ em ở các nước đang phát triển thông qua công nghệ.
 Tuy nhiên, trong suốt hành trình này, Roya không hề đơn độc. Bitcoin đã chứng minh là một công cụ vô giá trong sứ mệnh trao quyền cho phụ nữ của bà. Mặc dù đối mặt với nhiều trở ngại, bao gồm cả các rào cản pháp lý ngăn cản phụ nữ làm việc và mở tài khoản ngân hàng, Roya đã quyết tâm tìm ra cách để trả lương cho những phụ nữ đang làm việc với mình.
 

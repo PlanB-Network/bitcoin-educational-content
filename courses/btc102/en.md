@@ -1782,7 +1782,7 @@ Next: we'll explore a radically different bitcoiner profile; the active user.
 
 :::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
-Becoming an active Bitcoin user means going beyond long-term investment strategies. Unlike the hodler or the stacker who primarily save without spending, the active user treats Bitcoin as a real medium of exchange**. They use it to pay for goods and services and actively participate in the counter-economy.
+Becoming an active Bitcoin user means going beyond long-term investment strategies. Unlike the hodler or the stacker who primarily save without spending, the active user treats Bitcoin as a real **medium of exchange**. They use it to pay for goods and services and actively participate in the counter-economy.
 
 ![BTC102-Bitcoin](assets/fr/083.webp)
 
@@ -2540,7 +2540,6 @@ Once again, congratulations on how far you've come. And remember; my primary goa
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

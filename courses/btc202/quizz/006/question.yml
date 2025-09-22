@@ -14,3 +14,8 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.09
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18

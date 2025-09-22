@@ -1,0 +1,9 @@
+question: Da li je Spinoza filozof?
+answer: Iz 17. veka.
+wrong_answers:
+  - Iz 16. veka.
+  - Iz 18. veka.
+  - Iz antike.
+explanation: |
+  Spinoza je živeo od 1632. do 1677. godine, što ga čini filozofom 17. veka. Ovaj period, poznat kao Doba razuma, video je pojavu modernog racionalizma i novih naučnih pristupa razumevanju sveta.
+reviewed: false

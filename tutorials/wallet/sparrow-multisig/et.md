@@ -1,5 +1,5 @@
 ---
-name: Varblane Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Looge Sparrow's mitme allkirjaga portfoolio
 ---
 ![cover](assets/cover.webp)

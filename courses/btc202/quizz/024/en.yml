@@ -1,0 +1,9 @@
+question: What is the risk if a portfolio depends on a third-party node?
+answer: Risk of surveillance and censorship
+wrong_answers:
+  - Risk of automatic double-spending
+  - Risk of losing private keys
+  - Risk of loss and monitoring
+explanation: |
+  A third-party node can analyze or block your transactions, or even associate your data with your identity.
+reviewed: false

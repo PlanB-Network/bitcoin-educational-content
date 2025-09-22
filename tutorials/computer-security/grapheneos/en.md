@@ -9,6 +9,8 @@ description: A mobile operating system focused on security and privacy based on 
 
 GrapheneOS, originally founded in 2014 as 'CopperheadOS' is based on the traditional Android Code (AOSP), but with many changes and improvements aimed at improving user privacy and security. GrapheneOS puts the user in control of their phone, not the big tech companies.
 
+![video](https://youtu.be/VnumtalYLFI)
+
 ### Sommaire:
 
 - Intro

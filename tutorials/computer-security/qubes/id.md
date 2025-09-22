@@ -118,7 +118,7 @@ Sebelum menginstal Qubes OS, sangat penting untuk memastikan bahwa perangkat ker
 
 - **Prosesor**: Prosesor 64-bit yang kompatibel dengan virtualisasi perangkat keras (Intel VT-x atau AMD-V).
 - RAM: diperlukan minimal 8 GB, tetapi kami merekomendasikan RAM 16 GB atau lebih untuk menjalankan beberapa qubes secara bersamaan.
-- Ruang penyimpanan**: minimal 36 GB, idealnya 128 GB pada SSD untuk performa optimal.
+- **Ruang penyimpanan**: minimal 36 GB, idealnya 128 GB pada SSD untuk performa optimal.
 
 
 
@@ -148,7 +148,7 @@ Setelah kondisi ini terpenuhi, nyalakan kembali komputer Anda dan akses BIOS/UEF
 
 
 
-*layar pengaktifan** *Layar pengaktifan
+**layar pengaktifan** *Layar pengaktifan*
 
 
 Saat boot dari stik USB, Anda akan langsung dibawa ke menu **GRUB**, di mana Anda dapat memilih tindakan yang akan dilakukan. Dengan menggunakan tombol panah pada keyboard Anda, pilih "Instal Qubes OS" dan tekan "Enter".

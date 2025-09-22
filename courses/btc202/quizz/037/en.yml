@@ -1,0 +1,9 @@
+question: What type of machine is presented as the best compromise for a Bitcoin home node?
+answer: A NUC-type mini-PC
+wrong_answers:
+  - Laptop computer
+  - A supercomputer
+  - A games console
+explanation: |
+  Mini-PCs (NUC, Tiny, OptiPlex Micro...) are low on power consumption, reliable and easy to adapt, making them the ideal compromise.
+reviewed: false

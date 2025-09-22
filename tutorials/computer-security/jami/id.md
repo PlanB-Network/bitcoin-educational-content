@@ -50,11 +50,11 @@ Saat ini, Jami tersedia di banyak sistem. Jami terkenal dengan performa, kelanca
 
 
 
-- Aplikasi ini bersumber terbuka dan gratis**, jadi Anda dapat menggunakannya tanpa biaya.
-- Lengkap dengan fitur-fitur yang berguna**: perangkat lunak ini memungkinkan Anda memanfaatkan banyak pilihan, berkat kemampuan untuk menambahkan plugin dengan mudah dari toko. Bahkan dimungkinkan untuk membuat ekstensi Anda sendiri untuk fitur yang lebih sesuai dengan kebutuhan Anda.
-- Mudah digunakan dan Interface intuitif**: meskipun ada banyak fitur yang ditawarkan Jami, namun masih sangat mudah untuk dipahami.
-- Keamanan yang kuat**: Jami menggabungkan algoritma enkripsi canggih yang menjamin keamanan komunikasi Anda sekaligus menghormati privasi Anda.
-- Sangat mudah diakses dan cepat**: menawarkan komunikasi yang mudah bahkan ketika bandwidth terbatas, untuk meningkatkan keramahan pengguna.
+- Aplikasi ini **bersumber terbuka dan gratis**, jadi Anda dapat menggunakannya tanpa biaya.
+- **Lengkap dengan fitur-fitur yang berguna**: perangkat lunak ini memungkinkan Anda memanfaatkan banyak pilihan, berkat kemampuan untuk menambahkan plugin dengan mudah dari toko. Bahkan dimungkinkan untuk membuat ekstensi Anda sendiri untuk fitur yang lebih sesuai dengan kebutuhan Anda.
+- **Mudah digunakan dan Interface intuitif**: meskipun ada banyak fitur yang ditawarkan Jami, namun masih sangat mudah untuk dipahami.
+- **Keamanan yang kuat**: Jami menggabungkan algoritma enkripsi canggih yang menjamin keamanan komunikasi Anda sekaligus menghormati privasi Anda.
+- **Sangat mudah diakses dan cepat**: menawarkan komunikasi yang mudah bahkan ketika bandwidth terbatas, untuk meningkatkan keramahan pengguna.
 
 
 
@@ -338,9 +338,9 @@ Jami juga menawarkan **fitur lanjutan** untuk pengguna yang ingin melangkah lebi
 
 
 
-- Membuat titik pertemuan**: Fitur ini memungkinkan Anda membuat **titik pertemuan** untuk komunikasi Anda, yang berguna untuk mengatur sesi atau pertukaran yang aman di antara beberapa pengguna.
-- Menghubungkan ke server Jami**: Anda dapat menghubungkan Jami ke **server Jami**, yang dapat meningkatkan performa atau ketersediaan komunikasi, khususnya di lingkungan profesional.
-- Menyiapkan akun SIP**: Anda dapat membuat akun **SIP** (Session Initiation Protocol), sehingga Anda dapat mengintegrasikan Jami dengan sistem telepon yang ada atau melakukan panggilan telepon.
+- **Membuat titik pertemuan**: Fitur ini memungkinkan Anda membuat **titik pertemuan** untuk komunikasi Anda, yang berguna untuk mengatur sesi atau pertukaran yang aman di antara beberapa pengguna.
+- Menghubungkan ke server Jami: Anda dapat menghubungkan Jami ke **server Jami**, yang dapat meningkatkan performa atau ketersediaan komunikasi, khususnya di lingkungan profesional.
+- Menyiapkan akun **SIP**: Anda dapat membuat akun **SIP** (Session Initiation Protocol), sehingga Anda dapat mengintegrasikan Jami dengan sistem telepon yang ada atau melakukan panggilan telepon.
 
 
 

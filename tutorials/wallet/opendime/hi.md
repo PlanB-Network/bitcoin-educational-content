@@ -1,5 +1,5 @@
 ---
-name: ओपनटाइम
+name: OPENDIME
 description: अपना OEPNDIME सेट करें
 ---
 

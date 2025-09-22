@@ -49,7 +49,7 @@ Bitcoin protokolü kriptografi, ağ iletişimi ve ünlü "Blockchain" gibi temel
 Bu derste, bitcoinlerin nasıl alınıp satılacağı, dijital cüzdanlarda güvenli bir şekilde nasıl saklanacağı ve işlemler için nasıl kullanılacağı da dahil olmak üzere Bitcoin'ün bazı parasal yönlerini tartışacağız. Ayrıca, yeni bitcoinler yaratmak ve Bitcoin ağını güvence altına almak için gerekli olan madencilerin rolünü de inceleyeceğiz. Son olarak, Bitcoin'ün geleceğini ve Lightning Network teknolojisinin Bitcoin işlemlerini nasıl geliştirebileceğini keşfedeceğiz.
 
 
-![image](assets/en/01.webp)
+![image](assets/tr/001.webp)
 
 
 Bitcoin'ün parayla olan ilişkimizi tamamen değiştiren yeni bir para sistemi olduğunu anlamak çok önemlidir, bu nedenle nasıl kullanılacağını öğrenmek, kendi fonlarının kontrolünü elinde tutmak isteyen herkes için gerekli bir beceridir.
@@ -90,7 +90,7 @@ Bitcoin'ün parayla olan ilişkimizi tamamen değiştiren yeni bir para sistemi 
 - Bölüm 15 - Bitcoin ve Ekoloji
 
 
-**Bölüm 5 - Bitcoin Nasıl Elde Edilir?
+**Bölüm 5 - Bitcoin Nasıl Elde Edilir?**
 
 
 - Bölüm 16 - Bitcoin Asla Uyumaz!
@@ -113,7 +113,7 @@ Paranın tanımını ve toplumdaki işlevini (Bölüm 1) açıklamadan önce, Ge
 Ne de olsa, kalkış aşamasını geçtiğimiz için henüz benimsenmesinin başlangıç aşamasındayız: bu önemli yenilikle ilgili istediğiniz kadar bilgi edinmek için tam zamanındasınız.
 
 
-![image](assets/en/02.webp)
+![image](assets/tr/002.webp)
 
 
 Burada önemli olan nokta, bu yeni teknolojiyi genel bir şekilde anlamaktır, bu nedenle bu kurstan keyif alacağınızı ve bu yeni küresel para paradigmasında ilerleme kaydetmeye devam edeceğinizi umuyoruz.
@@ -134,7 +134,7 @@ Bitcoin'ün büyüleyici dünyasına dalmaya ve tüm iç işleyişini anlamaya h
 ### Cypherpunk'lar: dijital dünyanın vizyonerleri
 
 
-![image](assets/en/03.webp)
+![image](assets/tr/003.webp)
 
 1980'lerin ve 1990'ların teknolojik evriminin tam ortasında, bir grup insan dijital çağda mahremiyet ve özgürlüğün rolünü derinden sorgulamaya başladı. Daha sonra "cypherpunks" olarak anılacak olan bu kişiler, kriptografinin hükümetlerin ve büyük şirketlerin müdahalelerine karşı bireysel hakları korumak için bir araç olarak kullanılabileceğine inanıyorlardı.
 
@@ -145,7 +145,7 @@ Julian Assange, Wei Dai, Tim May ve David Chaum gibi ikonik isimler hareketin fe
 ### Cypherpunks'ın üç temel belgesi
 
 
-![image](assets/en/04.webp)
+![image](assets/tr/004.webp)
 
 
 Kökleri dijital aktivizm ve kriptografiye dayanan Cypherpunk hareketi, ilkelerini ve gelecek vizyonunu ifade etmek için çeşitli temel metinlerden yararlanmıştır. Bu yazılar arasında özellikle üç tanesi öne çıkmaktadır:
@@ -181,7 +181,7 @@ Bir diğer önemli öncü de Wei Dai'nin "B-para "sıdır. Hiçbir zaman uygulan
 Aşağıdaki resim, birçok teknolojik yenilikle hareketin gelişimini açıkça göstermektedir.
 
 
-![image](assets/en/05.webp)
+![image](assets/tr/005.webp)
 
 
 İşte bu verimli ortamda gizemli Satoshi Nakamoto 2008 yılında Bitcoin whitepaper'ını yayınladı. Bu belgede, merkezi olmayan ve sansüre dirençli bir dijital para birimi yaratmak için Cypherpunk hareketinden Proof of Work ve kriptografik zaman damgaları gibi çeşitli fikirleri birleştirdi.
@@ -222,7 +222,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Paranın evrimi, çağlar boyunca uygarlıkların sürekli gelişen ekonomik ihtiyaçları karşılamadaki ustalığını yansıtan insanlık tarihinin büyüleyici bir yönüdür.
 
 
-![image](assets/en/06.webp)
+![image](assets/tr/006.webp)
 
 
 ### Kabuklardan banka hesaplarına
@@ -233,7 +233,7 @@ Başlangıçta para birimi tahıl, canlı hayvan ya da başka bir emtia gibi som
 Böylece, medeniyetler ilerledikçe ve ticaret yeni bölgelere yayıldıkça, evrensel bir Exchange aracına ihtiyaç duyuldu. Bireyler ilk olarak deniz kabukları ve değerli taşlar gibi nesneleri denediler, ancak bunlar sandıkları kadar dayanıklı ya da kıt değildi. Sonunda altın, nadirliği, dayanıklılığı ve bölünebilirliği nedeniyle standart haline geldi. Altın, zenginliğin ve gücün bir sembolüydü ve günümüzde de öyle olmaya devam etmektedir.
 
 
-![image](assets/en/07.webp)
+![image](assets/tr/007.webp)
 
 
 ### Paranın rolü nedir?
@@ -257,16 +257,16 @@ Bu nedenlerle, para olarak altın, aşağıdaki Aristotelesçi işlevlere dayana
 
 
 
-- Değer deposu**: para, satın alma gücünü geleceğe aktarmak için kullanılabilir, bu nedenle dayanıklı bir malzeme olması gerekir;
-- Exchange** Aracı: Exchange'de takas yerine mal ve hizmetler için para kullanılabilir, böylece tüccarlar arasında isteklerin çakışması önlenir;
-- Hesap birimi**: para aynı zamanda farklı malların değerlerini karşılaştırarak göreceli uygunluklarını daha iyi anlamamızı sağlar.
+- **Değer deposu**: para, satın alma gücünü geleceğe aktarmak için kullanılabilir, bu nedenle dayanıklı bir malzeme olması gerekir;
+- **Exchange Aracı**: Exchange'de takas yerine mal ve hizmetler için para kullanılabilir, böylece tüccarlar arasında isteklerin çakışması önlenir;
+- **Hesap birimi**: para aynı zamanda farklı malların değerlerini karşılaştırarak göreceli uygunluklarını daha iyi anlamamızı sağlar.
 
 
-![image](assets/en/08.webp)
+![image](assets/tr/008.webp)
 
-![image](assets/en/09.webp)
+![image](assets/tr/009.webp)
 
-![image](assets/en/10.webp)
+![image](assets/tr/010.webp)
 
 
 ### Paranın özellikleri
@@ -281,13 +281,13 @@ Tam tersine, devlet güvenceli para birimleri (fiat) kolayca kullanılabilir, an
 Bu kavramı daha iyi açıklamak için etkin bir para biriminin özelliklerini inceleyeceğiz:
 
 
-![image](assets/en/11.webp)
+![image](assets/tr/011.webp)
 
 
 
-- Değiştirilebilirlik**, yani değer kaybı olmaksızın aynı türden başka bir birimle değiştirilebilir;
-- Bölünebilirlik**, farklı hacimlerdeki işlemleri kolaylaştırmak için daha küçük birimlere bölünebilir;
-- Likidite**, yani kolayca mal veya hizmete dönüştürülebilir.
+- **Değiştirilebilirlik**, yani değer kaybı olmaksızın aynı türden başka bir birimle değiştirilebilir;
+- **Bölünebilirlik**, farklı hacimlerdeki işlemleri kolaylaştırmak için daha küçük birimlere bölünebilir;
+- **Likidite**, yani kolayca mal veya hizmete dönüştürülebilir.
 
 
 Bu kriterleri karşılamak için para birimi tarihsel olarak farklı adımlar atarak gelişmiştir:
@@ -325,7 +325,7 @@ Günümüzde Avro ve Dolar gibi başlıca para birimleri güvene dayalı olarak 
 Güvene dayalı bir para birimi, bir kurum, yani Yuan ile Çin gibi bir devlet veya Euro ile Avrupa Birliği gibi bir politik-ekonomik birlik tarafından bu şekilde kararlaştırılan bir para biçimidir. İhracından sorumlu kuruluş merkez bankasıdır (Örneğin, Çin Halk Bankası, ABD Merkez Bankası veya Gine Cumhuriyeti Merkez Bankası'ndan bahsedebiliriz). Para politikasını formüle etmekten ve dolayısıyla ne kadar paranın dolaşıma sokulması veya basılması gerektiğinden sorumlu olan tam da bu kuruluşlardır.
 
 
-![image](assets/en/12.webp)
+![image](assets/tr/012.webp)
 
 
 ### Parasal devalüasyon: Roma İmparatorluğu kadar eski bir strateji
@@ -340,7 +340,7 @@ Mekanizma basittir ve uygarlığın başlangıcından beri var olan uygulamalard
 Ancak bu liderler daha sonra yeni para biriminin değerini kademeli bir şekilde düşürmeye başlar ve fiili olarak her yıl başlangıçtaki altın fiyatına kıyasla değerini yüzde birkaç oranında azaltır. Bu sessiz devalüasyon genellikle halkın yararına olduğu şeklinde gerekçelendirilir. Gerçekte ise, bu emanet para biriminde tasarruf edenler tasarruflarının değerinin düştüğünü görürken, devlet projelerini enflasyon yoluyla finanse etmektedir. Dahası, bu devalüasyon borçların geri ödenmesini kolaylaştırmaktadır.
 
 
-![image](assets/en/13.webp)
+![image](assets/tr/013.webp)
 
 
 Kritik bir anda lider bir duyuru yapar: para birimi artık altınla desteklenmemektedir. Artık güvene dayalı para birimine alışmış ve mali konularda genellikle yanlış bilgilendirilmiş olan halk bu gerçeği kabul eder ve devletin Supply parasını serbestçe manipüle etmesine ve neredeyse hiçbir maliyet olmadan muazzam miktarlarda para basmasına izin verir.
@@ -358,7 +358,7 @@ Sonunda, İmparatorluğun sonundaki Roma sikkelerinde olduğu gibi, para birimin
 Bugün tarihi bir dönüm noktasına tanıklık ediyoruz. Uzun zamandır egemen olan dolar düşüşte görünürken, altın merkezi rolünü kaybetti. Tarihten alınan derslerin çoğu zaman unutulduğunu hatırlatan yeni bir parasal döngünün eşiğinde duruyoruz
 
 
-![image](assets/en/14.webp)
+![image](assets/tr/014.webp)
 
 
 ### Bitcoin bir çözüm mü?
@@ -367,13 +367,12 @@ Bugün tarihi bir dönüm noktasına tanıklık ediyoruz. Uzun zamandır egemen 
 Bu öncüller nedeniyle Bitcoin devrimi ivme kazanıyor. Önceki para birimlerinin aksine, **güvenilir bir üçüncü taraf** gerektirmiyor ve Devleti paradan ayırmayı amaçlıyor.
 
 
-![image](assets/en/15.webp)
 
 
 Aslında Bitcoin, merkezi olmayan bir çözüm ve yeni bir paralel para sistemi önererek kendisini bu sistemik zorluklara bir yanıt olarak sunmaktadır. Tarihsel olarak, altın sahteciliğe karşı direnci nedeniyle bir para birimi olarak tercih edilmişse, Bitcoin de benzer şekilde sahtesi yapılamaz. Dahası, merkezi olmayan ve kriptografik yapısı sayesinde 21 milyon birimle sınırlıdır. Bitcoin şeffaflık ve tarafsızlığa dayanan bir para birimidir ve mevcut merkezi para sistemine cazip bir alternatif sunmaktadır.
 
 
-![image](assets/en/16.webp)
+![image](assets/tr/015.webp)
 
 
 Bitcoin'un dikkat çekmesinin bir diğer nedeni de kaçınılmaz görünen merkez bankası dijital para birimlerinin ya da CBDC'lerin ortaya çıkmasıdır. Bu yeni para biçimi daha merkezi planlı bir ekonomi geliştirecek ve hem bireylerin finansal özgürlüğünü engelleyebilecek hem de otoriter suiistimalleri kolaylaştırabilecektir.
@@ -415,13 +414,13 @@ Hiperenflasyon gerçekleştiğinde, artık yılda %20'den değil, ayda %20'den, 
 Hiperenflasyonun tesadüfen, kapitalizm tarafından ya da muhaliflerin siyasi saldırıları sonucu meydana gelmediğini anlamak çok önemlidir. Hiperenflasyon, merkez bankacıları ve politikacılar tarafından alınan kötü parasal kararların doğrudan sonucudur. Sonuçları her vatandaşı ve hatta gelecek nesilleri etkiler. Bu olgunun gerçek etkisini tam olarak anlamak için sizi aşağıdaki tabloyu okumaya beş dakikanızı ayırmaya davet ediyoruz (ECO204 kursu bu konuyu daha ayrıntılı olarak ele almaktadır). Gördüğünüz gibi, hiçbir ülke ya da para birimi potansiyel olarak güvenli değildir.
 
 
-![image](assets/en/17.webp)
+![image](assets/tr/016.webp)
 
 
 ### Hiperenflasyonun aşamaları nelerdir?
 
 
-![image](assets/en/18.webp)
+![image](assets/tr/017.webp)
 
 
 Hiperenflasyonun meydana gelmesi için belirli olayların gerçekleşmesi gerekir.
@@ -448,7 +447,7 @@ Aşama 1 - Güven kaybı
 - Böylece, mal satın almak için giderek daha fazla banknota ihtiyaç duyulur ve bu da kağıt para kıtlığına neden olur. Buna karşılık olarak hükümetler daha fazla kağıt para basma yoluna gider, bu da enflasyonu daha da körükler.
 
 
-![image](assets/en/19.webp)
+![image](assets/tr/018.webp)
 
 
 4. Aşama - Yeni bir para biriminin ortaya çıkışı
@@ -479,7 +478,7 @@ Alman para birimi o kadar işe yaramaz hale geldi ki bazı vatandaşlar odun yer
 Sonunda yetkililer Almanya, Fransa ve İngiltere'nin borçlarıyla desteklenen ve Alman toprakları tarafından garanti edilen yeni bir para birimi yarattı.
 
 
-![image](assets/en/20.webp)
+![image](assets/tr/019.webp)
 
 
 
@@ -495,7 +494,7 @@ Macaristan kendisini çatışmanın kaybeden tarafında buldu ve endüstriyel ü
 Tedavüle sürülen son banknot 1946 yılında 100 milyon milyar Pengo (100,000,000,000,000,000) olmuştur.
 
 
-![image](assets/en/21.webp)
+![image](assets/tr/020.webp)
 
 
 
@@ -514,7 +513,6 @@ Haziran 2007'de hükümet zaten fiyat kontrolleri uygulayarak tepki göstermişt
 Nisan 2009'da Maliye Bakanı Zimbabve dolarının askıya alındığını duyurdu ve ticaret için farklı yabancı para birimlerinin kullanılmasına izin verdi. Tüm banka hesapları, emekli maaşları ve finans kurumları bakiyelerinin bir gecede buharlaştığını gördü.
 
 
-![image](assets/en/15.webp)
 
 
 Sonuç olarak hiperenflasyon, para biriminin değerini hızla düşürerek tasarrufların erozyona uğramasına ve parasal sisteme olan güvenin kaybolmasına neden olur. Voltaire'in bir zamanlar önerdiği gibi, itibari bir para birimi her zaman eninde sonunda gerçek değerini kaybedecek ve sıfıra doğru yaklaşacaktır.
@@ -539,7 +537,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 Bitcoin, önceden tanımlanmış maksimum miktarı **21 milyon birim** olan merkezi olmayan bir dijital para birimidir. Bu içsel kıtlık özelliği, bilgisayar kodu tarafından belirlenir ve protokole katılan tüm kullanıcıların fikir birliği ile güçlendirilir.
 
 
-![image](assets/en/22.webp)
+![image](assets/tr/021.webp)
 
 
 Parasal ihracı, zaman içinde yaratılan bitcoin miktarını temsil eden bir eğri ile gösterilebilir. Örneğin, 2022 yılında dolaşımda yaklaşık 18,5 milyon bitcoin bulunmaktaydı. Tahminler, 2025 yılına kadar toplam Supply'ün yaklaşık %93'ünü temsil eden yaklaşık 19,5 milyon bitcoin olacağını ve 2037 yılına kadar bu rakamın 20,4 milyona ulaşacağını göstermektedir.
@@ -551,7 +549,7 @@ Parasal ihracı, zaman içinde yaratılan bitcoin miktarını temsil eden bir e�
 Yeni bitcoinlerin yaratılması Mining sürecinin sonucudur. Özetle, madenciler işlemleri doğrulayan ve güvence altına alan karmaşık matematiksel problemleri (Hash) çözen güçlü bilgisayarlar kullanır. Bir problem çözüldüğünde (ya da geçerli bir Hash bulunduğunda), Miner, ağ üzerinde yapılan tüm işlemleri kaydeden merkezi olmayan ve dağıtılmış bir Ledger olan Blockchain'e yeni bir işlem bloğu ekler. Blockchain şeffaflık ve güvenlik sağlar, çünkü her blok bir öncekine bağlıdır ve ağın mutabakatı olmadan geçmiş verileri değiştirmeyi neredeyse imkansız hale getirir.
 
 
-![image](assets/en/23.webp)
+![image](assets/tr/022.webp)
 
 
 Bu görevi başarıyla yerine getirdikten sonra madenciler her on dakikada bir yeni bitcoin ihracı ile ödüllendirilir. Bu ödül her 210.000 blokta, yani yaklaşık her dört yılda bir ("Halving" olarak bilinen bir olay) yarıya inecek şekilde programlanmış olup, para basma eğrisine merdiven benzeri bir şekil vermektedir. Bu mekanizma nedeniyle, matematiksel olarak yeni bitcoin yaratımının 2140 yılında, toplam sayı 21 milyon sınırına ulaştığında duracağı tahmin edilebilir.
@@ -596,7 +594,7 @@ Mining kavramını [Miner bölümünde] (https://planb.network/courses/2b7dc507-
 Geçerli bir Hash bulmanın zorluğu bir tür döngüyü takip eder: madencilerin sayısı artar ve daha fazla blok daha hızlı bulunursa, bu bir blok bulmak için ortalama sürenin azalmasına neden olur ve böylece zorluk artar. Sonuç olarak, madencilerin bulduğu blok sayısı azalır, bu da mekanizmanın blok başına ortalama 10 dakikaya geri döndüğü anlamına gelir. Görsel bir gösterim için lütfen aşağıdaki resme bakın.
 
 
-![image](assets/en/24.webp)
+![image](assets/tr/023.webp)
 
 
 Tersine, daha az madenci çalışırsa ve bloklar daha uzun sürerse, Mining zorluğu azalır ve ortalama blok süresini tekrar hızlandırır.
@@ -612,7 +610,7 @@ Böylece, çıkarılan bitcoin sayısı 21 milyon sınırına yaklaştıkça, ma
 - Oyun teorisi, insan rasyonalitesine dayanan matematiksel bir kavramdır. Bireylerin mantıklı hareket ettiklerini, başkalarının potansiyel kararlarını göz önünde bulundururken kendi faydalarını en üst düzeye çıkarmaya çalıştıklarını varsayar. Bitcoin'da oyun teorisi, madencilerin ve kullanıcıların çoğunluğunun ağın çıkarına en uygun şekilde hareket etmesini sağlamaya yardımcı olur. Aslında, protokol değişiklikleri kullanıcılar tarafından oylandığından, Bitcoin protokolünde yapılacak herhangi bir değişiklik tüm kullanıcı topluluğunun onayını gerektirir ki bu da oldukça karmaşıktır. Dolayısıyla, eğer birisi 22 milyonluk bir Bitcoin yaratmak isterse, tüm kullanıcıları kendi birikimlerinin değerini gönüllü olarak düşürmeye ikna etmek zorunda kalacaktır ki Bitcoin küresel olduğu ve merkezi bir grup tarafından yönetilmediği için bunun gerçekleşmesi pek olası değildir.
 
 
-![image](assets/en/25.webp)
+![image](assets/tr/024.webp)
 
 
 Para biriminin değerinin düşürülmesi fikri Bitcoin'in temel felsefesine aykırıdır, bu nedenle toplam miktarında bir değişiklik olması pek olası değildir.
@@ -682,7 +680,7 @@ Bir Bitcoin Wallet birçok şekil ve formda olabilir: bilgisayarınızdaki bir y
 Dolayısıyla portföyler, her zaman kilit bir soru etrafında toplanan geniş kullanım ailelerine ayrılabilir: fonların sahibi siz misiniz yoksa paranızın kontrolünü üçüncü bir tarafa mı bırakıyorsunuz? Bu konuyu bir sonraki bölümde ayrıntılı olarak inceleyeceğiz, ancak soru basittir: para sizin cebinizde mi yoksa bankacınızın cebinde mi?
 
 
-![image](assets/en/26.webp)
+![image](assets/tr/025.webp)
 
 
 ### Bitcoin Wallet nasıl çalışır?
@@ -717,7 +715,7 @@ Bu adresler Wallet cihazınız tarafından otomatik olarak oluşturulur ve güve
 Özetle bu teknoloji, alıcının fonlarımızı çalmasına izin vermeden bitcoin almamızı sağlıyor! Bir posta kutusu uygun bir metafor olabilir: insanlar içine para yatırabilir, ancak onu açabilecek tek kişi sizsiniz.
 
 
-![image](assets/en/27.webp)
+![image](assets/tr/026.webp)
 
 
 ### Bitcoinler Wallet'ün içinde mi?
@@ -726,7 +724,7 @@ Bu adresler Wallet cihazınız tarafından otomatik olarak oluşturulur ve güve
 Anahtarlarınız Wallet'inizde saklansa da, bitcoinlerin kendileri aslında Bitcoin eşler arası ağ içinde halka açık dağıtılmış bir Ledger olan Blockchain'te "saklanır" (bu konuya 3. bölümde değineceğiz). Bu da Wallet'inizi içeren cihazı kaybetmenizin bitcoinlerinizi kaybetmenize neden olmayacağı anlamına gelir. Wallet'inizi yeniden oluşturmanızı ve Bitcoin'nızı harcamanızı sağlayan şey aslında özel anahtardır, bu nedenle her zaman düzgün bir şekilde güvence altına almayı unutmayın!
 
 
-![image](assets/en/28.webp)
+![image](assets/tr/027.webp)
 
 
 Neyse ki, 2017'den bu yana, özel anahtar, 'Mnemonic cümlesi' olarak bilinen ve kaydedilmesi oldukça kolay olan 12 veya 24 kelimelik basit bir liste ile temsil edilebilmektedir. Bu ifade, fonlarınız için bir yedek görevi görür ve herhangi bir Bitcoin Wallet yazılımı veya uygulaması kullanarak Wallet'inizi yeniden oluşturmanıza olanak tanır. Bu nedenle, bu kelime listesini bulan herkes bitcoinlerinize erişebilir.
@@ -738,7 +736,7 @@ Neyse ki, 2017'den bu yana, özel anahtar, 'Mnemonic cümlesi' olarak bilinen ve
 Ya birisi yanlışlıkla 12 veya 24 kelimelik listemizi tahmin ederse? Kısa cevap, Wallet'i oluşturmak için kullanılan kriptografi sayesinde bunun pek olası olmadığıdır. Bir perspektife oturtmak gerekirse, yanlışlıkla aynı Mnemonic ifadenizi keşfetmek, 1 ile 2 arasındaki "doğru" sayıyı 256'nın gücüne yükseltilmiş olarak bulmaya benzer ki bu da neredeyse Evren'deki "doğru" atomu bulmakla eşdeğerdir. Bununla birlikte, bu varsayılan güvenlikten memnun değilseniz, Bitcoin Wallet'inize bir passphrase (ekstra bir kelime) ekleyerek her zaman geliştirebilirsiniz.
 
 
-![image](assets/en/29.webp)
+![image](assets/tr/028.webp)
 
 
 Bu nedenle, bir sonraki bölümde detaylandıracağımız iyi güvenlik uygulamalarını takip ederseniz Bitcoin Wallet'nizin hacklenme olasılığı astronomik derecede düşüktür.
@@ -774,7 +772,7 @@ Bitcoin sahibi olduğunuzda, fonlarınızın güvenliği büyük bir endişe kay
 Aslında evrensel bir cevap veya çözüm yoktur, bu nedenle güvenlik önlemlerinizi ihtiyaçlarınıza göre uyarlamanıza yardımcı olacağından bu soruları yanıtlamak için zaman ayırın.
 
 
-![image](assets/en/30.webp)
+![image](assets/tr/029.webp)
 
 
 ### Bitcoin cüzdanları hakkında karmaşıklık açısından düşünmek
@@ -784,14 +782,14 @@ Aşağıda, çeşitli güvenlik seviyeleri tanımlayacağız:
 
 
 
-- Seviye 0**, bitcoinlerinizin tek sahibi olmadığınız bir "saklama hizmeti" kullanırsınız. Bu güvenilir üçüncü tarafın istediğiniz zaman fonlarınıza erişiminizi kısıtlayabileceğini unutmayın. Bu durumda, finansal egemenlik düzeyiniz, bir banka hesabına sahip geleneksel bir bankacılık sistemindekine benzer.
+- **Seviye 0**, bitcoinlerinizin tek sahibi olmadığınız bir "saklama hizmeti" kullanırsınız. Bu güvenilir üçüncü tarafın istediğiniz zaman fonlarınıza erişiminizi kısıtlayabileceğini unutmayın. Bu durumda, finansal egemenlik düzeyiniz, bir banka hesabına sahip geleneksel bir bankacılık sistemindekine benzer.
 
 
-![image](assets/en/31.webp)
+![image](assets/tr/030.webp)
 
 
 
-- Seviye 1**, telefonunuzda veya bilgisayarınızda bir Bitcoin Wallet kullanırsınız, burada bitcoinlerinizin tek sahibi siz olursunuz ve işlemlerinizi kolayca gerçekleştirebilirsiniz. Yukarıda bahsedilen araç "Hot Wallet" olarak adlandırılır, çünkü özel anahtar internet erişimi olan bir cihazda saklanır. Bu durumda, telefonunuzu veya bilgisayarınızı kaybetmeniz durumunda fonlarınıza yeniden erişim sağlamak için Mnemonic ifadenizi yedeklemeniz çok önemlidir.
+- **Seviye 1**, telefonunuzda veya bilgisayarınızda bir Bitcoin Wallet kullanırsınız, burada bitcoinlerinizin tek sahibi siz olursunuz ve işlemlerinizi kolayca gerçekleştirebilirsiniz. Yukarıda bahsedilen araç "Hot Wallet" olarak adlandırılır, çünkü özel anahtar internet erişimi olan bir cihazda saklanır. Bu durumda, telefonunuzu veya bilgisayarınızı kaybetmeniz durumunda fonlarınıza yeniden erişim sağlamak için Mnemonic ifadenizi yedeklemeniz çok önemlidir.
 
 
 Örneğin, Sparrow wallet'i Hot Wallet olarak kullanabilirsiniz:
@@ -800,7 +798,7 @@ Aşağıda, çeşitli güvenlik seviyeleri tanımlayacağız:
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- Seviye 2**, fiziksel bir Wallet kullanıyorsunuz ve 12/24 kelimelik listenizi güvence altına aldınız. Genellikle "Cold Wallet" olarak adlandırılır çünkü anahtarlarınız internete bağlı olmayan bir cihazda saklanır. Bu durumda, her zaman her işlemi cihazınızla imzalamanız gerekecektir, bu da fonlarınızı günlük olarak daha az erişilebilir hale getirir.
+- **Seviye 2**, fiziksel bir Wallet kullanıyorsunuz ve 12/24 kelimelik listenizi güvence altına aldınız. Genellikle "Cold Wallet" olarak adlandırılır çünkü anahtarlarınız internete bağlı olmayan bir cihazda saklanır. Bu durumda, her zaman her işlemi cihazınızla imzalamanız gerekecektir, bu da fonlarınızı günlük olarak daha az erişilebilir hale getirir.
 
 
 Örneğin, bir Ledger, bir Satochip veya bir Tapsigner kullanabilirsiniz:
@@ -812,11 +810,11 @@ https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672
 
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
-![image](assets/en/32.webp)
+![image](assets/tr/031.webp)
 
 
 
-- Seviye 3**, seviye 1 veya 2 Wallet kullanıyorsunuz, ancak ek bir passphrase eklediniz. Bu durumda, hem 12/24 kelimelik listeyi **hem de passphrase'ünüzü** yedeklemeniz gerektiğini unutmayın. İdeal olarak, bu iki bilgi parçası iki farklı yerde saklanır.
+- **Seviye 3**, seviye 1 veya 2 Wallet kullanıyorsunuz, ancak ek bir passphrase eklediniz. Bu durumda, hem 12/24 kelimelik listeyi **hem de passphrase'ünüzü** yedeklemeniz gerektiğini unutmayın. İdeal olarak, bu iki bilgi parçası iki farklı yerde saklanır.
 
 
 BIP39 passphrase'nın kullanımı ve işleyişi hakkında daha fazla bilgi edinmek için:
@@ -824,14 +822,14 @@ BIP39 passphrase'nın kullanımı ve işleyişi hakkında daha fazla bilgi edinm
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![image](assets/en/33.webp)
+![image](assets/tr/032.webp)
 
 
 
-- Seviye 4**, bir "Multisig" Wallet oluşturmak için bir dizi cüzdan kullanırsınız, bu da bir işlem yapmak için birden fazla imzanın gerekli olduğu anlamına gelir. Bu durumda, Multisig'nin her bir parçasının farklı konumlarda saklanması gerektiğini unutmayın. Bu yaklaşım genellikle büyük miktarların yönetimi ve kurumsal amaçlar için Bitcoin'in gelişmiş bir kullanımı olarak kabul edilir.
+- **Seviye 4**, bir "Multisig" Wallet oluşturmak için bir dizi cüzdan kullanırsınız, bu da bir işlem yapmak için birden fazla imzanın gerekli olduğu anlamına gelir. Bu durumda, Multisig'nin her bir parçasının farklı konumlarda saklanması gerektiğini unutmayın. Bu yaklaşım genellikle büyük miktarların yönetimi ve kurumsal amaçlar için Bitcoin'in gelişmiş bir kullanımı olarak kabul edilir.
 
 
-![image](assets/en/34.webp)
+![image](assets/tr/033.webp)
 
 
 Elbette, farklı kullanım durumları da farklı Bitcoin cüzdanları gerektirir ve herkese uyan tek bir çözüm yoktur.
@@ -884,7 +882,7 @@ Kelimenin tam anlamıyla boş bir kağıt almalı veya bu [şablonu] (https://bi
 Lütfen makalenin nasıl derleneceğine dair bir örneği aşağıda bulabilirsiniz: kelimeler sahtedir, bu yüzden onları kullanmayın!
 
 
-![image](assets/en/35.webp)
+![image](assets/tr/034.webp)
 
 
 ### Doğru yapmak için ipuçlarımız
@@ -893,7 +891,7 @@ Lütfen makalenin nasıl derleneceğine dair bir örneği aşağıda bulabilirsi
 Mnemonic cümlesini açık ve okunaklı bir şekilde kopyalarken herhangi bir hata yapmadığınızdan emin olun, aksi takdirde mirasçılarınız bunu okumakta zorlanabilir ve fonları geri alamayabilir. Kelimeleri kaydettikten sonra, ikinci bir kopya oluşturmanız ve bunu ilkinden farklı bir yerde saklamanız tavsiye edilir. Bu, orijinalin kaybolması veya hasar görmesi durumunda bir yedeğinizin olmasını sağlar.
 
 
-![image](assets/en/36.webp)
+![image](assets/tr/035.webp)
 
 
 Kelime listeleri kolayca hatırlayabileceğiniz güvenli bir yerde saklanmalıdır. Kaybetmenize yol açabilecek aşırı karmaşık gizleme planları oluşturmaktan kaçının.
@@ -931,7 +929,7 @@ Bitcoinlerinizi uzun vadede güvence altına almanın bir yöntemi, Mnemonic ifa
 Çeşitli çözümler mevcuttur: "Blockmit" gibi bazıları düşük maliyetlidir, diğerleri ise daha özel ekipman gerektirebilir. Bu konuyu akademimizin [tutorials](https://planb.network/en/tutorials/wallet) bölümünde daha ayrıntılı olarak inceleyebilirsiniz.
 
 
-![image](assets/en/37.webp)
+![image](assets/tr/036.webp)
 
 
 ### Gelecek nesli düşünün!
@@ -943,7 +941,7 @@ Bu ilk uygulamanın yanı sıra, bir miras planı oluşturmak, bitcoinlerinizin 
 Bitcoinleriniz için miras planı konusunu daha fazla araştırmak isterseniz, Pamela Morgan'ın [Cryptoasset Inheritance Plan] (https://planb.network/resources/books/28) kitabını okumanızı veya planınızı oluşturma konusunda rehberlik sağladığımız BTC102 kursuna kaydolmanızı öneririz.
 
 
-![image](assets/en/38.webp)
+![image](assets/tr/037.webp)
 
 
 ### Gizlilik önemlidir
@@ -1000,7 +998,7 @@ Bitcoin cüzdanlarının temellerini ve bunları güvence altına almak için en
 ### Biraz tarihçeyle başlayalım.
 
 
-![image](assets/en/39.webp)
+![image](assets/tr/038.webp)
 
 
 31 Ekim 2008, yeni finansal teknoloji Bitcoin'in doğuşuna işaret etmektedir. Bu gün, anonim Satoshi Nakamoto, internette gizliliği teşvik etmeye adanmış bir kriptografi meraklıları topluluğu olan cypherpunks'ın posta listesine gönderdiği bir e-posta aracılığıyla yeniliğini dünyaya sundu. Bu e-posta, Bitcoin'in nasıl çalıştığını gösteren "Beyaz Kitap" adlı bir belge içeriyordu.
@@ -1009,19 +1007,19 @@ Bitcoin cüzdanlarının temellerini ve bunları güvence altına almak için en
 Bu girişim, muhtemelen dijital nakit sistemleri oluşturma girişimlerindeki önceki başarısızlıklar nedeniyle generate'ün hemen ilgisini çekmedi. Bununla birlikte, bu Beyaz Kitap sonunda Bitcoin kullanıcıları için bir referans haline geldi ve yıllar boyunca Bitcoin ekosisteminde birçok tartışmaya konu oldu.
 
 
-![image](assets/en/40.webp)
+![image](assets/tr/039.webp)
 
 
 3 Ocak 2009'da Satoshi, "Genesis bloğu" olarak da bilinen ve Bitcoin Blockchain'in lansmanını işaret eden ilk bloğu oluşturarak Bitcoin ağının resmi açılışını yaptı. Bu blok Bitcoin'nın misyonunu yansıtan açıklayıcı bir mesaj içermektedir: "03/jan/2009 Şansölye bankalar için ikinci kurtarma paketinin eşiğinde."
 
 
-![image](assets/en/41.webp)
+![image](assets/tr/040.webp)
 
 
 > "Silahlanma yarışında büyük bir savaşı kazanabilir ve
 > birkaç yıl boyunca yeni özgürlük alanı." - Satoshi Nakamoto
 
-![image](assets/en/44.webp)
+![image](assets/tr/041.webp)
 
 
 ### Bitcoin protokolü hayata geçiyor
@@ -1030,7 +1028,7 @@ Bu girişim, muhtemelen dijital nakit sistemleri oluşturma girişimlerindeki ö
 9 Ocak 2009'da Satoshi, Bitcoin 0.1.0 sürümünün yayınlandığını duyurdu. Kısa bir süre sonra, Hal Finney yazılımı ele geçirdi ve ağa katıldı, bu da ağda iki düğümün ve dolayısıyla iki madencinin varlığına işaret etti. Hatta Finney bu adımı 'Running Bitcoin' şeklinde bir tweet atarak ölümsüzleştirdi. 12 Ocak 2009'da Bitcoin ve Hal Finney arasında 10 BTC'lik ilk Satoshi işlemi yapıldı ve 170. bloğa geri dönerseniz bunu kolayca bulabilirsiniz.
 
 
-![image](assets/en/43.webp)
+![image](assets/tr/042.webp)
 
 
 Bitcoin'e olan ilgi hızla artarak birçok insanın onu test etmesine, tartışmalara katılmasına, hataları çözmesine ve etik, ekonomik ve felsefi yönleri üzerine düşünmesine yol açtı. İnsanlar öylesine büyülendi ki, Satoshi bu tür iletişimleri kolaylaştırmak için 22 Kasım 2009'da BitcoinTalk forumunu oluşturdu.
@@ -1038,10 +1036,10 @@ Bitcoin'e olan ilgi hızla artarak birçok insanın onu test etmesine, tartışm
 Forum kısa sürede Bitcoin kullanıcıları için tercih edilen tartışma yeri haline geldi, öyle ki [Bitcoin logosu] (https://bitcointalk.org/index.php?topic=64.0), ünlü [HODL] (https://bitcointalk.org/index.php?topic=375643.0) ve hatta [Pizza günü] (https://bitcointalk.org/index.php?topic=137.msg1195) gibi Bitcoin ile ilişkili ünlü memler ve semboller buradan doğdu.
 
 
-**Laszlo Hanyecz 22 Mayıs 2010 tarihinde 10.000 BTC karşılığında iki pizza almayı teklif ederek tarihe geçti: Bitcoin ilk kez fiziksel mal satın almak için kullanıldı.
+**Laszlo Hanyecz 22 Mayıs 2010 tarihinde 10.000 BTC karşılığında iki pizza almayı teklif ederek tarihe geçti: Bitcoin ilk kez fiziksel mal satın almak için kullanıldı.**
 
 
-![image](assets/en/42.webp)
+![image](assets/tr/043.webp)
 
 
 ### Satoshi Nakamoto'nun ortadan kaybolması
@@ -1063,7 +1061,7 @@ Bazıları için Bitcoin bir [miselyum](https://brandonquittem.com/Bitcoin-is-th
 Satoshi Nakamoto'nun yazıları hakkında daha fazla bilgi edinmek için Phil Champagne tarafından yazılan ["The Book of Satoshi"] (https://planb.network/en/resources/books/98) veya ARTE belgeseli "Le mystaire Satoshi "yi okumanızı öneririz.
 
 
-![image](assets/en/45.webp)
+![image](assets/tr/044.webp)
 
 
 > "Geleneksel para biriminin temel sorunu, işlemesi için gereken güven unsurudur. Para biriminin değerini düşürmemesi için merkez bankasına güvenilmelidir, ancak itibari para birimlerinin tarihi bu güvenin ihlal edilmesiyle doludur. Bankalara paramızı tutacakları ve elektronik olarak transfer edecekleri konusunda güvenilmelidir, ancak onlar paranın çok az bir kısmını rezervlerinde tutarak kredi balonu dalgaları halinde ödünç verirler." - [Satoshi Nakamoto](https://Satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
@@ -1095,7 +1093,7 @@ Daha sonra Bob, Bitcoin Wallet'ini açıp "gönder" tuşuna basarak işlemi ger�
 İşlemi sonuçlandırmak için Bob, transfer etmek istediği bitcoinlerin sahibi olduğunu doğrulamak için özel anahtarıyla imzalamalıdır. Bu adım genellikle mobil cüzdanlarda otomatiktir veya fiziksel Wallet'ünüzde bir onay şeklini alır: "X'i Y'ye göndermek istediğinizden emin misiniz? Evet ya da hayır".
 
 
-![image](assets/en/46.webp)
+![image](assets/tr/045.webp)
 
 
 **Neden ücret ödüyoruz? ** Ücretler, bloklara işlem eklemek için serbest bir piyasa oluşturmak için gereklidir. Aslında, bir bloğun boyutu 1 MB'dir (SegWit güncellemesinden sonra 4 MB'ye genişletilmiştir), bu nedenle bir bloğa "eklenebilecek" işlem sayısı blok başına birkaç bin işlemle sınırlıdır. Bir işlemin boyutu karmaşıklığına bağlıdır. Bu nedenle, daha karmaşık işlemler genellikle daha yüksek ücretlere tabidir.
@@ -1107,7 +1105,7 @@ Daha sonra Bob, Bitcoin Wallet'ini açıp "gönder" tuşuna basarak işlemi ger�
 Bu aşamada, işlem oluşturulmuştur ve Bob'un Wallet'i bunu Bitcoin ağıyla paylaşacaktır. Bunu yapmak için, Wallet, bu bilgiyi diğer düğümlere yayacak olan Bitcoin ağının bir düğümü ile iletişim kuracaktır. Bu tür bir işlem tüm ağın bu yeni işlemi görmesini ve dikkate almasını sağlar.
 
 
-![image](assets/en/47.webp)
+![image](assets/tr/046.webp)
 
 
 Bu noktada, bu işlem herkes tarafından biliniyor olsa da (Mempool adı verilen bir araç aracılığıyla), işlemleri Blockchain'ye dahil ederek doğrulayan tek kişi olan Miner tarafından bir bloğa eklenene kadar onaylanmış sayılamaz.
@@ -1116,7 +1114,7 @@ Bu noktada, bu işlem herkes tarafından biliniyor olsa da (Mempool adı verilen
 Aslında madenciler, geçerli ve onaylanmamış işlemleri bir blok halinde derlemek için toplama rolüne sahiptir. Özetle, bloklarının Bitcoin Blockchain'te bir sonraki blok olması için "Proof of Work" adı verilen bir süreçte kriptografik bir bulmacayı çözmeleri gerekir.
 
 
-![image](assets/en/48.webp)
+![image](assets/tr/047.webp)
 
 
 ### 3. Adım: İşlem bir Miner tarafından bir blok halinde çıkarılır.
@@ -1125,7 +1123,7 @@ Aslında madenciler, geçerli ve onaylanmamış işlemleri bir blok halinde derl
 Proof of Work sistemi söz konusu blok için geçerli bir "Hash" bulmayı gerektirir: bunu blokla ilişkili 256 karakterden oluşan benzersiz bir parmak izi olarak düşünün. Bu Hash'ün geçerliliği Bitcoin ağının zorluk oranına bağlıdır (daha sonra daha fazla ayrıntıya gireceğiz). Şimdilik, bir Miner'nin geçerli bir blok bulduğunu ve Bob'ün Alice'e yaptığı işlemin buna dahil olduğunu düşünün. Ardından, yeni geçerli blok tüm Bitcoin kullanıcıları için ortak Ledger olan Blockchain'e eklenir.
 
 
-![image](assets/en/49.webp)
+![image](assets/tr/048.webp)
 
 
 ### Adım 4: Blok geçerlidir ve Alice'in referans düğümü tarafından doğrulanır.
@@ -1134,7 +1132,7 @@ Proof of Work sistemi söz konusu blok için geçerli bir "Hash" bulmayı gerekt
 Bu aşamada işlem geçerli kabul edilir: Miner daha sonra yeni bloğu kendi düğümü aracılığıyla ağa yayar ve Alice'nin Wallet'sı güncellenir.
 
 
-![image](assets/en/50.webp)
+![image](assets/tr/049.webp)
 
 
 **Not:** Alice'e adreslerinden birinde bitcoin aldığı bildirilse bile, işlemin ancak **altı** onay aldıktan sonra değişmez olarak kabul edilmesi tavsiye edilir. Bu, Bob'in işlemini içeren bloğun üzerine altı blok daha kazılması gerektiği anlamına gelir. Başka bir deyişle, bir işlem Blockchain'da ne kadar eski olursa, o kadar değişmez hale gelir.
@@ -1177,7 +1175,7 @@ Düğümler, çeşitli önemli işlevleri yerine getirdikleri için Bitcoin ağ 
 Bu nedenle, Bitcoin düğümü olarak adlandırılan (genellikle [Bitcoin core](https://Bitcoin.org/en/Bitcoin-core/)) bir parça Bitcoin yazılımı çalıştıran herhangi bir cihaz, ağın merkezsizleştirilmesine katkıda bulunur.
 
 
-![image](assets/en/51.webp)
+![image](assets/tr/050.webp)
 
 
 ### Düğümler Bitcoin'in merkezi çekirdeğidir.
@@ -1189,7 +1187,7 @@ Her düğüm, işlem doğrulamasına izin veren ve herhangi bir dolandırıcıl�
 Düğümler blokların ve işlemlerin geçerliliğini doğrulayabilir çünkü Bitcoin mutabakatının kurallarını takip ederler. Bu kurallar, Bitcoin'ün Mining ödül miktarı (bir sonraki bölümde daha ayrıntılı olarak tartışacağız) ve dolaşımdaki Bitcoin miktarı gibi para politikasını belirler. Düğümler, Bitcoin'ün kurallarını uygulayarak ağın tarafsız kalmasını sağladıkları için bir bakıma ağın hukuk sistemi olarak hareket ederler. Mutabakat kuralları neredeyse hiç değişmez, çünkü değişiklik yapmak için tüm düğümlerin onayı gereklidir.
 
 
-![image](assets/en/52.webp)
+![image](assets/tr/051.webp)
 
 
 Protokol içindeki yönetişim bu temel kursun kapsamı dışındadır, ancak bir Bitcoin düğümünü çalıştıran her kullanıcının hangi kurallara uyacağına karar verebileceğini belirtmek önemlidir. Bir kullanıcı farklı kurallara uymayı seçebilir (yani kodda değişiklikler yapabilir), ancak bu değişiklikler mevcut fikir birliği kurallarını geçersiz kılarsa, o düğüm artık Bitcoin ağının bir parçası olmayacaktır. Sonuç olarak, büyük değişiklikler nadirdir ve farklı ideolojilere ve çıkarlara sahip binlerce katılımcı arasında önemli bir koordinasyon gerektirir, bu da onları tüm Bitcoin kullanıcıları tarafından 'daha iyi' olarak kabul edilen güncellemeler sağlamaya zorlar.
@@ -1201,7 +1199,7 @@ Protokol içindeki yönetişim bu temel kursun kapsamı dışındadır, ancak bi
 Kendi node'unuzu kurmak istediğinizde, farklı bakım maliyetlerine sahip çeşitli seçenekler mevcuttur. Bitcoin core yazılımını bilgisayarınızda çalıştırabilirsiniz, ancak Blockchain yaklaşık ~500GB olduğundan önemli miktarda depolama alanı gerektirecektir. Bu kısıtlamanın üstesinden gelmek için, bir "pruned düğümü" oluşturarak yalnızca son N bloğu bellekte tutmayı seçebilirsiniz. Bu ikinci çözüm için maliyet ihmal edilebilir düzeydedir çünkü düğüm yalnızca ihtiyaç duyduğunuzda aktif olur.
 
 
-![image](assets/en/53.webp)
+![image](assets/tr/052.webp)
 
 
 İkinci bir seçenek ise bu amaç için yeterince büyük bir SSD'ye (yaklaşık ~2TB) sahip Raspberry Pi 4 gibi özel bir donanım parçası kullanmaktır. Donanımı satın almanız gerekiyorsa bu diğer seçenek daha pahalıdır, ancak elektrik tüketimi açısından yılda 10,00 € 'dan biraz daha azını temsil eder.
@@ -1218,7 +1216,7 @@ Bir Bitcoin düğümünün donanım kaynakları, depolama ve bant genişliği a�
 Gerçekten de herkesin bir düğüm çalıştırmak için iyi bir nedeni vardır! Maliyetler ve çabalar, elde edilen faydaya kıyasla minimum düzeydedir. Tek yapmanız gereken maceraya atılmak ve Bitcoin ağını hep birlikte oluşturmak için binlerce diğer bitcoin kullanıcısına katılmak.
 
 
-![image](assets/en/54.webp)
+![image](assets/tr/053.webp)
 
 
 Aksine, bloklar 100 kat daha ağır olsaydı, her 10 dakikada 100 kat daha fazla işlem yapabilirdik, ancak bir Bitcoin düğümü çalıştırmak için 50 TB'lık bir Hard diski, ayda 500 GB'ın üzerinde bir bant genişliği ve 10 dakikadan daha kısa bir sürede yüz binlerce işlemi doğrulayabilen bir donanım parçası gerekirdi. Blokların 100 kat daha büyük olduğu bu varsayımsal durumda, bir Bitcoin düğümünü çalıştırmak ortalama bir insan için erişilebilir olmayacaktır, bu da hem protokolün merkeziyetsizliğini hem de işlemlerin ve mutabakat kurallarının değişmezliğini tehlikeye atacaktır.
@@ -1239,7 +1237,7 @@ Bu zaferin ardından, düğümler SegWit adlı bir güncellemeyi etkinleştirere
 **Madenciler ağın güvenliğini sağlar ve bloklara işlem ekler. Bitcoin Proof of Work'yi çözmek için ASIC makineleri aracılığıyla elektrik kullanırlar.**
 
 
-![image](assets/en/55.webp)
+![image](assets/tr/054.webp)
 
 
 ### Proof of Work'in Açıklaması
@@ -1262,7 +1260,7 @@ Makineler sürekli çalışır ve ortalama 10 dakika sonra bir kazanan ortaya ç
 Her 2016 blokta (yaklaşık iki haftada bir), **zorluk ayarlaması** küresel Mining oyununu katılımcı sayısına göre yeniden dengeler. Bu ayarlama gereklidir çünkü madencilerin sayısı ve birleşik hesaplama güçleri zaman içinde önemli ölçüde değişebilir. Hedef blok süresini korumak için ağ, son 2016 bloğunun ne kadar hızlı çıkarıldığına bağlı olarak zorluk seviyesini yeniden ayarlar. Eğer çok hızlı kazılmışlarsa, zorluk seviyesi artar ve doğru Hash'yi bulmak zorlaşır. Aksine, eğer çok yavaş çıkarılmışlarsa, zorluk azalır ve daha kolay hale gelir.
 
 
-![image](assets/en/24.webp)
+![image](assets/tr/055.webp)
 
 
 ### Mining sürekli gelişiyor
@@ -1271,13 +1269,13 @@ Her 2016 blokta (yaklaşık iki haftada bir), **zorluk ayarlaması** küresel Mi
 Yıllar içinde madenciler, mümkün olan en düşük maliyetle en az miktarda enerji tüketirken saniyede mümkün olduğunca çok hash üretmek (Hashrate) için kendilerini giderek daha verimli bilgisayar donanımlarıyla donattılar. Satoshi veya Hal Finney gibi ilk madenciler yalnızca CPU'larını kullanarak madencilik yaparken, diğerleri Mining'i grafik kartlarıyla kullanmaya başladı. Günümüzde madenciler ASIC'ler (Uygulamaya Özel Entegre Devre) kullanmaktadır: yalnızca SHA256 algoritmasını uygulamak için tasarlanmış makineler.
 
 
-![image](assets/en/56.webp)
+![image](assets/tr/056.webp)
 
 
 Bitcoin ağının Hashrate değeri, bir sonraki bloğu bulmak için saniyede yapılan deneme sayısını temsil eder. Bugün Hashrate 500 TH/s'yi, yani saniyede 500.000 milyar denemeyi aşmaktadır! Küresel Hashrate ne kadar yüksek olursa, kötü niyetli bir aktörün Mining gücünün çoğunluğunu elde etmek için gereken kaynakları tekeline alması ve fonlarını birden fazla kez harcaması (çifte harcama sorunu) o kadar zor olur. Bu nedenle Bitcoin protokolünün kurallarına uymak, onlara aykırı hareket etmekten ekonomik açıdan daha uygundur.
 
 
-![image](assets/en/57.webp)
+![image](assets/tr/057.webp)
 
 
 ### Bir blokta ne bulunabilir?
@@ -1286,7 +1284,7 @@ Bitcoin ağının Hashrate değeri, bir sonraki bloğu bulmak için saniyede yap
 Blok başlığı zaman, zorluk hedefi, son bloğun numarası, kullanılan sürüm ve önceki işlemlerin Merkle Root'i gibi çeşitli Elements içerir.
 
 
-Coinbase Transaction** her zaman bir blokta yer alan ilk işlemdir: Proof-of-Work'i gerçekleştiren Miner'un ödülünü içerir. Ardından onaylanmış işlemler gelir. Madenciler, kendilerine en fazla karı sağlayacak işlemleri, yani maksimum ücrete sahip küçük boyutlu işlemleri eklemeyi seçeceklerdir.
+**Coinbase Transaction** her zaman bir blokta yer alan ilk işlemdir: Proof-of-Work'i gerçekleştiren Miner'un ödülünü içerir. Ardından onaylanmış işlemler gelir. Madenciler, kendilerine en fazla karı sağlayacak işlemleri, yani maksimum ücrete sahip küçük boyutlu işlemleri eklemeyi seçeceklerdir.
 
 
 ### Miner tazminat
@@ -1306,13 +1304,13 @@ Sübvansiyon miktarı mutabakat kuralları tarafından tanımlanır ve Epoch'a b
 İlk bloklar için blok sübvansiyonu 50 bitcoin idi. Her 210.000 blokta bir (yaklaşık her 4 yılda bir) bu miktar yarıya indirilir. Bugün (2024'te) 5. Dönemdeyiz, bu da sübvansiyonun 3.125 bitcoin olduğu anlamına geliyor. Kısacası bu, sisteme yeni bitcoinler salan otomatik bir mekanizmadır. Sübvansiyon, 21 milyon bitcoinlik ihraç sınırına ulaşana kadar zaman içinde azalır. Halihazırda dolaşımda 19.4 milyonun üzerinde bitcoin bulunmaktadır ve bu da %92'nin üzerindedir.
 
 
-![image](assets/en/58.webp)
+![image](assets/tr/058.webp)
 
 
 İkinci telafi yöntemi, kullanıcılar tarafından işlem ücretleri için seçilen miktar ile tanımlanır ve bu da kullanıcının işleminin bir sonraki bloğa dahil edilmesi için aciliyetini gösterir. Madenciler gelirlerini maksimize etmek istediklerinden, yüksek işlem ücretlerine sahip işlemlere öncelik verme eğiliminde olacaklardır.
 
 
-![image](assets/en/59.webp)
+![image](assets/tr/059.webp)
 
 
 Her geçerli blok için aldıkları ödüllere dayanan iş modellerini istikrara kavuşturmak için madenciler genellikle "Mining havuzları" aracılığıyla bilgi işlem kaynaklarını bir araya getirdikleri gruplar oluştururlar.
@@ -1327,7 +1325,7 @@ Kısacası, Bitcoin'nin yeniliği, Proof-of-Work'e dayanan bir Blockchain'in yü
 Ancak bu güvenilir bir aracı olmadan nasıl yapılabilir? Bu sorun, çeşitli aktörlere güvenilemeyen bir sistemde bilgiyi koordine etme sorunu olan Bizans Generalleri paradoksu ile iyi bir şekilde tanımlanmıştır. Bizans Generalleri Probleminde, bir grup generalin bir şehre yapılacak saldırıyı koordine etmesi gerekir, ancak bazıları planı bozmaya çalışan hainler olabilir. Buradaki zorluk, sadık generallerin, hainlerden potansiyel olarak yanıltıcı mesajlar almalarına rağmen, saldırı veya geri çekilme konusunda bir fikir birliğine varmalarıdır.
 
 
-![image](assets/en/60.webp)
+![image](assets/tr/060.webp)
 
 
 Bitcoin bu nedenle bu soruna bir tür çözümdür ya da en azından bu sorunun etrafından dolaşmak içindir. Bitcoin'in "generalleri" veya madencileri bloklar (bilgi) üretir ve Bitcoin düğümleri bilginin gerçekliğini sağlamak için mutabakat kurallarını kullanarak finansal işlemleri doğrular. Bilgi üretimi ve doğrulama arasındaki enerji maliyetindeki asimetri, güvenilir bir üçüncü taraf olmadan bilginin güvenilirliğini sağlar.
@@ -1365,7 +1363,7 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 İlk olarak, Mining'in çevresel maliyetini niteliksel olarak değerlendirelim. Bir Miner, ASIC gibi bir makineye ve bu makineleri çalıştırmak için elektrik şeklinde bir enerji kaynağına sahip olmalıdır. ASIC'ler çoğunlukla alüminyumdan yapılır ve geri dönüştürülebilir ya da ikinci bir amaç için yeniden kullanılabilir (MIN201 kursumuzda açıklanan ve bir Antminer S9'u bir alan ısıtıcısına dönüştüren Attakaï projesinde gösterildiği gibi). Bu nedenle asıl endişe enerji tüketimidir.
 
 
-![image](assets/en/61.webp)
+![image](assets/tr/061.webp)
 
 
 Elektrik tüketimi bir Miner için neredeyse tüm maliyetleri temsil etmektedir. Bu nedenle, ucuz bir elektrik kaynağı bulmaya teşvik edilirler, böylece enerji santrallerinin kurulu olduğu ancak henüz bölgenin elektrik şebekesine bağlı olmadığı yerlere gidebilirler. Bu durumda, madenciler son çare alıcı olarak hareket ederek, elektrik santrallerinin elektrik şebekesine bağlanmadan önce bile finansman sağlamasına olanak tanır. Bağlandıklarında, elektrik talebi artacak, bu da fiyatı yükseltecek ve madenciler için bu yerlerde elektrik elde etmeyi daha az karlı hale getirecektir. Makineler kolayca taşınabildiğinden, madenciler kurulumlarını alıp talebin ve dolayısıyla fiyatın düşük olduğu daha uzak yerlere, çoğunlukla Green enerji santrallerinden enerji alabilecekleri bölgelere yerleşmeye karar vereceklerdir.
@@ -1380,11 +1378,11 @@ Bu nedenle, Bitcoin'in ekolojik etkisi üzerine yapılan tartışmalar, esas ola
 Bitcoin'nın devrimci bir buluş olarak, finansal baskı veya diktatörlük rejimleri altında yaşayan bireylere özgürlükleri için mücadele etme imkânı sağladığını vurgulamak önemlidir. Son çare olarak Bitcoin, sansür ve bankacılık kısıtlamalarını aşarak finansal bağımsızlığa giden bir yol sunmaktadır. Bir para biriminden daha fazlası olan Bitcoin, bir iletişim biçimi ve özgürlük sembolü olarak hizmet eder ve madenciler tarafından harcanan enerji, bu özgürlüğün savunulmasında çok önemli bir rol oynar ve merkez bankaları tarafından borç ve aşırı para yaratmanın hakim olduğu bir finansal sistemden kurtulmayı sağlar.
 
 
-![image](assets/en/62.webp)
+![image](assets/tr/062.webp)
 
-![image](assets/en/63.webp)
+![image](assets/tr/063.webp)
 
-![image](assets/en/64.webp)
+![image](assets/tr/064.webp)
 
 
 Yüksek enflasyon oranlarına sahip ülkelerde yaşayanlar için Bitcoin bir hayatta kalma meselesidir. Tehlikeli finansal durumlarda hayatta kalmak için bir araç sağlar. Dahası, Bitcoin daha adil ve tarafsız bir finansal sistem sunarak dünya çapında milyarlarca insanın finansal kaynaklara erişimini sağlamaktadır. Bu perspektiften bakıldığında, enerji tüketimi haklı mıdır?
@@ -1399,7 +1397,7 @@ Son olarak, Bitcoin'un benimsenmesinin ekonomik ve çevresel sonuçlarını tart
 Mevcut finansal sistemle karşılaştırıldığında, aşırı tüketimi ve borcu teşvik etmesi nedeniyle ikincisi ciddi sorunlara yol açmaktadır. Krediye kolay erişim, bankaların para basması ve kısmi rezerv bankacılığı uygulaması gibi faktörlerin hepsi aşırı borçlanmaya ve bunun sonucunda aşırı tüketime katkıda bulunmaktadır.
 
 
-![image](assets/en/65.webp)
+![image](assets/tr/065.webp)
 
 
 Kaynaklarımızın kıtlığını para birimimizin kıtlığı ile yansıtmak için para sisteminde reform yapılması gerekmektedir. Bu daha sorumlu bir tüketimi ve uzun vadeli bir vizyonu teşvik edecektir. Buna karşılık enflasyon, tüketim ve yatırımı teşvik ederek çevre üzerinde uzun vadede olumsuz bir etki yaratır.
@@ -1408,7 +1406,7 @@ Kaynaklarımızın kıtlığını para birimimizin kıtlığı ile yansıtmak i�
 Mevcut finansal sistem, Avusturya ekonomisinin aksine, durumların ve kaynakların zamansal ve dinamik yönlerini dikkate almayan Keynesyen ekonominin fikirleriyle uyumludur. Başka bir deyişle, sınırsız bir para birimi gezegenimizin sınırlı kaynaklarını etkin bir şekilde temsil edemez.
 
 
-![image](assets/en/66.webp)
+![image](assets/tr/066.webp)
 
 
 Politikacılar genellikle kısa vadeli vizyona sahiptir ve yeniden seçilmek için ekonomik büyümeye ihtiyaç duyarlar, bu nedenle ekolojik sorunları uzun vadede çözemezler. Bitcoin gibi sağlam bir para biriminin benimsenmesi, insanları ekonomik olarak güçlendirebilecek potansiyel bir alternatiftir.
@@ -1417,7 +1415,7 @@ Politikacılar genellikle kısa vadeli vizyona sahiptir ve yeniden seçilmek iç
 Eleştirmenler Bitcoin'in Green enerji kullanımını teşvik ettiğini kabul etmemektedir. Örneğin, metan yakmak ve kirliliği önlemek için petrol kuyuları sahalarında tutuşturulan alevler Bitcoin madencileri tarafından söndürülebilir, çünkü metan Mining makinelerine güç sağlamak için elektriğe dönüştürülebilir, bu da çevre için faydalıdır.
 
 
-**Bitcoin'ün özdeyişlerinden birini takip edin: Güvenmeyin, kendiniz doğrulayın!
+**Bitcoin'ün özdeyişlerinden birini takip edin: Güvenmeyin, kendiniz doğrulayın!**
 
 
 ### Bitcoin'in teknik özelliklerinin kısa özeti
@@ -1450,7 +1448,7 @@ Dolayısıyla, Bitcoin protokolü sansürlenemez ve durdurulamaz bir para sistem
 Bitcoin'in fiyatı genellikle önemli bir dalgalanma ile karakterize edilir. Değeri, tıpkı diğer finansal piyasalarda olduğu gibi, piyasa değişimlerine veya yükseliş ve düşüş aşamalarına bağlı olarak önemli ölçüde dalgalanabilir.
 
 
-![image](assets/en/67.webp)
+![image](assets/tr/067.webp)
 
 
 Basitçe söylemek gerekirse, insanlar her şeyi bir kerede satın alma ve her şeyi bir kerede satma eğilimindedir. **Bitcoin insan doğasına karşı bağışık değildir.**
@@ -1462,7 +1460,7 @@ Basitçe söylemek gerekirse, insanlar her şeyi bir kerede satın alma ve her �
 Bitcoin'ün hem gelişimi hem de evrimi büyük ölçüde ekosistemini kademeli olarak entegre eden farklı aktör gruplarıyla bağlantılıdır.
 
 
-![image](assets/en/68.webp)
+![image](assets/tr/068.webp)
 
 
 
@@ -1505,7 +1503,7 @@ Bu önemli dalgalanmalar, Bitcoin'a oldukça değişken bir varlık olarak ün k
 Bu önemli dalgalanma bugün Bitcoin aktörleri tarafından tamamen kabul edilmektedir ve finansal riskten korunma (sabit paralar), güçlü bir uzun vadeli inanç (hodling) veya sağlam bir anlayış olmadan kişinin fonlarının %100'ünü Bitcoin'a yatırma riskinden kaçınma gibi çeşitli çözümlerle azaltılabilir. Bu nedenle, Bitcoin fiyatının neden bu kadar dalgalandığını anlamak, bu sektörde ilerlemek için çok önemlidir, çünkü nihayetinde piyasayı bir dereceye kadar yumuşatmaya ve düzenlemeye yardımcı olan fiyat hareketleri ve döngüleridir. Bununla birlikte, Bitcoin büyüdükçe ve olgunlaştıkça dalgalanmanın daha az etkili hale geldiğine dikkat etmek önemlidir.
 
 
-![image](assets/en/69.webp)
+![image](assets/tr/069.webp)
 
 
 Btc/dolar paritesi kısa vadede dalgalansa da, Bitcoin, 21 milyon bitcoinlik sınırlı miktarı ve Halving süreci (Halving ortalama her 4 yılda bir parasal yaratım) nedeniyle, yarı-mekanik bir şekilde genel bir yükseliş eğilimi izlemektedir. Elbette, her finansal varlık gibi Bitcoin de coşku dönemleri, spekülatif balonlar ve düzeltmeler dahil olmak üzere ekonomik döngülere tabidir. Bu olgu, piyasanın her zaman rasyonel veya verimli olmadığı gelişmekte olan teknolojilerde oldukça yaygındır.
@@ -1517,13 +1515,13 @@ Btc/dolar paritesi kısa vadede dalgalansa da, Bitcoin, 21 milyon bitcoinlik sı
 Bu spekülatif balon döngüleri dünyada oldukça benzersizdir, zira tek bir varlığın bu tür bir balon serisini art arda yaşaması nadir görülen bir durumdur. Bu olgu, Bitcoin'ün yalnızca patlamaya mahkum bir balon olmadığı gerçeğine bağlanabilir. Aksine, dünya çapında aktif olarak kullanılan bir para birimi olarak işlev görmektedir. Bitcoin protokolü, küresel ölçekte 7/24 çalışabilme kabiliyetiyle öne çıkmakta ve bu da onu düzenlemeye çalışan finans otoriteleri için önemli zorluklar teşkil etmektedir.
 
 
-![image](assets/en/70.webp)
+![image](assets/tr/070.webp)
 
 
 Bugün Bitcoin, geleneksel pazara giderek daha fazla entegre olarak hayatta kalmaya ve daha da büyümeye devam ediyor ve Bitcoin ETF'lerinin tanıtımı, daha net düzenlemeler ve satın alma ve depolama için geliştirilmiş araçların tümü bu olumlu ivmeye katkıda bulunuyor. Bitcoin BİR KEZ DAHA spekülatif balonundan kurtuldu, bu yüzden belki de sadece Hot havası değildir!
 
 
-![image](assets/en/71.webp)
+![image](assets/tr/071.webp)
 
 
 
@@ -1547,7 +1545,7 @@ Bitcoin ekonomisi, Bitcoin'un 2021'de yasal ödeme aracı haline geldiği El Sal
 Bununla birlikte, El Salvador'da ve dünyanın diğer bölgelerinde, Bitcoin'yi ürünleri veya hizmetleri için bir ödeme aracı olarak kabul eden giderek daha fazla kişi, işletme ve kuruluş var.
 
 
-![image](assets/en/72.webp)
+![image](assets/tr/072.webp)
 
 
 Buna ek olarak, günlük işlemlerde Bitcoin kullanımını kolaylaştırmak için [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680) adlı açık kaynaklı ve işbirliğine dayalı bir proje başlatılmıştır. Bu platform, Bitcoin'i kabul eden tüm tüccarların yanı sıra dünyadaki farklı Bitcoin topluluklarını listeler; böylece çevrenizdeki Bitcoin ekosistemini keşfetmek için web sitelerini ziyaret edebilirsiniz. Dolayısıyla, zorluklara ve tereddütlere rağmen, BTCMap gibi Bitcoin ekonomisini herkes için daha erişilebilir ve kullanışlı hale getirmeye katkıda bulunan girişimler vardır.
@@ -1562,7 +1560,7 @@ Bitcoin elde etmek için, bunları Fransa'daki AMF (Autorité des Marchés Finan
 Ayrıca, Bitcoin'i bir tüccar olarak kabul etmenin sansüre karşı direnç, düşük işlem ücretleri, artan verimlilik, enflasyona karşı koruma, finansal özgürlük ve egemenlik gibi çeşitli avantajları vardır.
 
 
-![image](assets/en/73.webp)
+![image](assets/tr/073.webp)
 
 
 ### Nasıl devam edebilirsiniz?
@@ -1651,7 +1649,7 @@ Somut olarak, kendinize sormanız gereken iki soru var:
 Bu kademeli strateji, düzenli aralıklarla küçük miktarlarda Bitcoin satın almak anlamına gelen yinelenen satın alımları içerir. Bu yöntem, fiyatı zaman içinde düzeltir ve sahip olunan Bitcoin miktarında sürekli büyüme sağlar. Uzun vadeli tasarruflar için ideal bir çözümdür ve Bitcoin'nin fiyat oynaklığına ilişkin endişeleri hafifletir. Bir kez kurulduktan sonra, bunu unutabilir ve yatırımınızın büyümesini izleyebilirsiniz.
 
 
-![image](assets/en/74.webp)
+![image](assets/tr/074.webp)
 
 
 **UTXO'lara dikkat edin**: UTXO'larınızı zaman zaman cüzdanlarınızda birleştirmeyi unutmayın. Bu uygulama, bitcoinlerinizi etkili bir şekilde yönetmek ve işlemler sırasında gereksiz ücretlerden kaçınmak için çok önemlidir.
@@ -1705,7 +1703,7 @@ Kullanımları basit ve herkes için erişilebilirdir:
 4. Bitcoin'i Wallet'nıza geri çekin
 
 
-![image](assets/en/75.webp)
+![image](assets/tr/075.webp)
 
 
 Satın alma işleminden sonra, bilgisayar korsanlığı ve fon bloke etme risklerini en aza indirmek için bitcoinlerin Exchange platformlarından derhal çekilmesi tavsiye edilir. Para çekme ücretlerinin yüksek olabileceğini, platforma bağlı olarak bazen 25 Euro'ya kadar çıkabileceğini unutmayın.
@@ -1731,7 +1729,7 @@ Buna ek olarak, eşler arası Exchange'da bitcoin alıp satabileceğiniz birkaç
 - Bitcoin dostu ülkelerde faaliyet gösteren neobankalar.
 
 
-![image](assets/en/76.webp)
+![image](assets/tr/076.webp)
 
 
 Son olarak, vergi yükümlülüklerinin yargı yetkisine bağlı olarak değişebileceğini unutmamak önemlidir, bu nedenle sizi riske atabilecek herhangi bir işlem yapmadan önce ülkenizdeki düzenlemelere başvurmanızı şiddetle tavsiye ederiz.
@@ -1749,13 +1747,13 @@ Son olarak, vergi yükümlülüklerinin yargı yetkisine bağlı olarak değişe
 Her yeni teknolojide olduğu gibi, Bitcoin'ün benimsenmesi de bir S-eğrisi izler ve erken benimseyenlerden daha geniş kabul görenlere doğru ilerlemeyi gösterir. Erken benimseyenler döneminin ötesine geçtik ve göstergeler Bitcoin'ün potansiyel bir demokratikleşmesine işaret ediyor. Sonuçta bu, kolayca durdurulamayacak viral bir teknolojidir. Bir yandan El Salvador, Bitcoin'ü tamamen yasal ödeme aracı olarak kabul ederek cesur bir adım attı. Diğer yandan, diğer ülkeler buna yasaklayarak ve kullanımını suç sayarak karşılık vermiştir; bu da Bitcoin'ün benimsenmesinin karmaşık olduğunu ve kültürel, tarihi ve ulusal faktörlerin etkisine maruz kaldığını göstermektedir.
 
 
-![image](assets/en/02.webp)
+![image](assets/tr/077.webp)
 
 
 Bitcoin'ün yükselişi şirketleri, üniversiteleri, düzenleyicileri ve bireyleri bu yeni teknolojiyi dikkate almaya zorluyor. Yeni araçlar yaratılmalı, hizmetler uyarlanmalı ve hayatta kalmalarını sağlamak için inovasyon devam etmelidir. Bu bağlam kriptografi, oyun teorisi, ekonomi ve para politikası, bilgisayar bilimi, felsefe, enerji, yasalar ve düzenlemeler gibi çeşitli alanlarla ilgili birçok soruyu gündeme getirmektedir. Kısacası, Bitcoin multidisipliner bir konudur.
 
 
-![image](assets/en/01.webp)
+![image](assets/tr/078.webp)
 
 
 ### Bitcoin 0'dan 1'e kadar
@@ -1764,7 +1762,7 @@ Bitcoin'ün yükselişi şirketleri, üniversiteleri, düzenleyicileri ve bireyl
 Son olarak, sizi bu yeni parasal devrim üzerinde düşünmeye davet ediyoruz. Bitcoin ile keşfedilecek o kadar çok şey var ki, her şeyi bir kerede özümsemek karmaşık. Acele etmeyin, Bitcoin ortadan kalkmayacak. Aksine, devrim daha yeni başladı. Çocuklarımıza emanet etmek istediğimiz dünyayı yaratabileceğimize inanıyoruz: insan egemenliğinin bir hak olduğu, mahremiyete varsayılan olarak saygı duyulduğu ve paranın manipüle edilmediği bir dünya. Birlikte bunu başaracağımızı umuyoruz.
 
 
-![image](assets/en/77.webp)
+![image](assets/tr/079.webp)
 
 
 Bitcoin hakkındaki bilgilerinizi genişletmek istiyorsanız, şimdi doğru zaman: çok sayıda yazar, düşünür ve denemeci Bitcoin hakkında eğitici içerik oluşturdu. Son birkaç yıldır, aranızdaki en meraklılara bir [kaynak kütüphanesi] (https://planb.network/resources) sunmak için bu çalışmaları listeliyor ve kategorize ediyoruz. Bu bölümde en iyi podcast'leri, web sitelerini, makaleleri, eğitimleri, kitapları ve diğer içerikleri bulacaksınız.
@@ -1799,7 +1797,7 @@ Lightning Network, Bitcoin'ün ölçeklenebilirlik sorununu çözdüğü için B
 Lightning Network'i tam olarak kavramak için Bitcoin'nin altyapı katmanlarında nasıl evrimleştiğini ve geliştiğini anlamak çok önemlidir: ilk Layer, Blockchain'dır ve ikincisi Lightning Network'tir.
 
 
-![image](assets/en/78.webp)
+![image](assets/tr/080.webp)
 
 
 ### Bir Blockchain sonsuza kadar büyüyemez
@@ -1811,7 +1809,7 @@ Lightning Network, anında ve düşük maliyetli Bitcoin işlemlerine olanak sa�
 Ölçeklenebilirlik sorunu, artan benimsemeye yanıt olarak saniye başına sürekli artan sayıda işlem sağlayabilen bir parasal sistemin uygulanmasındaki zorluğu ifade eder. Bu sorun Blockchain trilemması ile ilgilidir. Köşeleri ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik olan bir üçgen hayal edin.
 
 
-![image](assets/en/79.webp)
+![image](assets/tr/081.webp)
 
 
 Buna göre, Blockchain tabanlı bir protokol bu üç özellikten yalnızca ikisini karşılayabilir. Bitcoin protokolünde, geliştiriciler merkeziyetsizliği ve güvenliği destekleyecek seçimler yapmıştır. Bir yandan, 1MB'lık blok boyutu ve iki blok arasındaki süre (ortalama 10 dakika), bir Bitcoin düğümünün daha düşük bir maliyetle çalıştırılmasına olanak tanıyarak ademi merkeziyetçiliği desteklemektedir. Öte yandan, blokların Proof-of-Work aracılığıyla üretilmesi protokol dahilindeki sahtekarlığı son derece maliyetli hale getirirken, ağ düğümleri tarafından doğrulamayı kolaylaştırır ve güvenliği destekler. Bununla birlikte, bu tercihler bir bloktaki ortalama işlem sayısına, kabaca saniyede birkaç işleme karşılık gelen bir sınır getirmektedir. Bu sayı VISA gibi ödeme işlemcilerinin hesaplama kapasitesi (1700/s) ile karşılaştırıldığında gülünçtür, ancak bu sınır Bitcoin ile sansüre dayanıklı ve Trustless bir şekilde işlem yapmak için gereklidir. Bununla birlikte, Bitcoin'yı geliştirenler başından beri bu sorun üzerinde düşünmektedirler.
@@ -1823,13 +1821,13 @@ Buna göre, Blockchain tabanlı bir protokol bu üç özellikten yalnızca ikisi
 Yıllarca düşündükten ve birçok denemeden sonra Lightning protokolü ortaya çıktı. Belirli sayıda spesifikasyon kullanan bu protokol, Bitcoin'in işlem protokolünün güvenliğinden ve programlanabilirliğinden yararlanarak eşler arası bir ödeme ağı oluşturur. Lightning Network, bir ödeme kanalları ağı olarak hareket ederek gönderici için düşük ücretlerle anında işlem yapılmasını sağlar ve hatta doğrudan kanal bağlantısı olmayan kişiler arasında Exchange rotaları oluşturur.
 
 
-![image](assets/en/80.webp)
+![image](assets/tr/082.webp)
 
 
 Western Union, merkez bankaları, Visa ve Mastercard gibi geleneksel para transferi hizmetleri, mevcut ödeme sistemlerinden daha verimli ve uygun maliyetli olan Lightning Network teknolojisini benimsemedikleri takdirde ortadan kalkabilir. Aslında Lightning Network, bir kanalı paylaşan iki eş arasında neredeyse sınırsız işlem yapılmasına olanak tanıyarak, her bir işlem yerine yalnızca kanalın oluşturulduğunu duyurmak için yapılan işlemle ilişkili enerji maliyetlerine katlanılmasını sağlar.
 
 
-![image](assets/en/81.webp)
+![image](assets/tr/083.webp)
 
 
 İşlemler kriptografi yoluyla ve dolaylı olarak Bitcoin üzerindeki madenciler tarafından tüketilen enerji yoluyla güvence altına alınır. Coğrafi sınırlamalar olmaksızın, son derece düşük ücretlerle (genellikle %0,5'ten az) anında yapılabilirler.
@@ -1867,25 +1865,25 @@ Bu eşler arası ağ, aksi takdirde Bitcoin Blockchain'daki yüksek ücretler ve
 Bu teknoloji, Bitcoin'ün güvenliğini ve merkezsizleştirilmesini sağlamak için gerekli kısıtlamalar nedeniyle daha önce ulaşılamayan Bitcoin için çok çeşitli potansiyel uygulamalara kapı açmaktadır. Bu günlük kullanım alanları arasında, hem fiziksel hem de çevrimiçi ticarette anında faturalandırma, gerçek zamanlı ödemeler için para akışı ve içerik oluşturucular için mikro bağışlar sayılabilir. Neredeyse anında, güvenli ve düşük maliyetli (ortalama %0,5'ten az) işlemlerden oluşan bir ağ sağlayarak, daha önce hayal bile edilemeyen birçok iş modeli gerçekleştirilebilir. Lightning Network, Bitcoin'ün en küçük birimi olan satoshis (Sats) kullanarak çalıştığı için bu mümkün olmaktadır.
 
 
-![image](assets/en/82.webp)
+![image](assets/tr/084.webp)
 
 
 Video oyun endüstrisi, Lightning Network'in mevcut iş modellerini dönüştürmek için nasıl kullanılabileceğine dair özellikle ilginç bir örnek sunmaktadır. "Oyuna dahil olma" kavramı bu bağlamda son zamanlarda popülerlik kazanmış bir fikirdir. Esasen bir oyunun sonucundan finansal bir pay almayı içerir. Aslında Lightning Network, oyuncuların oyun oynarken birkaç satoshis (yaklaşık bir euro sentin bir kısmı) gibi çok küçük miktarlarda para yatırarak rekabeti teşvik eden ve bot kullanma maliyetini önemli ölçüde artıran bir bahis oluşturmalarına olanak tanır.
 
 
-![image](assets/en/83.webp)
+![image](assets/tr/085.webp)
 
 
 Özetle, Bitcoin ile mikro işlemlerin geleceği, Lightning Network gibi yenilikler sayesinde umut verici görünüyor. Bu teknolojiler gelişmeye ve olgunlaşmaya devam ettikçe, yakın gelecekte yeni ve heyecan verici uygulamaların ortaya çıkmasını bekleyebiliriz.
 
 
-![image](assets/en/84.webp)
+![image](assets/tr/086.webp)
 
 
 Bir başka örnek de "para akışı" olabilir: Lightning Network aracılığıyla her dakika mikro işlemler yapabiliriz (potansiyel olarak güvenilir bir üçüncü taraf olmadan), bu da tüketicilerin gerçek tüketimlerine dayalı olarak içerik için ödeme yaptıkları ekonomik modellerin denenmesine kapı açar. Bu sistemin mal kiralamak için kullanılması bile düşünülebilir. Böyle bir sistemde para, bir hizmet ya da ürüne katkıda bulunan farklı kişiler arasında önceden tanımlanmış bir yüzdeye göre otomatik olarak bölüştürülür. Bu, ödeme modelleri hakkındaki düşüncelerimizde devrim yaratabilir: bir hizmet için aylık abonelik ödemek yerine, kullanıcılardan hizmeti kullanarak geçirdikleri süre için dakika, hatta saniye başına ücret alınabilir. Böyle bir ekonomik modelin, kullanıcıların dikkatini çekmek için kaliteli içerik üretmeye teşvik edilecek olan içerik yaratıcıları için derin etkileri olabilir.
 
 
-![image](assets/en/85.webp)
+![image](assets/tr/087.webp)
 
 
 Sonuç olarak, Lightning Network, Bitcoin kullanıcıları için çok sayıda heyecan verici kullanım alanı açmaktadır. Ortaya çıkan ekonomik modeller ve iş fırsatları çok sayıda ve çeşitlidir ve en sevdiğiniz podcast'leri dinlediğiniz için birkaç Sats ile ödüllendirilmenizi sağlayan podcast uygulamasını [Fountain] (https://www.fountain.fm/) deneyerek kendiniz kontrol etmenizi öneririz!
@@ -2018,3 +2016,6 @@ Katılmaya hazır mısınız?
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
+

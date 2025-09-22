@@ -46,8 +46,8 @@ Powiem ci więcej: przeczytaj do końca. Proponowane rozwiązanie jest tanie, al
 
 
 
-- Koszt**: około 15,00 w momencie pisania tego poradnika (sierpień 2025).
-- Ciągłość produkcji**: Raspberry gwarantuje produkcję do stycznia 2030 roku.
+- **Koszt**: około 15,00 w momencie pisania tego poradnika (sierpień 2025).
+- **Ciągłość produkcji**: Raspberry gwarantuje produkcję do stycznia 2030 roku.
 
 
 
@@ -76,7 +76,7 @@ Kiedy zdecydowałem się kontynuować, znalazłem [ten zestaw] (https://www.amaz
 
 
 
-- Koszt**: 19.99 euro.
+- **Koszt**: 19.99 euro.
 
 
 

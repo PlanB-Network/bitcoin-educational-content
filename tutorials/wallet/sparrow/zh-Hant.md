@@ -1,5 +1,5 @@
 ---
-name: 麻雀 Wallet
+name: Sparrow Wallet
 description: 安裝、配置和使用 Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -319,7 +319,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ![Image](assets/fr/26.webp)
 
 
-**顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。本範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。
+**顯然，您絕對不能在網路上分享這些文字，就像我在本教程中所做的一樣。本範例 Wallet 只會用在 Testnet 上，並會在教學結束時刪除。**
 
 
 您也可以按一下「*使用 passphrase*」方塊，選擇加入 passphrase BIP39。警告：使用 passphrase 可能非常有用，但如果您不瞭解它的運作方式，就可能會有很大的風險。所以我強烈建議您閱讀這篇相關的理論短文：

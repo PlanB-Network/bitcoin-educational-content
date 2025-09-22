@@ -19,7 +19,7 @@ Większość dostawców usług VPN, takich jak ProtonVPN i Mullvad, oferuje opcj
 LN VPN umożliwia korzystanie z VPN na żądanie nawet przez godzinę, dzięki implementacji płatności Bitcoin za pośrednictwem Lightning Network. Natychmiastowe i anonimowe płatności błyskawiczne otwierają świat możliwości dla mikropłatności.
 
 
-Uwaga💡: **Niniejszy przewodnik opisuje sposób korzystania z LN VPN z poziomu systemu Linux Ubuntu 22.04 LTS
+Uwaga💡: **Niniejszy przewodnik opisuje sposób korzystania z LN VPN z poziomu systemu Linux Ubuntu 22.04 LTS**
 
 
 ## Wymagania wstępne: Wireguard

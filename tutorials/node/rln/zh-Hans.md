@@ -1,5 +1,5 @@
 ---
-name: RGB闪电节点
+name: RGB Lightning Node
 description: 如何使用RLN启动与RGB兼容的闪电节点？
 ---
 ![cover](assets/cover.webp)

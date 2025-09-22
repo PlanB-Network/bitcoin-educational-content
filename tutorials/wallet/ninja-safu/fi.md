@@ -24,19 +24,19 @@ Ninja SAFU -lähestymistavalla on useita etuja:
 
 
 
-- Luottamuksellisuus**: Et ole ostamassa tuotetta, jonka on todettu olevan tarkoitettu kryptovaluutan varmuuskopiointiin. Komponentit ovat vakiokomponentteja (aluslevyt, pultit, metallikotelo), joita on saatavilla rautakaupoista, mikä vähentää kohdentamisriskiä, jos tietovuoto tulee erikoistuneelta myyjältä.
+- **Luottamuksellisuus**: Et ole ostamassa tuotetta, jonka on todettu olevan tarkoitettu kryptovaluutan varmuuskopiointiin. Komponentit ovat vakiokomponentteja (aluslevyt, pultit, metallikotelo), joita on saatavilla rautakaupoista, mikä vähentää kohdentamisriskiä, jos tietovuoto tulee erikoistuneelta myyjältä.
 
 
 
 
 
-- Edullisuus** : Tämä ratkaisu maksaa **15-140 euroa**, riippuen jo käytössäsi olevista työkaluista.
+- **Edullisuus**: Tämä ratkaisu maksaa **15-140 euroa**, riippuen jo käytössäsi olevista työkaluista.
 
 
 
 
 
-- Luotettavuus**: Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), jotka ovat testanneet menetelmää tiukoissa rasituskokeissa (äärimmäinen kuumuus, korroosio, mekaaninen paine).
+- **Luotettavuus**: [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), jotka ovat testanneet menetelmää tiukoissa rasituskokeissa (äärimmäinen kuumuus, korroosio, mekaaninen paine).
 
 
 
@@ -59,17 +59,17 @@ Ninja SAFU -varmuuskopion luomiseen tarvitset seuraavat komponentit, joita kaikk
 
 
 
-- Ruostumattomasta teräksestä valmistetut aluslevyt (suositellaan M8)** :
- - Materiaali**: Ruostumaton teräs (esim. 304 tai V4A korroosionkestävyyden lisäämiseksi)
-    - Koko**: M8 (sisähalkaisija 8 mm, ulkohalkaisija ~24 mm). M6 aluslevyt ovat liian pieniä ja vaikeita kaivertaa.
-    - Määrä**: 12 tai 24 aluslevyä vakiolauseeseen seed, lisäksi valinnaisia aluslevyjä (ks. kohta 3.4) ja noin kymmenen aluslevyä testejä tai virheitä varten.
+- Ruostumattomasta teräksestä valmistetut aluslevyt (suositellaan M8):
+- **Materiaali**: Ruostumaton teräs (esim. 304 tai V4A korroosionkestävyyden lisäämiseksi)
+- **Koko**: M8 (sisähalkaisija 8 mm, ulkohalkaisija ~24 mm). M6 aluslevyt ovat liian pieniä ja vaikeita kaivertaa.
+- **Määrä**: 12 tai 24 aluslevyä vakiolauseeseen seed, lisäksi valinnaisia aluslevyjä (ks. kohta 3.4) ja noin kymmenen aluslevyä testejä tai virheitä varten.
 
 
 
 
 
-- Ruostumaton teräs Bolt ja mutteri (M8)** :
- - Tekniset tiedot**: Riippuen aluslevyjen määrästä ja paksuudesta, halkaisija 8 mm. Siipimutteri helpottaa avaamista ilman työkaluja, mutta myös yksinkertaista mutteria voidaan käyttää.
+- **Ruostumaton teräs Bolt ja mutteri (M8)**:
+- **Tekniset tiedot**: Riippuen aluslevyjen määrästä ja paksuudesta, halkaisija 8 mm. Siipimutteri helpottaa avaamista ilman työkaluja, mutta myös yksinkertaista mutteria voidaan käyttää.
 
 
 
@@ -79,8 +79,8 @@ Ninja SAFU -varmuuskopion luomiseen tarvitset seuraavat komponentit, joita kaikk
 
 
 
-- Kirjain- ja numerolävistyssarja (3 mm tai 6 mm)** :
-    - Tekniset tiedot**: 6 mm korkeat merkit helpottavat luettavuutta, ja ne voivat olla suositeltavampia, jos osa kirjaimista on heikentynyt. Valitse tukeva sarja toistuvaa käyttöä varten.
+- **Kirjain- ja numerolävistyssarja (3 mm tai 6 mm)**:
+- **Tekniset tiedot**: 6 mm korkeat merkit helpottavat luettavuutta, ja ne voivat olla suositeltavampia, jos osa kirjaimista on heikentynyt. Valitse tukeva sarja toistuvaa käyttöä varten.
 
 
 
@@ -90,14 +90,14 @@ Ninja SAFU -varmuuskopion luomiseen tarvitset seuraavat komponentit, joita kaikk
 
 
 
-- Vasara tai leka** :
+- **Vasara vai leka**:
     - Riittävän ja tarkan leimausvoiman saamiseksi on suositeltavaa käyttää lekalevyjä
 
 
 
 
 
-- Alasin tai tukeva pinta** :
+- **Alasin tai tukeva pinta**:
  - Paksu Hard-pinta (esim. 1 kg:n painoinen alasin tai 10 cm:n kiveys) iskujen vaimentamiseksi.
 
 
@@ -112,7 +112,7 @@ Jos et halua investoida lävistinsarjaan, voit myös kaivertaa aluslevyt kaiverr
 
 
 
-- Leimauslaite**: Pitää aluslevyä ja ohjaa stanssia, mikä mahdollistaa tarkan ja puhtaan leimauksen, paremman suuntauksen ja kirjainten tasaisen välyksen
+- **Leimauslaite**: Pitää aluslevyä ja ohjaa stanssia, mikä mahdollistaa tarkan ja puhtaan leimauksen, paremman suuntauksen ja kirjainten tasaisen välyksen
 
 
 
@@ -122,7 +122,7 @@ Jos et halua investoida lävistinsarjaan, voit myös kaivertaa aluslevyt kaiverr
 
 
 
-- Tiivistyslaitteet**: Sinetöity pussi tai sinetöintiliuska
+- **Tiivistyslaitteet**: Sinetöity pussi tai sinetöintiliuska
 
 
 
@@ -132,7 +132,7 @@ Jos et halua investoida lävistinsarjaan, voit myös kaivertaa aluslevyt kaiverr
 
 
 
-- Hermeettisesti suljettu säiliö**: Aluslevypalojen säilyttämistä varten
+- **Hermeettisesti suljettu säiliö**: Aluslevypalojen säilyttämistä varten
 
 
 
@@ -145,8 +145,8 @@ Jos et halua investoida lävistinsarjaan, voit myös kaivertaa aluslevyt kaiverr
 
 
 
-- Suositellaan käsineitä** ja **suojalaseja**.
-- Putkiavain**, johon lyönti liu'utetaan, niin että lyöntiä pidetään kiinni putkiavaimella eikä sormilla.
+- Suositellaan **käsineitä** ja **suojalaseja**.
+- **Putkiavain**, johon lyönti liu'utetaan, niin että lyöntiä pidetään kiinni putkiavaimella eikä sormilla.
 
 
 
@@ -156,13 +156,13 @@ Jos et halua investoida lävistinsarjaan, voit myös kaivertaa aluslevyt kaiverr
 
 
 
-- Määrä 24 sanan varmuuskopiota varten**: 1 Bolt, 1 siipimutteri, 1 lyöntisarja, 1 vasara/massetti, 1 alasin/tuki.
+- **Määrä 24 sanan varmuuskopiota varten**: 1 Bolt, 1 siipimutteri, 1 lyöntisarja, 1 vasara/massetti, 1 alasin/tuki.
 
 
 
 
 
-- Kokonaiskustannukset** :
+- **Kokonaiskustannukset**:
  - Aluslevyt ja pultit/mutterit: ~ 15 EUR
  - Lyöntisarja: ~ 45 EUR
  - Suojakotelo: ~ EUR
@@ -254,7 +254,7 @@ Jos et halua investoida lävistinsarjaan, voit myös kaivertaa aluslevyt kaiverr
 
 
     - Yritä palauttaa salkku uudesta varmuuskopiosta
-- Varmuuskopion sinetöinti** (valinnainen ja suositeltava) :
+- **Varmuuskopion sinetöinti** (valinnainen ja suositeltava) :
  - Sinetöityinä nauhoina tai sinetöidyissä pusseissa.
  - Jos käytät pussia, merkitse muistiin sen yksilöllinen tunnistenumero, jotta voit tarkistaa, että kyseessä on oikea pussi eikä alkuperäisen pussin korvaava houkutuslintu.
 
@@ -269,7 +269,7 @@ Jos et halua investoida lävistinsarjaan, voit myös kaivertaa aluslevyt kaiverr
 
 
 
-Säilytä varmuuskopiot **huomaamattomassa paikassa**, joka on poissa näkyvistä ja johon pääsee säännöllisesti tarkistamaan ne. Valitse tulenkestävä ja vesitiivis säilytyspaikka**, kotona tai **yksinomaisessa valvonnassasi** olevassa paikassa.
+Säilytä varmuuskopiot **huomaamattomassa paikassa**, joka on poissa näkyvistä ja johon pääsee säännöllisesti tarkistamaan ne. Valitse **tulenkestävä ja vesitiivis säilytyspaikka**, kotona tai **yksinomaisessa valvonnassasi** olevassa paikassa.
 
 
 
@@ -313,7 +313,7 @@ Vaikka varmuuskopio olisi hyvin säilytetty, se on **tarkastettava säännöllis
 
 
 
-*PYSY TURVASSA !
+**PYSY TURVASSA!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Jameson Loppin mukaan:
 
 
 
-- Aluslevyt** varten
+- **Aluslevyt** varten
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Aluslevyt + mutteri + suojakotelo** (aluslevyille)
+- **Aluslevyt + mutteri + suojakotelo** (aluslevyille)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Rei'ityssarja
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Tyypittelyn perusta**
+- **Tyypittelyn perusta**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Napautuslaite** (opas)
+- **Napautuslaite** (opas)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Tiivistyslaite
  - [Suljettu pussi](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Tiivistysnauhat](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Täydellinen** paketti
+- **Täydellinen** paketti
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

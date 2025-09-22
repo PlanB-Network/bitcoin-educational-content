@@ -516,13 +516,13 @@ Vissa enheter innehar en betydande andel av den totala Hashrate i stora Mining-f
 Denna fråga kan bli problematisk och utgör en betydande risk för nätverkets neutralitet. En aktör med mer än 51% av Hashrate skulle lättare kunna censurera transaktioner om de så önskade. Det är därför det är viktigt att fördela Hashrate mellan flera aktörer snarare än centraliserade enheter som lättare kan beslagtas av till exempel en regering.
 
 
-**Om miners är fördelade på tusentals, eller till och med miljontals, hushåll runt om i världen blir det mycket svårt för en stat att ta kontroll över dem
+**Om miners är fördelade på tusentals, eller till och med miljontals, hushåll runt om i världen blir det mycket svårt för en stat att ta kontroll över dem.**
 
 
 När den kommer ut från fabriken är en Miner inte lämplig att använda som värmare i ett hem, på grund av två huvudproblem: överdrivet buller och brist på justering. Dessa problem kan dock enkelt lösas genom modifieringar av hård- och mjukvara, vilket ger en mycket tystare Miner som kan konfigureras och automatiseras på samma sätt som moderna elektriska värmare.
 
 
-**Attakaï är ett utbildningsinitiativ som lär dig hur du kan eftermontera Antminer S9 på det mest kostnadseffektiva sättet
+**Attakaï är ett utbildningsinitiativ som lär dig hur du kan eftermontera Antminer S9 på det mest kostnadseffektiva sättet**
 
 
 Detta är ett utmärkt tillfälle att lära sig genom att öva samtidigt som du belönas för ditt deltagande med KYC-fria satoshis.

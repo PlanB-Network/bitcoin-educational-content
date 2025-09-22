@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Varpunen
+name: Jade Plus - Sparrow
 description: Jade Plussan edistynyt konfigurointi Sparrow-lompakon kanssa
 ---
 ![cover](assets/cover.webp)
@@ -91,7 +91,7 @@ Napsauta "*Setup Jade*".
 
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
-Valitse "Lisäasetukset*".
+Valitse "Lisäasetukset".
 
 ![Image](assets/fr/07.webp)
 
@@ -103,7 +103,7 @@ Napsauta "*Jatka*"-painiketta näyttääksesi uuden palautuslausekkeen.
 
 ![Image](assets/fr/09.webp)
 
-Jade Plus näyttää 12-sanaisen muistisanan. **Tämä muistisana antaa sinulle täyden, rajoittamattoman pääsyn kaikkiin bitcoineihisi. Kuka tahansa, jolla on hallussaan tämä lauseke, voi varastaa varojasi, vaikka hänellä ei olisi fyysistä pääsyä Jade Plus -laitteeseesi. 12-sanainen lauseke palauttaa pääsyn bitcoineihisi, jos Jade häviää, varastetaan tai rikkoutuu. Siksi on erittäin tärkeää tallentaa se huolellisesti ja säilyttää se turvallisessa paikassa.
+Jade Plus näyttää 12-sanaisen muistisanan. **Tämä muistisana antaa sinulle täyden, rajoittamattoman pääsyn kaikkiin bitcoineihisi. Kuka tahansa, jolla on hallussaan tämä lauseke, voi varastaa varojasi, vaikka hänellä ei olisi fyysistä pääsyä Jade Plus -laitteeseesi. 12-sanainen lauseke palauttaa pääsyn bitcoineihisi, jos Jade häviää, varastetaan tai rikkoutuu. Siksi on erittäin tärkeää tallentaa se huolellisesti ja säilyttää se turvallisessa paikassa.**
 
 Voit kirjoittaa sen laatikossa olevaan pahviin, tai jos haluat lisätä turvallisuutta, suosittelen kaiverrusta ruostumattomasta teräksestä valmistettuun alustaan, joka suojaa sitä tulipalolta, tulvalta tai romahdukselta.
 
@@ -113,7 +113,7 @@ Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaa
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
+näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.
 
 Napsauta näytön oikeassa reunassa olevaa nuolta näyttääksesi seuraavat sanat.
 
@@ -284,7 +284,7 @@ Vaihtoehdossa "*Tiheys*" voit valita, pyytääkö Jade Plus sinua syöttämään
 
 - "*Ei käytössä*" poistaa salasanan käytön käytöstä;
 - "*Next Login Only*" edellyttää, että palaat tähän valikkoon aktivoidaksesi salasanasi pyytämisen seuraavan käynnistyksen yhteydessä. Tämän vaihtoehdon avulla et voi paljastaa sen käyttöä;
-- "*Always Ask*" (Kysy aina*) saa Jaden systemaattisesti kysymään salasanaa joka kerta, kun se käynnistyy, jolloin paljastuu, että lompakkosi on suojattu salasanalla.
+- "**Always Ask**" (Kysy aina) saa Jaden systemaattisesti kysymään salasanaa joka kerta, kun se käynnistyy, jolloin paljastuu, että lompakkosi on suojattu salasanalla.
 
 Valitse turvastrategian mukainen vaihtoehto. Henkilökohtaisesti valitsen esimerkissä vaihtoehdon "*Kysy aina*".
 

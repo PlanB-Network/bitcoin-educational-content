@@ -234,7 +234,7 @@ Ikiwa unataka kufanya udhibiti wa sarafu, yaani, chagua hasa UTXO za kutumia kat
 ![SATOCHIP](assets/notext/29.webp)
 
 
-Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha "+ Ongeza*".
+Ingiza unakoenda Address. Unaweza pia kuingiza anwani nyingi kwa kubofya kitufe cha **"+ Ongeza"**.
 
 
 ![SATOCHIP](assets/notext/30.webp)

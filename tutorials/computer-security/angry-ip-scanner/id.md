@@ -1,5 +1,5 @@
 ---
-name: Pemindai IP Marah
+name: Angry IP Scanner
 description: Cara sederhana untuk memindai jaringan Anda
 ---
 ![cover](assets/cover.webp)
@@ -84,8 +84,8 @@ Saat pertama kali diluncurkan, luangkan waktu untuk membaca petunjuk di jendela 
 
 
 
-- Feeder**: modul yang bertanggung jawab untuk menghasilkan daftar alamat IP yang akan dipindai, dari rentang IP acak atau file dengan daftar alamat IP.
-- Fetcher**: sekumpulan modul untuk mengambil informasi tentang host di jaringan. Misalnya, ada fetcher untuk mendeteksi alamat MAC, memindai port, mendeteksi nama host, atau mengirim permintaan HTTP.
+- **Feeder**: modul yang bertanggung jawab untuk menghasilkan daftar alamat IP yang akan dipindai, dari rentang IP acak atau file dengan daftar alamat IP.
+- **Fetcher**: sekumpulan modul untuk mengambil informasi tentang host di jaringan. Misalnya, ada fetcher untuk mendeteksi alamat MAC, memindai port, mendeteksi nama host, atau mengirim permintaan HTTP.
 
 
 

@@ -25,10 +25,10 @@ No entanto, subsistia um problema importante entre as camadas do protocolo Bitco
 
 
 
-- on chain**: A principal cadeia do Bitcoin, onde as transacções são confirmadas a cada 10 minutos em média, as taxas de transação são frequentemente elevadas, o que não satisfaz necessariamente as necessidades dos utilizadores;
-- Lightning Network**: A sobreposição do Bitcoin para pagamentos instantâneos com taxas baixas, permitindo que o Bitcoin seja utilizado para pagamentos diários;
-- Liquid Network**: uma sobreposição para o Bitcoin criada pela Blockstream, que permite a utilização rápida do Confidential Transactions e de outros instrumentos financeiros baseados no Bitcoin;
-- RootStock**: Uma solução para o desenvolvimento de contratos inteligentes baseados no protocolo Bitcoin.
+- **on chain**: A principal cadeia do Bitcoin, onde as transacções são confirmadas a cada 10 minutos em média, as taxas de transação são frequentemente elevadas, o que não satisfaz necessariamente as necessidades dos utilizadores;
+- **Lightning Network**: A sobreposição do Bitcoin para pagamentos instantâneos com taxas baixas, permitindo que o Bitcoin seja utilizado para pagamentos diários;
+- **Liquid Network**: uma sobreposição para o Bitcoin criada pela Blockstream, que permite a utilização rápida do Confidential Transactions e de outros instrumentos financeiros baseados no Bitcoin;
+- **RootStock**: Uma solução para o desenvolvimento de contratos inteligentes baseados no protocolo Bitcoin.
 
 
 

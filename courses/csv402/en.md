@@ -2064,10 +2064,10 @@ Before diving into the code, it's worth recalling the general structure of an RG
 
 - A possible `SchemaId` indicating the use of another basic Schema as a template;
 - The **Global States** and **Owned States** (with their strict types);
-- Valencies** (if any);
+- **Valencies** (if any);
 - The **Operations** (Genesis, State Transitions, State Extensions) that can reference these states and valencies;
 - The **Strict Type System** used to describe and validate data;
-- Validation scripts** (run via AluVM).
+- **Validation scripts** (run via AluVM).
 
 ![RGB-Bitcoin](assets/fr/072.webp)
 
@@ -2147,12 +2147,12 @@ fn nia_schema() -> SubSchema {
 ```
 
 
-- (1) - Function header and SubSchema**
+- (1) - Function header and **SubSchema**
 
 The `nia_schema()` function returns a `SubSchema`, indicating that this Schema can partially inherit from a more generic schema. In the RGB ecosystem, this flexibility makes it possible to reuse certain standard elements of a master schema, and then define rules specific to the contract in question. Here, we choose not to enable inheritance, since `subset_of` will be `None`.
 
 
-- (2) - General properties: ffv, subset_of, type_system**
+- (2) - General properties: ffv, subset_of, **type_system**
 
 The `ffv` property corresponds to the *fast-forward* version of the contract. A value of `zero!()` here indicates that we are at version 0 or the initial version of this schema. If you later wish to add new functionalities (new type of operation, etc.), you can increment this version to indicate a consensus change.
 
@@ -2214,7 +2214,7 @@ In `transitions`, we define the `TS_TRANSFER` type of operation. We explain that
 This models the behavior of a basic transfer, which consumes tokens on a UTXO, then creates new Owned States in favor of the recipients, and thus preserves the equality of the total amount between inputs and outputs.
 
 
-- (9) - AluVM script and Entry Points** (in French)
+- (9) - **AluVM script and Entry Points** (in French)
 
 Finally, we declare an AluVM script (`Script::AluVM(AluScript { ... })`). This script contains:
 
@@ -2257,7 +2257,7 @@ This method has many advantages:
 The same type of contract can be supported by a standard Interface, shared between several wallet implementations. This facilitates compatibility and code reuse.
 
 
-- Clear separation between Schema and Interface:**
+- **Clear separation between Schema and Interface:**
 
 In RGB design, Schema (business logic) and Interface (presentation and manipulation) are two independent entities. The developers who write the contract logic can concentrate on the Schema, without worrying about ergonomics or data representation, while another team (or the same team, but on a different timeline) can develop the Interface.
 
@@ -2316,7 +2316,7 @@ For example, the RGB20 Interface can be linked to the **Non-Inflatable Asset (NI
 - Integrated support for direct inclusion of a file (up to 16 MB) in the contract (for client-side retrieval);
 - The possibility for the owner to enter a "*engraving*" in the history to prove past ownership of an NFT.
 
-**RGB25** is a hybrid standard combining fungible and non-fungible aspects. It is designed for partially fungible assets, such as real estate tokenization, where you want to split up a property while retaining a link to a single root asset (in other words, you have fungible pieces of a house, linked to a non-fungible house). Technically, this interface can be linked to the **Collectible Fungible Asset* (CFA)** schema, which takes into account the notion of splitting while tracing the original asset.
+**RGB25** is a hybrid standard combining fungible and non-fungible aspects. It is designed for partially fungible assets, such as real estate tokenization, where you want to split up a property while retaining a link to a single root asset (in other words, you have fungible pieces of a house, linked to a non-fungible house). Technically, this interface can be linked to the **Collectible Fungible Asset (CFA)** schema, which takes into account the notion of splitting while tracing the original asset.
 
 #### Interfaces under development
 
@@ -2898,10 +2898,10 @@ Here we see:
 
 
 - `rgb:`**: URL prefix;
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT);
-- rGB21**: interface for non-fungible assets (NFT);
-- `DbwzvSu-4BZU81jEp-...`**: an explicit reference to the unique part of the NFT, for example a hash of the data blob (media, metadata...);
-- `+utxob:egXsFnw-...`**: the seal definition.
+- **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT);
+- **rGB21**: interface for non-fungible assets (NFT);
+- `DbwzvSu-4BZU81jEp-...`: **an explicit reference to the unique part of the NFT, for example a hash of the data blob (media, metadata...);**
+- **`+utxob:egXsFnw-...`**: the seal definition.
 
 The idea is the same: transmit a unique link that the wallet can interpret, clearly identifying the unique asset to be transferred.
 
@@ -2921,7 +2921,7 @@ Here we find:
 - `/RGB20/issue/100000`: indicates that you want to invoke the "*Issue*" transition to create an additional 100,000 tokens;
 - `+utxob:`: the seal definition.
 
-For example, the wallet might read: "I have been asked to carry out an `issue` operation from the `RGB20` interface, on such and such a contract, for 100,000 units, for the benefit of such and such a Single-use Seal.*"
+For example, the wallet might read: "I have been asked to carry out an `issue` operation from the `RGB20` interface, on such and such a contract, for 100,000 units, for the benefit of such and such a Single-use Seal."
 
 Now that we've looked at the main elements of RGB programming, I'll take you through the next chapter on how to draw up an RGB contract.
 
@@ -3437,7 +3437,7 @@ The company behind Bitmask is not limiting itself to the simple development of a
 
 - A **marketplace** for exchanging tokens, particularly in **RGB21** form;
 - Compatibility with other wallets (such as *Iris Wallet*);
-- Transfer batching** techniques, i.e. the possibility of including several successive RGB transfers in a single transaction.
+- **Transfer batching** techniques, i.e. the possibility of including several successive RGB transfers in a single transaction.
 
 At the same time, we're working on **WebBTC** or **WebLN** (standards enabling websites to ask the wallet to sign Bitcoin or Lightning transactions), as well as on the ability to "teleburn" Ordinals entries (if we want to repatriate Ordinals to a more discreet and flexible RGB format).
 

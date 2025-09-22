@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - sikkerhet med flere nøkler
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - en mobilapplikasjon som lar deg opprette både Hot-lommebøker og Cold-hvelv for langsiktig sparing
 ---
 

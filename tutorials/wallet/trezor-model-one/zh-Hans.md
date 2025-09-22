@@ -1,5 +1,5 @@
 ---
-name: Trezor 型号 One
+name: Trezor Model One
 description: 设置和使用 Hardware Wallet 型号一
 ---
 ![cover](assets/cover.webp)
@@ -201,7 +201,7 @@ Model One 将使用随机数生成器创建您的 Mnemonic 短语。请确保在
 
 
 
-***显然，您绝不能像我在本教程中所做的那样，在互联网上分享这些文字。本例 Wallet 将仅用于 Testnet，并将在教程结束时删除。
+**显然，您绝不能像我在本教程中所做的那样，在互联网上分享这些文字。本例 Wallet 将仅用于 Testnet，并将在教程结束时删除。**
 
 
 

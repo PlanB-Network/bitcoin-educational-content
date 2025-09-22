@@ -1,5 +1,5 @@
 ---
-name: Bwawa la Wabongo
+name: Braiins Pool
 
 description: Utangulizi wa Dimbwi la Wabongo
 ---

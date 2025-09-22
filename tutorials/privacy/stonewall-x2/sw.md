@@ -1,5 +1,5 @@
 ---
-name: Ukuta wa mawe x2
+name: Stonewall x2
 description: Kuelewa na kutumia miamala ya Stonewall x2
 ---
 ![cover stonewall x2](assets/cover.webp)

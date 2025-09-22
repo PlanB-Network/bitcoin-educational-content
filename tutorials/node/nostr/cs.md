@@ -4,9 +4,10 @@ name: NOSTR
 description: Objevte a začněte používat NOSTR
 ---
 
-Na konci tohoto průvodce budete rozumět, co je Nostr, vytvoříte si účet a budete ho umět používat.
 
 ![Nový vyzývatel přichází](assets/1.webp)
+
+*Na konci této příručky pochopíte, co je Nostr, vytvoříte si účet a budete jej moci používat.*
 
 ## Co je Nostr?
 
@@ -34,9 +35,9 @@ Veřejný klíč, npub, je jedinečný identifikátor, ke kterému je připojen 
 
 Klienti jsou software, který umožňuje interakci s Nostr. Hlavní klienti jsou:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Klienti umožňují uživatelům generovat nový pár klíčů (ekvivalent k vytvoření účtu) nebo se autentizovat s existujícím párem klíčů.
 
@@ -46,7 +47,7 @@ Relé jsou zjednodušené servery, které můžete kdykoli opustit, pokud se vá
 
 > 💡 Profi tip: Placená relé jsou obecně účinnější při filtrování spamu a nechtěného obsahu.
 
-# Průvodce
+## Průvodce
 
 Nyní víte dost o Nostru, abyste mohli začít a vytvořit svou první identitu na tomto protokolu.
 

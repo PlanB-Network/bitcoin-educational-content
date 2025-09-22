@@ -19,10 +19,10 @@ ThunderHub ist ein **Open-Source-Manager für Lightning-Knoten (LND)** und biete
 
 
 
-- Überwachung**: Globale Übersicht über Salden, Kanäle, Transaktionen, Routing-Statistiken
-- Verwaltung**: Öffnen/Schließen von Kanälen, eingehende/ausgehende Zahlungen, Kanalausgleich
-- Integrationen**: LNURL-Unterstützung, Swaps über Boltz, Amboss-Backup
-- Interface responsive**: Kompatibel mit Mobil-, Tablet- und Desktop-Geräten mit dunklen/hellen Themen
+- **Überwachung**: Globale Übersicht über Salden, Kanäle, Transaktionen, Routing-Statistiken
+- **Verwaltung**: Öffnen/Schließen von Kanälen, eingehende/ausgehende Zahlungen, Kanalausgleich
+- **Integrationen**: LNURL-Unterstützung, Swaps über Boltz, Amboss-Backup
+- **Interface responsive**: Kompatibel mit Mobil-, Tablet- und Desktop-Geräten mit dunklen/hellen Themen
 
 
 
@@ -30,7 +30,7 @@ ThunderHub lässt sich problemlos mit **Umbrel**, **Voltage**, **RaspiBlitz** un
 
 
 
-**ThunderHub eignet sich besonders für Betreiber, die ein ergonomisches Interface für die Verwaltung ihrer Kanäle, die Steuerung der Liquidität (Rebalancing), die Überwachung von Transaktionen und die Integration von Drittanbieterdiensten wie Amboss suchen. Die Sicherheit wird über eine lokale oder Tor-Verbindung gewährleistet.
+**ThunderHub eignet sich besonders für Betreiber, die ein ergonomisches Interface für die Verwaltung ihrer Kanäle, die Steuerung der Liquidität (Rebalancing), die Überwachung von Transaktionen und die Integration von Drittanbieterdiensten wie Amboss suchen. Die Sicherheit wird über eine lokale oder Tor-Verbindung gewährleistet.**
 
 
 
@@ -58,8 +58,8 @@ Umbrel integriert ThunderHub in seinen **App Store**, was die Installation extre
 
 
 
-- Öffne das Umbrel Dashboard**: Verbinde dich mit dem Interface Web deines Umbrel-Knotens (z.B. `http://umbrel.local` in deinem lokalen Netzwerk, oder über sein `.onion` Address, wenn du Tor benutzt).
-- Zugriff auf den App Store**: Klicken Sie im Hauptmenü von Umbrel auf "App Store" (oder "App"). Suchen Sie in der Liste der verfügbaren Anwendungen nach **ThunderHub**.
+- **Öffne das Umbrel Dashboard**: Verbinde dich mit dem Interface Web deines Umbrel-Knotens (z.B. `http://umbrel.local` in deinem lokalen Netzwerk, oder über sein `.onion` Address, wenn du Tor benutzt).
+- **Zugriff auf den App Store**: Klicken Sie im Hauptmenü von Umbrel auf "App Store" (oder "App"). Suchen Sie in der Liste der verfügbaren Anwendungen nach **ThunderHub**.
 
 
 
@@ -69,13 +69,13 @@ Umbrel integriert ThunderHub in seinen **App Store**, was die Installation extre
 
 
 
-- Installieren Sie ThunderHub**: Klicken Sie auf die ThunderHub-Anwendung und dann auf die Schaltfläche "Installieren". Bestätigen Sie, wenn nötig. Umbrel wird ThunderHub automatisch herunterladen und auf Ihrem Knoten installieren.
+- **Installieren Sie ThunderHub**: Klicken Sie auf die ThunderHub-Anwendung und dann auf die Schaltfläche "Installieren". Bestätigen Sie, wenn nötig. Umbrel wird ThunderHub automatisch herunterladen und auf Ihrem Knoten installieren.
 
 
 
 
 
-- Starten Sie die Anwendung**: Sobald die Installation abgeschlossen ist (einige zehn Sekunden), erscheint ThunderHub auf Ihrer Startseite. Klicken Sie auf das Symbol, um es zu öffnen. ThunderHub wird in Ihrem Browser gestartet.
+- **Starten Sie die Anwendung**: Sobald die Installation abgeschlossen ist (einige zehn Sekunden), erscheint ThunderHub auf Ihrer Startseite. Klicken Sie auf das Symbol, um es zu öffnen. ThunderHub wird in Ihrem Browser gestartet.
 
 
 
@@ -88,8 +88,8 @@ Umbrel integriert ThunderHub in seinen **App Store**, was die Installation extre
 
 
 
-- Speichern Sie dieses Passwort sofort** in Ihrem Passwort-Manager
-- Kopieren Sie es** zur Verwendung im nächsten Schritt
+- Speichern Sie dieses Passwort sofort **in Ihrem Passwort-Manager**
+- Kopieren Sie es zur Verwendung im nächsten Schritt
 - Aktivieren Sie die Option "Nicht mehr anzeigen", sobald das Kennwort gespeichert wurde
 
 
@@ -127,8 +127,8 @@ Für Benutzer außerhalb von Umbrel (z.B. auf einem persönlichen Server, einem 
 
 
 
-- Node.js** Version 18 oder höher
-- npm** installiert
+- **Node.js** Version 18 oder höher
+- **npm** installiert
 - Zugang zu LND-Authentifizierungsdateien :
   - LND TLS-Zertifikat (`tls.cert`)
   - LND-Verwaltungsmakkaron (`admin.macaroon`)
@@ -304,8 +304,8 @@ Die Anmeldeseite von ThunderHub wird angezeigt. Wählen Sie das konfigurierte Ko
 
 
 
-- Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- Konfiguration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installation:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
+- **Konfiguration:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
 
 
 
@@ -327,18 +327,18 @@ Interface ThunderHub ist um ein Hauptmenü herum aufgebaut (das normalerweise in
 
 
 
-- Home** - Home-Registerkarte mit allgemeinem Dashboard (Überblick über Ihren Knoten und Schnellaktionen).
-- Dashboard** - Anpassbares Dashboard mit Widgets und erweiterten Metriken.
-- Peers** - Lightning Peer Management (Verbindungen zu anderen Knoten).
-- Channels** - Detaillierte Verwaltung von Lightning-Kanälen.
-- Rebalance** - Instrument zum Kanalausgleich (Rundzahlungen).
-- Transaktionen** - Blitzzahlungshistorie (LN Transaktionen).
-- Weiterleitungen** - Routing-Statistiken (von Ihrem Knoten weitergeleitete Zahlungen).
-- Kette** - Node's On-Chain Portfolio (On-Chain BTC: UTXOs, Transaktionen).
-- Amboss** - Integration mit Amboss (Knotenüberwachung, Backups, usw.).
-- Tools** - Verschiedene Tools (Backups, signierte Nachrichten, Makronen, Berichte usw.).
-- Tausch** - On-Chain/Lightning-Tauschfunktionen über Boltz.
-- Stats** - Erweiterte Statistiken und Leistungsmetriken für Knoten.
+- **Home** - Home-Registerkarte mit allgemeinem Dashboard (Überblick über Ihren Knoten und Schnellaktionen).
+- **Dashboard** - Anpassbares Dashboard mit Widgets und erweiterten Metriken.
+- **Peers** - Lightning Peer Management (Verbindungen zu anderen Knoten).
+- **Channels** - Detaillierte Verwaltung von Lightning-Kanälen.
+- **Rebalance** - Instrument zum Kanalausgleich (Rundzahlungen).
+- **Transaktionen** - Blitzzahlungshistorie (LN Transaktionen).
+- **Weiterleitungen** - Routing-Statistiken (von Ihrem Knoten weitergeleitete Zahlungen).
+- **Kette** - Node's On-Chain Portfolio (On-Chain BTC: UTXOs, Transaktionen).
+- **Amboss** - Integration mit Amboss (Knotenüberwachung, Backups, usw.).
+- **Tools** - Verschiedene Tools (Backups, signierte Nachrichten, Makronen, Berichte usw.).
+- **Tausch** - On-Chain/Lightning-Tauschfunktionen über Boltz.
+- **Stats** - Erweiterte Statistiken und Leistungsmetriken für Knoten.
 
 
 
@@ -360,32 +360,32 @@ Die Registerkarte **Home** von ThunderHub ist die Startseite, die nach der Anmel
 
 
 
-- Guthaben und Kapazitäten:** Oben auf der Seite zeigt ThunderHub Ihre verfügbaren Guthaben an. Hier sehen Sie normalerweise den On-Chain-Saldo (Bitcoin On-Chain im Wallet des Knotens, symbolisiert durch ein Anchor ⚓) und den Blitz-Saldo (die Kapazitäten Ihrer Kanäle, symbolisiert durch einen Blitz Bolt ⚡). So sehen Sie sofort, wie viel Geld Sie in On-Chain und Lightning haben. Wenn Sie mehrere Konten oder Kanäle haben, vergewissern Sie sich, dass Sie auf dem richtigen Kanal sind (z. B. Mainnet gegenüber Testnet).
+- **Guthaben und Kapazitäten:** Oben auf der Seite zeigt ThunderHub Ihre verfügbaren Guthaben an. Hier sehen Sie normalerweise den On-Chain-Saldo (Bitcoin On-Chain im Wallet des Knotens, symbolisiert durch ein Anchor ⚓) und den Blitz-Saldo (die Kapazitäten Ihrer Kanäle, symbolisiert durch einen Blitz Bolt ⚡). So sehen Sie sofort, wie viel Geld Sie in On-Chain und Lightning haben. Wenn Sie mehrere Konten oder Kanäle haben, vergewissern Sie sich, dass Sie auf dem richtigen Kanal sind (z. B. Mainnet gegenüber Testnet).
 
 
 
 
 
-- Schlüsselstatistiken:** Das Dashboard kann einige globale Metriken für Ihren Knoten anzeigen, z. B. die Anzahl der offenen Kanäle, die Anzahl der angeschlossenen Peers, verdiente Routing-Gebühren (falls zutreffend) usw. Es ist eine Zusammenfassung der jüngsten Aktivitäten und des Zustands des Knotens.
+- **Schlüsselstatistiken:** Das Dashboard kann einige globale Metriken für Ihren Knoten anzeigen, z. B. die Anzahl der offenen Kanäle, die Anzahl der angeschlossenen Peers, verdiente Routing-Gebühren (falls zutreffend) usw. Es ist eine Zusammenfassung der jüngsten Aktivitäten und des Zustands des Knotens.
 
 
 
 
 
-- Quick Actions:** Das Dashboard enthält Schaltflächen, mit denen die häufigsten Aufgaben schnell ausgeführt werden können, ohne durch Menüs navigieren zu müssen. Zu diesen Schnellaktionen gehören:
+- **Quick Actions:** Das Dashboard enthält Schaltflächen, mit denen die häufigsten Aufgaben schnell ausgeführt werden können, ohne durch Menüs navigieren zu müssen. Zu diesen Schnellaktionen gehören:
 
 
 
 
 
-  - Geist**: Richten Sie einen benutzerdefinierten Lightning Address über Amboss ein.
-  - Spende**: Machen Sie eine Spende über Lightning.
-  - Anmelden/Zu**: Verbinden Sie sich mit Ihrem Amboss-Konto (Quick Connect) und gehen Sie direkt zu Amboss.space, um die Informationen Ihres Knotens einzusehen.
-  - Address** : Geben Sie einen Lightning Address ein, um eine Zahlung zu leisten.
-  - Öffnen**: Öffnet einen neuen Lightning-Kanal. Wenn Sie darauf klicken, öffnet sich ein Formular zur Eingabe der URI des entfernten Knotens, für den der Kanal geöffnet werden soll, des Betrags und ggf. der maximalen On-Chain-Gebühr, die verwendet werden soll.
-  - Dekodieren**: Dekodieren Sie eine Lightning Invoice oder LNURL, um Details vor der Zahlung anzuzeigen.
-  - LNURL**: Verarbeiten Sie LNURLs für Lightning-Zahlungen oder -Abhebungen.
-  - LnMarkets Anmeldung**: Anmeldung bei LnMarkets für den Handel.
+- **Geist**: Richten Sie einen benutzerdefinierten Lightning Address über Amboss ein.
+- **Spende**: Machen Sie eine Spende über Lightning.
+- **Anmelden/Zu**: Verbinden Sie sich mit Ihrem Amboss-Konto (Quick Connect) und gehen Sie direkt zu Amboss.space, um die Informationen Ihres Knotens einzusehen.
+- **Address**: Geben Sie einen Lightning Address ein, um eine Zahlung zu leisten.
+- **Öffnen**: Öffnet einen neuen Lightning-Kanal. Wenn Sie darauf klicken, öffnet sich ein Formular zur Eingabe der URI des entfernten Knotens, für den der Kanal geöffnet werden soll, des Betrags und ggf. der maximalen On-Chain-Gebühr, die verwendet werden soll.
+- **Dekodieren**: Dekodieren Sie eine Lightning Invoice oder LNURL, um Details vor der Zahlung anzuzeigen.
+- **LNURL**: Verarbeiten Sie LNURLs für Lightning-Zahlungen oder -Abhebungen.
+- **LnMarkets Anmeldung**: Anmeldung bei LnMarkets für den Handel.
 
 
 
@@ -407,7 +407,7 @@ Der Bereich **Dashboard** ist von der Registerkarte Home getrennt und bietet ein
 
 
 
-- Anpassbare Widgets:** Im Gegensatz zur Startseite, die ein festes Layout hat, können Sie im Dashboard genau auswählen, welche Elements angezeigt werden sollen und wie sie organisiert werden.
+- **Anpassbare Widgets:** Im Gegensatz zur Startseite, die ein festes Layout hat, können Sie im Dashboard genau auswählen, welche Elements angezeigt werden sollen und wie sie organisiert werden.
 
 
 
@@ -445,19 +445,19 @@ Einmal konfiguriert, kann Ihr Dashboard verschiedene Diagramme und Metriken anze
 
 
 
-- Erweiterte Metriken:** Greifen Sie auf detailliertere Statistiken über die Leistung Ihres Knotens zu, mit Diagrammen und Echtzeitdaten.
+- **Erweiterte Metriken:** Greifen Sie auf detailliertere Statistiken über die Leistung Ihres Knotens zu, mit Diagrammen und Echtzeitdaten.
 
 
 
 
 
-- Konfigurierbare Übersicht:** Passen Sie die Anzeige an, egal ob Sie ein Gelegenheitsnutzer oder ein professioneller Anwender sind, der mehrere Routing-Kanäle verwaltet.
+- **Konfigurierbare Übersicht:** Passen Sie die Anzeige an, egal ob Sie ein Gelegenheitsnutzer oder ein professioneller Anwender sind, der mehrere Routing-Kanäle verwaltet.
 
 
 
 
 
-- Modulare Interface:** Fügen Sie je nach Bedarf Widgets hinzu oder entfernen Sie sie: Vorwärtsdiagramme, Liquiditätsmetriken, Warnungen zum Knotenzustand usw.
+- **Modulare Interface:** Fügen Sie je nach Bedarf Widgets hinzu oder entfernen Sie sie: Vorwärtsdiagramme, Liquiditätsmetriken, Warnungen zum Knotenzustand usw.
 
 
 
@@ -483,8 +483,8 @@ Auf der Registerkarte "Peers" sehen Sie :
 
 
 
-- Informationsspalten:** Das Interface zeigt nützliche Details wie den Synchronisationsstatus, den Verbindungstyp (Clearnet oder Tor), Ping, empfangene/gesendete Satoshis und das Volumen der ausgetauschten Daten an.
-- Hinzufügen eines Peers:** Mit ThunderHub können Sie über die Schaltfläche **"Hinzufügen "** in der oberen rechten Ecke manuell eine Verbindung zu einem neuen Peer herstellen. Sie müssen die URI des Knotens eingeben (Format `<public_key>@<socket>`). Nach der Validierung sendet ThunderHub den entsprechenden Befehl `lncli connect`. Wenn der Knoten online und erreichbar ist, wird er zu Ihrer Liste der Peers hinzugefügt.
+- **Informationsspalten:** Das Interface zeigt nützliche Details wie den Synchronisationsstatus, den Verbindungstyp (Clearnet oder Tor), Ping, empfangene/gesendete Satoshis und das Volumen der ausgetauschten Daten an.
+- Hinzufügen eines Peers: Mit ThunderHub können Sie über die Schaltfläche **"Hinzufügen"** in der oberen rechten Ecke manuell eine Verbindung zu einem neuen Peer herstellen. Sie müssen die URI des Knotens eingeben (Format `<public_key>@<socket>`). Nach der Validierung sendet ThunderHub den entsprechenden Befehl `lncli connect`. Wenn der Knoten online und erreichbar ist, wird er zu Ihrer Liste der Peers hinzugefügt.
 
 
 
@@ -506,31 +506,31 @@ Die folgenden Informationen finden Sie auf der Seite Kanäle:
 
 
 
-- Ansicht der Kanalliste:** Jeder offene (oder geöffnete/geschlossene) Kanal wird aufgelistet, in der Regel mit dem Alias des entfernten Knotens, der gesamten Kanalkapazität und einem farbigen Balken, der die Verteilung der lokalen gegenüber der entfernten Liquidität darstellt. ThunderHub verwendet einen Farbcode (oft blau/Green) oder einen Prozentsatz, um das Gleichgewicht des Kanals anzuzeigen: z. B. blau für Ihren lokalen Anteil, Green für den entfernten Anteil. Wenn ein Kanal perfekt ausgeglichen ist (50/50), zeigt der Balken die Hälfte jeder Farbe an. So können Sie auf einen Blick erkennen, welche Kanäle unausgewogen sind (alles blau = fast alles lokal, alles Green = fast alles fern).
+- **Ansicht der Kanalliste:** Jeder offene (oder geöffnete/geschlossene) Kanal wird aufgelistet, in der Regel mit dem Alias des entfernten Knotens, der gesamten Kanalkapazität und einem farbigen Balken, der die Verteilung der lokalen gegenüber der entfernten Liquidität darstellt. ThunderHub verwendet einen Farbcode (oft blau/Green) oder einen Prozentsatz, um das Gleichgewicht des Kanals anzuzeigen: z. B. blau für Ihren lokalen Anteil, Green für den entfernten Anteil. Wenn ein Kanal perfekt ausgeglichen ist (50/50), zeigt der Balken die Hälfte jeder Farbe an. So können Sie auf einen Blick erkennen, welche Kanäle unausgewogen sind (alles blau = fast alles lokal, alles Green = fast alles fern).
 
 
 
 
 
-- Informationsspalten:** Das Interface zeigt detaillierte Spalten an, einschließlich Status, verfügbare Aktionen, Peer-Info, Kanal-ID, Kapazität, Aktivität, Gebühren und Saldo mit grafischer Liquiditätsanzeige.
+- **Informationsspalten:** Das Interface zeigt detaillierte Spalten an, einschließlich Status, verfügbare Aktionen, Peer-Info, Kanal-ID, Kapazität, Aktivität, Gebühren und Saldo mit grafischer Liquiditätsanzeige.
 
 
 
 
 
-- Anzeigekonfiguration:** Über ein Zahnrad in der oberen rechten Ecke können Sie die Kanalanzeige Ihren Wünschen entsprechend anpassen.
+- **Anzeigekonfiguration:** Über ein Zahnrad in der oberen rechten Ecke können Sie die Kanalanzeige Ihren Wünschen entsprechend anpassen.
 
 
 
 
 
-- Status:** Sie sehen auch Statusanzeigen - z. B. "Aktiv" (der Kanal ist offen und betriebsbereit), "Offline" (der Peer ist getrennt, so dass der Kanal vorübergehend unbrauchbar ist), "Ausstehend" (für Eröffnungen oder Schließungen, die von On-Chain bestätigt werden müssen).
+- **Status:** Sie sehen auch Statusanzeigen - z. B. "Aktiv" (der Kanal ist offen und betriebsbereit), "Offline" (der Peer ist getrennt, so dass der Kanal vorübergehend unbrauchbar ist), "Ausstehend" (für Eröffnungen oder Schließungen, die von On-Chain bestätigt werden müssen).
 
 
 
 
 
-- Aktionen in einem Kanal:** Für jeden Kanal bietet ThunderHub Aktionsschaltflächen (oft in Form von Symbolen):
+- **Aktionen in einem Kanal:** Für jeden Kanal bietet ThunderHub Aktionsschaltflächen (oft in Form von Symbolen):
 
 
 
@@ -540,9 +540,9 @@ Die folgenden Informationen finden Sie auf der Seite Kanäle:
 
 
 
-  - Gebühren bearbeiten:** Mit der Interface "Update Channel Policy" können Sie alle Kanalparameter anpassen: Grundgebühr, Gebührensatz (in ppm), CLTV Delta, Max HTLC und Min HTLC. Auf diese Weise können Sie Ihre Gebührenrichtlinien individuell pro Kanal anpassen, mit dem Ziel, Routing-Verkehr anzuziehen (oder abzuschrecken). *(Hinweis: ThunderHub ist kein Ersatz für ein automatisches Gebührenmanagement-Tool, aber für die manuelle Anpassung ist es sehr effektiv)*
-  - Schließkanal (*Close*)**: Der Interface "Close Channel" lässt Ihnen die Wahl zwischen einem **kooperativen Abschluss** (Standard) oder einem **erzwungenen Abschluss** (*Force Close*), indem Sie die Gebühren (in Sats/vByte) festlegen. **Wichtig:** Bevorzugen Sie, wenn möglich, immer den kooperativen Abschluss, um On-Chain-Abwicklungsverzögerungen und höhere Gebühren zu vermeiden. ThunderHub teilt Ihnen mit, ob die Gegenstelle online ist (kooperativ möglich) oder nicht. Im Falle eines erzwungenen Abschlusses müssen Sie diesen bestätigen, da er unumkehrbar ist und eine umfassende Transaktion mit einer Zeitsperre auslöst (im Allgemeinen 144 Blöcke oder ~1 Tag bei Bitcoin Mainnet).
-  - Einen neuen Kanal öffnen:** Um einen neuen Kanal zu öffnen, klicken Sie auf das Zahnrad oben rechts auf der Seite "Kanäle" und wählen Sie dann "Öffnen". Sie können dann einen Kanal zu einem neuen oder bestehenden Peer einrichten. Der Vorteil dieser Seite ist, dass Sie eine Liste Ihrer bestehenden Channels vor sich haben, die Ihnen bei der Entscheidung helfen kann, wo Sie einen neuen Channel eröffnen wollen.
+- **Gebühren bearbeiten:** Mit der Interface "Update Channel Policy" können Sie alle Kanalparameter anpassen: Grundgebühr, Gebührensatz (in ppm), CLTV Delta, Max HTLC und Min HTLC. Auf diese Weise können Sie Ihre Gebührenrichtlinien individuell pro Kanal anpassen, mit dem Ziel, Routing-Verkehr anzuziehen (oder abzuschrecken). *(Hinweis: ThunderHub ist kein Ersatz für ein automatisches Gebührenmanagement-Tool, aber für die manuelle Anpassung ist es sehr effektiv)*
+- Schließkanal (*Close*): Der Interface "Close Channel" lässt Ihnen die Wahl zwischen einem **kooperativen Abschluss** (Standard) oder einem **erzwungenen Abschluss** (*Force Close*), indem Sie die Gebühren (in Sats/vByte) festlegen. **Wichtig:** Bevorzugen Sie, wenn möglich, immer den kooperativen Abschluss, um On-Chain-Abwicklungsverzögerungen und höhere Gebühren zu vermeiden. ThunderHub teilt Ihnen mit, ob die Gegenstelle online ist (kooperativ möglich) oder nicht. Im Falle eines erzwungenen Abschlusses müssen Sie diesen bestätigen, da er unumkehrbar ist und eine umfassende Transaktion mit einer Zeitsperre auslöst (im Allgemeinen 144 Blöcke oder ~1 Tag bei Bitcoin Mainnet).
+- **Einen neuen Kanal öffnen:** Um einen neuen Kanal zu öffnen, klicken Sie auf das Zahnrad oben rechts auf der Seite "Kanäle" und wählen Sie dann "Öffnen". Sie können dann einen Kanal zu einem neuen oder bestehenden Peer einrichten. Der Vorteil dieser Seite ist, dass Sie eine Liste Ihrer bestehenden Channels vor sich haben, die Ihnen bei der Entscheidung helfen kann, wo Sie einen neuen Channel eröffnen wollen.
 
 
 
@@ -568,41 +568,41 @@ ThunderHub vereinfacht diesen Vorgang, der sonst auf der Kommandozeile mühsam w
 
 
 
-- Anfängliche Kanalansicht:** Beim Aufrufen von Rebalance zeigt ThunderHub eine Liste Ihrer Kanäle mit einem Balanceindikator für jeden Kanal an (ähnlich dem auf der Seite Kanäle). Sie können sofort sehen, welche Kanäle aus dem Gleichgewicht geraten sind. ThunderHub kann die Kanäle in der Reihenfolge der zunehmenden Ausgewogenheit sortieren, so dass die am stärksten unausgewogenen Kanäle ganz oben in der Liste stehen (0,0 bedeutet vollständig lokal oder ferngesteuert).
+- **Anfängliche Kanalansicht:** Beim Aufrufen von Rebalance zeigt ThunderHub eine Liste Ihrer Kanäle mit einem Balanceindikator für jeden Kanal an (ähnlich dem auf der Seite Kanäle). Sie können sofort sehen, welche Kanäle aus dem Gleichgewicht geraten sind. ThunderHub kann die Kanäle in der Reihenfolge der zunehmenden Ausgewogenheit sortieren, so dass die am stärksten unausgewogenen Kanäle ganz oben in der Liste stehen (0,0 bedeutet vollständig lokal oder ferngesteuert).
 
 
 
 
 
-- Peer-Auswahl:** Das Interface macht es einfach, ausgehende und eingehende Peers für den Ausgleich auszuwählen.
+- **Peer-Auswahl:** Das Interface macht es einfach, ausgehende und eingehende Peers für den Ausgleich auszuwählen.
 
 
 
 
 
-- Parametereinstellungen:** Sie können einstellen:
+- **Parametereinstellungen:** Sie können einstellen:
   - Die **höchste Gebühr** (in Sats und ppm), die Sie zu zahlen bereit sind
   - Der **Betrag für die Neugewichtung** mit der Option "Fest" oder "Ziel"
-  - Zu vermeidende Knoten** beim Routing
-  - Maximale Versuchszeit** für die Routenfindung
+- **Zu vermeidende Knoten** beim Routing
+- **Maximale Versuchszeit** für die Routenfindung
 
 
 
 
 
-- Wählen Sie den Kanal **Quelle****: Wählen Sie zunächst den **Ausgangskanal (Quelle)**, d. h. den Kanal, von dem Sie zu viel lokale Liquidität haben, um ihn zu verschieben. In der Praxis ist dies ein Kanal, bei dem Ihr lokaler Anteil hoch ist (> 50 %). Stellen wir uns einen A-Kanal mit 1.000.000 Satss vor, von denen 900.000 lokal sind - ein guter Kandidat, um Satss woanders hin zu schicken. Wenn Sie auf diesen A-Kanal als "ausgehend" klicken, markiert ThunderHub ihn als Quelle.
+- Wählen Sie den Kanal **Quelle**: Wählen Sie zunächst den **Ausgangskanal (Quelle)**, d. h. den Kanal, von dem Sie zu viel lokale Liquidität haben, um ihn zu verschieben. In der Praxis ist dies ein Kanal, bei dem Ihr lokaler Anteil hoch ist (> 50 %). Stellen wir uns einen A-Kanal mit 1.000.000 Satss vor, von denen 900.000 lokal sind - ein guter Kandidat, um Satss woanders hin zu schicken. Wenn Sie auf diesen A-Kanal als "ausgehend" klicken, markiert ThunderHub ihn als Quelle.
 
 
 
 
 
-- Wählen Sie **Zielkanal****: Als Nächstes wählen Sie den **Zielkanal**, der Liquidität erhalten soll. In der Regel wird dies ein Kanal sein, bei dem es umgekehrt ist - die meisten Mittel befinden sich auf der anderen Seite (z. B. nur 100.000 lokale Satss von 1.000.000). ThunderHub sortiert nach der Auswahl des Quellkanals die anderen Kanäle in umgekehrter Reihenfolge (abnehmende Ausgewogenheit), um die komplementärsten Kanäle zu ermitteln. Wählen Sie einen B-Kanal, der auf der lokalen Seite Platz hat. ThunderHub zeigt dann deutlich an, welche beiden Kanäle ausgewählt wurden (Quelle A und Ziel B).
+- Wählen Sie **Zielkanal**: Als Nächstes wählen Sie den **Zielkanal**, der Liquidität erhalten soll. In der Regel wird dies ein Kanal sein, bei dem es umgekehrt ist - die meisten Mittel befinden sich auf der anderen Seite (z. B. nur 100.000 lokale Satss von 1.000.000). ThunderHub sortiert nach der Auswahl des Quellkanals die anderen Kanäle in umgekehrter Reihenfolge (abnehmende Ausgewogenheit), um die komplementärsten Kanäle zu ermitteln. Wählen Sie einen B-Kanal, der auf der lokalen Seite Platz hat. ThunderHub zeigt dann deutlich an, welche beiden Kanäle ausgewählt wurden (Quelle A und Ziel B).
 
 
 
 
 
-- Gebührenhöhe und -toleranz festlegen:** Ein Formular ermöglicht Ihnen die Eingabe von :
+- **Gebührenhöhe und -toleranz festlegen:** Ein Formular ermöglicht Ihnen die Eingabe von :
 
 
 
@@ -615,19 +615,19 @@ ThunderHub vereinfacht diesen Vorgang, der sonst auf der Kommandozeile mühsam w
 
 
 
-- Route finden:** Klicken Sie auf die Schaltfläche, um eine Route zu finden. ThunderHub fragt den LND ab, um eine Route von Ihrem Quellkanal durch das Netzwerk zu Ihrem eigenen Zielkanal zu berechnen. Wenn er eine mögliche Route findet, die Ihren Gebührenkriterien entspricht, zeigt er sie mit Details zu den Sprüngen und den Gebührenkosten an. Zum Beispiel könnte es anzeigen, dass es einen 3-Hop-Pfad mit insgesamt 2 Sats an Gebühren gefunden hat.
+- **Route finden:** Klicken Sie auf die Schaltfläche, um eine Route zu finden. ThunderHub fragt den LND ab, um eine Route von Ihrem Quellkanal durch das Netzwerk zu Ihrem eigenen Zielkanal zu berechnen. Wenn er eine mögliche Route findet, die Ihren Gebührenkriterien entspricht, zeigt er sie mit Details zu den Sprüngen und den Gebührenkosten an. Zum Beispiel könnte es anzeigen, dass es einen 3-Hop-Pfad mit insgesamt 2 Sats an Gebühren gefunden hat.
 
 
 
 
 
-- Rebalance starten:** Wenn Sie mit der vorgeschlagenen Route zufrieden sind, klicken Sie auf **Balance Channel**. ThunderHub initiiert dann eine Umlaufzahlung über LND. Wenn die Zahlung erfolgreich ist, erhalten Sie eine Erfolgsmeldung, und die Salden der Kanäle A und B werden in Echtzeit geändert. ThunderHub aktualisiert die Saldenanzeige für diese Kanäle (im Idealfall sind sie grüner als zuvor, was auf einen besseren Saldo hinweist).
+- **Rebalance starten:** Wenn Sie mit der vorgeschlagenen Route zufrieden sind, klicken Sie auf **Balance Channel**. ThunderHub initiiert dann eine Umlaufzahlung über LND. Wenn die Zahlung erfolgreich ist, erhalten Sie eine Erfolgsmeldung, und die Salden der Kanäle A und B werden in Echtzeit geändert. ThunderHub aktualisiert die Saldenanzeige für diese Kanäle (im Idealfall sind sie grüner als zuvor, was auf einen besseren Saldo hinweist).
 
 
 
 
 
-- Anpassungen und Iterationen:** Wenn beim ersten Versuch keine Route gefunden wird (oder wenn sie zu teuer ist), können Sie die Parameter anpassen:
+- **Anpassungen und Iterationen:** Wenn beim ersten Versuch keine Route gefunden wird (oder wenn sie zu teuer ist), können Sie die Parameter anpassen:
 
 
 
@@ -666,7 +666,7 @@ Auf dieser Registerkarte finden Sie :
 
 
 
-- Invoice-Diagramm:** In der oberen rechten Ecke zeigt ein Diagramm die Entwicklung der eingegangenen Rechnungen im Laufe der Zeit, so dass Sie die Aktivität Ihres Knotens visualisieren können.
+- **Invoice-Diagramm:** In der oberen rechten Ecke zeigt ein Diagramm die Entwicklung der eingegangenen Rechnungen im Laufe der Zeit, so dass Sie die Aktivität Ihres Knotens visualisieren können.
 
 
 
@@ -708,13 +708,13 @@ In Forwards präsentiert ThunderHub :
 
 
 
-- Filter und Anzeigeoptionen:** Oben rechts können Sie mit den Filtern die Daten nach Tag/Woche/Monat/Jahr sortieren und zwischen grafischer und tabellarischer Anzeige wählen.
+- **Filter und Anzeigeoptionen:** Oben rechts können Sie mit den Filtern die Daten nach Tag/Woche/Monat/Jahr sortieren und zwischen grafischer und tabellarischer Anzeige wählen.
 
 
 
 
 
-- Aktivitätsmeldung:** Wenn während des ausgewählten Zeitraums kein Routing durchgeführt wurde, zeigt der Interface "Keine Weiterleitungen für diesen Zeitraum" an, wie in diesem Beispiel gezeigt.
+- **Aktivitätsmeldung:** Wenn während des ausgewählten Zeitraums kein Routing durchgeführt wurde, zeigt der Interface "Keine Weiterleitungen für diesen Zeitraum" an, wie in diesem Beispiel gezeigt.
 
 
 
@@ -736,7 +736,7 @@ In Forwards präsentiert ThunderHub :
 
 
 
-- Aggregierte Statistiken**: ThunderHub berechnet Summen und Statistiken über einen bestimmten Zeitraum (z. B. die letzten 24 Stunden oder 7 Tage usw., manchmal konfigurierbar) und zeigt sie oben auf der Seite an.
+- **Aggregierte Statistiken**: ThunderHub berechnet Summen und Statistiken über einen bestimmten Zeitraum (z. B. die letzten 24 Stunden oder 7 Tage usw., manchmal konfigurierbar) und zeigt sie oben auf der Seite an.
 
 
 
@@ -762,19 +762,19 @@ In Chain finden Sie :
 
 
 
-- Saldo On-Chain :** Zeigt den gesamten verfügbaren BTC-Saldo in Wallet LND an.
+- Saldo On-Chain: **Zeigt den gesamten verfügbaren BTC-Saldo in Wallet LND an.**
 
 
 
 
 
-- Liste der UTXOs:** Anzeige aller nicht ausgegebenen Ausgaben (UTXO) mit Betrag, Bestätigungen, Address und Format für jede Ausgabe.
+- **Liste der UTXOs:** Anzeige aller nicht ausgegebenen Ausgaben (UTXO) mit Betrag, Bestätigungen, Address und Format für jede Ausgabe.
 
 
 
 
 
-- Transaktionshistorie:** Detaillierte Tabelle aller Bitcoin-Transaktionen mit Art (Ein-/Ausgang), Datum, Betrag, Gebühren, Bestätigungen, Einschlussblock, Adressen und txid.
+- **Transaktionshistorie:** Detaillierte Tabelle aller Bitcoin-Transaktionen mit Art (Ein-/Ausgang), Datum, Betrag, Gebühren, Bestätigungen, Einschlussblock, Adressen und txid.
 
 
 
@@ -796,7 +796,7 @@ In ThunderHub können Sie im Amboss-Bereich Ihren Knoten mit Ihrem Amboss-Konto 
 
 
 
-- Ghost Address:** Richten Sie einen **personalisierten Lightning Address** für Ihren Knotenpunkt ein, um eingehende Zahlungen zu erleichtern.
+- **Ghost Address:** Richten Sie einen **personalisierten Lightning Address** für Ihren Knotenpunkt ein, um eingehende Zahlungen zu erleichtern.
 
 
 
@@ -808,13 +808,13 @@ In ThunderHub können Sie im Amboss-Bereich Ihren Knoten mit Ihrem Amboss-Konto 
 
 
 
-- Gesundheitschecks:** Aktivieren Sie **Amboss Healthcheck = Ja**, damit Ihr Knoten regelmäßig Pings an Amboss sendet. Sie erhalten eine Warnung, wenn Ihr Knoten offline zu sein scheint.
+- **Gesundheitschecks:** Aktivieren Sie **Amboss Healthcheck = Ja**, damit Ihr Knoten regelmäßig Pings an Amboss sendet. Sie erhalten eine Warnung, wenn Ihr Knoten offline zu sein scheint.
 
 
 
 
 
-- Weitere Funktionen:** Automatischer Balance-Push, **Magma/Hydro**-Integration (Liquiditätsmarktplatz) und Zugang zu detaillierten Leistungsstatistiken.
+- **Weitere Funktionen:** Automatischer Balance-Push, **Magma/Hydro**-Integration (Liquiditätsmarktplatz) und Zugang zu detaillierten Leistungsstatistiken.
 
 
 
@@ -836,16 +836,16 @@ Im Abschnitt **Tools** sind verschiedene fortgeschrittene Tools für die Verwalt
 
 
 
-- Backups:** Verwalten Sie manuell Ihre Channel-Backups (SCB). Mit ThunderHub können Sie **die komplette Sicherungsdatei** Ihrer Kanäle herunterladen (Option "Sicherung aller Kanäle -> Download"). Bewahren Sie diese Datei `channel-all.bak` an einem sicheren Ort auf - sie ist für die Wiederherstellung Ihrer Mittel im Falle eines Absturzes unerlässlich. Sie können auch eine Sicherungsdatei **importieren**, wenn Sie einen Knoten neu einrichten.
+- **Backups:** Verwalten Sie manuell Ihre Channel-Backups (SCB). Mit ThunderHub können Sie **die komplette Sicherungsdatei** Ihrer Kanäle herunterladen (Option "Sicherung aller Kanäle -> Download"). Bewahren Sie diese Datei `channel-all.bak` an einem sicheren Ort auf - sie ist für die Wiederherstellung Ihrer Mittel im Falle eines Absturzes unerlässlich. Sie können auch eine Sicherungsdatei **importieren**, wenn Sie einen Knoten neu einrichten.
 
 
 
 
 
-- Buchhaltung:** Exporttool für Finanzberichte einschließlich der verdienten/bezahlten Gebühren und der in einem bestimmten Zeitraum weitergeleiteten Mengen.
-- Signierte Nachrichten:** **Signieren oder verifizieren Sie Nachrichten** mit Ihrem Knoten, um Ownership Ihres Lightning-Knotens durch eine kryptografische Signatur nachzuweisen.
+- **Buchhaltung:** Exporttool für Finanzberichte einschließlich der verdienten/bezahlten Gebühren und der in einem bestimmten Zeitraum weitergeleiteten Mengen.
+- **Signierte Nachrichten:** Signieren oder verifizieren Sie Nachrichten mit Ihrem Knoten, um Ownership Ihres Lightning-Knotens durch eine kryptografische Signatur nachzuweisen.
 - Makronen (Abschnitt "Bäckerei"):** Verwalten Sie LND** Makronen, um einen individuellen Zugang zu erstellen. Die Interface "Bäckerei" ermöglicht es Ihnen, jede Berechtigung genau auszuwählen: "Peers hinzufügen oder entfernen", "Kettenadressen erstellen", "Rechnungen erstellen", "Makronen erstellen", "Schlüssel ableiten", "Zugangsschlüssel erhalten", "Kettentransaktionen erhalten", "Rechnungen erhalten", "Wallet-Informationen erhalten", "Zahlungen abrufen", "Peers abrufen", "Rechnungen bezahlen", "Zugangskennungen widerrufen", "An Kettenadressen senden", "Bytes signieren", "Nachrichten signieren", "daemon stoppen", "Bytesignatur überprüfen", "Nachrichten überprüfen" usw. Jede Berechtigung kann einzeln mit den Schaltflächen "Ja/Nein" aktiviert werden, um ein maßgeschneidertes Makkaron zu erstellen.
-- Systeminformationen:** Anzeige der Wallet-Version und der aktivierten RPCs.
+- **Systeminformationen:** Anzeige der Wallet-Version und der aktivierten RPCs.
 
 
 
@@ -871,9 +871,9 @@ Das Verfahren ist einfach:
 
 
 
-- Betrag**: Definieren Sie den umzutauschenden Betrag
-- Address** : Eingabe Bitcoin Empfang Address
-- Ausführung**: ThunderHub kommuniziert mit Boltz, um die Exchange automatisch zu verarbeiten
+- **Betrag**: Definieren Sie den umzutauschenden Betrag
+- **Address**: Eingabe Bitcoin Empfang Address
+- **Ausführung**: ThunderHub kommuniziert mit Boltz, um die Exchange automatisch zu verarbeiten
 
 
 
@@ -940,6 +940,6 @@ ThunderHub demokratisiert die erweiterte Verwaltung von Lightning-Knoten und mac
 
 
 
-- Offizielle Website:** [thunderhub.io](https://thunderhub.io)
-- Dokumentation:** [docs.thunderhub.io](https://docs.thunderhub.io)
-- GitHub-Quellcode:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)
+- **Offizielle Website:** [thunderhub.io](https://thunderhub.io)
+- **Dokumentation:** [docs.thunderhub.io](https://docs.thunderhub.io)
+- **GitHub-Quellcode:** [github.com/apotdevin/thunderhub](https://github.com/apotdevin/thunderhub)

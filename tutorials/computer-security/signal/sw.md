@@ -1,5 +1,5 @@
 ---
-name: Mawimbi
+name: Signal
 description: Jielezee kwa uhuru
 ---
 ![cover](assets/cover.webp)

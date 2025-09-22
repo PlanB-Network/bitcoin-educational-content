@@ -1,5 +1,5 @@
 ---
-name: Nodo de rayos RGB
+name: RGB Lightning Node
 description: ¿Cómo lanzo un nodo Lightning compatible con RGB con RLN?
 ---
 ![cover](assets/cover.webp)

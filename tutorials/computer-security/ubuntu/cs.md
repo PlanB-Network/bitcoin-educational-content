@@ -11,13 +11,13 @@ Operační systém (OS) je hlavní software, který spravuje všechny prostředk
 ### Proč Ubuntu?
 
 
-- Zvýšené zabezpečení**: Distribuce Linuxu jsou známé svým zabezpečením a odolností
-- Nulové náklady**: Ubuntu a většina linuxových distribucí jsou zdarma
-- Velká komunita**: Komunita uživatelů připravená pomoci prostřednictvím fór a výukových programů
-- Respektování soukromí**: Otevřený systém pro větší transparentnost
-- Jednoduchost**: Uživatelsky přívětivé rozhraní a snadné použití
-- Bohatý ekosystém**: Rozsáhlý katalog softwaru s otevřeným zdrojovým kódem
-- Pravidelná podpora**: Zabezpečené aktualizace od společnosti Canonical
+- **Zvýšené zabezpečení**: Distribuce Linuxu jsou známé svým zabezpečením a odolností
+- **Nulové náklady**: Ubuntu a většina linuxových distribucí jsou zdarma
+- **Velká komunita**: Komunita uživatelů připravená pomoci prostřednictvím fór a výukových programů
+- **Respektování soukromí**: Otevřený systém pro větší transparentnost
+- **Jednoduchost**: Uživatelsky přívětivé rozhraní a snadné použití
+- **Bohatý ekosystém**: Rozsáhlý katalog softwaru s otevřeným zdrojovým kódem
+- **Pravidelná podpora**: Zabezpečené aktualizace od společnosti Canonical
 
 ## Instalace a konfigurace
 
@@ -77,19 +77,19 @@ Při zavádění z klíče USB se zobrazí tato obrazovka, která vám umožní 
 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
-**Volba jazyka
+**Volba jazyka**
 
 Zvolte preferovaný jazyk instalace a systému.
 
 ![Sélection de la langue](assets/fr/07.webp)
 
-**Možnosti přístupu
+**Možnosti přístupu**
 
 V případě potřeby nakonfigurujte možnosti přístupnosti (čtečka obrazovky, vysoký kontrast atd.).
 
 ![Options d'accessibilité](assets/fr/08.webp)
 
-**Konfigurace klávesnice
+**Konfigurace klávesnice**
 
 Vyberte rozložení klávesnice. Pro kontrolu, zda klávesy odpovídají vaší konfiguraci, je k dispozici testovací pole.
 
@@ -101,31 +101,31 @@ Během instalace se připojte k síti Wi-Fi nebo kabelové síti, abyste mohli s
 
 ![Configuration réseau](assets/fr/10.webp)
 
-**Typ instalace
+**Typ instalace**
 
 Vyberte si mezi možnostmi "Vyzkoušet Ubuntu" (testování bez instalace) nebo "Nainstalovat Ubuntu".
 
 ![Choix du type d'installation](assets/fr/11.webp)
 
-**Způsob instalace
+**Způsob instalace**
 
 Vyberte interaktivní instalaci.
 
 ![Mode d'installation](assets/fr/12.webp)
 
-**Výběr aplikace
+**Výběr aplikace**
 
 Můžete si vybrat mezi výchozí instalací nebo rozšířeným výběrem aplikací.
 
 ![Sélection des applications](assets/fr/13.webp)
 
-**Aplikace třetích stran
+**Aplikace třetích stran**
 
 Rozhodněte se, zda nainstalovat další ovladače a proprietární software.
 
 ![Installation applications tierces](assets/fr/14.webp)
 
-**Typ rozdělení
+**Typ rozdělení**
 
 Máte dvě hlavní možnosti:
 
@@ -135,13 +135,13 @@ Máte dvě hlavní možnosti:
 
 ![Choix du partitionnement](assets/fr/15.webp)
 
-**Vytvoření uživatelského účtu
+**Vytvoření uživatelského účtu**
 
 Nastavte uživatelské jméno a heslo pro účet Ubuntu.
 
 ![Création du compte](assets/fr/16.webp)
 
-**Časové pásmo
+**Časové pásmo**
 
 Pro nastavení systémového času vyberte zeměpisnou oblast.
 
@@ -164,7 +164,7 @@ Důležitým krokem po nové instalaci je aktualizace systému. Máte dvě možn
 - Aplikace automaticky zkontroluje dostupné aktualizace
 - Při instalaci aktualizací postupujte podle pokynů na obrazovce
 
-**Možnost 2: Přes terminál
+**Možnost 2: Přes terminál**
 
 
 - Otevření terminálu (Ctrl + Alt + T)
@@ -187,7 +187,7 @@ sudo apt upgrade
 
 ### 5. Zjištění základních úkolů
 
-**5.1 Procházení internetu
+**5.1 Procházení internetu**
 
 Ve výchozím nastavení najdete Firefox často na panelu spouštění.
 
@@ -195,7 +195,7 @@ Spusťte Firefox a začněte procházet.
 
 Ostatní prohlížeče (Chrome, Brave atd.) lze nainstalovat prostřednictvím Správce softwaru nebo balíčků .deb.
 
-**5.2 Zpracování textu
+**5.2 Zpracování textu**
 
 Ubuntu je dodáváno se sadou LibreOffice (Writer pro zpracování textu).
 
@@ -203,7 +203,7 @@ Jeho otevření: Aktivity > Hledat "LibreOffice Writer" nebo klikněte na ikonu,
 
 Můžete vytvářet, upravovat a ukládat dokumenty v různých formátech (včetně formátu .docx).
 
-**5.3 Instalace aplikací
+**5.3 Instalace aplikací**
 
 Správce softwaru (nazvaný "Ubuntu Software"): grafické rozhraní pro vyhledávání a instalaci aplikací.
 

@@ -53,7 +53,7 @@ Umbrel offers an ecosystem of integrated applications to take full advantage of 
 You'll see its Interface web via Umbrel: it provides basic information and, above all, the URL of your relay (top right), which you'll need to copy for further use. A synchronization button (globe icon) is also available.
 
 
-**To take advantage of your Umbrel relay :
+**To take advantage of your Umbrel relay:**
 
 
 **Add the relay to your Nostr client:** In your client application (e.g. Damus on iOS, Amethyst on Android, Snort or noStrudel on Umbrel, etc.), add the URL of your private relay that you copied earlier. By default, the Umbrel relay listens on port **4848**. If you access it on the local network, this gives a URL like: `ws://umbrel.local:4848` (or use the Umbrel's local IP).
@@ -246,7 +246,7 @@ For security reasons, your Umbrel is only accessible by default on your local ne
 
 
 
-- Access via Tor:** Umbrel automatically configures a **Tor service (.onion)** for its Interface web and applications. This means you can access Interface Umbrel (including _noStrudel_ or _Snort_) from anywhere, using the Tor browser, without exposing your public IP. _Tor is used to access your Umbrel services from outside your local network, without exposing your device to the Internet ([Setup Tor on your system - Guides - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))._ To use this option, go to Umbrel settings and retrieve your Umbrel's .onion URL (or scan the QR code provided). On a Tor browser, access this .onion address: you'll get the same Interface as locally. You can then use your Nostr apps just like at home.
+- **Access via Tor:** Umbrel automatically configures a **Tor service (.onion)** for its Interface web and applications. This means you can access Interface Umbrel (including *noStrudel* or *Snort*) from anywhere, using the Tor browser, without exposing your public IP. *Tor is used to access your Umbrel services from outside your local network, without exposing your device to the Internet ([Setup Tor on your system - Guides - Umbrel Community](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww)).* To use this option, go to Umbrel settings and retrieve your Umbrel's .onion URL (or scan the QR code provided). On a Tor browser, access this .onion address: you'll get the same Interface as locally. You can then use your Nostr apps just like at home.
 
 **Nostr relay via Tor:** If you'd like your Nostr relay to be reachable via Tor by your customers (or authorized friends), this is possible. Umbrel doesn't provide the relay's .onion address directly, but since it runs on port 4848, you can either :
 
@@ -256,11 +256,11 @@ For security reasons, your Umbrel is only accessible by default on your local ne
 
 
 
-    - Or** expose port 4848 as a separate onion service. This requires fiddling with the Tor config on Umbrel (reserved for advanced users comfortable with SSH). Alternatively, consider a **Tor tunnel** on another server that redirects to Umbrel: however, for personal use, it's easiest to use Tailscale.
+- Or **expose port 4848 as a separate onion service. This requires fiddling with the Tor config on Umbrel (reserved for advanced users comfortable with SSH). Alternatively, consider a** Tor tunnel **on another server that redirects to Umbrel: however, for personal use, it's easiest to use Tailscale.**
 
 
 
-- Access via Tailscale:** [Tailscale](https://tailscale.com/) is a mesh VPN solution that creates a virtual private network between your devices and Umbrel. The advantage: it works as if you were on a LAN, but over the Internet, encrypted and without complex configuration. **Tailscale assigns your Umbrel a fixed IP and a private domain name, regardless of its network location ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. In practice, once you've installed Tailscale on Umbrel (from the Umbrel App Store, category _Networking_) **and** on your devices (mobile, PC...), you'll be able to reach Umbrel via an address like `100.x.y.z` (Tailscale IP) or a name like `umbrel.tailnet123.ts.net`.
+- Access via Tailscale: **[Tailscale](https://tailscale.com/) is a mesh VPN solution that creates a virtual private network between your devices and Umbrel. The advantage: it works as if you were on a LAN, but over the Internet, encrypted and without complex configuration.** Tailscale assigns your Umbrel a fixed IP and a private domain name, regardless of its network location **([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. In practice, once you've installed Tailscale on Umbrel (from the Umbrel App Store, category *Networking*) **and** on your devices (mobile, PC...), you'll be able to reach Umbrel via an address like `100.x.y.z` (Tailscale IP) or a name like `umbrel.tailnet123.ts.net`.
 
 for Nostr_, Tailscale is extremely useful: your mobile, if it has Tailscale active, will be able to connect to `ws://umbrel:4848` (thanks to MagicDNS) or directly to the Tailscale IP and port 4848 to use the relay. Clients like Damus or Amethyst will see your Umbrel as if it were on the same local network. **Tip:** Enable the **MagicDNS** option in Tailscale to use the hostname `umbrel` instead of memorizing the IP. This ensures a smooth connection to your relay even when you're on the move ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
 
@@ -268,7 +268,7 @@ What's more, Tailscale lets you access the Interface Umbrel (and thus the _noStr
 
 
 
-**Note: Tor and Tailscale are not mutually exclusive. You can keep Tor active for anonymized access or specific services, and use Tailscale on a day-to-day basis for its simplicity. In both cases, you don't need to open a port on your router, which reinforces security.
+**Note: Tor and Tailscale are not mutually exclusive. You can keep Tor active for anonymized access or specific services, and use Tailscale on a day-to-day basis for its simplicity. In both cases, you don't need to open a port on your router, which reinforces security.**
 
 
 ### Securing your Nostr relay (recommended practices)
@@ -278,23 +278,23 @@ If you host a Nostr relay on Umbrel, especially in an advanced context, be sure 
 
 
 
-- Private or restricted relay:** By default, your Umbrel relay is private (not publicly announced) and, if you only access it via Tailscale or your LAN, it will remain inaccessible to strangers. **Keep the link confidential ** Do not broadcast it on public Nostr networks unless you want to voluntarily host other users, which is a whole other issue (moderation, bandwidth, etc.). For personal use, we recommend limiting access to yourself and, if necessary, to a few trusted friends and family.
+- Private or restricted relay: By default, your Umbrel relay is private (not publicly announced) and, if you only access it via Tailscale or your LAN, it will remain inaccessible to strangers. **Keep the link confidential.** Do not broadcast it on public Nostr networks unless you want to voluntarily host other users, which is a whole other issue (moderation, bandwidth, etc.). For personal use, we recommend limiting access to yourself and, if necessary, to a few trusted friends and family.
 
 
 
-- Whitelist / Auth**: The nostr-rs-relay implementation supports a **NIP-42** authentication mechanism as well as _whitelists_ of public keys. By enabling these options, you can restrict your relay so that it **only accepts events signed by certain keys (yours)**, or that clients must authenticate to publish. setting this up requires editing the relay's `config.toml` configuration file in Umbrel (via SSH in the Docker container)._ It's an advanced manipulation, but for example you can list the ads allowed (`pubkey_whitelist`). This way, even if someone discovers your relay, they won't be able to publish anything there if they're not on the list.
+- Whitelist / Auth: The nostr-rs-relay implementation supports a **NIP-42** authentication mechanism as well as *whitelists* of public keys. By enabling these options, you can restrict your relay so that it **only accepts events signed by certain keys (yours)**, or that clients must authenticate to publish. Setting this up requires editing the relay's `config.toml` configuration file in Umbrel (via SSH in the Docker container). It's an advanced manipulation, but for example you can list the ads allowed (`pubkey_whitelist`). This way, even if someone discovers your relay, they won't be able to publish anything there if they're not on the list.
 
 
 
-- Updates and maintenance:** Keep your Umbrel and the _Nostr Relay_ app up to date. Updates may include performance improvements (e.g. better spam handling) and security fixes. On Umbrel, check the App Store regularly for updates to _Nostr Relay_, and apply them as necessary.
+- **Updates and maintenance:** Keep your Umbrel and the _Nostr Relay_ app up to date. Updates may include performance improvements (e.g. better spam handling) and security fixes. On Umbrel, check the App Store regularly for updates to _Nostr Relay_, and apply them as necessary.
 
 
 
-- Monitoring and limits:** Keep an eye on how your relay is used. If you open it up to others, keep an eye on the load (CPU/RAM storage) on your Umbrel, as a relay can quickly accumulate a lot of data. nostr-rs-relay offers configurable **rate and storage limits** (`limits` in the config, e.g. number of events per second, max event size, purging of old events...). For private use, you probably won't need to touch these, but be aware that these parameters exist if you need them ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
+- **Monitoring and limits:** Keep an eye on how your relay is used. If you open it up to others, keep an eye on the load (CPU/RAM storage) on your Umbrel, as a relay can quickly accumulate a lot of data. nostr-rs-relay offers configurable **rate and storage limits** (`limits` in the config, e.g. number of events per second, max event size, purging of old events...). For private use, you probably won't need to touch these, but be aware that these parameters exist if you need them ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
 
 
 
-- Securing Nostr keys:** This point has already been mentioned, but it's crucial: never enter your Nostr private keys in a Interface you don't fully trust. Instead, use browser extensions or external devices (such as Nostr _signers_ on separate phones) to sign sensitive actions. On Umbrel, your web clients like _Snort_ and _noStrudel_ can work without knowing your secret key, via NIP-07. Take advantage of this opportunity to combine comfort and security.
+- **Securing Nostr keys:** This point has already been mentioned, but it's crucial: never enter your Nostr private keys in a Interface you don't fully trust. Instead, use browser extensions or external devices (such as Nostr *signers* on separate phones) to sign sensitive actions. On Umbrel, your web clients like *Snort* and *noStrudel* can work without knowing your secret key, via NIP-07. Take advantage of this opportunity to combine comfort and security.
 
 
 

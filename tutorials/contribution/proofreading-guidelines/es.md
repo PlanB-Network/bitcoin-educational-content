@@ -205,7 +205,7 @@ A continuación encontrará algunos ejemplos de cuestiones de formato a las que 
 
 
 
-- Preste atención a los signos de puntuación extraños como `\*\*`, o ``**`` que pueden representar una mala representación del símbolo de negrita. En la imagen de abajo, puedes ver que los asteriscos están sólo a la derecha de la palabra, lo que resulta extraño.
+- Preste atención a los signos de puntuación extraños como `**`, o `**` que pueden representar una mala representación del símbolo de negrita. En la imagen de abajo, puedes ver que los asteriscos están sólo a la derecha de la palabra, lo que resulta extraño.
 
 
 

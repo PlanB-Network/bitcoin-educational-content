@@ -1,5 +1,5 @@
 ---
-name: बिटकॉइनवाउचरबॉट
+name: BitcoinVoucherBot
 description: एक टेलीग्राम बॉट गोपनीय रूप से Bitcoin खरीदेगा
 ---
 ![image](assets/cover.webp)

@@ -730,9 +730,9 @@ I dette avsnittet tar vi for oss ytterligere tre typer som er svært vanlige i J
 
 
 
-- Matriser**: sekvenser av verdier
-- udefinert**: en spesiell verdi som betyr at "ingenting ble tildelt"
-- null**: en annen spesiell verdi som betyr "med vilje tom"
+- **Matriser**: sekvenser av verdier
+- **udefinert**: en spesiell verdi som betyr at "ingenting ble tildelt"
+- **null**: en annen spesiell verdi som betyr "med vilje tom"
 
 
 ### Matriser og indekstilgang
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Hva er det som skjer her?
+**Hva er det som skjer her?**
 
 
 1. Vi sender `input` som en liste over tall vi ønsker å doble.
@@ -5048,7 +5048,7 @@ Disse er nyttige når du vil oppdatere en variabel ved hjelp av dens egen verdi.
 ### Destrukturering
 
 
-*med *Destructuring** kan du enkelt ta verdier ut av matriser eller objekter og lagre dem i variabler.
+**Med Destructuring** kan du enkelt ta verdier ut av matriser eller objekter og lagre dem i variabler.
 
 
 #### Matriser
@@ -6431,10 +6431,10 @@ NodeJS har fire hovedtyper av strømmer:
 
 
 
-- Readable**: strømmer du kan lese data fra (som å lese en fil)
-- Writable**: strømmer du kan skrive data til (som å skrive til en fil)
-- Tosidig**: strømmer som både kan leses og skrives
-- Transform**: som tosidige strømmer, men de kan endre (transformere) dataene mens de flyter
+- **Readable**: strømmer du kan lese data fra (som å lese en fil)
+- **Writable**: strømmer du kan skrive data til (som å skrive til en fil)
+- **Tosidig**: strømmer som både kan leses og skrives
+- **Transform**: som tosidige strømmer, men de kan endre (transformere) dataene mens de flyter
 
 
 ### Lesbare strømmer

@@ -1469,7 +1469,7 @@ Bastiat, "Adalet ve Kardeşlik" adlı broşüründe, kolektif ihtiyaçların (po
 
 > Temeller -
 > **katma değer**
-> toplum** için
+> **toplum** için
 >
 
 > SwissFoundations

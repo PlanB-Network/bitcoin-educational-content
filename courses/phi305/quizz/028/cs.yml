@@ -1,0 +1,9 @@
+question: Čí heslo zní "mysli sám za sebe"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  myslet sám za sebe" (sapere aude) je mottem Immanuela Kanta a heslem osvícenství. Jde o odvahu používat vlastní rozum bez kurately druhých.
+reviewed: false

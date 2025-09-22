@@ -59,7 +59,7 @@ Untuk mengunduh VirtualBox untuk instalasi pada mesin Windows, hanya ada satu Ad
 
 
 
-Menginstalasi VirtualBox** sangat mudah, dan prosesnya sama untuk semua versi Windows. Mulailah dengan meluncurkan file executable VirtualBox yang baru saja Anda unduh, lalu klik "**Next**".
+**Menginstalasi VirtualBox** sangat mudah, dan prosesnya sama untuk semua versi Windows. Mulailah dengan meluncurkan file executable VirtualBox yang baru saja Anda unduh, lalu klik "**Next**".
 
 
 
@@ -73,9 +73,9 @@ Instalasi ini dapat disesuaikan, tetapi saya sarankan agar Anda menginstal semua
 
 
 
-- Dukungan USB VirtualBox** untuk memungkinkan VirtualBox mendukung perangkat USB
-- VirtualBox Bridged Network** untuk mengintegrasikan dukungan jaringan dalam mode "Bridge" (mesin virtual dapat terhubung langsung ke jaringan lokal Anda)
-- VirtualBox Host-Only Network ** untuk mengintegrasikan dukungan jaringan dalam mode "Host-Only" (mesin virtual hanya dapat berkomunikasi dengan host fisik Windows 11 Anda dan mesin virtual lainnya dalam mode ini)
+- Dukungan USB VirtualBox untuk memungkinkan VirtualBox mendukung perangkat USB
+- **VirtualBox Bridged Network** untuk mengintegrasikan dukungan jaringan dalam mode "Bridge" (mesin virtual dapat terhubung langsung ke jaringan lokal Anda)
+- VirtualBox Host-Only Network **untuk mengintegrasikan dukungan jaringan dalam mode "Host-Only"** (mesin virtual hanya dapat berkomunikasi dengan host fisik Windows 11 Anda dan mesin virtual lainnya dalam mode ini)
 
 
 
@@ -165,10 +165,10 @@ Untuk membuat mesin virtual baru di VirtualBox, cukup klik tombol "**New**" untu
 
 
 
-- Pengaturan**: konfigurasi VirtualBox umum (folder VM default, manajemen pembaruan, bahasa, jaringan NAT, ekstensi, dll.)
-- Impor**: mengimpor alat virtual dalam format OVF
-- Ekspor**: mengekspor mesin virtual yang sudah ada dalam format OVF untuk membuat alat virtual
-- Tambah **: tambahkan mesin virtual yang ada ke inventaris VirtualBox Anda, dalam format VirtualBox standar (.vbox) atau format XML
+- **Pengaturan**: konfigurasi VirtualBox umum (folder VM default, manajemen pembaruan, bahasa, jaringan NAT, ekstensi, dll.)
+- **Import**: mengimpor alat virtual dalam format OVF
+- **Ekspor**: mengekspor mesin virtual yang sudah ada dalam format OVF untuk membuat alat virtual
+- **Tambah**: tambahkan mesin virtual yang ada ke inventaris VirtualBox Anda, dalam format VirtualBox standar (.vbox) atau format XML
 
 
 
@@ -184,16 +184,16 @@ Di sebelah kiri, bagian "**Tools**" memberikan akses ke **fungsi lanjutan, terut
 
 
 
-**Sebagai pengingat, VirtualBox mendukung banyak sistem operasi, termasuk Windows, Linux, dan BSD. Dalam contoh ini, saya akan membuat mesin virtual untuk Windows 11. Beberapa bidang perlu diisi:
+**Sebagai pengingat, VirtualBox mendukung banyak sistem operasi, termasuk Windows, Linux, dan BSD. Dalam contoh ini, saya akan membuat mesin virtual untuk Windows 11. Beberapa bidang perlu diisi:**
 
 
 
 
 
-- Name**: nama mesin virtual (ini adalah nama yang akan ditampilkan di VirtualBox)
-- Folder mesin**: tempat menyimpan mesin virtual, dengan mengetahui bahwa subfolder dengan nama VM akan dibuat di lokasi ini
-- Jenis**: jenis sistem operasi, tergantung pada OS yang ingin Anda instal
-- Versi**: versi sistem yang ingin Anda instal, dalam hal ini Windows 11, jadi "**Windows11_64**"
+- **Name**: nama mesin virtual (ini adalah nama yang akan ditampilkan di VirtualBox)
+- **Folder mesin**: tempat menyimpan mesin virtual, dengan mengetahui bahwa subfolder dengan nama VM akan dibuat di lokasi ini
+- **Jenis**: jenis sistem operasi, tergantung pada OS yang ingin Anda instal
+- **Versi**: versi sistem yang ingin Anda instal, dalam hal ini Windows 11, jadi "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Klik "**Selanjutnya**" untuk melanjutkan.
 
 
 
-Bergantung pada sistem operasi yang Anda pilih pada langkah sebelumnya, **VirtualBox membuat rekomendasi sumber daya yang akan dialokasikan ke mesin virtual**. Di sini, kita berbicara tentang RAM yang ingin Anda alokasikan ke VM. Anggap saja 4 GB, karena ini memang direkomendasikan untuk Windows 11, tetapi jika Anda kekurangan sumber daya, tentukan 2 GB sebagai gantinya. ** Lanjutkan
+Bergantung pada sistem operasi yang Anda pilih pada langkah sebelumnya, **VirtualBox membuat rekomendasi sumber daya yang akan dialokasikan ke mesin virtual**. Di sini, kita berbicara tentang RAM yang ingin Anda alokasikan ke VM. Anggap saja 4 GB, karena ini memang direkomendasikan untuk Windows 11, tetapi jika Anda kekurangan sumber daya, tentukan 2 GB sebagai gantinya. **Lanjutkan**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox mendukung tiga format berbeda untuk disk Hard virtual, yang merupakan
 
 
 
-- VDI**, format resmi VirtualBox
-- VHD**, yang merupakan format resmi Hyper-V, meskipun format VHDX baru lebih sering digunakan akhir-akhir ini
-- VMDX** adalah format resmi VMware untuk VMware Workstation dan VMware ESXi
+- **VDI**, format resmi VirtualBox
+- **VHD**, yang merupakan format resmi Hyper-V, meskipun format VHDX baru lebih sering digunakan akhir-akhir ini
+- **VMDX** adalah format resmi VMware untuk VMware Workstation dan VMware ESXi
 
 
 
@@ -273,7 +273,7 @@ Pada titik ini, VM sudah ada di inventaris kita, sudah dikonfigurasi, tetapi sis
 
 
 
-Untuk menginstal Windows 11, atau sistem lainnya, kita memerlukan sumber instalasi. Pada umumnya, kami menggunakan citra disk dalam format ISO untuk menginstal sistem operasi. **Anda perlu memuat citra ISO Windows 11 ke dalam drive DVD virtual VM kami
+Untuk menginstal Windows 11, atau sistem lainnya, kita memerlukan sumber instalasi. Pada umumnya, kami menggunakan citra disk dalam format ISO untuk menginstal sistem operasi. **Anda perlu memuat citra ISO Windows 11 ke dalam drive DVD virtual VM kami.**
 
 
 
@@ -333,7 +333,7 @@ Dalam kasus saya, mesin virtual memiliki 2 prosesor virtual:
 
 
 
-**Jangan ragu untuk melihat bagian lain dari menu konfigurasi.
+**Jangan ragu untuk melihat bagian lain dari menu konfigurasi.**
 
 
 
@@ -390,10 +390,10 @@ Pada host fisik Windows 11, tempat VirtualBox diinstal, kita dapat melihat bahwa
 
 
 
-- File VBOX** (dalam format XML) yang sesuai dengan konfigurasi VM (RAM, CPU, dll.)
-- File VBOX-PREV ** adalah cadangan dari konfigurasi sebelumnya
-- File VDI ** sesuai dengan disk Hard virtual dalam mode dinamis, sehingga saat ini hanya 13 GB, sedangkan ukuran maksimumnya adalah 64 GB
-- File NVRAM ** berisi status BIOS dari mesin virtual, yang setara dengan memori non-volatile dari mesin fisik
+- File **VBOX** (dalam format XML) yang sesuai dengan konfigurasi VM (RAM, CPU, dll.)
+- File VBOX-PREV **adalah cadangan dari konfigurasi sebelumnya**
+- File VDI **sesuai dengan disk Hard virtual dalam mode dinamis, sehingga saat ini hanya 13 GB, sedangkan ukuran maksimumnya adalah 64 GB**
+- File NVRAM **berisi status BIOS dari mesin virtual, yang setara dengan memori non-volatile dari mesin fisik**
 
 
 

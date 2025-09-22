@@ -101,9 +101,9 @@ IP-osoitteiden osalta tämä antaa:
 
 
 
-- Kotiverkko**: 192.168.1.0/24
-- Yritysverkko**: 192.168.100.0/24
-- WireGuard-tunneliverkko**: 192.168.110.0/24
+- **Kotiverkko**: 192.168.1.0/24
+- **Yritysverkko**: 192.168.100.0/24
+- **WireGuard-tunneliverkko**: 192.168.110.0/24
 
 
 + Peer 1:n (Windows) IP Address tunnelissa: 192.168.110.2/24
@@ -117,7 +117,7 @@ Siinä kaikki! Aloitetaan konfigurointi!
 
 
 
-**Huomaa: oletusarvoisesti WireGuard toimii UDP-tilassa **portissa 51820**.
+**Huomaa: oletusarvoisesti WireGuard toimii UDP-tilassa portissa 51820.**
 
 
 
@@ -219,10 +219,10 @@ Jaksoa `[Interface]` käytetään palvelinosan ilmoittamiseen. Tässä on joitak
 
 
 
-- Address**: VPN-tunnelissa olevan Interface WireGuardin IP Address (eri aliverkko kuin etälähiverkko)
-- SaveConfig**: konfiguraatio tallennetaan (ja suojataan) niin kauan kuin Interface on aktiivinen
-- ListenPort**: WireGuardin kuunteluportti. Tässä tapauksessa 51820 on oletusportti, mutta voit muokata sitä
-- PrivateKey**: palvelimen yksityisen avaimen arvo (*wg-private.key*)
+- **Address**: VPN-tunnelissa olevan Interface WireGuardin IP Address (eri aliverkko kuin etälähiverkko)
+- **SaveConfig**: konfiguraatio tallennetaan (ja suojataan) niin kauan kuin Interface on aktiivinen
+- **ListenPort**: WireGuardin kuunteluportti. Tässä tapauksessa 51820 on oletusportti, mutta voit muokata sitä
+- **PrivateKey**: palvelimen yksityisen avaimen arvo (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Lisää nämä rivit tiedoston loppuun, jotta voit **aktivoida Interface ens192:
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Aloita avaamalla ohjelmisto uuden tunnelin luomiseksi. Napsauta tätä varten "*
 
 
 
-Määritysikkuna avautuu. Aina kun uusi tunnelikokoonpano luodaan, WireGuard luo kyseiselle kokoonpanolle ominaisen yksityisen/julkisen avainparin. **Tässä konfiguraatiossa meidän on ilmoitettava "peer" eli etäpalvelin:
+Määritysikkuna avautuu. Aina kun uusi tunnelikokoonpano luodaan, WireGuard luo kyseiselle kokoonpanolle ominaisen yksityisen/julkisen avainparin. **Tässä konfiguraatiossa meidän on ilmoitettava "peer" eli etäpalvelin:**
 
 
 
@@ -523,15 +523,15 @@ Kuvissa:
 
 
 
-** Muutama selitys [Peer]-lohkosta:
+**Muutama selitys [Peer]-lohkosta:**
 
 
 
 
 
-- PublicKey**: tämä on WireGuard Debian 11 -palvelimen julkinen avain (saat sen arvon komennolla "*sudo wg*")
-- AllowedIPs**: nämä ovat IP-osoitteita / aliverkkoja, joihin pääsee tämän WireGuard VPN -verkon kautta, tässä tapauksessa WireGuard VPN:n oma aliverkko (*192.168.110.0/24*) ja etälähiverkko (*192.168.100.0/24*)
-- Endpoint**: tämä on Debian 11 -isäntäkoneen IP Address, koska tämä on WireGuard-yhteyspisteemme (sinun on määritettävä julkinen IP Address)
+- **PublicKey**: tämä on WireGuard Debian 11 -palvelimen julkinen avain (saat sen arvon komennolla "*sudo wg*")
+- **AllowedIPs**: nämä ovat IP-osoitteita / aliverkkoja, joihin pääsee tämän WireGuard VPN -verkon kautta, tässä tapauksessa WireGuard VPN:n oma aliverkko (*192.168.110.0/24*) ja etälähiverkko (*192.168.100.0/24*)
+- **Endpoint**: tämä on Debian 11 -isäntäkoneen IP Address, koska tämä on WireGuard-yhteyspisteemme (sinun on määritettävä julkinen IP Address)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Nyt kun kokoonpano on valmis, voimme käynnistää sen Windows-tietokoneesta. Napsauta "**WireGuard**"-asiakasohjelmassa "**Activate**"-painiketta: yhteys muuttuu "Off"-asetuksesta "On"-asetukseksi, mutta se ei tarkoita, että se toimii. Kaikki riippuu siitä, onko konfiguraatiosi oikea vai ei. **Kun yhteys on muodostettu, kaksi konettamme kommunikoivat kummallekin puolelle määritetyn Interface WireGuardin kautta!
+Nyt kun kokoonpano on valmis, voimme käynnistää sen Windows-tietokoneesta. Napsauta **WireGuard**-asiakasohjelmassa **Activate**-painiketta: yhteys muuttuu "Off"-asetuksesta "On"-asetukseksi, mutta se ei tarkoita, että se toimii. Kaikki riippuu siitä, onko konfiguraatiosi oikea vai ei. **Kun yhteys on muodostettu, kaksi konettamme kommunikoivat kummallekin puolelle määritetyn Interface WireGuardin kautta!**
 
 
 
@@ -663,7 +663,7 @@ Etätietokoneestani voin pingata palvelimen puolella olevan Interface WireGuardi
 
 
 
-Pystyin WireGuard VPN:ään liitetystä etätietokoneestani käyttämään tiedostopalvelinta ja siirtämään tiedoston [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) kautta nähdäkseni siirtonopeuden. **WireGuardin avulla maksimissaan noin 45 Mb/s, mikä on hienoa, koska käytän WiFiä
+Pystyin WireGuard VPN:ään liitetystä etätietokoneestani käyttämään tiedostopalvelinta ja siirtämään tiedoston [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) kautta nähdäkseni siirtonopeuden. **WireGuardin avulla maksimissaan noin 45 Mb/s, mikä on hienoa, koska käytän WiFiä**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Näet, että tämä aktivoi myös vaihtoehdon "**Kill switch*".
+Näet, että tämä aktivoi myös vaihtoehdon "**Kill switch**".
 
 
 
@@ -783,4 +783,4 @@ Lisäasiakirjat:
 
 
 
-**WireGuard VPN on toiminnassa! Onnittelut!
+**WireGuard VPN on toiminnassa! Onnittelut!**

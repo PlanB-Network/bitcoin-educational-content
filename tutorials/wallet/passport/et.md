@@ -209,7 +209,7 @@ Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, s
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.**_
+loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus.
 
 Tehke sellest lausest füüsiline varukoopia.
 
@@ -485,4 +485,3 @@ Palju õnne, te teate nüüd, kuidas passi konfigureerida ja kasutada. Kui leids
 Lisateavet leiate meie Liana tarkvara juhendmaterjalist:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
-

@@ -91,19 +91,19 @@ Jednou ze zvláštností systému Blitz Wallet je, že podporuje různé sítě 
 
 
 
-- Lightning Network** : Jeden z překryvů Bitcoin, který umožňuje okamžité provádění mikrotransakcí.
+- **Lightning Network**: Jeden z překryvů Bitcoin, který umožňuje okamžité provádění mikrotransakcí.
 
 
 
 
 
-- Bitcoin Mainnet** : Hlavní řetězec protokolu Bitcoin, vhodný pro transakce s velkou hodnotou.
+- **Bitcoin Mainnet**: Hlavní řetězec protokolu Bitcoin, vhodný pro transakce s velkou hodnotou.
 
 
 
 
 
-- Liquid Network**: Confidential Transactions: paralelní řetězec k Bitcoin Mainnet vyvinutý společností BlockStream, který používá Bitcoiny Liquid k provádění rychlých, Confidential Transactions.
+- **Liquid Network**: Confidential Transactions: paralelní řetězec k Bitcoin Mainnet vyvinutý společností BlockStream, který používá Bitcoiny Liquid k provádění rychlých, Confidential Transactions.
 
 
 
@@ -167,7 +167,7 @@ Kromě převodů Bitcoin nabízí Blitz Wallet také obchod, kde můžete bitcoi
 
 
 
-- Přístup ke službám AI**: Využijte generativní modely umělé inteligence, jako jsou: A plaťte přímo v bitcoinech: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5.
+- **Přístup ke službám AI**: Využijte generativní modely umělé inteligence, jako jsou: A plaťte přímo v bitcoinech: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5.
 
 
 
@@ -177,7 +177,7 @@ Kromě převodů Bitcoin nabízí Blitz Wallet také obchod, kde můžete bitcoi
 
 
 
-- Posílejte textové zprávy kamkoli na světě**: V obchodě Blitz máte přístup ke službě GSM, která vám umožňuje anonymně posílat textové zprávy kamkoli na světě s přímou fakturací v Bitcoin.
+- **Posílejte textové zprávy kamkoli na světě**: V obchodě Blitz máte přístup ke službě GSM, která vám umožňuje anonymně posílat textové zprávy kamkoli na světě s přímou fakturací v Bitcoin.
 
 
 
@@ -187,7 +187,7 @@ Kromě převodů Bitcoin nabízí Blitz Wallet také obchod, kde můžete bitcoi
 
 
 
-- Surfujte v naprostém utajení**: Zaplaťte za předplatné VPN (Virtual Private Network) v obchodě Wallet Blitz svými bitcoiny.
+- **Surfujte v naprostém utajení**: Zaplaťte za předplatné VPN (Virtual Private Network) v obchodě Wallet Blitz svými bitcoiny.
 
 
 
@@ -247,7 +247,7 @@ Po aktivaci režimu Lightning a splnění hlavní podmínky (zůstatek 500 000 s
 
 
 
-- Přijměte Bitcoin ve svém obchodě** :
+- **Přijměte Bitcoin ve svém obchodě**:
 
 
 
@@ -268,4 +268,3 @@ Pokud vám tento návod pomohl s ovládáním hry Blitz, jsme si jisti, že se v
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-

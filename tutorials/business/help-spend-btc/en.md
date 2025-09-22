@@ -63,7 +63,7 @@ In this policy, instead of applying a discount, the merchant offers an extra ben
 Some examples include:
 
 * A food store adding a free product (e.g., a can or snack).
-* A beauty center offering an additional free service.
+**A beauty center offering an additional free service.**
 * A movie theater giving away a gadget, drink, or upgrade seat.
 * An electronics store adding an accessory to the primary product.
 
@@ -80,10 +80,10 @@ Every adopted policy (discount, offer, or exchange rate advantage) should be pre
 The method of implementation is left to the merchant, but briefly, here are some available options:
 
 * In-store signage (windows, cash register, shelves)
-* Stickers or labels on windows
+*Stickers or labels on windows*
 * Social media notifications, newsletters, website announcements
 * Direct dialogue with customers when possible
-* Advertising from bitcoin influencers who speak the same language as your target customers
+**Advertising from bitcoin influencers who speak the same language as your target customers**
 
 ### BTC Map
 

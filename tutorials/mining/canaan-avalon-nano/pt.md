@@ -1,5 +1,5 @@
 ---
-name: Canaã Avalon Nano 3S
+name: Canaan Avalon Nano 3S
 description: Configurando seu ASIC Avalon para solomining ou pooling Miner
 ---
 
@@ -29,7 +29,7 @@ Note-se que a diferença de preço em relação aos aquecedores tradicionais de 
 
 
 
-Na minha opinião, estes dispositivos devem ser vistos mais como uma forma simples de Miner em casa para aqueles que o desejam fazer por razões pessoais: *obter Satss sem KYC / jogar na "lotaria" solominando / participar na descentralização do Hashrate, etc., enquanto beneficia **como bónus** do calor gerado para aquecer o seu quarto no inverno. Mas não como uma forma de poupar dinheiro, pelo menos na maioria dos casos (países ocidentais).
+Na minha opinião, estes dispositivos devem ser vistos mais como uma forma simples de Miner em casa para aqueles que o desejam fazer por razões pessoais: *obter Satss sem KYC / jogar na "lotaria" solominando / participar na descentralização do Hashrate, etc.*, enquanto beneficia **como bónus** do calor gerado para aquecer o seu quarto no inverno. Mas não como uma forma de poupar dinheiro, pelo menos na maioria dos casos (países ocidentais).
 
 
 

@@ -1833,8 +1833,8 @@ Der Hauptvorteil von Descriptors liegt in ihrer Fähigkeit, alle wesentlichen In
 
 Ein Descriptor besteht aus mehreren Elementen:
 * Skriptfunktionen wie `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignatur*), und `sortedmulti` (*Multisignatur mit sortierten Schlüsseln*);
-* Ableitungspfade, zum Beispiel `[d34db33f/44h/0h/0h]`, die einen abgeleiteten Kontopfad und einen spezifischen Master-Schlüssel-Fingerabdruck anzeigen;
-* Schlüssel in verschiedenen Formaten wie hexadezimale öffentliche Schlüssel oder erweiterte öffentliche Schlüssel (`xpub`);
+**Ableitungspfade**, zum Beispiel `[d34db33f/44h/0h/0h]`, die einen abgeleiteten Kontopfad und einen spezifischen Master-Schlüssel-Fingerabdruck anzeigen;
+**Schlüssel in verschiedenen Formaten wie hexadezimale öffentliche Schlüssel oder erweiterte öffentliche Schlüssel (`xpub`);**
 * Eine Prüfsumme, vorangestellt von einem Hash-Zeichen, um die Integrität des Descriptors zu überprüfen.
 
 Zum Beispiel könnte ein Deskriptor für eine P2WPKH (SegWit v0) Wallet so aussehen:

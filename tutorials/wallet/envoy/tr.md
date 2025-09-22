@@ -1,5 +1,5 @@
 ---
-name: Elçi
+name: Envoy
 description: Envoy uygulaması ile bir Pasaportun kurulması ve kullanılması
 ---
 ![cover](assets/cover.webp)
@@ -373,7 +373,7 @@ Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla b
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.**_
+tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.
 
 
 Bu cümlenin fiziksel bir yedeğini alın.

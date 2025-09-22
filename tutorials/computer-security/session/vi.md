@@ -1,5 +1,5 @@
 ---
-name: Phiên họp
+name: Session
 description: Gửi tin nhắn được mã hóa, không phải siêu dữ liệu
 ---
 ![cover](assets/cover.webp)
@@ -99,13 +99,13 @@ Sau đó, bạn sẽ phải chọn giữa hai chế độ quản lý thông báo
 
 
 
-- Chế độ nhanh ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: cho phép bạn nhận thông báo tin nhắn gần như theo thời gian thực, nhờ vào các dịch vụ thông báo do Google hoặc Apple cung cấp (tùy thuộc vào hệ thống của bạn). Để làm được điều này, IP Address của bạn và ID thông báo duy nhất được truyền đến Google hoặc Apple và ID tài khoản Phiên cũng được đăng ký với máy chủ STF (qua Tor). Chế độ này liên quan đến việc tiết lộ siêu dữ liệu (thừa nhận là tối thiểu), nhưng không làm ảnh hưởng đến nội dung tin nhắn hoặc danh bạ, và không cho phép theo dõi hoạt động thực tế của bạn. Do đó, chế độ này hiệu quả hơn về khả năng phản hồi, nhưng dựa vào cơ sở hạ tầng tập trung và kém hiệu quả hơn một chút về mặt bảo mật.
+- Chế độ nhanh ("*Firebase Cloud Messaging/Apple Push Notification Service*"): cho phép bạn nhận thông báo tin nhắn gần như theo thời gian thực, nhờ vào các dịch vụ thông báo do Google hoặc Apple cung cấp (tùy thuộc vào hệ thống của bạn). Để làm được điều này, IP Address của bạn và ID thông báo duy nhất được truyền đến Google hoặc Apple và ID tài khoản Phiên cũng được đăng ký với máy chủ STF (qua Tor). Chế độ này liên quan đến việc tiết lộ siêu dữ liệu (thừa nhận là tối thiểu), nhưng không làm ảnh hưởng đến nội dung tin nhắn hoặc danh bạ, và không cho phép theo dõi hoạt động thực tế của bạn. Do đó, chế độ này hiệu quả hơn về khả năng phản hồi, nhưng dựa vào cơ
 
 
 
 
 
-- Chế độ chậm (*background polling*)**: Ứng dụng Session vẫn hoạt động ở chế độ nền, định kỳ thăm dò mạng để tìm tin nhắn mới. Cách tiếp cận này đảm bảo tính bảo mật cao hơn so với cách đầu tiên, vì không có dữ liệu nào được truyền đến máy chủ của bên thứ ba; cả máy chủ Google, Apple và STF đều không nhận được bất kỳ thông tin nào. Mặt khác, chế độ này có hai nhược điểm: thông báo có thể bị trì hoãn (lên đến vài phút) và mức tiêu thụ năng lượng thường cao hơn do hoạt động của ứng dụng ở chế độ nền.
+- Chế độ chậm (**background polling**): Ứng dụng Session vẫn hoạt động ở chế độ nền, định kỳ thăm dò mạng để tìm tin nhắn mới. Cách tiếp cận này đảm bảo tính bảo mật cao hơn so với cách đầu tiên, vì không có dữ liệu nào được truyền đến máy chủ của bên thứ ba; cả máy chủ Google, Apple và STF đều không nhận được bất kỳ thông tin nào. Mặt khác, chế độ này có hai nhược điểm: thông báo có thể bị trì hoãn (lên đến vài phút) và mức tiêu thụ năng lượng thường cao hơn do hoạt động của ứng dụng ở chế độ nền.
 
 
 
@@ -191,7 +191,7 @@ Cuối cùng, hãy vào menu "*Giao diện*" để điều chỉnh Interface the
 
 
 
-Để liên hệ với người khác, hãy nhấp vào nút "**+*" trên trang chủ.
+Để liên hệ với người khác, hãy nhấp vào nút "**+**" trên trang chủ.
 
 
 

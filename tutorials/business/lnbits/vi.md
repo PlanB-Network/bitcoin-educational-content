@@ -1,5 +1,5 @@
 ---
-name: LNbit
+name: LNbits
 
 description: Nền tảng kế toán thương mại
 ---

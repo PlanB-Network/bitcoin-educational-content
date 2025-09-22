@@ -11,8 +11,8 @@ Misija PlanB-a je da obezbedi vrhunske obrazovne resurse o Bitcoin na što više
 Ako želite da doprinesete PlanB mreži, biće potrebno da koristite GitHub za predlaganje izmena. Da biste to uradili, imate dve opcije:
 
 
-- Doprinesite direktno putem GitHub-ovog web Interface**: Ovo je najjednostavnija metoda. Ako ste početnik ili planirate da napravite samo nekoliko manjih doprinosa, ova opcija je verovatno najbolja za vas;
-- Doprinosite lokalno koristeći Git**: Ova metoda je pogodnija ako planirate da redovno ili značajno doprinosite PlanB mreži. Iako postavljanje vašeg lokalnog Git okruženja na računaru može delovati složeno na početku, ovaj pristup je efikasniji na duže staze. Omogućava fleksibilnije upravljanje promenama. Ako ste novi u ovome, ne brinite, **objašnjavamo ceo proces postavljanja vašeg okruženja u ovom vodiču** (obećavamo, nećete morati da kucate bilo kakve komandne linije ^^).
+- **Doprinesite direktno putem GitHub-ovog web Interface**: Ovo je najjednostavnija metoda. Ako ste početnik ili planirate da napravite samo nekoliko manjih doprinosa, ova opcija je verovatno najbolja za vas;
+- **Doprinosite lokalno koristeći Git**: Ova metoda je pogodnija ako planirate da redovno ili značajno doprinosite PlanB mreži. Iako postavljanje vašeg lokalnog Git okruženja na računaru može delovati složeno na početku, ovaj pristup je efikasniji na duže staze. Omogućava fleksibilnije upravljanje promenama. Ako ste novi u ovome, ne brinite, **objašnjavamo ceo proces postavljanja vašeg okruženja u ovom vodiču** (obećavamo, nećete morati da kucate bilo kakve komandne linije ^^).
 
 
 Ako nemate pojma šta je GitHub, ili ako želite da saznate više o tehničkim terminima vezanim za Git i GitHub, preporučujem da pročitate naš uvodni članak kako biste se upoznali sa ovim konceptima.

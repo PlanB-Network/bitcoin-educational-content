@@ -52,10 +52,10 @@ Når du har valgt et alternativ, ber programmet deg om å aktivere varslinger. D
 Deretter presenteres programmets hovedfunksjoner gjennom en rekke introduksjonsskjermbilder:
 
 
-- Sømløs betalingskvittering**: Brukere kan motta Bitcoin-betalinger selv når applikasjonen er lukket, noe som garanterer pålitelighet og bekvemmelighet.
-- Lightning-adresser uten frihetsberøvelse**: Lipa støtter nå ikke-frihetsberøvende Lightning-adresser, noe som forbedrer personvernet og sikkerheten ved å gi brukerne full kontroll over bitcoinsene sine.
-- Kontroll over analysedata** : Med åpenhet og konfidensialitet i høysetet kan brukerne se hvilke typer data som samles inn, og velge hvilke data de ønsker å dele.
-- Send via telefonnummer**: Ingen behov for komplekse adresser - bare velg en kontakt, angi beløpet, og send bitcoins direkte til telefonnummeret deres.
+- **Sømløs betalingskvittering**: Brukere kan motta Bitcoin-betalinger selv når applikasjonen er lukket, noe som garanterer pålitelighet og bekvemmelighet.
+- **Lightning-adresser uten frihetsberøvelse**: Lipa støtter nå ikke-frihetsberøvende Lightning-adresser, noe som forbedrer personvernet og sikkerheten ved å gi brukerne full kontroll over bitcoinsene sine.
+- **Kontroll over analysedata**: Med åpenhet og konfidensialitet i høysetet kan brukerne se hvilke typer data som samles inn, og velge hvilke data de ønsker å dele.
+- **Send via telefonnummer**: Ingen behov for komplekse adresser - bare velg en kontakt, angi beløpet, og send bitcoins direkte til telefonnummeret deres.
 
 Applikasjonen drar også nytte av kontinuerlige forbedringer når det gjelder stabilitet, sikkerhet og pålitelighet, for å garantere en optimal brukeropplevelse.
 
@@ -66,10 +66,10 @@ Lipas grensesnitt er organisert rundt fire hovedfaner som er tilgjengelige via n
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Hjem**: Viser din nåværende saldo og transaksjonshistorikk
-- Skanner**: Lar deg skanne QR-koder for å foreta betalinger
-- Kart**: Viser et interaktivt kart over Bitcoin-aksepterende virksomheter i ditt område
-- Innstillinger**: Tilgang til programinnstillinger, sikkerhetskopiering og preferanser
+- **Hjem**: Viser din nåværende saldo og transaksjonshistorikk
+- **Skanner**: Lar deg skanne QR-koder for å foreta betalinger
+- **Kart**: Viser et interaktivt kart over Bitcoin-aksepterende virksomheter i ditt område
+- **Innstillinger**: Tilgang til programinnstillinger, sikkerhetskopiering og preferanser
 
 Du får tilgang til en ekstra meny ved å trekke ned startskjermen:
 

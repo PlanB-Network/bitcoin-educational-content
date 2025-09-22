@@ -348,7 +348,7 @@ $$
 \Pr[Z = 12] = 0.2
 $$
 
-Seda on kujutatud joonisel 3*. Juhuslik muutuja Z on erinevalt Y-st ühtlane muutuja, sest kõik võimalike väärtuste tõenäosused on valimi võtmisel võrdsed.
+Seda on kujutatud joonisel **3**. Juhuslik muutuja Z on erinevalt Y-st ühtlane muutuja, sest kõik võimalike väärtuste tõenäosused on valimi võtmisel võrdsed.
 
 *Joonis 3: Juhuslik muutuja Z*
 
@@ -1107,7 +1107,7 @@ Kuigi me ei hakka süvenema kõikidesse krüptograafilise turvalisuse erinevate 
 
 Sümmeetrilised krüpteerimisskeemid jaotatakse tavaliselt kahte tüüpi: **voolukodeeringud** ja **plokk-kodeeringud**. See eristamine on siiski mõnevõrra problemaatiline, kuna inimesed kasutavad neid mõisteid ebajärjekindlalt. Järgmistes punktides selgitan ma seda vahet nii, nagu ma arvan, et see on kõige parem. Te peaksite siiski teadma, et paljud inimesed kasutavad neid mõisteid mõnevõrra teisiti, kui ma neid kasutan.
 
-Pöördume kõigepealt voogkoodide juurde. Voolukrüpteering** on sümmeetriline krüpteerimisskeem, mille puhul krüpteerimine koosneb kahest etapist.
+Pöördume kõigepealt voogkoodide juurde. **Voolukrüpteering** on sümmeetriline krüpteerimisskeem, mille puhul krüpteerimine koosneb kahest etapist.
 
 Kõigepealt toodetakse salajase võtme abil salateksti pikkusega string. Seda stringi nimetatakse **keystreamiks**.
 
@@ -1307,7 +1307,7 @@ Sõnumi autentimise koodid on määratletud vabalt sümmeetriliste krüptograafi
 
 Bob ja Alice saavad võidelda konkreetse sõnumiga manipuleerimise vastu, kasutades MACi. Oletame, et nad ei hooli salastatusest. Nad tahavad ainult tagada, et Alice'ile saabunud sõnum on tõepoolest Bobilt ja seda ei ole kuidagi muudetud.
 
-Protsess on kujutatud joonisel 9*. **MAC** (Message Authentication Code) kasutamiseks genereerivad nad kõigepealt privaatvõtme $K$, mida nad jagavad omavahel. Bob loob sõnumi jaoks sildi $T$, kasutades privaatvõtit $K$. Seejärel saadab ta sõnumi ja sõnumi sildi Alice'ile. Seejärel saab naine kontrollida, et Bob tõepoolest tegi sildi, läbides eravõti, sõnum ja silt läbi kontrollialgoritmi.
+Protsess on kujutatud joonisel **9**. **MAC** (Message Authentication Code) kasutamiseks genereerivad nad kõigepealt privaatvõtme $K$, mida nad jagavad omavahel. Bob loob sõnumi jaoks sildi $T$, kasutades privaatvõtit $K$. Seejärel saadab ta sõnumi ja sõnumi sildi Alice'ile. Seejärel saab naine kontrollida, et Bob tõepoolest tegi sildi, läbides eravõti, sõnum ja silt läbi kontrollialgoritmi.
 
 *Joonis 9: Ülevaade sümmeetrilistest krüpteerimisskeemidest*
 

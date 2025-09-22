@@ -33,7 +33,7 @@ Fedi Wallet ni jalada la Bitcoin linalokuja na mbinu mpya ya kuhifadhi maneno ya
 
 
 
-- Walinzi**: Unaamua kuweka imani yako kwa huluki ya nje, msanidi wa kwingineko, ambaye atakuwekea maneno ya kurejesha akaunti yako. Huna ufikiaji wala uwezo wa kuhamisha kwingineko yako ya Bitcoin.
+- **Walinzi**: Unaamua kuweka imani yako kwa huluki ya nje, msanidi wa kwingineko, ambaye atakuwekea maneno ya kurejesha akaunti yako. Huna ufikiaji wala uwezo wa kuhamisha kwingineko yako ya Bitcoin.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Kujitunza** : Programu hukupa ufikiaji wa maneno ya urejeshi mara tu unapounda Wallet yako. Kwa hivyo unaweza kusafirisha bitcoins zako kwa uhuru kwa Wallet inayokufaa zaidi.
+- **Kujitunza**: Programu hukupa ufikiaji wa maneno ya urejeshi mara tu unapounda Wallet yako. Kwa hivyo unaweza kusafirisha bitcoins zako kwa uhuru kwa Wallet inayokufaa zaidi.
 
 
 
@@ -103,7 +103,7 @@ Katika menyu ya **Mashirikisho**, tembeza chini hadi kwenye shirikisho, kisha ub
 
 
 
-- Pokea bitcoins kwenye Fedi**: Kwenye ukurasa wa nyumbani, chagua shirikisho unalotaka kutumia kupokea bitcoins, kisha ubofye kitufe cha **Pokea** ili kuunda Lightning Invoice yenye kiasi cha kupokea.
+- **Pokea bitcoins kwenye Fedi**: Kwenye ukurasa wa nyumbani, chagua shirikisho unalotaka kutumia kupokea bitcoins, kisha ubofye kitufe cha **Pokea** ili kuunda Lightning Invoice yenye kiasi cha kupokea.
 
 
 
@@ -113,7 +113,7 @@ Katika menyu ya **Mashirikisho**, tembeza chini hadi kwenye shirikisho, kisha ub
 
 
 
-- Tuma bitcoins**: Kwenye ukurasa wa nyumbani, bofya kitufe cha **Tuma** ili kutuma bitcoins kwa Lightning Address, kulipa Invoice au kufanya malipo ya nje ya mtandao.
+- **Tuma bitcoins**: Kwenye ukurasa wa nyumbani, bofya kitufe cha **Tuma** ili kutuma bitcoins kwa Lightning Address, kulipa Invoice au kufanya malipo ya nje ya mtandao.
 
 
 
@@ -232,4 +232,3 @@ Umechukua ziara ya Fedi Wallet, sasa uko katika nafasi ya kutumia uwezo kamili w
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

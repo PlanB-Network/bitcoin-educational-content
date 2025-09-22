@@ -1,5 +1,5 @@
 ---
-name: Signaali
+name: Signal
 description: Ilmaise itseäsi vapaasti
 ---
 ![cover](assets/cover.webp)

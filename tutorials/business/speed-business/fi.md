@@ -28,25 +28,25 @@ Speed has a wide range of features to cover the financial aspects of your busine
 
 
 
-- Online payment configuration**: Receive payments from your customers wherever they are, thanks to your website.
+- **Online payment configuration**: Receive payments from your customers wherever they are, thanks to your website.
 
 
 
 
 
-- On-site payments**: Ideal for stores and businesses that collect cash in-store.
+- **On-site payments**: Ideal for stores and businesses that collect cash in-store.
 
 
 
 
 
-- Withdrawals**: Withdraw your assets smoothly and use your bitcoins to pay back your customers and salaries.
+- **Withdrawals**: Withdraw your assets smoothly and use your bitcoins to pay back your customers and salaries.
 
 
 
 
 
-- Connection with other platforms**: Do you use external tools to manage your payments? Speed offers you the possibility of connecting them to its platform, for an all-in-one ecosystem that reflects your business.
+- **Connection with other platforms**: Do you use external tools to manage your payments? Speed offers you the possibility of connecting them to its platform, for an all-in-one ecosystem that reflects your business.
 
 
 
@@ -265,13 +265,13 @@ In the **Send Payments** menu, you'll find all the money transfer options speed 
 
 
 
-- Instant payments**: With the Instant Send option, securely send bitcoins instantly from your merchant account.
+- **Instant payments**: With the Instant Send option, securely send bitcoins instantly from your merchant account.
 
 
 
 
 
-- generate withdrawal links** to enable your partners and suppliers to access their payment at a later date without requiring your online presence.
+- generate **withdrawal links** to enable your partners and suppliers to access their payment at a later date without requiring your online presence.
 
 
 
@@ -289,7 +289,7 @@ In the **Withdrawal Links** option, create a new withdrawal link, then configure
 
 
 
-- Payouts**: In the Payouts menu, initiate withdrawals from your Speed Business balance to your personal Wallet.
+- **Payouts**: In the Payouts menu, initiate withdrawals from your Speed Business balance to your personal Wallet.
 
 
 
@@ -299,7 +299,7 @@ In the **Withdrawal Links** option, create a new withdrawal link, then configure
 
 
 
-- Discounts**: Encourage your regular customers by setting up rebate options to earn bonuses.
+- **Discounts**: Encourage your regular customers by setting up rebate options to earn bonuses.
 
 
 
@@ -436,4 +436,3 @@ You've got a good grasp of Speed, integrate Bitcoin into your business and devel
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

@@ -227,7 +227,7 @@ Anza kushiriki msimbo wako leo na ukuze rafu yako ya Bitcoin bila kujitahidi!
 
 
 - Relai inatoza ada ya ushindani ya 1% kwa kila ununuzi, au 0.9% ukitumia msimbo wa rufaa kama `REL361712`. Ada huonyeshwa kwa uwazi kabla ya kuthibitisha ununuzi.
-- Ada Sifuri:** Miamala ya hadi €100 au CHF 100 hailipiwi kabisa.
+- **Ada Sifuri:** Miamala ya hadi €100 au CHF 100 hailipiwi kabisa.
 
 
 ### Je, Ninaweza Kusitisha Mpango Wangu wa Akiba?

@@ -1,5 +1,5 @@
 ---
-name: Blinken
+name: Blink
 description: Vollständiges Blink Wallet Tutorial - Senden, Empfangen und Verwenden von Bitcoin mit Leichtigkeit
 ---
 

@@ -400,9 +400,9 @@ Imbere yo gutohoza mu buryo burambuye igikorwa co gufatanya, birahambaye gutahur
 
 
 
-- Inyuguti (AND)**: yerekanwa $\land$, ihuye n'inyuguti "AND" yumvikana.
-- Igiharuro (CANKE)**: kigaragazwa $\lor$, gihuye n'"CANKE" gihuye n'ubwenge.
-- Ukwihakana (NTA)**: bigaragazwa $\lnot$, bihuye n'ivyo "NTA" bihuye n'ubwenge.
+- **Inyuguti (AND)**: yerekanwa $\land$, ihuye n'inyuguti "AND" yumvikana.
+- **Igiharuro (CANKE)**: kigaragazwa $\lor$, gihuye n'"CANKE" gihuye n'ubwenge.
+- **Ukwihakana (NTA)**: bigaragazwa $\lnot$, bihuye n'ivyo "NTA" bihuye n'ubwenge.
 
 
 Duhereye kuri ivyo bikorwa vy'ishimikiro, turashobora gusobanura ibikorwa bikomeye cane, nka "Exclusive OR" (XOR) yerekanwa na $\oplus$, ikoreshwa cane mu gukora amakuru y'ibanga.
@@ -523,9 +523,9 @@ Mu ntambwe ibanza, twagabuye ivyo twinjiza mu bice vyinshi vy’ibice 512 $P$. K
 
 
 
-- Amajambo y'ubutumwa $W_i$**: ku $i$ kuva kuri 0 gushika kuri 63.
-- Ibihoraho $K_i$**: ku $i$ kuva kuri 0 gushika kuri 63, vyasobanuwe mu ntambwe ibanza.
-- Ibihinduka vy'intara $A, B, C, D, E, F, G, H$**: vyatangujwe n'agaciro kavuye mu ntambwe imbere.
+- Amajambo y'ubutumwa **$W_i$**: ku $i$ kuva kuri 0 gushika kuri 63.
+- Ibihoraho **$K_i$**: ku $i$ kuva kuri 0 gushika kuri 63, vyasobanuwe mu ntambwe ibanza.
+- Ibihinduka vy'intara **A, B, C, D, E, F, G, H**: vyatangujwe n'agaciro kavuye mu ntambwe imbere.
 
 
 Amajambo 16 ya mbere, $W_0$ gushika kuri $W_{15}$, akurwa mu buryo butaziguye mu gice c'ibice 512 $P$. Ijambo ryose $W_i$ rigizwe n'ibice 32 bikurikirana biva ku gice. Rero, nk’akarorero, dufata igice cacu ca mbere c’inyungu $P_1$, maze tugakomeza kugigabanya mu bice bitobito vy’ibice 32 twita amajambo.
@@ -562,7 +562,7 @@ Turaheza tugakora ibikorwa bikurikira ku vyo twinjiza:
 
 
 
-- Umurimo $\Sigma_0$:**
+- Umurimo $\Sigma_0$:
 
 
 $$
@@ -571,7 +571,7 @@ $$
 
 
 
-- Umukozi $\Sigma_1$:**
+- Umukozi $\Sigma_1$:
 
 
 $$
@@ -580,7 +580,7 @@ $$
 
 
 
-- Umukozi $Ch$ ("_Hitamwo_"):**
+- Umukozi $Ch$ ("_Hitamwo_")**:**
 
 
 $$
@@ -589,7 +589,7 @@ $$
 
 
 
-- Umukozi $Maj$ ("_Ivyinshi_"):**
+- Umukozi $Maj$ ("_Ivyinshi_"):
 
 
 $$
@@ -765,8 +765,8 @@ Mu bikoresho vya Bitcoin, ahanini hakoreshwa ubuhinga 2 bwo gukura:
 
 
 
-- HMAC (_Kode y'ukwemeza ubutumwa bushingiye kuri Hash_)**
-- PBKDF2 (_Ijambobanga-rishingiye ku rufunguzo rwo gukuraho umurimo 2_)**
+- **HMAC (_Kode y'ukwemeza ubutumwa bushingiye kuri Hash_)**
+- **PBKDF2** (_Ijambobanga-rishingiye ku rufunguzo rwo gukuraho umurimo 2_)
 
 
 Tuzosuzuma hamwe ingene umwe wese muri bo akora n’uruhara afise.
@@ -1716,8 +1716,8 @@ Entropie y’intango ikoreshwa kuri HD Wallet muri rusangi ni ibice 128 canke ib
 
 
 
-- 128 bits z’entropie** zihuye n’ijambo Mnemonic ry’amajambo **12**;
-- 256 bits z'entropie** zihuye n'ijambo Mnemonic ry'amajambo **24**.
+- 128 bits z'entropie zihuye n'ijambo Mnemonic ry'amajambo **12**;
+- 256 bits z'entropie zihuye n'ijambo Mnemonic ry'amajambo **24**.
 
 
 Akenshi, uwo mubare w'imburakimazi uhita uterwa na porogarama ya Wallet ikoresheje PRNG (_Umubare w'imburakimazi w'ikinyoma_). PRNGs ni urutonde rw’imirongo ikoreshwa mu generate urutonde rw’imibare ivuye mu ntango, ifise ibiranga vyegera ivy’umubare w’imburakimazi, ataco ari kimwe mu vy’ukuri. PRNG nziza itegerezwa kuba ifise ibintu nk’uguhuza ivy’isohoka, ukudashobora kumenya imbere y’igihe, no kunanira ibitero vy’imbere y’igihe. Mu buryo butandukanye n’ibikoresho vy’ukuri vy’imibare y’imburakimazi (TRNGs), PRNGs ni ivy’ukuri kandi birashobora gusubirwamwo.
@@ -2093,13 +2093,13 @@ Ku bikurikira, tuzokwemera ubu buhinga bukurikira:
 Urufunguzo rwagutse rwubatswe gutya:
 
 
-- Verisiyo**: Kode ya verisiyo yo kumenya kamere y'urufunguzo (`xprv`, `xpub`, `yprv`, `ypub`...). Turabona mu mpera y’iki gice ivyo inyuguti `x`, `y`, na `z` zihuye.
-- Uburebure**: Urugero rw’ubukuru muri HD Wallet rujanye n’urufunguzo nyamukuru (0 ku rufunguzo nyamukuru).
-- Urutoke rw'umuvyeyi**: Bytes 4 za mbere za HASH160 Hash z'urufunguzo rwa bose rw'umuvyeyi rukoreshwa mu gukura urufunguzo ruri mu muzigo w'inyungu.
-- Index Number**: Ikimenyetso c'umwana mu mfunguruzo z'abavukanyi, ni ukuvuga mu mfunguruzo zose ziri ku rugero rumwe rw'inkomoko zifise imfunguruzo z'umuvyeyi zimwe.
-- chain code**: Kode yihariye y’amabayiti 32 yo gukuraho imfunguruzo z’abana.
-- Urufunguzo**: Urufunguzo rw'ibanga (rutangurirwa na byte 1 ku bunini) canke urufunguzo rwa bose.
-- Checksum**: Checksum iharuwe n’igikorwa ca HASH256 (sha256 ibiri) na yo nyene irashirwako, ivyo bikaba bituma umuntu ashobora kugenzura ubutungane bw’urufunguzo rwagutse mu gihe rwoherezwa canke rwo kubika.
+- **Verisiyo**: Kode ya verisiyo yo kumenya kamere y'urufunguzo (`xprv`, `xpub`, `yprv`, `ypub`...). Turabona mu mpera y'iki gice ivyo inyuguti `x`, `y`, na `z` zihuye.
+- **Uburebure**: Urugero rw'ubukuru muri HD Wallet rujanye n'urufunguzo nyamukuru (0 ku rufunguzo nyamukuru).
+- **Urutoke rw'umuvyeyi**: Bytes 4 za mbere za HASH160 Hash z'urufunguzo rwa bose rw'umuvyeyi rukoreshwa mu gukura urufunguzo ruri mu muzigo w'inyungu.
+- **Index Number**: Ikimenyetso c'umwana mu mfunguruzo z'abavukanyi, ni ukuvuga mu mfunguruzo zose ziri ku rugero rumwe rw'inkomoko zifise imfunguruzo z'umuvyeyi zimwe.
+- **chain code**: Kode yihariye y'amabayiti 32 yo gukuraho imfunguruzo z'abana.
+- **Urufunguzo**: Urufunguzo rw'ibanga (rutangurirwa na byte 1 ku bunini) canke urufunguzo rwa bose.
+- **Checksum**: Checksum iharuwe n'igikorwa ca HASH256 (sha256 ibiri) na yo nyene irashirwako, ivyo bikaba bituma umuntu ashobora kugenzura ubutungane bw'urufunguzo rwagutse mu gihe rwoherezwa canke rwo kubika.
 
 
 Uburyo bwose bw'urufunguzo rwagutse rero ni 78 bytes ata n'umubare w'igenzura, na 82 bytes n'umubare w'igenzura. Hanyuma igahindurwa muri Base58 kugira ngo ivemwo igishushanyo gishobora gusomwa bitagoranye n’abakoresha. Uburyo bwa Base58 ni bumwe n'ubwo bwakoreshwa ku *Legacy* amaderesi yakira (imbere ya *SegWit*).
@@ -2148,7 +2148,7 @@ Kugira ngo dutahure neza imiterere y’imbere y’urufunguzo rwagutse, reka dufa
 
 
 
-- Mu ntango58**:
+- Mu ntango58:
 
 
 ```text
@@ -2157,7 +2157,7 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 
 
-- Mu gice cumi na gatandatu**:
+- Mu gice cumi na gatandatu:
 
 
 ```text
@@ -2231,8 +2231,8 @@ Reka turabe ingene iyo nzira y’ugukomoka ku bintu bigaragara ikora.
 Nk’uko twabivuze muri make mu kigabane c’imbere, imfunguruzo z’abana zigabanywemwo ubwoko bubiri nyamukuru.
 
 
-- Imfunguruzo z'abana zisanzwe** ($k_{\umwandiko{CHD}}^n, K_{\umwandiko{CHD}}^n$): Izo zikomoka ku rufunguzo rwa bose rwagutse ($K_{\umwandiko{PAR}}$), canke urufunguzo rw'ibanga rwagutse ($k_{\umwandiko{PAR}}$), mu kubanza gukura urufunguzo rwa bose rwagutse.
-- Imfunguruzo z'abana zikomeye** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Izo rufunguzo zishobora gukomoka gusa ku rufunguzo rw'ibanga rwagutse ($k_{\text{PAR}}$) kandi rero ntiziboneka ku bavyitegereza bafise urufunguzo rwa bose rwagutse gusa.
+- **Imfunguruzo z'abana zisanzwe** ($k_{\umwandiko{CHD}}^n, K_{\umwandiko{CHD}}^n$): Izo zikomoka ku rufunguzo rwa bose rwagutse ($K_{\umwandiko{PAR}}$), canke urufunguzo rw'ibanga rwagutse ($k_{\umwandiko{PAR}}$), mu kubanza gukura urufunguzo rwa bose rwagutse.
+- Imfunguruzo z'abana zikomeye ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Izo rufunguzo zishobora gukomoka gusa ku rufunguzo rw'ibanga rwagutse ($k_{\text{PAR}}$) kandi rero ntiziboneka ku bavyitegereza bafise urufunguzo rwa bose rwagutse gusa.
 
 
 Buri rufunguzo rw'umwana rumenyekana n'ibice 32 **index** (yitwa $i$ mu biharuro vyacu). Index z'imfunguruzo zisanzwe ziva kuri $0$ gushika kuri $2^{31}-1$, mu gihe izo z'imfunguruzo zikomeye ziva kuri $2^{31}$ gushika kuri $2^{32}-1$. Ivyo biharuro bikoreshwa mu gutandukanya abavukanyi babiri b’urufunguzo mu gihe c’ugukura. Nkako, urufunguzo rw’umuvyeyi rwose rutegerezwa kuba rushoboye gukuraho urufunguzo rw’abana rwinshi. Iyo dukoresha iyo mibare nyene mu buryo butunganye dufatiye ku mfunguruzo z’umuvyeyi, imfunguruzo zose z’abavukanyi zironswa zoba zisa, ivyo bikaba bitari vyiza. Ico kigereranyo rero kirazana igihinduka gihindura ibara ry’inkomoko, kigatuma umuvukanyi wese ashobora gutandukanywa. Uretse gukoresha mu buryo bwihariye mu masezerano amwamwe n'ingingo mfatirwako z'ugukura, muri rusangi dutangura dukura urufunguzo rwa mbere rw'umwana rufise urutonde `0`, urwa kabiri rufise urutonde `1`, n'ibindi.
@@ -2244,8 +2244,8 @@ Buri rufunguzo rw'umwana rumenyekana n'ibice 32 **index** (yitwa $i$ mu biharuro
 Igikomoka c’urufunguzo rw’umwana rumwe rumwe gishingiye ku gikorwa ca HMAC-SHA512, ico twavuganye mu Gice ca 2 ku bikorwa vya Hash. Bifata ibintu bibiri: umuvyeyi chain code $C_{\text{PAR}}$, n'ugufatanya urufunguzo rw'umuvyeyi (rwaba urufunguzo rwa bose $K_{\text{PAR}}$ canke urufunguzo rw'ibanga $k_{\text{PAR}}$, bivanye n'ubwoko bw'urufunguzo rw'umwana rufise urutonde rukenewe) Igisohoka ca HMAC-SHA512 ni urutonde rw’ibice 512, bigabanywemwo ibice bibiri:
 
 
-- Bytes 32 za mbere** (canke $h_1$) zikoreshwa mu kubara abana babiri bashasha.
-- Bytes 32 za nyuma** (canke $h_2$) zikora nk'iyi chain code $C_{\text{CHD}}$ nshasha y'abana babiri.
+- Bytes 32 za mbere (canke $h_1$) zikoreshwa mu kubara abana babiri bashasha.
+- Bytes 32 za nyuma (canke $h_2$) zikora nk'iyi chain code $C_{\text{CHD}}$ nshasha y'abana babiri.
 
 
 Mu biharuro vyacu vyose, nzokwerekana $\text{Hash}$ igisohoka c'igikorwa ca HMAC-SHA512.
@@ -2436,8 +2436,8 @@ Aha niho hari igishushanyo c'ivyo vyose biva:
 Ikibazo gishobora kuvyuka ni ingene urufunguzo rwa bose rw’umwana rusanzwe ruva ku rufunguzo rwa bose rw’umuvyeyi rushobora guhura n’urufunguzo rw’ibanga rw’umwana rusanzwe rukomoka ku rufunguzo rw’ibanga rw’umuvyeyi ruhuye. Iryo huriro ryemezwa neza na neza n’imiterere y’ibigobe vy’imirongo y’imirongo. Nkako, kugira ngo umuntu abone urufunguzo rwa bose rw’umwana rusanzwe, HMAC-SHA512 ikoreshwa mu buryo bumwe, ariko igisohoka caco gikoreshwa mu buryo butandukanye:
 
 
-   - Urufunguzo rw'ibanga rw'umwana rusanzwe**: $k_{\umwandiko{CHD}}^n = \umwandiko{gusesangura256}(h_1) + k_{\umwandiko{PAR}} \mod n$
-   - Urufunguzo rusangi rw'umwana rusanzwe**: $K_{\umwandiko{CHD}}^n = \umwandiko{gusesangura256}(h_1) \cdot G + K_{\umwandiko{PAR}}$
+- Urufunguzo rw'ibanga rw'umwana rusanzwe: $k_{\umwandiko{CHD}}^n = \umwandiko{gusesangura256}(h_1) + k_{\umwandiko{PAR}} \mod n$
+- Urufunguzo rusangi rw'umwana rusanzwe: $K_{\umwandiko{CHD}}^n = \umwandiko{gusesangura256}(h_1) \cdot G + K_{\umwandiko{PAR}}$
 
 
 Kubera ibikorwa vyo kwongerako no gutera kabiri ku nzira y’uruzitiro, ubwo buryo bwompi buratanga ibisubizo bihuye: urufunguzo rwa bose ruva ku rufunguzo rw’ibanga rw’umwana rusa n’urufunguzo rwa bose rw’umwana ruva ku rufunguzo rwa bose rw’umuvyeyi.
@@ -2533,8 +2533,8 @@ Ukwo gutandukanya mu nkuru zitandukanye ni uguhitamwo. Igamije kworohereza imitu
 Inkuru yose isobanuwe mu burebure bwa 3 rero itunganijwe mu minyororo ibiri:
 
 
-- Uruhererekane rw'inyuma**: Muri urwo ruhererekane, ivyo bizwi nk'amaderesi "ya bose" ni vyo bivako. Izo aderesi zakira zigamije gufunga ama UTXO ava mu bikorwa vyo hanze (ni ukuvuga ava mu gukoresha ama UTXO atari ayawe). Mu kuvuga mu buryo bworoshe, uwo munyororo wo hanze ukoreshwa igihe cose umuntu yipfuza kwakira ama bitcoins. Iyo ukanda kuri "*receive*" muri porogaramu yawe ya Wallet, yama ari Address iva mu ruzitiro rw'inyuma baguhaye. Uyu murongo ugereranywa n'imfunguruzo zibiri zikomoka ku rutonde $/0/$.
-- Uruhererekane rw’imbere (uguhindura)**: Uruhererekane rwagenewe kwakira amaderesi afunga ama bitcoins ava mu gukoresha ama UTXO ari ayawe, mu yandi majambo, guhindura amaderesi. Imenyekana n'urutonde $/1/$.
+- Uruhererekane rw'inyuma: Muri urwo ruhererekane, ivyo bizwi nk'amaderesi "ya bose" ni vyo bivako. Izo aderesi zakira zigamije gufunga ama UTXO ava mu bikorwa vyo hanze (ni ukuvuga ava mu gukoresha ama UTXO atari ayawe). Mu kuvuga mu buryo bworoshe, uwo munyororo wo hanze ukoreshwa igihe cose umuntu yipfuza kwakira ama bitcoins. Iyo ukanda kuri "*receive*" muri porogaramu yawe ya Wallet, yama ari Address iva mu ruzitiro rw'inyuma baguhaye. Uyu murongo ugereranywa n'imfunguruzo zibiri zikomoka ku rutonde $/0/$.
+- **Uruhererekane rw'imbere (uguhindura)**: Uruhererekane rwagenewe kwakira amaderesi afunga ama bitcoins ava mu gukoresha ama UTXO ari ayawe, mu yandi majambo, guhindura amaderesi. Imenyekana n'urutonde $/1/$.
 
 
 **Uburebure bwa 5: Urutonde rwa Address (BIP32)**
@@ -3010,7 +3010,7 @@ Mu bijanye na Bitcoin, amakode ya BCH atanga ugusenyera ku mugozi umwe hagati y�
 Kugira ngo tubare umubare w’ibintu bigenzurwa dukoresheje amakode ya BCH, turakeneye gutegura Elements nyinshi.
 
 
-- Igiharuro c’ubuzima (*Igice gisomwa n’umuntu*)**: Ku bijanye na Bitcoin Mainnet, igiharuro c’ubuzima ni `bc`;
+- Igiharuro c'ubuzima (*Igice gisomwa n'umuntu*): Ku bijanye na Bitcoin Mainnet, igiharuro c'ubuzima ni `bc`;
 
 
 HRP itegerezwa kwaguka mu gutandukanya ikimenyetso cose mu bice bibiri:
@@ -3035,15 +3035,15 @@ Hamwe n'itandukaniro `0` hagati y'inyuguti zibiri, HRP rero ni:
 
 
 
-- Verisiyo y'icabona**: Ku verisiyo ya SegWit 0, ni `00`;
+- **Verisiyo y'icabona**: Ku verisiyo ya SegWit 0, ni `00`;
 
 
 
-- Igikoresho**: Agaciro k'icumi k'urufunguzo rwa bose Hash;
+- **Igikoresho**: Agaciro k'icumi k'urufunguzo rwa bose Hash;
 
 
 
-- Igiharuro c'isuzuma**: Twongerako zero 6 `[0, 0, 0, 0, 0, 0]` ku mpera y'urutonde.
+- **Igiharuro c'isuzuma**: Twongerako zero 6 `[0, 0, 0, 0, 0, 0]` ku mpera y'urutonde.
 
 
 Amakuru yose ahurijwe hamwe kugira ngo yinjizwe muri porogarama yo kubara umubare w’igenzura ni aya:
@@ -3070,9 +3070,9 @@ Ibara ry’umubare w’ibintu bigenzurwa ni ikintu gikomeye cane. Birimwo imibar
 Ubu turashobora kwubaka Address yakira mu gufatanya mu buryo bukurikira Elements ikurikira:
 
 
-- Verisiyo ya SegWit**: `00`
-- Ivyo bikoresho**: Urufunguzo rwa bose Hash
-- Igitigiri c'igenzura**: Agaciro kabonetse mu ntambwe imbere (`10 16 11 04 13 18`)
+- **Verisiyo ya SegWit**: `00`
+- **Ivyo bikoresho**: Urufunguzo rwa bose Hash
+- **Igitigiri c'igenzura**: Agaciro kabonetse mu ntambwe imbere (`10 16 11 04 13 18`)
 
 
 Ivyo biduha mu cumi:
@@ -3182,7 +3182,7 @@ hehe:
 
 
 
-- $\umwandiko{H}_{\umwandiko{KandaTweak}}$** ni SHA256 Hash umukozi ushizweko ikimenyetso `KandaTweak`. Niba utazi neza ico igikorwa ca Hash gifise ikimenyetso ari co, ndagutumiye ngo urabe igice ca 3.3;
+- $\umwandiko{H}_{\umwandiko{KandaTweak}}$ **ni SHA256 Hash umukozi ushizweko ikimenyetso** `KandaTweak`. Niba utazi neza ico igikorwa ca Hash gifise ikimenyetso ari co, ndagutumiye ngo urabe igice ca 3.3;
 - $P$ ni urufunguzo rwa bose rw'imbere, ruserukirwa mu buryo bwarwo bufise 256-bit, rukoresha gusa $x$ coordinate.
 
 
@@ -3207,9 +3207,9 @@ Taproot Address ivugwa mu gushiramwo $x$ y'ibara rya $Q$ mu buryo bwa _bech32m_,
 
 
 
-- HRP (_Igice Gisomwa n'Umuntu_)**: `bc`, kugira ngo yerekane urusobe nyamukuru rwa Bitcoin;
-- Verisiyo**: `1` kugira ngo yerekane Taproot / SegWit v1;
-- Igitigiri c’igenzura**.
+- **HRP (_Igice Gisomwa n'Umuntu_)**: `bc`, kugira ngo yerekane urusobe nyamukuru rwa Bitcoin;
+- **Verisiyo**: `1` kugira ngo yerekane Taproot / SegWit v1;
+- **Igitigiri c'igenzura**.
 
 
 Address ya nyuma rero izogira uburyo:

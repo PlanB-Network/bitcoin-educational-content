@@ -35,6 +35,8 @@ Tämän kurssin tavoitteena on antaa sinulle tietoa siitä, miten voit integroid
 
 Oletko valmis sukeltamaan yritysten Bitcoin-maailmaan? Lähdetään liikkeelle!
 
+**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.network/resources/glossary).
+
 # Valuutta, maksujärjestelmät ja Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

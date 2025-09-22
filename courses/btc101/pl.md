@@ -122,6 +122,8 @@ Ważne jest, aby zrozumieć tę nową technologię w sposób ogólny, więc mamy
 Gotowy, by zanurzyć się w fascynującym świecie Bitcoin i zrozumieć wszystkie jego wewnętrzne mechanizmy? Do dzieła!
 
 
+**Uwaga**: Jeśli podczas kursu napotkasz nieznane terminy, sprawdź definicje w [słowniczku](https://planb.network/resources/glossary).
+
 ## Prehistoria Bitcoin
 
 

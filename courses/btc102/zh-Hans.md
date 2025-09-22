@@ -72,6 +72,8 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 准备好开始您的比特币世界之旅了吗？我们开始吧！
 
+**注意**: 如果您在课程中遇到任何不熟悉的术语，请查阅[词汇表](https://planb.network/resources/glossary)获取定义。
+
 # 了解比特币的前提条件
 
 <partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>

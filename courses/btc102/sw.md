@@ -99,6 +99,8 @@ Kufikia mwisho wa kozi hii, utakuwa na zana zote za vitendo unazohitaji ili kuso
 Je, uko tayari kuanza safari yako katika ulimwengu wa Bitcoin? Twende!
 
 
+**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.network/resources/glossary) kwa ufafanuzi.
+
 # Masharti ya kuelewa Bitcoin
 
 

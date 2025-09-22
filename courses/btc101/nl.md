@@ -83,6 +83,8 @@ Het belangrijkste punt hier is om deze nieuwe technologie op een algemene manier
 
 Ben je er klaar voor om in de fascinerende wereld van Bitcoin te duiken en alles over de werking ervan te leren? Let's go!
 
+**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.network/resources/glossary) voor definities.
+
 ## De Voorgeschiedenis Van Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

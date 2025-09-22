@@ -83,6 +83,8 @@ Det viktige poenget her er å forstå denne nye teknologien på en generell måt
 
 Klar til å dykke ned i den fascinerende verdenen av Bitcoin og forstå alle dets mekanismer? La oss gå!
 
+**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.network/resources/glossary) for definisjoner.
+
 ## Bitcoins forhistorie
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

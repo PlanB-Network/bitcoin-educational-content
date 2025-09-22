@@ -1,5 +1,5 @@
 question: Güncellenemeyen kırılmış yazılım kullanmanın potansiyel tehdidi nedir?
-answer: Bir yazılımın yasadışı indirilmesi sırasında bir virüsün gelmesi ve yeni saldırı biçimlerine karşı güvensiz bir ortam.
+answer: Bir yazılımın yasadışı indirilmesi sırasında bir virüsün gelmesi ve yeni saldırı biçimlerine karşı güvensiz bir ortam .
 wrong_answers:
   - Yazılım belirli bir süre sonra çalışmayı durduracaktır.
   - Yazılım herhangi bir yeni özelliğe sahip olmayacaktır.

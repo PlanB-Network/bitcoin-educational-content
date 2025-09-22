@@ -1962,7 +1962,7 @@ Ces types d'objets sont parfaits lorsque vous voulez quelque chose de simple et 
 ### Classes et constructeurs
 
 
-Une **classe** est comme un plan. Elle indique à JavaScript comment créer un certain type d'objet.
+Une **classe** est comme un plan de construction d'un batiment. Elle indique à JavaScript comment créer un certain type d'objet.
 
 
 Vous définissez une classe en utilisant le mot-clé `class`, suivi du nom de la classe et d'un bloc d'accolades `{}`.
@@ -1973,10 +1973,10 @@ class Dog {}
 ```
 
 
-Par convention, les classes commencent par une lettre majuscule.
+Par convention, les noms des classes commencent par une lettre majuscule.
 
 
-Vous pouvez créer un nouvel objet d'une classe en utilisant `new` :
+Vous pouvez créer un nouvel objet, c'est à dire une instance d'une classe, en utilisant `new` :
 
 
 ```javascript
@@ -1984,7 +1984,7 @@ const hachiko = new Dog()
 ```
 
 
-Essayez d'imprimer l'objet :
+Essayez d'afficher l'objet :
 
 ```javascript
 class Dog {}
@@ -2029,7 +2029,7 @@ constructor(name) { }
 ```
 
 
-Ensuite, nous utilisons `this` pour déclarer que `name` est le `nom` de l'objet `Dog` que nous construisons
+Ensuite, nous utilisons `this` pour indiquer que `name` est le `nom` de l'objet `Dog` que nous construisons
 
 
 ```javascript
@@ -2097,7 +2097,7 @@ myDog.speak()
 ```
 
 
-Ceci imprimera
+Ceci affichera
 
 
 ```javascript
@@ -2151,10 +2151,10 @@ Lorsque nous appelons une méthode sur l'un de ces objets, elle opère sur les d
 ### Modifier la forme d'un objet
 
 
-Les objets en JavaScript sont flexibles. Même après en avoir créé un, vous pouvez encore ajouter de nouvelles propriétés ou en supprimer.
+Les objets en JavaScript sont assez flexibles. Même après en avoir créé un, vous pouvez encore ajouter de nouvelles propriétés ou en supprimer.
 
 
-Elle est autorisée, mais il convient de l'utiliser avec précaution.
+C'est autorisée, mais à utiliser avec précaution.
 
 
 Commençons par notre classe simple `Dog` :
@@ -2203,17 +2203,17 @@ Nous pouvons également supprimer des propriétés en utilisant le mot-clé `del
 ```javascript
 delete myDog.name
 
-console.log(myDog.name) // prints 'undefined'
+console.log(myDog.name) // affiche 'undefined'
 ```
 
 
-Cela fonctionne, mais il y a quelque chose d'important à savoir : Les moteurs JavaScript comme le V8 (utilisé dans Node.js et dans le navigateur Chrome) fonctionnent plus rapidement lorsque vos objets conservent toujours les mêmes propriétés. Si vous ajoutez ou supprimez des propriétés après la création de l'objet, cela peut ralentir les choses.
+Cela fonctionne, mais il y a quelque chose d'important à savoir : Les moteurs JavaScript comme le V8 (utilisé dans Node.js et dans le navigateur Chrome) fonctionnent plus rapidement lorsque vos objets conservent toujours les mêmes propriétés. Si vous ajoutez ou supprimez des propriétés après la création de l'objet, cela peut ralentir l'exécution du programme.
 
 
 Dans les petits programmes, cela n'a pas beaucoup d'importance. Mais dans les projets plus importants (comme les jeux), il est préférable de lister toutes les propriétés dans le constructeur dès le départ, même si vous ne les utilisez pas tout de suite. Cela permet de maintenir la forme de l'objet stable et d'accélérer l'exécution du code.
 
 
-Par exemple, au lieu de ceci :
+Par exemple, à la place de ceci :
 
 
 ```javascript
@@ -2229,7 +2229,7 @@ dog.breed = "Labrador"
 ```
 
 
-Vous pouvez faire
+Vous pouvez faire :
 
 
 ```javascript
@@ -2298,7 +2298,7 @@ La classe `Car` **hérite** maintenant de la classe `Vehicle`. Elle obtient la p
 ![](assets/en/4.webp)
 
 
-Essayons-le :
+Essayons-la :
 
 
 ```javascript
@@ -2368,7 +2368,7 @@ En résumé
 - `extends` signifie qu'une classe est basée sur une autre.
 - `super()` est utilisé pour appeler le constructeur de la classe que vous étendez.
 - La nouvelle classe bénéficie de toutes les propriétés et méthodes de la classe d'origine.
-- Vous pouvez **override** les méthodes (comme `start()`) pour leur faire faire quelque chose de différent.
+- Vous pouvez **override** (écraser) les méthodes (comme `start()`) pour leur faire faire quelque chose de différent.
 
 
 Cette fonction est utile lorsque vous avez plusieurs objets similaires (comme des voitures, des camions et des vélos) et que vous souhaitez qu'ils partagent le même code tout en continuant à se comporter de manière distincte.
@@ -2404,7 +2404,7 @@ true
 ```
 
 
-Confirmation que `regularUser` est un `User`. C'est parce que `regularUser` a été créé en utilisant la classe `User`.
+Confirmant que `regularUser` est un `User`. C'est parce que `regularUser` a été créé en utilisant la classe `User`.
 
 
 Cela fonctionne également avec les classes **héritées**. Par exemple, voici une classe `Admin` qui étend `User` :
@@ -2439,7 +2439,7 @@ Au fur et à mesure que vous écrivez des programmes JavaScript plus complexes, 
 Si nous ne gérons pas ces erreurs correctement, notre programme risque de se bloquer ou de se comporter de manière imprévisible. JavaScript fournit des outils pour détecter et gérer ces erreurs afin que nous puissions les traiter de manière plus élégante.
 
 
-### Erreur commune : accès à une valeur sur `undefined`
+### Erreur commune : accès à une variable contenant `undefined`
 
 
 Voici une situation courante qui provoque une erreur :
@@ -2459,10 +2459,10 @@ TypeError: Cannot read properties of undefined (reading 'name')
 ```
 
 
-C'est JavaScript qui vous dit : "Hé, vous avez essayé d'obtenir la propriété `name` à partir de quelque chose qui est `undefined`, et cela n'a pas de sens." Comme vous pouvez le constater, lorsque ce type d'erreur se produit, le programme s'arrête, à moins que vous n'ayez spécifiquement écrit du code pour l'attraper et la gérer.
+C'est JavaScript qui vous dit : "Hé, vous avez essayé d'obtenir la propriété `name` à partir de quelque chose qui est `undefined`, et cela n'a pas de sens." Comme vous pouvez le constater, lorsque ce type d'erreur se produit, le programme s'arrête, à moins que vous n'ayez spécifiquement écrit du code pour la détecter et la gérer.
 
 
-### lancer une erreur
+### Renvoyer une erreur
 
 
 Parfois, vous voulez manuellement **faire remonter une erreur** dans votre code. Dans ce cas, vous utilisez le mot-clé `throw`.
@@ -2473,7 +2473,7 @@ throw new Error("This is a custom error message")
 ```
 
 
-Le programme s'arrête immédiatement et s'imprime :
+Le programme s'arrête immédiatement et ceci s'affiche :
 
 
 ```
@@ -2481,7 +2481,7 @@ Uncaught Error: This is a custom error message
 ```
 
 
-Vous pouvez utiliser `throw` pour appliquer des règles dans votre programme. Par exemple, vous pouvez utiliser `throw` pour faire respecter des règles dans votre programme :
+Vous pouvez utiliser `throw` pour assurer le respect de certaines règles dans votre programme.
 
 
 ```javascript
@@ -2503,7 +2503,7 @@ Le deuxième appel provoque une erreur car la division par zéro n'est pas autor
 ### Rattraper les erreurs avec `try...catch` (essayer...rattraper)
 
 
-Si vous ne voulez pas que votre programme se plante lorsqu'une erreur se produit, vous pouvez attraper l'erreur en utilisant un bloc `try...catch`. Ceci est utile lorsque vous voulez que votre programme **continue** même si quelque chose échoue.
+Si vous ne voulez pas que votre programme plante lorsqu'une erreur se produit, vous pouvez attraper l'erreur en utilisant un bloc `try...catch`. Ceci est utile lorsque vous voulez que votre programme **continue** même si quelque chose échoue.
 
 
 ```javascript
@@ -2531,7 +2531,7 @@ Voici comment cela fonctionne :
 
 - Le code à l'intérieur du bloc `try` est essayé en premier.
 - En cas d'erreur, JavaScript **saute au bloc `catch`**, ignorant le reste du bloc `try`.
-- Le bloc `catch` reçoit l'erreur, vous pouvez donc l'imprimer ou la gérer d'une autre manière, comme par exemple
+- Le bloc `catch` reçoit l'erreur, vous pouvez donc afficher une erreur ou la gérer d'une autre manière, comme par exemple
 
 
 ```javascript
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Le bloc `finally
+### Le bloc `finally`
 
 
 Vous pouvez également ajouter un bloc `finally`. Il s'agit d'un code qui s'exécute **toujours**, qu'il y ait eu une erreur ou non.
@@ -2581,7 +2581,7 @@ This will run no matter what.
 ```
 
 
-## Éviter les insectes
+## Éviter les bugs
 
 <chapterId>db12d9f6-5806-514c-998e-0ae24805104e</chapterId>
 
@@ -2589,10 +2589,10 @@ This will run no matter what.
 Ce chapitre présente quelques-uns des pièges les plus courants en JavaScript et explique comment les éviter.
 
 
-### `var` et Assignment sans déclaration
+### `var` et définition sans déclaration
 
 
-Dans l'ancien code JavaScript, les variables étaient souvent déclarées à l'aide du mot-clé `var`. Contrairement à `let` et `const`, que vous avez déjà appris à connaître, `var` peut se comporter de manière déroutante.
+Dans d'anciens programmes JavaScript, les variables étaient souvent déclarées à l'aide du mot-clé `var`. Contrairement à `let` et `const`, que vous avez déjà appris à connaître, `var` peut se comporter de manière déroutante.
 
 
 Par exemple :
@@ -2624,13 +2624,13 @@ console.log(user) // prints "Alice"
 ```
 
 
-Cela crée une nouvelle variable globale `name` sans aucune déclaration. Cela peut se produire silencieusement et conduire à des bogues qui sont Hard à traquer, surtout s'il s'agit d'une simple erreur de frappe. Déclarez toujours les variables en utilisant `let` ou `const`.
+Cela crée une nouvelle variable globale `name` sans aucune déclaration. Cela peut se produire silencieusement et conduire à des bogues qui sont difficles à traquer, surtout s'il s'agit d'une simple erreur de frappe. Déclarez toujours les variables en utilisant `let` ou `const`.
 
 
-### Système de type faible
+### Typage faible
 
 
-JavaScript est faiblement typé, ce qui signifie qu'il convertit automatiquement les valeurs d'un type à un autre si nécessaire. C'est ce qu'on appelle la coercition de type, et bien qu'elle puisse être pratique, elle conduit souvent à des résultats déroutants.
+JavaScript est faiblement typé, ce qui signifie qu'il convertit automatiquement les valeurs d'un type à un autre si nécessaire. C'est ce qu'on appelle la coercition de type, et bien qu'elle puisse être pratique, elle conduit souvent à des résultats surprenant.
 
 
 Par exemple :
@@ -2647,7 +2647,7 @@ console.log(null + 1)   // 1
 Dans ces exemples, JavaScript essaie de deviner ce que vous vouliez dire. Il transforme parfois des chaînes de caractères en nombres, des booléens en nombres ou des chaînes de caractères en chaînes de caractères. Votre code peut alors se comporter de manière inattendue.
 
 
-Il est important d'être conscient de la faiblesse du système de typage de JavaScript. Lorsque les choses commencent à se comporter de manière étrange, cela peut être dû à une coercition de type inattendue.
+Il est important d'être conscient du système de typage faible de JavaScript. Lorsque les choses commencent à se comporter de manière étrange, cela peut être dû à une coercition de type inattendue.
 
 
 ### `"use strict"`
@@ -2699,16 +2699,16 @@ D'autres sont **partagées** lorsque vous les affectez à une nouvelle variable,
 Lorsqu'une valeur est transmise **par valeur**, JavaScript en fait une **copie**.
 
 
-Ainsi, si vous changez l'un, cela n'affecte pas l'autre.
+Ainsi, si vous changez l'une d'elle, cela n'affecte pas l'autre.
 
 
 Cela se produit avec les types primitifs, comme :
 
 
 
-- chiffres
-- cordes
-- les booléens (`vrai` et `faux`)
+- nombres 
+- chaines de caractères
+- les booléens (`true` et `false`)
 - `null`
 - `undefined`
 
@@ -2750,7 +2750,7 @@ console.log(name2) // Bob
 Encore une fois, changer `name2` n'a pas affecté `name1`, parce que les chaînes de caractères sont aussi passées par valeur.
 
 
-La même chose se produit lorsque vous passez une primitive à une fonction : elle est copiée. La fonction ne peut donc pas modifier l'original.
+La même chose se produit lorsque vous passez une variable de type primitif à une fonction : elle est copiée. La fonction ne peut donc pas modifier l'original.
 
 
 ```javascript
@@ -2775,10 +2775,10 @@ C'est parce que seule une **copie** a été transmise à la fonction.
 ### Passer par référence
 
 
-Les objets sont transmis **par référence**.
+Les objets sont passés **par référence**.
 
 
-Cela signifie qu'au lieu de les copier, JavaScript leur transmet simplement une **référence**, et si vous la modifiez, toutes les autres variables qui pointent vers elle verront également le changement.
+Cela signifie qu'au lieu de les copier, JavaScript leur transmet simplement une **référence** vers l'objet, et si vous la modifiez, toutes les autres variables qui pointent vers ce même objet verront également le changement.
 
 
 Par exemple :
@@ -2834,13 +2834,13 @@ console.log(person.name) // Charlie
 ```
 
 
-La fonction a changé l'objet ! C'est parce qu'elle a reçu une **référence** à l'objet `person` original.
+La fonction a changé l'objet ! C'est parce qu'elle a reçu une **référence** de l'objet `person` original.
 
 
-Il n'a pas obtenu de copie. Il a eu accès à l'objet original et a ainsi pu le modifier.
+Elle n'a pas obtenu de copie, elle a eu accès à l'objet original et a ainsi pu le modifier.
 
 
-Il est important de se souvenir de cette distinction, car sinon notre code pourrait se comporter différemment de ce que nous attendons. Par exemple, nous pourrions écrire une fonction en pensant qu'elle ne modifiera pas les arguments qu'elle reçoit, et découvrir plus tard qu'elle les a en fait modifiés (parce qu'il s'agissait d'objets, donc passés par référence).
+Il est important de se souvenir de cette distinction, car sinon notre code pourrait se comporter différemment de ce que à quoi nous nous attendons. Par exemple, nous pourrions écrire une fonction en pensant qu'elle ne modifiera pas les arguments qu'elle reçoit, et découvrir plus tard qu'elle les a en fait modifiés (parce qu'il s'agissait d'objets, donc passés par référence).
 
 
 ## Travailler avec des fonctions
@@ -2848,13 +2848,13 @@ Il est important de se souvenir de cette distinction, car sinon notre code pourr
 <chapterId>e0d277a8-c642-5af7-9e53-dee27c811967</chapterId>
 
 
-Vous avez déjà appris à déclarer et à utiliser des fonctions en JavaScript. Mais JavaScript vous offre davantage d'outils pour utiliser les fonctions de manière puissante.
+Vous avez déjà appris à déclarer et à utiliser des fonctions en JavaScript. Mais JavaScript permet d'utiliser les fonctions de manière encore plus efficace.
 
 
-### Fonctions de la flèche
+### Fonctions fléchées
 
 
-Les fonctions fléchées sont une façon plus courte d'écrire des fonctions. Au lieu d'utiliser le mot-clé `fonction`, nous utilisons une flèche (`=>`).
+Les fonctions fléchées sont une façon plus concise d'écrire des fonctions. Au lieu d'utiliser le mot-clé `fonction`, nous utilisons une flèche (`=>`).
 
 
 Voici une fonction normale :
@@ -2893,13 +2893,13 @@ const greet = name => `Hello, ${name}!`
 ```
 
 
-Les fonctions fléchées sont très répandues dans le JavaScript moderne, car elles permettent d'exprimer des fonctions simples en limitant considérablement le nombre de lignes directrices.
+Les fonctions fléchées sont très répandues en JavaScript moderne, car elles permettent de définir les fonctions simples à l'aide d'une syntaxe plus légère. 
 
 
 ### Paramètres par défaut
 
 
-Il arrive que l'on veuille qu'une fonction ait une **valeur par défaut** si aucun argument n'est transmis.
+Il arrive que l'on veuille qu'une fonction ait en argument une **valeur par défaut** si aucun argument n'est transmis.
 
 
 Vous pouvez procéder comme suit :
@@ -3027,13 +3027,13 @@ greetBob() // Hi, Bob
 La fonction `makeGreeter` est une fonction qui construit d'autres fonctions. Elle reçoit une chaîne de caractères et renvoie une nouvelle fonction qui utilise cette chaîne dans son appel à `console.log`.
 
 
-Ce type de modèle est très puissant, car il vous permet de laisser des "trous" dans vos fonctions que vous pouvez remplir plus tard avec le comportement dont vous avez besoin.
+Ce type de construction est très puissant, car il vous permet de laisser des "trous" dans vos fonctions que vous pouvez remplir plus tard de la manière dont vous avez besoin.
 
 
 ### `map()`, `filter()`, `reduce()`
 
 
-JavaScript propose quelques méthodes intégrées utiles à utiliser avec les tableaux.
+JavaScript propose quelques méthodes fournis par le langage (**builtin functions**) pratiques lorsqu'on travaille avec les tableaux.
 
 
 Ces méthodes prennent des fonctions comme arguments, et sont donc également des fonctions d'ordre supérieur.
@@ -3093,7 +3093,7 @@ console.log(total) // 10
 Vous pouvez utiliser `reduce()` pour de nombreuses choses comme les totaux, les moyennes, ou la construction de nouvelles valeurs étape par étape.
 
 
-Ces méthodes (`map`, `filter`, `reduce`) sont des outils puissants pour traiter les données sans écrire de boucles manuelles.
+Ces méthodes (`map`, `filter`, `reduce`) sont des outils puissants pour traiter les données sans écrire de boucles manuellement.
 
 
 Vous pouvez même les combiner dans une chaîne d'opérations, comme ceci :
@@ -3116,13 +3116,13 @@ console.log(result) // 28
 <chapterId>7842aada-f009-5518-b8e3-1104e166a035</chapterId>
 
 
-Dans ce chapitre, nous allons apprendre quelques outils puissants et légèrement plus avancés pour travailler avec des objets en JavaScript.
+Dans ce chapitre, nous allons découvrir quelques outils puissants et légèrement plus avancés pour travailler avec des objets en JavaScript.
 
 
 ### Propriétés privées
 
 
-Parfois, nous voulons cacher une propriété d'un objet afin qu'elle ne puisse pas être modifiée ou accessible depuis l'extérieur de l'objet. JavaScript nous donne un moyen de le faire en utilisant `#` avant le nom de la propriété. Cela crée une propriété **privée**, qui n'est accessible qu'à l'intérieur de la classe.
+Parfois, nous voulons cacher une propriété d'un objet afin qu'elle ne puisse pas être modifiée ou être accessible depuis l'extérieur de l'objet. JavaScript nous donne un moyen de le faire en utilisant `#` avant le nom de la propriété. Cela crée une propriété **privée**, qui n'est accessible que depuis l'intérieur de la classe.
 
 
 ```javascript
@@ -3141,15 +3141,15 @@ return this.#age
 
 const alice = new Person("Alice", 30)
 console.log(alice.name)      // Alice
-console.log(alice.getAge())  // 30, the method can access the private property
-console.log(alice.#age)      // ❌ Error! You can't access private properties directly
+console.log(alice.getAge())  // 30, la méthode peut accéder à la propriété privée
+console.log(alice.#age)      // ❌ Erreur! Vous ne pouvez pas accéder directement à une propriété privée
 ```
 
 
 Les propriétés privées sont utiles lorsque vous souhaitez éviter les modifications accidentelles.
 
 
-### propriétés `statiques
+### propriétés `statiques`
 
 
 Parfois, vous voulez qu'une propriété appartienne à la classe elle-même, et non à chaque objet que vous créez à partir de cette classe. C'est la raison d'être de `static`. Une propriété `static` est contenue dans la classe et tous les objets de cette classe y feront référence.
@@ -3157,21 +3157,21 @@ Parfois, vous voulez qu'une propriété appartienne à la classe elle-même, et 
 
 ```javascript
 class User {
-static counter = 0 // this belongs to the class, not to instances. The same counter will be shared by all objects
+static counter = 0 // ce compteur est commun à toutes les instances de la class.
 
 constructor() {
-User.counter++ // changes the static property every time an object of this class gets initiated
+User.counter++ // change la propriété statique chaque fois qu'une instance de la classe (un objet) est créé.
 }
 }
 
-const a = new User() // the constructor will change the shared counter from 0 to 1
-const b = new User() // the constructor will change the shared counter from 1 to 2
+const a = new User() // le constructeur va changer la valeur du compteur partagée de 0 à 1
+const b = new User() // le constructeur va changer la valeur du compteur partagée de 1 à 2
 
-console.log(User.counter) //  prints 2
+console.log(User.counter) //  affiche 2
 ```
 
 
-Ceci est utile pour stocker des données et des méthodes partagées qui s'appliquent à l'ensemble du groupe d'objets, et non à un seul d'entre eux.
+Le mot clé `static` est utile pour stocker des données et des méthodes partagées qui s'appliquent à l'ensemble du groupe d'objets, et non à un seul d'entre eux.
 
 
 ### `get` et `set`
@@ -3200,7 +3200,7 @@ console.log(user.fullName) // Jane Doe
 ```
 
 
-Même si `fullName` n'est pas une propriété normale, nous pouvons l'utiliser comme telle, et dans les coulisses, elle exécute la fonction `get` pour construire le nom complet.
+Même si `fullName` n'est pas une propriété normale, nous pouvons l'utiliser comme telle, et lorsqu'accédée, elle exécute la fonction `get` pour construire le nom complet.
 
 
 Une méthode `set`ter s'exécute lorsque vous *assignez* une valeur à une propriété. Elle vous permet de contrôler ce qui se passe lorsque quelqu'un essaie de changer cette valeur. Elle est déclarée en écrivant `set` devant une méthode avec le nom de la propriété.
@@ -3217,10 +3217,10 @@ get fullName() {
 return `${this.firstName} ${this.lastName}`
 }
 
-set fullName(input) {            // gets the name that is passed
-const parts = input.split(" ") // breaks it into parts
-this.firstName = parts[0]      // uses the first part as first name
-this.lastName = parts[1]       // uses the second part as last name
+set fullName(input) {            // récupère le nom complet passé en entrée
+const parts = input.split(" ") // sépare l'entrée en morceaux si séparés par des espaces
+this.firstName = parts[0]      // utilise la première partie comme prénom
+this.lastName = parts[1]       // utilise la seconde partie comme nom
 }
 }
 

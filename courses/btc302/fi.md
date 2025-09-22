@@ -82,7 +82,7 @@ Tämä merkittävä kasvu liittyy luonnollisesti läheisesti seuraaviin tekijöi
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/fi/001.webp)
 
 
 
@@ -227,7 +227,7 @@ Rakentamalla ensimmäisiä tulevaisuuden "linnakkeita" **Bitcoin-yhteisöt maail
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/fi/002.webp)
 
 
 
@@ -252,7 +252,7 @@ Tapaamiset tarjoavat henkilökohtaisemman ja viihtyisämmän kokemuksen kuin ä�
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/fi/003.webp)
 
 
 Bitcoin-kokoukset voivat palvella monia tarkoituksia:
@@ -314,7 +314,7 @@ Voit tarkistaa [btcmap.org](https://btcmap.org/communities/map#0/0/0/), jossa lu
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/fi/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Aiheista riippuen (tekniset puheenvuorot tai käytännön työpajat) voi olla jo
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/fi/005.webp)
 
 
 
@@ -516,7 +516,7 @@ Tässä on muutamia esimerkkejä ranskalaisten yhteisöjen logoista:
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/fi/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Tässä on muutamia esimerkkejä ranskalaisten yhteisöjen logoista:
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/fi/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Tässä on muutamia esimerkkejä ranskalaisten yhteisöjen logoista:
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/fi/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Tässä on muutamia esimerkkejä ranskalaisten yhteisöjen logoista:
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/fi/009.webp)
 
 
 
@@ -615,7 +615,7 @@ Tässä on valmiita Canva-malleja, jotka voit kopioida ja mukauttaa yhteisöäsi
 - **Tapaamisen ilmoitusjuliste** (sosiaalista mediaa ja A4/A3-tulostusta varten): [linkki](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
+![image](assets/fi/010.webp)
 
 
 
@@ -637,7 +637,7 @@ Tässä on valmiita Canva-malleja, jotka voit kopioida ja mukauttaa yhteisöäsi
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/fi/011.webp)
 
 
 
@@ -659,10 +659,10 @@ Tässä on valmiita Canva-malleja, jotka voit kopioida ja mukauttaa yhteisöäsi
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/fi/012.webp)
 
 
-![image](assets/fr/013.webp)
+![image](assets/fi/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Jos haluat suunnitella futuristisen logon "Bitcoin London" -tapaamista varten, v
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/fi/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Jos neljä ensimmäistä tulosta eivät ole riittävän realistisia, tarkenna py
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/fi/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Siistimpi ulkoasu, kuten tarra:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/fi/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Esimerkiksi sveitsiläiset yhteisöt käyttävät pääasiassa Telegramia, Twitt
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/fi/017.webp)
 
 
 
@@ -901,7 +901,7 @@ Itse asiassa **Telegram-kanava on pikemminkin yksisuuntainen lähetystyökalu yl
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/fi/018.webp)
 
 
 
@@ -925,7 +925,7 @@ Toisaalta **Telegram-ryhmä on ihanteellinen yhteisöille**: Messengerin tai Wha
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/fi/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Vinkki: Mukauta aiheet yhteisön tarpeisiin. Esimerkki: Abidjan Bitcoin Meet-up 
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/fi/020.webp)
 
 
 Muista, että **Telegramin superryhmien käyttö voi olla joillekin jäsenille hieman hankalaa**. Kaikki eivät esimerkiksi tiedä, **miten pääsee eri aiheisiin** (heidän täytyy vain napauttaa ryhmän logoa Telegramin päävalikossa nähdäksesi koko aiheiden luettelon). Nopean kuvakaappauksen lähettäminen voi auttaa selvittämään epäselvyyksiä.
@@ -1053,7 +1053,7 @@ On erittäin suositeltavaa **kirjoittaa selkeä kuvaus tapaamisesta**, kun luot 
 
 > Tutustu muihin sosiaalisiin verkostoihimme: [LINKKI] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/fi/021.webp)
 
 
 
@@ -1106,7 +1106,7 @@ Käyttämällä **robottia [@GroupHelpBot](https://telegram.me/grouphelpbot)**, 
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/fi/022.webp)
 
 
 
@@ -1232,7 +1232,7 @@ Juuri näin FREE Madeira -kollektiivi on tehnyt.
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/fi/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ Twitter on erittäin helppokäyttöinen, ja yksityisyyden suojaa parantaaksesi s
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/fi/024.webp)
 
 
 
@@ -1328,7 +1328,7 @@ Lisäksi voit kiinnittää twiitin tai viestiketjun Twitter-profiiliisi antaakse
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/fi/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Toinen hyvä esimerkki ovat **Cercle du Coin** -ateriat.
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/fi/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ Näihin kuuluvat:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/fi/027.webp)
 
 
 Myös muut alustat voivat lisätä näkyvyyttäsi. **[Meetup](https://www.meetup.com/)** on yksi niistä, ja se on verkkosivusto (ja puhelinsovellus), jossa voit luoda tapahtuman ja löytää muita lähistöllä.
@@ -1476,7 +1476,7 @@ Tämänkaltaisen tapahtuman avulla voit omassa mittakaavassasi **luoda Bitcoin:n
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/fi/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ Sen sijaan, että valitsisit päivämäärän itse, on yleensä parasta **luoda 
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/fi/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Kun tapaamisesi on vasta alussa, ei useinkaan ole oikea aika muodolliselle esitt
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/fi/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ Ensimmäisessä tapauksessa selkeä tavoite voi varmistaa, että osallistujat op
 Toisessa tapauksessa toinen kuukausittainen tapahtuma voisi olla omistettu tietylle teemalle, kuten aloittelijoiden istunnoille tai työpajoille (Mining, Lightning, solmujen asennus jne.).
 
 
-![image](assets/fr/031.webp)
+![image](assets/fi/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ Lisäksi tässä on kolme tärkeää asiaa, jotka on syytä pitää mielessä:
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/fi/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Ota yhteyttä paikkaan, jossa järjestät tapahtuman, ja varaa se arvioidulle os
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/fi/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Näin toimitaan:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/fi/034.webp)
 
 
 
@@ -1762,7 +1762,7 @@ Jos haluat varmistaa, että kaikki tuntevat olevansa mukana tapahtumissasi, kesk
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/fi/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ Tärkeintä on vain olla tietoinen siitä.
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/fi/036.webp)
 
 
 
@@ -1905,7 +1905,7 @@ Riippuen siitä, miten hyvin olet käytettävissä ja miten paljon osallistut yh
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/fi/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Pidä nämä vinkit mielessä ennen tilaamista:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/fi/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Jos johdat yhdistystä ja haluat sijoittaa osan varoistasi koulutusresursseihin,
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/fi/039.webp)
 
 
 Ekosysteemin tukemiseksi **[kustantaja Konsensus Network](https://konsensus.network/) on tarjonnut kansainvälisille Bitcoin-tapaamisille ja -yhteisöille 15-35 prosentin alennusta kaikista kirjoistaan vuoden 2023 lopusta lähtien, kun tilaat vähintään kolme kirjaa**.
@@ -1997,7 +1997,7 @@ Tässä on avoimen lähdekoodin esimerkki, jota voit käyttää ja mukauttaa:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/fi/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Yksi esimerkki on [täydellinen esite] (https://profedustream.substack.com/p/21-
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/fi/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/fi/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ Ranskassa ja muutamissa muissa maissa on myös "kirjalaatikoita", pieniä puulaa
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/fi/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/fi/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Tässä on [ranskalaisten bitcoin-asiakkaiden jakama vihkonen](https://profedust
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/fi/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/fi/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Jotkut bitcoinilaiset tekivät jopa aloitteen "Strandedin" kääntämiseksi koko
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/fi/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Yksi esimerkki on [StreetCyberArt](https://twitter.com/streetcyber_art), saksala
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/fi/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Huomaa myös, että näiden julisteiden tulostaminen henkilökohtaisella tulosti
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/fi/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Jos haluat tilata yli 50 NFC-korttia, voit ottaa yhteyttä yritykseen sen virall
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/fi/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Kumman tahansa valitsetkin, suunnittele alustakohtainen visuaalinen ilme, jotta 
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/fi/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Useita Bitcoin Lille -yhdistyksen käyttämiä merkkimalleja on [saatavilla avoi
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/fi/052.webp)
 
 
 
@@ -2400,7 +2400,7 @@ Tämä ei kuitenkaan ole mikään kevyt yritys: se vaatii motivaatiota, vaivann�
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/fi/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Kannattaa silti yrittää, erityisesti ylioppilaskuntien ja yhdistysten kanssa. 
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/fi/054.webp)
 
 
 
@@ -2450,7 +2450,7 @@ Jokainen kauppias on erilainen, ja niiden käyttöönotossa on omat haasteensa:
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/fi/055.webp)
 
 
 
@@ -2500,7 +2500,7 @@ Sen jälkeen kun he ovat aluksella:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/fi/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Median haastattelut voivat olla hankalia. Sanoja saatetaan irrottaa asiayhteydes
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/fi/057.webp)
 
 
 
@@ -2613,7 +2613,7 @@ Hyvä esimerkki on **[Bitcoin Lillen avoimen lähdekoodin sääntökirja](https:
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/fi/058.webp)
 
 
 
@@ -2700,7 +2700,7 @@ Käytä **salattuja tai anonyymejä viestintävälineitä** suojellaksesi jäsen
 Huhtikuun 5. päivänä 1933 Franklin Roosevelt, Yhdysvaltain 32. presidentti, allekirjoitti **Executive Order 6102**, jonka mukaan yksityishenkilöiden oli kiellettyä omistaa kultakolikoita, kultaharkkoja tai kultatodistuksia koko maassa.
 
 
-![image](assets/fr/059.webp)
+![image](assets/fi/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ Meidän ei tarvitse sortua salaliittoajatteluun. Mikään ei kuitenkaan estä me
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/fi/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Koska aikamme on rajallinen, avain on pysyä nöyränä, jatkaa oppimista ja Exc
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/fi/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ Sen sijaan kannattaa **hakea apua bitcoin-käyttäjiltä, jotka ovat jo kulkenee
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/fi/062.webp)
 
 
 
@@ -2897,7 +2897,7 @@ Tässä hyödynnämme niiden yhteisöjen kokemuksia, jotka ovat jo luoneet omia 
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/fi/063.webp)
 
 
 

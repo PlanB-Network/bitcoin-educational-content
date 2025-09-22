@@ -82,7 +82,7 @@ Este crescimento significativo está, evidentemente, intimamente ligado a:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/pt/001.webp)
 
 
 
@@ -227,7 +227,7 @@ Ao construir as primeiras "cidadelas" do futuro, as **comunidades Bitcoin em tod
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/pt/002.webp)
 
 
 
@@ -252,7 +252,7 @@ Os encontros oferecem uma experiência mais pessoal e acolhedora do que as chama
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/pt/003.webp)
 
 
 Os encontros Bitcoin podem servir para muitos objectivos:
@@ -314,7 +314,7 @@ Pode consultar [btcmap.org] (https://btcmap.org/communities/map#0/0/0/), que lis
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/pt/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Dependendo dos temas (palestras técnicas ou workshops práticos), pode até faz
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/pt/005.webp)
 
 
 
@@ -516,7 +516,7 @@ Para lhe dar algumas ideias, eis alguns exemplos de logótipos de comunidades fr
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/pt/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Para lhe dar algumas ideias, eis alguns exemplos de logótipos de comunidades fr
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/pt/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Para lhe dar algumas ideias, eis alguns exemplos de logótipos de comunidades fr
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/pt/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Para lhe dar algumas ideias, eis alguns exemplos de logótipos de comunidades fr
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/pt/009.webp)
 
 
 
@@ -615,7 +615,7 @@ Eis alguns modelos prontos do Canva que pode duplicar e adaptar à sua comunidad
 - Cartaz de anúncio do encontro (para redes sociais e impressão A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
+![image](assets/pt/010.webp)
 
 
 
@@ -637,7 +637,7 @@ Eis alguns modelos prontos do Canva que pode duplicar e adaptar à sua comunidad
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/pt/011.webp)
 
 
 
@@ -659,10 +659,10 @@ Eis alguns modelos prontos do Canva que pode duplicar e adaptar à sua comunidad
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/pt/012.webp)
 
 
-![image](assets/fr/013.webp)
+![image](assets/pt/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Se quiser desenhar um logótipo futurista para um encontro "Bitcoin London", pod
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/pt/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Se os primeiros quatro resultados não forem suficientemente realistas, refine o
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/pt/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Para um aspeto mais limpo, como um autocolante:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/pt/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Por exemplo, as comunidades suíças utilizam principalmente o Telegram, o Twitt
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/pt/017.webp)
 
 
 
@@ -901,7 +901,7 @@ De facto, **um canal do Telegram é mais como uma ferramenta de transmissão uni
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/pt/018.webp)
 
 
 
@@ -925,7 +925,7 @@ Por outro lado, **um Grupo Telegram é ideal para comunidades**: Tal como nas ap
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/pt/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Sugestão: Adapte os seus tópicos às necessidades da sua comunidade. Exemplo: 
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/pt/020.webp)
 
 
 Tenha em mente que **os supergrupos do Telegram podem ser um pouco complicados de usar para alguns membros**. Por exemplo, nem todos sabem **como aceder aos diferentes tópicos** (só precisam de tocar no logótipo do grupo no menu principal do Telegram para ver a lista completa de tópicos). Enviar uma captura de ecrã rápida pode ajudar a esclarecer qualquer confusão.
@@ -1053,7 +1053,7 @@ Cada comunidade é livre de escolher a sua própria abordagem, mas a experiênci
 
 > Veja as nossas outras redes sociais: [LINK] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/pt/021.webp)
 
 
 
@@ -1106,7 +1106,7 @@ Utilizando **o bot [@GroupHelpBot](https://telegram.me/grouphelpbot)**, as opç�
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/pt/022.webp)
 
 
 
@@ -1232,7 +1232,7 @@ Foi o que fez o coletivo FREE Madeira.
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/pt/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ O Twitter é muito fácil de utilizar e, para melhorar a sua privacidade, terá 
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/pt/024.webp)
 
 
 
@@ -1328,7 +1328,7 @@ Além disso, **pode fixar um tweet ou um tópico no seu perfil do Twitter para l
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/pt/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ As refeições do **Cercle du Coin** são outro bom exemplo.
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/pt/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ Estes incluem:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/pt/027.webp)
 
 
 Outras plataformas também podem aumentar a sua visibilidade. **O [Meetup](https://www.meetup.com/)** é uma delas, e é um sítio Web (e uma aplicação para telemóvel) onde pode criar um evento e encontrar outras pessoas nas proximidades.
@@ -1476,7 +1476,7 @@ Um evento como este permite-lhe, à sua escala, **criar um burburinho em torno d
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/pt/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ Em vez de ser você a escolher a data, normalmente é melhor **criar uma sondage
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/pt/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Quando o encontro está a começar, muitas vezes não é a altura certa para uma
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/pt/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ No primeiro caso, tendo em conta as preferências de cada um, um objetivo claro 
 No segundo caso, um segundo evento mensal poderia ser dedicado a um tema específico, como sessões de iniciação ou workshops (Mining, Lightning, instalação de nós, etc.).
 
 
-![image](assets/fr/031.webp)
+![image](assets/pt/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ Para além disso, eis três pontos importantes a ter em conta:
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/pt/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Contacte o local onde vai realizar o evento e reserve-o para o número estimado 
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/pt/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Eis o que fazer:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/pt/034.webp)
 
 
 
@@ -1762,7 +1762,7 @@ Para garantir que todos se sentem incluídos nos seus eventos, concentre-se em d
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/pt/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ A chave é simplesmente estar consciente disso.
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/pt/036.webp)
 
 
 
@@ -1905,7 +1905,7 @@ Dependendo da sua disponibilidade e do nível de envolvimento na sua comunidade,
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/pt/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Antes de encomendar, tenha em conta estas dicas:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/pt/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Se dirige uma associação e pretende investir parte dos seus fundos em recursos
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/pt/039.webp)
 
 
 Para apoiar o ecossistema, a **[editora Konsensus Network] (https://konsensus.network/) tem vindo a oferecer aos encontros e comunidades internacionais do Bitcoin um desconto de 15% a 35% em todos os seus livros desde finais de 2023, para encomendas de três livros ou mais**.
@@ -1997,7 +1997,7 @@ Aqui está um exemplo de código aberto que pode utilizar e adaptar:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/pt/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Um exemplo é um [folheto de fonte completa] (https://profedustream.substack.com
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/pt/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/pt/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ Em França e em alguns outros países, existem também "caixas de livros", peque
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/pt/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/pt/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Eis [o folheto partilhado pelos bitcoiners franceses] (https://profedustream.sub
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/pt/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/pt/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Alguns bitcoiners tomaram mesmo a iniciativa de traduzir integralmente "Stranded
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/pt/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Um exemplo é [StreetCyberArt] (https://twitter.com/streetcyber_art), um bitcoin
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/pt/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Tenha também em atenção que a impressão destes cartazes numa impressora pess
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/pt/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Se pretender encomendar mais de 50 cartões NFC, pode contactar a empresa atrav�
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/pt/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Seja qual for a sua escolha, crie visuais específicos para a plataforma para to
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/pt/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Vários modelos de crachás utilizados pela associação Bitcoin de Lille estão
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/pt/052.webp)
 
 
 
@@ -2400,7 +2400,7 @@ Dito isto, não se trata de uma tarefa fácil: exige motivação, esforço e os 
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/pt/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Ainda assim, vale a pena tentar, especialmente com as uniões e associações de
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/pt/054.webp)
 
 
 
@@ -2450,7 +2450,7 @@ Cada comerciante é diferente e a sua integração implica um conjunto de desafi
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/pt/055.webp)
 
 
 
@@ -2500,7 +2500,7 @@ Depois de estarem a bordo:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/pt/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Tenha em atenção que as entrevistas aos meios de comunicação social podem se
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/pt/057.webp)
 
 
 
@@ -2613,7 +2613,7 @@ Um bom exemplo é o **[livro de regras de código aberto do Bitcoin Lille](https
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/pt/058.webp)
 
 
 
@@ -2700,7 +2700,7 @@ Utilize **ferramentas de comunicação encriptadas ou anónimas** para proteger 
 Em 5 de abril de 1933, Franklin Roosevelt, o 32º Presidente dos Estados Unidos da América, assinou a **Ordem Executiva 6102**, tornando ilegal a posse de moedas de ouro, barras de ouro ou certificados de ouro por particulares em qualquer parte do país.
 
 
-![image](assets/fr/059.webp)
+![image](assets/pt/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ Não precisamos de cair num pensamento conspirativo. Mas não há nada que nos i
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/pt/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Uma vez que o nosso tempo é limitado, a chave é mantermo-nos humildes, continu
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/pt/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ Em vez disso, **procura ajuda de bitcoiners que já percorreram o mesmo túnel, 
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/pt/062.webp)
 
 
 
@@ -2897,7 +2897,7 @@ Para tal, basear-nos-emos nas experiências de comunidades que já criaram os se
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/pt/063.webp)
 
 
 

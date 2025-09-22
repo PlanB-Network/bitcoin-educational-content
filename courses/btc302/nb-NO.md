@@ -82,7 +82,7 @@ Denne betydelige veksten er selvfølgelig nært knyttet til:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/NO/001.webp)
 
 
 
@@ -227,7 +227,7 @@ Ved å bygge morgendagens første "citadeller" fungerer **Bitcoin-fellesskap ove
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/NO/002.webp)
 
 
 
@@ -252,7 +252,7 @@ Meetups gir en mer personlig og innbydende opplevelse enn lyd- eller videosamtal
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/NO/003.webp)
 
 
 Bitcoin-møter kan tjene mange formål:
@@ -314,7 +314,7 @@ Du kan sjekke [btcmap.org] (https://btcmap.org/communities/map#0/0/0/), som vise
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/NO/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Avhengig av tema (tekniske foredrag eller praktiske verksteder) kan det til og m
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/NO/005.webp)
 
 
 
@@ -516,7 +516,7 @@ For å gi deg noen ideer, her er noen eksempler på franske fellesskapslogoer:
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/NO/006.webp)
 
 
 
@@ -526,7 +526,7 @@ For å gi deg noen ideer, her er noen eksempler på franske fellesskapslogoer:
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/NO/007.webp)
 
 
 
@@ -536,7 +536,7 @@ For å gi deg noen ideer, her er noen eksempler på franske fellesskapslogoer:
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/NO/008.webp)
 
 
 
@@ -546,7 +546,7 @@ For å gi deg noen ideer, her er noen eksempler på franske fellesskapslogoer:
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/NO/009.webp)
 
 
 
@@ -615,7 +615,7 @@ Her er ferdige Canva-maler som du kan kopiere og tilpasse til din organisasjon:
 - **Plakat for kunngjøring av møtet** (for sosiale medier og A4/A3-utskrift): [lenke](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
+![image](assets/NO/010.webp)
 
 
 
@@ -637,7 +637,7 @@ Her er ferdige Canva-maler som du kan kopiere og tilpasse til din organisasjon:
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/NO/011.webp)
 
 
 
@@ -659,10 +659,10 @@ Her er ferdige Canva-maler som du kan kopiere og tilpasse til din organisasjon:
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/NO/012.webp)
 
 
-![image](assets/fr/013.webp)
+![image](assets/NO/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Hvis du ønsker å designe en futuristisk logo for et "Bitcoin London"-treff, ka
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/NO/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Hvis de fire første resultatene ikke er realistiske nok, kan du avgrense foresp
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/NO/015.webp)
 
 
 
@@ -763,7 +763,7 @@ For et renere utseende, som for et klistremerke:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/NO/016.webp)
 
 
 
@@ -816,7 +816,7 @@ For eksempel bruker sveitsiske miljøer først og fremst Telegram, Twitter og si
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/NO/017.webp)
 
 
 
@@ -901,7 +901,7 @@ Faktisk er **en Telegram-kanal mer som et enveis kringkastingsverktøy for admin
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/NO/018.webp)
 
 
 
@@ -925,7 +925,7 @@ På den annen side er **en Telegram-gruppe ideell for lokalsamfunn**: Akkurat so
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/NO/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Tips: Tilpass temaene til lokalsamfunnets behov. Eksempel: Abidjan Bitcoin Meet-
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/NO/020.webp)
 
 
 Husk at **Telegram-supergrupper kan være litt vanskelige å bruke for noen medlemmer**. For eksempel er det ikke alle som vet **hvordan man får tilgang til de ulike emnene** (de trenger bare å trykke på gruppelogoen i hovedmenyen i Telegram for å se hele listen over emner). Å sende et raskt skjermbilde kan bidra til å oppklare eventuell forvirring.
@@ -1053,7 +1053,7 @@ Det anbefales på det sterkeste å **skrive en tydelig beskrivelse av møtet** n
 
 > Sjekk ut våre andre sosiale nettverk: [LINK] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/NO/021.webp)
 
 
 
@@ -1106,7 +1106,7 @@ Ved hjelp av **roboten [@GroupHelpBot] (https://telegram.me/grouphelpbot)** er d
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/NO/022.webp)
 
 
 
@@ -1232,7 +1232,7 @@ Det er det FREE Madeira-kollektivet har gjort.
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/NO/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ Twitter er svært enkelt å bruke, og for å forbedre personvernet ditt må du j
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/NO/024.webp)
 
 
 
@@ -1328,7 +1328,7 @@ I tillegg kan du **feste en tweet eller tråd til Twitter-profilen din for å gi
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/NO/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Måltidene i **Cercle du Coin** er et annet godt eksempel.
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/NO/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ Disse inkluderer:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/NO/027.webp)
 
 
 Andre plattformer kan også øke synligheten din. **[Meetup](https://www.meetup.com/)** er en av dem, og det er et nettsted (og en telefonapp) der du kan opprette et arrangement og finne andre i nærheten.
@@ -1476,7 +1476,7 @@ Et arrangement som dette lar deg, i din egen målestokk, **skape en stemning run
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/NO/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ I stedet for å velge datoen selv, er det vanligvis best å **opprette en avstem
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/NO/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Når møtet er i startfasen, er det ofte ikke det rette tidspunktet for en forme
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/NO/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ I det første tilfellet kan et tydelig mål sørge for at deltakerne har lært n
 I det andre tilfellet kan et annet månedlig arrangement være dedikert til et bestemt tema, for eksempel nybegynnerøkter eller workshops (Mining, Lightning, nodeinstallasjon osv.).
 
 
-![image](assets/fr/031.webp)
+![image](assets/NO/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ I tillegg er det tre viktige punkter du bør huske på:
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/NO/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Ta kontakt med stedet der du skal avholde arrangementet, og reserver det for det
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/NO/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Her er hva du skal gjøre:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/NO/034.webp)
 
 
 
@@ -1762,7 +1762,7 @@ For å sikre at alle føler seg inkludert på arrangementene dine, bør du fokus
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/NO/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ Nøkkelen er rett og slett å være klar over det.
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/NO/036.webp)
 
 
 
@@ -1905,7 +1905,7 @@ Avhengig av hvor tilgjengelig du er og hvor engasjert du er i lokalsamfunnet, ka
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/NO/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Husk disse tipsene før du bestiller:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/NO/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Hvis dere driver en forening og ønsker å investere en del av midlene deres i u
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/NO/039.webp)
 
 
 For å støtte økosystemet har **[forlaget Konsensus Network] (https://konsensus.network/) tilbudt internasjonale Bitcoin-møter og -fellesskap 15 % til 35 % rabatt på alle sine bøker siden slutten av 2023, for bestillinger på tre bøker eller mer**.
@@ -1997,7 +1997,7 @@ Her er et eksempel med åpen kildekode som du kan bruke og tilpasse:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/NO/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Et eksempel er en [komplett brosjyre](https://profedustream.substack.com/p/21-ra
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/NO/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/NO/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ I Frankrike og noen få andre land finnes det også "bokkasser", små trekasser 
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/NO/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/NO/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Her er [heftet som deles blant franske bitcoinere](https://profedustream.substac
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/NO/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/NO/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Noen bitcoinere tok til og med initiativ til å fulloversette "Stranded" til fra
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/NO/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Et eksempel er [StreetCyberArt] (https://twitter.com/streetcyber_art), en tysk b
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/NO/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Vær også oppmerksom på at utskrift av disse plakatene på en personlig skrive
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/NO/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Hvis du ønsker å bestille mer enn 50 NFC-kort, kan du kontakte selskapet via d
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/NO/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Uansett hva du velger, må du designe plattformspesifikke bilder for å gjøre k
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/NO/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Flere av merkemalene som brukes av foreningen Bitcoin Lille er [tilgjengelig i �
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/NO/052.webp)
 
 
 
@@ -2400,7 +2400,7 @@ Når det er sagt, er ikke dette noen lett oppgave: Det krever motivasjon, innsat
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/NO/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Det er likevel verdt å prøve, spesielt med studentforeninger og -organisasjone
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/NO/054.webp)
 
 
 
@@ -2450,7 +2450,7 @@ Alle selgere er forskjellige, og det å ta dem i bruk har sine egne utfordringer
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/NO/055.webp)
 
 
 
@@ -2500,7 +2500,7 @@ Etter at de er om bord:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/NO/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Vær oppmerksom på at medieintervjuer kan være vanskelige. Ord kan bli tatt ut
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/NO/057.webp)
 
 
 
@@ -2613,7 +2613,7 @@ Et godt eksempel er **[Bitcoin Lille's open-source rulebook](https://bitcoinlill
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/NO/058.webp)
 
 
 
@@ -2700,7 +2700,7 @@ Bruk **krypterte eller anonyme kommunikasjonsverktøy** for å beskytte medlemme
 Den 5. april 1933 undertegnet Franklin Roosevelt, USAs 32. president, **Executive Order 6102**, som gjorde det ulovlig for privatpersoner å eie gullmynter, gullbarrer eller gullsertifikater hvor som helst i landet.
 
 
-![image](assets/fr/059.webp)
+![image](assets/NO/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ Vi trenger ikke å falle inn i konspirasjonstenkning. Men det er ingenting som h
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/NO/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Siden tiden vår er begrenset, er nøkkelen å være ydmyk, fortsette å lære o
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/NO/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ I stedet bør du **søke hjelp fra bitcoinere som allerede har gått i den samme
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/NO/062.webp)
 
 
 
@@ -2897,7 +2897,7 @@ Her vil vi trekke veksler på erfaringer fra lokalsamfunn som allerede har laget
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/NO/063.webp)
 
 
 

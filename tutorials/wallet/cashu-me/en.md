@@ -97,7 +97,7 @@ If you no longer trust a particular mint you've added, cashu.me offers a feature
 
 ## 3️⃣ Sending funds
 
-To send sats, Cashu.me provides two options. To send via `ecash` or via `lightning`. Let have a look on both options. 
+To send sats, Cashu.me provides two options. To send via `ecash` or via `lightning`. Let's have a look on both options. 
 
 ### Sending via Lightning
 
@@ -131,8 +131,8 @@ Nostr Wallet Connect (`NWC`) transforms how you interact with Nostr applications
 
 To set up `NWC` in Cashu.me:  
 
-1. Go to `Setting` on the top left Hamburger menu
-2. Scoll to the `NOSTR WALLET CONNECT` Section and tap the `Enable` Button
+1. Go to `Settings` on the top left Hamburger menu
+2. Scroll to the `NOSTR WALLET CONNECT` Section and tap the `Enable` Button
 3. You'll then set an allowance to establish the maximum amount applications can spend from your wallet.
 4. Once configured, you can copy the connection string and paste it into any Nostr client that supports `NWC`, enabling instant zapping and tipping functionality.
 

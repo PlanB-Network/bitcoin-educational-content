@@ -1,0 +1,25 @@
+id: b6732907-b5d8-43ea-85e3-9dcd6e6abe47
+
+project_id: 79942e25-335d-45ae-bf81-799317f7d6bd
+
+tags:
+  - onchain
+  - lightning
+  - scalability
+
+category: centralized
+
+level: beginner
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-22
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 0

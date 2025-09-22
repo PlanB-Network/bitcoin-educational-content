@@ -187,13 +187,13 @@ Pour commencer, vous devez écrire un message au bot WhatsApp de Machankura (un 
 
 Il vous demandera de choisir la langue dans laquelle vous voudriez discuter.
 
-![wallet|220](assets/fr/03.webp)
+![wallet](assets/fr/03.webp)
 
 Une fois la langue choisie, vous accéderez au menu principal.
 - Répondez **1** qui correspond à l’option “**Créer un compte**“.
 - Entrez une adresse mail unique.
 
-![wallet|220](assets/fr/04.webp)
+![wallet](assets/fr/04.webp)
 
 Votre compte Machankura est automatiquement créé. Repartez ensuite vers le menu pour définir votre nom d'utilisateur. 
 
@@ -201,11 +201,11 @@ Pour le faire:
 - Répondez **0**, qui correspond à l'option ''**Paramètres**'' ;
 - Répondez ensuite **1**, qui correspond à l'option ''**Nom d'utilisateur**''.
 
-![wallet|220](assets/fr/05.webp)
+![wallet](assets/fr/05.webp)
 
 Le bot vous enverra ensuite un code à **6 chiffres** que vous devez taper puis choisissez votre nom d'utilisateur. Une fois votre nom d'utilisateur mis à jour, repartez vers le menu pour profiter de l'envoi et de la réception de bitcoins par Machankura.
 
-![wallet|220](assets/fr/06.webp)
+![wallet](assets/fr/06.webp)
 
 ### Envoyer des bitcoins
 
@@ -224,11 +224,11 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 Pour envoyer, veuillez saisir le chiffre 1, correspondant à l'option "ENVOYER BTC". Par la suite, choisissez l'option d'envoi "Adresse Lightning", puis indiquer l'adresse du destinataire des bitcoins. Enfin, sélectionnez la mesure de valeur "sats", indiquez le nombre de satoshis à envoyer et confirmez l'envoi.
 
-![wallet|220](assets/fr/07.webp)
+![wallet](assets/fr/07.webp)
 
-![wallet|220](assets/fr/08.webp)
+![wallet](assets/fr/08.webp)
 
-![wallet|220](assets/fr/09.webp)
+![wallet](assets/fr/09.webp)
 
 Félicitations !! Vous venez d'envoyer des satoshis à votre destinataire.
 
@@ -244,45 +244,45 @@ Il vous proposera aussi diverses options, notamment :
 
 L’option 1 ‘’UTILISER BTC’’ vous permet de recharger votre compte avec un bon Azteco. 
 
-![wallet|220](assets/fr/10.webp)
+![wallet](assets/fr/10.webp)
 
 L’option 4 ''UNE ADRESSE ONCHAIN'' vous permet d'obtenir une nouvelle adresse on chain à usage unique pour garder plus d'anonymat. 
 
-![wallet|220](assets/fr/11.webp)
+![wallet](assets/fr/11.webp)
 
 Tandis que les autres options vous redirigent vers une page web reliée à votre adresse Lightning.  
 
-![wallet|220](assets/fr/12.webp)    
+![wallet](assets/fr/12.webp)    
 
-![wallet|220](assets/fr/13.webp)
+![wallet](assets/fr/13.webp)
 
 Vous avez la possibilité de vous procurer : 
 - soit le code QR de votre portefeuille ; 
 
-![wallet|220](assets/fr/14.webp)
+![wallet](assets/fr/14.webp)
 
 - soit de générer carrément une facture Lightning sur cette page web. 
 
 Pour obtenir une facture précise, veuillez indiquer l'unité de compte et le montant de bitcoins dans cette unité de compte que vous souhaitez recevoir. 
 Après avoir indiqué le montant dans cette unité de compte, le système s'occupe de convertir l'équivalent en Bitcoin, et vice versa. 
 
-![wallet|220](assets/fr/15.webp) 
+![wallet](assets/fr/15.webp) 
 
-![wallet|220](assets/fr/16.webp)
+![wallet](assets/fr/16.webp)
 
-![wallet|220](assets/fr/17.webp)
+![wallet](assets/fr/17.webp)
 
 Notez que, vous pouvez aussi obtenir votre adresse onchain sur la page web reliée à votre portefeuille.  
 
-![wallet|220](assets/fr/18.webp)
+![wallet](assets/fr/18.webp)
 
-![wallet|220](assets/fr/19.webp)
+![wallet](assets/fr/19.webp)
 
 De plus, Machankura offre la possibilité à toute personne souhaitant vous envoyer des bitcoins de le faire depuis votre site web en utilisant son portefeuille dédié. Il vous suffit de lui envoyer le lien de la page web associée à votre adresse Lightning. Après avoir accédé à cette page web, il aura la possibilité d'ouvrir votre code QR ou votre facture directement dans son portefeuille.
 
-![wallet|220](assets/fr/20.webp)
+![wallet](assets/fr/20.webp)
 
-![wallet|220](assets/fr/21.webp)
+![wallet](assets/fr/21.webp)
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
@@ -292,7 +292,7 @@ https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-370
 
 Vous pouvez consulter votre solde sur le portefeuille Machankura en sélectionnant l'option 3, qui correspond à l'option "Solde et historique".
 
-![wallet|220](assets/fr/22.webp)
+![wallet](assets/fr/22.webp)
 
 Félicitations !! Vous êtes à présent en mesure d'utiliser par vous-même Machankura  pour recevoir et dépenser des bitcoins.
 

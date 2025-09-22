@@ -3115,11 +3115,11 @@ Turaguma twihweza cane iki kibazo n'iterambere mu bikoresho bijanye naco. Nimwiz
 Mu gice gikurikira, tuzomenya ivyo "anonsets" ari vyo, ingene ivyo bimenyetso biharurwa, n'ingene bishobora kudufasha kugereranya ubushobozi bw'ingendo za CoinJoin.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Ivy'ukutamenyekana
 
@@ -3230,7 +3230,7 @@ Birashoboka kubara anonsets n'amaboko ukoresheje Block explorer ku bice bitobito
 Nk’uko twabibonye muri iki kigabane, anonsets zishobora kubarwa gusa iyo hariho ubumwe bumwe bumwe mu miterere ya CoinJoin. Mu kigabane gikurikira, tuzobona ingene twogereranya ubwo bumwe ku bijanye n’ugucuruza kwa Bitcoin, yaba ari ugucuruza kwa CoinJoin canke ugucuruza kwa kera.
 
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropi
 
@@ -3684,7 +3684,7 @@ Ingorane yo gukoresha PayJoin iri mu kuba ivana n’uruhara rw’umucuruzi. Nk�
 Umuti umwe woba ari ugukoresha imiterere y’ugucuruza izana ubusobanuro butari bwo mu gusesangura uruhererekane ataco bisaba ubufatanye bw’uwuronka. Ivyo vyotuma dushobora gutuma ivyo twishura biguma ari ibanga ata kwizigira uruhara rw’abadandaza. Ivyo nyene ni vyo tuzoba turiko turaraba mu kigabane gikurikira.
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 

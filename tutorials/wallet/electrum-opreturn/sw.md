@@ -1,5 +1,5 @@
 ---
-name: Elektroni OP_RETURN
+name: Electrum OP_RETURN
 description: Sajili ujumbe kwenye Blockchain Bitcoin ukitumia Electrum
 ---
 

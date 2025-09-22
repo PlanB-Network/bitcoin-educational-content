@@ -1,5 +1,5 @@
 ---
-name: مانجارو
+name: Manjaro
 description: قابل‌دسترس‌تر کردن قدرت آرچ لینوکس
 ---
 ![cover](assets/cover.webp)

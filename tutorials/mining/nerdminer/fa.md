@@ -1,5 +1,5 @@
 ---
-name: نردماینر
+name: Nerdminer
 description: شروع Mining Bitcoin با شانس برنده شدن نزدیک به 0
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Pemindai IP Marah
+name: Angry IP Scanner
 description: Cara sederhana untuk memindai jaringan Anda
 ---
 ![cover](assets/cover.webp)

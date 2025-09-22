@@ -1,5 +1,5 @@
 ---
-name: Nó de relâmpago RGB
+name: RGB Lightning Node
 description: Como é que lanço um nó Lightning compatível com RGB com RLN?
 ---
 ![cover](assets/cover.webp)

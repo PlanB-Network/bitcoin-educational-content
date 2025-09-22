@@ -1,5 +1,5 @@
 ---
-name: ब्लिक्स्ट Wallet
+name: Blixt Wallet
 description: अपने मोबाइल पर शक्तिशाली LN नोड का उपयोग कैसे शुरू करें?
 ---
 ![cover](assets/cover.webp)

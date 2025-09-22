@@ -1,5 +1,5 @@
 ---
-name: Wallet از Satoshi
+name: Wallet of Satoshi
 description: ساده‌ترین Wallet حضانتی برای شروع
 ---
 ![cover](assets/cover.webp)

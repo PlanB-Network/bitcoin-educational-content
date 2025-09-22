@@ -1,5 +1,5 @@
 ---
-name: Elektrum OP_RETURN
+name: Electrum OP_RETURN
 description: Registrieren Sie eine Nachricht über den Blockchain Bitcoin mit Electrum
 ---
 

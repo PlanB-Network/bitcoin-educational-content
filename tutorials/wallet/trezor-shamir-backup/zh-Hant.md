@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamir 備份
+name: Trezor Shamir Backup
 description: Trezor 上的單股和多股 Mnemonic 詞組
 ---
 ![cover](assets/cover.webp)

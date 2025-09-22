@@ -1,5 +1,5 @@
 ---
-name: اوپن‌سنس
+name: OPNsense
 description: چگونه یک فایروال OPNsense را نصب و پیکربندی کنم؟
 ---
 ![cover](assets/cover.webp)

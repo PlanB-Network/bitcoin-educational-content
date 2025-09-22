@@ -1,5 +1,5 @@
 ---
-name: Накамоти
+name: Nakamochi
 description: Запуск узла стал проще - Как настроить и использовать узел Nakamochi Bitcoin и Lightning.
 ---
 ![image](assets/cover.webp)

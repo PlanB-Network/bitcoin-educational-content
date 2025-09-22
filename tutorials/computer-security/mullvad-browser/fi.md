@@ -1,5 +1,5 @@
 ---
-name: Mullvad selain
+name: Mullvad Browser
 description: Miten Mullvad Browseria käytetään yksityisyyden suojaamiseksi?
 ---
 

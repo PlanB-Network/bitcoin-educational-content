@@ -1,5 +1,5 @@
 ---
-name: Paraplu
+name: Umbrel
 description: Umbrel ontdekken en installeren - Uw Bitcoin knooppunt en thuisserver
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Pengesah Proton
+name: Proton Authenticator
 description: Bagaimana cara menggunakan Proton Authenticator untuk mengamankan akun saya dengan 2FA?
 ---
 ![cover](assets/cover.webp)

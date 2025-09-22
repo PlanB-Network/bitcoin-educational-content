@@ -1,5 +1,5 @@
 ---
-name: Blu Wallet
+name: Blue Wallet
 
 description: Bitcoin Portafoglio radicalmente semplice e potente
 ---

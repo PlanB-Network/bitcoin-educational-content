@@ -1,5 +1,5 @@
 ---
-name: Элби Хаб
+name: Alby Hub
 description: Как легко запустить свой собственный узел Lightning?
 ---
 ![cover](assets/cover.webp)

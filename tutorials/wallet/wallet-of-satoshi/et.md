@@ -1,5 +1,5 @@
 ---
-name: Satoshi Wallet
+name: Wallet of Satoshi
 description: Lihtsaim hooldusvahendi Wallet alustamiseks
 ---
 ![cover](assets/cover.webp)

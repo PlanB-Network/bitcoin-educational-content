@@ -1,5 +1,5 @@
 ---
-name: RGB-CLI
+name: RGB CLI
 description: Wie erstelle und tausche ich Smart Contracts auf RGB?
 ---
 ![cover](assets/cover.webp)

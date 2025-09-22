@@ -1,5 +1,5 @@
 ---
-name: ブルーWallet
+name: Blue Wallet
 
 description: Bitcoin きわめてシンプルでパワフルなポートフォリオ
 ---

@@ -1,5 +1,5 @@
 ---
-name: एंग्री आईपी स्कैनर
+name: Angry IP Scanner
 description: अपने नेटवर्क को स्कैन करने का एक सरल तरीका
 ---
 ![cover](assets/cover.webp)

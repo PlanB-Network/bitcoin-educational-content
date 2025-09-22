@@ -1,5 +1,5 @@
 ---
-name: 石牆 x2
+name: Stonewall x2
 description: 瞭解並使用 Stonewall x2 交易
 ---
 ![cover stonewall x2](assets/cover.webp)

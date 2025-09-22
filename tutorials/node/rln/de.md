@@ -1,5 +1,5 @@
 ---
-name: RGB-Blitzknoten
+name: RGB Lightning Node
 description: Wie kann ich einen RGB-kompatiblen Lightning-Knoten mit RLN starten?
 ---
 ![cover](assets/cover.webp)

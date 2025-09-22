@@ -1,5 +1,5 @@
 ---
-name: Bitcoin नॉट्स
+name: Bitcoin Knots
 description: मैं Bitcoin नॉट्स वैकल्पिक क्लाइंट के साथ नोड कैसे लॉन्च करूं?
 ---
 ![cover](assets/cover.webp)

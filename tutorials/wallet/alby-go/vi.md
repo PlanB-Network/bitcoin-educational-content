@@ -1,5 +1,5 @@
 ---
-name: Alby đi
+name: Alby Go
 description: Hướng dẫn sử dụng ứng dụng di động Alby Go
 ---
 

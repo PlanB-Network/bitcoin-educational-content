@@ -1,5 +1,5 @@
 ---
-name: थंडरहब
+name: ThunderHub
 description: Interface लाइटनिंग नोड प्रबंधन वेब LND
 ---
 ![cover](assets/cover.webp)

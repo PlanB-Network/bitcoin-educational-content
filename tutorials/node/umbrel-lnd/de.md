@@ -1,5 +1,5 @@
 ---
-name: Regenschirm LND
+name: Umbrel LND
 description: Erweiterte Anleitung zur Installation und Konfiguration von Lightning Network Daemon (LND) auf Umbrel
 ---
 ![cover](assets/cover.webp)

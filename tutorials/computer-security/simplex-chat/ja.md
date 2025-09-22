@@ -1,5 +1,5 @@
 ---
-name: SimpleXチャット
+name: SimpleX Chat
 description: ユーザーIDのない最初のメールボックス
 ---
 ![cover](assets/cover.webp)

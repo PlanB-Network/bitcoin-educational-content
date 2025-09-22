@@ -1,5 +1,5 @@
 ---
-name: Plavo Wallet
+name: Blue Wallet
 
 description: Bitcoin Radikalno Jednostavan i Moćan Portfolio
 ---

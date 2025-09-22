@@ -1,5 +1,5 @@
 ---
-name: वेराक्रिप्ट
+name: VeraCrypt
 description: स्टोरेज डिवाइस को आसानी से एन्क्रिप्ट कैसे करें?
 ---
 ![cover](assets/cover.webp)

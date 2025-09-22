@@ -1,5 +1,5 @@
 ---
-name: Elementaarinen käyttöjärjestelmä
+name: Elementary OS
 description: Ihanteellinen korvaaja Windowsille ja MacOS:lle
 ---
 

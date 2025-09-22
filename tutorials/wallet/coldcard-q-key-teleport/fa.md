@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - انتقال کلید
+name: COLDCARD Q - Key Teleport
 description: کلید تله‌پورت چیست و چگونه از آن استفاده کنم؟
 ---
 

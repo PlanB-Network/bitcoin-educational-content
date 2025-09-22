@@ -1,5 +1,5 @@
 ---
-name: آلبی گو
+name: Alby Go
 description: راهنمای برنامه موبایل Alby Go
 ---
 

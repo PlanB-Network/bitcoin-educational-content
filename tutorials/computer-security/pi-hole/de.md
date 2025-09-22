@@ -1,5 +1,5 @@
 ---
-name: Pi-Loch
+name: Pi-Hole
 description: Ein Werbeblocker für Ihr gesamtes Netzwerk
 ---
 ![cover](assets/cover.webp)

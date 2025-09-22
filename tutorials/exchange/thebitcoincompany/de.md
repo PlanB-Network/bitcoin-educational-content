@@ -1,5 +1,5 @@
 ---
-name: Das Unternehmen Bitcoin
+name: The Bitcoin Company
 description: Wie kann ich mit The Bitcoin Company Waren und Dienstleistungen in BTC kaufen?
 ---
 ![cover](assets/cover.webp)

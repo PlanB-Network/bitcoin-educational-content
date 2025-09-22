@@ -134,6 +134,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.41
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.35
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.47
 tags:
   - guides
   - personal-security

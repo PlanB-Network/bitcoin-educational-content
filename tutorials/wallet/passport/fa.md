@@ -1,5 +1,5 @@
 ---
-name: پاسپورت کور
+name: Passport Core
 description: پیکربندی و استفاده از Passport Hardware Wallet در حالت دستی
 ---
 ![cover](assets/cover.webp)

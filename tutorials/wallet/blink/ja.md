@@ -1,5 +1,5 @@
 ---
-name: 瞬き
+name: Blink
 description: Complete Blink Walletチュートリアル - Bitcoinを簡単に送信、受信、使用する
 ---
 

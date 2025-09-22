@@ -1,5 +1,5 @@
 ---
-name: Vihmauss LND
+name: Umbrel LND
 description: Täiustatud õpetus Lightning Network Daemon (LND) paigaldamiseks ja konfigureerimiseks Umbrelil
 ---
 ![cover](assets/cover.webp)

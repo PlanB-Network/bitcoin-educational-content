@@ -1,5 +1,5 @@
 ---
-name: リブレウルフ
+name: LibreWolf
 description: LibreWolfプライバシーブラウザの使い方
 ---
 

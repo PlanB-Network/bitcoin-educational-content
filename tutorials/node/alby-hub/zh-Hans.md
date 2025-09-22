@@ -1,5 +1,5 @@
 ---
-name: 阿尔比枢纽
+name: Alby Hub
 description: 如何轻松启动自己的闪电节点？
 ---
 ![cover](assets/cover.webp)

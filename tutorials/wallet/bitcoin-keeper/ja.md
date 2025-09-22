@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - マルチ・キー・セキュリティ
+name: Bitcoin Keeper
 description: Bitcoin Keeperアプリ - HotウォレットとCold保管庫の両方を作成できるモバイルアプリケーション。
 ---
 

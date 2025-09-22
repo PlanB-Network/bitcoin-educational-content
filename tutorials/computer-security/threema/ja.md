@@ -1,5 +1,5 @@
 ---
-name: スリーマ
+name: Threema
 description: 安全な匿名インスタントメッセージ
 ---
 ![cover](assets/cover.webp)

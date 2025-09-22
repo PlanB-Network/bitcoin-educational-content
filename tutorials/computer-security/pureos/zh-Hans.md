@@ -1,5 +1,5 @@
 ---
-name: 纯操作系统
+name: PureOS
 description: 让你掌控数字生活的 Linux 发行版。
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Ente Autor
+name: Ente Auth
 description: Ein quelloffener, Ende-zu-Ende-verschlüsselter 2FA-Authentifikator
 ---
 ![cover](assets/cover.webp)

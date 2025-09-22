@@ -1,5 +1,5 @@
 ---
-name: Blockstream Uygulaması - Yalnızca İzle
+name: Blockstream App - Watch-Only
 description: Blockstream Uygulamasında bir Watch-only wallet'ı nasıl yapılandırabilirim?
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Paraply LND
+name: Umbrel LND
 description: Avancerad handledning om installation och konfiguration av Lightning Network Daemon (LND) på Umbrel
 ---
 ![cover](assets/cover.webp)

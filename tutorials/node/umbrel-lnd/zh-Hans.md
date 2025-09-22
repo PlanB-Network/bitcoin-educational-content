@@ -1,5 +1,5 @@
 ---
-name: 伞形 LND
+name: Umbrel LND
 description: 在 Umbrel 上安装和配置 Lightning Network Daemon (LND) 的高级教程
 ---
 ![cover](assets/cover.webp)

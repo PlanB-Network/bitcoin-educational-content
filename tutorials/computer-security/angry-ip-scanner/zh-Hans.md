@@ -1,5 +1,5 @@
 ---
-name: 愤怒的 IP 扫描仪
+name: Angry IP Scanner
 description: 扫描网络的简单方法
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Ô của chúng ta
+name: Umbrel Nostr
 description: Cấu hình và sử dụng ứng dụng Nostr trên Umbrel
 ---
 

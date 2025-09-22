@@ -1,5 +1,5 @@
 ---
-name: Bản đồ Nmap
+name: Nmap
 description: Master Nmap để lập bản đồ mạng và quét lỗ hổng
 ---
 

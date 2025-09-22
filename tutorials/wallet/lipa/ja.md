@@ -1,5 +1,5 @@
 ---
-name: リパ
+name: Lipa
 description: Lipa lightningモバイルウォレットの設定と使用
 ---
 ![cover](assets/cover.webp)

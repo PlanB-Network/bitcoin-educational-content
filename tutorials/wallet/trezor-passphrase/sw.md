@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Je, ninawezaje kuongeza passphrase kwenye kwingineko yangu ya Trezor?
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: 班克萨斯
+name: Banxaas
 description: 在塞内加尔各地交易萨托什和 XOF
 ---
 

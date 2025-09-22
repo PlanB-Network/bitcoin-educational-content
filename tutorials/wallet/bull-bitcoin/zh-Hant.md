@@ -1,5 +1,5 @@
 ---
-name: 公牛 Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: 瞭解如何使用 Wallet Bull Bitcoin
 ---
 

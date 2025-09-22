@@ -1,5 +1,5 @@
 ---
-name: GitHub Masaüstü
+name: GitHub Desktop
 description: Yerel çalışma ortamınızı nasıl kurarsınız?
 ---
 ![github](assets/cover.webp)

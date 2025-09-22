@@ -1,5 +1,5 @@
 ---
-name: 火狐浏览器
+name: Firefox
 description: 如何配置火狐浏览器以保护您的隐私？
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 波爾茲曼計算機
+name: Boltzmann Calculator
 description: 瞭解熵的概念以及如何使用 Boltzmann
 ---
 ![cover](assets/cover.webp)

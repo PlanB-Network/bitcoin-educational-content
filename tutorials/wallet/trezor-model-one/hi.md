@@ -1,5 +1,5 @@
 ---
-name: ट्रेज़ोर मॉडल वन
+name: Trezor Model One
 description: Hardware Wallet मॉडल वन की स्थापना और उपयोग
 ---
 ![cover](assets/cover.webp)

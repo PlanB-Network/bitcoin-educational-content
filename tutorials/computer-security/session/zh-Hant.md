@@ -1,5 +1,5 @@
 ---
-name: 會議
+name: Session
 description: 傳送加密訊息，而非元資料
 ---
 ![cover](assets/cover.webp)

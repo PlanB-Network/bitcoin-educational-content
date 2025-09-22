@@ -1,5 +1,5 @@
 ---
-name: آمبرل نوستر
+name: Umbrel Nostr
 description: پیکربندی و استفاده از برنامه‌های Nostr در Umbrel
 ---
 

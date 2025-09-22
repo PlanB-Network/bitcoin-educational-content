@@ -637,7 +637,7 @@ Pour limiter les risques de divulgation de vos données personnelles, il convien
 L'article suggère d'éviter d'utiliser les bourses qui exigent un KYC/AML et d'effectuer plutôt des transactions en privé, ou d'utiliser des bourses décentralisées comme [bisq](https://bisq.network/).
 
 
-https://planb.network/en/tutorials/exchange/pair-à-pair/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
 Pour une lecture plus approfondie des contre-mesures, reportez-vous à l'[article wiki sur la vie privée](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), à partir de "Méthodes d'amélioration de la vie privée (non-Blockchain)".
 
@@ -2211,3 +2211,4 @@ Vous pouvez tester la profondeur de votre compréhension en rédigeant un [mini-
 
 
 <isCourseConclusion>true</isCourseConclusion>
+

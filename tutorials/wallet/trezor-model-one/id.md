@@ -1,5 +1,5 @@
 ---
-name: Trezor Model Satu
+name: Trezor Model One
 description: Menyiapkan dan menggunakan Hardware Wallet Model One
 ---
 ![cover](assets/cover.webp)

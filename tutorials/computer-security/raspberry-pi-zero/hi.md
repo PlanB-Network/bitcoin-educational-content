@@ -1,5 +1,5 @@
 ---
-name: रास्पबेरी पाई ज़ीरो
+name: Raspberry Pi Zero
 description: Raspberry Pi Zero और एक सहायक किट का उपयोग करके न्यूनतम, एयर-गैप्ड और कम लागत वाला कंप्यूटर कैसे बनाएं।
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Làm thế nào để thêm passphrase vào danh mục đầu tư Trezor của tôi?
 ---
 ![cover](assets/cover.webp)

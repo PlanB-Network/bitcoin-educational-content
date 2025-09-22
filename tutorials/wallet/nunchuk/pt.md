@@ -1,5 +1,5 @@
 ---
-name: Matraca
+name: Nunchuk
 description: Wallet móvel adequado para todos
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: इलेक्ट्रम OP_RETURN
+name: Electrum OP_RETURN
 description: इलेक्ट्रम के साथ Blockchain Bitcoin पर संदेश पंजीकृत करें
 ---
 

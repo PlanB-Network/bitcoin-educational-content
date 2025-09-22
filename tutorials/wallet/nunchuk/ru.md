@@ -1,5 +1,5 @@
 ---
-name: Нунчак
+name: Nunchuk
 description: Мобильный Wallet подходит для всех
 ---
 ![cover](assets/cover.webp)

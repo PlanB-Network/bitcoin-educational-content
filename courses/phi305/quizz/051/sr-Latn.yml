@@ -1,0 +1,9 @@
+question: Koji austrijski ekonomista govori o planizmu?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) bio je austrijski ekonomista koji je skovao termin "planizam" da opiše centralizovano ekonomsko planiranje. On kritikuje ovaj pristup u "Putu u ropstvo".
+reviewed: false

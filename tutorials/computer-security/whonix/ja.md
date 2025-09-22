@@ -1,5 +1,5 @@
 ---
-name: ウォニックス
+name: Whonix
 description: プライバシーと守秘義務を守る。
 ---
 

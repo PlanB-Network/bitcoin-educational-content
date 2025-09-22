@@ -1,5 +1,5 @@
 ---
-name: Sygnał
+name: Signal
 description: Swobodne wyrażanie siebie
 ---
 ![cover](assets/cover.webp)

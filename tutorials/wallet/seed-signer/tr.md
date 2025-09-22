@@ -1,5 +1,5 @@
 ---
-name: seed İmzalayan
+name: SeedSigner
 
 description: seed imzalayıcınızın kurulumu
 ---

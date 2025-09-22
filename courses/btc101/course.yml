@@ -100,7 +100,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 10.99
+    reward: 10.98
   - language: vi
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -149,7 +149,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Sanja993
-    reward: 10.99
+    reward: 10.98
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -185,7 +185,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 27.44
+    reward: 27.43
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.97
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 32.9
 tags:
   - user-friendly
   - wallets

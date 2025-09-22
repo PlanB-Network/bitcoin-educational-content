@@ -1,5 +1,5 @@
 ---
-name: 伞
+name: Umbrel
 description: 发现并安装 Umbrel - 您的 Bitcoin 节点和主服务器
 ---
 

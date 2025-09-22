@@ -73,7 +73,7 @@ Por defecto, la moneda Minibits está activada al iniciar la aplicación. Sin em
 
 La copia de seguridad es posiblemente el paso más crítico de todo el proceso de configuración. Para acceder a las opciones de copia de seguridad, vaya a `Configuración`-> `Copia de seguridad` Aquí encontrará dos opciones esenciales:
 
-1. su frase seed, que contiene 12 palabras, le permite recuperar su saldo de ecash en caso de pérdida del dispositivo. Esta frase seed es tu llave maestra para todo el ecash de todas las cecas que hayas añadido. Escríbala en un soporte físico (papel o metal) y guárdela de forma segura en varias ubicaciones. Nunca almacene su frase seed digitalmente donde pueda estar en peligro. Considere visitar este [tutorial](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) para conocer las mejores prácticas para salvaguardar su Wallet.
+1. su frase seed, que contiene 12 palabras, le permite recuperar su saldo de ecash en caso de pérdida del dispositivo. Esta frase seed es tu llave maestra para todo el ecash de todas las cecas que hayas añadido. Escríbala en un soporte físico (papel o metal) y guárdela de forma segura en varias ubicaciones. Nunca almacene su frase seed digitalmente donde pueda estar en peligro. Considere visitar este [tutorial](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) para conocer las mejores prácticas para salvaguardar su Wallet.
 
 2. `Wallet backup` que contiene una larga cadena de copia de seguridad.
 

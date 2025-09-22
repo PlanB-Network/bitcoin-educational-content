@@ -1,5 +1,5 @@
 ---
-name: मोज़िला वीपीएन
+name: Mozilla VPN
 description: अपने डिवाइस और इंटरनेट ब्राउज़िंग डेटा को सुरक्षित रखें।
 ---
 ![cover](assets/cover.webp)

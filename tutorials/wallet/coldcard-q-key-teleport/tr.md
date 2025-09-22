@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Anahtar Teleportu
+name: COLDCARD Q - Key Teleport
 description: Key Teleport nedir ve nasıl kullanırım?
 ---
 

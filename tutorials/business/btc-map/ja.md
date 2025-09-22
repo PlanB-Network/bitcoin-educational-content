@@ -1,5 +1,5 @@
 ---
-name: BTCマップ
+name: BTC Map
 description: Satsを過ごす場所を探す
 ---
 ![cover](assets/cover.webp)

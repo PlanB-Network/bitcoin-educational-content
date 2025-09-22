@@ -1,0 +1,9 @@
+question: Który austriacki ekonomista mówi o planizmie?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) był austriackim ekonomistą, który ukuł termin "planizm" na określenie scentralizowanego planowania gospodarczego. Krytykuje to podejście w "Drodze do poddaństwa".
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: App Blockstream - Desktop
+name: Blockstream App - Desktop
 description: Come utilizzare il Hardware Wallet con l'applicazione Blockstream su un computer?
 ---
 ![cover](assets/cover.webp)
@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **Limiti**:
     - Il RBF non è disponibile per le transazioni Liquid o Lightning.
     - La transazione iniziale deve essere contrassegnata come compatibile con il RBF, cosa che Blockstream App fa automaticamente.
-- Per maggiori informazioni, vedere [il nostro glossario](https://planb.network/resources/glossary/RBF-replacebyfee).
+- Per maggiori informazioni, vedere [il nostro glossario](https://planb.network/resources/glossary/rbf-replacebyfee).
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Glossario](https://planb.network/fr/resources/glossary/Liquid-network)
+[Glossario](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

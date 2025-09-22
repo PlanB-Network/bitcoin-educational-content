@@ -1,5 +1,5 @@
 ---
-name: Paraplu Nostr
+name: Umbrel Nostr
 description: Nostr-toepassingen configureren en gebruiken op Umbrel
 ---
 

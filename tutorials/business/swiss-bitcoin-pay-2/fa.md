@@ -1,5 +1,5 @@
 ---
-name: سوئیس Bitcoin Pay
+name: Swiss Bitcoin Pay
 description: چگونه به راحتی پرداخت‌های Bitcoin را بپذیریم؟
 ---
 ![cover](assets/cover.webp)

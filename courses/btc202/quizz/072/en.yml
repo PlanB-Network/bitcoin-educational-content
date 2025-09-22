@@ -1,0 +1,9 @@
+question: What mechanism can be used to load a snapshot of the UTXO set to make a node quickly usable?
+answer: assumeutxo
+wrong_answers:
+  - assumechainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo loads a snapshot of the UTXO set to get the node up and running quickly, while rebuilding the complete UTXO set in the background.
+reviewed: true

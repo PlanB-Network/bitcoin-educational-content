@@ -1,5 +1,5 @@
 ---
-name: Trezor an toàn 5
+name: Trezor Safe 5
 description: Cấu hình và sử dụng Hardware Wallet Safe 5
 ---
 ![cover](assets/cover.webp)

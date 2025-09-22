@@ -1,5 +1,5 @@
 ---
-name: Зонтик
+name: Umbrel
 description: Откройте и установите Umbrel - ваш узел Bitcoin и домашний сервер
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Stupnice ocasu
+name: Tailscale
 description: Pokročilý výukový kurz Tailscale
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Toets Teleport
+name: COLDCARD Q - Key Teleport
 description: Wat is Key Teleport en hoe gebruik ik het?
 ---
 

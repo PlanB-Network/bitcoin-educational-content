@@ -1,5 +1,5 @@
 ---
-name: バーチャルボックス
+name: VirtualBox
 description: Windows 11にVirtualBoxをインストールし、最初のVMを作成する。
 ---
 ![cover](assets/cover.webp)

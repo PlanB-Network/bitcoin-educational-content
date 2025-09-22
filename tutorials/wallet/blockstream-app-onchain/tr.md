@@ -1,5 +1,5 @@
 ---
-name: Blockstream Uygulaması - Onchain
+name: Blockstream App - Onchain
 description: Mobil cihazlarda Blockstream Uygulamasını kurun ve onchain işlemlerini yönetin
 ---
 ![cover](assets/cover.webp)

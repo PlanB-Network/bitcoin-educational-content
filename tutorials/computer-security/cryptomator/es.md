@@ -1,5 +1,5 @@
 ---
-name: Criptominero
+name: Cryptomator
 description: Cifra tus archivos en la nube
 ---
 ![cover](assets/cover.webp)

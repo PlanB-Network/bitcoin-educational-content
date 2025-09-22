@@ -1,5 +1,5 @@
 ---
-name: فدی
+name: Fedi
 description: Bitcoin فوق‌العاده Wallet شما با قدرت جوامع
 ---
 

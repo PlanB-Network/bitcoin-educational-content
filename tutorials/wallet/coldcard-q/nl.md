@@ -1,5 +1,5 @@
 ---
-name: KAART Q
+name: COLDCARD Q
 description: Een COLDCARD instellen en gebruiken Q
 ---
 ![cover](assets/cover.webp)

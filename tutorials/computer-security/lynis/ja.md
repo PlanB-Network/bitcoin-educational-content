@@ -1,5 +1,5 @@
 ---
-name: リニス
+name: Lynis
 description: Lynis を使って Linux マシンのセキュリティ監査を行う。
 ---
 ![cover](assets/cover.webp)

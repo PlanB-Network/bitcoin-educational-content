@@ -1,5 +1,5 @@
 ---
-name: ブロックストリームアプリ - Liquid
+name: Blockstream App - Liquid
 description: Blockstream Appの設定方法とLiquid Networkの使用方法
 ---
 ![cover](assets/cover.webp)

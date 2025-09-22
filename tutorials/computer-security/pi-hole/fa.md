@@ -1,5 +1,5 @@
 ---
-name: پی-هول
+name: Pi-Hole
 description: یک مسدودکننده تبلیغات برای کل شبکه شما
 ---
 ![cover](assets/cover.webp)

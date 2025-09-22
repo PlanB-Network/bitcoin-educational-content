@@ -1,5 +1,5 @@
 ---
-name: SimpleX 聊天
+name: SimpleX Chat
 description: 第一个没有用户 ID 的邮箱
 ---
 ![cover](assets/cover.webp)

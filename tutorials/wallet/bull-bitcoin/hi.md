@@ -1,5 +1,5 @@
 ---
-name: बैल Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: जानें कि Wallet बुल Bitcoin का उपयोग कैसे करें
 ---
 

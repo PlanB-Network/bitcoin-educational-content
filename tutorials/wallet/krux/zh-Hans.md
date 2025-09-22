@@ -1,5 +1,5 @@
 ---
-name: Krux - 单兵和多兵种
+name: Krux
 description: 设置 Krux DIY Bitcoin 硬件签名设备，更新固件，并将其用于单签名和 Multisig 钱包。
 ---
 

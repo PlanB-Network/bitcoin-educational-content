@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamir back-up
+name: Trezor Shamir Backup
 description: Enkelvoudige en meervoudige Mnemonic-zinnen op Trezor
 ---
 ![cover](assets/cover.webp)

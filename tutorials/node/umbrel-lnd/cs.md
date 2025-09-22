@@ -1,5 +1,5 @@
 ---
-name: Deštník LND
+name: Umbrel LND
 description: Pokročilý návod na instalaci a konfiguraci Lightning Network Daemon (LND) v systému Umbrel
 ---
 ![cover](assets/cover.webp)

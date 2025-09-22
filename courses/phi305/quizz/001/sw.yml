@@ -1,0 +1,9 @@
+question: Je Spinoza ni mwanafalsafa?
+answer: Kutoka karne ya 17.
+wrong_answers:
+  - Kutoka karne ya 16.
+  - Kutoka karne ya 18.
+  - Kutoka zamani.
+explanation: |
+  Spinoza aliishi kutoka 1632 hadi 1677, na kumfanya kuwa mwanafalsafa wa karne ya 17. Kipindi hiki, kinachojulikana kama Enzi ya Sababu, kiliona kuibuka kwa busara ya kisasa na mbinu mpya za kisayansi za kuelewa ulimwengu.
+reviewed: false

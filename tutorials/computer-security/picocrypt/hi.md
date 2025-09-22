@@ -1,5 +1,5 @@
 ---
-name: पिकोक्रिप्ट
+name: Picocrypt
 description: आपके डेटा को एन्क्रिप्ट करने के लिए एक ओपन सोर्स टूल
 ---
 ![cover](assets/cover.webp)

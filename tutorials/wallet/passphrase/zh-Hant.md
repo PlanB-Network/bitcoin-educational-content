@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39
+name: BIP-39 Passphrase
 description: 瞭解 passphrase 如何運作
 ---
 ![cover](assets/cover.webp)

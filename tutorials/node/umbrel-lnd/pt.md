@@ -1,5 +1,5 @@
 ---
-name: Guarda-chuva LND
+name: Umbrel LND
 description: Tutorial avançado sobre a instalação e configuração do Lightning Network Daemon (LND) na Umbrel
 ---
 ![cover](assets/cover.webp)

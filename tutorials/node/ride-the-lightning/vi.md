@@ -1,5 +1,5 @@
 ---
-name: Cưỡi Tia Chớp (RTL)
+name: Ride The Lightning (RTL)
 description: Sử dụng Ride The Lightning (RTL) để quản lý nút Lightning của bạn
 ---
 ![cover](assets/cover.webp)

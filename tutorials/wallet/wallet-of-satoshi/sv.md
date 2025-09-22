@@ -1,5 +1,5 @@
 ---
-name: Wallet av Satoshi
+name: Wallet of Satoshi
 description: Den enklaste depån Wallet för att komma igång
 ---
 ![cover](assets/cover.webp)

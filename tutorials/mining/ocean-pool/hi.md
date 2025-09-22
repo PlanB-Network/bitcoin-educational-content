@@ -1,5 +1,5 @@
 ---
-name: महासागर Mining
+name: Ocean Mining
 
 description: महासागर Mining का परिचय
 ---

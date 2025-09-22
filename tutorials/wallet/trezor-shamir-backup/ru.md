@@ -1,5 +1,5 @@
 ---
-name: Трезор Шамир Резервная копия
+name: Trezor Shamir Backup
 description: Одноактные и многоактные фразы Mnemonic на Trezor
 ---
 ![cover](assets/cover.webp)

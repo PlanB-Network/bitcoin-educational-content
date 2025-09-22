@@ -1,5 +1,5 @@
 ---
-name: Payung
+name: Umbrel
 description: Temukan dan instal Umbrel - Node Bitcoin dan server rumah Anda
 ---
 

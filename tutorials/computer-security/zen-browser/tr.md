@@ -1,5 +1,5 @@
 ---
-name: Zen Tarayıcı
+name: Zen Browser
 description: Verimli ve gizli gezinme için Zen Browser nasıl kullanılır?
 ---
 

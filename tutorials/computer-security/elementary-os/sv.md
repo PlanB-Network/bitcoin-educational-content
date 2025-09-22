@@ -1,5 +1,5 @@
 ---
-name: Elementär OS
+name: Elementary OS
 description: Den perfekta ersättaren för Windows och MacOS
 ---
 

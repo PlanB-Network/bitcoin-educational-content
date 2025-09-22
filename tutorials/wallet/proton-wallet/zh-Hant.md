@@ -1,5 +1,5 @@
 ---
-name: 質子 Wallet
+name: Proton Wallet
 description: 安裝和使用 Proton Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)

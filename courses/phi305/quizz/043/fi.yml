@@ -1,0 +1,9 @@
+question: Kuka sanoi: "Paha ei ole mitään"?
+answer: Sokrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  paha ei ole mitään" on Sokrateen ajatus, joka on omaksuttu filosofiseen traditioon. Sokratekselle paha johtuu tietämättömyydestä; kukaan ei tee pahaa vapaaehtoisesti, jos hän todella tietää, mikä on hyvää.
+reviewed: false

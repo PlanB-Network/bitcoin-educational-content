@@ -1,5 +1,5 @@
 ---
-name: SAFU निंजा
+name: SAFU Ninja
 description: SAFU निंजा विधि से अपने seed को बचाएं
 ---
 

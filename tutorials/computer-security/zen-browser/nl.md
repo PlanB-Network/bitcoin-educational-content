@@ -1,5 +1,5 @@
 ---
-name: Zen-browser
+name: Zen Browser
 description: Hoe gebruik je Zen Browser om productief en vertrouwelijk te browsen?
 ---
 

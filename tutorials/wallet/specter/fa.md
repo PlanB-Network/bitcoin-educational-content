@@ -1,5 +1,5 @@
 ---
-name: شبح
+name: Specter
 
 description: راهنمای راه‌اندازی Specter
 ---

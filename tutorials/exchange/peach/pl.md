@@ -1,5 +1,5 @@
 ---
-name: Brzoskwinia
+name: Peach
 description: Kompletny przewodnik po korzystaniu z Peach i wymianie bitcoinów P2P
 ---
 ![cover](assets/cover.webp)

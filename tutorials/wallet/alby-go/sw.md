@@ -1,5 +1,5 @@
 ---
-name: Alby Nenda
+name: Alby Go
 description: Mwongozo wa programu ya simu ya Alby Go
 ---
 

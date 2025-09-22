@@ -1,5 +1,5 @@
 ---
-name: Биск 2
+name: Bisq 2
 description: Полное руководство по использованию Bisq 2 и обмену биткоинов P2P
 ---
 ![cover](assets/cover.webp)

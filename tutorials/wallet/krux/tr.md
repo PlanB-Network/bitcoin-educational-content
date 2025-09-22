@@ -1,5 +1,5 @@
 ---
-name: Krux - Tekli ve Çoklu Sig
+name: Krux
 description: krux DIY Bitcoin donanım imzalama cihazının kurulumu, aygıt yazılımının yanıp sönmesi ve hem single-sig hem de Multisig cüzdanları için kullanılması.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: GrafénOS
+name: GrapheneOS
 
 description: Ett mobilt operativsystem med fokus på säkerhet och integritet baserat på Android
 ---

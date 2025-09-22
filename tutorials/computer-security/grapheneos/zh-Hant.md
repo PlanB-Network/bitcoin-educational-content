@@ -1,5 +1,5 @@
 ---
-name: 石墨烯OS
+name: GrapheneOS
 
 description: 一個基於安卓、專注於安全和隱私的行動作業系統
 ---

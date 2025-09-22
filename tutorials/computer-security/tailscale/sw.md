@@ -1,5 +1,5 @@
 ---
-name: Mkia wa mkia
+name: Tailscale
 description: Mafunzo ya hali ya juu ya Tailscale
 ---
 ![cover](assets/cover.webp)

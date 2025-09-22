@@ -1,5 +1,5 @@
 ---
-name: Trezor Model Eén
+name: Trezor Model One
 description: Instellen en gebruiken van de Hardware Wallet Model One
 ---
 ![cover](assets/cover.webp)

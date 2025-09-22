@@ -1,5 +1,5 @@
 ---
-name: Abgesandter
+name: Envoy
 description: Einrichten und Verwenden eines Reisepasses mit der Envoy-Anwendung
 ---
 ![cover](assets/cover.webp)

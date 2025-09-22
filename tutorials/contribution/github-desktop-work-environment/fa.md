@@ -1,5 +1,5 @@
 ---
-name: گیت‌هاب دسکتاپ
+name: GitHub Desktop
 description: چگونه محیط کار محلی خود را راه‌اندازی کنید؟
 ---
 ![github](assets/cover.webp)

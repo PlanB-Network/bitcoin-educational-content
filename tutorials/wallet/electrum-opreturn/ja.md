@@ -1,5 +1,5 @@
 ---
-name: エレクトラム OP_RETURN
+name: Electrum OP_RETURN
 description: エレクトラムでBlockchain Bitcoinにメッセージを登録する
 ---
 

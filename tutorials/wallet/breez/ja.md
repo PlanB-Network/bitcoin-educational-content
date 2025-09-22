@@ -1,5 +1,5 @@
 ---
-name: ブリーズ
+name: Breez
 description: ライトニングWalletは、あなたをコントロールする。
 ---
 

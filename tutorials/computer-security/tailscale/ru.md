@@ -1,5 +1,5 @@
 ---
-name: Хвостовая чешуя
+name: Tailscale
 description: Продвинутый учебник по Tailscale
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Bò đực Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Tìm hiểu cách sử dụng Wallet Bull Bitcoin
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Wallet của Satoshi
+name: Wallet of Satoshi
 description: Wallet bảo vệ đơn giản nhất để bắt đầu
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Kiirus Wallet
+name: Speed Wallet
 description: Maksta ja Exchange bitcoinides ja USDT-s kohe
 ---
 ![cover](assets/cover.webp)

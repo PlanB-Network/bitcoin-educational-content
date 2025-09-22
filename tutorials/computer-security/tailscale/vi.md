@@ -1,5 +1,5 @@
 ---
-name: Vảy đuôi
+name: Tailscale
 description: Hướng dẫn nâng cao Tailscale
 ---
 ![cover](assets/cover.webp)

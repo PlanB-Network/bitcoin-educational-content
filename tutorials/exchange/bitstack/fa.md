@@ -1,5 +1,5 @@
 ---
-name: بیت‌استک
+name: Bitstack
 description: خرید و فروش بیت‌کوین‌ها در برنامه Bitstack
 ---
 ![cover](assets/cover.webp)

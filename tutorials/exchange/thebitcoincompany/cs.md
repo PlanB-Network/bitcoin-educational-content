@@ -1,5 +1,5 @@
 ---
-name: Společnost Bitcoin
+name: The Bitcoin Company
 description: Jak mohu nakupovat zboží a služby v BTC u společnosti Bitcoin Company?
 ---
 ![cover](assets/cover.webp)

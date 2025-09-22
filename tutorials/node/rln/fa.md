@@ -1,5 +1,5 @@
 ---
-name: گره رعد و برق RGB
+name: RGB Lightning Node
 description: چگونه می‌توانم یک نود لایتنینگ سازگار با RGB را با RLN راه‌اندازی کنم؟
 ---
 ![cover](assets/cover.webp)

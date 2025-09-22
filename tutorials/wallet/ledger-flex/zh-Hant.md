@@ -1,5 +1,5 @@
 ---
-name: Ledger 軟體
+name: Ledger Flex
 description: 設定和使用 Ledger Flex
 ---
 ![cover](assets/cover.webp)

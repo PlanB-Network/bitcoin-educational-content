@@ -1,5 +1,5 @@
 ---
-name: Carteira Proton
+name: Proton Wallet
 description: Instalar e utilizar a carteira Proton Bitcoin
 ---
 ![cover](assets/cover.webp)

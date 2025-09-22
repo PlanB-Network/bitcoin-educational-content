@@ -1,5 +1,5 @@
 ---
-name: Ombrello LND
+name: Umbrel LND
 description: Esercitazione avanzata sull'installazione e la configurazione di Lightning Network Daemon (LND) su Umbrel
 ---
 ![cover](assets/cover.webp)

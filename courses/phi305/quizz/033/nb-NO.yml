@@ -1,0 +1,9 @@
+question: Er det strukturell inflasjon som er resultatet?
+answer: En økning i pengene Supply.
+wrong_answers:
+  - Prisøkninger
+  - Finanspolitikk.
+  - Anti-liberale tiltak.
+explanation: |
+  Strukturell inflasjon er resultatet av en økning i pengemengden Supply. Når pengemengden i omløp øker raskere enn produksjonen av varer og tjenester, fører dette til en generell prisstigning.
+reviewed: false

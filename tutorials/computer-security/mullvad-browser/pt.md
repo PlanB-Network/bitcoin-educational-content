@@ -1,5 +1,5 @@
 ---
-name: Navegador Mullvad
+name: Mullvad Browser
 description: Como utilizar o Mullvad Browser para a privacidade
 ---
 

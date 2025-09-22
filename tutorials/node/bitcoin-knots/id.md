@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Knot
+name: Bitcoin Knots
 description: Bagaimana cara meluncurkan simpul dengan klien alternatif Bitcoin Knot?
 ---
 ![cover](assets/cover.webp)

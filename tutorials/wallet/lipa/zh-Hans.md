@@ -1,5 +1,5 @@
 ---
-name: 利帕
+name: Lipa
 description: 设置和使用 Lipa lightning 移动钱包
 ---
 ![cover](assets/cover.webp)

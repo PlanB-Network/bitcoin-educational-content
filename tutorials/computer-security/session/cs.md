@@ -1,5 +1,5 @@
 ---
-name: Relace
+name: Session
 description: Odesílání šifrovaných zpráv, nikoli metadat
 ---
 ![cover](assets/cover.webp)

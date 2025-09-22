@@ -1,5 +1,5 @@
 ---
-name: Феди
+name: Fedi
 description: Ваш Bitcoin супер Wallet, питающийся от сообществ
 ---
 

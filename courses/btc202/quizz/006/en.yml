@@ -1,0 +1,9 @@
+question: Why is a single wallet not considered a Bitcoin network participant?
+answer: Because it does not validate transactions or blocks
+wrong_answers:
+  - Because it cannot generate private keys
+  - Because it can't create Bitcoin addresses
+  - Because it doesn't validate sales or addresses
+explanation: |
+  A wallet does not directly validate blocks and transactions; it simply manages the keys and depends on the nodes for the rest.
+reviewed: true

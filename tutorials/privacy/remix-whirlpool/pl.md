@@ -80,7 +80,7 @@ Dlatego uważam, że wykorzystanie Whirlpool jest szczególnie istotne w strateg
 Mam nadzieję, że ta odpowiedź rzuciła nieco światła na model Whirlpool. Jeśli chcesz dowiedzieć się więcej o tym, jak coinjoiny działają w Bitcoin, polecam przeczytać mój obszerny artykuł na ten temat:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Zasoby zewnętrzne:**
 

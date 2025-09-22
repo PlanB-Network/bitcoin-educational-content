@@ -1,5 +1,5 @@
 ---
-name: Trình duyệt Mullvad
+name: Mullvad Browser
 description: Cách sử dụng Trình duyệt Mullvad để bảo vệ quyền riêng tư
 ---
 

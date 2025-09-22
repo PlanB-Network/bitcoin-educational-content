@@ -1,5 +1,5 @@
 ---
-name: 区块链应用程序 - Onchain
+name: Blockstream App - Onchain
 description: 在手机上设置 Blockstream 应用程序并管理链上交易
 ---
 ![cover](assets/cover.webp)

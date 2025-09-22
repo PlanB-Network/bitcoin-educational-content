@@ -1204,7 +1204,7 @@ W następnym rozdziale zajmiemy się funkcjonowaniem faktur, a także kilkoma in
 <partId>74d6c334-ec5d-55d9-8598-f05694703bf6</partId>
 
 
-## Faktura, LNURL i keysend
+## Faktura, wypłata LNURL i keysend
 
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
@@ -1212,7 +1212,7 @@ W następnym rozdziale zajmiemy się funkcjonowaniem faktur, a także kilkoma in
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 
-W tym rozdziale przyjrzymy się bliżej działaniu **faktur** Lightning, czyli żądań płatności wysyłanych przez węzeł odbiorcy do węzła nadawcy. Celem jest zrozumienie, jak płacić i otrzymywać płatności w sieci Lightning. Omówimy również 2 alternatywy dla klasycznych faktur: LNURL i keysend.
+W tym rozdziale przyjrzymy się bliżej działaniu **faktur** Lightning, czyli żądań płatności wysyłanych przez węzeł odbiorcy do węzła nadawcy. Celem jest zrozumienie, jak płacić i otrzymywać płatności w sieci Lightning. Omówimy również 2 alternatywy dla klasycznych faktur: wypłatę LNURL i keysend.
 
 
 ![LNP201](assets/en/68.webp)
@@ -1348,7 +1348,7 @@ Na przykład funkcja LNURL-withdraw (LUD-03) umożliwia wypłacanie środków za
 ### Wysyłanie płatności błyskawicznej bez faktury: Keysend
 
 
-Innym interesującym przypadkiem jest transfer środków bez wcześniejszego otrzymania Invoice, znany jako „**Keysend**”. Protokół ten umożliwia wysyłanie środków poprzez dodanie obrazu wstępnego do zaszyfrowanych danych płatności, dostępnych tylko dla odbiorcy. Ten obraz wstępny umożliwia odbiorcy odblokowanie HTLC, a tym samym odzyskanie środków bez wcześniejszego wygenerowania Invoice.
+Innym interesującym przypadkiem jest transfer środków bez wcześniejszego otrzymania faktury, znany jako „**keysend**”. Protokół ten umożliwia wysyłanie środków poprzez dodanie obrazu wstępnego do zaszyfrowanych danych płatności, dostępnych tylko dla odbiorcy. Ten obraz wstępny umożliwia odbiorcy odblokowanie kontraktu HTLC, a tym samym odzyskanie środków bez wcześniejszego wygenerowania faktury.
 
 
 Dla uproszczenia, w tym protokole to nadawca generuje sekret używany w HTLC, a nie odbiorca. W praktyce pozwala to nadawcy na dokonanie płatności bez konieczności wcześniejszej interakcji z odbiorcą.
@@ -1361,12 +1361,12 @@ Dla uproszczenia, w tym protokole to nadawca generuje sekret używany w HTLC, a 
 
 
 
-- **Lightning Invoice** to żądanie płatności składające się z części czytelnej dla człowieka i części zawierającej dane maszynowe.
-- Invoice jest zakodowany w **bech32**, z separatorem `1` ułatwiającym kopiowanie i częścią danych zawierającą wszystkie informacje niezbędne do przetworzenia płatności.
-- W Lightning istnieją inne procesy płatności, w szczególności **LNURL-Withdraw** w celu ułatwienia wypłat oraz **Keysend** do bezpośrednich przelewów bez Invoice.
+- **Faktura Lightning** to żądanie płatności składające się z części czytelnej dla człowieka i części zawierającej dane maszynowe.
+- Faktura jest zakodowana w **bech32**, z separatorem `1` ułatwiającym kopiowanie i częścią danych zawierającą wszystkie informacje niezbędne do przetworzenia płatności.
+- W sieci Lightning istnieją inne procesy płatności, w szczególności wypłata **LNURL** w celu ułatwienia wypłat oraz **Keysend** do bezpośrednich przelewów bez faktury.
 
 
-W następnym rozdziale zobaczymy, jak operator węzła może zarządzać płynnością w swoich kanałach, aby nigdy nie zostać zablokowanym i zawsze móc wysyłać i odbierać płatności na Lightning Network.
+W następnym rozdziale zobaczymy, jak operator węzła może zarządzać płynnością w swoich kanałach, aby nigdy nie zostać zablokowanym i zawsze móc wysyłać i odbierać płatności w sieci Lightning.
 
 
 ## Zarządzanie płynnością
@@ -1378,7 +1378,7 @@ W następnym rozdziale zobaczymy, jak operator węzła może zarządzać płynno
 :::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 
-W tym rozdziale omówimy strategie skutecznego zarządzania płynnością na Lightning Network. Zarządzanie płynnością różni się w zależności od typu użytkownika i kontekstu. Przyjrzymy się głównym zasadom i istniejącym technikom, aby lepiej zrozumieć, jak zoptymalizować to zarządzanie.
+W tym rozdziale omówimy strategie skutecznego zarządzania płynnością w sieci Lightning. Zarządzanie płynnością różni się w zależności od typu użytkownika i kontekstu. Przyjrzymy się głównym zasadom i istniejącym technikom, aby lepiej zrozumieć, jak zoptymalizować to zarządzanie.
 
 
 ### Potrzeby w zakresie płynności
@@ -1388,12 +1388,12 @@ Istnieją trzy główne profile użytkowników Lightning, z których każdy ma o
 
 
 
-- Płatnik**: Jest to osoba, która dokonuje płatności. Potrzebują płynności wychodzącej, aby móc przekazywać środki innym użytkownikom. Może to być na przykład konsument.
-- Sprzedawca (lub odbiorca płatności)**: Jest to osoba, która otrzymuje płatności. Potrzebują płynności przychodzącej, aby móc akceptować płatności do swojego węzła. Może to być na przykład firma lub sklep internetowy.
-- Router**: Węzeł pośredniczący, często specjalizujący się w przekierowywaniu płatności, który musi zoptymalizować swoją płynność w każdym kanale, aby przekierować jak najwięcej płatności i zarobić na opłatach.
+- **Płacący**: Jest to osoba, która dokonuje płatności. Potrzebuje płynności wychodzącej, aby móc przekazywać środki innym użytkownikom. Może to być na przykład konsument.
+- **Sprzedawca (lub odbiorca płatności)**: Jest to osoba, która otrzymuje płatności. Potrzebuje płynności przychodzącej, aby móc akceptować płatności do swojego węzła. Może to być na przykład firma lub sklep internetowy.
+- **Router**: Węzeł pośredniczący, często specjalizujący się w przekierowywaniu płatności, który musi zoptymalizować swoją płynność w każdym kanale, aby przekierować jak najwięcej płatności i zarobić na opłatach.
 
 
-Profile te nie są oczywiście stałe; użytkownik może przełączać się między płatnikiem a odbiorcą w zależności od transakcji. Przykładowo, Bob może otrzymywać swoją pensję od swojego pracodawcy, co stawia go w pozycji „sprzedawcy” wymagającego płynności przychodzącej. Następnie, jeśli chce wykorzystać swoją pensję do zakupu żywności, staje się „płatnikiem” i musi mieć płynność wychodzącą.
+Profile te nie są oczywiście stałe; użytkownik może przełączać się między płacącym a odbiorcą w zależności od transakcji. Przykładowo, Bob może otrzymywać swoją pensję od swojego pracodawcy, co stawia go w pozycji „sprzedawcy” wymagającego płynności przychodzącej. Następnie, jeśli chce wykorzystać swoją pensję do zakupu żywności, staje się „płacącym” i musi mieć płynność wychodzącą.
 
 
 Aby lepiej to zrozumieć, weźmy przykład prostej sieci składającej się z trzech węzłów: kupującego (Alicja), routera (Suzie) i sprzedawcy (Bob).
@@ -1406,9 +1406,9 @@ Wyobraźmy sobie, że kupujący chce wysłać 30 000 satów do sprzedającego i 
 
 
 
-- Płatnik musi mieć co najmniej 30 000 satów po swojej stronie kanału z routerem.
+- Płacący musi mieć co najmniej 30 000 satów po swojej stronie kanału z routerem.
 - Sprzedawca musi mieć kanał, w którym 30 000 satów znajduje się po przeciwnej stronie, aby móc je odbierać.
-- Router musi mieć 30 000 satów po stronie płatnika w swoim kanale, a także 30 000 satów po swojej stronie w kanale ze sprzedawcą, aby móc przekierować płatność.
+- Router musi mieć 30 000 satów po stronie płacącego w swoim kanale, a także 30 000 satów po swojej stronie w kanale ze sprzedawcą, aby móc przekierować płatność.
 
 
 ![LNP201](assets/en/72.webp)
@@ -1417,28 +1417,28 @@ Wyobraźmy sobie, że kupujący chce wysłać 30 000 satów do sprzedającego i 
 ### Strategie zarządzania płynnością
 
 
-Płatnicy muszą zapewnić utrzymanie wystarczającej płynności po swojej stronie kanałów, aby zagwarantować płynność wychodzącą. Okazuje się to stosunkowo proste, ponieważ wystarczy otworzyć nowe kanały Lightning, aby mieć tę płynność. Rzeczywiście, początkowe środki zablokowane w Multisig On-Chain są całkowicie po stronie płatnika w kanale Lightning na początku. Zdolność płatnicza jest zatem zapewniona tak długo, jak długo kanały są otwarte z wystarczającą ilością środków. Gdy płynność wychodząca zostanie wyczerpana, wystarczy otworzyć nowe kanały.
+Płacący muszą zapewnić utrzymanie wystarczającej płynności po swojej stronie kanałów, aby zagwarantować płynność wychodzącą. Okazuje się to stosunkowo proste, ponieważ wystarczy otworzyć nowe kanały Lightning, aby uzyskać tę płynność. Rzeczywiście, początkowe środki zablokowane adresem wielopodpisowym w łańcuchu bloków są  na początku całkowicie po stronie płacącego w kanale Lightning. Zdolność płatnicza jest zatem zapewniona tak długo, jak długo kanały z wystarczającą ilością środków są otwarte. Gdy płynność wychodząca zostanie wyczerpana, wystarczy otworzyć nowe kanały.
 
-Z drugiej strony, dla sprzedawcy zadanie jest bardziej złożone. Aby móc otrzymywać płatności, muszą mieć płynność po przeciwnej stronie swoich kanałów. Dlatego otwarcie kanału nie wystarczy: muszą oni również dokonać płatności w tym kanale, aby przenieść płynność na drugą stronę, zanim będą mogli sami otrzymywać płatności. W przypadku niektórych profili użytkowników Lightning, takich jak handlowcy, istnieje wyraźna dysproporcja między tym, co ich węzeł wysyła, a tym, co otrzymuje, ponieważ celem firmy jest przede wszystkim zebranie więcej niż wydaje, aby generate przyniósł zysk. Na szczęście dla tych użytkowników z określonymi potrzebami w zakresie płynności przychodzącej istnieje kilka rozwiązań:
-
-
-
-- Przyciąganie kanałów**: Sprzedawca korzysta z przewagi wynikającej z wolumenu płatności przychodzących oczekiwanych na jego węźle. Biorąc to pod uwagę, mogą próbować przyciągnąć węzły routingu, które szukają dochodu z opłat transakcyjnych i które mogą otworzyć kanały w ich kierunku, mając nadzieję na przekierowanie ich płatności i pobranie powiązanych opłat.
+Z drugiej strony, dla sprzedawcy zadanie jest bardziej złożone. Aby móc otrzymywać płatności, muszą mieć płynność po przeciwnej stronie swoich kanałów. Dlatego otwarcie kanału nie wystarczy: muszą oni również dokonać płatności w tym kanale, aby przenieść płynność na drugą stronę, zanim będą mogli sami otrzymywać płatności. W przypadku niektórych profili użytkowników sieci Lightning, takich jak handlowcy, istnieje wyraźna dysproporcja między tym, co ich węzeł wysyła, a tym, co otrzymuje, ponieważ celem firmy jest przede wszystkim zarobienie więcej niż wydaje, aby przynieść sobie zysk. Na szczęście dla użytkowników z określonymi potrzebami w zakresie płynności przychodzącej istnieje kilka rozwiązań:
 
 
 
-- Ruch płynności**: Sprzedający może również otworzyć kanał i przenieść część środków na przeciwną stronę, dokonując fikcyjnych płatności na rzecz innego węzła, który zwróci pieniądze w inny sposób. W następnej części zobaczymy, jak przeprowadzić tę operację.
+- **Przyciąganie kanałów**: Sprzedawca korzysta z przewagi wynikającej z wolumenu płatności przychodzących oczekiwanych na jego węźle. Biorąc to pod uwagę, mogą próbować przyciągnąć węzły routingu, które szukają dochodu z opłat transakcyjnych i które mogą otworzyć kanały w ich kierunku, mając nadzieję na przekierowanie ich płatności i pobranie powiązanych opłat.
 
 
 
-- Otwarcie trójkątne**: Istnieją platformy dla węzłów, które chcą wspólnie otwierać kanały, umożliwiając każdemu z nich czerpanie korzyści z natychmiastowej płynności przychodzącej i wychodzącej. Na przykład [LightningNetwork+](https://lightningnetwork.plus/) oferuje taką usługę. Jeśli Alicja, Bob i Suzie chcą otworzyć kanał ze 100 000 satów, mogą uzgodnić na tej platformie, że Alicja otworzy kanał w kierunku Boba, Bob w kierunku Suzie, a Suzie w kierunku Alicji. W ten sposób każdy z nich ma 100 000 satów płynności wychodzącej i 100 000 satów płynności przychodzącej, a jednocześnie ma zablokowane tylko 100 000 satów.
+- **Ruch płynności**: Sprzedający może również otworzyć kanał i przenieść część środków na przeciwną stronę, dokonując fikcyjnych płatności na rzecz innego węzła, który zwróci pieniądze w inny sposób. W następnej części zobaczymy, jak przeprowadzić tę operację.
+
+
+
+- **Otwarcie trójkątne**: Istnieją platformy dla węzłów, które chcą wspólnie otwierać kanały, umożliwiając każdemu z nich czerpanie korzyści z natychmiastowej płynności przychodzącej i wychodzącej. Na przykład [LightningNetwork+](https://lightningnetwork.plus/) oferuje taką usługę. Jeśli Alicja, Bob i Suzie chcą otworzyć kanał ze 100 000 satów, mogą uzgodnić na tej platformie, że Alicja otworzy kanał w kierunku Boba, Bob w kierunku Suzie, a Suzie w kierunku Alicji. W ten sposób każdy z nich ma 100 000 satów płynności wychodzącej i 100 000 satów płynności przychodzącej, a jednocześnie ma zablokowanych tylko 100 000 satów.
 
 
 ![LNP201](assets/en/73.webp)
 
 
 
-- Kupowanie kanałów**: Istnieją również usługi wynajmu kanałów Lightning w celu uzyskania przychodzącej płynności, takie jak [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) lub [Lightning Labs Pool](https://lightning.engineering/pool/). Na przykład Alicja może kupić kanał o wartości miliona satów do swojego węzła, aby móc otrzymywać płatności.
+- **Kupowanie kanałów**: Istnieją również usługi wynajmu kanałów Lightning w celu uzyskania płynności przychodzącej, takie jak [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) lub [Lightning Labs Pool](https://lightning.engineering/pool/). Na przykład Alicja może kupić kanał o wartości miliona satów dla swojego węzła, aby móc otrzymywać płatności.
 
 
 ![LNP201](assets/en/74.webp)
@@ -1455,21 +1455,21 @@ Wreszcie, routery, których celem jest maksymalizacja liczby przetwarzanych pła
 ### Usługa Loop Out
 
 
-Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightning Labs, pozwala na przeniesienie płynności na przeciwną stronę kanału, jednocześnie odzyskując środki na Bitcoin Blockchain. Na przykład Alicja wysyła 1 milion satów za pośrednictwem Lightning do węzła pętli, który następnie zwraca jej te środki w bitcoinach On-Chain. Równoważy to jej kanał z 1 milionem satów po każdej stronie, optymalizując jej zdolność do otrzymywania płatności.
+Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightning Labs, pozwala na przeniesienie płynności na przeciwną stronę kanału, jednocześnie odzyskując środki włańcuchu bloków Bitcoina. Na przykład Alicja wysyła 1 milion satów za pośrednictwem sieci Lightning do węzła pętli, który następnie zwraca jej te środki w bitcoinach on-chain. Równoważy to jej kanał z 1 milionem satów po każdej stronie, optymalizując jej zdolność do otrzymywania płatności.
 
 
 ![LNP201](assets/en/75.webp)
 
 
-Dlatego usługa ta umożliwia przychodzącą płynność podczas odzyskiwania bitcoinów On-Chain, co pomaga ograniczyć unieruchomienie gotówki potrzebnej do akceptowania płatności za pomocą Lightning.
+Dlatego usługa ta umożliwia płynność przychodzącą podczas odzyskiwania bitcoinów on-chain, co pomaga ograniczyć unieruchomienie gotówki potrzebnej do akceptowania płatności za pomocą sieci Lightning.
 
 
 **Co powinieneś wynieść z tego rozdziału?
 
 
 
-- Aby wysyłać płatności na Lightning, musisz mieć wystarczającą płynność po swojej stronie w swoich kanałach. Aby zwiększyć tę zdolność wysyłania, wystarczy otworzyć nowe kanały.
-- Aby otrzymywać płatności, musisz mieć płynność po przeciwnej stronie w swoich kanałach. Zwiększenie tej zdolności odbiorczej jest bardziej złożone, ponieważ wymaga od innych otwarcia kanałów w twoim kierunku lub dokonania (fikcyjnych lub rzeczywistych) płatności w celu przeniesienia płynności na drugą stronę.
+- Aby wysyłać płatności w sieci Lightning, musisz mieć wystarczającą płynność po swojej stronie w swoich kanałach. Aby zwiększyć tę zdolność wysyłania, wystarczy otworzyć nowe kanały.
+- Aby otrzymywać płatności, musisz mieć płynność po przeciwnej stronie swoich kanałów. Zwiększenie tej zdolności odbiorczej jest bardziej złożone, ponieważ wymaga od innych otwarcia kanałów w twoim kierunku lub dokonania (fikcyjnych lub rzeczywistych) płatności w celu przeniesienia płynności na drugą stronę.
 - Utrzymanie płynności tam, gdzie jest to pożądane, może być jeszcze trudniejsze w zależności od wykorzystania kanałów. Dlatego istnieją narzędzia i usługi, które pomagają zrównoważyć kanały zgodnie z potrzebami.
 
 
@@ -1554,23 +1554,23 @@ Widzieliśmy, że zarządzanie płynnością jest wyzwaniem dla Lightning, aby z
 
 
 
-- Przyciąganie kanałów**: Zachęcając inne węzły do otwierania kanałów do siebie, użytkownik uzyskuje przychodzącą płynność.
+- **Przyciąganie kanałów**: Zachęcając inne węzły do otwierania kanałów do siebie, użytkownik uzyskuje przychodzącą płynność.
 
 
 
-- Przenoszenie płynności**: Wysyłając płatności do innych kanałów, płynność przenosi się na przeciwną stronę.
+- **Przenoszenie płynności**: Wysyłając płatności do innych kanałów, płynność przenosi się na przeciwną stronę.
 
 
 ![LNP201](assets/en/82.webp)
 
 
 
-- Korzystanie z usług takich jak Loop i Pool**: Usługi te umożliwiają równoważenie lub kupowanie kanałów z płynnością po przeciwnej stronie.
+- **Korzystanie z usług takich jak Loop i Pool**: Usługi te umożliwiają równoważenie lub kupowanie kanałów z płynnością po przeciwnej stronie.
 
 ![LNP201](assets/en/83.webp)
 
 
-- Wspólne otwarcia**: Dostępne są również platformy do łączenia się w celu wykonywania otwarć trójkątnych i posiadania płynności przychodzącej.
+- **Wspólne otwarcia**: Dostępne są również platformy do łączenia się w celu wykonywania otwarć trójkątnych i posiadania płynności przychodzącej.
 
 
 ![LNP201](assets/en/84.webp)

@@ -68,11 +68,11 @@ Lĩnh vực tiền mã hóa, bao gồm Bitcoin, vẫn còn khá mới mẻ và �
 - Lừa đảo trực tuyến để chiếm mật khẩu
 - Chiếm đoạt SIM điện thoại
 
-![scam](assets/prerequis/6.webp)
+![image](assets/vi/001.webp)
 
 Trong lĩnh vực đầu tư tài chính, các hệ thống bán hàng đa cấp và lừa đảo đầu tư sinh lời cao (Ponzi) nổi bật như những mô hình bất hợp pháp. Chúng hoạt động bằng cách sử dụng tiền của nhà đầu tư mới để trả cho những người tham gia trước. Tuy nhiên, bản chất không bền vững và việc phụ thuộc sự tham gia của người mới để duy trì hệ thống làm cho việc sụp đổ của chúng là điều không thể tránh khỏi.
 
-![ponzi scheme](assets/prerequis/7.webp)
+![image](assets/vi/002.webp)
 
 Đặc trưng của những hệ thống này thường nằm ở các yếu tố đáng ngờ như không có giá trị nội tại, hứa hẹn lợi nhuận không thực tế, và các chiến lược tiếp thị khuyến khích giới thiệu để thu hút nhà đầu tư mới. Sự trì hoãn khi nhà đầu tư muốn rút tiền nhưng không có lý do rõ ràng và việc sử dụng tài khoản giả trên các mạng xã hội để quảng cáo cũng là dấu hiệu của những mô hình lừa đảo này. Do bản chất bất hợp pháp và phi đạo đức cũng như rủi ro tài chính, bạn cần tránh xa các loại hình này.
 
@@ -86,7 +86,7 @@ Cần lưu ý rằng nội dung của khóa học này chỉ nhằm mục đích
 
 Lừa mua rồi xả hàng (Pump & Dump/P&D) là một hình thức thao túng tài chính nổi tiếng có thể gây ra sự rối loạn lớn trên thị trường. Nó là một cuộc tấn công được phối hợp nhằm làm tăng giá của một tài sản một cách nhân tạo thông qua các cơ chế khác nhau, như quảng bá mạnh mẽ, sử dụng thuật toán, hoặc trí tuệ nhân tạo. Mục tiêu là sau đó bán các tài sản được định giá cao để thu lợi nhuận.
 
-![Pump and dump](assets/prerequis/8.webp)
+![image](assets/vi/003.webp)
 
 Chiến lược lừa mua rồi xả hàng (Pump & Dump) thường tuân theo một mô hình rõ ràng:
 
@@ -101,7 +101,7 @@ Các trò lừa đảo liên quan đến cuộc thi hoặc quyên góp trực tu
 
 Một ví dụ điển hình của loại hình lừa đảo này là một lời đề nghị gửi bitcoin của bạn đến một ví nào đó với tuyên bố sẽ nhận lại mức nhân đôi hoặc tăng gấp nhiều lần số bitcoin bạn gửi. Sẽ chẳng có giải pháp ma thuật nào để giúp bạn trở nên giàu có ngay lập tức cả, đó là nguyên tắc quan trọng bạn cần hiểu rõ.
 
-![donation scam](assets/prerequis/9.webp)
+![image](assets/vi/004.webp)
 
 Một chiến thuật thường được sử dụng khác là quyên góp "altcoins/shitcoins," hoặc các loại tiền mã hóa giá trị thấp. Một số dự án tiền mã hóa tập trung sẽ tiến hành nhiều hoạt động tiếp thị và cung cấp token miễn phí như quà. Cần phải rất cẩn trọng với những lời đề nghị này, vì hoặc là token không có giá trị, hoặc quà tặng chỉ đơn giản được sử dụng để thu hút sự chú ý và quảng bá giao dịch, cờ bạc và các trò lừa đảo khác. Ngay cả khi những lời đề nghị này không phải lúc nào cũng là gian lận, bất hợp pháp hoặc gây hiểu lầm, bạn vẫn nên đề cao cảnh giác.
 Trên mạng xã hội Twitter (nay là X), chẳng hạn, các robot có thể giả mạo nhân vật nổi tiếng và đưa ra những đề xuất tốt không tưởng để lừa đảo mọi người. Những tài khoản này sử dụng cùng tên và hình ảnh hồ sơ như nhân vật đó, và do đó có thể lừa đảo người dùng non kinh nghiệm. Luôn đảm bảo xác minh tính hợp pháp của tài khoản trước khi tương tác với nó.
@@ -119,7 +119,7 @@ Cuối cùng, một số mẹo để tránh các trò lừa đảo trực tuyế
 
 Bitcoin đã trải qua một số chia tách chuỗi (hard forks)theo thời gian, tạo ra các phiên bản thay thế khác nhau của đồng tiền gốc. Những sự lệch lạc này thường là nỗ lực của các chuyên gia lập trình phát triển tìm cách thực hiện những thay đổi đáng kể đối với giao thức Bitcoin, hoặc đôi khi của những cá nhân xấu có ý định lừa đảo nhà đầu tư ngây thơ. Việc phân biệt Bitcoin thực sự với những phiên bản phái sinh này là rất quan trọng để tránh rơi vào bẫy tiềm ẩn. Những ví dụ đáng chú ý về các phiên bản phái sinh này bao gồm Bitcoin Cash (BCH) và Bitcoin Satoshi Vision (BSV). Mặc dù mang tên "Bitcoin," những dự án này chủ yếu dựa vào chiến thuật tiếp thị và quảng cáo sai lệch để thu hút sự chú ý của nhà đầu tư.
 
-![donation scam](assets/prerequis/10.webp)
+![image](assets/vi/005.webp)
 
 Một câu nói nổi tiếng trong thế giới đầu tư là: "Nếu nó trông giống như một trò lừa đảo, hoạt động như một trò lừa đảo, và cam đoan rằng nó không phải là trò lừa đảo, thì khả năng cao đó là một trò lừa đảo."
 
@@ -127,7 +127,7 @@ Cần lưu ý rằng một số phiên bản phái sinh được tài trợ và 
 
 Tiền mã hóa là mảnh đất màu mỡ cho mọi loại kiểu nhân cách, bị thu hút bởi khả năng đạt được lợi nhuận đáng kể. Thật không may, trong số họ, có những cá nhân với ý đồ xấu xa sử dụng nhiều chiến thuật để lừa đảo nhà đầu tư. Những chiến thuật này có thể bao gồm việc công khai quảng bá các kế hoạch bán hàng đa cấp, giả mạo người tạo ra Bitcoin, Satoshi Nakamoto, sao chép sản phẩm của người khác, hoặc đưa ra những lời hứa hão. Ngoài ra, một số cá nhân tạo ra các token tiền mã hóa vô dụng và phát hành ra công chúng thông qua các đợt ICOs nhằm lừa đảo nhà đầu tư.
 
-![donation scam](assets/prerequis/11.webp)
+![image](assets/vi/006.webp)
 
 Cộng đồng Bitcoin thường xuyên lên án những hành động này, nhưng có thể sẽ cần một khoảng thời gian trước khi hệ thống pháp luật có thể hành động chống lại những cá nhân này.
 
@@ -176,12 +176,12 @@ Một lời khuyên bổ sung: cân nhắc mua một ổ cứng di động và t
 
 Trình quản lý mật khẩu là một phần mềm lưu trữ và quản lý mật khẩu của bạn. Nó giúp bạn không bao giờ sử dụng cùng một mật khẩu hai lần, chọn mật khẩu phức tạp và an toàn, và quản lý bảo mật trực tuyến của bạn. Bạn chỉ cần nhớ một mật khẩu chính. Đây là một công cụ miễn phí mà mọi người nên tận dụng. Bạn có thể bắt đầu sử dụng nó từ từ và một khi bạn quen với nó, bạn sẽ thấy nó vô cùng tiện lợi và dễ sử dụng.
 
-![quản lý mật khẩu](assets/prerequis/12.webp)
+![image](assets/vi/007.webp)
 
 2FA cung cấp một lớp bảo mật bổ sung cho các tài khoản nhạy cảm nhất của bạn, dù đó là các nền tảng tiền mã hóa, tài khoản Google/Email, ngân hàng, hoặc các trang mua sắm trực tuyến. Một phương thức xác thực thứ hai, thường là một mã 6 chữ số có thể truy cập từ điện thoại của bạn, là cần thiết để đăng nhập. Nhớ sao lưu bản sao của khóa ở nơi nào đó trong trường hợp bạn mất điện thoại.
 
-![quản lý mật khẩu](assets/prerequis/3.webp)
-![quản lý mật khẩu](assets/prerequis/4.webp)
+![image](assets/vi/008.webp)
+![image](assets/vi/009.webp)
 
 Một VPN, hay Mạng Ảo Riêng, bảo vệ sự riêng tư bằng cách che giấu địa chỉ IP của bạn. Mặc dù nó không làm bạn hoàn toàn ẩn danh, nhưng vẫn là một bước đơn giản và hiệu quả để cải thiện sự riêng tư trực tuyến của bạn. Chọn một VPN, tải xuống và sử dụng nó là một quy trình dễ dàng để thiết lập.
 
@@ -212,7 +212,7 @@ Trong phần này, chúng ta sẽ xem xét một số sai lầm phổ biến mà
 - Tầm quan trọng của việc gìn giữ sự khiêm tốn, thận trọng và kín đáo của bản thân
 - Áp dụng tầm nhìn dài hạn.
 
-![quản lý mật khẩu](assets/prerequis/0.webp)
+![image](assets/vi/010.webp)
 
 Trước khi đầu tư vào Bitcoin, bạn cần dành thời gian để tự học hỏi trao dồi.
 Sai lầm dễ mắc phải trong ngành Bitcoin, và có thể bạn phải trả giá đắt cho mỗi sai lầm. Bằng cách chia sẻ một số sai lầm đã gặp phải trong hành trình đầu tư của mình, cũng như những sai lầm mà bản thân đã quan sát ở người khác, tôi hy vọng sẽ cung cấp lời khuyên giá trị cho hành trình học hỏi của bạn. Một số sai lầm này bao gồm:
@@ -268,7 +268,7 @@ Và đây là những khuyến nghị của tôi:
 - Lựa chọn một góc nhìn dài hạn thường là một chiến lược khôn ngoan. Việc theo dõi liên tục các phát triển trên thị trường có thể phức tạp và đòi hỏi sự cam kết toàn thời gian. Như Warren Buffet đã nói, "Nếu bạn không sẵn lòng sở hữu cổ phiếu trong mười năm, đừng nghĩ đến việc sở hữu nó trong mười phút."
 - Việc cực kỳ cảnh giác với thuế là điều cần thiết: Mỗi quốc gia có những luật lệ riêng về Bitcoin. Bạn cần tìm hiểu về luật pháp hiện hành tại quốc gia của bạn, đặc biệt là về nghĩa vụ thuế. Sự chuẩn bị kém có thể khiến bạn nợ cơ quan thuế nhiều tiền hơn số mà bản thân kiếm được.
 
-  ![thuế](assets/prerequis/5.webp)
+  ![image](assets/vi/011.webp)
 
 Học cách để đầu tư không phải là điều thường được dạy ở trường học. Do đó, nhiều người coi đầu tư là một hoạt động rủi ro, điên rồ và không thể tiếp cận. Để bảo vệ bản thân, nhiều người tìm đến ngân hàng... điều này có thể trở thành một sai lầm.
 
@@ -303,18 +303,18 @@ Bitcoin là một giao thức máy tính cho phép chuyển giá trị trên to�
 
 Bitcoin nổi tiếng mà bạn thường nghe nói tới chính là đồng tiền kỹ thuật số này. Người dùng Bitcoin gửi bitcoin giữa các ví, và tất cả điều này hoạt động nhờ vào một mạng lưới các node (các máy tính chủ chạy phần mềm Bitcoin) lan toả các giao dịch giữa tất cả người dùng. Để đảm bảo tính tất toán của giao dịch, mạng lưới này cần đến các miner (những thợ/máy đào bitcoin), và nhiệm vụ của họ là ghi lại các giao dịch vào blockchain Bitcoin (nổi tiếng hơn).
 
-![tóm tắt](assets/section2/6.webp)
+![image](assets/vi/012.webp)
 
 Nhờ vào cơ chế khá lạ này, chúng ta có được một cơ sở chuỗi dữ liệu mã hóa (blockchain) bất biến theo thời gian, phi tập trung về không gian, và hoạt động liên tục trên toàn thế giới. Điều này tạo ra, lần đầu tiên trong lịch sử loài người, một hệ thống kế toán ba bên mà ai cũng có thể sử dụng được như một hệ thống tài chính thay thế được xây dựng trên Internet mà không ai kiểm soát cũng như không ai có thể phá huỷ được nó.
 
-![tóm tắt](assets/section2/8.webp)
+![image](assets/vi/013.webp)
 
 Ngoài cách hoạt động kỹ thuật (đã giải thích trong BTC 101), chúng ta có thể lưu ý hai đặc điểm làm cho Bitcoin trở thành như ngày nay sau hơn 14 năm tồn tại:
 
 - Đầu tiên là mã nguồn của Bitcoin là mã nguồn mở. Điều này có nghĩa là bất kỳ ai cũng có thể xem và thấy được cách Bitcoin hoạt động, nó minh bạch và do đó có thể kiểm toán, kiểm định. Bởi vậy, bất kỳ ai cũng có thể sử dụng nó và giao thức là công bằng cho tất cả mọi người, không thể tồn tại sự phân biệt. Điều này làm cho Bitcoin cực kỳ thú vị để sử dụng như một hệ thống lưu chuyển giá trị.
 - Yếu tố thứ hai nằm ở tính chất tiền tệ của nó. Thực sự, bitcoin là một tài sản khan hiếm. Sẽ chỉ có xấp xỉ 21 triệu bitcoin trên thế giới và không bao giờ có thêm (và thậm chí ít hơn do mất mát). Có được điều này là nhờ vào bản chất của giao thức, bởi vì ngay từ khi ra đời, các đặc điểm tiền tệ của nó (đường cong phân phối bitcoin) đã được quyết định và không ai có thể thay đổi một cách đơn phương. Đặc điểm này có nghĩa là Bitcoin, giống như vàng, không thể bị pha loãng do hoạt động in tiền quá mức gây ra.
 
-![tóm tắt](assets/section2/9.webp)
+![image](assets/vi/014.webp)
 
 Hai đặc điểm này làm cho Bitcoin trở thành một công cụ công nghệ và tiền tệ mạnh mẽ không chỉ đổi mới thế giới của chúng ta, mà còn nó còn phá vỡ các quy chuẩn lạc hậu hiện hành.
 
@@ -323,7 +323,7 @@ Vì những đặc điểm này, nhiều người ủng hộ Bitcoin, bao gồm 
 Bitcoin do đó là một công nghệ "từ 0 đến 1" làm xáo trộn các quy chuẩn và thói quen của chúng ta.
 Nếu điều này là mới mẻ với bạn, tôi rất khuyến khích bạn tham gia khoá học BTC 101 trước khi tiếp tục tiếp xúc với một công nghệ mà bạn có thể chưa hiểu rõ vai trò và mục đích của nó.
 
-![tóm tắt](assets/section2/10.webp)
+![image](assets/vi/015.webp)
 
 ## Tại sao Bitcoin lại quan trọng?
 
@@ -341,7 +341,7 @@ Barack Obama từng mô tả Bitcoin là "một ngân hàng Thụy Sĩ trong tú
 6. Không có trung gian hay phí ẩn.
 7. Bitcoin hoạt động trên internet, giúp nó có thể được tiếp cận bởi bất kỳ ai có truy cập internet.
 
-![in a nutshell](assets/section2/1.webp)
+![image](assets/vi/016.webp)
 
 Tóm lại, Bitcoin có thể được coi là "đồng tiền chung của mọi người".
 Câu hỏi triết học của hôm nay: Trong thế giới của Bitcoin, có hai ý tưởng đang đối nghịch nhau. Bạn muốn đưa hàng tỷ người đang nằm ngoài hệ thống ngân hàng vào đó? Hay bạn muốn đưa hàng tỷ người đang trong hệ thống ngân hàng ra khỏi đó?
@@ -350,13 +350,13 @@ Câu hỏi này xứng đáng được suy ngẫm, và chúng ta sẽ quay lại
 
 Hàng tỷ người sống dưới tác động có hại của các chính sách quản lý tiền tệ yếu kém, thường dẫn đến các cuộc khủng hoảng tài chính nghiêm trọng trong dài hạn. Những loại khủng hoảng này đã xảy ra hàng trăm lần trong lịch sử của chúng ta và sẽ tiếp tục diễn ra miễn là giá trị của tiền tệ và thời gian vẫn còn bị thao túng. Những cuộc khủng hoảng này có thể biểu hiện dưới dạng lạm phát phi mã, kiểm soát tiền tệ, và mất giá tiền tệ.
 
-![in a nutshell](assets/section2/2.webp)
+![image](assets/vi/017.webp)
 
 Bitcoin mang lại cho mỗi cá nhân cơ hội thoát khỏi hệ thống này. Đó là một lựa chọn có đạo đức mà có lẽ mọi người sẽ phải đưa ra cho bản thân mình vào một ngày nào đó. Bitcoin giúp chuyển đổi từ tiền tệ pháp định sang loại tiền tệ mạnh, tiền cứng, nhờ khả năng chống kiểm duyệt, tính chia nhỏ, và tính di động.
 
 **Bạn có biết**? Trong 100 năm qua, đã có hơn 55 trường hợp lạm phát phi mã. Hầu hết đã hoàn toàn phá hủy nền kinh tế của quốc gia đó, xóa sổ các khoản tiết kiệm của công dân, và đôi khi tạo ra bất ổn chính trị dẫn đến việc thiết lập chế độ độc tài (như trường hợp ở Chile, Đức, v.v.). Sự phá hủy của các đồng tiền pháp định không phải là hiện tượng mới và sẽ tiếp tục xảy ra. Tuy nhiên, nhờ có Bitcoin, giờ đây, bạn có cơ hội để thoát khỏi hệ thống này.
 
-![in a nutshell](assets/section2/3.webp)
+![image](assets/vi/018.webp)
 
 Sự gia tăng bất bình đẳng về tài sản trên thế giới đã dẫn đến sự gia tăng của chủ nghĩa cực đoan, đôi khi dẫn đến việc thiết lập chế độ độc tài. Dù bạn là ai, một ngày nào đó bạn có thể cần quyền riêng tư để bảo vệ gia đình, bản thân, và khoản tiết kiệm của mình. Bạn sẽ giấu tài sản của mình ở đâu nếu bạn bị đe dọa về chính trị?
 
@@ -378,7 +378,7 @@ Sẽ không bao giờ có nhiều hơn 21 triệu bitcoin, và không có chính
 
 Trong quá khứ, vàng đã đóng vai trò điều tiết như một loại tiền tệ cứng. Tuy nhiên, kể từ năm 1971, không còn đồng tiền pháp định nào (euro, đô la, v.v.) được gắn với vàng, điều này đã mở cửa cho việc in tiền tệ không giới hạn. Brrrrrr (ám chỉ tiếng của máy in tiền).
 
-![in a nutshell](assets/section2/5.webp)
+![image](assets/vi/019.webp)
 
 Nếu bạn có tiền trong tài khoản ngân hàng, số tiền đó không còn thuộc về bạn nữa. Trên thực tế, bạn đã cho ngân hàng vay số tiền đó để sử dụng. Quan trọng là bạn phải hiểu và nhận thức được thực tế này. Nếu bạn có tiền trong tài khoản ngân hàng, thực tế bạn là một chủ nợ của ngân hàng. Điều này có nghĩa là:
 
@@ -393,7 +393,7 @@ Mặt khác, Bitcoin là một hệ thống mở và không thể bị tha hoá.
 
 Bitcoin cung cấp một lựa chọn mạnh mẽ thay thế cho các hệ thống tài chính truyền thống. Nó cho phép mọi người bảo vệ quyền riêng tư, chống lại lạm phát và sự mất giá của tiền tệ, vượt qua các chế độ độc tài, và lấy lại chủ quyền về tiền của họ. Bitcoin là một đồng tiền cứng, mở cửa cho tất cả mọi người, bất kể tuổi tác, giới tính, tôn giáo, hay thu nhập. Bằng cách chấp nhận Bitcoin, cá nhân có thể tiết kiệm tiền cho tương lai, giải phóng bản thân khỏi sự kiểm soát của các ngân hàng trung ương, và lấy lại quyền kiểm soát đời sống tài chính của bản thân. Đây là một công cụ cân bằng quyền lực và thúc đẩy tự do kinh tế trên quy mô toàn cầu.
 
-![in a nutshell](assets/section2/11.webp)
+![image](assets/vi/020.webp)
 
 Bitcoin, một phong trào chính trị?
 Những người ủng hộ chính của Bitcoin ngày nay vẫn chủ yếu là các cyberpunk (chuyên gia mật mã học), công dân bị áp bức, người theo chủ nghĩa vô chính phủ, những người theo trường phái kinh tế Áo, kỹ sư máy tính, nhà tài chính, và những người ủng hộ tự do ngôn luận.
@@ -408,7 +408,7 @@ Với sự ra đời của Bitcoin vào năm 2009 bởi Satoshi Nakamoto, một 
 
 Bitcoin là một hiện tượng "từ 0 đến 1". Nó không thể bị đảo ngược. Một số người sẽ coi nó như là hiện thân của quỷ, hộp Pandora đã mở và giờ đây nó lấy đi quyền lực và lợi thế của họ. Họ sẽ chống lại nó. Người khác sẽ thấy trong Bitcoin một cơ hội để lấy lại tự do, thay đổi hệ thống và cải thiện xã hội của chúng ta. Họ sẽ chấp nhận nó. Bitcoin không quan tâm, nó đơn giản chỉ tồn tại.
 
-![industry](assets/industrie/2.webp)
+![image](assets/vi/021.webp)
 
 Trong phần này, chúng ta sẽ nhìn một các tổng quát về các thành phần tham gia để hiểu rõ hơn về cách thức hoạt động của ngành mà chúng ta đang tìm cách tham gia.
 
@@ -446,11 +446,11 @@ Rất quan trọng khi hiểu rằng 99.8% các "tiền mã hóa" mới này là
 
 Mặc dù họ tuyên bố cạnh tranh với Bitcoin, những dự án này vẫn giữ tính chất tập trung hoá để đảm bảo sự kiểm soát và tuân thủ các quy định địa phương. Họ sẽ không bảo vệ quyền riêng tư, mà thay vào đó là tăng cường giám sát hàng loạt. Dự án "Libra" của Facebook đã định vị mình như một đối thủ của các ngân hàng, không phải Bitcoin. Hơn nữa, không có bằng chứng công việc (POW), một "blockchain" không có giá trị thực sự. Cần lưu ý rằng Libra đã bị từ bỏ và hiện không có dự án blockchain riêng tư nào thực sự được sử dụng trên phạm vi toàn cầu, không giống như Bitcoin.
 
-![blockchain](assets/industrie/1.webp)
+![image](assets/vi/022.webp)
 
 Giao thức Bitcoin nằm ngoài tầm với của các quy định. Chỉ có các thành phần tham gia xoay quanh nó mới có thể bị quản lý, và vì Bitcoin là phi tập trung, luật pháp, thuế và quy định thay đổi từ quốc gia này sang quốc gia khác. Trung Quốc, ví dụ, đã cấm sử dụng bitcoin nhiều lần, trong khi các quốc gia như Canada, Thụy Sĩ và Malta đã có lập trường ủng hộ hơn đối với nó. Hầu hết các quốc gia đã thiết lập các lực lượng chuyên về mật mã học để phát triển các quy tắc và quy định mới. Tuy nhiên, quá trình này diễn ra chậm chạp và các quy tắc có thể thay đổi khá thường xuyên. Mặc dù tốc độ chậm, Bitcoin và tiền mã hóa vẫn là trung tâm của nhiều cuộc trò chuyện.
 
-![blockchain](assets/industrie/3.webp)
+![image](assets/vi/023.webp)
 
 Tôi khuyến nghị bạn nên nghiên cứu kỹ lưỡng về tình hình tại quốc gia của mình. Các ngân hàng cũng chịu quy định chặt chẽ khi nói đến Bitcoin. Nhiều ngân hàng đóng cửa tài khoản và hạn chế quyền truy cập vào dịch vụ tài chính cho các doanh nghiệp giao dịch Bitcoin, đồng thời cũng thành lập các nhóm nghiên cứu để khám phá công nghệ mới này nhằm cải thiện cơ sở hạ tầng của chính họ. Không có cơ quan quản lý, ngân hàng hay chính phủ nào muốn mất quyền lực, vì vậy họ đang chuẩn bị để đối phó với Bitcoin. Điều quan trọng cần lưu ý là Bitcoin, như chính nó, không thể được sửa đổi hoặc kiểm soát bởi một thực thể đơn lẻ.
 
@@ -464,7 +464,7 @@ Các sàn giao dịch đóng vai trò như một cầu nối giữa tiền tệ 
 - Rút tiền Bitcoin tự động về ví của người dùng.
 
 Hầu hết các sàn giao dịch hợp pháp tuân thủ các quy định ngân hàng hiện hành. Họ cũng đã thực hiện các thủ tục định danh khách hàng - Know Your Customer (KYC) nghiêm ngặt, yêu cầu bạn cung cấp thông tin nhận dạng để tạo tài khoản. Do đó, ngành công nghiệp về các giải pháp mua bán bitcoin có thể được chia thành KYC và không KYC, như chúng ta sẽ đi vào chi tiết sớm thôi.
-![blockchain](assets/industrie/4.webp)
+![image](assets/vi/024.webp)
 **Cảnh báo**: "Anh cả - Big Brother" đang theo dõi bạn, tất nhiên là vì sự an toàn của bạn. Dữ liệu của bạn có thể được chính phủ sử dụng để theo dõi hoạt động của bạn.
 
 Trong phạm vi các sàn giao dịch, có 5 loại chính:
@@ -514,11 +514,11 @@ Các chuyên gia lập trình phát triển Bitcoin có thể được chia thà
 
 Bất kỳ ai cũng có thể bắt đầu đóng góp vào mã, nhưng quan trọng là phải lưu ý rằng sửa đổi mã Bitcoin là một quá trình rất dài và phức tạp. Ngoài ra, nhiều chuyên gia lập trình phát triển Bitcoin là những người hâm mộ dành nhiều năm để phát triển các Đề xuất Cải tiến Bitcoin (BIPs) mà có thể không bao giờ được sử dụng. Vì vậy, đây là một ngành phức tạp và đôi khi không thể đoán trước. Chúng ta sẽ khám phá chi tiết những khía cạnh này.
 
-![blockchain](assets/industrie/6.webp)
+![image](assets/vi/025.webp)
 
 Quyền lực không giới hạn? Không. Các chuyên gia lập trình phát triển nòng cốt không có quyền lực không giới hạn và họ không thể tự ý sửa đổi hoặc kiểm soát Bitcoin một mình. Chính các node (các máy tính chủ chạy phần mềm Bitcoin) mới giữ quyền lực. Không ai kiểm soát Bitcoin.
 
-![blockchain](assets/industrie/5.webp)
+![image](assets/vi/026.webp)
 
 ## Kiến trúc nhiều lớp của Bitcoin
 
@@ -540,7 +540,7 @@ Ngày nay, việc chấp nhận Bitcoin trong kinh doanh của mình đã trở 
 
 Chúng ta đã đạt đến một điểm trong ngành mà mọi người có thể tham gia, dù là sử dụng Bitcoin trong cuộc sống hàng ngày bằng cách chi tiêu nó, chấp nhận nó trong kinh doanh của mình, đóng góp vào việc giáo dục hoặc mã nguồn, hoặc đổi mới hơn nữa. Nói ngắn gọn, Bitcoin không thể bị chặn lại nữa.
 
-![blockchain](assets/industrie/7.webp)
+![image](assets/vi/027.webp)
 
 Phép ẩn dụ về "đường cao tốc Bitcoin" có lẽ là một trong những hình ảnh minh họa chính xác nhất để mô tả tương lai của ngành và cơ sở hạ tầng Bitcoin. Bitcoin định vị mình như một hệ thống tài chính thay thế. Trẻ trung, đang trong quá trình trưởng thành, và với những không hoàn hảo của riêng mình, nó vẫn vững chắc. Nó sẽ không biến mất, và giống như một hố đen, nó sẽ hấp thụ mọi thứ trên đường đi của mình theo thời gian.
 
@@ -593,7 +593,7 @@ Bạn mua và sau đó không làm gì cả. (Lưu ý rằng không làm gì là
 
 Trong Bitcoin, người sử dụng chiến lược này này được gọi là Hodler vì họ "hodl" (giữ) Bitcoin lâu dài. Những cá nhân này do đó tiếp xúc với Bitcoin, đặt cược rằng BTC sẽ được sử dụng rộng rãi hơn vào ngày mai và do đó càng khan hiếm. Họ sẽ tiếp tục mua nó từ thời gian này sang thời gian khác một cách tự động, tất cả được bảo mật trong ví lạnh của họ.
 
-![hodl](assets/plan/0.webp)
+![image](assets/vi/028.webp)
 
 ### Kế hoạch như sau:
 
@@ -653,7 +653,7 @@ Tóm lại, người hodler là một nhà đầu tư kiên nhẫn, tự kỷ lu
 
 Trong Bitcoin, khái niệm "Người tích lũy" khá nổi tiếng. Ý tưởng rất đơn giản: chỉ có 21 triệu bitcoin, và mỗi bitcoin nhỏ đều rất quan trọng! Bitcoin nhỏ này thực sự được gọi là satoshi (hoặc SAT). Mục tiêu của người tích lũy là tích lũy càng nhiều SAT càng tốt.
 
-![hình ảnh](assets/tuto/11.webp)
+![image](assets/vi/029.webp)
 
 ### Kế hoạch
 
@@ -717,7 +717,7 @@ Người stacking là một cá nhân có phương pháp và sự tập trung ca
 
 Cuối cùng, thành phần tham gia bitcoin (bitcoiner) cuối cùng có thể được nhắc đến trong một khóa học giới thiệu là những bitcoiner cần sử dụng Bitcoin thường xuyên. Dù là do trách nhiệm công việc hay chỉ đơn giản là mong muốn hỗ trợ hệ sinh thái, họ cần được cung cáp các giải pháp phù hợp để sử dụng Bitcoin thường xuyên.
 
-![hình ảnh](assets/tuto/12.webp)
+![image](assets/vi/030.webp)
 
 ### Kế Hoạch
 
@@ -777,7 +777,7 @@ Người dùng là một cá nhân am hiểu công nghệ, đang tích cực tha
 
 Tôi muốn thêm vào đây một chương cho những Bitcoiner luôn hoài nghi mọi thứ. Họ không muốn tiết lộ thông tin cá nhân qua KYC (Know Your Customer), thích sự ẩn danh, và đặt quyền riêng tư lên hàng đầu. Bitcoiner loại này cũng sẽ sử dụng mạng Lightning qua node riêng của họ và tự bảo mật cho chính mình.
 
-![image](assets/tuto/13.webp)
+![image](assets/vi/031.webp)
 
 ### Kế Hoạch
 
@@ -848,7 +848,7 @@ Theo Pamela Morgan trong "Cryptoasset Inheritance Planning" (trang 10), mục ti
 
 Hầu hết các khái niệm, ý tưởng, và hành động được đề xuất trong bài học này (6.1 BRH) đều đến từ cuốn sách của Pamela Morgan có tựa đề "Cryptoasset Inheritance Planning." Cuốn sách này cung cấp một quy trình dễ theo dõi, từng bước một để nhanh chóng thiết lập kế hoạch thừa kế bitcoin của bạn. Quy trình này được nhiều chuyên gia an ninh trong ngành xác nhận. Mặc dù đây là một điểm xuất phát tuyệt vời để tạo kế hoạch di sản, nhưng đó KHÔNG phải là lời khuyên pháp lý, và bạn luôn luôn (như mọi khi) nên xác minh nguồn, thách thức ý tưởng, và tự mình nghiên cứu. Pamela đã rất hào phóng cho phép tôi sử dụng công trình của bà. Tôi xin chân thành cảm ơn bà.
 
-![pamela morgan](assets/heritage/0.webp)
+![image](assets/vi/032.webp)
 
 Trong bài học này, chúng ta chỉ tập trung vào phần đầu cuốn sách của bà. Tôi sẽ đảm nhận vai trò của một người dùng Bitcoin điển hình để tạo thư di sản của riêng mình. Quy trình sẽ đơn giản cho bây giờ, và chúng ta sẽ tạo một phiên bản phức tạp hơn với các kiểu Bitcoiner khác sau.
 
@@ -872,7 +872,7 @@ Bạn cần gì?
 - Một cuốn điện thoại/sổ địa chỉ
 - Một máy tính (tùy chọn theo quan điểm của tôi)
 
-![pamela morgan](assets/heritage/1.webp)
+![image](assets/vi/033.webp)
 
 Theo Pamela Morgan trong "Cryptoasset Inheritance Planning" trang 18, những hiểu lầm phổ biến là:
 
@@ -941,7 +941,7 @@ Bức thư nên rõ ràng và có ích. Đây không phải là một bản di c
 
 Dưới đây là một đoạn trích từ mẫu thư gửi người thân yêu, lấy từ Phụ lục E của cuốn sách "Cryptoasset Inheritance Planning" của Pamela Morgan. Để thích ứng với ví dụ của chúng tôi, tôi đã chỉnh sửa một số đoạn, mà tôi đã đặt trong ngoặc và đánh dấu màu xanh. Phần còn lại của văn bản là văn bản gốc từ cuốn sách. (Dịch bởi Discover Bitcoin)
 
-![pamela morgan](assets/heritage/0.webp)
+![image](assets/vi/034.webp)
 
 "Ngày: 26/06/2020
 Kính gửi Liz & Maia,

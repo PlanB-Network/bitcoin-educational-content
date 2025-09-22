@@ -71,11 +71,11 @@ Bitcoin de dahil olmak üzere kripto para birimi alanı nispeten genç ve hafif�
 - Şifre dolandırıcılığı
 - SIM kart korsanlığı
 
-![scam](assets/prerequis/6.webp)
+![image](assets/tr/001.webp)
 
 Finansal yatırım alanında, piramit satış sistemleri ve saadet zincirleri yasadışı modeller olarak öne çıkmaktadır. Yeni yatırımcıların parasını eski katılımcılara ödeme yapmak için kullanarak çalışırlar. Bununla birlikte, sürdürülemez yapıları ve sistemi devam ettirmek için yeni gelenlere bağımlı olmaları, kaçınılmaz olarak çökmelerini muhtemel kılmaktadır.
 
-![ponzi scheme](assets/prerequis/7.webp)
+![image](assets/tr/002.webp)
 
 Bu sistemler genellikle içsel değerin yokluğu, gerçekçi olmayan getiri vaatleri ve yeni yatırımcıları çekmek için tavsiyeleri teşvik eden pazarlama taktikleri gibi şüpheli unsurları ile karakterize edilir. Para çekme gecikmeleri ve tanıtım için sosyal ağlarda sahte profillerin kullanılması da bu dolandırıcılıkların işaretleridir. Yasadışı ve ahlak dışı doğaları ve temsil ettikleri finansal risk göz önüne alındığında, bunlardan kaçınmak çok önemlidir.
 
@@ -89,7 +89,7 @@ Bu dersimizin içeriğinin tamamen eğitim amaçlı olduğu ve mali tavsiye olar
 
 Pump and Dump (P&D), piyasalarda önemli aksaklıklara neden olabilen kötü şöhretli bir finansal manipülasyon şeklidir. Agresif pazarlama, algoritma kullanımı veya yapay zeka gibi çeşitli mekanizmalar aracılığıyla bir varlığın fiyatını yapay olarak artırmayı amaçlayan koordineli bir saldırı ile karakterize edilir. Amaç daha sonra bu aşırı değerli varlıkları satarak kar elde etmektir.
 
-![Pump and dump](assets/prerequis/8.webp)
+![image](assets/tr/003.webp)
 
 Pompala ve Boşalt stratejisi tipik olarak iyi tanımlanmış bir model izler:
 
@@ -111,7 +111,7 @@ Bu nedenle, bu tür manipülatif taktiklerin cazibesine kapılmak yerine finansa
 
 Bu tür dolandırıcılığın klasik bir örneği, gönderdiğiniz bitcoinleri iki katına çıkaracağını veya katlayacağını iddia eden bir tekliftir. Anında zengin olmak için sihirli bir çözüm olmadığını anlamak önemlidir.
 
-![donation scam](assets/prerequis/9.webp)
+![image](assets/tr/004.webp)
 
 Yaygın olarak kullanılan bir diğer taktik de "shitcoin" ya da düşük değerli kripto paraların bağışlanmasıdır. Bazı merkezi kripto para projeleri çok fazla pazarlama yapar ve hediye olarak ücretsiz tokenlar sunar. Bu tekliflere karşı çok dikkatli olunmalıdır çünkü ya tokenin bir değeri yoktur ya da hediye sadece dikkat çekmek ve ticaret, kumar ve diğer dolandırıcılıkları teşvik etmek için kullanılır. Bu teklifler her zaman hileli, yasa dışı veya yanıltıcı olmasa bile, yine de dikkatli olmak gerekir.
 
@@ -133,7 +133,7 @@ Bir yatırım kararı vermeden önce her zaman kendi araştırmanızı yapmayı 
 
 Bitcoin zaman içinde birkaç sert çataldan geçerek orijinal para biriminin çeşitli alternatif versiyonlarının ortaya çıkması mümkün olmuştur. Bu çatallar genellikle Bitcoin protokolünde önemli değişiklikler yapmak isteyen yazılımcıların ya da bazen saf yatırımcıları kandırmak isteyen kötü niyetli kişilerin eseridir. Potansiyel tuzaklara düşmekten kaçınmak için gerçek Bitcoin'ı bu türevlerden ayırt etmek çok önemlidir. Bu sapmaların dikkate değer örnekleri arasında Bitcoin Cash (BCH) ve Bitcoin Satoshi Vision (BSV) yer almaktadır. "Bitcoin" adını taşımalarına rağmen, bu projeler öncelikle yatırımcıların dikkatini çekmek için pazarlama taktiklerine ve yanlış reklamlara dayanmaktadır.
 
-![donation scam](assets/prerequis/10.webp)
+![image](assets/tr/005.webp)
 
 Yatırım dünyasında popüler bir söz vardır: "Eğer bir aldatmaca gibi görünüyorsa, bir aldatmaca gibi davranıyorsa ve aldatmaca olmadığını garanti ediyorsa, o zaman büyük olasılıkla bir aldatmacadır."
 
@@ -143,7 +143,7 @@ Kripto para dünyası, önemli kazançlar elde etme potansiyelinin cazibesine ka
 
 Bu taktikler arasında açıkça piramit şemalarını tanıtmak, Bitcoin'ın yaratıcısı Satoshi Nakamoto'nun kimliğine bürünmek, başkalarının çalışmalarını intihal etmek veya yanlış vaatlerde bulunmak yer alabilir. Ayrıca, bu kişilerden bazıları yatırımcıları kandırmak için işe yaramaz kripto coin tokenleri ve İlk Coin Arzları (ICO'lar) yaratmaktadır.
 
-![donation scam](assets/prerequis/11.webp)
+![image](assets/tr/006.webp)
 
 Bitcoin topluluğu genellikle bu eylemleri kınamak için harekete geçer, ancak yasal sistemin bu kişilere karşı harekete geçmesi biraz zaman alabilir.
 
@@ -196,13 +196,13 @@ Ek bir ipucu: harici bir Hard sürücü satın almayı düşünün ve önemli do
 
 Şifre yöneticisi, şifrelerinizi saklayan ve yöneten bir yazılımdır. Aynı parolayı asla iki kez kullanmamanıza, karmaşık ve güvenli parolalar seçmenize yardımcı olur ve çevrimiçi güvenlik yönetiminizi kolaylaştırır. Yalnızca bir ana parolayı hatırlamanız gerekir. Herkesin yararlanması gereken ücretsiz bir araçtır. Yavaş yavaş kullanmaya başlayabilirsiniz ve bir kez alıştığınızda, son derece kullanışlı ve kullanımı kolay olduğunu göreceksiniz.
 
-![password manager](assets/prerequis/12.webp)
+![image](assets/tr/007.webp)
 
 2FA, ister kripto para platformları, ister Google/E-posta hesapları, bankalar veya çevrimiçi alışveriş siteleri olsun, en hassas hesaplarınız için ek bir Layer güvenlik sağlar. Giriş yapmak için genellikle telefonunuzdan erişilebilen 6 haneli bir kod olan ikinci bir kimlik gereklidir. Telefonunuzu kaybetmeniz ihtimaline karşı anahtarın yedek bir kopyasını bir yerde saklamayı unutmayın.
 
-![password manager](assets/prerequis/3.webp)
+![image](assets/tr/008.webp)
 
-![password manager](assets/prerequis/4.webp)
+![image](assets/tr/009.webp)
 
 Bir VPN veya Sanal Özel Ağ, IP Address'inizi maskeleyerek gizliliğinizi korur. Sizi tamamen anonim yapmasa da, çevrimiçi gizliliğinizi artırmak için basit ve etkili bir adımdır. Bir VPN seçmek, indirmek ve kullanmak kurulumu kolay bir işlemdir.
 
@@ -235,7 +235,7 @@ Bu bölümde, yeni başlayan yatırımcıların Bitcoin dünyasına girerken yap
 - Alçakgönüllü ve sağduyulu kalmanın önemi.
 - Uzun vadeli bir bakış açısı benimsemek.
 
-![password manager](assets/prerequis/0.webp)
+![image](assets/tr/010.webp)
 
 Bitcoin yatırımına dalmadan önce, kendinizi eğitmek için zaman ayırmanız çok önemlidir.
 
@@ -297,7 +297,7 @@ Ve işte benim önerilerim:
 - Uzun vadeli bir bakış açısını tercih etmek genellikle akıllıca bir stratejidir. Piyasadaki gelişmeleri sürekli izlemek karmaşık olabilir ve tam zamanlı ilgi gerektirir. Warren Buffet'ın dediği gibi, "Bir hisse senedine on yıl boyunca sahip olmak istemiyorsanız, on dakika boyunca sahip olmayı düşünmeyin bile."
 - Vergilendirme söz konusu olduğunda son derece dikkatli olmak önemlidir: Her ülkenin Bitcoin'e ilişkin kendi yasaları vardır. Özellikle vergi yükümlülükleri ile ilgili olarak ülkenizde yürürlükte olan mevzuat hakkında bilgi almak çok önemlidir. Kötü planlama, vergi makamlarına kazandığınızdan daha fazla para borçlanmanıza neden olabilir.
 
-![taxation](assets/prerequis/5.webp)
+![image](assets/tr/011.webp)
 
 Yatırım yapmayı öğrenmek genellikle okulda öğretilen bir şey değildir. Bu nedenle birçok kişi yatırım yapmayı riskli, çılgınca ve erişilemez bir faaliyet olarak görür. Kendilerini korumak için birçok kişi bir bankacıya başvurur... ki bu bir hataya dönüşebilir.
 
@@ -335,11 +335,11 @@ Bitcoin, güvenilir bir aracı olmadan dünya çapında değer aktarımına olan
 
 Her zaman duyduğunuz ünlü Bitcoin işte bu dijital para birimidir. Bitcoin kullanıcıları elektronik cüzdanlar arasında bitcoin gönderir ve tüm bunlar, tüm kullanıcılar arasında işlemleri yayan bir düğüm ağı (Bitcoin sunucuları) sayesinde çalışır. İşlemlerin kesinliğini sağlamak için, bu ağdaki bazı aktörler aynı zamanda madencidir (şu ünlü madenciler) ve amaçları, yayılan işlemleri Bitcoin Blokzincir'ine (daha da ünlü) kaydetmektir.
 
-![in a nutshell](assets/section2/6.webp)
+![image](assets/tr/012.webp)
 
 Bu oldukça tuhaf mekanizma sayesinde, zaman içinde değişmeyen, evrende merkezi olmayan ve tüm dünyada sürekli çalışan bir veri tabanı (Blokzincir) elde ediyoruz. Bu da insanlık tarihinde ilk kez, hiç kimsenin kontrol edemeyeceği ya da yok edemeyeceği, internet üzerine kurulu alternatif bir finansal sistemin herkes tarafından kullanılabilmesini sağlayan üç girişli bir muhasebe sistemine sahip olmamızı sağlıyor.
 
-![in a nutshell](assets/section2/8.webp)
+![image](assets/tr/013.webp)
 
 Teknik işleyişine ek olarak (BTC 101'de açıklanmıştır), Bitcoinu'u 14 yıl sonra bugünkü haline getiren iki özelliğe dikkat çekebiliriz:
 
@@ -347,7 +347,7 @@ Teknik işleyişine ek olarak (BTC 101'de açıklanmıştır), Bitcoinu'u 14 yı
 - Birincisi, Bitcoin'un kodunun açık kaynaklı olmasıdır. Bu, herkesin Bitcoin'ın nasıl çalıştığına bakabileceği, şeffaf ve dolayısıyla denetlenebilir olduğu anlamına gelir. Sonuç olarak, herkes onu kullanabilir ve protokol herkes için eşittir, hiçbir ayrımcılık olamaz. Bu da Bitcoin'ı bir değer aktarım sistemi olarak kullanım için son derece ilginç kılmaktadır.
 - İkinci unsur ise parasal özelliklerinde yatmaktadır. Gerçekten de Bitcoin az bulunur. Dünyada sadece 21 milyon adet olacak ve asla daha fazla olmayacak (kayıplar nedeniyle daha da az olacaktır). Bu, protokolün doğası sayesinde mümkündür, çünkü lansmanından itibaren parasal özelliklerine (bitcoin'lerin dağılım eğrisi) karar verilmiştir ve hiç kimse bunları tek taraflı olarak değiştiremez. Bu özellik, Bitcoin'un altın gibi aşırı para basımıyla seyreltilemeyeceği anlamına gelir.
 
-![in a nutshell](assets/section2/9.webp)
+![image](assets/tr/014.webp)
 
 Bu iki özellik, Bitcoin'ü sadece dünyamızda yenilik yapmakla kalmayıp aynı zamanda normları da yıkan güçlü bir teknolojik ve parasal araç haline getirmektedir.
 
@@ -357,7 +357,7 @@ Bitcoin bu nedenle normlarımızı ve alışkanlıklarımızı bozan bir "0'dan 
 
 Bu sizin için yeniyse, rolünü ve amacını iyi anlamayabileceğiniz bir teknolojiye kendinizi maruz bırakmaya devam etmeden önce BTC 101'i takip etmenizi şiddetle tavsiye ederim.
 
-![in a nutshell](assets/section2/10.webp)
+![image](assets/tr/015.webp)
 
 ## Bitcoin neden önemlidir?
 
@@ -381,7 +381,7 @@ Barack Obama bir keresinde Bitcoin'u "cebinizdeki İsviçre bankası" olarak tan
 
 7. Bitcoin internete özgüdür ve internet erişimi olan herkes tarafından erişilebilir hale gelir.
 
-![in a nutshell](assets/section2/1.webp)
+![image](assets/tr/016.webp)
 
 Özetle, Bitcoin "halkın para birimi" olarak kabul edilebilir.
 
@@ -391,13 +391,13 @@ Bu soru üzerinde düşünmeyi hak ediyor ve bu konuya daha sonra tekrar dönece
 
 Milyarlarca insan, kötü yönetilen para politikalarının zararlı etkileri altında yaşamakta ve bu da uzun vadede ciddi finansal krizlere yol açmaktadır. Bu tür krizler tarihimizde yüzlerce kez yaşanmıştır ve paranın ve zamanın değeri manipüle edildiği sürece de yaşanmaya devam edecektir. Bu krizler hiperenflasyon, parasal kontrol ve para biriminin devalüasyonu şeklinde ortaya çıkabilir.
 
-![in a nutshell](assets/section2/2.webp)
+![image](assets/tr/017.webp)
 
 Bitcoin her bireye bu sistemden çıkma şansı sunmaktadır. Bu, muhtemelen herkesin bir gün yapmak zorunda kalacağı etik bir seçimdir. Bitcoin, sansüre karşı direnci, bölünebilirliği ve taşınabilirliği sayesinde itibari paradan sağlam paraya geçişi kolaylaştırır.
 
 **Biliyor muydunuz**? Son 100 yılda 55'ten fazla hiperenflasyon vakası yaşanmıştır. Bunların çoğu, ülke ekonomisini tamamen tahrip etmiş, vatandaşların tasarruflarını yok etmiş ve bazen de diktatörlük rejiminin kurulmasına yol açan siyasi istikrarsızlık yaratmıştır (Şili, Almanya vb. örneklerde olduğu gibi). İtibari para birimlerinin yok edilmesi yeni bir olgu değildir ve gerçekleşmeye devam edecektir. Ancak Bitcoin sayesinde artık bu sistemden çıkma fırsatına sahipsiniz.
 
-![in a nutshell](assets/section2/3.webp)
+![image](assets/tr/018.webp)
 
 Dünyada giderek kötüleşen refah eşitsizlikleri aşırılıkçılığın artmasına yol açmış, bu da bazen diktatörlük rejimlerinin kurulmasıyla sonuçlanmıştır. Kim olursanız olun, bir gün ailenizi, kendinizi ve birikimlerinizi korumak için gizliliğe ihtiyaç duyabilirsiniz. Siyasi olarak tehdit altında olsaydınız varlıklarınızı nerede saklayabilirdiniz?
 
@@ -422,7 +422,7 @@ Hiçbir zaman 21 milyondan fazla bitcoin olmayacaktır ve hiçbir politikacı, b
 
 Geçmişte altın, sağlam para olarak düzenleyici bir rol oynamıştır. Ancak 1971'den bu yana hiçbir itibari para birimi (euro, dolar, vs.) altına bağlanmamış, bu da sınırsız para yaratımına kapı açmıştır. Brrrrrr (matbaa sesine ima).
 
-![in a nutshell](assets/section2/5.webp)
+![image](assets/tr/019.webp)
 
 Bir banka hesabında paranız varsa, bu para artık size ait değildir. Gerçekte, o parayı kullanması için bankaya ödünç vermişsinizdir. Bu gerçeği anlamak ve farkında olmak çok önemlidir. Bir banka hesabında paranız varsa, aslında bankadan alacaklısınız demektir. Bu iki anlama gelir:
 
@@ -438,7 +438,7 @@ Egemenliğinizi yeniden kazanmak için özel anahtarınızın kontrolünü ele g
 
 Bitcoin geleneksel finansal sistemlere güçlü bir alternatif sunmaktadır. Herkesin mahremiyetini korumasına, enflasyon ve para birimi devalüasyonuna karşı korunmasına, otoriter rejimleri atlamasına ve paraları üzerindeki egemenliklerini yeniden kazanmasına olanak tanır. Bitcoin yaş, cinsiyet, din veya gelirden bağımsız olarak herkesin erişebileceği sağlam bir para birimidir. Bireyler Bitcoin'ı benimseyerek gelecek için tasarruf edebilir, merkez bankalarının kıskacından kurtulabilir ve finansal yaşamlarının kontrolünü yeniden ele geçirebilirler. Bu, gücü yeniden dengeleyen ve küresel ölçekte ekonomik özgürlüğü teşvik eden bir araçtır.
 
-![in a nutshell](assets/section2/11.webp)
+![image](assets/tr/020.webp)
 
 Bitcoin, siyasi bir hareket mi?
 
@@ -454,7 +454,7 @@ Bitcoin'ın 2009 yılında Satoshi Nakamoto tarafından ortaya çıkarılmasıyl
 
 Bitcoin 0'a 1'dir. Geri alınamaz. Bazıları bunu kötülüğün kişileşmiş hali olarak görecek, Pandora'nın kutusu açıldı ve artık güçlerini ve avantajlarını ellerinden alıyor. Buna karşı savaşacaklardır. Diğerleri ise Bitcoin'te özgürlüğü yeniden kazanmak, sistemi değiştirmek ve toplumumuzu iyileştirmek için bir fırsat görecekler. Bunu kucaklayacaklar. Bitcoin'ün umurunda değil, o sadece var.
 
-![industry](assets/industrie/2.webp)
+![image](assets/tr/021.webp)
 
 Bu bölümde, girmek istediğimiz sektörün nasıl işlediğini daha iyi anlamak için aktörlere hızlı bir genel bakış atacağız.
 
@@ -499,11 +499,11 @@ Alt-coin dünyasına girmeye karar verirseniz kendi araştırmanızı yapmanız 
 
 Bitcoin ile rekabet ettiklerini iddia etseler de, bu projeler kontrolü sağlamak ve yerel düzenlemelere uymak için merkezi olmaya devam etmektedir. Mahremiyet koruması sağlamayacaklar, aksine kitlesel gözetimi arttıracaklar. Facebook'un "Libra" projesi kendisini Bitcoin'e değil bankalara rakip olarak konumlandırmıştır. Dahası, iş kanıtı (proof-of-work) olmadan, bir "Blokzincir'in" gerçek bir değeri yoktur. Libra'nın o zamandan beri terk edildiği ve Bitcoin'in aksine şu anda küresel olarak gerçek bir özel Blokzincir projesinin kullanılmadığı unutulmamalıdır.
 
-![blockchain](assets/industrie/1.webp)
+![image](assets/tr/022.webp)
 
 Bitcoin protokolü düzenlemelerin erişiminin ötesindedir. Yalnızca etrafında dönen aktörler düzenlenebilir ve Bitcoin merkezi olmadığı için yasalar, vergiler ve düzenlemeler ülkeden ülkeye değişir. Örneğin Çin, Bitcoin'un kullanımını birçok kez yasaklarken, Kanada, İsviçre ve Malta gibi ülkeler buna karşı daha olumlu bir tutum sergilemiştir. Çoğu ülke yeni kurallar ve düzenlemeler geliştirmek için kriptografi görev güçleri kurmuştur. Ancak bu süreç yavaştır ve kurallar oldukça sık değişebilmektedir. Bu yavaş tempoya rağmen, Bitcoin ve kripto paralar birçok konuşmanın merkezinde yer almaktadır.
 
-![blockchain](assets/industrie/3.webp)
+![image](assets/tr/023.webp)
 
 Ülkenizdeki durumla ilgili kapsamlı bir araştırma yapmanız önerilir. Bitcoin söz konusu olduğunda bankalar da yoğun bir şekilde denetlenmektedir. Birçoğu Bitcoin ile uğraşan işletmelerin hesaplarını kapatmakta ve finansal hizmetlere erişimlerini sınırlamakta, aynı zamanda kendi altyapılarını geliştirmek amacıyla bu yeni teknolojiyi keşfetmek için araştırma ekipleri oluşturmaktadır. Hiçbir düzenleyici kurum, banka ya da hükümet güç kaybetmek istemiyor, bu nedenle Bitcoin ile başa çıkmaya hazırlanıyorlar. Bitcoin'un tek bir varlık tarafından değiştirilemeyeceğini veya kontrol edilemeyeceğini unutmamak önemlidir.
 
@@ -519,7 +519,7 @@ Kripto borsa platformları fiat para birimi (devlet tarafından verilen para bir
 
 Çoğu yasal kripto takas platformu mevcut bankacılık düzenlemelerine uygundur. Ayrıca, bir hesap oluşturmak için kimlik sağlamanızı gerektiren titiz Müşterini Tanı (KYC) prosedürleri de uygulamışlardır. Bu nedenle, satın alma çözümleri sektörü, yakında ayrıntılı olarak inceleyeceğimiz gibi KYC ve KYC olmayan olarak ikiye ayrılabilir.
 
-![blockchain](assets/industrie/4.webp)
+![image](assets/tr/024.webp)
 
 **Dikkat**: "Büyük Birader" sizi izliyor, tabii ki sözde güvenliğiniz için. Verileriniz hükümetiniz tarafından faaliyetlerinizi izlemek için kullanılabilir.
 
@@ -580,11 +580,11 @@ Bitcoin geliştiricileri farklı bölümlere ayrılabilir:
 
 Herkes koda katkıda bulunmaya başlayabilir, ancak Bitcoin kodunu gerçekten değiştirmenin uzun ve karmaşık bir süreç olduğunu unutmamak önemlidir. Ayrıca, birçok Bitcoin geliştiricisi, hiçbir zaman kullanılmayacak olan Bitcoin İyileştirme Önerilerini (BIP'ler) geliştirmek için yıllarını adayan meraklılardır. Bu nedenle karmaşık ve bazen öngörülemez bir sektördür. Bu hususları ayrıntılı olarak inceleyeceğiz.
 
-![blockchain](assets/industrie/6.webp)
+![image](assets/tr/025.webp)
 
 Sınırsız güç mü? Çekirdek geliştiriciler sınırsız güce sahip değildir ve Bitcoin'u tek başlarına değiştiremez veya kontrol edemezler. Gücü elinde tutan düğümlerdir. Bitcoin'u kimse kontrol edemez.
 
-![blockchain](assets/industrie/5.webp)
+![image](assets/tr/026.webp)
 
 ## Bitcoin'nin Katmanlı Mimarisi
 
@@ -609,7 +609,7 @@ Bugün, Bitcoin'ı işletmenizde kabul etmek, fazla kurulum süresi gerektirmeye
 
 Sektörde öyle bir noktaya geldik ki, ister Bitcoin'ü günlük yaşamlarında harcayarak, ister işlerinde kabul ederek, ister eğitime veya koda katkıda bulunarak ya da ötesinde inovasyon yaparak olsun, herkes katılabilir. Kısacası, Bitcoin artık durdurulamaz.
 
-![blockchain](assets/industrie/7.webp)
+![image](assets/tr/027.webp)
 
 "Bitcoin otoyolu" metaforu, sektörün geleceğini ve Bitcoin altyapısını tanımlamak için bana en doğru örneklerden biri gibi görünüyor. Bitcoin kendisini alternatif bir finansal sistem olarak konumlandırıyor. Genç, olgunlaşma sürecinde ve kendi kusurlarıyla birlikte, yine de sağlamdır. Yok olmayacak ve bir kara delik gibi zaman içinde yoluna çıkan her şeyi içine çekecektir.
 
@@ -668,7 +668,7 @@ Satın alırsınız ve sonra hiçbir şey yapmazsınız. (Hiçbir şey yapmaman�
 
 Bitcoin'de bu tür bir profile Hodler denir çünkü bu kişiler Bitcoin'i uzun vadede "HODL" (elde tutarlar). Dolayısıyla bu kişiler, BTC'nin yarın daha yaygın olarak kullanılacağına ve dolayısıyla daha az bulunacağına dair bahis oynayarak Bitcoin'e girmiş olurlar. Zaman zaman otomatik olarak satın almaya devam edecekler, hepsi soğuk cüzdanlarında güvence altında olacak.
 
-![hodl](assets/plan/0.webp)
+![image](assets/tr/028.webp)
 
 ### İşte planımız:
 
@@ -734,7 +734,7 @@ Basit kâr arayışının ötesinde, hodler genellikle Blockchain teknolojisine 
 
 Bitcoin'te "Stacker" kavramı oldukça iyi bilinmektedir. Fikir basittir: sadece 21 milyon bitcoin vardır ve her küçük Bitcoin önemlidir! Bu küçük Bitcoin aslında bir Satoshi (veya SAT) olarak adlandırılır. İstifleyicinin amacı mümkün olduğunca çok biriktirmektir.
 
-![image](assets/tuto/11.webp)
+![image](assets/tr/029.webp)
 
 ### Plan
 
@@ -799,7 +799,7 @@ Mal veya hizmet satarak ya da Bitcoin ekosistemindeki diğer yolları keşfedere
 
 Son olarak, bir giriş kursunda bahsedilebilecek son bitcoin'ci türü, Bitcoin'ı düzenli olarak kullanması gereken bitcoin'cidir. İster mesleki zorunluluklar isterse sadece ekosistemi destekleme arzusu nedeniyle olsun, sık kullanıma uygun çözümler sunmak gerekir.
 
-![image](assets/tuto/12.webp)
+![image](assets/tr/030.webp)
 
 ### Plan
 
@@ -859,7 +859,7 @@ Kullanıcı, Bitcoin'ın aktif kullanımına aktif olarak dahil olan, teknolojik
 
 Buraya paranoyak Bitcoin kullanıcısını da eklemek istiyorum. Bu tip kişiler kendilerini KYC'ye (Know Your Customer) maruz bırakmak istemez, anonimliğe yakın kalmayı tercih eder ve gizliliklerine çok önem verirler. Paranoyak Bitcoinci de Lightning şebekesini'i kendi düğüm'u üzerinden kullanacak ve güvenliği üzerinde çalışacaktır.
 
-![image](assets/tuto/13.webp)
+![image](assets/tr/031.webp)
 
 ### Plan
 
@@ -943,7 +943,7 @@ Pamela Morgan'ın "Cryptoasset Inheritance Planning" (sayfa 10) adlı kitabına 
 
 Bu derste (6.1 BRH) önerilen kavram, fikir ve eylemlerin çoğu Pamela Morgan'ın "Cryptoasset Inheritance Planning" başlıklı kitabından alınmıştır. Bu kitap, Bitcoin miras planınızı hızlı bir şekilde oluşturmak için takip etmesi kolay, adım adım bir süreç sunmaktadır. Bu süreç çok sayıda endüstri güvenlik uzmanı tarafından onaylanmıştır. Bir yatırım planı oluşturmak için mükemmel bir başlangıç noktası olsa da, tavsiye DEĞİLDİR ve her zaman (her zaman olduğu gibi) kaynakları doğrulamalı, fikirleri sorgulamalı ve kendi araştırmanızı yapmalısınız. Pamela cömertçe çalışmasını kullanmama izin verdi. Kendisine içtenlikle teşekkür ederim.
 
-![pamela morgan](assets/heritage/0.webp)
+![image](assets/tr/032.webp)
 
 Bu derste, kitabının sadece ilk bölümüne odaklanacağız. Kendi halefiyet mektuplarını oluşturmak için tipik bir Bitcoin kullanıcısının rolünü üstleneceğim. Süreç şimdilik basit olacak ve daha sonra farklı profil türleriyle daha karmaşık bir versiyon oluşturacağız.
 
@@ -970,7 +970,7 @@ Neye ihtiyacın var?
 - Bir telefon/Address kitabı
 - Bir bilgisayar (bence isteğe bağlı)
 
-![pamela morgan](assets/heritage/1.webp)
+![image](assets/tr/033.webp)
 
 Pamela Morgan'ın 18. sayfadaki "Kripto Varlık Miras Planlaması" başlıklı yazısına göre, yaygın yanlış anlamalar şunlardır:
 
@@ -1046,7 +1046,7 @@ Mektup açık ve yardımcı olmalıdır. Bu bir vasiyet ya da onları ağlatacak
 
 Burada Pamela Morgan'ın "Cryptoasset Inheritance Planning" adlı kitabının E ekinden alınan, sevilen birine mektup şablonundan bir alıntı yer almaktadır. Örneğimize uyarlamak için, parantez içine aldığım ve mavi ile işaretlediğim bazı bölümleri değiştirdim. Metnin geri kalanı kitaptaki orijinal metindir. (Discover Bitcoin tarafından çevrilmiştir)
 
-![pamela morgan](assets/heritage/0.webp)
+![image](assets/tr/034.webp)
 
 "Tarih: 06/26/2020
 

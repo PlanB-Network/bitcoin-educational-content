@@ -1,0 +1,9 @@
+question: Je, ni muundo gani wa data unaotoa muhtasari wa shughuli katika block?
+answer: Sehemu ya Merkle Tree
+wrong_answers:
+  - Jedwali la Hash UTXO
+  - Faili ya rika.dat
+  - Daftari ya kudhani
+explanation: |
+  Shughuli katika block imejitolea kwa Merkle Tree, mzizi ambao umejumuishwa kwenye kichwa cha kuzuia ili kuhakikisha uadilifu wa block.
+reviewed: true

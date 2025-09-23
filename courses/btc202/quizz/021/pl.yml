@@ -1,0 +1,9 @@
+question: Jaki czynnik determinuje wpływ węzła na zasady konsensusu?
+answer: Jego waga ekonomiczna
+wrong_answers:
+  - Liczba połączeń wychodzących
+  - Staż pracy w sieci
+  - Nic, ponieważ każdy węzeł ma jeden głos
+explanation: |
+  Wpływ na zasady konsensusu zależy od działalności gospodarczej wspieranej przez węzeł, a nie od jego liczby.
+reviewed: true

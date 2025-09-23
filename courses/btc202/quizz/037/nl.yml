@@ -1,0 +1,9 @@
+question: Welk type machine wordt voorgesteld als het beste compromis voor een Bitcoin thuisknooppunt?
+answer: Een NUC-type mini-pc
+wrong_answers:
+  - Laptop
+  - Een supercomputer
+  - Een spelconsole
+explanation: |
+  Mini-pc's (NUC, Tiny, OptiPlex Micro...) verbruiken weinig stroom, zijn betrouwbaar en gemakkelijk aan te passen, waardoor ze het ideale compromis vormen.
+reviewed: true

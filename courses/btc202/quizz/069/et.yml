@@ -1,0 +1,9 @@
+question: Milline on peamine oht, mida kujutab endast Dust kogunemine teie mini-PC-sse?
+answer: Protsessori drosseldamine
+wrong_answers:
+  - Blockchain ploki kustutamine
+  - Ketta kahjustamine
+  - Vähendatud RAM-i maht
+explanation: |
+  Dust blokeerib ventilatsiooni, põhjustab ülekuumenemist ja põhjustab drosseldamist, vähendades protsessori tõhusust.
+reviewed: true

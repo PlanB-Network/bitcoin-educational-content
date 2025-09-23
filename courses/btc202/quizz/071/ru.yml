@@ -1,0 +1,9 @@
+question: К каким файлам узел обращается в первую очередь, чтобы найти своих старых сверстников при перезагрузке?
+answer: anchors.dat и peers.dat
+wrong_answers:
+  - Mempool.dat и peers.dat
+  - Mempool.dat и ip.dat
+  - ip.dat и anchors.dat
+explanation: |
+  Bitcoin core сначала обращается к файлу anchors.dat (предыдущие исходящие пиры), а затем к файлу peers.dat (известная книга Address), чтобы восстановить соединение.
+reviewed: true

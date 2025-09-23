@@ -1,9 +1,9 @@
-question: What is the protocol used by Electrs and Fulcrum to connect portfolio software?
+question: What is the protocol used by Electrs and Fulcrum to connect wallets?
 answer: Electrum
 wrong_answers:
   - RPC REST
   - JSON API
   - Lightning gRPC
 explanation: |
-  These software packages expose an Electrum server, the standard used by many portfolios such as Sparrow or Electrum Wallet.
-reviewed: false
+  These software packages expose an Electrum server, the standard used by many wallets such as Sparrow or Electrum Wallet.
+reviewed: true

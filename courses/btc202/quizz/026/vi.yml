@@ -1,0 +1,9 @@
+question: Ai là người phát minh ra khái niệm xác minh thanh toán đơn giản (SPV)?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  SPV được trình bày trong phần 8 của Sách trắng Satoshi Nakamoto.
+reviewed: true

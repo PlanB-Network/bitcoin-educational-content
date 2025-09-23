@@ -1,0 +1,9 @@
+question: Je, kikomo cha ukubwa wa Mempool katika Bitcoin core ni kipi?
+answer: 300 MB
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  Kwa chaguo-msingi, Bitcoin core inaweka mipaka ya Mempool hadi 300 MB. Zaidi ya hayo, inafukuza shughuli zisizo na faida kidogo.
+reviewed: true

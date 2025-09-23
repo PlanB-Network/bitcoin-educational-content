@@ -1,0 +1,9 @@
+question: 谁负责维护用于初始对等点发现的 DNS seed 服务器？
+answer: 生态系统开发者
+wrong_answers:
+  - 互联网服务提供商
+  - Satoshi 中本
+  - Mining 水池
+explanation: |
+  DNS 种子由知名开发者（Wuille、Corallo、Dashjr 等）维护，并提供活动节点 IP 以启动连接。
+reviewed: true

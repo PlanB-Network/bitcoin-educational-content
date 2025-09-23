@@ -1,0 +1,9 @@
+question: Wat zijn de drie belangrijkste voordelen van regelmatige updates van het besturingssysteem en apps?
+answer: Veiligheid, betrouwbaarheid, functionaliteit
+wrong_answers:
+  - Snelheid, anonimiteit, compatibiliteit
+  - Beveiliging, geheugen, opslag
+  - Vertrouwelijkheid, functionaliteit, betrouwbaarheid
+explanation: |
+  Updates zorgen voor beveiliging tegen kwetsbaarheden, compatibiliteit met evoluties en nieuwe functies, en betrouwbaarheid van het systeem.
+reviewed: true

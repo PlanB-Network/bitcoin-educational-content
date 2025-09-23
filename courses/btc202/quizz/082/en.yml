@@ -1,4 +1,4 @@
-question: What is the default value for minrelaytxfee in Bitcoin core?
+question: What is the default value for minrelaytxfee in Bitcoin Core?
 answer: 0.00001 BTC/kvB (1 sat/vB)
 wrong_answers:
   - 0.0001 BTC/kvB (10 sat/vB)
@@ -6,4 +6,4 @@ wrong_answers:
   - 0.00002 BTC/kvB (2 sat/vB)
 explanation: |
   minrelaytxfee defaults to 0.00001 BTC/kvB, or 1 sat/vB, below which transactions are not relayed.
-reviewed: false
+reviewed: true

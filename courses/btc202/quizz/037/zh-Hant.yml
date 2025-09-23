@@ -1,0 +1,9 @@
+question: 哪種類型的機器是 Bitcoin 家庭節點的最佳折衷方案？
+answer: NUC 型迷你電腦
+wrong_answers:
+  - 筆記型電腦
+  - 超級電腦
+  - 遊戲機
+explanation: |
+  迷你電腦 (NUC、Tiny、OptiPlex Micro...)耗電量低、可靠且容易適應，是理想的折衷選擇。
+reviewed: true

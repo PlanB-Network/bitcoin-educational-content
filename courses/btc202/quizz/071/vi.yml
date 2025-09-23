@@ -1,0 +1,9 @@
+question: Một nút sẽ tham khảo những tệp nào trước tiên để tìm các nút ngang hàng cũ khi khởi động lại?
+answer: anchors.dat và peers.dat
+wrong_answers:
+  - Mempool.dat và peers.dat
+  - Mempool.dat và ip.dat
+  - ip.dat và anchors.dat
+explanation: |
+  Đầu tiên, Bitcoin core sẽ tham khảo anchors.dat (các đối tác đã gửi trước đó), sau đó là peers.dat (sổ tay Address đã biết) để kết nối lại.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 與迷你電腦相比，專用筆記型電腦的優勢何在？
+answer: 其電池可作為逆變器
+wrong_answers:
+  - 更安靜
+  - 持續時間更長
+  - 能耗較低
+explanation: |
+  筆記型電腦的電池可充當天然的 UPS，防止在電源中斷時突然停機。
+reviewed: true

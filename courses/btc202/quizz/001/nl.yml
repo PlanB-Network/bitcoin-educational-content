@@ -1,0 +1,9 @@
+question: Hoe noemen we de verzameling machines waarop een Bitcoin implementatie draait en die met elkaar verbonden zijn?
+answer: Het Bitcoin netwerk
+wrong_answers:
+  - Het Bitcoin protocol
+  - Bitcoin valuta
+  - De Blockchain Bitcoin
+explanation: |
+  Het Bitcoin netwerk bestaat uit alle verbonden knooppunten, elk met een eigen implementatie van het protocol.
+reviewed: true

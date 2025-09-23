@@ -5,5 +5,5 @@ wrong_answers:
   - 0.6.0
   - 0.10.0
 explanation: |
-  Since version 0.8.0, Bitcoin core no longer uses a global index, but directly maintains the UTXO set thanks to Ultraprune.
-reviewed: false
+  Since version 0.8.0, Bitcoin Core no longer uses a global index, but directly maintains the UTXO set thanks to Ultraprune.
+reviewed: true

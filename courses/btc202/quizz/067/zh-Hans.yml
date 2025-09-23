@@ -1,0 +1,9 @@
+question: 恢复 Lightning 节点需要哪些备份？
+answer: seed 和 SCB
+wrong_answers:
+  - seed 和 txindex 文件
+  - seed 和公共 IP Address
+  - seed 和 2FA
+explanation: |
+  恢复 "闪电 "节点需要 seed 和 SCB（静态通道备份），没有它们就无法恢复通道资金。
+reviewed: true

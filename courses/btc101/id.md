@@ -36,7 +36,7 @@ Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringa
 
 Dalam kursus ini, kita akan membahas beberapa aspek moneter Bitcoin, termasuk cara membeli dan menjual bitcoin, menyimpannya dengan aman di dompet digital, dan menggunakannya untuk bertransaksi. Kita juga akan membahas peran para penambang, yang sangat penting untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin. Terakhir, kita akan mengeksplorasi masa depan Bitcoin dan bagaimana teknologi Lightning Network dapat meningkatkan transaksi Bitcoin.
 
-![image](assets/id/01.webp)
+![image](assets/id/001.webp)
 
 Sangat penting untuk memahami bahwa Bitcoin adalah sistem moneter baru yang sepenuhnya mengubah hubungan kita dengan uang, jadi mempelajari cara menggunakannya adalah keterampilan yang diperlukan bagi siapa saja yang ingin mengendalikan dana mereka sendiri.
 
@@ -78,7 +78,7 @@ Sebelum memperkenalkan definisi uang dan fungsinya dalam masyarakat (Bab 1), kit
 
 Bagaimanapun, kita baru berada pada tahap awal pengadopsiannya, karena kita telah melewati fase lepas landas: Anda tepat pada waktunya untuk memperoleh pengetahuan sebanyak yang Anda inginkan mengenai inovasi penting ini.
 
-![image](assets/id/02.webp)
+![image](assets/id/002.webp)
 
 Poin penting di sini adalah untuk memahami teknologi baru ini secara umum, jadi kami harap Anda menikmati kursus ini dan terus membuat kemajuan dalam paradigma moneter global yang baru ini.
 
@@ -92,7 +92,7 @@ Sebelum istilah "Bitcoin" menjadi identik dengan mata uang digital dan transform
 
 ### Cypherpunks: para visioner dunia digital
 
-![image](assets/id/03.webp)
+![image](assets/id/003.webp)
 
 Di tengah-tengah evolusi teknologi pada tahun 1980-an dan 1990-an, sekelompok orang mulai mempertanyakan secara mendalam peran privasi dan kebebasan di era digital. Orang-orang ini, yang kemudian dikenal sebagai "cypherpunks", sangat yakin bahwa kriptografi dapat berfungsi sebagai alat untuk melindungi hak-hak individu dari campur tangan pemerintah dan perusahaan-perusahaan besar.
 
@@ -100,7 +100,7 @@ Tokoh-tokoh ikonik seperti Julian Assange, Wei Dai, Tim May, dan David Chaum mem
 
 ### Tiga makalah fundamental dari Cypherpunks
 
-![image](assets/id/04.webp)
+![image](assets/id/004.webp)
 
 Gerakan cypherpunk, yang berakar kuat pada aktivisme digital dan kriptografi, mengacu pada beberapa teks dasar untuk mengartikulasikan prinsip-prinsip dan visinya untuk masa depan. Di antara tulisan-tulisan ini, ada tiga yang paling menonjol:
 
@@ -124,7 +124,7 @@ Prekursor penting lainnya adalah "B-money" dari Wei Dai. Meskipun tidak pernah d
 
 Gambar di bawah ini dengan jelas menggambarkan perkembangan gerakan ini melalui berbagai inovasi teknologinya.
 
-![image](assets/id/05.webp)
+![image](assets/id/005.webp)
 
 Dalam lingkungan yang mendukung inilah Satoshi Nakamoto yang misterius menerbitkan whitepaper Bitcoin pada tahun 2008. Dalam dokumen ini, ia menggabungkan beberapa ide dari gerakan cypherpunk, seperti proof of work dan stempel waktu kriptografi, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan sensor.
 
@@ -152,7 +152,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Evolusi uang adalah aspek menarik dari sejarah manusia yang mencerminkan kecerdikan peradaban sepanjang zaman dalam memenuhi kebutuhan ekonomi yang terus berkembang.
 
-![image](assets/id/06.webp)
+![image](assets/id/006.webp)
 
 ### Dari cangkang hingga rekening bank
 
@@ -160,7 +160,7 @@ Pada awalnya, mata uang adalah aset berwujud, seperti biji-bijian, ternak, atau 
 
 Dengan demikian, ketika peradaban maju dan perdagangan meluas ke daerah-daerah baru, kebutuhan akan alat tukar yang universal muncul. Orang-orang pertama kali bereksperimen dengan benda-benda seperti kerang dan batu permata, tetapi benda-benda tersebut tidak tahan lama atau langka seperti yang mereka yakini. Akhirnya, emas menjadi standar, karena kelangkaan, daya tahan, dan kemampuannya untuk dibagi-bagi. Emas adalah, dan tetap menjadi simbol kekayaan dan kekuasaan hingga hari ini.
 
-![image](assets/id/07.webp)
+![image](assets/id/007.webp)
 
 ### Apa peran uang?
 
@@ -177,11 +177,11 @@ Karena alasan ini, emas sebagai uang adalah hasil dari 4.000 tahun Darwinisme mo
 - Alat tukar\*\*: uang dapat digunakan untuk menukar barang dan jasa alih-alih barter, sehingga menghindari ketidakcocokan keinginan di antara para pedagang;
 - Unit akun\*\*: uang juga memungkinkan kita untuk membandingkan nilai barang yang berbeda untuk lebih memahami relatifitas kenyamananya.
 
-![image](assets/id/08.webp)
+![image](assets/id/008.webp)
 
-![image](assets/id/09.webp)
+![image](assets/id/009.webp)
 
-![image](assets/id/10.webp)
+![image](assets/id/010.webp)
 
 ### Karakteristik uang
 
@@ -191,7 +191,7 @@ Sebaliknya, mata uang yang di akui negara (fiat) dapat digunakan dengan mudah, t
 
 Untuk menjelaskan konsep ini dengan lebih baik, kita akan mengeksplorasi karakteristik mata uang yang efektif:
 
-![image](assets/id/11.webp)
+![image](assets/id/011.webp)
 
 - Fungibility\*\*, artinya dapat dipertukarkan dengan unit lain yang sejenis tanpa kehilangan nilainya;
 - Divisibilitas\*\*, karena dapat dibagi menjadi unit-unit yang lebih kecil untuk memfasilitasi transaksi dengan volume yang berbeda-beda;
@@ -220,7 +220,7 @@ Saat ini, mata uang utama seperti Euro dan Dolar dianggap sebagai fidusia. Ini b
 
 Mata uang fidusia adalah bentuk uang yang ditetapkan oleh sebuah institusi, misalnya negara, seperti Cina dengan Yuan, atau perserikatan ekonomi-politik, seperti Uni Eropa dengan Euro. Entitas yang bertanggung jawab atas penerbitannya adalah bank sentral (Misalnya, kita dapat menyebutkan Bank Rakyat Tiongkok, Federal Reserve Amerika Serikat, atau Bank Sentral Republik Guinea). Entitas inilah yang bertanggung jawab untuk merumuskan kebijakan moneter dan oleh karena itu berapa banyak uang yang harus diedarkan atau dicetak.
 
-![image](assets/id/12.webp)
+![image](assets/id/012.webp)
 
 ### Devaluasi moneter: strategi yang sudah ada sejak zaman Kekaisaran Romawi
 
@@ -230,7 +230,7 @@ Mekanismenya sederhana dan terinspirasi dari praktik-praktik yang sudah ada seja
 
 Namun, para pemimpin ini kemudian mulai mendevaluasi mata uang baru ini secara bertahap, secara de facto mengurangi nilainya beberapa persen setiap tahun dibandingkan dengan harga emas awal. Devaluasi diam-diam ini sering kali dibenarkan sebagai kepentingan rakyat. Pada kenyataannya, mereka yang menabung dalam mata uang fidusia ini melihat nilai tabungan mereka terkikis, sementara negara membiayai proyek-proyeknya melalui inflasi. Lebih jauh lagi, devaluasi ini membuat utang menjadi lebih mudah untuk dilunasi.
 
-![image](assets/id/13.webp)
+![image](assets/id/013.webp)
 
 Pada saat yang kritis, sang pemimpin membuat pengumuman: mata uang tidak lagi didukung oleh emas. Publik, yang kini terbiasa dengan mata uang fidusia dan sering mendapat informasi yang salah tentang masalah keuangan, menerima kenyataan ini, sehingga negara dapat dengan bebas memanipulasi jumlah uang beredar dan mencetak uang dalam jumlah yang sangat banyak tanpa biaya.
 
@@ -242,7 +242,7 @@ Pada akhirnya, mata uang ini mungkin tidak lagi memiliki hubungan dengan emas, s
 
 Hari ini, kita menyaksikan titik balik bersejarah. Dolar, yang telah lama mendominasi, tampaknya mengalami penurunan, sementara emas telah kehilangan peran sentralnya. Kita berdiri di ambang siklus moneter baru, yang mengingatkan kita bahwa pelajaran sejarah sering kali dilupakan
 
-![image](assets/id/14.webp)
+![image](assets/id/014.webp)
 
 ### Apakah Bitcoin merupakan solusi?
 
@@ -251,7 +251,7 @@ Karena alasan-alasan ini, revolusi Bitcoin mendapatkan momentumnya. Berlawanan d
 
 Faktanya, Bitcoin hadir sebagai jawaban atas tantangan sistemik ini dengan mengajukan solusi terdesentralisasi dan sistem moneter paralel yang baru. Secara historis, jika emas disukai sebagai mata uang karena ketahanannya terhadap pemalsuan, Bitcoin juga tidak dapat dipalsukan. Selain itu, Bitcoin dibatasi hingga 21 juta unit, berkat sifat desentralisasi dan kriptografinya. Bitcoin adalah mata uang yang mengandalkan transparansi dan netralitas, menawarkan alternatif yang menarik untuk sistem moneter yang tersentral/terpusat saat ini.
 
-![image](assets/id/15.webp)
+![image](assets/id/015.webp)
 
 Alasan lain mengapa Bitcoin menarik perhatian adalah kemunculan mata uang digital bank sentral, atau CBDC, yang tampaknya tidak dapat dihindari. Bentuk uang baru ini akan mengembangkan ekonomi yang lebih terencana secara tersentral, dan dapat menghalangi kebebasan finansial individu dan memfasilitasi penyalahgunaan otoritas.
 
@@ -281,11 +281,11 @@ Ketika hiperinflasi terjadi, kita tidak lagi berbicara tentang 20% per tahun, me
 
 Sangat penting untuk memahami bahwa hiperinflasi tidak terjadi secara kebetulan, karena kapitalisme, atau karena serangan politik dari lawan. Hiperinflasi adalah konsekuensi langsung dari keputusan moneter yang buruk yang dibuat oleh para gubernur bank sentral dan politisi. Dampaknya mempengaruhi setiap warga negara dan bahkan berdampak pada generasi berikutnya. Kami mengundang Anda untuk meluangkan waktu lima menit membaca tabel berikut ini untuk sepenuhnya menyadari dampak nyata dari fenomena ini (kursus ECO204 akan membahas lebih lanjut mengenai hal ini). Seperti yang Anda lihat, tidak ada negara atau mata uang yang berpotensi aman.
 
-![image](assets/id/16.webp)
+![image](assets/id/016.webp)
 
 ### Apa saja fase-fase hiperinflasi?
 
-![image](assets/id/17.webp)
+![image](assets/id/017.webp)
 
 Agar hiperinflasi dapat terjadi, beberapa peristiwa tertentu harus terjadi.
 
@@ -301,7 +301,7 @@ Fase 3 - Lingkaran setan pencetakan uang
 
 - Dengan demikian, semakin banyak uang kertas yang dibutuhkan untuk membeli barang, yang berakibat pada kelangkaan uang kertas. Sebagai tanggapan, pemerintah terpaksa mencetak lebih banyak uang kertas, yang memicu inflasi lebih lanjut.
 
-![image](assets/id/18.webp)
+![image](assets/id/018.webp)
 
 Fase 4 - Munculnya mata uang baru
 
@@ -321,7 +321,7 @@ Mata uang Jerman menjadi sangat tidak berguna sehingga beberapa warga lebih memi
 
 Pada akhirnya, pihak berwenang menciptakan mata uang baru, yang didukung oleh utang Jerman, Prancis, dan Inggris, dan dijamin oleh tanah Jerman.
 
-![image](assets/id/19.webp)
+![image](assets/id/019.webp)
 
 - Hungaria, 1945-1946
 
@@ -331,7 +331,7 @@ Hongaria berada di pihak yang kalah dalam konflik ini, dengan sebagian besar kap
 
 Uang kertas terakhir yang diedarkan adalah 100 juta miliar Pengo (100.000.000.000.000) pada tahun 1946.
 
-![image](assets/id/20.webp)
+![image](assets/id/020.webp)
 
 - Zimbabwe, 2007-2008
 
@@ -360,7 +360,7 @@ https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Bitcoin adalah mata uang digital terdesentralisasi dengan jumlah maksimum yang telah ditentukan sebelumnya, yaitu 21 juta unit. Karakteristik kelangkaan intrinsik ini ditentukan oleh kode komputernya dan diperkuat oleh konsensus semua pengguna yang berpartisipasi dalam protokol.
 
-![image](assets/id/21.webp)
+![image](assets/id/021.webp)
 
 Penerbitan moneternya dapat diilustrasikan dengan kurva yang mewakili jumlah bitcoin yang dibuat dari waktu ke waktu. Sebagai contoh, pada tahun 2022, sekitar 18,5 juta bitcoin beredar. Perkiraan menunjukkan bahwa pada tahun 2025, akan ada sekitar 19,5 juta bitcoin, yang mewakili sekitar 93% dari total pasokan, dan pada tahun 2037, angka ini akan mencapai 20,4 juta.
 
@@ -368,7 +368,7 @@ Penerbitan moneternya dapat diilustrasikan dengan kurva yang mewakili jumlah bit
 
 Penciptaan bitcoin baru adalah hasil dari proses penambangan. Singkatnya, para penambang menggunakan komputer canggih untuk memecahkan masalah matematika yang kompleks, yang memvalidasi dan mengamankan transaksi. Setelah masalah terpecahkan, penambang menambahkan blok transaksi baru ke dalam blockchain, sebuah buku besar terdesentralisasi dan terdistribusi yang mencatat semua transaksi yang dilakukan di jaringan. Blockchain memastikan transparansi dan keamanan, karena setiap blok terhubung dengan blok sebelumnya, sehingga hampir tidak mungkin untuk mengubah data sebelumnya tanpa persetujuan dari jaringan.
 
-![image](assets/id/22.webp)
+![image](assets/id/022.webp)
 
 Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "halving"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
 
@@ -405,7 +405,7 @@ Batas 21 juta adalah dasar dari kelangkaan Bitcoin, dan dijamin oleh dua mekanis
 
 Kesulitan untuk menemukan hash yang valid mengikuti sebuah siklus: jika jumlah penambang meningkat, itu berarti jumlah blok yang mereka temukan lebih tinggi, yang menyebabkan penurunan waktu rata-rata untuk menemukan sebuah blok. Oleh karena itu, tingkat kesulitannya pun meningkat. Akibatnya, jumlah blok yang ditemukan penambang berkurang, yang berarti mekanismenya kembali ke rata-rata 10 menit per blok. Silakan lihat gambar di bawah ini untuk tampilan visual.
 
-![image](assets/id/23.webp)
+![image](assets/id/023.webp)
 
 Tahukah Anda bahwa para penambang diberi insentif untuk menambang sebuah blok untuk mendapatkan bitcoin baru melalui subsidi blok, serta biaya transaksi dari transaksi yang mereka masukkan ke dalam blok tersebut?
 
@@ -413,7 +413,7 @@ Dengan demikian, ketika jumlah bitcoin yang diterbitkan mendekati batas 21 juta,
 
 - Game Teori adalah konsep matematika yang mengandalkan rasionalitas manusia. Teori ini mengasumsikan bahwa setiap orang bertindak secara logis, berusaha untuk memaksimalkan keuntungan mereka sendiri sambil mempertimbangkan potensi keputusan orang lain. Dalam Bitcoin, game teori membantu memastikan bahwa mayoritas penambang dan pengguna akan bertindak demi kepentingan jaringan. Faktanya, karena perubahan protokol dipilih oleh para pengguna, setiap modifikasi pada protokol Bitcoin akan membutuhkan persetujuan dari seluruh komunitas pengguna, yang mana hal ini sangat kompleks. Jadi, jika seseorang ingin membuat 22 juta bitcoin, mereka harus meyakinkan semua pengguna untuk secara sukarela mendevaluasi tabungan mereka sendiri, yang tidak mungkin terjadi karena Bitcoin bersifat global dan tidak diatur oleh sebuah kelompok yang tersentral atau terpusat.
 
-![image](assets/id/24.webp)
+![image](assets/id/024.webp)
 
 Ide mendevaluasi mata uang bertentangan dengan filosofi dasar Bitcoin, sehingga perubahan dalam jumlah keseluruhan sangat tidak mungkin terjadi.
 
@@ -463,7 +463,7 @@ Dompet Bitcoin dapat memiliki banyak bentuk dan rupa: perangkat lunak di kompute
 
 Dengan demikian, portofolio dapat dikategorikan ke dalam kelompok penggunaan yang luas, yang selalu berpusat pada pertanyaan kunci: apakah Anda pemilik dana atau Anda menyerahkan kendali atas uang Anda kepada pihak ketiga? Kita akan membahas topik ini secara mendetail pada bab berikutnya, namun pertanyaannya tetap sederhana: apakah uang itu ada di kantong Anda atau di kantong bankir Anda?
 
-![image](assets/id/25.webp)
+![image](assets/id/025.webp)
 
 ### Bagaimana cara kerja dompet Bitcoin?
 
@@ -485,13 +485,13 @@ Alamat-alamat ini secara otomatis dibuat oleh dompet Anda dan dapat dibagikan de
 
 Singkatnya, teknologi ini memberdayakan kita untuk menerima bitcoin tanpa memungkinkan penerima untuk mencuri dana kita! Sebuah kotak surat bisa menjadi metafora yang tepat: orang bisa menyetor uang ke dalamnya, tetapi hanya Anda yang bisa membukanya.
 
-![image](assets/id/26.webp)
+![image](assets/id/026.webp)
 
 ### Apakah bitcoin ada di dalam dompet?
 
 Walaupun kunci Anda disimpan di dalam dompet, bitcoinya itu sendiri sebenarnya "tersimpan" di dalam blockchain Bitcoin, yang merupakan sebuah buku besar terdistribusi publik di dalam jaringan peer-to-peer Bitcoin (kita akan membahasnya di bagian 3). Ini berarti bahwa kehilangan perangkat yang berisi dompet Anda tidak serta merta mengakibatkan hilangnya bitcoin Anda. Yang memungkinkan Anda untuk membuat ulang dompet Anda dan membelanjakan bitcoin Anda sebenarnya adalah kunci privat, jadi ingatlah selalu untuk mengamankannya dengan baik!
 
-![image](assets/id/27.webp)
+![image](assets/id/027.webp)
 
 Untungnya, sejak tahun 2017, kunci pribadi dapat diwakili oleh sebuah daftar sederhana yang terdiri dari 12 atau 24 kata, yang dikenal sebagai 'mnemonic phrase, yang cukup mudah untuk disimpan. Frasa ini berfungsi sebagai cadangan untuk dana Anda dan memungkinkan Anda untuk membuat ulang dompet Anda menggunakan perangkat lunak atau aplikasi dompet Bitcoin. Oleh karena itu, siapa pun yang menemukan daftar kata ini dapat mengakses bitcoin Anda.
 
@@ -499,7 +499,7 @@ Untungnya, sejak tahun 2017, kunci pribadi dapat diwakili oleh sebuah daftar sed
 
 Bagaimana jika seseorang secara tidak sengaja menebak daftar 12 atau 24 kata yang kita miliki? Jawaban singkatnya adalah hal ini sangat tidak mungkin terjadi, berkat kriptografi yang digunakan untuk membuat dompet. Sebagai gambaran, secara tidak sengaja menemukan frasa mnemonic yang sama sama halnya dengan menemukan angka yang "tepat" antara 1 dan 2 pangkat 256, yang hampir sama dengan menemukan atom yang "tepat" di alam semesta. Akan tetapi, jika Anda tidak puas dengan keamanan default ini, Anda dapat meningkatkannya dengan menambahkan kata sandi (sebuah kata tambahan) ke dalam dompet Bitcoin Anda.
 
-![image](assets/id/28.webp)
+![image](assets/id/028.webp)
 
 Dengan demikian, kemungkinan peretasan dompet Bitcoin Anda sangat kecil jika Anda mengikuti praktik keamanan yang baik yang akan kami jelaskan di bagian selanjutnya.
 
@@ -524,7 +524,7 @@ Ketika Anda memiliki bitcoin, keamanan dana Anda menjadi perhatian utama. Cara t
 
 Sebenarnya tidak ada jawaban atau solusi universal, jadi luangkan waktu untuk menjawab pertanyaan-pertanyaan ini, karena ini akan membantu menyesuaikan langkah-langkah keamanan Anda dengan kebutuhan Anda.
 
-![image](assets/id/29.webp)
+![image](assets/id/029.webp)
 
 ### Berpikir tentang dompet Bitcoin dalam hal kerumitanya
 
@@ -532,7 +532,7 @@ Di bawah ini, kami akan mendefinisikan beberapa tingkat keamanan:
 
 - Level 0\*\*, Anda menggunakan apa yang disebut "layanan kustodian" di mana Anda bukan satu-satunya pemegang bitcoin Anda. Perlu diketahui bahwa pihak ketiga tepercaya ini dapat membatasi akses Anda ke dana Anda kapan saja. Dalam hal ini, tingkat kedaulatan keuangan Anda mirip dengan sistem perbankan tradisional dengan rekening bank.
 
-![image](assets/id/30.webp)
+![image](assets/id/030.webp)
 
 - Level 1\*\*, Anda menggunakan dompet Bitcoin di ponsel atau komputer Anda, di mana Anda adalah satu-satunya pemegang bitcoin Anda dan Anda dapat dengan mudah melakukan transaksi. Alat yang disebutkan di atas disebut sebagai "hot wallet", karena kunci pribadi disimpan di perangkat yang memiliki akses internet. Dalam hal ini, sangat penting untuk membuat mnemonic phrase cadangan Anda untuk mendapatkan kembali akses ke dana Anda jika Anda kehilangan ponsel atau komputer Anda.
 
@@ -550,7 +550,7 @@ https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672
 
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
-![image](assets/id/31.webp)
+![image](assets/id/031.webp)
 
 - Level 3**, anda menggunakan dompet level 1 atau 2, tetapi anda menambahkan sebuah kata sandi tambahan. Dalam kasus ini, perlu diketahui bahwa Anda perlu membuat cadangan baik daftar 12/24 kata **dan\*\* kata sandi Anda. Idealnya, kedua informasi ini disimpan di dua tempat yang berbeda.
 
@@ -558,11 +558,11 @@ Untuk mempelajari lebih lanjut tentang penggunaan dan fungsi frasa sandi BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![image](assets/id/32.webp)
+![image](assets/id/032.webp)
 
 - Level 4\*\*, Anda menggunakan satu set dompet untuk membuat sebuah dompet "multisig", yang berarti dibutuhkan beberapa tanda tangan untuk melakukan sebuah transaksi. Dalam hal ini, perlu diketahui bahwa setiap bagian dari multisig harus disimpan di lokasi yang berbeda. Pendekatan ini sering dianggap sebagai penggunaan Bitcoin tingkat lanjut, terutama untuk mengelola jumlah yang besar dan untuk tujuan korporat.
 
-![image](assets/id/33.webp)
+![image](assets/id/033.webp)
 
 Tentu saja, kasus penggunaan yang berbeda juga membutuhkan dompet Bitcoin yang berbeda, dan tidak ada solusi yang cocok untuk semua.
 
@@ -599,13 +599,13 @@ Anda harus benar-benar mengambil selembar kertas kosong atau mencetak [template]
 
 Silakan lihat contoh cara menyusun makalah di bawah ini: kata-kata tersebut palsu, jadi jangan gunakan!
 
-![image](assets/id/34.webp)
+![image](assets/id/034.webp)
 
 ### Kiat kami untuk melakukannya dengan benar
 
 Selain itu, pastikan untuk tidak membuat kesalahan saat menyalin, jika tidak, ahli waris Anda mungkin akan kesulitan membacanya dan mungkin tidak dapat memulihkan dana tersebut. Selain itu, setelah Anda menyimpan kata-katanya, disarankan untuk membuat salinan kedua dan menyimpannya di lokasi yang berbeda dari yang pertama. Hal ini memastikan Anda memiliki cadangan jika dokumen asli hilang atau rusak.
 
-![image](assets/id/35.webp)
+![image](assets/id/035.webp)
 
 Daftar kata harus disimpan di tempat yang aman dan mudah diingat. Hindari membuat rencana penyembunyian yang terlalu rumit yang dapat menyebabkan hilangnya daftar kata tersebut.
 
@@ -631,7 +631,7 @@ Salah satu metode untuk mengamankan bitcoin Anda dalam jangka panjang adalah den
 
 Berbagai solusi tersedia: beberapa di antaranya berbiaya rendah, seperti "Blockmit", sementara yang lain mungkin memerlukan peralatan yang lebih khusus. Anda dapat menjelajahi topik ini lebih lanjut di bagian [tutorial](https://planb.network/en/tutorials/wallet) di akademi kami.
 
-![image](assets/id/36.webp)
+![image](assets/id/036.webp)
 
 ### Pikirkan tentang generasi berikutnya!
 
@@ -639,7 +639,7 @@ Bersamaan dengan praktik pertama ini, membuat rencana warisan adalah langkah pen
 
 Jika Anda ingin menjelajahi lebih jauh subjek rencana warisan untuk bitcoin Anda, kami sarankan untuk membaca buku Pamela Morgan [Rencana Warisan Aset Kripto] (https://planb.network/resources/books/28) atau mendaftar di kursus BTC102, di mana kami memberikan panduan untuk membuat rencana Anda.
 
-![image](assets/id/37.webp)
+![image](assets/id/037.webp)
 
 ### Privasi itu penting
 
@@ -677,27 +677,27 @@ Sekarang kita telah membahas dasar-dasar dompet Bitcoin dan praktik terbaik untu
 
 ### Mari kita mulai dengan sedikit sejarah.
 
-![image](assets/id/38.webp)
+![image](assets/id/038.webp)
 
 Tanggal 31 Oktober 2008 menandai lahirnya teknologi keuangan baru yaitu Bitcoin. Pada hari ini, Satoshi Nakamoto yang tidak disebutkan namanya mempresentasikan inovasinya kepada dunia melalui sebuah email yang dikirim ke daftar e-mail cypherpunks, sebuah komunitas penggemar kriptografi yang didedikasikan untuk mempromosikan privasi di internet. Email ini berisi sebuah dokumen yang disebut "White Paper", yang mempresentasikan cara kerja Bitcoin.
 
 Inisiatif ini tidak langsung menimbulkan antusiasme, mungkin karena kegagalan sebelumnya dalam upaya menciptakan sistem uang digital. Namun demikian, Buku Putih ini akhirnya menjadi referensi bagi para pengguna Bitcoin dan telah menjadi bahan perdebatan dalam ekosistem Bitcoin selama bertahun-tahun.
 
-![image](assets/id/39.webp)
+![image](assets/id/039.webp)
 
 Pada tanggal 3 Januari 2009, Satoshi secara resmi meresmikan jaringan Bitcoin dengan menciptakan blok pertama, yang juga dikenal sebagai "Genesis block", yang menandai peluncuran blockchain Bitcoin. Blok ini berisi sebuah pesan yang mencerminkan misi Bitcoin: "03/jan/2009 Chancellor on brink of second bailout for banks."
 
-![image](assets/id/40.webp)
+![image](assets/id/040.webp)
 
 > "Kita dapat memenangkan pertempuran besar dalam perlombaan senjata dan mendapatkan
 > wilayah kebebasan baru selama beberapa tahun." - Satoshi Nakamoto
-> ![image](assets/id/41.webp)
+> ![image](assets/id/041.webp)
 
 ### Protokol Bitcoin menjadi lebih hidup
 
 Pada tanggal 9 Januari 2009, Satoshi mengumumkan peluncuran Bitcoin versi 0.1.0. Tak lama setelah itu, Hal Finney memegang perangkat lunak dan bergabung dengan jaringan, yang menandai kehadiran dua node dan, oleh karena itu, dua penambang dalam jaringan. Finney bahkan mengabadikan langkah ini dengan men-tweet, 'Menjalankan Bitcoin'. Pada tanggal 12 Januari 2009, transaksi Bitcoin pertama sebesar 10 BTC dilakukan antara Satoshi dan Hal Finney, dan Anda dapat dengan mudah menemukannya, jika Anda kembali ke blok 170.
 
-![image](assets/id/42.webp)
+![image](assets/id/042.webp)
 
 Ketertarikan terhadap Bitcoin tumbuh dengan cepat, membuat banyak orang mengujinya, terlibat dalam perdebatan, memecahkan masalah, dan merefleksikan aspek etika, ekonomi, dan filosofinya. Orang-orang begitu terpikat sehingga Satoshi menciptakan forum BitcoinTalk pada tanggal 22 November 2009, untuk memfasilitasi jenis konfrontasi ini.
 
@@ -705,7 +705,7 @@ Forum ini dengan cepat menjadi tempat diskusi yang disukai oleh para pengguna Bi
 
 \*\*Tahukah Anda? Pada tanggal 22 Mei 2010, Laszlo Hanyecz membuat sejarah dengan menawarkan untuk membeli dua pizza seharga 10.000 BTC: ini adalah pertama kalinya Bitcoin digunakan untuk membeli barang fisik.
 
-![image](assets/id/43.webp)
+![image](assets/id/043.webp)
 
 ### Hilangnya Satoshi Nakamoto
 
@@ -720,7 +720,7 @@ Bagi sebagian orang, Bitcoin didefinisikan sebagai entitas jamur seperti [miseli
 
 Untuk mempelajari lebih lanjut tentang tulisan-tulisan Satoshi Nakamoto, kami sarankan untuk membaca ["The Book of Satoshi"] (https://planb.network/en/resources/books/98) oleh Phil Champagne atau film dokumenter ARTE "Le mystaire Satoshi".
 
-![image](assets/id/44.webp)
+![image](assets/id/044.webp)
 
 > "Akar masalah dari mata uang konvensional adalah dibutuhkan kepercayaan untuk membuatnya berjalan. Bank sentral harus dipercaya untuk tidak men-devaluasi nilai mata uang, namun sejarah mata uang fiat penuh dengan pelanggaran kepercayaan tersebut. Bank harus dipercaya untuk menyimpan uang kita dan mentransfernya secara elektronik, tetapi mereka meminjamkannya dalam gelombang gelembung kredit dengan cadangan yang nyaris tidak ada" - [Satoshi Nakamoto] (https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 > Setelah mengetahui latar belakangnya, mari kita lihat bagaimana cara kerja transaksi Bitcoin secara umum.
@@ -741,7 +741,7 @@ Setelah itu, Bob melakukan transaksi dengan membuka dompet Bitcoinnya dan meneka
 
 Untuk menyelesaikan transaksi, Bob harus menandatanganinya dengan kunci pribadinya untuk memverifikasi bahwa ia adalah pemilik bitcoin yang ingin ia transfer. Langkah ini biasanya dilakukan secara otomatis pada dompet seluler, atau dalam bentuk konfirmasi pada dompet fisik Anda: "Apakah Anda yakin ingin mengirim X ke Y? Ya atau tidak".
 
-![image](assets/id/45.webp)
+![image](assets/id/045.webp)
 
 \*\*Mengapa kita membayar biaya? Biaya sangat penting untuk menciptakan pasar bebas untuk memasukkan transaksi ke dalam blok. Faktanya, sebuah blok memiliki ukuran 1 MB (yang diperluas menjadi 4MB setelah pembaruan Segwit), sehingga jumlah transaksi yang dapat "disisipkan" ke dalam sebuah blok terbatas pada beberapa ribu transaksi per blok. Ukuran sebuah transaksi tergantung pada kompleksitasnya. Oleh karena itu, transaksi yang lebih kompleks biasanya dikenakan biaya yang lebih tinggi.
 
@@ -749,25 +749,25 @@ Untuk menyelesaikan transaksi, Bob harus menandatanganinya dengan kunci pribadin
 
 Pada tahap ini, transaksi telah dibuat dan dompet Bob akan membagikanya dengan jaringan Bitcoin. Untuk melakukan hal ini, dompetnya akan berkomunikasi dengan sebuah node di jaringan Bitcoin, yang akan menyebarkan informasi ini ke node lainnya. Proses semacam ini memungkinkan seluruh jaringan untuk melihat transaksi baru ini dan memperhitungkannya.
 
-![image](assets/id/46.webp)
+![image](assets/id/046.webp)
 
 Pada titik ini, walaupun transaksi ini diketahui oleh semua orang (melalui alat yang disebut Mempool), transaksi ini tidak dapat dianggap terkonfirmasi hingga dimasukkan ke dalam blok oleh seorang penambang, yang merupakan satu-satunya orang yang memvalidasi transaksi dengan memasukkannya ke dalam blockchain.
 
 Faktanya, para penambang memiliki peran untuk mengumpulkan transaksi yang valid dan belum dikonfirmasi untuk disusun menjadi sebuah blok. Singkatnya, mereka harus memecahkan teka-teki kriptografi dalam sebuah proses yang disebut 'proof of work atau "bukti kerja" agar blok mereka menjadi blok berikutnya dalam blockchain Bitcoin.
 
-![image](assets/id/47.webp)
+![image](assets/id/047.webp)
 
 ### Langkah 3: Transaksi ditambang dalam sebuah blok oleh penambang.
 
 Sistem Proof of work membutuhkan pencarian "hash" yang valid untuk blok yang bersangkutan: anggap saja sebagai sidik jari unik yang terkait dengan blok tersebut, yang terdiri dari 256 karakter. Validitas hash ini bergantung pada tingkat kesulitan jaringan Bitcoin (kita akan membahasnya lebih lanjut nanti). Untuk saat ini, anggap saja seorang penambang telah menemukan sebuah blok yang valid, dan transaksi Bob ke Alice termasuk di dalamnya. Kemudian, blok baru yang valid tersebut ditambahkan ke dalam blockchain, yaitu buku besar umum untuk semua pengguna Bitcoin.
 
-![image](assets/id/48.webp)
+![image](assets/id/048.webp)
 
 ### Langkah 4: Blok tersebut valid dan diverifikasi oleh simpul rujukan Alice.
 
 Pada tahap ini, transaksi dianggap sah: penambang akan menyebarkan blok baru ke jaringan melalui node mereka, dan dompet Alice akan diperbarui.
 
-![image](assets/id/49.webp)
+![image](assets/id/049.webp)
 
 **Catatan:** Meskipun Alice diberitahu bahwa ia telah menerima bitcoin di salah satu alamatnya, disarankan untuk menganggap transaksi tersebut tidak akan dapat dirubah jika sudah menerima **enam** konfirmasi. Ini berarti enam blok tambahan harus ditambang di atas blok yang berisi transaksi Bob. Dengan kata lain, semakin lama sebuah transaksi berada di dalam blockchain, maka semakin tidak dapat dirubah.
 
@@ -796,7 +796,7 @@ Node adalah elemen fundamental dalam arsitektur jaringan Bitcoin, karena node me
 
 Oleh karena itu, setiap perangkat yang menjalankan perangkat lunak Bitcoin, yang disebut Bitcoin node (sering kali menggunakan [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), berkontribusi pada desentralisasi jaringan.
 
-![image](assets/id/50.webp)
+![image](assets/id/050.webp)
 
 ### Node adalah inti utama dari Bitcoin.
 
@@ -804,7 +804,7 @@ Setiap node menyimpan salinan blockchain, yang memungkinkan verifikasi transaksi
 
 Node mampu memverifikasi keabsahan blok dan transaksi karena mereka mengikuti aturan konsensus Bitcoin. Aturan-aturan ini menetapkan kebijakan moneter Bitcoin, seperti jumlah upah penambang (yang akan kita bahas secara lebih rinci di bagian selanjutnya) dan jumlah bitcoin yang beredar. Di satu sisi, node bertindak sebagai sistem hukum jaringan karena semua peserta jaringan mengikuti aturan yang sama, sehingga memastikan netralitas protokol Bitcoin. Aturan konsensus hampir tidak pernah berubah, jika ada, karena untuk membuat perubahan, diperlukan persetujuan dari semua node.
 
-![image](assets/id/51.webp)
+![image](assets/id/051.webp)
 
 Tata kelola dalam protokol berada di luar cakupan kursus dasar ini, tetapi penting untuk dicatat bahwa setiap pengguna yang menjalankan node Bitcoin dapat memutuskan aturan mana yang akan diikuti. Seorang pengguna dapat memilih untuk mengikuti aturan yang berbeda (misalnya, melakukan modifikasi pada kode), tetapi jika perubahan ini membatalkan aturan konsensus saat ini, maka node tersebut tidak lagi menjadi bagian dari jaringan Bitcoin. Oleh karena itu, modifikasi besar jarang terjadi dan membutuhkan koordinasi yang signifikan di antara ribuan partisipan dengan ideologi dan kepentingan yang beragam, yang memaksa mereka untuk memberikan pembaruan yang dianggap 'lebih baik' oleh semua pengguna Bitcoin.
 
@@ -812,7 +812,7 @@ Tata kelola dalam protokol berada di luar cakupan kursus dasar ini, tetapi penti
 
 Ada beberapa opsi yang tersedia ketika Anda ingin memasang node Anda sendiri, dengan biaya pemeliharaan yang berbeda. Anda cukup menjalankan perangkat lunak Bitcoin Core di komputer Anda, tetapi ini akan membutuhkan ruang penyimpanan yang cukup besar, karena ukuran blockchain sekitar ~500GB. Untuk mengatasi kendala ini, Anda dapat memilih untuk hanya menyimpan N blok terakhir dalam memori dengan membuat "pruned node". Untuk solusi kedua ini, biayanya dapat diabaikan karena node hanya aktif ketika Anda membutuhkannya.
 
-![image](assets/id/52.webp)
+![image](assets/id/052.webp)
 
 Pilihan kedua adalah menggunakan perangkat keras khusus untuk tujuan ini, seperti Raspberry Pi 4 dengan SSD yang cukup besar (sekitar ~2TB). Pilihan lain ini lebih mahal jika Anda harus membeli perangkat kerasnya, tetapi ini mewakili kurang dari €10,00 per tahun dalam hal konsumsi listrik.
 
@@ -824,7 +824,7 @@ Biaya yang terjangkau dan aksesibilitas node Bitcoin dalam hal sumber daya peran
 
 Memang, setiap orang memiliki alasan yang bagus untuk menjalankan sebuah node! Biaya dan usaha yang dikeluarkan sangat kecil dibandingkan dengan manfaat yang diperoleh. Anda hanya perlu memulai petualangan dan bergabung dengan ribuan bitcoiners lainnya untuk membentuk jaringan Bitcoin bersama-sama.
 
-![image](assets/id/53.webp)
+![image](assets/id/053.webp)
 
 Sebaliknya, jika blok-blok tersebut 100 kali lebih besar, kita tentu saja dapat melakukan 100 kali lebih banyak transaksi setiap 10 menit, tetapi menjalankan sebuah node Bitcoin akan membutuhkan hard disk sebesar 50TB, bandwidth lebih dari 500GB/bulan, dan perangkat keras yang dapat memvalidasi ratusan ribu transaksi dalam waktu kurang dari 10 menit. Dalam situasi hipotetis dengan blok yang 100 kali lebih besar, menjalankan sebuah node Bitcoin tidak akan dapat diakses oleh kebanyakan orang, yang akan membahayakan desentralisasi protokol dan kekekalan transaksi serta aturan konsensus.
 
@@ -838,7 +838,7 @@ Setelah kemenangan ini, node-node tersebut mengaktifkan pembaruan yang disebut S
 
 **Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin ASIC untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
 
-![image](assets/id/54.webp)
+![image](assets/id/054.webp)
 
 ### Penjelasan tentang Bukti Pekerjaan (Proof of Work)
 
@@ -854,17 +854,17 @@ Mesin-mesin tersebut beroperasi terus menerus, dan setelah rata-rata 10 menit, s
 
 Setiap 2016 blok (kira-kira setiap dua minggu), **penyesuaian tingkat kesulitan** menyeimbangkan kembali permainan penambangan global berdasarkan jumlah peserta. Penyesuaian ini diperlukan karena jumlah penambang dan daya komputasi gabungan mereka dapat bervariasi secara signifikan dari waktu ke waktu. Untuk mempertahankan target waktu blok, jaringan mengkalibrasi ulang tingkat kesulitan berdasarkan seberapa cepat blok 2016 terakhir ditambang. Jika blok-blok tersebut ditambang terlalu cepat, tingkat kesulitannya akan meningkat, sehingga lebih sulit untuk menemukan hash yang benar. Sebaliknya, jika ditambang terlalu lambat, tingkat kesulitannya akan berkurang, sehingga lebih mudah.
 
-![image](assets/id/55.webp)
+![image](assets/id/055.webp)
 
 ### Pertambangan terus berkembang
 
 Selama bertahun-tahun, para penambang telah melengkapi diri mereka dengan perangkat keras komputer yang semakin efisien untuk menghasilkan sebanyak mungkin hash per detik (HashRate) dengan menggunakan energi yang paling sedikit dengan cara yang seefektif mungkin. Penambang awal seperti Satoshi atau Hal Finney menambang hanya dengan menggunakan CPU mereka, kemudian penambang lainnya mulai menambang dengan kartu grafis mereka. Saat ini, para penambang menggunakan ASIC (Application-Specific Integrated Circuit): mesin yang dirancang khusus untuk menerapkan algoritme SHA256.
 
-![image](assets/id/56.webp)
+![image](assets/id/056.webp)
 
 Hashrate dari jaringan Bitcoin menunjukkan jumlah percobaan yang dilakukan per detik untuk menemukan blok berikutnya. Saat ini, hashrate bahkan telah melampaui 500 TH/s, yaitu 500.000 miliar percobaan per detik! Semakin tinggi hashrate global, semakin sulit bagi pelaku kejahatan untuk memonopoli sumber daya yang dibutuhkan untuk mendapatkan mayoritas kekuatan penambangan dan membelanjakan dana mereka lebih dari satu kali (masalah pembelanjaan ganda). Oleh karena itu, akan lebih ekonomis untuk mengikuti aturan protokol Bitcoin daripada melawannya.
 
-![image](assets/id/57.webp)
+![image](assets/id/057.webp)
 
 ### Apa saja yang dapat ditemukan dalam satu blok?
 
@@ -883,11 +883,11 @@ Jumlah subsidi ditentukan oleh aturan konsensus dan tergantung pada Epoch: **Had
 
 Memang, untuk blok pertama, subsidi blok adalah 50 bitcoin. Setiap 210.000 blok (kira-kira setiap 4 tahun), jumlah ini dikurangi setengahnya. Hari ini (tahun 2024), kita berada di Epoch ke-5, yang berarti subsidinya adalah 3,125 bitcoin. Singkatnya, ini adalah mekanisme otomatis yang melepaskan bitcoin baru di dalam sistem. Subsidi akan berkurang seiring berjalannya waktu, hingga mencapai batas penerbitan 21 juta bitcoin. Sudah ada lebih dari 19,4 juta bitcoin yang beredar, yaitu lebih dari 92%.
 
-![image](assets/id/58.webp)
+![image](assets/id/058.webp)
 
 Metode kompensasi yang kedua ditentukan oleh jumlah yang dipilih oleh pengguna untuk biaya transaksi, yang menunjukkan urgensi pengguna untuk memasukkan transaksi mereka ke dalam blok berikutnya. Karena penambang ingin memaksimalkan pendapatan mereka, mereka akan cenderung memprioritaskan transaksi dengan biaya transaksi yang tinggi.
 
-![image](assets/id/59.webp)
+![image](assets/id/059.webp)
 
 Untuk menstabilkan model bisnis mereka, yang bergantung pada upah yang mereka terima untuk setiap blok yang valid, para penambang sering kali membuat grup melalui "mining pool", di mana mereka mengumpulkan sumber daya komputasi mereka.
 
@@ -897,7 +897,7 @@ Singkatnya, inovasi Bitcoin adalah mengusulkan solusi untuk masalah pembelanjaan
 
 Namun, bagaimana hal ini dapat dilakukan tanpa perantara yang dapat dipercaya? Masalah ini digambarkan dengan baik melalui paradoks Jenderal Bizantium, sebuah masalah koordinasi informasi dalam sebuah sistem di mana berbagai aktor tidak dapat dipercaya. Dalam Masalah Jenderal Bizantium, sekelompok jenderal harus mengoordinasikan serangan ke sebuah kota, tetapi beberapa di antaranya mungkin adalah pengkhianat yang mencoba mengganggu rencana tersebut. Tantangannya adalah agar para jenderal yang setia mencapai konsensus apakah akan menyerang atau mundur, meskipun menerima pesan yang berpotensi menyesatkan dari pengkhianat.
 
-![image](assets/id/60.webp)
+![image](assets/id/060.webp)
 
 Oleh karena itu, Bitcoin merupakan sebuah solusi untuk menyelesaikan masalah ini, atau setidaknya untuk mengatasinya. Para "jenderal" Bitcoin, atau para penambang, memproduksi blok-blok (informasi) dan node Bitcoin memverifikasi transaksi keuangan dengan menggunakan aturan konsensus untuk memastikan keaslian informasi. Asimetri dalam biaya energi antara produksi dan verifikasi informasi memastikan keandalan informasi, tanpa pihak ketiga yang dapat dipercaya.
 
@@ -923,7 +923,7 @@ Pada bagian sebelumnya, kita telah memahami bahwa keamanan protokol Bitcoin berg
 
 Pertama, mari kita menilai secara kualitatif biaya lingkungan dari pertambangan. Seorang penambang harus memiliki mesin seperti ASIC dan sumber energi dalam bentuk listrik untuk menyalakan mesin tersebut. ASIC sebagian besar terbuat dari aluminium dan dapat didaur ulang atau digunakan kembali untuk tujuan lain (seperti yang ditunjukkan oleh proyek Attakaï yang dijelaskan dalam kursus kami MIN201), yang mengubah Antminer S9 menjadi pemanas ruangan). Oleh karena itu, perhatian utamanya adalah konsumsi energi.
 
-![image](assets/id/61.webp)
+![image](assets/id/061.webp)
 
 Konsumsi listrik mewakili hampir seluruh biaya yang dikeluarkan oleh seorang penambang. Oleh karena itu, mereka terdorong untuk mencari sumber listrik yang murah, sehingga mereka dapat pergi ke tempat-tempat di mana pembangkit listrik telah terpasang tetapi belum terhubung ke jaringan listrik di wilayah tersebut. Dalam hal ini, para penambang bertindak sebagai pembeli pilihan terakhir, sehingga pembangkit listrik dapat memperoleh pembiayaan bahkan sebelum terhubung ke jaringan listrik. Ketika jaringan listrik tersambung, permintaan listrik akan meningkat, yang akan menaikkan harga dan membuatnya kurang menguntungkan bagi para penambang untuk mendapatkan listrik di tempat-tempat tersebut. Karena mesin-mesin tersebut dapat dengan mudah dipindahkan, para penambang kemudian akan memutuskan untuk memindahkan instalasi mereka dan menetap lebih jauh di tempat yang permintaannya rendah dan begitu pula dengan harganya, biasanya di daerah di mana mereka dapat memperoleh energi dari pembangkit listrik ramah lingkungan.
 
@@ -933,11 +933,11 @@ Oleh karena itu, perdebatan mengenai dampak ekologis Bitcoin sering kali salah a
 
 Penting untuk ditekankan bahwa Bitcoin, sebagai sebuah penemuan revolusioner, menyediakan sarana bagi individu yang hidup di bawah penindasan finansial atau rezim diktator untuk memperjuangkan kebebasan mereka. Sebagai pilihan terakhir, Bitcoin menawarkan sebuah jalan menuju kemandirian finansial dengan menghindari sensor dan pembatasan perbankan. Lebih dari sekadar mata uang, Bitcoin berfungsi sebagai bentuk komunikasi dan simbol kebebasan, dan energi yang dikeluarkan oleh para penambang memainkan peran penting dalam mempertahankan kebebasan ini, memungkinkan pembebasan dari sistem keuangan yang didominasi oleh utang dan penciptaan moneter yang berlebihan oleh bank sentral.
 
-![image](assets/id/62.webp)
+![image](assets/id/062.webp)
 
-![image](assets/id/63.webp)
+![image](assets/id/063.webp)
 
-![image](assets/id/64.webp)
+![image](assets/id/064.webp)
 
 Bagi mereka yang tinggal di negara-negara dengan tingkat inflasi yang tinggi, Bitcoin adalah sebuah alat untuk bertahan hidup. Bitcoin menyediakan sarana untuk bertahan hidup dalam situasi keuangan yang genting. Selain itu, Bitcoin menawarkan sistem keuangan yang lebih adil dan tidak memihak, memberikan akses ke sumber daya keuangan kepada miliaran orang di seluruh dunia. Dengan perspektif ini, apakah konsumsi energi dapat dibenarkan?
 
@@ -947,13 +947,13 @@ Terakhir, sangat penting untuk mendiskusikan konsekuensi ekonomi dan lingkungan 
 
 Jika dibandingkan dengan sistem keuangan saat ini, sistem keuangan saat ini, karena mendorong konsumsi berlebihan dan utang, menimbulkan masalah serius. Faktor-faktor seperti kemudahan akses ke kredit, penerbitan moneter oleh bank, dan praktik fractional reserve banking, semuanya berkontribusi pada utang yang berlebihan dan, sebagai akibatnya, konsumsi yang berlebihan.
 
-![image](assets/id/65.webp)
+![image](assets/id/065.webp)
 
 Penting untuk mereformasi sistem moneter untuk mencerminkan kelangkaan sumber daya kita dengan kelangkaan mata uang kita. Hal ini akan mendorong konsumsi yang lebih bertanggung jawab dan memiliki visi jangka panjang. Sebaliknya, inflasi, dengan mendorong konsumsi dan investasi, memiliki dampak jangka panjang yang negatif terhadap lingkungan.
 
 Sistem keuangan saat ini selaras dengan gagasan ekonomi Keynesian, yang tidak seperti ekonomi Austria, tidak memperhitungkan aspek temporal dan dinamis dari situasi dan sumber daya. Dengan kata lain, mata uang yang tidak terbatas tidak dapat secara efektif mewakili sumber daya yang terbatas di planet kita.
 
-![image](assets/id/66.webp)
+![image](assets/id/066.webp)
 
 Di sisi lain, para politisi biasanya memiliki visi jangka pendek dan mereka membutuhkan pertumbuhan ekonomi agar dapat terpilih kembali, sehingga mereka tidak dapat menyelesaikan masalah ekologi dalam jangka panjang. Sebaliknya, adopsi mata uang yang baik seperti Bitcoin adalah alternatif potensial yang dapat memberdayakan masyarakat secara ekonomi.
 
@@ -981,7 +981,7 @@ Dengan demikian, protokol Bitcoin merupakan sistem moneter yang tidak dapat dise
 
 Harga Bitcoin sering kali ditandai dengan volatilitas yang signifikan. Nilainya dapat berfluktuasi secara signifikan tergantung pada variasi pasar atau pada fase bullish dan bearish, seperti halnya pasar keuangan lainnya.
 
-![image](assets/id/67.webp)
+![image](assets/id/067.webp)
 
 Sederhananya, manusia cenderung membeli segala sesuatu sekaligus dan menjual segala sesuatu sekaligus. **Bitcoin tidak kebal terhadap sifat alamiah manusia.**
 
@@ -989,7 +989,7 @@ Sederhananya, manusia cenderung membeli segala sesuatu sekaligus dan menjual seg
 
 Perkembangan dan evolusi Bitcoin sebagian besar terkait dengan berbagai kelompok pelaku yang secara bertahap mengintegrasikan ekosistemnya.
 
-![image](assets/id/68.webp)
+![image](assets/id/068.webp)
 
 - Orang-orang yang beriman:
 
@@ -1015,7 +1015,7 @@ Fluktuasi yang signifikan ini membuat Bitcoin memiliki reputasi sebagai aset yan
 
 Volatilitas yang signifikan ini sepenuhnya diterima oleh para pelaku Bitcoin saat ini dan dapat dimitigasi dengan beberapa solusi seperti lindung nilai keuangan (stablecoin), keyakinan jangka panjang yang kuat (hodling), atau sekadar menghindari risiko menginvestasikan 100% dana seseorang dalam Bitcoin tanpa pemahaman yang kuat. Oleh karena itu, memahami mengapa harga Bitcoin berfluktuasi sangat tinggi sangat penting untuk kemajuan dalam industri ini, karena pada akhirnya pergerakan dan siklus harga yang membantu meredam dan mengatur pasar sampai batas tertentu. Namun, sangat penting untuk diperhatikan bahwa seiring dengan pertumbuhan dan kedewasaan Bitcoin, volatilitas akan berkurang dampaknya.
 
-![image](assets/id/69.webp)
+![image](assets/id/069.webp)
 
 Meskipun pasangan btc/dolar berfluktuasi dalam jangka pendek, bitcoin, karena jumlahnya yang terbatas yaitu 21 juta bitcoin dan proses halving-nya (membagi dua penciptaan moneter rata-rata setiap 4 tahun), mengikuti tren kenaikan secara umum dengan cara yang semu. Tentu saja, seperti aset keuangan lainnya, bitcoin tunduk pada siklus ekonomi termasuk periode euforia, gelembung spekulatif, dan koreksi. Fenomena ini sangat umum terjadi pada teknologi baru, di mana pasar tidak selalu rasional atau efisien.
 
@@ -1023,11 +1023,11 @@ Meskipun pasangan btc/dolar berfluktuasi dalam jangka pendek, bitcoin, karena ju
 
 Siklus gelembung spekulatif ini cukup unik di dunia, karena jarang sekali ada aset tunggal yang mengalami serangkaian gelembung seperti ini secara berurutan. Fenomena ini dapat dikaitkan dengan fakta bahwa Bitcoin bukan sekadar gelembung yang ditakdirkan untuk meledak. Melainkan, Bitcoin berfungsi sebagai mata uang yang secara aktif digunakan di seluruh dunia. Protokol Bitcoin menonjol karena kemampuannya untuk beroperasi dalam skala global, 24/7, yang memberikan tantangan yang signifikan bagi otoritas keuangan yang mencoba mengaturnya.
 
-![image](assets/id/70.webp)
+![image](assets/id/070.webp)
 
 Saat ini, Bitcoin terus bertahan dan semakin berkembang dengan semakin diintegrasikan ke dalam pasar tradisional, dan pengenalan ETF Bitcoin, peraturan yang lebih jelas, dan alat yang lebih baik untuk akuisisi dan penyimpanan, semuanya berkontribusi pada momentum positif ini. Bitcoin SEKALI LAGI selamat dari gelembung spekulatifnya, jadi mungkin Bitcoin bukan hanya angin lalu!
 
-![image](assets/id/71.webp)
+![image](assets/id/071.webp)
 
 
 ## Mendapatkan Bitcoin dengan Bekerja
@@ -1042,7 +1042,7 @@ Ekonomi Bitcoin ada dan sedang berkembang di daerah-daerah tertentu di dunia, se
 
 Namun, di El Salvador dan di bagian lain dunia, semakin banyak individu, bisnis, dan organisasi yang menerima Bitcoin sebagai alat pembayaran untuk produk atau layanan mereka.
 
-![image](assets/id/72.webp)
+![image](assets/id/072.webp)
 
 Selain itu, sebuah proyek open-source dan kolaboratif telah diluncurkan, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), untuk memfasilitasi penggunaan Bitcoin dalam transaksi sehari-hari. Platform ini mencantumkan semua pedagang yang menerima Bitcoin, serta berbagai komunitas Bitcoin di seluruh dunia, sehingga Anda dapat mengunjungi situs web mereka untuk menemukan ekosistem Bitcoin di sekitar Anda. Jadi, terlepas dari kesulitan dan keraguan, ada inisiatif seperti BTCMap yang berkontribusi untuk membuat ekonomi Bitcoin lebih mudah diakses dan nyaman bagi semua orang.
 
@@ -1052,7 +1052,7 @@ Untuk mendapatkan bitcoin, Anda bisa membelinya di platform yang diatur oleh org
 
 Selain itu, menerima Bitcoin sebagai pedagang memiliki beberapa keuntungan, termasuk resistensi terhadap sensor, pengurangan biaya transaksi, peningkatan efisiensi, perlindungan terhadap inflasi, serta kebebasan dan kedaulatan finansial.
 
-![image](assets/id/73.webp)
+![image](assets/id/073.webp)
 
 ### Bagaimana Anda dapat melanjutkan?
 
@@ -1111,7 +1111,7 @@ Secara konkret, ada dua pertanyaan yang perlu Anda tanyakan pada diri Anda sendi
 
 Strategi bertahap melibatkan pembelian berulang, yang berarti membeli sejumlah kecil Bitcoin secara berkala. Metode ini menghaluskan harga dari waktu ke waktu dan memberikan pertumbuhan berkelanjutan dalam jumlah bitcoin yang dimiliki. Ini adalah solusi ideal untuk tabungan jangka panjang, dan mengurangi kekhawatiran tentang volatilitas harga Bitcoin. Setelah diatur, Anda bisa melupakannya dan melihat investasi Anda tumbuh.
 
-![image](assets/id/74.webp)
+![image](assets/id/074.webp)
 
 **Waspadalah terhadap UTXO**: Ingatlah untuk menggabungkan UTXO Anda di dompet Anda dari waktu ke waktu. Praktik ini sangat penting untuk mengelola bitcoin Anda secara efektif dan menghindari biaya yang tidak perlu selama transaksi.
 
@@ -1148,7 +1148,7 @@ Penggunaannya sederhana dan dapat diakses oleh semua orang:
 
 4. Menarik bitcoin ke dompet Anda
 
-![image](assets/id/75.webp)
+![image](assets/id/075.webp)
 
 Setelah pembelian, disarankan untuk segera menarik bitcoin dari platform bursa untuk meminimalkan risiko peretasan dan pemblokiran dana. Ketahuilah bahwa biaya penarikan bisa tinggi, terkadang hingga 25 euro tergantung pada platformnya.
 
@@ -1166,7 +1166,7 @@ Selain itu, ada beberapa [pasar](https://planb.network/tutorials/exchange) tempa
 - Solusi peer-to-peer
 - Neobank beroperasi di negara-negara yang ramah terhadap Bitcoin.
 
-![image](assets/id/76.webp)
+![image](assets/id/076.webp)
 
 Terakhir, penting untuk diperhatikan bahwa kewajiban pajak dapat bervariasi tergantung pada yurisdiksi, jadi kami sangat menganjurkan Anda untuk membaca peraturan di negara Anda sebelum melakukan tindakan apa pun yang dapat menimbulkan risiko bagi Anda.
 
@@ -1178,17 +1178,17 @@ Terakhir, penting untuk diperhatikan bahwa kewajiban pajak dapat bervariasi terg
 
 Seperti teknologi baru lainnya, adopsi Bitcoin mengikuti kurva-S, yang menggambarkan perkembangan dari pengadopsi awal ke penerimaan yang lebih luas. Kita telah bergerak melampaui era pengguna awal, dan indikator-indikator menunjukkan potensi demokratisasi Bitcoin. Bagaimanapun juga, ini adalah teknologi viral yang tidak dapat dengan mudah dihentikan. Di satu sisi, El Salvador telah mengambil langkah berani dengan sepenuhnya mengadopsi Bitcoin sebagai alat pembayaran yang sah. Di sisi lain, negara-negara lain menanggapi dengan melarang dan mengkriminalisasi penggunaannya, yang menunjukkan bahwa adopsi Bitcoin itu kompleks dan terpapar oleh pengaruh faktor budaya, sejarah, dan nasional.
 
-![image](assets/id/77.webp)
+![image](assets/id/077.webp)
 
 Kemunculan Bitcoin memaksa perusahaan, universitas, regulator, dan individu untuk mempertimbangkan teknologi baru ini. Alat-alat baru perlu diciptakan, layanan perlu diadaptasi, dan inovasi harus terus dilakukan untuk memastikan kelangsungan hidupnya. Konteks ini menimbulkan banyak pertanyaan yang berkaitan dengan berbagai bidang, termasuk kriptografi, teori permainan, ekonomi dan kebijakan moneter, ilmu komputer, filosofi, energi, hukum, dan regulasi. Singkatnya, Bitcoin adalah subjek multidisiplin.
 
-![image](assets/id/78.webp)
+![image](assets/id/078.webp)
 
 ### Bitcoin adalah 0 sampai 1
 
 Pada akhirnya, kami mengundang Anda untuk merenungkan revolusi moneter yang baru ini. Ada begitu banyak hal yang dapat dieksplorasi dengan Bitcoin sehingga sulit untuk mengasimilasi semuanya sekaligus. Luangkan waktu Anda, Bitcoin tidak akan menghilang. Sebaliknya, revolusi ini baru saja dimulai. Kami percaya bahwa kami mampu menciptakan dunia yang ingin kami wariskan kepada anak-anak kami: dunia di mana kedaulatan manusia adalah hak, di mana privasi dihormati secara default, dan di mana uang tidak dimanipulasi. Kami berharap, bersama-sama, kita dapat mewujudkannya.
 
-![image](assets/id/79.webp)
+![image](assets/id/079.webp)
 
 Jika Anda ingin memperluas pengetahuan Anda mengenai Bitcoin, inilah saat yang tepat: banyak penulis, pemikir, dan penulis esai yang telah membuat konten edukasi mengenai Bitcoin. Selama beberapa tahun terakhir, kami telah membuat daftar dan mengkategorikan karya-karya tersebut untuk menawarkan [perpustakaan sumber daya] (https://planb.network/resources) kepada Anda yang paling ingin tahu di antara lingkungan Anda. Di bagian tersebut, Anda akan menemukan podcast, situs web, artikel, tutorial, buku, dan konten lainnya yang terbaik.
 
@@ -1212,7 +1212,7 @@ Lightning Network adalah sebuah teknologi revolusioner yang telah mengubah perse
 
 Untuk memahami Lightning Network sepenuhnya, sangat penting untuk memahami bagaimana Bitcoin berevolusi dan berkembang dalam lapisan-lapisan infrastruktur: lapisan pertama adalah blockchain, dan lapisan kedua adalah Lightning Network.
 
-![image](assets/id/80.webp)
+![image](assets/id/080.webp)
 
 ### Blockchain tidak dapat tumbuh tanpa batas waktu
 
@@ -1220,7 +1220,7 @@ Lightning Network divalidasi dan diimplementasikan pada tahun 2017 untuk memecah
 
 Masalah skalabilitas mengacu pada tantangan untuk mengimplementasikan sebuah sistem moneter yang mampu menyediakan jumlah transaksi yang terus meningkat per detiknya untuk menghadapi adopsi yang terus meningkat. Masalah ini berkaitan dengan trilema blockchain. Bayangkan sebuah segitiga dengan desentralisasi, keamanan, dan skalabilitas sebagai simpul-simpulnya.
 
-![image](assets/id/81.webp)
+![image](assets/id/081.webp)
 
 Menurutnya, protokol yang berdasarkan pada blockchain hanya dapat memenuhi dua dari tiga fitur ini. Dalam protokol Bitcoin, para pengembang telah membuat pilihan untuk mengutamakan desentralisasi dan keamanan. Di satu sisi, ukuran blok 1MB dan waktu antara dua blok (rata-rata 10 menit) memungkinkan untuk menjalankan sebuah node Bitcoin dengan biaya yang lebih rendah, mendukung desentralisasi. Di sisi lain, produksi blok melalui Proof-of-Work membuat penipuan dalam protokol menjadi sangat mahal, sekaligus memfasilitasi verifikasi oleh node jaringan dan mendukung keamanan. Akan tetapi, pilihan ini memberikan batasan pada jumlah rata-rata transaksi dalam sebuah blok, yang secara kasar setara dengan beberapa transaksi per detik. Jumlah ini tidak masuk akal jika dibandingkan dengan kapasitas komputasi prosesor pembayaran seperti VISA (1700/s), tetapi batas ini diperlukan untuk bertransaksi dengan Bitcoin dengan cara yang anti sensor dan tidak membutuhkan kepercayaan. Namun demikian, mereka yang mengembangkan Bitcoin telah memikirkan masalah ini sejak awal.
 
@@ -1228,11 +1228,11 @@ Menurutnya, protokol yang berdasarkan pada blockchain hanya dapat memenuhi dua d
 
 Setelah melalui pertimbangan dan berbagai percobaan selama bertahun-tahun, protokol Lightning muncul. Dengan menggunakan sejumlah spesifikasi, protokol ini membangun sebuah jaringan pembayaran peer-to-peer dengan memanfaatkan keamanan dan kemampuan pemrograman protokol transaksi Bitcoin. Jaringan Lightning bertindak sebagai jaringan saluran pembayaran, memungkinkan transaksi instan dengan biaya rendah untuk pengirim, dan bahkan menciptakan rute pertukaran antara individu yang tidak memiliki koneksi saluran langsung.
 
-![image](assets/id/82.webp)
+![image](assets/id/082.webp)
 
 Layanan pengiriman uang tradisional seperti Western Union, bank sentral, Visa, dan Mastercard dapat menghilang jika mereka tidak mengadopsi teknologi Lightning Network, yang lebih efisien dan hemat biaya daripada sistem pembayaran saat ini. Faktanya, Lightning Network memungkinkan transaksi yang hampir tidak terbatas antara dua rekan yang berbagi saluran, hanya mengeluarkan biaya energi yang terkait dengan transaksi untuk mengumumkan pembuatan saluran, bukan pada setiap transaksi individu.
 
-![image](assets/id/83.webp)
+![image](assets/id/083.webp)
 
 Transaksi diamankan melalui kriptografi dan secara tidak langsung melalui energi yang dikonsumsi oleh para penambang Bitcoin. Transaksi dapat dilakukan secara instan, tanpa batasan geografis, dengan biaya yang sangat rendah (seringkali kurang dari 0,5%).
 
@@ -1258,19 +1258,19 @@ Jaringan peer-to-peer ini bertujuan untuk memfasilitasi transaksi mikro (dengan 
 
 Teknologi ini membuka pintu ke berbagai aplikasi potensial untuk Bitcoin yang sebelumnya tidak terjangkau karena adanya batasan-batasan yang diperlukan untuk memastikan keamanan dan desentralisasi Bitcoin. Di antara kasus-kasus penggunaan sehari-hari ini, kita dapat menyebutkan tagihan instan dalam perdagangan fisik dan online, streaming uang untuk pembayaran real time, dan donasi mikro untuk para pembuat konten. Dengan memungkinkan jaringan transaksi yang hampir instan, aman, dan berbiaya rendah (rata-rata kurang dari 0,5%), banyak model bisnis yang sebelumnya tidak terbayangkan dapat direalisasikan. Hal ini dimungkinkan karena Lightning Network beroperasi menggunakan satoshi (sats), unit terkecil dari Bitcoin.
 
-![image](assets/id/84.webp)
+![image](assets/id/084.webp)
 
 Industri video game menawarkan contoh yang sangat menarik tentang bagaimana Lightning Network dapat digunakan untuk mengubah model bisnis yang sudah ada. Konsep "skin in the game" adalah ide yang baru-baru ini mendapatkan popularitas dalam konteks ini. Konsep ini pada dasarnya melibatkan keterlibatan finansial dalam hasil permainan. Faktanya, Lightning Network memungkinkan pemain untuk bertaruh dalam jumlah yang sangat kecil saat bermain game, seperti beberapa satoshi (sekitar sepersekian sen euro) untuk menetapkan taruhan yang merangsang persaingan sambil secara signifikan meningkatkan biaya penggunaan bot.
 
-![image](assets/id/85.webp)
+![image](assets/id/085.webp)
 
 Singkatnya, masa depan transaksi mikro dengan Bitcoin terlihat menjanjikan berkat inovasi seperti Lightning Network. Karena teknologi ini terus berkembang dan matang, kita bisa berharap untuk melihat aplikasi baru dan menarik muncul dalam waktu dekat.
 
-![image](assets/id/86.webp)
+![image](assets/id/086.webp)
 
 Contoh lainnya adalah "money streaming": melalui Lightning Network, kita dapat melakukan transaksi mikro setiap menit (mungkin tanpa pihak ketiga yang tepercaya), yang membuka pintu untuk bereksperimen dengan model ekonomi di mana konsumen membayar konten berdasarkan konsumsi mereka yang sebenarnya. Bahkan dapat dibayangkan untuk menggunakan sistem ini untuk menyewa barang. Dalam sistem seperti itu, uang secara otomatis dibagi, berdasarkan persentase yang telah ditentukan sebelumnya, di antara kontributor yang berbeda untuk suatu layanan atau produk. Hal ini dapat merevolusi cara kita berpikir tentang model pembayaran: alih-alih membayar langganan bulanan untuk sebuah layanan, pengguna dapat dikenakan biaya per menit, atau bahkan per detik, untuk waktu yang mereka habiskan untuk menggunakan layanan tersebut. Model ekonomi seperti ini dapat memberikan implikasi yang besar bagi para pembuat konten, yang akan terdorong untuk menghasilkan konten berkualitas agar dapat menarik perhatian pengguna.
 
-![image](assets/id/87.webp)
+![image](assets/id/087.webp)
 
 Kesimpulannya, Lightning Network membuka banyak kasus penggunaan yang menarik bagi pengguna Bitcoin. Model ekonomi dan peluang bisnis yang dihasilkan sangat banyak dan beragam, dan kami mendorong Anda untuk memeriksanya sendiri dengan mencoba aplikasi podcast [Fountain] (https://www.fountain.fm/), yang memungkinkan Anda untuk mendapatkan hadiah dengan mendengarkan podcast favorit Anda!
 
@@ -1364,3 +1364,6 @@ Apakah Anda siap untuk bergabung?
 <chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+
+
+

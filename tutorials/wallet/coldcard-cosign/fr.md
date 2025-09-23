@@ -3,7 +3,7 @@ name: ColdCard Co-Sign
 description: What is CoSign and how to use it on ColdCard devices ?
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 https://youtu.be/MjMPDUWWegw
 
@@ -127,7 +127,7 @@ Sur l'écran suivant, ne renseignez pas de "Account Number" (à moins que vous s
 Enfin nous voilà parés pour utiliser notre nouveau wallet multisig 2-sur-3 composé pour rappel de:
 
 Clé A= Coldcard Q master seed
-CléB= Backup Key (qu'on vient d'importer depuis un second appareil Coldcard)
+Clé B= Backup Key (qu'on vient d'importer depuis un second appareil Coldcard)
 Clé C= Spending Policy Key (qui si elle est utilisée pour signer, impose les conditions de dépense prédéfinie)
 
 ### Exporter le wallet multisig 2-sur-3 vers Sparrow Wallet 
@@ -216,7 +216,9 @@ Pas de problème cette fois, aucun message d'alerte n'apparait et quand on impor
 
 ### Exporter le wallet multisig 2-sur-3 vers Nunchuk
 
-Nous allons dans ce paragraphe utiliser notre wallet multisig Co-Sign avec Nuncuk, et en profitez pour appliquer de nouvelles conditions de dépenses pour voir comment cela se passe.
+[Plan ₿ Network - Nunchuk](https://planb.network/fr/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa)
+
+Nous allons dans ce paragraphe utiliser notre wallet multisig Co-Sign avec Nunchuk, et en profitez pour appliquer de nouvelles conditions de dépenses pour voir comment cela se passe.
 
 Allons dans *Avanced Tools > ColdCard Co-Signing*.
 Là on nous demandera de rentrer notre "Spending Policy Key", afin d'accéder au menu nous permettant de changer les conditions de dépenses. Dans notre cas nous rentrons 12 x "beef".
@@ -224,12 +226,12 @@ Là on nous demandera de rentrer notre "Spending Policy Key", afin d'accéder au
 Nous décidons de garder une "Limit Velocity" maximum pour des raisons pratiques liées à la réalisation de ce tutoriel. Par contre nous allons via le menu **"Whitelist Addresses"** imposer les adresses sur lesquelles pourrons être dépensés nos fonds.
 
 
-![Co-Sign](assets/fr/31.png)
+![Co-Sign](assets/fr/31.webp)
 
 
 Scannez les QR codes associés aux adresses que vous souhaitez ajouter dans votre liste blanche, puis cliquez sur **"ENTER"**. Après avoir validé vos adresses en appuyant successivement sur **"ENTER"**, nous voyons que des limites sur la Magnitude et les adresses bénéficiaires ont été appliquées.
 
-![Co-Sign](assets/fr/32.png)
+![Co-Sign](assets/fr/32.webp)
 
 Pour finir et afin d'avoir une vision exhaustive des possibilités offertes par "Co-Sign", activons l'option "Web 2FA".
 Cette fonctionnalité vous permet d'utiliser une application compatible TOTP RFC-6238 telle que Google Authenticator / Ente Auth / Proton Authenticator /  Authy 2FA /  ou encore Aegis Authenticator, pour ajouter une couche de sécurité supplémentaire.
@@ -247,19 +249,76 @@ Cette fonctionnalité vous permet d'utiliser une application compatible TOTP RFC
 
 
 
-![Co-Sign](assets/fr/33.png)
+![Co-Sign](assets/fr/33.webp)
 
 Après avoir scanné le QR code affiché et ajouter votre compte ColdCard Co-Sign (CCC) dans votre app préférée, il vous sera classiquement demandé de vérifier que tout est en ordre en renseignant votre code 2FA.
 
 Taper votre ColdCard au dos de votre appareil NFC.
 
-![Co-Sign](assets/fr/34.png)
+![Co-Sign](assets/fr/34.webp)
 
 Sur la page web qui s'ouvre, renseigner votre le code 2FA de votre application favorite. Puis scanné le QR code qui s'affiche avec votre ColdCardQ, ou renseignez dans votre Mk4 le code à 8 chiffres qui s'affiche.
 
-![Co-Sign](assets/fr/35.png)
+![Co-Sign](assets/fr/35.webp)
 
 
-Nous avons désormais
+Nous avons désormais imposée une limite sur la magnitude, les adresses de destinations, et la double authentification.
 
-![Co-Sign](assets/fr/36.png)
+![Co-Sign](assets/fr/36.webp)
+
+Exportons le wallet multisig 2-sur-3 dans Nunchuk cette fois, comme nous l'avons fait pour Sparrow précédemment.
+Allez dans *Settings > Multisig Wallets > 2/3: ColdCard Co-sign > ColdCard Export*.
+
+![Co-Sign](assets/fr/10.webp)
+
+Cette fois choisissez pour l'export l'option NFC en cliquant sur le bouton du même nom **"NFC"**.
+
+![Co-Sign](assets/fr/37.webp)
+
+Dans Nunckuck, si vous ouvrez l'application pour la première fois, cliquez sur  **"Recover existing wallet"**
+
+![Co-Sign](assets/fr/38.webp)
+
+Si vous avez déjà un wallet présent dans l'application, cliquez sur le **"+"** en haut à droite, puis **"Recover existing wallet"**.
+
+![Co-Sign](assets/fr/39.webp)
+
+
+Ensuite choisissez **"Recover wallet from COLDCARD"** puis **"Multisig wallet"**.
+
+![Co-Sign](assets/fr/40.webp)
+
+Enfin tapez le dos de votre smartphone à l'écran de votre ColdCardQ pour importer le wallet via NFC.
+
+![Co-Sign](assets/fr/41.webp)
+
+![Co-Sign](assets/fr/42.webp)
+
+Essayons maintenant de réaliser une transaction qui viole 2 conditions de dépenses que nous avons fixés. Nous allons essayer de dépenser plus de 21212 sats vers une adresse qui n'a pas été approuvée. Essayons d'envoyer 22 222 sats vers une adresse aléatoire.
+
+![Co-Sign](assets/fr/43.webp)
+
+Une fois la transaction créée, cliquez sur les 3 petits points en haut à droite pour l'exporter vers votre ColdCard.
+
+![Co-Sign](assets/fr/44.webp)
+
+Puis choisissez **"Export via BBQR"**, et scannez le QR code affiché à l'aide de votre ColdCardQ.
+
+![Co-Sign](assets/fr/45.webp)
+
+Votre ColdcardQ vous affiche un avertissement, qui si on fait défiler l'écran jusqu'en bas, nous indique que notre transaction viole les conditions de dépense comme attendu. On voit par exemple que l'appareil ne nous indique pas le détail des conditions de dépenses non respectées, pour éviter qu'une éventuel attaquant ait accès à des informations lui permettant de contourner les restrictions.
+
+
+![Co-Sign](assets/fr/46.webp)
+
+Si on valide quand même en appuyant sur **"ENTER"**  le QR code de la transaction signée apparait. Si on l'importe sur Nunckuk, on voit bien qu'une seule signature a été appliquée. 
+
+![Co-Sign](assets/fr/47.webp)
+
+
+
+
+
+
+
+Réalisons exactement la même opération, mais cette fois avec une transaction qui respecte la magnitude limite (21212 sats).

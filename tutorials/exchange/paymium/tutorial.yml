@@ -130,6 +130,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.38
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.32
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.43
 tags:
   - guides
   - user-friendly

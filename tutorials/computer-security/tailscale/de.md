@@ -1,5 +1,5 @@
 ---
-name: Heckwaage
+name: Tailscale
 description: Fortgeschrittenes Tailscale-Tutorial
 ---
 ![cover](assets/cover.webp)

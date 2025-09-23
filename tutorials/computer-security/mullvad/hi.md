@@ -1,5 +1,5 @@
 ---
-name: मुलवाड वीपीएन
+name: Mullvad VPN
 description: बिटकॉइन से भुगतान करके वीपीएन सेटअप करना
 ---
 ![cover](assets/cover.webp)

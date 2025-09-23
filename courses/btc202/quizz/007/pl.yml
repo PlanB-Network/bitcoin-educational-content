@@ -1,0 +1,9 @@
+question: Co musi zrobić Wallet, aby wyświetlić status Blockchain?
+answer: Połączenie z węzłem lokalnym lub zdalnym
+wrong_answers:
+  - Zapytaj inne portfele w sieci
+  - Przeprowadzanie wywiadów z górnikami sieciowymi
+  - Połączenie z internetową platformą Exchange
+explanation: |
+  Wallet musi połączyć się z węzłem, aby uzyskać dostęp do statusu Blockchain i rozgłaszać swoje transakcje.
+reviewed: true

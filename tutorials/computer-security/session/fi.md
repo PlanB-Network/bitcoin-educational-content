@@ -1,5 +1,5 @@
 ---
-name: Istunto
+name: Session
 description: Lähetä salattuja viestejä, ei metatietoja
 ---
 ![cover](assets/cover.webp)

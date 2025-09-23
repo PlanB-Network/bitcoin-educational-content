@@ -1,5 +1,5 @@
 ---
-name: パイホール
+name: Pi-Hole
 description: ネットワーク全体の広告ブロッカー
 ---
 ![cover](assets/cover.webp)

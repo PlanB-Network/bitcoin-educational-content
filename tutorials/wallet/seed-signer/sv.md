@@ -1,5 +1,5 @@
 ---
-name: seed undertecknare
+name: SeedSigner
 
 description: Uppsättning av din seed-signatur
 ---

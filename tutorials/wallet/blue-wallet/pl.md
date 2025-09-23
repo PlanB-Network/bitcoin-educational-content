@@ -1,5 +1,5 @@
 ---
-name: Niebieski Wallet
+name: Blue Wallet
 
 description: Bitcoin Radykalnie prosty i potężny portfel
 ---

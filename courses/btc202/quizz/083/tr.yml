@@ -1,0 +1,9 @@
+question: Hangi ayar Bitcoin core'ı yalnızca Tor ağı üzerinden bağlanmaya zorlar?
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  Onlynet=onion seçeneği Tor ağına giden tüm bağlantıları kısıtlarken, listenonion=1 seçeneği yalnızca gelen Tor bağlantılarını dinlemenizi sağlar.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: 尾巴
+name: Tails
 
 description: 在 USB 鑰匙上安裝 Tails
 ---

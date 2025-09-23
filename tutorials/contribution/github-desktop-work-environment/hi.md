@@ -1,5 +1,5 @@
 ---
-name: GitHub डेस्कटॉप
+name: GitHub Desktop
 description: अपना स्थानीय कार्य वातावरण कैसे स्थापित करें?
 ---
 ![github](assets/cover.webp)

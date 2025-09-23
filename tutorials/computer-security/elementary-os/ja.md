@@ -1,5 +1,5 @@
 ---
-name: 初級OS
+name: Elementary OS
 description: WindowsとMacOSの理想的な置き換え
 ---
 

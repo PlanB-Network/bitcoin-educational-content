@@ -1,5 +1,5 @@
 ---
-name: アンブレル
+name: Umbrel
 description: Umbrelの発見とインストール - あなたのBitcoinノードとホームサーバー
 ---
 

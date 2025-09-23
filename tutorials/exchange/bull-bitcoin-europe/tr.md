@@ -1,5 +1,5 @@
 ---
-name: Boğa Bitcoin
+name: Bull Bitcoin
 description: Bull Bitcoin'de bitcoin alın ve satın
 ---
 ![cover](assets/cover.webp)

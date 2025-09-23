@@ -1,5 +1,5 @@
 ---
-name: Vihane IP-skanner
+name: Angry IP Scanner
 description: Lihtne viis oma võrgu skaneerimiseks
 ---
 ![cover](assets/cover.webp)

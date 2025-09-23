@@ -1,5 +1,5 @@
 ---
-name: Sứ giả
+name: Envoy
 description: Thiết lập và sử dụng Passport với ứng dụng Envoy
 ---
 ![cover](assets/cover.webp)

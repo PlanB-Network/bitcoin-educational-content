@@ -1,5 +1,5 @@
 ---
-name: Min nod
+name: My Node
 description: Ställ in din Bitcoin MyNode
 ---
 

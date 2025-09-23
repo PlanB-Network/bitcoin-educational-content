@@ -1,5 +1,5 @@
 ---
-name: Aegis 驗證器
+name: Aegis Authenticator
 description: 如何使用 Aegis Authenticator 以雙重認證保護您的帳戶？
 ---
 

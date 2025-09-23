@@ -1,5 +1,5 @@
 ---
-name: Portaal
+name: Portal
 description: De TwentyTwo-Devices Hardware Wallet-portal configureren en gebruiken
 ---
 ![cover](assets/cover.webp)

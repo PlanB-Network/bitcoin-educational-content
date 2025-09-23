@@ -1,5 +1,5 @@
 ---
-name: Prohlížeč Orion
+name: Orion Browser
 description: Jak používat Orion Browser k ochraně soukromí na Macu a iPhonu?
 ---
 

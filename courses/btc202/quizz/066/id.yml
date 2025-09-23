@@ -1,0 +1,9 @@
+question: Langkah-langkah keamanan apa yang sangat disarankan untuk melindungi akses ke Umbrel Anda?
+answer: Kata sandi panjang dan aktivasi 2FA
+wrong_answers:
+  - Penyimpanan SSD ganda
+  - Buka port RPC dalam teks biasa
+  - Kata sandi panjang dan aktivasi SSH
+explanation: |
+  Kombinasi kata sandi yang kuat dan autentikasi dua faktor (2FA) secara efektif melindungi akses ke Interface Umbrel.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mistä TTP:ssä on kyse?
+answer: Tavoitteena on erottaa uskonto ja valtio toisistaan.
+wrong_answers:
+  - Perustetaan teokratia.
+  - Anarkian puolustaminen.
+  - Kutsu vallankumoukseen.
+explanation: |
+  Teologis-poliittisen tutkielman päätavoitteena on erottaa uskonto ja valtio toisistaan. Siinä Spinoza puolustaa ajatusta, jonka mukaan valtion tulisi taata filosofoinnin vapaus ja että uskonto ei saisi puuttua poliittisiin asioihin.
+reviewed: false

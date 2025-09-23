@@ -1,5 +1,5 @@
 ---
-name: दूत
+name: Envoy
 description: एन्वॉय एप्लीकेशन के साथ पासपोर्ट सेट अप करना और उसका उपयोग करना
 ---
 ![cover](assets/cover.webp)

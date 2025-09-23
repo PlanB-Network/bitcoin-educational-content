@@ -1,5 +1,5 @@
 ---
-name: フェディ
+name: Fedi
 description: あなたのBitcoin super Wallet powered by コミュニティ
 ---
 

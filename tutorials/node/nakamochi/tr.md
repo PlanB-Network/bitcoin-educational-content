@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Çalıştırmak Artık Çok Kolay - Nakamochi Bitcoin ve Lightning node nasıl kurulur ve kullanılır.
+description: Node Çalıştırma Kolaylaştı - Nakamochi Bitcoin ve Lightning node’unu nasıl yapılandırıp kullanacağınız.
 ---
+
+![image](assets/cover.webp)
 
 Kendi Bitcoin ve Lightning Full node'inizi çalıştırmak artık teknik uzmanlarla sınırlı karmaşık bir görev olmak zorunda değil. Geleneksel olarak, düğümleri kurmak ve yönetmek kriptografi, ağ oluşturma ve yazılım geliştirme konularında derinlemesine bilgi sahibi olmayı gerektiriyordu. Nakamochi, teknik geçmişi ne olursa olsun düğümleri herkes için erişilebilir hale getirerek bunu değiştiriyor.
 
@@ -49,7 +51,7 @@ Nakamochi node'unuz, [BitBanana (Android)](https://bitbanana.app) ve [Zeus (iOS)
 
 ![image](assets/en/01.webp)
 
-_Celektriğe bağlanın ve 24 kelimelik seed cümlenizi yazın_
+_Güce bağlayın ve 24 kelimelik tohum ifadenizi yazın_
 
 
 ![image](assets/en/02.webp)
@@ -59,12 +61,12 @@ _Blockchain yetişene kadar bekleyin_
 
 ![image](assets/en/03.webp)
 
-_Yıldırım Sekmesinde yeni Wallet kurun_
+_Lightning Sekmesinde yeni cüzdan oluşturun_
 
 
 ![image](assets/en/04.webp)
 
-_Node Management Uygulaması ile QR Kodunu Tarayın_
+_QR Kodunu Node Yönetim Uygulaması ile tarayın_
 
 
 ![image](assets/en/05.webp)
@@ -72,12 +74,14 @@ _Node Management Uygulaması ile QR Kodunu Tarayın_
 _Ek güvenlik için bir PIN kodu ayarlayın_
 
 
-**Not:** _Nakamochi düğümünüzün Blockchain ile senkronize olmasına izin verin. Bu işlem internet bağlantınıza bağlı olarak biraz zaman alabilir._
+**Not:** _Nakamochi node’unuzun blok zinciri ile senkronize olmasına izin verin. Bu işlem, internet bağlantınıza bağlı olarak biraz zaman alabilir._
 
 
 
 ## Lightning Network Hakkında
 
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network, Bitcoin işlemlerini daha hızlı, daha ucuz ve daha verimli hale getirerek devrim yaratır. Günlük kullanım için mükemmeldir, minimum ücretlerle neredeyse anında ödeme yapılmasını sağlar, kahve satın almak veya sık sık yapılan küçük alışverişler gibi mikro işlemler için idealdir.
 
@@ -160,4 +164,4 @@ Genel olarak, maliyetleri azaltmak ve ağ güvenilirliğini ve verimliliğini ar
 
 
 - [Nakamochi Hakkında](https://nakamochi.io/)
-- [Nakamochi'nin Bültenine Abone Olun](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Nakamochi Bültenine Abone Olun](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

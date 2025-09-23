@@ -1,0 +1,9 @@
+question: 라이트닝 노드를 복원하려면 어떤 백업이 필요하나요?
+answer: seed 및 SCB
+wrong_answers:
+  - seed 및 txindex 파일
+  - seed 및 공용 IP Address
+  - seed 및 2FA
+explanation: |
+  라이트닝 노드를 복원하려면 seed와 SCB(정적 채널 백업)가 모두 필요하며, 이 두 가지가 없으면 채널 자금을 복구할 수 없습니다.
+reviewed: true

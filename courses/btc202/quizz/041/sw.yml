@@ -1,0 +1,9 @@
+question: Ni programu zipi za upangishaji binafsi zinaweza kusakinishwa kupitia Umbrel?
+answer: Nextcloud
+wrong_answers:
+  - Hifadhi ya Google
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel hutoa Duka la Programu na huduma za upangishaji wa kibinafsi, kama vile Nextcloud, kwa kuhifadhi na kusawazisha faili mwenyewe.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: モジラVPN
+name: Mozilla VPN
 description: デバイスとインターネット閲覧データを保護します。
 ---
 ![cover](assets/cover.webp)

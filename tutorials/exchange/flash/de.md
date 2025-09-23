@@ -1,5 +1,5 @@
 ---
-name: Blitzlicht
+name: Flash
 description: Kaufen Sie Bitcoins ab 100 CFA-Francs dank der Kraft von Lightning.
 ---
 

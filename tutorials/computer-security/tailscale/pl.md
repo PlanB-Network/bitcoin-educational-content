@@ -1,5 +1,5 @@
 ---
-name: Skala ogonowa
+name: Tailscale
 description: Zaawansowany samouczek Tailscale
 ---
 ![cover](assets/cover.webp)

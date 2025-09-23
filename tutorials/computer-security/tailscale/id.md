@@ -1,5 +1,5 @@
 ---
-name: Skala ekor
+name: Tailscale
 description: Tutorial Tailscale tingkat lanjut
 ---
 ![cover](assets/cover.webp)

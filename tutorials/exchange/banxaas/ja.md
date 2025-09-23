@@ -1,5 +1,5 @@
 ---
-name: バンザス
+name: Banxaas
 description: セネガルのあらゆる場所でサトシとXOFを取引
 ---
 

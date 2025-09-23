@@ -1,5 +1,5 @@
 ---
-name: Pêssego
+name: Peach
 description: Guia completo para utilizar a Peach e trocar bitcoins P2P
 ---
 ![cover](assets/cover.webp)

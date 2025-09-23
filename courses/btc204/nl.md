@@ -3069,11 +3069,11 @@ We houden deze zaak en de ontwikkelingen in de bijbehorende tools nauwlettend in
 In het volgende hoofdstuk zullen we ontdekken wat "anonsets" zijn, hoe deze indicatoren worden berekend en hoe ze ons kunnen helpen om de efficiëntie van CoinJoin cycli in te schatten.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Anonimiteit sets
 
@@ -3184,7 +3184,7 @@ Het is mogelijk om handmatig anonsets te berekenen met een Block explorer voor k
 Zoals we in dit hoofdstuk hebben gezien, kunnen anonsets alleen worden berekend als er een bepaalde homogeniteit is in de CoinJoin structuur. In het volgende hoofdstuk zullen we uitzoeken hoe we deze homogeniteit kunnen kwantificeren op een Bitcoin transactie, of het nu een CoinJoin of een meer traditionele transactie is.
 
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Entropie
 
@@ -3635,7 +3635,7 @@ De moeilijkheid bij het gebruik van PayJoin ligt in de afhankelijkheid van de de
 Een oplossing zou zijn om transactiestructuren te gebruiken die ambiguïteit introduceren in de ketenanalyse zonder de medewerking van de ontvanger te vereisen. Dit zou ons in staat stellen om de vertrouwelijkheid van onze betalingen te verbeteren zonder afhankelijk te zijn van de actieve medewerking van winkeliers. Dit is precies waar we naar gaan kijken in het volgende hoofdstuk.
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 

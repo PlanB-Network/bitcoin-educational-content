@@ -1,0 +1,9 @@
+question: Vilken distribution är bäst lämpad för Raspberry Pi, eftersom den är särskilt lättviktig?
+answer: RaspiBlitz
+wrong_answers:
+  - Paraply
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitz är optimerat för Raspberry Pi och är fortfarande lätt, till skillnad från Umbrel, som har blivit för tungt för dessa maskiner.
+reviewed: true

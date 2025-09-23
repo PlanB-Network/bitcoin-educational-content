@@ -1,0 +1,9 @@
+question: Apa tujuan file revNNNNN.dat yang disimpan bersama blkNNNNN.dat 
+answer: Kembalikan set UTXO selama reorganisasi
+wrong_answers:
+  - Memulihkan set UTXO selama Hard Fork
+  - Pulihkan Mempool selama Hard Fork
+  - Memulihkan Mempool selama reorganisasi
+explanation: |
+  Setiap revNNNNN.dat berisi data yang diperlukan untuk membatalkan efek blok pada set UTXO, sehingga lebih mudah untuk mengelola reorganisasi.
+reviewed: true

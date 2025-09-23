@@ -1,5 +1,5 @@
 ---
-name: Mullvadブラウザ
+name: Mullvad Browser
 description: プライバシーのためのMullvadブラウザの使い方
 ---
 

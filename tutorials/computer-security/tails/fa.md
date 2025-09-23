@@ -1,5 +1,5 @@
 ---
-name: دم‌ها
+name: Tails
 
 description: نصب Tails بر روی یک کلید USB
 ---

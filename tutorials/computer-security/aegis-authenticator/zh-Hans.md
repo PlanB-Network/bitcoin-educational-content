@@ -1,5 +1,5 @@
 ---
-name: 宙斯盾认证器
+name: Aegis Authenticator
 description: 如何使用Aegis Authenticator来确保双重认证账户的安全？
 ---
 

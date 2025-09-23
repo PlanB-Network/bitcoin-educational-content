@@ -1,5 +1,5 @@
 ---
-name: थ्रीमा
+name: Threema
 description: सुरक्षित, गुमनाम त्वरित संदेश
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Bahari ya Mining
+name: Ocean Mining
 
 description: Utangulizi wa Ocean Mining
 ---

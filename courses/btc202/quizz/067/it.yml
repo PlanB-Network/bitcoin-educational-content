@@ -1,0 +1,9 @@
+question: Quali backup sono necessari per ripristinare un nodo Lightning?
+answer: seed e SCB
+wrong_answers:
+  - seed e file txindex
+  - seed e IP pubblico Address
+  - seed e 2FA
+explanation: |
+  Il ripristino di un nodo Lightning richiede sia il seed che l'SCB (Static Channel Backup), senza il quale non è possibile recuperare i fondi del canale.
+reviewed: true

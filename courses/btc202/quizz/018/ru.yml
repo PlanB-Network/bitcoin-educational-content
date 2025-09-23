@@ -1,0 +1,9 @@
+question: Какая реализация узла Bitcoin наиболее распространена?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Bitcoin core является основным клиентом, имея около 9 из 10 узлов в сети.
+reviewed: true

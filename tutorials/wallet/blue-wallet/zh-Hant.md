@@ -1,5 +1,5 @@
 ---
-name: 藍色 Wallet
+name: Blue Wallet
 
 description: Bitcoin 徹底簡單且功能強大的產品組合
 ---

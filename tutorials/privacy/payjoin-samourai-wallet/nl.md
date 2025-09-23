@@ -1,5 +1,5 @@
 ---
-name: PayJoin - Samourai Wallet
+name: Payjoin - Samourai Wallet
 description: Hoe voer je een PayJoin transactie uit op Samourai Wallet?
 ---
 ![samourai payjoin cover](assets/cover.webp)

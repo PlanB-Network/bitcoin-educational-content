@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - アドバンス
+name: COLDCARD Q - 専門家
 description: COLDCARD Q の高度なオプションの使用
 ---
 ![cover](assets/cover.webp)

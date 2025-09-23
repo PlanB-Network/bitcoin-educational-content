@@ -1,5 +1,5 @@
 ---
-name: Halka Açık Havuz
+name: Public Pool
 description: Halka Açık Havuza Giriş
 ---
 

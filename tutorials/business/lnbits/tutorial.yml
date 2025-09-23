@@ -120,7 +120,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.87
+    reward: 12.86
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -131,6 +131,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 21.37
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.12
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 25.63
 tags:
   - lightning
   - software

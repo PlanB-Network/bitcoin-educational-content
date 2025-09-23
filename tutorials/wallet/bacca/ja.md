@@ -1,5 +1,5 @@
 ---
-name: バッカ
+name: Bacca
 description: Ledger LiveソフトウェアなしでLedgerを設定する
 ---
 ![cover](assets/cover.webp)

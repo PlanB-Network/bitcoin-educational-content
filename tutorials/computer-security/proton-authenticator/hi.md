@@ -1,5 +1,5 @@
 ---
-name: प्रोटॉन प्रमाणक
+name: Proton Authenticator
 description: मैं अपने खातों को 2FA से सुरक्षित करने के लिए प्रोटॉन ऑथेंटिकेटर का उपयोग कैसे कर सकता हूं?
 ---
 ![cover](assets/cover.webp)

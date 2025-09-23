@@ -532,7 +532,7 @@ W przygotowaniu jest szczegółowy samouczek, który poprowadzi cię krok po kro
 Aby lepiej zrozumieć CoinJoin i jego użycie na Bitcoin, zapraszam również do zapoznania się z tym artykułem: Zrozumienie i używanie CoinJoin na Bitcoin, gdzie szczegółowo opisuję wszystko, co musisz wiedzieć o tej technice.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Korzystanie z Whirlpool Stat Tool (WST)
 

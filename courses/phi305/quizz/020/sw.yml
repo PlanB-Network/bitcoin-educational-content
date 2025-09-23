@@ -1,0 +1,9 @@
+question: Tunaweza kujifunza nini kutokana na Copernicus?
+answer: Kwamba Dunia inazunguka Jua.
+wrong_answers:
+  - Kwamba Dunia ni tambarare.
+  - Kwamba Dunia iko katikati ya Ulimwengu.
+  - Hiyo milinganyo ya Euclid sio sahihi.
+explanation: |
+  Nicolas Copernicus (1473-1543) anajulikana kwa kuonyesha kwamba Dunia inazunguka Jua, na kuleta mabadiliko katika dhana yetu ya ulimwengu. Ugunduzi huu ulikuwa na ushawishi mkubwa juu ya falsafa ya kisasa na busara.
+reviewed: false

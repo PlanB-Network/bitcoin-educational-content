@@ -1,5 +1,5 @@
 ---
-name: Trình xác thực Aegis
+name: Aegis Authenticator
 description: Bạn có thể sử dụng Aegis Authenticator để bảo mật tài khoản của mình bằng xác thực kép như thế nào?
 ---
 

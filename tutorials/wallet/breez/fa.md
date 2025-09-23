@@ -1,5 +1,5 @@
 ---
-name: بریز
+name: Breez
 description: لایتنینگ Wallet که شما را در کنترل قرار می‌دهد.
 ---
 

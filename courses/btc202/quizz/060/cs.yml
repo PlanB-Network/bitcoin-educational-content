@@ -1,0 +1,9 @@
+question: Jaká je úloha relé Nostr nainstalovaného v systému Umbrel?
+answer: Hostujte své publikace lokálně
+wrong_answers:
+  - Kontrola transakcí Bitcoin
+  - Vytváření kanálů Nostr s kontakty
+  - Místní záloha Blockchain Nostr
+explanation: |
+  Relé Nostr v systému Umbrel umožňuje lokální hostování dat, což zaručuje jejich dostupnost a suverenitu.
+reviewed: true

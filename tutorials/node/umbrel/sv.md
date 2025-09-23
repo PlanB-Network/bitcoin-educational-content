@@ -1,5 +1,5 @@
 ---
-name: Paraply
+name: Umbrel
 description: Upptäck och installera Umbrel - din Bitcoin-nod och hemserver
 ---
 

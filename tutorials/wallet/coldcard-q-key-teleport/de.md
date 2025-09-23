@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Schlüssel-Teleport
+name: COLDCARD Q - Key Teleport
 description: Was ist Key Teleport und wie verwende ich ihn?
 ---
 

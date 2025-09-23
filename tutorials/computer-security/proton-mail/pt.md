@@ -1,5 +1,5 @@
 ---
-name: Correio Proton
+name: Proton Mail
 description: Configurar uma caixa de correio segura
 ---
 ![cover](assets/cover.webp)

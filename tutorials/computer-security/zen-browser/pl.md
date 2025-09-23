@@ -1,5 +1,5 @@
 ---
-name: Przeglądarka Zen
+name: Zen Browser
 description: Jak używać Zen Browser do produktywnego i poufnego przeglądania?
 ---
 

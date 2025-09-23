@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: ¿Cómo añado una passphrase a mi cartera de Trezor?
 ---
 ![cover](assets/cover.webp)

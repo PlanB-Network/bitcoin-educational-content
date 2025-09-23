@@ -1,5 +1,5 @@
 ---
-name: एनटॉपएनजी
+name: Ntopng
 description: ntopng के साथ अपने नेटवर्क की निगरानी करें
 ---
 ![cover](assets/cover.webp)

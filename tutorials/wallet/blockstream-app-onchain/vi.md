@@ -1,5 +1,5 @@
 ---
-name: Ứng dụng Blockstream - Onchain
+name: Blockstream App - Onchain
 description: Thiết lập ứng dụng Blockstream trên thiết bị di động và quản lý các giao dịch trên chuỗi
 ---
 ![cover](assets/cover.webp)

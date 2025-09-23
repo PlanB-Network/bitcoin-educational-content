@@ -1,5 +1,5 @@
 ---
-name: ジェイド・プラス - グリーン
+name: Jade Plus - Green
 description: グリーンでジェイドプラスを簡単に設定
 ---
 ![cover](assets/cover.webp)

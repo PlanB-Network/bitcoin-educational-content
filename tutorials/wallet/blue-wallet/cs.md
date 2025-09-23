@@ -1,5 +1,5 @@
 ---
-name: Modrá Wallet
+name: Blue Wallet
 
 description: Radikálně jednoduché a výkonné portfolio Bitcoin
 ---

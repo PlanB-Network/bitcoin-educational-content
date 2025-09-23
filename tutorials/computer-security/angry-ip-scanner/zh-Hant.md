@@ -1,5 +1,5 @@
 ---
-name: 憤怒 IP 掃描器
+name: Angry IP Scanner
 description: 掃描網路的簡單方法
 ---
 ![cover](assets/cover.webp)

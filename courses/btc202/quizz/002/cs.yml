@@ -1,0 +1,9 @@
+question: Jakou databázi vede uzel Bitcoin lokálně pro sledování nevyužitého výstupu?
+answer: Sada UTXO
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Historie Wallet
+explanation: |
+  Uzel uchovává sadu UTXO, což je sada nevyužitých výstupů, které jsou k dispozici pro budoucí transakce.
+reviewed: true

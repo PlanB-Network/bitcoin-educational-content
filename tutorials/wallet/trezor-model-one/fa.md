@@ -1,5 +1,5 @@
 ---
-name: ترزور مدل وان
+name: Trezor Model One
 description: راه‌اندازی و استفاده از مدل Hardware Wallet One
 ---
 ![cover](assets/cover.webp)

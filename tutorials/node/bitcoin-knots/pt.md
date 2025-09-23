@@ -1,5 +1,5 @@
 ---
-name: Nós Bitcoin
+name: Bitcoin Knots
 description: Como é que lanço um nó com o cliente alternativo Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)

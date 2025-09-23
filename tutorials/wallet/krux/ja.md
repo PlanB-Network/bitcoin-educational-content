@@ -1,5 +1,5 @@
 ---
-name: Krux - シングルおよびマルチシグ
+name: Krux
 description: Krux DIY Bitcoinハードウェア署名デバイスをセットアップし、ファームウェアをフラッシュし、シングル署名とMultisigウォレットの両方に使用する。
 ---
 

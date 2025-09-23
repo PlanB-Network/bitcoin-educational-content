@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Teletransporte de llaves
+name: COLDCARD Q - Key Teleport
 description: ¿Qué es el teletransporte de llaves y cómo se utiliza?
 ---
 

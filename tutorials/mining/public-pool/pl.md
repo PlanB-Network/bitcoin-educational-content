@@ -1,5 +1,5 @@
 ---
-name: Basen publiczny
+name: Public Pool
 description: Wprowadzenie do basenu publicznego
 ---
 

@@ -1,7 +1,9 @@
 ---
-name: 中持
-description: Node Running Made Easy - Nakamochi BitcoinとLightningノードの設定と使い方。
+name: Nakamochi
+description: ノード運用を簡単に - Nakamochi BitcoinおよびLightningノードの設定と使用方法。
 ---
+![image](assets/cover.webp)
+
 独自のビットコインとライトニングのフルノードを運営することは、もはや技術専門家に限られた複雑な作業である必要はありません。従来、ノードのセットアップと管理には、暗号、ネットワーク、ソフトウェア開発に関する深い知識が必要でした。Nakamochiは、技術的なバックグラウンドに関係なく、誰もがノードにアクセスできるようにすることで、この状況を変えます。
 
 Nakamochiを使えば、誰でも自宅からノードを立ち上げて運営することができ、完全なプライバシーと経済的自立が可能になります。完全なノードを運営することは、あなた自身の取引を保護するだけでなく、ビットコインネットワークの強さに貢献します。非中央集権的で回復力のあるビットコインネットワークは、そのセキュリティと独立性を確保するために、ノードの幅広い分布に依存しています。
@@ -36,27 +38,29 @@ Nakamochiはビットコインとライトニングネットワークの両方�
 
 ![image](assets/en/01.webp)
 
-電源に接続し、24語のシードフレーズを書き留める。
+_電源に接続し、24語のシードフレーズを書き留めてください_
 
 ![image](assets/en/02.webp)
 
-ブロックチェーンが追いつくまで待ってくれ
+_ブロックチェーンが追いつくまで待ちます_
 
 ![image](assets/en/03.webp)
 
-ライトニング・タブに新しい財布を設定する
+_Lightningタブで新しいウォレットを設定する_
 
 ![image](assets/en/04.webp)
 
-ノード管理アプリでQRコードをスキャンする
+_ノード管理アプリでQRコードをスキャンしてください_
 
 ![image](assets/en/05.webp)
 
-PINコードを設定してください。
+_追加の安全のためにPINコードを設定してください_
 
-**注意:** _Nakamochiノードがブロックチェーンと同期できるようにしてください。このプロセスはインターネット接続によって時間がかかる場合があります。
+**注意:** _Nakamochiノードをブロックチェーンと同期させてください。このプロセスはインターネット接続によっては時間がかかる場合があります。_
 
 ## ライトニング・ネットワークについて
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ビットコイン・ライトニング・ネットワークは、ビットコイン取引をより速く、より安く、より効率的にすることで、ビットコイン取引に革命をもたらします。日常的な使用に最適で、最小限の手数料でほぼ瞬時の支払いを可能にし、コーヒーを買うようなマイクロトランザクションや頻繁な少額購入の処理に理想的です。
 
@@ -108,7 +112,7 @@ ZEUSのスクリーンショット
 
 ビットバナナのスクリーンショット
 
-詳細はこちら：[ビットバナナ](https://bitbanana.com)
+詳細については: [BitBanana](https://bitbanana.com)
 
 あなたのチャネルがオープンすると、そのチャネルを通じてネットワーク内の他の参加者に支払いをルーティングすることができます。残高はオフチェーンで調整されるため、取引はほぼ瞬時に行われ、手数料は最小限に抑えられる。
 
@@ -120,4 +124,4 @@ ZEUSのスクリーンショット
 
 
 - [中持について](https://nakamochi.io/)
-- [中持メルマガ登録】(https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Nakamochiのニュースレターを購読する](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

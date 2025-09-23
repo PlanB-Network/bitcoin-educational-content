@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamir Sicherung
+name: Trezor Shamir Backup
 description: Mnemonic-Sätze mit einem oder mehreren Anteilen auf Trezor
 ---
 ![cover](assets/cover.webp)

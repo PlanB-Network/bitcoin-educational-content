@@ -1,5 +1,5 @@
 ---
-name: デビフィ
+name: Debifi
 description: Bitcoinを売却することなく、支配権を手放すことなく、ドルを手に入れる
 ---
 

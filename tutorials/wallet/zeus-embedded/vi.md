@@ -1,5 +1,5 @@
 ---
-name: Zeus nhúng
+name: Zeus Embedded
 description: Cách sử dụng Lightning Zeus Embedded Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)

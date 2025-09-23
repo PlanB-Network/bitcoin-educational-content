@@ -1,5 +1,5 @@
 ---
-name: Boğa Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Wallet Bull Bitcoin'nin nasıl kullanılacağını öğrenin
 ---
 

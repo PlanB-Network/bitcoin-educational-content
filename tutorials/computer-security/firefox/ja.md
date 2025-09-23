@@ -1,5 +1,5 @@
 ---
-name: ファイアフォックス
+name: Firefox
 description: Firefoxでプライバシーを守るには？
 ---
 

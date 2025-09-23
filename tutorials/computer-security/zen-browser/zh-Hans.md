@@ -1,5 +1,5 @@
 ---
-name: 禅宗浏览器
+name: Zen Browser
 description: 如何使用 Zen 浏览器进行高效、保密的浏览？
 ---
 

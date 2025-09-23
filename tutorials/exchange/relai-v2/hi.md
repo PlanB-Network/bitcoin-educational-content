@@ -1,5 +1,5 @@
 ---
-name: रिले
+name: Relai
 description: अपनी Bitcoin यात्रा के लिए Relai का उपयोग करने पर एक सरल ट्यूटोरियल!
 ---
 

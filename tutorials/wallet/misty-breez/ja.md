@@ -1,5 +1,5 @@
 ---
-name: ミスティ・ブリーズ
+name: Misty Breez
 description: 弓のないライトニングWallet。
 ---
 

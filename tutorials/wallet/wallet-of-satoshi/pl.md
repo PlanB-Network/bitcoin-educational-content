@@ -1,5 +1,5 @@
 ---
-name: Wallet z Satoshi
+name: Wallet of Satoshi
 description: Najprostszy Wallet do rozpoczęcia działalności
 ---
 ![cover](assets/cover.webp)

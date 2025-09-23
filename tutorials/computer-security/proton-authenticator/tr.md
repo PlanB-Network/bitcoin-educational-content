@@ -1,5 +1,5 @@
 ---
-name: Proton Kimlik Doğrulayıcı
+name: Proton Authenticator
 description: Hesaplarımı 2FA ile güvence altına almak için Proton Authenticator'ı nasıl kullanabilirim?
 ---
 ![cover](assets/cover.webp)

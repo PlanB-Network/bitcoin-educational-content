@@ -1,5 +1,5 @@
 ---
-name: Mjumbe
+name: Envoy
 description: Kuanzisha na kutumia Pasipoti na programu ya Mjumbe
 ---
 ![cover](assets/cover.webp)

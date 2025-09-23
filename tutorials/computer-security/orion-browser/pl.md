@@ -1,5 +1,5 @@
 ---
-name: Przeglądarka Orion
+name: Orion Browser
 description: Jak używać Orion Browser do ochrony prywatności na Macu i iPhonie?
 ---
 

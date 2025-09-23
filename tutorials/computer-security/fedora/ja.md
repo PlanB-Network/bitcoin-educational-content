@@ -1,5 +1,5 @@
 ---
-name: フェドラ
+name: Fedora
 description: 自由で完全かつ安全なワークスペースを提供するLinuxディストリビューション。
 ---
 

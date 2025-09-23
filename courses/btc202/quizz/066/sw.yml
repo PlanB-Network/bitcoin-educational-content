@@ -1,0 +1,9 @@
+question: Ni hatua gani za usalama zinazopendekezwa sana ili kulinda ufikiaji wa Mwavuli wako?
+answer: Nenosiri refu na kuwezesha 2FA
+wrong_answers:
+  - Hifadhi ya SSD mbili
+  - Fungua bandari ya RPC kwa maandishi wazi
+  - Nenosiri refu na kuwezesha SSH
+explanation: |
+  Mchanganyiko wa nenosiri dhabiti na uthibitishaji wa sababu mbili (2FA) hulinda kwa ufanisi ufikiaji wa Mwavuli wa Interface.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Podstawowy system operacyjny
+name: Elementary OS
 description: Idealny zamiennik dla systemów Windows i MacOS
 ---
 

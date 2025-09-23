@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Knopen
+name: Bitcoin Knots
 description: Hoe start ik een knooppunt met de Bitcoin Knots alternatieve client?
 ---
 ![cover](assets/cover.webp)

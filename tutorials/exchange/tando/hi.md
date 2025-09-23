@@ -1,5 +1,5 @@
 ---
-name: टांडो
+name: Tando
 description: केन्या में कहीं भी Bitcoin खर्च करें।
 ---
 

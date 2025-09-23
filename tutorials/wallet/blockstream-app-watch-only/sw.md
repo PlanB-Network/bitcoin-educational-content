@@ -1,5 +1,5 @@
 ---
-name: Programu ya Blockstream - Tazama Pekee
+name: Blockstream App - Watch-Only
 description: Ninawezaje kusanidi Watch-only wallet kwenye Programu ya Blockstream?
 ---
 

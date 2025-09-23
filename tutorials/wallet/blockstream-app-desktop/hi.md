@@ -1,5 +1,5 @@
 ---
-name: ब्लॉकस्ट्रीम ऐप - डेस्कटॉप
+name: Blockstream App - Desktop
 description: कंप्यूटर पर ब्लॉकस्ट्रीम ऐप के साथ अपने Hardware Wallet का उपयोग कैसे करें?
 ---
 ![cover](assets/cover.webp)
@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **सीमाएँ** :
     - RBF, Liquid या लाइटनिंग लेनदेन के लिए उपलब्ध नहीं है।
     - प्रारंभिक लेनदेन को RBF-संगत के रूप में चिह्नित किया जाना चाहिए, जो ब्लॉकस्ट्रीम ऐप स्वचालित रूप से करता है।
-- अधिक जानकारी के लिए, [हमारी शब्दावली](https://planb.network/resources/glossary/RBF-replacebyfee) देखें।
+- अधिक जानकारी के लिए, [हमारी शब्दावली](https://planb.network/resources/glossary/rbf-replacebyfee) देखें।
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[शब्दावली](https://planb.network/fr/resources/glossary/Liquid-network)
+[शब्दावली](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

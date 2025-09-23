@@ -1,0 +1,9 @@
+question: Mikä on tärkein rajoitus Tor-viestinnässä solmusi kanssa?
+answer: Hitaus
+wrong_answers:
+  - Salauksen puute
+  - Roskaposti
+  - RPC:n käytön mahdottomuus
+explanation: |
+  Tor-yhteydet ovat turvallisia, mutta hitaampia kuin VPN:n kaltaiset vaihtoehdot.
+reviewed: true

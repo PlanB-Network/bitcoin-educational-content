@@ -1,5 +1,5 @@
 ---
-name: Mwavuli Nostr
+name: Umbrel Nostr
 description: Kusanidi na kutumia programu za Nostr kwenye Umbrel
 ---
 

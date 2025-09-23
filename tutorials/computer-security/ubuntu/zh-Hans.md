@@ -1,5 +1,5 @@
 ---
-name: 乌班图
+name: Ubuntu
 description: 安装和使用 Ubuntu 作为 Windows 替代方案的完整指南
 ---
 ![cover](assets/cover.webp)

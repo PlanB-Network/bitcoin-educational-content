@@ -1,5 +1,5 @@
 ---
-name: セッション
+name: Session
 description: メタデータではなく、暗号化されたメッセージを送信する
 ---
 ![cover](assets/cover.webp)

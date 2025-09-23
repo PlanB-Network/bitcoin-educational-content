@@ -1,5 +1,5 @@
 ---
-name: Bwawa la Umma
+name: Public Pool
 description: Utangulizi wa Dimbwi la Umma
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Aegis-autentiserare
+name: Aegis Authenticator
 description: Hur kan du använda Aegis Authenticator för att säkra dina konton med dubbel autentisering?
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: スズメ Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Sparrowでマルチシグネチャ・ポートフォリオを作成する
 ---
 ![cover](assets/cover.webp)

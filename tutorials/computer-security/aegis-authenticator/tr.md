@@ -1,5 +1,5 @@
 ---
-name: Aegis Kimlik Doğrulayıcı
+name: Aegis Authenticator
 description: Hesaplarınızı ikili kimlik doğrulama ile güvence altına almak için Aegis Authenticator'ı nasıl kullanabilirsiniz?
 ---
 

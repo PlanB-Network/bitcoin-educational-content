@@ -1,5 +1,5 @@
 ---
-name: Nodo fulmine RGB
+name: RGB Lightning Node
 description: Come si lancia un nodo Lightning compatibile con RGB con RLN?
 ---
 ![cover](assets/cover.webp)

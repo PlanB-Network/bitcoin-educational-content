@@ -1,0 +1,9 @@
+question: 在建立 Umbrel 帳戶時，強烈建議採取哪些安全措施？
+answer: 啟動 2FA
+wrong_answers:
+  - 停用密碼
+  - 使用 PIN 碼
+  - 停用所有連線
+explanation: |
+  2FA 增加了額外的保護，強烈建議使用，尤其是在使用 Lightning 節點或敏感的自助託管時。
+reviewed: true

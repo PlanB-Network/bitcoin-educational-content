@@ -1,5 +1,5 @@
 ---
-name: رونین‌دوجو
+name: RoninDojo
 
 description: نصب و استفاده از نود RoninDojo Bitcoin شما.
 ---

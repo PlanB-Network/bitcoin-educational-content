@@ -1,5 +1,5 @@
 ---
-name: BIP39 パスフレーズ Ledger
+name: BIP-39 Passphrase Ledger
 description: Ledgerウォレットにパスフレーズを追加する方法
 ---
 ![cover](assets/cover.webp)

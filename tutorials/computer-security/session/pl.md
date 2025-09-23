@@ -1,5 +1,5 @@
 ---
-name: Sesja
+name: Session
 description: Wysyłanie zaszyfrowanych wiadomości, a nie metadanych
 ---
 ![cover](assets/cover.webp)

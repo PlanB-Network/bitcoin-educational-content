@@ -68,7 +68,7 @@ Whirlpool was designed taking into account two important requirements:
 These imperatives guided the developers of Samourai Wallet in the design of Whirlpool, leading them to limit the number of participants per cycle. Too few participants would have compromised the efficiency of the coinjoin, drastically reducing the anonsets generated each cycle, while too many participants would have posed management issues on mobile applications and would have hindered the flow of cycles.
 **Ultimately, there is no need to have a high number of participants per coinjoin on Whirlpool since the anonsets are achieved through the accumulation of several coinjoin cycles.**
 
-[-> Learn more about Whirlpool anonsets.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Learn more about Whirlpool anonsets.
 
 ### The pools and coinjoin fees
 For these multiple cycles to effectively increase the anonsets of the mixed coins, a certain framework must be established to restrict the amounts of UTXO used. Whirlpool thus defines different pools.
@@ -386,7 +386,7 @@ For a coinjoin to be truly effective, it is essential that it demonstrates good 
 
 For an in-depth exploration of these indicators (the Whirlpool model is recognized as the one that brings the most homogeneity to coinjoins), I refer you to the tutorial: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe)
 
-Next, the performance of several coinjoin cycles is evaluated based on the extent of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy obtained against a retrospective analysis (from the present to the past) and the second, against a prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Next, the performance of several coinjoin cycles is evaluated based on the extent of the groups in which a coin is concealed. The size of these groups defines what is called the anonsets. There are two types of anonsets: the first assesses the privacy obtained against a retrospective analysis (from the present to the past) and the second, against a prospective analysis (from the past to the present). For a detailed explanation of these two indicators, I invite you to consult the tutorial: WHIRLPOOL STATS TOOLS - ANONSETS
 
 ## How to manage postmix?
 After performing coinjoin cycles, the best strategy is to keep your UTXOs in the **postmix** account, waiting for their future use. It is even advisable to let them remix indefinitely until you need to spend them.
@@ -418,6 +418,7 @@ Detailed tutorials on implementing these different techniques will be offered so
 - [Samourai Wallet Documentation - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter thread on coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blog post on coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

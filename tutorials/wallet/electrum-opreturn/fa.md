@@ -1,5 +1,5 @@
 ---
-name: الکتروم OP_RETURN
+name: Electrum OP_RETURN
 description: یک پیام را بر روی Blockchain Bitcoin با Electrum ثبت کنید.
 ---
 

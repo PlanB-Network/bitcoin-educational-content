@@ -1,5 +1,5 @@
 ---
-name: Orion-nettleseren
+name: Orion Browser
 description: Hvordan bruker du Orion Browser til å beskytte personvernet ditt på Mac og iPhone?
 ---
 

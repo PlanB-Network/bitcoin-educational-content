@@ -1,5 +1,5 @@
 ---
-name: Alby Ga
+name: Alby Go
 description: Gids voor Alby Go mobiele app
 ---
 

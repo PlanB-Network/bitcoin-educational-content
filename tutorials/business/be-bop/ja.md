@@ -1,5 +1,5 @@
 ---
-name: ビーボップ
+name: be-BOP
 description: be-BOPでビジネスを収益化する実践ガイド
 ---
 

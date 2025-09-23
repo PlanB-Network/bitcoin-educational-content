@@ -1,5 +1,5 @@
 ---
-name: Orion Tarayıcı
+name: Orion Browser
 description: Mac ve iPhone'da gizliliğinizi korumak için Orion Browser nasıl kullanılır?
 ---
 

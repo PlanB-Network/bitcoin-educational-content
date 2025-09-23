@@ -222,7 +222,7 @@ Betalingssystemen zijn methoden en infrastructuren die de overdracht van geld tu
     - Kaarten worden wel gebruikt, maar minder vaak vanwege de hogere kosten en transactielimieten. Digitale oplossingen zoals geïntegreerde betalingsplatforms zijn in opkomst om debiteuren- en crediteurenprocessen te stroomlijnen en te automatiseren.
 
 
-![BIZ101](assets/nl/01.webp)
+![BIZ101](assets/nl/001.webp)
 
 *Grafisch: Global Trends in Point-of-Sale (POS) Betaalmethoden (2023-2027), The Global Payments Report 2024, Worldpay.*
 
@@ -234,7 +234,7 @@ Betalingssystemen zijn methoden en infrastructuren die de overdracht van geld tu
 Wanneer een klant een creditcard gebruikt in een winkel, wordt de kaart gelezen door de betaalterminal, die de transactiegegevens veilig doorstuurt naar de wervende bank van de winkelier. De wervende bank stuurt deze informatie door naar het relevante kaartnetwerk (bijv. Visa of Mastercard), die het verzoek vervolgens doorstuurt naar de uitgever - de bank die de kaart van de klant heeft verstrekt. De emittent controleert de rekening of kredietlijn van de klant en stuurt een autorisatie terug via het netwerk en de wervende bank, zodat de winkelier de betaling kan accepteren.
 
 
-![BIZ101](assets/nl/02.webp)
+![BIZ101](assets/nl/002.webp)
 
 
 Deze ogenschijnlijk eenvoudige transactie omvat in werkelijkheid meer dan 15 stappen, 7 tussenpersonen en het duurt gemiddeld 48 uur tot 5 dagen voordat de merchant het geld ontvangt. In de daaropvolgende dagen vindt een clearing- en afwikkelingsproces plaats. Het kaartnetwerk verzamelt de transacties van de dag en coördineert de uitwisseling van fondsen tussen de acquirer en de emittent. Een centrale bank zorgt voor de nauwkeurigheid en stabiliteit van deze interbancaire verrekeningen. Uiteindelijk ontvangt de bankrekening van de winkelier het nettobedrag (minus vergoedingen) gecrediteerd van de acquirer, waarmee de levenscyclus van de transactie is voltooid.
@@ -296,7 +296,7 @@ Bitcoin is een **peer-to-peer digitaal geld Exchange systeem** (elektronisch gel
 Samen maken ze van Bitcoin een **bearer asset** en een digitale valuta **zonder uitgever**. Ownership wordt alleen beveiligd door het bezit van de **private cryptografische sleutel**, die volledige controle geeft **zonder tussenpersonen of vertrouwde derden**. Bij overdracht is Ownership onmiddellijk **eigenaar**: de nieuwe houder bezit het volledig zonder afhankelijk te zijn van een centrale autoriteit voor bescherming of converteerbaarheid. Transacties zijn **onveranderlijk** - eenmaal vastgelegd op de Blockchain, kunnen ze niet meer veranderd of verwijderd worden.
 
 
-![BIZ101](assets/nl/11.webp)
+![BIZ101](assets/nl/003.webp)
 
 
 Bitcoin heeft een vast monetair beleid, met een **cap van 21 miljoen bitcoins**, waarvan er al ~19,8 miljoen zijn gedistribueerd. Dit maakt het **deflatoir**, waarbij de waarde in de loop van de tijd stijgt als gebruikers er spaargeld en productiviteitswinsten in opslaan.
@@ -305,7 +305,7 @@ Bitcoin heeft een vast monetair beleid, met een **cap van 21 miljoen bitcoins**,
 De technische eigenschappen overtreffen die van goud en de dollar samen, waardoor het de hardste financiële activa ooit is. Bitcoin is zowel een opslagplaats van waarde als een medium van Exchange, een valuta in wording. Stelt u zich eens voor: een snelle waardeoverdracht van de kas van een bedrijf naar een ander, zonder tussenpersonen, tegen minimale kosten, zonder fraude, 24 uur per dag, 7 dagen per week en zonder tussenkomst van derden.
 
 
-![BIZ101](assets/nl/03.webp)
+![BIZ101](assets/nl/004.webp)
 
 
 Bitcoin behoudt effectief zijn waarde omdat het Ledger fraudebestendig is. De waarde stijgt door het zeldzame en beperkte Supply in combinatie met het groeiende aantal Exchange mogelijkheden, gedreven door het toenemende aantal gebruikers.
@@ -367,7 +367,7 @@ De Lightning Network is **een protocol en een netwerk** dat Bitcoin transacties 
 - **Kanaalsluiting:** Een gebruiker kan op elk moment zijn kanaal sluiten en zijn Bitcoin terugvorderen door de laatste transactiestatus te publiceren. Dit is het principe van transacties die **"publiceerbaar"** zijn op elk moment, maar **"ongepubliceerd"** tot het nodig is. De uitgang (kanaalsluiting) kan unilateraal zijn (besloten door elk van de 2 partijen op elk moment) of wederzijds besloten (resulterend in lagere On-Chain vergoedingen)
 
 
-![BIZ101](assets/nl/04.webp)
+![BIZ101](assets/nl/005.webp)
 
 
 Deze benadering vermijdt de traagheid en complexiteit van het direct uitvoeren van elke transactie op Bitcoin's hoofd Blockchain, waarbij alleen eindsaldi worden geregistreerd en de veiligheid behouden blijft. De Lightning Network is een Layer "bovenop" de Bitcoin, maar blijft eraan verankerd.
@@ -381,7 +381,7 @@ Het protocol creëert een **netwerk** van machines waar kanalen een universeel b
 De Lightning Network maakt onmiddellijke waarde Exchange mogelijk met de snelheid van het licht. Het is als een e-mailprotocol toegepast op betalingen: een betalingsnetwerk van de volgende generatie. Het verandert de manier waarop "geld" beweegt radicaal, waardoor het net zo gratis en snel wordt als datatransmissie op het internet.
 
 
-![BIZ101](assets/nl/12.webp)
+![BIZ101](assets/nl/006.webp)
 
 
 **Belangrijkste voordelen:**
@@ -523,7 +523,7 @@ Voordat hij begint met het maken van de speer, besluit de visser wat vis opzij t
 Terwijl hij zijn tijd besteedt aan het bouwen van de speer, vertrouwt hij op zijn reserves en stelt hij bereidwillig een deel van zijn directe comfort uit (een weerspiegeling van zijn **tijdvoorkeur**). Na enkele dagen Hard werk heeft hij een stevige speer af.
 
 
-![BIZ101](assets/nl/05.webp)
+![BIZ101](assets/nl/007.webp)
 
 
 Met de speer kan hij nu veel sneller en met minder moeite vis vangen. Hij hoeft zichzelf niet langer uit te putten zoals voorheen en begint zelfs een overschot aan vis op te bouwen. Dit overschot opent nieuwe mogelijkheden: hij kan het opslaan, delen of investeren in andere projecten op het eiland. Door de onmiddellijke consumptie uit te stellen en zijn kapitaal te gebruiken, heeft de visser zijn efficiëntie en toekomstperspectieven aanzienlijk verbeterd."
@@ -624,7 +624,7 @@ De **Oostenrijkse Economische School** is een traditie van economisch denken die
 - **Frédéric Bastiat**: Bastiat, een 19e-eeuwse Franse econoom, beïnvloedde de Oostenrijkse School met zijn werk over vrije handel en de onzichtbare gevolgen van economisch beleid. Zijn essay _What Is Seen and What Is Not Seen_ is een fundamentele tekst van het economisch liberalisme.
 
 
-![BIZ101](assets/nl/06.webp)
+![BIZ101](assets/nl/008.webp)
 
 
 *Naamsvermelding: Het Ludwig von Mises Instituut*
@@ -702,7 +702,7 @@ Ten eerste, **in het verleden behaalde resultaten bieden geen garantie voor de t
 Ten tweede heeft Bitcoin tot nu toe **4-jarige cycli** doorlopen, wat betekent dat met een tijdshorizon van meer dan 4 jaar de inzet altijd winstgevend is geweest. Voor degenen die Bitcoin als een investering zien, kan een kortetermijnhorizon (<4 jaar) riskant zijn.
 
 
-![BIZ101](assets/nl/07.webp)
+![BIZ101](assets/nl/009.webp)
 
 
 *MICHAEL SAYLOR: "Het beste prijssignaal voor Bitcoin is het eenvoudig voortschrijdend gemiddelde over 4 jaar."* Zie bovenstaande grafiek.
@@ -782,7 +782,7 @@ Je hoeft niet precies 1 Bitcoin te kopen, want Bitcoin is deelbaar in subeenhede
 Bovendien kan het totaal van 21 miljoen bitcoins - of **2,1 quadriljoen satoshi's** - efficiënt worden weergegeven door een 64-bits geheel getal. Dit betekent dat ondanks een hoge prijs per hele Bitcoin, het toegankelijk blijft voor een breed scala aan investeerders dankzij de deelbaarheid. Je hoeft dus geen hele Bitcoin te kopen om deel te nemen aan het netwerk of te investeren in deze digitale activa.
 
 
-![BIZ101](assets/nl/08.webp)
+![BIZ101](assets/nl/010.webp)
 
 
 Laten we niet vergeten dat de relatief lage totale marktkapitalisatie, in vergelijking met andere activa zoals aandelen, goud of onroerend goed, het vermogen om te stijgen intact laat. Met een nog steeds zeer lage penetratiegraad (ongeveer 1% van de wereldbevolking) wordt aangenomen dat we nog maar aan het begin staan van de opmars. Dit maakt het **de meest asymmetrische weddenschap van onze generatie**: er is nu een zeer kleine kans dat het op dit moment tot nul zal dalen, en een grote kans dat het terrein zal blijven winnen.
@@ -834,7 +834,7 @@ Vanwege deze verschillen kiezen **sommige bedrijfseigenaren ervoor om Bitcoin aa
 Er zijn drie manieren om Bitcoin te verkrijgen:
 
 
-![BIZ101](assets/nl/09.webp)
+![BIZ101](assets/nl/011.webp)
 
 
 
@@ -868,7 +868,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 Om meer te weten te komen over methodes voor het verkrijgen van bitcoins via een Exchange of peer-to-peer, kun je [de "Exchange" sectie in onze tutorials raadplegen](https://planb.network/tutorials/exchange).
 
 
-![BIZ101](assets/nl/16.webp)
+![BIZ101](assets/nl/012.webp)
 
 
 ### Tegen welke prijs?
@@ -904,7 +904,7 @@ In werkelijkheid is de potentiële waardestijging van Bitcoin zodanig dat zelfs 
 De vastgoedindustrie herhaalt vaak dat "het altijd het juiste moment is om te kopen", waarbij ze vergeet dat als vastgoed zijn functie als waardeopslag zou verliezen - en zou verschuiven naar activa zoals Bitcoin - de prijzen dichter bij hun gebruikswaarde (onderdak) zouden kunnen komen. Bitcoin heeft daarentegen geen ander doel dan waardeopslag, wat zou kunnen betekenen dat "het altijd het juiste moment is om te kopen" De toekomst zal het uitwijzen.
 
 
-![BIZ101](assets/nl/13.webp)
+![BIZ101](assets/nl/013.webp)
 
 *Krediet: [Bitcoin Kantoor](https://Bitcoin.gob.sv/)*
 
@@ -939,13 +939,13 @@ Een Exchange of koopdienst kan bijvoorbeeld een account voor je aanmaken, je tra
 Dit zijn traditionele financiële instrumenten die fracties van Bitcoin vertegenwoordigen en de prijsontwikkeling repliceren. De instelling achter het product koopt en houdt theoretisch de onderliggende Bitcoin. Uw bijdragen en opnames worden gedaan in traditionele valuta (bijv. dollars of euro's), niet in Bitcoin. Met uitzondering van bepaalde producten die opname in Bitcoin toestaan (om een belastbaar feit in sommige rechtsgebieden te voorkomen), brengen deze instrumenten jaarlijkse beheervergoedingen met zich mee. Hier vertrouwt u op de veiligheid van de instelling en loopt u een tegenpartijrisico (bijvoorbeeld als een overheid besluit om al het institutioneel aangehouden Bitcoin in beslag te nemen, zoals gebeurde met goud in 1933 onder Uitvoeringsbevel 6102 van de VS). Hun grootste voordeel is de gemakkelijke toegang, omdat ze gedistribueerd worden via traditionele financiële kanalen. Ze omzeilen de noodzaak om cryptografische sleutels te beveiligen, maar bieden geen van de inherente eigenschappen van Bitcoin: je kunt het Bitcoin netwerk niet 24/7 gebruiken om waarde vrij te bewegen zonder toestemming. Ze repliceren alleen de financiële prestaties, niet de functionaliteit of soevereiniteit van Bitcoin zelf.
 
 
-![BIZ101](assets/nl/15.webp)
+![BIZ101](assets/nl/014.webp)
 
 
 Bovendien heeft de vorm waarin u Bitcoin bewaart een grote invloed op de veiligheidsmaatregelen die nodig zijn om uw bedrijfsschatkist te beschermen. Of u nu kiest voor self-custody, het gebruik van single-signature of multi-signature hardware wallets, etc. om de directe controle over uw sleutels te behouden, of deze taak delegeert aan derde partij bewaardiensten of ETF's, elke optie heeft zijn eigen risicoprofiel. Zelfbewaarneming biedt bijvoorbeeld volledige toegang, maar vereist strenge interne beveiligingsprotocollen, terwijl oplossingen van derden de beheerlast verminderen ten koste van het tegenpartijrisico. Om het onderscheid verder te illustreren, schetst deze grafiek het beveiligingsmodel voor elk bewaartype, zodat u de aanpak kunt kiezen die het beste past bij de behoeften van uw organisatie:
 
 
-![BIZ101](assets/nl/14.webp)
+![BIZ101](assets/nl/015.webp)
 
 
 
@@ -1009,7 +1009,7 @@ In de begindagen maakte het internetnetwerk het mogelijk om tussenpersonen uit c
 Bitcoin is een infrastructuur van vertrouwen, waarvan de eerste toepassing is om tussenpersonen te verwijderen uit de opslag en Exchange exploitatie van waarde-geld. Andere, nu nog ondenkbare toepassingen zullen op deze infrastructuur ontstaan. Je eerste aanwezigheid hier is het equivalent van een website: een toegangspoort tot peer-to-peer betalingen en waarde-uitwisselingen.
 
 
-![BIZ101](assets/nl/17.webp)
+![BIZ101](assets/nl/016.webp)
 
 
 Bekijk nu het perspectief van een praktisch bedrijf wiens kernactiviteit niets te maken heeft met Bitcoin. Waarom zou het ervoor kiezen om Bitcoin betalingen te accepteren?
@@ -1158,7 +1158,7 @@ In de volgende hoofdstukken gaan we dieper in op elk bedrijfsprofiel en de oplos
 Het Starter-profiel is ontworpen voor bedrijven, ontwerpers en individuen die Bitcoin-betalingen willen verkennen zonder veel middelen of expertise in te zetten. Dit zijn meestal mensen die een zeer klein volume aan transacties verwerken (misschien een paar fooien, donaties of af en toe een verkoop) en die een eenvoudige, lichte introductie zoeken in het Bitcoin en Lightning Network ecosysteem. De belangrijkste waarde van de Starter-aanpak ligt in de minimale installatie: in de meeste gevallen is alles wat nodig is een smartphone of tablet uitgerust met een Lightning-compatibele Wallet.
 
 
-![BIZ101-profiles](assets/nl/18.webp)
+![BIZ101-profiles](assets/nl/017.webp)
 
 
 Een van de bepalende kenmerken van dit profiel is de focus op betalingen van kleine volumes die zelden hoger zijn dan een paar honderd euro of dollar per maand. Deze bescheiden schaal maakt het een uitstekende keuze voor iedereen die de markt wil testen met Bitcoin, zonder de complexiteit die inherent is aan implementaties van grotere volumes. Omdat er minder operationele druk is en er minder geld op het spel staat, kunnen fouten worden beperkt en kan er snel lering worden getrokken. Van artiesten die handgemaakte producten verkopen op weekendmarkten tot non-profit groepen die eenmalige donaties accepteren, gebruikers in deze categorie leggen vaak de nadruk op toegankelijkheid en gebruiksgemak boven geavanceerde functionaliteiten.
@@ -1167,7 +1167,7 @@ Een van de bepalende kenmerken van dit profiel is de focus op betalingen van kle
 Bij de twee meest voorkomende Wallet opstellingen voor het Starter-profiel moet gekozen worden tussen custodial en non-custodial oplossingen. Een custodial Wallet (zoals Wallet van Satoshi of Blink) laat een derde partij de private sleutels en backend operaties beheren, waardoor de technische verantwoordelijkheden voor de gebruiker afnemen. Deze regeling is vooral aantrekkelijk voor diegenen die gemak boven alles stellen en een zo eenvoudig mogelijke onboarding willen. Aan de andere kant, niet-custodial Lightning wallets (zoals Phoenix of Breez) plaatsen private keys en volledige controle in de handen van de bedrijfseigenaar, en bieden meer autonomie en privacy in Exchange voor iets meer initiële inspanning. In beide gevallen zijn de moderne interfaces meestal zo gebruiksvriendelijk dat iedereen essentiële taken (het genereren van een QR-code, het invoeren van een betalingsbedrag en het bevestigen van transacties) binnen enkele minuten kan uitvoeren.
 
 
-![BIZ101-profiles](assets/nl/19.webp)
+![BIZ101-profiles](assets/nl/018.webp)
 
 
 Hoewel beveiligingsproblemen minder dringend lijken als het om kleine transacties gaat, is het toch cruciaal om basisbeveiligingsmaatregelen te nemen. Zelfs een enkele smartphone of tablet die wordt gebruikt om Bitcoin betalingen te ontvangen, moet worden vergrendeld met een wachtwoord of biometrische beveiliging, en back-upprocedures (variërend van het bijhouden van inloggegevens voor een bewarende Wallet tot het veiligstellen van een seed-zin voor een niet-bewarende) moeten serieus worden genomen. Medewerkers die transacties in een fysieke omgeving afhandelen, zouden er baat bij hebben als ze de basisprincipes kennen: hoe de app te openen, hoe een QR-code aan de klant te presenteren en hoe te controleren of de betaling inderdaad is aangekomen.
@@ -1176,7 +1176,7 @@ Hoewel beveiligingsproblemen minder dringend lijken als het om kleine transactie
 Boekhouding en rapportering, hoewel relatief eenvoudig onder het Starter-profiel, verdienen nog steeds zorgvuldige aandacht. Hoewel de transactievolumes minimaal kunnen zijn, voorkomt het bijhouden van nauwkeurige gegevens verwarring in de toekomst en helpt het transparantie te behouden in het geval van financiële audits of belastingaangiften. Veel Wallet applicaties stellen gebruikers in staat om een basistransactiehistorie als CSV-bestand te exporteren; voor een kleine onderneming of een enkele ondernemer kan het regelmatig opslaan van deze bestanden het afstemmen van rekeningen veel eenvoudiger maken. Het is ook verstandig om de geschatte fiatwaarde bij te houden (bijvoorbeeld in euro's of dollars) op het moment dat elke transactie wordt ontvangen. Omdat de prijs van Bitcoin kan fluctueren, is het bijhouden van de omrekeningskoersen van onschatbare waarde voor de boekhouding en naleving van de belastingwetgeving.
 
 
-![BIZ101-profiles](assets/nl/20.webp)
+![BIZ101-profiles](assets/nl/019.webp)
 
 
 Voor bedrijven die hun fysieke of persoonlijke betalingen willen aanvullen met online donaties of fooien, is het nu eenvoudig om een Lightning fooienknop of donatiewidget te integreren in een website of blog. Platformen zoals BTCPay Server bieden eenvoudig te configureren betaalknoppen, terwijl sommige sociale media en livestream diensten Lightning fooien met adressen al ondersteunen. Bijgevolg kan zelfs een startende onderneming een bescheiden maar wereldwijd netwerk van donateurs opbouwen. Ondertussen kunnen degenen die Bitcoin liever niet op lange termijn in hun bezit hebben, een gedeeltelijke of automatische conversie naar fiatvaluta onderzoeken met behulp van bepaalde bewaarportemonnees of diensten van derden. Hoewel deze optie extra kosten en mogelijke KYC-verplichtingen met zich meebrengt, helpt het bedrijven de Exchange koersvolatiliteit te omzeilen en hun bestaande financiële workflows te behouden met minimale verstoring.
@@ -1227,13 +1227,13 @@ In tegenstelling tot het Starter-profiel beschouwen Essential-bedrijven Bitcoin-
 Technologieaanbevelingen in dit segment richten zich vaak op **Swiss Bitcoin Pay**, een gestroomlijnde oplossing voor winkeliers om Bitcoin betalingen eenvoudig te accepteren. Het beschikt over een gebruiksvriendelijke PoS-app, die geen technische expertise vereist voor werknemers. In tegenstelling tot standaard Bitcoin wallets, richt het zich alleen op het ontvangen van betalingen, waardoor werknemers het apparaat kunnen gebruiken zonder veiligheidsrisico's. Meerdere PoS-apps kunnen verbinding maken met hetzelfde account, bruikbaar op tablets, registers, smartphones of via een webversie voor computers, met ondersteuning voor Android en iOS. Je kunt ook een menu maken met de artikelen die je verkoopt en de bijbehorende prijzen, zodat de medewerker eenvoudig een mandje met artikelen voor de klant kan selecteren op de PoS en vervolgens het totaal in rekening kan brengen.
 
 
-![BIZ101-profiles](assets/nl/21.webp)
+![BIZ101-profiles](assets/nl/020.webp)
 
 
 Betalingen kunnen worden opgenomen in Bitcoin naar een specifieke Address of worden omgezet in fiatvaluta en dagelijks worden gestort op een bankrekening. Swiss Bitcoin Pay automatiseert het proces en verwerkt Bitcoin en Lightning Network betalingen zonder handmatige tussenkomst. Fondsen worden maximaal 24 uur vastgehouden voordat ze worden overgemaakt. Hoewel het niet volledig non-custodial is zoals BTCPay Server, biedt het een balans tussen gemak en veiligheid en vereist het geen KYC.
 
 
-![BIZ101-profiles](assets/nl/22.webp)
+![BIZ101-profiles](assets/nl/021.webp)
 
 
 De tarieven zijn concurrerend: 0,21% voor het eerste jaar, daarna 1% voor Bitcoin betalingen en 1,5% voor fiat conversies, inclusief Bitcoin transactiekosten. Swiss Bitcoin Pay biedt een praktische middenweg tussen custodial oplossingen zoals Open Node en complexe self-hosted systemen zoals BTCPay Server, waarbij eenvoud, veiligheid en financiële autonomie voorop staan.
@@ -1242,7 +1242,7 @@ De tarieven zijn concurrerend: 0,21% voor het eerste jaar, daarna 1% voor Bitcoi
 Met dit soort instellingen kunnen fysieke bedrijven generate facturen snel betalen, QR-codes aan hun klanten tonen en Lightning- of On-Chain-transacties met minimale wrijving accepteren. Het personeel heeft slechts een korte introductie nodig om deze betalingen te verwerken, terwijl managers kunnen inloggen op een online dashboard om de dagelijkse verkoop te reconciliëren en basisrapporten te bekijken. De beschikbaarheid van een gestroomlijnde administratieve console helpt ook kleinere etablissementen om zowel fiat- als crypto-inkomsten van één Interface bij te houden, waardoor verwarring wordt verminderd en er minder tijd wordt besteed aan handmatige boekhouding.
 
 
-![BIZ101-profiles](assets/nl/23.webp)
+![BIZ101-profiles](assets/nl/022.webp)
 
 
 Een ander belangrijk voordeel van de Essential-aanpak is de nadruk op snelle implementatie en minimale verstoring. Oplossingen zoals Swiss Bitcoin Pay kunnen binnen enkele uren worden opgezet in plaats van dagen of weken. Voor een eigenaar of manager van een bescheiden druk restaurant, bijvoorbeeld, is het einddoel om Bitcoin acceptatie te integreren zonder vertragingen bij de kassa of verwarring onder het personeel te veroorzaken. Zodra de kassa is geconfigureerd, kan de manager de medewerkers snelle instructies geven over het weergeven van de Invoice en controleren of de betaling is verwerkt. In het beste geval wordt de transactie van een klant bijna onmiddellijk bevestigd via de Lightning Network en registreert het administratieve paneel van het bedrijf tegelijkertijd een nieuwe betaling in realtime.
@@ -1251,7 +1251,7 @@ Een ander belangrijk voordeel van de Essential-aanpak is de nadruk op snelle imp
 Hoewel het Essential-profiel geen zeer geavanceerde boekhoudsystemen vereist, is het toch verstandig om een goede transactieregistratie bij te houden. Tools zoals Swiss Bitcoin Pay bieden CSV-exportfuncties, waarmee managers de fiat-equivalente waarde van elke Bitcoin verkoop kunnen vastleggen en bijhouden naast andere inkomstenbronnen. Dit niveau van documentatie is voldoende voor de meeste kleine bedrijven, en een rudimentair begrip van Exchange tarieven zal helpen bij de belastingaangifte en algemeen financieel toezicht.
 
 
-![BIZ101-profiles](assets/nl/24.webp)
+![BIZ101-profiles](assets/nl/023.webp)
 
 
 De meest geschikte hybride oplossing voor jouw profiel is waarschijnlijk Swiss Bitcoin Pay:
@@ -1287,25 +1287,25 @@ Het Professional-profiel is gericht op bedrijven die verder zijn gegaan dan inci
 Een van de bepalende kenmerken van de Professional merchant is de behoefte aan **uitgebreide functies** en **aanpasbare oplossingen** die efficiëntie behouden, zelfs als de transactievolumes groeien. In tegenstelling tot Essential gebruikers, die tevreden kunnen zijn met een gestroomlijnde tool die netjes op een smartphone app past, vragen Professional bedrijven meestal om functies zoals gedetailleerde Invoice aanpassingen, geavanceerde rapportage dashboards en de mogelijkheid om meerdere administratieve rollen toe te wijzen.
 
 
-![BIZ101-profiles](assets/nl/25.webp)
+![BIZ101-profiles](assets/nl/024.webp)
 
 
 Een restaurantgroep kan bijvoorbeeld medewerkers hebben die zich bezighouden met facturatie en voorraadbeheer, terwijl een apart team zich bezighoudt met productlijsten en marketingcampagnes. In deze omgeving moet een Bitcoin betaaloplossing naadloos aansluiten op deze reeds bestaande organisatiestructuren.
 
 
-![BIZ101-profiles](assets/nl/26.webp)
+![BIZ101-profiles](assets/nl/025.webp)
 
 
 Wat betreft technologie en tools, vormen oplossingen zoals **BTCPay Server** vaak de kern van een Professionele setup. BTCPay Server is een open-source platform dat on-premises of via cloud hosting kan worden ingezet en dat uitgebreide integratiemogelijkheden biedt voor websites en e-commerce platforms. Door hun eigen instance te draaien, behouden bedrijven een hoge mate van controle over elk aspect van de betalingsstroom, van automatisch gegenereerde checkoutpagina's tot meldingen die interne processen in gang zetten zodra een betaling is bevestigd.
 
 
-![BIZ101-profiles](assets/nl/27.webp)
+![BIZ101-profiles](assets/nl/026.webp)
 
 
 Daarnaast kunnen tools zoals [Zaprite](https://zaprite.com/) of [Musqet](https://musqet.tech/) de kassa-ervaring verder verfijnen, waarbij meer granulaire aanpassingen mogelijk zijn (van merkkeuzes tot geavanceerde rapportagemogelijkheden). Degenen die de voorkeur geven aan een alles-in-één online winkelomgeving zullen misschien eerder kiezen voor [Be-BOP](https://be-bop.io/), een e-store oplossing die is gebouwd om Bitcoin betalingen te faciliteren zonder in te leveren op gebruiksgemak.
 
 
-![BIZ101-profiles](assets/nl/28.webp)
+![BIZ101-profiles](assets/nl/027.webp)
 
 
 Het implementeren van deze technologieën in een professionele omgeving betekent dat er veel aandacht moet worden besteed aan de operationele complexiteit. Geautomatiseerde factureringsworkflows, weergave in meerdere valuta's en synchronisatie met bestaande inventarisatiesystemen zijn allemaal kenmerken van een goed geïntegreerd platform. De mogelijkheid om transactiegegevens nauwkeurig te exporteren (als CSV-bestanden, directe API-aanroepen of aangepaste formaten) helpt bedrijven om de Bitcoin verkopen efficiënt te reconciliëren met andere inkomstenstromen.
@@ -1317,7 +1317,7 @@ Beveiliging en rolbeheer vormen een andere cruciale overweging voor professionel
 Als het gaat om voorbeelden uit de praktijk, denk dan eens aan een middelgrote e-commercewinkel die gespecialiseerd is in technologieaccessoires. Het bedrijf zou BTCPay Server kunnen integreren in zijn bestaande online winkel en automatisch Bitcoin betalingsadressen genereren tijdens het afrekenen. Klanten voltooien hun aankopen door een Lightning of On-Chain Address te scannen, en het platform van de winkel bevestigt onmiddellijk de betaling. Tegelijkertijd werkt een intern systeem de bestelstatus bij en worden er verzendingsberichten verstuurd. Dankzij de geavanceerde rapportagefuncties kan het financiële team eenvoudig de dagelijkse Bitcoin verkopen bekijken, een geconsolideerde Ledger exporteren voor controle en de waarde bijhouden van alle BTC-tegoeden die het bedrijf besluit te behouden.
 
 
-![BIZ101-profiles](assets/nl/29.webp)
+![BIZ101-profiles](assets/nl/028.webp)
 
 
 *[Krediet: Bitcoin Bazar winkel in Parijs, Frankrijk.](https://bitcoinbazar.fr/)*
@@ -1423,7 +1423,7 @@ Nieuwe infrastructuren hebben succes omdat ze efficiënter zijn en early adopter
 - **Groei handelarenadoptie:** Handelaren zoals BitRefill melden een toename van Bitcoin-betalingen onder hun actieve gebruikers, met een duidelijke verschuiving naar Bitcoin boven Lightning. Bovendien maken de ultralage kosten van Lightning het de beste keuze voor kleine betalingen (gemiddeld €32 per transactie).
 
 
-![BIZ101-profiles](assets/nl/30.webp)
+![BIZ101-profiles](assets/nl/029.webp)
 
 *[Bron: BTC Kaart](https://btcmap.org/)*
 
@@ -1442,7 +1442,7 @@ Nieuwe infrastructuren hebben succes omdat ze efficiënter zijn en early adopter
 Bitcoin en de Lightning Network voltooien de **digitale Wallet revolutie**. Nieuwe webdiensten maken nu **transacties mogelijk zonder dat je een account hoeft aan te maken** - je Wallet wordt je identiteit! Met protocollen zoals **Nostr Wallet Connect (NWC)** en **LN-URL-AUTH**, kunnen portemonnees gebruikers naadloos authenticeren en transacties mogelijk maken zonder traditionele accounts. De dagen van accountmoeheid voor eenvoudige aankopen of abonnementen zijn voorbij. Het is niet meer nodig om persoonlijke of betalingsgegevens te verstrekken die gehackt kunnen worden en te koop zijn op het dark web, zoals maar al te vaak is gebleken uit recente gebeurtenissen.
 
 
-![BIZ101](assets/nl/10.webp)
+![BIZ101](assets/nl/030.webp)
 
 
 De verkopers van morgen zullen deze innovatie omarmen en klanten een veiligere, meer naadloze (one-click) ervaring bieden die ook hun privacy respecteert.
@@ -1674,7 +1674,7 @@ Wanneer een bedrijf besluit om Bitcoin te integreren in zijn boekhouding, vereen
 Ze zijn vaak een verstandige aanvulling voor grote organisaties met meerdere wallets en activa op verschillende platforms of exchanges.
 
 
-![BIZ101](assets/nl/31.webp)
+![BIZ101](assets/nl/031.webp)
 
 
 Een eenvoudig `.csv` bestand met de transactiegeschiedenis is echter vaak voldoende voor de meeste kleine bedrijven. Het doel is om voor elke betaling de datum, het bedrag, de tegenwaarde in euro's/dollars en de relevante Bitcoin adressen te documenteren. De overgrote meerderheid van de Bitcoin betalingsoplossingen (BTCPay Server, Swiss Bitcoin Pay, etc.) of Exchange platforms (Bitfinex, Kraken, Coinbase, etc.) bieden al een mechanisme om transactiehistories te exporteren. Door dit bestand aan een accountant te verstrekken, wordt het mogelijk om de gegevensinvoer te stroomlijnen en duidelijk onderscheid te maken tussen inkomende en uitgaande stromen met betrekking tot Bitcoin.

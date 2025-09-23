@@ -1,5 +1,5 @@
 ---
-name: トレザー・モデル・ワン
+name: Trezor Model One
 description: Hardware Wallet Model Oneのセットアップと使用方法
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: लुक्स
+name: LUKS
 description: LUKS और क्रिप्टसेटअप के साथ USB फ्लैश ड्राइव को एन्क्रिप्ट करना
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: ワイヤーガード
+name: WireGuard
 description: DebianおよびWindowsでのWireGuard VPNの設定
 ---
 ![cover](assets/cover.webp)

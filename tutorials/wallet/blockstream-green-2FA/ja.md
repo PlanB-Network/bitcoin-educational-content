@@ -1,5 +1,5 @@
 ---
-name: ブロックストリーム・グリーン - 2FA
+name: Blockstream Green - 2FA
 description: グリーン・ウォレットの2/2マルチシグの設定
 ---
 ![cover](assets/cover.webp)

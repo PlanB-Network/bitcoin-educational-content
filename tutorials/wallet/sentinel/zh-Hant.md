@@ -1,5 +1,5 @@
 ---
-name: 僅供哨兵監視
+name: Sentinel
 description: 什麼是 Watch-only wallet 以及如何使用？
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: سوار بر آذرخش (RTL)
+name: Ride The Lightning (RTL)
 description: از Ride The Lightning (RTL) برای مدیریت نود لایتنینگ خود استفاده کنید
 ---
 ![cover](assets/cover.webp)

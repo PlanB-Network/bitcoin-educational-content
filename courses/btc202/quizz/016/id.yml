@@ -1,0 +1,9 @@
+question: Siapa pemelihara utama Bitcoin core terakhir sebelum peran ini dihapuskan pada tahun 2023?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan memegang jabatan ini dari tahun 2014 hingga 2023, menggantikan Gavin Andresen dan sebelum penghentian jabatan ini.
+reviewed: true

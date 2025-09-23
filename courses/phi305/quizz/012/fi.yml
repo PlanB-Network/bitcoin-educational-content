@@ -1,0 +1,9 @@
+question: Mitä on moraali Gilles Deleuzelle?
+answer: Arviointijärjestelmä hyvän ja moraalisen välillä.
+wrong_answers:
+  - Uskonnollinen aloite.
+  - Lain tulos.
+  - Kestävä periaate.
+explanation: |
+  Gilles Deleuzelle moraali on arvostelujärjestelmä, joka luokittelee teot hyvään ja pahaan transsendenttien arvojen mukaan. Hän asettaa tämän vastakkain spinozilaisen etiikan kanssa, joka arvioi olemassaolon muotoja niiden toimintakyvyn mukaan.
+reviewed: false

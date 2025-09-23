@@ -1,5 +1,5 @@
 ---
-name: フェニックス
+name: Phoenix
 description: Phoenix Walletのインストールと使用
 ---
 ![cover](assets/cover.webp)

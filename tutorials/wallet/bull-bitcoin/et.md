@@ -1,5 +1,5 @@
 ---
-name: Pulli Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Uurige, kuidas kasutada Wallet Bull Bitcoin
 ---
 

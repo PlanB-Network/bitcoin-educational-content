@@ -1,5 +1,5 @@
 ---
-name: ساتوچیپ
+name: Satochip
 description: راه‌اندازی و استفاده از کارت هوشمند Satochip
 ---
 ![cover](assets/cover.webp)

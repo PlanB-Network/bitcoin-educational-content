@@ -1,5 +1,5 @@
 ---
-name: 嵌入式 Zeus
+name: Zeus Embedded
 description: 如何使用闪电宙斯嵌入式 Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)

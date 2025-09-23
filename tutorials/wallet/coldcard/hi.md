@@ -1,5 +1,5 @@
 ---
-name: Cold कार्ड
+name: COLDCARD Mk
 
 description: कोल्डकार्ड डिवाइस और Bitcoin कोर के साथ Bitcoin निजी कुंजी बनाना, उसका बैकअप लेना और उसका उपयोग करना
 ---

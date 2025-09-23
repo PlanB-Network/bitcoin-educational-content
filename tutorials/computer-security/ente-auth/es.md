@@ -1,5 +1,5 @@
 ---
-name: Ente Autónomo
+name: Ente Auth
 description: Autenticador 2FA cifrado de extremo a extremo y de código abierto
 ---
 ![cover](assets/cover.webp)

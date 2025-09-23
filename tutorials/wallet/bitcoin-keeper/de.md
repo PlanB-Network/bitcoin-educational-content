@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Multischlüssel-Sicherheit
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - eine mobile Anwendung, mit der Sie sowohl Hot-Geldbörsen als auch Cold-Speichertresore für langfristige Einsparungen erstellen können
 ---
 

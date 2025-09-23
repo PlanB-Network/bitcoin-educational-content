@@ -1,5 +1,5 @@
 ---
-name: SAFU 忍者
+name: SAFU Ninja
 description: 用 SAFU 忍者方法拯救你的 seed
 ---
 

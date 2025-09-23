@@ -1,5 +1,5 @@
 ---
-name: Lightning Network Daemon (لینوکس)
+name: Lightning Network Daemon (Linux)
 description: نصب و اجرای Lightning Network Daemon بر روی لینوکس
 ---
 

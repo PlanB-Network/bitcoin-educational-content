@@ -1,5 +1,5 @@
 ---
-name: Orioni brauser
+name: Orion Browser
 description: Kuidas kasutada Orion Browser'i, et kaitsta oma privaatsust Macis ja iPhone'is?
 ---
 

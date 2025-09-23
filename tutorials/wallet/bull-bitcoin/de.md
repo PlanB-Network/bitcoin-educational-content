@@ -1,5 +1,5 @@
 ---
-name: Bulle Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Finden Sie heraus, wie Sie den Wallet Bull Bitcoin verwenden
 ---
 

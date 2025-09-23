@@ -141,7 +141,7 @@ Zahlungssysteme sind Methoden und Infrastrukturen, die den Geldtransfer zwischen
     - Der Schwerpunkt liegt häufig auf der Rückverfolgbarkeit, der Dokumentation und der Fähigkeit, größere Transaktionswerte zu verarbeiten.
     - Die Verwendung von Karten ist zwar vorhanden, aber aufgrund höherer Gebühren und Transaktionslimits tendenziell weniger verbreitet. Digitale Lösungen wie integrierte Zahlungsplattformen sind auf dem Vormarsch, um Debitoren- und Kreditorenprozesse zu rationalisieren und zu automatisieren.
 
-![BIZ101](assets/de/01.webp)
+![BIZ101](assets/de/001.webp)
 
 *Grafik: Globale Trends bei Point-of-Sale (POS) Zahlungsmethoden (2023-2027), The Global Payments Report 2024, Worldpay.*
 
@@ -149,7 +149,7 @@ Zahlungssysteme sind Methoden und Infrastrukturen, die den Geldtransfer zwischen
 
 Wenn ein Kunde in einem Geschäft eine Kreditkarte benutzt, wird die Karte vom POS-Terminal gelesen, das die Transaktionsdaten sicher an die Acquiring-Bank des Händlers übermittelt. Der Acquirer leitet diese Informationen an das entsprechende Kartennetz (z. B. Visa oder Mastercard) weiter, das die Anfrage dann an den Aussteller weiterleitet - die Bank, die die Karte des Kunden ausgegeben hat. Der Issuer prüft das Konto oder den Kreditrahmen des Kunden und sendet über das Netzwerk und den Acquirer eine Autorisierung zurück, die es dem Händler ermöglicht, die Zahlung anzunehmen.
 
-![BIZ101](assets/de/02.webp)
+![BIZ101](assets/de/002.webp)
 
 Diese scheinbar einfache Transaktion umfasst in Wirklichkeit mehr als 15 Schritte, 7 Vermittler und es dauert im Durchschnitt zwischen 48 Stunden und 5 Tagen, bis der Händler das Geld erhält. In den folgenden Tagen findet ein Clearing- und Abrechnungsprozess statt. Das Kartennetz fasst die Transaktionen des Tages zusammen und koordiniert den Geldaustausch zwischen dem Acquirer und dem Emittenten. Eine Zentralbank sorgt für die Genauigkeit und Stabilität dieser Interbankenabrechnungen. Schließlich erhält das Bankkonto des Händlers den Nettobetrag (abzüglich der Gebühren) vom Acquirer gutgeschrieben, womit der Lebenszyklus der Transaktion abgeschlossen ist.
 
@@ -199,13 +199,13 @@ Bitcoin ist ein **Peer-to-Peer-Tauschsystem für digitale Währungen** (elektron
 
 Zusammen machen sie Bitcoin zu einem **Vermögenswert auf Inhaberbasis** und einer digitalen Währung **ohne Emittent**. Das Eigentum wird allein durch den Besitz des **privaten kryptografischen Schlüssels** gesichert, der die volle Kontrolle **ohne Vermittler oder vertrauenswürdige Dritte** gewährt. Bei einer Übertragung geht das Eigentum **unmittelbar** über: Der neue Inhaber besitzt es vollständig, ohne sich zum Schutz oder zur Konvertierbarkeit auf eine zentrale Behörde verlassen zu müssen. Transaktionen sind **unveränderlich** - sobald sie in der Blockchain aufgezeichnet sind, können sie nicht mehr geändert oder gelöscht werden.
 
-![BIZ101](assets/de/11.webp)
+![BIZ101](assets/de/003.webp)
 
 Bitcoin hat eine feste Geldpolitik, mit einer **Kapazität von 21 Millionen Bitcoins**, von denen ~19,8 Millionen bereits verteilt worden sind. Dies macht ihn **deflationär**, wobei sein Wert im Laufe der Zeit steigt, da die Nutzer Ersparnisse und Produktivitätsgewinne in ihm speichern.
 
 Seine technischen Eigenschaften übertreffen die von Gold und dem Dollar zusammen und machen ihn zum härtesten Finanzwert, der je geschaffen wurde. Bitcoin ist sowohl ein Wertaufbewahrungsmittel als auch ein Tauschmittel, eine Währung im Entstehen. Stellen Sie sich vor, Sie könnten schnell, ohne Vermittler, zu minimalen Kosten, ohne Betrug, rund um die Uhr und ohne Beteiligung Dritter Werte aus der Kasse eines Unternehmens in eine andere transferieren.
 
-![BIZ101](assets/de/03.webp)
+![BIZ101](assets/de/004.webp)
 
 Bitcoin ist effektiv wertbeständig, da sein Hauptbuch fälschungssicher ist. Sein Wert steigt aufgrund des seltenen und begrenzten Angebots in Verbindung mit der wachsenden Zahl von Tauschmöglichkeiten, die durch die steigende Zahl von Nutzern bedingt sind.
 
@@ -256,7 +256,7 @@ Das Lightning Network ist **ein Protokoll und ein Netzwerk**, das Bitcoin-Transa
 - **On-Chain-Abrechnungen:** Nur der **Endsaldo** der Transaktionen eines Kanals wird auf der Bitcoin-Hauptblockchain (**"on-chain"**) veröffentlicht, so dass in der Zwischenzeit zahlreiche Transaktionen stattfinden können. Diese Bündelung mehrerer Zahlungen verringert die Überlastung und senkt somit die Gebühren im Vergleich zu vielen On-Chain-Transaktionen.
 - **Kanalschließung:** Ein Nutzer kann seinen Kanal jederzeit schließen und seine Bitcoin zurückfordern, indem er den letzten Transaktionsstatus veröffentlicht. Dies ist das Prinzip von Transaktionen, die jederzeit **"veröffentlicht"** werden können, aber **"unveröffentlicht"** sind, bis sie benötigt werden. Der Ausstieg (Kanalschließung) kann einseitig (von einer der beiden Parteien jederzeit entschieden) oder einvernehmlich erfolgen (was zu niedrigeren On-Chain-Gebühren führt)
 
-![BIZ101](assets/de/04.webp)
+![BIZ101](assets/de/005.webp)
 
 Dieser Ansatz vermeidet die Langsamkeit und Komplexität der Durchführung jeder Transaktion direkt auf der Bitcoin-Hauptblockchain, indem er nur die endgültigen Salden aufzeichnet und seine Sicherheit beibehält. Das Lightning Network ist eine Schicht "on top" von Bitcoin, bleibt aber mit diesem verankert.
 
@@ -266,7 +266,7 @@ Das Protokoll schafft ein **Netzwerk** von Maschinen, deren Kanäle ein universe
 
 Das Lightning Network ermöglicht den sofortigen Austausch von Werten in Lichtgeschwindigkeit. Es ist wie ein E-Mail-Protokoll, das auf Zahlungen angewendet wird: ein Zahlungsnetzwerk der nächsten Generation. Es verändert die Art und Weise, wie "Geld" bewegt wird, radikal und macht es so kostenlos und schnell wie die Datenübertragung im Internet.
 
-![BIZ101](assets/de/12.webp)
+![BIZ101](assets/de/006.webp)
 
 **Schlüsselvorteile:**
 
@@ -375,7 +375,7 @@ Bevor er mit der Herstellung des Speers beginnt, beschließt der Fischer, einige
 
 Während er seine Zeit dem Bau des Speers widmet, verlässt er sich auf seine Reserven und verzögert bereitwillig einige seiner unmittelbaren Annehmlichkeiten (ein Ausdruck seiner **Zeitpräferenz**). Nach mehreren Tagen harter Arbeit hat er einen robusten Speer fertiggestellt.
 
-![BIZ101](assets/de/05.webp)
+![BIZ101](assets/de/007.webp)
 
 Mit dem Speer kann er nun viel schneller und mit weniger Aufwand Fische fangen. Er muss sich nicht mehr so anstrengen wie früher und beginnt sogar, einen Überschuss an Fischen anzuhäufen. Dieser Überschuss eröffnet ihm neue Möglichkeiten: Er kann ihn lagern, teilen oder in andere Projekte auf der Insel investieren. Durch den Aufschub des sofortigen Verbrauchs und die Nutzung seines Kapitals hat der Fischer seine Effizienz und seine Zukunftsaussichten deutlich verbessert."
 
@@ -431,7 +431,7 @@ Die **Österreichische Schule der Nationalökonomie** ist eine Tradition ökonom
 - **Milton Friedman**: Obwohl er nicht direkt mit der Österreichischen Schule in Verbindung gebracht wird, vertrat Friedman viele marktwirtschaftliche und liberale Ideen. Seine monetaristische Politik unterscheidet sich vom österreichischen Denken, teilt aber dessen Kritik an übermäßigen staatlichen Eingriffen in die Wirtschaft.
 - **Frédéric Bastiat**: Der französische Wirtschaftswissenschaftler Bastiat aus dem 19. Jahrhundert beeinflusste die Österreichische Schule mit seinen Werken über den Freihandel und die unsichtbaren Folgen der Wirtschaftspolitik. Sein Essay *Was man sieht und was man nicht sieht* ist ein Grundlagentext des Wirtschaftsliberalismus.
 
-![BIZ101](assets/de/06.webp)
+![BIZ101](assets/de/008.webp)
 
 *Namensnennung: Das Ludwig von Mises Institut*
 
@@ -487,7 +487,7 @@ Erstens: **Performance in der Vergangenheit ist keine Garantie für zukünftige 
 
 Zweitens hat Bitcoin bisher **4-Jahres-Zyklen** erlebt, was bedeutet, dass bei einem Zeithorizont von mehr als 4 Jahren die Wette immer profitabel gewesen ist. Für diejenigen, die Bitcoin als Investition sehen, kann ein kurzfristiger Zeithorizont (<4 Jahre) riskant sein.
 
-![BIZ101](assets/de/07.webp)
+![BIZ101](assets/de/009.webp)
 
 *MICHAEL SAYLOR: "Das beste Bitcoin-Preissignal ist der einfache gleitende 4-Jahres-Durchschnitt "* Siehe obige Grafik.
 
@@ -548,7 +548,7 @@ Sie müssen nicht genau 1 Bitcoin kaufen, denn Bitcoin ist in Untereinheiten tei
 
 Außerdem kann die Gesamtzahl von 21 Millionen Bitcoins - oder **2,1 Billiarden Satoshis** - effizient durch eine 64-Bit-Ganzzahl dargestellt werden. Das bedeutet, dass sie trotz des hohen Preises pro ganzem Bitcoin dank ihrer Teilbarkeit für ein breites Spektrum von Anlegern zugänglich bleibt. Sie müssen also keine ganze Bitcoin kaufen, um am Netzwerk teilzunehmen oder in diesen digitalen Vermögenswert zu investieren.
 
-![BIZ101](assets/de/08.webp)
+![BIZ101](assets/de/010.webp)
 
 Wir dürfen nicht vergessen, dass die relativ geringe Marktkapitalisierung im Vergleich zu anderen Vermögenswerten wie Aktien, Gold oder Immobilien ein intaktes Wertsteigerungspotenzial bietet. Mit einer immer noch sehr geringen Marktdurchdringung (etwa 1 % der Weltbevölkerung) stehen wir vermutlich erst am Anfang seines Aufstiegs. Das macht sie **zur asymmetrischsten Wette unserer Generation**: Die Wahrscheinlichkeit, dass sie zum jetzigen Zeitpunkt auf Null sinkt, ist sehr gering, und die Wahrscheinlichkeit, dass sie weiter an Boden gewinnt, ist groß.
 
@@ -585,7 +585,7 @@ Aufgrund dieser Unterschiede entscheiden sich **einige Unternehmer dafür, Bitco
 
 Es gibt drei Möglichkeiten, Bitcoin zu erwerben:
 
-![BIZ101](assets/de/09.webp)
+![BIZ101](assets/de/011.webp)
 
 
 - Im Austausch für Waren oder Dienstleistungen:
@@ -612,7 +612,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 Um mehr über Methoden zum Erwerb von Bitcoins über eine Börse oder Peer-to-Peer zu erfahren, können Sie [den Abschnitt "Börse" in unseren Anleitungen konsultieren](https://planb.network/tutorials/exchange).
 
-![BIZ101](assets/de/16.webp)
+![BIZ101](assets/de/012.webp)
 
 ### Zu welchem Preis?
 
@@ -636,7 +636,7 @@ In Wirklichkeit ist das Wertsteigerungspotenzial von Bitcoin so groß, dass man 
 
 Die Immobilienbranche wiederholt oft, dass "es immer der richtige Zeitpunkt zum Kaufen ist", und vergisst dabei, dass, wenn Immobilien ihre Funktion als Wertaufbewahrungsmittel verlieren würden - und sich auf Vermögenswerte wie Bitcoin verlagern würden - die Preise näher an ihren Nutzwert (Schutz) zurückkehren könnten. Bitcoin hingegen dient nur als Wertaufbewahrungsmittel, was bedeuten könnte, dass "es immer der richtige Zeitpunkt zum Kaufen ist" Die Zukunft wird es zeigen.
 
-![BIZ101](assets/de/13.webp)
+![BIZ101](assets/de/013.webp)
 
 *Kredit: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
@@ -663,11 +663,11 @@ Eine Börse oder ein Kaufdienst kann beispielsweise ein Konto für Sie einrichte
 
 Dabei handelt es sich um traditionelle Finanzinstrumente, die Bruchteile von Bitcoin darstellen und deren Kursentwicklung nachbilden. Die Institution, die hinter dem Produkt steht, kauft und hält theoretisch den zugrunde liegenden Bitcoin. Ihre Beiträge und Abhebungen erfolgen in traditioneller Währung (z. B. Dollar oder Euro), nicht in Bitcoin. Mit Ausnahme bestimmter Produkte, die eine Auszahlung in echten Bitcoin erlauben (um in einigen Ländern ein steuerpflichtiges Ereignis zu vermeiden), fallen bei diesen Instrumenten jährliche Verwaltungsgebühren an. Hier verlassen Sie sich auf die Sicherheit der Institution und sind dem Risiko der Gegenpartei ausgesetzt (z. B. wenn eine Regierung beschließt, alle von Institutionen gehaltenen Bitcoin zu beschlagnahmen, wie es 1933 mit Gold unter der U.S. Executive Order 6102 geschah). Ihr Hauptvorteil ist der einfache Zugang, da sie über traditionelle Finanzkanäle vertrieben werden. Sie umgehen die Notwendigkeit, kryptografische Schlüssel zu sichern, bieten aber keine der inhärenten Eigenschaften von Bitcoin: Man kann das Bitcoin-Netzwerk nicht rund um die Uhr nutzen, um Werte ohne Erlaubnis frei zu bewegen. Sie replizieren nur die finanzielle Leistung, nicht die Funktionalität oder Souveränität von Bitcoin selbst.
 
-![BIZ101](assets/de/15.webp)
+![BIZ101](assets/de/014.webp)
 
 Darüber hinaus hat die Form, in der Sie Bitcoin halten, erhebliche Auswirkungen auf die Sicherheitsmaßnahmen, die zum Schutz Ihrer Unternehmensfinanzen erforderlich sind. Unabhängig davon, ob Sie sich für die Selbstverwahrung entscheiden, indem Sie Hardware-Wallets mit einer oder mehreren Signaturen usw. verwenden, um die direkte Kontrolle über Ihre Schlüssel zu behalten, oder ob Sie diese Aufgabe an externe Verwahrungsdienste oder ETFs delegieren, ist jede Option mit einem eigenen Risikoprofil verbunden. So bietet beispielsweise die Selbstverwahrung vollen Zugang, erfordert aber strenge interne Sicherheitsprotokolle, während Lösungen von Drittanbietern den Verwaltungsaufwand auf Kosten des Kontrahentenrisikos verringern. Zur weiteren Veranschaulichung der Unterschiede wird in dieser Grafik das Sicherheitsmodell für jede Verwahrungsart skizziert, damit Sie den Ansatz wählen können, der am besten für die Bedürfnisse Ihres Unternehmens geeignet ist:
 
-![BIZ101](assets/de/14.webp)
+![BIZ101](assets/de/015.webp)
 
 ### Bei wem soll ich kaufen?
 
@@ -715,7 +715,7 @@ In den Anfängen ermöglichte das Internet die Abschaffung von Zwischenhändlern
 
 Bitcoin ist eine Infrastruktur des Vertrauens, deren erste Anwendung darin besteht, Vermittler aus der Speicherung und dem Austausch von Werten - Geld - zu entfernen. Andere, derzeit noch unvorstellbare Anwendungen werden auf dieser Infrastruktur entstehen. Ihre anfängliche Präsenz hier ist das Äquivalent zu einer Website: ein Gateway für Peer-to-Peer-Zahlungen und den Austausch von Werten.
 
-![BIZ101](assets/de/17.webp)
+![BIZ101](assets/de/016.webp)
 
 Betrachten wir nun die Perspektive eines praktischen Unternehmens, dessen Kerngeschäft nichts mit Bitcoin zu tun hat. Warum sollte es sich entscheiden, Bitcoin-Zahlungen zu akzeptieren?
 
@@ -838,19 +838,19 @@ In den folgenden Kapiteln werden wir die einzelnen Unternehmensprofile und die d
 
 Das Starter-Profil ist für Unternehmen, Kreative und Einzelpersonen gedacht, die Bitcoin-Zahlungen erkunden möchten, ohne umfangreiche Ressourcen oder Fachkenntnisse zu benötigen. Dies sind typischerweise diejenigen, die ein sehr kleines Transaktionsvolumen abwickeln (vielleicht ein paar Trinkgelder, Spenden oder gelegentliche Verkäufe) und eine einfache, leichte Einführung in das Bitcoin- und Lightning Network-Ökosystem suchen. Der Schlüsselwert des Starter-Ansatzes liegt in der minimalen Einrichtung: in den meisten Fällen ist alles, was benötigt wird, ein Smartphone oder Tablet, das mit einer einfachen Lightning-kompatiblen Wallet ausgestattet ist.
 
-![BIZ101-profiles](assets/de/18.webp)
+![BIZ101-profiles](assets/de/017.webp)
 
 Eines der wichtigsten Merkmale dieses Profils ist die Konzentration auf Zahlungen mit geringem Volumen, die selten ein paar hundert Euro oder Dollar pro Monat überschreiten. Diese bescheidene Größenordnung macht es zu einer ausgezeichneten Wahl für jeden, der den Markt mit Bitcoin testen möchte, ohne die Komplexität, die mit einem Einsatz in größeren Mengen verbunden ist. Da es weniger operativen Druck gibt und weniger Geld auf dem Spiel steht, können Fehler vermieden werden und man lernt schnell daraus. Von Künstlern, die auf Wochenendmärkten handgefertigtes Kunsthandwerk verkaufen, bis hin zu gemeinnützigen Gruppen, die einmalige Spenden annehmen, legen die Nutzer dieser Kategorie oft mehr Wert auf Zugänglichkeit und Benutzerfreundlichkeit als auf fortschrittliche Funktionen.
 
 Bei den beiden häufigsten Wallet-Konfigurationen für das Starter-Profil muss man sich zwischen verwahrten und nicht verwahrten Lösungen entscheiden. Eine verwahrte Wallet (wie Wallet of Satoshi oder Blink) überlässt die Verwaltung der privaten Schlüssel und der Backend-Operationen einem Drittanbieter, wodurch sich die technische Verantwortung für den Nutzer verringert. Diese Lösung ist besonders für diejenigen interessant, die Wert auf Bequemlichkeit legen und eine möglichst einfache Einführung wünschen. Auf der anderen Seite legen nicht-verwahrende Lightning-Wallets (wie Phoenix oder Breez) die privaten Schlüssel und die volle Kontrolle in die Hände des Geschäftsinhabers und bieten im Austausch für etwas mehr Anfangsaufwand mehr Autonomie und Privatsphäre. In beiden Fällen sind die modernen Schnittstellen in der Regel so benutzerfreundlich, dass jeder die wesentlichen Aufgaben (Erstellung eines QR-Codes, Eingabe eines Zahlungsbetrags und Bestätigung von Transaktionen) innerhalb weniger Minuten erledigen kann.
 
-![BIZ101-profiles](assets/de/19.webp)
+![BIZ101-profiles](assets/de/018.webp)
 
 Auch wenn Sicherheitsbedenken bei kleinen Transaktionen weniger dringlich erscheinen mögen, ist es dennoch wichtig, grundlegende Schutzmaßnahmen zu ergreifen. Selbst ein einzelnes Smartphone oder Tablet, das für den Empfang von Bitcoin-Zahlungen verwendet wird, sollte mit einem Passwort oder biometrischer Sicherheit gesperrt werden, und Backup-Verfahren (von der Verfolgung der Anmeldedaten für eine verwahrte Wallet bis zur Sicherung einer Seed-Phrase für eine nicht verwahrte Wallet) müssen ernst genommen werden. Mitarbeiter, die Transaktionen vor Ort abwickeln, würden davon profitieren, wenn sie die Grundlagen kennen würden: wie man die App öffnet, wie man dem Kunden einen QR-Code vorlegt und wie man überprüft, ob die Zahlung tatsächlich eingegangen ist.
 
 Buchhaltung und Berichterstattung sind im Rahmen des Starter-Profils zwar relativ einfach, sollten aber dennoch sorgfältig bedacht werden. Auch wenn die Transaktionsvolumina minimal sein mögen, beugt das Führen genauer Aufzeichnungen späterer Verwirrung vor und trägt dazu bei, im Falle von Finanzprüfungen oder Steuererklärungen Transparenz zu wahren. Viele Wallet-Anwendungen ermöglichen es den Nutzern, einen grundlegenden Transaktionsverlauf als CSV-Datei zu exportieren; für ein kleines Unternehmen oder einen Einzelunternehmer kann das regelmäßige Speichern dieser Dateien den Abgleich der Konten erheblich erleichtern. Es ist auch ratsam, den ungefähren Fiat-Wert (z. B. in Euro oder Dollar) zum Zeitpunkt des Eingangs jeder Transaktion festzuhalten. Da der Bitcoin-Preis schwanken kann, ist eine Aufzeichnung der Umrechnungskurse von unschätzbarem Wert für die Buchhaltung und die Einhaltung von Steuerbestimmungen.
 
-![BIZ101-profiles](assets/de/20.webp)
+![BIZ101-profiles](assets/de/019.webp)
 
 Für Unternehmen, die ihre physischen oder persönlichen Zahlungen durch Online-Spenden oder Trinkgelder ergänzen möchten, ist es jetzt ganz einfach, einen Lightning-Tipp-Button oder ein Spenden-Widget in eine Website oder einen Blog zu integrieren. Plattformen wie BTCPay Server bieten einfach zu konfigurierende Zahlungsbuttons, während einige soziale Medien und Livestream-Dienste bereits Lightning-Tipps mit Adressen unterstützen. So kann selbst ein Start-up-Unternehmen ein bescheidenes, aber globales Netzwerk von Gönnern aufbauen. In der Zwischenzeit können diejenigen, die es vorziehen, Bitcoin nicht langfristig zu halten, eine teilweise oder automatische Konvertierung in Fiat-Währung mithilfe bestimmter Depot-Wallets oder Drittanbieter-Dienste erkunden. Obwohl diese Option mit zusätzlichen Gebühren und möglichen KYC-Verpflichtungen verbunden ist, hilft sie Unternehmen, Wechselkursschwankungen zu umgehen und ihre bestehenden Finanzabläufe mit minimalen Unterbrechungen aufrechtzuerhalten.
 
@@ -888,23 +888,23 @@ Im Gegensatz zum Starter-Profil betrachten Essential-Unternehmen Bitcoin-Zahlung
 
 Technologieempfehlungen in diesem Segment konzentrieren sich oft auf **Swiss Bitcoin Pay**, eine optimierte Lösung für Händler, um Bitcoin-Zahlungen einfach zu akzeptieren. Es verfügt über eine benutzerfreundliche PoS-App, die keine technischen Kenntnisse der Mitarbeiter erfordert. Im Gegensatz zu herkömmlichen Bitcoin-Wallets konzentriert es sich ausschließlich auf den Empfang von Zahlungen, so dass die Mitarbeiter das Gerät ohne Sicherheitsrisiken nutzen können. Mehrere PoS-Apps können sich mit demselben Konto verbinden, nutzbar auf Tablets, Registern, Smartphones oder über eine Webversion für Computer, die Android und iOS unterstützt. Sie können auch ein Menü mit den von Ihnen verkauften Artikeln und den dazugehörigen Preisen erstellen, so dass der Mitarbeiter am PoS einfach einen Korb mit Artikeln für den Kunden auswählen und den Gesamtbetrag abrechnen kann.
 
-![BIZ101-profiles](assets/de/21.webp)
+![BIZ101-profiles](assets/de/020.webp)
 
 Zahlungen können entweder in Bitcoin an eine bestimmte Adresse ausgezahlt oder in Fiat-Währung umgewandelt und täglich auf ein Bankkonto eingezahlt werden. Swiss Bitcoin Pay automatisiert den Prozess und wickelt Bitcoin- und Lightning Network-Zahlungen ohne manuellen Eingriff ab. Die Gelder werden bis zu 24 Stunden vor der Überweisung aufbewahrt. Obwohl es nicht ganz so sorglos ist wie BTCPay Server, bietet es ein Gleichgewicht zwischen Komfort und Sicherheit und erfordert keine KYC.
 
-![BIZ101-profiles](assets/de/22.webp)
+![BIZ101-profiles](assets/de/021.webp)
 
 Die Gebühren sind wettbewerbsfähig: 0,21 % im ersten Jahr, dann 1 % für Bitcoin-Zahlungen und 1,5 % für Fiat-Konversionszahlungen, einschließlich Bitcoin-Transaktionskosten. Swiss Bitcoin Pay bietet einen praktischen Mittelweg zwischen Depotlösungen wie Open Node und komplexen, selbst gehosteten Systemen wie BTCPay Server, wobei Einfachheit, Sicherheit und finanzielle Autonomie im Vordergrund stehen.
 
 Diese Art der Einrichtung ermöglicht es Geschäften, schnell Rechnungen zu erstellen, ihren Kunden QR-Codes zu zeigen und Lightning- oder On-Chain-Transaktionen mit minimalen Reibungsverlusten zu akzeptieren. Die Mitarbeiter benötigen nur eine kurze Einweisung, um diese Zahlungen abzuwickeln, während Manager sich in ein Online-Dashboard einloggen können, um die täglichen Umsätze abzugleichen und auf grundlegende Berichte zuzugreifen. Die Verfügbarkeit einer optimierten Verwaltungskonsole hilft auch kleineren Betrieben, sowohl Fiat- als auch Krypto-Einnahmen über eine einzige Schnittstelle zu verfolgen, wodurch Verwirrung vermieden und der Zeitaufwand für die manuelle Buchhaltung reduziert wird.
 
-![BIZ101-profiles](assets/de/23.webp)
+![BIZ101-profiles](assets/de/022.webp)
 
 Ein weiterer entscheidender Vorteil des Essential-Ansatzes ist die Betonung der schnellen Einführung und der minimalen Unterbrechung. Lösungen wie Swiss Bitcoin Pay können in wenigen Stunden statt in Tagen oder Wochen eingerichtet werden. Für einen Besitzer oder Manager eines mäßig ausgelasteten Restaurants besteht das Ziel darin, die Bitcoin-Akzeptanz zu integrieren, ohne dass es zu Verzögerungen an der Kasse oder Verwirrung beim Personal kommt. Sobald das POS-System konfiguriert ist, kann der Manager seinen Angestellten lediglich eine kurze Anleitung zur Anzeige der Rechnung und zur Überprüfung der Zahlung geben. Im besten Fall wird die Transaktion eines Kunden fast augenblicklich über das Lightning Network bestätigt, und das Verwaltungspanel des Unternehmens registriert gleichzeitig eine neue Zahlung in Echtzeit.
 
 Obwohl das Essential-Profil keine hochentwickelten Buchhaltungssysteme erfordert, ist es dennoch ratsam, angemessene Transaktionsaufzeichnungen zu führen. Tools wie Swiss Bitcoin Pay bieten CSV-Exportfunktionen, die es Managern ermöglichen, den Fiat-Äquivalenzwert jedes Bitcoin-Verkaufs zu erfassen und zusammen mit anderen Einkommensquellen zu verfolgen. Dieses Dokumentationsniveau ist für die meisten kleinen Unternehmen ausreichend, und ein rudimentäres Verständnis der Wechselkurse hilft bei der Steuererklärung und der allgemeinen Finanzaufsicht.
 
-![BIZ101-profiles](assets/de/24.webp)
+![BIZ101-profiles](assets/de/023.webp)
 
 Die für Ihr Profil am besten geeignete Hybridlösung ist wahrscheinlich Swiss Bitcoin Pay:
 
@@ -928,19 +928,19 @@ Das Profil Professional richtet sich an Unternehmen, die nicht nur gelegentlich 
 
 Eines der wichtigsten Merkmale des professionellen Händlers ist der Bedarf an **erweiterten Funktionen** und **anpassbaren Lösungen**, die auch bei wachsendem Transaktionsvolumen effizient bleiben. Im Gegensatz zu Essential-Benutzern, die sich vielleicht mit einem schlanken Tool zufriedengeben, das genau in eine Smartphone-App passt, verlangen Professional-Geschäfte in der Regel Funktionen wie detaillierte Rechnungsanpassung, ausgefeilte Reporting-Dashboards und die Möglichkeit, mehrere administrative Rollen zuzuweisen.
 
-![BIZ101-profiles](assets/de/25.webp)
+![BIZ101-profiles](assets/de/024.webp)
 
 Eine Restaurantgruppe kann beispielsweise Mitarbeiter haben, die sich um die Rechnungsstellung und die Lagerverwaltung kümmern, während ein anderes Team die Produktlisten und Marketingkampagnen überwacht. In diesem Umfeld muss sich eine Bitcoin-Zahlungslösung nahtlos in diese bereits bestehenden Organisationsstrukturen einfügen.
 
-![BIZ101-profiles](assets/de/26.webp)
+![BIZ101-profiles](assets/de/025.webp)
 
 In Bezug auf Technologie und Tools bilden Lösungen wie **BTC Pay Server** oft den Kern eines professionellen Setups. BTC Pay Server ist eine Open-Source-Plattform, die entweder vor Ort oder über Cloud-Hosting bereitgestellt werden kann und umfangreiche Integrationsmöglichkeiten für Websites und E-Commerce-Plattformen bietet. Durch den Betrieb einer eigenen Instanz behalten Unternehmen ein hohes Maß an Kontrolle über jeden Aspekt des Zahlungsflusses, von automatisch generierten Checkout-Seiten bis hin zu Benachrichtigungen, die interne Prozesse auslösen, sobald eine Zahlung bestätigt wurde.
 
-![BIZ101-profiles](assets/de/27.webp)
+![BIZ101-profiles](assets/de/026.webp)
 
 Darüber hinaus können Tools wie [Zaprite](https://zaprite.com/) oder [Musqet](https://musqet.tech/) das Kassenerlebnis weiter verfeinern und eine genauere Anpassung ermöglichen (von der Wahl der Marke bis hin zu ausgefeilten Berichtsfunktionen). Diejenigen, die eine All-in-One-Online-Einzelhandelsumgebung bevorzugen, könnten sich zu [Be-BOP](https://be-bop.io/) hingezogen fühlen, einer E-Store-Lösung, die Bitcoin-Zahlungen erleichtert, ohne die Benutzerfreundlichkeit zu beeinträchtigen.
 
-![BIZ101-profiles](assets/de/28.webp)
+![BIZ101-profiles](assets/de/027.webp)
 
 Die Implementierung dieser Technologien in einem professionellen Umfeld bedeutet, dass man der **operativen Komplexität** große Aufmerksamkeit schenken muss. Automatisierte Fakturierungs-Workflows, Anzeigen in mehreren Währungen und die Synchronisierung mit bestehenden Inventarsystemen sind allesamt Kennzeichen einer gut integrierten Plattform. Die Fähigkeit, Transaktionsdaten präzise zu exportieren (sei es als CSV-Dateien, direkte API-Aufrufe oder benutzerdefinierte Formate), hilft Unternehmen, Bitcoin-Verkäufe mit anderen Einnahmequellen effizient abzustimmen.
 
@@ -948,7 +948,7 @@ Sicherheit und Rollenmanagement sind ein weiterer zentraler Aspekt für professi
 
 Ein Beispiel aus der Praxis: ein mittelgroßes E-Commerce-Geschäft, das sich auf Technologiezubehör spezialisiert hat. Das Unternehmen könnte den BTC Pay Server in sein bestehendes Online-Geschäft integrieren und so automatisch Bitcoin-Zahlungsadressen während der Kaufabwicklung generieren. Die Kunden schließen ihre Einkäufe ab, indem sie eine Lightning- oder On-Chain-Adresse scannen, und die Plattform des Geschäfts bestätigt die Zahlung sofort. Gleichzeitig aktualisiert ein internes System den Bestellstatus und löst Versandbenachrichtigungen aus. Dank der fortschrittlichen Berichtsfunktionen kann das Finanzteam die täglichen Bitcoin-Verkäufe leicht überprüfen, ein konsolidiertes Hauptbuch für die Rechnungsprüfung exportieren und den Wert aller BTC-Bestände verfolgen, die das Unternehmen behalten möchte.
 
-![BIZ101-profiles](assets/de/29.webp)
+![BIZ101-profiles](assets/de/028.webp)
 
 *[Credit: Bitcoin Bazar Shop in Paris, Frankreich](https://bitcoinbazar.fr/)*
 
@@ -1014,7 +1014,7 @@ Neue Infrastrukturen sind erfolgreich, weil sie effizienter sind, und frühe Anw
 - **Verbessertes Node- und Channel-Management:** Sowohl individuelle als auch professionelle Lösungen wurden weiterentwickelt. So unterstützt der BTC Pay Server jetzt zahlreiche Plugins für die Verbindung mit anderen Anbietern (PSPs, On-/Off-Rampen usw.). Neue Infrastrukturanbieter wie LightSpark und Alby Hub gehen ebenfalls in Produktion.
 - **Wachstum der Händlerakzeptanz:** Händler wie BitRefill berichten von einem Anstieg der Bitcoin-Zahlungen unter ihren aktiven Nutzern, mit einer klaren Verschiebung hin zu Bitcoin gegenüber Lightning. Darüber hinaus machen die extrem niedrigen Gebühren von Lightning es zur bevorzugten Wahl für kleine Zahlungen (durchschnittlich 32 € pro Transaktion).
 
-![BIZ101-profiles](assets/de/30.webp)
+![BIZ101-profiles](assets/de/029.webp)
 
 *[Quelle: BTC Map](https://btcmap.org/)*
 
@@ -1026,7 +1026,7 @@ Neue Infrastrukturen sind erfolgreich, weil sie effizienter sind, und frühe Anw
 
 Bitcoin und das Lightning Network vollenden die **Revolution der digitalen Geldbörsen**. Neue Webdienste ermöglichen jetzt **Transaktionen ohne die Notwendigkeit, ein Konto zu erstellen** - Ihr Wallet wird zu Ihrer Identität! Mit Protokollen wie **Nostr Wallet Connect (NWC)** und **LN-URL-AUTH** können Wallets Benutzer nahtlos authentifizieren und Transaktionen ohne herkömmliche Konten ermöglichen. Vorbei sind die Zeiten, in denen man für einfache Einkäufe oder Abonnements ein Konto führen musste. Es müssen keine persönlichen Daten oder Zahlungsinformationen mehr angegeben werden, die am Ende gehackt und im Dark Web verkauft werden könnten, wie uns die jüngsten Ereignisse nur allzu oft vor Augen führen.
 
-![BIZ101](assets/de/10.webp)
+![BIZ101](assets/de/030.webp)
 
 Die Händler von morgen werden sich diese Innovation zu eigen machen und ihren Kunden eine sicherere, nahtlosere (Ein-Klick-)Erfahrung bieten, die auch ihre Privatsphäre respektiert.
 
@@ -1199,7 +1199,7 @@ Wenn ein Unternehmen beschließt, Bitcoin in seine Buchhaltung zu integrieren, v
 
 Sie sind oft eine sinnvolle Ergänzung für große Organisationen mit mehreren Wallets und Vermögenswerten auf verschiedenen Plattformen oder Börsen.
 
-![BIZ101](assets/de/31.webp)
+![BIZ101](assets/de/031.webp)
 
 Für die meisten kleinen Unternehmen reicht jedoch eine einfache "csv"-Datei mit dem Transaktionsverlauf aus. Das Ziel ist es, für jede Zahlung das Datum, den Betrag, den Gegenwert in Euro/Dollar und die entsprechenden Bitcoin-Adressen zu dokumentieren. Die überwiegende Mehrheit der Bitcoin-Zahlungslösungen (BTC Pay Server, Swiss Bitcoin Pay usw.) oder Börsenplattformen (Bitfinex, Kraken, Coinbase usw.) bieten bereits einen Mechanismus zum Exportieren von Transaktionsverläufen. Wenn diese Datei einem Buchhalter zur Verfügung gestellt wird, ist es möglich, die Dateneingabe zu rationalisieren und die ein- und ausgehenden Ströme im Zusammenhang mit Bitcoin klar zu unterscheiden.
 

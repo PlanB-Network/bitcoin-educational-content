@@ -1,5 +1,5 @@
 ---
-name: 贾米
+name: Jami
 description: 自由、保密地分享。
 ---
 

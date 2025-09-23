@@ -1,5 +1,5 @@
 ---
-name: Melocotón
+name: Peach
 description: Guía completa para usar Peach e intercambiar bitcoins P2P
 ---
 ![cover](assets/cover.webp)

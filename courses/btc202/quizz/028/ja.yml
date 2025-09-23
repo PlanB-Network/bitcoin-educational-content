@@ -1,0 +1,9 @@
+question: prunedノードはFull nodeノードと何が違うのですか？
+answer: 古いブロックを徐々に取り除いていく
+wrong_answers:
+  - 古いトランザクションは検証されない
+  - ブロック全体を中継することはできない
+  - Blockchainのローカルコピーは保持せず、UTXOのセットのみを保持する。
+explanation: |
+  prunedノードはチェーン全体を検証するが、保存を制限するためにブロックの最近の部分のみを保持する。
+reviewed: true

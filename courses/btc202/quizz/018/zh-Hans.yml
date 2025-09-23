@@ -1,0 +1,9 @@
+question: 使用最广泛的 Bitcoin 节点实现是什么？
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin 经典
+  - 比特币
+explanation: |
+  网络上 10 个节点中约有 9 个是 Bitcoin core 的主要客户。
+reviewed: true

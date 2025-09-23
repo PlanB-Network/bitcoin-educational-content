@@ -1,0 +1,9 @@
+question: Kes hooldab DNS seed servereid, mida kasutatakse algseks partnerite leidmiseks?
+answer: Ökosüsteemi arendajad
+wrong_answers:
+  - Interneti-teenuste pakkujad
+  - Satoshi Nakamoto
+  - Mining basseinid
+explanation: |
+  DNS-seemneid haldavad tuntud arendajad (Wuille, Corallo, Dashjr jne) ja need annavad aktiivse sõlme IP-aadressid ühenduste loomiseks.
+reviewed: true

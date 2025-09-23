@@ -1,5 +1,5 @@
 ---
-name: ボルツマン計算機
+name: Boltzmann Calculator
 description: エントロピーの概念とボルツマンの使用方法を理解する
 ---
 ![cover](assets/cover.webp)

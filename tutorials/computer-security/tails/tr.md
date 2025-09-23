@@ -1,5 +1,5 @@
 ---
-name: Kuyruklar
+name: Tails
 
 description: Tails'i bir USB anahtarına yükleme
 ---

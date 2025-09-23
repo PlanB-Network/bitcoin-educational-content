@@ -1,5 +1,5 @@
 ---
-name: デビアン
+name: Debian
 description: 安定性、堅牢性、互換性で有名なLinuxディストリビューション。
 ---
 

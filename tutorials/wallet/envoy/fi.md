@@ -1,5 +1,5 @@
 ---
-name: Lähettiläs
+name: Envoy
 description: Passin määrittäminen ja käyttö Envoy-sovelluksen kanssa
 ---
 ![cover](assets/cover.webp)

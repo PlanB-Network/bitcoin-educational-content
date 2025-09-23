@@ -1,5 +1,5 @@
 ---
-name: जीडब्ल्यू-1 जीडब्ल्यू-0
+name: RGB CLI
 description: मैं RGB पर Exchange स्मार्ट अनुबंध कैसे बनाऊं?
 ---
 ![cover](assets/cover.webp)

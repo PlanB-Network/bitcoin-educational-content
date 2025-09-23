@@ -1,5 +1,5 @@
 ---
-name: 虛擬主機
+name: VirtualBox
 description: 在 Windows 11 上安裝 VirtualBox 並建立第一台虛擬機器
 ---
 ![cover](assets/cover.webp)

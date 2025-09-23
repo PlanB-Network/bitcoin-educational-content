@@ -1,5 +1,5 @@
 ---
-name: Boltzmanns kalkylator
+name: Boltzmann Calculator
 description: Förstå begreppet entropi och hur man använder Boltzmann
 ---
 ![cover](assets/cover.webp)

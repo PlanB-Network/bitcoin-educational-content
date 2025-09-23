@@ -1,0 +1,9 @@
+question: امروزه از چه نوع تجهیزاتی برای استخراج کارآمد Bitcoin استفاده می‌شود؟
+answer: ASIC
+wrong_answers:
+  - کلاسیک CPU
+  - واحد پردازنده گرافیکی
+  - FPGA
+explanation: |
+  امروز، Bitcoin Mining با استفاده از ASICها انجام می‌شود. این‌ها تراشه‌های تخصصی برای الگوریتم SHA-256 هستند.
+reviewed: true

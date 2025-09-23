@@ -1,6 +1,6 @@
 ---
-name: Zeus Tertanam - Lanjutan
-description: Kustodian mandiri multi-simpul Wallet
+name: Zeus Embedded - Lanjutan
+description: Dompet Lightning multi-node dengan kustodi sendiri
 ---
 
 ![Zeus](assets/cover.webp)
@@ -14,13 +14,13 @@ ZEUS adalah aplikasi seluler Bitcoin Wallet dan manajemen node dengan fungsional
 
 ### Untuk siapa ZEUS?
 
-Saat ini ZEUS diperuntukkan bagi orang-orang yang menjalankan [Lightning Network Daemon (LND)] (https://lightning.engineering/) atau [Core Lightning (CLN)] (https://blockstream.com/lightning/) node rumah/bisnis mereka sendiri dan mengelolanya melalui Zeus, dari jarak jauh.
+Saat ini ZEUS ditujukan untuk orang yang menjalankan node rumah / bisnis mereka sendiri dengan [Lightning Network Daemon (LND)](https://lightning.engineering/) atau [Core Lightning (CLN)](https://blockstream.com/lightning/) dan mengelolanya dari jarak jauh melalui Zeus.
 
 
-Pedagang yang menggunakan [BTCPay] (https://btcpayserver.org/) atau [LNBits] (https://lnbits.com/) atau [Alby] (https://getalby.com/) (atau akun LNDhub lainnya) juga dapat terhubung ke, menggunakan, dan mengelola node/akun mereka dari ZEUS.
+Pedagang yang menggunakan [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) atau [Alby](https://getalby.com/) (atau akun LNDhub lainnya) juga dapat menghubungkan, menggunakan, dan mengelola node / akun mereka dari ZEUS.
 
 
-[Mulai dari v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS akan mulai melayani pengguna biasa yang hanya menginginkan cara sederhana untuk melakukan pembayaran Bitcoin yang cepat dan murah dari perangkat seluler mereka dengan memiliki [built-in mobile Lightning node](https://docs.zeusln.app/category/embedded-node) dengan [Lightning Service Provider (LSP)](https://docs.zeusln.app/lsp/intro) yang terintegrasi.
+[Mulai dari v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS akan mulai melayani pengguna biasa yang hanya ingin cara sederhana untuk melakukan pembayaran bitcoin yang cepat dan murah dari perangkat seluler mereka dengan memiliki [node Lightning seluler bawaan](https://docs.zeusln.app/category/embedded-node) dengan [Penyedia Layanan Lightning (LSP)](https://docs.zeusln.app/lsp/intro) terintegrasi.
 
 
 ### Sumber daya Zeus yang penting:
@@ -29,7 +29,7 @@ Pedagang yang menggunakan [BTCPay] (https://btcpayserver.org/) atau [LNBits] (ht
 - Halaman web resmi Zeus - [https://zeusln.app/](https://zeusln.app/)
 - Dokumentasi Zeus - [https://docs.zeusln.app/](https://docs.zeusln.app/)
 - [Repositori Github Zeus](https://github.com/ZeusLN/zeus)
-- [Grup dukungan Telegram Zeus](https://t.me/ZeusLN)
+- [Grup dukungan Zeus di Telegram](https://t.me/ZeusLN)
 - [Zeus di NOSTR](https://iris.to/zeus@zeusln.app)
 - [Pengumuman Blog Zeus](https://blog.zeusln.com)
 
@@ -71,12 +71,12 @@ Untuk dapat menggunakan Zeus dan mengelola saluran Lightning, likuiditas, biaya,
 
 
 - [LND - Dokumentasi Lightning Network Daemon](https://docs.lightning.engineering/)
-- [CLN - Dokumentasi Petir Inti] (https://lightning.readthedocs.io/index.html)
-- [Panduan Petir Pemula] (https://bitcoiner.guide/lightning/) - oleh Bitcoin Tanya Jawab
-- [Manajemen Simpul Petir](https://www.lightningnode.info/) - oleh openoms
-- [Lightning Network dan analogi bandara](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
-- [Mengelola Likuiditas Simpul Petir](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
-- [Pemeliharaan Simpul Petir](https://darthcoin.substack.com/p/lightning-node-maintenance)
+- [CLN - Dokumentasi Core Lightning](https://lightning.readthedocs.io/index.html)
+- [Panduan Lightning untuk Pemula](https://bitcoiner.guide/lightning/) – oleh Bitcoin Q&A
+- [Manajemen Node Lightning](https://www.lightningnode.info/) – oleh openoms
+- [Jaringan Lightning dan analogi bandara](https://darthcoin.substack.com/p/the-lightning-network-and-the-airport)
+- [Mengelola Likuiditas Node Lightning](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Pemeliharaan Node Lightning](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Video tutorial oleh Sesi BTC
@@ -98,7 +98,7 @@ Saya mendedikasikan panduan ini untuk semua pengguna Lightning Network (LN) baru
 Anggap saja Anda sudah melewati semua dompet LN kustodian, tetapi Anda belum siap untuk mulai menjalankan node LN perutean PUBLIC, Anda hanya ingin menumpuk lebih banyak Sats di atas LN dengan cara yang lebih self-custodial dan melakukan pembayaran reguler melalui LN.
 
 
-Ini dia Zeus, dimulai dengan [versi v0.8.0 yang diumumkan di blog mereka] (https://blog.zeusln.com/new-release-zeus-v0-8-0/), sekarang menawarkan node LND yang disematkan ke dalam aplikasi. Sampai saat ini Zeus adalah aplikasi manajemen node jarak jauh + akun LNDhub. Tetapi sekarang... node ada di dalam ponsel!
+Inilah Zeus, dimulai dengan [versi v0.8.0 yang diumumkan di blog mereka](https://blog.zeusln.com/new-release-zeus-v0-8-0/), kini menawarkan node LND tertanam di dalam aplikasi. Hingga kini Zeus adalah aplikasi manajemen node jarak jauh + akun LNDhub. Tetapi sekarang… node ada di dalam ponsel!
 
 
 ![Image](assets/en/02.webp)
@@ -110,7 +110,7 @@ Ini dia Zeus, dimulai dengan [versi v0.8.0 yang diumumkan di blog mereka] (https
 
 - Node LND **privat** - Itu berarti node ini TIDAK akan melakukan perutean publik untuk pembayaran orang lain melalui node Anda. Node dan salurannya tidak diumumkan (privat, tidak terlihat pada grafik LN publik). Untuk menerima dan melakukan pembayaran akan dilakukan melalui rekan-rekan LSP Anda yang terhubung. INGAT: Zeus Embedded Node TIDAK akan melakukan perutean publik!
 - **Layanan LND yang persisten** - pengguna dapat mengaktifkan fitur ini dan menjaga layanan LND tetap aktif secara terus menerus seperti halnya node LN biasa. Aplikasi tidak harus dibuka, layanan persisten akan menjaga semua komunikasi tetap online.
-- Filter blok **Neutrino** - sinkronisasi blok dilakukan dengan menggunakan [filter blok dan protokol Neutrino] (https://bitcoinops.org/en/topics/compact-block-filters/) (tidak ada informasi tentang dana On-Chain pengguna kami). Pengingat: untuk koneksi internet dengan latensi tinggi/lambat, sinkronisasi blok berdasarkan neutrino ini terkadang bisa gagal. Mencoba beralih ke server yang dekat dengan neutrino dapat membantu memulihkan sinkronisasi. Tanpa sinkronisasi ini, node LND Anda tidak akan dapat dimulai!
+-   **Filter blok Neutrino** - sinkronisasi blok dilakukan menggunakan [filter blok dan protokol Neutrino](https://bitcoinops.org/en/topics/compact-block-filters/) (tanpa memberikan informasi tentang dana on-chain pengguna kami). Pengingat: untuk koneksi internet berlatensi tinggi / lambat, sinkronisasi blok berbasis Neutrino ini kadang dapat gagal. Mencoba beralih ke server Neutrino terdekat dapat membantu memulihkan sinkronisasi. Tanpa sinkronisasi ini, node LND Anda tidak dapat dimulai!
 - **Saluran Taproot Sederhana** - Ketika menutup saluran ini, pengguna dikenakan biaya yang lebih rendah dan diberikan privasi yang lebih besar karena mereka terlihat seperti pengeluaran Taproot lainnya ketika memeriksa jejak On-Chain mereka.
 - **LSP terintegrasi** - Olympus adalah node LSP baru untuk Zeus. Pengguna dapat menerima kembali Sats melalui LN secara langsung, tanpa harus mengatur saluran LN sebelumnya. Cukup dengan membuat LN Invoice dan membayar dari LN Wallet lainnya, dengan layanan saluran Zeus 0-conf. Baca lebih lanjut tentang Zeus LSP di sini. LSP juga memberikan privasi tambahan kepada pengguna kami dengan menyediakan faktur yang dibungkus yang menyembunyikan kunci publik node mereka dari pembayar.
 - **Buku Kontak** - Anda dapat menyimpan kontak secara manual atau mengimpor dari NOSTR, untuk memudahkan pengiriman pembayaran ke tujuan reguler Anda.
@@ -123,7 +123,7 @@ Ini dia Zeus, dimulai dengan [versi v0.8.0 yang diumumkan di blog mereka] (https
 ### Cara bergabung dengan Zeus LN Node (LND tertanam)
 
 
-Dalam panduan ini saya hanya akan membahas tentang node LND yang tertanam, dan bukan tentang cara lain untuk menggunakan aplikasi yang luar biasa ini (manajemen node jarak jauh dan akun LNDhub). Untuk jenis koneksi lainnya, silakan merujuk ke [halaman Zeus Docs] (https://docs.zeusln.app/category/getting-started), yang dijelaskan dengan sangat baik dan tidak perlu menulis panduan khusus.
+Dalam panduan ini saya hanya akan membahas node LND tertanam, dan bukan tentang cara lain untuk menggunakan aplikasi luar biasa ini (manajemen node jarak jauh dan akun LNDhub). Untuk jenis koneksi lainnya, silakan lihat [halaman dokumentasi Zeus](https://docs.zeusln.app/category/getting-started), yang sudah dijelaskan dengan sangat baik dan tidak memerlukan panduan khusus.
 
 
 #### LANGKAH 1 - PENGATURAN AWAL
@@ -137,7 +137,7 @@ Karena Zeus adalah node LND penuh, saya akan memberikan beberapa rekomendasi awa
 - Gunakan setidaknya Android 11 sebagai OS seluler dan perbarui sebanyak mungkin. Untuk iOS juga demikian, cobalah untuk menggunakan versi OS yang lebih tinggi.
 - Anda akan membutuhkan setidaknya 1GB ruang disk untuk penyimpanan data. Seiring berjalannya waktu dapat bertambah lebih banyak, tetapi ada fungsi untuk memadatkan basis data ke tingkat MB.
 - TIDAK perlu menggunakan Zeus dengan layanan Tor atau Orbot. Tolong jangan memperumit masalah lebih dari yang diperlukan. Tor dalam hal ini tidak akan menawarkan Anda lebih banyak privasi tetapi hanya memperburuk keadaan untuk sinkronisasi awal. Juga berhati-hatilah dengan VPN apa yang Anda gunakan dan periksa latensi koneksi menuju server neutrino. Perlu diingat, filter blokir Neutrino tidak membocorkan atau melacak identitas perangkat Anda, hanya melayani blokir. Lalu lintas LN juga berada di belakang LSP dengan kanal privat sehingga sangat sedikit informasi yang keluar, tidak ada alasan untuk panik tentang privasi.
-- Bersabarlah untuk sinkronisasi awal, bisa memakan waktu beberapa menit. Usahakan untuk terhubung ke koneksi internet broadband dengan latensi yang baik. Jika Anda menjalankan node Bitcoin Anda sendiri, [Anda dapat mengaktifkan layanan neutrino] (https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) dan menghubungkan Zeus Anda ke node Anda sendiri, bahkan menggunakan LAN internal, sehingga Anda akan mendapatkan kecepatan maksimum.
+-   Bersabarlah untuk sinkronisasi awal, bisa memakan waktu beberapa menit. Cobalah untuk terhubung ke koneksi internet broadband dengan latensi yang baik. Jika Anda menjalankan node Bitcoin sendiri, [Anda dapat mengaktifkan layanan neutrino](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) dan menghubungkan Zeus Anda ke node Anda sendiri, bahkan menggunakan LAN internal, sehingga Anda akan mendapatkan kecepatan maksimum.
 
 
 Setelah Anda mengatur jenis koneksi "Node tertanam", aplikasi akan mulai menyinkronkan untuk sementara waktu. Tunggu dengan sabar untuk menyelesaikan bagian tersebut, lalu masuk ke halaman Pengaturan utama.
@@ -155,7 +155,7 @@ Secara singkat, mari kita selami masing-masing bagian Pengaturan dan memahami be
 Ini adalah bagian dengan pengaturan umum untuk seluruh aplikasi
 
 
-**1 - Penyedia Layanan Petir (LSP) **
+**1 - Lightning Service Provider (LSP)**
 
 
 Di sini disajikan dua layanan LSP:
@@ -166,7 +166,7 @@ Di sini disajikan dua layanan LSP:
 - meminta saluran terlebih dahulu_ - Anda dapat membeli saluran masuk dari LSP Olympus secara langsung di aplikasi dengan berbagai opsi dan jumlah (untuk masuk dan keluar).
 
 
-LSP membantu menghubungkan pengguna ke Lightning Network dengan membuka saluran pembayaran ke node mereka. [Baca lebih lanjut tentang LSP di sini] (https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS memiliki LSP baru yang terintegrasi ke dalamnya yang disebut [OLYMPUS by ZEUS] (https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), yang tersedia untuk semua pengguna yang menggunakan node tertanam yang baru.
+LSP membantu menghubungkan pengguna ke jaringan Lightning dengan membuka saluran pembayaran ke node mereka. [Baca lebih lanjut tentang LSP di sini](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS memiliki LSP baru yang terintegrasi bernama [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), yang tersedia untuk semua pengguna yang menggunakan node tersemat baru.
 
 
 Pada bagian ini, secara default adalah LSP Olympus (https://0conf.lnolymp.us), tetapi Anda juga dapat mengatur LSP 0conf lain yang mendukung protokol ini.
@@ -214,7 +214,7 @@ Pada bagian ini terdapat beberapa opsi untuk faktur generate:
 - Mengatur memo standar yang akan ditampilkan di Invoice Anda generate
 - Waktu kedaluwarsa dalam hitungan detik, jika Anda menginginkan waktu tertentu, lebih lama atau lebih singkat untuk pembayaran Invoice Anda
 - Sertakan petunjuk rute - berikan informasi untuk menemukan saluran yang tidak diiklankan, atau saluran pribadi. Hal ini memungkinkan perutean pembayaran ke node yang tidak terlihat secara publik di jaringan. Petunjuk perutean menyediakan rute parsial antara node privat penerima dan node publik. Petunjuk perutean ini kemudian disertakan dalam Invoice yang dihasilkan oleh penerima dan diberikan kepada pembayar. Saya menyarankan untuk mengaktifkannya secara default, jika tidak, pembayaran yang masuk bisa gagal (tidak ada rute yang ditemukan).
-- AMP Invoice - Pembayaran Multi Jalur Atomik adalah jenis pembayaran Lightning baru yang diimplementasikan oleh LND yang memungkinkan untuk menerima Sats tanpa Invoice tertentu, menggunakan [keysend] (https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend). Praktis merupakan kode pembayaran statis. [Baca lebih lanjut di sini] (https://docs.lightning.engineering/lightning-network-tools/LND/amp).
+- AMP Invoice - Pembayaran Multi Jalur Atomik adalah jenis pembayaran Lightning baru yang diimplementasikan oleh LND yang memungkinkan untuk menerima Sats tanpa Invoice tertentu, menggunakan [keysend](https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend). Praktis merupakan kode pembayaran statis. [Baca lebih lanjut di sini](https://docs.lightning.engineering/lightning-network-tools/LND/amp).
 - Tampilkan bidang gambar awal khusus - gunakan opsi ini hanya dalam kasus yang sangat spesifik ketika Anda benar-benar ingin menggunakan bidang khusus dalam gambar awal. [Baca selengkapnya di sini](https://Bitcoin.stackexchange.com/questions/90797/how-can-i-generate-preimage-for-lightning-network-Invoice-should-i).
 
 
@@ -304,7 +304,7 @@ Berikut ini adalah video demo langsung cara menggunakan Zeus PoS:
 **B - Cadangan Wallet** *B - Cadangan Wallet*
 
 
-Node yang tertanam di ZEUS didasarkan pada LND dan menggunakan [format aezeed seed] (https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Ini berbeda dengan [format BIP39] (https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki) yang biasa Anda lihat pada kebanyakan dompet Bitcoin, walaupun mungkin terlihat mirip. Aezeed menyertakan beberapa data tambahan termasuk tanggal lahir Wallet yang akan membantu pemindaian ulang selama pemulihan menjadi lebih efisien.
+Node yang tertanam di ZEUS didasarkan pada LND dan menggunakan [format aezeed seed](https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md). Ini berbeda dengan [format BIP39](https://github.com/Bitcoin/bips/blob/master/bip-0039.mediawiki) yang biasa Anda lihat pada kebanyakan dompet Bitcoin, walaupun mungkin terlihat mirip. Aezeed menyertakan beberapa data tambahan termasuk tanggal lahir Wallet yang akan membantu pemindaian ulang selama pemulihan menjadi lebih efisien.
 
 
 Format kunci aezeed harus kompatibel dengan dompet seluler berikut ini: Blixt, BlueWallet dan Breez. Harap diperhatikan bahwa seed saja tidak akan cukup untuk memulihkan semua saldo Anda jika Anda memiliki saluran yang terbuka atau tertunda untuk ditutup!
@@ -322,7 +322,7 @@ SCB hanya diperlukan jika Anda memiliki saluran LN yang terbuka. Jika Anda hanya
 Jika Anda melihat bahwa setelah sekian lama masih belum menampilkan txs riwayat lama, buka Embedded node - Peers dan nonaktifkan opsi untuk menggunakan daftar peer yang dipilih (secara default adalah btcd.lnolymp.us). Ini akan memicu restart dan akan terhubung ke node neutrino pertama yang tersedia dengan respons waktu yang lebih baik. Atau gunakan peers neutrino terkenal lainnya yang disebutkan di bawah ini.
 
 
-Jika Anda ingin melihat lebih banyak opsi pemulihan untuk node LND, [silakan baca panduan saya sebelumnya] (https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), di mana Anda dapat menemukan langkah-langkah cara mengimpor aezeed seed ke dalam Sparrow Wallet atau metode lainnya.
+Jika Anda ingin melihat lebih banyak opsi pemulihan untuk node LND, [silakan baca panduan saya sebelumnya](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), di mana Anda dapat menemukan langkah-langkah cara mengimpor aezeed seed ke dalam Sparrow Wallet atau metode lainnya.
 
 
 **C - Node Tertanam**
@@ -356,7 +356,7 @@ Pada bagian ini kita akan menemukan beberapa alat dasar untuk mengelola node ter
 
 
 
- - mode _Pathfinding_ - bimodal atau apriori, cara untuk menemukan rute yang lebih baik untuk pembayaran LN Anda dan juga mengatur ulang informasi rute sebelumnya. Silakan baca panduan yang sangat bagus ini tentang pencarian jalur: [Pathfinding] (https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - oleh Docs Lightning Engineering dan [LN Payment Pathfinding] (https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - oleh Voltage
+ - mode _Pathfinding_ - bimodal atau apriori, cara untuk menemukan rute yang lebih baik untuk pembayaran LN Anda dan juga mengatur ulang informasi rute sebelumnya. Silakan baca panduan yang sangat bagus ini tentang pencarian jalur: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - oleh Docs Lightning Engineering dan [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - oleh Voltage
  - _Persistent LND_ - aktifkan mode ini jika Anda ingin layanan LND berjalan terus menerus di latar belakang dan menjaga node Anda tetap online 24/7. Ini sangat berguna jika Anda menggunakan Zeus sebagai PoS di toko kecil atau Anda menerima banyak tip LN melalui LN Address.
  - _Rescan wallet_ - opsi ini akan memicu pemindaian penuh pada saat restart dari semua txs onchain Wallet Anda. Aktifkan hanya jika Anda kehilangan beberapa txs di Wallet Anda. Proses pemindaian ulang akan memakan waktu, beberapa menit, jadi bersabarlah dan selalu periksa log untuk melihat detail lebih lanjut mengenai perkembangannya.
  - _Compact Database_ - opsi ini sangat berguna jika aplikasi Zeus Anda menggunakan banyak ruang perangkat (lihat detail aplikasi di pengaturan perangkat Anda). Jika Anda memiliki banyak aktivitas menggunakan Zeus, saya sarankan untuk melakukan pemadatan ini lebih sering. Setelah Anda melihat bahwa Anda memiliki lebih dari 1-1,5GB data untuk aplikasi Zeus, lakukan pemadatan. Proses ini akan dimulai ulang dan memakan waktu, jadi bersabarlah.
@@ -465,7 +465,7 @@ Pada bagian terakhir ini Anda akan menemukan tautan ke halaman dokumentasi Zeus,
 Ingat, Zeus terutama digunakan sebagai LN Wallet, untuk pembayaran yang mudah dan cepat melalui LN. Tentu saja, ini juga berisi onchain Wallet, tetapi yang satu itu harus digunakan secara eksklusif untuk membuka / menutup saluran LN dan bukan untuk pembayaran kopi biasa.
 
 
-Silakan baca panduan saya yang lain tentang [bagaimana menjadi bank Anda sendiri menggunakan 3 level Stash] (https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
+Silakan baca panduan saya yang lain tentang [bagaimana menjadi bank Anda sendiri menggunakan 3 level Stash](https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
 
 
 Pada saat ini pengguna memiliki 2 cara untuk mulai menggunakan Zeus:
@@ -500,7 +500,7 @@ Invoice yang Anda miliki akan dibungkus (https://docs.zeusln.app/lsp/wrapped-inv
 Untuk mendapatkan saluran LN dari LSP dengan dana yang ingin Anda terima pertama kali, Invoice ini harus dibayar dari LN Wallet lainnya dan tunggu beberapa saat hingga LSP membuka saluran ke arah node Zeus Anda, kurangi biayanya dan dorong sisa pembayaran ke sisi saluran Anda.
 
 
-Yang harus Anda lakukan adalah membayar Invoice yang dihasilkan untuk Anda di ZEUS dengan lightning Wallet, dan saluran Anda akan langsung terbuka. [Silakan baca biaya LSP Zeus] (https://docs.zeusln.app/lsp/fees).
+Yang harus Anda lakukan adalah membayar Invoice yang dihasilkan untuk Anda di ZEUS dengan lightning Wallet, dan saluran Anda akan langsung terbuka. [Silakan baca biaya LSP Zeus](https://docs.zeusln.app/lsp/fees).
 
 
 Manfaat lain dari pembayaran untuk saluran adalah perutean tanpa biaya. Hal ini berarti ketika melakukan pembayaran routing, hop pertama melalui OLYMPUS by ZEUS tidak dikenakan biaya routing. Harap diperhatikan, bahwa hop di luar OLYMPUS by ZEUS akan tetap dikenakan biaya.
@@ -551,10 +551,10 @@ Dengan metode ini Anda dapat membuka saluran ke node LN lainnya, termasuk LSP Ol
 Di atas adalah contoh pembayaran LN Invoice menggunakan MPP. Seperti yang dapat Anda lihat di bagian bawah layar terdapat "pengaturan" dan membuka halaman drop-down dengan detail lebih lanjut untuk pembayaran yang akan Anda lakukan. Pada layar tersebut, jika Anda mempunyai setidaknya 2 saluran yang terbuka, fitur MPP akan diaktifkan secara default. Anda juga dapat mengaktifkan AMP (atomic multi-path) dan mengatur bagian tertentu yang Anda inginkan. Ini adalah fitur yang sangat berguna!
 
 
-Untuk private node seperti Zeus, saya akan merekomendasikan untuk memiliki 2-3 saluran yang bagus (maksimal 4-5), dengan LSP yang bagus dan likuiditas yang baik untuk memenuhi semua kebutuhan Anda untuk membayar atau menerima Sats melalui LN. [Lihat lebih banyak saran likuiditas node LN dalam panduan ini] (/nodes/managing-lightning-node-liquidity-en.html). Juga di sini [panduan umum tentang likuiditas LN] (https://Bitcoin.design/guide/how-it-works/liquidity/) dari tim Desain Bitcoin.
+Untuk private node seperti Zeus, saya akan merekomendasikan untuk memiliki 2-3 saluran yang bagus (maksimal 4-5), dengan LSP yang bagus dan likuiditas yang baik untuk memenuhi semua kebutuhan Anda untuk membayar atau menerima Sats melalui LN. [Lihat lebih banyak saran likuiditas node LN dalam panduan ini](/nodes/managing-lightning-node-liquidity-en.html). Juga di sini [panduan umum tentang likuiditas LN](https://Bitcoin.design/guide/how-it-works/liquidity/) dari tim Desain Bitcoin.
 
 
-Memilih peer yang tepat, saya tahu, bukanlah tugas yang mudah, bahkan untuk pengguna yang berpengalaman. [Jadi saya akan memberi Anda beberapa opsi untuk memulai] (https://github.com/ZeusLN/zeus/discussions/2265), ini adalah node peer yang saya uji sendiri menggunakan Zeus (saya mencoba menghubungkan hanya ke node LND untuk menghindari masalah ketidakcocokan)
+Memilih peer yang tepat, saya tahu, bukanlah tugas yang mudah, bahkan untuk pengguna yang berpengalaman. [Jadi saya akan memberi Anda beberapa opsi untuk memulai](https://github.com/ZeusLN/zeus/discussions/2265), ini adalah node peer yang saya uji sendiri menggunakan Zeus (saya mencoba menghubungkan hanya ke node LND untuk menghindari masalah ketidakcocokan)
 
 
 Berikut ini juga daftar rekan-rekan node yang dijamin untuk Zeus. Jika Anda mengetahui yang bagus, Anda dapat menambahkannya ke daftar tersebut.
@@ -573,7 +573,7 @@ PENGINGAT:
 
 
 - Node tertanam Zeus tidak menggunakan layanan Tor! Jadi, tolong jangan mencoba untuk membuka saluran dengan node yang berada di bawah Tor! Anda melakukan lebih banyak kerusakan pada diri anda sendiri daripada menambahkan lebih banyak privasi. Tor untuk LN tidak menawarkan lebih banyak privasi tetapi menambahkan lebih banyak masalah.
-- pilihlah dengan bijak rekan-rekan Anda, lebih baik LSP yang baik, node perutean yang baik, bukan node kampungan acak yang dapat menutup saluran Anda dan tidak dapat menawarkan likuiditas yang baik. [Di sini saya menulis panduan khusus] (https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) tentang likuiditas dan contoh node.
+- pilihlah dengan bijak rekan-rekan Anda, lebih baik LSP yang baik, node perutean yang baik, bukan node kampungan acak yang dapat menutup saluran Anda dan tidak dapat menawarkan likuiditas yang baik. [Di sini saya menulis panduan khusus](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) tentang likuiditas dan contoh node.
 
 
 Jika Anda langsung mengklik tombol "Buka Saluran ke Olympus", Anda akan mengisi kolom yang diperlukan untuk membuka saluran ke [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
@@ -695,7 +695,7 @@ Jika Anda ingin membayar Invoice (penyeimbangan melingkar), ketika Anda membayar
 Keysend adalah fitur LN yang sangat diremehkan dan pengguna harus lebih sering menggunakannya.
 
 
-[Keysend] (https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) memungkinkan pengguna di Lightning Network untuk mengirim pembayaran kepada orang lain, langsung ke kunci publik mereka, selama node mereka memiliki saluran publik dan mengaktifkan keysend. Keysend tidak mengharuskan penerima pembayaran untuk mengeluarkan Invoice.
+[Keysend](https://docs.lightning.engineering/lightning-network-tools/LND/send-messages-with-keysend) memungkinkan pengguna di Lightning Network untuk mengirim pembayaran kepada orang lain, langsung ke kunci publik mereka, selama node mereka memiliki saluran publik dan mengaktifkan keysend. Keysend tidak mengharuskan penerima pembayaran untuk mengeluarkan Invoice.
 
 
 Jadi, bagaimana Anda dapat melakukannya dengan Zeus?
@@ -719,7 +719,7 @@ Jika Anda tidak memiliki saluran langsung dengan peer tujuan, maka pembayaran ke
 ## Kesimpulan
 
 
-Saya sarankan untuk membaca panduan tindak lanjut [Penggunaan lanjutan Zeus] (https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) dengan lebih banyak instruksi dan kasus penggunaan.
+Saya sarankan untuk membaca panduan tindak lanjut [Penggunaan lanjutan Zeus](https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) dengan lebih banyak instruksi dan kasus penggunaan.
 
 
 Dan... selesai! Mulai sekarang Anda cukup menggunakan Zeus Node sebagai BTC/LN Wallet biasa di ponsel Anda. UI-nya cukup sederhana dan mudah digunakan, intuitif untuk semua jenis pengguna, saya rasa saya tidak perlu menjelaskan lebih lanjut tentang cara melakukan dan menerima pembayaran.

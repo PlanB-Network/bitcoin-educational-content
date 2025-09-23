@@ -1,0 +1,9 @@
+question: Quale fattore determina l'influenza di un nodo sulle regole del consenso?
+answer: Il suo peso economico
+wrong_answers:
+  - Il numero di connessioni in uscita
+  - Anzianità nella rete
+  - Niente, perché ogni nodo ha un voto
+explanation: |
+  L'influenza sulle regole del consenso dipende dall'attività economica sostenuta dal nodo, non dal suo numero.
+reviewed: true

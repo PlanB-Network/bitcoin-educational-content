@@ -1,5 +1,5 @@
 ---
-name: 绿色 Blockstream - 2FA
+name: Blockstream Green - 2FA
 description: 在绿色钱包上设置 2/2 多重验证码
 ---
 ![cover](assets/cover.webp)

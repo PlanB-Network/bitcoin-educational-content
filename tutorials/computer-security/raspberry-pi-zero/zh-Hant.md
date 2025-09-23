@@ -1,5 +1,5 @@
 ---
-name: 樹莓派 Zero
+name: Raspberry Pi Zero
 description: 如何使用 Raspberry Pi Zero 和配件套件建造一個最小化、隔離且低成本的電腦。
 ---
 ![cover](assets/cover.webp)

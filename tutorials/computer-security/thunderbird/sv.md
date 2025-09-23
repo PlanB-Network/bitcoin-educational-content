@@ -1,5 +1,5 @@
 ---
-name: Åskfågel
+name: Thunderbird
 description: Säker meddelandehantering för yrkesverksamma och privatpersoner
 ---
 

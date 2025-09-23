@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Grün
+name: Jade Plus - Green
 description: Einfaches Konfigurieren von Jade Plus mit Green
 ---
 ![cover](assets/cover.webp)

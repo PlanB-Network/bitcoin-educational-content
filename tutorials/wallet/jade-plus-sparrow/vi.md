@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Chim Sẻ
+name: Jade Plus - Sparrow
 description: Cấu hình nâng cao của Jade Plus với Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

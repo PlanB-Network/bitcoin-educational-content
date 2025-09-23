@@ -1,5 +1,5 @@
 ---
-name: Vihmavari Nostr
+name: Umbrel Nostr
 description: Nostri rakenduste konfigureerimine ja kasutamine Umbrelil
 ---
 

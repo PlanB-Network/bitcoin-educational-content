@@ -1,5 +1,5 @@
 ---
-name: Ninja SAFU
+name: SAFU Ninja
 description: Salvate il vostro seed con il metodo SAFU Ninja
 ---
 

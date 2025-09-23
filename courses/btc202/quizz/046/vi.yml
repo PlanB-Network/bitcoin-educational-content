@@ -1,0 +1,9 @@
+question: Tham số dbcache có thể làm gì trong Bitcoin core?
+answer: Phân bổ RAM để tăng tốc IBD
+wrong_answers:
+  - Xác định kích thước Blockchain
+  - Điều chỉnh độ khó tối đa của Mining
+  - Giới hạn số lượng đối tác được kết nối
+explanation: |
+  Tham số dbcache làm tăng không gian bộ nhớ được sử dụng để lưu trữ tạm thời bộ UTXO, điều này có thể tăng tốc quá trình đồng bộ hóa ban đầu.
+reviewed: true

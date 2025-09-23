@@ -1,5 +1,5 @@
 ---
-name: RGB Blixtnod
+name: RGB Lightning Node
 description: Hur startar jag en RGB-kompatibel Lightning-nod med RLN?
 ---
 ![cover](assets/cover.webp)

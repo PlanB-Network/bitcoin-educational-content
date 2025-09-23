@@ -1,5 +1,5 @@
 ---
-name: Satoshi'ın Wallet'i
+name: Wallet of Satoshi
 description: Başlamak için en basit velayet Wallet
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Canaã Avalon Mini 3
+name: Canaan Avalon Mini 3
 description: Configurando seu ASIC Avalon para solomining ou pooling Miner
 ---
 

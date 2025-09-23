@@ -1,5 +1,5 @@
 ---
-name: 桃子
+name: Peach
 description: 使用 Peach 和交換比特幣的完整指南 P2P
 ---
 ![cover](assets/cover.webp)

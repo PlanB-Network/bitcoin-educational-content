@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Passero
+name: Jade Plus - Sparrow
 description: Configurazione avanzata di Jade Plus con Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: BitAxeの設定
+name: Bitaxe
 description: BitAxeの設定方法とは？
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)

@@ -134,6 +134,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.57
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.27
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.86
 tags:
   - DIY
   - personal-security

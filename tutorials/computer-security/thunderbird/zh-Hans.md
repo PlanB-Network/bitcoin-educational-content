@@ -1,5 +1,5 @@
 ---
-name: 雷鸟
+name: Thunderbird
 description: 为专业人士和个人提供安全信息
 ---
 

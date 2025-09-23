@@ -1,5 +1,5 @@
 ---
-name: Pi-Auk
+name: Pi-Hole
 description: Reklaamblokeerija kogu teie võrgu jaoks
 ---
 ![cover](assets/cover.webp)

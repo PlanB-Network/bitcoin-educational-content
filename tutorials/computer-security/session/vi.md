@@ -1,5 +1,5 @@
 ---
-name: Phiên họp
+name: Session
 description: Gửi tin nhắn được mã hóa, không phải siêu dữ liệu
 ---
 ![cover](assets/cover.webp)

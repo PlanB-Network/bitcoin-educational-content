@@ -1,0 +1,9 @@
+question: Hangi Sparrow wallet sunucu seçeneği RPC bağlantısına karşılık gelir?
+answer: Bitcoin core
+wrong_answers:
+  - Genel Sunucu
+  - Özel Elektrum
+  - Uzak API
+explanation: |
+  Sparrow'te, Bitcoin core seçeneği RPC üzerinden düğüme doğrudan bağlantıya karşılık gelir.
+reviewed: true

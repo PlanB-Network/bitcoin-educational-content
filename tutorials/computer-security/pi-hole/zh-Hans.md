@@ -1,5 +1,5 @@
 ---
-name: 皮孔
+name: Pi-Hole
 description: 适用于整个网络的广告拦截器
 ---
 ![cover](assets/cover.webp)

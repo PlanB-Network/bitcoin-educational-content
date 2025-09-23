@@ -1,5 +1,5 @@
 ---
-name: Сердитый IP-сканер
+name: Angry IP Scanner
 description: Простой способ сканирования сети
 ---
 ![cover](assets/cover.webp)

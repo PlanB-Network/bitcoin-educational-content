@@ -1,5 +1,5 @@
 ---
-name: ピコクリプト
+name: Picocrypt
 description: データを暗号化するオープンソースツール
 ---
 ![cover](assets/cover.webp)

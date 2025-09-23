@@ -351,7 +351,7 @@ Un tutoriel détaillé est en préparation pour vous guider pas à pas dans le p
 
 Pour une compréhension approfondie du coinjoin et de son utilisation sur Bitcoin, je vous invite également à consulter cet autre article : Comprendre et utiliser le coinjoin sur Bitcoin, où je détaille tout ce qu'il faut savoir sur cette technique.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 
 

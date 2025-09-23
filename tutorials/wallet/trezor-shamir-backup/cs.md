@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamir Záloha
+name: Trezor Shamir Backup
 description: Fráze Mnemonic s jedním a více sdíleními na serveru Trezor
 ---
 ![cover](assets/cover.webp)

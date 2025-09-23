@@ -1,5 +1,5 @@
 ---
-name: Protonen-Authentifikator
+name: Proton Authenticator
 description: Wie kann ich Proton Authenticator verwenden, um meine Konten mit 2FA zu sichern?
 ---
 ![cover](assets/cover.webp)

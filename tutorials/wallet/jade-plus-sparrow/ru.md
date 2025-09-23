@@ -1,5 +1,5 @@
 ---
-name: Нефрит Плюс - Воробей
+name: Jade Plus - Sparrow
 description: Расширенная конфигурация Jade Plus с кошельком Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

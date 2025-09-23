@@ -1,5 +1,5 @@
 ---
-name: RGB लाइटनिंग नोड
+name: RGB Lightning Node
 description: मैं RLN के साथ RGB-संगत लाइटनिंग नोड कैसे लॉन्च करूं?
 ---
 ![cover](assets/cover.webp)

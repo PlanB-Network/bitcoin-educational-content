@@ -60,12 +60,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.88
+    reward: 3.19
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.77
+    reward: 4.73
   - language: et
     last_contribution_date:
     urgency: 1
@@ -80,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 3.96
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -100,17 +100,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.88
+    reward: 3.19
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.88
+    reward: 3.19
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 3.96
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -120,7 +120,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.93
+    reward: 2.41
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -130,7 +130,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.82
+    reward: 3.96
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.19
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.73
 tags:
   - privacy
   - onchain

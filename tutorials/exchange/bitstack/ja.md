@@ -1,5 +1,5 @@
 ---
-name: ビットスタック
+name: Bitstack
 description: Bitstackアプリケーションでのビットコインの売買
 ---
 ![cover](assets/cover.webp)

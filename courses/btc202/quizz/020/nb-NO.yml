@@ -1,0 +1,9 @@
+question: Hva skjer hvis en blokk bryter konsensusreglene?
+answer: Den blir umiddelbart avvist av nodene
+wrong_answers:
+  - Den er lagret i Mempool i påvente av validering
+  - Den videresendes bare av noder som godtar andre regler
+  - Den valideres kun av lommebøkene
+explanation: |
+  Noder avviser systematisk alle blokker som ikke er i samsvar med konsensusreglene.
+reviewed: true

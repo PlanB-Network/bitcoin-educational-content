@@ -1,5 +1,5 @@
 ---
-name: Vihmavarju
+name: Umbrel
 description: Avasta ja paigalda Umbrel - Sinu Bitcoin sõlme ja koduserver
 ---
 

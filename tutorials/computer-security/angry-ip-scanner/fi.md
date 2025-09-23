@@ -1,5 +1,5 @@
 ---
-name: Vihainen IP-skanneri
+name: Angry IP Scanner
 description: Yksinkertainen tapa skannata verkko
 ---
 ![cover](assets/cover.webp)

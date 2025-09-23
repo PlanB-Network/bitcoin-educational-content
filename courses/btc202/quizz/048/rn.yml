@@ -1,0 +1,9 @@
+question: Ni irihe tegeko rigarura IP y'aho hantu Address y'Umbrel yawe iyo gushika ku umbrel.local bidashoboka?
+answer: izina ry'umushitsi -jewe
+wrong_answers:
+  - iyo imiterere -usb
+  - umutaka-ip --kwerekana
+  - umutaka
+explanation: |
+  Mu gihe habaye ingorane zo kumenya, ushobora gukoresha itegeko ry'izina ry'umushitsi -I ku mashini ya Umbrel kugira ngo umenye IP yayo yo mu karere.
+reviewed: true

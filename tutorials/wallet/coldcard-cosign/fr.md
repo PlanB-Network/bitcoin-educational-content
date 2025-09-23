@@ -217,3 +217,49 @@ Pas de problème cette fois, aucun message d'alerte n'apparait et quand on impor
 ### Exporter le wallet multisig 2-sur-3 vers Nunchuk
 
 Nous allons dans ce paragraphe utiliser notre wallet multisig Co-Sign avec Nuncuk, et en profitez pour appliquer de nouvelles conditions de dépenses pour voir comment cela se passe.
+
+Allons dans *Avanced Tools > ColdCard Co-Signing*.
+Là on nous demandera de rentrer notre "Spending Policy Key", afin d'accéder au menu nous permettant de changer les conditions de dépenses. Dans notre cas nous rentrons 12 x "beef".
+
+Nous décidons de garder une "Limit Velocity" maximum pour des raisons pratiques liées à la réalisation de ce tutoriel. Par contre nous allons via le menu **"Whitelist Addresses"** imposer les adresses sur lesquelles pourrons être dépensés nos fonds.
+
+
+![Co-Sign](assets/fr/31.png)
+
+
+Scannez les QR codes associés aux adresses que vous souhaitez ajouter dans votre liste blanche, puis cliquez sur **"ENTER"**. Après avoir validé vos adresses en appuyant successivement sur **"ENTER"**, nous voyons que des limites sur la Magnitude et les adresses bénéficiaires ont été appliquées.
+
+![Co-Sign](assets/fr/32.png)
+
+Pour finir et afin d'avoir une vision exhaustive des possibilités offertes par "Co-Sign", activons l'option "Web 2FA".
+Cette fonctionnalité vous permet d'utiliser une application compatible TOTP RFC-6238 telle que Google Authenticator / Ente Auth / Proton Authenticator /  Authy 2FA /  ou encore Aegis Authenticator, pour ajouter une couche de sécurité supplémentaire.
+
+
+[Plan ₿ Network - Ente Auth](https://planb.network/en/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9)
+
+[Plan ₿ Network - Proton Authenticator](https://planb.network/en/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae)
+
+[Plan ₿ Network - Authy 2FA](https://planb.network/en/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7)
+
+[Plan ₿ Network - Aegis Authenticator](https://planb.network/en/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc)
+
+ Concrètement avant de signer une transaction vous devrez taper votre appareils comprenant l'application 2FA à votre Coldcard. Cela vous conduira automatiquement sur une page web sur coldcard.com, où il vous sera demandé d'entrer le code à 6 chiffres de votre application. Si vous entrez le bon code, la page web vous indiquera soit un QR code à scanner pour le ColdCardQ, soit un code à 8 chiffres qu'il faudra entrer sur votre Mk4, afin d'autoriser votre appareil à signer.
+
+
+
+![Co-Sign](assets/fr/33.png)
+
+Après avoir scanné le QR code affiché et ajouter votre compte ColdCard Co-Sign (CCC) dans votre app préférée, il vous sera classiquement demandé de vérifier que tout est en ordre en renseignant votre code 2FA.
+
+Taper votre ColdCard au dos de votre appareil NFC.
+
+![Co-Sign](assets/fr/34.png)
+
+Sur la page web qui s'ouvre, renseigner votre le code 2FA de votre application favorite. Puis scanné le QR code qui s'affiche avec votre ColdCardQ, ou renseignez dans votre Mk4 le code à 8 chiffres qui s'affiche.
+
+![Co-Sign](assets/fr/35.png)
+
+
+Nous avons désormais
+
+![Co-Sign](assets/fr/36.png)

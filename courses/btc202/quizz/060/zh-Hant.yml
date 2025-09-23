@@ -1,0 +1,9 @@
+question: 安裝在 Umbrel 上的 Nostr 繼電器有何作用？
+answer: 在本地託管您的出版物
+wrong_answers:
+  - 檢查 Bitcoin 交易
+  - 與您的聯絡人建立 Nostr 頻道
+  - Blockchain Nostr 的本地備份
+explanation: |
+  Umbrel 上的 Nostr 中繼可讓資料在本地託管，保證可用性和主權。
+reviewed: true

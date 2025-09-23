@@ -1,0 +1,9 @@
+question: Vilken inställning tvingar Bitcoin core att endast ansluta via Tor-nätverket?
+answer: onlynet=lök
+wrong_answers:
+  - lyssning=1
+  - toronly=1
+  - netto=tor
+explanation: |
+  Alternativet onlynet=onion begränsar alla utgående anslutningar till Tor-nätverket, medan listenonion=1 endast låter dig lyssna på inkommande Tor-anslutningar.
+reviewed: true

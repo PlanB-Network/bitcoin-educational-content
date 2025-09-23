@@ -1,0 +1,9 @@
+question: Ứng dụng Umbrel nào cho phép bạn quản lý nút Lightning của mình bằng Interface tiên tiến?
+answer: Cưỡi Tia Chớp
+wrong_answers:
+  - BTCPay Lightning
+  - Tiếp sức Nostr
+  - Bitfeed
+explanation: |
+  Ride The Lightning và ThunderHub cung cấp Interface hoàn chỉnh dựa trên nền tảng web để quản lý một nút Lightning.
+reviewed: true

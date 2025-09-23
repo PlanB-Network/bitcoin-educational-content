@@ -1,0 +1,9 @@
+question: 谁发明了简化支付验证（SPV）的概念？
+answer: Satoshi 中本聪
+wrong_answers:
+  - 哈尔-芬尼
+  - 亚当-巴克
+  - Pieter Wuille
+explanation: |
+  Satoshi Nakamoto 白皮书》第 8 部分介绍了 SPV。
+reviewed: true

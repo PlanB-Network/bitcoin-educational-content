@@ -1,0 +1,9 @@
+question: Wat is het grootste voordeel van een node-in-a-box ten opzichte van een onbewerkte implementatie?
+answer: Eenvoudige installatie en geïntegreerd applicatiebeheer
+wrong_answers:
+  - Strengere verificatie van consensusregels
+  - Directe toegang tot Blockchain zonder opslag
+  - Compatibiliteit met een andere valuta dan Bitcoin
+explanation: |
+  De node-in-a-box vereenvoudigt de installatie en het beheer van talrijke neventoepassingen via een uniforme Interface.
+reviewed: true

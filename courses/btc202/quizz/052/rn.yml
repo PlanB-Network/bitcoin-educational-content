@@ -1,0 +1,9 @@
+question: Ni irihe tandukaniro rikomeye hagati ya Electrs na Fulcrum?
+answer: Electrs ni nziza cane, Fulcrum irakomeye cane
+wrong_answers:
+  - Amashanyarazi ntabwo ari ubuntu, Fulcrum ni ubuntu
+  - Fulcrum ntishigikira amasezerano ya Electrum
+  - Electrs ni umunyagihugu, Fulcrum ni inkomoko yuguruye
+explanation: |
+  Electrs ikoresha umwanya muto kuri disk, mu gihe Fulcrum yishura ningoga ku bisabwa ariko ikoresha ibikoresho vyinshi.
+reviewed: true

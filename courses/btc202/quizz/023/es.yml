@@ -1,0 +1,9 @@
+question: ¿Cuál es la diferencia entre las reglas de consenso y las reglas de relevo?
+answer: El consenso define la validez, retransmite la difusión de las transacciones
+wrong_answers:
+  - El consenso define las tarifas, el relé define las direcciones
+  - El consenso gestiona Blockchain, el relé gestiona las claves privadas
+  - El consenso elige a los mineros, el relé a los comerciantes
+explanation: |
+  Las reglas de consenso determinan lo que es válido en Bitcoin, mientras que las reglas de retransmisión gestionan las transacciones entre nodos.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kde je nejaktivnější komunita Umbrel?
+answer: Na Discordu a online fóru
+wrong_answers:
+  - Na Instagramu
+  - Na LinkedIn a online fóru
+  - Na IRC
+explanation: |
+  Umbrel má velmi aktivní komunitu na Discordu a na svém online fóru, kde uživatelé Exchange pomáhají a podporují.
+reviewed: true

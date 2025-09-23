@@ -1,0 +1,9 @@
+question: Wat maakt een pruned knooppunt anders dan een Full node?
+answer: Het verwijdert geleidelijk de oude blokken
+wrong_answers:
+  - Het valideert geen oudere transacties
+  - Het kan geen hele blokken doorgeven
+  - Er wordt geen lokale kopie van de Blockchain bewaard, alleen de UTXO set
+explanation: |
+  Het pruned knooppunt valideert de hele keten, maar behoudt slechts een recent deel van de blokken om de opslag te beperken.
+reviewed: true

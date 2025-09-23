@@ -1,0 +1,9 @@
+question: Que fator determina a influência de um nó nas regras de consenso?
+answer: O seu peso económico
+wrong_answers:
+  - O seu número de ligações de saída
+  - Antiguidade na rede
+  - Nada, porque cada nó tem um voto
+explanation: |
+  A influência nas regras de consenso depende da atividade económica apoiada pelo nó e não do seu número.
+reviewed: true

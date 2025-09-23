@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil eines Node-in-a-Box-Systems gegenüber einer Rohimplementierung?
+answer: Einfache Installation und integriertes Anwendungsmanagement
+wrong_answers:
+  - Strengere Überprüfung der Konsensregeln
+  - Direkter Zugriff auf Blockchain ohne Speicherung
+  - Kompatibilität mit einer anderen Währung als Bitcoin
+explanation: |
+  Der Node-in-a-Box vereinfacht die Installation und Verwaltung zahlreicher Zusatzanwendungen über ein einheitliches Interface.
+reviewed: true

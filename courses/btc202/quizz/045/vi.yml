@@ -1,0 +1,9 @@
+question: Những bước nào phải hoàn thành trước khi có thể cài đặt UmbrelOS?
+answer: Tạo một ổ USB có thể khởi động bằng hình ảnh
+wrong_answers:
+  - Biên dịch mã nguồn Bitcoin core
+  - Định dạng Blockchain
+  - Tạo một tài khoản trên umbrel.com
+explanation: |
+  Quá trình cài đặt bắt đầu bằng việc chuẩn bị một ổ USB có thể khởi động bằng UmbrelOS thông qua Balena Etcher.
+reviewed: true

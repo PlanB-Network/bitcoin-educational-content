@@ -1,0 +1,9 @@
+question: Có thể sử dụng cơ chế nào để tải ảnh chụp nhanh của bộ UTXO để giúp một nút có thể sử dụng nhanh chóng?
+answer: assumeutxo
+wrong_answers:
+  - giả định trạng thái chuỗi
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo tải ảnh chụp nhanh của bộ UTXO để đưa nút vào hoạt động nhanh chóng, đồng thời xây dựng lại toàn bộ bộ UTXO ở chế độ nền.
+reviewed: true

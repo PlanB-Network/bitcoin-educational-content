@@ -1,0 +1,9 @@
+question: Milline seadistus sunnib Bitcoin core ühenduma ainult Tor-võrgu kaudu?
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  Valik onlynet=onion piirab kõik väljaminevad ühendused Tor-võrku, samas kui listenonion=1 lubab kuulata ainult sissetulevaid Tor-ühendusi.
+reviewed: true

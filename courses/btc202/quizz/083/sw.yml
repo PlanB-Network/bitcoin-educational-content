@@ -1,0 +1,9 @@
+question: Ni mpangilio gani unaolazimisha Bitcoin core kuunganishwa kupitia mtandao wa Tor pekee?
+answer: onlynet=kitunguu
+wrong_answers:
+  - kusikiliza=1
+  - tu=1
+  - wavu=tor
+explanation: |
+  Chaguo la onlynet=onion huzuia miunganisho yote inayotoka kwa mtandao wa Tor, huku listenonion=1 hukuruhusu tu kusikiliza miunganisho inayoingia ya Tor.
+reviewed: true

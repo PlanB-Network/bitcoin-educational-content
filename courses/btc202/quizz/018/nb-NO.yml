@@ -1,0 +1,9 @@
+question: Hva er den mest brukte implementasjonen av Bitcoin-noden?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Med rundt 9 av 10 noder i nettverket er Bitcoin core den største kunden.
+reviewed: true

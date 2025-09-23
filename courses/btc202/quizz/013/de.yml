@@ -1,0 +1,9 @@
+question: Welche Art von Ausrüstung wird heute verwendet, um Bitcoin effizient abzubauen?
+answer: ASIC
+wrong_answers:
+  - Klassische CPU
+  - GPU
+  - FPGA
+explanation: |
+  Heute wird Bitcoin Mining mit ASICs durchgeführt. Dies sind spezielle Chips für den SHA-256-Algorithmus.
+reviewed: true

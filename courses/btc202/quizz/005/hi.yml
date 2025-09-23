@@ -1,0 +1,9 @@
+question: कौन सा सॉफ्टवेयर Full node और Wallet दोनों कार्यों को जोड़ता है?
+answer: जीडब्ल्यू-2
+wrong_answers:
+  - जीडब्ल्यू-3
+  - अशीगारू
+  - Wallet या Satoshi
+explanation: |
+  Bitcoin core, अन्य सॉफ्टवेयर पैकेजों के विपरीत, Full node और Wallet दोनों के रूप में कार्य करता है, जो केवल Wallet प्रबंधन सॉफ्टवेयर हैं।
+reviewed: true

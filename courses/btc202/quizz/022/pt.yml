@@ -1,0 +1,9 @@
+question: De acordo com a teoria da percolação, o que é que a ultrapassagem do limiar crítico garante?
+answer: Propagação de transacções em toda a rede
+wrong_answers:
+  - Criação imediata de um novo bloco
+  - Supressão automática de custos pelos nós
+  - Bloqueio de uma transação pela rede
+explanation: |
+  Quando o limiar de percolação é ultrapassado, uma transação propaga-se quase instantaneamente por toda a rede Bitcoin.
+reviewed: true

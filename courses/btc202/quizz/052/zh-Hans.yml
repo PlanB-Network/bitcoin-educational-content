@@ -1,0 +1,9 @@
+question: Electrs 和 Fulcrum 的主要区别是什么？
+answer: Electrs 更紧凑，Fulcrum 更强大
+wrong_answers:
+  - Electrs 不是免费的，Fulcrum 才是免费的
+  - Fulcrum 不支持 Electrum 协议
+  - Electrs 是专利产品，Fulcrum 是开源产品
+explanation: |
+  Electrs 使用的磁盘空间更少，而 Fulcrum 对请求的响应速度更快，但消耗的资源更多。
+reviewed: true

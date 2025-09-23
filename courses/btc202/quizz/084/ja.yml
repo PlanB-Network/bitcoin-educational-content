@@ -1,0 +1,9 @@
+question: Bitcoin coreノードが維持するデフォルトの発信コネクション数は？
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin coreはデフォルトで10個の発信コネクションを維持する（8個のフルリレーと2個のブロックリレーオンリー）。
+reviewed: true

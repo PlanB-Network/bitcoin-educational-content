@@ -4142,7 +4142,7 @@ Même si `setTimeout` apparaît au milieu du code, il ne bloque pas le reste. Au
 
 
 
-### Rappels
+### Fonction de rappels
 
 
 Un **callback** est une fonction que l'on donne à une autre fonction pour qu'elle puisse être **appelée plus tard**.
@@ -4156,14 +4156,14 @@ Voici une fonction qui fait cela en utilisant un **callback** :
 
 ```javascript
 function doubleNumbers(numbersArray, callback) {
-// Pretend we're doing a slow operation using setTimeout
+// Simulons une opération qui prend du temps à l'aide d'un setTimeout
 setTimeout(() => {
-// Use the map method to create a new array where each number is doubled
+// Utile une table de hachage pour créer un nouveau tableau dans lequel chaque entrée est le double du tableau d'origine
 const doubled = numbersArray.map(n => n * 2)
 
-// When we're done, we call the callback function with the result
+// Une fois fini, nous utilisons la fonction de rappel avec le résultat 
 callback(doubled)
-}, 1000) // Wait 1 second before running the code inside
+}, 1000) // Attend une seconde avant d'exécuter le code contenu entre parenthèse
 }
 ```
 
@@ -4180,7 +4180,7 @@ console.log("Here is the doubled array:", result)
 ```
 
 
-Au bout d'une seconde, le message s'imprime :
+Au bout d'une seconde, le message s'affiche :
 
 
 ```
@@ -4200,7 +4200,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 4. Une fois que c'est fait, nous appelons le callback sur le tableau "doublé" résultant.
 
 
-Cette technique fonctionne, mais imaginez que vous vouliez faire **plus d'étapes** après cela, comme filtrer les petits nombres et les additionner. Vous devriez **enfermer** plus de rappels comme celui-ci :
+Cette technique fonctionne, mais imaginez que vous vouliez faire **plus d'étapes** après cela, comme filtrer les petits nombres et les additionner. Vous devriez **imbriquer** plus de callback comme dans l'exemple ci-dessous :
 
 
 ```javascript
@@ -4214,15 +4214,15 @@ console.log("Final result:", total)
 ```
 
 
-C'est Hard à lire et désordonné. Ce style est appelé **callback hell**, et c'est exactement ce que `Promise` a été créé pour corriger.
+C'est difficile à lire et désordonné. Ce style est appelé **callback hell** (enfer du callback), et c'est exactement pour éviter ces complications que `Promise` a été créé.
 
 
-## Concurrence avec promesses
+## Concurrence avec des promesses (**Promises**)
 
 <chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
 
 
-Une `Promesse` est un objet JavaScript intégré qui représente une valeur qui sera **prête dans le futur**.
+Une `Promise` est un objet JavaScript intégré au langage représentant une valeur qui sera **prête dans le futur**.
 
 
 Nous pouvons créer une promesse comme suit :
@@ -4230,9 +4230,9 @@ Nous pouvons créer une promesse comme suit :
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
-// Do something that takes time here...
+// Faites quelques choses qui prend du temps ici...
 
-resolve("It worked!") // This means everything went OK
+resolve("It worked!") // Cela signifie que tout s'est bien passé
 })
 ```
 
@@ -4240,12 +4240,12 @@ resolve("It worked!") // This means everything went OK
 La partie `new Promise()` crée la promesse.
 
 
-À l'intérieur, nous lui attribuons une fonction avec deux paramètres :
+À l'intérieur des paranthèses, nous lui pasAsons une fonction qui prend deux paramètres, eux mêmes des fonctions:
 
 
 
 - `resolve`, est une fonction que nous appelons lorsque tout s'est bien passé
-- `reject`, est une fonction que nous appelons si quelque chose ne va pas
+- `reject`, est une fonction que nous appelons si quelque chose s'est mal passé
 
 
 Dans l'exemple ci-dessus, nous le résolvons immédiatement avec le message `"It worked !"`.
@@ -4254,14 +4254,14 @@ Dans l'exemple ci-dessus, nous le résolvons immédiatement avec le message `"It
 ### `.then()`
 
 
-Pour faire quelque chose **après** que la promesse soit faite, nous utilisons `.then()` :
+Pour faire quelque chose **après** que la promesse se soit réalisé, nous utilisons `.then()` :
 
 
 ```javascript
 const promise = new Promise((resolve, reject) => {
-// Do something that takes time here...
+// Faites quelque chose qui prend du temps ici...
 
-resolve(100) // This means everything went OK
+resolve(100) // Cela signifie que tout s'est bien passé
 })
 
 promise.then(result => {
@@ -4278,7 +4278,7 @@ The result is: 100
 ```
 
 
-La valeur que nous avons passée à `resolve()` est envoyée à la fonction à l'intérieur de `.then()` en tant que `result`.
+La valeur que nous avons passée en argument à `resolve()` est renvoyée à la fonction placé dans l'appel à `.then()` en tant que l'argument attendu `result`.
 
 
 Simulons une tâche qui prend 2 secondes en utilisant `setTimeout` :
@@ -4297,7 +4297,7 @@ delayedPromise.then(result => console.log(result))
 ```
 
 
-Cette opération attendra 2 secondes, puis imprimera :
+Cette opération attendra 2 secondes, puis affichera :
 
 
 ```
@@ -4318,7 +4318,7 @@ reject("Something went wrong")
 ```
 
 
-Maintenant, si nous utilisons `.then()` pour cela, rien ne se passera, parce que `.then()` ne gère que le succès.
+Maintenant, si nous utilisons `.then()` pour cela, rien ne se passera, parce que `.then()` ne gère que le cas où tout se passe bien.
 
 
 Pour gérer les erreurs, nous utilisons `.catch()` :
@@ -4331,15 +4331,15 @@ reject("Something went wrong")
 
 failingPromise
 .then(
-result => console.log("This will NOT run:", result)
+result => console.log("This will NOT run:", result) // Ceci ne s'exécutera pas
 )
 .catch(
-error => console.log("Caught an error:", error)
+error => console.log("Caught an error:", error) // Une erreur a été interceptée
 )
 ```
 
 
-Cette impression ne concerne que
+Cela affiche uniquement
 
 
 ```
@@ -4402,7 +4402,7 @@ err => console.log("Failure:", err)
 ```
 
 
-Il imprime :
+Ceci affiche:
 
 
 ```
@@ -4410,7 +4410,7 @@ Failure: Not a positive number
 ```
 
 
-### Enchaînement d'opérations à l'aide de "promesses
+### Chainage d'opérations à l'aide de `Promises`
 
 
 
@@ -4464,7 +4464,7 @@ Doubled numbers: [ 2, 4, 6 ]
 ```
 
 
-Jusqu'à présent, le fonctionnement est identique à celui de la version avec rappel, mais le code est désormais plus facile à étendre et à lire.
+Jusqu'à présent, le fonctionnement est identique à celui de la version avec callback, cependant le code est maintenant plus facile à lire et à compléter.
 
 
 Supposons que nous voulions ajouter des étapes supplémentaires :
@@ -4543,27 +4543,27 @@ Voyons ce que cela donne :
 
 3. `sumNumbers` additionne les nombres restants : `4 + 6 = 10`
 
-4. Enfin, nous imprimons le résultat.
+4. Enfin, nous affichons le résultat.
 
 
-Chaque `.then()` attend que l'étape précédente se termine. Nous pouvons donc construire une **chaîne d'actions** sans imbrication. Cela rend le code plus lisible et plus facile à déboguer.
+Chaque `.then()` attend que l'étape précédente se termine. Nous pouvons donc construire une **chaîne d'actions** sans boucle imbriquées ou autres constructions complexes. Cela rend le code plus lisible et plus facile à déboguer.
 
 
-## Concurrence avec `async`/`await` (en anglais)
+## Concurrence avec `async`/`await`
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
 
-Nous avons vu comment les chaînes `Promise` nous aident à éviter l'enfer du callback, mais elles peuvent encore devenir un peu Hard à lire quand il y a beaucoup d'étapes impliquées.
+Nous avons vu comment le chainage de `Promise` nous aide à éviter l'enfer du callback, mais elles peuvent rester un peu difficile à lire quand il y a beaucoup d'étapes.
 
 
-C'est là que `async` et `await` entrent en jeu. Ils nous permettent d'écrire du code asynchrone **qui ressemble à du code synchrone**, ce qui le rend plus facile à comprendre.
+C'est là que `async` et `await` entrent en jeu. Ces mots clés nous permettent d'écrire du code asynchrone **qui ressemble à du code synchrone**, ce qui le rend plus facile à comprendre.
 
 
 ### Qu'est-ce que `async` ?
 
 
-Lorsque vous écrivez le mot-clé `async` devant une fonction, JavaScript enveloppe automatiquement la valeur de retour de la fonction dans une Promesse.
+Lorsque vous écrivez le mot-clé `async` devant une fonction, JavaScript enveloppe automatiquement la valeur de retour de la fonction dans une promesse.
 
 
 Prenons un exemple simple :
@@ -4593,7 +4593,7 @@ Promise { 'hello' }
 ```
 
 
-Même si vous venez de renvoyer une chaîne, JavaScript la transforme en promesse pour vous. Vous pouvez obtenir la valeur réelle en utilisant `.then()` comme ceci :
+Même si vous venez de renvoyer une chaîne caractère, Javascript la transforme en promesse pour vous. Vous pouvez obtenir la valeur réelle en utilisant `.then()` comme ceci :
 
 
 ```javascript
@@ -4607,10 +4607,10 @@ Ou vous pouvez utiliser `await`...
 ### Qu'est-ce que `await` ?
 
 
-Le mot-clé `await` dit à JavaScript : "attendez que cette promesse soit faite, et donnez-moi le résultat"
+Le mot-clé `await` dit à JavaScript : "attend que cette promesse soit réalisée, et donne-moi le résultat"
 
 
-Mais vous ne pouvez utiliser `await` que **à l'intérieur d'une fonction asynchrone**.
+Mais vous ne pouvez utiliser `await` qu'**à l'intérieur d'une fonction asynchrone**.
 
 
 Réécrivons l'exemple en utilisant `await` :
@@ -4639,7 +4639,7 @@ Faisons quelque chose d'un peu plus utile maintenant.
 ### Simuler un délai avec `await`
 
 
-Nous allons créer une simple fonction `wait` qui prend une quantité de millisecondes comme argument et qui se résout après ce nombre de millisecondes, sans rien faire d'autre :
+Nous allons créer une simple fonction `wait` qui prend une quantité de millisecondes comme argument et qui termine son exécution après ce nombre de millisecondes, sans rien faire d'autre :
 
 
 ```javascript
@@ -4674,16 +4674,16 @@ done waiting
 ```
 
 
-Vous pouvez considérer `await` comme une "pause ici jusqu'à ce que la promesse soit faite, puis continuez"
+Vous pouvez considérer `await` comme un "fait une pause ici jusqu'à ce que la promesse soit réalisée, puis continue"
 
 
 Cela vous permet d'écrire du code de manière **top-to-bottom** qui se comporte de manière asynchrone, sans enchaîner les appels `.then()`.
 
 
-### En attente de données
+### Attendre des données
 
 
-Reprenons notre exemple précédent, où nous doublons les nombres, puis filtrons, puis additionnons. Mais cette fois, nous allons utiliser `async`/`await`.
+Reprenons notre exemple précédent, où nous doublons les nombres, puis les filtrons et les additionnons. Mais cette fois utilisons `async`/`await`.
 
 
 Nous allons créer 3 fonctions qui simulent l'attente et renvoient des promesses :
@@ -4747,7 +4747,7 @@ Final result: 10
 C'est beaucoup plus facile à lire que d'enchaîner des `.then()` ou d'imbriquer des callbacks.
 
 
-Il ressemble à un programme étape par étape normal, mais il se comporte toujours de manière asynchrone.
+Ce code ressemble à un programme séquentiel tout à fait classique, mais il est en réalité asynchrone.
 
 
 ## Itérateurs asynchrones
@@ -4755,7 +4755,7 @@ Il ressemble à un programme étape par étape normal, mais il se comporte toujo
 <chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
 
 
-Vous avez déjà appris ce que sont les **itérateurs** et comment nous pouvons utiliser `for...of` pour boucler sur des tableaux et d'autres éléments itérables.
+Vous avez déjà vu ce que sont les **itérateurs** et comment nous pouvons utiliser `for...of` pour boucler sur des tableaux et d'autres éléments itérables.
 
 
 Mais que se passe-t-il si les données sur lesquelles nous voulons itérer mettent du temps à arriver ?
@@ -4764,10 +4764,10 @@ Mais que se passe-t-il si les données sur lesquelles nous voulons itérer mette
 Parfois, nous voulons boucler sur des éléments qui arrivent de manière **asynchrone**, comme des messages provenant d'un chat, des lignes d'un fichier ou des nombres provenant d'une source lente.
 
 
-Pour ce faire, JavaScript nous offre des itérateurs **async**.
+Pour ce faire, JavaScript nous met à disposition des itérateurs **async**.
 
 
-### Fonctions du générateur asynchrone
+### Fonctions génératrices asynchrones
 
 
 La façon la plus simple de créer un itérateur asynchrone est d'utiliser une **fonction génératrice asynchrone**.
@@ -4804,7 +4804,7 @@ run()
 ```
 
 
-Ce message s'imprimera :
+Ce message s'affichera :
 
 
 ```
@@ -4821,7 +4821,7 @@ Quelle est donc la différence avec un générateur normal ?
 La différence est que nous pouvons maintenant utiliser `await` à l'intérieur du générateur.
 
 
-Fabriquons à nouveau une aide au retard :
+Construisons à nouveau un simulateur de délai :
 
 
 ```javascript
@@ -4872,11 +4872,10 @@ Les itérateurs asynchrones sont utiles dans les cas suivants :
 
 
 - Les valeurs n'arrivent pas toutes en même temps.
-- Vous voulez les traiter un par un, **au fur et à mesure**.
-- Vous travaillez avec des promesses et vous voulez faire des boucles de manière propre.
+- Vous voulez les traiter une par une, **au fur et à mesure** qu'elles arrivent.
+- Vous travaillez avec des promesses et vous voulez faire des boucles propres.
 
-
-Par exemple, si vous voulez charger les messages d'un serveur de chat un par un, ou télécharger un gros fichier par morceaux, les itérateurs asynchrones vous permettent d'écrire une boucle `for` qui fonctionne avec des données différées.
+Par exemple, si vous voulez charger un par un les messages d'un serveur de chat, ou télécharger un gros fichier par morceaux, les itérateurs asynchrones vous permettent d'écrire une boucle `for` qui fonctionne avec des données différées.
 
 
 ### `Symbol.asyncIterator` (symbole.asyncIterator)
@@ -4885,7 +4884,7 @@ Par exemple, si vous voulez charger les messages d'un serveur de chat un par un,
 Nous pouvons également utiliser des itérateurs asynchrones dans des classes personnalisées.
 
 
-Voici un exemple qui produit des nombres avec un délai :
+Voici un exemple qui produit des nombres avec un délai d'attente entre chaque:
 
 
 ```javascript
@@ -4908,7 +4907,7 @@ yield n
 ```
 
 
-Nous pouvons maintenant utiliser `for await...of` comme auparavant :
+Nous pouvons utiliser `for await...of` comme d'habitude :
 
 
 ```javascript
@@ -4926,18 +4925,18 @@ run()
 ```
 
 
-Cela vous permet de créer des objets qui peuvent être parcourus de manière asynchrone
+Cela vous permet de créer des objets qui peuvent être parcourus de manière asynchrone.
 
 
-## Assignment sucre syntaxique
+## Sucre syntaxique pour l'affectation
 
 <chapterId>8b1ba7d8-ecfd-5470-b86e-73cb84ccc8b7</chapterId>
 
 
-le "sucre syntaxique" consiste à écrire quelque chose d'une manière plus courte ou plus facile, sans changer ce qu'il fait. Il s'agit simplement d'une manière plus agréable de dire la même chose.
+Un "sucre syntaxique" consiste en l'écriture de quelque chose d'une manière plus courte ou plus facile, sans changer ce qu'il fait. Il s'agit simplement d'une manière plus agréable de dire la même chose.
 
 
-JavaScript dispose d'un sucre syntaxique intégré qui nous permet d'écrire des déclarations plus propres et plus courtes. Dans ce chapitre, nous verrons comment affecter des valeurs en fonction d'une condition, mettre à jour des variables avec des calculs mathématiques, extraire des valeurs de tableaux ou d'objets et les copier ou les combiner avec une syntaxe plus simple.
+JavaScript dispose d'un sucre syntaxique intégré qui nous permet de faire des déclarations plus propres et plus courtes. Dans ce chapitre, nous verrons comment affecter des valeurs en fonction d'une condition, mettre à jour des variables à l'aide de calculs mathématiques, extraire des valeurs de tableaux ou d'objets et les copier ou les combiner en utilisant une syntaxe plus simple.
 
 
 ### L'opérateur ternaire
@@ -4992,13 +4991,13 @@ console.log(isSunny ? "Go outside" : "Stay in")
 ```
 
 
-Veillez simplement à l'utiliser pour des décisions **simples**. Si la logique est complexe, utilisez `if...else`.
+Veillez simplement à l'utiliser pour des cas **simples**. Si la logique est complexe, utilisez `if...else`.
 
 
-### Opérateurs alternatifs Assignment
+### Autres opérateurs d'affectations
 
 
-JavaScript dispose de **opérateurs de raccourci** pour effectuer des affectations combinées à des opérations.
+JavaScript dispose d'**opérateurs raccourcis** pour effectuer des affectations combinées à des opérations.
 
 
 Examinons la méthode normale :
@@ -5019,7 +5018,7 @@ counter += 1 // same as counter = counter + 1
 ```
 
 
-Voici les plus courantes :
+Voici les doubles opérations les plus courantes :
 
 
 | Operator | Meaning             |
@@ -5060,7 +5059,7 @@ const colors = ["red", "green", "blue"]
 ```
 
 
-Au lieu de faire :
+Au lieu de faire ceci :
 
 
 ```javascript
@@ -5069,7 +5068,7 @@ const second = colors[1]
 ```
 
 
-Vous pouvez le faire :
+Vous pouvez faire :
 
 
 ```javascript
@@ -5077,15 +5076,15 @@ const [first, second] = colors
 ```
 
 
-Il s'agit d'une assignation :
+Ceci a pour effet d'affecter :
 
 
 
-- `premier` à `"red"`
-- `seconde` à `"Green"`
+- à `premier` la valeur `"red"`
+- à `seconde` la valeur `"Green"`
 
 
-Vous pouvez également sauter des valeurs :
+Vous pouvez également ignorer des valeurs :
 
 
 ```javascript
@@ -5097,7 +5096,7 @@ console.log(third) // blue
 #### Objets
 
 
-Vous pouvez également extraire des valeurs d'objets :
+Vous pouvez également extraire des valeurs contenues dans des objets :
 
 
 ```javascript
@@ -5109,7 +5108,7 @@ console.log(age)  // 30
 ```
 
 
-Si la propriété porte un nom différent de la variable souhaitée, vous pouvez la renommer :
+Si l'attribut porte un nom différent de la variable souhaitée, vous pouvez la renommer :
 
 
 ```javascript
@@ -5190,7 +5189,7 @@ Cette fonction est très utile pour mettre à jour des objets sans modifier l'or
 <chapterId>0da1d60c-06c9-54e6-a181-ae7dabf6e3b8</chapterId>
 
 
-Dans ce chapitre, nous allons apprendre un peu de contexte historique sur JavaScript et NodeJS.
+Dans ce chapitre, nous allons en apprendre un peu plus sur l'histoire de JavaScript et NodeJS.
 
 
 Le contexte historique est très important dans le domaine des logiciels, car nous utilisons souvent des outils construits par d'autres personnes et nous sommes donc influencés par les décisions prises dans le passé par ces dernières.
@@ -5202,13 +5201,13 @@ Comprendre la raison de ces décisions et comment les outils que nous utilisons 
 ### Origine de JavaScript
 
 
-JavaScript a commencé comme un simple langage conçu pour rendre les pages web interactives.
+JavaScript a été pensé pour être un langage simple, conçu pour rendre les pages web interactives.
 
 
-Dans les années 1990, les navigateurs web tels que Netscape Navigator ont ajouté JavaScript afin que les développeurs puissent écrire un code qui s'exécute directement dans le navigateur.
+Dans les années 1990, les premiers navigateurs web tel que Netscape Navigator ont ajouté le support JavaScript afin que les développeurs puissent écrire un code qui s'exécute directement dans le-dit navigateur.
 
 
-L'idée de départ était de faire de Java le langage de base pour la création de sites web (avec les "applets Java"), et de JavaScript pour les petites choses.
+L'idée de départ était de faire de Java le langage de base pour la création de sites web (avec les "applets Java"), et d'utiliser JavaScript pour des petites features.
 
 
 La conception de base a été réalisée par Brendan Eich, qui était à l'époque employé chez Netscape, en moins de deux semaines.
@@ -5223,16 +5222,16 @@ Mais la plupart des gens préféraient utiliser JavaScript plutôt que Java, et 
 JavaScript est un langage interprété, par opposition aux langages compilés comme le C.
 
 
-Le code écrit dans un langage compilé est transformé en binaire, et le binaire est transmis directement à l'unité centrale de l'ordinateur.
+Le code écrit dans un langage compilé est transformé en binaire, et le binaire est transmis directement au processeur de l'ordinateur.
 
 
 ![](assets/en/6.webp)
 
 
-Les langages prédéfinis, en revanche, tendent à être plus conviviaux et sont plus proches de la façon dont les humains pensent ("haut niveau") que de la façon dont les machines fonctionnent ("bas niveau") ; c'est pourquoi ils disposent généralement d'une machine virtuelle pour exécuter leur code.
+Les langages interprétés, en revanche, tendent à être plus conviviaux et sont plus proches de la façon dont les humains pensent ("haut niveau") que de la façon dont les machines fonctionnent ("bas niveau") ; c'est pourquoi ces langages interprétés disposent généralement d'une machine virtuelle pour exécuter leur code.
 
 
-Une machine virtuelle est un programme spécial qui s'interpose entre le code que vous écrivez et l'unité centrale, et qui exécute votre code (parce que l'unité centrale ne peut pas le comprendre).
+Une machine virtuelle est un programme spécial qui s'interpose entre le code que vous écrivez et le processeur, et qui exécute votre code (parce que le processeur ne peut pas le comprendre directement).
 
 
 Cela vous permet de programmer sans trop connaître la machine sous-jacente, mais cela a aussi un coût en termes de performances, car l'ordinateur n'exécute pas seulement votre programme ; il exécute un programme (la machine virtuelle) qui exécute votre programme.
@@ -5241,10 +5240,10 @@ Cela vous permet de programmer sans trop connaître la machine sous-jacente, mai
 Les applications web devenant de plus en plus complexes, il était nécessaire d'améliorer les performances de JavaScript. Le moteur V8 est l'interpréteur qui alimente JavaScript dans Google Chrome. Il a été développé par Google et lancé en 2008.
 
 
-Alors que les anciens moteurs JavaScript étaient principalement des machines virtuelles traditionnelles, le moteur V8 est un compilateur JIT (juste à temps).
+Alors que les anciens moteurs JavaScript étaient principalement des machines virtuelles traditionnelles, le moteur V8 est un compilateur Just In Time (JIT), ou juste à temps en français.
 
 
-Le code JavaScript est transmis au moteur V8, qui tente d'en compiler des parties sous forme de binaires natifs à la volée. Cela permet de bénéficier de l'expérience d'un langage de haut niveau, avec des performances un peu plus proches de celles des langages de bas niveau. Cela a fait de JavaScript le langage de haut niveau le plus rapide au monde, un peu comme le meilleur des deux mondes.
+Le code JavaScript est transmis au moteur V8, qui tente d'en compiler des parties sous forme de binaires natifs à la volée. Cela permet de bénéficier de l'expérience utilisateur d'un langage de haut niveau, avec des performances un peu plus proches de celles des langages de bas niveau. Cela a fait de JavaScript le langage de haut niveau le plus rapide au monde, un peu comme le meilleur des deux mondes.
 
 
 ### Le moteur d'exécution NodeJS
@@ -5319,7 +5318,7 @@ node my_script.js alpha beta
 ```
 
 
-Vous pouvez imprimer les arguments comme suit :
+Vous pouvez afficher les arguments comme suit :
 
 
 ```javascript
@@ -5327,7 +5326,7 @@ console.log(process.argv)
 ```
 
 
-Le résultat peut ressembler à ceci :
+Le résultat ressemblera à ceci :
 
 
 ```
@@ -5335,7 +5334,7 @@ Le résultat peut ressembler à ceci :
 ```
 
 
-Les deux premiers éléments sont toujours le chemin du nœud et le chemin de votre script. Tous les mots supplémentaires que vous avez transmis au script viennent ensuite.
+Les deux premiers éléments sont toujours le chemin du programme Node et le chemin de votre script Javascript. Tous les mots supplémentaires que vous avez transmis au script viennent ensuite.
 
 
 Le tableau `process.argv` peut être découpé comme n'importe quel autre tableau en utilisant la méthode `.slice()`, donc pour obtenir seulement les arguments qui ont été passés, vous pouvez faire
@@ -5348,7 +5347,7 @@ console.log(args)
 ```
 
 
-Il est fondamental d'avoir accès aux arguments que l'utilisateur transmet pour développer des applications en ligne de commande.
+Il est essentiel d'avoir accès aux arguments que l'utilisateur transmet pour développer des applications en ligne de commande.
 
 
 ## Modules
@@ -5362,13 +5361,13 @@ Les moteurs d'exécution JavaScript tels que NodeJS traitent généralement chaq
 Pensez à un module comme à une boîte. La boîte possède son propre espace privé, de sorte que les variables et les fonctions que vous y déclarez n'interfèrent pas avec le code des autres boîtes. En fait, chaque module a sa propre portée.
 
 
-Un module peut exporter une partie de son contenu pour le mettre à la disposition d'autres modules, et il peut importer le contenu que d'autres modules ont exporté. JavaScript vous permet d'exporter et d'importer du contenu entre modules, de connecter différents fichiers.
+Un module peut exporter une partie de son contenu pour le mettre à la disposition d'autres modules, et il peut importer le contenu que d'autres modules ont exporté. JavaScript vous permet d'exporter et d'importer du contenu entre modules, ainsi que de connecter différents fichiers.
 
 
 Un programme JavaScript est souvent composé de plusieurs modules, qui sont reliés les uns aux autres.
 
 
-Pourquoi utiliser des modules ? En divisant votre code en modules, vous pouvez organiser votre programme en parties plus petites, plus claires et réutilisables. Chaque module peut se concentrer sur un seul type de tâche, comme le traitement de calculs mathématiques, le travail avec des fichiers ou le formatage de texte.
+Pourquoi utiliser des modules ? En divisant votre code en modules, vous pouvez organiser votre programme en parties plus petites, plus claires et réutilisables. Chaque module peut se concentrer sur un seul type de tâche, comme le traitement de calculs mathématiques, les actions sur des fichiers ou le formatage de texte.
 
 
 ### Modules CommonJS
@@ -5393,7 +5392,7 @@ module.exports = greeting
 Ici, c'est la chaîne `"Hello !"` qui est exportée par ce module.
 
 
-Pour utiliser le code exporté d'un autre fichier, il faut utiliser la fonction `require()` avec le chemin de ce fichier :
+Pour utiliser le code exporté par un fichier, il faut utiliser la fonction `require()` avec le chemin de ce fichier :
 
 
 ```javascript
@@ -5488,10 +5487,10 @@ console.log(os.platform())
 Vous n'avez pas besoin d'installer ces modules intégrés, ils sont fournis avec NodeJS. Ils constituent la "bibliothèque standard" du moteur d'exécution et sont utilisés par la plupart des applications Node pour effectuer des opérations telles que la lecture de fichiers ou la communication via l'internet.
 
 
-Les chapitres suivants vous donneront quelques exemples utiles de leur utilisation.
+Les chapitres suivants vous donneront quelques exemples utiles.
 
 
-## Le module `fs
+## Le module `fs`
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5499,7 +5498,7 @@ Les chapitres suivants vous donneront quelques exemples utiles de leur utilisati
 Le module `fs` (abréviation de **file system**) fait partie de la bibliothèque standard de NodeJS. Il vous permet de travailler avec des fichiers et des répertoires sur votre ordinateur : vous pouvez lire des fichiers, écrire des fichiers, les supprimer, les renommer, et plus encore.
 
 
-Pour l'utiliser, vous devez d'abord l'importer en tête de votre fichier :
+Pour l'utiliser, vous devez d'abord l'importer au début de votre fichier :
 
 
 ```javascript
@@ -5543,7 +5542,7 @@ console.log("File written!")
 ```
 
 
-Cela crée (ou écrase) un fichier appelé `output.txt` avec le texte.
+Cela crée (ou écrase) un fichier appelé `output.txt` avec le texte passé en argument.
 
 
 Voici quelques opérations courantes que vous pouvez effectuer avec cette API :
@@ -5552,27 +5551,27 @@ Voici quelques opérations courantes que vous pouvez effectuer avec cette API :
 ```javascript
 const fs = require("fs")
 
-// List files and folders
+// Liste les fichiers et dossiers
 const items = fs.readdirSync(".")
 console.log("Items in current directory:", items)
 
-// Create folder
+// Créer un dossier
 fs.mkdirSync("my_folder")
 console.log("Folder created")
 
-// Delete folder
+// Supprimer un dossier
 fs.rmdirSync("my_folder")
 console.log("Folder deleted")
 
-// Create & write file
+// Créer et écrire dans un fichier
 fs.writeFileSync("my_file.txt", "Hello world")
 console.log("File created & written")
 
-// Read file
+// Lire un fichier
 const content = fs.readFileSync("my_file.txt", "utf8")
 console.log("File content:", content)
 
-// Delete file
+// Supprimer un fichier
 fs.unlinkSync("my_file.txt")
 console.log("File deleted")
 ```
@@ -5581,10 +5580,10 @@ console.log("File deleted")
 L'API Sync est simple et adaptée aux petits scripts, mais comme elle bloque le programme jusqu'à ce qu'il soit terminé, elle peut ralentir les choses si vous travaillez avec de gros fichiers ou un serveur.
 
 
-### API asynchrone de rappel
+### API asynchrone de callback
 
 
-L'API **callback** est non bloquante : elle permet à NodeJS de continuer à faire d'autres choses pendant que l'opération de fichier se déroule.
+L'API **callback** est non bloquante : elle permet à NodeJS de continuer à faire d'autres choses pendant que l'opération sur un fichier se fait.
 
 
 Au lieu de renvoyer directement le résultat, il prend une fonction (un **callback**) qui est appelée lorsque l'opération est terminée.
@@ -5603,7 +5602,7 @@ console.log(data)
 ```
 
 
-Voici ce qui se passe :
+Voici ce qu'il se passe :
 
 
 
@@ -5642,37 +5641,37 @@ Quelques exemples de ce que vous pouvez faire avec cette API :
 ```javascript
 const fs = require("fs")
 
-// List files and folders
+// Lister les fichiers et dossier
 fs.readdir(".", (err, items) => {
 if (err) return console.error(err)
 console.log("Items in current directory:", items)
 })
 
-// Create folder
+// Créer un dossier
 fs.mkdir("my_folder", (err) => {
 if (err) return console.error(err)
 console.log("Folder created")
 })
 
-// Delete folder
+// Supprimer un dossier
 fs.rmdir("my_folder", (err) => {
 if (err) return console.error(err)
 console.log("Folder deleted")
 })
 
-// Create & write file
+// Créer et écrire dans un fichier
 fs.writeFile("my_file.txt", "Hello world", (err) => {
 if (err) return console.error(err)
 console.log("File created & written")
 })
 
-// Read file
+// Lire un fichier
 fs.readFile("my_file.txt", "utf8", (err, content) => {
 if (err) return console.error(err)
 console.log("File content:", content)
 })
 
-// Delete file
+// Supprimer un fichier
 fs.unlink("my_file.txt", (err) => {
 if (err) return console.error(err)
 console.log("File deleted")
@@ -5680,16 +5679,16 @@ console.log("File deleted")
 ```
 
 
-L'API de rappel est meilleure pour les serveurs et les tâches importantes car elle ne bloque pas le programme, mais les rappels imbriqués peuvent devenir gênants si vous enchaînez de nombreuses opérations. C'est pourquoi une API asynchrone basée sur des promesses a été ajoutée.
+L'API callback est meilleure pour les serveurs et les tâches importantes car elle ne bloque pas le programme, mais les callback imbriqués peuvent devenir gênants si vous enchaînez de nombreuses opérations. C'est pourquoi une API asynchrone basée sur des promesses a été ajoutée.
 
 
-### API asynchrone à promesse
+### API asynchrone basé sur les promesses
 
 
 L'API basée sur les promesses est moderne et fonctionne très bien avec `.then()` et `async/await`. Elle est disponible sous la forme `fs.promises`.
 
 
-Vous devez importer la propriété `promesses` :
+Vous devez importer l'attribut `promesses` du module `fs` :
 
 
 ```javascript
@@ -5757,29 +5756,29 @@ La liste habituelle des exemples pour l'API :
 ```javascript
 const fs = require("fs").promises
 
-// Use an async function to await operations
+// Utilise une fonction asynchrone pour attendre une action
 async function main() {
-// List files and folders
+// Liste les fichiers et dossiers
 const items = await fs.readdir(".")
 console.log("Items in current directory:", items)
 
-// Create folder
+// Crée un dossier
 await fs.mkdir("my_folder")
 console.log("Folder created")
 
-// Delete folder
+// Supprime un dossier
 await fs.rmdir("my_folder")
 console.log("Folder deleted")
 
-// Create & write file
+// Créer et écrire dans un fichier
 await fs.writeFile("my_file.txt", "Hello world")
 console.log("File created & written")
 
-// Read file
+// Lire un fichier
 const content = await fs.readFile("my_file.txt", "utf8")
 console.log("File content:", content)
 
-// Delete file
+// Supprime un fichier
 await fs.unlink("my_file.txt")
 console.log("File deleted")
 }
@@ -5804,12 +5803,12 @@ Un gestionnaire de paquets est un outil qui :
 
 
 
-- paquets de téléchargements
+- télécharge des paquets
 - garde la trace des paquets dont votre projet a besoin
 - s'assure que tous les membres de l'équipe disposent des mêmes versions des paquets
 
 
-### Qu'est-ce que la NPM ?
+### Qu'est-ce que NPM ?
 
 
 Dans le monde NodeJS, le gestionnaire de paquets le plus populaire est **NPM**, qui signifie *Node Package Manager*.
@@ -5826,7 +5825,7 @@ npm -v
 ```
 
 
-Ceci imprime la version de NPM que vous avez, comme :
+Ceci affiche la version de NPM que vous avez, comme :
 
 
 ```
@@ -5906,7 +5905,7 @@ Voici un exemple :
 ```
 
 
-Quelques domaines importants :
+Quelques champs importants :
 
 
 
@@ -5920,7 +5919,7 @@ Quelques domaines importants :
 ### Installation d'un paquet
 
 
-Disons que vous voulez utiliser un certain paquet appelé `picocolors` pour ajouter des couleurs à la sortie de votre terminal.
+Supposons que vous vouliez utiliser un certain paquet appelé `picocolors` pour ajouter des couleurs à la sortie de votre terminal.
 
 
 Vous pouvez l'installer en exécutant :
@@ -5943,15 +5942,15 @@ pico.green("This text is green!")
 ```
 
 
-et essayez de l'exécuter. Le terminal devrait imprimer une version colorée du texte.
+et essayez de l'exécuter. Le terminal devrait afficher une version colorée du texte.
 
 
-Qu'a fait le mécanisme national de prévention ?
+Qu'a fait NPM ?
 
 
 
 - Il a téléchargé le paquet et l'a stocké dans un sous-dossier appelé `node_modules/`
-- il a ajouté une entrée sous `dependencies` dans votre `package.json`
+- il a ajouté une entrée dans `dependencies` dans votre `package.json`
 - il a mis à jour le fichier `package-lock.json`
 
 

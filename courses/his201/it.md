@@ -1139,7 +1139,7 @@ Logo della cooperativa di Slush nel settembre 2011 (fonte: [archivio](https://we
 
 ### Il grande salto in avanti nel mining
 
-Così, la seconda metà dell'anno 2010 ha rappresentato un periodo di significativa crescita per il mining. Si specializzò nell'adozione di GPU (Graphics Processing Unit). Diverse persone si sono unite e hanno dato vita a vere e proprie mining farm, come ArtForz e la sua "ArtFarm". Questo boom portò infine alla nascita di cooperative, consentendo ai piccoli miner di mettere in comune la loro potenza di calcolo per ridurre la varianza delle ricompense.
+La seconda metà dell'anno 2010 ha rappresentato un periodo di significativa crescita per il mining. Si specializzò nell'adozione di GPU (Graphics Processing Unit). Diverse persone si sono unite e hanno dato vita a vere e proprie mining farm, come ArtForz e la sua "ArtFarm". Questo boom portò infine alla nascita di cooperative, consentendo ai piccoli miner di mettere in comune la loro potenza di calcolo per ridurre la varianza delle ricompense.
 
 Tuttavia, l'autunno non è stato solo un successo per il mining. È stato un successo anche per la comunità e per l'ecosistema economico. Questo è ciò di cui discuteremo nel prossimo capitolo.
 

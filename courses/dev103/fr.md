@@ -3276,7 +3276,7 @@ console.log(user["name"]) // Alice
 ```
 
 
-Nous avons passé la chaîne de caractères `nom` à l'objet afin d'obtenir la valeur correspondante.
+Nous avons passé la chaîne de caractères `name` à l'objet afin d'obtenir la valeur correspondante.
 
 
 Nous pouvons enregistrer une clé dans une variable et l'utiliser pour accéder ultérieurement à la valeur correspondante, comme suit
@@ -3294,10 +3294,10 @@ console.log(user[key]) // Alice
 ```
 
 
-### Dynamique Assignment
+### Affectation Dynamique
 
 
-Vous pouvez également créer ou mettre à jour des propriétés d'objets en utilisant des variables comme clés.
+Vous pouvez également créer ou mettre à jour des propriétés d'objets en utilisant des variables en tant que clés.
 
 
 ```javascript
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 C'est ce qu'on appelle une **propriété calculée**. La valeur entre crochets est évaluée et le résultat est utilisé comme clé.
 
 
-### `Symbol` Type
+### Le type `Symbol` 
 
 
 En plus des chaînes de caractères, JavaScript vous permet également d'utiliser un type spécial appelé `Symbol` comme clé d'objet.
@@ -3361,7 +3361,7 @@ console.log(user[id]) // 12345
 ```
 
 
-Dans cet exemple, `id` est un symbole. Ce n'est pas une chaîne de caractères, mais il fonctionne toujours comme une clé. Si vous essayez d'enregistrer `user` dans la console, vous verrez ceci :
+Dans cet exemple, `id` est un symbole. Ce n'est pas une chaîne de caractères, mais ça fonctionne toujours comme une clé. Si vous essayez d'afficher `user` dans la console, vous verrez ceci :
 
 
 ```javascript
@@ -3418,7 +3418,7 @@ Comme vous pouvez le voir, la propriété originale `name` est préservée de ce
 <chapterId>516e74c8-2a11-545a-a4d1-c2cabb91a273</chapterId>
 
 
-JavaScript nous donne quelques objets intégrés utiles qui nous aident à faire des choses comme le débogage et les opérations mathématiques.
+JavaScript fournis quelques objets intégrés au langage (**builtin objects**) utiles qui nous aident pour différentes choses comme le débogage ou les opérations mathématiques.
 
 
 ### Autres méthodes de la console
@@ -3433,7 +3433,7 @@ Il existe d'autres méthodes utiles disponibles sur l'objet `console` qui peuven
 #### `console.warn`
 
 
-Imprime un message en jaune (ou avec une icône d'avertissement dans certains environnements) :
+Affiche un message en jaune (ou avec une icône d'avertissement dans certains environnements) :
 
 
 ```javascript
@@ -3444,7 +3444,7 @@ console.warn("This is just a warning.")
 #### `console.error`
 
 
-Imprime un message en rouge, comme une erreur :
+Affiche un message en rouge, comme une erreur :
 
 
 ```javascript
@@ -3455,7 +3455,7 @@ console.error("Something went wrong!")
 #### `console.table`
 
 
-Affiche un tableau ou un objet sous forme de tableau :
+Affiche un tableau (**array** javascript) ou un objet sous forme d'un tableau :
 
 
 ```javascript
@@ -3468,7 +3468,7 @@ console.table(users)
 ```
 
 
-Cela permet d'imprimer un tableau comme celui-ci :
+Cela permet d'afficher un tableau comme celui-ci :
 
 
 ```
@@ -3511,13 +3511,13 @@ Utile pour des tests de performance simples.
 ### L'objet `Math` (mathématique)
 
 
-JavaScript vous offre un objet `Math` avec des méthodes utiles pour effectuer des calculs.
+JavaScript met à disposition un objet `Math` avec des méthodes utiles pour effectuer toutes sortes de calculs.
 
 
 #### `Math.random()`
 
 
-Renvoie un nombre aléatoire compris entre 0 (inclus) et 1 (exclusif) :
+Renvoie un nombre aléatoire compris entre 0 (inclus) et 1 (exclus) :
 
 
 ```javascript
@@ -3538,7 +3538,7 @@ Exemple de sortie :
 
 
 
-- `Math.floor(n)` arrondit **vers le bas** à l'entier le plus proche
+- `Math.floor(n)` arrondit **par valeur inférieur** à l'entier le plus proche
 - `Math.ceil(n)` arrondit **à l'entier supérieur** le plus proche
 
 
@@ -3576,7 +3576,7 @@ console.log(Math.min(5, 9, 3)) // 3
 
 
 
-- `Math.pow(a, b)` vous donne `a` à la puissance de `b`
+- `Math.pow(a, b)` vous donne `a` à la puissance `b`
 - `Math.sqrt(n)` vous donne la racine carrée de `n`
 
 
@@ -3596,10 +3596,10 @@ console.log(Math.sqrt(16))    // 4
 <chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
 
 
-JavaScript nous offre des types de collection spéciaux qui vont au-delà des tableaux et des objets ordinaires. Il s'agit de `Map` et de `Set`.
+JavaScript met à disposition des types de collection spéciaux qui vont au-delà des tableaux et des objets ordinaires. Il s'agit de `Map` (une table de hachage) et de `Set` (un ensemble). Ce sont deux structures de données classique en informatique.
 
 
-Ils vous aident à stocker et à gérer des groupes de valeurs, mais ils fonctionnent différemment de ce que vous avez vu jusqu'à présent.
+Ces types vous aident à stocker et à gérer des groupes de valeurs, mais ils fonctionnent différemment de ce que vous avez vu jusqu'à présent.
 
 
 Une `Map` est une collection de **paires clé-valeur**, tout comme un objet. Mais il y a des différences importantes :
@@ -3611,7 +3611,7 @@ Une `Map` est une collection de **paires clé-valeur**, tout comme un objet. Mai
 - Il dispose de méthodes intégrées qui facilitent son utilisation.
 
 
-Vous créez une nouvelle carte comme suit :
+Vous créez une nouvelle table de hachage comme suit :
 
 
 ```javascript
@@ -3619,7 +3619,7 @@ const myMap = new Map()
 ```
 
 
-Cela crée une carte vide. Pour y ajouter des entrées, utilisez `myMap.set(key, value)` :
+Cela crée une Map vide. Pour y ajouter des entrées, utilisez `myMap.set(key, value)` :
 
 
 ```javascript
@@ -3676,7 +3676,7 @@ myMap.delete("name")
 ```
 
 
-Pour **effacer toute la carte**, utilisez `myMap.clear()` :
+Pour **effacer toute la Map**, utilisez `myMap.clear()` :
 
 
 ```javascript
@@ -3684,7 +3684,7 @@ myMap.clear()
 ```
 
 
-Les cartes sont idéales pour gérer de grandes collections de valeurs, car l'accès aux valeurs sur une grande carte est généralement beaucoup plus performant que sur un grand objet.
+Les Maps, ou tables de hachages, sont idéales pour gérer de grandes collections de valeurs, car l'accès aux valeurs sur une grande table est généralement beaucoup plus performant que sur un grand objet.
 
 
 ### `Set`
@@ -3698,7 +3698,7 @@ Un `Set` est une collection de **valeurs uniquement** (pas de clés), où chaque
 - Les valeurs sont stockées dans l'ordre dans lequel vous les ajoutez
 
 
-Vous créez un jeu comme celui-ci :
+Vous créez un set comme suit :
 
 
 ```javascript
@@ -3712,11 +3712,11 @@ Pour **ajouter des valeurs**, utilisez `mySet.add(value)` :
 ```javascript
 mySet.add(1)
 mySet.add(2)
-mySet.add(2) // duplicate, will be ignored
+mySet.add(2) // Les doublons seront ignorés
 ```
 
 
-Même si nous avons essayé d'ajouter `2` deux fois, l'ensemble ne gardera qu'une seule copie.
+Même si nous avons essayé d'ajouter `2` deux fois, le set ne gardera qu'une seule copie.
 
 
 Pour **vérifier si une valeur est dans le set**, utilisez `mySet.has(value)` :
@@ -3767,13 +3767,13 @@ Le `Set` évite les doublons.
 La plupart des éléments en JavaScript sur lesquels vous pouvez effectuer une boucle (comme les tableaux, les chaînes, les cartes, les ensembles) sont **itérables** : ils peuvent fournir des itérateurs pour leur contenu.
 
 
-Un **itérateur** est un objet spécial en JavaScript qui vous aide à parcourir une liste d'éléments **un à la fois**.
+Un **itérateur** est un objet spécial en JavaScript qui vous aide à parcourir une liste d'éléments **un à par un**.
 
 
-### itérateurs `Objet
+### itérateurs d'`Objet`
 
 
-Contrairement aux tableaux ou aux cartes, les objets ordinaires **ne sont pas itérables** avec `for...of`. Si vous essayez ceci :
+Contrairement aux tableaux ou aux maps, les objets ordinaires **ne sont pas itérables** avec `for...of`. Si vous essayez ceci :
 
 
 ```javascript
@@ -3796,10 +3796,10 @@ TypeError: user is not iterable
 ```
 
 
-En effet, les objets simples n'ont pas d'itérateur intégré. Mais JavaScript vous offre d'autres outils pour effectuer des boucles sur ces objets.
+En effet, les objets simples n'ont pas d'itérateur intégré. Mais JavaScript vous fournit d'autres outils pour effectuer des boucles sur ces objets.
 
 
-#### `Objet.keys()`
+#### `Object.keys()`
 
 
 Vous pouvez utiliser `Object.keys(obj)` pour obtenir un tableau des **clés** de l'objet, et faire une boucle dessus :
@@ -3886,7 +3886,7 @@ age is 30
 ```
 
 
-Même si les objets ne sont pas directement itérables, ces méthodes vous donnent un accès complet à leur contenu d'une manière qui fonctionne bien avec `for...of`.
+Même si les objets ne sont pas directement itérables, ces méthodes vous donnent un accès complet à leur contenu, de manière élégante, avec `for...of`.
 
 
 Mais comment fonctionnent les itérateurs ?
@@ -3898,10 +3898,10 @@ Mais comment fonctionnent les itérateurs ?
 Le secret de tous les itérables est un **symbole** spécial appelé `Symbol.iterator`.
 
 
-Ce symbole est une clé intégrée qui indique à JavaScript : "Cet objet peut être itéré"
+Ce symbole est une clé **builtin** qui indique à JavaScript : "Cet objet peut être itéré"
 
 
-Lorsque vous appelez `myIterable[Symbol.iterator]()`, JavaScript vous renvoie un **objet itérateur** avec une méthode `.next()`.
+Lorsque vous appelez `myIterable[Symbol.iterator]()`, JavaScript vous renvoie un **objet itérateur** disposant d'une méthode `.next()`.
 
 
 Voyons ce que cela donne :
@@ -3942,14 +3942,14 @@ Prenons un exemple complet :
 
 
 ```javascript
-const names = ["Lina", "Tom", "Eva"]      // declare an array
-const iterator = names[Symbol.iterator]() // use the Symbol.iterator function to get an iterator for this array
+const names = ["Lina", "Tom", "Eva"]      // défini un tableau
+const iterator = names[Symbol.iterator]() // utilise la fonction Symbol.iterator pour obtenir un itérateur du tableau
 
-let result = iterator.next()              // get the first element of the array
+let result = iterator.next()              // recupère le premier élément du tableau
 
-while (!result.done) {                    // repeat this loop until you reach the last element of the array, which is marked with { done: true }
-console.log(result.value)               // print the value of each element
-result = iterator.next()                // get the next element of the array
+while (!result.done) {                    // recommence jusqu'à atteindre le dernier élément du tableau, qui est marqué avec { done: true}
+console.log(result.value)               // affiche la valeur de chaque élément
+result = iterator.next()                // récupère l'élément suivant du tableau
 }
 ```
 
@@ -3964,7 +3964,7 @@ Eva
 ```
 
 
-C'est ainsi qu'une boucle `for...of` fonctionne sous le capot : elle utilise ce modèle avec `.next()`.
+C'est ainsi qu'une boucle `for...of` fonctionne sous le capot : elle utilise cette construction avec `.next()`.
 
 
 Vous obtiendrez le même résultat avec
@@ -3985,7 +3985,7 @@ console.log(result)
 Vous pouvez également définir votre propre classe **itérable** en ajoutant une méthode `[Symbol.iterator]()`.
 
 
-Disons que nous voulons une classe qui représente une **gamme de nombres**, comme de 1 à 5.
+Imaginons que nous voulions une classe représentant une **gamme de nombres**, de 1 à 5.
 
 
 ```javascript
@@ -4033,7 +4033,7 @@ Ceci affiche :
 ```
 
 
-Voici ce qui se passe :
+Voici ce qu'il se passe :
 
 
 
@@ -4046,7 +4046,7 @@ Voici ce qui se passe :
 Maintenant notre classe `Range` fonctionne comme un tableau, et nous pouvons l'utiliser dans n'importe quelle boucle qui attend un itérable.
 
 
-### Fonctions génératrices et `yield` (rendement)
+### Fonctions génératrices et `yield`
 
 
 Pour faciliter la création d'itérateurs, JavaScript propose des **fonctions génératrices**, utilisant le mot-clé `function*` (c'est `function` avec un `*` à la fin) et le mot-clé `yield`.
@@ -4071,7 +4071,7 @@ console.log(iterator.next()) // { value: undefined, done: true }
 ```
 
 
-Chaque `yield` renvoie une valeur, et **pause** la fonction jusqu'à ce que le prochain `.next()` soit appelé.
+Chaque `yield` renvoie une valeur, et **stoppe** la fonction jusqu'à ce que le prochain `.next()` soit appelé.
 
 
 Vous pouvez également boucler sur un générateur avec `for...of` :
@@ -4094,21 +4094,21 @@ Ceci affiche :
 ```
 
 
-## Concurrence avec les rappels
+## Concurrence avec les fonctions de rappels (**callbacks**)
 
 <chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
 
 
-Jusqu'à présent, notre code était **synchrone** : il s'exécutait une ligne à la fois, dans l'ordre. Mais certaines choses dans le monde réel prennent du temps, et nous ne voulons pas que le programme entier se mette en pause pendant l'attente.
+Jusqu'à présent, notre code était **synchrone** : il s'exécutait une ligne à la fois, dans l'ordre. Mais certaines choses dans le monde réel prennent du temps, et nous ne voulons pas que le programme entier se mette en pause si ce n'est pas nécessaire.
 
 
-Dans ce chapitre, nous allons introduire un nouveau concept : *la *concurrence**. Il nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
+Dans ce chapitre, nous allons introduire un nouveau concept : **la concurrence**. La concurrence nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
 
 
 ### `setTimeout`
 
 
-La fonction `setTimeout` vous permet **d'exécuter une fonction plus tard**, après un certain temps.
+La fonction `setTimeout` vous permet **d'exécuter une fonction plus tard**, après un  temps d'attente que vous fournissez.
 
 
 Exemple :
@@ -4118,8 +4118,8 @@ Exemple :
 console.log("Start")
 
 setTimeout(
-() => console.log("This runs after 2 seconds"),
-2000
+() => console.log("Ceci s'exécute après 2 secondes d'attente"),
+2000 // millisecondes
 )
 
 console.log("End")
@@ -4136,12 +4136,10 @@ This runs after 2 seconds
 ```
 
 
-Même si `setTimeout` apparaît au milieu du code, il ne bloque pas le reste. Au lieu de cela, il programme la fonction pour qu'elle s'exécute **plus tard**, et passe immédiatement à autre chose.
+Même si `setTimeout` apparaît au milieu du code, il ne bloque pas le reste. Au lieu de cela, ce `setTimeout` programme la fonction pour qu'elle s'exécute **plus tard**, et passe immédiatement à autre chose.
 
 
-Le `2000` signifie 2000 millisecondes (soit 2 secondes).
 
-Voici une réécriture plus verbeuse et plus conviviale des sections **Callbacks** et **Promise**, utilisant la manipulation de données et des annotations claires tout au long du texte :
 
 
 ### Rappels

@@ -1,22 +1,22 @@
 ---
-name: Bitcoin ku bucuruzi
-goal: Menya ivy’ishimikiro vyo kwishura n’ivy’ububiko kugira ngo ushire mu bwato ishirahamwe ryawe kuri Bitcoin.
+name: Bitcoin  mu nganda 
+goal: Iga ivy’ishimikiro muvyirihwa  n’ivy’ububiko kugira ngo ushire uruganda rwanyu muvyikoreshwa rya Bitcoin.
 objectives: 
 
-  - Bitcoin nk'ifaranga rishasha n'igikoresho c'ubudandaji
-  - Gutahura igituma n’ingene ubucuruzi bushobora gufata Bitcoin mu bubiko canke bukayikoresha mu kwishura .
-  - Ugire iciyumviro nyaco c'ingene wokwemera kwishurwa Bitcoin mu bikorwa
-  - Niwitegure gucunga ibisabwa mu vy'ubutunzi n'ivy'ubuhinga bw'ivy'ubuhinga
+  - Bitcoin , ifaranga rishasha , igikoresho c'ubudandaji
+  - Gutahura igituma n’ingene uruganda rushobora gufita Bitcoin mu bubiko canke rukarikoresha muvyiihwa .
+  - kugira  iciyumviro kirashe  cukungene eyemezwa ryirihwa  muma  Bitcoin mungiro.
+  - kwitegurira gutunganya ibigengwa na mategeko ni harurwa ryubutunzi. 
 
 ---
 
-# Tangira urugendo rw’ishirahamwe ryawe ku rubuga rwa Bitcoin
+# Tangura urugendo rwuruganda rwawe ku rubuga rwa Bitcoin
 
 
-Tora ubushobozi ngirakamaro bwa Bitcoin na Lightning Network, maze utore ingene, nka internet, zishobora **guhindura ibikorwa vyawe vy'ubudandaji**. Kuva ku mutungo w’ubuhinga bwa none gushika ku kwishura vyihuta, bifise ubutunzi, kandi bishobora guhindurwa, Bitcoin itanga uburyo bwinshi bwo gukoresha **ibintu vy’ubudandaji**.
+menya ivyo utari uzi kubushobozi bw'ikoreshwa  rya Bitcoin na Lightning Network, maze utore ingene, nka internet, zishobora **guhindura ibikorwa vyawe muru ganda rwawe**. Kuva ku mutungo w’ubuhinga bwa none gushika kwirihwa ribangutse , mu vyubukungu, ni vyomwiterambere , Bitcoin itanga uburyo bwinshi bwo gukoresha **ibintu vy’ubudandaji**.
 
 
-Muri iyi nkuru yose, uzomenya ingene wotahura Bitcoin nk’urubuga rw’amahera rwo kw’isi yose, rwo kw’isi yose, kandi rwo kuri internet. Kubera ibiranga vy’ishimikiro vyihariye, **Bitcoin itanga iterambere rikomeye kuruta imihora y’amahera ya kera**. Uzobona igituma n’ingene wokoresha Bitcoin ku bikorwa vy’amahera nk’ububiko bw’amahera n’uburyo bwo kwishura. Ikindi, iyi nsiguro izovuga ku kuronka no kugumya Bitcoin, harimwo n’ibisabwa bijanye n’ivy’ubuhinga bw’ibarabara n’ivy’ubutunzi, hamwe no gushirwa mu ngiro inyishu zoroshe canke nini zo kwishura Bitcoin.
+Muri iyi nkuru yose, muzomenya ingene wotahura Bitcoin nk’urubuga rw’amahera rwo kw’isi yose, rusangi , kandi rwo kuri internet. kubwibimenyetso shingiro vyiharije , **Bitcoin itanga iterambere rishemeye  ugereranije n'imihora y’amahera ya kera**. muzomenya igituma n’ingene woja mubijanye na  Bitcoin nkomwikoreshwa ryubutunzi rya kera  nkomwibikwa  bw’amahera n’uburyo bwo kwishura. Ikindi, iyi nsiguro izovuga ku kuronka no kugumya Bitcoin, harimwo n’ibisabwa bijanye n’ivy’ubuhinga bw’ibarabara n’ivy’ubutunzi, hamwe no gushirwa mu ngiro inyishu zoroshe canke nini zo kwishura Bitcoin.
 
 
 Waba uri **ubucuruzi buto canke ishirahamwe rinini**, gushiramwo Bitcoin mu bikorwa vyawe vya misi yose birashobora gutuma ishirahamwe ryawe rirushiriza **gukomera, gutanga umusaruro, no guhangana n'abandi**. Ishirahamwe ryose rikoresha internet rizoba ishirahamwe ry’ubuhinga bwa Bitcoin, kandi iri shure rizotuma witegura. Ibice vya mbere birasubiramwo ivy’ishimikiro vy’imikorere ya Bitcoin, rero naho woba uri umutanguzi, uzoronka ubumenyi bw’ishimikiro bukenewe kugira ngo ukomeze. Kwiga ivy'ishimikiro vy'ubuhinga bwa Satoshi ni iciyumviro ciza, haba imbere canke inyuma yo kwisuka muri BIZ101.

@@ -99,6 +99,8 @@ Tämän kurssin lopussa sinulla on kaikki käytännön työkalut, joita tarvitse
 Oletko valmis aloittamaan matkasi Bitcoin:n maailmaan? Mennään!
 
 
+**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.network/resources/glossary).
+
 # Bitcoin:n ymmärtämisen edellytykset
 
 

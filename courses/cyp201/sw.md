@@ -56,6 +56,8 @@ Hatimaye, kutoka kwa Ufunguo (Key) mkuu, tutagundua jinsi jozi za funguo za krip
 
 Mafunzo haya yatakuwezesha kutumia programu yako ya Wallet kwa kujiamini, huku ukiboresha ujuzi wako wa kutambua na kupunguza hatari. Jitayarishe kuwa mtaalam wa kweli katika pochi za Bitcoin!
 
+Jedwali hili linakupa tafsiri ya maneno muhimu ya Kiingereza yanayotumika, ili kukurahisishia kuelewa michoro na nyaraka za kiufundi zinazotumika katika kozi ya CYP 201.
+
 # Kazi za Hash
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

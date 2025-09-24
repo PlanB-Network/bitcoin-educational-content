@@ -80,6 +80,8 @@ Konačno, iz glavnog ključa, otkrićemo kako se izvode kriptografski parovi klj
 Ova obuka će vam omogućiti da koristite vaš softverski novčanik sa samopouzdanjem, dok unapređujete svoje veštine za identifikaciju i ublažavanje rizika. Pripremite se da postanete pravi stručnjak za Bitkojn novčanike!
 
 
+Ova tabela vam nudi prevod glavnih engleskih termina koji se koriste, kako bi vam olakšala razumevanje šema i tehničkih dokumenata korišćenih u okviru kursa CYP 201.
+
 # Heš Funkcije
 
 

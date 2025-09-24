@@ -52,6 +52,8 @@ Akhirnya, dari master key, kita akan menemukan bagaimana pasangan kunci kriptogr
 
 Pelatihan ini akan memungkinkan Anda untuk menggunakan perangkat lunak dompet Anda dengan percaya diri, sambil meningkatkan keterampilan Anda untuk mengidentifikasi dan mengurangi risiko. Bersiaplah untuk menjadi seorang ahli sejati dalam dompet Bitcoin!
 
+Tabel ini memberikan Anda terjemahan dari istilah-istilah utama dalam bahasa Inggris yang digunakan, untuk mempermudah pemahaman Anda terhadap skema dan dokumen teknis yang digunakan dalam kursus CYP 201.
+
 # Fungsi Hash
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

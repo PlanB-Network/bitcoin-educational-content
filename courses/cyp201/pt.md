@@ -52,6 +52,8 @@ Finalmente, a partir da chave mestra, descobriremos como pares de chaves criptog
 
 Este treinamento permitirá que você use seu software de carteira com confiança, ao mesmo tempo em que aprimora suas habilidades para identificar e mitigar riscos. Prepare-se para se tornar um verdadeiro especialista em carteiras Bitcoin!
 
+Esta tabela oferece-lhe uma tradução dos principais termos em inglês utilizados, a fim de facilitar a compreensão dos esquemas e documentos técnicos usados no âmbito do curso CYP 201.
+
 # Funções de Hash
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

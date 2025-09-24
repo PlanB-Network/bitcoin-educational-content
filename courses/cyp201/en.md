@@ -55,6 +55,8 @@ Finally, from the master key, we will discover how cryptographic key pairs are d
 
 This training will enable you to use your wallet software with confidence, while enhancing your skills to identify and mitigate risks. Prepare to become a true expert in Bitcoin wallets!
 
+This table provides you with a translation of the main English terms used, to help you better understand the diagrams and technical documents used in the CYP 201 course.
+
 # Hash Functions
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

@@ -80,6 +80,8 @@ Slutligen kommer vi från huvudnyckeln att upptäcka hur kryptografiska nyckelpa
 Denna utbildning gör det möjligt för dig att använda din Wallet-programvara med förtroende, samtidigt som du förbättrar dina färdigheter för att identifiera och mildra risker. Förbered dig på att bli en sann expert på Bitcoin-plånböcker!
 
 
+Denna tabell erbjuder dig en översättning av de viktigaste engelska termerna som används, för att underlätta din förståelse av de scheman och tekniska dokument som används inom ramen för kursen CYP 201.
+
 # Hash Funktioner
 
 

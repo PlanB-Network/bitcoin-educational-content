@@ -51,6 +51,8 @@ Nakonec, z hlavního klíče, objevíme, jak jsou odvozeny kryptografické klí�
 
 Toto školení vám umožní používat vaše peněženkové software s důvěrou, zatímco si rozšíříte dovednosti v identifikaci a minimalizaci rizik. Připravte se stát se pravým expertem na Bitcoinové peněženky!
 
+Tato tabulka vám nabízí překlad hlavních anglických termínů, které se používají, aby vám usnadnila porozumění schématům a technickým dokumentům používaným v rámci kurzu CYP 201.
+
 # Hašovací Funkce
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

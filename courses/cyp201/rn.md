@@ -80,6 +80,8 @@ Ubwa nyuma, kuva ku rufunguzo rwa mbere, tuzobona ingene urufunguzo rw’ibanga 
 Iryo shure rizotuma ushobora gukoresha porogarama yawe ya Wallet wizigiye, mu gihe uzokwongerera ubuhinga bwo kumenya no kugabanya ingorane. Nimwitegure kuba umuhinga nyakuri mu vy’amasakoshi ya Bitcoin!
 
 
+Iyi mbonerahamwe iguha ubusobanuro bw’amagambo y’icongereza akunda gukoreshwa, kugira ngo bigufashe gusobanukirwa neza amashusho n’inyandiko z’ubuhanga zikoreshwa mu masomo ya CYP 201.
+
 # Imikorere ya Hash
 
 

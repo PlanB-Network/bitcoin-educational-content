@@ -80,6 +80,8 @@ Wreszcie, na podstawie klucza głównego odkryjemy, w jaki sposób pary kluczy k
 Szkolenie to pozwoli ci pewnie korzystać z oprogramowania Wallet, jednocześnie zwiększając swoje umiejętności w zakresie identyfikacji i ograniczania ryzyka. Przygotuj się, aby stać się prawdziwym ekspertem w dziedzinie portfeli Bitcoin!
 
 
+Ta tabela oferuje tłumaczenie głównych używanych terminów angielskich, aby ułatwić zrozumienie schematów i dokumentów technicznych stosowanych w ramach kursu CYP 201.
+
 # Funkcje Hash
 
 

@@ -52,6 +52,8 @@ Lõpuks, alates peamisest võtmest, avastame, kuidas krüptograafilised võtmepa
 
 See koolitus võimaldab teil oma rahakoti tarkvara usaldusväärselt kasutada, samal ajal parandades teie oskusi riskide tuvastamiseks ja leevendamiseks. Valmistuge saama tõeliseks eksperdiks Bitcoin'i rahakottides!
 
+See tabel pakub teile tõlke peamistest ingliskeelsetest terminitest, mida kasutatakse, et hõlbustada skeemide ja tehniliste dokumentide mõistmist, mida kasutatakse CYP 201 kursuse raames.
+
 # Hash-funktsioonid
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

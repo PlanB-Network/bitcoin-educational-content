@@ -52,6 +52,8 @@ Lopuksi, pääavaimesta, tutustumme siihen, kuinka kryptografiset avainparit joh
 
 Tämä koulutus mahdollistaa sinulle lompakko-ohjelmiston käytön luottavaisin mielin, samalla parantaen taitojasi tunnistaa ja lieventää riskejä. Valmistaudu tulemaan todelliseksi asiantuntijaksi Bitcoin-lompakoissa!
 
+Tämä taulukko tarjoaa sinulle käännöksen käytetyistä keskeisistä englanninkielisistä termeistä, jotta ymmärtäisit paremmin CYP 201 -kurssilla käytetyt kaaviot ja tekniset asiakirjat.
+
 # Häsäfunktiot
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

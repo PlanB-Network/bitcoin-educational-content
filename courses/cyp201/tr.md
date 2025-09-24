@@ -80,6 +80,8 @@ Son olarak, ana anahtardan, kriptografik anahtar çiftlerinin alıcı adreslere 
 Bu eğitim, riskleri belirleme ve azaltma becerilerinizi geliştirirken Wallet yazılımınızı güvenle kullanmanızı sağlayacaktır. Bitcoin cüzdanlarında gerçek bir uzman olmaya hazırlanın!
 
 
+Bu tablo, CYP 201 dersi kapsamında kullanılan şemaları ve teknik belgeleri daha kolay anlamanızı sağlamak için kullanılan temel İngilizce terimlerin çevirisini sunar.
+
 # Hash Fonksiyonları
 
 

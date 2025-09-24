@@ -53,6 +53,8 @@ Cuối cùng, từ khóa chủ, chúng ta sẽ khám phá cách các cặp khóa
 
 Khóa học này sẽ giúp bạn sử dụng phần mềm ví của mình một cách tự tin, đồng thời nâng cao kỹ năng của bạn trong việc nhận diện và giảm thiểu rủi ro. Chuẩn bị trở thành một chuyên gia thực thụ về ví Bitcoin!
 
+Bảng này cung cấp cho bạn bản dịch các thuật ngữ tiếng Anh chính được sử dụng, nhằm giúp bạn dễ dàng hiểu các sơ đồ và tài liệu kỹ thuật được sử dụng trong khuôn khổ khóa học CYP 201.
+
 # Hàm Băm
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

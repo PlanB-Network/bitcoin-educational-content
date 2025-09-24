@@ -52,6 +52,8 @@ Til slutt, fra hovednøkkelen, vil vi oppdage hvordan kryptografiske nøkkelpar 
 
 Denne opplæringen vil gjøre deg i stand til å bruke lommebokprogramvaren din med tillit, samtidig som du forbedrer dine ferdigheter til å identifisere og redusere risikoer. Forbered deg på å bli en ekte ekspert på Bitcoin-lommebøker!
 
+Denne tabellen gir deg en oversettelse av de viktigste engelske termene som brukes, for å gjøre det lettere for deg å forstå skjemaene og de tekniske dokumentene som brukes i kurset CYP 201.
+
 # Hashfunksjoner
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

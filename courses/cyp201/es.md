@@ -52,6 +52,8 @@ Finalmente, a partir de la llave maestra, descubriremos cómo se derivan los par
 
 Esta formación te permitirá usar tu software de billetera con confianza, al mismo tiempo que mejora tus habilidades para identificar y mitigar riesgos. ¡Prepárate para convertirte en un verdadero experto en billeteras de Bitcoin!
 
+Esta tabla le ofrece una traducción de los principales términos en inglés utilizados, con el fin de facilitarle la comprensión de los esquemas y documentos técnicos empleados en el marco del curso CYP 201.
+
 # Funciones Hash
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

@@ -54,6 +54,8 @@ Infine, partendo dalla master key, scopriremo come vengono derivate le coppie di
 
 CYP201 ti permetterà di utilizzare il tuo software wallet con fiducia, migliorando al contempo le tue capacità di riconoscere e mitigare i rischi. Preparati a diventare un vero esperto di wallet Bitcoin!
 
+Questa tabella vi offre una traduzione dei principali termini inglesi utilizzati, al fine di agevolare la comprensione degli schemi e dei documenti tecnici impiegati nell'ambito del corso CYP 201.
+
 # Funzioni Hash
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

@@ -80,6 +80,8 @@ Tenslotte zullen we vanuit de hoofdsleutel ontdekken hoe cryptografische sleutel
 Deze training stelt je in staat om de Wallet software met vertrouwen te gebruiken, terwijl je vaardigheden om risico's te identificeren en te beperken worden verbeterd. Bereid u voor om een echte expert in Bitcoin wallets te worden!
 
 
+Deze tabel biedt u een vertaling van de belangrijkste gebruikte Engelse termen, om u te helpen de schema’s en technische documenten die in de cursus CYP 201 worden gebruikt beter te begrijpen.
+
 # Hash Functies
 
 

@@ -52,6 +52,8 @@ Schließlich werden wir vom Master-Schlüssel aus entdecken, wie kryptografische
 
 Dieses Training wird es Ihnen ermöglichen, Ihre Wallet-Software mit Vertrauen zu nutzen, während Sie Ihre Fähigkeiten verbessern, Risiken zu identifizieren und zu mindern. Bereiten Sie sich darauf vor, ein wahrer Experte für Bitcoin-Wallets zu werden!
 
+Diese Tabelle bietet Ihnen eine Übersetzung der wichtigsten verwendeten englischen Begriffe, um Ihnen das Verständnis der im Rahmen des Kurses CYP 201 verwendeten Schemata und technischen Dokumente zu erleichtern.
+
 # Hash-Funktionen
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

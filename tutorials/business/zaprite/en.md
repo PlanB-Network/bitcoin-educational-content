@@ -24,7 +24,7 @@ Okay, here we have the ZapRite homepage.
 
 Dashboard
 
-This is a neat little dashboard that'll give you a great overview of everything that you have available. 
+![This is a neat little dashboard that'll give you a great overview of everything that you have available.](assets/en/08.webp)
 
 Navigation Toolbar
 On the left side, we have a useful toolbar, separated into two sections. Just to overview. 
@@ -45,24 +45,15 @@ Beneath that, on this dashboard, we do have an income summary. This will show yo
 As well as the current, the accounted value in your currency of choice.
 Your Bitcoin payments will be listed, by whether they come in as Bitcoin on-chain payments or Lightning payments, as well as if you are receiving any fiat payments that will be received in your, currency of choice, and locate it there. You do also have a filter, for a certain date range, if you want to look that up. So you can go backdate that and show that for a certain period as well.
 
-Orders
-
-And then further beneath that, we have a order section. This will list all your invoices or orders that have been processed; as well as your transactions next to that.So any previous transactions will be listed with: the relative timeframe, the title of that payment was, as well as the currency breakdown to the right.
 
 ## Business Details
-
-### Orders
-
-![Before an Orders or Invoices have been created](assets/en/06.webp)
-
-![After Creating an Order or Invoice](assets/en/07.webp)
 
 ### Payment Links
 
 Going further down, we have our payment links. You can create a payment link there. That's just something simple you can shoot out to someone.
 Each payment link is composed of a title, a image, your brand logo, and your brand color. 
 
-![](assets/en/.webp)
+![](assets/en/09.webp)
 
 You can give a description, for example, let's just say "dijital Technologies payment"
 I'll just say Pay to dijital Technologies.
@@ -106,6 +97,9 @@ And that is the payment link. If we go back… To our homepage…
 Let's go down to the payment links page. You can see our link that we created is here as well. The income summary is also available at the top of this page.
 
 ### POS
+
+![Point Of Sale](assets/en/10.webp)
+
 Going down to the POS, point of sale system, our income summary does continue over. If you do notice from the dashboard, we had the total for all payments. For the payment links, that number gets updated for how many payments have come through this payment method.
 Going down to point of sale, same thing there. You can create a new point of sale system here.
 And so there, there we can see we have our title, so I'll say Demo Point of Sale.
@@ -146,14 +140,18 @@ And then it generates a lightning QR code, so I can then scan and make that paym
 And that is the point-of-sale system. 
 
 ### Event Tickets
+
+![](assets/en/11.webp)
 Going down the line of merchant tools, we can also create event tickets. So you can enable event tickets as a new feature of ZapRite. These are subject to transaction fees, as outlined in the pricing page of our website and our knowledge article, so you can read further there.the pricing page of our website and our knowledge article. By clicking it below, you have, have read and agreed to our standard pricing and billing policies.
 So, if we just double-check on the pricing… Let's see… So once we have, Whenever you enable your account, They do take a 1% processing for event tickets, plus $3 per ticket, so just keep that in mind as you make tickets.
 But, for invoices, payment requests, payment links, there are no fees for that, no fees for the point of sale. But for event tickets, the APAI usage and WooCommerce plugin, there is a 1% fee.
 And the 1% fees apply to any on-chain Liquid, Lightning, or Tether payments, likely just to cover their infrastructure, since Lightning servers and, I believe Liquid nodes would have a fee.
 There is a fee cap of $15 per transaction, just FYI.
 There's no additional charge on top of, existing fiat processing.
-[]()
-[]()
+
+[Zaprite Support: Event Tickets](https://help.zaprite.com/en/articles/11565182-how-to-create-event-tickets-in-zaprite#h_6070a198be)
+[Zaprite Pricing](https://help.zaprite.com/en/articles/12125797-zaprite-pricing)
+
 ZapRite Processing, this gives us a quicker breakdown.
 So the account fee is just $25 a month per regular, or $250 annually.
 $240 annually.
@@ -165,9 +163,370 @@ So I have created 6 so far, for my software development business, or for my IT c
 
 ### Contacts
 
+![](assets/en/12.webp)
+
+From there, let's see what the new invoice creation process looks like. You can create or select a customer.
+So if you create a contact, let's just say, john Doe, Inc.
+Display name, John Doe, contact name, John Doe… Email…
+Doe at yahoo.com. Thank you, autofill.
+Tax ID, if you have that information. Then a billing address, if you have that as well.
+For country, we're just gonna say U.S.
+And John Doe has been created.
+He would be getting invoice number 7, this just auto-increments up, and the date can be now or at some point in the future.
+And you can set this to be due in 30 days, due on receipt in 10 days, however your business goes. I usually send out due on receipt.
+A PO number, that would be a purchase order number that you can, send as well, and then a title for the invoice.
+ Could you say… consulting?
+And then we can add a line item.
+So let's say, new business IT setup. So, you know, get their computers online, set up any…
+Any security, any, monitoring that they might need. Let's just say a flat price, $70 an hour, 2-hour setup, no discount, no additional tax on that. And then just to reiterate the description.
+
+New computer setup, security… Program, security program install… Networking, monitoring… Remote access…
+Just leave that one line item, keep our default checkout options,
+Just as a reminder, that gives us Lightning Payment, Bitcoin payment, card payment, Cash App payment, bank, and ACH transfers.
+Thanks for trusting us with your business, or thank you for being a loyal customer.
+Then you can choose to save or send this off to your customer, and then the email will be delivered to them, automatically. If you do choose to cancel, there is a, just an alert box to make sure that you're ready to do that.
+
+
+### Invoices
+
+![](assets/en/13.webp)
+
+And that will take you back out to your invoice dashboard. In addition to that, we have recurring invoices.
+So my previous invoices have been coming from this invoice series, so this is a powerful tool to automate that process. So in case, you know, you're not doing, like, a one-off event, have a recurring work that you might be doing for a customer.
+You have that same process here that you can do. You give your, label your service, Let's just say… Monthly maintenance… Start date is now, send frequency, let's just say monthly, occurrence is unlimited.
+You can go back to your contacts, we'll use John Doe once again.
+The number will automatically generate. It'll generate on a specific day, every 30 days.Doe, maintenance, invoice.
+Our currency is U.S. dollars in the America… United States of America.
+Then for our line items, Let's just say server… Log, audit…
+Hourly rate, 1 hour, no discount, no additional tax.
+Review… output of… program activity…
+Again, keep it the same payment options.
+Thank you for your business.
+Little smiley face.
+Depending on, you know, what's your corporate culture? Do you send emojis?
+You can add a demo, and then our recipients here is copied up from our customer at the top, where we selected John Doe.
+And then another optional message, you can then choose to copy yourself on this or not, and you can include a PDF attachment, as well as the actual URL that will generate with this view.
+This would create a new invoice that goes off to the customer. Pretty same view from last time, we just have a space here for whatever the actual invoice number will be.
+And so this would start on October 3rd, and so if we start that schedule now, that would save and populate back in my dashboard here alongside my current invoice.
+And that is Recurring invoices, a simple, powerful tool to automate parts of your business.
+
+### Payment Requests
+
+![](assets/en/14.webp)
+
+The next thing here, we have a payment request. So this is, sort of like the opposite of a payment link, whereas with a payment link, you'll send that out.
+For anything that might be, you know, purchased, a payment request is usually gonna be something that, you know, you've done the work, and then you're sending out a payment request. A little bit different from an invoice, not as structured.
+So let's say, you did a tire service.
+Let's just say, fix a flat.
+Go that to John Doe. He's been a needy guy, need to fix his computers, fix his car.
+Get the amount, fix this car…
+And then that would go off to, John Doe's email.
+So if we do a preview, it basically, you know, gives the same checkout. You get a summary of what the charge is for, as well as the options to pay that. So this is just a, you know, similar to the, invoice, just not as formal, and…
+a little bit more than just a payment link, to where a payment link will be like a standard for any particular product, that you might create. Each payment request, you know, is just a quick one-off thing.
+
+### Orders
+
+![Before an Orders or Invoices have been created](assets/en/06.webp)
+
+![After Creating an Order or Invoice](assets/en/07.webp)
+
+Orders
+
+And then further beneath that, we have a order section. This will list all your invoices or orders that have been processed; as well as your transactions next to that.So any previous transactions will be listed with: the relative timeframe, the title of that payment was, as well as the currency breakdown to the right.
+
+And going back up the business totem pole, let's go to the orders.
+
+So anytime you make an order via a payment link, your point of sale system, you sold a ticket, or made a payment request, all those orders show up here, and they will include the date and time, as well as the customer's email, the title of the payment, and the type of payment that it was, as well as the amount for that payment and the status of that payment.
 
 
 ### Connections
+
+![Connections](assets/en/03.webp)
+
+Then down here at the checkout, this is where we can configure, like, what our default is. So we've been looking at that, this is plugged into all these other, merchant tools, but there's a dedicated page as well where you can configure, each of those things. So by default, I have all these enabled to show up.
+
+I could add Apple Pay if I want. I don't prefer to use that.
+
+Google Pay as well. Same for cash or ZBD, but as we saw earlier, you can only have one Lightning service enabled at a time, so if I take off Strike Lightning, I can then add ZBD Lightning.
+
+So I would then be getting, a different Lightning payment to my other Lightning address.
+
+So let's just reverse that.
+
+As you do notice, as these things change, it does automatically save it. And the last thing we can look at, we have seen the premiums and discounts, the connections. How do you configure all of these pages? So that takes us down to this business section here.
+
+So we're gonna skip down, look at what our connections look like.
+
+So your connections will show all the options supported by ZapRite. So these are always changing, always updating to the latest and greatest.
+
+So let's just start at the top, starting with Bitcoin. This is a simple way to send on-chain payments. So all you need is to get your XPUB, your extended public key. So whenever you create a wallet, and you, you know.
+
+whenever you're creating a wallet, you're gonna be… you're gonna create an XPUB as well. The… this is just a extended public key that you can share out, that can be used to send money to your,
+
+your actual wallet that you just created. So, in this case, if you are using some sort of provider, let's say Blockstream Green, Bitcoin Core, Blockstream Jade, Blockstream provides a couple of different hardware and wallet solutions.
+
+So Drade is their hardware wallet, green is, I wanna say, their software product?
+
+Let's take a quick tangent. Block, stream, green.
+
+So, it takes us to Blockstream app.
+
+So they've changed that name.
+
+That's the great thing about, business, anywhere and everywhere.
+
+your partners, your products, they might change their name on you. So Blockstream app, if you use their app, they will, they've changed their app from green to app.
+
+So that's all the differences there.
+
+If we go back, we can see,
+
+Blue Wallet is another great one. Cold Card, a hardware wallet solution. Core Lightning Wallet, so a wallet, if you are using the Core Lightning,
+
+the default version of Lightning, Core, so similar to Bitcoin Core is like a reference implementation, that has descended from the initial release of Bitcoin from Satoshi Nakamoto.
+
+Core Lightning is also coming from the Lightning developer team. Ledger is another wallet product. Sparrow, Wallet Inspector Desktop, Trezor, Wasabi, other,
+
+Other, if you just have, you know, a generic app solution, or something you might have used. I'll use Blue Wallets, give a label.
+
+say, mobile wallet, and then your XPUB, you can copy and paste that in.
+
+And then you can choose what address type you have, whether it's native SegWit, Taproot, or Nested SegWit. These are 3 different types of wallets. Each of them has, slightly different features.
+
+And security levels, but usually, whatever your wallet solution, it should tell you, you know, whichever…
+
+Type of address it is that you have that you're gonna be sharing.
+
+For the purposes of continuing the demo, just say we can put in a XPUB there.
+
+This here will just confirm, make sure that you, Put in what you've entered.
+
+Just for a quick and simple purpose, let me open my blue wallet on my phone.
+
+It's loading… Scroll down to my wallet… And go to my options… And show my X pub.
+
+So your XPUB's gonna be a long bit of characters, gonna be a little bit easier.
+
+Mmm… Poop.
+
+Just gonna type…
+
+So, that is all the characters. Hopefully you pasted yours in so you don't get a…
+
+potential vulnerability, even though it's a public key, so it doesn't quite matter. So you just paste in your XPUB, and then to confirm, it'll show the first six.
+
+Not the first 6. It's, confirming the address, Snap.
+
+Wow, so let's, redo this real quick.
+
+Let's pause our recording, and we'll resume.
+
+Alright, so when you put in your, public key, it's gonna confirm an address for you, so you should be able to go to…
+
+Yeah, you should be able to go into your wallet, check your addresses.
+
+And if I… let's see, so we got BC1QXQ.
+
+And that is what my first address is. And if you type in your last 6… Hmm…
+
+1, 2, 3, 4, 5, 6…
+
+So that should just confirm that you are… you've entered your right public key, you're able to
+
+And the system is able to properly derive the addresses connected to your wallet. All of this is still fine and secure. All of this is technically public information, so you share your public key, and anyone can figure out what addresses are gonna be tied to that key. That's still all public, not private information.
+
+So, there's a note here, they do recommend creating a specific wallet for this, which is a great recommendation. Reuse of public keys, like I said, since you can derive addresses from that. Any reuse of keys and wallet addresses, it just adds to a vulnerability, something that people can track you down with.
+
+And then they do recommend Wasabi Wallets, that is one of the open source wallets, that would be, great to use, but a lot of these are open source as well. I'm pretty sure they all are.
+
+But I can't double-check on that.
+
+So let's just say blue wallet, since that's what I am using. I'm gonna say mobile wallet.
+
+And then hit OK.
+
+And now my wallet is created. I do have all of these addresses, derived and ready to be used. So now, if we configure checkout.
+
+I'll… I have my Stripe, big… Strike Bitcoin configuration, but I can also just say… At this,
+
+So, since we don't want to come…
+
+confuse our users with multiple options. We also need to make sure that we…
+
+use one Bitcoin option. Meanwhile, all the fiat, you know, proliferates, but…
+
+That is how life is sometimes.
+
+And so, if they, this is a preview, so they get the Bitcoin option down there. Choosing that would give them a QR code that they can send Bitcoin on-chain to.
+
+I'm just gonna take it back…
+
+And that is how you work with the connections for the Bitcoin option.
+
+This is a quick and simple way to do that.
+
+Hmm… If we go on to our next option, LND, this is using your own Lightning Node daemon.
+
+I'm personally not running a Lightning Node implementation, but you can give a label to your Lightning Node,
+
+Just gonna say my LND for giggles. Usually that should be hosted in online. This would be your endpoint, that would be, you know, secure by default, so people can't directly, you know, spam your Lightning, node.
+
+Your invoice macaroon, this must be the hexadecimal format. This will also be something private, so you can paste that in there.
+
+do not enter your admin macaroon, so make sure you're putting in your right invoice macaroon, not the admin macaroon. And then you can create a test voice invoice based on that. So it'll use this endpoint and macaroon to, query your Lightning node.
+
+And create a test invoice. If you properly set that up, it will validate your input and create that invoice. Once you are done with that, just hit OK.
+
+Then for Liquid Network…
+
+So, Liquid Network is another Blockstream product. There is no configuration required. Liquid payments are currently supported by manually adding a receiving address to individual invoices. We'll be adding XPUB information shortly to automate this process.
+
+So whenever you make an invoice and you want to, you know, paste in a receiving address that can be done… that they can be processed over Lightning Network.
+
+So once you just hit OK, let's go to Configure Checkout. If we scroll down… Do-do-do-do…
+
+So, it doesn't add a new feature here, so similar to the other ones.
+
+So it'd really just be a…
+
+Including an address in your invoices, like they mentioned. For Strike, it's a great platform, to use if you are in the States. You would just use… you would sign in via your Strike account, and that would give you access to,
+
+use that… use this provider. Do note on-chain payments are disabled for amounts below 10,000 SATs. So as long as you're sending more than roughly 10 US dollars worth of a payment, you can use Bitcoin, via Strike.
+
+Or you can just default to using Bitcoin, to a wallet directly.
+
+You have options. And then Unchained, another great option here.
+
+Here you can connect your unchained vault.
+
+So you can send in…
+
+your JSON file for your wallet configuration, you can label that wallet.
+
+You can also, just like we did with the XPUB for our default wallet, just confirm the same for your unchained vault.
+
+Hmm.
+
+Give them access and say OK, and they would add that to your account.
+
+Btc Pay. So if you configured BTC Pay Server, whether you host it yourself, use some third-party provider like Voltage.cloud, here you can just put a label, then only to your store.
+
+And that will pop this up as one of your payment options whenever you enable that as well. So, just like we've seen our previews, they would click, BTC Pay, that would open up a new tab, and they would go through your checkout process there.
+
+Open node.
+
+I'm not as familiar with this platform, but you provide an API key from there, and agree, and then you can enable this, service as well.
+
+Square, another product from Jack Dorsey.
+
+This is where you can log in via Square and allow all those payment methods there. Most of those are fiat.
+
+These are all Fiat, actually.
+
+You can then require to KOIC your customers or not.
+
+As much as you need or want.
+
+Stripe, another great fiat option. You would just agree to the terms, and then you would log in and authenticate your Stripe account with, your ZapRite account.
+
+Another big hitter in the fiat space, PayPal, a similar process. You agree to the terms, and then, clicking connect would, do a single sign-on authentication to integrate both platforms.
+
+Authorize.net. If you are a developer, you might be familiar with this, as the… they provide API keys for Visa transactions.
+
+You can label that, provide your API key, your login ID, and a transaction key, and that will connect these accounts and allow, ZapRite to trigger a API call to Authorize.net and trigger a visa payment that way.
+
+MerchantsX is not a platform I'm directly familiar with, but you can add your public and private keys below. Confirm your acknowledgement, then click Connect to finalize the connection. So you can then, once again, label that, give a security key.
+
+And then a public security key, so this will validate your… the connection between those two services.
+
+Castle, this is a new one that I'm not familiar with.
+
+convert a percentage of your fiat transactions to Bitcoin, so this is a service, provided by, you know.
+
+On a lot of other platforms,
+
+Strike is one of them. But Castle would be a great integration as well, so you can take fiat and convert that into, Bitcoin.
+
+So if you're interested, check that out.
+
+Let's see…
+
+And so, from there, Castle actually has the integration, so as long as you have an account, once you go into Castle, you'll be able to configure those services, which will link back to ZapRite.
+
+So once you sign up, create your account, you'll be able to, configure the option here.
+
+WooCommerce, this is a store platform. You would link to your store, provide the name for your store, and then you can preview, what that would look like once it's added to your checkout options.
+
+Albie, a great, Lightning provider. So you just put in your Lightning name, so if I had an account, I'd probably have that name on it.
+
+And then just OK, have your Lightning address.
+
+Breeze, another great developer friend here. They also provide Lightning addresses, so whatever your Lightning address is, just plug that in, and that will be added to your checkout options.
+
+Blink.
+
+Blink also is a Lightning address provider, Lightning Wallet, so if you use their app and have their address… have an address with them, you can plug that in, username at blink.sv.
+
+speed…
+
+Speed is another wallet with Lightning Service Provider, with atSpeed.app. If you have that and agree, you can add that to your checkout.
+
+Coin OS.
+
+It's another Lightning provider, coinos.io, for their address endpoints. Add your username, agree to the terms, and add that, directly to your checkout.
+
+Once again, do note all these processes; it's just automated connections provided to you, for no cost.
+
+We're getting rid of the middleman; we're sapphire, we're not standing in the way to be that middleman. We're just making it easy for you to connect your customers to you.
+
+So here with Coin Corner, their connection methods is via API key, a secret, and your user ID, and that will connect and enable ZapRite to send charges off to the Coin Corner service for your payments.
+
+Next, we have IBEX Pay. You can sign up or go as an existing user. Since I am a new user, there's a quick form here, so ZapRite will create this for you, on the fly.
+
+So you just put in your name, your business name, your organization, your country.
+
+There is no United States option.
+
+So this is a non-American option, so if you are anywhere else, you can create an IBEX account and use that for your payments.
+
+You will get an email to confirm that you created and registered.
+
+And then your currency of choice, while you can't be from the US of A, you can use USD.
+
+One of the many benefits of being a global, centralized power.
+
+Next up, we have Zebedee that I've already configured, for myself. This does use an authentication method where you sign in with your ZBD account, and then it will connect to your account, your ZapRite account.
+
+Ln bits, another option, you can connect to your Lightning server hosted here. You will provide your URL, you can use HTTP, or HTTPS, so for a Tor or ClearNet option.
+
+Your invoice read API, so your API key.
+
+And make sure, again, don't use your admin key, use your invoice key to properly authenticate your connections here. And then you hit OK, or you can create your test first. It'll verify the information you create, create you a test invoice preview, and then you can add that to your checkout lineup.
+
+Alright, after LN Bits, that is the last of our Bitcoin and Lightning options.
+
+For ACH network, you would put in the name of a bank account, the type, whether checking or savings, the account number, and routing number. And then you can receive ACH payments via this method.
+
+Sepa seems to be a Euro account system, so you can put your name on the account, your IBAN number, your SWIFT number, and then your country.
+
+So all these European options are here.
+
+If I go back, we have e-transfer.
+
+Where you put in your Interac email address, you can auto-deposit or have a security question and answer to validate your Interac e-transfer.
+
+We have bank and wire transfers. Here, you can just enter your bank information, similar to a previous option we looked at, and that will be added to your checkout lineup.
+
+And lastly, you can always accept good old cash.
+
+So it'll just be an in-person method that you can always choose to record your transactions with.
+
+And then, if we note, we have a direct Cash App integration coming soon, Swan also coming soon, Voltage.cloud coming soon, they do have some great products as well coming out, and Intuit QuickBooks also coming soon, and Xero.
+
+So, whether you have all these solutions already, you can see that ZapRite is a great solution to automate and integrate all of these options for your storefronts.
+
+Even if you use a good Bitcoin payment provider, like BTC Pay Server, that gives you your own Bitcoin options. But if you want to quickly enable all your payment options so you can get your fiat friends and customers to easily pay with no friction, or whether you want everyone else in the world to be able to pay you via Bitcoin or Lightning, you can do that all here with ZapRite.
+
 
 ![Preview the Connections page where you can connect Zaprite to a plethora of payment types and payment methods](assets/en/03.webp)
 
@@ -280,6 +639,30 @@ As admin, you'll be able to manage team access. You can invite additional team m
 
 Request access to the API for custom integrations.
 
+### Miscellaneous (Receipts, Transactions, etc.)
+
+And then for each of these payment options, you can download your receipt, you can resend the receipt to your customer yourself, or you can view the invoice in the actual application.
+
+This is a great backup tool for accounting purposes.
+
+You also can download a CSV containing all this information all in one. Great for opening up in Excel or Google Sheets.
+
+Or your text editor of choice.
+
+Similar to orders, you have your actual transactions. The difference here is that for each transaction, you get more detailed information: the method they paid with, invoice number, order ID.
+
+It's more of a high-level view.
+
+Come down to contacts, you can see any of your customers here, the payment rate that they're on, monthly, the USD, or the currency that they get charged with, then their name and email for their primary contact.
+
+Then we have our settings page, that we've been through already.
+
+And that is ZapRite.
+
+Thank you for coming to my demo, and I'll be chopping this up and editing it shortly.
+
+Hope it's good.
+
 ## Merchant Options
 
 ### Checkout
@@ -318,6 +701,8 @@ Request access to the API for custom integrations.
 Robust platform for all businesses. Makes moving to a Bitcoin standard even simpler
 
 ## Customer Experience
+
+
 
 
 If you want to mention a Plan ₿ Network tutorial, put the link in this way (remember the empty line, as if it were a paragraph):

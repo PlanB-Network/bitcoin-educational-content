@@ -51,11 +51,11 @@ Tällä kurssilla keskitymme bootcampin toiseen viikkoon, joka keskittyy RGB:hen
 
 **Viikko 1 - LNP402:**
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 **Viikko 2 - Nykyinen koulutus CSV402:**
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 Suuret kiitokset näiden live-kurssien järjestäjille ja osallistuneille kolmelle opettajalle:
 
@@ -107,7 +107,7 @@ Lohkoketjujen ja hajautetun tietojenkäsittelyn maailmassa voidaan erottaa kaksi
 
 Bitcoinin yhteydessä olet epäilemättä perehtynyt louhinnan, hajauttamisen ja lohkoketjun transaktioiden lopullisuuden periaatteisiin sekä siihen, miten maksukanavat toimivat. RGB:n myötä otamme käyttöön uuden paradigman nimeltä **Client-side Validation**, joka lohkoketjusta tai Lightningista poiketen koostuu älykkään sopimuksen tilasiirtymien paikallisesta (asiakaspuolen) tallentamisesta ja validoinnista. Tämä eroaa myös muista "DeFi"-tekniikoista (_rollups_, _plasma_, _ARK_ jne.) siinä, että Client-side Validation luottaa lohkoketjuun estääkseen kaksinkertaisen kuluttamisen ja saadakseen aikaleimausjärjestelmän, kun taas ketjun ulkopuolisten tilojen ja siirtymien rekisteri pysyy vain asianomaisilla osallistujilla.
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 Myöhemmin esittelemme myös tärkeän termin: käsitteen "**stash**", jolla tarkoitetaan asiakaspuolen tietojen joukkoa, jota tarvitaan sopimuksen tilan säilyttämiseen, koska näitä tietoja ei kopioida globaalisti koko verkkoon. Lopuksi tarkastelemme RGB-protokollan, joka hyödyntää asiakaspuolen validointia, perusteita ja sitä, miksi se täydentää nykyisiä lähestymistapoja (lohkoketju ja tilakanavat).
 
@@ -137,7 +137,7 @@ Valtion kanavat (kuten Lightning Network) ovat skaalautuvampia ja yksityisempiä
 
 Tämä uusi paradigma on vielä skaalautuvampi ja luottamuksellisempi, koska sen lisäksi, että voimme integroida nollapaljastustekniikoita, joilla todistetaan tietämys, ei ole myöskään globaalia transaktioiden graafia, koska kenelläkään ei ole koko rekisteriä hallussaan. Toisaalta se merkitsee myös tiettyä kompromissia hajauttamisen suhteen: älykkään sopimuksen myöntäjällä voi olla keskeinen rooli (kuten Ethereumin "sopimuksen käyttöönottajalla"). Lohkoketjusta poiketen Client-side Validation -menetelmässä kuitenkin tallennetaan ja validoidaan vain ne sopimukset, joista ollaan kiinnostuneita, mikä parantaa skaalautuvuutta välttämällä tarvetta ladata ja varmentaa kaikki olemassa olevat tilat.
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 #### 2. CAP-teoreema (Johdonmukaisuus, saatavuus, ositusten sietokyky)
 
@@ -158,13 +158,13 @@ Tilakanavien järjestelmä kestää saatavuutta ja jakautumista (koska kaksi sol
 
 RGB:n kaltainen järjestelmä tarjoaa johdonmukaisuuden (jokainen osallistuja validoi tietonsa paikallisesti, ilman epäselvyyksiä) ja ositusten sietokyvyn (säilytät tietosi itsenäisesti), mutta ei takaa maailmanlaajuista saatavuutta (jokaisen on varmistettava, että hänellä on asiaankuuluvat historiatiedot, ja jotkut osallistujat eivät ehkä julkaise mitään tai lopettavat tiettyjen tietojen jakamisen).
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 #### 3. CIA-trilemma (luottamuksellisuus, eheys, saatavuus)
 
 Tämä trilemma muistuttaa meitä siitä, että luottamuksellisuutta, eheyttä ja saatavuutta ei voida optimoida samanaikaisesti. Lohkoketju, Lightning ja asiakaspuolen validointi kuuluvat eri tavoin tähän tasapainoon. Ajatuksena on, että mikään yksittäinen järjestelmä ei voi tarjota kaikkea, vaan on tarpeen yhdistää useita lähestymistapoja (lohkoketjun aikaleimaus, Lightningin synkroninen lähestymistapa ja paikallinen validointi RGB:n avulla), jotta saadaan johdonmukainen paketti, joka tarjoaa hyvät takeet kussakin ulottuvuudessa.
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 ### Lohkoketjun rooli ja sharding-käsite
 
@@ -185,11 +185,11 @@ Voimme siis kuvitella ekosysteemin seuraavasti:
 - **Lightning Network** nopeisiin, luottamuksellisiin transaktioihin, jotka perustuvat edelleen Bitcoin-lohkoketjun turvallisuuteen ja lopulliseen selvitykseen;
 - **RGB ja Client-side Validation** monimutkaisen älysopimuslogiikan lisäämiseksi ilman, että lohkoketju sotkeutuu tai luottamuksellisuus heikkenee.
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 Nämä kolme elementtiä muodostavat kolmionmuotoisen kokonaisuuden, eivätkä lineaarista pinoa "kerros 2", "kerros 3" ja niin edelleen. Lightning voi olla suoraan yhteydessä Bitcoiniin tai se voi liittyä Bitcoin-tapahtumiin, jotka sisältävät RGB-tietoja. Vastaavasti "BiFi"-käyttö (rahoitus Bitcoinissa) voi yhdistyä lohkoketjuun, Lightningiin ja RGB:hen luottamuksellisuuden, skaalautuvuuden tai sopimuslogiikan tarpeiden mukaan.
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 ### Tilasiirtymien käsite
 
@@ -197,7 +197,7 @@ Missä tahansa hajautetussa järjestelmässä validointimekanismin tavoitteena o
 
 Jotta ymmärtäisimme, miten tämä validointi toimii **Bitcoinin** yhteydessä, ja yleisemmin, jotta ymmärtäisimme Client-side Validationin taustalla olevan filosofian, tarkastellaan ensin Bitcoin-lohkoketjun mekanismeja, ennen kuin nähdään, miten Client-side Validation eroaa niistä ja mitä optimointeja se mahdollistaa.
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 Bitcoin-lohkoketjussa tapahtumien validointi perustuu yksinkertaiseen sääntöön:
 
@@ -206,7 +206,7 @@ Bitcoin-lohkoketjussa tapahtumien validointi perustuu yksinkertaiseen sääntö�
 - Ne validoivat nämä tapahtumat UTXO-joukon (kaikki käyttämättömät lähdöt) oikean kehityksen varmistamiseksi;
 - Ne tallentavat nämä tiedot (lohkoina), jotta historia voidaan tarvittaessa toistaa.
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 Tässä mallissa on kuitenkin kaksi merkittävää haittaa:
 
@@ -214,7 +214,7 @@ Tässä mallissa on kuitenkin kaksi merkittävää haittaa:
 - **Skaalautuvuus**: Koska jokaisen solmun on käsiteltävä, varmennettava ja arkistoitava kaikkien transaktiot, transaktiokapasiteetille on ilmeinen raja, joka liittyy erityisesti lohkojen enimmäiskokoon (keskimäärin 1 MB 10 minuutin aikana Bitcoinissa, evästeitä lukuun ottamatta);
 - **Yksityisyys**: Kaikki lähetetään ja tallennetaan julkisesti (määrät, kohdeosoitteet jne.), mikä rajoittaa vaihtojen luottamuksellisuutta.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 Käytännössä tämä malli toimii Bitcoinin peruskerroksena (kerros 1), mutta se voi osoittautua riittämättömäksi monimutkaisemmissa käyttötarkoituksissa, joissa tarvitaan samanaikaisesti suurta transaktioiden läpimenoa ja tiettyä luottamuksellisuutta.
 
@@ -224,7 +224,7 @@ Asiakaspuolen validointi perustuu päinvastaiseen ajatukseen: sen sijaan, että 
 - Kun henkilö saa omaisuuserän (tai minkä tahansa muun digitaalisen omaisuuden), hänen tarvitsee vain tietää ja todentaa toimintaketju (tilasiirtymät), joka johtaa kyseiseen omaisuuserään, ja todistaa sen laillisuus;
 - Tämä operaatioiden sarja ***Genesis***:sta (alkuperäisestä liikkeeseenlaskusta) viimeisimpään transaktioon muodostaa asyklisen suunnatun graafin (DAG) tai sirpaleen eli osan koko historiasta.
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 Samaan aikaan, jotta muu verkko (tai tarkemmin sanottuna taustalla oleva kerros, kuten Bitcoin) voi lukita lopullisen tilan näkemättä näiden tietojen yksityiskohtia, asiakaspuolen validointi perustuu käsitteeseen ***commitment***.
 
@@ -245,7 +245,7 @@ Konkreettisesti RGB-tilan siirtyminen toimii näin:
 - Tuotat kryptografisen sitoumuksen tähän siirtymään ja lisäät sen Bitcoin-tapahtumaan (näitä sitoumuksia kutsutaan RGB-protokollassa "*ankkureiksi*");
 - Vastapuoli (vastaanottaja) hakee tähän omaisuuserään liittyvän asiakaspuolen historian ja validoi loppupään johdonmukaisuuden älykkään sopimuksen synnystä siihen siirtymiseen, jonka lähetät siihen.
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 Asiakaspuolen validointi tarjoaa kaksi merkittävää etua:
 
@@ -263,13 +263,13 @@ RGB:n kaltaisessa järjestelmässä useat eri sopimusten (tai eri omaisuuserien)
 
 Käytännössä, kun tämä Bitcoin-transaktio validoidaan, se "lukitsee" pysyvästi taustalla olevien sopimusten tilan, koska lohkoketjuun jo merkittyä hashia on mahdotonta muuttaa.
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 ### Kätkön käsite
 
 **Kätkö** on joukko asiakaspuolen tietoja, jotka osallistujan on ehdottomasti säilytettävä RGB-älykkään sopimuksen eheyden ja historian säilyttämiseksi. Toisin kuin Lightning-kanavassa, jossa tietyt tilat voidaan rekonstruoida paikallisesti jaetuista tiedoista, RGB-sopimuksen kätköä ei kopioida muualle: jos kadotat sen, kukaan ei voi palauttaa sitä sinulle, sillä olet vastuussa omasta osuudestasi historiasta. Siksi RGB:ssä on otettava käyttöön järjestelmä, jossa on luotettavat varmuuskopiointimenettelyt.
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 ### Kertakäyttöinen tiiviste: alkuperä ja toiminta
 
@@ -287,11 +287,11 @@ Estääksemme RGB-merkkien kaksinkertaisen käytön käytämme mekanismia nimelt
 
 Kertakäyttöiset sinetit ovat Peter Toddin vuonna 2016 ehdottamia kryptografisia primitiivejä, jotka muistuttavat fyysisten sinettien käsitettä: kun sinetti on kerran asetettu säiliöön, sitä on mahdotonta avata tai muuttaa ilman sinetin peruuttamatonta rikkomista.
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 Tämä digitaaliseen maailmaan siirretty lähestymistapa mahdollistaa sen, että voidaan todistaa, että tapahtumasarja on todella toteutunut ja että sitä ei voida enää muuttaa jälkikäteen. Kertakäyttöiset sinetit menevät siis pidemmälle kuin pelkkä logiikka `hash + aikaleima`, ja niihin lisätään käsite sinetti, joka voidaan sulkea **vain kerran**.
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 Jotta kertakäyttösinetit toimisivat, tarvitaan julkaisutodiste, jolla voidaan todistaa julkaisun olemassaolo tai puuttuminen ja jota on vaikea (ellei mahdotonta) väärentää, kun tieto on jo levitetty. **Lohkoketju** (kuten Bitcoin) voi täyttää tämän tehtävän, samoin kuin esimerkiksi paperinen sanomalehti, jolla on julkinen levikki. Idea on seuraava:
 
@@ -328,7 +328,7 @@ Kertakäyttöiset tiivisteet toimivat kolmessa päävaiheessa:
 - Alice määrittelee etukäteen sinetin julkaisusäännöt (milloin, missä ja miten viesti julkaistaan);
 - Bob hyväksyy tai tunnustaa nämä ehdot.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 **Seal Closing :**
 
@@ -336,7 +336,7 @@ Kertakäyttöiset tiivisteet toimivat kolmessa päävaiheessa:
 - Suoritusaikana Alice sulkee sinetin julkaisemalla varsinaisen viestin (yleensä _commitment_-muodossa, esimerkiksi hash);
 - Se tarjoaa myös **todistajan** (kryptografinen todiste), joka osoittaa, että sinetti on suljettu ja peruuttamaton.
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 **Seal Verification :**
 
@@ -384,7 +384,7 @@ Tämä ainutkertaisuus on tärkeää asiakaspuolen validoinnin kannalta: kun val
 
 RGB-älykäs sopimus voi joutua käyttämään useita kertakäyttöisiä sinettejä (useita UTXO:ita) samanaikaisesti. Lisäksi yksi Bitcoin-tapahtuma voi viitata useisiin eri sopimuksiin, joista jokainen sinetöi oman tilasiirtymänsä. Tämä edellyttää **monisitoumusmekanismia**, jolla voidaan deterministisesti ja yksiselitteisesti todistaa, että mikään sitoumuksista ei ole päällekkäinen. Tässä kohtaa RGB:ssä tulee käyttöön käsite **ankkuri**: erityinen rakenne, joka yhdistää Bitcoin-tapahtuman ja yhden tai useamman asiakaspuolen sitoumuksen (tilasiirtymän), joista jokainen voi kuulua eri sopimukseen. Tarkastelemme tätä käsitettä tarkemmin seuraavassa luvussa.
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 Projektin kaksi tärkeintä GitHub-tietovarastoa (LNPBP-organisaation alla) kokoavat yhteen ensimmäisessä luvussa tutkittujen käsitteiden perustoteutukset:
 
@@ -392,11 +392,11 @@ Projektin kaksi tärkeintä GitHub-tietovarastoa (LNPBP-organisaation alla) koko
 - **client_side_validation** : Sisältää Rustin primitiivit paikallista validointia varten ;
 - **single_use_seals**: Toteuttaa logiikan, jolla nämä sinetit määritellään ja suljetaan turvallisesti.
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 Huomaa, että nämä ohjelmistokivet ovat Bitcoin-riippumattomia; teoriassa niitä voitaisiin soveltaa mihin tahansa muuhun julkaisutodisteen välineeseen (toinen rekisteri, lehti jne.). Käytännössä RGB luottaa Bitcoiniin sen kestävyyden ja laajan konsensuksen vuoksi.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 ### Yleisön esittämät kysymykset
 
@@ -481,11 +481,11 @@ Tämä järjestelmä on valittu sen yhteensopivuuden vuoksi RGB-arkkitehtuurin k
 
 Muistutuksena mainittakoon, että _kertakäyttöisen sinetin_ määrittely ei välttämättä edellytä ketjussa tapahtuvan transaktion julkaisemista. Riittää, että esimerkiksi Alicella on jo käyttämätön UTXO. Hän voi päättää: "Tämä (jo olemassa oleva) _outpoint_ on nyt minun sinettini". Hän toteaa tämän paikallisesti (_asiakkaan puolella_), ja kunnes tämä UTXO on käytetty, sinetti katsotaan avoimeksi.
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 Sinä päivänä, kun se haluaa sulkea sinetin (ilmoittaa tapahtumasta tai ankkuroida tietyn viestin), se käyttää tämän UTXO:n uuteen transaktioon (tätä transaktiota kutsutaan usein "_todistustransaktioksi_" (ei liity _segwitiin_, se on vain termi, jonka me annamme sille). Tämä uusi transaktio sisältää viestin _sitoumuksen_.
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 Huomaa, että tässä esimerkissä :
 
@@ -499,15 +499,15 @@ Liisalla on siis tietty UTXO, johon tietty tila tai tieto (joka on vain hänen t
 
 Alice ilmoittaa Bobille, että jos tämä UTXO käytetään, tietyn tapahtuman katsotaan tapahtuneen. Ulkopuolelta katsottuna näemme vain Bitcoin-tapahtuman, mutta Bob tietää, että tällä kulutuksella on piilotettu merkitys.
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 Kun Alice käyttää tämän UTXO:n, hän sulkee sinetin viestiin, joka osoittaa hänen uuden avaimensa tai yksinkertaisesti vanhan avaimen peruuttamisen. Tällä tavoin ketjussa olevat tarkkailijat näkevät, että UTXO on käytetty, mutta vain ne, joilla on täydellinen todiste, tietävät, että kyseessä on nimenomaan PGP-avaimen peruuttaminen.
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 Jotta Bob tai joku muu voi tarkistaa piilotetun viestin, Alicen on annettava hänelle ketjun ulkopuolisia tietoja.
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 Alicen on siis annettava Bobille :
 
@@ -515,7 +515,7 @@ Alicen on siis annettava Bobille :
 - Itse viesti (esimerkiksi uusi PGP-avain) ;
 - Kryptografinen todiste siitä, että viesti oli mukana transaktiossa (tunnetaan nimellä _extra transaction proof_ tai _anchor_).
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 Kolmansilla osapuolilla ei ole näitä tietoja. Ne näkevät vain, että UTXO on käytetty. Näin ollen luottamuksellisuus on taattu.
 
@@ -524,12 +524,12 @@ Rakenteen selventämiseksi tiivistetään prosessi kahteen tapahtumaan:
 
 - **Tapahtuma 1**: Tämä sisältää _tiivisteen määritelmän_ eli _ulkoistuspisteen_, joka toimii tiivisteenä.
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 - **Tapahtuma 2**: Kuluttaa tämän _outpoint_. Tämä sulkee sinetin ja lisää samassa transaktiossa sanoman _sitoumuksen_.
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 Kutsumme siksi toista tapahtumaa "todistajatapahtumaksi".
 
@@ -539,7 +539,7 @@ Tätä voidaan havainnollistaa toisesta näkökulmasta esittämällä kaksi kerr
 - **Ylin kerros (lohkoketju, julkinen)**: kaikki näkevät transaktion ja tietävät, että _outpoint_ on käytetty;
 - **Alempi kerros (asiakaspuoli, yksityinen)**: vain Alice (tai asianomainen henkilö) tietää, että tämä kustannus vastaa kyseistä viestiä, kryptografisen todisteen ja paikallisesti säilytettävän viestin kautta.
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 Kun sinetti suljetaan, herää kuitenkin kysymys siitä, mihin kohtaan _sitoumus_ olisi lisättävä
 
@@ -562,11 +562,11 @@ Menetelmästä riippumatta (PkO, TxO2 jne.), _sitoumus_ voidaan lisätä :
 - **Opret** (viesti sijoitetaan ei-kulutettavaan ulostuloon `OP_RETURN`);
 - **Tapret** (tai _Taptweak_), joka perustuu taproot-avaimeen lisäämällä sitoumuksen taproot-avaimen komentosarjaan ja muuttamalla siten julkista avainta deterministisesti.
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 Seuraavassa on kunkin menetelmän yksityiskohdat:
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 ***Sig tweak (sign-to-contract) :***
 
@@ -627,7 +627,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 Viimeinen vaihtoehto on **Taproot** (otettu käyttöön BIP341:ssä) ja *Tapret*-järjestelmä. *Tapret* on monimutkaisempi deterministisen sitoutumisen muoto, joka tuo parannuksia lohkoketjun jalanjälkeen ja sopimustoimintojen luottamuksellisuuteen. Pääidea on piilottaa sitoutuminen [taproot-tapahtuman] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` -osaan.
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 Ennen kuin kuvataan, miten sitoumus lisätään taproot-tapahtumaan, tarkastellaan sitoumuksen **tarkkaa muotoa**, jonka on **todennäköisesti** vastattava 64 tavun merkkijonoa [muodostettu](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) seuraavasti:
 
@@ -658,7 +658,7 @@ Tarkastellaan näitä kahta skenaariota lähemmin.
 
 Tässä ensimmäisessä tapauksessa aloitamme taproot-tulostusavaimesta (*Taproot Output Key*) `Q`, joka sisältää vain sisäisen julkisen avaimen `P` *(Internal Key*), eikä siihen liity skriptipolkua (*Script Path*) :
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 - "P": _Key Path Spend_:n sisäinen julkinen avain.
@@ -667,7 +667,7 @@ Tässä ensimmäisessä tapauksessa aloitamme taproot-tulostusavaimesta (*Taproo
 
 Jos haluat sisällyttää **Tapret**-sitoumuksen, lisää **Script Path Spend** ja **yksilöllinen script** seuraavasti:
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 - t = tH_TWEAK(P || Script_root)` tulee sitten uudeksi tweak-kertoimeksi, mukaan lukien **Script_root**.
@@ -679,7 +679,7 @@ Todiste sisällyttämisestä ja ainutkertaisuudesta taproot-puussa on tässä ta
 
 Toinen skenaario koskee monimutkaisempaa `Q` **taproot-tulostetta**, joka sisältää jo useita skriptejä. Meillä on esimerkiksi kolmen skriptin puu:
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 - tH_LEAF(x)` tarkoittaa lehtiskriptin normalisoitua tagged hash-funktiota.
@@ -687,7 +687,7 @@ Toinen skenaario koskee monimutkaisempaa `Q` **taproot-tulostetta**, joka sisäl
 
 Tapret-sitoumuksen lisäämiseksi meidän on lisättävä puun ensimmäiselle tasolle *kuluttamaton skripti* ja siirrettävä olemassa olevat skriptit yhtä tasoa alemmas. Visuaalisesti puusta tulee :
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 - tHABC` edustaa ylimmän tason ryhmittymän `A, B, C` merkityn hash-tunnisteen.
@@ -701,11 +701,11 @@ Taproot-sääntöjen mukaan jokainen haara/lehti on yhdistettävä leksikografis
 
 Visuaalinen esimerkki ensimmäisestä tapauksesta (`tHABC < tHT`):
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 Esimerkki toisesta tapauksesta (`tHABC > tHT`):
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 #### Optimointi nonce-tiedon avulla
 
@@ -807,7 +807,7 @@ Moniprotokollasitoumus (MPC) on suunniteltu vastaamaan kahteen tarpeeseen:
 
 Konkreettisesti kukin _siirtonippu_ kuuluu tiettyyn sopimukseen. Kaikki nämä tiedot lisätään **MPC-puuhun**, jonka juuri (`mpc::Root`) hashataan uudelleen, jotta saadaan `mpc::Commitment`. Tämä viimeinen hash sijoitetaan Bitcoin-tapahtumaan (_todistustapahtuma_) valitun deterministisen menetelmän mukaisesti.
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 #### MPC Root Hash
 
@@ -825,7 +825,7 @@ jossa :
 - cofactor` (16 bittiä, Little Endian) on parametri, jota käytetään edistämään kullekin sopimukselle puussa osoitettujen paikkojen ainutlaatuisuutta;
 - `mpc::Root` on *MPC-puun* juuri, joka lasketaan seuraavassa jaksossa kuvatun prosessin mukaisesti.
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 #### MPC Puun rakentaminen
 
@@ -910,7 +910,7 @@ Kuvitellaanpa esimerkki, jossa C=3 (kolme sopimusta). Niiden positioiden oleteta
 
 Lopputuloksena on **mpc::Root** ja sen jälkeen `mpc::Commitment`.
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 #### MPC-akselin tarkistus
 
@@ -918,7 +918,7 @@ Kun todentaja haluaa varmistaa, että `c_i`-sopimus (ja sen `BundleId`) sisälty
 
 Esimerkissä `c_2` todentaja tarvitsee vain välihashin (`tH_MPC_LEAF(D)`), kaksi `tH_MPC_BRANCH(...)`, `pos(c_2)` sijaintitodistuksen ja `cofactor` arvon. Sen jälkeen se voi paikallisesti rekonstruoida juuren, laskea `mpc::Commitment`:n uudelleen ja verrata sitä Bitcoin-tapahtumassa (`Opret`- tai `Tapret`-ohjelmassa) kirjoitettuun.
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 Tällä mekanismilla varmistetaan, että :
 
@@ -987,7 +987,7 @@ Kolmas kenttä, **ETP**, riippuu käytetystä sitoumustyypistä. Jos sitoumus on
 
 Tämä lisätodistus on välttämätön, koska toisin kuin `Opret`, `Tapret`-sitoumus on integroitu taproot-skriptin rakenteeseen, mikä edellyttää taproot-puun osan paljastamista, jotta *sitoumuksen* sijainti voidaan vahvistaa oikein.
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 Näin ollen **Ankkurit** sisältävät kaikki tiedot, joita tarvitaan Bitcoin-sitoumuksen validointiin RGB:n yhteydessä. Ne ilmoittavat sekä asianomaisen transaktion (`Txid`) että todistuksen sopimuksen asemoinnista (`MPC Proof`) ja hallinnoivat samalla lisätodistusta (`ETP`), kun kyseessä on `Tapret`. Tällä tavoin Ankkuri suojaa ketjun ulkopuolisen tilan eheyttä ja ainutlaatuisuutta varmistamalla, että samaa transaktiota ei voida tulkita uudelleen muiden sopimustietojen osalta.
 
@@ -1004,7 +1004,7 @@ Tässä luvussa käsitellään :
 
 Käytännössä tekninen toteutus on jaettu useiden eri Rust-rakenteiden kesken (_client_side_validation_, _commit-verify_, _bp_core_ jne.). Peruskäsitteet ovat olemassa:
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 Seuraavassa luvussa tarkastelemme RGB:n puhtaasti ketjun ulkopuolista komponenttia eli sopimuslogiikkaa. Näemme, miten RGB-sopimukset, jotka on organisoitu osittain replikoiduiksi _äärettömiksi tilakoneiksi_, saavuttavat paljon suuremman ilmaisuvoiman kuin Bitcoin-skriptit ja säilyttävät samalla tietojensa luottamuksellisuuden.
 
@@ -1022,7 +1022,7 @@ RGB:n tavoitteena on tarjota infrastruktuuri älykkäiden sopimusten toteuttamis
 
 Tämä automatisointi herättää kysymyksen hajauttamisesta: miten voimme vapautua keskitetystä rekisteristä (esim. keskitetystä alustasta tai tietokannasta) omistajuuden ja sopimusten toteutumisen hallinnoimiseksi? Alkuperäinen ajatus, jonka RGB on omaksunut, on palata omistusmuotoihin, jotka tunnetaan nimellä "haltijavälineet". Historiallisesti tietyt arvopaperit (joukkovelkakirjat, osakkeet jne.) on laskettu liikkeeseen haltijamuodossa, jolloin kuka tahansa, jolla oli asiakirja fyysisesti hallussaan, pystyi toteuttamaan oikeutensa.
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 RGB:ssä tätä käsitettä sovelletaan digitaaliseen maailmaan: oikeudet (ja velvollisuudet) on kiteytetty dataan, jota käsitellään ketjun ulkopuolella, ja osallistujat itse validoivat tämän datan tilan. Tämä mahdollistaa a priori paljon suuremman luottamuksellisuuden ja riippumattomuuden kuin muut julkisiin rekistereihin perustuvat lähestymistavat.
 
@@ -1034,7 +1034,7 @@ RGB:ssä tätä käsitettä sovelletaan digitaaliseen maailmaan: oikeudet (ja ve
 - **Tila**, eli tietojen joukko, joka kuvastaa sopimuksen nykyistä kokoonpanoa;
 - **Liiketoimintalogiikka** (sääntökokonaisuus), jossa kuvataan, missä olosuhteissa ja kuka voi muuttaa tilaa.
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 On tärkeää ymmärtää, että nämä sopimukset eivät rajoitu pelkkään rahakkeiden siirtoon. Ne voivat ilmentää monenlaisia sovelluksia: perinteisistä omaisuuseristä (tokenit, osakkeet, joukkovelkakirjat) monimutkaisempiin mekaniikoihin (käyttöoikeudet, kaupalliset ehdot jne.). Toisin kuin muissa lohkoketjuissa, joissa sopimuskoodi on kaikkien saatavilla ja toteutettavissa, RGB:n lähestymistavassa pääsy ja tieto sopimuksesta on lokeroitu osallistujille ("***sopimuksen osallistujat***"). Rooleja on useita:
 
@@ -1072,7 +1072,7 @@ RGB-universumissa ***Sopimusoperaatio*** on mikä tahansa tapahtuma, joka muutta
 - Kiinnitämme muutoksen uudella _commitmentillä_ lohkoketjuun, suljemme yhden _kertakäyttöisen sinetin_ ja luomme toisen ;
 - Asianomaiset oikeudenhaltijat validoivat paikallisesti (*asiakaspuolella*), että siirtymä on *Skeeman* mukainen ja että siihen liittyvä Bitcoin-tapahtuma on rekisteröity ketjussa.
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 Lopputuloksena on päivitetty sopimus, jonka tila on nyt erilainen. Tämä siirtymä ei vaadi koko Bitcoin-verkkoa perehtymään yksityiskohtiin, koska lohkoketjuun tallennetaan vain pieni kryptografinen sormenjälki (_sitoumus_). Kertakäyttöisten sinettien sarja estää tilan kaksinkertaisen kuluttamisen tai kaksinkertaisen käytön.
 
@@ -1085,7 +1085,7 @@ RGB-älykäs sopimus alkaa ensimmäisestä tilasta **Genesis**, joka on ensimmä
 - Kronologinen järjestys taataan sisällyttämällä jokainen siirtymä Bitcoin-ankkuriin, joka on aikaleimattu ja muuttumaton Proof-of-Work -konsensuksen ansiosta;
 - Kun muita toimintoja ei ole käynnissä, saavutetaan **Lopputila**: sopimuksen viimeisin ja viimeisin tila.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 Tämä DAG-topologia (yksinkertaisen lineaarisen ketjun sijasta) kuvastaa mahdollisuutta, että sopimuksen eri osat voivat kehittyä rinnakkain, kunhan ne eivät ole ristiriidassa keskenään. RGB huolehtii ristiriitaisuuksien välttämisestä *asiakaspuolen* tarkastuksella kunkin osallistujan osalta.
 
@@ -1118,19 +1118,19 @@ Havainnollistetaan *Tilansiirtoprosessi* (joka on yksi RGB:n perustavanlaatuisis
 
 Alicella on ***stash RGB*** paikallisesti validoituja tietoja (*asiakaspuolella*). Tämä kätkö viittaa yhteen hänen UTXO:nsa Bitcoinissa. Tämä tarkoittaa sitä, että tässä datassa oleva _sulkumääritelmä_ viittaa Liisan omistamaan UTXO:hon. Ajatuksena on, että hän voi siirtää tiettyjä digitaalisia oikeuksia, jotka liittyvät omaisuuserään (esim. RGB-tokenit), Bobille.
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 **Bobilla on myös UTXO:t :**
 
 Bobilla taas on ainakin yksi oma UTXO, jolla ei ole suoraa yhteyttä Alicen UTXO:han. Jos Bobilla ei ole UTXO:ta, on silti mahdollista tehdä siirto hänelle itse *todistustapahtuman* avulla: tämän tapahtuman tuloste sisältää silloin sitoumuksen (_commitment_) ja liittää uuden sopimuksen omistajuuden epäsuorasti Bobiin.
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 **Uuden kiinteistön rakentaminen (*Uusi tila*) :**
 
 Bob lähettää Liisalle ***laskun*** muodossa koodattua tietoa (käsittelemme laskun rakentamista tarkemmin myöhemmissä luvuissa) ja pyytää Liisaa luomaan uuden, sopimuksen sääntöjen mukaisen tilan. Tämä tila sisältää uuden *sulkumääritelmän*, joka osoittaa johonkin Bobin UTXO:sta. Näin Bob saa omistusoikeuden tässä uudessa tilassa määriteltyihin varoihin, esimerkiksi tiettyyn määrään RGB-tokeneita.
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 **Esimerkkitapahtuman valmistelu:**
 
@@ -1148,13 +1148,13 @@ Ennen transaktion lähettämistä Alice lähettää Bobille ***Consignment***, j
 
 Jos Bob on tyytyväinen, hän voi antaa hyväksyntänsä (esimerkiksi allekirjoittamalla *lähetyksen*). Tämän jälkeen Alice voi lähettää valmistellun esimerkkitapahtuman. Kun se on vahvistettu, tämä sulkee Alicen aiemmin pitämän sinetin ja virallistaa Bobin omistusoikeuden. Kaksoiskäytön estävä suojaus perustuu tällöin samaan mekanismiin kuin Bitcoinissa: UTXO on käytetty, mikä todistaa, että Alice ei voi enää käyttää sitä uudelleen.
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 Uudessa tilassa viitataan nyt Bobin UTXO:hon, jolloin Bob saa omistusoikeuden, joka aiemmin oli Alicella. Bitcoin-ulostulosta, johon RGB-tiedot on ankkuroitu, tulee peruuttamaton todiste omistusoikeuden siirrosta.
 
 Esimerkki minimaalisesta DAG:stä (*Suuntautunut asyklinen graafi*), joka koostuu kahdesta sopimusoperaatiosta (**Genesis** ja ***State Transition***), voi havainnollistaa, miten RGB-tila (*asiakaspuolen* kerros, punaisella) liittyy Bitcoin-lohkoketjuun (*Commitment*-kerros, oranssilla).
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 Se osoittaa, että Genesis määrittelee tiivisteen (*tiivisteen määrittely*), jonka jälkeen *tilasiirtymä* sulkee tämän tiivisteen luodakseen uuden tiivisteen toiseen UTXO:hon.
 
@@ -1168,7 +1168,7 @@ Tässä yhteydessä muistutamme muutamasta terminologiasta:
 
 Edellisessä luvussa kuvatut **tilasiirtymät** ovat tärkein sopimustoimintamuoto. Ne viittaavat yhteen tai useampaan aikaisempaan tilaan (Genesisistä tai toisesta tilasiirrosta) ja päivittävät ne uuteen tilaan.
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 Tämä kaavio osoittaa, miten *State Transition Bundle*:ssa voidaan sulkea useita sinettejä yhdellä esimerkkitapahtumalla ja samalla avata uusia sinettejä. RGB-protokollan mielenkiintoinen piirre on sen kyky skaalautua: useita siirtymiä voidaan yhdistää siirtymäbundleksi, ja kukin yhdistelmä liitetään *MPC-puun* erilliseen lehteen (yksilöllinen bundle-tunniste). *Deterministic Bitcoin Commitment* (DBC) -mekanismin ansiosta koko viesti lisätään `Tapret`- tai `Opret`-ulostuloon, samalla kun aiemmat sinetit suljetaan ja mahdollisesti määritellään uusia. *Ankkuri* toimii suorana linkkinä lohkoketjuun tallennetun sitoumuksen ja asiakaspuolen validointirakenteen (*client-puolen*) välillä.
 
@@ -1221,7 +1221,7 @@ Valtion siirtymiä voidaan siis käyttää omaisuuden omistusoikeuden siirtämis
 
 Näistä operaatioista **Genesis** ja **State Extension** kutsutaan joskus "*State Generation -operaatioiksi*", koska ne luovat uusia tiloja sulkematta välittömästi mitään. Tämä on hyvin tärkeä seikka: **Genesis** ja **State Extension** eivät sisällä sinetin sulkemista. Pikemminkin ne määrittelevät uuden sinetin, joka on sen jälkeen käytettävä seuraavalla **State Transition** -operaatiolla, jotta se voidaan todella validoida lohkoketjun historiassa.
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 Sopimuksen **aktiivinen tila** määritellään usein viimeisimpien tilojen joukoksi, jotka ovat seurausta transaktioiden historiasta (DAG), alkaen Genesisistä ja seuraten kaikkia ankkureita Bitcoin-lohkoketjussa. Kaikkia vanhoja tiloja, jotka ovat jo vanhentuneita (eli liitettyinä käytettyihin UTXOihin), ei enää pidetä aktiivisina, mutta ne ovat edelleen olennaisia historian johdonmukaisuuden tarkistamiseksi.
 
@@ -1247,7 +1247,7 @@ Koska Genesis on sopimuksen ensimmäinen tapahtuma, se ei viittaa mihinkään ai
 
 Teknisesti ottaen tilalaajennus viittaa *Redeemiin* (tietyntyyppiseen RGB-syöttöön), joka vastaa aiemmin (esimerkiksi Genesiksessä tai toisessa tilasiirrossa) määriteltyä *Valencyä*. Se määrittelee uuden sinetin, joka on sen henkilön tai tilan käytettävissä, joka hyötyy siitä. Jotta tämä sinetti tulisi voimaan, se on käytettävä seuraavassa tilasiirtymässä.
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 Esimerkiksi: Genesis luo liikkeeseenlaskuoikeuden (*Valency*). Tätä voi käyttää valtuutettu toimija, joka sitten rakentaa valtion laajennuksen :
 
@@ -1356,7 +1356,7 @@ RGB-sopimus tunnistetaan `ContractId`-tunnuksella, joka johdetaan Genesis-operaa
     - **julkisesti** omistetut valtiot,
     - **yksityisten** omistamat valtiot.
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 *Global State* sisältyy suoraan *Contract Operation*:iin yhtenä lohkona. *Omistetut tilat* määritellään jokaisessa *Toimeksiannossa* yhdessä *Seal Definition* kanssa.
 
@@ -1418,7 +1418,7 @@ Tämä globaali tila voidaan sijoittaa julkisiin resursseihin (verkkosivustot, I
 
 Yksi RGB:n suurista vahvuuksista on kyky paljastaa (*paljastaa*) tai piilottaa (*salata*) *Seal Definition*- ja *Owned State*-kentät halutessaan. Tämä tarjoaa tehokkaan yhdistelmän luottamuksellisuutta ja valikoivuutta. Voit esimerkiksi todistaa, että siirtymä on pätevä paljastamatta kaikkia tietoja, antamalla paljastetun version henkilölle, jonka on validoitava se, kun taas kolmannet osapuolet näkevät vain piilotetun version (hash). Käytännössä siirtymän `OpId` lasketaan aina *kätketystä* datasta.
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 #### Sinetin määritelmä
 
@@ -1436,7 +1436,7 @@ Yksi RGB:n suurista vahvuuksista on kyky paljastaa (*paljastaa*) tai piilottaa (
 
 Sinettimääritelmän *peitetty* muoto on SHA256-hash (merkitty) näiden neljän kentän yhdistelmästä, jossa on RGB-kohtainen merkintä.
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 #### Omistetut valtiot
 
@@ -1615,7 +1615,7 @@ Yksi RGB:n tärkeimmistä innovaatioista on kahden käsitteen tiukka erottaminen
 
 **Omistus** taas luottaa täysin Bitcoinin turvallisuuteen. UTXO:n yksityisen avaimen omistaminen tarkoittaa, että hallitaan kykyä käynnistää uusi siirtymä (sulkea kertakäyttöinen sinetti). Vaikka joku siis näkisi tai vahvistaisi tiedot, hän ei voi muuttaa tilaa, jos hän ei omista kyseistä UTXO:ta.
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 Tämä lähestymistapa rajoittaa klassisia haavoittuvuuksia, joita esiintyy monimutkaisemmissa lohkoketjuissa (joissa kaikki älykkään sopimuksen koodi on julkista ja kenen tahansa muokattavissa, mikä on joskus johtanut hakkerointiin). RGB:ssä hyökkääjä ei voi yksinkertaisesti olla vuorovaikutuksessa ketjun tilan kanssa, sillä oikeus toimia tilassa (*omistusoikeus*) on suojattu Bitcoin-kerroksella.
 
@@ -1951,7 +1951,7 @@ Yhteenvetona voidaan todeta, että kukin sopimus koostuu :
 - **Rajapinta**, joka tarjoaa semanttisen kerroksen sekä lompakoille että ihmiskäyttäjille ja selventää transaktioiden lukemista ja suorittamista;
 - **Toteutus-käyttöliittymä**, joka kuroo umpeen liiketoimintalogiikan ja esitystavan välisen kuilun, jotta voidaan varmistaa, että sopimusten määrittely on yhdenmukainen käyttäjäkokemuksen kanssa.
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 On tärkeää huomata, että jotta lompakko voi hallinnoida RGB-varoja (olipa kyseessä sitten vaihdettavissa oleva token tai minkä tahansa tyyppinen oikeus), sillä on oltava kaikki nämä elementit koottuna: *Schema*, *Interface*, *Interface Implementation* ja *Genesis*. Tämä lähetetään ***sopimuslähetyksen*** eli tietopaketin kautta, joka sisältää kaiken tarvittavan asiakassopimuksen validoimiseksi.
 
@@ -1997,7 +1997,7 @@ Skeemaa voidaan verrata "luokkaan" oliopohjaisessa ohjelmoinnissa (OOP). Yleises
 - Säännöt, jotka määrittävät, miten sopimuksen sisäiset tiedot voivat kehittyä (esimerkiksi onko kenttä muuttuva vai kumulatiivinen);
 - Kelvollisiksi katsottujen operaatioiden sarjat: esimerkiksi siirtymien järjestys, jota on noudatettava, tai joukko loogisia ehtoja, jotka on täytettävä.
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 Kun omaisuuserän *julkaisija* julkaisee sopimuksen RGB:ssä, se antaa siihen liittyvän Genesis- ja Schema-tiedon. Käyttäjät tai lompakot, jotka haluavat olla vuorovaikutuksessa omaisuuserän kanssa, hakevat tämän skeeman ymmärtääkseen sopimuksen taustalla olevan logiikan ja voidakseen myöhemmin tarkistaa, että siirtymät, joihin he osallistuvat, ovat laillisia.
 
@@ -2060,7 +2060,7 @@ Ennen koodiin sukeltamista on syytä palauttaa mieleen RGB-skeeman yleinen raken
 - **Strict Type System**, jota käytetään tietojen kuvaamiseen ja validointiin;
 - **Validointiskriptit** (suoritetaan AluVM:n kautta).
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 Alla olevassa koodissa näkyy Rust Schema -määrittelyn täydellinen määrittely. Kommentoimme sitä osa kerrallaan noudattaen alla olevia merkintöjä (1) - (9):
 
@@ -2225,7 +2225,7 @@ Toisin kuin Schema, joka on puhtaasti deklaratiivinen ja koottu binääritiedost
 - Pääset käsiksi kunkin kentän nimiin ja arvoihin, jotta ne voidaan näyttää (esim. saat selville merkin tickerin, enimmäismäärän jne.);
 - Tulkitse ja rakenna sopimusoperaatioita (Genesis, State Transition tai State Extension) liittämällä tietoihin ymmärrettäviä nimiä (esim. suorita siirto määrittelemällä selkeästi "summa" binääritunnisteen sijasta).
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 Rajapinnan ansiosta voit esimerkiksi kirjoittaa lompakkoon koodia, joka kenttien manipuloinnin sijaan manipuloi suoraan merkintöjä, kuten "tokenien määrä", "omaisuuserän nimi" jne. Näin sopimuksen hallinnoinnista tulee intuitiivisempaa. Näin sopimusten hallinnoinnista tulee intuitiivisempaa.
 
@@ -2253,7 +2253,7 @@ Käyttöliittymää voidaan muuttaa tai lisätä sen jälkeen, kun omaisuuserä 
 
 Sama sopimus voitaisiin esittää eri rajapintojen kautta, jotka on mukautettu erilaisiin tarpeisiin: yksinkertainen rajapinta loppukäyttäjälle ja kehittyneempi rajapinta liikkeeseenlaskijalle, jonka on hallittava monimutkaisia konfigurointitoimintoja. Lompakko voi sitten valita, minkä rajapinnan se haluaa tuoda käyttöönsä käyttötarkoituksensa mukaan.
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 Käytännössä, kun lompakko hakee RGB-sopimuksen (`.rgb`- tai `.rgba`-tiedoston kautta), se tuo myös siihen liittyvän rajapinnan, joka myös käännetään. Suoritusaikana lompakko voi esimerkiksi :
 
@@ -2643,7 +2643,7 @@ Bobin on sitten haettava haluamansa sopimustiedot. Nämä tiedot voivat liikkua 
 - **Käyttöliittymä**, joka määrittelee esitystason (kenttien nimet, käytettävissä olevat toiminnot);
 - **Liittymän toteutus**, joka yhdistää konkreettisesti skeeman ja rajapinnan.
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 Kokonaiskoko on usein muutaman kilotavun luokkaa, koska kukin komponentti painaa yleensä alle 200 tavua. Lähetys voidaan lähettää myös Base58:ssa, sensuurin kestävien kanavien kautta (kuten Nostr tai Lightning Network) tai QR-koodina.
 
@@ -2681,7 +2681,7 @@ Tarkastelemme RGB-laskujen rakennetta tarkemmin tämän luvun lopussa.
 
 Luodussa laskussa (esim. URL-osoitteena: `rgb:2WBcas9.../RGB20/100+utxob:...`) on kaikki tiedot, joita Alice tarvitsee siirron valmisteluun. Kuten lähetys, se voidaan koodata tiiviisti (Base58 tai jokin muu muoto) ja lähettää viestisovelluksen, sähköpostin, Nostr...
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 #### 6) Tapahtumien valmistelu Alice-puolella
 
@@ -2724,7 +2724,7 @@ bob$ rgb accept consignment.rgb
 sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 #### 9) Vaihtoehto: Bob lähettää vahvistuksen takaisin Alicelle (*maksukuitti*)
 
@@ -2750,13 +2750,13 @@ alice$ rgb check <sig>
 alice$ wallet sign —publish tx.psbt
 ```
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 Vahvistamisen jälkeen tämä tapahtuma merkitsee siirron päättymistä. Bobista tulee omaisuuserän uusi omistaja: hänellä on nyt omistettu tila, joka osoittaa hänen hallussaan olevaan UTXO:hon, mikä osoitetaan sitoumuksen läsnäololla tapahtumassa.
 
 Yhteenvetona tässä on koko siirtoprosessi:
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 ### RGB-siirtojen edut
 
@@ -2787,7 +2787,7 @@ Ennen kuin tarkastelet laskuja yksityiskohtaisemmin, tässä on yhteenvetokaavio
 - Alice julkaisee tapahtuman Bitcoin-verkossa;
 - Tapahtuman vahvistaminen tekee siirrosta virallisen.
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 Siirto havainnollistaa RGB-protokollan koko tehon ja joustavuuden: yksityinen vaihto, joka on validoitu asiakkaan puolella, ankkuroitu minimaalisesti ja huomaamattomasti Bitcoin-lohkoketjuun ja säilyttää protokollan parhaan mahdollisen turvallisuuden (ei riskiä kaksinkertaisesta kuluttamisesta). Tämä tekee RGB:stä lupaavan ekosysteemin arvonsiirtoihin, jotka ovat luottamuksellisempia ja skaalautuvampia kuin ketjussa ohjelmoitavat lohkoketjut.
 
@@ -2939,7 +2939,7 @@ rgb
 
 Käynnistämällä `rgb` (ilman argumentteja) saat näkyviin luettelon käytettävissä olevista alakomennoista, kuten `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer` jne. Voit vaihtaa paikallisen tallennushakemiston (kätkö, jossa säilytetään kaikki lokit, kaaviot ja toteutukset), valita verkon (testnet, mainnet) tai konfiguroida Electrum-palvelimen.
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 #### Ensimmäinen yleiskatsaus valvontaan
 
@@ -2967,7 +2967,7 @@ Tuo sitten haluamasi käyttöliittymä:
 rgb import interfaces/RGB20.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 Toisaalta meille kerrotaan, että ohjelmistoon ei ole vielä tuotu mitään skeemaa. Kätköissä ei myöskään ole sopimusta. Voit nähdä sen suorittamalla komennon :
 
@@ -2981,7 +2981,7 @@ Voit sitten kloonata arkiston hakeaksesi tiettyjä kaavioita:
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 Tämä arkisto sisältää hakemistossaan `src/` useita Rust-tiedostoja (esimerkiksi `nia.rs`), jotka määrittelevät skeemat (NIA tarkoittaa "*Non Inflatable Asset*", UDA tarkoittaa "*Unique Digital Asset*" jne.). Kääntääksesi voit sitten ajaa :
 
@@ -3000,7 +3000,7 @@ Voit nyt tuoda kaavion `rgb` -ohjelmaan:
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 Tämä lisää sen paikalliseen kätköön. Jos suoritamme seuraavan komennon, näemme, että skeema näkyy nyt:
 
@@ -3047,7 +3047,7 @@ seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804
 amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 Suorita sitten komento :
 
@@ -3055,7 +3055,7 @@ Suorita sitten komento :
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 Minun tapauksessani yksilöllinen skeematunniste (joka suljetaan lainausmerkkien sisään) on `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k`, enkä ole laittanut mitään myöntäjää. Tilaukseni on siis :
 
@@ -3075,7 +3075,7 @@ CLI vastaa, että uusi sopimus on tehty ja lisätty kätköön. Jos kirjoitamme 
 rgb contracts
 ```
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
 Seuraavalla komennolla näytetään sitten globaalit tilat (nimi, ticker, tarjonta...) ja luettelo Owned States eli allokaatiot (esimerkiksi 1 miljoona `PBN`-merkkiä, jotka on määritelty UTXO:ssa `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
@@ -3083,7 +3083,7 @@ Seuraavalla komennolla näytetään sitten globaalit tilat (nimi, ticker, tarjon
 rgb state '<ContractId>'
 ```
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 ### Vienti, tuonti ja validointi
 
@@ -3093,7 +3093,7 @@ Jos haluat jakaa tämän sopimuksen muiden käyttäjien kanssa, se voidaan vied�
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 Tiedosto `myContractPBN.rgb` voidaan siirtää toiselle käyttäjälle, joka voi lisätä sen kätköönsä komennolla :
 
@@ -3117,7 +3117,7 @@ Muistutuksena: kätkö on paikallinen inventaario skeemoista, rajapinnoista, tot
 rgb dump
 ```
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 Tämä luo kansion, jossa on tiedot koko kätköstä.
 
@@ -3224,7 +3224,7 @@ RGB-varoja sisältävän Lightning-kanavan luomiseen tarvitaan kaksi elementtiä
 
 Bitcoinin termein ilmaistuna rahoitustapahtuman on oltava olemassa, jotta viite UTXO voidaan määritellä, vaikka se sisältäisi vain pienen määrän satsia (kyse on vain siitä, että jokainen tulevien sitoumustapahtumien tuotos pysyy pölyrajan yläpuolella). Alice voi esimerkiksi päättää tarjota 10 000 satsia ja 500 USDT (jotka on laskettu liikkeeseen RGB-varoina). Rahoitustapahtumaan lisätään sitoumus (`Opret` tai `Tapret`), joka ankkuroi RGB-tilan siirtymän.
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 Kun rahoitustapahtuma on valmisteltu (mutta sitä ei ole vielä lähetetty), luodaan sitoumustapahtumat, jotta kumpikin osapuoli voi sulkea kanavan yksipuolisesti milloin tahansa. Nämä transaktiot muistuttavat Lightningin klassisia sitoutumistransaktioita, paitsi että lisäämme ylimääräisen ulostulon, joka sisältää uuteen tilasiirtymään liittyvän RGB-ankkurin (OP_RETURN tai Taproot).
 
@@ -3232,11 +3232,11 @@ RGB-tilan siirtymä siirtää tämän jälkeen varat rahoituksen 2/2-multisigist
 
 Liisan allekirjoittama ja Bobille lähetetty sitoumustapahtuma näyttäisi siis seuraavalta:
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 Bobin allekirjoittama ja Alicelle lähettämä sitoutumistapahtuma näyttää seuraavalta:
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 ### Kanavan päivitys
 
@@ -3246,17 +3246,17 @@ Jos Alice esimerkiksi siirtää 30 USDT Bobille kanavassa, uuden tilan siirtymä
 
 Liisan allekirjoittama sitoumustapahtuma, jonka Bob voi jakaa :
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 Bobin allekirjoittama sitoumustapahtuma, jonka Alice on valmis jakamaan :
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 ### HTLC-hallinta
 
 Todellisuudessa Lightning-verkko mahdollistaa maksujen välittämisen useiden kanavien kautta HTLC-sopimusten (*Hashed Time-Locked Contracts*) avulla. Sama pätee RGB:n kanssa: jokaista kanavan kautta kulkevaa maksua varten lisätään HTLC-lähtö sitouttavaan tapahtumaan ja tähän HTLC:hen liitetään RGB-varaus. Näin ollen se, joka käyttää HTLC-ulostulon (salaisuuden ansiosta tai aikalukon päättymisen jälkeen), saa takaisin sekä satsit että niihin liittyvät RGB-varat. Toisaalta sinulla on tietysti oltava riittävästi käteistä matkassa sekä satsin että RGB-varojen osalta.
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 RGB:n toimintaa Lightning-verkossa on siis tarkasteltava rinnakkain itse Lightning-verkon toiminnan kanssa. Jos haluat syventyä tähän aiheeseen, suosittelen lämpimästi tutustumaan tähän toiseen kattavaan koulutukseen:
 
@@ -3266,7 +3266,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Ennen kuin siirrymme seuraavaan osioon, haluan lopuksi antaa sinulle yleiskatsauksen RGB:ssä käytettyyn koodiin. Protokolla perustuu joukkoihin Rust-kirjastoihin ja avoimen lähdekoodin määrittelyihin. Tässä on yleiskatsaus tärkeimmistä arkistoista ja laatikoista:
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 #### Asiakaspuolen validointi
 
@@ -3579,7 +3579,7 @@ Kääntääksemme ja asentaaksemme `rgb-lightning-node`-binäärin aloitamme klo
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
 ```
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 - Vaihtoehto `--recurse-submodules` kloonaa myös tarvittavat alalaitteet (mukaan lukien muunnetun version `rust-lightning`:sta);
@@ -3591,7 +3591,7 @@ Suorita projektin juuresta seuraava komento kääntääksesi ja asentaaksesi bin
 cargo install --locked --debug --path .
 ```
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 - `--locked` varmistaa, että riippuvuuksien versiota noudatetaan tarkasti;
@@ -3625,7 +3625,7 @@ Tunnukset ja URL-osoitteet syötetään, kun palvelimen lukitus _avautetaan_ API
 
 Yksinkertaista käyttöä varten on olemassa `regtest.sh`-skripti, joka käynnistää automaattisesti Dockerin kautta joukon palveluita: `Bitcoind`, `electrs` (indeksoija), `rgb-proxy-server`.
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 Näin voit käynnistää paikallisen, eristetyn, valmiiksi konfiguroidun ympäristön. Se luo ja tuhoaa kontit ja datahakemistot jokaisen uudelleenkäynnistyksen yhteydessä. Aloitamme käynnistämällä :
 
@@ -3640,7 +3640,7 @@ Tämä skripti :
 - Suorita `bitcoind` regtestissä, samoin kuin indeksoija `electrs` ja `rgb-proxy-server` ;
 - Odota, kunnes kaikki on valmista.
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 Seuraavaksi käynnistämme useita RLN-solmuja. Suorita erillisissä kuorissa esimerkiksi (käynnistääksesi 3 RLN-solmua) :
 
@@ -3656,7 +3656,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network regtest
 ```
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 - Parametri `--network regtest` ilmaisee regtest-konfiguraation käytön;
@@ -3678,7 +3678,7 @@ curl -X POST http://localhost:3001/address
 
 Vastauksesta saat osoitteen.
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 `bitcoind`-testissä louhimme muutaman bitcoinin. Suorita :
 
@@ -3686,7 +3686,7 @@ Vastauksesta saat osoitteen.
 ./regtest.sh mine 101
 ```
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 Lähetä varat edellä luotuun solmuosoitteeseen:
 
@@ -3694,7 +3694,7 @@ Lähetä varat edellä luotuun solmuosoitteeseen:
 ./regtest.sh sendtoaddress <address> <amount>
 ```
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 Sen jälkeen louhi lohko vahvistamaan transaktio:
 
@@ -3702,7 +3702,7 @@ Sen jälkeen louhi lohko vahvistamaan transaktio:
 ./regtest.sh mine 1
 ```
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 ### Testnetin käynnistäminen (ilman Dockeria)
 
@@ -3749,7 +3749,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/createutxos
 ```
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 Voit tietenkin mukauttaa järjestystä. Vahvistaaksemme tapahtuman, me kaivamme :
 
@@ -3772,7 +3772,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/issueassetnia
 ```
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 Vastaus sisältää äskettäin luodun omaisuuserän ID:n. Muista merkitä tämä tunniste muistiin. Minun tapauksessani se on :
 
@@ -3780,7 +3780,7 @@ Vastaus sisältää äskettäin luodun omaisuuserän ID:n. Muista merkitä täm�
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 Voit sitten siirtää sen ketjussa tai jakaa sen Lightning-kanavassa. Juuri näin teemme seuraavassa osiossa.
 
@@ -3800,7 +3800,7 @@ Komento palauttaa solmuni nro 2 julkisen avaimen:
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
 ```
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
 Seuraavaksi avaamme kanavan määrittelemällä kyseisen omaisuuserän (`PBN`). `/openchannel`-komennolla voit määrittää kanavan koon satoshina ja valita, otatko mukaan RGB-varannon. Se riippuu siitä, mitä haluat luoda, mutta minun tapauksessani komento on :
 
@@ -3831,7 +3831,7 @@ Lue lisää täältä:
 - `asset_id` : Kanavaan osallistuvan RGB-varannon yksilöllinen tunniste;
 - `julkinen`: '```: Ilmaisee, onko kanavasta tehtävä julkinen verkossa tapahtuvaa reititystä varten.
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 Tapahtuman vahvistamiseksi louhitaan 6 lohkoa:
 
@@ -3839,7 +3839,7 @@ Tapahtuman vahvistamiseksi louhitaan 6 lohkoa:
 ./regtest.sh mine 6
 ```
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
 Lightning-kanava on nyt auki, ja se sisältää myös 500 `PBN`-tunnusta solmun nro 1 puolella. Jos solmu nro 2 haluaa vastaanottaa `PBN`-tunnuksia, sen on luotava lasku. Näin se tehdään:
 
@@ -3868,7 +3868,7 @@ Vastauksena saat RGB-laskun (kuten edellisissä luvuissa kuvattiin):
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
 ```
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
 Maksamme nyt tämän laskun ensimmäisestä solmusta, jossa on tarvittava käteisvaratunnus "PBN":
 
@@ -3880,7 +3880,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/sendpayment
 ```
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 Maksu on suoritettu. Tämä voidaan tarkistaa suorittamalla komento :
 
@@ -3890,7 +3890,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 Näin otat käyttöön Lightning-solmun, joka on muutettu kuljettamaan RGB-varoja. Tämä esittely perustuu :
 

@@ -315,7 +315,7 @@ Si on valide quand même en appuyant sur **"ENTER"**  le QR code de la transacti
 
 ![Co-Sign](assets/fr/47.webp)
 
-![Co-Sign](assets/fr/48.png)
+![Co-Sign](assets/fr/48.webp)
 
 
 
@@ -324,26 +324,33 @@ Réalisons exactement la même opération, mais cette fois avec une transaction 
 
 On envoie 12121 sats à une une de nos 2 adresses. Puis on exporte la transaction vers notre ColdCard comme déjà fait précédemment.
 
-![Co-Sign](assets/fr/49.png)
+![Co-Sign](assets/fr/49.webp)
 
 
 Après avoir importé la transaction sur notre ColdCardQ, voyons voir ce qui nous est indiqué.
 On voit qu'un warning est toujours présent mais cette fois si on fait défiler l'écran jusqu'en bas on se rend compte qu'il s'agit ici de valider la transaction via le 2FA. Il nous est demandé de taper notre ColdCardQ à notre appareil NFC connecté à internet, ce que nous faisons.
 
-![Co-Sign](assets/fr/50.png)
+![Co-Sign](assets/fr/50.webp)
 
 Une page web s'ouvre sur notre smartphone sur laquelle on nous demande de rentrer notre code 2FA ce que nous faisons grâce à Proton Authenticator.
 
-![Co-Sign](assets/fr/51.png)
+![Co-Sign](assets/fr/51.webp)
 
 
 
 Puis scannez le code QR qui apparait pour signer la transaction. LA trnasaction est désormais siggnée par les 2 clés et donc valide.
 Si la fonctionnalité "Push Tx" est activé sur votre ColdCardQ vous broadcaster sur le réseau par un simple tap au dos de votre smartphone. 
 
-![Co-Sign](assets/fr/52.png)
+![Co-Sign](assets/fr/52.webp)
 
 
-Si vous n'avez pas "Push tx" activé, alors importez la transaction signée sur Nunchuk, de la même manière que dans l'exemple  précédent, en scannant le QR code de votre transaction signée.
+Si vous n'avez pas "Push tx" activé, appuyez sur le bouton "QR" de votre ColdCardQ afin d'affichez la transaction signée  sous forme de QR code, et importez la sur Nunchuk, de la même manière que dans l'exemple précédent.
 
-![Co-Sign](assets/fr/53.png)
+![Co-Sign](assets/fr/53.webp)
+
+Cette fois on remarque que 2 signatures ont été appliquée, et la transaction est donc prête à être diffusée sur le réseau Bitcoin.
+
+![Co-Sign](assets/fr/54.webp)
+
+
+Nous voilà arrivés au bout de ce tutoriel qui vous aura donné un aperçu des possibilités de la fonctionnalité Co-Sign intégrée aux appareils ColdCardQ et Mk4 de Coinkite, ainsi que son utilisation au travers de wallets tels que Sparrow et Nunckuk.

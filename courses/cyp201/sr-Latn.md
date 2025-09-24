@@ -80,6 +80,34 @@ Konačno, iz glavnog ključa, otkrićemo kako se izvode kriptografski parovi klj
 Ova obuka će vam omogućiti da koristite vaš softverski novčanik sa samopouzdanjem, dok unapređujete svoje veštine za identifikaciju i ublažavanje rizika. Pripremite se da postanete pravi stručnjak za Bitkojn novčanike!
 
 
+Ova tabela vam nudi prevod glavnih engleskih termina koji se koriste, kako bi vam olakšala razumevanje šema i tehničkih dokumenata korišćenih u okviru kursa CYP 201.
+
+| Engleski        | Prevod / Objašnjenje                                                                               |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Heš javnog ključa (koristi se za generisanje Bitcoin adrese).                                       |
+| *public key*    | Javni ključ (služi za primanje sredstava, izveden iz privatnog ključa).                             |
+| *signature*     | Digitalni potpis (kriptografski dokaz da poruka potiče od vlasnika privatnog ključa).               |
+| *scriptPubKey*  | Skripta zaključavanja (definiše uslove za trošenje izlaza).                                         |
+| *scriptSig*     | Skripta otključavanja (obezbeđuje podatke za ispunjavanje *scriptPubKey*).                          |
+| *Stack*         | Stek (struktura podataka koju koristi *Bitcoin Script*).                                            |
+| *input*         | Ulaz transakcije (referenca na prethodni izlaz korišćen kao izvor).                                 |
+| *output*        | Izlaz transakcije (definiše primaoca i iznos).                                                      |
+| *transaction*   | Bitcoin transakcija (skup ulaza i izlaza koji potvrđuju transfer).                                  |
+| *XOR*           | Logički operator "isključivo ILI", koristi se u nekim kriptografskim šemama.                       |
+| *HMAC*          | Kod za autentifikaciju poruka zasnovan na hešu i tajnom ključu.                                     |
+| *ECDSA*         | Algoritam digitalnog potpisa sa eliptičnim krivama.                                                 |
+| *hash*          | Heš (jedinstveni i fiksni otisak podataka).                                                         |
+| *SigHash*       | Tip heša potpisa (definiše koji delovi transakcije se potpisuju).                                   |
+| *HD Wallet*     | Hijerarhijski deterministički novčanik (generiše više ključeva iz jednog semena).                   |
+| *Random Number* | Nasumičan broj (koristi se za generisanje sigurnih privatnih ključeva).                             |
+| *State*         | Stanje (međuvrednost u kriptografskom procesu).                                                     |
+| *Entropy*       | Entropija (mera nasumičnosti, koristi se za generisanje semena za novčanike).                       |
+| *Mnemonic*      | Mnemotehnika (niz reči koji olakšava čuvanje i obnavljanje semena).                                 |
+| *Wordlist*      | Lista reči (unapred definisan skup korišćen za generisanje BIP39 mnemotehnika).                     |
+| *Seed*          | Semе (početna vrednost koja omogućava izvođenje svih ključeva iz HD novčanika).                     |
+| *Address*       | Bitcoin adresa (čitljiv identifikator za primanje sredstava, izveden iz javnog ključa).             |
+| *Leaf*          | List (krajnji čvor u stablu derivacije).                                                            |
+
 # Heš Funkcije
 
 

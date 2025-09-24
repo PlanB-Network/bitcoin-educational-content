@@ -80,6 +80,34 @@ Tenslotte zullen we vanuit de hoofdsleutel ontdekken hoe cryptografische sleutel
 Deze training stelt je in staat om de Wallet software met vertrouwen te gebruiken, terwijl je vaardigheden om risico's te identificeren en te beperken worden verbeterd. Bereid u voor om een echte expert in Bitcoin wallets te worden!
 
 
+Deze tabel biedt u een vertaling van de belangrijkste gebruikte Engelse termen, om u te helpen de schema’s en technische documenten die in de cursus CYP 201 worden gebruikt beter te begrijpen.
+
+| Engels          | Vertaling / Uitleg                                                                                 |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Hash van de publieke sleutel (gebruikt om een Bitcoin-adres te genereren).                         |
+| *public key*    | Publieke sleutel (gebruikt om fondsen te ontvangen, afgeleid van de privésleutel).                 |
+| *signature*     | Digitale handtekening (cryptografisch bewijs dat een bericht afkomstig is van de houder van een privésleutel). |
+| *scriptPubKey*  | Vergrendelingsscript (definieert de voorwaarden om een output te besteden).                         |
+| *scriptSig*     | Ontgrendelingsscript (levert de gegevens om het *scriptPubKey* te vervullen).                      |
+| *Stack*         | Stack (datastructuur gebruikt door *Bitcoin Script*).                                               |
+| *input*         | Transactie-invoer (referentie naar een vorige output die als bron wordt gebruikt).                  |
+| *output*        | Transactie-uitvoer (definieert de ontvanger en het bedrag).                                         |
+| *transaction*   | Bitcoin-transactie (set van inputs en outputs die een overdracht valideren).                        |
+| *XOR*           | Logische operator "exclusief OF", gebruikt in sommige cryptografische schema's.                    |
+| *HMAC*          | Berichtauthenticatiecode gebaseerd op een hash en een geheime sleutel.                              |
+| *ECDSA*         | Digitale handtekening algoritme met elliptische krommen.                                            |
+| *hash*          | Hash (unieke en vaste vingerafdruk van gegevens).                                                   |
+| *SigHash*       | Type handtekening-hash (definieert welke delen van een transactie worden ondertekend).              |
+| *HD Wallet*     | Hiërarchische deterministische wallet (genereert meerdere sleutels uit één seed).                   |
+| *Random Number* | Willekeurig getal (gebruikt om veilige privésleutels te genereren).                                 |
+| *State*         | Toestand (tussenliggende waarde in een cryptografisch proces).                                      |
+| *Entropy*       | Entropie (maat voor willekeur, gebruikt om wallet-seeds te genereren).                              |
+| *Mnemonic*      | Mnemotechnisch hulpmiddel (reeks woorden die het back-uppen en herstellen van een seed vereenvoudigen). |
+| *Wordlist*      | Woordenlijst (vooraf gedefinieerde set gebruikt om BIP39-mnemonics te genereren).                   |
+| *Seed*          | Seed (initiële waarde waarmee alle sleutels in een HD-wallet kunnen worden afgeleid).               |
+| *Address*       | Bitcoin-adres (leesbare identificatie voor het ontvangen van fondsen, afgeleid van de publieke sleutel). |
+| *Leaf*          | Blad (eindknooppunt in een afgeleide boom).                                                         |
+
 # Hash Functies
 
 

@@ -58,6 +58,33 @@ Enfin, à partir de la clé maîtresse, nous découvrirons comment les paires de
 
 Cette formation vous permettra d’utiliser vos logiciels de portefeuille en toute confiance, tout en renforçant vos compétences pour identifier et atténuer les risques. Préparez-vous à devenir un véritable expert des portefeuilles Bitcoin !
 
+
+| Anglais         | Traduction / Explication                                                                           |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Hachage de clé publique (utilisé pour générer une adresse Bitcoin).                                |
+| *public key*    | Clé publique (sert à recevoir des fonds, dérivée de la clé privée).                                |
+| *signature*     | Signature numérique (preuve cryptographique qu’un message provient du détenteur d’une clé privée). |
+| *scriptPubKey*  | Script de verrouillage (définit les conditions pour dépenser une sortie).                          |
+| *scriptSig*     | Script de déverrouillage (fournit les données pour satisfaire le *scriptPubKey*).                  |
+| *Stack*         | Pile d’exécution (structure de données utilisée par *Bitcoin Script*).                             |
+| *input*         | Entrée d’une transaction (référence à une sortie précédente utilisée comme source).                |
+| *output*        | Sortie d’une transaction (définit le destinataire et le montant).                                  |
+| *transaction*   | Transaction Bitcoin (ensemble d’entrées et de sorties validant un transfert).                      |
+| *XOR*           | Opérateur logique "OU exclusif", utilisé dans certains schémas cryptographiques.                   |
+| *HMAC*          | Code d’authentification de message basé sur un hachage et une clé secrète.                         |
+| *ECDSA*         | Algorithme de signature numérique à courbe elliptique.                                             |
+| *hash*          | Hachage (empreinte unique et fixe d'une donnée).                                                   |
+| *SigHash*       | Type de hachage de signature (définit quelles parties d’une transaction sont signées).             |
+| *HD Wallet*     | Portefeuille déterministe hiérarchique (génère plusieurs clés à partir d’une seule graine).        |
+| *Random Number* | Nombre aléatoire (utilisé pour générer des clés privées sécurisées).                               |
+| *State*         | État (valeur intermédiaire dans un processus cryptographique).                                     |
+| *Entropy*       | Entropie (mesure d’aléa, utilisée pour générer des graines de portefeuille).                       |
+| *Mnemonic*      | Mnémonique (suite de mots facilitant la sauvegarde et la restauration d’une graine).               |
+| *Wordlist*      | Liste de mots (ensemble prédéfini utilisé pour générer les mnémoniques BIP39).                     |
+| *Seed*          | Graine (valeur initiale permettant de dériver toutes les clés d’un HD Wallet).                     |
+| *Address*       | Adresse Bitcoin (identifiant lisible pour recevoir des fonds, dérivé de la clé publique).          |
+| *Leaf*          | Feuille (nœud terminal dans un arbre de dérivation).                                               |
+
 # Les fonctions de hachage
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

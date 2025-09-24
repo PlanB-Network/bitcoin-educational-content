@@ -52,6 +52,34 @@ Akhirnya, dari master key, kita akan menemukan bagaimana pasangan kunci kriptogr
 
 Pelatihan ini akan memungkinkan Anda untuk menggunakan perangkat lunak dompet Anda dengan percaya diri, sambil meningkatkan keterampilan Anda untuk mengidentifikasi dan mengurangi risiko. Bersiaplah untuk menjadi seorang ahli sejati dalam dompet Bitcoin!
 
+Tabel ini memberikan Anda terjemahan dari istilah-istilah utama dalam bahasa Inggris yang digunakan, untuk mempermudah pemahaman Anda terhadap skema dan dokumen teknis yang digunakan dalam kursus CYP 201.
+
+| Inggris         | Terjemahan / Penjelasan                                                                            |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Hash kunci publik (digunakan untuk menghasilkan alamat Bitcoin).                                    |
+| *public key*    | Kunci publik (digunakan untuk menerima dana, diturunkan dari kunci privat).                         |
+| *signature*     | Tanda tangan digital (bukti kriptografis bahwa pesan berasal dari pemegang kunci privat).           |
+| *scriptPubKey*  | Script pengunci (menentukan syarat untuk membelanjakan output).                                     |
+| *scriptSig*     | Script pembuka (menyediakan data untuk memenuhi *scriptPubKey*).                                    |
+| *Stack*         | Tumpukan eksekusi (struktur data yang digunakan oleh *Bitcoin Script*).                             |
+| *input*         | Input transaksi (referensi ke output sebelumnya yang digunakan sebagai sumber).                     |
+| *output*        | Output transaksi (menentukan penerima dan jumlah).                                                  |
+| *transaction*   | Transaksi Bitcoin (sekumpulan input dan output yang memvalidasi transfer).                          |
+| *XOR*           | Operator logika "OR eksklusif", digunakan dalam beberapa skema kriptografi.                        |
+| *HMAC*          | Kode autentikasi pesan berbasis hash dan kunci rahasia.                                             |
+| *ECDSA*         | Algoritma tanda tangan digital kurva eliptik.                                                       |
+| *hash*          | Hash (sidik jari unik dan tetap dari suatu data).                                                   |
+| *SigHash*       | Jenis hash tanda tangan (menentukan bagian transaksi mana yang ditandatangani).                     |
+| *HD Wallet*     | Dompet deterministik hierarkis (menghasilkan banyak kunci dari satu seed).                          |
+| *Random Number* | Angka acak (digunakan untuk menghasilkan kunci privat yang aman).                                   |
+| *State*         | Status (nilai perantara dalam proses kriptografi).                                                  |
+| *Entropy*       | Entropi (ukuran keacakan, digunakan untuk menghasilkan seed dompet).                                |
+| *Mnemonic*      | Mnemonik (urutan kata yang memudahkan pencadangan dan pemulihan seed).                              |
+| *Wordlist*      | Daftar kata (kumpulan kata yang telah ditentukan untuk menghasilkan mnemonik BIP39).                |
+| *Seed*          | Seed (nilai awal yang memungkinkan turunan semua kunci dalam HD Wallet).                            |
+| *Address*       | Alamat Bitcoin (pengidentifikasi yang dapat dibaca untuk menerima dana, diturunkan dari kunci publik). |
+| *Leaf*          | Daun (simpul terminal dalam pohon turunan).                                                         |
+
 # Fungsi Hash
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

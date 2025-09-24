@@ -80,6 +80,34 @@ Son olarak, ana anahtardan, kriptografik anahtar çiftlerinin alıcı adreslere 
 Bu eğitim, riskleri belirleme ve azaltma becerilerinizi geliştirirken Wallet yazılımınızı güvenle kullanmanızı sağlayacaktır. Bitcoin cüzdanlarında gerçek bir uzman olmaya hazırlanın!
 
 
+Bu tablo, CYP 201 dersi kapsamında kullanılan şemaları ve teknik belgeleri daha kolay anlamanızı sağlamak için kullanılan temel İngilizce terimlerin çevirisini sunar.
+
+| İngilizce       | Çeviri / Açıklama                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Genel anahtar karması (Bitcoin adresi oluşturmak için kullanılır).                                  |
+| *public key*    | Genel anahtar (fon almak için kullanılır, özel anahtardan türetilmiştir).                           |
+| *signature*     | Dijital imza (bir mesajın özel anahtar sahibinden geldiğini kanıtlayan kriptografik delil).         |
+| *scriptPubKey*  | Kilitleme betiği (bir çıktının harcanma koşullarını tanımlar).                                      |
+| *scriptSig*     | Kilit açma betiği (*scriptPubKey*'i karşılamak için verileri sağlar).                              |
+| *Stack*         | Yığın (*Bitcoin Script* tarafından kullanılan veri yapısı).                                         |
+| *input*         | İşlem girdisi (kaynak olarak kullanılan önceki bir çıktıya referans).                               |
+| *output*        | İşlem çıktısı (alıcıyı ve miktarı tanımlar).                                                        |
+| *transaction*   | Bitcoin işlemi (bir transferi doğrulayan giriş ve çıkışların bütünü).                               |
+| *XOR*           | Mantıksal operatör "özel VEYA", bazı kriptografik şemalarda kullanılır.                            |
+| *HMAC*          | Hash ve gizli anahtara dayalı mesaj kimlik doğrulama kodu.                                          |
+| *ECDSA*         | Eliptik eğri dijital imza algoritması.                                                              |
+| *hash*          | Hash (verinin benzersiz ve sabit parmak izi).                                                       |
+| *SigHash*       | İmza karması türü (bir işlemin hangi bölümlerinin imzalandığını tanımlar).                          |
+| *HD Wallet*     | Hiyerarşik deterministik cüzdan (tek bir tohumdan birden çok anahtar üretir).                       |
+| *Random Number* | Rastgele sayı (güvenli özel anahtarlar üretmek için kullanılır).                                    |
+| *State*         | Durum (kriptografik bir süreçteki ara değer).                                                       |
+| *Entropy*       | Entropi (rastgeleliğin ölçüsü, cüzdan tohumları üretmek için kullanılır).                           |
+| *Mnemonic*      | Mnemonik (bir tohumun yedeklenmesini ve geri yüklenmesini kolaylaştıran kelime dizisi).             |
+| *Wordlist*      | Kelime listesi (BIP39 mnemonikleri üretmek için kullanılan önceden tanımlanmış küme).               |
+| *Seed*          | Tohum (bir HD cüzdanındaki tüm anahtarların türetilmesine izin veren başlangıç değeri).             |
+| *Address*       | Bitcoin adresi (fon almak için okunabilir tanımlayıcı, genel anahtardan türetilmiştir).             |
+| *Leaf*          | Yaprak (türev ağacındaki terminal düğüm).                                                           |
+
 # Hash Fonksiyonları
 
 

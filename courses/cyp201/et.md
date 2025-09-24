@@ -52,6 +52,34 @@ Lõpuks, alates peamisest võtmest, avastame, kuidas krüptograafilised võtmepa
 
 See koolitus võimaldab teil oma rahakoti tarkvara usaldusväärselt kasutada, samal ajal parandades teie oskusi riskide tuvastamiseks ja leevendamiseks. Valmistuge saama tõeliseks eksperdiks Bitcoin'i rahakottides!
 
+See tabel pakub teile tõlke peamistest ingliskeelsetest terminitest, mida kasutatakse, et hõlbustada skeemide ja tehniliste dokumentide mõistmist, mida kasutatakse CYP 201 kursuse raames.
+
+| Inglise         | Tõlge / Selgitus                                                                                   |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Avaliku võtme räsi (kasutatakse Bitcoini aadressi loomiseks).                                       |
+| *public key*    | Avalik võti (kasutatakse vahendite vastuvõtmiseks, tuletatud privaatvõtmest).                       |
+| *signature*     | Digitaalallkiri (kryptograafiline tõend, et sõnum pärineb privaatvõtme omanikult).                  |
+| *scriptPubKey*  | Lukustusskript (määrab tingimused väljundi kulutamiseks).                                           |
+| *scriptSig*     | Avamisskript (annab andmed *scriptPubKey* rahuldamiseks).                                           |
+| *Stack*         | Pinu (andmestruktuur, mida kasutab *Bitcoin Script*).                                              |
+| *input*         | Tehingu sisend (viide eelmisele väljundile, mida kasutatakse allikana).                             |
+| *output*        | Tehingu väljund (määrab saaja ja summa).                                                            |
+| *transaction*   | Bitcoini tehing (sisendite ja väljundite kogum, mis kinnitab ülekande).                             |
+| *XOR*           | Loogikaoperaator "eksklusiivne VÕI", mida kasutatakse mõnes krüptograafilises skeemis.             |
+| *HMAC*          | Sõnumi autentimiskood, mis põhineb räsi ja salajase võtme kombinatsioonil.                          |
+| *ECDSA*         | Elliptilise kõvera digitaalallkirja algoritm.                                                       |
+| *hash*          | Räsi (unikaalne ja fikseeritud andmete sõrmejälg).                                                  |
+| *SigHash*       | Allkirja räsi tüüp (määrab, millised tehingu osad allkirjastatakse).                                |
+| *HD Wallet*     | Hierarhiline deterministlik rahakott (genereerib ühe seemne põhjal mitu võtit).                     |
+| *Random Number* | Juhuslik number (kasutatakse turvaliste privaatvõtmete genereerimiseks).                            |
+| *State*         | Oleku väärtus (vaheväärtus krüptograafilises protsessis).                                          |
+| *Entropy*       | Entroopia (juhuslikkuse mõõt, mida kasutatakse rahakoti seemnete genereerimiseks).                 |
+| *Mnemonic*      | Mnemoonika (sõnade jada, mis lihtsustab seemne varundamist ja taastamist).                          |
+| *Wordlist*      | Sõnastik (eelmääratud sõnade kogum, mida kasutatakse BIP39 mnemoonikute loomiseks).                 |
+| *Seed*          | Seeme (algväärtus, millest saab tuletada kõik HD rahakoti võtmed).                                  |
+| *Address*       | Bitcoini aadress (inimloetav identifikaator vahendite vastuvõtmiseks, tuletatud avalikust võtmest). |
+| *Leaf*          | Leht (lõppsõlm tuletuspuus).                                                                       |
+
 # Hash-funktsioonid
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

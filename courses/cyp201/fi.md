@@ -52,6 +52,34 @@ Lopuksi, pääavaimesta, tutustumme siihen, kuinka kryptografiset avainparit joh
 
 Tämä koulutus mahdollistaa sinulle lompakko-ohjelmiston käytön luottavaisin mielin, samalla parantaen taitojasi tunnistaa ja lieventää riskejä. Valmistaudu tulemaan todelliseksi asiantuntijaksi Bitcoin-lompakoissa!
 
+Tämä taulukko tarjoaa sinulle käännöksen käytetyistä keskeisistä englanninkielisistä termeistä, jotta ymmärtäisit paremmin CYP 201 -kurssilla käytetyt kaaviot ja tekniset asiakirjat.
+
+| Englanti        | Käännös / Selitys                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Julkisen avaimen tiiviste (käytetään Bitcoin-osoitteen luomiseen).                                 |
+| *public key*    | Julkinen avain (käytetään varojen vastaanottamiseen, johdettu yksityisestä avaimesta).              |
+| *signature*     | Digitaalinen allekirjoitus (kryptografinen todiste siitä, että viesti on yksityisen avaimen haltijalta). |
+| *scriptPubKey*  | Lukitusskripti (määrittelee ehdot ulostulon käyttämiselle).                                         |
+| *scriptSig*     | Avainskripti (antaa tiedot *scriptPubKey*:n täyttämiseksi).                                         |
+| *Stack*         | Pino (datarakenne, jota *Bitcoin Script* käyttää).                                                 |
+| *input*         | Transaktion syöte (viittaus aiempaan ulostuloon, jota käytetään lähteenä).                          |
+| *output*        | Transaktion ulostulo (määrittelee vastaanottajan ja summan).                                        |
+| *transaction*   | Bitcoin-transaktio (joukko syötteitä ja ulostuloja, jotka vahvistavat siirron).                    |
+| *XOR*           | Looginen operaattori "poissulkeva TAI", jota käytetään tietyissä kryptografisissa järjestelmissä.  |
+| *HMAC*          | Viestin todennuskoodi, joka perustuu tiivisteeseen ja salaiseseen avaimeen.                         |
+| *ECDSA*         | Elliptisen käyrän digitaalisen allekirjoituksen algoritmi.                                          |
+| *hash*          | Tiiviste (datan ainutlaatuinen ja kiinteä sormenjälki).                                            |
+| *SigHash*       | Allekirjoitustiivisteen tyyppi (määrittelee, mitkä transaktion osat allekirjoitetaan).              |
+| *HD Wallet*     | Hierarkkinen deterministinen lompakko (generoi useita avaimia yhdestä siemenestä).                  |
+| *Random Number* | Satunnaisluku (käytetään turvallisten yksityisten avainten luomiseen).                              |
+| *State*         | Tila (välivaiheen arvo kryptografisessa prosessissa).                                              |
+| *Entropy*       | Entropia (satunnaisuuden mitta, jota käytetään lompakon siementen luomiseen).                       |
+| *Mnemonic*      | Mnemoniikka (sanajono, joka helpottaa siemenen varmuuskopiointia ja palautusta).                    |
+| *Wordlist*      | Sanalista (ennaltamäärätty sanajoukko, jota käytetään BIP39-mnemoniikkojen luomiseen).              |
+| *Seed*          | Siemen (alkuarvo, josta voidaan johtaa kaikki HD-lompakon avaimet).                                |
+| *Address*       | Bitcoin-osoite (ihmisen luettavissa oleva tunniste varojen vastaanottamiseen, johdettu julkisesta avaimesta). |
+| *Leaf*          | Lehti (päätesolmu johdospuiden rakenteessa).                                                       |
+
 # Häsäfunktiot
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

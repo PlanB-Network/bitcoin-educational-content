@@ -52,6 +52,34 @@ Til slutt, fra hovednøkkelen, vil vi oppdage hvordan kryptografiske nøkkelpar 
 
 Denne opplæringen vil gjøre deg i stand til å bruke lommebokprogramvaren din med tillit, samtidig som du forbedrer dine ferdigheter til å identifisere og redusere risikoer. Forbered deg på å bli en ekte ekspert på Bitcoin-lommebøker!
 
+Denne tabellen gir deg en oversettelse av de viktigste engelske termene som brukes, for å gjøre det lettere for deg å forstå skjemaene og de tekniske dokumentene som brukes i kurset CYP 201.
+
+| Engelsk         | Oversettelse / Forklaring                                                                          |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Offentlig nøkkel-hash (brukes til å generere en Bitcoin-adresse).                                   |
+| *public key*    | Offentlig nøkkel (brukes til å motta midler, avledet fra den private nøkkelen).                     |
+| *signature*     | Digital signatur (kryptografisk bevis på at en melding kommer fra innehaveren av en privat nøkkel). |
+| *scriptPubKey*  | Låseskript (definerer betingelsene for å bruke en utgang).                                          |
+| *scriptSig*     | Åpneskript (gir dataene for å oppfylle *scriptPubKey*).                                             |
+| *Stack*         | Stakk (datastruktur brukt av *Bitcoin Script*).                                                    |
+| *input*         | Transaksjonsinngang (referanse til en tidligere utgang brukt som kilde).                            |
+| *output*        | Transaksjonsutgang (definerer mottakeren og beløpet).                                               |
+| *transaction*   | Bitcoin-transaksjon (sett av innganger og utganger som validerer en overføring).                    |
+| *XOR*           | Logisk operator "eksklusiv ELLER", brukt i enkelte kryptografiske ordninger.                       |
+| *HMAC*          | Meldingsautentiseringskode basert på en hash og en hemmelig nøkkel.                                 |
+| *ECDSA*         | Digital signaturalgoritme med elliptiske kurver.                                                   |
+| *hash*          | Hash (unik og fast fingeravtrykk av data).                                                          |
+| *SigHash*       | Type signatur-hash (definerer hvilke deler av en transaksjon som signeres).                        |
+| *HD Wallet*     | Hierarkisk deterministisk lommebok (genererer flere nøkler fra ett frø).                            |
+| *Random Number* | Tilfeldig tall (brukes til å generere sikre private nøkler).                                        |
+| *State*         | Tilstand (mellomverdi i en kryptografisk prosess).                                                  |
+| *Entropy*       | Entropi (mål på tilfeldighet, brukt til å generere frø til lommebøker).                             |
+| *Mnemonic*      | Mnemonisk (rekke ord som forenkler sikkerhetskopiering og gjenoppretting av et frø).                |
+| *Wordlist*      | Ordsliste (forhåndsdefinert sett brukt til å generere BIP39-mnemonikker).                          |
+| *Seed*          | Frø (initialverdi som gjør det mulig å avlede alle nøklene i en HD-lommebok).                      |
+| *Address*       | Bitcoin-adresse (lesbart identifikator for å motta midler, avledet fra den offentlige nøkkelen).   |
+| *Leaf*          | Blad (endeknute i et avlednings-tre).                                                               |
+
 # Hashfunksjoner
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

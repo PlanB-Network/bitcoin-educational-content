@@ -55,6 +55,34 @@ Finally, from the master key, we will discover how cryptographic key pairs are d
 
 This training will enable you to use your wallet software with confidence, while enhancing your skills to identify and mitigate risks. Prepare to become a true expert in Bitcoin wallets!
 
+This table provides you with a translation of the main English terms used, to help you better understand the diagrams and technical documents used in the CYP 201 course.
+
+| English         | Translation / Explanation                                                                          |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Public key hash (used to generate a Bitcoin address).                                              |
+| *public key*    | Public key (used to receive funds, derived from the private key).                                  |
+| *signature*     | Digital signature (cryptographic proof that a message comes from the holder of a private key).     |
+| *scriptPubKey*  | Locking script (defines the conditions to spend an output).                                        |
+| *scriptSig*     | Unlocking script (provides the data to satisfy the *scriptPubKey*).                                |
+| *Stack*         | Execution stack (data structure used by *Bitcoin Script*).                                         |
+| *input*         | Transaction input (reference to a previous output used as source).                                 |
+| *output*        | Transaction output (defines the recipient and the amount).                                         |
+| *transaction*   | Bitcoin transaction (set of inputs and outputs validating a transfer).                             |
+| *XOR*           | Logical operator "exclusive OR", used in some cryptographic schemes.                               |
+| *HMAC*          | Message authentication code based on a hash and a secret key.                                      |
+| *ECDSA*         | Elliptic Curve Digital Signature Algorithm.                                                        |
+| *hash*          | Hash (unique and fixed fingerprint of data).                                                       |
+| *SigHash*       | Signature hash type (defines which parts of a transaction are signed).                             |
+| *HD Wallet*     | Hierarchical deterministic wallet (generates multiple keys from a single seed).                    |
+| *Random Number* | Random number (used to generate secure private keys).                                              |
+| *State*         | State (intermediate value in a cryptographic process).                                             |
+| *Entropy*       | Entropy (measure of randomness, used to generate wallet seeds).                                    |
+| *Mnemonic*      | Mnemonic (sequence of words making it easier to back up and restore a seed).                       |
+| *Wordlist*      | Wordlist (predefined set used to generate BIP39 mnemonics).                                        |
+| *Seed*          | Seed (initial value allowing derivation of all keys in an HD Wallet).                              |
+| *Address*       | Bitcoin address (human-readable identifier for receiving funds, derived from the public key).      |
+| *Leaf*          | Leaf (terminal node in a derivation tree).                                                         |
+
 # Hash Functions
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

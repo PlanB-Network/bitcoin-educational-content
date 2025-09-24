@@ -80,6 +80,34 @@ Ubwa nyuma, kuva ku rufunguzo rwa mbere, tuzobona ingene urufunguzo rw’ibanga 
 Iryo shure rizotuma ushobora gukoresha porogarama yawe ya Wallet wizigiye, mu gihe uzokwongerera ubuhinga bwo kumenya no kugabanya ingorane. Nimwitegure kuba umuhinga nyakuri mu vy’amasakoshi ya Bitcoin!
 
 
+Iyi mbonerahamwe iguha ubusobanuro bw’amagambo y’icongereza akunda gukoreshwa, kugira ngo bigufashe gusobanukirwa neza amashusho n’inyandiko z’ubuhanga zikoreshwa mu masomo ya CYP 201.
+
+| Icongereza      | Ibisobanuro / Ibisobanuro                                                                           |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Hash y'urufunguzo rw'umuryango (ikoreshwa mugukora aderesi ya Bitcoin).                            |
+| *public key*    | Urufunguzo rw'umuryango (rukoreshwa mugwakira amafaranga, rukomoka k'urufunguzo rw'ibanga).         |
+| *signature*     | Umukono wa dijitale (ikimenyetso cya cryptographie cyerekana ko ubutumwa buva ku nyir' urufunguzo rw'ibanga). |
+| *scriptPubKey*  | Script yo gufunga (igena uburyo bwo gukoresha output).                                              |
+| *scriptSig*     | Script yo gufungura (itanga amakuru yo kuzura *scriptPubKey*).                                      |
+| *Stack*         | Stack (uburyo bw'imiterere y'amakuru bukoreshwa na *Bitcoin Script*).                               |
+| *input*         | Icyinjizo cya transaction (icyerekezo ku output yahise ikoreshwa nk'isoko).                        |
+| *output*        | Icyasohotse cya transaction (igena uwakiriye n' amafaranga).                                        |
+| *transaction*   | Transaction ya Bitcoin (itsinda ry'ibyinjijwe n'ibyashyizwe hanze bigaragaza kohereza amafaranga).  |
+| *XOR*           | Operateri ya logic "OR idasanzwe", ikoreshwa mu buryo bumwe bwa cryptographie.                     |
+| *HMAC*          | Kode yo kugenzura ubutumwa ishingiye kuri hash n'urufunguzo rw'ibanga.                              |
+| *ECDSA*         | Algorithmu y'umukono wa dijitale ushingiye ku mirongo y'ibiziga by'ellipse.                         |
+| *hash*          | Hash (ikimenyetso cyihariye kandi gihoraho cy'amakuru).                                             |
+| *SigHash*       | Ubwoko bwa hash bw'umukono (bugena ibice bya transaction bisinywa).                                 |
+| *HD Wallet*     | Wallet idashobora guhinduka igendera ku byiciro (ikora imfunguzo nyinshi uhereye ku mbuto imwe).    |
+| *Random Number* | Umubare w'ibanze (ukoreshwa mugukora imfunguzo z'ibanga zizewe).                                    |
+| *State*         | Leta (agaciro kari hagati mu buryo bwa cryptographie).                                              |
+| *Entropy*       | Entropie (igipimo cy'ubusanzwe, gikoreshwa mugukora imbuto za wallet).                             |
+| *Mnemonic*      | Mnemonique (urukurikirane rw'amagambo yorohereza kubika no kugarura imbuto).                        |
+| *Wordlist*      | Urutonde rw'amagambo (itsinda ryagenwe rikoreshwa mugukora mnemonique za BIP39).                    |
+| *Seed*          | Imbuto (agaciro k'ibanze gashobora gukuramo imfunguzo zose za HD Wallet).                           |
+| *Address*       | Aderesi ya Bitcoin (ikimenyetso cyoroshye gusoma cyo kwakira amafaranga, gituruka ku rufunguzo rw'umuryango). |
+| *Leaf*          | Ishami (iherezo ry'igiti cya derivation).                                                           |
+
 # Imikorere ya Hash
 
 

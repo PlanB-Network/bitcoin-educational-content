@@ -53,6 +53,34 @@ Cuối cùng, từ khóa chủ, chúng ta sẽ khám phá cách các cặp khóa
 
 Khóa học này sẽ giúp bạn sử dụng phần mềm ví của mình một cách tự tin, đồng thời nâng cao kỹ năng của bạn trong việc nhận diện và giảm thiểu rủi ro. Chuẩn bị trở thành một chuyên gia thực thụ về ví Bitcoin!
 
+Bảng này cung cấp cho bạn bản dịch các thuật ngữ tiếng Anh chính được sử dụng, nhằm giúp bạn dễ dàng hiểu các sơ đồ và tài liệu kỹ thuật được sử dụng trong khuôn khổ khóa học CYP 201.
+
+| Tiếng Anh       | Dịch / Giải thích                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Băm khóa công khai (dùng để tạo địa chỉ Bitcoin).                                                  |
+| *public key*    | Khóa công khai (dùng để nhận tiền, được dẫn xuất từ khóa riêng).                                    |
+| *signature*     | Chữ ký số (bằng chứng mật mã rằng một thông điệp đến từ chủ sở hữu khóa riêng).                      |
+| *scriptPubKey*  | Script khóa (xác định điều kiện để chi tiêu một đầu ra).                                            |
+| *scriptSig*     | Script mở khóa (cung cấp dữ liệu để thỏa mãn *scriptPubKey*).                                       |
+| *Stack*         | Ngăn xếp (cấu trúc dữ liệu được *Bitcoin Script* sử dụng).                                          |
+| *input*         | Đầu vào giao dịch (tham chiếu đến một đầu ra trước đó được sử dụng làm nguồn).                      |
+| *output*        | Đầu ra giao dịch (xác định người nhận và số tiền).                                                  |
+| *transaction*   | Giao dịch Bitcoin (tập hợp các đầu vào và đầu ra xác thực một khoản chuyển).                        |
+| *XOR*           | Toán tử logic "HOẶC loại trừ", được sử dụng trong một số sơ đồ mật mã.                              |
+| *HMAC*          | Mã xác thực thông điệp dựa trên hàm băm và khóa bí mật.                                             |
+| *ECDSA*         | Thuật toán chữ ký số đường cong elliptic.                                                           |
+| *hash*          | Băm (dấu vân tay duy nhất và cố định của dữ liệu).                                                  |
+| *SigHash*       | Loại băm chữ ký (xác định phần nào của giao dịch được ký).                                          |
+| *HD Wallet*     | Ví xác định phân cấp (tạo nhiều khóa từ một hạt giống duy nhất).                                    |
+| *Random Number* | Số ngẫu nhiên (dùng để tạo khóa riêng an toàn).                                                     |
+| *State*         | Trạng thái (giá trị trung gian trong một quá trình mật mã).                                         |
+| *Entropy*       | Entropy (thước đo độ ngẫu nhiên, dùng để tạo hạt giống ví).                                         |
+| *Mnemonic*      | Ghi nhớ (chuỗi từ giúp dễ dàng sao lưu và khôi phục hạt giống).                                    |
+| *Wordlist*      | Danh sách từ (tập hợp được xác định trước dùng để tạo ghi nhớ BIP39).                               |
+| *Seed*          | Hạt giống (giá trị ban đầu cho phép dẫn xuất tất cả các khóa trong một ví HD).                     |
+| *Address*       | Địa chỉ Bitcoin (định danh có thể đọc được để nhận tiền, được dẫn xuất từ khóa công khai).           |
+| *Leaf*          | Lá (nút cuối trong cây dẫn xuất).                                                                   |
+
 # Hàm Băm
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

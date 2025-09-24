@@ -54,6 +54,34 @@ Infine, partendo dalla master key, scopriremo come vengono derivate le coppie di
 
 CYP201 ti permetterà di utilizzare il tuo software wallet con fiducia, migliorando al contempo le tue capacità di riconoscere e mitigare i rischi. Preparati a diventare un vero esperto di wallet Bitcoin!
 
+Questa tabella vi offre una traduzione dei principali termini inglesi utilizzati, al fine di agevolare la comprensione degli schemi e dei documenti tecnici impiegati nell'ambito del corso CYP 201.
+
+| Inglese         | Traduzione / Spiegazione                                                                           |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Hash della chiave pubblica (usato per generare un indirizzo Bitcoin).                              |
+| *public key*    | Chiave pubblica (serve a ricevere fondi, derivata dalla chiave privata).                           |
+| *signature*     | Firma digitale (prova crittografica che un messaggio proviene dal titolare di una chiave privata). |
+| *scriptPubKey*  | Script di blocco (definisce le condizioni per spendere un'uscita).                                 |
+| *scriptSig*     | Script di sblocco (fornisce i dati per soddisfare il *scriptPubKey*).                              |
+| *Stack*         | Stack di esecuzione (struttura dati utilizzata da *Bitcoin Script*).                               |
+| *input*         | Input di una transazione (riferimento a un'uscita precedente usata come fonte).                    |
+| *output*        | Output di una transazione (definisce il destinatario e l'importo).                                 |
+| *transaction*   | Transazione Bitcoin (insieme di input e output che convalidano un trasferimento).                  |
+| *XOR*           | Operatore logico "OR esclusivo", usato in alcuni schemi crittografici.                             |
+| *HMAC*          | Codice di autenticazione dei messaggi basato su un hash e una chiave segreta.                      |
+| *ECDSA*         | Algoritmo di firma digitale a curva ellittica.                                                     |
+| *hash*          | Hash (impronta digitale unica e fissa di un dato).                                                 |
+| *SigHash*       | Tipo di hash della firma (definisce quali parti di una transazione vengono firmate).               |
+| *HD Wallet*     | Portafoglio deterministico gerarchico (genera più chiavi da un unico seme).                        |
+| *Random Number* | Numero casuale (usato per generare chiavi private sicure).                                         |
+| *State*         | Stato (valore intermedio in un processo crittografico).                                            |
+| *Entropy*       | Entropia (misura della casualità, usata per generare semi del portafoglio).                        |
+| *Mnemonic*      | Mnemonico (sequenza di parole che facilita il backup e il ripristino di un seme).                  |
+| *Wordlist*      | Elenco di parole (insieme predefinito usato per generare mnemonici BIP39).                         |
+| *Seed*          | Seme (valore iniziale che consente di derivare tutte le chiavi di un HD Wallet).                   |
+| *Address*       | Indirizzo Bitcoin (identificatore leggibile per ricevere fondi, derivato dalla chiave pubblica).   |
+| *Leaf*          | Foglia (nodo terminale in un albero di derivazione).                                               |
+
 # Funzioni Hash
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

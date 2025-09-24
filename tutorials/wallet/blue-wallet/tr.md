@@ -1,5 +1,5 @@
 ---
-name: Mavi Wallet
+name: Blue Wallet
 
 description: Bitcoin Son Derece Basit ve Güçlü Portföy
 ---
@@ -11,7 +11,7 @@ KİS-3'ü kullanmaya başlamak, kullanımının basitliği konusunda şüpheci o
 
 
 
-Bu eğitimde, bitcoinlerinizi kişisel olarak yönetmenize ve ayrıca [Multisig](https://planb.network/resources/glossary/Multisig) tabanlı yönetim kooperatifleri oluşturmanıza olanak tanıyan basit ama oldukça etkili bir Bitcoin Wallet olan Blue Wallet'ya göz atacağız (endişelenmeyin, buna geri döneceğiz).
+Bu eğitimde, bitcoinlerinizi kişisel olarak yönetmenize ve ayrıca [Multisig](https://planb.network/resources/glossary/multisig) tabanlı yönetim kooperatifleri oluşturmanıza olanak tanıyan basit ama oldukça etkili bir Bitcoin Wallet olan Blue Wallet'ya göz atacağız (endişelenmeyin, buna geri döneceğiz).
 
 
 
@@ -106,7 +106,7 @@ Almak istediğiniz Bitcoin miktarını belirtmek için önceden tanımlanmış b
 
 
 
-- Gönder** düğmesinde, istediğiniz miktarı ayarlayarak ve işlemi doğrulayarak bir Bitcoin Address'e bitcoin gönderin.
+- **Gönder** düğmesinde, istediğiniz miktarı ayarlayarak ve işlemi doğrulayarak bir Bitcoin Address'e bitcoin gönderin.
 
 
 
@@ -152,7 +152,7 @@ Sırasıyla **Alıcıyı Kaldır** ve **Tüm Alıcıları Kaldır** seçenekleri
 
 
 
-- Ücretleri şişirmek**: Onaylanması uzun süren bir işlem mi yaptınız? Ücret şişirmeyi etkinleştirerek, onaylanmasını hızlandırmak için bekleyen işleminize ek işlem ücretleri ekleyebilirsiniz.
+- **Ücretleri şişirmek**: Onaylanması uzun süren bir işlem mi yaptınız? Ücret şişirmeyi etkinleştirerek, onaylanmasını hızlandırmak için bekleyen işleminize ek işlem ücretleri ekleyebilirsiniz.
 
 
 
@@ -248,7 +248,7 @@ Multisig Wallet sayfanızda işlem geçmişinizi ve Al ve Gönder düğmelerini 
 
 
 
-- Bitcoin gönderin** :
+- **Bitcoin gönderin** :
 
 
 
@@ -264,7 +264,7 @@ Blue Wallet'ın standart Bitcoin portföyünde olduğu gibi, **Alıcı ekle** se
 
 
 
-İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin] (https://planb.network/resources/glossary/PSBT) QR kodunu tarayarak işlemi imzalayabilir.
+İkinci Wallet imza sahibi de bir kullanıcıysa, İnternet dışında olsa bile (Wi-Fi yok, mobil veri yok) yeni oluşturduğunuz [kısmen imzalanmış işlemin] (https://planb.network/resources/glossary/psbt) QR kodunu tarayarak işlemi imzalayabilir.
 
 
 
@@ -274,7 +274,7 @@ Blue Wallet'ın standart Bitcoin portföyünde olduğu gibi, **Alıcı ekle** se
 
 
 
-- Multi signature** portföyü ile daha da ileri gidin:
+- **Multi signature** portföyü ile daha da ileri gidin:
 
 
 

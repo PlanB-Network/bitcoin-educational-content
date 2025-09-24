@@ -1,0 +1,9 @@
+question: Wie onderhoudt de DNS seed servers die gebruikt worden voor de initiële peer discovery?
+answer: Ecosysteemontwikkelaars
+wrong_answers:
+  - Internetproviders
+  - Satoshi Nakamoto
+  - Mining zwembaden
+explanation: |
+  DNS seeds worden onderhouden door bekende ontwikkelaars (Wuille, Corallo, Dashjr, etc.) en bieden actieve knooppunt-IP's om verbindingen te initiëren.
+reviewed: true

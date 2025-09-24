@@ -1,9 +1,9 @@
-question: Was müssen Nutzer selbst speichern, um ihre Bitcoins wirklich zu besitzen?
+question: Was müssen Nutzer selbst verwahren, um ihre Bitcoins wirklich zu besitzen?
 answer: Private Schlüssel
 wrong_answers:
   - Empfangsadressen
   - Exchange-Plattform-Passwörter
   - Blockchain-Blöcke
 explanation: |
-  Wenn Sie Ihre privaten Schlüssel nicht besitzen, gehören Ihnen Ihre Bitcoins nicht wirklich.
+  Wenn du deine privaten Schlüssel nicht besitzt, gehören dir deine Bitcoins nicht wirklich.
 reviewed: false

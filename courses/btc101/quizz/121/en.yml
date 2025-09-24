@@ -1,9 +1,11 @@
-question: Since its creation, what percentage of time has the Bitcoin network been functional for?
-answer: 99.988%.
+question: When you create an inheritance plan, what is not necessary to include?
+answer: The name of the Bitcoin wallet you usually use.
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
+  - An handwritten letter listing your assets.
+  - A description of how to access your funds.
+  - The contact information of trusted individuals.
 explanation: |
-  The online availability of Bitcoin is 99.988% since 2009.
+  creating an inheritance plan is a crucial step to ensure that your bitcoins will be properly managed after your death. 
+  This plan can include a handwritten letter listing your assets, 
+  their access methods, and the contact information of trusted individuals to be contacted
 reviewed: true

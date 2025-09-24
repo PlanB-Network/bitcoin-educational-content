@@ -1,0 +1,9 @@
+question: Quelle étape fait partie du rôle d’un mineur ?
+answer: Construire un bloc candidat à partir de la mempool
+wrong_answers:
+  - Valider la totalité de la blockchain à partir de la mempool
+  - Créer des adresses Bitcoin pour les utilisateurs
+  - Stocker les clés privées des portefeuilles
+explanation: |
+  Un mineur sélectionne les transactions dans la mempool et construit un bloc candidat qu’il tente de valider par preuve de travail.
+reviewed: false

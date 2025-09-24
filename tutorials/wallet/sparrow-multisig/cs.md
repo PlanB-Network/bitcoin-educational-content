@@ -1,5 +1,5 @@
 ---
-name: Vrabec Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Vytvoření portfolia s více podpisy v aplikaci Sparrow
 ---
 ![cover](assets/cover.webp)

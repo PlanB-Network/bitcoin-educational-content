@@ -1,11 +1,11 @@
-question: Bitcoin satın almanın risklerinden biri nedir?
-answer: Fiyatı 0'a kadar düşebilir.
+question: Bir DCA platformu seçerken göz önünde bulundurmanız gereken şeylerden biri nedir?
+answer: Ülkenizde bulunabilirlik.
 wrong_answers:
-  - Kolayca çalınabilir.
-  - Çoğaltılabilir.
-  - Fiziksel olarak kaybolabilir.
+  - Platformun logosunun rengi.
+  - Platformdaki kullanıcı sayısı.
+  - Platformun yaşı.
 explanation: |
-  Kurs metninde Bitcoin'in oldukça uçucu bir madde olduğundan bahsedilmektedir
-  finansal varlıktır ve fiyatı 0'a düşebilir, bu da bir
-  gW-1'in satın alınmasıyla ilgili riskler.
+  Bu kurs metni, bir DCA seçerken
+  platformunda, doğru seçim daha çok platformun
+  ülkenizde bulunabilirlik.
 reviewed: true

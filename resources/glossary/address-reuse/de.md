@@ -7,4 +7,4 @@ Die Wiederverwendung von Adressen bezieht sich auf die Praxis, dieselbe Empfangs
 > "Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, um zu verhindern, dass sie mit einem gemeinsamen Besitzer verknüpft werden - Nakamoto, S. (2008). "Bitcoin: Ein Peer-to-Peer Electronic Cash System". Abgerufen unter https://bitcoin.org/bitcoin.pdf.
 Um die Privatsphäre so weit wie möglich zu schützen, wird dringend empfohlen, jede Empfängeradresse nur einmal zu verwenden. Für jede neue Zahlung sollte eine neue Adresse erstellt werden. Auch für den Wechsel von Ausgaben sollte eine neue Adresse verwendet werden. Glücklicherweise ist es dank der deterministischen und hierarchischen Wallets sehr einfach geworden, eine Vielzahl von Adressen zu verwenden. Alle Schlüsselpaare, die mit einer Wallet verbunden sind, lassen sich leicht aus dem Seed regenerieren. Das ist auch der Grund, warum die Wallet-Software immer eine neue, andere Adresse generiert, wenn Sie auf die Schaltfläche "Empfangen" klicken.
 
-> ► *Im Englischen heißt es "Address Reuse" (Adresswiederverwendung)
+> ► *Im Englischen heißt es "Address Reuse" (Adresswiederverwendung)*

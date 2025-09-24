@@ -1,11 +1,11 @@
 ---
-name: PayJoin - Samourai Wallet
+name: Payjoin - Samourai Wallet
 description: Hoe voer je een PayJoin transactie uit op Samourai Wallet?
 ---
 ![samourai payjoin cover](assets/cover.webp)
 
 
-***Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, werken Payjoins Stowaway op Samourai Wallet alleen nog door handmatig PSBT uit te wisselen tussen de betrokken partijen, op voorwaarde dat beide gebruikers verbonden zijn met hun eigen Dojo. Wat Sparrow betreft, werken Payjoins via BIP78 nog steeds. Het is echter mogelijk dat deze tools in de komende weken opnieuw worden gelanceerd. In de tussentijd kun je nog steeds dit artikel lezen om de theoretische werking van Stowaway te begrijpen.*
+**Na de arrestatie van de oprichters van Samourai Wallet en de inbeslagname van hun servers op 24 april, werken Payjoins Stowaway op Samourai Wallet alleen nog door handmatig PSBT uit te wisselen tussen de betrokken partijen, op voorwaarde dat beide gebruikers verbonden zijn met hun eigen Dojo. Wat Sparrow betreft, werken Payjoins via BIP78 nog steeds. Het is echter mogelijk dat deze tools in de komende weken opnieuw worden gelanceerd. In de tussentijd kun je nog steeds dit artikel lezen om de theoretische werking van Stowaway te begrijpen.**
 
 
 als u van plan bent om een Stowaway handmatig uit te voeren, is de procedure zeer vergelijkbaar met die beschreven in deze handleiding. Het belangrijkste verschil zit in de keuze van het type verstekverrichting: in plaats van `Online` te selecteren, klikt u op `In Person / Manual`. Vervolgens moet u handmatig Exchange de PSBTs om de Stowaway transactie te construeren. Als u fysiek dicht bij uw medewerker bent, kunt u de QR-codes achtereenvolgens scannen. Als u op afstand bent, kunnen JSON-bestanden worden uitgewisseld via een beveiligd communicatiekanaal. De rest van de tutorial blijft ongewijzigd._
@@ -39,7 +39,7 @@ Bij Cahoots-transacties worden gedeeltelijk ondertekende transacties tussen gebr
 Wanneer dit op afstand gebeurt, wordt dit proces te complex. Om dit probleem Address aan te pakken, heeft Samourai een versleuteld communicatieprotocol ontwikkeld op basis van Tor, genaamd "Soroban." Met Soroban worden de uitwisselingen die nodig zijn voor een PayJoin geautomatiseerd achter een gebruiksvriendelijke Interface. Dit is de tweede methode die we in dit artikel zullen bestuderen.
 
 
-Deze versleutelde uitwisselingen vereisen het opzetten van een verbinding en authenticatie tussen de Cahoots deelnemers. Soroban communicatie is daarom gebaseerd op de Paynyms van de gebruikers. Als je niet bekend bent met Paynyms, nodig ik je uit om dit artikel te raadplegen voor meer details: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/On-Chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
+Deze versleutelde uitwisselingen vereisen het opzetten van een verbinding en authenticatie tussen de Cahoots deelnemers. Soroban communicatie is daarom gebaseerd op de Paynyms van de gebruikers. Als je niet bekend bent met Paynyms, nodig ik je uit om dit artikel te raadplegen voor meer details: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 
 
 
@@ -56,7 +56,7 @@ Simpel gezegd is een Paynym een unieke identificatiecode gekoppeld aan je Wallet
 - _Paynym_ = Unieke identificatie van een Wallet die communicatie mogelijk maakt met een andere gebruiker op Soroban, om een Cahoots transactie uit te voeren.
 
 
-[**-> Meer informatie over PayJoin transacties en hun nut**](https://planb.network/tutorials/privacy/On-Chain/PayJoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
+[**-> Meer informatie over PayJoin transacties en hun nut**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 
 ## Hoe maak je een verbinding tussen Paynyms?

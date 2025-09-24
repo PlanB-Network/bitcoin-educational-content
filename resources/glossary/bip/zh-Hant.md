@@ -8,18 +8,18 @@ Bitcoin Improvement Proposal（Bitcoin 改善提案）的縮寫。Bitcoin 改善
 BIP 分為三大類：
 
 
-- 標準軌道 BIP*：與直接影響 Bitcoin 實作的修改有關，例如交易和區塊驗證規則；
-- 資訊性 BIP*：提供資訊或建議，但不建議直接變更規程；
-- 流程 BIP*：說明 Bitcoin 相關程序的變更，例如治理程序。
+- 標準軌道 **BIP**：與直接影響 Bitcoin 實作的修改有關，例如交易和區塊驗證規則；
+- 資訊性 BIP：提供資訊或建議，但不建議直接變更規程；
+- 流程 BIP：說明 Bitcoin 相關程序的變更，例如治理程序。
 
 
 標準軌跡和資訊性 BIP 也以 "Layer "分類：
 
 
-- 共識 Layer*：此 Layer 中的 BIP 涉及 Bitcoin 的共識規則，例如區塊或交易驗證規則的修改。這些提案可以是 Soft 分叉 (向後相容的修改) 或 Hard 分叉 (非向後相容的修改)。例如，SegWit 和 Taproot 的 BIP 就屬於這一類；
-- 對等服務*：此 Layer 關係到 Bitcoin 節點網路的運作，也就是節點如何在網際網路上相互尋找與通訊。
-- API/RPC*：此 Layer 的 BIP 關係到應用程式介面 (API) 和遠端程序呼叫 (RPC)，可讓 Bitcoin 軟體與節點互動；
-- 應用程式 Layer*：此 Layer 與建立在 Bitcoin 之上的應用程式有關。此類別中的 BIP 通常處理 Bitcoin Wallet 標準層級的修改。
+- 共識 **Layer**：此 Layer 中的 BIP 涉及 Bitcoin 的共識規則，例如區塊或交易驗證規則的修改。這些提案可以是 Soft 分叉 (向後相容的修改) 或 Hard 分叉 (非向後相容的修改)。例如，SegWit 和 Taproot 的 BIP 就屬於這一類；
+- 對等服務：此 Layer 關係到 Bitcoin 節點網路的運作，也就是節點如何在網際網路上相互尋找與通訊。
+- **API/RPC**：此 Layer 的 BIP 關係到應用程式介面 (API) 和遠端程序呼叫 (RPC)，可讓 Bitcoin 軟體與節點互動；
+- 應用程式 Layer：此 Layer 與建立在 Bitcoin 之上的應用程式有關。此類別中的 BIP 通常處理 Bitcoin Wallet 標準層級的修改。
 
 
 提交 BIP 的流程是先在 *Bitcoin-dev* 郵件列表上構思並討論想法。如果想法很有前途，作者就會依照特定格式起草 BIP，並透過核心 GitHub 套件庫上的 Pull Request 提交。編輯會審閱此提案，確認其符合所有標準。BIP 必須在技術上可行、對協定有益、符合規定的格式，並與 Bitcoin 的理念一致。如果 BIP 符合這些條件，它就會被正式整合到 BIP 的 GitHub 儲存庫中。然後，它會被分配一個編號。編號通常由編輯（通常是 Luke Dashjr）決定，並依邏輯分配：處理類似主題的 BIP 通常會獲得連續編號。

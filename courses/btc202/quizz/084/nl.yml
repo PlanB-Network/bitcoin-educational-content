@@ -1,0 +1,9 @@
+question: Wat is het standaard aantal uitgaande verbindingen dat een Bitcoin core knooppunt onderhoudt?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core onderhoudt standaard 10 uitgaande verbindingen (8 full-relay en 2 block-relay-only).
+reviewed: true

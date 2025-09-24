@@ -1,15 +1,13 @@
-question: Ni ipi kati ya zifuatazo sio sifa kuu ya shughuli ndogo kwenye Lightning Network?
-answer: Muda mrefu wa malipo.
+question: Je, Bitcoin ina uhusiano gani na mustakabali wa teknolojia na jamii?
+answer: Bitcoin ni mapinduzi ya kiteknolojia ambayo inaruhusu Exchange kuwa ya thamani bila wahusika wengine wanaoaminika.
 wrong_answers:
-  - Ada za Chini.
-  - Malipo ya Papo hapo.
-  - Scalability.
+  - Bitcoin ni aina ya teknolojia ya AI inayoruhusu watu kupata taarifa za Exchange kupitia seva kuu.
+  - Bitcoin ni chombo cha kudhibiti idadi ya watu duniani, kuruhusu uondoaji wa umaskini.
+  - Bitcoin ni njia ya serikali kufuatilia miamala ya fedha ya raia wao.
 explanation: |
-  Kwa miamala midogo ya Lightning Network, watumiaji wanaweza
-  kuwa na ada ya chini ya muamala, na kuifanya kuwa ya kiuchumi kutuma
-  kiasi kidogo sana cha Bitcoin. Wanaweza pia kuwa na papo hapo
-  malipo, kuruhusu miamala ya wakati halisi. Hatimaye wao
-  inaweza kupata scalability, kuwezesha utunzaji wa kubwa
-  idadi ya miamala kwa wakati mmoja. Hivyo, makosa
-  jibu ni muda mrefu wa malipo.
+  Maandishi yanaeleza kuwa Bitcoin, kama mtandao wa njia
+  ya mawasiliano, ni mapinduzi ya kiteknolojia ambayo
+  huunda nafasi kwa aina mpya za kiwango kikubwa
+  shirika, kutuletea uwezekano wa kubadilishana
+  thamani bila mtu wa tatu anayeaminika.
 reviewed: true

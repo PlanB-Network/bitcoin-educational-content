@@ -1,11 +1,8 @@
-question: Co mogłoby się stać z tradycyjnymi usługami przelewów pieniężnych, takimi jak Western Union, banki centralne, Visa i Mastercard, gdyby nie przyjęły Lightning Network?
-answer: Mogą zniknąć.
+question: Jakie jest jedno z potencjalnych zastosowań Lightning Network w życiu codziennym?
+answer: Natychmiastowe rozliczenia w handlu.
 wrong_answers:
-  - Mogą stać się bardziej popularne.
-  - Mogą stać się bardziej bezpieczne.
-  - Mogą stać się bardziej zdecentralizowane.
-explanation: |
-  Tradycyjne usługi przekazów pieniężnych, takie jak Western Union,
-  banki centralne, Visa i Mastercard mogą zniknąć, jeśli
-  nie przyjmą technologii Lightning Network.
+  - Mining nowe Bitcoiny.
+  - Tworzenie nowych kryptowalut.
+  - Zwiększenie wartości Bitcoin.
+explanation: >-
 reviewed: true

@@ -7,17 +7,17 @@ Lyhenne sanoista "Bitcoin Improvement Proposal" Bitcoin-parannusehdotus (Bitcoin
 Rajatarkastusohjelmat luokitellaan kolmeen pääryhmään:
 
 
-- Standardien seurannan raja-asemat*: Koskevat muutoksia, jotka vaikuttavat suoraan Bitcoin-toteutuksiin, kuten transaktio- ja lohkojen validointisääntöihin;
-- Tiedotusrajat*: Antavat tietoja tai suosituksia ehdottamatta suoria muutoksia pöytäkirjaan;
-- Käsittele rajatarkastusohjelmat*: Kuvaile muutokset Bitcoinia ympäröivissä menettelyissä, kuten hallintoprosesseissa.
+- Standardien seurannan raja-asemat: Koskevat muutoksia, jotka vaikuttavat suoraan Bitcoin-toteutuksiin, kuten transaktio- ja lohkojen validointisääntöihin;
+- **Tiedotusrajat**: Antavat tietoja tai suosituksia ehdottamatta suoria muutoksia pöytäkirjaan;
+- Käsittele rajatarkastusohjelmat: Kuvaile muutokset Bitcoinia ympäröivissä menettelyissä, kuten hallintoprosesseissa.
 
 Standardien seurantaan ja tiedottamiseen liittyvät rajatarkastusasemat luokitellaan myös 'kerroksen' mukaan:
 
 
-- Konsensuskerros*: Tämän kerroksen BIP:t koskevat Bitcoinin konsensussääntöjä, kuten muutoksia lohkoihin tai transaktioiden validointisääntöihin. Nämä ehdotukset voivat olla joko pehmeitä haaroja (taaksepäin yhteensopivia muutoksia) tai kovia haaroja (ei taaksepäin yhteensopivia muutoksia). Esimerkiksi SegWitin ja Taprootin BIP:t kuuluvat tähän luokkaan;
-- Vertaispalvelut*: Tämä kerros koskee Bitcoin-solmuverkon toimintaa eli sitä, miten solmut löytävät toisensa ja kommunikoivat keskenään Internetissä.
-- API/RPC*: Tämän kerroksen BIP:t koskevat sovellusohjelmointirajapintoja (API) ja etäkäyttökutsuja (RPC), joiden avulla Bitcoin-ohjelmistot voivat olla vuorovaikutuksessa solmujen kanssa;
-- Sovelluskerros*: Tämä kerros koskee Bitcoinin päälle rakennettuja sovelluksia. Tämän luokan rajatylittävissä hankkeissa käsitellään yleensä Bitcoin-lompakkostandardien tasolla tehtäviä muutoksia.
+- **Konsensuskerros**: Tämän kerroksen BIP:t koskevat Bitcoinin konsensussääntöjä, kuten muutoksia lohkoihin tai transaktioiden validointisääntöihin. Nämä ehdotukset voivat olla joko pehmeitä haaroja (taaksepäin yhteensopivia muutoksia) tai kovia haaroja (ei taaksepäin yhteensopivia muutoksia). Esimerkiksi SegWitin ja Taprootin BIP:t kuuluvat tähän luokkaan;
+- **Vertaispalvelut**: Tämä kerros koskee Bitcoin-solmuverkon toimintaa eli sitä, miten solmut löytävät toisensa ja kommunikoivat keskenään Internetissä.
+- **API/RPC**: Tämän kerroksen BIP:t koskevat sovellusohjelmointirajapintoja (API) ja etäkäyttökutsuja (RPC), joiden avulla Bitcoin-ohjelmistot voivat olla vuorovaikutuksessa solmujen kanssa;
+- **Sovelluskerros**: Tämä kerros koskee Bitcoinin päälle rakennettuja sovelluksia. Tämän luokan rajatylittävissä hankkeissa käsitellään yleensä Bitcoin-lompakkostandardien tasolla tehtäviä muutoksia.
 
 BIP:n lähettäminen alkaa idean hahmottelulla ja keskustelulla *Bitcoin-dev*-postituslistalla. Jos idea on lupaava, kirjoittaja laatii BIP:n tiettyä muotoa noudattaen ja lähettää sen Pull Request -pyynnöllä Core GitHub -tietovarastoon. Toimittajat tarkastavat tämän ehdotuksen varmistaakseen, että se täyttää kaikki kriteerit. BIP:n on oltava teknisesti toteuttamiskelpoinen, protokollan kannalta hyödyllinen, vaaditun muotoilun mukainen ja Bitcoinin filosofian mukainen. Jos BIP täyttää nämä ehdot, se liitetään virallisesti BIP:ien GitHub-arkistoon. Sen jälkeen sille annetaan numero. Tämän numeron päättää yleensä toimittaja, usein Luke Dashjr, ja se annetaan loogisesti: Samankaltaisia aiheita käsittelevät BIP:t saavat usein peräkkäiset numerot.
 

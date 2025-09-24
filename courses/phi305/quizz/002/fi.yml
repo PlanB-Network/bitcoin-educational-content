@@ -1,0 +1,9 @@
+question: Spinozan filosofian tavoitteena on?
+answer: Vapauden saavuttaminen.
+wrong_answers:
+  - Tieteellinen tieto.
+  - Historiallinen tietämys.
+  - Filosofinen ja moraalinen tieto.
+explanation: |
+  Spinozan filosofia tähtää viime kädessä vapauteen tiedon ja ymmärryksen kautta. Hänelle todellinen vapaus syntyy meitä määräävien syiden ymmärtämisestä ja välttämättömyyden rationaalisesta hyväksymisestä.
+reviewed: false

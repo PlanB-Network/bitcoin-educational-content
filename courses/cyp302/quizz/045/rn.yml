@@ -1,0 +1,9 @@
+question: Mu mugwi ufise impera, ni irihe jambo ryerekeza ku mubare wa Elements uri mu mugwi?
+answer: Urutonde rw'umugwi
+wrong_answers:
+  - Ubushobozi bw'umugwi
+  - Uburebure bw'umugwi
+  - Urugero rw'umugwi
+explanation: |
+  Urutonde rw’umugwi ni umubare wose wa Elements urimwo.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: बिटवॉर्डन
+name: Bitwarden
 description: पासवर्ड मैनेजर सेट अप करने के लिए इन सरल चरणों का पालन करें
 ---
 ![cover](assets/cover.webp)

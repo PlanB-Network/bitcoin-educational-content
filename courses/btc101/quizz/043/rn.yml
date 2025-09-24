@@ -1,0 +1,10 @@
+question: Ni igice ca nyuma ikihe kiba mu gihe c’ugutera imbere cane kw’ibiciro?
+answer: Ifaranga rishasha rirasohoka.
+wrong_answers:
+  - Gutakaza icizigiro mu mafaranga.
+  - Amafaranga arasenyuka & igiciro kiduga.
+  - Uruziga rw’ububisha rwo gucapura amahera.
+explanation: |
+  Iciyumviro ca nyuma c’ugutera imbere cane kw’ibiciro kiba iyo umuntu mushasha .
+  amafaranga arashirwaho kugira ngo asubirire aya kera.
+reviewed: true

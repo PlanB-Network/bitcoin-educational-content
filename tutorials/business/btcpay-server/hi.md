@@ -1,5 +1,5 @@
 ---
-name: BTCpay सर्वर
+name: BTCPay Server
 
 description: अपना BTCPay सर्वर सेट अप करने और उसे प्रबंधित करने के लिए मार्गदर्शिका
 ---

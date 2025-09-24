@@ -1,0 +1,9 @@
+question: Ni akamaro akahe nyamukuru ko gukoresha umucungerezi w’ijambobanga?
+answer: Kwibuka ijambobanga rimwe gusa ry’umukuru.
+wrong_answers:
+  - Ntibagikora amajambo banga mashasha.
+  - Gufasha gufata mu mutwe amajambo y’ibanga yose hakoreshejwe ubuhinga bwa Mnemonic.
+  - Gukuraho ivy’uko umuntu akeneye amakonti yo kuri Internet.
+explanation: |
+  Uwukoresha akeneye kwibuka ijambobanga rimwe gusa kugira ngo ashobore gushika ku yandi yose.
+reviewed: true

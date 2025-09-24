@@ -562,7 +562,7 @@ Zatim izvodimo sledeće operacije na našim ulazima:
 
 
 
-- Funkcija $\Sigma_0$:**
+- Funkcija $\Sigma_0$:
 
 
 $$
@@ -571,7 +571,7 @@ $$
 
 
 
-- Funkcija $\Sigma_1$:**
+- Funkcija $\Sigma_1$:
 
 
 $$
@@ -580,7 +580,7 @@ $$
 
 
 
-- Funkcija $Ch$ ("_Choose_"):**
+- Funkcija $Ch$ ("_Choose_"):
 
 
 $$
@@ -589,7 +589,7 @@ $$
 
 
 
-- Funkcija $Maj$ ("_Majority_"):**
+- Funkcija $Maj$ ("_Majority_"):
 
 
 $$
@@ -3181,7 +3181,7 @@ gde:
 
 
 
-- $\text{H}_{\text{TapTweak}}$** je SHA256 heš funkcija označena oznakom `TapTweak`. Ako niste upoznati sa time šta je označena heš funkcija, pozivam vas da pogledate poglavlje 3.3;
+- $\text{H}_{\text{TapTweak}}$ je SHA256 heš funkcija označena oznakom `TapTweak`. Ako niste upoznati sa time šta je označena heš funkcija, pozivam vas da pogledate poglavlje 3.3;
 - $P$ je interni javni ključ, predstavljen u kompresovanom formatu od 256 bita, koristeći samo $x$ koordinatu.
 
 

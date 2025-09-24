@@ -1,0 +1,9 @@
+question: 라이트닝 채널의 Commitment Transaction은 무엇을 반영하나요?
+answer: 양 당사자 간의 새로운 자금 분배
+wrong_answers:
+  - 총 거래 횟수
+  - 거래에 대해 지불해야 하는 수수료 금액
+  - 새로운 결제 채널 개설
+explanation: |
+  Commitment Transaction은 각 라이트닝 거래 후 채널의 현재 자금 분포를 나타내지만, 채널이 열려 있는 한 Blockchain에는 게시되지 않습니다.
+reviewed: true

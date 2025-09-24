@@ -1,13 +1,8 @@
-question: W jaki sposób protokół Bitcoin utrzymuje stały średni czas między utworzeniem dwóch bloków?
-answer: Trudność w znalezieniu ważnego Hash zmienia się co 2016 bloków.
+question: Jaka jest główna różnica między ekonomią keynesowską a austriacką w odniesieniu do systemu monetarnego?
+answer: Ekonomia keynesowska nie bierze pod uwagę czasowych i dynamicznych aspektów sytuacji i zasobów.
 wrong_answers:
-  - Liczba górników jest regulowana do stałej liczby.
-  - Rozmiar bloków jest ustawiony na 10 megabajtów.
-  - Zwiększono nagrodę za znalezienie ważnego Hash.
-explanation: |
-  Protokół Bitcoin zapewnia, że średni czas pomiędzy
-  dwoma blokami pozostaje stały poprzez dostosowanie trudności
-  znalezienia ważnego Hash co 2016 bloków. Zdarzenie to ma miejsce
-  niezależnie od liczby górników i ich mocy obliczeniowej
-  mocy obliczeniowej.
+  - Ekonomia keynesowska promuje nadmierną konsumpcję walut.
+  - Ekonomia keynesowska uznaje niedobór sytuacji i zasobów.
+  - Ekonomia keynesowska zachęca do inflacji.
+explanation: >-
 reviewed: true

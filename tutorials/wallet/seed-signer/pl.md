@@ -1,5 +1,5 @@
 ---
-name: Sygnatariusz seed
+name: SeedSigner
 
 description: Konfiguracja sygnatariusza seed
 ---

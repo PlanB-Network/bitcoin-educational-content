@@ -1,0 +1,9 @@
+question: Je, Umbrel hutumia teknolojia gani kutenga na kudhibiti matumizi yake?
+answer: Vyombo vya Docker
+wrong_answers:
+  - Mashine za VirtualBox
+  - Maandishi ya Bash
+  - Vikundi vya Kubernetes
+explanation: |
+  Kila programu katika Umbrel huendeshwa kwenye chombo cha Docker, kuwezesha usimamizi huru na kutengwa.
+reviewed: true

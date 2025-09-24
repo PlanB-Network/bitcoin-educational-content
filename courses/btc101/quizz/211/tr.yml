@@ -1,8 +1,11 @@
-question: Bitcoin şirketleri, üniversiteleri, düzenleyicileri ve bireyleri ne yapmaya zorluyor?
-answer: Bunu hesaba katmak için.
+question: Bu derste anlatıldığı şekliyle Bitcoin'ın benimsenmesinin doğası nedir?
+answer: Viral.
 wrong_answers:
-  - Görmezden gelmek için.
-  - Yasaklamak için.
-  - Suç saymak için.
-explanation: >-
+  - Yavaş ve istikrarlı.
+  - Hızlı ve kontrol edilemez.
+  - Sporadik ve öngörülemez.
+explanation: |
+  Kurs metni Bitcoin'in benimsenmesini viral olarak tanımlamaktadır,
+  birinden diğerine hızlı ve geniş bir şekilde yayıldığını düşündürmektedir
+  virüs gibi, ama iyi bir virüs.
 reviewed: true

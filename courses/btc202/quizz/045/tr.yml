@@ -1,0 +1,9 @@
+question: UmbrelOS kurulmadan önce hangi adımlar tamamlanmalıdır?
+answer: Görüntü ile önyüklenebilir bir USB anahtarı oluşturma
+wrong_answers:
+  - Bitcoin core kaynak kodunu derleme
+  - Blockchain'in Biçimlendirilmesi
+  - Umbrel.com'da bir hesap oluşturun
+explanation: |
+  Kurulum, Balena Etcher aracılığıyla UmbrelOS ile önyüklenebilir bir USB anahtarı hazırlayarak başlar.
+reviewed: true

@@ -1,11 +1,11 @@
-question: What is the main concern regarding the environmental cost of Bitcoin mining?
-answer: The energy consumption.
+question: How can Bitcoin potentially help with the ecological transition?
+answer: It promotes the use of green energy.
 wrong_answers:
-  - The production of ASICs.
-  - The recycling of ASICs.
-  - The cost of electricity.
+  - It reduces the production of goods.
+  - It regulates the consumption of resources.
+  - It limits the emission of only greenhouse gases.
 explanation: >-
-  The main environmental concern of Bitcoin mining is the energy consumption.
-  While ASICs are mostly made of aluminum and can be recycled or reused, the energy
-  required to power these machines is significant.
+  Bitcoin promotes the use of green energy, which can potentially help
+  with the ecological transition. For example, the flames in oil wells, which burn
+  methane to prevent pollution, can be extinguished by Bitcoin miners.
 reviewed: true

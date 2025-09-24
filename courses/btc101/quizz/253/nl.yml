@@ -1,8 +1,0 @@
-question: Wat is een van de belangrijkste kenmerken van het Bitcoin protocol?
-answer: Het is neutraal tegenover alle gebruikers.
-wrong_answers:
-  - Het bevoordeelt bepaalde gebruikers boven andere.
-  - Het is bevooroordeeld ten opzichte van bepaalde gebruikers.
-  - Alleen een selecte groep gebruikers heeft er baat bij.
-explanation: >-
-reviewed: true

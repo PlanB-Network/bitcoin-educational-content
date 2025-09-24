@@ -1,0 +1,9 @@
+question: Welche Backups sind für die Wiederherstellung eines Lightning-Knotens erforderlich?
+answer: seed und SCB
+wrong_answers:
+  - seed und txindex-Datei
+  - seed und öffentliche IP Address
+  - seed und 2FA
+explanation: |
+  Die Wiederherstellung eines Lightning-Knotens erfordert sowohl seed als auch SCB (Static Channel Backup), ohne die Kanalfonds nicht wiederhergestellt werden können.
+reviewed: true

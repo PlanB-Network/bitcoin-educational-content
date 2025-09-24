@@ -25,10 +25,10 @@ Tuttavia, rimaneva un problema importante tra i livelli del protocollo Bitcoin: 
 
 
 
-- on chain**: La catena principale di Bitcoin dove le transazioni sono confermate in media ogni 10 minuti, le commissioni di transazione sono spesso elevate, il che non soddisfa necessariamente le esigenze degli utenti;
-- Lightning Network**: Il sovrapposto Bitcoin per pagamenti istantanei a commissioni ridotte, che consente di utilizzare il Bitcoin per i pagamenti giornalieri;
-- Liquid Network**: un overlay per il Bitcoin creato da Blockstream, che consente di utilizzare strumenti finanziari veloci, Confidential Transactions e altri strumenti finanziari basati su Bitcoin;
-- RootStock**: Una soluzione per lo sviluppo di contratti intelligenti basati sul protocollo Bitcoin.
+- **on chain**: La catena principale di Bitcoin dove le transazioni sono confermate in media ogni 10 minuti, le commissioni di transazione sono spesso elevate, il che non soddisfa necessariamente le esigenze degli utenti;
+- **Lightning Network**: Il sovrapposto Bitcoin per pagamenti istantanei a commissioni ridotte, che consente di utilizzare il Bitcoin per i pagamenti giornalieri;
+- **Liquid Network**: un overlay per il Bitcoin creato da Blockstream, che consente di utilizzare strumenti finanziari veloci, Confidential Transactions e altri strumenti finanziari basati su Bitcoin;
+- **RootStock**: Una soluzione per lo sviluppo di contratti intelligenti basati sul protocollo Bitcoin.
 
 
 
@@ -54,7 +54,7 @@ In questo modo, si mantiene un'autocustodia permanente dei propri bitcoin e il E
 
 
 
-Un Exchange atomico funziona con gli smart contract [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). In questo tipo di Contract, l'importo viene "bloccato" in un canale bidirezionale e viene introdotta una restrizione temporale, in modo che se la transazione non viene completata entro un certo tempo, il saldo torna al depositante. Questo è il meccanismo utilizzato dalla piattaforma Boltz.
+Un Exchange atomico funziona con gli smart contract [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In questo tipo di Contract, l'importo viene "bloccato" in un canale bidirezionale e viene introdotta una restrizione temporale, in modo che se la transazione non viene completata entro un certo tempo, il saldo torna al depositante. Questo è il meccanismo utilizzato dalla piattaforma Boltz.
 
 
 

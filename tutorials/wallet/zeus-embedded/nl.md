@@ -1,5 +1,5 @@
 ---
-name: Zeus ingebed
+name: Zeus Embedded
 description: Hoe de Lightning Zeus Embedded Wallet gebruiken
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,7 +13,7 @@ Maar de applicatie bevat ook een "Embedded node".
 
 
 
-**Het is dit facet van de applicatie dat we in deze tutorial zullen verkennen. Hierdoor kan iedereen zijn eigen bliksemknooppunt op mobiel hebben, zonder dat er een speciale server nodig is, op dezelfde manier als ACINQ zijn ongelooflijke Wallet bliksem Phoenix aanbiedt.
+**Het is dit facet van de applicatie dat we in deze tutorial zullen verkennen.** Hierdoor kan iedereen zijn eigen bliksemknooppunt op mobiel hebben, zonder dat er een speciale server nodig is, op dezelfde manier als ACINQ zijn ongelooflijke Wallet bliksem Phoenix aanbiedt.
 
 
 
@@ -248,7 +248,7 @@ Op het volgende scherm wordt u gevraagd om een kanaal te openen in samenwerking 
 In deze tutorial kiezen we deze optie omwille van de eenvoud, maar het is perfect mogelijk om kanalen te openen met elk knooppunt op het netwerk.
 
 
-Het is zelfs mogelijk om meerdere kanalen in een enkele transactie te openen door "OPEN ADDITIONAL CHANNEL" te selecteren. *Maar hier gaan we dieper op in in een "geavanceerde" versie van de **Zeus Embedded**** tutorial.
+Het is zelfs mogelijk om meerdere kanalen in een enkele transactie te openen door "OPEN ADDITIONAL CHANNEL" te selecteren. *Maar hier gaan we dieper op in in een "geavanceerde" versie van de **Zeus Embedded** tutorial.*
 
 
 
@@ -345,7 +345,7 @@ Met Zeus kun je dan een biljet toevoegen om je betaling uit te drukken, of de ro
 
 
 
-Merk op dat in tegenstelling tot een Wallet zoals [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), met Zeus de route lokaal wordt berekend en niet wordt gedelegeerd naar een derde partij (ACINQ in het geval van Phoenix). Dus jij bent de enige die de ontvanger van de betaling kent. We verliezen een beetje efficiëntie (betalingen duren iets langer om te voltooien, maar we winnen veel op het gebied van privacy).
+Merk op dat in tegenstelling tot een Wallet zoals [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), met Zeus de route lokaal wordt berekend en niet wordt gedelegeerd naar een derde partij (ACINQ in het geval van Phoenix). Dus jij bent de enige die de ontvanger van de betaling kent. We verliezen een beetje efficiëntie (betalingen duren iets langer om te voltooien, maar we winnen veel op het gebied van privacy).
 
 
 

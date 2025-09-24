@@ -1,5 +1,5 @@
 ---
-name: КОЛДКАРД Q
+name: COLDCARD Q
 description: Настройка и использование COLDCARD Q
 ---
 ![cover](assets/cover.webp)

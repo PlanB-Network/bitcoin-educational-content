@@ -131,7 +131,7 @@ Sasa tutafuta data yote kwenye fimbo yetu ya USB. Uendeshaji unajumuisha kujaza 
 
 
 
-**Hakikisha unalenga faili sahihi ya kifaa!
+**Hakikisha unalenga faili sahihi ya kifaa!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Hapa, amri ndogo ya "`luksFormat`" inaanzisha na kuunda kifaa ili kutumia usimbaji fiche wa LUKS. Utaombwa kuthibitisha utendakazi huu kwa kuandika `NDIYO` kwa herufi kubwa, kisha ubainishe *passphrase*. **Chagua *passphrase* thabiti ili kuhakikisha kuwa, ikitokea hasara, mvamizi hawezi kuigundua kupitia mashambulizi ya nguvu.
+Hapa, amri ndogo ya "`luksFormat`" inaanzisha na kuunda kifaa ili kutumia usimbaji fiche wa LUKS. Utaombwa kuthibitisha utendakazi huu kwa kuandika `NDIYO` kwa herufi kubwa, kisha ubainishe **passphrase**. **Chagua *passphrase* thabiti ili kuhakikisha kuwa, ikitokea hasara, mvamizi hawezi kuigundua kupitia mashambulizi ya nguvu.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Hapa, eneo lengwa** limebainishwa kama "**/dev/mappe/usbkey1**"**, kwa nini?
+**Hapa, eneo lengwa** limebainishwa kama "**/dev/mappe/usbkey1**", kwa nini?
 
 
 

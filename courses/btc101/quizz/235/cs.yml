@@ -1,10 +1,9 @@
-question: Jaká je jednotka Bitcoinu používaná v Lightning Network?
-answer: Sats.
+question: Jak by mohla být Lightning Network potenciálně využita pro pronájem zboží?
+answer: Uživatelé by mohli být účtováni za minutu, nebo dokonce za sekundu, za dobu, po kterou zboží využívají.
 wrong_answers:
-  - Blok.
-  - Ether.
-  - Litecoin.
-explanation: |
-  Lightning Network používá satoshi (také nazývané sats), což jsou
-  desetinná místa bitcoinu, pro svou funkci.
+  - Uživatelé by mohli být účtováni vysokým poplatkem za pronájem zboží.
+  - Uživatelé by mohli být účtováni na základě hodnoty zboží.
+  - Uživatelé by mohli být účtováni na základě stavu zboží.
+explanation: >-
+  S Lightning Network je možné tento systém využít pro pronájem zboží. Uživatelé by mohli být účtováni za minutu, nebo dokonce za sekundu, za dobu, po kterou zboží využívají.
 reviewed: true

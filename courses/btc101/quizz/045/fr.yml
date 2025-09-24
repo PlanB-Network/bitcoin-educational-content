@@ -1,13 +1,10 @@
-question: Quelle est une caractéristique clé de Bitcoin qui le différencie des monnaies fiduciaires ?
-answer: Sa politique monétaire est appliquée par un consensus général.
+question: Quel est l'impact d'une inflation de 20% sur le pouvoir d'achat sur 3 ans ?
+answer: Vous perdez 50% de votre pouvoir d'achat.
 wrong_answers:
-  - Il peut être imprimé en quantités illimitées par les banques centrales.
-  - Il est soutenu par une marchandise physique comme l'or ou l'argent.
-  - Il est régulé par une banque centrale.
+  - Vous perdez 100% de votre pouvoir d'achat.
+  - Vous perdez 60% de votre pouvoir d'achat.
+  - Vous perdez 30% de votre pouvoir d'achat.
 explanation: |
-  En raison de sa nature décentralisée et cryptographique,
-  Bitcoin ne peut pas être falsifié et est limité à 21 millions
-  d'unités. C'est une caractéristique clé qui le différencie
-  des monnaies fiduciaires, qui suivent une politique monétaire qui peut être
-  modifiée par les banques centrales.
+  Avec une inflation de 20%, vous perdez presque la moitié de votre pouvoir
+  d'achat en 3 ans.
 reviewed: true

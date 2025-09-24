@@ -1,0 +1,9 @@
+question: Ping 명령은 네트워크 연결을 테스트하기 위해 어떤 프로토콜을 사용하나요?
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  Ping 명령은 ICMP 프로토콜을 사용하여 에코 요청을 전송하고 네트워크 지연 시간을 측정합니다.
+reviewed: false

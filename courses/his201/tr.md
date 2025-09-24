@@ -110,7 +110,7 @@ Tüm tarihler ve saatler UTC bölgesine (Greenwich Meridyenine karşılık gelir
 - [*Bu Makine Sırları Öldürür*](https://penguinrandomhouselibrary.com/book/?isbn=9780142180495) Andy Greenberg tarafından 2012 yılında yayınlanmıştır.
 
 
-Bu kursun İngilizce olmayan versiyonu için çoğu alıntının Amerikan İngilizcesinden geldiğini ve duruma göre tercüme edildiğini unutmayın. Coin* terimi, hesap birimine atıfta bulunduğunda genellikle "unit" (parça değil) olarak çevrilir.
+Bu kursun İngilizce olmayan versiyonu için çoğu alıntının Amerikan İngilizcesinden geldiğini ve duruma göre tercüme edildiğini unutmayın. **Coin** terimi, hesap birimine atıfta bulunduğunda genellikle "unit" (parça değil) olarak çevrilir.
 
 
 Bitcoin'nin yaratılışının inanılmaz destanını keşfetmeye hazır mısınız? O halde gelin bu olağanüstü hikayeye birlikte dalalım!

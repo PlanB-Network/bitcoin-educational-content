@@ -1,5 +1,5 @@
 ---
-name: Wallet ya Satoshi - Sehemu ya Uuzaji
+name: Wallet of Satoshi - POS
 description: Pata Bitcoin kupitia Lightning Network katika biashara yako.
 ---
 

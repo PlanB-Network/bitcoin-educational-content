@@ -1,0 +1,9 @@
+question: När är en pruned-knut ett problem för en Wallet?
+answer: Vid restaurering av en gammal Wallet
+wrong_answers:
+  - När du skapar en ny mottagning Address
+  - När du skickar en ny transaktion
+  - Vid val av avgiftsbelopp
+explanation: |
+  En pruned-nod behåller inte gamla block, vilket kan förhindra att tidigare transaktioner skannas under återställningen.
+reviewed: true

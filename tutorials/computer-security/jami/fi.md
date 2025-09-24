@@ -50,11 +50,11 @@ Nykyään Jami on saatavilla monissa järjestelmissä. Se on tunnettu suoritusky
 
 
 
-- Se on avoimen lähdekoodin ja täysin ilmainen**, joten voit käyttää sitä ilmaiseksi.
-- Täydellinen ja täynnä hyödyllisiä ominaisuuksia**: tämän ohjelmiston avulla voit hyödyntää lukuisia vaihtoehtoja, koska voit lisätä liitännäisiä helposti kaupasta. On jopa mahdollista luoda omia laajennuksia, jotta saat ominaisuuksia, jotka sopivat paremmin tarpeisiisi.
-- Helppokäyttöinen ja Interface intuitiivinen**: Jamin monista ominaisuuksista huolimatta sen käyttö on erittäin helppoa.
-- Vahva turvallisuus**: Jami sisältää kehittyneen salausalgoritmin, joka takaa viestinnän turvallisuuden ja kunnioittaa samalla yksityisyyttäsi.
-- Erittäin helppokäyttöinen ja nopea**: se tarjoaa helpon yhteydenpidon myös silloin, kun kaistanleveys on rajoitettu, ja lisää näin käyttäjäystävällisyyttä.
+- Se on avoimen lähdekoodin ja täysin **ilmainen**, joten voit käyttää sitä ilmaiseksi.
+- **Täydellinen ja täynnä hyödyllisiä ominaisuuksia**: tämän ohjelmiston avulla voit hyödyntää lukuisia vaihtoehtoja, koska voit lisätä liitännäisiä helposti kaupasta. On jopa mahdollista luoda omia laajennuksia, jotta saat ominaisuuksia, jotka sopivat paremmin tarpeisiisi.
+- **Helppokäyttöinen ja intuitiivinen käyttöliittymä**: Jamin monista ominaisuuksista huolimatta sen käyttö on erittäin helppoa.
+- **Vahva turvallisuus**: Jami sisältää kehittyneen salausalgoritmin, joka takaa viestinnän turvallisuuden ja kunnioittaa samalla yksityisyyttäsi.
+- **Erittäin helppokäyttöinen ja nopea**: se tarjoaa helpon yhteydenpidon myös silloin, kun kaistanleveys on rajoitettu, ja lisää näin käyttäjäystävällisyyttä.
 
 
 
@@ -338,9 +338,9 @@ Jami tarjoaa myös **edistyneempiä ominaisuuksia** käyttäjille, jotka haluava
 
 
 
-- Luo kohtaamispaikka**: Tämä toiminto antaa sinulle mahdollisuuden luoda viestinnällesi **treffipisteen**, joka on hyödyllinen useiden käyttäjien välisten turvallisten istuntojen tai vaihtojen järjestämisessä.
-- Yhdistä Jami-palvelimeen**: Voit liittää Jamin **Jami-palvelimeen**, mikä voi parantaa viestinnän suorituskykyä tai saatavuutta erityisesti ammatillisissa ympäristöissä.
-- Määritä SIP-tili**: Voit perustaa **SIP-tilin** (Session Initiation Protocol), jonka avulla voit integroida Jamin olemassa oleviin puhelinjärjestelmiin tai soittaa puheluita.
+- **Luo kohtaamispaikka**: Tämä toiminto antaa sinulle mahdollisuuden luoda viestinnällesi **treffipisteen**, joka on hyödyllinen useiden käyttäjien välisten turvallisten istuntojen tai vaihtojen järjestämisessä.
+- **Yhdistä Jami-palvelimeen**: Voit liittää Jamin **Jami-palvelimeen**, mikä voi parantaa viestinnän suorituskykyä tai saatavuutta erityisesti ammatillisissa ympäristöissä.
+- **Määritä SIP-tili**: Voit perustaa **SIP-tilin** (Session Initiation Protocol), jonka avulla voit integroida Jamin olemassa oleviin puhelinjärjestelmiin tai soittaa puheluita.
 
 
 

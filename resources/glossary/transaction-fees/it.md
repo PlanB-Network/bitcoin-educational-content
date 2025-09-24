@@ -22,4 +22,4 @@ In questo esempio specifico, si trattava di una transazione avviata dal direttor
 
 È inoltre necessario considerare i limiti del purging. Durante i periodi di alta congestione, i mempool dei nodi eliminano le transazioni in sospeso al di sotto di una certa soglia, al fine di rispettare il limite di RAM assegnato. Questo limite è liberamente scelto dall'utente, ma molti lasciano il valore predefinito di Bitcoin Core a 300 MB. Può essere modificato nel file `bitcoin.conf` con il parametro `maxmempool`.
 
-> *In inglese, ci si riferisce ad esso come "transaction fees"
+> *In inglese, ci si riferisce ad esso come "transaction fees"*

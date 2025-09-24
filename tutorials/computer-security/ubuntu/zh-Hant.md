@@ -16,13 +16,13 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 
 
 
-- 增強的安全性** ：Linux 發行版本以其安全性和穩定性著稱
+- **增強的安全性**：Linux 發行版本以其安全性和穩定性著稱
 - 零成本**：Ubuntu 和大多數 Linux 發行版都是免費的
 - 大型社群**：隨時準備透過論壇和教學提供協助的使用者社群
-- 尊重隱私**：開放原始碼系統，提高透明度
-- 簡單**：使用者友善的 Interface 和易用性
-- 豐富的生態系統** ：廣泛的開放原始碼軟體目錄
-- 定期支援**：來自 Canonical 的安全更新
+- 尊重隱私：開放原始碼系統，提高透明度
+- 簡單**：使用者友善的 Interface 和易用性**
+- **豐富的生態系統**：廣泛的開放原始碼軟體目錄
+- 定期支援：來自 Canonical 的安全更新
 
 
 ## 安裝與設定
@@ -110,7 +110,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
 
-**語言選擇
+**語言選擇**
 
 
 選擇您偏好的安裝和系統語言。
@@ -119,7 +119,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Sélection de la langue](assets/fr/07.webp)
 
 
-**無障礙選項
+**無障礙選項**
 
 
 必要時設定存取選項（螢幕閱讀器、高對比等）。
@@ -128,7 +128,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Options d'accessibilité](assets/fr/08.webp)
 
 
-**鍵盤配置
+**鍵盤配置**
 
 
 選擇您的鍵盤配置。可使用測試欄位檢查按鍵是否符合您的配置。
@@ -146,7 +146,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Configuration réseau](assets/fr/10.webp)
 
 
-** 安裝類型
+**安裝類型**
 
 
 選擇「Try Ubuntu」（測試而不安裝）或「Install Ubuntu」。
@@ -155,7 +155,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Choix du type d'installation](assets/fr/11.webp)
 
 
-**安裝方法
+**安裝方法**
 
 
 選擇互動式安裝。
@@ -164,7 +164,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Mode d'installation](assets/fr/12.webp)
 
 
-**應用選擇
+**應用選擇**
 
 
 可選擇預設安裝或擴充的應用程式選項。
@@ -173,7 +173,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Sélection des applications](assets/fr/13.webp)
 
 
-**第三方應用程式
+**第三方應用程式**
 
 
 決定是否安裝額外的驅動程式和專屬軟體。
@@ -182,7 +182,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Installation applications tierces](assets/fr/14.webp)
 
 
-**分區類型
+**分區類型**
 
 
 您有兩個主要選項：
@@ -197,7 +197,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Choix du partitionnement](assets/fr/15.webp)
 
 
-**建立使用者帳號
+**建立使用者帳號**
 
 
 為您的 Ubuntu 帳戶設定使用者名稱和密碼。
@@ -206,7 +206,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 ![Création du compte](assets/fr/16.webp)
 
 
-**時區
+**時區**
 
 
 選擇您的地理區域以設定系統時間。
@@ -240,7 +240,7 @@ description: 安裝和使用 Ubuntu 作為 Windows 替代方案的完整指南
 - 按照螢幕上的指示安裝更新
 
 
-**選項 2：透過終端
+**選項 2：透過終端**
 
 
 
@@ -273,7 +273,7 @@ sudo apt upgrade
 ### 5.發現基本任務
 
 
-**5.1 瀏覽網際網路
+**5.1 瀏覽網際網路**
 
 
 預設情況下，您通常會在啟動列中找到 Firefox。
@@ -285,7 +285,7 @@ sudo apt upgrade
 其他瀏覽器（Chrome、Brave 等）可透過軟體管理員或 .deb 套件安裝。
 
 
-**5.2 文字處理
+**5.2 文字處理**
 
 
 Ubuntu 隨附 LibreOffice 套件 (Writer 用於文字處理)。
@@ -297,7 +297,7 @@ Ubuntu 隨附 LibreOffice 套件 (Writer 用於文字處理)。
 您可以建立、編輯和儲存各種格式的文件 (包括 .docx)。
 
 
-**5.3 安裝應用程式
+**5.3 安裝應用程式**
 
 
 軟體管理員（稱為「Ubuntu Software」）：圖形化 Interface，用於搜尋和安裝應用程式。

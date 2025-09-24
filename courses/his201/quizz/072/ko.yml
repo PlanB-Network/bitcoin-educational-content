@@ -1,0 +1,9 @@
+question: Satoshi이 떠날 때 소프트웨어 개발 책임을 누구에게 넘겼나요?
+answer: 개빈 안드레센
+wrong_answers:
+  - 마르티 말미
+  - 제프 가직
+  - 마이크 헌
+explanation: |
+  개빈은 이전에 [밝혔듯이](https: //bitcointalk.org/index.php?topic=2367.msg31651#msg31651) Bitcoin 프로젝트를 보다 적극적으로 관리할 것이며 2010년 12월에 깃허브 저장소를 개설한 바 있습니다.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Ni itandukaniro irihe riri hagati y’ama VPN y’ibigo n’ama VPN y’abaguzi?
+answer: VPN z’ibigo zirazimvye kandi ziragoye, mu gihe VPN z’abaguzi zishobora gushikira kandi zikoreshwa neza.
+wrong_answers:
+  - VPN z’amashirahamwe akenshi zitekanye kurusha VPN z’abaguzi, zihora zizimvye.
+  - VPN z’abaguzi zama zizimvye kuruta VPN z’ibigo kubera urugero rw’ubutunzi iyo nyuma ishobora gushikako.
+  - Kubera abantu benshi bashaka gushikira, VPN z’amashirahamwe zama zipfuka amakuru, mu gihe VPN z’abaguzi zitabikora.
+explanation: |
+  VPNs z’ibigo zagenewe ubucuruzi kandi ni
+  mu bisanzwe bizimvye cane kandi biragoye gushinga no gucunga.
+  Ku rundi ruhande, VPN z’abaguzi zigenewe .
+  abakoresha ku giti cabo kandi muri rusangi barashikira cane kandi
+  n’uwukoresha.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Aplicação Blockstream - Onchain
+name: Blockstream App - Onchain
 description: Configurar a aplicação Blockstream no telemóvel e gerir as transacções onchain
 ---
 ![cover](assets/cover.webp)
@@ -30,8 +30,8 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Iniciantes**: Utilizadores que pretendem gerir os seus bitcoins com uma aplicação móvel intuitiva.
-- Utilizadores intermédios**: Pessoas que procuram compreender as funcionalidades onchain e as opções de privacidade, como Tor ou SPV.
+- **Iniciantes**: Utilizadores que pretendem gerir os seus bitcoins com uma aplicação móvel intuitiva.
+- **Utilizadores intermédios**: Pessoas que procuram compreender as funcionalidades onchain e as opções de privacidade, como Tor ou SPV.
 
 
 
@@ -41,14 +41,14 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: todos os nomes para uma aplicação instalada num smartphone, computador ou qualquer dispositivo ligado à Internet, que permite gerir e proteger as chaves privadas de um Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: todos os nomes para uma aplicação instalada num smartphone, computador ou qualquer dispositivo ligado à Internet, que permite gerir e proteger as chaves privadas de um Bitcoin Wallet.
 - Ao contrário das **carteiras de hardware**, também conhecidas como **carteiras Cold**, que isolam as chaves offline, as carteiras de software funcionam num ambiente ligado, o que as torna mais vulneráveis a ciberataques.
 
 
 
 
 
-- Utilização recomendada** :
+- **Utilização recomendada**:
     - Ideal para gerir quantidades moderadas de Bitcoin, especialmente para transacções diárias.
     - Adequado para principiantes ou utilizadores com recursos limitados, para os quais um Hardware Wallet pode parecer supérfluo.
 
@@ -56,7 +56,7 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Limitações**: Menos seguro para guardar fundos avultados ou poupanças a longo prazo. Neste caso, opte por um Hardware Wallet.
+- **Limitações**: Menos seguro para guardar fundos avultados ou poupanças a longo prazo. Neste caso, opte por um Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- A Blockstream App** é uma aplicação móvel (iOS, Android) e de ambiente de trabalho para gerir carteiras e activos do Bitcoin no Liquid Network. Adquirida pela [Blockstream] (https://blockstream.com/) em 2016, foi anteriormente designada *Green Address* e depois *Blockstream Green*.
-- Caraterísticas principais** :
-    - Transacções Onchain** em Blockchain Bitcoin.
+- A **Blockstream App** é uma aplicação móvel (iOS, Android) e de ambiente de trabalho para gerir carteiras e activos do Bitcoin no Liquid Network. Adquirida pela [Blockstream] (https://blockstream.com/) em 2016, foi anteriormente designada *Green Address* e depois *Blockstream Green*.
+- **Características principais**:
+- **Transacções Onchain** em Blockchain Bitcoin.
     - Transacções de rede **Liquid** (Sidechain para trocas rápidas e confidenciais).
-    - Carteiras só de vigilância** para monitorizar fundos sem acesso a chaves.
+- Carteiras só de **vigilância** para monitorizar fundos sem acesso a chaves.
     - Opções de privacidade: ligação através de **Tor**, ligação a um **nó pessoal** através de Electrum, ou verificação **SPV** para reduzir a dependência de nós de terceiros.
     - Funções **Replace-by-fee (RBF)** para acelerar as transacções não confirmadas.
-- Compatibilidade**: Integra carteiras de hardware como **Blockstream Jade**.
-- Interface**: Intuitivo para principiantes, com opções avançadas para especialistas.
-- Nota**: Este guia centra-se na utilização na cadeia. Outros tutoriais nos Apêndices cobrem Liquid, Watch-Only e a versão para computador.
+- **Compatibilidade**: Integra carteiras de hardware como **Blockstream Jade**.
+- **Interface**: Intuitivo para principiantes, com opções avançadas para especialistas.
+- **Nota**: Este guia centra-se na utilização na cadeia. Outros tutoriais nos Apêndices cobrem Liquid, Watch-Only e a versão para computador.
 
 
 
@@ -90,12 +90,12 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Para Android** :
+- Para **Android**:
     - Descarregue [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) a partir da Google Play Store.
     - Alternativa: Instalar através do ficheiro APK disponível no [GitHub oficial da Blockstream](https://github.com/Blockstream/green_android).
-- Para iOS** :
+- Para **iOS**:
     - Descarregar [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) da App Store.
-- Nota**: Certifique-se de que descarrega a partir de fontes oficiais para evitar aplicações fraudulentas.
+- **Nota**: Certifique-se de que descarrega a partir de fontes oficiais para evitar aplicações fraudulentas.
 
 
 
@@ -105,7 +105,7 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Ecrã inicial**: Quando aberta pela primeira vez, a aplicação apresenta um ecrã sem um Wallet configurado. As carteiras criadas ou importadas aparecerão aqui mais tarde.
+- **Ecrã inicial**: Quando aberta pela primeira vez, a aplicação apresenta um ecrã sem um Wallet configurado. As carteiras criadas ou importadas aparecerão aqui mais tarde.
 
 
 
@@ -115,7 +115,7 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Personalizar definições**: Clique em "Definições da aplicação", ajuste as opções abaixo, clique em "Guardar", reinicie a aplicação e crie a sua carteira.
+- **Personalizar definições**: Clique em "Definições da aplicação", ajuste as opções abaixo, clique em "Guardar", reinicie a aplicação e crie a sua carteira.
 
 
 
@@ -129,7 +129,7 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Função**: Desactiva as capturas de ecrã, oculta as pré-visualizações de aplicações no gestor de tarefas e bloqueia o acesso quando o telemóvel está bloqueado.
+- **Função**: Desactiva as capturas de ecrã, oculta as pré-visualizações de aplicações no gestor de tarefas e bloqueia o acesso quando o telemóvel está bloqueado.
 - Porquê? Protege os seus dados contra acesso físico não autorizado ou malware de captura de ecrã.
 
 
@@ -139,10 +139,10 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Função**: Encaminhar o tráfego de rede através do **Tor**, uma rede anónima que encripta as suas ligações.
-- Porquê?**: Oculta o seu IP Address e protege a sua privacidade, ideal se não confiar na sua rede (Wi-Fi pública, por exemplo).
-- Desvantagem**: Pode tornar a aplicação mais lenta devido à encriptação.
-- Recomendação**: Ativar o Tor se a confidencialidade for uma prioridade, mas testar a velocidade da ligação.
+- **Função**: Encaminhar o tráfego de rede através do **Tor**, uma rede anónima que encripta as suas ligações.
+- **Porquê?**: Oculta o seu IP Address e protege a sua privacidade, ideal se não confiar na sua rede (Wi-Fi pública, por exemplo).
+- **Desvantagem**: Pode tornar a aplicação mais lenta devido à encriptação.
+- **Recomendação**: Ativar o Tor se a confidencialidade for uma prioridade, mas testar a velocidade da ligação.
 
 
 #### 3.2.3. Ligação a um nó pessoal
@@ -151,10 +151,10 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Função**: Liga a aplicação ao seu próprio **nó Bitcoin completo** através de um servidor **Electrum**.
-- Porquê?**: Proporciona um controlo total sobre os dados Blockchain, eliminando a dependência dos servidores Blockstream.
-- Pré-requisito**: Um nó Bitcoin configurado.
-- Recomendação**: Utilizadores avançados que procuram a máxima soberania.
+- **Função**: Liga a aplicação ao seu próprio **nó Bitcoin completo** através de um servidor **Electrum**.
+- **Porquê?**: Proporciona um controlo total sobre os dados Blockchain, eliminando a dependência dos servidores Blockstream.
+- **Pré-requisito**: Um nó Bitcoin configurado.
+- **Recomendação**: Utilizadores avançados que procuram a máxima soberania.
 
 
 #### 3.2.4. Verificação do SPV
@@ -163,10 +163,10 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Função**: Utiliza a **Verificação Simplificada de Pagamentos (SPV)** para verificar diretamente certos dados do Blockchain sem descarregar toda a cadeia.
+- **Função**: Utiliza a **Verificação Simplificada de Pagamentos (SPV)** para verificar diretamente certos dados do Blockchain sem descarregar toda a cadeia.
 - Porquê? Reduz a dependência do nó padrão do Blockstream, mantendo-se leve para dispositivos móveis.
-- Desvantagem**: Menos seguro do que um Full node, uma vez que depende de nós de terceiros para algumas informações.
-- Recomendação**: Ativar o SPV se não puder utilizar um nó pessoal, mas preferir um Full node para uma segurança óptima.
+- **Desvantagem**: Menos seguro do que um Full node, uma vez que depende de nós de terceiros para algumas informações.
+- **Recomendação**: Ativar o SPV se não puder utilizar um nó pessoal, mas preferir um Full node para uma segurança óptima.
 
 
 
@@ -182,7 +182,7 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- Atenção**: Monte a sua carteira num ambiente privado, sem câmaras ou observadores.
+- **Atenção**: Monte a sua carteira num ambiente privado, sem câmaras ou observadores.
 - No ecrã inicial, clique em "Começar" :
 
 
@@ -360,7 +360,7 @@ Bloquear o acesso à aplicação com um código PIN forte:
 
 
 
-- Opções** :
+- **Opções**:
     - (1) "Bitcoin": clique para selecionar uma expedição onchain ou Liquid e escolha o ativo.
     - (2) Clicar nas setas para selecionar outro novo Address ligado a esta frase seed.
     - (3) Também pode escolher um Address de entre os já utilizados/apresentados, clicando nos três pontos no canto superior direito e depois em "Lista de endereços"
@@ -376,7 +376,7 @@ Bloquear o acesso à aplicação com um código PIN forte:
 
 
 - Partilhe o Address/URI clicando em "**Partilhar**", copiando o texto ou digitalizando o código QR.
-- Verificação**: Verificar o Address partilhado com o destinatário, na medida do possível, para evitar erros ou ataques (por exemplo, malware que modifica a área de transferência).
+- **Verificação**: Verificar o Address partilhado com o destinatário, na medida do possível, para evitar erros ou ataques (por exemplo, malware que modifica a área de transferência).
 
 
 
@@ -396,7 +396,7 @@ Bloquear o acesso à aplicação com um código PIN forte:
 
 
 
-- Introduzir dados** :
+- **Introduzir dados**:
     - (1) Introduzir o **Address do destinatário** colando-o ou digitalizando um código QR.
     - (2) Verificar os activos e a conta a partir da qual os fundos são enviados.
     - (3) Indicar o **montante** a enviar. Pode escolher a unidade: BTC, satoshis, USD, ...
@@ -420,7 +420,7 @@ O montante mínimo (limite de descarga) em 03/08/2025 é de 546 Sats.
 
 
 
-- Verificação** :
+- **Verificação**:
     - Verificar o Address, o montante e os encargos no ecrã de resumo.
     - Um erro Address pode resultar numa perda irreversível de fundos. Cuidado com o malware que modifica a área de transferência.
 
@@ -432,8 +432,8 @@ O montante mínimo (limite de descarga) em 03/08/2025 é de 546 Sats.
 
 
 
-- Confirmação**: Deslize o botão "Enviar" para assinar e distribuir a transação.
-- Seguimento**: No separador "Transact" do Wallet, a transação aparece como "pendente" até à confirmação (1 a 6 confirmações):
+- **Confirmação**: Deslize o botão "Enviar" para assinar e distribuir a transação.
+- **Seguimento**: No separador "Transact" do Wallet, a transação aparece como "pendente" até à confirmação (1 a 6 confirmações):
 
 
 
@@ -502,7 +502,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Glossário] (https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Glossário] (https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -517,7 +517,7 @@ Para utilizar a **Blockstream App** de forma segura e eficiente, siga estas reco
 
 
 
-- Proteja a sua frase de recuperação** :
+- **Proteja a sua frase de recuperação**:
  - Tutorial: Salvando sua frase Mnemonic
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Utilizar autenticação segura** :
+- **Utilizar autenticação segura**:
  - Ativar um **PIN forte** ou **autenticação biométrica** (impressão digital ou reconhecimento facial) para proteger o acesso à aplicação.
  - Nunca partilhe o seu PIN ou dados biométricos.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Proteger a sua privacidade** :
+- **Proteger a sua privacidade**:
  - generate um novo Address para cada receção onchain ou Liquid para limitar o rastreio no Blockchain.
  - Ativar as funções "Enhanced Privacy", "Tor" e "SPV".
  - Para obter a máxima confidencialidade, ligue o seu Wallet ao seu próprio nó Bitcoin através de um servidor Electrum em vez de utilizar o nó público
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Escolha a rede mais adequada às suas necessidades** :
- - Onchain**: Preferido para custódia a longo prazo ou transacções de grande valor (taxas insignificantes em relação ao montante).
- - Liquid**: Utilizar para transferências rápidas e económicas com maior confidencialidade.
- - Relâmpago**: Escolha transferências instantâneas e de baixo custo para pequenos montantes.
+- **Escolha a rede mais adequada às suas necessidades**:
+- **Onchain**: Preferido para custódia a longo prazo ou transacções de grande valor (taxas insignificantes em relação ao montante).
+- **Liquid**: Utilizar para transferências rápidas e económicas com maior confidencialidade.
+- **Relâmpago**: Escolha transferências instantâneas e de baixo custo para pequenos montantes.
 
 
 
 
 
-- Verificar sempre os endereços de envio** :
+- **Verificar sempre os endereços de envio**:
  - Antes de enviar fundos, verifique cuidadosamente o Address. Os fundos enviados para um Address incorreto perdem-se para sempre. Utilizar copiar/colar ou digitalizar o código QR, nunca copiar/modificar um Address à mão.
 
 
 
 
 
-- Otimizar os custos** :
+- **Otimizar os custos**:
  - Para transacções onchain, escolha taxas adequadas (lentas, médias, rápidas) de acordo com a urgência e o congestionamento da rede.
  - Utilizar Liquid, ou Lightning para pequenas quantidades.
 
@@ -581,10 +581,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ligações oficiais:**
- - [Sítio Web oficial](https://blockstream.com/)**
- - [Suporte para a aplicação móvel](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentação e chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Ligações oficiais:**
+- [Sítio Web oficial](https://blockstream.com/)
+- [Suporte para a aplicação móvel](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): documentação e chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Aprendizagem e tutoriais:** **[Plan ₿ Network](https://planb.network/)** :
+- Aprendizagem e tutoriais: **[Plan ₿ Network](https://planb.network/)**
  - Proteger a sua frase de recuperação
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Glossário](https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Glossário](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Glossário](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Glossário](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

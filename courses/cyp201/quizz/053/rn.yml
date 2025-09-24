@@ -1,0 +1,9 @@
+question: Bigenda gute iyo utakaje passphrase ijana na HD Wallet yawe?
+answer: Utakaza uburenganzira bwo kuronka ama bitcoins ahuye n’iyo Wallet.
+wrong_answers:
+  - Ushobora gushika kuri Wallet ukoresheje ijambo Mnemonic gusa
+  - Ushobora gusubiramwo passphrase mu guhamagara abafasha Bitcoin
+  - Utakaza gusa amafaranga ataremejwe
+explanation: |
+  passphrase ni igice gihambaye mu gukuraho urufunguzo. Iyo ataco, ntibishoboka ko umuntu asubira kurema imfunguruzo rero akaronka ama bitcoins.
+reviewed: false

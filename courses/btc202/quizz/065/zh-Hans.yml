@@ -1,0 +1,9 @@
+question: 如果茵宝上出现错误，第一步应该怎么做？
+answer: generate 诊断捆绑包
+wrong_answers:
+  - 重新安装 Bitcoin core 并重做 IBD
+  - 清除缓存
+  - 禁用 2FA
+explanation: |
+  如果出现问题，我们首先会在故障排除部分生成诊断包，以分析问题并保存记录。
+reviewed: true

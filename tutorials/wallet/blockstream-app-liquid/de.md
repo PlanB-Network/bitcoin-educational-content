@@ -1,5 +1,5 @@
 ---
-name: Blockstream-App - Liquid
+name: Blockstream App - Liquid
 description: So konfigurieren Sie die Blockstream-App und verwenden das Liquid Network
 ---
 ![cover](assets/cover.webp)
@@ -26,8 +26,8 @@ description: So konfigurieren Sie die Blockstream-App und verwenden das Liquid N
 
 
 
-- Einsteiger**: Benutzer, die ihre Bitcoins mit einer intuitiven mobilen Anwendung verwalten möchten, in die das Liquid Network integriert ist.
-- Fortgeschrittene Nutzer**: Personen, die die Onchain-Funktionen und Datenschutzoptionen wie Tor oder SPV verstehen wollen.
+- **Einsteiger**: Benutzer, die ihre Bitcoins mit einer intuitiven mobilen Anwendung verwalten möchten, in die das Liquid Network integriert ist.
+- **Fortgeschrittene Nutzer**: Personen, die die Onchain-Funktionen und Datenschutzoptionen wie Tor oder SPV verstehen wollen.
 
 
 
@@ -50,19 +50,19 @@ Ein Sidechain ist ein unabhängiger Blockchain, der parallel zu einem Bitcoin be
 
 
 
-- (1) Peg-in**: Bitcoins (BTC) werden von der Liquid-Föderation auf dem Haupt-Blockchain gesperrt. Im Gegenzug wird ein entsprechender Betrag an Liquid-Bitcoins (L-BTC), der die Parität zwischen den beiden Ketten gewährleistet, auf dem Blockchain-Liquid ausgegeben und an den Nutzer gesendet.
+- (1) **Peg-in**: Bitcoins (BTC) werden von der Liquid-Föderation auf dem Haupt-Blockchain gesperrt. Im Gegenzug wird ein entsprechender Betrag an Liquid-Bitcoins (L-BTC), der die Parität zwischen den beiden Ketten gewährleistet, auf dem Blockchain-Liquid ausgegeben und an den Nutzer gesendet.
 
 
 
 
 
-- (2) Unabhängige Transaktionen** : Die Transaktionen können gleichzeitig und unabhängig voneinander auf dem Haupt-Blockchain (BTC) und dem Sidechain Liquid (L-BTC) ablaufen, je nach den Anforderungen der Benutzer.
+- (2) **Unabhängige Transaktionen**: Die Transaktionen können gleichzeitig und unabhängig voneinander auf dem Haupt-Blockchain (BTC) und dem Sidechain Liquid (L-BTC) ablaufen, je nach den Anforderungen der Benutzer.
 
 
 
 
 
-- (3) Peg-out**: Der Nutzer schickt Liquid-Bitcoins (L-BTC) zurück an den Liquid-Verbund. Die Föderation schaltet daraufhin eine entsprechende Menge an Bitcoins (BTC) auf dem Haupt-Blockchain frei und überweist sie an den Nutzer.
+- (3) **Peg-out**: Der Nutzer schickt Liquid-Bitcoins (L-BTC) zurück an den Liquid-Verbund. Die Föderation schaltet daraufhin eine entsprechende Menge an Bitcoins (BTC) auf dem Haupt-Blockchain frei und überweist sie an den Nutzer.
 
 
 
@@ -80,15 +80,15 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Geschwindigkeit**: Transaktionen auf Liquid werden in etwa **1 Minute** bestätigt, im Vergleich zu 10 Minuten oder mehr für Onchain-Transaktionen, dank Blöcken, die jede Minute von einer Föderation von Validatoren generiert werden.
-- Erhöhte Vertraulichkeit**: Liquid verwendet **Confidential Transactions**, das den Betrag und die Art der übertragenen Vermögenswerte verbirgt, wodurch die Transaktionen vertraulicher werden (obwohl die Adressen sichtbar bleiben).
-- Niedrige Gebühren** : Transaktionen auf Liquid sind im Allgemeinen günstiger, was sie ideal für häufige Überweisungen oder kleine Beträge macht.
-- Mehrere Vermögenswerte**: Zusätzlich zu L-BTCs unterstützt Liquid die Ausgabe anderer digitaler Vermögenswerte wie Stablecoins oder Tokens zur Verwendung in bestimmten Anwendungen.
-- Anwendungsfälle**: Liquid eignet sich besonders für plattformübergreifende Börsen, schnelle Zahlungen oder Anwendungen, die intelligente Verträge erfordern und gleichzeitig mit der Sicherheit von Bitcoin verbunden bleiben.
+- **Geschwindigkeit**: Transaktionen auf Liquid werden in etwa **1 Minute** bestätigt, im Vergleich zu 10 Minuten oder mehr für Onchain-Transaktionen, dank Blöcken, die jede Minute von einer Föderation von Validatoren generiert werden.
+- **Erhöhte Vertraulichkeit**: Liquid verwendet **Confidential Transactions**, das den Betrag und die Art der übertragenen Vermögenswerte verbirgt, wodurch die Transaktionen vertraulicher werden (obwohl die Adressen sichtbar bleiben).
+- **Niedrige Gebühren**: Transaktionen auf Liquid sind im Allgemeinen günstiger, was sie ideal für häufige Überweisungen oder kleine Beträge macht.
+- **Mehrere Vermögenswerte**: Zusätzlich zu L-BTCs unterstützt Liquid die Ausgabe anderer digitaler Vermögenswerte wie Stablecoins oder Tokens zur Verwendung in bestimmten Anwendungen.
+- **Anwendungsfälle**: Liquid eignet sich besonders für plattformübergreifende Börsen, schnelle Zahlungen oder Anwendungen, die intelligente Verträge erfordern und gleichzeitig mit der Sicherheit von Bitcoin verbunden bleiben.
 
 
 
-**Hinweis: Dieses Tutorial konzentriert sich auf die Verwendung des Liquid über die Blockstream App. Für ein vertieftes Verständnis des Liquid Network finden Sie Ressourcen im Anhang.
+**Hinweis: Dieses Tutorial konzentriert sich auf die Verwendung des Liquid über die Blockstream App. Für ein vertieftes Verständnis des Liquid Network finden Sie Ressourcen im Anhang.**
 
 
 
@@ -98,14 +98,14 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alles Bezeichnungen für eine Anwendung, die auf einem Smartphone, einem Computer oder einem beliebigen mit dem Internet verbundenen Gerät installiert ist und die Verwaltung und Sicherung der privaten Schlüssel eines Bitcoin Wallet ermöglicht.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alles Bezeichnungen für eine Anwendung, die auf einem Smartphone, einem Computer oder einem beliebigen mit dem Internet verbundenen Gerät installiert ist und die Verwaltung und Sicherung der privaten Schlüssel eines Bitcoin Wallet ermöglicht.
 - Im Gegensatz zu **Hardware-Geldbörsen**, auch bekannt als **Cold-Geldbörsen**, die die Schlüssel offline isolieren, arbeiten Software-Geldbörsen in einer vernetzten Umgebung, was sie anfälliger für Cyberangriffe macht.
 
 
 
 
 
-- Empfohlene Verwendung** :
+- **Empfohlene Verwendung**:
     - Ideal für die Verwaltung moderater Mengen von Bitcoin, insbesondere für tägliche Transaktionen.
     - Geeignet für Anfänger oder Nutzer mit begrenztem Vermögen, für die ein Hardware Wallet überflüssig erscheint.
 
@@ -113,7 +113,7 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Beschränkungen**: Weniger sicher für die Aufbewahrung großer Geldbeträge oder langfristiger Ersparnisse. In diesem Fall sollten Sie eine Hardware Wallet wählen.
+- **Beschränkungen**: Weniger sicher für die Aufbewahrung großer Geldbeträge oder langfristiger Ersparnisse. In diesem Fall sollten Sie eine Hardware Wallet wählen.
 
 
 
@@ -124,16 +124,16 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung zur Verwaltung von Bitcoin-Wallets und Assets auf dem Liquid Network. Sie wurde 2016 von [Blockstream] (https://blockstream.com/) übernommen und hieß zuvor *Green Address* und dann *Blockstream Green*.
-- Hauptmerkmale** :
-    - Onchain**-Transaktionen auf Blockchain Bitcoin.
+- **Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung zur Verwaltung von Bitcoin-Wallets und Assets auf dem Liquid Network. Sie wurde 2016 von [Blockstream] (https://blockstream.com/) übernommen und hieß zuvor *Green Address* und dann *Blockstream Green*.
+- **Hauptmerkmale**:
+- **Onchain-Transaktionen** auf Blockchain Bitcoin.
     - Transaktionen über das **Liquid**-Netz (Sidechain für schnellen, vertraulichen Austausch).
-    - Watch-only**-Portfolios zur Überwachung von Fonds ohne Zugang zu Schlüsseln.
+- **Watch-only**-Portfolios zur Überwachung von Fonds ohne Zugang zu Schlüsseln.
     - Datenschutzoptionen: Verbindung über **Tor**, Verbindung zu einem **persönlichen Knoten** über Electrum oder **SPV**-Verifizierung, um die Abhängigkeit von Drittanbieter-Knoten zu verringern.
     - Funktionen **Replace-by-fee (RBF)** zur Beschleunigung unbestätigter Transaktionen.
-- Kompatibilität**: Integriert Hardware-Wallets wie z. B. **Blockstream Jade**.
-- Interface**: Intuitiv für Anfänger, mit erweiterten Optionen für Experten.
-- Anmerkung**: Dieser Leitfaden konzentriert sich auf die Verwendung von Onchain. Andere Anleitungen in den Anhängen behandeln Onchain, Watch-Only und die Desktop-Version.
+- **Kompatibilität**: Integriert Hardware-Wallets wie z. B. **Blockstream Jade**.
+- **Interface**: Intuitiv für Anfänger, mit erweiterten Optionen für Experten.
+- **Anmerkung**: Dieser Leitfaden konzentriert sich auf die Verwendung von Onchain. Andere Anleitungen in den Anhängen behandeln Onchain, Watch-Only und die Desktop-Version.
 
 
 
@@ -148,12 +148,12 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Für Android** :
+- **Für Android**:
     - Laden Sie [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) aus dem Google Play Store herunter.
     - Alternativ: Installieren Sie über die APK-Datei, die auf [Blockstreams offiziellem GitHub](https://github.com/Blockstream/green_android) verfügbar ist.
-- Für iOS** :
+- Für **iOS**:
     - Laden Sie [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) aus dem App Store herunter.
-- Hinweis**: Achten Sie darauf, von offiziellen Quellen herunterzuladen, um betrügerische Anwendungen zu vermeiden.
+- **Hinweis**: Achten Sie darauf, von offiziellen Quellen herunterzuladen, um betrügerische Anwendungen zu vermeiden.
 
 
 
@@ -163,7 +163,7 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Startbildschirm**: Beim ersten Öffnen zeigt die Anwendung einen Bildschirm ohne konfiguriertes Wallet. Erstellte oder importierte Portfolios werden später hier angezeigt.
+- **Startbildschirm**: Beim ersten Öffnen zeigt die Anwendung einen Bildschirm ohne konfiguriertes Wallet. Erstellte oder importierte Portfolios werden später hier angezeigt.
 
 
 
@@ -173,7 +173,7 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Einstellungen anpassen**: Klicken Sie auf "Anwendungseinstellungen", passen Sie die Optionen unten an, klicken Sie auf "Speichern", starten Sie die Anwendung neu und erstellen Sie Ihr Portfolio.
+- **Einstellungen anpassen**: Klicken Sie auf "Anwendungseinstellungen", passen Sie die Optionen unten an, klicken Sie auf "Speichern", starten Sie die Anwendung neu und erstellen Sie Ihr Portfolio.
 
 
 
@@ -187,8 +187,8 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Funktion**: Deaktiviert Bildschirmfotos, blendet die Anwendungsvorschau im Task-Manager aus und sperrt den Zugriff, wenn das Telefon gesperrt ist.
-- Warum?** : Schützt Ihre Daten vor unbefugtem physischen Zugriff oder Malware, die den Bildschirm abfängt.
+- **Funktion**: Deaktiviert Bildschirmfotos, blendet die Anwendungsvorschau im Task-Manager aus und sperrt den Zugriff, wenn das Telefon gesperrt ist.
+- **Warum?**: Schützt Ihre Daten vor unbefugtem physischen Zugriff oder Malware, die den Bildschirm abfängt.
 
 
 
@@ -198,10 +198,10 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Funktion**: Leiten Sie den Netzwerkverkehr über **Tor**, ein anonymes Netzwerk, das Ihre Verbindungen verschlüsselt.
-- Warum?**: Verbergen Sie Ihre IP Address und schützen Sie Ihre Privatsphäre, ideal, wenn Sie Ihrem Netzwerk nicht vertrauen (z. B. öffentliches WLAN).
-- Nachteil**: Kann die Anwendung aufgrund der Verschlüsselung verlangsamen.
-- Empfehlung**: Aktiviere Tor, wenn Vertraulichkeit eine Priorität ist, aber teste die Verbindungsgeschwindigkeit.
+- **Funktion**: Leiten Sie den Netzwerkverkehr über **Tor**, ein anonymes Netzwerk, das Ihre Verbindungen verschlüsselt.
+- **Warum?**: Verbergen Sie Ihre IP Address und schützen Sie Ihre Privatsphäre, ideal, wenn Sie Ihrem Netzwerk nicht vertrauen (z. B. öffentliches WLAN).
+- **Nachteil**: Kann die Anwendung aufgrund der Verschlüsselung verlangsamen.
+- **Empfehlung**: Aktiviere Tor, wenn Vertraulichkeit eine Priorität ist, aber teste die Verbindungsgeschwindigkeit.
 
 
 
@@ -211,10 +211,10 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Funktion**: Verbindet die Anwendung mit Ihrem eigenen **kompletten Bitcoin-Knoten** über einen **Electrum-Server**.
-- Warum?**: Ermöglicht die vollständige Kontrolle über Blockchain-Daten und beseitigt die Abhängigkeit von Blockstream-Servern.
-- Voraussetzung**: Ein konfigurierter Bitcoin-Knoten.
-- Empfehlung**: Fortgeschrittene Benutzer, die maximale Souveränität wünschen.
+- **Funktion**: Verbindet die Anwendung mit Ihrem eigenen **kompletten Bitcoin-Knoten** über einen **Electrum-Server**.
+- **Warum?**: Ermöglicht die vollständige Kontrolle über Blockchain-Daten und beseitigt die Abhängigkeit von Blockstream-Servern.
+- **Voraussetzung**: Ein konfigurierter Bitcoin-Knoten.
+- **Empfehlung**: Fortgeschrittene Benutzer, die maximale Souveränität wünschen.
 
 
 
@@ -224,10 +224,10 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Funktion**: Verwendet **Simplified Payment Verification (SPV)**, um bestimmte Blockchain-Daten direkt zu überprüfen, ohne die gesamte Kette herunterzuladen.
-- Warum?**: Verringert die Abhängigkeit vom Standardknoten von Blockstream und bleibt gleichzeitig leichtgewichtig für mobile Geräte.
-- Nachteil**: Weniger sicher als ein Full node, da er für einige Informationen auf Knotenpunkte von Dritten angewiesen ist.
-- Empfehlung**: Aktivieren Sie SPV, wenn Sie keinen persönlichen Knoten verwenden können, sondern einen Full node für optimale Sicherheit bevorzugen.
+- **Funktion**: Verwendet **Simplified Payment Verification (SPV)**, um bestimmte Blockchain-Daten direkt zu überprüfen, ohne die gesamte Kette herunterzuladen.
+- **Warum?**: Verringert die Abhängigkeit vom Standardknoten von Blockstream und bleibt gleichzeitig leichtgewichtig für mobile Geräte.
+- **Nachteil**: Weniger sicher als ein Full node, da er für einige Informationen auf Knotenpunkte von Dritten angewiesen ist.
+- **Empfehlung**: Aktivieren Sie SPV, wenn Sie keinen persönlichen Knoten verwenden können, sondern einen Full node für optimale Sicherheit bevorzugen.
 
 
 
@@ -243,7 +243,7 @@ Liquid stützt sich auf eine **Föderation** von vertrauenswürdigen Teilnehmern
 
 
 
-- Vorsicht**: Legen Sie Ihr Portfolio in einer privaten Umgebung an, ohne Kameras oder Beobachter.
+- **Vorsicht**: Legen Sie Ihr Portfolio in einer privaten Umgebung an, ohne Kameras oder Beobachter.
 - Klicken Sie auf dem Startbildschirm auf "Erste Schritte":
 
 
@@ -346,7 +346,7 @@ Dazu schreiben wir einen Verweis auf, löschen Wallet, stellen es mit dem Backup
 
 
 
-- Klicken Sie auf dem Wallet-Startbildschirm auf die Registerkarte "Einstellungen" und dann auf "Wallet-Details", und kopieren Sie den zPub ([erweiterter öffentlicher Schlüssel](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Klicken Sie auf dem Wallet-Startbildschirm auf die Registerkarte "Einstellungen" und dann auf "Wallet-Details", und kopieren Sie den zPub ([erweiterter öffentlicher Schlüssel](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -434,7 +434,7 @@ Alternativ Exchange Ihre Bitcoins onchain oder über die Lightning Network für 
 
 
 
-- Optionen** :
+- **Optionen**:
  - (1) Klicken Sie auf die Pfeile, um einen anderen neuen Address auszuwählen, der mit diesem seed-Satz verknüpft ist.
     - (2) Sie können auch ein Address aus den bereits verwendeten/angezeigten Adressen auswählen, indem Sie auf die drei Punkte oben rechts und dann auf "Liste der Adressen" klicken
     - (3) Um einen bestimmten Betrag anzufordern, klicken Sie auf die drei Punkte oben rechts, wählen "Betrag anfordern" und geben den gewünschten Betrag ein. Der QR wird aktualisiert, und die Address wird durch eine Bitcoin-Zahlungs-URI ersetzt.
@@ -448,7 +448,7 @@ Alternativ Exchange Ihre Bitcoins onchain oder über die Lightning Network für 
 
 
 - Teilen Sie den Address/URI, indem Sie auf "**Teilen**" klicken, den Text kopieren oder den QR-Code scannen.
-- Verifizierung**: Überprüfen Sie den Address, der mit dem Empfänger geteilt wurde, so weit wie möglich, um Fehler oder Angriffe zu vermeiden (z. B. Malware, die die Zwischenablage verändert).
+- **Verifizierung**: Überprüfen Sie den Address, der mit dem Empfänger geteilt wurde, so weit wie möglich, um Fehler oder Angriffe zu vermeiden (z. B. Malware, die die Zwischenablage verändert).
 
 
 
@@ -468,7 +468,7 @@ Alternativ Exchange Ihre Bitcoins onchain oder über die Lightning Network für 
 
 
 
-- Details eingeben** :
+- **Details eingeben**:
     - (1) Geben Sie den **Address des Empfängers** ein, indem Sie ihn aufkleben oder einen QR-Code scannen.
     - (2) Überprüfen Sie die Vermögenswerte und das Konto, von dem die Gelder überwiesen werden.
     - (3) Geben Sie den zu überweisenden **Betrag** an. Sie können die Einheit wählen: L-BTC, L-Satoshis, USD, ...
@@ -481,7 +481,7 @@ Alternativ Exchange Ihre Bitcoins onchain oder über die Lightning Network für 
 
 
 
-- Prüfen** :
+- **Prüfen**:
     - Überprüfen Sie die Address, den Betrag und die Gebühren auf dem Übersichtsbildschirm.
     - Ein Address-Fehler kann zu einem unwiderruflichen Verlust von Geldern führen. Hüten Sie sich vor Malware, die die Zwischenablage modifiziert.
 
@@ -493,8 +493,8 @@ Alternativ Exchange Ihre Bitcoins onchain oder über die Lightning Network für 
 
 
 
-- Bestätigen**: Klicken Sie auf die Schaltfläche "Senden", um die Transaktion zu unterzeichnen und zu verteilen.
-- Weiterverfolgung**: Auf der Registerkarte Wallet "Vorgang" erscheint die Transaktion als "Unbestätigt", dann "Bestätigt" und schließlich "Abgeschlossen":
+- **Bestätigen**: Klicken Sie auf die Schaltfläche "Senden", um die Transaktion zu unterzeichnen und zu verteilen.
+- **Weiterverfolgung**: Auf der Registerkarte Wallet "Vorgang" erscheint die Transaktion als "Unbestätigt", dann "Bestätigt" und schließlich "Abgeschlossen":
 
 
 
@@ -547,7 +547,7 @@ Um **Blockstream App** sicher und effizient zu nutzen, befolgen Sie diese Empfeh
 
 
 
-- Sichern Sie Ihre Wiederherstellungsphrase** :
+- **Sichern Sie Ihre Wiederherstellungsphrase**:
  - Anleitung: Speichern des Mnemonic-Satzes
 
 
@@ -559,7 +559,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Verwenden Sie eine sichere Authentifizierung** :
+- **Verwenden Sie eine sichere Authentifizierung**:
  - Aktivieren Sie eine **starke PIN** oder **biometrische Authentifizierung** (Fingerabdruck oder Gesichtserkennung), um den Zugang zur Anwendung zu schützen.
  - Geben Sie niemals Ihre PIN oder biometrischen Daten weiter.
 
@@ -567,7 +567,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Schützen Sie Ihre Privatsphäre** :
+- **Schützen Sie Ihre Privatsphäre** :
  - generate ein neues Address für jeden Onchain-Empfang oder Liquid zur Begrenzung der Rückverfolgung auf dem Blockchain.
  - Aktivieren Sie die Funktionen "Verbesserter Datenschutz", "Tor" und "SPV".
  - Für maximale Vertraulichkeit sollten Sie Ihren Wallet über einen Electrum-Server mit Ihrem eigenen Bitcoin-Knoten verbinden, anstatt den öffentlichen Knoten zu verwenden
@@ -576,23 +576,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Wählen Sie das für Ihre Bedürfnisse am besten geeignete Netz**:
- - Onchain**: Bevorzugt für langfristige Verwahrung oder Transaktionen mit hohem Wert (Gebühren im Verhältnis zum Betrag vernachlässigbar).
- - Liquid**: Für schnelle, kostengünstige Überweisungen mit erhöhter Vertraulichkeit.
- - Lightning**: Wählen Sie sofortige, kostengünstige Überweisungen für kleine Beträge.
+- Wählen Sie das für Ihre Bedürfnisse am besten geeignete **Netz**:
+- **Onchain**: Bevorzugt für langfristige Verwahrung oder Transaktionen mit hohem Wert (Gebühren im Verhältnis zum Betrag vernachlässigbar).
+- **Liquid**: Für schnelle, kostengünstige Überweisungen mit erhöhter Vertraulichkeit.
+- **Lightning**: Wählen Sie sofortige, kostengünstige Überweisungen für kleine Beträge.
 
 
 
 
 
-- Überprüfen Sie immer die Lieferadressen** :
+- **Überprüfen Sie immer die Lieferadressen**:
  - Überprüfen Sie das Address sorgfältig, bevor Sie Geldmittel senden. Gelder, die an einen falschen Address gesendet werden, sind für immer verloren. Verwenden Sie Kopieren/Einfügen oder QR-Code-Scannen, kopieren/verändern Sie niemals einen Address von Hand.
 
 
 
 
 
-- Kosten optimieren** :
+- **Kosten optimieren**:
  - Wählen Sie für Onchain-Transaktionen je nach Dringlichkeit und Netzüberlastung geeignete Gebühren (langsam, mittel, schnell).
  - Verwenden Sie Liquid oder Lightning für kleine Mengen.
 
@@ -611,16 +611,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Offizielle Links:**
- - [Offizielle Website](https://blockstream.com/)**
- - [Support für die mobile Anwendung](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : Dokumentation und Chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Offizielle Links:**
+- [Offizielle Website](https://blockstream.com/)
+- [Support für die mobile Anwendung](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): Dokumentation und Chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Blitzschlag: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -629,7 +629,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Lernen und Tutorien:** **[Plan ₿ Network](https://planb.network/)** :
+- Lernen und Tutorien: **[Plan ₿ Network](https://planb.network/)**
  - Sicherung des Wiederherstellungssatzes
 
 
@@ -641,8 +641,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Glossar](https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Glossar](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -652,8 +652,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Glossar](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Glossar](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

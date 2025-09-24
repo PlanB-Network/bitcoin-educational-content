@@ -1,0 +1,9 @@
+question: Milline on vaikimisi väljuvate ühenduste arv, mida Bitcoin core-sõlm säilitab?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core säilitab vaikimisi 10 väljaminevat ühendust (8 täisreleed ja 2 ainult blokireleed).
+reviewed: true

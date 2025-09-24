@@ -1,0 +1,9 @@
+question: 활성 네트워크 라우팅 테이블을 표시하는 Linux 명령은 무엇인가요?
+answer: iP 경로 표시
+wrong_answers:
+  - ifconfig -a
+  - 핑 경로
+  - netstat -s
+explanation: |
+  iP 경로 표시에는 커널에 알려진 경로와 IP 패킷이 이동한 경로가 나열됩니다.
+reviewed: false

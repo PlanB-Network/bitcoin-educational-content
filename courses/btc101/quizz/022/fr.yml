@@ -1,13 +1,9 @@
-question: Pourquoi l'or est-il devenu le standard comme moyen d'échange ?
-answer: En raison de sa rareté, de sa durabilité et de sa divisibilité.
+question: Pourquoi l'or n'est-il pas un matériel portable ?
+answer: Parce qu'il est dense et lourd, ce qui le rend encombrant à transporter en grandes quantités.
 wrong_answers:
-  - En raison de son abondance, de sa durabilité et de son indivisibilité.
-  - En raison de sa rareté, de sa périssabilité et de sa divisibilité.
-  - En raison de son abondance, de sa périssabilité et de son indivisibilité.
+  - Parce qu'il est trop précieux pour être déplacé.
+  - Parce qu'il ne peut pas être facilement façonné en formes plus petites.
+  - Parce qu'il est liquide à température ambiante.
 explanation: |
-  L'or est devenu le standard comme moyen d'échange en raison
-  de sa rareté, de sa durabilité et de sa divisibilité : sa rareté empêchait
-  la dévaluation causée par la production, sa durabilité
-  assurait qu'il ne s'éroderait pas avec le temps, et sa divisibilité
-  permettait son utilisation dans des transactions de différentes tailles.
+  L'or est dense et lourd, ce qui signifie que transporter de grandes quantités peut être physiquement difficile. Ce poids le rend moins pratique pour le transport par rapport à des matériaux plus légers.
 reviewed: true

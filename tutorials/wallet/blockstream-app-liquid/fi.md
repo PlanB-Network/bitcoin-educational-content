@@ -1,5 +1,5 @@
 ---
-name: Blockstream-sovellus - Liquid
+name: Blockstream App - Liquid
 description: Blockstream App -sovelluksen määrittäminen ja Liquid Network:n käyttäminen
 ---
 ![cover](assets/cover.webp)
@@ -26,8 +26,8 @@ description: Blockstream App -sovelluksen määrittäminen ja Liquid Network:n k
 
 
 
-- Aloittelijoille**: Käyttäjät, jotka haluavat hallita bitcoinejaan intuitiivisella mobiilisovelluksella, joka integroi Liquid Network:n.
-- Keskitason käyttäjät**: Ihmiset, jotka haluavat ymmärtää onchain-toimintoja ja yksityisyysvaihtoehtoja, kuten Tor tai SPV.
+- **Aloittelijoille**: Käyttäjät, jotka haluavat hallita bitcoinejaan intuitiivisella mobiilisovelluksella, joka integroi Liquid Network:n.
+- **Keskitason käyttäjät**: Ihmiset, jotka haluavat ymmärtää onchain-toimintoja ja yksityisyysvaihtoehtoja, kuten Tor tai SPV.
 
 
 
@@ -50,19 +50,19 @@ Sidechain on itsenäinen Blockchain, joka toimii rinnakkain Bitcoin:n kanssa kä
 
 
 
-- (1) Kiinnitys**: Bitcoinit (BTC) lukitaan Liquid-liiton toimesta Blockchain:n pääjärjestelmään. Vastineeksi Blockchain Liquid-ketjussa lasketaan liikkeeseen ja lähetetään käyttäjälle vastaava määrä Liquid-bitcoineja (L-BTC), jolla varmistetaan kahden ketjun välinen pariteetti.
+- (1) **Kiinnitys**: Bitcoinit (BTC) lukitaan Liquid-liiton toimesta Blockchain:n pääjärjestelmään. Vastineeksi Blockchain Liquid-ketjussa lasketaan liikkeeseen ja lähetetään käyttäjälle vastaava määrä Liquid-bitcoineja (L-BTC), jolla varmistetaan kahden ketjun välinen pariteetti.
 
 
 
 
 
-- (2) Riippumattomat liiketoimet** : Tapahtumia voidaan suorittaa samanaikaisesti ja itsenäisesti pääkoneissa Blockchain (BTC) ja Sidechain Liquid (L-BTC) käyttäjän tarpeiden mukaan.
+- (2) **Riippumattomat liiketoimet**: Tapahtumia voidaan suorittaa samanaikaisesti ja itsenäisesti pääkoneissa Blockchain (BTC) ja Sidechain Liquid (L-BTC) käyttäjän tarpeiden mukaan.
 
 
 
 
 
-- (3) Kiinni**: Käyttäjä lähettää Liquid-bitcoineja (L-BTC) takaisin Liquid-liittoon. Tämän jälkeen liitto avaa vastaavan määrän bitcoineja (BTC) Blockchain:n pääkeskuksessa ja siirtää ne käyttäjälle.
+- (3) **Kiinni**: Käyttäjä lähettää Liquid-bitcoineja (L-BTC) takaisin Liquid-liittoon. Tämän jälkeen liitto avaa vastaavan määrän bitcoineja (BTC) Blockchain:n pääkeskuksessa ja siirtää ne käyttäjälle.
 
 
 
@@ -80,15 +80,15 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Nopeus**: Liquid:ssä tapahtuvat transaktiot vahvistetaan noin **1 minuutissa**, kun taas ketjussa tapahtuvissa transaktioissa aikaa kuluu 10 minuuttia tai enemmän, koska validoijien liitto luo lohkoja joka minuutti.
-- Parannettu luottamuksellisuus**: Liquid käyttää **Confidential Transactions**:tä, joka piilottaa siirrettyjen varojen määrän ja tyypin, mikä tekee transaktioista yksityisempiä (vaikka osoitteet pysyvätkin näkyvissä).
-- Alhaiset maksut** : Liquid:lla tehtävät maksut ovat yleensä edullisempia, joten ne sopivat erinomaisesti usein tehtäviin siirtoihin tai pieniin summiin.
-- Useita omaisuuseriä**: Liquid tukee L-BTC:iden lisäksi muiden digitaalisten omaisuuserien, kuten stablecoins tai tokenien, liikkeeseenlaskua erityissovelluksissa käytettäväksi.
-- Käyttötapaukset**: Liquid soveltuu erityisesti alustojen väliseen vaihtoon, nopeisiin maksuihin tai älykkäitä sopimuksia vaativiin sovelluksiin, mutta se on samalla yhteydessä Bitcoin:n turvallisuuteen.
+- **Nopeus**: Liquid:ssä tapahtuvat transaktiot vahvistetaan noin **1 minuutissa**, kun taas ketjussa tapahtuvissa transaktioissa aikaa kuluu 10 minuuttia tai enemmän, koska validoijien liitto luo lohkoja joka minuutti.
+- **Parannettu luottamuksellisuus**: Liquid käyttää **Confidential Transactions**:tä, joka piilottaa siirrettyjen varojen määrän ja tyypin, mikä tekee transaktioista yksityisempiä (vaikka osoitteet pysyvätkin näkyvissä).
+- **Alhaiset maksut**: Liquid:lla tehtävät maksut ovat yleensä edullisempia, joten ne sopivat erinomaisesti usein tehtäviin siirtoihin tai pieniin summiin.
+- **Useita omaisuuseriä**: Liquid tukee L-BTC:iden lisäksi muiden digitaalisten omaisuuserien, kuten stablecoins tai tokenien, liikkeeseenlaskua erityissovelluksissa käytettäväksi.
+- **Käyttötapaukset**: Liquid soveltuu erityisesti alustojen väliseen vaihtoon, nopeisiin maksuihin tai älykkäitä sopimuksia vaativiin sovelluksiin, mutta se on samalla yhteydessä Bitcoin:n turvallisuuteen.
 
 
 
-**Huomautus: Tämä opetusohjelma keskittyy Liquid:n käyttöön Blockstream-sovelluksen kautta. Liquid Network:n perusteellista ymmärtämistä varten löydät resursseja liitteestä.
+**Huomautus: Tämä opetusohjelma keskittyy Liquid:n käyttöön Blockstream-sovelluksen kautta. Liquid Network:n perusteellista ymmärtämistä varten löydät resursseja liitteestä.**
 
 
 
@@ -98,14 +98,14 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kaikki nimitykset sovellukselle, joka on asennettu älypuhelimeen, tietokoneeseen tai mihin tahansa Internetiin liitettyyn laitteeseen ja jonka avulla Bitcoin Wallet:n yksityisiä avaimia voidaan hallita ja suojata.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: kaikki nimitykset sovellukselle, joka on asennettu älypuhelimeen, tietokoneeseen tai mihin tahansa Internetiin liitettyyn laitteeseen ja jonka avulla Bitcoin Wallet:n yksityisiä avaimia voidaan hallita ja suojata.
 - Toisin kuin **hardwarelompakot**, jotka tunnetaan myös nimellä **Cold-lompakot** ja jotka eristävät avaimet offline-tilassa, ohjelmistolompakot toimivat verkottuneessa ympäristössä, mikä tekee niistä haavoittuvampia tietoverkkohyökkäyksille.
 
 
 
 
 
-- Suositeltu käyttö** :
+- **Suositeltu käyttö**:
     - Ihanteellinen Bitcoin:n kohtuullisten määrien hallintaan, erityisesti päivittäisissä liiketoimissa.
     - Sopii aloittelijoille tai käyttäjille, joilla on vain vähän varoja ja joille Hardware Wallet voi tuntua tarpeettomalta.
 
@@ -113,7 +113,7 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Rajoitukset**: Vähemmän turvallinen suurten varojen tai pitkäaikaisten säästöjen säilyttämiseen. Valitse tässä tapauksessa Hardware Wallet.
+- **Rajoitukset**: Vähemmän turvallinen suurten varojen tai pitkäaikaisten säästöjen säilyttämiseen. Valitse tässä tapauksessa Hardware Wallet.
 
 
 
@@ -124,16 +124,16 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Blockstream App** on mobiili- (iOS, Android) ja työpöytäsovellus Bitcoin-lompakoiden ja varojen hallintaan Liquid Network:ssä. [Blockstream] (https://blockstream.com/) osti sen vuonna 2016, ja se oli aiemmin nimeltään *Green Address* ja sitten *Blockstream Green*.
-- Tärkeimmät ominaisuudet** :
-    - Onchain**-tapahtumat Blockchain Bitcoin.
+- **Blockstream App** on mobiili- (iOS, Android) ja työpöytäsovellus Bitcoin-lompakoiden ja varojen hallintaan Liquid Network:ssä. [Blockstream](https://blockstream.com/) osti sen vuonna 2016, ja se oli aiemmin nimeltään *Green Address* ja sitten *Blockstream Green*.
+- **Tärkeimmät ominaisuudet**:
+- **Onchain-tapahtumat** Blockchain Bitcoin.
     - Tapahtumat **Liquid**-verkossa (Sidechain nopeaan ja luottamukselliseen vaihtoon).
-    - Watch-only** -salkut rahastojen seurantaan ilman pääsyä avaimiin.
+- **Watch-only** -salkut rahastojen seurantaan ilman pääsyä avaimiin.
     - Tietosuojavaihtoehdot: yhteys **Torin** kautta, yhteys **persoonalliseen solmuun** Electrumin kautta tai **SPV**-varmistus, jolla vähennetään riippuvuutta kolmannen osapuolen solmuista.
     - Toiminnot **Replace-by-fee (RBF)** vahvistamattomien tapahtumien nopeuttamiseksi.
-- Yhteensopivuus**: **Blockstream Jade**.
-- Interface**: Intuitiivinen aloittelijoille, edistyneet vaihtoehdot asiantuntijoille.
-- Huomautus**: Tämä opas keskittyy ketjukäyttöön. Muut liitteissä olevat oppaat käsittelevät Onchainia, Watch-Onlya ja työpöytäversiota.
+- **Yhteensopivuus**: **Blockstream Jade**.
+- **Interface**: Intuitiivinen aloittelijoille, edistyneet vaihtoehdot asiantuntijoille.
+- **Huomautus**: Tämä opas keskittyy ketjukäyttöön. Muut liitteissä olevat oppaat käsittelevät Onchainia, Watch-Onlya ja työpöytäversiota.
 
 
 
@@ -148,12 +148,12 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Androidille** :
+- **Androidille**:
     - Lataa [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) Google Play Storesta.
     - Vaihtoehto: Asenna APK-tiedoston kautta, joka on saatavilla [Blockstreamin virallisella GitHub-sivustolla](https://github.com/Blockstream/green_android).
-- IOS** :
+- **IOS**:
     - Lataa [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) App Storesta.
-- Huomautus**: Varmista, että lataat virallisista lähteistä, jotta vältät vilpilliset sovellukset.
+- **Huomautus**: Varmista, että lataat virallisista lähteistä, jotta vältät vilpilliset sovellukset.
 
 
 
@@ -163,7 +163,7 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Aloitusnäyttö**: Kun sovellus avataan ensimmäisen kerran, se näyttää näytön ilman määritettyä Wallet:a. Luodut tai tuodut portfoliot näkyvät tässä myöhemmin.
+- **Aloitusnäyttö**: Kun sovellus avataan ensimmäisen kerran, se näyttää näytön ilman määritettyä Wallet:a. Luodut tai tuodut portfoliot näkyvät tässä myöhemmin.
 
 
 
@@ -173,7 +173,7 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Mukauta asetuksia**: Napsauta "Sovelluksen asetukset", säädä alla olevia vaihtoehtoja, napsauta "Tallenna", käynnistä sovellus uudelleen ja luo portfoliosi.
+- **Mukauta asetuksia**: Napsauta "Sovelluksen asetukset", säädä alla olevia vaihtoehtoja, napsauta "Tallenna", käynnistä sovellus uudelleen ja luo portfoliosi.
 
 
 
@@ -187,8 +187,8 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Toiminto**: Toiminto: Poistaa kuvakaappaukset käytöstä, piilottaa sovellusten esikatselukuvat Tehtävienhallinnassa ja lukitsee pääsyn, kun puhelin on lukittu.
-- Miksi?** : Suojaa tietosi luvattomalta fyysiseltä käytöltä tai näytön sieppaavilta haittaohjelmilta.
+- **Toiminto**: Poistaa kuvakaappaukset käytöstä, piilottaa sovellusten esikatselukuvat Tehtävienhallinnassa ja lukitsee pääsyn, kun puhelin on lukittu.
+- **Miksi?**: Suojaa tietosi luvattomalta fyysiseltä käytöltä tai näytön sieppaavilta haittaohjelmilta.
 
 
 
@@ -198,10 +198,10 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Toiminto**: Reititä verkkoliikenne **Tor**:n, anonyymin verkon kautta, joka salaa yhteydet.
-- Miksi?**: Tämä on ihanteellista, jos et luota verkkoosi (esimerkiksi julkiseen Wi-Fi-verkkoon).
-- Haitta**: Voi hidastaa sovellusta salauksen takia.
-- Suositus**: Aktivoi Tor, jos luottamuksellisuus on etusijalla, mutta testaa yhteyden nopeus.
+- **Toiminto**: Reititä verkkoliikenne **Tor**:n, anonyymin verkon kautta, joka salaa yhteydet.
+- **Miksi?**: Tämä on ihanteellista, jos et luota verkkoosi (esimerkiksi julkiseen Wi-Fi-verkkoon).
+- **Haitta**: Voi hidastaa sovellusta salauksen takia.
+- **Suositus**: Aktivoi Tor, jos luottamuksellisuus on etusijalla, mutta testaa yhteyden nopeus.
 
 
 
@@ -211,10 +211,10 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Toiminto**: Yhdistää sovelluksen omaan **täydelliseen Bitcoin-solmuun** **Electrum-palvelimen** kautta.
-- Miksi?**: Tarjoaa Blockchain:n tietojen täydellisen hallinnan, mikä poistaa riippuvuuden Blockstream-palvelimista.
-- Edellytys**: Konfiguroitu Bitcoin-solmu.
-- Suositus**: Edistyneet käyttäjät, jotka haluavat maksimaalisen riippumattomuuden.
+- **Toiminto**: Yhdistää sovelluksen omaan **täydelliseen Bitcoin-solmuun** **Electrum-palvelimen** kautta.
+- **Miksi?**: Tarjoaa Blockchain:n tietojen täydellisen hallinnan, mikä poistaa riippuvuuden Blockstream-palvelimista.
+- **Edellytys**: Konfiguroitu Bitcoin-solmu.
+- **Suositus**: Edistyneet käyttäjät, jotka haluavat maksimaalisen riippumattomuuden.
 
 
 
@@ -224,10 +224,10 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Toiminto**: Käyttää **Yhdennettyä maksun todentamista (SPV)** tiettyjen Blockchain-tietojen suoraan todentamiseen lataamatta koko ketjua.
-- Miksi?**: Vähentää riippuvuutta Blockstreamin oletussolmusta ja on samalla kevyt mobiililaitteille.
-- Haitta**: Full node:ää vähemmän turvallinen, koska se on riippuvainen kolmansien osapuolten solmuista joidenkin tietojen saamiseksi.
-- Suositus**: Aktivoi SPV, jos et voi käyttää henkilökohtaista solmua, mutta haluat Full node:n optimaalisen turvallisuuden vuoksi.
+- **Toiminto**: Käyttää **Yhdennettyä maksun todentamista (SPV)** tiettyjen Blockchain-tietojen suoraan todentamiseen lataamatta koko ketjua.
+- **Miksi?**: Vähentää riippuvuutta Blockstreamin oletussolmusta ja on samalla kevyt mobiililaitteille.
+- **Haitta**: Full nodeää vähemmän turvallinen, koska se on riippuvainen kolmansien osapuolten solmuista joidenkin tietojen saamiseksi.
+- **Suositus**: Aktivoi SPV, jos et voi käyttää henkilökohtaista solmua, mutta haluat Full node:n optimaalisen turvallisuuden vuoksi.
 
 
 
@@ -243,7 +243,7 @@ Liquid perustuu luotettavien osallistujien (pörssit, tunnustetut Bitcoin-yrityk
 
 
 
-- Varoitus**: Aseta salkku yksityiseen ympäristöön, jossa ei ole kameroita tai tarkkailijoita.
+- **Varoitus**: Aseta salkku yksityiseen ympäristöön, jossa ei ole kameroita tai tarkkailijoita.
 - Napsauta aloitusnäytöltä "Get Started" :
 
 
@@ -346,7 +346,7 @@ Tätä varten kirjoitamme viitteen, poistamme Wallet:n, palautamme sen varmuusko
 
 
 
-- Napsauta Wallet:n aloitusnäytössä "Settings"-välilehteä, sitten "Wallet Details" ja kopioi zPub ([extended public key](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Napsauta Wallet:n aloitusnäytössä "Settings"-välilehteä, sitten "Wallet Details" ja kopioi zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -434,7 +434,7 @@ Vaihtoehtoisesti Exchange bitcoinit onchain tai kautta Lightning Network L-BTC k
 
 
 
-- Vaihtoehdot** :
+- **Vaihtoehdot**:
  - (1) Valitse toinen uusi Address, joka liittyy tähän seed-lauseeseen, napsauttamalla nuolia.
     - (2) Voit myös valita Address:n jo käytetyistä/näytetyistä osoitteista klikkaamalla kolmea pistettä oikeassa yläkulmassa ja sitten "Osoiteluettelo"
     - (3) Jos haluat pyytää tietyn summan, napsauta kolmea pistettä oikeassa yläkulmassa, valitse "Pyydä summa" ja syötä haluamasi summa. QR päivittyy, ja Address korvataan Bitcoin-maksun URI:llä.
@@ -448,7 +448,7 @@ Vaihtoehtoisesti Exchange bitcoinit onchain tai kautta Lightning Network L-BTC k
 
 
 - Jaa Address/URI klikkaamalla "**Jaa**", kopioimalla teksti tai skannaamalla QR-koodi.
-- Tarkastus**: Tarkista vastaanottajan kanssa jaettu Address niin pitkälle kuin mahdollista virheiden tai hyökkäysten välttämiseksi (esim. leikepöydän muokkaaminen haittaohjelmilla).
+- **Tarkastus**: Tarkista vastaanottajan kanssa jaettu Address niin pitkälle kuin mahdollista virheiden tai hyökkäysten välttämiseksi (esim. leikepöydän muokkaaminen haittaohjelmilla).
 
 
 
@@ -468,7 +468,7 @@ Vaihtoehtoisesti Exchange bitcoinit onchain tai kautta Lightning Network L-BTC k
 
 
 
-- Anna tiedot** :
+- **Anna tiedot**:
     - (1) Syötä vastaanottajan **Address** kiinni kiinnittämällä se tai skannaamalla QR-koodi.
     - (2) Tarkista varat ja tili, jolta varat lähetetään.
     - (3) Ilmoita lähetettävä **määrä**. Voit valita yksikön: L-BTC, L-satoshis, USD, ...
@@ -481,7 +481,7 @@ Vaihtoehtoisesti Exchange bitcoinit onchain tai kautta Lightning Network L-BTC k
 
 
 
-- Tarkista** :
+- **Tarkista**:
     - Tarkista Address, määrä ja maksut yhteenvetonäytöltä.
     - Address-virhe voi johtaa peruuttamattomaan varojen menetykseen. Varo leikepöytää muokkaavia haittaohjelmia.
 
@@ -493,8 +493,8 @@ Vaihtoehtoisesti Exchange bitcoinit onchain tai kautta Lightning Network L-BTC k
 
 
 
-- Vahvistus**: Allekirjoita ja lähetä tapahtuma liu'uttamalla "Lähetä"-painiketta.
-- Seuranta**: Wallet:n "Transact"-välilehdellä tapahtuma näkyy ensin "Unconfirmed", sitten "Confirmed" ja sitten "Completed":
+- **Vahvistus**: Allekirjoita ja lähetä tapahtuma liu'uttamalla "Lähetä"-painiketta.
+- **Seuranta**: Wallet:n "Transact"-välilehdellä tapahtuma näkyy ensin "Unconfirmed", sitten "Confirmed" ja sitten "Completed":
 
 
 
@@ -547,7 +547,7 @@ Jos haluat käyttää **Blockstream-sovellusta** turvallisesti ja tehokkaasti, n
 
 
 
-- Turvaa palautuslausekkeesi** :
+- **Turvaa palautuslausekkeesi**:
  - Tutorial: Mnemonic-lauseen tallentaminen
 
 
@@ -559,7 +559,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Käytä suojattua todennusta** :
+- **Käytä suojattua todennusta**:
  - Ota käyttöön **vahva PIN-koodi** tai **biometrinen tunnistus** (sormenjälki tai kasvojentunnistus) sovelluksen käytön suojaamiseksi.
  - Älä koskaan jaa PIN-koodia tai biometrisiä tietoja.
 
@@ -567,7 +567,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Suojaa yksityisyytesi** :
+- **Suojaa yksityisyytesi**:
  - generate uusi Address jokaista ketjussa tapahtuvaa vastaanottoa varten tai Liquid Blockchain:n jäljittämisen rajoittamiseksi.
  - Aktivoi "Enhanced Privacy", "Tor" ja "SPV" -toiminnot.
  - Jos haluat maksimaalisen luottamuksellisuuden, yhdistä Wallet omaan Bitcoin-solmuun Electrum-palvelimen kautta sen sijaan, että käyttäisit julkista solmua
@@ -576,23 +576,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Valitse tarpeisiisi parhaiten sopiva verkko** :
- - Onchain**: (palkkiot ovat vähäisiä suhteessa määrään).
- - Liquid**: Käytä nopeisiin, edullisiin siirtoihin, joissa on parempi luottamuksellisuus.
- - Salama**: Valitse välittömät, edulliset siirrot pienille summille.
+- Valitse tarpeisiisi parhaiten sopiva **verkko**:
+- **Onchain**: (palkkiot ovat vähäisiä suhteessa määrään).
+- **Liquid**: Käytä nopeisiin, edullisiin siirtoihin, joissa on parempi luottamuksellisuus.
+- **Salama**: Valitse välittömät, edulliset siirrot pienille summille.
 
 
 
 
 
-- Tarkista aina toimitusosoitteet** :
+- Tarkista aina **toimitusosoitteet**:
  - Tarkista Address huolellisesti ennen varojen lähettämistä. Väärään Address:een lähetetyt varat menetetään lopullisesti. Käytä kopiointia/liittämistä tai QR-koodin skannausta, älä koskaan kopioi/muuta Address:ta käsin.
 
 
 
 
 
-- Optimoi kustannukset** :
+- **Optimoi kustannukset**:
  - Valitse ketjutapahtumille sopivat maksut (hidas, keskitasoinen, nopea) kiireellisyyden ja verkon ruuhkautumisen mukaan.
  - Käytä Liquid:ää tai Lightningia pieniin määriin.
 
@@ -611,16 +611,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Viralliset linkit:**
- - [Virallinen verkkosivusto](https://blockstream.com/)**
- - [Tuki mobiilisovellukselle](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentaatio ja chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Viralliset linkit:**
+- [Virallinen verkkosivusto](https://blockstream.com/)
+- [Tuki mobiilisovellukselle](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentaatio ja chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Kortteleiden tutkijat :**
+- Kortteleiden tutkijat:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Salama: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -629,7 +629,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Oppiminen ja opetusohjelmat:** **[Plan ₿ Network](https://planb.network/)** :
+- **Oppiminen ja opetusohjelmat:** **[Plan ₿ Network](https://planb.network/)** :
  - Elvytyslausekkeen turvaaminen
 
 
@@ -641,8 +641,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Sanasto](https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Sanasto](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -652,8 +652,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Sanasto](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Sanasto](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

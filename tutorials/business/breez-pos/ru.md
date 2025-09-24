@@ -1,5 +1,5 @@
 ---
-name: Breez точка продаж
+name: Breez - POS
 
 description: Руководство по началу приема биткойнов с использованием Breez POS
 ---

@@ -601,7 +601,7 @@ Voit luonnehtia **lukuteoriaa** kokonaislukujen ominaisuuksien ja kokonaislukuje
 
 Esimerkiksi kaksi lukua $a$ ja $N$ ovat **kopriimejä** (tai **relatiivisia alkulukuja**), jos niiden suurin yhteinen jakaja on 1. Oletetaan nyt tietty kokonaisluku $N$. Kuinka monta $N$:aa pienempää kokonaislukua on koprimia $N$:n kanssa? Voimmeko tehdä yleisiä väitteitä vastauksista tähän kysymykseen? Nämä ovat tyypillisiä kysymyksiä, joihin lukuteoria pyrkii vastaamaan.
 
-Nykyaikainen lukuteoria perustuu abstraktin algebran työkaluihin. Abstrakti algebra** on matematiikan osa-alue, jossa analyysin pääkohteet ovat algebrallisiksi rakenteiksi kutsuttuja abstrakteja kohteita. **Algebrallinen rakenne** on joukko elementtejä, joihin liittyy yksi tai useampi operaatio ja jotka täyttävät tietyt aksioomat. Algebrallisten rakenteiden avulla matemaatikot voivat saada käsityksen erityisistä matemaattisista ongelmista abstrahoimalla niiden yksityiskohdista.
+Nykyaikainen lukuteoria perustuu abstraktin algebran työkaluihin. **Abstrakti algebra** on matematiikan osa-alue, jossa analyysin pääkohteet ovat algebrallisiksi rakenteiksi kutsuttuja abstrakteja kohteita. **Algebrallinen rakenne** on joukko elementtejä, joihin liittyy yksi tai useampi operaatio ja jotka täyttävät tietyt aksioomat. Algebrallisten rakenteiden avulla matemaatikot voivat saada käsityksen erityisistä matemaattisista ongelmista abstrahoimalla niiden yksityiskohdista.
 
 Abstraktin algebran alaa kutsutaan joskus myös moderniksi algebraksi. Saatat törmätä myös käsitteeseen **abstrakti matematiikka** (tai **puhdas matematiikka**). Jälkimmäinen termi ei viittaa abstraktiin algebraan, vaan tarkoittaa pikemminkin matematiikan tutkimista sen itsensä vuoksi eikä vain mahdollisia sovelluksia silmällä pitäen.
 
@@ -675,7 +675,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(suurin alkuluku, joka on pienempi kuin $2^{256}$). $x$-koordinaatti on yksityinen avain ja $y$-koordinaatti on julkinen avaimesi.
+(joka on suurin alkuluku, joka on pienempi kuin $2^{256}$).
 
 Bitcoinissa tapahtuviin transaktioihin liittyy yleensä ulostulojen lukitseminen yhteen tai useampaan julkiseen avaimeen jollakin tavalla. Näiden transaktioiden arvo voidaan sitten avata tekemällä digitaalisia allekirjoituksia vastaavilla yksityisillä avaimilla.
 
@@ -1106,7 +1106,7 @@ Vaikka emme aio syventyä kaikkiin yksityiskohtiin kryptografisen tietoturvan er
 
 Symmetriset salausjärjestelmät jaetaan tavallisesti kahteen tyyppiin: **virtasalakirjoitukset** ja **lohkosalakirjoitukset**. Tämä jaottelu on kuitenkin hieman hankala, koska ihmiset käyttävät näitä termejä epäjohdonmukaisesti. Seuraavissa kappaleissa esittelen eron parhaaksi katsomallani tavalla. Kannattaa kuitenkin olla tietoinen siitä, että monet ihmiset käyttävät näitä termejä hieman eri tavalla kuin minä esitän.
 
-Käydään ensin läpi virtaussalakirjoitukset. Virtasalaus** on symmetrinen salausjärjestelmä, jossa salaus koostuu kahdesta vaiheesta.
+Käydään ensin läpi **virtaussalakirjoitukset**. **Virtasalaus** on symmetrinen salausjärjestelmä, jossa salaus koostuu kahdesta vaiheesta.
 
 Ensin tuotetaan yksityisen avaimen avulla selkotekstin pituinen merkkijono. Tätä merkkijonoa kutsutaan **keystreamiksi**.
 
@@ -1220,7 +1220,7 @@ Vaikka lohkosalaus on suhteellisen suoraviivainen, sähköisellä koodikirjatila
 
 Sen sijaan minkä tahansa lohkosalakirjoituksesta rakennetun salausjärjestelmän pitäisi olla **probabilistinen**: eli minkä tahansa viestin $M$ tai minkä tahansa $M$:n tietyn osan salauksen pitäisi yleensä tuottaa joka kerta eri tulos. [5]
 
-Lohkosalakirjoitustila** (**CBC-tila**) on luultavasti yleisin lohkosalakirjoituksen kanssa käytetty tila. Yhdistelmä tuottaa oikein tehtynä todennäköisyyspohjaisen salausjärjestelmän. Tämän toimintatavan kuvaus on *kuvassa 6* alla.
+Lohkosalakirjoitustila (**CBC-tila**) on luultavasti yleisin lohkosalakirjoituksen kanssa käytetty tila. Yhdistelmä tuottaa oikein tehtynä todennäköisyyspohjaisen salausjärjestelmän. Tämän toimintatavan kuvaus on *kuvassa 6* alla.
 
 *Kuva 6: Lohkosalaus CBC-tilassa*
 
@@ -1312,7 +1312,7 @@ Prosessi on kuvattu *Kuvassa 9*. Käyttääkseen **MAC** (Message Authentication
 
 ![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
 
-Koska viestiä ei voida väärentää**, hyökkääjä ei voi muuttaa viestiä $M$ millään tavalla eikä luoda omaa viestiä, jolla on kelvollinen tunniste. Näin on, vaikka hyökkääjä havaitsisi monien Bobin ja Alicen välisten, samaa yksityistä avainta käyttävien viestien tunnisteet. Hyökkääjä voi korkeintaan estää Alicea vastaanottamasta viestiä $M$ (ongelma, jota kryptografia ei voi ratkaista).
+Koska viestiä ei voida **väärentää**, hyökkääjä ei voi muuttaa viestiä $M$ millään tavalla eikä luoda omaa viestiä, jolla on kelvollinen tunniste. Näin on, vaikka hyökkääjä havaitsisi monien Bobin ja Alicen välisten, samaa yksityistä avainta käyttävien viestien tunnisteet. Hyökkääjä voi korkeintaan estää Alicea vastaanottamasta viestiä $M$ (ongelma, jota kryptografia ei voi ratkaista).
 
 MAC takaa, että viestin on todella luonut Bob. Tämä aitous merkitsee automaattisesti viestin eheyttä - eli jos Bob on luonut jonkin viestin, hyökkääjä ei ole ipso facto muuttanut sitä millään tavalla. Tästä eteenpäin kaikki autentikointiin liittyvät huolenaiheet olisi siis automaattisesti ymmärrettävä siten, että ne merkitsevät myös huolta eheydestä.
 

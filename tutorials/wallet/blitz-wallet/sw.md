@@ -93,19 +93,19 @@ Mojawapo ya sifa maalum za Blitz Wallet ni kwamba inasaidia mitandao na chaneli 
 
 
 
-- Lightning Network** : Mojawapo ya viwekeleo vya Bitcoin ambavyo hukuwezesha kufanya shughuli ndogo ndogo papo hapo.
+- **Lightning Network**: Mojawapo ya viwekeleo vya Bitcoin ambavyo hukuwezesha kufanya shughuli ndogo ndogo papo hapo.
 
 
 
 
 
-- Bitcoin Mainnet** : Msururu mkuu wa itifaki ya Bitcoin, inayofaa kwa shughuli za thamani kubwa.
+- **Bitcoin Mainnet**: Msururu mkuu wa itifaki ya Bitcoin, inayofaa kwa shughuli za thamani kubwa.
 
 
 
 
 
-- Liquid Network**: Msururu sambamba na Bitcoin Mainnet uliotengenezwa na BlockStream inayotumia Liquid Bitcoins kutekeleza haraka, Confidential Transactions.
+- **Liquid Network**: Msururu sambamba na Bitcoin Mainnet uliotengenezwa na BlockStream inayotumia Liquid Bitcoins kutekeleza haraka, Confidential Transactions.
 
 
 
@@ -169,7 +169,7 @@ Kando na shughuli za uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo una
 
 
 
-- Fikia huduma za AI**: Tumia miundo ya kijasusi ya bandia kama vile: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 na ulipe moja kwa moja kwa bitcoins.
+- **Fikia huduma za AI**: Tumia miundo ya kijasusi ya bandia kama vile: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 na ulipe moja kwa moja kwa bitcoins.
 
 
 
@@ -179,7 +179,7 @@ Kando na shughuli za uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo una
 
 
 
-- Tuma SMS popote duniani**: Katika duka la Blitz, unaweza kufikia huduma ya GSM inayokuruhusu kutuma ujumbe mfupi bila kukutambulisha popote duniani, ukitumia malipo ya moja kwa moja katika Bitcoin.
+- **Tuma SMS popote duniani**: Katika duka la Blitz, unaweza kufikia huduma ya GSM inayokuruhusu kutuma ujumbe mfupi bila kukutambulisha popote duniani, ukitumia malipo ya moja kwa moja katika Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Kando na shughuli za uhamishaji za Bitcoin, Blitz Wallet inakupa duka ambapo una
 
 
 
-- Tumia usiri kamili**: Lipia usajili wa WireGuard VPN (Mtandao wa Kibinafsi wa Kawaida) katika duka la Wallet Blitz na bitcoins zako.
+- **Tumia usiri kamili**: Lipia usajili wa WireGuard VPN (Mtandao wa Kibinafsi wa Kawaida) katika duka la Wallet Blitz na bitcoins zako.
 
 
 
@@ -249,7 +249,7 @@ Kwa kuwezesha hali ya Umeme, mara tu hali kuu itakapotimizwa (salio la satoshi 5
 
 
 
-- Kubali Bitcoin kwenye duka lako** :
+- **Kubali Bitcoin kwenye duka lako** :
 
 
 
@@ -270,4 +270,3 @@ Ikiwa somo hili lilikusaidia kuelewa Blitz, tuna uhakika kwamba utafurahia mafun
 
 
 https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-

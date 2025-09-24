@@ -1,9 +1,13 @@
-question: Koja od ovih opcija je netačna u vezi sa gubitkom uređaja na kojem imate svoj Bitkoin novčanik?
-answer: Možete ponovo kreirati svoj novčanik i potrošiti svoj Bitkoin resetovanjem lozinke.
+question: Šta je Hot Wallet (vrući novčanik)?
+answer: Bitkoin novčanik na vašem telefonu ili računaru povezanom na internet.
 wrong_answers:
-  - Izgubićete sve svoje Bitkoine ako nemate Mnemonic frazu.
-  - Možete proveriti sa svojim javnim ključevima da vaši bitkoini nisu potrošeni.
-  - Možete ponovo kreirati svoj novčanik i potrošiti svoj Bitkoin koristeći Mnemonic frazu.
+  - Novčanik koji je fizički Hot (vruć) na dodir.
+  - Novčanik koji je popularan među korisnicima Bitkoina.
+  - Novčanik koji se preporučuje za čuvanje velike količine bitkoina.
 explanation: |
-  Gubljenje uređaja na kojem imate svoj novčanik ne znači nužno gubitak vaših Bitkoina. Ono što vam omogućava da ponovo kreirate svoj novčanik i potrošite svoj Bitkoin je Mnemonic fraza.
+  Hot Wallet (vrući novčanik) je termin koji se koristi za opisivanje Bitkoin novčanika
+  koji je uskladišten na uređaju sa pristupom internetu, kao što je
+  telefon ili računar. Na ovaj način, lako je obavljati
+  transakcije, ali to takođe znači da je novčanik
+  potencijalno ranjiv na online pretnje.
 reviewed: true

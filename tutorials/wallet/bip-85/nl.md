@@ -91,9 +91,9 @@ Met BIP-85 kunt u meerdere Bitcoin portefeuilles creëren vanuit één seed kern
 
 
 
-- Scenario**: Je gebruikt een "Hot Wallet" Wallet (geïnstalleerd op een apparaat met internetverbinding), voor dagelijkse transacties.
-- Oplossing BIP-85**: U creëert een seed secundaire zin gewijd aan deze portefeuille.
-- Voordeel ten opzichte van BIP-32**: Je hoeft de seed primaire zin niet op je telefoon te importeren, waardoor het risico op hacken kleiner wordt. Alleen de seed secundaire zin wordt gecompromitteerd, waardoor uw andere portemonnees worden beschermd. Met BIP-32 moet u de seed hoofdzin en een omleidingspad gebruiken, waardoor al uw fondsen worden blootgesteld.
+- **Scenario**: Je gebruikt een "Hot Wallet" Wallet (geïnstalleerd op een apparaat met internetverbinding), voor dagelijkse transacties.
+- **Oplossing BIP-85**: U creëert een seed secundaire zin gewijd aan deze portefeuille.
+- **Voordeel ten opzichte van BIP-32**: Je hoeft de seed primaire zin niet op je telefoon te importeren, waardoor het risico op hacken kleiner wordt. Alleen de seed secundaire zin wordt gecompromitteerd, waardoor uw andere portemonnees worden beschermd. Met BIP-32 moet u de seed hoofdzin en een omleidingspad gebruiken, waardoor al uw fondsen worden blootgesteld.
 
 
 
@@ -103,9 +103,9 @@ Met BIP-85 kunt u meerdere Bitcoin portefeuilles creëren vanuit één seed kern
 
 
 
-- Scenario**: Je stelt een Bitcoin Wallet in voor iemand die je dierbaar is (bv. je moeder), terwijl je het kunt terugkrijgen als ze het verliezen.
-- Oplossing BIP-85**: Je maakt een speciale seed secundaire zin aan en deelt alleen deze.
-- Voordeel ten opzichte van BIP-32**: Met BIP-32 vereist het aanmaken van een account voor een geliefde ofwel het delen van uw hoofd seed zinsdeel, waardoor al uw fondsen in gevaar komen en het beheer voor uw geliefde ingewikkelder wordt (beheer van vertakkingspaden), of het aanmaken van een nieuwe seed zinsdeel om op te slaan naast uw hoofd seed zinsdeel.
+- **Scenario**: Je stelt een Bitcoin Wallet in voor iemand die je dierbaar is (bv. je moeder), terwijl je het kunt terugkrijgen als ze het verliezen.
+- **Oplossing BIP-85**: Je maakt een speciale seed secundaire zin aan en deelt alleen deze.
+- **Voordeel ten opzichte van BIP-32**: Met BIP-32 vereist het aanmaken van een account voor een geliefde ofwel het delen van uw hoofd seed zinsdeel, waardoor al uw fondsen in gevaar komen en het beheer voor uw geliefde ingewikkelder wordt (beheer van vertakkingspaden), of het aanmaken van een nieuwe seed zinsdeel om op te slaan naast uw hoofd seed zinsdeel.
 
 
 
@@ -115,9 +115,9 @@ Met BIP-85 kunt u meerdere Bitcoin portefeuilles creëren vanuit één seed kern
 
 
 
-- Scenario**: Je scheidt je bitcoins voor verschillende doeleinden (bijv. langetermijnsparen, niet-KYC-fondsen).
-- Oplossing BIP-85**: Je maakt seed secundaire zinnen voor elke doelstelling.
-- Voordeel ten opzichte van BIP-32**: Met BIP-32 delen alle accounts dezelfde seed zin, wat het beheer in portefeuilles van derden bemoeilijkt doordat afgeleide paden zoals `m/44'/0'/0'` moeten worden beheerd. Daarnaast is het niet mogelijk om een aparte account per apparaat toe te wijzen (bijv. "sparen op Coldcard", "dagelijks op mobiel", "vakanties op Trezor"). BIP-85 wijst per doelstelling een unieke seed secundaire zin toe, die eenvoudig te identificeren en afzonderlijk op elk apparaat te importeren is.
+- **Scenario**: Je scheidt je bitcoins voor verschillende doeleinden (bijv. langetermijnsparen, niet-KYC-fondsen).
+- **Oplossing BIP-85**: Je maakt seed secundaire zinnen voor elke doelstelling.
+- Voordeel ten opzichte van **BIP-32**: Met BIP-32 delen alle accounts dezelfde seed zin, wat het beheer in portefeuilles van derden bemoeilijkt doordat afgeleide paden zoals `m/44'/0'/0'` moeten worden beheerd. Daarnaast is het niet mogelijk om een aparte account per apparaat toe te wijzen (bijv. "sparen op Coldcard", "dagelijks op mobiel", "vakanties op Trezor"). BIP-85 wijst per doelstelling een unieke seed secundaire zin toe, die eenvoudig te identificeren en afzonderlijk op elk apparaat te importeren is.
 
 
 
@@ -127,9 +127,9 @@ Met BIP-85 kunt u meerdere Bitcoin portefeuilles creëren vanuit één seed kern
 
 
 
-- Scenario**: Je hebt een tijdelijke portefeuille nodig voor een eenmalige transactie of om de vertrouwelijkheid te bewaren (bv.: vermenging van fondsen, interactie met een Exchange KYC, enz.)
-- Oplossing BIP-85**: Je maakt een seed secundaire zin aan, gebruikt hem voor de transactie en vernietigt hem dan indien nodig, wetende dat hij geregenereerd kan worden.
-- Voordeel ten opzichte van BIP-32**: Met BIP-32 is een tijdelijke account afhankelijk van de seed hoofdzin, waardoor al uw fondsen worden blootgesteld als ze worden gecompromitteerd.
+- **Scenario**: Je hebt een tijdelijke portefeuille nodig voor een eenmalige transactie of om de vertrouwelijkheid te bewaren (bv.: vermenging van fondsen, interactie met een Exchange KYC, enz.)
+- **Oplossing BIP-85**: Je maakt een seed secundaire zin aan, gebruikt hem voor de transactie en vernietigt hem dan indien nodig, wetende dat hij geregenereerd kan worden.
+- Voordeel ten opzichte van BIP-32: Met BIP-32 is een tijdelijke account afhankelijk van de seed hoofdzin, waardoor al uw fondsen worden blootgesteld als ze worden gecompromitteerd.
 
 
 
@@ -141,7 +141,7 @@ Met BIP-85 kunt u meerdere Bitcoin portefeuilles creëren vanuit één seed kern
 
 
 
-- Hardware** (optioneel)
+- **Hardware** (optioneel)
  - Coldcard Mk4 of Q1
  - MicroSD-kaart
 
@@ -158,7 +158,7 @@ Met BIP-85 kunt u meerdere Bitcoin portefeuilles creëren vanuit één seed kern
 
 
 
-- Compatibele** software
+- **Compatible** software
  - Sparrow wallet (computer, voor alleen kijken of geavanceerd beheer)
  - Nunchuck (mobiel, voor meerdere handtekeningen)
  - BlueWallet (mobiel)
@@ -168,7 +168,7 @@ Met BIP-85 kunt u meerdere Bitcoin portefeuilles creëren vanuit één seed kern
 
 
 
-- 3.4 Coldcard** configuratie
+- 3.4 **Coldcard** configuratie
  - Initialiseer een seed zin van 24 woorden op de Coldcard.
  - Optioneel: Voeg een passphrase toe om de toegang tot BIP-85 takken te beveiligen.
  - Nuttige opties activeren: NFC (voor export), USB op batterij uitschakelen (beveiliging).
@@ -197,7 +197,7 @@ Zet uw Coldcard aan en voer uw pincode in.
 
 
 
-- 1. Als u een passphrase op uw hoofd-seed hebt toegepast:**
+- 1. Als u een passphrase op uw hoofd-seed hebt toegepast:
  - Ga in het beginscherm naar `passphrase`.
     - Kies `Woord toevoegen` en voer uw wachtwoord in.
     - Druk op `Toepassen`.
@@ -207,7 +207,7 @@ Zet uw Coldcard aan en voer uw pincode in.
 
 
 
-- 2. Ga naar menu BIP-85**
+- 2. Ga naar menu **BIP-85**
  - Ga in het Beginscherm naar `Geavanceerd > seed B85 afleiden`
  - Lees de waarschuwing en bevestig.
 
@@ -246,7 +246,7 @@ Selecteer het seed zinsformaat: 12, 18 of 24 woorden. Controleer het aantal woor
 
 
 
-- 5. seed secundaire zin** noteren of exporteren
+- 5. **seed secundaire zin** noteren of exporteren
 
 
 ColdCard toont nu een nieuwe seed secundaire zin. Je kunt :
@@ -421,7 +421,7 @@ Meer bronnen in de bijlagen.
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [seed zin] (https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase] (https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig] (https://planb.network/resources/glossary/Multisig)
+- [Multisig] (https://planb.network/resources/glossary/multisig)
 
 
 

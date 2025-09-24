@@ -1,10 +1,8 @@
-question: Wat is de eenheid van Bitcoin die wordt gebruikt in de Lightning Network?
-answer: Sats.
+question: Hoe kan de Lightning Network mogelijk worden gebruikt voor het verhuren van goederen?
+answer: Gebruikers zouden per minuut of zelfs per seconde kunnen worden afgerekend voor de tijd dat ze de goederen gebruiken.
 wrong_answers:
-  - Blok.
-  - Ether.
-  - Litecoin.
-explanation: |
-  De Lightning Network gebruikt satoshis (ook Sats genoemd), de
-  decimaal van Bitcoin, om te functioneren.
+  - Gebruikers zouden een hoge vergoeding kunnen krijgen voor het huren van de goederen.
+  - Gebruikers zouden kunnen worden belast op basis van de waarde van de goederen.
+  - Gebruikers zouden kunnen worden belast op basis van de staat van de goederen.
+explanation: >-
 reviewed: true

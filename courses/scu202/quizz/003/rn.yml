@@ -1,0 +1,9 @@
+question: Ni igiki wokwirinda gukora n’ama flash ya USB?
+answer: Guhuza inkoni za USB zitazwi
+wrong_answers:
+  - Koresha inkoni za USB zifise ubuhinga bwa NTFS
+  - Gushiramwo amakuru y'inkoni zawe za USB
+  - Koresha USB nshasha
+explanation: |
+  Gushiramwo USB itazwi birashobora kwanduza mudasobwa canke kwiba amakuru y’agaciro.
+reviewed: false

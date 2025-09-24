@@ -1,8 +1,8 @@
-question: Mining havuzlarının amacı nedir?
-answer: Mining havuzları, madencilerin bilgi işlem kaynaklarını bir araya getirmelerine ve daha küçük ama daha düzenli ödüller almalarına olanak tanır.
+question: Bitcoin protokolünde iki bloğun oluşturulması arasındaki ortalama süre nedir?
+answer: 10 dakika.
 wrong_answers:
-  - Mining havuzları, genel Bitcoin ağının Hashrate'sini artırmak için kullanılır.
-  - Mining havuzları Mining'in zorluğunu azaltmak için kullanılır.
-  - Mining havuzları Mining ödülünü artırmak için kullanılır.
+  - 5 dakika.
+  - 15 dakika.
+  - 20 dakika.
 explanation: >-
 reviewed: true

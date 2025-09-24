@@ -306,7 +306,7 @@ Zakładka "*Filtry*" umożliwia zarządzanie filtrami otrzymywanych wiadomości 
 
 
 
-Zakładka "Przekazywanie i automatyczna odpowiedź*" umożliwia zarządzanie przekazywaniem i automatyczną odpowiedzią na wiadomości e-mail.
+Zakładka "Przekazywanie i automatyczna odpowiedź" umożliwia zarządzanie przekazywaniem i automatyczną odpowiedzią na wiadomości e-mail.
 
 
 

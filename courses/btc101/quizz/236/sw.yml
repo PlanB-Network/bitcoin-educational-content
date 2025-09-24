@@ -1,14 +1,8 @@
-question: Je, dhana ya ngozi katika mchezo ni ipi katika muktadha wa tasnia ya mchezo wa video?
-answer: Kuwa na hisa ya kifedha katika matokeo ya mchezo.
+question: Je, ni fursa zipi zinazowezekana za biashara zinazotolewa na Lightning Network?
+answer: Miundo mipya ya kiuchumi ambapo watumiaji hulipa maudhui kulingana na kile wanachotumia.
 wrong_answers:
-  - Kubinafsisha wahusika kwa ngozi za kipekee zinazoboresha uchezaji.
-  - Kununua vitu vya ndani ya mchezo kwa pesa halisi.
-  - Kuuza ngozi za mchezo kwa pesa halisi.
-explanation: |
-  Dhana ya ngozi katika mchezo ni wazo ambalo lina
-  hivi karibuni ilipata umaarufu katika tasnia ya mchezo wa video. Ni
-  kimsingi inahusu wazo kwamba watengenezaji na
-  wadau wana uwekezaji binafsi au hisa katika
-  mafanikio ya mchezo, ambayo yanalingana na masilahi yao
-  kutoa bidhaa bora.
+  - Miundo mipya ya kiuchumi ambapo watumiaji hulipa kwa kutumia sarafu tofauti za crypto.
+  - Aina mpya za kiuchumi ambapo watumiaji hutumia blockchains za kibinafsi.
+  - Miundo mipya ya kiuchumi ambapo watumiaji hawalipii maudhui yoyote.
+explanation: >-
 reviewed: true

@@ -1,9 +1,11 @@
-question: Mikä on keskimääräinen aikaväli kahden lohkon luomisen välillä Bitcoin-protokollassa?
-answer: 10 minuuttia.
+question: Mikä on käsite rahan suoratoisto Lightning-verkon kontekstissa?
+answer: Jatkuvien, reaaliaikaisten mikromaksujen tekeminen.
 wrong_answers:
-  - 5 minuuttia.
-  - 15 minuuttia.
-  - 20 minuuttia.
-explanation: |
-  Keskimääräinen aikaväli kahden lohkon luomisen välillä Bitcoin-protokollassa on 10 minuuttia.
+  - Bitcoinin muuntaminen käteiseksi fyysisessä sijainnissa käyttäen pankkiautomaattia.
+  - Ääni- tai videosisällön suoratoisto Bitcoinia vastaan.
+  - Uusien bitcoinien luominen reaaliaikaisesti tapahtuvien louhintatoimintojen kautta.
+explanation: >-
+  Lightning-verkon avulla voimme tehdä mikrotransaktioita joka minuutti,
+  mikä avaa oven kokeilla taloudellisia malleja, joissa kuluttajat maksavat sisällöstä
+  sen mukaan, mitä he kuluttavat.
 reviewed: true

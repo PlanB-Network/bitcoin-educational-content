@@ -1,9 +1,10 @@
-question: Tỷ lệ lạm phát ở Đức vào tháng 10 năm 1923, thời điểm đỉnh cao của siêu lạm phát, vào khoảng bao nhiêu?
-answer: 29.500%
+question: Cơ chế nào đảm bảo một khối mới được thêm vào blockchain mỗi mười phút?
+answer: Điều chỉnh độ khó.
 wrong_answers:
-  - 5.200%
-  - 76%
-  - 110%
+  - Điều chỉnh tốc độ.
+  - Điều chỉnh thời gian.
+  - Điều chỉnh khối.
 explanation: |
-  Tháng có tỷ lệ lạm phát cao nhất ở Đức là tháng 10 năm 1923, khi đạt đỉnh ở mức 29.500%.
-reviewed: false
+  Cơ chế đảm bảo một khối mới được thêm vào blockchain mỗi mười phút là điều chỉnh độ khó.
+  Điều chỉnh này diễn ra mỗi 2016 khối, hoặc khoảng hai tuần.
+reviewed: true

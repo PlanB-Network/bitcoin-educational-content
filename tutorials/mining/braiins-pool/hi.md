@@ -1,5 +1,5 @@
 ---
-name: ब्रेन पूल
+name: Braiins Pool
 description: ब्रेंस पूल का परिचय
 ---
 ![signup](assets/cover.webp)

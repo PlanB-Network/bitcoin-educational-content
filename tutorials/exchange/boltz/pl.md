@@ -25,10 +25,10 @@ Pozostawał jednak poważny problem pomiędzy warstwami protokołu Bitcoin: pły
 
 
 
-- on chain**: Główny łańcuch Bitcoin, w którym transakcje są potwierdzane średnio co 10 minut, opłaty transakcyjne są często wysokie, co niekoniecznie zaspokaja potrzeby użytkowników;
-- Lightning Network**: Nakładka Bitcoin do natychmiastowych płatności przy niskich opłatach, umożliwiająca korzystanie z Bitcoin do codziennych płatności;
-- Liquid Network**: nakładka na Bitcoin stworzona przez Blockstream, umożliwiająca szybkie korzystanie z Confidential Transactions i innych instrumentów finansowych opartych na Bitcoin;
-- RootStock**: Rozwiązanie do tworzenia inteligentnych kontraktów opartych na protokole Bitcoin.
+- **on chain**: Główny łańcuch Bitcoin, w którym transakcje są potwierdzane średnio co 10 minut, opłaty transakcyjne są często wysokie, co niekoniecznie zaspokaja potrzeby użytkowników;
+- **Lightning Network**: Nakładka Bitcoin do natychmiastowych płatności przy niskich opłatach, umożliwiająca korzystanie z Bitcoin do codziennych płatności;
+- **Liquid Network**: nakładka na Bitcoin stworzona przez Blockstream, umożliwiająca szybkie korzystanie z Confidential Transactions i innych instrumentów finansowych opartych na Bitcoin;
+- **RootStock**: Rozwiązanie do tworzenia inteligentnych kontraktów opartych na protokole Bitcoin.
 
 
 
@@ -54,7 +54,7 @@ W ten sposób zachowujesz stałą kontrolę nad swoimi bitcoinami, a Exchange ni
 
 
 
-Atomowy Exchange współpracuje z inteligentnymi kontraktami [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). W tym typie Contract kwota jest "blokowana" w kanale dwukierunkowym i wprowadzane jest ograniczenie czasowe, tak że jeśli transakcja nie zostanie zakończona w określonym czasie, saldo powraca do deponenta. Jest to mechanizm wykorzystywany przez platformę Boltz.
+Atomowy Exchange współpracuje z inteligentnymi kontraktami [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). W tym typie Contract kwota jest "blokowana" w kanale dwukierunkowym i wprowadzane jest ograniczenie czasowe, tak że jeśli transakcja nie zostanie zakończona w określonym czasie, saldo powraca do deponenta. Jest to mechanizm wykorzystywany przez platformę Boltz.
 
 
 

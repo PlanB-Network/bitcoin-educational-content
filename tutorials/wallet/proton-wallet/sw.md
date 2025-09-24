@@ -1,5 +1,5 @@
 ---
-name: Protoni Wallet
+name: Proton Wallet
 description: Kufunga na kutumia Protoni Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)
@@ -126,7 +126,7 @@ Ili kuongeza akaunti mpya, bofya "*Ongeza akaunti*".
 ![Image](assets/fr/14.webp)
 
 
-Ili kuunda Wallet mpya, bofya alama ya "**" karibu na "*Pochi*".
+Ili kuunda Wallet mpya, bofya alama ya "**+**" karibu na "*Pochi*".
 
 
 ![Image](assets/fr/15.webp)
@@ -158,7 +158,7 @@ Protoni Wallet kisha hutengeneza kiotomatiki mpya, tupu ya Address.
 ![Image](assets/fr/18.webp)
 
 
-Baada ya shughuli kukamilika, utaipata katika sehemu ya "*Shughuli*". Bofya kwenye "+Ongeza*" ili kukabidhi lebo kwenye muamala.
+Baada ya shughuli kukamilika, utaipata katika sehemu ya "*Shughuli*". Bofya kwenye "*+Ongeza*" ili kukabidhi lebo kwenye muamala.
 
 
 ![Image](assets/fr/19.webp)

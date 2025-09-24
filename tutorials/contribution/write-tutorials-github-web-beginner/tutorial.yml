@@ -77,17 +77,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.55
+    reward: 3.47
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.28
+    reward: 5.16
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.42
+    reward: 4.32
   - language: hi
     last_contribution_date:
     urgency: 1
@@ -102,18 +102,18 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.55
+    reward: 3.47
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 1.78
+    reward: 1.74
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.42
+    reward: 4.32
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -123,12 +123,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.69
+    reward: 2.63
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 3.55
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.32
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.47
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.16
 tags:
   - guides
   - user-friendly

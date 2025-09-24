@@ -68,36 +68,36 @@ BIP-85 allows you to create multiple Bitcoin portfolios from a single seed core 
 
 
 
-- Scenario**: You use a "Hot Wallet" wallet (installed on an Internet-connected device), for daily transactions.
-- Solution BIP-85**: You create a seed secondary phrase dedicated to this portfolio.
-- Advantage over BIP-32**: You don't need to import the seed primary phrase onto your phone, reducing the risk of hacking. Only the seed secondary phrase is compromised, protecting your other wallets. With BIP-32, you need to use the seed main phrase and a bypass path, exposing all your funds.
+- **Scenario**: You use a "Hot Wallet" wallet (installed on an Internet-connected device), for daily transactions.
+- **Solution BIP-85**: You create a seed secondary phrase dedicated to this portfolio.
+- **Advantage over BIP-32**: You don't need to import the seed primary phrase onto your phone, reducing the risk of hacking. Only the seed secondary phrase is compromised, protecting your other wallets. With BIP-32, you need to use the seed main phrase and a bypass path, exposing all your funds.
 
 
 ### 2.2 Create a portfolio for a family member
 
 
 
-- Scenario**: You set up a Bitcoin wallet for someone close to you (e.g. your mother), while being able to recover it if they lose it.
-- Solution BIP-85**: You create a dedicated seed secondary sentence and share only this one.
-- Advantage over BIP-32**: With BIP-32, creating an account for a loved one requires either sharing your main seed phrase, risking all your funds and complicating management for your loved one (managing branching paths), or creating a new seed phrase to save in addition to your main seed phrase.
+- **Scenario**: You set up a Bitcoin wallet for someone close to you (e.g. your mother), while being able to recover it if they lose it.
+- **Solution BIP-85**: You create a dedicated seed secondary sentence and share only this one.
+- **Advantage over BIP-32**: With BIP-32, creating an account for a loved one requires either sharing your main seed phrase, risking all your funds and complicating management for your loved one (managing branching paths), or creating a new seed phrase to save in addition to your main seed phrase.
 
 
 ### 2.3 Facilitating the management of separate portfolios
 
 
 
-- Scenario**: You separate your bitcoins for different purposes (e.g. long-term savings, non-KYC funds).
-- Solution BIP-85**: You create seed secondary phrases dedicated to each objective.
-- Advantage over BIP-32**: With BIP-32, all accounts share the same seed phrase, which complicates management in third-party portfolios by requiring derivation paths such as `m/44'/0'/0'` to be managed. In addition, it is not possible to assign a separate account per device (e.g. "savings on Coldcard", "daily on mobile", "vacations on Trezor"). BIP-85 assigns a unique seed secondary phrase per objective, which is easy to identify and import separately on each device.
+- **Scenario**: You separate your bitcoins for different purposes (e.g. long-term savings, non-KYC funds).
+- **Solution BIP-85**: You create seed secondary phrases dedicated to each objective.
+- **Advantage over BIP-32**: With BIP-32, all accounts share the same seed phrase, which complicates management in third-party portfolios by requiring derivation paths such as `m/44'/0'/0'` to be managed. In addition, it is not possible to assign a separate account per device (e.g. "savings on Coldcard", "daily on mobile", "vacations on Trezor"). BIP-85 assigns a unique seed secondary phrase per objective, which is easy to identify and import separately on each device.
 
 
 ### 2.4 Using a temporary wallet for transactions
 
 
 
-- Scenario**: You need a temporary portfolio for a one-off transaction or to preserve confidentiality (e.g.: mixing of funds, interaction with a Exchange KYC, etc.).
-- Solution BIP-85**: You create a seed secondary sentence, use it for the transaction, then destroy it if necessary, knowing that it can be regenerated.
-- Advantage over BIP-32**: With BIP-32, a temporary account depends on the seed main sentence, exposing all your funds if compromised.
+- **Scenario**: You need a temporary portfolio for a one-off transaction or to preserve confidentiality (e.g.: mixing of funds, interaction with a Exchange KYC, etc.).
+- **Solution BIP-85**: You create a seed secondary sentence, use it for the transaction, then destroy it if necessary, knowing that it can be regenerated.
+- **Advantage over BIP-32**: With BIP-32, a temporary account depends on the seed main sentence, exposing all your funds if compromised.
 
 
 
@@ -106,7 +106,7 @@ BIP-85 allows you to create multiple Bitcoin portfolios from a single seed core 
 
 
 
-- Hardware** (optional)
+- **Hardware** (optional)
  - Coldcard Mk4 or Q1
  - MicroSD card
 
@@ -119,7 +119,7 @@ BIP-85 allows you to create multiple Bitcoin portfolios from a single seed core 
 
 
 
-- Compatible** software
+- **Compatible** software
  - Sparrow wallet (computer, for watch-only or advanced management)
  - Nunchuck (mobile, for multi-signatures)
  - BlueWallet (mobile)
@@ -127,7 +127,7 @@ BIP-85 allows you to create multiple Bitcoin portfolios from a single seed core 
 
 
 
-- 3.4 Coldcard** configuration
+- 3.4 **Coldcard** configuration
  - Initialize a seed sentence of 24 words on the Coldcard.
  - Optional: Add a passphrase to secure access to BIP-85 branches.
  - Activate useful options: NFC (for export), disable USB on battery (security).
@@ -149,7 +149,7 @@ Switch on your Coldcard, enter your PIN code.
 
 
 
-- 1. If you have applied a passphrase to your main seed:**
+- 1. If you have applied a passphrase to your main seed:
  - From the Home screen, go to `passphrase`.
     - Choose `Add Word` and enter your password.
     - Press `Apply`.
@@ -157,7 +157,7 @@ Switch on your Coldcard, enter your PIN code.
 
 
 
-- 2. Go to BIP-85** menu
+- 2. Go to **BIP-85** menu
  - From the Home screen, go to `Advanced > Derive seed B85`
  - Read the warning and confirm.
 
@@ -185,7 +185,7 @@ Select the seed phrase format: 12, 18 or 24 words. Check the number of words acc
 
 
 
-- 5. Note or export seed secondary sentence**
+- 5. Note or export seed secondary sentence
 
 ColdCard now displays a new seed secondary sentence. You can :
 
@@ -313,7 +313,7 @@ More resources in Annexes.
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [seed phrase](https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [Multisig](https://planb.network/resources/glossary/multisig)
 
 
 

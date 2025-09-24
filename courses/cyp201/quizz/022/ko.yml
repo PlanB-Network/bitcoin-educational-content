@@ -1,0 +1,9 @@
+question: 공개 키는 개인 키에서 어떻게 계산되나요?
+answer: 타원 커브에 스칼라 곱셈을 사용하여
+wrong_answers:
+  - 개인 키에 Hash을 적용하여
+  - 비대칭 암호화를 통한
+  - 숫자 값을 반복해서 추가하는 경우
+explanation: |
+  공개 키는 타원 곡선의 생성점 G에 개인 키를 스칼라 곱하여 얻습니다.
+reviewed: false

@@ -20,8 +20,10 @@ non_translatable:
   - Bitcoin core
   - Bitcoin Dev Kit
   - Bitcoin Game Show
+  - Bitcoin Knots
   - BIP
   - BIPs
+  - Blind signature
   - Blinding key
   - Blinded ranges
   - Block explorer
@@ -103,6 +105,7 @@ non_translatable:
   - Merkle Tree
   - Miner
   - Mining
+  - mining
   - Mining pool
   - Mnemonic
   - Multi Protocol Commitment

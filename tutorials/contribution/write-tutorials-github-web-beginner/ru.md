@@ -18,11 +18,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 В этом уроке мы рассмотрим, как добавить свой учебник в Plan ₿ Network с помощью веб-версии GitHub. Если вы уже освоили Git, этот очень подробный учебник может вам не понадобиться. Вместо этого я рекомендую вам ознакомиться с двумя другими уроками, в которых подробно описаны рекомендации и шаги по внесению изменений из локальной версии:
 
 
-- Опытные пользователи**:
+- **Опытные пользователи**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Промежуточный уровень (GitHub Desktop)**:
+- **Промежуточный уровень (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
@@ -346,8 +346,8 @@ description: [Description]
 Если вы хотите создать собственные схемы, обязательно следуйте графическим рекомендациям Plan ₿ Network, чтобы обеспечить визуальную согласованность:
 
 
-- Шрифт**: Используйте [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Цвета**:
+- **Шрифт**: Используйте [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Цвета**:
  - Оранжевый: #FF5C00
  - Черный: #000000
  - Белый: #FFFFFF

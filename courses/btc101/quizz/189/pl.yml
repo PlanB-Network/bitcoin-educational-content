@@ -1,8 +1,8 @@
-question: jak Bitcoin rozwiązuje problem bizantyjskich generałów?
-answer: Dzięki zastosowaniu Blockchain opartego na Proof of Work ze zmiennym poziomem trudności.
+question: Czym jest szwajcarskie wynagrodzenie Bitcoin?
+answer: Rozwiązanie dla sprzedawców amatorów do akceptowania Bitcoin.
 wrong_answers:
-  - Dzięki wykorzystaniu podpisów cyfrowych.
-  - Poprzez wykorzystanie publicznego Ledger.
-  - Dzięki wykorzystaniu algorytmu Proof of Stake.
+  - Szwajcarski bank akceptujący Bitcoin.
+  - Bitcoin Exchange ze Szwajcarii.
+  - Firma Mining, która działa w Szwajcarii.
 explanation: >-
 reviewed: true

@@ -12,9 +12,8 @@ Hodl Hodl adalah bursa Bitcoin terdesentralisasi yang mengutamakan kontrol pengg
 
 https://hodlhodl.com/pages/faq_help
 
-## panduan penulisan:
+## Mulai perjalanan Anda di Hodl Hodl
 
-Memulai Perjalanan Anda dengan HodlHodl: Panduan Langkah demi Langkah
 
 ![image](assets/5.webp)
 
@@ -45,43 +44,43 @@ Untuk memulai perdagangan BTC, Anda harus menyediakan alamat BTC Anda terlebih d
 
 Panduan oleh Bitcoiner Tanya Jawab https://bitcoiner.guide/hodlhodl/
 
-1. Kunjungi hodlhodl.com dan buat akun Anda. Detail yang perlu Anda sediakan hanya nama pengguna dan alamat email. Anda kemudian akan diarahkan ke halaman utama.
+- Kunjungi hodlhodl.com dan buat akun Anda. Detail yang perlu Anda sediakan hanya nama pengguna dan alamat email. Anda kemudian akan diarahkan ke halaman utama.
 
 ![cover](assets/11.webp)
 
-2. Klik ‘Beli BTC’ di header situs web.
+- Klik ‘Beli BTC’ di header situs web.
 
 ![cover](assets/12.webp)
 
-3. Pilih jenis dan metode pembayaran yang Anda inginkan. Anda juga dapat menentukan jumlah tertentu di sini jika perlu.
+- Pilih jenis dan metode pembayaran yang Anda inginkan. Anda juga dapat menentukan jumlah tertentu di sini jika perlu.
 
 ![cover](assets/13.webp)
 
-4. Pilih penawaran yang Anda inginkan. Anda kemudian dapat meninjau detail perdagangan dan juga membaca laporan aktivitas dan peringkat rekan dagang.
+- Pilih penawaran yang Anda inginkan. Anda kemudian dapat meninjau detail perdagangan dan juga membaca laporan aktivitas dan peringkat rekan dagang.
 
 ![cover](assets/14.webp)
 
-5. Setelah Anda puas, Anda dapat menentukan berapa banyak yang ingin Anda beli, masukkan alamat tempat Anda ingin bitcoin dikirim dan konfirmasi metode pembayaran yang diiklankan oleh penjual. Klik ‘Terima penawaran dan buat kontrak’.
+- Setelah Anda puas, Anda dapat menentukan berapa banyak yang ingin Anda beli, masukkan alamat tempat Anda ingin bitcoin dikirim dan konfirmasi metode pembayaran yang diiklankan oleh penjual. Klik ‘Terima penawaran dan buat kontrak’.
 
 ![cover](assets/15.webp)
 
-6. Sekarang Anda telah membuat kontrak dan perlu menekan ‘Generate Escrow’ di mana Anda akan diminta untuk membuat kata sandi pembayaran. Kata sandi pembayaran adalah kunci enkripsi untuk pasangan kunci escrow pengguna. Ini digunakan untuk menyetor atau melepaskan Bitcoin ke atau dari escrow.
+- Sekarang Anda telah membuat kontrak dan perlu menekan ‘Generate Escrow’ di mana Anda akan diminta untuk membuat kata sandi pembayaran. Kata sandi pembayaran adalah kunci enkripsi untuk pasangan kunci escrow pengguna. Ini digunakan untuk menyetor atau melepaskan Bitcoin ke atau dari escrow.
 
 ![cover](assets/16.webp)
 
-7. Sekarang Anda perlu menunggu penjual menyetorkan bitcoin mereka ke dompet escrow. Setelah memulai kontrak, Anda dapat mengobrol dengan penjual menggunakan kotak obrolan di sisi kanan halaman.
+- Sekarang Anda perlu menunggu penjual menyetorkan bitcoin mereka ke dompet escrow. Setelah memulai kontrak, Anda dapat mengobrol dengan penjual menggunakan kotak obrolan di sisi kanan halaman.
 
 ![cover](assets/17.webp)
 
-8. Setelah penjual menyetorkan dana mereka ke escrow, Anda akan melihat layar ini yang menyarankan Anda untuk tidak mengirim uang Anda sampai telah ada jumlah konfirmasi blockchain yang cukup (ini bervariasi tergantung pada kondisi perdagangan). Anda dapat memeriksa kemajuan transaksi setoran penjual dengan mengklik tautan biru ‘Deposit Transaction ID’.
+- Setelah penjual menyetorkan dana mereka ke escrow, Anda akan melihat layar ini yang menyarankan Anda untuk tidak mengirim uang Anda sampai telah ada jumlah konfirmasi blockchain yang cukup (ini bervariasi tergantung pada kondisi perdagangan). Anda dapat memeriksa kemajuan transaksi setoran penjual dengan mengklik tautan biru ‘Deposit Transaction ID’.
 
 ![cover](assets/18.webp)
 
-9. Setelah dikonfirmasi, Anda akan diberitahu dan Anda kemudian dapat mengirim dana kepada penjual ke detail yang akan mereka berikan kepada Anda. Setelah Anda melakukan ini klik ‘Ive Sent The Payment’.
+- Setelah dikonfirmasi, Anda akan diberitahu dan Anda kemudian dapat mengirim dana kepada penjual ke detail yang akan mereka berikan kepada Anda. Setelah Anda melakukan ini klik ‘Ive Sent The Payment’.
 
 ![cover](assets/19.webp)
 
-10. Anda kemudian perlu menunggu penjual untuk mengonfirmasi bahwa mereka telah menerima dana, pada titik mana bitcoin akan dilepaskan ke alamat yang Anda tentukan di awal kontrak. Anda juga akan diberi kesempatan untuk menilai rekan dagang Anda.
+- Anda kemudian perlu menunggu penjual untuk mengonfirmasi bahwa mereka telah menerima dana, pada titik mana bitcoin akan dilepaskan ke alamat yang Anda tentukan di awal kontrak. Anda juga akan diberi kesempatan untuk menilai rekan dagang Anda.
 
 ![cover](assets/20.webp)
 

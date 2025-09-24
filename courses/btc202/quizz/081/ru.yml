@@ -1,0 +1,9 @@
+question: Какой параметр Bitcoin.conf ограничивает размер Mempool в МБ?
+answer: maxmempool
+wrong_answers:
+  - totalmempool
+  - mempoolexpiry
+  - mempoolsize
+explanation: |
+  maxmempool устанавливает максимальный размер Mempool (по умолчанию 300 МБ). Когда он заполняется, менее прибыльные транзакции исключаются.
+reviewed: true

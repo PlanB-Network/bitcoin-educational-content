@@ -25,10 +25,10 @@ Tuy nhiên, vẫn còn một vấn đề lớn giữa các lớp giao thức Bit
 
 
 
-- on chain**: Chuỗi chính của Bitcoin, nơi các giao dịch được xác nhận trung bình cứ sau 10 phút, phí giao dịch thường cao, không nhất thiết đáp ứng được nhu cầu của người dùng;
-- Lightning Network**: Lớp phủ Bitcoin cho phép thanh toán tức thời với mức phí thấp, cho phép sử dụng Bitcoin cho các khoản thanh toán hàng ngày;
-- Liquid Network**: lớp phủ cho Bitcoin do Blockstream tạo ra, cho phép sử dụng nhanh Confidential Transactions và các công cụ tài chính khác dựa trên Bitcoin;
-- RootStock**: Giải pháp phát triển hợp đồng thông minh dựa trên giao thức Bitcoin.
+- **on chain**: Chuỗi chính của Bitcoin, nơi các giao dịch được xác nhận trung bình cứ sau 10 phút, phí giao dịch thường cao, không nhất thiết đáp ứng được nhu cầu của người dùng;
+- **Lightning Network**: Lớp phủ Bitcoin cho phép thanh toán tức thời với mức phí thấp, cho phép sử dụng Bitcoin cho các khoản thanh toán hàng ngày;
+- **Liquid Network**: lớp phủ cho Bitcoin do Blockstream tạo ra, cho phép sử dụng nhanh Confidential Transactions và các công cụ tài chính khác dựa trên Bitcoin;
+- **RootStock**: Giải pháp phát triển hợp đồng thông minh dựa trên giao thức Bitcoin.
 
 
 
@@ -54,7 +54,7 @@ Theo cách này, bạn sẽ giữ được quyền tự quản lý vĩnh viễn 
 
 
 
-Exchange nguyên tử hoạt động với hợp đồng thông minh [HTLC](https://planb.network/resources/glossary/HTLC) (*Khóa thời gian băm Contract*). Trong loại Contract này, số tiền được "khóa" trong một kênh hai chiều và giới hạn thời gian được áp dụng, do đó nếu giao dịch không hoàn tất trong một khoảng thời gian nhất định, số dư sẽ được trả về cho người gửi. Đây là cơ chế được nền tảng Boltz sử dụng.
+Exchange nguyên tử hoạt động với hợp đồng thông minh [HTLC](https://planb.network/resources/glossary/htlc) (*Khóa thời gian băm Contract*). Trong loại Contract này, số tiền được "khóa" trong một kênh hai chiều và giới hạn thời gian được áp dụng, do đó nếu giao dịch không hoàn tất trong một khoảng thời gian nhất định, số dư sẽ được trả về cho người gửi. Đây là cơ chế được nền tảng Boltz sử dụng.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Býk Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Zjistěte, jak používat Wallet Bull Bitcoin
 ---
 
@@ -29,9 +29,9 @@ Wallet reaguje na velkou výzvu: Síťové poplatky Bitcoin jsou nevhodné pro m
 
 
 
-- Síť Bitcoin (onchain)**: Ideální pro střednědobé až dlouhodobé ukládání UTXO a transakcí velké hodnoty, kde jsou poplatky poměrně zanedbatelné.
-- Liquid Network**: Navrženo pro rychlé (~2 minuty), důvěrnější (skryté částky) a levné transakce, ideální pro shromažďování malých částek nebo ochranu soukromí.
-- Síť Lightning**: Optimalizovaná pro okamžité a levné platby, vhodná pro každodenní transakce malé až střední hodnoty.
+- **Síť Bitcoin (onchain)**: Ideální pro střednědobé až dlouhodobé ukládání UTXO a transakcí velké hodnoty, kde jsou poplatky poměrně zanedbatelné.
+- **Liquid Network**: Navrženo pro rychlé (~2 minuty), důvěrnější (skryté částky) a levné transakce, ideální pro shromažďování malých částek nebo ochranu soukromí.
+- **Síť Lightning**: Optimalizovaná pro okamžité a levné platby, vhodná pro každodenní transakce malé až střední hodnoty.
 
 
 
@@ -70,10 +70,10 @@ Než začnete používat **Bull Bitcoin Mobile**, ujistěte se, že máte násle
 
 
 
-- Kompatibilní smartphone**: Zařízení se systémem **iOS** (iPhone nebo iPad) nebo **Android**
+- **Kompatibilní smartphone**: Zařízení se systémem **iOS** (iPhone nebo iPad) nebo **Android**
 - Připojení k internetu
-- Zabezpečená zálohovací média**: Napište si **obnovovací frázi** (12 slov) na papír nebo kov a uložte ji na bezpečném místě.
-- Základní znalosti**: V tomto návodu jsou vysvětleny jednotlivé kroky pro začátečníky.
+- **Zabezpečená zálohovací média**: Napište si **obnovovací frázi** (12 slov) na papír nebo kov a uložte ji na bezpečném místě.
+- **Základní znalosti**: V tomto návodu jsou vysvětleny jednotlivé kroky pro začátečníky.
 
 
 
@@ -83,10 +83,10 @@ Než začnete používat **Bull Bitcoin Mobile**, ujistěte se, že máte násle
 
 
 
-- Stáhněte si aplikaci** :
- - [Obchod Google Play](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Stáhněte si z obchodu s aplikacemi pro zařízení se systémem Android
- - [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Stáhněte si APK pro zařízení se systémem Android přímo**
- - [iOS](https://testflight.apple.com/join/FJbE4JPN)** Stáhnout přes TestFlight pro zařízení Apple
+- Stáhněte si **aplikaci**:
+- [Obchod Google Play](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Stáhněte si z obchodu s aplikacemi pro zařízení se systémem Android**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Stáhněte si APK pro zařízení se systémem Android přímo**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Stáhnout přes TestFlight pro zařízení Apple**
  - Zkontrolujte jméno vývojáře (Bull Bitcoin), abyste se vyhnuli podvodným aplikacím.
  - Ujistěte se, že stažená verze odpovídá nejnovější stabilní verzi uvedené na GitHubu.
  - Bull Bitcoin Mobile je **open-source**. Pro zobrazení kódu: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ Aplikace používá pro obě portfolia jedinečnou frázi pro obnovu o 12 slovec
 
 
 
- - gW-26' Wallet**: Pro transakce v síti Bitcoin (onchain)
- - okamžité platby' Wallet**: Pro okamžité transakce v sítích Liquid a Lightning
+- **gW-26' Wallet**: Pro transakce v síti Bitcoin (onchain)
+- **okamžité platby Wallet**: Pro okamžité transakce v sítích Liquid a Lightning
 
 
 
@@ -249,7 +249,7 @@ Na domovské obrazovce můžete :
 
 
 
-- Příklad automaticky generovaného URI** :
+- Příklad automaticky generovaného **URI**:
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Použití**: Zkopírujte URI a sdílejte jej s odesílatelem nebo jej nechte naskenovat QR kód.
+- **Použití**: Zkopírujte URI a sdílejte jej s odesílatelem nebo jej nechte naskenovat QR kód.
 
 
 
@@ -297,7 +297,7 @@ I když zadáte částku nebo poznámku, nebudou zahrnuty do QR kódu ani do kop
 
 
 
-- Použití**: Zkopírujte kód Address a sdílejte jej s odesílatelem nebo jej nechte naskenovat kód QR.
+- **Použití**: Zkopírujte kód Address a sdílejte jej s odesílatelem nebo jej nechte naskenovat kód QR.
 
 
 
@@ -308,7 +308,7 @@ I když zadáte částku nebo poznámku, nebudou zahrnuty do QR kódu ani do kop
 
 
 - Proč používat pro každou transakci nový modul Address? Tím **chráníte své soukromí**, protože zabráníte propojení více plateb se stejným Address a omezíte možnosti sledování na Blockchain.
- - Ve výchozím nastavení Bull Bitcoin automaticky generuje nepoužívaný Address.**
+- Ve výchozím nastavení Bull Bitcoin automaticky generuje nepoužívaný Address.
  - Vytvoření nové jednotky Address si můžete vynutit kliknutím na **"Nová jednotka Address"** v dolní části obrazovky.
  - Všechny vaše adresy jsou propojeny s vaší větou seed: bez ohledu na to, kolik adres používáte, vaše portfolio bude zobrazovat jediný zůstatek a může automaticky konsolidovat prostředky při odeslání zásilky.
 
@@ -316,7 +316,7 @@ I když zadáte částku nebo poznámku, nebudou zahrnuty do QR kódu ani do kop
 
 
 
-- Tip: Vždy používejte nový Address** poskytovaný společností Bull Bitcoin, pokud nemáte specifickou potřebu (např. veřejný Address pro příjem darů).
+- Tip: Vždy používejte nový **Address** poskytovaný společností Bull Bitcoin, pokud nemáte specifickou potřebu (např. veřejný Address pro příjem darů).
 
 
 
@@ -412,29 +412,29 @@ Na domovské obrazovce můžete :
 
 
 
-- Mechanismus**: Wallet umožňuje provádět a přijímat platby prostřednictvím Lightning. Prostředky přijaté prostřednictvím Lightning jsou uloženy v síti **Liquid** (v Wallet Instant Payments) díky automatické výměně prostřednictvím **Boltz**. To vám dává možnost komunikovat s Lightning, aniž byste museli spravovat kanály likvidity, a přitom zůstat ve vlastní úschově.
+- **Mechanismus**: Wallet umožňuje provádět a přijímat platby prostřednictvím Lightning. Prostředky přijaté prostřednictvím Lightning jsou uloženy v síti **Liquid** (v Wallet Instant Payments) díky automatické výměně prostřednictvím **Boltz**. To vám dává možnost komunikovat s Lightning, aniž byste museli spravovat kanály likvidity, a přitom zůstat ve vlastní úschově.
 
 
 
 
 
-- Limity:**
- - Minimální částka** 100 satoši (k 19. 7. 2025) při použití generate a Invoice.
- - Náklady**, které se odečtou od odeslané částky, platíte vy, na rozdíl od přijímání pomocí Wallet Lightning native, kde náklady na převod hradí kromě odeslané částky pouze odesílatel. Ke dni 19. 7. 2025 se od odeslané částky odečítá 47 Sats.
+- **Limity:**
+- **Minimální částka** 100 satoši (k 19. 7. 2025) při použití generate a Invoice.
+- **Náklady**, které se odečtou od odeslané částky, platíte vy, na rozdíl od přijímání pomocí Wallet Lightning native, kde náklady na převod hradí kromě odeslané částky pouze odesílatel. Ke dni 19. 7. 2025 se od odeslané částky odečítá 47 Sats.
 
 
 
 
 
-- Výhody** :
- - Samostatné opatrovnictví**: Vaše finanční prostředky zůstávají pod vaší kontrolou a jsou uloženy na Liquid Network.
- - Žádné vysoké poplatky za řetězec**: Úložiště Liquid umožňuje vyhnout se nákladným vkladům v řetězci, abyste mohli otevřít svůj kanál Lightning nebo přidat likviditu. Tyto operace lze provést později, až částka nahromaděná na Liquid ospravedlní poplatky.
+- **Výhody**:
+- **Samostatné opatrovnictví**: Vaše finanční prostředky zůstávají pod vaší kontrolou a jsou uloženy na Liquid Network.
+- **Žádné vysoké poplatky za řetězec**: Úložiště Liquid umožňuje vyhnout se nákladným vkladům v řetězci, abyste mohli otevřít svůj kanál Lightning nebo přidat likviditu. Tyto operace lze provést později, až částka nahromaděná na Liquid ospravedlní poplatky.
 
 
 
 
 
-- Tip:** Pokud má odesílatel Wallet Bull Bitcoin, použijte přímo Liquid Network, abyste se vyhnuli poplatkům za výměnu
+- **Tip:** Pokud má odesílatel Wallet Bull Bitcoin, použijte přímo Liquid Network, abyste se vyhnuli poplatkům za výměnu
 
 
 
@@ -456,13 +456,13 @@ Na domovské obrazovce můžete :
 
 
 
-- Platnost Invoice:** Blesk Invoice je platný **12 hodin**. Po uplynutí této doby pozbývá platnosti a nelze ji již zaplatit. Je třeba vygenerovat nový Invoice.
+- Platnost Invoice: Blesk Invoice je platný **12 hodin**. Po uplynutí této doby pozbývá platnosti a nelze ji již zaplatit. Je třeba vygenerovat nový Invoice.
 
 
 
 
 
-- Použití**: Zkopírujte kód Invoice a sdílejte ho s odesílatelem nebo ho nechte naskenovat kód QR.
+- **Použití**: Zkopírujte kód Invoice a sdílejte ho s odesílatelem nebo ho nechte naskenovat kód QR.
 
 
 
@@ -563,27 +563,27 @@ Poté můžete upravit parametry:
 
 
 
-- Poplatky**: Můžete si vybrat:
-  - Odhadne se buď rychlost provedení** vaší transakce, nebo související poplatky
-  - Odhadne se buď výše poplatků** v režimu absolutních poplatků (celkové poplatky v satoši), nebo relativních poplatků (poplatky za bajt) a rychlost transakce
+- **Poplatky**: Můžete si vybrat:
+- Odhadne se buď **rychlost provedení** vaší transakce, nebo související poplatky
+- Odhadne se buď výše **poplatků** v režimu absolutních poplatků (celkové poplatky v satoši), nebo relativních poplatků (poplatky za bajt) a rychlost transakce
 
 
 
 
 
-- Rozšířená nastavení** :
+- **Rozšířená nastavení**:
 
 
 
 
 
- - Replace-by-fee (RBF)** : Tato funkce je aktivována ve výchozím nastavení a urychluje transakci zaplacením vyššího poplatku (podrobnosti viz příloha 4).
+- **Replace-by-fee (RBF)**: Tato funkce je aktivována ve výchozím nastavení a urychluje transakci zaplacením vyššího poplatku (podrobnosti viz příloha 4).
 
 
 
 
 
- - Ruční výběr UTXO**: Pokud jsou vaše finanční prostředky uloženy na několika různých adresách Wallet, můžete si vybrat adresy, ze kterých chcete finanční prostředky odeslat. Proč byste to měli udělat? S rostoucím používáním systému Bitcoin se zvyšují poplatky za převody. Odesílání z několika adres s malými částkami je dražší než odesílání z jediné adresy Address, ale když to uděláte nyní, vyhnete se tomu, že to budete muset udělat později, kdy budou poplatky ještě vyšší. Tomuto postupu se říká **konsolidace UTXO**
+- **Ruční výběr UTXO**: Pokud jsou vaše finanční prostředky uloženy na několika různých adresách Wallet, můžete si vybrat adresy, ze kterých chcete finanční prostředky odeslat. Proč byste to měli udělat? S rostoucím používáním systému Bitcoin se zvyšují poplatky za převody. Odesílání z několika adres s malými částkami je dražší než odesílání z jediné adresy Address, ale když to uděláte nyní, vyhnete se tomu, že to budete muset udělat později, kdy budou poplatky ještě vyšší. Tomuto postupu se říká **konsolidace UTXO**.
 
 
 
@@ -593,7 +593,7 @@ Poté můžete upravit parametry:
 
 
 
-- Odesílání pomocí PayJoin**: Pokud byla funkce aktivována příjemcem, který zadal URI, např. :
+- **Odesílání pomocí PayJoin**: Pokud byla funkce aktivována příjemcem, který zadal URI, např. :
 
 
 
@@ -679,7 +679,7 @@ Věnujte čas kontrole všech parametrů, zejména množství a místa určení 
 
 
 
-- Poplatky**: Proporcionálně podle složitosti transakce, obvykle na bázi 0,1 sat/vB, tj. 20-40 satoshis za jednoduchou transakci (33 Sats k 22.7.2025).
+- **Poplatky**: Proporcionálně podle složitosti transakce, obvykle na bázi 0,1 sat/vB, tj. 20-40 satoshis za jednoduchou transakci (33 Sats k 22.7.2025).
 
 
 
@@ -750,29 +750,29 @@ Poznámka: částka musí být vyšší než 21 Sats ke dni 23.7.2025
 
 
 
-- Mechanismus**: Prostředky jsou čerpány z **Instant Payments Wallet** (Liquid) a převedeny prostřednictvím swapu **Liquid → Lightning** s **Boltz**.
+- **Mechanismus**: Prostředky jsou čerpány z **Instant Payments Wallet** (Liquid) a převedeny prostřednictvím swapu **Liquid → Lightning** s **Boltz**.
 
 
 
 
 
-- Limity:**
- - Minimální množství** vyšší než u nativního blesku Wallet (viz výše)
- - Výdaje** plus Liquid → Výměna blesků přes Boltz
+- **Limity:**
+- **Minimální množství** vyšší než u nativního blesku Wallet (viz výše)
+- **Výdaje** plus Liquid → Výměna blesků přes Boltz
 
 
 
 
 
-- Výhody** :
- - Samostatné opatrovnictví**: Vaše finanční prostředky zůstávají pod vaší kontrolou, jsou uloženy na Liquid Network a v případě potřeby je lze převést prostřednictvím Lightningu
- - Žádné vysoké poplatky za řetězec**: Uložení na Liquid vám ušetřilo nákladné onchain vklady za otevření Lightning kanálu nebo přidání likvidity. Tyto operace můžete provést později, až částka nashromážděná na Liquid ospravedlní poplatky.
+- **Výhody**:
+- **Samostatné opatrovnictví**: Vaše finanční prostředky zůstávají pod vaší kontrolou, jsou uloženy na Liquid Network a v případě potřeby je lze převést prostřednictvím Lightningu
+- **Žádné vysoké poplatky za řetězec**: Uložení na Liquid vám ušetřilo nákladné onchain vklady za otevření Lightning kanálu nebo přidání likvidity. Tyto operace můžete provést později, až částka nashromážděná na Liquid ospravedlní poplatky.
 
 
 
 
 
-- Tip:** Pokud má příjemce Wallet Bull Bitcoin, použijte přímo Liquid Network, abyste se vyhnuli nákladům na výměnu
+- **Tip:** Pokud má příjemce Wallet Bull Bitcoin, použijte přímo Liquid Network, abyste se vyhnuli nákladům na výměnu
 
 
 
@@ -803,7 +803,7 @@ Věnujte čas kontrole všech parametrů, zejména množství a místa určení 
 
 
 
-- Přes domovskou obrazovku** :
+- **Přes domovskou obrazovku**:
  - Kliknutím na **Secure Bitcoin Wallet** zobrazíte transakce **v řetězci** nebo na **Instant Payments Wallet** pro transakce **Liquid** a **Lightning**.
  - Historie se zobrazuje přímo pod celkovým portfoliem, filtrovaná podle vybraného typu Wallet.
 
@@ -815,7 +815,7 @@ Věnujte čas kontrole všech parametrů, zejména množství a místa určení 
 
 
 
-- Prostřednictvím vyhrazené stránky** :
+- Prostřednictvím vyhrazené stránky:
  - Na domovské obrazovce klikněte na symbol **historie** (ikona hodin nebo podobný symbol).
  - Přístup na stránku se seznamem všech transakcí s filtry podle typu akce: **Odeslání**, **Příjem**, **Výměna**, **PayJoin**, **Prodej**, **Koupě** (poznámka: funkce Prodej a Koupě jsou ve fázi vývoje a v současné době, 20. července 2025, nejsou k dispozici).
 
@@ -864,57 +864,57 @@ Stránka "Nastavení" je přístupná přímo z domovské stránky aplikace Bull
 
 
 
-- Wallet Záloha**: Zobrazuje frázi pro obnovu portfolia pro bezpečné zálohování. Nejlepší postupy pro správu a ukládání fráze pro obnovu naleznete v části 3. o vytváření portfolia.
+- **Wallet Záloha**: Zobrazuje frázi pro obnovu portfolia pro bezpečné zálohování. Nejlepší postupy pro správu a ukládání fráze pro obnovu naleznete v části 3. o vytváření portfolia.
 
 
 
 
 
-- Wallet Podrobnosti** :
- - Pubkey**: Veřejný klíč spojený s Wallet, který se používá k příjmu adres generate Bitcoin.
- - Cesta odvození**: generate Wallet adresy ze soukromého klíče.
+- **Wallet Podrobnosti**:
+- **Pubkey**: Veřejný klíč spojený s Wallet, který se používá k příjmu adres generate Bitcoin.
+- **Cesta odvození**: generate Wallet adresy ze soukromého klíče.
 
 
 
 
 
-- Server Electrum (uzel Bitcoin)**: Nastavte připojení k přizpůsobenému uzlu Bitcoin pro transakce v řetězci.
+- **Server Electrum (uzel Bitcoin)**: Nastavte připojení k přizpůsobenému uzlu Bitcoin pro transakce v řetězci.
 
 
 
 
 
-- Kód PIN**: PIN kód: Aktivujte a/nebo upravte bezpečnostní kód pro ochranu přístupu k aplikaci a funkcím Wallet.
+- **Kód PIN**: PIN kód: Aktivujte a/nebo upravte bezpečnostní kód pro ochranu přístupu k aplikaci a funkcím Wallet.
 
 
 
 
 
-- Měna**: Vyberte, zda se mají částky zobrazovat v BTC nebo Sats, a výchozí fiat měnu (dolar, euro atd.).
+- **Měna**: Vyberte, zda se mají částky zobrazovat v BTC nebo Sats, a výchozí fiat měnu (dolar, euro atd.).
 
 
 
 
 
-- Nastavení automatické výměny**: Funkce _Auto Swap_ vám umožňuje automatizovat převod vašich BTC z **Instant Payments Wallet (Liquid)** do vašeho **Bitcoin On-Chain** Wallet, jakmile částka dosáhne prahové hodnoty, kterou považujete za dostatečně vysokou, aby ospravedlnila transakční poplatek.
+- **Nastavení automatické výměny**: Funkce *Auto Swap* vám umožňuje automatizovat převod vašich BTC z **Instant Payments Wallet (Liquid)** do vašeho **Bitcoin On-Chain** Wallet, jakmile částka dosáhne prahové hodnoty, kterou považujete za dostatečně vysokou, aby ospravedlnila transakční poplatek.
 
 
 
 
 
-- Protokoly**: Záznamy o činnosti, které lze sdílet s technickou podporou a usnadnit tak řešení problémů.
+- **Protokoly**: Záznamy o činnosti, které lze sdílet s technickou podporou a usnadnit tak řešení problémů.
 
 
 
 
 
-- Přístup k Telegramu pro podporu** : Přímý odkaz na oficiální kanál Telegramu pro pomoc uživatelům.
+- **Přístup k Telegramu pro podporu**: Přímý odkaz na oficiální kanál Telegramu pro pomoc uživatelům.
 
 
 
 
 
-- Přístup do Githubu** : Odkaz na [Bull Bitcoin Github repository](https://github.com/SatoshiPortal) pro zobrazení kódu s otevřeným zdrojovým kódem nebo nahlášení problémů.
+- **Přístup do Githubu**: Odkaz na [Bull Bitcoin Github repository](https://github.com/SatoshiPortal) pro zobrazení kódu s otevřeným zdrojovým kódem nebo nahlášení problémů.
 
 
 
@@ -956,8 +956,8 @@ Stránka "Nastavení" je přístupná přímo z domovské stránky aplikace Bull
 
 
 
-- Příjem** (Address Supply): PayJoin je ve výchozím nastavení povolen.
-- Odeslat** : Wallet automaticky rozpozná URI PayJoin a podle toho nakonfiguruje transakci, například:
+- **Příjem** (Address Supply): PayJoin je ve výchozím nastavení povolen.
+- **Odeslat**: Wallet automaticky rozpozná URI PayJoin a podle toho nakonfiguruje transakci, například:
 
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Zvýšená důvěrnost**: PayJoin ruší předpoklad, že všechny záznamy v transakci patří jednomu subjektu. U PayJoin vstupy pocházejí od odesílatele i příjemce, což tento předpoklad porušuje.
-- Maskování částek** : Skutečná vyměněná částka se nezobrazuje přímo ve výstupech. Je vypočítána jako rozdíl mezi příchozí a odchozí částkou UTXO příjemce, což činí analýzu zavádějící.
+- **Zvýšená důvěrnost**: PayJoin ruší předpoklad, že všechny záznamy v transakci patří jednomu subjektu. U PayJoin vstupy pocházejí od odesílatele i příjemce, což tento předpoklad porušuje.
+- **Maskování částek**: Skutečná vyměněná částka se nezobrazuje přímo ve výstupech. Je vypočítána jako rozdíl mezi příchozí a odchozí částkou UTXO příjemce, což činí analýzu zavádějící.
 
 
 
@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Slovníček pojmů](https://planb.network/fr/resources/glossary/PayJoin)
+- [Slovníček pojmů](https://planb.network/fr/resources/glossary/payjoin)
 - Chapitre [Les transactions PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Slovníček pojmů](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Slovníček pojmů](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1038,15 +1038,15 @@ Chcete-li používat **Bull Bitcoin Mobile** bezpečně a efektivně, dodržujte
 
 
 
-- Zajistěte si frázi pro obnovení** :
- - Výukový program: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+- Zajistěte si frázi pro **obnovení**:
+ - Výukový program: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
 
 
 
-- Použijte zabezpečené ověřování** :
+- Použijte **zabezpečené ověřování**:
  - Aktivujte **silný kód PIN** nebo **biometrické ověření** (otisk prstu nebo rozpoznání obličeje) pro ochranu přístupu k aplikaci.
  - Nikdy nesdělujte svůj PIN nebo biometrické údaje.
 
@@ -1054,7 +1054,7 @@ Chcete-li používat **Bull Bitcoin Mobile** bezpečně a efektivně, dodržujte
 
 
 
-- Chraňte své soukromí** :
+- **Chraňte své soukromí**:
  - generate nový Address pro každý příjem v řetězci nebo Liquid, aby se omezilo sledování na Blockchain.
  - Pro zvýšení důvěrnosti ohledně částky odeslané v řetězci použijte PayJoin, pokud je k dispozici
  - Chcete-li dosáhnout maximální důvěrnosti, připojte svůj Wallet k vlastnímu uzlu Bitcoin prostřednictvím serveru Electrum namísto použití veřejného uzlu
@@ -1063,23 +1063,23 @@ Chcete-li používat **Bull Bitcoin Mobile** bezpečně a efektivně, dodržujte
 
 
 
-- Vyberte si síť, která nejlépe vyhovuje vašim potřebám** :
- - Onchain**: V případě dlouhodobé úschovy nebo transakcí s velkou hodnotou (poplatky jsou v poměru k částce zanedbatelné).
- - Liquid**: Použijte pro rychlé a levné přenosy se zvýšenou důvěrností.
- - Blesk**: Vyberte si okamžité a levné převody malých částek. Pokud jste dva uživatelé Wallet Bull Bitcoin, zvolte Liquid, abyste se vyhnuli poplatkům za výměnu Lightning <> Liquid prostřednictvím Boltz.
+- Vyberte si síť, která nejlépe vyhovuje vašim potřebám:
+- **Onchain**: V případě dlouhodobé úschovy nebo transakcí s velkou hodnotou (poplatky jsou v poměru k částce zanedbatelné).
+- **Liquid**: Použijte pro rychlé a levné přenosy se zvýšenou důvěrností.
+- **Blesk**: Vyberte si okamžité a levné převody malých částek. Pokud jste dva uživatelé Wallet Bull Bitcoin, zvolte Liquid, abyste se vyhnuli poplatkům za výměnu Lightning <> Liquid prostřednictvím Boltz.
 
 
 
 
 
-- Vždy zkontrolujte dodací adresy** :
+- Vždy zkontrolujte dodací adresy:
  - Před odesláním finančních prostředků pečlivě zkontrolujte Address. Finanční prostředky zaslané na nesprávný účet Address jsou navždy ztraceny. Používejte kopírování/vkládání nebo skenování QR kódu, nikdy nekopírujte/neupravujte Address ručně.
 
 
 
 
 
-- Optimalizace nákladů** :
+- **Optimalizace nákladů**:
  - Pro transakce v řetězci zvolte vhodné poplatky (pomalé, střední, rychlé) podle naléhavosti a přetížení sítě.
  - Pro malá množství použijte Liquid nebo Lightning.
  - Pokud předpokládáte potřebu urychlit potvrzení, aktivujte pro zásilky v řetězci funkci Replace-by-fee (RBF) (viz dodatek 4).
@@ -1099,18 +1099,18 @@ Chcete-li používat **Bull Bitcoin Mobile** bezpečně a efektivně, dodržujte
 
 
 
-- Oficiální odkazy a podpora:**
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : e-mailová podpora
- - [Oficiální webové stránky Bull Bitcoin](https://bullbitcoin.com/) :** Informace o službách Bull Bitcoin, vytvoření účtu, přístup k aplikaci
- - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Prohlížejte si kód, vývoj a plán, přispívejte k vývoji...
- - [Účet X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
- - Skupina Telegram** pro mobilní telefon Wallet: skupinový chat s podporou, viz stránka "Nastavení".
+- **Oficiální odkazy a podpora:**
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : e-mailová podpora
+- [Oficiální webové stránky Bull Bitcoin](https://bullbitcoin.com/): **Informace o službách Bull Bitcoin, vytvoření účtu, přístup k aplikaci**
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Prohlížejte si kód, vývoj a plán, přispívejte k vývoji...**
+- [Účet X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
+- Skupina **Telegram** pro mobilní telefon Wallet: skupinový chat s podporou, viz stránka "Nastavení".
 
 
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Blesk: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -1119,7 +1119,7 @@ Chcete-li používat **Bull Bitcoin Mobile** bezpečně a efektivně, dodržujte
 
 
 
-- Výuka a výukové programy:** **[Plan ₿ Network](https://planb.network/)** :
+- **Výuka a výukové programy:** **[Plan ₿ Network](https://planb.network/)**
  - Zajištění fráze pro obnovení
 
 
@@ -1133,8 +1133,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Slovník pojmů](https://planb.network/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Slovník pojmů](https://planb.network/resources/glossary/liquid-network)
 
 
 
@@ -1145,8 +1145,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Slovník pojmů](https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Slovník pojmů](https://planb.network/resources/glossary/lightning-network)
 
 
 
@@ -1184,31 +1184,31 @@ Bull Bitcoin vyniká svými zásadami Commitment až Cypherpunk a etikou Bitcoin
 
 
 
-- Exkluzivní zaměření na Bitcoin** : Platforma je věrná vizi decentralizované měny odolné vůči cenzuře.
+- **Exkluzivní zaměření na Bitcoin**: Platforma je věrná vizi decentralizované měny odolné vůči cenzuře.
 
 
 
 
 
-- Osoby, které nejsou správci** : Uživatelé si zachovávají plnou kontrolu nad svými bitcoiny tím, že si je posílají do vlastních portfolií.
+- Osoby, které nejsou správci: Uživatelé si zachovávají plnou kontrolu nad svými bitcoiny tím, že si je posílají do vlastních portfolií.
 
 
 
 
 
-- Důvěrnost**: U transakcí do 999 USD je minimalizováno shromažďování osobních údajů a možnost nákupu bez KYC. Údaje jsou chráněny v souladu s předpisy (FINTRAC v Kanadě, AMF ve Francii).
+- **Důvěrnost**: U transakcí do 999 USD je minimalizováno shromažďování osobních údajů a možnost nákupu bez KYC. Údaje jsou chráněny v souladu s předpisy (FINTRAC v Kanadě, AMF ve Francii).
 
 
 
 
 
-- Transparentnost**: Žádné skryté poplatky, náklady jsou zahrnuty v rozpětí (rozdíl mezi nákupní a prodejní cenou).
+- **Transparentnost**: Žádné skryté poplatky, náklady jsou zahrnuty v rozpětí (rozdíl mezi nákupní a prodejní cenou).
 
 
 
 
 
-- Finanční suverenita**: Bitcoin podporuje nezávislost na tradičních bankovních systémech a centralizovaných institucích.
+- **Finanční suverenita**: Bitcoin podporuje nezávislost na tradičních bankovních systémech a centralizovaných institucích.
 
 
 
@@ -1218,19 +1218,19 @@ Bull Bitcoin vyniká svými zásadami Commitment až Cypherpunk a etikou Bitcoin
 
 
 
-- Záloha Fiat** : Uživatelé mohou na svůj účet Bull Bitcoin vložit peníze ve fiat měně (CAD, EUR atd.) bankovním převodem nebo v hotovosti/debetní kartou na vybraných kanadských poštách.
+- **Záloha Fiat**: Uživatelé mohou na svůj účet Bull Bitcoin vložit peníze ve fiat měně (CAD, EUR atd.) bankovním převodem nebo v hotovosti/debetní kartou na vybraných kanadských poštách.
 
 
 
 
 
-- Nákup Bitcoin** : Uživatelé si mohou zakoupit Bitcoin, který je zasílán přímo do jejich portfolia, které není depozitářem, což zaručuje úplnou kontrolu nad jejich finančními prostředky.
+- **Nákup Bitcoin**: Uživatelé si mohou zakoupit Bitcoin, který je zasílán přímo do jejich portfolia, které není depozitářem, což zaručuje úplnou kontrolu nad jejich finančními prostředky.
 
 
 
 
 
-- Plánovaný nákup Bitcoin**: Bull Bitcoin nabízí automatickou službu opakovaného nákupu (DCA - Dollar Cost Averaging) v pravidelných intervalech, čerpající z vašeho dostupného zůstatku, s přímým převodem bitcoinů na uživatelem řízený Wallet, což snižuje dopad kolísání cen.
+- **Plánovaný nákup Bitcoin**: Bull Bitcoin nabízí automatickou službu opakovaného nákupu (DCA - Dollar Cost Averaging) v pravidelných intervalech, čerpající z vašeho dostupného zůstatku, s přímým převodem bitcoinů na uživatelem řízený Wallet, což snižuje dopad kolísání cen.
 
 
 
@@ -1241,37 +1241,37 @@ Všimněte si, že možnost nazvaná "AutoBuy" vám umožní převést vaše fia
 
 
 
-- Nákup Bitcoin za pevnou cenu "limitní příkaz "**: Umožňuje nakoupit Bitcoin za cenu předem určenou uživatelem, která se automaticky provede, jakmile cena indexu Bull Bitcoin dosáhne nebo klesne pod nastavený limit.
+- Nákup Bitcoin za pevnou cenu **"limitní příkaz"**: Umožňuje nakoupit Bitcoin za cenu předem určenou uživatelem, která se automaticky provede, jakmile cena indexu Bull Bitcoin dosáhne nebo klesne pod nastavený limit.
 
 
 
 
 
-- Prodej Bitcoin**: Uživatelé mohou prodat své Bitcoiny a obdržet peníze ve fiat měně přímo na svůj bankovní účet prostřednictvím bankovního nebo SEPA převodu.
+- **Prodej Bitcoin**: Uživatelé mohou prodat své Bitcoiny a obdržet peníze ve fiat měně přímo na svůj bankovní účet prostřednictvím bankovního nebo SEPA převodu.
 
 
 
 
 
-- Platby třetích stran**: Bull Bitcoin umožňuje uživatelům posílat fiat peníze na bankovní účty ze svých bitcoinů, a to zcela transparentně pro příjemce.
+- **Platby třetích stran**: Bull Bitcoin umožňuje uživatelům posílat fiat peníze na bankovní účty ze svých bitcoinů, a to zcela transparentně pro příjemce.
 
 
 
 
 
-- Bull Bitcoin Prime**: Bull Bitcoin Prime je prémiová služba pro bonitní a firemní zákazníky, která nabízí řešení na míru a prémiovou podporu. Zahrnuje přístup ke sníženým poplatkům, vyhrazeného správce účtu a na míru šité podnikové služby. Tato služba je určena institucím, profesionálním obchodníkům a firemním klientům, kteří hledají hluboké odborné znalosti a přednostní zacházení.
+- **Bull Bitcoin Prime**: Bull Bitcoin Prime je prémiová služba pro bonitní a firemní zákazníky, která nabízí řešení na míru a prémiovou podporu. Zahrnuje přístup ke sníženým poplatkům, vyhrazeného správce účtu a na míru šité podnikové služby. Tato služba je určena institucím, profesionálním obchodníkům a firemním klientům, kteří hledají hluboké odborné znalosti a přednostní zacházení.
 
 
 
 
 
-- Mobilní zařízení Wallet**: Bull Bitcoin nabízí mobilní Wallet s otevřeným zdrojovým kódem, dostupný pro Android a iOS, který podporuje transakce onchain, Liquid a Lightning Network.
+- **Mobilní zařízení Wallet**: Bull Bitcoin nabízí mobilní Wallet s otevřeným zdrojovým kódem, dostupný pro Android a iOS, který podporuje transakce onchain, Liquid a Lightning Network.
 
 
 
 
 
-- Podpora vzdělávání**: Bezplatné průvodce a osobní koučink, které uživatelům pomáhají vytvořit, zabezpečit a spravovat jejich portfolio Bitcoin a posilují jejich finanční samostatnost.
+- **Podpora vzdělávání**: Bezplatné průvodce a osobní koučink, které uživatelům pomáhají vytvořit, zabezpečit a spravovat jejich portfolio Bitcoin a posilují jejich finanční samostatnost.
 
 
 
@@ -1281,10 +1281,10 @@ Všimněte si, že možnost nazvaná "AutoBuy" vám umožní převést vaše fia
 
 
 
-- Právní předpisy**: Bull Bitcoin splňuje požadavky KYC/AML.
+- **Právní předpisy**: Bull Bitcoin splňuje požadavky KYC/AML.
 
 
 
 
 
-- Bezpečnost**: Používání zabezpečených portfolií a doporučení pro offline ukládání. Osobní údaje jsou umístěny na infrastruktuře Bitcoin společnosti Bull, která je 100% vlastní a nespoléhá se na žádnou třetí stranu.
+- **Bezpečnost**: Používání zabezpečených portfolií a doporučení pro offline ukládání. Osobní údaje jsou umístěny na infrastruktuře Bitcoin společnosti Bull, která je 100% vlastní a nespoléhá se na žádnou třetí stranu.

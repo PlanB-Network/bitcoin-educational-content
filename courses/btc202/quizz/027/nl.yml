@@ -1,0 +1,9 @@
+question: Wat is er speciaal aan een SPV-knooppunt?
+answer: Alleen de headers van het blok blijven behouden
+wrong_answers:
+  - Het behoudt de volledige Blockchain sinds het Genesis blok
+  - Het slaat alleen de meest recente blokken op
+  - Alleen de UTXO set blijft behouden, niet de Blockchain
+explanation: |
+  Een SPV knooppunt verifieert transacties via block headers en Merkle bewijzen, zonder de volledige gegevens op te slaan.
+reviewed: true

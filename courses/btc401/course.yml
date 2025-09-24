@@ -1,6 +1,7 @@
 id: 4387c365-e0dd-4c6d-a1db-8cd7ac4d2da9
 topic: bitcoin
 subtopic: bitcoin
+type: practice
 level: expert
 hours: 20
 
@@ -132,6 +133,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 99.54
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 124.4
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 99.54
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 149.26
 tags:
   - development
   - protocols

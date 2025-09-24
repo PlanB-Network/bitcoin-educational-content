@@ -1,11 +1,9 @@
-question: Mikä on lohkoketjun trilemma?
-answer: Protokolla, joka perustuu lohkoketjuun, voi täyttää vain kaksi kriteeriä kolmesta; hajautus, turvallisuus ja skaalautuvuus.
+question: Mitä Salamaverkko mahdollistaa?
+answer: Siirtojen tekemisen yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
 wrong_answers:
-  - Protokolla, joka perustuu lohkoketjuun, voi täyttää vain yhden kriteerin kolmesta: hajautus, turvallisuus ja skaalautuvuus.
-  - Protokolla, joka perustuu lohkoketjuun, voi täyttää kaikki kriteerit: hajautus, turvallisuus ja skaalautuvuus.
-  - Protokolla, joka perustuu lohkoketjuun, ei voi täyttää mitään kriteereistä: hajautus, turvallisuus ja skaalautuvuus.
+  - Luoda suoria kanavayhteyksiä vain keskitettyjen pörssien kanssa.
+  - Luoda kanavayhteyksiä, jotka vaativat useita vahvistuksia minkä tahansa siirron yhteydessä.
+  - Perustaa suoria kanavayhteyksiä, jotka ovat rajoitettuja vain suuriin siirtoihin.
 explanation: |
-  Lohkoketjun trilemma viittaa haasteeseen, jonka mukaan
-  protokolla, joka perustuu lohkoketjuun, voi täyttää vain kaksi kriteeriä
-  kolmesta: hajautus, turvallisuus ja skaalautuvuus.
+  Salamaverkko mahdollistaa siirtojen tekemisen yksilöiden välillä, joilla ei ole suoraa kanavayhteyttä.
 reviewed: true

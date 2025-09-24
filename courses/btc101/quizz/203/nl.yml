@@ -1,11 +1,8 @@
-question: Wat moet je doen na aankoop van Bitcoin op een Exchange platform?
-answer: Bitcoins opnemen en naar je Wallet sturen.
+question: Welk land heeft Bitcoin uitgeroepen tot wettig betaalmiddel?
+answer: El Salvador.
 wrong_answers:
-  - Laat bitcoins achter op het platform.
-  - Verkoop bitcoins onmiddellijk.
-  - Bitcoins overzetten naar een ander Exchange platform.
-explanation: |
-  De cursustekst adviseert dat men na aanschaf van Bitcoin
-  de UTXO's onmiddellijk van Exchange platforms moet halen
-  om de risico's van hacken en het blokkeren van fondsen te minimaliseren.
+  - Verenigde Staten.
+  - China.
+  - India.
+explanation: >-
 reviewed: true

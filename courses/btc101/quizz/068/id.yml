@@ -1,10 +1,11 @@
-question: Seberapa sering hadiah untuk penambangan dibagi dua?
-answer: Setiap 210.000 blok
+question: Apa itu frasa mnemonik dalam dompet Bitcoin?
+answer: Daftar 12 atau 24 kata yang merupakan cadangan dari dompet Bitcoin Anda
 wrong_answers:
-  - Setiap 120.000 blok
-  - Setiap 540.000 blok
-  - Setiap 2.100.000 blok
+  - Kata sandi yang dipilih untuk mengakses dompet Bitcoin
+  - Kode untuk mengenkripsi transaksi Bitcoin
+  - Frasa pemulihan rahasia yang menghancurkan dompet Bitcoin
 explanation: |
-  Hadiah untuk penambangan diprogram untuk dibagi dua setiap 210.000 blok, yang
-  kira-kira setiap empat tahun sekali, sebuah peristiwa yang dikenal sebagai halving.
+  Sejak tahun 2017, kunci privat dapat dikodekan dalam daftar sederhana dari 12 atau
+  24 kata, yang disebut frasa mnemonik. Frasa ini merupakan cadangan dari dompet Bitcoin Anda,
+  inilah yang memungkinkan Anda untuk merekreasi dompet Anda dengan perangkat lunak/aplikasi dompet Bitcoin apa pun.
 reviewed: true

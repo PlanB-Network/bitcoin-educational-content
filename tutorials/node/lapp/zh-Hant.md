@@ -1,9 +1,11 @@
 ---
-name: LAPP Bitcoin
-description: 開發第一個 LApp 的教學
+name: Lightning App
+description: 開發您的第一個Lightning應用程式 (LAPP) 的教學
 ---
 
-學習編寫您的第一個 lightning 應用程式
+![cover](assets/cover.webp)
+
+## 學習編寫你的第一個閃電應用程式
 
 
 要求：
@@ -27,6 +29,8 @@ NodeJs 可從其官方網站下載
 - 我們網站伺服器的 Express
 - 為我們的前端提供 Pug 模板 + bootstrap
 
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## 作業系統
 

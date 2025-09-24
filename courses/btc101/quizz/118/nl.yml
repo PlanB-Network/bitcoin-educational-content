@@ -1,12 +1,11 @@
-question: Wat is het bericht in het eerste blok van de Bitcoin Blockchain?
-answer: 03/jan/2009 Kanselier op rand van tweede reddingsoperatie voor banken.
+question: Wat is de datum van het laatst bekende privébericht van Satoshi Nakamoto via e-mail?
+answer: 23 april 2011.
 wrong_answers:
-  - We kunnen een grote slag in de wapenwedloop winnen en een nieuw gebied van vrijheid voor enkele jaren veroveren.
-  - Regeringen zijn goed in het afsnijden van de koppen van centraal gecontroleerde netwerken zoals Napster, maar pure P2P netwerken zoals Gnutella en Tor lijken stand te houden.
-  - Geen van bovenstaande.
+  - 12 december 2010.
+  - 8 januari 2009.
+  - 31 oktober 2008.
 explanation: |
-  Het eerste blok van de Bitcoin Blockchain, ook bekend als
-  het Genesis blok, bevat het bericht 03/jan/2009
-  Kanselier op rand van tweede reddingsoperatie voor banken, wat de
-  titel van de Tijd die dag naar Timestamp het Genesis blok.
+  De datum van het laatst bekende privébericht van Satoshi
+  Nakamoto via e-mail is 23 april 2011. Het werd verstuurd naar de
+  ontwikkelaar Mike Hearn.
 reviewed: true

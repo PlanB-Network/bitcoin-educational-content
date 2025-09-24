@@ -92,7 +92,7 @@ Alexander Bechtel
 Matthias Reder
 
 
-##  Die EU will Bitcoin nicht verbieten!*
+##  Die EU will Bitcoin nicht verbieten!
 
 ![video](https://youtu.be/bz6b7TE17mc?si=2Ulgr1aeuomM0xQy)
 

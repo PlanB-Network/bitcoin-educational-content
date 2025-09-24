@@ -111,9 +111,9 @@ Voor een standaardimplementatie raden we:
 
 
 
-- minimaal 1 GB RAM** (2 GB of meer wordt aanbevolen om extra pakketten of ZFS-ondersteuning mogelijk te maken).
-- 8 GB schijfruimte** (20 GB of meer is te verkiezen voor meer geavanceerde configuraties, vooral als je een proxy cache, IDS/IPS of gedetailleerde logs installeert).
-- Ten minste twee virtuele netwerkinterfaces** (één voor het WAN, één voor het LAN). Voeg ze in VirtualBox toe aan de VM-instellingen voor het opstarten.
+- minimaal 1 GB RAM (2 GB of meer wordt aanbevolen om extra pakketten of ZFS-ondersteuning mogelijk te maken).
+- 8 GB schijfruimte (20 GB of meer is te verkiezen voor meer geavanceerde configuraties, vooral als je een proxy cache, IDS/IPS of gedetailleerde logs installeert).
+- Ten minste twee virtuele netwerkinterfaces (één voor het WAN, één voor het LAN). Voeg ze in VirtualBox toe aan de VM-instellingen voor het opstarten.
 
 
 
@@ -309,8 +309,8 @@ Het inlogscherm verschijnt. De standaardgegevens zijn:
 
 
 
-- Gebruikersnaam:** `admin`
-- Wachtwoord:** `pfsense`
+- **Gebruikersnaam:** `admin`
+- **Wachtwoord:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ Om je uitzending met een gerust hart te beëindigen:
 
 
 
-- Pas firewallregels** aan: standaard staat pfSense al het uitgaande verkeer op het LAN toe en blokkeert het inkomend verkeer op het WAN. Pas deze regels naar wens aan.
-- Configureer veilige toegang op afstand**: indien nodig, schakel toegang tot Interface web vanaf het WAN alleen in via VPN of met IP beperkingen.
-- Meldingen** inschakelen: configureer een SMTP-server voor het ontvangen van meldingen (storingen, updates, fouten).
-- Installeer nuttige extensies**: bijvoorbeeld IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtering (pfBlockerNG).
+- **Pas firewallregels aan**: standaard staat pfSense al het uitgaande verkeer op het LAN toe en blokkeert het inkomend verkeer op het WAN. Pas deze regels naar wens aan.
+- Configureer veilige toegang op afstand: indien nodig, schakel toegang tot Interface web vanaf het WAN alleen in via VPN of met IP beperkingen.
+- **Meldingen** inschakelen: configureer een SMTP-server voor het ontvangen van meldingen (storingen, updates, fouten).
+- Installeer nuttige **extensies**: bijvoorbeeld IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtering (pfBlockerNG).
 
 
 

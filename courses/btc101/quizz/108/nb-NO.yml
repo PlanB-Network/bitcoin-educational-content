@@ -1,10 +1,10 @@
-question: Hva er formålet med en Bitcoin-lommebok?
-answer: Å lagre privat nøkkel for å utføre transaksjoner med bitcoins
+question: Hvem var den første personen som ble med i Bitcoin-nettverket etter Satoshi Nakamoto?
+answer: Hal Finney
 wrong_answers:
-  - Å bruke enhetens ressurser til å utvinne bitcoins
-  - Å kjøpe bitcoins med offentlig nøkkel
-  - Å lagre bitcoins på en enhet
+  - Laszlo Hanyecz
+  - Phil Champagne
+  - Rogzy
 explanation: |
-  Bitcoin-lommebøker er programvare som lar deg lagre de private nøklene som
-  gjør det mulig for deg å utføre transaksjoner med dine bitcoins.
+  Hal Finney var den første personen som ble med i Bitcoin-nettverket etter Satoshi
+  Nakamoto selv. Han tvitret til og med Running Bitcoin for å markere anledningen.
 reviewed: true

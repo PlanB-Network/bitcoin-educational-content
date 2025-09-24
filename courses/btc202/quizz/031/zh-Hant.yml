@@ -1,0 +1,9 @@
+question: Raspberry Pi 特別輕巧，哪個發行版最適合 Raspberry Pi？
+answer: RaspiBlitz
+wrong_answers:
+  - 傘
+  - 我的節點
+  - 開始9
+explanation: |
+  RaspiBlitz 已針對 Raspberry Pi 最佳化，並保持輕量，不像 Umbrel 對這些機器而言已變得太重。
+reviewed: true

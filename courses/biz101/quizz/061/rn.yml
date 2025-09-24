@@ -1,0 +1,9 @@
+question: Ni igiki Essential profile ikoresha mu gufasha abakozi gukora ivyo kwishura kuri PoS?
+answer: Guhingura urutonde rufise ibiciro vy'ibintu kuri porogaramu ya PoS
+wrong_answers:
+  - Igitabo c'amaboko Ledger co kwandika ugurisha
+  - Impapuro Invoice ku bijanye n'ugucuruza kwose
+  - Uburyo bwikora bwo kwandika amafaranga y'ibikorwa biva kuri PoS
+explanation: |
+  PoS app iri mu rutonde rw’ibintu vy’ingenzi ituma abakozi bashobora guhitamwo ibintu mu rutonde rwategekanijwe imbere y’igihe, ivyo bikaba bituma uburyo bwo gutanga amafaranga bugenda neza.
+reviewed: false

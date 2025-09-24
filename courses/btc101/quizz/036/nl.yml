@@ -1,12 +1,12 @@
-question: Wat betekent de term fiduciair in de context van valuta?
-answer: Het verwijst naar munteenheden die alleen waardevol zijn vanwege het vertrouwen in de centrale instelling die ze reguleert.
+question: Wat is het historische pad dat instellingen hebben gevolgd bij de introductie van fiatvaluta's?
+answer: Leiders centraliseren goud en introduceren een nieuwe valuta die in waarde gelijk is aan goud, dat vervolgens geleidelijk wordt gedevalueerd.
 wrong_answers:
-  - Het verwijst naar munteenheden die gedekt worden door goud en uitgegeven worden door kleine commerciële banken.
-  - Het verwijst naar valuta die alleen waardevol zijn voor fiduciaire transacties.
-  - Het verwijst naar munteenheden die alleen binnen een specifieke instelling worden gebruikt.
+  - Leiders introduceren een nieuwe munteenheid die gedekt wordt door goud en vervolgens geleidelijk in waarde toeneemt.
+  - Leiders introduceren een nieuwe valuta zonder intrinsieke waarde, die vervolgens geleidelijk in waarde wordt verhoogd.
+  - Leiders introduceren een nieuwe munteenheid die wordt ondersteund door een mandje grondstoffen en vervolgens waardevast wordt gehouden.
 explanation: |
-  Fiduciaire valuta's worden niet gedekt door een fysieke grondstof
-  zoals goud of zilver. Hun waarde komt voort uit het vertrouwen
-  en vertrouwen dat mensen hebben in de instellingen die ze uitgeven
-  uitgeven en reguleren.
+  In het verleden hebben leiders goud gecentraliseerd en een nieuwe
+  een nieuwe valuta geïntroduceerd die in waarde gelijk is aan goud. Deze nieuwe
+  valuta wordt dan geleidelijk gedevalueerd, vaak onder het mom van
+  van het belang van het volk.
 reviewed: true

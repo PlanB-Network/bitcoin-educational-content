@@ -1,13 +1,16 @@
 ---
-name: GrafénOS
+name: GrapheneOS
 
-description: Graphene OS handledning
+description: Ett mobilt operativsystem med fokus på säkerhet och integritet baserat på Android
 ---
 
-> [GrapheneOS] (https://grapheneos.org/) är ett integritets- och säkerhetsfokuserat mobilt operativsystem med Android-appkompatibilitet som utvecklats som ett icke-vinstdrivande projekt med öppen källkod.
+![cover](assets/cover.webp)
+> [GrapheneOS](https://grapheneos.org/) är ett ideellt, öppenkällkodsbaserat mobilt operativsystem som är utformat för att erbjuda en hög nivå av integritet och säkerhet, samtidigt som det förblir fullt kompatibelt med Android-applikationer.
 
 GrapheneOS, som ursprungligen grundades 2014 som "CopperheadOS", är baserat på den traditionella Android-koden (AOSP), men med många förändringar och förbättringar som syftar till att förbättra användarnas integritet och säkerhet. GrapheneOS ger användaren kontroll över sin telefon, inte de stora teknikföretagen.
 
+
+![video](https://youtu.be/VnumtalYLFI)
 
 ### Sommaire:
 
@@ -21,7 +24,7 @@ GrapheneOS, som ursprungligen grundades 2014 som "CopperheadOS", är baserat på
 - Användbar information
 
 
-Guide från https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Denna handledning är en anpassning av det ursprungliga innehållet publicerat av [BitcoinQnA på Bitcoiner.Guide under MIT-licensen](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), som har hela äran för det ursprungliga skrivandet.*
 
 
 ## Varför använda GrapheneOS?
@@ -119,7 +122,7 @@ Låt oss dyka in i det:
 10. När du ser ordet "Starta", bekräfta detta med strömbrytaren och enheten startar upp i ditt nya Google-fria operativsystem.
 
 
-![image](assets/2.webp)
+![image](assets/fr/2.webp)
 
 GrapheneOS startskärm
 
@@ -147,7 +150,7 @@ Om dessa enkla steg verkar vara ett steg för långt, kan du överväga att köp
 Nu när du har ställt in kanske du märker hur nakna ben GrapheneOS verkar vid första installationen. Som standard kommer du att ha dessa appar installerade:
 
 
-![image](assets/3.webp)
+![image](assets/fr/3.webp)
 
 
 Standardappar
@@ -196,7 +199,7 @@ Gå till **Inställningar** > **Batteri** och aktivera sedan **Visa batteriproce
 När du har VCF-filen kan du överföra den till din GrapheneOS-enhet med ett externt lagringsalternativ som microSD-kort eller USB-enhet. Om du inte har något av dessa till hands kan du välja att dela via en av de många appar som listas nedan.
 
 
-![image](assets/4.webp)
+![image](assets/fr/4.webp)
 
 
 Personlig startskärm
@@ -224,11 +227,13 @@ För att installera F-Droid går du bara till deras webbplats via en webbläsare
 Förutom applikationer som finns i standardförvaret i F-Droid, kommer många Open Source-projekt också att vara värd för sitt eget arkiv som kan läggas till i F-Droid-appinställningarna. Om så är fallet kommer projektet i fråga att leda dig genom de mycket enkla steg som krävs för att uppnå detta på deras webbplats.
 
 
-![image](assets/5.webp)
+![image](assets/fr/5.webp)
 
 
 F-Droid startskärm
 
+
+https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 ### Aurora butik
 
@@ -252,11 +257,13 @@ Aurora har också några potentiella attackvektorer, eftersom de "anonyma konton
 
 
 
-![image](assets/6.webp)
+![image](assets/fr/6.webp)
 
 
 Aurora Store startskärm
 
+
+https://planb.network/tutorials/computer-security/data/aurora-store-b3345da7-1ed1-407e-a9ae-a1c7f0ba9967
 
 ### APK-nedladdning
 
@@ -267,7 +274,7 @@ Appar på Android kan också laddas ner och installeras via en `.apk`-fil. Det h
 Nackdelen med detta tillvägagångssätt är att du inte får automatiska uppdateringar, så du måste övervaka den tjänstens kommunikationskanaler för att lära dig om nya utgåvor. Det finns dock ett fantastiskt projekt som heter Obtanium som syftar till att åtgärda detta. [Obtainium](https://github.com/ImranR98/Obtainium) låter dig installera och uppdatera Open-Source-appar direkt från deras release-sidor och få meddelanden när nya releaser görs tillgängliga.
 
 
-![image](assets/7.webp)
+![image](assets/fr/7.webp)
 
 
 Obtanium förhandsgranskning
@@ -285,7 +292,7 @@ För att göra detta i Vanadium, GrapheneOS inbyggda webbläsare, navigerar du h
 Den enda nackdelen med detta tillvägagångssätt är att eftersom detta bara är en bokmärkt webbsida får du inte någon form av meddelanden. Även om vissa kanske ser det som positivt!
 
 
-![image](assets/8.webp)
+![image](assets/fr/8.webp)
 
 
 Twitter PWA
@@ -306,14 +313,15 @@ För tillfällen när du behöver komma åt Tor native `.onion`-webbplatser kan 
 För att skydda din onlineaktivitet från din snokande internetleverantör (ISP) är en VPN-app (Virtual Private Network) ett bra alternativ. Ett VPN skickar din internettrafik i en krypterad tunnel till en delad IP Address som kontrolleras av VPN-tjänsteleverantören för att säkerställa att din enhetsaktivitet inte kan kopplas till dig.
 
 
-Följande är 3 väl respekterade alternativ som gör att du kan betala för tjänsten i Bitcoin och utan att tillhandahålla någon personlig information. Alla 3 alternativen är tillgängliga via F-Droid.
+Här är två erkända alternativ som gör det möjligt att betala för tjänsten med Bitcoin utan att lämna någon personlig information. Båda finns tillgängliga på F-Droid.
 
 
 
-- [Mullvad] (https://f-droid.org/packages/net.mullvad.mullvadvpn/)
-- [Proton] (https://f-droid.org/en/packages/ch.protonvpn.android/)
-- [iVPN](https://f-droid.org/en/packages/net.ivpn.client/)
 
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### Meddelanden
 
@@ -331,10 +339,20 @@ De flesta människor som inte har något intresse för integritetsutrymmet komme
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) är en inofficiell FOSS Fork av den officiella Telegram-appen för Android. Telegram har E2EE "hemliga chattar", men standardalternativet är inte privat. Telegram FOSS kan laddas ner från F-Droid.
 
 
-![image](assets/9.webp)
+![image](assets/fr/9.webp)
 
 Vänster: Threema, höger: Simplex
 
+
+https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+
+https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+
+https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+
+https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 ### Media
 
@@ -346,7 +364,7 @@ Vänster: Threema, höger: Simplex
 - [AntennaPod] (https://f-droid.org/packages/de.danoeh.antennapod/) är en podcastspelare som låter dig prenumerera på och hantera alla dina favoritprogram. AntennaPod är tillgänglig via F-Droid.
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Till vänster: Spotube, till höger: ViMusic
 
@@ -363,7 +381,7 @@ Om du vill ha röstassistans när du kör och använder en kartapp i GrapheneOS 
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) är ett annat bra kartalternativ som stöder alla funktioner som nämns ovan.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Till vänster: Magic Earth, till höger: Organiska kartor
 
@@ -377,7 +395,7 @@ Till vänster: Magic Earth, till höger: Organiska kartor
 - [K-9 Mail] (https://f-droid.org/en/packages/com.fsck.k9/) är en e-postklient med öppen källkod som fungerar med i princip alla e-postleverantörer. Den stöder flera konton, en enhetlig inkorg och OpenPGP-krypteringsstandarden.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Till vänster: Proton Mail, till höger: Tutanota
 
@@ -394,7 +412,7 @@ Till vänster: Proton Mail, till höger: Tutanota
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) är standardappen för Googles tangentbord. Enligt min erfarenhet erbjuder den den överlägset bästa skriv- och svepupplevelsen. Om du laddar ner den här appen, se till att du helt inaktiverar alla nätverksrelaterade behörigheter. Den kan laddas ner via Aurora.
 
 
-![image](assets/17.webp)
+![image](assets/fr/17.webp)
 
 Till vänster: Notesnook, till höger: KDE Connect
 
@@ -409,7 +427,7 @@ Till vänster: Notesnook, till höger: KDE Connect
 - [PassAndroid] (https://f-droid.org/en/packages/org.ligi.passandroid/) är en app för visning och lagring av boardingkort, kuponger, biobiljetter och medlemskort etc. Ladda bara ner den relevanta filen "pkpass" eller "espass" och öppna den med appen. PassAndroid är tillgängligt via F-Droid.
 
 
-![image](assets/19.webp)
+![image](assets/fr/19.webp)
 
 Till vänster: Geometriskt väder, till höger: Protonkalender
 
@@ -425,10 +443,19 @@ Till vänster: Geometriskt väder, till höger: Protonkalender
 - [Cryptomator] (https://f-droid.org/en/packages/org.cryptomator.lite/) är en betald, plattformsoberoende tjänst som krypterar dina data lokalt så att du säkert kan ladda upp dem till din favoritmolntjänst. Cryptomator kan laddas ner via F-Droid.
 
 
-![image](assets/21.webp)
+![image](assets/fr/21.webp)
 
-Till vänster: Proton Pass, till höger: Bitwarden
+Till vänster: Proton Pass,
+till höger: Bitwarden
 
+
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+
+https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 ### Molnlösningar
 
@@ -440,10 +467,12 @@ Till vänster: Proton Pass, till höger: Bitwarden
 - [Cryptpad] (https://cryptpad.fr/) erbjuder ett gratis, webbaserat, E2EE-alternativ till Google Docs.
 
 
-![image](assets/23.webp)
+![image](assets/fr/23.webp)
 
 Proton Drive
 
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 ## Nackdelarna
 
@@ -455,10 +484,10 @@ Men när du går över till GrapheneOS finns det vissa bekvämligheter som du m�
 
 
 
-- Apple CarPlay/Android Auto** - Du kommer att behöva hålla dig till gammal hederlig Bluetooth, USB eller Aux.
-- Apple/Google Pay** - I stort sett alla bär med sig sin Wallet i alla fall!
-- Bankappar** - Det är inte så att de inte fungerar alls. Vissa gör det, perfekt faktiskt. Andra fungerar bara med Google Play Services aktiverat (läs mer om det nedan) och andra fungerar helt enkelt inte alls. Läs rapporten om din bank [här](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) för att se hur läget ser ut just nu. Oroa dig inte om din bank finns med på listan över banker som inte fungerar, kom ihåg att du bara kan spara webbadressen som en webbapp på din startskärm.
-- Push Notifications** - De flesta applikationer som skickar dig uppdateringar när du inte använder en specifik app gör det via Google Play Services. Dessa installeras inte som standard med GrapheneOS, så om du upptäcker att du inte meddelas omedelbart när din vän skickar ett e-postmeddelande till dig, är det troligtvis därför. Den goda nyheten är att några av de appar som nämns ovan har implementerat sin egen bakgrundsanslutning för att regelbundet söka efter uppdateringar och sedan ge dig ett meddelande där så krävs
+- **Apple CarPlay/Android Auto** - Du kommer att behöva hålla dig till gammal hederlig Bluetooth, USB eller Aux.
+- **Apple/Google Pay** - I stort sett alla bär med sig sin Wallet i alla fall!
+- **Bankappar** - Det är inte så att de inte fungerar alls. Vissa gör det, perfekt faktiskt. Andra fungerar bara med Google Play Services aktiverat (läs mer om det nedan) och andra fungerar helt enkelt inte alls. Läs rapporten om din bank [här](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) för att se hur läget ser ut just nu. Oroa dig inte om din bank finns med på listan över banker som inte fungerar, kom ihåg att du bara kan spara webbadressen som en webbapp på din startskärm.
+- **Push Notifications** - De flesta applikationer som skickar dig uppdateringar när du inte använder en specifik app gör det via Google Play Services. Dessa installeras inte som standard med GrapheneOS, så om du upptäcker att du inte meddelas omedelbart när din vän skickar ett e-postmeddelande till dig, är det troligtvis därför. Den goda nyheten är att några av de appar som nämns ovan har implementerat sin egen bakgrundsanslutning för att regelbundet söka efter uppdateringar och sedan ge dig ett meddelande där så krävs
 
 
 ### Sandlåda för Google Play
@@ -476,7 +505,7 @@ Innan du skyndar dig att installera dessa på dag 1, uppmanar jag dig att se hur
 Om du vill installera dem trycker du helt enkelt på den förinstallerade applikationen "Appar" följt av "Google Play Services". Överväg att installera dem tillsammans med de mindre privata appar som du inte kan leva utan, i en helt separat användarprofil för att ge den extra Layer av segregering från resten av din telefon.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Installationsskärm för Play Services
 
@@ -495,7 +524,7 @@ Du kan läsa mer om detta användningsfall [här] (https://discuss.grapheneos.or
 Om du bestämmer dig för att lägga till en separat profil för att passa ditt användningsfall kan appen [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) vara användbar för dig. Med Insular kan du enkelt klona någon av dina befintliga appar till den nya profilen utan att behöva gå via någon av de traditionella installationsvägarna som beskrivs tidigare i den här guiden. Med Insular kan du också snabbt "frysa" någon av dessa appar för att helt inaktivera alla appens bakgrundstjänster från att köras.
 
 
-![image](assets/24.webp)
+![image](assets/fr/24.webp)
 
 Skärmen för hantering av användarprofiler
 
@@ -533,7 +562,7 @@ Så här skapar du din första säkerhetskopia:
 4. Tryck på de tre prickarna längst upp till höger och välj **Säkerhetskopiera nu**.
 
 
-![image](assets/26.webp)
+![image](assets/fr/26.webp)
 
 
 Skärm för säkerhetskopiering
@@ -576,4 +605,4 @@ GrapheneOS är ett kaninhål som vem som helst lätt kan spendera veckor på att
 - [GrapheneOS General Podcast] (https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast av "Watchman Privacy
 
 
-full kredit till: https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md
+*Denna handledning är en anpassning av det ursprungliga innehållet publicerat av [BitcoinQnA på Bitcoiner.Guide under MIT-licensen](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), som har hela äran för det ursprungliga skrivandet.*

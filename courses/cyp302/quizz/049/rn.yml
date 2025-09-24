@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bw’umugwi buhambaye cane ku bijanye n’ubuhinga bwo gukingira urufunguzo rwa bose kubera ubushobozi bwabwo bwo gukora generate Elements zose biciye mu gutera imbere?
+answer: Imigwi y'ingendo
+wrong_answers:
+  - Imigwi itari iya abeli
+  - Imigwi idahera
+  - Imigwi y'imibare igoranye
+explanation: |
+  Mu bijanye n’ubuhinga bwo gupfuka amakuru, imigwi y’inzinguzingu ni ngirakamaro kuko yemerera guhingura Elements zose z’uwo mugwi hakoreshejwe ugutera imbere kw’ikintu kimwe, citwa generateur.
+reviewed: false

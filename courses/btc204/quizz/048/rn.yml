@@ -1,0 +1,10 @@
+question: OP_RETURN mu gucuruza Bitcoin ni iki?
+answer: Opcode igaragaza ko igisohoka kitari co kandi yemerera kubika amakuru.
+wrong_answers:
+  - Opcode igenzura ukuri kw’umukono mu gucuruza Bitcoin.
+  - Opcode irimwo uruja n'uruza rw'idosiye ibitswe kuri IPFS.
+  - Itegeko rikuraho ibikorwa vyo gukoresha muri Bitcoin Blockchain.
+explanation: |
+  OP_RETURN ni opcode yerekana inyandiko idakora, igatuma igisohoka kirimwo kigaragara ko kidashobora gukoreshwa. Gutyo, ama node y’urubuga arashobora gukuraho iyo nkuru mu gice cabo ca UTXO. OP_RETURN ikoreshwa kenshi mu kwandika amakuru atari yo muri Blockchain.
+  
+reviewed: false

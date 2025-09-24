@@ -424,8 +424,8 @@ Mojawapo ya sababu kubwa za watu kunaswa ni kutumia manenosiri dhaifu. Idadi kub
 Kidhibiti cha nenosiri hukuruhusu:
 
 
-- Hifadhi manenosiri yako yote kwa usalama** katika chumba kilichosimbwa kwa njia fiche
-- Manenosiri marefu, changamano na ya kipekee ya generate** kiotomatiki kwa kila akaunti
+- **Hifadhi manenosiri yako yote kwa usalama** katika chumba kilichosimbwa kwa njia fiche
+- Manenosiri marefu, changamano na ya kipekee ya **generate** kiotomatiki kwa kila akaunti
 - Tumia nenosiri kuu moja tu **, ili kufikia kila kitu kwa usalama
 
 
@@ -517,7 +517,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 
 
-- Kusimba kwa njia fiche** faili zako kwa zana kama vile Bitlocker (ya Windows) au VeraCrypt (inapatikana kwenye majukwaa mengi).
+- **Kusimba kwa njia fiche** faili zako kwa zana kama vile Bitlocker (ya Windows) au VeraCrypt (inapatikana kwenye majukwaa mengi).
 
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
@@ -569,9 +569,9 @@ Hapa kuna mambo muhimu ambayo tutapitia pamoja:
 - Wekeza tu **fedha unazoweza kumudu kupoteza**;
 - Jua tofauti kati ya **biashara** na **kuwekeza**;
 - Jihadharini na **madhara ya kodi** ya uwekezaji wako;
-- Linda neno lako la uokoaji ** kwa uangalifu;
+- Linda neno lako la uokoaji **kwa uangalifu**;
 - Endelea kuwa mnyenyekevu na usiwe na **maelezo mafupi**(hiari ni sehemu ya usalama);
-- Fikiri kwa muda mrefu**, zoom nje na uwe mvumilivu (fikiria kama mbio za marathon, si mbio mbio).
+- Fikiri kwa muda mrefu, zoom nje na uwe mvumilivu (fikiria kama mbio za marathon, si mbio mbio).
 
 
 ![BTC102-Bitcoin](assets/fr/017.webp)
@@ -2106,7 +2106,7 @@ Kununua Bitcoin bila kufichua utambulisho wako ni chaguo kwa wale wanaotanguliza
 - **P2P Platforms**: Mifumo kama vile Bisq, RoboSats na Peach huwezesha ubadilishanaji kati ya watu binafsi bila hitaji la uthibitishaji wa utambulisho, kwa kutumia mifumo ya escrow kupata miamala. Mitandao hii bado ina hatari ya wizi ikiwa mhusika mwingine hatatoa ushirikiano, lakini hatari hiyo hupunguzwa na huduma za escrow.
 - **Mashine Zinazojiendesha za Bitcoin (ATM)**: Baadhi ya ATM (vioski) hukuruhusu kununua Bitcoin kwa pesa taslimu, ingawa ada huwa kubwa, na zingine zinahitaji uthibitishaji wa kitambulisho kwa miamala mikubwa.
 - **Mifumo ya Exchange isiyo na KYC**: Baadhi ya mifumo, hasa nchini Uswisi, inakuwezesha kununua kiasi kidogo cha Bitcoin bila kuhitaji uthibitishaji wa kitambulisho.
-- **Mining**: Watu binafsi wanaweza kuchimba Bitcoin. Mashine za zamani au ndogo zinaweza kufikiwa, na kutoa njia isiyo ya kawaida ya kupata Bitcoin bila KYC. Kwa kujiunga na Mining pool, unaweza kupata malipo ya kawaida, hata kwa vifaa vya msingi. Kwa maelezo zaidi, [angalia mafunzo yetu ya Mining](https://planb.network/tutorials/Mining).
+- **Mining**: Watu binafsi wanaweza kuchimba Bitcoin. Mashine za zamani au ndogo zinaweza kufikiwa, na kutoa njia isiyo ya kawaida ya kupata Bitcoin bila KYC. Kwa kujiunga na Mining pool, unaweza kupata malipo ya kawaida, hata kwa vifaa vya msingi. Kwa maelezo zaidi, [angalia mafunzo yetu ya Mining](https://planb.network/tutorials/mining).
 - **Malipo / Mshahara katika bitcoins**: Ikiwa unafanya biashara, unaweza kukubali Bitcoin kama malipo. Ikiwa umeajiriwa, kulingana na eneo la mamlaka lako, unaweza kuomba ulipwe katika Bitcoin. Njia hizi hukuruhusu kupata Bitcoin bila KYC.
 
 
@@ -2433,7 +2433,7 @@ Faida za stacking:
 - **Mkakati wa Muda Mrefu**: Uwekezaji wa hatua kwa hatua huongeza nafasi za kufaidika na masoko ya fahali huku ukipunguza hatari wakati wa kushuka.
 
 
-**Njia hii ni hasa ** inafaa kwa Kompyuta **; huondoa shinikizo la kuweka muda kwenye soko na huruhusu mkusanyiko thabiti, wa kutotumia mikono.
+**Njia hii ni hasa** inafaa kwa Kompyuta; huondoa shinikizo la kuweka muda kwenye soko na huruhusu mkusanyiko thabiti, wa kutotumia mikono.
 
 
 ### Mpango wa Uwekezaji wa Stacker
@@ -2454,7 +2454,7 @@ Staka inahitaji usanidi wa Wallet unaosawazisha urahisi wa kutumia na usalama wa
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
@@ -2689,7 +2689,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-wallet-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
@@ -3054,7 +3054,7 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiin-mini-miner-b4c5cb2c-e7ee-4521-a750-edefb0747db3
+https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
 https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 

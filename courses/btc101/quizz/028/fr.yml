@@ -1,13 +1,9 @@
-question: Quel est le chemin d'évolution de la monnaie actuelle ?
-answer: Pierre brute -> Pièce -> Billet de banque -> Carte bancaire -> Blockchain -> Lightning Network
+question: Quelle est la signification de l'argent fiat ?
+answer: L'argent fiat est une monnaie qui a de la valeur parce qu'un gouvernement la maintient et que les gens ont confiance en sa valeur, plutôt que d'être soutenue par une marchandise physique comme l'or.
 wrong_answers:
-  - Pierre brute -> Pièce -> Billet de banque -> Blockchain -> Lightning Network
-  - Pierre brute -> Pièce -> Billet de banque -> Carte bancaire -> Lightning Network
-  - Pierre brute -> Pièce -> Carte bancaire -> Billet de banque -> Blockchain -> Lightning Network
+  - L'argent fiat est une monnaie qui est soutenue par une marchandise physique, telle que l'or ou l'argent, ce qui signifie que sa valeur est directement liée à la valeur de cette marchandise.
+  - L'argent fiat est un type de cryptomonnaie qui fonctionne sur un réseau décentralisé, permettant des transactions de pair-à-pair sans nécessité d'une autorité centrale.
+  - L'argent fiat est une monnaie qui n'a pas de valeur intrinsèque et ne peut pas être utilisée pour des transactions, la rendant essentiellement sans valeur dans l'économie.
 explanation: |
-  La monnaie est une technologie qui a évolué avec le temps,
-  commençant par être représentée par des pierres brutes, se transformant
-  en pièces métalliques, puis en billets de banque, cartes bancaires, et
-  finalement en réseaux pair-à-pair avec l'utilisation de la
-  blockchain Bitcoin et du Lightning Network.
+  L'argent fiat est établi comme monnaie légale par décret gouvernemental, et sa valeur n'est pas dérivée d'une marchandise physique.
 reviewed: true

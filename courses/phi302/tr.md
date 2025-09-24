@@ -154,7 +154,7 @@ Eğer başarılı olurlarsa, sistemin eskisi kadar sansürlenebilir olduğu göz
 Bu seçeneklerin hiçbiri kullanıcı için faydalı değildir.
 
 
-Bitcoin'yı diğer para sistemlerinden ayıran şey merkezsizleştirme yoluyla sansüre karşı dirençtir, ancak *Double-spending sorunu* nedeniyle bunu başarmak kolay bir şey değildir. Bu, hiç kimsenin aynı Coin'i iki kez harcayamayacağından emin olma sorunudur ve birçok insanın merkezi olmayan bir şekilde çözmenin imkansız olduğunu düşündüğü bir sorundur. Satoshi Nakamoto [Bitcoin whitepaper]'ında (https://planb.network/Bitcoin.pdf) Double-spending sorununun nasıl çözüleceğini yazmıştır:
+Bitcoin'yı diğer para sistemlerinden ayıran şey merkezsizleştirme yoluyla sansüre karşı dirençtir, ancak *Double-spending sorunu* nedeniyle bunu başarmak kolay bir şey değildir. Bu, hiç kimsenin aynı Coin'i iki kez harcayamayacağından emin olma sorunudur ve birçok insanın merkezi olmayan bir şekilde çözmenin imkansız olduğunu düşündüğü bir sorundur. Satoshi Nakamoto [Bitcoin whitepaper]'ında (https://planb.network/bitcoin.pdf) Double-spending sorununun nasıl çözüleceğini yazmıştır:
 
 
 > Bu makalede, işlemlerin kronolojik sırasının generate hesaplamalı kanıtı için eşler arası dağıtılmış bir Timestamp sunucusu kullanarak Double-spending problemine bir çözüm öneriyoruz.
@@ -992,7 +992,7 @@ Kullanıcı tarafından etkinleştirilen bir Soft Fork'nin riski, Hash gücünü
 
 
 
-Jimmy Song [Hard çatallarıyla ilgili maliyetler hakkında konuştu] (https://btctranscripts.com/breaking-Bitcoin/2017/socialized-costs-of-Hard-forks/) Paris'teki Breaking Bitcoin'de, ancak söylediklerinin çoğu başarısız bir Soft Fork nedeniyle zincirin bölünmesi için de geçerlidir. Negatif dışsallıklardan* bahsetti ve bunları sizin kendi eylemleriniz için başkalarının ödemesi gereken bedel olarak tanımladı:
+Jimmy Song [Hard çatallarıyla ilgili maliyetler hakkında konuştu](https://btctranscripts.com/breaking-bitcoin/2017/socialized-costs-of-Hard-forks/) Paris'teki Breaking Bitcoin'de, ancak söylediklerinin çoğu başarısız bir Soft Fork nedeniyle zincirin bölünmesi için de geçerlidir. **Negatif dışsallıklardan** bahsetti ve bunları sizin kendi eylemleriniz için başkalarının ödemesi gereken bedel olarak tanımladı:
 
 
 > Negatif dışsallığın klasik örneği bir fabrikadır. Belki bir petrol rafinerisi üretiyorlardır ve ekonomi için iyi olan bir mal üretiyorlardır ama aynı zamanda kirlilik gibi negatif dışsallık olan bir şey de üretiyorlardır. Bu sadece herkesin bedelini ödemek, temizlemek ya da acı çekmek zorunda olduğu bir şey değildir. Ama aynı zamanda 2. ve 3. dereceden etkiler de söz konusudur, örneğin fabrikaya gitmesi gereken daha fazla işçi nedeniyle fabrikaya doğru giden daha fazla trafik gibi. Ayrıca çevredeki bazı vahşi yaşamı da tehlikeye atabilirsiniz. Negatif dışsallıkların bedelini herkes ödemek zorunda değil, daha önce o yolu kullanan insanlar ya da o fabrikanın yakınında bulunan hayvanlar gibi belirli insanlar da ödeyebilir ve onlar da o fabrikanın maliyetini ödüyorlar.
@@ -1539,7 +1539,7 @@ senaryo. Alabilecekleri önlemler şunları içerir:
 
 
 
-- Doğrulamasız Mining* olarak da bilinen, gelen bir bloğun doğrulanmasının ertelenmesi. Madenciler sadece blok başlığının Proof-of-Work'ini kontrol edebilir ve bunun üzerine madencilik yapabilir, bu arada bloğun tamamını indirip doğrulayabilirler.
+- Doğrulamasız **Mining** olarak da bilinen, gelen bir bloğun doğrulanmasının ertelenmesi. Madenciler sadece blok başlığının **Proof-of-Work**'ini kontrol edebilir ve bunun üzerine madencilik yapabilir, bu arada bloğun tamamını indirip doğrulayabilirler.
 - Daha yüksek bant genişliğine ve bağlantıya sahip bir Mining pool'e bağlanma.
 
 

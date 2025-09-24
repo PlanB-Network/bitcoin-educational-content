@@ -1,11 +1,13 @@
-question: Koje su tri kanonske funkcije novca?
-answer: Sredstvo očuvanja vrednosti, Sredstvo razmene, Obračunska jedinica.
+question: Zašto zlato ne može dobro da posluje u globalizovanom i digitalnom svetu?
+answer: Zato što mu je potreban centralni entitet da bi bio deljiv i lako zamenljiv.
 wrong_answers:
-  - Sredstvo očuvanja vrednosti, Sredstvo razmene, Sredstvo proizvodnje.
-  - Sredstvo očuvanja vrednosti, Sredstvo proizvodnje, Obračunska jedinica.
-  - Sredstvo razmene, Sredstva za proizvodnju, Obračunska jedinica.
+  - Zato što nije dovoljno vredno.
+  - Zato što nije dovoljno retko.
+  - Jer vremenom erodira.
 explanation: |
-  Prema Aristotelu, novac služi tri funkcije: on je
-  sredstvo očuvanja vrednosti, sredstvo razmene i jedinica
-  računa. Danas se funkcija sredstva razmene široko prepoznaje kao glavna, pre ostale dve.
+  Zlato ne može da održi korak u globalizovanom i digitalnom svetu
+  jer mu je potreban centralni entitet da bi bilo deljivo i
+  lako zamenljivo. To ga čini manje praktičnim za korišćenje u
+  svetu gde su transakcije sve više digitalne i
+  decentralizovane.
 reviewed: true

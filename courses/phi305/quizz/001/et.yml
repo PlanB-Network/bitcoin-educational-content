@@ -1,0 +1,9 @@
+question: Kas Spinoza on filosoof?
+answer: Alates 17. sajandist.
+wrong_answers:
+  - Alates 16. sajandist.
+  - Alates 18. sajandist.
+  - Antiikajast.
+explanation: |
+  Spinoza elas 1632-1677, mis teeb temast 17. sajandi filosoofi. Sel perioodil, mida nimetatakse mõistuse ajastuks, tekkis moodne ratsionalism ja uued teaduslikud lähenemisviisid maailma mõistmiseks.
+reviewed: false

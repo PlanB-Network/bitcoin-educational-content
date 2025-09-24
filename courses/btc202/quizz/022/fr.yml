@@ -1,0 +1,9 @@
+question: Selon la théorie de la percolation, qu’assure le dépassement du seuil critique ?
+answer: La propagation d’une transaction à l’ensemble du réseau
+wrong_answers:
+  - La création immédiate d’un nouveau bloc
+  - La suppression automatique des frais par les nœuds
+  - Le blocage d’une transaction par le réseau
+explanation: |
+  Une fois le seuil de percolation dépassé, une transaction se propage quasi instantanément dans tout le réseau Bitcoin.
+reviewed: false

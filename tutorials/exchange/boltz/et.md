@@ -25,10 +25,10 @@ Bitcoin protokolli kihtide vahel jäi siiski üks suur probleem: sujuv koostalit
 
 
 
-- on chain**: Bitcoin peamine kett, kus tehinguid kinnitatakse keskmiselt iga 10 minuti järel, tehingutasud on sageli kõrged, mis ei pruugi vastata kasutajate vajadustele ;
-- Lightning Network**: Bitcoin pealekandmine madala tasu eest tehtavateks välkmakseteks, mis võimaldab Bitcoin kasutada igapäevasteks makseteks;
-- Liquid Network**: Blockstream'i loodud Bitcoin kattekiht, mis võimaldab kiire, Confidential Transactions ja muude Bitcoin-põhiste finantsinstrumentide kasutamist;
-- RootStock**: Bitcoin protokollil põhinev lahendus arukate lepingute arendamiseks.
+- **on chain**: Bitcoin peamine kett, kus tehinguid kinnitatakse keskmiselt iga 10 minuti järel, tehingutasud on sageli kõrged, mis ei pruugi vastata kasutajate vajadustele ;
+- **Lightning Network**: Bitcoin pealekandmine madala tasu eest tehtavateks välkmakseteks, mis võimaldab Bitcoin kasutada igapäevasteks makseteks;
+- **Liquid Network**: Blockstream'i loodud Bitcoin kattekiht, mis võimaldab kiire, Confidential Transactions ja muude Bitcoin-põhiste finantsinstrumentide kasutamist;
+- **RootStock**: Bitcoin protokollil põhinev lahendus arukate lepingute arendamiseks.
 
 
 
@@ -54,7 +54,7 @@ Sel viisil säilitate oma bitcoinide alalise isevalitsuse ja Exchange ei põhine
 
 
 
-Aatomiline Exchange töötab nutikate lepingutega [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). Seda tüüpi Contract puhul "lukustatakse" summa kahesuunalises kanalis ja kehtestatakse ajaline piirang, nii et kui tehing ei ole teatud aja jooksul lõpule viidud, läheb saldo hoiustajale tagasi. Sellist mehhanismi kasutab Boltzi platvorm.
+Aatomiline Exchange töötab nutikate lepingutega [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Seda tüüpi Contract puhul "lukustatakse" summa kahesuunalises kanalis ja kehtestatakse ajaline piirang, nii et kui tehing ei ole teatud aja jooksul lõpule viidud, läheb saldo hoiustajale tagasi. Sellist mehhanismi kasutab Boltzi platvorm.
 
 
 

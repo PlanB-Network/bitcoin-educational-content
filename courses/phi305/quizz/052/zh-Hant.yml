@@ -1,0 +1,9 @@
+question: Cypherpunk 宣言是誰寫的？
+answer: Eric Hughes.
+wrong_answers:
+  - 提摩西-梅
+  - Satoshi Nakamoto。
+  - Milton Friedman。
+explanation: |
+  Eric Hughes 是 Cypherpunk 宣言 (1993) 的作者。這份開創性的文章為在數位時代使用加密技術保護隱私進行辯護。
+reviewed: false

@@ -75,7 +75,7 @@ Hva gjør Bitcoin unikt? Denne delen avslører de grunnleggende verdiene som lig
 Er du klar til å ta neste steg på din Bitcoin-reise? La oss begynne!
 
 
-***N.B.**: Hvis du støter på ukjente begreper knyttet til Bitcoin i løpet av kurset, kan du finne definisjoner i [ordlisten](https://planb.network/resources/glossary)
+**N.B.**: Hvis du støter på ukjente begreper knyttet til Bitcoin i løpet av kurset, kan du finne definisjoner i [ordlisten](https://planb.network/resources/glossary)
 
 
 

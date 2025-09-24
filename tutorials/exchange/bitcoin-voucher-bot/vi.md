@@ -4,9 +4,9 @@ description: Bot Telegram sẽ mua Bitcoin một cách bí mật
 ---
 ![image](assets/cover.webp)
 
-_Bài hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Giới thiệu
+## Giới thiệu
 
 BitcoinVoucherBot là công cụ có thể mua Bitcoin bằng Exchange với giá euro.
 
@@ -32,7 +32,7 @@ Trong cuộc trò chuyện trên Telegram, chúng tôi chuẩn bị một đơn 
 
 Kích hoạt là một thao tác đơn giản chỉ thực hiện một lần. Từ Telegram, hãy tìm kiếm _@BitcoinVoucherBot_ và ngay khi bạn vào được phần trò chuyện của Bot, một nút _Start/Start_ lớn sẽ nổi bật ở phía dưới. Thao tác này khiến Bot phản hồi, hiển thị menu các lệnh chính mà nó có thể sử dụng. Các tin nhắn chào mừng đầu tiên cũng xuất hiện, chúng tôi khuyên bạn nên đọc kỹ.
 
-**Cảnh báo**: có một số kẻ lừa đảo giả danh VoucherBot gốc. Nếu bạn không chắc chắn về việc tìm kiếm qua Telegram, vui lòng truy cập liên kết BitcoinVoucherBot từ [trang web chính thức](https://www.bitcoinvoucherbot.com/)
+**Cảnh báo**: có một số kẻ lừa đảo giả mạo VoucherBot gốc. Nếu bạn không chắc chắn về việc tìm kiếm qua Telegram, hãy truy cập liên kết BitcoinVoucherBot từ [trang web chính thức](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Các hoạt động chính bao gồm:
 - _/fees_: lệnh để kiểm tra phí mạng. Để đánh giá chúng, tốt nhất là luôn dựa vào Mempool.space.
 - _/support_: trong trường hợp cần thiết, sẽ hiển thị danh bạ để báo cáo sự cố cho nhóm hỗ trợ.
 
-# Thủ tục mua hàng Bitcoin
+## Quy trình mua Bitcoin
 
-## Chuẩn bị đơn hàng
+### Chuẩn bị đơn hàng
 
 Nhấp vào _/purchase_ trong menu lệnh
 
@@ -97,7 +97,7 @@ Nếu mọi thứ đều chính xác, hãy tiếp tục bằng cách nhấp vào
 
 ![image](assets/it/10.webp)
 
-## Sự chi trả
+### Thanh toán
 
 Sau một vài phút, cần xử lý dữ liệu, VoucherBot trả lời bằng tin nhắn chứa tất cả các chi tiết cần thiết để hoàn tất đơn hàng. Tùy thuộc vào yêu cầu của ngân hàng, thông tin liên quan là:
 
@@ -124,7 +124,7 @@ Xin lưu ý:
 - đối với mọi nhu cầu, Bitcoin VoucherBot có dịch vụ [hỗ trợ](https://t.me/BitcoinVoucherGroup) tuyệt vời trên Telegram.
 
 ---
-## Sự cứu chuộc
+### Chuộc lại
 
 Ngay sau khi thanh toán thành công, Bitcoin VoucherBot sẽ gửi voucher trực tiếp vào cuộc trò chuyện. Voucher sét có dạng mã QR, được in trên nền màu cam.
 
@@ -139,7 +139,7 @@ Có đầy đủ dữ liệu cần thiết để quy đổi thành tiền mặt:
 
 Bạn có thể đổi phiếu mua hàng bằng cách quét mã QR bằng chức năng quét của máy Wallet Lightning Network tương thích hoặc thông qua LNURL, cũng hiển thị bên dưới mã QR.
 
-Đối với hướng dẫn này, chúng tôi đã sử dụng Wallet của Satoshi, sử dụng chức năng quét được kích hoạt bởi phím _Send_
+Trong hướng dẫn này, chúng tôi đã sử dụng Wallet Of Satoshi, với chức năng quét được kích hoạt bằng nút _Send_.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Với camera điện thoại di động được kích hoạt, đóng khung mã 
 
 ![image](assets/it/34.webp)
 
-Trước khi tiếp tục, Wallet Của Satoshi từ màn hình xác minh bao gồm số tiền, khớp chính xác với số tiền được thể hiện trên chứng từ và, như mô tả, BitcoinVoucherBot. Để rút tiền từ chứng từ, chỉ cần nhấp vào _Nhận_
+Trước khi tiếp tục, Wallet Of Satoshi hiển thị màn hình xác minh bao gồm số tiền, khớp chính xác với số tiền ghi trên phiếu, và phần mô tả là BitcoinVoucherBot. Để đổi phiếu, chỉ cần nhấp vào _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet Của Satoshi xử lý trong vài phút
+Wallet Of Satoshi xử lý trong giây lát.
 
 ![image](assets/it/36.webp)
 
 và cuối cùng, bộ sưu tập được báo cáo và có sẵn ngay trong bảng cân đối Wallet.
 
-**Wallet trong số Satoshi là ứng dụng lưu ký: ngay sau khi đổi phiếu mua hàng, bạn nên chuyển Sats sang ứng dụng không lưu ký Wallet.**
+**Wallet of Satoshi là một ứng dụng lưu ký: ngay sau khi đổi voucher, nên chuyển sats sang một ví không lưu ký.**
 
 ![image](assets/it/37.webp)
 

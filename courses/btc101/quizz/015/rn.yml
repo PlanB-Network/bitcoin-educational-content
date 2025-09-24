@@ -1,0 +1,13 @@
+question: Ni kuki inzahabu yacitse igikoresho gisanzwe co gukoresha Exchange?
+answer: Kubera ukuntu ari gake, ukuramba, n’ukuntu bishobora kugabanywa.
+wrong_answers:
+  - Kubera ubwinshi bwayo, ukuramba kwayo, n’ukudashobora kugabanywa.
+  - Kubera ko ari gake, ko yononekara, kandi ko igabanywa.
+  - Kubera ubwinshi bwayo, ukubora kwayo, n’ukudashobora kugabanywa.
+explanation: |
+  Inzahabu yacitse igikoresho gisanzwe ca Exchange kubera .
+  ubuke, uburamba, n’ugucapura: ubuke bwavyo bwabujijwe
+  ugucika kw’agaciro bitewe n’uguhingura; uburambe bwayo
+  yarabonye ko itazosenyuka uko igihe kigenda kirarenga, be n’uko yoshobora kugabanywa .
+  yemerewe gukoreshwa mu bikorwa vy’ubudandaji vy’ubunini butandukanye.
+reviewed: true

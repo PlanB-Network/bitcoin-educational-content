@@ -62,7 +62,7 @@ Saya sarankan agar Anda menyimpan kode pemulihan Anda. Untuk membuatnya, klik "*
 
 ![BULL](assets/fr/11.webp)
 
-Pilih "*Generate new backup recovery codes (Buat kode pemulihan cadangan baru)" dan simpan kode ini di tempat yang aman.
+Pilih "**Generate new backup recovery codes (Buat kode pemulihan cadangan baru)**" dan simpan kode ini di tempat yang aman.
 
 ![BULL](assets/fr/12.webp)
 

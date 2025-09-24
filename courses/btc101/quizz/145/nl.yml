@@ -1,11 +1,8 @@
-question: Waar ging de blokkenoorlog in 2017 over?
-answer: Een conflict over het al dan niet vergroten van de blokgrootte om de transactiecapaciteit uit te breiden.
+question: Wat is de Hashrate?
+answer: Het aantal Hash berekeningen dat een Mining apparaat per seconde kan uitvoeren om de Proof of Work op te lossen.
 wrong_answers:
-  - Een conflict over het al dan niet verkleinen van de blokgrootte om de transactiecapaciteit te verminderen.
-  - Een conflict over het al dan niet verhogen van de Block reward om mijnwerkers te stimuleren.
-  - Een conflict over de vraag of de Block reward verlaagd moet worden om mijnwerkers te ontmoedigen.
-explanation: |
-  De blokoorlog in 2017 was een conflict over de vraag of we
-  gW-2 aan te passen door de blokgrootte te vergroten om de
-  transactiecapaciteit.
+  - De snelheid waarmee een Mining apparaat de Proof of Work kan oplossen.
+  - Het totale aantal mijnwerkers in het Bitcoin netwerk.
+  - Het totale aantal bitcoins dat is gemined door een bepaald aantal pogingen per seconde uit te voeren om de Proof of Work op te lossen.
+explanation: >-
 reviewed: true

@@ -1,9 +1,11 @@
-question: Hoeveel procent van de tijd is het Bitcoin netwerk functioneel geweest sinds de oprichting?
-answer: 99.988%.
+question: Wat hoef je niet op te nemen in een successieplan?
+answer: De naam van de Bitcoin Wallet die je gewoonlijk gebruikt.
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
+  - Een handgeschreven brief met een lijst van je bezittingen.
+  - Een beschrijving van hoe je toegang krijgt tot je fondsen.
+  - De contactgegevens van vertrouwde personen.
 explanation: |
-  De online beschikbaarheid van Bitcoin is 99,988% sinds 2009.
+  het opstellen van een nalatenschapsplan is een cruciale stap om ervoor te zorgen dat je bitcoins goed worden beheerd na je dood.
+  Dit plan kan bestaan uit een handgeschreven brief met een lijst van uw bezittingen,
+  de toegangsmethoden en de contactgegevens van vertrouwde personen met wie contact moet worden opgenomen
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni ubuhe bunini busanzwe bw’imibare y’intango ikoreshwa mu gucapura ku bikoresho vy’ubuhinga bwa none nka RSA?
+answer: 1024 ibice kuri buri kintu
+wrong_answers:
+  - 1024 ibice vyose hamwe
+  - 256 ibice kuri buri kintu
+  - 256 muri rusangi
+explanation: |
+  Mu bikoresho vya none nka RSA, imibare y’intango yatowe ni 1024 bits kuri imwe yose, bituma gucapura bigorana cane kandi bikongera umutekano.
+reviewed: false

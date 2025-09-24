@@ -1,6 +1,6 @@
 ---
-name: Elektrum Hava Boşluğu
-description: Güvenliğe doğru ilk adım, Electrum'lu bir Cold Wallet
+name: Electrum Airgap
+description: Güvenliğe doğru ilk adım, Electrum ile bir cold wallet
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ Electrum'u indirmek için bu eğitimdeki ilk adımları izlemenizi tavsiye ederi
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 İndirdikten sonra, yüklemeden önce sürümü her zaman doğrulayın, ardından yardım bölümünde `Kukla Wallet ile Başlayın` altında bulacağınız gibi "Tek Sunucu" yapılandırmasına geçin.
 

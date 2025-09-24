@@ -1,0 +1,9 @@
+question: Bitcoinのホームノードに最適な妥協点として、どのようなタイプのマシンが提示されるのか？
+answer: NUCタイプのミニPC
+wrong_answers:
+  - ノートパソコン
+  - スーパーコンピューター
+  - ゲーム機
+explanation: |
+  ミニPC（NUC、Tiny、OptiPlex Micro...）は消費電力が低く、信頼性が高く、適応しやすいため、理想的な妥協の産物だ。
+reviewed: true

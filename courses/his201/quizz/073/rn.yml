@@ -1,0 +1,9 @@
+question: Ni ikihe kigo c’ubutasi ca Leta Zunze Ubumwe za Amerika catumiye Gavin Andresen muri Ndamukiza 2011 kugira ngo ashikirize Bitcoin haciye amezi makeyi?
+answer: CIA
+wrong_answers:
+  - FBI
+  - NSA
+  - Ishirahamwe DEA
+explanation: |
+  Mu buryo butomoye, ni In-Q-Tel, ikigega c’abanyamerika gicungera amafaranga y’ubudandaji gicungiwe na CIA, ariko urwo rugendo rwabereye ku cicaro gikuru ca CIA.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Grün
+name: Jade Plus - Green
 description: Einfaches Konfigurieren von Jade Plus mit Green
 ---
 ![cover](assets/cover.webp)
@@ -101,7 +101,7 @@ Klicken Sie auf die Schaltfläche "*Fortfahren*", um Ihre neue Wiederherstellung
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Ihr Jade Plus zeigt Ihre 12-Wort-Merkhilfe an. **Mit diesem Merksatz haben Sie uneingeschränkten Zugriff auf alle Ihre Bitcoins. Jeder, der im Besitz dieser Phrase ist, kann Ihr Geld stehlen, auch ohne physischen Zugang zu Ihrem Jade Plus. Die 12-Wort-Phrase stellt den Zugang zu Ihren Bitcoins im Falle von Verlust, Diebstahl oder Bruch Ihrer Jade wieder her. Es ist daher sehr wichtig, dass Sie sie sorgfältig aufbewahren und an einem sicheren Ort aufbewahren.
+Ihr Jade Plus zeigt Ihre 12-Wort-Merkhilfe an. **Mit diesem Merksatz haben Sie uneingeschränkten Zugriff auf alle Ihre Bitcoins. Jeder, der im Besitz dieser Phrase ist, kann Ihr Geld stehlen, auch ohne physischen Zugang zu Ihrem Jade Plus. Die 12-Wort-Phrase stellt den Zugang zu Ihren Bitcoins im Falle von Verlust, Diebstahl oder Bruch Ihrer Jade wieder her. Es ist daher sehr wichtig, dass Sie sie sorgfältig aufbewahren und an einem sicheren Ort aufbewahren.**
 
 Sie können die Gravur auf dem mitgelieferten Karton anbringen. Für zusätzliche Sicherheit empfehle ich, die Gravur auf einem Edelstahlsockel anzubringen, um sie vor Feuer, Überschwemmung oder Einsturz zu schützen.
 
@@ -111,7 +111,7 @@ Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemot
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht
+**Natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht**
 
 Klicken Sie auf den Pfeil auf der rechten Seite des Bildschirms, um die folgenden Wörter anzuzeigen.
 
@@ -300,4 +300,5 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie den Jade Plus mit der mobilen
 Um einen Schritt weiter zu gehen, empfehle ich dieses Tutorial über den Jade Plus, in dem wir ihn mit der Sparrow Wallet-Software im QR-Modus konfigurieren. Sie erfahren auch, wie Sie die erweiterten Einstellungen Ihrer Hardware-Wallet nutzen können:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

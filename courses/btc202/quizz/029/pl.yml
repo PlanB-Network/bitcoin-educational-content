@@ -1,0 +1,9 @@
+question: Jaka jest główna cecha Full node?
+answer: Pobiera i sprawdza poprawność całego Blockchain
+wrong_answers:
+  - Zachowuje tylko nagłówki bloków
+  - Usuwa stare bloki po weryfikacji
+  - Weryfikacja transakcji zależy od innego węzła
+explanation: |
+  Full node zachowuje cały Blockchain i weryfikuje każdy blok i transakcję niezależnie.
+reviewed: true

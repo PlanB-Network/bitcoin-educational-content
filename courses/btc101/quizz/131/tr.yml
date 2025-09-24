@@ -1,12 +1,8 @@
-question: Bitcoin ağında bir Bitcoin düğümünün rolü nedir?
-answer: Yeni blokları ve dahil edilen işlemleri doğrular.
+question: Bitcoin ağındaki düğümlerin birincil işlevi nedir?
+answer: Bitcoin Blockchain'in bir kopyasını muhafaza etmek, işlemleri doğrulamak, diğer düğümlere bilgi iletmek ve Bitcoin protokolünün kurallarını uygulamak.
 wrong_answers:
-  - Yeni Bitcoinler yaratır ve bunları bloklara yerleştirir.
-  - Bitcoin'in fiyatını düzenler.
-  - Bitcoin ağını yönetir.
-explanation: |
-  Bitcoin ağındaki bir Bitcoin düğümü şu işlemleri gerçekleştirir
-  yeni blokların ve dahil edilen işlemlerin doğrulanması. Bu
-  gW-3 düğümlerinden oluşan bu ağ, onu gerçekten
-  merkezi olmayan.
+  - Bitcoin Blockchain'ün bir kopyasını muhafaza etmek, işlemleri doğrulamak, bilgileri devlete iletmek ve Bitcoin protokolünün kurallarını değiştirmek.
+  - Sadece Bitcoin Blockchain'in bir kopyasını muhafaza edin.
+  - Sadece diğer düğümlere bilgi iletir.
+explanation: >-
 reviewed: true

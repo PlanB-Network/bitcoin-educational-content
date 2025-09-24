@@ -1,5 +1,5 @@
 ---
-name: Ứng dụng Blockstream - Onchain
+name: Blockstream App - Onchain
 description: Thiết lập ứng dụng Blockstream trên thiết bị di động và quản lý các giao dịch trên chuỗi
 ---
 ![cover](assets/cover.webp)
@@ -30,8 +30,8 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Người mới bắt đầu**: Người dùng muốn quản lý bitcoin của mình bằng ứng dụng di động trực quan.
-- Người dùng trung cấp**: Những người muốn tìm hiểu về các chức năng trên chuỗi và các tùy chọn quyền riêng tư như Tor hoặc SPV.
+- **Người mới bắt đầu**: Người dùng muốn quản lý bitcoin của mình bằng ứng dụng di động trực quan.
+- **Người dùng trung cấp**: Những người muốn tìm hiểu về các chức năng trên chuỗi và các tùy chọn quyền riêng tư như Tor hoặc SPV.
 
 
 
@@ -41,14 +41,14 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet di động**, **Software Wallet**: tất cả tên gọi của một ứng dụng được cài đặt trên điện thoại thông minh, máy tính hoặc bất kỳ thiết bị nào được kết nối Internet, cho phép quản lý và bảo mật khóa riêng từ Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet di động**, **Software Wallet**: tất cả tên gọi của một ứng dụng được cài đặt trên điện thoại thông minh, máy tính hoặc bất kỳ thiết bị nào được kết nối Internet, cho phép quản lý và bảo mật khóa riêng từ Bitcoin Wallet.
 - Không giống như **ví phần cứng**, còn được gọi là **ví Cold**, nơi cô lập khóa ngoại tuyến, ví phần mềm hoạt động trong môi trường được kết nối, khiến chúng dễ bị tấn công mạng hơn.
 
 
 
 
 
-- Sử dụng được khuyến nghị**:
+- Sử dụng được khuyến nghị:
     - Thích hợp để quản lý lượng Bitcoin vừa phải, đặc biệt là cho các giao dịch hàng ngày.
     - Phù hợp cho người mới bắt đầu hoặc người dùng có tài sản hạn chế, đối với họ, Hardware Wallet có vẻ không cần thiết.
 
@@ -56,7 +56,7 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Hạn chế**: Ít an toàn hơn khi lưu trữ số tiền lớn hoặc tiết kiệm dài hạn. Trong trường hợp này, hãy chọn Hardware Wallet.
+- **Hạn chế**: Ít an toàn hơn khi lưu trữ số tiền lớn hoặc tiết kiệm dài hạn. Trong trường hợp này, hãy chọn Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Ứng dụng Blockstream** là ứng dụng di động (iOS, Android) và máy tính để bàn dùng để quản lý danh mục đầu tư và tài sản Bitcoin trên Liquid Network. Được [Blockstream](https://blockstream.com/) mua lại vào năm 2016, trước đây ứng dụng này có tên là *Green Address* và sau đó là *Blockstream Green*.
-- Các tính năng chính**:
-    - Giao dịch Onchain** trên Blockchain Bitcoin.
+- Ứng dụng **Blockstream** là ứng dụng di động (iOS, Android) và máy tính để bàn dùng để quản lý danh mục đầu tư và tài sản Bitcoin trên Liquid Network. Được [Blockstream](https://blockstream.com/) mua lại vào năm 2016, trước đây ứng dụng này có tên là *Green Address* và sau đó là *Blockstream Green*.
+- **Các tính năng chính**:
+- Giao dịch **Onchain** trên Blockchain Bitcoin.
     - Giao dịch mạng **Liquid** (Sidechain dành cho giao dịch nhanh chóng, bảo mật).
-    - Danh mục đầu tư chỉ theo dõi** để theo dõi các quỹ mà không cần truy cập vào khóa.
+- Danh mục đầu tư chỉ theo dõi để theo dõi các quỹ mà không cần truy cập vào khóa.
     - Tùy chọn riêng tư: kết nối qua **Tor**, kết nối với **nút cá nhân** qua Electrum hoặc xác minh **SPV** để giảm sự phụ thuộc vào các nút của bên thứ ba.
     - Chức năng **Replace-by-fee (RBF)** giúp tăng tốc các giao dịch chưa được xác nhận.
-- Khả năng tương thích**: Tích hợp ví phần cứng như **Blockstream Jade**.
-- Interface**: Dễ sử dụng cho người mới bắt đầu, có các tùy chọn nâng cao dành cho chuyên gia.
-- Lưu ý**: Hướng dẫn này tập trung vào việc sử dụng onchain. Các hướng dẫn khác trong Phụ lục bao gồm Liquid, Watch-Only và phiên bản dành cho máy tính để bàn.
+- **Khả năng tương thích**: Tích hợp ví phần cứng như **Blockstream Jade**.
+- **Interface**: Dễ sử dụng cho người mới bắt đầu, có các tùy chọn nâng cao dành cho chuyên gia.
+- **Lưu ý**: Hướng dẫn này tập trung vào việc sử dụng onchain. Các hướng dẫn khác trong Phụ lục bao gồm Liquid, Watch-Only và phiên bản dành cho máy tính để bàn.
 
 
 
@@ -90,12 +90,12 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Đối với Android**:
+- Đối với **Android**:
     - Tải xuống [Ứng dụng Blockstream](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) từ Cửa hàng Google Play.
     - Cách khác: Cài đặt thông qua tệp APK có sẵn trên [GitHub chính thức của Blockstream](https://github.com/Blockstream/green_android).
-- Đối với iOS**:
+- Đối với **iOS**:
     - Tải xuống [Ứng dụng Blockstream](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) từ App Store.
-- Lưu ý**: Hãy tải xuống từ nguồn chính thức để tránh các ứng dụng lừa đảo.
+- **Lưu ý**: Hãy tải xuống từ nguồn chính thức để tránh các ứng dụng lừa đảo.
 
 
 
@@ -105,7 +105,7 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Màn hình chính**: Khi mở lần đầu, ứng dụng sẽ hiển thị màn hình chưa có Wallet được cấu hình. Các danh mục đầu tư đã tạo hoặc nhập sẽ xuất hiện ở đây sau.
+- **Màn hình chính**: Khi mở lần đầu, ứng dụng sẽ hiển thị màn hình chưa có Wallet được cấu hình. Các danh mục đầu tư đã tạo hoặc nhập sẽ xuất hiện ở đây sau.
 
 
 
@@ -115,7 +115,7 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Tùy chỉnh cài đặt**: Nhấp vào "Cài đặt ứng dụng", điều chỉnh các tùy chọn bên dưới, nhấp vào "Lưu", khởi động lại ứng dụng và tạo danh mục đầu tư của bạn.
+- **Tùy chỉnh cài đặt**: Nhấp vào "Cài đặt ứng dụng", điều chỉnh các tùy chọn bên dưới, nhấp vào "Lưu", khởi động lại ứng dụng và tạo danh mục đầu tư của bạn.
 
 
 
@@ -129,8 +129,8 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Chức năng**: Vô hiệu hóa ảnh chụp màn hình, ẩn bản xem trước ứng dụng trong trình quản lý tác vụ và khóa quyền truy cập khi điện thoại bị khóa.
-- Tại sao?**: Bảo vệ dữ liệu của bạn khỏi sự truy cập vật lý trái phép hoặc phần mềm độc hại chụp màn hình.
+- **Chức năng**: Vô hiệu hóa ảnh chụp màn hình, ẩn bản xem trước ứng dụng trong trình quản lý tác vụ và khóa quyền truy cập khi điện thoại bị khóa.
+- **Tại sao?**: Bảo vệ dữ liệu của bạn khỏi sự truy cập vật lý trái phép hoặc phần mềm độc hại chụp màn hình.
 
 
 #### 3.2.2. Kết nối qua Tor
@@ -139,10 +139,10 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Chức năng**: Định tuyến lưu lượng mạng qua **Tor**, một mạng ẩn danh mã hóa các kết nối của bạn.
-- Tại sao?**: Ẩn IP Address của bạn và bảo vệ quyền riêng tư của bạn, lý tưởng nếu bạn không tin tưởng vào mạng của mình (ví dụ: Wi-Fi công cộng).
-- Nhược điểm**: Có thể làm chậm ứng dụng do mã hóa.
-- Khuyến nghị**: Kích hoạt Tor nếu tính bảo mật là ưu tiên hàng đầu, nhưng hãy kiểm tra tốc độ kết nối.
+- **Chức năng**: Định tuyến lưu lượng mạng qua **Tor**, một mạng ẩn danh mã hóa các kết nối của bạn.
+- **Tại sao?**: Ẩn IP Address của bạn và bảo vệ quyền riêng tư của bạn, lý tưởng nếu bạn không tin tưởng vào mạng của mình (ví dụ: Wi-Fi công cộng).
+- **Nhược điểm**: Có thể làm chậm ứng dụng do mã hóa.
+- **Khuyến nghị**: Kích hoạt Tor nếu tính bảo mật là ưu tiên hàng đầu, nhưng hãy kiểm tra tốc độ kết nối.
 
 
 #### 3.2.3. Kết nối với một nút cá nhân
@@ -151,10 +151,10 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Chức năng**: Kết nối ứng dụng với **nút Bitcoin hoàn chỉnh** của bạn thông qua máy chủ **Electrum**.
-- Tại sao?**: Cung cấp khả năng kiểm soát hoàn toàn dữ liệu Blockchain, loại bỏ sự phụ thuộc vào máy chủ Blockstream.
-- Điều kiện tiên quyết**: Một nút Bitcoin đã được cấu hình.
-- Khuyến nghị**: Người dùng nâng cao muốn có quyền tối đa.
+- **Chức năng**: Kết nối ứng dụng với **nút Bitcoin hoàn chỉnh** của bạn thông qua máy chủ **Electrum**.
+- **Tại sao?**: Cung cấp khả năng kiểm soát hoàn toàn dữ liệu Blockchain, loại bỏ sự phụ thuộc vào máy chủ Blockstream.
+- **Điều kiện tiên quyết**: Một nút Bitcoin đã được cấu hình.
+- **Khuyến nghị**: Người dùng nâng cao muốn có quyền tối đa.
 
 
 #### 3.2.4. Xác minh SPV
@@ -163,10 +163,10 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Chức năng**: Sử dụng **Xác minh thanh toán đơn giản (SPV)** để xác minh trực tiếp một số dữ liệu Blockchain mà không cần tải xuống toàn bộ chuỗi.
-- Tại sao?**: Giảm sự phụ thuộc vào nút mặc định của Blockstream, đồng thời vẫn nhẹ cho thiết bị di động.
-- Nhược điểm**: Ít an toàn hơn Full node vì nó phụ thuộc vào các nút của bên thứ ba để lấy một số thông tin.
-- Khuyến nghị**: Kích hoạt SPV nếu bạn không thể sử dụng nút cá nhân nhưng muốn sử dụng Full node để có bảo mật tối ưu.
+- **Chức năng**: Sử dụng **Xác minh thanh toán đơn giản (SPV)** để xác minh trực tiếp một số dữ liệu Blockchain mà không cần tải xuống toàn bộ chuỗi.
+- **Tại sao?**: Giảm sự phụ thuộc vào nút mặc định của Blockstream, đồng thời vẫn nhẹ cho thiết bị di động.
+- **Nhược điểm**: Ít an toàn hơn Full node vì nó phụ thuộc vào các nút của bên thứ ba để lấy một số thông tin.
+- **Khuyến nghị**: Kích hoạt SPV nếu bạn không thể sử dụng nút cá nhân nhưng muốn sử dụng Full node để có bảo mật tối ưu.
 
 
 
@@ -182,7 +182,7 @@ description: Thiết lập ứng dụng Blockstream trên thiết bị di độn
 
 
 
-- Thận trọng**: Thiết lập danh mục đầu tư của bạn ở môi trường riêng tư, không có máy quay hoặc người quan sát.
+- **Thận trọng**: Thiết lập danh mục đầu tư của bạn ở môi trường riêng tư, không có máy quay hoặc người quan sát.
 - Từ màn hình chính, nhấp vào "Bắt đầu":
 
 
@@ -360,7 +360,7 @@ Khóa quyền truy cập vào ứng dụng bằng mã PIN mạnh:
 
 
 
-- Tùy chọn** :
+- **Tùy chọn**:
     - (1) "Bitcoin": nhấp để chọn lô hàng trên chuỗi hoặc Liquid và chọn tài sản.
     - (2) Nhấp vào các mũi tên để chọn một Address mới khác được liên kết với câu seed này.
     - (3) Bạn cũng có thể chọn Address từ những địa chỉ đã sử dụng/hiển thị bằng cách nhấp vào ba dấu chấm ở trên cùng bên phải rồi nhấp vào "Danh sách địa chỉ"
@@ -376,7 +376,7 @@ Khóa quyền truy cập vào ứng dụng bằng mã PIN mạnh:
 
 
 - Chia sẻ Address/URI bằng cách nhấp vào "**Chia sẻ**", sao chép văn bản hoặc quét mã QR.
-- Xác minh**: Kiểm tra Address được chia sẻ với người nhận càng nhiều càng tốt để tránh lỗi hoặc tấn công (ví dụ: phần mềm độc hại sửa đổi bảng tạm).
+- **Xác minh**: Kiểm tra Address được chia sẻ với người nhận càng nhiều càng tốt để tránh lỗi hoặc tấn công (ví dụ: phần mềm độc hại sửa đổi bảng tạm).
 
 
 
@@ -396,7 +396,7 @@ Khóa quyền truy cập vào ứng dụng bằng mã PIN mạnh:
 
 
 
-- Nhập thông tin chi tiết**:
+- Nhập thông tin chi tiết:
     - (1) Nhập **Address của người nhận** bằng cách dán lên hoặc quét mã QR.
     - (2) Kiểm tra tài sản và tài khoản mà tiền được gửi đi.
     - (3) Chỉ định **số tiền** cần gửi. Bạn có thể chọn đơn vị: BTC, satoshi, USD, ...
@@ -420,7 +420,7 @@ Số lượng tối thiểu (giới hạn dush) vào ngày 03/08/2025 là 546 Sa
 
 
 
-- Kiểm tra** :
+- **Kiểm tra**:
     - Kiểm tra Address, số tiền và phí trên màn hình tóm tắt.
     - Lỗi Address có thể dẫn đến mất tiền không thể phục hồi. Hãy cẩn thận với phần mềm độc hại sửa đổi bảng tạm.
 
@@ -432,8 +432,8 @@ Số lượng tối thiểu (giới hạn dush) vào ngày 03/08/2025 là 546 Sa
 
 
 
-- Xác nhận**: Trượt nút "Gửi" để ký và phân phối giao dịch.
-- Theo dõi**: Trong tab "Giao dịch" của Wallet, giao dịch sẽ hiển thị là "đang chờ xử lý" cho đến khi xác nhận (từ 1 đến 6 xác nhận):
+- **Xác nhận**: Trượt nút "Gửi" để ký và phân phối giao dịch.
+- **Theo dõi**: Trong tab "Giao dịch" của Wallet, giao dịch sẽ hiển thị là "đang chờ xử lý" cho đến khi xác nhận (từ 1 đến 6 xác nhận):
 
 
 
@@ -502,7 +502,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Thuật ngữ](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Thuật ngữ](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -517,7 +517,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- Bảo mật cụm từ khôi phục của bạn**:
+- **Bảo mật cụm từ khôi phục của bạn**:
  - Hướng dẫn: Lưu cụm từ Mnemonic của bạn
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Sử dụng xác thực an toàn**:
+- **Sử dụng xác thực an toàn**:
  - Kích hoạt **mã PIN mạnh** hoặc **xác thực sinh trắc học** (nhận dạng dấu vân tay hoặc khuôn mặt) để bảo vệ quyền truy cập vào ứng dụng.
  - Không bao giờ chia sẻ mã PIN hoặc dữ liệu sinh trắc học của bạn.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Bảo vệ quyền riêng tư của bạn** :
+- **Bảo vệ quyền riêng tư của bạn**:
  - generate là Address mới cho mỗi lần tiếp nhận trên chuỗi hoặc Liquid để hạn chế theo dõi trên Blockchain.
  - Kích hoạt các chức năng "Bảo mật nâng cao", "Tor" và "SPV".
  - Để có tính bảo mật tối đa, hãy kết nối Wallet của bạn với nút Bitcoin của riêng bạn thông qua máy chủ Electrum thay vì sử dụng nút công khai
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chọn mạng phù hợp nhất với nhu cầu của bạn**:
- - Onchain**: Được ưu tiên cho việc lưu ký dài hạn hoặc giao dịch có giá trị lớn (phí không đáng kể so với số tiền).
- - Liquid**: Sử dụng để chuyển tiền nhanh chóng, chi phí thấp với tính bảo mật cao.
- - Lightning**: Chọn dịch vụ chuyển tiền tức thời, chi phí thấp cho số tiền nhỏ.
+- **Chọn mạng phù hợp nhất với nhu cầu của bạn**:
+- **Onchain**: Được ưu tiên cho việc lưu ký dài hạn hoặc giao dịch có giá trị lớn (phí không đáng kể so với số tiền).
+- **Liquid**: Sử dụng để chuyển tiền nhanh chóng, chi phí thấp với tính bảo mật cao.
+- **Lightning**: Chọn dịch vụ chuyển tiền tức thời, chi phí thấp cho số tiền nhỏ.
 
 
 
 
 
-- Luôn kiểm tra địa chỉ giao hàng**:
+- **Luôn kiểm tra địa chỉ giao hàng**:
  - Trước khi gửi tiền, vui lòng kiểm tra kỹ Address. Tiền gửi nhầm đến Address sẽ bị mất vĩnh viễn. Vui lòng sử dụng chức năng sao chép/dán hoặc quét mã QR, tuyệt đối không sao chép/sửa đổi Address bằng tay.
 
 
 
 
 
-- Tối ưu hóa chi phí**:
+- **Tối ưu hóa chi phí**:
  - Đối với các giao dịch trên chuỗi, hãy chọn mức phí phù hợp (chậm, trung bình, nhanh) tùy theo mức độ khẩn cấp và tắc nghẽn mạng.
  - Sử dụng Liquid hoặc Lightning cho số lượng nhỏ.
 
@@ -581,16 +581,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liên kết chính thức:**
- - [Trang web chính thức](https://blockstream.com/)**
- - [Hỗ trợ cho ứng dụng di động](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : tài liệu và trò chuyện
- - [GitHub](https://github.com/Blockstream/green_android)**
+- Liên kết chính thức:
+- [Trang web chính thức](https://blockstream.com/)
+- [Hỗ trợ cho ứng dụng di động](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/) : tài liệu và trò chuyện
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Trình khám phá khối :**
+- Trình khám phá khối:
  - on chain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Thông tin về dòng khối](https://blockstream.info/Liquid)**
  - Sét: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Học tập và hướng dẫn:** **[Plan ₿ Network](https://planb.network/)** :
+- Học tập và hướng dẫn: **[Plan ₿ Network](https://planb.network/)**
  - Bảo mật cụm từ khôi phục của bạn
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Thuật ngữ](https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Thuật ngữ](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Thuật ngữ](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Thuật ngữ](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

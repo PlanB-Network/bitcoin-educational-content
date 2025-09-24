@@ -1,0 +1,13 @@
+question: Ni igiki gihambaye co gukura mu nyigisho yerekeye ingene twotsinda hyperinflation?
+answer: Hariho ingamba nyinshi zo gutsinda inflation nyinshi, ariko zizokora gusa iyo abanyagihugu bazizigiye kandi Leta igashirwako amategeko akomeye.
+wrong_answers:
+  - Uburyo bumwe rudende bwo gutsinda ugutera imbere kw'ibiciro ni uguhindura amadolari .
+  - Uburyo bumwe rudende bwo gutsinda ugutera imbere kw'ibiciro ni ugushiraho amafaranga mashasha .
+  - Hyperinflation ishobora gukurwaho mu kwongera gusa amahera Supply.
+explanation: |
+  Iyo nyigisho ivuga ko hariho uburyo bwinshi bwo gutsinda .
+  uguduga kw'ibiciro,
+  nk’uguhindura amadolari canke gushiramwo amafaranga mashasha. Ariko rero, ivyo bisubizo bizotuma .
+  gusa bikora iyo abanyagihugu babizigiye kandi hakaba hashizweho amategeko akomeye .
+  ku bijanye n’ubutegetsi.
+reviewed: false

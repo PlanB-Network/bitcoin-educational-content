@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   One should especially not use a receiving address multiple times. All the other answers allow avoiding the chain analysis heuristics.
 
-reviewed: false
+reviewed: true

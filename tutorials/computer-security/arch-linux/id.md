@@ -17,10 +17,10 @@ Arch Linux adalah distribusi yang terkenal dengan ketangguhan, kinerja, dan kema
 
 
 
-- Gratis dan sumber terbuka**: Seperti kebanyakan distribusi Linux, Arch Linux benar-benar gratis. Tidak ada biaya lisensi, menjadikannya pilihan yang sangat baik untuk pelajar, pekerja lepas, atau penggemar.
-- Filosofi KISS**: Arch dirancang agar sederhana, ringan dan efisien. Ini hanya menyediakan hal-hal yang penting, memungkinkan Anda untuk membangun lingkungan Anda à la carte.
-- Manajer paket Pacman**: Pacman adalah pengelola paket yang cepat, andal, dan dirancang dengan baik. Ini memungkinkan instalasi dan pembaruan perangkat lunak yang efisien, dan mengelola ketergantungan dengan presisi.
-- Dokumentasi yang komprehensif dan komunitas yang aktif**: [Arch Wiki](https://wiki.archlinux.org) mungkin merupakan salah satu dokumentasi teknis terbaik di dunia Linux. Ini adalah tambang emas untuk memahami apa yang Anda lakukan. Komunitas yang sebagian besar terdiri dari profil-profil yang berpengalaman ini sangat aktif dan dapat membantu Anda jika Anda mengalami kebuntuan, asalkan Anda telah melakukan sedikit riset sebelumnya.
+- **Gratis dan sumber terbuka**: Seperti kebanyakan distribusi Linux, Arch Linux benar-benar gratis. Tidak ada biaya lisensi, menjadikannya pilihan yang sangat baik untuk pelajar, pekerja lepas, atau penggemar.
+- **Filosofi KISS**: Arch dirancang agar sederhana, ringan dan efisien. Ini hanya menyediakan hal-hal yang penting, memungkinkan Anda untuk membangun lingkungan Anda à la carte.
+- **Manajer paket Pacman**: Pacman adalah pengelola paket yang cepat, andal, dan dirancang dengan baik. Ini memungkinkan instalasi dan pembaruan perangkat lunak yang efisien, dan mengelola ketergantungan dengan presisi.
+- **Dokumentasi yang komprehensif dan komunitas yang aktif**: [Arch Wiki](https://wiki.archlinux.org) mungkin merupakan salah satu dokumentasi teknis terbaik di dunia Linux. Ini adalah tambang emas untuk memahami apa yang Anda lakukan. Komunitas yang sebagian besar terdiri dari profil-profil yang berpengalaman ini sangat aktif dan dapat membantu Anda jika Anda mengalami kebuntuan, asalkan Anda telah melakukan sedikit riset sebelumnya.
 
 
 
@@ -39,7 +39,7 @@ Bahan yang dibutuhkan:
 
 
 - Kunci USB minimal sebesar **8 GB**
-- rAM minimum 2 GB** minimum
+- **RAM minimum 2 GB** minimum
 - Komputer dengan ruang disk kosong minimal 20 GB
 
 
@@ -261,7 +261,7 @@ Pilih **GPT** jika Anda menggunakan UEFI, **DOS** jika Anda menggunakan BIOS.
 
 
 
-- Dalam mode UEFI**
+- Dalam mode **UEFI**
 
 
 
@@ -294,7 +294,7 @@ Pilih **Tulis**, ketik **yes**, lalu **Berhenti**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 

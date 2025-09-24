@@ -1,7 +1,7 @@
-id: 20484cbf-5f40-4e26-95d9-6f4299b202d6
+id: da55b9b2-41c0-4fc9-99a0-169f960f7653
 chapterId: b403f1e4-f1ff-572b-a242-9b58cb3736d0
-difficulty: intermediate
-duration: 30
+difficulty: hard
+duration: 45
 author: DecouvreBitcoin
 original_language: en
 proofreading:
@@ -124,3 +124,18 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.14
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.15
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.16

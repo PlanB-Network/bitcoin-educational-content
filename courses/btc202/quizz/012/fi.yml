@@ -1,0 +1,9 @@
+question: Mikä vaihe kuuluu alaikäisen rooliin?
+answer: Ehdokaslohkon rakentaminen Mempool:sta
+wrong_answers:
+  - Koko Blockchain:n validointi Mempool:sta
+  - Luo Bitcoin-osoitteita käyttäjille
+  - Tallenna yksityiset avaimet lompakoita varten
+explanation: |
+  Miner valitsee transaktioita Mempool:stä ja muodostaa ehdokaslohkon, jonka Proof of Work yrittää validoida.
+reviewed: true

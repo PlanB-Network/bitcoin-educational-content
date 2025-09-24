@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Grønn
+name: Jade Plus - Green
 description: Konfigurer enkelt Jade Plus med Green
 ---
 ![cover](assets/cover.webp)
@@ -101,7 +101,7 @@ Klikk på "*Fortsett*"-knappen for å vise den nye gjenopprettingsfrasen.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Jade Plus viser din 12-ord lange huskeregel. **Denne huskeregelen gir deg full, ubegrenset tilgang til alle bitcoinsene dine. Alle som er i besittelse av denne frasen kan stjele pengene dine, selv uten fysisk tilgang til din Jade Plus. Frasen på 12 ord gjenoppretter tilgangen til bitcoinsene dine i tilfelle tap, tyveri eller ødeleggelse av din Jade. Det er derfor svært viktig å lagre den nøye og oppbevare den på et sikkert sted.
+Jade Plus viser din 12-ord lange huskeregel. **Denne huskeregelen gir deg full, ubegrenset tilgang til alle bitcoinsene dine. Alle som er i besittelse av denne frasen kan stjele pengene dine, selv uten fysisk tilgang til din Jade Plus. Frasen på 12 ord gjenoppretter tilgangen til bitcoinsene dine i tilfelle tap, tyveri eller ødeleggelse av din Jade. Det er derfor svært viktig å lagre den nøye og oppbevare den på et sikkert sted.**
 
 Du kan skrive det på pappen som følger med i esken, eller for ekstra sikkerhet anbefaler jeg å gravere det på en sokkel i rustfritt stål for å beskytte det mot brann, oversvømmelse eller kollaps.
 
@@ -111,7 +111,7 @@ Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Du må selvsagt aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen
+**Du må selvsagt aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen**
 
 Klikk på pilen til høyre på skjermen for å vise følgende ord.
 
@@ -300,4 +300,5 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Jade Plus med Blockstre
 For å ta ting et skritt videre, anbefaler jeg denne veiledningen om Jade Plus, der vi konfigurerer den med Sparrow Wallet-programvaren i QR-modus. Du lærer også hvordan du bruker de avanserte innstillingene til maskinvarelommeboken din:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

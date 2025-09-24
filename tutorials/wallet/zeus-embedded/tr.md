@@ -13,7 +13,7 @@ Ancak uygulamada bir de "Gömülü düğüm" bulunmaktadır.
 
 
 
-**Bu eğitimde keşfedeceğimiz uygulamanın bu yönüdür. Bu, ACINQ'nun inanılmaz Wallet yıldırım Phoenix'ini sunduğu gibi, herkesin özel bir sunucuya ihtiyaç duymadan mobil cihazlarda kendi yıldırım düğümüne sahip olmasını sağlar.
+**Bu eğitimde keşfedeceğimiz uygulamanın bu yönüdür.** Bu, ACINQ'nun inanılmaz Wallet yıldırım Phoenix'ini sunduğu gibi, herkesin özel bir sunucuya ihtiyaç duymadan mobil cihazlarda kendi yıldırım düğümüne sahip olmasını sağlar.
 
 
 
@@ -248,7 +248,7 @@ Bir sonraki ekranda, Wallet tarafından tercih edilen LSP (Yıldırım Hizmet Sa
 Bu eğitimde, basitlik adına bu seçeneği seçeceğiz, ancak ağdaki herhangi bir düğümle kanal açmak tamamen mümkündür.
 
 
-"EK KANAL AÇ" seçeneğini seçerek tek bir işlemde birden fazla kanal açmak bile mümkündür. *Ancak bunu **Zeus Embedded**** eğitiminin "gelişmiş" bir versiyonunda inceleyeceğiz.
+"EK KANAL AÇ" seçeneğini seçerek tek bir işlemde birden fazla kanal açmak bile mümkündür. *Ancak bunu **Zeus Embedded** eğitiminin "gelişmiş" bir versiyonunda inceleyeceğiz.*
 
 
 
@@ -345,7 +345,7 @@ Zeus daha sonra ödemenizi ifade etmek için bir not eklemenize veya satoshileri
 
 
 
-Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) gibi bir Wallet'un aksine, Zeus ile rotanın yerel olarak hesaplandığını ve üçüncü bir tarafa (Phoenix durumunda ACINQ) devredilmediğini unutmayın. Yani ödemenin alıcısını bilen tek kişi sizsiniz. Biraz verimlilik kaybederiz (ödemelerin tamamlanması biraz daha uzun sürer, ancak gizlilik açısından çok şey kazanırız).
+Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) gibi bir Wallet'un aksine, Zeus ile rotanın yerel olarak hesaplandığını ve üçüncü bir tarafa (Phoenix durumunda ACINQ) devredilmediğini unutmayın. Yani ödemenin alıcısını bilen tek kişi sizsiniz. Biraz verimlilik kaybederiz (ödemelerin tamamlanması biraz daha uzun sürer, ancak gizlilik açısından çok şey kazanırız).
 
 
 

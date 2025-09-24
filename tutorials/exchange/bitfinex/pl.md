@@ -77,10 +77,10 @@ Bitfinex stosuje proces weryfikacji (KYC), który jest zgodny z obowiązującymi
 
 
 
-- Podstawowy* to tryb tylko wyświetlania, umożliwiający zapoznanie się z platformą bez wykonywania żadnych operacji;
-- Basic Plus* zapewnia dostęp do podstawowych funkcji, w tym transakcji na rynku kasowym oraz wybranych opcji wpłat i wypłat;
-- Intermediate* odblokowuje zaawansowane usługi, takie jak handel z depozytem zabezpieczającym, pożyczki, P2P i transakcje OTC, a także oferuje skrócone terminy wpłat;
-- Pełny* daje dostęp do międzynarodowych przelewów bankowych i wszystkich funkcji platformy.
+- **Podstawowy** to tryb tylko wyświetlania, umożliwiający zapoznanie się z platformą bez wykonywania żadnych operacji;
+- **Basic Plus** zapewnia dostęp do podstawowych funkcji, w tym transakcji na rynku kasowym oraz wybranych opcji wpłat i wypłat;
+- **Intermediate** odblokowuje zaawansowane usługi, takie jak handel z depozytem zabezpieczającym, pożyczki, P2P i transakcje OTC, a także oferuje skrócone terminy wpłat;
+- **Pełny** daje dostęp do międzynarodowych przelewów bankowych i wszystkich funkcji platformy.
 
 
 Dla każdego poziomu wymagane są dodatkowe dokumenty do weryfikacji. Dla większości użytkowników konta *Basic Plus* lub *Intermediate* są zazwyczaj wystarczające.
@@ -115,11 +115,11 @@ Po zalogowaniu, w górnej części Interface pojawi się pasek nawigacyjny zawie
 
 
 
-- Handel**: "*klasyczny*" rynek, na którym można składać zlecenia kupna i sprzedaży kryptowalut (w tym Bitcoin);
-- OTC**: Over-The-Counter - usługa handlu dużymi wolumenami bezpośrednio z innym graczem, poza publicznymi księgami zleceń;
-- Finansowanie**: Obszar poświęcony finansowaniu pożyczek i depozytów zabezpieczających;
-- Instrumenty pochodne**: Sekcja dotycząca instrumentów pochodnych (kontrakty futures itp.), przeznaczona dla doświadczonych traderów;
-- P2P**: Umożliwia kupowanie lub sprzedawanie kryptowalut od innych użytkowników na zasadzie peer-to-peer.
+- **Handel**: "*klasyczny*" rynek, na którym można składać zlecenia kupna i sprzedaży kryptowalut (w tym Bitcoin);
+- **OTC**: Over-The-Counter - usługa handlu dużymi wolumenami bezpośrednio z innym graczem, poza publicznymi księgami zleceń;
+- **Finansowanie**: Obszar poświęcony finansowaniu pożyczek i depozytów zabezpieczających;
+- **Instrumenty pochodne**: Sekcja dotycząca instrumentów pochodnych (kontrakty futures itp.), przeznaczona dla doświadczonych traderów;
+- **P2P**: Umożliwia kupowanie lub sprzedawanie kryptowalut od innych użytkowników na zasadzie peer-to-peer.
 
 
 Do standardowego użytku (kupno/sprzedaż bitcoinów i wpłaty/wypłaty), będziesz głównie korzystać z zakładki "*Trading*", a także sekcji "*Wallet*", "*Deposit*" i "*Withdraw*".

@@ -1,13 +1,13 @@
-question: Birinin Bitcoin Wallet'deki 12 veya 24 kelimelik listenizi yanlışlıkla tahmin etme olasılığı nedir?
-answer: Astronomik olarak düşük.
+question: Multisig Wallet nedir?
+answer: Bir işlem gerçekleştirmek için birden fazla imza gerektiren bir cüzdan seti.
 wrong_answers:
-  - Yüksek.
-  - Orta derecede.
-  - Güçlü.
+  - Bir işlemi gerçekleştirmek için tek bir imza gerektiren bir Wallet.
+  - Bir işlemi gerçekleştirmek için imza gerektirmeyen bir Wallet.
+  - Bir işlemi gerçekleştirmek için fiziksel imza gerektiren bir Wallet.
 explanation: |
-  Wallet'yi oluşturmak için kullanılan kriptografi sayesinde
-  birinin yanlışlıkla sizin listenizi tahmin etme olasılığı
-  12 veya 24 kelime astronomik derecede düşüktür. Bulmak gibi
-  1 ile $2^256$ arasında doğru sayı, ki bu neredeyse
-  evrende tanımlanmış bir atom bulmakla eşdeğerdir.
+  Bir Multisig Wallet, aşağıdakileri gerektiren bir Bitcoin Wallet türüdür
+  bir işlemi gerçekleştirmek için birden fazla imza. Bu bir ekler
+  ekstra Layer güvenlik, çünkü tek bir kişinin
+  onayı olmadan bir işlem gerçekleştiremez
+  diğerleri.
 reviewed: true

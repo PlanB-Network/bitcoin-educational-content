@@ -1,9 +1,12 @@
-question: Mfumuko wa bei nchini Zimbabwe mwezi Novemba 2008 ulikuwa kiasi gani?
-answer: 79,600,000,000%
+question: Je, ni amri gani ya kuthibitisha wingi wa bitcoins katika mzunguko kwenye nodi ya Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796%
-  - 79,600,000,000,000,000%
-  - 100%
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  Mnamo Novemba 2008, mfumuko wa bei wa kila mwezi wa sarafu ya Zimbabwe ulifikia 79,600,000,000%, ambayo ilipunguza thamani ya dola ya Zimbabwian hadi 0.
+  Amri ya kuthibitisha wingi wa bitcoins ndani
+  mzunguko kwenye nodi ya Bitcoin ni bitcoin-cli
+  gettxoutsetinfo. Amri hii inatoa uwazi na
+  uthibitisho, kuimarisha uaminifu katika mfumo wa Bitcoin.
 reviewed: true

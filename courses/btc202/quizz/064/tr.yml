@@ -1,0 +1,9 @@
+question: Umbrel üzerinde Mempool.Space gibi yerel bir Block explorer kurmanın ana nedeni nedir?
+answer: Gizliliği koruyun ve kendi düğümünüzdeki verileri kullanın
+wrong_answers:
+  - İlk Bitcoin core senkronizasyonunu hızlandırın
+  - Bloklar için kullanılabilir depolama kapasitesini artırın
+  - Lightning kanallarını alma
+explanation: |
+  Yerel bir Block explorer IP sızıntılarını önler ve kendi doğrulanmış verilerinize güvenerek gizliliği ve güvenilirliği garanti eder.
+reviewed: true

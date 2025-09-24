@@ -1,8 +1,8 @@
-question: Kakvu mrežu kreira Lightning mreža?
-answer: Mreža platnih kanala.
+question: Koja je glavna svrha Lightning mreže?
+answer: Da bi se olakšale mikro-transakcije.
 wrong_answers:
-  - Mreža rudarskih čvorova.
-  - Mreža Blockchain čvorova.
-  - Mreža kriptovalutnih berzi.
+  - Da bi se povećala vrednost Bitkoina.
+  - Da zameni Bitkoin protokol.
+  - Da biste kreirali novu kriptovalutu.
 explanation: >-
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Konfiguracja BitAxe
+name: Bitaxe
 description: Jak skonfigurować BitAxe?
 
 ---

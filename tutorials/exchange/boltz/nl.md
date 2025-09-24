@@ -25,10 +25,10 @@ Er bleef echter een groot probleem bestaan tussen de lagen van het Bitcoin proto
 
 
 
-- on chain**: Bitcoin's hoofdketen waar transacties gemiddeld elke 10 minuten worden bevestigd, de transactiekosten zijn vaak hoog, wat niet noodzakelijkerwijs voldoet aan de behoeften van gebruikers;
-- Lightning Network**: De Bitcoin overlay voor directe betalingen tegen lage kosten, waardoor de Bitcoin kan worden gebruikt voor dagelijkse betalingen;
-- Liquid Network**: een overlay voor Bitcoin gemaakt door Blockstream, die snel Confidential Transactions en het gebruik van andere op Bitcoin gebaseerde financiële instrumenten mogelijk maakt;
-- RootStock**: Een oplossing voor het ontwikkelen van slimme contracten gebaseerd op het Bitcoin protocol.
+- **on chain**: Bitcoin's hoofdketen waar transacties gemiddeld elke 10 minuten worden bevestigd, de transactiekosten zijn vaak hoog, wat niet noodzakelijkerwijs voldoet aan de behoeften van gebruikers;
+- **Lightning Network**: De Bitcoin overlay voor directe betalingen tegen lage kosten, waardoor de Bitcoin kan worden gebruikt voor dagelijkse betalingen;
+- **Liquid Network**: een overlay voor Bitcoin gemaakt door Blockstream, die snel Confidential Transactions en het gebruik van andere op Bitcoin gebaseerde financiële instrumenten mogelijk maakt;
+- **RootStock**: Een oplossing voor het ontwikkelen van slimme contracten gebaseerd op het Bitcoin protocol.
 
 
 
@@ -54,7 +54,7 @@ Op deze manier behoudt u permanente zelfbewaarneming van uw bitcoins en is de Ex
 
 
 
-Een atomaire Exchange werkt met slimme contracten [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). In dit type Contract wordt het bedrag "vergrendeld" in een tweerichtingskanaal en wordt een tijdsbeperking geïntroduceerd, zodat als de transactie niet binnen een bepaalde tijd wordt voltooid, het saldo teruggaat naar de deposant. Dit is het mechanisme dat wordt gebruikt door het Boltz-platform.
+Een atomaire Exchange werkt met slimme contracten [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In dit type Contract wordt het bedrag "vergrendeld" in een tweerichtingskanaal en wordt een tijdsbeperking geïntroduceerd, zodat als de transactie niet binnen een bepaalde tijd wordt voltooid, het saldo teruggaat naar de deposant. Dit is het mechanisme dat wordt gebruikt door het Boltz-platform.
 
 
 

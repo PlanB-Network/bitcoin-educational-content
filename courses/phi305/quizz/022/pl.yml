@@ -1,0 +1,9 @@
+question: Czy koncepcja "zwierząt maszynowych" jest przypisywana?
+answer: Kartezjusz.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Koncepcja zwierząt-maszyn przypisywana jest Kartezjuszowi. Zgodnie z tą teorią, zwierzęta są złożonymi automatami bez duszy i świadomości, działającymi wyłącznie na zasadach mechanicznych.
+reviewed: false

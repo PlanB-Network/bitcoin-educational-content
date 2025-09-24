@@ -1,5 +1,5 @@
 ---
-name: 特使
+name: Envoy
 description: 在 Envoy 应用程序中设置和使用护照
 ---
 ![cover](assets/cover.webp)

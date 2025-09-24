@@ -1,0 +1,9 @@
+question: Ni kiwango gani cha chini cha SSD kilichopendekezwa mnamo 2025 kwa nodi ya Bitcoin?
+answer: 2 Kwa
+wrong_answers:
+  - GB 512
+  - 10 Kwa
+  - GB 256
+explanation: |
+  Kwa Blockchain inayozidi GB 700 na programu za ziada, 2 TB imekuwa kiwango cha chini kinachokubalika.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: 麻雀 Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: 在 Sparrow 上建立多重簽名組合
 ---
 ![cover](assets/cover.webp)
@@ -279,7 +279,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 
 
-*Descriptor* 包含 Multisig 組合中的所有 xpub，以及用於 generate 鑰匙的衍生路徑。請記住我們在第一部分所看到的：若要還原 Multisig 組合，您必須擁有***所有的 Mnemonic 詞組，或是只擁有達到簽章臨界值所需的最低數量。然而，在後者的情況下，還必須擁有**缺失簽名者的 xpubs**。*Descriptor* 包含所有 Multisig 的 xpub。
+*Descriptor* 包含 Multisig 組合中的所有 xpub，以及用於 generate 鑰匙的衍生路徑。請記住我們在第一部分所看到的：若要還原 Multisig 組合，您必須擁有**所有的 Mnemonic 詞組，或是只擁有達到簽章臨界值所需的最低數量**。然而，在後者的情況下，還必須擁有**缺失簽名者的 xpubs**。*Descriptor* 包含所有 Multisig 的 xpub。
 
 
 

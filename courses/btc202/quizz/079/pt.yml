@@ -1,0 +1,9 @@
+question: Qual é o tamanho máximo de um ficheiro blkNNNNN.dat antes de ser criado um novo ficheiro?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GiB
+  - 128 GiB
+explanation: |
+  Os ficheiros blkNNNNN.dat armazenam os blocos sequencialmente e atingem um tamanho de cerca de 128 MiB antes de o Bitcoin core abrir o próximo.
+reviewed: true

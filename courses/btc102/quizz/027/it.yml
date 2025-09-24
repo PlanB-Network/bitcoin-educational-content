@@ -1,9 +1,9 @@
-question: Quanti manutentori ci saranno su Bitcoin Core nel 2025?
+question: Quanti responsabili (maintainer) ci sono nel 2025 su Bitcoin Core?
 answer: 5
 wrong_answers:
   - 7
   - 12
   - 23
 explanation: |
-  Nel 2025, ci sono cinque manutentori: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao e Ryan Ofsky.
-reviewed: false
+  Nel 2025, ci sono cinque maintainer: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao e Ryan Ofsky.
+reviewed: true

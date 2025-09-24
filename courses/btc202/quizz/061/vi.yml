@@ -1,0 +1,9 @@
+question: Ưu điểm chính của Tailscale so với Tor khi truy cập Umbrel từ xa là gì?
+answer: Kết nối nhanh hơn
+wrong_answers:
+  - Mã hóa mạnh hơn WireGuard
+  - Khả năng tương thích với bộ định tuyến doanh nghiệp
+  - Khả năng sử dụng Electrs ngoại tuyến
+explanation: |
+  Tailscale cung cấp tính năng bảo mật của WireGuard, nhưng với tốc độ của kết nối clearnet, không giống như Tor, chậm hơn.
+reviewed: true

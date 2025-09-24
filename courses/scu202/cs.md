@@ -156,7 +156,7 @@ Jste připraveni plně převzít kontrolu nad svým IT zabezpečením, posílit 
 
 
 
-*N.B.: Pokud se v průběhu kurzu setkáte s neznámými pojmy, podívejte se do [slovníčku pojmů](https://planb.network/resources/glossary), kde najdete jejich definice
+*N.B.: Pokud se v průběhu kurzu setkáte s neznámými pojmy, podívejte se do [slovníčku pojmů](https://planb.network/resources/glossary), kde najdete jejich definice.*
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman otevřeně kritizuje používání termínu "open source" a pov
 
 
 
-*Zdroj: Nathaniel Welch
+**Zdroj: Nathaniel Welch**
 
 
 
@@ -794,7 +794,7 @@ Tyto první snahy stály u zrodu distribucí Linuxu:
 
 
 
-- Únor 1992: MCC Interim Linux**
+- Únor 1992: MCC Interim Linux
 
 
 
@@ -804,7 +804,7 @@ MCC Interim Linux byl vyvinut na univerzitě v Manchesteru a je považován za p
 
 
 
-- Květen 1992: Softlanding Linux System (SLS)**
+- Květen 1992: **Softlanding Linux System (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS již neexistuje. Jeho poslední známá verze pochází z konce roku 1994.
 
 
 
-- Červenec 1993: Slackware**
+- Červenec 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware je dodnes udržován a je tak nejstarší stále používanou linuxovo
 
 
 
-- Srpen 1993: Debian**
+- Srpen 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Debian se tak stal jedním z technických a ideových pilířů světa GNU/Linux
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -1050,7 +1050,7 @@ Výběr distribuce Linuxu závisí na vašich konkrétních potřebách, technic
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1066,7 +1066,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1086,7 +1086,7 @@ Mint vyniká svou jednoduchostí, výchozí přítomností multimediálních kod
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,7 +1104,7 @@ Instalace je bezproblémová, základní software je předinstalován a verze "L
 
 
 
-- základní OS**:
+- **základní OS**:
 
 Elementary OS, který byl uveden na trh v roce 2011, je distribuce založená na Ubuntu, která se zaměřuje především na design a konzistenci Interface. Její desktopové prostředí Pantheon, inspirované systémem macOS, je minimalistické, elegantní a plynulé. Systém však zůstává méně přizpůsobitelný než jiné distribuce a někteří pokročilí uživatelé se mohou cítit omezeni možnostmi Interface a jeho záměrně uzavřenou strukturou. Je vhodný pro esteticky citlivé uživatele, kteří hledají jednoduchý a ucelený systém pro každodenní používání.
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Systém Pop!OS, který vyvinula americká společnost System76, je rovněž zalo
 
 
 
-- Fedora** (pracovní stanice nebo KDE Plasma):
+- **Fedora** (pracovní stanice nebo KDE Plasma):
 
 
 
@@ -1154,7 +1154,7 @@ Fedora je distribuce podporovaná společností Red Hat, orientovaná na nejnov�
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed nebo Leap):
+- **openSUSE** (Tumbleweed nebo Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE je k dispozici jako rolling release nebo stabilní distribuce. Obsahuje
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,7 +1182,7 @@ Debian existuje v několika větvích, včetně *Stable* (velmi spolehlivý, ale
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Manjaro je založeno na systému Arch a zpřístupňuje Arch Linux. Tato distrib
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### Specializovaná distribuce
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux je distribuce založená na Debianu a určená pro penetrační testování a bezpečnostní audit. Obsahuje stovky nástrojů pro pentestování. Tato distribuce není příliš vhodná jako hlavní systém pro každodenní použití.
 
@@ -1224,7 +1224,7 @@ Kali Linux je distribuce založená na Debianu a určená pro penetrační testo
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Systém Parrot OS je rovněž odvozen od Debianu. Nabízí prostředí pro pente
 
 
 
-- Ocas**:
+- **Ocas**:
 
 
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Operační systém Qubes je založen na platformě Fedora a používá virtualiz
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch je pentestově orientované rozšíření systému Arch Linux (podobn�
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1302,7 +1302,7 @@ PureOS je distribuce odvozená od Debianu, vyvinutá společností Purism, zcela
 
 https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- Operační systém Raspberry Pi**:
+- **Operační systém Raspberry Pi**:
 
 Raspberry Pi OS (dříve Raspbian) je distribuce optimalizovaná pro mikropočítače Raspberry Pi. Je založena na Debianu, ale balíčky jsou překompilovány pro architekturu ARM. Lze ji použít pro vzdělávací projekty, testování elektroniky nebo malé osobní servery.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (dříve Raspbian) je distribuce optimalizovaná pro mikropočí
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1362,55 +1362,55 @@ Pracovní prostředí v distribuci Linuxu není jediná aplikace, ale ucelená s
 
 
 
-- Správce oken**: kreslí okraje oken, spravuje jejich umístění, změnu velikosti a přechodové efekty... Například: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Správce oken**: kreslí okraje oken, spravuje jejich umístění, změnu velikosti a přechodové efekty... Například: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Správce souborů**: umožňuje procházet stromem adresářů, kopírovat, přesouvat nebo mazat soubory vizuálně. Příklady: Příklady: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Správce souborů**: umožňuje procházet stromem adresářů, kopírovat, přesouvat nebo mazat soubory vizuálně. Příklady: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Konfigurační centrum**: jedná se o sadu nástrojů, které uživateli umožňují měnit parametry systému bez použití příkazového řádku: vzhled, tapety, správa uživatelů, síť, periferie...
+- **Konfigurační centrum**: jedná se o sadu nástrojů, které uživateli umožňují měnit parametry systému bez použití příkazového řádku: vzhled, tapety, správa uživatelů, síť, periferie...
 
 
 
 
 
-- Systémové applety**: jsou to malé ikony a interaktivní moduly na hlavním panelu (nebo "panelu"), například ovládání zvuku, úroveň nabití baterie, připojení k síti, hodiny...
+- **Systémové applety**: jsou to malé ikony a interaktivní moduly na hlavním panelu (nebo "panelu"), například ovládání zvuku, úroveň nabití baterie, připojení k síti, hodiny...
 
 
 
 
 
-- Panel nebo ovládací panel**: viditelný panel, často v horní nebo dolní části obrazovky, který obsahuje hlavní nabídku, systémové aplety, zástupce, oznamovací zónu atd.
+- **Panel nebo ovládací panel**: viditelný panel, často v horní nebo dolní části obrazovky, který obsahuje hlavní nabídku, systémové aplety, zástupce, oznamovací zónu atd.
 
 
 
 
 
-- Správce relací**: spustí se při spuštění, zobrazí přihlašovací obrazovku a spustí zvolenou grafickou relaci. Například: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Správce relací**: spustí se při spuštění, zobrazí přihlašovací obrazovku a spustí zvolenou grafickou relaci. Například: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Správce oznámení**: spravuje zobrazování systémových oznámení (zpráv, upozornění, aktualizací atd.). Například: dunst, Plasma-notifier, xfce4-notifyd.
+- **Správce oznámení**: spravuje zobrazování systémových oznámení (zpráv, upozornění, aktualizací atd.). Například: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- Kompozitor X11 (volitelný)**: přidává vizuální efekty (stíny, průhlednost, animace) v prostředích, kde správce oken nepodporuje kompozici. Například: Compton, Picom.
+- **Kompozitor X11 (volitelný)**: přidává vizuální efekty (stíny, průhlednost, animace) v prostředích, kde správce oken nepodporuje kompozici. Například: Compton, Picom.
 
 
 
 
 
-- Zobrazovací server**: jedná se o software, který zajišťuje komunikaci mezi systémem (prostřednictvím jádra a grafických ovladačů) a grafickými aplikacemi. Zobrazuje okna na obrazovce a spravuje vstupy z klávesnice a myši. Zobrazovací server je často jinou součástí desktopového prostředí, ale stále více systémů používá Wayland, moderní protokol, kde roli zobrazovacího serveru může převzít přímo správce oken (např. Mutter v prostředí GNOME nebo KWin v prostředí KDE). To se pak označuje jako "Wayland compositing".
+- **Zobrazovací server**: jedná se o software, který zajišťuje komunikaci mezi systémem (prostřednictvím jádra a grafických ovladačů) a grafickými aplikacemi. Zobrazuje okna na obrazovce a spravuje vstupy z klávesnice a myši. Zobrazovací server je často jinou součástí desktopového prostředí, ale stále více systémů používá Wayland, moderní protokol, kde roli zobrazovacího serveru může převzít přímo správce oken (např. Mutter v prostředí GNOME nebo KWin v prostředí KDE). To se pak označuje jako "Wayland compositing".
 
 
 
@@ -1877,7 +1877,7 @@ Po spuštění Ubuntu vás průvodce instalací provede krok za krokem. Postupuj
 
 
 
-- Instalace vedle systému Windows (*duální spouštění*)**
+- Instalace vedle systému Windows (*duální spouštění*)
 
 
 
@@ -1902,7 +1902,7 @@ Abyste to udělali správně, doporučuji nejprve vytvořit nepřidělený oddí
 
 
 
-- Kompletní výměna oken**
+- **Kompletní výměna oken**
 
 
 
@@ -2020,10 +2020,10 @@ Každé úložiště je rozděleno do sekcí. Ve výchozím nastavení Ubuntu ak
 
 
 
-- main**: svobodný software oficiálně spravovaný společností Canonical. Příklady: Firefox, LibreOffice, bash
-- omezený**: nesvobodný software, který je nezbytný pro správnou funkci hardwaru. Příklady: Příklady: ovladače NVIDIA, firmware Wi-Fi, proprietární kodeky
-- universe**: svobodný software spravovaný komunitou. Příklady: Příklady: GIMP, Inkscape, Audacity
-- multiverse**: software podléhající právním omezením (patenty, nesvobodné licence). Dostupnost se může v jednotlivých zemích lišit. Příklady: některé audio/video kodeky, služba Steam
+- **main**: svobodný software oficiálně spravovaný společností Canonical. Příklady: Firefox, LibreOffice, bash
+- **omezený**: nesvobodný software, který je nezbytný pro správnou funkci hardwaru. Příklady: ovladače NVIDIA, firmware Wi-Fi, proprietární kodeky
+- **universe**: svobodný software spravovaný komunitou. Příklady: GIMP, Inkscape, Audacity
+- **multiverse**: software podléhající právním omezením (patenty, nesvobodné licence). Dostupnost se může v jednotlivých zemích lišit. Příklady: některé audio/video kodeky, služba Steam
 
 
 
@@ -3541,7 +3541,7 @@ I když jsou v systému povoleny automatické aktualizace, je důležité v prav
 
 
 
-- Operační systém Windows*
+- Operační systém **Windows**
 
 
 
@@ -3565,7 +3565,7 @@ Nezapomeňte ve stejné nabídce zkontrolovat volitelné aktualizace.
 
 
 
-- Operační systém Linux*
+- Operační systém *Linux*
 
 
 
@@ -3618,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- Operační systém MacOS*
+- Operační systém **MacOS**
 
 
 
@@ -3654,25 +3654,25 @@ Některý software je citlivější než jiný, protože přímo komunikuje s vn
 
 
 
-- Webové prohlížeče*: jsou v první linii útoků, protože zpracovávají neověřený obsah v reálném čase a mají obzvláště velký prostor pro útoky. Navíc hrají ústřední roli při ochraně vašich osobních údajů. A především mají tendenci nahrazovat mnoho softwarových aplikací, které se dříve používaly lokálně (e-mailoví klienti, kancelářské balíky, přehrávače médií...). K tomuto bodu se však vrátíme v další části kurzu SCU202;
+- Webové prohlížeče: jsou v první linii útoků, protože zpracovávají neověřený obsah v reálném čase a mají obzvláště velký prostor pro útoky. Navíc hrají ústřední roli při ochraně vašich osobních údajů. A především mají tendenci nahrazovat mnoho softwarových aplikací, které se dříve používaly lokálně (e-mailoví klienti, kancelářské balíky, přehrávače médií...). K tomuto bodu se však vrátíme v další části kurzu SCU202;
 
 
 
 
 
-- Poštovní klienti*: přijímají přílohy nebo odkazy z externích zdrojů, které jsou nekontrolovatelné, a tudíž rizikové;
+- Poštovní klienti: přijímají přílohy nebo odkazy z externích zdrojů, které jsou nekontrolovatelné, a tudíž rizikové;
 
 
 
 
 
-- Komunikační nástroje* (TeamViewer, Zoom, Signal, Teams...): vzhledem ke své interaktivní povaze jsou cílem špionážních útoků nebo pokusů o vzdálené ovládání. Stejně jako e-mailoví klienti mohou komunikační nástroje sloužit jako vektory pro pokusy o phishing nebo distribuci škodlivých příloh;
+- **Komunikační nástroje** (TeamViewer, Zoom, Signal, Teams...): vzhledem ke své interaktivní povaze jsou cílem špionážních útoků nebo pokusů o vzdálené ovládání. Stejně jako e-mailoví klienti mohou komunikační nástroje sloužit jako vektory pro pokusy o phishing nebo distribuci škodlivých příloh;
 
 
 
 
 
-- Antivirové programy, brány firewall a další detekční řešení*: tyto nástroje mají obvykle zvýšená práva, protože neustále skenují soubory, procesy a síťová připojení. Zastaralá základna signatur, špatná konfigurace nebo zranitelnost samotného softwaru může umožnit, aby malware zůstal neodhalen, nebo dokonce získal zvýšená oprávnění.
+- Antivirové programy, brány firewall a další detekční řešení: tyto nástroje mají obvykle zvýšená práva, protože neustále skenují soubory, procesy a síťová připojení. Zastaralá základna signatur, špatná konfigurace nebo zranitelnost samotného softwaru může umožnit, aby malware zůstal neodhalen, nebo dokonce získal zvýšená oprávnění.
 
 
 
@@ -3893,7 +3893,7 @@ Jak jsme viděli v předchozí části, systém Windows byl v minulosti více vy
 
 
 
-- Microsoft Defender*: V systému Windows je kvalitní antivirový program základním předpokladem. Po mnoho let byl Microsoft Defender (dříve Windows Defender), integrovaný antivirus systému, považován za nespolehlivý a místo něj byla doporučována řešení třetích stran. Tento software se však postupem času výrazně zlepšil a nyní podle mého názoru postačuje k zajištění základní ochrany pro osobní použití. Přesto nesmíme roli antivirového softwaru přeceňovat: bezpečnost zajišťují především vaše vlastní digitální postupy. Jednou z předností programu Defender je jeho nativní integrace se systémem Windows. Kromě ochrany v reálném čase nabízí komplexní skenování, které můžete naplánovat na týden nebo spouštět ručně v pravidelných intervalech.
+- **Microsoft Defender**: V systému Windows je kvalitní antivirový program základním předpokladem. Po mnoho let byl Microsoft Defender (dříve Windows Defender), integrovaný antivirus systému, považován za nespolehlivý a místo něj byla doporučována řešení třetích stran. Tento software se však postupem času výrazně zlepšil a nyní podle mého názoru postačuje k zajištění základní ochrany pro osobní použití. Přesto nesmíme roli antivirového softwaru přeceňovat: bezpečnost zajišťují především vaše vlastní digitální postupy. Jednou z předností programu Defender je jeho nativní integrace se systémem Windows. Kromě ochrany v reálném čase nabízí komplexní skenování, které můžete naplánovat na týden nebo spouštět ručně v pravidelných intervalech.
 
 
 
@@ -3903,12 +3903,12 @@ Jak jsme viděli v předchozí části, systém Windows byl v minulosti více vy
 
 
 
-- Sada Sysinternals Suite*: jedná se o mnohem pokročilejší sadu nástrojů nabízených společností Microsoft pro diagnostiku, monitorování a řešení problémů systému Windows. Zde jsou hlavní nástroje této sady:
-    - Process Monitor*: umožňuje sledovat aktivní procesy, přístupy k souborům, registry atd. v reálném čase;
-    - Autoruns*: zobrazí všechny programy spuštěné při startu a pomůže vám rychle odhalit přetrvávající malware nebo aplikace, které by neměly být spuštěny;
-    - Process Explorer*: monitoruje procesy a detekuje podezřelé chování;
-    - TCPView*: vizualizuje aktivní síťová připojení (detekce abnormálních připojení) ;
-    - Sigcheck*: kontroluje digitální podpisy souborů na přítomnost škodlivého kódu.
+- **Sada Sysinternals Suite**: jedná se o mnohem pokročilejší sadu nástrojů nabízených společností Microsoft pro diagnostiku, monitorování a řešení problémů systému Windows. Zde jsou hlavní nástroje této sady:
+- **Process Monitor**: umožňuje sledovat aktivní procesy, přístupy k souborům, registry atd. v reálném čase;
+- **Autoruns**: zobrazí všechny programy spuštěné při startu a pomůže vám rychle odhalit přetrvávající malware nebo aplikace, které by neměly být spuštěny;
+- **Process Explorer**: monitoruje procesy a detekuje podezřelé chování;
+- **TCPView**: vizualizuje aktivní síťová připojení (detekce abnormálních připojení) ;
+- **Sigcheck**: kontroluje digitální podpisy souborů na přítomnost škodlivého kódu.
 
 
 
@@ -3918,7 +3918,7 @@ Jak jsme viděli v předchozí části, systém Windows byl v minulosti více vy
 
 
 
-- GlassWire*: nástroj pro monitorování sítě. Sleduje příchozí a odchozí připojení v reálném čase a upozorňuje na neobvyklé aktivity.
+- **GlassWire**: nástroj pro monitorování sítě. Sleduje příchozí a odchozí připojení v reálném čase a upozorňuje na neobvyklé aktivity.
 
 
 
@@ -3936,7 +3936,7 @@ Na dobře udržovaném počítači se systémem Linux používaném pro osobní 
 
 
 
-- Fail2ban*: sleduje systémové protokoly pro neúspěšné pokusy o přístup (například pokusy o přihlášení SSH hrubou silou). Při zjištění podezřelého chování dočasně zakáže útočící IP adresu Address prostřednictvím `iptables` ;
+- **Fail2ban**: sleduje systémové protokoly pro neúspěšné pokusy o přístup (například pokusy o přihlášení SSH hrubou silou). Při zjištění podezřelého chování dočasně zakáže útočící IP adresu Address prostřednictvím `iptables` ;
 
 
 
@@ -3946,7 +3946,7 @@ Na dobře udržovaném počítači se systémem Linux používaném pro osobní 
 
 
 
-- Lynis*: komplexní nástroj pro audit zabezpečení, který analyzuje váš systém a hledá chybné konfigurace, známé slabiny nebo odchylky od osvědčených postupů. Vytvoří přehlednou zprávu s bezpečnostním skóre a doporučeními.
+- **Lynis**: komplexní nástroj pro audit zabezpečení, který analyzuje váš systém a hledá chybné konfigurace, známé slabiny nebo odchylky od osvědčených postupů. Vytvoří přehlednou zprávu s bezpečnostním skóre a doporučeními.
 
 
 
@@ -3965,7 +3965,7 @@ systém macOS je proslulý svým zabezpečením, zejména díky zásadám podepi
 
 
 
-- KnockKnock*: prohledá všechny moduly Elements nakonfigurované ke spuštění při startu (agenti, démoni, moduly jádra...) a identifikuje ty, které jsou potenciálně podezřelé, nepodepsané nebo neznámé. Umožňuje rychle identifikovat škodlivé persistence v systému.
+- **KnockKnock**: prohledá všechny moduly Elements nakonfigurované ke spuštění při startu (agenti, démoni, moduly jádra...) a identifikuje ty, které jsou potenciálně podezřelé, nepodepsané nebo neznámé. Umožňuje rychle identifikovat škodlivé persistence v systému.
 
 
 
@@ -4549,7 +4549,7 @@ Kromě ochrany osobních údajů mohou vaše soubory představovat také skuteč
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4808,7 +4808,7 @@ Nakonec klikněte na tlačítko ve tvaru šipky v pravém horním rohu, abyste k
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4854,7 +4854,7 @@ Po aktivaci služby FileVault je třeba zvolit metodu obnovy v případě ztrát
 U externích paměťových médií (disky Hard, klíčenky USB atd.) se šifrování provádí pomocí diskového nástroje. Svazek bude nutné kompletně přeformátovat:
 
 - Vyberte zařízení, klikněte na "*Odstranit*"
-- Vyberte schéma "Tabulka oddílů GUID*"
+- Vyberte schéma "Tabulka oddílů GUID"
 - Pak vyberte formát šifrovaného souborového systému (*APFS* nebo *Mac OS extended*)
 - Zvolte si silné heslo
 - Klikněte na "*Delete*", poté na "*OK*" a šifrování je dokončeno
@@ -4934,7 +4934,7 @@ Tento balíček nainstaluje nástroj `exiftool`, který pak můžete používat 
 
 
 
-- Krok 2: Zobrazení metadat souborů** (ve francouzštině)
+- Krok 2: **Zobrazení metadat souborů** (ve francouzštině)
 
 
 
@@ -5680,7 +5680,7 @@ Mezi prohlížeče založené na Blinku patří také řada okrajovějších pro
 
 
 
-- Oblouk** :
+- **Oblouk**:
 
 
 
@@ -5698,7 +5698,7 @@ Z technického hlediska je Arc založen na Chromiu, ale zůstává proprietárn�
 
 
 
-- Polypan** :
+- **Polypan** :
 
 
 
@@ -5813,7 +5813,7 @@ Z hlediska zabezpečení a ochrany soukromí nabízí Zen nativní blokování s
 
 Zen Browser je zajímavou alternativou, pokud hledáte svobodné, inovativní, nenáročné a soukromí respektující prostředí Gecko.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Prohlížeče založené na WebKitu
 
@@ -6190,25 +6190,25 @@ Abyste se těmto útokům při procházení internetu vyhnuli, je důležité do
 
 
 
-- Analýza adresy URL**: útočníci často používají adresy velmi podobné původním (např. `micr0soft-support.com`, `paypal-verif.net` atd.). Někteří také nahrazují vizuálně podobné znaky a využívají znaky Unicode. Ověřte, zda kód Address přesně odpovídá očekávanému webu, bez podezřelých předpon nebo přípon.
+- **Analýza adresy URL**: útočníci často používají adresy velmi podobné původním (např. `micr0soft-support.com`, `paypal-verif.net` atd.). Někteří také nahrazují vizuálně podobné znaky a využívají znaky Unicode. Ověřte, zda kód Address přesně odpovídá očekávanému webu, bez podezřelých předpon nebo přípon.
 
 
 
 
 
-- Vyhněte se zkráceným odkazům**: služby jako `bit.ly` nebo `t.co` mohou maskovat konečný kód Address. Pokud obdržíte zkrácený odkaz, buďte podezřívaví nebo použijte službu pro rozšíření URL a zkontrolujte jeho cíl.
+- **Vyhněte se zkráceným odkazům**: služby jako `bit.ly` nebo `t.co` mohou maskovat konečný kód Address. Pokud obdržíte zkrácený odkaz, buďte podezřívaví nebo použijte službu pro rozšíření URL a zkontrolujte jeho cíl.
 
 
 
 
 
-- Pozor na poplašné zprávy**: pokusy o phishing často využívají silných emocí (naléhavost, hrozba, odměna, zvědavost...). E-mail, který tvrdí, že váš účet bude brzy zablokován nebo že zásilka nemůže být doručena, je přirozeně podezřelý.
+- **Pozor na poplašné zprávy**: pokusy o phishing často využívají silných emocí (naléhavost, hrozba, odměna, zvědavost...). E-mail, který tvrdí, že váš účet bude brzy zablokován nebo že zásilka nemůže být doručena, je přirozeně podezřelý.
 
 
 
 
 
-- Nikdy nepřenášejte citlivé informace prostřednictvím přijatého spojení**: Legitimní instituce po vás nikdy nebude chtít heslo, ověřovací kód nebo naskenovanou kopii vašeho průkazu totožnosti prostřednictvím jednoduchého e-mailu nebo SMS.
+- Nikdy nepřenášejte citlivé informace prostřednictvím přijatého spojení: Legitimní instituce po vás nikdy nebude chtít heslo, ověřovací kód nebo naskenovanou kopii vašeho průkazu totožnosti prostřednictvím jednoduchého e-mailu nebo SMS.
 
 
 
@@ -6218,7 +6218,7 @@ A zde je několik preventivních opatření, která můžete zavést přímo v p
 
 
 
-- Přístup k důležitým webům prostřednictvím záložek**:
+- **Přístup k důležitým webům prostřednictvím záložek**:
 
 
 
@@ -6232,7 +6232,7 @@ Obdrželi jste od finančního úřadu e-mail s odkazem? Neklikejte na něj. Mí
 
 
 
-- Dodržujte správné postupy ověřování** :
+- Dodržujte správné postupy **ověřování**:
 
 
 
@@ -6250,7 +6250,7 @@ Kromě těchto opatření vás před falešnými webovými stránkami může och
 
 
 
-- Kontrola certifikátů SSL/TLS**:
+- **Kontrola certifikátů SSL/TLS**:
 
 
 
@@ -6296,19 +6296,19 @@ Cíl je jednoduchý: zabránit tomu, aby incident zahrnující konkrétní aktiv
 
 
 
-- Používejte několik různých prohlížečů**: například Firefox pro osobní použití, Tor nebo Mullvad pro citlivé činnosti a Chromium pro profesionální úkoly. Každý prohlížeč používá vlastní instanci úložiště, která zcela izoluje soubory cookie, relace a rozšíření. To vám také umožňuje přizpůsobit nastavení prohlížeče konkrétním případům použití.
+- **Používejte několik různých prohlížečů**: například Firefox pro osobní použití, Tor nebo Mullvad pro citlivé činnosti a Chromium pro profesionální úkoly. Každý prohlížeč používá vlastní instanci úložiště, která zcela izoluje soubory cookie, relace a rozšíření. To vám také umožňuje přizpůsobit nastavení prohlížeče konkrétním případům použití.
 
 
 
 
 
-- Vytvoření více profilů v rámci jednoho prohlížeče**: některé prohlížeče umožňují vytvářet nezávislé profily, každý s vlastní historií, relacemi, rozšířeními a nastaveními. Toto řešení je o něco méně omezující než používání několika samostatných prohlížečů, ale stále méně efektivní.
+- **Vytvoření více profilů v rámci jednoho prohlížeče**: některé prohlížeče umožňují vytvářet nezávislé profily, každý s vlastní historií, relacemi, rozšířeními a nastaveními. Toto řešení je o něco méně omezující než používání několika samostatných prohlížečů, ale stále méně efektivní.
 
 
 
 
 
-- Používejte vestavěné kontejnery**: Firefox nabízí rozšíření [Kontejnery pro více účtů] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), které umožňuje otevřít samostatné karty, každou s vlastním přihlášením a soubory cookie. Určité weby můžete také automaticky přiřadit k určitému kontejneru, aby byly při každém otevření odděleny.
+- **Používejte vestavěné kontejnery**: Firefox nabízí rozšíření [Kontejnery pro více účtů] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), které umožňuje otevřít samostatné karty, každou s vlastním přihlášením a soubory cookie. Určité weby můžete také automaticky přiřadit k určitému kontejneru, aby byly při každém otevření odděleny.
 
 
 
@@ -6318,7 +6318,7 @@ Cíl je jednoduchý: zabránit tomu, aby incident zahrnující konkrétní aktiv
 
 
 
-- Použijte izolované systémové prostředí**: Pro obzvláště citlivé použití můžete prohlížeč spustit také ve virtuálním počítači nebo kontejneru Docker, aby byl zcela oddělen od hlavního prostředí.
+- **Použijte izolované systémové prostředí**: Pro obzvláště citlivé použití můžete prohlížeč spustit také ve virtuálním počítači nebo kontejneru Docker, aby byl zcela oddělen od hlavního prostředí.
 
 
 
@@ -7042,7 +7042,7 @@ Telegram je díky své ergonomii a funkcím (veřejné kanály, boti, velké sku
 Telegram tak může technicky přistupovat k obsahu většiny konverzací, které nejsou výslovně chráněny. I když společnost zaujímá pevný postoj vůči státním orgánům, není Telegram optimálním řešením pro důvěrné nebo citlivé výměny, pokud výslovně nepoužíváte jeho "tajné výměny", které jsou na každodenní bázi mnohem méně praktické.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -8070,8 +8070,8 @@ Internetová infrastruktura je založena především na dvou protokolech:
 
 
 
-- IP** (*Internet Protocol*) Identifikuje každé připojené zařízení a směruje datové pakety.
-- TCP** (*Protokol řízení přenosu*) Segmentuje tok, kontroluje chyby a segmenty opět seřadí.
+- **IP** (*Internet Protocol*) Identifikuje každé připojené zařízení a směruje datové pakety.
+- **TCP** (*Protokol řízení přenosu*) Segmentuje tok, kontroluje chyby a segmenty opět seřadí.
 
 
 → Pro použití v reálném čase, kde je spolehlivost méně důležitá než latence (VoIP, DNS, streamování atd.), se místo TCP často používá jiný přenosový protokol: UDP (*User Datagram Protocol*).
@@ -8105,14 +8105,14 @@ Toto zařízení kombinuje 2 hlavní funkce:
 
 
 
-- Role modemu**
+- Role modemu
 
 
 Modem (zkratka pro "*modulátor-demodulátor*") je součást, která propojuje síť poskytovatele internetu s vaší domácností. Upravuje elektrické nebo optické signály přijímané (optickým vláknem, koaxiálním kabelem, ADSL nebo mobilní sítí) na digitální signály, kterým rozumí vaše zařízení. Naopak převádí data z vašich zařízení do formátu, který lze přenášet přes infrastrukturu operátora. Tento krok je nezbytný, pokud má vaše domácí síť komunikovat s internetem.
 
 
 
-- Role směrovače**
+- Role směrovače
 
 
 Směrovač je srdcem místní sítě. Distribuuje internetové připojení do všech vašich zařízení: Počítače, chytré telefony, připojené objekty, tiskárny atd. Každému z nich přiřazuje místní IP adresu Address (odlišnou od vaší veřejné IP adresy viditelné na internetu). Směrovač pak organizuje příchozí a odchozí provoz a zajišťuje, aby se data dostala ke správnému zařízení. Může také integrovat bránu firewall, filtrovat síťové pakety nebo spravovat pravidla pro přesměrování portů. NAT maskuje vaši místní síť před zraky internetu a používá jedinou veřejnou IP adresu Address, která reprezentuje všechna vaše zařízení. Pouze směrovač ví, které místní zařízení iniciovalo který požadavek.
@@ -8356,21 +8356,21 @@ Některým funkcím je třeba se vyhnout nebo je systematicky deaktivovat:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Tato funkce umožňuje zařízením v síti požádat směrovač o automatické otevření portů. To sice usnadňuje některé způsoby použití (online hry, připojené kamery atd.), ale také otevírá dveře škodlivým aplikacím, které mohou bez vašeho svolení měnit konfiguraci sítě. UPnP je jednou z hlavních příčin neúmyslného vystavení interních služeb vnějšímu světu.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- WPS (*Wi-Fi Protected Setup*):
 
 
 Tento systém, který byl původně navržen pro zjednodušení připojování zařízení k síti Wi-Fi bez zadávání hesla, je založen na kódu PIN, který je často slabý a snadno napadnutelný hrubou silou. Doporučuji jej zakázat.
 
 
 
-- Vzdálený přístup (*Vzdálená správa*)**:
+- Vzdálený přístup (**Vzdálená správa**):
 
 
 Některé směrovače umožňují připojit se k jejich správě Interface zvenčí, prostřednictvím internetu. Tato funkce nepřiměřeně zvyšuje plochu pro útoky na váš směrovač. Zcela ji zakažte, pokud nemáte specifickou potřebu vzdálené správy. I v takovém případě vždy používejte síť VPN.
@@ -8379,14 +8379,14 @@ Některé směrovače umožňují připojit se k jejich správě Interface zven�
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Zastaralé nebo nezabezpečené protokoly**:
+- **Zastaralé nebo nezabezpečené protokoly**:
 
 
 Zakažte všechny služby správy, které používají protokoly s otevřeným textem, jako je Telnet, FTP, nešifrovaný protokol HTTP nebo SMBv1. Tyto protokoly nezajišťují důvěrnost ani integritu vyměňovaných dat a často se stávají cílem malwaru. Pokud potřebujete místní nebo vzdálený přístup, používejte pouze připojení přes protokol HTTPS (šifrovaný Interface), SSH nebo SFTP, podle potřeby.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Některé směrovače ve výchozím nastavení odpovídají na požadavky ICMP odeslané zvenčí (příkaz `ping`). Útočník tak může zkontrolovat, zda je vaše síť aktivní a přístupná. Pokud to nepotřebujete, zakažte tuto odpověď ve firewallu směrovače.
@@ -8475,15 +8475,15 @@ Dále aktivujte protokol šifrování dotazů DNS, abyste zabránili zachycení 
 
 
 
-- DoH (*DNS přes HTTPS*)**: Zapouzdřuje požadavky DNS do protokolu HTTPS, takže jsou k nerozeznání od běžného šifrovaného webového provozu
+- DoH (**DNS přes HTTPS**): Zapouzdřuje požadavky DNS do protokolu HTTPS, takže jsou k nerozeznání od běžného šifrovaného webového provozu
 
 
 
-- DoT (*DNS přes TLS*)**: Vytvoří specifický šifrovaný kanál mezi vaším zařízením a serverem DNS
+- DoT (**DNS přes TLS**): Vytvoří specifický šifrovaný kanál mezi vaším zařízením a serverem DNS
 
 
 
-- DoQ (*DNS over QUIC*)**: Přenáší požadavky DNS prostřednictvím protokolu QUIC založeného na protokolu UDP
+- **DoQ (*DNS over QUIC*)**: Přenáší požadavky DNS prostřednictvím protokolu QUIC založeného na protokolu UDP
 
 
 V praxi lze šifrování DNS a přepínání serverů realizovat na různých úrovních:
@@ -8598,3 +8598,4 @@ Dodržením těchto několika kroků vytvoříte robustní a bezpečné síťov�
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

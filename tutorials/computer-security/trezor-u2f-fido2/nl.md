@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Versterk je online beveiliging met Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Naast U2F, dat tweefactorauthenticatie mogelijk maakt, ondersteunen Trezors ook 
 
 
 
-Naast "wachtwoordloze*" functionaliteit maakt FIDO2 ook twee-factor authenticatie mogelijk op een vergelijkbare manier als U2F.
+Naast "wachtwoordloze" functionaliteit maakt FIDO2 ook twee-factor authenticatie mogelijk op een vergelijkbare manier als U2F.
 
 
 
@@ -164,7 +164,7 @@ Sluit de Trezor aan op je computer en ontgrendel hem.
 
 
 
-Ga naar het account dat u wilt beveiligen in de "wachtwoordloze*" modus. Ik gebruik een Bitwarden account als voorbeeld. Deze optie is meestal te vinden in de service-instellingen, vaak onder een tabblad "*authenticatie*", "*beveiliging*" of "*wachtwoord*".
+Ga naar het account dat u wilt beveiligen in de **wachtwoordloze** modus. Ik gebruik een Bitwarden account als voorbeeld. Deze optie is meestal te vinden in de service-instellingen, vaak onder een tabblad *authenticatie*, *beveiliging* of *wachtwoord*.
 
 
 

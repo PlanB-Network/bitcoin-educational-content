@@ -7,26 +7,26 @@ description: Use Ride The Lightning (RTL) to manage your Lightning node
 ## 1. Introduction
 
 
-**Ride The Lightning (RTL)** is a complete Interface web application for managing a Lightning Network node. This self-hosted web application offers a Lightning** "cockpit" accessible from your browser. RTL works with all major Lightning implementations (LND, Core Lightning/CLN and Eclair) and gives you total control over your node and channels. Open-source (MIT license) and free of charge, RTL is integrated by default in many turnkey node solutions (RaspiBlitz, MyNode, Umbrel, etc.).
+**Ride The Lightning (RTL)** is a complete Interface web application for managing a Lightning Network node. This self-hosted web application offers a Lightning **"cockpit"** accessible from your browser. RTL works with all major Lightning implementations (LND, Core Lightning/CLN and Eclair) and gives you total control over your node and channels. Open-source (MIT license) and free of charge, RTL is integrated by default in many turnkey node solutions (RaspiBlitz, MyNode, Umbrel, etc.).
 
 
-**Without a graphical Interface, Lightning nodes can only be managed via user-friendly CLI commands. RTL simplifies these operations with an ergonomic Interface. Here are the **main applications**:
-
-
-
-- View your channels and node** - The dashboard displays On-Chain balance, Lightning liquidity (local/remote), synchronization status, node alias and more. You can view your channel list, capacity, local/remote distribution and status. RTL offers context-sensitive dashboards to analyze activity from different angles.
+**Without a graphical Interface, Lightning nodes can only be managed via user-friendly CLI commands. RTL simplifies these operations with an ergonomic Interface. Here are the main applications:**
 
 
 
-- Lightning channel management** - Open/close channels with a few clicks. RTL lets you connect to a peer and open a channel without a command. You can adjust routing fees, view the balance score, or initiate a circular rebalance to rebalance funds between channels.
+- View your channels and node - The dashboard displays On-Chain balance, Lightning liquidity (local/remote), synchronization status, node alias and more. You can view your channel list, capacity, local/remote distribution and status. RTL offers context-sensitive dashboards to analyze activity from different angles.
 
 
 
-- Track and make payments** - RTL manages Lightning transactions: send payments via invoices, generate invoices to receive, track transactions (payments, routing) with detailed history. Interface also analyzes routing to see which payments are passing through your node.
+- **Lightning channel management** - Open/close channels with a few clicks. RTL lets you connect to a peer and open a channel without a command. You can adjust routing fees, view the balance score, or initiate a circular rebalance to rebalance funds between channels.
 
 
 
-- Wallet On-Chain management and backup** - The On-Chain tab lets you generate addresses and send transactions. RTL makes it easy to save channels by exporting the SCB file for LND, with automatic update for each channel modification.
+- **Track and make payments** - RTL manages Lightning transactions: send payments via invoices, generate invoices to receive, track transactions (payments, routing) with detailed history. Interface also analyzes routing to see which payments are passing through your node.
+
+
+
+- **Wallet On-Chain management and backup** - The On-Chain tab lets you generate addresses and send transactions. RTL makes it easy to save channels by exporting the SCB file for LND, with automatic update for each channel modification.
 
 
 In short, RTL is a **powerful dashboard for the Lightning Network**, offering an educational Interface for piloting your node on a daily basis. This tutorial will guide you through its installation and use to manage your channels and payments.
@@ -104,9 +104,9 @@ This command installs the necessary NPM packages (ignoring development dependenc
 
 
 
-   - UI password**: choose a secure password and enter it in `multiPass` (instead of the default `"password"`).
-   - Port**: default `3000`. You can change it if this port is already taken on your machine.
-   - Node**: in the `nodes[0]` section, adjust the parameters for your node:
+- **UI password**: choose a secure password and enter it in `multiPass` (instead of the default `"password"`).
+- **Port**: default `3000`. You can change it if this port is already taken on your machine.
+- **Node**: in the `nodes[0]` section, adjust the parameters for your node:
      - `lnNode`: a descriptive name for your node (e.g. `"LND Node Maison"`).
      - lnImplementation`: `"LND"` (or `"CLN"`/`"ECL"` as appropriate).
      - Under `authentication`:
@@ -206,8 +206,8 @@ If you use [Umbrel](https://getumbrel.com), RTL installation is much simpler:
 **Important note: there are two separate RTL applications in the Umbrel App Store:**
 
 
-- Ride The Lightning** (for LND): for use with Umbrel's default Lightning node (LND).
-- Ride The Lightning (Core Lightning)**: use only if you have installed the *Core Lightning* application on Umbrel and wish to manage this node with RTL.
+- **Ride The Lightning** (for LND): for use with Umbrel's default Lightning node (LND).
+- **Ride The Lightning (Core Lightning)**: use only if you have installed the *Core Lightning* application on Umbrel and wish to manage this node with RTL.
 
 
 *Each RTL version is preconfigured to dialogue with the corresponding implementation (LND or Core Lightning). If you haven't changed your Lightning node, simply choose the classic LND version*
@@ -480,9 +480,9 @@ To monitor your node, you can export RTL data (logs, CSV) and view them in tools
 Never expose RTL directly on the Internet. Give preference to :
 
 
-- VPN** (e.g. Tailscale) for private, encrypted access
-- Tor** for secure, anonymous access
-- Reverse proxy HTTPS** (Nginx/Caddy) only if you know how to configure it
+- **VPN** (e.g. Tailscale) for private, encrypted access
+- **Tor** for secure, anonymous access
+- Reverse proxy **HTTPS** (Nginx/Caddy) only if you know how to configure it
 
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
@@ -491,11 +491,11 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-- Protect your access**: never share admin.macaroon or your RTL password. Limit permissions on sensitive files.
-- Regular backups**: export the channel backup file (SCB) after each modification and store it outside the node.
-- Updates**: keep RTL, your node and Umbrel up to date with the latest security fixes.
-- Confidentiality**: anonymize logs and screenshots before sharing them. Never share your balances or peer lists publicly.
-- Single access**: RTL is not multi-user. Do not share admin access. For read-only access, use a dedicated macaroon if necessary.
+- **Protect your access**: never share admin.macaroon or your RTL password. Limit permissions on sensitive files.
+- **Regular backups**: export the channel backup file (SCB) after each modification and store it outside the node.
+- **Updates**: keep RTL, your node and Umbrel up to date with the latest security fixes.
+- **Confidentiality**: anonymize logs and screenshots before sharing them. Never share your balances or peer lists publicly.
+- **Single access**: RTL is not multi-user. Do not share admin access. For read-only access, use a dedicated macaroon if necessary.
 
 
 By applying these principles, you greatly limit the risks and retain control over your Lightning node.
@@ -515,10 +515,10 @@ To find out more :
 
 - Official RTL website: https://www.ridethelightning.info/
 - GitHub RTL: https://github.com/Ride-The-Lightning/RTL
-- Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Technical discussions, project announcements, feedback and educational resources
-- Umbrel Community Forum**: [community.getumbrel.com](https://community.getumbrel.com) - Official forum with dedicated Bitcoin/Lightning section, guides and solutions to common problems
-- Lightning Network Developers**: [github.com/lightning](https://github.com/lightning) - Official GitHub repository for following development and contributing source code
-- Stack Exchange Bitcoin** : [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Technical Q&A with developers and advanced users
+- **Reddit r/lightningnetwork**: [r/lightningnetwork](https://www.reddit.com/r/lightningnetwork) - Technical discussions, project announcements, feedback and educational resources
+- **Umbrel Community Forum**: [community.getumbrel.com](https://community.getumbrel.com) - Official forum with dedicated Bitcoin/Lightning section, guides and solutions to common problems
+- **Lightning Network Developers**: [github.com/lightning](https://github.com/lightning) - Official GitHub repository for following development and contributing source code
+- **Stack Exchange Bitcoin**: [Bitcoin.stackexchange.com](https://Bitcoin.stackexchange.com) - Technical Q&A with developers and advanced users
 
 
 In short, RTL gives you total control over your Lightning node, in a modern, full-featured Interface.

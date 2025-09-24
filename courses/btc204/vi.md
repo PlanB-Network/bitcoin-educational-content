@@ -260,7 +260,7 @@ Cách duy nhất để tránh sự trùng lặp này của một tài sản kỹ
 
 Trên Bitcoin, việc chi tiêu gấp đôi cũng được ngăn chặn theo cách tương tự. Chúng tôi tìm cách xác nhận không có giao dịch nào đã chi tiêu số tiền đang được đề cập. Nếu số tiền chưa bao giờ được sử dụng, thì chúng tôi có thể chắc chắn rằng sẽ không xảy ra tình trạng chi tiêu gấp đôi. Nguyên tắc này đã được Satoshi Nakamoto mô tả trong Sách trắng với câu nói nổi tiếng:
 
-**Cách duy nhất để xác nhận sự vắng mặt của giao dịch là nhận thức được tất cả các giao dịch
+**Cách duy nhất để xác nhận sự vắng mặt của giao dịch là nhận thức được tất cả các giao dịch**
 
 Nhưng không giống như mô hình ngân hàng, chúng ta không muốn phải tin tưởng một thực thể trung tâm trên Bitcoin. Vì vậy, tất cả người dùng cần có khả năng xác nhận sự vắng mặt của chi tiêu gấp đôi này, mà không cần dựa vào bên thứ ba. Vì vậy, mọi người cần phải biết về tất cả các giao dịch Bitcoin. Đây là lý do tại sao các giao dịch Bitcoin được phát sóng công khai trên tất cả các nút mạng và được ghi lại dưới dạng văn bản rõ trên blockchain.
 
@@ -352,8 +352,8 @@ Những phương pháp tìm kiếm thông tin nổi tiếng này có thể đư�
 
 
 - Mẫu giao dịch ;**
-- Thuật toán tìm kiếm nội bộ giao dịch ;**
-- Phương pháp tìm kiếm bên ngoài giao dịch.**
+- Thuật toán tìm kiếm nội bộ giao dịch;
+- Phương pháp tìm kiếm bên ngoài giao dịch.
 
 ### Satoshi Nakamoto và phân tích chuỗi
 
@@ -1014,10 +1014,10 @@ ___
 *Để viết phần 3 về phân tích chuỗi, tôi đã dựa vào các nguồn sau:*
 
 
-- Loạt bài viết gồm bốn bài viết có tiêu đề: [Hiểu về quyền riêng tư của Bitcoin với OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), do Samourai Wallet thực hiện vào năm 2021;*
-- Nhiều báo cáo khác nhau từ [OXT Research](https://medium.com/oxt-research), cũng như công cụ phân tích blockchain miễn phí của họ (hiện không còn khả dụng sau khi những người sáng lập Samourai Wallet bị bắt) ;*
-- Nói rộng hơn, kiến thức của tôi đến từ nhiều dòng tweet và nội dung khác nhau của [@LaurentMT](https://twitter.com/LaurentMT) và [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
-- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) mà tôi tham gia cùng với [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) và [@LaurentMT](https://twitter.com/LaurentMT).*
+- Loạt bài viết gồm bốn bài viết có tiêu đề: [Hiểu về quyền riêng tư của Bitcoin với OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), do Samourai Wallet thực hiện vào năm 2021;
+- Nhiều báo cáo khác nhau từ [OXT Research](https://medium.com/oxt-research), cũng như công cụ phân tích blockchain miễn phí của họ (hiện không còn khả dụng sau khi những người sáng lập Samourai Wallet bị bắt);
+- Nói rộng hơn, kiến thức của tôi đến từ nhiều dòng tweet và nội dung khác nhau của [@LaurentMT](https://twitter.com/LaurentMT) và [@ErgoBTC](https://twitter.com/ErgoBTC);
+- [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) mà tôi tham gia cùng với [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) và [@LaurentMT](https://twitter.com/LaurentMT).
 
 *Tôi muốn cảm ơn các tác giả, nhà phát triển và nhà sản xuất của họ. Cũng xin cảm ơn những người hiệu đính đã tỉ mỉ chỉnh sửa bài viết mà phần 3 này dựa trên, và cho tôi lời khuyên chuyên môn của họ :*
 
@@ -1047,7 +1047,7 @@ Về mặt kỹ thuật, một địa chỉ nhận Bitcoin không "nhận" bitco
 > "*Để sử dụng UTXO mới này, bạn phải cung cấp chữ ký số bằng khóa riêng được liên kết với địa chỉ nhận này.*"
 ![BTC204](assets/fr/067.webp)
 
-Địa chỉ Bitcoin có nhiều loại khác nhau, tùy thuộc vào mô hình tập lệnh được sử dụng. Các mô hình đầu tiên, được gọi là "Legacy*", bao gồm các địa chỉ `P2PKH` (*Pay-to-PubKey-Hash*) và `P2SH` (*Pay-to-Script-Hash*). Địa chỉ P2PKH luôn bắt đầu bằng `1` và P2SH bằng `3`. Mặc dù vẫn an toàn, nhưng các định dạng này hiện đã lỗi thời vì chúng đòi hỏi chi phí giao dịch cao hơn và ít bảo mật hơn so với các tiêu chuẩn mới.
+Địa chỉ Bitcoin có nhiều loại khác nhau, tùy thuộc vào mô hình tập lệnh được sử dụng. Các mô hình đầu tiên, được gọi là **Legacy**, bao gồm các địa chỉ `P2PKH` (*Pay-to-PubKey-Hash*) và `P2SH` (*Pay-to-Script-Hash*). Địa chỉ P2PKH luôn bắt đầu bằng `1` và P2SH bằng `3`. Mặc dù vẫn an toàn, nhưng các định dạng này hiện đã lỗi thời vì chúng đòi hỏi chi phí giao dịch cao hơn và ít bảo mật hơn so với các tiêu chuẩn mới.
 
 Địa chỉ SegWit V0 (`P2WPKH` và `P2WSH`) và Taproot / SegWit V1 (`P2TR`) đại diện cho các định dạng hiện đại. Địa chỉ SegWit bắt đầu bằng `bc1q` và địa chỉ Taproot, được giới thiệu vào năm 2021, bắt đầu bằng `bc1p`.
 
@@ -1494,7 +1494,7 @@ Những cách khác để có được bitcoin trong khi vẫn bảo vệ quyề
 
 Một phương pháp khác là làm việc để đổi lấy bitcoin. Phương pháp mua này có thể thú vị, nhưng mức độ nhận dạng cần thiết thay đổi đáng kể tùy thuộc vào hoàn cảnh.
 
-*Để viết chương này, tôi đã sử dụng khóa đào tạo BTC205 do [@pivi___](https://x.com/pivi___) cung cấp trên Plan ₿ Network (hiện chỉ có bằng tiếng Pháp)
+*Để viết chương này, tôi đã sử dụng khóa đào tạo BTC205 do [@pivi___](https://x.com/pivi___) cung cấp trên Plan ₿ Network (hiện chỉ có bằng tiếng Pháp)*
 
 ## Hợp nhất, quản lý UTXO và CIOH
 
@@ -1592,11 +1592,11 @@ Hãy cùng xem xét một số biện pháp tốt nhất khác để tối ưu h
 Sở hữu bitcoin của bạn trong sự tự quản là điều tuyệt vời, nhưng sử dụng nút hoàn chỉnh của riêng bạn thậm chí còn tuyệt vời hơn! Sau đây là lý do tại sao việc có nút riêng của bạn lại rất quan trọng để sử dụng Bitcoin một cách hoàn toàn có chủ quyền:
 
 
-- Chống kiểm duyệt**: Giao dịch của bạn không thể bị bất kỳ ai chặn;
-- Độc lập với bên thứ ba**: Bạn không còn phụ thuộc vào bất kỳ dịch vụ bên ngoài nào để xác minh dữ liệu blockchain;
-- Tham gia tích cực**: Bạn có thể xác định các quy tắc xác thực của riêng mình và tham gia trực tiếp vào quá trình đồng thuận;
-- Đóng góp cho mạng lưới**: Bằng cách vận hành một nút, bạn giúp củng cố và phân phối mạng lưới Bitcoin;
-- Giáo dục kỹ thuật**: Quản lý một nút hoàn chỉnh là cách tuyệt vời để đào sâu kiến thức kỹ thuật về Bitcoin của bạn.
+- **Chống kiểm duyệt**: Giao dịch của bạn không thể bị bất kỳ ai chặn;
+- **Độc lập với bên thứ ba**: Bạn không còn phụ thuộc vào bất kỳ dịch vụ bên ngoài nào để xác minh dữ liệu blockchain;
+- **Tham gia tích cực**: Bạn có thể xác định các quy tắc xác thực của riêng mình và tham gia trực tiếp vào quá trình đồng thuận;
+- **Đóng góp cho mạng lưới**: Bằng cách vận hành một nút, bạn giúp củng cố và phân phối mạng lưới Bitcoin;
+- **Giáo dục kỹ thuật**: Quản lý một nút hoàn chỉnh là cách tuyệt vời để đào sâu kiến thức kỹ thuật về Bitcoin của bạn.
 
 Ngoài những lợi ích này, việc sử dụng một nút hoàn chỉnh cũng cải thiện tính bảo mật của bạn khi phát sóng các giao dịch của mình. Khi bạn phát hành một giao dịch, trước tiên nó được tạo và ký thông qua ví của bạn. Để phát sóng nó trên mạng Bitcoin, nó phải được ít nhất một nút biết đến. Bằng cách sử dụng nút của riêng bạn, bạn có quyền kiểm soát trực tiếp đối với việc phân phối này, do đó tăng cường tính bảo mật của bạn và hạn chế rủi ro rò rỉ dữ liệu.
 
@@ -1765,7 +1765,7 @@ Cái gọi là coinjoin "Chaumian" kết hợp việc sử dụng Tor và chữ 
 
 Quá trình xây dựng giao dịch coinjoin bao gồm 3 giai đoạn chính: đăng ký đầu vào, đăng ký đầu ra và chữ ký giao dịch. Chúng ta hãy xem xét quá trình này thông qua ví dụ về Alice, một trong những người tham gia coinjoin. Tất cả những người tham gia khác đều làm theo các bước giống như Alice, mỗi người tự làm.
 
-**Bước 1: Nhập đăng ký
+**Bước 1: Nhập đăng ký**
 
 
 - Alice truyền cho điều phối viên UTXO mà cô ấy muốn sử dụng làm đầu vào cho giao dịch, cũng như địa chỉ nhận được che giấu mà cô ấy muốn sử dụng làm đầu ra để nhận bitcoin của mình. Do đó, điều phối viên không có cách nào biết được địa chỉ của Alice. Nó chỉ thấy phiên bản được che giấu của cô ấy:
@@ -1816,7 +1816,7 @@ Chính xác là 2 khía cạnh công khai và riêng tư này, được hỗ tr�
 
 Thật khó để nói chắc chắn ai là người đầu tiên giới thiệu ý tưởng coinjoin cho Bitcoin và ai là người đưa ra ý tưởng sử dụng chữ ký ẩn danh của David Chaum trong bối cảnh này. Người ta thường nghĩ rằng Gregory Maxwell là người đầu tiên đề cập đến nó trong [một tin nhắn trên BitcoinTalk năm 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
-> *"Sử dụng chữ ký mù của Chaum: Người dùng đăng nhập và cung cấp dữ liệu đầu vào (và trao đổi địa chỉ) cũng như phiên bản ẩn mật mã của địa chỉ mà họ muốn gửi các phần riêng tư của mình; máy chủ ký các mã thông báo và gửi lại. Người dùng kết nối lại ẩn danh, bỏ ẩn địa chỉ đầu ra của họ và gửi lại cho máy chủ. Máy chủ có thể thấy rằng tất cả các đầu ra đã được nó ký và do đó, tất cả các đầu ra đều đến từ những người tham gia hợp lệ. Sau đó, mọi người kết nối lại và đăng nhập
+> *"Sử dụng chữ ký mù của Chaum: Người dùng đăng nhập và cung cấp dữ liệu đầu vào (và trao đổi địa chỉ) cũng như phiên bản ẩn mật mã của địa chỉ mà họ muốn gửi các phần riêng tư của mình; máy chủ ký các mã thông báo và gửi lại. Người dùng kết nối lại ẩn danh, bỏ ẩn địa chỉ đầu ra của họ và gửi lại cho máy chủ. Máy chủ có thể thấy rằng tất cả các đầu ra đã được nó ký và do đó, tất cả các đầu ra đều đến từ những người tham gia hợp lệ. Sau đó, mọi người kết nối lại và đăng nhập"*
 Maxwell, G. (2013, ngày 22 tháng 8). *CoinJoin: Quyền riêng tư của Bitcoin cho thế giới thực*. Diễn đàn BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
 
 ![BTC204](assets/fr/124.webp)
@@ -1854,7 +1854,7 @@ Hiện tại, Whirlpool là triển khai coinjoin duy nhất áp dụng nghiêm 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
 
-*Vào năm 2024, chúng ta đang chứng kiến những thay đổi lớn trong các công cụ dành cho người dùng muốn thực hiện coinjoin trên Bitcoin. Hiện tại chúng ta đang ở một bước ngoặt và thị trường coinjoin đang trải qua quá trình tái cấu trúc lớn. Chương này chắc chắn sẽ được cập nhật theo thời gian
+*Vào năm 2024, chúng ta đang chứng kiến những thay đổi lớn trong các công cụ dành cho người dùng muốn thực hiện coinjoin trên Bitcoin. Hiện tại chúng ta đang ở một bước ngoặt và thị trường coinjoin đang trải qua quá trình tái cấu trúc lớn. Chương này chắc chắn sẽ được cập nhật theo thời gian.*
 
 Hiện tại có chủ yếu 3 cách triển khai coinjoin khác nhau trên Bitcoin:
 
@@ -1999,17 +1999,13 @@ Một nhóm đại diện cho một nhóm người dùng muốn kết hợp vớ
 
 Khi bạn tham gia một nhóm với số bitcoin của mình, chúng sẽ được chia nhỏ để tạo ra UTXO hoàn toàn đồng nhất với những người tham gia khác trong nhóm. Mỗi nhóm có giới hạn tối đa, vì vậy đối với số lượng vượt quá giới hạn này, bạn sẽ phải thực hiện hai mục nhập riêng biệt vào cùng một nhóm hoặc chuyển sang nhóm khác có số lượng cao hơn:
 
-| Pool (bitcoin) | Số tiền tối đa cho mỗi mục nhập (bitcoin) |
+| Pool (bitcoin) | Maximum amount per entry (bitcoin) |
+|----------------|------------------------------------|
+| 0.5            | 35                                 |
+| 0.05           | 3.5                                |
+| 0.01           | 0.7                                |
+| 0.001          | 0.025                              |
 
-|----------------|---------------------------------------------------|
-
-| 0,5 | 35 |
-
-| 0,05 | 3,5 |
-
-| 0,01 | 0,7 |
-
-| 0,001 | 0,025 |
 
 UTXO được coi là thuộc về một nhóm khi nó đã sẵn sàng để được tích hợp vào coinjoin. Tuy nhiên, điều này không có nghĩa là người dùng mất quyền sở hữu nó. Như chúng ta đã thấy trong các chương đầu tiên của phần này, thông qua các chu kỳ trộn khác nhau, bạn vẫn giữ được quyền kiểm soát hoàn toàn đối với các khóa của mình và do đó, đối với bitcoin của mình. Đây là điều tạo nên sự khác biệt giữa kỹ thuật coinjoin với các kỹ thuật trộn tập trung khác.
 
@@ -2017,17 +2013,14 @@ UTXO được coi là thuộc về một nhóm khi nó đã sẵn sàng để đ
 
 Phí dịch vụ sử dụng Whirlpool chỉ phải trả một lần khi bạn tham gia nhóm. Sau khi tham gia, bạn có thể tham gia số lượng bản phối lại không giới hạn mà không phải trả thêm phí. Sau đây là mức phí cố định hiện tại cho mỗi nhóm:
 
-| Pool (bitcoin) | Phí tham gia (bitcoin) |
 
-|----------------|------------------------------------------------|
+| Pool (bitcoin) | Entry fee (bitcoin)  |
+| -------------- | -------------------- |
+| 0,5            | 0,0175               |
+| 0,05           | 0,00175              |
+| 0,01           | 0,0005 (50 000 sats) |
+| 0,001          | 0,00005 (5 000 sats) |
 
-| 0,5 | 0,0175 |
-
-| 0,05 | 0,00175 |
-
-| 0,01 | 0,0005 (50.000 sat) |
-
-| 0,001 | 0,00005 (5.000 sat) |
 
 Các khoản phí này về cơ bản hoạt động như một vé vào nhóm đã chọn, bất kể số tiền bạn bỏ vào coinjoin là bao nhiêu. Vì vậy, cho dù bạn vào nhóm 0,01 với đúng 0,01 BTC hay 0,5 BTC, thì các khoản phí sẽ vẫn giữ nguyên theo giá trị tuyệt đối.
 
@@ -2144,12 +2137,12 @@ Tiếp theo, bạn sẽ cần phải cẩn thận về việc quản lý sàn gi
 Sau đây là một số chiến lược sử dụng chúng:
 
 
-- Trộn chúng thành các nhóm nhỏ hơn:** Nếu UTXO độc hại của bạn đủ lớn để có thể tự mình ghép vào một nhóm nhỏ hơn, hãy cân nhắc việc trộn nó. Đây thường là lựa chọn tốt nhất. Tuy nhiên, không nên hợp nhất nhiều UTXO độc hại để truy cập vào một nhóm vì điều này có thể liên kết các mục nhập khác nhau của bạn;
-- Đánh dấu chúng là "không thể chi tiêu":** Một cách tiếp cận khác là ngừng sử dụng chúng, đánh dấu chúng là "không thể chi tiêu" trong tài khoản chuyên dụng của chúng và chỉ giữ chúng. Điều này đảm bảo rằng bạn không vô tình chi tiêu chúng. Nếu giá trị của bitcoin tăng, các nhóm mới phù hợp hơn với UTXO độc hại của bạn có thể xuất hiện;
-- Quyên góp:** Hãy cân nhắc quyên góp, dù ít, cho các nhà phát triển làm việc trên Bitcoin và phần mềm liên quan. Bạn cũng có thể quyên góp cho các hiệp hội chấp nhận BTC. Nếu việc quản lý UTXO độc hại của bạn có vẻ quá phức tạp, bạn chỉ cần loại bỏ chúng và quyên góp;
-- Mua thẻ quà tặng:** Các nền tảng như [Bitrefill](https://www.bitrefill.com/) cho phép bạn đổi bitcoin lấy thẻ quà tặng có thể sử dụng tại nhiều nhà bán lẻ khác nhau. Đây có thể là cách để bạn chia tay với UTXO độc hại mà không mất đi giá trị liên quan;
-- Hợp nhất chúng trên Monero:** Samourai Wallet cung cấp dịch vụ hoán đổi nguyên tử giữa BTC và XMR. Điều này lý tưởng để quản lý UTXO độc hại bằng cách hợp nhất chúng trên Monero, mà không làm ảnh hưởng đến tính bảo mật của bạn thông qua CIOH, trước khi gửi chúng trở lại Bitcoin. Tuy nhiên, tùy chọn này có thể tốn kém về mặt phí khai thác và phí bảo hiểm do hạn chế về thanh khoản;
-- Gửi chúng đến Lightning Network:** Việc chuyển các UTXO này đến Lightning Network để hưởng lợi từ phí giao dịch giảm có thể là một lựa chọn hấp dẫn. Tuy nhiên, phương pháp này có thể tiết lộ một số thông tin tùy thuộc vào cách bạn sử dụng Lightning và do đó nên thận trọng khi sử dụng.
+- Trộn chúng thành các nhóm nhỏ hơn: Nếu UTXO độc hại của bạn đủ lớn để có thể tự mình ghép vào một nhóm nhỏ hơn, hãy cân nhắc việc trộn nó. Đây thường là lựa chọn tốt nhất. Tuy nhiên, không nên hợp nhất nhiều UTXO độc hại để truy cập vào một nhóm vì điều này có thể liên kết các mục nhập khác nhau của bạn;
+- Đánh dấu chúng là **"không thể chi tiêu"**: Một cách tiếp cận khác là ngừng sử dụng chúng, đánh dấu chúng là "không thể chi tiêu" trong tài khoản chuyên dụng của chúng và chỉ giữ chúng. Điều này đảm bảo rằng bạn không vô tình chi tiêu chúng. Nếu giá trị của bitcoin tăng, các nhóm mới phù hợp hơn với UTXO độc hại của bạn có thể xuất hiện;
+- **Quyên góp:** Hãy cân nhắc quyên góp, dù ít, cho các nhà phát triển làm việc trên Bitcoin và phần mềm liên quan. Bạn cũng có thể quyên góp cho các hiệp hội chấp nhận BTC. Nếu việc quản lý UTXO độc hại của bạn có vẻ quá phức tạp, bạn chỉ cần loại bỏ chúng và quyên góp;
+- **Mua thẻ quà tặng:** Các nền tảng như [Bitrefill](https://www.bitrefill.com/) cho phép bạn đổi bitcoin lấy thẻ quà tặng có thể sử dụng tại nhiều nhà bán lẻ khác nhau. Đây có thể là cách để bạn chia tay với UTXO độc hại mà không mất đi giá trị liên quan;
+- Hợp nhất chúng trên Monero: **Samourai Wallet** cung cấp dịch vụ hoán đổi nguyên tử giữa BTC và XMR. Điều này lý tưởng để quản lý UTXO độc hại bằng cách hợp nhất chúng trên Monero, mà không làm ảnh hưởng đến tính bảo mật của bạn thông qua CIOH, trước khi gửi chúng trở lại Bitcoin. Tuy nhiên, tùy chọn này có thể tốn kém về mặt phí khai thác và phí bảo hiểm do hạn chế về thanh khoản;
+- Gửi chúng đến Lightning Network: Việc chuyển các UTXO này đến Lightning Network để hưởng lợi từ phí giao dịch giảm có thể là một lựa chọn hấp dẫn. Tuy nhiên, phương pháp này có thể tiết lộ một số thông tin tùy thuộc vào cách bạn sử dụng Lightning và do đó nên thận trọng khi sử dụng.
 
 ### Tôi sử dụng Whirlpool như thế nào?
 
@@ -2163,11 +2156,11 @@ Chúng tôi đang theo dõi chặt chẽ trường hợp này và các diễn bi
 
 Trong chương tiếp theo, chúng ta sẽ tìm hiểu "anonset" là gì, cách tính các chỉ số này và cách chúng có thể giúp chúng ta ước tính hiệu quả của các chu kỳ coinjoin.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## Bộ ẩn danh
 
@@ -2199,8 +2192,8 @@ Nếu cần, anonset có thể được sử dụng để đánh giá chất lư
 Có 2 loại anonset:
 
 
-- Sự khởi phát tiềm năng ;**
-- Khởi phát hồi cứu.**
+- Sự khởi phát tiềm năng;
+- Khởi phát hồi cứu.
 
 ### Sự khởi phát tiềm năng
 
@@ -2242,7 +2235,7 @@ Có thể tính toán anonset thủ công bằng trình khám phá khối cho c�
 
 Như chúng ta đã thấy trong chương này, anonset chỉ có thể được tính toán nếu có một sự đồng nhất nhất định trong cấu trúc coinjoin. Trong chương tiếp theo, chúng ta sẽ tìm hiểu cách định lượng sự đồng nhất này trên một giao dịch Bitcoin, cho dù đó là coinjoin hay một giao dịch truyền thống hơn.
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## Sự hỗn loạn
 
@@ -2591,7 +2584,7 @@ Khó khăn khi sử dụng payjoin nằm ở sự phụ thuộc vào sự tham g
 
 Một giải pháp là sử dụng các cấu trúc giao dịch đưa sự mơ hồ vào phân tích chuỗi mà không yêu cầu sự hợp tác của người nhận. Điều này sẽ cho phép chúng tôi cải thiện tính bảo mật của các khoản thanh toán mà không cần dựa vào sự tham gia tích cực của các thương gia. Đây chính xác là những gì chúng ta sẽ xem xét trong chương tiếp theo.
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
@@ -3005,7 +2998,7 @@ Ví dụ, trong hệ thống ngân hàng truyền thống, chúng ta thường c
 
 Tuy nhiên, Bitcoin hoạt động theo cách khác: một địa chỉ nhận mới phải được tạo cho mỗi giao dịch đến. Sự thỏa hiệp giữa tính dễ sử dụng và tính bảo mật này bắt nguồn từ chính nguồn gốc của Sách trắng Bitcoin. Ngay từ khi xuất bản phiên bản đầu tiên của tài liệu vào cuối năm 2008, Satoshi Nakamoto đã cảnh báo chúng ta về rủi ro này:
 
-**Là một tường lửa bổ sung, một cặp khóa mới có thể được sử dụng cho mỗi giao dịch để giữ chúng không được liên kết với một chủ sở hữu chung
+**Là một tường lửa bổ sung, một cặp khóa mới có thể được sử dụng cho mỗi giao dịch để giữ chúng không được liên kết với một chủ sở hữu chung**
 
 Có nhiều cách để nhận nhiều khoản thanh toán trên một mã định danh duy nhất mà không cần phải sử dụng lại địa chỉ. Mỗi cách đều có những đánh đổi và nhược điểm riêng. Trong số các phương pháp này có BIP47, một đề xuất do Justus Ranvier phát triển và công bố vào năm 2015. Đề xuất này nhằm mục đích tạo ra các mã thanh toán có thể tái sử dụng cho phép thực hiện nhiều giao dịch với cùng một người, đồng thời tránh việc sử dụng lại địa chỉ. Tóm lại, BIP47 hướng đến mục tiêu cung cấp một hệ thống thanh toán trực quan như một mã định danh duy nhất, đồng thời bảo vệ tính bảo mật của các giao dịch.
 
@@ -3074,12 +3067,12 @@ Như đã đề cập trước đó, mã thanh toán có thể tái sử dụng 
 Mã thanh toán dài 80 byte được chia nhỏ như sau:
 
 
-- Byte `0`: Phiên bản**. Đối với phiên bản đầu tiên của BIP47, byte này được đặt thành `0x01`;
-- Byte `1`: Trường bit**. Không gian này được dành riêng để tích hợp các chỉ dẫn bổ sung cho mục đích sử dụng cụ thể. Đối với mục đích sử dụng PayNym cổ điển, byte này được đặt thành `0x00`;
-- Byte `2`: Tính chẵn lẻ của `y`**. Byte này là `0x02` hoặc `0x03`, cho biết số thứ tự của khóa công khai là chẵn hay lẻ, vì khóa công khai được nén được sử dụng;
-- Từ byte `3` đến byte `34`: Giá trị của `x`**. Các byte này biểu diễn hoành độ của khóa công khai. Sự nối tiếp của `x` và tính chẵn lẻ của `y` tạo thành khóa công khai được nén hoàn chỉnh;
-- Từ byte `35` đến byte `66`: Mã chuỗi**. Không gian này chứa mã chuỗi liên kết với khóa công khai;
-- Từ byte `67` đến byte `79`: Phần đệm**. Khoảng trống này dành cho những tiến hóa có thể xảy ra trong tương lai. Đối với phiên bản hiện tại, chúng tôi chỉ cần đặt số không ở đây để đạt được kích thước 80 byte cần thiết cho đầu ra `OP_RETURN`.
+- Byte `0`: **Phiên bản**. Đối với phiên bản đầu tiên của BIP47, byte này được đặt thành `0x01`;
+- Byte `1`: Trường **bit**. Không gian này được dành riêng để tích hợp các chỉ dẫn bổ sung cho mục đích sử dụng cụ thể. Đối với mục đích sử dụng PayNym cổ điển, byte này được đặt thành `0x00`;
+- Byte `2`: Tính chẵn lẻ của `y`. Byte này là `0x02` hoặc `0x03`, cho biết số thứ tự của khóa công khai là chẵn hay lẻ, vì khóa công khai được nén được sử dụng;
+- Từ byte `3` đến byte `34`: Giá trị của `x`. Các byte này biểu diễn hoành độ của khóa công khai. Sự nối tiếp của `x` và tính chẵn lẻ của `y` tạo thành khóa công khai được nén hoàn chỉnh;
+- Từ byte `35` đến byte `66`: **Mã chuỗi**. Không gian này chứa mã chuỗi liên kết với khóa công khai;
+- Từ byte `67` đến byte `79`: **Phần đệm**. Khoảng trống này dành cho những tiến hóa có thể xảy ra trong tương lai. Đối với phiên bản hiện tại, chúng tôi chỉ cần đặt số không ở đây để đạt được kích thước 80 byte cần thiết cho đầu ra `OP_RETURN`.
 
 Sau đây là biểu diễn thập lục phân của mã thanh toán có thể tái sử dụng của tôi đã được trình bày ở phần trước:
 
@@ -3812,7 +3805,7 @@ Sau đó, Bob có thể hoàn trả cho Alice theo cùng cách mà cô ấy đã
 
 ![BTC204](assets/fr/235.webp)
 
-*Cảm ơn [Fanis Michalakis](https://x.com/FanisMichalakis) rất nhiều vì đã hiệu đính và đưa ra lời khuyên chuyên môn cho bài viết đã truyền cảm hứng cho việc viết chương này!
+*Cảm ơn [Fanis Michalakis](https://x.com/FanisMichalakis) rất nhiều vì đã hiệu đính và đưa ra lời khuyên chuyên môn cho bài viết đã truyền cảm hứng cho việc viết chương này!*
 
 https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 

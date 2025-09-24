@@ -1,0 +1,9 @@
+question: Hva er tittelen på Satoshi Nakamotos hvitbok som ble publisert i 2008?
+answer: Bitcoin Et elektronisk peer-to-peer-system for kontanter
+wrong_answers:
+  - Bitcoin Et desentralisert digitalt gullsystem
+  - Bitcoin Fremtiden for penger
+  - Bitcoin Et Blockchain-basert betalingsnettverk
+explanation: |
+  Satoshi Nakamotos hvitbok, Bitcoin A Peer-to-Peer Electronic Cash System, ble publisert i 2008.
+reviewed: true

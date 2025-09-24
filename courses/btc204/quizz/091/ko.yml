@@ -1,0 +1,10 @@
+question: CoinJoin 주기 이후에 여러 UTXO를 병합하지 않는 것이 권장되는 이유는 무엇인가요?
+answer: 이는 CIOH로 인해 개인정보가 침해될 수 있습니다.
+wrong_answers:
+  - 거래 속도가 느려집니다.
+  - 의심스러운 활동을 코디네이터에게 알려줍니다.
+  - 라운드 결제 휴리스틱으로 인해 개인정보가 침해될 수 있습니다.
+explanation: |
+  공통 입력-Ownership-허리스틱(CIOH)을 방지하려면 동일한 트랜잭션에서 혼합된 UTXO와 혼합되지 않은 UTXO를 결합하는 것은 물론, UTXO끼리도 혼합하지 않아야 합니다.
+  
+reviewed: true

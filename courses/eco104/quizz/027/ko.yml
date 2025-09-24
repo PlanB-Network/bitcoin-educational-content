@@ -1,0 +1,10 @@
+question: Bitcoin의 총 거래량 중 불법 활동에 사용된 비율은 몇 퍼센트인가요?
+answer: 1% 미만
+wrong_answers:
+  - 2-4%
+  - 5% 이상
+  - 알 수 없음
+explanation: |
+  2020년 체인널리시스의 보고서에 따르면, 불법 활동만 해도
+  전체 Bitcoin 트랜잭션의 약 0.34%를 차지합니다.
+reviewed: true

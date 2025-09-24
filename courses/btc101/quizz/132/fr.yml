@@ -1,12 +1,9 @@
-question: Quelle est l'importance de la répartition géographique des nœuds Bitcoin ?
-answer: Cela rend pratiquement impossible de détruire toutes les copies de la blockchain.
+question: Quel est le nombre approximatif de nœuds répartis à travers le monde en septembre 2023 ?
+answer: 45 000 nœuds
 wrong_answers:
-  - Cela détermine le prix du Bitcoin dans différentes régions.
-  - Cela affecte la vitesse des transactions Bitcoin.
-  - Cela détermine le nombre de bitcoins qui peuvent être minés dans une région.
-explanation: |
-  La répartition géographique des nœuds Bitcoin rend
-  pratiquement impossible de détruire toutes les copies de la
-  blockchain. Étant donné que les nœuds sont dispersés, il est difficile de
-  tous les saisir physiquement.
+  - 10 000 nœuds
+  - 100 000 nœuds
+  - 500 000 nœuds
+explanation: >-
+  En septembre 2023, il y a environ 45 000 nœuds répartis à travers le monde.
 reviewed: true

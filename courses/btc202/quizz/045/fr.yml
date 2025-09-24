@@ -1,0 +1,9 @@
+question: Quelle étape doit être effectuée avant de pouvoir démarrer l’installation d’UmbrelOS ?
+answer: Créer une clé USB bootable avec l’image
+wrong_answers:
+  - Compiler le code source de Bitcoin Core
+  - Formater la blockchain
+  - Créer un compte sur umbrel.com
+explanation: |
+  L’installation commence par préparer une clé USB bootable avec UmbrelOS via Balena Etcher.
+reviewed: false

@@ -91,9 +91,9 @@ BIP-85 umożliwia tworzenie wielu portfeli Bitcoin z pojedynczej frazy głównej
 
 
 
-- Scenariusz**: Używasz "Hot Wallet" Wallet (zainstalowanego na urządzeniu podłączonym do Internetu), do codziennych transakcji.
-- Rozwiązanie BIP-85**: Tworzysz drugorzędną frazę seed dedykowaną dla tego portfela.
-- Przewaga nad BIP-32**: Nie trzeba importować głównej frazy seed do telefonu, co zmniejsza ryzyko włamania. Narażona jest tylko fraza dodatkowa seed, co chroni inne portfele. W przypadku BIP-32 musisz użyć głównej frazy seed i ścieżki obejścia, ujawniając wszystkie swoje środki.
+- **Scenariusz**: Używasz "Hot Wallet" Wallet (zainstalowanego na urządzeniu podłączonym do Internetu), do codziennych transakcji.
+- **Rozwiązanie BIP-85**: Tworzysz drugorzędną frazę seed dedykowaną dla tego portfela.
+- **Przewaga nad BIP-32**: Nie trzeba importować głównej frazy seed do telefonu, co zmniejsza ryzyko włamania. Narażona jest tylko fraza dodatkowa seed, co chroni inne portfele. W przypadku BIP-32 musisz użyć głównej frazy seed i ścieżki obejścia, ujawniając wszystkie swoje środki.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 umożliwia tworzenie wielu portfeli Bitcoin z pojedynczej frazy głównej
 
 
 
-- Scenariusz**: Ustawiasz Bitcoin Wallet dla kogoś bliskiego (np. swojej matki), jednocześnie mogąc go odzyskać, jeśli go zgubi.
-- Rozwiązanie BIP-85**: Tworzysz dedykowane zdanie pomocnicze seed i udostępniasz tylko to zdanie.
-- Przewaga nad BIP-32**: W przypadku BIP-32 utworzenie konta dla bliskiej osoby wymaga albo udostępnienia głównej frazy seed, ryzykując wszystkie środki i komplikując zarządzanie dla bliskiej osoby (zarządzanie ścieżkami rozgałęzień), albo utworzenia nowej frazy seed do zapisania oprócz głównej frazy seed.
+- **Scenariusz**: Ustawiasz Bitcoin Wallet dla kogoś bliskiego (np. swojej matki), jednocześnie mogąc go odzyskać, jeśli go zgubi.
+- **Rozwiązanie BIP-85**: Tworzysz dedykowane zdanie pomocnicze seed i udostępniasz tylko to zdanie.
+- **Przewaga nad BIP-32**: W przypadku BIP-32 utworzenie konta dla bliskiej osoby wymaga albo udostępnienia głównej frazy seed, ryzykując wszystkie środki i komplikując zarządzanie dla bliskiej osoby (zarządzanie ścieżkami rozgałęzień), albo utworzenia nowej frazy seed do zapisania oprócz głównej frazy seed.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 umożliwia tworzenie wielu portfeli Bitcoin z pojedynczej frazy głównej
 
 
 
-- Scenariusz**: Oddzielasz swoje bitcoiny do różnych celów (np. długoterminowe oszczędności, fundusze inne niż KYC).
-- Rozwiązanie BIP-85**: Tworzysz drugorzędne frazy seed dedykowane dla każdego celu.
-- Przewaga nad BIP-32**: W przypadku BIP-32 wszystkie konta mają tę samą frazę seed, co komplikuje zarządzanie w portfelach stron trzecich, wymagając zarządzania ścieżkami pochodnymi, takimi jak `m/44'/0'/0'`. Ponadto nie jest możliwe przypisanie oddzielnego konta dla każdego urządzenia (np. "oszczędności na karcie Coldcard", "codziennie na telefonie komórkowym", "wakacje na Trezorze"). BIP-85 przypisuje unikalną frazę drugorzędną seed dla każdego celu, która jest łatwa do zidentyfikowania i zaimportowania oddzielnie na każdym urządzeniu.
+- **Scenariusz**: Oddzielasz swoje bitcoiny do różnych celów (np. długoterminowe oszczędności, fundusze inne niż KYC).
+- **Rozwiązanie BIP-85**: Tworzysz drugorzędne frazy seed dedykowane dla każdego celu.
+- **Przewaga nad BIP-32**: W przypadku BIP-32 wszystkie konta mają tę samą frazę seed, co komplikuje zarządzanie w portfelach stron trzecich, wymagając zarządzania ścieżkami pochodnymi, takimi jak `m/44'/0'/0'`. Ponadto nie jest możliwe przypisanie oddzielnego konta dla każdego urządzenia (np. "oszczędności na karcie Coldcard", "codziennie na telefonie komórkowym", "wakacje na Trezorze"). BIP-85 przypisuje unikalną frazę drugorzędną seed dla każdego celu, która jest łatwa do zidentyfikowania i zaimportowania oddzielnie na każdym urządzeniu.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 umożliwia tworzenie wielu portfeli Bitcoin z pojedynczej frazy głównej
 
 
 
-- Scenariusz**: Potrzebujesz tymczasowego portfela do jednorazowej transakcji lub w celu zachowania poufności (np.: mieszanie funduszy, interakcja z Exchange KYC itp.).
-- Rozwiązanie BIP-85**: Tworzysz zdanie podrzędne seed, używasz go do transakcji, a następnie niszczysz w razie potrzeby, wiedząc, że można je zregenerować.
-- Przewaga nad BIP-32**: W przypadku BIP-32 konto tymczasowe jest zależne od głównego zdania seed, narażając wszystkie środki w przypadku naruszenia bezpieczeństwa.
+- **Scenariusz**: Potrzebujesz tymczasowego portfela do jednorazowej transakcji lub w celu zachowania poufności (np.: mieszanie funduszy, interakcja z Exchange KYC itp.).
+- **Rozwiązanie BIP-85**: Tworzysz zdanie podrzędne seed, używasz go do transakcji, a następnie niszczysz w razie potrzeby, wiedząc, że można je zregenerować.
+- **Przewaga nad BIP-32**: W przypadku BIP-32 konto tymczasowe jest zależne od głównego zdania seed, narażając wszystkie środki w przypadku naruszenia bezpieczeństwa.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 umożliwia tworzenie wielu portfeli Bitcoin z pojedynczej frazy głównej
 
 
 
-- Sprzęt** (opcjonalnie)
+- **Sprzęt** (opcjonalnie)
  - Coldcard Mk4 lub Q1
  - Karta MicroSD
 
@@ -158,7 +158,7 @@ BIP-85 umożliwia tworzenie wielu portfeli Bitcoin z pojedynczej frazy głównej
 
 
 
-- Kompatybilne** oprogramowanie
+- **Kompatybilne** oprogramowanie
  - Sparrow wallet (komputer, tylko do oglądania lub zaawansowanego zarządzania)
  - Nunchuck (mobilny, do wielu podpisów)
  - BlueWallet (mobilny)
@@ -168,7 +168,7 @@ BIP-85 umożliwia tworzenie wielu portfeli Bitcoin z pojedynczej frazy głównej
 
 
 
-- 3.4 Konfiguracja karty Coldcard**
+- 3.4 Konfiguracja karty **Coldcard**
  - Zainicjuj zdanie seed składające się z 24 słów na karcie Coldcard.
  - Opcjonalnie: Dodaj passphrase, aby zabezpieczyć dostęp do oddziałów BIP-85.
  - Aktywuj przydatne opcje: NFC (dla eksportu), wyłączenie USB na baterii (bezpieczeństwo).
@@ -197,7 +197,7 @@ Włącz kartę Coldcard i wprowadź kod PIN.
 
 
 
-- 1. Jeśli zastosowałeś passphrase do swojego głównego seed:**
+- 1. Jeśli zastosowałeś passphrase do swojego głównego seed:
  - Na ekranie głównym przejdź do `passphrase`.
     - Wybierz `Add Word` i wprowadź swoje hasło.
     - Naciśnij przycisk "Zastosuj".
@@ -207,7 +207,7 @@ Włącz kartę Coldcard i wprowadź kod PIN.
 
 
 
-- 2. Przejdź do menu BIP-85**
+- 2. Przejdź do menu **BIP-85**
  - Na ekranie głównym przejdź do `Zaawansowane > Pochodna seed B85`
  - Przeczytaj ostrzeżenie i potwierdź.
 
@@ -246,7 +246,7 @@ Wybierz format frazy seed: 12, 18 lub 24 słowa. Sprawdź liczbę słów akcepto
 
 
 
-- 5. Uwaga lub eksport zdania dodatkowego seed**
+- 5. Uwaga lub eksport zdania dodatkowego **seed**
 
 
 ColdCard wyświetla teraz nowe zdanie pomocnicze seed. Można :
@@ -254,7 +254,7 @@ ColdCard wyświetla teraz nowe zdanie pomocnicze seed. Można :
 
 
 
- - Notatka ręcznie**.
+- Notatka **ręcznie**.
  - Prasa :
      - 1`, aby zapisać go na karcie SD
      - `2`, aby **wprowadzić tryb "użyj tego seed"** na karcie ColdCard (przydatne do eksportowania lub podpisywania transakcji)
@@ -421,7 +421,7 @@ Więcej zasobów w załącznikach.
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [fraza seed](https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [Multisig](https://planb.network/resources/glossary/multisig)
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Węzeł otwarty
+name: Open Node
 
 description: Skonfiguruj Open Node dla swojej firmy online
 

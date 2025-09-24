@@ -1,0 +1,9 @@
+question: Que doit faire un portefeuille pour consulter l’état de la blockchain ?
+answer: Se connecter à un nœud local ou distant
+wrong_answers:
+  - Interroger les autres portefeuilles du réseau
+  - Interroger les mineurs du réseau
+  - Se connecter à une plateforme d'échange en ligne
+explanation: |
+  Un portefeuille doit se connecter à un nœud pour accéder à l’état de la blockchain et diffuser ses transactions.
+reviewed: false

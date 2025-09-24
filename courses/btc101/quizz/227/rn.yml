@@ -1,0 +1,8 @@
+question: Ni ikihe kimwe mu bintu bishobora gukoreshwa na Lightning Network mu buzima bwa misi yose?
+answer: Gutanga amafaranga ubwo nyene mu bucuruzi.
+wrong_answers:
+  - Mining ama Bitcoins mashasha.
+  - Guhingura amafaranga mashasha y’ivy’ubuhinga bwa none.
+  - Kwongera agaciro ka Bitcoin.
+explanation: >-
+reviewed: true

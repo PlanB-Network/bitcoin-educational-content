@@ -1,14 +1,12 @@
-question: Šta treba da bekapujete kada koristite novčanika sa passphrase-om?
-answer: Morate napraviti rezervnu kopiju i liste od 12 ili 24 reči i vašeg passphrase-a.
+question: Šta odsustvo fraze Mnemonic u novčaniku ukazuje?
+answer: To ukazuje da novčanik nije siguran za dugotrajno skladištenje Bitkoina.
 wrong_answers:
-  - Morate napraviti rezervnu kopiju liste od 12 ili 24 reči.
-  - Treba da napravite rezervnu kopiju samo vašeg passphrase-a.
-  - Ne treba da pravite rezervnu kopiju liste od 12 ili 24 reči niti vašeg passphrase-a.
+  - To ukazuje da je novčanik potpuno siguran i da ne zahteva nikakvu rezervnu kopiju.
+  - To znači da novčanik može držati mnoge različite veze.
+  - Predlaže da je novčanik automatski podržan od strane vašeg uređaja.
 explanation: |
-  Kada koristite novčanika sa passphrase-om, potrebno je da napravite rezervnu kopiju
-  i liste od 12 ili 24 reči i vašeg passphrase-a,
-  jer su lista reči i passphrase oba
-  neophodni za ponovno dobijanje pristupa vašim sredstvima u slučaju
-  gubitka telefona ili računara. Bez jednog ili drugog,
-  sredstva su nedostupna.
+  Odsustvo liste od 12 ili 24 reči, to jest
+  Mnemonic fraze, u novčaniku treba da vas upozori da
+  novčanik nije siguran jer ne prati standardne procedure
+  bekapa.
 reviewed: true

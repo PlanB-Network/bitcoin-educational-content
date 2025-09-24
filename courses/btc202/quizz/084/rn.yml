@@ -1,0 +1,9 @@
+question: Ni umubare uwuhe w’amahuza asohoka node ya Bitcoin core ibungabunga?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core ibungabunga amahuzu 10 asohoka ku buryo busanzwe (8 yuzuye n’2 y’ububiko-gusa).
+reviewed: true

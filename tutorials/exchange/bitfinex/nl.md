@@ -77,10 +77,10 @@ Bitfinex past een verificatieproces (KYC) toe dat voldoet aan de huidige regelge
 
 
 
-- Basic* is een modus met alleen weergave, waarmee je het platform kunt raadplegen zonder bewerkingen uit te voeren;
-- Basic Plus* biedt toegang tot essentiële functies, waaronder contante markttransacties en geselecteerde stortings- en opnameopties;
-- Intermediate* ontsluit geavanceerde diensten zoals margehandel, leningen, P2P en OTC-transacties, en biedt kortere stortingstermijnen;
-- Full* geeft je toegang tot internationale bankoverschrijvingen en alle functies van het platform.
+- **Basic** is een modus met alleen weergave, waarmee je het platform kunt raadplegen zonder bewerkingen uit te voeren;
+- **Basic Plus** biedt toegang tot essentiële functies, waaronder contante markttransacties en geselecteerde stortings- en opnameopties;
+- **Intermediate** ontsluit geavanceerde diensten zoals margehandel, leningen, P2P en OTC-transacties, en biedt kortere stortingstermijnen;
+- **Full** geeft je toegang tot internationale bankoverschrijvingen en alle functies van het platform.
 
 
 Voor elk niveau zijn aanvullende documenten nodig voor verificatie. Voor de meeste gebruikers zijn *Basic Plus* of *Intermediate* accounts over het algemeen voldoende.
@@ -115,11 +115,11 @@ Eenmaal ingelogd zie je bovenaan de Interface een navigatiebalk met: "*Trading*"
 
 
 
-- Handel**: "*klassieke*" markt waar je orders kunt plaatsen om cryptocurrencies (inclusief Bitcoin) te kopen en verkopen;
-- OTC**: Over-The-Counter dienst voor het rechtstreeks verhandelen van grote volumes met een andere speler, buiten de openbare orderboeken om;
-- Financiering**: Ruimte gewijd aan kredietverlening en marginfinanciering;
-- Derivaten**: Sectie voor derivaten (futures, etc.), bedoeld voor ervaren handelaren;
-- P2P**: Hiermee kun je crypto's van andere gebruikers kopen of verkopen op peer-to-peer basis.
+- **Handel**: "*klassieke*" markt waar je orders kunt plaatsen om cryptocurrencies (inclusief Bitcoin) te kopen en verkopen;
+- **OTC**: Over-The-Counter dienst voor het rechtstreeks verhandelen van grote volumes met een andere speler, buiten de openbare orderboeken om;
+- **Financiering**: Ruimte gewijd aan kredietverlening en marginfinanciering;
+- **Derivaten**: Sectie voor derivaten (futures, etc.), bedoeld voor ervaren handelaren;
+- **P2P**: Hiermee kun je crypto's van andere gebruikers kopen of verkopen op peer-to-peer basis.
 
 
 Voor standaardgebruik (bitcoins kopen/verkopen en stortingen/opnames) gebruik je voornamelijk de tab "*Trading*" en de secties "*Wallet*", "*Deposit*" en "*Withdraw*".
@@ -247,7 +247,7 @@ Als je geïnteresseerd bent in de Lightning Network, hebben we ook een complete 
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Nadat je je eerste bitcoins hebt gekocht, heb je natuurlijk de optie om ze op het platform te laten, maar ik raad sterk aan om ze over te zetten naar je eigen Wallet in zelfbewaarneming. Als je nog niet weet hoe je een Bitcoin Wallet moet gebruiken, nodig ik je uit om [de "Wallet" sectie op Plan ₿ Network] te verkennen (https://planb.network/tutorials/Wallet).
+Nadat je je eerste bitcoins hebt gekocht, heb je natuurlijk de optie om ze op het platform te laten, maar ik raad sterk aan om ze over te zetten naar je eigen Wallet in zelfbewaarneming. Als je nog niet weet hoe je een Bitcoin Wallet moet gebruiken, nodig ik je uit om [de "Wallet" sectie op Plan ₿ Network] te verkennen (https://planb.network/tutorials/wallet).
 
 
 ## 6 - Bitcoins kopen en verkopen op Bitfinex

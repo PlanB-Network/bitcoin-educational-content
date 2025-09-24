@@ -1,0 +1,9 @@
+question: Ni nini faida kuu ya nodi-in-a-box juu ya utekelezaji mbichi?
+answer: Ufungaji rahisi na usimamizi jumuishi wa programu
+wrong_answers:
+  - Uthibitishaji mkali wa sheria za makubaliano
+  - Ufikiaji wa moja kwa moja kwa Blockchain bila hifadhi
+  - Utangamano na sarafu nyingine isipokuwa Bitcoin
+explanation: |
+  Nodi-in-a-box hurahisisha usakinishaji na usimamizi wa programu nyingi saidizi kupitia Interface iliyounganishwa.
+reviewed: true

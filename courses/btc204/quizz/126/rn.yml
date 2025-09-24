@@ -1,0 +1,10 @@
+question: Ni ubuhe buryo bwo gukingira amakuru bushobora gukoreshwa mu guhindura amafaranga kugira ngo Exchange ibe itekanye ata kwizigira?
+answer: Imikono y'umuhinduzi
+wrong_answers:
+  - Ububiko buhuye
+  - ECDH
+  - Ububiko butaringaniye
+explanation: |
+  Kugira umuntu akore igikorwa co guhindura amafaranga, arashobora gukoresha HTLCs canke PTLCs. Izo porotokole zibiri zikora mu buryo busa n’ubwo hakoreshejwe uburyo bwo gufunga umwanya butuma Exchange iheza neza canke igakurwaho burundu, ivyo bikaba bikingira ubutungane bw’amahera ku mpande zompi. Itandukaniro rikomeye hagati ya HTLCs na PTLCs ni uko HTLCs zikoresha hashes n’amashusho y’imbere kugira ngo zikingire igikorwa, mu gihe PTLCs zikoresha Adapter Signatures.
+  
+reviewed: false

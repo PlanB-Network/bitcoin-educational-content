@@ -1,0 +1,9 @@
+question: ユーザーはいつインデクサをインストールしなければなりませんか？
+answer: Block explorerを実行するには
+wrong_answers:
+  - Miningブロックの場合
+  - Lightning Networkをアクティブにするには
+  - 取引に署名する
+explanation: |
+  ローカル・エクスプローラーのような高度な使い方をする場合には、インデクサが不可欠になる。
+reviewed: true

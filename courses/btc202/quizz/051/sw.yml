@@ -1,0 +1,9 @@
+question: Je, ni wakati gani lazima mtumiaji asakinishe kiashiria?
+answer: Ili kuendesha Block explorer
+wrong_answers:
+  - Kwa Mining huzuia mwenyewe
+  - Ili kuwezesha Lightning Network
+  - Ili kusaini shughuli
+explanation: |
+  Faharasa inakuwa muhimu kwa matumizi ya hali ya juu, kama vile mgunduzi wa ndani.
+reviewed: true

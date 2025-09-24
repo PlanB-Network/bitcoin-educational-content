@@ -1,11 +1,8 @@
-question: İlk Bitcoin işleminin blok numarası nedir?
-answer: Blok 170.
+question: Bir Bitcoin işlemindeki onay sayısı neden önemlidir?
+answer: Bir işlem ne kadar çok onay alırsa, o kadar değişmez hale gelir.
 wrong_answers:
-  - Blok 1.
-  - Blok 17.
-  - Blok 1700.
-explanation: |
-  İlk Bitcoin işlemi, ki bu işlem
-  10 BTC, Satoshi Nakamoto ve Hal Finney arasında kaydedildi
-  170. blokta.
+  - Bir işlem ne kadar çok onay alırsa, o kadar değerli hale gelir.
+  - Bir işlem ne kadar çok onay alırsa, o kadar hızlı işlenir.
+  - Bir işlem ne kadar çok onay alırsa o kadar az güvenli olur.
+explanation: >-
 reviewed: true

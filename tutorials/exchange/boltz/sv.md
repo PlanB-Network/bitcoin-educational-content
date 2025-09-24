@@ -25,10 +25,10 @@ Det återstod dock ett stort problem mellan Bitcoin-protokollets lager: interope
 
 
 
-- on chain**: Bitcoin:s huvudkedja där transaktioner bekräftas var 10:e minut i genomsnitt, är transaktionsavgifterna ofta höga, vilket inte nödvändigtvis uppfyller användarnas behov ;
-- Lightning Network**: Bitcoin-överlägget för omedelbara betalningar till låga avgifter, vilket gör att Bitcoin kan användas för dagliga betalningar;
-- Liquid Network**: ett överlägg för Bitcoin skapat av Blockstream, vilket möjliggör snabba, Confidential Transactions och användning av andra Bitcoin-baserade finansiella instrument;
-- RootStock**: En lösning för att utveckla smarta kontrakt baserade på Bitcoin-protokollet.
+- **on chain**: Bitcoin:s huvudkedja där transaktioner bekräftas var 10:e minut i genomsnitt, är transaktionsavgifterna ofta höga, vilket inte nödvändigtvis uppfyller användarnas behov ;
+- **Lightning Network**: Bitcoin-överlägget för omedelbara betalningar till låga avgifter, vilket gör att Bitcoin kan användas för dagliga betalningar;
+- **Liquid Network**: ett överlägg för Bitcoin skapat av Blockstream, vilket möjliggör snabba, Confidential Transactions och användning av andra Bitcoin-baserade finansiella instrument;
+- **RootStock**: En lösning för att utveckla smarta kontrakt baserade på Bitcoin-protokollet.
 
 
 
@@ -54,7 +54,7 @@ På så sätt behåller du permanent självförvaring av dina bitcoins, och Exch
 
 
 
-En atomär Exchange fungerar med smarta kontrakt [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). I denna typ av Contract är beloppet "låst" i en tvåvägskanal och en tidsbegränsning införs, så att om transaktionen inte slutförs inom en viss tid återgår saldot till insättaren. Detta är den mekanism som används av Boltz-plattformen.
+En atomär Exchange fungerar med smarta kontrakt [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). I denna typ av Contract är beloppet "låst" i en tvåvägskanal och en tidsbegränsning införs, så att om transaktionen inte slutförs inom en viss tid återgår saldot till insättaren. Detta är den mekanism som används av Boltz-plattformen.
 
 
 

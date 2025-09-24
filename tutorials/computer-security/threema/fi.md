@@ -276,7 +276,7 @@ Täältä löydät kaksi vaihtoehtoa tietojen varmuuskopiointia varten:
 
 
 
-"Threema Safe* tallentaa kaikki tilitietosi, keskusteluja lukuun ottamatta, Threeman palvelimille. Nämä tiedot salataan salasanalla, jonka valitsit tiliäsi luodessasi, jolloin varmistetaan, ettei Threema pääse niihin käsiksi. Varmuuskopiot tehdään automaattisesti ja säännöllisesti.
+"**Threema Safe** tallentaa kaikki tilitietosi, keskusteluja lukuun ottamatta, Threeman palvelimille. Nämä tiedot salataan salasanalla, jonka valitsit tiliäsi luodessasi, jolloin varmistetaan, ettei Threema pääse niihin käsiksi. Varmuuskopiot tehdään automaattisesti ja säännöllisesti.
 
 
 

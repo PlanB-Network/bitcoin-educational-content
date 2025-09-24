@@ -1,0 +1,9 @@
+question: Was ist der wirtschaftliche Unterschied zwischen einem Knoten und einem Miner?
+answer: Der Miner erhält Belohnungen, der Knoten hat keinen direkten Gewinn
+wrong_answers:
+  - Knotenpunkt erhält Gebühr, Miner erhält Blockzuschuss
+  - Der Knoten erhält Belohnungen, der Miner hat keinen direkten Gewinn
+  - Beide erhalten die gleichen Auszeichnungen
+explanation: |
+  Miner erhalten Belohnungen (Subventionen und Gebühren), während ein Knotenpunkt seinem Nutzer keinen direkten finanziellen Nutzen bringt.
+reviewed: true

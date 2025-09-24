@@ -1,0 +1,9 @@
+question: Věřil René Descartes ve svobodnou vůli?
+answer: Nikdy.
+wrong_answers:
+  - Pouze pro dospělé.
+  - Jen kdybychom studovali filozofii.
+  - Za určitých podmínek.
+explanation: |
+  René Descartes nikdy nevěřil ve svobodnou vůli. Tvrdil, že všechny naše činy jsou určeny předchozími příčinami, ačkoli se snažil zachovat určitou formu svobody vůle.
+reviewed: false

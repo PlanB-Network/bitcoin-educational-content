@@ -10,7 +10,7 @@ description: A brief guide to incentivize customers to spend their bitcoins at y
 
 You have finally decided to accept bitcoin in your business, and everything is ready: the Lightning Network wallet is set up for receiving payments, your employees know how to use the read-only version of the wallet to receive payments on your behalf, the Point of Sale (PoS) has been configured with store products and updated monthly, and you already know how to manage the bitcoin accounting from customers. If you don't know how to do it, watch this tutorial:
 
-https://planb.network/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## What is the Problem
 
@@ -40,7 +40,7 @@ This type of discount is more effective for physical stores, especially for prod
 
 ##### An Example
 
-All European countries are subject to a consumption tax called Value-Added Tax in English, [VAT](https://en.wikipedia.org/wiki/Value-added_tax) as follows. This tax was invented in France in 1954, and by 1970 had already started spreading throughout the original European Community. By 2020, it had spread to most of the globe.
+All European countries are subject to a consumption tax, called in English "Value-added Tax", hereafter [VAT](https://en.wikipedia.org/wiki/Value-added_tax). This tax was invented in France in 1954, and by 1970 it had already begun to spread in the early European Community; by 2020 it had spread to much of the globe.
 
 For this example, let's assume we're in Europe, within a country where the VAT rate is 20% for any category of goods. We are at a shoe store, and let's say a pair of leather shoes costs $120 if paid with a debit card.
 
@@ -63,7 +63,7 @@ In this policy, instead of applying a discount, the merchant offers an extra ben
 Some examples include:
 
 * A food store adding a free product (e.g., a can or snack).
-* A beauty center offering an additional free service.
+**A beauty center offering an additional free service.**
 * A movie theater giving away a gadget, drink, or upgrade seat.
 * An electronics store adding an accessory to the primary product.
 
@@ -80,10 +80,10 @@ Every adopted policy (discount, offer, or exchange rate advantage) should be pre
 The method of implementation is left to the merchant, but briefly, here are some available options:
 
 * In-store signage (windows, cash register, shelves)
-* Stickers or labels on windows
+*Stickers or labels on windows*
 * Social media notifications, newsletters, website announcements
 * Direct dialogue with customers when possible
-* Advertising from bitcoin influencers who speak the same language as your target customers
+**Advertising from bitcoin influencers who speak the same language as your target customers**
 
 ### BTC Map
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 
 If you're wondering how to manage the accounting of bitcoins just earned, whether you've applied one of the discount policies or not, this is the tutorial for you:
 
-https://planb.network/tutorials/business/point-of-sale/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Conclusion
 

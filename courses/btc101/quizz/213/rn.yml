@@ -1,0 +1,11 @@
+question: Ni igiki iki cigwa kivuga ku bijanye n’urugero rwo kwiga ivyerekeye Bitcoin?
+answer: Biragoye gufata vyose icarimwe, rero fata umwanya wawe.
+wrong_answers:
+  - Biroroshe kwiga vyose icarimwe.
+  - Ntibishoboka ko umuntu amenya vyose ku vyerekeye Bitcoin.
+  - Si ngombwa kwiga vyose ku vyerekeye Bitcoin.
+explanation: |
+  Iryo shure rivuga ko hari vyinshi umuntu yokwihweza n’
+  Bitcoin ko bigoye gufata vyose ku .
+  rimwe, rero umuntu akwiye gufata umwanya wabo.
+reviewed: true

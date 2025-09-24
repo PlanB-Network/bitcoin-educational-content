@@ -254,226 +254,113 @@ Manchmal kann es sich sogar entmutigend anfühlen, vor allem, wenn niemand aufta
 
 Deshalb ist **dieser Kurs darauf ausgerichtet, wertvolle Ressourcen und Tipps weiterzugeben, um Gemeinschaften dabei zu helfen, effektiv zu wachsen und sich schließlich selbst zu versorgen**.
 
-# Gestaltung einer Gemeinschaftsidentität Bitcoin
+# Gestaltung einer Identität für die Bitcoin-Community
 
 <partId>da6673ad-bf49-5979-80a6-3f69cfb28046</partId>
 
-## Warum und wie können Sie Ihre eigene Identität schaffen?
+## Warum und wie kannst du deine eigene Identität schaffen?
 
 <chapterId>b48a18cc-afdf-5216-802c-32647b5cd8a3</chapterId>
 
 In diesem Stadium gehen wir davon aus, dass:
 
-- Sie wissen bereits, wo Ihre Gemeinschaft (oder Ihr zukünftiges regelmäßiges Treffen) angesiedelt sein wird.
-- Sie haben sich Ziele für verschiedene Zeithorizonte gesetzt, auch wenn diese noch nicht endgültig sind.
+- Du bereits weißt, wo deine Gemeinschaft (oder dein zukünftiges regelmäßiges Treffen) angesiedelt sein wird.
+- Du dir Ziele für verschiedene Zeithorizonte gesetzt hast, auch wenn diese noch nicht endgültig sind.
 
-
-Der nächste Schritt beim Aufbau Ihrer Community ist die **Definition ihrer Identität**, sowohl ihres Namens als auch ihres visuellen Stils.
-
-
-In diesem Abschnitt finden Sie Anleitungen und einsteigerfreundliche Softwarelösungen, die Ihnen dabei helfen, die visuelle Identität Ihrer Gemeinschaft zu gestalten, auch wenn Sie noch keine Vorkenntnisse haben.
-
+Der nächste Schritt beim Aufbau deiner Community ist die **Definition ihrer Identität**, sowohl ihres Namens als auch ihres visuellen Stils.
+In diesem Abschnitt findest du Anleitungen und einsteigerfreundliche Softwarelösungen, die dir dabei helfen, die visuelle Identität deiner Gemeinschaft zu gestalten, auch wenn du noch keine Vorkenntnisse hast.
 
 **Warum ist Identität wichtig?**
-
-Menschen fühlen sich engagierter und engagierter, wenn sie sich mit einer Gruppe identifizieren können. Eine starke Identität trägt dazu bei, dass sich Ihre Gemeinschaft von anderen abhebt und das Gefühl der Zugehörigkeit fördert.
-
+Menschen fühlen sich mehr einbezogen und verstanden, wenn sie sich mit einer Gruppe identifizieren können. Eine starke Identität trägt dazu bei, dass sich deine Gemeinschaft von anderen abhebt und das Gefühl der Zugehörigkeit fördert.
 
 Alles beginnt mit der Wahl eines Namens, und jedes Land hat oft seine eigenen Trends:
-
-
-
-- Frankreich: Die meisten der über 60 lokalen Gemeinschaften verwenden Namen wie "Bitcoin [STADT]" oder "[STADT] Bitcoin". Ihre Telegram-Gruppen folgen oft diesem Muster: "Bitcoin [STADT] Treffen".
-- Deutschland: Die Initiative "Einundzwanzig" inspirierte zu Namen wie "Einundzwanzig [CITY]".
-- Italien: Das Netz Satoshi Spritz verwendet Namen wie Satoshi "Spritz [CITY]".
-
+- Frankreich: Die meisten der über 60 lokalen Gemeinschaften verwenden Namen wie "Bitcoin [STADT]" oder "[STADT] Bitcoin". Ihre Telegram-Gruppen folgen oft diesem Muster: "Bitcoin [STADT] Meetup".
+- Deutschland: Die Initiative "Einundzwanzig" inspirierte zu Namen wie "Einundzwanzig [STADT]".
+- Italien: Das Satoshi Spritz Netzwerk verwendet Namen wie Satoshi "Spritz [CITY]".
 
 **Jede Gemeinschaft hat ihre eigene Identität, die mit ihrer Heimatstadt verbunden ist, aber auch mit der umfassenderen Identität ihres Landes**.
 
+Deine visuelle Identität: Logo, Farben, Banner, ist das, was die Menschen in Erinnerung behalten und mit deiner Gruppe in Verbindung bringen werden.
+Bei der Einrichtung von Konten und Kommunikationskanälen in sozialen Medien sind ein Logo und ein Banner von großem Vorteil. Keine Sorge, du brauchst keine professionellen Designfähigkeiten; es gibt kostenlose und einfach zu verwendende Tools.
+Ein guter Ausgangspunkt ist die Einbeziehung eines Wahrzeichens oder Symbols aus deiner Stadt. In Paris könnte dies der Eiffelturm sein. In Lille der Glockenturm oder die Zitadelle. In New York, die Freiheitsstatue. In London der Big Ben, und so weiter.
 
-
-Ihre visuelle Identität: Logo, Farben, Banner, ist das, was die Menschen in Erinnerung behalten und mit Ihrer Gruppe in Verbindung bringen werden.
-
-
-Bei der Einrichtung von Konten und Kommunikationskanälen in sozialen Medien sind ein Logo und ein Banner von großem Vorteil. Keine Sorge, Sie brauchen keine professionellen Designfähigkeiten; es gibt kostenlose und einfach zu verwendende Tools.
-
-
-Ein guter Ausgangspunkt ist die Einbeziehung eines Wahrzeichens oder Symbols aus Ihrer Stadt. In Paris könnte dies der Eiffelturm sein. In Lille der Glockenturm oder die Zitadelle. In New York, die Freiheitsstatue. In London der Big Ben, und so weiter.
-
-
-Von dort aus können Sie je nach Wunsch ein einfaches oder ein detaillierteres Logo entwerfen.
-
-
-
-Um Ihnen einige Ideen zu geben, finden Sie hier einige Beispiele für französische Gemeinschaftslogos:
-
-
-
+Von dort aus kannst du je nach Wunsch ein einfaches oder ein detaillierteres Logo entwerfen.
+Um dir einige Ideen zu geben, findest du hier einige Beispiele für französische Gemeinschaftslogos:
 
 - In Marseille stellt das Logo die Basilika Notre-Dame-de-la-Garde dar, die die Stadt überragt:
 
-
-
 ![image](assets/fr/006.webp)
-
-
-
-
 
 - In Monaco bezieht er sich auf den monegassischen Felsen:
 
-
-
 ![image](assets/fr/007.webp)
-
-
-
-
 
 - In Lille stellt das schlichte Logo die Zitadelle von Vauban und ihren Park dar:
 
-
-
 ![image](assets/fr/008.webp)
-
-
-
-
 
 - In Saint-Malo ist das Hermelin, das Wahrzeichen der Stadt, besonders hervorgehoben:
 
-
-
 ![image](assets/fr/009.webp)
 
-
-
-**Weiter, wenn Sie möchten**
-
-Wenn Sie sich inspirieren lassen, können Sie sogar noch weiter gehen: Entwerfen Sie ein Wappen, ein Motto oder sogar ein Lied für Ihre Gemeinschaft. Eurer Kreativität sind keine Grenzen gesetzt!
-
-
+Wenn du dich inspirieren lässt, kannst du sogar noch weiter gehen: Entwirf ein Wappen, ein Motto oder sogar ein Lied für deine Gemeinschaft. Deiner Kreativität sind keine Grenzen gesetzt!
 
 ## Erstellung eines Logos, eines Posters und eines Banners
 
-
 <chapterId>3470a31f-0190-5e87-8af0-6a00e79267ef</chapterId>
-
-
 
 ### Canva verwenden
 
+Du kannst [Canva](https://www.canva.com/) verwenden, um die verschiedenen visuellen Elemente für deine Gemeinschaft zu erstellen.
+Diese kostenlose und benutzerfreundliche Plattform ist beliebt für ihre große Bibliothek an vorgefertigten Vorlagen, die du mit nur wenigen Klicks duplizieren und anpassen kannst.
 
+**Erstellung deines Logos:**
+Suche auf der Canva-Startseite nach vordefinierten Logos. Wähle eines oder mehrere aus, die dich inspirieren, kopieren sie und passe sie dann an deine Gemeinschaft an.
 
-Sie können [Canva](https://www.canva.com/) verwenden, um die verschiedenen visuellen Elemente für Ihre Gemeinschaft zu erstellen.
+Du kannst ein lokales Wahrzeichen oder Emblem in den Hintergrund einfügen (importiere ein Foto oder suche im Elements-Menü nach "Illustrationen" oder "Bilder") und dann das Bitcoin-Logo oder ₿ überlagern, wobei du bei Bedarf die Farbe anpassen kannst.
 
+**Erstellung von Bannern und Postern:**
+Um ein Banner oder Poster zu erstellen, suche in der Canva-Bibliothek nach vorgefertigten Vorlagen. Sobald du eine kopiert hast, ändere den Text und die Schriftarten, füge dein Gemeindelogo hinzu und importiere Fotos mithilfe von Rahmen (suche im Elements-Menü nach "Rahmen").
 
+Du kannst auch das Design-Menü verwenden, um weitere Modelle zu finden, die deinen Anforderungen entsprechen.
+Für YouTube-Thumbnails oder Banner suche einfach nach diesen Vorlagen, dupliziere und passe sie nach Belieben an.
 
-Diese kostenlose und benutzerfreundliche Plattform ist beliebt für ihre große Bibliothek an vorgefertigten Vorlagen, die Sie mit nur wenigen Klicks duplizieren und anpassen können.
+Kurz gesagt, **die Möglichkeiten sind endlos und werden nicht nur durch deine Bedürfnisse, sondern auch durch den visuellen Stil, den du für deine Community und deine Treffen/Events kreieren willst, bestimmt**!
 
-
-**Erstellung Ihres Logos**
-
-Suchen Sie auf der Canva-Startseite nach vordefinierten Logos. Wählen Sie eines oder mehrere aus, die Sie inspirieren, kopieren Sie sie und passen Sie sie dann an Ihre Gemeinschaft an.
-
-
-Sie können ein lokales Wahrzeichen oder Emblem in den Hintergrund einfügen (importieren Sie ein Foto oder suchen Sie im Elements-Menü nach "Illustrationen" oder "Bilder") und dann das Bitcoin-Logo oder ₿ überlagern, wobei Sie bei Bedarf die Farbe anpassen.
-
-
-**Erstellung von Bannern und Postern**
-
-Um ein Banner oder Poster zu erstellen, suchen Sie in der Canva-Bibliothek nach vorgefertigten Vorlagen. Sobald Sie eine kopiert haben, ändern Sie den Text und die Schriftarten, fügen Sie Ihr Gemeindelogo hinzu und importieren Sie Fotos mit Rahmen (suchen Sie im Elements-Menü nach "Rahmen").
-
-
-Sie können auch das Menü "Designs" verwenden, um weitere Modelle zu finden, die Ihren Anforderungen entsprechen.
-
-
-Für YouTube-Thumbnails oder Banner suchen Sie einfach nach diesen Vorlagen, duplizieren sie und passen sie nach Belieben an.
-
-
-
-Kurz gesagt, **die Möglichkeiten sind endlos und werden nicht nur durch Ihre Bedürfnisse, sondern auch durch den visuellen Stil, den Sie für Ihre Community und Ihre Treffen/Events kreieren wollen, bestimmt**!
-
-
-
-Um Ihnen eine bessere Vorstellung davon zu geben, haben wir ein nicht erschöpfendes Video-Tutorial beigefügt, in dem einige dieser Möglichkeiten vorgestellt werden:
-
-
+Um dir eine bessere Vorstellung davon zu geben, haben wir ein Video-Tutorial (Französisch) beigefügt, in dem einige dieser Möglichkeiten vorgestellt werden:
 
 :::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
+**Beispielvorlagen von Bitcoin Lille:**
 
-
-**Beispielvorlagen von Bitcoin Lille**
-
-Hier finden Sie fertige Canva-Vorlagen, die Sie kopieren und für Ihre Community anpassen können:
-
-
+Hier findest du fertige Canva-Vorlagen, die du kopieren und für deine Community anpassen kannst:
 
 - **Plakat zur Ankündigung des Treffens** (für soziale Medien und A4/A3-Druck): [Link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-
 ![image](assets/fr/010.webp)
-
-
-
-
 
 - **Veranstaltungsplakat** (für soziale Medien und A4/A3-Druck): [Link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-
-
-
-
 - **banner für soziale Medien**: [Link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-
-
 
 - **Ausschreibung des Wettbewerbs**: [Link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-
-
 ![image](assets/fr/011.webp)
-
-
-
-
 
 - **Markenrichtlinien** unserer Bibliothek, die bei Treffen auf A4 aushängen: [Link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-
-
-
-
 - **PowerPoint Präsentation** "Chapter 2 - Understanding Bitcoin transactions", by @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-
-
 
 - **flyer** "21 Gründe, Bitcoin zu nutzen", verfasst von @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-
-
 ![image](assets/fr/012.webp)
-
 
 ![image](assets/fr/013.webp)
 
+Die Möglichkeiten sind endlos, und deine Entwürfe werden von deinen Zielen und deiner visuellen Identität abhängen. Ziehe in Erwägung, deine Vorlagen als Open Source zur Verfügung zu stellen. Das spart Zeit für andere Bitcoin-Gemeinschaften, die unweigerlich vor denselben Herausforderungen stehen wie du. Durch die gemeinsame Nutzung hilfst du, das Wachstum von Bitcoin-Gemeinschaften überall zu beschleunigen.
 
-
-**Teilen Sie Ihre Kreationen**
-
-Die Möglichkeiten sind endlos, und Ihre Entwürfe werden von Ihren Zielen und Ihrer visuellen Identität abhängen. Ziehen Sie in Erwägung, Ihre Vorlagen als Open Source zur Verfügung zu stellen. Das spart Zeit für andere Bitcoin-Gemeinschaften, die unweigerlich vor denselben Herausforderungen stehen wie Sie. Durch die gemeinsame Nutzung helfen Sie, das Wachstum von Bitcoin-Gemeinschaften überall zu beschleunigen.
-
-
-**Empfohlene Abmessungen**
-
-Prüfen Sie bei der Erstellung von Bildmaterial immer die Größenanforderungen für jede Plattform:
-
-
+**Empfohlene Abmessungen:**
+Prüfe bei der Erstellung von Bildmaterial immer die Größenanforderungen für jede Plattform:
 
 | Platform | Logo | Banner | Poster / Image
 | -------- | -------- | -------- | -------- |
@@ -485,112 +372,56 @@ Prüfen Sie bei der Erstellung von Bildmaterial immer die Größenanforderungen 
 | Facebook     | 512 x 512     | 851 x 315     | 960 x 720     |
 
 In der Regel geeignete Größen:
-
-Logos: 512 x 512 Pixel
-
-Banner: Variieren je nach App oder Website
-
-Plakate: A4 ist das Standarddruckformat
-
-
+- Logos: 512 x 512 Pixel
+- Banner: Variieren je nach App oder Website
+- Plakate: A4 ist das Standarddruckformat
 
 ### Einsatz künstlicher Intelligenz
 
+Canva bietet zwar eine breite Palette von Tools für die Erstellung von Logos, Postern, Bannern und Flyern, ist aber nicht die einzige Option. Wenn du mit anderer Software (wie Photoshop oder Illustrator) besser zurechtkommst, kannst du das verwenden, was für dich am besten geeignet ist.
 
+Ganz gleich, ob du ein Gemeindelogo entwirfst oder Plakate, Präsentationen oder Flyer verbessern willst, **künstliche Intelligenz kann ein mächtiger Verbündeter sein, wenn es darum geht, einzigartiges und ansprechendes Bildmaterial zu erstellen**.
 
-Canva bietet zwar eine breite Palette von Tools für die Erstellung von Logos, Postern, Bannern und Flyern, ist aber nicht die einzige Option. Wenn Sie mit anderer Software (wie Photoshop oder Illustrator) besser zurechtkommen, können Sie das verwenden, was für Sie am besten geeignet ist.
-
-
-Ganz gleich, ob Sie ein Gemeindelogo entwerfen oder Plakate, Präsentationen oder Flyer verbessern wollen, **künstliche Intelligenz kann ein mächtiger Verbündeter sein, wenn es darum geht, einzigartiges und ansprechendes Bildmaterial zu erstellen**.
-
-
-
-Zu diesem Zweck gibt es eine Reihe von KI. Dazu gehören
-
-
-
-
+Zu diesem Zweck gibt es eine Reihe von KI-Tools. Dazu gehören
 - [midjourney](https://docs.midjourney.com/docs/quick-start) (bezahlt);
 - [leonardo](https://leonardo.ai/) (kostenlos, kontobeschränkt);
 - [copilot](https://copilot.microsoft.com/) (kostenlos, kontobeschränkt);
 - [DALL-E] (https://www.dall-efree.com/) (bezahlt).
 
-
 In letzter Zeit sind viele weitere KI-Tools aufgetaucht, so dass diese Liste bei weitem nicht vollständig ist.
 
-
-
 **Beispiel: Erstellung eines futuristischen Bitcoin London Logos**
+Wenn du ein futuristisches Logo für ein "Bitcoin London"-Treffen entwerfen willst, könnest du Copilot fragen:
 
-Wenn Sie ein futuristisches Logo für ein "Bitcoin London"-Treffen entwerfen wollen, können Sie Copilot fragen:
-
-
-
-- [ ] *Aufforderung: Entwerfen Sie ein Bitcoin-Logo mit der London Bridge und Big Ben im Hintergrund. Futuristisch* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
-
-
+- [ ] *Aufforderung: Entwerfe ein Bitcoin-Logo mit der London Bridge und Big Ben im Hintergrund. Futuristisch* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba1758df4384bc33c4bca00ab45b?FORM=SYDBIC)
 
 ![image](assets/fr/014.webp)
 
-
-
-Wenn die ersten vier Ergebnisse nicht realistisch genug sind, verfeinern Sie Ihre Anfrage:
-
-
-
+Wenn die ersten vier Ergebnisse nicht realistisch genug sind, verfeinere deine Anfrage:
 
 - [ ] *Aufforderung: Mach die 4. viel realistischer* - [Link](https://copilot.microsoft.com/images/create/un-logo-Bitcoin-futuriste-avec-en-arric3a8re-plan-le-/1-6612ba64b72d4cea9830ab7eb844f785?FORM=SYDBIC)
 
-
-
 ![image](assets/fr/015.webp)
 
-
-
-Das neueste Ergebnis ist großartig!
-
-
+Das letzte Ergebnis ist großartig!
 
 **Beispiel: Erstellung eines einfachen Logos im britischen Stil**
-
 Für ein saubereres Aussehen, wie bei einem Aufkleber:
 
-
-
-- [ ] *Aufforderung: Erstellen Sie das Logo des "London Bitcoin Meetup" mit einem britischen und sauberen Stil* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
-
-
+- [ ] *Aufforderung: Erstelle das Logo des "London Bitcoin Meetup" mit einem britischen und sauberen Stil* - [Link](https://copilot.microsoft.com/images/create/logo-for-27londres-Bitcoin-meetup27-with-a-british-a/1-6612bb9451924859a6c34b350b3a6ebc?FORM=SYDBIC)
 
 ![image](assets/fr/016.webp)
 
-
-
 Das Ergebnis sieht wirklich cool aus!
 
+**Tipps für die Arbeit mit AI:**
+- Habe Geduld: Es kann sein, dass die KI nicht gleich beim ersten Versuch genau das produziert, was du dir vorstellst.
+- Verwende präzise Aufforderungen: Je klarer und detaillierter deine Anweisungen sind, desto besser sind die Ergebnisse.
+- Bitte um Hilfe: Wenn du nicht zufrieden bist, wende dich an jemanden, der Erfahrung mit Grafikdesign oder KI-Tools hat. Viele Bitcoiner helfen gerne, manchmal sogar kostenlos oder für ein paar Sats.
 
-
-**Tipps für die Arbeit mit AI**
-
-
-
-- Haben Sie Geduld: Es kann sein, dass die KI nicht gleich beim ersten Versuch genau das produziert, was Sie sich vorstellen.
-
-
-
-- Verwenden Sie präzise Aufforderungen: Je klarer und detaillierter Ihre Anweisungen sind, desto besser sind die Ergebnisse.
-
-
-
-- Bitten Sie um Hilfe: Wenn Sie nicht zufrieden sind, wenden Sie sich an jemanden, der Erfahrung mit Grafikdesign oder KI-Tools hat. Viele Bitcoiner helfen gerne, manchmal sogar kostenlos oder für ein paar Sats.
-
-
-
-# Schaffung von Kommunikationskanälen für Ihre Bitcoin-Community
-
+# Schaffung von Kommunikationskanälen für deine Bitcoin-Community
 
 <partId>fc588298-6876-554c-bd57-55d182464878</partId>
-
-
 
 ## Welche Kommunikationskanäle sollten Sie wählen?
 

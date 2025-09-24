@@ -116,11 +116,11 @@ Ukishaingia, utaona upau wa kusogeza juu ya Interface wenye: "*Trading*", "*Deri
 
 
 
-- Trading**: "*classic*" soko ambapo unaweza kuweka maagizo ya kununua na kuuza fedha za siri (ikiwa ni pamoja na Bitcoin) ;
-- OTC**: Huduma ya Over-The-Counter kwa kufanya biashara ya viwango vikubwa moja kwa moja na mchezaji mwingine, nje ya vitabu vya agizo la umma;
-- Ufadhili**: Eneo linalojitolea kukopesha na kufadhili kiasi;
-- Viingilio**: Sehemu ya viingilio (baadaye, n.k.), vinavyokusudiwa wafanyabiashara wenye uzoefu;
-- P2P**: Hukuruhusu kununua au kuuza cryptos kutoka kwa watumiaji wengine kwa misingi ya rika-kwa-rika.
+- **Trading**: "*classic*" soko ambapo unaweza kuweka maagizo ya kununua na kuuza fedha za siri (ikiwa ni pamoja na Bitcoin);
+- **OTC**: Huduma ya Over-The-Counter kwa kufanya biashara ya viwango vikubwa moja kwa moja na mchezaji mwingine, nje ya vitabu vya agizo la umma;
+- **Ufadhili**: Eneo linalojitolea kukopesha na kufadhili kiasi;
+- **Viingilio**: Sehemu ya viingilio (baadaye, n.k.), vinavyokusudiwa wafanyabiashara wenye uzoefu;
+- **P2P**: Hukuruhusu kununua au kuuza cryptos kutoka kwa watumiaji wengine kwa misingi ya rika-kwa-rika.
 
 
 Kwa matumizi ya kawaida (kununua/kuuza bitcoins, amana/utoaji na usimamizi wa fedha), utatumia hasa kichupo cha "*Trading*", pamoja na sehemu za "*Wallet*", "*Amana*" na "*Toa*".

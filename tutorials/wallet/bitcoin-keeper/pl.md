@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - zabezpieczenie wielu kluczy
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - aplikacja mobilna umożliwiająca tworzenie zarówno portfeli Hot, jak i skarbców Cold w celu długoterminowego oszczędzania
 ---
 

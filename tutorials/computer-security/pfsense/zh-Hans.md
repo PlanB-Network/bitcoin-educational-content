@@ -10,7 +10,7 @@ ___
 
 
 
-*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。为使教程与时俱进，对作者原文进行了重大修改。
+*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。为使教程与时俱进，对作者原文进行了重大修改。*
 
 
 
@@ -111,9 +111,9 @@ pfSense 还具有可扩展的软件包系统，可直接从 Interface web 轻松
 
 
 
-- 最低 1 GB 内存**（建议使用 2 GB 或更大内存，以支持更多软件包或 ZFS）。
-- 8 GB 磁盘空间**（对于更高级的配置，尤其是安装代理缓存、IDS/IPS 或详细日志时，最好使用 20 GB 或更大的空间）。
-- 至少两个虚拟网络接口**（一个用于广域网，一个用于局域网）。在 VirtualBox 中，启动前将它们添加到虚拟机设置中。
+- 最低 1 GB 内存**（建议使用 2 GB 或更大内存，以支持更多软件包或 ZFS）**。
+- 8 GB 磁盘空间**（对于更高级的配置，尤其是安装代理缓存、IDS/IPS 或详细日志时，最好使用 20 GB 或更大的空间）**。
+- 至少两个虚拟网络接口**（一个用于广域网，一个用于局域网）**。在 VirtualBox 中，启动前将它们添加到虚拟机设置中。
 
 
 
@@ -309,8 +309,8 @@ pfSense 确认 Interface 局域网同时激活防火墙和 NAT，以保护内部
 
 
 
-- 用户名：** `admin`
-- 密码：** `pfsense`
+- 用户名：**`admin`**
+- 密码：**`pfsense`**
 
 
 
@@ -429,10 +429,10 @@ pfSense 确认 Interface 局域网同时激活防火墙和 NAT，以保护内部
 
 
 
-- 修改防火墙规则**：默认情况下，pfSense 允许 LAN 上的所有传出流量，并阻止 WAN 上的传入流量。根据需要调整这些规则。
-- 配置安全远程访问**：如果需要，只能通过 VPN 或 IP 限制从广域网访问 Interface 网络。
-- 启用通知**：配置 SMTP 服务器以接收警报（故障、更新、错误）。
-- 安装有用的扩展**：例如，IDS/IPS（Snort、Suricata）、代理（Squid）、DNS 过滤（pfBlockerNG）。
+- 修改防火墙规则：默认情况下，pfSense 允许 LAN 上的所有传出流量，并阻止 WAN 上的传入流量。根据需要调整这些规则。
+- 配置安全远程访问：如果需要，只能通过 VPN 或 IP 限制从广域网访问 Interface 网络。
+- 启用通知：配置 SMTP 服务器以接收警报（故障、更新、错误）。
+- 安装有用的扩展：例如，IDS/IPS（Snort、Suricata）、代理（Squid）、DNS 过滤（pfBlockerNG）。
 
 
 

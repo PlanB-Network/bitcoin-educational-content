@@ -64,10 +64,10 @@ I menyfältet hittar du följande nätverk:
 
 
 
-- Mainnet** : Det huvudsakliga Bitcoin-nätverket där verkliga Bitcoin-transaktioner äger rum.
-- Signet**: Ett testnätverk som använder digitala signaturer för att validera block utan att kräva de resurser som krävs av huvudnätverket.
-- Testnet 3**: Ett riskfritt test- och utvecklingsnätverk på Bitcoin-protokollet.
-- Testnet 4** : Den nya versionen av Testnet 3 ger större stabilitet och nya samförståndsregler i testmiljön.
+- **Mainnet**: Det huvudsakliga Bitcoin-nätverket där verkliga Bitcoin-transaktioner äger rum.
+- **Signet**: Ett testnätverk som använder digitala signaturer för att validera block utan att kräva de resurser som krävs av huvudnätverket.
+- **Testnet 3**: Ett riskfritt test- och utvecklingsnätverk på Bitcoin-protokollet.
+- **Testnet 4**: Den nya versionen av Testnet 3 ger större stabilitet och nya samförståndsregler i testmiljön.
 
 
 
@@ -142,9 +142,9 @@ På sidan med transaktionsdetaljer hittar du allmän information om din transakt
 
 
 
-- Status**: Bekräftad när den läggs till i ett block, obekräftad när den väntar i en Mempool.
-- Transaktionsavgifter**.
-- Beräknad ankomsttid (ETA)** :  Den ungefärliga tid det tar för din transaktion att läggas till i ett block. Den beräknas enligt det förhållande som utgör de avgifter som är förknippade med den här transaktionen.
+- **Status**: Bekräftad när den läggs till i ett block, obekräftad när den väntar i en Mempool.
+- **Transaktionsavgifter**.
+- **Beräknad ankomsttid (ETA)**: Den ungefärliga tid det tar för din transaktion att läggas till i ett block. Den beräknas enligt det förhållande som utgör de avgifter som är förknippade med den här transaktionen.
 
 
 
@@ -192,7 +192,7 @@ Lyckligtvis finns det två metoder tillgängliga i Bitcoin-nätverket för att p
 
 
 
-- RBF** - Ersättning med avgift: En metod som gör att du kan använda samma poster som din transaktion med låg avgift, men den här gången genom att höja transaktionsavgiften för att påskynda valideringen. Din nya transaktion kommer att valideras snabbare och inkluderas i ett block, vilket ogiltigförklarar transaktionen med låg avgift.
+- **RBF** - Ersättning med avgift: En metod som gör att du kan använda samma poster som din transaktion med låg avgift, men den här gången genom att höja transaktionsavgiften för att påskynda valideringen. Din nya transaktion kommer att valideras snabbare och inkluderas i ett block, vilket ogiltigförklarar transaktionen med låg avgift.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Ett tillvägagångssätt inspirerat av RBF, men på mottagarens sida. När den transaktion som du är mottagare av blockeras i en Mempool har du möjlighet att spendera utgifterna (UTXO) för denna transaktion, trots att den ännu inte har bekräftats, genom att tilldela fler avgifter till denna nya transaktion så att de genomsnittliga avgifterna - för den transaktion som du är mottagare av och den initierade transaktionen - uppmuntrar miners att inkludera båda transaktionerna i ett block.
+- **CPFP** - Child pay for parent: Ett tillvägagångssätt inspirerat av RBF, men på mottagarens sida. När den transaktion som du är mottagare av blockeras i en Mempool har du möjlighet att spendera utgifterna (UTXO) för denna transaktion, trots att den ännu inte har bekräftats, genom att tilldela fler avgifter till denna nya transaktion så att de genomsnittliga avgifterna - för den transaktion som du är mottagare av och den initierade transaktionen - uppmuntrar miners att inkludera båda transaktionerna i ett block.
 
 
 

@@ -1,0 +1,9 @@
+question: 확장 키에는 어떤 정보가 포함되지 않나요?
+answer: 키의 거래 내역
+wrong_answers:
+  - 키의 인덱스 번호
+  - 키(비공개 또는 공개)
+  - chain code
+explanation: |
+  확장 키에는 트랜잭션과 관련된 정보가 아닌 하위 키를 도출하는 데 필요한 정보만 포함되어 있습니다.
+reviewed: false

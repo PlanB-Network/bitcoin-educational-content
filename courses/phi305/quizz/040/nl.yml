@@ -1,0 +1,9 @@
+question: Wat is scholastische filosofie?
+answer: Een christelijke filosofie uit de Middeleeuwen.
+wrong_answers:
+  - Een politieke beweging.
+  - Een anarchistische filosofie.
+  - Een rationele filosofie.
+explanation: |
+  De scholastieke filosofie was een christelijke filosofie uit de Middeleeuwen die de Europese universiteiten domineerde. Deze filosofie probeerde het Christelijk geloof te harmoniseren met de Aristotelische filosofie.
+reviewed: false

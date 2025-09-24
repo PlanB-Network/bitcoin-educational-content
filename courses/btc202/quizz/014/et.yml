@@ -1,0 +1,9 @@
+question: Mida ühendas 2009. aastal algne Bitcoin tarkvara?
+answer: Wallet, vibu ja moll
+wrong_answers:
+  - Sõlm, Miner ja Block explorer
+  - Wallet, kopter ja Miner
+  - Miner ja Mining pool
+explanation: |
+  Algne Bitcoin tarkvara ühendas Wallet, sõlme ja Miner funktsioonid ühte programmi.
+reviewed: true

@@ -36,7 +36,6 @@ Pada akhir kursus, Anda harus dapat menulis program Anda sendiri dalam JavaScrip
 <chapterId>ba05a290-1782-5268-87c9-62fd09590e05</chapterId>
 
 
-Pada bagian ini kita akan menyiapkan mesin kita untuk menulis dan menjalankan program JavaScript pertama kita.
 
 
 Program JavaScript hanyalah sebuah kumpulan (satu atau lebih) file teks, yang berisi perintah yang akan dieksekusi oleh runtime JavaScript.
@@ -54,13 +53,13 @@ Runtime JavaScript adalah program khusus yang mengeksekusi file-file ini.
 ![](assets/en/1.webp)
 
 
-### Instalasi NodeJS
+### Runtime NodeJS
 
 
 Runtime JavaScript yang paling umum adalah NodeJS.
 
 
-Anda dapat menginstalnya dengan mengikuti [petunjuk resmi](https://nodejs.org/en/download).
+IDE Anda mungkin sudah menyertakannya, atau Anda mungkin perlu mengunduhnya dari [situs web resmi](https://nodejs.org/en/download).
 
 
 Halaman unduhan akan memberi Anda petunjuk untuk ketiga OS (Sistem Operasi) utama: Windows, Linux dan MacOS. Ini mengasumsikan Anda tahu cara membuka terminal di OS Anda.
@@ -75,22 +74,16 @@ Ini berarti Anda bisa, misalnya, menulis videogame sederhana dalam JavaScript di
 ![](assets/en/2.webp)
 
 
-### Pengeditan teks
 
 
-Salah satu hal yang menarik dari pemrograman adalah Anda bisa menulis kode menggunakan editor teks apa pun, bahkan notepad bawaan OS Anda.
 
 
-Ada beberapa editor teks yang dikhususkan untuk menulis kode, ada yang tersedia secara gratis, ada juga yang mengharuskan Anda membayar lisensi.
 
 
-Pilihan editor kode adalah lubang kelinci raksasa yang melampaui ruang lingkup kursus ini, jadi kita tidak akan membicarakannya di sini. Jika Anda tidak tahu apa yang harus digunakan, editor gratis yang paling sering digunakan adalah [VSCode] (https://code.visualstudio.com/).
 
 
-Interface sedikit membengkak, tetapi memiliki apa yang Anda butuhkan: editor berkas, penjelajah berkas (untuk memvisualisasikan berkas dan subdirektori dalam direktori yang Anda kerjakan), dan terminal untuk menjalankan kode Anda. Ia juga mendukung banyak plugin, dan dilengkapi dengan penyorotan sintaksis JavaScript secara default.
 
 
-Jika Anda ingin sedikit lebih Cypherpunk-y, Anda dapat menggunakan [VSCodium] (https://vscodium.com/) sebagai gantinya.
 
 
 ### Program pertama (halo dunia)
@@ -102,7 +95,7 @@ Biasanya, ketika mempelajari bahasa pemrograman, program pertama yang ditulis se
 Buat direktori bernama `my_js_code/`, dengan di dalamnya terdapat file bernama `main.js` (nama ini dapat diubah-ubah).
 
 
-Buka direktori dengan VSCode.
+Buka direktori dengan editor kode Anda.
 
 
 Tulis kode ini ke dalam file Anda:
@@ -737,9 +730,9 @@ Pada bagian ini, kita akan membahas tiga jenis lagi yang sangat umum dalam progr
 
 
 
-- Larik**: urutan nilai
-- undefined**: nilai khusus yang berarti "tidak ada yang ditetapkan"
-- null**: nilai khusus lain yang berarti "sengaja dikosongkan"
+- **Larik**: urutan nilai
+- **undefined**: nilai khusus yang berarti "tidak ada yang ditetapkan"
+- **null**: nilai khusus lain yang berarti "sengaja dikosongkan"
 
 
 ### Akses array dan indeks
@@ -1527,7 +1520,7 @@ function sayHello () {console.log(`Hello!`) }
 ```
 
 
-Kode ini **mendeklarasikan** fungsi, tetapi belum **menjalankannya.
+Kode ini **mendeklarasikan** fungsi, tetapi belum **menjalankannya**.
 
 
 ### Panggilan fungsi
@@ -2537,7 +2530,7 @@ Begini cara kerjanya:
 
 
 - Kode di dalam blok `try` akan dicoba terlebih dahulu.
-- Jika terjadi kesalahan, JavaScript **melompat ke blok `tangkap`, melewatkan blok `coba` lainnya.
+- Jika terjadi kesalahan, JavaScript **melompat ke blok `tangkap`**, melewatkan blok `coba` lainnya.
 - Blok `catch` menerima kesalahan, sehingga Anda dapat mencetaknya, atau menanganinya dengan cara lain, seperti misalnya
 
 
@@ -4056,7 +4049,7 @@ Sekarang kelas `Range` kita bekerja seperti sebuah array, dan kita dapat menggun
 ### Fungsi generator dan `hasil`
 
 
-Untuk mempermudah pembuatan iterator, JavaScript memberi Anda **fungsi generator**, dengan menggunakan kata kunci `function` (yaitu `function` dengan `*` di akhir) dan kata kunci `yield`.
+Untuk mempermudah pembuatan iterator, JavaScript memberi Anda **fungsi generator**, dengan menggunakan kata kunci `function*` (yaitu `function` dengan `*` di akhir) dan kata kunci `yield`.
 
 
 Mari kita coba:
@@ -4197,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Apa yang terjadi di sini?
+**Apa yang terjadi di sini?**
 
 
 1. Kita memberikan `input` sebagai daftar angka yang ingin kita gandakan.
@@ -4952,7 +4945,7 @@ JavaScript memiliki beberapa sintaksis bawaan yang memungkinkan kita menulis dek
 ### Operator Ternary
 
 
-Dalam JavaScript, Anda dapat menetapkan nilai berdasarkan kondisi menggunakan **operator **ternary**, yang merupakan cara singkat untuk menulis `if...else`.
+Dalam JavaScript, Anda dapat menetapkan nilai berdasarkan kondisi menggunakan **operator ternary**, yang merupakan cara singkat untuk menulis `if...else`.
 
 
 Alih-alih melakukan:
@@ -6438,10 +6431,10 @@ NodeJS memiliki empat jenis aliran utama:
 
 
 
-- Dapat dibaca**: aliran yang dapat Anda baca datanya (seperti membaca file)
-- Dapat Ditulis**: stream yang dapat Anda tulis datanya (seperti menulis ke file)
-- Duplex**: aliran yang dapat dibaca dan ditulis
-- Transform**: seperti aliran dupleks, tetapi dapat mengubah (mentransformasikan) data saat mengalir
+- **Dapat dibaca**: aliran yang dapat Anda baca datanya (seperti membaca file)
+- **Dapat Ditulis**: stream yang dapat Anda tulis datanya (seperti menulis ke file)
+- **Duplex**: aliran yang dapat dibaca dan ditulis
+- **Transform**: seperti aliran dupleks, tetapi dapat mengubah (mentransformasikan) data saat mengalir
 
 
 ### Aliran yang dapat dibaca

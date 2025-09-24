@@ -1,0 +1,9 @@
+question: Wat is het doel van de revNNN.dat-bestanden die naast blkNNN.dat zijn opgeslagen?
+answer: UTXO set herstellen tijdens reorganisatie
+wrong_answers:
+  - UTXO set herstellen tijdens een Hard Fork
+  - Mempool herstellen tijdens Hard Fork
+  - Mempool herstellen tijdens een reorganisatie
+explanation: |
+  Elke revNNN.dat bevat de gegevens die nodig zijn om de effecten van een blok op de UTXO set ongedaan te maken, wat het makkelijker maakt om reorganisaties te beheren.
+reviewed: true

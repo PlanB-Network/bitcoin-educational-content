@@ -68,7 +68,7 @@ Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengel
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.**_
+tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.
 
 Tekan tombol pada Portal Anda dengan kuat untuk beralih ke kata berikutnya. Pastikan Anda meletakkan seluruh jari Anda pada tombol dan tahan tekanan selama beberapa detik, sehingga interaksi terdeteksi dengan benar.
 

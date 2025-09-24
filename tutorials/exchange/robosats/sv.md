@@ -92,7 +92,7 @@ Följande steg genomfördes i maj 2023 med version 0.5.0, åtkommen via Tor-webb
 I skrivande stund är RoboSats fortfarande under aktiv utveckling, så Interface kan förändras lite i framtiden, men de grundläggande stegen som krävs för att slutföra handeln bör förbli i stort sett oförändrade.
 
 
-**När du först laddar RoboSats kommer du att mötas av den här målsidan. Klicka på Start.
+**När du först laddar RoboSats kommer du att mötas av den här målsidan. Klicka på Start.**
 
 
 ![image](assets/2.webp)

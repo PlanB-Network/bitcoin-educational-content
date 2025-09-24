@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: Cài đặt VPN của bạn
+description: Cấu hình LN VPN với Lightning cho một VPN ẩn danh và theo nhu cầu
 ---
 
 ![image](assets/cover.webp)

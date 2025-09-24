@@ -4,7 +4,7 @@ description: Oma RoninDojo v2 Bitcoin node'i paigaldamine Raspberry Pi'le
 ---
 ![kaanepilt RoninDojo v2](assets/cover.webp)
 
-***HOIATUS:** Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil on mõned RoninDojo funktsioonid, nagu Whirlpool, enam mitte töökorras. Siiski on võimalik, et need tööriistad võidakse järgnevatel nädalatel taastada või uuesti käivitada erineval kujul. Kuna RoninDojo kood oli majutatud Samourai GitLabis, mis samuti konfiskeeriti, ei ole hetkel võimalik koodi kaugelt alla laadida. RoninDojo meeskonnad töötavad tõenäoliselt koodi uuesti avaldamise nimel.*
+**HOIATUS:** Pärast Samourai Walleti asutajate vahistamist ja nende serverite konfiskeerimist 24. aprillil on mõned RoninDojo funktsioonid, nagu Whirlpool, enam mitte töökorras. Siiski on võimalik, et need tööriistad võidakse järgnevatel nädalatel taastada või uuesti käivitada erineval kujul. Kuna RoninDojo kood oli majutatud Samourai GitLabis, mis samuti konfiskeeriti, ei ole hetkel võimalik koodi kaugelt alla laadida. RoninDojo meeskonnad töötavad tõenäoliselt koodi uuesti avaldamise nimel.*
 
 _Jälgime selle juhtumi arenguid ning seotud tööriistade arenguid tähelepanelikult. Võite olla kindlad, et uuendame seda õpetust, kui uut teavet saadaval on._
 
@@ -250,7 +250,7 @@ Kui näiteks teie sõlme IP-aadress on `192.168.1.40`, siis sobiv käsk oleks:
 `SSH ronindojo@192.168.1.40`
 
 Teilt küsitakse kasutaja parooli. Sisestage see ja vajutage `enter`, et kinnitada. Seejärel pääsete ligi RoninCLI liidesele. Kasutage klaviatuuri nooleklahve, et liikuda valikuni `Exit RoninDojo` ja vajutage `enter`, et seda valida.
-Sel hetkel viibite oma sõlme terminalis, kus käsukutse näeb välja sarnane: `ronindojo@RoninDojo:~ $`. Veth* paranduse rakendamiseks tippige järgmine käsk ja vajutage `enter`: `sudo nano /etc/dhcpcd.conf`
+Sel hetkel viibite oma sõlme terminalis, kus käsukutse näeb välja sarnane: `ronindojo@RoninDojo:~ $`. **Veth** paranduse rakendamiseks tippige järgmine käsk ja vajutage `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Kinnitage oma parool uuesti ja vajutage `enter`.
 
@@ -315,7 +315,7 @@ Teie RoninDojo sõlm integreerib ka _WhirlpoolCLI_, käsurealiidese, mis võimal
 Whirlpooli kasutamiseks mündiühendamiseks peab kasutatav rakendus olema aktiivne, et teostada ümbersegamisi. See tingimus võib olla piirav neile, kes soovivad saavutada kõrge anonüümsuse tasemeid. Tõepoolest, seade, kuhu on integreeritud Whirlpooli rakendus, peab pidevalt töötama. See tähendab, et osalemiseks ümbersegamistes ööpäevaringselt, peab teie arvuti või nutitelefon olema pidevalt sisse lülitatud koos Samourai või Sparrow'ga avatuna. Selle piirangu lahenduseks on kasutada _WhirlpoolCLI_-d masinal, mis on alati sees, nagu näiteks Bitcoin node, võimaldades teie müntidel seguneda katkematult, ilma vajaduseta hoida teist seadet sisse lülitatuna.
 Üksikasjalik õpetus on ettevalmistamisel, et juhendada teid samm-sammult läbi protsessi, kuidas teha mündiühendamist Samourai Walleti ja RoninDojo v2 abil, A-st Z-ni.
 
-Sügavamaks mõistmiseks mündiühendamisest ja selle kasutamisest Bitcoinil, kutsun teid samuti konsulteerima selle teise artikliga: [Mündiühendamise mõistmine ja kasutamine Bitcoinil](https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2), kus ma detailideni selgitan kõike, mida peate selle tehnika kohta teadma.
+Sügavamaks mõistmiseks mündiühendamisest ja selle kasutamisest Bitcoinil, kutsun teid samuti konsulteerima selle teise artikliga: Mündiühendamise mõistmine ja kasutamine Bitcoinil, kus ma detailideni selgitan kõike, mida peate selle tehnika kohta teadma.
 ### Whirlpool Stat Tool (WST) kasutamine
 
 Pärast mündiühendamiste tegemist Whirlpooliga on kasulik täpselt hinnata saavutatud privaatsuse taset teie segatud UTXO-de jaoks. Selleks võite kasutada Pythoni tööriista *Whirlpool Stat Tool*. See tööriist võimaldab teil mõõta nii teie UTXO-de tuleviku- kui ka tagasivaatelisi hindeid, analüüsides samal ajal nende leviku määra basseinis.
@@ -497,3 +497,4 @@ Siin see on! Täname, et järgisite seda õpetust lõpuni. Kui see meeldis, julg
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/boltzmanni-tutvustus-85930984a159](https://medium.com/@laurentmt/boltzmanni-tutvustus-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

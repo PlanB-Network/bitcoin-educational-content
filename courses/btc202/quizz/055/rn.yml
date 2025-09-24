@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo butatu bwo gukoresha server buri muri Sparrow?
+answer: Umukozi wa bose, Bitcoin core, umuyagankuba wigenga
+wrong_answers:
+  - RPC Utaziguye, VPN, Tor
+  - Full node, Urudodo rw'umuco, Urudodo rw'igendagenda
+  - Ishingiro RPC, Umuravyo, UmuyagankubaX
+explanation: |
+  Sparrow itanga amahitamwo atatu y’amaserveri: Serveri ya Leta, Bitcoin core (RPC), na Serveri y’Umwigenga.
+reviewed: true

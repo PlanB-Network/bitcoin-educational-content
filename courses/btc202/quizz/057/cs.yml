@@ -1,0 +1,9 @@
+question: Která možnost serveru Sparrow wallet odpovídá připojení RPC?
+answer: Bitcoin core
+wrong_answers:
+  - Veřejný server
+  - Soukromé Electrum
+  - Vzdálené rozhraní API
+explanation: |
+  V Sparrow odpovídá možnost Bitcoin core přímému připojení k uzlu prostřednictvím RPC.
+reviewed: true

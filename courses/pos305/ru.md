@@ -581,7 +581,7 @@ BTCPay Server использует “mempoolfullrbf=1”; мы добавили
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Настройки кошелька BTCPay Server

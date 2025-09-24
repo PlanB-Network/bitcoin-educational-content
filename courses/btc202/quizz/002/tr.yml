@@ -1,0 +1,9 @@
+question: Bir Bitcoin düğümü harcanmamış çıktıyı izlemek için yerel olarak hangi veritabanını tutar?
+answer: UTXO seti
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Wallet Tarihçesi
+explanation: |
+  Düğüm, gelecekteki işlemler için mevcut harcanmamış çıktılar kümesi olan UTXO kümesini tutar.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Qué etapa forma parte del papel de un menor?
+answer: Construir un bloque candidato a partir de Mempool
+wrong_answers:
+  - Validar todo el Blockchain desde Mempool
+  - Crear direcciones Bitcoin para los usuarios
+  - Almacenar claves privadas para monederos
+explanation: |
+  Un Miner selecciona transacciones de Mempool y construye un bloque candidato, que intenta validar Proof of Work.
+reviewed: true

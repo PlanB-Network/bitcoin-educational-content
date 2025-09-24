@@ -233,8 +233,8 @@ Untuk melakukan transfer, Anda perlu memanipulasi dompet Bitcoin lokal untuk men
 Dalam banyak kasus, interaksi antara peserta dalam kontrak (misalnya Alice dan Bob) terjadi melalui pembuatan faktur. Jika Alice ingin Bob melakukan sesuatu (transfer token, penerbitan ulang, tindakan dalam DAO, dll.), Alice membuat faktur yang merinci instruksinya kepada Bob. Jadi, kita memiliki :
 
 
-- Alice** (penerbit faktur);
-- Bob** (yang menerima dan melaksanakan faktur).
+- **Alice** (penerbit faktur);
+- **Bob** (yang menerima dan melaksanakan faktur).
 
 Tidak seperti ekosistem lainnya, faktur RGB tidak terbatas pada pengertian pembayaran. Faktur ini dapat menyematkan permintaan apa pun yang terkait dengan kontrak: mencabut kunci, memberikan suara, membuat ukiran (*engraving*) pada NFT, dll. Operasi yang sesuai dapat dijelaskan dalam antarmuka kontrak. Operasi yang sesuai dapat dijelaskan dalam antarmuka kontrak.
 

@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Ödeme için Tara** :
+- Ödeme için **Tara** :
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Kenya'ya para gönderme** :
+- **Kenya'ya para gönderme** :
 
 
 
@@ -103,7 +103,7 @@ Tando'nun para havalesi seçeneği, dünyanın herhangi bir yerinden Kenya'ya pa
 
 
 
-Para Gönder** seçeneğini seçin, ardından alıcının numarasını girin. Gönderilecek tutarı girin (15 ile 50.000 KES arasında), ardından bu ödemeyle ilişkili Lightning Invoice'yi oluşturun.
+**Para Gönder** seçeneğini seçin, ardından alıcının numarasını girin. Gönderilecek tutarı girin (15 ile 50.000 KES arasında), ardından bu ödemeyle ilişkili Lightning Invoice'yi oluşturun.
 
 
 
@@ -121,7 +121,7 @@ Faturayı Lightning Wallet'inizden ödeyin ve Tando bunu Kenya şilinine (KES) �
 
 
 
-- Faturalarınızı ödeyin** :
+- **Faturalarınızı ödeyin** :
 
 
 
@@ -135,7 +135,7 @@ Faturayı Lightning Wallet'inizden ödeyin ve Tando bunu Kenya şilinine (KES) �
 
 
 
-- Mal satın almak** :
+- **Mal satın almak** :
 
 
 

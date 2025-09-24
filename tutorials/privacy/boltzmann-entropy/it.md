@@ -4,8 +4,8 @@ description: Comprendere il concetto di entropia utilizzando il Boltzmann Calcul
 ---
 ![cover](assets/cover.webp)
 
-***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei relativi server, avvenuto il 24 aprile 2024, il sito web KYCP.org non è attualmente accessibile. Anche il repository GitLab che ospitava il codice del Boltzmann Calculator in Python è stato sequestrato. Al momento, non è più possibile scaricare lo strumento. Tuttavia, è probabile che il codice venga ripubblicato da altri prossimamente.
-Nel frattempo, puoi comunque trarre beneficio da questo tutorial per comprendere il funzionamento del Boltzmann Calculator. Gli indicatori forniti dallo strumento sono applicabili a qualsiasi transazione Bitcoin e possono anche essere calcolati manualmente. Tutti i passaggi necessari sono illustrati in questo tutorial. Se hai già scaricato lo strumento Python sul tuo computer, o se utilizzi un nodo RoninDojo, puoi continuare a usarlo normalmente seguendo le istruzioni contenute qui.*
+**ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei relativi server, avvenuto il 24 aprile 2024, il sito web KYCP.org non è attualmente accessibile. Anche il repository GitLab che ospitava il codice del Boltzmann Calculator in Python è stato sequestrato. Al momento, non è più possibile scaricare lo strumento. Tuttavia, è probabile che il codice venga ripubblicato da altri prossimamente.
+Nel frattempo, puoi comunque trarre beneficio da questo tutorial per comprendere il funzionamento del Boltzmann Calculator. Gli indicatori forniti dallo strumento sono applicabili a qualsiasi transazione Bitcoin e possono anche essere calcolati manualmente. Tutti i passaggi necessari sono illustrati in questo tutorial. Se hai già scaricato lo strumento Python sul tuo computer, o se utilizzi un nodo RoninDojo, puoi continuare a usarlo normalmente seguendo le istruzioni contenute qui.
 
 _Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
 

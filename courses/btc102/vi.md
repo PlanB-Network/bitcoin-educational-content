@@ -791,9 +791,6 @@ Sau đó, họ cần học cách trộn coin, quản lý UTXO (Unspent Transacti
 
 ### Hướng dẫn:
 
-Ví nóng:
-https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
-
 Ví lạnh:
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
@@ -1042,5 +1039,6 @@ Dù trường hợp nào, tất cả các khóa học của chúng tôi đều m
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 
 

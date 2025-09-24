@@ -1,6 +1,7 @@
 id: d955dd28-b7c6-4ba2-a123-d932e21d148f
 topic: social studies
 subtopic: economy
+type: theory
 level: intermediate
 hours: 5
 
@@ -136,6 +137,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 30.52
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 38.13
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.52
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 45.73
 tags:
   - finance
   - market-trends

@@ -1,0 +1,9 @@
+question: UmbrelOS를 설치하려면 어떤 단계를 완료해야 하나요?
+answer: 이미지로 부팅 가능한 USB 키 만들기
+wrong_answers:
+  - Bitcoin core 소스 코드 컴파일하기
+  - Blockchain 포맷하기
+  - Umbrel.com에서 계정 만들기
+explanation: |
+  설치는 Balena Etcher를 통해 UmbrelOS로 부팅 가능한 USB 키를 준비하는 것으로 시작됩니다.
+reviewed: true

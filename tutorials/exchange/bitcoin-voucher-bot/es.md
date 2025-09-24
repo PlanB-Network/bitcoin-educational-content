@@ -4,9 +4,9 @@ description: Un bot de Telegram para comprar Bitcoin de forma confidencial
 ---
 ![image](assets/cover.webp)
 
-_Este tutorial ha sido escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Este tutorial fue escrito por_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Introducción
+## Introducción
 
 El BitcoinVoucherBot es una herramienta con la que se pueden comprar Bitcoins en Exchange a cambio de euros.
 
@@ -32,7 +32,7 @@ En el chat de Telegram preparamos un pedido, con una transferencia bancaria lo p
 
 La activación es una simple operación de una sola vez. Desde Telegram, busca _@BitcoinVoucherBot_ y nada más llegar al chat del Bot, un gran botón _Start/Start_ destaca en la parte inferior. La operación provoca la respuesta del Bot, que presenta un menú con los principales comandos de que dispone. También aparecen los primeros mensajes de bienvenida, que recomendamos leer atentamente.
 
-**Atención**: hay varios estafadores haciéndose pasar por VoucherBot original. Si no está seguro de la búsqueda a través de Telegram, por favor, acceda al enlace BitcoinVoucherBot desde el [sitio web oficial](https://www.bitcoinvoucherbot.com/)
+**Atención**: hay varios estafadores que se hacen pasar por el VoucherBot original. Si no estás seguro de la búsqueda a través de Telegram, accede al enlace de BitcoinVoucherBot desde el [sitio oficial](https://www.bitcoinvoucherbot.com/)
 
 ![image](assets/it/01.webp)
 
@@ -53,9 +53,9 @@ Las principales operaciones incluyen:
 - _/fees_: un comando para comprobar las tarifas de red. Para evaluarlas, siempre es mejor basarse en Mempool.space.
 - _/support_: en caso de necesidad, aparecen contactos para informar de los problemas al equipo de soporte.
 
-# Procedimiento de compra de Bitcoin
+## Procedimiento de compra de Bitcoin
 
-## Preparación de pedidos
+### Preparación del pedido
 
 Haga clic en _/comprar_ en el menú de comandos
 
@@ -97,7 +97,7 @@ Si todo es correcto, continúe haciendo clic en _Proceder_.
 
 ![image](assets/it/10.webp)
 
-## Pago
+### Pago
 
 Tras unos instantes, necesarios para procesar los datos, VoucherBot responde con un mensaje que contiene todos los detalles necesarios para completar el pedido. Dependiendo de lo que su banco requiere, la información relevante es:
 
@@ -124,7 +124,7 @@ Tenga en cuenta lo siguiente:
 - para cualquier necesidad, Bitcoin VoucherBot tiene un excelente servicio de [soporte](https://t.me/BitcoinVoucherGroup) en Telegram.
 
 ---
-## Redención
+### Rescate
 
 En cuanto el pago se realiza correctamente, Bitcoin VoucherBot envía el vale directamente al chat. El vale relámpago tiene forma de código QR, impreso sobre fondo naranja.
 
@@ -139,7 +139,7 @@ Ahí están todos los datos necesarios para cobrarlo:
 
 Puede canjear el vale enmarcando el código QR con la función de escaneado de una Wallet Lightning Network compatible, o a través de LNURL, que también se muestra debajo del código QR.
 
-Para este tutorial hemos utilizado Wallet de Satoshi, utilizando la función de escaneo activada por la tecla _Send_
+Para este tutorial usamos Wallet Of Satoshi, utilizando la función de escaneo activada por el botón _Send_.
 
 ![image](assets/it/32.webp)
 
@@ -147,17 +147,17 @@ Con la cámara del móvil activada, enmarca el código QR en el chat, abriendo T
 
 ![image](assets/it/34.webp)
 
-Antes de proceder, Wallet De Satoshi de una pantalla de verificación que incluye la cantidad, que coincide exactamente con la cantidad expresada en el bono y, como descripción, BitcoinVoucherBot. Para cobrar el bono, simplemente haga clic en _Receive_
+Antes de continuar, Wallet Of Satoshi muestra una pantalla de verificación que incluye el importe, que coincide exactamente con el indicado en el cupón, y como descripción, BitcoinVoucherBot. Para canjear el cupón, basta con hacer clic en _Receive_.
 
 ![image](assets/it/35.webp)
 
-Wallet De Satoshi procesa durante unos instantes
+Wallet Of Satoshi procesa durante unos instantes.
 
 ![image](assets/it/36.webp)
 
 y, por último, la recaudación se comunica y queda inmediatamente disponible en el saldo de Wallet.
 
-**Wallet de Satoshi es una aplicación de custodia: inmediatamente después de canjear el vale, es aconsejable mover Sats a una Wallet sin custodia.**
+**Wallet of Satoshi es una aplicación custodial: justo después de canjear el cupón se recomienda mover los sats a una billetera no custodial.**
 
 ![image](assets/it/37.webp)
 

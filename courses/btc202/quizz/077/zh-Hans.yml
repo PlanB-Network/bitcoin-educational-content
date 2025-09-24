@@ -1,0 +1,9 @@
+question: 块/索引/中使用哪个数据库来存储块元数据？
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - 伯克利 DB
+explanation: |
+  Bitcoin core 在 blocks/index/ 中使用 LevelDB 对数据块进行索引，从而加快了搜索速度和为同行提供服务的速度。
+reviewed: true

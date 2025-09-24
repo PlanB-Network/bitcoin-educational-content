@@ -1,0 +1,9 @@
+question: ¿Se ha publicado Ética?
+answer: A título póstumo.
+wrong_answers:
+  - Cuando estaba vivo.
+  - Es una recopilación de artículos de prensa.
+  - Con la correspondencia del autor.
+explanation: |
+  La Ética, obra capital de Spinoza, se publicó póstumamente en 1677, pocos meses después de su muerte. La obra era demasiado controvertida para publicarla en vida sin arriesgarse a ser perseguido.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni hifadhidata gani inatumika katika vizuizi/index/ kuhifadhi metadata ya kuzuia?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core hutumia LevelDB katika vizuizi/index/ kuweka vizuizi vya faharasa, kuharakisha utafutaji wake na huduma kwa wenzao.
+reviewed: true

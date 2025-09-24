@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - 多钥匙安全系统
+name: Bitcoin Keeper
 description: Bitcoin Keeper 应用程序--一款移动应用程序，可创建 Hot 钱包和 Cold 存储库，用于长期储蓄
 ---
 

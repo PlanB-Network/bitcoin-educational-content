@@ -1,5 +1,5 @@
 ---
-name: Seed Signer
+name: SeedSigner
 
 description: Teie Seed signer'i seadistamine
 ---

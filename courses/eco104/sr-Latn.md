@@ -771,12 +771,12 @@ Ostali značajni Cypherpunks uključuju:
 
 
 
-- Timothy May:** Osnivač mejling liste Cypherpunks i pisao je opširno o kriptografiji i privatnosti tokom 90-ih i ranih 2000-ih. Njegovo pisanje postavilo je temelje za diskusije o digitalnoj privatnosti i elektronskim sistemima gotovine.
-- Eric Huges:** Još jedan od osnivača Cypherpunksa i koautor "A Cypherpunk's Manifesto," koji je naglašavao važnost privatnosti i anonimnosti u digitalnom dobu.
-- Whitfield Diffie i Martin Hellman:** Razvili su koncept kriptografije javnog ključa, revolucionirajući sigurnu internet komunikaciju.
-- Julian Assange:** Osnivač WikiLeaksa, koji objavljuje poverljive i osetljive informacije kako bi promovisao transparentnost i odgovornost.
-- Bram Cohen:** Kreirao BitTorrent, peer-to-peer protokol za deljenje fajlova koji je decentralizovao distribuciju sadržaja i omogućio brže preuzimanje.
-- John Gilmore:** Preduzetnik i libertarijanac koji je suosnivač Electronic Frontier Foundation (EFF) i zagovornik digitalnih prava i privatnosti na internetu.
+- **Timothy May:** Osnivač mejling liste Cypherpunks i pisao je opširno o kriptografiji i privatnosti tokom 90-ih i ranih 2000-ih. Njegovo pisanje postavilo je temelje za diskusije o digitalnoj privatnosti i elektronskim sistemima gotovine.
+- **Eric Huges:** Još jedan od osnivača Cypherpunksa i koautor "A Cypherpunk's Manifesto," koji je naglašavao važnost privatnosti i anonimnosti u digitalnom dobu.
+- **Whitfield Diffie i Martin Hellman:** Razvili su koncept kriptografije javnog ključa, revolucionirajući sigurnu internet komunikaciju.
+- **Julian Assange:** Osnivač WikiLeaksa, koji objavljuje poverljive i osetljive informacije kako bi promovisao transparentnost i odgovornost.
+- **Bram Cohen:** Kreirao BitTorrent, peer-to-peer protokol za deljenje fajlova koji je decentralizovao distribuciju sadržaja i omogućio brže preuzimanje.
+- **John Gilmore:** Preduzetnik i libertarijanac koji je suosnivač Electronic Frontier Foundation (EFF) i zagovornik digitalnih prava i privatnosti na internetu.
 
 
 ...i lista se nastavlja.
@@ -854,11 +854,11 @@ Da rezimiramo, Bitcoin je revolucionisao način na koji razmišljamo o novcu i v
 
 
 
-- Peer-to-Peer:** Bitcoin omogućava pojedincima da šalju i primaju uplate direktno bez potrebe za posrednicima, kao što su banke ili procesori plaćanja.
-- Decentralised:** Bitcoin funkcioniše na decentralizovanoj mreži, što znači da ne postoji centralna vlast ili kontrola nad valutom.
-- Sigurno:** Bitcoin transakcije su osigurane korišćenjem kriptografije, što otežava falsifikovanje ili Double-spending novčića.
-- Ograničeno u Supply i Deljivo:** Supply od Bitcoin je konačan—sa samo 21 milionom kovanica u opticaju—dok je istovremeno deljiv na osam decimalnih mesta, omogućavajući transakcije za delić centa. Ova oskudica je dizajnirana da daje vrednost valuti i sprečava inflaciju.
-- Psuedoanonymous:** Iako Bitcoin transakcije nisu potpuno anonimne, one nude nivo privatnosti i pseudonimnosti koji tradicionalne metode plaćanja ne pružaju.
+- **Peer-to-Peer:** Bitcoin omogućava pojedincima da šalju i primaju uplate direktno bez potrebe za posrednicima, kao što su banke ili procesori plaćanja.
+- **Decentralised:** Bitcoin funkcioniše na decentralizovanoj mreži, što znači da ne postoji centralna vlast ili kontrola nad valutom.
+- **Sigurno:** Bitcoin transakcije su osigurane korišćenjem kriptografije, što otežava falsifikovanje ili Double-spending novčića.
+- **Ograničeno u Supply i Deljivo:** Supply od Bitcoin je konačan—sa samo 21 milionom kovanica u opticaju—dok je istovremeno deljiv na osam decimalnih mesta, omogućavajući transakcije za delić centa. Ova oskudica je dizajnirana da daje vrednost valuti i sprečava inflaciju.
+- **Psuedoanonymous:** Iako Bitcoin transakcije nisu potpuno anonimne, one nude nivo privatnosti i pseudonimnosti koji tradicionalne metode plaćanja ne pružaju.
 
 
 Ove tačke zajedno znače da Bitcoin nudi svakome finansijsku privatnost, sigurnost i mogućnost globalnih transakcija uz minimalne naknade i trenje. Na kraju, Bitcoin je moćan alat za one koji traže veću ekonomsku slobodu i autonomiju. Ovo je promena igre za one koji traže sigurno sredstvo štednje, a kamoli za one koji žive pod autoritarnim režimima, doživljavaju hiperinflaciju, beže iz ratom razorenih zemalja ili šalju novac voljenima u inostranstvo. Kako Bitcoin nudi pristupačnu alternativu tradicionalnim metodama prenosa novca, ovo ostavlja više novca u rukama onih kojima je najpotrebniji. Sa Bitcoin, svako može postati sopstvena banka i preuzeti kontrolu nad svojom finansijskom budućnošću.
@@ -1039,9 +1039,9 @@ Iako su fiat valute podložne inflaciji i istorijski su dokazano gubile vrednost
 
 
 
-- Izdržljiv:** Bitcoin je digitalan i, stoga, nije podložan fizičkom oštećenju ili propadanju kao papirne ili metalne valute. Pored toga, njegova decentralizovana priroda osigurava da nema jedinstvenu tačku otkaza za napad.
-- Oskudno:** Supply od Bitcoin je strogo ograničen na 21 milion novčića, što ga čini inherentno oskudnim u poređenju sa fiat valutama, koje vlade mogu beskonačno štampati. Ovo ograničenje Supply znači da vrednost Bitcoin nije podložna istim inflatornim pritiscima kao fiat valute.
-- Nepromenljiv:** Bitcoin-ova Blockchain tehnologija osigurava da, kada je transakcija zabeležena na mreži, ne može biti promenjena ili izmenjena. Ovaj nivo nepromenljivosti nije moguć sa fiat valutama, koje beleže mnogo veću prevaru, falsifikovanje ili poništavanje transakcija.
+- **Izdržljiv:** Bitcoin je digitalan i, stoga, nije podložan fizičkom oštećenju ili propadanju kao papirne ili metalne valute. Pored toga, njegova decentralizovana priroda osigurava da nema jedinstvenu tačku otkaza za napad.
+- **Oskudno:** Supply od Bitcoin je strogo ograničen na 21 milion novčića, što ga čini inherentno oskudnim u poređenju sa fiat valutama, koje vlade mogu beskonačno štampati. Ovo ograničenje Supply znači da vrednost Bitcoin nije podložna istim inflatornim pritiscima kao fiat valute.
+- **Nepromenljiv:** Bitcoin-ova Blockchain tehnologija osigurava da, kada je transakcija zabeležena na mreži, ne može biti promenjena ili izmenjena. Ovaj nivo nepromenljivosti nije moguć sa fiat valutama, koje beleže mnogo veću prevaru, falsifikovanje ili poništavanje transakcija.
 
 
 #### Srednji Exchange
@@ -1051,9 +1051,9 @@ Iako Bitcoin još uvek nije globalno prihvaćen kao fiat valute, njegova peer-to
 
 
 
-- Prenosivo:** Bitcoin, kao digitalno, omogućava transfer bez granica i posrednika između pojedinaca, čineći ga pogodnim i pristupačnim sredstvom Exchange. Iako neke fiat valute takođe nude digitalna rešenja, oni u zemljama u razvoju ili ratom pogođenim zemljama mogu imati poteškoća u pristupu bankarskim uslugama koje ispunjavaju ovu potrebu. Decentralizovana priroda Bitcoin čini ga dostupnim svima sa internet vezom, pružajući održivu alternativu tradicionalnim bankarskim sistemima u oblastima sa ograničenim pristupom finansijskim uslugama.
-- Deljivost:** Ekstremna deljivost Bitcoin je jedna od njegovih ključnih prednosti kao valute. Sa svakim Bitcoin deljivim do osam decimalnih mesta, najmanja jedinica, Satoshi, vredi samo delić centa. U zavisnosti od metode transakcije, tj. Layer jedan ili dva, ovo čini Bitcoin veoma prilagodljivim za transakcije bilo koje veličine, od malih kupovina do velikih investicija.
-- Prihvaćeno:** Iako prihvatanje Bitcoin još uvek nije univerzalno, njegovo sve veće usvajanje od strane trgovaca, institucija i pojedinaca širom sveta sugeriše da postaje sve šire prihvaćeno kao legitiman oblik plaćanja.
+- **Prenosivo:** Bitcoin, kao digitalno, omogućava transfer bez granica i posrednika između pojedinaca, čineći ga pogodnim i pristupačnim sredstvom Exchange. Iako neke fiat valute takođe nude digitalna rešenja, oni u zemljama u razvoju ili ratom pogođenim zemljama mogu imati poteškoća u pristupu bankarskim uslugama koje ispunjavaju ovu potrebu. Decentralizovana priroda Bitcoin čini ga dostupnim svima sa internet vezom, pružajući održivu alternativu tradicionalnim bankarskim sistemima u oblastima sa ograničenim pristupom finansijskim uslugama.
+- **Deljivost:** Ekstremna deljivost Bitcoin je jedna od njegovih ključnih prednosti kao valute. Sa svakim Bitcoin deljivim do osam decimalnih mesta, najmanja jedinica, Satoshi, vredi samo delić centa. U zavisnosti od metode transakcije, tj. Layer jedan ili dva, ovo čini Bitcoin veoma prilagodljivim za transakcije bilo koje veličine, od malih kupovina do velikih investicija.
+- **Prihvaćeno:** Iako prihvatanje Bitcoin još uvek nije univerzalno, njegovo sve veće usvajanje od strane trgovaca, institucija i pojedinaca širom sveta sugeriše da postaje sve šire prihvaćeno kao legitiman oblik plaćanja.
 
 
 ### Jedinica obračuna
@@ -1063,7 +1063,7 @@ Kako je Bitcoin stekao priznanje kao sredstvo Exchange, brzo se popeo na lestvic
 
 
 
-- Fungible:** Svaki Bitcoin je neodvojiv od bilo kojeg drugog, što ga čini lako zamenljivim, što nije uvek slučaj sa fizičkim valutama koje mogu imati jedinstvene identifikatore ili biti različitog kvaliteta.
+- **Fungible:** Svaki Bitcoin je neodvojiv od bilo kojeg drugog, što ga čini lako zamenljivim, što nije uvek slučaj sa fizičkim valutama koje mogu imati jedinstvene identifikatore ili biti različitog kvaliteta.
 
 
 ### Imovina vs Mreža
@@ -1429,9 +1429,9 @@ Nakon pojave Tether-a, mnoge druge kompanije i inicijative pokrenule su slične 
 
 
 
-- Stablecoini podržani fiat valutama**, kao što je Tetherov USDt, podržani su tradicionalnim valutama poput američkog dolara ili evra, a njihova vrednost je direktno vezana za vrednost osnovne fiat valute.
-- Stablecoini podržani robom** su podržani robama poput zlata ili nafte, npr. Tetherov zlatni stablecoin, XAUt,
-- Algoritamski stabilni novčići** oslanjaju se na skup pravila ili algoritama kako bi održali svoju vrednost. Ipak, još uvek nismo videli da je čisto algoritamski stabilni novčić uspeo na tržištu.
+- **Stablecoini podržani fiat valutama**, kao što je Tetherov USDt, podržani su tradicionalnim valutama poput američkog dolara ili evra, a njihova vrednost je direktno vezana za vrednost osnovne fiat valute.
+- **Stablecoini podržani robom** su podržani robama poput zlata ili nafte, npr. Tetherov zlatni stablecoin, XAUt,
+- **Algoritamski stabilni novčići** oslanjaju se na skup pravila ili algoritama kako bi održali svoju vrednost. Ipak, još uvek nismo videli da je čisto algoritamski stabilni novčić uspeo na tržištu.
 
 
 U zaključku, kako naše društvo nastavlja da se razvija i tehnologija napreduje, tako se menja i naš odnos prema novcu. Od kovanica do digitalnih valuta, videli smo promenu u načinu na koji komuniciramo i obavljamo transakcije koristeći novac. Iako tradicionalni bankarski sistemi imaju svoja ograničenja, Tether, putem svog izbora stabilnih valuta, nudi potencijalno rešenje za ove izazove. Pružajući relativnu kratkoročnu stabilnost tradicionalnih valuta uz fleksibilnost i pristupačnost izvornih digitalnih valuta, njihove stabilne valute korisnicima nude veću kontrolu nad svojim novcem. Bilo da nemate pristup bankarskim uslugama, suočavate se sa prekomernim uticajem vlade ili jednostavno trebate da obavljate transakcije van radnog vremena tradicionalnih banaka, stabilne valute poput USDt mogu pružiti pouzdanu alternativu. Kao rezultat toga, brzo postaju sastavni deo našeg finansijskog sistema.
@@ -1680,10 +1680,10 @@ Evo uzorka koliko Western Union [naplaćuje](https://www.westernunion.com/conten
 
 
 
-- Kina:** 21,21 USD naknada + 2,60 USD Exchange gubitak stope (23,81% gubitak)
-- Kanada, SAD, Meksiko:** \$16.86 naknada + \$1.20 Exchange gubitak stope (18.06% gubitak)
-- UK, Albanija, Bosna, Srbija, Slovenija:** \$17.92 naknada + \$3.10 Exchange gubitak kursa (21.02% gubitak)
-- Okeanija i Jugoistočna Azija:** \$12.61 naknada + \$8.60 Exchange gubitak kursa (21.21% gubitak)
+- **Kina:** 21,21 USD naknada + 2,60 USD Exchange gubitak stope (23,81% gubitak)
+- **Kanada, SAD, Meksiko:** \$16.86 naknada + \$1.20 Exchange gubitak stope (18.06% gubitak)
+- **UK, Albanija, Bosna, Srbija, Slovenija:** \$17.92 naknada + \$3.10 Exchange gubitak kursa (21.02% gubitak)
+- **Okeanija i Jugoistočna Azija:** $12.61 naknada + $8.60 Exchange gubitak kursa (21.21% gubitak)
 
 Ovo je zapanjujuća količina novca koja je sada u rukama velikih američkih korporacija. I tu dolazi USDt, jer oni pružaju rešenje za problem visokih naknada za doznake.
 
@@ -2354,7 +2354,7 @@ Dok je svet sa užasom posmatrao kako talibani preuzimaju kontrolu nad Avganista
 ![image](assets/5.webp)
 
 
-\***Figura:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Figura:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
 
 
 Roya Mahboob je pionirka u oblasti tehnologije i preduzetništva u Avganistanu. Ne samo da je [imenovana](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) među 100 najuticajnijih ljudi na svetu prema magazinu TIME za 2013. godinu nakon što je "izgradila internet učionice u srednjim školama u Avganistanu." Takođe je osnovala Afghan Citadel Software Company 2010. godine, koja ima za cilj da "stvara poslove za nedavno diplomirane studente - posebno žene." A ako to nije bilo dovoljno, zatim je pokrenula Digital Citizen Fund. Ova neprofitna organizacija radi na osnaživanju žena i dece u zemljama u razvoju kroz tehnologiju.

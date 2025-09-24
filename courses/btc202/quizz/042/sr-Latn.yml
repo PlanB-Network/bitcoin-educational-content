@@ -1,0 +1,9 @@
+question: Pod kojom licencom je umbrelOS distribuiran?
+answer: PolyForm Nekomersijalno 1.0
+wrong_answers:
+  - MIT
+  - GPLv3
+  - Apache 2.0
+explanation: |
+  umbrelOS je objavljen pod PolyForm Noncommercial 1.0 licencom, koja dozvoljava ličnu upotrebu, ali zabranjuje komercijalnu upotrebu.
+reviewed: true

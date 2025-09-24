@@ -1,5 +1,9 @@
 id: 76d6bf36-f4b5-422e-8579-edf149021525
 
+professor_id: 1bf1c6de-fc5b-4547-a59b-0d49382bd4e9
+
+credit_link: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html
+
 level: intermediate
 
 category: point-of-sale
@@ -59,7 +63,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -99,12 +103,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -119,12 +123,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.25
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.98
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.69
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.41
 tags:
   - guides
   - adoption

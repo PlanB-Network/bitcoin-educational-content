@@ -1,13 +1,13 @@
 ---
 name: Attakaï
 
-description: kubadilisha S9 kuwa mfumo wa kupokanzwa nyumba
+description: Ubadilishaji wa S9 kuwa hita ya nyumbani
 ---
 
 ![cover](assets/cover.webp)
 
 
-# Attakai - kufanya mining nyumbani iwezekanavyo na kupatikana!
+## Attakaï - uchimbaji wa nyumbani umewezeshwa na kupatikana!
 
 
 Mpango wa "Attakaï" unachunguza Bitcoin Mining kwa kutumia joto linalozalishwa. Mwongozo huo unatoa suluhu za kuwafanya wachimba migodi wanaofaa kutumika kama radiators majumbani, kutoa faraja zaidi na kuokoa nishati. Bitcoin hurekebisha kiotomatiki ugumu wa Mining na kuwatuza wachimba migodi kwa kazi yao. Hata hivyo, mkusanyiko wa Hashrate unaweza kusababisha hatari kwa kutoegemea upande wowote wa mtandao. "Attakaï" hutoa mwongozo wa vitendo kwa ajili ya kurejesha wachimbaji kiuchumi, kuruhusu washiriki kupunguza bili zao za umeme na kutuzwa Sats bila KYC.
@@ -45,7 +45,6 @@ Bitcoin na Proof of Work yake yanajitokeza kwa sababu wao hurekebisha kiotomati 
 Kwa muhtasari, radiator ya umeme na Bitcoin Miner wote huzalisha 1 kW ya joto kwa 1 kW ya umeme inayotumiwa. Walakini, Miner pia inapokea bitcoins kama tuzo. Bila kujali bei ya umeme, bei ya Bitcoin, au ushindani wa shughuli za Mining kwenye mtandao wa Bitcoin, ni faida zaidi ya kiuchumi kwa joto na Miner badala ya radiator ya umeme.
 
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 
 ### Thamani iliyoongezwa ya Bitcoin
@@ -95,7 +94,7 @@ Antminer S9 inakuja katika tofauti kadhaa (i, j) ambazo huleta marekebisho madog
 Bei ya ASIC inatofautiana kulingana na mambo mengi kama vile bei ya Bitcoin, ugumu wa mtandao, ufanisi wa mashine na gharama ya umeme. Kwa hiyo, ni vigumu kutoa makadirio sahihi kwa ununuzi wa mashine iliyotumiwa. Mnamo Februari 2023, bei inayotarajiwa nchini Ufaransa kwa ujumla ni kati ya €100 na €200, lakini bei hizi zinaweza kubadilika haraka.
 
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 
 Antminer S9 inaundwa na sehemu zifuatazo:
@@ -105,53 +104,53 @@ Antminer S9 inaundwa na sehemu zifuatazo:
 - Vibao 3 vya reli ambapo chips zinazozalisha nguvu ya hashing ziko
 
 
-![image](assets/guide-achat/2.webp)'
+![image](assets/fr/002.webp)'
 
 
 
 - Ubao wa udhibiti unaojumuisha nafasi ya kadi ya SD, mlango wa Ethaneti, na viunganishi vya hashibodi na feni. Huu ni ubongo wa ASIC yako.
 
-![image](assets/guide-achat/3.webp)
+![image](assets/fr/003.webp)
 
 
 
 - Kebo 3 za data zinazounganisha hashibodi kwenye ubao wa kudhibiti.
 
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 
 
 - Nguvu ya Supply inayofanya kazi kwenye 220V na inaweza kuchomekwa kama kifaa cha kawaida cha nyumbani.
 
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 
 
 - 2 120mm mashabiki.
 
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 
 
 - Kebo ya kiume ya C13.
 
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 
 
 Wakati wa kununua mashine iliyotumiwa, ni muhimu kuangalia kwamba sehemu zote zinajumuishwa na zinafanya kazi. Wakati wa Exchange, unapaswa kumwomba muuzaji kuwasha mashine ili kuthibitisha utendaji wake sahihi. Ni muhimu kuangalia kwamba kifaa kinageuka kwa usahihi, na kisha angalia uunganisho wa mtandao kwa kuunganisha cable ya Ethernet na kufikia uunganisho wa Bitmain Interface kupitia kivinjari kwenye mtandao huo wa ndani. Unaweza kupata IP Address hii kwa kuunganisha kwenye kipanga njia chako cha mtandao Interface na kutafuta vifaa vilivyounganishwa. Address hii inapaswa kuwa na umbizo lifuatalo: 192.168.x.x
 
 
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 
 Pia, angalia kwamba vitambulisho chaguo-msingi vinafanya kazi (jina la mtumiaji: mzizi, nenosiri: mzizi). Ikiwa kitambulisho chaguomsingi hakifanyi kazi, utahitaji kurejesha mashine.
 
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 
 Baada ya kuunganishwa, unapaswa kuwa na uwezo wa kuona hali ya kila hashibodi kwenye dashibodi. Ikiwa Miner imeunganishwa kwenye bwawa, unapaswa kuona hashibodi zote zikifanya kazi. Ni muhimu kutambua kwamba wachimbaji hufanya kelele nyingi, ambayo ni ya kawaida. Pia, hakikisha mashabiki wanafanya kazi ipasavyo.
@@ -169,7 +168,7 @@ Kwa muhtasari wa mwongozo huu katika sentensi moja:
 ## Sura ya 2: Mwongozo wa Kununua kwa Sehemu za Marekebisho
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 
 ### Jinsi ya kubadilisha Antminer S9 yako kuwa hita iliyo kimya na iliyounganishwa?
@@ -184,19 +183,19 @@ Ikiwa unamiliki Antminer S9, labda unajua jinsi inaweza kuwa kubwa na kubwa. Hat
 Mashabiki asili wa Antminer S9 wana sauti kubwa sana kuweza kuitumia kama hita. Suluhisho ni kuwabadilisha na mashabiki watulivu. Timu yetu imejaribu miundo kadhaa kutoka kwa chapa ya Noctua na ikachagua Noctua NF-A14 iPPC-2000 PWM kama maelewano bora zaidi. Hakikisha umechagua toleo la 12V la mashabiki. Shabiki hii ya 140mm inaweza kutoa hadi 1300W ya joto huku ikidumisha kiwango cha kelele cha kinadharia cha 31 dB. Ili kuweka mashabiki hawa wa 140mm, utahitaji adapta ya 140mm hadi 120mm, ambayo unaweza kupata kwenye duka la DécouvreBitcoin. Pia tutaongeza grilles za kinga za 140mm.
 
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
-![image](assets/piece/2.webp)
+![image](assets/fr/011.webp)
 
-![image](assets/piece/3.webp)
+![image](assets/fr/012.webp)
 
 
 Shabiki wa nguvu wa Supply pia ana kelele kabisa na anahitaji kubadilishwa. Tunapendekeza Noctua NF-A6x25 PWM. Kumbuka kwamba viunganishi vya mashabiki wa Noctua si sawa na wale wa awali, kwa hivyo utahitaji adapta ya kiunganishi ili kuwaunganisha. Mbili zinapaswa kutosha. Tena, hakikisha kuchagua toleo la 12V la shabiki.
 
 
-![image](assets/piece/4.webp)
+![image](assets/fr/013.webp)
 
-![image](assets/piece/5.webp)
+![image](assets/fr/014.webp)
 
 
 ### 2. Ongeza daraja la WIFI/Ethernet
@@ -205,9 +204,9 @@ Shabiki wa nguvu wa Supply pia ana kelele kabisa na anahitaji kubadilishwa. Tuna
 Badala ya kutumia kebo ya Ethaneti, unaweza kuunganisha Antminer yako kwenye WIFI kwa kuongeza daraja la WIFI/Ethernet. Tumechagua vonets vap11g-300 kwa sababu inakuruhusu kupata mawimbi ya WIFI kutoka kwa kisanduku chako cha Mtandao na kuisambaza kwa Antminer yako kupitia Ethaneti bila kuunda mtandao mdogo. Ikiwa una ujuzi wa umeme, unaweza kuiwezesha moja kwa moja kwa nguvu ya Antminer Supply bila hitaji la kuongeza chaja ya USB. Kwa hili, utahitaji jack ya kike 5.5mmx2.1mm.
 
 
-![image](assets/piece/6.webp)
+![image](assets/fr/015.webp)
 
-![image](assets/piece/7.webp)
+![image](assets/fr/016.webp)
 
 
 ### 3. Hiari: Ongeza plagi mahiri
@@ -215,7 +214,7 @@ Badala ya kutumia kebo ya Ethaneti, unaweza kuunganisha Antminer yako kwenye WIF
 
 Ikiwa ungependa kuwasha/kuzima Antminer yako kwenye simu mahiri na ufuatilie matumizi yake ya nishati, unaweza kuongeza plagi mahiri. Tulijaribu programu-jalizi ya ANTELA katika toleo la 16A, linalooana na programu mahiri. Plagi hii mahiri hukuruhusu kuangalia matumizi ya nishati ya kila siku na kila mwezi na inaunganishwa moja kwa moja kwenye kisanduku chako cha Mtandao kupitia WIFI.
 
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 
 **Orodha ya vifaa na viungo:**
@@ -263,7 +262,7 @@ Tutaanza kwa kubadilisha feni ya nguvu ya Supply.
 **Kumbuka**: Kwanza kabisa, kabla ya kuanza, hakikisha kuwa umechomoa Miner yako ili kuepuka hatari yoyote ya kukatwa na umeme.
 
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 
 Tutaanza kwa kubadilisha feni ya nguvu ya Supply.
@@ -272,80 +271,80 @@ Tutaanza kwa kubadilisha feni ya nguvu ya Supply.
 Kwanza, ondoa screws 6 upande wa kesi ambayo inashikilia kufungwa. Mara baada ya screws kuondolewa, kwa upole kufungua kesi ili kuondoa kifuniko cha plastiki ambacho kinalinda vipengele.
 
 
-![image](assets/hardware/2.webp)
+![image](assets/fr/041.webp)
 
-![image](assets/hardware/3.webp)'
+![image](assets/fr/042.webp)'
 
 Ifuatayo, ni wakati wa kuondoa shabiki wa asili, kwa uangalifu usiharibu vifaa vingine. Ili kufanya hivyo, ondoa screws zilizoshikilia mahali pake na uondoe kwa upole gundi nyeupe inayozunguka kontakt. Ni muhimu kuendelea kwa upole ili kuepuka kuharibu waya au viunganisho.
 
-![image](assets/hardware/4.webp)
+![image](assets/fr/043.webp)
 
 
 Mara tu feni asili ikiondolewa, utaona kwamba viunganishi vya feni mpya ya Noctua hazilingani na shabiki asilia. Hakika, shabiki mpya ana waya 3, ikiwa ni pamoja na waya wa njano ambayo inaruhusu kudhibiti kasi. Hata hivyo, waya hii haitatumika katika kesi hii maalum. Ili kuunganisha shabiki mpya, inashauriwa kutumia adapta maalum. Hata hivyo, ni muhimu kutambua kwamba adapta hii wakati mwingine inaweza kuwa vigumu kupata.
 
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 
 Ikiwa huna adapta hii, bado unaweza kuendelea kuunganisha shabiki mpya kwa kutumia nut ya waya. Ili kufanya hivyo, utahitaji kukata nyaya za shabiki wa zamani na mpya.
 
 
-![image](assets/hardware/6.webp)
+![image](assets/fr/045.webp)
 
-![image](assets/hardware/7.webp)
+![image](assets/fr/046.webp)
 
 
 Kwenye shabiki mpya, tumia mkataji na ukate kwa uangalifu mtaro wa sheath kuu kwa 1cm bila kukata sheaths za nyaya hapa chini.
 
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 
 Kisha, kwa kuvuta sheath kuu chini, kata sheaths za nyaya nyekundu na nyeusi kwa njia sawa na hapo awali. Na kukata njano cable flush.
 
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 
 Juu ya shabiki wa zamani, ni maridadi zaidi kukata sheath kuu bila kuharibu sheaths za waya nyekundu na nyeusi. Kwa hili, tulitumia sindano ambayo tuliteleza kati ya sheath kuu na waya nyekundu na nyeusi.
 
 
-![image](assets/hardware/10.webp)
+![image](assets/fr/049.webp)
 
-![image](assets/hardware/11.webp)
+![image](assets/fr/050.webp)
 
 
 Mara baada ya waya nyekundu na nyeusi zimefunuliwa, kata sheath kwa uangalifu ili kuepuka kuharibu waya za umeme.
 
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 
 Kisha, unganisha nyaya na nut ya waya, waya nyeusi na nyeusi na nyekundu nyekundu. Unaweza pia kuongeza mkanda wa umeme.
 
 
-![image](assets/hardware/13.webp)
+![image](assets/fr/052.webp)
 
-![image](assets/hardware/14.webp)
+![image](assets/fr/053.webp)
 
 
 Mara tu muunganisho unapofanywa, ni wakati wa kusakinisha feni mpya ya Noctua na grili na skrubu za zamani, skrubu mpya zilizo kwenye kisanduku zitatumika tena baadaye. Hakikisha kuiweka kwa mwelekeo sahihi. Utaona mshale upande mmoja wa feni, ukionyesha mwelekeo wa mtiririko wa hewa. Ni muhimu kuweka shabiki ili mshale huu uelekeze ndani ya kesi hiyo. Kisha, unganisha tena shabiki.
 
-![image](assets/hardware/15.webp)
+![image](assets/fr/054.webp)
 
-![image](assets/hardware/16.webp)
+![image](assets/fr/055.webp)
 
 
 **Si lazima:** Ikiwa una ujuzi wa umeme, unaweza kuongeza moja kwa moja kiunganishi cha kike cha 5.5mm kwenye njia ya kutoa nishati ya 12V, ambayo itakuruhusu kuwasha daraja la Wi-Fi la Vonet moja kwa moja. Hata hivyo, ikiwa hujui ujuzi wako wa umeme, ni bora kutumia kiunganishi cha USB na chaja ya smartphone ili kuepuka hatari yoyote ya mzunguko mfupi au uharibifu wa umeme.
 
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 
 Mara tu viunganisho vinapofanywa, hakikisha kuweka kifuniko cha plastiki juu ya casing ya plastiki na si ndani.
 
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 
 
 Hatimaye, rudisha kifuniko cha casing mahali pake na skrubu skrubu 6 kwenye pande ili kushikilia kila kitu mahali pake kwa usalama. Na hiyo ndiyo, casing yako ya nguvu ya Supply sasa ina feni mpya.
@@ -354,57 +353,57 @@ Hatimaye, rudisha kifuniko cha casing mahali pake na skrubu skrubu 6 kwenye pand
 ### Kubadilishwa kwa mashabiki 2 kuu
 
 
-1. Kwanza, ondoa mashabiki na uwafungue.
+- Kwanza, ondoa mashabiki na uwafungue.
 
-![image](assets/hardware/19.webp)
-
-
-2. Viunganishi vya mashabiki wapya wa Noctua havilingani na zile za awali, lakini usiogope! Toa kikata chako na ukate kwa uangalifu vichupo vidogo vya plastiki ili viunganishi vilingane kikamilifu na Miner yako.
+![image](assets/fr/058.webp)
 
 
-![image](assets/hardware/20.webp)
-
-![image](assets/hardware/21.webp)
+- Viunganishi vya mashabiki wapya wa Noctua havilingani na zile za awali, lakini usiogope! Toa kikata chako na ukate kwa uangalifu vichupo vidogo vya plastiki ili viunganishi vilingane kikamilifu na Miner yako.
 
 
-3. Ni wakati wa kufunga sehemu za 3D!
+![image](assets/fr/059.webp)
+
+![image](assets/fr/060.webp)
+
+
+- Ni wakati wa kufunga sehemu za 3D!
 
 Ambatisha pande zote za Miner kwa kutumia skrubu ulizoondoa kutoka kwa feni. Parafujo hadi kichwa cha skrubu kiingie kwenye sehemu ya 3D na kishikwe kwa usalama. Kuwa mwangalifu usikaze sana, kwani unaweza kuharibu sehemu na moja ya screws inaweza kugusa capacitor! Kisha kata kwa makini tabo ndogo za plastiki ili viunganisho vifanane kikamilifu na Miner yako.
 
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
 
-4. Sasa tuendelee na mashabiki.
+- Sasa tuendelee na mashabiki.
 
 Ambatisha kwa sehemu za 3D kwa kutumia skrubu zilizotolewa kwenye kisanduku. Jihadharini na mwelekeo wa mtiririko wa hewa, mishale kwenye pande za mashabiki itaonyesha mwelekeo wa kufuata. Nenda kutoka upande wa mlango wa Ethaneti hadi upande mwingine. Tazama picha hapa chini.
 
 
-![image](assets/hardware/23.webp)
+![image](assets/fr/062.webp)
 
-![image](assets/hardware/24.webp)
+![image](assets/fr/063.webp)
 
-![image](assets/hardware/25.webp)
-
-
-5. Hatua ya mwisho: unganisha feni na ambatisha grilles juu na screws outnyttjade kutoka sanduku shabiki. Una 4 tu, lakini 2 kwa kila grille kwenye pembe tofauti zitatosha. Unaweza pia kutafuta screws zingine zinazofanana kwenye duka la vifaa ikiwa inahitajika.
+![image](assets/fr/064.webp)
 
 
-![image](assets/hardware/26.webp)
+- Hatua ya mwisho: unganisha feni na ambatisha grilles juu na screws outnyttjade kutoka sanduku shabiki. Una 4 tu, lakini 2 kwa kila grille kwenye pembe tofauti zitatosha. Unaweza pia kutafuta screws zingine zinazofanana kwenye duka la vifaa ikiwa inahitajika.
 
-![image](assets/hardware/27.webp)
+
+![image](assets/fr/065.webp)
+
+![image](assets/fr/066.webp)
 
 
 Unaposubiri kuweza kutoa kifuko cha kuvutia zaidi kwa hita yako mpya, unaweza kuambatisha kipochi na nishati ya Supply pamoja na kebo za fundi umeme.
 
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 
 Na kwa kugusa kumaliza, unganisha daraja la Vonet kwenye bandari ya Ethernet kwa nguvu yake ya Supply. Ikiwa bado hujafanya hivyo, unaweza kufuata mafunzo haya ili kusanidi daraja lako.
 
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 
 Na hapo unayo, pongezi! Umebadilisha sehemu nzima ya mitambo ya Miner yako. Unapaswa sasa kusikia kelele kidogo.
@@ -425,7 +424,7 @@ Njia hii inaweza kutumika ndani ya dakika 10 baada ya kuanza Miner.
 Baada ya kuwasha Miner kwa dakika 2, tafadhali bonyeza kitufe cha "Rudisha" kwa sekunde 5, kisha uiachilie. Miner itarejeshwa kwa mipangilio ya kiwanda ndani ya dakika 4 na itaanza upya moja kwa moja (hakuna haja ya kuizima).
 
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 
 Rejesha kupitia upande wa wavuti
@@ -443,7 +442,7 @@ Kwa sehemu hii, tutafikiri kwamba mashine inafanya kazi, inaendesha, na mfumo wa
 Kwanza, unganisha kwa mashine yako kupitia mtandao wako wa karibu:
 
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 
 Mara tu kwenye ukurasa wa kuingia, utahitaji kuingia kwenye ASIC kwa kutumia vitambulisho chaguo-msingi:
@@ -460,13 +459,13 @@ Mara tu kwenye ukurasa wa kuingia, utahitaji kuingia kwenye ASIC kwa kutumia vit
 Mfumo mkuu wa uendeshaji ni kiasi cha msingi. Na vichupo 4: Mfumo, Usanidi wa Miner, Hali ya Miner, Mtandao. Katika kichupo cha Usanidi wa Miner, unaweza kusanidi hadi mabwawa 3 ya Mining.
 
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 
 Katika kichupo cha Hali ya Miner, unaweza kuona taarifa mbalimbali kuhusu uendeshaji wa moja kwa moja wa ASIC. Hashrate iliyoonyeshwa kwa GH/s, maelezo ya kina zaidi kuhusu bwawa, pamoja na maelezo kuhusu hali ya kila hashibodi na kasi ya shabiki katika mizunguko/dakika.
 
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 
 ### Braiins OS+
@@ -503,37 +502,37 @@ Inasakinisha Braiins OS+ moja kwa moja kwenye kumbukumbu ya Antminer
 Jifunze jinsi ya kusakinisha Braiins OS+ kwa urahisi moja kwa moja kwenye kumbukumbu ya Antminer yako kwa kutumia kisanduku cha zana cha BOS, ikichukua nafasi ya mfumo wa uendeshaji wa awali, kupitia hatua za kina zilizo hapa chini. Ikiwa ungependa kuweka Mfumo wa Uendeshaji asili sambamba, unaweza kusakinisha Braiins OS+ kwenye kadi ya SD.
 
 
-1. Washa Antminer yako na uiunganishe kwenye kisanduku chako cha intaneti.
+- Washa Antminer yako na uiunganishe kwenye kisanduku chako cha intaneti.
 
-2. Pakua kisanduku cha zana cha BOS Windows / Linux.
+- Pakua kisanduku cha zana cha BOS Windows / Linux.
 
-3. Fungua faili iliyopakuliwa na ufungue faili ya bos-toolbox.bat, chagua lugha, na baada ya muda utaona dirisha hili:
+- Fungua faili iliyopakuliwa na ufungue faili ya bos-toolbox.bat, chagua lugha, na baada ya muda utaona dirisha hili:
 
-![image](assets/software/5.webp)
+![image](assets/fr/022.webp)
 
-4. Kisanduku cha zana cha Bos kitakuruhusu kupata IP Address ya Antminer yako na kusakinisha Braiins OS+. Ikiwa tayari unajua IP Address ya mashine yako, unaweza kuruka hatua ya 8. Vinginevyo, nenda kwenye kichupo cha tambazo.
+- Kisanduku cha zana cha Bos kitakuruhusu kupata IP Address ya Antminer yako na kusakinisha Braiins OS+. Ikiwa tayari unajua IP Address ya mashine yako, unaweza kuruka hatua ya 8. Vinginevyo, nenda kwenye kichupo cha tambazo.
 
-![image](assets/software/6.webp)
+![image](assets/fr/023.webp)
 
-5. Kwa kawaida, kwenye mitandao ya nyumbani, safu ya IP Address ni kati ya 192.168.1.1 na 192.168.1.255, kwa hivyo ingiza "192.168.1.0/24" katika uga wa masafa ya IP. Ikiwa mtandao wako ni tofauti, tafadhali badilisha anwani hizi. Kisha bonyeza "Anza".
+- Kwa kawaida, kwenye mitandao ya nyumbani, safu ya IP Address ni kati ya 192.168.1.1 na 192.168.1.255, kwa hivyo ingiza "192.168.1.0/24" katika uga wa masafa ya IP. Ikiwa mtandao wako ni tofauti, tafadhali badilisha anwani hizi. Kisha bonyeza "Anza".
 
-6. Tahadhari, ikiwa Antminer ina nenosiri, ugunduzi hautafanya kazi. Ikiwa ndivyo ilivyo, suluhisho rahisi zaidi ni kurejesha mipangilio ya kiwanda.
+- Tahadhari, ikiwa Antminer ina nenosiri, ugunduzi hautafanya kazi. Ikiwa ndivyo ilivyo, suluhisho rahisi zaidi ni kurejesha mipangilio ya kiwanda.
 
-7. Unapaswa kuona Antminers zote kwenye mtandao wako, hapa IP Address ni 192.168.1.37.
+- Unapaswa kuona Antminers zote kwenye mtandao wako, hapa IP Address ni 192.168.1.37.
 
-![image](assets/software/7.webp)
+![image](assets/fr/024.webp)
 
-8. Bonyeza Nyuma, kisha uende kwenye kichupo cha kufunga, ingiza IP iliyopatikana hapo awali Address kwenye uwanja wa Miner (s) na "admin" (au "mizizi") kwenye uwanja wa Nenosiri, ambalo ni nenosiri la kawaida, kisha bofya "Anza".
+- Bonyeza Nyuma, kisha uende kwenye kichupo cha kufunga, ingiza IP iliyopatikana hapo awali Address kwenye uwanja wa Miner (s) na "admin" (au "mizizi") kwenye uwanja wa Nenosiri, ambalo ni nenosiri la kawaida, kisha bofya "Anza".
 
 Ikiwa usakinishaji haufanyi kazi na "admin" au "root" kama nenosiri, inaweza kuwa muhimu kurejesha mipangilio ya kiwandani na ujaribu tena.
 
-![image](assets/software/8.webp)
+![image](assets/fr/025.webp)
 
-9. Baada ya muda mchache, Antminer yako itaanza upya na utaweza kufikia Braiins OS+ Interface katika IP Address inayohusika, hapa 192.168.1.37, moja kwa moja kwenye upau wa Address wa kivinjari chako. Jina la mtumiaji chaguo-msingi ni "mizizi" na hakuna nenosiri chaguo-msingi.
+- Baada ya muda mchache, Antminer yako itaanza upya na utaweza kufikia Braiins OS+ Interface katika IP Address inayohusika, hapa 192.168.1.37, moja kwa moja kwenye upau wa Address wa kivinjari chako. Jina la mtumiaji chaguo-msingi ni "mizizi" na hakuna nenosiri chaguo-msingi.
 
-![image](assets/software/9.webp)
+![image](assets/fr/026.webp)
 
-![image](assets/software/10.webp)
+![image](assets/fr/027.webp)
 
 
 Kusakinisha Braiins OS+ kwenye kadi ya SD ni njia ya pili, inatumia Interface asili ya Antminer yako. Njia hii inafanya kazi kwa mashine zilizo na mfumo wa uendeshaji ulioanza kabla ya 2019.
@@ -542,16 +541,16 @@ Kusakinisha Braiins OS+ kwenye kadi ya SD ni njia ya pili, inatumia Interface as
 ### Antminer Interface
 
 
-1. Pakua mfumo mpya wa uendeshaji utakaosakinishwa.
+- Pakua mfumo mpya wa uendeshaji utakaosakinishwa.
 
-2. Kama ilivyo katika sehemu iliyotangulia, unganisha kwa mashine yako kupitia mtandao wako wa karibu.
+- Kama ilivyo katika sehemu iliyotangulia, unganisha kwa mashine yako kupitia mtandao wako wa karibu.
 
-3. Nenda kwenye kichupo cha Mfumo na kisha Boresha.
+- Nenda kwenye kichupo cha Mfumo na kisha Boresha.
 
-4. Pakia faili uliyopakua na uangaze picha.
+- Pakia faili uliyopakua na uangaze picha.
 
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 
 ### Kadi ndogo ya SD
@@ -560,19 +559,19 @@ Kusakinisha Braiins OS+ kwenye kadi ya SD ni njia ya pili, inatumia Interface as
 Njia ya pili hukuruhusu kutumia kadi ndogo ya SD. Njia hii inafanya kazi tu na mashine zilizo na mfumo wa uendeshaji ulioanza baada ya 2019.
 
 
-1. Pakua mfumo mpya wa uendeshaji utakaosakinishwa.
+- Pakua mfumo mpya wa uendeshaji utakaosakinishwa.
 
-2. Angazia picha iliyopakuliwa kwenye kadi ndogo ya SD. Kwa hili, unaweza kutumia Etcher. Kunakili tu faili kwenye kadi ndogo ya SD haitafanya kazi.
+- Angazia picha iliyopakuliwa kwenye kadi ndogo ya SD. Kwa hili, unaweza kutumia Etcher. Kunakili tu faili kwenye kadi ndogo ya SD haitafanya kazi.
 
-3. Ikiwa unamiliki Antminer S9 na tofauti zake (S9i, S9j), utahitaji kurekebisha viruka ili kulazimisha ASIC yako kuwasha kutoka kwenye faili iliyo kwenye kadi ndogo ya SD badala ya NAND. Ikiwa una mfano tofauti, unaweza kuruka sehemu ya 4. Wanarukaji iko kwenye ubao wa kudhibiti kwenye sehemu ya juu ya ASIC, karibu na bandari ya Ethernet. Utahitaji kuiondoa kwa kutelezesha nyuma. Mara tu nafasi ya kuruka inaporekebishwa kama inavyoonyeshwa kwenye picha zilizo hapa chini BOOT FROM SD, unaweza kuingiza tena ubao wa kudhibiti na kuunganisha tena S9.
+- Ikiwa unamiliki Antminer S9 na tofauti zake (S9i, S9j), utahitaji kurekebisha viruka ili kulazimisha ASIC yako kuwasha kutoka kwenye faili iliyo kwenye kadi ndogo ya SD badala ya NAND. Ikiwa una mfano tofauti, unaweza kuruka sehemu ya 4. Wanarukaji iko kwenye ubao wa kudhibiti kwenye sehemu ya juu ya ASIC, karibu na bandari ya Ethernet. Utahitaji kuiondoa kwa kutelezesha nyuma. Mara tu nafasi ya kuruka inaporekebishwa kama inavyoonyeshwa kwenye picha zilizo hapa chini BOOT FROM SD, unaweza kuingiza tena ubao wa kudhibiti na kuunganisha tena S9.
 
-![image](assets/software/12.webp)
+![image](assets/fr/029.webp)
 
-![image](assets/software/13.webp)
+![image](assets/fr/030.webp)
 
-4. Ingiza kadi ndogo ya SD kwenye ASIC.
+- Ingiza kadi ndogo ya SD kwenye ASIC.
 
-5. Anzisha ASIC. Ikiwa toleo la ufungaji wa moja kwa moja lilitumiwa, mfumo mpya wa uendeshaji utawekwa moja kwa moja. Usakinishaji unakamilika wakati LED zote mbili zinawaka kwa wakati mmoja. Unaweza kuanzisha upya ASIC na kuondoa kadi ndogo ya SD. Ikiwa toleo lingine lilipakuliwa, utahitaji kuacha kadi ndogo ya SD ndani ya ASIC.
+- Anzisha ASIC. Ikiwa toleo la ufungaji wa moja kwa moja lilitumiwa, mfumo mpya wa uendeshaji utawekwa moja kwa moja. Usakinishaji unakamilika wakati LED zote mbili zinawaka kwa wakati mmoja. Unaweza kuanzisha upya ASIC na kuondoa kadi ndogo ya SD. Ikiwa toleo lingine lilipakuliwa, utahitaji kuacha kadi ndogo ya SD ndani ya ASIC.
 
 
 Kwa habari zaidi juu ya usakinishaji, unaweza kutembelea sehemu hii ya tovuti ya Braiins.
@@ -598,7 +597,7 @@ Kisha utasalimiwa na Dashibodi ya Brains OS+.
 ### Dashibodi
 
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 
 Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashine yako.
@@ -610,7 +609,7 @@ Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashi
 - Chini, kasi ya shabiki katika asilimia ya kasi ya juu na idadi ya mizunguko kwa dakika.
 
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 
 
@@ -623,22 +622,22 @@ Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashi
 ### Usanidi
 
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 
 ### Mfumo
 
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 
 ### Vitendo vya haraka
 
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
 
-Kusanidi bwawa
+## Usanidi wa pool
 
 
 Mtu anaweza kufikiria Mining pool kama ushirika wa kilimo. Wakulima huunganisha uzalishaji wao pamoja ili kupunguza tofauti ya Supply na mahitaji na hivyo kupata mapato thabiti zaidi kwa uendeshaji wao. Mining pool inafanya kazi kwa njia sawa, na malighafi iliyounganishwa pamoja ni heshi. Kwa kweli, ugunduzi wa Hash moja halali inaruhusu kuundwa kwa block na hivyo kushinda coinbase au tuzo, kwa sasa 3.125 BTC pamoja na ada za manunuzi zilizojumuishwa kwenye block. Ikiwa wewe peke yako, utalipwa tu wakati utapata kizuizi. Kwa kuwa katika ushindani dhidi ya wachimba migodi wengine wote kwenye sayari, ungekuwa na nafasi ndogo sana ya kushinda bahati nasibu hii kubwa na bado ungelazimika kulipa ada zinazohusiana na kutumia Miner yako bila hakikisho lolote la mafanikio. Mining inachangia Address suala hili kwa kuunganisha uwezo wa kompyuta wa kadhaa (maelfu) ya wachimbaji madini na kushiriki zawadi zao kulingana na asilimia ya ushiriki katika Hashrate ya bwawa wakati kizuizi kinapopatikana. Ili kuibua nafasi zako za Mining block peke yako, unaweza kutumia zana hii. Kwa kuingiza maelezo ya Antminer S9, tunaweza kuona kwamba nafasi za kupata Hash ambayo inaruhusu kuundwa kwa block ni 1 kati ya 24,777,849 kwa kila block au 1 katika 172,068 kwa siku. Kwa wastani (na Hashrate ya mara kwa mara na ugumu), itachukua miaka 471 kupata kizuizi.
@@ -666,7 +665,7 @@ Mfano wa zawadi unaotuvutia ni PPS, ambayo inasimamia "lipa kwa kila hisa". Hii 
 Ili kusanidi bwawa katika Braiins 0S+, utahitaji kuunda akaunti katika mojawapo ya vikundi unavyopenda. Hapa tutachukua mfano wa Linecoin:
 
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 
 Mara tu akaunti yako inapoundwa, bofya kwenye Unganisha kwenye Dimbwi
@@ -675,13 +674,13 @@ Mara tu akaunti yako inapoundwa, bofya kwenye Unganisha kwenye Dimbwi
 Kisha nakili Stratum Address na jina lako la mtumiaji:
 
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 
 Sasa unaweza kurudi kwenye Braiins OS+ Interface ili kuweka vitambulisho hivi. Kwa nenosiri, unaweza kuacha uwanja wazi.
 
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 
 ### Overclocking na Underclocking
@@ -714,3 +713,5 @@ Matokeo ya mwisho ni kiwango cha juu cha Hash kwa kila wati ya umeme, ambayo ina
 
 
 Mwongozo huu umeundwa na DecouvreBitcoin, maelezo zaidi juu ya MIN201 - mkopo Jim na Ajelex
+
+

@@ -1,0 +1,9 @@
+question: کدام تنظیم Bitcoin core را مجبور می‌کند که فقط از طریق شبکه Tor متصل شود؟
+answer: فقط_شبکه=پیاز
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - شبکه=تور
+explanation: |
+  گزینه onlynet=onion تمام اتصالات خروجی را به شبکه تور محدود می‌کند، در حالی که listenonion=1 فقط به شما اجازه می‌دهد به اتصالات ورودی تور گوش دهید.
+reviewed: true

@@ -273,7 +273,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 Pour utiliser **Blockstream App** de manière sécurisée et efficace, suivez ces recommandations. Elles vous aideront à protéger vos fonds, optimiser vos transactions, et préserver votre confidentialité sur les réseaux **Bitcoin (onchain)**, **Liquid**, et **Lightning**.
 
-* **Sécurisez votre phrase de récupération** :
+**Sécurisez votre phrase de récupération** :
 	* Tutoriel : Sauvegarder sa phrase mnémonique
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -281,7 +281,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
-* **Utilisez l’authentification sécurisée** : 
+**Utilisez l'authentification sécurisée** :
 	* Activez un **code PIN robuste** ou l’**authentification biométrique** (empreinte digitale ou reconnaissance faciale) pour protéger l’accès à l’application.
 	* Ne partagez jamais votre PIN ou vos données biométriques.
 
@@ -290,34 +290,34 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 	- Activez les fonctions "Confidentialité renforcée", "Tor", et "SPV".
 	- Pour une confidentialité maximale, connectez votre wallet à votre propre nœud Bitcoin via un serveur Electrum au lieu d’utiliser le nœud public 
 
-* **Choisissez le réseau adapté à vos besoins** : 
+**Choisissez le réseau adapté à vos besoins** :
 	* **Onchain** : Privilégiez pour la conservation à long terme ou les transactions de montants élevés (frais négligeables par rapport au montant).
 	* **Liquid** : Utilisez pour des transferts rapides, à faible coût et avec une confidentialité renforcée.
 	* **Lightning** : Optez pour des transferts instantanés et très économiques pour de faibles montants. 
   
-* **Vérifiez toujours les adresses d'envoi** :
+**Vérifiez toujours les adresses d'envoi** :
 	* Avant d’envoyer des fonds, vérifiez soigneusement l’adresse. Les fonds envoyés à une mauvaise adresse sont perdus à jamais. Utilisez un copier/coller ou le scan de QR code, ne recopiez / modifiez jamais une adresse à la main. 
 
-* **Optimisez les frais** :
+**Optimisez les frais** :
 	* Pour les transactions onchain, choisissez des frais adaptés (lente, moyenne, rapide) en fonction de l’urgence et de la congestion du réseau.
 	* Utilisez Liquid, ou Lightning pour les petits montants.
 
-* **Tenez l'application à jour**
+**Tenez l'application à jour**
 
 
 ### A3. Ressources supplémentaires
 
-* **Liens officiels :** 
+**Liens officiels :**
 	* **[Site officiel](https://blockstream.com/)**
 	* **[Support pour l'application mobile](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentation et tchat
 	- **[GitHub](https://github.com/Blockstream/green_android)**
 
-* **Explorateurs de blocs :**
+**Explorateurs de blocs :**
 	* On chain : **[Mempool.space](https://mempool.space/)**
 	* Liquid : **[Blockstream Info](https://blockstream.info/liquid)**
 	* Lightning : **[1ML (Lightning Network)](https://1ml.com/)** 
 
-* **Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** : 
+**Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** :
 	* **Sécuriser sa phrase de récupération**
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -336,5 +336,4 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 	- **[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)**
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
-
 

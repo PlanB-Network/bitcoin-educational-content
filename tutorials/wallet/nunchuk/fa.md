@@ -1,5 +1,5 @@
 ---
-name: نونچاک
+name: Nunchuk
 description: Wallet موبایل مناسب برای همه
 ---
 ![cover](assets/cover.webp)
@@ -98,7 +98,7 @@ description: Wallet موبایل مناسب برای همه
 می‌توانید راهنمای Sparrow wallet را برای دانلود این Software Wallet پیدا کنید.
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 سپس می‌توانید فایل `.apk` را از رایانه خود به گوشی‌تان منتقل کنید.
 

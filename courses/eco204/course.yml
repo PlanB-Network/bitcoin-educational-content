@@ -1,6 +1,7 @@
 id: caa75343-ac90-4249-bcca-0e2e57c3a0f1
 topic: social studies
 subtopic: economy
+type: theory
 level: intermediate
 hours: 6
 
@@ -65,13 +66,13 @@ proofreading:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 20.7
+    reward: 20.71
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 31.02
+    reward: 31.04
   - language: et
     last_contribution_date:
     urgency: 1
@@ -91,7 +92,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 51.72
+    reward: 51.74
   - language: pl
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -107,18 +108,18 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 41.39
+    reward: 41.41
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 20.7
+    reward: 20.71
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 51.72
+    reward: 51.74
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -128,12 +129,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.07
+    reward: 31.09
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 41.39
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 51.74
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 41.41
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 62.07
 tags:
   - finance
   - market-trends

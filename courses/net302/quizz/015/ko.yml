@@ -1,0 +1,9 @@
+question: IP 데이터그램의 이론상 최대 크기는 얼마인가요?
+answer: 65,536 바이트
+wrong_answers:
+  - 1,500바이트
+  - 512바이트
+  - 255바이트
+explanation: |
+  IP 데이터그램의 최대 크기는 IP 헤더의 총 길이 필드 제한에 따라 결정되는 65,536바이트입니다.
+reviewed: false

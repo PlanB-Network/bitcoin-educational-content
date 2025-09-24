@@ -91,9 +91,9 @@ BIP-85 memungkinkan Anda membuat beberapa portofolio Bitcoin dari satu frasa int
 
 
 
-- Skenario**: Anda menggunakan "Hot Wallet" Wallet (dipasang pada perangkat yang terhubung ke Internet), untuk transaksi harian.
-- Solusi BIP-85**: Anda membuat frasa sekunder seed yang didedikasikan untuk portofolio ini.
-- Keunggulan dibandingkan BIP-32**: Anda tidak perlu mengimpor frasa primer seed ke ponsel Anda, sehingga mengurangi risiko peretasan. Hanya frasa sekunder seed yang dikompromikan, melindungi dompet Anda yang lain. Dengan BIP-32, Anda harus menggunakan frasa utama seed dan jalur bypass, mengekspos semua dana Anda.
+- **Skenario**: Anda menggunakan "Hot Wallet" Wallet (dipasang pada perangkat yang terhubung ke Internet), untuk transaksi harian.
+- **Solusi BIP-85**: Anda membuat frasa sekunder seed yang didedikasikan untuk portofolio ini.
+- **Keunggulan dibandingkan BIP-32**: Anda tidak perlu mengimpor frasa primer seed ke ponsel Anda, sehingga mengurangi risiko peretasan. Hanya frasa sekunder seed yang dikompromikan, melindungi dompet Anda yang lain. Dengan BIP-32, Anda harus menggunakan frasa utama seed dan jalur bypass, mengekspos semua dana Anda.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 memungkinkan Anda membuat beberapa portofolio Bitcoin dari satu frasa int
 
 
 
-- Skenario**: Anda menyiapkan Bitcoin Wallet untuk seseorang yang dekat dengan Anda (misalnya ibu Anda), sekaligus dapat memulihkannya jika hilang.
-- Solusi BIP-85**: Anda membuat kalimat sekunder seed khusus dan hanya membagikan kalimat ini.
-- Keunggulan dibandingkan BIP-32**: Dengan BIP-32, membuat akun untuk orang yang Anda cintai mengharuskan Anda untuk berbagi frasa seed utama Anda, mempertaruhkan semua dana Anda dan manajemen yang rumit untuk orang yang Anda cintai (mengelola jalur percabangan), atau membuat frasa seed baru untuk disimpan di samping frasa seed utama Anda.
+- **Skenario**: Anda menyiapkan Bitcoin Wallet untuk seseorang yang dekat dengan Anda (misalnya ibu Anda), sekaligus dapat memulihkannya jika hilang.
+- **Solusi BIP-85**: Anda membuat kalimat sekunder seed khusus dan hanya membagikan kalimat ini.
+- **Keunggulan dibandingkan BIP-32**: Dengan BIP-32, membuat akun untuk orang yang Anda cintai mengharuskan Anda untuk berbagi frasa seed utama Anda, mempertaruhkan semua dana Anda dan manajemen yang rumit untuk orang yang Anda cintai (mengelola jalur percabangan), atau membuat frasa seed baru untuk disimpan di samping frasa seed utama Anda.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 memungkinkan Anda membuat beberapa portofolio Bitcoin dari satu frasa int
 
 
 
-- Skenario**: Anda memisahkan bitcoin Anda untuk tujuan yang berbeda (mis. tabungan jangka panjang, dana non-KYC).
-- Solusi BIP-85**: Anda membuat frasa sekunder seed yang didedikasikan untuk setiap tujuan.
-- Keunggulan dibandingkan BIP-32**: Dengan BIP-32, semua akun memiliki frasa seed yang sama, yang mempersulit pengelolaan dalam portofolio pihak ketiga karena memerlukan jalur turunan seperti `m/44'/0'/0'` untuk dikelola. Selain itu, tidak memungkinkan untuk menetapkan akun terpisah per perangkat (mis. "tabungan di Coldcard", "harian di ponsel", "liburan di Trezor"). BIP-85 menetapkan frasa sekunder seed yang unik per tujuan, yang mudah diidentifikasi dan diimpor secara terpisah pada setiap perangkat.
+- **Skenario**: Anda memisahkan bitcoin Anda untuk tujuan yang berbeda (mis. tabungan jangka panjang, dana non-KYC).
+- **Solusi BIP-85**: Anda membuat frasa sekunder seed yang didedikasikan untuk setiap tujuan.
+- **Keunggulan dibandingkan BIP-32**: Dengan BIP-32, semua akun memiliki frasa seed yang sama, yang mempersulit pengelolaan dalam portofolio pihak ketiga karena memerlukan jalur turunan seperti `m/44'/0'/0'` untuk dikelola. Selain itu, tidak memungkinkan untuk menetapkan akun terpisah per perangkat (mis. "tabungan di Coldcard", "harian di ponsel", "liburan di Trezor"). BIP-85 menetapkan frasa sekunder seed yang unik per tujuan, yang mudah diidentifikasi dan diimpor secara terpisah pada setiap perangkat.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 memungkinkan Anda membuat beberapa portofolio Bitcoin dari satu frasa int
 
 
 
-- Skenario**: Anda memerlukan portofolio sementara untuk transaksi satu kali atau untuk menjaga kerahasiaan (misal: pencampuran dana, interaksi dengan KYC Exchange, dll.).
-- Solusi BIP-85**: Anda membuat kalimat sekunder seed, menggunakannya untuk transaksi, kemudian menghancurkannya jika perlu, karena mengetahui bahwa kalimat tersebut dapat dibuat ulang.
-- Keuntungan dibandingkan BIP-32**: Dengan BIP-32, akun sementara bergantung pada kalimat utama seed, yang mengekspos semua dana Anda jika disusupi.
+- **Skenario**: Anda memerlukan portofolio sementara untuk transaksi satu kali atau untuk menjaga kerahasiaan (misal: pencampuran dana, interaksi dengan KYC Exchange, dll.).
+- **Solusi BIP-85**: Anda membuat kalimat sekunder seed, menggunakannya untuk transaksi, kemudian menghancurkannya jika perlu, karena mengetahui bahwa kalimat tersebut dapat dibuat ulang.
+- **Keuntungan dibandingkan BIP-32**: Dengan BIP-32, akun sementara bergantung pada kalimat utama seed, yang mengekspos semua dana Anda jika disusupi.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 memungkinkan Anda membuat beberapa portofolio Bitcoin dari satu frasa int
 
 
 
-- Perangkat keras** (opsional)
+- **Perangkat keras** (opsional)
  - Coldcard Mk4 atau Q1
  - Kartu microSD
 
@@ -158,7 +158,7 @@ BIP-85 memungkinkan Anda membuat beberapa portofolio Bitcoin dari satu frasa int
 
 
 
-- Perangkat lunak** yang kompatibel
+- **Perangkat lunak** yang kompatibel
  - Sparrow wallet (komputer, untuk manajemen khusus jam tangan atau manajemen tingkat lanjut)
  - Nunchuck (seluler, untuk tanda tangan banyak)
  - BlueWallet (seluler)
@@ -168,7 +168,7 @@ BIP-85 memungkinkan Anda membuat beberapa portofolio Bitcoin dari satu frasa int
 
 
 
-- 3.4 Konfigurasi kartu dingin**
+- 3.4 **Konfigurasi kartu dingin**
  - Inisialisasi kalimat seed yang terdiri dari 24 kata pada Coldcard.
  - Opsional: Tambahkan passphrase untuk mengamankan akses ke cabang BIP-85.
  - Mengaktifkan opsi yang berguna: NFC (untuk ekspor), nonaktifkan USB pada baterai (keamanan).
@@ -197,7 +197,7 @@ Nyalakan Coldcard Anda, masukkan kode PIN Anda.
 
 
 
-- 1. Jika Anda telah menerapkan passphrase ke seed utama Anda:**
+- 1. Jika Anda telah menerapkan passphrase ke seed utama Anda:
  - Dari layar Beranda, buka `passphrase`.
     - Pilih `Tambah Kata` dan masukkan kata sandi Anda.
     - Tekan `Terapkan`.
@@ -207,7 +207,7 @@ Nyalakan Coldcard Anda, masukkan kode PIN Anda.
 
 
 
-- 2. Buka menu BIP-85**
+- 2. Buka menu **BIP-85**
  - Dari layar Beranda, buka `Advanced > Derive seed B85`
  - Baca peringatan dan konfirmasikan.
 

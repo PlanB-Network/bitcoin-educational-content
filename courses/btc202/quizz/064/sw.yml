@@ -1,0 +1,9 @@
+question: Ni sababu gani kuu ya kusakinisha Block explorer ya ndani kama Mempool.Space kwenye Umbrel?
+answer: Hifadhi usiri na utumie data kutoka kwa nodi yako mwenyewe
+wrong_answers:
+  - Ongeza kasi ya maingiliano ya awali ya Bitcoin core
+  - Ongeza uwezo wa kuhifadhi unaopatikana kwa vitalu
+  - Kupata njia za umeme
+explanation: |
+  Block explorer ya ndani huzuia uvujaji wa IP na inategemea data yako mwenyewe iliyoidhinishwa, ikihakikisha usiri na kutegemewa.
+reviewed: true

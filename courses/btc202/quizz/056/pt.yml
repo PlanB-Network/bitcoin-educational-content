@@ -1,0 +1,9 @@
+question: Qual é a forma mais fácil de ligar um Wallet móvel ao Electrs através da Umbrel?
+answer: Digitalizar o código QR do Tor
+wrong_answers:
+  - Descarregar um ficheiro cookie
+  - Importar chave privada
+  - Copiar o ficheiro Wallet.dat
+explanation: |
+  A Umbrel permite-lhe digitalizar diretamente o código QR Tor fornecido pelo Electrs para configurar a sua ligação móvel.
+reviewed: true

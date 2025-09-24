@@ -1,5 +1,5 @@
 ---
-name: Matraca
+name: Nunchuk
 description: Wallet móvel adequado para todos
 ---
 ![cover](assets/cover.webp)
@@ -91,14 +91,14 @@ Na janela que aparece, encontrará campos para "preencher": escolha o botão _Br
 ![image](assets/en/07.webp)
 
 
-**A captura de ecrã é de um PC com Windows, a mesma prática pode ser utilizada em qualquer sistema operativo no seu computador, basta ter o Sparrow wallet instalado. E verificado!
+**A captura de ecrã é de um PC com Windows, a mesma prática pode ser utilizada em qualquer sistema operativo no seu computador, basta ter o Sparrow wallet instalado. E verificado!**
 
 
 
 Pode encontrar o guia do Sparrow wallet para descarregar este Software Wallet
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Pode então transferir o ficheiro `.apk` do seu computador para o seu telemóvel
 

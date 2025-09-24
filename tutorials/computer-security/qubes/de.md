@@ -118,7 +118,7 @@ Bevor Sie Qubes OS installieren, müssen Sie sicherstellen, dass Ihre Hardware d
 
 - Der **Prozessor**: Ein 64-Bit-Prozessor, der mit Hardware-Virtualisierung (Intel VT-x oder AMD-V) kompatibel ist.
 - RAM: Mindestens 8 GB sind erforderlich, aber wir empfehlen einen RAM von 16 GB oder mehr, um mehrere Qubes gleichzeitig laufen zu lassen.
-- Speicherplatz**: mindestens 36 GB, idealerweise 128 GB auf einer SSD für optimale Leistung.
+- **Speicherplatz**: mindestens 36 GB, idealerweise 128 GB auf einer SSD für optimale Leistung.
 
 
 

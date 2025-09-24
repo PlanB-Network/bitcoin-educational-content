@@ -1,60 +1,58 @@
 ---
 name: RGB
-description: Uvod i kreiranje sredstava na RGB
+description: Uvod i kreiranje sredstava na RGB-u
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 
 ## uvod
 
 
-Dana 3. januara 2009. Satoshi Nakamoto je pokrenuo prvi Bitcoin čvor, od tog trenutka novi čvorovi su se pridružili i Bitcoin je počeo da se ponaša kao da je novi oblik života, oblik života koji nije prestao da evoluira, malo po malo postao je najsigurnija mreža na svetu kao rezultat svog jedinstvenog dizajna, veoma dobro osmišljenog od strane Satoshi jer, kroz ekonomske podsticaje, privlači korisnike koji se obično nazivaju rudarima da ulažu u energiju i računarsku snagu što doprinosi sigurnosti mreže.
+Dana 3. januara 2009. Satoshi Nakamoto je pokrenuo prvi Bitcoin čvor, od tog trenutka novi čvorovi su se pridružili i Bitcoin je počeo da se ponaša kao da je novi oblik života, oblik života koji nije prestao da evoluira, malo po malo postao je najsigurnija mreža na svetu kao rezultat svog jedinstvenog dizajna, veoma dobro osmišljenog od strane Satoshija jer, kroz ekonomske podsticaje, privlači korisnike koji se obično nazivaju rudarima da ulažu u energiju i računarsku snagu što doprinosi sigurnosti mreže.
 
 
-Kako Bitcoin nastavlja svoj rast i usvajanje, suočava se sa problemima skalabilnosti, Bitcoin mreža omogućava da se novi blok sa transakcijama iskopa za približno 10 minuta, pod pretpostavkom da imamo 144 bloka dnevno sa maksimalnim vrednostima od 2700 transakcija po bloku, Bitcoin bi omogućio samo 4,5 transakcija po sekundi, Satoshi je bio svestan ovog ograničenja, to možemo videti u emailu1 poslatom Mike Hearn-u u martu 2011. gde objašnjava kako ono što danas znamo kao platni kanal funkcioniše. mikroplaćanja brzo i sigurno bez čekanja na potvrde. Tu dolaze off-chain protokoli.
+Kako Bitcoin nastavlja svoj rast i usvajanje, suočava se sa problemima skalabilnosti, Bitcoin mreža omogućava da se novi blok sa transakcijama iskopa za približno 10 minuta, pod pretpostavkom da imamo 144 bloka dnevno sa maksimalnim vrednostima od 2700 transakcija po bloku, Bitcoin bi omogućio samo 4,5 transakcija po sekundi, Satoshi je bio svestan ovog ograničenja, to možemo videti u emailu poslatom Mike Hearn-u u martu 2011. gde objašnjava kako ono što danas znamo kao platni kanal funkcioniše. mikroplaćanja brzo i sigurno bez čekanja na potvrde. Tu dolaze [off-chain](https://planb.network/resources/glossary/offchain) protokoli.
 
 
-Prema Christian Decker2 off-chain protokoli su obično sistemi u kojima korisnici koriste podatke iz Blockchain i upravljaju njima bez dodirivanja samog Blockchain do poslednjeg trenutka. Na osnovu ovog koncepta, nastao je Lightning Network, mreža koja koristi off-chain protokole kako bi omogućila da se Bitcoin plaćanja izvrše gotovo trenutno i pošto sve ove operacije nisu zapisane na blokčejnu, omogućava hiljade transakcija po sekundi i skaliranje Bitcoin.
+Prema Christian Deckeru off-chain protokoli su obično sistemi u kojima korisnici koriste podatke iz Blockchain-a i upravljaju njima bez dodirivanja samog Blockchain-a do poslednjeg trenutka. Na osnovu ovog koncepta, nastala je Lightning mreža, mreža koja koristi off-chain protokole kako bi omogućila da se Bitcoin plaćanja izvrše gotovo trenutno i pošto sve ove operacije nisu zapisane na blokčejnu, omogućava hiljade transakcija po sekundi i Bitcoin skaliranje.
 
 
-Istraživanje i razvoj u oblasti off-chain protokola na Bitcoin otvorilo je Pandorinu kutiju, danas znamo da možemo postići mnogo više od prenosa vrednosti na decentralizovan način, neprofitna LNP/BP Standards Association fokusira se na razvoj Layer 2 i 3 protokola na Bitcoin i Lightning Network, među ovim projektima se ističe RGB.
+Istraživanje i razvoj u oblasti off-chain protokola na Bitcoinu otvorili su Pandorinu kutiju; danas znamo da možemo postići mnogo više od samog prenosa vrednosti na decentralizovan način. Neprofitna organizacija LNP/BP Standards Association fokusira se na razvoj protokola drugog i trećeg sloja na Bitcoinu i Lightning mreži, a među tim projektima posebno se izdvaja RGB.
 
 
 ## Šta je RGB?
 
-
-RGB je proizašao iz istraživanja Petera Todda3 o jednokratnim pečatima i validaciji na strani klijenta, koje su 2016-2019. skovali Giacomo Zucco i zajednica u bolji protokol za imovinu za Bitcoin i Lightning Network. Dalja evolucija ovih ideja dovela je do razvoja RGB u potpuno razvijen Smart contract sistem od strane Maxima Orlovskog, koji vodi njegovu implementaciju od 2019. uz učešće zajednice.
-
-
-Možemo definisati RGB kao skup open source protokola koji nam omogućavaju izvršavanje složenih pametnih ugovora na skalabilan i poverljiv način. To nije posebna mreža (kao Bitcoin ili Lightning); svaki Smart contract je samo skup Contract učesnika koji mogu komunicirati koristeći različite komunikacione kanale (podrazumevano Lightning Network). RGB koristi Bitcoin Blockchain kao Layer stanja Commitment i održava kod Smart contract i podatke off-chain, što ga čini skalabilnim, koristeći Bitcoin transakcije (i Script) kao Ownership kontrolni sistem za pametne ugovore; dok je evolucija Smart contract definisana off-chain šemom, na kraju je važno napomenuti da se sve validira na strani klijenta.
+RGB je proizašao iz istraživanja Petera Todda o jednokratnim pečatima (single-use seals) i proveri na strani klijenta (client-side validation), koje su u periodu 2016–2019. Giacomo Zucco i zajednica razvili u napredniji protokol za tokene na Bitcoinu i Lightning mreži. Dalja evolucija ovih ideja dovela je do razvoja RGB-a u potpuno funkcionalan sistem pametnih ugovora, čiju implementaciju od 2019. predvodi Maksim Orlovski uz učešće zajednice.
 
 
-U jednostavnim terminima, RGB je sistem koji omogućava korisniku da revidira Smart contract, izvrši ga i verifikuje pojedinačno u bilo kom trenutku bez dodatnih troškova, jer za to ne koristi Blockchain kao što to rade "tradicionalni" sistemi. Kompleksni sistemi pametnih ugovora su pionirski razvijeni od strane Ethereuma, ali zbog toga što zahtevaju od korisnika da troši značajne količine gasa za svaku operaciju, nikada nisu postigli skalabilnost koju su obećavali, te stoga nikada nisu bili opcija za bankarstvo korisnika isključenih iz trenutnog finansijskog sistema.
+RGB možemo definisati kao skup open-source protokola koji nam omogućavaju izvršavanje složenih pametnih ugovora na skalabilan i poverljiv način. To nije posebna mreža (poput Bitcoina ili Lightning mreže); svaki pametni ugovor je samo skup učesnika ugovora koji mogu međusobno komunicirati putem različitih komunikacionih kanala (podrazumevano preko Lightning mreže). RGB koristi Bitcoin blokčejn kao sloj za potvrdu stanja i održava kod pametnog ugovora i podatke van lanca (off-chain), što ga čini skalabilnim, koristeći Bitcoin transakcije (i Script) kao sistem kontrole vlasništva nad pametnim ugovorima; dok se evolucija pametnog ugovora definiše van lanca, na kraju je važno napomenuti da se sve proverava na strani klijenta.
 
 
-Trenutno, industrija Blockchain promoviše da i kod pametnih ugovora i podaci moraju biti smešteni u Blockchain i izvršavani od strane svakog čvora mreže, bez obzira na prekomerno povećanje veličine ili zloupotrebu računarskih resursa. Šema koju predlaže RGB je mnogo inteligentnija i efikasnija jer prekida sa paradigmom Blockchain tako što odvaja pametne ugovore i podatke od Blockchain i na taj način izbegava zasićenje mreže viđeno na drugim platformama, a pritom ne primorava svaki čvor da izvršava svaki Contract već samo uključene strane, što dodaje poverljivost na nivou nikada ranije viđenom.
+Pojednostavljeno rečeno, RGB je sistem koji korisniku omogućava da u bilo kom trenutku pregleda pametni ugovor, izvrši ga i samostalno ga verifikuje, bez dodatnog troška, jer za to ne koristi blokčejn kao što to rade „tradicionalni“ sistemi. Ethereum je bio pionir složenih sistema pametnih ugovora, ali pošto zahteva da korisnik potroši značajne količine gasa za svaku operaciju, nikada nije postigao obećanu skalabilnost, pa samim tim nikada nije bio opcija za uključivanje korisnika isključenih iz postojećeg finansijskog sistema.
+
+
+Trenutno blockchain industrija promoviše ideju da i kod pametnih ugovora i podaci moraju biti čuvani na blokčejnu i izvršavani od strane svakog čvora u mreži, bez obzira na prekomerno povećanje veličine ili neadekvatno korišćenje računarskih resursa. Šema koju predlaže RGB je znatno inteligentnija i efikasnija, jer prekida sa blokčejn paradigmom time što pametne ugovore i podatke odvaja od blokčejna i tako izbegava zagušenje mreže kakvo viđamo na drugim platformama. Istovremeno, ne primorava svaki čvor da izvršava svaki ugovor, već to rade samo uključene strane, čime se dodaje nivo poverljivosti kakav do sada nije postojao.
 
 
 ![RGB vs Ethereum](assets/1.webp)
 
 
-## Pametni ugovori u RGB
+## Pametni ugovori na RGB-u
 
 
-U RGB Smart contract developer definiše šemu koja specificira pravila kako se Contract razvija tokom vremena. Šema je standard za izgradnju pametnih ugovora u RGB, i kako izdavalac prilikom definisanja Contract za izdavanje, tako i Wallet ili Exchange moraju se pridržavati određene šeme prema kojoj moraju validirati Contract. Samo ako je validacija ispravna, svaka strana može prihvatiti zahteve i raditi sa sredstvom.
+U RGB pametnom ugovoru, programer definiše šemu koja određuje pravila po kojima se ugovor razvija tokom vremena. Šema predstavlja standard za izradu pametnih ugovora u RGB-u, i kako izdavalac prilikom definisanja ugovora za emisiju, tako i novčanik ili menjačnica moraju se pridržavati određene šeme prema kojoj validiraju ugovor. Samo ako je validacija ispravna, svaka strana može prihvatiti zahteve i raditi sa sredstvom.
+
+Pametni ugovor u RGB-u je usmeren aciklični graf (DAG) promena stanja, pri čemu je uvek poznat samo deo grafa, dok ostatak nije dostupan. RGB šema je osnovni skup pravila od kojih pametni ugovor započinje svoj razvoj. Svaki učesnik ugovora može dodati ta pravila (ako je to dozvoljeno šemom), a nastali graf se gradi iterativnom primenom tih pravila.
 
 
-Smart contract u RGB je Directed Acyclic Graph (DAG) promena stanja, gde je samo deo grafa uvek poznat i nema pristupa ostatku. RGB šema je osnovni skup pravila za evoluciju ovog grafa sa kojim Smart contract počinje. Svaki Contract Participant može dodati ta pravila (ako je to dozvoljeno od strane Schema) i rezultujući graf se gradi iz iterativne primene tih pravila.
+## Zamenljiva sredstva
 
 
-## Fungibilna imovina
+[Zamenljiva sredstva](https://planb.network/resources/glossary/fungibility) u RGB-u prate specifikaciju LNPBP RGB-20, kada je RGB-20 definisan, podaci o sredstvima poznati kao "početni podaci (genesis)" distribuiraju se kroz Lightning mrežu, koji sadrže ono što je potrebno za korišćenje sredstva. Najosnovniji oblik sredstava ne dozvoljava sekundarno izdavanje, spaljivanje tokena, preimenovanje ili zamenu.
 
 
-Fungibilna sredstva u RGB prate specifikaciju LNPBP RGB-20 specification4, kada je RGB-20 definisan, podaci o sredstvima poznati kao "Genesis podaci'' distribuiraju se kroz Lightning Network, koji sadrži ono što je potrebno za korišćenje sredstva. Najosnovniji oblik sredstava ne dozvoljava sekundarno izdavanje, spaljivanje tokena, preimenovanje ili zamenu.
-
-
-Ponekad će izdavalac morati da izda više tokena u budućnosti, tj. stablecoins kao što je USDT, koji održava vrednost svakog tokena vezanu za vrednost inflatorne valute kao što je USD. Da bi se to postiglo, postoje složenije RGB-20 sheme, i pored Genesis podataka zahtevaju od izdavaoca da proizvede pošiljke, koje će takođe cirkulisati u Lightning Network; sa ovim informacijama možemo znati ukupnu cirkulaciju Supply imovine. Isto važi i za spaljivanje imovine, ili promenu njenog imena.
+Ponekad će izdavalac morati da izda više tokena u budućnosti, tj. stablecoins kao što je USDT, koji održava vrednost svakog tokena vezanu za vrednost inflatorne valute kao što je USD. Da bi se postigla ova složenija RGB-20 šema, pored početnih (genesis) podataka, zahteva se od izdavaoca da kreira consignmente (pošiljke), koji će takođe cirkulisati na Lightning mreži; sa ovim informacijama možemo znati ukupnu količinu sredstava u opticaju. Isto važi i za uništavanje (burning) sredstava ili promenu njihovog imena.
 
 
 Informacije vezane za imovinu mogu biti javne ili privatne: ako izdavalac zahteva poverljivost, on/ona može odlučiti da ne deli informacije o tokenu i obavlja operacije u potpunoj privatnosti, ali imamo i suprotan slučaj u kojem izdavalac i vlasnici trebaju da ceo proces bude transparentan. Ovo se postiže deljenjem podataka o tokenu.
@@ -75,60 +73,60 @@ Da bi se podržao slučaj upotrebe gde je moguće spaliti sredstva bez potrebe d
 ## Nepromenljiva sredstva
 
 
-Nenadoknadiva sredstva u RGB prate specifikaciju LNPBP RGB-21, kada radimo sa NFT-ovima imamo i glavni šematski plan i pod-šemu. Ove šeme imaju proceduru graviranja, koja nam omogućava da priložimo prilagođene podatke od strane vlasnika tokena, najčešći primer koji danas vidimo u NFT-ovima je digitalna umetnost povezana sa tokenom. Izdavač tokena može zabraniti ovo graviranje podataka korišćenjem RGB-21 pod-šeme. Za razliku od drugih NFT Blockchain sistema, RGB omogućava distribuciju velikih medijskih podataka tokena na potpuno decentralizovan i cenzuri otporan način, koristeći proširenje na Lightning P2P mrežu zvanu Bifrost, koja se takođe koristi za izgradnju mnogih drugih oblika RGB-specifičnih Smart contract funkcionalnosti.
+Nenadoknadiva sredstva u RGB-u prate specifikaciju LNPBP RGB-21, kada radimo sa NFT-ovima imamo i glavni šematski plan i pod-šemu. Ove šeme imaju proceduru graviranja, koja nam omogućava da priložimo prilagođene podatke od strane vlasnika tokena, najčešći primer koji danas vidimo u NFT-ovima je digitalna umetnost povezana sa tokenom. Izdavalac tokena može zabraniti ovo graviranje podataka korišćenjem RGB-21 pod-šeme. Za razliku od drugih NFT blockchain sistema, RGB omogućava distribuciju medijskog sadržaja velikog formata koji je povezan sa tokenom na potpuno decentralizovan i na cenzuru otporan način, koristeći proširenje Lightning P2P mreže pod nazivom Bifrost, koje se takođe koristi za izgradnju mnogih drugih oblika RGB-specifičnih funkcionalnosti pametnih ugovora.
 
 
-Pored fungibilnih sredstava i NFT-ova, RGB i Bifrost se mogu koristiti za proizvodnju drugih oblika pametnih ugovora, uključujući DEX-ove, likvidne bazene, algoritamske stabilne kovanice itd, o čemu ćemo pisati u budućim člancima.
+Pored zamenljivih sredstava i NFT-ova, RGB i Bifrost se mogu koristiti za proizvodnju drugih oblika pametnih ugovora, uključujući DEX-ove, likvidne bazene, algoritamske stabilne kovanice itd, o čemu ćemo pisati u budućim člancima.
 
 
-## NFT sa RGB vs NFT sa drugim platformama
+## NFT u RGB-u u poređenju sa NFT-ovima na drugim platformama
 
 
 
 - Nema potrebe za skupim Blockchain skladištem
-- Nema potrebe za IPFS, umesto toga se koristi Lightning Network ekstenzija (nazvana Bifrost) (i potpuno je end-to-end enkriptovana)
+- Nema potrebe za IPFS-om, umesto toga koristi se proširenje Lightning mreže (pod nazivom Bifrost) koje je u potpunosti šifrovano od kraja do kraja
 - Nema potrebe za posebnim rešenjem za upravljanje podacima – ponovo, Bifrost preuzima tu ulogu
-- Nema potrebe verovati veb-sajtovima da održavaju podatke za NFT tokene ili o pitanjima imovine / Contract ABI-je.
-- Ugrađena DRM enkripcija i Ownership upravljanje
-- Infrastruktura za bekapove koristeći Lightning Network (Bifrost)
+- Nema potrebe da se veruje veb-sajtovima da održavaju podatke za NFT tokene ili o izdatim sredstvima / ABI-jevima ugovora
+- Ugrađena DRM enkripcija i upravljanje vlasništvom
+- Infrastruktura za pravljenje rezervnih kopija pomoću Lightning mreže (Bifrost)
 - Načini monetizacije sadržaja (ne samo prodaja samog NFT-a, već i pristup sadržaju, više puta)
 
 
 ## Zaključci
 
 
-Od lansiranja Bitcoin, pre skoro 13 godina, bilo je mnogo istraživanja i eksperimentisanja u ovoj oblasti, i uspesi i greške su nam omogućili da malo bolje razumemo kako se decentralizovani sistemi ponašaju u praksi, šta ih zaista čini decentralizovanim i koje akcije ih obično vode ka centralizaciji, sve ovo nas je dovelo do zaključka da je prava decentralizacija retka i teško ostvariva pojava, prava decentralizacija je postignuta samo od strane Bitcoin i iz tog razloga fokusiramo naše napore da gradimo na njemu.
+Od lansiranja Bitcoin-a, pre skoro 13 godina, bilo je mnogo istraživanja i eksperimentisanja u ovoj oblasti, i uspesi i greške su nam omogućili da malo bolje razumemo kako se decentralizovani sistemi ponašaju u praksi, šta ih zaista čini decentralizovanim i koje akcije ih obično vode ka centralizaciji, sve ovo nas je dovelo do zaključka da je prava decentralizacija retka i teško ostvariva pojava, prava decentralizacija je postignuta samo od strane Bitcoin-a i iz tog razloga fokusiramo naše napore da gradimo na njemu.
 
 
-RGB ima svoju zečju rupu unutar zečje rupe Bitcoin, dok padam kroz njih objaviću ono što sam naučio, u sledećem članku ćemo imati uvod u LNP i RGB čvorove i kako ih koristiti.
+RGB ima svoju zečiju rupu unutar Bitcoin zečije rupe, dok padam kroz njih objaviću ono što sam naučio, u sledećem članku ćemo imati uvod u LNP i RGB čvorove i kako ih koristiti.
 
 
 
-- Žao mi je, ne mogu da pomognem sa tim zahtevom.
+- 1 https://plan99.net/~mike/satoshi-emails/thread4.html
 - 2 https://btctranscripts.com/chaincode-labs/chaincode-residency/2018-10-22-christian-decker-history-of-lightning/
 - 3 https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2016-June/012773.html
 - 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 
-# RGB-node Tutorijal
+# Tutorijal o RGB-čvoru 
 
 
 ## Uvod
 
 
-U ovom vodiču objašnjavamo kako koristiti RGB-node za kreiranje fungibilnog tokena i kako ga preneti, ovaj dokument se zasniva na RGB-node demo i razlikuje se u tome što ovaj vodič koristi stvarne Testnet podatke i zbog toga, moramo izgraditi sopstveni Partially Signed Bitcoin Transaction, PSBT od sada nadalje.
+U ovom vodiču objašnjavamo kako koristiti RGB-čvor za kreiranje zamenjivih tokena i kako ig preneti, ovaj dokument se zasniva na RGB-node demo i razlikuje se u tome što ovaj vodič koristi stvarne Testnet podatke i zbog toga, moramo izgraditi sopstvenu delimično potpisanu transakciju, na engleskom Partially Signed Bitcoin Transaction, PSBT od sada nadalje.
 
 
-## Zahtjevi
+## Zahtevi
 
 
 Preporučuje se korišćenje Linux distribucije, ovaj vodič je napisan koristeći Pop!OS, koji je zasnovan na Ubuntu i biće vam potrebno:
 
 
 
-- teret
-- Bitcoin jezgro
+- cargo
+- Bitcoin core
 - git
 
 
@@ -143,10 +141,10 @@ $ sudo apt install -y build-essential pkg-config libzmq3-dev libssl-dev libpq-de
 ```
 
 
-Izgradi i Pokreni
+Kompajliraj i pokreni
 
 
-RGB-node je u toku rada (WIP), zato se moramo nalaziti u određenom commitu (3f3c520c19d84c66d430e76f0fc68c5a66d79c84) kako bismo ga mogli ispravno kompajlirati i koristiti, za to izvršavamo sledeće komande.
+RGB-čvor je u toku rada (WIP), zato se moramo nalaziti u određenom commitu (3f3c520c19d84c66d430e76f0fc68c5a66d79c84) kako bismo ga mogli ispravno kompajlirati i koristiti, za to izvršavamo sledeće komande.
 
 
 ```
@@ -177,7 +175,7 @@ Installed package `rgb_node v0.4.2 (/home/user/dev/rgb-node)` (executables `fung
 Kao što nam Rust kompajler kaže, binarne datoteke su kopirane u $HOME/.cargo/bin direktorijum, ako ih je vaš kompajler kopirao na drugo mesto, morate se pobrinuti da taj direktorijum bude uključen u $PATH.
 
 
-Među instaliranim binarnim datotekama možemo videti tri demona ili servisa (datoteke koje završavaju na d) i CLI (komandna linija Interface), CLI nam omogućava interakciju sa glavnim rgbd daemon. Kako ćemo u ovom vodiču pokrenuti dva čvora, biće nam potrebna i dva klijenta, svaki mora da se poveže na svoj čvor, za to kreiramo dva aliasa.
+Među instaliranim binarnim datotekama možemo videti tri demona ili servisa (datoteke koje završavaju na d) i CLI (komandna linija), CLI nam omogućava interakciju sa glavnim rgbd daemon. Kako ćemo u ovom vodiču pokrenuti dva čvora, biće nam potrebna i dva klijenta, svaki mora da se poveže na svoj čvor, za to kreiramo dva aliasa.
 
 
 ```
@@ -191,17 +189,17 @@ Možemo samo pokrenuti alias-e ili ih dodati na kraj $HOME/.bashrc fajla i pokre
 Premisa
 
 
-RGB-čvor ne obrađuje bilo kakvu funkcionalnost povezanu sa Wallet, već samo izvršava zadatke specifične za RGB na podacima koji će biti obezbeđeni od strane spoljnog Wallet kao što je Bitcoin jezgro. Konkretno, da bismo demonstrirali osnovni tok rada sa izdavanjem i prenosom, biće nam potrebno:
+RGB-čvor ne obrađuje bilo kakvu funkcionalnost povezanu sa novčanikom, već samo izvršava zadatke specifične za RGB na podacima koji će biti obezbeđeni od strane spoljnog novčanika kao što je Bitcoin core. Konkretno, da bismo demonstrirali osnovni tok rada sa izdavanjem i prenosom, biće nam potrebno:
 
 
 
-- Izdavanje_utxo na koji će RGB-node-0 vezati novoizdatu imovinu
-- A receive_utxo gde RGB-node-1 prima sredstvo
-- Promena_utxo gde RGB-node-0 prima promenu sredstva
-- Partially Signed Bitcoin Transaction (tx.PSBT), čiji će izlazni javni ključ biti prilagođen da uključi Commitment u transfer.
+- issuance_utxo na koji će rgb-node-0 povezati (vezati) novoizdati aset.
+- receive_utxo na koji će gde RGB-node-1 primati sredstvo
+- change_utxo gde rgb-node-0 prima ostatak (change) aseta
+- Delimično potpisana Bitcoin transakcija (tx.psbt) čiji će izlazni javni ključ biti prilagođen (tweaked) kako bi uključio obavezu (commitment) za prenos.
 
 
-Koristićemo Bitcoin jezgro CLI, potrebno je da imamo bitcoind daemon koji radi na Testnet, ovo će nam omogućiti interoperabilnost i na kraju ćemo moći da pošaljemo naše sopstvene resurse drugom RGB korisniku koji je pratio ovaj vodič.
+Koristićemo Bitcoin Core CLI i potrebno je da bitcoind daemon bude pokrenut na testnet mreži. Ovo će nam obezbediti interoperabilnost i na kraju ćemo moći da pošaljemo sopstvena sredstva drugom RGB korisniku koji je pratio ovaj tutorijal.
 
 
 Radi jednostavnosti, dodaćemo ovaj alias na kraj naše ~/.bashrc datoteke.
@@ -212,7 +210,7 @@ alias bcli="bitcoin-cli -testnet"
 ```
 
 
-Hajde da navedemo naše nepotrošene izlazne transakcije i izaberemo dve, jedna će biti issuance_utxo a druga change_utxo, nije bitno koja je koja, važno je da izdavalac ima kontrolu nad ove dve UTXO.
+Hajde da navedemo naše nepotrošene izlazne transakcije i izaberemo dve, jedna će biti issuance_utxo a druga change_utxo, nije bitno koja je koja, važno je da izdavalac ima kontrolu nad ova dva UTXO-a.
 
 
 ```
@@ -247,10 +245,10 @@ $ bcli listunspent
 ```
 
 
-Pre nego što nastavimo dalje, moramo razgovarati o outpoint-ima, jedna transakcija može uključivati više izlaza, outpoint uključuje i 32-bajtni txid i 4-bajtni broj indeksa izlaza (vout) da bi se referisalo na specifičan izlaz odvojen dvotačkom :. U našem listunspent izlazu možemo pronaći dva UTXO-a, na svakom možemo videti txid i vout, to su out issuance_utxo i change_utxo outpoint-i.
+Pre nego što nastavimo dalje, moramo razgovarati o outpoint-ima, jedna transakcija može uključivati više izlaza, outpoint uključuje i 32-bajtni txid i 4-bajtni broj indeksa izlaza (vout) da bi se referisalo na specifičan izlaz odvojen dvotačkom :. U našem listunspent izlazu možemo pronaći dva UTXO-a, na svakom možemo videti txid i vout, to su izlazna issuance_utxo i change_utxo outpoint-i.
 
 
-receive_utxo je UTXO kontrolisan od strane primaoca, u ovom slučaju ćemo koristiti e40d9037e31d3f440552b30af16e764cf25ffda3899b4851cc4e38fd64718b09:0 što je outpoint iz drugog Wallet.
+receive_utxo je UTXO kontrolisan od strane primaoca, u ovom slučaju ćemo koristiti e40d9037e31d3f440552b30af16e764cf25ffda3899b4851cc4e38fd64718b09:0 što je outpoint iz drugog novčanika.
 
 
 
@@ -259,7 +257,7 @@ receive_utxo je UTXO kontrolisan od strane primaoca, u ovom slučaju ćemo koris
 - receive_utxo: e40d9037e31d3f440552b30af16e764cf25ffda3899b4851cc4e38fd64718b09:0
 
 
-Sada ćemo kreirati delimično potpisanu transakciju (tx.PSBT) čiji će izlaz biti prilagođen da uključi obavezu za transfer, zapamtite da zamenite txid i vout sa vašim sopstvenim, odredište Address nije zaista važno, može biti vaše ili može biti od druge osobe, nije važno gde ti Sats idu, ono što je važno je da koristimo issuance_utxo.
+Sada ćemo kreirati delimično potpisanu transakciju (tx.PSBT) čiji će izlaz biti prilagođen da uključi obavezu za transfer, zapamtite da zamenite txid i vout sa vašim sopstvenim, odredištna adresa nije zaista važna, može biti vaša ili može biti od druge osobe, nije važno gde ti Sats idu, ono što je važno je da koristimo issuance_utxo.
 
 
 ```
@@ -289,7 +287,7 @@ $ cd $HOME/rgbdata
 ```
 
 
-Već se nalazimo u $HOME/rgbdata, pokrećemo svaki čvor u različitim terminalima, gde je ~/.cargo/bin direktorijum u koji je cargo kopirao sve binarne datoteke nakon instalacije RGB-node.
+Već se nalazimo u $HOME/rgbdata, pokrećemo svaki čvor u različitim terminalima, gde je ~/.cargo/bin direktorijum u koji je cargo kopirao sve binarne datoteke nakon instalacije RGB-čvora.
 
 
 ```
@@ -301,7 +299,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ## Izdavanje
 
 
-Da bismo izdali sredstvo, pokrećemo rgb0-CLI sa podkomandama za izdavanje fungibilnog sredstva, zatim argumente, oznaku USDT, ime "USD Tether" i u alokaciji ćemo koristiti iznos izdavanja i issuance_utxo kao što vidimo ispod:
+Da bismo izdali sredstvo, pokrećemo rgb0-CLI sa podkomandama za izdavanje zamenjivih sredstva, zatim argumente, oznaku USDT, ime "USD Tether" i u alokaciji ćemo koristiti iznos izdavanja i issuance_utxo kao što vidimo ispod:
 
 
 ```
@@ -356,10 +354,10 @@ ticker: USDT
 ```
 
 
-## generate blinded UTXO
+## Generiši zaslepljeni (eng. blinded) UTXO
 
 
-Da bi primio novi USDT, RGB-node-1 treba da generate blinded UTXO koji odgovara receive_utxo da bi držao sredstvo.
+Da bi primio novi USDT, RGB-node-1 treba da generiše zaslepljeni UTXO koji odgovara receive_utxo kako bi držao sredstvo.
 
 
 ```
@@ -376,7 +374,7 @@ Da bismo mogli prihvatiti transfere vezane za ovaj UTXO, biće nam potrebni orig
 ## Prenos
 
 
-Da bismo preneli određeni iznos imovine na RGB-node-1, potrebno je poslati ga na blinded UTXO, RGB-node-0 treba da kreira Consignment i objavu, i da je unese u Bitcoin transakciju. Zatim će nam biti potreban PSBT koji ćemo modifikovati da uključuje unos. Pored toga, opcije -i i -a omogućavaju nam da obezbedimo ulaznu tačku koja bi bila poreklo imovine i alokaciju gde ćemo primiti kusur, moramo to naznačiti na sledeći način @<change_utxo>.
+Da bismo preneli određeni iznos imovine na RGB-node-1, potrebno je poslati ga na zaslepljeni UTXO, RGB-node-0 treba da kreira Consignment i objavu, i da je unese u Bitcoin transakciju. Zatim će nam biti potreban PSBT koji ćemo modifikovati da uključuje unos. Pored toga, opcije -i i -a omogućavaju nam da obezbedimo ulaznu tačku koja bi bila poreklo imovine i alokaciju gde ćemo primiti kusur, moramo to naznačiti na sledeći način @<change_utxo>.
 
 
 ```
@@ -387,13 +385,13 @@ Consignment data to share:consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy
 ```
 
 
-Ovo će napisati tri nove datoteke, Consignment, disclosure i PSBT uključujući izmene, ovaj PSBT se zove Witness Transaction, Consignment se šalje na RGB-node-1.
+Ovo će upisati tri nova fajla: consignment, disclosure i psbt koji uključuje izmenu (tweak). Ovaj psbt se naziva witness transakcija, a consignment se šalje ka rgb-node-1.
 
 
-## Svedok
+## Svedok transakcija (eng. witness transaction)
 
 
-Witness Transaction treba potpisati i emitovati, za to ga moramo ponovo kodirati u base64.
+Witness Transaction treba potpisati i emitovati, za to je moramo ponovo kodirati u base64.
 
 
 ```
@@ -430,7 +428,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 ## Emitovanje
 
 
-Emitujte to koristeći podkomandu sendrawtransaction da bi bilo potvrđeno u Blockchain.
+Emitujte to koristeći podkomandu sendrawtransaction da bi bilo potvrđeno u Blockchain-u.
 
 
 ```
@@ -442,7 +440,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 ## Prihvati
 
 
-Da bi prihvatio dolazni transfer RGB-node-1 trebalo bi da je primio Consignment fajl od RGB-node-0, da ima receive_utxo i odgovarajući blinding_factor generisan tokom blinding UTXO generacije.
+Da bi prihvatio dolazni transfer, rgb-node-1 treba da je dobio fajl consignment od rgb-node-0, kao i receive_utxo i odgovarajući blinding_factor koji su generisani tokom procesa zaslepljivanja (eng. blinding) UTXO-a.
 
 
 ```
@@ -490,7 +488,7 @@ blinding: 224561f10229eb9ebbdf05f497132d2b8344d70971c80510eddc607d615ee2a0
 ```
 
 
-Pošto je receive_utxo bio blinded kada je transfer izvršen, platiša RGB-node-0 nema informacije o tome gde je 100 USDT poslato, tako da lokacija nije prikazana u knownAllocations.
+Pošto je receive_utxo bio zaslepljen (blinded) prilikom obavljanja transfera, platilac rgb-node-0 nema informaciju o tome gde je poslato 100 USDT, pa se lokacija ne prikazuje u knownAllocations.
 
 
 ```
@@ -522,7 +520,7 @@ blinding: "0000000000000000000000000000000000000000000000000000000000000001"
 ```
 
 
-Ali kao što možete videti, RGB-node-0 ne može da vidi promenu od 900 sredstava koju smo dostavili komandi za prenos sa argumentom -a. Da bi registrovao promenu, RGB-node-0 treba da prihvati otkrivanje.
+Ali, kao što možete videti, rgb-node-0 ne može da vidi 900 jedinica promene sredstva (asset change) koje smo prosledili komandi za transfer pomoću argumenta -a. Da bi registrovao tu promenu, rgb-node-0 mora da prihvati disclosure.
 
 
 ```
@@ -573,7 +571,7 @@ blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ## Zaključci
 
 
-Uspeli smo da kreiramo fungibilnu imovinu i premestimo je iz jedne transakcije u drugu na privatan način, ako proverimo potvrđenu transakciju u Block explorer ne bismo našli ništa drugačije od regularne transakcije, ovo je zahvaljujući činjenici da RGB koristi jednokratne pečate za prilagođavanje transakcija. U ovom postu, radim uvod u to kako RGB funkcioniše.
+Uspešno smo kreirali potpuno zamenljivo sredstvo i premestili ga iz jedne transakcije u drugu na privatan način. Ako proverimo potvrđenu transakciju u block explorer-u, ne bismo primetili ništa drugačije u odnosu na običnu transakciju, zahvaljujući tome što RGB koristi jednokratne pečate (single-use seals) za izmenu (tweak) transakcija. U ovom tekstu dajem uvod u način na koji RGB funkcioniše.
 
 
 Ovaj post može imati greške, ako pronađete nešto molim vas da mi javite kako bih poboljšao ovaj vodič, sugestije i kritike su takođe dobrodošle, srećno hakovanje! 🖖

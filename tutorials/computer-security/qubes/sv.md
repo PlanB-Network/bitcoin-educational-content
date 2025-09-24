@@ -118,7 +118,7 @@ Innan du installerar Qubes OS är det viktigt att se till att din maskinvara upp
 
 - **Processorn**: En 64-bitars processor som är kompatibel med hårdvaruvirtualisering (Intel VT-x eller AMD-V).
 - RAM-minne: minst 8 GB krävs, men vi rekommenderar ett RAM-minne på 16 GB eller mer för att köra flera qubes samtidigt.
-- Lagringsutrymme**: minst 36 GB, helst 128 GB på en SSD-enhet för optimal prestanda.
+- **Lagringsutrymme**: minst 36 GB, helst 128 GB på en SSD-enhet för optimal prestanda.
 
 
 

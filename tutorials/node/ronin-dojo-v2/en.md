@@ -4,7 +4,7 @@ description: Installing your RoninDojo v2 Bitcoin node on a Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, certain features of RoninDojo, such as Whirlpool, are no longer operational. However, it is possible that these tools could be reinstated or relaunched differently in the coming weeks. Additionally, since the RoninDojo code was hosted on Samourai's GitLab, which was also seized, it is currently not possible to download the code remotely. The RoninDojo teams are likely working on republishing the code.*
+**WARNING:** Following the arrest of the founders of Samourai Wallet and the seizure of their servers on April 24th, certain features of RoninDojo, such as Whirlpool, are no longer operational. However, it is possible that these tools could be reinstated or relaunched differently in the coming weeks. Additionally, since the RoninDojo code was hosted on Samourai's GitLab, which was also seized, it is currently not possible to download the code remotely. The RoninDojo teams are likely working on republishing the code.*
 
 _We are closely following the developments of this case as well as developments concerning the associated tools. Rest assured that we will update this tutorial as new information becomes available._
 
@@ -251,7 +251,7 @@ Congratulations! Your RoninDojo v2 node is now configured and ready to use. It w
 
 **If you are migrating from an old RoninDojo v1 node** to this new version with this tutorial while keeping the same SSD, your node should automatically detect and reuse the existing data on the disk, sparing you the necessity of performing the IBD again. In this case, you will just need to wait for your node to resynchronize with the latest blocks.
 
-### Step 8: "veth* fix"
+### Step 8: "veth fix"
 If you encounter a bug with your RoninDojo v2 on Raspberry Pi, where after a hassle-free installation, your node suddenly becomes unreachable via SSH but recovers after a simple restart, then you need to follow this step 8. This common bug can be easily fixed with a solution developed by the community: the "_veth fix_". This minor correction permanently remedies the abrupt disconnections. Here's how to apply it.
 
 Open a new terminal on your personal computer and establish an SSH connection with your node using the following command: 
@@ -262,7 +262,7 @@ If, for example, your node's IP address is `192.168.1.40`, the appropriate comma
 
 You will be prompted to enter the user password. Enter it and press `enter` to validate. You will then access the RoninCLI interface. Use your keyboard's arrows to navigate to the `Exit RoninDojo` option and press `enter` to select it.
 
-At this point, you are on your node's terminal, with a command prompt similar to: `ronindojo@RoninDojo:~ $`. To apply the veth* fix, type the following command and press `enter`: 
+At this point, you are on your node's terminal, with a command prompt similar to: `ronindojo@RoninDojo:~ $`. To apply the **veth** fix, type the following command and press `enter`:
 `sudo nano /etc/dhcpcd.conf`
 
 Confirm your password again and press `enter`.
@@ -334,7 +334,7 @@ A detailed tutorial is in preparation to guide you step by step through the proc
 
 For a deeper understanding of coinjoin and its use on Bitcoin, I also invite you to consult this other article: Understanding and using coinjoin on Bitcoin, where I detail everything you need to know about this technique.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Using Whirlpool Stat Tool (WST)
 
@@ -528,3 +528,4 @@ There you have it! Thank you for following this tutorial to the end. If you enjo
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

@@ -1,0 +1,9 @@
+question: Quale applicazione Umbrel consente di gestire il nodo Lightning con un Interface avanzato?
+answer: Cavalcare il fulmine
+wrong_answers:
+  - Fulmine BTCPay
+  - Relè Nostr
+  - Bitfeed
+explanation: |
+  Ride The Lightning e ThunderHub offrono un Interface completo basato sul web per l'amministrazione di un nodo Lightning.
+reviewed: true

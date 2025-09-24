@@ -1,0 +1,9 @@
+question: Essential 프로필은 직원이 PoS에서 결제를 처리하는 데 무엇을 사용하나요?
+answer: PoS 앱에서 아이템 가격이 포함된 메뉴 생성하기
+wrong_answers:
+  - 매출 기록용 Ledger 매뉴얼 북
+  - 각 거래에 대한 종이 Invoice 시스템
+  - PoS 거래에 대한 자동 회계 기록 시스템
+explanation: |
+  Essential 프로필의 PoS 앱을 사용하면 직원이 미리 설정된 메뉴에서 항목을 선택할 수 있어 청구 프로세스가 간소화됩니다.
+reviewed: true

@@ -1,0 +1,28 @@
+id: b41dd76d-a427-4cc1-992e-235dbb5884ae 
+
+project_id: d179a1a6-3bd5-43b9-9a83-fe867260f516 
+
+tags:
+  - wallets
+  - software
+  - lightning
+
+category: mobile
+
+level: beginner
+
+professor_id: 56a6dc42-af0b-45f1-a720-b5e8a7de1e81 
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-20
+    urgency: 1
+    contributor_names:
+      - marshal-opsource
+    reward: 0
+
+
+

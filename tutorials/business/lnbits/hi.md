@@ -1,5 +1,5 @@
 ---
-name: एलएनबिट्स
+name: LNbits
 
 description: व्यापारी लेखा मंच
 ---

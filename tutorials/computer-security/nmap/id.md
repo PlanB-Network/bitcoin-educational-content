@@ -61,9 +61,9 @@ Kekuatan Nmap sangat banyak:
 
 
 
-- Kuat dan fleksibel**: Nmap dapat memindai jaringan yang besar dan menggunakan teknik deteksi tingkat lanjut. Nmap mendukung UDP, TCP, ICMP, IPv4 dan IPv6, dan dapat melakukan deteksi versi, pemindaian kerentanan, atau interaksi khusus protokol. Arsitekturnya modular, khususnya berkat skrip NSE (Nmap Scripting Engine), yang akan kita lihat nanti dalam tutorial ini.
-- Kemudahan penggunaan**: dokumentasi resmi berlimpah dan berkualitas tinggi. Berbagai sumber daya komunitas juga tersedia untuk membantu Anda memulai.
-- Popularitas dan umur panjang**: Nmap telah menjadi referensi di bidangnya sejak tahun 1998. Versi saat ini, pada saat pembaruan ini, adalah 7.95. Meskipun ada alat lain untuk tugas-tugas tertentu, Nmap tetap harus dimiliki untuk pemetaan dan analisis jaringan.
+- **Kuat dan fleksibel**: Nmap dapat memindai jaringan yang besar dan menggunakan teknik deteksi tingkat lanjut. Nmap mendukung UDP, TCP, ICMP, IPv4 dan IPv6, dan dapat melakukan deteksi versi, pemindaian kerentanan, atau interaksi khusus protokol. Arsitekturnya modular, khususnya berkat skrip NSE (Nmap Scripting Engine), yang akan kita lihat nanti dalam tutorial ini.
+- **Kemudahan penggunaan**: dokumentasi resmi berlimpah dan berkualitas tinggi. Berbagai sumber daya komunitas juga tersedia untuk membantu Anda memulai.
+- **Popularitas dan umur panjang**: Nmap telah menjadi referensi di bidangnya sejak tahun 1998. Versi saat ini, pada saat pembaruan ini, adalah 7.95. Meskipun ada alat lain untuk tugas-tugas tertentu, Nmap tetap harus dimiliki untuk pemetaan dan analisis jaringan.
 
 
 
@@ -87,11 +87,11 @@ Ia juga muncul dalam karya sinematografi lainnya.
 
 
 
-**Umpan balik
+**Umpan balik**
 
 
 
-Sebagai seorang administrator sistem dan kemudian auditor dan pentester keamanan siber, **Saya menggunakan Nmap hampir setiap hari** dan saya **secara teratur merekomendasikannya kepada administrator sistem yang ingin memperkuat penguasaan jaringan dan meningkatkan kemampuan diagnostik mereka.
+Sebagai seorang administrator sistem dan kemudian auditor dan pentester keamanan siber, **Saya menggunakan Nmap hampir setiap hari** dan saya **secara teratur merekomendasikannya kepada administrator sistem yang ingin memperkuat penguasaan jaringan dan meningkatkan kemampuan diagnostik mereka.**
 
 
 
@@ -132,7 +132,7 @@ Sebelum menggunakan Nmap, sangat penting untuk mengetahui potensi dampaknya pada
 
 
 - Ia dapat mengirim **ribuan atau bahkan jutaan paket** dalam waktu singkat, yang dapat memenuhi infrastruktur jaringan tertentu.
-- Ini dapat generate **paket **cacat atau non-standar**, yang cenderung mengganggu peralatan tertentu (terutama sistem industri).
+- Ini dapat generate **paket cacat atau non-standar**, yang cenderung mengganggu peralatan tertentu (terutama sistem industri).
 - Hal ini dapat menghasilkan **perilaku seperti serangan**, yang dapat memicu peringatan pada sistem keamanan (firewall, IDS/IPS, dll.).
 
 
@@ -485,25 +485,25 @@ Baik pada Linux atau Windows, ada banyak kasus di mana Nmap akan meminta Anda un
 
 
 
-- Membangun paket jaringan "mentah" **: Nmap mampu melakukan berbagai macam metode pemindaian, termasuk manipulasi dan konstruksi paket tingkat lanjut. Hal ini terjadi, misalnya, ketika kita ingin melakukan pemindaian TCP SYN, yang tidak menghormati jabat tangan _Tiga arah_ klasik pertukaran TCP. Untuk melakukan hal ini, Nmap perlu menggunakan fungsi selain dari fungsi asli sistem operasi, yang hanya tahu bagaimana menghormati praktik yang baik dalam komunikasi jaringan (Nmap memanggil pustaka "Npcap" dan "libcap" yang terlihat di atas). Karena Nmap tidak melakukan sesuatu dengan cara "standar", Nmap dapat menyimpulkan informasi tertentu tentang OS, layanan, dan kerentanan tertentu.
+- Membangun paket jaringan "mentah": Nmap mampu melakukan berbagai macam metode pemindaian, termasuk manipulasi dan konstruksi paket tingkat lanjut. Hal ini terjadi, misalnya, ketika kita ingin melakukan pemindaian TCP SYN, yang tidak menghormati jabat tangan *Tiga arah* klasik pertukaran TCP. Untuk melakukan hal ini, Nmap perlu menggunakan fungsi selain dari fungsi asli sistem operasi, yang hanya tahu bagaimana menghormati praktik yang baik dalam komunikasi jaringan (Nmap memanggil pustaka "Npcap" dan "libcap" yang terlihat di atas). Karena Nmap tidak melakukan sesuatu dengan cara "standar", Nmap dapat menyimpulkan informasi tertentu tentang OS, layanan, dan kerentanan tertentu.
 
 
 
 
 
-- Mendengarkan lalu lintas jaringan**: beberapa opsi Nmap mengharuskannya mendengarkan jaringan untuk mengambil informasi tertentu. Tindakan ini dianggap sensitif pada sistem operasi, karena juga memungkinkan Anda untuk mendengarkan komunikasi aplikasi lain pada sistem. Sama seperti Wireshark, Nmap membutuhkan hak istimewa khusus untuk melakukan hal ini, yang lebih mudah diperoleh dengan berada langsung dalam sesi istimewa.
+- **Mendengarkan lalu lintas jaringan**: beberapa opsi Nmap mengharuskannya mendengarkan jaringan untuk mengambil informasi tertentu. Tindakan ini dianggap sensitif pada sistem operasi, karena juga memungkinkan Anda untuk mendengarkan komunikasi aplikasi lain pada sistem. Sama seperti Wireshark, Nmap membutuhkan hak istimewa khusus untuk melakukan hal ini, yang lebih mudah diperoleh dengan berada langsung dalam sesi istimewa.
 
 
 
 
 
-- Mendengarkan pada port yang diistimewakan**: pada sistem operasi, port dari 0 sampai 1024 (TCP dan juga UDP) dikatakan diistimewakan, yaitu port-port tersebut disediakan untuk penggunaan yang sangat spesifik dan oleh karena itu dilindungi. Meskipun ini adalah alasan yang agak usang saat ini, masih perlu untuk memiliki hak istimewa tertentu untuk mendengarkan pada port-port ini, yang mungkin harus dilakukan oleh Nmap tergantung pada bagaimana port tersebut akan digunakan.
+- Mendengarkan pada **port yang diistimewakan**: pada sistem operasi, port dari 0 sampai 1024 (TCP dan juga UDP) dikatakan diistimewakan, yaitu port-port tersebut disediakan untuk penggunaan yang sangat spesifik dan oleh karena itu dilindungi. Meskipun ini adalah alasan yang agak usang saat ini, masih perlu untuk memiliki hak istimewa tertentu untuk mendengarkan pada port-port ini, yang mungkin harus dilakukan oleh Nmap tergantung pada bagaimana port tersebut akan digunakan.
 
 
 
 
 
-- Mengirim paket UDP:** Demikian pula, mendengarkan aplikasi jaringan pada port UDP (protokol tanpa nama) memerlukan hak istimewa pada sistem operasi. Oleh karena itu, sesi istimewa akan diperlukan jika Anda ingin melakukan pemindaian UDP, di mana Nmap harus mendengarkan respons untuk menganalisis balasan dari pemindaiannya.
+- Mengirim paket UDP: Demikian pula, mendengarkan aplikasi jaringan pada port UDP (protokol tanpa nama) memerlukan hak istimewa pada sistem operasi. Oleh karena itu, sesi istimewa akan diperlukan jika Anda ingin melakukan pemindaian UDP, di mana Nmap harus mendengarkan respons untuk menganalisis balasan dari pemindaiannya.
 
 
 
@@ -562,13 +562,13 @@ Mulai sekarang, ingatlah untuk memindai hanya host di lingkungan terkendali yang
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Platform pelatihan peretasan, Hack The Box secara konstan menyediakan sistem-sistem yang rentan untuk Anda serang sesuai keinginan Anda. Beberapa ratus sistem tersedia, tetapi kumpulan 20 mesin yang diperbarui ditawarkan secara gratis sepanjang tahun, dengan akses melalui VPN OpenVPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Platform pelatihan peretasan, Hack The Box secara konstan menyediakan sistem-sistem yang rentan untuk Anda serang sesuai keinginan Anda. Beberapa ratus sistem tersedia, tetapi kumpulan 20 mesin yang diperbarui ditawarkan secara gratis sepanjang tahun, dengan akses melalui VPN OpenVPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Platform ini menawarkan banyak sistem yang sengaja dibuat rentan untuk diunduh, yang bisa digunakan melalui VirtualBox (juga solusi gratis) atau cara lainnya. Setelah diunduh, tidak perlu VPN - semuanya bersifat lokal.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Platform ini menawarkan banyak sistem yang sengaja dibuat rentan untuk diunduh, yang bisa digunakan melalui VirtualBox (juga solusi gratis) atau cara lainnya. Setelah diunduh, tidak perlu VPN - semuanya bersifat lokal.
 
 
 
@@ -815,7 +815,7 @@ respons terhadap paket TCP SYN yang dikirim pada port 22, aktif pada target pemi
 
 
 
-Pada tangkapan layar di atas, kita melihat paket TCP SYN/ACK yang dikirim oleh host target**. Port tersebut aktif dan membuka sebuah layanan. Nmap mengakui penerimaan respons, kemudian mengakhiri koneksi (TCP RST/ACK). **Ini adalah bagaimana Nmap mengetahui bahwa port TCP/22 aktif**.
+Pada tangkapan layar di atas, kita melihat paket TCP SYN/ACK yang dikirim oleh host target. Port tersebut aktif dan membuka sebuah layanan. Nmap mengakui penerimaan respons, kemudian mengakhiri koneksi (TCP RST/ACK). **Ini adalah bagaimana Nmap mengetahui bahwa port TCP/22 aktif**.
 
 
 
@@ -976,7 +976,7 @@ Seperti yang telah kita lihat, Nmap sendiri yang memilih nomor dan port yang aka
 
 
 
-**Bagaimana port ini dipilih?
+**Bagaimana port ini dipilih?**
 
 
 
@@ -1060,7 +1060,7 @@ Terlepas dari urutannya, Nmap akan memeriksa semua port ini, dan hanya port yang
 
 
 
-**Memindai berbagai port
+**Memindai berbagai port**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Pemindaian port TCP dan UDP
+**Pemindaian port TCP dan UDP**
 
 
 
@@ -1134,7 +1134,7 @@ Nah, itu cara yang menarik untuk menyesuaikan pemindaian Anda!
 
 
 
-**Pindai semua port
+**Pindai semua port**
 
 
 
@@ -1347,7 +1347,7 @@ Tetapi ada yang lebih dari itu. Anda dapat melihat pada tangkapan Wireshark di a
 
 
 
-**Mengapa mengirim paket TCP ke port sebagai bagian dari penemuan jaringan?
+**Mengapa mengirim paket TCP ke port sebagai bagian dari penemuan jaringan?**
 
 
 
@@ -2165,31 +2165,31 @@ Mari kita perjelas: Nmap tidak mampu melakukan uji penetrasi lengkap pada sistem
 
 
 
-- Cakupan terbatas**: meskipun skrip NSE Nmap sangat kuat, cakupan pengujiannya mungkin terbatas dibandingkan dengan alat penemuan kerentanan khusus lainnya. Beberapa kerentanan mungkin tidak tercakup oleh skrip NSE yang tersedia, seperti kerentanan Active Directory, pemaparan data sensitif, atau kasus-kasus yang lebih lanjut dari aplikasi web yang rentan.
+- **Cakupan terbatas**: meskipun skrip NSE Nmap sangat kuat, cakupan pengujiannya mungkin terbatas dibandingkan dengan alat penemuan kerentanan khusus lainnya. Beberapa kerentanan mungkin tidak tercakup oleh skrip NSE yang tersedia, seperti kerentanan Active Directory, pemaparan data sensitif, atau kasus-kasus yang lebih lanjut dari aplikasi web yang rentan.
 
 
 
 
 
-- Kompleksitas kerentanan**: beberapa jenis kerentanan tertentu mungkin sulit dideteksi menggunakan skrip NSE karena kompleksitasnya. Misalnya, kerentanan yang membutuhkan interaksi kompleks dengan layanan jarak jauh mungkin tidak terdeteksi secara efektif oleh Nmap (seperti dalam kasus izin yang berlebihan dalam berbagi file atau cacat kontrol izin dalam aplikasi web).
+- **Kompleksitas kerentanan**: beberapa jenis kerentanan tertentu mungkin sulit dideteksi menggunakan skrip NSE karena kompleksitasnya. Misalnya, kerentanan yang membutuhkan interaksi kompleks dengan layanan jarak jauh mungkin tidak terdeteksi secara efektif oleh Nmap (seperti dalam kasus izin yang berlebihan dalam berbagi file atau cacat kontrol izin dalam aplikasi web).
 
 
 
 
 
-- Deteksi pasif**: Nmap berfokus pada pemindaian aktif untuk mendeteksi kerentanan, yang berarti Nmap tidak dapat secara efektif mendeteksi potensi kerentanan tanpa membangun koneksi aktif dengan host target. Kerentanan yang tidak menampakkan diri selama pemindaian aktif dapat terlewatkan (seperti dalam kasus injeksi kode pada aplikasi web).
+- **Deteksi pasif**: Nmap berfokus pada pemindaian aktif untuk mendeteksi kerentanan, yang berarti Nmap tidak dapat secara efektif mendeteksi potensi kerentanan tanpa membangun koneksi aktif dengan host target. Kerentanan yang tidak menampakkan diri selama pemindaian aktif dapat terlewatkan (seperti dalam kasus injeksi kode pada aplikasi web).
 
 
 
 
 
-- Ketergantungan pada pembaruan**: Basis data [database] Nmap (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) dari skrip NSE terus berkembang, tetapi mungkin ada penundaan antara penemuan kerentanan baru dan penambahan skrip yang sesuai ke Nmap. Akibatnya, Nmap mungkin tidak selalu terbarui dengan kerentanan terbaru.
+- **Ketergantungan pada pembaruan**: Basis data [database] Nmap (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) dari skrip NSE terus berkembang, tetapi mungkin ada penundaan antara penemuan kerentanan baru dan penambahan skrip yang sesuai ke Nmap. Akibatnya, Nmap mungkin tidak selalu terbarui dengan kerentanan terbaru.
 
 
 
 
 
-- Positif palsu dan negatif palsu**: seperti halnya alat keamanan lainnya, skrip NSE Nmap dapat menghasilkan positif palsu (peringatan kerentanan palsu) atau negatif palsu (kerentanan yang sebenarnya tidak terdeteksi). Ini adalah sesuatu yang perlu diingat ketika menganalisis hasil Nmap.
+- **Positif palsu dan negatif palsu**: seperti halnya alat keamanan lainnya, skrip NSE Nmap dapat menghasilkan positif palsu (peringatan kerentanan palsu) atau negatif palsu (kerentanan yang sebenarnya tidak terdeteksi). Ini adalah sesuatu yang perlu diingat ketika menganalisis hasil Nmap.
 
 
 

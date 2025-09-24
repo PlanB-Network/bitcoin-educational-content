@@ -1,5 +1,5 @@
 ---
-name: Cài Đặt BitAxe
+name: Bitaxe
 description: Hướng dẫn cách cài đặt BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)

@@ -1,0 +1,9 @@
+question: Mempool의 기본 Bitcoin core 크기 제한은 무엇인가요?
+answer: 300MB
+wrong_answers:
+  - 256MB
+  - 512MB
+  - 1024 MB
+explanation: |
+  기본적으로 Bitcoin core는 Mempool를 300MB로 제한합니다. 그 이상이면 수익성이 낮은 트랜잭션을 추방합니다.
+reviewed: true

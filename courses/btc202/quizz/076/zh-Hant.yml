@@ -1,0 +1,9 @@
+question: Bitcoin core 中預設的 Mempool 大小限制是多少？
+answer: 300 MB
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  預設情況下，Bitcoin core 將 Mempool 限制為 300 MB。超過此數，它會驅逐利潤較低的交易。
+reviewed: true

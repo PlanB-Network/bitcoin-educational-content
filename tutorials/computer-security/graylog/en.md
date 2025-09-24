@@ -33,7 +33,7 @@ Graylog is an analysis and monitoring tool that makes it easier to identify susp
 ![Image](assets/fr/034.webp)
 
 
-**Note: the free version, **Graylog Open**, is not a SIEM as Wazuh is, especially as it lacks real intrusion detection functions.
+**Note: the free version, Graylog Open, is not a SIEM as Wazuh is, especially as it lacks real intrusion detection functions.**
 
 
 ### II. Prerequisites
@@ -43,9 +43,9 @@ The **stack Graylog** is based on **several components** that we'll need to inst
 
 
 
-- MongoDB 7**, the current recommended version for Graylog (minimum 5.0.7, maximum 7.x)
-- OpenSearch**, an open source Fork of Elasticsearch created by Amazon (minimum 1.1.x, maximum 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, the current recommended version for Graylog (minimum 5.0.7, maximum 7.x)
+- **OpenSearch**, an open source Fork of Elasticsearch created by Amazon (minimum 1.1.x, maximum 2.15.x)
+- **OpenJDK 17**
 
 
 The **Graylog server** is running on **Debian 12**, but installation is possible on other distributions, including via Docker. The virtual machine is equipped with **8 GB RAM** and **256 GB disk space**, in order to have enough resources for all components (otherwise this can have a significant impact on performance). However, I'm giving this as a rough guide, as **the sizing of the Graylog architecture depends on the amount of information to be processed**. Graylog can process 30 MB or 300 MB of data per day, as well as 300 GB of data per day... It is a **scalable solution** capable of handling **terabytes of logs** (see [this page](https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C_____0)).
@@ -65,7 +65,7 @@ sudo timedatectl set-timezone Europe/Paris
 ```
 
 
-**Note: **OpenSearch installation is optional** if you use **Graylog Data Node** instead.
+**Note:** OpenSearch installation is optional if you use **Graylog Data Node** instead.
 
 
 ### III Step-by-step installation of Graylog
@@ -221,14 +221,14 @@ This OpenSearch configuration is designed to set up a single node. Here are some
 
 
 
-- cluster.name: graylog**: this parameter names the OpenSearch cluster with the name "**graylog**".
-- node.name: ${HOSTNAME}**: the node name is set dynamically to match that of the local Linux machine. Even if we only have one node, it's important to name it correctly.
-- path.data: /var/lib/opensearch**: this path specifies where OpenSearch stores its data on the local machine, in this case in "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: this path defines where OpenSearch log files are stored, here in "**/var/log/opensearch**".
-- discovery.type: single-node**: this parameter configures OpenSearch to work with a single node, hence the choice of the "**single-node**" option.
-- network.host: 127.0.0.1**: this configuration ensures that OpenSearch only listens on its Interface local loop, which is sufficient since it's on the same server as Graylog.
-- action.auto_create_index: false**: by disabling automatic index creation, OpenSearch will not automatically create an index when a document is sent without an existing index.
-- plugins.security.disabled: true**: this option deactivates the OpenSearch security plugin, meaning that there will be no authentication, access management or communication encryption. This setting saves time when setting up Graylog, but should be avoided in production (see [this page](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: this parameter names the OpenSearch cluster with the name "**graylog**".
+- node.name: **${HOSTNAME}**: the node name is set dynamically to match that of the local Linux machine. Even if we only have one node, it's important to name it correctly.
+- path.data: /var/lib/opensearch: this path specifies where OpenSearch stores its data on the local machine, in this case in "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: this path defines where OpenSearch log files are stored, here in "**/var/log/opensearch**".
+- discovery.type: single-node: this parameter configures OpenSearch to work with a single node, hence the choice of the "**single-node**" option.
+- network.host: 127.0.0.1: this configuration ensures that OpenSearch only listens on its Interface local loop, which is sufficient since it's on the same server as Graylog.
+- **action.auto_create_index: false**: by disabling automatic index creation, OpenSearch will not automatically create an index when a document is sent without an existing index.
+- **plugins.security.disabled: true**: this option deactivates the OpenSearch security plugin, meaning that there will be no authentication, access management or communication encryption. This setting saves time when setting up Graylog, but should be avoided in production (see [this page](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 Some options are already present, so you simply need to remove the "#" to activate them, then indicate your value. If you can't find an option, you can declare it directly at the end of the file.
@@ -278,7 +278,7 @@ Here is an image of the modification to be made:
 Close this file after saving it.
 
 
-In addition, we need to check the configuration of the "**max_map_count**" parameter in the Linux kernel. It defines the limit of memory areas mapped per process, in order to meet the needs of our application. **OpenSearch**, like Elasticsearch**, recommends setting this value to "262144" to avoid memory management errors.
+In addition, we need to check the configuration of the "**max_map_count**" parameter in the Linux kernel. It defines the limit of memory areas mapped per process, in order to meet the needs of our application. **OpenSearch**, like **Elasticsearch**, recommends setting this value to "262144" to avoid memory management errors.
 
 
 In principle, on a freshly installed Debian 12 machine, the value is already correct. But let's check. Run this command:
@@ -342,8 +342,8 @@ Let's start by configuring these two options:
 
 
 
-- password_secret**: this parameter is used to define a key used by Graylog to secure the storage of user passwords (in the spirit of a salting key). This key must be **unique** and **random**.
-- root_password_sha2**: this parameter corresponds to the default administrator password in Graylog. It is stored as a Hash SHA-256.
+- **password_secret**: this parameter is used to define a key used by Graylog to secure the storage of user passwords (in the spirit of a salting key). This key must be **unique** and **random**.
+- **root_password_sha2**: this parameter corresponds to the default administrator password in Graylog. It is stored as a Hash SHA-256.
 
 
 We'll start by generating a 96-character key for the **password_secret** parameter:
@@ -447,13 +447,13 @@ tail -f /var/log/graylog-server/server.log
 You then had to retry a connection with the user "**admin**" and the temporary password, and this allowed you to log in!
 
 
-**This is no longer the case. All you have to do is log in with your admin account and the password configured on the command line
+**This is no longer the case. All you have to do is log in with your admin account and the password configured on the command line.**
 
 
 ![Image](assets/fr/033.webp)
 
 
-**Welcome to Graylog's Interface!
+**Welcome to Graylog's Interface!**
 
 
 ![Image](assets/fr/019.webp)
@@ -518,7 +518,7 @@ The new Input has been created and is now active. Graylog can now receive Syslog
 
 ![Image](assets/fr/018.webp)
 
-**Note: a single Input can be used to store logs from several Linux machines.
+**Note:** a single Input can be used to store logs from several Linux machines.
 
 
 #### B. Create a new Linux Index
@@ -548,7 +548,7 @@ Now we need to create a new stream to route messages to this index.
 To create a new stream, click on "**Streams**" in Graylog's main menu. Then click on the "**Create stream**" button on the right. In the window that appears, name the stream, for example "**Linux Stream**" and choose the index "**Linux Index**" for the field named "**Index Set**". Confirm your choice.
 
 
-**Note: messages corresponding to this stream will also be included in the "**Default Stream**", unless you check the "**Remove matches from 'Default Stream'**" option.
+**Note: messages corresponding to this stream will also be included in the "Default Stream", unless you check the "Remove matches from 'Default Stream'" option.**
 
 
 ![Image](assets/fr/002.webp)

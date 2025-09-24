@@ -1,5 +1,5 @@
 ---
-name: स्टैकइनसैट
+name: StackinSat
 
 description: स्टैकिनसैट का उपयोग कैसे करें
 ---

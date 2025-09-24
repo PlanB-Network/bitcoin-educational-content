@@ -100,7 +100,7 @@ För mer information om det rätta sättet att spara och hantera din Mnemonic-fr
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.**_
+du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
 
 
 Tryck hårt på knappen på din Portal för att gå vidare till nästa ord. Se till att placera hela fingret på knappen och håll trycket i några sekunder, så att interaktionen upptäcks korrekt.

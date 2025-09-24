@@ -1,0 +1,9 @@
+question: Wazo la "wanyama wa mashine" linahusishwa na?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Dhana ya wanyama wa mashine inahusishwa na Descartes. Kulingana na nadharia hii, wanyama ni otomatiki ngumu bila roho au fahamu, inayofanya kazi tu kwa kanuni za mitambo.
+reviewed: false

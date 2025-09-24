@@ -1,0 +1,9 @@
+question: RGB 프로토콜에서 Stash을 잃으면 어떤 결과가 발생하나요?
+answer: Contract 기록 및 관련 데이터를 검색할 수 없게 됨
+wrong_answers:
+  - seed가 있는 경우 Blockchain에서 데이터를 재구성할 수 있습니다
+  - 데이터 사본은 스위스에 있는 RGB의 서버에서 사용할 수 있습니다
+  - 모든 참가자에 대해 데이터가 자동으로 복제됩니다
+explanation: |
+  Client-side Validation에서는 각 사용자가 자신의 Stash에 대한 책임을 지며, 다른 곳에 복제되지 않으므로 손실이 확정적입니다.
+reviewed: false

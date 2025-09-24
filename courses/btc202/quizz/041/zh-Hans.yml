@@ -1,0 +1,9 @@
+question: 哪些自托管应用程序可以通过 Umbrel 安装？
+answer: Nextcloud
+wrong_answers:
+  - 谷歌硬盘
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel 提供一个应用程序商店，并提供 Nextcloud 等自助托管服务，供用户自行存储和同步文件。
+reviewed: true

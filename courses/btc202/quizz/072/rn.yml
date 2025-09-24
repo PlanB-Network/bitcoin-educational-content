@@ -1,0 +1,9 @@
+question: Ni uburyo ubuhe bushobora gukoreshwa mu gushiramwo ifoto y’umugwi wa UTXO kugira ngo urudodo rukoreshwe ningoga?
+answer: twiyumvireko
+wrong_answers:
+  - twiyumvire uruhererekane
+  - urutonde
+  - si index
+explanation: |
+  Assumeutxo ishiramwo ifoto y’umugwi wa UTXO kugira ngo node ikore vuba, mu gihe isubira kwubaka umugwi wose wa UTXO mu nyuma.
+reviewed: true

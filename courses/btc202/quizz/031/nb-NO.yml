@@ -1,0 +1,9 @@
+question: Hvilken distribusjon passer best til Raspberry Pi, siden den er spesielt lett?
+answer: RaspiBlitz
+wrong_answers:
+  - Paraply
+  - MinNode
+  - Start9
+explanation: |
+  RaspiBlitz er optimalisert for Raspberry Pi og er fortsatt lett, i motsetning til Umbrel, som har blitt for tung for disse maskinene.
+reviewed: true

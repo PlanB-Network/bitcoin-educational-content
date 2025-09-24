@@ -17,13 +17,13 @@ Olette jo:
 Tässä oppaassa katsotaan, miten voit lisätä oppaasi Plan ₿ -verkkoon perustamalla paikallisen ympäristön GitHub Desktopin avulla. Jos hallitset jo Gitin, tämä hyvin yksityiskohtainen opetusohjelma ei ehkä ole sinulle tarpeen. Suosittelen pikemminkin tutustumaan tähän toiseen opetusohjelmaan, jossa esittelen vain tärkeimmät suuntaviivat ilman yksityiskohtaisia vaihe vaiheelta annettavia ohjeita:
 
 
-- Kokeneet käyttäjät**:
+- **Kokeneet käyttäjät**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Jos et halua perustaa paikallista ympäristöä, seuraa tätä toista aloittelijoille suunnattua ohjetta, jossa teemme muutokset suoraan GitHubin web-käyttöliittymän kautta:
 
 
-- Aloittelijoille (verkkokäyttöliittymä)**:
+- Aloittelijoille (verkkokäyttöliittymä):
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Edellytykset
@@ -383,8 +383,8 @@ Huutomerkki alussa osoittaa, että kyseessä on kuva. Vaihtoehtoinen teksti, jok
 Jos haluat luoda omia kaavioita, varmista, että noudatat Plan ₿ Networkin graafista ohjesääntöä visuaalisen yhdenmukaisuuden varmistamiseksi:
 
 
-- Fontti**: IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Värit**:
+- **Fontti**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Värit**:
  - Oranssi: #FF5C00
  - Musta: #000000
  - Valkoinen: #FFFFFF
@@ -448,5 +448,4 @@ Jos haluat tehdä muutoksia osallistumiseen sen jälkeen, kun olet jo lähettän
 - Jos PR:si on jo yhdistetty päähaaraan, sinun on aloitettava prosessi alusta luomalla uusi haara ja lähettämällä uusi PR. Varmista, että paikallinen arkistosi on synkronoitu Plan ₿ Network -lähdekoodivaraston kanssa ennen kuin jatkat.
 
 Jos kohtaat teknisiä ongelmia tutoriaalin lähettämisessä, älä epäröi pyytää apua [omassa Telegram-ryhmässämme](https://t.me/PlanBNetwork_ContentBuilder). Kiitos!
-
 

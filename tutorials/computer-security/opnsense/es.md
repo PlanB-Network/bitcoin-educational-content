@@ -56,55 +56,55 @@ Estas son algunas de las principales características de OPNsense:
 
 
 
-- Cortafuegos y NAT**: OPNsense proporciona funciones avanzadas de cortafuegos de estado con filtrado de estado, así como funciones de traducción de red Address (NAT).
+- **Cortafuegos y NAT**: OPNsense proporciona funciones avanzadas de cortafuegos de estado con filtrado de estado, así como funciones de traducción de red Address (NAT).
 
 
 
 
 
-- DNS/DHCP**: OPNsense puede configurarse para gestionar servicios DNS y DHCP en la red. Puede actuar como un servidor DHCP, pero también puede ser utilizado como un resolver DNS para las máquinas en la red local. Dnsmasq también está integrado por defecto.
+- **DNS/DHCP**: OPNsense puede configurarse para gestionar servicios DNS y DHCP en la red. Puede actuar como un servidor DHCP, pero también puede ser utilizado como un resolver DNS para las máquinas en la red local. Dnsmasq también está integrado por defecto.
 
 
 
 
 
-- VPN**: OPNsense soporta varios protocolos VPN, incluyendo IPsec, OpenVPN y WireGuard, permitiendo conexiones seguras para acceso remoto a estaciones de trabajo móviles o interconexión de sitios.
+- **VPN**: OPNsense soporta varios protocolos VPN, incluyendo IPsec, OpenVPN y WireGuard, permitiendo conexiones seguras para acceso remoto a estaciones de trabajo móviles o interconexión de sitios.
 
 
 
 
 
-- Proxy web**: OPNsense incluye un proxy web para controlar y filtrar el acceso a Internet. También puede utilizarse para filtrar contenidos y gestionar el acceso a la red.
+- **Proxy web**: OPNsense incluye un proxy web para controlar y filtrar el acceso a Internet. También puede utilizarse para filtrar contenidos y gestionar el acceso a la red.
 
 
 
 
 
-- Gestión del ancho de banda (QoS)**: OPNsense ofrece funciones de gestión de calidad de servicio (QoS) para priorizar el tráfico de red y gestionar mejor el ancho de banda de la red.
+- **Gestión del ancho de banda (QoS)**: OPNsense ofrece funciones de gestión de calidad de servicio (QoS) para priorizar el tráfico de red y gestionar mejor el ancho de banda de la red.
 
 
 
 
 
-- Portal cautivo**: esta funcionalidad permite gestionar el acceso de los usuarios a la red a través de una página de autenticación (base local, vales, etc.). Se trata de una función muy utilizada en las redes Wi-Fi públicas.
+- **Portal cautivo**: esta funcionalidad permite gestionar el acceso de los usuarios a la red a través de una página de autenticación (base local, vales, etc.). Se trata de una función muy utilizada en las redes Wi-Fi públicas.
 
 
 
 
 
-- IDS/IPS**: OPNsense integra Suricata para ofrecer funciones de detección y prevención de intrusiones (IDS/IPS) para proteger la red contra ataques.
+- **IDS/IPS**: OPNsense integra Suricata para ofrecer funciones de detección y prevención de intrusiones (IDS/IPS) para proteger la red contra ataques.
 
 
 
 
 
-- Alta disponibilidad (CARP)**: OPNsense soporta CARP (*Common Address Redundancy Protocol*) para alta disponibilidad entre múltiples cortafuegos OPNsense, asegurando que el servicio permanece activo incluso en caso de fallo de hardware.
+- **Alta disponibilidad (CARP)**: OPNsense soporta CARP (*Common Address Redundancy Protocol*) para alta disponibilidad entre múltiples cortafuegos OPNsense, asegurando que el servicio permanece activo incluso en caso de fallo de hardware.
 
 
 
 
 
-- Informes y supervisión**: OPNsense proporciona herramientas de informes y supervisión en tiempo real para realizar un seguimiento del rendimiento de la red (con NetFlow) y detectar posibles problemas, gracias a la creación de registros. Esto incluye gráficos. La herramienta Monit está integrada en OPNsense y permite supervisar el propio cortafuegos.
+- **Informes y supervisión**: OPNsense proporciona herramientas de informes y supervisión en tiempo real para realizar un seguimiento del rendimiento de la red (con NetFlow) y detectar posibles problemas, gracias a la creación de registros. Esto incluye gráficos. La herramienta Monit está integrada en OPNsense y permite supervisar el propio cortafuegos.
 
 
 
@@ -179,11 +179,11 @@ Nuestro objetivo es
 
 
 
-- Cree una red virtual interna (192.168.10.0/24 - LAN)**, que pueda acceder a Internet a través del cortafuegos de OPNsense. Para uso en producción, esta podría ser su red local, por cable y/o Wi-Fi.
-- Activar y configurar NAT** para que las máquinas virtuales de la red virtual interna puedan acceder a Internet
-- Activar y configurar el servidor DHCP en OPNsense** para distribuir una configuración IP a las futuras máquinas conectadas a la red virtual interna
-- Configure el cortafuegos** para permitir sólo los flujos salientes de LAN a WAN en HTTP (80) y HTTPS (443).
-- Configure el cortafuegos** para permitir que la LAN virtual utilice OPNsense como servidor DNS (53).
+- Cree una red virtual interna (192.168.10.0/24 - LAN), que pueda acceder a Internet a través del cortafuegos de OPNsense. Para uso en producción, esta podría ser su red local, por cable y/o Wi-Fi.
+- Activar y configurar **NAT** para que las máquinas virtuales de la red virtual interna puedan acceder a Internet
+- Activar y configurar el servidor DHCP en **OPNsense** para distribuir una configuración IP a las futuras máquinas conectadas a la red virtual interna
+- Configure el cortafuegos para permitir sólo los flujos salientes de LAN a WAN en HTTP (80) y HTTPS (443).
+- Configure el **cortafuegos** para permitir que la LAN virtual utilice OPNsense como servidor DNS (53).
 
 
 
@@ -257,7 +257,7 @@ Entonces llegarás a un Interface similar al de abajo. Entra con el login "**ins
 
 
 
-Aparece un nuevo asistente en la pantalla. El primer paso consiste en seleccionar la distribución de teclado correspondiente a su configuración. Para un teclado AZERTY, seleccione la opción "**Francés (teclas acentuadas)**" de la lista y, a continuación, haga doble clic**.
+Aparece un nuevo asistente en la pantalla. El primer paso consiste en seleccionar la distribución de teclado correspondiente a su configuración. Para un teclado AZERTY, seleccione la opción **"Francés (teclas acentuadas)"** de la lista y, a continuación, haga doble clic.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-Se puede acceder a la Administración de OPNsense Interface a través de HTTPS, utilizando la IP Address de la LAN** Interface (o la WAN). Su navegador le llevará a una página de inicio de sesión. Inicie sesión con la cuenta "root" y la contraseña que seleccionó anteriormente.
+Se puede acceder a la Administración de OPNsense Interface a través de HTTPS, utilizando la IP Address de la LAN **Interface** (o la WAN). Su navegador le llevará a una página de inicio de sesión. Inicie sesión con la cuenta "root" y la contraseña que seleccionó anteriormente.
 
 
 
@@ -566,7 +566,7 @@ El resultado es el siguiente:
 
 
 
-Sólo queda hacer clic en "**Aplicar cambios**" para pasar las nuevas reglas del cortafuegos a producción. **Tenga en cuenta que todos los flujos que no estén explícitamente autorizados se bloquearán por defecto
+Sólo queda hacer clic en "**Aplicar cambios**" para pasar las nuevas reglas del cortafuegos a producción. **Tenga en cuenta que todos los flujos que no estén explícitamente autorizados se bloquearán por defecto.**
 
 
 

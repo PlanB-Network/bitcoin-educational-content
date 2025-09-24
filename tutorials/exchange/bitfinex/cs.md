@@ -53,10 +53,10 @@ Váš účet je nyní vytvořen. Pro přístup k platformě klikněte na "*Přih
 Společnost Bitfinex používá proces ověřování (KYC), který je v souladu s platnými předpisy. V režimu "Basic" není možné provádět vklady, výběry ani transakce, proto je nezbytné získat alespoň úroveň ověření "Basic Plus", případně i "Intermediate" nebo "Full":
 
 
-- Základní* je režim pouze pro zobrazení, který vám umožňuje konzultovat platformu bez provádění jakýchkoli operací;
-- Basic Plus* poskytuje přístup k základním funkcím, včetně transakcí na spotovém trhu a vybraných možností vkladů a výběrů;
-- Intermediate* zpřístupňuje pokročilé služby, jako je obchodování s marží, půjčky, P2P a OTC transakce, a nabízí zkrácené lhůty pro vklady;
-- Plný* vám umožní přístup k mezinárodním bankovním převodům a všem funkcím platformy.
+- **Základní** je režim pouze pro zobrazení, který vám umožňuje konzultovat platformu bez provádění jakýchkoli operací;
+- **Basic Plus** poskytuje přístup k základním funkcím, včetně transakcí na spotovém trhu a vybraných možností vkladů a výběrů;
+- **Intermediate** zpřístupňuje pokročilé služby, jako je obchodování s marží, půjčky, P2P a OTC transakce, a nabízí zkrácené lhůty pro vklady;
+- **Plný** vám umožní přístup k mezinárodním bankovním převodům a všem funkcím platformy.
 
 Pro každou úroveň jsou vyžadovány další dokumenty k ověření. Většině uživatelů obvykle postačí účty *Basic Plus* nebo *Intermediate*.
 
@@ -79,11 +79,11 @@ Dokončete jednotlivé kroky poskytnutím požadovaných informací a dokumentů
 Po přihlášení se v horní části rozhraní zobrazí navigační panel s: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" atd. Bitfinex nabízí širokou škálu funkcí, včetně :
 
 
-- Obchodování**: "*klasický*" trh, kde můžete zadávat příkazy k nákupu a prodeji kryptoměn (včetně bitcoinu);
-- OTC**: OTC: mimoburzovní služba pro obchodování velkých objemů přímo s jiným subjektem, mimo veřejné knihy příkazů;
-- Financování**: Oblast věnovaná úvěrům a maržovému financování;
-- Deriváty**: Sekce pro deriváty (futures atd.), určená pro zkušené obchodníky;
-- P2P**: Umožňuje nakupovat nebo prodávat kryptoměny od ostatních uživatelů na bázi peer-to-peer.
+- **Obchodování**: "*klasický*" trh, kde můžete zadávat příkazy k nákupu a prodeji kryptoměn (včetně bitcoinu);
+- **OTC**: mimoburzovní služba pro obchodování velkých objemů přímo s jiným subjektem, mimo veřejné knihy příkazů;
+- **Financování**: Oblast věnovaná úvěrům a maržovému financování;
+- **Deriváty**: Sekce pro deriváty (futures atd.), určená pro zkušené obchodníky;
+- **P2P**: Umožňuje nakupovat nebo prodávat kryptoměny od ostatních uživatelů na bázi peer-to-peer.
 
 Pro standardní použití (nákup/prodej bitcoinů a vklady/výběry) budete používat hlavně záložku "*Trading*" a sekce "*Wallet*", "*Deposit*" a "*Withdraw*".
 

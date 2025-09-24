@@ -61,9 +61,9 @@ Silných stránek Nmapu je mnoho:
 
 
 
-- Výkonný a flexibilní**: Nmap dokáže skenovat rozsáhlé sítě a používat pokročilé detekční techniky. Podporuje protokoly UDP, TCP, ICMP, IPv4 a IPv6 a může provádět detekci verzí, skenování zranitelností nebo interakce specifických protokolů. Jeho architektura je modulární, zejména díky skriptům NSE (Nmap Scripting Engine), kterým se budeme věnovat později v tomto kurzu.
-- Snadné používání**: oficiální dokumentace je bohatá a kvalitní. K dispozici jsou také četné komunitní zdroje, které vám pomohou začít.
-- Oblíbenost a dlouhá životnost**: Nmap je referencí ve svém oboru již od roku 1998. Aktuální verze v době této aktualizace je 7.95. Ačkoli pro specifické úlohy existují i jiné nástroje, Nmap zůstává pro mapování a analýzu sítí nepostradatelným nástrojem.
+- **Výkonný a flexibilní**: Nmap dokáže skenovat rozsáhlé sítě a používat pokročilé detekční techniky. Podporuje protokoly UDP, TCP, ICMP, IPv4 a IPv6 a může provádět detekci verzí, skenování zranitelností nebo interakce specifických protokolů. Jeho architektura je modulární, zejména díky skriptům NSE (Nmap Scripting Engine), kterým se budeme věnovat později v tomto kurzu.
+- **Snadné používání**: oficiální dokumentace je bohatá a kvalitní. K dispozici jsou také četné komunitní zdroje, které vám pomohou začít.
+- **Oblíbenost a dlouhá životnost**: Nmap je referencí ve svém oboru již od roku 1998. Aktuální verze v době této aktualizace je 7.95. Ačkoli pro specifické úlohy existují i jiné nástroje, Nmap zůstává pro mapování a analýzu sítí nepostradatelným nástrojem.
 
 
 
@@ -87,7 +87,7 @@ Objevuje se i v dalších filmových dílech.
 
 
 
-**Zpětná vazba
+**Zpětná vazba**
 
 
 
@@ -133,7 +133,7 @@ Před použitím nástroje Nmap je nutné si uvědomit jeho potenciální dopad 
 
 - Může odeslat **tisíce nebo dokonce miliony paketů** v krátkém časovém úseku, což může zahltit některé síťové infrastruktury.
 - Může generate **zdeformované nebo nestandardní** pakety, které mohou narušit některá zařízení (zejména průmyslové systémy).
-- Může vyvolat chování podobné útoku**, které může vyvolat výstrahy v bezpečnostních systémech (firewally, IDS/IPS atd.).
+- Může vyvolat chování podobné útoku, které může vyvolat výstrahy v bezpečnostních systémech (firewally, IDS/IPS atd.).
 
 
 
@@ -485,25 +485,25 @@ Ať už v systému Linux nebo Windows, existuje mnoho případů, kdy vás Nmap 
 
 
 
-- Konstrukce "surových" síťových paketů**: Nmap umí širokou škálu metod skenování, včetně pokročilé manipulace s pakety a jejich konstrukce. To je například případ, kdy chceme provádět skenování TCP SYN, které nerespektuje klasický _Three-way handshake_ výměny TCP. K tomu Nmap potřebuje použít jiné funkce než ty, které jsou nativní pro operační systémy, které jediné umí respektovat správné postupy v síťové komunikaci (volá knihovny "Npcap" a "libcap", které jsme viděli výše). Právě proto, že Nmap nedělá věci "standardním" způsobem, je schopen odvodit určité informace o operačních systémech, službách a některých zranitelnostech.
+- **Konstrukce "surových" síťových paketů**: Nmap umí širokou škálu metod skenování, včetně pokročilé manipulace s pakety a jejich konstrukce. To je například případ, kdy chceme provádět skenování TCP SYN, které nerespektuje klasický *Three-way handshake* výměny TCP. K tomu Nmap potřebuje použít jiné funkce než ty, které jsou nativní pro operační systémy, které jediné umí respektovat správné postupy v síťové komunikaci (volá knihovny "Npcap" a "libcap", které jsme viděli výše). Právě proto, že Nmap nedělá věci "standardním" způsobem, je schopen odvodit určité informace o operačních systémech, službách a některých zranitelnostech.
 
 
 
 
 
-- Naslouchat síťovému provozu**: některé možnosti Nmapu vyžadují, aby naslouchal síti za účelem získání určitých informací. Tato činnost je v operačních systémech považována za citlivou, protože umožňuje odposlouchávat i komunikaci jiných aplikací v systému. Stejně jako Wireshark potřebuje Nmap k této činnosti specifická oprávnění, která lze snáze získat, pokud se nacházíte přímo v privilegované relaci.
+- **Naslouchat síťovému provozu**: některé možnosti Nmapu vyžadují, aby naslouchal síti za účelem získání určitých informací. Tato činnost je v operačních systémech považována za citlivou, protože umožňuje odposlouchávat i komunikaci jiných aplikací v systému. Stejně jako Wireshark potřebuje Nmap k této činnosti specifická oprávnění, která lze snáze získat, pokud se nacházíte přímo v privilegované relaci.
 
 
 
 
 
-- Naslouchání na privilegovaných portech**: v operačních systémech jsou porty od 0 do 1024 (TCP i UDP) považovány za privilegované, tj. jsou nějakým způsobem vyhrazeny pro velmi specifické použití, a proto jsou chráněny. Ačkoli je to dnes již poněkud zastaralý důvod, pro naslouchání na těchto portech je stále nutné mít určitá oprávnění, což Nmap může mít v závislosti na způsobu použití.
+- **Naslouchání na privilegovaných portech**: v operačních systémech jsou porty od 0 do 1024 (TCP i UDP) považovány za privilegované, tj. jsou nějakým způsobem vyhrazeny pro velmi specifické použití, a proto jsou chráněny. Ačkoli je to dnes již poněkud zastaralý důvod, pro naslouchání na těchto portech je stále nutné mít určitá oprávnění, což Nmap může mít v závislosti na způsobu použití.
 
 
 
 
 
-- Odesílání paketů UDP:** Podobně naslouchání síťové aplikaci na portech UDP (bezstavový protokol) vyžaduje v operačních systémech privilegovaná práva. Pokud tedy chcete provést skenování UDP, při kterém bude muset Nmap naslouchat na odpověď, aby mohl analyzovat odpovědi na své skenování, bude vyžadována relace s privilegiem.
+- Odesílání paketů UDP: Podobně naslouchání síťové aplikaci na portech UDP (bezstavový protokol) vyžaduje v operačních systémech privilegovaná práva. Pokud tedy chcete provést skenování UDP, při kterém bude muset Nmap naslouchat na odpověď, aby mohl analyzovat odpovědi na své skenování, bude vyžadována relace s privilegiem.
 
 
 
@@ -562,13 +562,13 @@ Od této chvíle nezapomeňte skenovat pouze hostitele v kontrolovaném prostře
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Hack The Box je tréninková platforma pro hackery, která vám neustále poskytuje zranitelné systémy, na které můžete útočit, jak uznáte za vhodné. K dispozici je několik stovek systémů, ale celoročně je zdarma nabízen obnovený fond 20 strojů s přístupem přes OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hack The Box je tréninková platforma pro hackery, která vám neustále poskytuje zranitelné systémy, na které můžete útočit, jak uznáte za vhodné. K dispozici je několik stovek systémů, ale celoročně je zdarma nabízen obnovený fond 20 strojů s přístupem přes OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Tato platforma nabízí ke stažení množství záměrně zranitelných systémů, které lze použít prostřednictvím VirtualBoxu (rovněž bezplatné řešení) nebo jiným způsobem. Po stažení není třeba používat VPN - vše je lokální.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Tato platforma nabízí ke stažení množství záměrně zranitelných systémů, které lze použít prostřednictvím VirtualBoxu (rovněž bezplatné řešení) nebo jiným způsobem. Po stažení není třeba používat VPN - vše je lokální.
 
 
 
@@ -815,7 +815,7 @@ odpověď na paket TCP SYN odeslaný na port 22, aktivní v cíli skenování
 
 
 
-Na obrázku výše vidíme paket TCP SYN/ACK odeslaný cílovým hostitelem**. Port je aktivní a vystavuje službu. Nmap potvrdí přijetí odpovědi a poté ukončí spojení (TCP RST/ACK). **Takto zjistil, že port TCP/22 je aktivní**.
+Na obrázku výše vidíme paket TCP SYN/ACK odeslaný cílovým hostitelem. Port je aktivní a vystavuje službu. Nmap potvrdí přijetí odpovědi a poté ukončí spojení (TCP RST/ACK). **Takto zjistil, že port TCP/22 je aktivní**.
 
 
 
@@ -976,7 +976,7 @@ Jak jsme viděli, pokud nezadáte žádné možnosti, Nmap sám vybere počet a 
 
 
 
-**Jak se tyto porty vybírají?
+**Jak se tyto porty vybírají?**
 
 
 
@@ -1060,7 +1060,7 @@ Bez ohledu na pořadí bude Nmap kontrolovat všechny tyto porty a pouze ty, kte
 
 
 
-**Skenování řady portů
+**Skenování řady portů**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Skenování portů TCP a UDP
+**Skenování portů TCP a UDP**
 
 
 
@@ -1134,7 +1134,7 @@ To je zajímavý způsob, jak si přizpůsobit skenování!
 
 
 
-**Skenování všech portů
+**Skenování všech portů**
 
 
 
@@ -1347,7 +1347,7 @@ Je v tom ale něco víc. Na výše uvedeném snímku Wiresharku můžete vidět,
 
 
 
-**Proč posílat pakety TCP na porty v rámci zjišťování sítě?
+**Proč posílat pakety TCP na porty v rámci zjišťování sítě?**
 
 
 
@@ -2165,31 +2165,31 @@ Aby bylo jasno: Nmap není schopen provést kompletní penetrační test vašeho
 
 
 
-- Omezené pokrytí**: Přestože jsou skripty NSE Nmapu výkonné, jejich pokrytí testů může být ve srovnání s jinými specializovanými nástroji pro odhalování zranitelností omezené. Některé zranitelnosti nemusí být dostupnými skripty NSE pokryty, například zranitelnosti služby Active Directory, odhalení citlivých dat nebo pokročilejší případy zranitelných webových aplikací.
+- **Omezené pokrytí**: Přestože jsou skripty NSE Nmapu výkonné, jejich pokrytí testů může být ve srovnání s jinými specializovanými nástroji pro odhalování zranitelností omezené. Některé zranitelnosti nemusí být dostupnými skripty NSE pokryty, například zranitelnosti služby Active Directory, odhalení citlivých dat nebo pokročilejší případy zranitelných webových aplikací.
 
 
 
 
 
-- Složitost zranitelnosti**: některé typy zranitelností může být obtížné odhalit pomocí skriptů NSE kvůli jejich složitosti. Například zranitelnosti vyžadující složitou interakci se vzdálenou službou nemusí být pomocí Nmap efektivně odhaleny (jako v případě nadměrných oprávnění ve sdíleném souboru nebo chyby v řízení oprávnění ve webové aplikaci).
+- **Složitost zranitelnosti**: některé typy zranitelností může být obtížné odhalit pomocí skriptů NSE kvůli jejich složitosti. Například zranitelnosti vyžadující složitou interakci se vzdálenou službou nemusí být pomocí Nmap efektivně odhaleny (jako v případě nadměrných oprávnění ve sdíleném souboru nebo chyby v řízení oprávnění ve webové aplikaci).
 
 
 
 
 
-- Pasivní detekce**: Nmap se při detekci zranitelností zaměřuje především na aktivní skenování, což znamená, že bez navázání aktivního spojení s cílovými hostiteli nemusí efektivně odhalit potenciální zranitelnosti. Zranitelnosti, které se během aktivního skenování neprojeví, proto mohou být přehlédnuty (jako v případě injektáže kódu ve webové aplikaci).
+- **Pasivní detekce**: Nmap se při detekci zranitelností zaměřuje především na aktivní skenování, což znamená, že bez navázání aktivního spojení s cílovými hostiteli nemusí efektivně odhalit potenciální zranitelnosti. Zranitelnosti, které se během aktivního skenování neprojeví, proto mohou být přehlédnuty (jako v případě injektáže kódu ve webové aplikaci).
 
 
 
 
 
-- Závislost na aktualizacích**: [databáze](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) skriptů NSE se neustále vyvíjí, ale mezi objevením nové zranitelnosti a přidáním odpovídajícího skriptu do Nmapu může dojít ke zpoždění. V důsledku toho nemusí být Nmap vždy aktuální s nejnovějšími zranitelnostmi.
+- **Závislost na aktualizacích**: [databáze](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) skriptů NSE se neustále vyvíjí, ale mezi objevením nové zranitelnosti a přidáním odpovídajícího skriptu do Nmapu může dojít ke zpoždění. V důsledku toho nemusí být Nmap vždy aktuální s nejnovějšími zranitelnostmi.
 
 
 
 
 
-- Falešně pozitivní a falešně negativní výsledky**: Stejně jako u jiných bezpečnostních nástrojů mohou skripty NSE Nmapu vytvářet falešně pozitivní (falešná upozornění na zranitelnosti) nebo falešně negativní výsledky (skutečné zranitelnosti nebyly odhaleny). To je třeba mít na paměti při analýze výsledků aplikace Nmap.
+- **Falešně pozitivní a falešně negativní výsledky**: Stejně jako u jiných bezpečnostních nástrojů mohou skripty NSE Nmapu vytvářet falešně pozitivní (falešná upozornění na zranitelnosti) nebo falešně negativní výsledky (skutečné zranitelnosti nebyly odhaleny). To je třeba mít na paměti při analýze výsledků aplikace Nmap.
 
 
 

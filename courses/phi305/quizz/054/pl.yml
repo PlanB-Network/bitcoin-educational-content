@@ -1,0 +1,9 @@
+question: Który filozof opracował koncepcję nihilizmu?
+answer: Nietzsche.
+wrong_answers:
+  - Kant.
+  - Schopenhauer.
+  - Spinoza.
+explanation: |
+  Friedrich Nietzsche (1844-1900) skonstruował i rozwinął koncepcję nihilizmu. Dla niego nihilizm reprezentuje dewaluację najwyższych wartości i utratę znaczenia w kulturze zachodniej.
+reviewed: false

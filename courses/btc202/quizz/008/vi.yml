@@ -1,0 +1,9 @@
+question: Chức năng chính của Bitcoin Wallet là gì?
+answer: Lưu trữ và quản lý khóa riêng tư
+wrong_answers:
+  - Lưu trữ và quản lý toàn bộ Blockchain
+  - Kiểm tra tính hợp lệ của khối
+  - Giao dịch mạng chuyển tiếp
+explanation: |
+  Bitcoin Wallet quản lý các khóa riêng cho phép chi tiêu bitcoin nhưng không thực hiện chức năng của một nút.
+reviewed: true

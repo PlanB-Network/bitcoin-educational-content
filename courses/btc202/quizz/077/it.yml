@@ -1,0 +1,9 @@
+question: Quale database viene utilizzato in blocks/index/ per memorizzare i metadati dei blocchi?
+answer: LivelloDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - DB Berkeley
+explanation: |
+  Bitcoin core utilizza LevelDB in blocks/index/ per indicizzare i blocchi, velocizzando la ricerca e il servizio ai peer.
+reviewed: true

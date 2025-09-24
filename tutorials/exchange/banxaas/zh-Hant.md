@@ -73,7 +73,7 @@ Banxaas 網頁平台簡約直觀，讓您在一分鐘內完成交易。在定義
 
 
 
-- 從 CFA 法郎到 Satoshis** ：
+- 從 CFA 法郎到 **Satoshis**：
 
 
 
@@ -114,7 +114,7 @@ Banxaas 可讓您按一下 ** 驗證目的地** 按鈕，檢查 Bitcoin 接收 A
 
 
 
-- 從 Satoshis 到 CFA 法郎**
+- 從 Satoshis 到 CFA 法郎
 
 
 

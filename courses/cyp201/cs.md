@@ -53,6 +53,32 @@ Toto školení vám umožní používat vaše peněženkové software s důvěro
 
 Tato tabulka vám nabízí překlad hlavních anglických termínů, které se používají, aby vám usnadnila porozumění schématům a technickým dokumentům používaným v rámci kurzu CYP 201.
 
+| Angličtina      | Překlad / Vysvětlení                                                                              |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Haš veřejného klíče (používá se k vygenerování bitcoinové adresy).                                |
+| *public key*    | Veřejný klíč (slouží k přijímání prostředků, odvozený od soukromého klíče).                        |
+| *signature*     | Digitální podpis (kryptografický důkaz, že zpráva pochází od držitele soukromého klíče).           |
+| *scriptPubKey*  | Uzamykací skript (definuje podmínky pro utracení výstupu).                                         |
+| *scriptSig*     | Odemykací skript (poskytuje data k uspokojení *scriptPubKey*).                                     |
+| *Stack*         | Zásobník (datová struktura používaná v *Bitcoin Script*).                                          |
+| *input*         | Vstup transakce (odkaz na předchozí výstup použitý jako zdroj).                                    |
+| *output*        | Výstup transakce (určuje příjemce a částku).                                                       |
+| *transaction*   | Bitcoinová transakce (soubor vstupů a výstupů potvrzující převod).                                 |
+| *XOR*           | Logický operátor „exkluzivní NEBO“, používaný v některých kryptografických schématech.             |
+| *HMAC*          | Ověřovací kód zprávy založený na haši a tajném klíči.                                              |
+| *ECDSA*         | Algoritmus digitálního podpisu s eliptickými křivkami.                                             |
+| *hash*          | Haš (jedinečný a pevný otisk dat).                                                                 |
+| *SigHash*       | Typ haše podpisu (definuje, které části transakce jsou podepsány).                                 |
+| *HD Wallet*     | Hierarchická deterministická peněženka (generuje více klíčů z jednoho seedu).                      |
+| *Random Number* | Náhodné číslo (používané k vytváření bezpečných soukromých klíčů).                                 |
+| *State*         | Stav (mezihodnota v kryptografickém procesu).                                                      |
+| *Entropy*       | Entropie (míra náhodnosti, používaná k vytváření seedů peněženky).                                 |
+| *Mnemonic*      | Mnemotechnická pomůcka (sled slov usnadňující zálohování a obnovení seedu).                        |
+| *Wordlist*      | Slovní seznam (předem definovaná sada slov používaná k vytváření BIP39 mnemotechnických pomůcek).  |
+| *Seed*          | Seed (počáteční hodnota, ze které lze odvodit všechny klíče HD peněženky).                         |
+| *Address*       | Bitcoinová adresa (čitelný identifikátor pro přijímání prostředků, odvozený z veřejného klíče).    |
+| *Leaf*          | List (koncový uzel v derivačním stromu).                                                           |
+
 # Hašovací Funkce
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

@@ -60,7 +60,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 最後，我會給您一些專為初學者設計的實用貼士，幫助您避免初次使用 Bitcoin 時常見的錯誤。
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/zh-Hant/001.webp)
 
 
 第二部分 「瞭解您將面臨的問題 」將加深您對 Bitcoin 的整體瞭解。我們首先會進行回顧，以確保您完全瞭解基本概念。
@@ -68,7 +68,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 接著，我們將從技術、經濟和社會角度解釋 Bitcoin 為何具有根本性的重要性，強化您對其價值的信念。您也將探索 Bitcoin 產業的整體：其主要參與者、組織以及多年來的演變。最後，我們將介紹 Bitcoin 生態系統的分層架構，這是了解此系統如何在不影響其核心協定完整性的情況下持續創新的重要概念。
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/zh-Hant/002.webp)
 
 
 第三部分「設定您的計畫」，著重於您個人對 Bitcoin 的做法。我們會從四個主要類別開始幫助您定義您的使用者設定檔：
@@ -84,13 +84,13 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 我們將指導您實施符合您個人特徵的策略，並協助您實現個人目標。
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/zh-Hant/003.webp)
 
 
 最後，第四部分「保護您的繼承人和財富」涵蓋了一個經常被忽視的重要主題：如何確保您的 Bitcoin 在發生意外情況時能傳遞給您所愛的人。您將學習如何建立和設定 Bitcoin 繼承計畫，確保您的財富在有生之年仍能得以保存。
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/zh-Hant/004.webp)
 
 
 本課程結束時，您將掌握所有實用工具，自信地瀏覽 Bitcoin 生態系統，並成為最進階的使用者之一！
@@ -129,7 +129,7 @@ Bitcoin 的生態系統及其周圍環境仍相對較新，而且依國家而定
 - 另一方面，加密貨幣產業**的規模要大得多，包括數以萬計的不同專案，每個專案都有自己的代幣。這個領域通常是由快速創新、炒作和短期金融投機所驅動。儘管有大膽的承諾和華麗的行銷，但許多這些專案都是集中式的、不太安全，而且無法提供太多真正的價值。**
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/zh-Hant/005.webp)
 
 
 如果您想更好地瞭解 Bitcoin 從何而來，以及 Bitcoin 與其他專案的真正不同之處，我建議您稍後查閱關於 Bitcoin 歷史的免費後續課程：
@@ -140,7 +140,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 如您所知，Plan ₿ Network 平台專門用於 Bitcoin。然而，了解與其他加密貨幣的區別將有助於您避免與無用的，有時甚至是欺詐的項目相關的陷阱。
 
 
-![BTC102-Bitcoin](assets/fr/002.webp)
+![image](assets/zh-Hant/006.webp)
 
 
 ### 應避免的主要詐騙
@@ -155,7 +155,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 這些都是加密世界中最常見的騙局。在龐氏騙局中，早期參與者使用新參與者的資金獲得報酬，而不是從任何真正的投資或產品中獲得報酬。沒有任何實際價值被創造出來。只有不斷有新的人加入，這個系統才能運作。一旦新參與者的流量減緩，整個計劃就會崩潰。
 
 
-![BTC102-Bitcoin](assets/fr/003.webp)
+![image](assets/zh-Hant/007.webp)
 
 
 這些騙局通常以 ：
@@ -200,7 +200,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 
-![BTC102-Bitcoin](assets/fr/004.webp)
+![image](assets/zh-Hant/008.webp)
 
 
 值得注意的是，Pump & Dump 策略在許多國家都是非法的，被認為是一種市場操縱。儘管如此，這類計劃仍持續蓬勃發展，尤其是在監管仍在跟上的加密貨幣領域。
@@ -209,7 +209,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 對於 Telegram、Discord 或其他社交媒體頻道等平台上的私人「訊號」群組，請格外小心。這些群組通常是由有影響力的人或自稱的專家所經營，其中有些人甚至收取入會費。雖然這些群組宣稱提供獨家投資機會，但實際情況卻是一面倒：只有組織者獲利，而大多數參與者最終都血本無歸。
 
 
-![BTC102-Bitcoin](assets/fr/005.webp)
+![image](assets/zh-Hant/009.webp)
 
 
 誠然，有些參與者可能會從這類操縱市場的行為中暫時獲利，但他們的成功通常只靠運氣和完美的時機。長期而言，這些騙局是無法持續的。它們需要持續的高風險參與、重複參與騙人的圈套，而這些圈套最終難免崩潰。
@@ -235,7 +235,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 有時，這些騙局以 「預付費用 」的形式出現。騙徒承諾會給您獎品或獎勵（金錢、產品或服務），但會先要求您支付費用，據說是用來支付運費、稅金或交易成本等。一旦支付了費用，騙子就消失了，而承諾的獎品從未到達。
 
 
-![BTC102-Bitcoin](assets/fr/006.webp)
+![image](assets/zh-Hant/010.webp)
 
 
 #### 提供糞幣和加密貨幣
@@ -259,7 +259,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 多年來，Bitcoin 經歷了數次 *Hard 分叉*，導致原始加密貨幣的替代版本產生。簡單來說，*Hard Fork* 是網路的分裂，導致兩個獨立的區塊鏈，兩者在分裂之前共享相同的歷史。當部分開發者社群或更廣泛的 Bitcoin 生態系統想要對原始通訊協定進行重大變更，但無法達成廣泛共識時，通常會發生這些分叉。他們不會放棄自己的想法，而是決定推出一個新版本的 Bitcoin（改變規則），希望使用者和礦工選擇跟隨他們的 Fork。
 
 
-![BTC102-Bitcoin](assets/fr/007.webp)
+![image](assets/zh-Hant/011.webp)
 
 
 並非所有的 *Hard fork* 都是詐欺，有些是因為社群內的技術或意識形態分歧所造成的。然而，有些則是受到商業利益或甚至不誠實的動機所驅使。這些硬分叉最著名的例子是 **Bitcoin Cash (BCH)** 和 **Bitcoin Satoshi Vision (BSV)**。這些替代貨幣分別於 2017 年和 2018 年推出，通常聲稱是原始 Bitcoin 的「更好版本」。它們宣揚的假定優勢包括交易費用更低，或因區塊大小增加而交易速度更快。然而，這些技術上的改變在安全性、去中心化和穩健性方面帶來了顯著的取捨；Elements 可能與 Bitcoin 的基本原則相衝突。
@@ -277,7 +277,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 隨著加密貨幣獲得主流關注，社交媒體上出現了大量有影響力的人士、自稱專家的人以及所謂的「*加密大師*」。雖然少數人可能提供真正的教育性見解，但許多人卻利用他們的知名度來推廣可疑的專案或危險的風險（有時甚至是徹頭徹尾的欺詐）交易策略。這些人的動機通常是基於個人財務利益，通常會因為推廣某些代幣或平台而直接或間接收取報酬。
 
 
-![BTC102-Bitcoin](assets/fr/008.webp)
+![image](assets/zh-Hant/012.webp)
 
 
 這些有影響力的人通常依賴行之有效的策略來吸引初學者：他們展示令人印象深刻的財務業績 (通常是虛假或無法驗證的)、炫耀奢華的生活方式作為他們成功的證明，並推廣「奇蹟」的投資策略。他們的目標是引發 FOMO（錯過的恐懼），促使觀眾做出衝動的決定和不顧一切的投資。
@@ -379,7 +379,7 @@ Bitcoin 賦予您直接持有資金的權力（無需銀行），無需中介。
 此外，強烈建議使用可靠的防毒軟體。在 Windows 上，內建的 Windows Defender 一般就足以滿足大多數使用者的需求。如果您偏好額外的功能或安心，也可以選擇 Kaspersky 等商用選項。在 macOS 上，惡意軟體威脅歷來較不常見**，但並非不存在**，因此保持謹慎仍是明智之舉。
 
 
-![BTC102-Bitcoin](assets/fr/012.webp)
+![image](assets/zh-Hant/013.webp)
 
 
 除了系統更新和防毒保護之外，還要格外警惕從不良網站或所謂「通用」下載門戶下載軟體。當您需要工具或應用程式時，請務必直接前往官方來源；這可大幅降低安裝偽裝為合法軟體的惡意軟體的風險。
@@ -410,7 +410,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 此方法提供強大的彈性，即使發生嚴重問題，也能確保您的資料存活。
 
 
-![BTC102-Bitcoin](assets/fr/013.webp)
+![image](assets/zh-Hant/014.webp)
 
 
 ### ID 噩夢的解決方案
@@ -430,7 +430,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 有了密碼管理器，您再也不必點選「忘記密碼」或依賴薄弱、重複使用的憑證。此外，大多數密碼管理器都能在您的裝置（桌上型電腦、手機、平板電腦）間無縫同步，甚至還能自動填寫登入表格，讓安全存取變得輕鬆又有效率。
 
 
-![BTC102-Bitcoin](assets/fr/011.webp)
+![image](assets/zh-Hant/015.webp)
 
 
 市面上有許多密碼管理器，但我可以根據您的需求推薦兩個可靠的選擇。如果您正在尋找易於使用、可在多種裝置間無縫同步的產品，Bitwarden 是一個絕佳的選擇：
@@ -449,7 +449,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 在 Bitcoin，您就是自己的銀行。這表示您也是自己的安全團隊。即使擁有強大的密碼，也不可能做到零風險，因此啟用雙重因素驗證 (2FA) 是非常重要的。
 
 
-![BTC102-Bitcoin](assets/fr/014.webp)
+![image](assets/zh-Hant/016.webp)
 
 
 2FA 要求使用 Google Authenticator 或 Authy 等應用程式生成基於時間的一次性代碼（通常為 6 位數），從而增加了第二重保護。因此，即使有人成功取得您的密碼，但如果無法實體存取您的手機，他們仍然無法存取您的帳戶。
@@ -457,13 +457,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![BTC102-Bitcoin](assets/fr/009.webp)
+![image](assets/zh-Hant/017.webp)
 
 
 當您啟用 2FA 時，請務必將應用程式的復原密碼保存在安全的地方。如果您遺失或更換手機，這可讓您恢復密碼。雖然以 SMS 或電子郵件為基礎的 2FA 聊勝於無，但其安全性卻低得多。SIM 對換攻擊（即有人控制您的電話號碼）可以輕易繞過這種保護。
 
 
-![BTC102-Bitcoin](assets/fr/010.webp)
+![image](assets/zh-Hant/018.webp)
 
 
 對於想要更進一步提升安全性的人，YubiKey 等實體鑰匙可提供更高層級的保護。
@@ -487,7 +487,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 - 擁有嚴格的無記錄政策
 
 
-![BTC102-Bitcoin](assets/fr/015.webp)
+![image](assets/zh-Hant/019.webp)
 
 
 我們在 Plan ₿ Network 上有幾個教學，可以引導您輕鬆設定 VPN。我特別推薦 IVPN 或 Mullvad：
@@ -538,7 +538,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 此外，請務必在 Plan ₿ Network 上查看 [我們的電腦安全教學](https://planb.network/tutorials/computer-security)。
 
 
-![BTC102-Bitcoin](assets/fr/016.webp)
+![image](assets/zh-Hant/020.webp)
 
 
 在下一章中，我將分享更多的技巧，幫助您信心十足地開始 Bitcoin 之旅；並避開許多可能讓新手措手不及的陷阱。
@@ -570,7 +570,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 - 長期考量、放大範圍並耐心等待（把它當成一場馬拉松，而不是短跑）。
 
 
-![BTC102-Bitcoin](assets/fr/017.webp)
+![image](assets/zh-Hant/021.webp)
 
 
 ### 應避免的常見錯誤
@@ -608,7 +608,7 @@ Bitcoin 對每個人都開放，但這並不表示您應該在毫無準備的情
 - 陷入 **FOMO**：因為害怕錯過而衝動地購買，通常會導致錯誤的時機和錯誤的決定。耐心是您最好的盟友。
 
 
-![BTC102-Bitcoin](assets/fr/019.webp)
+![image](assets/zh-Hant/022.webp)
 
 
 ### 定義投資策略
@@ -622,7 +622,7 @@ Bitcoin 對每個人都開放，但這並不表示您應該在毫無準備的情
 以這種方式處理，可確保您不會將自己的財務狀況置於風險之中，尤其是在市場不景氣的情況下。深思熟慮的策略是長期抗風險能力的基礎。
 
 
-![BTC102-Bitcoin](assets/fr/020.webp)
+![image](assets/zh-Hant/023.webp)
 
 
 一旦您的預算定義好，請考慮您想要的投資方式。其中一種最適合初學者且被廣泛推薦的方法是美元成本平均法 (DCA)，即定期（每週、每月等）買入固定數量的 Bitcoin。此策略有助於隨著時間的推移平滑您的平均入市價格，並減少價格波動對您情緒的影響。對大多數人來說，這是一種明智的方法，尤其是新手。
@@ -647,7 +647,7 @@ Bitcoin 對每個人都開放，但這並不表示您應該在毫無準備的情
 Bitcoin 以價格大幅波動而聞名。在短短幾天內，10%、20% 甚至 50% 的波動並不稀奇。對於新手來說，這種波動可能會令人迷失方向。在牛市時很容易被炒作，在跌市時也很容易感到恐慌；這兩種情況通常都會導致錯誤的決定，例如虧本賣出。
 
 
-![BTC102-Bitcoin](assets/fr/021.webp)
+![image](assets/zh-Hant/024.webp)
 
 
 這就是為什麼在您投資之前，必須**了解並接受 Bitcoin 的波動性**。這些價格波動並非錯誤，而是仍在成長中的資產的特徵。如果突然的上漲和下挫讓您夜不能寐，或迫使您做出情緒化的決定，那麼很有可能您已經投入了超出您可承受風險範圍的資金。在這種情況下，請退一步，重新評估您的策略和風險承受能力。不要猶豫縮小您的倉位，直到您感到更安心為止。
@@ -662,7 +662,7 @@ Bitcoin 以價格大幅波動而聞名。在短短幾天內，10%、20% 甚至 5
 Bitcoin 最強大（但往往被低估）的功能之一是**自我託管**。使用自我託管的 Wallet，您只需對您的資金負責。這些錢包通常由**復原詞組**（也稱為 seed 詞組）產生，一連 12 或 24 個詞組賦予您對 BTC 的完全存取權。如果您丟失了這個詞組（或者被其他人拿到了），您的比特幣就永遠消失了。**沒有客戶支援。沒有重設按鈕。**
 
 
-![BTC102-Bitcoin](assets/fr/023.webp)
+![image](assets/zh-Hant/025.webp)
 
 
 這就是為什麼 Bitcoin 的金科玉律是：
@@ -670,7 +670,7 @@ Bitcoin 最強大（但往往被低估）的功能之一是**自我託管**。�
 「***不是您的鑰匙，也不是您的硬幣***」。如果您不能親自控制您的私人金鑰，您就不能真正擁有您的 Bitcoin。雖然交易所很方便（特別是在剛開始交易時），但它們會替您保管您的金鑰。這意味著如果平台被黑客入侵、凍結您的帳戶或破產，您的資金就會有風險。
 
 
-![BTC102-Bitcoin](assets/fr/024.webp)
+![image](assets/zh-Hant/026.webp)
 
 
 為避免此風險，強烈建議設定您自己的 **Wallet**，只有您才能存取復原碼。此語句應永遠以手寫方式記下，並儲存在**離線**的安全位置。有些使用者甚至**維護多個備份**，並儲存在不同的地理位置，以增加安全性。
@@ -718,13 +718,13 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 在某些地方，利潤在出售時會被當作資本收益徵稅。其他地方可能會要求您申報每筆交易，有些地方則採用較不常見的規則，例如財富稅或社會貢獻。
 
 
-![BTC102-Bitcoin](assets/fr/018.webp)
+![image](assets/zh-Hant/027.webp)
 
 
 在進行任何重大交易之前，強烈建議您諮詢稅務專業人士或查看政府的官方指南。預先花時間瞭解您的稅務義務，可以避免日後發生意想不到的問題（如罰款、審計或罰金），尤其是當您計劃進行大額銷售或投資組合重新分配時。
 
 
-![BTC102-Bitcoin](assets/fr/022.webp)
+![image](assets/zh-Hant/028.webp)
 
 
 ### 交易、投資與持有的差異
@@ -787,7 +787,7 @@ Robert T. Kiyosaki 所著的《富爸爸，窮爸爸》（*Rich Dad, Poor Dad*�
 如果您已準備好深入瞭解，*The Investors Podcast* 等播客提供有關投資、市場和經濟原理的精闢討論。他們偶爾也會報導 Bitcoin，對於想了解 Bitcoin 如何融入更廣泛的金融環境的人來說，這是一個很好的下一步。
 
 
-![BTC102-Bitcoin](assets/fr/025.webp)
+![image](assets/zh-Hant/029.webp)
 
 
 ### 請牢記的黃金規則
@@ -840,7 +840,7 @@ Bitcoin 並非一夜之間誕生。它是密碼學、電腦科學和貨幣理論
 該專案深受 Cypherpunk 精神的影響；這個由開發者和思想家組成的社群相信使用加密技術來保護個人線上自由。對他們來說，隱私和分散化不是技術上的偏好，而是意識形態上的必要。Bitcoin 是這些理想最成功的體現：一個任何人都可以使用、任何人都無法控制、所有人都可以驗證的點對點貨幣網路。
 
 
-![BTC102-Bitcoin](assets/fr/035.webp)
+![image](assets/zh-Hant/030.webp)
 
 
 Cypherpunks 是一個由個人組成的非正式國際社群，他們主張使用密碼學來捍衛個人線上自由。他們堅信個人的隱私權，尤其是在政府監控和企業資料剝削日益嚴重的世界。
@@ -851,7 +851,7 @@ Cypherpunk 運動的根源可追溯至 1990 年代早期，當時一群密碼學
 1992 年，隨著 Cypherpunks 郵件論壇的成立，這項運動的一個重要里程碑也隨之誕生，在這個論壇上，有關隱私權和密碼學的想法、計畫和政治討論得以蓬勃發展。之後，在 1993 年，Eric Hughes 發表了 Cypherpunk 的宣言，一份簡短但有力的宣言清楚地表達了社群的使命與信念。
 
 
-![BTC102-Bitcoin](assets/fr/032.webp)
+![image](assets/zh-Hant/031.webp)
 
 
 獨立於任何中央機關運作的數位貨幣 (如 Bitcoin)，其理念深深植根於 Cypherpunk 哲學。
@@ -871,13 +871,13 @@ Bitcoin 並非憑空出現。它是在一個非常特殊的時刻創造出來的
 這不僅僅是一個日期或技術說明；它是一個沉默但強烈的抗議。它顯示出 Bitcoin 的設計是完全不同的：一個不依存於銀行、救助或政府決策的金融體系。
 
 
-![BTC102-Bitcoin](assets/fr/034.webp)
+![image](assets/zh-Hant/032.webp)
 
 
 許多人將此解讀為 Bitcoin 的目標：提供一種不需要中間人的價值轉移方式，並由明確的規則所控制，而非由中央銀行或政府所做的不明確決定。
 
 
-![BTC102-Bitcoin](assets/fr/033.webp)
+![image](assets/zh-Hant/033.webp)
 
 
 為了加深您對 Bitcoin 淵源的認識，我們提供免費、全面且資料齊全的相關訓練課程：
@@ -894,13 +894,13 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Bitcoin 被定義為 「點對點電子現金系統」。這意味著任何人都可以使用適當的軟體（Bitcoin 節點）連接至網路，並直接與其他使用者互動，而無需依賴中央伺服器。這種去中心化的目標是防止任何單一實體（如銀行、政府或大型企業）控制、審查或停止系統。Bitcoin 在全球範圍內全天候運作，每個人都可以無條件使用。
 
 
-![BTC102-Bitcoin](assets/fr/036.webp)
+![image](assets/zh-Hant/034.webp)
 
 
 簡單來說，Bitcoin 網路中的每個參與者（稱為「節點」）都有一份完整的交易 Ledger 副本，稱為 Blockchain。當有新的交易發生時，就會廣播到網路中。礦工隨後會確認這些交易，將它們組合成區塊，然後加到鏈的末端（因此稱為「Blockchain」）。
 
 
-![BTC102-Bitcoin](assets/fr/029.webp)
+![image](assets/zh-Hant/035.webp)
 
 
 #### Blockchain：會計 Ledger
@@ -909,7 +909,7 @@ Bitcoin 被定義為 「點對點電子現金系統」。這意味著任何人�
 將 Blockchain 想像成巨型會計 Ledger，每一行都代表一筆交易。在傳統的銀行系統中，資料庫儲存在銀行的伺服器上，銀行可以隨時進行變更。另一方面，在 Bitcoin 中，**所有的變更都會在整個網路中進行驗證：一旦有新的交易區塊加入 Blockchain，之後幾乎不可能再更改。**這種分散式驗證讓 Bitcoin 的 Ledger 變得安全且透明。
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/zh-Hant/036.webp)
 
 
 ### 礦工和 Proof-of-Work 的作用
@@ -931,7 +931,7 @@ Mining 是電腦（或大型 Mining 場）貢獻**計算力**以保護 Bitcoin �
 最終，大約在 2140 年左右，補貼將達到零，因為 Bitcoin 的 Supply 總量將達到 2,100 萬枚硬幣的上限。這種可預測的發行曲線模仿了黃金等實體商品的稀缺性；這也是 Bitcoin 常被稱為**數位黃金**的原因之一。
 
 
-![BTC102-Bitcoin](assets/fr/031.webp)
+![image](assets/zh-Hant/037.webp)
 
 
 ### Bitcoin 貨幣特性
@@ -957,7 +957,7 @@ Bitcoin 最強大的功能之一是其*可預測且不可變更的貨幣政策*�
 Bitcoin 最被低估的優點之一就是它的可分割性。每個 Bitcoin 可以分解成一億個單位，稱為 Satoshis（或簡稱 Sats）。這表示您不需要花費數萬歐元或美元就能入門；您只需購買數歐元的 Bitcoin，就能買到很小的零頭。
 
 
-![BTC102-Bitcoin](assets/fr/026.webp)
+![image](assets/zh-Hant/038.webp)
 
 
 ### 開放性與透明度
@@ -971,7 +971,7 @@ Bitcoin 以公開、**開放源碼**協定 (主要透過 [Bitcoin Core](https://
 這種程度的透明度讓引入後門或進行秘密變更變得難以置信。任何具備技術能力的人都可以執行節點、貢獻開發或建立相容的工具。在 Bitcoin 中，信任是透過程式碼和共識而非中央控制來贏得的。
 
 
-![BTC102-Bitcoin](assets/fr/030.webp)
+![image](assets/zh-Hant/039.webp)
 
 
 這種透明度是人們信任 Bitcoin 通訊協定的主要原因之一；它可防止一小撮開發人員為了一己之利而操控網路。Bitcoin 的運作原則簡單但強大：如果您不同意建議的變更，您可以不更新您的軟體。在某些情況下，這不會造成任何干擾；您仍能與網路的其他部分保持同步。但在其他情況下，這可能會導致所謂的 Hard Fork，即網路一分為二，並產生新版本的 Bitcoin。這正是 Bitcoin (BTC) 和 Bitcoin Cash (BCH) 在 2017 年分裂的情況。
@@ -1022,7 +1022,7 @@ Bitcoin 可被視為「從零到一」： 徹底打破既有的金融模式。�
 儘管如此，Bitcoin 在存在十多年後，仍持續引發爭論與熱情。它的採用率越來越高，第二代 Layer 解決方案 (如 Lightning Network)也逐漸湧現，以提高交易速度並降低費用，全球各地的企業也在嘗試新的使用案例。Bitcoin 很可能會繼續影響支付系統，甚至影響我們未來數十年對金錢的看法。
 
 
-![BTC102-Bitcoin](assets/fr/028.webp)
+![image](assets/zh-Hant/040.webp)
 
 
 如果您想進一步擴展您的知識，您可以參加有關 Plan ₿ Network 的 BTC101 課程，該課程對 Bitcoin 的技術和經濟基本面進行了更深入的探討。
@@ -1058,7 +1058,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 - Bitcoin 原生於網際網路，這表示任何能存取網路的人都能使用它。
 
 
-![BTC102-Bitcoin](assets/fr/037.webp)
+![image](assets/zh-Hant/041.webp)
 
 
 Bitcoin 可被視為真正的「人民的貨幣」，是一種不依賴任何中央權威的替代貨幣系統，其基礎是永恆不變的規則而非任意的決定。它的開放性和可及性使其成為全球數十億人的潛在革命性工具，無論他們是被排除在傳統銀行體系之外，還是只是在尋找一個更具主權性的替代方案。
@@ -1067,7 +1067,7 @@ Bitcoin 可被視為真正的「人民的貨幣」，是一種不依賴任何中
 這帶給我們一個基本的、幾乎是哲學性的問題，將 Bitcoin 的愛好者分為兩種主要的世界觀。一邊，有些人將 Bitcoin 視為促進金融包容性的解決方案，讓數十億沒有銀行服務的個人終於能夠使用全球貨幣基礎建設。另一方面，有些人將 Bitcoin 視為一種金融解放工具，目的是為數十億已融入銀行體系，但希望擺脫對銀行體系的依賴，重新完全掌控自己的金錢的人們提供一條出路。這種思考值得我們注意，我們稍後會再詳細討論。
 
 
-![BTC102-Bitcoin](assets/fr/044.webp)
+![image](assets/zh-Hant/042.webp)
 
 
 ### 防止貨幣危機
@@ -1076,19 +1076,19 @@ Bitcoin 可被視為真正的「人民的貨幣」，是一種不依賴任何中
 幾個世紀以來，全世界都經歷過對人民造成毀滅性影響的貨幣危機。數十億人仍在承受管理不善的貨幣政策所帶來的後果，操控貨幣 Supply 和利率造成了系統性的失衡。這些危機並不是隨機事件，而是建立在干預及操縱貨幣與時間價值上的系統所造成的結果。
 
 
-![BTC102-Bitcoin](assets/fr/045.webp)
+![image](assets/zh-Hant/043.webp)
 
 
 這些危機可以有許多不同的形式。例如，惡性通貨膨脹會逐漸摧毀人們的購買力，從而使貨幣貶值；這種情況在津巴布韋和委內瑞拉等國家都有發生。另一方面，嚴格的貨幣管制會限制資金的取得，剝奪個人的經濟自由，就像希臘和黎巴嫩的銀行限制一樣。
 
 
-![BTC102-Bitcoin](assets/fr/047.webp)
+![image](assets/zh-Hant/044.webp)
 
 
 最後，當政府將其國家貨幣貶值時，就會逐漸侵蝕人們的儲蓄；對他們的財富造成無形但持續的損失。從許多方面來看，它就像是一種隱藏的稅收。只要貨幣政策仍然掌握在中央政府手中，這些循環就注定會重演。
 
 
-![BTC102-Bitcoin](assets/fr/038.webp)
+![image](assets/zh-Hant/045.webp)
 
 
 Bitcoin 為這種長期貨幣不穩定的循環提出了大膽的替代方案。與國家發行的貨幣不同，Bitcoin 建立在無法改變、以數學為基礎的規則之上，這些規則由共識執行，而非由政府或中央銀行執行。它的發行量是可預測的，上限約為 2100 萬個硬幣，使其成為一種穩健的貨幣形式，可長期保持其價值。由於它可以抵制審查，任何人都可以儲存和轉移價值，而無需依賴機構。由於其可分割性和可攜性，它既方便又實用，是任何人在任何地方都可以使用的金融基礎設施。
@@ -1097,7 +1097,7 @@ Bitcoin 為這種長期貨幣不穩定的循環提出了大膽的替代方案。
 **您知道嗎？** 在歷史上，全世界至少有 56 個有記錄的惡性通貨膨脹案例。在許多案例中，整個經濟體系崩潰，畢生積蓄化為烏有，數百萬人陷入赤貧。更糟糕的是，這些貨幣失效往往成為政治動亂的跳板；有時會導致專制政體，就像1920年代的德國和1970年代的智利一樣。
 
 
-![BTC102-Bitcoin](assets/fr/039.webp)
+![image](assets/zh-Hant/046.webp)
 
 
 Hanke, S. H., & Krus, N. (2013)。 *世界超級膨脹*。In R. Parker & R. Whaples (Eds.), The Handbook of Major Events in Economic History.Routledge Publishing。取自 https://ssrn.com/abstract=2130109
@@ -1112,7 +1112,7 @@ Hanke, S. H., & Krus, N. (2013)。 *世界超級膨脹*。In R. Parker & R. Whap
 世界各地日益嚴重的經濟不平等一直是社會動盪和政治極端主義興起的沃土。歷史顯示，當貧富差距過大時，往往會導致緊張、危機，甚至是專制政權的崛起。面對這些風險，保護您的財務自由不僅是一種奢侈；對於任何想要維護自己的自主權和保障家庭未來的人而言，它都是一種必需品。
 
 
-![BTC102-Bitcoin](assets/fr/046.webp)
+![image](assets/zh-Hant/047.webp)
 
 
 但在國家可以完全控制資產和交易的世界裡，有什麼真正的選擇可以保護您的儲蓄？
@@ -1136,7 +1136,7 @@ Hanke, S. H., & Krus, N. (2013)。 *世界超級膨脹*。In R. Parker & R. Whap
 從這個角度來看，Bitcoin 不只是一項技術。它是自然法的工具，是個人維護其基本權利的方式，即使這些權利被國家法律所剝奪。它不是透過革命，而是透過法規，將權力交還給人民。
 
 
-![BTC102-Bitcoin](assets/fr/040.webp)
+![image](assets/zh-Hant/048.webp)
 
 
 **你知道**嗎？Bitcoin 是假名，而非匿名。使用者可以建立 Wallet 位址而不透露真實身份，讓他們可以在傳統銀行系統之外收發資金。
@@ -1160,7 +1160,7 @@ Hanke, S. H., & Krus, N. (2013)。 *世界超級膨脹*。In R. Parker & R. Whap
 這不是制度上的缺陷，而是一種刻意的機制。中央銀行和政府利用它來人為地刺激經濟成長，並推動人們不斷消費和增加債務。
 
 
-![BTC102-Bitcoin](assets/fr/041.webp)
+![image](assets/zh-Hant/049.webp)
 
 
 我們的現代金融體系建立在債務循環的基礎上；在這個體系中，借貸不僅受到鼓勵，而且幾乎無法避免。個人借貸以維持自己的生活方式，卻發現自己被困在一個系統中，他們必須向憑空製造錢的銀行償還利息。這並非偶然；這是一種結構設計，目的是讓金融機構受惠，而犧牲一般民眾的利益。
@@ -1178,7 +1178,7 @@ Hanke, S. H., & Krus, N. (2013)。 *世界超級膨脹*。In R. Parker & R. Whap
 在過去，黃金是防止貨幣無節制擴張的制衡工具。但自 1971 年金本位制崩潰以來，沒有任何國家的貨幣（無論是美元、歐元或日圓）是由有形資產支持的。這種脫離讓中央銀行可以肆無忌憚地印鈔票，為數十年的激進貨幣擴張、一而再再而三的資產泡沫和一而再再而三的金融危機鋪路。
 
 
-![BTC102-Bitcoin](assets/fr/042.webp)
+![image](assets/zh-Hant/050.webp)
 
 
 當您把錢存入銀行時，它就不再真正屬於您了。
@@ -1223,7 +1223,7 @@ Bitcoiners 來自各行各業，但他們有一個共同的願景：一個貨幣
 - 工程師、金融家和自由言論倡導者，他們認識到這種新貨幣模式的深遠社會影響。
 
 
-![BTC102-Bitcoin](assets/fr/043.webp)
+![image](assets/zh-Hant/051.webp)
 
 
 Bitcoin 的設計超越政治和意識形態的分歧。它不分左派或右派、自由主義或集體主義。它是一個中立的協定，由適用於每個人的平等規則（而非統治者）所規範。然而，它的存在就是對全球金融現狀的挑戰。Bitcoin 已經成為抗爭的象徵，因為人們已經將其作為法定貨幣和集中式金融基礎設施的替代方案；這些系統越來越被視為不公正、可操纵且具有排他性。
@@ -1234,7 +1234,7 @@ Bitcoin 的設計超越政治和意識形態的分歧。它不分左派或右派
 Bitcoin 可實現抗檢查、點對點的數位交易；無需中介或看門人。正如 Satoshi Nakamoto 所預想的，它提供了等同於現金的數位方式：一種無需許可、自由運用 Exchange 價值的方式。
 
 
-![BTC102-Bitcoin](assets/fr/048.webp)
+![image](assets/zh-Hant/052.webp)
 
 
 Bitcoin 不是一個組織或政黨，但無可否認，它帶有強大的哲學訊息。它重新定義了個人與國家之間的關係，挑戰中央銀行對貨幣創造與經濟控制的壟斷。
@@ -1242,7 +1242,7 @@ Bitcoin 不是一個組織或政黨，但無可否認，它帶有強大的哲學
 無論是自由鬥士或只是想維持購買力的人，Bitcoin 都標誌著一個新時代的開始；一個金融主權成為基本人權，人人皆可享有的時代。
 
 
-![BTC102-Bitcoin](assets/fr/049.webp)
+![image](assets/zh-Hant/053.webp)
 
 
 現在我們已經探討了 Satoshi Nakamoto 發明的深遠意義，下一章將帶我們進入圍繞此通訊協定而成長的非凡產業；一個重塑金融、科技和社會的完整生態系統。
@@ -1267,7 +1267,7 @@ Bitcoin 不是一個組織或政黨，但無可否認，它帶有強大的哲學
 Bitcoin 是一項徹底的創新，是從零到一的飛躍。它完全打破了傳統的貨幣模式。對某些人來說，這種破壞是一種威脅；是對他們既有權力和特權的挑戰。對他們來說，Bitcoin 是一個不該打開的潘多拉盒子，他們會使用一切可以使用的手段來抵制它。
 
 
-![BTC102-Bitcoin](assets/fr/050.webp)
+![image](assets/zh-Hant/054.webp)
 
 
 然而，其他人則將 Bitcoin 視為千載難逢的機會：個人自由的工具、全球金融體系轉型的催化劑，以及邁向更透明、更公平替代方案的道路。這些人是建設者、採用者和貢獻者（塑造未來的人）。
@@ -1356,7 +1356,7 @@ Bitcoin 是一項徹底的創新，是從零到一的飛躍。它完全打破了
 Facebook 的 Libra 從來就不是為了挑戰現狀，而是為了配合系統而建立。相比之下，Bitcoin 完全存在於該系統之外。它不需要徵求許可。它不依靠信任。而且它已經完美地運行了十多年（沒有領導者、停機或中央控制）。
 
 
-![BTC102-Bitcoin](assets/fr/051.webp)
+![image](assets/zh-Hant/055.webp)
 
 
 ### 法規與政府方法
@@ -1365,7 +1365,7 @@ Facebook 的 Libra 從來就不是為了挑戰現狀，而是為了配合系統�
 Bitcoin 就其本質而言，是在傳統框架之外運作的。它不依賴中央機構，也不受任何單一實體的控制或改變。雖然協定本身不受管制，但與協定互動的參與者（交易所、企業和使用者）仍須遵守國家法律。
 
 
-![BTC102-Bitcoin](assets/fr/052.webp)
+![image](assets/zh-Hant/056.webp)
 
 
 由於 Bitcoin 是一個全球性的網路，因此各國的回應方式大不相同：
@@ -1383,7 +1383,7 @@ Bitcoin 就其本質而言，是在傳統框架之外運作的。它不依賴中
 - 大多數人仍未決定，在試圖平衡創新與監督的同時，也在嘗試各種規範。
 
 
-![BTC102-Bitcoin](assets/fr/056.webp)
+![image](assets/zh-Hant/057.webp)
 
 
 政府和機構往往難以準確分類 Bitcoin（它是金錢、財產，還是全新的東西？）因此，法規往往是被動、不一致且不斷演變的。如果您涉及 Bitcoin，就必須隨時瞭解當地的情況，尤其是在稅務、銀行存取和合規規則方面。
@@ -1416,7 +1416,7 @@ Bitcoin 就其本質而言，是在傳統框架之外運作的。它不依賴中
 符合當地法規的交易所通常必須遵循嚴格的 **「認識您的客戶」** (KYC) 規範，要求使用者在存取服務前提供身份證明文件。雖然這些程序是為了防止非法活動而設計，但卻可能會損害 Bitcoin 本身提供的隱私權。
 
 
-![BTC102-Bitcoin](assets/fr/053.webp)
+![image](assets/zh-Hant/058.webp)
 
 
 KYC 平台打著安全的幌子收集您的個人資訊。這些資料可能會被政府利用來監控您的金融交易，並限制您使用某些作業。
@@ -1573,13 +1573,13 @@ Bitcoin 的發展可以透過幾組不同的貢獻者來了解：
 我們歡迎創新，但前提是必須有充分的理由、社群共識和仔細的測試作為後盾。
 
 
-![BTC102-Bitcoin](assets/fr/054.webp)
+![image](assets/zh-Hant/059.webp)
 
 
 儘管有些人可能相信，但沒有人能單方面控制 Bitcoin；甚至 Bitcoin Core 的維護者也不能。他們的角色是管理軟體儲存庫，而非通訊協定本身。
 
 
-![BTC102-Bitcoin](assets/fr/055.webp)
+![image](assets/zh-Hant/060.webp)
 
 
 即使維護者批准了一個有爭議的變更，除非**節點 (由使用者執行)**實際採用並運行該版本，否則它不會影響網路。最後，Bitcoin 的程式碼只有在人們選擇執行它時才會重要。
@@ -1614,7 +1614,7 @@ Bitcoin 是一個開放式系統，從一開始就設計為簡約、穩健和安
 Lightning Network 由 Thaddeus Dryja 和 Joseph Poon 於 2016 年創造，是第二個 Layer 解決方案，旨在實現即時且低成本的支付。兩位使用者可以開啟私人頻道進行交易，只有在頻道開啟或關閉時，Blockchain 才會更新餘額。通道內的交易發生在 off-chain，這表示它們不需要在 Bitcoin Blockchain 上個別記錄。此結構可實現即時交易，且費用最低，非常適合需要快速確認的低額交易。
 
 
-![BTC102-Bitcoin](assets/fr/059.webp)
+![image](assets/zh-Hant/061.webp)
 
 
 假設您使用 Layer 購買咖啡。為了確認付款（也為了讓咖啡廳確定您確實已付款），交易需要包含在區塊中。這可能需要幾分鐘，視您選擇的費用而定。技術上來說，商家應該等待六次確認（約一小時），才能完全確定付款已經完成。很明顯，當您站在櫃檯時，這種等待是行不通的。有了 Lightning Network，只要幾秒鐘就能完成付款；因此您的咖啡還沒來得及冷卻，就已經付好款、端上桌了。
@@ -1653,7 +1653,7 @@ RGB 是一個分散且注重隱私的 Smart contract 系統，設計用於 Bitco
 RGB 的主要特點是使用稱為「單次使用封印」的加密技術來保護 Double-spending。此機制依賴於 Bitcoin 的 UTXOs (Unspent Transaction Outputs) 只能使用一次的事實。代幣的真實性由使用者端驗證 Contract 的整個歷史（從創建到目前狀態）來確保。
 
 
-![BTC102-Bitcoin](assets/fr/060.webp)
+![image](assets/zh-Hant/062.webp)
 
 
 為了加深您對 RGB 的認識，我們提供第四年的訓練課程 (請注意，此課程具有高度技術性)：
@@ -1667,7 +1667,7 @@ RGB 只是建立在 Bitcoin 之上的眾多通訊協定之一。雖然有些協�
 這種分層設計與廣泛的加密產業形成強烈對比，後者往往試圖將許多功能捆綁在單一協定中。透過保持 Bitcoin 的簡單性及狹隘性，我們減少了其攻擊面；這意味著更高的安全性。精簡的通訊協定更容易保護、維護和擴充。Bitcoin 的設計只為了做好一件事：提供健全的分散式貨幣。其他一切（智慧契約、代幣、付款等）都可以分層在上面，允許創新而不影響核心。
 
 
-![BTC102-Bitcoin](assets/fr/058.webp)
+![image](assets/zh-Hant/063.webp)
 
 
 **網際網路並不是一下子就建立起來的；它是由一疊可互通的通訊協定演進而成。例如，TCP/IP 可處理網路通訊，HTTP 為網路提供動力，而許多其他層級則提供特定功能。每個 Layer 都針對其工作進行最佳化，創造出強固的模組化系統。Bitcoin 也遵循相同的理念。其基本 Layer 功能強大且極簡，其他功能則透過分層通訊協定（如 Lightning、Liquid 或 RGB）來增加；每個協定都專注於解決不同的使用者需求，同時保持基礎不變。**
@@ -1722,7 +1722,7 @@ Bitcoin 作為 Exchange 的媒介，在各行各業的採用率越來越高。Li
 Bitcoin 現在已經勢不可擋。
 
 
-![BTC102-Bitcoin](assets/fr/057.webp)
+![image](assets/zh-Hant/064.webp)
 
 
 ### 我的個人觀點
@@ -1767,7 +1767,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 本課程假設您剛開始使用 Bitcoin。因此，我們將專注於簡單、初學者易於設定的解決方案。我們不會涉及間接接觸方法，如 Mining、購買 Bitcoin 相關公司的股票，或複雜的財務策略。這裡的目標是幫助您挑選適合您情況的 Wallet，並安全地獲得您的第一枚比特幣。
 
 
-![BTC102-Bitcoin](assets/fr/063.webp)
+![image](assets/zh-Hant/065.webp)
 
 
 ### 為何要定義使用者個人資料？
@@ -1790,7 +1790,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 這些因素都會影響您的正確策略。有些使用者會重視透過規範的服務來達到簡單易用的目的，而有些使用者則會偏好更自主且注重隱私權的方式。
 
 
-![BTC102-Bitcoin](assets/fr/064.webp)
+![image](assets/zh-Hant/066.webp)
 
 
 這就是我們接下來要探討的：獲取和保護比特幣的不同方式，讓您可以根據您的個人資料和目標做出明智的決定。
@@ -1802,7 +1802,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 選擇正確的策略來獲取和保護您的比特幣，首先要對您的個人情況進行誠實的評估。有幾個因素會影響這些決定，包括您可能面臨的風險、您的生活方式，以及您計劃如何使用您的比特幣。
 
 
-![BTC102-Bitcoin](assets/fr/065.webp)
+![image](assets/zh-Hant/067.webp)
 
 
 #### 潛在風險與威脅
@@ -1831,7 +1831,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 為了更瞭解您的弱點，請以 0 (低) 到 10 (高) 的等級對這些風險逐一評分。這項自我評估將有助於您優先採取正確的保護措施。
 
 
-![BTC102-Bitcoin](assets/fr/061.webp)
+![image](assets/zh-Hant/068.webp)
 
 
 #### 生活方式與個人習慣
@@ -1878,7 +1878,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 - 您的交易金額
 
 
-![BTC102-Bitcoin](assets/fr/062.webp)
+![image](assets/zh-Hant/069.webp)
 
 
 ### 錢包與安全策略
@@ -1887,7 +1887,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 擁有和使用 Bitcoin 最重要的部分是保護您的私人密碼匙 (可讓您存取比特幣的密碼匙)。不像傳統的銀行帳戶，由第三方管理您的資金，Bitcoin 讓您完全掌控。但這種自由也帶來了責任：如果您遺失了鑰匙，您的 Bitcoin 將永遠消失。您可以使用幾種類型的錢包。每種都有自己的優點和缺點，這取決於您的需求和經驗水平。
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/zh-Hant/070.webp)
 
 
 #### Hot Wallet
@@ -2013,7 +2013,7 @@ Multisig（多重簽名）錢包需要一個以上的鑰匙來批准交易。就
 即使是初學者，我們也不推薦託管服務。花時間學習如何正確保護您的 Bitcoin 要比冒著因為別人失敗而失去一切的風險好得多。但如果您在這裡閱讀關於錢包和金鑰管理的文章，您可能已經了解為什麼這個原則很重要。
 
 
-![BTC102-Bitcoin](assets/fr/068.webp)
+![image](assets/zh-Hant/071.webp)
 
 
 Wallet 和安全方法的選擇取決於您的儲存量、專業水準，以及您認為的潛在風險。不過，混合方式可能是明智的選擇：
@@ -2027,7 +2027,7 @@ Wallet 和安全方法的選擇取決於您的儲存量、專業水準，以及�
 如果您的 Hot Wallet 累積了太多的 bitcoins，您可以轉移一些到您的 Cold 儲存空間。另一方面，如果您需要更多的 bitcoins 用於日常消費，您可以從您的 Cold Wallet 提取。
 
 
-![BTC102-Bitcoin](assets/fr/066.webp)
+![image](assets/zh-Hant/072.webp)
 
 
 歸根結柢，安全性主要取決於您如何使用這些工具。如果您遺失、暴露或洩露 Mnemonic 短語，Hardware Wallet 對您沒有多大用處。謹慎和紀律是您避免丟失 bitcoins 的最佳保障。關於這方面的更多資訊，我強烈建議您閱讀這篇文章：
@@ -2041,7 +2041,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 獲取比特幣的方式有多種，這取決於您需要多少隱私、您所在國家的法規以及您想要獲取的金額。主要有兩種方法：
 
 
-![BTC102-Bitcoin](assets/fr/070.webp)
+![image](assets/zh-Hant/073.webp)
 
 
 #### 取得身份驗證 (KYC)
@@ -2197,7 +2197,7 @@ Stacker 不注重短期投機或頻繁使用他們的 Bitcoin。他們將 Bitcoi
 這種型態特別適合生活在敵對 Bitcoin 的環境中的人，因為擁有或使用 BTC 可能會受到制裁。這是一種較為複雜的方式，需要一定程度的技術專業知識和嚴格的紀律，以避免任何資金存取的損失。
 
 
-![BTC102-Bitcoin](assets/fr/069.webp)
+![image](assets/zh-Hant/074.webp)
 
 
 ### 哪一種設定檔適合您？
@@ -2221,7 +2221,7 @@ Stacker 不注重短期投機或頻繁使用他們的 Bitcoin。他們將 Bitcoi
 在 Bitcoin 社群中，「hodler」一詞是指採取長期投資方式的人。這個詞源於多年前 Bitcoin Talk 論壇上一個著名的「hold」錯誤，自此成為 Commitment 的象徵：無論如何堅持您的 Bitcoin，不為短期市場波動而緊張。
 
 
-![BTC102-Bitcoin](assets/fr/071.webp)
+![image](assets/zh-Hant/075.webp)
 
 
 Hodlers 相信 Bitcoin 的價值主張。Supply 的固定金額為 2,100 萬枚硬幣，他們將 Bitcoin 視為長期的儲值工具（數位黃金）。
@@ -2287,7 +2287,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![BTC102-Bitcoin](assets/fr/073.webp)
+![image](assets/zh-Hant/076.webp)
 
 
 #### 2.購買 Bitcoin 並提取它
@@ -2307,7 +2307,7 @@ https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7
 
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![BTC102-Bitcoin](assets/fr/074.webp)
+![image](assets/zh-Hant/077.webp)
 
 
 有些好手還採用混合方法，使用 DCA（美元成本平均法）- 定期小額買入，以平滑市場波動。
@@ -2357,7 +2357,7 @@ hodler 的策略簡單但強大：購買、安全、忘記。真正的挑戰不�
 
 
 
-![BTC102-Bitcoin](assets/fr/075.webp)
+![image](assets/zh-Hant/078.webp)
 
 
 ### 評估您的霍德勒檔案
@@ -2374,7 +2374,7 @@ hodler 的策略簡單但強大：購買、安全、忘記。真正的挑戰不�
 - 相信技術：Hodlers 不僅將 Bitcoin 視為投機資產。他們相信其技術及其顛覆性的潛力。對許多人而言，這不僅關乎金錢，更關乎自由。Bitcoin 被視為一種有彈性、非政治性的貨幣，也是傳統銀行業的真正替代方案，能賦予個人更大的金融主權。
 
 
-![BTC102-Bitcoin](assets/fr/072.webp)
+![image](assets/zh-Hant/079.webp)
 
 
 Hodling 簡單、有效且容易上手，即使是初學者也能輕鬆上手。
@@ -2394,7 +2394,7 @@ Hodling 簡單、有效且容易上手，即使是初學者也能輕鬆上手。
 這個想法很簡單：比特幣只有約 2100 萬個，而每個零頭都很重要。堆疊者的任務就是穩定地累積盡可能多的 Sats。
 
 
-![BTC102-Bitcoin](assets/fr/076.webp)
+![image](assets/zh-Hant/080.webp)
 
 
 ### 為何選擇堆疊策略？
@@ -2468,7 +2468,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 最有效的方法是兩者並用：Hot Wallet 用於日常堆疊，Hardware Wallet 用於長期 Cold 儲存。Hot Wallet 使用起來簡單方便。它可以讓您快速擁有您的比特幣，而不是把它們留在平台上，讓它們暴露在風險中。但是，與 Hardware Wallet 相比，Hot Wallet 的安全性要低得多。因此，堆疊者必須定期將資金轉移到他的 Cold Wallet 上，以確保長期儲蓄的安全，並避免在 Hot Wallet 上保留太多資金。堆高機在轉移到 Cold 儲存庫時，會定期將 UTXO 合併；合併小量的投入，以優化未來的交易費用。
 
 
-![BTC102-Bitcoin](assets/fr/077.webp)
+![image](assets/zh-Hant/081.webp)
 
 
 #### 2.建立 DCA 採購計劃
@@ -2485,7 +2485,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 接下來，您有兩個選項來設定您的 DCA：自動化或手動管理。大多數受監管的交易平台現在都提供自動化 DCA 的選項。只要您的帳戶中有足夠的法幣，平台就會根據您設定的參數自動執行您的買入訂單。也有越來越多的平台專門用於 DCA 自動化，提供額外的服務，例如自動提款到您的自我保管 Wallet 或四捨五入您的日常支出。如果您使用的是受監管的平台，我強烈建議您將 DCA 自動化，以便更安心地進行日常管理。
 
 
-![BTC102-Bitcoin](assets/fr/078.webp)
+![image](assets/zh-Hant/082.webp)
 
 
 DCA 平台的範例：
@@ -2545,7 +2545,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 - 定期檢查您的 seed 備份和 Hardware Wallet 狀態：既然您的錢包已經安裝好了，那麼設定定期監控就很重要了。定期檢查您的 Mnemonic 詞組是否仍在其儲存位置，以及其不透明封套是否未被打開。在這些檢查過程中，您也可以打開封套來檢查媒體的狀況。請確定它沒有損壞，而且詞句仍然清晰可辨。如果有任何損壞的跡象，最好從 Hardware Wallet 建立新的副本。您也可以定期檢查硬體錢包。
 
 
-![BTC102-Bitcoin](assets/fr/080.webp)
+![image](assets/zh-Hant/083.webp)
 
 
 為了方便監控而不影響安全性，請設定 Watch-only wallet 使用公開金鑰追蹤餘額。
@@ -2567,7 +2567,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 - 長遠的願景：堆疊者深信 Bitcoin 的技術潛力。他們的重點不在於短期的價格波動，而在於多年來穩健的持股成長。
 
 
-![BTC102-Bitcoin](assets/fr/079.webp)
+![image](assets/zh-Hant/084.webp)
 
 
 簡而言之，堆疊對於想要長期建立 Bitcoin 持倉、降低波動風險、維持完全主權的人來說是理想的選擇；而無需緊貼圖表。
@@ -2585,7 +2585,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 成為 Bitcoin 的活躍使用者意味著超越長期投資策略。有別於以儲蓄為主而不花費的倉儲者或堆疊者，活躍使用者將 Bitcoin 視為 **Exchange** 的真正媒介。他們使用 Bitcoin 支付商品和服務，並積極參與反經濟活動。
 
 
-![BTC102-Bitcoin](assets/fr/083.webp)
+![image](assets/zh-Hant/085.webp)
 
 
 ### 為什麼要採用主動使用者策略？
@@ -2622,7 +2622,7 @@ Bitcoin 提供多項強大的功能，例如透過 Lightning Network 進行快�
 挑戰包括技術複雜性、價格波動性，以及需要良好的安全衛生以防止資金流失。
 
 
-![BTC102-Bitcoin](assets/fr/086.webp)
+![image](assets/zh-Hant/086.webp)
 
 
 ### 活躍使用者的投資計劃
@@ -2631,7 +2631,7 @@ Bitcoin 提供多項強大的功能，例如透過 Lightning Network 進行快�
 將 Bitcoin 用於日常支付需要深思熟慮且有系統的方法。與 Hodler 或 Stacker 不同，Active User 必須同時管理其資金的長期安全性與日常交易的便利性。在安全的 Cold 儲存與方便的消費資金存取之間取得適當的平衡，是使此策略有效運作的必要條件。
 
 
-![BTC102-Bitcoin](assets/fr/084.webp)
+![image](assets/zh-Hant/087.webp)
 
 
 #### 1.清楚分隔錢包
@@ -2724,7 +2724,7 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 活躍使用者需要在長期儲蓄與手邊供日常使用的 Bitcoin 量之間取得平衡。
 
 
-![BTC102-Bitcoin](assets/fr/085.webp)
+![image](assets/zh-Hant/088.webp)
 
 
 有幾種方式可以取得 Bitcoin，這取決於您想要的隱私等級：
@@ -2774,7 +2774,7 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-![BTC102-Bitcoin](assets/fr/081.webp)
+![image](assets/zh-Hant/089.webp)
 
 
 #### 4.主動開支管理
@@ -2819,7 +2819,7 @@ Bitcoin 通訊協定以及 Layer-2 系統（如 Lightning Network）和與這些
 - 財務紀律：**您用心管理您的 Bitcoin 開銷和儲蓄。您瞭解清楚區分日常資金與長期儲蓄的重要性。**
 
 
-![BTC102-Bitcoin](assets/fr/082.webp)
+![image](assets/zh-Hant/090.webp)
 
 
 總之，活躍使用者在推動 Bitcoin 的生態系統向前發展中扮演著直接的角色。透過將 Bitcoin 融入他們的日常習慣，他們不僅能支持 Bitcoin 的採用，還能增長自己的專業知識。
@@ -2840,7 +2840,7 @@ Bitcoin 通訊協定以及 Layer-2 系統（如 Lightning Network）和與這些
 對他們來說，每個動作都很重要。每筆交易、每項 Wallet 設定，以及與網路的每次互動，都經過仔細考量。一個疏忽就可能揭露將他們的身份與所持有的 Bitcoin 連結起來的敏感資訊。他們的最終目標？以完全保密的方式使用 Bitcoin，不洩露他們的身份、位置和財務狀況。
 
 
-![BTC102-Bitcoin](assets/fr/087.webp)
+![image](assets/zh-Hant/091.webp)
 
 
 ### 為何要採取如此謹慎的態度？
@@ -2868,7 +2868,7 @@ Bitcoin 通訊協定以及 Layer-2 系統（如 Lightning Network）和與這些
 偏執狂比特币使用者遵循嚴格的策略，圍繞兩個核心目標：保持匿名性和最大化安全性。這類使用者希望避免暴露於受監管的平台 (尤其是那些需要 KYC 的平台)，消除交易的可追蹤性，並保護他們的資金免受監控、沒收和其他外部威脅。
 
 
-![BTC102-Bitcoin](assets/fr/092.webp)
+![image](assets/zh-Hant/092.webp)
 
 
 #### 1.設定錢包和節點
@@ -2897,7 +2897,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
-![BTC102-Bitcoin](assets/fr/089.webp)
+![image](assets/zh-Hant/093.webp)
 
 
 
@@ -2923,7 +2923,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-![BTC102-Bitcoin](assets/fr/090.webp)
+![image](assets/zh-Hant/094.webp)
 
 
 安全性並不止於此。在備份 seed 語句時，偏執的使用者會使用金屬備份與防篡改密封信封。他們會定期驗證備份是否未受損害，並測試 Wallet 復原程序，為任何緊急情況做好準備。
@@ -3039,7 +3039,7 @@ https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 由於集中式交換所會造成隱私權、潛在審查或扣押的風險，因此我們完全避免使用集中式交換所。
 
 
-![BTC102-Bitcoin](assets/fr/091.webp)
+![image](assets/zh-Hant/095.webp)
 
 
 #### 3.預防鏈上追蹤
@@ -3099,7 +3099,7 @@ Bitcoin 通訊協定、Lightning Network 及相關工具不斷演進。偏執的
 如果這些特徵聽起來很熟悉，這個策略很可能很適合您。它的要求很高，需要持續努力，但它提供了高度的財務主權和保護，使您的資金不被監控、扣押或追蹤。
 
 
-![BTC102-Bitcoin](assets/fr/088.webp)
+![image](assets/zh-Hant/096.webp)
 
 
 如果您有以下情況，此方法尤其適用：
@@ -3168,7 +3168,7 @@ Pamela Morgan 在她的*[Cryptoasset Inheritance Planning](https://www.amazon.co
 [Pamela Morgan](https://x.com/pamelawjd) 慷慨地授權本課程使用 [她的著作](https://www.amazon.com/gp/product/1947910116/)，我們將依照她的方法來建立具體的 Bitcoin 繼承計畫。在本章中，我們將著重於她著作的第一部分。
 
 
-![BTC102-Bitcoin](assets/fr/093.webp)
+![image](assets/zh-Hant/097.webp)
 
 
 為了更好地瞭解如何建立 Bitcoin 繼承計畫，我們將以 Cédric 為例，他是一位典型的 Bitcoin 使用者，需要安排在發生意外情況時如何傳承他的財富。
@@ -3188,7 +3188,7 @@ Pamela Morgan 在她的*[Cryptoasset Inheritance Planning](https://www.amazon.co
 我們的目標是先針對 Cédric 的個人資料建立簡單有效的計劃，然後再處理涉及其他類型使用者的複雜情況。
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/zh-Hant/098.webp)
 
 
 ### 開始之前
@@ -3211,7 +3211,7 @@ Pamela Morgan 在她的*[Cryptoasset Inheritance Planning](https://www.amazon.co
 - 一台電腦（選購）。
 
 
-![BTC102-Bitcoin](assets/fr/094.webp)
+![image](assets/zh-Hant/099.webp)
 
 
 #### 關於遺產規劃的常見誤解
@@ -3423,7 +3423,7 @@ Pamela Morgan 在她的*[Cryptoasset Inheritance Planning](https://www.amazon.co
 根據您的個人情況，將這封信件手寫多份，並存放在安全的地方（保險箱、信任的人等）。通知您的繼承人這份繼承計劃的存在，但不一定要立即透露其內容。為了加強保護，您可能需要將這封信件放在一個防偽的不透明信封中，以確保在未經您許可的情況下，信件未被取用。
 
 
-![BTC102-Bitcoin](assets/fr/096.webp)
+![image](assets/zh-Hant/100.webp)
 
 
 如有需要，請諮詢律師或公證人，將您的計劃正式整合到法律框架中。
@@ -3457,7 +3457,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 自從我開始教導人們有關 Bitcoin 的知識以來，我和這個生態系統都有了顯著的進步。本課程已完全更新，以反映 Bitcoin 目前所提供的最佳內容。我們一起走過了一段艱辛的旅程！
 
 
-![BTC102-Bitcoin](assets/fr/097.webp)
+![image](assets/zh-Hant/101.webp)
 
 
 ### Bitcoin 的下一步是什麼？
@@ -3478,7 +3478,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 有一點是肯定的：Bitcoin 將繼續存在；約每 10 分鐘產生一個新區塊，日復一日，年復一年，不知疲倦。我們會看到更多的使用者、錢包、交易所，以及更多的法規、技術障礙、危機和創新。
 
 
-![BTC102-Bitcoin](assets/fr/098.webp)
+![image](assets/zh-Hant/102.webp)
 
 
 隨著全球危機持續，通貨膨脹侵蝕法定貨幣的購買力，Bitcoin 自然會吸引更多人加入，那些追求財務自由和個人主權的人。這種動力將不斷強化 Bitcoin，並吸引新的人才來改善其規約、擴充層以及在安全性、隱私性和實用性方面的日常使用案例。

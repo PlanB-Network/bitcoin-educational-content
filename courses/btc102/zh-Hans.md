@@ -45,13 +45,13 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 最后，我将向您介绍一些专为初学者设计的实用技巧，以帮助您在初次使用比特币时避免常见错误。
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/zh-Hans/001.webp)
 
 第二部分，"了解您即将涉足的领域"，将加深您对比特币的全面了解。我们将从回顾开始，确保您充分理解相关的基本概念。
 
 然后，我们将从技术、经济和社会角度描述为什么比特币具有根本性的重要意义，从而增强您对其价值的信念。您还将探索比特币产业的整体情况：其主要参与者、组织结构以及多年来的演变。最后，我们将介绍比特币生态系统的分层式架构，理解该系统如何在不损害其核心协议真实性的情况下不断创新的一个重要概念。
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/zh-Hans/002.webp)
 
 第三部分，"制定您的计划"，将专注于您的个人比特币计划。首先，我们将帮助您从四个主要类别中定义您的用户类型：
 
@@ -62,11 +62,11 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 我们将指导您实施适合您的战略，帮助您实现您的个人目标。
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/zh-Hans/003.webp)
 
 最后，第四部分，"保护您的继承人和财富"，涵盖了一个经常被忽视的重要主题：如何确保您的比特币在发生意外情况时能够被传给您的亲人。您将学习如何创建和制定比特币继承计划，确保您的财富在有生之年得以保全。
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/zh-Hans/004.webp)
 
 完成这门课程后，您将掌握所有实用工具，自信地探索比特币的生态系统，成为其最先进的用户之一！
 
@@ -90,7 +90,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 - 另一方面，**加密货币行业**规模更大，包括数以万计的不同项目，每个项目都有自己的代币。这一领域往往受到快速创新、炒作和短期金融投机的驱动。其中许多项目都是中心化的，安全性较低，尽管有大胆的承诺和华丽的营销，但并不能带来实际价值。
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/zh-Hans/005.webp)
 
 如果您想更好地了解比特币的由来以及它与其他项目的真正不同之处，我建议您稍后查看有关比特币历史的免费课程：
 
@@ -98,7 +98,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 众所周知，Plan ₿ Network 平台专门提供关于比特币的内容。然而，了解与其他加密货币的区别将有助于您避免与无用的、甚至欺诈性项目相关的陷阱。
 
-![BTC102-Bitcoin](assets/fr/002.webp)
+![image](assets/zh-Hans/006.webp)
 
 ### 应避免的主要骗局
 
@@ -108,7 +108,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 这两种骗局都是加密世界中最常见的骗局。在庞氏骗局中，早期参与者用新参与者的钱获得报酬，而不是从任何真正的投资或产品中获得报酬。没有创造任何实际价值。只有不断有新人加入，这个系统才会运转。一旦新参与者的流动放缓，整个系统就会崩溃。
 
-![BTC102-Bitcoin](assets/fr/003.webp)
+![image](assets/zh-Hans/007.webp)
 
 这些骗局通常会有这些特点：
 
@@ -137,13 +137,13 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 - 在炒作的高峰期，内部人士会立即抛售手中的资产。
 - 价格暴跌，让后来者损失惨重。
 
-![BTC102-Bitcoin](assets/fr/004.webp)
+![image](assets/zh-Hans/008.webp)
 
 值得注意的是，在许多国家，Pump & Dump 策略都是非法的，被认为一种市场操纵行为。尽管如此，此类计划仍在蓬勃发展，尤其是在监管仍在跟进的加密货币领域。
 
 对 Telegram、Discord 或其他社交媒体渠道等平台上的私人 "信号" 群组尤其要谨慎。这些群组通常由有影响力的人或自封的专家管理，其中有些甚至收取入会费。虽然这些群组声称提供独家投资机会，但实际情况却更加片面：只有组织者获利，而大多数参与者最终血本无归。
 
-![BTC102-Bitcoin](assets/fr/005.webp)
+![image](assets/zh-Hans/009.webp)
 
 诚然，一些参与者可能会从这类市场操纵中暂时获利，但他们的成功通常靠的只是运气和时机。从长远来看，这些阴谋是不可持续的。它们需要持续的高风险参与，需要反复参与欺诈性的圈套，而这些圈套不可避免地会崩溃。
 
@@ -161,7 +161,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 有时，这些骗局以 "预付费" 欺诈的形式出现。他们承诺给您奖品或奖励（金钱、产品或服务），但首先要求您支付一笔费用，据说是用来支付运费、税费或交易成本等。一旦支付了费用，骗子就消失了，而承诺的奖励却永远不会到手。
 
-![BTC102-Bitcoin](assets/fr/006.webp)
+![image](assets/zh-Hans/010.webp)
 
 #### 提供垃圾币和加密货币
 
@@ -177,7 +177,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 多年来，比特币经历了数次硬分叉，从而产生了原始加密货币的替代版本。简单地说，硬分叉是网络的分裂，产生出两个独立的区块链，在分裂之前，两个区块链共享相同的历史。这些分叉通常发生在部分开发者社区或更广泛的比特币生态系统想要对原始协议进行重大修改，但无法达成广泛共识。他们不会放弃自己的想法，而是决定推出一个新版本的比特币（规则有所改变），希望用户和矿工会选择遵循他们的分叉。
 
-![BTC102-Bitcoin](assets/fr/007.webp)
+![image](assets/zh-Hans/011.webp)
 
 并非所有的硬分叉都是欺诈行为，因为有些分叉源于社区内部的技术或意识形态分歧。但也有一些分叉是出于商业利益甚至不诚实的动机。这些硬分叉中最著名的例子是**比特币Cash（BCH）**和**比特币Satoshi Vision（BSV）**。这些替代货币分别于 2017 年和 2018 年推出，通常声称是原始比特币的 "更好版本"。它们宣传所谓的优势，如交易费用更低或因区块大小增大而交易更快。然而，这些技术变化在安全性、去中心化和稳健性方面带来了重大权衡；可能与原本比特币的基本原则相冲突的元素。
 
@@ -189,7 +189,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 随着加密货币获得主流关注，社交媒体上出现了大量有影响力的人、自封的专家和所谓的 "*加密大师*"。虽然少数人可能会提供真正有教育意义的见解，但也有很多人利用自己的知名度来推广可疑的项目或危险的交易策略（有时甚至是彻头彻尾的欺诈）。
 
-![BTC102-Bitcoin](assets/fr/008.webp)
+![image](assets/zh-Hans/012.webp)
 
 这些有影响力的人往往依靠行之有效的策略来吸引新来者：他们展示令人印象深刻的财务业绩（这些业绩往往是虚假的或无法证实的），炫耀奢华的生活作为所谓的成功证明，并宣传 "神奇" 的投资策略。其目的是引发 FOMO（害怕错过），促使受众做出冲动的决定和不计后果的投资。
 
@@ -254,7 +254,7 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 此外，强烈建议使用可靠的杀毒软件。在 Windows 系统中，内置的 Windows Defender 一般足以满足大多数用户的需求。如果您更喜欢其他功能或可让您放心的选择，也可以选择 Kaspersky 商业软件。在 macOS 上，恶意软件威胁历来**不太常见，但并非不存在**，因此保持谨慎仍是明智之举。
 
-![BTC102-Bitcoin](assets/fr/012.webp)
+![image](assets/zh-Hans/013.webp)
 
 除了系统更新和防病毒保护外，还要特别警惕从不法网站或所谓的 "通用" 下载门户网站下载软件。需要工具或应用程序时，一定要直接从官方来源下载；这样可以大大降低伪装成合法软件安装恶意软件的风险。
 
@@ -278,7 +278,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 这种做法具有很强的复原能力，即使出现严重问题，也能确保您的数据得以保存。
 
-![BTC102-Bitcoin](assets/fr/013.webp)
+![image](assets/zh-Hans/014.webp)
 
 ### 身份证噩梦的解决方案
 
@@ -292,7 +292,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 有了密码管理器，您就再也不用点击 "忘记密码" 或依赖薄弱、重复使用的密码了。此外，大多数密码管理器都能在设备（台式机、手机、平板电脑）间无缝同步，甚至还能自动填写登录表单，让安全访问变得轻松高效。
 
-![BTC102-Bitcoin](assets/fr/011.webp)
+![image](assets/zh-Hans/015.webp)
 
 现在有很多密码管理器，但我可以根据您的需求推荐两个可靠的选择。如果您正在寻找一款简单易用、能在多台设备上无缝同步的密码管理器，Bitwarden 是一个优秀的选择：
 
@@ -306,17 +306,17 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 在比特币世界中，您就是自己的银行。这意味着您也是自己的安全团队。即使设置了强密码，风险仍然无法完全消除——这正是为什么启用双重验证（2FA）至关重要。
 
-![BTC102-Bitcoin](assets/fr/014.webp)
+![image](assets/zh-Hans/016.webp)
 
 2FA 要求使用 Google Authenticator 或 Authy 等应用程序生成基于时间的一次性密码（通常为 6 位数），从而增加了第二重保护。因此，即使有人设法获取了您的密码，如果无法实际访问您的手机，他们仍然无法访问您的账户。
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![BTC102-Bitcoin](assets/fr/009.webp)
+![image](assets/zh-Hans/017.webp)
 
 启用 2FA 后，请确保将应用程序的恢复密钥保存在安全的地方。这样，当您丢失或更换手机时，就可以恢复密码。虽然基于短信或电子邮件的 2FA 聊胜于无，但其安全性要低得多。SIM 卡互换攻击，即有人控制了您的手机号码，可以轻易绕过这种保护。
 
-![BTC102-Bitcoin](assets/fr/010.webp)
+![image](assets/zh-Hans/018.webp)
 
 对于那些希望进一步提高安全性的用户，YubiKey 等实体钥匙可以提供更高级别的保护。
 
@@ -334,7 +334,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 - 允许使用比特币付款
 - 拥有严格的无日志政策
 
-![BTC102-Bitcoin](assets/fr/015.webp)
+![image](assets/zh-Hans/019.webp)
 
 我们在 Plan ₿ Network 上提供了多个教程，可以指导您轻松设置 VPN。我特别推荐 IVPN 或 Mullvad：
 
@@ -369,7 +369,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 此外，请查看 Plan ₿ Network 上的 [我们的计算机安全教程](https://planb.network/tutorials/computer-security)。
 
-![BTC102-Bitcoin](assets/fr/016.webp)
+![image](assets/zh-Hans/020.webp)
 
 在下一章中，我将与大家分享更多技巧，帮助大家满怀信心地开始比特币之旅，并避开许多会让新手措手不及的陷阱。
 
@@ -392,7 +392,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 - 保持谦虚，保持**低调**（谨慎是安全的一部分）；
 - **从长远考虑**，放大并保持耐心（把它当作一场马拉松，而不是短跑）。
 
-![BTC102-Bitcoin](assets/fr/017.webp)
+![image](assets/zh-Hans/021.webp)
 
 ### 应避免的常见错误
 
@@ -412,7 +412,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 - **忘记税收**：每个国家都有自己的加密货币税收规则。忽视这些规定可能会在日后带来痛苦的意外。
 - **陷入 FOMO**：因害怕错过而冲动购买，通常会导致时机不对和决策失误。耐心是您最好的盟友。
 
-![BTC102-Bitcoin](assets/fr/019.webp)
+![image](assets/zh-Hans/022.webp)
 
 ### 确定一个投资战略
 
@@ -422,7 +422,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 这样的做法可以确保您不会将自己的财务状况置于风险之中，尤其是在市场下滑的情况下。深思熟虑的策略是长期抗风险能力的基础。
 
-![BTC102-Bitcoin](assets/fr/020.webp)
+![image](assets/zh-Hans/023.webp)
 
 确定预算后，请考虑如何投资。最适合初学者且广为推荐的方法之一是美元成本平均法（DCA），即定期（每周、每月等）购买固定数量的比特币。这种策略有助于使您的平均入市价格随着时间的推移趋于平稳，并减少价格波动对情绪的影响。对于大多数人，尤其是新手来说，这是一种明智的方法。
 
@@ -440,7 +440,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 比特币以其剧烈的价格波动而闻名。在短短几天内，10%、20% 甚至 50% 的波动并不罕见。对于新手来说，这种波动会让人迷失方向。在牛市时很容易被炒作所迷惑，在跌市时也很容易产生恐慌；这两种情况往往会导致错误的决策，比如亏损卖出。
 
-![BTC102-Bitcoin](assets/fr/021.webp)
+![image](assets/zh-Hans/024.webp)
 
 因此，在投资前**了解并接受比特币的波动性**至关重要。这些价格波动不是问题，而是一种仍在成熟期的资产的特征。如果突如其来的大起大落让您彻夜难眠，或迫使您做出情绪化的决定，那么可能您投入的资金已经超过了您所能承受的风险。在这种情况下，请退一步，重新评估您的策略和风险承受能力。毫不犹豫地降低仓位，直到您感觉更安心为止。
 
@@ -450,13 +450,13 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 比特币最强大（但往往被低估）的功能之一是**自我托管**。使用自我托管的钱包，您只需对您的资金负责。这些钱包通常由**恢复短语**（也称为种子短语）生成，该短语由 12 或 24 个单词组成，可以完全访问您的比特币。如果您丢失了这个短语（或被他人获取），您的比特币将永远消失。 **没有客户支持。没有重置按钮。**
 
-![BTC102-Bitcoin](assets/fr/023.webp)
+![image](assets/zh-Hans/025.webp)
 
 这就是为什么比特币的黄金法则是：
 
 "***不是你的钥匙，就不是你的比特币***"。如果您不能亲自控制您的私钥，您就不能真正拥有您的比特币。虽然交易所很方便（尤其是在刚开始的时候），但它们会替您保管密钥。这意味着如果平台被黑客攻击、冻结账户或破产，您的资金将面临风险。
 
-![BTC102-Bitcoin](assets/fr/024.webp)
+![image](assets/zh-Hans/026.webp)
 
 为避免这种风险，强烈建议设置**自己的钱包**，只有自己才能访问恢复短语。应始终手写该短语，并将其**离线**存储在安全位置。有些用户甚至**维护多个备份**，分别存储在不同的地理位置，以提高安全性。
 
@@ -488,11 +488,11 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 在一些地方，利润在出售时作为资本收益征税。还有一些地方可能要求您申报每笔交易，还有一些地方适用不太常见的规则，如财富税或社会贡献税。
 
-![BTC102-Bitcoin](assets/fr/018.webp)
+![image](assets/zh-Hans/027.webp)
 
 在进行任何重大交易之前，强烈建议咨询税务专业人士或查阅政府的官方指南。花出时间提前了解您的纳税义务，可以避免日后出现意想不到的问题（如罚款、审计或罚金），尤其是当您计划进行大额销售或投资组合重新分配时。
 
-![BTC102-Bitcoin](assets/fr/022.webp)
+![image](assets/zh-Hans/028.webp)
 
 ### 交易、投资和持有的区别
 
@@ -535,7 +535,7 @@ Robert T. Kiyosaki 的《富爸爸穷爸爸》（*Rich Dad, Poor Dad*）一书�
 
 如果您准备深入了解，《*The Investors Podcast*》等播客会就投资、市场和经济原理进行深入讨论。他们偶尔也会报道比特币，对于那些想了解比特币如何融入更广泛的金融领域的人来说，这是一个坚实的下一步。
 
-![BTC102-Bitcoin](assets/fr/025.webp)
+![image](assets/zh-Hans/029.webp)
 
 ### 谨记的黄金法则
 
@@ -569,7 +569,7 @@ Robert T. Kiyosaki 的《富爸爸穷爸爸》（*Rich Dad, Poor Dad*）一书�
 
 该项目深受密码朋克精神的影响；密码朋克是一个由开发人员和思想家组成的社区，他们相信利用密码学来保护个人的网络自由。对他们来说，隐私和去中心化不是技术上的偏好，而是意识形态上的必需。比特币是这些理想最成功的体现：一个任何人都可以使用、任何人都无法控制、所有人都可以验证的点对点货币网络。
 
-![BTC102-Bitcoin](assets/fr/035.webp)
+![image](assets/zh-Hans/030.webp)
 
 密码朋克是一个非正式的国际团体，他们倡导使用密码学来捍卫网上个人自由。他们坚信个人的隐私权，尤其是在政府监控和企业数据开发日益盛行的今天。
 
@@ -577,7 +577,7 @@ Robert T. Kiyosaki 的《富爸爸穷爸爸》（*Rich Dad, Poor Dad*）一书�
 
 1992 年，"密码朋克" 邮件列表（Cypherpunks mailing list）的创建是这场运动的一个重要里程碑，在这个论坛上，有关隐私和密码学的想法、项目和政治讨论蓬勃发展。1993 年，Eric Hughes 发表了《密码朋克宣言》，这是一份简短而有力的宣言，明确表达了该社区的使命和信念。
 
-![BTC102-Bitcoin](assets/fr/032.webp)
+![image](assets/zh-Hans/031.webp)
 
 独立于任何中央机构运作的数字货币（如比特币）的理念深深植根于密码朋克的哲学中。
 
@@ -591,11 +591,11 @@ Robert T. Kiyosaki 的《富爸爸穷爸爸》（*Rich Dad, Poor Dad*）一书�
 
 这不仅仅是一个日期或一份技术说明，而是一次悄无声息但却声势浩大的抗议。它表明，比特币的设计目标与众不同：一个不依赖银行、救助或政府决策的金融体系。
 
-![BTC102-Bitcoin](assets/fr/034.webp)
+![image](assets/zh-Hans/032.webp)
 
 许多人将此视为比特币的目标：提供一种无需中间商的价值转移方式，由明确的规则控制，而不是由中央银行或政府做出往往不明确的决定。
 
-![BTC102-Bitcoin](assets/fr/033.webp)
+![image](assets/zh-Hans/033.webp)
 
 为了加深您对比特币起源的了解，我们提供了与该主题相关的免费、全面且有据可查的培训课程：
 
@@ -607,17 +607,17 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 比特币被定义为 "点对点的电子现金系统"。这意味着任何人都可以使用相应的软件（比特币节点）连接到网络，直接与其他用户互动，而无需依赖中央服务器。这种去中心化的目标是防止任何单一实体（如银行、政府或大公司）控制、审查或阻止该系统。比特币在全球范围内全天候运行，每个人都可以无条件访问。
 
-![BTC102-Bitcoin](assets/fr/036.webp)
+![image](assets/zh-Hans/034.webp)
 
 简单地说，比特币网络中的每个参与者（称为 "节点"）都有一份完整的交易记录副本，即区块链。当有新的交易发生时，就会向网络广播。矿工们会将这些交易组合成区块，然后添加到链的末端，以此来确认这些交易（因此被称为 "区块链"）。
 
-![BTC102-Bitcoin](assets/fr/029.webp)
+![image](assets/zh-Hans/035.webp)
 
 #### 区块链：一个核算的账本
 
 把区块链视为一个巨大的会计账本，每一行都代表一笔交易。在传统的银行系统中，数据库被存储在银行的服务器上，银行可以随时进行更改。另一方面，在比特币中，**所有更改都会在整个网络中得到验证**：一旦一个含有交易的区块被添加到区块链上，那么它后来不可能被更改。这种分散式验证使比特币的会计账本安全透明。
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/zh-Hans/036.webp)
 
 ### 矿工和工作量证明的作用
 
@@ -633,7 +633,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 最终，在 2140 年左右，补贴将达到零，因为比特币的供应量将达到 2100 万枚金币的上限。这种可预测的发行曲线模仿了黄金等实物商品的稀缺性；这也是比特币经常被称为**数字黄金**的原因之一。
 
-![BTC102-Bitcoin](assets/fr/031.webp)
+![image](assets/zh-Hans/037.webp)
 
 ### 比特币的货币属性
 
@@ -651,7 +651,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 比特币最被低估的优势之一就是它的可分割性。每枚比特币都可以分解成 1 亿个单位，即聪（简称 Sats）。这意味着您不需要花费数万欧元或美元来入门；您只需购买价值几欧元的比特币，小到几分之一。
 
-![BTC102-Bitcoin](assets/fr/026.webp)
+![image](assets/zh-Hans/038.webp)
 
 ### 公开性和透明度
 
@@ -661,7 +661,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 这种透明度使得引入后门或进行秘密修改变得异常困难。任何有技术能力的人都可以运行节点、参与开发或构建兼容工具。在比特币中，信任是通过代码和共识获得的，而不是通过集中控制。
 
-![BTC102-Bitcoin](assets/fr/030.webp)
+![image](assets/zh-Hans/039.webp)
 
 这种透明度是人们信任比特币协议的重要原因之一；它防止了一小部分开发者为一己私利操纵网络。比特币遵循一个简单而有力的原则：如果您不同意建议的修改，您可以不更新您的软件。在某些情况下，这不会造成任何干扰；你仍然可以与网络的其他部分保持同步。但在其他情况下，这可能会导致所谓的硬分叉，即网络一分为二，形成新版本的比特币。这正是 2017 年比特币（BTC）和比特币Cash（BCH）分裂时发生的情况。
 
@@ -695,7 +695,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 尽管如此，比特币在诞生十多年后，仍继续引发争论和激情。比特币的采用率越来越高，第二层解决方案（如闪电网络）也在不断涌现，以提高交易速度和降低费用，全球企业也在尝试新的使用案例。在未来的几十年里，比特币很可能会继续影响支付系统，甚至影响我们对金钱的认知方式。
 
-![BTC102-Bitcoin](assets/fr/028.webp)
+![image](assets/zh-Hans/040.webp)
 
 如果您想进一步拓展知识面，可以参加 Plan ₿ Network 的 BTC101 课程，该课程对比特币的技术和经济基础进行了更深入的探讨。
 
@@ -721,33 +721,33 @@ Barack Obama 把比特币称作 "您口袋里的瑞士银行"，这是有道理�
 - 无中介或隐性收费。
 - 比特币可在互联网上运行，这意味着任何可以上网的人都可以使用它。
 
-![BTC102-Bitcoin](assets/fr/037.webp)
+![image](assets/zh-Hans/041.webp)
 
 比特币可以被视为真正的 "人民货币"，是一种不依赖任何中央机构、基于不能改变的规则而非任意决定的替代货币体系。它的开放性和可获取性使其成为全球数十亿人的潜在革命性工具，无论他们是被排除在传统银行体系之外，还是仅仅在寻求一种更有主权的替代选择。
 
 这就引出了一个基本的、近乎哲学的问题，它将比特币的爱好者分为两大世界观。一方面，一些人将 比特币视为促进金融包容性的解决方案，使数十亿没有银行账户的个人最终能够使用全球货币基础设施。另一方面，一些人认为比特币是一种金融自由工具，旨在为数十亿已经融入银行系统、但希望摆脱对银行系统的依赖并重新完全控制自己的资金的人们提供一条出路。这种思考值得我们关注，我们稍后将详细讨论。
 
-![BTC102-Bitcoin](assets/fr/044.webp)
+![image](assets/zh-Hans/042.webp)
 
 ### 防范货币危机
 
 几个世纪以来，世界经历了多次货币危机，对人民造成了毁灭性的影响。数十亿人仍在承受着管理不善的货币政策带来的后果，操纵货币供应量和利率造成了系统性失衡。这些危机并非偶然的事件--它们是建立在干预、操纵货币和时间价值基础上的系统的结果。
 
-![BTC102-Bitcoin](assets/fr/045.webp)
+![image](assets/zh-Hans/043.webp)
 
 这些危机可以有许多不同的形式。例如，恶性通货膨胀会逐渐摧毁人们的购买力，从而消灭一种货币；津巴布韦和委内瑞拉等国的情况就是如此。另一方面，严格的货币控制会限制人们获得资金，剥夺个人的经济自由，希腊和黎巴嫩的银行业限制就是一例。
 
-![BTC102-Bitcoin](assets/fr/047.webp)
+![image](assets/zh-Hans/044.webp)
 
 最后，当政府让本国货币贬值时，会逐渐侵蚀人们的储蓄；这是一种无形但持续的财富流失。在许多方面，这就像一种隐性税收。只要货币政策仍然掌握在中央政府手中，这些循环就注定会重演。
 
-![BTC102-Bitcoin](assets/fr/038.webp)
+![image](assets/zh-Hans/045.webp)
 
 比特币为这种长期货币不稳定的循环作为一个大胆的替代方案。与国家发行的货币不同，比特币建立在不可改变、基于数学的规则之上，这些规则由共识执行，而不是由政府或中央银行执行。它的发行量是可预测的，上限约为 2100 万枚，是一种旨在长期保持其价值的稳健货币。由于它不受审查，任何人都可以存储和转移价值，而无需依赖机构。由于其可分割性和便携性，它既方便又实用；是任何人在任何地方都可以使用的金融基础设施。
 
 **您知道吗？** 历史上，全世界至少发生过56次有记录的恶性通货膨胀。在许多案例中，整个经济体崩溃，毕生积蓄化为乌有，数百万人陷入赤贫。更糟糕的是，这些货币失灵往往成为政治动荡的跳板；有时会导致专制政权的建立，如 20 世纪 20 年代的德国和 20 世纪 70 年代的智利。
 
-![BTC102-Bitcoin](assets/fr/039.webp)
+![image](assets/zh-Hans/046.webp)
 
 Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.In R. Parker & R. Whaples (Eds.), The Handbook of Major Events in Economic History.Routledge Publishing.取自 https://ssrn.com/abstract=2130109
 
@@ -757,7 +757,7 @@ Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.In R. Parker & R. Whapl
 
 世界各地日益加剧的经济不平等一直是社会动荡和政治极端主义兴起的沃土。历史表明，当贫富差距过大时，往往会导致紧张局势、危机，甚至专制政权的崛起。面对这些风险，保护自己的财务自由不仅仅是一种奢望，对于任何想要维护自己的自主权和保障家庭未来的人来说，这都是必需的。
 
-![BTC102-Bitcoin](assets/fr/046.webp)
+![image](assets/zh-Hans/047.webp)
 
 但是，在一个国家可以完全控制资产和交易的世界里，有什么真正的选择来保护你的储蓄呢？
 
@@ -769,7 +769,7 @@ Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.In R. Parker & R. Whapl
 
 因此，比特币不仅仅是一项技术。它是自然法的一种工具，是个人维护其基本权利的一种方式，即使这些权利被国家法律所剥夺。它将权力交还给人民，不是通过革命，而是通过代码实现。
 
-![BTC102-Bitcoin](assets/fr/040.webp)
+![image](assets/zh-Hans/048.webp)
 
 **您知道吗**？比特币是假名的（pseudonymous），不是匿名的）（anonymous）。用户可以创建钱包地址，而不暴露真实身份，从而可以在传统银行系统之外收发资金。
 
@@ -785,7 +785,7 @@ Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.In R. Parker & R. Whapl
 
 这不是制度的缺陷，而是一种蓄意的机制。中央银行和政府利用它来人为地刺激经济增长，推动人们不断消费和增加债务。
 
-![BTC102-Bitcoin](assets/fr/041.webp)
+![image](assets/zh-Hans/049.webp)
 
 我们的现代金融体系建立在债务循环的基础上；在这个体系中，借贷不仅受到鼓励，而且几乎不可避免。个人通过贷款来维持自己的生活方式，却发现自己被困在一个必须向凭空创造货币的银行偿还利息的系统中。这不是偶然的；这是一种结构设计，目的是让金融机构受益，而牺牲普通公民的利益。
 
@@ -797,7 +797,7 @@ Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.In R. Parker & R. Whapl
 
 以前，黄金是防止货币无节制扩张的制衡工具。但自 1971 年金本位制崩溃以来，任何国家的货币（无论是美元、欧元还是日元）都没有有形资产作为支撑。这种脱离给了中央银行不受约束地印制钞票的自由，为数十年来激进的货币扩张、反复的资产泡沫和不断发生的金融危机铺平了道路。
 
-![BTC102-Bitcoin](assets/fr/042.webp)
+![image](assets/zh-Hans/050.webp)
 
 当您把钱存入银行时，它就不再真正属于您了。
 
@@ -832,7 +832,7 @@ Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.In R. Parker & R. Whapl
 - **奥地利经济学家**，主张健全的货币和不受政府操纵的自由；
 - **工程师、金融家和言论自由倡导者**，他们认识到这种新货币范式的深远社会影响。
 
-![BTC102-Bitcoin](assets/fr/043.webp)
+![image](assets/zh-Hans/051.webp)
 
 比特币的设计超越了政治和意识形态的分歧。它不是左派或右派，也不是自由主义或集体主义。它是一个中立的协议，受规则（而非统治者）的支配，平等地适用于每个人。然而，它的存在本身就是对全球金融现状的挑战。比特币已成为抵抗的象征，因为人们已将其作为法定货币和集中式金融基础设施的替代品；这些系统越来越被视为不公正、可操控和排斥性的。
 
@@ -840,13 +840,13 @@ Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.In R. Parker & R. Whapl
 
 比特币可实现抗审查、点对点的数字交易，不受中介或看门人的限制。正如中本聪所设想的那样，它提供了现金的数字等价物：一种无需许可即可自由交换价值的方式。
 
-![BTC102-Bitcoin](assets/fr/048.webp)
+![image](assets/zh-Hans/052.webp)
 
 比特币不是一个组织，也不是一个政党，但不可否认的是，它传递着强大的哲学信息。它重新定义了个人与国家之间的关系，挑战了中央银行对货币创造和经济控制的垄断。
 
 无论是自由战士，还是那些只想保住购买力的人，比特币都标志着一个新时代的开始；在这个时代，金融主权成为一项基本人权，人人都能享有。
 
-![BTC102-Bitcoin](assets/fr/049.webp)
+![image](assets/zh-Hans/053.webp)
 
 既然我们已经探讨了中本聪发明的深远意义，下一章将带我们了解围绕这一协议发展起来的非凡行业；一个重塑金融、技术和社会的完整生态系统。
 
@@ -862,7 +862,7 @@ Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.In R. Parker & R. Whapl
 
 比特币是一项彻底的创新，是从零到一的飞跃。它代表着与传统货币模式的彻底决裂。对某些人来说，这种颠覆是一种威胁；是对其既有权力和特权的生存挑战。对他们来说，比特币是一个本不该被打开的潘多拉魔盒，他们会用尽一切手段来抵制它。
 
-![BTC102-Bitcoin](assets/fr/050.webp)
+![image](assets/zh-Hans/054.webp)
 
 然而，另一些人则将比特币视为千载难逢的机遇：个人自由的工具、全球金融体系变革的催化剂，以及通往更透明、更公平的替代选择的道路。这些人是建设者、采用者和贡献者（塑造未来的人）。
 
@@ -925,13 +925,13 @@ Hanke, S. H., & Krus, N. (2013). *World Hyperinflations*.In R. Parker & R. Whapl
 
 Facebook 的 “Libra” 从来都不是用来挑战现状的，它是为了与系统协同工作而建立的。相比之下，比特币完全存在于系统之外。它不需要征得许可。它不依赖信任。十多年来，它一直在完美无瑕地运行（没有领导、没有停机、没有中央控制）。
 
-![BTC102-Bitcoin](assets/fr/051.webp)
+![image](assets/zh-Hans/055.webp)
 
 ### 监管和政府方法
 
 比特币就其本质而言，是在传统框架之外运作的。它不依赖于中央机构，任何单一实体都无法控制或改变它。虽然协议本身不受监管，但与之互动的参与者（交易所、企业和用户）仍受国家法律的约束。
 
-![BTC102-Bitcoin](assets/fr/052.webp)
+![image](assets/zh-Hans/056.webp)
 
 由于比特币是一个全球网络，各国的应对方式大相径庭：
 
@@ -941,7 +941,7 @@ Facebook 的 “Libra” 从来都不是用来挑战现状的，它是为了与�
 
 - **大多数国家仍未做出决定**，在尝试监管的同时，也在努力平衡创新与监督。
 
-![BTC102-Bitcoin](assets/fr/056.webp)
+![image](assets/zh-Hans/057.webp)
 
 政府和机构往往难以准确地确定比特币是什么（是金钱、财产，还是全新的东西？）因此，法规往往是被动的、不一致的、不断变化的。如果您参与了比特币项目，就必须随时了解当地的情况，尤其是涉及税收、银行准入和合规规则时。
 
@@ -964,7 +964,7 @@ Facebook 的 “Libra” 从来都不是用来挑战现状的，它是为了与�
 
 遵守当地法规的交易所通常必须执行严格的 “了解你的客户”（KYC）规定，要求用户在使用服务前提供身份证件。虽然这些程序旨在防止非法活动，但它们可能会损害比特币本身提供的隐私。
 
-![BTC102-Bitcoin](assets/fr/053.webp)
+![image](assets/zh-Hans/058.webp)
 
 KYC 平台以“安全”为名收集您的个人信息，而这些数据可能被政府利用来监控您的财务交易，甚至限制您对某些操作的访问权限。
 
@@ -1078,11 +1078,11 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 我们欢迎创新，但创新必须有可靠的理由、社区共识和仔细的测试作为支撑。
 
-![BTC102-Bitcoin](assets/fr/054.webp)
+![image](assets/zh-Hans/059.webp)
 
 尽管有些人可能会认为，没有人可以单方面控制比特币，甚至比特币Core 的维护者也不是例外。他们的职责是管理软件库，而不是协议本身。
 
-![BTC102-Bitcoin](assets/fr/055.webp)
+![image](assets/zh-Hans/060.webp)
 
 即使维护者批准了有争议的改动，也不会影响网络，除非**节点**（由用户运行）实际采用并运行该版本。归根结底，比特币的代码只有在人们选择运行它时才会起作用。
 
@@ -1106,7 +1106,7 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 比特币由 Thaddeus Dryja 和 Joseph Poon 于 2016 年创建，是第二层的解决方案，旨在实现即时、低成本支付。两个用户可以打开一个私人通道进行交易，只有在通道打开或关闭时，区块链上才会更新余额。通道内的交易在链外进行，这意味着无需在比特币区块链上单独记录。这种结构实现了即时交易和最低费用，非常适合需要快速确认的低额交易。
 
-![BTC102-Bitcoin](assets/fr/059.webp)
+![image](assets/zh-Hans/061.webp)
 
 假设您用比特币购买一杯咖啡，使用的是基础层次。为了确认付款（也为了让咖啡馆确定您确实付过款），交易需要包含在一个区块中。这可能需要几分钟时间，取决于您选择的费用。从技术上讲，商家应等待六次确认（约一小时），才能完全确定付款最终完成。显然，这种等待在柜台前是行不通的。有了闪电网络，只需几秒钟就能完成支付；这样，您的咖啡还没来得及冷却，就已经付好款并端上桌了。
 
@@ -1132,7 +1132,7 @@ RGB 是一个去中心化、注重隐私的智能合约系统，设计用于在�
 
 RGB 的一个主要特点是通过一种名为 "一次性密封" 的加密技术，实现对重复消费的保护。这种机制依赖于 比特币的 UTXO（未用交易输出）只能使用一次这一事实。用户端对合约的整个历史（从创建到当前状态）进行验证，以确保代币的真实性。
 
-![BTC102-Bitcoin](assets/fr/060.webp)
+![image](assets/zh-Hans/062.webp)
 
 为了加深您对 RGB 的了解，我们开设了四年级培训课程（请注意，该课程内容高度技术性）：
 
@@ -1142,7 +1142,7 @@ RGB 只是建立在比特币基础上的众多协议之一。虽然有些协议�
 
 这种分层设计与更广泛的加密行业形成鲜明对比，后者往往试图将许多功能捆绑到一个协议中。通过保持比特币的简单性和专注性，我们减少了它的攻击面；这意味着更高的安全性。精简的协议更容易确保安全、维护和扩展。比特币的设计只为做好一件事：提供健全的去中心化货币。其他一切（智能合约、代币、支付等）都可以在其基础上进行分层，从而在不损害核心部分的情况下实现创新。
 
-![BTC102-Bitcoin](assets/fr/058.webp)
+![image](assets/zh-Hans/063.webp)
 
 **您知道吗**？互联网并不是一下子就建成的，它是由一系列可互操作的协议堆叠而成的。例如，TCP/IP 处理网络通信，HTTP 为网络提供动力，还有许多拥有不同功能的其他层面。每个层面都针对其工作更加优化，从而创建了一个强大的模块化系统。比特币也遵循同样的理念。其基础层面强大而简约，通过分层协议（如闪电网络、Liquid 或 RGB）增加额外功能；每个协议都专注于解决不同的用户需求，同时保持基础不变。
 
@@ -1180,7 +1180,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 我们已经达到了任何人都可以参与比特币生态系统的程度；无论是在日常生活中使用它，还是在业务中采用它，无论是为教育做出贡献，还是帮助改进代码，抑或是构建新的应用程序。比特币现在谁都不可阻挡。
 
-![BTC102-Bitcoin](assets/fr/057.webp)
+![image](assets/zh-Hans/064.webp)
 
 ### 我的个人观点
 
@@ -1210,7 +1210,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 本课程适合初学者。因此，我们将专注于简单、初学者易于设置的解决方案。我们不会介绍挖矿等间接接触方法、购买比特币相关公司的股票或复杂的财务策略。我们的目标是帮助您选择适合您情况的钱包并安全地获得您的第一笔比特币。
 
-![BTC102-Bitcoin](assets/fr/063.webp)
+![image](assets/zh-Hans/065.webp)
 
 ### 为什么要了解用户类型？
 
@@ -1226,7 +1226,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 这些因素中的每一个都会对您制定正确的战略产生影响。有些用户看重受监管服务的简单性和易用性，而有些用户则更喜欢更自主和注重隐私的方式。
 
-![BTC102-Bitcoin](assets/fr/064.webp)
+![image](assets/zh-Hans/066.webp)
 
 这就是我们接下来要探讨的：获取和保护比特币的不同方法，这样您就可以根据自己的情况和目标做出明智的决定。
 
@@ -1234,7 +1234,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 选择正确的策略获取和保护比特币，首先要对个人情况进行诚实的评估。有几个因素会影响这些决定，包括您可能面临的风险、您的生活方式以及您计划如何使用比特币。
 
-![BTC102-Bitcoin](assets/fr/065.webp)
+![image](assets/zh-Hans/067.webp)
 
 #### 潜在风险和威胁
 
@@ -1248,7 +1248,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 为了更好地了解您的漏洞，请按照从 0（低）到 10（高）的等级对每项风险进行评分。这项自我评估将帮助您优先采取正确的保护措施。
 
-![BTC102-Bitcoin](assets/fr/061.webp)
+![image](assets/zh-Hans/068.webp)
 
 #### 生活方式和个人习惯
 
@@ -1280,13 +1280,13 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 - 如何购买比特币
 - 您的交易额
 
-![BTC102-Bitcoin](assets/fr/062.webp)
+![image](assets/zh-Hans/069.webp)
 
 ### 钱包和安全策略
 
 拥有和使用比特币的最重要部分就是保护您的私人密钥（可以访问您的比特币的密钥）。传统的银行账户由第三方管理您的资金，而比特币则完全由您自己控制。但这种自由也带来了责任：如果您丢失了钥匙，您的比特币将永远消失。您可以使用多种类型的钱包。根据您的需求和经验水平，每种钱包都有自己的优缺点。
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/zh-Hans/070.webp)
 
 #### 热钱包
 
@@ -1368,7 +1368,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 即使您是初学者，我们也不推荐托管服务。花时间学习如何妥善保管自己的比特币要比冒着因为别人失败而失去一切的风险要好得多。但是，如果您在这里阅读关于钱包和密钥管理的文章，您可能已经明白了这一原则的重要性。
 
-![BTC102-Bitcoin](assets/fr/068.webp)
+![image](assets/zh-Hans/071.webp)
 
 钱包和安全方法的选择取决于您的存储量、您的专业水平以及您认为的潜在风险。不过，混合方法不失为一种明智的选择：
 
@@ -1377,7 +1377,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 如果您的热钱包积累了太多比特币，您可以将部分比特币转移到冷存储空间。另一方面，如果您需要更多比特币用于日常消费，您可以从冷钱包中提取。
 
-![BTC102-Bitcoin](assets/fr/066.webp)
+![image](assets/zh-Hans/072.webp)
 
 归根结底，安全性在很大程度上取决于您如何使用这些工具。如果您丢失、暴露或破坏了助记词短语，硬件钱包对您也没有什么用处。谨慎和自律是防止丢失比特币的最佳保护措施。关于这方面的更多信息，我强烈推荐阅读这篇文章：
 
@@ -1387,7 +1387,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 获取比特币的方法有很多种，这取决于你需要多少隐私、你所在国家的法规以及你想要获取的数量。主要有两种方法：
 
-![BTC102-Bitcoin](assets/fr/070.webp)
+![image](assets/zh-Hans/073.webp)
 
 #### 通过身份验证（KYC）进行收购
 
@@ -1492,7 +1492,7 @@ KYC 交易所的最大弊端是隐私风险，这也会影响您的个人安全�
 
 这种方式特别适合生活在对比特币充满敌意的环境中的人，因为在这种环境中拥有或使用比特币可能会受到制裁。这是一种更为复杂的方法，需要一定程度的专业技术知识和严格的纪律，以避免任何资金损失。
 
-![BTC102-Bitcoin](assets/fr/069.webp)
+![image](assets/zh-Hans/074.webp)
 
 ### 您是哪一类？
 
@@ -1508,7 +1508,7 @@ KYC 交易所的最大弊端是隐私风险，这也会影响您的个人安全�
 
 在比特币社区，"持有者" 这一词指的是采取长期投资方法的人。这个词起源于多年前 Bitcoin Talk 论坛上一个著名的 "hold" 错别字，后来成为决心的象征：无论如何都要持有自己的比特币，不要因短期市场波动而紧张。
 
-![BTC102-Bitcoin](assets/fr/071.webp)
+![image](assets/zh-Hans/075.webp)
 
 持有者相信比特币的价值主张。由于供应量的固定值为 2,100 万枚比特币，他们将比特币视为一种长期的价值存储（数字黄金）。
 
@@ -1556,7 +1556,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![BTC102-Bitcoin](assets/fr/073.webp)
+![image](assets/zh-Hans/076.webp)
 
 #### 2.购买比特币并提取它
 
@@ -1572,7 +1572,7 @@ https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7
 
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![BTC102-Bitcoin](assets/fr/074.webp)
+![image](assets/zh-Hans/077.webp)
 
 一些持有者还采用了一种混合方法，即使用 DCA（美元成本平均法）--定期少量买入，以应对市场波动。
 
@@ -1605,7 +1605,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 霍德勒的策略简单而有力：购买、安全和遗忘。真正的挑战不在于技术，而在于心理。最难的部分是克制过早卖出或在价格下跌时恐慌的冲动。但是，如果您保持纪律性并从长远考虑，事实证明，"套期保值" 是一种可靠的保值方式，并能随着时间的推移积累财富。
 
-![BTC102-Bitcoin](assets/fr/075.webp)
+![image](assets/zh-Hans/078.webp)
 
 ### 评估您是不是一位持有者
 
@@ -1617,7 +1617,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 - **情绪恢复能力** ：比特币的价格可能在几周内下跌 50%，甚至更多。他们已将波动不会破坏比特币基本面的理念内化于心。这种情感上的坚韧使他们能够在不确定的情况下保持冷静的头脑，并在其他人恐慌时保持理性的观点；
 - **对技术的信任**：持有者不认为比特币只是一种投机资产。他们相信其技术及其颠覆性的潜力。对许多人来说，这不仅仅是钱的问题，更是自由的问题。比特币被视为一种有弹性、非政治性的货币，是传统银行业务的真正替代品，赋予个人更大的金融主权。
 
-![BTC102-Bitcoin](assets/fr/072.webp)
+![image](assets/zh-Hans/079.webp)
 
 持有很个简单、有效、易学，即使是初学者也能轻松掌握。下一章，我们将探讨一种类似但更活跃的模式：囤币者。
 
@@ -1629,7 +1629,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 这个游戏的理念很简单：比特币的数量永远只有 2100 万左右，每一个零头都很重要。囤币者的任务就是稳定地积累尽可能多的比特币。
 
-![BTC102-Bitcoin](assets/fr/076.webp)
+![image](assets/zh-Hans/080.webp)
 
 ### 为什么选择囤币者策略？
 
@@ -1686,7 +1686,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 最有效的方法是两者兼用：热钱包用于日常堆放，硬件钱包用于长期冷存储。热钱包使用起来简单方便。它可以让您快速拥有比特币，而不是把它们留在平台上，让它们面临风险。不过，与硬件钱包相比，热钱包的安全性要低得多。因此，囤币者必须定期将资金转移到冷钱包中，以确保其长期储蓄的安全，并避免在热钱包中保留过多资金。在转入冷存储库时，囤币者定期合并 UTXO；合并小额投入，以优化未来的交易费用。
 
-![BTC102-Bitcoin](assets/fr/077.webp)
+![image](assets/zh-Hans/081.webp)
 
 #### 2.制定 DCA 采购计划
 
@@ -1696,7 +1696,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 接下来，您有两种设置 DCA 的选择：自动或手动管理。现在，大多数受监管的交易平台都提供自动化 DCA 的选项。只要您的账户中有足够的法币，平台就会根据您设置的参数自动执行您的买单。此外，还有越来越多的平台致力于 DCA 自动化，提供额外的服务，如自动提款到您的自我托管钱包或四舍五入您的日常开支。如果您使用的是受监管的平台，我强烈建议您将 DCA 自动化，以便更放心地进行日常管理。
 
-![BTC102-Bitcoin](assets/fr/078.webp)
+![image](assets/zh-Hans/082.webp)
 
 DCA 平台实例：
 
@@ -1745,7 +1745,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 - 随时了解比特币的技术发展；
 - 定期检查助记词备份和硬件钱包状态：现在您的钱包已经安装好了，因此必须进行定期监控。定期检查助记词短语是否仍在其存储位置，其不透明封套是否被打开。在这些检查过程中，您也可以打开信封检查介质的状况。确保介质未损坏，句子仍然清晰可辨。如果有任何损坏迹象，最好从硬件钱包创建一个新的副本。您也可以定期检查硬件钱包。
 
-![BTC102-Bitcoin](assets/fr/080.webp)
+![image](assets/zh-Hans/083.webp)
 
 为了在不影响安全的情况下方便监控，可设置观察钱包使用公钥查看余额。
 
@@ -1761,7 +1761,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 - **金融知识**：对 DCA、风险管理和比特币市场基本面的扎实了解有助于您充满信心地进行投资。了解情况的投资者更有能力抵御疑虑，避免在剧烈波动期间做出冲动的决定。
 - **长期愿景**：囤币者坚信比特币的技术潜力。他们关注的不是短期的价格波动，而是多年来稳步增长的持股量。
 
-![BTC102-Bitcoin](assets/fr/079.webp)
+![image](assets/zh-Hans/084.webp)
 
 简而言之，对于那些希望长期建立比特币仓位、降低波动风险并保持完全主权的人来说，囤币者是理想之选，而不必拘泥于图表。
 
@@ -1773,7 +1773,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 成为比特币的积极使用者意味着超越长期投资策略。与只储蓄不消费的储蓄者或囤币者不同，积极用户将比特币视为交换的真正媒介。他们用比特币支付商品和服务，积极参与反经济活动。
 
-![BTC102-Bitcoin](assets/fr/083.webp)
+![image](assets/zh-Hans/085.webp)
 
 ### 为什么要采用活跃用户策略？
 
@@ -1793,13 +1793,13 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 面临的挑战包括技术复杂性、价格波动以及需要良好的安全卫生以防止资金损失。
 
-![BTC102-Bitcoin](assets/fr/086.webp)
+![image](assets/zh-Hans/086.webp)
 
 ### 活跃使用者的投资计划
 
 在日常支付中采用比特币需要深思熟虑和结构化的方法。与持有者或囤币者不同，活跃使用者必须同时管理其资金的长期安全性和日常交易的便利性。在安全的冷存储和方便使用消费资金之间取得适当的平衡，是使这一战略有效运作的关键。
 
-![BTC102-Bitcoin](assets/fr/084.webp)
+![image](assets/zh-Hans/087.webp)
 
 #### 1.钱包明确分开
 
@@ -1879,7 +1879,7 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 
 活跃使用者需要在长期储蓄和日常使用的比特币数量之间取得平衡。
 
-![BTC102-Bitcoin](assets/fr/085.webp)
+![image](assets/zh-Hans/088.webp)
 
 获取比特币的方法有几种，具体取决于您所追求的隐私级别：
 
@@ -1921,7 +1921,7 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-![BTC102-Bitcoin](assets/fr/081.webp)
+![image](assets/zh-Hans/089.webp)
 
 #### 4.活跃的支出管理
 
@@ -1952,7 +1952,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 - **灵活性和适应性：** 随着比特币生态系统的发展和需求的变化，您愿意尝试新的工具，在不同的解决方案之间切换，并调整自己的做法。
 - **财务纪律：** 您用心管理比特币的支出和储蓄。您了解将日常资金与长期储蓄明确分开的重要性。
 
-![BTC102-Bitcoin](assets/fr/082.webp)
+![image](assets/zh-Hans/090.webp)
 
 总之，活跃使用者在推动比特币生态系统发展方面发挥着直接作用。通过将比特币纳入他们的日常生活，他们不仅支持了比特币的应用，还增长了自己的专业知识。
 
@@ -1966,7 +1966,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 对他们来说，每一个行动都很重要。每一笔交易、每一种钱包设置以及每一次与网络的互动都要经过深思熟虑。一个疏忽就可能泄露将他们的身份与其持有的比特币联系起来的敏感信息。他们的最终目标是什么？在使用比特币时完全注意他们的身份保密、位置和财务状况。
 
-![BTC102-Bitcoin](assets/fr/087.webp)
+![image](assets/zh-Hans/091.webp)
 
 ### 为什么要采取如此谨慎的态度？
 
@@ -1986,7 +1986,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 高度谨慎者遵循严格的策略，围绕两个核心目标：保持匿名性和最大化安全性。这类用户寻求避免暴露于受监管的平台（尤其是那些要求 KYC 的平台），消除交易的可追溯性，并保护自己的资金免受监视、没收和其他外部威胁。
 
-![BTC102-Bitcoin](assets/fr/092.webp)
+![image](assets/zh-Hans/092.webp)
 
 #### 1.设置钱包和节点
 
@@ -2008,7 +2008,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
-![BTC102-Bitcoin](assets/fr/089.webp)
+![image](assets/zh-Hans/093.webp)
 
 - 运行自己的**比特币节点**至关重要。它可以确保对交易广播的完全控制，避免依赖第三方基础设施。它还能保护隐私、防止审查，并让他们独立验证比特币协议的规则。无论是在 Linux、Windows、macOS 系统上，还是通过 RaspiBlitz、myNode 或 Start9 等即插即用设置，偏执狂用户都会将自己的节点视为必不可少的主权支柱。
 
@@ -2028,7 +2028,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-![BTC102-Bitcoin](assets/fr/090.webp)
+![image](assets/zh-Hans/094.webp)
 
 安全还不止于此。在备份种子短语时，偏执的用户会使用金属备份和防篡改密封信封。他们定期验证备份是否未受破坏，并测试钱包恢复程序，为任何突发事件做好准备。
 
@@ -2121,7 +2121,7 @@ https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 
 由于集中心化交易所带来的风险，无论是对隐私还是潜在的审查或扣押，都是完全可以避免的。
 
-![BTC102-Bitcoin](assets/fr/091.webp)
+![image](assets/zh-Hans/095.webp)
 
 #### 3.防止链上追踪
 
@@ -2161,7 +2161,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 如果这些特征听起来很熟悉，那么这种策略很可能适合您。它要求很高，需要坚持不懈的努力，但它提供了高度的金融主权和保护，使您的资金不会被监视、扣押或追踪。
 
-![BTC102-Bitcoin](assets/fr/088.webp)
+![image](assets/zh-Hans/096.webp)
 
 这种方法尤其适用于以下情况：
 
@@ -2207,7 +2207,7 @@ Pamela Morgan在她的*[Cryptoasset Inheritance Planning](https://www.amazon.com
 
 [Pamela Morgan](https://x.com/pamelawjd) 慷慨地授权本课程使用[她的作品](https://www.amazon.com/gp/product/1947910116/)，我们将按照她的方法创建一个具体的比特币继承计划。在本章中，我们将重点讨论她书中的第一部分。
 
-![BTC102-Bitcoin](assets/fr/093.webp)
+![image](assets/zh-Hans/097.webp)
 
 为了更好地理解如何制定比特币继承计划，我们将以 Cédric 的情况为例，他是一位典型的比特币用户，需要安排在发生意外情况时如何传承自己的财富。
 
@@ -2221,7 +2221,7 @@ Pamela Morgan在她的*[Cryptoasset Inheritance Planning](https://www.amazon.com
 
 我们的目标是根据 Cédric 的情况制定一个简单有效的计划，然后再考虑涉及其他类型用户的更复杂情况。
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/zh-Hans/098.webp)
 
 ### 动手前的准备
 
@@ -2237,7 +2237,7 @@ Pamela Morgan在她的*[Cryptoasset Inheritance Planning](https://www.amazon.com
 - 电话或地址电子书；
 - 一台电脑（可选）。
 
-![BTC102-Bitcoin](assets/fr/094.webp)
+![image](assets/zh-Hans/099.webp)
 
 #### 关于遗产规划的常见误解
 
@@ -2388,7 +2388,7 @@ Pamela Morgan 的（Cryptoasset Inheritance Planning）启发而设计的一个�
 
 根据您的个人情况，手写多份此信，并将其存放在安全的地方（保险箱、信任的人等）。告知您的继承人有这份遗产继承计划，但不一定要立即透露其内容。为了加强保护，您可能需要将这封信放在一个防伪的不透明信封中，以确保未经您的许可，这封信不会被擅自查阅。
 
-![BTC102-Bitcoin](assets/fr/096.webp)
+![image](assets/zh-Hans/100.webp)
 
 如需，您可咨询律师或公证人，将您的计划正式纳入法律框架。
 
@@ -2410,7 +2410,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 自从我开始向人们传授比特币的知识以来，生态系统和我本人都有了长足的发展。本课程已全面更新，以反映比特币目前所能提供的最佳内容。我们一起走过了一段不平凡的旅程！
 
-![BTC102-Bitcoin](assets/fr/097.webp)
+![image](assets/zh-Hans/101.webp)
 
 ### 比特币的下一步是什么？
 
@@ -2424,7 +2424,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 有一件事情是肯定的：比特币将继续存在；大约每 10 分钟挖出一个新区块，日复一日，年复一年，不知疲倦。我们将看到更多的用户、钱包、交易所，以及更多的法规、技术障碍、危机和创新。
 
-![BTC102-Bitcoin](assets/fr/098.webp)
+![image](assets/zh-Hans/102.webp)
 
 随着全球危机的持续和通货膨胀对法定货币购买力的侵蚀，比特币自然会吸引更多追求财务自由和个人主权的人加入。这种态势将不断强化比特币，并吸引新的人才来改进其协议、扩展层以及在安全、隐私和实用性方面的日常使用案例。
 

@@ -33,21 +33,21 @@ Vítejte v kurzu CYP201, kde se podrobně seznámíme s fungováním HD Bitcoino
 Cílem tohoto školení je dát vám klíče k ovládnutí nástrojů, které používáte každý den. HD Bitcoinové peněženky, které jsou v srdci vašeho uživatelského zážitku, jsou založeny na někdy složitých konceptech, které se pokusíme zpřístupnit. Společně je odhalíme!
 
 Než se ponoříme do detailů konstrukce a fungování Bitcoinových peněženek, začneme několika kapitolami o kryptografických primitivách, které je třeba znát pro následující. Začneme hašovacími funkcemi, zásadními jak pro peněženky, tak pro samotný protokol Bitcoinu. Objevíte jejich hlavní charakteristiky, specifické funkce používané v Bitcoinu a v techničtější kapitole se dozvíte podrobně o fungování královny hašovacích funkcí: SHA256.
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/001.webp)
 
 Dále budeme diskutovat o fungování algoritmů digitálního podpisu, které každý den používáte k zabezpečení vašich UTXOs. Bitcoin používá dva: ECDSA a protokol Schnorr. Naučíte se, které matematické primitivy leží v základu těchto algoritmů a jak zajišťují bezpečnost transakcí.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 Jakmile budeme mít dobré porozumění těmto prvkům kryptografie, konečně přejdeme k srdci školení: deterministické a hierarchické peněženky! Nejprve je sekce věnovaná mnemonickým frázím, těmto sekvencím 12 nebo 24 slov, které vám umožňují vytvořit a obnovit vaše peněženky. Objevíte, jak jsou tato slova generována zdrojem entropie a jak usnadňují používání Bitcoinu.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/003.webp)
 Školení bude pokračovat studiem BIP39 hesla, seedu (nesmí být zaměňován s mnemonickou frází), hlavního řetězového kódu a hlavního klíče. Podrobně si probereme, co tyto prvky jsou, jaké mají role a jak jsou vypočítány.
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/004.webp)
 
 Nakonec, z hlavního klíče, objevíme, jak jsou odvozeny kryptografické klíčové páry deterministickým a hierarchickým způsobem až po přijímací adresy.
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 Toto školení vám umožní používat vaše peněženkové software s důvěrou, zatímco si rozšíříte dovednosti v identifikaci a minimalizaci rizik. Připravte se stát se pravým expertem na Bitcoinové peněženky!
 
@@ -72,7 +72,7 @@ Například hašovací funkce SHA256 produkuje hash pevné délky 256 bitů. Tak
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 ### Charakteristiky Hašovacích Funkcí
 
@@ -89,7 +89,7 @@ Nezvratnost znamená, že je snadné vypočítat hash z vstupní informace, ale 
 
 V daném příkladu, získání hash `24f1b9…` znalostí vstupu "_PlanB_" je jednoduché a rychlé. Nicméně, nalezení zprávy "_PlanB_" pouze znalostí `24f1b9…` je nemožné.
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 Proto je nemožné najít preimage $m$ pro hash $h$ tak, že $h = \text{HASH}(m)$, kde $\text{HASH}$ je kryptografická hašovací funkce.
 
@@ -108,7 +108,7 @@ Pokud uděláme velmi malou změnu ve vstupu použitím "_Planb_" tentokrát, pa
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 Tato vlastnost zajišťuje, že i malá úprava původní zprávy je okamžitě zjistitelná, protože se nezmění jen malá část haše, ale celý haš. To může být zajímavé v různých oblastech pro ověření integrity zpráv, softwaru nebo dokonce Bitcoinových transakcí.
 
@@ -120,7 +120,7 @@ $$
 \text{HASH}(m_1) = \text{HASH}(m_2)
 $$
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 Ve skutečnosti je matematicky nevyhnutelné, že pro hašovací funkce existují kolize, protože velikost vstupů může být větší než velikost výstupů. To je známé jako Dirichletův princip šuplíku: pokud jsou $n$ objekty rozděleny do $m$ šuplíků, přičemž $m < n$, pak alespoň jeden šuplík nutně obsahuje dva nebo více objektů. Pro hašovací funkci se tento princip uplatňuje, protože počet možných zpráv je (téměř) nekonečný, zatímco počet možných hašů je konečný ($2^{256}$ v případě SHA256).
 
@@ -137,7 +137,7 @@ $$
 
 Tedy odolnost proti druhému preobrazu je do jisté míry podobná odolnosti proti kolizím, kromě toho, že zde je útok obtížnější, protože útočník nemůže volně vybírat $m_1$.
 
-![CYP201](assets/fr/005.webp) 
+![CYP201](assets/en/010.webp) 
 
 ### Aplikace hašovacích funkcí v Bitcoinu
 
@@ -229,7 +229,7 @@ Tato velikost doplnění je přidána podle pravidel doplnění bitů. Proto zpr
 - Bit `1` následovaný několika bity `0` pro formování doplnění bitů;
 - 64-bitová reprezentace délky $M$ pro formování doplnění s velikostí.
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 ### Inicializace proměnných
 
@@ -346,7 +346,7 @@ $$
 
 Schématicky lze operaci posunu doprava vidět takto:
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 Další operací používanou v SHA256 pro manipulaci s bity je pravá kruhová rotace, označovaná $RotR_n(x)$, která posune bity $x$ o $n$ pozic doprava, přičemž posunuté bity se znovu vloží na začátek řetězce.
 Například pro $x = 101100001$ (na 9 bitech) a $n = 4$:
 
@@ -356,7 +356,7 @@ $$
 
 Schématicky lze pravou kruhovou rotaci vidět takto:
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 ### Kompresní funkce
 
@@ -383,7 +383,7 @@ V tomto případě $x$ se rovná $W_{i-15}$ pro $\sigma_0(x)$ a $W_{i-2}$ pro $\
 
 Jakmile určíme všechna slova $W_i$ pro naši 512-bitovou část, můžeme přejít k funkci komprese, která se skládá z provedení 64 kol.
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 Pro každé kolo $i$ od 0 do 63 máme tři různé typy vstupů. Nejprve $W_i$, které jsme právě určili, částečně se skládající z naší části zprávy $P_n$. Dále 64 konstant $K_i$. Nakonec používáme stavové proměnné $A$, $B$, $C$, $D$, $E$, $F$, $G$ a $H$, které se během hashovacího procesu budou vyvíjet a s každou kompresní funkcí upravovat. Nicméně pro první část $P_1$ používáme původně dané konstanty.
 Poté provedeme následující operace na našich vstupech:
 
@@ -442,7 +442,7 @@ $$
 
 Následující diagram představuje jedno kolo kompresní funkce SHA256, jak jsme právě popisovali:
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 - Šipky ukazují tok dat;
 - Boxíky reprezentují prováděné operace;
@@ -535,7 +535,7 @@ HMAC je kryptografický algoritmus, který vypočítává autentizační kód na
 
 Zde je jeho obecné schéma fungování s $m$ jako vstupní zprávou a $K$ tajným klíčem:
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 Podívejme se podrobněji na to, co se děje v této černé skříňce HMAC-SHA512. Funkce HMAC-SHA512 s:
 
@@ -571,7 +571,7 @@ Tato rovnice je rozložena na následující kroky:
 
 Tyto kroky lze shrnout schématicky následovně:
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 HMAC se v Bitcoinu používá zejména pro derivaci klíčů v HD (Hierarchických Deterministických) peněženkách (o tomto budeme mluvit podrobněji v nadcházejících kapitolách) a jako součást PBKDF2.
 
@@ -593,7 +593,7 @@ Proces PBKDF2 je následující, s:
 
 Schématicky lze PBKDF2 reprezentovat takto:
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 V této kapitole jsme prozkoumali funkce HMAC-SHA512 a PBKDF2, které používají hashovací funkce k zajištění integrity a bezpečnosti odvození klíčů v protokolu Bitcoinu. V další části se podíváme na digitální podpisy, další kryptografickou metodu široce používanou v Bitcoinu.
 
@@ -629,7 +629,7 @@ Důležitou vlastností těchto křivek je, že jsou symetrické vzhledem k ose 
 
 Zde je reprezentace eliptické křivky nad polem reálných čísel:
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 Každá eliptická křivka je definována rovnicí ve tvaru:
 
@@ -648,7 +648,7 @@ y^2 = x^3 + 7
 $$
 
 Její grafická reprezentace nad polem reálných čísel vypadá takto:
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 Nicméně v kryptografii pracujeme s konečnými množinami čísel. Konkrétně pracujeme na konečném tělese $\mathbb{F}_p$, které je tělesem celých čísel modulo prvočíslo $p$.
 **Definice**: Prvočíslo je přirozené celé číslo větší nebo rovno 2, které má pouze dva různé kladné celočíselné dělitele: 1 a samo sebe. Například číslo 7 je prvočíslo, protože je dělitelné pouze 1 a 7. Na druhou stranu, číslo 8 prvočíslem není, protože je dělitelné 1, 2, 4 a 8.
 V Bitcoinu je prvočíslo $p$ použité k definici konečného tělesa velmi velké. Je vybráno tak, aby řád tělesa (tj. počet prvků v $\mathbb{F}_p$) byl dostatečně velký, aby zajistil kryptografickou bezpečnost.
@@ -673,7 +673,7 @@ $$
 
 Vzhledem k tomu, že tato křivka je definována nad konečným tělesem $\mathbb{F}_p$, již nevypadá jako spojitá křivka, ale spíše jako diskrétní množina bodů. Například zde je, jak vypadá křivka používaná v Bitcoinu pro velmi malé $p = 17$:
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 V tomto příkladu jsem záměrně omezil konečné těleso na $p = 17$ z vzdělávacích důvodů, ale musíme si představit, že to používané v Bitcoinu je nesmírně větší, téměř $2^{256}$.
 
@@ -722,11 +722,11 @@ kde:
 
 Fakt, že tento bod $G$ je společný pro všechny veřejné klíče na Bitcoinu, nám umožňuje být si jisti, že stejný soukromý klíč $k$ nám vždy dá stejný veřejný klíč $K$:
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 Hlavní charakteristikou této operace je, že jde o jednosměrnou funkci. Je snadné vypočítat veřejný klíč $K$ znalostí soukromého klíče $k$ a generátorového bodu $G$, ale je prakticky nemožné vypočítat soukromý klíč $k$ znalostí pouze veřejného klíče $K$ a generátorového bodu $G$. Najít $k$ z $K$ a $G$ znamená řešit problém diskrétního logaritmu na eliptických křivkách, matematicky obtížný problém, pro který není znám žádný efektivní algoritmus. Ani nejsilnější současné kalkulačky nejsou schopny tento problém vyřešit v rozumném čase.
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 ### Sčítání a zdvojení bodů na eliptických křivkách
 
@@ -738,7 +738,7 @@ $$
 
 Graficky to lze znázornit takto:
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 Pro zdvojení bodu, tj. operaci $P + P$, nakreslíme tečnu k křivce v bodě $P$. Tato tečna protne křivku v dalším bodě $S'$. Poté vezmeme zrcadlový obraz tohoto bodu vzhledem k ose x, abychom získali bod $S$, který je výsledkem zdvojení:
 
@@ -748,7 +748,7 @@ $$
 
 Graficky je to znázorněno takto:
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 Použitím těchto operací sčítání a zdvojení můžeme provést skalární násobení bodu celým číslem $k$, označené $kP$, opakovaným zdvojením a sčítáním.
 
@@ -763,7 +763,7 @@ Graficky to odpovídá provádění série sčítání a zdvojení:
 - Vypočítáme $2G$ zdvojením $G$.
 - Vypočítáme $4G$ zdvojením $2G$.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 Pokud bychom chtěli například vypočítat bod $3G$, musíme nejprve vypočítat bod $2G$ zdvojením bodu $G$, poté přidat $G$ a $2G$. Pro přidání $G$ a $2G$ jednoduše nakreslíme čáru spojující tyto dva body, získáme jedinečný bod $-3G$ na průsečíku této čáry a eliptické křivky, a poté určíme $3G$ jako opak $-3G$.
 
@@ -778,7 +778,7 @@ $$
 $$
 
 Graficky by to bylo znázorněno takto:
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 
 ### Jednosměrná funkce
 
@@ -931,7 +931,7 @@ $$
 
 Prvním krokem k vygenerování podpisu je hashování zprávy. Ale na rozdíl od ECDSA, je to provedeno s dalšími hodnotami a používá se označená hashovací funkce, aby se zabránilo kolizím v různých kontextech. Označená hashovací funkce jednoduše zahrnuje přidání libovolného štítku k vstupům hashovací funkce společně s daty zprávy.
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 Kromě zprávy jsou do označené funkce předány také $x$ souřadnice veřejného klíče $K_x$, stejně jako bod $R$ vypočítaný z nonce $r$ ($R=r \cdot G$), který je sám o sobě unikátní celé číslo pro každý podpis, vypočítané deterministicky z soukromého klíče a zprávy, aby se předešlo zranitelnostem souvisejícím s opětovným použitím nonce. Stejně jako pro veřejný klíč, je zachována pouze $x$ souřadnice nonce bodu $R_x$ pro popis bodu.
 
@@ -997,11 +997,11 @@ $$
 
 Schnorrův podpisový schéma nabízí pro Bitcoin několik výhod oproti původnímu algoritmu ECDSA. První výhodou je, že Schnorr umožňuje agregaci klíčů a podpisů. To znamená, že více veřejných klíčů lze kombinovat do jednoho klíče.
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 A podobně, více podpisů lze agregovat do jednoho platného podpisu. Tedy v případě transakce s více podpisy může sada účastníků podepsat jediným podpisem a jedním agregovaným veřejným klíčem. To výrazně snižuje náklady na úložiště a výpočty pro síť, protože každý uzel musí ověřit pouze jeden podpis.
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 Navíc agregace podpisů zlepšuje soukromí. S Schnorrem se stává nemožným rozlišit transakci s více podpisy od standardní transakce s jedním podpisem. Tato homogenita činí analýzu řetězce obtížnější, protože omezuje schopnost identifikovat otisky peněženek.
 Nakonec Schnorr také nabízí možnost hromadného ověřování. Ověřováním více podpisů současně mohou uzly získat efektivitu, zejména pro bloky obsahující mnoho transakcí. Tato optimalizace snižuje čas a zdroje potřebné k ověření bloku. Navíc Schnorrovy podpisy nejsou měnitelné, na rozdíl od podpisů vytvořených pomocí ECDSA. To znamená, že útočník nemůže upravit platný podpis tak, aby vytvořil další platný podpis pro stejnou zprávu a stejný veřejný klíč. Tato zranitelnost byla dříve přítomna na Bitcoinu a významně bránila bezpečné implementaci Lightning Network. Pro ECDSA byla tato zranitelnost vyřešena softforkem SegWit v roce 2017, který zahrnoval přesun podpisů do samostatné databáze od transakcí, aby se zabránilo jejich měnitelnosti.
@@ -1031,29 +1031,29 @@ Na Bitcoinu existují především 3 základní příznaky sighash:
 
 - `SIGHASH_ALL` (`0x01`): Podpis se vztahuje na všechny vstupy a všechny výstupy transakce. Transakce je tedy úplně pokryta podpisem a již nemůže být upravena. `SIGHASH_ALL` je nejčastěji používaný sighash v běžných transakcích, když někdo jednoduše chce provést transakci, aniž by mohla být upravena.
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 Ve všech diagramech této kapitoly oranžová barva reprezentuje prvky pokryté podpisem, zatímco černá barva označuje ty, které nejsou.
 
 - `SIGHASH_NONE` (`0x02`): Podpis pokrývá všechny vstupy, ale žádné výstupy, což umožňuje úpravu výstupů po podpisu. Konkrétně je to podobné jako vystavit prázdný šek. Signatář odemkne UTXO na vstupech, ale nechá pole výstupů zcela upravitelné. Kdokoli, kdo zná tuto transakci, může tedy přidat výstup dle svého výběru, například zadáním přijímací adresy pro shromáždění prostředků spotřebovaných vstupy, a poté transakci vysílat, aby získal bitcoiny. Podpis vlastníka vstupů nebude zneplatněn, protože pokrývá pouze vstupy.
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 - `SIGHASH_SINGLE` (`0x03`): Podpis pokrývá všechny vstupy stejně jako jeden výstup, který odpovídá indexu podepsaného vstupu. Například, pokud podpis odemkne _scriptPubKey_ vstupu č. 0, pak také pokrývá výstup č. 0. Podpis také chrání všechny ostatní vstupy, které již nemohou být upraveny. Nicméně, kdokoli může přidat další výstup bez zneplatnění podpisu, za předpokladu, že výstup č. 0, který je jediný jím pokrytý, není upraven.
-  ![CYP201](assets/fr/028.webp)
+  ![CYP201](assets/en/033.webp)
 
 Kromě těchto tří základních příznaků sighash existuje také modifikátor `SIGHASH_ANYONECANPAY` (`0x80`). Tento modifikátor lze kombinovat se základním příznakem sighash a vytvořit tak tři nové příznaky sighash:
 
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): Podpis pokrývá jediný vstup, zahrnující všechny výstupy transakce. Tento kombinovaný příznak sighash umožňuje například vytvoření transakce pro crowdfunding. Organizátor připraví výstup s jejich adresou a cílovou částkou, a každý investor může poté přidat vstupy k financování tohoto výstupu. Jakmile jsou ve vstupech shromážděny dostatečné prostředky pro uspokojení výstupu, může být transakce vysílána.
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Podpis pokrývá jediný vstup, aniž by se zavazoval k jakémukoli výstupu;
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Podpis pokrývá jediný vstup stejně jako výstup, který má stejný index jako tento vstup. Například, pokud podpis odemyká _scriptPubKey_ vstupu č. 3, bude také pokrývat výstup č. 3. Zbytek transakce zůstává modifikovatelný, a to jak z hlediska ostatních vstupů, tak i ostatních výstupů.
-  ![CYP201](assets/fr/031.webp)
+  ![CYP201](assets/en/036.webp)
 
 ### Projekty na přidání nových Sighash příznaků
 
@@ -1061,7 +1061,7 @@ V současnosti (2024) jsou na Bitcoinu použitelné pouze příznaky sighash pre
 
 Tyto dva příznaky sighash by nabídly na Bitcoinu další možnost: vytváření podpisů, které nepokrývají žádný konkrétní vstup transakce.
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 Tento nápad byl původně formulován Josephem Poonem a Thaddeem Dryjou v bílé knize Lightning Network. Před přejmenováním byl tento příznak sighash nazván `SIGHASH_NOINPUT`.
 Pokud bude tento příznak sighash integrován do Bitcoinu, umožní použití covenants, ale je také nezbytným předpokladem pro implementaci Eltoo, obecného protokolu pro druhé vrstvy, který definuje, jak společně spravovat vlastnictví UTXO. Eltoo bylo speciálně navrženo k řešení problémů spojených s mechanismy pro vyjednávání o stavu Lightning kanálů, tj. mezi otevřením a zavřením.
@@ -1093,7 +1093,7 @@ UTXO tak představují fragmenty bitcoinů různých velikostí, které lze utra
 
 První peněženky používané na Bitcoinu byly JBOK (_Just a Bunch Of Keys_) peněženky, které seskupovaly soukromě generované klíče nezávisle a bez jakéhokoli vzájemného propojení. Tyto peněženky fungovaly na jednoduchém modelu, kde každý soukromý klíč mohl odemknout unikátní přijímací adresu Bitcoinu.
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 Pokud by člověk chtěl použít více soukromých klíčů, bylo poté nutné udělat tolik záloh, aby se zajistil přístup k finančním prostředkům v případě problémů se zařízením, které peněženku hostuje. Pokud se používá jediný soukromý klíč, tato struktura peněženky může postačovat, protože stačí jediná záloha. To však představuje problém: na Bitcoinu se důrazně nedoporučuje vždy používat stejný soukromý klíč. Skutečně, soukromý klíč je spojen s unikátní adresou a přijímací adresy Bitcoinu jsou normálně navrženy pro jednorázové použití. Při každém přijetí finančních prostředků byste měli generovat novou prázdnou adresu.
 
@@ -1106,7 +1106,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### HD Peněženky (_Hierarchical Deterministic_)
 
 Aby se překonalo omezení JBOK peněženek, byla následně využita nová struktura peněženky. V roce 2012 Pieter Wuille představil vylepšení s BIP32, které zavádí hierarchické deterministické peněženky. Princip HD peněženky spočívá v odvození všech soukromých klíčů z jediného zdroje informací, nazývaného semínko, deterministickým a hierarchickým způsobem. Toto semínko je generováno náhodně při vytvoření peněženky a představuje unikátní zálohu, která umožňuje rekreaci všech soukromých klíčů peněženky. Tímto způsobem může uživatel generovat velmi velké množství soukromých klíčů, aby se vyhnul opakovanému používání adres a zachoval své soukromí, zatímco potřebuje udělat jedinou zálohu své peněženky prostřednictvím semínka.
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 V HD peněženkách se odvození klíčů provádí podle hierarchické struktury, která umožňuje klíče organizovat do odvozovacích podprostorů, přičemž každý podprostor je dále dělitelný, aby se usnadnilo správa finančních prostředků a interoperabilita mezi různými softwary peněženek. Dnes je tento standard přijat většinou uživatelů Bitcoinu. Z tohoto důvodu se mu budeme v následujících kapitolách podrobně věnovat.
 
@@ -1137,7 +1137,7 @@ Počáteční entropie použitá pro HD peněženku je obvykle 128 bitů nebo 25
 
 Ve většině případů je toto náhodné číslo generováno automaticky softwarovou peněženkou pomocí PRNG (_Pseudo-Random Number Generator_). PRNG jsou kategorie algoritmů používaných k generování sekvencí čísel z počátečního stavu, které mají vlastnosti přibližující se náhodnému číslu, aniž by byly skutečně náhodné. Dobrý PRNG musí mít vlastnosti jako je uniformita výstupu, nepředvídatelnost a odolnost vůči prediktivním útokům. Na rozdíl od skutečných generátorů náhodných čísel (TRNG) jsou PRNG deterministické a reprodukovatelné.
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 Alternativou je manuální generování entropie, které nabízí lepší kontrolu, ale je také mnohem riskantnější. Silně doporučuji negenerovat entropii pro vaši HD peněženku sami.
 
@@ -1169,7 +1169,7 @@ $$
 
 Jakmile je kontrolní součet vypočítán, je konkatenován s entropií, aby se získala rozšířená bitová sekvence označená $\text{ENT} \Vert \text{CS}$ ("konkatenace" znamená spojit konec s koncem).
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 ### Korespondence mezi Entropií a Mnemonickou Frází
 
@@ -1199,17 +1199,17 @@ Například pro entropii 256 bitů je výsledek $\text{ENT} \Vert \text{CS}$ 264
 
 Bitová sekvence $\text{ENT} \Vert \text{CS}$ je poté rozdělena na segmenty po 11 bitech. Každý 11bitový segment, jednou převedený na desítkové číslo, odpovídá číslu mezi 0 a 2047, které určuje pozici slova [v seznamu 2048 slov standardizovaném BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 Například pro 128bitovou entropii je kontrolní součet 4 bity, a celková sekvence tak měří 132 bitů. Je rozdělena na 12 segmentů po 11 bitech (oranžové bity označují kontrolní součet):
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 Každý segment je poté převeden na desítkové číslo, které reprezentuje slovo ze seznamu. Například binární segment `01011010001` je v desítkové soustavě ekvivalentní číslu `721`. Přidáním 1 pro zarovnání s indexací seznamu (která začíná na 1, nikoli na 0), dostaneme pořadové číslo slova `722`, což je v seznamu "*focus*".
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 Tato korespondence se opakuje pro každý z 12 segmentů, aby se získala 12slovní fráze.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 ### Charakteristiky seznamu slov BIP39
 
@@ -1252,7 +1252,7 @@ Buďte opatrní, heslo by nemělo být zaměňováno s PIN kódem vaší hardwar
 
 Heslo pracuje v tandemu s mnemonickou frází, mění semeno, ze kterého jsou generovány klíče. Takže i když někdo získá vaši frázi o 12 nebo 24 slovech, bez hesla nemůže přistupovat k vašim prostředkům. Použití hesla v podstatě vytváří novou peněženku s odlišnými klíči. Modifikace (i mírná) hesla vygeneruje jinou peněženku.
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 ### Proč byste měli používat heslo?
 
@@ -1265,7 +1265,7 @@ Nakonec je použití hesla zajímavé, když si přejete kontrolovat náhodnost 
 Aby bylo heslo účinné, musí být dostatečně dlouhé a náhodné. Stejně jako u silného hesla doporučuji vybrat heslo, které je co nejdelší a nejnáhodnější, s rozmanitostí písmen, čísel a symbolů, aby byl jakýkoli pokus o hrubou sílu nemožný.
 Je také důležité správně uložit tuto heslovou frázi, stejně jako mnemonickou frázi. **Ztráta znamená ztrátu přístupu k vašim bitcoinům**. Důrazně nedoporučuji ji pamatovat si pouze nazpaměť, protože to neracionálně zvyšuje riziko ztráty. Ideální je zapsat ji na fyzické médium (papír nebo kov) odděleně od mnemonické fráze. Tato záloha musí být samozřejmě uložena na jiném místě než vaše mnemonická fráze, aby se zabránilo jejich současnému ohrožení.
 
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 V následující části se dozvíme, jak jsou tyto dva prvky na základě vaší peněženky - mnemonická fráze a heslová fráze - použity k odvození klíčových párů používaných ve *scriptPubKey*, které zamykají vaše UTXO.
 
@@ -1277,7 +1277,7 @@ V následující části se dozvíme, jak jsou tyto dva prvky na základě vaš�
 
 Jakmile jsou mnemonická fráze a volitelná heslová fráze vygenerovány, může začít proces odvozování Bitcoinové HD peněženky. Mnemonická fráze je nejprve převedena na semeno, které tvoří základ všech klíčů peněženky.
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 ### Semeno HD Peněženky
 
@@ -1300,7 +1300,7 @@ s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 Hodnota semene je tedy ovlivněna hodnotou mnemonické fráze a heslové fráze. Změnou heslové fráze se získá odlišné semeno. Nicméně, s tou samou mnemonickou frází a heslovou frází je vždy generováno stejné semeno, protože PBKDF2 je deterministická funkce. To zajišťuje, že stejné páry klíčů lze získat prostřednictvím našich záloh.
 
@@ -1333,7 +1333,7 @@ C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 $$
 
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 ### Role hlavního klíče a řetězového kódu
 
@@ -1348,7 +1348,7 @@ Před pokračováním v odvození HD peněženky s následujícími prvky si př
 
 Rozšířený klíč je jednoduše spojení klíče (ať už soukromého nebo veřejného) a jeho přidruženého řetězového kódu. Tento řetězový kód je zásadní pro odvození dětských klíčů, protože bez něj je nemožné odvodit dětské klíče z rodičovského klíče, ale tento proces objevíme přesněji v další kapitole. Tyto rozšířené klíče tak umožňují agregovat veškeré informace nezbytné pro odvození dětských klíčů, čímž se zjednodušuje správa účtů v rámci HD peněženky.
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 Rozšířený klíč se skládá ze dvou částí:
 - Užitečná zátěž, která obsahuje soukromý nebo veřejný klíč spolu s přidruženým řetězovým kódem;
@@ -1370,7 +1370,7 @@ Pro následující budeme používat následující notaci:
 - $K_{\text{CHD}}^h$: pevný dětský veřejný klíč;
 - $k_{\text{CHD}}^h$: pevný dětský soukromý klíč.
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 ### Konstrukce rozšířeného klíče
 
@@ -1465,7 +1465,7 @@ Odvození párů dětských klíčů v Bitcoin HD peněženkách spoléhá na hi
 
 Všechna tato odvození začínají hlavním klíčem a hlavním chain code, které jsou prvními rodiči na úrovni hloubky 0. Jsou, jakýmsi způsobem, Adamem a Evou klíčů vaší peněženky, společnými předky všech odvozených klíčů.
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 Pojďme prozkoumat, jak toto deterministické odvození funguje.
 
@@ -1483,7 +1483,7 @@ Derivace každého dětského klíče je založena na funkci HMAC-SHA512, o kter
 
 Ve všech našich výpočtech budu označovat $\text{hash}$ výstup funkce HMAC-SHA512.
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 #### Derivace dětského soukromého klíče z rodičovského soukromého klíče
 
@@ -1528,7 +1528,7 @@ $$
 
 Zde je schématické znázornění celkové derivace:
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 Pro **zpevněný dětský klíč** ($i \geq 2^{31}$) je výpočet $\text{hash}$ následující:
 
@@ -1565,7 +1565,7 @@ $$
 
 Zde je schématické znázornění celkové derivace:
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 Vidíme, že normální derivace a zpevněná derivace fungují stejným způsobem, s tím rozdílem, že normální derivace používá jako vstup do funkce HMAC rodičovský veřejný klíč, zatímco zpevněná derivace používá rodičovský soukromý klíč.
 
@@ -1612,7 +1612,7 @@ $$
 
 Zde je schématické znázornění celkového odvození:
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 ### Korespondence mezi dětskými veřejnými a soukromými klíči
 
@@ -1683,7 +1683,7 @@ Každý účet definovaný na hloubce 3 je poté strukturován do dvou řetězc�
 
 **Hloubka 5: Index adresy (BIP32)**
 Nakonec, hloubka 5 představuje poslední krok odvození v peněžence. Ačkoliv je technicky možné pokračovat neomezeně, současné standardy zde končí. Na této konečné hloubce jsou odvozeny páry klíčů, které budou skutečně použity pro uzamčení a odemčení UTXO. Každý index umožňuje rozlišení mezi sourozeneckými páry klíčů: tak první přijímací adresa použije index $/0/$, druhá index $/1/$ a tak dále.
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 ### Notace cest odvození
 
@@ -1773,7 +1773,7 @@ Přijímací adresy jsou informace vložené do *scriptPubKey* pro uzamčení no
 
 Jak bylo vysvětleno dříve, úlohou transakce je převést vlastnictví bitcoinů z vstupů na výstupy. Tento proces zahrnuje spotřebování UTXO jako vstupy při vytváření nových UTXO jako výstupy. Tyto UTXO jsou zabezpečeny skripty, které definují nezbytné podmínky pro odemčení prostředků.
 Když uživatel obdrží bitcoiny, odesílatel vytvoří výstupní UTXO a zamkne jej pomocí *scriptPubKey*. Tento skript obsahuje pravidla, která typicky specifikují požadované podpisy a veřejné klíče potřebné k odemčení tohoto UTXO. Aby uživatel mohl toto UTXO utratit v nové transakci, musí poskytnout požadované informace prostřednictvím *scriptSig*. Spuštění *scriptSig* ve spojení se *scriptPubKey* musí vrátit "true" nebo `1`. Pokud je tato podmínka splněna, UTXO lze utratit k vytvoření nového UTXO, které je samo zamčeno novým *scriptPubKey*, a tak dále.
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 Je právě v *scriptPubKey*, kde se nacházejí přijímací adresy. Nicméně jejich použití se liší v závislosti na přijatém standardu skriptu. Zde je shrnutí tabulka informací obsažených v *scriptPubKey* podle použitého standardu, stejně jako informace očekávané v *scriptSig* k odemčení *scriptPubKey*.
 
@@ -1807,33 +1807,33 @@ Vykonání skriptu, který jsem právě dal jako příklad, sleduje tento proces
 
 - Máme *scriptSig*, *ScriptPubKey* a zásobník:
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 - *scriptSig* je vložen na zásobník:
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 - `OP_DUP` duplikuje veřejný klíč poskytnutý v *scriptSig* na zásobníku:
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 - `OP_HASH160` vrátí hash veřejného klíče, který byl právě duplikován:
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 - `OP_PUSHBYTES_20 <pubKeyHash>` vloží Bitcoinovou adresu obsaženou v *scriptPubKey* na zásobník:
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 - `OP_EQUALVERIFY` ověří, že hashovaný veřejný klíč odpovídá poskytnuté přijímací adrese:
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 `OP_CHECKSIG` zkontroluje podpis obsažený v *scriptSig* pomocí veřejného klíče. Tento opcode v podstatě provádí ověření podpisu, jak jsme popisovali v části 3 tohoto školení:
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 - Pokud na zásobníku zůstane `1`, pak je skript platný:
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 Shrnutí, tento skript umožňuje ověřit, s pomocí digitálního podpisu, že uživatel, který tvrdí, že vlastní toto UTXO a chce jej utratit, skutečně vlastní soukromý klíč spojený s přijímací adresou použitou při vytváření tohoto UTXO.
 
@@ -1873,7 +1873,7 @@ Technicky skript P2TR zamyká bitcoiny na unikátním veřejném klíči Schnorr
 - Splněním jednoho ze skriptů obsažených v Merkleově stromu (*script path*).
 P2TR tedy nabízí velkou flexibilitu, protože umožňuje uzamknout bitcoiny buď s unikátním veřejným klíčem, s několika vybranými skripty, nebo s obojím současně. Výhodou této struktury Merkleova stromu je, že během transakce je odhalen pouze použitý výdajový skript, ale všechny ostatní alternativní skripty zůstávají tajné.
 
-![CYP201](assets/fr/063.webp)
+![CYP201](assets/en/068.webp)
 
 P2TR odpovídá výstupům SegWit verze 1, což znamená, že podpisy pro vstupy P2TR jsou uloženy v sekci *Witness* transakce, a ne v *scriptSig*. Adresy P2TR používají kódování *bech32m* a začínají na `bc1p`, ale jsou poměrně unikátní tím, že pro jejich konstrukci nepoužívají hashovací funkci. Skutečně přímo reprezentují veřejný klíč $Q$, který je jednoduše formátován s metadaty. Je to tedy model skriptu blízký P2PK.
 
@@ -1894,7 +1894,7 @@ Prvním krokem je komprese veřejného klíče $K$. Abychom tento proces dobře 
 Veřejný klíč v Bitcoinu je bod $K$ umístěný na eliptické křivce. Je reprezentován ve formě $(x, y)$, kde $x$ a $y$ jsou souřadnice bodu. Ve své neskomprimované formě má tento veřejný klíč 520 bitů: 8 bitů pro prefix (počáteční hodnota `0x04`), 256 bitů pro souřadnici $x$ a 256 bitů pro souřadnici $y$.
 Eliptické křivky však mají vlastnost symetrie vzhledem k ose x: pro danou souřadnici $x$ existují pouze dvě možné hodnoty pro $y$: $y$ a $-y$. Tyto dva body se nacházejí na obou stranách osy x. Jinými slovy, pokud známe $x$, stačí specifikovat, zda je $y$ sudé nebo liché, abychom identifikovali přesný bod na křivce.
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 
 Pro kompresi veřejného klíče se kóduje pouze $x$, které zabírá 256 bitů, a přidá se prefix, který specifikuje paritu $y$. Tato metoda redukuje velikost veřejného klíče na 264 bitů namísto původních 520. Prefix `0x02` indikuje, že $y$ je sudé, a prefix `0x03` indikuje, že $y$ je liché.
 Pojďme si vzít příklad pro lepší pochopení, s nekomprimovanou reprezentací veřejného klíče:
@@ -2084,7 +2084,7 @@ Zvláštností této abecedy _bech32_ je, že zahrnuje všechny alfanumerické z
 
 Shrnutí, zde je proces derivace:
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 Takto se odvozuje P2WPKH (SegWit v0) přijímací adresa z páru klíčů. Nyní přejděme na adresy P2TR (SegWit v1 / Taproot) a objevme jejich proces generování.
 
@@ -2160,7 +2160,7 @@ $$
 
 Pokračujeme spojováním výsledků po dvou, přičemž je na každém kroku procházíme funkcí značeného hashování `TapBranch`, dokud nezískáme kořen Merkleova stromu:
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 Jakmile je vypočten kořen Merkle $h_{\text{root}}$, můžeme vypočítat tweak. Za tímto účelem zkombinujeme interní veřejný klíč peněženky $P$ s kořenem $h_{\text{root}}$ a celé to proženeme značkovou hashovací funkcí `TapTweak`:
 

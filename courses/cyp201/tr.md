@@ -50,31 +50,31 @@ Bitcoin cüzdanlarının yapımı ve işleyişinin ayrıntılarına girmeden ön
 Hem cüzdanlar hem de Bitcoin protokolünün kendisi için temel olan kriptografik Hash işlevleriyle başlayacağız. Ana özelliklerini, Bitcoin'de kullanılan belirli işlevleri keşfedecek ve daha teknik bir bölümde, Hash işlevlerinin kraliçesinin işleyişi hakkında ayrıntılı bilgi edineceksiniz: SHA256.
 
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/001.webp)
 
 
 Daha sonra, UTXO'larınızı güvence altına almak için her gün kullandığınız dijital imza algoritmalarının çalışmasını tartışacağız. Bitcoin iki tane kullanır: ECDSA ve Schnorr protokolü. Bu algoritmaların altında hangi matematiksel ilkellerin yattığını ve işlemlerin güvenliğini nasıl sağladıklarını öğreneceksiniz.
 
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 
 Kriptografinin bu Elements'sini iyi bir şekilde anladıktan sonra, nihayet eğitimin kalbine geçeceğiz: deterministik ve hiyerarşik cüzdanlar! İlk olarak, cüzdanlarınızı oluşturmanızı ve geri yüklemenizi sağlayan 12 veya 24 kelimeden oluşan bu diziler olan Mnemonic cümlelerine ayrılmış bir bölüm var. Bu sözcüklerin bir entropi kaynağından nasıl üretildiğini ve Bitcoin'nin kullanımını nasıl kolaylaştırdığını keşfedeceksiniz.
 
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/003.webp)
 
 
 Eğitim BIP39 passphrase, seed (Mnemonic ifadesiyle karıştırılmamalıdır), ana chain code ve ana anahtarın incelenmesiyle devam edecektir. Bu Elements'in ne olduğunu, ilgili rollerini ve nasıl hesaplandıklarını ayrıntılı olarak göreceğiz.
 
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/004.webp)
 
 
 Son olarak, ana anahtardan, kriptografik anahtar çiftlerinin alıcı adreslere kadar deterministik ve hiyerarşik bir şekilde nasıl türetildiğini keşfedeceğiz.
 
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 
 Bu eğitim, riskleri belirleme ve azaltma becerilerinizi geliştirirken Wallet yazılımınızı güvenle kullanmanızı sağlayacaktır. Bitcoin cüzdanlarında gerçek bir uzman olmaya hazırlanın!
@@ -111,7 +111,7 @@ Hash bazen "digest", "condensate", "condensed" veya "hashed" olarak da adlandır
 ```
 
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 
 ### Hash İşlevlerinin Özellikleri
@@ -136,7 +136,7 @@ Tersinmezlik, Hash'ı girdi bilgisinden hesaplamanın kolay olduğu, ancak ters 
 Verilen örnekte, "_PlanB_" girdisini bilerek Hash `24f1b9...` elde etmek basit ve hızlıdır. Ancak, sadece `24f1b9...` bilgisiyle "_PlanB_" mesajını bulmak imkansızdır.
 
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 
 Bu nedenle, $h = \text{Hash}(m)$ olacak şekilde bir Hash $h$ için bir ön görüntü $m$ bulmak imkansızdır, burada $\text{Hash}$ bir kriptografik Hash fonksiyonudur.
@@ -164,7 +164,7 @@ bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 
 Bu özellik, Hash'nin sadece küçük bir kısmını değil, tamamını değiştirdiği için orijinal mesajdaki küçük bir değişikliğin bile hemen tespit edilebilmesini sağlar. Bu, mesajların, yazılımların ve hatta Bitcoin işlemlerinin bütünlüğünü doğrulamak için çeşitli alanlarda ilgi çekici olabilir.
@@ -181,7 +181,7 @@ $$
 $$
 
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 
 Gerçekte, Hash fonksiyonları için çarpışmaların olması matematiksel olarak kaçınılmazdır, çünkü girdilerin boyutu çıktıların boyutundan daha büyük olabilir. Bu Dirichlet çekmece prensibi olarak bilinir: $n$ nesne $m$ çekmeceye dağıtılmışsa ve $m < n$ ise, en az bir çekmece mutlaka iki veya daha fazla nesne içerecektir. Bir Hash fonksiyonu için bu prensip geçerlidir çünkü olası mesajların sayısı (neredeyse) sonsuzken, olası hash'lerin sayısı sonludur (SHA256 durumunda $2^{256}$).
@@ -206,7 +206,7 @@ $$
 Bu nedenle, ikinci ön görüntüye karşı direnç çarpışma direncine biraz benzer, ancak burada saldırı daha zordur çünkü saldırgan $m_1$ 'i özgürce seçemez.
 
 
-![CYP201](assets/fr/005.webp)
+![CYP201](assets/en/010.webp)
 
 
 ### Hash Fonksiyonlarının Bitcoin'teki Uygulamaları
@@ -339,7 +339,7 @@ Bu dolgu boyutu bit dolgusunun ardından eklenir. Dolayısıyla, ön işlememizd
 - Boyut ile dolgu oluşturmak için $M$ uzunluğunun 64 bitlik bir gösterimi.
 
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 
 ### Değişkenlerin Başlatılması
@@ -491,7 +491,7 @@ $$
 Şematik olarak, sağa kaydırma işlemi şu şekilde görülebilir:
 
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 
 
 SHA256'da bit manipülasyonu için kullanılan bir başka işlem de $RotR_n(x)$ olarak gösterilen ve $x$ bitlerini $n$ pozisyon sağa kaydırarak kaydırılan bitleri dizenin başına yeniden yerleştiren sağ dairesel döndürmedir.
@@ -510,7 +510,7 @@ $$
 Şematik olarak, sağ dairesel kaydırma işlemi şu şekilde görülebilir:
 
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 
 ### Sıkıştırma Fonksiyonu
@@ -553,7 +553,7 @@ Bu durumda $x$, $\sigma_0(x)$ için $W_{i-15}$ ve $\sigma_1(x)$ için $W_{i-2}$ 
 512-bitlik parçamız için tüm $W_i$ kelimelerini belirledikten sonra, 64 tur gerçekleştirmekten oluşan sıkıştırma işlevine geçebiliriz.
 
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 
 0'dan 63'e kadar her $i$ turu için üç farklı türde girdimiz var. Birincisi, daha önce belirlediğimiz ve kısmen $P_n$ mesaj parçamızdan oluşan $W_i$. Sonra, 64 sabit $K_i$. Son olarak, hashing işlemi boyunca gelişecek ve her sıkıştırma fonksiyonuyla değiştirilecek olan $A$, $B$, $C$, $D$, $E$, $F$, $G$ ve $H$ durum değişkenlerini kullanıyoruz. Bununla birlikte, ilk parça $P_1$ için daha önce verilen başlangıç sabitlerini kullanırız.
 
@@ -638,7 +638,7 @@ $$
 Aşağıdaki diyagram, SHA256 sıkıştırma işlevinin az önce açıkladığımız bir turunu temsil etmektedir:
 
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 
 
@@ -781,7 +781,7 @@ HMAC, bir Hash işlevi ve bir gizli anahtar kombinasyonuna dayalı olarak bir ki
 Burada $m$ giriş mesajı ve $K$ gizli anahtar olmak üzere genel çalışma şeması verilmiştir:
 
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 
 Bu HMAC-SHA512 kara kutusunda neler olduğunu daha ayrıntılı olarak inceleyelim. HMAC-SHA512 işlevi ile:
@@ -835,7 +835,7 @@ Bu denklem aşağıdaki adımlara ayrılmıştır:
 Bu adımlar şematik olarak aşağıdaki gibi özetlenebilir:
 
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 
 HMAC, Bitcoin'te özellikle HD (Hiyerarşik Deterministik) cüzdanlarda anahtar türetme için (ilerleyen bölümlerde bundan daha ayrıntılı olarak bahsedeceğiz) ve PBKDF2'nin bir bileşeni olarak kullanılır.
@@ -873,7 +873,7 @@ $$
 Şematik olarak PBKDF2 aşağıdaki gibi gösterilebilir:
 
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 
 Bu bölümde, Bitcoin protokolünde anahtar türetme işlemlerinin bütünlüğünü ve güvenliğini sağlamak için karma işlevlerini kullanan HMAC-SHA512 ve PBKDF2 işlevlerini inceledik. Bir sonraki bölümde, Bitcoin'de yaygın olarak kullanılan bir başka kriptografik yöntem olan dijital imzaları inceleyeceğiz.
@@ -930,7 +930,7 @@ Bu eğrilerin önemli bir özelliği x eksenine göre simetrik olmalarıdır. Do
 Burada gerçek sayılar alanı üzerinde bir eliptik eğrinin gösterimi yer almaktadır:
 
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 
 Her eliptik eğri aşağıdaki formda bir denklemle tanımlanır:
@@ -964,7 +964,7 @@ $$
 Gerçek sayılar alanı üzerindeki grafiksel gösterimi şu şekildedir:
 
 
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 
 
 Ancak kriptografide sonlu sayı kümeleri ile çalışırız. Daha spesifik olarak, $\mathbb{F}_p$ sonlu cismi üzerinde çalışırız, bu cisim bir $p$ asal sayısının modulo tamsayılar cismidir.
@@ -1007,7 +1007,7 @@ $$
 Bu eğrinin $\mathbb{F}_p$ sonlu alanı üzerinde tanımlandığı göz önüne alındığında, artık sürekli bir eğriye değil, ayrık bir nokta kümesine benzemektedir. Örneğin, Bitcoin'de kullanılan eğrinin çok küçük bir $p = 17$ için nasıl göründüğü aşağıda verilmiştir:
 
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 
 Bu örnekte, eğitim amaçlı olarak sonlu alanı $p = 17$ ile sınırlandırdım, ancak Bitcoin'de kullanılanın çok daha büyük, neredeyse $2^{256}$ olduğunu hayal etmek gerekir.
@@ -1087,13 +1087,13 @@ nerede?
 Bu $G$ noktasının Bitcoin'deki tüm açık anahtarlar için ortak olması, aynı özel anahtarın $k$ bize her zaman aynı açık anahtarı $K$ vereceğinden emin olmamızı sağlar:
 
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 
 Bu işlemin temel özelliği tek yönlü bir fonksiyon olmasıdır. Özel anahtar $k$ ve üreteç noktası $G$ bilinerek açık anahtar $K$'yı hesaplamak kolaydır, ancak yalnızca açık anahtar $K$ ve üreteç noktası $G$ bilinerek özel anahtar $k$'yı hesaplamak pratikte imkansızdır. K$ ve $G$'den $k$'yı bulmak, eliptik eğriler üzerinde ayrık logaritma problemini çözmek anlamına gelir ki bu matematiksel olarak zor bir problemdir ve etkin bir algoritması bilinmemektedir. Günümüzün en güçlü hesap makineleri bile bu problemi makul bir sürede çözememektedir.
 
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 
 ### Eliptik Eğriler Üzerinde Noktaların Toplanması ve İkiye Katlanması
@@ -1113,7 +1113,7 @@ $$
 Grafiksel olarak bu durum aşağıdaki gibi gösterilebilir:
 
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 
 Bir noktanın iki katına çıkarılması, yani $P + P$ işlemi için, eğriye $P$ noktasından teğet çizeriz. Bu teğet eğriyi başka bir $S'$ noktasında keser. Daha sonra bu noktanın x eksenine göre ayna görüntüsünü alarak ikiye katlamanın sonucu olan $S$ noktasını elde ederiz:
@@ -1130,7 +1130,7 @@ $$
 Grafiksel olarak bu şu şekilde gösterilir:
 
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 
 Bu toplama ve ikiye katlama işlemlerini kullanarak, bir noktanın $kP$ olarak gösterilen bir $k$ tamsayısı ile skaler çarpımını, tekrarlanan ikiye katlama ve toplama işlemleri yaparak gerçekleştirebiliriz.
@@ -1155,7 +1155,7 @@ Grafiksel olarak bu, bir dizi toplama ve iki katına çıkarma işlemine karşı
 - $2G$'yi iki katına çıkararak $4G$'yi hesaplayın.
 
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 
 Örneğin, $3G$ noktasını hesaplamak istiyorsak, önce $G$ noktasını ikiye katlayarak $2G$ noktasını hesaplamalı, ardından $G$ ve $2G$ noktalarını toplamalıyız. G$ ve $2G$ noktalarını toplamak için, bu iki noktayı birleştiren doğruyu çizmek, bu doğru ile eliptik eğrinin kesişimindeki tek $-3G$ noktasını elde etmek ve ardından $3G$ noktasını $-3G$ noktasının tersi olarak belirlemek yeterlidir.
@@ -1183,7 +1183,7 @@ $$
 Grafiksel olarak bu durum aşağıdaki gibi gösterilebilir:
 
 
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 
 
 ### Tek Yönlü Fonksiyon
@@ -1399,7 +1399,7 @@ $$
 generate imzasının ilk adımı mesajı Hash'ye dönüştürmektir. Ancak ECDSA'dan farklı olarak, bu işlem başka değerlerle yapılır ve farklı bağlamlarda çakışmaları önlemek için etiketli bir Hash işlevi kullanılır. Etiketli bir Hash fonksiyonu basitçe Hash fonksiyonunun girdilerine mesaj verisinin yanında rastgele bir etiket eklemeyi içerir.
 
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 
 Mesaja ek olarak, açık anahtar $K_x$'in $x$ koordinatı ve Nonce $r$'den hesaplanan $R = r \cdot G$ noktası (Nonce'ün yeniden kullanımıyla ilgili güvenlik açıklarını önlemek için özel anahtardan ve mesajdan deterministik olarak hesaplanan, her imza için benzersiz bir tamsayıdır) da etiketli fonksiyona aktarılır. Tıpkı açık anahtarda olduğu gibi, Nonce $R_x$ noktasının yalnızca $x$ koordinatı noktayı tanımlamak için tutulur.
@@ -1491,13 +1491,13 @@ $$
 Schnorr imza şeması, Bitcoin için orijinal ECDSA algoritmasına göre çeşitli avantajlar sunar. İlk olarak, Schnorr anahtarların ve imzaların toplanmasına izin verir. Bu, birden fazla açık anahtarın tek bir anahtarda birleştirilebileceği anlamına gelir.
 
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 
 Ve benzer şekilde, birden fazla imza tek bir geçerli imzada toplanabilir. Böylece, çok imzalı bir işlem durumunda, bir dizi katılımcı tek bir imza ve tek bir birleştirilmiş açık anahtar ile imzalayabilir. Her düğümün yalnızca tek bir imzayı doğrulaması gerektiğinden, bu durum ağ için depolama ve hesaplama maliyetlerini önemli ölçüde azaltır.
 
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 
 Dahası, imza birleştirme gizliliği artırır. Schnorr ile çok imzalı bir işlemi standart tek imzalı bir işlemden ayırt etmek imkansız hale gelir. Bu homojenlik, Wallet parmak izlerini tanımlama becerisini sınırladığı için zincir analizini daha zor hale getirir.
@@ -1550,7 +1550,7 @@ Bitcoin'te her şeyden önce 3 temel sighash bayrağı vardır:
 - `SIGHASH_ALL` (`0x01`): İmza, işlemin tüm girdileri ve tüm çıktıları için geçerlidir. Böylece işlem tamamen imza kapsamına girer ve artık değiştirilemez. sIGHASH_ALL` günlük işlemlerde, bir işlemin değiştirilemeden yapılmak istendiği durumlarda en sık kullanılan sighash'tır.
 
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 
 Bu bölümdeki tüm diyagramlarda, turuncu renk imzanın kapsadığı Elements'ü temsil ederken, siyah renk kapsamayanları göstermektedir.
@@ -1560,14 +1560,14 @@ Bu bölümdeki tüm diyagramlarda, turuncu renk imzanın kapsadığı Elements'�
 - sIGHASH_NONE` (`0x02`): İmza tüm girdileri kapsar ancak çıktıların hiçbirini kapsamaz, böylece imzadan sonra çıktıların değiştirilmesine izin verir. Somut olarak, bu boş bir çeke benzer. İmzalayan kişi girdilerdeki UTXO'ların kilidini açar ancak çıktılar alanını tamamen değiştirilebilir bırakır. Böylece bu işlemi bilen herkes istediği çıktıyı ekleyebilir, örneğin girdiler tarafından tüketilen fonları toplamak için bir alıcı Address belirleyebilir ve ardından bitcoinleri geri almak için işlemi yayınlayabilir. Girdilerin sahibinin imzası, yalnızca girdileri kapsadığı için geçersiz kılınmayacaktır.
 
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 
 
 - `SIGHASH_SINGLE` (`0x03`): İmza, tüm girdilerin yanı sıra imzalanan girdinin indeksine karşılık gelen tek bir çıktıyı da kapsar. Örneğin, imza #0 numaralı girdinin _scriptPubKey_ kilidini açıyorsa, #0 numaralı çıktıyı da kapsar. İmza, artık değiştirilemeyen diğer tüm girdileri de korur. Ancak, imzanın kapsadığı tek çıktı olan #0 çıktısının değiştirilmemesi koşuluyla, herhangi biri imzayı geçersiz kılmadan ek bir çıktı ekleyebilir.
 
 
-![CYP201](assets/fr/028.webp)
+![CYP201](assets/en/033.webp)
 
 
 Bu üç sighash bayrağına ek olarak, `SIGHASH_ANYONECANPAY` (`0x80`) değiştiricisi de vardır. Bu değiştirici, üç yeni sighash bayrağı oluşturmak için temel bir sighash bayrağı ile birleştirilebilir:
@@ -1577,21 +1577,21 @@ Bu üç sighash bayrağına ek olarak, `SIGHASH_ANYONECANPAY` (`0x80`) değişti
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): İmza, işlemin tüm çıktılarını içerirken tek bir girdiyi kapsar. Bu birleşik sighash bayrağı, örneğin bir kitle fonlaması işleminin oluşturulmasına olanak tanır. Organizatör, Address ve hedef miktar ile çıktıyı hazırlar ve her yatırımcı daha sonra bu çıktıyı finanse etmek için girdiler ekleyebilir. Çıktıyı karşılamak için girdilerde yeterli fon toplandığında, işlem yayınlanabilir.
 
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 
 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): İmza, herhangi bir çıktı taahhüt etmeden tek bir girdiyi kapsar;
 
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): İmza, tek bir girdinin yanı sıra bu girdiyle aynı indekse sahip çıktıyı da kapsar. Örneğin, imza 3 numaralı girdinin _scriptPubKey_ kilidini açarsa, 3 numaralı çıktıyı da kapsar. İşlemin geri kalanı, hem diğer girdiler hem de diğer çıktılar açısından değiştirilebilir kalır.
 
 
-![CYP201](assets/fr/031.webp)
+![CYP201](assets/en/036.webp)
 
 
 ### Yeni Sighash Bayrakları Ekleme Projeleri
@@ -1603,7 +1603,7 @@ Bu üç sighash bayrağına ek olarak, `SIGHASH_ANYONECANPAY` (`0x80`) değişti
 Bu iki sighash bayrağı Bitcoin'de ek bir olasılık sunacaktır: işlemin herhangi bir özel girdisini kapsamayan imzalar oluşturmak.
 
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 
 Bu fikir ilk olarak Joseph Poon ve Thaddeus Dryja tarafından Lightning White Paper'da formüle edilmiştir. Yeniden adlandırılmadan önce, bu sighash bayrağı `SIGHASH_NOINPUT` olarak adlandırılıyordu.
@@ -1654,7 +1654,7 @@ Bir Bitcoin Wallet'un rolü tam olarak bu özel anahtarları güvenli bir şekil
 Bitcoin'de kullanılan ilk cüzdanlar, bağımsız olarak ve aralarında herhangi bir bağlantı olmadan üretilen özel anahtarları bir araya getiren JBOK (_Just a Bunch Of Keys_) cüzdanlarıydı. Bu cüzdanlar, her bir özel anahtarın Address alan benzersiz bir Bitcoin'in kilidini açabildiği basit bir model üzerinde çalışıyordu.
 
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 
 Birden fazla özel anahtar kullanılmak istenirse, Wallet'i barındıran cihazda sorun olması durumunda fonlara erişimi sağlamak için çok sayıda yedekleme yapmak gerekiyordu. Tek bir özel anahtar kullanılıyorsa, tek bir yedekleme yeterli olduğundan bu Wallet yapısı yeterli olabilir. Ancak, bu bir sorun teşkil eder: Bitcoin'te, her zaman aynı özel anahtarın kullanılmaması şiddetle tavsiye edilir. Aslında, bir özel anahtar benzersiz bir Address ile ilişkilidir ve Bitcoin alıcı adresleri normalde tek seferlik kullanım için tasarlanmıştır. Her para aldığınızda, generate yeni bir boş Address kullanmalısınız.
@@ -1674,7 +1674,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 Address JBOK cüzdanlarının sınırlandırılması için daha sonra yeni bir Wallet yapısı kullanılmıştır. 2012 yılında Pieter Wuille, HD (Hiyerarşik Deterministik) cüzdanları tanıtan BIP32 ile bir iyileştirme önerdi. Bir HD Wallet'nin prensibi, tüm özel anahtarları deterministik ve hiyerarşik bir şekilde seed adı verilen tek bir bilgi kaynağından türetmektir. Bu seed, Wallet oluşturulduğunda rastgele oluşturulur ve Wallet'nin tüm özel anahtarlarının yeniden oluşturulmasına olanak tanıyan benzersiz bir yedek oluşturur. Böylece kullanıcı, Address'in yeniden kullanılmasını önlemek ve gizliliğini korumak için çok sayıda özel anahtarı generate yapabilirken, Wallet'sinin seed aracılığıyla yalnızca tek bir yedeğini alması gerekir.
 
 
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 
 HD cüzdanlarında anahtar türetme, farklı Wallet yazılımları arasında fon yönetimini ve birlikte çalışabilirliği kolaylaştırmak için anahtarların türetme alt uzaylarında düzenlenmesine olanak tanıyan ve her alt uzayın daha da alt bölümlere ayrılabildiği hiyerarşik bir yapıya göre gerçekleştirilir. Günümüzde bu standart Bitcoin kullanıcılarının büyük çoğunluğu tarafından benimsenmiştir. Bu nedenle ilerleyen bölümlerde detaylı olarak inceleyeceğiz.
@@ -1723,7 +1723,7 @@ Bir HD Wallet için kullanılan başlangıç entropisi genellikle 128 bit veya 2
 Çoğu durumda, bu rastgele sayı Wallet yazılımı tarafından bir PRNG (_Pseudo-Random Number Generator_) kullanılarak otomatik olarak üretilir. PRNG'ler, bir başlangıç durumundan rastgele bir sayıya yaklaşan özelliklere sahip, ancak gerçekte bir sayı olmayan generate sayı dizileri için kullanılan bir algoritma kategorisidir. İyi bir PRNG, çıktı tekdüzeliği, öngörülemezlik ve tahmin saldırılarına karşı direnç gibi özelliklere sahip olmalıdır. Gerçek rastgele sayı üreteçlerinin (TRNG'ler) aksine, PRNG'ler deterministik ve tekrarlanabilirdir.
 
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 
 Bir alternatif de entropiyi manuel olarak generate oluşturmaktır, bu daha iyi kontrol sağlar ancak aynı zamanda çok daha risklidir. HD Wallet'niz için entropiyi kendiniz oluşturmamanızı şiddetle tavsiye ederim.
@@ -1771,7 +1771,7 @@ $$
 Sağlama toplamı hesaplandıktan sonra, $\text{ENT} olarak belirtilen genişletilmiş bir bit dizisi elde etmek için entropi ile birleştirilir \Vert \text{CS}$ ("concatenate" uç uca eklemek anlamına gelir).
 
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 
 ### Entropi ve Mnemonic İfadesi Arasındaki Uyum
@@ -1810,25 +1810,25 @@ $$
 Bit dizisi $\text{ENT} \Vert \text{CS}$ daha sonra 11 bitlik segmentlere bölünür. Her 11 bitlik segment, ondalık sayıya dönüştürüldükten sonra, bir kelimenin [BIP39 tarafından standartlaştırılan 2048 kelimelik bir listede] konumunu belirleyen 0 ile 2047 arasında bir sayıya karşılık gelir (https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 
 
 Örneğin, 128 bitlik bir entropi için sağlama toplamı 4 bittir ve dolayısıyla toplam dizi 132 bittir. Bu dizi 11 bitlik 12 bölüme ayrılmıştır (turuncu bitler sağlama toplamını belirtir):
 
 
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 
 Her segment daha sonra listedeki bir kelimeyi temsil eden bir ondalık sayıya dönüştürülür. Örneğin, `01011010001` ikili segmenti ondalık olarak `721`e eşdeğerdir. Listenin indekslemesine (0'dan değil 1'den başlar) uyum sağlamak için 1 ekleyerek, bu, listedeki "_focus_" olan `722` kelime sırasını verir.
 
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 
 Bu yazışma 12 kelimelik bir cümle elde etmek için 12 segmentin her biri için tekrarlanır.
 
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 
 ### BIP39 Kelime Listesinin Özellikleri
@@ -1898,7 +1898,7 @@ Dikkatli olun, passphrase, Hardware Wallet'unuzun PIN kodu veya bilgisayarınız
 passphrase, anahtarların üretildiği seed'yi değiştirerek Mnemonic ifadesiyle birlikte çalışır. Böylece, birisi 12 veya 24 kelimelik ifadenizi ele geçirse bile, passphrase olmadan fonlarınıza erişemez. Bir passphrase kullanmak esasen farklı anahtarlara sahip yeni bir Wallet oluşturur. passphrase'ün (birazcık bile) değiştirilmesi generate'i farklı bir Wallet haline getirecektir.
 
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 
 ### Neden bir passphrase kullanmalısınız?
@@ -1921,7 +1921,7 @@ passphrase'in etkili olabilmesi için yeterince uzun ve rastgele olması gerekir
 Bu passphrase'u, Mnemonic ifadesiyle aynı şekilde düzgün bir şekilde kaydetmek de önemlidir. **Bunu kaybetmek, bitcoinlerinize erişimi kaybetmek anlamına gelir**. Kaybetme riskini makul olmayan bir şekilde artırdığı için bunu sadece ezbere hatırlamamanızı şiddetle tavsiye ederim. İdeal olanı, Mnemonic cümlesinden ayrı bir fiziksel ortama (kağıt veya metal) yazmaktır. Her ikisinin de aynı anda ele geçirilmesini önlemek için bu yedekleme kesinlikle Mnemonic ifadenizin saklandığı yerden farklı bir yerde saklanmalıdır.
 
 
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 
 Aşağıdaki bölümde, Wallet'ünüzün temelindeki bu iki Elements'nin - Mnemonic ifadesi ve passphrase - UTXO'larınızı kilitleyen _scriptPubKey_ içinde kullanılan anahtar çiftlerini türetmek için nasıl kullanıldığını keşfedeceğiz.
@@ -1942,7 +1942,7 @@ Aşağıdaki bölümde, Wallet'ünüzün temelindeki bu iki Elements'nin - Mnemo
 Mnemonic cümlesi ve isteğe bağlı passphrase oluşturulduktan sonra, Bitcoin HD Wallet türetme süreci başlayabilir. Mnemonic cümlesi ilk olarak Wallet'nin tüm anahtarlarının temelini oluşturan bir seed'e dönüştürülür.
 
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 
 ### HD Wallet'nin seed'ü
@@ -1971,7 +1971,7 @@ s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 $$
 
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 
 seed'in değeri böylece Mnemonic ifadesinin ve passphrase'un değerinden etkilenir. passphrase değiştirildiğinde farklı bir seed elde edilir. Ancak, aynı Mnemonic ifadesi ve passphrase ile, PBKDF2 deterministik bir fonksiyon olduğu için her zaman aynı seed üretilir. Bu, aynı anahtar çiftlerinin yedeklerimiz aracılığıyla geri alınabilmesini sağlar.
@@ -2027,7 +2027,7 @@ C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 $$
 
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 
 ### Ana Anahtar ve chain code'ün Rolü
@@ -2050,7 +2050,7 @@ Aşağıdaki Elements ile HD Wallet'in türetilmesine devam etmeden önce, bir s
 Genişletilmiş bir anahtar basitçe bir anahtarın (özel veya genel) ve ilişkili chain code'un birleştirilmesidir. Bu chain code alt anahtarların türetilmesi için gereklidir, çünkü bu olmadan bir üst anahtardan alt anahtarları türetmek mümkün değildir, ancak bu süreci bir sonraki bölümde daha ayrıntılı olarak keşfedeceğiz. Dolayısıyla bu genişletilmiş anahtarlar, alt anahtarları türetmek için gerekli tüm bilgilerin bir araya getirilmesini sağlar ve böylece bir HD Wallet içinde hesap yönetimini basitleştirir.
 
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 
 Genişletilmiş anahtar iki bölümden oluşur:
@@ -2084,7 +2084,7 @@ Aşağıda, aşağıdaki gösterimi benimseyeceğiz:
 - $k_{\text{CHD}}^h$: sertleştirilmiş bir alt özel anahtar.
 
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 
 ### Genişletilmiş Anahtarın Oluşturulması
@@ -2219,7 +2219,7 @@ Bitcoin HD cüzdanlarında alt anahtar çiftlerinin türetilmesi, bu çiftleri d
 Tüm bu türetmeler, derinlik seviyesi 0'daki ilk ebeveynler olan ana anahtar ve ana chain code ile başlar. Bunlar bir bakıma Wallet anahtarlarınızın Adem ve Havva'sı, türetilmiş tüm anahtarların ortak atalarıdır.
 
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 
 Bu deterministik türetmenin nasıl çalıştığını inceleyelim.
@@ -2251,7 +2251,7 @@ Her bir alt anahtarın türetilmesi, Bölüm 2'de Hash işlevleri hakkında tart
 Tüm hesaplamalarımızda, HMAC-SHA512 fonksiyonunun çıktısını $\text{Hash}$ olarak göstereceğim.
 
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 
 #### Üst Özel Anahtardan Alt Özel Anahtarın Türetilmesi
@@ -2312,7 +2312,7 @@ $$
 Burada genel türetmenin şematik bir gösterimi yer almaktadır:
 
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 
 Sertleştirilmiş bir alt anahtar için ($i \geq 2^{31}$), $\text{Hash}$ hesaplaması aşağıdaki gibidir:
@@ -2360,7 +2360,7 @@ $$
 Burada genel türetmenin şematik bir gösterimi yer almaktadır:
 
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 
 Normal türetmenin ve sertleştirilmiş türetmenin şu farkla aynı şekilde çalıştığını görebiliriz: normal türetmenin HMAC işlevine girdi olarak ana açık anahtarı kullanırken, sertleştirilmiş türetmenin ana özel anahtarı kullanması.
@@ -2427,7 +2427,7 @@ $$
 Burada genel türetmenin şematik bir gösterimi yer almaktadır:
 
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 
 ### Çocuk açık ve özel anahtarları arasındaki yazışmalar
@@ -2543,7 +2543,7 @@ Derinlik 3'te tanımlanan her hesap daha sonra iki zincir halinde yapılandırı
 Son olarak, derinlik 5, Wallet'deki türetmenin son adımını temsil eder. Teknik olarak sonsuza kadar devam etmek mümkün olsa da, mevcut standartlar burada durmaktadır. Bu son derinlikte, UTXO'ları kilitlemek ve kilidini açmak için gerçekten kullanılacak anahtar çiftleri türetilir. Her bir indeks kardeş anahtar çiftleri arasında ayrım yapılmasını sağlar: böylece ilk alıcı Address $/0/$ indeksini, ikincisi $/1/$ indeksini kullanır ve bu böyle devam eder.
 
 
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 
 ### Türetme Yollarının Gösterimi
@@ -2681,7 +2681,7 @@ Daha önce açıklandığı gibi, bir işlemin rolü Ownership bitcoinlerini gir
 Bir kullanıcı bitcoin aldığında, gönderen bir UTXO oluşturur ve bunu bir *scriptPubKey* ile kilitler. Bu komut dosyası, UTXO'in kilidini açmak için gerekli kuralları içerir ve genellikle gerekli imzaları ve açık anahtarları belirtir. Bu UTXO'i yeni bir işlemde harcamak için, kullanıcı istenen bilgileri bir *scriptSig* aracılığıyla sağlamalıdır. *ScriptPubKey* ile birlikte *scriptSig*'in yürütülmesi "true" veya `1` döndürmelidir. Bu koşul yerine getirilirse, UTXO yeni bir *scriptPubKey* tarafından kilitlenen yeni bir UTXO oluşturmak için harcanabilir ve bu böyle devam eder.
 
 
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 
 Alıcı adresleri tam olarak *scriptPubKey* içinde bulunur. Ancak, bunların kullanımı benimsenen komut dosyası standardına bağlı olarak değişir. Burada, kullanılan standarda göre *scriptPubKey* içinde bulunan bilgilerin ve *scriptPubKey* kilidini açmak için *scriptSig* içinde beklenen bilgilerin bir özet tablosu bulunmaktadır.
@@ -2728,56 +2728,56 @@ Az önce örnek olarak verdiğim komut dosyasının yürütülmesi bu süreci ta
 - Elimizde *scriptSig*, *scriptPubKey* ve yığın var:
 
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 
 
 - *scriptSig* yığına itilir:
 
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 
 
 - oP_DUP`, *scriptSig* içinde sağlanan açık anahtarı yığın üzerinde çoğaltır:
 
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 
 
 - oP_HASH160`, az önce çoğaltılan açık anahtarın Hash değerini döndürür:
 
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 
 
 - oP_PUSHBYTES_20 <pubKeyHash>` *scriptPubKey* içinde bulunan Bitcoin Address'i yığına iter:
 
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 
 
 - `OP_EQUALVERIFY` hashlenmiş açık anahtarın sağlanan alıcı Address ile eşleştiğini doğrular:
 
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 
 
 oP_CHECKSIG` açık anahtarı kullanarak *scriptSig* içinde bulunan imzayı kontrol eder. Bu işlem kodu esasen bu eğitimin 3. bölümünde açıkladığımız gibi bir imza doğrulaması gerçekleştirir:
 
 
 
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 
 
 - Yığında `1` kalırsa, komut dosyası geçerlidir:
 
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 
 Dolayısıyla, özetlemek gerekirse, bu komut dosyası, dijital imza yardımıyla, bu UTXO'nın Ownership'ünü talep eden ve onu harcamak isteyen kullanıcının, bu UTXO'nın oluşturulması sırasında kullanılan alıcı Address ile ilişkili özel anahtara gerçekten sahip olduğunu doğrulamaya izin verir.
@@ -2840,7 +2840,7 @@ Teknik olarak, bir P2TR betiği bitcoinleri $Q$ olarak gösterilen benzersiz bir
 P2TR, bitcoinlerin benzersiz bir açık anahtarla, tercih edilen birkaç komut dosyasıyla veya her ikisiyle aynı anda kilitlenmesine izin verdiği için büyük esneklik sunar. Bu Merkle Tree yapısının avantajı, işlem sırasında yalnızca kullanılan harcama komut dosyasının açığa çıkması, ancak diğer tüm alternatif komut dosyalarının gizli kalmasıdır.
 
 
-![CYP201](assets/fr/063.webp)
+![CYP201](assets/en/068.webp)
 
 
 P2TR, sürüm 1 SegWit çıktılarına karşılık gelir; bu da P2TR girdilerinin imzalarının *scriptSig* içinde değil, işlemin *Witness* bölümünde saklandığı anlamına gelir. P2TR adresleri *bech32m* kodlamasını kullanır ve `bc1p` ile başlar, ancak yapıları için bir Hash işlevi kullanmadıkları için oldukça benzersizdirler. Aslında, doğrudan meta verilerle basitçe biçimlendirilmiş $Q$ açık anahtarını temsil ederler. Bu nedenle, P2PK'ya yakın bir komut dosyası modelidir.
@@ -2873,7 +2873,7 @@ Bitcoin'de bir açık anahtar, eliptik bir eğri üzerinde bulunan bir $K$ nokta
 Ancak, eliptik eğriler x eksenine göre bir simetri özelliğine sahiptir: belirli bir $x$ koordinatı için, $y$ için yalnızca iki olası değer vardır: $y$ ve $-y$. Bu iki nokta x ekseninin her iki tarafında yer alır. Başka bir deyişle, $x$ değerini biliyorsak, eğri üzerindeki tam noktayı belirlemek için $y$ değerinin çift mi yoksa tek mi olduğunu belirtmemiz yeterlidir.
 
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 
 
 Bir açık anahtarı sıkıştırmak için yalnızca 256 bitlik $x$ kodlanır ve $y$ paritesini belirtmek için bir önek eklenir. Bu yöntem açık anahtarın boyutunu başlangıçtaki 520 bit yerine 264 bite düşürür. 0x02` öneki $y$'nin çift olduğunu, `0x03` öneki ise $y$'nin tek olduğunu gösterir.
@@ -3131,7 +3131,7 @@ Bu _bech32_ alfabesinin özelliği, özellikle insanlar tarafından girilmesi ve
 Özetlemek gerekirse, türetme süreci şu şekildedir:
 
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 
 Bir çift anahtardan Address alan bir P2WPKH (SegWit v0) bu şekilde türetilir. Şimdi P2TR (SegWit v1 / Taproot) adreslerine geçelim ve bunların üretim sürecini keşfedelim.
@@ -3255,7 +3255,7 @@ $$
 Daha sonra, Merkle Tree kökünü elde edene kadar sonuçları ikişer ikişer birleştirerek ve her adımda `TapBranch` etiketli Hash işlevinden geçirerek devam ediyoruz:
 
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 
 Merkle Root $h_{\text{root}}$ hesaplandıktan sonra, ince ayarı hesaplayabiliriz. Bunun için, Wallet $P$'nin dahili açık anahtarını $h_{\text{root}}$ kökü ile birleştirir ve ardından tümünü etiketli Hash işlevi `TapTweak` üzerinden geçiririz:

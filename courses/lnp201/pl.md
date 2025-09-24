@@ -1455,13 +1455,13 @@ Wreszcie, węzły przekierowujące, których celem jest maksymalizacja liczby pr
 ### Usługa Loop Out
 
 
-Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightning Labs, pozwala na przeniesienie płynności na przeciwną stronę kanału, jednocześnie odzyskując środki włańcuchu bloków Bitcoina. Na przykład Alicja wysyła 1 milion satów za pośrednictwem sieci Lightning do węzła pętli, który następnie zwraca jej te środki w bitcoinach on-chain. Równoważy to jej kanał z 1 milionem satów po każdej stronie, optymalizując jej zdolność do otrzymywania płatności.
+Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightning Labs, pozwala na przeniesienie płynności na przeciwną stronę kanału przy jednoczesnym odzyskaniu środków w łańcuchu bloków Bitcoina. Na przykład Alicja wysyła 1 milion satów za pośrednictwem sieci Lightning do węzła pętli, który następnie zwraca jej te środki w bitcoinach on-chain. Równoważy to jej kanał z 1 milionem satów po każdej stronie, optymalizując jej zdolność do otrzymywania płatności.
 
 
 ![LNP201](assets/en/75.webp)
 
 
-Dlatego usługa ta umożliwia płynność przychodzącą podczas odzyskiwania bitcoinów on-chain, co pomaga ograniczyć unieruchomienie gotówki potrzebnej do akceptowania płatności za pomocą sieci Lightning.
+Usługa ta umożliwia uzyskanie płynności przychodzącej podczas odzyskiwania bitcoinów on-chain, co pomaga ograniczyć unieruchomienie gotówki potrzebnej do akceptowania płatności za pomocą sieci Lightning.
 
 
 **Co powinieneś wynieść z tego rozdziału?
@@ -1492,29 +1492,29 @@ W następnym rozdziale proponuję przegląd najważniejszych koncepcji tego szko
 :::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
 
-W tym ostatnim rozdziale, oznaczającym koniec szkolenia LNP201, proponuję powrócić do ważnych koncepcji, które wspólnie omówiliśmy.
+W tym ostatnim rozdziale na koniec szkolenia LNP201, proponuję powrócić do ważnych koncepcji, które wspólnie omówiliśmy.
 
 
-Celem tego szkolenia było zapewnienie kompleksowego i technicznego zrozumienia Lightning Network. Odkryliśmy, w jaki sposób Lightning Network opiera się na Bitcoin Blockchain w celu wykonywania transakcji off-chain, zachowując jednocześnie podstawowe cechy Bitcoin, w szczególności brak potrzeby ufania innym węzłom.
+Celem tego szkolenia było zapewnienie kompleksowego i technicznego zrozumienia sieci Lightning. Odkryliśmy, w jaki sposób sieć Lightning opiera się na ańcuchu bloków Bitcoina w celu wykonywania transakcji off-chain, zachowując jednocześnie podstawowe cechy Bitcoina, w szczególności brak potrzeby ufania innym węzłom.
 
 
 ### Kanały płatności
 
 
-W początkowych rozdziałach zbadaliśmy, w jaki sposób dwie strony, otwierając kanał płatności, mogą przeprowadzać transakcje poza Bitcoin Blockchain. Oto omówione kroki:
+W początkowych rozdziałach zbadaliśmy, w jaki sposób dwie strony, otwierając kanał płatności, mogą przeprowadzać transakcje poza łańcuchem bloków Bitcoina. Oto omówione kroki:
 
 
 
-- Otwarcie kanału**: Utworzenie kanału odbywa się za pośrednictwem transakcji Bitcoin, która blokuje środki w wielopodpisowym Address 2/2. Depozyt ten reprezentuje kanał Lightning na Blockchain.
+- **Otwarcie kanału**: Utworzenie kanału odbywa się za pośrednictwem transakcji Bitcoin, która blokuje środki adresem wielopodpisowym 2/2. Depozyt ten reprezentuje kanał Lightning w łańcuchu bloków.
 
 
-![LNP201](assets/en/76.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/76.webp) 2. **Transakcje w kanale**: W tym kanale można dokonać wielu transakcji bez konieczności publikowania ich w łańcuchu bloków. Każda transkacja Lightning powoduje zmianę w kanale reprezentowaną przez transkacje zobowiązującą.
 
 ![LNP201](assets/en/77.webp)
 
 
 
-- Zabezpieczenie i zamknięcie**: Uczestnicy zobowiązują się do nowego stanu kanału poprzez wymianę kluczy odwołania, aby zabezpieczyć środki i zapobiec wszelkim oszustwom. Obie strony mogą wspólnie zamknąć kanał, dokonując nowej transakcji na Bitcoin Blockchain lub w ostateczności poprzez wymuszone zamknięcie. Ta ostatnia opcja, choć mniej wydajna, ponieważ jest dłuższa i czasami słabo oceniana pod względem opłat, nadal pozwala na odzyskanie środków. W przypadku oszustwa ofiara może ukarać oszusta, odzyskując wszystkie środki z kanału na Blockchain.
+- **Zabezpieczenie i zamknięcie**: Uczestnicy zatwierdzają nowy stanu kanału poprzez wymianę kluczy odwołania, aby zabezpieczyć środki i zapobiec wszelkim oszustwom. Obie strony mogą wspólnie zamknąć kanał, dokonując nowej transakcji w łańcuchu bloków Bitcoina lub w ostateczności poprzez zamknięcie wymuszone. Ta ostatnia opcja, choć mniej wydajna, ponieważ jest dłuższa i czasami słabo oceniana pod względem opłat, nadal pozwala na odzyskanie środków. W przypadku oszustwa ofiara może ukarać oszusta, odzyskując wszystkie środki z kanału w łańcuchu bloków.
 
 
 ![LNP201](assets/en/78.webp)
@@ -1523,25 +1523,25 @@ W początkowych rozdziałach zbadaliśmy, w jaki sposób dwie strony, otwierają
 ### Sieć kanałów
 
 
-Po zbadaniu izolowanych kanałów, rozszerzyliśmy naszą analizę na sieć kanałów:
+Po omówieniu pojedynczych kanałów, rozszerzyliśmy naszą analizę na sieć kanałów:
 
 
 
-- Routing**: Gdy dwie strony nie są bezpośrednio połączone kanałem, sieć umożliwia routing przez węzły pośredniczące. Płatności są następnie przekazywane z jednego węzła do drugiego.
+- **Routing**: Gdy dwie strony nie są bezpośrednio połączone kanałem, sieć umożliwia routing przez węzły pośredniczące. Płatności są następnie przekazywane z jednego węzła do drugiego.
 
 
 ![LNP201](assets/en/79.webp)
 
 
 
-- HTLC**: Płatności przechodzące przez węzły pośredniczące są zabezpieczone przez „_Hash Time-Locked Contracts_” (HTLC), które pozwalają na zablokowanie środków do momentu zakończenia płatności od końca do końca.
+- **Kontrakty HTLC**: Płatności przechodzące przez węzły pośredniczące są zabezpieczone przez „_Hash Time-Locked Contracts_” (HTLC), które pozwalają na zablokowanie środków do momentu całkowitego zakończenia płatności.
 
 
 ![LNP201](assets/en/80.webp)
 
 
 
-- Routing cebulowy**: Aby zapewnić poufność płatności, routing cebulowy maskuje ostateczne miejsce docelowe przed węzłami pośredniczącymi. Węzeł wysyłający musi zatem obliczyć całą trasę, ale w przypadku braku pełnych informacji na temat płynności kanałów, przechodzi przez kolejne próby, aby skierować płatność.
+- **Routing warstwowy**: Aby zapewnić poufność płatności, routing warstwowy maskuje przed węzłami pośredniczącymi ostateczne miejsce docelowe płatności. Węzeł wysyłający musi zatem obliczyć całą trasę, ale wobec braku pełnych informacji na temat płynności kanałów, wykonuje kolejne próby, aby przekierować płatność.
 
 
 ![LNP201](assets/en/81.webp)
@@ -1550,22 +1550,22 @@ Po zbadaniu izolowanych kanałów, rozszerzyliśmy naszą analizę na sieć kana
 ### Zarządzanie płynnością
 
 
-Widzieliśmy, że zarządzanie płynnością jest wyzwaniem dla Lightning, aby zapewnić płynny przepływ płatności. Wysyłanie płatności jest stosunkowo proste: wymaga jedynie otwarcia kanału. Jednak otrzymywanie płatności wymaga posiadania płynności po przeciwnej stronie swoich kanałów. Oto kilka omówionych strategii:
+Widzieliśmy, że zarządzanie płynnością przepływu płatności jest wyzwaniem dla sieci Lightning. Wysyłanie płatności jest stosunkowo proste: wymaga jedynie otwarcia kanału. Jednak otrzymywanie płatności wymaga posiadania płynności po przeciwnej stronie swoich kanałów. Oto kilka omówionych strategii:
 
 
 
-- **Przyciąganie kanałów**: Zachęcając inne węzły do otwierania kanałów do siebie, użytkownik uzyskuje przychodzącą płynność.
+- **Przyciąganie kanałów**: Zachęcając inne węzły do otwierania kanałów do siebie, użytkownik uzyskuje płynność przychodzącą.
 
 
 
-- **Przenoszenie płynności**: Wysyłając płatności do innych kanałów, płynność przenosi się na przeciwną stronę.
+- **Przenoszenie płynności**: Wysyłanie płatności do innych kanałów powoduje przeniesienie płynności na przeciwną stronę.
 
 
 ![LNP201](assets/en/82.webp)
 
 
 
-- **Korzystanie z usług takich jak Loop i Pool**: Usługi te umożliwiają równoważenie lub kupowanie kanałów z płynnością po przeciwnej stronie.
+- **Korzystanie z usług takich jak Loop i Pool**: Usługi te umożliwiają równoważenie płynności lub kupowanie kanałów z płynnością po przeciwnej stronie.
 
 ![LNP201](assets/en/83.webp)
 

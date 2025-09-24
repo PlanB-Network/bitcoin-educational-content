@@ -48,25 +48,25 @@ Lengo la kozi hii ya mafunzo si kukufanya usijulikane kabisa katika matumizi yak
 
 Kwa kuanzia, tutakagua kanuni za kimsingi zinazosimamia utendakazi wa Bitcoin, ili tuweze kushughulikia kwa utulivu dhana zinazohusiana na faragha. Ni muhimu kufahamu dhana chache za kimsingi, kama vile UTXO, kupokea Address na uandishi, kabla ya kuelewa kikamilifu dhana ambazo tutashughulikia katika sehemu zifuatazo. Pia tutatambulisha modeli ya faragha ya jumla ya Bitcoin, kama inavyofikiriwa na Satoshi Nakamoto, ambayo itatuwezesha kufahamu vizuizi na hatari zinazohusiana.
 
-![BTC204](assets/fr/001.webp)
+![BTC204](assets/sw/001.webp)
 
 ### Sehemu ya 2: Kuelewa na kulinda dhidi ya uchanganuzi wa Blockchain
 
 Katika sehemu ya pili, tunaangalia mbinu zinazotumiwa na kampuni za uchanganuzi za Blockchain kufuatilia shughuli yako kwenye Bitcoin. Kuelewa mbinu hizi ni muhimu ili kuimarisha ulinzi wako wa faragha. Lengo la sehemu hii ni kuchunguza mikakati ya washambuliaji ili kuelewa vyema hatari na kuandaa msingi wa mbinu tutakazojifunza katika sehemu zifuatazo. Tutachanganua mifumo ya muamala, utabiri wa ndani na nje, na uwezekano wa kufasiriwa kwa mifumo hii. Mbali na nadharia, tutajifunza jinsi ya kutumia Block explorer kwa uchanganuzi wa minyororo, kupitia mifano ya vitendo na mazoezi.
 
-![BTC204](assets/fr/002.webp)
+![BTC204](assets/sw/002.webp)
 
 ### Sehemu ya 3: Kusimamia mbinu bora za kulinda faragha yako
 
 Katika sehemu ya tatu ya kozi yetu ya mafunzo, tunashuka hadi kwenye undani wa mazoezi. Lengo ni kujifunza mbinu zote bora na muhimu ambazo zinapaswa kuwa tabia za kawaida kwa mtumiaji yeyote wa Bitcoin. Tutashughulikia matumizi ya Address tupu, kuweka alama, uimarishaji, matumizi ya Full node, pamoja na KYC na mbinu za kujipatia Bitcoin. Lengo ni kukupa muhtasari wa kina wa mitego ya kuepuka ili kuweka msingi imara katika juhudi zetu za kulinda faragha. Kwa baadhi ya mazoea haya, utaelekezwa kwenye mafunzo maalum ya jinsi ya kuyatekeleza.
 
-![BTC204](assets/fr/003.webp)
+![BTC204](assets/sw/003.webp)
 
 ### Sehemu ya 4: Kuelewa miamala ya CoinJoin
 
 Je, tunawezaje kuzungumza juu ya faragha kwenye Bitcoin bila kutaja CoinJoin? Katika Sehemu ya 4, utapata yote unayohitaji kujua kuhusu njia hii ya kuchanganya. Utajifunza CoinJoin ni nini, historia na malengo yake, pamoja na aina tofauti za CoinJoin zilizopo. Hatimaye, kwa mtumiaji mwenye uzoefu zaidi, tutaangalia anonsets na entropy ni nini, na jinsi ya kuzihesabu.
 
-![BTC204](assets/fr/004.webp)
+![BTC204](assets/sw/004.webp)
 
 ### Sehemu ya 5: Kuelewa changamoto za mbinu zingine za hali ya juu za usiri
 
@@ -74,7 +74,7 @@ Katika sehemu ya tano, tutaangalia mbinu zingine zote zinazopatikana ili kulinda
 
 Pia tutaangalia faragha katika kiwango cha mtandao wa nodi na usambazaji wa shughuli. Tutajadili pia itifaki mbalimbali ambazo zimependekezwa kwa miaka mingi ili kuimarisha faragha ya mtumiaji kwenye Bitcoin, ikiwa ni pamoja na itifaki tuli za Address.
 
-![BTC204](assets/fr/005.webp)
+![BTC204](assets/sw/005.webp)
 
 # Ufafanuzi na dhana muhimu
 
@@ -92,7 +92,7 @@ Itifaki ya Bitcoin inategemea mfano wa UTXO, ambao unasimama kwa "Unspent Transa
 
 Mtindo huu unatofautiana kwa kiasi kikubwa na mifumo ya jadi ya benki, ambayo inategemea utaratibu wa akaunti na salio kufuatilia mtiririko wa fedha. Katika mfumo wa benki, mizani ya mtu binafsi hutunzwa katika akaunti zilizounganishwa na utambulisho. Kwa mfano, unaponunua baguette kutoka kwa mwokaji, benki yako hutoa tu kiasi cha ununuzi kutoka kwa akaunti yako, kupunguza salio lako, wakati akaunti ya mwokaji inahesabiwa kwa kiasi sawa, na kuongeza salio lake. Katika mfumo huu, hakuna dhana ya kiungo kati ya pesa zinazoingia kwenye akaunti yako na pesa zinazoiacha, kando na rekodi za miamala.
 
-![BTC204](assets/fr/006.webp)
+![BTC204](assets/sw/006.webp)
 
 Bitcoin inafanya kazi tofauti. Dhana ya akaunti haipo, na vitengo vya fedha havidhibitiwi kupitia mizani, bali kupitia UTXOs. UTXO inawakilisha kiasi maalum cha bitcoins ambazo bado hazijatumiwa, na hivyo kutengeneza "kipande cha Bitcoin", ambacho kinaweza kuwa kikubwa au kidogo. Kwa mfano, UTXO moja inaweza kuwa na thamani ya `500 BTC` au hata `700 Sats`.
 
@@ -110,11 +110,11 @@ Kinadharia, UTXO moja inaweza kuwakilisha thamani yoyote katika bitcoins, kuanzi
 
 UTXOs ni vyombo vya ubadilishanaji kwenye Bitcoin. Kila shughuli husababisha matumizi ya UTXO kama pembejeo na kuunda UTXO mpya kama matokeo. Muamala unapokamilika, UTXO zilizotumika kama pembejeo huchukuliwa kuwa “zimetumika,” na UTXO mpya hutolewa na kugawiwa kwa wapokeaji waliotajwa katika matokeo ya muamala. Kwa hivyo, UTXO inawakilisha tu pato la muamala ambalo halijatumika, na hivyo kuonyesha idadi ya bitcoins anazomiliki mtumiaji kwa wakati fulani.
 
-![BTC204](assets/fr/007.webp)
+![BTC204](assets/sw/007.webp)
 
 UTXO zote zinalindwa na hati zinazofafanua hali ambazo zinaweza kutumika. Ili kutumia UTXO, mtumiaji lazima aonyeshe kwa mtandao kwamba anakidhi masharti yaliyoainishwa na hati inayolinda UTXO hiyo. Kwa kawaida, UTXO zinalindwa na ufunguo wa umma (au kupokea Address ambayo inawakilisha ufunguo huu wa umma). Ili kutumia UTXO inayohusishwa na ufunguo huu wa umma, mtumiaji lazima athibitishe kuwa ana ufunguo wa faragha unaolingana, kwa kutoa sahihi ya dijiti iliyotengenezwa na ufunguo huu. Hii ndiyo sababu tunasema kwamba Wallet yako ya Bitcoin haina bitcoins, bali huhifadhi funguo zako za kibinafsi, ambazo zinakupa ufikiaji wa UTXOs zako na, kwa ugani, kwa bitcoins wanazowakilisha.
 
-![BTC204](assets/fr/008.webp)
+![BTC204](assets/sw/008.webp)
 
 Kwa kuwa hakuna dhana ya akaunti katika Bitcoin, salio la Wallet ni jumla ya thamani za UTXO zote inazoweza kutumia. Kwa mfano, ikiwa Wallet yako ya Bitcoin inaweza kutumia UTXO 4 zifuatazo:
 
@@ -127,7 +127,7 @@ Kwa kuwa hakuna dhana ya akaunti katika Bitcoin, salio la Wallet ni jumla ya tha
 
 Salio la jumla lako kwingineko litakuwa `17 BTC`.
 
-![BTC204](assets/fr/009.webp)
+![BTC204](assets/sw/009.webp)
 
 ## Muundo wa shughuli za Bitcoin
 
@@ -137,17 +137,17 @@ Salio la jumla lako kwingineko litakuwa `17 BTC`.
 
 Muamala wa Bitcoin ni operesheni iliyorekodiwa kwenye Blockchain inayohamisha Umilikishaji wa bitcoins kutoka kwa mtu mmoja hadi mwingine. Kwa usahihi zaidi, kwa kuwa tuko kwenye modeli ya UTXO na hakuna akaunti, shughuli hiyo inakidhi masharti ya matumizi ambayo yalilinda UTXO moja au zaidi, inazitumia, na kwa usawa huunda UTXO mpya na masharti mapya ya matumizi. Kwa kifupi, muamala huhamisha bitcoins kutoka hati iliyoridhika hadi hati mpya iliyoundwa ili kuzilinda.
 
-![BTC204](assets/fr/010.webp)
+![BTC204](assets/sw/010.webp)
 
 Kwa hivyo, kila muamala wa Bitcoin huwa na ingizo moja au zaidi na towe moja au zaidi. Ingizo ni UTXO zinazotumiwa na muamala kwa ajili ya matokeo yanayozalishwa. Matokeo ni UTXO mpya ambazo zinaweza kutumika kama ingizo kwa miamala ya siku zijazo.
 
-![BTC204](assets/fr/011.webp)
+![BTC204](assets/sw/011.webp)
 
 **Je, wajua?** Kinadharia, muamala wa Bitcoin unaweza kuwa na idadi isiyo na kikomo ya pembejeo na matokeo. Kikomo pekee ni ukubwa wa juu wa kizuizi.
 
 Kila ingizo katika shughuli ya Bitcoin inarejelea UTXO ambayo haijatumika hapo awali. Ili kutumia UTXO kama ingizo, mmiliki wake lazima aonyeshe kuwa yeye ndiye mmiliki halali kwa kuthibitisha hati husika, yaani kwa kukidhi sharti la matumizi lililowekwa. Kwa ujumla, hii inamaanisha kutoa sahihi ya dijiti inayozalishwa na private key inayolingana na public key ambayo hapo awali ililinda UTXO hii. Kwa hivyo, hati inajumuisha kuthibitisha kwamba sahihi inalingana na public key iliyotumiwa wakati fedha zilipokelewa.
 
-![BTC204](assets/fr/012.webp)
+![BTC204](assets/sw/012.webp)
 
 Kila pato, kwa upande wake, linataja kiasi cha bitcoins kinachohamishwa, pamoja na mpokeaji. Mwisho hufafanuliwa na hati mpya, ambayo kwa kawaida huzuia UTXO mpya iliyoundwa na kupokea Address au public key mpya.
 
@@ -161,11 +161,11 @@ Utaratibu huu ni sawa na ule wa sarafu ya dhahabu. Tuseme unamiliki sarafu za wa
 
 Bitcoin inafanya kazi kwa njia sawa. Hebu tufikirie kuwa Alice ana UTXO ya `10,000 Sats` na anataka kununua baguette ya gharama ya `4,000 Sats`. Alice atafanya muamala na 1 UTXO ya `10,000 Sats` kama ingizo, ambalo atatumia kikamilifu, na UTXO 2 za `4,000 Sats` na `6,000 Sats` kama pato. UTXO ya `4,000 Sats` itatumwa kwa mwokaji kama malipo ya baguette, huku UTXO ya `6,000 Sats` itarudi kwa Alice kwa njia ya mabadiliko. UTXO hii, ambayo inarudi kwa mtoaji asili wa muamala, inajulikana kama "ubadilishanaji" katika jargon ya Bitcoin.
 
-![BTC204](assets/fr/013.webp)
+![BTC204](assets/sw/013.webp)
 
 Sasa hebu tufikirie kuwa Alice hana UTXO moja ya `10,000 Sats`, bali badala yake ana UTXO mbili za `3,000 Sats` kila moja. Katika hali hii, hakuna UTXO moja inatosha kuweka fimbo `4,000 Sats`. Kwa hivyo, ni lazima Alice atumie wakati huo huo UTXO mbili za `3,000 Sats` kama maingizo kwa muamala wake. Kwa njia hii, jumla ya kiasi cha pembejeo kitafikia `6,000 Sats`, na kumwezesha kukidhi malipo ya `4,000 Sats` kwa mwokaji. Njia hii, ambapo UTXO kadhaa huunganishwa kama pembejeo kwa muamala, mara nyingi hujulikana kama "kuunganisha".
 
-![BTC204](assets/fr/014.webp)
+![BTC204](assets/sw/014.webp)
 
 ### Ada za muamala
 
@@ -177,7 +177,7 @@ Frais = total inputs - total outputs
 
 Hebu tuchukue mfano wa Alice, ambaye ana UTXO ya `10,000 Sats` na anataka kununua baguette kwa `4,000 Sats`. Alice hutengeneza muamala na UTXO yake ya `10,000 Sats` kama ingizo. Kisha hutoa pato la `4,000 Sats` kwa mwokaji kulipia baguette. Ili kuwahimiza wachimbaji kujumuisha shughuli zake kwenye eneo, Alice hutenga `200 Sats` katika ada. Kisha atatengeneza toleo la pili, Ubadilishanaji, ambalo litarejeshwa kwake, la jumla ya `5,800 Sats`.
 
-![BTC204](assets/fr/015.webp)
+![BTC204](assets/sw/015.webp)
 
 Kwa kutumia fomula ya ada, tunaona kwamba kuna `200 Sats` iliyosalia kwa watoto:
 
@@ -201,7 +201,7 @@ Sarafu ya msingi ni aina maalum ya shughuli ya Bitcoin, ambayo ni ya kipekee kwa
 Sarafu ya msingi Coinbase Transaction ni ya kipekee kwa kuwa ndiyo pekee inayoweza kuunda Bitcoins *ex nihilo* (kutoka kwenye ombwe), bila hitaji la kutumia pembejeo kwa ajili ya kuzalisha matokeo. Bitcoins hizi mpya zilizoundwa ndizo tunaziita UTXO za asili.
 
 
-![BTC204](assets/fr/016.webp)
+![BTC204](assets/sw/016.webp)
 
 Bitcoins zilizopewa ruzuku ya block ni BTC mpya iliyoundwa kutoka mwanzo, kulingana na ratiba ya utoaji iliyowekwa tayari katika sheria za makubaliano. Ruzuku ya block hupunguzwa kwa nusu kila block 210,000, yaani takriban kila baada ya miaka minne, katika mchakato unaojulikana kama "Halving" . Awali, bitcoins 50 ziliundwa kwa kila ruzuku, lakini kiasi hiki kimepungua hatua kwa hatua; kwa sasa, ni bitcoins 3.1225 kwa block.
 
@@ -223,11 +223,11 @@ Pili, kama ilivyotajwa katika sehemu zilizopita, sarafu za Bitcoin kimsingi ni m
 
 Moja ya kazi za pesa ni kutatua shida ya bahati mbaya mara mbili ya mahitaji. Katika mfumo unaozingatia ubadilishanaji wa mali, ukamilishaji wa exchange hauhitaji tu kupata mtu binafsi anayetoa kitu kizuri kinacholingana na hitaji langu, bali pia kumpa kitu cha thamani sawa kinachokidhi hitaji lake mwenyewe. Kuweka usawa huu ni jambo gumu.
 
-![BTC204](assets/fr/017.webp)
+![BTC204](assets/sw/017.webp)
 
 Ndio maana tunatumia pesa kuhamisha thamani katika nafasi na wakati.
 
-![BTC204](assets/fr/018.webp)
+![BTC204](assets/sw/018.webp)
 
 Ili sarafu kutatua tatizo hili, ni muhimu kwamba mhusika anayetoa bidhaa au huduma awe na uhakika wa uwezo wake wa kutumia kiasi hicho baadaye. Kwa hivyo, mtu yeyote mwenye busara anayetaka kupokea sarafu, iwe ya dijiti au ya kimwili, atahakikisha kwamba inakidhi vigezo viwili vya msingi:
 - **Kipande lazima kiwe na uadilifu na uhalisi ;**
@@ -239,20 +239,20 @@ Uhalisi pia ni tabia ngumu kuthibitisha kwenye njia halisi ya fedha. Mbinu za le
 
 Kwa upande mwingine, kwa sababu ya asili yao, matumizi ya mara mbili sio tatizo kwa fedha za kimwili. Nikikupa bili ya €10, itaondoka kwenye milki yangu bila kubatilishwa na kuingia yako, ambayo kwa kawaida huondoa uwezekano wowote wa matumizi mengi ya vitengo vya fedha vinavyojumuisha. Kwa kifupi, sitaweza kutumia bili hii ya €10 tena.
 
-![BTC204](assets/fr/019.webp)
+![BTC204](assets/sw/019.webp)
 
 Kwa sarafu ya dijitali, ugumu ni tofauti. Kuhakikisha uhalisia na uadilifu wa sarafu mara nyingi ni rahisi. Kama tulivyoona katika sehemu iliyotangulia, kielelezo cha Bitcoin cha UTXO kinawezesha kufuatilia sarafu hadi asili yake, na hivyo kuthibitisha kwamba kweli iliundwa na Miner kwa kufuata sheria za makubaliano.
 
 
 Kwa upande mwingine, kuhakikisha kuwa hakuna matumizi ya mara mbili ni ngumu zaidi, kwani bidhaa zote za dijitali ziko katika habari ya asili. Tofauti na bidhaa za kimwili, habari haijagawanywi wakati inabadilishwa, bali huenea kwa kuzidishwa. Kwa mfano, nikikutumia hati kwa barua pepe, itarudiwa. Huwezi kuwa na uhakika kwamba nimefuta hati asili.
 
-![BTC204](assets/fr/020.webp)
+![BTC204](assets/sw/020.webp)
 
 ### Kuzuia matumizi maradufu kwenye Bitcoin
 
 Njia pekee ya kuepuka marudio haya ya mali ya dijiti ni kufahamu ubadilishanaji wote kwenye mfumo. Kwa njia hii, tunaweza kujua ni nani anamiliki nini na kusasisha hisa za kila mtu kulingana na miamala iliyofanywa. Hiki ndicho kinachotokea, kwa mfano, na pesa za kimaandiko katika mfumo wa benki. Unapolipa €10 kwa mfanyabiashara kwa kadi ya mkopo, benki hurekodi ubadilishanaji na kusasisha kitabu cha akaunti.
 
-![BTC204](assets/fr/021.webp)
+![BTC204](assets/sw/021.webp)
 
 Kwenye Bitcoin, Matumizi ya mara mbili yanazuiwa kwa njia sawa. Tunatafuta kuthibitisha kutokuwepo kwa shughuli ambayo tayari imetumia sarafu zinazohusika. Ikiwa sarafu hazijawahi kutumika, basi tunaweza kuwa na uhakika kwamba hakuna matumizi ya mara mbili yatatokea. Kanuni hii ilielezewa na Satoshi Nakamoto kwenye Karatasi Nyeupe na kifungu maarufu:
 
@@ -264,19 +264,19 @@ Ni usambazaji huu wa habari kwa umma ambao unatatiza ulinzi wa faragha katika Bi
 
 Katika mfumo wa kitamaduni, akaunti yako ya benki imeunganishwa na utambulisho wako. Mwenye benki anaweza kujua ni akaunti gani ya benki ni ya mteja yupi, na ni miamala gani inayohusishwa nayo. Hata hivyo, mtiririko huu wa habari umekatwa kati ya benki na uwanja wa umma. Kwa maneno mengine, haiwezekani kujua salio na miamala ya akaunti ya benki ya mtu mwingine. Ni benki pekee inayoweza kufikia maelezo haya.
 
-![BTC204](assets/fr/022.webp)
+![BTC204](assets/sw/022.webp)
 
 Kwa mfano, benki yako inajua kwamba unanunua baguette yako kila asubuhi kutoka kwa waokaji wa ndani, lakini jirani yako hana ujuzi wa muamala huu. Kwa njia hii, mtiririko wa habari unapatikana kwa wahusika, hasa benki, lakini bado hauwezekani kwa watu wa nje.
 
-![BTC204](assets/fr/023.webp)
+![BTC204](assets/sw/023.webp)
 
 Kwa sababu ya kikwazo cha utangazaji wa miamala kwa umma ambacho tuliona katika sehemu iliyotangulia, mtindo wa faragha wa Bitcoin hauwezi kufuata mtindo wa mfumo wa benki. Katika hali ya Bitcoin, kwa kuwa mtiririko wa maelezo hauwezi kuvunjika kati ya miamala na kikoa cha umma, muundo wa faragha unategemea utengano kati ya utambulisho wa mtumiaji na miamala yenyewe.
 
-![BTC204](assets/fr/024.webp)
+![BTC204](assets/sw/024.webp)
 
 Kwa mfano, ukinunua baguette kutoka kwa mwokaji, ukalipa kwa BTC, jirani yako, ambaye ana full node yake, anaweza kuona muamala wako ukipitia, kama anavyoweza kuona miamala mingine yote katika mfumo. Hata hivyo, ikiwa kanuni za faragha zinaheshimiwa, hapaswi kuunganisha muamala huu mahususi na utambulisho wako.
 
-![BTC204](assets/fr/025.webp)
+![BTC204](assets/sw/025.webp)
 
 Lakini kwa kuwa miamala ya Bitcoin inafanywa kwa umma, bado inawezekana kuanzisha viungo kati yao ili kupata taarifa kuhusu wahusika wanaohusika. Miamala hii hata inajulikana kama taaluma maalum kwa haki yake yenyewe, inayojulikana kama **uchambuzi wa Blockchain**. Katika sehemu inayofuata ya kozi, ninakualika kuchunguza misingi ya uchambuzi wa Blockchain, ili uweze kuelewa jinsi bitcoins zako zinavyofuatiliwa na kujilinda vizuri dhidi yake.
 
@@ -297,7 +297,7 @@ Kwa maneno ya watu wa kawaida, kuna hatua tatu kuu katika Chainalysis (uchambuzi
 2. **Utambuaji wa vipengele vinavyojulikana ;**
 3. **Kato la dhana**
 
-![BTC204](assets/fr/026.webp)
+![BTC204](assets/sw/026.webp)
 
 Uchambuzi wa blockchain unaweza kufanywa na mtu yeyote. Unachohitaji ni kufikia maelezo ya umma ya blockchain kupitia nodi kamili ili kuona mienendo ya muamala na kufanya dhahania. Pia kuna zana zisizolipishwa zinazowezesha uchanganuzi huu, kama vile [OXT.me](https://oxt.me/), ambazo tutachunguza kwa kina katika sura mbili za mwisho za sehemu hii. Hata hivyo, hatari kuu ya usiri hutoka kwa makampuni maalumu katika **Chain analysis**. Kampuni hizi zimechukua uchanganuzi wa blockchain kwa kiwango cha viwanda na kuuza huduma zao kwa taasisi za kifedha na serikali. Miongoni mwa makampuni haya, **Chain analysis** ni hakika inayojulikana zaidi.
 
@@ -305,13 +305,13 @@ Uchambuzi wa blockchain unaweza kufanywa na mtu yeyote. Unachohitaji ni kufikia 
 
 Mojawapo ya malengo ya uchambuzi wa mnyororo ni kuunganisha pamoja miamala mbalimbali kwenye Bitcoin ili kubaini upekee wa mtumiaji aliyeitekeleza. Baadaye, huenda ikawa rahisi kujaribu kuihusisha kundi hili la miamala na utambulisho wa kweli.
 
-![BTC204](assets/fr/027.webp)
+![BTC204](assets/sw/027.webp)
 
 Fikiria nyuma kwenye sura iliyotangulia. Nilieleza kwa nini muundo wa faragha wa Bitcoin ulikuwa msingi wa mgawanyo wa utambulisho wa mtumiaji kutoka kwa miamala. Kwa hivyo, inaweza kuwa rahisi kudhani kwamba uchambuzi wa mnyororo hauna maana, kwa kuwa hata tukifaulu kuunganisha miamala ya on-chain, bado hatuwezi kuizalisha kwa utambulisho halisi.
 
 Kinadharia, kauli hii ni sahihi. Katika sehemu ya kwanza ya kozi hii, tuliona kwamba jozi za ufunguo wa cryptographic hutumiwa kuanzisha hali kwenye UTXO. Kwa asili, jozi hizi muhimu hazitoi habari yoyote kuhusu utambulisho wa wamiliki wao. Kwa hivyo, hata kama tunaweza kuweka pamoja shughuli zinazohusiana na jozi muhimu tofauti, hii haituambii chochote kuhusu huluki nyuma ya miamala hii.
 
-![BTC204](assets/fr/028.webp)
+![BTC204](assets/sw/028.webp)
 
 Walakini, hali halisi ya kiutendaji ni changamano zaidi. Kuna tabia nyingi ambazo zinaweza kuunganisha utambulisho halisi na miamala ya on-chain. Katika uchambuzi, hili linajulikana kama hatua ya kuingia, na kuna nyingi kati yake.
 
@@ -319,13 +319,13 @@ Maarufu zaidi ni KYC (*Mjue Mteja Wako*). Ukiondoa Bitcoins zako kutoka kwa jukw
 
 Maeneo haya ya kuingia kwa hakika hayawezi kuepukika unapotumia Bitcoin. Ingawa tunaweza kutafuta kuzuia upeo wao, watakuwepo kila wakati. Ndiyo maana ni muhimu kuchanganya mbinu zinazolenga kuhifadhi faragha yako. Ingawa kudumisha utengano kati ya utambulisho wako halisi na miamala yako ni mbinu ya kuvutia, bado haitoshi leo. Hakika, ikiwa shughuli zako zote za onchain zinaweza kuunganishwa pamoja, basi hata sehemu ndogo zaidi ya kuingilia inaweza kuathiri usiri mmoja wa safu ambayo umeanzisha.
 
-![BTC204](assets/fr/029.webp)
+![BTC204](assets/sw/029.webp)
 
 ### Kujilinda dhidi ya Chain analysis 
 
 Kwa hivyo tunahitaji pia kuweza kukabiliana na uchanganuzi wa blockchain katika matumizi yetu ya Bitcoin. Kwa kufanya hivyo, tunaweza kupunguza ujumlisho wa shughuli zetu na kupunguza athari za mahali pa kuingilia kwenye faragha yetu.
 
-![BTC204](assets/fr/030.webp)
+![BTC204](assets/sw/030.webp)
 
 Ni njia gani bora ya kukabiliana na uchambuzi wa blockchain kuliko kujifunza kuhusu mbinu zinazotumiwa ndani yake? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, unahitaji kuelewa mbinu hizi. Hii itakupa ufahamu bora wa mbinu kama vile Coinjoin  au Payjoin (mbinu tutakazoangalia katika sehemu za mwisho za kozi), na kupunguza makosa ambayo unaweza kufanya.
 
@@ -353,7 +353,7 @@ Heuristics mbili za kwanza za Chain analysis ziligunduliwa na Satoshi Nakamoto m
 - cIOH (*Ingizo la Kawaida Ownership Heuristic*);
 - na kutumia tena Anwani (address).
 
-![BTC204](assets/fr/031.webp)
+![BTC204](assets/sw/031.webp)
 
 Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
 
@@ -367,7 +367,7 @@ Mchoro wa muamala ni muundo wa jumla au muundo wa shughuli ya kawaida, ambao una
 
 Kwa maneno mengine, tutaangalia tu idadi ya UTXO katika pembejeo na idadi ya UTXO katika matokeo, bila kuzingatia maelezo mahususi zaidi au mazingira ya muamala. Kulingana na muundo uliozingatiwa, tunaweza kutafsiri asili ya shughuli. Kisha tutatafuta sifa za muundo wake na kupata tafsiri.
 
-![BTC204](assets/fr/032.webp)
+![BTC204](assets/sw/032.webp)
 
 Katika sehemu hii, tutaangalia pamoja mifano kuu ya shughuli zinazopatikana katika Chainalysis, na kwa kila mfano, nitakupa tafsiri inayowezekana ya muundo huu, pamoja na mfano halisi.
 
@@ -376,7 +376,7 @@ Katika sehemu hii, tutaangalia pamoja mifano kuu ya shughuli zinazopatikana kati
 Hebu tuanze na muundo wa kawaida sana, kwa kuwa ndio unaojitokeza kwenye malipo mengi ya Bitcoin. Mtindo rahisi wa malipo una sifa ya utumiaji wa UTXO moja au zaidi kama pembejeo na utengenezaji wa UTXO mbili kama matokeo. Kwa hivyo, mfano huu unaonekana kama huu:
 
 
-![BTC204](assets/fr/033.webp)
+![BTC204](assets/sw/033.webp)
 
 Tunapoona muundo huu wa muamala kwenye blockchain, tunaweza tayari kuchora tafsiri. Kama jina lake linavyopendekeza, mtindo huu unaonyesha kuwa tuko mbele ya muamala wa kutuma au wa malipo. Mtumiaji ametumia UTXO yake mwenyewe katika pembejeo ili kukidhi matokeo ya malipo ya UTXO na UTXO ya ubadilishaji (fedha zilizorejeshwa kwa mtumiaji huyo huyo).
 
@@ -390,7 +390,7 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo rahisi wa kutuma:
 b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 ```
 
-![BTC204](assets/fr/034.webp)
+![BTC204](assets/sw/034.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
 
@@ -402,7 +402,7 @@ Sasa kwa kuwa umeelewa muundo ni nini, wacha tuendelee kwenye mifano mingine ili
 
 Mtindo huu wa pili una sifa ya matumizi ya UTXO moja kama pembejeo na utengenezaji wa UTXO moja kama pato.
 
-![BTC204](assets/fr/035.webp)
+![BTC204](assets/sw/035.webp)
 
 Tafsiri ya mtindo huu ni kwamba tuko mbele ya uhamishaji wa kibinafsi. Mtumiaji amehamisha bitcoins zake kwake, kwa Anwani nyingine ya mali yake. Kwa kuwa hakuna ubadilishaji kwenye muamala, kuna uwezekano mkubwa kwamba tuko mbele ya malipo. Hakika, wakati malipo yanafanywa, ni vigumu kwa mlipaji kuwa na UTXO inayolingana hasa na kiasi kinachohitajika na muuzaji, pamoja na ada ya ununuzi. Kwa ujumla, mlipaji analazimika kutoa pato la ubadilishaji.
 
@@ -414,7 +414,7 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa sweep transact
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
 ```
 
-![BTC204](assets/fr/036.webp)
+![BTC204](assets/sw/036.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
@@ -426,7 +426,7 @@ Hebu tuchukue mfano wa Alice tena: ikiwa scan inaongoza kwa  address inayojulika
 
 Mfano huu una sifa ya matumizi ya UTXO kadhaa kwenye pembejeo na uzalishaji wa UTXO moja kwenye pato.
 
-![BTC204](assets/fr/037.webp)
+![BTC204](assets/sw/037.webp)
 
 Tafsiri ya muundo huu ni kwamba tuko mbele ya uimarishaji. Hii ni mazoezi ya kawaida kati ya watumiaji wa Bitcoin, wenye lengo la kuunganisha UTXO kadhaa kwa kutarajia ongezeko linalowezekana la ada za manunuzi. Kwa kufanya operesheni hii wakati ambapo ada ni ndogo, inawezekana kuokoa kwa ada za baadaye. Tutazungumza zaidi kuhusu mazoezi haya katika sura ya 4.3.
 
@@ -440,19 +440,19 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa ujumuishaji:
 77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
 ```
 
-![BTC204](assets/fr/038.webp)
+![BTC204](assets/sw/038.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
 Katika uchanganuzi wa mnyororo (chain analysis), mtindo huu unaweza kufunua habari nyingi. Kwa mfano, ikiwa tunajua kuwa moja ya pembejeo ni ya Alice, tunaweza kudhani kuwa ingizo zingine zote na matokeo ya muamala huu pia ni yake. Dhana hii basi ingewezesha kurejea msururu wa miamala ya awali ili kugundua na kuchanganua miamala mingine inayoweza kuhusishwa na Alice.
 
-![BTC204](assets/fr/039.webp)
+![BTC204](assets/sw/039.webp)
 
 ### Matumizi ya vikundi
 
 Mtindo huu una sifa ya utumiaji wa UTXO chache kama pembejeo (mara nyingi ni moja tu) na utengenezaji wa UTXO nyingi kama matokeo.
 
-![BTC204](assets/fr/040.webp)
+![BTC204](assets/sw/040.webp)
 
 Tafsiri ya mtindo huu ni kwamba tuko mbele ya matumizi ya makundi. Ni mazoezi ambayo pengine hufichua muamala kubwa sana za kiuchumi, kama vile jukwaa la Ubadilishanaji. Matumizi yaliyowekwa katika vikundi huwezesha huluki hizi kuokoa gharama kwa kuchanganya gharama zao katika muamala mmoja.
 
@@ -464,7 +464,7 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa matumizi uliou
 8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
 ```
 
-![BTC204](assets/fr/041.webp)
+![BTC204](assets/sw/041.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
@@ -472,7 +472,7 @@ Chanzo : [Mempool.space](https://Mempool.space/fr/tx/8a7288758b6e5d550897beedd13
 
 Miongoni mwa mifumo ya muamala, tunaweza pia kutambua zile zinazofichua matumizi ya itifaki mahususi. Kwa mfano, sahihi za Whirlpool (zilizojadiliwa katika sehemu ya 5) zitakuwa na muundo unaoweza kutambulika kwa urahisi unaozitofautisha na miamala mingine ya kawaida zaidi.
 
-![BTC204](assets/fr/042.webp)
+![BTC204](assets/sw/042.webp)
 
 Uchanganuzi wa muundo huu unapendekeza kuwa kuna uwezekano wa kuwa na muamala wa ushirikiano. Inawezekana pia kutazama CoinJoin.Ikiwa nadharia hii ya mwisho itathibitisha kuwa ni sahihi, basi idadi ya kutoka inaweza kutupa makadirio mabaya ya idadi ya washiriki katika sarafu ya malipo.
 
@@ -482,7 +482,7 @@ Kwa mfano, hapa kuna muamala wa Bitcoin unaotumia muundo wa shughuli shirikishi 
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
 ```
 
-![BTC204](assets/fr/043.webp)
+![BTC204](assets/sw/043.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
@@ -502,7 +502,7 @@ heuristics (Mbinu ya ndani ya kubashiri) ni sifa mahususi tunayobaini ndani ya m
 
 Kwa ujumla, aina hii ya mbinu ya ndani ya kubashiri itatuwezesha kutambua ubadilishanaji katika muamala mahususi. Kwa kufanya hivyo, tunaweza kuendeleza ufuatiliaji wa huluki juu ya miamala kadhaa tofauti. Hakika, ikiwa tutatambua UTXO inayomilikiwa na mtumiaji tunayetaka kufuatilia, ni muhimu kubaini ni toleo gani, wakati wa muamala wa ununuzi, limehamishiwa kwa mtumiaji mwingine, na ni toleo gani linalowakilisha ubadilishanaji, ambalo kwa hivyo linabaki mikononi mwake kwa kutumia heuristics
 
-![BTC204](assets/fr/044.webp)
+![BTC204](assets/sw/044.webp)
 
 Kwa mara nyingine tena, wacha nikukumbushe kwamba Legacy (Urithi) huu sio sahihi kabisa. Zikichukuliwa kibinafsi, hutuwezesha tu kutambua hali zinazowezekana. Ni mkusanyiko wa Legacy (Urithi) kadhaa ambao husaidia kupunguza kutokuwa na uhakika, bila kuwa na uwezo wa kuiondoa kabisa.
 
@@ -512,7 +512,7 @@ Legacy hii inahusisha utafiti wa kufanana kati ya pembejeo na matokeo ya muamala
 
 Kipengele dhahiri zaidi ni utumiaji tena wa Anwani (address) inayopokea katika shughuli hiyo hiyo.
 
-![BTC204](assets/fr/045.webp)
+![BTC204](assets/sw/045.webp)
 
 Heuristics hii inaacha nafasi ndogo ya shaka. Isipokuwa ufunguo wake wa faragha umedukuliwa, kupokea Address sawa kunaonyesha muamala wa mtumiaji mmoja. Tafsiri inayotokana ni kwamba muamala wa ubadilishanaji ndiyo toleo lenye Address sawa na ingizo. Kisha tunaweza kuendelea kufuatilia mtu binafsi kutoka kwa ubadilishanaji huu.
 
@@ -522,13 +522,13 @@ Kwa mfano, hapa kuna shughuli ambayo utabiri huu unaweza kutumika:
 54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0
 ```
 
-![BTC204](assets/fr/046.webp)
+![BTC204](assets/sw/046.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
 Usawa huu kati ya pembejeo na matokeo hauishii katika utumiaji tena wa Address. Ulinganifu wowote katika matumizi ya hati unaweza kutumika kutumia heuristics. Kwa mfano, wakati mwingine tunaweza kuona toleo sawa kati ya ingizo na moja ya matokeo ya muamala.
 
-![BTC204](assets/fr/047.webp)
+![BTC204](assets/sw/047.webp)
 
 Kwenye mchoro huu, tunaweza kuona kwamba ingizo n° 0 inafungua hati ya P2WPKH (SegWit V0 inayoanza na `bc1q`). Toleo n° 0 hutumia aina sawa ya hati. Toleo n° 1, kwa upande mwingine, hutumia hati ya P2TR (SegWit V1 inayoanza na `bc1p`). Ufafanuzi wa kipengele hiki ni kwamba kuna uwezekano kuwa Address yenye toleo sawa na ingizo ni Address ya ubadilishanaji. Kwa hivyo itakuwa ya mtumiaji yuleyule kila wakati.
 
@@ -538,7 +538,7 @@ Hapa kuna muamala ambao heuristics hii labda inaweza kutumika:
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ```
 
-![BTC204](assets/fr/048.webp)
+![BTC204](assets/sw/048.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
@@ -551,7 +551,7 @@ Mapema katika miaka ya 2010, heuristics hii inayotegemea matoleo ya script haiku
 
 Utabiri mwingine wa ndani ambao unaweza kutusaidia kutambua ubadilishanaji ni nambari ya mzunguko wa heuristics. Kwa ujumla, unapokumbana na muundo rahisi wa malipo (ingizo 1 na matokeo 2), ikiwa mojawapo ya matokeo yanatumia kiasi cha mzunguko, basi hii inawakilisha malipo.
 
-![BTC204](assets/fr/049.webp)
+![BTC204](assets/sw/049.webp)
 
 Kwa kuondoa, ikiwa pato moja linawakilisha malipo, lingine linawakilisha Ubadilishanaji. Kwa hivyo inaweza kufasiriwa kuwa kuna uwezekano kuwa mtumiaji wa ingizo huwa anamiliki pato lililotambuliwa kama Ubadilishanaji.
 
@@ -565,7 +565,7 @@ Hata hivyo, mchambuzi anaweza kujaribu kufanya ubadilishaji huu kwa kuzingatia k
 
 Baada ya kubadilishwa kuwa sarafu ya pesa za serikali, muamala huu unaweza kutumika kutumia malipo ya kiasi cha pande zote. Pato la €20 pengine lilienda kwa mfanyabiashara, au angalau kubadilisha umiliki. Kwa kukatwa, pato la €41.27 huenda likabaki mikononi mwa mtumiaji asilia.
 
-![BTC204](assets/fr/050.webp)
+![BTC204](assets/sw/050.webp)
 
 Iwapo, siku moja, Bitcoin itakuwa kitengo kinachopendelewa cha akaunti katika mabadilishano yetu, utabiri huu unaweza kuwa muhimu zaidi kwa uchanganuzi.
 
@@ -575,7 +575,7 @@ Kwa mfano, hapa kuna shughuli ambayo utabiri huu unaweza kutumika:
 2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a
 ```
 
-![BTC204](assets/fr/051.webp)
+![BTC204](assets/sw/051.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
 
@@ -583,7 +583,7 @@ Chanzo : [Mempool.space](https://Mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d
 
 Tunapobaini pengo kubwa la kutosha kati ya matoleo mawili ya muamala katika muundo rahisi wa malipo, tunaweza kukadiria kuwa toleo kubwa zaidi huenda linawakilisha ubadilishanaji (foreign exchange).
 
-![BTC204](assets/fr/052.webp)
+![BTC204](assets/sw/052.webp)
 
 Heuristics ya toleo kubwa zaidi bila shaka ndiyo isiyo sahihi zaidi kati ya zote. Ikiwa peke yake, si thabiti sana. Hata hivyo, kipengele hiki kinaweza kuunganishwa na heuristics nyingine ili kupunguza hali ya kutokuwa na uhakika katika tafsiri yetu.
 
@@ -595,7 +595,7 @@ Kwa mfano, hapa kuna muamala ambao heuristics hii huenda inaweza kutumika:
 b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 ```
 
-![BTC204](assets/fr/053.webp)
+![BTC204](assets/sw/053.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
@@ -613,14 +613,14 @@ Kwa hivyo, inawezekana kutumia tena matumizi ya address ndani ya muamala huo huo
 
 Tafsiri ya matumizi tena ya Address ni kwamba UTXO zote zilizozuiwa kwenye Address hiyo ni mali ya (au zilimilikiwa na) huluki moja. Heuristics hii huacha nafasi ndogo ya kutokuwa na uhakika. Baada ya kutambuliwa, tafsiri inayotokana huenda ikaendana na hali halisi. Kwa hivyo, heuristics hii huwezesha kuunganishwa kwa shughuli tofauti za onchain.
 
-![BTC204](assets/fr/054.webp)
+![BTC204](assets/sw/054.webp)
 
 Kama ilivyoelezwa katika utangulizi wa Sehemu ya 3, utabiri huu uligunduliwa na Satoshi Nakamoto mwenyewe. Katika Karatasi Nyeupe, anataja suluhisho la kuwasaidia watumiaji kuepuka kuizalisha, ambayo ni kutumia tu Anwani (address) tupu kwa kila shughuli mpya:
 
 "_Kama ukuta wa ziada wa ulinzi, jozi mpya ya funguo inaweza kutumika kwa kila muamala ili kuhakikisha kuwa haziwezi kuhusishwa na mmiliki mmoja wa pamoja._"
 
 
-![BTC204](assets/fr/055.webp)
+![BTC204](assets/sw/055.webp)
 
 Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
 
@@ -630,7 +630,7 @@ Kwa mfano, hapa kuna address ambayo inatumika tena katika shughuli kadhaa:
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
-![BTC204](assets/fr/056.webp)
+![BTC204](assets/sw/056.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/Address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
@@ -644,7 +644,7 @@ Kwa ujumla zaidi, mchambuzi pia anaweza kuzingatia alama za vidole za kwingineko
 
 Kwa mfano, tutaweza kubaini kuwa mtumiaji tunayemfuatilia hutuma *change* yake mara kwa mara kwenye anuani za *P2TR* (`bc1p...`). Ikiwa mchakato huu utarudiwa, tunaweza kuutumia kama *heuristic* katika uchambuzi wetu wote. Tunaweza pia kutumia *fingerprints* nyingine, kama vile mpangilio wa *UTXOs*, nafasi ya *change* kwenye *outputs*, ishara ya *RBF (Replace-by-Fee)*, au nambari ya toleo (*version number*), sehemu ya `nSequence`, na sehemu ya `nLockTime`.
 
-![BTC204](assets/fr/057.webp)
+![BTC204](assets/sw/057.webp)
 
 Kama [@LaurentMT](https://twitter.com/LaurentMT) anavyoonyesha katika [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-ea)—*podcast* ya Kifaransa muhimu—alama za vidole katika uchanganuzi wa mnyororo huongezeka kwa kiasi kikubwa kadri muda unavyopita. Kwa hakika, idadi inayoongezeka ya aina za *script* na utumaji unaoendelea wa elements hizi mpya pamoja na programu za wallet mbalimbali husisitiza tofauti hizo. Katika baadhi ya matukio, inawezekana hata kutambua programu halisi inayotumiwa na chombo kinachofuatiliwa. Kwa hivyo, ni muhimu kuelewa kwamba utafiti wa nyayo za kwingineko unafaa zaidi kwa shughuli za hivi karibuni, badala ya zile zilizoanzishwa mapema miaka ya 2010.
 
@@ -654,21 +654,21 @@ Kwa muhtasari, alama ya miguu inaweza kuwa mazoezi yoyote mahususi, yanayofanywa
 
 Heuristi ya Umiliki wa Pamoja wa Ingizo (*Common Input Ownership Heuristic – CIOH*) ni heuristic inayodai kuwa wakati muamala unakuwa na inputs nyingi, kuna uwezekano mkubwa kwamba zote zinatoka kwa entiti moja. Hivyo basi, umiliki wake ni wa pamoja.
 
-![BTC204](assets/fr/058.webp)
+![BTC204](assets/sw/058.webp)
 
 Ili kutumia CIOH, tunaanza kwa kuchunguza muamala wenye ingizo zaidi ya moja. Hii inaweza kuwa ingizo 2 au hata 30. Mara sifa hii inapobainika, tunakagua kama muamala huo unalingana na muundo wa muamala unaojulikana. Kwa mfano, ikiwa kuna ingizo 5 zenye kiasi kinachokaribiana na toleo 5 zenye kiasi sawa kabisa, tutajua kuwa huu ni muundo wa coinjoin. Hivyo basi, hatutaweza kutumia CIOH.
 
-![BTC204](assets/fr/059.webp)
+![BTC204](assets/sw/059.webp)
 
 Kwa upande mwingine, ikiwa muamala haulingani na muundo wowote wa muamala shirikishi unaojulikana, basi tunaweza kutafsiri kuwa data zote huenda zikatoka kwa huluki moja. Hii inaweza kuwa muhimu sana kwa kupanua nguzo inayojulikana tayari au kuendelea na ufuatiliaji.
 
-![BTC204](assets/fr/060.webp)
+![BTC204](assets/sw/060.webp)
 
 CIOH iligunduliwa na Satoshi Nakamoto. Anazungumza juu yake katika sehemu ya 10 ya Karatasi Nyeupe:
 
 "_[...] kuunganisha hakuwezi kuepukika na shughuli za kuingiza nyingi, ambazo zinaonyesha kwamba lazima maingizo yao yalishikiliwa na mmiliki yuleyule. Hatari ni kwamba ikiwa mmiliki wa ufunguo atafichuliwa, viungo vinaweza kufichua miamala mingine ambayo ilikuwa ya mmiliki mmoja._."
 
-![BTC204](assets/fr/061.webp)
+![BTC204](assets/sw/061.webp)
 
 Inafurahisha sana kutambua kwamba Satoshi Nakamoto, hata kabla ya kuzinduliwa rasmi kwa Bitcoin, tayari ilikuwa imetambua udhaifu mkuu wa faragha kwa watumiaji, ambao ni CIOH na address kutumia tena. Mtazamo kama huo ni wa kushangaza sana, kwani heuristics hizi mbili zimebaki hata leo, muhimu zaidi katika uchambuzi wa kuzuia mnyororo.
 
@@ -678,7 +678,7 @@ Ili kukupa mfano, hapa kuna shughuli ambayo tunaweza kutumia CIOH:
 20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712
 ```
 
-![BTC204](assets/fr/062.webp)
+![BTC204](assets/sw/062.webp)
 
 Chanzo : [Mempool.space](https://Mempool.space/tx/20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712)
 
@@ -694,7 +694,7 @@ Kwa njia hiyo hiyo, unaweza kufanya uchambuzi kwa kuondoa. Kwa mfano, ikiwa waka
 
 Uchanganuzi wa idhaa pia unajumuisha sehemu ya jumla zaidi ya OSINT (*Open Source Intelligence*), inayohusisha utafutaji wa mtandao. Ni kwa sababu hii kwamba tunashauri dhidi ya kuchapisha Anwani (address) moja kwa moja kwenye mitandao ya kijamii au kwenye tovuti, iwe ni jina bandia au la.
 
-![BTC204](assets/fr/063.webp)
+![BTC204](assets/sw/063.webp)
 
 ### Miundo ya Muda (Temporal models) 
 
@@ -716,7 +716,7 @@ Kwa mfano, kwenye address  iliyotumiwa nyingi niliyotaja hapo awali, tunaweza ku
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
-![BTC204](assets/fr/064.webp)
+![BTC204](assets/sw/064.webp)
 
 Chanzo : OXT.me
 
@@ -785,7 +785,7 @@ Baada ya kutambua muundo wake, kwa kutumia heuristics za ndani za muamala, excha
 
 Hebu fikiria kwamba Loïc amechapisha mojawapo ya address zake za kupokea Bitcoin kwenye mtandao wa kijamii wa Twitter :
 
-![BTC204](assets/fr/065.webp)
+![BTC204](assets/sw/065.webp)
 
 ```plaintext
 bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
@@ -809,7 +809,7 @@ Muamala huu ni wa kwanza kabisa kutuma pesa kwa address ya Loïc. Je, unafikiri 
 
 Kufuatia zoezi la 5, kutokana na utumiaji upya wa address, umeweza kutambua miamala kadhaa ya Bitcoin ambayo Loïc inaonekana kuhusika. Sasa unataka kujua Loïc alitoka wapi. Kulingana na miamala iliyopatikana, fanya uchanganuzi wa wakati (temporal analysis) ili kupata saa za eneo ambazo huenda zikatumiwa na Loïc. Kuanzia saa za eneo hili, bainisha eneo ambalo Loïc anaonekana kuishi (nchi, jimbo/eneo, jiji...).
 
-![BTC204](assets/fr/066.webp)
+![BTC204](assets/sw/066.webp)
 
 ### Zoezi 8
 
@@ -983,7 +983,7 @@ Uchanganuzi wa ratiba hizi unaonyesha kuwa UTC-7 na UTC-8 zinalingana na anuwai 
 21:55 UTC > 13:55 UTC-8
 ```
 
-![BTC204](assets/fr/066.webp)
+![BTC204](assets/sw/067.webp)
 
 Eneo la saa la UTC-7 lina umuhimu maalum wakati wa majira ya kiangazi, kwani linajumuisha majimbo na maeneo kama vile:
 
@@ -1037,7 +1037,7 @@ Kiufundi, Bitcoin receiving address haipokei bitcoins moja kwa moja kwa maana ha
 
 
 > *"Ili kutumia UTXO hii mpya, ni lazima utoe sahihi ya kidijitali kwa kutumia funguo binafsi (private key) inayohusiana na receiving address hii."*
-> ![BTC204](assets/fr/067.webp)
+> ![BTC204](assets/sw/068.webp)
 
 
 Address za Bitcoin huja katika aina mbalimbali, kutegemea na **mfumo wa script** unaotumika. Miundo ya awali, inayojulikana kama **Legacy**, inajumuisha address za `P2PKH` (*Pay-to-PubKey-Hash*) na `P2SH` (*Pay-to-Script-Hash*). Address za `P2PKH` huanza kila mara na `1`, na zile za `P2SH` huanza na `3`. Ingawa bado ni salama, miundo hii sasa imepitwa na wakati, kwani husababisha gharama kubwa zaidi za muamala na hutoa kiwango kidogo cha faragha ikilinganishwa na viwango vipya.
@@ -1077,7 +1077,7 @@ Ujenzi wa address za mapokezi pia inategemea mtindo wa hati uliochaguliwa:
 - Kwa address za `P2SH` na `P2WSH`, mzigo wa malipo unawakilisha Hash ya a ;
 - Kuhusu address za `P2TR`, upakiaji ni ufunguo wa umma uliobadilishwa. Matokeo ya P2TR yanachanganya vipengele vya _Pay-to-PubKey_ na _Pay-to-Script_. Ufunguo wa umma uliobadilishwa ni matokeo ya kuongeza ufunguo wa matumizi ya kawaida wa umma na "tweak", inayotokana na Merkle Root ya seti ya maandiko ambayo inaweza pia kutumika kutumia bitcoins.
 
-![BTC204](assets/fr/068.webp)
+![BTC204](assets/sw/069.webp)
 
 Address zinazoonyeshwa kwenye programu ya wallet yako pia hujumuisha HRP (*Human-Readable Part*), kwa kawaida `bc` kwa address baada ya SegWit, kielelezo `1`, na namba ya toleo: `q` kwa SegWit V0 na `p` kwa Taproot/SegWit V1. Pia, checksum huongezwa ili kuhakikisha uadilifu na uhalali wa address wakati wa kutuma.
 
@@ -1115,7 +1115,7 @@ Wakati ScriptPubKeys tofauti zina Address inayopokea sawa, hili huitwa utumiaji 
 Kwa kuwa blockchain ni ya umma, ni rahisi kuona ni Address zipi zimefunga UTXO na bitcoins ngapi. Ikiwa Address ile ile inatumiwa kwa miamala kadhaa, inakuwa inawezekana kutambua kwamba bitcoins zote zinazohusiana na Address hiyo ni za mtu mmoja. Mazoezi haya yanahatarisha faragha ya mtumiaji kwa kuwezesha kuanzishwa kwa viungo vya kitambulisho kati ya miamala tofauti na kufanya iwe rahisi kufuatilia bitcoins kwenye blockchain. Satoshi Nakamoto mwenyewe tayari ameangazia tatizo hili katika Karatasi Nyeupe ya Bitcoin:
 
 > *Kama ngome ya ziada, jozi mpya ya funguo inaweza kutumika kwa kila muamala ili kuwatenganisha na mmiliki wa kawaida*
-![BTC204](assets/fr/055.webp)
+![BTC204](assets/sw/070.webp)
 
 Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
 
@@ -1123,7 +1123,7 @@ Kusudi la Satoshi katika sentensi hii ilikuwa kuunda ngome ya ziada ikiwa kuna u
 
 Unapotumia tena address, unatengeneza kiunganishi kisichopingika kati ya miamala yote inayohusishwa na hiyo address. Ingawa hii haihatarishi pesa zako moja kwa moja, kwa vile cryptography ya mchirizo mduara huhakikisha usalama wa funguo zako za faragha, hurahisisha kufuatilia miamala yako. Hakika, mtu yeyote aliye na nodi anaweza kuchunguza miamala na salio za address, hivyo kuhatarisha kabisa kutokujulikana kwako.
 
-![BTC204](assets/fr/054.webp)
+![BTC204](assets/sw/071.webp)
 
 Ili kuonyesha jambo hili, hebu tuchukue mfano wa Bob, mtumiaji ambaye mara kwa mara hununua bitcoins kwa kiasi kidogo katika DCA na daima huwatuma kwa address sawa. Baada ya miaka miwili, address hii ina kiasi kikubwa cha bitcoins. Iwapo Bob atatumia address hii kufanya malipo kwa mfanyabiashara wa ndani, mfanyabiashara huyo ataweza kuona pesa zote zinazohusiana na kukisia utajiri wa Bob. Hii inaweza kusababisha hatari za usalama wa kibinafsi, kama vile jaribio la wizi au unyang'anyi. Ikiwa Bob angetumia  (address) tupu kupokea kila ununuzi wa mara kwa mara, angefichua maelezo machache sana kwa mfanyabiashara wake.
 
@@ -1137,10 +1137,10 @@ Ya kwanza ni wakati Address inatumiwa tena katika miamala mbalimbali ya Bitcoin.
 
 Utumiaji tena wa ndani wa Address hautokei wakati Address inatumiwa katika miamala mingi tofauti, bali unapotokea ndani ya muamala mmoja. Kwa mfano, ikiwa Address ile ile iliyotumika kwenye ingizo pia inaonekana kama toleo katika muamala huo huo, basi tunaweza kudhania kuwa toleo hilo linawakilisha Ubadilishanaji, na kwamba toleo lingine ndilo linalowakilisha malipo. Mbinu hii ya kiheuristic huwezesha mfuatiliaji kufuatilia umiliki wa bitcoins kwenye mlolongo wa miamala mfululizo.
 
-![BTC204](assets/fr/045.webp)
+![BTC204](assets/sw/072.webp)
 
 Kutumia tena Address ni janga halisi kwenye Bitcoin. Kulingana na tovuti ya OXT.me (ambayo kwa sasa haipatikani), kiwango cha jumla cha matumizi ya Address kwenye Bitcoin kilifikia takriban 52% mnamo mwaka wa 2022:
-![BTC204](assets/fr/069.webp)
+![BTC204](assets/sw/073.webp)
 
 Kiwango hiki ni kikubwa, lakini kinakuja kwa wingi kutoka kwa majukwaa ya exchange badala ya watumiaji binafsi.
 
@@ -1150,7 +1150,7 @@ Kuepuka kutumia tena address ni rahisi sana: **tumia tu  address mpya, tupu kwa 
 
 Shukrani kwa BIP32, kwineko za kisasa sasa ni za kuamua na za daraja. Hii ina maana kwamba mtumiaji anaweza kuzalisha idadi kubwa ya address kutoka sehemu moja ya awali ya habari: seed. Kwa kuokoa kipande hiki cha habari, inawezekana kurejesha funguo zote za kibinafsi kwenye kwingineko, kuwezesha upatikanaji wa fedha zilizohifadhiwa na address zinazofanana.
 
-![BTC204](assets/fr/070.webp)
+![BTC204](assets/sw/074.webp)
 
 Hii ndiyo sababu, unapobonyeza kitufe cha "*pokea*" katika programu yako ya Wallet, upokeaji wa address ambao haujatumiwa unapendekezwa kila wakati. Baada ya kupokea bitcoins kwenye address hii, programu inapendekeza moja kwa moja mpya.
 
@@ -1181,7 +1181,7 @@ Matumizi amilifu ya uwekaji alama huwa wa kuvutia zaidi ukiunganishwa na chaguo 
 
 Udhibiti wa sarafu ni element inayopatikana katika programu nzuri ya Wallet ya Bitcoin, inayokupa uwezo wa kuchagua mwenyewe UTXO maalum za kutumia kama pembejeo ili kukamilisha muamala. Kwa kweli, ili kukidhi malipo ya pato, unahitaji kutumia pembejeo UTXO kama malipo. Kwa sababu kadhaa, ambazo tutaziangalia baadaye, unaweza kutaka kuchagua kwa usahihi sehemu zipi za kutumia kama pembejeo ili kukidhi malipo fulani. Hivi ndivyo udhibiti wa sarafu unakuwezesha kufanya. Ili kukupa mlinganisho, element hii ni sawa na kuchagua sarafu mahususi kutoka kwa Wallet yako unapolipia baguette yako.
 
-![BTC204](assets/fr/071.webp)
+![BTC204](assets/sw/075.webp)
 
 Matumizi ya programu ya kwingineko yenye udhibiti wa sarafu, pamoja na kuweka alama kwa UTXO, huwawezesha watumiaji kutofautisha na kuchagua kwa usahihi UTXO kwa miamala yao.
 
@@ -1199,7 +1199,7 @@ Jambo muhimu zaidi kuzingatia kwenye alama ni chanzo cha UTXO. Unapaswa kuonyesh
 - nunua P2P Charles`;
 - `Badilisha ununuzi wa sofa`
 
-![BTC204](assets/fr/072.webp)
+![BTC204](assets/sw/076.webp)
 
 Ili kurekebisha usimamizi wako wa UTXO na kuheshimu mikakati yako ya kutenganisha hazina ndani ya jalada lako, unaweza kuboresha alama zako kwa kiashirio cha ziada kinachoakisi mitengano hii. Ikiwa yako ina aina mbili za UTXO ambazo hutaki kuzichanganya, unaweza kujumuisha alama kwenye alama zako ili kutofautisha vikundi hivi kwa uwazi. Alama hizi za utengano zitategemea vigezo vyako mwenyewe, kama vile kutofautisha kati ya UTXO zinazotokana na mchakato wa upataji unaohusisha KYC, au kati ya fedha za kitaaluma na za kibinafsi. Kwa kuchukua mifano ya alama iliyotajwa hapo juu, hii inaweza kutafsiri kuwa:
 
@@ -1209,7 +1209,7 @@ Ili kurekebisha usimamizi wako wa UTXO na kuheshimu mikakati yako ya kutenganish
 - `NO KYC - Nunua P2P Charles` ;
 - `HAKUNA KYC - Badilisha ununuzi wa sofa`
 
-![BTC204](assets/fr/073.webp)
+![BTC204](assets/sw/077.webp)
 
 Inashauriwa pia kuendeleza uwekaji alama wa sehemu wakati wa shughuli. Kwa mfano, unapounganisha UTXO no-KYC, hakikisha umeweka alama UTXO inayotokana si tu kama `ujumuishaji`, lakini haswa kama `consolidation no-KYC` ili kuweka rekodi wazi ya wapi sarafu zilitoka.
 
@@ -1225,7 +1225,7 @@ Unapofanya muamala, udhibiti wa sarafu hukuruhusu kuchagua mahususi ni UTXO gani
 
 Ili kufafanua jambo la kwanza, hebu tuchukue mfano halisi. Tuseme unanunua baguette katika bitcoins kutoka kwa wauzaji wako. Unatumia UTXO moja au zaidi ulizoshikilia kama pembejeo ili kukidhi angalau bei ya baguette katika matokeo, pamoja na ada za ununuzi. Mwokaji wako anaweza basi kuhusisha uso wako, au sehemu nyingine yoyote ya utambulisho wako anaojua, na sarafu zinazotumiwa kama pembejeo. Kwa kujua kuwepo kwa kiungo hiki, unaweza kupendelea kuchagua UTXO mahususi badala ya nyingine unapolipa.
 
-![BTC204](assets/fr/074.webp)
+![BTC204](assets/sw/078.webp)
 
 Kwa mfano, ikiwa moja ya UTXOs zako inatoka kwa jukwaa la exchange na ungependa mwokaji asijue kuhusu akaunti yako kwenye jukwaa hilo, utaepuka kutumia UTXO hiyo kwa malipo. Ikiwa una UTXO ya thamani ya juu ambayo inaonyesha kiasi kikubwa cha bitcoins, unaweza pia kuchagua kutoitumia ili kuepuka mwokaji kufahamu bahati yako ya BTC.
 
@@ -1233,15 +1233,15 @@ Kuchagua ni UTXO zipi za kutumia kwa hoja hii ya kwanza kwa hiyo ni uamuzi wa ki
 
 Zaidi ya maelezo yanayoweza kufichuliwa kwa mpokeaji, chaguo la ingizo pia huathiri kile unachofichua kwa waangalizi wote wa blockchain. Hakika, kwa kutumia UTXO kadhaa kama nyenzo za muamala wako, unafichua kuwa zinamilikiwa na huluki moja, kulingana na Legacy ya CIOH (_Common Input Ownership Heuristic_).
 
-![BTC204](assets/fr/075.webp)
+![BTC204](assets/sw/079.webp)
 
 Kwa hivyo, unapochagua sehemu zako, unahitaji kufahamu kwamba muamala unaotaka kutangaza utaunda kiungo kati ya UTXO zote zinazotumiwa. Kiungo hiki kinaweza kuwa shida kwa faragha yako ya kibinafsi, haswa ikiwa UTXO zinatoka kwa vyanzo tofauti.
 
-![BTC204](assets/fr/076.webp)
+![BTC204](assets/sw/080.webp)
 
 Hebu tuchukue mfano wa no-KYC UTXO yangu kutoka Bisq; Ninataka kuepuka kuichanganya na UTXO kutoka, tuseme, jukwaa lililodhibitiwa la exchange ambalo linajua utambulisho wangu. Hakika, ikiwa nitawahi kutumia UTXO hizi 2 kama pembejeo kwa shughuli sawa, jukwaa linalodhibitiwa litaweza kuunganisha utambulisho wangu na UTXO niliyonunua kwenye Bisq, ambayo haikuunganishwa hapo awali na utambulisho wangu.
 
-![BTC204](assets/fr/077.webp)
+![BTC204](assets/sw/081.webp)
 
 Hatimaye, wakati wa kuchagua UTXO za kutumia kama pembejeo kwa muamala, jambo muhimu zaidi ni kuepuka kutumia UTXO nyingi. Mara nyingi, unapoweza, chagua sarafu moja kubwa ya kutosha kukidhi malipo yako. Kwa njia hii, unaepuka kabisa hatari zinazohusiana na CIOH. Hata hivyo, ikiwa hakuna UTXO moja ya kutosha kwa malipo na unahitaji kutumia kadhaa, hakikisha wanatoka kwa vyanzo sawa ili kupunguza hatari ya viungo visivyohitajika. Pia kumbuka kuwa mpokeaji anaweza kuhusisha taarifa anazoshikilia kwako na historia ya sarafu zinazotumiwa katika pembejeo.
 
@@ -1279,13 +1279,13 @@ Utaratibu huu sio bila hatari kwa faragha na usalama wa watumiaji. Katika sura h
 
 Hatari ya kwanza inayohusishwa na KYC ni kwamba inatoa mahali pazuri pa kuingilia kwa uchanganuzi wa blockchain. Kama tulivyoona katika sehemu iliyotangulia, wachanganuzi wanaweza kuunganisha na kufuatilia shughuli kwenye blockchain kwa kutumia mifumo ya muamala na utabiri. Pindi tu wanapofaulu kujumuisha shughuli za onchain za mtumiaji, wanachohitaji kufanya ni kutafuta mahali pa kuingilia kati ya shughuli na funguo zake zote ili kuhatarisha usiri wake kikamilifu.
 
-![BTC204](assets/fr/078.webp)
+![BTC204](assets/sw/082.webp)
 
 Unapofanya KYC, unafungua mlango wa kiwango cha juu kwa uchambuzi wa blockchain kwa kuunganisha anuani zako za kupokea—zinazotumika wakati wa kutoa bitcoins zako kutoka kwenye jukwaa la exchange—na utambulisho wako kamili uliothibitishwa. Kinadharia, taarifa hizi zinapaswa kujulikana tu na kampuni uliyoyapa, lakini kama tutakavyoona hapa chini, hatari ya kuvuja kwa data ni halisi. Zaidi ya hayo, kampuni inayoshikilia taarifa hizi inaweza kuwa hatari hata kama haitazisambaza.
 
 Kwa hivyo, usipochukua hatua nyingine za kupunguza ujumlishaji wa miamala yako kwenye blockchain, mtu yeyote mwenye ufahamu wa mahali hapa pa kuingilia KYC anaweza kuunganisha miamala yako yote kwenye Bitcoin na utambulisho wako. Kwa mtazamo wa kampuni hiyo, matumizi yako ya Bitcoin yanapoteza usiri wote.
 
-![BTC204](assets/fr/079.webp)
+![BTC204](assets/sw/083.webp)
 
 Ili kufafanua hili kwa kulinganisha, ni kana kwamba benki yako katika *Benki X* haingeweza tu kufikia miamala yako yote na *Benki X*, bali pia ingeweza kuona miamala yako na *Benki Y* pamoja na miamala yako yote ya pesa taslimu.
 
@@ -1327,7 +1327,7 @@ Ni muhimu kutenganisha baadhi ya mawazo ya awali kuhusu KYC ambayo sisi hukutana
 
 Kwanza kabisa, sio sahihi kufikiria kuwa kulinda faragha yako kwa Bitcoins zilizopatikana kupitia KYC hakuna maana. Zana na mbinu za faragha kwenye Bitcoin ni tofauti na hutumikia madhumuni tofauti. Kutumia shughuli za sarafu za kujiunga kwenye Bitcoins zilizopatikana kupitia KYC, kwa mfano, sio wazo baya. Bila shaka, unahitaji kuwa mwangalifu na majukwaa yaliyodhibitiwa ya Ubadilishanaji ili kuzuia akaunti yako kufungiwa au kupigwa marufuku, lakini kwa mtazamo wa kiufundi kabisa, mazoea haya hayaoani. SCoinjoin (arafu ya kujiunga) ina athari ya kuvunja historia ya sarafu, hivyo kukusaidia kuzuia hatari fulani za uchanganuzi wa minyororo zinazohusiana na KYC. Ingawa haiondoi hatari zote, inawakilisha faida kubwa.
 
-![BTC204](assets/fr/080.webp)
+![BTC204](assets/sw/084.webp)
 
 Siri kwenye Bitcoin haipaswi kutazamwa kwa njia ya binary, kama tofauti kati ya bitcoins "isiyojulikana" na zingine ambazo sio. Kumiliki Bitcoins zilizopatikana kupitia KYC haimaanishi kuwa zote zimepotea; kinyume chake, utumizi wa zana za usiri unaweza kuthibitisha manufaa zaidi.
 
@@ -1351,15 +1351,15 @@ KYC inarejelea hasa taratibu za kisheria zinazotekelezwa na baadhi ya kampuni il
 
 Kwa mfano, ukinunua bitcoins kwenye jukwaa lililodhibitiwa nchini Uswizi, KYC haihitajiki. Hata hivyo, funguo zako zinaweza kutambuliwa, kwani ununuzi ulifanywa kupitia akaunti yako ya benki. Hapa ndipo hatari mbili za kwanza zinazohusiana na KYC - kuwezesha ufuatiliaji wa onchain na kukabiliwa na ufuatiliaji wa serikali - pia zinaweza kujidhihirisha katika ubadilishanaji bila KYC. Ikiwa huluki ya Uswizi itaripoti miamala ya kutiliwa shaka kwa mamlaka katika nchi yako, wanaweza kuangalia tu akaunti ya benki iliyotumiwa kufanya ununuzi ili kugundua utambulisho wako. Kwa hivyo, kununua bila KYC kwenye majukwaa yaliyodhibitiwa ni juu sana kwa kiwango cha hatari kwa utambulisho muhimu.
 
-![BTC204](assets/fr/081.webp)
+![BTC204](assets/sw/085.webp)
 
 Hata hivyo, kuepuka majukwaa yaliyodhibitiwa na kuchagua mbinu za kupata P2P hakuondoi kabisa hatari ya utambulisho muhimu, lakini kunaipunguza tu. Hebu tuchukue mfano wa ununuzi kwenye Bisq au jukwaa lingine la P2P. Ili kumlipa mshirika wako, labda utatumia akaunti yako ya benki. Ikiwa mamlaka yatatilia shaka mtu uliyefanya naye biashara na kukuuliza jina lako, tumerejea kwenye hatari ya 1 na 2. Ingawa hatari hizi ni ndogo zaidi kuliko unaponunua kwenye jukwaa bila KYC, na hata chini kuliko unaponunua kwa KYC, bado zipo kwa kiasi kidogo.
 
-![BTC204](assets/fr/082.webp)
+![BTC204](assets/sw/086.webp)
 
 Hatimaye, hata kama utapata bitcoins zako kupitia exchange halisi kwa pesa taslimu, hutambuliwi kabisa. Mtu uliyebadilishana naye ameona uso wako, ambao ni sehemu ya utambulisho wako. Ingawa ni ndogo katika mfano huu, bado kuna uwezekano wa kitambulisho muhimu.
 
-![BTC204](assets/fr/083.webp)
+![BTC204](assets/sw/087.webp)
 
 Kwa kumalizia, wakati bitcoins zinapobadilishwa kuwa mali nyingine—iwe ni ununuzi kwa kutumia sarafu ya serikali au uuzaji dhidi ya bidhaa halisi—daima kunakuwepo na aina fulani ya utambulisho wa funguo. Kulingana na njia ya ubadilishanaji uliyochagua, kiwango cha utambulisho huu kinaweza kutofautiana. Ni muhimu kutochanganya aina hii ya utambulisho na KYC, ambayo ni mchakato wa udhibiti ulioelezewa vyema. Hata hivyo, kuna uhusiano kati ya KYC na wigo wa utambulisho, kwa kuwa KYC iko kwenye kilele cha juu cha wigo huo, ikirahisisha utambulisho wa funguo za watumiaji kwa mamlaka.
 
@@ -1373,11 +1373,11 @@ Baada ya kusoma sura iliyotangulia, huenda unajiuliza jinsi unavyoweza kununua a
 
 Kama tulivyoona, njia bora zaidi katika suala la faragha inabaki kuwa ubadilishanaji wa P2P (mtu-kwa-mtu) unaolipwa kwa pesa taslimu. Njia hii hukuwezesha kupunguza athari za kiufuatiliaji unazoacha, na hupunguza kwa kiwango kikubwa uwezekano wa utambulisho wa funguo zako, iwe unanunua au unauza.
 
-![BTC204](assets/fr/084.webp)
+![BTC204](assets/sw/088.webp)
 
 Walakini, kuna hatari kwa usalama ya kibinafsi. Hatari kuu iko katika ukweli kwamba, wakati wa Ubadilishanaji, mwenzake atajua kwamba unashikilia kiasi kikubwa cha fedha, ama kwa fedha au kwa bitcoins. Habari hii inaweza kuvutia umakini wa watu hasidi. Hakika, kwa ujumla unashauriwa kuwa mwangalifu kuhusu umiliki wako wa Bitcoin. Ushauri huu pia unaweza kutumika kwa pesa taslimu. Hata hivyo, wakati wa kubadilishana ana kwa ana, ni lazima kufichua kwamba unamiliki bitcoins, na hili linaweza kuvutia tahadhari zisizokubalika.
 
-![BTC204](assets/fr/085.webp)
+![BTC204](assets/sw/089.webp)
 
 Ili kupunguza hatari hii, ningekushauri upendekeze miamala ya pesa taslimu na watu unaowaamini, kama vile wanafamilia au marafiki wa karibu. Vinginevyo, unaweza pia kufikiria kufanya biashara katika [mikutano ya Bitcoin ya karibu](https://btcmap.org/communities/map), baada ya kuhudhuria mara chache. Hii itakuruhusu kuwafahamu washiriki wengine vizuri zaidi na usiwe peke yako wakati wa kubadilishana kimwili. Hata hivyo, ni muhimu kutambua kwamba ubadilishanaji wa fedha wa P2P kwa asili hubeba hatari kwa usalama wako wa kibinafsi ambazo hazipo unaponunua kupitia mfumo unaodhibitiwa na akaunti yako ya benki.
 
@@ -1387,31 +1387,31 @@ Kubadilishana pesa taslimu kunaweza pia kuleta hatari za kisheria endapo kutakuw
 
 Hatimaye, hasara nyingine ya ununuzi wa P2P ni kwamba bei mara nyingi ni ya juu kuliko kwenye majukwaa yaliyodhibitiwa. Wauzaji mara nyingi hutoza alama ya juu kuanzia 1% hadi wakati mwingine zaidi ya 10%. Kuna sababu kadhaa za tofauti hii ya bei. Kwanza, hii ni mazoezi ya kawaida kati ya wauzaji wa P2P ambayo imeanzishwa kwa muda. Pili, wauzaji wana ada zinazohusiana na shughuli ya kutuma pesa kwa mnunuzi. Pia kuna ongezeko la hatari ya wizi katika mauzo ya P2P ikilinganishwa na miamala ya jukwaa, ambayo inahalalisha fidia kwa hatari iliyochukuliwa. Hatimaye, gharama ya ziada inaweza kuhusishwa na mahitaji na ubora wa Ubadilishanaji katika suala la usiri. Kama mnunuzi, faida ya usiri ina bei ambayo inaonekana katika alama iliyowekwa na muuzaji. Baadhi ya bitcoiners pia wanaamini kuwa bei ya alama ya BTC iliyonunuliwa kwenye P2P inaonyesha bei yake ya kweli, na wanasema kuwa bei za chini kwenye majukwaa yaliyodhibitiwa ni matokeo ya maelewano juu ya usiri wa data yako ya kibinafsi.
 
-![BTC204](assets/fr/086.webp)
+![BTC204](assets/sw/090.webp)
 
 ### Ubadilishanaji wa P2P kupitia majukwaa ya kupatanisha
 
 Njia mbadala isiyo na hatari sana katika masuala ya usalama wa kibinafsi ni kufanya ubadilishanaji wa P2P mtandaoni pekee, kupitia mbinu za malipo za kielektroniki kama vile PayPal, uhamisho wa benki au Revolut.
 
-![BTC204](assets/fr/087.webp)
+![BTC204](assets/sw/091.webp)
 
 Mbinu hii huepuka hatari nyingi zinazohusiana na miamala ya pesa taslimu. Hata hivyo, hatari ya mhusika mwenzako kutotekeleza makubaliano katika ubadilishanaji wa mtandaoni ni kubwa zaidi. Kwa kweli, katika ubadilishanaji wa ana kwa ana, ukikabidhi pesa kwa muuzaji ambaye hakutumi bitcoins kwa kurudi, unaweza kumwajibisha papo hapo kwa kuwa yuko mbele yako. Lakini mtandaoni, mara nyingi haiwezekani kumfuatilia mtu aliyekuibia.
 
-![BTC204](assets/fr/088.webp)
+![BTC204](assets/sw/092.webp)
 
 Ili kupunguza hatari hii, inawezekana kutumia majukwaa maalum ya P2P exchange. Mifumo hii hutumia mbinu za utatuzi wa mizozo ili kuwalinda watumiaji waliodhulumiwa. Kwa kawaida, hutoa mfumo wa escrow ambapo bitcoins hushikiliwa hadi malipo kwa sarafu ya serikali yatakapothibitishwa na muuzaji.
 
-![BTC204](assets/fr/089.webp)
+![BTC204](assets/sw/093.webp)
 
 Kwa upande wa usalama wa kibinafsi, njia hii ya ununuzi ni salama zaidi kuliko P2P exchange ya ana kwa ana kwa pesa taslimu. Hata hivyo, kama ilivyotajwa hapo juu, P2P exchange ya mtandaoni huacha athari zaidi kuliko kubadilishana halisi, jambo ambalo linaweza kudhuru faragha yako kwenye Bitcoin. Kwa kutumia njia ya malipo ya mtandaoni kama vile benki, unafichua maelezo zaidi yanayoweza kuwezesha utambulisho wa funguo zako.
 
-![BTC204](assets/fr/090.webp)
+![BTC204](assets/sw/094.webp)
 
 Kwa mara nyingine tena, nisingependekeza kufanya biashara nyingi kubwa katika muamala mmoja kwenye majukwaa haya. Kwa kugawanya miamala yako, unaeneza hatari ya wizi wa wenzako.
 
 Kwa mara nyingine tena, hasara nyingine ya ununuzi wa P2P ni kwamba bei mara nyingi ni ya juu kuliko ile inayoonekana kwenye majukwaa yaliyodhibitiwa. Wauzaji mara nyingi hutoza alama ya juu kuanzia 1% hadi wakati mwingine zaidi ya 10%. Kuna sababu kadhaa za tofauti hii ya bei. Kwanza, hii ni mazoezi ya kawaida kati ya wauzaji wa P2P ambayo imeanzishwa kwa muda. Pili, wauzaji wana ada zinazohusiana na shughuli za kutuma pesa kwa mnunuzi. Pia kuna ongezeko la hatari ya wizi katika mauzo ya P2P ikilinganishwa na miamala ya jukwaa, ambayo inahalalisha fidia kwa hatari iliyochukuliwa. Hatimaye, gharama ya ziada inaweza kuhusishwa na mahitaji na ubora wa exchange katika suala la usiri. Kama mnunuzi, faida ya usiri ina bei ambayo inaonekana katika alama iliyowekwa na muuzaji. Baadhi ya bitcoiners pia wanaamini kuwa bei ya alama ya BTC iliyonunuliwa kwenye P2P inaonyesha bei yake ya kweli, na wanasema kuwa bei za chini kwenye majukwaa yaliyodhibitiwa ni matokeo ya maelewano juu ya usiri wa data yako ya kibinafsi.
 
-![BTC204](assets/fr/086.webp)
+![BTC204](assets/sw/095.webp)
 
 Kwa kadiri suluhisho inavyohusiana na hilo, mimi binafsi nimekuwa nikitumia [Bisq](https://bisq.network/) na nimefurahishwa nayo sana. Mfumo wao umejaribiwa na unaonekana kuwa wa kuaminika. Hata hivyo, Bisq inapatikana kwenye kompyuta pekee, na kiolesura chake kinaweza kuwa kigumu kwa wanaoanza. Kikwazo kingine ni kwamba Bisq hufanya kazi tu na miamala ya onchain, ambayo inaweza kuwa ghali wakati ada za Bitcoin zinapokuwa juu.
 
@@ -1436,7 +1436,7 @@ Kwa suluhu zenye msingi wa Lightning Network, jaribu [RoboSats](https://learn.ro
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
-![BTC204](assets/fr/091.webp)
+![BTC204](assets/sw/096.webp)
 
 ### Mifumo inayodhibitiwa bila KYC
 
@@ -1453,7 +1453,7 @@ Walakini, kwa upande wa usalama wa kibinafsi, kutumia majukwaa haya ni hatari ki
 
 Chaguo jingine la kununua au kuuza bitcoins bila KYC ni ATM za cryptocurrency. Binafsi, sijawahi kupata fursa ya kujaribu suluhisho hili, kwani hakuna katika nchi yangu. Lakini njia hii inaweza kuvutia sana, kulingana na mahali unapoishi.
 
-![BTC204](assets/fr/092.webp)
+![BTC204](assets/sw/097.webp)
 
 Tatizo la ATM ni kwamba zimepigwa marufuku katika baadhi ya nchi, au zimedhibitiwa sana katika nyingine. Ikiwa ATM inahitaji utaratibu wa uthibitishaji wa utambulisho, basi itakabiliwa na hatari sawa na zile zinazopatikana katika mifumo inayodhibitiwa na KYC. Kwa upande mwingine, ikiwa ATM inaruhusu shughuli bila uthibitishaji wa utambulisho kwa kiasi kidogo, basi matumizi yake yanaweza kutoa kiwango cha faragha kulinganishwa na ile ya P2P ya fedha za Ubadilishanaji, huku ikiepuka hatari nyingi zinazohusiana na aina hii ya Ubadilishanaji.
 
@@ -1468,7 +1468,7 @@ Njia bora ya kutumia BTC ni, bila shaka, kutumia Bitcoin au Lightning Network mo
 Majukwaa kadhaa ambayo hayahitaji taratibu za KYC hutoa uwezekano wa kubadilisha bitcoins kuwa kadi za zawadi ambazo zinaweza kutumika kwa wauzaji wakuu. Haya ni pamoja na [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) na [Bitrefill](https://www.bitrefill.com/). Majukwaa haya hurahisisha matumizi ya bitcoins zako kila siku, na hukupa ufikiaji wa aina mbalimbali za bidhaa na huduma bila kulazimika kuziuza kwa sarafu ya serikali.
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-![BTC204](assets/fr/093.webp)
+![BTC204](assets/sw/098.webp)
 
 ### Njia zingine za kupata
 
@@ -1495,7 +1495,7 @@ Si miamala yote ya Bitcoin ina uzito sawa. Miamala yenye *inputs* na *outputs* n
  - Muamala A una *input* 1 na *output* 1. Unatoa ada ya 1,994 sats na una uzito wa 141 vB;
  -Muamala B, ambao ni muamala tata zaidi, una *inputs* 2 na *outputs* 2. Unatoa ada ya 2,640 sats kwa uzito wa 220 vB.
 
-![BTC204](assets/fr/094.webp)
+![BTC204](assets/sw/099.webp)
 
 Katika mfano huu, ingawa muamala B unatoa ada ya juu zaidi, wachimbaji watapendelea muamala A, kwani unatoa uwiano bora kati ya ada na uzito. Hapa kuna hesabu ya kila ununuzi, iliyoonyeshwa katika Sats kwa byte pepe (sat/vB):
 
@@ -1506,13 +1506,13 @@ TXB : 2640 / 220 = 12 sats / vB
 
 Hii ina maana kwamba kwa kila kitengo cha uzani, muamala A hutoa gharama zaidi kuliko muamala B, ingawa muamala B hutoa gharama zaidi kwa masharti kamili.
 
-![BTC204](assets/fr/095.webp)
+![BTC204](assets/sw/100.webp)
 
 Kwa hivyo kila wakati inavutia zaidi kwa mtumiaji kutumia pembejeo kidogo iwezekanavyo katika shughuli zake. Hata hivyo, unahitaji kutumia kiasi cha kutosha ili kuweza kukidhi malipo ya pato. Wakati wa kudhibiti kwingineko yako, unahitaji kuwa na UTXO kubwa za kutosha.
 
 Kanuni ya ujumuishaji ni kufaidika kwa muda ambapo ada ni ndogo kwa Bitcoin ili kuunganisha UTXO zake ndogo hadi moja kubwa. Kwa njia hii, ada zinapoongezeka kwenye Bitcoin, utaweza kufanya miamala kwa kutumia kiasi cha chini cha pembejeo, na kwa hivyo kutumia kidogo kwenye ada kwa masharti kabisa. Kwa hivyo lengo ni kutarajia miamala ya lazima kufanywa wakati wa ada za juu.
 
-![BTC204](assets/fr/096.webp)
+![BTC204](assets/sw/101.webp)
 
 Mbali na kuokoa gharama za manunuzi, kuunganisha UTXOs husaidia kuzuia malezi ya "Dust". Dust" inarejelea UTXO ambazo thamani yake katika Sats ni ya chini sana hivi kwamba haitoshi kulipia gharama za muamala zinazohitajika kuzitumia. Hii inazifanya UTXO hizi kutokuwa na mantiki kiuchumi kuzitumia mradi gharama za muamala zisalie kuwa kubwa. Kwa kuunganisha UTXO zako kwa makini, unazizuia zisigeuke kwa Dust fedha zako zote.
 
@@ -1544,11 +1544,11 @@ Katika mfano huu, kwa hiyo itakuwa busara kuweka thamani ya chini ya 940,000 Sat
 
 Mojawapo ya mbinu zinazotumika sana katika uchanganuzi wa Kuzuia mnyororo ni CIOH (*Ingizo la Kawaida la umiliki Legacy (Urithi)*), ambayo inadhania kuwa pembejeo zote za muamala wa Bitcoin ni za huluki moja. Kanuni yenyewe ya ujumuishaji ni kutumia UTXO kadhaa kama pembejeo na kuunda UTXO moja kama pato. Kwa hivyo ujumuishaji huwezesha ICOH kutumika.
 
-![BTC204](assets/fr/097.webp)
+![BTC204](assets/sw/102.webp)
 
 Kwa mazoezi, hii ina maana kwamba mwangalizi wa nje anaweza kubaini kwamba UTXO zote zilizounganishwa huenda ni za mtu yule yule, na kwamba pato la kipekee linalotolewa pia ni lake. Hali hii inaweza kuhatarisha usiri wako kwa kuhusisha historia tofauti za miamala. Kwa mfano, tuseme ninaunganisha UTXO 3 zilizopatikana kupitia P2P na UTXO moja iliyopatikana kupitia jukwaa linalohitaji KYC :
 
-![BTC204](assets/fr/098.webp)
+![BTC204](assets/sw/103.webp)
 
 Kwa kufanya hivyo, huluki yoyote iliyo na ufikiaji wa data ya jukwaa la ubadilishanaji, ambayo inaweza kujumuisha mashirika ya serikali, itaweza kutambua kuwa ninamiliki viwango vingine vya BTC. Hapo awali, UTXO hizi hazikuhusishwa moja kwa moja na utambulisho wangu; sasa wako. Zaidi ya hayo, inafunua kwa vyanzo vyote kwamba ninamiliki kiasi fulani cha bitcoins.
 
@@ -1579,11 +1579,11 @@ Kumiliki bitcoins zako kwa kujilinda ni nzuri, lakini kutumia nodi yako kamili n
 
 Mbali na manufaa haya, kutumia node kamili pia huboresha usiri wako wakati wa kutangaza shughuli zako. Unapotoa muamala, hutengenezwa kwanza na kutiwa sahihi kupitia wallet yako. Ili kulitangaza kwenye mtandao wa Bitcoin, lazima ijulikane kwa angalau node moja. Kwa kutumia nodi yako mwenyewe, una udhibiti wa moja kwa moja juu ya usambazaji huu, na hivyo kuimarisha usiri wako na kupunguza hatari ya kuvuja kwa data.
 
-![BTC204](assets/fr/099.webp)
+![BTC204](assets/sw/104.webp)
 
 Iwapo huna node yako ya Bitcoin, utalazimika kutumia ya mtu mwingine, kama ile inayotolewa na mtoa programu wako wa Wallet. Kando na miamala ya utangazaji, pochi yako inahitaji ufikiaji wa taarifa mbalimbali kama vile miamala ambayo haijashughulikiwa, masalio yanayohusiana na Anwani (address) zako na idadi ya uthibitishaji wa miamala yako. Ili kufikia data hii yote, unahitaji kuuliza nodi.
 
-![BTC204](assets/fr/100.webp)
+![BTC204](assets/sw/105.webp)
 
 Hatari kuu wakati hutumii node yako ya Bitcoin ni kwamba mwendeshaji wa node ya wahusika wengine anaweza kutazama miamala yako kwenye Blockchain, au hata kushiriki maelezo haya na huluki nyingine. Ili kupunguza hatari hii, suluhu ya kati ni kutumia programu ya wallet ambayo hufunika miunganisho yako kupitia Tor. Hii inaweza kupunguza udhihirisho wa data yako. Walakini, suluhisho bora ni kuwa na node yako ya Bitcoin na uitumie kutangaza shughuli zako. Bila shaka, utahitaji pia kuwa mwangalifu ili usivujishe habari yoyote kupitia node yako, lakini hilo ni somo lingine ambalo tutaangalia katika sehemu za baadaye.
 
@@ -1599,13 +1599,13 @@ Ushauri wa kwanza ningeweza kutoa ni kujumuika na umati mnene zaidi. Kwenye Bitc
 
 Kwa ujumla, ni busara kuchagua kiwango cha hivi karibuni cha uandishi, mradi kimekubaliwa vya kutosha. Kwa hivyo, ikiwa mnamo 2022, ningeshauri dhidi ya kutumia P2TR (Taproot) kwa sababu ya kupitishwa kwake chini, mnamo 2024, ningependekeza kuchagua aina hii ya hati badala yake, au ikishindikana, kwa hati ya SegWit V0, kwani idadi ya miamala inayotumia P2TR inaanza kuwakilisha sehemu muhimu sana.
 
-![BTC204](assets/fr/101.webp)
+![BTC204](assets/sw/106.webp)
 
 Chanzo : [txstats.com](https://txstats.com/d/000000054/UTXO-set-repartition-by-output-type)
 
 Kidokezo kingine cha kuhifadhi usiri wako ni kujaribu kukwepa utabiri wa muamala wa ndani. Kwa mfano, unapofanya malipo, unaweza kujaribu kuepuka kuunda pato kwa kiasi cha pande zote, kwa kuwa hii inaweza kuashiria kwamba pato lingine linawakilisha Ubadilishanaji wa kigeni. Iwapo unahitaji kutuma 100 k Sats kwa rafiki, fikiria kuhamisha kiasi cha juu kidogo ili kuepuka Legacy (Urithi) huu. Vile vile, jaribu kutounda matokeo ya kigeni ya Ubadilishanaji ambao ni wa juu bila uwiano kuhusiana na malipo yaliyofanywa, kwa kuwa hii inaweza pia kufichua ni matokeo gani kati ya hayo yanawakilisha Ubadilishanaji wa kigeni.
 
-![BTC204](assets/fr/102.webp)
+![BTC204](assets/sw/107.webp)
 
 Hatimaye, ikiwa utafanya miamala ya Bitcoin mara kwa mara, hakikisha hutazitangaza kila wakati kwa wakati mmoja. Kwa kueneza utangazaji wa miamala yako siku nzima na wiki, unaepuka kuwapa watazamaji wa nje fursa ya kugundua muundo wa muda unaotegemea saa za eneo ambalo unaweza kuimarisha uchanganuzi wao.
 
@@ -1629,7 +1629,7 @@ Coinjoin  ni mbinu ya kuvunja ufuatiliaji wa Bitcoin kwenye Blockchain. Inategem
 
 Kama tulivyoona katika sehemu za kwanza za kozi hii, miamala ya Bitcoin inajulikana kwa watumiaji wote kupitia nodi zao. Kwa hiyo ni rahisi kuangalia mlolongo wa sahihi ya elektroniki ya kila sarafu na kuchunguza historia yake. Hii inamaanisha kuwa watumiaji wote wanaweza kujaribu kuchanganua miamala ya watumiaji wengine. Matokeo yake, kutokujulikana katika kiwango cha muamala haiwezekani. Walakini, kutokujulikana kunahifadhiwa katika kiwango cha kitambulisho cha mtu binafsi. Tofauti na mfumo wa kawaida wa benki, ambapo kila akaunti imeunganishwa na utambulisho wa kibinafsi, kwenye Bitcoin, fedha zinahusishwa na jozi za funguo za kriptografia (au hati), zinazowapa watumiaji aina ya jina bandia nyuma ya vitambulishi vya siri.
 
-![BTC204](assets/fr/103.webp)
+![BTC204](assets/sw/108.webp)
 
 Usiri wa Bitcoin hudhoofishwa wakati waangalizi wa nje wanaweza kuhusisha UTXO maalum na watumiaji waliotambuliwa. Mara tu muungano huu utakapoanzishwa, itawezekana kufuatilia miamala yao na kuchanganua historia yao ya Bitcoin. Coinjoin ni mbinu haswa iliyobuniwa ili kuvunja ufuatiliaji wa UTXO, ili kuwapa watumiaji wa Bitcoin usiri fulani wa Safu katika kiwango cha muamala.
 
@@ -1637,38 +1637,38 @@ Sarafu za kujiunga huimarisha usiri wa watumiaji wa Bitcoin kwa kufanya uchangan
 
 Ni muhimu kuelewa kwamba lengo la muamala wa Coinjoin ni kuvunja historia ya sarafu. Mbinu hii haitoi kutokujulikana kwa kudumu au kuzuia kwa hakika ufuatiliaji wa Bitcoin, kinyume na unavyoweza kufikiria. Coinjoin  inalenga tu kuvunja historia mahali ambapo shughuli ya Coinjoin (sarafu ya kujiunga) inafanywa. Walakini, kabla na baada ya operesheni hii, sarafu inabaki chini ya hatari sawa kwa suala la usiri.
 
-![BTC204](assets/fr/104.webp)
+![BTC204](assets/sw/109.webp)
 
 ### Je, Sarafu za kujiunga hufanya kazi vipi?
 
 Kanuni ya CoinJoin (sarafu ya kujiunga) inategemea mbinu ya ushirikiano: watumiaji kadhaa wanaokusudia kuchanganya amana zao za bitcoins huziwasilisha kama pembejeo zenye kiasi sawa kwenye muamala mmoja wa pamoja. Kisha kiasi hiki husambazwa upya kama matokeo yenye thamani sawa, kila moja likienda kwa mtumiaji mmoja.
-![BTC204](assets/fr/105.webp)
+![BTC204](assets/sw/110.webp)
 
 Mwishoni mwa muamala, inakuwa vigumu kuhusisha pato mahususi na mtumiaji anayejulikana kama ingizo. Hakuna kiungo cha moja kwa moja kati ya pembejeo na matokeo, ambayo huvunja uhusiano kati ya watumiaji na UTXO zao, pamoja na historia ya kila sehemu.
 
-![BTC204](assets/fr/106.webp)
+![BTC204](assets/sw/111.webp)
 
 Hebu tuchukue mfano wa Alice. Anataka kutuma karibu 100,000 Sats kwa dada yake Eve kwa siku yake ya kuzaliwa. Hata hivyo, Alice hataki Eve aweze kufuatilia historia yake ya muamala, kwani hataki kufichua ana bitcoins ngapi au alizipata vipi. Ili kufikia mwisho huu, Alice anaamua kuvunja historia yake ya UTXO na shughuli ya kuunga sarafu. Anapanga na Bob, Charles, David na Frank kutekeleza shughuli ya ushirikiano:
 
 
 - Alice, Bob, Charles, David na Frank kila mmoja anafanya UTXO ya 105,000 Sats (pamoja na 5,000 Sats kwa ada za mining (uchimbaji)) kama michango ya muamala:
 
-![BTC204](assets/fr/107.webp)
+![BTC204](assets/sw/112.webp)
 
 
 - Kwa malipo ya kutumia pembejeo hizi, kila mmoja hutoa Anwani (address) tupu ili kuunda matokeo matano yanayofanana ya 100,000 Sats kila moja. Kila moja hupata pato moja:
 
-![BTC204](assets/fr/108.webp)
+![BTC204](assets/sw/113.webp)
 
 
 - Alice anajikuta na UTXO ya 100,000 Sats ambayo historia yake imechanganywa. Anatumia UTXO hii katika muamala mpya kutuma kiasi hicho kwa Hawa kwa siku yake ya kuzaliwa:
 
-![BTC204](assets/fr/109.webp)
+![BTC204](assets/sw/114.webp)
 
 
 - Eve akijaribu kuchanganua muamala huu ili kupata maelezo, atakabiliwa na muamala wa Kuunga sarafu unaohusisha Alice, Bob, Charles, David na Frank. Haiwezi kutofautisha ni pembejeo gani ni ya nani kwa sababu ya usawa wa kiasi hicho, Hawa hawezi kufuatilia historia ya Alice ya UTXO, wala kuamua ni bitcoins ngapi ambazo dada yake anamiliki au jinsi alizipata:
 
-![BTC204](assets/fr/110.webp)
+![BTC204](assets/sw/115.webp)
 
 Katika kesi hii, Alice ametumia mbinu ya CoinJoin (sarafu ya kujiunga) ili kuongeza usiri dhidi ya uchanganuzi wa nyuma. Kwa kweli, Alice anajilinda dhidi ya uchanganuzi unaowezekana kutoka kwa Hawa, ambaye angeanzia kwenye muamala mahususi na kufuatilia historia ya UTXO kurudi nyuma. Ulinzi huu dhidi ya uchanganuzi kutoka sasa hadi zamani unajulikana kama *anonseti ya nyuma*. Tutaangalia dhana hii kwa undani zaidi katika sura za mwisho za sehemu hii.
 
@@ -1677,21 +1677,21 @@ Hata hivyo, Kuunga sarafu pia kunatoa uwezekano wa kuimarisha usiri dhidi ya uch
 
 - Eve, Grace, Mallory, Oscar na Victor kila mmoja aliweka UTXO ya 98,000 Sats kama ingizo la muamala wa Bitcoin:
 
-![BTC204](assets/fr/111.webp)
+![BTC204](assets/sw/116.webp)
 
 
 - Kwa kurudisha matumizi ya pembejeo hizi, kila mtumiaji hutoa Address tupu ili itumike kuunda matokeo 5 ya 97,500 sawa kabisa ya Sats. Kila mtumiaji anapata pato moja:
 
-![BTC204](assets/fr/112.webp)
+![BTC204](assets/sw/117.webp)
 
 
 - Hawa sasa anashikilia UTXO ya 97,500 Sats ambayo historia yake imevunjwa. Anaweza kuitumia bila woga kufanya miamala ya siku zijazo. Hakika, ikiwa Alice atajaribu kufuatilia bitcoins alizomtumia Hawa, atakutana na shughuli ya Kuunga sarafu. Hataweza kubaini ni UTXO ipi kati ya zile zilizochanganywa ndiyo inayomilikiwa na Hawa. Uchambuzi unakuwa hauwezekani:
 
-![BTC204](assets/fr/113.webp)
+![BTC204](assets/sw/118.webp)
 
 Katika mfano wa kwanza, tuliona jinsi kuunga sarafu inaweza kulinda faragha ya chumba kuhusiana na siku zake za nyuma, na katika mfano wa pili, jinsi inaweza pia kupata historia ya chumba kuhusiana na siku zijazo. Ndio maana nilisema kwamba kuunga sarafu kunapaswa kuonekana kama tukio la mara moja ambalo linagawanya historia ya sehemu katika pande zote mbili:
 
-![BTC204](assets/fr/104.webp)
+![BTC204](assets/sw/119.webp)
 
 ### Mchanganyiko, kuunga sarafu, mchanganyiko ... Je! ni tofauti gani?
 
@@ -1699,7 +1699,7 @@ CoinJoin wakati mwingine huelezewa kama "mixers", neno ambalo bitcoiners wengine
 
 Katika uwanja wa jumla wa hisabati, kuchanganya kunarejelea mali ya mfumo wa nguvu ambapo, baada ya muda fulani, sehemu zote za nafasi ya awali zinaweza kuchanganywa kinadharia na sehemu nyingine yoyote. Kuchanganya kunamaanisha kuwa nafasi ya chembe au hali ya mfumo hubadilika kwa njia ambayo usambazaji wake wa siku zijazo hautegemei usambazaji wake wa awali, na hivyo kufikia hali ambapo sifa za hali ya awali zinasambazwa sawasawa katika nafasi ya mfumo. Hii ndiyo hasa kinachotokea katika CoinJoin na bitcoins. Kwa hiyo, kwa maoni yangu, CoinJoin ni kweli njia ya kuchanganya sarafu.
 
-![BTC204](assets/fr/114.webp)
+![BTC204](assets/sw/120.webp)
 
 Kwa upande mwingine, ni muhimu kutofautisha CoinJoin kutoka kwa washushaji. Ushushaji ni huduma ambayo watumiaji hutuma bitcoins zao kuchanganywa. Huduma hizi zilikuwa maarufu katika miaka ya 2010, lakini matumizi yao yamepungua kwa sababu ya shida kuu mbili ikilinganishwa na CoinJoin:
 
@@ -1707,7 +1707,7 @@ Kwa upande mwingine, ni muhimu kutofautisha CoinJoin kutoka kwa washushaji. Ushu
 - Wanahitaji watumiaji kuachilia uhifadhi wa pesa zao wakati wa mchakato wa kuchanganya, ambao unawaweka kwenye hatari za wizi;
 - Hakuna hakikisho kwamba kichanganyaji hakitarekodi maelezo ya muamala, au hata kuuza maelezo haya kwa kampuni za chain analysis (uchanganuzi wa minyororo).
 
-![BTC204](assets/fr/115.webp)
+![BTC204](assets/sw/121.webp)
 
 Kwa hivyo, watumiaji wa leo wanapendelea Kuunga sarafu, kwani inawaruhusu kudumisha udhibiti kamili wa pesa zao katika mchakato wote. Washiriki wa Kuunga sarafu hawana hatari ya kuibiwa bitcoins na wahusika wengine. Wacha tuangalie jinsi haya yote yanawezekana katika sura inayofuata.
 
@@ -1719,7 +1719,7 @@ Faragha iliyotolewa na kuunga sarafu hupatikana kwa ukubwa wa kikundi ambamo kip
 
 Hii ndiyo sababu waratibu wa coinjoin wameanzishwa kwenye Bitcoin. Jukumu lao ni kuwasiliana na watumiaji mbalimbali na kusambaza taarifa zinazohitajika ili kukamilisha muamala wa ushirikiano.
 
-![BTC204](assets/fr/116.webp)
+![BTC204](assets/sw/122.webp)
 
 Lakini tunawezaje kuhakikisha kwamba mratibu hajawahi kuwa na mikono yake kwenye bitcoins za watumiaji, na licha ya ukweli kwamba yeye ndiye mtu anayeunda shughuli ya Kuunga sarafu, tunawezaje kuhakikisha kwamba hawezi kuunganisha pembejeo na matokeo ya watumiaji, ambayo inaweza kuunda uvujaji wa siri?
 
@@ -1729,7 +1729,7 @@ Utekelezaji wa kisasa wa kuunga sarafu hutumia saini za upofu za David Chaum ili
 
 Sahihi za upofu za Chaum ni aina ya sahihi ya kidijitali ambayo mtoaji saini hajui maudhui ya ujumbe anaotia sahihi. Lakini sahihi basi inaweza kuthibitishwa dhidi ya ujumbe asili. Mbinu hii ilitengenezwa na mwandishi wa maandishi David Chaum mnamo 1983.
 
-![BTC204](assets/fr/117.webp)
+![BTC204](assets/sw/123.webp)
 
 Hebu tuchukue mfano wa kampuni inayotaka kuthibitisha hati ya siri, kama vile Contract, bila kufichua maudhui yake. Kampuni hutumia mchakato wa kuficha uso ambao hubadilisha hati asili kwa njia inayoweza kutenduliwa. Hati hii iliyorekebishwa inatumwa kwa mamlaka ya uidhinishaji, ambayo huweka sahihi bila kujua maudhui ya msingi. Baada ya kupokea hati iliyosainiwa, kampuni inafungua sahihi. Matokeo yake ni hati asili iliyothibitishwa na sahihi ya mamlaka, bila mamlaka kuwahi kuona maudhui asili.
 
@@ -1746,36 +1746,36 @@ Mchakato wa kuunda muamala wa CoinJoin unajumuisha hatua kuu tatu: usajili wa pe
 
 - Alice anatuma kwa mratibu UTXO anayotaka kutumia kama pembejeo kwa muamala, pamoja na kipokezi cha Anwani (address) ambayo angependa kutumia kama toleo la kupokea bitcoins zake. Kwa hivyo, mratibu hana njia ya kujua Anwani (address) ya Alice. Anaona toleo lake lililofichwa tu.
 
-![BTC204](assets/fr/118.webp)
+![BTC204](assets/sw/124.webp)
 
 
 - Mratibu hukagua uhalali wa pembejeo, kisha hutia sahihi kwa Anwani (address) ya Alice iliyofunikwa na ufunguo wake wa kibinafsi. Anarudisha sahihi ya upofu kwa Alice:
 
-![BTC204](assets/fr/119.webp)
+![BTC204](assets/sw/125.webp)
 
 **Hatua ya 2: Usajili wa matokeo**
 
 
 - Alice anaweza kufichua Anwani (address) yake, ambayo sasa imetiwa sahihi na ufunguo wa faragha wa mratibu. Ataanzisha muunganisho mpya chini ya kitambulisho tofauti cha Tor. Mratibu hawezi kutambua kuwa ni Alice ambaye anaunganishwa chini ya utambulisho huu mpya:
 
-![BTC204](assets/fr/120.webp)
+![BTC204](assets/sw/126.webp)
 
 
 - Alice anatuma Anwani (address) ambayo haijafichuliwa na kutia sahihi kwa mratibu (ambaye bado hajui ni Alice):
 
-![BTC204](assets/fr/121.webp)
+![BTC204](assets/sw/127.webp)
 
 **Hatua ya 3: Kutia sahihi muamala**
 
 
 - Kwa njia hiyo hiyo, mratibu hupata matokeo ambayo hayajafichwa kutoka kwa washiriki wote. Shukrani kwa saini zinazohusishwa, anaweza kuangalia kwamba kila pato lililowasilishwa bila kujulikana limetiwa saini na ufunguo wake wa kibinafsi kabla, na hivyo kuhakikisha uhalali wao. Kisha yuko tayari kujenga shughuli ya kuunga sarafu na kuituma kwa washiriki ili kutia sahihi:
 
-![BTC204](assets/fr/122.webp)
+![BTC204](assets/sw/128.webp)
 
 
 - Alice, kama washiriki wengine, hukagua kuwa mchango na matokeo yake yamejumuishwa kwa usahihi katika shughuli iliyofanywa na mratibu. Ikiwa kila kitu ni cha kuridhisha, yeye hutuma saini inayofungua hati yake ya ingizo kwa mratibu:
 
-![BTC204](assets/fr/123.webp)
+![BTC204](assets/sw/129.webp)
 
 
 - Baada ya kukusanya saini kutoka kwa washiriki wote wa CoinJoin, mratibu anaweza kutangaza muamala kwenye mtandao wa Bitcoin, ili uweze kuongezwa kwenye block.
@@ -1797,31 +1797,31 @@ Ni vigumu kusema kwa uhakika ni nani aliyeanzisha wazo la kuunga sarafu kwa Bitc
 Maxwell, G. (2013, Agosti 22). *CoinJoin: Faragha ya Bitcoin kwa ulimwengu halisi*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 
-![BTC204](assets/fr/124.webp)
+![BTC204](assets/sw/130.webp)
 
 Walakini, kuna majina mengine yaliyotajwa hapo awali, kwa saini za Chaum kama sehemu ya mchanganyiko, lakini pia kwa sarafu za kujiunga. [Mnamo Juni 2011, Duncan Townsend aliwasilisha kwenye BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) kichanganyaji kinachotumia saini za Chaum kwa njia inayofanana kabisa na sarafu za kisasa za Chaumian.
 
 Katika mazungumzo sawa, tunaweza kupata [ujumbe kutoka hashcoin kujibu Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) ili kuboresha kichanganyaji chake. Mchakato ulioelezewa katika ujumbe huu ndio hasa sarafu za kujiunga inahusu. Kutajwa kwa mfumo kama huo kunaweza pia kupatikana katika [ujumbe kutoka kwa Alex Mizrahi mwaka wa 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), alipokuwa akiwashauri waundaji wa Tenebrix ya kwanza, ambayo baadaye ilitolewa kama msingi wa Tenebrix. Hata neno "CoinJoin" lenyewe inasemekana halikuundwa na Greg Maxwell, lakini lilitokana na wazo la Peter Todd.
 
-![BTC204](assets/fr/125.webp)
+![BTC204](assets/sw/131.webp)
 
 ### Zerolink
 
 Zerolink ni itifaki ya kina ya kuchanganya inayojumuisha ushirikiano wa Chaumian na mikakati mbalimbali ya kulinda kutokujulikana kwa watumiaji dhidi ya aina kadhaa za uchanganuzi wa misururu, hasa kwa kupunguza makosa yanayohusiana na usimamizi wa kwingineko. Itifaki hii [ilianzishwa na nopara73 na TDevD mnamo 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/fr/126.webp)
+![BTC204](assets/sw/132.webp)
 
 Kama jina lake linavyopendekeza, kanuni iliyo nyuma ya Zerolink ni kuunda miamala ya CoinJoin ambayo inahakikisha kwamba viungo kati ya pembejeo na matokeo haviwezi kufuatiliwa. Hii inafanikiwa kwa kuhakikisha kuwa matokeo yote yana kiasi sawa kabisa.
 
-![BTC204](assets/fr/127.webp)
+![BTC204](assets/sw/133.webp)
 
 Hatua muhimu ya kuzuia iliyochukuliwa na Zerolink ni kutenganisha UTXO ambazo hazijachanganywa na zile zilizochanganywa kwa kutumia seti tofauti za funguo za siri, au hata wallet tofauti. Hii inatofautisha *wallet ya kabla ya mchanganyiko*, iliyokusudiwa kwa sehemu kabla ya kuchanganywa, na *wallet ya post-mix*, inayotumika kuhifadhi sehemu ambazo tayari zimechanganywa.
 
-![BTC204](assets/fr/128.webp)
+![BTC204](assets/sw/134.webp)
 
 Mgawanyiko huu mkali wa UTXO hutumikia zaidi ya yote kuzuia ushirikiano wa ajali kati ya UTXO mchanganyiko na UTXO isiyochanganywa. Hakika, ikiwa viungo hivyo vinatokea, ufanisi wa CoinJoin kwenye mchanganyiko wa UTXO umefutwa bila mtumiaji kufahamu, na hivyo kuathiri usiri wa UTXO ambaye historia yake alifikiri kuwa amevunja. Viungo hivi vinaweza kutokea ama kwa kutumia tena Anwani (address) katika kupata mchanganyiko wa UTXO na isiyochanganywa, au kupitia utumiaji wa CIOH (_Common-Input-Ownership Heuristic_), ikiwa mtumiaji anatumia UTXO zilizochanganywa na zisizochanganywa kama nyenzo za muamala sawa. Kwa kutenganisha jalada la kabla ya mchanganyiko na baada ya mchanganyiko, tunaepuka miunganisho kama hiyo ya kiajali na kumlinda mtumiaji dhidi ya hitilafu zisizokusudiwa.
 
-![BTC204](assets/fr/129.webp)
+![BTC204](assets/sw/135.webp)
 
 Utenganisho huu pia unatoa uwezekano wa kutumia sheria tofauti kati ya mseto wa awali na wa baada ya mchanganyiko katika kiwango cha programu ya wallet. Kwa mfano, katika wallet ya baada ya mchanganyiko, programu inaweza kuzuia kuunganishwa kwa UTXO kwenye pembejeo ili kuzuia utumizi wa CIOH, jambo ambalo litahatarisha mfumo wa kutoweka wa mtumiaji. Pia inawezekana kusawazisha utumiaji wa hati na chaguo za muamala (kama vile kuripoti kwa RBF, kwa mfano) ili kuzuia kutambuliwa kwa alama za vidole za wallet.
 
@@ -1846,13 +1846,13 @@ Kila moja ya utekelezaji huu inalenga kuvunja historia ya UTXO kupitia miamala y
 
 JoinMarket, iliyoanzishwa mwaka wa 2015 na Adam Gibson na Chris Belcher, inajitokeza wazi kutoka kwa utekelezaji mwingine wa CoinJoin shukrani kwa muundo wake wa kipekee wa kuunganisha watumiaji. Mfumo huo unategemea soko la P2P (mtumiaji kwa mtumiaji) ambapo watumiaji wengine, “watengenezaji,” hufanya bitcoins zao zipatikane kwa kuchanganya, wakati wengine, “wachukuaji,” hutumia fedha hizi kufanya CoinJoin kwa malipo.
 
-![BTC204](assets/fr/130.webp)
+![BTC204](assets/sw/136.webp)
 
 Kwa mfano huu, "watengenezaji" hufanya bitcoins zao kupatikana kwa "wachukuaji" na kupokea ada kwa huduma yao. Wachukuaji, kwa upande wake, hulipa kutumia bitcoins za watengenezaji kufanya miamala yao ya kuunga sarafu. Ada za huduma hutofautiana kulingana na jukumu linalochukuliwa: "watengenezaji" hujilimbikiza ada za kutoa ukwasi, wakati "wachukuaji" hulipa ada. Soko linafanya kazi kwa uhuru, bila masharti ya matumizi.
 
 Moja ya vikwazo kuu vya JoinMarket ni ugumu wake wa matumizi, ambao unahitaji kiwango fulani cha ujuzi na vifaa ili kuiendesha kwa ufanisi. Ingawa changamoto hii si kikwazo kwa mtumiaji mwenye uzoefu, inaweza kuzuia ufikiaji mpana wa umma kwa ujumla. Hata hivyo, utangulizi wa hivi majuzi wa mtandao wa kiolesura unaoitwa JAM umerahisisha kwa kiasi matumizi yake.
 
-![BTC204](assets/fr/131.webp)
+![BTC204](assets/sw/137.webp)
 
 Chanzo : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
@@ -1866,23 +1866,23 @@ Hatimaye, wakati dhana ya JoinMarket inavutia, hasa kwa wale wanaopenda soko la 
 
 Wabisabi ni utekelezaji mwingine wa CoinJoin unaolenga kuboresha uratibu wa miamala. Muundo huu ulibuniwa na Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero, na István András Seres mnamo 2021, na uliunganishwa katika programu ya Wasabi 2.0 mwaka uliofuata. Wabisabi ni mageuzi makubwa ya muundo wa programu ya Wasabi ya CoinJoin iliyozinduliwa mnamo 2018.
 
-![BTC204](assets/fr/132.webp)
+![BTC204](assets/sw/138.webp)
 
 Kuelekea mwisho wa miaka ya 2010, Wasabi ilipitisha muundo tofauti kabisa wa muamala wa CoinJoin hadi Whirlpool. Wasabi ilitumia miamala mikubwa sana ya CoinJoin iliyohusisha makumi ya washiriki ili kuongeza faragha za washiriki wake. Kinyume chake, Whirlpool ilichagua miamala mingi midogo, kuwezesha anonsets kukua kwa kasi kwa kila mzunguko.
 
 Mbinu za usimamizi za Ubadilishanaji zilitoa utofauti mkubwa kati ya utekelezaji huu mbili. Kwa Whirlpool, ubadilishanaji wa kigeni ulitengwa kutoka kwa UTXO kabla ya mizunguko ya CoinJoin shukrani kwa TX0, dhana ambayo nitaelezea zaidi katika sura inayofuata. Kwa upande wa Wasabi, ubadilishanaji wa kigeni uliundwa kama moja ya matokeo ya muamala wa CoinJoin, na hivyo kudumisha viungo vya kuamua kati ya pembejeo na matokeo fulani.
 
-![BTC204](assets/fr/133.webp)
+![BTC204](assets/sw/139.webp)
 
 Kwa kutumia Wabisabi, toleo la 2.0 la Wasabi limerekebisha mbinu yake ili kuendana na ile ya Whirlpool. Ingawa miamala ya CoinJoin bado ni mikubwa sana, sasa inawezekana kufunga mizunguko kadhaa mfululizo, kufuata mfano wa Whirlpool. Uangalifu maalum umeelekezwa kwa usimamizi wa viwango vya ubadilishaji: tofauti na Wasabi 1.0, ambapo kiwango cha ubadilishaji kilihusishwa moja kwa moja na pembejeo za watumiaji, Wabisabi inajitahidi kugawanya kiwango cha ubadilishaji katika sehemu ndogo ndogo, zilizogawanywa kwa usawa miongoni mwa washiriki wote.
 
 Hebu tuonyeshe hili kwa mfano uliorahisishwa unaohusisha watumiaji 2 pekee: Alice anataka kuchanganya 115,000 Sats na Bob, 210,000 Sats. Kupuuza ada, na Wasabi 1.0, muamala wa CoinJoin ungetoa matokeo 3 ya 100,000 Sats, pamoja na 1 Ubadilishanaji wa 15,000 Sats kwa Alice na 1 ubadilishanaji wa 10,000 Sats kwa Bob-706. Matokeo ya exchange bado yangeunganishwa na pembejeo:
 
-![BTC204](assets/fr/134.webp)
+![BTC204](assets/sw/140.webp)
 
 Chini ya Wabisabi, muamala huo huo ungezaa matokeo 3 ya 100,000 Sats na matokeo 5 ya 5,000 Sats, na hivyo kutawanya ubadilishaji ili usiweze kuunganishwa moja kwa moja na pembejeo maalum:
 
-![BTC204](assets/fr/135.webp)
+![BTC204](assets/sw/141.webp)
 
 Binafsi, ninaona kwamba usimamizi wa kigeni wa Wabisabi wa Ubadilishanaji unawasilisha hatari kadhaa ambazo zinaweza kuathiri ufanisi wake katika masuala ya usiri:
 
@@ -1914,7 +1914,7 @@ Kinachotenganisha Whirlpool na mbinu zingine za kuunga sarafu ni matumizi ya mia
 
 Mtazamo huu wa vizuizi kwa pembejeo huipa miamala ya Whirlpool ya CoinJoin kipengele cha kipekee: kutokuwepo kabisa kwa viunganishi vya kuamua kati ya pembejeo na matokeo. Kwa maneno mengine, kila toleo lina uwezekano sawa wa kuhusishwa na mshiriki yeyote, ikilinganishwa na matokeo mengine yote katika muamala.
 
-![BTC204](assets/fr/136.webp)
+![BTC204](assets/sw/142.webp)
 
 ### Jinsi Whirlpool inavyofanya kazi
 
@@ -1925,22 +1925,22 @@ Kwa hivyo, miamala ya Whirlpool ina sifa ya idadi sawa ya pembejeo na matokeo, a
 
 - pembejeo 5 na matokeo 5;
 
-![BTC204](assets/fr/137.webp)
+![BTC204](assets/sw/143.webp)
 
 
 - pembejeo 6 na matokeo 6;
 
-![BTC204](assets/fr/138.webp)
+![BTC204](assets/sw/144.webp)
 
 
 - pembejeo 7 na matokeo 7;
 
-![BTC204](assets/fr/139.webp)
+![BTC204](assets/sw/145.webp)
 
 
 - pembejeo 8 na matokeo 8.
 
-![BTC204](assets/fr/140.webp)
+![BTC204](assets/sw/146.webp)
 
 Mfano wa Whirlpool unatokana na miamala midogo ya CoinJoin. Tofauti na Wabisabi na JoinMarket, ambapo uimara wa anonsets unategemea idadi ya washiriki katika mzunguko mmoja (au mizunguko michache), Whirlpool inategemea mlolongo wa mizunguko mingi midogo.
 
@@ -1948,7 +1948,7 @@ Katika muundo huu, watumiaji hulipa ada tu wanapojiunga kwa mara ya kwanza kweny
 
 Kwa kila mzunguko wa ziada wa CoinJoin ambao kipande kinashiriki, pamoja na washiriki waliokutana nao hapo awali, anonsets itakua kwa kasi. Kusudi ni kuchukua faida ya michanganyiko hii isiyolipishwa, ambayo kila inapofanyika, inachangia kuimarisha msongamano wa anonsets inayohusiana na kila kipande kilichochanganywa.
 
-![BTC204](assets/fr/141.webp)
+![BTC204](assets/sw/147.webp)
 
 Whirlpool imeundwa kwa kuzingatia mahitaji mawili muhimu:
 
@@ -2007,7 +2007,7 @@ Kwa ujumla haipendekezi kuunganisha UTXO kadhaa zilizochanganywa baada ya mizung
 
 Kando na ada ya huduma, ada ya mining (uchimbaji) mahususi kwa muamala wowote wa Bitcoin lazima pia izingatiwe. Kama mtumiaji wa Whirlpool, utahitajika kulipa ada ya mining kwa muamala wa utayarishaji (`Tx0`) na pia kwa CoinJoin ya kwanza. Remix zote zinazofuata zitakuwa bila malipo, shukrani kwa muundo wa Whirlpool unaowawezesha watumiaji wapya kufadhili ada hizo.
 Kwa kweli, katika kila CoinJoin ya Whirlpool, watumiaji 2 kati ya pembejeo ni washiriki wapya. Ingizo nyingine hutoka kwa remix. Hivyo basi, gharama za mining kwa washiriki wote katika muamala huo hugharamiwa na washiriki hawa 2 wapya, ambao nao pia wanaweza kufaidika na michanganyiko inayofuata bila malipo.
-![BTC204](assets/fr/142.webp)
+![BTC204](assets/sw/148.webp)
 
 Shukrani kwa mfumo huu wa ada, Whirlpool inatofautiana sana na utekelezaji mwingine wa CoinJoin, kwa kuwa utatuzi wa mfumo wa UTXO hauhusiani moja kwa moja na bei inayolipwa na mtumiaji. Kwa hivyo, inawezekana kufikia viwango vya juu zaidi vya kutokujulikana kwa kulipa tu ada ya kuingia kwenye pool na ada ya mining kwa miamala miwili (`Tx0` na CoinJoin ya awali).
 
@@ -2017,7 +2017,7 @@ Ni muhimu kutambua kwamba mtumiaji pia atalazimika kulipa ada za mining ili kuon
 
 Ili kuunda CoinJoin kupitia Whirlpool, Wallet lazima izalishe akaunti kadhaa tofauti. Hii ndiyo kanuni nyuma ya itifaki ya ZeroLink. Akaunti, katika muktadha wa jalada la HD (*Hierarchical Deterministic*), inajumuisha sehemu iliyotengwa kabisa na nyinginezo. Utengano huu unatokea katika kiwango cha kina cha tatu cha daraja la kwingineko, yaani katika kiwango cha `xpub`.
 
-![BTC204](assets/fr/143.webp)
+![BTC204](assets/sw/149.webp)
 
 Pochi la HD linaweza, kinadharia, kupata hadi akaunti tofauti `2^(31)`. Akaunti ya awali, inayotumiwa kwa chaguo-msingi kwenye pochi zote za Bitcoin, inalingana na faharasa ya `0`.
 
@@ -2042,7 +2042,7 @@ Sehemu ya kuanzia ya Whirlpool kuunga sarafu yoyote ni **akaunti ya amana**. Hii
 
 Muamala huu wa awali wa `Tx0` pia hutumika kulipa ada ya huduma kwa mratibu wa CoinJoin. Tofauti na hatua zifuatazo, muamala huu si wa ushirikiano, hivyo mtumiaji lazima abebe gharama kamili ya mining.
 
-![BTC204](assets/fr/144.webp)
+![BTC204](assets/sw/150.webp)
 
 Katika mfano huu wa muamala wa `Tx0`, ingizo la `372,000 sats` kutoka kwenye akaunti yetu ya **deposit** limegawanywa katika UTXO kadhaa za toleo, ambazo zimepangwa kama ifuatavyo:
 
@@ -2053,7 +2053,7 @@ Katika mfano huu wa muamala wa `Tx0`, ingizo la `372,000 sats` kutoka kwenye aka
 
 Kwa mfano, hapa kuna Whirlpool Tx0 halisi (sio yangu): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://GW-8 16.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
-![BTC204](assets/fr/145.webp)
+![BTC204](assets/sw/151.webp)
 
 ### Mabadiliko ya doxxic
 
@@ -2061,7 +2061,7 @@ Ziada ambayo haikuweza kuunganishwa kwenye bwawa, hapa sawa na `40,000 Sats`, in
 
 UTXO hii ni hatari kwa usiri wa mtumiaji, kwa sababu sio tu kwamba bado imeshikamana na siku zake za nyuma, na kwa hiyo inawezekana kwa utambulisho wa mmiliki wake, lakini pia inajulikana kuwa ya mtumiaji ambaye ametengeneza kuunga sarafu.
 
-![BTC204](assets/fr/146.webp)
+![BTC204](assets/sw/152.webp)
 
 Ikiwa UTXO hii itaunganishwa na matokeo mchanganyiko, wa pili utapoteza usiri wote uliopatikana wakati wa mizunguko ya kuunga sarafu, hasa kutokana na CIOH (*Common-Input-Ownership-Heuristic*). Ikiwa itaunganishwa na mabadiliko mengine ya doxxic, mtumiaji ana hatari ya kupoteza usiri, kwani itaunganisha maingizo mbalimbali ya mzunguko wa kuunga sarafu. Kwa hiyo inapaswa kutibiwa kwa tahadhari. Tutaingia kwa undani zaidi juu ya usimamizi wa UTXO hizi doxxic katika sehemu ya mwisho ya sura hii.
 
@@ -2071,7 +2071,7 @@ Baada ya `Tx0`, UTXO zilizosawazishwa hutumwa kwenye akaunti yetu ya **premix** 
 
 Mwishoni mwa michanganyiko hii ya kwanza, akaunti ya **premix** itakuwa tupu, huku sarafu zetu, zikiwa zimelipa ada za mining (uchimbaji) kwa Kuunga sarafu hii ya kwanza, zitarekebishwa haswa kwa kiasi kinachofafanuliwa na bwawa lililochaguliwa. Katika mfano wetu, UTXO zetu za awali za `108,000 Sats` zitakuwa zimepunguzwa hadi `100,000 Sats` haswa.
 
-![BTC204](assets/fr/147.webp)
+![BTC204](assets/sw/153.webp)
 
 ### Mchanganyiko
 
@@ -2089,7 +2089,7 @@ Watumiaji wengine wanaweza kufikiria kuhamisha bitcoins zao zilizochanganywa had
 
 Kuunganisha UTXO ndio kosa la kawaida. Ili kuepuka CIOH (*Common-Input-Ownership-Heuristic*), ni lazima uepuke kuchanganya UTXO zilizochanganywa na UTXO ambazo hazijachanganywa katika shughuli hiyo hiyo. Hii inahitaji usimamizi makini wa UTXO zako ndani ya jalada lako, haswa katika suala la kuweka Alama.
 
-![BTC204](assets/fr/148.webp)
+![BTC204](assets/sw/154.webp)
 
 Uangalifu lazima pia uchukuliwe wakati wa kuunganisha UTXO zilizochanganywa. Ujumuishaji wa wastani unawezekana ikiwa UTXO zako zilizochanganywa zina utatuzi muhimu, lakini hii itapunguza usiri wa sehemu zako bila shaka. Hakikisha kwamba uunganisho si mwingi sana, wala haufanyiki baada ya idadi isiyotosha ya michanganyiko, katika hatari ya kuanzisha viungo vinavyoweza kupunguzwa kati ya UTXO zako kabla na baada ya mizunguko ya kuunga sarafu. Unapokuwa na shaka kuhusu upotoshaji huu, mbinu bora zaidi si kuunganisha UTXO za baada ya mchanganyiko, lakini kuzihamisha moja baada ya nyingine hadi kwa Hardware Wallet yako, na kutengeneza Anwani (address) mpya tupu kila wakati. Kwa mara nyingine tena, kumbuka kuweka alama kila UTXO unayopokea.
 
@@ -2117,7 +2117,7 @@ Hapa kuna baadhi ya mikakati ya kuzitumia:
 
 Kufuatia kukamatwa kwa waanzilishi wa Pochi la Samourai na kunaswa kwa seva zao mnamo Aprili 24, 2024, zana ya Whirlpool haifanyi kazi tena, hata kwa wale walio na Dojo zao. Hapo awali, ilipatikana kwenye Pochi la Samourai na Pochi la Sparrow.
 
-![BTC204](assets/fr/149.webp)
+![BTC204](assets/sw/155.webp)
 
 Hata hivyo, bado inawezekana kwamba zana hii itawashwa tena katika wiki zijazo, kulingana na matokeo ya majaribio, au kuzinduliwa upya kwa njia tofauti. Kwa vyovyote vile, sidhani kama soko la kuunga sarafu ya Bitcoin  litakuwa bila usambazaji kwa muda mrefu, kwani mahitaji yapo. Zaidi ya hayo, kwa vile modeli ya Whirlpool ndiyo ya juu zaidi katika suala la usiri, hakika itakuwa ni kielelezo cha chaguo kwa utekelezaji mwingine katika siku zijazo.
 
@@ -2140,11 +2140,11 @@ Umuhimu wa kuunga sarafu upo katika uwezo wake wa kutoa ukataaji unaokubalika, k
 
 Kwa maneno mengine, mchambuzi anayejua muamala wako wa awali (`Tx0`) wakati wa kuingiza mizunguko ya kuunga sarafu hapaswi kuwa na uwezo wa kutambua kwa uhakika UTXO yako wakati wa kuondoka kwa mizunguko ya remix (ingizo la mzunguko kwenye uchanganuzi wa kuondoka kwenye mzunguko).
 
-![BTC204](assets/fr/150.webp)
+![BTC204](assets/sw/156.webp)
 
 Kinyume chake, mchambuzi anayejua UTXO yako wakati wa kuondoka kwa mizunguko ya kuunga sarafu lazima asiweze kubainisha shughuli ya awali wakati wa kuingiza mizunguko (kutoka kwa mzunguko hadi uchanganuzi wa kuingia kwenye mzunguko).
 
-![BTC204](assets/fr/151.webp)
+![BTC204](assets/sw/157.webp)
 
 Ili kutathmini jinsi ilivyo ngumu kwa mchambuzi kuunganisha yaliyopita na ya sasa na kinyume chake, tunahitaji kuhesabu ukubwa wa vikundi vya sehemu zenye usawa ambamo sehemu yako imefichwa. Hatua hii inatuambia ni uchanganuzi ngapi una uwezekano sawa. Kwa hivyo, ikiwa uchanganuzi sahihi umezama kati ya uchanganuzi mwingine 3 wa uwezekano sawa, kiwango chako cha kufichwa ni cha chini sana. Kwa upande mwingine, ikiwa uchanganuzi sahihi unapatikana ndani ya seti ya uchanganuzi unaowezekana 20,000, sehemu yako imefichwa vizuri. Ukubwa wa vikundi hivi unawakilisha viashirio vinavyojulikana kama "anonsets".
 
@@ -2166,37 +2166,37 @@ Anonset ya kuangalia mbele inaonyesha ukubwa wa kikundi ambacho UTXO iliyosomwa 
 
 Kiashiria hiki hupima uimara wa faragha wa muktadha dhidi ya uchambuzi wa kutoka mwanzo hadi sasa (ingizo-kwa-toleo).
 
-![BTC204](assets/fr/152.webp)
+![BTC204](assets/sw/158.webp)
 
 Kipimo hiki kinatumika kukadiria kiwango ambacho UTXO yako imelindwa dhidi ya majaribio ya kuunda upya historia yake kutoka mahali pake pa kuingia hadi inapotoka katika mchakato wa Kuunga sarafu.
 
 Kwa mfano, ikiwa muamala wako umeshiriki katika mzunguko wake wa kwanza wa Kuunga sarafu na mizunguko miwili zaidi ya kushuka imekamilika, uondoaji tarajiwa wa sarafu yako utakuwa `13` :
 
-![BTC204](assets/fr/153.webp)
+![BTC204](assets/sw/159.webp)
 
 Kwa mfano, hebu tufikirie kuwa sarafu yetu mwanzoni mwa mzunguko wa Kuunga sarafu ina **uwezekano wa kutoweka** wa `86,871`. Kwa maneno ya kiutendaji, hii inamaanisha kuwa imefichwa kati ya sehemu `86,871` **zisizoweza kutofautishwa**. Kwa mtazamaji wa nje ambaye anajua sarafu hii mwanzoni mwa mizunguko ya Kuunga sarafu na kujaribu kufuatilia ilikotoka, atakabiliwa na `86,871` **UTXO zinazowezekana**, kila moja ikiwa na **uwezekano sawa** wa kuwa sarafu anayotafuta.
 
-![BTC204](assets/fr/154.webp)
+![BTC204](assets/sw/160.webp)
 
 ### Anoset ya nyuma
 
 Anoset ya kurudi nyuma inaonyesha idadi ya vyanzo vinavyowezekana kwa sehemu fulani, kujua UTXO mwishoni mwa mzunguko. Kiashirio hiki kinapima upinzani wa usiri wa sehemu kwa uchanganuzi wa sasa hadi wa zamani (tokeo-kwa-ingizo), yaani, jinsi ilivyo vigumu kwa mchambuzi kufuatilia sehemu yako hadi asili yake, kabla ya mizunguko ya kuunga sarafu. Jina la kiashirio hiki ni **"kuacha nyuma"**, au **"vipimo vinavyoonekana nyuma"**.
 
-![BTC204](assets/fr/155.webp)
+![BTC204](assets/sw/161.webp)
 
 Kwa kujua UTXO yako wakati wa kuondoka kwa mizunguko, **uwekajifichaji wa nyuma** huamua idadi ya miamala ya **Tx0** inayoweza kujumuisha kuingia kwako kwenye mizunguko ya kuunga sarafu. Katika mchoro hapa chini, hii inalingana na **jumla ya Bubbles zote za machungwa**.
 
-![BTC204](assets/fr/156.webp)
+![BTC204](assets/sw/162.webp)
 
 Kwa mfano, hebu tufikirie kuwa sehemu yetu ya kuunga sarafu ina urejeshi anonseti wa `42,185`. Kwa vitendo, hii inamaanisha kuwa kuna `42,185` vyanzo vinavyowezekana vya UTXO hii. Ikiwa mwangalizi wa nje atatambua sarafu hii mwishoni mwa mizunguko na kutafuta kufuatilia asili yake, atakabiliwa na `42,185` vyanzo vinavyowezekana, vyote vikiwa na uwezekano sawa wa kuwa asili inayotafutwa.
 
-![BTC204](assets/fr/157.webp)
+![BTC204](assets/sw/163.webp)
 
 ### Je, unahesabu vipi anonsets?
 
 Inawezekana kuhesabu anonsets kwa mikono kwa kutumia Block explorer kwa ensembles ndogo. Walakini, kwa anonsets kubwa, matumizi ya zana maalum inakuwa muhimu. Nijuavyo, programu pekee inayoweza kufanya kazi hii ni *Whirlpool Stats Tool*, zana ya Python iliyotengenezwa na timu za Samourai na OXT. Kwa bahati mbaya, zana hii haitumiki kwa sasa kufuatia kukamatwa kwa waanzilishi wa Samourai na kukatizwa kwa OXT, ambayo ilitumika kutoa data kutoka kwa Blockchain.
 
-![BTC204](assets/fr/158.webp)
+![BTC204](assets/sw/164.webp)
 
 Kama tulivyoona katika sura hii, anonsets zinaweza kuhesabiwa tu ikiwa kuna homogeneity fulani katika muundo wa Kuunga sarafu. Katika sura inayofuata, tutajua jinsi ya kuhesabu usawa huu kwenye muamala wa Bitcoin, iwe ni Kuunga sarafu au shughuli ya kitamaduni zaidi.
 
@@ -2215,15 +2215,15 @@ Kiashiria cha kwanza kinachoweza kuzingatiwa kwenye muamala wa Bitcoin ni jumla 
 
 Kwa mfano, muamala rahisi wa malipo wenye ingizo 1 na matokeo 2 utakuwa na tafsiri moja tu, yaani, ingizo #0 linafadhili pato #0 na pato #1. Hakuna tafsiri nyingine inayowezekana:
 
-![BTC204](assets/fr/159.webp)
+![BTC204](assets/sw/165.webp)
 
 Kwa upande mwingine, kona ya Whirlpool 5x5 ina mchanganyiko unaowezekana wa $1\,496$:
 
-![BTC204](assets/fr/160.webp)
+![BTC204](assets/sw/166.webp)
 
 Whirlpool Surge Cycle 8x8 CoinJoin ina tafsiri zinazowezekana $9\,934\,563$:
 
-![BTC204](assets/fr/161.webp)
+![BTC204](assets/sw/167.webp)
 
 ### **Entropy**
 
@@ -2268,7 +2268,7 @@ $$
 
 Hebu tuchukue mfano mwingine na shughuli ya awali ya malipo, yenye ingizo 1 na matokeo 2: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://GW-906.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
 
-![BTC204](assets/fr/162.webp)
+![BTC204](assets/sw/168.webp)
 
 Kwa upande wa muamala huu, tafsiri pekee inayowezekana ni: `(In.0) > (Out.0 ; Out.1)`. Kwa hivyo, entropy yake ni \$0\$ :
 $$
@@ -2445,11 +2445,11 @@ Kuhesabu viashiria hivi kwa mikono kwa kutumia milinganyo ambayo nimetoa ni moja
 
 Hapo awali, kulikuwa na zana ya Python inayoitwa *Boltzmann Calculator*, iliyotengenezwa na timu za OXT na Samourai, ambayo ilihesabu kiashiria hiki kiotomatiki kwa muamala wa Bitcoin.
 
-![BTC204](assets/fr/163.webp)
+![BTC204](assets/sw/169.webp)
 
 Pia iliwezekana kutumia tovuti ya [KYCP.org](https://kycp.org) kwa uchanganuzi huu.
 
-![BTC204](assets/fr/164.webp)
+![BTC204](assets/sw/170.webp)
 
 Kwa bahati mbaya, kufuatia kukamatwa kwa waanzilishi wa Samourai, zana hizi hazifanyi kazi tena.
 
@@ -2484,7 +2484,7 @@ Kipengele maalum cha PayJoin kiko katika uwezo wake wa kuunda muamala unaoonekan
 
 Hebu tuchukue mfano kuelewa mchakato huu vizuri. Alice ananunua baguette kwa 4,000 Sats kwa kutumia UTXO ya 10,000 Sats na kuchagua kutumia PayJoin. Mwokaji wake, Bob, anaongeza UTXO yake ya 15,000 Sats kama pembejeo, ambayo anapokea kikamilifu kama pato, pamoja na 4,000 Sats kutoka kwa Alice.
 
-![BTC204](assets/fr/165.webp)
+![BTC204](assets/sw/171.webp)
 
 Katika mfano huu, Bob mwokaji anaingia pembejeo ya Sats 15,000 na anatoa pato la Sats 19,000, tofauti ikiwa ni hasa Sats 4,000, yaani bei ya baguette. Kwa upande wa Alice, anaingia Sats 10,000 na kuishia na Sats 6,000 katika pato, ambayo inaonyesha usawa wa -Sats 4,000, yaani bei ya baguette. Ili kurahisisha mfano, nimeacha makusudi ada za Mining katika muamala huu.
 
@@ -2498,15 +2498,15 @@ Kwa hiyo, wakati mchambuzi anachunguza muamala wa Ulipaji wa Kujiunga, anaongozw
 
 Hebu tuchukue mfano wetu wa muamala wa Ulipaji wa Kujiunga wa malipo ya baguette:
 
-![BTC204](assets/fr/166.webp)
+![BTC204](assets/sw/172.webp)
 
 Kuona muamala huu kwenye Blockchain, mtazamaji wa nje anayefuata utabiri wa kawaida wa uchanganuzi wa Blockchain atatoa tafsiri ifuatayo: "*Alice aliunganisha UTXO 2 kama pembejeo za muamala ili kulipa Sats 19,000 kwa Bob*".
 
-![BTC204](assets/fr/167.webp)
+![BTC204](assets/sw/173.webp)
 
 Ufafanuzi huu ni wazi sio sahihi, kwa sababu kama unavyojua tayari, UTXO mbili kwenye pembejeo sio za mtu yule yule. Mmoja anatoka kwa Alice, mnunuzi wa baguette, na mwingine kutoka kwa Bob, mwokaji.
 
-![BTC204](assets/fr/168.webp)
+![BTC204](assets/sw/174.webp)
 
 Kwa njia hii, uchanganuzi wa mtazamaji wa nje unaelekezwa kwenye hitimisho potofu, kuhakikisha kwamba usiri wa washikadau unahifadhiwa.
 
@@ -2516,11 +2516,11 @@ Madhumuni ya pili ya Ulipaji wa Kujiunga ni kupotosha mtazamaji wa nje kuhusu ki
 
 Ikiwa tunarudi kwenye mfano wetu wa ununuzi wa baguette, mtazamaji atafikiri kuwa kiasi cha malipo kinalingana na UTXO ya 6,000 Sats, au kwa UTXO ya 19,000 Sats. Katika kesi hii, mtazamaji atapendelea kufikiria kuwa kiasi cha malipo ni 19,000 Sats, kwa sababu kuna UTXO 2 katika matokeo, angalau moja ikiwa ni kubwa kuliko 6,000 Sats (hakuna sababu ya kimantiki kutumia UTXOs 2 kulipa 6,000 Sats kwa malipo haya ya kutosha).
 
-![BTC204](assets/fr/169.webp)
+![BTC204](assets/sw/175.webp)
 
 Lakini kwa ukweli, uchambuzi huu una kasoro. Kiasi cha malipo hakilingani na matokeo yoyote. Kwa kweli ni tofauti kati ya UTXO ya mpokeaji katika pato na UTXO ya mpokeaji katika ingizo.
 
-![BTC204](assets/fr/170.webp)
+![BTC204](assets/sw/176.webp)
 
 Katika suala hili, muamala wa PayJoin unaangukia katika uwanja wa steganografia. Huruhusu kiasi halisi cha muamala kufichwa ndani ya muamala bandia unaofanya kazi kama udanganyifu.
 
@@ -2534,12 +2534,12 @@ Mfano unaweza kuchorwa kati ya kriptografia na CoinJoin (kuunga sarafu), na kati
 
 Wallet maarufu zinazotumia PayJoin ni pamoja na Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet, na JoinMarket, pamoja na wachakataji malipo wa BTC.
 
-![BTC204](assets/fr/171.webp)
+![BTC204](assets/sw/177.webp)
 
 Utekelezaji wa hali ya juu zaidi wa PayJoin ulikuwa Stowaway pekee kwenye Sparrow Wallet. Hata hivyo, tangu kukamatwa kwa waanzilishi wa programu, chombo hiki sasa kinafanya kazi kwa sehemu tu. Faida ya Stowaway ni kwamba ni itifaki ya kina na rahisi kutumia, ambayo inasaidia kupokea na kutuma viungo vya malipo. Miamala iliyotiwa sahihi kiasi inaweza kubadilishwa na mtumiaji mwenyewe kwa kuchanganua misimbo kadhaa ya QR, au kiotomatiki kupitia Tor kwa kutumia Soroban. Chaguo la mwisho la mawasiliano halitumiki kwa sasa.
 
 
-![BTC204](assets/fr/172.webp)
+![BTC204](assets/sw/178.webp)
 
 Ugumu wa kutumia PayJoin unatokana na utegemezi wake juu ya ushiriki wa mfanyabiashara. Kama mteja, huwezi kutumia PayJoin ikiwa mfanyabiashara haauni. Hii inaongeza ugumu zaidi kwa mchakato wa ununuzi: sio tu ni vigumu kupata wafanyabiashara wanaokubali Bitcoin, lakini ikiwa pia unatafuta wale wanaounga mkono PayJoin, inakuwa ngumu zaidi.
 
@@ -2566,7 +2566,7 @@ Kwa hivyo, kuna majukumu 2 tu katika muamala wa **Stonewall**:
 
 Hebu tuchukue mfano ili kuelewa muundo huu wa muamala.Alice anamwendea Bob mwokaji ili kununua baguette yake, ambayo inagharimu 4,000 Sats. Anataka kulipa kwa bitcoins, huku akidumisha aina fulani ya usiri kuhusu malipo yake. Kwa hivyo anaamua kujenga muamala wa Stonewall kwa malipo hayo.
 
-![BTC204](assets/fr/173.webp)
+![BTC204](assets/sw/179.webp)
 
 Kwa kuchanganua muamala huu, tunaweza kuona kwamba Bob mwokaji alipokea 4,000 Sats kama malipo ya baguette. Alice alitumia UTXO 2 kama pembejeo: moja ya 10,000 Sats na nyingine ya 15,000 Sats. Katika matokeo, amepata UTXO 3: moja ya 4,000 Sats, moja ya 6,000 Sats na moja ya 11,000 Sats. Kwa hiyo Alice ana salio la jumla la -4,000 Sats kwenye muamala huu, ambayo inalingana na bei ya baguette.
 
@@ -2578,15 +2578,15 @@ Muundo wa Stonewall huongeza kiasi kikubwa cha entropy kwenye muamala, ikitia uk
 
 Hebu tuchukue mfano wa Alice kwa Bob mwokaji. Muamala kwenye Blockchain ungeonekana kama hii:
 
-![BTC204](assets/fr/174.webp)
+![BTC204](assets/sw/180.webp)
 
 Mtazamaji wa nje anayetegemea Legacy ya uchanganuzi ya mnyororo wa kawaida anaweza kuhitimisha kimakosa kwamba "watu wawili wametengeneza kuunga sarafu ndogo, na UTXO moja kila mmoja katika pembejeo na UTXO mbili kila mmoja katika toleo". Kuchanganua muamala huu kutoka nje hakuleti matumizi ya CIOH, kwani kuwepo kwa matokeo mawili ya kiasi sawa kunapendekeza muundo wa kuunga sarafu. Kwa mtazamo wa nje, CIOH haitumiki katika kesi hii maalum.
 
-![BTC204](assets/fr/175.webp)
+![BTC204](assets/sw/181.webp)
 
 Ufafanuzi huu si sahihi, kwa sababu, kama unavyojua, UTXO moja ilitumwa kwa Bob mwokaji, pembejeo 2 za UTXO zilitoka kwa Alice, na akapata matokeo 3 ya Ubadilishanaji.
 
-![BTC204](assets/fr/176.webp)
+![BTC204](assets/sw/182.webp)
 
 Na kinachovutia hasa kuhusu muundo wa muamala wa Stonewall ni kwamba, kwa mtazamo wa mwangalizi wa nje, inafanana na muamala wa Stonewall x2 kwa kila njia.
 
@@ -2604,7 +2604,7 @@ Kwa hivyo, majukumu matatu tofauti yanafafanuliwa katika miamala ya Stonewall x2
   
 Hebu turejee kwenye mfano wetu na Alice, ambaye yuko kwa Bob mwokaji kununua baguette yake, ambayo inagharimu 4,000 Sats. Anataka kulipa kwa bitcoins, huku akidumisha kiwango fulani cha usiri kuhusu malipo yake. Kwa hivyo anamwita rafiki yake Charles, ambaye atamsaidia katika mchakato huu.
 
-![BTC204](assets/fr/177.webp)
+![BTC204](assets/sw/183.webp)
 
 Kuchanganua muamala huu, tunaweza kuona kwamba Bob mwokaji alipokea 4,000 Sats kama malipo ya baguette. Alice alitumia 10,000 Sats katika pembejeo na kurejesha 6,000 Sats katika pato, yaani salio halisi la -4,000 Sats, ambalo linalingana na bei ya baguette. Kuhusu Charles, alitoa 15,000 Sats katika pembejeo na akapokea matokeo mawili: moja ya 4,000 Sats na nyingine ya 11,000 Sats, ikitoa salio la 0.
 
@@ -2616,15 +2616,15 @@ Kama muundo wa Stonewall, muundo wa Stonewall x2 huongeza entropy nyingi kwenye 
 
 Hebu tuchukue mfano wa Alice, Bob mwokaji, na Charles. Muamala kwenye Blockchain ungeonekana kama ifuatavyo:
 
-![BTC204](assets/fr/178.webp)
+![BTC204](assets/sw/184.webp)
 
 Mtazamaji wa nje anayetumia heuristic ya kawaida ya uchanganuzi wa mnyororo anaweza kuhitimisha kimakosa kwamba "Alice na Charles wamefanya mini-CoinJoin, na UTXO moja kila mmoja katika pembejeo na UTXO mbili kila mmoja katika matokeo." Tena, kuchambua muamala huu kutoka nje hakuonyeshi matumizi ya CIOH, kwani kuwepo kwa matokeo mawili ya kiasi sawa kunaashiria muundo wa CoinJoin. Kwa mtazamo wa nje, CIOH haitumiki katika kesi hii maalum.
 
-![BTC204](assets/fr/179.webp)
+![BTC204](assets/sw/185.webp)
 
 Ufafanuzi huu si sahihi, kwa sababu, kama unavyojua, UTXO moja imetumwa kwa Bob mwokaji, Alice ana pato moja tu la exchange, na Charles ana matokeo mawili.
 
-![BTC204](assets/fr/180.webp)
+![BTC204](assets/sw/186.webp)
 
 Na kwa mara nyingine tena, kinachovutia hasa kuhusu muundo wa muamala wa Stonewall x2 ni kwamba, kwa mtazamo wa mwangalizi wa nje, unafanana na ule wa muamala wa Stonewall kwa kila njia.
 
@@ -2632,11 +2632,11 @@ Na kwa mara nyingine tena, kinachovutia hasa kuhusu muundo wa muamala wa Stonewa
 
 Muamala wa StonewallX2 hufanya kazi sawasawa na muamala wa Stonewall, isipokuwa ule wa kwanza unaoshirikiana, ilhali ule wa mwisho haufanyi kazi. Kama tulivyoona, muamala wa Stonewall x2 unahusisha ushiriki wa mtu wa tatu (Charles), ambaye yuko nje ya malipo, na ambaye atafanya bitcoins zake zipatikane ili kuimarisha usiri wa shughuli hiyo. Katika shughuli ya kawaida ya Stonewall, jukumu la mshirika linachukuliwa na mtumaji.
 
-![BTC204](assets/fr/181.webp)
+![BTC204](assets/sw/187.webp)
 
 Kwa mtazamo wa nje, muundo wa shughuli ni sawa kabisa.
 
-![BTC204](assets/fr/182.webp)
+![BTC204](assets/sw/188.webp)
 
 Ukweli kwamba miundo hii miwili ya miamala inashiriki muundo sawa unamaanisha kuwa, hata kama mwangalizi wa nje ataweza kutambua muundo wa "Stonewall x2", hatakuwa na maelezo yote. Hataweza kubainisha ni ipi kati ya UTXO mbili za kiasi sawa inalingana na malipo. Zaidi ya hayo, hataweza kubaini kama UTXO mbili za pembejeo zinatoka kwa watu wawili tofauti (Stonewall x2) au kama ni za mtu mmoja aliyezichanganya (Stonewall).
 
@@ -2655,7 +2655,7 @@ Mantiki inapaswa kuwa kama ifuatavyo unapotaka kutumia zana ya usiri kwa gharama
 
 Miamala ya Stonewall na Stonewall x2 inapatikana kwenye programu ya Samourai Wallet na programu ya Sparrow Wallet.
 
-![BTC204](assets/fr/183.webp)
+![BTC204](assets/sw/189.webp)
 
 Hata hivyo, kama ilivyo kwa viungo vya malipo, kufuatia kukamatwa kwa waanzilishi wa Samourai, miamala ya Stonewall x2 sasa inafanya kazi tu kupitia kubadilishana PSBT kati ya pande zinazohusika. Kwa bahati mbaya, ubadilishanaji wa kiotomatiki kupitia Soroban haupatikani tena.
 
@@ -2673,11 +2673,11 @@ Utumiaji wa miundo ya miamala ya Bitcoin ambayo huongeza utata katika uchanganuz
 
 Kulingana na jinsi unavyokusudia kutumia sehemu yako baada ya mizunguko ya kuunganisha sarafu, ukweli kwamba umepitia mchakato huu unaweza kuwa tatizo. Kwa mfano, ikiwa unapanga kuuza sarafu zako kwenye jukwaa lililodhibitiwa la ubadilishanaji, lakini zimepitia hivi karibuni mchakato wa kuunganisha sarafu, zana za uchambuzi wa mnyororo zinazotumiwa na jukwaa hilo zinaweza kugundua jambo hilo. Huenda jukwaa likakataa kukubali UTXO yako iliyounganishwa, au hata likadai utoe maelezo ya ziada, huku ukikabiliwa na hatari ya akaunti yako kusimamishwa au fedha zako kufungiwa. Katika baadhi ya hali, mfumo unaweza pia kuripoti tabia yako kwa mamlaka za serikali (hii ndiyo, kwa mfano, inayotakiwa na TRACFIN kwa PSAN nchini Ufaransa).
 
-![BTC204](assets/fr/184.webp)
+![BTC204](assets/sw/190.webp)
 
 Tunachohitaji ili kuepuka hili ni zana inayoweza kuficha athari za awali za sarafu ya Bitcoin, ili kurejesha kiwango fulani cha kutotambulika. Haya ndiyo hasa madhumuni ya ricochet.
 
-![BTC204](assets/fr/185.webp)
+![BTC204](assets/sw/191.webp)
 
 ### Ricochet ni nini?
 
@@ -2685,21 +2685,21 @@ Ricochet ni mbinu inayojumuisha kufanya miamala kadhaa ya uwongo kuelekea kwa mw
 
 Ili kupunguza athari iliyoachwa na tukio la zamani kwenye sarafu, kama vile mizunguko ya CoinJoin, Ricochet hutekeleza miamala minne mfululizo ambapo mtumiaji huhamisha fedha kwake mwenyewe kupitia Address tofauti.
 
-![BTC204](assets/fr/186.webp)
+![BTC204](assets/sw/192.webp)
 
 Baada ya mlolongo huu wa miamala, zana ya Ricochet hatimaye hupeleka bitcoins kwenye sehemu ya mwisho, kama vile jukwaa la exchange.
 
-![BTC204](assets/fr/187.webp)
+![BTC204](assets/sw/193.webp)
 
 Lengo ni kuunda umbali unaotenganisha sarafu na matukio yaliyopita, kama vile CoinJoin, na tukio la mwisho la matumizi, ambalo lingeweza kukataa sarafu hiyo kutokana na historia yake. Kwa hivyo, zana za chain analysis zinaweza kuhitimisha kuwa kuna uwezekano kulikuwa na mabadiliko ya Umiliki baada ya tukio hilo, na hivyo kuchukulia sarafu hii kuwa safi. Katika hali ya CoinJoin, zana za uchanganuzi wa Blockchain zinaweza kudhani kuwa si mtu yule yule aliyetuma bitcoins na kutekeleza CoinJoin, na kwa hivyo, hakuna msingi wa kuchukua hatua dhidi ya mtumaji.
 
-![BTC204](assets/fr/188.webp)
+![BTC204](assets/sw/194.webp)
 
 ### Kwa nini inafanya kazi?
 
 Inapokabiliwa na njia hii ya ricochet, mtu anaweza kufikiria kuwa programu ya chain analysis (uchambuzi wa mnyororo) ingeongeza ufuatiliaji wake zaidi ya miruko minne. Hata hivyo, mifumo hii inakabiliwa na changamoto katika kuboresha kiwango cha ugunduzi. Wanapaswa kuweka kikomo cha miruko ambapo, baada ya hapo, wanakubali kwamba mabadiliko ya Umiliki huenda yalifanyika, na kwamba kiungo kilicho na tukio la awali (kama vile CoinJoin) kinapaswa kupuuzwa.
 
-![BTC204](assets/fr/189.webp)
+![BTC204](assets/sw/195.webp)
 
 Hata hivyo, kuweka kizingiti hiki ni hatari: kila nyongeza katika idadi ya miruko inayozingatiwa huongeza kwa kasi uwezekano wa chanya za uwongo—yaani, watu waliotiwa alama kimakosa kuwa washiriki katika tukio, ilhali muamala ulifanywa na mtu mwingine. Hali hii huleta hatari kwa kampuni hizi, kwani chanya za uwongo husababisha kutoridhika, na kupelekea wateja kuhama kwenda kwa washindani. Kwa muda mrefu, kiwango cha juu cha ugunduzi huweza kusababisha jukwaa kupoteza wateja zaidi kuliko washindani wake, jambo linaloweza kuhatarisha uaminifu wake. Kwa hiyo, ni vigumu kwa majukwaa haya kuongeza idadi ya miruko inayozingatiwa—na mara nyingi, 4 huwa idadi ya juu ya kufuatilia katika uchambuzi wao.
 
@@ -2717,18 +2717,18 @@ Njia hii ni muhimu si tu kwa CoinJoin, bali pia kwa alama nyingine yoyote ya kih
 
 Wazo la mbinu hii ya ricochet lilianzia kwa timu ya Samourai Wallet, waliyoijumuisha kwenye programu yao ili itekelezwe kiotomatiki. Huduma hii si bure kwenye Samourai, kwani ricochet inahusisha ada ya huduma ya 100,000 Sats, pamoja na gharama za mining (uchimbaji). Kwa hiyo, matumizi yake yanapendekezwa zaidi kwa miamala ya kiasi kikubwa.
 
-![BTC204](assets/fr/190.webp)
+![BTC204](assets/sw/196.webp)
 
 Programu ya Samourai Wallet inatoa matoleo mawili ya ricochet:
 
 
 - Ricochet iliyoimarishwa, au *"fast delivery"*, hutoa faida ya kusambaza malipo ya huduma ya Samourai kupitia muamala tano zinazofuatana. Chaguo hili pia huhakikisha kuwa kila muamala unatangazwa kwa wakati tofauti na kurekodiwa katika block tofauti, ikiiga kwa karibu iwezekanavyo tabia ya mmiliki kubadilika. Ingawa ni polepole, njia hii ni bora kwa wale wasio na haraka, kwani huongeza ufanisi wa Ricochet kwa kuimarisha upinzani wake dhidi ya Chain analysis (uchambuzi wa mnyororo);
-![BTC204](assets/fr/191.webp)
+![BTC204](assets/sw/197.webp)
 
 
 - Ricochet ya kawaida, ambayo imeundwa kutekeleza operesheni kwa kasi, hutangaza muamala wote kwa muda uliopunguzwa. Njia hii, kwa hiyo, inatoa usiri mdogo na upinzani mdogo kwa uchambuzi kuliko njia iliyoimarishwa. Inapaswa kutumika tu kwa usafirishaji wa haraka.
 
-![BTC204](assets/fr/192.webp)
+![BTC204](assets/sw/198.webp)
 
 Ricocheting ina maana ya kutuma bitcoins kwako mwenyewe. Inawezekana kabisa kuweka bitcoins kwa mikono kwenye programu yoyote ya wallet, bila kutumia zana maalum. Unachohitajika kufanya ni kuhamisha sarafu sawa kwako mwenyewe, kwa kutumia mpya, tupu ya Anwani (address) kila wakati.
 
@@ -2745,16 +2745,16 @@ Mbinu nyingine ya usiri ya Bitcoin ni uhamisho wa siri wa Umiliki. Njia hii inal
 Exchange
 
 Coinwap inategemea dhana rahisi: hutumia mikataba mahiri kuwezesha uhamishaji wa Umiliki wa Bitcoin kati ya watumiaji wawili, bila hitaji la uaminifu na bila uhamishaji huu kuonekana wazi kwenye Blockchain.
-![BTC204](assets/fr/193.webp)
+![BTC204](assets/sw/199.webp)
 
 Wacha tufikirie mfano wa kufikirika na Alice na Bob. Alice anashikilia BTC 1 iliyolindwa kwa ufunguo wa faragha $A$, na Bob pia anashikilia BTC 1 iliyolindwa kwa ufunguo wa faragha $B$. Kinadharia, wangeweza kubadilishana funguo zao za kibinafsi kupitia njia ya mawasiliano ya nje ili kutekeleza uhamishaji wa siri.
-![BTC204](assets/fr/194.webp)
+![BTC204](assets/sw/200.webp)
 
 Walakini, njia hii ya kufikirika inatoa hatari kubwa katika suala la uaminifu. Hakuna cha kumzuia Alice kuweka nakala ya ufunguo wa faragha wa \$A\$ baada ya exchange na kuitumia baadaye kuiba bitcoins, mara ufunguo ukiwa mikononi mwa Bob.
-![BTC204](assets/fr/195.webp)
+![BTC204](assets/sw/201.webp)
 
 Zaidi ya hayo, hakuna hakikisho kwamba Alice hatapokea ufunguo wa faragha wa Bob \$B\$ na hatawahi kupitisha ufunguo wake wa faragha \$A\$ katika exchange. Kwa hivyo exchange huu unategemea kuaminiana kupita kiasi kati ya wahusika, na haina ufanisi katika kuhakikisha uhamishaji wa siri wa Umiliki.
-![BTC204](assets/fr/196.webp)
+![BTC204](assets/sw/202.webp)
 
 Ili kutatua matatizo haya na kuwezesha exchange kati ya wahusika ambao hawaaminiani, tutatumia mifumo ya *smart contract* badala yake. *Smart contract* ni programu ambayo hutekeleza kiotomatiki masharti yaliyoainishwa awali yanapofikiwa. Kwa upande wetu, hii inahakikisha kwamba exchange wa mali unafanyika moja kwa moja, bila ya haja ya uaminifu wa pande zote.
 Hili linaweza kufikiwa kwa kutumia HTLC (*Hashed Time-Locked Contracts*) au PTLC (*Point Time-Locked Contracts*). Itifaki hizi mbili hufanya kazi kwa njia sawa, kwa kutumia mfumo wa kufunga muda ambao huhakikisha kwamba exchange unakamilika kwa mafanikio au kughairiwa kabisa, hivyo basi kulinda uadilifu wa fedha za pande zote mbili. Tofauti kuu kati ya HTLC na PTLC ni kwamba HTLC hutumia *hash* na picha za awali ili kulinda muamala, huku PTLC inatumia Sahihi za Adapta.
@@ -2819,11 +2819,11 @@ Kumbuka kuwa exchange ya sarafu ilipendekezwa kwanza na [Gregory Maxwell mnamo O
 
 Kwa njia sawa ya exchange ya sarafu, na kwa kutumia aina sawa za *smart contract*, inawezekana pia kufanya exchange ya atomiki. Kubadilishana kwa atomiki huwezesha exchange ya moja kwa moja ya sarafu tofauti za siri, kama vile BTC na XMR, kati ya watumiaji wawili bila hitaji la uaminifu au kuingilia kati kwa mpatanishi. Exchange huu unaitwa "atomiki" kwa sababu una matokeo mawili tu yanayowezekana: ama exchange umefaulu na pande zote mbili zimeridhika, au unashindikana na kila mmoja kubaki na sarafu yake ya siri, hivyo basi kuondoa hitaji la kumwamini mhusika mwingine.
 
-![BTC204](assets/fr/197.webp)
+![BTC204](assets/sw/203.webp)
 
 Exchange ya atomiki na exchange ya sarafu hushiriki mbinu sawa ya uendeshaji na hutoa faida na hasara sawa katika suala la usiri. Hakika, kwa mtazamo wa Bitcoin, exchange ya atomiki inalinganishwa na exchange ya sarafu inayofanywa katika hatua mbili. Kwanza, tunabadilishana BTC yetu kwa cryptocurrency nyingine, kisha cryptocurrency hii inaweza kubadilishwa kwa BTC nyingine. Mwishowe, tunapata BTC ya mtumiaji mwingine. Hii ndiyo sababu, katika uchanganuzi wa masuala ya usiri, ninaweka itifaki hizi mbili chini ya kitengo cha exchange ya siri za umiliki.
 
-![BTC204](assets/fr/198.webp)
+![BTC204](assets/sw/204.webp)
 
 Jihadharini, hata hivyo, kwamba tofauti na exchange ya sarafu, exchange ya atomiki inaweza kuwa na changamoto katika suala la ukwasi unaopatikana, haswa katika exchange ya BTC/XMR. Kwa ujumla ni rahisi kubadilisha bitcoins kwa altcoins, kwa kuwa kuna mahitaji makubwa ya bitcoins, ambayo huweka malipo ya chini kwa mwelekeo huu wa exchange. Hata hivyo, kubadilisha altcoins kwa BTC kunaweza kuwa kugumu zaidi kutokana na mahitaji ya chini, jambo ambalo mara nyingi husababisha malipo ya juu sana.
 
@@ -2835,17 +2835,17 @@ Uhamisho wa siri wa umiliki, kama vile exchange ya sarafu na exchange ya atomiki
 
 Hakika, wakati Alice anafanya exchange ya sarafu au exchange ya atomiki na Bob, anabadilishana umiliki wa bitcoins zake na zile za Bob. Katika kesi ya exchange ya atomiki, exchange unajumuisha altcoin, lakini kanuni inabakia sawa. Kwa hivyo, Alice anaishia na sarafu ya \$B\$ na Bob na sarafu ya \$A\$. Hii inaongeza shaka kwa *Chainalysis* (uchambuzi wa mnyororo), lakini historia ya sarafu inabakia kufuatiliwa. Mchambuzi akichunguza sehemu ya \$A\$, anaweza kufuatilia shughuli za awali za Alice, na kinyume chake kwa sehemu ya \$B\$.
 
-![BTC204](assets/fr/199.webp)
+![BTC204](assets/sw/205.webp)
 
 Kwa mtazamo wa Alice, hatari ni kwamba historia ya sarafu ya \$B\$ inaweza kuchukuliwa kuwa ya kutiliwa shaka na vyombo fulani. Kama, kwa mfano, Bob angepata sarafu ya \$B\$ kupitia kitendo cha uhalifu kama vile udukuzi, sarafu hiyo ingesalia ikihusishwa na shughuli zake zisizo halali. Alice basi angeweza kujikuta akimiliki sarafu ambayo hangeweza kuhamisha kwenye majukwaa yanayodhibitiwa ya exchange bila kuhatarisha pesa zake kugandishwa, au hata kushutumiwa kwa uhalifu wa Bob, ingawa hakuwa na uhusiano wowote naye.
 
-![BTC204](assets/fr/200.webp)
+![BTC204](assets/sw/206.webp)
 
 Bila shaka, mbinu za usiri kama vile exchange ya sarafu au exchange ya atomiki hupendelewa na wahalifu ambao fedha zao ziko chini ya uangalizi wa mamlaka. Itifaki hizi huwawezesha kutupa bitcoins zao chini ya uangalizi katika exchange kwa bitcoins zinazoweza kuvuliwa kikamilifu. Pia huwawezesha kuunda exchange, kwa kuelekeza mamlaka kwa watumiaji wengine. Kwa hivyo kuna kusudi maradufu kwa watu hawa.
 
 Ukiwa na CoinJoin, hata kama sarafu yako imechanganywa na bitcoins zinazofuatiliwa, historia ya sarafu imevunjwa, ikitoa aina fulani ya ukataji unaokubalika ambao haupo katika itifaki za siri za Umiliki kama vile exchange ya sarafu au exchange ya atomiki.
 
-![BTC204](assets/fr/201.webp)
+![BTC204](assets/sw/207.webp)
 
 Iwapo Alice angependa kuepuka hatari yoyote, lazima atumie mbinu za kuvunja historia ya sarafu ya \$B\$, kama vile kuipitisha kwenye CoinJoin. Hii inaleta swali kuhusu manufaa ya kuchanganya uhamisho wa siri wa Umiliki na CoinJoin. CoinJoin, kwa kuvunja historia ya sarafu, tayari hutoa kiwango cha kutosha cha usiri kwa Alice. Kwa hivyo, maoni yangu ni kwamba ikiwa Alice anatafuta kulinda faragha yake, itakuwa busara kuendelea moja kwa moja kwenye CoinJoin badala ya kushiriki exchange ya sarafu inayofuata CoinJoin.
 
@@ -2868,33 +2868,33 @@ Uhusiano huu kati ya muamala kwenye Bitcoin na IP address ya  inawakilisha hatar
 
 Katika operesheni ya kawaida ya Bitcoin, miamala iliyojengwa na mtumiaji kwenye programu yake ya wallet hupitishwa kwenye node yake ya kibinafsi. Node hii itatangaza mara moja muamala mpya kwa wenzao wote ambao umeunganishwa.
 
-![BTC204](assets/fr/202.webp)
+![BTC204](assets/sw/208.webp)
 
 Wenzake hawa kisha wakague muamala ili kuhakikisha kuwa unatii makubaliano na sheria za usanifishaji wa ndani. Baada ya kuthibitishwa, kila rika kwa upande wake hupeleka miamala hiyo kwa wenzake, na kadhalika.
 
-![BTC204](assets/fr/203.webp)
+![BTC204](assets/sw/209.webp)
 
 Usambazaji huu wa miamala unaosubiri kuunganishwa kwenye block una usawa na unaweza kutabirika kitakwimu. Udhaifu huu unaweza kutumiwa na node za kijasusi za pamoja, ambazo hushirikiana kufuatilia na kuchambua mtandao, ili kutambua node ya kwanza ya kutangaza miamala. Mtazamaji akifaulu kupata node ya chanzo, anaweza kudhani kuwa miamala hiyo ilitokana na opereta wa node hiyo. Uchunguzi wa aina hii unaweza kutumika kuunganisha miamala isiyojulikana kwa  address maalum za IP.
 
-![BTC204](assets/fr/204.webp)
+![BTC204](assets/sw/210.webp)
 
 Lengo la BIP156 ni kuelezea tatizo hili. Ili kufanya hivyo, inatanguliza awamu ya ziada katika uenezaji wa muamala mpya ili kuhifadhi kutokujulikana kabla ya uenezaji mpana wa umma. Dandelion kwanza hutumia awamu ya "shina" ambapo shughuli hutumwa kupitia njia ya nasibu ya node.
 
-![BTC204](assets/fr/205.webp)
+![BTC204](assets/sw/211.webp)
 
 Muamala hutangazwa kwa mtandao mzima katika awamu ya "Fluff".
 
-![BTC204](assets/fr/206.webp)
+![BTC204](assets/sw/212.webp)
 
 Shina na awamu ya "Fluff" ni marejeleo ya tabia ya usambazaji wa muamala katika mtandao, ambayo inafanana na umbo na mabadiliko ya mmea wa "Dandelion" kwa Kiingereza.
 
 Hivyo, node za upelelezi zinaweza kufuatilia muamala hadi kwa node iliyoanzisha awamu ya "Fluff" (usambazaji mkubwa), lakini node hiyo si ile iliyotangaza muamala kwanza, kwani ilipokea kutoka kwa nodi ya mwisho ya shina. Ikiwa nodi za upelelezi haziwezi kufuatilia shina, basi haziwezi pia kutambua node chanzo.
 
-![BTC204](assets/fr/207.webp)
+![BTC204](assets/sw/213.webp)
 
 Hata mbele ya node za kijasusi wakati wa awamu ya shina, shaka hubakia kila wakati, kwa sababu mara tu wanapokutana na nodi ya uaminifu kwenye grafu ya uenezi, wapelelezi hawawezi kuamua ikiwa nodi hii ndiyo chanzo asili au mpatanishi tu.
 
-![BTC204](assets/fr/208.webp)
+![BTC204](assets/sw/214.webp)
 
 Mbinu hii ya uelekezaji hutia ukungu njia inayorudi kwenye node ya chanzo, na hivyo kufanya kuwa vigumu kufuatilia muamala kupitia mtandao hadi asili yake. Dandelion kwa hivyo huboresha usiri kwa kupunguza uwezo wa wapinzani kufuta utambulisho wa mtandao. Njia hii ni nzuri zaidi wakati, wakati wa awamu ya "shina", muamala unavuka node ambayo husimba mawasiliano yake ya mtandao, kama Tor au P2P Transport V2.
 
@@ -2916,7 +2916,7 @@ Usafiri wa P2P V2 ulijumuishwa kama chaguo (lililazimishwa kwa chaguomsingi) kat
 Suluhisho lingine rahisi la kuzuia hatari ya kupoteza usiri kwa node ya mtandao ni kuiendesha kabisa chini ya Tor.
 
 Tor ni mtandao wa seva za upeanaji (node) ambazo huficha utambulisho wa asili ya miunganisho ya TCP kwenye mtandao. Inafanya kazi kwa kuingiza data katika tabaka kadhaa za usimbaji fiche. Kila node ya relay huondoa safu ili kufichua Anwani (address) ya node inayofuata, hadi mahali pa mwisho kufikiwa. Mtandao wa Tor huhakikisha kutokujulikana kwa kuzuia node za kati zisijue asili na lengwa la data, hivyo kufanya iwe vigumu sana kwa mtazamaji kufuatilia miamala za mtumiaji.
-![BTC204](assets/fr/209.webp)
+![BTC204](assets/sw/215.webp)
 
 Tor sio tu husimba data, bali pia huficha asili na marudio ya mawasiliano. Kwa kutumia Tor kwa mawasiliano kutoka kwa node yako ya kibinafsi, unaimarisha usiri wa muamala wako: ISP yako haiwezi kusimbua mawasiliano, na node nyingine katika mtandao wa Bitcoin haziwezi kutambua Anwani (address) ya IP ya node chanzo. Zaidi ya hayo, Tor pia huficha matumizi yako ya Bitcoin kutoka kwa ISP yako.
 
@@ -2932,11 +2932,11 @@ Baada ya kuchunguza mbinu mbalimbali za usiri katika kiwango cha mtandao, katika
 
 Kama tulivyoona katika Sehemu ya 3, kutumia tena Anwani (address) ni kikwazo kikubwa kwa usiri wa mtumiaji kwenye itifaki ya Bitcoin. Ili kupunguza hatari hizi, inashauriwa kuzalisha Anwani (address) mpya bila malipo kwa kila malipo jipya yanayopokelewa katika wallet. Ingawa kutengeneza Anwani (address) mpya sasa kumerahisishwa na matumizi ya programu za kisasa na wallets za kiwango cha juu, zoezi hili linaweza kuonekana kuwa lisilofaa.
 
-![BTC204](assets/fr/210.webp)
+![BTC204](assets/sw/216.webp)
 
 Katika mfumo wa benki wa kitamaduni, kwa mfano, tumezoea kugawana IBAN yetu, ambayo inabaki kuwa sawa. Mara tu tunapompa mtu, anaweza kututumia malipo mengi bila kuwasiliana nasi tena. Neo-benki pia hutoa uwezekano wa kisasa zaidi, kama vile matumizi ya barua pepe za kipekee kwenye PayPal au RevTags kwenye Revolut. Hata nje ya nyanja ya kifedha, vitambulishi vyetu vya kila siku kama vile Anwani (address) ya posta, nambari ya simu, na Anwani (address) ya barua pepe pia ni vya kipekee na vya kudumu. Si lazima tuyasasishe kwa kila mwingiliano mpya.
 
-![BTC204](assets/fr/211.webp)
+![BTC204](assets/sw/217.webp)
 
 Hata hivyo, Bitcoin inafanya kazi tofauti: Anwani (address) mpya inayopokea lazima itolewe kwa kila shughuli inayoingia. Maelewano haya kati ya urahisi wa utumiaji na usiri unarejea kwenye chimbuko la Karatasi Nyeupe ya Bitcoin. Mara tu baada ya kuchapishwa kwa toleo la kwanza la hati yake mwishoni mwa 2008, Satoshi Nakamoto alikuwa tayari inatutahadharisha juu ya hatari hii:
 
@@ -2944,7 +2944,7 @@ Hata hivyo, Bitcoin inafanya kazi tofauti: Anwani (address) mpya inayopokea lazi
 
 Kuna njia nyingi za kupokea malipo mengi kwenye kitambulisho kimoja bila kutumia Anwani (address) tena. Kila moja ina faida na hasara zake. Miongoni mwa mbinu hizi ni BIP47, pendekezo lililotayarishwa na Justus Ranvier na kuchapishwa mwaka wa 2015. Pendekezo hili linalenga kuunda misimbo ya malipo inayoweza kutumika tena inayowezesha miamala mingi kutekelezwa dhidi ya mtu yuleyule, huku ikiepuka kutumia tena Address. Kwa kifupi, BIP47 inalenga kutoa mfumo wa malipo kuwa rahisi kama kitambulisho cha kipekee, huku ikihifadhi usiri wa miamala.
 
-![BTC204](assets/fr/212.webp)
+![BTC204](assets/sw/218.webp)
 
 BIP47 haiboresha usiri wa mtumiaji moja kwa moja, kwani malipo ya BIP47 hutoa kiwango sawa cha usiri kama muamala wa kawaida wa Bitcoin kwa kutumia Anwani (address) tupu. Hata hivyo, hufanya kutumia Bitcoin kuwa rahisi zaidi na angavu, urahisi ambao kwa kawaida unaweza kuhatarisha usiri. Shukrani kwa BIP47, urahisi huu wa utumiaji unafikia kiwango sawa cha usiri kama muamala wa kawaida. Ndio maana BIP47 ni zana muhimu sana ya kuhifadhi faragha.
 
@@ -2954,7 +2954,7 @@ Hapo awali, BIP47 ilipendekezwa kuunganishwa kwenye Bitcoin Core, lakini haikuwa
 
 Lengo la BIP47 ni kufanya uwezekano wa kupokea idadi kubwa ya malipo bila kutumia tena Anwani (address). Inatokana na matumizi ya nambari ya malipo inayoweza kutumika tena, ambayo huwawezesha watoa huduma tofauti kutuma malipo kadhaa kwa msimbo mmoja wa mtumiaji mwingine. Kwa hivyo, mpokeaji si lazima atoe address mpya, tupu kwa kila shughuli, ambayo hurahisisha sana ubadilishanaji wakati wa kuhifadhi usiri.
 
-![BTC204](assets/fr/213.webp)
+![BTC204](assets/sw/219.webp)
 
 Kwa hivyo mtumiaji anaweza kushiriki msimbo wake wa malipo kwa uhuru kamili, iwe kwenye mitandao ya kijamii au kwenye tovuti yake, bila kuhatarisha upotevu wowote wa usiri, tofauti na mpokeaji wa kawaida wa address au ufunguo wa umma.
 
@@ -2964,7 +2964,7 @@ Kuchanganya misimbo ya malipo ya watumiaji hao wawili hutoa siri zilizoshirikiwa
 
 Kwa hivyo nambari ya malipo hutumika kama kitambulisho pepe kinachotokana na kwingineko ya seed (mbegu). Katika muundo wa utoto wa kidaraja cha kwingineko, msimbo wa malipo umewekwa katika kiwango cha 3, yaani katika kiwango cha akaunti.
 
-![BTC204](assets/fr/214.webp)
+![BTC204](assets/sw/220.webp)
 
 Lengwa la utoaji la BIP47 linatambuliwa na faharasa `47'` (`0x8000002F`), ikirejelea BIP47. Mfano wa njia ya kupata nambari ya malipo inayoweza kutumika tena itakuwa kama ifuatavyo:
 
@@ -2990,7 +2990,7 @@ Kuhusu PayNym Bots, roboti zinazoonekana wakati mwingine kwenye Twitter, hivi ni
 
 Avatar hizi pia zinaweza kuwakilishwa kama picha:
 
-![BTC204](assets/fr/215.webp)
+![BTC204](assets/sw/221.webp)
 
 Ingawa roboti hizi hazina utendakazi mahususi wa kiufundi ndani ya mfumo wa BIP47, zina jukumu katika kuwezesha mwingiliano wa watumiaji kwa kutoa utambulisho unaotambulika kwa urahisi.
 
@@ -3021,7 +3021,7 @@ Huu hapa ni uwakilishi wa heksadesimali wa nambari yangu ya malipo inayoweza kut
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
-![BTC204](assets/fr/216.webp)
+![BTC204](assets/sw/222.webp)
 
 Kisha,byte  ya kiambishi awali cha `P` lazima kiongezwe mwanzoni ili kuonyesha wazi kuwa hii ni msimbo wa malipo. Byte hii inawakilishwa na `0x47` :
 
@@ -3035,7 +3035,7 @@ Hatimaye, ili kuhakikisha utimilifu wa nambari ya malipo, ukokotoaji wa hundi hu
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
-![BTC204](assets/fr/217.webp)
+![BTC204](assets/sw/223.webp)
 
 Baada ya hatua hizi kukamilika, nambari ya malipo iko tayari. Kilichobaki ni kuibadilisha kuwa msingi 58 ili kupata toleo la mwisho:
 
@@ -3051,7 +3051,7 @@ m/47'/0'/0'/
 
 Kwa maneno madhubuti, kwa kuzalisha ufunguo wa umma uliobanwa na msimbo wa kamba unaohusishwa na msimbo wa malipo unaoweza kutumika tena, tunaanza kwa kukokotoa ufunguo mkuu wa faragha kutoka kwa Pochi la seed (mbegu). Kisha tunaendelea kupata jozi ya funguo za binti kwa kutumia index `47 + 2^31` (iliyoimarishwa derivation). Hii inafuatwa na vitoleo viwili zaidi mfululizo vya jozi za binti, kila moja ikitumia faharasa `2^31` (chini iliyoimarishwa).
 
-![BTC204](assets/fr/218.webp)
+![BTC204](assets/sw/224.webp)
 
 ### Kitufe cha Diffie-Hellman cha Exchange kwenye mikondo ya duaradufu (ECDH)
 
@@ -3059,11 +3059,11 @@ Itifaki ya kriptografia iliyo katikati ya BIP47 inajulikana kwa kifupi ECDH, cha
 
 Ilianzishwa mwaka wa 1976, Diffie-Hellman ni itifaki muhimu ya makubaliano ambayo huwezesha pande mbili, kila moja ikiwa na jozi muhimu (ya umma na ya kibinafsi), kukubaliana juu ya siri ya pamoja, hata wakati wa kuwasiliana tu kupitia njia ya umma, isiyo na ulinzi.
 
-![BTC204](assets/fr/219.webp)
+![BTC204](assets/sw/225.webp)
 
 Siri hii iliyoshirikiwa (katika kesi hii, ufunguo wa bluu) inaweza kutumika kwa shughuli zingine. Kwa kawaida, siri hii iliyoshirikiwa inaweza kutumika kusimba na kusimbua mawasiliano kwenye mtandao usiolindwa:
 
-![BTC204](assets/fr/220.webp)
+![BTC204](assets/sw/226.webp)
 
 Ili kufanikisha hili, Diffie-Hellman hutumia hesabu ya moduli kukokotoa siri iliyoshirikiwa. Hivi ndivyo inavyofanya kazi kwa maneno ya mtu wa kawaida:
 
@@ -3075,7 +3075,7 @@ Ili kufanikisha hili, Diffie-Hellman hutumia hesabu ya moduli kukokotoa siri ili
 - Kwa kuchanganya Kijani ya Bob na rangi yake ya siri, Alice hutoa kahawia;
 - Bob, akifanya vivyo hivyo na rangi ya chungwa na bluu ya siri ya Alice, pia anapata kahawia.
 
-![BTC204](assets/fr/221.webp)
+![BTC204](assets/sw/227.webp)
 
 Katika umaarufu huu, rangi ya kahawia inawakilisha siri iliyoshirikiwa na Alice na Bob. Hebu fikiria kwamba, kwa kweli, haiwezekani kwa mshambuliaji kutenganisha rangi ya machungwa na Kijani, ili kupata rangi za siri za Alice au Bob.
 
@@ -3170,7 +3170,7 @@ $$
 
 Shukrani kwa usambazaji wa opereta wa modulo, Alice na Bob wanapata thamani sawa kabisa \$z\$. Nambari hii inawakilisha siri yao ya pamoja, sawa na **rangi ya kahawia** katika mfano wa awali wa makopo ya rangi. Sasa wanaweza kutumia siri hii ya pamoja kusimba kwa njia fiche mawasiliano yao kwa kutumia usimbaji wa ulinganifu kupitia mtandao usiolindwa.
 
-![BTC204](assets/fr/222.webp)
+![BTC204](assets/sw/228.webp)
 
 Mshambulizi, hata akiwa na $p$, $g$, $A$ na $B$ (thamani za umma), hataweza kukokotoa $a$, $b$ au $z$ (thamani za faragha). Ili kufanikisha hili, ufafanuzi utalazimika kugeuzwa, operesheni ambayo haiwezekani bila kujaribu uwezekano wote mmoja baada ya mwingine, kwani ni sawa na kukokotoa logarithmu ya kipekee, yaani, upatanisho wa kielelezo katika kikundi cha mzunguko wa mwisho.
 
@@ -3240,7 +3240,7 @@ TLS inawajibikia `s` katika `https` na kufuli katika upau wa Address ya kivinjar
 
 Kama tulivyoona katika sehemu iliyotangulia, ECDH ni lahaja ya exchange ya Diffie-Hellman kwa kutumia jozi muhimu zilizowekwa kwenye mkunjo wa duaradufu. Ni jambo zuri kwamba tayari tuna jozi nyingi muhimu zinazoheshimu kiwango hiki katika pochi zetu za Bitcoin! Wazo la BIP47 ni kutumia jozi muhimu za pochi za Bitcoin za wahusika wote wawili ili kuanzisha siri za pamoja, za muda mfupi kati yao. BIP47 inatumia ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***) badala yake.
 
-![BTC204](assets/fr/223.webp)
+![BTC204](assets/sw/229.webp)
 
 ECDHE hutumiwa mara ya kwanza katika BIP47 kutuma msimbo wa malipo kutoka kwa mtumaji hadi kwa mpokeaji. Huu ndio shughuli maarufu ya **arifa**. Hatua hii ni muhimu, kwa sababu ili BIP47 ifanye kazi kwa ufanisi, pande zote mbili zinazohusika (mtumaji na mpokeaji) zinahitaji kujua misimbo ya malipo ya kila mmoja. Maarifa haya huwezesha kupatikana kwa funguo za muda mfupi za umma na, kwa hivyo, Anwani (address) tupu zinazohusiana na kupokea.
 
@@ -3248,7 +3248,7 @@ Kabla ya Ubadilishanaji huu, mtumaji anafahamu kimantiki msimbo wa malipo wa mpo
 
 Hii ni kwa sababu, tofauti na address za kawaida, Anwani address za BIP47 hazitolewi moja kwa moja kutoka kwa seed ya mpokeaji - kutumia `xpub` itakuwa rahisi katika kesi hii - lakini inatokana na hesabu inayochanganya misimbo miwili ya malipo: ya mtumaji na ya mpokeaji. Kwa hiyo, ikiwa mpokeaji atapoteza wallet yake na anajaribu kurejesha kutoka kwa seed yake, atapata msimbo wake wa malipo, ambao unatokana moja kwa moja na seed yake. Hata hivyo, ili kurejesha address za muda (ephemeral), atahitaji pia nambari za malipo za wale wote waliomtumia bitcoins kupitia BIP47. Kwa hivyo, umuhimu wa shughuli ya arifa, ambayo huwezesha habari hii kuhifadhiwa kwenye Bitcoin Blockchain, huku bado ikiwezekana kuipata kwa urahisi sana bila kulazimika kuchambua mamilioni ya miamala iliyotekelezwa tangu kuzinduliwa kwake mnamo 2009.
 
-![BTC204](assets/fr/224.webp)
+![BTC204](assets/sw/230.webp)
 
 Kwa hivyo itawezekana kutekeleza BIP47 bila kutumia muamala wa arifa, mradi kila mtumiaji anahifadhi nakala rudufu ya misimbo ya malipo ya wenzake. Walakini, njia hii inathibitisha kuwa ngumu kudhibiti hadi suluhisho rahisi, thabiti na la ufanisi la kutengeneza, kuhifadhi na kusasisha nakala rudufu hizi zinatengenezwa. Kwa jinsi mambo yanavyoendelea, shughuli ya arifa inakaribia kuepukika.
 
@@ -3280,7 +3280,7 @@ Ninawezaje kupitisha nambari yangu bila hatari? Kutumia njia za kawaida za mawas
 
 Katika mchoro ulio hapa chini, mistari ya rangi ya chungwa inaonyesha pointi ambapo mtiririko wa habari lazima uingizwe, na mishale nyeusi inaonyesha miunganisho inayoweza kuzingatiwa na watu wengine:
 
-![BTC204](assets/fr/225.webp)
+![BTC204](assets/sw/231.webp)
 
 Kwa kweli, katika muundo wa usiri wa jadi wa Bitcoin, mara nyingi ni vigumu kutenganisha kabisa mtiririko wa taarifa kati ya jozi muhimu na mtumiaji, hasa katika shughuli za mbali. Kwa mfano, katika muktadha wa kampeni ya michango, mpokeaji hulazimika kufichua **address** au ufunguo wa umma kupitia tovuti yake au mitandao ya kijamii. Matumizi sahihi ya BIP47, hasa kupitia shughuli ya arifa, husaidia kutatua tatizo hili kwa kutumia ECDHE na usimbaji fiche wa tabaka (*layer encryption*) — tutauangalia baadaye.
 
@@ -3353,13 +3353,13 @@ Nitafanya muhtasari wa hatua ambazo tumeona pamoja ili kutekeleza shughuli ya ar
 - Anatumia kipengele hiki cha upofu kusimba mzigo wa malipo ya msimbo wake wa malipo binafsi;
 - Inatumia `OP_RETURN` pato la malipo ili kuwasilisha msimbo wa malipo uliofichwa kwa Bob.
 
-![BTC204](assets/fr/226.webp)
+![BTC204](assets/sw/232.webp)
 
 ### Arifa ya muamala: utafiti wa vitendo
 
 Ili kuelewa jinsi inavyofanya kazi kwa undani zaidi, na hasa matumizi ya `OP_RETURN`, hebu tuangalie shughuli halisi ya arifa. Nilifanya muamala kama huo kwenye Testnet, ambayo unaweza kuipata [kwa kubofya hapa](https://Mempool.space/fr/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a463d469d7a5a39ad).
 
-![BTC204](assets/fr/227.webp)
+![BTC204](assets/sw/233.webp)
 
 Kuangalia muamala huu, tunaweza kuona tayari kuwa ina ingizo moja na matokeo 4:
 
@@ -3580,7 +3580,7 @@ $$ A = a \cdot G $$
 
 $$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
 
-![BTC204](assets/fr/228.webp)
+![BTC204](assets/sw/234.webp)
 
 Sasa kwa kuwa Bob anajua msimbo wa malipo wa Alice, ataweza kugundua malipo yake ya BIP47, na ataweza kupata funguo za faragha zitakazomwezesha kupokea bitcoins.
 
@@ -3593,7 +3593,7 @@ Nitafanya muhtasari wa hatua ambazo tumeziona kwa pamoja ili kupokea na kutafsir
 - Inatumia hatua hii ya siri kuhesabu HMAC, ambayo ni sababu ya upofu;
 -Inatumia blinding element hii ili kusimbua upakiaji wa msimbo wa malipo wa Alice ulio katika OP\_RETURN.
 
-![BTC204](assets/fr/229.webp)
+![BTC204](assets/sw/235.webp)
 
 ### Muamala wa malipo wa BIP47
 
@@ -3658,11 +3658,11 @@ Nitafanya muhtasari wa hatua ambazo tumeona pamoja hivi punde kutuma malipo ya B
 - Anapata ufunguo mpya wa umma wa muda mfupi ambao ni Bob pekee aliye na ufunguo wa faragha unaohusishwa;
 - Alice anaweza kufanya muamala wa kawaida kwa Bob kwa kutumia ephemeral kupokea address.
 
-![BTC204](assets/fr/230.webp)
+![BTC204](assets/sw/236.webp)
 
 Ikiwa Alice anataka kufanya malipo ya pili, atafuata hatua zile zile za awali, isipokuwa wakati huu atachagua ufunguo wa pili wa umma unaotokana na msimbo wa malipo wa Bob. Hasa, atatumia ufunguo unaofuata ambao haujatumiwa. Kwa hivyo atapata Anwani (address) mpya inayopokea mali ya Bob, iliyoteuliwa $K1$ :
 
-![BTC204](assets/fr/231.webp)
+![BTC204](assets/sw/237.webp)
 
 Inaweza kuendelea kwa njia hii na kupata hadi `2^32` Anwani (address) tupu za Bob.
 
@@ -3674,7 +3674,7 @@ Kutoka kwa mtazamo wa nje, ukiangalia Blockchain, haiwezekani kinadharia kutofau
 
 Inaonekana kama muamala wa kawaida wenye ingizo linalotumika, toleo la malipo, na kiwango cha Ubadilishanaji:
 
-![BTC204](assets/fr/232.webp)
+![BTC204](assets/sw/238.webp)
 
 ### Kupokea malipo ya BIP47 na kupatikana kwa ufunguo wa kibinafsi
 
@@ -3727,15 +3727,15 @@ Nitafanya muhtasari wa hatua ambazo tumeona pamoja ili kupokea malipo ya BIP47 n
 - Anaongeza hatua hii mpya ya siri kwa ufunguo wake wa faragha wa binti;
 - Anapata ufunguo mpya wa umma wa muda mfupi — ule ambao Alice atatumia kumtumia malipo yake ya kwanza;
 - Bob hukokotoa ufunguo wa faragha unaolingana na ufunguo huu wa umma wa muda mfupi kwa kuongeza ufunguo wake wa faragha wa binti unaotokana na msimbo wake wa malipo na siri iliyoshirikiwa.
-![BTC204](assets/fr/233.webp)
+![BTC204](assets/sw/239.webp)
 
 Kwa kuwa Alice hawezi kupata \$b\$ (ufunguo wa faragha wa Bob), hawezi kubainisha \$k0\$ (ufunguo wa faragha unaohusishwa na mapokezi ya Bob ya address ya BIP47). Kwa utaratibu, tunaweza kuwakilisha hesabu ya siri iliyoshirikiwa \$S\$ kama ifuatavyo:
 
-![BTC204](assets/fr/228.webp)
+![BTC204](assets/sw/240.webp)
 
 Mara tu siri iliyoshirikiwa inapopatikana kwa ECDH, Alice na Bob wanakokotoa ufunguo wa umma wa malipo wa BIP47 $K0$, na Bob pia anakokotoa ufunguo wa faragha unaohusishwa $k0$ :
 
-![BTC204](assets/fr/234.webp)
+![BTC204](assets/sw/241.webp)
 
 ### Urejeshaji wa malipo ya BIP47
 
@@ -3745,7 +3745,7 @@ Element ya kurejesha pesa ni mahususi kwa BIP47 na ni mojawapo ya faida zake dhi
 
 Kisha Bob anaweza kumlipa Alice kama vile alivyomtumia malipo. Majukumu yamebadilishwa:
 
-![BTC204](assets/fr/235.webp)
+![BTC204](assets/sw/242.webp)
 
 *Shukrani nyingi kwa [Fanis Michalakis](https://x.com/FanisMichalakis) kwa kusahihisha na ushauri wake wa kitaalamu kuhusu makala ambayo yaliongoza kuandikwa kwa sura hii!*
 
@@ -3788,7 +3788,7 @@ Hebu tuangalie utendakazi wa kiufundi wa Malipo ya Kimya ili kuelewa vyema hatar
 
 Kabla ya kuanza, ni muhimu kubainisha kuwa Malipo ya Kimya yanategemea matumizi ya aina za hati za P2TR (*Pay-to-Taproot*) pekee. Tofauti na BIP47, si lazima kupata address za kupokea kutoka kwa funguo za umma za watoto kwa hashing. Katika kiwango cha P2TR, ufunguo wa umma uliowekwa hutumiwa moja kwa moja na usio na ufiche kwenye address. Kwa hivyo, address za Taproot kimsingi ni ufunguo wa umma pamoja na metadata fulani. Ufunguo huu wa umma uliobadilishwa ni muunganisho wa funguo zingine mbili za umma: moja kuwezesha matumizi ya kawaida, ya kitamaduni kupitia sahihi rahisi, na nyingine ikiwakilisha Merkle Root ya MAST, ambayo inaidhinisha matumizi kulingana na kuridhika kwa mojawapo ya masharti yanayoweza kuandikwa katika Merkle Tree.
 
-![BTC204](assets/fr/068.webp)
+![BTC204](assets/sw/243.webp)
 
 Kuna sababu kuu mbili za uamuzi wa kuweka kikomo cha Malipo ya Kimya kwa Taproot pekee:
 
@@ -3843,7 +3843,7 @@ $$ p = (b + \maandishi{Hash}(b \cdot A)) \bmod n $$
 
 Kama unavyoona, ili kukokotoa ufunguo huu wa faragha $p$, lazima uwe na ufunguo wa faragha $b$. Bob pekee ndiye aliye na ufunguo huu wa faragha $b$. Kwa hiyo atakuwa ndiye pekee anayeweza kutumia bitcoins zilizotumwa kwa Malipo yake ya Anwani (address) ya Kimya.
 
-![BTC204](assets/fr/236.webp)
+![BTC204](assets/sw/244.webp)
 
 *Hadithi:*
 
@@ -3892,7 +3892,7 @@ $$
 p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n
 $$
 
-![BTC204](assets/fr/237.webp)
+![BTC204](assets/sw/245.webp)
 
 *Hadithi:*
 
@@ -3935,7 +3935,7 @@ $$
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
 $$
 
-![BTC204](assets/fr/238.webp)
+![BTC204](assets/sw/246.webp)
 
 *Hadithi:*
 
@@ -3963,7 +3963,7 @@ Kwa mfano, hebu tufikirie kuwa muamala wa Alice una pembejeo 3, kila moja ikiwa 
 - $a_1$ inatumika kupata pembejeo #1;
 - $a_2$ hulinda ingizo #2.
 
-![BTC204](assets/fr/239.webp)
+![BTC204](assets/sw/247.webp)
 
 Kufuatia njia iliyoelezwa hapo awali, Alice angelazimika kuchagua jozi moja ya funguo kati ya \$a\_0\$, \$a\_1\$, na \$a\_2\$ ili kukokotoa siri ya ECDH na kuzalisha malipo moja ya address \$P\$ kutoka kwa address tuli ya Bob \$B\$. Hata hivyo, mbinu hii inahitaji Bob ajaribu kila uwezekano kwa mfuatano, akianza na \$a\_0\$, kisha \$a\_1\$, na kadhalika, hadi atambue jozi inayozalisha address \$P\$ halali. Mchakato huu unamhitaji Bob kuendesha hesabu ya ECDH kwenye pembejeo zote za miamala yote, ambayo huongeza kwa kiasi kikubwa mzigo wa uendeshaji wa skanning.
 
@@ -4013,7 +4013,7 @@ Kama unavyoona, hadi sasa Bob hajahitaji kutumia \$b\_{\text{spend}}\$, ambayo i
 
 $p_0 = (b_{\text{spend}} + \text{Hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n$
 
-![BTC204](assets/fr/240.webp)
+![BTC204](assets/sw/248.webp)
 
 *Hadithi:*
 
@@ -4074,7 +4074,7 @@ $$ B_1 = B_{\text{spend}} + \text{Hash}(b_{\text{scan}} \text{ ‖ } 1) \cdot G 
 Shukrani kwa mbinu hii, Bob anaweza kutumia wingi wa address tuli (\$B\_1\$, \$B\_2\$, \$B\_3\$...), zote zimetokana na address yake ya msingi (\$B = B\_{\text{scan}} \text{ ‖ } B\_{\text{spend}}\$), ili kutenga matumizi tofauti.
 
 Tafadhali kumbuka, hata hivyo, kwamba utengano huu wa address tuli ni halali tu kutoka kwa mtazamo wa usimamizi wa kwingineko ya kibinafsi, lakini hautenganishi vitambulisho. Kwa kuwa zote zina \$B\_{\text{scan}}\$ sawa, ni rahisi sana kuhusisha address zote pamoja na kubaini kuwa zinamilikiwa na huluki moja.
-![BTC204](assets/fr/241.webp)
+![BTC204](assets/sw/249.webp)
 
 *Hadithi:*
 

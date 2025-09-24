@@ -105,7 +105,7 @@ Kanał płatności pozwala dwóm stronom, nazwanym tutaj **Alicja** i **Bob**, n
 W naszym przykładzie Alicja ma 100 000 satów po swojej stronie kanału, a Bob ma 30 000 satów, co daje łącznie 130 000 satów, co stanowi **przepustowość kanału**.
 
 
-**Ale czym jest Sat?
+**Ale czym jest Sat?**
 
 
 **satów** (lub „sat”) jest jednostką rozliczeniową Bitcoina. Podobnie jak cent dla euro, satów jest po prostu ułamkiem bitcoina. Jeden satów jest równy **0,00000001 bitcoina**, czyli jednej stumilionowej bitcoina. Korzystanie z satów staje się coraz bardziej praktyczne wraz ze wzrostem wartości bitcoina.
@@ -402,8 +402,8 @@ Weźmy przykład z Alicją wysyłającą 30 000 satów do Boba:
 
 
 
-- Początkowo**: Alicja ma 130 000 satów.
-- Po transakcji**: Alicja ma 100 000 satów, a Bob 30 000 satów.
+- **Początkowo**: Alicja ma 130 000 satów.
+- **Po transakcji**: Alicja ma 100 000 satów, a Bob 30 000 satów.
 
 Aby zweryfikować ten transfer, Alicja i Bob tworzą nową **nieopublikowaną transakcję w sieci Bitcoin**, która z adresu wielopodpisowego wysyła **100 000 satów do Alicji** i **30 000 satów do Boba**. Obie strony tworzą tę transakcję niezależnie, ale z tymi samymi danymi (kwoty i adresy). Po utworzeniu transakcji, każda ze stron ją podpisuje i wymienia swój podpis z drugą stroną. Pozwala to każdej ze stron na opublikowanie transakcji w dowolnym momencie, jeśli jest to konieczne, aby odzyskać swój udział w kanale w głównym łańcuchu bloków Bitcoina.
 
@@ -429,8 +429,8 @@ Weźmy inny przykład: po pierwszej transakcji, w której Alicja wysłała Bobow
 
 
 
-- Alicja** ma teraz **110 000 satów**.
-- Bob** ma **20 000 satów**.
+- **Alicja** ma teraz **110 000 satów**.
+- **Bob** ma **20 000 satów**.
 
 
 ![LNP201](assets/en/21.webp)
@@ -464,14 +464,14 @@ W tym rozdziale zagłębimy się w to, jak działają transakcje w sieci Lightni
 ### Przypomnienie: transakcje zobowiązujące
 
 
-Jak wspomniano wcześniej, transakcje w sieci Lightning opierają się na niepublikowanych ** transakcjach zobowiązujących**. Transakcje te odzwierciedlają bieżącą dystrybucję środków w kanale. Kiedy dokonywana jest nowa transakcja w sieci Lightning, tworzony jest nowa transakcja zobowiązująca podpisywana przez obie strony, aby odzwierciedlić nowy stan kanału.
+Jak wspomniano wcześniej, transakcje w sieci Lightning opierają się na niepublikowanych **transakcjach zobowiązujących**. Transakcje te odzwierciedlają bieżącą dystrybucję środków w kanale. Kiedy dokonywana jest nowa transakcja w sieci Lightning, tworzony jest nowa transakcja zobowiązująca podpisywana przez obie strony, aby odzwierciedlić nowy stan kanału.
 
 
 Weźmy prosty przykład:
 
 
 
-- Stan początkowy**: Alicja ma **100 000 satów**, Bob **30 000 satów**.
+- **Stan początkowy**: Alicja ma **100 000 satów**, Bob **30 000 satów**.
 - Po transakcji, w której Alicja wysyła Bobowi **40 000 satów**, nowa transakcja zobowiązująca rozdziela środki w następujący sposób:
   - Alicja: **60,000 satów**
   - Bob: **70,000 satów**
@@ -532,7 +532,7 @@ Weźmy przykład, aby dobrze zrozumieć ten proces:
 
 
 
-- Stan początkowy**: Alicja ma **100 000 satów**, Bob **30 000 satów**.
+- **Stan początkowy**: Alicja ma **100 000 satów**, Bob **30 000 satów**.
 
 
 ![LNP201](assets/en/26.webp)
@@ -691,9 +691,9 @@ Istnieją trzy sposoby zamknięcia kanału:
 
 
 
-- Wspólne zamknięcie**: Szybkie i tańsze rozwiązanie, w którym obie strony zgadzają się zamknąć kanał i opublikować dostosowaną transakcję zamknięcia.
-- Zamknięcie wymuszone**: Mniej pożądane, ponieważ polega na opublikowaniu transakcji zobowiązującej z potencjalnie nieodpowiednimi opłatami i blokadą czasową, co spowalnia zamknięcie.
-- Oszustwo**: Jeśli jedna ze stron próbuje ukraść środki, publikując starą transakcję, druga może użyć klucza unieważnienia, aby ukarać to oszustwo.
+- **Wspólne zamknięcie**: Szybkie i tańsze rozwiązanie, w którym obie strony zgadzają się zamknąć kanał i opublikować dostosowaną transakcję zamknięcia.
+- **Zamknięcie wymuszone**: Mniej pożądane, ponieważ polega na opublikowaniu transakcji zobowiązującej z potencjalnie nieodpowiednimi opłatami i blokadą czasową, co spowalnia zamknięcie.
+- **Oszustwo**: Jeśli jedna ze stron próbuje ukraść środki, publikując starą transakcję, druga może użyć klucza unieważnienia, aby ukarać to oszustwo.
 
 
 W kolejnych rozdziałach zbadamy sieć Lightning z szerszej perspektywy, koncentrując się na tym, jak ona działa.
@@ -730,8 +730,8 @@ Wyobraźmy sobie za przykład taką sytuację:
 
 
 
-- Alicja** (w kolorze pomarańczowym) ma kanał z **Suzie** (w kolorze szarym) ze **100 000 satów** po swojej stronie i **30 000 satów** po stronie Suzie.
-- Suzie** ma kanał z **Bobem**, na którym posiada **250 000 satów**, a Bob nie posiada żadnych satów.
+- **Alicja** (w kolorze pomarańczowym) ma kanał z **Suzie** (w kolorze szarym) ze **100 000 satów** po swojej stronie i **30 000 satów** po stronie Suzie.
+- **Suzie** ma kanał z **Bobem**, na którym posiada **250 000 satów**, a Bob nie posiada żadnych satów.
 
 
 ![LNP201](assets/en/37.webp)
@@ -744,8 +744,8 @@ Załóżmy, że Alicja chce wysłać **50 000 satów** Bobowi:
 
 
 
-- Alicja** wysyła 50 000 satów **Suzie** na ich wspólnym kanale.
-- Suzie** replikuje ten transfer wysyłając 50 000 satów **Bobowi** na ich kanale.
+- **Alicja** wysyła 50 000 satów **Suzie** na ich wspólnym kanale.
+- **Suzie** replikuje ten transfer wysyłając 50 000 satów **Bobowi** na ich kanale.
 
 
 ![LNP201](assets/en/38.webp)
@@ -816,8 +816,8 @@ Na przykład, dla kanału między Alicją a Suzie, możemy mieć:
 
 
 
-- Alicja**: opłata podstawowa w wysokości 1 sat i 1 ppm dla opłat zmiennych.
-- Suzie**: opłata podstawowa w wysokości 0,5 sata i 10 ppm dla opłat zmiennych.
+- **Alicja**: opłata podstawowa w wysokości 1 sat i 1 ppm dla opłat zmiennych.
+- **Suzie**: opłata podstawowa w wysokości 0,5 sata i 10 ppm dla opłat zmiennych.
 
 
 ![LNP201](assets/en/42.webp)
@@ -829,7 +829,7 @@ Aby lepiej zrozumieć, jak działają opłaty, przeanalizujmy tę sama sieć Lig
 
 - Kanał **Alicja - Suzie**: opłata podstawowa w wysokości 1 sata i 1 ppm dla Alicji.
 - Kanał **Suzie - Carol**: opłata podstawowa 0 satów i 200 ppm dla Suzie.
-- Kanał Carol - Bob**: opłata podstawowa w wysokości 1 sata i 1 ppm dla Suzie 2.
+- Kanał **Carol - Bob**: opłata podstawowa w wysokości 1 sata i 1 ppm dla Suzie 2.
 
 ![LNP201](assets/en/43.webp)
 
@@ -838,7 +838,7 @@ Aby dokonać tej samej płatności w wysokości **40 000 satów** na rzecz Boba,
 
 
 
-- Carol** odejmuje 1,04 sat na kanale z Bobem:
+- **Carol** odejmuje 1,04 sat na kanale z Bobem:
 
 $$ f*{\text{Carol-Bob}} = \text{opłata podstawowa} + \left(\frac{\text{ppm} \times \text{amount}}{10^6}\right) $$
 
@@ -846,7 +846,7 @@ $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \tex
 
 
 
-- Suzie** odejmuje 8 satów za opłaty na kanale z Carol:
+- **Suzie** odejmuje 8 satów za opłaty na kanale z Carol:
 
 $$ f*{\text{Suzie-Carol}} = \text{opłata podstawowa} + \left(\frac{\text{ppm} \times \text{amount}}{10^6}\right) $$
 
@@ -872,8 +872,8 @@ Aby skierować płatność od nadawcy do odbiorcy, sieć Lightning wykorzystuje 
 
 
 
-- Węzeł wysyłający oblicza całą trasę**: Alicja, na przykład, określa, że jej płatność musi przejść przez Suzie i Carol, zanim dotrze do Boba.
-- Każdy węzeł pośredniczący zna tylko swojego bezpośredniego sąsiada**: Suzie wie tylko, że otrzymała środki od Alicji i że musi je przekazać Carol. Suzie nie wie jednak, czy Alicja jest węzłem źródłowym, czy węzłem pośredniczącym, a także nie wie, czy Carol jest węzłem odbiorczym, czy tylko innym węzłem pośredniczącym. Zasada ta dotyczy również Carol i wszystkich innych węzłów na ścieżce. W ten sposób routing warstwowy pomaga zachować poufność transakcji poprzez maskowanie tożsamości nadawcy i odbiorcy końcowego.
+- **Węzeł wysyłający oblicza całą trasę**: Alicja, na przykład, określa, że jej płatność musi przejść przez Suzie i Carol, zanim dotrze do Boba.
+- **Każdy węzeł pośredniczący zna tylko swojego bezpośredniego sąsiada**: Suzie wie tylko, że otrzymała środki od Alicji i że musi je przekazać Carol. Suzie nie wie jednak, czy Alicja jest węzłem źródłowym, czy węzłem pośredniczącym, a także nie wie, czy Carol jest węzłem odbiorczym, czy tylko innym węzłem pośredniczącym. Zasada ta dotyczy również Carol i wszystkich innych węzłów na ścieżce. W ten sposób routing warstwowy pomaga zachować poufność transakcji poprzez maskowanie tożsamości nadawcy i odbiorcy końcowego.
 
 Aby zapewnić, że węzeł nadawczy może obliczyć pełną trasę do odbiorcy w routingu warstwowym, musi on utrzymywać **graf sieciowy**, aby znać swoją topologię i określić możliwe trasy.
 
@@ -898,7 +898,7 @@ W tym rozdziale zbadaliśmy routing płatności w sieci Lightning. Pojawia się 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-W tym rozdziale odkryjemy, w jaki sposób sieć Lightning umożliwia przesyłanie płatności przez węzły pośredniczące bez konieczności ufania im, dzięki **HTLC** (_Hashed Time-Locked Contracts_). Te inteligentne kontrakty zapewniają, że każdy węzeł pośredniczący otrzyma środki ze swojego kanału tylko wtedy, gdy przekaże płatność ostatecznemu odbiorcy, w przeciwnym razie płatność nie zostanie zatwierdzona.
+W tym rozdziale odkryjemy, w jaki sposób sieć Lightning umożliwia przesyłanie płatności przez węzły pośredniczące bez konieczności ufania im, dzięki **kontraktom HTLC** (_Hashed Time-Locked Contracts_). Te inteligentne kontrakty zapewniają, że każdy węzeł pośredniczący otrzyma środki ze swojego kanału tylko wtedy, gdy przekaże płatność ostatecznemu odbiorcy, w przeciwnym razie płatność nie zostanie zatwierdzona.
 
 
 Kwestią, która pojawia się w przypadku routingu płatności, jest zatem niezbędne zaufanie do węzłów pośredniczących i między samymi węzłami pośredniczącymi. Aby to zilustrować, powróćmy do naszego uproszczonego przykładu sieci Lightning z 3 węzłami i 2 kanałami:
@@ -1125,14 +1125,14 @@ Oto rzeczywista dystrybucja środków w tych kanałach:
 
 
 
-- Kanał pomiędzy Alicją i 1**: 250 000 satów po stronie Alicji, 80 000 po stronie 1 (całkowita przepustowość 330 000 satów).
-- Kanał pomiędzy 1 i 2**: 300 000 satów po stronie 1, 200 000 po stronie 2 (całkowita pojemność 500 000 satów).
-- Kanał pomiędzy 2 i 3**: 50 000 satów po stronie 2, 60 000 po stronie 3 (całkowita pojemność 110 000 satów).
-- Kanał pomiędzy 2 i 5**: 90 000 satów po stronie 2, 160 000 po stronie 5 (całkowita pojemność 250 000 satów).
-- Kanał między 2 i 4**: 180 000 satów po stronie 2, 110 000 po stronie 4 (całkowita pojemność 290 000 satów).
-- Kanał pomiędzy 4 i 5**: 200 000 satów po stronie 4, 10 000 po stronie 5 (całkowita pojemność 210 000 satów).
-- Kanał pomiędzy 3 i Bob**: 50 000 satów po stronie 3, 250 000 po stronie Bob (całkowita pojemność 300 000 satów).
-- Kanał pomiędzy 5 i Bob**: 260 000 satów po stronie 5, 100 000 po stronie Bob (całkowita pojemność 360 000 satów).
+- **Kanał pomiędzy Alicją i 1**: 250 000 satów po stronie Alicji, 80 000 po stronie 1 (całkowita przepustowość 330 000 satów).
+- **Kanał pomiędzy 1 i 2**: 300 000 satów po stronie 1, 200 000 po stronie 2 (całkowita pojemność 500 000 satów).
+- **Kanał pomiędzy 2 i 3**: 50 000 satów po stronie 2, 60 000 po stronie 3 (całkowita pojemność 110 000 satów).
+- **Kanał pomiędzy 2 i 5**: 90 000 satów po stronie 2, 160 000 po stronie 5 (całkowita pojemność 250 000 satów).
+- **Kanał między 2 i 4**: 180 000 satów po stronie 2, 110 000 po stronie 4 (całkowita pojemność 290 000 satów).
+- **Kanał pomiędzy 4 i 5**: 200 000 satów po stronie 4, 10 000 po stronie 5 (całkowita pojemność 210 000 satów).
+- **Kanał pomiędzy 3 i Bob**: 50 000 satów po stronie 3, 250 000 po stronie Bob (całkowita pojemność 300 000 satów).
+- **Kanał pomiędzy 5 i Bob**: 260 000 satów po stronie 5, 100 000 po stronie Bob (całkowita pojemność 360 000 satów).
 
 
 ![LNP201](assets/en/64.webp)
@@ -1271,7 +1271,7 @@ Kwota płatności jest wyrażana w podjednostkach Bitcoina. Oto używane jednost
 
 
 
-- Millibitcoin (oznaczany `m`):** Reprezentuje jedną tysięczną Bitcoina.
+- **Millibitcoin (oznaczany `m`):** Reprezentuje jedną tysięczną Bitcoina.
 
 
 $$
@@ -1280,7 +1280,7 @@ $$
 
 
 
-- Microbitcoin (oznaczany `u`):** Czasami nazywany również „bitem”, reprezentuje jedną milionową Bitcoina.
+- **Microbitcoin (oznaczany `u`):** Czasami nazywany również „bitem”, reprezentuje jedną milionową Bitcoina.
 
 
 $$
@@ -1289,7 +1289,7 @@ $$
 
 
 
-- Nanobitcoin (oznaczany `n`):** Reprezentuje jedną miliardową Bitcoina.
+- **Nanobitcoin (oznaczany `n`):** Reprezentuje jedną miliardową Bitcoina.
 
 
 $$
@@ -1298,7 +1298,7 @@ $$
 
 
 
-- Picobitcoin (oznaczany jako `p`):** Reprezentuje jedną bilionową Bitcoina.
+- **Picobitcoin (oznaczany jako `p`):** Reprezentuje jedną bilionową Bitcoina.
 
 $$
 1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satów}

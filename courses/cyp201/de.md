@@ -52,6 +52,34 @@ Schließlich werden wir vom Master-Schlüssel aus entdecken, wie kryptografische
 
 Dieses Training wird es Ihnen ermöglichen, Ihre Wallet-Software mit Vertrauen zu nutzen, während Sie Ihre Fähigkeiten verbessern, Risiken zu identifizieren und zu mindern. Bereiten Sie sich darauf vor, ein wahrer Experte für Bitcoin-Wallets zu werden!
 
+Diese Tabelle bietet Ihnen eine Übersetzung der wichtigsten verwendeten englischen Begriffe, um Ihnen das Verständnis der im Rahmen des Kurses CYP 201 verwendeten Schemata und technischen Dokumente zu erleichtern.
+
+| Englisch        | Übersetzung / Erklärung                                                                            |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Hash des öffentlichen Schlüssels (wird zur Erstellung einer Bitcoin-Adresse verwendet).             |
+| *public key*    | Öffentlicher Schlüssel (dient zum Empfang von Geldern, abgeleitet vom privaten Schlüssel).          |
+| *signature*     | Digitale Signatur (kryptographischer Nachweis, dass eine Nachricht vom Inhaber eines privaten Schlüssels stammt). |
+| *scriptPubKey*  | Sperrskript (definiert die Bedingungen zum Ausgeben eines Outputs).                                 |
+| *scriptSig*     | Entsperrskript (liefert die Daten zur Erfüllung des *scriptPubKey*).                                |
+| *Stack*         | Stapel (Datenstruktur, die von *Bitcoin Script* verwendet wird).                                   |
+| *input*         | Eingabe einer Transaktion (Referenz auf einen vorherigen Output, der als Quelle verwendet wird).    |
+| *output*        | Ausgabe einer Transaktion (definiert den Empfänger und den Betrag).                                |
+| *transaction*   | Bitcoin-Transaktion (Satz von Eingaben und Ausgaben zur Validierung einer Übertragung).             |
+| *XOR*           | Logischer Operator „exklusives ODER“, verwendet in bestimmten kryptographischen Verfahren.          |
+| *HMAC*          | Nachrichten-Authentifizierungscode auf Basis eines Hashes und eines geheimen Schlüssels.           |
+| *ECDSA*         | Digitales Signaturalgorithmus mit elliptischen Kurven.                                             |
+| *hash*          | Hash (eindeutiger und fester Fingerabdruck von Daten).                                             |
+| *SigHash*       | Typ des Signatur-Hashes (definiert, welche Teile einer Transaktion signiert werden).               |
+| *HD Wallet*     | Hierarchische deterministische Wallet (generiert mehrere Schlüssel aus einem einzigen Seed).        |
+| *Random Number* | Zufallszahl (wird zur Erstellung sicherer privater Schlüssel verwendet).                            |
+| *State*         | Zustand (Zwischenwert in einem kryptographischen Prozess).                                         |
+| *Entropy*       | Entropie (Maß der Zufälligkeit, verwendet zur Erzeugung von Wallet-Seeds).                         |
+| *Mnemonic*      | Mnemonik (Wortfolge zur Vereinfachung der Sicherung und Wiederherstellung eines Seeds).             |
+| *Wordlist*      | Wortliste (vordefinierte Menge von Wörtern zur Generierung von BIP39-Mnemoniken).                  |
+| *Seed*          | Seed (Anfangswert, aus dem alle Schlüssel einer HD-Wallet abgeleitet werden können).               |
+| *Address*       | Bitcoin-Adresse (lesbarer Bezeichner zum Empfang von Geldern, abgeleitet vom öffentlichen Schlüssel). |
+| *Leaf*          | Blatt (Endknoten in einem Ableitungsbaum).                                                         |
+
 # Hash-Funktionen
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

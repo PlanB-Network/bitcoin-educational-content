@@ -80,6 +80,34 @@ Slutligen kommer vi från huvudnyckeln att upptäcka hur kryptografiska nyckelpa
 Denna utbildning gör det möjligt för dig att använda din Wallet-programvara med förtroende, samtidigt som du förbättrar dina färdigheter för att identifiera och mildra risker. Förbered dig på att bli en sann expert på Bitcoin-plånböcker!
 
 
+Denna tabell erbjuder dig en översättning av de viktigaste engelska termerna som används, för att underlätta din förståelse av de scheman och tekniska dokument som används inom ramen för kursen CYP 201.
+
+| Engelska        | Översättning / Förklaring                                                                          |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Publik nyckel-hash (används för att generera en Bitcoin-adress).                                   |
+| *public key*    | Publik nyckel (används för att ta emot medel, härledd från den privata nyckeln).                   |
+| *signature*     | Digital signatur (kryptografiskt bevis på att ett meddelande kommer från innehavaren av en privat nyckel). |
+| *scriptPubKey*  | Låsskript (definierar villkoren för att spendera en utgång).                                        |
+| *scriptSig*     | Upplåsningsskript (tillhandahåller data för att uppfylla *scriptPubKey*).                           |
+| *Stack*         | Stack (datastruktur som används av *Bitcoin Script*).                                               |
+| *input*         | Transaktionsingång (referens till en tidigare utgång som används som källa).                        |
+| *output*        | Transaktionsutgång (definierar mottagare och belopp).                                               |
+| *transaction*   | Bitcoin-transaktion (uppsättning ingångar och utgångar som validerar en överföring).                |
+| *XOR*           | Logisk operator "exklusivt ELLER", används i vissa kryptografiska scheman.                         |
+| *HMAC*          | Meddelandeautentiseringskod baserad på en hash och en hemlig nyckel.                               |
+| *ECDSA*         | Digital signaturalgoritm med elliptiska kurvor.                                                    |
+| *hash*          | Hash (unik och fast fingeravtryck av data).                                                         |
+| *SigHash*       | Typ av signatur-hash (definierar vilka delar av en transaktion som signeras).                       |
+| *HD Wallet*     | Hierarkisk deterministisk plånbok (genererar flera nycklar från ett enda frö).                      |
+| *Random Number* | Slumptal (används för att generera säkra privata nycklar).                                          |
+| *State*         | Tillstånd (mellanvärde i en kryptografisk process).                                                 |
+| *Entropy*       | Entropi (mått på slumpmässighet, används för att generera plånboksfrön).                            |
+| *Mnemonic*      | Mnemoteknik (ordföljd som underlättar säkerhetskopiering och återställning av ett frö).             |
+| *Wordlist*      | Ordlista (fördefinierad uppsättning som används för att generera BIP39-mnemoniker).                 |
+| *Seed*          | Frö (initialvärde som tillåter härledning av alla nycklar i en HD-plånbok).                         |
+| *Address*       | Bitcoin-adress (läsbar identifierare för att ta emot medel, härledd från den publika nyckeln).      |
+| *Leaf*          | Löv (slutnod i ett derivationsträd).                                                                |
+
 # Hash Funktioner
 
 

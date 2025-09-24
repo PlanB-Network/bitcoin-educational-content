@@ -56,6 +56,34 @@ Hatimaye, kutoka kwa Ufunguo (Key) mkuu, tutagundua jinsi jozi za funguo za krip
 
 Mafunzo haya yatakuwezesha kutumia programu yako ya Wallet kwa kujiamini, huku ukiboresha ujuzi wako wa kutambua na kupunguza hatari. Jitayarishe kuwa mtaalam wa kweli katika pochi za Bitcoin!
 
+Jedwali hili linakupa tafsiri ya maneno muhimu ya Kiingereza yanayotumika, ili kukurahisishia kuelewa michoro na nyaraka za kiufundi zinazotumika katika kozi ya CYP 201.
+
+| Kiingereza      | Tafsiri / Maelezo                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Hashi ya ufunguo wa umma (inayotumika kutengeneza anuani ya Bitcoin).                               |
+| *public key*    | Ufunguo wa umma (hutumika kupokea fedha, umetokana na ufunguo wa faragha).                          |
+| *signature*     | Sahihi ya kidijitali (uthibitisho wa kicryptografia kuwa ujumbe umetoka kwa mwenye ufunguo wa faragha). |
+| *scriptPubKey*  | Script ya kufunga (inafafanua masharti ya kutumia output).                                          |
+| *scriptSig*     | Script ya kufungua (hutoa data inayohitajika kutimiza *scriptPubKey*).                              |
+| *Stack*         | Stacki (muundo wa data unaotumiwa na *Bitcoin Script*).                                             |
+| *input*         | Ingizo la muamala (marejeleo ya output ya awali iliyotumika kama chanzo).                           |
+| *output*        | Tokeo la muamala (linafafanua mpokeaji na kiasi).                                                   |
+| *transaction*   | Muamala wa Bitcoin (seti ya vigezo vya ingizo na matokeo vinavyohalalisha uhamisho).                |
+| *XOR*           | Opereta wa kimaantiki "AU ya kipekee", unaotumika kwenye baadhi ya mbinu za kicryptografia.        |
+| *HMAC*          | Nambari ya uthibitishaji wa ujumbe inayotegemea hashi na ufunguo wa siri.                          |
+| *ECDSA*         | Algoriti ya sahihi ya kidijitali inayotumia mikunjo ya elliptic.                                    |
+| *hash*          | Hashi (alama ya kipekee na isiyobadilika ya data).                                                  |
+| *SigHash*       | Aina ya hashi ya sahihi (inafafanua sehemu za muamala zinazowekwa sahihi).                          |
+| *HD Wallet*     | Walleti ya kithabiti ya kihierarkia (huzalisha funguo nyingi kutoka kwenye mbegu moja).             |
+| *Random Number* | Nambari ya kubahatisha (hutumika kuzalisha funguo za faragha salama).                               |
+| *State*         | Hali (thamani ya kati katika mchakato wa kicryptografia).                                           |
+| *Entropy*       | Entropi (kipimo cha kubahatisha, kinachotumika kuzalisha mbegu za walleti).                         |
+| *Mnemonic*      | Mnemoniki (mlolongo wa maneno unaorahisisha kuhifadhi na kurejesha mbegu).                          |
+| *Wordlist*      | Orodha ya maneno (seti iliyowekwa awali inayotumika kutengeneza mnemoniki za BIP39).                |
+| *Seed*          | Mbegu (thamani ya awali inayoruhusu kutengeneza funguo zote za HD Wallet).                          |
+| *Address*       | Anuani ya Bitcoin (kitambulisho kinachosomwa kinachotumika kupokea fedha, kimezalishwa kutoka kwenye ufunguo wa umma). |
+| *Leaf*          | Jani (nodi ya mwisho kwenye mti wa derivation).                                                     |
+
 # Kazi za Hash
 
 <partId>3713fee1-2ec2-512e-9e97-b6da9e4d2f17</partId>

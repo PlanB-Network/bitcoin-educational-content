@@ -10,8 +10,6 @@ objectives:
 
 ---
 
-„-”
-
 # Podróż do drugiej warstwy Bitcoina
 
 

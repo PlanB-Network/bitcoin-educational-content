@@ -126,7 +126,7 @@ Weźmy przykład transakcji Lightning. Jeśli Alicja chce wysłać 40 000 satów
 ![LNP201](assets/en/03.webp)
 
 
-Pojemność kanału**, wynosząca 130 000 satów, pozostaje stała. To, co się zmienia, to alokacja środków. System ten nie pozwala na wysyłanie większej ilości środków niż się posiada. Na przykład, jeśli Bob chciałby odesłać Alicji 80 000 satów, nie mógłby, ponieważ ma tylko 70 000.
+**Pojemność kanału**, wynosząca 130 000 satów, pozostaje stała. To, co się zmienia, to alokacja środków. System ten nie pozwala na wysyłanie większej ilości środków niż się posiada. Na przykład, jeśli Bob chciałby odesłać Alicji 80 000 satów, nie mógłby, ponieważ ma tylko 70 000.
 
 
 Inny sposób wyobrażenia sobie alokacji środków to wyobrażenie sobie **kursora**, który wskazuje, gdzie znajdują się środki w kanale. Na początku, gdy Alicja ma 100 000 satów, a Bob 30 000, kursor jest bardziej po stronie Boba, ponieważ Alicja ma znacznie więcej środków. Po transakcji na 40 000 satów kursor przesunie się nieco w stronę Alicji, która teraz posiada 60 000 satów.
@@ -149,7 +149,7 @@ Weźmy przykład: jeśli Alicja ma 130 000 satów po swojej stronie, może wysł
 Ważne jest, aby zrozumieć, że stała przepustowość kanału ogranicza maksymalną kwotę pojedynczej transakcji, ale nie całkowitą liczbę możliwych transakcji ani ogólny wolumen środków wymienianych w kanale.
 
 
-**Co powinieneś wynieść z tego rozdziału?
+**Co powinieneś wynieść z tego rozdziału?**
 
 
 
@@ -241,14 +241,14 @@ Aby wydać środki zablokowane za pomocą adresu z wieloma podpisami 2/2, koniec
 Ten typ adresu jest dokładnym odwzorowaniem łańcucha bloków Bitcoina dla kanałów płatności w sieci Lightning.
 
 
-**Co powinieneś wynieść z tego rozdziału?
+**Co powinieneś wynieść z tego rozdziału?**
 
 
 
 - **Adres Bitcoin** jest wyprowadzany z klucza publicznego, który z kolei jest wyprowadzany z klucza prywatnego.
 - Środki w Bitcoinie są blokowane przez **skrypty** i aby je wydać, należy spełnić wymagania skryptu, co zazwyczaj wiąże się z dostarczeniem podpisu z odpowiednim kluczem prywatnym.
-- UTXO** to kawałki bitcoinów zablokowane przez skrypty, a każda transakcja w Bitcoinie polega na odblokowaniu UTXO, a następnie utworzeniu jednego lub więcej nowych UTXO w jego miejsce.
-- **adresy wielopodpisowe 2/2** wymagają podpisu dwóch kluczy prywatnych w celu wydania środków. Te konkretne adresy są używane w sieci Lightning do tworzenia kanałów płatności.
+- **UTXO** to kawałki bitcoinów zablokowane przez skrypty, a każda transakcja w Bitcoinie polega na odblokowaniu UTXO, a następnie utworzeniu jednego lub więcej nowych UTXO w jego miejsce.
+- **Adresy wielopodpisowe 2/2** wymagają podpisu dwóch kluczy prywatnych w celu wydania środków. Te konkretne adresy są używane w sieci Lightning do tworzenia kanałów płatności.
 
 
 Niniejszy rozdział poświęcony Bitcoinowi pozwolił nam zapoznać się z kilkoma istotnymi pojęciami. W następnym rozdziale dowiemy się, jak działa otwieranie kanałów w sieci Lightning.
@@ -559,7 +559,7 @@ Weźmy przykład, aby dobrze zrozumieć ten proces:
 Nawet jeśli w tym przypadku Bob nie ma niczego do zyskania na oszustwie, jeśli i tak to robi, Alicja również korzysta z symetrycznej ochrony oferującej jej takie same gwarancje.
 
 
-**Co powinieneś wynieść z tego rozdziału?
+**Co powinieneś wynieść z tego rozdziału?**
 
 
 Transakcje **zobowiązujące** w sieci Lightning zawierają mechanizmy bezpieczeństwa, które zmniejszają zarówno ryzyko oszustwa, jak i zachęty do jego popełnienia. Przed podpisaniem nowej transakcji zobowiązującej, Alicja i Bob wymieniają swoje **sekrety** dla poprzednich transakcji zobowiązujących. Jeśli Alicja spróbuje opublikować starą transakcje zobowiązującą, Bob może użyć **klucza odwołania**, aby odzyskać wszystkie środki, zanim Alicja to zrobi (ponieważ jest zablokowana przez blokadę czasową), co karze ją za próbę oszustwa.
@@ -684,7 +684,7 @@ Bob, aby zapobiec temu oszustwu, monitoruje łańcuch bloków Bitcoina i jego me
 Oczywiście oszustwo może potencjalnie zakończyć się sukcesem, jeśli Bob nie podejmie działania w czasie narzuconym przez blokadę czasową wyjścia Alicji. W takim przypadku dane wyjściowe Alicji są odblokowane, co pozwala jej wykorzystać je do utworzenia nowych danych wyjściowych dla kontrolowanego przez nią adresu.
 
 
-**Co powinieneś wynieść z tego rozdziału?
+**Co powinieneś wynieść z tego rozdziału?**
 
 
 Istnieją trzy sposoby zamknięcia kanału:
@@ -877,7 +877,7 @@ Aby skierować płatność od nadawcy do odbiorcy, sieć Lightning wykorzystuje 
 
 Aby zapewnić, że węzeł nadawczy może obliczyć pełną trasę do odbiorcy w routingu warstwowym, musi on utrzymywać **graf sieciowy**, aby znać swoją topologię i określić możliwe trasy.
 
-**Co powinieneś wynieść z tego rozdziału?
+**Co powinieneś wynieść z tego rozdziału?**
 
 
 
@@ -1055,7 +1055,7 @@ Jeśli kanał nie zostanie zamknięty, to po wygaśnięciu lub dokonaniu płatno
 Wreszcie, w przypadku zamknięcia kanału współpracy, gdy aktywny jest kontrakt HTLC, Alicja i Suzie przestają akceptować nowe płatności i czekają na rozwiązanie lub wygaśnięcie trwających kontraktów HTLC. Pozwala im to opublikować lżejszą transakcję zamknięcia, bez danych wyjściowych związanych z HTLC, zmniejszając w ten sposób opłaty i unikając oczekiwania na ewentualną blokadę czasową.
 
 
-**Co powinieneś wynieść z tego rozdziału?
+**Co powinieneś wynieść z tego rozdziału?**
 
 
 Kontrakty HTLC umożliwiają kierowanie płatności Lightning przez wiele węzłów bez konieczności ufania im. Oto kluczowe punkty do zapamiętania:
@@ -1184,7 +1184,7 @@ Poszukiwanie trasy odbywa się w następujący sposób: węzeł wysyłający roz
 Warto zauważyć, że Bob może dostarczyć Alicji informacji w **fakturze**, aby ułatwić routing. Na przykład może wskazać pobliskie kanały o wystarczającej płynności lub ujawnić istnienie kanałów prywatnych. Wskazówki te pozwolą Alicji uniknąć tras o niewielkich szansach powodzenia i w pierwszej kolejności wypróbować ścieżki zalecane przez Boba.
 
 
-**Co powinieneś wynieść z tego rozdziału?
+**Co powinieneś wynieść z tego rozdziału?**
 
 
 
@@ -1355,7 +1355,7 @@ Dla uproszczenia, w tym protokole to nadawca generuje sekret używany w HTLC, a 
 ![LNP201](assets/en/70.webp)
 
 
-**Co powinieneś wynieść z tego rozdziału?
+**Co powinieneś wynieść z tego rozdziału?**
 
 
 
@@ -1462,7 +1462,7 @@ Usługa [Loop Out](https://lightning.engineering/loop/), oferowana przez Lightni
 Usługa ta umożliwia uzyskanie płynności przychodzącej podczas odzyskiwania bitcoinów on-chain, co pomaga ograniczyć unieruchomienie gotówki potrzebnej do akceptowania płatności za pomocą sieci Lightning.
 
 
-**Co powinieneś wynieść z tego rozdziału?
+**Co powinieneś wynieść z tego rozdziału?**
 
 
 

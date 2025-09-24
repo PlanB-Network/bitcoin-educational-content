@@ -5969,7 +5969,7 @@ En voici la raison :
 
 
 
-- `package.json` indique simplement quelle version **gamme** d'un paquet est nécessaire à votre projet.
+- `package.json` indique simplement quelle **fourchette de version** d'un paquet est nécessaire à votre projet.
 
 Exemple :
 
@@ -5985,7 +5985,7 @@ Le `^1.1.0` signifie "toute version compatible avec 1.1.x", donc flexible.
 
 
 
-- `package-lock.json` **gèle** les versions exactes de chaque paquet et de leurs sous-dépendances, de sorte que tous ceux qui installent votre projet obtiennent exactement la même configuration de travail.
+- `package-lock.json` **gèle** les versions exactes de chaque paquet et de leurs sous-dépendances, de sorte que tous ceux qui installent votre projet obtiennent exactement la même configuration de travail que vous.
 
 
 Pourquoi est-ce important ?
@@ -5993,16 +5993,16 @@ Pourquoi est-ce important ?
 
 Si vous travaillez en équipe, si vous déployez votre projet sur un serveur ou si vous y revenez à l'avenir, vous voulez vous assurer qu'il fonctionne toujours de la même manière.
 
-Si les paquets ont été mis à jour et que vous réinstallez sans fichier de verrouillage, vous pouvez obtenir une version légèrement différente qui se comporte différemment.
+Si les paquets ont été mis à jour et que vous réinstallez sans fichier de verrouillage (communément appelé un **lock**), vous pouvez obtenir une version légèrement différente qui se comporte différemment.
 
 
-En gardant le `package-lock.json` dans votre projet, NPM installera toujours les versions exactes qui y sont listées, s'assurant que tout le monde a le même environnement.
+En conservant le `package-lock.json` dans votre projet, NPM installera toujours les versions exactes qui y sont listées, s'assurant que tout le monde a le même environnement.
 
 
 `package-lock.json` verrouille tout à une version très spécifique, pour rendre le projet plus reproductible sur d'autres machines.
 
 
-Mais si votre paquet doit être utilisé par de nombreuses personnes, vous pouvez choisir de ne pas le livrer, afin que NPM ne trouve que le fichier `package.json` et qu'il soit autorisé à installer automatiquement les dernières versions autorisées dans ce fichier.
+Mais si votre paquet doit être utilisé par de nombreuses personnes, vous pouvez choisir de ne pas fournir le `package-lock.json`, pour que NPM ne trouve que le fichier `package.json` et qu'il soit autorisé à installer automatiquement les dernières versions autorisées dans ce fichier.
 
 
 Mais ce sont des choses dont vous devrez vous préoccuper plus tard, lorsque vous commencerez à publier votre propre code. Pour l'instant, nous avons présenté les bases de NPM pour vous permettre de trouver et d'utiliser les bibliothèques publiées par d'autres développeurs dans vos projets.
@@ -6017,7 +6017,7 @@ Mais ce sont des choses dont vous devrez vous préoccuper plus tard, lorsque vou
 NodeJS est souvent utilisé comme langage pour le backend : vous pouvez transformer votre script en serveur et l'utiliser pour envoyer des requêtes à d'autres serveurs.
 
 
-Dans ce chapitre, nous allons présenter quelques fonctions de réseau de base qui vous permettront de le faire.
+Dans ce chapitre, nous allons présenter quelques fonctionnalités réseau de base qui vous permettront d'interagir avec un serveur.
 
 
 ### `fetch()`
@@ -6053,17 +6053,17 @@ Lorsque vous exécutez ce programme, vous verrez quelque chose comme :
 ```
 
 
-Voici ce qui se passe :
+Voici ce qu'il se passe :
 
 
 1. `fetch()` prend une URL et fait une requête.
 
 2. Elle renvoie une **Promesse** qui se résout en un objet `Response`.
 
-3. `response.text()` lit le corps de la réponse sous forme de chaîne.
+3. `response.text()` lit le corps de la réponse sous forme de chaîne de caractères.
 
 
-Mais la chaîne que vous obtenez en retour est en fait JSON. Qu'est-ce que c'est ?
+Mais la chaîne que vous obtenez en retour est en fait du JSON. Qu'est-ce que c'est ?
 
 
 ### JSON
@@ -6072,7 +6072,7 @@ Mais la chaîne que vous obtenez en retour est en fait JSON. Qu'est-ce que c'est
 Lorsque l'on travaille avec des API web, les données sont souvent envoyées et reçues sous forme de **JSON**, ce qui signifie JavaScript Object Notation.
 
 
-JSON est un format de texte qui ressemble beaucoup aux objets JavaScript. Par exemple, JSON est un format de texte qui ressemble beaucoup aux objets JavaScript :
+JSON est un format de texte qui ressemble beaucoup aux objets JavaScript. Par exemple :
 
 
 ```json
@@ -6127,7 +6127,7 @@ Ceci affiche :
 ```
 
 
-Attention : `JSON.parse()` lancera une erreur si la chaîne n'est pas du JSON valide.
+Attention : `JSON.parse()` renverra une erreur si la chaîne n'est pas du JSON valide.
 
 
 ```javascript
@@ -6194,14 +6194,14 @@ Exemple avec routage :
 
 ```javascript
 const server = http.createServer((req, res) => {
-if (req.url === "/") { // handle requests for the root of the website
+if (req.url === "/") { // gère les requêtes vers la racine du site web
 res.statusCode = 200
 res.end("Home page")
-} else if (req.url === "/about") { // handle requests for the about page
+} else if (req.url === "/about") { // gère les requêts de la page **about** (à propos)
 res.statusCode = 200
 res.end("About page")
 } else {
-res.statusCode = 404 // we send a 404 status code to signal that the requested page is missing
+res.statusCode = 404 // nous renvoyons un code d'erreur 404 pour indiquer que la page demandé est introuvable
 res.end("Not Found")
 }
 })
@@ -6220,24 +6220,24 @@ Dans ce chapitre, nous présenterons principalement trois classes d'objets :
 
 
 
-- `Buffer`, qui représente de petits morceaux de données binaires
+- `Buffer`, ou tampon, qui représente de petits morceaux de données binaires
 - `EventEmitter`, qui peut être utilisé pour suivre une étape d'un processus asynchrone en émettant des signaux appelés "événements"
 - `Stream`, qui nous permet de traiter de grandes portions de données, un `Buffer` à la fois, et qui suit le processus en émettant des événements
 
 
-Ils sont extrêmement courants dans le code NodeJS professionnel, donc même si vous ne les utilisez pas dans vos premiers projets, il est bon d'avoir une compréhension de base pour savoir quand vous aurez besoin d'interagir avec eux. d'eux
+Ces éléments sont extrêmement courants dans le code NodeJS professionnel, donc même si vous ne les utilisez pas dans vos premiers projets, il est bon d'avoir des notions de base à leurs sujets pour savoir quand vous aurez besoin d'interagir avec eux.
 
 
-### Tampons
+### Tampons (buffers)
 
 
-En NodeJS, un **tampon** est un type d'objet utilisé pour travailler avec des données binaires.
+En NodeJS, un **buffer** est un type d'objet utilisé pour travailler avec des données binaires.
 
 
-Vous pouvez considérer une mémoire tampon comme un conteneur de taille fixe pour les octets bruts.
+Vous pouvez considérer un buffer comme un conteneur de taille fixe pour les octets bruts.
 
 
-Voici comment créer un tampon à partir d'une chaîne de caractères :
+Voici comment créer un buffer à partir d'une chaîne de caractères :
 
 
 ```javascript
@@ -6254,7 +6254,7 @@ Cela donne quelque chose comme :
 ```
 
 
-Ces nombres (`68`, `65`, `6c`, etc.) sont des représentations hexadécimales des lettres de `"hello"`.
+Ces nombres (`68`, `65`, `6c`, etc.) sont des représentations hexadécimales des lettres du mot `"hello"`.
 
 
 Vous pouvez le reconvertir en chaîne de caractères comme suit :
@@ -6273,7 +6273,7 @@ hello
 ```
 
 
-Vous pouvez également créer un tampon d'une certaine taille rempli de zéros :
+Vous pouvez également créer un buffer d'une certaine taille rempli de zéros :
 
 
 ```javascript
@@ -6290,7 +6290,7 @@ Cela donne quelque chose comme :
 ```
 
 
-Vous pouvez écrire dans la mémoire tampon :
+Vous pouvez écrire dans le buffer :
 
 
 ```javascript
@@ -6303,11 +6303,11 @@ Et vous pouvez accéder à des octets individuels :
 
 
 ```javascript
-console.log(buf[0]) // prints the ASCII number for 'a', which is 97
+console.log(buf[0]) // affiche le numero de caractère ASCII de la lettre 'a', qui est 97
 ```
 
 
-Les tampons sont particulièrement utiles lorsque vous devez manipuler des données à un niveau très bas.
+Les buffers sont particulièrement utiles lorsque vous devez manipuler des données à un niveau très bas, c'est à dire des données compréhensibles par le processeur. 
 
 
 ### Evénements
@@ -6323,10 +6323,10 @@ Par exemple :
 - le chargement d'un fichier se termine
 - une minuterie se déclenche
 - un utilisateur clique sur un bouton
-- une demande de réseau renvoie des données
+- une requête réseau renvoie des données
 
 
-Un **événement** est simplement un signal indiquant que quelque chose s'est produit, et vous pouvez écrire du code pour écouter ces événements et y réagir.
+Un **événement** est simplement un signal indiquant que quelque chose s'est produit, et vous pouvez écrire du code pour surveiller l'arrivé de ces événements et y réagir.
 
 
 En NodeJS, de nombreux objets peuvent émettre des événements. Ces objets sont appelés **EventEmitters**.
@@ -6340,12 +6340,12 @@ const EventEmitter = require("events")
 
 const emitter = new EventEmitter()
 
-// Listen for an event
+// Surveille l'arrivé d'un évènement
 emitter.on("greet", () => {
-console.log("Hello! An event happened.") // this will get printed when a "greet" event gets fired
+console.log("Hello! An event happened.") // ceci s'affichera lorsqu'un évènement "greet" arrivera
 })
 
-// Emit the event
+// Emet l'évènement
 emitter.emit("greet")
 ```
 
@@ -6378,7 +6378,7 @@ emitter.on("greet",
 (name) => console.log(`Hello, ${name}!`)
 )
 
-emitter.emit("greet", "Alice") // first argument is the type of event, second argument is the data we pass with this event
+emitter.emit("greet", "Alice") // le premier argument est du type évènement, le second argument sont les données que nous voulons transmettre avec cet évènement
 ```
 
 
@@ -6409,10 +6409,10 @@ De nombreux objets en NodeJS émettent des événements pour informer le reste d
 
 
 
-### Qu'est-ce qu'un cours d'eau ?
+### Qu'est-ce qu'un flux (**stream**) ?
 
 
-Les flux combinent des tampons et des événements pour nous aider à traiter les données.
+Les flux combinent des buffers et des événements pour nous aider à traiter les données.
 
 
 Lorsque nous travaillons avec des fichiers, des données provenant du réseau ou même de longs textes, nous n'avons pas toujours besoin (ou envie) de tout charger en mémoire en une seule fois. Cela peut être lent, voire faire planter le programme si les données sont trop volumineuses.
@@ -6428,16 +6428,16 @@ NodeJS dispose de quatre types principaux de flux :
 
 
 
-- Lisable** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
-- Writable** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
-- Duplex** : flux qui sont à la fois lisibles et inscriptibles
-- Transformer** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
+- **Readable**, **Lisible** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
+- **Writable**, **Inscriptible** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
+- **Duplex** : flux qui sont à la fois Readable et Writable
+- **Transform** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
 
 
-### Flux lisibles
+### Readable streams
 
 
-Disons que vous avez un `gros fichier.txt` à traiter. Vous pouvez créer un flux lisible avec le module `fs` pour lire le fichier morceau par morceau.
+Imaginons que vous ayez un `gros fichier.txt` à traiter. Vous pouvez créer un flux lisible avec le module `fs` pour lire le fichier morceau par morceau.
 
 
 ```javascript
@@ -6466,17 +6466,17 @@ Que se passe-t-il ici ?
 
 1. `fs.createReadStream()` crée un flux lisible.
 
-2. Chaque fois qu'un morceau du fichier est prêt, le flux émet un événement `data` et nous donne un "morceau" de données (un `Buffer`). Nous imprimons le morceau.
+2. Chaque fois qu'un morceau du fichier est prêt, le flux émet un événement `data` et nous donne un "morceau" de données (un `Buffer`). Nous affichons ce morceau.
 
 3. Lorsque tout le fichier a été lu, l'événement `end` est déclenché.
 
 4. En cas d'erreur (par exemple, si le fichier n'existe pas), l'événement `error` est déclenché.
 
 
-De cette façon, vous pouvez lire des fichiers géants sans les charger tous en même temps dans la mémoire.
+De cette façon, vous pouvez lire des fichiers gigantesques sans les charger tous en même temps dans la mémoire.
 
 
-Si nous voulons que les données arrivent sous une forme lisible par l'homme (au lieu d'une forme binaire), nous pouvons spécifier l'encodage du flux :
+Si nous voulons que les données arrivent sous une forme lisible par les développeurs et les utilisateurs (au lieu d'une forme binaire), nous pouvons spécifier l'encodage du flux :
 
 
 ```javascript
@@ -6484,7 +6484,7 @@ const fs = require("fs")
 
 const readableStream = fs.createReadStream(
 "bigfile.txt",
-{ encoding: "utf8" } // we tell NodeJS that the file should be read as utf8
+{ encoding: "utf8" } //  nous indiquons à NodeJS que ce fichier doit pouvoir être lu au format utf8
 )
 
 readableStream.on("data", (chunk) => {
@@ -6501,7 +6501,7 @@ console.error("Error reading file:", err)
 ```
 
 
-Le code imprimera maintenant le fichier sous une forme lisible par l'homme.
+Le code affichera maintenant le fichier sous une forme lisible par un humain.
 
 
 ### Flux inscriptibles
@@ -6532,7 +6532,7 @@ console.error("Error:", err)
 ```
 
 
-Voici ce qui se passe :
+Voici ce qu'il se passe :
 
 
 1. `fs.createWriteStream()` crée un flux inscriptible.
@@ -6549,10 +6549,10 @@ Voici ce qui se passe :
 Tout comme les flux lisibles, les flux inscriptibles sont adaptés aux données volumineuses car ils n'ont pas besoin de tout conserver en mémoire en même temps.
 
 
-### Courants de tuyauterie
+### Piping streams
 
 
-L'un des aspects les plus intéressants des flux est qu'il est possible de les **pipe** ensemble : connecter un flux lisible directement à un flux inscriptible.
+L'un des aspects les plus intéressants des flux est qu'il est possible de les **emboiter** ensemble : connecter un flux lisible directement à un flux inscriptible.
 
 
 ```javascript
@@ -6574,7 +6574,7 @@ Ici :
 - `.pipe()` envoie les données directement du flux lisible au flux inscriptible.
 
 
-### Flux recto-verso
+### Flux recto-verso (Duplex stream)
 
 
 Un flux duplex est à la fois lisible et inscriptible. Un exemple est une prise réseau : vous pouvez lui envoyer des données et en recevoir d'elle.
@@ -6591,7 +6591,7 @@ socket.write("Welcome!\n")
 
 socket.on("data", (chunk) => {
 console.log("Received:",
-chunk.toString()  // we convert the chunk of data from Buffer to string
+chunk.toString()  // nous convertissons le bloc de donnéee stocké dans un buffer en une chaine de caractères
 )
 })
 })
@@ -6610,7 +6610,7 @@ Dans cet exemple :
 - Vous pouvez y `écrire()` et aussi écouter les événements `data` qu'il émet.
 
 
-### Transformer les flux
+### Flux de transformation (Transform streams)
 
 
 Un flux de transformation est un flux duplex qui modifie également les données qui le traversent.
@@ -6626,13 +6626,13 @@ Voici comment compresser un fichier à l'aide d'un flux de transformation :
 const fs = require("fs")
 const zlib = require("zlib")
 
-const readable = fs.createReadStream("bigfile.txt")     // create a readable stream that reads from a file
-const zip = zlib.createGzip()                           // create a transform stream that compresses data
-const writable = fs.createWriteStream("bigfile.txt.gz") // create a writable stream that writes to a file
+const readable = fs.createReadStream("bigfile.txt")     // crée un flux lisible qui lit depuis un fichier
+const zip = zlib.createGzip()                           // crée un flux de transformation qui compresse les données
+const writable = fs.createWriteStream("bigfile.txt.gz") // crée un flux inscriptible qui écrit dans un fichier
 
-readable          // take the readable stream
-.pipe(zip)      // pipe it into the transform stream to compress the data
-.pipe(writable) // then pipe it into the writable stream that saves the data to a zipped file
+readable          // prend le flux lisible
+.pipe(zip)      // puis le relie au flux de transformation qui compresse les donnéess 
+.pipe(writable) // puis le relie au flux inscriptible qui écrit dans un fichier zippé
 
 writable.on("finish", () => {
 console.log("File compressed.")
@@ -6640,7 +6640,7 @@ console.log("File compressed.")
 ```
 
 
-Et de la décompresser :
+Et voici comment le décompresser :
 
 
 ```javascript
@@ -6656,13 +6656,13 @@ console.log("File decompressed.")
 ```
 
 
-Les flux de transformation sont très utiles pour des tâches telles que la compression, le cryptage ou le changement de format de fichier pendant la diffusion.
+Les flux de transformation sont très utiles pour des tâches telles que la compression, le chiffrement ou le changement de format de fichier pendant la diffusion.
 
 
-### Contre-pression
+### Contre-pression (Backpressure)
 
 
-Il arrive qu'un flux inscriptible soit lent à traiter les données. Si nous continuons à envoyer des données à un flux inscriptible plus rapidement qu'il ne peut le faire, nous risquons de rencontrer des problèmes. C'est ce qu'on appelle la **rétropression**.
+Il arrive qu'un flux inscriptible soit lent à traiter les données. Si nous continuons à envoyer des données à un flux inscriptible plus rapidement qu'il ne peut le faire, nous risquons de rencontrer des problèmes. C'est ce qu'on appelle la **contre-pression**.
 
 
 Si vous appelez la méthode `.write()` sur un flux inscriptible, elle renvoie un booléen qui vous informe si le flux a besoin d'une pause ; vous devrez peut-être vérifier sa valeur de retour, comme ceci :
@@ -6673,26 +6673,26 @@ const fs = require("fs")
 
 const readable = fs.createReadStream("example.txt")
 const writable = fs.createWriteStream("copy.txt")
-r
-readable.on("data", chunk => {               // each chunk of data we read from the readable stream...
 
-const canContinue = writable.write(chunk)  // ...we send it to the writable, which returns us a boolean to confirm we can continue
+readable.on("data", chunk => {               // chaque bloc de donnée que nous lisons depuis le flux lisible...
 
-if (!canContinue) { readable.pause() }     // ...if we can't, we temporarily pause reading
+const canContinue = writable.write(chunk)  // ...nous l'envoyons vers le flux inscriptible, qui nous retourne un booléen pour indiquer si nous pouvons continuer ou pas
+
+if (!canContinue) { readable.pause() }     // ...si nous ne pouvons pas, nous faisons une pause
 })
 
-writable.on("drain",                // the writable stream emits a "drain" event when the backpressure is gone
+writable.on("drain",                // le flux inscriptible émet un "drain" event, ou évènement "purge", lorsque la contre-pression a disparu
 
-() => { readable.resume() }      // so we resume reading (and writing)
+() => { readable.resume() }      // donc nous reprenons la lecture
 
 )
 ```
 
 
-Il s'agissait d'un exemple illustrant le transfert manuel de données d'un support lisible à un support inscriptible et la gestion manuelle de la contre-pression.
+Il s'agissait ci-dessus d'un exemple illustrant le transfert manuel de données d'un flux lisible vers un flux inscriptible et la gestion manuelle de la contre-pression.
 
 
-Habituellement, nous acheminons les données à l'aide de la méthode `.pipe()`, qui gère automatiquement la contre-pression.
+Généralement, nous choisissons d'utiliser la méthode `.pipe()` qui gère automatiquement la contre-pression.
 
 
 Vous n'avez donc à vous soucier de la contre-pression que lorsque, pour une raison quelconque, vous appelez manuellement `.write()`.
@@ -6712,7 +6712,7 @@ C'est exactement ce que je vous conseille de faire : après avoir appris les bas
 Ce que vous construisez n'a pas vraiment d'importance, ce qui compte c'est que vous vous mettiez au défi de résoudre des problèmes à l'aide du code.
 
 
-Les langages de programmation modernes sont incroyablement puissants, et NodeJS est probablement la meilleure boîte à outils à expérimenter dans cette phase de votre parcours.
+Les langages de programmation modernes sont incroyablement puissants, et NodeJS est probablement la meilleure boîte à outils à utiliser dans cette phase de votre parcours.
 
 
 Bonne chance !

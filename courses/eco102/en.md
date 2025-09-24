@@ -127,6 +127,7 @@ He first published the initial series of Economic Sophisms, in which he attacked
 
 The following year, he founded the "Association for Free Trade" in France and threw himself into the fight against protectionism in France. He raised funds, created a weekly review, and gave lectures throughout the country.
 The first meeting took place in Bordeaux on February 23, 1846, during which the Bordeaux Association for Free Trade was established. Soon, the movement spread throughout France. In Paris, an initial core was formed among the members of the Society of Economists, to which deputies, industrialists, and traders joined. Significant groups also formed in Marseille, Lyon, and Le Havre.
+
 ![image](assets/en/005.webp)
 
 The February Revolution of 1848 overthrew the monarchy of Louis-Philippe, known as the July Monarchy (1830-1848), and saw the advent of the Second Republic. Bastiat was then elected as a member of the legislative assembly as a deputy for Landes. He sat in the center-left, with Alexis de Tocqueville, between the monarchists and the socialists. There, he endeavored to defend individual liberties such as civil liberties and opposed all restrictive policies, whether they came from the right or the left. He was elected vice-president of the Finance Committee and constantly endeavored to remind his fellow deputies of this simple truth, often forgotten in parliaments:

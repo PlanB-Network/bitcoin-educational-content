@@ -71,7 +71,24 @@ Takže, neuznaný génius, ale také světlo pro naše časy. Skutečně, Fréd�
 ![image](assets/en/004.webp)
 
 Byl také filozofem a myslitelem o společnosti, sociálním řádu, spravedlnosti, zákonu, myslitelem práv. A v tomto ohledu můžeme říci, že Bastiat je světlem pro naše časy. A s tím bych chtěl zakončit. Je to někdo, kdo se snažil pochopit fungování politického trhu. Samozřejmě je také obráncem tržní ekonomiky, pro koho je nakonec tržní ekonomika nejlepším způsobem, jak vytvářet bohatství. Ale kromě toho, a to je místo, kde je neuznán, pochopil mechanismy politického trhu.
+
+![image](assets/en/005.webp)
+
 Když byl zvolen poslancem, bylo to během Druhé republiky, a od tohoto bodu dále byli to lidé, kdo tvořili zákony. V té době Bastiat byl svědkem jakési inflace zákonů ve všech směrech, včetně vytváření veřejných služeb, sociálních práv, daní atd.
+
+![image](assets/en/006.webp)
+
+---
+
+>**NATIONAL WORKSHOPS**  
+>**AGENDA.**
+>Whereas the workers enrolled in the National Workshops have justly requested that the available work be distributed among them as equally and fairly as possible;  
+>Whereas work exists only for 16,000 men, and the number of enrolled men exceeds 50,000;  
+>It is agreed that, until further notice and pending better arrangements, each company shall work two days per week starting Monday the 17th.  
+>_The Commissioner of the Republic, Director of the National Workshops,_  
+>**Émile THOMAS.**
+
+---
 
 A uvědomil si, že v zásadě se ve skutečnosti nic nezměnilo. Lidé disponovali majetkem jiných prostřednictvím hlasování a zákona, což nazval legálním lupičstvím. Tento fenomén legálního lupičství byl v centru jeho díla, zejména v této krátké textu, který napsal ke konci svého života, "Zákon," kde kontrastuje legální lupičství s majetkem, právem na majetek. Ukazuje, že zásadně skutečným řešením sociálního problému je svoboda, to jest majetek, kontrola nad sebou a plody své práce.
 
@@ -83,23 +100,36 @@ V tomto kurzu společně procestujeme myšlenkami Frédérica Bastiata, začneme
 
 V roce 1844 podnikl Frédéric Bastiat obchodní cestu do Španělska. Po pobytu v Madridu, Seville, Cadizu a Lisabonu se rozhodl odplout do Southamptonu a navštívit Anglii. V Londýně měl příležitost zúčastnit se schůzek Anti-Corn Law League (Ligy proti obilným zákonům), jejíž práci sledoval zpovzdálí. Setkal se s hlavními vůdci této asociace, včetně Richarda Cobdena, který se stal jeho přítelem.
 
+![image](assets/en/007.webp)
+
 Právě tam se radikálně změnil směr jeho života. Sám vypráví, že v tom okamžiku bylo rozhodnuto o jeho povolání ekonoma. Po návratu do Francie měl na mysli jen jednu myšlenku: uvědomit Francii o liberálním hnutí, které v Anglii vzkvétalo.
 Frédéric Bastiat se narodil v Bayonne 30. června 1801. V devíti letech osiřel a svá studia absolvoval na katolické koleji v Sorèze. Byl nadán pro jazyky, naučil se anglicky, španělsky a dokonce i baskicky. Jeho studia ho však nepřitahovala a rozhodl se nekonat maturitní zkoušku, místo toho začal pracovat v dovozově-vývozovém podniku svého strýce v Bayonne.
 
 V roce 1825 zdědil zemědělský statek po svém dědečkovi, který spravoval jako "gentleman-farmer", jak o sobě sám říkal. Tehdy se poprvé setkal s problémy způsobenými nedostatkem jasné definice vlastnických práv. Rozhodl se stát soudcem míru ve svém městě Mugron, v srdci Landes, obchodním a říčním křižovatkou mezi přístavy Bordeaux a Bayonne. Později byl zvolen členem Generální rady Landes.
 
+![image](assets/en/008.webp)
+
+
 Rychle se zapálil pro politickou ekonomii a studoval díla Adama Smithe, Jean-Baptista Saya, Destutta de Tracyho, Charlese Dunoyera a Charlese Comta. Četl anglické noviny a tam se dozvěděl o existenci anglické ligy pro volný obchod.
+
+![image](assets/en/009.webp)
 
 _(Say, Cobden, Smith, Chevalier, Dunoyer, Destutt de Tracy)_
 
 Po návratu z Anglie napsal článek s názvem: "O vlivu anglických a francouzských tarifů na budoucnost obou národů", který poslal do Journal des Économistes v Paříži. Článek vyšel v říjnovém čísle roku 1844 a byl úplným úspěchem. Všichni obdivovali jeho silnou a pronikavou argumentaci, střídmý a elegantní styl.
 
+![image](assets/en/010.webp)
+
 Journal des Économistes pak po něm požadoval další články a několik členů Společnosti pro politickou ekonomii, zejména Horace Say, syn Jean-Baptista Saya, a Michel Chevalier, renomovaný profesor, mu blahopřáli a povzbuzovali ho, aby s nimi pokračoval v práci na šíření ekonomických pravd. To znamenalo začátek nového života v Paříži.
 
 Nejprve publikoval úvodní sérii Ekonomických sofismů, ve kterých útočil na protekcionisty s odvahou a ironií. V Paříži dokonce zahájil kurz politické ekonomie v soukromé místnosti, který s nadšením navštěvovala studentská elita.
 
+![image](assets/en/011.webp)
+
 Následující rok založil ve Francii "Asociaci pro volný obchod" a vrhl se do boje proti protekcionismu ve Francii. Shromažďoval finanční prostředky, vytvořil týdeník a pořádal přednášky po celé zemi.
-První setkání se konalo v Bordeaux 23. února 1846, během něhož byla založena Bordeauxská asociace pro volný obchod. Brzy se hnutí rozšířilo po celé Francii. V Paříži bylo mezi členy Společnosti ekonomů vytvořeno počáteční jádro, ke kterému se přidali poslanci, průmyslníci a obchodníci. Významné skupiny se také formovaly v Marseille, Lyonu a Le Havre.![image](assets/en/005.webp)
+První setkání se konalo v Bordeaux 23. února 1846, během něhož byla založena Bordeauxská asociace pro volný obchod. Brzy se hnutí rozšířilo po celé Francii. V Paříži bylo mezi členy Společnosti ekonomů vytvořeno počáteční jádro, ke kterému se přidali poslanci, průmyslníci a obchodníci. Významné skupiny se také formovaly v Marseille, Lyonu a Le Havre.
+
+![image](assets/en/005.webp)
 
 Únorová revoluce roku 1848 svrhla monarchii Ludvíka Filipa, známou jako Červencová monarchie (1830-1848), a znamenala příchod Druhé republiky. Bastiat byl poté zvolen členem zákonodárného shromáždění jako poslanec za Landes. Seděl ve středolevém bloku s Alexisem de Tocquevillem mezi monarchisty a socialisty. Zde se snažil obhajovat individuální svobody, jako jsou občanské svobody, a oponoval všem restriktivním politikám, ať už pocházely z pravice nebo z levice. Byl zvolen místopředsedou Finančního výboru a neustále se snažil připomínat svým kolegům poslancům tuto jednoduchou pravdu, která je v parlamentech často zapomínána:
 
@@ -217,6 +247,8 @@ Náš autor nejde tak daleko, aby politickou ekonomii definoval jako vědu o vý
 
 Podle Destutta de Tracy nezbytně vlastnictví pramení z naší povahy, z naší schopnosti touhy. Kdyby člověk nic nechtěl, neměl by ani práva ani povinnosti. Aby mohl uspokojit své potřeby a plnit své povinnosti, musí člověk využívat prostředky, které získává svou prací. A forma sociální organizace, která odpovídá tomuto cíli, je soukromé vlastnictví. Proto je jediným předmětem vlády ochrana majetku a umožnění mírové výměny.
 
+![image](assets/en/028.webp)
+
 Pro něj jsou nejlepší daně ty nejmírnější a přeje si, aby výdaje státu byly co nejvíce omezeny. Odsuzuje drancování společenského bohatství vládou ve formě veřejného dluhu, daní, bankovních monopolů a výdajů. Znovu, zákon by měl sloužit pouze k ochraně svobody; nikdy by neměl drancovat.
 
 Nakonec přidává toto doporučení, které si neztratilo na aktuálnosti:
@@ -239,20 +271,34 @@ Pro Comteho a Dunoyera je drancování, což znamená všechny formy násilí vy
 Pokud Frédéric Bastiat vděčí za své ekonomické vzdělání Smithovi, Destutt de Tracy a Sayovi, své politické vzdělání dluží vůdcům časopisu Le Censeur, Charlesovi Comteovi a Charlesovi Dunoyerovi.
 Tento časopis (1814-1819), přejmenovaný na Le Censeur européen po Sto dních, šířil liberální myšlenky, které zvítězily v roce 1830 s povstáním Tří slavných dnů a nástupem vévody z Orléans, Ludvíka Filipa I. k moci.
 
+![image](assets/en/031.webp)
+
+![image](assets/en/032.webp)
+
 Charles Comte, bratranec Augusta Comta a zeť Saya, je zakladatelem časopisu. Brzy se k němu přidal Charles Dunoyer, právník jako on, a poté mladý historik, Augustin Thierry, bývalý sekretář Saint Simona. Jejich heslo na titulní straně každého vydání časopisu bylo "Mír a Svoboda".
 
 Jaký je cíl časopisu? Název mluví sám za sebe: cenzurovat vládu. Bojovat proti svévoli moci osvětlováním veřejného mínění, bránit svobodu tisku.
+
+![image](assets/en/033.webp)
+_(Benjamin Constant)_
 
 Od Benjamina Constanta přejímají rozlišení mezi Starověkými a Moderními, charakterizované na jedné straně válkou a na druhé obchodem a průmyslem. Ale přidávají s Sayem, že politická ekonomie poskytuje nejlepší vysvětlení sociálních jevů. Zvláště si uvědomují, že národy dosahují míru a prosperity, když jsou respektována práva na vlastnictví a svobodný obchod. Odteď pro ně politická ekonomie představuje pravý a jediný základ politiky. Filozofii, která se omezuje na abstraktní kritiku forem vlády, musí být nahrazena teorií založenou na znalosti ekonomických zájmů.
 Politická ekonomie tím, že ukazuje, jak národy prosperují a upadají, položila pravé základy politiky.
 
 > Dunoyer
 
+![image](assets/en/034.webp)
+
+
 Tato nová sociální teorie obsahuje jeden z prvků, který by se stal základním kamenem vědeckého socialismu Marxe a Engelse: třídní boj. Ale v čem spočívá liberální teorie třídního boje a jak se liší od marxismu?
 
 Začíná to jedincem, který jedná, aby uspokojil své potřeby a touhy. V okamžiku, kdy někdo tvoří, tj. zvyšuje užitečnost věcí, zvyšuje jejich hodnotu, zapojuje se do průmyslu. Zde průmyslník není majitel průmyslu, jak by současný jazyk mohl naznačovat, ale výrobce, bez ohledu na obor, ve kterém pracuje. Proto se jejich teorie nazývá industrialismus. Tvrdí, že cílem společnosti je tvorba užitečnosti v širokém smyslu, tj. zboží a služeb užitečných pro lidi.
 
 V tomto bodě se jednotlivci setkávají se dvěma základními alternativami: mohou plenit bohatství vyprodukované jinými, nebo mohou pracovat na výrobě bohatství sami. V každé společnosti lze jasně rozlišit ty, kteří žijí z plenění, od těch, kteří žijí z produkce. Za Ancien Régime přímo napadala šlechta nejpracovitější, aby žila z nové formy tributu: daně. Dravou šlechtu vystřídaly hordy byrokratů, nikoli méně dravých.
+
+![image](assets/en/035.webp)
+
+
 Zatímco pro Marxe je třídní antagonismus situován přímo v rámci produktivní činnosti, mezi zaměstnanci a zaměstnavateli, pro Comta a Dunoyera jsou konfliktní třídy na jedné straně producenti společnosti, kteří platí daně (včetně kapitalistů, pracovníků, rolníků, učenců atd.) a na druhé straně neproducenti, kteří žijí z rent financovaných daněmi, "nečinná a požírající třída" (úředníci, politici, příjemci dotací nebo ochran).
 
 Poté, na rozdíl od Marxe, autoři Censeur Européen neobhajují třídní boj. Místo toho vedou kampaň za sociální mír. A to, podle nich, lze dosáhnout pouze depolitizací společnosti. Za tímto účelem je důležité nejprve snížit prestiž a výhody veřejných úřadů. Poté je důležité dát vliv v politickém tělese producentům.
@@ -283,11 +329,18 @@ Tento ekonomický boj za volný obchod by zaměstnal celou Anglii až do roku 18
 Byla to tato kampaň za volný obchod po celém království, s desítkami tisíc členů, která rozdmýchala Bastiatovo pero a radikálně a definitivně změnila směr jeho života.
 
 Ligu lze přirovnat k putovní univerzitě, která ekonomicky vzdělávala ty, kteří se jejích setkání účastnili po celé zemi - obyčejné lidi, průmyslníky, pěstitele a farmáře, které Liga vzala pod svá křídla a jejichž zájmy obilné zákony potlačovaly. Richard Cobden byl duší hnutí a vynikajícím agitátorem.
+
+![image](assets/en/040.webp)
+
 Fascinující a formidabilní řečník, měl neobyčejný dar vymýšlet působivé a stručné fráze, daleko od abstraktních diskurzů ekonomů.
 
 > Co je to monopol na chléb? zvolal. Je to nedostatek chleba. Budete překvapeni, když se dozvíte, že legislativa této země, v této věci, nemá jiný účel, než vyprodukovat co největší nedostatek chleba. A přesto to není nic jiného. Legislativa může svůj cíl dosáhnout pouze prostřednictvím nedostatku.
 
+![image](assets/en/041.webp)
+
 V roce 1845 Bastiat v Paříži publikoval svou knihu Cobden a Liga, s jeho překlady doplněnými komentáři. Kniha začíná úvodem o ekonomické situaci Anglie, o historii vzniku a pokroku Ligy. Od roku 1815 byl v Anglii velmi rozvinutý protekcionismus. Existovaly zejména zákony omezující dovoz obilí, které měly pro lid velmi tvrdé důsledky. Pšenice byla totiž nezbytná pro výrobu chleba, v té době životně důležitého zboží. Navíc tento systém upřednostňoval aristokracii, tedy velké pozemkové vlastníky, kteří z něj čerpali renty.
+
+![image](assets/en/042.webp)
 
 > Co v Anglii souexistuje, napsal Bastiat, je malý počet lupičů a velký počet oloupených, a není třeba být velkým ekonomem, aby se došlo k závěru o bohatství prvních a bídě druhých.
 
@@ -299,6 +352,7 @@ Cílem Ligy bylo mobilizovat veřejné mínění, aby vyvíjelo tlak na parlamen
 - Zvýší efektivitu zemědělství a průmyslu prostřednictvím konkurence
 - Podpoří mír mezi národy
 
+![image](assets/en/043.webp)
 _(Jeremy Bentham)_
 
 Jakožto učedník Benthamova utilitarismu bylo Cobdenovo přesvědčení, že svoboda práce a obchodu přímo slouží zájmům nejpočetnějších, nejchudších a nejvíce trpících mas společnosti. Naopak, clo jako nástroj libovolných zákazů a privilegií mohlo prospívat pouze určitým nejmocnějším průmyslovým odvětvím.
@@ -431,7 +485,12 @@ Protekcionismus je také formou třídního boje. Podle Bastiata je to systém z
 ![obrázek](assets/en/060.webp)
 
 Bastiat se pevně postavil na stranu spotřebitelů. Proti třídnímu zájmu klade obecný zájem, který je zájmem spotřebitele, tedy zájmem každého. Vždy z pohledu spotřebitele by se měl stát postavit, když jedná.
-S únorovou revolucí 1848 a jejími barikádami se objevil nepřítel nebezpečnější než protekcionismus, a to nepřítel, s nímž sdílí mnoho společných rysů: socialismus. Co to je? Je to politické hnutí, které požaduje organizaci práce zákonem, znárodnění průmyslu a bank a redistribuci bohatství prostřednictvím zdanění. Bastiat nyní věnoval veškerou svou energii, talent a spisy boji proti této nové doktríně, která by mohla vést pouze k exponenciálnímu růstu moci a věčnému třídnímu boji. Tak se od prvních dnů revoluce připojil k krátkodobě vydávaným novinám s názvem "La République Française," které se rychle staly známými jako kontrarevoluční časopis. To byla doba, kdy psal své pamflety o majetku, státu, loupeži a zákonu.
+
+S únorovou revolucí 1848 a jejími barikádami se objevil nepřítel nebezpečnější než protekcionismus, a to nepřítel, s nímž sdílí mnoho společných rysů: socialismus.
+
+![image](assets/en/061.webp)
+
+Co to je? Je to politické hnutí, které požaduje organizaci práce zákonem, znárodnění průmyslu a bank a redistribuci bohatství prostřednictvím zdanění. Bastiat nyní věnoval veškerou svou energii, talent a spisy boji proti této nové doktríně, která by mohla vést pouze k exponenciálnímu růstu moci a věčnému třídnímu boji. Tak se od prvních dnů revoluce připojil k krátkodobě vydávaným novinám s názvem "La République Française," které se rychle staly známými jako kontrarevoluční časopis. To byla doba, kdy psal své pamflety o majetku, státu, loupeži a zákonu.
 Dne 27. června 1848, den po krvavém novém povstání v Paříži, v dlouhém dopise Richardu Cobdenovi, se zamýšlel nad příčinami, které mohly vést k těmto událostem.
 
 - 1° První z těchto příčin je ekonomická nevědomost. Právě ona připravuje mysl k přijetí utopií socialismu a falešného republikanismu. Odkazuji na předchozí video o tendencích klasického a univerzitního vzdělávání v tomto bodě.
@@ -587,8 +646,10 @@ Protekcionismus se také opírá o skrytý sylogismus, který se ukazuje být kl
 - Čím více pracujeme, tím jsme bohatší;
 - Čím více překážek musíme překonat, tím více pracujeme;
 - Tedy, čím více překážek musíme překonat, tím jsme bohatší.
-  Ilustrujme tuto absurditu několika krátkými příběhy, které vyprávěl Bastiat. V kapitole III druhé série Ekonomických sofismů si představuje tesaře, který píše ministrovi petici žádající o protekcionistickou legislativu. Tesař takto formuluje svou žádost: Pane ministře, vytvořte zákon, který stanoví, že "Nikdo nesmí používat trámy a nosníky vyrobené z tupých seker." Jinými slovy, vytvořte zákon, který zakazuje používání ostrých seker ve Francii. Tam, kde se normálně udělí 100 sekerových úderů, bude nutné udělit 300. Tesaři budou mít velkou poptávku a tudíž budou lépe placeni.
-  ![image](assets/en/081.webp)
+
+Ilustrujme tuto absurditu několika krátkými příběhy, které vyprávěl Bastiat. V kapitole III druhé série Ekonomických sofismů si představuje tesaře, který píše ministrovi petici žádající o protekcionistickou legislativu. Tesař takto formuluje svou žádost: Pane ministře, vytvořte zákon, který stanoví, že "Nikdo nesmí používat trámy a nosníky vyrobené z tupých seker." Jinými slovy, vytvořte zákon, který zakazuje používání ostrých seker ve Francii. Tam, kde se normálně udělí 100 sekerových úderů, bude nutné udělit 300. Tesaři budou mít velkou poptávku a tudíž budou lépe placeni.
+
+![image](assets/en/081.webp)
 
 V kapitole XVI je další velmi ironický text, nazvaný: Pravá ruka a levá ruka. Po vyšetřování královský vyslanec sepíše zprávu, ve které navrhuje králi, aby se všem pracovníkům uřízly, nebo alespoň svázaly, všechny pravé ruce. Tím, pokračuje, práce a tudíž i bohatství vzrostou. Produkce se stane mnohem obtížnější, což si vyžádá masivní najímání další pracovní síly a zvýšení mezd. Chudoba zmizí ze země.
 
@@ -596,6 +657,8 @@ Následujíc tuto logiku vytváření pracovních míst za každou cenu, proč t
 
 Toto zaměňování prostředků a cílů najdeme ve sloganu "peníze jsou bohatství."
 Toto je axiom, který řídí měnovou politiku většiny států. Skutečně, umělé zvýšení množství peněz umožňuje bankám půjčovat peníze jednotlivcům a státům snadno splácet jejich dluh, to je "to, co vidíme". Ale "to, co nevidíme" je, že toto vytváření peněz, nezaložené na žádném skutečném vytváření bohatství, povede k inflaci a zruinování spořitelů.
+
+![image](assets/en/082.webp)
 
 Pravé bohatství, podle Bastiata, je tedy soubor užitečných věcí, které vyrábíme prací, abychom uspokojili naše potřeby. Peníze jsou tak pouze běžně používaným prostředkem výměny, hrají pouze roli prostředníka.
 
@@ -641,7 +704,12 @@ Problém je, že daně, jak jsou pojaty, podléhají libovůli těch u moci. Pod
 
 To je důvod, proč Bastiat již pochopil Lafferovu křivku. Arthur Laffer je americký ekonom známý svou slavnou "křivkou" (elipsou), publikovanou v roce 1974, která ukazuje, že výnos z daní se zvyšuje se snižováním daňové sazby. Jedná se o teorii o klesajícím výnosu z nadměrného zdanění.
 
-> Příliš mnoho daní zabíjí daně.
+![image](assets/en/087.webp)
+
+
+> Too much tax kills the tax.  
+>  
+> Arthur Laffer  
 
 Politici naivně předpokládají, že mezi daňovými sazbami a daňovými příjmy existuje automatický a pevný vztah. Myslí si, že mohou zdvojnásobit daňové příjmy zdvojnásobením daňové sazby. Podle Laffera takový přístup přehlíží skutečnost, že daňoví poplatníci mohou změnit své chování v reakci na nové pobídky.
 
@@ -650,6 +718,10 @@ Politici naivně předpokládají, že mezi daňovými sazbami a daňovými př�
 Lafferova křivka ukazuje, že vláda nevybírá žádné příjmy, když jsou daňové sazby na 100%. Naopak, jakékoli snížení daní slouží k stimulaci ekonomické aktivity a tím i státních příjmů. Skutečně, snížení okrajových daňových sazeb stimuluje investice, práci, kreativitu a tím podporuje ekonomický růst. Dostatečné snížení by mohlo vyvolat dostatečný ekonomický stimul k výraznému rozšíření daňové základny a zvýšení veřejných příjmů.
 
 Bastiat by mohl dodat, že stejný důraz by měl být kladen na snižování státních výdajů jako na snižování daní. Nicméně, jak tak trefně řekla Margaret Thatcherová, žákyně Frédérica Bastiata:
+
+![image](assets/en/089.webp)
+
+
 Cílem není udělat z bohatých chudé, ale z chudých bohaté." A to řekla, když oslovila socialisty.
 
 ## Dvě morálky
@@ -658,11 +730,15 @@ Cílem není udělat z bohatých chudé, ale z chudých bohaté." A to řekla, k
 
 Každý zná Tartuffa nebo Podvodníka, komedii od Molièra, ve které chytrý náboženský fanatik se snaží svést Elmire a podvést jejího manžela Orgona. Jak se může člověk chránit před podvody takového pokrytce, který předstírá, že vám chce prospět, zatímco proti vám spikne?
 
+![image](assets/en/090.webp)
+
 Bastiat poznamenává, že existují dva způsoby, jak ukončit tento druh podvodu: napravit Tartuffa nebo osvětlit Orgona. Samozřejmě, Tartuffové vždy budou, ale jejich schopnost škodit by byla mnohem menší, kdyby bylo méně Orgonů, kteří by jim naslouchali.
 
 Slabost lidského rozumu je u kořene zneužívání svobody. Je to hlavní omezení lidí a příčina mnoha zel. Proto je nutné osvětlit svědomí o užitečné nebo škodlivé, a tím spravedlivé nebo nespravedlivé povaze lidských činů, ať už jednotlivých nebo kolektivních.
 
 Existují však dva doplňující způsoby, jak osvětlit úsudek občanů, jak Bastiat nastiňuje v kapitole druhé série Ekonomických sofismů nazvané "Dvě morálky".
+
+![image](assets/en/091.webp)
 
 - První je "filozofická nebo náboženská morálka", která působí čištěním a opravou lidského jednání (člověk jako aktér)
 - Potom existuje "ekonomická morálka", která ukazuje člověku "nezbytné důsledky jeho činů" (člověk jako pacient)
@@ -744,6 +820,10 @@ V epizodě svého televizního seriálu Free to Choose analyzuje různé kompone
 ![image](assets/en/098.webp)
 
 Friedrich Hayek ve svém eseji "Využití znalostí ve společnosti" z roku 1945 již vysvětlil, proč jsou tržní ekonomika a decentralizace rozhodnutí zásadní pro prosperitu. Podle Hayeka žádný centrální plánovač nebo byrokrat by nikdy nemohl mít dostatečné znalosti k úspěšnému řízení celku ekonomických akcí. Pouze cenový systém na volném trhu umožňuje milionům nezávislých aktérů rozhodnout sami, jak efektivně alokovat zdroje.
+
+![image](assets/en/099.webp)
+
+
 Ekonomické plánování, které tvrdí, že dokáže fungovat lépe než trh, vede nejen k špatnému rozdělení zdrojů, ale také k hegemonii jedné třídy nad druhou. To je důvod, proč socialismus není jen intelektuální omyl, ale omyl, který nakonec generuje obrovskou nespravedlnost.
 
 ## Svoboda a odpovědnost jsou klíčem k sociálnímu problému
@@ -1028,7 +1108,11 @@ Pro něj musí být účelem zákona jednoduše "ukončit veškerou loupež." Po
 Jsou si jisti, že jejich přirozená práva jsou zaručena a nedotknutelná. Bezpečná práva k vlastnictví dávají lidem možnost dělat dlouhodobé plány, protože vědí, že jejich majetek je chráněn před loupeží.
 
 > Absence loupeže, — je to princip spravedlnosti, míru, pořádku, stability, smíření, zdravého rozumu, který budu vyhlašovat se vší silou, bohužel! nedostatečnou, mých plic, až do mého posledního dechu
-> Bastiat napsal v díle "Zákon" krátce před svou smrtí. Sto let po smrti Frédérica Bastiata je právní loupež zřetelně patrná v Univerzální deklaraci lidských práv z roku 1948, zejména v jejích článcích 22 ("každý má právo na sociální zabezpečení"), 23 ("každý má právo na práci"), 24 ("každý má právo na odpočinek a volný čas"), 25 ("každý má právo na životní úroveň dostatečnou pro zdraví a blahobyt"), 26 ("každý má právo na vzdělání").
+> Bastiat napsal v díle "Zákon" krátce před svou smrtí. 
+
+![image](assets/en/131.webp)
+
+Sto let po smrti Frédérica Bastiata je právní loupež zřetelně patrná v Univerzální deklaraci lidských práv z roku 1948, zejména v jejích článcích 22 ("každý má právo na sociální zabezpečení"), 23 ("každý má právo na práci"), 24 ("každý má právo na odpočinek a volný čas"), 25 ("každý má právo na životní úroveň dostatečnou pro zdraví a blahobyt"), 26 ("každý má právo na vzdělání").
 
 ## Role zákona a státu
 

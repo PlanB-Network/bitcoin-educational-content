@@ -1417,13 +1417,13 @@ Wyobraźmy sobie, że kupujący chce wysłać 30 000 satów do sprzedającego i 
 ### Strategie zarządzania płynnością
 
 
-Płacący muszą zapewnić utrzymanie wystarczającej płynności po swojej stronie kanałów, aby zagwarantować płynność wychodzącą. Okazuje się to stosunkowo proste, ponieważ wystarczy otworzyć nowe kanały Lightning, aby uzyskać tę płynność. Rzeczywiście, początkowe środki zablokowane adresem wielopodpisowym w łańcuchu bloków są  na początku całkowicie po stronie płacącego w kanale Lightning. Zdolność płatnicza jest zatem zapewniona tak długo, jak długo kanały z wystarczającą ilością środków są otwarte. Gdy płynność wychodząca zostanie wyczerpana, wystarczy otworzyć nowe kanały.
+Płacący muszą zapewnić utrzymanie wystarczającej płynności po swojej stronie kanałów, aby zagwarantować płynność wychodzącą. Okazuje się to stosunkowo proste - wystarczy otworzyć nowe kanały Lightning. Rzeczywiście, na początku środki zablokowane adresem wielopodpisowym w łańcuchu bloków są w kanale Lightning w całości po stronie płacącego. Zdolność płatnicza jest zatem zapewniona tak długo, jak długo kanały z wystarczającą ilością środków są otwarte. Gdy płynność wychodząca zostanie wyczerpana, wystarczy otworzyć nowe kanały.
 
-Z drugiej strony, dla sprzedawcy zadanie jest bardziej złożone. Aby móc otrzymywać płatności, muszą mieć płynność po przeciwnej stronie swoich kanałów. Dlatego otwarcie kanału nie wystarczy: muszą oni również dokonać płatności w tym kanale, aby przenieść płynność na drugą stronę, zanim będą mogli sami otrzymywać płatności. W przypadku niektórych profili użytkowników sieci Lightning, takich jak handlowcy, istnieje wyraźna dysproporcja między tym, co ich węzeł wysyła, a tym, co otrzymuje, ponieważ celem firmy jest przede wszystkim zarobienie więcej niż wydaje, aby przynieść sobie zysk. Na szczęście dla użytkowników z określonymi potrzebami w zakresie płynności przychodzącej istnieje kilka rozwiązań:
+Z drugiej strony, dla sprzedawcy zadanie jest bardziej złożone. Aby móc otrzymywać płatności, musi mieć płynność po przeciwnej stronie swoich kanałów. Dlatego otwarcie kanału nie wystarczy: sprzedający musi również dokonać płatności w tym kanale, aby przenieść płynność na drugą stronę, zanim będzie mógł sam otrzymywać płatności. W przypadku niektórych profili użytkowników sieci Lightning, takich jak handlowcy, istnieje wyraźna dysproporcja między tym, co ich węzeł wysyła, a tym, co otrzymuje, ponieważ celem firmy jest przede wszystkim zarobienie więcej niż wydaje, aby przynieść sobie zysk. Na szczęście dla użytkowników z określonymi potrzebami w zakresie płynności przychodzącej istnieje kilka rozwiązań:
 
 
 
-- **Przyciąganie kanałów**: Sprzedawca korzysta z przewagi wynikającej z wolumenu płatności przychodzących oczekiwanych na jego węźle. Biorąc to pod uwagę, mogą próbować przyciągnąć węzły routingu, które szukają dochodu z opłat transakcyjnych i które mogą otworzyć kanały w ich kierunku, mając nadzieję na przekierowanie ich płatności i pobranie powiązanych opłat.
+- **Przyciąganie kanałów**: Sprzedawca korzysta z przewagi wynikającej z wolumenu płatności przychodzących oczekiwanych na jego węźle. Biorąc to pod uwagę, może próbować przyciągnąć węzły routingu, które szukają dochodu z opłat transakcyjnych i które mogą otworzyć kanały w jego kierunku, mając nadzieję na przekierowanie płatności i pobranie powiązanych opłat.
 
 
 
@@ -1444,12 +1444,12 @@ Z drugiej strony, dla sprzedawcy zadanie jest bardziej złożone. Aby móc otrzy
 ![LNP201](assets/en/74.webp)
 
 
-Wreszcie, routery, których celem jest maksymalizacja liczby przetwarzanych płatności i pobieranych opłat, muszą:
+Wreszcie, węzły przekierowujące, których celem jest maksymalizacja liczby przetwarzanych płatności i pobieranych opłat, muszą:
 
 
 
-- Otwórz dobrze finansowane kanały ze strategicznymi węzłami.
-- Regularne dostosowywanie dystrybucji środków w kanałach do potrzeb sieci.
+- Otworzyć dobrze finansowane kanały ze strategicznymi węzłami.
+- Regularne dostosowywać dystrybucję środków w kanałach do potrzeb sieci.
 
 
 ### Usługa Loop Out

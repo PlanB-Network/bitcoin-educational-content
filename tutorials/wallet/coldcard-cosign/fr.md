@@ -130,7 +130,7 @@ Clé A= Coldcard Q master seed
 Clé B= Backup Key (qu'on vient d'importer depuis un second appareil Coldcard)
 Clé C= Spending Policy Key (qui si elle est utilisée pour signer, impose les conditions de dépense prédéfinie)
 
-### Exporter le wallet multisig 2-sur-3 vers Sparrow Wallet 
+## Exporter le wallet multisig 2-sur-3 vers Sparrow Wallet 
 
 Il nous faut maintenant exporter notre wallet multisig vers Sparrow afin de pouvoir y déposer nos premiers satoshis.
 
@@ -214,7 +214,7 @@ Pas de problème cette fois, aucun message d'alerte n'apparait et quand on impor
 
 
 
-### Exporter le wallet multisig 2-sur-3 vers Nunchuk
+## Exporter le wallet multisig 2-sur-3 vers Nunchuk
 
 [Plan ₿ Network - Nunchuk](https://planb.network/fr/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa)
 
@@ -306,7 +306,7 @@ Puis choisissez **"Export via BBQR"**, et scannez le QR code affiché à l'aide 
 
 ![Co-Sign](assets/fr/45.webp)
 
-Votre ColdcardQ vous affiche un avertissement, qui si on fait défiler l'écran jusqu'en bas, nous indique que notre transaction viole les conditions de dépense comme attendu. On voit par exemple que l'appareil ne nous indique pas le détail des conditions de dépenses non respectées, pour éviter qu'une éventuel attaquant ait accès à des informations lui permettant de contourner les restrictions.
+Votre ColdcardQ vous affiche un avertissement, qui si on fait défiler l'écran jusqu'en bas, nous indique que notre transaction viole les conditions de dépense comme attendu. On voit par exemple que l'appareil ne nous indique pas le détail des conditions de dépenses non respectées, pour éviter qu'un éventuel attaquant ait accès au détail des transactions de dépenses configurées.
 
 
 ![Co-Sign](assets/fr/46.webp)
@@ -322,6 +322,28 @@ Si on valide quand même en appuyant sur **"ENTER"**  le QR code de la transacti
 
 Réalisons exactement la même opération, mais cette fois avec une transaction qui respecte la magnitude limite (21212 sats), et qui dépense les satoshis vers une adresse que l'on a préconfigurée.
 
-On envoie 12121 sats à une une des 2 adresses. Puis on exporte la transaction vers notre ColdCard comme déjà fait précédemment.
+On envoie 12121 sats à une une de nos 2 adresses. Puis on exporte la transaction vers notre ColdCard comme déjà fait précédemment.
 
 ![Co-Sign](assets/fr/49.png)
+
+
+Après avoir importé la transaction sur notre ColdCardQ, voyons voir ce qui nous est indiqué.
+On voit qu'un warning est toujours présent mais cette fois si on fait défiler l'écran jusqu'en bas on se rend compte qu'il s'agit ici de valider la transaction via le 2FA. Il nous est demandé de taper notre ColdCardQ à notre appareil NFC connecté à internet, ce que nous faisons.
+
+![Co-Sign](assets/fr/50.png)
+
+Une page web s'ouvre sur notre smartphone sur laquelle on nous demande de rentrer notre code 2FA ce que nous faisons grâce à Proton Authenticator.
+
+![Co-Sign](assets/fr/51.png)
+
+
+
+Puis scannez le code QR qui apparait pour signer la transaction. LA trnasaction est désormais siggnée par les 2 clés et donc valide.
+Si la fonctionnalité "Push Tx" est activé sur votre ColdCardQ vous broadcaster sur le réseau par un simple tap au dos de votre smartphone. 
+
+![Co-Sign](assets/fr/52.png)
+
+
+Si vous n'avez pas "Push tx" activé, alors importez la transaction signée sur Nunchuk, de la même manière que dans l'exemple  précédent, en scannant le QR code de votre transaction signée.
+
+![Co-Sign](assets/fr/53.png)

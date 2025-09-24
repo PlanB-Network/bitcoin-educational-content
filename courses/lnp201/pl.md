@@ -288,9 +288,9 @@ Kluczowe jest wyraźne rozróżnienie różnych poziomów wymiany w sieci Lightn
 
 
 
-- Komunikacja peer-to-peer (protokół Lightning)**: Są to wiadomości, które węzły Lightning wysyłają do siebie nawzajem w celu komunikacji. Na naszych diagramach będziemy reprezentować te wiadomości przerywanymi czarnymi liniami.
-- Kanały płatności (protokół Lightning)**: Są to ścieżki wymiany środków w sieci Lightning, które przedstawimy za pomocą ciągłych czarnych linii.
-- Transakcje w sieci Bitcoin (protokół Bitcoin)**: Są to transakcje dokonywane w łańcuchu bloków, które przedstawimy za pomocą pomarańczowych linii.
+- **Komunikacja peer-to-peer (protokół Lightning)**: Są to wiadomości, które węzły Lightning wysyłają do siebie nawzajem w celu komunikacji. Na naszych diagramach będziemy reprezentować te wiadomości przerywanymi czarnymi liniami.
+- **Kanały płatności (protokół Lightning)**: Są to ścieżki wymiany środków w sieci Lightning, które przedstawimy za pomocą ciągłych czarnych linii.
+- **Transakcje w sieci Bitcoin (protokół Bitcoin)**: Są to transakcje dokonywane w łańcuchu bloków, które przedstawimy za pomocą pomarańczowych linii.
 
 
 ![LNP201](assets/en/10.webp)
@@ -303,42 +303,42 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 
 
 
-- Wymiana wiadomości**: Alicja chce otworzyć kanał z Bobem. Wysyła mu wiadomość zawierającą kwotę, którą chce zdeponować w kanale (130 000 satów) oraz swój klucz publiczny. Bob odpowiada, udostępniając swój klucz publiczny.
+- **Wymiana wiadomości**: Alicja chce otworzyć kanał z Bobem. Wysyła mu wiadomość zawierającą kwotę, którą chce zdeponować w kanale (130 000 satów) oraz swój klucz publiczny. Bob odpowiada, udostępniając swój klucz publiczny.
 
 
 ![LNP201](assets/en/11.webp)
 
 
 
-- Utworzenie adresu wielopodpisowego**: Za pomocą tych dwóch kluczy publicznych Alicja tworzy **2/2 adresy wielopodpisowe**, co oznacza, że środki, które zostaną później zdeponowane pod tym adresem, będą wymagały obu podpisów (Alicji i Boba) do wykonania transakcji.
+- **Utworzenie adresu wielopodpisowego**: Za pomocą tych dwóch kluczy publicznych Alicja tworzy **2/2 adresy wielopodpisowe**, co oznacza, że środki, które zostaną później zdeponowane pod tym adresem, będą wymagały obu podpisów (Alicji i Boba) do wykonania transakcji.
 
 
 ![LNP201](assets/en/12.webp)
 
 
 
-- Transakcja wpłaty**: Alicja przygotowuje transakcję w sieci Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu na ten adres **130 000 satów**. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
+- **Transakcja wpłaty**: Alicja przygotowuje transakcję w sieci Bitcoin, aby zdeponować środki pod tym adresem wielopodpisowym. Na przykład, może zdecydować o wysłaniu na ten adres **130 000 satów**. Ta transakcja jest **stworzona, ale jeszcze nie opublikowana** w łańcuchu bloków.
 
 
 ![LNP201](assets/en/13.webp)
 
 
 
-- Transakcja wypłaty**: Przed opublikowaniem transakcji wpłaty, Alicja tworzy transakcję wypłaty, aby mogła odzyskać swoje środki w przypadku problemu z Bobem. W rzeczywistości, gdy Alicja opublikuje transakcję wpłaty, jej saty zostaną zablokowane pod adresem z wieloma podpisami 2/2, który do odblokowania wymaga zarówno jej podpisu, jak i podpisu Boba. Alicja chroni się przed ryzykiem, tworząc transakcję wypłaty, która pozwala jej odzyskać środki.
+- **Transakcja wypłaty**: Przed opublikowaniem transakcji wpłaty, Alicja tworzy transakcję wypłaty, aby mogła odzyskać swoje środki w przypadku problemu z Bobem. W rzeczywistości, gdy Alicja opublikuje transakcję wpłaty, jej saty zostaną zablokowane pod adresem z wieloma podpisami 2/2, który do odblokowania wymaga zarówno jej podpisu, jak i podpisu Boba. Alicja chroni się przed ryzykiem, tworząc transakcję wypłaty, która pozwala jej odzyskać środki.
 
 
 ![LNP201](assets/en/14.webp)
 
 
 
-- Podpis Boba**: Alicja wysyła transakcję wpłaty do Boba jako dowód i prosi go o podpisanie transakcji wypłaty. Po uzyskaniu podpisu Boba na transakcji wypłaty, Alicja ma pewność, że będzie w stanie odzyskać swoje środki w dowolnym momencie, ponieważ do odblokowania adresu wielopodpisowego potrzebny jest teraz tylko jej własny podpis.
+- **Podpis Boba**: Alicja wysyła transakcję wpłaty do Boba jako dowód i prosi go o podpisanie transakcji wypłaty. Po uzyskaniu podpisu Boba na transakcji wypłaty, Alicja ma pewność, że będzie w stanie odzyskać swoje środki w dowolnym momencie, ponieważ do odblokowania adresu wielopodpisowego potrzebny jest teraz tylko jej własny podpis.
 
 
 ![LNP201](assets/en/15.webp)
 
 
 
-- Publikacja transakcji wpłaty**: Po uzyskaniu podpisu Boba, Alicja może opublikować transakcję wpłaty w łańcuchu bloków Bitcoina, tym samym oficjalnie otwierając kanał Lightning między dwoma użytkownikami.
+- **Publikacja transakcji wpłaty**: Po uzyskaniu podpisu Boba, Alicja może opublikować transakcję wpłaty w łańcuchu bloków Bitcoina, tym samym oficjalnie otwierając kanał Lightning między dwoma użytkownikami.
 
 
 ![LNP201](assets/en/16.webp)
@@ -350,7 +350,7 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 Kanał uznaje się za otwarty, gdy transakcja wpłaty zostanie uwzględniona w bloku Bitcoina i osiągnie określoną głębokość potwierdzeń (liczbę kolejnych bloków).
 
 
-**Co powinieneś zapamiętać z tego rozdziału?
+**Co powinieneś zapamiętać z tego rozdziału?**
 
 
 
@@ -429,7 +429,7 @@ Weźmy inny przykład: po pierwszej transakcji, w której Alicja wysłała Bobow
 
 
 
-- Alicja** ma teraz **110 000 sató∑**.
+- Alicja** ma teraz **110 000 satów**.
 - Bob** ma **20 000 satów**.
 
 

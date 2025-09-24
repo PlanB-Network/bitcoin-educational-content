@@ -315,10 +315,13 @@ Si on valide quand même en appuyant sur **"ENTER"**  le QR code de la transacti
 
 ![Co-Sign](assets/fr/47.webp)
 
+![Co-Sign](assets/fr/48.png)
 
 
 
 
+Réalisons exactement la même opération, mais cette fois avec une transaction qui respecte la magnitude limite (21212 sats), et qui dépense les satoshis vers une adresse que l'on a préconfigurée.
 
+On envoie 12121 sats à une une des 2 adresses. Puis on exporte la transaction vers notre ColdCard comme déjà fait précédemment.
 
-Réalisons exactement la même opération, mais cette fois avec une transaction qui respecte la magnitude limite (21212 sats).
+![Co-Sign](assets/fr/49.png)

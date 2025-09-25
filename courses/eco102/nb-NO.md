@@ -1019,7 +1019,6 @@ Hva handler den om?
 
 > F. Bastiat
 
-![image](assets/en/084.webp)
 
 
 Han tilbakeviser fra første stund det fortsatt utbredte argumentet om at offentlige utgifter finansiert av skatter skaper arbeidsplasser. Skatter skaper nemlig ingenting, siden det som brukes av staten, ikke lenger brukes av skattebetalerne.

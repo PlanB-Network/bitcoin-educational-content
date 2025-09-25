@@ -1019,7 +1019,6 @@ Majandus kirjeldab poliitiliste otsuste head või halba mõju meie elule. Kuid B
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 
 Ta lükkab kohe alguses ümber endiselt levinud väite, et maksudest rahastatavad riiklikud kulutused loovad töökohti. Tõepoolest, maksud ei loo midagi, sest see, mida riik kulutab, ei ole enam maksumaksjate kulutatud raha.

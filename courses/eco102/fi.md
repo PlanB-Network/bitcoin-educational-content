@@ -1019,7 +1019,6 @@ Talous kuvaa poliittisten päätösten hyviä tai huonoja vaikutuksia elämääm
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 
 Hän kumoaa heti aluksi sen edelleen vallalla olevan väitteen, jonka mukaan verovaroin rahoitetut julkiset menot luovat työpaikkoja. Verot eivät nimittäin luo mitään, koska se, mitä valtio käyttää, ei ole enää veronmaksajien käyttämää rahaa.

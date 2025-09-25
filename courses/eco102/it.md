@@ -698,7 +698,6 @@ L'economia descrive gli effetti positivi o negativi delle decisioni politiche su
 >
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Fin dall'inizio, egli confuta l'argomento ancora prevalente secondo cui la spesa pubblica finanziata dalle tasse crea posti di lavoro. In effetti, le tasse non creano nulla poiché ciò che viene speso dallo stato non viene più speso dai contribuenti.
 

@@ -1019,7 +1019,6 @@ Nền kinh tế mô tả những tác động tốt hay xấu của các quyết
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 
 Ngay từ đầu, ông đã bác bỏ lập luận vẫn còn phổ biến rằng chi tiêu công được tài trợ bằng thuế tạo ra việc làm. Thực tế, thuế chẳng tạo ra được gì cả, bởi vì những gì nhà nước chi tiêu không còn được người nộp thuế chi tiêu nữa.

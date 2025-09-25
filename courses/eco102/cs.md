@@ -677,7 +677,6 @@ Ekonomie popisuje dobré nebo špatné účinky politických rozhodnutí na naš
 >
 > F.Bastiat
 
-![image](assets/en/084.webp)
 Hned na začátku odmítá stále rozšířený argument, že veřejné výdaje financované z daní vytvářejí pracovní místa. Ve skutečnosti daně nic nevytvářejí, protože to, co utratí stát, již nemůže utratit daňový poplatník.
 
 Navíc stát je plýtvavější než jednotlivci. Skutečně, připomíná nám, stát nic nevlastní; nevytváří žádné bohatství. Veřejné výdaje jsou často zdrojem plýtvání, protože obrovské sumy zabavené jednotlivcům unikají odpovědnosti jejich majitelů a jsou utraceny místo nich byrokraty, kteří jsou pod tlakem zájmových skupin.

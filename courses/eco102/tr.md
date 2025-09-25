@@ -1016,7 +1016,6 @@ Ekonomi, siyasi kararların hayatlarımız üzerindeki iyi ya da kötü etkileri
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 En başından itibaren, vergilerle finanse edilen kamu harcamalarının istihdam yarattığı yönündeki hala yaygın olan argümanı çürütmektedir. Gerçekten de, devlet tarafından harcananlar artık vergi mükellefleri tarafından harcanmadığı için vergiler hiçbir şey yaratmaz.
 

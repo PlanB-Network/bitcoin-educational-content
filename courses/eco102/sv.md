@@ -1016,7 +1016,6 @@ Ekonomin beskriver de politiska beslutens goda eller dåliga effekter på våra 
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Redan från början tillbakavisar han det fortfarande förhärskande argumentet att skattefinansierade offentliga utgifter skapar arbetstillfällen. I själva verket skapar skatter ingenting eftersom det som spenderas av staten inte längre spenderas av skattebetalarna.
 

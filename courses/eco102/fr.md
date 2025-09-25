@@ -720,7 +720,6 @@ L’économie décrit les effets, bons ou mauvais, des décisions politiques sur
 >  
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Dès lors, il réfute l’argument, toujours actuel, qui veut que les dépenses publiques financées par l’impôt créent de l’emploi. En effet, l’impôt ne crée rien puisque ce qui est dépensé par l’État n’est plus dépensé par les contribuables.
 

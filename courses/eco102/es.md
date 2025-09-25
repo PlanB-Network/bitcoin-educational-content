@@ -1019,7 +1019,6 @@ La economía describe los efectos buenos o malos de las decisiones políticas en
 
 > F. Bastiat
 
-![image](assets/en/084.webp)
 
 
 De entrada, refuta el argumento, aún muy extendido, de que el gasto público financiado con impuestos crea empleo. En efecto, los impuestos no crean nada, puesto que lo que gasta el Estado ya no lo gastan los contribuyentes.

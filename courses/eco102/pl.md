@@ -1016,7 +1016,6 @@ Ekonomia opisuje dobry lub zły wpływ decyzji politycznych na nasze życie. Jed
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Od samego początku obala on wciąż dominujący argument, że wydatki publiczne finansowane z podatków tworzą miejsca pracy. W rzeczywistości podatki nic nie tworzą, ponieważ to, co jest wydawane przez państwo, nie jest już wydawane przez podatników.
 

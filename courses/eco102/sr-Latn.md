@@ -1015,7 +1015,6 @@ Ekonomija opisuje dobre ili loše efekte političkih odluka na naše živote. Me
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Od samog početka, on odbacuje još uvek prisutan argument da javna potrošnja finansirana porezima stvara radna mesta. Zaista, porezi ne stvaraju ništa jer ono što država potroši više ne troše poreski obveznici.
 

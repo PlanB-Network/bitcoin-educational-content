@@ -1019,7 +1019,6 @@ Die Ökonomie beschreibt die guten oder schlechten Auswirkungen politischer Ents
 
 > F. Bastiat
 
-![image](assets/en/084.webp)
 
 
 Gleich zu Beginn widerlegt er das immer noch weit verbreitete Argument, dass durch Steuern finanzierte öffentliche Ausgaben Arbeitsplätze schaffen. In der Tat schaffen Steuern nichts, denn was der Staat ausgibt, geben die Steuerzahler nicht mehr aus.

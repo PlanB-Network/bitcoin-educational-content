@@ -1016,7 +1016,6 @@ Ubutunzi buradondora ingaruka nziza canke mbi ingingo za politike zigira ku buzi
 
 > F.Basitiyati
 
-![image](assets/en/084.webp)
 
 Kuva mu ntango, arahakana iciyumviro kikiriho c’uko amahera Leta ikoresha aterwa inkunga n’imisoro atuma abantu baronka akazi. Nkako, imisoro ntaco irema kuko ivyo Leta ikoresha ntibigikoreshwa n’abasoreshwa.
 

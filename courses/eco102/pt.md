@@ -1019,7 +1019,6 @@ A economia descreve os efeitos positivos ou negativos das decisões políticas n
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 
 Desde o início, refuta o argumento, ainda prevalecente, de que a despesa pública financiada por impostos cria emprego. De facto, os impostos não criam nada, porque o que é gasto pelo Estado já não é gasto pelos contribuintes.

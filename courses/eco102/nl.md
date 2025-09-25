@@ -1016,7 +1016,6 @@ De economie beschrijft de goede of slechte effecten van politieke beslissingen o
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Vanaf het begin weerlegt hij het nog steeds gangbare argument dat overheidsuitgaven gefinancierd door belastingen banen creëren. Belastingen creëren inderdaad niets, omdat wat door de staat wordt uitgegeven niet meer door de belastingbetalers wordt uitgegeven.
 

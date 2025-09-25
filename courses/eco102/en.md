@@ -692,7 +692,6 @@ The economy describes the good or bad effects of political decisions on our live
 >  
 > F.Bastiat  
 
-![image](assets/en/084.webp)
 
 From the outset, he refutes the still prevalent argument that public spending funded by taxes creates jobs. Indeed, taxes create nothing since what is spent by the state is no longer spent by taxpayers.
 

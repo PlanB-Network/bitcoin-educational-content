@@ -1016,7 +1016,6 @@ Uchumi unaeleza athari nzuri au mbaya za maamuzi ya kisiasa katika maisha yetu. 
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Tangu awali, anakanusha hoja ambayo bado imeenea kwamba matumizi ya umma yanayofadhiliwa na kodi hutengeneza ajira. Hakika, kodi haileti chochote kwani kile kinachotumiwa na serikali hakitumiwi tena na walipa kodi.
 

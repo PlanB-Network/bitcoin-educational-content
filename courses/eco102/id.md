@@ -688,7 +688,6 @@ Ekonomi menggambarkan efek baik atau buruk dari keputusan politik terhadap kehid
 >
 > F.Bastiat
 
-![image](assets/en/084.webp)
 Dari awal, ia membantah argumen yang masih berlaku bahwa pengeluaran publik yang didanai oleh pajak menciptakan pekerjaan. Memang, pajak tidak menciptakan apa-apa karena apa yang dihabiskan oleh negara tidak lagi dihabiskan oleh pembayar pajak.
 
 Lebih lanjut, negara lebih boros daripada individu. Memang, ia mengingatkan kita, negara tidak memiliki apa-apa; itu tidak menghasilkan kekayaan. Pengeluaran publik seringkali merupakan sumber pemborosan karena jumlah besar yang disita dari individu lepas dari tanggung jawab pemiliknya dan dihabiskan atas nama mereka oleh birokrat, yang tunduk pada kelompok tekanan.

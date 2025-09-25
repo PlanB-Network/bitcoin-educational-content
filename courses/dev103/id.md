@@ -50,7 +50,7 @@ Perintah yang dikandungnya ditulis dalam bahasa pemrograman JavaScript.
 Runtime JavaScript adalah program khusus yang mengeksekusi file-file ini.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### Runtime NodeJS
@@ -71,7 +71,7 @@ Karena NodeJS tersedia untuk ketiga OS, program yang Anda tulis akan dapat dieks
 Ini berarti Anda bisa, misalnya, menulis videogame sederhana dalam JavaScript di PC Windows dan memberikannya kepada teman Anda untuk menjalankannya di Mac-nya.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Anda dapat menggabungkan boolean menggunakan operator logika:
 - `!` berarti "tidak", diterapkan sebelum boolean, dan akan membaliknya: jika boolean tersebut bernilai `true` maka akan mengembalikan `false`, dan sebaliknya.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Contoh:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Kelas `Mobil` sekarang **mewarisi** semua yang ada pada `Kendaraan`. Kelas ini mendapatkan properti `brand`, dan kita telah mengganti metode `start()` dengan versi kita sendiri.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Mari kita coba:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript adalah bahasa yang diinterpretasikan, berbeda dengan bahasa yang diko
 Kode yang ditulis dalam bahasa yang dikompilasi akan diubah menjadi biner, dan biner tersebut diumpankan langsung ke CPU komputer.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Di sisi lain, bahasa Interpred cenderung lebih ramah pengguna, dan lebih dekat dengan cara berpikir manusia ("tingkat tinggi") daripada cara kerja mesin ("tingkat rendah"); sehingga mereka biasanya memiliki mesin virtual yang dibangun untuk menjalankan kode mereka.
@@ -5261,7 +5261,7 @@ Mengapa hal itu menjadi masalah?
 Nah, karena peramban mengeksekusi kode yang diambil dari jutaan sumber berbeda di internet, peramban dapat dengan mudah masuk ke dalam malware, sehingga mereka "di-sandbox" dari sistem operasi lainnya.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript tidak dapat mengakses sistem file dan sumber daya lokal lainnya di komputer Anda (setidaknya tidak semudah bahasa lain), jadi ini merupakan batasan yang signifikan pada jenis aplikasi yang dapat Anda buat dengan JavaScript.
@@ -5270,7 +5270,7 @@ JavaScript tidak dapat mengakses sistem file dan sumber daya lokal lainnya di ko
 Pada tahun 2009, Ryan Dahl menerbitkan NodeJS, yang merupakan sebuah runtime yang memungkinkan Anda untuk menggunakan mesin V8 di luar peramban, langsung pada sistem operasi asli komputer Anda. NodeJS juga menambahkan banyak fitur yang berguna untuk menulis program sisi server dan baris perintah. Sebagai contoh, Anda bisa menggunakan NodeJS untuk membuat server web, membaca dan menulis berkas, atau membuat alat yang mengotomatiskan tugas.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Dalam kursus ini, kita telah menjelajahi fitur-fitur JavaScript yang ada di peramban dan NodeJS. Fitur-fitur tersebut memungkinkan kita untuk mendefinisikan data dan memanipulasinya dengan cara yang abstrak. Dalam beberapa pelajaran berikutnya, kita akan menjelajahi fitur-fitur yang spesifik untuk NodeJS dan memungkinkan kita untuk berinteraksi dengan sistem operasi.

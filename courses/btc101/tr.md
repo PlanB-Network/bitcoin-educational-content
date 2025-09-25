@@ -122,6 +122,8 @@ Burada önemli olan nokta, bu yeni teknolojiyi genel bir şekilde anlamaktır, b
 Bitcoin'ün büyüleyici dünyasına dalmaya ve tüm iç işleyişini anlamaya hazır mısınız? Hadi başlayalım!
 
 
+**Not**: Kurs sırasında tanıdık olmayan terimlerle karşılaşırsanız, tanımlar için lütfen [sözlüğe](https://planb.network/resources/glossary) başvurun.
+
 ## Bitcoin'in Tarih Öncesi
 
 

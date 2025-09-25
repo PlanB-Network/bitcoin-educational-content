@@ -85,6 +85,8 @@ Oluline on mõista seda uut tehnoloogiat üldiselt, nii et loodame, et teile mee
 
 Kas olete valmis sukelduma Bitcoini põnevasse maailma ja mõistma kõiki selle mehhanisme? Lähme!
 
+**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.network/resources/glossary) definitsioonid.
+
 ## Bitcoini eelajalugu
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

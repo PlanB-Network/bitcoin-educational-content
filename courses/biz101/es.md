@@ -37,6 +37,8 @@ Tanto si representa a una pequeño negocio como a una gran corporación, este cu
 
 ¿Listo para sumergirte en el mundo de Bitcoin para empresas? ¡Vamos allá!
 
+**N.B.**: Si encuentra términos desconocidos durante el curso, por favor consulte [el glosario](https://planb.network/resources/glossary) para obtener definiciones.
+
 # Moneda, sistemas de pago y Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

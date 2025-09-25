@@ -84,6 +84,8 @@ Poin penting di sini adalah untuk memahami teknologi baru ini secara umum, jadi 
 
 Siap menyelami dunia Bitcoin yang menakjubkan dan memahami semua mekanismenya? Ayo mulai!
 
+**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.network/resources/glossary) untuk definisi.
+
 ## Prasejarah Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

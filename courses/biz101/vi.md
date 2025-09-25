@@ -37,6 +37,8 @@ Cho dù bạn đại diện cho một doanh nghiệp nhỏ hay một tập đoà
 
 Sẵn sàng khám phá thế giới Bitcoin dành cho doanh nghiệp chưa? Bắt đầu thôi!
 
+**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa.
+
 # Tiền tệ, hệ thống thanh toán và Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

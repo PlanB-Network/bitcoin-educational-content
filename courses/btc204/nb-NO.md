@@ -2256,7 +2256,7 @@ For eksempel vil en enkel betalingstransaksjon med 1 inngang og 2 utganger bare 
 
 ![BTC204](assets/nb-NO/165.webp)
 
-På den annen side har et Whirlpool 5x5-hjørne 1 496 $ mulige kombinasjoner:
+Derimot har en coinjoin strukturert etter Whirlpool 5x5-modellen $1\,496$ mulige kombinasjoner:
 
 ![BTC204](assets/nb-NO/166.webp)
 

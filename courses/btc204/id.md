@@ -2256,7 +2256,7 @@ Sebagai contoh, sebuah transaksi pembayaran sederhana dengan 1 input dan 2 outpu
 
 ![BTC204](assets/id/165.webp)
 
-Di sisi lain, sudut Whirlpool 5x5 memiliki kemungkinan kombinasi senilai $ 1.496.000:
+Namun, sebuah coinjoin yang disusun menurut model Whirlpool 5x5 memiliki $1\,496$ kemungkinan kombinasi:
 
 ![BTC204](assets/id/166.webp)
 

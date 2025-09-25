@@ -1543,7 +1543,6 @@ Voor Rousseau gaat eigendom niet vooraf aan de wet; het is slechts een overeenko
 Bijvoorbeeld: het recht op werk of het recht op huisvesting.
 
 
-![image](assets/en/123.webp)
 
 
 Als ik iets gratis wil krijgen, moet iemand voor mij betalen. En als het de staat is die betaalt, omdat die geen rijkdom produceert, kan hij dat alleen doen door iemand een huis af te nemen, of het equivalent daarvan, om het aan mij te geven.

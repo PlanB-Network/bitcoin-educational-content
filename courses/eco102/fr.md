@@ -1087,7 +1087,6 @@ Chez Rousseau, la propriété n’est pas antérieure au droit, elle n’est qu�
 
 Par exemple : le droit au travail ou le droit au logement.
 
-![image](assets/en/123.webp)
 
 Pour que je puisse acquérir gratuitement il faut bien que quelqu’un paie pour moi. Et si c’est l’État qui paie, puisqu’il ne produit pas de richesses, il ne peut le faire qu’en prenant un logement à quelqu’un, ou son équivalent, pour me le donner.
 

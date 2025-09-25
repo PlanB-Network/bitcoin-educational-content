@@ -1548,7 +1548,6 @@ Ngược lại, Robespierre đưa ra nguyên tắc rằng "Tài sản là quyề
 Ví dụ: quyền làm việc hoặc quyền có nhà ở.
 
 
-![image](assets/en/123.webp)
 
 
 Để tôi có được thứ gì đó miễn phí, ai đó phải trả tiền thay tôi. Và nếu Nhà nước trả tiền, vì nó không tạo ra của cải, nó chỉ có thể làm như vậy bằng cách lấy một ngôi nhà từ ai đó, hoặc một thứ tương đương, để trao cho tôi.

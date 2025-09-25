@@ -1548,7 +1548,6 @@ Für Rousseau hat das Eigentum keinen Vorrang vor dem Recht, sondern ist ledigli
 Zum Beispiel: das Recht auf Arbeit oder das Recht auf Wohnung.
 
 
-![image](assets/en/123.webp)
 
 
 Damit ich etwas kostenlos erwerben kann, muss jemand für mich bezahlen. Und wenn es der Staat ist, der zahlt, kann er das, da er keinen Reichtum produziert, nur tun, indem er jemandem ein Haus oder etwas Gleichwertiges wegnimmt, um es mir zu geben.

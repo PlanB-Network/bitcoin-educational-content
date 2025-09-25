@@ -1548,7 +1548,6 @@ Rousseaulle omaisuus ei ole lakia edeltävä, vaan se on vain yleisen tahdon vah
 Esimerkiksi: oikeus työhön tai oikeus asuntoon.
 
 
-![image](assets/en/123.webp)
 
 
 Jotta voisin hankkia jotain ilmaiseksi, jonkun on maksettava puolestani. Ja jos se on valtio, joka maksaa, koska se ei tuota rikkauksia, se voi tehdä sen vain ottamalla joltakulta kodin tai vastaavan ja antamalla sen minulle.

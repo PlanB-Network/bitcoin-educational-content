@@ -1067,7 +1067,6 @@ Per Rousseau, la proprietà non è anteriore alla legge; è semplicemente una co
 
 Ad esempio: il diritto al lavoro o il diritto all'abitazione.
 
-![image](assets/en/123.webp)
 
 Per acquisire qualcosa gratuitamente, qualcuno deve pagare per mio conto. E se è lo Stato a pagare, dato che non produce ricchezza, può farlo solo prendendo una casa da qualcuno, o il suo equivalente, per darla a me.
 

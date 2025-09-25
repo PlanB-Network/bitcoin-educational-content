@@ -1543,7 +1543,6 @@ Kwa Rousseau, mali sio kabla ya sheria; ni mkataba tu ulioanzishwa kwa utashi wa
 Kwa mfano: haki ya kufanya kazi au haki ya makazi.
 
 
-![image](assets/en/123.webp)
 
 
 Ili nipate kitu bila malipo, lazima mtu alipe kwa niaba yangu. Na ikiwa ni Serikali inayolipa, kwa kuwa haitoi utajiri, inaweza tu kufanya hivyo kwa kuchukua nyumba kutoka kwa mtu, au sawa na hiyo, ili kunipa mimi.

@@ -1543,7 +1543,6 @@ Ku bwa Rousseau, umutungo ntubanza itegeko; ni isezerano gusa rishirwaho n’ubu
 Nk’akarorero: uburenganzira bwo gukora canke uburenganzira bwo kuba mu nzu.
 
 
-![image](assets/en/123.webp)
 
 
 Kugira ngo nshobore kuronka ikintu ku buntu, umuntu ategerezwa kwishura mu izina ryanje. Kandi nimba ari Leta iriha, kuko itazana ubutunzi, ishobora kubigira gusa mu gufata inzu ku muntu, canke ikingana na yo, ngo ayimpe.

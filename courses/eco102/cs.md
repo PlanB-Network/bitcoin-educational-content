@@ -1031,7 +1031,6 @@ Pro Rousseaua není vlastnictví před zákonem; je to pouze konvence zřízená
 
 Například: právo na práci nebo právo na bydlení.
 
-![image](assets/en/123.webp)
 
 Abych získal něco zdarma, někdo musí platit za mě. A pokud platí stát, protože nevytváří bohatství, může tak učinit pouze tím, že vezme domov od někoho nebo jeho ekvivalent, aby mi ho dal.
 

@@ -1542,7 +1542,6 @@ Dla Rousseau własność nie jest wcześniejsza od prawa; jest jedynie konwencj�
 Na przykład: prawo do pracy lub prawo do mieszkania.
 
 
-![image](assets/en/123.webp)
 
 
 Abym mógł nabyć coś za darmo, ktoś musi zapłacić w moim imieniu. A jeśli to państwo płaci, ponieważ nie wytwarza bogactwa, może to zrobić tylko poprzez zabranie komuś domu lub jego ekwiwalentu, aby mi go dać.

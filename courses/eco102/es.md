@@ -1548,7 +1548,6 @@ Para Rousseau, la propiedad no es anterior a la ley; no es más que una convenci
 Por ejemplo: el derecho al trabajo o el derecho a la vivienda.
 
 
-![image](assets/en/123.webp)
 
 
 Para que yo adquiera algo gratis, alguien debe pagar en mi nombre. Y si es el Estado quien paga, como no produce riqueza, sólo puede hacerlo quitándole una vivienda a alguien, o su equivalente, para dármela a mí.

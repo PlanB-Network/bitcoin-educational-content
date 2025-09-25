@@ -1541,7 +1541,6 @@ Za Rousseau-a, vlasništvo nije pre zakona; to je samo konvencija uspostavljena 
 Na primer: pravo na rad ili pravo na stanovanje.
 
 
-![image](assets/en/123.webp)
 
 
 Da bih ja nešto dobio besplatno, neko mora platiti u moje ime. A ako plaća država, pošto ona ne proizvodi bogatstvo, to može učiniti samo tako što će nekome uzeti dom, ili njegov ekvivalent, da bi ga dala meni.

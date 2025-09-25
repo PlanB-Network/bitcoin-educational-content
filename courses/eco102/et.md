@@ -1548,7 +1548,6 @@ Rousseau jaoks ei ole omandiõigus seadusele eelnev; see on üksnes üldise taht
 Näiteks: õigus tööle või õigus eluasemele.
 
 
-![image](assets/en/123.webp)
 
 
 Selleks, et ma saaksin midagi tasuta omandada, peab keegi minu eest maksma. Ja kui see on riik, kes maksab, siis kuna ta ei tooda rikkust, saab ta seda teha ainult nii, et võtab kelleltki kodu või selle ekvivalendi, et seda mulle anda.

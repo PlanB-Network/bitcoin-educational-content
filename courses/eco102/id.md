@@ -1046,7 +1046,6 @@ Bagi Rousseau, properti tidak mendahului hukum; itu hanya sebuah konvensi yang d
 
 Contohnya: hak untuk bekerja atau hak atas perumahan.
 
-![image](assets/en/123.webp)
 
 Untuk saya memperoleh sesuatu secara gratis, seseorang harus membayar atas nama saya. Dan jika Negara yang membayar, karena tidak menghasilkan kekayaan, hanya bisa melakukannya dengan mengambil rumah dari seseorang, atau setara dengan itu, untuk memberikannya kepada saya.
 

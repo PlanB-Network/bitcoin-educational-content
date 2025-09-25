@@ -1055,7 +1055,6 @@ For Rousseau, property is not prior to law; it is merely a convention establishe
 
 For example: the right to work or the right to housing.
 
-![image](assets/en/123.webp)
 
 For me to acquire something for free, someone must pay on my behalf. And if it’s the State that pays, since it does not produce wealth, it can only do so by taking a home from someone, or its equivalent, to give it to me.
 

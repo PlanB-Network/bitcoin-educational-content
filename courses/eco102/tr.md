@@ -1543,7 +1543,6 @@ Rousseau'ya göre mülkiyet yasadan önce gelmez; sadece genel irade tarafından
 Örneğin: çalışma hakkı veya barınma hakkı.
 
 
-![image](assets/en/123.webp)
 
 
 Bir şeyi bedavaya elde edebilmem için birinin benim adıma ödeme yapması gerekir. Ve eğer ödeyen Devlet ise, zenginlik üretmediği için, bunu ancak birinden ev alarak ya da eşdeğerini bana vererek yapabilir.

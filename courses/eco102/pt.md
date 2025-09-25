@@ -1548,7 +1548,6 @@ Para Rousseau, a propriedade não é anterior à lei; é apenas uma convenção 
 Por exemplo: o direito ao trabalho ou o direito à habitação.
 
 
-![image](assets/en/123.webp)
 
 
 Para que eu possa adquirir algo gratuitamente, é preciso que alguém pague por mim. E se é o Estado que paga, como não produz riqueza, só o pode fazer tirando uma casa a alguém, ou o seu equivalente, para ma dar.

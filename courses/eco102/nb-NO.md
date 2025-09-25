@@ -1548,7 +1548,6 @@ For Rousseau er ikke eiendommen noe som går forut for loven; den er bare en kon
 For eksempel retten til arbeid eller retten til bolig.
 
 
-![image](assets/en/123.webp)
 
 
 For at jeg skal få noe gratis, må noen betale på mine vegne. Og hvis det er staten som betaler, kan den, siden den ikke produserer rikdom, bare gjøre det ved å ta et hjem fra noen, eller tilsvarende, for å gi det til meg.

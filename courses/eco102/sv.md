@@ -1543,7 +1543,6 @@ För Rousseau är egendomen inte något som föregår lagen, utan endast en konv
 Till exempel: rätten till arbete eller rätten till bostad.
 
 
-![image](assets/en/123.webp)
 
 
 För att jag ska kunna förvärva något gratis måste någon betala för min räkning. Och om det är staten som betalar, eftersom den inte producerar rikedom, kan den bara göra det genom att ta ett hem från någon, eller motsvarande, för att ge det till mig.

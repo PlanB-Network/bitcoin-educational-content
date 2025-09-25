@@ -5,11 +5,7 @@ description: Bagaimana cara menggunakan Orion Browser untuk melindungi privasi A
 
 ![cover](assets/cover.webp)
 
-
-
 ## Pendahuluan
-
-
 
 Dalam konteks di mana sebagian besar peramban mengumpulkan data pribadi kita secara besar-besaran, pilihan peramban yang ramah privasi menjadi sangat penting. Chrome mendominasi dengan 65% pasar global, tetapi model bisnisnya didasarkan pada eksploitasi data penjelajahan Anda. Safari, meskipun terintegrasi ke dalam ekosistem Apple, tidak memiliki fitur perlindungan tingkat lanjut dan tidak secara fleksibel mendukung ekstensi pihak ketiga.
 
@@ -17,8 +13,7 @@ Dalam konteks di mana sebagian besar peramban mengumpulkan data pribadi kita sec
 
 ![Répartition du marché des navigateurs](assets/fr/01.webp)
 
-
-*Perincian pasar peramban web: Chrome mendominasi dengan pangsa pasar lebih dari 65%, diikuti oleh Safari, Edge, dan Firefox*
+*Perincian pasar browser web: Chrome mendominasi dengan pangsa pasar lebih dari 65%, diikuti oleh Safari, Edge, dan Firefox*
 
 
 

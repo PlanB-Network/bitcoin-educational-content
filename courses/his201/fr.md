@@ -1250,6 +1250,8 @@ Quelques jours plus tard, le 30, il publie une [dépêche](https://linuxfr.org/n
 
 ![Connaissez-vous les bitcoins ?](assets/en/052.webp)
 
+> **Articles : Connaissez-vous les bitcoins ?** Bitcoin est une monnaie électronique conçue en 2009 par un certain Satoshi Nakamoto. Cette monnaie se distingue des autres monnaies électroniques par son caractère entièrement décentralisé en peer-to-peer et son utilisation astucieuse de concepts cryptographiques de base. Elle s’appuie sur un logiciel écrit en C++ et publié sous licence libre MIT.
+
 En particulier, cette dépêche a pour effet d'attirer l'attention d'un certain Ploum, de son vrai nom Lionel Dricot, blogueur et libriste belge de 29 ans. Le 25 octobre, ce dernier [publie](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) un article sur son blog, intitulé « Monnaie de geek, monnaie de singe ? », dans lequel il prône la décentralisation et adhère au principe de Bitcoin. De nombreux internautes francophones entendent parler de Bitcoin par ce biais, dont [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), le développeur qui sera à l'origine de la création de Bitcoin Cash en 2017.
 
 ![Lionel Dricot (Ploum) en 2012, alors candidat sous la bannière du Parti Pirate pour les élections communales et provinciales belges](assets/en/053.webp)

@@ -885,7 +885,6 @@ Illustreremo questa questione con alcuni importanti argomenti attuali. Primo ese
 _(Alan Greenspan, Presidente della FED, la banca centrale americana, dal 1987 al 2006)_
 Per anni, i leader della politica monetaria hanno spiegato che se i profitti sono privatizzati quando tutto va bene, le perdite saranno mutualizzate in caso di fallimento (salvataggi, piani di soccorso, manipolazione dei tassi di interesse, stampa di denaro, ecc.). Facendo ciò, hanno creato un rischio morale, hanno facilitato la presa di rischi irragionevoli e hanno incoraggiato il mondo finanziario a comportarsi in modo irresponsabile. Hanno così precipitato la finanza nella crisi che abbiamo vissuto.
 
-![immagine](assets/en/104.webp)
 
 E il fenomeno si ripeterà all'infinito finché le banche rimarranno sotto il dominio delle autorità centrali che dovrebbero proteggerle rimuovendo ogni autonomia di decisione e operazione.
 

@@ -916,7 +916,6 @@ _(Alan Greenspan, président de la FED, la banque centrale américaine, de 1987 
 
 Pendant des années, les dirigeants de la politique monétaire ont expliqué que si les gains sont privatisés lorsque tout va bien, les pertes seront mutualisées en cas de faillite (renflouements, plans de sauvetage, manipulation des taux d’intérêts, planche à billets etc.). Ce faisant, ils ont créé un aléa moral, ils ont facilité la prise de risque déraisonnable et ils ont incité le monde de la finance à se comporter de façon irresponsable. Ils ont donc précipité la finance dans la crise que nous avons connue.
 
-![image](assets/en/104.webp)
 
 Et le phénomène se répètera indéfiniment tant que les banques resteront sous la domination d’autorités centrales censées les protéger en leur retirant toute autonomie de décision et de fonctionnement.
 

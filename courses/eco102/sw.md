@@ -1288,7 +1288,6 @@ _(Alan Greenspan, Mwenyekiti wa FED, benki kuu ya Marekani, kutoka 1987 hadi 200
 Kwa miaka mingi, viongozi wa sera za kifedha walieleza kwamba ikiwa faida itabinafsishwa wakati kila kitu kinakwenda vizuri, hasara itaunganishwa katika kesi ya kufilisika (bailouts, mipango ya uokoaji, udanganyifu wa kiwango cha riba, fedha za uchapishaji, nk). Kwa kufanya hivyo, waliunda hatari ya kimaadili, waliwezesha uchukuaji hatari usio na sababu, na walihimiza ulimwengu wa kifedha kuishi bila kuwajibika. Kwa hivyo waliingiza fedha katika mgogoro tuliopata.
 
 
-![image](assets/en/104.webp)
 
 
 Na jambo hilo litajirudia kwa muda usiojulikana mradi benki zitaendelea kuwa chini ya utawala wa mamlaka kuu zinazopaswa kuzilinda kwa kuondoa uhuru wote wa maamuzi na uendeshaji.

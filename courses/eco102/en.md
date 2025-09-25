@@ -879,8 +879,6 @@ _(Alan Greenspan, Chairman of the FED, the American central bank, from 1987 to 2
 
 For years, monetary policy leaders explained that if profits are privatized when everything goes well, losses will be mutualized in case of bankruptcy (bailouts, rescue plans, interest rate manipulation, printing money, etc.). In doing so, they created a moral hazard, they facilitated unreasonable risk-taking, and they encouraged the financial world to behave irresponsibly. They thus precipitated finance into the crisis we experienced.
 
-![image](assets/en/104.webp)
-
 And the phenomenon will repeat indefinitely as long as banks remain under the domination of central authorities supposed to protect them by removing all autonomy of decision and operation.
 
 Another example: public services

@@ -1293,7 +1293,6 @@ Ilustremos esta cuestión con algunos grandes temas de actualidad. Primer ejempl
 Durante años, los responsables de la política monetaria explicaron que si los beneficios se privatizan cuando todo va bien, las pérdidas se mutualizarán en caso de quiebra (rescates, planes de salvamento, manipulación de los tipos de interés, impresión de dinero, etc.). Al hacerlo, crearon un riesgo moral, facilitaron la asunción de riesgos irracionales y animaron al mundo financiero a comportarse de forma irresponsable. De este modo precipitaron a las finanzas en la crisis que experimentamos.
 
 
-![image](assets/en/104.webp)
 
 
 Y el fenómeno se repetirá indefinidamente mientras los bancos sigan bajo el dominio de las autoridades centrales que supuestamente deben protegerlos suprimiendo toda autonomía de decisión y funcionamiento.

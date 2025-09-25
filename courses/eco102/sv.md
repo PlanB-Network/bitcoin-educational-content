@@ -1288,7 +1288,6 @@ _(Alan Greenspan, ordförande i FED, den amerikanska centralbanken, från 1987 t
 I åratal förklarade de penningpolitiska ledarna att om vinsterna privatiseras när allt går bra kommer förlusterna att delas vid en konkurs (räddningsaktioner, räddningsplaner, räntemanipulation, penningtryckning etc.). På så sätt skapade de en moralisk risk, de underlättade orimligt risktagande och de uppmuntrade finansvärlden att bete sig oansvarigt. På så sätt ledde de in finansvärlden i den kris vi upplevde.
 
 
-![image](assets/en/104.webp)
 
 
 Och fenomenet kommer att upprepas i all oändlighet så länge bankerna står under överinseende av centrala myndigheter som ska skydda dem genom att ta bort all självständighet i beslut och drift.

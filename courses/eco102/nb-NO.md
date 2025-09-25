@@ -1293,7 +1293,6 @@ _(Alan Greenspan, leder av FED, den amerikanske sentralbanken, fra 1987 til 2006
 I årevis forklarte pengepolitiske ledere at hvis fortjenesten privatiseres når alt går bra, vil tapene bli gjensidig utlignet i tilfelle konkurs (redningsaksjoner, redningsplaner, rentemanipulasjon, pengetrykking osv.) Dermed skapte de moralsk hasard, de la til rette for urimelig risikotaking, og de oppmuntret finansverdenen til å oppføre seg uansvarlig. Dermed utløste de finanskrisen vi opplevde.
 
 
-![image](assets/en/104.webp)
 
 
 Og fenomenet vil gjenta seg i det uendelige så lenge bankene forblir under dominans av sentrale myndigheter som skal beskytte dem ved å fjerne all selvstendighet i beslutninger og drift.

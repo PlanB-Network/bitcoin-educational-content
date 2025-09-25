@@ -1293,7 +1293,6 @@ Vamos ilustrar esta questão com alguns grandes temas da atualidade. O primeiro 
 Durante anos, os responsáveis pela política monetária explicaram que, se os lucros são privatizados quando tudo corre bem, as perdas serão mutualizadas em caso de falência (resgates, planos de salvamento, manipulação das taxas de juro, impressão de dinheiro, etc.). Ao fazê-lo, criaram um risco moral, facilitaram a assunção de riscos desmesurados e encorajaram o mundo financeiro a comportar-se de forma irresponsável. Assim, precipitaram a finança na crise que vivemos.
 
 
-![image](assets/en/104.webp)
 
 
 E o fenómeno repetir-se-á indefinidamente enquanto os bancos permanecerem sob o domínio de autoridades centrais que deveriam protegê-los, retirando-lhes toda a autonomia de decisão e de funcionamento.

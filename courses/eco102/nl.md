@@ -1288,7 +1288,6 @@ _(Alan Greenspan, voorzitter van de FED, de Amerikaanse centrale bank, van 1987 
 Jarenlang legden leiders van het monetaire beleid uit dat als winsten worden geprivatiseerd als alles goed gaat, verliezen zullen worden gecollectiviseerd in geval van faillissement (reddingsoperaties, reddingsplannen, rentemanipulatie, geld bijdrukken, etc.). Op die manier creëerden ze een moreel risico, vergemakkelijkten ze het nemen van onredelijke risico's en moedigden ze de financiële wereld aan om zich onverantwoordelijk te gedragen. Zo brachten ze de financiële wereld in de crisis die we nu doormaken.
 
 
-![image](assets/en/104.webp)
 
 
 En het fenomeen zal zich oneindig blijven herhalen zolang banken onder de heerschappij blijven van centrale autoriteiten die verondersteld worden hen te beschermen door alle beslissings- en operationele autonomie weg te nemen.

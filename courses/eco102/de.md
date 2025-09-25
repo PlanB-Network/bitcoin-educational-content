@@ -1293,7 +1293,6 @@ Lassen Sie uns diese Frage anhand einiger wichtiger aktueller Themen veranschaul
 Jahrelang erklärten die geldpolitischen Entscheidungsträger, dass, wenn die Gewinne privatisiert werden, wenn alles gut läuft, die Verluste im Falle eines Konkurses gemeinsam getragen werden (Rettungsaktionen, Rettungspläne, Zinsmanipulationen, Gelddrucken usw.). Damit schufen sie ein moralisches Risiko, erleichterten eine unvernünftige Risikobereitschaft und ermutigten die Finanzwelt zu unverantwortlichem Verhalten. So haben sie die Finanzwelt in die Krise gestürzt, die wir erlebt haben.
 
 
-![image](assets/en/104.webp)
 
 
 Und dieses Phänomen wird sich auf unbestimmte Zeit wiederholen, solange die Banken unter der Herrschaft zentraler Behörden stehen, die sie schützen sollen, indem sie ihnen jegliche Entscheidungs- und Betriebsautonomie nehmen.

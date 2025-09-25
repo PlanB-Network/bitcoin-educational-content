@@ -1293,7 +1293,6 @@ _(Alan Greenspan, Ameerika keskpanga FED esimees 1987-2006)_(Alan Greenspan, Ame
 Aastaid selgitasid rahapoliitika juhid, et kui kasumid erastatakse, kui kõik läheb hästi, siis pankroti korral (päästeplaanid, päästekavad, intressimäära manipuleerimine, rahaprintimine jne) kahjumid vastastikku. Sellega tekitasid nad moraalse ohu, soodustasid põhjendamatut riskivõtmist ja julgustasid finantsmaailma vastutustundetult käituma. Seega põhjustasid nad finantssektori kriisi, mida me kogesime.
 
 
-![image](assets/en/104.webp)
 
 
 Ja see nähtus kordub lõputult seni, kuni pangad jäävad kesksete asutuste valitsemise alla, kes peaksid neid kaitsma, kaotades igasuguse otsustus- ja tegutsemisautonoomia.

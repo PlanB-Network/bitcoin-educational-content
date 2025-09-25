@@ -855,7 +855,6 @@ Ilustrujme tuto problematiku na několika hlavních aktuálních tématech. Prvn
 _(Alan Greenspan, předseda FEDu, americké centrální banky, v letech 1987 až 2006)_
 Po léta vedoucí představitelé měnové politiky vysvětlovali, že pokud jsou zisky privatizovány, když všechno jde dobře, ztráty budou mutualizovány v případě bankrotu (záchranné balíčky, plány na záchranu, manipulace s úrokovými sazbami, tisk peněz atd.). Tím vytvořili morální hazard, usnadnili neopodstatněné riskování a povzbudili finanční svět k nezodpovědnému chování. Tímto způsobem finančnictví přivedli do krize, kterou jsme zažili.
 
-![obrázek](assets/en/104.webp)
 
 A tento jev se bude neustále opakovat, dokud budou banky pod nadvládou centrálních autorit, které mají za úkol je chránit tím, že jim odnímají veškerou autonomii rozhodování a provozu.
 

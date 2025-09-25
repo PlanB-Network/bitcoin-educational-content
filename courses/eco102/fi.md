@@ -1293,7 +1293,6 @@ _(Alan Greenspan, Yhdysvaltain keskuspankin FED:n puheenjohtaja vuosina 1987-200
 Vuosien ajan rahapolitiikan johtajat selittivät, että jos voitot yksityistetään silloin, kun kaikki menee hyvin, tappiot yhteisvastuullisesti maksetaan konkurssin sattuessa (pelastuspaketit, pelastussuunnitelmat, korkojen manipulointi, rahan painaminen jne.). Näin he loivat moraalikadon, helpottivat kohtuutonta riskinottoa ja kannustivat rahoitusmaailmaa käyttäytymään vastuuttomasti. Näin ne saivat rahoitusalan ajautumaan kokemaansa kriisiin.
 
 
-![image](assets/en/104.webp)
 
 
 Ilmiö toistuu loputtomiin niin kauan kuin pankit pysyvät keskusviranomaisten määräysvallassa, joiden on tarkoitus suojella niitä poistamalla kaikki päätöksenteon ja toiminnan riippumattomuus.

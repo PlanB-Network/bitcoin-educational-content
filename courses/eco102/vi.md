@@ -1293,7 +1293,6 @@ _(Alan Greenspan, Chủ tịch FED, ngân hàng trung ương Hoa Kỳ, từ năm
 Trong nhiều năm, các nhà lãnh đạo chính sách tiền tệ đã giải thích rằng nếu lợi nhuận được tư nhân hóa khi mọi thứ diễn ra tốt đẹp, thì tổn thất sẽ được chia sẻ trong trường hợp phá sản (giải cứu, kế hoạch cứu trợ, thao túng lãi suất, in tiền, v.v.). Khi làm như vậy, họ đã tạo ra rủi ro đạo đức, tạo điều kiện cho việc chấp nhận rủi ro vô lý và khuyến khích thế giới tài chính hành xử vô trách nhiệm. Do đó, họ đã đẩy ngành tài chính vào cuộc khủng hoảng mà chúng ta đang trải qua.
 
 
-![image](assets/en/104.webp)
 
 
 Và hiện tượng này sẽ lặp lại vô thời hạn chừng nào các ngân hàng vẫn nằm dưới sự thống trị của các cơ quan trung ương được cho là sẽ bảo vệ họ bằng cách tước bỏ mọi quyền tự chủ trong việc ra quyết định và hoạt động.

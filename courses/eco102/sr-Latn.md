@@ -1289,7 +1289,6 @@ _(Alan Greenspan, predsednik FED-a, američke centralne banke, od 1987. do 2006.
 Godinama su lideri monetarne politike objašnjavali da ako se profiti privatizuju kada sve ide dobro, gubici će biti mutualizovani u slučaju bankrota (bailout-i, planovi spasavanja, manipulacija kamatnim stopama, štampanje novca, itd.). Time su stvorili moralni hazard, olakšali preuzimanje nerazumnih rizika i podstakli finansijski svet da se ponaša neodgovorno. Tako su ubrzali finansijsku krizu koju smo doživeli.
 
 
-![image](assets/en/104.webp)
 
 
 A fenomen će se ponavljati beskonačno sve dok banke ostanu pod dominacijom centralnih vlasti koje bi ih trebale štititi uklanjanjem svake autonomije odlučivanja i poslovanja.

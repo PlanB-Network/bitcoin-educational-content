@@ -1288,7 +1288,6 @@ _(Alan Greenspan, umuyobozi wa FED, banki nkuru y'Amerika, kuva mu 1987 gushika 
 Imyaka myinshi, abarongozi b’ivy’amahera barasiguye ko iyo inyungu zishizwe mu vy’abikorera ku giti cabo igihe vyose bigenda neza, ibihombo bizoba ari ivy’abantu bose iyo umuntu ashobora gusenyuka (ugufasha abantu, imigambi yo gutabara, gukoresha nabi inyungu, gucapura amahera, n’ibindi). Mu kubigira, baratuma haba akaga mu vy’inyifato runtu, baratuma abantu bashobora gufata ingingo zidasanzwe, kandi bararemesha isi y’ivy’ubutunzi kwigenza mu buryo butagiramwo inshingano. Baciye rero bavyura amahera mu ngorane twaciyemwo.
 
 
-![image](assets/en/104.webp)
 
 
 Kandi ico kintu kizosubira kubaho igihe cose amabanki azoguma ari munsi y’ubutegetsi bwa Leta bukuru butegerezwa kuyakingira mu gukuraho ubwigenge bwose bwo gufata ingingo no gukora.

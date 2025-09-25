@@ -1290,7 +1290,6 @@ Zilustrujmy tę kwestię kilkoma ważnymi bieżącymi tematami. Pierwszy przykł
 Przez lata liderzy polityki monetarnej tłumaczyli, że jeśli zyski są prywatyzowane, gdy wszystko idzie dobrze, straty będą uwspólniane w przypadku bankructwa (bailouty, plany ratunkowe, manipulacje stopami procentowymi, drukowanie pieniędzy itp.) W ten sposób stworzyli pokusę nadużycia, ułatwili podejmowanie nieuzasadnionego ryzyka i zachęcili świat finansów do nieodpowiedzialnych zachowań. W ten sposób doprowadziły finanse do kryzysu, którego doświadczyliśmy.
 
 
-![image](assets/en/104.webp)
 
 
 Zjawisko to będzie się powtarzać w nieskończoność, dopóki banki pozostaną pod dominacją władz centralnych, które mają je chronić, odbierając im wszelką autonomię decyzji i działania.

@@ -1288,7 +1288,6 @@ _(Alan Greenspan, 1987'den 2006'ya kadar Amerikan merkez bankası FED'in Başkan
 Yıllar boyunca para politikası liderleri, her şey yolunda gittiğinde karlar özelleştirilirse, iflas durumunda zararların ortaklaştırılacağını açıkladılar (kurtarmalar, kurtarma planları, faiz oranı manipülasyonu, para basma vb.) Bunu yaparak ahlaki bir tehlike yarattılar, mantıksız risk alımını kolaylaştırdılar ve finans dünyasını sorumsuzca davranmaya teşvik ettiler. Böylece finans dünyasını yaşadığımız krize sürüklediler.
 
 
-![image](assets/en/104.webp)
 
 
 Bankalar, tüm karar ve operasyon özerkliklerini ortadan kaldırarak kendilerini koruması gereken merkezi otoritelerin tahakkümü altında kaldığı sürece bu olgu sonsuza kadar tekrarlanacaktır.

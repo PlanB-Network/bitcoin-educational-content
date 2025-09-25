@@ -869,7 +869,6 @@ _(Alan Greenspan, Ketua FED, bank sentral Amerika, dari 1987 hingga 2006)_
 
 Selama bertahun-tahun, pemimpin kebijakan moneter menjelaskan bahwa jika keuntungan diprivatisasi ketika semuanya berjalan baik, kerugian akan dimutualisasikan dalam kasus kebangkrutan (bailout, rencana penyelamatan, manipulasi suku bunga, pencetakan uang, dll). Dengan melakukan itu, mereka menciptakan bahaya moral, mereka memfasilitasi pengambilan risiko yang tidak masuk akal, dan mereka mendorong dunia keuangan untuk bertindak tidak bertanggung jawab. Mereka dengan demikian mendorong keuangan ke dalam krisis yang kita alami.
 
-![image](assets/en/104.webp)
 
 Dan fenomena akan berulang tanpa henti selama bank tetap berada di bawah dominasi otoritas sentral yang seharusnya melindungi mereka dengan menghilangkan semua otonomi keputusan dan operasi.
 

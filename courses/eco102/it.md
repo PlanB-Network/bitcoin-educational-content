@@ -530,7 +530,6 @@ Per concludere, protezionisti e socialisti condividono un punto comune, secondo 
 Pierre-Joseph Proudhon è uno dei principali rappresentanti del socialismo francese a metà del XIX secolo. È particolarmente famoso per questa affermazione: "La proprietà è furto" in "Che cos'è la proprietà?" nel 1840.
 
 ![image](assets/en/064.webp)
-![image](assets/en/065.webp)
 
 C'è qualcosa di logicamente assurdo in questa affermazione. Infatti, se non esistesse una proprietà acquisita legittimamente, logicamente non potrebbe esistere un atto come il furto. Ecco perché Proudhon avrebbe poi chiarito che è la distribuzione attuale della proprietà che considera furto, non la proprietà in sé, che descrive come una forza rivoluzionaria fondamentale per la società anarchica.
 

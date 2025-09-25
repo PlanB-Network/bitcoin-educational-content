@@ -776,7 +776,6 @@ Pierre-Joseph Proudhon ist einer der wichtigsten Vertreter des französischen So
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Diese Behauptung hat etwas logisch Absurdes an sich. Denn wenn es kein rechtmäßig erworbenes Eigentum gäbe, könnte es logischerweise auch keine Handlung wie Diebstahl geben. Deshalb stellte Proudhon später klar, dass er die tatsächliche Verteilung des Eigentums als Diebstahl ansieht, nicht das Eigentum selbst, das er als revolutionäre Kraft beschreibt, die der anarchistischen Gesellschaft zugrunde liegt.

@@ -533,7 +533,6 @@ Untuk menyimpulkan, menurut Bastiat, proteksionis dan sosialis memiliki titik pe
 Pierre-Joseph Proudhon adalah salah satu perwakilan utama sosialisme Prancis pada pertengahan abad ke-19. Dia terutama terkenal dengan pernyataan ini: "Properti adalah pencurian" dalam "Apa itu Properti?" pada tahun 1840.
 
 ![image](assets/en/064.webp)
-![image](assets/en/065.webp)
 
 Ada sesuatu yang secara logika absurd dalam pernyataan ini. Karena jika tidak ada properti yang diperoleh secara sah, secara logika tidak bisa ada tindakan seperti pencurian. Itulah mengapa Proudhon kemudian menjelaskan bahwa yang dia anggap sebagai pencurian adalah distribusi properti saat ini, bukan properti itu sendiri, yang dia gambarkan sebagai kekuatan revolusioner yang mendasari masyarakat anarkis.
 

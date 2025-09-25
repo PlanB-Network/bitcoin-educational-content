@@ -776,7 +776,6 @@ Pierre-Joseph Proudhon on üks 19. sajandi keskpaiga prantsuse sotsialismi peami
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Selles väites on midagi loogiliselt absurdset. Sest kui seaduslikult omandatud vara ei oleks olemas, ei saaks loogiliselt võttes olla ka sellist tegu nagu vargus. Seepärast selgitab Proudhon hiljem, et ta peab varguseks just vara tegelikku jaotamist, mitte omandit ennast, mida ta kirjeldab kui anarhistliku ühiskonna revolutsioonilist jõudu, mis on aluseks anarhistlikule ühiskonnale.

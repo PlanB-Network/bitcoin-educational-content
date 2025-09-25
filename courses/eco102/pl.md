@@ -775,7 +775,6 @@ Pierre-Joseph Proudhon jest jednym z głównych przedstawicieli francuskiego soc
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 W twierdzeniu tym jest coś logicznie absurdalnego. Gdyby bowiem nie istniała legalnie nabyta własność, logicznie rzecz biorąc, nie mógłby istnieć czyn taki jak kradzież. Dlatego też Proudhon wyjaśni później, że za kradzież uważa faktyczną dystrybucję własności, a nie samą własność, którą opisuje jako rewolucyjną siłę leżącą u podstaw anarchistycznego społeczeństwa.

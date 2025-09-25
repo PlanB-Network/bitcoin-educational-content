@@ -775,7 +775,6 @@ Pierre-Joseph Proudhon är en av de främsta företrädarna för den franska soc
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Det finns något logiskt absurt i detta påstående. För om det inte fanns någon legitimt förvärvad egendom, skulle det logiskt sett inte kunna finnas en handling som stöld. Det är därför Proudhon senare skulle förtydliga att det är den faktiska fördelningen av egendom han betraktar som stöld, inte egendomen i sig, som han beskriver som en revolutionär kraft som är grundläggande för det anarkistiska samhället.

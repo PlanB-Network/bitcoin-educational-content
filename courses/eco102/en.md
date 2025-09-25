@@ -528,7 +528,6 @@ To conclude, protectionists and socialists share a common point, according to Ba
 Pierre-Joseph Proudhon is one of the major representatives of French socialism in the mid-19th century. He is especially famous for this statement: "Property is theft" in "What is Property?" in 1840.
 
 ![image](assets/en/064.webp)
-![image](assets/en/065.webp)
 
 There is something logically absurd in this assertion. For if there were no legitimately acquired property, logically there could not be an act such as theft. That's why Proudhon would later clarify that it is the actual distribution of property he considers theft, not property itself, which he describes as a revolutionary force foundational to anarchist society.
 

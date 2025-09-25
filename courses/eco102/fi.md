@@ -776,7 +776,6 @@ Pierre-Joseph Proudhon on yksi 1800-luvun puolivälin ranskalaisen sosialismin t
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Tässä väitteessä on jotain loogisesti absurdia. Jos nimittäin ei olisi olemassa laillisesti hankittua omaisuutta, ei loogisesti ottaen voisi olla olemassa varkauden kaltaista tekoa. Siksi Proudhon selventää myöhemmin, että hän pitää varkautena nimenomaan omaisuuden tosiasiallista jakamista, ei itse omaisuutta, jota hän kuvaa vallankumoukselliseksi voimaksi, joka on anarkistisen yhteiskunnan perusta.

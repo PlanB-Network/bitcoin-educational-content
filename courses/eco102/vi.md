@@ -776,7 +776,6 @@ Pierre-Joseph Proudhon là một trong những đại diện tiêu biểu của 
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Có điều gì đó phi lý về mặt logic trong khẳng định này. Bởi vì nếu không có tài sản được sở hữu hợp pháp, về mặt logic, không thể có hành vi như trộm cắp. Đó là lý do tại sao Proudhon sau này đã làm rõ rằng chính việc phân phối tài sản thực tế mới là hành vi trộm cắp, chứ không phải bản thân tài sản, mà ông mô tả là một lực lượng cách mạng, nền tảng của xã hội vô chính phủ.

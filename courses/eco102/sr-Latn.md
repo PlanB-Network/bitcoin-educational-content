@@ -774,7 +774,6 @@ Pierre-Joseph Proudhon je jedan od glavnih predstavnika francuskog socijalizma s
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Postoji nešto logički apsurdno u ovoj tvrdnji. Jer ako ne bi bilo legitimno stečene imovine, logično ne bi moglo postojati delo kao što je krađa. Zato bi Proudhon kasnije pojasnio da je stvarna raspodela imovine ono što on smatra krađom, a ne sama imovina, koju opisuje kao revolucionarnu silu koja je osnovna za anarhističko društvo.

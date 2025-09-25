@@ -775,7 +775,6 @@ Pierre-Joseph Proudhon, 19. yüzyılın ortalarında Fransız sosyalizminin en �
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Bu iddiada mantıksal olarak saçma bir şey vardır. Çünkü meşru olarak edinilmiş mülkiyet olmasaydı, mantıksal olarak hırsızlık gibi bir eylem de olamazdı. Bu nedenle Proudhon daha sonra, anarşist toplumun temelini oluşturan devrimci bir güç olarak tanımladığı mülkiyetin kendisinin değil, mülkiyetin fiili dağıtımının hırsızlık olduğunu açıklığa kavuşturacaktır.

@@ -521,7 +521,6 @@ Závěrem, protekcionisté a socialisté mají podle Bastiata společný bod: to
 Pierre-Joseph Proudhon je jedním z hlavních představitelů francouzského socialismu v polovině 19. století. Je zejména proslulý svým tvrzením: "Majetek je krádež" v "Co je majetek?" v roce 1840.
 
 ![image](assets/en/064.webp)
-![image](assets/en/065.webp)
 V této tvrzení je něco logicky absurdního. Pokud by neexistovalo legitimně získané vlastnictví, logicky by nemohlo existovat něco jako krádež. Proto Proudhon později upřesnil, že za krádež považuje současné rozdělení majetku, nikoli samotné vlastnictví, které popisuje jako revoluční sílu základní pro anarchistickou společnost.
 ![image](assets/en/066.webp)
 

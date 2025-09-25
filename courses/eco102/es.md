@@ -776,7 +776,6 @@ Pierre-Joseph Proudhon es uno de los principales representantes del socialismo f
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Hay algo lógicamente absurdo en esta afirmación. Pues si no existiera la propiedad legítimamente adquirida, lógicamente no podría existir un acto como el robo. Por eso Proudhon aclararía más tarde que es la distribución real de la propiedad lo que considera robo, y no la propiedad en sí misma, lo que describe como una fuerza revolucionaria fundacional de la sociedad anarquista.

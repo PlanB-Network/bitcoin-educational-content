@@ -775,7 +775,6 @@ Pierre-Joseph Proudhon is een van de belangrijkste vertegenwoordigers van het Fr
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Er zit iets logisch absurds in deze bewering. Want als er geen rechtmatig verworven eigendom zou zijn, zou er logischerwijs ook geen daad als diefstal kunnen zijn. Daarom zou Proudhon later verduidelijken dat het de feitelijke verdeling van eigendom is die hij als diefstal beschouwt, niet het eigendom zelf, dat hij beschrijft als een revolutionaire kracht die ten grondslag ligt aan de anarchistische samenleving.

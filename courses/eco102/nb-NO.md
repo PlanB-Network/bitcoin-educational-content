@@ -776,7 +776,6 @@ Pierre-Joseph Proudhon er en av de viktigste representantene for den franske sos
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Det er noe logisk absurd i denne påstanden. For hvis det ikke fantes noen lovlig ervervet eiendom, kunne det logisk sett ikke finnes en handling som tyveri. Det er derfor Proudhon senere presiserer at det er selve fordelingen av eiendom han anser som tyveri, ikke eiendommen i seg selv, som han beskriver som en revolusjonær kraft som ligger til grunn for det anarkistiske samfunnet.

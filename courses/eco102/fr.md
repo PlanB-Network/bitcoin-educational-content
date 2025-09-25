@@ -552,7 +552,6 @@ Pour conclure, protectionnistes et socialistes ont un point commun, selon Bastia
 Pierre-Joseph Proudhon est l’un des grands représentants du socialisme français au milieu du XIXe siècle. Il est resté célèbre notamment pour cette phrase : « La propriété c’est le vol » dans "Qu'est-ce que la propriété ?" en 1840.
 
 ![image](assets/en/064.webp)
-![image](assets/en/065.webp)
 
 Il y a quelque chose de logiquement absurde dans cette affirmation. Car s'il n'y avait pas de propriété acquise légitimement, il ne pourrait logiquement pas y avoir d'acte tel que le vol. C’est pourquoi Proudhon précisera par la suite que c'est la répartition effective de la propriété qu'il considère comme un vol et non la propriété elle-même qu'il qualifie de force révolutionnaire fondatrice de la société anarchiste.
 

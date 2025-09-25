@@ -775,7 +775,6 @@ Pierre-Joseph Proudhon ni mmoja wa wawakilishi wakuu wa ujamaa wa Ufaransa katik
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Kuna jambo la kipuuzi kimantiki katika madai haya. Kwani kama kusingekuwa na mali iliyopatikana kihalali, kimantiki kusingeweza kuwa na kitendo kama vile wizi. Ndio maana Proudhon baadaye angefafanua kuwa ni mgawanyo halisi wa mali anaouona wizi, sio mali yenyewe, ambayo anaelezea kama msingi wa nguvu ya mapinduzi kwa jamii ya wanarchist.

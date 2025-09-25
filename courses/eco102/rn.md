@@ -775,7 +775,6 @@ Pierre-Joseph Proudhon ni umwe mu baserukira cane ubusosiyalisimu bw’Ubufarans
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Hariho ikintu kidasobanutse mu buryo bubereye muri ivyo vyemezo. Kuko iyo hataba umutungo umuntu aronka mu buryo bubereye, mu buryo bubereye ntihashobora kubaho igikorwa nk’ubusuma. Ni co gituma Proudhon azoheza agatomora ko ari ugusangira vy’ukuri kw’itunga abona ko ari ubusuma, atari itunga ubwaryo, ivyo adondora nk’inkomezi z’ihinduka zishingiye ku kibano c’abanyagitugu.

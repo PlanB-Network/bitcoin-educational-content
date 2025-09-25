@@ -954,7 +954,6 @@ It must be clarified that this development of progress through responsibility is
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![image](assets/en/113.webp)
 
 Frédéric Bastiat, in his famous pamphlet "The Law," denounces the perversion of law that consists in legalizing, under the name of "solidarity," what must indeed be called plunder. Indeed, there is a contradiction in wanting to impose fraternity through law, what we would call today "social justice" or solidarity.
 

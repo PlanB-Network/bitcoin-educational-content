@@ -1134,7 +1134,6 @@ Politisk ekonomi har därför en uppenbar praktisk nytta. Den avslöjar förskin
 Återigen, det skulle finnas färre Tartuffes om det fanns färre Orgons som lyssnade på dem. Här är vad Bastiat har att säga i denna fråga:
 
 
-![image](assets/en/094.webp)
 
 
 > Låt därför den religiösa moralen beröra tartuffernas hjärtan om den kan. Den politiska ekonomins uppgift är att upplysa deras duperingar. Vilket av dessa två angreppssätt är mest effektivt för sociala framsteg? Måste det sägas? Jag tror att det är den andra. Jag är rädd för att mänskligheten inte kan undkomma nödvändigheten av att först lära sig defensiv moral.

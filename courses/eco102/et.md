@@ -1138,7 +1138,6 @@ Seega on poliitilisel ökonoomial ilmselge praktiline kasu. See paljastab varjat
 Taas kord, Tartuffi oleks vähem, kui oleks vähem Orgoneid, kes neid kuulaksid. Siin on Bastiat'l selle kohta öelda järgmist:
 
 
-![image](assets/en/094.webp)
 
 
 > Las siis usuline moraal puudutab Tartuffide südamed, kui ta saab. Poliitmajanduse ülesanne on nende dubleerijate valgustamine. Milline neist kahest lähenemisviisist töötab sotsiaalse progressi jaoks kõige tõhusamalt? Kas seda peab ütlema? Ma usun, et see on teine. Ma kardan, et inimkond ei saa pääseda vajadusest õppida kõigepealt kaitsvat moraali.

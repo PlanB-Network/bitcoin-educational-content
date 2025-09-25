@@ -1134,7 +1134,6 @@ Uchumi wa Kisiasa, kwa hivyo, una matumizi dhahiri ya vitendo. Inafunua uharibif
 Kwa mara nyingine tena, kungekuwa na Tartuffes chache ikiwa kungekuwa na Orgons chache za kuwasikiliza. Hivi ndivyo Bastiat anasema juu ya suala hili:
 
 
-![image](assets/en/094.webp)
 
 
 > Basi maadili ya kidini yaguse mioyo ya Tartuffes kama inaweza. Kazi ya uchumi wa kisiasa ni kuwaangazia wadanganyifu wao. Kati ya njia hizi mbili, ni ipi inafanya kazi kwa ufanisi zaidi kwa maendeleo ya kijamii? Je, ni lazima kusemwa? Naamini ni ya pili. Ninahofia kwamba ubinadamu hauwezi kuepuka umuhimu wa kwanza kujifunza maadili ya kujihami.

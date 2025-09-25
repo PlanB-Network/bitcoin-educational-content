@@ -1138,7 +1138,6 @@ Politisk økonomi har derfor en åpenbar praktisk nytteverdi. Den avslører snyl
 Igjen, det ville vært færre Tartuffes hvis det var færre Orgoner til å lytte til dem. Her er hva Bastiat har å si om denne saken:
 
 
-![image](assets/en/094.webp)
 
 
 > La derfor den religiøse moralen berøre tartuffenes hjerter hvis den kan. Den politiske økonomiens oppgave er å opplyse deres dupes. Hvilken av disse to tilnærmingsmåtene er mest effektiv for sosial fremgang? Må det sies? Jeg tror det er den andre. Jeg frykter at menneskeheten ikke kan unnslippe nødvendigheten av først å lære seg en defensiv moral.

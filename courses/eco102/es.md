@@ -1138,7 +1138,6 @@ La Economía Política, por tanto, tiene una utilidad práctica evidente. Revela
 Una vez más, habría menos Tartuffes si hubiera menos Orgons para escucharlos. He aquí lo que dice Bastiat al respecto:
 
 
-![image](assets/en/094.webp)
 
 
 > Dejemos, pues, que la moral religiosa toque, si puede, el corazón de los tartufos. La tarea de la economía política es iluminar a sus incautos. De estos dos enfoques, ¿cuál funciona más eficazmente para el progreso social? ¿Hay que decirlo? Creo que es el segundo. Me temo que la humanidad no puede escapar a la necesidad de aprender primero una moral defensiva.

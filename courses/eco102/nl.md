@@ -1134,7 +1134,6 @@ Politieke economie heeft daarom een duidelijk praktisch nut. Het onthult verspil
 Nogmaals, er zouden minder Tartuffes zijn als er minder Orgons waren om naar ze te luisteren. Dit is wat Bastiat hierover te zeggen heeft:
 
 
-![image](assets/en/094.webp)
 
 
 > Laat religieuze moraliteit daarom de harten van de Tartuffen raken als het kan. Het is de taak van de politieke economie om hun dupes te verlichten. Welke van deze twee benaderingen werkt het meest effectief voor sociale vooruitgang? Moet het gezegd worden? Ik geloof dat het de tweede is. Ik vrees dat de mensheid niet kan ontsnappen aan de noodzaak om eerst defensieve moraliteit te leren.

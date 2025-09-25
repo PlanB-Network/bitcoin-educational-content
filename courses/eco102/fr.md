@@ -798,7 +798,6 @@ L'Économie politique a donc une utilité pratique évidente. Elle dévoile la s
 
 Encore, une fois, il y aurait moins de Tartuffe s’il y avait moins d’Orgon pour les écouter. Voici ce que dit Bastiat à ce propos :
 
-![image](assets/en/094.webp)
 
 > Que la morale religieuse touche donc le cœur, si elle le peut, des Tartuffes. La tâche de l'économie politique est d'éclairer leurs dupes. De ces deux procédés, quel est celui qui travaille le plus efficacement au progrès social ? Faut-il le dire ? Je crois que c'est le second. Je crains que l'humanité ne puisse échapper à la nécessité d'apprendre d'abord la morale défensive.
 

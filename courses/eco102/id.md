@@ -769,7 +769,6 @@ Ekonomi Politik, oleh karena itu, memiliki utilitas praktis yang jelas. Ini meng
 
 Sekali lagi, akan ada lebih sedikit Tartuffe jika ada lebih sedikit Orgon yang mendengarkan mereka. Inilah yang dikatakan Bastiat tentang hal ini:
 
-![image](assets/en/094.webp)
 
 > Biarlah moralitas agama menyentuh hati Tartuffe jika bisa. Tugas ekonomi politik adalah untuk mencerahkan orang-orang yang tertipu. Dari kedua pendekatan ini, mana yang paling efektif untuk kemajuan sosial? Haruskah dikatakan? Saya percaya itu yang kedua. Saya khawatir umat manusia tidak bisa menghindari kebutuhan untuk pertama-tama mempelajari moralitas defensif.
 

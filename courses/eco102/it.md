@@ -779,7 +779,6 @@ Concretamente, la scienza economica, descritta da Bastiat come moralità difensi
 L'Economia Politica, quindi, ha un'utilità pratica evidente. Rivela la spoliazione nei costi nascosti, gli ostacoli alla concorrenza e tutte le forme di protezionismo.
 Ancora una volta, ci sarebbero meno Tartuffi se ci fossero meno Orgon disposti ad ascoltarli. Ecco cosa ha da dire Bastiat su questo argomento:
 
-![immagine](assets/en/094.webp)
 Lasciamo quindi che la morale religiosa tocchi il cuore dei Tartuffi se può. Il compito dell'economia politica è illuminare i loro ingannati. Di questi due approcci, quale funziona più efficacemente per il progresso sociale? Deve essere detto? Credo sia il secondo. Temo che l'umanità non possa sfuggire alla necessità di imparare prima una morale difensiva.
 
 Naturalmente, l'economia politica non è la scienza universale; non esclude approcci filosofici e religiosi. "Ma chi ha mai avanzato una pretesa così esorbitante in suo nome?" si chiede Bastiat.

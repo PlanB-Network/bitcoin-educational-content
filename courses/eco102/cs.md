@@ -753,7 +753,6 @@ Konkrétně, ekonomická věda, kterou Bastiat popisuje jako obrannou morálku, 
 Politická ekonomie má tedy zjevnou praktickou užitečnost. Odhaluje vykořisťování v skrytých nákladech, překážky konkurenci a všechny formy protekcionismu.
 Jednou znovu, bylo by méně Tartuffů, kdyby bylo méně Orgonů, kteří je poslouchají. Zde je, co Bastiat říká na toto téma:
 
-![obrázek](assets/en/094.webp)
 Nechť tedy náboženská morálka dotkne srdcí Tartuffů, pokud může. Úkolem politické ekonomie je osvětlit jejich oběti. Z těchto dvou přístupů, který nejefektivněji funguje pro sociální pokrok? Musí to být řečeno? Věřím, že je to ten druhý. Obávám se, že lidstvo nemůže uniknout nutnosti nejprve se naučit obrannou morálku.
 
 Samozřejmě, politická ekonomie není univerzální věda; nevylučuje filozofické a náboženské přístupy. "Ale kdo kdy v jejím jménu projevil tak exorbitantní nárok?" se diví Bastiat.

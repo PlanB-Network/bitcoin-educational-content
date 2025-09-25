@@ -1136,7 +1136,6 @@ Ekonomia polityczna ma zatem oczywistą praktyczną użyteczność. Ujawnia ukry
 Ponownie, byłoby mniej Tartuffów, gdyby było mniej Orgonów, którzy by ich słuchali. Oto, co Bastiat ma do powiedzenia na ten temat:
 
 
-![image](assets/en/094.webp)
 
 
 > Niech zatem moralność religijna dotknie serc Tartuffów, jeśli może. Zadaniem ekonomii politycznej jest oświecenie ich głupców. Które z tych dwóch podejść działa najskuteczniej na rzecz postępu społecznego? Czy trzeba to powiedzieć? Wierzę, że to drugie. Obawiam się, że ludzkość nie uniknie konieczności nauczenia się najpierw moralności defensywnej.

@@ -1134,7 +1134,6 @@ Dolayısıyla Ekonomi Politiğin bariz bir pratik faydası vardır. Gizli maliye
 Bir kez daha, eğer onları dinleyecek daha az Orgon olsaydı, daha az Tartuffe olurdu. İşte Bastiat'nın bu konuda söyleyecekleri:
 
 
-![image](assets/en/094.webp)
 
 
 > Bu nedenle dini ahlakın, eğer mümkünse Tartuff'ların kalplerine dokunmasına izin verin. Ekonomi politiğin görevi ise onların kandırılmalarını aydınlatmaktır. Bu iki yaklaşımdan hangisi toplumsal ilerleme için en etkili şekilde çalışır? Bunu söylemek gerekir mi? Ben ikincisinin olduğuna inanıyorum. Korkarım ki insanlık önce savunma ahlakını öğrenme zorunluluğundan kaçamaz.

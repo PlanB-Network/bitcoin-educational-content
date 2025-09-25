@@ -1138,7 +1138,6 @@ Poliittisella taloustieteellä on siis ilmeinen käytännön hyöty. Se paljasta
 Jälleen kerran, Tartuffeja olisi vähemmän, jos niitä kuuntelevia Orgoneja olisi vähemmän. Bastiat sanoo tästä asiasta seuraavaa:
 
 
-![image](assets/en/094.webp)
 
 
 > Uskonnollinen moraali koskettakoon siis Tartuffeja, jos se voi. Poliittisen taloustieteen tehtävänä on valistaa heidän huijareitaan. Kumpi näistä kahdesta lähestymistavasta edistää tehokkaimmin yhteiskunnallista edistystä? Onko se sanottava? Uskon, että se on toinen. Pelkäänpä, että ihmiskunta ei voi välttyä siltä, että ensin on opittava puolustava moraali.

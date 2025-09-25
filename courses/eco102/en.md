@@ -772,7 +772,6 @@ Political Economy, therefore, has an obvious practical utility. It reveals spoli
 
 Once again, there would be fewer Tartuffes if there were fewer Orgons to listen to them. Here is what Bastiat has to say on this matter:
 
-![image](assets/en/094.webp)
 
 > Let religious morality therefore touch the hearts of Tartuffes if it can. The task of political economy is to enlighten their dupes. Of these two approaches, which one works most effectively for social progress? Must it be said? I believe it is the second. I fear that humanity cannot escape the necessity of first learning defensive morality.  
 

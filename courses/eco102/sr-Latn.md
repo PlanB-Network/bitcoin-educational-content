@@ -1135,7 +1135,6 @@ Politička ekonomija, dakle, ima očiglednu praktičnu korisnost. Ona otkriva pl
 Još jednom, bilo bi manje Tartuffes-a kada bi bilo manje Orgon-a koji ih slušaju. Evo šta Bastiat kaže o ovom pitanju:
 
 
-![image](assets/en/094.webp)
 
 
 > Neka religiozni moral, dakle, dotakne srca Tartuffes-a ako može. Zadatak političke ekonomije je da prosvetli njihove prevarene. Od ova dva pristupa, koji najefikasnije deluje za društveni napredak? Mora li se reći? Verujem da je to drugi. Bojim se da čovečanstvo ne može izbeći potrebu da prvo nauči odbrambeni moral.

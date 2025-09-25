@@ -1138,7 +1138,6 @@ A Economia Política tem, portanto, uma utilidade prática evidente. Revela a es
 Mais uma vez, haveria menos Tartufos se houvesse menos Orgãos para os ouvir. Eis o que Bastiat tem a dizer sobre este assunto:
 
 
-![image](assets/en/094.webp)
 
 
 > Que a moral religiosa toque, portanto, os corações dos Tartufos, se puder. A tarefa da economia política é iluminar os seus fantoches. Destas duas abordagens, qual é a mais eficaz para o progresso social? É preciso dizê-lo? Creio que é a segunda. Receio que a humanidade não possa escapar à necessidade de aprender primeiro a moral defensiva.

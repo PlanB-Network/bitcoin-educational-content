@@ -1134,7 +1134,6 @@ Ubutunzi bwa politike rero burafise akamaro kagaragara. Birahishura ubusazi mu b
 Na none, hariho aba Tartuffe bake iyo habaho aba Orgon bake bo kubumviriza. Ehe ivyo Bastiat avuga kuri ivyo:
 
 
-![image](assets/en/094.webp)
 
 
 > Rero inyifato runtu y’idini ikore ku mitima y’Abatartufe nimba ishobora. Igikorwa kijanye n’ubutunzi bwa politike ni ugumurikira abadupe babo. Muri izo nzira zibiri, ni iyihe ikora neza cane kugira ngo abantu batere imbere? Mbega vyoba bitegerezwa kuvugwa? Nizera ko ari ubwa kabiri. Ndatinya ko abantu badashobora guhunga ivy’uko bikenewe ko babanza kwiga inyifato runtu yo kwikingira.

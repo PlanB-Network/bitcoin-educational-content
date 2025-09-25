@@ -1138,7 +1138,6 @@ Do đó, Kinh tế Chính trị có một ứng dụng thực tiễn rõ ràng. 
 Một lần nữa, sẽ có ít Tartuffes hơn nếu có ít Orgons nghe theo họ hơn. Đây là những gì Bastiat nói về vấn đề này:
 
 
-![image](assets/en/094.webp)
 
 
 > Vậy nên, nếu có thể, hãy để đạo đức tôn giáo chạm đến trái tim của Tartuffes. Nhiệm vụ của kinh tế chính trị là soi sáng cho những kẻ bị lừa. Trong hai cách tiếp cận này, cách nào hiệu quả nhất cho tiến bộ xã hội? Có cần phải nói ra không? Tôi tin rằng đó là cách thứ hai. Tôi e rằng nhân loại không thể thoát khỏi sự cần thiết phải học đạo đức phòng thủ trước.

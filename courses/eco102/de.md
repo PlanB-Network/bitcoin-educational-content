@@ -1138,7 +1138,6 @@ Die Politische Ökonomie hat also einen offensichtlichen praktischen Nutzen. Sie
 Noch einmal: Es gäbe weniger Tartuffes, wenn es weniger Orgons gäbe, die sie anhören. Hier ist, was Bastiat zu diesem Thema zu sagen hat:
 
 
-![image](assets/en/094.webp)
 
 
 > Die religiöse Moral soll also die Herzen der Tartuffe berühren, wenn sie es kann. Die Aufgabe der politischen Ökonomie ist es, ihre Dummköpfe aufzuklären. Welcher dieser beiden Ansätze ist für den sozialen Fortschritt am wirksamsten? Muss man das sagen? Ich glaube, es ist der zweite. Ich fürchte, die Menschheit kommt nicht um die Notwendigkeit herum, zuerst eine defensive Moral zu lernen.

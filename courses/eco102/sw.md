@@ -1036,7 +1036,6 @@ Hapo awali, ilitakiwa kufidia gharama za kawaida. Kisha, kodi pia zilipewa jukum
 Hatimaye, jukumu la kijamii lilipewa kodi. Walifanywa kuwa chombo cha haki ya kijamii. Kwa hivyo, ushuru haupaswi kugonga kila mtu kwa njia ile ile. Ushuru lazima ugawanywe tena, kutoka kwa "walio na zaidi" hadi wale "walio na kidogo."
 
 
-![image](assets/en/086.webp)
 
 
 Shida ni kwamba kodi, kama inavyotungwa, inakabiliwa na jeuri ya walio madarakani. Wanapendelea au hawapendi kategoria fulani za kijamii kulingana na kama mamlaka inatarajia kura kutoka kwao au la. Zaidi ya hayo, viwango vinavyoendelea vinazaa kidogo hazina ya umma. Hata hivyo, wanaruhusu walio wengi kuwanyang'anya wachache na kwa kawaida kuwa wanyang'anyi.

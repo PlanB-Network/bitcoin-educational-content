@@ -1040,7 +1040,6 @@ Inicialmente, destinava-se a cobrir as despesas comuns. Depois, os impostos pass
 Por último, foi atribuída uma função social aos impostos. Foram transformados num instrumento de justiça social. Assim, os impostos não devem atingir toda a gente da mesma forma. Os impostos devem ser redistributivos, dos "que têm mais" para os "que têm menos"
 
 
-![image](assets/en/086.webp)
 
 
 O problema é que os impostos, tal como são concebidos, estão sujeitos à arbitrariedade dos detentores do poder. Favorecem ou desfavorecem certas categorias sociais consoante o poder espera ou não votos delas. Além disso, as taxas progressivas rendem pouco ao erário público. No entanto, permitem à maioria expropriar uma minoria e tornam-se naturalmente confiscatórias.

@@ -1040,7 +1040,6 @@ Ban đầu, thuế được cho là để trang trải các chi phí chung. Sau 
 Cuối cùng, thuế đã được giao một vai trò xã hội. Thuế được coi là công cụ thực thi công lý xã hội. Do đó, thuế không nên đánh vào tất cả mọi người theo cùng một cách. Thuế phải được phân phối lại, từ những người "có nhiều hơn" sang những người "có ít hơn".
 
 
-![image](assets/en/086.webp)
 
 
 Vấn đề là thuế, theo quan niệm thông thường, phụ thuộc vào sự tùy tiện của những người nắm quyền. Chúng ưu ái hoặc bất lợi cho một số tầng lớp xã hội nhất định tùy thuộc vào việc liệu nhà cầm quyền có mong đợi phiếu bầu từ họ hay không. Hơn nữa, thuế suất lũy tiến mang lại rất ít lợi ích cho ngân khố công. Tuy nhiên, chúng cho phép đa số chiếm đoạt tài sản của một nhóm thiểu số và đương nhiên trở thành hình thức tịch thu.

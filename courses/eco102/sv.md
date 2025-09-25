@@ -1036,7 +1036,6 @@ Ursprungligen skulle de täcka gemensamma utgifter. Sedan fick skatterna också 
 Slutligen tilldelades skatterna en social roll. De gjordes till ett instrument för social rättvisa. Skatter ska alltså inte drabba alla på samma sätt. Skatterna måste vara omfördelande, från dem "som har mer" till dem "som har mindre"
 
 
-![image](assets/en/086.webp)
 
 
 Problemet är att skatter, så som de är utformade, är föremål för makthavarnas godtycke. De gynnar eller missgynnar vissa sociala kategorier beroende på om makten förväntar sig röster från dem eller inte. Progressiva skattesatser ger dessutom lite till statskassan. De gör det dock möjligt för majoriteten att expropriera en minoritet och blir därför naturligt konfiskatoriska.

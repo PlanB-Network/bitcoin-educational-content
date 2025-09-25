@@ -1040,7 +1040,6 @@ Opprinnelig skulle den dekke fellesutgifter. Så fikk skattene også en rolle i 
 Til slutt ble skattene tildelt en sosial rolle. De ble gjort til et instrument for sosial rettferdighet. Skattene skal altså ikke ramme alle på samme måte. Skattene skal være omfordelende, fra dem "som har mer" til dem "som har mindre"
 
 
-![image](assets/en/086.webp)
 
 
 Problemet er at skatter, slik de er utformet, er underlagt makthavernes vilkårlighet. De favoriserer eller disfavoriserer visse sosiale kategorier avhengig av om makten forventer stemmer fra dem eller ikke. Dessuten gir progressive skattesatser lite til statskassen. Men de gjør det mulig for majoriteten å ekspropriere en minoritet, og blir naturlig nok konfiskatoriske.

@@ -1036,7 +1036,6 @@ Mu ntango, ryari rikwiye gufasha abantu bose. Hanyuma, imisoro na yo nyene yarah
 Ubwa nyuma, imisoro yarahawe uruhara mu kibano. Baciye bacika igikoresho c’ubutungane mu kibano. Gutyo, imisoro ntikwiye gutera abantu bose mu buryo bumwe. Imisoro itegerezwa gusubira gusangira, kuva ku "bafise vyinshi" gushika ku "bafise bike."
 
 
-![image](assets/en/086.webp)
 
 
 Ikibazo ni uko imisoro, nk’uko vyiyumviriwe, ishingiye ku bubisha bw’abafise ububasha. Bakunda canke ntibakunda abantu bamwebamwe bivanye n’uko ubutegetsi bubategereje amajwi canke atarivyo. Vyongeye, ibiciro bitera imbere ntibitanga inyungu nyinshi ku bubiko bwa Leta. Ariko rero, zireka benshi bagafata ivy’abantu bakeyi, maze mu bisanzwe zikaba abafata ibintu.

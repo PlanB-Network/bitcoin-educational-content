@@ -1040,7 +1040,6 @@ Ursprünglich sollten sie zur Deckung der gemeinsamen Ausgaben dienen. Dann wurd
 Schließlich wurde den Steuern eine soziale Rolle zugewiesen. Sie wurden zu einem Instrument der sozialen Gerechtigkeit. Demnach sollten Steuern nicht alle Menschen gleichermaßen treffen. Steuern müssen umverteilend wirken, von denen, "die mehr haben", zu denen, "die weniger haben"
 
 
-![image](assets/en/086.webp)
 
 
 Das Problem ist, dass die Steuern, so wie sie konzipiert sind, der Willkür der Machthaber unterliegen. Sie begünstigen oder benachteiligen bestimmte soziale Gruppen, je nachdem, ob die Macht von ihnen Stimmen erwartet oder nicht. Darüber hinaus bringen progressive Steuersätze der Staatskasse wenig ein. Sie ermöglichen es der Mehrheit jedoch, eine Minderheit zu enteignen, und werden so natürlich konfiskatorisch.

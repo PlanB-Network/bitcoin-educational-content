@@ -734,7 +734,6 @@ Au départ, il devait seulement couvrir les dépenses communes. Puis on a égale
 
 Enfin on a assigné à l’impôt un rôle social à remplir. On en a fait un instrument de la justice sociale. Ainsi l’impôt ne doit pas frapper tout le monde de la même manière. L’impôt doit être redistributif, de ceux « qui ont le plus » vers ceux « qui ont moins ».
 
-![image](assets/en/086.webp)
 
 Le problème c’est que l’impôt ainsi conçu est soumis à l’arbitraire de celui qui détient le pouvoir. Il favorise ou défavorise telle ou telle catégorie sociale selon que le pouvoir en attend des voix ou pas. De plus les taux progressifs rapportent peu au trésor public. En revanche ils permettent à la majorité d’exproprier une minorité et deviennent naturellement confiscatoires.
 

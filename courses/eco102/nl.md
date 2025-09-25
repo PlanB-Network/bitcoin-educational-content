@@ -1036,7 +1036,6 @@ Aanvankelijk was het bedoeld om gemeenschappelijke uitgaven te dekken. Daarna kr
 Tot slot werd er een sociale rol toegekend aan belastingen. Ze werden een instrument van sociale rechtvaardigheid. Belastingen mogen dus niet iedereen op dezelfde manier treffen. Belastingen moeten herverdelend zijn, van degenen "die meer hebben" naar degenen "die minder hebben"
 
 
-![image](assets/en/086.webp)
 
 
 Het probleem is dat belastingen, zoals ze zijn opgevat, onderhevig zijn aan de willekeur van de machthebbers. Ze bevoordelen of benadelen bepaalde sociale categorieën afhankelijk van het feit of de machthebbers stemmen van hen verwachten of niet. Bovendien leveren progressieve tarieven weinig op voor de schatkist. Ze stellen de meerderheid echter in staat om een minderheid te onteigenen en worden van nature confiscatoir.

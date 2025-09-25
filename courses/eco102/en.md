@@ -706,7 +706,6 @@ Initially, it was supposed to cover common expenses. Then, taxes were also given
 
 Finally, a social role was assigned to taxes. They were made an instrument of social justice. Thus, taxes should not hit everyone in the same way. Taxes must be redistributive, from those "who have more" to those "who have less."
 
-![image](assets/en/086.webp)
 
 The problem is that taxes, as conceived, are subject to the arbitrariness of those in power. They favor or disfavor certain social categories depending on whether the power expects votes from them or not. Moreover, progressive rates yield little to the public treasury. However, they allow the majority to expropriate a minority and naturally become confiscatory.
 

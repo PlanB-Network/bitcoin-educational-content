@@ -690,7 +690,6 @@ Původně měly pokrývat společné výdaje. Poté byly daněm také přiřazen
 
 Nakonec byla daním přiřazena sociální role. Staly se nástrojem sociální spravedlnosti. Takže daně by neměly zasahovat každého stejně. Daně musí být redistributivní, od těch "kdo mají více" k těm "kdo mají méně".
 
-![image](assets/en/086.webp)
 
 Problém je, že daně, jak jsou pojaty, podléhají libovůli těch u moci. Podporují nebo znevýhodňují určité sociální kategorie v závislosti na tom, zda od nich moc očekává hlasy, nebo ne. Navíc progresivní sazby přinášejí státní pokladně málo. Nicméně umožňují většině vyvlastnit menšinu a přirozeně se stávají konfiskačními.
 

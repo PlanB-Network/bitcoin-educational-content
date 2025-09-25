@@ -1036,7 +1036,6 @@ Początkowo miały one pokrywać wspólne wydatki. Następnie podatkom przypisan
 Wreszcie, podatkom przypisano rolę społeczną. Stały się one narzędziem sprawiedliwości społecznej. Dlatego podatki nie powinny uderzać w każdego w ten sam sposób. Podatki muszą być redystrybucyjne, od tych "którzy mają więcej" do tych "którzy mają mniej"
 
 
-![image](assets/en/086.webp)
 
 
 Problem polega na tym, że podatki, jako takie, podlegają arbitralności rządzących. Faworyzują lub nie pewne kategorie społeczne w zależności od tego, czy władza oczekuje od nich głosów, czy nie. Co więcej, progresywne stawki niewiele wnoszą do skarbu państwa. Pozwalają jednak większości wywłaszczyć mniejszość i w naturalny sposób stają się konfiskatą.

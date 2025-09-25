@@ -1040,7 +1040,6 @@ Al principio, se suponía que servían para cubrir los gastos comunes. Luego, ta
 Por último, se asignó un papel social a los impuestos. Se convirtieron en un instrumento de justicia social. Así, los impuestos no deben afectar a todos de la misma manera. Los impuestos deben ser redistributivos, de los "que más tienen" a los "que menos tienen"
 
 
-![image](assets/en/086.webp)
 
 
 El problema es que los impuestos, tal como están concebidos, están sujetos a la arbitrariedad de los gobernantes. Favorecen o desfavorecen a determinadas categorías sociales en función de si el poder espera votos de ellas o no. Además, los tipos progresivos aportan poco al erario público. Sin embargo, permiten a la mayoría expropiar a una minoría y se convierten naturalmente en confiscatorias.

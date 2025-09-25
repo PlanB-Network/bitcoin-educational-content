@@ -1040,7 +1040,6 @@ Esialgu pidi see katma ühiseid kulusid. Seejärel anti maksudele ka roll majand
 Lõpuks omistati maksudele sotsiaalne roll. Neist tehti sotsiaalse õigluse vahend. Seega ei tohiks maksud tabada kõiki ühtemoodi. Maksud peavad olema ümberjaotavad, nendelt, kellel on rohkem, nendele, kellel on vähem
 
 
-![image](assets/en/086.webp)
 
 
 Probleem on selles, et maksud, nii nagu need on mõeldud, alluvad võimulolijate omavolile. Nad soosivad või ei soosi teatavaid sotsiaalseid kategooriaid sõltuvalt sellest, kas võim ootab neilt hääli või mitte. Pealegi toovad progressiivsed maksumäärad riigikassasse vähe tulu. Siiski võimaldavad nad enamusel vähemust sundvõõrandada ja muutuvad loomulikult konfiskeerivaks.

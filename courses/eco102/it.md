@@ -712,7 +712,6 @@ Inizialmente, doveva coprire le spese comuni. Poi, alle tasse è stato anche dat
 
 Infine, è stato assegnato un ruolo sociale alle tasse. Sono state rese uno strumento di giustizia sociale. Così, le tasse non dovrebbero colpire tutti allo stesso modo. Le tasse devono essere redistributive, da coloro "che hanno di più" a coloro "che hanno di meno".
 
-![image](assets/en/086.webp)
 
 
 Il problema è che le tasse, così concepite, sono soggette all'arbitrarietà di chi detiene il potere. Favoriscono o sfavoriscono determinate categorie sociali a seconda che il potere si aspetti voti da loro o meno. Inoltre, le aliquote progressive rendono poco al tesoro pubblico. Tuttavia, permettono alla maggioranza di espropriare una minoranza e diventano naturalmente confiscatorie.

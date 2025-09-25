@@ -1040,7 +1040,6 @@ Alun perin sen oli tarkoitus kattaa yhteiset kulut. Sitten veroille annettiin my
 Lopuksi veroille annettiin sosiaalinen rooli. Niistä tehtiin sosiaalisen oikeudenmukaisuuden väline. Verot eivät siis saisi kohdistua kaikkiin samalla tavalla. Verojen on oltava uudelleenjakavia, ja ne on jaettava niiltä, joilla on enemmän, niille, joilla on vähemmän
 
 
-![image](assets/en/086.webp)
 
 
 Ongelmana on se, että verotus, sellaisena kuin se on suunniteltu, on vallassa olevien tahojen mielivallan alainen. Ne suosivat tai eivät suosi tiettyjä yhteiskuntaluokkia sen mukaan, odottaako valta heiltä ääniä vai ei. Lisäksi progressiiviset verot tuottavat vain vähän julkiseen kassaan. Ne antavat kuitenkin enemmistölle mahdollisuuden pakkolunastaa vähemmistön, ja niistä tulee luonnollisesti konfiskaatioita.

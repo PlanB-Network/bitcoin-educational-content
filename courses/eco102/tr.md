@@ -1036,7 +1036,6 @@ Başlangıçta ortak giderleri karşılaması gerekiyordu. Daha sonra vergilere 
 Son olarak, vergilere toplumsal bir rol yüklenmiştir. Vergiler sosyal adaletin bir aracı haline getirilmiştir. Dolayısıyla vergiler herkesi aynı şekilde vurmamalıdır. Vergiler yeniden dağıtıcı olmalı, "daha fazla olanlardan" "daha az olanlara" doğru olmalıdır
 
 
-![image](assets/en/086.webp)
 
 
 Sorun, vergilerin tasarlandığı şekliyle iktidardakilerin keyfiyetine tabi olmasıdır. İktidarın kendilerinden oy bekleyip beklememesine bağlı olarak belirli sosyal kategorileri kayırır ya da kayırmazlar. Dahası, artan oranlı vergiler kamu hazinesine çok az şey kazandırır. Bununla birlikte, çoğunluğun azınlığı mülksüzleştirmesine izin verirler ve doğal olarak müsadere edici olurlar.

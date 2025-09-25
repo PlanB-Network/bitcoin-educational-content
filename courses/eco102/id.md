@@ -701,7 +701,6 @@ Awalnya, itu seharusnya menutupi pengeluaran bersama. Kemudian, pajak juga diber
 
 Akhirnya, peran sosial diberikan kepada pajak. Mereka dijadikan instrumen keadilan sosial. Dengan demikian, pajak tidak boleh mengenai semua orang dengan cara yang sama. Pajak harus redistributif, dari mereka "yang memiliki lebih" ke mereka "yang memiliki kurang."
 
-![image](assets/en/086.webp)
 
 
 Masalahnya adalah bahwa pajak, sebagaimana yang dipahami, tunduk pada keberpihakan mereka yang berkuasa. Mereka memihak atau tidak memihak kategori sosial tertentu tergantung pada apakah mereka mengharapkan suara dari mereka atau tidak. Selain itu, tarif progresif memberikan sedikit kepada kas negara. Namun, mereka memungkinkan mayoritas untuk mengeksploitasi minoritas dan secara alami menjadi konfiskatori.

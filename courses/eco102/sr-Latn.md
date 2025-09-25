@@ -1035,7 +1035,6 @@ U početku, trebalo je da pokriva zajedničke troškove. Zatim, porezima je tako
 Konačno, porezima je dodeljena društvena uloga. Oni su postali instrument socijalne pravde. Dakle, porezi ne bi trebalo da pogađaju sve na isti način. Porezi moraju biti redistributivni, od onih "koji imaju više" ka onima "koji imaju manje."
 
 
-![image](assets/en/086.webp)
 
 
 Problem je što su porezi, kako su zamišljeni, podložni samovolji onih na vlasti. Oni favorizuju ili ne favorizuju određene društvene kategorije u zavisnosti od toga da li vlast očekuje glasove od njih ili ne. Štaviše, progresivne stope donose malo u državnu blagajnu. Međutim, omogućavaju većini da ekspropriše manjinu i prirodno postaju konfiskatorni.

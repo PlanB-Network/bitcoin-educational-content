@@ -786,7 +786,6 @@ W twierdzeniu tym jest coś logicznie absurdalnego. Gdyby bowiem nie istniała l
 Proudhon jest jednak indywidualistycznym anarchistą. Nie postrzega proletariatu ani państwa jako prawowitych źródeł władzy. Ostro krytykuje komunizm i opowiada się za mutualizmem pracowniczym, formą zorganizowanej solidarności spółdzielczej, która opierałaby się na dobrowolnym łączeniu zasobów w celu wzajemnej pomocy. Jest to mniej znane, ale Bastiat wcale nie sprzeciwiał się tej idei co do zasady. Po prostu obawiał się, że państwo przekształci ją w de facto monopolistyczną usługę publiczną. Historia dowiodła, że miał rację.
 
 
-![image](assets/en/067.webp)
 
 
 Z drugiej strony dobrze wiadomo, że w "Nędzy filozofii" Marks gwałtownie zaatakował Proudhona i jego socjalizm, który nazwał "utopijnym", na rzecz tak zwanego socjalizmu "naukowego".

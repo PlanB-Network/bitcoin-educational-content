@@ -559,7 +559,6 @@ Il y a quelque chose de logiquement absurde dans cette affirmation. Car s'il n'y
 
 Mais Proudhon est un anarchiste individualiste. Il ne voit pas le prolétariat, ni l'État, comme les sources légitimes du pouvoir. Il critique sévèrement le communisme et plaide pour un mutualisme ouvrier, une forme de solidarité coopérative structurée, qui reposerait sur la mise en commun volontaire de ressources dans un but d’entraide. On le sait peu mais Bastiat n’était pas du tout opposé à cette idée sur le principe. Simplement il craignait que l’État ne le transforme de fait en service public monopolistique. L’histoire lui donnera raison.
 
-![image](assets/en/067.webp)
 
 En revanche, on sait plus que dans La Misère de la philosophie, Marx s’en prendra violemment à Proudhon et à son socialisme qu’il appellera « utopique », pour lui préférer un socialisme dit « scientifique ».
 

@@ -785,7 +785,6 @@ Postoji nešto logički apsurdno u ovoj tvrdnji. Jer ako ne bi bilo legitimno st
 Ali Proudhon je individualistički anarhista. On ne vidi proletarijat, niti državu, kao legitimne izvore moći. Oštro kritikuje komunizam i zalaže se za radnički mutualizam, oblik strukturirane kooperativne solidarnosti, koji bi se oslanjao na dobrovoljno udruživanje resursa za međusobnu pomoć. Manje je poznato, ali Bastiat uopšte nije bio protiv ove ideje u principu. On je jednostavno strahovao da bi država to pretvorila u de facto monopolističku javnu službu. Istorija bi ga opravdala.
 
 
-![image](assets/en/067.webp)
 
 
 S druge strane, dobro je poznato da bi u "Bedu filozofije"(The Poverty of Philosophy) Marx žestoko napao Proudhon-a i njegov socijalizam, koji je nazvao "utopijskim", u korist takozvanog "naučnog" socijalizma.

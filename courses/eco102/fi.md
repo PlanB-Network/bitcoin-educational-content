@@ -787,7 +787,6 @@ Tässä väitteessä on jotain loogisesti absurdia. Jos nimittäin ei olisi olem
 Proudhon on kuitenkin individualistinen anarkisti. Hän ei pidä proletariaattia eikä valtiota oikeutettuina vallan lähteinä. Hän kritisoi ankarasti kommunismia ja kannattaa työläisten mutualismia, eräänlaista jäsenneltyä osuustoiminnallista solidaarisuutta, joka perustuisi resurssien vapaaehtoiseen yhdistämiseen keskinäistä apua varten. Se on vähemmän tunnettu, mutta Bastiat ei periaatteessa vastustanut tätä ajatusta lainkaan. Hän pelkäsi vain, että valtio muuttaisi sen tosiasiallisesti monopolistiseksi julkiseksi palveluksi. Historia osoitti, että hän oli oikeassa.
 
 
-![image](assets/en/067.webp)
 
 
 Toisaalta on hyvin tiedossa, että Marx hyökkäsi "Filosofian köyhyydessä" rajusti Proudhonia ja hänen "utopistiseksi" kutsumaansa sosialismia vastaan niin sanotun "tieteellisen" sosialismin puolesta.

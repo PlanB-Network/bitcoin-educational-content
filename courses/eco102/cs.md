@@ -526,7 +526,6 @@ V této tvrzení je něco logicky absurdního. Pokud by neexistovalo legitimně 
 
 Ale Proudhon je individualistický anarchista. Nepovažuje proletariát ani stát za legitimní zdroje moci. Tvrdě kritizuje komunismus a zastává mutualismus pracovníků, formu strukturované kooperativní solidarity, která by se opírala o dobrovolné sdružování zdrojů pro vzájemnou pomoc. Je méně známo, ale Bastiat nebyl této myšlence v principu vůbec proti. Obával se pouze, že stát by z toho učinil de facto monopolní veřejnou službu. Historie mu dala za pravdu.
 
-![image](assets/en/067.webp)
 
 Na druhou stranu je dobře známo, že v "Chudobě filozofie" Marx tvrdě zaútočil na Proudhona a jeho socialismus, který označil za "utopický", ve prospěch takzvaného "vědeckého" socialismu.
 

@@ -786,7 +786,6 @@ Bu iddiada mantıksal olarak saçma bir şey vardır. Çünkü meşru olarak edi
 Ancak Proudhon bireyci bir anarşisttir. Ne proletaryayı ne de devleti meşru güç kaynakları olarak görür. Komünizmi sert bir şekilde eleştirir ve karşılıklı yardım için kaynakların gönüllü olarak bir araya getirilmesine dayanan bir tür yapılandırılmış kooperatif dayanışması olan işçi mutualizmini savunur. Daha az bilinir ama Bastiat prensipte bu fikre hiç karşı değildi. Sadece devletin bunu fiilen tekelci bir kamu hizmetine dönüştüreceğinden korkuyordu. Tarih onu haklı çıkaracaktı.
 
 
-![image](assets/en/067.webp)
 
 
 Öte yandan, Marx'ın "Felsefenin Sefaleti "nde Proudhon'a ve onun "ütopik" olarak adlandırdığı sosyalizmine, sözde "bilimsel" bir sosyalizm lehine şiddetle saldıracağı iyi bilinmektedir.

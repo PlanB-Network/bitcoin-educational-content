@@ -787,7 +787,6 @@ Selles väites on midagi loogiliselt absurdset. Sest kui seaduslikult omandatud 
 Kuid Proudhon on individualistlik anarhist. Ta ei näe proletariaati ega riiki legitiimse võimu allikana. Ta kritiseerib karmilt kommunismi ja pooldab tööliste mutualismi, struktureeritud ühistulise solidaarsuse vormi, mis tugineks vabatahtlikule ressursside ühendamisele vastastikuse abi osutamiseks. See on vähem tuntud, kuid Bastiat ei olnud põhimõtteliselt üldse selle idee vastu. Ta lihtsalt kartis, et riik muudab selle de facto monopoolseks avalikuks teenuseks. Ajalugu tõestas, et tal on õigus.
 
 
-![image](assets/en/067.webp)
 
 
 Teisest küljest on hästi teada, et Marx ründas "Filosoofia vaesuses" ägedalt Proudhoni ja tema sotsialismi, mida ta nimetas "utoopiliseks", nn "teadusliku" sotsialismi kasuks.

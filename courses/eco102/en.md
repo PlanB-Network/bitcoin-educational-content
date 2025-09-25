@@ -535,8 +535,6 @@ There is something logically absurd in this assertion. For if there were no legi
 
 But Proudhon is an individualist anarchist. He does not see the proletariat, nor the state, as legitimate sources of power. He harshly criticizes communism and advocates for worker mutualism, a form of structured cooperative solidarity, which would rely on the voluntary pooling of resources for mutual aid. It is less known but Bastiat was not at all opposed to this idea in principle. He simply feared that the state would turn it into a de facto monopolistic public service. History would prove him right.
 
-![image](assets/en/067.webp)
-
 On the other hand, it is well known that in "The Poverty of Philosophy," Marx would violently attack Proudhon and his socialism, which he called "utopian," in favor of a so-called "scientific" socialism.
 
 ![image](assets/en/068.webp)

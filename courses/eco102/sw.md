@@ -786,7 +786,6 @@ Kuna jambo la kipuuzi kimantiki katika madai haya. Kwani kama kusingekuwa na mal
 Lakini Proudhon ni anarchist binafsi. Yeye haoni proletariat, wala serikali, kama vyanzo halali vya madaraka. Anakosoa vikali ukomunisti na kutetea kuheshimiana kwa wafanyakazi, aina ya mshikamano uliopangwa wa vyama vya ushirika, ambao ungetegemea kukusanya rasilimali kwa hiari kwa ajili ya kusaidiana. Haijulikani sana lakini Bastiat hakuwa kinyume kabisa na wazo hili kimsingi. Aliogopa tu kwamba serikali ingeigeuza kuwa utumishi wa umma wa ukiritimba. Historia ingemthibitisha kuwa sawa.
 
 
-![image](assets/en/067.webp)
 
 
 Kwa upande mwingine, inajulikana vyema kwamba katika "Umaskini wa Falsafa," Marx angemshambulia kwa jeuri Proudhon na ujamaa wake, aliouita "utopian," akipendelea ujamaa unaoitwa "kisayansi".

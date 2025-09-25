@@ -787,7 +787,6 @@ Có điều gì đó phi lý về mặt logic trong khẳng định này. Bởi 
 Nhưng Proudhon là một người theo chủ nghĩa vô chính phủ cá nhân. Ông không coi giai cấp vô sản, cũng như nhà nước, là nguồn gốc chính đáng của quyền lực. Ông chỉ trích gay gắt chủ nghĩa cộng sản và ủng hộ chủ nghĩa tương hỗ của người lao động, một hình thức đoàn kết hợp tác có cấu trúc, dựa trên sự đóng góp tự nguyện các nguồn lực để hỗ trợ lẫn nhau. Ít ai biết rằng Bastiat hoàn toàn không phản đối ý tưởng này về nguyên tắc. Ông chỉ đơn giản lo sợ rằng nhà nước sẽ biến nó thành một dịch vụ công cộng độc quyền trên thực tế. Lịch sử sẽ chứng minh ông đúng.
 
 
-![image](assets/en/067.webp)
 
 
 Mặt khác, ai cũng biết rằng trong tác phẩm "Sự nghèo nàn của triết học", Marx đã tấn công dữ dội Proudhon và chủ nghĩa xã hội của ông, mà ông gọi là "không tưởng", để ủng hộ cái gọi là chủ nghĩa xã hội "khoa học".

@@ -787,7 +787,6 @@ Hay algo lógicamente absurdo en esta afirmación. Pues si no existiera la propi
 Pero Proudhon es un anarquista individualista. No ve en el proletariado ni en el Estado fuentes legítimas de poder. Critica duramente el comunismo y aboga por el mutualismo obrero, una forma de solidaridad cooperativa estructurada, que se basaría en la puesta en común voluntaria de recursos para la ayuda mutua. Es menos conocido, pero Bastiat no se oponía en principio a esta idea. Simplemente temía que el Estado lo convirtiera en un servicio público monopolístico de facto. La historia le daría la razón.
 
 
-![image](assets/en/067.webp)
 
 
 Por otra parte, es bien sabido que en "La pobreza de la filosofía", Marx atacaría violentamente a Proudhon y su socialismo, que calificó de "utópico", en favor de un socialismo llamado "científico".

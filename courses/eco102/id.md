@@ -540,7 +540,6 @@ Ada sesuatu yang secara logika absurd dalam pernyataan ini. Karena jika tidak ad
 
 Namun, Proudhon adalah seorang anarkis individualis. Dia tidak melihat proletariat, maupun negara, sebagai sumber kekuasaan yang sah. Dia keras mengkritik komunisme dan mendukung mutualisme pekerja, bentuk solidaritas koperasi terstruktur, yang akan mengandalkan penggabungan sumber daya secara sukarela untuk bantuan timbal balik. Ini kurang diketahui tetapi Bastiat sama sekali tidak menentang ide ini secara prinsip. Dia hanya khawatir bahwa negara akan mengubahnya menjadi layanan publik monopoli de facto. Sejarah akan membuktikan dia benar.
 
-![image](assets/en/067.webp)
 
 Di sisi lain, adalah hal yang terkenal bahwa dalam "Kemiskinan Filsafat," Marx akan menyerang Proudhon dan sosialismenya, yang dia sebut "utopis," mendukung sosialisme yang disebut "ilmiah".
 

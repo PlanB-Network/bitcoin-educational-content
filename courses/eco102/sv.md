@@ -786,7 +786,6 @@ Det finns något logiskt absurt i detta påstående. För om det inte fanns någ
 Men Proudhon är en individualistisk anarkist. Han ser varken proletariatet eller staten som legitima källor till makt. Han kritiserar kommunismen hårt och förespråkar arbetarmutualism, en form av strukturerad kooperativ solidaritet, som bygger på frivillig sammanslagning av resurser för ömsesidig hjälp. Det är mindre känt men Bastiat var inte alls emot denna idé i princip. Han fruktade helt enkelt att staten skulle förvandla den till en de facto monopolistisk public service. Historien skulle visa att han hade rätt.
 
 
-![image](assets/en/067.webp)
 
 
 Å andra sidan är det välkänt att Marx i "Filosofins fattigdom" gick till våldsamt angrepp mot Proudhon och hans socialism, som han kallade "utopisk", till förmån för en så kallad "vetenskaplig" socialism.

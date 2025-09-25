@@ -786,7 +786,6 @@ Er zit iets logisch absurds in deze bewering. Want als er geen rechtmatig verwor
 Maar Proudhon is een individualistische anarchist. Hij ziet het proletariaat noch de staat als legitieme bronnen van macht. Hij heeft scherpe kritiek op het communisme en pleit voor arbeidersmutualisme, een vorm van gestructureerde coöperatieve solidariteit, die zou berusten op de vrijwillige bundeling van middelen voor wederzijdse hulp. Het is minder bekend, maar Bastiat was in principe helemaal niet tegen dit idee. Hij was alleen bang dat de staat er een de facto monopolistische openbare dienst van zou maken. De geschiedenis zou hem gelijk geven.
 
 
-![image](assets/en/067.webp)
 
 
 Aan de andere kant is het bekend dat Marx in "De armoede van de filosofie" Proudhon en zijn socialisme, dat hij "utopisch" noemde, gewelddadig zou aanvallen ten gunste van een zogenaamd "wetenschappelijk" socialisme.

@@ -787,7 +787,6 @@ Diese Behauptung hat etwas logisch Absurdes an sich. Denn wenn es kein rechtmä�
 Aber Proudhon ist ein individualistischer Anarchist. Er sieht weder das Proletariat noch den Staat als legitime Machtquellen an. Er übt scharfe Kritik am Kommunismus und plädiert für den Arbeitersolidarismus auf Gegenseitigkeit, eine Form der strukturierten genossenschaftlichen Solidarität, die auf der freiwilligen Zusammenlegung von Ressourcen zur gegenseitigen Hilfe beruht. Es ist weniger bekannt, aber Bastiat war keineswegs prinzipiell gegen diese Idee. Er befürchtete lediglich, dass der Staat sie in einen de facto monopolistischen öffentlichen Dienst verwandeln würde. Die Geschichte sollte ihm Recht geben.
 
 
-![image](assets/en/067.webp)
 
 
 Andererseits ist bekannt, dass Marx in "Die Armut der Philosophie" Proudhon und seinen Sozialismus, den er als "utopisch" bezeichnete, zugunsten eines sogenannten "wissenschaftlichen" Sozialismus heftig angriff.

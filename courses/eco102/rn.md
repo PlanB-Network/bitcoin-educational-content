@@ -786,7 +786,6 @@ Hariho ikintu kidasobanutse mu buryo bubereye muri ivyo vyemezo. Kuko iyo hataba
 Ariko Proudhon ni umunyagitugu w’umuntu ku giti ciwe. Ntabona ko abanyagihugu, canke Leta, ari bo bafise ububasha bubereye. Aranegura cane ubukomunisita kandi akavuga ko abakozi bofatanya, uburyo bwo gukorana n’abandi mu buryo butunganijwe, bwoba bwishingikirije ku gukoranya ubutunzi ku bushake kugira ngo bafashanye. Ntibizwi cane ariko Bastiat ntiyarwanya na gato ico ciyumviro mu ngingo ngenderwako. Yaratinya gusa ko Leta yoyihindura igikorwa ca Leta gifise uburenganzira bwo gukora de facto. Amateka yokwemeza ko ari ukuri.
 
 
-![image](assets/en/067.webp)
 
 
 Ku rundi ruhande, birazwi neza ko muri « Ubukene bwa filozofiya », Marx yotera n’ubukazi Proudhon n’ubusosiyalisimu bwiwe, ubwo yise « utopique », ashigikira ico bita ubusosiyalisimu « bwa siyansi ».

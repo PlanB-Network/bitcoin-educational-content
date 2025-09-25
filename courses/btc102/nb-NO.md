@@ -60,7 +60,7 @@ Den første delen, "Forutsetninger for å forstå Bitcoin", forbereder deg effek
 Til slutt vil jeg gi deg noen praktiske tips som er spesielt utviklet for nybegynnere, slik at du kan unngå vanlige feil når du jobber med Bitcoin for første gang.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/nb-NO/001.webp)
 
 
 Den andre delen, "Forstå hva du begir deg inn på", vil gi deg en dypere forståelse av Bitcoin. Vi begynner med en gjennomgang for å sikre at du forstår de viktigste konseptene.
@@ -68,7 +68,7 @@ Den andre delen, "Forstå hva du begir deg inn på", vil gi deg en dypere forst�
 Deretter forklarer vi hvorfor Bitcoin er fundamentalt viktig fra et teknologisk, økonomisk og sosialt perspektiv, noe som styrker din tro på verdien av det. Du vil også utforske Bitcoin-bransjen som helhet: dens nøkkelaktører, organisering og utvikling gjennom årene. Til slutt vil vi gå gjennom Bitcoin-økosystemets lagdelte arkitektur, et avgjørende konsept for å forstå hvordan dette systemet fortsetter å innovere uten at det går på bekostning av integriteten til kjerneprotokollen.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/nb-NO/002.webp)
 
 
 Den tredje delen, "Sette opp planen din", fokuserer på din personlige tilnærming til Bitcoin. Vi begynner med å hjelpe deg med å definere brukerprofilen din ut fra fire hovedkategorier:
@@ -84,13 +84,13 @@ Den tredje delen, "Sette opp planen din", fokuserer på din personlige tilnærmi
 Vi veileder deg gjennom implementeringen av en strategi som passer din profil og hjelper deg med å nå dine personlige mål.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/nb-NO/003.webp)
 
 
 Til slutt, i den fjerde delen, "Beskytte dine arvinger og formue", tar vi for oss et viktig tema som ofte blir oversett: hvordan du kan sikre at din Bitcoin blir videreført til dine nærmeste i tilfelle en uventet hendelse. Du lærer hvordan du oppretter og setter opp en Bitcoin-arvplan for å sikre at formuen din bevares utover din levetid.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/nb-NO/004.webp)
 
 
 Etter dette kurset vil du ha alle de praktiske verktøyene du trenger for å navigere trygt i Bitcoin-økosystemet og bli en av de mest avanserte brukerne!
@@ -131,7 +131,7 @@ Før vi går videre, er det viktig å skille klart mellom to fundamentalt forskj
 - **Kryptovalutaindustrien** er derimot mye større og omfatter titusenvis av ulike prosjekter, hvert med sitt eget token. Denne bransjen er ofte drevet av rask innovasjon, hype og kortsiktig finansiell spekulasjon. Mange av disse prosjektene er sentraliserte, mindre sikre og tilbyr ikke mye reell verdi - til tross for dristige løfter og prangende markedsføring.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/nb-NO/005.webp)
 
 
 Hvis du ønsker å forstå bedre hvor Bitcoin kommer fra og hva som virkelig skiller det fra andre prosjekter, anbefaler jeg at du tar en titt på dette gratis oppfølgingskurset om Bitcoins historie senere:
@@ -142,7 +142,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Som du vet er Plan ₿ Network-plattformen utelukkende dedikert til Bitcoin. Å forstå skillet med andre kryptovalutaer vil imidlertid hjelpe deg med å unngå fallgruvene forbundet med ubrukelige og noen ganger til og med falske prosjekter.
 
 
-![BTC102-Bitcoin](assets/fr/002.webp)
+![image](assets/nb-NO/006.webp)
 
 
 ### De viktigste svindelforsøkene du bør unngå
@@ -157,7 +157,7 @@ Her er de vanligste svindelforsøkene du kan støte på under reisen:
 Dette er noen av de vanligste svindelformene i kryptoverdenen. I et pyramidespill får tidlige deltakere utbetalinger ved hjelp av pengene fra nyere deltakere, ikke fra noen reell investering eller produkt. Det skapes ingen faktiske verdier. Systemet fungerer bare så lenge nye mennesker slutter seg til. Når strømmen av nye deltakere avtar, faller hele opplegget fra hverandre.
 
 
-![BTC102-Bitcoin](assets/fr/003.webp)
+![image](assets/nb-NO/007.webp)
 
 
 Disse svindelforsøkene inneholder vanligvis :
@@ -202,7 +202,7 @@ Denne typen svindel innebærer kunstig oppblåsing av prisen på et aktivum - of
 
 
 
-![BTC102-Bitcoin](assets/fr/004.webp)
+![image](assets/nb-NO/008.webp)
 
 
 Det er viktig å merke seg at Pump & Dump-strategier er ulovlige i mange land og anses som en form for markedsmanipulasjon. Til tross for dette fortsetter slike ordninger å blomstre, spesielt i kryptovalutaområdet, der reguleringen fortsatt er i ferd med å ta igjen det tapte.
@@ -211,7 +211,7 @@ Det er viktig å merke seg at Pump & Dump-strategier er ulovlige i mange land og
 Vær spesielt forsiktig med private "signal"-grupper på plattformer som Telegram, Discord eller andre sosiale mediekanaler. Disse drives ofte av influencere eller selvutnevnte eksperter, og noen av dem tar til og med inngangspenger. Selv om disse gruppene hevder å tilby eksklusive investeringsmuligheter, er virkeligheten langt mer ensidig: Bare arrangørene tjener penger, mens de fleste deltakerne ender opp med å tape pengene sine.
 
 
-![BTC102-Bitcoin](assets/fr/005.webp)
+![image](assets/nb-NO/009.webp)
 
 
 Riktignok kan noen aktører midlertidig tjene penger på denne typen markedsmanipulasjon, men suksessen er som regel ikke basert på annet enn flaks og perfekt timing. I det lange løp er ikke slike opplegg bærekraftige. De krever konstant høyrisiko-engasjement og gjentatt deltakelse i svindelopplegg som uunngåelig kollapser.
@@ -237,7 +237,7 @@ Svindlere utgir seg ofte for å være kjente offentlige personer (som Elon Musk 
 Noen ganger fremstår disse svindlene som "forskuddsgebyr"-svindel. Du blir lovet en premie eller belønning (penger, et produkt eller en tjeneste), men blir først bedt om å betale et gebyr, som angivelig skal dekke ting som frakt, avgifter eller transaksjonskostnader. Når betalingen er utført, forsvinner svindleren, og den lovede belønningen kommer aldri frem.
 
 
-![BTC102-Bitcoin](assets/fr/006.webp)
+![image](assets/nb-NO/010.webp)
 
 
 #### Shitcoins og kryptovalutaer på tilbud
@@ -261,7 +261,7 @@ Dobbeltsjekk alltid avsenderens identitet før du klikker på en lenke eller utf
 I løpet av årene har Bitcoin opplevd flere *Hard-forks*, noe som har resultert i opprettelsen av alternative versjoner av den opprinnelige kryptovalutaen. Enkelt sagt er en *Hard Fork* en splittelse i nettverket som fører til to separate blokkjeder, som begge deler den samme historien frem til splittelsesøyeblikket. Disse splittelsene skjer vanligvis når en del av utviklermiljøet eller det bredere Bitcoin-økosystemet ønsker å innføre store endringer i den opprinnelige protokollen, men ikke kan oppnå bred enighet. I stedet for å forlate ideene sine, bestemmer de seg for å lansere en ny versjon av Bitcoin (med endrede regler) i håp om at brukere og utvinnere vil velge å følge deres Fork i stedet.
 
 
-![BTC102-Bitcoin](assets/fr/007.webp)
+![image](assets/nb-NO/011.webp)
 
 
 Ikke alle *Hard-forker* er uredelige, ettersom noen skyldes tekniske eller ideologiske uenigheter innad i fellesskapet. Andre er imidlertid drevet av kommersielle interesser eller til og med uærlige motiver. De mest kjente eksemplene på slike hardforks er **Bitcoin Cash (BCH)** og **Bitcoin Satoshi Vision (BSV)**. Disse alternative valutaene ble lansert i henholdsvis 2017 og 2018, og de utgir seg ofte for å være "bedre versjoner" av den opprinnelige Bitcoin. De markedsfører antatte fordeler som lavere transaksjonsgebyrer eller raskere transaksjoner på grunn av økte blokkstørrelser. Disse tekniske endringene kommer imidlertid med betydelige kompromisser når det gjelder sikkerhet, desentralisering og robusthet; Elements som kan komme i konflikt med Bitcoins grunnleggende prinsipper.
@@ -279,7 +279,7 @@ For å unngå å gå i denne fellen, bør du alltid verifisere valutaen du kjøp
 I takt med at kryptovalutaer har fått stadig større oppmerksomhet, har sosiale medier sett en økning i antall påvirkere, selvutnevnte eksperter og såkalte "*kryptoguruer*". Mens noen få kan tilby genuin pedagogisk innsikt, utnytter mange andre sin synlighet til å promotere tvilsomme prosjekter eller farlig risikable (og noen ganger direkte bedragerske) handelsstrategier. Disse personene er vanligvis motivert av personlige økonomiske interesser, og mottar ofte direkte eller indirekte kompensasjon for å promotere visse tokens eller plattformer.
 
 
-![BTC102-Bitcoin](assets/fr/008.webp)
+![image](assets/nb-NO/012.webp)
 
 
 Disse influencerne benytter seg ofte av velprøvde taktikker for å tiltrekke seg nybegynnere: De viser frem imponerende økonomiske resultater (som ofte er falske eller uverifiserbare), skilter med en luksuriøs livsstil som antatt bevis på suksessen, og promoterer "mirakuløse" investeringsstrategier. Målet er å utløse FOMO - frykten for å gå glipp av noe - og få publikum til å ta impulsive beslutninger og gjøre uvørne investeringer.
@@ -381,7 +381,7 @@ Et av de mest oversette aspektene ved personlig sikkerhet er å holde operativsy
 Det anbefales også å bruke et pålitelig antivirusprogram. I Windows er den innebygde Windows Defender vanligvis tilstrekkelig for de fleste brukere. Hvis du foretrekker flere funksjoner eller trygghet, finnes det også kommersielle alternativer som Kaspersky. På macOS er trusler fra skadelig programvare historisk sett mindre vanlig **men ikke ikke-eksisterende**, så det er fortsatt smart å være forsiktig.
 
 
-![BTC102-Bitcoin](assets/fr/012.webp)
+![image](assets/nb-NO/013.webp)
 
 
 Utover systemoppdateringer og antivirusbeskyttelse, bør du være svært forsiktig med å laste ned programvare fra tvilsomme nettsteder eller såkalte "universelle" nedlastingsportaler. Når du trenger et verktøy eller et program, bør du alltid gå rett til den offisielle kilden. Dette reduserer risikoen for å installere skadelig programvare forkledd som legitim programvare.
@@ -412,7 +412,7 @@ Ideen er enkel:
 Denne tilnærmingen gir stor robusthet og bidrar til å sikre at dataene dine overlever selv om noe skulle gå alvorlig galt.
 
 
-![BTC102-Bitcoin](assets/fr/013.webp)
+![image](assets/nb-NO/014.webp)
 
 
 ### Løsningen på ID-marerittet
@@ -432,7 +432,7 @@ En passordbehandler lar deg:
 Med en passordadministrator trenger du aldri mer å klikke på "Glemt passord" eller stole på svak, gjenbrukt legitimasjon. I tillegg synkroniserer de fleste passordbehandlere sømløst på tvers av enhetene dine (datamaskin, telefon, nettbrett) og fyller til og med ut påloggingsskjemaer automatisk, noe som gjør sikker tilgang både enkel og effektiv.
 
 
-![BTC102-Bitcoin](assets/fr/011.webp)
+![image](assets/nb-NO/015.webp)
 
 
 Det finnes mange passordadministratorer der ute, men jeg kan anbefale to solide alternativer avhengig av dine behov. Hvis du er ute etter noe som er enkelt å bruke og som synkroniseres sømløst på tvers av flere enheter, er Bitwarden et utmerket valg:
@@ -451,7 +451,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 I Bitcoin er du din egen bank. Det betyr at du også er ditt eget sikkerhetsteam. Selv med et sterkt passord er det ikke noe som heter null risiko - og derfor er det viktig å aktivere tofaktorautentisering (2FA).
 
 
-![BTC102-Bitcoin](assets/fr/014.webp)
+![image](assets/nb-NO/016.webp)
 
 
 2FA legger til en ekstra Layer av beskyttelse ved å kreve en tidsbasert engangskode (vanligvis seks sifre) som genereres av en app som Google Authenticator eller Authy. Så selv om noen klarer å få tak i passordet ditt, kan de likevel ikke få tilgang til kontoen din uten fysisk tilgang til telefonen din.
@@ -459,13 +459,13 @@ I Bitcoin er du din egen bank. Det betyr at du også er ditt eget sikkerhetsteam
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![BTC102-Bitcoin](assets/fr/009.webp)
+![image](assets/nb-NO/017.webp)
 
 
 Når du aktiverer 2FA, må du sørge for å lagre gjenopprettingsnøkkelen for appen din på et trygt sted. Da kan du gjenopprette kodene dine hvis du mister eller bytter telefon. Selv om SMS- eller e-postbasert 2FA er bedre enn ingenting, er det mye mindre sikkert. Et SIM-bytteangrep, der noen tar kontroll over telefonnummeret ditt, kan enkelt omgå denne typen beskyttelse.
 
 
-![BTC102-Bitcoin](assets/fr/010.webp)
+![image](assets/nb-NO/018.webp)
 
 
 For de som ønsker å ta sikkerheten et skritt videre, gir fysiske nøkler som YubiKey et enda høyere beskyttelsesnivå.
@@ -489,7 +489,7 @@ Nøkkelen er å velge en pålitelig VPN-leverandør som:
 - Har en streng policy mot loggføring
 
 
-![BTC102-Bitcoin](assets/fr/015.webp)
+![image](assets/nb-NO/019.webp)
 
 
 Vi har flere veiledninger tilgjengelig på Plan ₿ Network som kan veilede deg gjennom å sette opp et VPN på en enkel måte. Jeg anbefaler spesielt IVPN eller Mullvad:
@@ -540,7 +540,7 @@ Kort sagt: Ikke undervurder cybersikkerhet, ta deg tid til å sette opp det grun
 Ta også en titt på [våre veiledninger om datasikkerhet] (https://planb.network/tutorials/computer-security) på Plan ₿ Network.
 
 
-![BTC102-Bitcoin](assets/fr/016.webp)
+![image](assets/nb-NO/020.webp)
 
 
 I neste kapittel vil jeg dele noen flere tips for å hjelpe deg med å komme trygt i gang med Bitcoin-reisen, og for å styre unna de mange fellene som kan overraske nykommere.
@@ -572,7 +572,7 @@ Her er de viktigste punktene som vi skal gå gjennom sammen:
 - Tenk langsiktig, zoom ut og vær tålmodig (tenk på det som et maraton, ikke en sprint).
 
 
-![BTC102-Bitcoin](assets/fr/017.webp)
+![image](assets/nb-NO/021.webp)
 
 
 ### Vanlige feil å unngå
@@ -610,7 +610,7 @@ Bitcoin er åpent for alle, men det betyr ikke at du skal kaste deg ut i det ufo
 - **Å falle for FOMO**: Impulskjøp på grunn av frykt for å gå glipp av noe fører vanligvis til dårlig timing og dårlige beslutninger. Tålmodighet er din beste allierte.
 
 
-![BTC102-Bitcoin](assets/fr/019.webp)
+![image](assets/nb-NO/022.webp)
 
 
 ### Definere en investeringsstrategi
@@ -624,7 +624,7 @@ Begynn med å definere **budsjettet** med presisjon. Ikke bare velg et tilfeldig
 En slik tilnærming sikrer at du ikke setter den økonomiske velferden din på spill, spesielt i tilfelle en markedsnedgang. En gjennomtenkt strategi er grunnlaget for langsiktig robusthet.
 
 
-![BTC102-Bitcoin](assets/fr/020.webp)
+![image](assets/nb-NO/023.webp)
 
 
 Når budsjettet ditt er definert, kan du tenke på hvordan du vil investere. En av de mest nybegynnervennlige og anbefalte metodene er Dollar Cost Averaging (DCA), der du kjøper en fast mengde Bitcoin med jevne mellomrom (ukentlig, månedlig osv.). Denne strategien bidrar til å jevne ut den gjennomsnittlige inngangsprisen over tid og reduserer den følelsesmessige effekten av prissvingninger. Det er en smart tilnærming for de fleste, spesielt nykommere.
@@ -649,7 +649,7 @@ Bruk noen timer på å utforske Bitcoin, sjekk ut gratisressursene på Plan ₿ 
 Bitcoin er kjent for sine dramatiske prissvingninger. Det er ikke uvanlig med bevegelser på 10 %, 20 % eller til og med 50 % i løpet av bare noen få dager. For nykommere kan denne typen volatilitet være desorienterende. Det er lett å bli revet med av hypen under oppgangsperioder eller få panikk under nedgangsperioder; begge deler fører ofte til dårlige beslutninger, som å selge med tap.
 
 
-![BTC102-Bitcoin](assets/fr/021.webp)
+![image](assets/nb-NO/024.webp)
 
 
 Derfor er det avgjørende å **forstå og akseptere Bitcoins volatilitet** før du investerer. Disse prissvingningene er ikke en feil, de er en del av et aktivum som fortsatt er under modning. Hvis plutselige opp- og nedturer holder deg våken om natten eller tvinger deg til å ta følelsesmessige beslutninger, er sjansen stor for at du har investert mer enn du er komfortabel med å risikere. I så fall bør du ta et skritt tilbake og revurdere strategien og risikotoleransen din. Ikke nøl med å redusere posisjonen din til du føler deg mer komfortabel.
@@ -664,7 +664,7 @@ Fremfor alt, invester aldri mer enn du har råd til å tape. Unngå å låne pen
 En av Bitcoins mest kraftfulle (og ofte undervurderte) funksjoner er **selvforvaring**. Med en selv-hostet Wallet er du alene ansvarlig for midlene dine. Disse lommebøkene genereres vanligvis fra en **gjenopprettingsfrase** (også kjent som en seed-frase), en serie på 12 eller 24 ord som gir full tilgang til BTC-en din. Hvis du mister denne frasen (eller hvis noen andre får tak i den), er bitcoinsene dine borte for godt. **Ingen kundesupport. Ingen tilbakestillingsknapp**
 
 
-![BTC102-Bitcoin](assets/fr/023.webp)
+![image](assets/nb-NO/025.webp)
 
 
 Det er derfor den gylne regelen i Bitcoin er:
@@ -672,7 +672,7 @@ Det er derfor den gylne regelen i Bitcoin er:
 "***Ikke dine nøkler, ikke dine mynter***". Hvis du ikke personlig kontrollerer dine private nøkler, eier du ikke virkelig din Bitcoin. Selv om børser kan være praktiske (spesielt i begynnelsen), holder de nøklene dine for deg. Det betyr at pengene dine er i fare hvis plattformen blir hacket, fryser kontoen din eller går konkurs.
 
 
-![BTC102-Bitcoin](assets/fr/024.webp)
+![image](assets/nb-NO/026.webp)
 
 
 For å unngå denne risikoen anbefales det på det sterkeste å sette opp din **egne Wallet**, der bare du har tilgang til gjenopprettingsfrasen. Denne frasen bør alltid skrives ned for hånd og lagres **offline** på et trygt sted. Noen brukere **opprettholder til og med flere sikkerhetskopier**, lagret på separate geografiske steder for ekstra sikkerhet.
@@ -720,13 +720,13 @@ Til tross for at **Bitcoin er en desentralisert valuta, er den ikke fritatt fra 
 Noen steder beskattes fortjenesten som kapitalgevinst ved salg. Andre steder må du kanskje oppgi hver eneste handel, og noen steder gjelder mindre vanlige regler, for eksempel formuesskatt eller sosiale avgifter.
 
 
-![BTC102-Bitcoin](assets/fr/018.webp)
+![image](assets/nb-NO/027.webp)
 
 
 Før du foretar større transaksjoner, anbefales det på det sterkeste at du rådfører deg med en skattespesialist eller går gjennom myndighetenes offisielle retningslinjer. Hvis du tar deg tid til å sette deg inn i skatteforpliktelsene dine på forhånd, kan du unngå uventede problemer senere (som bøter, bokettersyn eller straffegebyrer), spesielt hvis du planlegger store salg eller omallokeringer av porteføljen.
 
 
-![BTC102-Bitcoin](assets/fr/022.webp)
+![image](assets/nb-NO/028.webp)
 
 
 ### Forskjellen mellom trading, investering og holding
@@ -789,7 +789,7 @@ Et godt utgangspunkt er boken *Rik pappa, fattig pappa* av Robert T. Kiyosaki. D
 Hvis du er klar til å gå dypere, tilbyr podcaster som *The Investors Podcast* innsiktsfulle diskusjoner om investeringer, markeder og økonomiske prinsipper. De dekker av og til Bitcoin også, noe som gjør det til et solid neste skritt for de som er nysgjerrige på hvordan Bitcoin passer inn i det bredere økonomiske landskapet.
 
 
-![BTC102-Bitcoin](assets/fr/025.webp)
+![image](assets/nb-NO/029.webp)
 
 
 ### Gylne regler å huske på
@@ -842,7 +842,7 @@ Denne utfordringen forble uløst frem til slutten av 2008, da en person som bruk
 Prosjektet var sterkt påvirket av Cypherpunk-etoset; et fellesskap av utviklere og tenkere som trodde på å bruke kryptografi for å beskytte individuelle friheter på nettet. For dem var personvern og desentralisering ikke tekniske preferanser, men ideologiske nødvendigheter. Bitcoin ble den mest vellykkede legemliggjøringen av disse idealene: et peer-to-peer-pengenettverk som alle kunne bruke, som ingen kunne kontrollere, og som alle kunne verifisere.
 
 
-![BTC102-Bitcoin](assets/fr/035.webp)
+![image](assets/nb-NO/030.webp)
 
 
 Cypherpunks er et uformelt, internasjonalt fellesskap av personer som tar til orde for bruk av kryptografi for å forsvare den personlige friheten på nettet. De har sterk tro på individets rett til personvern, spesielt i en verden som i økende grad preges av statlig overvåking og bedrifters utnyttelse av data.
@@ -853,7 +853,7 @@ Røttene til Cypherpunk-bevegelsen går tilbake til begynnelsen av 1990-tallet, 
 En viktig milepæl i bevegelsen kom i 1992 med opprettelsen av e-postlisten Cypherpunks, et forum der ideer, prosjekter og politiske diskusjoner om personvern og kryptografi kunne blomstre. I 1993 publiserte Eric Hughes Cypherpunks manifest, en kort, men kraftfull erklæring som tydelig uttrykte fellesskapets misjon og overbevisninger.
 
 
-![BTC102-Bitcoin](assets/fr/032.webp)
+![image](assets/nb-NO/031.webp)
 
 
 Ideen om en digital valuta som opererer uavhengig av en sentral myndighet (som Bitcoin) er dypt forankret i Cypherpunk-filosofien.
@@ -873,13 +873,13 @@ Det var i dette miljøet preget av frykt og usikkerhet at Bitcoin ble født. Ska
 Dette var ikke bare en dato eller et teknisk notat; det var en stille, men kraftfull protest. Det viste at Bitcoin var designet for å være noe radikalt annerledes: et finanssystem som ikke er avhengig av banker, redningsaksjoner eller statlige beslutninger.
 
 
-![BTC102-Bitcoin](assets/fr/034.webp)
+![image](assets/nb-NO/032.webp)
 
 
 Mange tolker dette som Bitcoins mål: å tilby en måte å overføre verdier på uten behov for mellommenn, styrt av klare regler i stedet for de ofte uklare beslutningene som tas av sentralbanker eller myndigheter.
 
 
-![BTC102-Bitcoin](assets/fr/033.webp)
+![image](assets/nb-NO/033.webp)
 
 
 For å gi deg mer kunnskap om Bitcoins opprinnelse tilbyr vi et gratis, omfattende og veldokumentert opplæringskurs om emnet:
@@ -896,13 +896,13 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Bitcoin er definert som et "peer-to-peer-system for elektroniske kontanter" Det betyr at hvem som helst kan koble seg til nettverket ved hjelp av riktig programvare (en Bitcoin-node) og samhandle direkte med andre brukere, uten å være avhengig av en sentral server. Målet med denne desentraliseringen er å forhindre at en enkelt enhet (for eksempel en bank, en myndighet eller et stort selskap) kan kontrollere, sensurere eller stoppe systemet. Bitcoin er i drift døgnet rundt, globalt, og er tilgjengelig for alle uten noen betingelser.
 
 
-![BTC102-Bitcoin](assets/fr/036.webp)
+![image](assets/nb-NO/034.webp)
 
 
 Enkelt sagt har hver deltaker i Bitcoin-nettverket (kalt en "node") en fullstendig kopi av transaksjonen Ledger, kjent som Blockchain. Når en ny transaksjon skjer, sendes den ut til nettverket. Utvinnere bekrefter deretter disse transaksjonene ved å gruppere dem i blokker som deretter legges til i enden av kjeden (derav navnet "Blockchain").
 
 
-![BTC102-Bitcoin](assets/fr/029.webp)
+![image](assets/nb-NO/035.webp)
 
 
 #### Blockchain: et regnskap Ledger
@@ -911,7 +911,7 @@ Enkelt sagt har hver deltaker i Bitcoin-nettverket (kalt en "node") en fullstend
 Tenk på Blockchain som en gigantisk regnskaps-Ledger, der hver linje representerer en transaksjon. I et tradisjonelt banksystem er databasen lagret på en banks servere, som kan gjøre endringer når de vil. I Bitcoin derimot **valideres alle endringer i hele nettverket**: Når en ny transaksjonsblokk først er lagt til i Blockchain, er det nesten umulig å endre den senere. Denne desentraliserte valideringen gjør Bitcoins Ledger sikker og transparent.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/nb-NO/036.webp)
 
 
 ### Gruvearbeidernes rolle og Proof-of-Work
@@ -933,7 +933,7 @@ For å sikre at Bitcoin blir en knapphetsfaktor, er blokksubsidien programmert t
 Til slutt, rundt år 2140, vil subsidien nå null, ettersom Bitcoins totale Supply vil nå et tak på 21 millioner mynter. Denne forutsigbare utstedelseskurven etterligner knappheten på fysiske råvarer som gull; en av grunnene til at Bitcoin ofte omtales som **digitalt gull**.
 
 
-![BTC102-Bitcoin](assets/fr/031.webp)
+![image](assets/nb-NO/037.webp)
 
 
 ### Bitcoin Monetære egenskaper
@@ -959,7 +959,7 @@ Denne innebygde knappheten er et stort trekkplaster for dem som ønsker å velge
 En av Bitcoins mest undervurderte styrker er dens delbarhet. Hver Bitcoin kan deles opp i 100 millioner enheter, kjent som satoshier (eller forkortet Sats). Dette betyr at du ikke trenger å bruke titusenvis av euro eller dollar for å komme i gang; du kan kjøpe Bitcoin for bare noen få euro, helt ned til bittesmå brøkdeler.
 
 
-![BTC102-Bitcoin](assets/fr/026.webp)
+![image](assets/nb-NO/038.webp)
 
 
 ### Åpenhet og gjennomsiktighet
@@ -973,7 +973,7 @@ Bitcoin kjører på en offentlig protokoll med **åpen kildekode** (særlig gjen
 Denne åpenheten gjør det utrolig vanskelig å innføre bakdører eller gjøre hemmelige endringer. Alle med teknisk kompetanse kan drive en node, bidra til utviklingen eller bygge kompatible verktøy. I Bitcoin oppnås tillit gjennom kode og konsensus, ikke gjennom sentralisert kontroll.
 
 
-![BTC102-Bitcoin](assets/fr/030.webp)
+![image](assets/nb-NO/039.webp)
 
 
 Denne åpenheten er en av de viktigste grunnene til at folk stoler på Bitcoin-protokollen; den hindrer en liten gruppe utviklere i å manipulere nettverket for egen vinnings skyld. Bitcoin bygger på et enkelt, men kraftfullt prinsipp: Hvis du er uenig i foreslåtte endringer, står du fritt til å la være å oppdatere programvaren. I noen tilfeller vil dette ikke føre til noen forstyrrelser; du vil fortsatt være synkronisert med resten av nettverket. Men i andre tilfeller kan dette føre til det som kalles en Hard Fork, der nettverket splittes i to, og en ny versjon av Bitcoin blir opprettet. Det var akkurat det som skjedde i 2017 med splittelsen mellom Bitcoin (BTC) og Bitcoin Cash (BCH).
@@ -1024,7 +1024,7 @@ Bitcoin kan ses på som en "Zero to One": et radikalt brudd med etablerte finans
 Likevel, etter mer enn ti års eksistens, fortsetter Bitcoin å vekke debatt og lidenskap. Den blir stadig mer utbredt, andre Layer-løsninger (som Lightning Network) dukker opp for å øke transaksjonshastigheten og senke gebyrene, og bedrifter over hele verden eksperimenterer med nye bruksområder. Det er sannsynlig at Bitcoin vil fortsette å påvirke betalingssystemer og til og med måten vi oppfatter penger på i flere tiår fremover.
 
 
-![BTC102-Bitcoin](assets/fr/028.webp)
+![image](assets/nb-NO/040.webp)
 
 
 Hvis du ønsker å utvide kunnskapen din ytterligere, kan du ta BTC101-kurset om Plan ₿ Network, som tilbyr en mer dyptgående utforskning av Bitcoins tekniske og økonomiske grunnlag.
@@ -1060,7 +1060,7 @@ Barack Obama omtalte en gang Bitcoin som en "sveitsisk bank i lommen", og det me
 - Bitcoin er integrert på Internett, noe som betyr at alle med nettilgang kan bruke den.
 
 
-![BTC102-Bitcoin](assets/fr/037.webp)
+![image](assets/nb-NO/041.webp)
 
 
 Bitcoin kan ses på som den sanne "folkets valuta", et alternativt pengesystem som ikke er avhengig av noen sentral myndighet og som er basert på uforanderlige regler i stedet for vilkårlige beslutninger. Dens åpne og tilgjengelige natur gjør den til et potensielt revolusjonerende verktøy for milliarder av mennesker verden over, enten de er ekskludert fra det tradisjonelle banksystemet eller bare søker et mer suverent alternativ.
@@ -1069,7 +1069,7 @@ Bitcoin kan ses på som den sanne "folkets valuta", et alternativt pengesystem s
 Dette fører oss til et grunnleggende, nærmest filosofisk spørsmål som deler Bitcoin-entusiastene i to hovedretninger. På den ene siden ser noen på Bitcoin som en løsning for å fremme finansiell inkludering, slik at milliarder av personer uten bankforbindelse endelig får tilgang til en global monetær infrastruktur. På den andre siden ser noen på Bitcoin som et finansielt frigjøringsverktøy som skal tilby en vei ut for de milliardene av mennesker som allerede er integrert i banksystemet, men som ønsker å frigjøre seg fra avhengigheten av det og gjenvinne full kontroll over pengene sine. Denne refleksjonen fortjener vår oppmerksomhet, og vi kommer tilbake til den i mer detalj senere.
 
 
-![BTC102-Bitcoin](assets/fr/044.webp)
+![image](assets/nb-NO/042.webp)
 
 
 ### Beskyttelse mot valutakriser
@@ -1078,19 +1078,19 @@ Dette fører oss til et grunnleggende, nærmest filosofisk spørsmål som deler 
 I århundrer har verden opplevd monetære kriser som har hatt ødeleggende effekter på befolkninger. Milliarder av mennesker lider fortsatt under konsekvensene av en dårlig styrt pengepolitikk, der manipulering av pengemengde og renter skaper systemiske ubalanser. Disse krisene er ikke bare tilfeldige hendelser - de er resultatet av et system som er bygget på intervensjon og manipulering av penger og tidsverdier.
 
 
-![BTC102-Bitcoin](assets/fr/045.webp)
+![image](assets/nb-NO/043.webp)
 
 
 Slike kriser kan ta mange ulike former. Hyperinflasjon, for eksempel, utraderer en valuta ved gradvis å ødelegge folks kjøpekraft, slik man har sett i land som Zimbabwe og Venezuela. På den annen side kan streng monetær kontroll begrense tilgangen til midler og frata enkeltpersoner deres økonomiske frihet, slik det skjedde med bankrestriksjoner i Hellas og Libanon.
 
 
-![BTC102-Bitcoin](assets/fr/047.webp)
+![image](assets/nb-NO/044.webp)
 
 
 Og til slutt, når myndighetene devaluerer sine nasjonale valutaer, fører det til en gradvis uthuling av folks oppsparte midler - et usynlig, men konstant tap av formue. På mange måter fungerer det som en skjult skatt. Så lenge pengepolitikken forblir i hendene på sentraliserte myndigheter, er disse syklusene dømt til å gjenta seg.
 
 
-![BTC102-Bitcoin](assets/fr/038.webp)
+![image](assets/nb-NO/045.webp)
 
 
 Bitcoin presenterer et dristig alternativ til denne syklusen av kronisk monetær ustabilitet. I motsetning til statsutstedte valutaer bygger den på uforanderlige, mattebaserte regler som håndheves ved konsensus, ikke av regjeringer eller sentralbanker. Utstedelsen er forutsigbar og begrenset til rundt 21 millioner mynter, noe som gjør den til en form for sunne penger som er designet for å holde verdien over tid. Fordi den motstår sensur, kan hvem som helst lagre og overføre verdier uten å være avhengig av en institusjon. Og takket være delbarheten og portabiliteten er den både tilgjengelig og praktisk; en finansiell infrastruktur for hvem som helst, hvor som helst.
@@ -1099,7 +1099,7 @@ Bitcoin presenterer et dristig alternativ til denne syklusen av kronisk monetær
 **Visste du at det opp gjennom historien har vært minst 56 dokumenterte tilfeller av hyperinflasjon verden over? I mange av disse tilfellene har hele økonomier kollapset, livsoppsparinger har blitt utslettet og millioner av mennesker har havnet i ekstrem fattigdom. Enda verre var det at disse monetære sammenbruddene ofte fungerte som et springbrett for politiske omveltninger, som noen ganger førte til autoritære regimer, slik det skjedde i Tyskland på 1920-tallet og Chile på 1970-tallet.**
 
 
-![BTC102-Bitcoin](assets/fr/039.webp)
+![image](assets/nb-NO/046.webp)
 
 
 Hanke, S. H., & Krus, N. (2013). *Hyperinflasjoner i verden*. I R. Parker & R. Whaples (red.), The Handbook of Major Events in Economic History. Routledge Publishing. Hentet fra https://ssrn.com/abstract=2130109
@@ -1114,7 +1114,7 @@ Fiat-valutaenes kollaps er ikke en historisk tilfeldighet; det er et mønster so
 Økende økonomisk ulikhet rundt om i verden har alltid vært grobunn for sosial uro og fremvekst av politisk ekstremisme. Historien viser at når gapet mellom fattig og rik blir for stort, fører det ofte til spenninger, kriser og til og med fremveksten av autoritære regimer. I møte med disse risikoene er det ikke bare en luksus å beskytte sin økonomiske frihet, det er en nødvendighet for alle som ønsker å bevare sin selvstendighet og sikre familiens fremtid.
 
 
-![BTC102-Bitcoin](assets/fr/046.webp)
+![image](assets/nb-NO/047.webp)
 
 
 Men i en verden der staten kan utøve full kontroll over eiendeler og transaksjoner, hvilke reelle muligheter finnes det da for å beskytte sparepengene dine?
@@ -1138,7 +1138,7 @@ Men Bitcoin er mer enn bare et praktisk verktøy. Det er også **en fredelig for
 I dette lyset er Bitcoin mer enn teknologi. Det er et naturrettslig verktøy, en måte for enkeltpersoner å hevde sine grunnleggende rettigheter på, selv når disse rettighetene nektes av landets lover. Det gir makten tilbake til folket, ikke gjennom revolusjon, men gjennom kodeks.
 
 
-![BTC102-Bitcoin](assets/fr/040.webp)
+![image](assets/nb-NO/048.webp)
 
 
 **Visste du det?** Bitcoin er pseudonymt, ikke anonymt. Brukere kan opprette Wallet-adresser uten å avsløre sin virkelige identitet, slik at de kan sende og motta penger utenfor det tradisjonelle banksystemet.
@@ -1162,7 +1162,7 @@ Hvis formuen din ikke er sikret i ikke-monetære eiendeler (som eiendom, obligas
 Dette er ikke en feil i systemet; det er en bevisst mekanisme. Sentralbanker og regjeringer bruker den for å stimulere den økonomiske veksten på kunstig vis og for å presse folk til konstant forbruk og økende gjeld.
 
 
-![BTC102-Bitcoin](assets/fr/041.webp)
+![image](assets/nb-NO/049.webp)
 
 
 Vårt moderne finanssystem er bygget på en gjeldssyklus der det ikke bare oppmuntres til å ta opp lån, det er praktisk talt uunngåelig. Enkeltpersoner tar opp lån for å opprettholde livsstilen sin, for så å bli fanget i et system der de må betale tilbake renter til banker som skaper penger ut av løse luften. Dette er ikke tilfeldig; det er et strukturelt design som er ment å være til fordel for finansinstitusjonene på bekostning av vanlige borgere.
@@ -1180,7 +1180,7 @@ Dette betyr at Bitcoin opererer under et forutsigbart monetært rammeverk, der i
 Tidligere fungerte gull som en kontroll mot ukontrollert monetær ekspansjon. Men etter at gullstandarden kollapset i 1971, har ingen nasjonal valuta (det være seg dollar, euro eller yen) blitt støttet av et håndgripelig aktivum. Denne løsrivelsen ga sentralbankene frie tøyler til å trykke penger uten begrensninger, noe som banet vei for flere tiår med aggressiv monetær ekspansjon, gjentatte aktivabobler og tilbakevendende finanskriser.
 
 
-![BTC102-Bitcoin](assets/fr/042.webp)
+![image](assets/nb-NO/050.webp)
 
 
 Når du setter inn penger i en bank, er de ikke lenger dine.
@@ -1225,7 +1225,7 @@ Bitcoinere kommer fra alle samfunnslag, men de deler en felles visjon: en verden
 - Ingeniører, finansfolk og ytringsfrihetsforkjempere, som innser de dyptgripende samfunnsmessige konsekvensene av dette nye pengeparadigmet.
 
 
-![BTC102-Bitcoin](assets/fr/043.webp)
+![image](assets/nb-NO/051.webp)
 
 
 Bitcoin overskrider politiske og ideologiske skillelinjer. Den er ikke venstre- eller høyreorientert, liberalistisk eller kollektivistisk. Det er en nøytral protokoll, styrt av regler (ikke hersker) som gjelder likt for alle. Likevel utfordrer dens blotte eksistens den globale finansielle status quo. Bitcoin har blitt et symbol på motstand fordi folk har tatt den i bruk som et alternativ til fiat-valutaer og sentralisert finansiell infrastruktur; systemer som i økende grad blir sett på som urettferdige, manipulerbare og ekskluderende.
@@ -1236,7 +1236,7 @@ For Cypherpunk er Bitcoin mer enn en digital eiendel. Den står mot den stadige 
 Bitcoin muliggjør sensurresistente, digitale transaksjoner mellom likemenn, uten mellomledd eller portvakter. Slik Satoshi Nakamoto så for seg, tilbyr det den digitale ekvivalenten til kontanter: en måte å Exchange dele verdier fritt, uten å trenge tillatelse.
 
 
-![BTC102-Bitcoin](assets/fr/048.webp)
+![image](assets/nb-NO/052.webp)
 
 
 Bitcoin er ikke en organisasjon eller et politisk parti, men den har unektelig et kraftfullt filosofisk budskap. Den redefinerer forholdet mellom individet og staten, og utfordrer sentralbankenes monopol på pengeskaping og økonomisk kontroll.
@@ -1244,7 +1244,7 @@ Bitcoin er ikke en organisasjon eller et politisk parti, men den har unektelig e
 Enten det er frihetskjempere eller de som bare ønsker å bevare kjøpekraften sin, markerer Bitcoin begynnelsen på en ny æra; en æra der økonomisk suverenitet blir en grunnleggende menneskerettighet som er tilgjengelig for alle.
 
 
-![BTC102-Bitcoin](assets/fr/049.webp)
+![image](assets/nb-NO/053.webp)
 
 
 Nå som vi har utforsket den dyptgripende betydningen av Satoshi Nakamotos oppfinnelse, vil neste kapittel ta oss med inn i den ekstraordinære industrien som har vokst frem rundt denne protokollen; et helt økosystem som omformer finans, teknologi og samfunn.
@@ -1269,7 +1269,7 @@ I dag har Bitcoin nådd en kritisk terskel; et punkt der det ikke lenger er noen
 Bitcoin er en radikal innovasjon, et sprang fra null til én. Det representerer et totalt brudd med det tradisjonelle monetære paradigmet. For noen er dette bruddet en trussel; en eksistensiell utfordring for deres etablerte makt og privilegier. For dem er Bitcoin en Pandoras eske som aldri burde ha blitt åpnet, og de vil bruke alle midler de har til rådighet for å motsette seg den.
 
 
-![BTC102-Bitcoin](assets/fr/050.webp)
+![image](assets/nb-NO/054.webp)
 
 
 Andre ser imidlertid Bitcoin som en mulighet som bare finnes én gang i en generasjon: et verktøy for individuell frihet, en katalysator for å endre det globale finanssystemet og en vei mot et mer transparent og rettferdig alternativ. Dette er de som bygger, tar i bruk og bidrar (de som former fremtiden).
@@ -1358,7 +1358,7 @@ Til tross for dristig markedsføring konkurrerer ikke disse initiativene med Bit
 Facebooks Libra var aldri ment å utfordre status quo; den ble bygget for å fungere med systemet. Bitcoin eksisterer derimot helt utenfor systemet. Den ber ikke om tillatelse. Den er ikke avhengig av tillit. Og den har fungert feilfritt (uten ledere, nedetid eller sentral kontroll) i over ti år.
 
 
-![BTC102-Bitcoin](assets/fr/051.webp)
+![image](assets/nb-NO/055.webp)
 
 
 ### Regulering og myndighetstilnærminger
@@ -1367,7 +1367,7 @@ Facebooks Libra var aldri ment å utfordre status quo; den ble bygget for å fun
 Bitcoin opererer i sin natur utenfor tradisjonelle rammer. Den er ikke avhengig av en sentral myndighet og kan ikke kontrolleres eller endres av noen enkelt enhet. Men selv om selve protokollen er immun mot regulering, er deltakerne som samhandler med den (børser, bedrifter og brukere), fortsatt underlagt nasjonale lover.
 
 
-![BTC102-Bitcoin](assets/fr/052.webp)
+![image](assets/nb-NO/056.webp)
 
 
 Siden Bitcoin er et globalt nettverk, har landene respondert på vidt forskjellige måter:
@@ -1385,7 +1385,7 @@ Siden Bitcoin er et globalt nettverk, har landene respondert på vidt forskjelli
 - De fleste er fortsatt **usikre**, og eksperimenterer med reguleringer samtidig som de prøver å balansere innovasjon med tilsyn.
 
 
-![BTC102-Bitcoin](assets/fr/056.webp)
+![image](assets/nb-NO/057.webp)
 
 
 Myndigheter og institusjoner sliter ofte med å klassifisere Bitcoin nøyaktig (er det penger, eiendom eller noe helt nytt?). Som et resultat av dette har regelverket en tendens til å være reaktivt, inkonsekvent og i stadig utvikling. Hvis du er involvert i Bitcoin, er det viktig å holde deg informert om det lokale landskapet, spesielt når det gjelder skatter, banktilgang og regler for etterlevelse.
@@ -1418,7 +1418,7 @@ Børsene spiller en viktig rolle i Bitcoin-økosystemet, og fungerer som broer m
 Børsene som overholder lokale forskrifter, må vanligvis følge strenge **"Know Your Customer"** (KYC)-protokoller, som krever at brukerne fremlegger identifikasjonsdokumenter før de får tilgang til tjenestene. Selv om disse prosessene er utformet for å forhindre ulovlig aktivitet, kan de gå på bekostning av personvernet som Bitcoin i seg selv tilbyr.
 
 
-![BTC102-Bitcoin](assets/fr/053.webp)
+![image](assets/nb-NO/058.webp)
 
 
 KYC-plattformer samler inn personopplysningene dine under dekke av sikkerhet. Disse opplysningene kan utnyttes av myndighetene til å overvåke dine finansielle transaksjoner og begrense din tilgang til visse operasjoner.
@@ -1575,13 +1575,13 @@ Hvem som helst kan foreslå endringer i Bitcoin Core, men prosessen er med hensi
 Innovasjon er velkomment, men bare når det er støttet av solid argumentasjon, konsensus i samfunnet og nøye testing.
 
 
-![BTC102-Bitcoin](assets/fr/054.webp)
+![image](assets/nb-NO/059.webp)
 
 
 Til tross for hva noen kanskje tror, er det ingen som har ensidig kontroll over Bitcoin, ikke engang de som vedlikeholder Bitcoin Core. Deres rolle er å administrere programvarelageret, ikke selve protokollen.
 
 
-![BTC102-Bitcoin](assets/fr/055.webp)
+![image](assets/nb-NO/060.webp)
 
 
 Selv om en vedlikeholder godkjente en kontroversiell endring, ville det ikke påvirke nettverket med mindre **noder (drevet av brukere)** faktisk tar i bruk og kjører den versjonen. Til syvende og sist betyr Bitcoins kode bare noe hvis folk velger å kjøre den.
@@ -1616,7 +1616,7 @@ Blant de viktigste overleggssystemene som beriker Bitcoin-økosystemet, er
 Lightning Network, som ble utviklet av Thaddeus Dryja og Joseph Poon i 2016, er en sekundær Layer-løsning som er designet for å muliggjøre umiddelbare og rimelige betalinger. To brukere kan åpne en privat kanal der de kan gjøre transaksjoner, og saldoen oppdateres bare på Blockchain når kanalen åpnes eller lukkes. Transaksjoner innenfor kanalen skjer off-chain, noe som betyr at de ikke trenger å registreres individuelt på Bitcoin Blockchain. Denne strukturen muliggjør umiddelbare transaksjoner og minimale gebyrer, noe som gjør den ideell for transaksjoner med lav verdi som krever rask bekreftelse.
 
 
-![BTC102-Bitcoin](assets/fr/059.webp)
+![image](assets/nb-NO/061.webp)
 
 
 La oss si at du kjøper en kaffe med Bitcoin ved hjelp av basen Layer. For at betalingen skal bli bekreftet (og for at kafeen skal være sikker på at du faktisk har betalt), må transaksjonen inkluderes i en blokk. Det kan ta flere minutter, avhengig av hvilken avgift du har valgt. Teknisk sett bør forhandleren vente på seks bekreftelser (omtrent en time) for å være helt sikker på at betalingen er endelig. Det er klart at en slik ventetid ikke fungerer når du står ved skranken. Med Lightning Network går betalingen gjennom på bare noen få sekunder, slik at kaffen er betalt og servert før den har rukket å bli kald.
@@ -1655,7 +1655,7 @@ RGB er et desentralisert og personvernfokusert Smart contract-system som er utfo
 En viktig egenskap ved RGB er beskyttelsen mot Double-spending, som oppnås ved hjelp av en kryptografisk teknikk kalt Single-use Seals. Denne mekanismen baserer seg på det faktum at Bitcoins UTXO-er (Unspent Transaction Outputs) bare kan brukes én gang. Tokenenes autentisitet sikres ved at hele Contracts historikk (fra opprettelsen til den nåværende tilstanden) valideres på brukersiden.
 
 
-![BTC102-Bitcoin](assets/fr/060.webp)
+![image](assets/nb-NO/062.webp)
 
 
 For å utdype kunnskapen din om RGB tilbyr vi et fjerdeårskurs (vær oppmerksom på at det er svært teknisk):
@@ -1669,7 +1669,7 @@ RGB er bare én av mange protokoller som bygger på Bitcoin. Noen er mer utbredt
 Denne lagdelte designen står i kontrast til mye av den bredere kryptobransjen, som ofte forsøker å samle mange funksjoner i én enkelt protokoll. Ved å holde Bitcoin enkel og snevert fokusert, reduserer vi angrepsflaten, noe som betyr større sikkerhet. En slank protokoll er enklere å sikre, vedlikeholde og skalere. Bitcoin er designet for å gjøre én ting ekstremt bra: å tilby solide, desentraliserte penger. Alt annet (smartkontrakter, tokens, betalinger og mer) kan legges på toppen, noe som tillater innovasjon uten at det går på bekostning av kjernen.
 
 
-![BTC102-Bitcoin](assets/fr/058.webp)
+![image](assets/nb-NO/063.webp)
 
 
 **Internett ble ikke bygget på én gang, men utviklet seg som en stabel av interoperable protokoller. TCP/IP håndterer for eksempel nettverkskommunikasjon, HTTP driver nettet, og mange andre lag tjener spesifikke funksjoner. Hver Layer er optimalisert for sin jobb, noe som skaper et robust og modulært system. Bitcoin følger den samme filosofien. Basen Layer er sterk og minimal, og ytterligere funksjonalitet legges til gjennom lagdelte protokoller som Lightning, Liquid eller RGB; hver av dem fokuserer på å løse ulike brukerbehov samtidig som fundamentet holdes intakt.**
@@ -1724,7 +1724,7 @@ Vi har nådd et punkt der hvem som helst kan engasjere seg i Bitcoin-økosysteme
 Bitcoin er nå ustoppelig.
 
 
-![BTC102-Bitcoin](assets/fr/057.webp)
+![image](assets/nb-NO/064.webp)
 
 
 ### Mitt personlige perspektiv
@@ -1769,7 +1769,7 @@ Bitcoin er ikke som tradisjonelle eiendeler. Det krever en gjennomtenkt tilnærm
 Dette kurset tar utgangspunkt i at du nettopp har begynt å bruke Bitcoin. Derfor vil vi fokusere på enkle, nybegynnervennlige løsninger som er lette å sette opp. Vi kommer ikke til å ta for oss indirekte eksponeringsmetoder som Mining, kjøp av aksjer i Bitcoin-relaterte selskaper eller komplekse finansielle strategier. Målet her er å hjelpe deg med å velge en Wallet som passer din situasjon og skaffe deg dine første bitcoins på en trygg måte.
 
 
-![BTC102-Bitcoin](assets/fr/063.webp)
+![image](assets/nb-NO/065.webp)
 
 
 ### Hvorfor definere brukerprofilen din?
@@ -1792,7 +1792,7 @@ Her er noen av faktorene du bør vurdere når du skal finne den beste måten å 
 Hver av disse faktorene spiller en rolle i utformingen av den riktige strategien for deg. Noen brukere vil sette pris på enkelhet og brukervennlighet gjennom regulerte tjenester, mens andre vil foretrekke en mer autonom og personvernfokusert tilnærming.
 
 
-![BTC102-Bitcoin](assets/fr/064.webp)
+![image](assets/nb-NO/066.webp)
 
 
 Det er det vi skal se nærmere på nå: de ulike måtene å anskaffe og sikre bitcoins på, slik at du kan ta informerte beslutninger basert på din profil og dine mål.
@@ -1804,7 +1804,7 @@ Det er det vi skal se nærmere på nå: de ulike måtene å anskaffe og sikre bi
 Å velge riktig strategi for å anskaffe og sikre dine bitcoins starter med en ærlig vurdering av din personlige situasjon. Flere faktorer påvirker disse beslutningene, inkludert risikoen du kan stå overfor, livsstilen din og hvordan du planlegger å bruke bitcoinsene dine.
 
 
-![BTC102-Bitcoin](assets/fr/065.webp)
+![image](assets/nb-NO/067.webp)
 
 
 #### Potensielle risikoer og trusler
@@ -1833,7 +1833,7 @@ Det er det vi skal se nærmere på nå: de ulike måtene å anskaffe og sikre bi
 For å få en bedre forståelse av sårbarhetene dine kan du rangere hver av disse risikoene på en skala fra 0 (lav) til 10 (høy). Denne egenvurderingen vil hjelpe deg med å prioritere de riktige beskyttelsestiltakene fremover.
 
 
-![BTC102-Bitcoin](assets/fr/061.webp)
+![image](assets/nb-NO/068.webp)
 
 
 #### Livsstil og personlige vaner
@@ -1880,7 +1880,7 @@ Her er de fire viktigste tingene du må ta stilling til:
 - Hvor mye du kommer til å omsette
 
 
-![BTC102-Bitcoin](assets/fr/062.webp)
+![image](assets/nb-NO/069.webp)
 
 
 ### Lommebøker og sikkerhetsstrategier
@@ -1889,7 +1889,7 @@ Her er de fire viktigste tingene du må ta stilling til:
 Å sikre dine private nøkler (de som gir tilgang til bitcoinsene dine) er den viktigste delen av å eie og bruke Bitcoin. I motsetning til en tradisjonell bankkonto, der en tredjepart forvalter midlene dine, gir Bitcoin deg full kontroll. Men med denne friheten følger det også et ansvar: Hvis du mister nøklene dine, er Bitcoin borte for alltid. Det finnes flere typer lommebøker du kan bruke. Hver av dem har sine egne fordeler og ulemper, avhengig av dine behov og ditt erfaringsnivå.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/nb-NO/070.webp)
 
 
 #### Hot Wallet
@@ -2015,7 +2015,7 @@ Eksempler på dette: Børs som Coinbase eller Binance, finansielle produkter som
 Vi anbefaler ikke depottjenester, selv ikke for nybegynnere. Det er mye bedre å ta seg tid til å lære seg å sikre Bitcoin på riktig måte enn å risikere å miste alt fordi noen andre har feilet. Men hvis du er her og leser om lommebøker og nøkkeladministrasjon, har du sannsynligvis allerede forstått hvorfor dette prinsippet er viktig.
 
 
-![BTC102-Bitcoin](assets/fr/068.webp)
+![image](assets/nb-NO/071.webp)
 
 
 Valget av Wallet og sikkerhetsmetode avhenger av hvor mye du skal lagre, hvilket kompetansenivå du har og hvilke potensielle risikoer du ser. En hybridtilnærming kan imidlertid være et smart alternativ:
@@ -2029,7 +2029,7 @@ Valget av Wallet og sikkerhetsmetode avhenger av hvor mye du skal lagre, hvilket
 Hvis Hot Wallet samler for mange bitcoins, kan du overføre noen til Cold-lageret ditt. På den annen side, hvis du trenger flere bitcoins til daglige utgifter, kan du ta ut fra din Cold Wallet.
 
 
-![BTC102-Bitcoin](assets/fr/066.webp)
+![image](assets/nb-NO/072.webp)
 
 
 Til syvende og sist avhenger sikkerheten i stor grad av hvordan du bruker verktøyene. En Hardware Wallet hjelper deg ikke mye hvis du mister, avslører eller kompromitterer Mnemonic-frasen. Forsiktighet og disiplin er din beste beskyttelse mot å miste bitcoins. For mer informasjon om dette, anbefaler jeg å lese denne artikkelen:
@@ -2043,7 +2043,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Det finnes ulike måter å anskaffe bitcoins på, avhengig av hvor mye personvern du trenger, regelverket i landet ditt og hvor mye du ønsker å anskaffe. Det finnes to hovedmetoder:
 
 
-![BTC102-Bitcoin](assets/fr/070.webp)
+![image](assets/nb-NO/073.webp)
 
 
 #### Anskaffelse med identitetsbekreftelse (KYC)
@@ -2199,7 +2199,7 @@ Foretrukket strategi :
 Denne profilen er spesielt egnet for personer som bor i miljøer som er fiendtlig innstilt til Bitcoin, der besittelse eller bruk av BTC kan føre til sanksjoner. Det er en mer kompleks tilnærming, som krever en viss grad av teknisk ekspertise og streng disiplin for å unngå tap av tilgang til midler.
 
 
-![BTC102-Bitcoin](assets/fr/069.webp)
+![image](assets/nb-NO/074.webp)
 
 
 ### Hvilken profil passer for deg?
@@ -2223,7 +2223,7 @@ I de neste kapitlene går vi nærmere inn på hver av disse profilene, slik at d
 I Bitcoin-fellesskapet refererer begrepet "hodler" til noen som har en langsiktig investeringstilnærming. Ordet stammer fra en berømt skrivefeil av "hold" på Bitcoin Talk-forumet for mange år siden, og har siden blitt et symbol på Commitment: hold fast på Bitcoin uansett hva som skjer, uten å stresse over kortsiktige markedssvingninger.
 
 
-![BTC102-Bitcoin](assets/fr/071.webp)
+![image](assets/nb-NO/075.webp)
 
 
 Hodlers tror på Bitcoins verdiforslag. Med en fast Supply på 21 millioner mynter, ser de på Bitcoin som en langsiktig verdioppbevaring (digitalt gull).
@@ -2289,7 +2289,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![BTC102-Bitcoin](assets/fr/073.webp)
+![image](assets/nb-NO/076.webp)
 
 
 #### 2. Kjøp Bitcoin og trekk det tilbake
@@ -2309,7 +2309,7 @@ https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7
 
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![BTC102-Bitcoin](assets/fr/074.webp)
+![image](assets/nb-NO/077.webp)
 
 
 Noen hodlere bruker også en hybridtilnærming ved å bruke DCA (Dollar Cost Averaging) - å kjøpe små beløp regelmessig for å jevne ut markedsvolatiliteten.
@@ -2359,7 +2359,7 @@ Hodlerens strategi er enkel, men effektiv: kjøp, sikre og glem. Den virkelige u
 
 
 
-![BTC102-Bitcoin](assets/fr/075.webp)
+![image](assets/nb-NO/078.webp)
 
 
 ### Evaluer Hodler-profilen din
@@ -2376,7 +2376,7 @@ Hvis du kjenner deg igjen i disse personlighetstrekkene, er du sannsynligvis en 
 - **Tro på teknologi**: Hodlers ser ikke på Bitcoin som bare en spekulativ eiendel. De tror på teknologien og dens disruptive potensial. For mange handler det ikke bare om penger, det handler om frihet. Bitcoin blir sett på som en motstandsdyktig, apolitisk valuta og et reelt alternativ til tradisjonell bankvirksomhet, noe som gir enkeltpersoner større økonomisk suverenitet.
 
 
-![BTC102-Bitcoin](assets/fr/072.webp)
+![image](assets/nb-NO/079.webp)
 
 
 Hodling er enkelt, effektivt og tilgjengelig, selv for nybegynnere.
@@ -2396,7 +2396,7 @@ I Bitcoin-økosystemet er en stacker en person som har en konsekvent, langsiktig
 Tanken er enkel: Det vil alltid bare finnes rundt 21 millioner bitcoins, og hver brøkdel teller. Stackerens oppgave er å samle så mange Sats som mulig.
 
 
-![BTC102-Bitcoin](assets/fr/076.webp)
+![image](assets/nb-NO/080.webp)
 
 
 ### Hvorfor velge en stablingsstrategi?
@@ -2470,7 +2470,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 Den mest effektive tilnærmingen er å bruke begge: en Hot Wallet for daglig stabling og en Hardware Wallet for langtidslagring Cold. Hot Wallet er enkel og praktisk å bruke. Den lar deg raskt ta bitcoinsene dine i besittelse, i stedet for å la dem ligge på plattformen der de kan være utsatt for risiko. Sammenlignet med en Hardware Wallet tilbyr Hot Wallet imidlertid mye mindre sikkerhet. Stackeren må derfor regelmessig overføre midlene sine til sin Cold Wallet for å sikre sine langsiktige besparelser og unngå å ha for mange midler i Hot Wallet. Med jevne mellomrom konsoliderer stableren UTXO-er ved overføring til Cold-lageret, og slår sammen små innganger for å optimalisere fremtidige transaksjonsgebyrer.
 
 
-![BTC102-Bitcoin](assets/fr/077.webp)
+![image](assets/nb-NO/081.webp)
 
 
 #### 2. Sett opp en DCA-innkjøpsplan
@@ -2487,7 +2487,7 @@ Dollar-Cost Averaging (DCA) er en investeringsstrategi der du kjøper små mengd
 Deretter har du to alternativer for å sette opp DCA: automatisere det eller administrere det manuelt. De fleste regulerte handelsplattformer tilbyr nå muligheten til å automatisere DCA. Med nok fiat på kontoen din, vil plattformen automatisk utføre kjøpsordrene dine basert på parametrene du har angitt. Det finnes også et økende antall plattformer som er dedikert til DCA-automatisering, og som tilbyr tilleggstjenester som automatiske uttak til din egenbeholdning Wallet eller avrunding av de daglige utgiftene dine. Hvis du bruker en regulert plattform, anbefaler jeg på det sterkeste at du automatiserer DCA for å få større trygghet i den daglige forvaltningen.
 
 
-![BTC102-Bitcoin](assets/fr/078.webp)
+![image](assets/nb-NO/082.webp)
 
 
 Eksempler på DCA-plattformer:
@@ -2547,7 +2547,7 @@ Nøkkelvaner:
 - Sjekk seed-sikkerhetskopiene og Hardware Wallet-statusen med jevne mellomrom: Nå som lommebøkene dine er satt opp, er det viktig å sette opp regelmessig overvåking. Kontroller med jevne mellomrom at Mnemonic-frasen fortsatt er på lagringsstedet, og at den ugjennomsiktige konvolutten ikke har blitt åpnet. Under disse kontrollene kan du også åpne konvolutten for å undersøke mediets tilstand. Kontroller at den er uskadet og at setningen fortsatt er fullt leselig. Hvis det er tegn på skade, er det best å lage en ny kopi fra Hardware Wallet. Du kan også sjekke maskinvareporteføljene dine regelmessig.
 
 
-![BTC102-Bitcoin](assets/fr/080.webp)
+![image](assets/nb-NO/083.webp)
 
 
 For enkel overvåking uten at det går på bekostning av sikkerheten, kan du sette opp en Watch-only wallet for å spore saldoer ved hjelp av en offentlig nøkkel.
@@ -2569,7 +2569,7 @@ Vellykkede stablere har disse egenskapene:
 - **Langsiktig visjon**: En stacker har stor tro på det teknologiske potensialet i Bitcoin. De fokuserer ikke på kortsiktige prissvingninger, men på å øke beholdningen jevnt og trutt over flere år.
 
 
-![BTC102-Bitcoin](assets/fr/079.webp)
+![image](assets/nb-NO/084.webp)
 
 
 Kort sagt er stabling ideelt for dem som ønsker å bygge en Bitcoin-posisjon over tid, redusere volatilitetsrisikoen og opprettholde full suverenitet; uten å være limt til diagrammer.
@@ -2587,7 +2587,7 @@ Nå skal vi utforske en radikalt annerledes bitcoinerprofil: den aktive brukeren
 Å bli en aktiv Bitcoin-bruker betyr å gå utover langsiktige investeringsstrategier. I motsetning til hodleren eller stableren, som først og fremst sparer uten å bruke penger, behandler den aktive brukeren Bitcoin som et reelt medium for **Exchange**. De bruker det til å betale for varer og tjenester og deltar aktivt i motøkonomien.
 
 
-![BTC102-Bitcoin](assets/fr/083.webp)
+![image](assets/nb-NO/085.webp)
 
 
 ### Hvorfor velge en aktiv brukerstrategi?
@@ -2620,7 +2620,7 @@ Aktiv bruk av Bitcoin hjelper deg med å utvikle erfaring fra den virkelige verd
 Utfordringene omfatter teknisk kompleksitet, prisvolatilitet og behovet for god sikkerhetshygiene for å forhindre tap av midler.
 
 
-![BTC102-Bitcoin](assets/fr/086.webp)
+![image](assets/nb-NO/086.webp)
 
 
 ### Investeringsplan for en aktiv bruker
@@ -2629,7 +2629,7 @@ Utfordringene omfatter teknisk kompleksitet, prisvolatilitet og behovet for god 
 Å ta i bruk Bitcoin for daglige betalinger krever en gjennomtenkt og strukturert tilnærming. I motsetning til en Hodler eller en Stacker må den aktive brukeren håndtere både den langsiktige sikkerheten til midlene sine og bekvemmeligheten ved daglige transaksjoner. For at denne strategien skal fungere effektivt, er det viktig å finne den rette balansen mellom sikker lagring av Cold og enkel tilgang til forbruksmidler.
 
 
-![BTC102-Bitcoin](assets/fr/084.webp)
+![image](assets/nb-NO/087.webp)
 
 
 #### 1. Tydelig separasjon av lommebøker
@@ -2722,7 +2722,7 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Aktive brukere må finne en balanse mellom langsiktig sparing og hvor mye Bitcoin de har tilgjengelig til daglig bruk.
 
 
-![BTC102-Bitcoin](assets/fr/085.webp)
+![image](assets/nb-NO/088.webp)
 
 
 Det finnes flere måter å anskaffe Bitcoin på, avhengig av hvilket nivå av personvern du er ute etter:
@@ -2772,7 +2772,7 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-![BTC102-Bitcoin](assets/fr/081.webp)
+![image](assets/nb-NO/089.webp)
 
 
 #### 4. Aktiv utgiftshåndtering
@@ -2817,7 +2817,7 @@ Er du skapt for å være en aktiv Bitcoin-bruker? Her er de viktigste egenskapen
 - **Økonomisk disiplin:** Du er nøye med å forvalte dine Bitcoin-utgifter og sparepenger. Du forstår viktigheten av å skille tydelig mellom daglige midler og langsiktig sparing.
 
 
-![BTC102-Bitcoin](assets/fr/082.webp)
+![image](assets/nb-NO/090.webp)
 
 
 Konklusjonen er at den aktive brukeren spiller en direkte rolle i å drive Bitcoins økosystem fremover. Ved å innlemme Bitcoin i sine daglige vaner, støtter de ikke bare adopsjonen, men øker også sin egen ekspertise.
@@ -2838,7 +2838,7 @@ For den paranoide Bitcoiner er personvern ikke valgfritt; det er essensielt. I e
 For dem er hver eneste handling viktig. Hver transaksjon, hvert Wallet-oppsett og hver interaksjon med nettverket blir nøye vurdert. En eneste tabbe kan avsløre sensitiv informasjon som knytter identiteten deres til Bitcoin-beholdningen deres. Deres endelige mål? Å bruke Bitcoin på en måte som holder identiteten, plasseringen og den økonomiske situasjonen deres helt privat.
 
 
-![BTC102-Bitcoin](assets/fr/087.webp)
+![image](assets/nb-NO/091.webp)
 
 
 ### Hvorfor ha en så forsiktig tilnærming?
@@ -2866,7 +2866,7 @@ De er ikke bare investorer eller brukere; de velger bort et system som krever å
 Den paranoide bitcoineren følger en streng strategi bygget rundt to hovedmål: å bevare anonymitet og maksimere sikkerhet. Denne typen brukere ønsker å unngå å bli eksponert for regulerte plattformer (spesielt de som krever KYC), eliminere sporbarhet av transaksjoner og forsvare midlene sine mot overvåkning, konfiskering og andre eksterne trusler.
 
 
-![BTC102-Bitcoin](assets/fr/092.webp)
+![image](assets/nb-NO/092.webp)
 
 
 #### 1. Sette opp lommebøker og noder
@@ -2895,7 +2895,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
-![BTC102-Bitcoin](assets/fr/089.webp)
+![image](assets/nb-NO/093.webp)
 
 
 
@@ -2921,7 +2921,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-![BTC102-Bitcoin](assets/fr/090.webp)
+![image](assets/nb-NO/094.webp)
 
 
 Sikkerheten stopper ikke der. For sikkerhetskopiering av seed-fraser bruker den paranoide brukeren sikkerhetskopier i metall kombinert med forseglede konvolutter med sabotasjesikkerhet. De kontrollerer jevnlig at sikkerhetskopiene ikke er kompromittert, og tester Wallet-gjenopprettingsprosedyrer for å være forberedt på alle eventualiteter.
@@ -3037,7 +3037,7 @@ https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 Sentraliserte børser unngås helt på grunn av risikoen de utgjør, både for personvernet og for potensiell sensur eller beslagleggelse.
 
 
-![BTC102-Bitcoin](assets/fr/091.webp)
+![image](assets/nb-NO/095.webp)
 
 
 #### 3. Forhindrer sporing i kjeden
@@ -3097,7 +3097,7 @@ Her er de viktigste trekkene ved en paranoid bitcoiner:
 Hvis du kjenner deg igjen i disse trekkene, passer denne strategien sannsynligvis godt for deg. Den er krevende og krever vedvarende innsats, men den gir en høy grad av økonomisk suverenitet og beskyttelse mot overvåking, beslag eller sporing av midlene dine.
 
 
-![BTC102-Bitcoin](assets/fr/088.webp)
+![image](assets/nb-NO/096.webp)
 
 
 Denne tilnærmingen er spesielt relevant hvis du:
@@ -3166,7 +3166,7 @@ Dette kapittelet er inspirert av arbeidet til [Pamela Morgan] (https://x.com/pam
 [Pamela Morgan](https://x.com/pamelawjd) har generøst autorisert bruken av [hennes arbeid](https://www.amazon.com/gp/product/1947910116/) til dette kurset, og vi vil følge hennes tilnærming for å lage en konkret Bitcoin-arvplan. I dette kapittelet fokuserer vi på den første delen av boken hennes.
 
 
-![BTC102-Bitcoin](assets/fr/093.webp)
+![image](assets/nb-NO/097.webp)
 
 
 For å bedre forstå hvordan man lager en Bitcoin-etterfølgerplan, skal vi se på eksemplet med Cédric, en typisk Bitcoin-bruker som trenger å organisere hvordan formuen hans skal videreføres hvis noe uventet skjer.
@@ -3186,7 +3186,7 @@ Hans profil:
 Målet vårt er å lage en enkel og effektiv plan som er skreddersydd for Cédrics profil, før vi går videre til mer komplekse scenarier som involverer andre typer brukere.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/nb-NO/098.webp)
 
 
 ### Før du begynner
@@ -3209,7 +3209,7 @@ Sørg for at du har et rolig, distraksjonsfritt miljø, og samle deretter disse 
 - En datamaskin (valgfritt).
 
 
-![BTC102-Bitcoin](assets/fr/094.webp)
+![image](assets/nb-NO/099.webp)
 
 
 #### Vanlige misoppfatninger om arveplanlegging
@@ -3421,7 +3421,7 @@ Før du avslutter, må du sørge for at brevet ditt inneholder:
 Avhengig av din personlige situasjon kan du lage flere håndskrevne kopier av dette brevet og oppbevare dem på et sikkert sted (i en safe, hos en betrodd person osv.). Informer arvingene dine om at denne arveplanen eksisterer, uten at du nødvendigvis avslører innholdet med en gang. For ekstra beskyttelse kan det være lurt å legge brevet i en ugjennomsiktig konvolutt for å sikre at ingen har fått tilgang til det uten din tillatelse.
 
 
-![BTC102-Bitcoin](assets/fr/096.webp)
+![image](assets/nb-NO/100.webp)
 
 
 Ved behov kan du rådføre deg med en advokat eller notarius publicus for å integrere planen formelt i et juridisk rammeverk.
@@ -3455,7 +3455,7 @@ Selv om du ikke har gjort alt ennå, men er fast bestemt på å gjøre det snart
 Siden jeg begynte å lære folk om Bitcoin, har både økosystemet og jeg utviklet oss betydelig. Dette kurset har blitt fullstendig oppdatert for å gjenspeile det beste av det Bitcoin har å tilby i dag. Det har vært litt av en reise sammen!
 
 
-![BTC102-Bitcoin](assets/fr/097.webp)
+![image](assets/nb-NO/101.webp)
 
 
 ### Hva blir det neste for Bitcoin?
@@ -3476,7 +3476,7 @@ Selvfølgelig gjenstår det fortsatt utfordringer: regulering, personvern, brede
 Én ting er sikkert: Bitcoin vil fortsette å eksistere og produsere en ny blokk omtrent hvert 10. minutt, utrettelig, dag etter dag, år etter år. Vi vil se flere brukere, lommebøker, børser, og også flere reguleringer, tekniske hindringer, kriser og innovasjoner.
 
 
-![BTC102-Bitcoin](assets/fr/098.webp)
+![image](assets/nb-NO/102.webp)
 
 
 Etter hvert som de globale krisene fortsetter og inflasjonen svekker kjøpekraften til fiat-valutaer, vil Bitcoin naturlig nok trekke til seg flere mennesker som søker økonomisk frihet og individuell suverenitet. Denne dynamikken vil fortsette å styrke Bitcoin og tiltrekke seg nye talenter for å forbedre protokollen, skaleringslagene og de daglige brukstilfellene når det gjelder sikkerhet, personvern og nytteverdi.

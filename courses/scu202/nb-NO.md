@@ -8286,16 +8286,24 @@ Det er viktig å velge moderne utstyr som vedlikeholdes av produsenten, og som o
 En Wi-Fi 6-, Wi-Fi 6E- eller Wi-Fi 7-kompatibel ruter gir deg bedre hastigheter og, fremfor alt, støtte for moderne sikkerhetsteknologi. Svært gammelt utstyr, spesielt utstyr som ikke lenger mottar programvareoppdateringer, kan derimot inneholde kjente sårbarheter som ikke er oppdatert. De utgjør derfor en risiko for hele nettverket ditt, selv om du konfigurerer dem riktig. Sammenlignet med mobiltelefoner eller datamaskiner er rutere utstyr som vi gjerne beholder i mange år. Det kan imidlertid være lurt å bytte dem ut med jevne mellomrom for å dra nytte av en mer moderne og sikker modell.
 
 
+**Merk**: Som en tommelfingerregel kan rutere levert av internettleverandører mangle den essensielle oppdateringsfunksjonen samt tilpasningsmuligheter. I noen tilfeller kan leverandørene også ha ubegrenset tilgang til sluttbrukerens interne nettverk.
+
 Sørg derfor for at du systematisk oppdaterer ruterens fastvare. Disse oppdateringene retter opp sårbarheter, legger til nye funksjoner og forbedrer den generelle systemstabiliteten. Noen produsenter tilbyr automatiske oppdateringer, men i noen tilfeller må du sjekke manuelt via ruterens Interface-administrasjonsverktøy. På samme måte som med telefonen, datamaskinen, operativsystemet og programvaren er det viktig å oppdatere ruteren regelmessig. Du kan gjøre dette til en del av den ukentlige rutinen din - for eksempel hver søndag - ved å lage en liste over alle elementene du trenger å sjekke og holde oppdatert.
 
 
-Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer som den skal fra et maskinvaresynspunkt, kan du installere en alternativ fastvare med åpen kildekode, f.eks:
+Alternativt kan du aktivere automatiske oppdateringer eller i det minste automatisk skanning etter nye firmwareoppdateringer hvis du foretrekker å handle manuelt. Selv om automatisk oppdatering-funksjonen fortsatt kan utgjøre en sikkerhetstrussel, vil manglende regelmessig oppdatering av ruterenes firmware eksponere ditt lokale nettverk for offentlig kjente sårbarheter.
+
+**Eksempel**: Når du kjøper din egen ruter, kan det være en god idé å se etter etablerte firmaer i bransjen som har levert rutere på markedet i lang tid. For eksempel har Fritz!Box-rutere et langvarig rykte som plug-and-play-enheter, godt egnet for bruk både i familier og i små selskaper. Deres policy for programvareoppdateringer strekker seg vanligvis over flere år.
+
+Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer korrekt fra et maskinvaresynspunkt, kan du kanskje installere en alternativ åpen kildekode-firmware, som:
 
 
 
 - OpenWrt, en Linux-distribusjon som spesialiserer seg på rutere, og som tilbyr stor fleksibilitet og regelmessige oppdateringer
 - pfSense og OPNsense, to FreeBSD-baserte (Unix-lignende) systemer for x86-brannmurer og -rutere
 
+
+**Merk**: Noen ISP-er leverer kundene sine bulkroutere produsert av ett selskap som samtidig leverer mange forskjellige ISP-er rundt om i verden. Du kan oppdage at for å installere en av de alternative firmware-ene på ruteren har noen andre kanskje allerede funnet ut hvordan man gjør det, selv om de er på andre siden av verden.
 
 ![Image](assets/fr/196.webp)
 

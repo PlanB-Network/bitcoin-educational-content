@@ -75,7 +75,7 @@ Je, uko tayari kuanza tukio hili la kuvutia? Hebu tuzame pamoja katika ulimwengu
 
 Ili kueleza dhana ya Mining kwa njia iliyorahisishwa, mlinganisho unaofaa unaweza kutumika: ule wa fumbo. Kama fumbo, Mining ni kazi ngumu kutekeleza lakini ni rahisi kuthibitisha mara tu itakapokamilika. Katika muktadha wa Bitcoin Mining, wachimbaji hujitahidi kutatua haraka fumbo la dijiti. Miner ya kwanza ya kusuluhisha fumbo inatoa suluhisho lao kwa mtandao mzima, ambao unaweza kuthibitisha uhalali wake kwa urahisi. Uthibitishaji huu uliofaulu huruhusu Miner kuhalalisha kitalu kipya na kuiongeza kwenye Msururu wa Muda wa Bitcoin. Kwa kutambua kazi yao, ambayo inahusisha gharama kubwa, Miner inalipwa kwa idadi fulani ya bitcoins. Zawadi hii hutumika kama motisha ya kifedha kwa wachimba migodi kuendelea na kazi yao ya kuthibitisha miamala na kupata mtandao wa Bitcoin.
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 Hapo awali katika mtandao wa Bitcoin, tuzo iliyotunukiwa ilikuwa bitcoins 50 kila dakika kumi, sambamba na ugunduzi wa block kila dakika kumi kwa wastani na wachimbaji. Zawadi hii hupitia Halving kila vitalu 210,000, takriban kila baada ya miaka minne. Malipo haya yanatumika kama kichocheo chenye nguvu cha kuwahimiza wachimba migodi kushiriki katika mchakato wa Mining licha ya gharama yake ya nishati. Bila malipo, Mining inayotumia umeme mwingi ingeachwa, na hivyo kuhatarisha usalama na uthabiti wa mtandao mzima wa Bitcoin.
 
@@ -87,7 +87,7 @@ Mchakato wa Mining unahusisha kutafuta Hash halali ambayo inakubalika kwa mtanda
 
 Hapo mwanzo, enzi ya CPU ilitawala, ambapo wachimbaji walitumia kompyuta zao za kibinafsi kwa Bitcoin Mining. Ugunduzi wa faida za GPU (kadi za michoro) kwa kazi hii uliashiria hatua ya kugeuka, kwa kiasi kikubwa kuongeza Hashrate na kupunguza matumizi ya nishati. Maendeleo hayakuishia hapo, pamoja na kuanzishwa kwa FPGAs (safu za lango zinazoweza kupangwa kwenye uwanja). FPGAs zilitumika kama jukwaa la ukuzaji wa ASIC (saketi zilizounganishwa mahususi za programu).
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 ASICs ni chips, kulinganishwa na Chip CPU, hata hivyo, wao ni maendeleo ya kufanya aina moja tu maalum ya hesabu kwa njia ya ufanisi zaidi iwezekanavyo. Kwa maneno mengine, CPU ina uwezo wa kufanya hesabu nyingi za aina tofauti bila kuboreshwa haswa kwa aina moja ya hesabu, wakati ASIC itaweza kufanya hesabu ya aina moja tu, lakini kwa ufanisi sana. Kwa upande wa Bitcoin ASICs, zimeundwa kwa ajili ya hesabu ya algorithm ya SHA256.
 
@@ -99,7 +99,7 @@ Ili kuonyesha ukubwa wa mchakato huu, fikiria Miner ya kawaida yenye uwezo wa ku
 
 Marekebisho ya ugumu ni utaratibu muhimu katika uendeshaji wa mtandao wa Bitcoin, kuhakikisha kuwa vitalu vinachimbwa kwa wastani kila dakika 10. Muda huu ni wastani kwa sababu mchakato wa Mining kwa kweli ni mchezo wa uwezekano, sawa na kukunja kete kwa matumaini ya kupata nambari ya chini kuliko nambari iliyofafanuliwa na ugumu. Kila vitalu vya 2016, mtandao hurekebisha ugumu wa Mining kulingana na muda wa wastani unaohitajika kuchimba vitalu vya awali. Ikiwa muda wa wastani ni zaidi ya dakika 10, ugumu umepunguzwa, na kinyume chake, ikiwa muda wa wastani ni wa chini, ugumu unaongezeka. Utaratibu huu wa urekebishaji unahakikisha kuwa muda wa Mining wa vitalu vipya unaendelea kudumu kwa muda, bila kujali idadi ya wachimbaji au nguvu ya jumla ya kompyuta ya mtandao. Hii ndiyo sababu Bitcoin Blockchain pia inaitwa Timechain.
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 
 - Mfano kutoka China:
@@ -112,7 +112,7 @@ Kuhusu mabadiliko ya mashine za Bitcoin Mining, ni muhimu kutambua kwamba muktad
 
 Wanakabiliwa na maendeleo ya mara kwa mara ya kiteknolojia katika uwanja wa Mining, wataalamu lazima wajiweke kimkakati. Sekta ya Mining inategemea ubunifu unaoendelea, kama inavyoonyeshwa na toleo la hivi karibuni la J la S19 na toleo linalotarajiwa la S19 XP, linalotoa uwezo wa juu zaidi wa Mining. Zaidi ya hayo, uboreshaji hauhusiani tu na utendaji mbichi wa mashine. Kwa mfano, mtindo mpya wa S19 XP unatumia mfumo wa baridi wa Liquid, marekebisho ya kiufundi ambayo inaruhusu uboreshaji mkubwa katika ufanisi wa nishati. Ingawa uvumbuzi unasalia kuwa wa kudumu, faida za ufanisi wa siku zijazo zinaweza kuwa ndogo ikilinganishwa na zile zinazozingatiwa kufikia sasa, kutokana na kufikia kiwango fulani cha uvumbuzi wa kiteknolojia.
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 Kwa kumalizia, sekta ya Bitcoin Mining inaendelea kubadilika na kustawi, na wahusika wa sekta hiyo lazima watarajie kupungua kwa ufanisi wa ufanisi katika siku zijazo na kurekebisha mikakati yao ipasavyo. Maendeleo ya kiteknolojia yajayo, ingawa bado yapo, yana uwezekano wa kutokea kwa kiwango kidogo, kuonyesha ukomavu unaokua wa sekta hiyo.
 
@@ -124,7 +124,7 @@ Kwa kumalizia, sekta ya Bitcoin Mining inaendelea kubadilika na kustawi, na wahu
 
 Kwa sasa, Bitcoin Mining imebadilika na kuwa sekta kubwa na kubwa, na wachezaji wengi sasa wanajulikana hadharani na kuongezeka kwa idadi ya wachimbaji muhimu. Mageuzi haya yameifanya Mining isiweze kufikiwa na wachezaji wadogo kutokana na gharama kubwa inayohusishwa na kupata mashine mpya za Mining. Hii inazua swali la usambazaji wa Hashrate kati ya wachezaji mbalimbali wa soko. Hali ni ngumu kwa sababu ni muhimu kuchunguza usambazaji wa Hashrate kati ya makampuni tofauti na kati ya bwawa tofauti za Mining.
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 Mining pool ni kundi la wachimba migodi wanaochanganya rasilimali zao za kompyuta ili kuongeza nafasi zao za Mining. Ushirikiano huu ni muhimu kwa sababu mashine ndogo ya Mining iliyotengwa inashindana dhidi ya makampuni makubwa ya sekta, na hivyo kupunguza nafasi zake za kufaulu hadi kiwango kidogo. Mining inafanya kazi kwa kanuni ya bahati nasibu, na nafasi za kushinda block (na kwa hivyo tuzo ya Bitcoin) kila dakika kumi ni ya chini sana kwa Miner ndogo. Kwa kuunganisha pamoja, wachimbaji wanaweza kuchanganya nguvu zao za kompyuta, kutafuta vizuizi mara kwa mara, na kisha kusambaza zawadi sawia kwa mchango wa kila Miner kwenye bwawa.
 
@@ -156,7 +156,7 @@ Uwekaji kati wa Mining unashughulikiwa kama changamoto kuu. Wachezaji wakubwa, k
 
 Hatari ya Udhibiti Inasisitizwa kwamba ikiwa nchi kama Marekani ingeamua kudhibiti au kupiga marufuku shughuli fulani za Bitcoin, inaweza kuwa na athari kubwa kwenye mtandao, hasa ikiwa sehemu kubwa ya nishati ya hashing itawekwa kati katika nchi hiyo.
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 Ili kukabiliana na ujumuishaji huu, mikakati tofauti inajadiliwa:
 
@@ -184,7 +184,7 @@ Mpango wa Attakai unatokana na jaribio la kibinafsi la nyumbani-Mining lililofan
 
 Baada ya kuwasilisha mradi wao kwa jumuiya ya Bitcoin na kuona maslahi ambayo ilizalisha, wavumbuzi wa Attakai waliamua kuchapisha miongozo ya kina kwenye jukwaa la Découvre Bitcoin, ili kuruhusu mtu yeyote kuiga uzoefu wao wa nyumbani-Mining. Sasa wanapanga kupanua dhana hii zaidi ya mazingira ya ndani. Lengo ni kuonyesha jinsi Miner iliyorekebishwa inaweza kubadilishwa kuwa hita kisaidizi tulivu inayoweza kutumika wakati wa majira ya baridi, ikitoa mpito mzuri kwa sehemu ya pili ya mafunzo, inayozingatia utekelezaji wa vitendo wa marekebisho haya, yaliyoonyeshwa na video za maelezo. Hata hivyo, swali linabakia kama mpango huu unaweza kupanuliwa kwa kiwango kikubwa, kutoa mbadala halisi na endelevu kwa miundo ya sasa ya Mining ya kati.
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 ### 🔍 Kikomo cha Ugatuaji?
 
@@ -208,7 +208,7 @@ Kuhusu swali la nini kinapaswa kuingizwa kwenye block ya Bitcoin, ni muhimu kuzi
 
 Kwa ukuaji unaotarajiwa wa Lightning Network na ongezeko la matokeo ya ufunguzi na kufungwa kwa njia, nafasi katika vitalu vya Bitcoin itazidi kuwa ya thamani. Jumuiya ya Bitcoin tayari inaelekea kuthamini uhifadhi wa nafasi hii, kwa kutambua ukomo wake wa ndani. Ufahamu huu umesababisha majadiliano kuhusu matumizi halali ya nafasi ya kuzuia, huku kukiwa na wasiwasi kuhusu "spam" kwenye Blockchain kutokana na miamala inayozingatiwa kuwa si muhimu.
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 Uvumi huzunguka matumizi ya baadaye ya nafasi ya kuzuia, lakini inakubaliwa kwa ujumla kuwa ni rasilimali adimu ambayo inapaswa kutumiwa kwa busara. Ingawa kuna hamu ya kuijaza, ni muhimu kuihifadhi ili kuhakikisha uwezekano wa muda mrefu wa mtandao wa Bitcoin, kutarajia ongezeko la baadaye la mahitaji ya nafasi ya kuzuia. Kama ilivyo katika soko lolote huria, Supply na mahitaji yatadhibiti matumizi ya nafasi ya kuzuia. Kwa kutumia Supply ndogo, washikadau watahitaji kufanya maamuzi sahihi kuhusu matumizi ya nafasi hii muhimu ili kuhakikisha ufanisi na usalama wa muda mrefu wa mtandao wa Bitcoin.
 
@@ -222,7 +222,7 @@ Jukumu la wachimbaji katika mtandao wa Bitcoin limekuwa mada ya mjadala mkali wa
 
 Wakati wa vita vya ukubwa wa block, wachimbaji wengi walipinga maendeleo fulani katika mtandao, wakionyesha mvutano kati ya watendaji tofauti katika mfumo wa ikolojia. Swali linabaki juu ya jinsi ya kusawazisha nguvu kati ya wachimbaji, nodi, na watumiaji ili kuhakikisha usalama wa muda mrefu wa Bitcoin.
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 Shida ya usalama ya Bitcoin inategemea usawa dhaifu. Wakati wachimbaji wana jukumu muhimu katika kuthibitisha na kuunda vitalu, nodi hudumisha uadilifu kwa kuthibitisha na kuthibitisha miamala na vizuizi. Kizuizi kisicho sahihi au cha ulaghai kitakataliwa na nodi, na hivyo kudhibiti Miner na kuhifadhi usalama wa mtandao. Nguvu pia inashikiliwa na nodi na watumiaji wa mtandao wa Bitcoin. Nodi zina uwezo wa uthibitishaji na uthibitishaji, wakati watumiaji wana uwezo wa kuchagua Blockchain ya kutumia. Usambazaji huu wa nguvu huhakikisha usambazaji na uadilifu wa mtandao wa Bitcoin.
 
@@ -234,7 +234,7 @@ Hatimaye, jukumu linashirikiwa kati ya watendaji wote katika mtandao wa Bitcoin.
 
 Nadharia maridadi ya mchezo wa Satoshi Nakamoto ilianzisha hali ambapo kila mwigizaji katika mtandao wa Bitcoin anahamasishwa kutenda ipasavyo ili kulinda maslahi yao na ya washiriki wengine. Hii inajenga usawa ambapo tabia mbaya inaweza kukemewa, hivyo kuimarisha usalama na utulivu wa mfumo mzima. Licha ya usawa huu, majimbo yanabaki kuwa tishio linalowezekana. Kama inavyoonyeshwa katika wasilisho la Surfing Bitcoin 2022, majimbo yanaweza kujaribu kushambulia tasnia ya Mining, ikiweka mtandao wa Bitcoin kwenye hatari za kuwekwa kati na kushambuliwa. Matukio dhahania kama vile shambulio la kijeshi lililolenga vifaa vya utengenezaji wa maunzi ya Mining yanaangazia umuhimu wa mseto wa kijiografia na kiviwanda kwa uthabiti wa mtandao wa Bitcoin.
 
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 Kuwekwa kati kwa uzalishaji wa vifaa vya Mining nchini China kunaleta hatari nyingine. Kukataa kusafirisha mashine za Mining au mkusanyiko wa Hashrate kwa shambulio linalowezekana la 51% na Uchina inasisitiza hitaji la uzalishaji wa maunzi anuwai wa Mining. Katika kukabiliana na hatari hizi, jumuiya ya Bitcoin inachunguza suluhu kikamilifu. Kampuni kama Intel zinafikiria kutengeneza vifaa vya Mining nchini Marekani, hivyo kuchangia usambazaji wa uzalishaji. Mipango mingine, kama vile Mfumo huria wa Kuendeleza Mining Development Kit (MDK) wa Block, unalenga kupunguza ukiritimba wa muundo na uzalishaji wa maunzi wa Mining, hivyo kuruhusu usambazaji mpana wa Hashrate. Kiini cha majadiliano haya kuna dhamira ya kimsingi ya Bitcoin: kuwa mtandao wa Exchange unaostahimili udhibiti. Jumuiya ya Bitcoin inajitahidi kila mara kuimarisha usambazaji, upinzani dhidi ya udhibiti, na mtandao wa kupambana na udhaifu, ikikataa mapendekezo kama vile mpito hadi uthibitisho wa hisa, ambayo hailingani na kanuni hizi za kimsingi.
 
@@ -242,7 +242,7 @@ Kuwekwa kati kwa uzalishaji wa vifaa vya Mining nchini China kunaleta hatari nyi
 
 Proof of Work (PoW) ni muhimu kwa sababu inawakilisha kiungo halisi kati ya ulimwengu halisi na Bitcoin. Ingawa bitcoins hazionekani, uzalishaji wao unahitaji nishati inayoonekana, hivyo kuanzisha uhusiano wa moja kwa moja na ulimwengu wa kimwili na wa kweli. Uunganisho huu unahakikisha kwamba uzalishaji na uthibitishaji wa bitcoins na vitalu vina gharama halisi ya nishati, na hivyo kuimarisha mtandao wa Bitcoin katika hali halisi ya kimwili na kuzuia utawala wake kamili na vyombo vyenye nguvu. PoW hufanya kama kinga dhidi ya uwekaji serikali kuu, kuhakikisha kwamba ushiriki katika mtandao na uthibitishaji wa miamala unahitaji uwekezaji katika rasilimali zinazoonekana. Hii inazuia kuhodhi mtandao na vyombo ambavyo vingeweza kudhibiti bila kizuizi chochote kikubwa cha kuingia, hivyo basi kuhakikisha usambazaji sawa wa nguvu na ushawishi ndani ya mtandao wa Bitcoin.
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 ### Mapungufu ya Uthibitisho wa Hisa
 
@@ -262,7 +262,7 @@ Kiwango cha sasa cha Hash, licha ya bei ya Bitcoin kuwa $30,000 ikilinganishwa n
 
 Hali hii pia inaonyesha ustahimilivu wa Bitcoin, ambayo mara nyingi hutathminiwa kulingana na bei yake. Hata hivyo, uchambuzi wa kina wa afya ya Bitcoin unahitaji kuchunguza kiwango chake cha Hash, ambacho hupima hesabu kwa sekunde katika mtandao wa Bitcoin. Wakati bei ya Bitcoin inabadilika, gharama yake, inayohusishwa na umeme unaohitajika kuendesha mashine za Mining, inasalia kuwa muhimu kwa kuelewa mienendo ya soko. Kwa kuzingatia gharama badala ya bei, mtazamo thabiti zaidi juu ya uthabiti wa Bitcoin na uwezekano wa muda mrefu unapatikana. Kwa ujumla, gharama ya Bitcoin inalingana na bei yake, ikitoa ufahamu bora wa mabadiliko ya bei na mitazamo ya siku zijazo.
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 ### Kiwango cha Hash na malipo
 
@@ -296,7 +296,7 @@ Hata hivyo, Mining inatoa njia za kipekee za kujihusisha katika mfumo ikolojia w
 
 Licha ya chaguzi hizi, Mining inatoa changamoto kubwa. Msemo unaojulikana sana katika ulimwengu wa fedha za siri, "Sio funguo zako, sio Bitcoins zako," hupata resonance sawa katika ulimwengu wa Mining: "Sio Hashrate yako, si malipo yako." Hadithi za kukatishwa tamaa na mashine kukatika ni za kawaida, huku wachezaji wengi wakiahidi matokeo ya kipekee lakini wameshindwa kuleta. Masuala ya umeme wa Supply na kuharibika kwa mashine kunaweza kuwaacha wawekezaji bila nguvu, na vifaa vya gharama kubwa hawavidhibiti. Katika muktadha huu, tahadhari na uelewa wa kina wa sekta ya Mining ni muhimu kabla ya kujitosa ndani yake. Ingawa fursa za faida zipo, hatari ni kubwa, na mbinu ya ufahamu na ya kufikiria ni muhimu kwa kuabiri uga huu tata na ambao mara nyingi hautabiriki. Kwa hivyo ni muhimu kufanya utafiti wa kina na kupima kwa uangalifu faida na hasara kabla ya kujihusisha na Bitcoin Mining.
 
-![image](assets/en/13.webp)
+![image](assets/en/013.webp)
 
 ### Bitcoin ambazo hazijawahi kutumika (Virgin Bitcoins)
 
@@ -311,7 +311,7 @@ Katika muktadha huu, kuchagua njia ya uhuru na elimu kwa Mining inaonekana kuwa 
 
 Kwa suala la uwezekano wa kupiga marufuku Mining barani Ulaya, mijadala kuhusu udhibiti inazidi kuwa muhimu. Mazingira yanayobadilika-badilika ya udhibiti yanaweza kuathiri sana tasnia ya Bitcoin Mining. Marufuku ya Mining barani Ulaya ni hali inayowezekana, haswa tukizingatia matukio yaliyotokea nchini china. Ingawa operesheni za Mining zinaendelea nchini china licha ya marufuku, Ulaya inaweza kufuata njia sawa. Usambazaji mpana wa Hashrate katika maeneo mbalimbali unaweza kusaidia kuimarisha jumuiya ya Mining barani Ulaya, na kuwawezesha kukabiliana vilivyo na kutoelewana na dhana potofu kuhusu Mining, athari zake za kimazingira, na alama yake kwenye gridi ya umeme.
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 Inakabiliwa na kampeni kama zile za Greenpeace na takwimu zinazopotosha mara nyingi kutoka kwa baadhi ya masomo, silaha bora zaidi inasalia kuwa habari ya ukweli. Ni muhimu kujulisha umma kwa ujumla na watoa maamuzi kuhusu uhalisia wa Mining, utata wake, na nuances yake, badala ya kuwaacha wategemee dhana potofu na taarifa zisizo sahihi. Kadiri watu wanavyofahamishwa na kufahamu zaidi Mining ni nini, ndivyo tasnia inavyoweza kujilinda dhidi ya kanuni zinazoweza kuwawekea vikwazo.
 
@@ -385,47 +385,47 @@ Antminer S9 inakuja katika tofauti kadhaa (i, j) ambazo hufanya marekebisho mado
 
 Bei ya ASIC inatofautiana kulingana na mambo mengi kama vile bei ya Bitcoin, ugumu wa mtandao, ufanisi wa mashine na gharama ya umeme. Kwa hiyo, ni vigumu kutoa makadirio sahihi kwa ununuzi wa mashine iliyotumiwa. Mnamo Februari 2023, bei inayotarajiwa nchini Ufaransa kwa ujumla ni kati ya €100 hadi €200, lakini bei hizi zinaweza kubadilika haraka.
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 Antminer S9 inaundwa na sehemu zifuatazo:
 
 
 - Vibao 3 vya reli ambavyo vina chip zinazozalisha nguvu ya hashing.
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 
 - Ubao wa udhibiti unaojumuisha nafasi ya kadi ya SD, mlango wa Ethaneti, na viunganishi vya hashibodi na feni. Huu ni ubongo wa ASIC yako.
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 
 - Kebo 3 za data zinazounganisha hashibodi kwenye ubao wa kudhibiti.
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 
 - Ugavi wa Umeme, ambayo inafanya kazi kwenye 220V na inaweza kuchomekwa kama kifaa cha kawaida cha nyumbani.
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 
 - 2 120mm mashabiki.
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 
 - Kebo ya kiume ya C13.
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 Wakati wa kununua mashine iliyotumiwa, ni muhimu kuangalia kwamba sehemu zote zinajumuishwa na zinafanya kazi. Wakati wa kubadilishana, unapaswa kumwomba muuzaji kuwasha mashine ili kuangalia utendaji wake sahihi. Ni muhimu kuthibitisha kwamba kifaa kinageuka kwa usahihi, na kisha uangalie uunganisho wa mtandao kwa kuunganisha cable ya Ethernet na kufikia kuingia kwa Bitmain Interface kupitia kivinjari kwenye mtandao huo wa ndani. Unaweza kupata IP hii Address kwa kuunganisha kwenye kipanga njia chako cha mtandao Interface na kutafuta vifaa vilivyounganishwa. Address hii inapaswa kuwa na umbizo lifuatalo: 192.168.x.x
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 
 Pia, angalia kwamba vitambulisho chaguo-msingi vinafanya kazi (jina la mtumiaji: mzizi, nenosiri: mzizi). Ikiwa kitambulisho chaguo-msingi hakifanyi kazi, utahitaji kuweka upya mashine.
 
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 Baada ya kuunganishwa, unapaswa kuwa na uwezo wa kuona hali ya kila hashibodi kwenye dashibodi. Ikiwa Miner imeunganishwa kwenye bwawa, unapaswa kuona hashibodi zote zikifanya kazi. Ni muhimu kutambua kwamba wachimbaji hufanya kelele nyingi, ambayo ni ya kawaida. Pia, hakikisha mashabiki wanafanya kazi ipasavyo.
 
@@ -449,31 +449,31 @@ Ikiwa wewe ni fundi stadi na unatafuta kubadilisha Miner kuwa hita, somo hili ni
 
 Mashabiki asili wa Antminer S9 wana kelele sana kutumia Antminer yako kama hita. Suluhisho ni kuwabadilisha na mashabiki watulivu. Timu yetu imejaribu miundo kadhaa kutoka kwa chapa ya Noctua na imechagua Noctua NF-A14 iPPC-2000 PWM kama maelewano bora zaidi. Hakikisha umechagua toleo la 12V la mashabiki. Shabiki hii ya 140mm inaweza kutoa hadi 1200W ya joto huku ikidumisha kiwango cha kelele cha kinadharia cha 31 dB. Ili kufunga mashabiki hawa wa 140mm, utahitaji kutumia adapta ya 140mm hadi 120mm, ambayo unaweza kupata kwenye duka la DécouvreBitcoin. Pia tutaongeza grilles za kinga za 140mm.
 
-![image](assets/en/24.webp)
+![image](assets/en/024.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/26.webp)
+![image](assets/en/026.webp)
 
 Shabiki wa ugavi wa umeme pia ana kelele kabisa na anahitaji kubadilishwa. Tunapendekeza Noctua NF-A6x25 PWM. Kumbuka kwamba viunganishi vya mashabiki wa Noctua si sawa na wale wa awali, kwa hivyo utahitaji adapta ya kiunganishi ili kuwaunganisha. Mbili zitatosha. Tena, hakikisha kuchagua toleo la 12V la shabiki.
 
-![image](assets/en/27.webp)
+![image](assets/en/027.webp)
 
-![image](assets/en/28.webp)
+![image](assets/en/028.webp)
 
 2. Ongeza daraja la WIFI/Ethernet
 
 Badala ya kutumia kebo ya Ethaneti, unaweza kuunganisha Antminer yako kupitia WIFI kwa kuongeza daraja la WIFI/Ethernet. Tumechagua vonets vap11g-300 kwa sababu inakuruhusu kupata mawimbi ya WIFI kutoka kwa kisanduku chako cha Mtandao na kuisambaza kwa Antminer yako kupitia Ethaneti bila kuunda mtandao mdogo. Ikiwa una ujuzi wa umeme, unaweza kuwasha moja kwa moja kwa nguvu ya Antminer Supply bila hitaji la kuongeza chaja ya USB. Kwa hili, utahitaji jack ya kike 5.5mmx2.1mm.
 
-![image](assets/en/29.webp)
+![image](assets/en/029.webp)
 
-![image](assets/en/30.webp)
+![image](assets/en/030.webp)
 
 3. Hiari: ongeza plagi mahiri
 
 Ikiwa ungependa kuwasha/kuzima Antminer yako kwenye simu mahiri na ufuatilie matumizi yake ya nishati, unaweza kuongeza plug mahiri. Tulijaribu plagi ya ANTELA katika toleo la 16A, linalooana na programu ya smartlife. Plagi hii mahiri hukuruhusu kutazama matumizi ya nishati ya kila siku na kila mwezi na inaunganisha moja kwa moja kwenye kipanga njia chako cha mtandao kupitia WiFi.
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 Orodha ya vifaa na viungo
 
@@ -502,21 +502,21 @@ Washa daraja kwa kuiunganisha kupitia USB.
 
 Kutoka kwa kompyuta yako, unganisha kwenye mtandao wa VONETS\_**\*\*** WIFI na nenosiri 12345678.
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 Ingia na jina la mtumiaji "admin" na nenosiri "admin".
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 Chagua Mchawi.
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 Chagua mtandao wa WIFI unaotaka kuunganisha Miner yako, kisha ubofye Inayofuata.
 
 KUMBUKA: Daraja la Vonet hufanya kazi kwa masafa ya 2.4GHz pekee. Siku hizi, router hutoa mitandao miwili ya WIFI, moja kwa 2.4GHz na moja kwa 5GHz.
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 Ingiza nenosiri la mtandao wako wa WIFI katika sehemu ya "Chanzo cha nenosiri la WIFI hotspot". Ikiwa hutaki kutumia bridge yako ya Vonet kupanua mtandao wako wa WIFI, chagua kisanduku cha "Lemaza Hotspot". Vinginevyo, iache bila kukaguliwa.
 
@@ -538,7 +538,7 @@ Njia hii inaweza kutumika kati ya dakika 2 na dakika 10 baada ya kuanza Miner.
 
 Dakika 2 baada ya kuwasha Miner, tafadhali bonyeza kitufe cha "Rudisha" kwa sekunde 5, kisha uiachilie. Miner itarejeshwa kwa mipangilio ya kiwanda ndani ya dakika 4 na itaanza upya moja kwa moja (hakuna haja ya kuizima).
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 ## Inasakinisha BraiinsOS+ kwenye Antminer S9
 
@@ -556,11 +556,11 @@ Hapa, tutaona jinsi ya kusakinisha Braiins OS+ kwa urahisi moja kwa moja kwenye 
 
 3. Fungua faili iliyopakuliwa na ufungue faili ya bos-toolbox.bat. Chagua lugha, na baada ya muda mfupi, utaona dirisha hili:
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 4. Kisanduku cha zana cha Bos kitakuruhusu kupata IP Address ya Antminer yako na kusakinisha BraiinsOS+ kwa urahisi. Ikiwa tayari unajua IP Address ya mashine yako, unaweza kuruka hatua ya 8. Vinginevyo, nenda kwenye kichupo cha tambazo.
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 5. Kwa kawaida, kwenye mitandao ya nyumbani, safu ya IP Address ni kati ya 192.168.1.1 na 192.168.1.255, kwa hivyo ingiza "192.168.1.0/24" katika uga wa masafa ya IP. Ikiwa mtandao wako ni tofauti, tafadhali badilisha anwani hizi ipasavyo. Kisha bonyeza "Anza".
 
@@ -568,12 +568,12 @@ Hapa, tutaona jinsi ya kusakinisha Braiins OS+ kwa urahisi moja kwa moja kwenye 
 
 7. Unapaswa kuona Antminers zote kwenye mtandao wako zinaonekana hapa, na IP Address ni 192.168.1.37.
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 8. Bofya kwenye "Nyuma" na kisha kichupo cha "Sakinisha", ingiza IP iliyopatikana hapo awali Address, na ubofye "Anza".
 
 > Ikiwa usakinishaji haufanyi kazi, inaweza kuwa muhimu kufanya upya na ujaribu tena (angalia sehemu iliyotangulia).
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 9. Baada ya muda mchache, Antminer yako itawasha upya na utaweza kufikia Braiins OS+ Interface katika IP iliyobainishwa Address, hapa 192.168.1.37, moja kwa moja kwenye upau wa Address wa kivinjari chako. Jina la mtumiaji chaguo-msingi ni "mizizi" na hakuna nenosiri chaguo-msingi.
 
@@ -595,7 +595,7 @@ Kisha utasalimiwa na Dashibodi ya Brains OS+.
 
 ### Dashibodi
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashine yako.
 
@@ -604,7 +604,7 @@ Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashi
 - Upande wa kulia, Hashrate halisi, wastani wa joto la chip, makadirio ya ufanisi katika W/THs, na matumizi ya nishati.
 - Chini, kasi ya shabiki kama asilimia ya kasi ya juu na idadi ya mizunguko kwa dakika.
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 
 - Chini zaidi, utapata mwonekano wa kina wa kila hashibodi. Joto la wastani la bodi na chips zilizomo, pamoja na voltage na mzunguko.
@@ -614,15 +614,15 @@ Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashi
 
 ### Usanidi
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 ### Mfumo
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 ### Vitendo vya haraka
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 # Attakai - Marekebisho ya Mashabiki
 
@@ -633,7 +633,7 @@ Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashi
 <chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
 > ONYO: Ni muhimu kuwa umesakinisha Braiins OS+ kwenye Miner yako, au programu nyingine yoyote ambayo inaweza kupunguza utendakazi wa mashine yako. Hatua hii ni muhimu kwa sababu ili kupunguza kelele, tutasakinisha feni zenye nguvu kidogo ambazo zinaweza kuondosha joto kidogo.
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 ### Nyenzo zinazohitajika
 
@@ -642,64 +642,64 @@ Katika ukurasa huu wa kwanza, unaweza kuona utendakazi wa wakati halisi wa mashi
 - 2.5mm2 sukari ya fundi umeme
 
 > ONYO: Awali ya yote, kabla ya kuanza, hakikisha kuwa umechomoa Miner yako ili kuepuka hatari yoyote ya kukatwa na umeme.
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 Kwanza, ondoa screws 6 upande wa kesi ambayo inashikilia kufungwa. Mara screws kuondolewa, kwa makini kufungua kesi ili kuondoa ulinzi wa plastiki kufunika vipengele.
 
-![image](assets/en/48.webp)
+![image](assets/en/048.webp)
 
-![image](assets/en/49.webp)
+![image](assets/en/049.webp)
 
 Ifuatayo, ni wakati wa kuondoa shabiki wa asili, kwa uangalifu usiharibu vifaa vingine. Ili kufanya hivyo, ondoa screws ambazo zimeshikilia mahali pake na uondoe kwa upole gundi nyeupe inayozunguka kontakt. Ni muhimu kuendelea kwa uangalifu ili kuepuka kuharibu waya au viunganisho.
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 Mara tu feni asili ikiondolewa, utaona kwamba viunganishi vya feni mpya ya Noctua hazilingani na shabiki asilia. Hakika, shabiki mpya ana waya 3, ikiwa ni pamoja na waya wa njano ambayo inaruhusu kudhibiti kasi. Hata hivyo, waya hii haitatumika katika kesi hii maalum. Ili kuunganisha shabiki mpya, kwa hiyo inashauriwa kutumia adapta maalum. Hata hivyo, ni muhimu kutambua kwamba adapta hii wakati mwingine inaweza kuwa vigumu kupata.
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 Ikiwa huna adapta hii, bado unaweza kuendelea kuunganisha shabiki mpya kwa kutumia sukari ya fundi umeme. Ili kufanya hivyo, utahitaji kukata nyaya za shabiki wa zamani na mpya.
 
-![image](assets/en/52.webp)
+![image](assets/en/052.webp)
 
-![image](assets/en/53.webp)
+![image](assets/en/053.webp)
 
 Kwenye shabiki mpya, tumia mkataji na ukate kwa uangalifu mtaro wa sheath kuu kwa cm 1 bila kukata sheaths za nyaya chini.
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 Kisha, kwa kuvuta sheath kuu chini, kata sheaths za nyaya nyekundu na nyeusi kwa njia sawa na hapo awali. Na kukata njano cable flush.
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 Juu ya shabiki wa zamani, ni maridadi zaidi kukata sheath kuu bila kuharibu sheaths za waya nyekundu na nyeusi. Kwa hili, tulitumia sindano ambayo tuliteleza kati ya sheath kuu na waya nyekundu na nyeusi.
 
-![image](assets/en/56.webp)
+![image](assets/en/056.webp)
 
-![image](assets/en/57.webp)
+![image](assets/en/057.webp)
 
 Mara baada ya waya nyekundu na nyeusi zimefunuliwa, kata sheath kwa uangalifu ili kuepuka kuharibu waya za umeme.
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 Kisha, unganisha nyaya na sukari, waya mweusi na nyeusi na nyekundu nyekundu. Unaweza pia kuongeza mkanda wa umeme.
 
-![image](assets/en/59.webp)
+![image](assets/en/059.webp)
 
-![image](assets/en/60.webp)
+![image](assets/en/060.webp)
 
 Mara tu muunganisho utakapofanywa, ni wakati wa kusakinisha feni mpya ya Noctua kwa grille na skrubu za zamani. Skurubu mpya kwenye kisanduku zitatumika tena baadaye. Hakikisha kuiweka katika mwelekeo sahihi. Utaona mshale upande mmoja wa feni, ukionyesha mwelekeo wa mtiririko wa hewa. Ni muhimu kuweka shabiki ili mshale huu uelekeze ndani ya kesi. Kisha unganisha tena shabiki.
 
-![image](assets/en/61.webp)
+![image](assets/en/061.webp)
 
-![image](assets/en/62.webp)
+![image](assets/en/062.webp)
 
 > Hiari: Ikiwa una ujuzi wa umeme, unaweza kuongeza moja kwa moja kiunganishi cha kike cha 5.5mm kwenye pato la umeme la 12V, ambalo litawasha daraja la Wi-Fi la Vonet moja kwa moja. Hata hivyo, ikiwa hujui ujuzi wako wa umeme, ni bora kutumia kiunganishi cha USB na chaja ya aina ya smartphone ili kuepuka hatari yoyote ya mzunguko mfupi au uharibifu wa umeme.
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 Mara tu viunganisho vinapofanywa, weka kifuniko cha plastiki juu ya plastiki ya kesi na si ndani.
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 Mwishowe, rudisha kifuniko cha kipochi mahali pake na ukokote skrubu 6 kwenye pande ili kushikilia kila kitu mahali pake. Na hiyo ndiyo, kipochi chako cha nguvu cha Supply sasa kimewekwa feni mpya.
 
@@ -708,7 +708,7 @@ Mwishowe, rudisha kifuniko cha kipochi mahali pake na ukokote skrubu 6 kwenye pa
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > ONYO: Ni muhimu kuwa umesakinisha Braiins OS+ hapo awali kwenye Miner yako, au programu nyingine yoyote inayoweza kupunguza utendakazi wa mashine yako. Hatua hii ni muhimu kwa sababu ili kupunguza kelele, tutaweka feni zenye nguvu kidogo, ambazo zitaondoa joto kidogo.
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 ### Nyenzo Zinazohitajika
 
@@ -720,43 +720,43 @@ Mwishowe, rudisha kifuniko cha kipochi mahali pake na ukokote skrubu 6 kwenye pa
 > ONYO: Awali ya yote, kabla ya kuanza, hakikisha kwamba umetenganisha Miner yako ili kuepuka hatari yoyote ya kupigwa na umeme.
 1. Kwanza, tenganisha mashabiki na uwafungue.
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 2. Viunganishi vya mashabiki wapya wa Noctua havilingani na zile za awali, lakini usijali! Toa kikata chako na ukate kwa uangalifu vichupo vidogo vya plastiki ili viunganishi vitoshee kikamilifu kwenye Miner yako.
 
-![image](assets/en/66.webp)
+![image](assets/en/066.webp)
 
-![image](assets/en/67.webp)
+![image](assets/en/067.webp)
 
 3. Ni wakati wa kufunga sehemu za 3D!
 
 Ambatisha pande zote za Miner kwa kutumia skrubu ulizoondoa kutoka kwa feni. Zirururu hadi kichwa cha skrubu kiwe laini na sehemu ya 3D na iwe mahali pake kwa usalama. Kuwa mwangalifu usikaze sana, kwani unaweza kuharibika sehemu na moja ya skrubu inaweza kugusa capacitor!
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 4. Sasa tuendelee na mashabiki.
 
 Ambatisha kwa sehemu za 3D kwa kutumia skrubu zilizotolewa kwenye kisanduku. Zingatia mwelekeo wa mtiririko wa hewa, mishale kwenye pande za mashabiki itaonyesha mwelekeo wa kufuata. Nenda kutoka upande wa mlango wa Ethaneti hadi upande mwingine. Tazama picha hapa chini.
 
-![image](assets/en/69.webp)
+![image](assets/en/069.webp)
 
-![image](assets/en/70.webp)
+![image](assets/en/070.webp)
 
-![image](assets/en/71.webp)
+![image](assets/en/071.webp)
 
 5. Hatua ya mwisho: unganisha mashabiki na ushikamishe grilles juu na screws ambazo hazikutumiwa kwenye sanduku la shabiki la nguvu la Supply. Una 4 tu kati yao, lakini 2 kwa kila grille kwenye pembe tofauti zitatosha. Unaweza pia kutafuta screws sawa katika duka la vifaa ikiwa inahitajika.
 
-![image](assets/en/72.webp)
+![image](assets/en/072.webp)
 
-![image](assets/en/73.webp)
+![image](assets/en/073.webp)
 
 Wakati unasubiri kuweza kutoa kifuko maridadi zaidi cha hita yako mpya, unaweza kuambatisha kipochi na nishati ya Supply kwa kuunganisha kebo za fundi umeme.
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 Na kwa kugusa kumaliza, kuunganisha daraja la Vonet kwenye bandari ya Ethernet na nguvu zake za Supply.
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 Na hapo unayo, pongezi! Umebadilisha sehemu nzima ya mitambo ya Miner yako. Unapaswa sasa kusikia kelele kidogo.
 
@@ -786,17 +786,17 @@ Mfano wa zawadi unaotuvutia ni PPS, ambayo inasimamia "lipa kwa kila hisa". Hii 
 
 Ili kusanidi bwawa katika Braiins OS+, utahitaji kuunda akaunti katika mojawapo ya vikundi unavyopenda. Hapa tutachukua mfano wa Linecoin:
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 Mara tu akaunti yako inapoundwa, bofya kwenye Unganisha kwenye Dimbwi
 
 Kisha nakili Stratum Address na jina lako la mtumiaji:
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 Sasa unaweza kurudi kwenye Braiins OS+ Interface ili kuweka vitambulisho hivi. Kwa nenosiri, unaweza kuacha shamba tupu.
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 ## Kuboresha Utendaji wa Antminer yako S9
 

@@ -1,4 +1,17 @@
----
+Get-ChildItem "*.md" -Recurse | ForEach-Object {
+    Write-Host "Processing: $($_.Name)" -ForegroundColor Yellow
+    
+    # Read content
+    $content = Get-Content $_.FullName -Raw
+    
+    # Replace /001.webp to /001.webp, /099.webp to /099.webp, etc.
+    $newContent = $content -replace '/(\d{2}\.webp)', '/0$1'
+    
+    # Save the file
+    Set-Content -Path $_.FullName -Value $newContent -NoNewline
+    
+    Write-Host "  Changed 2-digit to 3-digit format" -ForegroundColor Green
+}---
 name: Pengantar tentang Penambangan Bitcoin
 goal: Memahami fungsi industri penambangan melalui latihan praktis menggunakan kembali ASIC.
 objectives:
@@ -62,7 +75,7 @@ Siap untuk menjelajahi dunia penambangan Bitcoin dan menghadapi tantangan prakti
 
 Untuk menjelaskan konsep mining dengan cara yang disederhanakan, analogi yang relevan dapat digunakan: yaitu puzzle. Sama seperti puzzle, mining adalah tugas yang kompleks untuk dilakukan tetapi mudah untuk diverifikasi setelah selesai. Dalam konteks Bitcoin mining, para penambang berusaha untuk segera menyelesaikan puzzle digital. Penambang pertama yang menyelesaikan puzzle tersebut menyajikan solusinya ke seluruh jaringan, yang kemudian dapat dengan mudah memverifikasi keabsahannya. Verifikasi yang berhasil ini memungkinkan penambang untuk memvalidasi blok baru dan menambahkannya ke Timechain Bitcoin. Sebagai pengakuan atas pekerjaan mereka, yang melibatkan biaya signifikan, penambang diberi reward berupa sejumlah bitcoin tertentu. Reward ini berfungsi sebagai insentif finansial bagi penambang untuk melanjutkan pekerjaan mereka dalam memvalidasi transaksi dan mengamankan jaringan Bitcoin.
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 Awalnya di jaringan Bitcoin, reward yang diberikan adalah 50 bitcoin setiap sepuluh menit, sejajar dengan penemuan blok setiap sepuluh menit rata-rata oleh penambang. Reward ini mengalami pemotongan setengah (halving) setiap 210,000 blok, kira-kira setiap empat tahun. Remunerasi ini berfungsi sebagai insentif kuat untuk mendorong penambang berpartisipasi dalam proses mining meskipun ada biaya energi. Tanpa reward, mining yang membutuhkan banyak energi ini akan ditinggalkan, mengompromikan keamanan dan stabilitas seluruh jaringan Bitcoin.
 Reward mining saat ini adalah dua lipat. Di satu sisi, itu termasuk penciptaan bitcoin baru, yang telah berkurang dari 50 bitcoin setiap sepuluh menit awalnya menjadi 6.25 bitcoin saat ini (2023). Di sisi lain, itu termasuk biaya transaksi, atau biaya mining, dari transaksi yang dipilih penambang untuk dimasukkan dalam blok mereka. Ketika transaksi bitcoin dilakukan, biaya transaksi dibayar. Biaya ini berfungsi sebagai semacam lelang di mana pengguna menunjukkan berapa banyak yang mereka bersedia bayar untuk memasukkan transaksi mereka dalam blok berikutnya. Untuk memaksimalkan reward mereka, penambang, bertindak demi kepentingan mereka sendiri, memilih transaksi yang paling menguntungkan untuk dimasukkan dalam blok mereka, mengingat ruang yang tersedia terbatas. Dengan demikian, reward mining terdiri dari kedua generasi bitcoin baru dan biaya transaksi, memastikan insentif berkelanjutan bagi penambang dan memastikan kelangsungan hidup dan keamanan jaringan Bitcoin.
@@ -73,7 +86,7 @@ Proses mining melibatkan penemuan hash yang valid dan dapat diterima oleh jaring
 
 Di awal, era CPU mendominasi, di mana penambang menggunakan komputer pribadi mereka untuk mining Bitcoin. Penemuan keuntungan GPU (kartu grafis) untuk tugas ini menandai titik balik, secara substansial meningkatkan hashrate dan mengurangi konsumsi energi. Kemajuan tidak berhenti di situ, dengan pengenalan berikutnya dari FPGA (field-programmable gate arrays). FPGA berfungsi sebagai platform untuk pengembangan ASIC (application-specific integrated circuits).
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 ASIC adalah chip, yang dapat dibandingkan dengan chip CPU, namun, mereka dikembangkan untuk melakukan hanya satu jenis perhitungan tertentu dengan cara yang paling efisien. Dengan kata lain, CPU mampu melakukan berbagai jenis perhitungan tanpa dioptimalkan secara khusus untuk satu jenis perhitungan atau lainnya, sedangkan ASIC akan dapat melakukan hanya satu jenis perhitungan, tetapi dengan sangat efisien. Dalam kasus ASIC Bitcoin, mereka dirancang untuk perhitungan algoritma SHA256. Saat ini, para penambang secara eksklusif menggunakan ASIC yang didedikasikan untuk operasi ini, dioptimalkan untuk menguji jumlah kombinasi maksimum dengan konsumsi energi sekecil mungkin dan secepat mungkin. Komputer ini, yang tidak mampu melakukan tugas selain penambangan Bitcoin, adalah bukti nyata dari evolusi terus-menerus dan spesialisasi yang meningkat dari industri penambangan Bitcoin. Evolusi konstan ini mencerminkan dinamika intrinsik Bitcoin, di mana penyesuaian kesulitan memastikan produksi blok setiap sepuluh menit meskipun ada peningkatan kapasitas penambangan secara eksponensial.
 
@@ -83,7 +96,7 @@ Untuk menggambarkan intensitas proses ini, pertimbangkan penambang tipikal yang 
 
 Penyesuaian kesulitan adalah mekanisme penting dalam operasi jaringan Bitcoin, memastikan bahwa blok ditambang rata-rata setiap 10 menit. Durasi ini adalah rata-rata karena proses penambangan sebenarnya adalah permainan probabilitas, mirip dengan melempar dadu dengan harapan mendapatkan angka lebih rendah dari angka yang ditentukan oleh kesulitan. Setiap 2016 blok, jaringan menyesuaikan kesulitan penambangan berdasarkan waktu rata-rata yang diperlukan untuk menambang blok sebelumnya. Jika waktu rata-rata lebih dari 10 menit, kesulitan dikurangi, dan sebaliknya, jika waktu rata-rata lebih rendah, kesulitan ditingkatkan. Mekanisme penyesuaian ini memastikan bahwa waktu penambangan untuk blok baru tetap konstan dari waktu ke waktu, terlepas dari jumlah penambang atau kekuatan komputasi keseluruhan jaringan. Inilah mengapa Blockchain Bitcoin juga disebut Timechain.
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 - Contoh dari China:
   Kasus China menggambarkan dengan sempurna mekanisme penyesuaian kesulitan ini. Dengan energi yang melimpah dan murah, China adalah pusat utama penambangan Bitcoin global. Pada tahun 2021, negara tersebut tiba-tiba melarang penambangan Bitcoin di wilayahnya, mengakibatkan penurunan besar dalam hashrate jaringan Bitcoin global, sekitar 50%. Penurunan kekuatan penambangan ini bisa saja sangat mengganggu jaringan Bitcoin dengan meningkatkan waktu penambangan blok rata-rata. Namun, mekanisme penyesuaian kesulitan segera beraksi, mengurangi kesulitan penambangan untuk memastikan bahwa frekuensi penambangan blok tetap rata-rata 10 menit. Kasus ini menunjukkan efisiensi dan ketahanan mekanisme penyesuaian kesulitan Bitcoin, yang memastikan stabilitas dan prediktabilitas jaringan, bahkan di hadapan perubahan mendadak dan signifikan dalam lanskap penambangan global.
@@ -93,7 +106,7 @@ Penyesuaian kesulitan adalah mekanisme penting dalam operasi jaringan Bitcoin, m
 Mengenai evolusi mesin penambangan Bitcoin, penting untuk dicatat bahwa konteksnya lebih berorientasi pada model bisnis tradisional. Penambang mendapatkan pendapatan mereka dari validasi blok, tugas dengan probabilitas keberhasilan yang relatif rendah. Model yang saat ini digunakan, Antminer S9, meskipun merupakan model yang lebih tua diluncurkan sekitar tahun 2016, masih beredar di pasar barang bekas, diperdagangkan sekitar €100 hingga €200. Namun, harga mesin penambangan bervariasi berdasarkan nilai Bitcoin, dan model yang lebih baru, Antminer S19, saat ini diperkirakan sekitar €3000.
 Menghadapi kemajuan teknologi yang konstan di bidang pertambangan, para profesional harus menempatkan diri mereka secara strategis. Industri pertambangan terus mengalami inovasi, seperti yang ditunjukkan oleh rilis terbaru dari versi J S19 dan rilis yang diantisipasi dari S19 XP, yang menawarkan kemampuan menambang yang jauh lebih tinggi. Selain itu, peningkatan tidak hanya terkait dengan kinerja mentah dari mesin. Sebagai contoh, model S19 XP baru menggunakan sistem pendingin cair, sebuah modifikasi teknis yang memungkinkan peningkatan signifikan dalam efisiensi energi. Meskipun inovasi tetap konstan, keuntungan efisiensi di masa depan kemungkinan akan lebih kecil dibandingkan dengan yang diamati sejauh ini, karena mencapai batas tertentu dari inovasi teknologi.
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 Kesimpulannya, industri penambangan Bitcoin terus beradaptasi dan berkembang, dan para pelaku industri harus mengantisipasi penurunan keuntungan efisiensi di masa depan dan menyesuaikan strategi mereka sesuai. Kemajuan teknologi di masa depan, meskipun masih ada, kemungkinan akan terjadi dalam skala yang lebih kecil, mencerminkan kematangan sektor yang semakin tumbuh.
 
@@ -105,7 +118,7 @@ Kesimpulannya, industri penambangan Bitcoin terus beradaptasi dan berkembang, da
 
 Saat ini, penambangan Bitcoin telah berkembang menjadi industri yang serius dan substansial, dengan banyak pelaku yang kini dikenal secara publik dan jumlah penambang besar yang meningkat. Evolusi ini membuat penambangan hampir tidak dapat diakses oleh pemain kecil karena biaya tinggi yang terkait dengan memperoleh mesin penambangan baru. Ini menimbulkan pertanyaan tentang distribusi hashrate di antara berbagai pelaku pasar. Situasi ini kompleks karena penting untuk memeriksa distribusi hashrate baik di antara perusahaan yang berbeda maupun di antara kolam penambangan yang berbeda.
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 Kolam penambangan adalah kelompok penambang yang menggabungkan sumber daya komputasi mereka untuk meningkatkan peluang mereka dalam menambang. Kerja sama ini diperlukan karena mesin penambangan kecil yang terisolasi bersaing melawan raksasa industri, mengurangi peluang keberhasilannya menjadi tingkat yang dapat diabaikan. Penambangan bekerja pada prinsip lotere, dan peluang memenangkan blok (dan oleh karena itu hadiah Bitcoin) setiap sepuluh menit sangat rendah bagi penambang kecil individu. Dengan bergabung bersama, penambang dapat menggabungkan kekuatan komputasi mereka, menemukan blok lebih sering, dan kemudian mendistribusikan hadiah secara proporsional ke kontribusi setiap penambang ke kolam.
 
@@ -136,7 +149,7 @@ Sentralisasi penambangan diangkat sebagai tantangan utama. Pemain besar, seperti
 
 Risiko Regulasi Ditekankan bahwa jika negara seperti Amerika Serikat memutuskan untuk mengatur atau melarang transaksi Bitcoin tertentu, hal itu dapat memiliki dampak signifikan pada jaringan, terutama jika sebagian besar kekuatan hashing terpusat di negara tersebut.
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 Untuk melawan sentralisasi ini, berbagai strategi dibahas:
 
@@ -162,7 +175,7 @@ Inisiatif Attakai berawal dari eksperimen penambangan di rumah yang dilakukan ol
 
 Setelah mempresentasikan proyek mereka kepada komunitas Bitcoin dan melihat minat yang dihasilkan, para penemu Attakai memutuskan untuk menerbitkan panduan rinci di platform Découvre Bitcoin, memungkinkan siapa pun untuk mereplikasi pengalaman penambangan di rumah mereka. Sekarang mereka berencana untuk memperluas konsep ini ke luar lingkungan rumah. Tujuannya adalah untuk menunjukkan bagaimana penambang yang dimodifikasi dapat diubah menjadi pemanas tambahan yang tenang yang dapat digunakan selama musim dingin, menawarkan transisi yang mulus ke bagian pelatihan kedua yang berfokus pada penerapan praktis dari modifikasi ini, yang diilustrasikan dengan video penjelasan. Namun, pertanyaannya tetap apakah inisiatif ini dapat diperluas ke skala yang lebih besar, sehingga menawarkan alternatif yang realistis dan berkelanjutan bagi struktur penambangan terpusat saat ini.
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 ### Batasan desentralisasi ini?
 
@@ -186,7 +199,7 @@ Mengenai pertanyaan tentang apa yang harus dimasukkan dalam blok Bitcoin, sangat
 
 Dengan pertumbuhan yang diharapkan dari Lightning Network dan peningkatan konsekuensial dalam pembukaan dan penutupan saluran, ruang dalam blok Bitcoin akan menjadi semakin berharga. Komunitas Bitcoin sudah cenderung menghargai pelestarian ruang ini, mengakui keterbatasannya yang intrinsik. Kesadaran ini telah mengarah pada diskusi tentang penggunaan ruang blok yang sah, dengan kekhawatiran tentang "spam" di blockchain dari transaksi yang dianggap tidak esensial.
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 Spekulasi mengelilingi penggunaan ruang blok di masa depan, tetapi umumnya diterima bahwa ini adalah sumber daya yang langka yang harus digunakan dengan bijak. Meskipun ada keinginan untuk mengisinya, sangat penting untuk melestarikannya untuk memastikan kelangsungan jangka panjang jaringan Bitcoin, mengantisipasi peningkatan permintaan akan ruang blok di masa depan. Seperti di setiap pasar bebas, pasokan dan permintaan akan mengatur penggunaan ruang blok. Dengan pasokan terbatas, pemangku kepentingan perlu membuat pilihan yang tepat tentang penggunaan ruang berharga ini untuk memastikan efisiensi dan keamanan jangka panjang jaringan Bitcoin.
 
@@ -200,7 +213,7 @@ Peran penambang dalam jaringan Bitcoin telah menjadi subjek perdebatan intens se
 
 Selama perang ukuran blok, banyak penambang menentang beberapa pengembangan dalam jaringan, menyoroti ketegangan antara berbagai aktor dalam ekosistem. Pertanyaannya tetap bagaimana menyeimbangkan kekuatan di antara penambang, node, dan pengguna untuk memastikan keamanan jangka panjang Bitcoin.
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 Dilema keamanan Bitcoin berada pada keseimbangan yang halus. Sementara penambang memainkan peran krusial dalam memvalidasi dan menciptakan blok, node menjaga integritas dengan memverifikasi dan memvalidasi transaksi dan blok. Blok yang salah atau penipuan akan ditolak oleh node, sehingga menyensor penambang dan menjaga keamanan jaringan. Kekuatan juga dipegang oleh node dan pengguna jaringan Bitcoin. Node memiliki kekuatan verifikasi dan validasi, sementara pengguna memiliki kekuatan untuk memilih blockchain mana yang akan digunakan. Distribusi kekuatan ini memastikan distribusi dan integritas jaringan Bitcoin.
 
@@ -211,7 +224,7 @@ Pada akhirnya, tanggung jawab dibagi di antara semua aktor dalam jaringan Bitcoi
 ### Kekuatan Penambang
 
 Teori permainan elegan Satoshi Nakamoto menetapkan situasi di mana setiap aktor dalam jaringan Bitcoin diinsentifkan untuk bertindak dengan benar untuk melindungi baik kepentingan mereka sendiri maupun peserta lain. Ini menciptakan keseimbangan di mana perilaku buruk dapat ditegur, sehingga meningkatkan keamanan dan stabilitas seluruh sistem. Meskipun ada keseimbangan ini, negara tetap menjadi ancaman potensial. Seperti yang ditunjukkan dalam presentasi di Surfing Bitcoin 2022, negara dapat mencoba menyerang industri penambangan, memaparkan jaringan Bitcoin terhadap risiko sentralisasi dan serangan. Skenario hipotetis seperti serangan militer yang menargetkan fasilitas produksi perangkat keras penambangan menyoroti pentingnya diversifikasi geografis dan industri untuk ketahanan jaringan Bitcoin.
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 Sentralisasi produksi perangkat keras penambangan di China menimbulkan risiko lain. Penolakan untuk mengekspor mesin penambangan atau akumulasi hashrate untuk potensi serangan 51% oleh China menekankan perlunya diversifikasi produksi perangkat keras penambangan. Sebagai tanggapan terhadap risiko ini, komunitas Bitcoin secara aktif mengeksplorasi solusi. Perusahaan seperti Intel sedang mempertimbangkan untuk memproduksi peralatan penambangan di Amerika Serikat, berkontribusi pada distribusi produksi. Inisiatif lain, seperti Kit Pengembangan Penambangan sumber terbuka dari Block, bertujuan untuk mengurangi monopoli desain dan produksi perangkat keras penambangan, memungkinkan distribusi hashrate yang lebih luas. Di jantung diskusi ini terletak misi fundamental Bitcoin: menjadi jaringan pertukaran nilai yang tahan terhadap sensor. Komunitas Bitcoin terus berupaya untuk memperkuat distribusi, resistensi terhadap sensor, dan anti-kerapuhan jaringan, menolak usulan seperti transisi ke bukti kepemilikan, yang tidak sejalan dengan prinsip-prinsip fundamental ini.
 
@@ -219,7 +232,7 @@ Sentralisasi produksi perangkat keras penambangan di China menimbulkan risiko la
 
 Bukti Kerja (Proof of Work/PoW) sangat penting karena ini mewakili tautan fisik antara dunia nyata dan Bitcoin. Meskipun bitcoin tidak berwujud, produksinya membutuhkan energi nyata, sehingga menetapkan hubungan langsung dengan dunia fisik dan nyata. Koneksi ini memastikan bahwa produksi dan validasi bitcoin serta blok memiliki biaya energi nyata, dengan demikian mengakar jaringan Bitcoin dalam realitas fisik dan mencegah dominasi total oleh entitas yang kuat. PoW bertindak sebagai benteng melawan sentralisasi, memastikan bahwa partisipasi dalam jaringan dan validasi transaksi memerlukan investasi dalam sumber daya nyata. Ini mencegah monopoli jaringan oleh entitas yang bisa saja mengambil kontrol tanpa ada hambatan masuk yang signifikan, sehingga memastikan distribusi kekuatan dan pengaruh yang lebih adil dalam jaringan Bitcoin.
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 ### Keterbatasan Bukti Kepemilikan
 
@@ -239,7 +252,7 @@ Untuk merangkum, penambang memperkuat jaringan Bitcoin terhadap sensor dengan me
 Hashrate saat ini, meskipun harga Bitcoin berada di $30,000 dibandingkan dengan puncak sebelumnya $69,000, menyoroti tautan nyata antara penambangan dan dunia nyata. Periode pasar bullish mengarah pada permintaan tinggi untuk penambangan Bitcoin dan peningkatan pesanan mesin dari produsen seperti Avalon dan Bitmain. Namun, produksi dan pengiriman tidak seketika, menciptakan ketidaksesuaian antara peningkatan permintaan dan ketersediaan yang lebih lambat. Ini dapat menyebabkan mesin yang dipesan selama pasar bullish dikirimkan dalam pasar bear, menyoroti asimetri yang mencolok antara harga rendah dan hashrate tinggi.
 Situasi ini juga menggambarkan ketahanan Bitcoin, yang sering dinilai berdasarkan harganya. Namun, analisis yang lebih mendalam tentang kesehatan Bitcoin memerlukan pemeriksaan terhadap hash rate-nya, yang mengukur perhitungan per detik dalam jaringan Bitcoin. Meskipun harga Bitcoin fluktuatif, biayanya, yang terkait dengan listrik yang diperlukan untuk mengoperasikan mesin penambangan, tetap penting untuk memahami dinamika pasar. Dengan fokus pada biaya daripada harga, perspektif yang lebih konsisten tentang stabilitas dan viabilitas jangka panjang Bitcoin dapat diperoleh. Umumnya, biaya Bitcoin proporsional dengan harganya, memberikan pemahaman yang lebih baik tentang fluktuasi harga dan prospek masa depan.
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 ### Hash Rate dan Reward
 
@@ -272,7 +285,7 @@ Namun, penambangan menawarkan jalur unik untuk terlibat dalam ekosistem Bitcoin.
 
 Meskipun ada opsi ini, penambangan menyajikan tantangan signifikan. Pepatah terkenal di dunia cryptocurrency, "Bukan kunci Anda, bukan Bitcoin Anda," menemukan resonansi serupa di dunia penambangan: "Bukan hashrate Anda, bukan hadiah Anda." Cerita kekecewaan dan mesin yang terputus umum, dengan banyak pemain yang menjanjikan hasil luar biasa tetapi gagal memberikan. Masalah dengan pasokan listrik dan kerusakan mesin dapat membuat investor tidak berdaya, dengan peralatan mahal yang mereka tidak kontrol. Dalam konteks ini, kehati-hatian dan pemahaman mendalam tentang sektor penambangan sangat penting sebelum terjun ke dalamnya. Meskipun ada peluang untuk mendapatkan keuntungan, risikonya signifikan, dan pendekatan yang terinformasi dan bijaksana sangat penting untuk menavigasi bidang yang kompleks dan sering kali tidak dapat diprediksi ini. Oleh karena itu, sangat penting untuk melakukan penelitian menyeluruh dan mempertimbangkan pro dan kontra dengan cermat sebelum terlibat dalam penambangan Bitcoin.
 
-![gambar](assets/en/13.webp)
+![gambar](assets/en/013.webp)
 
 ### Virgin Bitcoins
 
@@ -285,7 +298,7 @@ Dalam konteks ini, memilih pendekatan otonom dan terdidik terhadap penambangan t
 ### Apakah penambangan dilarang di Eropa?
 
 Dengan isu potensi larangan penambangan di Eropa, diskusi tentang regulasi menjadi semakin relevan. Lanskap regulasi yang berfluktuasi memang dapat sangat mempengaruhi industri penambangan Bitcoin. Larangan penambangan di Eropa adalah skenario yang dapat dibayangkan, terutama mengingat preseden di China. Meskipun operasi penambangan terus berlangsung di China meskipun ada larangan, Eropa bisa mengikuti jalur serupa. Distribusi hashrate yang lebih luas di berbagai wilayah dapat membantu memperkuat komunitas penambangan di Eropa, memungkinkan mereka untuk secara efektif melawan kesalahpahaman dan konsepsi salah tentang penambangan, dampak lingkungannya, dan jejaknya pada jaringan listrik.
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 Menghadapi kampanye seperti yang dilakukan oleh Greenpeace dan angka-angka menyesatkan dari beberapa studi, senjata terbaik tetaplah informasi yang benar. Sangat penting untuk menginformasikan masyarakat umum dan pembuat keputusan tentang realitas penambangan, kompleksitasnya, dan nuansanya, daripada membiarkan mereka mengandalkan stereotip dan informasi yang tidak akurat. Semakin banyak orang yang terinformasi dan sadar tentang apa itu penambangan, semakin baik industri dapat mempertahankan diri dari regulasi yang berpotensi membatasi.
 
@@ -356,39 +369,39 @@ Antminer S9 hadir dalam beberapa varian (i, j) yang membuat modifikasi kecil pad
 
 Harga ASIC bervariasi tergantung pada banyak faktor seperti harga bitcoin, kesulitan jaringan, efisiensi mesin, dan biaya listrik. Oleh karena itu, sulit untuk memberikan perkiraan yang akurat untuk pembelian mesin bekas. Pada Februari 2023, harga yang diharapkan di Prancis umumnya berkisar dari €100 hingga €200, tetapi harga ini dapat berubah dengan cepat.
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 Antminer S9 terdiri dari bagian-bagian berikut:
 
 - 3 hashboard yang berisi chip yang menghasilkan kekuatan hashing.
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 - Sebuah papan kontrol yang mencakup slot untuk kartu SD, port Ethernet, dan konektor untuk hashboard dan kipas. Ini adalah otak dari ASIC Anda.
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 - 3 kabel data yang menghubungkan hashboard ke papan kontrol.
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 - Pasokan daya, yang beroperasi pada 220V dan dapat dicolokkan seperti peralatan rumah tangga biasa.
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 - 2 kipas 120mm.
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 - Sebuah kabel laki-laki C13.
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 Saat membeli mesin bekas, penting untuk memeriksa bahwa semua bagian termasuk dan berfungsi. Selama pertukaran, Anda harus meminta penjual untuk menyalakan mesin untuk memeriksa fungsinya dengan benar. Penting untuk memverifikasi bahwa perangkat menyala dengan benar, lalu periksa konektivitas internet dengan mencolokkan kabel Ethernet dan mengakses antarmuka login Bitmain melalui browser web di jaringan lokal yang sama. Anda dapat menemukan alamat IP ini dengan terhubung ke antarmuka router internet Anda dan mencari perangkat yang terhubung. Alamat ini harus memiliki format berikut: 192.168.x.x
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 Juga, periksa apakah kredensial default berfungsi (username: root, password: root). Jika kredensial default tidak berfungsi, Anda perlu mereset mesin tersebut.
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 Setelah terhubung, Anda seharusnya dapat melihat status dari setiap hashboard di dashboard. Jika penambang terhubung ke sebuah pool, Anda seharusnya melihat semua hashboard berfungsi. Penting untuk dicatat bahwa penambang menghasilkan banyak kebisingan, yang merupakan hal normal. Juga, pastikan kipas berfungsi dengan baik.
 
@@ -411,24 +424,24 @@ Jika Anda seorang tukang yang terampil dan ingin mengubah penambang menjadi pema
 
 Kipas asli dari Antminer S9 terlalu berisik untuk menggunakan Antminer Anda sebagai pemanas. Solusinya adalah menggantinya dengan kipas yang lebih senyap. Tim kami telah menguji beberapa model dari merek Noctua dan telah memilih Noctua NF-A14 iPPC-2000 PWM sebagai kompromi terbaik. Pastikan untuk memilih versi 12V dari kipas. Kipas 140mm ini dapat menghasilkan hingga 1200W pemanasan sambil mempertahankan tingkat kebisingan teoritis sebesar 31 dB. Untuk memasang kipas 140mm ini, Anda akan memerlukan adaptor dari 140mm ke 120mm, yang dapat Anda temukan di toko DécouvreBitcoin. Kami juga akan menambahkan gril pelindung 140mm.
 
-![image](assets/en/24.webp)
-![image](assets/en/25.webp)
-![image](assets/en/26.webp)
+![image](assets/en/024.webp)
+![image](assets/en/025.webp)
+![image](assets/en/026.webp)
 Kipas catu daya juga cukup berisik dan perlu diganti. Kami merekomendasikan Noctua NF-A6x25 PWM. Perhatikan bahwa konektor dari kipas Noctua tidak sama dengan yang asli, jadi Anda akan memerlukan adaptor konektor untuk menghubungkannya. Dua buah sudah cukup. Lagi, pastikan untuk memilih versi 12V dari kipas tersebut.
-![image](assets/en/27.webp)
-![image](assets/en/28.webp)
+![image](assets/en/027.webp)
+![image](assets/en/028.webp)
 
 2. Tambahkan jembatan WIFI/Ethernet
 
 Alih-alih menggunakan kabel Ethernet, Anda dapat menghubungkan Antminer Anda melalui WIFI dengan menambahkan jembatan WIFI/Ethernet. Kami telah memilih vonets vap11g-300 karena dengan mudah memungkinkan Anda untuk mengambil sinyal WIFI dari kotak Internet Anda dan mentransmisikannya ke Antminer Anda melalui Ethernet tanpa menciptakan subnet. Jika Anda memiliki keahlian listrik, Anda dapat memberi daya langsung dengan catu daya Antminer tanpa perlu menambahkan pengisi daya USB. Untuk ini, Anda akan memerlukan jack betina 5.5mmx2.1mm.
 
-![image](assets/en/29.webp)
-![image](assets/en/30.webp)
+![image](assets/en/029.webp)
+![image](assets/en/030.webp)
 
 3. Opsional: tambahkan colokan pintar
    Jika Anda ingin menyalakan/mematikan Antminer Anda dari smartphone dan memantau konsumsi dayanya, Anda dapat menambahkan colokan pintar. Kami telah menguji colokan ANTELA dalam versi 16A, kompatibel dengan aplikasi smartlife. Colokan pintar ini memungkinkan Anda untuk melihat konsumsi daya harian dan bulanan dan terhubung langsung ke router internet Anda melalui WiFi.
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 Daftar peralatan dan tautan
 
@@ -458,21 +471,21 @@ Nyalakan jembatan dengan menghubungkannya melalui USB.
 
 Dari komputer Anda, sambungkan ke jaringan WIFI VONETS\_**\*\*** dengan kata sandi 12345678.
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 Masuk dengan nama pengguna "admin" dan kata sandi "admin".
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 Pilih Wizard.
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 Pilih jaringan WIFI yang ingin Anda hubungkan dengan penambang Anda, lalu klik Next.
 
 CATATAN: Jembatan Vonet hanya bekerja pada frekuensi 2.4GHz. Saat ini, router biasanya menawarkan dua jaringan WIFI, satu pada 2.4GHz dan satu pada 5GHz.
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 Masukkan kata sandi untuk jaringan WIFI Anda di bidang "Source WIFI hotspot password". Jika Anda tidak ingin menggunakan jembatan Vonet Anda untuk memperluas jaringan WIFI Anda, centang kotak "Disable Hotspot". Jika tidak, biarkan tidak dicentang.
 
@@ -491,7 +504,7 @@ Sebelum menginstal BraiinOS+, mungkin diperlukan untuk mereset S9 Anda ke pengat
 Metode ini dapat diterapkan antara 2 menit dan 10 menit setelah memulai penambang.
 2 menit setelah menyalakan penambang, silakan tekan tombol "Reset" selama 5 detik, lalu lepaskan. Penambang akan dikembalikan ke pengaturan pabrik dalam waktu 4 menit dan akan restart secara otomatis (tidak perlu mematikannya).
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 ## Menginstal BraiinsOS+ pada Antminer S9
 
@@ -507,11 +520,11 @@ Di sini, kami akan melihat bagaimana cara mudah menginstal Braiins OS+ langsung 
 2. Unduh BOS toolbox untuk Windows / Linux.
 3. Ekstrak file yang diunduh dan buka file bos-toolbox.bat. Pilih bahasa, dan setelah beberapa saat, Anda akan melihat jendela ini:
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 4. BOS toolbox akan memungkinkan Anda untuk dengan mudah menemukan alamat IP Antminer Anda dan menginstal BraiinsOS+. Jika Anda sudah mengetahui alamat IP mesin Anda, Anda dapat langsung ke langkah 8. Jika tidak, pergi ke tab pemindaian.
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 5. Biasanya, pada jaringan rumah, rentang alamat IP adalah antara 192.168.1.1 dan 192.168.1.255, jadi masukkan "192.168.1.0/24" di bidang rentang IP. Jika jaringan Anda berbeda, silakan ubah alamat ini sesuai kebutuhan. Kemudian klik "Mulai".
 
@@ -519,13 +532,13 @@ Di sini, kami akan melihat bagaimana cara mudah menginstal Braiins OS+ langsung 
 
 7. Anda seharusnya melihat semua Antminer di jaringan Anda muncul di sini, dan alamat IP adalah 192.168.1.37.
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 8. Klik "Kembali" lalu tab "Instal", masukkan alamat IP yang sebelumnya ditemukan, dan klik "Mulai".
 
 > Jika instalasi tidak berhasil, mungkin diperlukan untuk melakukan reset dan coba lagi (lihat bagian sebelumnya).
 
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 9. Setelah beberapa saat, Antminer Anda akan restart dan Anda akan dapat mengakses antarmuka Braiins OS+ di alamat IP yang ditentukan, di sini 192.168.1.37, langsung di bilah alamat browser Anda. Nama pengguna default adalah "root" dan tidak ada kata sandi default.
 
@@ -546,7 +559,7 @@ Anda kemudian akan disambut oleh Dashboard Braiins OS+.
 
 ### Dashboard
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time.
 
@@ -554,7 +567,7 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 - Di sebelah kanan, hashrate nyata, suhu chip rata-rata, efisiensi estimasi dalam W/THs, dan konsumsi daya.
 - Di bawah, kecepatan kipas sebagai persentase dari kecepatan maksimum dan jumlah rotasi per menit.
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 - Lebih lanjut ke bawah, Anda akan menemukan tampilan detil dari setiap hashboard. Suhu rata-rata papan dan chip yang terkandung di dalamnya, serta tegangan dan frekuensi.
 - Detail tentang kolam penambangan aktif di Pools.
@@ -563,15 +576,15 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 
 ### Konfigurasi
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 ### Sistem
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 ### Tindakan Cepat
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 # Attakai - Modifikasi Kipas
 
@@ -583,7 +596,7 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 
 > PERINGATAN: Sangat penting untuk telah terlebih dahulu menginstal Braiins OS+ pada penambang Anda, atau perangkat lunak lain yang dapat mengurangi kinerja mesin Anda. Langkah ini sangat krusial karena untuk mengurangi kebisingan, kami akan menginstal kipas yang kurang kuat yang dapat mendispersikan panas lebih sedikit.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 ### Bahan yang Diperlukan
 
@@ -592,58 +605,58 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 
 > PERINGATAN: Pertama-tama, sebelum memulai, pastikan Anda telah mencabut penambang Anda untuk menghindari risiko tersengat listrik.
 
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 Pertama, lepaskan 6 sekrup di sisi casing yang menahannya tertutup. Setelah sekrup dilepas, hati-hati buka casing untuk mengeluarkan pelindung plastik yang menutupi komponen.
 
-![image](assets/en/48.webp)
-![image](assets/en/49.webp)
+![image](assets/en/048.webp)
+![image](assets/en/049.webp)
 
 Selanjutnya, saatnya untuk melepas kipas asli, berhati-hatilah untuk tidak merusak komponen lain. Untuk melakukan ini, lepaskan sekrup yang menahannya di tempat dan perlahan-lahan kupas lem putih yang mengelilingi konektor. Sangat penting untuk melanjutkan dengan hati-hati untuk menghindari kerusakan pada kabel atau konektor.
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 Setelah kipas asli dilepas, Anda akan menyadari bahwa konektor kipas Noctua baru tidak cocok dengan kipas asli. Memang, kipas baru memiliki 3 kabel, termasuk kabel kuning yang memungkinkan kontrol kecepatan. Namun, kabel ini tidak akan digunakan dalam kasus spesifik ini. Untuk menghubungkan kipas baru, disarankan untuk menggunakan adaptor khusus. Namun, penting untuk dicatat bahwa adaptor ini terkadang sulit ditemukan.
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 Jika Anda tidak memiliki adaptor ini, Anda masih dapat melanjutkan untuk menghubungkan kipas baru menggunakan gula listrik. Untuk melakukan ini, Anda perlu memotong kabel kipas lama dan baru.
 
-![image](assets/en/52.webp)
-![image](assets/en/53.webp)
+![image](assets/en/052.webp)
+![image](assets/en/053.webp)
 
 Pada kipas baru, gunakan cutter dan potong dengan hati-hati kontur selubung utama sepanjang 1cm tanpa memotong selubung kabel di bawahnya.
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 Kemudian, dengan menarik selubung utama ke bawah, potong selubung kabel merah dan hitam dengan cara yang sama seperti sebelumnya. Dan potong kabel kuning rata.
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 Pada kipas lama, lebih sulit untuk memotong selubung utama tanpa merusak selubung kabel merah dan hitam. Untuk ini, kami menggunakan jarum yang kami selipkan antara selubung utama dan kabel merah dan hitam.
 
-![image](assets/en/56.webp)
-![image](assets/en/57.webp)
+![image](assets/en/056.webp)
+![image](assets/en/057.webp)
 
 Setelah kabel merah dan hitam terpapar, potong selubungnya dengan hati-hati untuk menghindari kerusakan pada kabel listrik.
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 Kemudian, hubungkan kabel dengan gula, kabel hitam dengan hitam dan kabel merah dengan merah. Anda juga dapat menambahkan isolasi listrik.
 
-![image](assets/en/59.webp)
-![image](assets/en/60.webp)
+![image](assets/en/059.webp)
+![image](assets/en/060.webp)
 
 Setelah koneksi dibuat, saatnya untuk memasang kipas Noctua baru dengan grille dan sekrup lama. Sekrup baru dalam kotak akan digunakan lagi nanti. Pastikan untuk meletakkannya dalam orientasi yang benar. Anda akan melihat sebuah panah di satu sisi kipas, menunjukkan arah aliran udara. Penting untuk menempatkan kipas sehingga panah ini mengarah ke dalam casing. Kemudian sambungkan kembali kipas.
 
-![image](assets/en/61.webp)
-![image](assets/en/62.webp)
+![image](assets/en/061.webp)
+![image](assets/en/062.webp)
 
 > Opsional: Jika Anda memiliki pengetahuan tentang listrik, Anda dapat langsung menambahkan konektor jack perempuan 5.5mm ke output daya 12V, yang akan langsung memberi daya pada jembatan Wi-Fi Vonet. Namun, jika Anda tidak yakin dengan kemampuan listrik Anda, lebih baik menggunakan konektor USB dengan pengisi daya tipe smartphone untuk menghindari risiko korsleting atau kerusakan listrik.
 
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 Setelah koneksi dibuat, letakkan penutup plastik di atas plastik casing dan bukan di dalamnya.
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 Akhirnya, pasang kembali penutup casing dan sekrup 6 sekrup di sisi untuk menahan semuanya di tempatnya. Dan sekarang, casing sumber daya Anda telah dilengkapi dengan kipas baru.
 
@@ -653,7 +666,7 @@ Akhirnya, pasang kembali penutup casing dan sekrup 6 sekrup di sisi untuk menaha
 
 > PERINGATAN: Sangat penting untuk telah terlebih dahulu menginstal Braiins OS+ pada penambang Anda, atau perangkat lunak lain yang mampu mengurangi kinerja mesin Anda. Langkah ini krusial karena untuk mengurangi kebisingan, kita akan memasang kipas yang kurang kuat, yang akan menghilangkan panas lebih sedikit.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 ### Bahan yang Diperlukan
 
@@ -665,36 +678,36 @@ Akhirnya, pasang kembali penutup casing dan sekrup 6 sekrup di sisi untuk menaha
 
 1. Pertama, lepaskan kipas dan buka bautnya.
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 2. Konektor kipas Noctua baru tidak cocok dengan yang asli, tapi jangan khawatir! Keluarkan cutter Anda dan potong dengan hati-hati tab plastik kecil agar konektor pas sempurna pada penambang Anda.
 
-![image](assets/en/66.webp)
-![image](assets/en/67.webp) 3. Saatnya memasang bagian 3D!
+![image](assets/en/066.webp)
+![image](assets/en/067.webp) 3. Saatnya memasang bagian 3D!
 Pasang mereka di kedua sisi penambang menggunakan baut yang Anda lepas dari kipas. Pasang baut sampai kepala baut sejajar dengan bagian 3D dan terpasang dengan aman. Hati-hati jangan terlalu kencang, karena Anda bisa merusak bagian tersebut dan salah satu baut mungkin menyentuh kapasitor!
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 4. Sekarang mari kita lanjutkan ke kipas.
 
 Pasang mereka pada bagian 3D menggunakan baut yang disediakan dalam kotak. Perhatikan arah aliran udara, panah di sisi kipas akan menunjukkan arah yang harus diikuti. Mulai dari sisi port Ethernet ke sisi lain. Lihat foto di bawah ini.
 
-![image](assets/en/69.webp)
-![image](assets/en/70.webp)
-![image](assets/en/71.webp)
+![image](assets/en/069.webp)
+![image](assets/en/070.webp)
+![image](assets/en/071.webp)
 
 5. Langkah terakhir: sambungkan kipas dan pasang gril di atas dengan baut yang tidak digunakan dalam kotak kipas catu daya. Anda hanya memiliki 4 dari mereka, tapi 2 per gril di sudut berlawanan sudah cukup. Anda juga bisa mencari baut serupa di toko perangkat keras jika diperlukan.
 
-![image](assets/en/72.webp)
-![image](assets/en/73.webp)
+![image](assets/en/072.webp)
+![image](assets/en/073.webp)
 
 Sambil menunggu bisa menawarkan casing yang lebih bergaya untuk pemanas baru Anda, Anda dapat mengikat casing dan catu daya dengan tali kabel elektrik.
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 Dan untuk sentuhan akhir, sambungkan jembatan Vonet ke port Ethernet dan catu dayanya.
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 Dan selesai, selamat! Anda baru saja mengganti seluruh bagian mekanis dari penambang Anda. Sekarang Anda seharusnya mendengar jauh lebih sedikit kebisingan.
 
@@ -721,17 +734,17 @@ Model hadiah yang menarik bagi kami adalah PPS, yang berarti "bayar-per-bagian".
 - Linecoin: Keunggulan Linecoin terletak pada jumlah fitur yang ditawarkan, seperti dashboard yang detail, kemampuan untuk melakukan penarikan dengan Paynym (BIP 47) untuk perlindungan privasi yang lebih baik, dan integrasi bot Telegram serta otomatisasi yang dapat dikonfigurasi langsung di aplikasi seluler. Pool ini hanya menambang blok Bitcoin, tetapi jumlah minimum untuk penarikan tetap tinggi di 100.000 sats. Kami akan mengulas antarmuka salah satu pool ini lebih detail dalam artikel mendatang.
   Untuk mengonfigurasi pool di Braiins OS+, Anda perlu membuat akun di salah satu pool pilihan Anda. Di sini kami akan mengambil contoh Linecoin:
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 Setelah akun Anda dibuat, klik pada Connect To Pool
 
 Kemudian salin alamat Stratum dan nama pengguna Anda:
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 Anda sekarang dapat kembali ke antarmuka Braiins OS+ untuk memasukkan kredensial ini. Untuk kata sandi, Anda dapat meninggalkan kolom tersebut kosong.
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 ## Mengoptimalkan Kinerja Antminer S9 Anda
 

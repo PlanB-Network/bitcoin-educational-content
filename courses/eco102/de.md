@@ -1682,7 +1682,6 @@ Bastiat nimmt damit ein Jahrhundert im Voraus die Analysen der Funktionsweise de
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Außerdem, so Bastiat, hat der Staat keine Rechte, die nicht schon vorher im Individuum vorhanden sind. Warum hat der Staat das Recht, das Eigentum jedes Einzelnen zu garantieren, auch mit Gewalt? Ganz einfach, weil dieses Recht bereits im Individuum vorhanden ist. Man kann dem Einzelnen nicht das Recht auf Selbstverteidigung absprechen, das Recht, notfalls Gewalt anzuwenden, um Angriffe auf seine Person, seine Fähigkeiten und sein Eigentum abzuwehren. Dieses natürliche Recht auf Selbstverteidigung, das allen Bürgern innewohnt, kann eine kollektive Form annehmen und gemeinsame Gewalt legitimieren.

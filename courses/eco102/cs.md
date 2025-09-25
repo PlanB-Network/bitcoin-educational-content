@@ -1117,7 +1117,6 @@ A protože činnost státu je čistě redistributivní, je pod tlakem zvláštn�
 Jinými slovy, stát sleduje pouze klientelistické cíle a pojem obecného zájmu je zbavený smyslu. Jakýkoli zisk získaný některými je na úkor ostatních: není to hra s nulovým součtem, ale hra se záporným součtem.
 Bastiat tak předvídá, sto let dopředu, analýzy fungování politického trhu, které by se objevily na konci 50. let s takzvanou školou veřejné volby Jamese Buchanana, nositele Nobelovy ceny za ekonomii, a jeho kolegy Gordona Tullocka.
 ![image](assets/en/135.webp)
-![image](assets/en/136.webp)
 
 Navíc Bastiat tvrdí, že stát nemá žádná práva, která by neexistovala již předtím v jednotlivci. Proč má stát právo zaručit, i silou, majetek každého jednotlivce? Jednoduše proto, že toto právo v jednotlivci předexistuje. Nelze upřít jednotlivcům právo na sebeobranu, právo použít sílu, pokud je to nutné, k odražení útoků proti jejich osobám, jejich schopnostem a jejich majetku. Toto přirozené právo na sebeobranu, které je vlastní všem občanům, může nabýt kolektivní formu a legitimizovat společnou sílu.
 Proto, abychom zjistili, zda je stát oprávněně investován právem, musíme se zeptat, zda toto právo náleží jednotlivci na základě jejich organizace a v nepřítomnosti jakékoli vlády.

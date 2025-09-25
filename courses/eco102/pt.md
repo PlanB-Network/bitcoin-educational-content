@@ -1682,7 +1682,6 @@ Bastiat antecipa assim, com um século de antecedência, as análises do funcion
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Além disso, afirma Bastiat, o Estado não tem direitos que não existam previamente no indivíduo. Por que é que o Estado tem o direito de garantir, mesmo pela força, a propriedade de cada indivíduo? Simplesmente porque esse direito preexiste ao indivíduo. Não se pode negar ao indivíduo o direito à autodefesa, o direito de usar a força, se necessário, para repelir ataques contra a sua pessoa, as suas faculdades e as suas propriedades. Este direito natural de autodefesa, que reside em todos os cidadãos, pode assumir uma forma colectiva e legitimar a força comum.

@@ -1682,7 +1682,6 @@ Bastiat ennakoi näin vuosisata etukäteen poliittisten markkinoiden toimintaa k
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Lisäksi valtiolla ei ole Bastiat'n mukaan mitään oikeuksia, jotka eivät ensin olisi olemassa yksilössä. Miksi valtiolla on oikeus taata, vaikka väkisin, jokaisen yksilön omaisuus? Yksinkertaisesti siksi, että tämä oikeus on jo olemassa yksilössä. Yksilöiltä ei voida kieltää oikeutta itsepuolustukseen, oikeutta käyttää tarvittaessa voimakeinoja henkilöönsä, kykyihinsä ja omaisuuteensa kohdistuvien hyökkäysten torjumiseksi. Tämä luonnollinen oikeus itsepuolustukseen, joka on kaikilla kansalaisilla, voi saada kollektiivisen muodon ja oikeuttaa yhteisen voimankäytön.

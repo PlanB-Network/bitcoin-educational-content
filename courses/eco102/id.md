@@ -1130,7 +1130,6 @@ Dan karena tindakan Negara murni redistributif, ia tunduk pada tekanan dari kelo
 Dengan kata lain, Negara hanya mengejar tujuan klien, dan gagasan tentang kepentingan umum tidak memiliki makna. Setiap keuntungan yang diperoleh oleh beberapa orang adalah pada kerugian orang lain: ini bukan permainan nol-sum tetapi permainan sum negatif.
 Bastiat dengan demikian mengantisipasi, satu abad sebelumnya, analisis tentang fungsi pasar politik yang akan muncul pada akhir tahun 1950-an dengan sekolah Pilihan Publik yang disebut James Buchanan, Penerima Hadiah Nobel dalam Ekonomi, dan rekannya Gordon Tullock.
 ![image](assets/en/135.webp)
-![image](assets/en/136.webp)
 Lebih lanjut, Bastiat menegaskan, Negara tidak memiliki hak yang tidak terlebih dahulu ada pada individu. Mengapa Negara memiliki hak untuk menjamin, bahkan dengan kekuatan, properti setiap individu? Hanya karena hak ini sudah ada terlebih dahulu pada individu. Tidak bisa dipungkiri individu memiliki hak untuk membela diri, hak untuk menggunakan kekuatan jika perlu untuk menangkis serangan terhadap orang mereka, kemampuan mereka, dan properti mereka. Hak alami untuk membela diri ini, yang berada pada semua warga negara, dapat mengambil bentuk kolektif dan melegitimasi kekuatan bersama.
 
 Oleh karena itu, untuk mengetahui apakah Negara secara sah diberi hak, seseorang harus bertanya apakah hak ini berada pada individu berdasarkan organisasi mereka dan dalam ketiadaan pemerintahan.

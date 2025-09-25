@@ -1182,7 +1182,6 @@ Autrement dit l’État ne poursuit que des objectifs clientélistes et la notio
 Bastiat anticipe ainsi avec un siècle d’avance les analyses du fonctionnement du marché politique qui émergeront à la fin des années 50 avec l’école dite du Public Choice de James Buchanan, prix Nobel d’économie et son collègue Gordon Tullock.
 
 ![image](assets/en/135.webp)
-![image](assets/en/136.webp)
 
 De plus, affirme Bastiat, l’État n’a aucun droit qui ne préexiste d’abord dans l’individu. Pourquoi l'État a-t-il le droit de garantir, même par la force, la propriété de chacun ? Simplement parce que ce droit préexiste dans l'individu. On ne peut contester aux individus le droit de légitime défense, le droit d'employer la force au besoin pour repousser les atteintes dirigées contre leurs personnes, leurs facultés et leurs biens. Ce droit naturel de légitime défense qui réside en tous les citoyens, peut prendre une forme collective et légitimer la force commune.
 

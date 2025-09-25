@@ -1674,7 +1674,6 @@ Bastiat antycypuje w ten sposób, ze stuletnim wyprzedzeniem, analizy funkcjonow
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Co więcej, Bastiat twierdzi, że państwo nie ma żadnych praw, które nie istniałyby wcześniej w jednostce. Dlaczego państwo ma prawo zagwarantować, nawet siłą, własność każdej jednostki? Po prostu dlatego, że to prawo istnieje wcześniej w jednostce. Nie można odmówić jednostkom prawa do samoobrony, prawa do użycia siły, jeśli jest to konieczne do odparcia ataków na ich osoby, zdolności i własność. To naturalne prawo do samoobrony, które przysługuje wszystkim obywatelom, może przybrać formę zbiorową i legitymizować wspólną siłę.

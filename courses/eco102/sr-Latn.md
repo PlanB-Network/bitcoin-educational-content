@@ -1673,7 +1673,6 @@ Bastiat tako anticipira, vek unapred, analize funkcionisanja političkog tržiš
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Štaviše, Bastiat tvrdi, država nema prava koja prethodno ne postoje u pojedincu. Zašto država ima pravo da garantuje, čak i silom, imovinu svakog pojedinca? Jednostavno zato što ovo pravo prethodno postoji u pojedincu. Ne može se pojedincima uskratiti pravo na samoodbranu, pravo na upotrebu sile ako je potrebno da odbiju napade na svoje osobe, svoje sposobnosti i svoju imovinu. Ovo prirodno pravo na samoodbranu, koje postoji u svim građanima, može poprimiti kolektivni oblik i legitimizovati zajedničku silu.

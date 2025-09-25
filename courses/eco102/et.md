@@ -1682,7 +1682,6 @@ Bastiat ennetab seega sajandit varem poliitilise turu toimimise analüüse, mis 
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Lisaks väidab Bastiat, et riigil ei ole mingeid õigusi, mis ei ole kõigepealt olemas üksikisikus. Miks on riigil õigus tagada, isegi jõuga, iga üksikisiku vara? Lihtsalt sellepärast, et see õigus eksisteerib eelnevalt üksikisikus. Üksikisikutelt ei saa eitada õigust enesekaitsele, õigust kasutada vajadusel jõudu, et tõrjuda rünnakuid oma isiku, võimete ja vara vastu. See loomulik õigus enesekaitsele, mis on kõigil kodanikel, võib võtta kollektiivse vormi ja seadustada ühist jõudu.

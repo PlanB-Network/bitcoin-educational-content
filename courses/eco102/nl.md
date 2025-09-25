@@ -1675,7 +1675,6 @@ Bastiat loopt dus een eeuw vooruit op de analyses van de werking van de politiek
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Bovendien, beweert Bastiat, heeft de staat geen rechten die niet eerst in het individu bestaan. Waarom heeft de staat het recht om, zelfs met geweld, het eigendom van elk individu te garanderen? Simpelweg omdat dit recht al in het individu bestaat. Men kan individuen het recht op zelfverdediging niet ontzeggen, het recht om zo nodig geweld te gebruiken om aanvallen op hun personen, hun vermogens en hun eigendommen af te slaan. Dit natuurlijke recht op zelfverdediging, dat in alle burgers aanwezig is, kan een collectieve vorm aannemen en gemeenschappelijk geweld legitimeren.

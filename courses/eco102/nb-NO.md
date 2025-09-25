@@ -1682,7 +1682,6 @@ Bastiat foregriper dermed, hundre år i forveien, de analysene av det politiske 
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Dessuten, hevder Bastiat, har ikke staten noen rettigheter som ikke først eksisterer i individet. Hvorfor har staten rett til å garantere, selv med makt, hvert enkelt individs eiendom? Rett og slett fordi denne retten allerede eksisterer i individet. Man kan ikke nekte individer retten til selvforsvar, retten til om nødvendig å bruke makt for å avvise angrep mot deres person, deres evner og deres eiendom. Denne naturlige retten til selvforsvar, som ligger i alle borgere, kan ta en kollektiv form og legitimere felles maktbruk.

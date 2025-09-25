@@ -1675,7 +1675,6 @@ Kwa hivyo Bastiat anatarajia, karne moja kabla, uchambuzi wa utendakazi wa soko 
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Zaidi ya hayo, Bastiat anadai, Serikali haina haki ambazo hazipo kwanza kwa mtu binafsi. Kwa nini Serikali ina haki ya kudhamini, hata kwa nguvu, mali ya kila mtu binafsi? Kwa sababu tu haki hii ipo kwa mtu binafsi. Mtu hawezi kuwanyima watu haki ya kujilinda, haki ya kutumia nguvu ikiwa ni lazima kurudisha mashambulizi dhidi ya watu wao, uwezo wao na mali zao. Haki hii ya asili ya kujilinda, ambayo inakaa kwa wananchi wote, inaweza kuchukua fomu ya pamoja na kuhalalisha nguvu ya kawaida.

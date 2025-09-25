@@ -1682,7 +1682,6 @@ Do đó, Bastiat đã dự đoán trước một thế kỷ về các phân tíc
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Hơn nữa, Bastiat khẳng định, Nhà nước không có bất kỳ quyền nào mà không tồn tại trước tiên ở cá nhân. Tại sao Nhà nước lại có quyền bảo đảm, thậm chí bằng vũ lực, tài sản của mỗi cá nhân? Đơn giản là vì quyền này tồn tại trước ở cá nhân. Người ta không thể phủ nhận quyền tự vệ của cá nhân, quyền sử dụng vũ lực nếu cần thiết để đẩy lùi các cuộc tấn công vào thân thể, năng lực và tài sản của họ. Quyền tự vệ tự nhiên này, vốn có ở mọi công dân, có thể mang hình thức tập thể và hợp pháp hóa vũ lực chung.

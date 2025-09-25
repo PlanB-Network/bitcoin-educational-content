@@ -1675,7 +1675,6 @@ Bastiat föregriper därmed, ett sekel i förväg, de analyser av den politiska 
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Dessutom, hävdar Bastiat, har staten inga rättigheter som inte först existerar hos individen. Varför har staten rätt att garantera varje individs egendom, till och med med våld? Helt enkelt för att denna rättighet redan finns hos individen. Man kan inte förneka individer rätten till självförsvar, rätten att använda våld om det är nödvändigt för att avvärja angrepp mot deras person, deras förmågor och deras egendom. Denna naturliga rätt till självförsvar, som finns hos alla medborgare, kan ta sig en kollektiv form och legitimera gemensamt våld.

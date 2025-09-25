@@ -1157,7 +1157,6 @@ E poiché l'azione dello Stato è puramente redistributiva, è soggetta alla pre
 In altre parole, lo Stato persegue solo obiettivi clientelari, e la nozione di interesse generale è priva di significato. Qualsiasi guadagno ottenuto da alcuni è a spese degli altri: non è un gioco a somma zero ma a somma negativa.
 Bastiat anticipa così, un secolo in anticipo, le analisi sul funzionamento del mercato politico che sarebbero emerse alla fine degli anni '50 con la cosiddetta scuola di Public Choice di James Buchanan, Premio Nobel per l'Economia, e il suo collega Gordon Tullock.
 ![image](assets/en/135.webp)
-![image](assets/en/136.webp)
 
 Inoltre, Bastiat afferma, lo Stato non ha diritti che non preesistano prima nell'individuo. Perché lo Stato ha il diritto di garantire, anche con la forza, la proprietà di ogni individuo? Semplicemente perché questo diritto preesiste nell'individuo. Non si può negare agli individui il diritto alla legittima difesa, il diritto di usare la forza se necessario per respingere attacchi contro la loro persona, le loro facoltà e le loro proprietà. Questo diritto naturale di autodifesa, che risiede in tutti i cittadini, può assumere una forma collettiva e legittimare la forza comune.
 

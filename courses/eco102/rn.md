@@ -1675,7 +1675,6 @@ Bastiat rero ariteze, imbere y’imyaka ijana, isesengura ry’ingene isoko rya 
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Ikindi kandi, Bastiat yemeza ko Leta ata burenganzira ifise butabanza kubaho mu muntu ku giti ciwe. Ni kuki Leta ifise uburenganzira bwo kwishingira, mbere n’inguvu, umutungo w’umuntu wese? Kubera gusa ko ubwo burenganzira bubaho imbere y’igihe mu muntu ku giti ciwe. Umuntu ntashobora kwima abantu ku giti cabo uburenganzira bwo kwikingira, uburenganzira bwo gukoresha inguvu iyo bikenewe kugira ngo yirukane ibitero bikorerwa abantu babo, ubushobozi bwabo n’itunga ryabo. Ubwo burenganzira busanzwe bwo kwikingira, buba mu benegihugu bose, burashobora gufata uburyo rusangi, bugatuma inguvu rusangi zigira uburenganzira.

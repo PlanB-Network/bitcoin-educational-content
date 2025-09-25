@@ -1675,7 +1675,6 @@ Bastiat böylece, 1950'lerin sonunda Nobel Ekonomi Ödülü sahibi James Buchana
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Dahası Bastiat, Devletin bireyde önceden var olmayan hiçbir hakka sahip olmadığını ileri sürer. Devlet neden her bireyin mülkiyetini zorla da olsa garanti altına alma hakkına sahiptir? Basitçe, çünkü bu hak bireyde önceden mevcuttur. Bireylerin meşru müdafaa hakkı, şahıslarına, yetilerine ve mülklerine yönelik saldırıları püskürtmek için gerekirse güç kullanma hakkı inkar edilemez. Tüm vatandaşlarda bulunan bu doğal meşru müdafaa hakkı kolektif bir biçim alabilir ve ortak gücü meşrulaştırabilir.

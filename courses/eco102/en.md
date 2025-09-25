@@ -1143,7 +1143,6 @@ And since the action of the State is purely redistributive, it is subject to the
 In other words, the State only pursues clientelist objectives, and the notion of the general interest is devoid of meaning. Any gain obtained by some is at the expense of others: it is not a zero-sum game but a negative-sum game.
 Bastiat thus anticipates, a century in advance, the analyses of the political market's functioning that would emerge at the end of the 1950s with the so-called Public Choice school of James Buchanan, Nobel Prize in Economics, and his colleague Gordon Tullock.
 ![image](assets/en/135.webp)
-![image](assets/en/136.webp)
 
 Moreover, Bastiat asserts, the State has no rights that do not first preexist in the individual. Why does the State have the right to guarantee, even by force, the property of each individual? Simply because this right preexists in the individual. One cannot deny individuals the right to self-defense, the right to use force if necessary to repel attacks against their persons, their faculties, and their properties. This natural right of self-defense, which resides in all citizens, can take a collective form and legitimize common force.
 

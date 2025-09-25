@@ -277,7 +277,6 @@ Se Frédéric Bastiat deve la sua formazione economica a Smith, Destutt de Tracy
 
 ![image](assets/en/031.webp)
 
-![image](assets/en/032.webp)
 
 Charles Comte, cugino di Auguste Comte e genero di Say, è il fondatore della rivista. Fu presto raggiunto da Charles Dunoyer, un giurista come lui, e poi da un giovane storico, Augustin Thierry, ex segretario di Saint Simon. Il loro motto sulla prima pagina di ogni numero della rivista era "Pace e Libertà".
 

@@ -394,7 +394,6 @@ Tämä aikakauslehti (1814-1819), jonka nimi muutettiin Le Censeur européeniksi
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, Auguste Comten serkku ja Sayn vävy, on arvostelun perustaja. Hänen seuraansa liittyi pian Charles Dunoyer, joka oli hänen kaltaisensa juristi, ja sitten nuori historioitsija Augustin Thierry, Saint Simonin entinen sihteeri. Heidän tunnuslauseensa joka numeron etusivulla oli "Rauha ja vapaus".

@@ -269,8 +269,6 @@ This review (1814-1819), renamed Le Censeur européen after the Hundred Days, di
 
 ![image](assets/en/031.webp)
 
-![image](assets/en/032.webp)
-
 Charles Comte, cousin of Auguste Comte and son-in-law of Say, is the founder of the review. He was soon joined by Charles Dunoyer, a jurist like himself, and then by a young historian, Augustin Thierry, former secretary of Saint Simon. Their motto on the front page of each issue of the review was "Peace and Liberty".
 
 What is the goal of the review? The title speaks for itself: to censor the government. To fight against the arbitrariness of power by enlightening public opinion, to defend the freedom of the press.

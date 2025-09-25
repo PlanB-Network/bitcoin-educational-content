@@ -393,7 +393,6 @@ Tathmini hii (1814-1819), iliyopewa jina la Le Censeur européen baada ya Siku M
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, binamu wa Auguste Comte na mkwe wa Say, ndiye mwanzilishi wa ukaguzi huo. Muda si muda alijiunga na Charles Dunoyer, mwanasheria kama yeye, na kisha mwanahistoria kijana, Augustin Thierry, katibu wa zamani wa Saint Simon. Kauli mbiu yao kwenye ukurasa wa mbele wa kila toleo la mapitio ilikuwa "Amani na Uhuru".

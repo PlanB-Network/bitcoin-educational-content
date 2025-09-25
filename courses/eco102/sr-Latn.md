@@ -396,7 +396,6 @@ Ovaj časopis (1814-1819), preimenovan u Le Censeur européen nakon Sto dana (th
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, rođak Auguste-a Comte-a i zet Say-a, osnivač je recenzije. Ubrzo mu se pridružio Charles Dunoyer, pravnik poput njega, a zatim i mladi istoričar, Augustin Thierry, bivši sekretar Saint Simona. Njihov moto na naslovnoj strani svakog broja časopisa bio je "Mir i Sloboda".

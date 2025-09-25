@@ -393,7 +393,6 @@ Iryo suzuma (1814-1819), ryahinduwe izina ryitwa Le Censeur européen inyuma y�
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, muvyara wa Auguste Comte akaba n’umukwe wa Say, ni we yashinze iyo nkuru y’isubiramwo. Bidatevye, aca afatanywa na Charles Dunoyer, umuhinga mu vy’amategeko nka we, hanyuma aca afatanywa n’umuhinga mu vya kahise akiri muto yitwa Augustin Thierry, yahora ari umunyamabanga wa Simon mweranda. Icivugo cabo ku rupapuro rwa mbere rw'inomero yose y'isubiramwo cari "Amahoro n'Umwidegemvyo".

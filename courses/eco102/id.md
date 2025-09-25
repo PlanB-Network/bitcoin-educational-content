@@ -277,7 +277,6 @@ Ulasan ini (1814-1819), yang berganti nama menjadi Le Censeur européen setelah 
 
 ![image](assets/en/031.webp)
 
-![image](assets/en/032.webp)
 
 Charles Comte, sepupu dari Auguste Comte dan menantu dari Say, adalah pendiri ulasan tersebut. Ia segera bergabung dengan Charles Dunoyer, seorang yuris seperti dirinya, dan kemudian oleh seorang sejarawan muda, Augustin Thierry, mantan sekretaris Saint Simon. Moto mereka di halaman depan setiap edisi ulasan adalah "Damai dan Kebebasan".
 

@@ -394,7 +394,6 @@ Tidsskriftet (1814-1819), som etter de hundre dagene ble omdøpt til Le Censeur 
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, fetter av Auguste Comte og svigersønn av Say, er grunnleggeren av tidsskriftet. Han fikk snart selskap av Charles Dunoyer, en jurist som ham selv, og deretter av en ung historiker, Augustin Thierry, tidligere sekretær for Saint Simon. Deres motto på forsiden av hvert nummer av tidsskriftet var "Fred og frihet".

@@ -397,7 +397,6 @@ Przegląd ten (1814-1819), przemianowany po Stu Dniach na Le Censeur européen, 
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, kuzyn Auguste'a Comte'a i zięć Saya, jest założycielem przeglądu. Wkrótce dołączył do niego Charles Dunoyer, prawnik taki jak on sam, a następnie młody historyk Augustin Thierry, były sekretarz Saint-Simona. Ich motto na pierwszej stronie każdego wydania przeglądu brzmiało "Pokój i wolność".

@@ -273,7 +273,6 @@ Tento časopis (1814-1819), přejmenovaný na Le Censeur européen po Sto dních
 
 ![image](assets/en/031.webp)
 
-![image](assets/en/032.webp)
 
 Charles Comte, bratranec Augusta Comta a zeť Saya, je zakladatelem časopisu. Brzy se k němu přidal Charles Dunoyer, právník jako on, a poté mladý historik, Augustin Thierry, bývalý sekretář Saint Simona. Jejich heslo na titulní straně každého vydání časopisu bylo "Mír a Svoboda".
 

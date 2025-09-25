@@ -293,7 +293,6 @@ Cette revue (1814-1819), rebaptisée Le Censeur européen après les Cent Jours,
 
 ![image](assets/en/031.webp)
 
-![image](assets/en/032.webp)
 
 Charles Comte, cousin d’Auguste Comte et gendre de Say, est le fondateur de la revue. Il sera bientôt rejoint par Charles Dunoyer, un juriste comme lui, puis par un jeune historien, Augustin Thierry, ancien secrétaire de Saint Simon. Leur devise sur la une de chaque numéro de la revue était « Paix et Liberté ».
 

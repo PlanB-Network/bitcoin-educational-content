@@ -394,7 +394,6 @@ Diese Zeitschrift (1814-1819), die nach den Hundert Tagen in Le Censeur europée
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, Cousin von Auguste Comte und Schwiegersohn von Say, ist der Begründer der Zeitschrift. Ihm schlossen sich bald Charles Dunoyer, ein Jurist wie er selbst, und dann ein junger Historiker, Augustin Thierry, ehemaliger Sekretär von Saint-Simon, an. Ihr Motto auf der Titelseite jeder Ausgabe der Zeitschrift lautete "Frieden und Freiheit".

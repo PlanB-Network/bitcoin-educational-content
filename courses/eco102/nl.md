@@ -393,7 +393,6 @@ Dit tijdschrift (1814-1819), na de Honderd Dagen omgedoopt tot Le Censeur europ√
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, neef van Auguste Comte en schoonzoon van Say, is de oprichter van het tijdschrift. Hij werd al snel vergezeld door Charles Dunoyer, een jurist zoals hijzelf, en vervolgens door een jonge historicus, Augustin Thierry, voormalig secretaris van Saint Simon. Hun motto op de voorpagina van elk nummer van het tijdschrift was "Vrede en Vrijheid".

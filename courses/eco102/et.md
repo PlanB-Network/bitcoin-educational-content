@@ -394,7 +394,6 @@ See ajakiri (1814-1819), mis pärast Sada päeva nimetati ümber Le Censeur euro
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, Auguste Comte'i nõbu ja Say õepoeg, on ülevaate rajaja. Peagi liitusid temaga Charles Dunoyer, kes oli samasugune jurist nagu ta ise, ja seejärel noor ajaloolane Augustin Thierry, Saint Simoni endine sekretär. Nende moto ülevaate iga numbri esilehel oli "Rahu ja vabadus".

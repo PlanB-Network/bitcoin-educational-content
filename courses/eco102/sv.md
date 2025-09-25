@@ -393,7 +393,6 @@ Denna tidskrift (1814-1819), som efter de hundra dagarna döptes om till Le Cens
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, kusin till Auguste Comte och svärson till Say, är grundaren av tidskriften. Han fick snart sällskap av Charles Dunoyer, en jurist som han själv, och sedan av en ung historiker, Augustin Thierry, tidigare sekreterare hos Saint Simon. Deras motto på framsidan av varje nummer av tidskriften var "Fred och frihet".

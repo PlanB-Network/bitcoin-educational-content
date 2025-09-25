@@ -393,7 +393,6 @@ Yüz Gün'den sonra Le Censeur européen adını alan bu dergi (1814-1819), 1830
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Auguste Comte'un kuzeni ve Say'ın damadı olan Charles Comte, derginin kurucusudur. Çok geçmeden kendisi gibi bir hukukçu olan Charles Dunoyer ve ardından Saint Simon'un eski sekreteri genç tarihçi Augustin Thierry ona katıldı. Derginin her sayısının ön sayfasında yer alan sloganları "Barış ve Özgürlük" idi.

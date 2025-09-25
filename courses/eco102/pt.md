@@ -394,7 +394,6 @@ Esta revista (1814-1819), rebaptizada Le Censeur européen após os Cem Dias, di
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, primo de Augusto Comte e genro de Say, é o fundador da revista. A ele juntou-se Charles Dunoyer, jurista como ele, e depois um jovem historiador, Augustin Thierry, antigo secretário de Saint Simon. O seu lema, na primeira página de cada número da revista, é "Paz e Liberdade".

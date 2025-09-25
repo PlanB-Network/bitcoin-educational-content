@@ -394,7 +394,6 @@ Bài đánh giá này (1814-1819), được đổi tên thành Le Censeur europ�
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, anh họ của Auguste Comte và con rể của Say, là người sáng lập tạp chí. Ông sớm được Charles Dunoyer, một luật gia như ông, và sau đó là một sử gia trẻ tuổi, Augustin Thierry, cựu thư ký của Saint Simon, tham gia. Khẩu hiệu của họ trên trang nhất của mỗi số tạp chí là "Hòa bình và Tự do".

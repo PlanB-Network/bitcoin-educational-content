@@ -393,7 +393,6 @@ Destutt de Tracy 認為，財產必然源自我們的天性，源自我們的慾
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte 是 Auguste Comte 的表弟，也是 Say 的女婿，他是評論的創始人。不久，和他一樣是法學家的 Charles Dunoyer 和一位年輕的歷史學家，Saint Simon 的前秘書 Augustin Thierry 也加入了他的行列。他們在每期評論頭版的座右銘是 「和平與自由」。

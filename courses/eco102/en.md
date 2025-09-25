@@ -567,6 +567,7 @@ Then Bastiat shows that it is possible to improve the purchasing power of the wo
 Indeed, according to Bastiat, the progress of humanity coincides with the formation of capital. In his pamphlet titled Capital and Rent, Bastiat makes us understand this with Robinson Crusoe on his island.
 
 ![image](assets/en/073.webp)
+
 Without accumulated capital or materials, Robinson would be doomed to death. He then explains that capital enriches the worker in two ways:
 
 - It increases production, thus decreasing the price of goods for consumption;
@@ -608,6 +609,7 @@ But what is not seen is what the owner would have bought with that money, but wh
 Thus, there will be no more "stimulation" of the economy with the breaking of the window than without. However, there will have been a net loss in the first case: the value of the window.
 
 ![image](assets/en/075.webp)
+
 The first lesson to learn is that a "good" decision or a "good" policy is one that costs society less than what another allocation of resources could have cost. The effectiveness of a policy should be judged not only based on its effects but also on the basis of the alternatives that could have occurred. This is the concept of "opportunity cost," dear to Bastiat.
 
 The second lesson is that destruction does not stimulate the economy as Keynesians think but leads to impoverishment. The destruction of material goods does not have a positive effect on the economy, contrary to popular belief. To use the concluding words of Frédéric Bastiat's text: "society loses the value of the objects unnecessarily destroyed."
@@ -701,6 +703,7 @@ The economy describes the good or bad effects of political decisions on our live
 > F.Bastiat  
 
 ![image](assets/en/084.webp)
+
 From the outset, he refutes the still prevalent argument that public spending funded by taxes creates jobs. Indeed, taxes create nothing since what is spent by the state is no longer spent by taxpayers.
 
 Moreover, the state is more wasteful than individuals. Indeed, he reminds us, the state owns nothing; it produces no wealth. Public spending is often a source of waste because the immense sums confiscated from individuals escape the responsibility of their owners and are spent in their stead by bureaucrats, subject to pressure groups.
@@ -831,6 +834,7 @@ In 1958, American writer Leonard Read (Foundation for Economic Education) publis
 > I am a lead pencil, an ordinary wooden pencil familiar to all boys and girls and adults who can read and write. It is one of the simplest objects in human civilization. And yet not a single person on this earth knows how to produce me.  
 
 ![image](assets/en/097.webp)
+
 It revisits Bastiat's idea of an invisible cooperation among millions of individuals who do not know each other, leading to the construction of something as mundane as a pencil. No one knows how to make a pencil on their own. Yet, millions of human beings unknowingly participate in the creation of this simple pencil, exchanging and coordinating their knowledge and skills within a price system without any superior authority dictating their conduct. This story demonstrates that free individuals working in pursuit of their legitimate interest act more for the benefit of society than any planned and centralized economic strategy.
 
 The 1976 Nobel Prize in Economics, Milton Friedman, also revisited this pencil story to explain to the general public how the market economy works.
@@ -1079,6 +1083,7 @@ This idea that the right to property is a creation of the law thus leads, accord
 In the system of natural freedom, there exists a natural law, independent of the whims of legislators. It is valid for all men and predates any society. And it is the government's duty to ensure the natural rights of each individual. A just society is one in which property rights are fully respected, meaning protected against any interference from others.
 
 ![image](assets/en/120.webp)
+
 Here, Bastiat aligns himself with the legacy of the Physiocrats, and beyond that, with the tradition of the philosophy of law of Cicero and Aristotle. The law does not create rights. Its mission is to defend them and thus to defend property, both the property of oneself, the integrity of the person, and the property of the fruits of one's labor.
 
 ![image](assets/en/124.webp)
@@ -1110,6 +1115,7 @@ However, when the law ceases to be negative and becomes positive, the feeling of
 False philanthropy, Bastiat says, is one of the major causes of the perversion of the law. Some men consider themselves above the rest of humanity and capable of making better choices than others.
 
 ![image](assets/en/127.webp)
+
 They know better what is good for others and will impose their conception of good on everyone; these are the philanthropists. They have created false rights that are today called social rights. Social rights are nothing more than rights over the labor of others, rights to dispose of one's property, the fruit of one's labor: the right to housing, the right to health, to education, to work, to minimum wage, etc.
 
 What is plunder? It is the exact opposite of property, Bastiat tells us. To plunder comes from the Latin _spoliare_, which means to strip. We have seen that man can only live by appropriating things, by applying his faculties to things, that is, by working. Alas, he can also appropriate the product of the faculties of his fellow man, that is, to plunder him.

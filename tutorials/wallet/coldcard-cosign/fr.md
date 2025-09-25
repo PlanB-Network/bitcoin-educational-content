@@ -12,33 +12,33 @@ https://youtu.be/MjMPDUWWegw
 
 **A quoi sert ColdCard Co-Sign ?**
 
-Cette fonctionnalité permet d'ajouter des **conditions de dépenses** à votre appareil à la manière d'un Hardware Security Module (HSM), pour protéger vos fonds tout en gardant une bonne flexibilité et un contrôle appréciable sur ceux-ci.
+Cette fonctionnalité permet d'ajouter des **conditions de dépenses** à votre appareil ColdCard (Q ou Mk4) à la manière d'un Hardware Security Module (HSM), pour protéger vos fonds tout en gardant une bonne flexibilité et un contrôle appréciable sur ceux-ci.
 
 Les conditions de dépenses peuvent être par exemple:
 
 - **Des limites sur la magnitude**: plafonnez la quantité de Bitcoin que vous pouvez dépenser en une seule transaction.
 - **Des limites de vélocité:** décidez le nombre de transactions que vous pouvez réaliser par unité de temps (par heure /jour/semaine etc...), en exigeant un nombre minimal de blocs entre elles.
 - **Des adresses pré-autorisées:** Ne permettez d'envoyer vos Bitcoins que vers des adresses préalablement approuvées.
-- **Authentification à deux facteur:** Demande une confirmation de la part d'une application mobile tierce 2FA (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238))  sur une téléphone NFC avec accès internet.
+- **Authentification à deux facteur:** Demande une confirmation de la part d'une application mobile tierce 2FA (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238))  sur un smartphone / tablette NFC avec accès internet.
 
-Comment cela fonctionne ?
+**Comment cela fonctionne ?**
 
 En ajoutant une seconde seed à votre appareil ColdCard Mk4 ou Q, appelée "Spending Policy Key", que nous nommerons tout au long de ce tutoriel "Clé C".
-En plus de cette seed additionnelle, il vous sera demandé de fournir au moins une clé additionnelle (XPUB) que nous appellerons "Clé de backup" ou **"backup key"**, afin de créer au final un wallet multisig  2-sur-N.
+En plus de cette seed additionnelle, il vous sera demandé de fournir au moins une clé additionnelle (XPUB) que nous appellerons "Clé de Backup" ou "Backup Key", afin de créer au final un wallet multisig  2-sur-N.
 
 En synthèse nous allons créer un wallet multisig, et votre appareil ColdCard contiendra 2 des clées privées nécessaires pour dépenser les fonds, la master seed de l'appareil et la "Spending Policy Key".
-Comme la "Clé C" est sollicitée à chaque fois pour signer, alors les conditions de dépenses spécifiées s'appliqueront, et le ColdCard ne signera que si la transaction les respecte.
+A chaque fois que la "Clé C" sera sollicitée pour signer, alors les conditions de dépenses spécifiées s'appliqueront, et le ColdCard ne signera que si la transaction les respecte.
 
 Si vous souhaitez vous affranchir de ces conditions de dépense, vous pouvez le faire:
 - en signant avec l'une des clés de backup et la main seed, ou 2 clés de backups suivant la taille de votre multisig.
-- en renseignant la "Spending Policy Key" ou "Clé C". **Cette dernière n'est donc pas consultable directement sur l'appareil, autrement n'importe qui pourrait annuler les conditions de dépenses configurées.**
+- en renseignant la "Spending Policy Key" ou "Clé C" dans le menu dédié à "Co-Sign". **Cette dernière n'est donc pas consultable directement sur l'appareil, autrement n'importe qui pourrait annuler les conditions de dépenses configurées.**
 
 
 ## Configurer ColdCard Co-Sign
 
 https://youtu.be/MjMPDUWWegw
 
-### Activer la fonctionnalité
+### 1- Activer la fonctionnalité
 
 Premièrement veillez à ce que le firmware de votre appareil soit au moins en version:
 - Mk4: v 5.4.2
@@ -49,14 +49,14 @@ Sur votre Mk4 ou votre ColdCardQ, allez dans *Avanced Tools > ColdCard Co-Signin
 
 ![Co-Sign](assets/fr/01.webp)
 
-Dans le tutoriel qui va suivre les captures d'écran seront réalisées sur un ColdCardQ pour plus de praticité, mais les étapes et menus sont identiques entre le Mk4 et le Q.
+*Dans le tutoriel qui va suivre les captures d'écran seront réalisées sur un ColdCardQ pour plus de praticité, mais les étapes et menus sont identiques entre le Mk4 et le Q.*
 
 Un récapitulatif de la fonctionnalité vous est proposé.
 La terminologie permettant de désigner les clés, que nous reprendrons est dans le cadre du wallet multi-signature 2-sur-3 que nous nous apprêtons à créer est:
 
-A= Coldcard master seed
-B= Backup Key
-C= Spending Policy Key
+Clé A= Coldcard master seed
+Clé B= Backup Key
+Clé C= Spending Policy Key
 
 Cliquez sur **"ENTER"**.
 
@@ -77,7 +77,7 @@ La fonctionnalité "Co-Sign" est désormais activée sur l'appareil. Il va nous 
 
 ![Co-Sign](assets/fr/03.webp)
 
-### Choisir les conditions de dépenses ou "spending policies"
+### 2- Choisir les conditions de dépenses ou "spending policies"
 
 Ici nous allons spécifier les conditions de dépense qui devront être respectées lorsque la **"Clé C"** ou **"Spending Policy Key**" signera une transaction.
 Dans le menu **"Co-Signing"** cliquez sur **"Spending Policy**". 
@@ -93,14 +93,14 @@ Nous choisissons ensuite de régler la vélocité maximale, c'est à dire le nom
 
 ![Co-Sign](assets/fr/05.webp)
 
-### Créer le wallet multisig 2-sur-N
+### 3- Créer le wallet multisig 2-sur-N
 
-Il nous reste à choisir la troisième clé de notre wallet multisig c'est à dire la **"backup Key"** (Clé B), en plus de la **master seed** de l'appareil (Clé A) et de la **"Spending Policy Key"** (Clé C).
+Il nous reste à choisir la troisième clé de notre wallet multisig c'est à dire la **"Backup Key"** (Clé B), en plus de la **master seed** de l'appareil (Clé A) et de la **"Spending Policy Key"** (Clé C).
 
-Notre "Clé B" devra être importée soit via carte SD soit via QR code dans le cas du ColdCardQ.
+Notre "Clé B" devra être importée soit via carte SD, soit via QR code dans le cas du ColdCardQ.
 Pour ce faire nous aurons besoin d'un second appareil ColdCard Mk4 ou Q, sur lequel notre "Clé B" est utilisée. 
 
-Sur ce second appareil contenant votre **"backup key"**, disons un ColdCard Mk4 pour cet exemple, allez depuis le menu principal dans **"Settings"**, puis, **"Multisig Wallet"**, et enfin **"Export Xpub"**.
+Sur ce second appareil contenant votre **"Backup Key"**, disons un ColdCard Mk4 pour cet exemple, allez depuis le menu principal dans **"Settings"**, puis, **"Multisig Wallet"**, et enfin **"Export Xpub"**.
 (Si votre second appareil est un ColdCardQ vous aurez la possibilié de choisir d'exporter votre Xpub via QR code évidemment).
 
 
@@ -115,8 +115,8 @@ Le fichier contiendra l'empreinte digitale la clé publique (fingerprint) dans s
 
 ![Co-Sign](assets/fr/07.webp)
 
-Insérez ensuite la carte SD dans le ColdCardQ "initial" afin d'y importer notre "backup key" (clé B).
-Dans le menu "ColdCard Co-Signing" choisissez "Build 2-of-N", puis sur l'écran suivant cliquer sur **"ENTER"**, puis de nouveau **"ENTER"** pour importer la "backup key" depuis la carte SD.
+Insérez ensuite la carte SD dans le ColdCardQ "initial" afin d'y importer notre "Backup Key" (clé B).
+Dans le menu "ColdCard Co-Signing" choisissez "Build 2-of-N", puis sur l'écran suivant cliquer sur **"ENTER"**, puis de nouveau **"ENTER"** pour importer la "Backup Key" depuis la carte SD.
 
 ![Co-Sign](assets/fr/08.webp)
 
@@ -130,7 +130,15 @@ Clé A= Coldcard Q master seed
 Clé B= Backup Key (qu'on vient d'importer depuis un second appareil Coldcard)
 Clé C= Spending Policy Key (qui si elle est utilisée pour signer, impose les conditions de dépense prédéfinie)
 
-## Exporter le wallet multisig 2-sur-3 vers Sparrow Wallet 
+## Co-Sign avec Sparrow Wallet
+
+Si besoin référez-vous au tutoriels ci-dessous pour vous familiariser avec le logiciel Sparrow.
+
+[Plan ₿ Network - Sparrow Wallet](https://planb.network/fr/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+
+[Plan ₿ Network - Sparrow Wallet - Multisig](https://planb.network/fr/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f)
+
+### 1- Exporter le wallet multisig 2-sur-3 vers Sparrow Wallet 
 
 Il nous faut maintenant exporter notre wallet multisig vers Sparrow afin de pouvoir y déposer nos premiers satoshis.
 
@@ -162,11 +170,12 @@ Nous voilà parés pour recevoir nos premiers satoshis et tester les conditions 
 
 ![Co-Sign](assets/fr/16.webp)
 
-### Test des conditions de dépenses (spending policies) prédéfinies
+### 2- Test des conditions de dépenses (spending policies) prédéfinies
 
-Pour rappel nous avions décidé une magnitude maximum de 21212 satoshis pour notre wallet. C'est à dire qu'à chaque fois que la "Spending Policiy Key" (Key C) signerait un transaction  alors cette dernière ne serait valide que si le montant dépensé est inférieur ou égal à 21212.
+Pour rappel nous avions décidé une magnitude maximum de 21212 satoshis pour notre wallet multisig. C'est à dire qu'à chaque fois que la "Spending Policiy Key" (Key C) signerait une transaction, cette dernière ne serait valide que si le montant dépensé est inférieur ou égal à 21212 satoshis.
 
-Allons tester ça. Tout d'abord cliquons sur l'onglet "Receive" dans Sparrow et déposons quelques sats sur le wallet, qui nous serviront tout au long de ce tutoriel.
+Allons tester cela.
+Tout d'abord cliquons sur l'onglet "Receive" dans Sparrow et déposons quelques sats sur le wallet, qui nous serviront tout au long de ce tutoriel.
 
 ![Co-Sign](assets/fr/17.webp)
 
@@ -182,7 +191,7 @@ Puis essayons de dépenser davantage que les 21212 satoshis autorisés en simula
 
 ![Co-Sign](assets/fr/22.webp)
 
-Après avoir scanné le QR code avec notre ColdCardQ pour importer la transaction voilà ce qui nous est indiqué à l'écran. Un message d'avertissement nous indique que les conditions dépenses ne sont pas respectées. Si on signe la transaction quand même, alors seule une des 2 clés (la master seed de l'appareil) signera.
+Après avoir scanné le QR code représentant la transaction *non-signée* avec notre ColdCardQ pour importer la transaction, voilà ce qui nous est indiqué à l'écran. Un message d'avertissement nous indique que les conditions dépenses ne sont pas respectées. Si on signe la transaction quand même, alors seule une des 2 clés (la master seed de l'appareil, mais pas la "Clé C") signera.
 
 
 ![Co-Sign](assets/fr/23.webp)
@@ -214,16 +223,19 @@ Pas de problème cette fois, aucun message d'alerte n'apparait et quand on impor
 
 
 
-## Exporter le wallet multisig 2-sur-3 vers Nunchuk
+
+## Co-Sign avec Nunckuk
 
 [Plan ₿ Network - Nunchuk](https://planb.network/fr/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa)
+
+### 1- Web 2FA & adresses pré-autorisées (Whitelisted)
 
 Nous allons dans ce paragraphe utiliser notre wallet multisig Co-Sign avec Nunchuk, et en profitez pour appliquer de nouvelles conditions de dépenses pour voir comment cela se passe.
 
 Allons dans *Avanced Tools > ColdCard Co-Signing*.
-Là on nous demandera de rentrer notre "Spending Policy Key", afin d'accéder au menu nous permettant de changer les conditions de dépenses. Dans notre cas nous rentrons 12 x "beef".
+On nous demande de rentrer notre "Spending Policy Key", afin d'accéder au menu nous permettant de changer les conditions de dépenses. Dans notre cas nous rentrons 12 x "beef".
 
-Nous décidons de garder une "Limit Velocity" maximum pour des raisons pratiques liées à la réalisation de ce tutoriel. Par contre nous allons via le menu **"Whitelist Addresses"** imposer les adresses sur lesquelles pourrons être dépensés nos fonds.
+Nous décidons de garder une magnitude de 21212 sats, et une "Limit Velocity" maximum pour des raisons pratiques liées à la réalisation de ce tutoriel. Par contre nous allons via le menu **"Whitelist Addresses"** imposer les adresses sur lesquelles pourrons être dépensés nos fonds.
 
 
 ![Co-Sign](assets/fr/31.webp)
@@ -245,37 +257,39 @@ Cette fonctionnalité vous permet d'utiliser une application compatible TOTP RFC
 
 [Plan ₿ Network - Aegis Authenticator](https://planb.network/en/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc)
 
- Concrètement avant de signer une transaction vous devrez taper votre appareils comprenant l'application 2FA à votre Coldcard. Cela vous conduira automatiquement sur une page web sur coldcard.com, où il vous sera demandé d'entrer le code à 6 chiffres de votre application. Si vous entrez le bon code, la page web vous indiquera soit un QR code à scanner pour le ColdCardQ, soit un code à 8 chiffres qu'il faudra entrer sur votre Mk4, afin d'autoriser votre appareil à signer.
+ Concrètement avant de signer une transaction vous devrez taper votre appareil NFC et connecté à internet à votre Coldcard. Cela vous conduira automatiquement sur une page web sur coldcard.com, où il vous sera demandé d'entrer le code à 6 chiffres de votre application. Si vous entrez le bon code, la page web vous indiquera soit un QR code à scanner pour le ColdCardQ, soit un code à 8 chiffres qu'il faudra entrer sur votre Mk4, afin d'autoriser votre appareil à signer.
 
 
 
 ![Co-Sign](assets/fr/33.webp)
 
-Après avoir scanné le QR code affiché et ajouter votre compte ColdCard Co-Sign (CCC) dans votre app préférée, il vous sera classiquement demandé de vérifier que tout est en ordre en renseignant votre code 2FA.
+Après avoir scanné le QR code affiché depuis votre application de double authentification, et y avoir ajouté votre compte ColdCard Co-Sign (CCC), il vous sera classiquement demandé de vérifier que tout est en ordre en renseignant votre code 2FA.
 
 Taper votre ColdCard au dos de votre appareil NFC.
 
 ![Co-Sign](assets/fr/34.webp)
 
-Sur la page web qui s'ouvre, renseigner votre le code 2FA de votre application favorite. Puis scanné le QR code qui s'affiche avec votre ColdCardQ, ou renseignez dans votre Mk4 le code à 8 chiffres qui s'affiche.
+Sur la page web qui s'ouvre, renseigner votre le code 2FA de votre application favorite. Puis scannez le QR code qui s'affiche avec votre ColdCardQ, ou renseignez dans votre Mk4 le code à 8 chiffres qui s'affiche.
 
 ![Co-Sign](assets/fr/35.webp)
 
 
-Nous avons désormais imposée une limite sur la magnitude, les adresses de destinations, et la double authentification.
+Nous avons désormais imposée une limite sur la magnitude (21212 sats), les adresses de destinations, et la double authentification.
 
 ![Co-Sign](assets/fr/36.webp)
+
+### 2- Exporter le wallet multisig 2-sur-3 vers Nunchuk
 
 Exportons le wallet multisig 2-sur-3 dans Nunchuk cette fois, comme nous l'avons fait pour Sparrow précédemment.
 Allez dans *Settings > Multisig Wallets > 2/3: ColdCard Co-sign > ColdCard Export*.
 
 ![Co-Sign](assets/fr/10.webp)
 
-Cette fois choisissez pour l'export l'option NFC en cliquant sur le bouton du même nom **"NFC"**.
+Cette fois choisissez pour l'export l'option NFC en cliquant sur le bouton de votre ColdcardQ du même nom **"NFC"**.
 
 ![Co-Sign](assets/fr/37.webp)
 
-Dans Nunckuck, si vous ouvrez l'application pour la première fois, cliquez sur  **"Recover existing wallet"**
+Dans Nunckuck, si vous ouvrez l'application pour la première fois, cliquez sur  **"Recover existing wallet"**.
 
 ![Co-Sign](assets/fr/38.webp)
 
@@ -294,7 +308,9 @@ Enfin tapez le dos de votre smartphone à l'écran de votre ColdCardQ pour impor
 
 ![Co-Sign](assets/fr/42.webp)
 
-Essayons maintenant de réaliser une transaction qui viole 2 conditions de dépenses que nous avons fixés. Nous allons essayer de dépenser plus de 21212 sats vers une adresse qui n'a pas été approuvée. Essayons d'envoyer 22 222 sats vers une adresse aléatoire.
+### 3- Test des conditions de dépenses (spending policies) prédéfinies
+
+Essayons maintenant de réaliser une transaction qui viole les 2 conditions de dépenses que nous avons fixés. Nous allons essayer de dépenser plus de 21212 sats vers une adresse qui n'a pas été approuvée. Essayons d'envoyer 22 222 sats vers une adresse aléatoire.
 
 ![Co-Sign](assets/fr/43.webp)
 
@@ -306,7 +322,8 @@ Puis choisissez **"Export via BBQR"**, et scannez le QR code affiché à l'aide 
 
 ![Co-Sign](assets/fr/45.webp)
 
-Votre ColdcardQ vous affiche un avertissement, qui si on fait défiler l'écran jusqu'en bas, nous indique que notre transaction viole les conditions de dépense comme attendu. On voit par exemple que l'appareil ne nous indique pas le détail des conditions de dépenses non respectées, pour éviter qu'un éventuel attaquant ait accès au détail des transactions de dépenses configurées.
+Votre ColdcardQ vous affiche un avertissement, qui si on fait défiler l'écran jusqu'en bas, nous indique que notre transaction viole les conditions de dépense comme attendu.
+On remarque que l'appareil ne nous indique pas de quelles conditions de dépenses il s'agit, pour éviter qu'un éventuel attaquant puisse essayer de contourner les restrictions.
 
 
 ![Co-Sign](assets/fr/46.webp)
@@ -327,8 +344,8 @@ On envoie 12121 sats à une une de nos 2 adresses. Puis on exporte la transactio
 ![Co-Sign](assets/fr/49.webp)
 
 
-Après avoir importé la transaction sur notre ColdCardQ, voyons voir ce qui nous est indiqué.
-On voit qu'un warning est toujours présent mais cette fois si on fait défiler l'écran jusqu'en bas on se rend compte qu'il s'agit ici de valider la transaction via le 2FA. Il nous est demandé de taper notre ColdCardQ à notre appareil NFC connecté à internet, ce que nous faisons.
+Après avoir importé la transaction non signée sur notre ColdCardQ, voyons voir ce qui nous est indiqué.
+On voit qu'un warning est toujours présent mais cette fois, si on fait défiler l'écran jusqu'en bas on se rend compte qu'il s'agit désormais de valider la transaction via le 2FA. Il nous est demandé de taper notre ColdCardQ à notre appareil NFC connecté à internet, ce que nous faisons.
 
 ![Co-Sign](assets/fr/50.webp)
 
@@ -338,8 +355,10 @@ Une page web s'ouvre sur notre smartphone sur laquelle on nous demande de rentre
 
 
 
-Puis scannez le code QR qui apparait pour signer la transaction. LA trnasaction est désormais siggnée par les 2 clés et donc valide.
-Si la fonctionnalité "Push Tx" est activé sur votre ColdCardQ vous broadcaster sur le réseau par un simple tap au dos de votre smartphone. 
+Puis scannez le code QR qui apparait sur la page Web, pour autoriser votre ColdCard à signer la transaction.
+La transaction est désormais signée par les 2 clés et donc valide.
+
+Si la fonctionnalité "Push Tx" est activé sur votre ColdCardQ vous pouvez directement diffuser la transaction sur le réseau par un simple tap au dos de votre smartphone. 
 
 ![Co-Sign](assets/fr/52.webp)
 

@@ -1222,11 +1222,13 @@ The lesson that Reagan taught his employees, following Bastiat, is that there is
 It was notably John Maynard Keynes who suggested that public spending increased production due to a multiplier: if the government builds a bridge, the workers of that bridge will be able to buy bread, then the baker can buy shoes, and so on. If private industry is in decline, it can be remedied by major works. If there is unemployment, the State can create public jobs.
 
 But as Bastiat aptly demonstrated, state intervention has perverse effects that are not seen. Only a good economist is capable of foreseeing them. Let's take an example: It is an illusion to believe that the government can "create jobs" because for every public job created, it destroys a job in the market. Indeed, public jobs are paid for by taxes. Public jobs are not created; they are perceived. Every penny spent by the State must necessarily be obtained through a penny of tax or debt.
+
 ![image](assets/en/142.webp)
 
 If we look at things from this angle, Reagan explained to GE employees, the so-called miracles of state spending appear in a completely different light. Because taxes discourage production, and the wealth created by public spending cannot fully compensate for those that were prevented from being born by the taxes levied to pay for these expenses.
 
 ![image](assets/en/138.webp)
+
 In essence, Reagan took from Bastiat several key elements of a liberal vision of society and man: the primacy of civil society over the State, the value of choice and individual responsibility, the importance of the entrepreneur in wealth creation, the importance of a flexible and minimal legal framework, which allows for trust and respect for contracts, the fundamental law that wealth must be created before it can be distributed, the desire to give everyone a chance in competitive markets…
 
 # Final Section

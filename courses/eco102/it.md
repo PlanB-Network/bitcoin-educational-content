@@ -1215,7 +1215,6 @@ Ma come Bastiat ha abilmente dimostrato, l'intervento dello Stato ha effetti per
 
 Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della GE, i cosiddetti miracoli della spesa pubblica appaiono sotto una luce completamente diversa. Poiché le tasse scoraggiano la produzione, e la ricchezza creata dalla spesa pubblica non può compensare pienamente quelle che sono state impediti di nascere dalle tasse imposte per pagare queste spese.
 
-![image](assets/en/138.webp)
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
 

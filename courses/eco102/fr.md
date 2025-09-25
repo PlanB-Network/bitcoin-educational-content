@@ -1250,7 +1250,6 @@ Mais comme l’a bien montré Bastiat, l’intervention de l’État a des effet
 
 Si nous envisageons les choses sous cet angle, expliquait Reagan aux employés de GE, les soi-disant miracles des dépenses de l'État nous apparaissent sous un tout autre jour. Car les impôts découragent la production et les richesses créées par les dépenses publiques ne peuvent compenser pleinement celles qu'auront empêché de naître les impôts prélevés pour payer ces dépenses.
 
-![image](assets/en/138.webp)
 
 En substance, Reagan a retenu de Bastiat quelques éléments clés d’une vision libérale de la société et de l’homme : le primat de la société civile sur l’État, la valeur du choix et de la responsabilité individuelle, l’importance de l’entrepreneur dans création de richesses, l’importance d’un cadre légal souple et minimal, qui permette la confiance et le respect des contrats, la loi fondamentale qui veut que la richesse soit créée avant d’être répartie, la volonté de donner à chacun sa chance sur des marchés concurrentiels…
 

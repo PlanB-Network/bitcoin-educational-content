@@ -1772,7 +1772,6 @@ Mutta kuten Bastiat osuvasti osoitti, valtion väliintulolla on kieroutuneita va
 Jos tarkastelemme asioita tästä näkökulmasta, Reagan selitti GE:n työntekijöille, valtion menojen niin sanotut ihmeet näyttäytyvät aivan eri valossa. Verot nimittäin lannistavat tuotantoa, eivätkä julkisten menojen luomat vauraudet voi täysin korvata niitä, joiden syntymisen estivät näiden menojen maksamiseksi kerätyt verot.
 
 
-![image](assets/en/138.webp)
 
 
 Pohjimmiltaan Reagan otti Bastiat'lta useita liberaalin yhteiskunta- ja ihmiskäsityksen keskeisiä Elements:tta: kansalaisyhteiskunnan ensisijaisuus valtioon nähden, valinnanvapauden ja yksilön vastuun arvostus, yrittäjän merkitys vaurauden luomisessa, joustavan ja minimaalisen oikeudellisen kehyksen merkitys, joka mahdollistaa luottamuksen ja sopimusten kunnioittamisen, peruslaki, jonka mukaan vaurauden on synnyttävä, ennen kuin sitä voidaan jakaa, halu antaa kaikille mahdollisuus kilpailullisilla markkinoilla...

@@ -1764,7 +1764,6 @@ Lakini kama Bastiat alivyoonyesha ipasavyo, uingiliaji kati wa serikali una atha
 Ikiwa tunaangalia mambo kutoka kwa pembe hii, Reagan alielezea wafanyakazi wa GE, miujiza inayoitwa ya matumizi ya serikali inaonekana kwa mwanga tofauti kabisa. Kwa sababu ushuru hukatisha tamaa uzalishaji, na utajiri unaotokana na matumizi ya umma hauwezi kufidia kikamilifu wale ambao walizuiwa kuzaliwa na ushuru unaotozwa kulipia gharama hizi.
 
 
-![image](assets/en/138.webp)
 
 Kimsingi, Reagan alichukua kutoka kwa Bastiat kadhaa muhimu vipengele vya maono huria ya jamii na mwanadamu: ukuu wa asasi za kiraia juu ya serikali, thamani ya uchaguzi na uwajibikaji wa mtu binafsi, umuhimu wa mfanyabiashara katika kuunda utajiri, umuhimu wa mfumo wa kisheria unaobadilika na mdogo, ambao unaruhusu uaminifu na heshima kwa mikataba, sheria ya msingi kwamba utajiri lazima uundwe kabla ya kugawanywa kwa kila mtu.
 

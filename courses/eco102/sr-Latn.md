@@ -1762,7 +1762,6 @@ Ali kao što je Bastiat prikladno pokazao, državna intervencija ima perverzne e
 Ako posmatramo stvari iz ovog ugla, objasnio je Reagan zaposlenima u GE, takozvana čuda državne potrošnje izgledaju potpuno drugačije. Jer porezi obeshrabruju proizvodnju, a bogatstvo stvoreno javnom potrošnjom ne može u potpunosti nadoknaditi ono koje je sprečeno da se rodi zbog poreza uvedenih za plaćanje ovih troškova.
 
 
-![image](assets/en/138.webp)
 
 U suštini, Reagan je preuzeo od Bastiat-a nekoliko ključnih elemenata liberalne vizije društva i čoveka: primat civilnog društva nad državom, vrednost izbora i individualne odgovornosti, važnost preduzetnika u stvaranju bogatstva, važnost fleksibilnog i minimalnog pravnog okvira, koji omogućava poverenje i poštovanje ugovora, fundamentalni zakon da bogatstvo mora biti stvoreno pre nego što može biti raspodeljeno, želju da se svima pruži šansa na konkurentnim tržištima…
 

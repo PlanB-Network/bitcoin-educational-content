@@ -1772,7 +1772,6 @@ Pero, como demostró acertadamente Bastiat, la intervención del Estado tiene ef
 Si miramos las cosas desde este ángulo, explicó Reagan a los empleados de GE, los llamados milagros del gasto estatal aparecen bajo una luz completamente diferente. Porque los impuestos desincentivan la producción, y la riqueza creada por el gasto público no puede compensar plenamente la que se impidió que naciera por los impuestos recaudados para pagar esos gastos.
 
 
-![image](assets/en/138.webp)
 
 
 En esencia, Reagan tomó de Bastiat varios Elements clave de una visión liberal de la sociedad y el hombre: la primacía de la sociedad civil sobre el Estado, el valor de la elección y la responsabilidad individual, la importancia del empresario en la creación de riqueza, la importancia de un marco jurídico flexible y mínimo, que permita la confianza y el respeto de los contratos, la ley fundamental de que la riqueza debe crearse antes de poder distribuirse, el deseo de dar a todos una oportunidad en mercados competitivos..

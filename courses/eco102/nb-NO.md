@@ -1772,7 +1772,6 @@ Men som Bastiat så treffende demonstrerte, har statlige inngrep perverse effekt
 Hvis vi ser på tingene fra denne vinkelen, forklarte Reagan til de GE-ansatte, fremstår de såkalte miraklene med statlige utgifter i et helt annet lys. Skatter motvirker nemlig produksjon, og den velstanden som skapes av offentlige utgifter, kan ikke fullt ut kompensere for den velstanden som ble forhindret fra å bli født av skattene som ble tatt inn for å betale for disse utgiftene.
 
 
-![image](assets/en/138.webp)
 
 
 I bunn og grunn overtok Reagan fra Bastiat flere sentrale Elements i et liberalt syn på samfunnet og mennesket: sivilsamfunnets forrang over staten, verdien av valgfrihet og individuelt ansvar, entreprenørens betydning for verdiskapningen, viktigheten av et fleksibelt og minimalt juridisk rammeverk, som gir rom for tillit og respekt for kontrakter, den grunnleggende loven om at rikdom må skapes før den kan fordeles, ønsket om å gi alle en sjanse i konkurranseutsatte markeder..

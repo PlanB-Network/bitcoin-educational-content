@@ -1764,7 +1764,6 @@ Ancak Bastiat'nın yerinde bir şekilde gösterdiği gibi, devlet müdahalesinin
 Reagan'ın GE çalışanlarına açıkladığı gibi, olaylara bu açıdan bakarsak, devlet harcamalarının sözde mucizeleri tamamen farklı bir ışık altında görünür. Çünkü vergiler üretimi caydırır ve kamu harcamalarının yarattığı zenginlik, bu harcamaları ödemek için alınan vergiler tarafından doğması engellenenleri tam olarak telafi edemez.
 
 
-![image](assets/en/138.webp)
 
 Özünde Reagan, Bastiat'dan liberal bir toplum ve insan vizyonunun bazı kilit Elements'lerini aldı: sivil toplumun devlete önceliği, seçimin ve bireysel sorumluluğun değeri, zenginlik yaratmada girişimcinin önemi, güvene ve sözleşmelere saygıya izin veren esnek ve minimal bir yasal çerçevenin önemi, servetin dağıtılmadan önce yaratılması gerektiği temel yasası, rekabetçi piyasalarda herkese bir şans verme arzusu..
 

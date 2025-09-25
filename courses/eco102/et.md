@@ -1772,7 +1772,6 @@ Kuid nagu Bastiat tabavalt näitas, on riigi sekkumisel perversne mõju, mida ei
 Kui me vaatame asju selle nurga alt, selgitas Reagan GE töötajatele, siis ilmnevad riigi kulutuste nn imed hoopis teises valguses. Sest maksud pärsivad tootmist ja riiklike kulutustega loodud jõukus ei suuda täielikult kompenseerida neid, mida nende kulutuste tasumiseks kogutud maksud ei võimaldanud sündida.
 
 
-![image](assets/en/138.webp)
 
 
 Sisuliselt võttis Reagan Bastiat'lt mitmeid liberaalse ühiskonna- ja inimesekäsitluse põhilisi Elements: kodanikuühiskonna ülimuslikkus riigi ees, valikuvõimaluste ja individuaalse vastutuse väärtus, ettevõtja tähtsus rikkuse loomisel, paindliku ja minimaalse õigusliku raamistiku tähtsus, mis võimaldab usaldust ja lepingute austamist, põhiseadus, et rikkus tuleb luua enne selle jagamist, soov anda kõigile võimalus konkureerivatel turgudel..

@@ -1764,7 +1764,6 @@ Ariko nk’uko Bastiat yavyerekanye neza, ukugira ico Leta ikora biragira ingaru
 Turavye ibintu muri iyo nzira, Reagan yasiguriye abakozi ba GE, ivyo bita ibitangaro vy’amahera Leta ikoresha bigaragara mu buryo butandukanye rwose. Kuko imisoro igabanya ubushobozi bwo gukora, kandi ubutunzi buvugwa n’amahera Leta ikoresha ntibushobora gusubiza bimwe bishitse ivyo bwabujijwe kuvuka n’imisoro yashizweho kugira ngo umuntu yishure ayo mahera.
 
 
-![image](assets/en/138.webp)
 
 Mu vy’ukuri, Reagan yafashe kuri Bastiat ingingo nyinshi z’ingenzi zijanye n’iyerekwa ry’ubwigenge ry’imibano n’abantu: ubukuru bw’imibano ku gihugu, agaciro k’uguhitamwo n’inshingano z’umuntu ku giti ciwe, akamaro k’rwiyemezamirimo mu kurema ubutunzi, akamaro k’amasezerano y’ishimikiro y’amategeko, ategerezwa kwemerera ubutunzi kuba imbere y'uko ishobora gukwiragizwa, icipfuzo co guha umuntu wese amahirwe mu masoko y'amahiganwa...
 

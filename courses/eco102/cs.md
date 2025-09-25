@@ -1169,7 +1169,6 @@ Zvláště John Maynard Keynes navrhoval, že veřejné výdaje zvyšují produk
 Ale jak Bastiat trefně ukázal, státní zásah má perversní účinky, které nejsou vidět. Jen dobrý ekonom je schopen je předvídat. Vezměme si příklad: Je to iluze věřit, že vláda může "vytvářet pracovní místa", protože za každé veřejné pracovní místo vytvořené zničí pracovní místo na trhu. Ve skutečnosti jsou veřejná pracovní místa placena z daní. Veřejná pracovní místa nejsou vytvořena; jsou vnímána. Každá koruna utracená státem musí být nutně získána prostřednictvím koruny daně nebo dluhu.
 ![image](assets/en/142.webp)
 Pokud se na věci podíváme z tohoto úhlu, vysvětloval Reagan zaměstnancům GE, takzvané zázraky státních výdajů se jeví v úplně jiném světle. Protože daně odradí od produkce a bohatství vytvořené veřejnými výdaji nemůže plně kompenzovat ty, které byly zabráněny vzniknout daněmi vybíranými na pokrytí těchto výdajů.
-![obrázek](assets/test/143.webp)
 Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liberální vize společnosti a člověka: primát občanské společnosti nad státem, hodnotu volby a individuální odpovědnosti, důležitost podnikatele ve tvorbě bohatství, význam flexibilního a minimálního právního rámce, který umožňuje důvěru a respektování smluv, základní zákon, že bohatství musí být vytvořeno, než může být rozděleno, touhu dát každému šanci na konkurenčních trzích…
 
 # Sekce finále

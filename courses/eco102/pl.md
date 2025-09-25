@@ -1763,7 +1763,6 @@ Ale jak trafnie wykazał Bastiat, interwencja państwa ma przewrotne skutki, kt�
 Jeśli spojrzymy na sprawy z tej perspektywy, wyjaśnił Reagan pracownikom GE, tak zwane cuda wydatków państwowych ukazują się w zupełnie innym świetle. Ponieważ podatki zniechęcają do produkcji, a bogactwo stworzone przez wydatki publiczne nie może w pełni zrekompensować tych, których narodziny uniemożliwiły podatki nałożone na pokrycie tych wydatków.
 
 
-![image](assets/en/138.webp)
 
 Zasadniczo Reagan przejął od Bastiata kilka kluczowych Elements liberalnej wizji społeczeństwa i człowieka: prymat społeczeństwa obywatelskiego nad państwem, wartość wyboru i indywidualnej odpowiedzialności, znaczenie przedsiębiorcy w tworzeniu bogactwa, znaczenie elastycznych i minimalnych ram prawnych, które pozwalają na zaufanie i poszanowanie umów, podstawowe prawo, że bogactwo musi zostać stworzone, zanim będzie można je rozdzielić, chęć dania każdemu szansy na konkurencyjnych rynkach..
 

@@ -1772,7 +1772,6 @@ Mas, como Bastiat bem demonstrou, a intervenção do Estado tem efeitos perverso
 Se virmos as coisas por este prisma, explicou Reagan aos empregados da GE, os pretensos milagres das despesas do Estado aparecem sob uma luz completamente diferente. Porque os impostos desincentivam a produção e as riquezas criadas pela despesa pública não podem compensar totalmente as que foram impedidas de nascer pelos impostos cobrados para pagar essas despesas.
 
 
-![image](assets/en/138.webp)
 
 
 Essencialmente, Reagan tomou de Bastiat vários Elements fundamentais de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empresário na criação de riqueza, a importância de um quadro jurídico flexível e mínimo, que permita a confiança e o respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes de poder ser distribuída, o desejo de dar a todos uma oportunidade em mercados competitivos..

@@ -1202,8 +1202,6 @@ But as Bastiat aptly demonstrated, state intervention has perverse effects that 
 
 If we look at things from this angle, Reagan explained to GE employees, the so-called miracles of state spending appear in a completely different light. Because taxes discourage production, and the wealth created by public spending cannot fully compensate for those that were prevented from being born by the taxes levied to pay for these expenses.
 
-![image](assets/en/138.webp)
-
 In essence, Reagan took from Bastiat several key elements of a liberal vision of society and man: the primacy of civil society over the State, the value of choice and individual responsibility, the importance of the entrepreneur in wealth creation, the importance of a flexible and minimal legal framework, which allows for trust and respect for contracts, the fundamental law that wealth must be created before it can be distributed, the desire to give everyone a chance in competitive markets…
 
 # Final Section

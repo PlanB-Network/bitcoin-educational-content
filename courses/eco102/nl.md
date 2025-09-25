@@ -1764,7 +1764,6 @@ Maar zoals Bastiat treffend aantoonde, heeft staatsinterventie perverse effecten
 Als we de zaken vanuit deze hoek bekijken, legde Reagan uit aan GE-werknemers, komen de zogenaamde wonderen van de staatsuitgaven in een heel ander daglicht te staan. Want belastingen ontmoedigen productie en de welvaart die wordt gecreëerd door overheidsuitgaven kan niet volledig de welvaart compenseren die werd voorkomen door de belastingen die werden geheven om deze uitgaven te betalen.
 
 
-![image](assets/en/138.webp)
 
 In essentie nam Reagan van Bastiat verschillende belangrijke Elements over van een liberale visie op de maatschappij en de mens: het primaat van de burgermaatschappij boven de staat, de waarde van keuze en individuele verantwoordelijkheid, het belang van de ondernemer bij het creëren van rijkdom, het belang van een flexibel en minimaal wettelijk kader dat vertrouwen en respect voor contracten mogelijk maakt, de fundamentele wet dat rijkdom moet worden gecreëerd voordat het kan worden verdeeld, de wens om iedereen een kans te geven in concurrerende markten..
 

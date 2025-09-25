@@ -1772,7 +1772,6 @@ Nhưng như Bastiat đã chứng minh một cách khéo léo, sự can thiệp c
 Nếu nhìn nhận vấn đề từ góc độ này, Reagan giải thích với nhân viên GE, cái gọi là phép màu của chi tiêu công lại hiện ra dưới một góc nhìn hoàn toàn khác. Bởi vì thuế làm giảm sản xuất, và của cải tạo ra từ chi tiêu công không thể bù đắp hoàn toàn cho những người không được hưởng lợi từ thuế đánh vào các chi phí này.
 
 
-![image](assets/en/138.webp)
 
 
 Về bản chất, Reagan đã lấy từ Bastiat một số điểm chính của Elements về tầm nhìn tự do về xã hội và con người: tính ưu việt của xã hội dân sự so với Nhà nước, giá trị của sự lựa chọn và trách nhiệm cá nhân, tầm quan trọng của doanh nhân trong việc tạo ra của cải, tầm quan trọng của khuôn khổ pháp lý linh hoạt và tối thiểu, cho phép tin tưởng và tôn trọng hợp đồng, luật cơ bản rằng của cải phải được tạo ra trước khi có thể phân phối, mong muốn trao cho mọi người cơ hội trong thị trường cạnh tranh…

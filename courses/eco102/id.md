@@ -1187,7 +1187,6 @@ Namun, seperti yang dengan tepat ditunjukkan oleh Bastiat, intervensi negara mem
 
 Jika kita melihat hal-hal dari sudut pandang ini, Reagan menjelaskan kepada karyawan GE, keajaiban-keajaiban yang disebut dari pengeluaran negara tampak dalam cahaya yang sepenuhnya berbeda. Karena pajak menghambat produksi, dan kekayaan yang diciptakan oleh pengeluaran publik tidak dapat sepenuhnya menggantikan mereka yang dicegah untuk lahir oleh pajak yang dikenakan untuk membayar pengeluaran ini.
 
-![image](assets/en/138.webp)
 
 Pada intinya, Reagan mengambil dari Bastiat beberapa elemen kunci dari visi liberal masyarakat dan manusia: supremasi masyarakat sipil atas Negara, nilai pilihan dan tanggung jawab individu, pentingnya pengusaha dalam penciptaan kekayaan, pentingnya kerangka hukum yang fleksibel dan minimal, yang memungkinkan kepercayaan dan penghormatan terhadap kontrak, hukum fundamental bahwa kekayaan harus diciptakan sebelum dapat didistribusikan, keinginan untuk memberikan kesempatan kepada semua orang di pasar yang kompetitif…
 

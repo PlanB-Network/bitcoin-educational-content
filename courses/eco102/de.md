@@ -1772,7 +1772,6 @@ Doch wie Bastiat treffend darlegte, haben staatliche Eingriffe perverse Auswirku
 Wenn wir die Dinge aus diesem Blickwinkel betrachten, erklärte Reagan den GE-Mitarbeitern, erscheinen die so genannten Wunder der Staatsausgaben in einem ganz anderen Licht. Denn Steuern entmutigen die Produktion, und der durch die öffentlichen Ausgaben geschaffene Reichtum kann nicht in vollem Umfang diejenigen kompensieren, die durch die zur Deckung dieser Ausgaben erhobenen Steuern verhindert wurden.
 
 
-![image](assets/en/138.webp)
 
 
 Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüssel-Elements einer liberalen Vision von Gesellschaft und Mensch: den Vorrang der Zivilgesellschaft vor dem Staat, den Wert von Wahlmöglichkeiten und individueller Verantwortung, die Bedeutung des Unternehmers bei der Schaffung von Wohlstand, die Bedeutung eines flexiblen und minimalen Rechtsrahmens, der Vertrauen und die Einhaltung von Verträgen ermöglicht, das Grundgesetz, dass Wohlstand erst geschaffen werden muss, bevor er verteilt werden kann, den Wunsch, jedem eine Chance auf wettbewerbsfähigen Märkten zu geben..

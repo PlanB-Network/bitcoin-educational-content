@@ -1712,7 +1712,6 @@ Podsumowując, gdy rząd wykracza poza swoją misję obrony ludzi i własności,
 Napisał Frédéric Bastiat w krótkim pamflecie zatytułowanym Państwo.
 
 
-![image](assets/en/138.webp)
 
 
 ## Dziedzictwo Frédérica Bastiata

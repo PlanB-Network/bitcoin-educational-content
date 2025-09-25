@@ -1713,7 +1713,6 @@ Bastiat 一開始就推翻了一個普遍接受的等式：是國家維繫了國
 Frédéric Bastiat 在一本名為《國家》的小冊子中寫道。
 
 
-![image](assets/en/138.webp)
 
 
 ## Frédéric Bastiat 的遺產

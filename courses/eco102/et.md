@@ -1720,7 +1720,6 @@ Kokkuvõttes, kui valitsus ületab oma ülesannet kaitsta inimesi ja omandit, ju
 Kirjutas Frédéric Bastiat lühikeses pamfletis pealkirjaga "Riik".
 
 
-![image](assets/en/138.webp)
 
 
 ## Frédéric Bastiat' pärand

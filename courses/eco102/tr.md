@@ -1713,7 +1713,6 @@ Bir fonksiyon yaratmak istiyorsanız, faydasını kanıtlayın. Sağladığı hi
 Frédéric Bastiat, Devlet başlıklı kısa bir broşürde yazdı.
 
 
-![image](assets/en/138.webp)
 
 
 ## Frédéric Bastiat'nın Mirası

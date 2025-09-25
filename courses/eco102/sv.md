@@ -1713,7 +1713,6 @@ Sammanfattningsvis kan sägas att när en regering överträder sitt uppdrag att
 Skrev Frédéric Bastiat i en kort pamflett med titeln Staten.
 
 
-![image](assets/en/138.webp)
 
 
 ## Arvet efter Frédéric Bastiat

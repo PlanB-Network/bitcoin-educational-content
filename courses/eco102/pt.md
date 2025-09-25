@@ -1720,7 +1720,6 @@ Em resumo, quando um governo ultrapassa a sua missão de defender as pessoas e a
 Escreveu Frédéric Bastiat num pequeno panfleto intitulado O Estado.
 
 
-![image](assets/en/138.webp)
 
 
 ## O legado de Frédéric Bastiat

@@ -1169,8 +1169,6 @@ In summary, when a government oversteps its mission of defending people and prop
 
 Wrote Frédéric Bastiat in a short pamphlet titled The State.
 
-![image](assets/en/138.webp)
-
 ## The Legacy of Frédéric Bastiat
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>

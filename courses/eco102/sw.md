@@ -1713,7 +1713,6 @@ Kwa muhtasari, serikali inapovuka dhamira yake ya kutetea watu na mali, inahimiz
 Aliandika Frédéric Bastiat katika kijitabu kifupi kiitwacho Jimbo.
 
 
-![image](assets/en/138.webp)
 
 
 ## Urithi wa Frédéric Bastiat

@@ -1711,7 +1711,6 @@ Ukratko, kada vlada prekorači svoju misiju odbrane ljudi i imovine, podstiče i
 Napisao Frédéric Bastiat u kratkom pamfletu pod nazivom "Država".
 
 
-![image](assets/en/138.webp)
 
 
 ## Nasleđe Frédérica Bastiata

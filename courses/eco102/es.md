@@ -1720,7 +1720,6 @@ En resumen, cuando un gobierno se extralimita en su misión de defender a las pe
 Escribió Frédéric Bastiat en un breve panfleto titulado El Estado.
 
 
-![image](assets/en/138.webp)
 
 
 ## El legado de Frédéric Bastiat

@@ -1713,7 +1713,6 @@ Samengevat: wanneer een overheid haar missie om mensen en eigendommen te bescher
 Schreef Frédéric Bastiat in een kort pamflet getiteld De Staat.
 
 
-![image](assets/en/138.webp)
 
 
 ## De nalatenschap van Frédéric Bastiat

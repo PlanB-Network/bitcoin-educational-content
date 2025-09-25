@@ -1720,7 +1720,6 @@ Zusammenfassend lässt sich sagen, dass eine Regierung, die ihre Aufgabe, Mensch
 Schrieb Frédéric Bastiat in einem kurzen Pamphlet mit dem Titel Der Staat.
 
 
-![image](assets/en/138.webp)
 
 
 ## Das Vermächtnis von Frédéric Bastiat

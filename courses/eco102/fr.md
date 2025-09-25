@@ -1211,7 +1211,6 @@ En résumé, lorsqu’un gouvernement outrepasse sa mission de défense des pers
 
 Écrit Frédéric Bastiat dans un court pamphlet intitulé L'État.
 
-![image](assets/en/138.webp)
 
 ## La Postérité de Frédéric Bastiat
 

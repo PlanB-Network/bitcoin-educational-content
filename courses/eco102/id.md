@@ -1155,7 +1155,6 @@ Ringkasnya, ketika pemerintah melampaui misinya dalam mempertahankan orang dan p
 
 Tulis Frédéric Bastiat dalam sebuah pamflet singkat berjudul The State.
 
-![image](assets/en/138.webp)
 
 ## Warisan Frédéric Bastiat
 

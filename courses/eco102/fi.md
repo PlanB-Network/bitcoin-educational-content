@@ -1720,7 +1720,6 @@ Yhteenvetona voidaan todeta, että kun hallitus ylittää tehtävänsä ihmisten
 Kirjoitti Frédéric Bastiat lyhyessä pamfletissa nimeltä Valtio.
 
 
-![image](assets/en/138.webp)
 
 
 ## Frédéric Bastiat'n perintö

@@ -1720,7 +1720,6 @@ Tóm lại, khi một chính phủ vượt quá nhiệm vụ bảo vệ người
 Frédéric Bastiat đã viết trong một cuốn sách nhỏ có tựa đề Nhà nước.
 
 
-![image](assets/en/138.webp)
 
 
 ## Di sản của Frédéric Bastiat

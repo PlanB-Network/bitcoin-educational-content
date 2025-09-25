@@ -1141,7 +1141,6 @@ Shrnutí, když vláda překročí svou misi obrany lidí a majetku, podporuje t
 
 Napsal Frédéric Bastiat v krátké brožuře nazvané Stát.
 
-![image](assets/en/138.webp)
 
 ## Dědictví Frédérica Bastiata
 

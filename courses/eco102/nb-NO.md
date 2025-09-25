@@ -1720,7 +1720,6 @@ Kort oppsummert: Når myndighetene overskrider sin oppgave med å forsvare menne
 Skrev Frédéric Bastiat i en kort pamflett med tittelen Staten.
 
 
-![image](assets/en/138.webp)
 
 
 ## Arven etter Frédéric Bastiat

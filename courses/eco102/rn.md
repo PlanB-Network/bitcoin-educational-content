@@ -1713,7 +1713,6 @@ Mu ncamake, iyo Leta irenze ubutumwa bwayo bwo kurwanira abantu n’itunga, irem
 Yanditse Frédéric Bastiat mu gatabu gatoyi kitwa Leta.
 
 
-![image](assets/en/138.webp)
 
 
 ## Iragi rya Frédéric Bastiat

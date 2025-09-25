@@ -1184,7 +1184,6 @@ In sintesi, quando un governo oltrepassa la sua missione di difendere persone e 
 
 Scrisse Frédéric Bastiat in un breve opuscolo intitolato Lo Stato.
 
-![image](assets/en/138.webp)
 
 ## L'eredità di Frédéric Bastiat
 

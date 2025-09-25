@@ -1401,7 +1401,6 @@ Bitegerezwa gutomorwa ko iyo nzira y’iterambere biciye mu nshingano ataco ikor
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, mu gatabo kiwe kazwi cane citwa «Itegeko», aragaya ukugoranya itegeko gushingiye ku gutuma, mw’izina ry’«ubumwe», ivyo vy’ukuri bitegerezwa kwitwa gusahura bibe ivy’amategeko. Nkako, hariho ukuvuguruzanya mu gushaka gutegeka ubuvukanyi biciye mu mategeko, ivyo twokwita uno musi "ubutungane bw'abantu" canke ubumwe.

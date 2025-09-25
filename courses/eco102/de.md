@@ -1406,7 +1406,6 @@ Es muss klargestellt werden, dass diese Entwicklung des Fortschritts durch Veran
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat prangert in seinem berühmten Pamphlet "Das Gesetz" die Perversion des Rechts an, die darin besteht, unter dem Namen "Solidarität" zu legalisieren, was in der Tat als Plünderung bezeichnet werden muss. Es ist in der Tat ein Widerspruch, die Brüderlichkeit durch das Gesetz erzwingen zu wollen, was wir heute "soziale Gerechtigkeit" oder Solidarität nennen würden.

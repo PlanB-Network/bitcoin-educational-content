@@ -1401,7 +1401,6 @@ Mora se pojasniti da ovaj razvoj napretka kroz odgovornost ni u kom slučaju nij
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, u svom čuvenom pamfletu "Zakon" (The Law), osuđuje izopačenje zakona koje se sastoji u legalizaciji, pod imenom "solidarnost," onoga što se zaista mora nazvati pljačkom. Zaista, postoji kontradikcija u želji da se bratstvo nametne zakonom, što bismo danas nazvali "socijalna pravda" ili solidarnost.

@@ -959,7 +959,6 @@ Deve essere chiarito che questo sviluppo del progresso attraverso la responsabil
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![image](assets/en/113.webp)
 
 Frédéric Bastiat, nel suo famoso opuscolo "La Legge", denuncia la perversione della legge che consiste nel legalizzare, sotto il nome di "solidarietà", ciò che deve effettivamente essere chiamato saccheggio. Infatti, c'è una contraddizione nel voler imporre la fraternità attraverso la legge, ciò che oggi chiameremmo "giustizia sociale" o solidarietà.
 

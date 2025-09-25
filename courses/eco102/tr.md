@@ -1401,7 +1401,6 @@ Sorumluluk yoluyla ilerlemenin bu gelişiminin hiçbir şekilde otomatik olmadı
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, ünlü broşürü "The Law "da, aslında yağma olarak adlandırılması gereken şeyin "dayanışma" adı altında yasallaştırılmasından ibaret olan hukuk sapkınlığını kınamaktadır. Gerçekten de, bugün "sosyal adalet" ya da dayanışma olarak adlandırdığımız şeyi, hukuk yoluyla kardeşliğe dayatmak istemenin bir çelişkisi vardır.

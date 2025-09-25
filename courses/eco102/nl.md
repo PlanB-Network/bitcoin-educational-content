@@ -1401,7 +1401,6 @@ Het moet duidelijk zijn dat deze ontwikkeling van vooruitgang door verantwoordel
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat hekelt in zijn beroemde pamflet "De Wet" de perversie van het recht die bestaat uit het legaliseren, onder de naam van "solidariteit", van wat we inderdaad plundering moeten noemen. Er schuilt inderdaad een tegenstrijdigheid in het willen opleggen van broederschap door middel van de wet, wat we tegenwoordig "sociale rechtvaardigheid" of solidariteit zouden noemen.

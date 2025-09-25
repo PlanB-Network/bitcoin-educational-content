@@ -1406,7 +1406,6 @@ Tuleb täpsustada, et see vastutuse kaudu toimuv areng ei ole sugugi automaatne.
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat mõistab oma kuulsas pamfletis "Õigus" hukka õiguse perverssuse, mis seisneb selles, et "solidaarsuse" nime all legaliseeritakse see, mida tuleb tõepoolest nimetada röövimiseks. Tõepoolest, on vastuolu, kui tahetakse õiguse kaudu kehtestada vendlust, mida me täna nimetaksime "sotsiaalseks õigluseks" või solidaarsuseks.

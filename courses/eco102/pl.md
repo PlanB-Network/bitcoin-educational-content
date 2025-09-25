@@ -1402,7 +1402,6 @@ Należy wyjaśnić, że rozwój postępu poprzez odpowiedzialność nie jest byn
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, w swoim słynnym pamflecie "Prawo", potępia wypaczenie prawa, które polega na legalizacji, pod nazwą "solidarności", tego, co w rzeczywistości należy nazwać grabieżą. Rzeczywiście, istnieje sprzeczność w chęci narzucenia braterstwa poprzez prawo, co dziś nazwalibyśmy "sprawiedliwością społeczną" lub solidarnością.

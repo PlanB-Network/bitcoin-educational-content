@@ -1401,7 +1401,6 @@ Ni lazima ifafanuliwe kwamba maendeleo haya kwa njia ya uwajibikaji sio moja kwa
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, katika kijitabu chake maarufu "Sheria," analaani upotoshaji wa sheria unaojumuisha kuhalalisha, chini ya jina la "mshikamano," kile ambacho lazima kiitwe uporaji. Hakika, kuna mkanganyiko katika kutaka kulazimisha udugu kupitia sheria, kile tunachoweza kuita leo "haki ya kijamii" au mshikamano.

@@ -1406,7 +1406,6 @@ Cần phải làm rõ rằng sự phát triển tiến bộ thông qua trách nh
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, trong cuốn sách nhỏ nổi tiếng "Luật pháp", đã lên án sự xuyên tạc luật pháp, bao gồm việc hợp pháp hóa, dưới danh nghĩa "đoàn kết", cái mà thực ra phải được gọi là cướp bóc. Thật vậy, có một mâu thuẫn trong việc muốn áp đặt tình huynh đệ thông qua luật pháp, cái mà ngày nay chúng ta gọi là "công lý xã hội" hay đoàn kết.

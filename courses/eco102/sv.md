@@ -1401,7 +1401,6 @@ Det måste klargöras att denna utveckling av framsteg genom ansvar inte på nå
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat fördömer i sin berömda pamflett "Lagen" den pervertering av lagen som består i att under namnet "solidaritet" legalisera vad som verkligen måste kallas plundring. Det finns faktiskt en motsägelse i att vilja införa broderskap genom lag, det som vi i dag skulle kalla "social rättvisa" eller solidaritet.

@@ -1406,7 +1406,6 @@ Ao contrário de Rousseau, que procura erradicar o mal através de instituiçõe
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, no seu célebre panfleto "A Lei", denuncia a perversão do direito que consiste em legalizar, sob o nome de "solidariedade", aquilo a que, de facto, se deve chamar pilhagem. De facto, há uma contradição em querer impor a fraternidade através da lei, aquilo a que hoje chamaríamos "justiça social" ou solidariedade.

@@ -1406,7 +1406,6 @@ On selvennettävä, että tämä vastuullisuuden kautta tapahtuva kehitys ei sui
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat tuomitsee kuuluisassa pamfletissaan "Laki" lain vääristelyn, joka on "solidaarisuuden" nimissä laillistamista, jota on todellakin kutsuttava ryöstöksi. On todellakin ristiriitaista, että lain avulla halutaan saada aikaan veljeys, jota nykyään kutsuttaisiin "sosiaaliseksi oikeudenmukaisuudeksi" tai solidaarisuudeksi.

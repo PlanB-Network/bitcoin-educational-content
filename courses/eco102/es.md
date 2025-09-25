@@ -1406,7 +1406,6 @@ Hay que aclarar que este desarrollo del progreso a través de la responsabilidad
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, en su célebre opúsculo "El derecho", denuncia la perversión del derecho que consiste en legalizar, bajo el nombre de "solidaridad", lo que en realidad debe llamarse expolio. En efecto, hay una contradicción en querer imponer por ley la fraternidad, lo que hoy llamaríamos "justicia social" o solidaridad.

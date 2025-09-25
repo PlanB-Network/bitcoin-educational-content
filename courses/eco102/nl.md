@@ -1559,7 +1559,6 @@ In het systeem van natuurlijke vrijheid bestaat er een natuurwet, onafhankelijk 
 Hier sluit Bastiat aan bij de nalatenschap van de Fysiocraten, en verder bij de traditie van de rechtsfilosofie van Cicero en Aristoteles. De wet schept geen rechten. Haar missie is ze te verdedigen en dus eigendom te verdedigen, zowel het eigendom van zichzelf, de integriteit van de persoon, als het eigendom van de vruchten van iemands arbeid.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

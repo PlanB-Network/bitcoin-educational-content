@@ -1558,7 +1558,6 @@ W systemie naturalnej wolności istnieje prawo naturalne, niezależne od kaprys�
 W tym miejscu Bastiat nawiązuje do spuścizny fizjokratów, a także do tradycji filozofii prawa Cycerona i Arystotelesa. Prawo nie tworzy praw. Jego misją jest ich obrona, a tym samym obrona własności, zarówno własności samego siebie, integralności osoby, jak i własności owoców swojej pracy.
 
 
-![image](assets/en/124.webp)
 
 _(Cyceron)_
 

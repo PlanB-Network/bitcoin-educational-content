@@ -1559,7 +1559,6 @@ Katika mfumo wa uhuru wa asili, kuna sheria ya asili, isiyotegemea matakwa ya wa
 Hapa, Bastiat anajilinganisha na urithi wa Wanafiziokrati, na zaidi ya hapo, na mapokeo ya falsafa ya sheria ya Cicero na Aristotle. Sheria haileti haki. Dhamira yake ni kuwatetea na hivyo kutetea mali, mali ya mtu mwenyewe, uadilifu wa mtu, na mali ya matunda ya kazi ya mtu.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

@@ -1565,7 +1565,6 @@ Trong hệ thống tự do tự nhiên, tồn tại một luật tự nhiên, đ
 Ở đây, Bastiat tự đồng nhất mình với di sản của những người theo chủ nghĩa trọng nông, và hơn thế nữa, với truyền thống triết học pháp quyền của Cicero và Aristotle. Luật pháp không tạo ra các quyền. Sứ mệnh của nó là bảo vệ chúng, và do đó bảo vệ tài sản, cả tài sản của bản thân, sự toàn vẹn của con người, và tài sản của thành quả lao động.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

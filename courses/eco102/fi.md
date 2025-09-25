@@ -1565,7 +1565,6 @@ Luonnollisen vapauden järjestelmässä on olemassa luonnonlaki, joka on riippum
 Tässä Bastiat liittyy fysiokraattien perintöön ja sen lisäksi Ciceron ja Aristoteleen oikeusfilosofian perinteeseen. Laki ei luo oikeuksia. Sen tehtävänä on puolustaa niitä ja siten omaisuutta, sekä omaa omaisuutta, henkilön koskemattomuutta että oman työn hedelmien omaisuutta.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

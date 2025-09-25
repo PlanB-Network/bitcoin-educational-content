@@ -1078,7 +1078,6 @@ Nel sistema della libertà naturale, esiste una legge naturale, indipendente dai
 
 Qui, Bastiat si allinea con l'eredità dei Fisiocratici e, oltre a ciò, con la tradizione della filosofia del diritto di Cicerone e Aristotele. La legge non crea diritti. La sua missione è difenderli e quindi difendere la proprietà, sia la proprietà di sé stessi, l'integrità della persona, sia la proprietà dei frutti del proprio lavoro.
 
-![image](assets/en/124.webp)
 
 _(Cicerone)_
 

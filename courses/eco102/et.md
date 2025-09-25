@@ -1565,7 +1565,6 @@ Loodusliku vabaduse süsteemis on olemas loomulik seadus, mis ei sõltu seadusan
 Siinkohal seob Bastiat end füsiokraatide pärandiga ning lisaks sellele Cicero ja Aristotelese õigusfilosoofia traditsiooniga. Õigus ei loo õigusi. Tema ülesanne on kaitsta neid ja seega omandit, nii enda omandit, isiku puutumatust kui ka oma töö viljade omandit.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

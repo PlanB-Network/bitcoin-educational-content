@@ -1559,7 +1559,6 @@ Mu rutonde rw’umwidegemvyo w’akameremere, hariho itegeko ry’akameremere, r
 Aha, Bastiat yifatanya n’iragi ry’abafiziyokarate, kandi birenze ivyo, n’umugenzo wa filozofiya y’amategeko ya Ciceron na Aristote. Itegeko ntirirema uburenganzira. Intumbero yayo ni ukubirwanira gutyo igakingira itunga, ry’umuntu ubwiwe, iry’ubunyankamugayo bw’umuntu, n’iry’ivyamwa vy’ibikorwa vyiwe.
 
 
-![image](assets/en/124.webp)
 
 _(Sisero)_
 

@@ -1055,7 +1055,6 @@ For Rousseau, property is not prior to law; it is merely a convention establishe
 
 For example: the right to work or the right to housing.
 
-
 For me to acquire something for free, someone must pay on my behalf. And if it’s the State that pays, since it does not produce wealth, it can only do so by taking a home from someone, or its equivalent, to give it to me.
 
 This idea that the right to property is a creation of the law thus leads, according to Bastiat, to opening an unlimited field to utopians who wish to model society according to their plans.
@@ -1066,7 +1065,6 @@ In the system of natural freedom, there exists a natural law, independent of the
 
 Here, Bastiat aligns himself with the legacy of the Physiocrats, and beyond that, with the tradition of the philosophy of law of Cicero and Aristotle. The law does not create rights. Its mission is to defend them and thus to defend property, both the property of oneself, the integrity of the person, and the property of the fruits of one's labor.
 
-![image](assets/en/124.webp)
 _(Cicero)_
 
 ## Legal Plunder: A Perversion of the Law

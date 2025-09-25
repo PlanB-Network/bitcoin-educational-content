@@ -1557,7 +1557,6 @@ U sistemu prirodne slobode, postoji prirodni zakon, nezavisan od hirova zakonoda
 Ovde se Bastiat svrstava uz nasleđe fiziokrata, a šire gledano, sa tradicijom filozofije prava Cicerona i Aristotela. Zakon ne stvara prava. Njegova misija je da ih brani i tako brani imovinu, kako imovinu samog sebe, integritet osobe, tako i imovinu plodova nečijeg rada.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

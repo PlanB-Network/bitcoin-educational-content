@@ -1559,7 +1559,6 @@ I systemet med naturlig frihet finns det en naturlag som är oberoende av lagsti
 Här ansluter sig Bastiat till arvet från fysiokraterna, och därutöver till Ciceros och Aristoteles rättsfilosofiska tradition. Lagen skapar inte rättigheter. Dess uppgift är att försvara dem och därmed att försvara egendom, både den egna egendomen, den personliga integriteten och egendomen till frukterna av det egna arbetet.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

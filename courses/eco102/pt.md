@@ -1565,7 +1565,6 @@ No sistema de liberdade natural, existe uma lei natural, independente dos capric
 Aqui, Bastiat alinha-se com o legado dos fisiocratas e, para além disso, com a tradição da filosofia do direito de Cícero e Aristóteles. A lei não cria direitos. A sua missão é defendê-los e, portanto, defender a propriedade, tanto a propriedade de si próprio, a integridade da pessoa, como a propriedade dos frutos do seu trabalho.
 
 
-![image](assets/en/124.webp)
 
 (Cícero)
 

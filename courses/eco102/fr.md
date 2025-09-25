@@ -1098,7 +1098,6 @@ Dans le système de la liberté naturelle, il existe donc une loi naturelle, ind
 
 Ici Bastiat s’inscrit ici dans l’héritage des Physiocrates, et par-delà, dans la tradition de la philosophie du droit de Cicéron et d’Aristote. La loi ne crée pas le droit. Elle a pour mission de le défendre et donc de défendre la propriété, aussi bien la propriété de soi, l’intégrité de la personne, que la propriété du fruit de son travail.
 
-![image](assets/en/124.webp)
 _(Cicéron)_
 
 ## La Spoliation Légale: Une Perversion de la Loi

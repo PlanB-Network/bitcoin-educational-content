@@ -1565,7 +1565,6 @@ Im System der natürlichen Freiheit gibt es ein Naturrecht, das unabhängig von 
 Hier knüpft Bastiat an das Erbe der Physiokraten und darüber hinaus an die Tradition der Rechtsphilosophie von Cicero und Aristoteles an. Das Recht schafft keine Rechte. Seine Aufgabe ist es, sie zu verteidigen und damit das Eigentum zu schützen, sowohl das Eigentum an sich selbst, die Unversehrtheit der Person, als auch das Eigentum an den Früchten der eigenen Arbeit.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

@@ -1055,7 +1055,6 @@ Dalam sistem kebebasan alami, ada hukum alam, independen dari keinginan para leg
 
 ![image](assets/en/120.webp)
 Di sini, Bastiat sejalan dengan warisan Fisiokrat, dan lebih dari itu, dengan tradisi filsafat hukum Cicero dan Aristoteles. Hukum tidak menciptakan hak. Misinya adalah untuk mempertahankannya dan dengan demikian untuk mempertahankan properti, baik properti diri sendiri, integritas orang tersebut, dan properti dari hasil kerja kerasnya.
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

@@ -1559,7 +1559,6 @@ Doğal özgürlük sisteminde, yasa koyucuların kaprislerinden bağımsız bir 
 Bastiat burada kendisini Fizyokratların mirasına ve bunun da ötesinde Cicero ve Aristoteles'in hukuk felsefesi geleneğine bağlamaktadır. Hukuk hak yaratmaz. Görevi onları savunmak ve dolayısıyla mülkiyeti, hem kişinin kendi mülkiyetini, hem kişinin bütünlüğünü hem de kişinin emeğinin meyvelerinin mülkiyetini savunmaktır.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

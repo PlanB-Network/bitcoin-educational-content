@@ -1565,7 +1565,6 @@ I systemet med naturlig frihet finnes det en naturlov som er uavhengig av lovgiv
 Her skriver Bastiat seg inn i arven fra fysiokratene, og videre inn i den rettsfilosofiske tradisjonen fra Cicero og Aristoteles. Loven skaper ikke rettigheter. Dens oppgave er å forsvare dem, og dermed å forsvare eiendommen, både eiendommen til en selv, personens integritet og eiendommen til fruktene av ens arbeid.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

@@ -1040,7 +1040,6 @@ V systému přirozené svobody existuje přirozený zákon, nezávislý na rozma
 
 ![image](assets/en/120.webp)
 Zde se Bastiat staví do linie s dědictvím fyziokratů a dále s tradicí filozofie práva Cicera a Aristotela. Zákon nevytváří práva. Jeho posláním je je bránit a tím chránit vlastnictví, jak vlastnictví sebe sama, integritu osoby, tak i vlastnictví plodů své práce.
-![image](assets/en/124.webp)
 
 _(Cicero)_
 

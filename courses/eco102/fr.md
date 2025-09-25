@@ -1001,7 +1001,6 @@ Encore faut-il préciser que ce développement du progrès par la responsabilit�
 
 Frédéric Bastiat, dans son fameux pamphlet « La loi », dénonce la perversion du droit qui consiste à légaliser, sous le nom de « solidarité », ce qu'il faut bien appeler la spoliation. Il y a en effet une contradiction à vouloir imposer la fraternité par la loi, ce qu’on appellerait aujourd’hui « justice sociale » ou solidarité.
 
-![image](assets/en/114.webp)
 
 Car la moralité se définit comme un comportement volontaire. Quand un individu est contraint de donner quelque chose qu’il ne veut pas donner, il est toujours la victime d’un vol.
 

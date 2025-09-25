@@ -958,8 +958,6 @@ It must be clarified that this development of progress through responsibility is
 
 Frédéric Bastiat, in his famous pamphlet "The Law," denounces the perversion of law that consists in legalizing, under the name of "solidarity," what must indeed be called plunder. Indeed, there is a contradiction in wanting to impose fraternity through law, what we would call today "social justice" or solidarity.
 
-![image](assets/en/114.webp)
-
 For morality is defined as voluntary behavior. When an individual is forced to give something they do not want to give, they are always the victim of theft.
 
 ![image](assets/en/115.webp)

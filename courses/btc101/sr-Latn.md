@@ -122,6 +122,8 @@ Važno je da ovu novu tehnologiju razumete na opšti način, tako da se nadamo d
 Spremni da zaronite u fascinantan svet Bitkoina i razumete sve njegove unutrašnje mehanizme? Hajde da krenemo!
 
 
+**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.network/resources/glossary) za definicije.
+
 ## Praistorija Bitkoina
 
 

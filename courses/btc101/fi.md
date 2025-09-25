@@ -83,6 +83,8 @@ Tärkeintä on ymmärtää tätä uutta teknologiaa yleisellä tasolla, joten to
 
 Oletko valmis sukeltamaan Bitcoinin kiehtovaan maailmaan ja ymmärtämään sen kaikki toimintamekanismit? Lähdetään liikkeelle!
 
+**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.network/resources/glossary).
+
 ## Bitcoinin esihistoria
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

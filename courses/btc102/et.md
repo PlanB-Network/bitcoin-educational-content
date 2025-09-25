@@ -99,6 +99,8 @@ Selle kursuse lõpuks on teil kõik praktilised vahendid, mida vajate, et navige
 Kas olete valmis alustama oma teekonda Bitcoin maailma? Läheme!
 
 
+**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.network/resources/glossary) definitsioonid.
+
 # Bitcoin mõistmise eeldused
 
 

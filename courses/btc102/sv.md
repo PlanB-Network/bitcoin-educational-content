@@ -99,6 +99,8 @@ I slutet av den här kursen kommer du att ha alla de praktiska verktyg du behöv
 Är du redo att börja din resa in i Bitcoin:s värld? Då kör vi!
 
 
+**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.network/resources/glossary) för definitioner.
+
 # Förutsättningar för att förstå Bitcoin
 
 

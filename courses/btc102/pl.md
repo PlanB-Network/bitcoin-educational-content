@@ -99,6 +99,8 @@ Pod koniec tego kursu będziesz mieć wszystkie praktyczne narzędzia, których 
 Gotowy na rozpoczęcie podróży do świata Bitcoin? Do dzieła!
 
 
+**Uwaga**: Jeśli podczas kursu napotkasz nieznane terminy, sprawdź definicje w [słowniczku](https://planb.network/resources/glossary).
+
 # Wymagania wstępne dla zrozumienia Bitcoin
 
 

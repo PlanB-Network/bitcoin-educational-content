@@ -34,21 +34,21 @@ Tujuan dari pelatihan ini adalah untuk memberi Anda kunci untuk menguasai alat y
 
 Sebelum menyelami detail konstruksi dan operasi dompet Bitcoin, kita akan memulai dengan beberapa bab tentang primitif kriptografi yang perlu diketahui untuk apa yang akan diikuti.
 Kita akan memulai dengan fungsi hash kriptografi, fundamental baik untuk dompet maupun protokol Bitcoin itu sendiri. Anda akan menemukan karakteristik utama mereka, fungsi spesifik yang digunakan dalam Bitcoin, dan dalam bab yang lebih teknis, Anda akan belajar secara detail tentang cara kerja fungsi hash ratu: SHA256.
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/001.webp)
 
 Selanjutnya, kita akan membahas operasi algoritma tanda tangan digital yang Anda gunakan setiap hari untuk mengamankan UTXO Anda. Bitcoin menggunakan dua: ECDSA dan protokol Schnorr. Anda akan belajar primitif matematika apa yang mendasari algoritma ini dan bagaimana mereka memastikan keamanan transaksi.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 Setelah kita memiliki pemahaman yang baik tentang elemen-elemen kriptografi ini, kita akhirnya akan beralih ke inti dari pelatihan: dompet yang deterministik dan hierarkis! Pertama, ada bagian yang didedikasikan untuk frasa mnemonik, urutan 12 atau 24 kata ini yang memungkinkan Anda untuk membuat dan memulihkan dompet Anda. Anda akan menemukan bagaimana kata-kata ini dihasilkan dari sumber entropi dan bagaimana mereka memfasilitasi penggunaan Bitcoin.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/003.webp)
 Pelatihan akan dilanjutkan dengan mempelajari passphrase BIP39, seed (jangan dikacaukan dengan frasa mnemonik), master chain code, dan master key. Kita akan melihat secara detail apa itu elemen-elemen tersebut, peran masing-masing, dan bagaimana mereka dihitung.
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/004.webp)
 
 Akhirnya, dari master key, kita akan menemukan bagaimana pasangan kunci kriptografi diturunkan secara deterministik dan hierarkis hingga ke alamat penerima.
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 Pelatihan ini akan memungkinkan Anda untuk menggunakan perangkat lunak dompet Anda dengan percaya diri, sambil meningkatkan keterampilan Anda untuk mengidentifikasi dan mengurangi risiko. Bersiaplah untuk menjadi seorang ahli sejati dalam dompet Bitcoin!
 
@@ -101,7 +101,7 @@ Sebagai contoh, fungsi hash SHA256 menghasilkan hash dengan panjang tetap 256 bi
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 ### Karakteristik Fungsi Hash
 
@@ -118,7 +118,7 @@ Ketidakterbalikan berarti bahwa mudah untuk menghitung hash dari informasi masuk
 
 Dalam contoh yang diberikan, mendapatkan hash `24f1b9…` dengan mengetahui input "_PlanB_" adalah hal yang sederhana dan cepat. Namun, menemukan pesan "_PlanB_" hanya dengan mengetahui `24f1b9…` adalah hal yang mustahil.
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 Oleh karena itu, tidak mungkin menemukan preimage $m$ untuk hash $h$ sedemikian rupa sehingga $h = \text{HASH}(m)$, di mana $\text{HASH}$ adalah fungsi hash kriptografi.
 
@@ -138,7 +138,7 @@ Jika kita membuat perubahan yang sangat kecil pada masukan dengan menggunakan "_
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 Properti ini memastikan bahwa bahkan perubahan kecil dari pesan asli segera terdeteksi, karena tidak hanya mengubah bagian kecil dari hash, tetapi seluruh hash. Ini bisa menjadi menarik di berbagai bidang untuk memverifikasi integritas pesan, perangkat lunak, atau bahkan transaksi Bitcoin.
 
@@ -150,7 +150,7 @@ $$
 \text{HASH}(m_1) = \text{HASH}(m_2)
 $$
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 Dalam kenyataannya, secara matematis tidak terelakkan bahwa tabrakan ada untuk fungsi hash, karena ukuran input bisa lebih besar dari ukuran output. Ini dikenal sebagai prinsip laci Dirichlet: jika $n$ objek didistribusikan ke dalam $m$ laci, dengan $m < n$, maka setidaknya satu laci akan pasti berisi dua atau lebih objek. Untuk fungsi hash, prinsip ini berlaku karena jumlah pesan yang mungkin adalah (hampir) tak terbatas, sementara jumlah hash yang mungkin adalah terbatas ($2^{256}$ dalam kasus SHA256).
 
@@ -167,7 +167,7 @@ $$
 
 Oleh karena itu, ketahanan terhadap preimage kedua agak mirip dengan ketahanan terhadap tabrakan, kecuali di sini, serangannya lebih sulit karena penyerang tidak dapat bebas memilih $m_1$.
 
-![CYP201](assets/fr/005.webp)
+![CYP201](assets/en/010.webp)
 
 ### Aplikasi Fungsi Hash dalam Bitcoin
 
@@ -259,7 +259,7 @@ Ukuran padding ini ditambahkan mengikuti padding bit. Oleh karena itu, pesan set
 - Sebuah bit `1` diikuti oleh beberapa bit `0` untuk membentuk padding bit;
 - Representasi 64-bit dari panjang $M$ untuk membentuk padding dengan ukuran.
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 ### Inisialisasi Variabel
 
@@ -374,7 +374,7 @@ $$
 
 Secara skematis, operasi shift kanan dapat dilihat seperti ini:
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 Operasi lain yang digunakan dalam SHA256 untuk manipulasi bit adalah rotasi kanan sirkular, ditandai $RotR_n(x)$, yang menggeser bit dari $x$ ke kanan sebanyak $n$ posisi, memasukkan kembali bit yang digeser ke awal string.
 Sebagai contoh, untuk $x = 101100001$ (lebih dari 9 bit) dan $n = 4$:
 
@@ -384,7 +384,7 @@ $$
 
 Secara skematis, operasi shift kanan sirkular dapat dilihat seperti ini:
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 ### Fungsi Kompresi
 
@@ -412,7 +412,7 @@ Dalam kasus ini, $x$ sama dengan $W_{i-15}$ untuk $\sigma_0(x)$ dan $W_{i-2}$ un
 
 Setelah kita menentukan semua kata $W_i$ untuk potongan 512-bit kita, kita dapat melanjutkan ke fungsi kompresi, yang terdiri dari melakukan 64 ronde.
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 Untuk setiap ronde $i$ dari 0 hingga 63, kita memiliki tiga jenis input yang berbeda. Pertama, $W_i$ yang baru saja kita tentukan, sebagian terdiri dari potongan pesan kita $P_n$. Selanjutnya, 64 konstanta $K_i$. Akhirnya, kita menggunakan variabel-variabel state $A$, $B$, $C$, $D$, $E$, $F$, $G$, dan $H$, yang akan berkembang sepanjang proses hashing dan dimodifikasi dengan setiap fungsi kompresi. Namun, untuk potongan pertama $P_1$, kita menggunakan konstanta awal yang diberikan sebelumnya.
 Kemudian kita melakukan operasi berikut pada input kita:
 
@@ -471,7 +471,7 @@ $$
 
 Diagram berikut mewakili satu putaran dari fungsi kompresi SHA256 seperti yang baru saja kita jelaskan:
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 - Panah menunjukkan aliran data;
 - Kotak mewakili operasi yang dilakukan;
@@ -565,7 +565,7 @@ HMAC adalah algoritma kriptografis yang menghitung kode otentikasi berdasarkan k
 
 Berikut adalah skema operasional umumnya dengan $m$ sebagai pesan input dan $K$ sebagai kunci rahasia:
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 Mari kita pelajari lebih detail apa yang terjadi di dalam kotak hitam HMAC-SHA512 ini. Fungsi HMAC-SHA512 dengan:
 
@@ -601,7 +601,7 @@ Persamaan ini dipecah menjadi langkah-langkah berikut:
 
 Langkah-langkah ini dapat diringkas secara skematis sebagai berikut:
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 HMAC digunakan dalam Bitcoin terutama untuk derivasi kunci dalam dompet HD (Hierarchical Deterministic) (kita akan membahas ini lebih detail di bab-bab mendatang) dan sebagai komponen dari PBKDF2.
 
@@ -623,7 +623,7 @@ Proses PBKDF2 adalah sebagai berikut, dengan:
 
 Secara skematis, PBKDF2 dapat digambarkan sebagai berikut:
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 Dalam bab ini, kita telah menjelajahi fungsi HMAC-SHA512 dan PBKDF2, yang menggunakan fungsi hashing untuk memastikan integritas dan keamanan dari derivasi kunci dalam protokol Bitcoin. Pada bagian selanjutnya, kita akan melihat ke dalam tanda tangan digital, metode kriptografi lain yang banyak digunakan dalam Bitcoin.
 
@@ -659,7 +659,7 @@ Sebuah properti penting dari kurva ini adalah bahwa mereka simetris terhadap sum
 
 Berikut adalah representasi dari sebuah kurva eliptik di atas lapangan bilangan riil:
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 Setiap kurva eliptik didefinisikan oleh sebuah persamaan berbentuk:
 
@@ -678,7 +678,7 @@ y^2 = x^3 + 7
 $$
 
 Representasi grafisnya di atas lapangan bilangan riil terlihat seperti ini:
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 Namun, dalam kriptografi, kita bekerja dengan himpunan angka yang terbatas. Lebih spesifik lagi, kita bekerja pada lapangan terbatas $\mathbb{F}_p$, yang merupakan lapangan bilangan bulat modulo sebuah bilangan prima $p$.
 **Definisi**: Sebuah bilangan prima adalah bilangan bulat alami yang lebih besar atau sama dengan 2 yang hanya memiliki dua pembagi bilangan bulat positif yang berbeda: 1 dan dirinya sendiri. Sebagai contoh, angka 7 adalah bilangan prima karena hanya bisa dibagi dengan 1 dan 7. Di sisi lain, angka 8 bukan bilangan prima karena bisa dibagi dengan 1, 2, 4, dan 8.
 Dalam Bitcoin, bilangan prima $p$ yang digunakan untuk mendefinisikan lapangan terbatas sangat besar. Bilangan ini dipilih sedemikian rupa sehingga orde dari lapangan (yaitu, jumlah elemen dalam $\mathbb{F}_p$) cukup besar untuk menjamin keamanan kriptografi.
@@ -703,7 +703,7 @@ $$
 
 Mengingat kurva ini didefinisikan di atas lapangan terbatas $\mathbb{F}_p$, ia tidak lagi menyerupai kurva kontinu tetapi lebih kepada himpunan titik-titik diskrit. Sebagai contoh, inilah tampilan kurva yang digunakan dalam Bitcoin untuk $p$ yang sangat kecil, yaitu $p = 17$:
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 Dalam contoh ini, saya sengaja membatasi lapangan terbatas ke $p = 17$ untuk alasan edukasi, tetapi harus dibayangkan bahwa yang digunakan dalam Bitcoin jauh lebih besar, hampir $2^{256}$.
 
@@ -752,11 +752,11 @@ di mana:
 
 Fakta bahwa titik $G$ ini umum untuk semua kunci publik di Bitcoin memungkinkan kita untuk yakin bahwa kunci privat yang sama $k$ akan selalu memberikan kita kunci publik yang sama $K$:
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 Karakteristik utama dari operasi ini adalah bahwa itu adalah fungsi satu arah. Mudah untuk menghitung kunci publik $K$ dengan mengetahui kunci privat $k$ dan titik generator $G$, tetapi praktis tidak mungkin untuk menghitung kunci privat $k$ dengan hanya mengetahui kunci publik $K$ dan titik generator $G$. Menemukan $k$ dari $K$ dan $G$ berarti menyelesaikan masalah logaritma diskrit pada kurva eliptik, sebuah masalah matematika yang sulit untuk mana tidak ada algoritma efisien yang diketahui. Bahkan kalkulator paling kuat saat ini tidak mampu menyelesaikan masalah ini dalam waktu yang wajar.
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 ### Penambahan dan Penggandaan Titik pada Kurva Eliptik
 
@@ -768,7 +768,7 @@ $$
 
 Secara grafis, ini dapat diwakili sebagai berikut:
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 Untuk penggandaan titik, yaitu operasi $P + P$, kita menggambar tangen ke kurva di titik $P$. Tangen ini berpotongan dengan kurva di titik lain $S'$. Kemudian kita mengambil citra cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $S$, yang merupakan hasil dari penggandaan:
 
@@ -778,7 +778,7 @@ $$
 
 Secara grafis, ini ditunjukkan sebagai:
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 Dengan menggunakan operasi penambahan dan penggandaan ini, kita dapat melakukan perkalian skalar dari sebuah titik dengan bilangan bulat $k$, ditulis $kP$, dengan melakukan penggandaan dan penambahan berulang.
 
@@ -793,7 +793,7 @@ Secara grafis, ini sesuai dengan melakukan serangkaian penambahan dan penggandaa
 - Hitung $2G$ dengan menggandakan $G$.
 - Hitung $4G$ dengan menggandakan $2G$.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 Jika kita ingin, misalnya, menghitung titik $3G$, kita harus terlebih dahulu menghitung titik $2G$ dengan menggandakan titik $G$, kemudian menambahkan $G$ dan $2G$. Untuk menambahkan $G$ dan $2G$, cukup gambar garis yang menghubungkan kedua titik ini, ambil titik unik $-3G$ di persimpangan antara garis ini dan kurva eliptik, dan kemudian tentukan $3G$ sebagai lawan dari $-3G$.
 
@@ -809,7 +809,7 @@ $$
 
 Secara grafis, ini akan diwakili sebagai berikut:
 
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 
 ### Fungsi Satu Arah
 
@@ -962,7 +962,7 @@ $$
 
 Langkah pertama untuk menghasilkan tanda tangan adalah meng-hash pesan. Namun, tidak seperti ECDSA, hal ini dilakukan dengan nilai lain dan fungsi hash berlabel digunakan untuk menghindari tabrakan dalam konteks yang berbeda. Fungsi hash berlabel sederhananya melibatkan penambahan label sembarang ke input fungsi hash bersama dengan data pesan.
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 Selain pesan, koordinat $x$ dari kunci publik $K_x$, serta titik $R$ yang dihitung dari nonce $r$ ($R=r \cdot G$) yang sendiri adalah bilangan bulat unik untuk setiap tanda tangan, dihitung secara deterministik dari kunci privat dan pesan untuk menghindari kerentanan terkait penggunaan nonce kembali, juga dimasukkan ke dalam fungsi berlabel. Sama seperti untuk kunci publik, hanya koordinat $x$ dari titik nonce $R_x$ yang dipertahankan untuk menggambarkan titik.
 
@@ -1028,11 +1028,11 @@ $$
 
 Skema tanda tangan Schnorr menawarkan beberapa keuntungan untuk Bitcoin dibandingkan dengan algoritma ECDSA asli. Pertama, Schnorr memungkinkan agregasi kunci dan tanda tangan. Ini berarti bahwa beberapa kunci publik dapat digabungkan menjadi satu kunci.
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 Dan demikian pula, beberapa tanda tangan dapat diagregasi menjadi satu tanda tangan yang valid. Jadi, dalam kasus transaksi multisignature, satu set peserta dapat menandatangani dengan satu tanda tangan dan satu kunci publik yang teragregasi. Ini secara signifikan mengurangi biaya penyimpanan dan komputasi untuk jaringan, karena setiap node hanya perlu memverifikasi satu tanda tangan.
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 Selain itu, agregasi tanda tangan meningkatkan privasi. Dengan Schnorr, menjadi tidak mungkin untuk membedakan transaksi multisignature dari transaksi tanda tangan tunggal. Homogenitas ini membuat analisis rantai lebih sulit, karena membatasi kemampuan untuk mengidentifikasi sidik jari dompet.
 Akhirnya, Schnorr juga menawarkan kemungkinan verifikasi batch. Dengan memverifikasi beberapa tanda tangan secara bersamaan, node dapat memperoleh efisiensi, terutama untuk blok yang mengandung banyak transaksi. Optimasi ini mengurangi waktu dan sumber daya yang diperlukan untuk memvalidasi sebuah blok. Selain itu, tanda tangan Schnorr tidak dapat dimanipulasi, tidak seperti tanda tangan yang dihasilkan dengan ECDSA. Ini berarti bahwa penyerang tidak dapat memodifikasi tanda tangan yang valid untuk membuat tanda tangan valid lainnya untuk pesan yang sama dan kunci publik yang sama. Kerentanan ini sebelumnya ada pada Bitcoin dan secara khusus mencegah implementasi aman dari Lightning Network. Ini diatasi untuk ECDSA dengan softfork SegWit pada tahun 2017, yang melibatkan pemindahan tanda tangan ke database terpisah dari transaksi untuk mencegah kemampuan manipulasinya.
@@ -1062,29 +1062,29 @@ Di Bitcoin, ada terutama 3 flag sighash dasar:
 
 - `SIGHASH_ALL` (`0x01`): Tanda tangan berlaku untuk semua input dan semua output dari transaksi. Transaksi ini dengan demikian sepenuhnya dilindungi oleh tanda tangan dan tidak dapat lagi dimodifikasi. `SIGHASH_ALL` adalah sighash yang paling sering digunakan dalam transaksi sehari-hari ketika seseorang hanya ingin melakukan transaksi tanpa bisa dimodifikasi.
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 Dalam semua diagram dari bab ini, warna oranye mewakili elemen yang dilindungi oleh tanda tangan, sementara warna hitam menunjukkan yang tidak.
 
 - `SIGHASH_NONE` (`0x02`): Tanda tangan mencakup semua input tetapi tidak ada output, sehingga memungkinkan modifikasi output setelah tanda tangan. Secara konkret, ini mirip dengan cek kosong. Penandatangan membuka UTXO di input tetapi meninggalkan bidang output sepenuhnya dapat dimodifikasi. Siapa pun yang mengetahui transaksi ini dapat menambahkan output pilihan mereka, misalnya dengan menentukan alamat penerima untuk mengumpulkan dana yang digunakan oleh input, dan kemudian menyiarkan transaksi untuk memulihkan bitcoin. Tanda tangan pemilik input tidak akan dibatalkan, karena hanya mencakup input.
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 - `SIGHASH_SINGLE` (`0x03`): Tanda tangan mencakup semua input serta satu output, sesuai dengan indeks input yang ditandatangani. Misalnya, jika tanda tangan membuka _scriptPubKey_ dari input #0, maka itu juga mencakup output #0. Tanda tangan juga melindungi semua input lain, yang tidak dapat lagi dimodifikasi. Namun, siapa pun dapat menambahkan output tambahan tanpa membatalkan tanda tangan, asalkan output #0, yang merupakan satu-satunya yang dilindungi olehnya, tidak dimodifikasi.
-  ![CYP201](assets/fr/028.webp)
+  ![CYP201](assets/en/033.webp)
 
 Selain ketiga flag sighash ini, ada juga modifikator `SIGHASH_ANYONECANPAY` (`0x80`). Modifikator ini dapat digabungkan dengan flag sighash dasar untuk menciptakan tiga flag sighash baru:
 
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): Tanda tangan mencakup satu input sambil mencakup semua output dari transaksi. Flag sighash gabungan ini memungkinkan, misalnya, pembuatan transaksi crowdfunding. Penyelenggara menyiapkan output dengan alamat mereka dan jumlah target, dan setiap investor kemudian dapat menambahkan input untuk mendanai output ini. Setelah dana yang cukup terkumpul di input untuk memenuhi output, transaksi dapat disiarkan.
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Tanda tangan mencakup satu input, tanpa berkomitmen pada output apa pun;
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Tanda tangan ini mencakup satu input serta output yang memiliki indeks yang sama dengan input ini. Sebagai contoh, jika tanda tangan membuka _scriptPubKey_ dari input #3, ini juga akan mencakup output #3. Sisa transaksi tetap dapat dimodifikasi, baik dalam hal input lain maupun output lain.
-  ![CYP201](assets/fr/031.webp)
+  ![CYP201](assets/en/036.webp)
 
 ### Proyek untuk Menambahkan Bendera Sighash Baru
 
@@ -1092,7 +1092,7 @@ Saat ini (2024), hanya bendera sighash yang disajikan di bagian sebelumnya yang 
 
 Kedua bendera sighash ini akan menawarkan kemungkinan tambahan pada Bitcoin: menciptakan tanda tangan yang tidak mencakup input spesifik apa pun dari transaksi.
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 Ide ini awalnya dirumuskan oleh Joseph Poon dan Thaddeus Dryja dalam White Paper Lightning. Sebelum dinamai ulang, bendera sighash ini dinamakan `SIGHASH_NOINPUT`.
 Jika bendera sighash ini diintegrasikan ke dalam Bitcoin, ini akan memungkinkan penggunaan covenants, tetapi ini juga merupakan prasyarat wajib untuk mengimplementasikan Eltoo, protokol umum untuk lapisan kedua yang mendefinisikan cara bersama mengelola kepemilikan UTXO. Eltoo dirancang khusus untuk menyelesaikan masalah yang terkait dengan mekanisme negosiasi status saluran Lightning, yaitu, antara pembukaan dan penutupan.
@@ -1124,7 +1124,7 @@ UTXOs merepresentasikan fragmen-fragmen bitcoin, dengan ukuran yang bervariasi, 
 
 Dompet pertama yang digunakan pada Bitcoin adalah dompet JBOK (_Just a Bunch Of Keys_), yang mengelompokkan kunci-kunci yang dihasilkan secara privat secara independen dan tanpa ada hubungan antara satu dengan yang lain. Dompet ini beroperasi pada model sederhana di mana setiap kunci privat dapat membuka alamat penerima Bitcoin yang unik.
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 Jika seseorang ingin menggunakan beberapa kunci privat, maka diperlukan untuk membuat banyak cadangan untuk memastikan akses ke dana jika terjadi masalah dengan perangkat yang menyimpan dompet. Jika menggunakan satu kunci privat, struktur dompet ini mungkin cukup, karena satu cadangan sudah cukup. Namun, ini menimbulkan masalah: di Bitcoin, sangat disarankan untuk tidak selalu menggunakan kunci privat yang sama. Memang, sebuah kunci privat dikaitkan dengan alamat unik, dan alamat penerima Bitcoin biasanya dirancang untuk penggunaan satu kali. Setiap kali Anda menerima dana, Anda harus menghasilkan alamat kosong baru.
 
@@ -1137,7 +1137,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### Dompet HD (_Hierarchical Deterministic_)
 
 Untuk mengatasi keterbatasan dompet JBOK, struktur dompet baru kemudian digunakan. Pada tahun 2012, Pieter Wuille memperkenalkan perbaikan dengan BIP32, yang memperkenalkan dompet deterministik hierarkis. Prinsip dari dompet HD adalah untuk menurunkan semua kunci privat dari satu sumber informasi, yang disebut benih, secara deterministik dan hierarkis. Benih ini dihasilkan secara acak saat dompet dibuat dan merupakan cadangan unik yang memungkinkan untuk merekreasi semua kunci privat dompet. Dengan demikian, pengguna dapat menghasilkan jumlah kunci privat yang sangat besar untuk menghindari penggunaan ulang alamat dan menjaga privasi mereka, sambil hanya perlu membuat satu cadangan dompet mereka melalui benih.
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 Dalam dompet HD, derivasi kunci dilakukan menurut struktur hierarkis yang memungkinkan kunci-kunci untuk diorganisir ke dalam subruang derivasi, setiap subruang dapat dibagi lebih lanjut, untuk memfasilitasi pengelolaan dana dan interoperabilitas antara perangkat lunak dompet yang berbeda. Saat ini, standar ini diadopsi oleh mayoritas pengguna Bitcoin. Untuk alasan ini, kami akan memeriksanya secara detail dalam bab-bab berikut.
 
@@ -1169,7 +1169,7 @@ Entropi awal yang digunakan untuk dompet HD umumnya adalah 128 bit atau 256 bit,
 
 Dalam kebanyakan kasus, nomor acak ini dihasilkan secara otomatis oleh perangkat lunak dompet menggunakan PRNG (_Pseudo-Random Number Generator_). PRNG adalah kategori algoritma yang digunakan untuk menghasilkan urutan nomor dari keadaan awal, yang memiliki karakteristik mendekati nomor acak, tanpa benar-benar menjadi satu. PRNG yang baik harus memiliki sifat seperti keseragaman output, ketidakdugaan, dan ketahanan terhadap serangan prediktif. Berbeda dengan generator nomor acak sejati (TRNG), PRNG adalah deterministik dan dapat direproduksi.
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 Alternatifnya adalah menghasilkan entropi secara manual, yang menawarkan kontrol yang lebih baik tetapi juga jauh lebih berisiko. Saya sangat menyarankan agar tidak menghasilkan entropi untuk dompet HD Anda sendiri.
 
@@ -1201,7 +1201,7 @@ $$
 
 Setelah checksum dihitung, itu digabungkan dengan entropi untuk mendapatkan urutan bit yang diperpanjang dicatat $\text{ENT} \Vert \text{CS}$ ("concatenate" berarti untuk diletakkan ujung-ke-ujung).
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 ### Korespondensi antara Entropi dan Frasa Mnemonik
 
@@ -1231,17 +1231,17 @@ Misalnya, untuk entropi 256-bit, hasil $\text{ENT} \Vert \text{CS}$ adalah 264 b
 
 Urutan bit $\text{ENT} \Vert \text{CS}$ kemudian dibagi menjadi segmen-segmen 11 bit. Setiap segmen 11-bit, setelah dikonversi ke desimal, sesuai dengan nomor antara 0 dan 2047, yang menunjukkan posisi kata [dalam daftar 2048 kata yang distandarisasi oleh BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 Misalnya, untuk entropi 128-bit, checksum adalah 4 bit, sehingga total urutan berukuran 132 bit. Ini dibagi menjadi 12 segmen dari 11 bit (bit oranye menunjukkan checksum):
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 Setiap segmen kemudian dikonversi menjadi sebuah angka desimal yang mewakili sebuah kata dalam daftar. Misalnya, segmen biner `01011010001` setara dalam desimal dengan `721`. Dengan menambahkan 1 untuk menyelaraskan dengan pengindeksan daftar (yang dimulai dari 1 bukan 0), ini memberikan peringkat kata `722`, yang adalah "*focus*" dalam daftar.
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 Korespondensi ini diulang untuk setiap dari 12 segmen, untuk mendapatkan frasa 12 kata.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 ### Karakteristik dari Daftar Kata BIP39
 
@@ -1285,7 +1285,7 @@ Hati-hati, frasa sandi tidak boleh disamakan dengan kode PIN dari dompet perangk
 
 Frasa sandi bekerja bersama dengan frasa mnemonik, memodifikasi benih dari mana kunci dihasilkan. Jadi, meskipun seseorang mendapatkan frasa 12 atau 24 kata Anda, tanpa frasa sandi, mereka tidak dapat mengakses dana Anda. Menggunakan frasa sandi pada dasarnya menciptakan dompet baru dengan kunci yang berbeda. Memodifikasi (bahkan sedikit) frasa sandi akan menghasilkan dompet yang berbeda.
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 ### Mengapa Anda harus menggunakan frasa sandi?
 
@@ -1297,7 +1297,7 @@ Akhirnya, penggunaan frasa sandi menarik ketika seseorang ingin mengontrol keaca
 
 Agar frasa sandi efektif, harus cukup panjang dan acak. Seperti dengan kata sandi yang kuat, saya merekomendasikan memilih frasa sandi yang sepanjang dan seacak mungkin, dengan keragaman huruf, angka, dan simbol untuk membuat serangan brute force menjadi mustahil.
 Juga penting untuk menyimpan passphrase ini dengan benar, sama seperti frase mnemonik. **Kehilangannya berarti kehilangan akses ke bitcoin Anda**. Saya sangat menyarankan agar tidak hanya mengingatnya di kepala, karena ini meningkatkan risiko kehilangan secara tidak wajar. Yang ideal adalah menuliskannya pada media fisik (kertas atau logam) yang terpisah dari frase mnemonik. Cadangan ini jelas harus disimpan di tempat yang berbeda dari tempat penyimpanan frase mnemonik Anda untuk mencegah keduanya dikompromikan secara bersamaan.
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 Pada bagian berikut, kita akan menemukan bagaimana kedua elemen ini di dasar dompet Anda — frase mnemonik dan passphrase — digunakan untuk menurunkan pasangan kunci yang digunakan dalam *scriptPubKey* yang mengunci UTXO Anda.
 
@@ -1309,7 +1309,7 @@ Pada bagian berikut, kita akan menemukan bagaimana kedua elemen ini di dasar dom
 
 Setelah frase mnemonik dan passphrase opsional dihasilkan, proses penurunan dompet Bitcoin HD dapat dimulai. Frase mnemonik pertama kali diubah menjadi seed yang merupakan dasar dari semua kunci dompet.
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 ### Seed dari Dompet HD
 
@@ -1332,7 +1332,7 @@ s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 Nilai seed ini dipengaruhi oleh nilai frase mnemonik dan passphrase. Dengan mengubah passphrase, seed yang berbeda diperoleh. Namun, dengan frase mnemonik dan passphrase yang sama, seed yang sama selalu dihasilkan, karena PBKDF2 adalah fungsi deterministik. Ini memastikan bahwa pasangan kunci yang sama dapat diambil kembali melalui cadangan kita.
 
@@ -1370,7 +1370,7 @@ C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 $$
 
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 ### Peran Kunci Utama dan Kode Rantai
 
@@ -1385,7 +1385,7 @@ Sebelum melanjutkan dengan derivasi dompet HD dengan elemen berikutnya, saya ing
 
 Kunci terluas hanyalah penggabungan dari sebuah kunci (baik privat maupun publik) dan kode rantai yang terkait dengannya. Kode rantai ini penting untuk derivasi kunci anak karena, tanpanya, mustahil untuk menurunkan kunci anak dari kunci induk, tetapi kita akan menemukan proses ini lebih tepat di bab berikutnya. Kunci terluas ini memungkinkan penggabungan semua informasi yang diperlukan untuk menurunkan kunci anak, dengan demikian menyederhanakan manajemen akun dalam dompet HD.
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 Kunci terluas terdiri dari dua bagian:
 - Muatan, yang berisi kunci privat atau publik serta kode rantai yang terkait;
@@ -1408,7 +1408,7 @@ Untuk selanjutnya, kita akan mengadopsi notasi berikut:
 - $K_{\text{CHD}}^h$: sebuah kunci publik anak hardened;
 - $k_{\text{CHD}}^h$: sebuah kunci privat anak hardened.
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 ### Konstruksi Kunci yang Diperluas
 
@@ -1502,7 +1502,7 @@ Derivasi pasangan kunci anak dalam dompet HD Bitcoin bergantung pada struktur hi
 
 Semua derivasi ini dimulai dengan kunci induk dan kode rantai induk, yang merupakan orang tua pertama pada tingkat kedalaman 0. Mereka, dalam suatu cara, adalah Adam dan Hawa dari kunci dompet Anda, leluhur bersama dari semua kunci yang diturunkan.
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 Mari kita jelajahi bagaimana derivasi deterministik ini bekerja.
 
@@ -1520,7 +1520,7 @@ Derivasi setiap kunci anak didasarkan pada fungsi HMAC-SHA512, yang telah kita b
 
 Dalam semua perhitungan kami, saya akan menandai $\text{hash}$ output dari fungsi HMAC-SHA512.
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 #### Derivasi Kunci Privat Anak dari Kunci Privat Induk
 
@@ -1574,7 +1574,7 @@ $$
 
 Berikut adalah representasi skematik dari keseluruhan turunan:
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 Untuk **kunci anak yang diperkuat** ($i \geq 2^{31}$), perhitungan $\text{hash}$ adalah sebagai berikut:
 
@@ -1620,7 +1620,7 @@ $$
 
 Berikut adalah representasi skematik dari keseluruhan turunan:
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 Kita dapat melihat bahwa turunan normal dan turunan yang diperkuat berfungsi dengan cara yang sama, dengan perbedaan ini: turunan normal menggunakan kunci publik induk sebagai input ke fungsi HMAC, sementara turunan yang diperkuat menggunakan kunci privat induk.
 
@@ -1675,7 +1675,7 @@ $$
 
 Berikut adalah representasi skematik dari turunan keseluruhan:
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 ### Korespondensi antara kunci publik dan privat anak
 
@@ -1748,7 +1748,7 @@ Setiap akun yang ditentukan pada kedalaman 3 kemudian terstruktur menjadi dua ra
 
 **Kedalaman 5: Indeks Alamat (BIP32)**
 Akhirnya, kedalaman 5 mewakili langkah terakhir dari derivasi dalam dompet. Meskipun secara teknis mungkin untuk terus berlanjut tanpa batas, standar saat ini berhenti di sini. Pada kedalaman akhir ini, pasangan kunci yang akan benar-benar digunakan untuk mengunci dan membuka UTXO diturunkan. Setiap indeks memungkinkan membedakan antara pasangan kunci saudara: dengan demikian, alamat penerima pertama akan menggunakan indeks $/0/$, yang kedua menggunakan indeks $/1/$, dan seterusnya.
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 ### Notasi Jalur Derivasi
 
@@ -1838,7 +1838,7 @@ Alamat penerima adalah potongan informasi yang tertanam dalam *scriptPubKey* unt
 
 Seperti yang dijelaskan sebelumnya, peran transaksi adalah untuk mentransfer kepemilikan bitcoin dari input ke output. Proses ini melibatkan konsumsi UTXO sebagai input sambil menciptakan UTXO baru sebagai output. UTXO ini diamankan oleh skrip, yang mendefinisikan kondisi yang diperlukan untuk membuka dana.
 Ketika seorang pengguna menerima bitcoin, pengirim membuat sebuah output UTXO dan menguncinya dengan *scriptPubKey*. Skrip ini berisi aturan yang biasanya menentukan tanda tangan dan kunci publik yang diperlukan untuk membuka UTXO ini. Untuk menghabiskan UTXO ini dalam transaksi baru, pengguna harus menyediakan informasi yang diminta melalui *scriptSig*. Eksekusi *scriptSig* bersama dengan *scriptPubKey* harus mengembalikan "true" atau `1`. Jika kondisi ini terpenuhi, UTXO dapat dihabiskan untuk membuat UTXO baru, yang dikunci oleh *scriptPubKey* baru, dan seterusnya.
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 Tepatnya dalam *scriptPubKey* tempat alamat penerima ditemukan. Namun, penggunaannya bervariasi tergantung pada standar skrip yang diadopsi. Berikut adalah tabel ringkasan informasi yang terkandung dalam *scriptPubKey* menurut standar yang digunakan, serta informasi yang diharapkan dalam *scriptSig* untuk membuka *scriptPubKey*.
 
@@ -1872,33 +1872,33 @@ Eksekusi skrip yang baru saja saya berikan sebagai contoh mengikuti proses ini:
 
 - Kami memiliki *scriptSig*, *ScriptPubKey*, dan stack:
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 - *scriptSig* di-push ke dalam stack:
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 - `OP_DUP` menduplikasi kunci publik yang disediakan dalam *scriptSig* di stack:
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 - `OP_HASH160` mengembalikan hash dari kunci publik yang baru saja diduplikasi:
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 - `OP_PUSHBYTES_20 <pubKeyHash>` mendorong alamat Bitcoin yang terkandung dalam *scriptPubKey* ke stack:
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 - `OP_EQUALVERIFY` memverifikasi bahwa hash kunci publik cocok dengan alamat penerima yang disediakan:
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 `OP_CHECKSIG` memeriksa tanda tangan yang terkandung dalam *scriptSig* menggunakan kunci publik. Opcode ini pada dasarnya melakukan verifikasi tanda tangan seperti yang kami jelaskan di bagian 3 dari pelatihan ini:
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 - Jika `1` tetap ada di stack, maka skrip tersebut valid:
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 Oleh karena itu, untuk merangkum, skrip ini memungkinkan verifikasi, dengan bantuan tanda tangan digital, bahwa pengguna yang mengklaim kepemilikan UTXO ini dan ingin menghabiskannya memang memiliki kunci privat yang terkait dengan alamat penerima yang digunakan selama pembuatan UTXO ini.
 
@@ -1936,7 +1936,7 @@ Secara teknis, skrip P2TR mengunci bitcoin pada kunci publik Schnorr unik, yang 
 - Dengan memenuhi salah satu skrip yang terkandung dalam pohon Merkle (*script path*).
 P2TR menawarkan fleksibilitas yang besar, karena memungkinkan penguncian bitcoin baik dengan kunci publik unik, dengan beberapa skrip pilihan, atau keduanya secara bersamaan. Keuntungan dari struktur pohon Merkle ini adalah hanya skrip pengeluaran yang digunakan yang diungkapkan selama transaksi, tetapi semua skrip alternatif lainnya tetap rahasia.
 
-![CYP201](assets/fr/063.webp)
+![CYP201](assets/en/068.webp)
 
 P2TR sesuai dengan output SegWit versi 1, yang berarti bahwa tanda tangan untuk input P2TR disimpan di bagian *Witness* transaksi, dan tidak di *scriptSig*. Alamat P2TR menggunakan pengkodean *bech32m* dan dimulai dengan `bc1p`, tetapi mereka cukup unik karena tidak menggunakan fungsi hash untuk konstruksinya. Memang, mereka secara langsung mewakili kunci publik $Q$ yang hanya diformat dengan metadata. Oleh karena itu, ini adalah model skrip yang dekat dengan P2PK.
 
@@ -1955,7 +1955,7 @@ Setelah melakukan semua langkah turunan dari kunci induk ke kedalaman 5 mengguna
 
 Langkah pertama adalah mengompres kunci publik $K$. Untuk memahami proses ini dengan baik, mari kita ingat kembali beberapa dasar yang dibahas di bagian 3. Kunci publik pada Bitcoin adalah titik $K$ yang terletak pada kurva eliptik. Ini diwakili dalam bentuk $(x, y)$, di mana $x$ dan $y$ adalah koordinat titik. Dalam bentuknya yang tidak dikompres, kunci publik ini berukuran 520 bit: 8 bit untuk awalan (nilai awal `0x04`), 256 bit untuk koordinat $x$, dan 256 bit untuk koordinat $y$. Namun, kurva eliptik memiliki properti simetri terhadap sumbu x: untuk koordinat $x$ yang diberikan, hanya ada dua nilai yang mungkin untuk $y$: $y$ dan $-y$. Kedua titik ini terletak di kedua sisi sumbu x. Dengan kata lain, jika kita tahu $x$, cukup untuk menentukan apakah $y$ genap atau ganjil untuk mengidentifikasi titik yang tepat pada kurva.
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 
 Untuk mengompres kunci publik, hanya $x$ yang dikodekan, yang menempati 256 bit, dan sebuah prefiks ditambahkan untuk menentukan paritas dari $y$. Metode ini mengurangi ukuran kunci publik menjadi 264 bit daripada awalnya 520. Prefiks `0x02` menunjukkan bahwa $y$ genap, dan prefiks `0x03` menunjukkan bahwa $y$ ganjil.
 Mari kita ambil contoh untuk memahami dengan baik, dengan kunci publik mentah dalam representasi tidak terkompresi:
@@ -2143,7 +2143,7 @@ Keunikan dari alfabet _bech32_ ini adalah termasuk semua karakter alfanumerik ke
 
 Untuk merangkum, berikut adalah proses derivasinya:
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 Inilah cara mendapatkan alamat penerima P2WPKH (SegWit v0) dari sepasang kunci. Mari kita lanjutkan ke alamat P2TR (SegWit v1 / Taproot) dan temukan proses generasinya.
 
@@ -2219,7 +2219,7 @@ $$
 
 Kemudian kita melanjutkan dengan menggabungkan hasilnya dua demi dua, melewatinya pada setiap langkah melalui fungsi hash bertag `TapBranch`, sampai kita mendapatkan akar pohon Merkle:
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 Setelah akar Merkle $h_{\text{root}}$ dihitung, kita dapat menghitung tweak. Untuk itu, kunci publik internal dompet $P$ digabungkan dengan akar $h_{\text{root}}$, dan hasilnya dimasukkan ke dalam fungsi hash bertanda `TapTweak`:
 

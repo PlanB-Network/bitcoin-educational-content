@@ -978,7 +978,6 @@ Bu araç ve amaç karmaşası "para zenginliktir" sloganında da görülmektedir
 Bu, çoğu devletin para politikasını yöneten aksiyomdur. Gerçekten de para miktarındaki yapay artış, bankaların bireylere ve devletlere borç vermelerini ve borçlarını kolayca geri ödemelerini sağlar, bu "gördüğümüz şeydir". Ancak "görmediğimiz şey", herhangi bir gerçek servet yaratımına dayanmayan bu para yaratımının enflasyona ve tasarruf sahiplerinin mahvına yol açacağıdır.
 
 
-![image](assets/en/082.webp)
 
 
 Dolayısıyla Bastiat'ya göre gerçek zenginlik, ihtiyaçlarımızı karşılamak için çalışarak ürettiğimiz faydalı şeyler bütünüdür. Dolayısıyla para yalnızca yaygın olarak kullanılan bir Exchange aracıdır, yalnızca bir aracı rolü oynar.

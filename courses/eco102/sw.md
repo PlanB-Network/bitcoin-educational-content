@@ -978,7 +978,6 @@ Mkanganyiko huu wa njia na mwisho unapatikana katika kauli mbiu "fedha ni utajir
 Huu ndio mtazamo unaotawala sera ya fedha ya majimbo mengi. Hakika, ongezeko la bandia la kiasi cha fedha huruhusu mabenki kutoa mikopo kwa watu binafsi na mataifa kwa urahisi kulipa madeni yao, hii ndiyo "tunaona". Lakini "tusichokiona" ni kwamba uundaji huu wa pesa, sio msingi wa uundaji wa mali halisi, utasababisha mfumuko wa bei na uharibifu wa waokoaji.
 
 
-![image](assets/en/082.webp)
 
 
 Utajiri wa kweli, kulingana na Bastiat, kwa hivyo ni seti ya vitu muhimu ambavyo tunazalisha kupitia kazi ili kukidhi mahitaji yetu. Kwa hivyo pesa ni njia inayotumika tu ya Ubadilishanaji, ina jukumu la mpatanishi pekee.

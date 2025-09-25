@@ -978,7 +978,6 @@ To pomieszanie środków i celów można znaleźć w sloganie "pieniądze to bog
 Jest to aksjomat, który rządzi polityką pieniężną większości państw. Rzeczywiście, sztuczny wzrost ilości pieniądza pozwala bankom pożyczać pieniądze osobom fizycznym i państwom na łatwą spłatę ich zadłużenia, to jest "to, co widzimy". Ale "to, czego nie widzimy", to fakt, że ta kreacja pieniądza, nieoparta na żadnym realnym tworzeniu bogactwa, doprowadzi do inflacji i ruiny oszczędzających.
 
 
-![image](assets/en/082.webp)
 
 
 Prawdziwe bogactwo, według Bastiata, jest zatem zbiorem użytecznych rzeczy, które produkujemy poprzez pracę, aby zaspokoić nasze potrzeby. Pieniądze są zatem jedynie powszechnie używanym środkiem Exchange, odgrywają jedynie rolę pośrednika.

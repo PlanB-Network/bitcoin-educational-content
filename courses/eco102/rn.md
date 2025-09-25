@@ -978,7 +978,6 @@ Ukwo gutera urujijo kw'uburyo n'iherezo kuboneka mu nsiguro ivuga ngo "amahera n
 Ivyo ni vyo bigenzura politike y’amahera y’ibihugu vyinshi. Nkako, ukwo kwongerekana kw'amahera bituma amabanki aguriza amahera abantu ku giti cabo n'ibihugu kugira ngo bishobore kwishura umwenda wabo bitagoranye, ivyo ni vyo "tubona". Ariko "ico tutabona" ​​ni uko iyo nzira yo kurema amahera, itashingiye ku kurema ubutunzi nyakuri, izotuma haba ugutera imbere kw'ibiciro n'ugusenyuka kw'abazigama.
 
 
-![image](assets/en/082.webp)
 
 
 Ubutunzi nyakuri rero, nk’uko Bastiat abivuga, ni urutonde rw’ibintu vy’ingirakamaro dutanga biciye ku gikorwa kugira ngo turonke ivyo dukeneye. Amahera rero ni uburyo gusa bukoreshwa cane bwa Exchange, akora gusa uruhara rw’umuhuza.

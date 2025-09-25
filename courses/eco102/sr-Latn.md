@@ -977,7 +977,6 @@ Ova zbrka sredstava i cilja nalazi se u sloganu "novac je bogatstvo."
 Ovo je aksiom koji upravlja monetarnom politikom većine država. Zaista, veštačko povećanje količine novca omogućava bankama da pozajmljuju novac pojedincima i državama da lako otplate svoj dug, ovo je "ono što vidimo". Ali "ono što ne vidimo" je da će ovo stvaranje novca, koje nije zasnovano na stvarnom stvaranju bogatstva, dovesti do inflacije i propasti štediša.
 
 
-![image](assets/en/082.webp)
 
 
 Pravo bogatstvo, prema Bastiat-u, je dakle skup korisnih stvari koje proizvodimo radom kako bismo zadovoljili svoje potrebe. Novac je stoga samo uobičajeno sredstvo razmene, on igra samo ulogu posrednika.

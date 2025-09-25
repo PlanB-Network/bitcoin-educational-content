@@ -661,7 +661,6 @@ Dalam Bab XVI, ada teks yang sangat ironis lainnya, berjudul: Tangan Kanan dan T
 Mengikuti logika menciptakan pekerjaan dengan segala cara ini, mengapa tidak juga mengganti truk dengan gerobak dorong dan sekop dengan sendok teh? Semua sofisma ini memiliki satu kesamaan: mereka mengacaukan sarana dengan tujuan. Bagi Bastiat, tujuan ekonomi bukanlah pelestarian pekerjaan. Kita tidak seharusnya menilai utilitas pekerjaan berdasarkan durasi dan intensitasnya tetapi berdasarkan hasilnya: kepuasan kebutuhan, utilitas.
 Kekeliruan antara sarana dan tujuan ditemukan dalam slogan "uang adalah kekayaan." Ini adalah aksioma yang mengatur kebijakan moneter sebagian besar negara. Memang, peningkatan buatan dalam jumlah uang memungkinkan bank untuk meminjamkan uang kepada individu dan negara untuk dengan mudah melunasi utang mereka, ini adalah "apa yang kita lihat". Namun, "apa yang tidak kita lihat" adalah bahwa penciptaan uang ini, yang tidak didasarkan pada penciptaan kekayaan nyata, akan menyebabkan inflasi dan kehancuran bagi para penabung.
 
-![image](assets/en/082.webp)
 
 Kekayaan sejati, menurut Bastiat, adalah kumpulan hal-hal berguna yang kita produksi melalui pekerjaan untuk memenuhi kebutuhan kita. Uang hanya merupakan sarana pertukaran yang umum digunakan, ia hanya memainkan peran sebagai perantara.
 

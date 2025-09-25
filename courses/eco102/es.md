@@ -981,7 +981,6 @@ Esta confusión de medios y fines se encuentra en el eslogan "el dinero es rique
 Este es el axioma que rige la política monetaria de la mayoría de los Estados. En efecto, el aumento artificial de la cantidad de dinero permite a los bancos prestar dinero a los particulares y a los Estados para reembolsar fácilmente su deuda, esto es "lo que vemos". Pero "lo que no vemos" es que esta creación de dinero, no basada en ninguna creación de riqueza real, conducirá a la inflación y a la ruina de los ahorradores.
 
 
-![image](assets/en/082.webp)
 
 
 La verdadera riqueza, según Bastiat, es por tanto el conjunto de cosas útiles que producimos mediante el trabajo para satisfacer nuestras necesidades. Así pues, el dinero no es más que un medio de uso corriente de Exchange, sólo desempeña el papel de intermediario.

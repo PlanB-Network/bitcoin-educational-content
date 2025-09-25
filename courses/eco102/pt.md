@@ -981,7 +981,6 @@ Esta confusão entre meios e fins está presente no slogan "dinheiro é riqueza"
 É este o axioma que rege a política monetária da maioria dos Estados. De facto, o aumento artificial da quantidade de dinheiro permite aos bancos emprestar dinheiro aos particulares e aos Estados pagar facilmente as suas dívidas, é "o que vemos". Mas "o que não vemos" é que esta criação de dinheiro, não baseada em qualquer criação real de riqueza, conduzirá à inflação e à ruína dos aforradores.
 
 
-![image](assets/en/082.webp)
 
 
 A verdadeira riqueza, segundo Bastiat, é portanto o conjunto de coisas úteis que produzimos através do trabalho para satisfazer as nossas necessidades. O dinheiro não passa, portanto, de um meio de Exchange vulgarmente utilizado, desempenhando apenas um papel de intermediário.

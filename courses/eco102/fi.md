@@ -981,7 +981,6 @@ Tämä keinojen ja päämäärän sekoittuminen näkyy iskulauseessa "raha on ri
 Tämä on aksiooma, joka ohjaa useimpien valtioiden rahapolitiikkaa. Rahan määrän keinotekoinen lisääminen antaa pankeille mahdollisuuden lainata rahaa yksityishenkilöille ja valtioille, jotta ne voivat helposti maksaa velkansa takaisin, tämä on "se, mitä me näemme". Mutta "mitä emme näe" on se, että tämä rahan luominen, joka ei perustu todelliseen vaurauden luomiseen, johtaa inflaatioon ja säästäjien tuhoon.
 
 
-![image](assets/en/082.webp)
 
 
 Todellinen rikkaus on Bastiat'n mukaan siis niiden hyödyllisten asioiden kokonaisuus, joita tuotamme työllä tarpeidemme tyydyttämiseksi. Raha on siis vain yleisesti käytetty Exchange:n väline, sillä on vain välittäjän rooli.

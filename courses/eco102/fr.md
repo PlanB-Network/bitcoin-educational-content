@@ -691,7 +691,6 @@ On retrouve cette confusion du moyen et du but dans ce slogan « l’argent, c�
 
 Tel est l’axiome qui commande la politique monétaire de la plupart des États. En effet, l’augmentation artificielle de la quantité de monnaie permet aux banques de prêter de l’argent aux particuliers et aux États de rembourser facilement leur dette, c’est « ce qu’on voit ». Mais « ce qu’on ne voit pas », c’est que cette création de monnaie ne reposant sur aucune création de richesse réelle entraînera l’inflation et la ruine des épargnants.
 
-![image](assets/en/082.webp)
 
 La véritable richesse, selon Bastiat, c’est donc l'ensemble des choses utiles que nous produisons par le travail pour la satisfaction de nos besoins. La monnaie n’est donc qu’un moyen d’échange communément utilisé, elle ne joue qu’un rôle d’intermédiaire.
 

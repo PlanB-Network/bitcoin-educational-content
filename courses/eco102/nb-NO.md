@@ -981,7 +981,6 @@ Denne sammenblandingen av mål og middel finner vi igjen i slagordet "penger er 
 Dette er aksiomet som styrer pengepolitikken i de fleste stater. Den kunstige økningen i pengemengden gjør det mulig for bankene å låne ut penger til enkeltpersoner og stater slik at de lett kan betale tilbake gjelden sin, dette er "det vi ser". Men "det vi ikke ser" er at denne pengeskapingen, som ikke er basert på noen reell verdiskapning, vil føre til inflasjon og ruinering av sparerne.
 
 
-![image](assets/en/082.webp)
 
 
 Sann rikdom, ifølge Bastiat, er derfor det settet av nyttige ting som vi produserer gjennom arbeid for å tilfredsstille våre behov. Penger er dermed bare et vanlig brukt middel for Exchange, de spiller bare rollen som et mellomledd.

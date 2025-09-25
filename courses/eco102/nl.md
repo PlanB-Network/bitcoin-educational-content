@@ -978,7 +978,6 @@ Deze verwarring van middel en doel is terug te vinden in de slogan "geld is rijk
 Dit is het axioma dat het monetaire beleid van de meeste staten bepaalt. Inderdaad, de kunstmatige toename van de hoeveelheid geld stelt banken in staat om geld te lenen aan individuen en staten om hun schulden gemakkelijk terug te betalen, dit is "wat we zien". Maar "wat we niet zien" is dat deze geldcreatie, die niet gebaseerd is op enige echte welvaartschepping, zal leiden tot inflatie en de ondergang van spaarders.
 
 
-![image](assets/en/082.webp)
 
 
 Ware rijkdom, volgens Bastiat, is daarom het geheel van nuttige dingen die we produceren door te werken om onze behoeften te bevredigen. Geld is dus slechts een algemeen gebruikt Exchange middel, het speelt slechts de rol van tussenpersoon.

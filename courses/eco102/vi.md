@@ -981,7 +981,6 @@ Sự nhầm lẫn giữa phương tiện và mục đích này được thể hi
 Đây là chân lý chi phối chính sách tiền tệ của hầu hết các quốc gia. Thực tế, việc tăng lượng tiền một cách giả tạo cho phép các ngân hàng cho cá nhân và quốc gia vay tiền để dễ dàng trả nợ, đây là "điều chúng ta thấy". Nhưng "điều chúng ta không thấy" là việc tạo ra tiền này, không dựa trên bất kỳ sự tạo ra của cải thực sự nào, sẽ dẫn đến lạm phát và phá sản của những người tiết kiệm.
 
 
-![image](assets/en/082.webp)
 
 
 Do đó, theo Bastiat, của cải đích thực là tập hợp những thứ hữu ích mà chúng ta tạo ra thông qua lao động để thỏa mãn nhu cầu của mình. Do đó, tiền chỉ là một phương tiện phổ biến của Exchange, nó chỉ đóng vai trò trung gian.

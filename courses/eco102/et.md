@@ -981,7 +981,6 @@ See vahendite ja eesmärgi segiajamine väljendub loosungis "raha on rikkus"
 See on aksioom, mis reguleerib enamiku riikide rahapoliitikat. Tõepoolest, raha koguse kunstlik suurendamine võimaldab pankadel laenata raha üksikisikutele ja riikidele, et nad saaksid oma võlad hõlpsasti tagasi maksta, see on "see, mida me näeme". Kuid "mida me ei näe", on see, et see rahaloome, mis ei põhine tegelikul jõukuse loomisel, viib inflatsiooni ja hoiustajate hävinguni.
 
 
-![image](assets/en/082.webp)
 
 
 Tõeline rikkus on Bastiat' sõnul seega kasulikud asjad, mida me oma vajaduste rahuldamiseks tööga toodame. Raha on seega ainult Exchange ühiselt kasutatav vahend, see mängib vaid vahendaja rolli.

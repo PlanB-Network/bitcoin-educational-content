@@ -981,7 +981,6 @@ Diese Verwechslung von Mittel und Zweck findet sich in dem Slogan "Geld ist Reic
 Dies ist das Axiom, das die Geldpolitik der meisten Staaten bestimmt. Die künstliche Vermehrung der Geldmenge ermöglicht es den Banken, Privatpersonen und Staaten Geld zu leihen, damit sie ihre Schulden problemlos zurückzahlen können, das ist "was wir sehen". Aber "was wir nicht sehen" ist, dass diese Geldschöpfung, die nicht auf einer realen Vermögensbildung beruht, zur Inflation und zum Ruin der Sparer führen wird.
 
 
-![image](assets/en/082.webp)
 
 
 Der wahre Reichtum ist nach Bastiat also die Gesamtheit der nützlichen Dinge, die wir durch Arbeit zur Befriedigung unserer Bedürfnisse herstellen. Geld ist also nur ein allgemein verwendetes Mittel der Exchange, es spielt nur die Rolle eines Vermittlers.

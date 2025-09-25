@@ -651,7 +651,6 @@ Následujíc tuto logiku vytváření pracovních míst za každou cenu, proč t
 Toto zaměňování prostředků a cílů najdeme ve sloganu "peníze jsou bohatství."
 Toto je axiom, který řídí měnovou politiku většiny států. Skutečně, umělé zvýšení množství peněz umožňuje bankám půjčovat peníze jednotlivcům a státům snadno splácet jejich dluh, to je "to, co vidíme". Ale "to, co nevidíme" je, že toto vytváření peněz, nezaložené na žádném skutečném vytváření bohatství, povede k inflaci a zruinování spořitelů.
 
-![image](assets/en/082.webp)
 
 Pravé bohatství, podle Bastiata, je tedy soubor užitečných věcí, které vyrábíme prací, abychom uspokojili naše potřeby. Peníze jsou tak pouze běžně používaným prostředkem výměny, hrají pouze roli prostředníka.
 

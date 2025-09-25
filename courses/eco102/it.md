@@ -672,7 +672,6 @@ Seguendo questa logica di creare posti di lavoro a tutti i costi, perché non so
 Questa confusione di mezzi e fine si trova nello slogan "il denaro è ricchezza".
 Questo è l'assioma che governa la politica monetaria della maggior parte degli stati. Infatti, l'aumento artificiale della quantità di denaro permette alle banche di prestare denaro a individui e agli stati di ripagare facilmente il loro debito, questo è "ciò che vediamo". Ma "ciò che non vediamo" è che questa creazione di denaro, non basata su alcuna reale creazione di ricchezza, porterà all'inflazione e alla rovina dei risparmiatori.
 
-![image](assets/en/082.webp)
 
 La vera ricchezza, secondo Bastiat, è quindi l'insieme delle cose utili che produciamo attraverso il lavoro per soddisfare i nostri bisogni. Il denaro è quindi solo un mezzo di scambio comunemente usato, gioca solo il ruolo di intermediario.
 

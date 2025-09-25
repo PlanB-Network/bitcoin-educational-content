@@ -978,7 +978,6 @@ Denna sammanblandning av medel och mål återfinns i sloganen "pengar är rikedo
 Detta är det axiom som styr penningpolitiken i de flesta stater. Den artificiella ökningen av penningmängden gör det möjligt för bankerna att låna ut pengar till privatpersoner och stater så att de lätt kan betala tillbaka sina skulder, detta är "vad vi ser". Men "det vi inte ser" är att detta skapande av pengar, som inte bygger på något verkligt skapande av välstånd, kommer att leda till inflation och ruin för spararna.
 
 
-![image](assets/en/082.webp)
 
 
 Sann rikedom, enligt Bastiat, är därför den uppsättning användbara saker som vi producerar genom arbete för att tillfredsställa våra behov. Pengar är således bara ett vanligt förekommande medel för Exchange, det spelar bara rollen som en mellanhand.

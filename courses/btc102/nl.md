@@ -42,12 +42,12 @@ Om dit te bereiken is de BTC102-cursus onderverdeeld in verschillende secties, e
 Het eerste deel, "Vereisten om Bitcoin te begrijpen", bereidt je effectief voor op het pad dat voor je ligt. Je leert de belangrijkste valkuilen te herkennen met betrekking tot oplichting en financiële fraude die in het Bitcoin ecosysteem kunnen voorkomen. Daarna behandelen we de essentiële basisprincipes van online beveiliging.
 Tot slot geef ik je een paar praktische tips speciaal voor beginners om veelgemaakte fouten te voorkomen als je voor het eerst met Bitcoin werkt.
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/nl/001.webp)
 
 Het tweede deel, "Begrijpen waar je aan begint", zal je algemene begrip van Bitcoin vergroten. We beginnen met een overzicht om er zeker van te zijn dat je de essentiële concepten volledig begrijpt.
 Daarna zullen we uitleggen waarom Bitcoin fundamenteel belangrijk is vanuit technologisch, economisch en sociaal perspectief, waardoor je geloof in de waarde ervan versterkt wordt. Je zult ook de Bitcoin industrie als geheel verkennen: zijn hoofdrolspelers, organisatie en evolutie door de jaren heen. Tenslotte behandelen we de gelaagde architectuur van het Bitcoin ecosysteem, een cruciaal concept om te begrijpen hoe dit systeem blijft innoveren zonder de integriteit van het kernprotocol aan te tasten.
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/nl/002.webp)
 
 Het derde deel, "Jouw plan opstellen", richt zich op je persoonlijke benadering van Bitcoin. We beginnen met het definiëren van jouw gebruikersprofiel uit vier hoofdcategorieën:
 
@@ -58,11 +58,11 @@ Het derde deel, "Jouw plan opstellen", richt zich op je persoonlijke benadering 
 
 We begeleiden je bij het implementeren van een strategie die past bij jouw profiel en die je helpt om je persoonlijke doelen te bereiken.
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/nl/003.webp)
 
 Ten slotte behandelt het vierde deel, "Je erfgenamen en vermogen beschermen", een cruciaal onderwerp dat vaak over het hoofd wordt gezien: hoe je ervoor kunt zorgen dat jouw Bitcoin wordt doorgegeven aan je dierbaren in geval van een onverwachte gebeurtenis. Je leert hoe je een Bitcoin erfenisplan kunt maken en opzetten, zodat je er zeker van kunt zijn dat je vermogen ook na je leven behouden blijft.
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/nl/004.webp)
 
 Aan het einde van deze cursus beschik je over alle praktische hulpmiddelen die je nodig hebt om vol vertrouwen door het Bitcoin ecosysteem te navigeren en een van de meest geavanceerde gebruikers te worden!
 
@@ -90,7 +90,7 @@ Voordat we verder gaan, is het belangrijk om een duidelijk onderscheid te maken 
 
 - **De cryptocurrency-industrie** daarentegen is veel groter en omvat tienduizenden verschillende projecten, elk met zijn eigen token. Deze ruimte wordt vaak gedreven door snelle innovatie, hype en financiële speculatie op korte termijn. Veel van deze projecten zijn gecentraliseerd, minder veilig en bieden niet veel echte waarde, ondanks gedurfde beloften en flitsende marketing.
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/nl/005.webp)
 
 Als je beter wilt begrijpen waar Bitcoin vandaan komt en wat het echt anders maakt dan andere projecten, raad ik je aan om later deze gratis vervolgcursus over de geschiedenis van Bitcoin te bekijken:
 
@@ -98,7 +98,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Zoals je weet, is het Plan ₿ Network platform exclusief gewijd aan Bitcoin. Als je echter het onderscheid met andere cryptocurrencies begrijpt, kun je de valkuilen vermijden die geassocieerd worden met nutteloze en soms zelfs frauduleuze projecten.
 
-![BTC102-Bitcoin](assets/fr/002.webp)
+![image](assets/nl/006.webp)
 
 ### De belangrijkste vormen van oplichting om te vermijden
 
@@ -108,7 +108,7 @@ Hier zijn de meest voorkomende zwendelpraktijken die je tijdens je reis kunt teg
 
 Dit zijn enkele van de meest voorkomende zwendelpraktijken in de cryptowereld. In een Ponzi-schema ontvangen vroege deelnemers uitbetalingen met het geld van nieuwere deelnemers; niet van een echte investering of product. Er wordt geen echte waarde gecreëerd. Het systeem werkt alleen zolang er nieuwe mensen bijkomen. Zodra de toestroom van nieuwe deelnemers afneemt, valt het hele systeem uit elkaar.
 
-![BTC102-Bitcoin](assets/fr/003.webp)
+![image](assets/nl/007.webp)
 
 Deze vormen van oplichting hebben meestal:
 
@@ -137,13 +137,13 @@ Bij dit soort zwendel wordt de prijs van een activum - vaak een cryptocurrency t
 - Op het hoogtepunt van de hype verkopen de insiders hun holdings allemaal tegelijk.
 - De prijs crasht, waardoor laatkomers zware verliezen lijden.
 
-![BTC102-Bitcoin](assets/fr/004.webp)
+![image](assets/nl/008.webp)
 
 Het is belangrijk om te weten dat Pump & Dump-strategieën in veel landen illegaal zijn en worden beschouwd als een vorm van marktmanipulatie. Desondanks blijven dit soort constructies floreren, vooral in de wereld van cryptocurrency, waar de regelgeving nog bezig is met een inhaalslag.
 
 Wees vooral voorzichtig met privé "signaal" groepen op platformen zoals Telegram, Discord of andere sociale media kanalen. Deze worden vaak gerund door influencers of zelfbenoemde experts, waarvan sommigen zelfs inschrijfgeld vragen. Hoewel deze groepen beweren exclusieve investeringsmogelijkheden te bieden, is de realiteit veel eenzijdiger: alleen de organisatoren profiteren, terwijl de meeste deelnemers uiteindelijk hun geld verliezen.
 
-![BTC102-Bitcoin](assets/fr/005.webp)
+![image](assets/nl/009.webp)
 
 Het is waar dat sommige deelnemers tijdelijk kunnen profiteren van dit soort marktmanipulaties, maar hun succes is meestal gebaseerd op niets meer dan geluk en perfecte timing. Op de lange termijn zijn deze constructies niet duurzaam. Ze vereisen constante betrokkenheid met een hoog risico en herhaaldelijke deelname aan frauduleuze praktijken die onvermijdelijk zullen instorten.
 
@@ -161,7 +161,7 @@ Oplichters doen zich vaak voor als bekende publieke figuren (zoals Elon Musk of 
 
 Soms doen deze oplichtingspraktijken zich voor als "voorschotfraude". Er wordt je een prijs of beloning beloofd (geld, een product of een dienst) maar er wordt je eerst gevraagd om een bedrag te betalen, zogenaamd om zaken als verzending, belastingen of transactiekosten te dekken. Zodra de betaling is gedaan, verdwijnt de oplichter en de beloofde beloning komt nooit aan.
 
-![BTC102-Bitcoin](assets/fr/006.webp)
+![image](assets/nl/010.webp)
 
 #### Shitcoins en cryptocurrencies in de aanbieding
 
@@ -177,7 +177,7 @@ Controleer altijd de identiteit van de afzender voordat je op een link klikt of 
 
 In de loop der jaren heeft Bitcoin verschillende *hard forks* gekend, die resulteerden in de creatie van alternatieve versies van de originele cryptocurrency. Eenvoudig gezegd is een *hard Fork* een splitsing in het netwerk die leidt tot twee afzonderlijke blockchains, die beide dezelfde geschiedenis delen tot het moment van de splitsing. Deze splitsingen gebeuren meestal wanneer een deel van de ontwikkelaarsgemeenschap of het bredere Bitcoin ecosysteem grote veranderingen in het originele protocol wil introduceren, maar geen brede consensus kan bereiken. In plaats van hun ideeën op te geven, besluiten ze een nieuwe versie van Bitcoin te lanceren (met gewijzigde regels) in de hoop dat gebruikers en miners ervoor kiezen om in plaats daarvan hun fork te volgen.
 
-![BTC102-Bitcoin](assets/fr/007.webp)
+![image](assets/nl/011.webp)
 
 Niet alle *hard forks* zijn frauduleus, omdat sommige voortkomen uit technische of ideologische meningsverschillen binnen de gemeenschap. Andere worden echter gedreven door commerciële belangen of zelfs oneerlijke motieven. De bekendste voorbeelden van deze hardforks zijn **Bitcoin Cash (BCH)** en **Bitcoin Satoshi Vision (BSV)**. Deze alternatieve munten, gelanceerd in respectievelijk 2017 en 2018, beweren vaak "betere versies" van de originele Bitcoin te zijn. Ze promoten vermeende voordelen zoals lagere transactiekosten of snellere transacties dankzij een toename in blokgroottes. Deze technische veranderingen gaan echter gepaard met aanzienlijke afwegingen op het gebied van veiligheid, decentralisatie en robuustheid, ofwel elementen die in strijd kunnen zijn met de grondbeginselen van Bitcoin.
 
@@ -189,7 +189,7 @@ Om niet in deze val te lopen, moet je de munten die je koopt altijd verifiëren.
 
 Nu cryptocurrencies steeds meer aandacht krijgen, is er op sociale media een golf van influencers, zelfbenoemde experts en zogenaamde "*crypto goeroes*". Terwijl enkelen echte educatieve inzichten bieden, maken veel anderen misbruik van hun zichtbaarheid om dubieuze projecten of gevaarlijk risicovolle (en soms regelrecht frauduleuze) handelsstrategieën te promoten. Deze individuen worden meestal gemotiveerd door persoonlijke financiële belangen, waarbij ze vaak directe of indirecte compensatie ontvangen voor het promoten van bepaalde tokens of platforms.
 
-![BTC102-Bitcoin](assets/fr/008.webp)
+![image](assets/nl/012.webp)
 
 Deze influencers vertrouwen vaak op beproefde tactieken om beginners aan te trekken: ze laten indrukwekkende financiële resultaten zien (die vaak nep of oncontroleerbaar zijn), pronken met een luxueuze levensstijl als zogenaamd bewijs van hun succes en promoten "wonderbaarlijke" beleggingsstrategieën. Het doel is om FOMO - de angst om iets te missen - op te wekken en hun publiek aan te zetten tot impulsieve beslissingen en roekeloze investeringen.
 
@@ -255,7 +255,7 @@ Een van de meest over het hoofd geziene aspecten van persoonlijke beveiliging is
 
 Het is ook sterk aanbevolen om een betrouwbare antivirus te gebruiken. Op Windows is de ingebouwde Windows Defender over het algemeen voldoende voor de meeste gebruikers. Als je de voorkeur geeft aan extra functies of gemoedsrust, zijn er ook commerciële opties zoals Kaspersky beschikbaar. Op macOS zijn malwarebedreigingen historisch gezien minder vaak **maar niet onbestaand**, dus het is nog steeds slim om voorzichtig te blijven.
 
-![BTC102-Bitcoin](assets/fr/012.webp)
+![image](assets/nl/013.webp)
 
 Naast systeemupdates en antivirusbescherming moet je uiterst voorzichtig zijn met het downloaden van software van onbetrouwbare websites of zogenaamde "universele" downloadportalen. Als je een hulpprogramma of applicatie nodig hebt, ga dan altijd rechtstreeks naar de officiële bron, dit vermindert drastisch het risico dat je malware installeert dat vermomd is als legitieme software.
 Een andere slimme gewoonte is om de authenticiteit en integriteit van software te controleren voordat je het op je computer installeert. Als je niet zeker weet hoe je dat moet doen, geen zorgen we hebben een speciale tutorial om je door het proces te leiden:
@@ -276,7 +276,7 @@ Het idee is simpel:
 
 Deze aanpak biedt grote veerkracht en helpt ervoor te zorgen dat je gegevens overleven, zelfs als er iets ernstig misgaat.
 
-![BTC102-Bitcoin](assets/fr/013.webp)
+![image](assets/nl/014.webp)
 
 ### De oplossing voor de ID-nachtmerrie
 
@@ -289,7 +289,7 @@ Met een wachtwoordmanager kun je:
 
 Met een wachtwoordmanager hoef je nooit meer op "wachtwoord vergeten" te klikken of te vertrouwen op zwakke, hergebruikte referenties. Bovendien synchroniseren de meeste wachtwoordbeheerders naadloos met je apparaten (desktop, telefoon, tablet) en vullen ze zelfs aanmeldingsformulieren automatisch in, waardoor veilige toegang zowel moeiteloos als efficiënt is.
 
-![BTC102-Bitcoin](assets/fr/011.webp)
+![image](assets/nl/015.webp)
 
 Er zijn veel wachtwoordmanagers, maar ik kan twee goede opties aanbevelen, afhankelijk van je behoeften. Als je op zoek bent naar iets dat makkelijk te gebruiken is en naadloos synchroniseert met meerdere apparaten, dan is Bitwarden een uitstekende keuze:
 
@@ -303,17 +303,17 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 Met Bitcoin ben je je eigen bank. Dat betekent dat je ook je eigen beveiligingsteam bent. Zelfs met een sterk wachtwoord bestaat er niet zoiets als nul risico, daarom is het inschakelen van tweefactorauthenticatie (2FA) essentieel.
 
-![BTC102-Bitcoin](assets/fr/014.webp)
+![image](assets/nl/016.webp)
 
 2FA voegt een tweede laag van bescherming toe door een tijdsgebaseerde eenmalige code (meestal 6 cijfers) te vereisen die wordt gegenereerd door een app zoals Google Authenticator of Authy. Dus zelfs als iemand je wachtwoord weet te achterhalen, heeft deze persoon geen toegang tot je account zonder fysieke toegang tot je telefoon.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![BTC102-Bitcoin](assets/fr/009.webp)
+![image](assets/nl/017.webp)
 
 Als je 2FA inschakelt, zorg er dan voor dat je de herstelsleutel voor je app op een veilige plek bewaart. Hiermee kun je je codes herstellen als je je telefoon verliest of verandert. Hoewel 2FA via sms of e-mail beter is dan niets, is het veel minder veilig. Een SIM swap aanval, waarbij iemand de controle over je telefoonnummer overneemt, kan dit soort bescherming gemakkelijk omzeilen.
 
-![BTC102-Bitcoin](assets/fr/010.webp)
+![image](assets/nl/018.webp)
 
 Voor degenen die nog een stap verder willen gaan, bieden fysieke sleutels zoals YubiKey een nog hoger niveau van bescherming.
 
@@ -329,7 +329,7 @@ De sleutel is het kiezen van een betrouwbare VPN-provider die:
 - Maakt betaling via BTC mogelijk
 - Heeft een strikt no-logs beleid
 
-![BTC102-Bitcoin](assets/fr/015.webp)
+![image](assets/nl/019.webp)
 
 We hebben verschillende tutorials beschikbaar op Plan ₿ Network die je kunnen helpen bij het opzetten van een VPN. Ik raad met name IVPN of Mullvad aan:
 
@@ -363,7 +363,7 @@ Kortom: onderschat cyberbeveiliging niet, neem de tijd om de basis te installere
 
 Bekijk ook zeker [onze computerbeveiligingstutorials](https://planb.network/tutorials/computer-security) op Plan ₿ Network.
 
-![BTC102-Bitcoin](assets/fr/016.webp)
+![image](assets/nl/020.webp)
 
 In het volgende hoofdstuk deel ik nog een paar tips om je te helpen vol vertrouwen aan je Bitcoin reis te beginnen en om de vele valkuilen te omzeilen die nieuwkomers kunnen overvallen.
 
@@ -387,7 +387,7 @@ Dit zijn de belangrijkste punten die we samen zullen bespreken:
 - Blijf nederig en houd een **laag profiel** (discretie is onderdeel van veiligheid);
 - **Denk op lange termijn**, zoom uit en wees geduldig (zie het als een marathon, niet als een sprint).
 
-![BTC102-Bitcoin](assets/fr/017.webp)
+![image](assets/nl/021.webp)
 
 ### Veelvoorkomende fouten die je moet vermijden
 
@@ -410,7 +410,7 @@ Bitcoin staat open voor iedereen, maar dat betekent niet dat je er onvoorbereid 
 
 - **Vallen voor FOMO**: Impulsief kopen uit angst om iets te missen leidt meestal tot slechte timing en slechte beslissingen. Geduld is je beste vriend.
 
-![BTC102-Bitcoin](assets/fr/019.webp)
+![image](assets/nl/022.webp)
 
 ### Een investeringsstrategie bepalen
 
@@ -419,7 +419,7 @@ Voordat je je eerste satoshi koopt, is het cruciaal om te begrijpen waarom je in
 Begin met het nauwkeurig vaststellen van je **budget**. Kies niet zomaar een willekeurig getal. Neem de tijd om je maandelijkse inkomen te berekenen, trek hiervan je vaste lasten af (zoals huur, leningen, belastingen, nutsvoorzieningen), evenals je dagelijkse kosten voor levensonderhoud (eten, vervoer, vrije tijd, enz.). Wat overblijft is je spaarmarge en alleen van dit deel zou je moeten overwegen om te gaan beleggen.
 Door het op deze manier aan te pakken, zorg je ervoor dat je je financiële welzijn niet in gevaar brengt, vooral in het geval van een marktdaling. Een doordachte strategie vormt de basis voor veerkracht op de lange termijn.
 
-![BTC102-Bitcoin](assets/fr/020.webp)
+![image](assets/nl/023.webp)
 
 Als je budget is vastgesteld, bedenk dan hoe je wilt investeren. Een van de meest beginnersvriendelijke en algemeen aanbevolen methodes is Dollar Cost Averaging (DCA), waarbij je op regelmatige tijdstippen (wekelijks, maandelijks, enz.) een vast bedrag aan bitcoin koopt. Deze strategie helpt om je gemiddelde instapprijs in de loop van de tijd af te vlakken en vermindert de emotionele impact van prijsschommelingen. Het is een slimme aanpak voor de meeste mensen, vooral nieuwkomers.
 
@@ -435,7 +435,7 @@ Besteed een paar uur aan het verkennen van Bitcoin, bekijk de gratis bronnen op 
 
 Bitcoin staat bekend om zijn dramatische prijsschommelingen. Schommelingen van 10%, 20% of zelfs 50% in slechts een paar dagen zijn niet ongewoon. Voor nieuwkomers kan dit soort volatiliteit desoriënterend zijn. Het is gemakkelijk om meegesleurd te worden in de hype tijdens bull runs of in paniek te raken tijdens dalingen, beide leiden vaak tot slechte beslissingen, zoals verkopen met verlies.
 
-![BTC102-Bitcoin](assets/fr/021.webp)
+![image](assets/nl/024.webp)
 
 Daarom is het cruciaal om **de volatiliteit van Bitcoin te begrijpen en te accepteren** voordat je investeert. Deze prijsschommelingen zijn geen bug, maar een kenmerk van een activum dat nog in ontwikkeling is. Als plotselinge ups en downs je 's nachts wakker houden of je tot emotionele beslissingen dwingen, is de kans groot dat je meer hebt geïnvesteerd dan je comfortabel vindt om te riskeren. Neem in dat geval een stap terug en heroverweeg je strategie en risicotolerantie. Aarzel niet om je positie af te bouwen totdat je je meer op je gemak voelt.
 
@@ -445,12 +445,12 @@ Investeer vooral nooit meer dan je je kunt veroorloven om te verliezen. Vermijd 
 
 Een van de krachtigste (en vaak onderschatte) functies van Bitcoin is **self-custody (zelfbewaring)**. Met een zelf gehosted wallet, ben jij alleen verantwoordelijk voor je tegoeden. Deze wallets worden meestal gegenereerd vanuit een **herstelzin** (ook bekend als een seed phrase), een serie van 12 of 24 woorden die volledige toegang geeft tot je BTC. Als je deze zin verliest (of als iemand anders hem te pakken krijgt) zijn je bitcoins voorgoed verdwenen. **Geen klantenservice. Geen reset-knop.**
 
-![BTC102-Bitcoin](assets/fr/023.webp)
+![image](assets/nl/025.webp)
 
 Daarom is de gouden regel in Bitcoin:
 "***Niet jouw sleutels, niet jouw munten***". Als je je privésleutels niet persoonlijk beheert, bezit je je eigen bitcoin niet volledig zelf. Hoewel exchanges handig kunnen zijn (vooral als je begint), houden ze je sleutels voor je vast. Dat betekent dat je tegoeden gevaar lopen als het platform gehackt wordt, je account bevriest of failliet gaat.
 
-![BTC102-Bitcoin](assets/fr/024.webp)
+![image](assets/nl/026.webp)
 
 Om dit risico te vermijden, is het sterk aanbevolen om een **eigen wallet** op te zetten, waar alleen jij toegang hebt tot de herstelzin. Deze zin moet altijd met de hand worden opgeschreven en **offline** worden opgeslagen op een veilige locatie. Sommige gebruikers **houden zelfs meerdere back-ups** bij, opgeslagen op aparte geografische locaties voor extra veiligheid.
 
@@ -483,11 +483,11 @@ Ondanks het feit dat **Bitcoin een gedecentraliseerde valuta is, is het niet vri
 
 Op sommige plaatsen wordt winst belast als vermogenswinst bij verkoop. Op andere plaatsen moet je misschien elke transactie aangeven, en sommige plaatsen hanteren minder gebruikelijke regels, zoals vermogensbelasting of sociale premies.
 
-![BTC102-Bitcoin](assets/fr/018.webp)
+![image](assets/nl/027.webp)
 
 Voordat je belangrijke transacties doet, is het sterk aan te raden om een belastingprofessional te raadplegen of de officiële richtlijnen van je overheid door te nemen. De tijd nemen om vooraf inzicht te krijgen in je belastingverplichtingen kan je behoeden voor onverwachte problemen achteraf (zoals boetes, audits of boetes), vooral als je grote verkopen of portefeuilleherschikkingen plant.
 
-![BTC102-Bitcoin](assets/fr/022.webp)
+![image](assets/nl/028.webp)
 
 ### Het Verschil Tussen Handelen, Beleggen En Vasthouden
 
@@ -530,7 +530,7 @@ Een goed startpunt is het boek *Rich Dad, Poor Dad* van Robert T. Kiyosaki. Dit 
 
 Als je klaar bent om dieper te gaan, bieden podcasts zoals *The Investors Podcast* inzichtelijke discussies over investeren, markten en economische principes. Ze behandelen af en toe ook Bitcoin, waardoor het een goede volgende stap is voor wie nieuwsgierig is naar hoe Bitcoin past in het bredere financiële landschap.
 
-![BTC102-Bitcoin](assets/fr/025.webp)
+![image](assets/nl/029.webp)
 
 ### Gouden Regels Om In Gedachten Te Houden
 
@@ -567,14 +567,14 @@ Die uitdaging bleef onopgelost tot eind 2008, toen iemand met de naam Satoshi Na
 
 Het project werd sterk beïnvloed door het Cypherpunk ethos; een gemeenschap van ontwikkelaars en denkers die geloofden in het gebruik van cryptografie om individuele vrijheden online te beschermen. Voor hen waren privacy en decentralisatie geen technische voorkeuren, maar ideologische noodzakelijkheden. Bitcoin kwam naar voren als de meest succesvolle belichaming van deze idealen: een peer-to-peer monetair netwerk dat iedereen kon gebruiken, niemand kon controleren en iedereen kon verifiëren.
 
-![BTC102-Bitcoin](assets/fr/035.webp)
+![image](assets/nl/030.webp)
 
 De Cypherpunks zijn een informele, internationale gemeenschap van individuen die pleiten voor het gebruik van cryptografie om persoonlijke vrijheden online te verdedigen. Ze geloven sterk in het recht van het individu op privacy, vooral in een wereld die steeds meer wordt gevormd door overheidssurveillance en het exploiteren van bedrijfsgegevens.
 
 De wortels van de Cypherpunk beweging gaan terug tot het begin van de jaren 1990, toen groepen cryptografen, programmeurs en libertariërs de politieke implicaties van cryptografie begonnen te onderzoeken tijdens ontmoetingen in Silicon Valley. Een van de meest prominente stemmen in de gemeenschap was Tim May, die in 1988 het Crypto Anarchist Manifesto schreef, een fundamentele tekst die een visie schetste voor een wereld waarin encryptie individuen in staat zou stellen om buiten het bereik van overheden en gecentraliseerde controle te opereren.
 Een belangrijke mijlpaal in de beweging kwam in 1992 met de oprichting van de Cypherpunks mailinglijst, een forum waar ideeën, projecten en politieke discussies over privacy en cryptografie tot bloei konden komen. Vervolgens publiceerde Eric Hughes in 1993 het Cypherpunk Manifest, een korte maar krachtige verklaring die duidelijk de missie en overtuigingen van de gemeenschap uitdrukt.
 
-![BTC102-Bitcoin](assets/fr/032.webp)
+![image](assets/nl/031.webp)
 
 Het idee van een digitale munteenheid die onafhankelijk werkt van een centrale autoriteit (zoals Bitcoin) is diep geworteld in de Cypherpunk filosofie.
 
@@ -588,11 +588,11 @@ In deze omgeving van angst en onzekerheid werd Bitcoin geboren. De maker, bekend
 
 Dit was niet zomaar een datum of een technische notitie, het was een stil maar krachtig protest. Het liet zien dat Bitcoin ontworpen was om iets radicaal anders te zijn: een financieel systeem dat niet afhankelijk is van banken, reddingsoperaties of overheidsbesluiten.
 
-![BTC102-Bitcoin](assets/fr/034.webp)
+![image](assets/nl/032.webp)
 
 Velen interpreteren dit als het doel van Bitcoin: een manier bieden om waarde over te dragen zonder tussenpersonen, gecontroleerd door duidelijke regels in plaats van de vaak onduidelijke beslissingen van centrale banken of overheden.
 
-![BTC102-Bitcoin](assets/fr/033.webp)
+![image](assets/nl/033.webp)
 
 Om je kennis over de oorsprong van Bitcoin te verdiepen, bieden we een gratis, uitgebreide en goed gedocumenteerde training aan over het onderwerp:
 
@@ -604,17 +604,17 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Bitcoin is gedefinieerd als een "peer-to-peer elektronisch geldsysteem" Dit betekent dat iedereen verbinding kan maken met het netwerk met behulp van de juiste software (een Bitcoin node) en direct kan communiceren met andere gebruikers, zonder afhankelijk te zijn van een centrale server. Het doel van deze decentralisatie is om te voorkomen dat één enkele entiteit (zoals een bank, overheid of groot bedrijf) het systeem kan controleren, censureren of stopzetten. Bitcoin werkt 24/7, wereldwijd en is voor iedereen toegankelijk zonder voorwaarden.
 
-![BTC102-Bitcoin](assets/fr/036.webp)
+![image](assets/nl/034.webp)
 
 Eenvoudig gezegd, elke deelnemer aan het Bitcoin netwerk (een "node" genoemd) heeft een volledige kopie van de transactie ledger (grootboek), beter bekend als de blockchain. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. Wanneer er een nieuwe transactie plaatsvindt, wordt deze uitgezonden naar het netwerk. Miners bevestigen dan deze transacties door ze te groeperen in blokken die vervolgens worden toegevoegd aan het einde van de keten (vandaar de naam "blockchain").
 
-![BTC102-Bitcoin](assets/fr/029.webp)
+![image](assets/nl/035.webp)
 
 #### Blockchain: een boekhouding Ledger
 
 Zie de blockchain als een gigantische boekhoudkundig grootboek (ledger), waarbij elke regel een transactie voorstelt. In een traditioneel banksysteem wordt de database opgeslagen op de servers van een bank, die wijzigingen kunnen aanbrengen wanneer ze maar willen. In Bitcoin daarentegen, worden **alle veranderingen gevalideerd door het hele netwerk**: zodra een nieuw blok transacties is toegevoegd aan de blockchain, is het bijna onmogelijk om het later nog te veranderen. Deze gedecentraliseerde validatie maakt Bitcoin's grootboek (ledger) veilig en transparant.
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/nl/036.webp)
 
 ### De Rol Van Miners En Proof-Of-Work
 
@@ -628,7 +628,7 @@ Als beloning ontvangt de Miner nieuw gecreëerde bitcoins (de zogenaamde bloksub
 Om de schaarste van Bitcoin te garanderen, is de bloksubsidie geprogrammeerd om elke 210.000 blokken te halveren, wat ruwweg neerkomt op elke vier jaar. Deze gebeurtenis staat bekend als de "halving (halvering)." Toen Bitcoin werd gelanceerd, verdienden miners 50 BTC per blok. In 2025 is die beloning gedaald tot 3,125 BTC en zal in de loop van de tijd blijven dalen.
 Uiteindelijk, rond het jaar 2140, zal de subsidie nul bereiken, als Bitcoin's totale voorraad maximum 21 miljoen munten heeft bereikt. Deze voorspelbare uitgiftecurve bootst de schaarste van fysieke grondstoffen zoals goud na, dit is een van de redenen waarom Bitcoin vaak **digitaal goud** wordt genoemd.
 
-![BTC102-Bitcoin](assets/fr/031.webp)
+![image](assets/nl/037.webp)
 
 ### De Monetaire Eigenschappen Van Bitcoin
 
@@ -645,7 +645,7 @@ Deze ingebouwde schaarste is een grote aantrekkingskracht voor mensen die willen
 
 Een van de meest onderschatte sterkes van Bitcoin is de deelbaarheid. Elke Bitcoin kan worden opgesplitst in 100 miljoen eenheden, bekend als satoshis (of afgekort tot sats). Dit betekent dat je geen tienduizenden euro's of dollars hoeft uit te geven om te beginnen, je kunt al voor een paar euro bitcoin kopen, tot op de kleinste fracties.
 
-![BTC102-Bitcoin](assets/fr/026.webp)
+![image](assets/nl/038.webp)
 
 ### Openheid en transparantie
 
@@ -654,7 +654,7 @@ Een van de meest onderschatte sterkes van Bitcoin is de deelbaarheid. Elke Bitco
 Bitcoin draait op een openbaar, **open-source** protocol (met name via [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Dit betekent dat de code vrij beschikbaar is voor iedereen om te inspecteren, controleren en verbeteren. Er zijn geen verborgen mechanismen of gesloten systemen, alles over hoe Bitcoin werkt is openbaar.
 Dit niveau van transparantie maakt het ongelofelijk moeilijk om achterdeurtjes in te bouwen of geheime veranderingen door te voeren. Iedereen met de technische vaardigheden kan een node draaien, bijdragen aan de ontwikkeling of compatibele tools bouwen. In Bitcoin wordt vertrouwen verdiend door code en consensus, niet door gecentraliseerde controle.
 
-![BTC102-Bitcoin](assets/fr/030.webp)
+![image](assets/nl/039.webp)
 
 Deze transparantie is een van de belangrijkste redenen waarom mensen het Bitcoin protocol vertrouwen, het voorkomt dat een kleine groep ontwikkelaars het netwerk manipuleert voor eigen gewin. Bitcoin werkt volgens een eenvoudig maar krachtig principe: als je het niet eens bent met voorgestelde wijzigingen, ben je vrij om je software niet te updaten. In sommige gevallen zal dit geen verstoring veroorzaken, je blijft nog steeds synchroon met de rest van het netwerk. Maar in andere gevallen kan dit leiden tot een zogenaamde hard fork, waarbij het netwerk in tweeën splitst en er een nieuwe versie van Bitcoin ontstaat. Dat is precies wat er gebeurde in 2017 met de splitsing tussen Bitcoin (BTC) en Bitcoin Cash (BCH).
 
@@ -688,7 +688,7 @@ Bitcoin kan gezien worden als een "Nul naar Een": een radicale breuk met gevesti
 
 Desondanks blijft Bitcoin, na meer dan tien jaar, discussies en passie oproepen. Het gebruik ervan groeit, tweedelaagsoplossingen (zoals het Lightning Network) komen op om de transactiesnelheid te verbeteren en de kosten te verlagen, en bedrijven wereldwijd experimenteren met nieuwe gebruikssituaties. Het is waarschijnlijk dat Bitcoin nog tientallen jaren van invloed zal zijn op betalingssystemen en zelfs op de manier waarop we naar geld kijken.
 
-![BTC102-Bitcoin](assets/fr/028.webp)
+![image](assets/nl/040.webp)
 
 Als je je kennis verder wilt uitbreiden, kun je de BTC101-cursus over Plan ₿ Network volgen, die een diepgaander onderzoek biedt naar de technische en economische fundamenten van Bitcoin.
 
@@ -716,33 +716,33 @@ Barack Obama noemde Bitcoin niet voor niets een "Zwitserse bank in je zak". Bitc
 - Geen tussenpersonen of verborgen kosten.
 - Bitcoin maakt gebruik van het internet, wat betekent dat iedereen met toegang tot het web het kan gebruiken.
 
-![BTC102-Bitcoin](assets/fr/037.webp)
+![image](assets/nl/041.webp)
 
 Bitcoin kan gezien worden als de echte "munt van het volk", een alternatief monetair systeem dat niet afhankelijk is van een centrale autoriteit en gebaseerd is op onveranderlijke regels in plaats van willekeurige beslissingen. Het open en toegankelijke karakter maakt het een potentieel revolutionair instrument voor miljarden mensen wereldwijd, of ze nu uitgesloten zijn van het traditionele banksysteem of gewoon op zoek zijn naar een meer soeverein alternatief.
 
 Dit leidt ons tot een fundamentele, bijna filosofische vraag die de Bitcoin enthousiastelingen in twee grote wereldbeelden verdeelt. Aan de ene kant zien sommigen Bitcoin als een oplossing om financiële inclusie te bevorderen, waardoor miljarden mensen zonder bankrekening eindelijk toegang krijgen tot een wereldwijde monetaire infrastructuur. Aan de andere kant zien sommigen Bitcoin als een financieel bevrijdingsmiddel dat bedoeld is om een uitweg te bieden aan de miljarden mensen die al geïntegreerd zijn in het banksysteem, maar die zich willen bevrijden van de afhankelijkheid en de volledige controle over hun geld willen terugkrijgen. Deze reflectie verdient onze aandacht en we zullen er later in meer detail op terugkomen.
 
-![BTC102-Bitcoin](assets/fr/044.webp)
+![image](assets/nl/042.webp)
 
 ### Bescherming tegen valutacrises
 
 Eeuwenlang heeft de wereld te maken gehad met monetaire crises die verwoestende gevolgen hadden voor bevolkingen. Miljarden mensen lijden nog steeds onder de gevolgen van slecht beheerd monetair beleid, waarbij de manipulatie van geldhoeveelheid en rentetarieven systemische onevenwichtigheden creëert. Deze crises zijn niet zomaar toevallige gebeurtenissen - ze zijn het resultaat van een systeem dat gebouwd is op interventie en manipulatie van geld en tijdswaarden.
 
-![BTC102-Bitcoin](assets/fr/045.webp)
+![image](assets/nl/043.webp)
 
 Deze crises kunnen veel verschillende vormen aannemen. Bijvoorbeeld, hyperinflatie vaagt een munt weg door de koopkracht van mensen geleidelijk te vernietigen, zoals te zien was in landen als Zimbabwe en Venezuela. Aan de andere kant kunnen strenge monetaire controles de toegang tot tegoeden beperken en individuen van hun economische vrijheid beroven, zoals gebeurde met bankbeperkingen in Griekenland en Libanon.
 
-![BTC102-Bitcoin](assets/fr/047.webp)
+![image](assets/nl/044.webp)
 
 En tot slot, wanneer regeringen hun nationale valuta devalueren, wordt het spaargeld van mensen geleidelijk uitgehold, een onzichtbare maar constante aanslag op hun vermogen. In veel opzichten werkt het als een verborgen belasting. Zolang het monetaire beleid in handen blijft van gecentraliseerde overheden, zijn deze cycli voorbestemd om zich te herhalen.
 
-![BTC102-Bitcoin](assets/fr/038.webp)
+![image](assets/nl/045.webp)
 
 Bitcoin presenteert een gedurfd alternatief voor deze cyclus van chronische monetaire instabiliteit. In tegenstelling tot door de staat uitgegeven munten, is het gebaseerd op onveranderlijke, op wiskunde gebaseerde regels die worden afgedwongen door consensus, niet door regeringen of centrale banken. De uitgifte is voorspelbaar en gelimiteerd tot ongeveer 21 miljoen munten, waardoor het een vorm van gezond geld is dat ontworpen is om zijn waarde op lange termijn te behouden. Omdat het bestand is tegen censuur, kan iedereen waarde opslaan en overdragen zonder afhankelijk te zijn van een instelling. En dankzij de deelbaarheid en draagbaarheid is het zowel toegankelijk als praktisch, het is een financiële infrastructuur voor iedereen, overal.
 
 **Wist je dat?** In de loop van de geschiedenis zijn er wereldwijd minstens 56 gedocumenteerde gevallen van hyperinflatie geweest. In veel van die gevallen stortten hele economieën in, werden spaartegoeden weggevaagd en werden miljoenen mensen tot extreme armoede gedreven. Erger nog, deze monetaire mislukkingen fungeerden vaak als springplank voor politieke onrust, soms leidden ze tot autoritaire regimes, zoals gebeurde in Duitsland in de jaren 1920 en in Chili in de jaren 1970.
 
-![BTC102-Bitcoin](assets/fr/039.webp)
+![image](assets/nl/046.webp)
 
 Hanke, S. H., & Krus, N. (2013). *Hyperinflaties in de wereld*. In R. Parker & R. Whaples (Eds.), The Handbook of Major Events in Economic History. Uitgeverij Routledge. Opgehaald van https://ssrn.com/abstract=2130109
 
@@ -752,7 +752,7 @@ De ineenstorting van fiatvaluta's is geen historische toevalstreffer. Het is een
 
 Groeiende economische ongelijkheid over de hele wereld is altijd een vruchtbare bodem geweest voor sociale onrust en de opkomst van politiek extremisme. De geschiedenis laat zien dat wanneer de kloof tussen arm en rijk te groot wordt, dit vaak leidt tot spanningen, crises en zelfs de opkomst van autoritaire regimes. In het licht van deze risico's is het beschermen van je financiële vrijheid niet alleen een luxe, het is een noodzaak voor iedereen die zijn autonomie wil behouden en de toekomst van zijn gezin veilig wil stellen.
 
-![BTC102-Bitcoin](assets/fr/046.webp)
+![image](assets/nl/047.webp)
 
 Maar welke echte opties zijn er om je spaargeld te beschermen in een wereld waarin de staat volledige controle kan uitoefenen over bezittingen en transacties?
 
@@ -766,7 +766,7 @@ Maar Bitcoin is meer dan alleen een praktisch hulpmiddel. Het is ook **een vreed
 
 In dit licht is Bitcoin meer dan een technologie. Het is een werktuig van de natuurwetten, een manier voor individuen om hun fundamentele rechten te laten gelden, zelfs wanneer die rechten door de wetten van het land ontkend worden. Het geeft de macht terug aan de mensen, niet door revolutie, maar door code.
 
-![BTC102-Bitcoin](assets/fr/040.webp)
+![image](assets/nl/048.webp)
 
 **Wist je dat**? Bitcoin is pseudoniem, niet anoniem. Gebruikers kunnen adressen aanmaken zonder hun echte identiteit prijs te geven, waardoor ze geld kunnen versturen en ontvangen buiten het traditionele banksysteem om.
 
@@ -782,7 +782,7 @@ Als je rijkdom niet is verzekerd in niet-monetaire activa (zoals onroerend goed,
 
 Dit is geen fout in het systeem, het is een opzettelijk mechanisme. Centrale banken en overheden gebruiken het om de economische groei kunstmatig te stimuleren en mensen aan te zetten tot constante consumptie en toenemende schulden.
 
-![BTC102-Bitcoin](assets/fr/041.webp)
+![image](assets/nl/049.webp)
 
 Ons moderne financiële systeem is gebouwd op een schuldencyclus, een systeem waarin lenen niet alleen wordt aangemoedigd, het is praktisch onvermijdelijk. Individuen gaan leningen aan om hun levensstijl te onderhouden, om vervolgens verstrikt te raken in een systeem waarin ze rente moeten terugbetalen aan banken die geld uit het niets creëren. Dit is geen toeval. Het is een structureel ontwerp bedoeld om financiële instellingen te bevoordelen ten koste van gewone burgers.
 
@@ -794,7 +794,7 @@ Dit betekent dat Bitcoin werkt onder een voorspelbaar monetair raamwerk, één w
 
 In het verleden diende goud als controle tegen ongecontroleerde monetaire expansie. Maar sinds de ineenstorting van de goudstandaard in 1971 wordt geen enkele nationale munt (of het nu de dollar, euro of yen is) nog gedekt door tastbare activa. Deze ontkoppeling gaf centrale banken vrij spel om ongeremd geld bij te drukken, wat de weg vrijmaakte voor decennia van agressieve monetaire expansie, herhaalde zeepbellen in activa en terugkerende financiële crises.
 
-![BTC102-Bitcoin](assets/fr/042.webp)
+![image](assets/nl/050.webp)
 
 Als je geld bij een bank stort, is het niet langer echt van jou.
 De meeste mensen realiseren zich dit niet: het geld op een bankrekening is technisch gezien niet jouw eigendom. In juridische en praktische termen is het een lening die je aan je bank geeft, een lening die de bank vrij kan gebruiken voor haar eigen activiteiten en investeringen.
@@ -822,19 +822,19 @@ Bitcoiners komen uit alle lagen van de bevolking, maar ze delen een gemeenschapp
 - **Oostenrijkse economen**, die pleiten voor gezond geld en vrijheid van overheidsmanipulatie;
 - **Ingenieurs, financiers en voorstanders van vrijheid van meningsuiting**, die de diepgaande maatschappelijke implicaties van dit nieuwe monetaire paradigma inzien.
 
-![BTC102-Bitcoin](assets/fr/043.webp)
+![image](assets/nl/051.webp)
 
 Bitcoin is ontworpen om politieke en ideologische scheidslijnen te overstijgen. Het is niet links of rechts, libertair of collectivistisch. Het is een neutraal protocol, beheerst door regels (geen heerser) die op iedereen gelijk worden toegepast. Toch daagt alleen al het bestaan ervan de wereldwijde financiële status quo uit. Bitcoin is een symbool van verzet geworden omdat mensen het hebben geadopteerd als alternatief voor fiatvaluta en gecentraliseerde financiële infrastructuur, systemen die steeds meer worden gezien als onrechtvaardig, manipuleerbaar en uitsluiting.
 
 Voor de Cypherpunk geest is Bitcoin meer dan een digitaal bezit. Het staat tegenover de gestage erosie van privacy in een wereld waar het verdwijnen van contant geld vaak wordt gerechtvaardigd onder het mom van "veiligheid".
 Bitcoin maakt censuurbestendige, peer-to-peer digitale transacties mogelijk, zonder tussenpersonen of poortwachters. Zoals Satoshi Nakamoto voor ogen had, biedt het het digitale equivalent van contant geld: een manier om waarde vrijelijk uit te wisselen, zonder toestemming nodig te hebben.
 
-![BTC102-Bitcoin](assets/fr/048.webp)
+![image](assets/nl/052.webp)
 
 Bitcoin is geen organisatie of politieke partij, maar draagt onmiskenbaar een krachtige filosofische boodschap uit. Het herdefinieert de relatie tussen het individu en de staat en daagt het monopolie van centrale banken uit op geldcreatie en economische controle.
 Of het nu wordt gebruikt door vrijheidsstrijders of door mensen die gewoon hun koopkracht willen behouden, Bitcoin markeert het begin van een nieuw tijdperk, een tijdperk waarin financiële soevereiniteit een fundamenteel mensenrecht wordt, toegankelijk voor iedereen.
 
-![BTC102-Bitcoin](assets/fr/049.webp)
+![image](assets/nl/053.webp)
 
 Nu we de diepgaande betekenis van Satoshi Nakamoto's uitvinding hebben onderzocht, neemt het volgende hoofdstuk ons mee naar de buitengewone industrie die rond dit protocol is gegroeid, een heel ecosysteem dat de financiën, technologie en maatschappij opnieuw vormgeeft.
 
@@ -852,7 +852,7 @@ Bitcoin heeft vandaag een kritieke drempel bereikt, een punt waarop geen weg mee
 
 Bitcoin is een radicale innovatie, een sprong van nul naar één. Het betekent een totale breuk met het traditionele monetaire paradigma. Voor sommigen is deze ontwrichting een bedreiging, een existentiële uitdaging voor hun gevestigde macht en privileges. Voor hen is Bitcoin een doos van Pandora die nooit geopend had mogen worden en ze zullen alle middelen die ze tot hun beschikking hebben gebruiken om zich ertegen te verzetten.
 
-![BTC102-Bitcoin](assets/fr/050.webp)
+![image](assets/nl/054.webp)
 
 Anderen zien Bitcoin echter als een unieke kans: een instrument voor individuele vrijheid, een katalysator voor de transformatie van het wereldwijde financiële systeem en een pad naar een transparanter en rechtvaardiger alternatief. Dit zijn de bouwers, toepassers en bijdragers (degenen die de toekomst vormgeven).
 
@@ -916,13 +916,13 @@ Ondanks gedurfde marketing concurreren deze initiatieven niet met Bitcoin, ze im
 
 Facebooks Libra was nooit bedoeld om de status quo uit te dagen, het was gebouwd om met het systeem samen te werken. Bitcoin daarentegen staat volledig buiten dat systeem. Het vraagt niet om toestemming. Het is niet afhankelijk van vertrouwen. En het draait al meer dan tien jaar vlekkeloos (zonder leiders, downtime of centrale controle).
 
-![BTC102-Bitcoin](assets/fr/051.webp)
+![image](assets/nl/055.webp)
 
 ### Regelgeving En Overheidsaanpak
 
 Bitcoin werkt van nature buiten de traditionele kaders. Het is niet afhankelijk van een centrale autoriteit en kan niet gecontroleerd of veranderd worden door een enkele entiteit. Maar terwijl het protocol zelf immuun is voor regelgeving, zijn de deelnemers die ermee interageren (beurzen, bedrijven en gebruikers) nog steeds onderworpen aan nationale wetten.
 
-![BTC102-Bitcoin](assets/fr/052.webp)
+![image](assets/nl/056.webp)
 
 Omdat Bitcoin een wereldwijd netwerk is, hebben landen op zeer verschillende manieren gereageerd:
 
@@ -932,7 +932,7 @@ Omdat Bitcoin een wereldwijd netwerk is, hebben landen op zeer verschillende man
 
 - **De meeste zijn nog onbeslist**, experimenteren met regelgeving en proberen een evenwicht te vinden tussen innovatie en toezicht.
 
-![BTC102-Bitcoin](assets/fr/056.webp)
+![image](assets/nl/057.webp)
 
 Overheden en instellingen hebben vaak moeite om Bitcoin accuraat te classificeren (is het geld, eigendom of iets geheel nieuws?). Als gevolg daarvan is de regelgeving vaak reactief, inconsistent en voortdurend in ontwikkeling. Als je betrokken bent bij Bitcoin, is het essentieel om op de hoogte te blijven van het lokale landschap, vooral als het gaat om belastingen, toegang tot banken en nalevingsregels.
 
@@ -955,7 +955,7 @@ Koop- en verkoopplatformen spelen een cruciale rol in het Bitcoin ecosysteem en 
 
 Beurzen die voldoen aan de lokale regelgeving moeten meestal strikte **"Know Your Customer"** (KYC) protocollen volgen, waarbij gebruikers identificatiedocumenten moeten overleggen voordat ze toegang krijgen tot diensten. Hoewel deze processen bedoeld zijn om illegale activiteiten te voorkomen, kunnen ze de privacy die Bitcoin inherent biedt in gevaar brengen.
 
-![BTC102-Bitcoin](assets/fr/053.webp)
+![image](assets/nl/058.webp)
 
 KYC-platforms verzamelen je persoonlijke gegevens onder het mom van veiligheid. Deze gegevens kunnen door overheden worden gebruikt om je financiële transacties te controleren en je toegang tot bepaalde transacties te beperken.
 
@@ -1067,11 +1067,11 @@ De ontwikkeling van Bitcoin kan worden begrepen door een paar verschillende groe
 Iedereen kan wijzigingen in Bitcoin Core voorstellen, maar het proces is opzettelijk rigoureus. Nieuwe ideeën vergen vaak jaren om te verfijnen en vereisen diepgaand technisch inzicht, brede betrokkenheid van de gemeenschap en meerdere lagen van beoordeling. Voorstellen worden meestal ingediend in de vorm van **Bitcoin Improvement Proposals (BIPs)**, sommige daarvan halen het protocol nooit.
 Innovatie is welkom, maar alleen als het wordt ondersteund door solide argumenten, consensus binnen de gemeenschap en zorgvuldig testen.
 
-![BTC102-Bitcoin](assets/fr/054.webp)
+![image](assets/nl/059.webp)
 
 Ondanks wat sommigen misschien geloven, heeft niemand eenzijdige controle over Bitcoin; zelfs de beheerders van Bitcoin Core niet. Hun rol is het beheren van de software repository, niet het protocol zelf.
 
-![BTC102-Bitcoin](assets/fr/055.webp)
+![image](assets/nl/060.webp)
 
 Zelfs als een beheerder een controversiële verandering goedkeurt, heeft dat geen invloed op het netwerk tenzij **nodes (gerund door gebruikers)** die versie daadwerkelijk adopteren en draaien. Uiteindelijk doet de code van Bitcoin er alleen toe als mensen ervoor kiezen om het te draaien.
 Het is ook vermeldenswaard dat **Bitcoin Core niet de enige client** is. Alternatieven zoals Bitcoin Knots implementeren het Bitcoin protocol ook, wat gebruikers meer keuze geeft en de decentralisatie van het systeem versterkt:
@@ -1096,7 +1096,7 @@ Tot de belangrijkste overlaysystemen die het Bitcoin ecosysteem verrijken behore
 
 Het Lightning Network, gemaakt door Thaddeus Dryja en Joseph Poon in 2016, is een tweedelaags oplossing ontworpen om directe en goedkope betalingen mogelijk te maken. Twee gebruikers kunnen een privékanaal openen waar ze transacties kunnen doen, waarbij het saldo alleen wordt bijgewerkt op de blockchain wanneer het kanaal wordt geopend of gesloten. Transacties binnen het kanaal vinden plaats off-chain, wat betekent dat ze niet afzonderlijk hoeven te worden geregistreerd op de Bitcoin blockchain. Deze structuur maakt onmiddellijke transacties en minimale kosten mogelijk, waardoor het ideaal is voor transacties met een lage waarde die een snelle bevestiging vereisen.
 
-![BTC102-Bitcoin](assets/fr/059.webp)
+![image](assets/nl/061.webp)
 
 Laten we zeggen dat je een koffie koopt met Bitcoin met behulp van de basis Layer. Om de betaling te bevestigen (en voor het café om er zeker van te zijn dat je daadwerkelijk hebt betaald) moet de transactie worden opgenomen in een blok. Dat kan enkele minuten duren, afhankelijk van de vergoeding die je hebt gekozen. Technisch gezien zou de winkelier zes bevestigingen (ongeveer een uur) moeten wachten om er volledig zeker van te zijn dat de betaling definitief is. Zo lang wachten werkt natuurlijk niet als je aan de balie staat. Met de Lightning Network wordt de betaling in slechts enkele seconden verwerkt; je koffie is dus al betaald en geserveerd voordat hij de tijd heeft gehad om af te koelen.
 
@@ -1122,7 +1122,7 @@ RGB is een gedecentraliseerd en privacy-gericht smart contract systeem, ontworpe
 
 Een belangrijk kenmerk van RGB is de bescherming tegen het dubbele uitgave probleem (double-spending problem), bereikt met behulp van een cryptografische techniek genaamd single-use seals. Dit mechanisme is gebaseerd op het feit dat de UTXO's (Unspent Transaction Outputs) van Bitcoin slechts eenmaal kunnen worden uitgegeven. De authenticiteit van de tokens wordt gegarandeerd door de validatie aan gebruikerskant van de hele geschiedenis van het contract (van de creatie tot de huidige staat).
 
-![BTC102-Bitcoin](assets/fr/060.webp)
+![image](assets/nl/062.webp)
 
 Om je kennis van RGB te verdiepen, bieden we een vierdejaars training aan (houd er rekening mee dat deze zeer technisch is):
 
@@ -1132,7 +1132,7 @@ RGB is slechts één van de vele protocollen die bovenop Bitcoin zijn gebouwd. T
 
 Dit gelaagde ontwerp staat in contrast met veel van de bredere crypto-industrie, die vaak probeert veel functies te bundelen in een enkel protocol. Door Bitcoin eenvoudig en beperkt te houden, verkleinen we het aanvalsoppervlak, wat een grotere veiligheid betekent. Een slank protocol is makkelijker te beveiligen, te onderhouden en op te schalen. Bitcoin is ontworpen om één ding extreem goed te doen: goed, gedecentraliseerd geld bieden. Al het andere (smart contracts, tokens, betalingen en meer) kan bovenop gelaagd worden, waardoor innovatie mogelijk wordt zonder de kern aan te tasten.
 
-![BTC102-Bitcoin](assets/fr/058.webp)
+![image](assets/nl/063.webp)
 
 **Wist je dat?** Het internet is niet in één keer opgebouwd, het is geëvolueerd als een stapel interoperabele protocollen. Zo zorgt TCP/IP voor netwerkcommunicatie, HTTP voor het web en vele andere lagen dienen specifieke functies. Elke laag is geoptimaliseerd voor zijn taak, waardoor een robuust en modulair systeem is ontstaan. Bitcoin volgt dezelfde filosofie. De basis laag is sterk en minimaal, en extra functionaliteit wordt toegevoegd door gelaagde protocollen zoals Lightning, Liquid of RGB, elk gericht op het oplossen van verschillende gebruikersbehoeften terwijl de basis intact blijft.
 
@@ -1171,7 +1171,7 @@ Bitcoin wint terrein als een ruilmiddel (medium of exchange), met een groeiende 
 We hebben een punt bereikt waarop iedereen betrokken kan raken bij het Bitcoin ecosysteem, bijvoorbeeld door het in het dagelijks leven te gebruiken, in het bedrijfsleven toe te passen, bij te dragen aan het onderwijs, de code te helpen verbeteren of nieuwe toepassingen te bouwen.
 Bitcoin is nu niet meer te stoppen.
 
-![BTC102-Bitcoin](assets/fr/057.webp)
+![image](assets/nl/064.webp)
 
 ### Mijn Persoonlijke Perspectief
 
@@ -1203,7 +1203,7 @@ Bitcoin is niet zoals traditionele activa. Het vereist een doordachte aanpak en 
 
 Deze cursus gaat ervan uit dat je net begint met Bitcoin. Daarom richten we ons op eenvoudige, beginnersvriendelijke oplossingen die gemakkelijk op te zetten zijn. We behandelen geen indirecte blootstellingsmethoden zoals mining, het kopen van aandelen in Bitcoin-gerelateerde bedrijven of complexe financiële strategieën. Het doel hier is om je te helpen een wallet te kiezen die bij jouw situatie past en veilig je eerste bitcoins te verwerven.
 
-![BTC102-Bitcoin](assets/fr/063.webp)
+![image](assets/nl/065.webp)
 
 ### Waarom je gebruikersprofiel definiëren?
 
@@ -1219,7 +1219,7 @@ Hier zijn enkele factoren waarmee je rekening moet houden als je uitzoekt wat de
 
 Elk van deze factoren speelt een rol bij het bepalen van de juiste strategie voor jou. Sommige gebruikers hechten waarde aan eenvoud en gebruiksgemak via gereguleerde diensten, terwijl anderen de voorkeur geven aan een meer autonome en op privacy gerichte aanpak.
 
-![BTC102-Bitcoin](assets/fr/064.webp)
+![image](assets/nl/066.webp)
 
 Dat is wat we nu gaan onderzoeken: de verschillende manieren om je bitcoins te verwerven en te beveiligen, zodat je weloverwogen beslissingen kunt nemen op basis van je profiel en je doelen.
 
@@ -1227,7 +1227,7 @@ Dat is wat we nu gaan onderzoeken: de verschillende manieren om je bitcoins te v
 
 Het kiezen van de juiste strategie voor het verwerven en veiligstellen van je bitcoins begint met een eerlijke beoordeling van je persoonlijke situatie. Verschillende factoren beïnvloeden deze beslissingen, waaronder de risico's die je mogelijk loopt, je levensstijl en hoe je van plan bent je bitcoins te gebruiken.
 
-![BTC102-Bitcoin](assets/fr/065.webp)
+![image](assets/nl/067.webp)
 
 #### Potentiële risico's en bedreigingen
 
@@ -1241,7 +1241,7 @@ Het kiezen van de juiste strategie voor het verwerven en veiligstellen van je bi
 
 Om je kwetsbaarheden beter te begrijpen, kun je elk van deze risico's beoordelen op een schaal van 0 (laag) tot 10 (hoog). Deze zelfevaluatie zal je helpen om de juiste prioriteiten te stellen voor de toekomst.
 
-![BTC102-Bitcoin](assets/fr/061.webp)
+![image](assets/nl/068.webp)
 
 #### Levensstijl En Persoonlijke Gewoonten
 
@@ -1273,13 +1273,13 @@ Hier zijn de vier belangrijkste dingen om over te beslissen:
 - Hoe je bitcoin gaat kopen
 - Hoeveel transacties je zult doen
 
-![BTC102-Bitcoin](assets/fr/062.webp)
+![image](assets/nl/069.webp)
 
 ### Wallets En Beveiligingsstrategieën
 
 Het beveiligen van je privésleutels (de sleutels die toegang geven tot je bitcoins) is het belangrijkste onderdeel van het bezitten en gebruiken van Bitcoin. In tegenstelling tot een traditionele bankrekening, waar een derde partij jouw tegoeden beheert, heb jij bij Bitcoin de volledige controle. Maar met die vrijheid komt ook de verantwoordelijkheid: als je je sleutels verliest, is je bitcoin voor altijd weg. Er zijn verschillende soorten wallets die je kunt gebruiken. Elk heeft zijn eigen voor- en nadelen, afhankelijk van je behoeften en ervaringsniveau.
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/nl/070.webp)
 
 #### Hot Wallet
 
@@ -1362,7 +1362,7 @@ Voorbeelden: Beurzen zoals Coinbase of Binance, financiële producten zoals Blac
 
 Wij raden bewaringsdiensten af, zelfs voor beginners. Het is veel beter om de tijd te nemen om te leren hoe je je bitcoin goed beveiligt, dan het risico te lopen alles kwijt te raken omdat iemand anders faalde. Maar als je hier bent, lezend over wallets en sleutelbeheer, dan heb je waarschijnlijk al begrepen waarom dat principe belangrijk is.
 
-![BTC102-Bitcoin](assets/fr/068.webp)
+![image](assets/nl/071.webp)
 
 De keuze van een wallet en beveiligingsmethode hangt af van hoeveel je opslaat, je kennisniveau en de potentiële risico's die je ziet. Een hybride aanpak kan echter een slimme optie zijn:
 
@@ -1371,7 +1371,7 @@ De keuze van een wallet en beveiligingsmethode hangt af van hoeveel je opslaat, 
 
 Als je hot wallet te veel bitcoins verzamelt, kun je wat overzetten naar je cold storage. Aan de andere kant, als je meer bitcoins nodig hebt voor dagelijkse uitgaven, kun je wat uit je cold wallet halen.
 
-![BTC102-Bitcoin](assets/fr/066.webp)
+![image](assets/nl/072.webp)
 
 Uiteindelijk hangt de beveiliging grotendeels af van hoe je de tools gebruikt. Een hardware wallet zal je niet veel helpen als je de mnemonische zin (seed phrase) verliest, blootgeeft of compromitteert. Voorzichtigheid en discipline zijn je beste bescherming tegen het verliezen van bitcoins. Voor meer hierover raad ik je aan dit artikel te lezen:
 
@@ -1381,7 +1381,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Er zijn verschillende manieren om bitcoins te verwerven, afhankelijk van hoeveel privacy je nodig hebt, de regelgeving in je land en de hoeveelheid die je wilt verwerven. Er zijn twee belangrijke benaderingen:
 
-![BTC102-Bitcoin](assets/fr/070.webp)
+![image](assets/nl/073.webp)
 
 #### Acquisitie Met Identiteitscontrole (KYC)
 
@@ -1484,7 +1484,7 @@ Voorkeursstrategie:
 
 Dit profiel is vooral geschikt voor mensen die in een omgeving wonen die vijandig is als het gaat om Bitcoin, waar het bezit of gebruik van BTC kan leiden tot sancties. Het is een complexere aanpak, die een zekere mate van technische expertise en strikte discipline vereist om verlies van toegang tot tegoeden te voorkomen.
 
-![BTC102-Bitcoin](assets/fr/069.webp)
+![image](assets/nl/074.webp)
 
 ### Welk profiel past bij jou?
 
@@ -1502,7 +1502,7 @@ In de volgende hoofdstukken gaan we dieper in op elk van deze profielen, zodat j
 
 In de Bitcoin gemeenschap verwijst de term "hodler" naar iemand die een lange termijn investeringsaanpak hanteert. Het woord ontstond uit een beroemde typfout van "hold" op het Bitcoin Talk forum jaren geleden en is sindsdien een symbool geworden voor toewijding: vasthouden aan je Bitcoin, wat er ook gebeurt, zonder stress over korte termijn marktschommelingen.
 
-![BTC102-Bitcoin](assets/fr/071.webp)
+![image](assets/nl/075.webp)
 
 Hodlers geloven in de waardepropositie van Bitcoin. Met een vast hoeveelheid van 21 miljoen munten, zien zij Bitcoin als een lange termijn waardeopslag (digitaal goud).
 
@@ -1552,7 +1552,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![BTC102-Bitcoin](assets/fr/073.webp)
+![image](assets/nl/076.webp)
 
 #### 2. Bitcoin Kopen En Opnemen
 
@@ -1568,7 +1568,7 @@ https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7
 
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![BTC102-Bitcoin](assets/fr/074.webp)
+![image](assets/nl/077.webp)
 
 Sommige hodlers kiezen ook voor een hybride aanpak door gebruik te maken van DCA (Dollar Cost Averaging) - regelmatig kleine bedragen kopen om de marktvolatiliteit af te vlakken.
 
@@ -1601,7 +1601,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 De strategie van de hodler is eenvoudig maar krachtig: kopen, beveiligen en vergeten. De echte uitdaging is niet technisch, maar psychologisch. Het moeilijkste is om de drang te weerstaan om te vroeg te verkopen of in paniek te raken tijdens prijsdalingen. Maar als je gedisciplineerd blijft en op lange termijn denkt, heeft hodling bewezen een betrouwbare manier te zijn om waarde te behouden en op termijn rijkdom op te bouwen.
 
-![BTC102-Bitcoin](assets/fr/075.webp)
+![image](assets/nl/078.webp)
 
 ### Evalueer je Hodler profiel
 
@@ -1613,7 +1613,7 @@ Als je jezelf herkent in deze persoonlijkheidstrekken, ben je waarschijnlijk een
 - **Emotionele veerkracht**: De prijs van Bitcoin kan binnen een paar weken met 50% of meer dalen, en toch blijft de hodler kalm. Ze hebben zich het idee eigen gemaakt dat volatiliteit de fundamenten van Bitcoin niet ondermijnt. Deze emotionele hardheid stelt hen in staat om het hoofd koel te houden tijdens onzekerheid en een rationele kijk te houden wanneer anderen in paniek raken.
 - **Geloof in technologie**: Hodlers zien Bitcoin niet alleen als een speculatief product. Ze geloven in de technologie en het ontwrichtende potentieel. Voor velen gaat het niet alleen om geld, maar ook om vrijheid. Bitcoin wordt gezien als een veerkrachtige, apolitieke valuta en een echt alternatief voor traditioneel bankieren, waardoor individuen meer financiële soevereiniteit krijgen.
 
-![BTC102-Bitcoin](assets/fr/072.webp)
+![image](assets/nl/079.webp)
 
 Hodling is eenvoudig, effectief en toegankelijk, zelfs voor beginners.
 In het volgende hoofdstuk verkennen we een vergelijkbaar maar actiever profiel: de stapelaar.
@@ -1628,7 +1628,7 @@ In het Bitcoin ecosysteem is een stapelaar iemand die een consistente langetermi
 
 Het idee is eenvoudig: er zullen ooit maar ongeveer 21 miljoen bitcoins zijn, en elke fractie telt. De missie van de stacker is om gestaag zoveel mogelijk sats te verzamelen.
 
-![BTC102-Bitcoin](assets/fr/076.webp)
+![image](assets/nl/080.webp)
 
 ### Waarom Kiezen Voor Een Stapelstrategie?
 
@@ -1685,7 +1685,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 De meest effectieve aanpak is om beide te gebruiken: een hot wallet voor dagelijks stapelen en een hardware wallet voor langdurige opslag. De hot wallet is eenvoudig en handig in gebruik. Het stelt je in staat om snel over je bitcoins te beschikken, in plaats van ze op het platform achter te laten waar ze aan risico's kunnen worden blootgesteld. Vergeleken met een hardware wallet biedt de hot wallet echter veel minder veiligheid. De stapelaar moet daarom regelmatig zijn tegoeden overzetten naar zijn cold wallet om zijn spaargeld op lange termijn veilig te stellen en te vermijden dat hij te veel tegoeden in zijn hot wallet bewaart. Periodiek consolideert de stapelaar UTXO's bij het overboeken naar de cold opslag, ofwel hij voegt kleine inputs samen om toekomstige transactiekosten te optimaliseren.
 
-![BTC102-Bitcoin](assets/fr/077.webp)
+![image](assets/nl/081.webp)
 
 #### 2. Een DCA inkoopplan opzetten
 
@@ -1695,7 +1695,7 @@ Dollar-Cost Averaging (DCA) is een beleggingsstrategie waarbij je regelmatig kle
 
 Vervolgens heb je twee opties om je DCA in te stellen: automatiseren of handmatig beheren. De meeste gereglementeerde handelsplatformen bieden nu de optie om je DCA te automatiseren. Met voldoende fiat op je rekening zal het platform automatisch je kooporders uitvoeren op basis van de parameters die je hebt ingesteld. Er is ook een groeiend aantal platformen dat zich toelegt op DCA-automatisering en extra diensten aanbiedt zoals automatische opnames naar een wallet die je zelf controleert (self-custody) of het afronden van je dagelijkse uitgaven. Als je een gereguleerd platform gebruikt, raad ik je ten zeerste aan om je DCA te automatiseren voor meer gemoedsrust in je dagelijkse beheer.
 
-![BTC102-Bitcoin](assets/fr/078.webp)
+![image](assets/nl/082.webp)
 
 Voorbeelden van DCA-platforms:
 
@@ -1744,7 +1744,7 @@ Belangrijkste gewoonten:
 - Blijf op de hoogte van Bitcoin technische ontwikkelingen;
 - Controleer regelmatig je mnemonische zin (seed phrase) back-ups en hardware wallet status: Nu je wallets zijn ingesteld, is het belangrijk om een regelmatige controle in te stellen. Controleer regelmatig of je mnemonische zin nog steeds aanwezig is op de opslaglocatie en of de ondoorzichtige envelop niet geopend is. Tijdens deze controles kun je ook de envelop openen om de toestand van de media te onderzoeken. Zorg ervoor dat het onbeschadigd is en dat de zin nog perfect leesbaar is. Als er tekenen van beschadiging zijn, kun je het beste een nieuwe kopie maken van je wardware wallet. Je kunt ook regelmatig je hardware wallets controleren.
 
-![BTC102-Bitcoin](assets/fr/080.webp)
+![image](assets/nl/083.webp)
 
 Voor eenvoudige controle zonder de veiligheid in gevaar te brengen, stel je een watch-only wallet in om saldi bij te houden met behulp van de openbare sleutel.
 
@@ -1760,7 +1760,7 @@ Succesvolle stapelaars vertonen deze eigenschappen:
 - **Financiële kennis**: Een goed begrip van DCA, risicobeheer en Bitcoin marktfundamenten helpt je om met vertrouwen te investeren. Een geïnformeerde stapelaar is beter uitgerust om twijfels te weerstaan en impulsieve beslissingen te vermijden tijdens perioden van hoge volatiliteit.
 - **Langetermijnvisie**: Een stapelaar gelooft sterk in het technologische potentieel van Bitcoin. Ze richten zich niet op prijsschommelingen op de korte termijn, maar op een gestage groei van hun bezit over de jaren heen.
 
-![BTC102-Bitcoin](assets/fr/079.webp)
+![image](assets/nl/084.webp)
 
 Kortom, stapelen is ideaal voor degenen die in de loop van de tijd een bitcoin positie willen opbouwen, volatiliteitsrisico's willen verminderen en volledige soevereiniteit willen behouden, zonder aan grafieken vastgeplakt te zitten.
 
@@ -1774,7 +1774,7 @@ Zometeen we zullen een radicaal ander bitcoinerprofiel onderzoeken; de actieve g
 
 Een actieve gebruiker van Bitcoin worden, betekent verder gaan dan langetermijninvesteringsstrategieën. In tegenstelling tot de hodler of de stapelaar, die voornamelijk sparen zonder uit te geven, behandelt de actieve gebruiker Bitcoin als een **echt ruilmiddel (medium van exchange)**. Ze gebruiken het om te betalen voor goederen en diensten en nemen actief deel aan de tegeneconomie.
 
-![BTC102-Bitcoin](assets/fr/083.webp)
+![image](assets/nl/085.webp)
 
 ### Waarom een strategie voor actieve gebruikers?
 
@@ -1794,13 +1794,13 @@ Door Bitcoin actief te gebruiken, ontwikkel je praktijkervaring. Je raakt vertro
 
 Uitdagingen zijn onder andere technische complexiteit, prijsvolatiliteit en de noodzaak van goede veiligheidshygiëne om verlies van tegoeden te voorkomen.
 
-![BTC102-Bitcoin](assets/fr/086.webp)
+![image](assets/nl/086.webp)
 
 ### Investeringsplan voor een actieve gebruiker
 
 Het gebruik van Bitcoin voor dagelijkse betalingen vereist een doordachte en gestructureerde aanpak. In tegenstelling tot een Hodler of een stapelaar, moet de actieve gebruiker zowel de veiligheid van zijn tegoeden op lange termijn als het gemak van dagelijkse transacties beheren. Het vinden van de juiste balans tussen veilige off-line opslag (cold storage) en gemakkelijke toegang tot tegoeden om te besteden is essentieel om deze strategie effectief te laten werken.
 
-![BTC102-Bitcoin](assets/fr/084.webp)
+![image](assets/nl/087.webp)
 
 #### 1. Duidelijke scheiding van wallets
 
@@ -1880,7 +1880,7 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 
 Actieve gebruikers moeten een balans vinden tussen hun besparingen op lange termijn en de hoeveelheid Bitcoin die ze bij de hand houden voor dagelijks gebruik.
 
-![BTC102-Bitcoin](assets/fr/085.webp)
+![image](assets/nl/088.webp)
 
 Er zijn verschillende manieren om Bitcoin te verkrijgen, afhankelijk van het niveau van privacy dat je zoekt:
 
@@ -1922,7 +1922,7 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-![BTC102-Bitcoin](assets/fr/081.webp)
+![image](assets/nl/089.webp)
 
 #### 4. Actief uitgavenbeheer
 
@@ -1953,7 +1953,7 @@ Ben jij geknipt om een actieve Bitcoin gebruiker te zijn? Hier zijn de belangrij
 - **Flexibiliteit en aanpassingsvermogen:** Je staat open voor het uitproberen van nieuwe tools, het switchen tussen oplossingen en het aanpassen van je werkwijzen naarmate het Bitcoin ecosysteem zich ontwikkelt en je behoeften veranderen.
 - **Financiële discipline:** Je beheert je Bitcoin uitgaven en spaargeld zorgvuldig. Je begrijpt hoe belangrijk het is om een duidelijke scheiding aan te brengen tussen je dagelijkse uitgaven en je spaargeld voor de lange termijn.
 
-![BTC102-Bitcoin](assets/fr/082.webp)
+![image](assets/nl/090.webp)
 
 Concluderend, de actieve gebruiker speelt een directe rol in het stimuleren van Bitcoin's ecosysteem. Door Bitcoin in hun dagelijkse gewoonten op te nemen, ondersteunen ze niet alleen de adoptie ervan, maar groeien ze ook hun eigen expertise.
 
@@ -1969,7 +1969,7 @@ Voor de paranoïde Bitcoiner is privacy niet optioneel, maar essentieel. In een 
 
 Voor hen is elke actie belangrijk. Elke transactie, elke wallet setup en elke interactie met het netwerk wordt zorgvuldig overwogen. Eén misstap kan gevoelige informatie onthullen die hun identiteit linkt aan hun Bitcoin tegoeden. Hun uiteindelijke doel? Bitcoin gebruiken op een manier die hun identiteit, locatie en financiële situatie volledig privé houdt.
 
-![BTC102-Bitcoin](assets/fr/087.webp)
+![image](assets/nl/091.webp)
 
 ### Waarom zo'n voorzichtige aanpak?
 
@@ -1988,7 +1988,7 @@ Ze zijn niet zomaar investeerders of gebruikers, ze kiezen ervoor om uit een sys
 
 De paranoïde Bitcoiner volgt een strikte strategie die is opgebouwd rond twee kerndoelen: het behouden van anonimiteit en het maximaliseren van veiligheid. Dit type gebruiker probeert blootstelling aan gereguleerde platforms te vermijden (vooral degene die KYC vereisen), elimineert traceerbaarheid van transacties en verdedigt zijn tegoeden tegen toezicht, inbeslagname en andere externe bedreigingen.
 
-![BTC102-Bitcoin](assets/fr/092.webp)
+![image](assets/nl/092.webp)
 
 #### 1. Wallets en nodes instellen
 
@@ -2010,7 +2010,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
-![BTC102-Bitcoin](assets/fr/089.webp)
+![image](assets/nl/093.webp)
 
 - Het draaien van hun eigen **Bitcoin node** is essentieel. Het garandeert volledige controle over het uitzenden van transacties en voorkomt afhankelijkheid van infrastructuur van derden. Het beschermt ook de privacy, voorkomt censuur en laat hen onafhankelijk de regels van het Bitcoin protocol verifiëren. Of het nu op Linux, Windows, macOS of via plug-and-play opstellingen zoals RaspiBlitz, myNode of Start9 is, de paranoïde gebruiker behandelt zijn node als een niet onderhandelbare pijler van soevereiniteit.
 
@@ -2030,7 +2030,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-![BTC102-Bitcoin](assets/fr/090.webp)
+![image](assets/nl/094.webp)
 
 Daar houdt de beveiliging niet op. Voor back-ups van mnemonische zinnen (seed phrases) gebruikt de paranoïde gebruiker metalen back-ups in combinatie met verzegelde enveloppen. Ze controleren regelmatig of de back-ups ongecompromitteerd blijven en testen herstelprocedures van hun wallets om klaar te zijn voor elke eventualiteit.
 
@@ -2122,7 +2122,7 @@ https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 
 Gecentraliseerde uitwisselingen worden volledig vermeden vanwege de risico's die ze met zich meebrengen, zowel voor de privacy als voor mogelijke censuur of inbeslagname.
 
-![BTC102-Bitcoin](assets/fr/091.webp)
+![image](assets/nl/095.webp)
 
 #### 3. On-chain tracing voorkomen
 
@@ -2166,7 +2166,7 @@ Hier zijn de belangrijkste kenmerken van een paranoïde bitcoiner:
 
 Als deze kenmerken je bekend in de oren klinken, dan past deze strategie waarschijnlijk goed bij jou. Het is veeleisend en vereist een constante inspanning, maar het biedt een hoge mate van financiële soevereiniteit en bescherming tegen toezicht, inbeslagname of traceerbaarheid van je tegoeden.
 
-![BTC102-Bitcoin](assets/fr/088.webp)
+![image](assets/nl/096.webp)
 
 Deze aanpak is vooral relevant als je:
 
@@ -2214,7 +2214,7 @@ Dit hoofdstuk is geïnspireerd op het werk van [Pamela Morgan](https://x.com/pam
 
 [Pamela Morgan](https://x.com/pamelawjd) heeft genereus toestemming gegeven voor het gebruik van [haar werk](https://www.amazon.com/gp/product/1947910116/) voor deze cursus, en we zullen haar aanpak volgen om een concreet Bitcoin overervingsplan te maken. In dit hoofdstuk concentreren we ons op het eerste deel van haar boek.
 
-![BTC102-Bitcoin](assets/fr/093.webp)
+![image](assets/nl/097.webp)
 
 Om beter te begrijpen hoe je een Bitcoin successieplan opstelt, kijken we naar het voorbeeld van Cédric, een typische Bitcoin gebruiker die moet organiseren hoe zijn vermogen wordt doorgegeven als er iets onverwachts gebeurt.
 
@@ -2227,7 +2227,7 @@ Zijn profiel:
 
 Ons doel is om een eenvoudig, effectief plan te maken dat is afgestemd op het profiel van Cédric, voordat we overgaan op complexere scenario's met andere soorten gebruikers.
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/nl/098.webp)
 
 ### Voordat je begint
 
@@ -2243,7 +2243,7 @@ Zorg voor een rustige, afleidingsvrije omgeving en verzamel dan deze paar hulpmi
 - Een telefoon of adressenboek;
 - Een computer (optioneel).
 
-![BTC102-Bitcoin](assets/fr/094.webp)
+![image](assets/nl/099.webp)
 
 #### Veelvoorkomende misvattingen over nalatenschapsplanning
 
@@ -2392,7 +2392,7 @@ Voordat je afrondt, moet je ervoor zorgen dat je brief het volgende bevat:
 
 Maak, afhankelijk van je persoonlijke situatie, meerdere handgeschreven kopieën van deze brief en bewaar ze op een veilige plaats (een kluis, bij een vertrouwenspersoon, enz.). Informeer je erfgenamen dat dit erfenisplan bestaat, zonder de inhoud ervan meteen te onthullen. Voor extra bescherming kun je de brief in een knoeibare, ondoorzichtige envelop doen om er zeker van te zijn dat hij niet zonder jouw toestemming is geopend.
 
-![BTC102-Bitcoin](assets/fr/096.webp)
+![image](assets/nl/100.webp)
 
 Raadpleeg indien nodig een advocaat of notaris om je plan formeel te integreren in een wettelijk kader.
 
@@ -2416,7 +2416,7 @@ Zelfs als je nog niet alles gedaan hebt, maar wel van plan bent om het binnenkor
 
 Sinds ik begon met het lesgeven over Bitcoin, zijn zowel het ecosysteem als ikzelf aanzienlijk geëvolueerd. Deze cursus is volledig bijgewerkt om het beste weer te geven van wat Bitcoin vandaag de dag te bieden heeft. Het is samen een hele reis geweest!
 
-![BTC102-Bitcoin](assets/fr/097.webp)
+![image](assets/nl/101.webp)
 
 ### Wat is de volgende stap voor Bitcoin?
 
@@ -2430,7 +2430,7 @@ Natuurlijk blijven er uitdagingen: regelgeving, privacy, bredere adoptie en het 
 
 Eén ding is zeker: Bitcoin zal blijven bestaan, ongeveer elke 10 minuten een nieuw blok produceren, onvermoeibaar, dag na dag, jaar na jaar. We zullen meer gebruikers, wallets en exchanges zien, en ook meer regels, technische hindernissen, crises en innovaties.
 
-![BTC102-Bitcoin](assets/fr/098.webp)
+![image](assets/nl/102.webp)
 
 Naarmate de wereldwijde crises voortduren en de inflatie de koopkracht van fiatvaluta's uitholt, zal Bitcoin op natuurlijke wijze meer mensen aantrekken, die op zoek zijn naar financiële vrijheid en individuele soevereiniteit. Deze dynamiek zal Bitcoin steeds sterker maken en nieuw talent aantrekken om het protocol, de schaallagen en de alledaagse gebruiksmogelijkheden op het gebied van veiligheid, privacy en bruikbaarheid te verbeteren.
 

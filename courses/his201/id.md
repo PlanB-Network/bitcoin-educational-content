@@ -1196,6 +1196,8 @@ Beberapa hari kemudian, pada tanggal 30 September, ia menerbitkan [siaran berita
 
 ![Do you know about Bitcoins?](assets/en/052.webp)
 
+> **Artikel: Apakah Anda mengenal bitcoin?** Bitcoin adalah mata uang elektronik yang dirancang pada tahun 2009 oleh seseorang bernama Satoshi Nakamoto. Mata uang ini berbeda dari mata uang elektronik lainnya karena sifatnya yang sepenuhnya terdesentralisasi peer-to-peer dan penggunaan cerdas konsep kriptografi dasar. Mata uang ini bergantung pada perangkat lunak yang ditulis dalam C++ dan diterbitkan di bawah lisensi bebas MIT.
+
 Dalam konteks ini, publikasi tersebut memiliki efek menarik perhatian seorang Ploum, nama asli Lionel Dricot, seorang blogger Belgia berusia 29 tahun dan pendukung perangkat lunak bebas. Pada 25 Oktober, ia [menerbitkan](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) sebuah artikel di blognya, berjudul "Mata Uang Geek, Uang Monyet?", di mana ia menganjurkan desentralisasi dan mendukung prinsip Bitcoin. Banyak pengguna internet berbahasa Prancis mendengar tentang Bitcoin melalui cara ini, termasuk [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_Bitcoin_abc/dml9h55/), pengembang yang kemudian akan menciptakan Bitcoin Cash pada tahun 2017.
 
 ![Lionel Dricot (Ploum) pada tahun 2012, saat itu seorang kandidat di bawah bendera Partai Bajak Laut untuk pemilihan komunal dan provinsial Belgia](assets/en/053.webp)

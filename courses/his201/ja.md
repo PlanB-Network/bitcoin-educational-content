@@ -1058,6 +1058,8 @@ Slushの協同組合のロゴ、2011年9月（ソース：[アーカイブ](http
 数日後の30日に、彼はLinuxFr.org（DLFP）にフランス語で[ニュースリリース](https://linuxfr.org/news/connaissez-vous-les-bitcoins)を公開しました。このリリースは「ビットコインを知っていますか？」と題され、モリエールの言語で書かれたビットコインの最初の紹介と思われます。この記事は多くの人々に届き、約350件のコメントが生成されました。以下は、当時の様子を[示した](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html)最初の段落です：
 
 ![ビットコインを知っていますか？](assets/en/052.webp)
+> **記事: ビットコインをご存知ですか？** ビットコインは、2009年にサトシ・ナカモトという人物によって設計された電子通貨です。この通貨は、完全に分散型のピアツーピアの性質と、基本的な暗号技術の巧みな利用によって、他の電子通貨と区別されます。C++で書かれたソフトウェアに基づいており、MITの自由ライセンスの下で公開されています。
+
 特に、この報告書は、あるPloum（本名：Lionel Dricot、29歳のベルギー人ブロガーであり、フリーソフトウェアの提唱者）の注目を引く効果があります。10月25日には、彼は自身のブログで「Geek Currency, Monkey Money?」と題した記事を[公開](https://ploum.net/monnaie-de-geek-monnaie-de-singe/)し、そこで分散化を支持し、ビットコインの原則を支持しています。多くのフランス語圏のインターネットユーザーがこの手段を通じてビットコインについて知りました。これには、2017年にビットコインキャッシュを作成することになる開発者[Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)も含まれます。
 ![Lionel Dricot (Ploum) 2012年、ベルギーの地方および州選挙で海賊党の候補者だった時の写真](assets/en/053.webp)
 Lionel Dricot (Ploum) 2012年、ベルギーの地方および州選挙で海賊党の候補者だった時の写真（出典：[Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/)）

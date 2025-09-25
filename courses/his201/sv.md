@@ -1727,6 +1727,8 @@ Några dagar senare, den 30:e, publicerade han ett [pressmeddelande] (https://li
 ![Do you know about bitcoins?](assets/en/052.webp)
 
 
+> **Artiklar: Känner du till bitcoins?** Bitcoin är en elektronisk valuta som utformades 2009 av en viss Satoshi Nakamoto. Denna valuta skiljer sig från andra elektroniska valutor genom sin helt decentraliserade peer-to-peer-natur och sitt smarta utnyttjande av grundläggande kryptografiska koncept. Den bygger på programvara skriven i C++ och publicerad under den fria MIT-licensen.
+
 I synnerhet uppmärksammar detta utskick en viss Ploum, med det riktiga namnet Lionel Dricot, en 29-årig belgisk bloggare och förespråkare för fri programvara. Den 25 oktober [publicerade] han (https://ploum.net/monnaie-de-geek-monnaie-de-singe/) en artikel på sin blogg med rubriken "Geek Currency, Monkey Money?", där han förespråkar decentralisering och stöder principen om Bitcoin. Många fransktalande internetanvändare hörde talas om Bitcoin på detta sätt, däribland [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), den utvecklare som skulle komma att skapa Bitcoin Cash 2017.
 
 

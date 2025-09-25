@@ -1727,6 +1727,8 @@ Haciye imisi mikeyi, ku wa 30, yasohoye [amakuru](https://linuxfr.org/amakuru) m
 ![Do you know about bitcoins?](assets/en/052.webp)
 
 
+> **Ibitabo: Uzi bitcoin?** Bitcoin ni amafaranga y'ikoranabuhanga yatekerejwe mu 2009 n’uwitwa Satoshi Nakamoto. Aya mafaranga atandukanye n’andi mafaranga y’ikoranabuhanga kubera ko akora mu buryo butagira ugenga, peer-to-peer, kandi akoresha neza ibitekerezo by’ibanze by’ubwirinzi bwa mudasobwa. Akubiye mu porogaramu yanditswe muri C++ ikaba yasohowe ku ruhushya rwa MIT rw’ubuntu.
+
 Cane cane, iki kiganiro gikwegera umutima w’umuntu umwe yitwa Ploum, izina ryiwe ry’ukuri Lionel Dricot, umunyabubirigi w’imyaka 29, akaba ari umunyamakuru w’ivy’ubuhinga bwa none, akaba n’umuvugizi w’ubuhinga bwa none. Ku wa 25 Gitugutu, yarasohoye ingingo ku rubuga rwiwe, yitwa "Amahera y'abanyabwenge, amahera y'inkende?", aho avugira ko ubutegetsi bwo kwegereza ubutegetsi abaturage kandi ashigikira ingingo ya Bitcoin. Benshi mu bakoresha interineti bavuga igifaransa bumvise ivyerekeye Bitcoin biciye muri ubwo buryo, harimwo [Amaury Séchet], guhingura amafaranga Bitcoin mu 2017.
 
 

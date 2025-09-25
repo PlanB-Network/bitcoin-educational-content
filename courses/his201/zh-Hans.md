@@ -1059,6 +1059,8 @@ Slush合作社2011年9月的标志（来源：[存档](https://web.archive.org/w
 几天后，即30日，他在LinuxFr.org（DLFP）上用法语发布了一篇[新闻稿](https://linuxfr.org/news/connaissez-vous-les-bitcoins)。这篇标题为“你知道比特币吗？”的文章，可能是第一篇用莫里哀的语言撰写的比特币介绍。文章吸引了大量人群，产生了近350条评论。以下是当时[出现](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html)的第一段内容：
 
 ![你知道比特币吗？](assets/en/052.webp)
+> **文章：你了解比特币吗？** 比特币是一种电子货币，由一位名叫中本聪的人在2009年设计。这种货币不同于其他电子货币，它完全去中心化，以点对点的方式运作，并巧妙地利用了基本的密码学概念。它依赖于一款用C++编写的软件，并在MIT自由许可证下发布。
+
 特别是，这篇报道引起了一位名叫Lionel Dricot的比利时博主和自由软件倡导者的注意，他的网名是Ploum，今年29岁。10月25日，他在自己的博客上[发布](https://ploum.net/monnaie-de-geek-monnaie-de-singe/)了一篇题为《极客货币，猴子钱？》的文章，其中他主张去中心化并支持比特币的原则。包括[Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)在内的许多法语互联网用户通过这种方式了解到比特币，他是后来在2017年创建比特币现金的开发者。
 ![Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了比利时市镇和省级选举](assets/en/053.webp)
 Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了比利时市镇和省级选举（来源：[Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/)）

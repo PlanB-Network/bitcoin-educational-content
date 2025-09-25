@@ -1238,6 +1238,8 @@ Siku chache baadaye, tarehe 30, alichapisha [taarifa ya habari](https://linuxfr.
 
 ![Do you know about bitcoins?](assets/en/052.webp)
 
+> **Makala: Je, unajua kuhusu bitcoins?** Bitcoin ni sarafu ya kielektroniki iliyoundwa mnamo 2009 na mtu fulani aitwaye Satoshi Nakamoto. Sarafu hii inatofautiana na sarafu nyingine za kielektroniki kwa asili yake iliyo huru kabisa ya peer-to-peer na matumizi yake ya busara ya dhana za msingi za usimbaji fiche. Inategemea programu iliyoandikwa kwa C++ na kuchapishwa chini ya leseni huru ya MIT.
+
 Hasa, utumaji huu una athari ya kuvutia umakini wa Ploum fulani, jina halisi Lionel Dricot, mwanablogu wa Ubelgiji mwenye umri wa miaka 29 na mtetezi wa programu za bure. Mnamo Oktoba 25, [alichapisha](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) makala kwenye blogu yake, yenye kichwa "Geek Currency, Monkey Money?", ambamo anatetea ugatuaji na kuunga mkono kanuni ya Bitcoin. Watumiaji wengi wa intaneti wanaozungumza Kifaransa walisikia kuhusu Bitcoin kupitia njia hii, ikiwa ni pamoja na [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/abc5/dmal9), kuunda GW5/dmal9 Pesa mwaka 2017.
 
 ![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/053.webp)

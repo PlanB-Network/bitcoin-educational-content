@@ -1727,6 +1727,8 @@ Birkaç gün sonra, ayın 30'unda LinuxFr.org'da (DLFP) Fransızca bir [haber b�
 ![Do you know about bitcoins?](assets/en/052.webp)
 
 
+> **Makaleler: Bitcoin'i biliyor musunuz?** Bitcoin, 2009 yılında Satoshi Nakamoto adlı biri tarafından tasarlanmış elektronik bir para birimidir. Bu para birimi, tamamen merkeziyetsiz peer-to-peer yapısı ve temel kriptografik kavramların akıllıca kullanımıyla diğer elektronik paralardan ayrılır. C++ ile yazılmış ve özgür MIT lisansı altında yayımlanmış bir yazılıma dayanır.
+
 Bu gönderi özellikle 29 yaşında Belçikalı bir blog yazarı ve özgür yazılım savunucusu olan gerçek adı Lionel Dricot olan Ploum'un dikkatini çekmektedir. 25 Ekim'de blogunda "Geek Currency, Monkey Money?" başlıklı bir makale [yayınladı] (https://ploum.net/monnaie-de-geek-monnaie-de-singe/) ve bu makalede ademi merkeziyetçiliği savunuyor ve Bitcoin ilkesini destekliyor. Fransızca konuşan pek çok internet kullanıcısı, 2017 yılında Bitcoin Cash'i yaratacak olan geliştirici [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/) de dahil olmak üzere Bitcoin'yi bu yolla duydu.
 
 

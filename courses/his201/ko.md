@@ -1727,6 +1727,8 @@ Bitcoin은 국제적인 프로젝트이므로 영어권 이외의 지역에서�
 ![Do you know about bitcoins?](assets/en/052.webp)
 
 
+> **기사: 비트코인을 아십니까?** 비트코인은 2009년에 사토시 나카모토라는 사람이 설계한 전자 화폐입니다. 이 화폐는 완전히 분산된 피어 투 피어 구조와 기본적인 암호화 개념의 영리한 사용으로 다른 전자 화폐와 구별됩니다. C++로 작성된 소프트웨어에 기반하며, 자유로운 MIT 라이선스 하에 배포됩니다.
+
 특히, 이번 파견은 29세의 벨기에 블로거이자 자유 소프트웨어 옹호자인 Ploum(본명 Lionel Dricot)의 관심을 끌었습니다. 그는 10월 25일 자신의 블로그에 "괴짜 화폐, 원숭이 화폐?"라는 제목으로 탈중앙화를 옹호하고 Bitcoin의 원칙을 지지하는 글을 [게시](https://ploum.net/monnaie-de-geek-monnaie-de-singe/)했습니다. 이를 통해 많은 프랑스어권 인터넷 사용자들이 Bitcoin에 대해 알게 되었고, 2017년 Bitcoin 캐시를 만들게 된 개발자 [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)도 이 글을 읽었습니다.
 
 

@@ -1727,6 +1727,8 @@ Een paar dagen later, op de 30e, publiceerde hij een [nieuwsbericht](https://lin
 ![Do you know about bitcoins?](assets/en/052.webp)
 
 
+> **Artikelen: Kent u bitcoins?** Bitcoin is een elektronische munt die in 2009 is ontworpen door een zekere Satoshi Nakamoto. Deze munt onderscheidt zich van andere elektronische munten door zijn volledig gedecentraliseerde peer-to-peer-karakter en het slimme gebruik van basis cryptografische concepten. Het is gebaseerd op software die in C++ is geschreven en gepubliceerd onder de vrije MIT-licentie.
+
 Dit bericht trekt in het bijzonder de aandacht van een zekere Ploum, echte naam Lionel Dricot, een 29-jarige Belgische blogger en voorvechter van vrije software. Op 25 oktober [publiceerde](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) hij een artikel op zijn blog, getiteld "Geek Currency, Monkey Money?", waarin hij pleit voor decentralisatie en het principe van Bitcoin ondersteunt. Veel Franstalige internetgebruikers hoorden via deze weg over Bitcoin, waaronder [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), de ontwikkelaar die in 2017 Bitcoin Cash zou creëren.
 
 

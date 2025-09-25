@@ -1725,6 +1725,8 @@ Kilka dni później, 30-go, opublikował [informację prasową](https://linuxfr.
 ![Do you know about bitcoins?](assets/en/052.webp)
 
 
+> **Artykuły: Czy znasz bitcoiny?** Bitcoin to waluta elektroniczna zaprojektowana w 2009 roku przez pewnego Satoshiego Nakamoto. Waluta ta różni się od innych walut elektronicznych całkowicie zdecentralizowanym charakterem peer-to-peer oraz sprytnym wykorzystaniem podstawowych koncepcji kryptograficznych. Opiera się na oprogramowaniu napisanym w C++ i opublikowanym na wolnej licencji MIT.
+
 Wiadomość ta zwróciła uwagę niejakiego Plouma, czyli Lionela Dricota, 29-letniego belgijskiego blogera i zwolennika wolnego oprogramowania. W dniu 25 października [opublikował](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) artykuł na swoim blogu zatytułowany „Geek Currency, Monkey Money?”, w którym opowiada się za decentralizacją i wspiera zasady, na których opiera się Bitcoin. Wielu francuskojęzycznych użytkowników Internetu dowiedziało się o Bitcoine w ten sposób, w tym [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), deweloper, który stworzył Bitcoin Cash w 2017 roku.
 
 

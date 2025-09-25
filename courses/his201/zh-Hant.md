@@ -1238,6 +1238,8 @@ Bitcoin 是一個國際性的專案，因此必須讓盡可能多的英語圈以
 
 ![Do you know about bitcoins?](assets/en/052.webp)
 
+> **文章：你了解比特幣嗎？** 比特幣是一種電子貨幣，由一位名叫中本聰的人在2009年設計。這種貨幣不同於其他電子貨幣，它完全去中心化，以點對點的方式運作，並巧妙地運用了基本的密碼學概念。它依賴於一款用C++編寫的軟體，並在MIT自由許可證下發佈。
+
 尤其是，這篇發文引起了某位 Ploum（真名 Lionel Dricot）的注意，他是一位 29 歲的比利時部落客，也是自由軟體的倡導者。10 月 25 日，他在自己的部落格 [發表](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) 一篇題為「Geek Currency, Monkey Money?」的文章，提倡去中心化並支持 Bitcoin 的原則。許多講法語的網民都是透過這個途徑聽到 Bitcoin，包括 [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)，也就是在 2017 年繼續創造 Bitcoin Cash 的開發者。
 
 ![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/053.webp)

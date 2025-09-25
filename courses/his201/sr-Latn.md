@@ -1724,6 +1724,8 @@ Nekoliko dana kasnije, 30., objavio je [saopštenje za štampu](https://linuxfr.
 ![Do you know about bitcoins?](assets/en/052.webp)
 
 
+> **Članci: Da li poznajete bitkoine?** Bitcoin je elektronska valuta koju je 2009. godine osmislio izvesni Satoshi Nakamoto. Ova valuta se razlikuje od drugih elektronskih valuta po svom potpuno decentralizovanom peer-to-peer karakteru i domišljatoj upotrebi osnovnih kriptografskih koncepata. Zasnovana je na softveru napisanom u C++ i objavljenom pod slobodnom MIT licencom.
+
 Posebno, ova depeša ima efekat privlačenja pažnje određenog Plouma, pravim imenom Lionel Dricot, 29-godišnjeg belgijskog blogera i zagovornika slobodnog softvera. Dana 25. oktobra, on je [objavio](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) članak na svom blogu, pod naslovom "Geek Currency, Monkey Money?", u kojem se zalaže za decentralizaciju i podržava princip Bitcoin. Mnogi korisnici interneta koji govore francuski čuli su za Bitcoin na ovaj način, uključujući [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), programera koji će kasnije stvoriti Bitcoin Cash 2017. godine.
 
 

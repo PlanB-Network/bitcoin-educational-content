@@ -42,12 +42,12 @@ Per raggiungere un tale obiettivo, il corso BTC102 è suddiviso in diverse sezio
 La prima sezione, "Prerequisiti per capire Bitcoin", ti prepara al percorso da seguire. Imparerai a riconoscere le principali insidie legate alle truffe e alle frodi finanziarie che possono esserci nell'ecosistema Bitcoin. Tratteremo poi le basi essenziali della sicurezza online.
 Infine ti darò alcuni consigli pratici pensati appositamente per i principianti, per aiutarti a evitare gli errori più comuni quando si lavora con Bitcoin per la prima volta.
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/it/001.webp)
 
 La seconda sezione, "Capire a cosa si va incontro", approfondirà la tua comprensione generale di Bitcoin. Inizieremo con un ripasso, per assicurarci che tu abbia compreso appieno i concetti essenziali.
 Poi ti spiegherò perché Bitcoin è di fondamentale importanza dal punto di vista tecnologico, economico e sociale, rafforzando le tue convinzioni sul suo valore. Esplorerai anche il settore Bitcoin nel suo complesso: i suoi attori principali, come è organizzato e come si è evoluto nel corso degli anni. Infine tratteremo l'architettura a layer (livelli) dell'ecosistema Bitcoin, un concetto cruciale per comprendere come questo sistema continui a innovarsi senza compromettere l'integrità del suo protocollo di base.
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/it/002.webp)
 
 La terza sezione, "Impostazione di un piano", si concentra sul tuo approccio personale a Bitcoin. Inizieremo aiutandoti a definire il tuo profilo utente a partire da quattro categorie principali:
 
@@ -58,11 +58,11 @@ La terza sezione, "Impostazione di un piano", si concentra sul tuo approccio per
 
 Ti guideremo nell'implementazione di una strategia che si adatti al tuo profilo e ti aiuti a raggiungere i tuoi obiettivi personali.
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/it/003.webp)
 
 Infine, la quarta sezione, "Protezione per gli eredi e il patrimonio", tratta un argomento cruciale spesso trascurato: come garantire che i tuoi Bitcoin possano passare ai tuoi cari in caso di evento inaspettato. Imparerai come creare e impostare un piano di eredità, garantendo la conservazione del tuo patrimonio anche dopo la tua morte.
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/it/004.webp)
 
 Alla fine di questo corso avrai tutti gli strumenti pratici necessari per navigare con sicurezza nell'ecosistema Bitcoin e diventare uno dei suoi utenti più avanzati!
 
@@ -88,7 +88,7 @@ Prima di proseguire, è importante distinguere in modo netto due mondi fondament
 
 - **Il settore delle criptovalute**, invece, è molto più grande e comprende decine di migliaia di progetti diversi, ognuno con il proprio token. Questo spazio è spesso guidato da una rapida innovazione, dal clamore e dalla speculazione finanziaria a breve termine. Molti di questi progetti sono centralizzati, meno sicuri e non offrono molto valore reale, nonostante le promesse ardite e il marketing appariscente.
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/it/005.webp)
 
 Se vuoi capire meglio da dove viene Bitcoin e che cosa lo rende veramente diverso dagli altri progetti, ti consiglio di seguire questo corso gratuito sulla storia di Bitcoin, che trovi di seguito
 
@@ -96,7 +96,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Come saprai, la piattaforma Plan ₿ Network è dedicata esclusivamente a Bitcoin. Tuttavia, comprendere la distinzione con altre criptovalute ti aiuterà a evitare le insidie associate a progetti inutili e talvolta persino fraudolenti.
 
-![BTC102-Bitcoin](assets/fr/002.webp)
+![image](assets/it/006.webp)
 
 ### Le principali truffe da evitare
 
@@ -106,7 +106,7 @@ Ecco le truffe più comuni in cui potresti imbatterti durante il tuo viaggio:
 
 Sono tra le più comuni truffe nel mondo delle criptovalute. In uno schema Ponzi, i primi partecipanti ricevono pagamenti utilizzando il denaro da chi arriva subito dopo di loro, non da un vero investimento o prodotto. Non viene creato alcun valore reale. Il sistema funziona solo finché ci sono nuove adesioni. Quando il flusso di nuovi partecipanti rallenta, l'intero schema crolla.
 
-![BTC102-Bitcoin](assets/fr/003.webp)
+![image](assets/it/007.webp)
 
 Queste truffe sono solitamente caratterizzate da :
 
@@ -135,13 +135,13 @@ Questo tipo di truffa consiste nel gonfiare artificialmente il prezzo di un asse
 - Al culmine del clamore, gli insider vendono le loro partecipazioni tutte in una volta.
 - Il prezzo crolla, lasciando ai ritardatari pesanti perdite.
 
-![BTC102-Bitcoin](assets/fr/004.webp)
+![image](assets/it/008.webp)
 
 È importante notare che i Pump & Dump sono illegali in molti Paesi e sono considerati una forma di manipolazione del mercato. Nonostante ciò questi schemi continuano a prosperare, soprattutto nello spazio delle criptovalute, dove la regolamentazione è ancora in fase di aggiornamento.
 
 Presta particolare attenzione ai gruppi privati di "segnalazione" su piattaforme come Telegram, Discord o altri canali di social media. Questi gruppi sono spesso gestiti da influencer o da sedicenti esperti, alcuni dei quali fanno pagare delle quote di iscrizione. Sebbene questi gruppi sostengano di offrire opportunità di investimento esclusive, la realtà è molto più unilaterale: solo gli organizzatori traggono profitto, mentre la maggior parte dei partecipanti finisce per perdere il proprio denaro.
 
-![BTC102-Bitcoin](assets/fr/005.webp)
+![image](assets/it/009.webp)
 
 È vero che alcuni partecipanti possono temporaneamente trarre profitto da questo tipo di manipolazioni del mercato, ma il loro successo si basa di solito solo sulla fortuna e sul tempismo perfetto. A lungo termine questi schemi non sono sostenibili. Richiedono costantemente un coinvolgimento ad alto rischio, nonché la partecipazione ripetuta a trappole fraudolente, che inevitabilmente collassano.
 
@@ -158,7 +158,7 @@ I truffatori spesso si spacciano per personaggi pubblici noti (come Elon Musk o 
 
 A volte queste truffe si presentano come frodi che prevedono un  "pagamento anticipato". Ti viene promesso un premio o una ricompensa (denaro, un prodotto o un servizio) ma prima ti viene chiesto di pagare una fee, presumibilmente per coprire cose di spedizione, tasse o costi di transazione. Una volta effettuato il pagamento, il truffatore sparisce e la ricompensa promessa non arriva mai.
 
-![BTC102-Bitcoin](assets/fr/006.webp)
+![image](assets/it/010.webp)
 
 
 #### Shitcoin e criptovalute in offerta
@@ -175,7 +175,7 @@ Prima di cliccare su un link o intraprendere qualsiasi azione, verifica sempre l
 
 Nel corso degli anni,  Bitcoin ha subito diversi _Hard Fork_, che hanno portato alla creazione di versioni alternative della criptovaluta originale. In parole povere, un _Hard Fork_ è una spaccatura nella rete che porta a due blockchain separate, che condividono entrambe la stessa storia fino al momento della divisione. Queste biforcazioni avvengono in genere quando una parte della comunità di sviluppatori o -in modo più ampio - dell'ecosistema Bitcoin, vuole introdurre modifiche importanti al protocollo originale, ma non riesce a raggiungere il consenso generale. Invece di abbandonare le proprie idee, decidono di lanciare una nuova versione di Bitcoin (con regole modificate) sperando che gli utenti e i miner scelgano di seguire il loro fork.
 
-![BTC102-Bitcoin](assets/fr/007.webp)
+![image](assets/it/011.webp)
 
 Non tutti gli _Hard Fork_ sono fraudolenti, poiché alcuni nascono da disaccordi tecnici o ideologici all'interno della comunità. Tuttavia, altri sono guidati da interessi commerciali o addirittura da motivazioni disoneste. Gli esempi più noti di questi hard fork sono **Bitcoin Cash (BCH)** e **Bitcoin Satoshi Vision (BSV)**. Lanciate rispettivamente nel 2017 e nel 2018, queste valute alternative spesso affermano di essere "versioni migliori" dell'originale. Promuovono presunti vantaggi come commissioni di transazione più basse o transazioni più veloci grazie all'aumento delle dimensioni dei blocchi. Queste modifiche tecniche comportano però compromessi significativi in termini di sicurezza, decentralizzazione e solidità; elementi che possono entrare in conflitto con i principi fondanti di Bitcoin.
 
@@ -187,7 +187,7 @@ Per evitare di cadere in questa trappola, verifica sempre la valuta che stai acq
 
 Quando le criptovalute hanno guadagnato l'attenzione generale, sui social media si è assistito a un'invasione di influencer, sedicenti esperti e cosiddetti _"crypto-guru!_ (guru delle criptovalute). Mentre alcuni di essi possono offrire sinceri spunti educativi, molti altri approfittano della loro visibilità per promuovere progetti dubbi o strategie di trading pericolosamente rischiose (e a volte del tutto fraudolente). Questi individui sono di solito motivati da interessi economici personali, perché spesso ricevono compensi diretti o indiretti per promuovere determinati token o piattaforme.
 
-![BTC102-Bitcoin](assets/fr/008.webp)
+![image](assets/it/012.webp)
 
 Questi influencer si affidano spesso a tattiche collaudate per attirare i principianti: mostrano risultati finanziari impressionanti (spesso falsi o non verificabili), ostentano uno stile di vita lussuoso come presunta prova del loro successo e promuovono strategie di investimento "miracolose". L'obiettivo è quello di scatenare il FOMO (Fear Of Missing Out) e spingere il pubblico a prendere decisioni impulsive e a fare investimenti azzardati.
 
@@ -244,7 +244,7 @@ Uno degli aspetti più trascurati della sicurezza personale è mantenere aggiorn
 
 Ti consiglio di utilizzare un antivirus affidabile. Quello integrato su Windows, Windows Defender, è generalmente sufficiente per la maggior parte degli utenti. Se preferisci funzioni aggiuntive o tranquillità, sono disponibili in commercio anche opzioni come Kaspersky. Su macOS le minacce di malware sono storicamente meno comuni **ma non inesistenti**, quindi è comunque opportuno che tu sia prudente.
 
-![BTC102-Bitcoin](assets/fr/012.webp)
+![image](assets/it/013.webp)
 
 Oltre agli aggiornamenti del sistema e alla protezione antivirus, diffida dal scaricare software da siti web poco raccomandabili o da portali di download cosiddetti "universali". Quando hai bisogno di uno strumento o di un'applicazione, vai sempre alla fonte ufficiale; questo riduce drasticamente il rischio di installare malware camuffato da software legittimo. Un'altra buona abitudine è quella di verificare l'autenticità e l'integrità di qualsiasi software prima di installarlo sul computer. Se non sei sicuro di come fare, non preoccuparti, abbiamo un tutorial dedicato che ti guiderà attraverso tale procedura:
 
@@ -263,7 +263,7 @@ Una strategia di backup ampiamente consigliata è la "regola del 3-2-1". È prog
 
 Questo approccio offre una forte resilienza e contribuisce a garantire che i dati sopravvivano anche se qualcosa va pesantemente storto.
 
-![BTC102-Bitcoin](assets/fr/013.webp)
+![image](assets/it/014.webp)
 
 ### La soluzione all'incubo dell'ID
 
@@ -276,7 +276,7 @@ Un gestore di password ti permette di:
 
 Con un gestore di password non dovrai mai più cliccare su "Password dimenticata" o affidarti a credenziali deboli e riutilizzate. Inoltre, la maggior parte dei password manager si sincronizza perfettamente tra vari dispositivi (desktop, telefono, tablet) e completa automaticamente i campi di accesso, rendendo il login sicuro, semplice ed efficiente.
 
-![BTC102-Bitcoin](assets/fr/011.webp)
+![image](assets/it/015.webp)
 
 Ci sono molti password manager in circolazione, ma posso consigliare due opzioni solide a seconda delle tue esigenze. Se cerchi qualcosa di facile da usare che si sincronizzi perfettamente su più dispositivi, Bitwarden è una scelta eccellente:
 
@@ -290,17 +290,17 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 In Bitcoin, sei la tua banca. Ciò significa che sei anche il tuo team di sicurezza. Anche con una password forte, il rischio zero non esiste: ecco perché è essenziale attivare l'autenticazione a due fattori (2FA).
 
-![BTC102-Bitcoin](assets/fr/014.webp)
+![image](assets/it/016.webp)
 
 L'autenticazione a due fattori aggiunge un secondo livello di protezione, richiedendo un codice monouso con validità a scadenza temporale (solitamente di 6 cifre) generato da un'app come Google Authenticator o Authy. In questo modo, anche se qualcuno riesce a ottenere la tua password, non può comunque accedere al tuo account senza avere accesso fisico al dispositivo su cui gestisci il 2FA.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![BTC102-Bitcoin](assets/fr/009.webp)
+![image](assets/it/017.webp)
 
 Quando attivi il 2FA, assicurati di salvare in un luogo sicuro la chiave per recuperare l'applicazione. Questo ti permetterà di ripristinare i codici in caso di smarrimento o cambio del dispositivo. Sebbene il 2FA basato su SMS o e-mail sia meglio di niente, è molto meno sicuro. Un attacco di SIM swap, in cui qualcuno prende il controllo del tuo numero di telefono, può facilmente aggirare questo tipo di protezione.
 
-![BTC102-Bitcoin](assets/fr/010.webp)
+![image](assets/it/018.webp)
 
 Per chi vuole fare un passo avanti nella sicurezza, le chiavi fisiche come YubiKey offrono un livello di protezione ancora più elevato.
 
@@ -316,7 +316,7 @@ Una **VPN** (*Virtual Private Network*) è una soluzione semplice ma efficace pe
 - Consenta il pagamento tramite BTC
 - Ha una rigorosa politica di assenza di log
 
-![BTC102-Bitcoin](assets/fr/015.webp)
+![image](assets/it/019.webp)
 
 Su Plan ₿ Network sono disponibili diverse esercitazioni che possono guidarti nella configurazione di una VPN in modo semplice. Raccomando in particolare IVPN o Mullvad:
 
@@ -351,7 +351,7 @@ In breve: non sottovalutate la sicurezza informatica, prenditi il tempo necessar
 
 Assicurati anche di guardare [le nostre esercitazioni sulla sicurezza informatica](https://planb.network/tutorials/computer-security) su Plan ₿ Network.
 
-![BTC102-Bitcoin](assets/fr/016.webp)
+![image](assets/it/020.webp)
 
 Nel prossimo capitolo, condividerò altri suggerimenti per aiutarti a iniziare il tuo viaggio con Bitcoin, con fiducia ed evitando le tante trappole che possono cogliere di sorpresa i nuovi arrivati.
 
@@ -373,7 +373,7 @@ Ecco i punti chiave che esamineremo insieme:
 - Rimanere umile e mantenere un **basso profilo** (la discrezione fa parte della sicurezza);
 - **Pensare a lungo termine**, ampliare le tue vedute ed essere paziente (considerala come una maratona, non come uno sprint).
 
-![BTC102-Bitcoin](assets/fr/017.webp)
+![image](assets/it/021.webp)
 
 ### Gli errori più comuni da evitare
 
@@ -396,7 +396,7 @@ Bitcoin è aperto a tutti, ma questo non significa che ci si debba far trovare i
 
 - **Cadere vittima del FOMO**: acquistare impulsivamente per paura di rimanere fuori, porta di solito a un cattivo tempismo e a decisioni sbagliate. La pazienza è la tua migliore alleata.
 
-![BTC102-Bitcoin](assets/fr/019.webp)
+![image](assets/it/022.webp)
 
 ### Definire una strategia di investimento
 
@@ -406,7 +406,7 @@ Inizia definendo il tuo **budget** con precisione. Non scegliere un numero a cas
 
 Un approccio di questo tipo garantisce che non si metta a rischio il proprio benessere finanziario, soprattutto in caso di crollo del mercato. Una strategia ponderata è il fondamento di una resilienza a lungo termine.
 
-![BTC102-Bitcoin](assets/fr/020.webp)
+![image](assets/it/023.webp)
 
 Una volta definito il tuo budget, pensa a come vuoi investire. Uno dei metodi più semplici, ampiamente consigliati, per i principianti è il Dollar Cost Averaging (DCA) - i Piano di Accumulo Costante (PAC), che consiste nell'acquistare una quantità fissa di Bitcoin a intervalli regolari (settimanalmente, mensilmente, ecc.). Questa strategia consente di livellare il prezzo medio di ingresso nel tempo e ridurre l'impatto emotivo delle oscillazioni di prezzo. È un approccio intelligente per la maggior parte delle persone, soprattutto per chi è all'inizio.
 
@@ -423,7 +423,7 @@ Dedica qualche ora all'esplorazione di Bitcoin, dai un'occhiata alle risorse gra
 
 Bitcoin è noto per le sue forti oscillazioni di prezzo. Non sono insolite variazioni del 10%, 20% o addirittura del 50% nell'arco di pochi giorni. Per chi ha appena iniziato questo tipo di volatilità può essere frastornante. È facile farsi travolgere dall'entusiasmo durante i cicli rialzisti o dal panico durante le flessioni; entrambe le cose portano spesso a decisioni sbagliate, come vendere in perdita.
 
-![BTC102-Bitcoin](assets/fr/021.webp)
+![image](assets/it/024.webp)
 
 Ecco perché è fondamentale **comprendere e accettare la volatilità** di Bitcoin prima di investire. Queste oscillazioni di prezzo non sono un difetto, ma una caratteristica di un asset ancora in fase di maturazione. Se gli improvvisi alti e bassi ti tengono sveglio la notte o ti spingono a prendere decisioni emotive, è probabile che tu abbia investito più di quanto ti senti di rischiare. In questo caso, fai un passo indietro e rivaluta la tua strategia e la tolleranza al rischio. Non esitare a ridurre la tua esposizione finché non ti senti più tranquillo.
 
@@ -433,13 +433,13 @@ Soprattutto, non investire mai più di quanto puoi permetterti di perdere. Evita
 
 Una delle caratteristiche più potenti (e spesso sottovalutate) di Bitcoin è l'**auto-custodia**. Con un Wallet self-hosted (un wallet gestito da te e non da una piattaforma), solo tu sei responsabile dei tuoi fondi. Questi wallet sono in genere derivati da una **recovery phrase** (nota anche come seed phrase), una sequenza di 12 o 24 parole che garantisce l'accesso completo ai tuoi BTC. Se perdi questa frase (o se qualcun altro ne entra in possesso) i tuoi bitcoin sono persi per sempre. **Nessun servizio clienti. Nessun pulsante di reset.**
 
-![BTC102-Bitcoin](assets/fr/023.webp)
+![image](assets/it/025.webp)
 
 Ecco perché la regola d'oro di Bitcoin è:
 
 "**Not your keys, not your coins**". Se non controlli personalmente le tue chiavi private, non possiedi veramente i tuoi Bitcoin. Anche se gli exchange possono essere convenienti (soprattutto quando si inizia), sono loro che detengono le chiavi per te. Ciò significa che i tuoi fondi sono a rischio se la piattaforma viene violata, blocca il tuo conto o fallisce.
 
-![BTC102-Bitcoin](assets/fr/024.webp)
+![image](assets/it/026.webp)
 
 Per evitare questo rischio, ti esorto a configurare un **tuo wallet personale**, per il quale solo tu hai accesso alla recovery phrase. Questa frase deve essere sempre scritta a mano e conservata **offline** in un luogo sicuro. Alcuni utenti , per una maggiore sicurezza, conservano anche **più di un backup**, archiviato in luoghi geografici separati.
 
@@ -474,11 +474,11 @@ A dispetto della sua decentralizzazione, **Bitcoin non è esente dalle leggi e d
 
 In alcuni luoghi i profitti sono tassati come plusvalenze al momento della vendita. Altri possono richiedere di dichiarare ogni transazione e altri ancora applicano regole meno comuni, come le imposte sul patrimonio o i contributi sociali.
 
-![BTC102-Bitcoin](assets/fr/018.webp)
+![image](assets/it/027.webp)
 
 Prima di effettuare transazioni significative, ti consiglio vivamente di consultare un professionista fiscale o prendere visione delle linee guida ufficiali del tuo governo. Prenditi del tempo per capire in anticipo i tuoi obblighi fiscali, perché può evitare problemi inaspettati in seguito (come multe, controlli o sanzioni), soprattutto se stai pianificando grandi vendite o ridistribuzioni del tuo wallet.
 
-![BTC102-Bitcoin](assets/fr/022.webp)
+![image](assets/it/028.webp)
 
 ### La differenza tra trading, investimento e conservazione a lungo termine
 
@@ -520,7 +520,7 @@ Un ottimo punto di partenza è il libro _Rich Dad, Poor Dad_ di Robert T. Kiyosa
 
 Se sei pronto per approfondire, podcast come *The Investors Podcast* offrono discussioni approfondite su investimenti, mercati e principi economici. Occasionalmente trattano anche Bitcoin, presentandolo come un solido passo successivo per chi è curioso di capire come Bitcoin si inserisca nel più ampio panorama finanziario.
 
-![BTC102-Bitcoin](assets/fr/025.webp)
+![image](assets/it/029.webp)
 
 ### Regole d'oro da tenere a mente
 
@@ -555,14 +555,14 @@ Questa sfida è rimasta irrisolta fino alla fine del 2008, quando qualcuno con i
 
 Il progetto è stato fortemente influenzato dall'etica dei Cypherpunk, una comunità di sviluppatori e pensatori che credevano nell'uso della crittografia per proteggere le libertà individuali online. Per loro privacy e decentralizzazione non erano mere scelte tecniche, ma necessità ideologiche. Bitcoin è emerso come l'incarnazione di maggior successo di questi ideali: una rete monetaria peer-to-peer che chiunque poteva usare, nessuno poteva controllare e tutti potevano verificare.
 
-![BTC102-Bitcoin](assets/fr/035.webp)
+![image](assets/it/030.webp)
 
 I Cypherpunk sono una comunità internazionale informale, composta da individui che sostengono l'uso della crittografia per difendere le libertà personali online. Credono fermamente nel diritto alla privacy dell'individuo, soprattutto in un mondo sempre più caratterizzato dalla sorveglianza governativa e dallo sfruttamento dei dati da parte delle corporation.
 
 Le radici del movimento Cypherpunk risalgono ai primi anni Novanta, quando gruppi di crittografi, programmatori e libertari iniziarono a esplorare le implicazioni politiche della crittografia durante gli incontri nella Silicon Valley. Una delle voci più importanti della comunità è stata quella di Tim May, autore nel 1988 del Crypto Anarchist Manifesto, un testo essenziale che delinea la visione di un mondo in cui la crittografia avrebbe permesso agli individui di operare al di fuori della portata dei governi e del controllo centralizzato.
 Una pietra miliare del movimento fu la creazione, nel 1992, della mailing list dei Cypherpunk, un forum dove potevano fiorire idee, progetti e discussioni politiche sulla privacy e la crittografia. Poi, nel 1993, Eric Hughes pubblicò il Manifesto Cypherpunk, una breve ma potente dichiarazione che esprimeva chiaramente la missione e le convinzioni della comunità.
 
-![BTC102-Bitcoin](assets/fr/032.webp)
+![image](assets/it/031.webp)
 
 L'idea di una moneta digitale che operi indipendentemente da qualsiasi autorità centrale (come Bitcoin) è profondamente radicata nella filosofia Cypherpunk.
 
@@ -576,11 +576,11 @@ Bitcoin non è apparso dal nulla. È stato creato in un momento ben preciso, sub
 
 Non si trattava solo di una data o di una nota tecnica, bensì di una protesta pacifica ma potente. Dimostrava che Bitcoin era stato progettato per essere qualcosa di radicalmente diverso: un sistema finanziario che non dipende dalle banche, dai salvataggi o dalle decisioni del governo.
 
-![BTC102-Bitcoin](assets/fr/034.webp)
+![image](assets/it/032.webp)
 
 Molti interpretano il messaggio come l'obiettivo di Bitcoin: offrire un modo per trasferire valore senza bisogno di intermediari, controllato da regole chiare invece che dalle decisioni spesso poco chiare prese dalle banche centrali o dai governi.
 
-![BTC102-Bitcoin](assets/fr/033.webp)
+![image](assets/it/033.webp)
 
 Per approfondire la conoscenza delle origini di Bitcoin, offriamo un corso di formazione gratuito, completo e ben documentato sull'argomento:
 
@@ -592,17 +592,17 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 Bitcoin è definito come un "sistema di contante elettronico peer-to-peer" Significa che chiunque può connettersi alla rete utilizzando il software appropriato (un nodo Bitcoin) e interagire direttamente con altri utenti, senza fare affidamento su un server centrale. L'obiettivo di questa decentralizzazione è quello di evitare che una singola entità (come una banca, un governo o una grande azienda) possa controllare, censurare o bloccare il sistema. Bitcoin opera 24 ore su 24, 7 giorni su 7 a livello globale, rimanendo accessibile a tutti senza alcuna condizione.
 
-![BTC102-Bitcoin](assets/fr/036.webp)
+![image](assets/it/034.webp)
 
 In parole povere ogni partecipante alla rete Bitcoin (chiamato "nodo") possiede una copia completa del libro mastro contenente le transazioni, nota come blockchain. Quando arriva una nuova transazione, questa viene trasmessa alla rete. I miner confermano le transazioni raggruppandole in blocchi che vengono aggiunti alla fine della catena (da qui il nome "Blockchain").
 
-![BTC102-Bitcoin](assets/fr/029.webp)
+![image](assets/it/035.webp)
 
 #### Blockchain: un registro contabile
 
 Pensate alla blockchain come a un gigantesco libro contabile, dove ogni riga rappresenta una transazione. In un sistema bancario tradizionale, il database è memorizzato sui server della banca che può apportare modifiche quando vuole. In Bitcoin, invece, **tutte le modifiche sono convalidate dall'intera rete**: una volta aggiunto un nuovo blocco di transazioni alla blockchain, è quasi impossibile modificarlo in seguito. Questa convalida decentralizzata rende il registro contabile di Bitcoin sicuro e trasparente.
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/it/036.webp)
 
 ### Il ruolo dei miner e della Proof-of-Work
 
@@ -616,7 +616,7 @@ Come ricompensa, il miner riceve bitcoin di nuova creazione (chiamati block subs
 Per garantire la scarsità di Bitcoin, la ricompensa di blocco è programmata per dimezzarsi ogni 210.000 blocchi, all'incirca ogni quattro anni. Questo evento è noto come "Halving". Al momento del lancio di Bitcoin, i miner guadagnavano 50 BTC per blocco. Nel 2025 questa ricompensa è scesa a 3,125 BTC e continuerà a diminuire nel tempo.
 Alla fine, intorno all'anno 2140, la ricompensa raggiungerà lo zero, poiché l'emissione totale di Bitcoin raggiungerà i 21 milioni di monete. La curva di emissione programmata imita la scarsità di materie prime come l'oro; uno dei motivi per cui Bitcoin viene spesso definito **oro digitale**.
 
-![BTC102-Bitcoin](assets/fr/031.webp)
+![image](assets/it/037.webp)
 
 ### Le Proprietà monetarie di Bitcoin
 
@@ -633,7 +633,7 @@ Questa innata scarsità è un'attrattiva importante per coloro che desiderano so
 
 Uno dei punti di forza più sottovalutati di Bitcoin è la sua divisibilità. Ogni Bitcoin può essere suddiviso in 100 milioni di unità, note come satoshi (o Sats in breve). Ciò significa che non è necessario spendere decine di migliaia di euro o di dollari per iniziare; è possibile acquistare in Bitcoin solo l'equivalente di pochi euro, fino a frazioni minuscole.
 
-![BTC102-Bitcoin](assets/fr/026.webp)
+![image](assets/it/038.webp)
 
 ### Accesso aperto e trasparenza
 
@@ -642,7 +642,7 @@ Uno dei punti di forza più sottovalutati di Bitcoin è la sua divisibilità. Og
 Bitcoin funziona su un protocollo pubblico, **open-source** (in particolare attraverso [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Ciò significa che il suo codice è disponibile liberamente a chiunque, per ispezionarlo, verificarlo e migliorarlo. Non ci sono meccanismi nascosti o sistemi chiusi; tutto ciò che riguarda il funzionamento di Bitcoin avviene alla luce del sole.
 Un tale livello di trasparenza rende incredibilmente difficile introdurre backdoor o apportare modifiche nascoste. Chiunque abbia le competenze tecniche può gestire un nodo, contribuire allo sviluppo o costruire strumenti compatibili. In Bitcoin la fiducia si guadagna attraverso il codice e il consenso, non attraverso il controllo centralizzato.
 
-![BTC102-Bitcoin](assets/fr/030.webp)
+![image](assets/it/039.webp)
 
 Questa trasparenza è uno dei motivi principali per cui le persone si fidano del protocollo Bitcoin; impedisce a un piccolo gruppo di sviluppatori di manipolare la rete per il proprio tornaconto. Bitcoin opera secondo un principio semplice ma potente: se non sei d'accordo con le modifiche proposte, sei libero di non aggiornare il tuo software. In alcuni casi questo non causerà alcuna interruzione; rimarrai comunque sincronizzato con il resto della rete. Ma in altri casi può portare a quello che è noto come un Hard Fork, in cui la rete si divide in due e viene creata una nuova versione di Bitcoin. È esattamente ciò che è accaduto nel 2017 con la divisione tra Bitcoin (BTC) e Bitcoin Cash (BCH).
 
@@ -676,7 +676,7 @@ Bitcoin può essere visto come una tecnologia "Zero a Uno" (ovvero la fase di es
 
 Tuttavia, dopo oltre un decennio di esistenza, Bitcoin continua ad animare dibattiti e passioni. La sua adozione è in crescita, stanno emergendo soluzioni su layer superiori (come Lightning Network) per migliorare la velocità delle transazioni e ridurre le commissioni, mentre le aziende di tutto il mondo stanno sperimentando nuovi casi d'uso. È probabile che Bitcoin continuerà a influenzare i sistemi di pagamento e persino il modo in cui percepiamo il denaro nei decenni a venire.
 
-![BTC102-Bitcoin](assets/fr/028.webp)
+![image](assets/it/040.webp)
 
 Se desideri ampliare ulteriormente le tue conoscenze, puoi seguire il corso BTC101 su Plan ₿ Network, che offre un'esplorazione più approfondita dei fondamenti tecnici ed economici di Bitcoin.
 
@@ -702,33 +702,33 @@ Barack Obama una volta ha definito Bitcoin come una "banca svizzera in tasca", p
 - Non avere alcun intermediario o costo nascosto.
 - Bitcoin è nativo di Internet, il che significa che chiunque abbia accesso al web può utilizzarlo.
 
-![BTC102-Bitcoin](assets/fr/037.webp)
+![image](assets/it/041.webp)
 
 Bitcoin può essere visto come la vera "moneta del popolo", un sistema monetario alternativo che non si affida ad alcuna autorità centrale e che si basa su regole immutabili, anziché che su decisioni arbitrarie. La sua natura aperta e accessibile lo rende uno strumento potenzialmente rivoluzionario per miliardi di persone in tutto il mondo, che siano esse escluse dal sistema bancario tradizionale o che siano semplicemente alla ricerca di una sovranità alternativa.
 
 Questo ci porta a una questione fondamentale, quasi filosofica, che divide gli appassionati di Bitcoin in due, come le loro principali visioni del mondo. Da un lato, alcuni vedono Bitcoin come una soluzione per promuovere l'inclusione finanziaria, consentendo a miliardi di individui esclusi dal sistema bancario, di accedere finalmente a un'infrastruttura monetaria globale. Dall'altro lato, alcuni vedono Bitcoin come uno strumento di liberazione finanziaria volto a offrire una via d'uscita ai miliardi di persone già integrate nel sistema bancario, ma che desiderano liberarsi dalla sua dipendenza e riprendere il pieno controllo del proprio denaro. Questa riflessione merita la nostra attenzione e torneremo ad approfondirla in seguito.
 
-![BTC102-Bitcoin](assets/fr/044.webp)
+![image](assets/it/042.webp)
 
 ### Protezione contro le crisi valutarie
 
 Per secoli il mondo ha vissuto crisi monetarie che hanno avuto effetti devastanti sulle popolazioni. Miliardi di persone soffrono ancora delle conseguenze di politiche monetarie pianificate male, in cui la manipolazione dell'emissione monetaria e dei tassi di interesse crea squilibri sistemici. Queste crisi non sono eventi casuali: sono il risultato di un sistema costruito sull'interventismo e sulla manipolazione dei valori del denaro e del tempo.
 
-![BTC102-Bitcoin](assets/fr/045.webp)
+![image](assets/it/043.webp)
 
 Le crisi possono assumere diverse forme. L'iperinflazione, ad esempio, cancella una valuta distruggendo gradualmente il potere d'acquisto dei cittadini, come è avvenuto in Paesi come lo Zimbabwe e il Venezuela. D'altro canto, i rigidi controlli monetari possono limitare l'accesso ai fondi e privare gli individui della loro libertà economica, come è accaduto con le restrizioni bancarie in Grecia e in Libano.
 
-![BTC102-Bitcoin](assets/fr/047.webp)
+![image](assets/it/044.webp)
 
 Infine, quando i governi svalutano le loro valute nazionali, erodono gradualmente i risparmi delle persone; una perdita invisibile ma costante della ricchezza. Per molti versi agisce come una tassa nascosta. Finché la politica monetaria rimane nelle mani di autorità centralizzate, le crisi sono destinate a ripresentarsi ciclicamente.
 
-![BTC102-Bitcoin](assets/fr/038.webp)
+![image](assets/it/045.webp)
 
 Bitcoin propone un'alternativa coraggiosa a questo circolo cronico di instabilità monetaria. A differenza delle valute emesse dagli Stati, è costruita su regole immutabili basate sulla matematica e fatte rispettare tramite il consenso, non da governi o banche centrali. La sua emissione è prefissata e limitata a circa 21 milioni di unità, il che la rende una forma di moneta solida progettata per mantenere il suo valore nel tempo. Poiché resiste alla censura, chiunque può immagazzinare e trasferire valore senza dipendere da un'istituzione. Grazie alla sua divisibilità e portabilità, è accessibile e pratico; un'infrastruttura finanziaria per chiunque, ovunque.
 
 Nel corso della storia, ci sono stati almeno 56 casi documentati di iperinflazione in tutto il mondo. In molti di questi casi, intere economie sono crollate, i risparmi di una vita sono stati spazzati via e milioni di persone si sono ritrovate nella povertà più estrema. Ancora peggio, questi fallimenti monetari hanno spesso agito da trampolino di lancio per sconvolgimenti politici; a volte hanno portato a regimi autoritari, come è accaduto in Germania negli anni Venti e in Cile negli anni Settanta.
 
-![BTC102-Bitcoin](assets/fr/039.webp)
+![image](assets/it/046.webp)
 
 Hanke, S. H., & Krus, N. (2013). _World Hyperinflations_. In R. Parker & R. Whaples (Eds.), The Handbook of Major Events in Economic History. Routledge Publishing. Recuperato da https://ssrn.com/abstract=2130109
 
@@ -738,7 +738,7 @@ Il crollo delle valute fiat non è un caso isolato, ma uno schema che si ripete 
 
 La crescente disuguaglianza economica nel mondo è sempre stata un terreno fertile per i disordini sociali e l'ascesa dell'estremismo politico. La storia dimostra che, quando il divario tra ricchi e poveri diventa troppo ampio, spesso nascono tensioni, crisi e persino alla comparsa di regimi autoritari. Di fronte a questi rischi, proteggere la propria libertà finanziaria non è solo un lusso, ma una necessità per chiunque voglia preservare la propria autonomia e salvaguardare il futuro della propria famiglia.
 
-![BTC102-Bitcoin](assets/fr/046.webp)
+![image](assets/it/047.webp)
 
 Ma in un mondo in cui lo Stato può esercitare pieno controllo su beni e transazioni, quali sono le opzioni reali per proteggere il risparmio?
 
@@ -752,7 +752,7 @@ Bitcoin è più di un semplice strumento pratico. È anche **una forma di protes
 
 In quest'ottica Bitcoin è più che una tecnologia. È uno strumento di diritto naturale, un modo per gli individui di affermare i loro diritti fondamentali anche quando questi sono negati dalle leggi del paese. Restituisce il potere al popolo, non attraverso la rivoluzione, ma attraverso il codice.
 
-![BTC102-Bitcoin](assets/fr/040.webp)
+![image](assets/it/048.webp)
 
 **Lo sapevi? Bitcoin è pseudonimo, non anonimo. Gli utenti possono creare indirizzi dai wallet senza rivelare la loro vera identità, consentendo di inviare e ricevere fondi al di fuori del sistema bancario tradizionale**.
 
@@ -768,7 +768,7 @@ Se la tua ricchezza non è garantita da attività non monetarie (come immobili, 
 
 Non si tratta di un difetto del sistema, ma di un meccanismo deliberato. Le banche centrali e i governi lo usano per stimolare artificialmente la crescita economica e per spingere le persone a consumare costantemente e a indebitarsi sempre di più.
 
-![BTC102-Bitcoin](assets/fr/041.webp)
+![image](assets/it/049.webp)
 
 Il nostro sistema finanziario moderno è costruito su un ciclo di indebitamento, in cui il prestito non è solo incoraggiato, ma è praticamente inevitabile. Gli individui contraggono prestiti per mantenere uno stile di vita, per poi ritrovarsi intrappolati in un sistema in cui devono ripagare gli interessi alle banche che creano denaro dal nulla. Non si tratta di una casualità, ma di un disegno strutturale volto a favorire le istituzioni finanziarie a scapito dei cittadini.
 
@@ -780,7 +780,7 @@ Ciò significa che Bitcoin opera in un quadro monetario prevedibile, in cui l'in
 
 In passato, l'oro serviva a controllare l'espansione monetaria incontrollata. Dopo la cancellazione del gold standard nel 1971, nessuna valuta nazionale (sia essa il dollaro, l'euro o lo yen) è sostenuta da un bene tangibile. Questo distacco ha dato alle banche centrali la possibilità di stampare moneta senza freni, aprendo la strada a decenni di espansione monetaria aggressiva, bolle speculative a ripetizione e crisi finanziarie ricorrenti.
 
-![BTC102-Bitcoin](assets/fr/042.webp)
+![image](assets/it/050.webp)
 
 Quando Depositi Denaro in Banca, Non è Più Veramente Tuo.
 La maggior parte delle persone non se ne rende conto: il denaro depositato su un conto bancario non è tecnicamente di tua proprietà. In termini legali e pratici, si tratta di un prestito concesso alla banca, che è libera di utilizzarlo per le proprie operazioni e i propri investimenti.
@@ -808,19 +808,19 @@ I bitcoiner provengono da ogni categoria sociale, ma condividono una visione com
 - **Economisti austriaci**, sostenitori di una moneta sana e della libertà dalle manipolazioni governative;
 - **Ingegneri, finanzieri e sostenitori della libertà di parola**, che riconoscono le profonde implicazioni sociali di questo nuovo paradigma monetario.
 
-![BTC102-Bitcoin](assets/fr/043.webp)
+![image](assets/it/051.webp)
 
 Bitcoin, per sua stessa concezione, trascende le divisioni politiche e ideologiche. Non è né di destra né di sinistra, né libertario né collettivista. È un protocollo neutrale, governato da regole (non da regolatori) applicate in modo uguale per tutti. Eppure la sua sola esistenza sfida lo status quo finanziario globale. Bitcoin è diventato un simbolo di resistenza, in quanto le persone lo adottano come alternativa alle valute fiat e alle infrastrutture finanziarie centralizzate, sistemi visti sempre più come ingiusti, manipolabili e discriminatori.
 
 Per un Cypherpunk Bitcoin è più di un bene digitale. Si oppone alla costante erosione della privacy in un mondo in cui la scomparsa del denaro contante è spesso giustificata con il pretesto della "sicurezza".
 Bitcoin consente di effettuare transazioni digitali peer-to-peer, resistenti alla censura e libere da intermediari o gatekeeper. Come immaginato da Satoshi Nakamoto, offre l'equivalente digitale del denaro contante: un modo per scambiare valore liberamente, senza bisogno di autorizzazioni.
 
-![BTC102-Bitcoin](assets/fr/048.webp)
+![image](assets/it/052.webp)
 
 Bitcoin non è un'organizzazione o un partito politico, ma è innegabilmente portatore di un potente messaggio filosofico. Ridefinisce il rapporto tra l'individuo e lo Stato, sfidando il monopolio delle banche centrali sulla creazione di denaro e sul controllo economico.
 Che sia adottato da chi lotta per la libertà o da chi cerca semplicemente di preservare il proprio potere d'acquisto, Bitcoin segna l'inizio di una nuova era, in cui la sovranità finanziaria diventa un diritto umano fondamentale e accessibile a tutti.
 
-![BTC102-Bitcoin](assets/fr/049.webp)
+![image](assets/it/053.webp)
 
 Dopo aver esplorato il profondo significato dell'invenzione di Satoshi Nakamoto, il prossimo capitolo ci porterà a conoscere la straordinaria industria che si è sviluppata intorno a questo protocollo; un intero ecosistema che sta dando nuova forma  alla finanza, alla tecnologia e alla società.
 
@@ -836,7 +836,7 @@ Oggi Bitcoin ha raggiunto una soglia critica, un punto di non ritorno. Governi, 
 
 Bitcoin è un'innovazione radicale, un salto da zero a uno. Rappresenta un cambiamento totale del paradigma monetario tradizionale. Per alcuni questo cambiamento è una minaccia, una sfida esistenziale al loro potere e ai privilegi consolidati. Per costoro, Bitcoin è un vaso di Pandora che non avrebbe mai dovuto aprirsi e useranno ogni mezzo a loro disposizione per resistere.
 
-![BTC102-Bitcoin](assets/fr/050.webp)
+![image](assets/it/054.webp)
 
 Altri, invece, vedono Bitcoin come un'opportunità irripetibile: uno strumento per la libertà individuale, un catalizzatore per trasformare il sistema finanziario globale e un percorso verso un'alternativa più trasparente ed equa. Sono quelli che costruiscono su Bitcoin, lo adottano e contribuiscono al protocollo (quelli che danno forma al futuro).
 
@@ -900,13 +900,13 @@ Nonostante l'audacia del marketing, queste iniziative non competono con Bitcoin;
 
 Libra di Facebook non è mai stato pensato per sfidare lo status quo; è stato costruito per lavorare con il sistema. Al contrario, Bitcoin esiste completamente al di fuori del sistema. Non chiede il permesso. Non si basa sulla fiducia. E funziona perfettamente (senza leader, tempi morti o controllo centrale) da oltre un decennio.
 
-![BTC102-Bitcoin](assets/fr/051.webp)
+![image](assets/it/055.webp)
 
 ### Regolamentazione e approcci governativi
 
 Bitcoin, per sua stessa natura, opera al di fuori degli schemi tradizionali. Non si affida a un'autorità centrale e non può essere controllato o alterato da una singola entità. Ma mentre il protocollo in sé è immune da regolamentazioni, i partecipanti che interagiscono con esso (borse, aziende e utenti) sono ancora soggetti alle leggi degli Stati.
 
-![BTC102-Bitcoin](assets/fr/052.webp)
+![image](assets/it/056.webp)
 
 Poiché Bitcoin è una rete globale, i Paesi hanno risposto in modi molto diversi:
 
@@ -916,7 +916,7 @@ Poiché Bitcoin è una rete globale, i Paesi hanno risposto in modi molto divers
 
 - **La maggior parte è ancora indecisa**, sperimentando con i regolamenti e cercando di equilibrare innovazione e supervisione.
 
-![BTC102-Bitcoin](assets/fr/056.webp)
+![image](assets/it/057.webp)
 
 I governi e le istituzioni spesso faticano a classificare Bitcoin con precisione (si tratta di denaro, proprietà o di qualcosa di completamente nuovo?). Di conseguenza, le normative tendono a essere reattive, incoerenti e in continua evoluzione. Se siete coinvolti con Bitcoin, è essenziale rimanere informati sul panorama locale, soprattutto per quanto riguarda le tasse, l'accesso alle banche e le regole di conformità.
 
@@ -939,7 +939,7 @@ Gli exchange svolgono un ruolo fondamentale nell'ecosistema Bitcoin, fungendo da
 
 Gli exchange che rispettano le normative locali devono in genere seguire rigidi protocolli **"Know Your Customer "** (KYC), che richiedono agli utenti di fornire documenti di identità prima di accedere ai servizi. Se da un lato questi processi sono pensati per prevenire attività illegali, dall'altro possono compromettere la privacy che Bitcoin offre intrinsecamente.
 
-![BTC102-Bitcoin](assets/fr/053.webp)
+![image](assets/it/058.webp)
 
 Le piattaforme KYC raccolgono i tuoi dati personali con il pretesto della sicurezza. Questi dati possono essere sfruttati dai governi per monitorare le tue transazioni finanziarie e limitarti l'accesso a determinate operazioni.
 
@@ -1051,11 +1051,11 @@ Lo sviluppo di Bitcoin può essere compreso attraverso alcuni gruppi distinti di
 Chiunque può proporre modifiche a Bitcoin Core, ma il processo è intenzionalmente rigoroso. Le nuove idee richiedono spesso anni per essere perfezionate, nonché una profonda comprensione tecnica, un ampio coinvolgimento della comunità e molteplici livelli di revisione. Le proposte sono in genere presentate sotto forma di **Bitcoin Improvement Proposals** (Proposte di miglioramento a Bitcoin BIP); alcune di esse non vengono mai inserite nel protocollo.
 L'innovazione è benvenuta, ma solo quando è sostenuta da un solido ragionamento, dal consenso della comunità e da un'attenta sperimentazione.
 
-![BTC102-Bitcoin](assets/fr/054.webp)
+![image](assets/it/059.webp)
 
 Nonostante ciò che alcuni potrebbero credere, nessuno ha il controllo unilaterale su Bitcoin; nemmeno i maintainer di Bitcoin Core. Il loro ruolo è quello di gestire il repository del software, non il protocollo stesso.
 
-![BTC102-Bitcoin](assets/fr/055.webp)
+![image](assets/it/060.webp)
 
 Anche se un maintainer approvasse una modifica controversa, questa non avrebbe effetto sulla rete a meno che i **nodi (gestiti dagli utenti)** non adottino ed eseguano effettivamente quella modifica. Alla fine, il codice di Bitcoin conta solo se le persone scelgono di eseguirlo.
 Vale la pena notare che **Bitcoin Core non è l'unico client**. Alternative come Bitcoin Knots implementano il protocollo stesso, offrendo agli utenti una maggiore scelta e rafforzando la decentralizzazione del sistema:
@@ -1078,7 +1078,7 @@ Tra i principali layer aggiuntivi che arricchiscono l'ecosistema Bitcoin vi sono
 
 Lightning Network, rete creata da Thaddeus Dryja e Joseph Poon nel 2016, è una soluzione di secondo livello progettata per consentire pagamenti istantanei e a basso costo. Due utenti possono aprire un canale privato in cui effettuare transazioni e il saldo viene aggiornato sulla blockchain solo quando il canale viene aperto o chiuso. Le transazioni all'interno del canale avvengono off-chain, il che significa che non devono essere registrate individualmente nella blockchain di Bitcoin. Una simile struttura consente transazioni istantanee e commissioni minime, rendendola ideale per pagamenti di importi piccoli e che richiedono una rapida conferma.
 
-![BTC102-Bitcoin](assets/fr/059.webp)
+![image](assets/it/061.webp)
 
 Supponiamo di acquistare un caffè con Bitcoin utilizzando il layer base. Affinché il pagamento sia confermato (e il bar sia sicuro che abbiate effettivamente pagato), la transazione deve essere inserita in un blocco. Questo può richiedere diversi minuti, a seconda della fee scelta. Tecnicamente il commerciante dovrebbe attendere sei conferme (circa un'ora) per avere la certezza che il pagamento sia definitivo. Ovviamente questo tipo di attesa non è possibile quando si è in attesa al bancone. Con Lightning Network il pagamento avviene in pochi secondi: il caffè viene pagato e servito prima ancora che si raffreddi.
 
@@ -1104,7 +1104,7 @@ RGB è un sistema di Smart contract decentralizzato e incentrato sulla privacy, 
 
 Una caratteristica fondamentale di RGB è la sua protezione nei confronti del Double-spending, ottenuta con una tecnica crittografica chiamata Single-use Seals. Questo meccanismo si basa sul fatto che gli UTXO (Unspent Transaction Output) di Bitcoin possono essere spesi una sola volta. L'autenticità dei token è garantita dalla convalida lato utente dell'intera storia dello smart contract (dalla sua creazione al suo stato attuale).
 
-![BTC102-Bitcoin](assets/fr/060.webp)
+![image](assets/it/062.webp)
 
 Per approfondire la conoscenza di RGB, offriamo un corso di formazione per esperti (si noti che è altamente tecnico):
 
@@ -1114,7 +1114,7 @@ RGB è solo uno dei numerosi protocolli costruiti sul layer base del Bitcoin. Me
 
 Questo design a layer è in contrasto con gran parte del settore crypto, che spesso cerca di raggruppare molte funzioni in un unico protocollo. Mantenendo Bitcoin semplice e mirato, riduciamo la sua superficie di attacco, il che significa maggiore sicurezza. Un protocollo snello è più facile da proteggere, mantenere e scalare. Bitcoin è stato progettato per fare una cosa estremamente bene: fornire denaro solido e decentralizzato. Tutto il resto (smart contract, token, pagamenti e altro) può essere stratificato sopra, consentendo l'innovazione senza compromettere il nucleo centrale.
 
-![BTC102-Bitcoin](assets/fr/058.webp)
+![image](assets/it/063.webp)
 
 **Lo sapevi?** Internet non è stato costruito tutto in una volta, ma si è evoluto come una stratificazione di protocolli interoperabili. Ad esempio, il TCP/IP gestisce le comunicazioni di rete, l'HTTP alimenta il web e molti altri livelli svolgono funzioni specifiche. Ogni layer è ottimizzato per il suo compito, creando un sistema robusto e modulare. Bitcoin segue la stessa filosofia: il Layer di base è solido e minimale, mentre le funzionalità ulteriori vengono aggiunte attraverso protocolli stratificati come Lightning, Liquid o RGB; ognuno di essi si concentra sulla soluzione di diverse esigenze degli utenti, mantenendo intatte le fondamenta.
 
@@ -1153,7 +1153,7 @@ Bitcoin sta guadagnando terreno come mezzo di scambio, con una crescente adozion
 Siamo arrivati a un punto in cui chiunque può essere coinvolto nell'ecosistema Bitcoin, sia utilizzandolo nella vita quotidiana, sia adottandolo in ambito aziendale, contribuendo alla formazione, aiutando a migliorare il codice o costruendo nuove applicazioni.
 Bitcoin è ora inarrestabile.
 
-![BTC102-Bitcoin](assets/fr/057.webp)
+![image](assets/it/064.webp)
 
 ### Il mio punto di vista personale
 
@@ -1183,7 +1183,7 @@ Bitcoin non è come i beni tradizionali. Richiede un approccio ponderato e una s
 
 Questo corso parte dal presupposto che tu sia alle prime armi con Bitcoin. Ci concentreremo quindi su soluzioni semplici, adatte ai principianti e facili da impostare. Non tratteremo metodi di esposizione indiretta come il mining, l'acquisto di azioni di società legate a Bitcoin o strategie finanziarie complesse. L'obiettivo è quello di aiutarti a scegliere un wallet adatto alla tua situazione e ad acquisire in modo sicuro i tuoi primi bitcoin.
 
-![BTC102-Bitcoin](assets/fr/063.webp)
+![image](assets/it/065.webp)
 
 ### Perché definire il proprio profilo utente?
 
@@ -1199,7 +1199,7 @@ Ecco alcuni dei fattori da considerare quando si decide il modo migliore per acq
 
 Ognuno di questi fattori gioca un ruolo nella definizione della strategia giusta per te. Alcuni utenti apprezzeranno la semplicità e la facilità d'uso dei servizi regolamentati, mentre altri preferiranno un approccio più autonomo e orientato alla privacy.
 
-![BTC102-Bitcoin](assets/fr/064.webp)
+![image](assets/it/066.webp)
 
 Ecco cosa esploreremo in seguito: i diversi modi per acquisire e mettere al sicuro i bitcoin, in modo che tu possa prendere decisioni informate in base al tuo profilo e ai tuoi obiettivi.
 
@@ -1207,7 +1207,7 @@ Ecco cosa esploreremo in seguito: i diversi modi per acquisire e mettere al sicu
 
 La scelta della giusta strategia per acquisire e mettere al sicuro i bitcoin inizia con una valutazione onesta della propria situazione personale. Diversi fattori influenzano queste decisioni, tra cui i rischi a cui si può andare incontro, lo stile di vita e l'uso che si intende fare di Bitcoin.
 
-![BTC102-Bitcoin](assets/fr/065.webp)
+![image](assets/it/067.webp)
 
 #### Rischi e minacce potenziali
 
@@ -1224,7 +1224,7 @@ La scelta della giusta strategia per ottenere e mettere al sicuro i bitcoin iniz
 
 Per comprendere meglio le tue vulnerabilità, valuta ciascuno di questi rischi su una scala da 0 (basso) a 10 (alto). Questa autovalutazione ti aiuterà a stabilire le priorità per le giuste protezioni da adottare in futuro.
 
-![BTC102-Bitcoin](assets/fr/061.webp)
+![image](assets/it/068.webp)
 
 #### Stile di vita e abitudini personali
 
@@ -1256,13 +1256,13 @@ Ecco le quattro cose fondamentali da decidere:
 - Come acquistare Bitcoin
 - Quanto transare
 
-![BTC102-Bitcoin](assets/fr/062.webp)
+![image](assets/it/069.webp)
 
 ### Wallet e strategie di sicurezza
 
 La protezione delle tue chiavi private (quelle che danno accesso ai bitcoin) è la parte più importante del possesso e dell'utilizzo di Bitcoin. A differenza di un conto bancario tradizionale, dove una terza parte gestisce i tuoi fondi, Bitcoin ti dà il pieno controllo. Ma questa libertà comporta una responsabilità: se perdi le chiavi, i bitcoin sono persi per sempre. Esistono diversi tipi di wallet. Ognuno ha i suoi pro e i suoi contro, a seconda delle tue esigenze e del livello di esperienza.
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/it/070.webp)
 
 #### Hot Wallet
 
@@ -1347,7 +1347,7 @@ Esempi: exchange come Coinbase o Binance, prodotti finanziari come l'ETF Bitcoin
 
 Non consigliamo i servizi di custodia nemmeno ai principianti. È molto meglio prendersi il tempo necessario per imparare a proteggere correttamente i propri Bitcoin, piuttosto che rischiare di perdere tutto perché qualcun altro fallisce. Ma se sei qui a leggere di wallet e gestione delle chiavi, probabilmente hai già capito perché questo principio è importante.
 
-![BTC102-Bitcoin](assets/fr/068.webp)
+![image](assets/it/071.webp)
 
 La scelta del wallet e del metodo di sicurezza dipende dalla quantità di dati da archiviare, dal livello di esperienza e dai rischi potenziali percepiti. Tuttavia, un approccio ibrido può essere un'opzione intelligente:
 
@@ -1356,7 +1356,7 @@ La scelta del wallet e del metodo di sicurezza dipende dalla quantità di dati d
 
 Se il tuo Hot Wallet inizia ad avere troppi bitcoin, puoi trasferirne un po' al tuo Cold Storage (l'hardware wallet). D'altra parte, se hai bisogno di più bitcoin per le spese quotidiane, puoi prelevare da quest'ultimo.
 
-![BTC102-Bitcoin](assets/fr/066.webp)
+![image](assets/it/072.webp)
 
 Alla fine, la sicurezza dipende in gran parte da come si utilizzano gli strumenti. Un Hardware Wallet non serve a molto se si perde, si espone o si compromette la frase mnemonica. La cautela e la disciplina sono la migliore protezione contro la perdita di bitcoin. Per saperne di più, ti consiglio di leggere questo articolo:
 
@@ -1366,7 +1366,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Esistono vari modi per ottenere bitcoin, a seconda della privacy di cui si ha bisogno, delle norme vigenti nel proprio Paese e della quantità che si desidera acquisire. Esistono due approcci principali:
 
-![BTC102-Bitcoin](assets/fr/070.webp)
+![image](assets/it/073.webp)
 
 #### Acquisto con verifica dell'identità (KYC)
 
@@ -1471,7 +1471,7 @@ Strategia preferita:
 
 Questo profilo è particolarmente adatto a chi vive in ambienti ostili a Bitcoin, dove il possesso o l'uso di BTC potrebbe comportare sanzioni. Si tratta di un approccio più complesso, che richiede un certo grado di competenza tecnica e una disciplina rigorosa per evitare la perdita dell'accesso ai fondi.
 
-![BTC102-Bitcoin](assets/fr/069.webp)
+![image](assets/it/074.webp)
 
 ### Qual è il profilo giusto per te?
 
@@ -1487,7 +1487,7 @@ Nei prossimi capitoli analizzeremo in dettaglio ciascuno di questi profili, in m
 
 Nella comunità Bitcoin, il termine "hodler" si riferisce a chi adotta un approccio di investimento a lungo termine. Il termine è nato da un famoso errore di battitura di "hold" sul forum Bitcoin Talk anni fa e da allora è diventato un simbolo di appartenenza: conservare (hodling) i propri Bitcoin a prescindere da tutto, senza stressarsi delle oscillazioni di mercato a breve termine.
 
-![BTC102-Bitcoin](assets/fr/071.webp)
+![image](assets/it/075.webp)
 
 Gli Hodler credono nella proposta di valore di Bitcoin. Con un'emissione massima fissata a 21 milioni di monete, vedono Bitcoin come una riserva di valore a lungo termine (oro digitale).
 
@@ -1537,7 +1537,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![BTC102-Bitcoin](assets/fr/073.webp)
+![image](assets/it/076.webp)
 
 #### 2. Acquistare Bitcoin e trasferirli su un proprio wallet
 
@@ -1553,7 +1553,7 @@ https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7
 
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![BTC102-Bitcoin](assets/fr/074.webp)
+![image](assets/it/077.webp)
 
 Alcuni hodler adottano anche un approccio ibrido, utilizzando il DCA (Dollar Cost Averaging) - acquistando regolarmente piccole quantità a scadenze regolari, per attenuare la volatilità del mercato.
 
@@ -1586,7 +1586,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 La strategia di un Hodler è semplice ma potente: acquistare, proteggere e dimenticarsi di averlo. La vera sfida non è tecnica, ma psicologica. La parte più difficile è resistere all'impulso di vendere troppo presto o di farsi prendere dal panico durante i cali di prezzo. Ma se si rimane disciplinati e si pensa a lungo termine, l'hodling si è dimostrato un modo affidabile per preservare il valore e costruire ricchezza nel tempo.
 
-![BTC102-Bitcoin](assets/fr/075.webp)
+![image](assets/it/078.webp)
 
 ### Valutazione del tuo profilo da Hodler
 
@@ -1598,7 +1598,7 @@ Se ti riconosci nei seguenti tratti della personalità, probabilmente sei un Hod
 - **Resilienza emotiva**: il prezzo di Bitcoin può scendere del 50% o più nel giro di poche settimane; eppure l'hodler mantiene la calma. Ha interiorizzato l'idea che la volatilità non mina le caratteristiche fondamentali di Bitcoin. Questa forza emotiva consente di mantenere la calma durante periodo di incertezza e conservare una visione razionale quando gli altri vanno nel panico;
 - **Crede nella tecnologia**: l'Hodler non vede Bitcoin solo come un bene speculativo. Crede nella sua tecnologia e nel suo potenziale dirompente. Per molti non si tratta solo di denaro, ma di libertà. Bitcoin è visto come una moneta resiliente e apolitica e come una vera alternativa alle banche tradizionali, che conferisce agli individui una maggiore sovranità finanziaria.
 
-![BTC102-Bitcoin](assets/fr/072.webp)
+![image](assets/it/079.webp)
 
 L'Hodling è semplice, efficace e accessibile anche ai principianti.
 
@@ -1613,7 +1613,7 @@ Nell'ecosistema Bitcoin, uno stacker è una persona che adotta un approccio coer
 
 L'idea è semplice: ci saranno sempre e solo circa 21 milioni di bitcoin, e ogni frazione diventa importante. La missione dello stacker è quella di accumulare costantemente il maggior numero possibile di sats.
 
-![BTC102-Bitcoin](assets/fr/076.webp)
+![image](assets/it/080.webp)
 
 ### Perché scegliere una strategia da stacker?
 
@@ -1670,7 +1670,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 L'approccio più efficace consiste nell'utilizzare entrambi: un hot wallet per l'accumulo quotidiano e un Hardware Wallet per la conservazione a lungo termine. L'Hot Wallet è facile e comodo da usare, consente di prendere rapidamente possesso dei bitcoin anziché lasciarli sulla piattaforma di acquisto, dove potrebbero essere esposti a rischi. Rispetto a un Hardware Wallet offre però molta meno sicurezza. Lo stacker deve quindi trasferire regolarmente i suoi fondi al suo Cold Wallet per garantire i suoi risparmi a lungo termine ed evitare di tenere troppi fondi su un hot wallet. Lo stacker consolida periodicamente gli UTXO, per trasferirli al Cold wallet, unendo i piccoli input per ottimizzare le future spese di transazione.
 
-![BTC102-Bitcoin](assets/fr/077.webp)
+![image](assets/it/081.webp)
 
 #### 2. Impostare un piano di accumulo costante DCA
 
@@ -1680,7 +1680,7 @@ Il piano di accumulo costante, o Dollar-Cost Averaging (DCA) è una strategia di
 
 Per impostare un DCA hai due possibilità: automatizzarla o gestirla manualmente. La maggior parte delle piattaforme di trading regolamentate offre oggi la possibilità di automazione. Con una quantità sufficiente di fiat sul conto, la piattaforma eseguirà automaticamente gli ordini di acquisto in base ai parametri impostati. Esiste anche un numero crescente di piattaforme dedicate all'automazione del DCA, che offrono servizi aggiuntivi come il prelievo automatico sul tuo Wallet o l'arrotondamento delle spese giornaliere. Se utilizzi una piattaforma regolamentata, ti consiglio vivamente di rendere il tuo DCA più automatico possibile, per una maggiore tranquillità nella gestione generale.
 
-![BTC102-Bitcoin](assets/fr/078.webp)
+![image](assets/it/082.webp)
 
 Esempi di piattaforme DCA:
 
@@ -1729,7 +1729,7 @@ Abitudini chiave:
 - Rimanere informati sugli sviluppi tecnologici di Bitcoin;
 - Controllare periodicamente i backup del seed e lo stato dell'hardware wallet: dopo che i wallet sono stati configurati, è importante eseguire un monitoraggio regolare. Controlla periodicamente che la recovery phrase sia sempre nel posto in cui l'hai messa e che la sua busta non sia stata aperta. Durante questi controlli è possibile aprire la busta per esaminare in che condizioni è il supporto su cui l'hai scritta. Assicurati che non sia danneggiato e che le parole siano ancora perfettamente leggibili. Se ci sono segni di deterioramento, è meglio creare una nuova copia dal backup. Puoi anche controllare regolarmente il tuo hardware wallet.
 
-![BTC102-Bitcoin](assets/fr/080.webp)
+![image](assets/it/083.webp)
 
 Per facilitare il monitoraggio senza compromettere la sicurezza, imposta un Watch-only per visualizzare i saldi, utilizzando la chiave pubblica.
 
@@ -1745,7 +1745,7 @@ Gli stacker hanno queste caratteristiche:
 - **Conoscenze finanziarie**: una solida comprensione del DCA, della gestione del rischio e dei fondamenti del mercato Bitcoin ti aiuta a investire con fiducia. Uno stacker informato è meglio equipaggiato per resistere ai dubbi ed evitare di prendere decisioni impulsive durante i periodi di alta volatilità.
 - **Visione a lungo termine**: credi fermamente nel potenziale tecnologico di Bitcoin. Non concentrarti sulle oscillazioni di prezzo a breve termine, ma sulla crescita costante del tuo patrimonio nel corso degli anni.
 
-![BTC102-Bitcoin](assets/fr/079.webp)
+![image](assets/it/084.webp)
 
 In breve, lo stacking è ideale per chi vuole costruire una posizione Bitcoin nel tempo, ridurre i rischi di volatilità e mantenere la piena sovranità, senza restare incollati ai grafici.
 
@@ -1757,7 +1757,7 @@ Adesso esploreremo un profilo di bitcoiner radicalmente diverso: quello che usa 
 
 Diventare un utente attivo Bitcoin significa andare oltre le strategie di investimento a lungo termine. A differenza dell'hodler o dello stacker, che risparmiano principalmente senza spendere, questo profilo tratta Bitcoin come un vero e proprio mezzo di scambio. Lo usa per pagare beni e servizi e partecipa attivamente alla contro-economia.
 
-![BTC102-Bitcoin](assets/fr/083.webp)
+![image](assets/it/085.webp)
 
 ### Perché adottare una strategia da utenti attivi?
 
@@ -1777,13 +1777,13 @@ L'utilizzo quotidiano di Bitcoin aiuta a sviluppare un'esperienza reale. Si acqu
 
 Le sfide includono la complessità tecnica, la volatilità dei prezzi e la necessità di un buon grado di sicurezza, per evitare la perdita di fondi.
 
-![BTC102-Bitcoin](assets/fr/086.webp)
+![image](assets/it/086.webp)
 
 ### Piano di investimento per un utente attivo
 
 L'adozione di Bitcoin per i pagamenti di tutti i giorni richiede un approccio ponderato e strutturato. A differenza di un hodler o di uno stacker, un utente effettivo deve gestire sia la sicurezza a lungo termine dei propri fondi che la comodità nelle transazioni quotidiane. Trovare il giusto equilibrio tra la sicurezza della conservazione di un  cold wallet e la facilità di accesso ai fondi di spesa è essenziale per far funzionare efficacemente questa strategia.
 
-![BTC102-Bitcoin](assets/fr/084.webp)
+![image](assets/it/087.webp)
 
 #### 1. Separazione netta dei wallet
 
@@ -1864,7 +1864,7 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 
 Gli utenti attivi devono trovare un equilibrio tra i loro risparmi a lungo termine e la quantità di Bitcoin da tenere a portata di mano per l'uso quotidiano.
 
-![BTC102-Bitcoin](assets/fr/085.webp)
+![image](assets/it/088.webp)
 
 Esistono diversi modi per acquistare Bitcoin, a seconda del livello di privacy che si desidera ottenere:
 
@@ -1906,7 +1906,7 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-![BTC102-Bitcoin](assets/fr/081.webp)
+![image](assets/it/089.webp)
 
 #### 4. Gestione attiva delle spese
 
@@ -1937,7 +1937,7 @@ Sei tagliato per essere un utente Bitcoin attivo? Ecco le caratteristiche princi
 - **Flessibilità e adattabilità:** sei aperto a provare nuovi strumenti, a passare da una soluzione all'altra e a modificare le tue pratiche in base all'evoluzione dell'ecosistema Bitcoin e al cambiamento delle tue esigenze.
 - **Disciplina finanziaria:** gestisci con cura le spese e i risparmi in Bitcoin. Comprendi l'importanza di separare chiaramente i fondi quotidiani dai risparmi a lungo termine.
 
-![BTC102-Bitcoin](assets/fr/082.webp)
+![image](assets/it/090.webp)
 
 In conclusione, l'utente attivo svolge un ruolo diretto nel far progredire l'ecosistema Bitcoin. Incorporando Bitcoin nelle sue abitudini quotidiane, non solo ne sostiene l'adozione, ma accresce anche le proprie competenze.
 
@@ -1951,7 +1951,7 @@ Per i bitcoiner paranoici, la privacy non è facoltativa è essenziale. In un mo
 
 Per loro ogni azione è importante. Ogni transazione, ogni impostazione del wallet e ogni interazione con la rete sono eseguite attentamente. Un singolo errore potrebbe rivelare informazioni sensibili che collegano la loro identità alle loro proprietà in Bitcoin. Il loro obiettivo finale? Utilizzare Bitcoin in modo da mantenere totalmente private l'identità, la posizione e la situazione finanziaria.
 
-![BTC102-Bitcoin](assets/fr/087.webp)
+![image](assets/it/091.webp)
 
 ### Perché adottare un approccio così cauto?
 
@@ -1971,7 +1971,7 @@ Non sono semplici investitori o utenti: si sottraggono a un sistema che pretende
 
 Il Bitcoiner paranoico segue una strategia rigorosa, costruita intorno a due obiettivi fondamentali: preservare l'anonimato e massimizzare la sicurezza. Questo tipo di utente cerca di evitare l'esposizione alle piattaforme regolamentate (soprattutto quelle che richiedono il KYC); cerca anche di eliminare la rintracciabilità delle transazioni e di difendere i propri fondi da sorveglianza, confisca e altre minacce esterne.
 
-![BTC102-Bitcoin](assets/fr/092.webp)
+![image](assets/it/092.webp)
 
 #### 1. Impostazione di wallet e nodi
 
@@ -1993,7 +1993,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
-![BTC102-Bitcoin](assets/fr/089.webp)
+![image](assets/it/093.webp)
 
 - **Gestione del proprio nodo Bitcoin**, requisito essenziale. Assicura il pieno controllo sulla propagazione delle transazioni ed evita di affidarsi a infrastrutture di terzi. Il proprio nodo protegge la privacy, previene la censura e consente di verificare in modo indipendente le regole del protocollo Bitcoin. Che sia su Linux, Windows, macOS o tramite configurazioni plug-and-play come RaspiBlitz, myNode o Start9, il paranoico considera il proprio nodo come un pilastro non negoziabile della sovranità.
 
@@ -2013,7 +2013,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-![BTC102-Bitcoin](assets/fr/090.webp)
+![image](assets/it/094.webp)
 
 La sicurezza non si ferma qui. Per il backup delle seed phrase l'utente paranoico utilizza backup in metallo combinati con buste sigillate anti-manomissione. Verificano regolarmente che i backup non siano compromessi e testano le procedure di ripristino wallet per essere pronti a qualsiasi evenienza.
 
@@ -2105,7 +2105,7 @@ https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 
 Gli exchange centralizzati vengono completamente evitati a causa dei rischi che comportano, sia per la privacy che per la potenziale censura o confisca.
 
-![BTC102-Bitcoin](assets/fr/091.webp)
+![image](assets/it/095.webp)
 
 #### 3. Prevenire il tracciamento On-Chain
 
@@ -2149,7 +2149,7 @@ Ecco i tratti principali di un bitcoiner paranoico:
 
 Se queste caratteristiche ti suonano familiari, è probabile che questa strategia sia adatta a te. È impegnativa e richiede uno sforzo costante, ma offre un alto livello di sovranità finanziaria e di protezione contro la sorveglianza, la confisca o la possibilità di tracciare dei tuoi fondi.
 
-![BTC102-Bitcoin](assets/fr/088.webp)
+![image](assets/it/096.webp)
 
 Questo approccio è particolarmente importante se:
 
@@ -2195,7 +2195,7 @@ Questo capitolo si ispira al lavoro di [Pamela Morgan](https://x.com/pamelawjd).
 
 [Pamela Morgan] (https://x.com/pamelawjd) ha generosamente autorizzato l'uso del [suo lavoro] (https://www.amazon.com/gp/product/1947910116/) per questo corso, e seguiremo il suo approccio per creare un concreto piano di eredità. In questo capitolo ci concentreremo sulla prima parte del suo libro.
 
-![BTC102-Bitcoin](assets/fr/093.webp)
+![image](assets/it/097.webp)
 
 Per capire meglio come creare un piano di successione Bitcoin, analizzeremo l'esempio di Cédric, un tipico utente che deve organizzare il lascito del suo patrimonio in caso di imprevisti.
 
@@ -2209,7 +2209,7 @@ Il suo profilo:
 
 Il nostro obiettivo è quello di creare un piano semplice ed efficace, adatto al profilo di Cédric, prima di passare a scenari più complessi che coinvolgano altri tipi di utenti.
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/it/098.webp)
 
 ### Prima di iniziare
 
@@ -2225,7 +2225,7 @@ Assicurati di trovarti un ambiente calmo e privo di distrazioni, quindi raccogli
 - Un telefono o una rubrica;
 - Un computer (opzionale).
 
-![BTC102-Bitcoin](assets/fr/094.webp)
+![image](assets/it/099.webp)
 
 #### Idee sbagliate più comuni sulla pianificazione dell'eredità
 
@@ -2375,7 +2375,7 @@ Prima di concludere, assicurati che la tua lettera includa:
 
 A seconda della tua situazione personale, crea più copie scritte a mano di questa lettera e conservale in luoghi sicuri (una cassaforte, presso una persona fidata, ecc.). Informa i tuoi eredi dell'esistenza di questo piano ereditario, senza necessariamente rivelarne subito il contenuto. Per una maggiore protezione, puoi inserire la lettera in una busta non trasparente e anti-manomissione, in modo da garantire che non sia stata consultata senza il tuo permesso.
 
-![BTC102-Bitcoin](assets/fr/096.webp)
+![image](assets/it/100.webp)
 
 Se necessario, consulta un avvocato o un notaio per integrare formalmente il tuo piano in un quadro giuridico.
 
@@ -2397,7 +2397,7 @@ Anche se non hai ancora fatto tutto, ma ti sei impegnato per farlo al più prest
 
 Da quando ho iniziato a insegnare Bitcoin alle persone, sia io che l'ecosistema ci siamo evoluti in modo considerevole. Questo corso è stato completamente aggiornato per riflettere il meglio di ciò che Bitcoin ha da offrire oggi. È stato un bel viaggio insieme!
 
-![BTC102-Bitcoin](assets/fr/097.webp)
+![image](assets/it/101.webp)
 
 ### Qual è il futuro per Bitcoin?
 
@@ -2411,7 +2411,7 @@ Naturalmente le sfide rimangono: regolamentazione, privacy, adozione più ampia 
 
 Una cosa è certa: Bitcoin continuerà a esistere, producendo un nuovo blocco ogni 10 minuti circa, instancabilmente, giorno dopo giorno, anno dopo anno. Vedremo più utenti, wallet, scambi, ma anche più regolamenti, ostacoli tecnici, crisi e innovazioni.
 
-![BTC102-Bitcoin](assets/fr/098.webp)
+![image](assets/it/102.webp)
 
 Con il perdurare delle crisi globali e l'inflazione che erode il potere d'acquisto delle valute fiat, Bitcoin attirerà, in modo naturale, sempre più persone che sono alla ricerca della libertà finanziaria e della sovranità individuale. Questa dinamica continuerà a rafforzare Bitcoin e ad attirare nuovi talenti per migliorare il protocollo, i livelli di scalabilità e i casi d'uso quotidiano in termini di sicurezza, privacy e utilità.
 

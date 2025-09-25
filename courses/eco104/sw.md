@@ -392,7 +392,7 @@ Hata hivyo, ukandamizaji huu wa viwango vya riba huja kwa gharama: Hufanya mtaji
 
 Kitendo hiki cha kusawazisha hakiendi kama ilivyopangwa ...
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Kielelezo [Deni dhidi ya Pato la Taifa](https://www.longtermtrends.net/us-debt-to-gdp/)
 
@@ -452,7 +452,7 @@ Kielelezo: Utendaji kwa Daraja la Vipengee ([Hisa](https://finance.yahoo.com/quo
 
 Kwa kudorora huku kwa mishahara hadi bei ya mali, tumeona uhamishaji mkubwa wa mali kutoka kwa tabaka la chini hadi tabaka la juu katika historia ya hivi karibuni.
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 Kielelezo: Mgao wa Jumla [Thamani halisi](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
 
@@ -1191,7 +1191,7 @@ Kama hadithi ya Adanna ilivyoonyesha, mfumuko wa bei ni ukweli mchungu kwa watu 
 
 Ili kuonyesha athari za mfumuko wa bei wa tarakimu mbili, kiwango cha mfumuko wa bei cha 10%, kama kilivyoshuhudiwa na Ulaya mnamo Oktoba 2022, kinaweza kumaanisha hasara ya 61.5% ya uwezo wa kununua katika kipindi cha miaka kumi.
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 _**Kielelezo:** Mfumuko wa Bei Athari kwa Ununuzi [Nguvu](https://anilsaidso.gumroad.com/)_
 
@@ -1496,7 +1496,7 @@ Hata hivyo, sasa wazalishaji wa nishati wana njia ya kufaidika na nishati hii il
 
 Hatimaye, wachimbaji madini wa Bitcoin wamehamasishwa kutafuta vyanzo vya nishati vya bei nafuu kwa vile faida yao inategemea gharama ya nishati. Kwa hivyo, wanatafuta kwa bidii nishati iliyokwama au aina zingine za nishati ambazo zingetumika bila kutumika. Mfano mmoja mashuhuri ni gesi inayowaka moto, ambayo hutolewa wakati makampuni ya petroli yanaWallet (Pochi)mba mafuta kutoka ardhini. Gesi inayowaka ni zao la mchakato huu na kwa kawaida huchomwa kutokana na gharama kubwa inayohusishwa na kuikamata. Kitendo hiki, kinachojulikana kama kuwaka, sio tu husababisha nishati kupotea lakini pia hutoa methane na gesi zingine nyingi kwenye angahewa.
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 _**Kielelezo:** Flare [Gesi](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
@@ -1647,7 +1647,7 @@ Hata hivyo, katika miaka ya hivi karibuni, Bitcoin imeibuka kama chombo chenye n
 
 Wakati ulimwengu ulitazama kwa mshangao wakati Taliban wakitwaa udhibiti wa Afghanistan mwaka [1996](https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20likeed,privacy%20and%20%20peace) msichana huyu mdogo Roya alikuwa akiishi katikati ya mgogoro. Akiwa na umri wa miaka saba tu, alijikuta amenaswa na msukosuko na kutokuwa na uhakika wa vita wakati mji wake wa asili ulivamiwa na kukaliwa na Taliban. Licha ya hatari na dhiki aliyokumbana nayo, juu ya ukweli kwamba hakuweza kwenda shule, Roya alikataa kushindwa. Badala yake, aligeukia elimu kama njia ya kushinda mipaka iliyowekwa juu yake na hali yake.
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
 **Kielelezo:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-enpower-womenc2429df)
 
@@ -1707,7 +1707,7 @@ Mmiliki wa A Cafe, Vietnam
 
 "Kwenye mkahawa wangu wilayani Binh Thanh, tunahudumia wateja wachanga na watalii wa hapa na pale, wanaotoa vinywaji mbalimbali, ikiwa ni pamoja na kahawa, vinywaji vya Soft na vinywaji. Tether imekuwa suluhisho letu la kushughulikia malipo kutoka kwa wateja wa kigeni ambao hawana sarafu ya ndani au akaunti za benki. Ingawa mauzo kupitia Tether inaweza kuwa ndogo kwa sasa, inatupatia njia rahisi ya kupata huduma ya kimataifa. wateja mara nyingi hushangazwa na uwazi wetu wa kukubali malipo kwa njia fiche, na kuacha hisia ya kudumu kwa matumizi yao."
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 
 Parvinee Ratchaphokhinpiti
 
@@ -1715,7 +1715,7 @@ Mstaafu, Thailand
 
 "USDt ilifanya mapinduzi makubwa katika uhamisho wangu wa fedha za kimataifa. Kama mstaafu, nilikuwa nikitegemea waya za benki polepole. Shukrani kwa USDt, sasa ninaweza kutuma pesa bila shida kupitia mali ya kidijitali ya Exchange. Ndani ya dakika 30, dada yangu alipokea fedha hizo. Manufaa ya kuokoa muda ni muhimu sana, na kuhakikisha miamala ya haraka na isiyo na usumbufu."
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 
 Jamie Tran
 
@@ -1723,7 +1723,7 @@ Mwalimu wa Piano, Vietnam
 
 "Kutuma pesa kwa jamaa zangu ng'ambo kumekuwa hitaji la mara kwa mara, lakini mchakato wa kubadilisha sarafu katika ubadilishaji wa ndani umeonekana kuwa unatumia wakati na wa gharama kubwa. Kwa Address changamoto hizi, niliwajulisha jamaa zangu kuhusu urahisi wa kutumia USDt. Mabadiliko haya rahisi yamewezesha familia yetu kuokoa muda na pesa muhimu katika miamala yetu ya kifedha. Kwa USDt, uboreshaji wa gharama, sasa tunafurahia uhawilishaji mwingi. msaada kwa wapendwa wetu."
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 
 Kirumi
 
@@ -1731,7 +1731,7 @@ Kirusi Expat wanaoishi Vietnam
 
 "Nikiwa Vietnam, mimi hutuma Tether mara kwa mara kwa jamaa na binamu zangu nchini Urusi. Kuhamisha pesa ng'ambo kwa kutumia Tether hakuna shida ikilinganishwa na kutumia njia za kawaida za benki. Hakuna tembeleo la benki, hati zilizothibitishwa, au maelezo. Bila vikomo vya kutuma, ada ndogo, na miamala ya haraka, pesa huletwa ndani ya dakika chache."
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 
 Luis Graterol
 
@@ -1739,7 +1739,7 @@ Audiovisual, Venezuela
 
 "Jina langu ni Luis Graterol, na Tether alinisaidia kupata akiba yangu kwa njia nyingine. Nchini Venezuela, tunateseka kutokana na mfumuko wa bei wa juu, na Tether imesaidia sana. Utumiaji wake ni rahisi, na mara nyingi, unaweza kufanya miamala bila ada yoyote. USDt hurahisisha maisha yangu! Pia hunisaidia kuelimisha na kuhimiza matumizi yake katika vyombo vya habari vya malipo ya sauti na kuona, kwa kuwa niligundua urahisi wa malipo ya USD; Fiat ya ndani ambayo inaathiri wengi wetu!
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 
 Dubraska Villanloga
 
@@ -1747,7 +1747,7 @@ Mkurugenzi Mtendaji Tu Cachapa Caricuao, Caracas, Venezuela
 
 "Ninatoka Venezuela na ninaendesha biashara ndogo ya utoaji wa kiamsha kinywa. Tether USDt imekuwa suluhisho linalofaa kwa tatizo la pesa taslimu kwangu. USDt pia imenisaidia kuweka akiba yangu kwa sababu kama ningekuwa na akaunti zangu za biashara katika Bolivar ya Venezuela, nisingeweza kupanga mapema kutafuta kwangu vyakula kutokana na kushuka kwa thamani mara kwa mara"
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 
 Marcela Romero
 
@@ -1755,7 +1755,7 @@ Meneja Masoko na Uhusiano, Guanacaste, Kosta Rika
 
 "Miaka michache iliyopita, nilihamia nchi ya mume wangu. Kutokana na janga hili, nilikabiliwa na hali ya kipekee ya kuhama, iliyosababisha kusubiri kwa muda mrefu ukaaji au uraia. Kwa karibu miaka mitatu, nilikosa ufikiaji wa akaunti ya benki na sikuweza kufanya kazi kihalali nchini. Hata hivyo, kwa kutumia uwezo wangu wa kufanya kazi mtandaoni na kupokea mshahara wangu kwa USDt, niliendelea kutuma pesa nyumbani kwa kampuni za kimataifa bila malipo. ada kubwa au ucheleweshaji wa Tether umeniwezesha kutekeleza malengo yangu ya kitaaluma na kudumisha uhuru wa kifedha licha ya vikwazo vya serikali.
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 
 Simoneth Gomez
 
@@ -1763,7 +1763,7 @@ Mhandisi wa QA, Venezuela, anayeishi Argentina
 
 "Halo, jina langu ni Simoneth Gomez. Ninatoka Venezuela, lakini kwa sasa ninaishi Buenos Aires, ambapo ninafanya kazi kama mchambuzi wa ubora wa programu. Nilipokuja Argentina, nilikuwa na umbali wa kilomita 12 kati ya kazi yangu na mahali ambapo nilihitaji kubadilisha pesa ili kutuma kwa familia yangu huko Venezuela. Kwa hiyo nilitambulishwa USDt na nikaanza kuitumia kwa sababu badala ya $ 1 ilibidi niende kwa $ suluhisha kutoka kwa meza yangu kwa dakika mbili"
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 
 Carlos Caballero
 
@@ -1771,7 +1771,7 @@ Mwanasaikolojia, Argentina
 
 "Tether imekuwa suluhisho ambalo limeniruhusu kuendelea kufanya kazi katika taaluma yangu wakati wa miaka ya janga hili. Ukweli wa kuwa sarafu inayounga mkono dola unairuhusu kuwa na thamani ya marejeleo ya kimataifa. Na uthabiti na usalama wake dhidi ya kuyumba kwa sarafu zingine za siri ndio sababu kuu iliyonisababisha kuichagua."
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 
 Heloisa Passos
 
@@ -1779,7 +1779,7 @@ Mkurugenzi Mtendaji wa Michezo ya Sp4ce, Brazil
 
 "Nimekuwa nikifanya kazi kwa mbali na makampuni ya kimataifa kwa takribani miaka mitano sasa, na muda mwingi huo, niliteseka na viwango vya juu vya riba kutoka kwa benki za kitaifa, ambazo hutoza kiwango cha asilimia kubwa kwa kila fedha zinazotumwa kimataifa, pamoja na muda wa kusubiri kulipa malipo kupitia mfumo wa Swift (kama saa 24). Nilipoanza kupokea mshahara wangu kwa Tether, niligundua ni kiasi gani cha muda na pesa nilianza kulipwa kwa kulipwa USD."
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 
 Samweli
 
@@ -1787,7 +1787,7 @@ Kampuni ya Biashara, Nigeria
 
 "Kutumia USDt kumeokoa muda mwingi wa biashara yetu kwa sababu, kama biashara ya Naijeria kupata USD inahitaji kwenda kwa benki yetu huku tukitumia muda muhimu kujaza fomu na kupanga foleni kwa saa nyingi ili kutoa pesa au kuhamisha. Hata hivyo, kwa USDt, tunaweza kuufanya ubadilishanaji kwa sarafu ya nchi kwa chini ya dakika 5 na kutekeleza miamala yoyote ambayo tunaweza kuwa nayo."
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 
 Yoshua
 
@@ -1795,7 +1795,7 @@ Mwanafunzi, Nigeria
 
 "Tether imenisaidia kwa njia nyingi. Kupata Tether kumenisaidia kushinda mvutano wa kupanda kwa mfumuko wa bei nchini, na kumenisaidia kupunguza matumizi mabaya. Pia, inasaidia akiba yangu kuhifadhi thamani yake kwani siathiriwi vibaya na kushuka kwa thamani ya Naira."
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 
 Esta
 

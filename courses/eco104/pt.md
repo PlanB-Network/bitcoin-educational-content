@@ -352,7 +352,7 @@ No entanto, essa supressão das taxas de juros vem com um custo: torna o capital
 
 Esse ato de equilíbrio não está indo conforme o planejado...
 
-![imagem](assets/1.webp)
+![imagem](assets/en/001.webp)
 
 Figura [Dívida vs PIB](https://www.longtermtrends.net/us-debt-to-gdp/)
 
@@ -403,7 +403,7 @@ Figura: Desempenho por Classe de Ativo ([Ações](https://finance.yahoo.com/quot
 
 Com esse atraso dos salários em relação aos preços dos ativos, testemunhamos uma das maiores transferências de riqueza da classe baixa para a classe alta na história recente
 
-![imagem](assets/2.webp)
+![imagem](assets/en/002.webp)
 
 Figura: Participação do [Patrimônio Líquido](https://fred.stlouisfed.org/series/WFRBSN40188#0.) Total
 
@@ -1070,7 +1070,7 @@ Como a história de Adanna demonstrou, a inflação é uma realidade dolorosa pa
 
 Para ilustrar o efeito da inflação de dois dígitos, uma taxa de inflação de 10%, como experimentada pela Europa em outubro de 2022, significaria uma perda de poder de compra de 61,5% ao longo de dez anos.
 
-![imagem](assets/3.webp)
+![imagem](assets/en/003.webp)
 
 _**Figura:** Efeito da Inflação no Poder de [Compra](https://anilsaidso.gumroad.com/)_
 
@@ -1327,7 +1327,7 @@ No entanto, agora os produtores de energia têm uma maneira de capitalizar sobre
 
 Por último, os mineradores de Bitcoin são motivados a buscar fontes de energia baratas, já que seus lucros dependem do custo da energia. Consequentemente, eles buscam ativamente por energia ociosa ou outras formas de energia que de outra forma não seriam utilizadas. Um exemplo notável é o gás de flare, que é liberado quando as companhias petrolíferas extraem petróleo do solo. O gás de flare é um subproduto desse processo e é tipicamente queimado devido ao alto custo associado à sua captura. Essa prática, conhecida como flaring, não apenas resulta em desperdício de energia, mas também libera metano e vários outros gases na atmosfera.
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 _**Figura:** Gás de [Flare](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
@@ -1460,7 +1460,7 @@ No entanto, nos últimos anos, o Bitcoin emergiu como uma ferramenta poderosa pa
 
 Enquanto o mundo assistia horrorizado ao Talibã tomar controle do Afeganistão em [1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), essa jovem, Roya, vivia no coração do conflito. Com apenas sete anos de idade, ela se viu envolvida na turbulência e incerteza da guerra enquanto sua cidade natal era invadida e ocupada pelo Talibã. Apesar do perigo e adversidade que enfrentou, além do fato de que não podia ir à escola, Roya recusou-se a ser derrotada. Em vez disso, ela se voltou para a educação como uma maneira de superar as limitações impostas a ela por suas circunstâncias.
 
-![imagem](assets/5.webp) **Figura:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+![imagem](assets/en/005.webp) **Figura:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 Roya Mahboob é uma pioneira no campo da tecnologia e do empreendedorismo no Afeganistão. Não apenas foi [nomeada](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) pela revista TIME como uma das 100 Pessoas Mais Influentes do Mundo em 2013 após "construir salas de aula de internet em escolas secundárias no Afeganistão". Ela também fundou a Afghan Citadel Software Company em 2010, que visa "criar empregos para recém-graduados universitários - especialmente mulheres." E se isso não fosse suficiente, ela então deu início ao Digital Citizen Fund. Esta organização sem fins lucrativos trabalha para empoderar mulheres e crianças em países em desenvolvimento por meio da tecnologia.
 
 No entanto, ao longo dessa jornada, Roya não estava sozinha. O Bitcoin provou ser uma ferramenta inestimável em sua missão de empoderar mulheres. Apesar de enfrentar inúmeros obstáculos, incluindo barreiras legais que impediam as mulheres de trabalhar e abrir contas bancárias, Roya estava determinada a encontrar uma maneira de pagar as mulheres que trabalhavam com ela.
@@ -1511,31 +1511,31 @@ Proprietário de um Café, Vietnã
 
 “No meu café no distrito de Binh Thanh, atendemos a uma clientela jovem e turistas ocasionais, oferecendo uma variedade de bebidas, incluindo café, refrigerantes e coquetéis. Tether tornou-se nossa solução preferida para processar pagamentos de clientes estrangeiros que não possuem moeda local ou contas bancárias. Embora as vendas através do Tether sejam pequenas atualmente, ele nos oferece uma maneira conveniente de preencher a lacuna cambial e acomodar nossos patronos internacionais. Os clientes muitas vezes ficam maravilhados com nossa abertura para aceitar pagamentos em criptomoeda, deixando uma impressão duradoura em sua experiência."
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 Parvinee Ratchaphokhinpiti
 Aposentado, Tailândia
 
 “USDt revolucionou minhas transferências internacionais de dinheiro. Como aposentado, eu costumava depender de transferências bancárias lentas. Graças ao USDt, agora posso enviar dinheiro sem esforço através de uma exchange de ativos digitais. Em 30 minutos, minha irmã recebeu os fundos. Os benefícios de economia de tempo são inestimáveis, garantindo transações rápidas e sem problemas.”
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 Jamie Tran
 Professor de Piano, Vietnã
 
 "Enviar dinheiro para meus parentes no exterior tem sido uma necessidade frequente, mas o processo de conversão de moedas em casas de câmbio locais provou ser tanto demorado quanto caro. Para enfrentar esses desafios, apresentei aos meus parentes a conveniência de usar USDt. Esta simples mudança permitiu que nossa família economizasse tempo e dinheiro significativos em nossas transações financeiras. Com USDt, agora desfrutamos de transferências internacionais simplificadas, garantindo suporte eficiente e econômico para nossos entes queridos."
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 Roman
 Expat Russo vivendo no Vietnã
 
 “Vivendo no Vietnã, frequentemente envio Tether para meus parentes e primos na Rússia. Transferir dinheiro para o exterior com Tether é livre de problemas comparado ao uso de métodos bancários tradicionais. Sem visitas ao banco, documentos autenticados ou explicações são necessárias. Sem limites de envio, taxas mínimas e transações rápidas, os fundos são entregues em minutos.”
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 Luis Graterol
 Audiovisual, Venezuela
 
 “Meu nome é Luis Graterol, e Tether me ajudou a proteger minhas economias de outra maneira. Na Venezuela, sofremos devido à alta inflação, e Tether ajudou muito. Sua usabilidade é simples, e em muitos casos, você pode fazer transações sem quaisquer taxas. USDt torna minha vida mais fácil! Ele também me ajuda a educar e incentivar seu uso nos meios audiovisuais; desde que descobri sua facilidade, recebo meus pagamentos em USDt, e economizo o tedioso fiat local que afeta muitos de nós!”
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 Dubraska Villanloga
 CEO Tu Cachapa Caricuao, Caracas, Venezuela
 

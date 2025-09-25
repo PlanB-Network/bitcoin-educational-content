@@ -60,7 +60,7 @@ Bagian pertama, "Prasyarat untuk memahami Bitcoin", secara efektif mempersiapkan
 Terakhir, saya akan memberikan beberapa saran praktis yang secara khusus didesain untuk para pemula, untuk membantu Anda menghindari kesalahan umum apabila bekerja dengan Bitcoin untuk pertama kali.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/id/001.webp)
 
 
 Bagian kedua, "Memahami apa yang Anda hadapi", akan memperdalam pemahaman Anda secara keseluruhan tentang Bitcoin. Kami akan memulai dengan tinjauan untuk memastikan Anda sepenuhnya memahami konsep-konsep penting.
@@ -68,7 +68,7 @@ Bagian kedua, "Memahami apa yang Anda hadapi", akan memperdalam pemahaman Anda s
 Kemudian, kami akan menjelaskan mengapa Bitcoin pada dasarnya penting dari perspektif teknologi, ekonomi, dan sosial, yang akan memperkuat keyakinan Anda akan nilainya. Anda juga akan menjelajahi industri Bitcoin secara keseluruhan: para pemain utamanya, organisasinya, dan evolusinya selama bertahun-tahun. Terakhir, kita akan membahas arsitektur berlapis dari ekosistem Bitcoin, sebuah konsep penting untuk memahami bagaimana sistem ini terus berinovasi tanpa mengorbankan integritas protokol intinya.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/id/002.webp)
 
 
 Bagian ketiga, "Menyiapkan rencana Anda", berfokus pada pendekatan pribadi Anda terhadap Bitcoin. Kami akan mulai dengan membantu Anda menentukan profil pengguna dari empat kategori utama:
@@ -84,13 +84,13 @@ Bagian ketiga, "Menyiapkan rencana Anda", berfokus pada pendekatan pribadi Anda 
 Kami akan memandu Anda dalam menerapkan strategi yang sesuai dengan profil Anda dan membantu Anda mencapai tujuan pribadi Anda.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/id/003.webp)
 
 
 Terakhir, bagian keempat, "Melindungi Ahli Waris dan Kekayaan Anda," membahas topik penting yang sering diabaikan: bagaimana memastikan Bitcoin Anda diwariskan kepada orang yang Anda cintai jika terjadi peristiwa yang tidak terduga. Anda akan belajar cara membuat dan mengatur rencana warisan Bitcoin, memastikan kelestarian kekayaan Anda setelah Anda meninggal.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/id/004.webp)
 
 
 Pada akhir kursus ini, Anda akan memiliki semua alat praktis yang Anda butuhkan untuk menavigasi ekosistem Bitcoin dengan percaya diri dan menjadi salah satu pengguna yang paling mahir!
@@ -131,7 +131,7 @@ Sebelum melangkah lebih jauh, penting untuk membedakan secara jelas antara dua d
 - Industri mata uang kripto, di sisi lain, jauh lebih besar dan mencakup puluhan ribu proyek yang berbeda, masing-masing dengan tokennya sendiri. Ruang ini sering kali didorong oleh inovasi yang cepat, hype, dan spekulasi keuangan jangka pendek. Banyak dari proyek-proyek ini terpusat, kurang aman, dan tidak menawarkan banyak nilai nyata-meskipun ada janji-janji yang berani dan pemasaran yang mencolok.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/id/005.webp)
 
 
 Jika Anda ingin lebih memahami dari mana Bitcoin berasal dan apa yang membuatnya berbeda dari proyek lainnya, saya sarankan untuk melihat kursus lanjutan gratis tentang sejarah Bitcoin nanti:
@@ -142,7 +142,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Seperti yang Anda ketahui, platform Plan ₿ Network didedikasikan khusus untuk Bitcoin. Namun, memahami perbedaannya dengan mata uang kripto lainnya akan membantu Anda menghindari jebakan yang terkait dengan proyek-proyek yang tidak berguna dan terkadang bahkan penipuan.
 
 
-![BTC102-Bitcoin](assets/fr/002.webp)
+![image](assets/id/006.webp)
 
 
 ### Penipuan utama yang harus dihindari
@@ -157,7 +157,7 @@ Berikut ini adalah penipuan yang paling umum yang mungkin Anda temui dalam perja
 Ini adalah beberapa penipuan yang paling umum terjadi di dunia kripto. Dalam skema Ponzi, peserta awal menerima pembayaran menggunakan uang dari peserta yang lebih baru; bukan dari investasi atau produk nyata. Tidak ada nilai aktual yang diciptakan. Sistem ini hanya bekerja selama orang-orang baru terus bergabung. Begitu aliran peserta baru melambat, seluruh skema akan berantakan.
 
 
-![BTC102-Bitcoin](assets/fr/003.webp)
+![image](assets/id/007.webp)
 
 
 Penipuan ini biasanya menampilkan :
@@ -202,7 +202,7 @@ Jenis penipuan ini melibatkan penggelembungan harga aset secara artifisial - ser
 
 
 
-![BTC102-Bitcoin](assets/fr/004.webp)
+![image](assets/id/008.webp)
 
 
 Penting untuk dicatat bahwa strategi Pump & Dump adalah ilegal di banyak negara dan dianggap sebagai bentuk manipulasi pasar. Meskipun demikian, skema seperti ini terus berkembang, terutama di dunia mata uang kripto, di mana regulasi masih terus berkembang.
@@ -211,7 +211,7 @@ Penting untuk dicatat bahwa strategi Pump & Dump adalah ilegal di banyak negara 
 Berhati-hatilah dengan grup "sinyal" pribadi di platform seperti Telegram, Discord, atau saluran media sosial lainnya. Grup-grup ini sering kali dikelola oleh para influencer atau orang yang mengaku sebagai pakar, beberapa di antaranya bahkan memungut biaya pendaftaran. Meskipun grup-grup ini mengklaim menawarkan peluang investasi eksklusif, kenyataannya jauh lebih berat sebelah: hanya penyelenggara yang untung, sementara sebagian besar peserta akhirnya kehilangan uang mereka.
 
 
-![BTC102-Bitcoin](assets/fr/005.webp)
+![image](assets/id/009.webp)
 
 
 Memang benar bahwa beberapa peserta mungkin mendapatkan keuntungan sementara dari manipulasi pasar semacam ini, tetapi keberhasilan mereka biasanya tidak lebih dari keberuntungan dan waktu yang tepat. Dalam jangka panjang, skema ini tidak berkelanjutan. Skema ini membutuhkan keterlibatan berisiko tinggi yang konstan dan partisipasi berulang kali dalam pengaturan curang yang pasti akan runtuh.
@@ -237,7 +237,7 @@ Para penipu sering kali menyamar sebagai tokoh publik terkenal (seperti Elon Mus
 Terkadang, penipuan ini muncul sebagai penipuan "biaya di muka". Anda dijanjikan hadiah atau imbalan (uang, produk, atau layanan), tetapi pertama-tama diminta untuk membayar biaya, yang konon untuk menutupi biaya pengiriman, pajak, atau biaya transaksi. Setelah pembayaran dilakukan, penipu menghilang, dan hadiah yang dijanjikan tidak pernah tiba.
 
 
-![BTC102-Bitcoin](assets/fr/006.webp)
+![image](assets/id/010.webp)
 
 
 #### Shitcoin dan mata uang kripto yang ditawarkan
@@ -261,7 +261,7 @@ Sebelum mengklik tautan atau melakukan tindakan apa pun, selalu periksa kembali 
 Selama bertahun-tahun, Bitcoin telah mengalami beberapa *Hard fork*, yang menghasilkan versi alternatif dari mata uang kripto asli. Secara sederhana, *Hard Fork* adalah perpecahan dalam jaringan yang mengarah ke dua blockchain yang terpisah, keduanya berbagi sejarah yang sama hingga saat perpecahan. Fork ini biasanya terjadi ketika bagian dari komunitas pengembang atau ekosistem Bitcoin yang lebih luas ingin memperkenalkan perubahan besar pada protokol asli tetapi tidak dapat mencapai konsensus yang luas. Alih-alih meninggalkan ide mereka, mereka memutuskan untuk meluncurkan versi baru Bitcoin (dengan aturan yang diubah) dengan harapan pengguna dan penambang akan memilih untuk mengikuti Fork sebagai gantinya.
 
 
-![BTC102-Bitcoin](assets/fr/007.webp)
+![image](assets/id/011.webp)
 
 
 Tidak semua *Hard fork* adalah penipuan, karena beberapa muncul dari ketidaksepakatan teknis atau ideologis dalam komunitas. Akan tetapi, yang lainnya didorong oleh kepentingan komersial atau bahkan motif yang tidak jujur. Contoh yang paling terkenal dari hardforks ini adalah **Bitcoin Cash (BCH)** dan **Bitcoin Satoshi Vision (BSV)**. Diluncurkan pada tahun 2017 dan 2018, mata uang alternatif ini sering kali diklaim sebagai "versi yang lebih baik" dari Bitcoin yang asli. Mereka mempromosikan keuntungan yang seharusnya seperti biaya transaksi yang lebih rendah atau transaksi yang lebih cepat karena peningkatan ukuran blok. Namun, perubahan teknis ini memiliki trade-off yang signifikan dalam hal keamanan, desentralisasi, dan ketahanan; Elements yang dapat bertentangan dengan prinsip-prinsip dasar Bitcoin.
@@ -279,7 +279,7 @@ Agar tidak terjebak dalam jebakan ini, selalu verifikasi mata uang yang Anda bel
 Ketika mata uang kripto mendapatkan perhatian utama, media sosial telah menyaksikan lonjakan influencer, pakar yang memproklamirkan diri, dan apa yang disebut sebagai "*guru kripto*". Meskipun beberapa orang mungkin menawarkan wawasan edukasi yang tulus, banyak orang lain yang memanfaatkan visibilitas mereka untuk mempromosikan proyek-proyek yang meragukan atau strategi perdagangan yang sangat berisiko (dan terkadang langsung menipu), orang-orang ini biasanya termotivasi oleh kepentingan finansial pribadi, sering kali menerima kompensasi langsung atau tidak langsung untuk mempromosikan token atau platform tertentu.
 
 
-![BTC102-Bitcoin](assets/fr/008.webp)
+![image](assets/id/012.webp)
 
 
 Para influencer ini sering kali mengandalkan taktik yang sudah terbukti untuk menarik para pemula: mereka memamerkan hasil keuangan yang mengesankan (yang sering kali palsu atau tidak bisa diverifikasi), memamerkan gaya hidup mewah sebagai bukti kesuksesan mereka, dan mempromosikan strategi investasi "ajaib". Tujuannya adalah untuk memicu FOMO - rasa takut ketinggalan - dan mendorong audiens mereka untuk mengambil keputusan impulsif dan investasi yang sembrono.
@@ -381,7 +381,7 @@ Salah satu aspek yang paling sering diabaikan dari keamanan pribadi adalah menja
 Juga sangat disarankan untuk menggunakan antivirus yang andal. Di Windows, Windows Defender bawaan umumnya sudah cukup memadai bagi sebagian besar pengguna. Jika Anda lebih suka fitur tambahan atau ketenangan pikiran, opsi komersial seperti Kaspersky juga tersedia. Di macOS, ancaman malware secara historis kurang umum **tetapi bukannya tidak ada** jadi tetaplah berhati-hati.
 
 
-![BTC102-Bitcoin](assets/fr/012.webp)
+![image](assets/id/013.webp)
 
 
 Di luar pembaruan sistem dan perlindungan antivirus, berhati-hatilah dalam mengunduh perangkat lunak dari situs web yang tidak jelas atau yang disebut portal unduhan "universal". Saat Anda membutuhkan alat atau aplikasi, selalu langsung ke sumber resminya; Hal ini secara drastis mengurangi risiko menginstal malware yang menyamar sebagai perangkat lunak yang sah.
@@ -412,7 +412,7 @@ Idenya sederhana saja:
 Pendekatan ini menawarkan ketahanan yang kuat dan membantu memastikan data Anda tetap bertahan bahkan jika terjadi kesalahan serius.
 
 
-![BTC102-Bitcoin](assets/fr/013.webp)
+![image](assets/id/014.webp)
 
 
 ### Solusi untuk mimpi buruk ID
@@ -432,7 +432,7 @@ Pengelola kata sandi memungkinkan Anda:
 Dengan pengelola kata sandi, Anda tidak perlu lagi mengeklik "Lupa kata sandi" atau mengandalkan kredensial yang lemah dan digunakan kembali. Selain itu, sebagian besar pengelola kata sandi menyinkronkan dengan lancar di seluruh perangkat Anda (desktop, ponsel, tablet) dan bahkan formulir login yang terisi otomatis, sehingga akses yang aman menjadi lebih mudah dan efisien.
 
 
-![BTC102-Bitcoin](assets/fr/011.webp)
+![image](assets/id/015.webp)
 
 
 Ada banyak sekali pengelola kata sandi di luar sana, tetapi saya bisa merekomendasikan dua opsi yang solid tergantung pada kebutuhan Anda. Jika Anda mencari sesuatu yang mudah digunakan dan disinkronkan dengan mulus di berbagai perangkat, Bitwarden adalah pilihan yang sangat baik:
@@ -451,7 +451,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Di Bitcoin, Anda adalah bank Anda sendiri. Itu berarti Anda juga merupakan tim keamanan Anda sendiri. Bahkan dengan kata sandi yang kuat, tidak ada yang namanya risiko nol - itulah sebabnya mengapa mengaktifkan otentikasi dua faktor (2FA) sangat penting.
 
 
-![BTC102-Bitcoin](assets/fr/014.webp)
+![image](assets/id/016.webp)
 
 
 2FA menambahkan perlindungan Layer kedua dengan membutuhkan kode sekali pakai berbasis waktu (biasanya 6 digit) yang dihasilkan oleh aplikasi seperti Google Authenticator atau Authy. Jadi, meskipun seseorang berhasil mendapatkan kata sandi Anda, mereka tetap tidak dapat mengakses akun Anda tanpa akses fisik ke ponsel Anda.
@@ -459,13 +459,13 @@ Di Bitcoin, Anda adalah bank Anda sendiri. Itu berarti Anda juga merupakan tim k
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![BTC102-Bitcoin](assets/fr/009.webp)
+![image](assets/id/017.webp)
 
 
 Ketika Anda mengaktifkan 2FA, pastikan untuk menyimpan kunci pemulihan untuk aplikasi Anda di tempat yang aman. Hal ini akan memungkinkan Anda memulihkan kode jika Anda kehilangan atau mengganti ponsel. Meskipun 2FA berbasis SMS atau email lebih baik daripada tidak sama sekali, namun tetap saja kurang aman. Serangan penukaran SIM, di mana seseorang mengambil alih nomor telepon Anda, dapat dengan mudah menerobos perlindungan semacam ini.
 
 
-![BTC102-Bitcoin](assets/fr/010.webp)
+![image](assets/id/018.webp)
 
 
 Bagi mereka yang ingin meningkatkan keamanan selangkah lebih maju, kunci fisik seperti YubiKey memberikan tingkat perlindungan yang lebih tinggi.
@@ -489,7 +489,7 @@ Kuncinya adalah memilih penyedia VPN yang dapat dipercaya:
 - Memiliki kebijakan tanpa pencatatan yang ketat
 
 
-![BTC102-Bitcoin](assets/fr/015.webp)
+![image](assets/id/019.webp)
 
 
 Kami memiliki beberapa tutorial yang tersedia di Plan ₿ Network yang bisa memandu Anda menyiapkan VPN dengan mudah. Saya secara khusus merekomendasikan IVPN atau Mullvad:
@@ -540,7 +540,7 @@ Singkatnya: jangan meremehkan keamanan siber, luangkan waktu untuk menyiapkan da
 Pastikan juga untuk melihat [tutorial keamanan komputer kami](https://planb.network/tutorials/computer-security) pada Plan ₿ Network.
 
 
-![BTC102-Bitcoin](assets/fr/016.webp)
+![image](assets/id/020.webp)
 
 
 Dalam bab berikutnya, saya akan berbagi beberapa saran lagi untuk membantu Anda memulai perjalanan Bitcoin Anda dengan percaya diri; dan untuk menghindari banyak jebakan yang bisa membuat para pemula lengah.
@@ -572,7 +572,7 @@ Berikut adalah poin-poin penting yang akan kita bahas bersama:
 - Berpikirlah jangka panjang, perbesar dan bersabarlah (anggaplah ini sebagai maraton, bukan lari cepat).
 
 
-![BTC102-Bitcoin](assets/fr/017.webp)
+![image](assets/id/021.webp)
 
 
 ### Kesalahan umum yang harus dihindari
@@ -610,7 +610,7 @@ Bitcoin terbuka untuk semua orang, tetapi bukan berarti Anda harus menyelam tanp
 - **Terjerumus ke dalam FOMO**: Membeli secara impulsif karena takut ketinggalan biasanya berujung pada waktu yang tidak tepat dan keputusan yang buruk. Kesabaran adalah sekutu terbaik Anda.
 
 
-![BTC102-Bitcoin](assets/fr/019.webp)
+![image](assets/id/022.webp)
 
 
 ### Menentukan strategi investasi
@@ -624,7 +624,7 @@ Mulailah dengan menentukan **anggaran** Anda dengan tepat. Jangan asal memilih a
 Dengan melakukan pendekatan seperti ini, Anda tidak akan membahayakan kesehatan finansial Anda, terutama jika terjadi penurunan pasar. Strategi yang matang adalah fondasi ketahanan jangka panjang.
 
 
-![BTC102-Bitcoin](assets/fr/020.webp)
+![image](assets/id/023.webp)
 
 
 Setelah anggaran Anda ditentukan, pikirkan bagaimana Anda ingin berinvestasi. Salah satu metode yang paling ramah pemula dan banyak direkomendasikan adalah Dollar Cost Averaging (DCA), membeli Bitcoin dalam jumlah tetap secara berkala (mingguan, bulanan, dll). Strategi ini membantu memuluskan harga masuk rata-rata Anda dari waktu ke waktu dan mengurangi dampak emosional dari perubahan harga. Ini adalah pendekatan yang cerdas bagi kebanyakan orang, terutama pendatang baru.
@@ -649,7 +649,7 @@ Luangkan beberapa jam untuk menjelajahi Bitcoin, lihat sumber daya gratis di Pla
 Bitcoin dikenal dengan perubahan harga yang dramatis. Pergerakan 10%, 20%, atau bahkan 50% hanya dalam beberapa hari bukanlah hal yang aneh. Bagi pendatang baru, volatilitas semacam ini bisa membingungkan. Sangat mudah untuk terbawa oleh hype selama kenaikan harga atau panik saat penurunan harga; keduanya sering kali berujung pada keputusan yang buruk, seperti menjual dengan kerugian.
 
 
-![BTC102-Bitcoin](assets/fr/021.webp)
+![image](assets/id/024.webp)
 
 
 Itulah mengapa sangat penting untuk **memahami dan menerima volatilitas Bitcoin** sebelum Anda berinvestasi. Perubahan harga ini bukanlah bug, ini adalah fitur dari aset yang masih jatuh tempo. Jika kenaikan dan penurunan tiba-tiba membuat Anda terjaga di malam hari atau mendorong Anda untuk mengambil keputusan emosional, kemungkinan besar Anda telah menempatkan lebih dari yang Anda rasa nyaman untuk mengambil risiko. Jika demikian, mundurlah sejenak dan kaji ulang strategi dan toleransi risiko Anda. Jangan ragu untuk mengurangi posisi Anda hingga Anda merasa lebih nyaman.
@@ -664,7 +664,7 @@ Yang terpenting, jangan pernah berinvestasi lebih dari yang Anda mampu untuk keh
 Salah satu fitur Bitcoin yang paling kuat (dan sering diremehkan) adalah **self-custody**. Dengan Wallet yang disimpan sendiri, Anda sendiri yang bertanggung jawab atas dana Anda. Dompet ini biasanya dibuat dari **frase pemulihan** (juga dikenal sebagai frase seed), serangkaian 12 atau 24 kata yang memberikan akses penuh ke BTC Anda. Jika Anda kehilangan frasa ini (atau jika orang lain mendapatkannya), maka bitcoin Anda akan hilang untuk selamanya. **Tidak ada dukungan pelanggan. Tidak ada tombol reset.**
 
 
-![BTC102-Bitcoin](assets/fr/023.webp)
+![image](assets/id/025.webp)
 
 
 Itulah mengapa aturan emas dalam Bitcoin adalah:
@@ -672,7 +672,7 @@ Itulah mengapa aturan emas dalam Bitcoin adalah:
 "***Bukan kunci Anda, bukan koin Anda***". Jika Anda tidak secara pribadi mengontrol kunci pribadi Anda, Anda tidak benar-benar memiliki Bitcoin Anda. Meskipun bursa bisa jadi nyaman (terutama saat memulai), namun mereka memegang kunci Anda untuk Anda. Itu berarti dana Anda berisiko jika platform diretas, membekukan akun Anda, atau bangkrut.
 
 
-![BTC102-Bitcoin](assets/fr/024.webp)
+![image](assets/id/026.webp)
 
 
 Untuk menghindari risiko ini, sangat disarankan untuk menyiapkan **WW-85** Anda sendiri, di mana hanya Anda yang memiliki akses ke frasa pemulihan. Frasa ini harus selalu ditulis dengan tangan dan disimpan secara **offline** di lokasi yang aman. Beberapa pengguna bahkan **mempertahankan beberapa cadangan**, disimpan di lokasi geografis yang terpisah untuk keamanan tambahan.
@@ -720,13 +720,13 @@ Meskipun merupakan mata uang terdesentralisasi, **Bitcoin tidak dikecualikan dar
 Di beberapa tempat, keuntungan dikenakan pajak sebagai keuntungan modal pada saat penjualan. Negara lain mungkin mengharuskan Anda melaporkan setiap transaksi, dan beberapa negara menerapkan aturan yang kurang umum, seperti pajak kekayaan atau kontribusi sosial.
 
 
-![BTC102-Bitcoin](assets/fr/018.webp)
+![image](assets/id/027.webp)
 
 
 Sebelum melakukan transaksi penting, sangat disarankan untuk berkonsultasi dengan profesional pajak atau meninjau panduan resmi pemerintah Anda. Meluangkan waktu untuk memahami kewajiban pajak Anda terlebih dahulu dapat menyelamatkan Anda dari masalah tak terduga di kemudian hari (seperti denda, audit, atau penalti), terutama jika Anda merencanakan penjualan atau realokasi portofolio dalam jumlah besar.
 
 
-![BTC102-Bitcoin](assets/fr/022.webp)
+![image](assets/id/028.webp)
 
 
 ### Perbedaan Antara Trading, Investasi, dan Holding
@@ -789,7 +789,7 @@ Titik awal yang bagus adalah buku *Rich Dad, Poor Dad* oleh Robert T. Kiyosaki. 
 Jika Anda siap untuk mendalami lebih dalam, podcast seperti *The Investors Podcast* menawarkan diskusi mendalam tentang investasi, pasar, dan prinsip-prinsip ekonomi. Mereka juga sesekali membahas Bitcoin, menjadikannya langkah yang solid bagi mereka yang ingin tahu bagaimana Bitcoin cocok dengan lanskap keuangan yang lebih luas.
 
 
-![BTC102-Bitcoin](assets/fr/025.webp)
+![image](assets/id/029.webp)
 
 
 ### Aturan Emas yang Perlu Diperhatikan
@@ -842,7 +842,7 @@ Tantangan tersebut masih belum terpecahkan hingga akhir tahun 2008, ketika seseo
 Proyek ini sangat dipengaruhi oleh etos Cypherpunk; sebuah komunitas pengembang dan pemikir yang percaya bahwa penggunaan kriptografi dapat melindungi kebebasan individu secara online. Bagi mereka, privasi dan desentralisasi bukanlah preferensi teknis, tetapi kebutuhan ideologis. Bitcoin muncul sebagai perwujudan paling sukses dari cita-cita tersebut: sebuah jaringan moneter peer-to-peer yang dapat digunakan oleh siapa saja, tidak ada yang dapat mengontrol, dan semua orang dapat memverifikasi.
 
 
-![BTC102-Bitcoin](assets/fr/035.webp)
+![image](assets/id/030.webp)
 
 
 The Cypherpunks adalah sebuah komunitas informal internasional yang terdiri dari individu-individu yang mengadvokasi penggunaan kriptografi untuk mempertahankan kebebasan pribadi secara online. Mereka sangat percaya pada hak individu atas privasi; terutama di dunia yang semakin dibentuk oleh pengawasan pemerintah dan eksploitasi data perusahaan.
@@ -853,7 +853,7 @@ Akar dari gerakan Cypherpunk berawal dari awal tahun 1990-an, ketika kelompok kr
 Tonggak penting dalam gerakan ini terjadi pada tahun 1992 dengan pembuatan milis Cypherpunks, sebuah forum di mana ide, proyek, dan diskusi politik tentang privasi dan kriptografi dapat berkembang. Kemudian, pada tahun 1993, Eric Hughes menerbitkan Manifesto Cypherpunk, sebuah deklarasi singkat namun kuat yang dengan jelas mengekspresikan misi dan keyakinan komunitas.
 
 
-![BTC102-Bitcoin](assets/fr/032.webp)
+![image](assets/id/031.webp)
 
 
 Ide mata uang digital yang beroperasi secara independen dari otoritas pusat manapun (seperti Bitcoin) berakar kuat dalam filosofi Cypherpunk.
@@ -873,13 +873,13 @@ Dalam lingkungan yang penuh ketakutan dan ketidakpastian inilah Bitcoin lahir. P
 Ini bukan sekadar tanggal atau catatan teknis; ini adalah protes yang tenang namun kuat. Hal ini menunjukkan bahwa Bitcoin dirancang untuk menjadi sesuatu yang sangat berbeda: sistem keuangan yang tidak bergantung pada bank, dana talangan, atau keputusan pemerintah.
 
 
-![BTC102-Bitcoin](assets/fr/034.webp)
+![image](assets/id/032.webp)
 
 
 Banyak yang menafsirkan hal ini sebagai tujuan Bitcoin: menawarkan cara untuk mentransfer nilai tanpa memerlukan perantara, dikendalikan oleh aturan yang jelas, bukannya keputusan yang sering tidak jelas yang dibuat oleh bank sentral atau pemerintah.
 
 
-![BTC102-Bitcoin](assets/fr/033.webp)
+![image](assets/id/033.webp)
 
 
 Untuk memperdalam pengetahuan Anda tentang asal-usul Bitcoin, kami menawarkan kursus pelatihan gratis, komprehensif, dan terdokumentasi dengan baik tentang subjek ini:
@@ -896,13 +896,13 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Bitcoin didefinisikan sebagai "sistem uang elektronik peer-to-peer" Ini berarti bahwa siapa pun dapat terhubung ke jaringan menggunakan perangkat lunak yang sesuai (node Bitcoin) dan berinteraksi langsung dengan pengguna lain, tanpa bergantung pada server pusat. Tujuan dari desentralisasi ini adalah untuk mencegah satu entitas (seperti bank, pemerintah, atau perusahaan besar) untuk mengontrol, menyensor, atau menghentikan sistem. Bitcoin beroperasi 24/7, secara global, dan dapat diakses oleh semua orang tanpa syarat apa pun.
 
 
-![BTC102-Bitcoin](assets/fr/036.webp)
+![image](assets/id/034.webp)
 
 
 Secara sederhana, setiap peserta dalam jaringan Bitcoin (disebut "node") memiliki salinan lengkap transaksi Ledger, yang dikenal sebagai Blockchain. Ketika sebuah transaksi baru terjadi, transaksi tersebut disiarkan ke jaringan. Para penambang kemudian mengonfirmasi transaksi ini dengan mengelompokkannya ke dalam blok-blok yang kemudian ditambahkan ke akhir rantai (oleh karena itu dinamakan "Blockchain").
 
 
-![BTC102-Bitcoin](assets/fr/029.webp)
+![image](assets/id/035.webp)
 
 
 #### Blockchain: akuntansi Ledger
@@ -911,7 +911,7 @@ Secara sederhana, setiap peserta dalam jaringan Bitcoin (disebut "node") memilik
 Bayangkan Blockchain sebagai Ledger akuntansi raksasa, di mana setiap baris mewakili sebuah transaksi. Dalam sistem perbankan tradisional, database disimpan di server bank, yang dapat melakukan perubahan kapan pun mereka mau. Di sisi lain, dalam Bitcoin, **semua perubahan divalidasi di seluruh jaringan**: setelah blok transaksi baru ditambahkan ke Blockchain, hampir tidak mungkin untuk mengubahnya di kemudian hari. Validasi terdesentralisasi ini membuat Bitcoin menjadi aman dan transparan.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/id/036.webp)
 
 
 ### Peran Penambang dan Proof-of-Work
@@ -933,7 +933,7 @@ Untuk memastikan kelangkaan Bitcoin, subsidi blok diprogram untuk mengurangi sep
 Pada akhirnya, sekitar tahun 2140, subsidi akan mencapai nol, karena total Bitcoin akan mencapai 21 juta koin. Kurva penerbitan yang dapat diprediksi ini meniru kelangkaan komoditas fisik seperti emas; salah satu alasan mengapa Bitcoin sering disebut sebagai **gold digital**.
 
 
-![BTC102-Bitcoin](assets/fr/031.webp)
+![image](assets/id/037.webp)
 
 
 ### Bitcoin Properti Moneter
@@ -959,7 +959,7 @@ Kelangkaan bawaan ini merupakan daya tarik utama bagi mereka yang ingin menghind
 Salah satu kekuatan Bitcoin yang paling diremehkan adalah kemampuannya untuk dibagi-bagi. Setiap Bitcoin dapat dipecah menjadi 100 juta unit, yang dikenal sebagai satoshi (atau disingkat Sats). Ini berarti Anda tidak perlu menghabiskan puluhan ribu euro atau dolar untuk memulai; Anda bisa membeli Bitcoin senilai beberapa euro saja, hingga pecahan kecil.
 
 
-![BTC102-Bitcoin](assets/fr/026.webp)
+![image](assets/id/038.webp)
 
 
 ### Keterbukaan dan Transparansi
@@ -973,7 +973,7 @@ Bitcoin berjalan pada protokol **open-source** publik (terutama melalui [Bitcoin
 Tingkat transparansi ini membuatnya sangat sulit untuk memperkenalkan pintu belakang atau membuat perubahan rahasia. Siapa pun yang memiliki keterampilan teknis dapat menjalankan node, berkontribusi pada pengembangan, atau membangun alat yang kompatibel. Dalam Bitcoin, kepercayaan diperoleh melalui kode dan konsensus, bukan melalui kontrol terpusat.
 
 
-![BTC102-Bitcoin](assets/fr/030.webp)
+![image](assets/id/039.webp)
 
 
 Transparansi ini adalah salah satu alasan utama orang mempercayai protokol Bitcoin; protokol ini mencegah sekelompok kecil pengembang memanipulasi jaringan untuk keuntungan mereka sendiri. Bitcoin beroperasi dengan prinsip yang sederhana namun kuat: jika Anda tidak setuju dengan perubahan yang diusulkan, Anda bebas untuk tidak memperbarui perangkat lunak Anda. Dalam beberapa kasus, hal ini tidak akan menyebabkan gangguan apa pun; Anda akan tetap sinkron dengan jaringan lainnya. Tetapi dalam kasus lain, ini dapat menyebabkan apa yang dikenal sebagai Hard Fork, di mana jaringan terpecah menjadi dua, dan versi baru Bitcoin dibuat. Itulah yang terjadi pada tahun 2017 dengan perpecahan antara Bitcoin (BTC) dan Bitcoin Cash (BCH).
@@ -1024,7 +1024,7 @@ Bitcoin dapat dilihat sebagai "Zero to One": sebuah terobosan radikal dengan par
 Namun demikian, setelah lebih dari satu dekade keberadaannya, Bitcoin terus memicu perdebatan dan gairah. Adopsinya terus berkembang, solusi Layer kedua (seperti Lightning Network) bermunculan untuk meningkatkan kecepatan transaksi dan biaya yang lebih rendah, dan bisnis di seluruh dunia bereksperimen dengan kasus-kasus penggunaan baru. Kemungkinan besar Bitcoin akan terus memengaruhi sistem pembayaran dan bahkan cara kita memandang uang selama beberapa dekade mendatang.
 
 
-![BTC102-Bitcoin](assets/fr/028.webp)
+![image](assets/id/040.webp)
 
 
 Jika Anda ingin memperluas pengetahuan Anda lebih jauh, Anda bisa mengikuti kursus BTC101 di Plan ₿ Network, yang menawarkan eksplorasi lebih mendalam mengenai dasar-dasar teknis dan ekonomi Bitcoin.
@@ -1060,7 +1060,7 @@ Barack Obama pernah menyebut Bitcoin sebagai "bank Swiss di saku Anda," dan untu
 - Bitcoin merupakan produk asli internet, yang berarti siapa pun yang memiliki akses web dapat menggunakannya.
 
 
-![BTC102-Bitcoin](assets/fr/037.webp)
+![image](assets/id/041.webp)
 
 
 Bitcoin dapat dilihat sebagai "mata uang rakyat" yang sebenarnya, sebuah sistem moneter alternatif yang tidak bergantung pada otoritas pusat mana pun dan didasarkan pada aturan yang tidak dapat diubah, bukan pada keputusan yang sewenang-wenang. Sifatnya yang terbuka dan mudah diakses menjadikannya alat yang berpotensi revolusioner bagi miliaran orang di seluruh dunia, baik yang tidak termasuk dalam sistem perbankan tradisional atau yang hanya mencari alternatif yang lebih berdaulat.
@@ -1069,7 +1069,7 @@ Bitcoin dapat dilihat sebagai "mata uang rakyat" yang sebenarnya, sebuah sistem 
 Hal ini membawa kita pada pertanyaan mendasar dan hampir filosofis yang membagi para penggemar Bitcoin ke dalam dua pandangan utama. Di satu sisi, beberapa orang melihat Bitcoin sebagai solusi untuk mempromosikan inklusi keuangan, yang memungkinkan miliaran orang yang tidak memiliki rekening bank untuk akhirnya dapat mengakses infrastruktur moneter global. Di sisi lain, beberapa orang melihat Bitcoin sebagai alat pembebasan finansial yang bertujuan untuk menawarkan jalan keluar bagi miliaran orang yang telah terintegrasi ke dalam sistem perbankan, tetapi ingin membebaskan diri mereka sendiri dari ketergantungan dan mendapatkan kembali kendali penuh atas uang mereka. Refleksi ini patut mendapat perhatian kita, dan kita akan kembali membahasnya secara lebih rinci nanti.
 
 
-![BTC102-Bitcoin](assets/fr/044.webp)
+![image](assets/id/042.webp)
 
 
 ### Perlindungan terhadap krisis mata uang
@@ -1078,19 +1078,19 @@ Hal ini membawa kita pada pertanyaan mendasar dan hampir filosofis yang membagi 
 Selama berabad-abad, dunia telah mengalami krisis moneter yang berdampak buruk pada populasi. Miliaran orang masih menderita akibat kebijakan moneter yang tidak dikelola dengan baik, di mana manipulasi uang dan suku bunga menciptakan ketidakseimbangan sistemik. Krisis-krisis ini bukan hanya peristiwa acak - ini adalah hasil dari sistem yang dibangun di atas intervensi dan manipulasi nilai uang dan waktu.
 
 
-![BTC102-Bitcoin](assets/fr/045.webp)
+![image](assets/id/043.webp)
 
 
 Krisis ini dapat terjadi dalam berbagai bentuk. Hiperinflasi, misalnya, melenyapkan mata uang dengan menghancurkan daya beli masyarakat secara bertahap; seperti yang terlihat di negara-negara seperti Zimbabwe dan Venezuela. Di sisi lain, kontrol moneter yang ketat dapat membatasi akses ke dana dan melucuti kebebasan ekonomi individu, seperti yang terjadi pada pembatasan perbankan di Yunani dan Lebanon.
 
 
-![BTC102-Bitcoin](assets/fr/047.webp)
+![image](assets/id/044.webp)
 
 
 Dan akhirnya, ketika pemerintah mendevaluasi mata uang nasional mereka, hal ini secara bertahap mengikis tabungan masyarakat; sebuah pengurasan yang tidak terlihat namun terus menerus terhadap kekayaan mereka. Dalam banyak hal, hal ini bertindak seperti pajak tersembunyi. Selama kebijakan moneter tetap berada di tangan otoritas terpusat, siklus ini akan terus berulang.
 
 
-![BTC102-Bitcoin](assets/fr/038.webp)
+![image](assets/id/045.webp)
 
 
 Bitcoin menyajikan alternatif yang berani untuk siklus ketidakstabilan moneter yang kronis ini. Tidak seperti mata uang yang dikeluarkan negara, Bitcoin dibangun di atas aturan berbasis matematika yang tidak dapat diubah dan ditegakkan oleh konsensus; bukan oleh pemerintah atau bank sentral. Penerbitannya dapat diprediksi dan dibatasi sekitar 21 juta koin, menjadikannya bentuk uang yang dirancang untuk mempertahankan nilainya dari waktu ke waktu. Karena tidak dapat disensor, siapa pun dapat menyimpan dan mentransfer nilainya tanpa bergantung pada institusi. Dan berkat kemampuannya untuk dibagi dan dipindahtangankan, Bitcoin mudah diakses dan praktis; infrastruktur keuangan untuk siapa saja, di mana saja.
@@ -1099,7 +1099,7 @@ Bitcoin menyajikan alternatif yang berani untuk siklus ketidakstabilan moneter y
 **Tahukah Anda?** Sepanjang sejarah, setidaknya ada 56 kasus hiperinflasi yang terdokumentasi di seluruh dunia. Dalam banyak kasus tersebut, seluruh perekonomian runtuh, tabungan habis, dan jutaan orang jatuh ke dalam kemiskinan ekstrem. Lebih buruk lagi, kegagalan moneter ini sering menjadi batu loncatan untuk pergolakan politik; terkadang mengarah ke rezim otoriter, seperti yang terjadi di Jerman pada tahun 1920-an dan Chili pada tahun 1970-an.
 
 
-![BTC102-Bitcoin](assets/fr/039.webp)
+![image](assets/id/046.webp)
 
 
 Hanke, S. H., & Krus, N. (2013). *Hiperinflasi Dunia*. Dalam R. Parker & R. Whaples (Eds.), Buku Pegangan Peristiwa-Peristiwa Penting dalam Sejarah Ekonomi. Routledge Publishing. Diambil kembali dari https://ssrn.com/abstract=2130109
@@ -1114,7 +1114,7 @@ Runtuhnya mata uang fiat bukanlah suatu kebetulan sejarah; ini adalah sebuah pol
 Ketimpangan ekonomi yang semakin besar di seluruh dunia selalu menjadi lahan subur bagi keresahan sosial dan munculnya ekstremisme politik. Sejarah menunjukkan bahwa ketika kesenjangan antara kaya dan miskin menjadi terlalu lebar, hal ini sering kali menyebabkan ketegangan, krisis, dan bahkan munculnya rezim otoriter. Menghadapi risiko-risiko ini, melindungi kebebasan finansial Anda bukanlah sebuah kemewahan, melainkan sebuah keharusan bagi siapa pun yang ingin mempertahankan otonomi dan menjaga masa depan keluarganya.
 
 
-![BTC102-Bitcoin](assets/fr/046.webp)
+![image](assets/id/047.webp)
 
 
 Namun, di dunia di mana negara dapat memegang kendali penuh atas aset dan transaksi, pilihan nyata apa yang tersedia untuk melindungi tabungan Anda?
@@ -1138,7 +1138,7 @@ Tetapi Bitcoin lebih dari sekadar alat praktis. Ini juga merupakan **bentuk prot
 Dalam hal ini, Bitcoin lebih dari sekadar teknologi. Ini adalah alat hukum alam, cara bagi individu untuk menegaskan hak-hak dasar mereka, bahkan ketika hak-hak tersebut ditolak oleh hukum negara. Alat ini mengembalikan kekuasaan kepada rakyat, bukan melalui revolusi, tetapi melalui kode.
 
 
-![BTC102-Bitcoin](assets/fr/040.webp)
+![image](assets/id/048.webp)
 
 
 **Tahukah Anda?** Bitcoin bersifat pseudonim, bukan anonim. Pengguna dapat membuat alamat Wallet tanpa mengungkapkan identitas asli mereka, sehingga memungkinkan mereka untuk mengirim dan menerima dana di luar sistem perbankan tradisional.
@@ -1162,7 +1162,7 @@ Jika kekayaan Anda tidak dijamin dalam aset non-moneter (seperti real estat, obl
 Ini bukan cacat dalam sistem; ini adalah mekanisme yang disengaja. Bank sentral dan pemerintah menggunakannya untuk merangsang pertumbuhan ekonomi secara artifisial dan mendorong orang untuk terus mengkonsumsi dan meningkatkan utang.
 
 
-![BTC102-Bitcoin](assets/fr/041.webp)
+![image](assets/id/049.webp)
 
 
 Sistem keuangan modern kita dibangun di atas siklus utang; sistem di mana meminjam tidak hanya dianjurkan, tetapi juga tidak dapat dihindari. Individu mengambil pinjaman untuk mempertahankan gaya hidup mereka, hanya untuk menemukan diri mereka terjebak dalam sistem di mana mereka harus membayar bunga kepada bank yang menciptakan uang dari udara. Ini bukan kebetulan; ini adalah desain struktural yang dimaksudkan untuk menguntungkan lembaga keuangan dengan mengorbankan masyarakat biasa.
@@ -1180,7 +1180,7 @@ Ini berarti Bitcoin beroperasi di bawah kerangka kerja moneter yang dapat dipred
 Di masa lalu, emas berfungsi sebagai cek terhadap ekspansi moneter yang tidak terkendali. Namun, sejak runtuhnya standar emas pada tahun 1971, tidak ada mata uang nasional (baik itu dolar, euro, atau yen) yang didukung oleh aset berwujud. Pelepasan ini memberikan kebebasan bagi bank sentral untuk mencetak uang tanpa kendali, membuka jalan bagi ekspansi moneter yang agresif selama beberapa dekade, gelembung aset yang berulang, dan krisis keuangan yang berulang.
 
 
-![BTC102-Bitcoin](assets/fr/042.webp)
+![image](assets/id/050.webp)
 
 
 Ketika Anda Menyimpan Uang di Bank, Uang Itu Tidak Lagi Menjadi Milik Anda.
@@ -1225,7 +1225,7 @@ Para pengguna Bitcoin berasal dari berbagai kalangan, namun mereka memiliki visi
 - Insinyur, pemodal, dan **pendukung kebebasan berbicara**, yang menyadari implikasi sosial yang mendalam dari paradigma moneter baru ini.
 
 
-![BTC102-Bitcoin](assets/fr/043.webp)
+![image](assets/id/051.webp)
 
 
 Bitcoin, secara desain, melampaui batas-batas politik dan ideologi. Ini bukan kiri atau kanan, libertarian atau kolektivis. Ini adalah protokol netral, diatur oleh aturan (bukan penguasa) yang berlaku sama untuk semua orang. Namun, keberadaannya menantang status quo keuangan global. Bitcoin telah menjadi simbol perlawanan karena orang-orang telah mengadopsinya sebagai alternatif dari mata uang fiat dan infrastruktur keuangan terpusat; sistem yang semakin dipandang tidak adil, dapat dimanipulasi, dan ekslusif.
@@ -1236,7 +1236,7 @@ Bagi Cypherpunk, Bitcoin lebih dari sekadar aset digital. Ini berdiri melawan er
 Bitcoin memungkinkan transaksi digital peer-to-peer yang tahan sensor; bebas dari perantara atau penjaga gerbang. Seperti yang dibayangkan Nakamoto, Satoshi menawarkan uang digital yang setara dengan uang tunai: sebuah cara untuk mendapatkan nilai Exchange secara bebas, tanpa memerlukan izin.
 
 
-![BTC102-Bitcoin](assets/fr/048.webp)
+![image](assets/id/052.webp)
 
 
 Bitcoin bukanlah sebuah organisasi atau partai politik, tetapi tidak dapat disangkal membawa pesan filosofis yang kuat. Ini mendefinisikan ulang hubungan antara individu dan negara, menantang monopoli bank sentral atas penciptaan uang dan kontrol ekonomi.
@@ -1244,7 +1244,7 @@ Bitcoin bukanlah sebuah organisasi atau partai politik, tetapi tidak dapat disan
 Baik diadopsi oleh para pejuang kemerdekaan atau oleh mereka yang hanya ingin mempertahankan daya beli mereka, Bitcoin menandai dimulainya era baru; era di mana kedaulatan keuangan menjadi hak asasi manusia yang dapat diakses oleh semua orang.
 
 
-![BTC102-Bitcoin](assets/fr/049.webp)
+![image](assets/id/053.webp)
 
 
 Setelah kita menjelajahi makna mendalam dari penemuan Satoshi Nakamoto, bab selanjutnya akan membawa kita ke dalam industri luar biasa yang telah berkembang di sekitar protokol ini; sebuah ekosistem yang membentuk kembali keuangan, teknologi, dan masyarakat.
@@ -1269,7 +1269,7 @@ Saat ini, Bitcoin telah mencapai ambang batas kritis; titik tanpa harapan. Pemer
 Bitcoin merupakan inovasi radikal, sebuah lompatan dari nol ke satu. Ini merupakan terobosan total dari paradigma moneter tradisional. Bagi sebagian orang, gangguan ini merupakan ancaman; tantangan eksistensial terhadap kekuasaan dan hak istimewa yang sudah mapan. Bagi mereka, Bitcoin adalah kotak Pandora yang seharusnya tidak pernah dibuka, dan mereka akan menggunakan segala cara untuk menolaknya.
 
 
-![BTC102-Bitcoin](assets/fr/050.webp)
+![image](assets/id/054.webp)
 
 
 Namun, yang lain melihat Bitcoin sebagai peluang sekali dalam satu generasi: alat untuk kebebasan individu, katalisator untuk mengubah sistem keuangan global, dan jalan menuju alternatif yang lebih transparan dan adil. Mereka adalah para pembangun, pengadopsi, dan kontributor (yang membentuk masa depan).
@@ -1358,7 +1358,7 @@ Meskipun pemasarannya berani, inisiatif ini tidak bersaing dengan Bitcoin; merek
 Libra Facebook tidak pernah dimaksudkan untuk menantang status quo; Libra dibangun untuk bekerja dengan sistem. Sebaliknya, Bitcoin sepenuhnya berada di luar sistem tersebut. Ia tidak meminta izin. Ia tidak bergantung pada kepercayaan. Dan telah berjalan dengan sempurna (tanpa pemimpin, waktu henti, atau kontrol pusat) selama lebih dari satu dekade.
 
 
-![BTC102-Bitcoin](assets/fr/051.webp)
+![image](assets/id/055.webp)
 
 
 ### Peraturan dan Pendekatan Pemerintah
@@ -1367,7 +1367,7 @@ Libra Facebook tidak pernah dimaksudkan untuk menantang status quo; Libra dibang
 Bitcoin, pada dasarnya, beroperasi di luar kerangka kerja tradisional. Protokol ini tidak bergantung pada otoritas pusat dan tidak dapat dikontrol atau diubah oleh satu entitas pun. Akan tetapi, meskipun protokol itu sendiri kebal terhadap regulasi, peserta yang berinteraksi dengannya (bursa, bisnis, dan pengguna) masih tunduk pada hukum nasional.
 
 
-![BTC102-Bitcoin](assets/fr/052.webp)
+![image](assets/id/056.webp)
 
 
 Karena Bitcoin adalah jaringan global, negara-negara telah merespons dengan cara yang sangat berbeda:
@@ -1385,7 +1385,7 @@ Karena Bitcoin adalah jaringan global, negara-negara telah merespons dengan cara
 - Sebagian besar masih **ragu-ragu**, bereksperimen dengan peraturan sambil mencoba menyeimbangkan antara inovasi dan pengawasan.
 
 
-![BTC102-Bitcoin](assets/fr/056.webp)
+![image](assets/id/057.webp)
 
 
 Pemerintah dan institusi sering kali kesulitan untuk mengklasifikasikan Bitcoin secara akurat (apakah itu uang, properti, atau sesuatu yang sama sekali baru?). Akibatnya, peraturan cenderung reaktif, tidak konsisten, dan terus berkembang. Jika Anda terlibat dalam Bitcoin, penting untuk selalu mendapatkan informasi tentang lanskap lokal Anda; terutama jika menyangkut pajak, akses perbankan, dan aturan kepatuhan.
@@ -1418,7 +1418,7 @@ Bursa memainkan peran penting dalam ekosistem Bitcoin, bertindak sebagai jembata
 Bursa yang mematuhi peraturan setempat biasanya harus mengikuti protokol **"Kenali Pelanggan Anda "** (KYC) yang ketat, yang mengharuskan pengguna memberikan dokumen identifikasi sebelum mengakses layanan. Meskipun proses ini dirancang untuk mencegah aktivitas ilegal, proses ini dapat membahayakan privasi yang ditawarkan Bitcoin secara inheren.
 
 
-![BTC102-Bitcoin](assets/fr/053.webp)
+![image](assets/id/058.webp)
 
 
 Platform KYC mengumpulkan informasi pribadi Anda dengan kedok keamanan. Data ini dapat dieksploitasi oleh pemerintah untuk memantau transaksi keuangan Anda dan membatasi akses Anda ke operasi tertentu.
@@ -1575,13 +1575,13 @@ Siapa pun dapat mengusulkan perubahan pada Bitcoin Core, tetapi prosesnya sangat
 Inovasi disambut baik, tetapi hanya jika didukung oleh alasan yang kuat, konsensus komunitas, dan pengujian yang cermat.
 
 
-![BTC102-Bitcoin](assets/fr/054.webp)
+![image](assets/id/059.webp)
 
 
 Terlepas dari apa yang mungkin dipercaya oleh beberapa orang, tidak ada yang memiliki kontrol sepihak atas Bitcoin; bahkan pengelola Bitcoin Core. Peran mereka adalah mengelola repositori perangkat lunak, bukan protokol itu sendiri.
 
 
-![BTC102-Bitcoin](assets/fr/055.webp)
+![image](assets/id/060.webp)
 
 
 Bahkan jika pengelola menyetujui perubahan kontroversial, itu tidak akan mempengaruhi jaringan kecuali **node (yang dijalankan oleh pengguna)** benar-benar mengadopsi dan menjalankan versi tersebut. Pada akhirnya, kode Bitcoin hanya akan berpengaruh jika orang-orang memilih untuk menjalankannya.
@@ -1616,7 +1616,7 @@ Di antara sistem hamparan utama yang memperkaya ekosistem Bitcoin adalah:
 Lightning Network, yang diciptakan oleh Thaddeus Dryja dan Joseph Poon pada tahun 2016, merupakan solusi Layer kedua yang dirancang untuk memungkinkan pembayaran instan dan berbiaya rendah. Dua pengguna dapat membuka saluran pribadi di mana mereka dapat bertransaksi dengan saldo yang hanya diperbarui pada Blockchain ketika saluran dibuka atau ditutup. Transaksi di dalam saluran terjadi pada off-chain, yang berarti tidak perlu dicatat secara individual pada Bitcoin Blockchain. Struktur ini memungkinkan transaksi seketika dan biaya minimal, sehingga ideal untuk transaksi bernilai rendah yang membutuhkan konfirmasi cepat.
 
 
-![BTC102-Bitcoin](assets/fr/059.webp)
+![image](assets/id/061.webp)
 
 
 Katakanlah Anda membeli kopi dengan Bitcoin menggunakan basis Layer. Agar pembayaran dapat dikonfirmasi (dan agar kafe dapat memastikan bahwa Anda benar-benar telah membayar), transaksi harus dimasukkan ke dalam sebuah blok. Hal ini bisa memakan waktu beberapa menit, tergantung pada biaya yang Anda pilih. Secara teknis, pedagang harus menunggu enam konfirmasi (sekitar satu jam) untuk memastikan bahwa pembayaran sudah final. Tentu saja, penantian seperti itu tidak akan berhasil jika Anda berdiri di konter. Dengan Lightning Network, pembayaran dilakukan hanya dalam beberapa detik; jadi kopi Anda dibayar dan disajikan bahkan sebelum kopi tersebut menjadi dingin.
@@ -1655,7 +1655,7 @@ RGB adalah sistem Smart contract yang terdesentralisasi dan berfokus pada privas
 Fitur utama dari RGB adalah perlindungannya terhadap Double-spending, yang dicapai dengan menggunakan teknik kriptografi yang disebut Segel Sekali Pakai. Mekanisme ini bergantung pada fakta bahwa UTXO (Unspent Transaction Outputs) Bitcoin hanya dapat digunakan satu kali. Keaslian token dipastikan dengan validasi sisi pengguna dari seluruh sejarah Contract (mulai dari pembuatan hingga statusnya saat ini).
 
 
-![BTC102-Bitcoin](assets/fr/060.webp)
+![image](assets/id/062.webp)
 
 
 Untuk memperdalam pengetahuan Anda tentang RGB, kami menawarkan kursus pelatihan tahun keempat (harap diperhatikan bahwa kursus ini sangat teknis):
@@ -1669,7 +1669,7 @@ RGB hanyalah salah satu dari sekian banyak protokol yang dibangun di atas Bitcoi
 Desain berlapis ini berbeda dengan kebanyakan industri kripto yang lebih luas, yang sering kali berusaha menggabungkan banyak fitur ke dalam satu protokol. Dengan menjaga Bitcoin tetap sederhana dan fokus, kami mengurangi permukaan serangan; yang berarti keamanan yang lebih besar. Protokol yang ramping lebih mudah untuk diamankan, dipelihara, dan ditingkatkan. Bitcoin dirancang untuk melakukan satu hal dengan sangat baik: menyediakan uang yang aman dan terdesentralisasi. Segala sesuatu yang lain (kontrak pintar, token, pembayaran, dan banyak lagi) dapat dilapisi di atasnya, memungkinkan inovasi tanpa mengorbankan inti.
 
 
-![BTC102-Bitcoin](assets/fr/058.webp)
+![image](assets/id/063.webp)
 
 
 **Tahukah Anda** Internet tidak dibangun sekaligus; Internet berevolusi sebagai tumpukan protokol yang dapat dioperasikan. Sebagai contoh, TCP/IP menangani komunikasi jaringan, HTTP menggerakkan web, dan banyak lapisan lain yang melayani fungsi-fungsi tertentu. Setiap Layer dioptimalkan untuk tugasnya, menciptakan sistem yang kuat dan modular. Bitcoin mengikuti filosofi yang sama. Basis Layer kuat dan minimal, dan fungsionalitas tambahan ditambahkan melalui protokol berlapis seperti Lightning, Liquid, atau RGB; masing-masing berfokus pada penyelesaian kebutuhan pengguna yang berbeda sambil menjaga fondasi tetap utuh.
@@ -1724,7 +1724,7 @@ Kami telah mencapai titik di mana siapa pun dapat terlibat dalam ekosistem Bitco
 Bitcoin kini tak terbendung.
 
 
-![BTC102-Bitcoin](assets/fr/057.webp)
+![image](assets/id/064.webp)
 
 
 ### Perspektif pribadi saya
@@ -1769,7 +1769,7 @@ Bitcoin tidak seperti aset tradisional. Dibutuhkan pendekatan yang bijaksana dan
 Kursus ini mengasumsikan bahwa Anda baru saja memulai dengan Bitcoin. Jadi kita akan fokus pada solusi sederhana dan ramah pemula yang mudah disiapkan. Kami tidak akan membahas metode eksposur tidak langsung seperti Mining, membeli saham di perusahaan yang terkait dengan Bitcoin, atau strategi keuangan yang rumit. Tujuannya di sini adalah untuk membantu Anda memilih Wallet yang sesuai dengan situasi Anda dan mendapatkan bitcoin pertama Anda dengan aman.
 
 
-![BTC102-Bitcoin](assets/fr/063.webp)
+![image](assets/id/065.webp)
 
 
 ### Mengapa menentukan profil pengguna Anda?
@@ -1792,7 +1792,7 @@ Berikut adalah beberapa faktor yang perlu dipertimbangkan ketika mencari cara te
 Masing-masing faktor ini berperan dalam membentuk strategi yang tepat untuk Anda. Beberapa pengguna akan menghargai kesederhanaan dan kemudahan penggunaan melalui layanan yang diatur, sementara yang lain akan lebih memilih pendekatan yang lebih otonom dan berfokus pada privasi.
 
 
-![BTC102-Bitcoin](assets/fr/064.webp)
+![image](assets/id/066.webp)
 
 
 Itulah yang akan kita bahas selanjutnya: berbagai cara untuk mendapatkan dan mengamankan bitcoin Anda, sehingga Anda bisa mengambil keputusan yang tepat berdasarkan profil dan tujuan Anda.
@@ -1804,7 +1804,7 @@ Itulah yang akan kita bahas selanjutnya: berbagai cara untuk mendapatkan dan men
 Memilih strategi yang tepat untuk mendapatkan dan mengamankan bitcoin Anda dimulai dengan penilaian yang jujur terhadap situasi pribadi Anda. Beberapa faktor memengaruhi keputusan ini, termasuk risiko yang mungkin Anda hadapi, gaya hidup Anda, dan bagaimana Anda berencana menggunakan bitcoin Anda.
 
 
-![BTC102-Bitcoin](assets/fr/065.webp)
+![image](assets/id/067.webp)
 
 
 #### Potensi risiko dan ancaman
@@ -1833,7 +1833,7 @@ Memilih strategi yang tepat untuk memperoleh dan mengamankan bitcoin Anda dimula
 Untuk lebih memahami kerentanan Anda, beri nilai masing-masing risiko ini pada skala dari 0 (rendah) hingga 10 (tinggi). Penilaian mandiri ini akan membantu Anda memprioritaskan perlindungan yang tepat di masa mendatang.
 
 
-![BTC102-Bitcoin](assets/fr/061.webp)
+![image](assets/id/068.webp)
 
 
 #### Gaya Hidup dan Kebiasaan Pribadi
@@ -1880,7 +1880,7 @@ Berikut ini adalah empat hal utama yang harus diputuskan:
 - Berapa banyak Anda akan bertransaksi
 
 
-![BTC102-Bitcoin](assets/fr/062.webp)
+![image](assets/id/069.webp)
 
 
 ### Dompet dan Strategi Keamanan
@@ -1889,7 +1889,7 @@ Berikut ini adalah empat hal utama yang harus diputuskan:
 Mengamankan kunci pribadi Anda (kunci yang memberikan akses ke bitcoin Anda) adalah bagian terpenting dalam memiliki dan menggunakan Bitcoin. Tidak seperti rekening bank tradisional, di mana pihak ketiga mengelola dana Anda, Bitcoin memberi Anda kendali penuh. Namun, dengan kebebasan tersebut, ada tanggung jawab yang harus Anda pikul: jika Anda kehilangan kunci, maka Bitcoin Anda akan hilang selamanya. Ada beberapa jenis dompet yang bisa Anda gunakan. Masing-masing memiliki kelebihan dan kekurangannya sendiri tergantung pada kebutuhan dan tingkat pengalaman Anda.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/id/070.webp)
 
 
 #### Hot Wallet
@@ -2015,7 +2015,7 @@ Contoh: Bursa seperti Coinbase atau Binance, produk keuangan seperti ETF Bitcoin
 Kami tidak merekomendasikan layanan kustodian bahkan untuk pemula. Jauh lebih baik meluangkan waktu untuk mempelajari cara mengamankan Bitcoin Anda dengan benar daripada mengambil risiko kehilangan semuanya karena orang lain gagal. Tetapi jika Anda berada di sini, membaca tentang dompet dan manajemen kunci, Anda mungkin sudah mengerti mengapa prinsip itu penting.
 
 
-![BTC102-Bitcoin](assets/fr/068.webp)
+![image](assets/id/071.webp)
 
 
 Pilihan Wallet dan metode keamanan tergantung pada seberapa banyak yang Anda simpan, tingkat keahlian Anda, dan potensi risiko yang Anda rasakan. Namun, pendekatan hibrida bisa menjadi pilihan yang cerdas:
@@ -2029,7 +2029,7 @@ Pilihan Wallet dan metode keamanan tergantung pada seberapa banyak yang Anda sim
 Jika Hot Wallet Anda mengakumulasi terlalu banyak bitcoin, Anda dapat mentransfer sebagian ke penyimpanan Cold Anda. Di sisi lain, jika Anda membutuhkan lebih banyak bitcoin untuk pengeluaran harian, Anda dapat menariknya dari Cold Wallet Anda.
 
 
-![BTC102-Bitcoin](assets/fr/066.webp)
+![image](assets/id/072.webp)
 
 
 Pada akhirnya, keamanan sangat bergantung pada bagaimana Anda menggunakan alat ini. Hardware Wallet tidak akan banyak membantu Anda jika Anda kehilangan, mengekspos, atau mengkompromikan frasa Mnemonic. Kehati-hatian dan disiplin adalah perlindungan terbaik Anda untuk mencegah kehilangan bitcoin. Untuk lebih lanjut mengenai hal ini, saya sangat menyarankan Anda untuk membaca artikel ini:
@@ -2043,7 +2043,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Ada berbagai cara untuk mendapatkan bitcoin, tergantung pada seberapa besar privasi yang Anda butuhkan, peraturan di negara Anda, dan jumlah yang ingin Anda peroleh. Ada dua pendekatan utama:
 
 
-![BTC102-Bitcoin](assets/fr/070.webp)
+![image](assets/id/073.webp)
 
 
 #### Akuisisi dengan Verifikasi Identitas (KYC)
@@ -2199,7 +2199,7 @@ Strategi yang lebih disukai :
 Profil ini sangat cocok untuk orang-orang yang tinggal di lingkungan yang tidak mendukung Bitcoin, di mana kepemilikan atau penggunaan BTC dapat mengakibatkan sanksi. Ini adalah pendekatan yang lebih kompleks, membutuhkan keahlian teknis dan disiplin yang ketat untuk menghindari hilangnya akses ke dana.
 
 
-![BTC102-Bitcoin](assets/fr/069.webp)
+![image](assets/id/074.webp)
 
 
 ### Profil mana yang tepat untuk Anda?
@@ -2223,7 +2223,7 @@ Dalam bab-bab berikutnya, kita akan menjelajahi masing-masing profil ini secara 
 Dalam komunitas Bitcoin, istilah "hodler" mengacu pada seseorang yang mengambil pendekatan investasi jangka panjang. Kata ini berasal dari kesalahan ketik "hold" yang terkenal di forum Bitcoin Talk beberapa tahun yang lalu dan sejak saat itu menjadi simbol Commitment: berpegang teguh pada Bitcoin Anda apa pun yang terjadi, tanpa menekankan pada perubahan pasar jangka pendek.
 
 
-![BTC102-Bitcoin](assets/fr/071.webp)
+![image](assets/id/075.webp)
 
 
 Hodlers percaya pada proposisi nilai Bitcoin. Dengan Supply tetap sebesar 21 juta koin, mereka melihat Bitcoin sebagai penyimpan nilai jangka panjang (emas digital).
@@ -2289,7 +2289,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![BTC102-Bitcoin](assets/fr/073.webp)
+![image](assets/id/076.webp)
 
 
 #### 2. Beli Bitcoin dan Tarik Kembali
@@ -2309,7 +2309,7 @@ https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7
 
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![BTC102-Bitcoin](assets/fr/074.webp)
+![image](assets/id/077.webp)
 
 
 Beberapa pedagang juga mengadopsi pendekatan hybrid dengan menggunakan DCA (Dollar Cost Averaging) - membeli dalam jumlah kecil secara teratur untuk meredam volatilitas pasar.
@@ -2359,7 +2359,7 @@ Strategi para penipu itu sederhana namun ampuh: beli, amankan, dan lupakan. Tant
 
 
 
-![BTC102-Bitcoin](assets/fr/075.webp)
+![image](assets/id/078.webp)
 
 
 ### Mengevaluasi profil Hodler Anda
@@ -2376,7 +2376,7 @@ Jika Anda mengenali diri Anda sendiri dalam ciri-ciri kepribadian ini, Anda mung
 - **Kepercayaan pada teknologi**: Hodlers tidak melihat Bitcoin hanya sebagai aset spekulatif. Mereka percaya pada teknologi dan potensi disruptifnya. Bagi banyak orang, ini bukan hanya tentang uang; ini tentang kebebasan. Bitcoin dipandang sebagai mata uang yang tangguh, apolitis, dan merupakan alternatif nyata dari perbankan tradisional, yang memberdayakan individu dengan kedaulatan finansial yang lebih besar.
 
 
-![BTC102-Bitcoin](assets/fr/072.webp)
+![image](assets/id/079.webp)
 
 
 Hodling itu sederhana, efektif, dan mudah diakses; bahkan untuk pemula sekalipun.
@@ -2396,7 +2396,7 @@ Dalam ekosistem Bitcoin, stacker adalah seseorang yang mengambil pendekatan jang
 Idenya sederhana: hanya akan ada sekitar 21 juta bitcoin, dan setiap pecahan sangat berarti. Misi penumpuk adalah terus mengumpulkan Sats sebanyak mungkin.
 
 
-![BTC102-Bitcoin](assets/fr/076.webp)
+![image](assets/id/080.webp)
 
 
 ### Mengapa Memilih Strategi Penumpukan?
@@ -2470,7 +2470,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 Pendekatan yang paling efektif adalah dengan menggunakan keduanya: Hot Wallet untuk penumpukan harian dan Hardware Wallet untuk penyimpanan Cold jangka panjang. Hot Wallet mudah dan nyaman digunakan. Ini memungkinkan Anda untuk dengan cepat memiliki bitcoin Anda, daripada meninggalkannya di platform di mana mereka dapat terpapar risiko. Namun, dibandingkan dengan Hardware Wallet, Hot Wallet menawarkan keamanan yang jauh lebih sedikit. Oleh karena itu, stacker harus secara teratur mentransfer dananya ke Cold Wallet untuk mengamankan simpanan jangka panjangnya dan menghindari menyimpan terlalu banyak dana di Hot Wallet. Secara berkala, stacker mengkonsolidasikan UTXO ketika mentransfer ke penyimpanan Cold; menggabungkan input kecil untuk mengoptimalkan biaya transaksi di masa depan.
 
 
-![BTC102-Bitcoin](assets/fr/077.webp)
+![image](assets/id/081.webp)
 
 
 #### 2. Siapkan rencana pembelian DCA
@@ -2487,7 +2487,7 @@ Dollar-Cost Averaging (DCA) adalah strategi investasi di mana Anda membeli sejum
 Selanjutnya, Anda memiliki dua opsi untuk mengatur DCA: mengotomatiskannya atau mengelolanya secara manual. Sebagian besar platform perdagangan teregulasi sekarang menawarkan opsi untuk mengotomatiskan DCA Anda. Dengan jumlah fiat yang cukup di akun Anda, platform akan secara otomatis mengeksekusi order beli Anda berdasarkan parameter yang Anda tetapkan. Ada juga semakin banyak platform yang didedikasikan untuk otomatisasi DCA, menawarkan layanan tambahan seperti penarikan otomatis ke Wallet penyimpanan mandiri Anda atau membulatkan pengeluaran harian Anda. Jika Anda menggunakan platform yang teregulasi, saya sangat menyarankan untuk mengotomatiskan DCA Anda agar Anda lebih tenang dalam pengelolaan sehari-hari.
 
 
-![BTC102-Bitcoin](assets/fr/078.webp)
+![image](assets/id/082.webp)
 
 
 Contoh platform DCA:
@@ -2547,7 +2547,7 @@ Kebiasaan utama:
 - Periksa cadangan seed dan status Hardware Wallet Anda secara berkala: Setelah wallet Anda disiapkan, penting untuk melakukan pemantauan secara rutin. Secara berkala, periksa apakah frasa Mnemonic Anda masih ada di lokasi penyimpanannya dan amplop buramnya belum dibuka. Selama pemeriksaan ini, Anda juga dapat membuka amplop untuk memeriksa kondisi media. Pastikan tidak ada kerusakan dan kalimatnya masih terbaca dengan sempurna. Jika ada tanda-tanda kerusakan, sebaiknya buat salinan baru dari Hardware Wallet Anda. Anda juga dapat memeriksa dompet perangkat keras Anda secara teratur.
 
 
-![BTC102-Bitcoin](assets/fr/080.webp)
+![image](assets/id/083.webp)
 
 
 Untuk pemantauan yang mudah tanpa mengorbankan keamanan, siapkan Watch-only wallet untuk melacak saldo menggunakan kunci publik.
@@ -2569,7 +2569,7 @@ Stacker yang sukses menunjukkan sifat-sifat ini:
 - **Visi jangka panjang**: Seorang stacker sangat percaya pada potensi teknologi Bitcoin. Fokus mereka bukan pada perubahan harga jangka pendek, tetapi pada pertumbuhan kepemilikan mereka secara stabil selama bertahun-tahun.
 
 
-![BTC102-Bitcoin](assets/fr/079.webp)
+![image](assets/id/084.webp)
 
 
 Singkatnya, stacking sangat ideal bagi mereka yang ingin membangun posisi Bitcoin dari waktu ke waktu, mengurangi risiko volatilitas, dan mempertahankan kedaulatan penuh; tanpa terpaku pada grafik.
@@ -2587,7 +2587,7 @@ Berikutnya: kita akan menjelajahi profil pengguna bitcoin yang sangat berbeda; p
 Menjadi pengguna aktif Bitcoin berarti melampaui strategi investasi jangka panjang. Tidak seperti hodler atau stacker yang hanya menabung tanpa membelanjakan, pengguna aktif memperlakukan Bitcoin sebagai media nyata dari **Exchange**. Mereka menggunakannya untuk membayar barang dan jasa dan secara aktif berpartisipasi dalam ekonomi tandingan.
 
 
-![BTC102-Bitcoin](assets/fr/083.webp)
+![image](assets/id/085.webp)
 
 
 ### Mengapa mengadopsi strategi pengguna aktif?
@@ -2620,7 +2620,7 @@ Menggunakan Bitcoin secara aktif akan membantu Anda mengembangkan pengalaman dun
 Tantangannya meliputi kompleksitas teknis, volatilitas harga, dan kebutuhan akan kebersihan keamanan yang baik untuk mencegah hilangnya dana.
 
 
-![BTC102-Bitcoin](assets/fr/086.webp)
+![image](assets/id/086.webp)
 
 
 ### Rencana investasi untuk pengguna aktif
@@ -2629,7 +2629,7 @@ Tantangannya meliputi kompleksitas teknis, volatilitas harga, dan kebutuhan akan
 Mengadopsi Bitcoin untuk pembayaran sehari-hari membutuhkan pendekatan yang bijaksana dan terstruktur. Tidak seperti Hodler atau Stacker, Pengguna Aktif harus mengelola keamanan jangka panjang dana mereka dan kenyamanan transaksi harian. Mencapai keseimbangan yang tepat antara penyimpanan Cold yang aman dan akses yang mudah untuk membelanjakan dana sangat penting untuk membuat strategi ini bekerja secara efektif.
 
 
-![BTC102-Bitcoin](assets/fr/084.webp)
+![image](assets/id/087.webp)
 
 
 #### 1. Pemisahan dompet yang jelas
@@ -2722,7 +2722,7 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Pengguna aktif perlu menyeimbangkan antara penghematan jangka panjang mereka dan jumlah Bitcoin yang disimpan untuk penggunaan sehari-hari.
 
 
-![BTC102-Bitcoin](assets/fr/085.webp)
+![image](assets/id/088.webp)
 
 
 Ada beberapa cara untuk mendapatkan Bitcoin, tergantung pada tingkat privasi yang Anda cari:
@@ -2772,7 +2772,7 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-![BTC102-Bitcoin](assets/fr/081.webp)
+![image](assets/id/089.webp)
 
 
 #### 4. Manajemen pengeluaran aktif
@@ -2817,7 +2817,7 @@ Apakah Anda cocok untuk menjadi pengguna Bitcoin yang aktif? Berikut ini adalah 
 - **Disiplin Keuangan:** Anda mengelola pengeluaran dan tabungan Bitcoin Anda dengan hati-hati. Anda memahami pentingnya memisahkan dengan jelas dana sehari-hari dari tabungan jangka panjang Anda.
 
 
-![BTC102-Bitcoin](assets/fr/082.webp)
+![image](assets/id/090.webp)
 
 
 Kesimpulannya, pengguna aktif memainkan peran langsung dalam mendorong ekosistem Bitcoin ke depan. Dengan memasukkan Bitcoin ke dalam kebiasaan sehari-hari, mereka tidak hanya mendukung pengadopsiannya, tetapi juga mengembangkan keahlian mereka sendiri.
@@ -2838,7 +2838,7 @@ Bagi para Bitcoiner yang paranoid, privasi bukanlah sebuah pilihan, melainkan se
 Bagi mereka, setiap tindakan itu penting. Setiap transaksi, setiap pengaturan Wallet, dan setiap interaksi dengan jaringan dipertimbangkan dengan cermat. Satu kesalahan saja dapat mengungkapkan informasi sensitif yang menghubungkan identitas mereka dengan kepemilikan Bitcoin. Tujuan akhir mereka? Menggunakan Bitcoin dengan cara yang menjaga identitas, lokasi, dan situasi keuangan mereka tetap rahasia.
 
 
-![BTC102-Bitcoin](assets/fr/087.webp)
+![image](assets/id/091.webp)
 
 
 ### Mengapa mengambil pendekatan yang begitu hati-hati?
@@ -2866,7 +2866,7 @@ Mereka bukan sekadar investor atau pengguna; mereka memilih keluar dari sistem y
 Bitcoiner yang paranoid mengikuti strategi ketat yang dibangun di sekitar dua tujuan utama: menjaga anonimitas dan memaksimalkan keamanan. Pengguna jenis ini berusaha menghindari paparan terhadap platform yang diatur (terutama yang membutuhkan KYC), menghilangkan keterlacakan transaksi, dan mempertahankan dana mereka dari pengawasan, penyitaan, dan ancaman eksternal lainnya.
 
 
-![BTC102-Bitcoin](assets/fr/092.webp)
+![image](assets/id/092.webp)
 
 
 #### 1. Menyiapkan dompet dan node
@@ -2895,7 +2895,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
-![BTC102-Bitcoin](assets/fr/089.webp)
+![image](assets/id/093.webp)
 
 
 
@@ -2921,7 +2921,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-![BTC102-Bitcoin](assets/fr/090.webp)
+![image](assets/id/094.webp)
 
 
 Keamanan tidak berhenti sampai di situ. Untuk mencadangkan frasa seed, pengguna yang paranoid menggunakan cadangan logam yang dikombinasikan dengan amplop tertutup yang tahan rusak. Mereka secara teratur memverifikasi bahwa cadangan tetap tidak terganggu dan menguji prosedur pemulihan Wallet agar siap untuk segala kemungkinan.
@@ -3037,7 +3037,7 @@ https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 Pertukaran terpusat dihindari sepenuhnya karena risiko yang ditimbulkannya; baik untuk privasi maupun potensi penyensoran atau penyitaan.
 
 
-![BTC102-Bitcoin](assets/fr/091.webp)
+![image](assets/id/095.webp)
 
 
 #### 3. Mencegah penelusuran onchain
@@ -3097,7 +3097,7 @@ Berikut adalah ciri-ciri utama seorang bitcoiner yang paranoid:
 Jika ciri-ciri ini terdengar familiar, strategi ini mungkin cocok untuk Anda. Strategi ini menuntut dan membutuhkan upaya yang konsisten, tetapi memberikan tingkat kedaulatan finansial yang tinggi dan perlindungan terhadap pengawasan, penyitaan, atau penelusuran dana Anda.
 
 
-![BTC102-Bitcoin](assets/fr/088.webp)
+![image](assets/id/096.webp)
 
 
 Pendekatan ini sangat relevan jika Anda:
@@ -3166,7 +3166,7 @@ Bab ini terinspirasi oleh karya [Pamela Morgan] (https://x.com/pamelawjd). [Buku
 [Pamela Morgan] (https://x.com/pamelawjd) telah dengan murah hati mengizinkan penggunaan [karyanya] (https://www.amazon.com/gp/product/1947910116/) untuk kursus ini, dan kita akan mengikuti pendekatannya untuk membuat rencana waris Bitcoin yang konkret. Pada bab ini, kita akan fokus pada bagian pertama dari bukunya.
 
 
-![BTC102-Bitcoin](assets/fr/093.webp)
+![image](assets/id/097.webp)
 
 
 Untuk lebih memahami cara membuat rencana suksesi Bitcoin, kita akan melihat contoh dari Cédric, seorang pengguna Bitcoin yang perlu mengatur bagaimana kekayaannya akan diwariskan jika sesuatu yang tidak terduga terjadi.
@@ -3186,7 +3186,7 @@ Profilnya:
 Tujuan kami adalah membuat rencana sederhana dan efektif yang disesuaikan dengan profil Cédric sebelum kami beralih ke skenario yang lebih kompleks yang melibatkan jenis pengguna lain.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/id/098.webp)
 
 
 ### Sebelum Anda mulai
@@ -3209,7 +3209,7 @@ Pastikan Anda memiliki lingkungan yang tenang dan bebas gangguan, kemudian kumpu
 - Komputer (opsional).
 
 
-![BTC102-Bitcoin](assets/fr/094.webp)
+![image](assets/id/099.webp)
 
 
 #### Kesalahpahaman umum tentang perencanaan warisan
@@ -3421,7 +3421,7 @@ Sebelum membungkusnya, pastikan surat Anda sudah termasuk:
 Tergantung pada situasi pribadi Anda, buatlah beberapa salinan surat yang ditulis tangan dan simpanlah di tempat yang aman (brankas, di tempat orang yang Anda percayai, dan sebagainya). Beritahukan ahli waris Anda bahwa rencana warisan ini ada, tanpa harus langsung mengungkapkan isinya. Untuk perlindungan tambahan, Anda mungkin ingin memasukkan surat tersebut ke dalam amplop buram yang sulit dirusak untuk memastikan bahwa surat tersebut tidak dapat diakses tanpa seizin Anda.
 
 
-![BTC102-Bitcoin](assets/fr/096.webp)
+![image](assets/id/100.webp)
 
 
 Jika perlu, konsultasikan dengan pengacara atau notaris untuk mengintegrasikan rencana Anda ke dalam kerangka hukum.
@@ -3455,7 +3455,7 @@ Meskipun Anda belum melakukan semuanya, tetapi Anda berkomitmen untuk segera mel
 Sejak saya mulai mengedukasi orang-orang tentang Bitcoin, baik ekosistem maupun saya telah berkembang secara signifikan. Kursus ini telah sepenuhnya diperbarui untuk mencerminkan yang terbaik dari apa yang ditawarkan Bitcoin saat ini. Ini merupakan perjalanan yang sangat menyenangkan!
 
 
-![BTC102-Bitcoin](assets/fr/097.webp)
+![image](assets/id/101.webp)
 
 
 ### Apa Selanjutnya untuk Bitcoin?
@@ -3476,7 +3476,7 @@ Tentu saja, tantangan tetap ada: regulasi, privasi, adopsi yang lebih luas, dan 
 Satu hal yang pasti: Bitcoin akan terus ada; menghasilkan blok baru kira-kira setiap 10 menit, tanpa lelah, hari demi hari, tahun demi tahun. Kita akan melihat lebih banyak pengguna, dompet, bursa, dan juga lebih banyak peraturan, rintangan teknis, krisis, dan inovasi.
 
 
-![BTC102-Bitcoin](assets/fr/098.webp)
+![image](assets/id/102.webp)
 
 
 Ketika krisis global terus berlanjut dan inflasi mengikis daya beli mata uang fiat, Bitcoin secara alami akan menarik lebih banyak orang, mereka yang mencari kebebasan finansial dan kedaulatan individu. Dinamika ini akan terus memperkuat Bitcoin dan menarik talenta baru untuk meningkatkan protokol, lapisan penskalaan, dan kasus penggunaan sehari-hari dalam hal keamanan, privasi, dan utilitas.

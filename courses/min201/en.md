@@ -62,7 +62,7 @@ Ready to discover the world of Bitcoin mining and take on the practical challeng
 
 To explain the concept of mining in a simplified way, a relevant analogy can be used: that of a puzzle. Just like a puzzle, mining is a complex task to perform, but easy to verify once completed. In the context of Bitcoin mining, miners strive to solve a complex digital puzzle as quickly as possible. The first miner to solve the puzzle presents their solution to the entire network, which can then easily verify its validity. This successful verification allows the miner to validate a new block and add it to the Bitcoin Timechain. In recognition of their work, which involves significant costs, the miner is rewarded with a certain number of bitcoins. This reward serves as a financial incentive for miners to continue their work of validating transactions and securing the Bitcoin network.
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 Initially in the Bitcoin network, the awarded reward was 50 bitcoins every ten minutes, parallel to the discovery of a block every ten minutes on average by miners. This reward undergoes a halving every 210,000 blocks, approximately every four years. This remuneration serves as a powerful incentive to encourage miners to participate in the mining process, despite its associated energy costs. Without a reward, the electricity-intensive mining would be abandoned, compromising the security and stability of the entire Bitcoin network.
 The current mining reward is twofold. On one hand, it includes the creation of new bitcoins, which has decreased from 50 bitcoins every ten minutes initially to 6.25 bitcoins today (2023). On the other hand, it includes transaction fees, also known as mining fees, from the transactions that the miner chooses to include in their block. When a Bitcoin transaction is made, a transaction fee is paid. These fees function as a sort of auction where users indicate how much they are willing to pay to have their transaction included in the next block. To maximize their reward, miners, acting in their own interest, select the most profitable transactions to include in their block, taking into account the limited available space. Thus, the mining reward consists of both the generation of new bitcoins and transaction fees, ensuring a continuous incentive for miners and ensuring the longevity and security of the Bitcoin network.
@@ -73,7 +73,7 @@ The mining process involves finding a valid hash that is acceptable to the Bitco
 
 Initially, the CPU era dominated, where miners used their personal computers for Bitcoin mining. The discovery of the advantages of GPUs (graphics cards) for this task marked a turning point, substantially increasing the hashrate and reducing energy consumption. The progress did not stop there, with the subsequent introduction of FPGAs (field-programmable gate arrays). FPGAs served as a platform for the development of application-specific integrated circuits (ASICs).
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 ASICs are chips, comparable to a CPU chip; however, they are developed to perform only one specific type of calculation in the most efficient way possible. In other words, a CPU is capable of performing a multitude of different types of calculations without being particularly optimized for any one type, whereas an ASIC is designed to perform only one type of calculation, but very efficiently. In the case of Bitcoin ASICs, they are specifically designed for calculating the SHA-256 algorithm.
 Nowadays, miners exclusively use ASICs dedicated to this operation, optimized to test the maximum number of combinations with the smallest possible energy consumption and as quickly as possible. These computers, which are specifically designed for Bitcoin mining, serve as a tangible testament to the continuous evolution and increasing specialization of the Bitcoin mining industry. This constant evolution reflects the intrinsic dynamics of Bitcoin, where a difficulty adjustment ensures the production of a block every ten minutes despite the exponential increase in mining capacity.
@@ -84,7 +84,7 @@ To illustrate the intensity of this process, consider a typical miner capable of
 
 Difficulty adjustment is a crucial mechanism in the operation of the Bitcoin network, ensuring that blocks are mined at an average rate of every 10 minutes. This duration is an average because the mining process is actually a game of probabilities, similar to rolling dice in the hope of getting a number lower than the number defined by the difficulty. Every 2016 blocks, the network adjusts the mining difficulty based on the average time required to mine the previous blocks. If the average time is greater than 10 minutes, the difficulty is reduced, and conversely, if the average time is lower, the difficulty is increased. This adjustment mechanism ensures that the mining time for new blocks remains constant over time, regardless of the number of miners or the network's overall computing power. This is why the Bitcoin Blockchain is also called the Timechain.
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 - Example from China:
   The case of China perfectly illustrates this difficulty in adjusting the mechanism. With abundant and inexpensive energy, China became the primary global hub for Bitcoin mining. In 2021, the country suddenly banned Bitcoin mining on its territory, resulting in a massive drop in the global Bitcoin network's hashrate, around 50%. This rapid decrease in mining power could have severely disrupted the Bitcoin network by increasing the average block time for mining. However, the difficulty adjustment mechanism kicked in, reducing the mining difficulty to ensure that the block mining frequency remains at an average of 10 minutes. This case demonstrates the efficiency and resilience of Bitcoin's difficulty adjustment mechanism, which ensures the stability and predictability of the network, even in the face of sudden and significant changes in the global mining landscape.
@@ -95,7 +95,7 @@ Regarding the evolution of Bitcoin mining machines, it is important to note that
 
 Faced with constant technological advancements in the mining field, professionals must strategically position themselves. The mining industry is subject to continuous innovation, as demonstrated by the recent release of the J version of the S19 and the anticipated release of the S19 XP, which offer significantly higher mining capabilities. Furthermore, improvements are not only related to the raw performance of the machines. For example, the new S19 XP model features a liquid cooling system, a technical modification that enables a significant improvement in energy efficiency. Although innovation remains a constant, future efficiency gains will likely be smaller compared to those observed so far, due to reaching a certain threshold of technological innovation.
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 In conclusion, the Bitcoin mining industry continues to adapt and develop, and industry players must anticipate diminishing efficiency gains in the future and adjust their strategies accordingly. Future technological advancements, although still present, are likely to occur on a smaller scale, reflecting the growing maturity of the sector.
 
@@ -107,7 +107,7 @@ In conclusion, the Bitcoin mining industry continues to adapt and develop, and i
 
 Currently, Bitcoin mining has evolved into a serious and substantial industry, with many players now publicly known and an increasing number of significant miners. This evolution has made mining almost inaccessible for small players due to the high cost associated with acquiring new mining machines. This raises the question of the distribution of hashrate among various market players. The situation is complex because it is essential to examine both the distribution of hashrate among different companies and among different mining pools.
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 A mining pool is a group of miners who combine their computing resources to increase their chances of mining. This cooperation is necessary because a small mining machine, operating in isolation, is competing against industry giants, significantly reducing its chances of success. Mining works on a lottery principle, and the chances of winning a block (and therefore the Bitcoin reward) every ten minutes are extremely low for an individual small miner. By pooling their computing power, miners can combine their resources, find blocks more frequently, and then distribute the rewards proportionally to each miner's contribution to the pool.
 
@@ -138,7 +138,7 @@ Mining centralization is addressed as a major challenge. Large players, such as 
 
 Regulation Risk: It is emphasized that if a country like the United States were to decide to regulate or ban certain Bitcoin transactions, it could have a significant impact on the network, especially if a large portion of the hashing power is centralized in that country.
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 To combat this centralization, different strategies are discussed:
 
@@ -162,7 +162,7 @@ The Attakai initiative stems from a personal home-mining experiment conducted by
 
 After presenting their project to the Bitcoin community and seeing the interest it generated, the inventors of Attakai decided to publish detailed guides on the Découvre Bitcoin platform, allowing anyone to replicate their home-mining experience. They now plan to extend this concept beyond the domestic setting. The goal is to demonstrate how a modified miner can be transformed into a quiet auxiliary heater usable during the winter, providing a smooth transition to the second part of the training, which focuses on the practical implementation of these modifications, illustrated by explanatory videos. However, the question remains whether this initiative can be expanded on a larger scale, offering a realistic and sustainable alternative to current centralized mining structures.
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 ### The limit of this decentralization?
 
@@ -186,7 +186,7 @@ Regarding the question of what should be included in a Bitcoin block, it is cruc
 
 With the expected growth of the Lightning Network and the consequent increase in channel openings and closings, space in Bitcoin blocks will become increasingly valuable. The Bitcoin community already tends to value the preservation of this space, recognizing its intrinsic limitation. This awareness has led to discussions about the legitimate use of block space, with concerns about "spam" on the blockchain from transactions considered non-essential.
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 Speculation surrounds the future use of block space, but it is generally accepted that it is a scarce resource that should be used wisely. Even though there is a desire to fill it, it is essential to preserve it to ensure the long-term viability of the Bitcoin network, anticipating a future increase in demand for block space. As in any free market, supply and demand will regulate the use of block space. With a limited supply, stakeholders will need to make informed decisions about the use of this valuable resource to ensure the long-term efficiency and security of the Bitcoin network.
 
@@ -200,7 +200,7 @@ The role of miners in the Bitcoin network has been a subject of intense debate d
 
 During the block size wars, many miners opposed certain developments in the network, highlighting the tension between different actors within the ecosystem. The question remains on how to balance power among miners, nodes, and users to ensure the long-term security of Bitcoin.
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 The security dilemma of Bitcoin rests on a delicate balance. While miners play a crucial role in validating and creating blocks, nodes maintain integrity by verifying and validating transactions and blocks. An incorrect or fraudulent block will be rejected by the nodes, thereby censoring the miner and preserving the network's security. Power is also held by the nodes and users of the Bitcoin network. Nodes have the power of verification and validation, while users have the power to choose which blockchain to use. This distribution of power ensures the distribution and integrity of the Bitcoin network.
 
@@ -212,7 +212,7 @@ Ultimately, responsibility is shared among all actors in the Bitcoin network. A 
 
 Satoshi Nakamoto's elegant game theory established a situation where each actor in the Bitcoin network is incentivized to act correctly, thereby protecting both their own interests and those of other participants. This creates a balance where bad behavior can be reprimanded, thus enhancing the security and stability of the entire system. Despite this balance, states remain a potential threat. As indicated in the presentation at Surfing Bitcoin 2022, states can attempt to attack the mining industry, exposing the Bitcoin network to risks of centralization and attack. Hypothetical scenarios such as a military attack targeting mining hardware production facilities highlight the importance of geographical and industrial diversification for the resilience of the Bitcoin network.
 
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 The centralization of mining hardware production in China poses another risk. A refusal to export mining machines or an accumulation of hashrate for a potential 51% attack by China underscores the need for diversified mining hardware production. In response to these risks, the Bitcoin community is actively exploring solutions. Companies like Intel are considering producing mining equipment in the United States, contributing to the distribution of production. Other initiatives, such as Block's open-source Mining Development Kit (MDK), aim to decrease the monopoly of mining hardware design and production, allowing for a broader distribution of hashrate. At the heart of these discussions lies Bitcoin's fundamental mission: to be a censorship-resistant value exchange network. The Bitcoin community is constantly striving to strengthen distribution, resistance to censorship, and network anti-fragility, rejecting proposals such as the transition to proof of stake, which do not align with these fundamental principles.
 
@@ -220,7 +220,7 @@ The centralization of mining hardware production in China poses another risk. A 
 
 Proof of Work (PoW) is essential because it represents the physical link between the real world and the Bitcoin network. Although bitcoins are intangible, their production requires tangible energy, thus establishing a direct connection with the physical and real world. This connection ensures that the production and validation of bitcoins and blocks have a real energy cost, thereby anchoring the Bitcoin network in physical reality and preventing its complete domination by powerful entities. PoW acts as a bulwark against centralization, ensuring that participation in the network and validation of transactions require an investment in tangible resources. This prevents the monopolization of the network by entities that could otherwise take control without any significant entry barrier, thus ensuring a more equitable distribution of power and influence within the Bitcoin network.
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 ### The limitations of Proof of Stake
 
@@ -240,7 +240,7 @@ The current hash rate, despite Bitcoin's price being at $30,000 compared to its 
 
 This situation also highlights the resilience of Bitcoin, which is often assessed based on its price. However, a deeper analysis of Bitcoin's health requires examining its hash rate, which measures the calculations per second in the Bitcoin network. While the price of Bitcoin fluctuates, its cost, which is linked to the electricity required to operate mining machines, remains a key factor in understanding market dynamics. By focusing on cost rather than price, a more consistent perspective on Bitcoin's stability and long-term viability is obtained. Generally, the cost of Bitcoin is proportional to its price, providing a better understanding of price fluctuations and future outlooks.
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 ### Hash rate and reward
 
@@ -274,7 +274,7 @@ However, mining offers unique opportunities to participate in the Bitcoin ecosys
 
 Despite these options, mining presents significant challenges. The well-known adage in the world of cryptocurrencies, "Not your keys, not your Bitcoins," finds a similar resonance in the world of mining: "Not your hashrate, not your reward." Stories of disappointments and disconnected machines are common, with many players promising exceptional results but failing to deliver. Issues with electricity supply and machine breakdowns can leave investors powerless, with expensive equipment they do not control. In this context, caution and a deep understanding of the mining sector are crucial before venturing into it. While opportunities for gains exist, the risks are significant, and an informed and thoughtful approach is essential for navigating this complex and often unpredictable field. It is therefore vital to conduct thorough research and carefully weigh the pros and cons before engaging in Bitcoin mining.
 
-![image](assets/en/13.webp)
+![image](assets/en/013.webp)
 
 ### Virgin Bitcoins
 
@@ -288,7 +288,7 @@ In this context, adopting an autonomous and informed approach to mining appears 
 
 With the issue of the potential ban on mining in Europe, discussions about regulation are becoming increasingly relevant. The fluctuating regulatory landscape can indeed significantly influence the Bitcoin mining industry. The ban on mining in Europe is a conceivable scenario, especially considering precedents in China. Although mining operations continue in China despite the ban, Europe could follow a similar path. A broader distribution of the hashrate across different regions could help strengthen the mining community in Europe, enabling them to effectively counter misunderstandings and misconceptions about mining, its environmental impact, and its footprint on the electrical grid.
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 Faced with campaigns like those of Greenpeace and the often misleading figures from some studies, the best weapon remains truthful information. It is essential to inform the general public and decision-makers about the reality of mining, its complexity, and its nuances, rather than relying on stereotypes and inaccurate information. The more people are informed and aware of what mining truly is, the better the industry can defend itself against potential restrictive regulations.
 
@@ -359,41 +359,41 @@ The Antminer S9 comes in several variations (i, j) that make minor modifications
 
 The price of ASICs varies depending on several factors, including the price of bitcoin, network difficulty, machine efficiency, and electricity costs. Therefore, it is difficult to give an accurate estimate for the purchase of a used machine. In February 2023, the expected price in France generally ranges from €100 to €200, but these prices are subject to rapid change.
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 The Antminer S9 is composed of the following parts:
 
 - 3 hashboards that contain the chips that produce the hashing power.
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 - A control board that includes a slot for an SD card, an Ethernet port, and connectors for the hashboards and fans. This is the brain of your ASIC.
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 - 3 data cables that connect the hashboards to the control board.
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 - The power supply, which operates on 220V and can be plugged in like a regular household appliance.
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 - 2 120mm fans.
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 - A male C13 cable.
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 When purchasing a used machine, it is essential to verify that all necessary parts are included and in good working condition. During the exchange, you should ask the seller to turn on the machine to check its proper functioning. It is important to verify that the device turns on correctly, and then check the internet connectivity by plugging in an Ethernet cable and accessing the Bitmain login interface via a web browser on the same local network. You can find this IP address by connecting to your internet router interface and looking for connected devices. This address should have the following format: 192.168.x.x
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 
 Also, check that the default credentials work (username: root, password: root). If the default credentials do not work, you will need to reset the machine.
 
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 Once connected, you should be able to see the status of each hashboard on the dashboard. If the miner is connected to a pool, you should see all the hashboards functioning. It is essential to note that miners generate a significant amount of noise, which is a normal occurrence. Also, ensure the fans are functioning properly.
 
@@ -416,27 +416,27 @@ If you are a skilled handyman and are looking to transform a miner into a heater
 
 The original fans of the Antminer S9 are too noisy to use your Antminer as a heater. The solution is to replace them with quieter fans. Our team has tested several models from the Noctua brand and has selected the Noctua NF-A14 iPPC-2000 PWM as the best compromise. Be sure to choose the 12V version of the fans. This 140mm fan can produce up to 1200W of heating while maintaining a theoretical noise level of 31 dB. To install these 140mm fans, you will need to use a 140mm to 120mm adapter, which can be found on the DécouvreBitcoin store. We will also add 140mm protective grilles.
 
-![image](assets/en/24.webp)
-![image](assets/en/25.webp)
-![image](assets/en/26.webp)
+![image](assets/en/024.webp)
+![image](assets/en/025.webp)
+![image](assets/en/026.webp)
 
 The power supply fan is also quite noisy and needs to be replaced. We recommend the Noctua NF-A6x25 PWM. Note that the connectors on the Noctua fans differ from the original ones, so you will need a connector adapter to connect them. Two will be enough. Again, ensure that you choose the 12V version of the fan.
 
-![image](assets/en/27.webp)
-![image](assets/en/28.webp)
+![image](assets/en/027.webp)
+![image](assets/en/028.webp)
 
 2. Add a WIFI/Ethernet bridge
 
 Instead of using an Ethernet cable, you can connect your Antminer via WIFI by adding a WIFI/Ethernet bridge. We have selected the Vonets VAP11G-300 because it easily allows you to retrieve the WIFI signal from your Internet box and transmit it to your Antminer via Ethernet without creating a subnet. If you have electrical skills, you can power it directly with the Antminer's power supply without the need to add a USB charger. For this, you will need a female 5.5 mm x 2.1 mm jack.
 
-![image](assets/en/29.webp)
-![image](assets/en/30.webp)
+![image](assets/en/029.webp)
+![image](assets/en/030.webp)
 
 3. Optional: add a smart plug
 
 If you want to turn your Antminer on or off from your smartphone and monitor its power consumption, consider adding a smart plug. We tested the ANTELA plug in the 16A version, compatible with the SmartLife app. This smart plug allows you to view daily and monthly power consumption and connects directly to your internet router via WiFi.
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 List of equipment and links
 
@@ -467,21 +467,21 @@ Power the bridge by connecting it via a USB cable.
 
 From your computer, connect to the VONETS\_**\*\*** WIFI network with the password 12345678.
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 Log in with the username "admin" and password "admin".
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 Choose Wizard.
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 Select the WIFI network you want to connect your miner to, then click Next.
 
 NOTE: The Vonet bridge only works on the 2.4GHz frequency. Nowadays, routers typically offer two Wi-Fi networks, one operating on 2.4 GHz and the other on 5 GHz.
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 Enter the password for your WIFI network in the "Source WIFI hotspot password" field. If you do not want to use your Vonet bridge to extend your WIFI network, check the "Disable Hotspot" box. Otherwise, leave it unchecked.
 
@@ -501,7 +501,7 @@ Before installing BraiinOS+, it may be necessary to reset your S9 to its factory
 This method can be applied between 2 minutes and 10 minutes after the miner starts.
 2 minutes after turning on the miner, please press the "Reset" button for 5 seconds, then release it. The miner will be restored to factory settings within 4 minutes and will restart automatically (there is no need to turn it off).
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 ## Installing BraiinsOS+ on an Antminer S9
 
@@ -517,11 +517,11 @@ Here, we will guide you through the process of easily installing Braiins OS+ dir
 2. Download the BOS toolbox for Windows / Linux.
 3. Unzip the downloaded file and open the bos-toolbox.bat file. Choose the language, and after a few moments, you will see this window:
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 4. The Bos toolbox will allow you to easily find the IP address of your Antminer and install BraiinsOS+. If you already know the IP address of your machine, you can skip to step 8. Otherwise, go to the scan tab.
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 5. Usually, on home networks, the IP address range is between 192.168.1.1 and 192.168.1.255, so enter "192.168.1.0/24" in the IP range field. If your network is different, please change these addresses accordingly. Then click on "Start".
 
@@ -529,13 +529,13 @@ Here, we will guide you through the process of easily installing Braiins OS+ dir
 
 7. You should see all the Antminers on your network appear here, and the IP address is 192.168.1.37.
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 8. Click on "Back" and then the "Install" tab, enter the previously found IP address, and click on "Start".
 
 > If the installation does not work, it may be necessary to perform a reset and try again (see the previous section).  
 
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 9. After a few moments, your Antminer will restart, and you will be able to access the Braiins OS+ interface at the specified IP address, here 192.168.1.37, directly in the address bar of your browser. The default username is "root" and there is no default password.
 
@@ -556,7 +556,7 @@ You will then be greeted by the Brains OS+ Dashboard.
 
 ### Dashboard
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 On this first page, you can observe the real-time performance of your machine.
 
@@ -564,7 +564,7 @@ On this first page, you can observe the real-time performance of your machine.
 - On the right, the real hashrate, average chip temperature, estimated efficiency in W/THs, and power consumption.
 - Below, the fan speed as a percentage of the maximum speed and the number of rotations per minute.
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 - Further down, you will find a detailed view of each hashboard. The average temperature of the board and the chips it contains, as well as the voltage and frequency.
 - Details on the active mining pools in Pools.
@@ -573,15 +573,15 @@ On this first page, you can observe the real-time performance of your machine.
 
 ### Configuration
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 ### System
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 ### Quick actions
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 # Attakai - Fan Modification
 
@@ -593,7 +593,7 @@ On this first page, you can observe the real-time performance of your machine.
 
 **WARNING:** It is essential to have previously installed Braiins OS+ on your miner, or any other software that can reduce the performance of your machine. This measure is crucial because, in order to reduce noise, we will install less powerful fans that can dissipate less heat.  
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 ### Required materials
 
@@ -602,60 +602,60 @@ On this first page, you can observe the real-time performance of your machine.
 
 **WARNING:** First of all, before starting, make sure you have unplugged your miner to avoid any risk of electrocution.  
 
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 First, remove the 6 screws on the side of the case that hold it closed. Once the screws are removed, carefully open the case to remove the plastic protection covering the components.
 
-![image](assets/en/48.webp)
-![image](assets/en/49.webp)
+![image](assets/en/048.webp)
+![image](assets/en/049.webp)
 
 Next, it's time to remove the original fan, taking care not to damage the other components. To do this, remove the screws that hold it in place and gently peel off the white glue surrounding the connector. It is important to proceed with care to avoid damaging the wires or connectors.
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 Once the original fan is removed, you will notice that the connectors of the new Noctua fan do not match those of the original fan. Indeed, the new fan has 3 wires, including a yellow wire that allows for speed control. However, this wire will not be used in this specific case. To connect the new fan, it is therefore recommended to use a special adapter. However, it is essential to note that this adapter can sometimes be challenging to locate.
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 If you do not have this adapter, you can still proceed to connect the new fan using an electrician's sugar. To do this, you will need to cut the cables of the old and new fans.
 
-![image](assets/en/52.webp)
-![image](assets/en/53.webp)
+![image](assets/en/052.webp)
+![image](assets/en/053.webp)
 
 For the new fan, use a cutter to carefully cut the contours of the main sheath at 1 cm, without cutting the sheaths of the cables underneath.
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 Then, by pulling the main sheath downwards, cut the sheaths of the red and black cables in the same way as before. And cut the yellow cable flush.
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 On the old fan, it is more delicate to cut the main sheath without damaging the sheaths of the red and black wires. For this, we used a needle that we slid between the main sheath and the red and black wires.
 
-![image](assets/en/56.webp)
-![image](assets/en/57.webp)
+![image](assets/en/056.webp)
+![image](assets/en/057.webp)
 
 Once the red and black wires are exposed, cut the sheaths carefully to avoid damaging the electrical wires.
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 Then, connect the cables with a sugar, the black wire with the black, and the red wire with the red. You can also add electrical tape.
 
-![image](assets/en/59.webp)
-![image](assets/en/60.webp)
+![image](assets/en/059.webp)
+![image](assets/en/060.webp)
 
 Once the connection is made, it's time to install the new Noctua fan with the grille and the old screws. The new screws in the box will be reused later. Ensure it is placed in the correct orientation. You will notice an arrow on one side of the fan, indicating the direction of airflow. It is important to position the fan so that this arrow points towards the inside of the case. Then reconnect the fan.
 
-![image](assets/en/61.webp)
-![image](assets/en/62.webp)
+![image](assets/en/061.webp)
+![image](assets/en/062.webp)
 
 Optional: If you are knowledgeable in electricity, you can directly add a female 5.5mm jack connector to the 12V power output, which will power the Vonet Wi-Fi bridge directly. However, if you are unsure of your electrical skills, it is best to use the USB connector with a smartphone-type charger to avoid any risk of short circuit or electrical damage.  
 
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 Once the connections are made, place the plastic cover over the case plastic and not inside.
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 Finally, put the case cover back in place and screw the 6 screws on the sides to hold everything in place. And there you have it, your power supply case is now equipped with a new fan.
 
@@ -665,7 +665,7 @@ Finally, put the case cover back in place and screw the 6 screws on the sides to
 
 **WARNING:** It is essential to have previously installed Braiins OS+ on your miner, or any other software that may reduce the performance of your machine. This measure is crucial because, to reduce noise, we will install less powerful fans, which will dissipate less heat.  
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 ### Required Materials
 
@@ -677,38 +677,38 @@ Finally, put the case cover back in place and screw the 6 screws on the sides to
 
 1. First, disconnect the fans and unscrew them.
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 2. The connectors of the new Noctua fans do not match the original ones, but don't worry! Take out your cutter and carefully cut the small plastic tabs so that the connectors fit perfectly on your miner.
 
-![image](assets/en/66.webp)
-![image](assets/en/67.webp)
+![image](assets/en/066.webp)
+![image](assets/en/067.webp)
 
 3. It's time to install the 3D parts!
 Attach them on both sides of the miner using the screws you removed from the fans. Screw them in until the screw head is flush with the 3D part, and it is securely in place. Be careful not to tighten too much, as this could deform the part and cause one of the screws to come into contact with a capacitor.
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 4. Now let's move on to the fans.
 
 Attach them to the 3D parts using the screws provided in the box. Pay attention to the direction of airflow; the arrows on the sides of the fans will indicate the direction to follow. Go from the Ethernet port side to the other side. See photo below.
 
-![image](assets/en/69.webp)
-![image](assets/en/70.webp)
-![image](assets/en/71.webp)
+![image](assets/en/069.webp)
+![image](assets/en/070.webp)
+![image](assets/en/071.webp)
 
 5. Last step: connect the fans and attach the grilles on top with the screws that were not used in the power supply fan box. You only have 4 of them, but 2 per grille in opposite corners will be enough. You can also look for similar screws in a hardware store if needed.
 
-![image](assets/en/72.webp)
-![image](assets/en/73.webp)
+![image](assets/en/072.webp)
+![image](assets/en/073.webp)
 
 While waiting to offer a more stylish casing for your new heater, you can attach the case and power supply with electrician's cable ties.
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 And for the finishing touch, connect the Vonet bridge to the Ethernet port and its power supply.
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 And there you have it, congratulations! You have just replaced the entire mechanical part of your miner. You should now hear much less noise.
 
@@ -738,17 +738,17 @@ The reward model that interests us is PPS, which stands for "pay-per-share". Thi
 
 To configure a pool in Braiins OS+, you will need to create an account in one of the pools of your choice. Here we will take the example of Linecoin:
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 Once your account is created, click on Connect to Pool
 
 Then copy the Stratum address and your username:
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 You can now go back to the Braiins OS+ interface to enter these credentials. For the password, you can leave the field empty.
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 ## Optimizing the Performance of Your Antminer S9
 

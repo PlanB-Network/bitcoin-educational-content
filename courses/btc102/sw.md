@@ -60,7 +60,7 @@ Sehemu ya kwanza,"Masharti ya kuelewa Bitcoin", inakutayarisha vyema kwa njia il
 Hatimaye, nitakupa vidokezo vichache vya vitendo vilivyoundwa mahususi kwa wanaoanza ili kukusaidia kuepuka makosa ya kawaida unapofanya kazi na Bitcoin kwa mara ya kwanza.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/sw/001.webp)
 
 
 Sehemu ya pili, "Kuelewa unachoingia", itaongeza uelewa wako wa jumla wa Bitcoin. Tutaanza na ukaguzi ili kuhakikisha unaelewa kikamilifu dhana muhimu.
@@ -68,7 +68,7 @@ Sehemu ya pili, "Kuelewa unachoingia", itaongeza uelewa wako wa jumla wa Bitcoin
 Kisha, tutaeleza kwa nini Bitcoin ni muhimu kimsingi kutoka kwa mitazamo ya kiteknolojia, kiuchumi, na kijamii, huku ikiimarisha imani yako katika thamani yake. Pia, utachunguza tasnia ya Bitcoin kwa ujumla: wahusika wake wakuu, muundo wa shirika lake, na mabadiliko yaliyotokea kwa miaka mingi. Hatimaye, tutashughulikia usanifu wa tabaka wa mfumo ikolojia wa Bitcoin — dhana muhimu ya kuelewa jinsi mfumo huu unavyoendelea kuvumbua bila kuathiri uadilifu wa itifaki yake kuu.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/sw/002.webp)
 
 
 Sehemu ya tatu, "Kuweka mpango wako", inazingatia mtazamo wako wa kibinafsi kwa Bitcoin. Tutaanza kwa kukusaidia kufafanua wasifu wako wa mtumiaji kutoka kwa aina nne kuu:
@@ -84,13 +84,13 @@ Sehemu ya tatu, "Kuweka mpango wako", inazingatia mtazamo wako wa kibinafsi kwa 
 Tutakuongoza katika utekelezaji wa mkakati unaofaa wasifu wako na kukusaidia kufikia malengo yako ya kibinafsi.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/sw/003.webp)
 
 
 Hatimaye, sehemu ya nne, "Kulinda Warithi na Utajiri Wako," inashughulikia mada muhimu ambayo mara nyingi hupuuzwa: jinsi ya kuhakikisha Bitcoin yako inapitishwa kwa wapendwa wako ikiwa kuna tukio lisilotarajiwa. Utajifunza jinsi ya kuunda na kusanidi mpango wa urithi wa Bitcoin, kuhakikisha uhifadhi wa mali yako zaidi ya maisha yako.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/sw/004.webp)
 
 
 Kufikia mwisho wa kozi hii, utakuwa na zana zote za vitendo unazohitaji ili kusogeza kwa ujasiri mfumo ikolojia wa Bitcoin na kuwa mmoja wa watumiaji wake wa hali ya juu zaidi!
@@ -133,7 +133,7 @@ Kabla ya kuendelea zaidi, ni muhimu kutofautisha wazi kati ya ulimwengu mbili to
 - **Sekta ya cryptocurrency**, kwa upande mwingine, ni kubwa zaidi na inajumuisha makumi ya maelfu ya miradi tofauti, kila moja ikiwa na token yake. Nafasi hii mara nyingi inaendeshwa na uvumbuzi wa haraka, hype, na uvumi wa muda mfupi wa kifedha. Mengi ya miradi hii ni ya kati, salama kidogo, na haitoi thamani halisi—licha ya ahadi shupavu na uuzaji wa hali ya juu.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/sw/005.webp)
 
 
 Iwapo ungependa kuelewa vyema mahali ambapo Bitcoin inatoka na ni nini kinachoifanya kuwa tofauti na miradi mingine, ninapendekeza uangalie kozi hii ya ufuatiliaji bila malipo kwenye historia ya Bitcoin baadaye:
@@ -144,7 +144,7 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Kama unavyojua, jukwaa la Plan ₿ Network limetolewa kwa ajili ya Bitcoin pekee. Hata hivyo, kuelewa tofauti kati ya Bitcoin na cryptocurrency nyingine kunaweza kukusaidia kuepuka mitego ya miradi isiyo na maana—na wakati mwingine hata ya ulaghai
 
 
-![BTC102-Bitcoin](assets/fr/002.webp)
+![image](assets/sw/006.webp)
 
 
 ### Kashfa kuu za kuepuka
@@ -159,7 +159,7 @@ Hapa kuna ulaghai wa kawaida unaoweza kukutana na safari yako:
 Hizi ni baadhi ya ulaghai wa kawaida katika ulimwengu wa crypto. Katika mpango wa Ponzi, washiriki wa mapema hupokea malipo kwa kutumia pesa kutoka kwa mpya zaidi; sio kutoka kwa uwekezaji wowote wa kweli au bidhaa. Hakuna thamani halisi inayoundwa. Mfumo hufanya kazi mradi tu watu wapya waendelee kujiunga. Mara tu mtiririko wa washiriki wapya unapopungua, mpango mzima huanguka.
 
 
-![BTC102-Bitcoin](assets/fr/003.webp)
+![image](assets/sw/007.webp)
 
 
 Ulaghai huu kawaida huwa na:
@@ -204,7 +204,7 @@ Aina hii ya ulaghai inahusisha kupandisha bei ya mali kwa njia isiyo halali—ma
 
 
 
-![BTC102-Bitcoin](assets/fr/004.webp)
+![image](assets/sw/008.webp)
 
 
 Ni muhimu kutambua kuwa mikakati ya Pump & Damp ni kinyume cha sheria katika nchi nyingi na inachukuliwa kuwa aina ya upotoshaji wa soko. Licha ya hayo, miradi kama hii inaendelea kustawi, haswa katika nafasi ya cryptocurrency, ambapo udhibiti bado unaendelea.
@@ -213,7 +213,7 @@ Ni muhimu kutambua kuwa mikakati ya Pump & Damp ni kinyume cha sheria katika nch
 Kuwa mwangalifu haswa dhidi ya vikundi vya kibinafsi vya "signal" kwenye majukwaa kama vile Telegraph, Discord, au chaneli zingine za media ya kijamii. Hizi mara nyingi huendeshwa na watu wenye ushawishi au wanaojitangaza kuwa wataalam, ambao baadhi yao hata hutoza ada za kuingia. Ingawa vikundi hivi vinadai kutoa fursa za kipekee za uwekezaji, ukweli ni wa upande mmoja tu: ni waandaaji pekee wanaofaidika, huku washiriki wengi wakiishia kupoteza pesa zao.
 
 
-![BTC102-Bitcoin](assets/fr/005.webp)
+![image](assets/sw/009.webp)
 
 
 Ni kweli kwamba baadhi ya washiriki wanaweza kufaidika kwa muda kutokana na aina hizi za upotoshaji wa soko, lakini mafanikio yao kwa kawaida hayategemei chochote zaidi ya bahati na muda kamili. Kwa muda mrefu, mipango hii sio endelevu. Zinahitaji ushiriki wa mara kwa mara wa hatari kubwa na kushiriki mara kwa mara katika usanidi wa ulaghai ambao bila shaka huanguka.
@@ -239,7 +239,7 @@ Mara nyingi walaghai huiga watu mashuhuri wa umma (kama vile Elon Musk au watu w
 Wakati mwingine, ulaghai huu huonekana kama ulaghai wa "ada ya mapema". Umeahidiwa zawadi au zawadi(fedha, bidhaa au huduma) lakini unaombwa kwanza ulipe ada, inayodaiwa kugharamia mambo kama vile usafirishaji, kodi au gharama za muamala. Malipo yakishafanywa, mlaghai hutoweka, na thawabu iliyoahidiwa haifiki kamwe.
 
 
-![BTC102-Bitcoin](assets/fr/006.webp)
+![image](assets/sw/010.webp)
 
 
 #### Shitcoins na cryptocurrencies kwenye ofa
@@ -261,7 +261,7 @@ Kabla ya kubofya kiungo au kuchukua hatua yoyote, daima angalia mara mbili utamb
 Kwa miaka mingi, Bitcoin imepitia uma *Hard* kadhaa, ambayo ilisababisha kuundwa kwa matoleo mbadala ya cryptocurrency asilia. Kwa maneno rahisi, *Hard Fork* ni mgawanyiko katika mtandao ambao unaongoza kwa blockchains mbili tofauti, zote zinashiriki historia sawa hadi wakati wa mgawanyiko. Uma hizi kwa kawaida hutokea wakati sehemu ya jumuiya ya wasanidi programu au mfumo mpana wa Bitcoin inataka kuleta mabadiliko makubwa kwa itifaki asili lakini haiwezi kufikia makubaliano yaliyoenea. Badala ya kuachana na mawazo yao, wanaamua kuzindua toleo jipya la Bitcoin (na sheria zilizobadilishwa) wakitumaini kwamba watumiaji na wachimbaji watachagua kufuata Fork yao badala yake.
 
 
-![BTC102-Bitcoin](assets/fr/007.webp)
+![image](assets/sw/011.webp)
 
 
 Sio uma wote wa *Hard* ni wa ulaghai, kwani baadhi hutokana na kutofautiana kiufundi au kiitikadi ndani ya jamii. Hata hivyo, wengine wanasukumwa na masilahi ya kibiashara au hata nia za kukosa unyoofu. Mifano inayojulikana zaidi ya hardfork hizi ni **Bitcoin Cash (BCH)** na **Bitcoin Satoshi Vision (BSV)**. Ilizinduliwa mwaka wa 2017 na 2018, kwa mtiririko huo, sarafu hizi mbadala mara nyingi hudai kuwa "matoleo bora" ya Bitcoin ya awali. Wanakuza manufaa yanayotarajiwa kama vile ada za chini za ununuzi au miamala ya haraka zaidi kutokana na ongezeko la ukubwa wa vitalu. Hata hivyo, mabadiliko haya ya kiufundi yanakuja na mabadiliko makubwa katika masuala ya usalama, ugatuaji na uimara; Elements ambayo inaweza kupingana na kanuni za msingi za Bitcoin.
@@ -280,7 +280,7 @@ Kadiri cryptocurrency zinavyozidi kupata usikivu wa kawaida, mitandao ya kijamii
 
 
 
-![BTC102-Bitcoin](assets/fr/008.webp)
+![image](assets/sw/012.webp)
 
 
 Washawishi hawa mara nyingi hutegemea mbinu zilizothibitishwa ili kuvutia wanaoanza: wanaonyesha matokeo ya kuvutia ya kifedha (ambayo mara nyingi huwa ya uwongo au yasiyoweza kuthibitishwa), hujivunia maisha ya anasa kama uthibitisho wa mafanikio yao, na kukuza mikakati ya uwekezaji ya "miujiza". Lengo ni kuanzisha FOMO - hofu ya kukosa - na kusukuma hadhira yao katika maamuzi ya haraka na uwekezaji wa kizembe.
@@ -384,7 +384,7 @@ Mojawapo ya vipengele vinavyopuuzwa sana katika usalama wa kibinafsi ni kusasish
 Inapendekezwa pia kutumia Tumia antivirus inayoaminika. Kwenye Windows, Windows Defender iliyojengwa ndani kwa kawaida inatosha kwa watumiaji wengi. Ikiwa unapendelea vipengele vya ziada au utulivu wa akili, kuna chaguzi za kibiashara kama Kaspersky pia. Kwenye macOS, ingawa kihistoria programu hasidi zimekuwa chache, bado ni busara kuchukua tahadhari
 
 
-![BTC102-Bitcoin](assets/fr/012.webp)
+![image](assets/sw/013.webp)
 
 
 Zaidi ya masasisho ya mfumo na ulinzi wa antivirus, jihadhari sana na kupakua programu kutoka kwa tovuti zenye michoro au ile inayoitwa lango la "ulimwengu" la upakuaji. Unapohitaji zana au programu, nenda moja kwa moja kwenye chanzo rasmi kila wakati;Hii inapunguza kwa kiasi kikubwa hatari ya kusakinisha programu hasidi iliyofichwa kama programu halali.
@@ -414,7 +414,7 @@ Wazo ni rahisi:
 Mbinu hii hutoa uthabiti thabiti na husaidia kuhakikisha data yako inaendelea kuwepo hata kama kuna kitu kitaenda vibaya.
 
 
-![BTC102-Bitcoin](assets/fr/013.webp)
+![image](assets/sw/014.webp)
 
 
 ### Suluhisho la jinamizi la ID
@@ -434,7 +434,7 @@ Kidhibiti cha nenosiri hukuruhusu:
 Ukiwa na kidhibiti cha nenosiri, hutawahi kubofya "Umesahau nenosiri" tena au kutegemea vitambulisho dhaifu vilivyotumika tena. Zaidi ya hayo, wasimamizi wengi wa nenosiri husawazisha kirahisi kwenye vifaa vyako vyote (kompyuta ya mezani, simu, kompyuta kibao) na hata kujaza fomu za kuingia kiotomatiki, hivyo kufanya ufikiaji salama kuwa rahisi na mzuri.
 
 
-![BTC102-Bitcoin](assets/fr/011.webp)
+![image](assets/sw/015.webp)
 
 
 Kuna wasimamizi wengi wa nenosiri huko nje, lakini ninaweza kupendekeza chaguzi mbili thabiti kulingana na mahitaji yako. Ikiwa unatafuta kitu rahisi kutumia ambacho husawazisha bila mshono kwenye vifaa vingi, Bitwarden ni chaguo bora:
@@ -453,7 +453,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Katika Bitcoin, wewe ni benki yako mwenyewe. Hiyo inamaanisha kuwa wewe pia ni timu yako ya usalama. Hata ukiwa na nenosiri dhabiti, hakuna kitu kama hatari sifuri - ndiyo maana kuwezesha uthibitishaji wa sababu mbili (2FA) ni muhimu.
 
 
-![BTC102-Bitcoin](assets/fr/014.webp)
+![image](assets/sw/016.webp)
 
 
 2FA huongeza safu ya pili ya ulinzi kwa kuhitaji msimbo wa wakati mmoja (kawaida tarakimu 6) unaotolewa na programu kama Google Authenticator au Authy. Hii ina maana kwamba hata kama mtu atafanikiwa kupata nenosiri lako, bado hatakuwa na uwezo wa kufikia akaunti yako bila idhini ya kufikia simu yako.
@@ -461,13 +461,13 @@ Katika Bitcoin, wewe ni benki yako mwenyewe. Hiyo inamaanisha kuwa wewe pia ni t
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![BTC102-Bitcoin](assets/fr/009.webp)
+![image](assets/sw/017.webp)
 
 
 Unapowasha 2FA, hakikisha kuwa umehifadhi ufunguo wa kurejesha programu yako mahali salama. Hii itakuruhusu kurejesha misimbo yako ukipoteza au kubadilisha simu yako. Ingawa SMS au 2FA inayotokana na barua pepe ni bora kuliko chochote, ni salama kidogo. Shambulio la kubadilisha SIM, ambapo mtu anadhibiti nambari yako ya simu, linaweza kukwepa ulinzi wa aina hii kwa urahisi.
 
 
-![BTC102-Bitcoin](assets/fr/010.webp)
+![image](assets/sw/018.webp)
 
 
 Kwa wale wanaotaka kuchukua hatua zaidi za usalama, funguo halisi kama vile YubiKey hutoa ulinzi wa kiwango cha juu zaidi.
@@ -491,7 +491,7 @@ Jambo kuu ni kuchagua mtoaji anayeaminika wa VPN ambaye:
 - Ina sera kali ya kutoweka kumbukumbu
 
 
-![BTC102-Bitcoin](assets/fr/015.webp)
+![image](assets/sw/019.webp)
 
 
 Tuna mafunzo kadhaa yanayopatikana kwenye Plan ₿ Network ambayo yanaweza kukuongoza kusanidi VPN kwa urahisi. Ninapendekeza sana IPP au Mullvad:
@@ -542,7 +542,7 @@ Kwa kifupi: usidharau usalama wa mtandao, chukua muda kusanidi mambo ya msingi, 
 Pia hakikisha kuwa umeangalia [mafunzo yetu ya usalama wa kompyuta](https://planb.network/tutorials/computer-security) kwenye Plan ₿ Network.
 
 
-![BTC102-Bitcoin](assets/fr/016.webp)
+![image](assets/sw/020.webp)
 
 
 Katika sura inayofuata, nitashiriki vidokezo vichache zaidi vya kukusaidia kuanza safari yako ya Bitcoin kwa ujasiri; na kujiepusha na mitego mingi inayoweza kuwanasa wageni bila tahadhari.
@@ -576,7 +576,7 @@ Hapa kuna mambo muhimu ambayo tutapitia pamoja:
 - Fikiri kwa muda mrefu, zoom nje na uwe mvumilivu (fikiria kama mbio za marathon, si mbio mbio).
 
 
-![BTC102-Bitcoin](assets/fr/017.webp)
+![image](assets/sw/021.webp)
 
 
 ### Makosa ya kawaida ya kuepukwa
@@ -614,7 +614,7 @@ Bitcoin iko wazi kwa kila mtu, lakini hiyo haimaanishi kuwa unapaswa kupiga mbiz
 - **Kuanguka kwa FOMO**: Kununua kwa msukumo kwa hofu ya kukosa kwa kawaida husababisha wakati mbaya na maamuzi mabaya. Uvumilivu ni mshirika wako bora.
 
 
-![BTC102-Bitcoin](assets/fr/019.webp)
+![image](assets/sw/022.webp)
 
 
 ### Kufafanua mkakati wa uwekezaji
@@ -628,7 +628,7 @@ Anza kwa kufafanua bajeti yako kwa usahihi. Usichague tu nambari bila mpangilio.
 Kuikaribia kwa njia hii huhakikisha kuwa hauweki ustawi wako wa kifedha hatarini, haswa katika tukio la kuzorota kwa soko. Mkakati wa kufikiria ni msingi wa ustahimilivu wa muda mrefu.
 
 
-![BTC102-Bitcoin](assets/fr/020.webp)
+![image](assets/sw/023.webp)
 
 
 Baada ya kufafanua bajeti yako, fikiria jinsi unavyotaka kuwekeza. Mojawapo ya njia zinazofaa zaidi na zinazopendekezwa sana ni Wastani wa Gharama ya Dola (DCA), kununua kiasi kisichobadilika cha Bitcoin kwa vipindi vya kawaida (kila wiki, kila mwezi, n.k.). Mbinu hii husaidia kulainisha bei yako ya wastani ya kuingia kwa muda na kupunguza athari za kihisia za mabadiliko ya bei. Ni mbinu nzuri kwa watu wengi, haswa wapya.
@@ -653,7 +653,7 @@ Tumia saa chache kuchunguza Bitcoin, angalia nyenzo zisizolipishwa kwenye Plan �
 Bitcoin inajulikana kwa mabadiliko makubwa ya bei. Uhamishaji wa 10%, 20%, au hata 50% kwa siku chache sio kawaida. Kwa wageni, aina hii ya tete inaweza kuwa ya kukatisha tamaa. Ni rahisi kupata kufagiliwa juu katika Hype wakati ng'ombe anakimbia au hofu wakati downturns; zote mbili ambazo mara nyingi husababisha maamuzi mabaya, kama vile kuuza kwa hasara.
 
 
-![BTC102-Bitcoin](assets/fr/021.webp)
+![image](assets/sw/024.webp)
 
 
 Ndiyo maana ni muhimu **kuelewa na kukubali tetemeko la Bitcoin** kabla ya kuwekeza. Mabadiliko haya ya bei si hitilafu, ni kipengele cha kipengee ambacho bado kinakomaa. Iwapo heka heka za ghafla zinakufanya usilalamike usiku au kukusukuma katika maamuzi ya kihisia-moyo, kuna uwezekano kwamba umejiingiza zaidi ya unavyostarehe kuhatarisha. Katika hali hiyo, chukua hatua nyuma na uangalie upya mkakati wako na uvumilivu wa hatari. Usisite kupunguza msimamo wako hadi uhisi raha zaidi.
@@ -668,7 +668,7 @@ Zaidi ya yote, kamwe usiwekeze zaidi ya unaweza kumudu kupoteza. Epuka kukopa pe
 Moja ya vipengele vyenye nguvu zaidi vya Bitcoin (na ambavyo mara nyingi havithaminiwi vya kutosha) ni **kujitunzia mali zako binafsi**. Ukiwa na pochi ya kujitegemea, wewe pekee ndiye unawajibika kwa pesa zako. Pochi hizi kwa kawaida huundwa kutoka kwa **maneno ya kurejesha ufikiaji** (yanayojulikana pia kama *seed phrase*)—mfululizo wa maneno 12 au 24 yanayokupa ufikiaji kamili wa BTC yako. Ukipoteza maneno haya (au mtu mwingine akiyapata), bitcoins zako hupotea milele. **Hakuna huduma kwa wateja. Hakuna kitufe cha kuweka upya.**
 
 
-![BTC102-Bitcoin](assets/fr/023.webp)
+![image](assets/sw/025.webp)
 
 
 Ndio maana kanuni ya dhahabu katika Bitcoin ni:
@@ -676,7 +676,7 @@ Ndio maana kanuni ya dhahabu katika Bitcoin ni:
 "***Si funguo zako, si sarafu zako***". Ikiwa hudhibiti funguo zako za kibinafsi, humiliki Bitcoin yako. Ingawa kubadilishana kunaweza kuwa rahisi (hasa wakati wa kuanza) kunashikilia funguo zako kwa ajili yako. Hiyo inamaanisha kuwa pesa zako ziko hatarini ikiwa jukwaa litadukuliwa, kufungia akaunti yako, au kufilisika.
 
 
-![BTC102-Bitcoin](assets/fr/024.webp)
+![image](assets/sw/026.webp)
 
 
 Ili kuepuka hatari hii, inashauriwa sana kusanidi **Wallet** yako, ambapo ni wewe pekee unayeweza kufikia kifungu cha urejeshi. Kishazi hiki kinapaswa kuandikwa kwa mkono kila wakati na kuhifadhiwa **nje ya mtandao** mahali salama. Watumiaji wengine hata **huhifadhi nakala nyingi**, zilizowekwa katika maeneo tofauti ya kijiografia kwa usalama ulioongezwa.
@@ -724,13 +724,13 @@ Licha ya kuwa ni sarafu iliyogatuliwa, **Bitcoin haijaondolewa kwenye sheria na 
 Katika maeneo mengine, faida hutozwa ushuru kama faida ya mtaji baada ya kuuza. Wengine wanaweza kukuhitaji utangaze kila biashara, na wengine hutumia sheria zisizo za kawaida, kama vile ushuru wa mali au michango ya kijamii.
 
 
-![BTC102-Bitcoin](assets/fr/018.webp)
+![image](assets/sw/027.webp)
 
 
 Kabla ya kufanya miamala yoyote muhimu, inashauriwa sana kushauriana na mtaalamu wa kodi au kukagua mwongozo rasmi wa serikali yako. Kuchukua muda kuelewa majukumu yako ya kodi mapema kunaweza kukuepusha na masuala usiyotarajia baadaye (kama vile faini, ukaguzi au adhabu) hasa ikiwa unapanga mauzo makubwa au uhamishaji wa kwingineko wa kwingineko.
 
 
-![BTC102-Bitcoin](assets/fr/022.webp)
+![image](assets/sw/028.webp)
 
 
 ### Tofauti kati ya Biashara, Uwekezaji na Umiliki
@@ -793,7 +793,7 @@ Sehemu nzuri ya kuanzia ni kitabu *Rich Dad, Poor Dad* cha Robert T. Kiyosaki. I
 Ikiwa uko tayari kueleza kwa undani zaidi, podikasti kama vile *The Investors Podcast* hutoa mijadala yenye maarifa kuhusu uwekezaji, masoko na kanuni za kiuchumi. Mara kwa mara hufunika Bitcoin pia, na kuifanya kuwa hatua inayofuata thabiti kwa wale wanaotaka kuelewa jinsi Bitcoin inavyofaa katika mazingira mapana ya kifedha.
 
 
-![BTC102-Bitcoin](assets/fr/025.webp)
+![image](assets/sw/029.webp)
 
 
 ### Kanuni za Dhahabu za Kuzingatia
@@ -849,7 +849,7 @@ Changamoto hiyo ilibakia bila kutatuliwa hadi mwishoni mwa 2008, wakati mtu aliy
 Mradi huo uliathiriwa sana na maadili ya Cypherpunk; jumuiya ya wasanidi programu na wanafikra walioamini katika kutumia cryptography kulinda uhuru wa mtu binafsi mtandaoni. Kwao, faragha na ugatuaji havikuwa mapendeleo ya kiufundi, lakini mahitaji ya kiitikadi. Bitcoin iliibuka kama kielelezo kilichofanikiwa zaidi cha maadili hayo: mtandao wa fedha wa kati-ka-rika ambao mtu yeyote angeweza kutumia, hakuna mtu angeweza kudhibiti, na kila mtu angeweza kuthibitisha.
 
 
-![BTC102-Bitcoin](assets/fr/035.webp)
+![image](assets/sw/030.webp)
 
 
 Cypherpunks ni jumuiya isiyo rasmi, ya kimataifa ya watu binafsi ambao wanatetea matumizi ya cryptography kutetea uhuru wa kibinafsi mtandaoni. Wanaamini sana haki ya mtu binafsi ya faragha; hasa katika ulimwengu unaozidi kuathiriwa na ufuatiliaji wa serikali na unyonyaji wa data wa shirika.
@@ -860,7 +860,7 @@ Mizizi ya vuguvugu la Cypherpunk inarudi nyuma mwanzoni mwa miaka ya 1990, wakat
 Hatua kubwa katika vuguvugu hili ilikuja mwaka wa 1992 kwa kuundwa kwa orodha ya barua za Cypherpunks, jukwaa ambapo mawazo, miradi, na majadiliano ya kisiasa kuhusu faragha na cryptography inaweza kustawi. Kisha, mwaka wa 1993, Eric Hughes alichapisha Manifesto ya Cypherpunk, tamko fupi lakini lenye nguvu ambalo lilionyesha wazi dhamira na imani za jumuiya.
 
 
-![BTC102-Bitcoin](assets/fr/032.webp)
+![image](assets/sw/031.webp)
 
 
 Wazo la sarafu ya kidijitali inayofanya kazi bila mamlaka yoyote kuu (kama Bitcoin) limekita mizizi katika falsafa ya Cypherpunk.
@@ -880,13 +880,13 @@ Ilikuwa katika mazingira haya ya hofu na kutokuwa na uhakika kwamba Bitcoin iliz
 Hii haikuwa tu tarehe au dokezo la kiufundi; yalikuwa ni maandamano tulivu lakini yenye nguvu. Ilionyesha kuwa Bitcoin iliundwa kuwa kitu tofauti kabisa: mfumo wa kifedha ambao hautegemei benki, uokoaji, au maamuzi ya serikali.
 
 
-![BTC102-Bitcoin](assets/fr/034.webp)
+![image](assets/sw/032.webp)
 
 
 Wengi hutafsiri hili kama lengo la Bitcoin: kutoa njia ya kuhamisha thamani bila kuhitaji watu wa kati, kudhibitiwa na sheria zilizo wazi badala ya maamuzi ambayo mara nyingi hayaeleweki yanayofanywa na benki kuu au serikali.
 
 
-![BTC102-Bitcoin](assets/fr/033.webp)
+![image](assets/sw/033.webp)
 
 
 Ili kuongeza maarifa yako ya asili ya Bitcoin, tunatoa kozi ya mafunzo isiyolipishwa, ya kina na iliyohifadhiwa vyema kuhusu somo hili:
@@ -903,13 +903,13 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Bitcoin inafafanuliwa kama "mfumo wa pesa za kielektroniki wa rika-kwa-rika." Hii ina maana kwamba mtu yeyote anaweza kuunganisha kwenye mtandao kwa kutumia programu inayofaa (nodi ya Bitcoin) na kuingiliana moja kwa moja na watumiaji wengine, bila kutegemea seva kuu. Lengo la ugatuaji huu ni kuzuia huluki yoyote moja (kama vile benki, serikali, au shirika kubwa) kudhibiti, kuathiri, au kusimamisha mfumo. Bitcoin inafanya kazi 24/7, duniani kote, na inapatikana kwa kila mtu bila masharti yoyote.
 
 
-![BTC102-Bitcoin](assets/fr/036.webp)
+![image](assets/sw/034.webp)
 
 
 Kwa maneno rahisi, kila mshiriki katika mtandao wa Bitcoin (anayeitwa "nodi") ana nakala kamili ya leja ya shughuli, inayojulikana kama **blockchain**. Shughuli mpya inapofanyika, hutangazwa kwenye mtandao. Kisha wachimbaji huthibitisha shughuli hizi kwa kuziweka katika vikundi vinavyoongezwa kwenye mwisho wa mnyororo (hivyo basi jina "blockchain").
 
 
-![BTC102-Bitcoin](assets/fr/029.webp)
+![image](assets/sw/035.webp)
 
 
 #### Blockchain: uhasibu Ledger
@@ -918,7 +918,7 @@ Kwa maneno rahisi, kila mshiriki katika mtandao wa Bitcoin (anayeitwa "nodi") an
 Fikiria Blockchain kama hesabu kubwa ya Ledger, ambapo kila laini inawakilisha shughuli. Katika mfumo wa kitamaduni wa benki, hifadhidata huhifadhiwa kwenye seva za benki, ambazo zinaweza kufanya mabadiliko wakati wowote zinapotaka. Kwa upande mwingine, katika Bitcoin, **mabadiliko yote yanathibitishwa kwenye mtandao mzima**: mara tu kizuizi kipya cha miamala kinapoongezwa kwenye Blockchain, karibu haiwezekani kuibadilisha baadaye. Uthibitishaji huu uliogatuliwa hufanya Bitcoin ya Ledger kuwa salama na wazi.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/sw/036.webp)
 
 
 ### Wajibu wa Wachimbaji na Proof-of-Work
@@ -940,7 +940,7 @@ Ili kuhakikisha uhaba wa Bitcoin, ruzuku ya blocks imepangwa kupunguzwa kwa nusu
 Hatimaye, karibu mwaka wa 2140, ruzuku itafikia sifuri, kwani jumla ya kiasi cha Bitcoin kitakuwa kimefikia milioni 21. Mkondo huu wa utoaji unaotabirika unaiga uhaba wa bidhaa halisi kama dhahabu — ndiyo sababu Bitcoin mara nyingi hujulikana kama **dhahabu ya dijiti**.
 
 
-![BTC102-Bitcoin](assets/fr/031.webp)
+![image](assets/sw/037.webp)
 
 
 ### Mali ya Fedha ya Bitcoin
@@ -966,7 +966,7 @@ Uhaba huu uliojengeka ndani ni kivutio kikubwa kwa wale wanaotaka kujiondoa kwen
 Mojawapo ya uwezo wa chini kabisa wa Bitcoin ni mgawanyiko wake. Kila Bitcoin inaweza kugawanywa katika vitengo milioni 100, vinavyojulikana kama satoshis (au Sats kwa ufupi). Hii inamaanisha kuwa hauitaji kutumia makumi ya maelfu ya euro au dola ili kuanza; unaweza kununua euro chache tu za thamani ya Bitcoin, chini ya sehemu ndogo ndogo.
 
 
-![BTC102-Bitcoin](assets/fr/026.webp)
+![image](assets/sw/038.webp)
 
 
 ### Uwazi na Uwazi
@@ -980,7 +980,7 @@ Bitcoin huendeshwa kwa itifaki ya umma, **chanzo huria**(haswa zaidi kupitia [Bi
 Kiwango hiki cha uwazi hufanya iwe vigumu sana kutambulisha milango ya nyuma au kufanya mabadiliko ya siri. Mtu yeyote aliye na ujuzi wa kiufundi anaweza kuendesha nodi, kuchangia maendeleo, au kuunda zana zinazolingana. Katika Bitcoin, uaminifu hupatikana kupitia msimbo na makubaliano, si kupitia udhibiti wa serikali kuu.
 
 
-![BTC102-Bitcoin](assets/fr/030.webp)
+![image](assets/sw/039.webp)
 
 
 Uwazi huu ni mojawapo ya sababu kuu za watu kuamini itifaki ya Bitcoin; inazuia kikundi kidogo cha watengenezaji kuchezea mtandao kwa faida yao wenyewe. Bitcoin hufanya kazi kwa kanuni rahisi lakini yenye nguvu: ikiwa hukubaliani na mabadiliko yaliyopendekezwa, uko huru kutosasisha programu yako. Katika baadhi ya matukio, hii haitasababisha usumbufu wowote; bado utaendelea kusawazisha na mtandao mwingine. Lakini katika hali nyingine, hii inaweza kusababisha kile kinachojulikana kama Hard Fork, ambapo mtandao unagawanyika mara mbili, na toleo jipya la Bitcoin linaundwa. Hiyo ndivyo ilivyotokea mwaka wa 2017 na mgawanyiko kati ya Bitcoin (BTC) na Bitcoin Cash (BCH).
@@ -1031,7 +1031,7 @@ Bitcoin inaweza kuonekana kama "sifuri hadi Moja": mapumziko makubwa na dhana za
 Hata hivyo, baada ya zaidi ya muongo mmoja wa kuwepo, Bitcoin inaendelea kuzua mijadala na shauku. Kupitishwa kwake kunakua, suluhu za pili za Layer (kama Lightning Network) zinaibuka ili kuboresha kasi ya ununuzi na ada za chini, na biashara ulimwenguni kote zinajaribu kesi mpya za utumiaji. Kuna uwezekano kwamba Bitcoin itaendelea kuathiri mifumo ya malipo na hata jinsi tunavyoona pesa kwa miongo kadhaa ijayo.
 
 
-![BTC102-Bitcoin](assets/fr/028.webp)
+![image](assets/sw/040.webp)
 
 
 Ikiwa ungependa kupanua maarifa yako zaidi, unaweza kuchukua kozi ya BTC101 kwenye Plan ₿ Network, ambayo inatoa uchunguzi wa kina zaidi wa misingi ya kiufundi na kiuchumi ya Bitcoin.
@@ -1069,7 +1069,7 @@ Barack Obama aliwahi kuitaja Bitcoin kama "benki ya Uswisi mfukoni mwako," na kw
 - Bitcoin ina asili ya mtandao, kumaanisha kuwa mtu yeyote aliye na ufikiaji wa wavuti anaweza kuitumia.
 
 
-![BTC102-Bitcoin](assets/fr/037.webp)
+![image](assets/sw/041.webp)
 
 
 Bitcoin inaweza kuonekana kama "sarafu ya kweli ya watu," mfumo mbadala wa fedha ambao hautegemei mamlaka yoyote kuu na unategemea sheria zisizobadilika badala ya maamuzi ya kiholela. Hali yake ya wazi na inayofikika huifanya kuwa zana inayoweza kuleta mapinduzi kwa mabilioni ya watu duniani kote, iwe wametengwa na mfumo wa kawaida wa benki au kutafuta tu mbadala huru zaidi.
@@ -1078,7 +1078,7 @@ Bitcoin inaweza kuonekana kama "sarafu ya kweli ya watu," mfumo mbadala wa fedha
 Hii inatupeleka kwa swali la kimsingi, karibu la kifalsafa ambalo linagawanya wapenda Bitcoin katika mitazamo miwili kuu ya ulimwengu. Kwa upande mmoja, wengine wanaona Bitcoin kama suluhisho la kukuza ushirikishwaji wa kifedha, kuwezesha mabilioni ya watu wasio na benki kufikia miundombinu ya kifedha ya kimataifa. Kwa upande mwingine, wengine wanaona Bitcoin kama zana ya ukombozi wa kifedha inayolenga kutoa njia ya kutoka kwa mabilioni ya watu ambao tayari wamejumuishwa katika mfumo wa benki, lakini wanaotaka kujikomboa kutoka kwa utegemezi wake na kurejesha udhibiti kamili wa pesa zao. Tafakari hii inastahili umakini wetu, na tutarejea kwa undani zaidi baadaye.
 
 
-![BTC102-Bitcoin](assets/fr/044.webp)
+![image](assets/sw/042.webp)
 
 
 ### Ulinzi dhidi ya migogoro ya sarafu
@@ -1087,19 +1087,19 @@ Hii inatupeleka kwa swali la kimsingi, karibu la kifalsafa ambalo linagawanya wa
 Kwa karne nyingi, ulimwengu umekumbwa na majanga ya kifedha ambayo yamekuwa na athari mbaya kwa idadi ya watu. Mabilioni ya watu bado wanateseka kutokana na matokeo ya sera za fedha zinazosimamiwa vibaya, ambapo utumiaji mbaya wa pesa Supply na viwango vya riba huleta usawa wa kimfumo. Migogoro hii si matukio ya nasibu tu—ni matokeo ya mfumo uliojengwa juu ya uingiliaji kati na upotoshaji wa pesa na thamani za wakati.
 
 
-![BTC102-Bitcoin](assets/fr/045.webp)
+![image](assets/sw/043.webp)
 
 
 Migogoro hii inaweza kuchukua aina nyingi tofauti. Mfumuko wa bei, kwa mfano, hufuta fedha kwa kuharibu hatua kwa hatua uwezo wa watu wa kununua; kama inavyoonekana katika nchi kama Zimbabwe na Venezuela. Kwa upande mwingine, udhibiti mkali wa fedha unaweza kuzuia ufikiaji wa fedha na kuwanyima watu binafsi uhuru wao wa kiuchumi, kama ilivyotokea kwa vikwazo vya benki nchini Ugiriki na Lebanon.
 
 
-![BTC102-Bitcoin](assets/fr/047.webp)
+![image](assets/sw/044.webp)
 
 
 Na hatimaye, serikali zinaposhusha thamani ya fedha zao za kitaifa, hatua kwa hatua inamomonyoa akiba ya watu; kutoonekana lakini mara kwa mara kukimbia kwa utajiri wao. Kwa njia nyingi, hufanya kama ushuru uliofichwa. Maadamu sera ya fedha inasalia mikononi mwa mamlaka kuu, mizunguko hii inakusudiwa kurudiwa.
 
 
-![BTC102-Bitcoin](assets/fr/038.webp)
+![image](assets/sw/045.webp)
 
 
 Bitcoin inatoa njia mbadala ya ujasiri kwa mzunguko huu wa ukosefu wa utulivu wa kifedha. Tofauti na sarafu zilizotolewa na serikali, imejengwa juu ya kanuni zisizobadilika, za msingi wa hesabu zinazotekelezwa na makubaliano; sio na serikali au benki kuu. Utoaji wake unaweza kutabirika na unajumuisha takriban sarafu milioni 21, na kuifanya kuwa aina ya pesa nzuri iliyoundwa kushikilia thamani yake kwa wakati. Kwa sababu inapinga udhibiti, mtu yeyote anaweza kuhifadhi na kuhamisha thamani bila kutegemea taasisi. Na shukrani kwa mgawanyiko wake na kubebeka, inaweza kufikiwa na kwa vitendo; miundombinu ya kifedha kwa mtu yeyote, popote.
@@ -1108,7 +1108,7 @@ Bitcoin inatoa njia mbadala ya ujasiri kwa mzunguko huu wa ukosefu wa utulivu wa
 **Je, wajua?** Katika historia, kumekuwa na angalau visa 56 vilivyothibitishwa vya mfumuko wa bei duniani kote. Katika nyingi ya matukio hayo, uchumi mzima uliporomoka, akiba ya maisha ilifutwa, na mamilioni wakasukumwa katika umaskini uliokithiri. Mbaya zaidi, kushindwa huku kwa fedha mara nyingi kulifanya kama chanzo cha machafuko ya kisiasa; wakati mwingine kusababisha tawala za kimabavu, kama ilivyotokea Ujerumani katika miaka ya 1920 na Chile katika miaka ya 1970.
 
 
-![BTC102-Bitcoin](assets/fr/039.webp)
+![image](assets/sw/046.webp)
 
 
 Hanke, S. H., & Krus, N. (2013). *Mfumuko wa bei duniani*. Katika R. Parker & R. Whaples (Eds.), Mwongozo wa Matukio Makuu katika Historia ya Uchumi. Uchapishaji wa Routledge. Imetolewa kutoka https://ssrn.com/abstract=2130109
@@ -1123,7 +1123,7 @@ Kuporomoka kwa sarafu za fedha sio mabadiliko ya kihistoria; ni muundo unaojirud
 Kuongezeka kwa kukosekana kwa usawa wa kiuchumi kote ulimwenguni kumekuwa msingi wa machafuko ya kijamii na kuongezeka kwa itikadi kali za kisiasa. Historia inaonyesha kwamba pengo kati ya matajiri na maskini linapozidi kuwa kubwa, mara nyingi husababisha mvutano, migogoro, na hata kuimarika kwa tawala za kimabavu. Katika uso wa hatari hizi, kulinda uhuru wako wa kifedha si anasa tu; ni hitaji kwa mtu yeyote anayetaka kuhifadhi uhuru wake na kulinda mustakabali wa familia yake.
 
 
-![BTC102-Bitcoin](assets/fr/046.webp)
+![image](assets/sw/047.webp)
 
 
 Lakini katika ulimwengu ambapo serikali inaweza kudhibiti kikamilifu mali na miamala, ni chaguo gani halisi zipo ili kulinda akiba yako?
@@ -1147,7 +1147,7 @@ Lakini Bitcoin ni zaidi ya chombo cha vitendo. Pia ni **aina ya amani ya maandam
 Kwa mwanga huu, Bitcoin ni zaidi ya teknolojia. Ni chombo cha sheria ya asili, njia ya watu binafsi kudai haki zao za kimsingi, hata wakati haki hizo zinaponyimwa na sheria za nchi. Inarudisha nguvu kwa watu, sio kupitia mapinduzi, lakini kupitia kanuni.
 
 
-![BTC102-Bitcoin](assets/fr/040.webp)
+![image](assets/sw/048.webp)
 
 
 **Je, wajua**? Bitcoin ni jina bandia, sio jina. Watumiaji wanaweza kuunda anwani za Wallet bila kufichua utambulisho wao halisi, kuwaruhusu kutuma na kupokea pesa nje ya mfumo wa kawaida wa benki.
@@ -1171,7 +1171,7 @@ Ikiwa utajiri wako hautalindwa katika mali zisizo za kifedha (kama vile mali isi
 Hii si dosari katika mfumo; ni utaratibu wa makusudi. Benki kuu na serikali zinaitumia ili kuchochea ukuaji wa uchumi kwa njia isiyo halali na kusukuma watu kuelekea matumizi ya mara kwa mara na kuongeza deni.
 
 
-![BTC102-Bitcoin](assets/fr/041.webp)
+![image](assets/sw/049.webp)
 
 
 Mfumo wetu wa kisasa wa kifedha umejengwa juu ya mzunguko wa deni; moja ambapo kukopa hakuhimizwa tu, ni jambo lisiloepukika. Watu binafsi huchukua mikopo ili kudumisha mtindo wao wa maisha, na kujikuta wamenaswa katika mfumo ambapo lazima walipe riba kwa benki ambazo zinaunda pesa nje ya hewa. Hii sio bahati mbaya; ni muundo wa muundo unaokusudiwa kufaidi taasisi za fedha kwa gharama ya raia wa kila siku.
@@ -1189,7 +1189,7 @@ Hii ina maana kwamba Bitcoin inafanya kazi chini ya mfumo wa fedha unaotabirika;
 Hapo awali, dhahabu ilitumika kama hundi dhidi ya upanuzi wa fedha ambao haujadhibitiwa. Lakini tangu kuanguka kwa kiwango cha dhahabu mnamo 1971, hakuna sarafu ya kitaifa (iwe dola, euro au yen) inayoungwa mkono na mali inayoonekana. Kikosi hiki kilizipa benki kuu uhuru wa kuchapisha pesa bila vizuizi, kikifungua njia kwa miongo kadhaa ya upanuzi mkali wa fedha, mapovu ya mara kwa mara ya mali, na migogoro ya kifedha inayojirudia.
 
 
-![BTC102-Bitcoin](assets/fr/042.webp)
+![image](assets/sw/050.webp)
 
 
 Unapoweka Pesa Benki, Sio Zako Tena.
@@ -1234,7 +1234,7 @@ Wanabiashara wa Bitcoin wanatoka nyanja mbalimbali, lakini wana maono yanayofana
 - **Wahandisi, wafadhili na watetezi wa uhuru wa kujieleza**, wanaotambua athari za kina za kijamii za dhana hii mpya ya kifedha.
 
 
-![BTC102-Bitcoin](assets/fr/043.webp)
+![image](assets/sw/051.webp)
 
 
 Bitcoin, kwa muundo, inavuka migawanyiko ya kisiasa na kiitikadi. Si ya kushoto wala ya kulia, libertarian wala collectivist. Ni itifaki ya upande wowote, inayotawaliwa na sheria (si mtawala) inayotumika kwa usawa kwa kila mtu. Hata hivyo, kuwepo kwake kunaleta changamoto kwa hali ya kifedha duniani. Bitcoin imekuwa ishara ya upinzani kwa sababu watu wameichukua kama njia mbadala ya sarafu za fiat na miundombinu ya kifedha ya kati—mifumo inayozidi kuonekana kama isiyo ya haki, inayoweza kubadilishwa kiholela na inayotenga baadhi ya watu.
@@ -1245,7 +1245,7 @@ Kwa akili ya Cypherpunk, Bitcoin ni zaidi ya mali ya kidijitali. Inasimama dhidi
 Bitcoin huwezesha miamala ya kidijitali inayokinza udhibiti, kutoka kwa wenzao; huru kutoka kwa wapatanishi au walinda lango. Kama Satoshi Nakamoto ilivyofikiria, inatoa usawa wa kidijitali wa pesa taslimu: njia ya kupata thamani ya Exchange bila malipo, bila kuhitaji ruhusa.
 
 
-![BTC102-Bitcoin](assets/fr/048.webp)
+![image](assets/sw/052.webp)
 
 
 Bitcoin si shirika au chama cha kisiasa, lakini bila shaka ina ujumbe wenye nguvu wa kifalsafa. Inafafanua upya uhusiano kati ya mtu binafsi na serikali, ikipinga ukiritimba wa benki kuu katika kuunda pesa na udhibiti wa uchumi.
@@ -1253,7 +1253,7 @@ Bitcoin si shirika au chama cha kisiasa, lakini bila shaka ina ujumbe wenye nguv
 Iwe imepitishwa na wapigania uhuru au na wale wanaotafuta tu kuhifadhi uwezo wao wa kununua, Bitcoin inaashiria mwanzo wa enzi mpya; moja ambapo uhuru wa kifedha unakuwa haki ya msingi ya binadamu, inayopatikana kwa wote.
 
 
-![BTC102-Bitcoin](assets/fr/049.webp)
+![image](assets/sw/053.webp)
 
 
 Sasa kwa kuwa tumechunguza umuhimu wa kina wa uvumbuzi wa Satoshi Nakamoto, sura inayofuata itatupeleka katika tasnia ya ajabu ambayo imekua karibu na itifaki hii; mfumo mzima wa ikolojia unaounda upya fedha, teknolojia na jamii.
@@ -1280,7 +1280,7 @@ Leo, Bitcoin imefikia kizingiti muhimu—hatua ya kutorudishwa. Serikali, benki 
 Bitcoin ni uvumbuzi mkali, kuruka kutoka sifuri hadi moja. Inawakilisha mapumziko kamili kutoka kwa dhana ya jadi ya fedha. Kwa wengine, usumbufu huu ni tishio; changamoto iliyopo kwa mamlaka na mapendeleo yao yaliyowekwa. Kwao, Bitcoin ni sanduku la Pandora ambalo halipaswi kufunguliwa kamwe, na watatumia kila njia waliyo nayo kulipinga.
 
 
-![BTC102-Bitcoin](assets/fr/050.webp)
+![image](assets/sw/054.webp)
 
 
 Wengine, hata hivyo, wanaona Bitcoin kama fursa ya mara moja kwa kizazi: chombo cha uhuru wa mtu binafsi, kichocheo cha kubadilisha mfumo wa kifedha wa kimataifa, na njia kuelekea njia mbadala iliyo wazi zaidi na ya usawa. Hawa ndio wajenzi, wapokeaji, na wachangiaji (wale wanaounda siku zijazo).
@@ -1366,7 +1366,7 @@ Licha ya uuzaji wa ujasiri, mipango hii haishindani na Bitcoin; wanaiga lugha ya
 Mizani ya Facebook haikusudiwa kupinga hali ilivyo; ilijengwa kufanya kazi na mfumo. Kinyume chake, Bitcoin ipo nje ya mfumo huo kabisa. Haiombi ruhusa. Haitegemei uaminifu. Na imekuwa ikifanya kazi bila dosari (bila viongozi, wakati wa kupumzika, au udhibiti mkuu) kwa zaidi ya muongo mmoja.
 
 
-![BTC102-Bitcoin](assets/fr/051.webp)
+![image](assets/sw/055.webp)
 
 
 ### Udhibiti na Mbinu za Serikali
@@ -1375,7 +1375,7 @@ Mizani ya Facebook haikusudiwa kupinga hali ilivyo; ilijengwa kufanya kazi na mf
 Bitcoin, kwa asili yake, inafanya kazi nje ya mifumo ya kitamaduni. Haitegemei mamlaka kuu na haiwezi kudhibitiwa au kubadilishwa na huluki yoyote. Lakini ingawa itifaki yenyewe ina kinga dhidi ya udhibiti, washiriki wanaoingiliana nayo (mabadilishano, biashara, na watumiaji) bado wako chini ya sheria za kitaifa.
 
 
-![BTC102-Bitcoin](assets/fr/052.webp)
+![image](assets/sw/056.webp)
 
 
 Kwa kuwa Bitcoin ni mtandao wa kimataifa, nchi zimejibu kwa njia tofauti sana:
@@ -1392,7 +1392,7 @@ Kwa kuwa Bitcoin ni mtandao wa kimataifa, nchi zimejibu kwa njia tofauti sana:
 - **Wengi bado hawajaamua**, wanajaribu kanuni huku wakijaribu kusawazisha uvumbuzi na uangalizi.
 
 
-![BTC102-Bitcoin](assets/fr/056.webp)
+![image](assets/sw/057.webp)
 
 
 Serikali na taasisi mara nyingi hujitahidi kuainisha Bitcoin kwa usahihi (ni pesa, mali, au kitu kipya kabisa?). Matokeo yake, kanuni huwa tendaji, haziendani, na zinaendelea kubadilika. Iwapo unajihusisha na Bitcoin, ni muhimu kuendelea kufahamishwa kuhusu mandhari ya eneo lako; haswa linapokuja suala la ushuru, ufikiaji wa benki, na sheria za kufuata.
@@ -1425,7 +1425,7 @@ Mabadilishano yana jukumu muhimu katika mfumo ikolojia wa Bitcoin, ukifanya kazi
 Mabadilishano ambayo yanatii kanuni za ndani kwa kawaida lazima yafuate itifaki kali za **"Mjue Mteja Wako"** (KYC), zinazohitaji watumiaji kutoa hati za utambulisho kabla ya kupata huduma. Ingawa michakato hii imeundwa ili kuzuia shughuli haramu, inaweza kuhatarisha faragha ambayo Bitcoin inatoa.
 
 
-![BTC102-Bitcoin](assets/fr/053.webp)
+![image](assets/sw/058.webp)
 
 
 Mifumo ya KYC hukusanya taarifa zako za kibinafsi chini ya kivuli cha usalama. Data hii inaweza kutumiwa vibaya na serikali ili kufuatilia miamala yako ya kifedha na kukuwekea kikomo ufikiaji wa shughuli fulani.
@@ -1583,13 +1583,13 @@ Mtu yeyote anaweza kupendekeza mabadiliko kwenye Bitcoin Core, lakini mchakato h
 Ubunifu unakaribishwa, lakini tu unapoungwa mkono na hoja dhabiti, makubaliano ya jumuiya na majaribio ya makini.
 
 
-![BTC102-Bitcoin](assets/fr/054.webp)
+![image](assets/sw/059.webp)
 
 
 Licha ya kile ambacho wengine wanaweza kuamini, hakuna mtu aliye na udhibiti wa upande mmoja juu ya Bitcoin; hata watunzaji wa Bitcoin Core. Jukumu lao ni kusimamia hazina ya programu, sio itifaki yenyewe.
 
 
-![BTC102-Bitcoin](assets/fr/055.webp)
+![image](assets/sw/060.webp)
 
 
 Hata kama mtunza huduma angeidhinisha mabadiliko yenye utata, hayataathiri mtandao isipokuwa **nodi (zinazoendeshwa na watumiaji)** zikubali na kuendesha toleo hilo. Mwishowe, msimbo wa Bitcoin ni muhimu tu ikiwa watu watachagua kuuendesha.
@@ -1627,7 +1627,7 @@ Miongoni mwa mifumo kuu ya uwekaji kurutubisha mfumo ikolojia wa Bitcoin ni:
 Lightning Network, iliyoundwa na Thaddeus Dryja na Joseph Poon mnamo 2016, ni suluhisho la pili la Layer iliyoundwa ili kuwezesha malipo ya papo hapo na ya bei ya chini. Watumiaji wawili wanaweza kufungua chaneli ya kibinafsi ambapo wanaweza kufanya miamala na salio likisasishwa tu kwenye Blockchain chaneli inapofunguliwa au kufungwa. Miamala ndani ya kituo hutokea off-chain, kumaanisha kwamba haihitaji kurekodiwa kibinafsi kwenye Bitcoin Blockchain. Muundo huu huwezesha miamala ya papo hapo na ada ndogo, na kuifanya kuwa bora kwa miamala ya bei ya chini inayohitaji uthibitisho wa haraka.
 
 
-![BTC102-Bitcoin](assets/fr/059.webp)
+![image](assets/sw/061.webp)
 
 
 Hebu sema unanunua kahawa na Bitcoin kwa kutumia msingi wa Layer. Ili malipo yathibitishwe (na ili mkahawa uhakikishe kuwa umelipia) shughuli hiyo inahitaji kujumuishwa kwenye mtaa. Hiyo inaweza kuchukua dakika kadhaa, kulingana na ada uliyochagua. Kitaalam, mfanyabiashara anapaswa kusubiri uthibitishaji sita (kama saa moja) ili kuwa na uhakika kamili kwamba malipo ni ya mwisho. Ni wazi, aina hiyo ya kusubiri haifanyi kazi ukiwa umesimama kwenye kaunta. Kwa Lightning Network, malipo hupitia kwa sekunde chache tu; kwa hivyo kahawa yako inalipiwa na kutumiwa kabla hata haijapata muda wa kupoa.
@@ -1665,7 +1665,7 @@ RGB ni mfumo wa Smart contract uliogatuliwa na unaozingatia ufaragha ulioundwa k
 Element muhimu cha RGB ni ulinzi wake dhidi ya Double-spending, unaopatikana kwa mbinu ya kriptografia inayoitwa singleuse seal. Utaratibu huu unategemea ukweli kwamba UTXO za Bitcoin (Matokeo ya Shughuli Zisizotumika) zinaweza kutumika mara moja pekee. Usahihi wa tokeni unahakikishwa na uthibitishaji wa upande wa mtumiaji wa historia nzima ya Contract (kutoka kuundwa kwake hadi hali yake ya sasa).
 
 
-![BTC102-Bitcoin](assets/fr/060.webp)
+![image](assets/sw/062.webp)
 
 
 Ili kuongeza ujuzi wako wa RGB, tunatoa kozi ya mafunzo ya mwaka wa nne (tafadhali kumbuka kuwa ni ya kiufundi sana):
@@ -1679,7 +1679,7 @@ RGB ni mojawapo tu ya itifaki nyingi zilizojengwa juu ya Bitcoin. Wakati zingine
 Muundo huu wa tabaka unasimama tofauti na tasnia kubwa ya crypto, ambayo mara nyingi hutafuta kuweka vipengele vingi katika itifaki moja. Kwa kuweka Bitcoin rahisi na kuzingatia kwa ufupi, tunapunguza uso wake wa mashambulizi; ambayo inamaanisha usalama zaidi. Itifaki konda ni rahisi kupata, kudumisha, na kupima. Bitcoin imeundwa kufanya jambo moja vizuri sana: kutoa pesa nzuri, zilizogawanywa. Kila kitu kingine (mikataba mahiri, tokeni, malipo, na zaidi) kinaweza kuwekwa juu, na kuruhusu uvumbuzi bila kuathiri msingi.
 
 
-![BTC102-Bitcoin](assets/fr/058.webp)
+![image](assets/sw/063.webp)
 
 
 **Je, wajua**?Mtandao haukujengwa kwa wakati mmoja; iliibuka kama rundo la itifaki zinazoweza kushirikiana. Kwa mfano, TCP/IP hushughulikia mawasiliano ya mtandao, HTTP huwezesha wavuti, na safu nyingine nyingi hutumikia kazi maalum. Kila Layer imeboreshwa kwa kazi yake, na kuunda mfumo thabiti na wa kawaida. Bitcoin inafuata falsafa hii. Msingi wake wa Layer ni thabiti na ni mdogo, na utendaji wa ziada huongezwa kupitia itifaki zilizowekwa safu kama vile Umeme, Liquid, au RGB; kila moja ililenga kutatua mahitaji tofauti ya watumiaji huku msingi ukiendelea.
@@ -1734,7 +1734,7 @@ Tumefikia hatua ambapo mtu yeyote anaweza kujihusisha na mfumo wa ikolojia wa Bi
 Bitcoin sasa haiwezi kuzuilika.
 
 
-![BTC102-Bitcoin](assets/fr/057.webp)
+![image](assets/sw/064.webp)
 
 
 ### Mtazamo wangu wa kibinafsi
@@ -1782,7 +1782,7 @@ Bitcoin si kama mali asili. Inahitaji mbinu ya kufikiria na uelewa thabiti wa at
 Kozi hii inachukulia kuwa unaanza na Bitcoin. Kwa hivyo, tutazingatia suluhisho rahisi, za kirafiki ambazo ni rahisi kusanidi. Hatutashughulikia mbinu za udhihirisho wa moja kwa moja kama vile mining, kununua hisa katika kampuni zinazohusiana na Bitcoin, au mikakati changamano ya kifedha. Lengo hapa ni kukusaidia kuchagua wallet inayolingana na hali yako na kupata bitcoins zako za kwanza kwa usalama.
 
 
-![BTC102-Bitcoin](assets/fr/063.webp)
+![image](assets/sw/065.webp)
 
 
 ### Kwa nini ubainishe wasifu wako wa mtumiaji?
@@ -1805,7 +1805,7 @@ Hapa kuna baadhi ya mambo ya kuzingatia wakati wa kutafuta njia bora ya kununua 
 Kila moja ya vipengele hivi ina jukumu katika kuunda mkakati unaofaa kwako. Watumiaji wengine watathamini urahisi na urahisi wa kutumia kupitia huduma zilizodhibitiwa, wakati wengine watapendelea mbinu ya uhuru zaidi na inayozingatia faragha.
 
 
-![BTC102-Bitcoin](assets/fr/064.webp)
+![image](assets/sw/066.webp)
 
 
 Hilo ndilo tutakalochunguza baadaye: njia tofauti za kupata na kulinda bitcoins zako, ili uweze kufanya maamuzi sahihi kulingana na wasifu wako na malengo yako.
@@ -1817,7 +1817,7 @@ Hilo ndilo tutakalochunguza baadaye: njia tofauti za kupata na kulinda bitcoins 
 Kuchagua mkakati sahihi wa kupata na kupata bitcoins zako huanza na tathmini ya uaminifu ya hali yako ya kibinafsi. Sababu kadhaa huathiri maamuzi haya, ikiwa ni pamoja na hatari unazoweza kukabiliana nazo, mtindo wako wa maisha, na jinsi unavyopanga kutumia bitcoins zako.
 
 
-![BTC102-Bitcoin](assets/fr/065.webp)
+![image](assets/sw/067.webp)
 
 
 #### Hatari na vitisho vinavyowezekana
@@ -1846,7 +1846,7 @@ Kuchagua mkakati sahihi wa kupata na kupata bitcoins zako huanza na tathmini ya 
 Ili kuelewa vyema udhaifu wako, kadiria kila moja ya hatari hizi kwa mizani kutoka 0 (chini) hadi 10 (juu). Tathmini hii ya kibinafsi itakusaidia kutanguliza ulinzi sahihi kusonga mbele.
 
 
-![BTC102-Bitcoin](assets/fr/061.webp)
+![image](assets/sw/068.webp)
 
 
 #### Mtindo wa Maisha na Tabia za Kibinafsi
@@ -1893,7 +1893,7 @@ Hapa kuna mambo manne muhimu ya kuamua:
 - Kiasi gani utakuwa ukifanya miamala
 
 
-![BTC102-Bitcoin](assets/fr/062.webp)
+![image](assets/sw/069.webp)
 
 
 ### Pochi na Mikakati ya Usalama
@@ -1902,7 +1902,7 @@ Hapa kuna mambo manne muhimu ya kuamua:
 Kupata funguo zako za faragha (zile zinazokupa ufikiaji wa bitcoins zako) ni sehemu muhimu zaidi ya kumiliki na kutumia Bitcoin. Tofauti na akaunti ya kawaida ya benki, ambapo mtu wa tatu anadhibiti pesa zako, Bitcoin hukuweka katika udhibiti kamili. Lakini kwa uhuru huo huja wajibu: ukipoteza funguo zako, Bitcoin yako imetoweka milele. Kuna aina kadhaa za pochi unaweza kutumia. Kila moja ina faida na hasara zake kulingana na mahitaji yako na kiwango cha uzoefu.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/sw/070.webp)
 
 
 #### Hot Wallet
@@ -2029,7 +2029,7 @@ p
 Hatupendekezi huduma za uhifadhi hata kwa wanaoanza. Ni bora kuchukua muda wa kujifunza jinsi ya kulinda Bitcoin yako vizuri kuliko kuhatarisha kupoteza yote kwa sababu mtu mwingine alishindwa. Lakini ikiwa uko hapa, unasoma kuhusu pochi na usimamizi muhimu, labda tayari umeelewa kwa nini kanuni hiyo ni muhimu.
 
 
-![BTC102-Bitcoin](assets/fr/068.webp)
+![image](assets/sw/071.webp)
 
 
 Chaguo la Wallet na njia ya usalama inategemea ni kiasi gani unahifadhi, kiwango chako cha ujuzi na hatari zinazowezekana unazoziona. Walakini, mbinu ya mseto inaweza kuwa chaguo nzuri:
@@ -2043,7 +2043,7 @@ Chaguo la Wallet na njia ya usalama inategemea ni kiasi gani unahifadhi, kiwango
 Ikiwa Hot Wallet yako itakusanya bitcoins nyingi sana, unaweza kuhamisha baadhi kwenye hifadhi yako ya Cold. Kwa upande mwingine, ikiwa unahitaji bitcoins zaidi kwa matumizi ya kila siku, unaweza kujiondoa kutoka kwa Cold Wallet yako.
 
 
-![BTC102-Bitcoin](assets/fr/066.webp)
+![image](assets/sw/072.webp)
 
 
 Mwishowe, usalama hutegemea sana jinsi unavyotumia zana. Hardware Wallet haitakufaa sana ikiwa utapoteza, kufichua, au kuhatarisha maneno ya Mnemonic. Tahadhari na nidhamu ni ulinzi wako bora dhidi ya kupoteza bitcoins. Kwa zaidi juu ya hili, napendekeza sana kusoma nakala hii:
@@ -2057,7 +2057,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Kuna njia mbalimbali za kupata bitcoins, kulingana na kiasi gani cha faragha unachohitaji, kanuni katika nchi yako, na kiasi unachotaka kupata. Kuna mbinu mbili kuu:
 
 
-![BTC102-Bitcoin](assets/fr/070.webp)
+![image](assets/sw/073.webp)
 
 
 #### Upataji kwa kutumia Uthibitishaji wa Kitambulisho (KYC)
@@ -2212,7 +2212,7 @@ Mbinu inayopendekezwa:
 Wasifu huu unawafaa hasa watu wanaoishi katika mazingira yenye uhasama kwa Bitcoin, ambapo kumiliki au kuitumia kunaweza kuwaletea vikwazo. Hii ni mbinu changamano zaidi, inayohitaji utaalamu wa kiufundi na nidhamu kali ili kuzuia upotevu wa ufikiaji wa fedha.
 
 
-![BTC102-Bitcoin](assets/fr/069.webp)
+![image](assets/sw/074.webp)
 
 
 ### Je, ni wasifu upi unaokufaa?
@@ -2239,7 +2239,7 @@ Katika sura zinazofuata, tutachunguza kila moja ya wasifu hizi kwa undani ili uw
 Katika jumuiya ya Bitcoin, neno "hodler" hurejelea mtu ambaye huchukua mkabala wa uwekezaji wa muda mrefu. Neno hili lilitokana na chapa maarufu ya "shikilia" kwenye kongamano la Bitcoin Talk miaka iliyopita na tangu wakati huo limekuwa ishara ya Commitment: shikilia Bitcoin yako bila kujali chochote, bila kusisitiza juu ya mabadiliko ya soko ya muda mfupi.
 
 
-![BTC102-Bitcoin](assets/fr/071.webp)
+![image](assets/sw/075.webp)
 
 
 Hodler wanaamini katika pendekezo la thamani la Bitcoin. Wakiwa na Supply ya sarafu milioni 21, wanaona Bitcoin kama duka la muda mrefu la thamani (dhahabu ya dijiti).
@@ -2305,7 +2305,7 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![BTC102-Bitcoin](assets/fr/073.webp)
+![image](assets/sw/076.webp)
 
 
 #### 2. Nunua Bitcoin na Uiondoe
@@ -2326,7 +2326,7 @@ https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7
 
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![BTC102-Bitcoin](assets/fr/074.webp)
+![image](assets/sw/077.webp)
 
 
 Baadhi ya wafanyabiashara pia hufuata mbinu mseto kwa kutumia DCA (Wastani wa Gharama ya Dola)—kununua kiasi kidogo mara kwa mara ili kulainisha kuyumba kwa soko.
@@ -2376,7 +2376,7 @@ Mbinu ya mshikaji ni rahisi lakini yenye nguvu: nunua, tunza kwa usalama, kisha 
 
 
 
-![BTC102-Bitcoin](assets/fr/075.webp)
+![image](assets/sw/078.webp)
 
 
 ### Tathmini wasifu wako wa Hodler
@@ -2393,7 +2393,7 @@ Ikiwa unajitambua katika sifa hizi za utu, labda wewe ni Hodler asili:
 - **Imani katika teknolojia**: Hodlers hawaoni Bitcoin kama mali ya kubahatisha tu. Wanaamini katika teknolojia yake na uwezo wake wa kuvuruga. Kwa wengi, si tu kuhusu pesa; ni kuhusu uhuru. Bitcoin inatazamwa kama sarafu thabiti, ya kisiasa na mbadala halisi kwa benki ya jadi, kuwawezesha watu binafsi na uhuru mkubwa wa kifedha.
 
 
-![BTC102-Bitcoin](assets/fr/072.webp)
+![image](assets/sw/079.webp)
 
 
 Hodling ni rahisi, ufanisi, na kupatikana; hata kwa wanaoanza.
@@ -2416,7 +2416,7 @@ Katika mfumo wa ikolojia wa Bitcoin, stacker ni mtu anayechukua mbinu thabiti, y
 Wazo ni rahisi: kutakuwa na karibu bitcoins milioni 21 tu, na kila sehemu inahesabu. Dhamira ya stacker ni kukusanya kwa kasi Sats nyingi iwezekanavyo.
 
 
-![BTC102-Bitcoin](assets/fr/076.webp)
+![image](assets/sw/080.webp)
 
 
 ### Kwa nini kuchagua Mkakati wa Stacking?
@@ -2490,7 +2490,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 Njia ya ufanisi zaidi ni kutumia zote mbili: Hot Wallet kwa stacking ya kila siku na Hardware Wallet kwa hifadhi ya muda mrefu ya Cold. Hot Wallet ni rahisi na rahisi kutumia. Inakuruhusu kumiliki bitcoins zako haraka, badala ya kuziacha kwenye jukwaa ambapo zinaweza kukabiliwa na hatari. Walakini, ikilinganishwa na Hardware Wallet, Hot Wallet inatoa usalama mdogo sana. Kwa hivyo mpangaji lazima ahamishe fedha zake mara kwa mara kwa Cold Wallet yake ili kupata akiba yake ya muda mrefu na kuepuka kuweka fedha nyingi katika Hot Wallet. Mara kwa mara, stacker huunganisha UTXO wakati wa kuhamisha kwenye hifadhi ya Cold; kuunganisha pembejeo ndogo ili kuboresha ada za muamala za siku zijazo.
 
 
-![BTC102-Bitcoin](assets/fr/077.webp)
+![image](assets/sw/081.webp)
 
 
 #### 2. Weka mpango wa ununuzi wa DCA
@@ -2507,7 +2507,7 @@ Wastani wa Gharama ya Dola (DCA) ni mkakati wa uwekezaji ambapo unanunua kiasi k
 Kisha, una chaguo mbili za kusanidi DCA yako: kuiendesha kiotomatiki au kuisimamia mwenyewe. Majukwaa mengi ya biashara yaliyodhibitiwa sasa yanatoa chaguo la kubadilisha DCA yako kiotomatiki. Ukiwa na fiat ya kutosha katika akaunti yako, jukwaa litatekeleza maagizo yako kiotomatiki kulingana na vigezo ulivyoweka. Pia kuna idadi inayoongezeka ya majukwaa yaliyotolewa kwa uwekaji kiotomatiki wa DCA, inayotoa huduma za ziada kama vile uondoaji wa kiotomatiki kwenye ulinzi wako wa Wallet au kumalizia gharama zako za kila siku. Ikiwa unatumia mfumo unaodhibitiwa, ninapendekeza sana ubadilishe DCA yako kiotomatiki kwa amani zaidi ya akili katika usimamizi wako wa kila siku.
 
 
-![BTC102-Bitcoin](assets/fr/078.webp)
+![image](assets/sw/082.webp)
 
 
 Mifano ya majukwaa ya DCA:
@@ -2567,7 +2567,7 @@ Tabia kuu:
 - Mara kwa mara angalia nakala zako za seed na hali ya Hardware Wallet: Kwa kuwa pochi zako zimesanidiwa, ni muhimu kuweka ufuatiliaji wa mara kwa mara. Mara kwa mara, hakikisha kuwa kifungu chako cha maneno cha Mnemonic bado kipo mahali kilipohifadhiwa na kwamba bahasha yake isiyo wazi haijafunguliwa. Wakati wa hundi hizi, unaweza pia kufungua bahasha ili kuchunguza hali ya vyombo vya habari. Hakikisha kuwa haijaharibiwa na kwamba sentensi bado inasomeka kikamilifu. Ikiwa kuna dalili zozote za uharibifu, ni bora kuunda nakala mpya kutoka kwa Hardware Wallet yako. Unaweza pia kuangalia pochi za vifaa vyako mara kwa mara.
 
 
-![BTC102-Bitcoin](assets/fr/080.webp)
+![image](assets/sw/083.webp)
 
 
 Kwa ufuatiliaji rahisi bila kuhatarisha usalama, weka Watch-only wallet ili kufuatilia salio kwa kutumia ufunguo wa umma.
@@ -2589,7 +2589,7 @@ Vibandiko vilivyofaulu vinaonyesha sifa hizi:
 - **Maono ya muda mrefu**: Mpangaji anaamini kwa dhati uwezo wa kiteknolojia wa Bitcoin. Mtazamo wao sio juu ya mabadiliko ya bei ya muda mfupi, lakini katika kukuza umiliki wao kwa miaka mingi.
 
 
-![BTC102-Bitcoin](assets/fr/079.webp)
+![image](assets/sw/084.webp)
 
 
 Kwa kifupi, stacking ni bora kwa wale ambao wanataka kujenga nafasi ya Bitcoin kwa muda, kupunguza hatari za tete, na kudumisha uhuru kamili; bila kubandikwa kwenye chati.
@@ -2610,7 +2610,7 @@ Ifuatayo: tutachunguza wasifu tofauti kabisa wa bitcoiner; mtumiaji anayefanya k
 Kuwa mtumiaji hai wa Bitcoin kunamaanisha kwenda zaidi ya mikakati ya muda mrefu ya uwekezaji. Tofauti na mshikaji au mtunzi ambaye kimsingi huokoa bila kutumia, mtumiaji anayetumika huchukulia Bitcoin kama njia halisi ya **Exchange**. Wanaitumia kulipia bidhaa na huduma na kushiriki kikamilifu katika kukabiliana na uchumi.
 
 
-![BTC102-Bitcoin](assets/fr/083.webp)
+![image](assets/sw/085.webp)
 
 
 ### Kwa nini uchukue mkakati unaotumika wa mtumiaji?
@@ -2643,7 +2643,7 @@ Kutumia Bitcoin kikamilifu hukusaidia kukuza matumizi ya ulimwengu halisi. Utafa
 Changamoto ni pamoja na utata wa kiufundi, kuyumba kwa bei, na hitaji la usafi bora wa usalama ili kuzuia upotevu wa fedha.
 
 
-![BTC102-Bitcoin](assets/fr/086.webp)
+![image](assets/sw/086.webp)
 
 
 ### Mpango wa uwekezaji kwa mtumiaji anayefanya kazi
@@ -2652,7 +2652,7 @@ Changamoto ni pamoja na utata wa kiufundi, kuyumba kwa bei, na hitaji la usafi b
 Kupitisha Bitcoin kwa malipo ya kila siku kunahitaji mbinu ya kufikiria na iliyoundwa. Tofauti na Hodler au Stacker, Mtumiaji Anayetumika lazima adhibiti usalama wa muda mrefu wa fedha zao na urahisi wa shughuli za kila siku. Kuweka usawa sahihi kati ya hifadhi salama ya Cold na ufikiaji rahisi wa pesa za matumizi ni muhimu ili kufanya mkakati huu ufanye kazi kwa ufanisi.
 
 
-![BTC102-Bitcoin](assets/fr/084.webp)
+![image](assets/sw/087.webp)
 
 
 #### 1. Kutenganisha wazi kwa pochi
@@ -2745,7 +2745,7 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Watumiaji wanaoendelea wanahitaji kuweka usawa kati ya akiba yao ya muda mrefu na kiasi cha Bitcoin kinachowekwa kwa matumizi ya kila siku.
 
 
-![BTC102-Bitcoin](assets/fr/085.webp)
+![image](assets/sw/088.webp)
 
 
 Kuna njia kadhaa za kupata Bitcoin, kulingana na kiwango cha faragha unachotafuta:
@@ -2795,7 +2795,7 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 
 https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-![BTC102-Bitcoin](assets/fr/081.webp)
+![image](assets/sw/089.webp)
 
 
 #### 4. Usimamizi wa gharama hai
@@ -2840,7 +2840,7 @@ Je, umekataliwa kuwa mtumiaji anayetumika wa Bitcoin? Hapa kuna sifa kuu zinazof
 - **Nidhamu ya Kifedha:** Unadhibiti matumizi na akiba yako ya Bitcoin kwa uangalifu. Unaelewa umuhimu wa kutenganisha kwa uwazi fedha zako za kila siku kutoka kwa akiba yako ya muda mrefu.
 
 
-![BTC102-Bitcoin](assets/fr/082.webp)
+![image](assets/sw/090.webp)
 
 
 Kwa kumalizia, mtumiaji amilifu ana jukumu la moja kwa moja katika kusukuma mbele mfumo ikolojia wa Bitcoin. Kwa kujumuisha Bitcoin katika tabia zao za kila siku, wao sio tu kwamba wanaunga mkono kupitishwa kwake lakini pia kukuza ujuzi wao wenyewe.
@@ -2864,7 +2864,7 @@ Kwa Bitcoiner mbishi, faragha si hiari; yake muhimu. Katika ulimwengu ambapo kar
 Kwao, kila hatua ni ya msingi. Kila muamala, kila usanidi wa Wallet, na kila mwingiliano na mtandao huzingatiwa kwa umakini mkubwa. Kuteleza mara moja kunaweza kufichua taarifa nyeti zinazoweza kuunganisha utambulisho wao na mali zao za Bitcoin. Lengo lao kuu? Kutumia Bitcoin kwa njia inayolinda faragha ya utambulisho wao, eneo, na hali yao ya kifedha kikamilifu.
 
 
-![BTC102-Bitcoin](assets/fr/087.webp)
+![image](assets/sw/091.webp)
 
 
 ### Kwa nini uchukue mtazamo huo wa tahadhari?
@@ -2892,7 +2892,7 @@ Sio wawekezaji tu au watumiaji; wanajiondoa kwenye mfumo unaodai kujua kila kitu
 Bitcoiner mbishi hufuata mkakati madhubuti uliojengwa karibu na malengo mawili ya msingi: kuhifadhi kutokujulikana na kuongeza usalama. Mtumiaji wa aina hii hulenga kuepuka kukaribia mifumo inayodhibitiwa (hasa zile zinazohitaji KYC), kuondoa ufuatiliaji wa miamala, na kulinda pesa zao dhidi ya ufuatiliaji, kunyang'anywa na vitisho vingine vya nje.
 
 
-![BTC102-Bitcoin](assets/fr/092.webp)
+![image](assets/sw/092.webp)
 
 
 #### 1. Kuweka pochi na nodi
@@ -2921,7 +2921,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
-![BTC102-Bitcoin](assets/fr/089.webp)
+![image](assets/sw/093.webp)
 
 
 
@@ -2947,7 +2947,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-![BTC102-Bitcoin](assets/fr/090.webp)
+![image](assets/sw/094.webp)
 
 
 Usalama hauishii hapo. Kwa kucheleza misemo ya seed, mtumiaji wa paranoid hutumia chelezo za chuma pamoja na bahasha zilizofungwa zinazoonekana kuharibika. Wao huthibitisha mara kwa mara kuwa chelezo husalia bila kuathiriwa na hujaribu taratibu za kurejesha Wallet ili kuwa tayari kwa dharura yoyote.
@@ -3063,7 +3063,7 @@ https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 Ubadilishanaji wa kati huepukwa kabisa kutokana na hatari zinazosababisha; kwa faragha na kwa udhibiti unaowezekana au utekaji nyara.
 
 
-![BTC102-Bitcoin](assets/fr/091.webp)
+![image](assets/sw/095.webp)
 
 
 #### 3. Kuzuia ufuatiliaji wa onchain
@@ -3123,7 +3123,7 @@ Hapa kuna sifa kuu za bitcoiner ya paranoid:
 Ikiwa sifa hizi zinaonekana kuwa za kawaida, mkakati huu unaweza kukufaa. Inadai na inahitaji juhudi thabiti, lakini inatoa kiwango cha juu cha uhuru wa kifedha na ulinzi dhidi ya ufuatiliaji, kunaswa au kufuatiliwa kwa pesa zako.
 
 
-![BTC102-Bitcoin](assets/fr/088.webp)
+![image](assets/sw/096.webp)
 
 
 Mbinu hii ni muhimu hasa ikiwa:
@@ -3195,7 +3195,7 @@ Sura hii imetokana na kazi ya [Pamela Morgan](https://x.com/pamelawjd). [Kitabu 
 [Pamela Morgan](https://x.com/pamelawjd) ameidhinisha kwa ukarimu matumizi ya [kazi yake](https://www.amazon.com/gp/product/1947910116/) kwa kozi hii, na tutafuata mbinu yake ili kuunda mpango madhubuti wa urithi wa Bitcoin. Katika sura hii, tutazingatia sehemu ya kwanza ya kitabu chake.
 
 
-![BTC102-Bitcoin](assets/fr/093.webp)
+![image](assets/sw/097.webp)
 
 
 Ili kuelewa vyema jinsi ya kuunda mpango wa urithi wa Bitcoin, tutaangalia mfano wa Cédric, mtumiaji wa kawaida wa Bitcoin ambaye anahitaji kupanga jinsi utajiri wake utakavyopitishwa ikiwa jambo lisilotarajiwa litatokea.
@@ -3215,7 +3215,7 @@ Wasifu wake:
 Lengo letu ni kuunda mpango rahisi, unaofaa unaolenga wasifu wa Cédric kabla ya kuendelea na matukio changamano zaidi yanayohusisha aina nyingine za watumiaji.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/sw/098.webp)
 
 
 ### Kabla ya kuanza
@@ -3238,7 +3238,7 @@ Hakikisha una mazingira tulivu, yasiyo na usumbufu, kisha kusanya zana hizi chac
 - Kompyuta (hiari).
 
 
-![BTC102-Bitcoin](assets/fr/094.webp)
+![image](assets/sw/099.webp)
 
 
 #### Dhana potofu za kawaida kuhusu kupanga urithi
@@ -3450,7 +3450,7 @@ Kabla ya kumalizia, hakikisha barua yako inajumuisha:
 Kulingana na hali yako ya kibinafsi, tengeneza nakala nyingi zilizoandikwa kwa mkono za barua hii na uzihifadhi mahali salama (sehemu ya usalama, na mtu anayeaminika, nk). Wajulishe warithi wako kwamba mpango huu wa urithi upo, bila kufichua yaliyomo mara moja. Kwa ulinzi wa ziada, unaweza kutaka kuweka barua hiyo katika bahasha isiyo wazi inayodhihirika ili kuhakikisha kuwa haijafikiwa bila idhini yako.
 
 
-![BTC102-Bitcoin](assets/fr/096.webp)
+![image](assets/sw/100.webp)
 
 
 Ikihitajika, wasiliana na wakili au mthibitishaji ili kujumuisha rasmi mpango wako katika mfumo wa kisheria.
@@ -3487,7 +3487,7 @@ Hata kama haujafanya yote bado, lakini umejitolea kuifanya hivi karibuni, tayari
 Tangu nianze kuelimisha watu kuhusu Bitcoin, mfumo wa ikolojia na mimi tumebadilika sana. Kozi hii imesasishwa kabisa ili kuonyesha bora zaidi ya kile Bitcoin inacho kutoa leo. Imekuwa safari ya pamoja!
 
 
-![BTC102-Bitcoin](assets/fr/097.webp)
+![image](assets/sw/101.webp)
 
 
 ### Nini Kinachofuata kwa Bitcoin?
@@ -3510,7 +3510,7 @@ Bila shaka, changamoto zinasalia: udhibiti, faragha, kupitishwa kwa mapana, na k
 Jambo moja ni hakika: Bitcoin itaendelea kuwepo; kuzalisha block mpya takriban kila dakika 10, bila kuchoka, siku baada ya siku, mwaka baada ya mwaka. Tutaona watumiaji zaidi, pochi, ubadilishaji, na pia kanuni zaidi, vikwazo vya kiufundi, migogoro na ubunifu.
 
 
-![BTC102-Bitcoin](assets/fr/098.webp)
+![image](assets/sw/102.webp)
 
 
 Kadiri majanga ya kimataifa yanavyoendelea, na mfumuko wa bei unavyozidi kupunguza uwezo wa ununuzi wa sarafu za kawaida, Bitcoin itazidi kuwavutia watu wengi zaidi — hasa wale wanaotafuta uhuru wa kifedha na uhuru wa mtu binafsi. Nguvu hii itaendelea kuimarisha Bitcoin na kuvutia vipaji vipya vya kuboresha itifaki yake, tabaka zake za kuongeza ukubwa (scaling layers), pamoja na matumizi yake ya kila siku katika nyanja za usalama, faragha, na urahisi wa matumizi.

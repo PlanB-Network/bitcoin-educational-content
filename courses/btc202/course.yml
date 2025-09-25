@@ -15,9 +15,7 @@ professors_id:
 contributor_names:
   - LoicPandul
 
-published_at: 2025-09-04
-
-test_only: true
+published_at: 2025-09-25
 
 tags:
   - DIY
@@ -34,7 +32,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 26.04
+    reward: 0
   - language: en
     last_contribution_date:
     urgency: 1

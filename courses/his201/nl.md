@@ -152,13 +152,13 @@ Om dit probleem op te lossen werd *asymmetrische* cryptografie, ook bekend als p
 Met dit type cryptografie kunnen zowel versleutelingsalgoritmen als handtekeningprocessen worden geïmplementeerd. Bij asymmetrische encryptie wordt de publieke sleutel gebruikt als encryptiesleutel en de privésleutel als decryptiesleutel. De gebruiker genereert een sleutelpaar, bewaart de privésleutel en deelt de publieke sleutel met zijn correspondenten zodat ze berichten kunnen versturen. Dit type versleuteling is analoog aan een brievenbus die de ontvanger gebruikt om brieven te ontvangen, waarvan alleen hij de sleutel bezit.
 
 
-![Asymmetric encryption](assets/en/01.webp)
+![Asymmetric encryption](assets/en/001.webp)
 
 
 Digitale handtekeningen daarentegen gebruiken de privésleutel als handtekeningsleutel en de openbare sleutel als verificatiesleutel. De gebruiker genereert een sleutelpaar, ondertekent een bericht met de privésleutel en stuurt het naar zijn correspondenten, die de authenticiteit kunnen verifiëren met de publieke sleutel. Ze hoeven dus nooit de privésleutel te kennen.
 
 
-![Digital signature](assets/en/02.webp)
+![Digital signature](assets/en/002.webp)
 
 
 Verschillende onderzoekers ontdekten onafhankelijk van elkaar asymmetrische cryptografie tijdens de jaren 1970. De eersten die echter presenteerden wat ze hadden gevonden waren Whitfield Diffie en Martin Hellman, twee cryptografen van Stanford University. In november 1976 publiceerden ze een artikel getiteld "[New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)" in het tijdschrift *IEEE Transactions on Information Theory*, dat een sleutel Exchange algoritme beschreef (bedoeld voor de overdracht van geheime sleutels voor symmetrische encryptie) evenals een digitaal handtekeningproces. In de inleiding van dit artikel schreven ze:
@@ -168,7 +168,7 @@ Verschillende onderzoekers ontdekten onafhankelijk van elkaar asymmetrische cryp
 Hier is een foto uit 1977, gemaakt door Chuck Painter voor de Stanford News Service. Hierop zie je Whitfield Diffie (rechts) en Martin Hellman (in het midden). De persoon links is cryptograaf Ralph Merkle, die op het punt stond dezelfde ontdekking te doen.
 
 
-![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/03.webp)
+![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/003.webp)
 
 
 Het artikel van Diffie en Hellman maakte de weg vrij voor vele innovaties. Eén daarvan was het [RSA cryptosysteem] (https://people.csail.mit.edu/rivest/Rsapaper.pdf), dat in 1977 werd ontworpen door de cryptografen Ronald Rivest, Adi Shamir en Leonard Adleman (die het hun naam gaven) en in 1983 werd gepatenteerd door het MIT. Met dit systeem kunnen berichten zowel versleuteld als ondertekend worden, dankzij de uitwisseling van de rollen van de sleutels. RSA werd voor het eerst publiekelijk gepresenteerd in een [artikel door Martin Gardner](https://simson.net/ref/1977/Gardner_RSA.pdf) gepubliceerd in het tijdschrift *Scientific American* in augustus 1977, met de titel "Mathematical Games: A new kind of cipher that would take millions of years to break"
@@ -186,7 +186,7 @@ De fundamentele cryptografische Elements van Bitcoin komt voort uit dit onderzoe
 Deze revolutie in cryptografie inspireerde ook de jonge David Chaum, een computerwetenschapper van de westkust die toen doctoraalstudent was aan de universiteit van Berkeley. Hij raakte al snel gepassioneerd door privacybescherming en was erg bezorgd over de toekomst van vrijheid en vertrouwelijkheid in een maatschappij die steeds meer gecomputeriseerd werd.
 
 
-![David Chaum in the 90s](assets/en/04.webp)
+![David Chaum in the 90s](assets/en/004.webp)
 
 David Chaum in de jaren 90 (bron: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
@@ -215,7 +215,7 @@ In zijn technische werking is het eCash-model gebaseerd op het proces van blinde
 Hier is een illustratie van de verschillende stappen die betrokken zijn bij het maken en vervangen van een Chaumiaanse noot (uit *L'Élégance de Bitcoin*):
 
 
-![Creation and replacement of a Chaumian note](assets/en/05.webp)
+![Creation and replacement of a Chaumian note](assets/en/005.webp)
 
 
 De acties (die elk overeenkomen met een wiskundige bewerking of een informatieoverdracht) zijn als volgt:
@@ -254,7 +254,7 @@ Dit alles impliceert dat geen enkele bank in het systeem de betaling kan koppele
 In 1990 richtte David Chaum Digicash B.V. op, een bedrijf gevestigd in Amsterdam, Nederland, om zijn idee van elektronisch geld te implementeren. Dit bedrijf bezat de patenten voor zijn uitvinding. In die tijd stond het internet nog in de kinderschoenen (het web was nog in ontwikkeling) en bestond e-commerce nog niet; het eCash-model vormde dus een geduchte kans.
 
 
-![DigiCash Logo](assets/en/06.webp)
+![DigiCash Logo](assets/en/006.webp)
 
 
 Het was echter niet het bedrijf van David Chaum dat het model voor het eerst testte: het waren de cypherpunks die het implementeerden zonder rekening te houden met de patenten en er geen toestemming voor vroegen. Zo werd een protocol genaamd Magic Money [voorgesteld](https://cypherpunks.venona.com/date/1994/02/msg00247.html) op de cypherpunks mailinglijst op 4 februari 1994, door een anonieme ontwikkelaar met de naam Pr0duct Cypher. Met dit protocol kon men zijn eigen valuta creëren door een e-mailserver te gebruiken die dienst deed als eCash-munt. De cypherpunks vermaakten zich met het maken van allerlei rekeneenheden zoals Tacky Tokens, GhostMarks, DigiFrancs en NexusBucks. Het nut van deze tokens was echter minimaal en uitwisselingen waren zeer zeldzaam.
@@ -262,7 +262,7 @@ Het was echter niet het bedrijf van David Chaum dat het model voor het eerst tes
 Van DigiCash werd na een paar jaar ontwikkeling een prototype [gepresenteerd](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) in mei 1994 op de eerste internationale conferentie over het World Wide Web bij CERN in Genève. Het bedrijf voerde vervolgens een proef uit op 19 oktober van dat jaar, waarbij eenheden werden uitgegeven die "CyberBucks" werden genoemd en waar geen andere valuta achter stond. Verschillende handelaren accepteerden CyberBucks als onderdeel van dit experiment. De cypherpunks gingen er ook op in en gebruikten het om echte uitwisselingen uit te voeren. Zo kregen CyberBucks waarde op de markt. Deze waarde stortte echter in toen eCash werd ingezet in het traditionele banksysteem.
 
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/07.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/en/007.webp)
 
 Foto (wazig) van het DigiCash-team in 1995: David Chaum staat helemaal links (bron: [Chaum.com](https://chaum.com/ecash/))
 
@@ -327,7 +327,7 @@ De situatie werd daarna nog beperkter. De centrale bank, de Federal Reserve of t
 Met de intrekking van het verbod op goudbezit en de ontwikkeling van het internet vanaf de jaren 1970, kwam het idee om privévaluta in te zetten weer naar boven. Dit was het geval bij Bernard von NotHaus, die in 1998 de Liberty Dollar lanceerde, een valuta gebaseerd op goud en zilver die gevonden kon worden in zilveren munten en representatieve biljetten. Een non-profitorganisatie beheerde het systeem onder de naam NORFED (acroniem voor National Organization for the Repeal of the Federal Reserve and Internal Revenue Code). Vanaf 2003 was de Liberty Dollar ook beschikbaar in digitale vorm, via een accountsysteem vergelijkbaar met e-gold (zie de volgende paragraaf). Het systeem kende een zeker succes. Naast de circulerende munten bevatten de kluizen van NORFED ongeveer 8 miljoen dollar aan edelmetalen om de converteerbaarheid van de munt te garanderen, waaronder 6 miljoen dollar voor de digitale eenheid.
 
 
-![2003 Silver Liberty Dollar](assets/en/08.webp)
+![2003 Silver Liberty Dollar](assets/en/008.webp)
 
 Liberty Dollar (10 dollar) in zilver uit 2003 (bron: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
@@ -345,7 +345,7 @@ Het principe was dat elke eenheid e-goud kon worden omgezet in echt goud. De gou
 Het e-gold systeem maakte gebruik van het ontluikende web, met name de recente Netscape browser. Elke klant had toegang tot zijn account via de website, in plaats van speciale software te moeten gebruiken. Voor die tijd was het platform zeer performant, gebruikmakend van een real-time bruto vereffeningssysteem geïnspireerd op interbancaire overschrijvingen. Hier zie je hoe het verzenden van e-gold eruit zag in 2005 (afbeelding uit een [tutorial](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) uit die tijd):
 
 
-![Sending on e-gold in 2005](assets/en/09.webp)
+![Sending on e-gold in 2005](assets/en/009.webp)
 
 
 Het e-goudsysteem kende een groot succes: op het hoogtepunt in 2006 [garandeerde](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) het 3,6 ton goud, met een waarde van meer dan 80 miljoen dollar, [verwerkte](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) het 75.000 transacties per dag, voor een jaarlijks volume van 3 miljard dollar, en beheerde het meer dan 2,7 miljoen accounts.
@@ -362,7 +362,7 @@ Andere systemen ontstonden volgens hetzelfde model. GoldMoney, opgericht door Ja
 Een ander voorbeeld van een gecentraliseerd privévalutasysteem is Liberty Reserve, waarmee gebruikers elektronische valuta gekoppeld aan de Amerikaanse dollar, de euro of goud konden aanhouden en overdragen. Arthur Budovsky, een Amerikaan van Oekraïense afkomst, en Vladimir Kats, een Russische immigrant uit Sint-Petersburg, creëerden dit systeem. In 2006 emigreerde Arthur Budovsky naar Costa Rica, dat toen als belastingparadijs werd beschouwd, waar hij zijn bedrijf Liberty Reserve S.A. registreerde.
 
 
-![Liberty Reserve logo in 2009](assets/en/10.webp)
+![Liberty Reserve logo in 2009](assets/en/010.webp)
 
 Liberty Reserve-logo in 2009 (bron: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
@@ -392,7 +392,7 @@ De oorspronkelijke visie van PayPal was revolutionair, in lijn met de libertaire
 
 > "Wat wij 'handig' noemen voor Amerikaanse gebruikers zal natuurlijk revolutionair zijn voor de ontwikkelingslanden. De regeringen van veel van deze landen spelen snel en losjes met hun valuta. Ze gebruiken inflatie en soms grootschalige devaluaties, zoals we vorig jaar in Rusland en verschillende Zuidoost-Aziatische landen zagen, om hun burgers hun rijkdom afhandig te maken. De meeste gewone mensen daar hebben nooit de kans om een buitenlandse rekening te openen of om meer dan een paar biljetten van een stabiele valuta zoals Amerikaanse dollars in handen te krijgen. Uiteindelijk zal PayPal daar verandering in kunnen brengen. In de toekomst, wanneer we onze service ook buiten de VS beschikbaar maken en de internetpenetratie zich uitbreidt naar alle economische lagen van de bevolking, zal PayPal burgers wereldwijd meer directe controle over hun valuta geven dan ze ooit gehad hebben. Het zal bijna onmogelijk zijn voor corrupte regeringen om rijkdom van hun bevolking te stelen met hun oude middelen, want als ze het proberen, zullen de mensen overstappen op dollars, ponden of yen, waardoor ze de waardeloze lokale valuta dumpen voor iets veiligers."
 
-![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/11.webp)
+![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/011.webp)
 
 Peter Thiel op 20 oktober 1999, tijdens zijn toespraak in Oakland, Californië voor het Independent Institute (bron: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
@@ -429,7 +429,7 @@ In dit hoofdstuk bestuderen we het ontstaan van verschillende technische Element
 Met de opkomst van computers in de jaren 1950 ontstond de mogelijkheid om ze met elkaar te verbinden. Zo ontstonden de eerste computernetwerken, die in de jaren 1970 leidden tot de ontwikkeling van het Internet, het "netwerk der netwerken". De vraag naar de infrastructuur van deze netwerken rees onvermijdelijk. Daarom somde de Pools-Amerikaanse computerwetenschapper Paul Baran in zijn baanbrekende artikel uit 1964 (waarin hij pakketschakeling beschreef) drie soorten netwerken op: het gecentraliseerde netwerk, vertrouwend op een enkel knooppunt; het gedistribueerde netwerk, waarbij elk punt een knooppunt is; het gedecentraliseerde (niet gedistribueerde) netwerk, vertrouwend op een gedistribueerd netwerk van meerdere knooppunten.
 
 
-![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/12.webp)
+![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/012.webp)
 
 
 Uit deze overwegingen kunnen twee zuivere modellen worden afgeleid: het client-server model, waarbij een centrale server reageert op de verzoeken van clients, en het peer-to-peer model, waarbij elk knooppunt dezelfde rol heeft in het systeem. Dit laatste model was vooral nuttig voor het delen van bestanden in de jaren 2000, met het ontstaan van BitTorrent en andere soortgelijke protocollen. Het Tor netwerk is gedecentraliseerd, niet puur peer-to-peer.
@@ -440,7 +440,7 @@ Een probleem dat zich voordoet in gedistribueerde architecturen is het probleem 
 Het probleem wordt voorgesteld als een metafoor waarbij generaals van het Byzantijnse Rijk een vijandelijke stad belegeren met hun troepen, van plan zijn om aan te vallen en alleen kunnen communiceren via boodschappers. Het doel is om een strategie (d.w.z. een algoritme) te vinden die de aanwezigheid van verraders kan beheersen en ervoor kan zorgen dat alle loyale generaals het eens zijn over een strijdplan zodat de aanval succesvol is. Hier is een illustratie (bron: *L'Élégance de Bitcoin*):
 
 
-![The Byzantine Generals Problem](assets/en/13.webp)
+![The Byzantine Generals Problem](assets/en/013.webp)
 
 
 Het oplossen van dit probleem is belangrijk voor gedistribueerde systemen die een rekeneenheid beheren. Dergelijke systemen vereisen dat deelnemers het eens zijn over de Ownership van rekeneenheden, dat wil zeggen, wie wat bezit.
@@ -462,7 +462,7 @@ Tijdstempeling is echter vooral nuttig in de digitale wereld, waar bestanden (te
 In 1991 werd een vertrouwelijke en veilige tijdstempeltechniek voorgesteld door Stuart Haber en Scott Stornetta, twee onderzoekers die werkten voor Bell Communications Research Inc. (meestal "Bellcore" genoemd), een R&D-consortium in New Jersey. In [hun paper](http://www.staroceans.org/e-book/Haber_Stornetta.pdf), getiteld "How to time-stamp a digital document", beschreven ze hoe een gecertificeerde tijdstempeldienst een eenrichtingsfunctie (zoals de MD4 Hash functie) en een handtekeningalgoritme zou kunnen gebruiken om de vertrouwelijkheid van clientdocumenten en de betrouwbaarheid van de certificering te vergroten. In het bijzonder was het idee om de informatie te chainen door de vorige Timestamp te betrekken bij het toepassen van de one-way functie.
 
 
-![Example of certified timestamping](assets/en/14.webp)
+![Example of certified timestamping](assets/en/014.webp)
 
 Voorbeeld van gecertificeerde tijdstempeling (bron: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
@@ -482,7 +482,7 @@ Het Proof of Work concept werd voor het eerst beschreven in 1992 door computerwe
 Met de popularisering van het internet in de jaren 1990 werd het probleem van ongewenste e-mail steeds nijpender, ook op de mailinglijst van de cypherpunks. Daarom werd het concept van Dwork en Naor [geïmplementeerd](https://cypherpunks.venona.com/date/1997/03/msg00774.html) door de jonge Britse Cypherpunk Adam Back in 1997 met Hashcash, een algoritme dat eenvoudige werkbewijzen produceert met behulp van een Hash functie. Meer specifiek gaat het om het vinden van een gedeeltelijke botsing van de beschouwde Hash functie, dat wil zeggen, het verkrijgen van twee berichten die een voetafdruk hebben die begint met dezelfde databits (noot: vanaf versie 1.0 uitgebracht in 2002, gaat het om het ontdekken van een gedeeltelijke botsing voor de nulafdruk, namelijk het vinden van een pre-image waarvan de voetafdruk begint met een bepaald aantal binaire nullen). Aangezien de Hash functie eenrichtingsverkeer is, kan zo'n prestatie alleen worden geleverd door de verschillende mogelijkheden afzonderlijk te testen, wat energie kost.
 
 
-![Adam Back in 2001](assets/en/15.webp)
+![Adam Back in 2001](assets/en/015.webp)
 
 Adam Back in 2001 (bron: [archief van de persoonlijke pagina van Adam Back](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
@@ -512,7 +512,7 @@ Hoewel behoorlijk ingenieus, was Wei Dai's concept van b-geld niet helemaal func
 Na de publicatie op de lijst trok b-money de aandacht van de cypherpunks, en in het bijzonder [die van Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Wei Dai heeft zijn model echter nooit geïmplementeerd, niet alleen omdat het disfunctioneel was, maar ook door de [desillusie](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) van de cryptograaf ten opzichte van crypto-anarchie. Desondanks werd b-geld genoemd in het Bitcoin witboek, waardoor het een van de voorlopers was.
 
 
-![Citation of b-money in the Bitcoin white paper](assets/en/16.webp)
+![Citation of b-money in the Bitcoin white paper](assets/en/016.webp)
 
 
 ### bitgoud: digitaal goud voor Bitcoin
@@ -524,7 +524,7 @@ Het tweede model dat voortkwam uit de ideeën van de cypherpunks was het idee va
 In 1994 creëerde Nick Szabo een privé-mailinglijst met de naam libtech-l. Zoals de naam al suggereert, was het doel om discussies over bevrijdingstechnieken te hosten, die de bescherming van individuele vrijheden tegen aanvallen van autoriteiten mogelijk maakten. Cypherpunks als Wei Dai en Hal Finney hadden toegang, net als de economen Larry White en George Selgin, voorstanders van Hayekiaanse valuta concurrentie en vrij bankieren.
 
 
-![Nick Szabo in 1997](assets/en/17.webp)
+![Nick Szabo in 1997](assets/en/017.webp)
 
 Nick Szabo in 1997 (bron: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
@@ -557,7 +557,7 @@ De server beheerde de herbruikbare Proof-of-Work tokens en was verantwoordelijk 
 Hier is een illustratie [ontworpen] (https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) door Hal Finney zelf:
 
 
-![Exchange in RPOW](assets/en/18.webp)
+![Exchange in RPOW](assets/en/018.webp)
 
 
 Hal Finney ontwierp niet alleen het model maar implementeerde het ook persoonlijk. Op 15 augustus 2004 [kondigde](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) hij de lancering van het RPOW systeem aan op de cypherpunks mailinglijst, naast het documenteren van de werking ervan op de speciale website (rpow.net). Hij [presenteerde](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) het vervolgens op de CodeCon 2005 conferentie in San Francisco, waar hij de mogelijke toepassingen van Proof-of-Work tokens besprak, namelijk: waardeoverdracht, spamregulering, handel in videospelletjes, online gokken zoals poker, en anti-leeching op file-sharing protocollen zoals BitTorrent.
@@ -579,7 +579,7 @@ Het werkelijke gebruik van RPOW was dus anekdotisch. Toch verdient Hal Finney kr
 Een andere minder bekende voorloper van Bitcoin, maar hier wel van belang, is het gedistribueerde kredietprotocol Ripple, ontworpen door de Canadese ontwikkelaar Ryan Fugger in 2004. De jonge Canadees werd geïnspireerd door het concept van het [lokale Exchange handelssysteem](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), iets wat hij in Vancouver had ervaren voordat hij zijn protocol ontwierp. Hij publiceerde de Ripple [white paper](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) op 14 april 2004. Daarna implementeerde hij het via een 'proof of concept' genaamd RipplePay, dat werkte op een centrale server en gebruikers in staat stelde om verbinding te maken met slechts een Address e-mail.
 
 
-![Ryan Fugger circa 2010](assets/en/19.webp)
+![Ryan Fugger circa 2010](assets/en/019.webp)
 
 Ryan Fugger circa 2010 (bron: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
@@ -653,7 +653,7 @@ In augustus 2008 besloot Satoshi de lancering van Bitcoin voor te bereiden. Op d
 Op 20 augustus nam de bedenker van Bitcoin [contact op met](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf), Adam Back, door hem een e-mail te sturen waarin hij om advies vroeg over hoe hij zijn paper over Hashcash moest citeren in de white paper. Het is Hard om dit niet te zien als een voorwendsel om ervoor te zorgen dat de uitvinder van Hashcash op de hoogte raakte van zijn nieuwe systeem.
 
 
-![Adam Back in 2012](assets/en/20.webp)
+![Adam Back in 2012](assets/en/020.webp)
 
 Adam Back in 2012 (bron: [Persoonlijke pagina van Adam Back](http://www.cypherspace.org/adam/))
 
@@ -697,7 +697,7 @@ Het somt ook de belangrijkste eigenschappen van zijn model op:
 In zijn e-mail voegt hij een link toe naar de white paper, die al gehost wordt op Bitcoin.org. Dit korte document van 9 pagina's, gepresenteerd als een wetenschappelijk artikel, beschrijft de technische werking van Bitcoin en richt zich op het probleem van online betalingen.
 
 
-![Title and summary of the first version of the white paper (October 2008)](assets/en/21.webp)
+![Title and summary of the first version of the white paper (October 2008)](assets/en/021.webp)
 
 
 Satoshi kreeg een paar reacties na deze aankondiging, maar de meesten waren sceptisch. Hij wordt met name bekritiseerd voor drie dingen:
@@ -714,7 +714,7 @@ Satoshi kreeg een paar reacties na deze aankondiging, maar de meesten waren scep
 Hoewel scepsis de overheersende houding is op de lijst, wordt deze niet gedeeld door iedereen die op de mailinglijst is geabonneerd. Met name één persoon onderscheidt zich van de anderen door zijn enthousiasme: Hal Finney, die een optimistische kijk heeft op de toekomst en het idee van elektronisch geld nooit heeft opgegeven, ondanks de mislukkingen in de jaren 90. Hij [verklaarde](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) hierover een paar jaar later dat "cryptografische grijsaards [...] de neiging hebben cynisch te worden" maar dat hij "idealistischer was" omdat hij "altijd van cryptografie, het mysterie en de paradox heeft gehouden" (*origineel: "Ik heb gemerkt dat cryptografische grijsaards (ik was midden 50) de neiging hebben cynisch te worden. Ik was idealistischer; ik heb altijd gehouden van crypto, het mysterie en de paradox ervan."*) Zo schreef hij op 7 november in een [email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) aan de lijst dat "Bitcoin een veelbelovend idee lijkt" en vergelijkt het model van Satoshi met Nick Szabo's bit gold. (*origineel: "Bitcoin lijkt een veelbelovend idee."*)
 
 
-![Hal Finney in 2007](assets/en/22.webp)
+![Hal Finney in 2007](assets/en/022.webp)
 
 Hal Finney in 2007
 
@@ -787,7 +787,7 @@ Uit deze uitwisselingen tussen Satoshi en Hal Finney ontstond versie 0.1.3, [gep
 Maar Hal Finney is niet de enige die Bitcoin op dat moment probeerde. Dit is ook het geval voor Dustin D. Trammell, een Amerikaanse computerbeveiligingsonderzoeker die toen geïnteresseerd was in digitale munteenheden (en in het bijzonder in de elektronische versie van de Liberty Dollar), die Bitcoin ontdekte via de mailinglijst. Op 11 januari draait hij de software op een van zijn werkmachines (maar hij mijnt zijn eerste [block](https://Mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) pas op de 13e vanwege een technisch probleem). In de nacht van 11 op 12 januari neemt hij uitgebreid contact op met Satoshi, met wie hij de volgende dagen [communiceert](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip). Op 15 januari [ontvangt](https://Mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) Dustin Trammell ook 25 bitcoins van hem.
 
 
-![Dustin Trammell](assets/en/23.webp)
+![Dustin Trammell](assets/en/023.webp)
 
 Dustin Trammell (bron: [Dustin Trammell's blogarchief](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
@@ -843,7 +843,7 @@ Dit is de kop van de Britse krant *The Times* op die dag, die aangeeft dat de Ch
 - Aan de andere kant geeft het symbolisch aan waar Bitcoin tegenover staat door te verwijzen naar de monetaire en financiële context van die tijd.
 
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
 
 
 In die tijd voelde de wereld de volle impact van de financiële crisis die in 2007 begon met het uiteenspatten van de subprime zeepbel in de Verenigde Staten. Overheden redden financiële instellingen om verdere faillissementen te voorkomen na de val van de investeringsbank Lehman Brothers op 15 september 2008 en centrale banken deden aan kwantitatieve versoepeling door liquiditeit te injecteren in de financiële markten. Dit gebruik van voor de gelegenheid gecreëerd publiek geld bracht een aantal burgers van hun stuk, die zich realiseerden dat het banksysteem er eigenlijk een is van private winsten en gesocialiseerde verliezen.
@@ -893,7 +893,7 @@ Vervolgens, in dezelfde e-mail, bespreekt Jonathan Thornburg het onderwerp van z
 Het laatste commentaar komt van John Gilmore, een van de oprichters van de cypherpunks en de beheerder van de eerste mailinglijst van de beweging van 1992 tot 1997. In een e-mail van 25 januari benadrukt hij de veronderstelde ecologische gevolgen van Bitcoin en [schrijft](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) dat "het laatste wat we nodig hebben is een systeem dat ontworpen is om alle beschikbare cycli te verbranden, elektriciteit verbruikt en kooldioxide genereert, over het hele internet, om kleine hoeveelheden bitbux te produceren om e-mails of spams erdoor te krijgen." Satoshi [antwoordt](https://mmalmi.github.io/Satoshi/#email-3) hem privé dat "het ironisch zou zijn om te moeten kiezen tussen economische vrijheid en milieubehoud." Hij voegt eraan toe dat "Proof of Work de enige oplossing is [die hij heeft] gevonden om een peer-to-peer elektronisch geldsysteem te laten werken" en dat, zelfs als het veel energie zou verbruiken, "het nog steeds minder zou verspillen dan de arbeids- en grondstoffenintensieve conventionele bankactiviteit die het zou vervangen."
 
 
-![John Gilmore in 2007](assets/en/25.webp)
+![John Gilmore in 2007](assets/en/025.webp)
 
 John Gilmore in 2007 (bron: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
@@ -920,7 +920,7 @@ Op 11 februari publiceerde Satoshi een [introductiebericht](https://p2pfoundatio
 
 Hij beweert een Japanner te zijn op zijn [profiel] (https://p2pfoundation.ning.com/profile/SatoshiNakamoto), maar dat is niet alles. Een Interface update in 2011 onthulde zijn leeftijd: 35 jaar, wat betekent dat hij 32 of 33 jaar oud was in 2009. Toen, in 2014, werd [ontdekt](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) dat hij een specifieke geboortedatum had opgegeven: 5 april 1975. Deze schijnbaar onschuldige datum is waarschijnlijk een samengestelde verwijzing naar het verbod voor Amerikaanse burgers om goud te bezitten tussen 1933 en 1975 in de Verenigde Staten. De dag 5 april heeft betrekking op de dag dat dit verbod werd ingesteld door de [Executive Order 6102] (https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) getekend door President Franklin Delano Roosevelt op 5 april 1933, en het jaar 1975 komt overeen met de intrekking ervan door de [Public Law 93-373] (https://www.govtrack.us/congress/bills/93/s2665/text). Dit detail is erg belangrijk omdat dit verbod een einde maakte aan de klassieke goudstandaard (waar men goud kon krijgen in Exchange voor een representatief wetsvoorstel), de devaluatie van de dollar mogelijk maakte (door de Gold Reserve Act in 1934) en de oprichting van het monetaire regime met zwevende Exchange koersen mogelijk maakte dat we kennen na de Nixon Shock van 1971.
 
-![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/26.webp)
+![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/026.webp)
 
 
 Satoshi Nakamoto's profiel op het P2P Foundation forum op 17 maart 2011 (bron: [forum capture](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
@@ -950,7 +950,7 @@ De communicatiestrategie van Satoshi werpt geleidelijk vruchten af. In april 200
 Op 12 april stuurde Mike Hearn een [e-mail] (https://plan99.net/~mike/Satoshi-emails/thread1.html) naar Satoshi, waarin hij een reeks vragen stelde over Bitcoin. Hij merkte op dat "het zeldzaam is om echt revolutionaire ideeën tegen te komen" en liet niet na om Ripple te noemen.
 
 
-![Mike Hearn](assets/en/27.webp)
+![Mike Hearn](assets/en/027.webp)
 
 
 Mike Hearn en Satoshi Nakamoto bespraken verschillende aspecten van Bitcoin, zoals schaalvergroting, microbetalingen, hoe de software werkt en de afwezigheid van terugboekingen. In het bijzonder vroeg Mike Hearn aan Satoshi waarom hij de hoeveelheid van "24 miljoen" (*sic*) had gekozen voor de totale hoeveelheid bitcoins en of ze konden worden onderverdeeld. Satoshi gaf toen de volgende verklaring:
@@ -972,7 +972,7 @@ De communicatie van Satoshi trok ook de aandacht van een jonge Finse student inf
 
 > "Het systeem is anoniem en geen enkele regering kan de transacties belasten of verhinderen. Er is geen centrale bank die de munt kan devalueren door ongelimiteerd nieuw geld te creëren. De wijdverspreide invoering van zo'n systeem lijkt iets dat een verwoestend effect zou kunnen hebben op het vermogen van de staat om zich te voeden met zijn burgers."
 
-![Martti Malmi in 2013](assets/en/28.webp)
+![Martti Malmi in 2013](assets/en/028.webp)
 
 Martti Malmi in 2013 (bron: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
@@ -1023,7 +1023,7 @@ Na wat discussies over de te gebruiken technische oplossing, [installeert](https
 De eerste gebruikers registreren zich aan het begin van de volgende maand. Op 9 december verschijnt het [eerste bericht](https://bitcointalk.org/index.php?topic=12.msg40#msg40) gepost door iemand anders dan Satoshi, waarmee de discussies echt van start gaan. Ter illustratie is hier een [screenshot](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/) van het forum op 29 mei 2010:
 
 
-![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/29.webp)
+![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/029.webp)
 
 
 De lancering van het nieuwe forum was een gelegenheid om [versie 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) van de software vrij te geven, waar Satoshi Nakamoto en Martti Malmi maanden aan hadden gewerkt, wat gebeurde op 16 december. Deze versie bevat verbeteringen zoals minimalisatie naar de taakbalk, automatisch opstarten bij het opstarten en multithreading voor Mining productie. De software werd ook aangepast voor Linux, dankzij Malmi's bijdrage en tests uitgevoerd door het pas gearriveerde NewLibertyStandard (wiens case in het volgende hoofdstuk wordt behandeld).
@@ -1099,7 +1099,7 @@ De laatste twee redenen zijn veel belangrijker omdat ze mensen motiveren om cont
 Eind september 2009 ontdekte een individu met de schuilnaam NewLibertyStandard (die we zullen afkorten als NLS) Bitcoin. Hij probeert de software en start Mining. Het eerste blok dat hij produceert is [blok 23.940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). Hij is een Linux gebruiker en gebruikt daarom de "emulator" Wine om de software te draaien. Hij is geïnteresseerd in politieke vrijheid en edelmetalen, zoals blijkt uit zijn [avatar](https://bitcointalk.org/index.php?action=profile;u=26) op het forum, die een Amerikaanse adelaar afbeeldt waarop het woord "liberty" is gegraveerd. Hij ziet Bitcoin dus als een equivalent van goud in de digitale wereld: op zijn [persoonlijke pagina](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/) presenteert hij Satoshi Nakamoto's creatie als "een economische revolutie" en als "de gouden standaard van digitale valuta"
 
 
-![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/30.webp)
+![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/030.webp)
 
 
 In oktober 2009 werd de eerste Exchange valutadienst opgericht, waarmee mensen hun dollars konden omzetten in bitcoins en hun bitcoins terug in dollars. De maker registreerde zich op het Bitcoin forum op SourceForge en kondigde daar de opening van zijn dienst aan. Om het Exchange tarief te schatten, baseerde hij het op de energiekosten die nodig zijn om een eenheid te verkrijgen, rekening houdend met de prijs van elektriciteit op zijn locatie en de frequentie van zijn productie. Op zijn pagina [schreef hij](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
@@ -1110,7 +1110,7 @@ In oktober 2009 werd de eerste Exchange valutadienst opgericht, waarmee mensen h
 Hier zijn de indicatieve Exchange tarieven van de NLS service, ook gepubliceerd op de persoonlijke pagina van NLS:
 
 
-![Indicative exchange rates of the NLS service](assets/en/31.webp)
+![Indicative exchange rates of the NLS service](assets/en/031.webp)
 
 
 Transacties worden afgehandeld via e-mail op newlibertystandard@gmail.com. Overschrijvingen in dollars vinden uitsluitend plaats via PayPal en hiervoor worden kosten in rekening gebracht.
@@ -1143,7 +1143,7 @@ De coördinatie vindt voornamelijk plaats op het forum. Op 27 januari maakte een
 Op 5 februari [stelde](https://bitcointalk.org/index.php?topic=41.msg238#msg238) NLS voor dat Bitcoin, net als valuta's die op de buitenlandse Exchange markt worden verhandeld, het tickersymbool BTC en het symbool van de Thaise baht (฿) zouden overnemen. Tot dan toe was er geen vaste praktijk: Satoshi en Martti gebruikten bijvoorbeeld de letters `bc` om eenheden aan te duiden in hun [correspondentie] (https://mmalmi.github.io/Satoshi/#email-119). Het gebruik van het BTC-symbool werd snel gestandaardiseerd. Op 24 februari werd het valutasymbool (de hoofdletter B gekruist door twee verticale balken) [ontworpen](https://bitcointalk.org/index.php?topic=64.msg504#msg504) door Satoshi, die vervolgens het eerste echte Bitcoin logo ontwierp.
 
 
-![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/32.webp)
+![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/032.webp)
 
 
 Geleidelijk aan begonnen mensen Bitcoin te accepteren. Dit was het geval voor de gebruiker SmokeTooMuch in december 2009, die net was aangekomen en [het bestaan meldde](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) van een paysafecard cadeaukaart verkoopdienst genaamd BTC 2 PSC. De dienst werd later [positief vermeld](https://mmalmi.github.io/Satoshi/#email-141) door Satoshi op 4 februari 2010. Dit was ook het geval voor NLS die op 9 februari zijn eigen online winkel [opende](https://bitcointalk.org/index.php?topic=30.msg305#msg305), de Liberty Swap Variety Shop, waar hij postzegels en stickers te koop aanbood.
@@ -1158,7 +1158,7 @@ De Exchange met de dollar ontwikkelde zich ook en binnen twee maanden openden ni
 - Bitcoin Market (bitcoinmarket.com), een peer-to-peer marktplaats die PayPal gebruikt en die [gelanceerd](https://bitcointalk.org/index.php?topic=20.msg726#msg726) is door iemand met de naam dwdollar op 16 maart, en die een aanzienlijk succes zal kennen voor de opkomst van Mt. Gox in juli.
 
 
-![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/33.webp)
+![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/033.webp)
 
 [Capture] (https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) van de Bitcoin Markt Interface later (augustus 2011)
 
@@ -1172,7 +1172,7 @@ Andere diensten die Bitcoin accepteren duiken op, zoals de voice over IP dienst 
 Ook verschijnt de eerste speciale Bitcoin-bewaardienst: MyBitcoin, een webapplicatie die een eenvoudig en sereen gebruik van cryptocurrency mogelijk maakt, vooral op mobiel. Dankzij deze service hoeven gebruikers niet de volledige ketengegevens te downloaden om transacties te verzenden en te ontvangen, noch hoeven ze hun bitcoins zelf te bewaren door hun privésleutels op te slaan.
 
 
-![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/34.webp)
+![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/034.webp)
 
 
 Op dat moment bestonden lichtgewicht wallets (bekend als "SPV") nog niet, dus vond Satoshi Nakamoto het zelf acceptabel om dit soort software te gebruiken, ook al ging dit gebruik in tegen het principe van desintermediatie dat de kern vormt van Bitcoin. Op 18 mei 2010 [schreef] hij (https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) op het forum:
@@ -1236,7 +1236,7 @@ De toenemende vraag naar Bitcoin ging gepaard met een geleidelijke toename van M
 Satoshi Nakamoto was erg bezorgd over deze toename in moeilijkheidsgraad en onderhield een [geschiedenis](https://bitcointalk.org/index.php?topic=43.msg249#msg249) op het forum vanaf februari 2010. Hier is hoe het eruit zag:
 
 
-![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/35.webp)
+![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/035.webp)
 
 
 Ondanks dit enthousiasme over de toename in rekenkracht op het netwerk, wilde Satoshi toch de specialisatie van Mining vertragen om de verdeling van eenheden te bevorderen. Tot dan toe gebruikten miners hun centrale verwerkingseenheden (CPU's) om nieuwe bitcoins te extraheren. Deze processors bleken echter inefficiënt voor het uitvoeren van repetitieve bewerkingen, in vergelijking met grafische verwerkingseenheden (GPU's), die veel geschikter zijn voor dit soort repetitieve berekeningen. Daarom wist iedereen, inclusief Satoshi zelf, dat deze evolutie onvermijdelijk was. Op 19 december 2009 [verklaarde](https://bitcointalk.org/index.php?topic=12.msg54#msg54) hij als volgt:
@@ -1247,7 +1247,7 @@ Ondanks dit enthousiasme over de toename in rekenkracht op het netwerk, wilde Sa
 Een paar maanden later werd echter de doos van Pandora geopend. De onruststoker is Laszlo Hanyecz, een 28-jarige Amerikaanse ontwikkelaar van Hongaarse afkomst, die in Florida woont. Hij ontdekte Bitcoin in april 2010. Op de 9e [verwierf](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) hij 3.300 bitcoins van NLS voor ongeveer $20, waarna hij het systeem testte door een paar overschrijvingen te doen. Op de 18e probeerde hij het netwerk te overbelasten door transacties van zijn [openbare Address](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4) te vermenigvuldigen, maar het hield stand.
 
 
-![Laszlo Hanyecz with his son in May 2018](assets/en/36.webp)
+![Laszlo Hanyecz with his son in May 2018](assets/en/036.webp)
 
 Laszlo Hanyecz met zijn zoon in mei 2018 (bron: [De Telegraaf](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1270,7 +1270,7 @@ Deze stijging van Mining had ook een belangrijk gevolg: Satoshi stopte met het p
 Satoshi's Mining activiteit heeft een duidelijk patroon, waardoor het mogelijk is om de blokken te identificeren die hij waarschijnlijk heeft gevonden met een paar fout-positieven. Ontwikkelaar Sergio Lerner benadrukte dit Mining patroon in 2013 en noemde het het Patoshi Patroon.
 
 
-![Patoshi Pattern between blocks 0 and 50,000](assets/en/37.webp)
+![Patoshi Pattern between blocks 0 and 50,000](assets/en/037.webp)
 
 
 Het Patoshipatroon tussen blokken 0 en 50.000, zoals waargenomen op de website [satoshiblocks.info](http://satoshiblocks.info/): elk punt komt overeen met een blok. De blauwe lijnen zijn gevormd uit de blokken van Satoshi, en de andere lijnen vertegenwoordigen de uitvoer van andere miners.
@@ -1282,13 +1282,13 @@ Volgens een onderzoek van Whale Alert gepubliceerd in 2020, heeft Satoshi ongeve
 Met de toename in rekenkracht in de herfst van 2009 daalde het aandeel van de rekenkracht van Satoshi ten opzichte van de totale netwerkkracht geleidelijk. Het ging van 75% in maart 2009 naar 60% in september, daalde toen naar 15% in december en bereikte 0% in mei. Hieronder staat een grafiek gemaakt door [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) in 2014:
 
 
-![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/38.webp)
+![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/038.webp)
 
 
 Bovendien is de afname van Satoshi's dominantie in Mining niet louter passief: hij vertraagt zijn productie in dezelfde periode. Satoshi's verklaarde doel is namelijk dat iedereen meedoet: hij delft niet voor financieel gewin, maar om de werking van het netwerk te garanderen tot de stimuleringsmaatregelen effect hebben. Daarom verlaagt hij zijn Hash rate (het aantal berekeningen dat elke seconde wordt uitgevoerd) drie keer tijdens deze Mining periode: de eerste keer van 4,5 naar 2,5 MH/s in juni 2009, de tweede keer van 2,5 naar 1 MH/s in oktober, en de derde keer van 1 naar 0 MH/s in mei 2010. Hier is een grafiek van zijn Hash snelheidsevolutie gedurende deze periode ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
-![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/39.webp)
+![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/039.webp)
 
 
 Satoshi's Mining is daarom beslist altruïstisch, zoals [Jameson Lopp opmerkt](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/). Als hij Mining stopt op 3 mei 2010 (zijn laatste blok is [blok 54.316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), is dat weer een prestatie in de langzame ontwikkeling van Bitcoin: de overname van transactiebevestiging door economische actoren.
@@ -1305,7 +1305,7 @@ In mei 2010 vindt ook een belangrijke gebeurtenis plaats: de eerste aankoop van 
 Na vier dagen werd dit aanbod aanvaard. Een jonge Californiër genaamd Jeremy Sturdivant accepteerde de Exchange op de IRC instant messaging service.
 
 
-![Jeremy Sturdivant in May 2018](assets/en/40.webp)
+![Jeremy Sturdivant in May 2018](assets/en/040.webp)
 
 Jeremy Sturdivant in mei 2018 (bron: [De Telegraaf](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1313,7 +1313,7 @@ Jeremy Sturdivant in mei 2018 (bron: [De Telegraaf](https://www.telegraph.co.uk/
 Op 22 mei bestelde hij twee pizza's bij Papa John's, geleverd aan Laszlo in Jacksonville, Florida. Hij [ontving](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10.000 bitcoins in Exchange, ter waarde van ongeveer $44 tegen de Bitcoin Marktkoers. Hier is een foto van deze twee pizza's, [gedeeld](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) door Laszlo zelf:
 
 
-![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/41.webp)
+![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/041.webp)
 
 
 Hiermee is de eerste aankoop van een fysiek goed met bitcoins afgerond, ook al is deze aankoop indirect. Laszlo wordt gefeliciteerd door [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196), die schrijft dat "er een grote stap is gezet." NLS voegt ook een [positief commentaar](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) toe over deze zaak.
@@ -1336,7 +1336,7 @@ Toch deed de toename in de koopkracht van cryptocurrency niets af aan de symboli
 Deze periode zag ook de komst van een sleutelfiguur in de geschiedenis van Bitcoin: Gavin Andresen, een 44-jarige ontwikkelaar geboren in Australië die in 2004 de Amerikaanse [nationaliteit verwierf](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) en toen in Amherst, Massachusetts woonde. Terugkerend van een reis naar Australië en tijdelijk werkloos, ontdekte hij Bitcoin aan het einde van mei door een [artikel](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) van Neil McAllister gepubliceerd op InfoWorld. In dit artikel werd Satoshi Nakamoto's project voorgesteld als een "open-source innovatie"
 
 
-![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/42.webp)
+![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/042.webp)
 
 Gavin Andresen in Townsville, Queensland, Australië (bron: [CIO archief](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
@@ -1429,7 +1429,7 @@ Op 11 juli 2010 werd een herziene versie van de Bitcoin presentatie geschreven d
 
 > "Wat vind je van deze ontwrichtende technologie? Bitcoin is een peer-to-peer, netwerkgebaseerde digitale valuta zonder centrale bank en zonder transactiekosten. Gebruikmakend van een Proof-of-Work concept, verbranden nodes CPU-cycli op zoek naar bundels munten en zenden ze hun bevindingen naar het netwerk. Analyse van het energieverbruik geeft aan dat de marktwaarde van Bitcoins al hoger is dan de waarde van de energie die nodig is om ze te generate verbranden, wat duidt op een gezonde vraag. De gemeenschap heeft goede hoop dat de munteenheid buiten het bereik van overheden blijft."
 
-![Slashdot Logo in 2010](assets/en/43.webp)
+![Slashdot Logo in 2010](assets/en/043.webp)
 
 
 De publicatie werd opgemerkt en binnen een paar dagen werden bijna 500 reacties geplaatst. Voor Bitcoin leidde dit succes tot een massale toestroom van bezoekers naar de site en het forum. Het gebruik van Blockchain steeg: het aantal transacties op het netwerk steeg van 42 op 10 juli naar 1.641 op 12 juli en bereikte 5.554 op de 14e, een record. Het systeem hield stand ondanks de toegenomen belasting. Op de 14e schreef ontwikkelaar Gavin Andresen [https://bitcointalk.org/index.php?topic=286.msg2745#msg2745] op het forum:
@@ -1449,7 +1449,7 @@ Een ander effect van de toestroom van mensen van Slashdot is de toegenomen reken
 Onder degenen die Bitcoin ontdekten dankzij Slashdot was Jed McCaleb, een 35-jarige Amerikaanse ondernemer en programmeur die bekend staat om het medeoprichten en ontwikkelen van de peer-to-peer file-sharing software eDonkey2000 in de jaren 2000. Toen hij zich realiseerde hoe moeilijk het was om Bitcoin in Exchange voor dollars te krijgen, besloot hij "in een opwelling" een efficiënte marktplaats te creëren. Hiervoor gebruikte hij een van zijn oude projecten uit 2007: Magic The Gathering Online Exchange (MTGOX), een website voor het kopen en verkopen van kaarten voor het onlinespel *Magic: The Gathering Online*. Hij hergebruikte de domeinnaam van dit project (mtgox.com), wat de naam werd van het nieuwe platform: Mt. Gox, uitgesproken als "Mount Gox".
 
 
-![Jed McCaleb in 2013](assets/en/44.webp)
+![Jed McCaleb in 2013](assets/en/044.webp)
 
 Jed McCaleb in 2013 (bron: Ariel Zambelich voor [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
@@ -1457,7 +1457,7 @@ Jed McCaleb in 2013 (bron: Ariel Zambelich voor [Wired](https://web.archive.org/
 Een week later, op 18 juli, lanceerde Jed McCaleb zijn Exchange platform en [kondigde](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) het aan op het forum. Dankzij zijn expertise zorgde hij ervoor dat het platform werkte als een geautomatiseerde marktplaats, vergelijkbaar met moderne online beurzen. [Volgens hem](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891) onderscheidde het zich van de Bitcoin Markt omdat het "altijd online was, geautomatiseerd," "de site sneller was en dedicated hosting had," en "de Interface gebruiksvriendelijker was." Als gevolg hiervan werd Mt. Gox al snel het primaire middel om Bitcoin te verwerven en vestigde het zichzelf als de benchmark voor dollarnoteringen.
 
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/45.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/en/045.webp)
 
 Interface van het Mt. Gox-platform in februari 2011 (bron: [Mt. Gox archief](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
@@ -1495,7 +1495,7 @@ De maker van Bitcoin werkt echter niet alleen aan de code. Hij kan rekenen op Ga
 Tenslotte kunnen we Jeff Garzik noemen (onder het pseudoniem jgarzik op het forum), een Amerikaanse ontwikkelaar en medewerker in de wereld van vrije software, met name voor de Red Hat distributie, en een libertaire aanhanger van de Oostenrijkse economische school. Hij ontdekte Bitcoin door het artikel op Slashdot en raakte vrijwel meteen betrokken bij Bitcoin.
 
 
-![Jeff Garzik in 2013](assets/en/46.webp)
+![Jeff Garzik in 2013](assets/en/046.webp)
 
 Jeff Garzik in 2013 (bron: [Benson Samuel](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
 
@@ -1557,7 +1557,7 @@ Hoewel Satoshi het bestaan van de blokgroottelimiet niet vermeldde, merkten vers
 Tot slot heeft de aanwezigheid van deze parameter invloed op Jeff Garzik die [verklaart](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) "veel bezorgder te zijn over schaalbaarheid dan over de uitschakeling van de overheid" en die [vraagt](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) hoe het mogelijk is om "Bitcoin te verkopen aan serieuze investeerders, met ingebouwde beperkingen zoals de limiet van 463 transacties per minuut." Daarom stelt hij op 3 oktober een patch voor op het forum om de limiet voor de blokgrootte te verhogen naar 7.168 MB om "de gemiddelde transactiesnelheid van PayPal te evenaren" Theymos reageert door te zeggen dat "het toepassen van deze patch je incompatibel maakt met andere Bitcoin clients." Dit bericht wordt onderschreven door Satoshi Nakamoto die [adviseert](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) de patch niet te gebruiken en stelt: "We kunnen later een verandering faseren als we dichter bij de noodzaak komen." Deze laatste [verduidelijkt](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) zijn gedachten de volgende dag door aan te geven hoe zo'n protocolwijziging moet worden doorgevoerd.
 
 
-![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/47.webp)
+![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/047.webp)
 
 
 Deze discussie markeert het begin van het debat over schaalbaarheid, dat uiteindelijk zou leiden tot een echte burgeroorlog tussen 2015 en 2017, bekend als de blocksize war.
@@ -1609,7 +1609,7 @@ Deze periode was vooral een gouden tijdperk voor Mining, dat aanzienlijke verbet
 Nadat Bitcoin slashdotted was in juli 2010, moedigden de hoge financiële beloning van de prijsstijging en de mogelijkheid van toekomstige groei individuen aan om zich intensiever te wijden aan het genereren van Bitcoin. Daarom steeg de [Hash rate](https://bitinfocharts.com/comparison/Bitcoin-Hashrate.html#alltime) van het netwerk, die op 11 juli 0,22 GH/s bedroeg, naar 2,78 GH/s op de 17e, daarna naar 5,79 GH/s op 15 augustus, om uiteindelijk 9,94 GH/s te bereiken op 19 september en uiteindelijk 12,58 GH/s op 29 september.
 
 
-![Total network hash rate from July 11 to October 5, 2010](assets/en/48.webp)
+![Total network hash rate from July 11 to October 5, 2010](assets/en/048.webp)
 
 Totale netwerk Hash koers van 11 juli tot 5 oktober 2010 (bron: [CoinWarz](https://www.coinwarz.com/Mining/Bitcoin/Hashrate-chart))
 
@@ -1619,7 +1619,7 @@ De grootste Miner van deze periode was een Duitse ontwikkelaar die ArtForz heett
 Hij begon bitcoins te genereren op 19 juli. Op 25 juli, in een thread die gebruikers ondervroeg over hun Bitcoin bezit, [verklaarde](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) ArtForz dat hij 1.700 bitcoins had gegenereerd in 6 dagen, wat overeenkomt met 4% van de Hash koers, of 80 MH/s. Geleidelijk aan bouwde hij een grote Mining boerderij, die bekend zou worden als "ArtFarm" In augustus omvatte zijn farm [https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-Mining/] 6 ATI Radeon HD 5770s, waardoor hij van 76 MH/s op 9 augustus kon stijgen naar ongeveer 450 MH/s op de 13e.
 
 
-![ArtForz's mining production between August and October 2010](assets/en/49.webp)
+![ArtForz's mining production between August and October 2010](assets/en/049.webp)
 
 De Mining productie van ArtForz tussen augustus en oktober 2010 (bron: Blackburn et al., "[Samenwerking tussen een anonieme groep beschermde Bitcoin tijdens mislukkingen van decentralisatie](https://arxiv.org/pdf/2206.02871)")
 
@@ -1666,7 +1666,7 @@ Op 23 november werd een gewijzigde versie van de `getwork` functie toegevoegd aa
 Op 27 november publiceerde een jonge Tsjechische ontwikkelaar genaamd Marek Palatinus, onder het pseudoniem slush, [https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0] een beschrijving van "coöperatief Mining" op het forum, een model dat gebruik maakt van `getwork` en de logica van Jeff Garzik. Dit model is gebaseerd op de gedeeltelijke bewijzen van werk geproduceerd door de miners (pay-per-share). De volgende dag [keurde] Satoshi Nakamoto het concept goed (https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119).
 
 
-![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/50.webp)
+![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/050.webp)
 
 Marek Palatinus (slush) op de Z-DAY conferentie in Praag op 11 mei 2013
 
@@ -1683,7 +1683,7 @@ In de nacht van 15 op 16 december werd de coöperatie eindelijk [gelanceerd](htt
 De coöperatie zou een benchmark worden in Bitcoin Mining. Het [droeg](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) in de loop der jaren verschillende namen: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, en uiteindelijk Slush Pool, over de maker. In september 2022 werd het Braiins Pool.
 
 
-![Logo of Slush's cooperative in September 2011](assets/en/51.webp)
+![Logo of Slush's cooperative in September 2011](assets/en/051.webp)
 
 Logo van de coöperatie van Slush in september 2011 (bron: [archief](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/) van de site)
 
@@ -1724,13 +1724,15 @@ In de Franse gemeenschap veranderde de situatie, met name door toedoen van één
 Een paar dagen later, op de 30e, publiceerde hij een [nieuwsbericht](https://linuxfr.org/news/connaissez-vous-les-bitcoins) in het Frans op LinuxFr.org (DLFP). Dit bericht, getiteld "Do you know about bitcoins?", is waarschijnlijk de eerste presentatie van Bitcoin geschreven in de taal van Molière. Het artikel bereikte een groot aantal mensen en leverde bijna 350 reacties op. Hier is de eerste paragraaf zoals die toen [verscheen] (https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html):
 
 
-![Do you know about bitcoins?](assets/en/52.webp)
+![Do you know about bitcoins?](assets/en/052.webp)
 
+
+> **Artikelen: Kent u bitcoins?** Bitcoin is een elektronische munt die in 2009 is ontworpen door een zekere Satoshi Nakamoto. Deze munt onderscheidt zich van andere elektronische munten door zijn volledig gedecentraliseerde peer-to-peer-karakter en het slimme gebruik van basis cryptografische concepten. Het is gebaseerd op software die in C++ is geschreven en gepubliceerd onder de vrije MIT-licentie.
 
 Dit bericht trekt in het bijzonder de aandacht van een zekere Ploum, echte naam Lionel Dricot, een 29-jarige Belgische blogger en voorvechter van vrije software. Op 25 oktober [publiceerde](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) hij een artikel op zijn blog, getiteld "Geek Currency, Monkey Money?", waarin hij pleit voor decentralisatie en het principe van Bitcoin ondersteunt. Veel Franstalige internetgebruikers hoorden via deze weg over Bitcoin, waaronder [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), de ontwikkelaar die in 2017 Bitcoin Cash zou creëren.
 
 
-![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/53.webp)
+![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/053.webp)
 
 Lionel Dricot (Ploum) in 2012, toen kandidaat onder de vlag van de Piratenpartij voor de Belgische gemeentelijke en provinciale verkiezingen (bron: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
@@ -1743,13 +1745,13 @@ Op dezelfde dag opende Ploum de [discussie draad](https://bitcointalk.org/index.
 Naast de ontwikkeling van taalgemeenschappen is er een zekere innovatie in de methoden die gebruikt worden voor communicatie over Bitcoin. Op 4 oktober lanceerde een 38-jarige Australiër onder het pseudoniem noagendamarket [https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217] een initiatief met de naam BitcoinMedia. Het idee is om Bitcoin te promoten door inhoud te creëren en te adverteren op plaatsen die waarschijnlijk een publiek zullen aantrekken. Hoewel dit initiatief niet het verwachte succes had, heeft het de verdienste dat het heeft geleid tot de productie van de eerste video's over Bitcoin. De eerste video van het kanaal, [gepubliceerd](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) op 5 oktober, is een Google Search Story, gemaakt met de YouTube tool (zie de schermafbeelding hieronder). De andere video's worden gegenereerd met Xtranormal, een eenvoudige tool voor het maken van videosequenties uit een set vooraf ontworpen personages en settings.
 
 
-![First video on Bitcoin (Google Search Story)](assets/en/54.webp)
+![First video on Bitcoin (Google Search Story)](assets/en/054.webp)
 
 
 Het aantal blogposts over Bitcoin neemt in deze periode toe. Dit is met name het geval voor Jon Matonis, die de blog *The Monetary Future* beheert waar hij digitale valuta, vrij bankieren en cryptografie bespreekt. Hij ontdekte Bitcoin in maart en [ruilde](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514) met Satoshi, waarna hij over het onderwerp begon te schrijven. In oktober publiceert hij een [derde artikel](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html) waarin hij het heeft over de prijsstijging en de nieuwigheden van het ecosysteem.
 
 
-![Profile picture of Jon Matonis in 2011](assets/en/55.webp)
+![Profile picture of Jon Matonis in 2011](assets/en/055.webp)
 
 Profielfoto van Jon Matonis in 2011 (bron: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
@@ -1757,7 +1759,7 @@ Profielfoto van Jon Matonis in 2011 (bron: [Forbes](https://www.forbes.com/sites
 Op dit moment is er ook een nieuw Bitcoin logo voorgesteld. Op 1 november [publiceerde] (https://bitcointalk.org/index.php?topic=1631.0) een forumlid met het pseudoniem bitboy grafische Elements om de cryptocurrency onder de aandacht te brengen. Een van deze Elements is een oranje logo met de B doorgestreept en licht gekanteld:
 
 
-![Bitcoin logo designed by bitboy, November 2010](assets/en/56.webp)
+![Bitcoin logo designed by bitboy, November 2010](assets/en/056.webp)
 
 
 ### Een groeiende economie
@@ -1767,7 +1769,7 @@ Deze periode wordt ook gekenmerkt door een opmerkelijke groei van het ecosysteem
 Al deze Elements leiden ertoe dat de prijs drastisch stijgt. Terwijl hij sinds augustus rond de 6¢ is gestabiliseerd, begint hij begin oktober te stijgen. Hij gaat naar 10¢ en bereikt 20¢ aan het eind van de maand. Op 6 november overschrijdt de prijs de 50¢, wat de forumleden niet onberoerd laat [opwinden](https://bitcointalk.org/index.php?topic=1681.0).
 
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/57.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/057.webp)
 
 BTC Prijs tussen 18 juli en 18 oktober 2010, op Mt. Gox (bron: [*De Monetaire Toekomst*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
 
@@ -1792,7 +1794,7 @@ Een laatste element dat wijst op het succes van Bitcoin is dat sommigen de grenz
 Eind 2010 was een belangrijke gebeurtenis de aanvaarding van Bitcoin door de Electronic Frontier Foundation. Deze organisatie is een internationale organisatie voor het beschermen van vrijheden op het internet, mede opgericht in 1900 door Mitch Kapor, John Gilmore en John Perry Barlow. Dit was vooral belangrijk voor de vroege gebruikers van Bitcoin, die in hart en nieren cypherpunks waren. Ze wilden Bitcoin graag accepteren.
 
 
-![Logo of the Electronic Frontier Foundation](assets/en/58.webp)
+![Logo of the Electronic Frontier Foundation](assets/en/058.webp)
 
 
 Het was het forumlid genaamd Kiba die op 13 augustus 2010 het initiatief nam door [voor te stellen](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) contact op te nemen met de EFF en voor te stellen een donatie te accepteren, [verzameld](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) van de gemeenschap. Voor dit doel maakte hij een [account](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) aan op MyBitcoin waar hij het geld verzamelde en wilde overmaken naar de EFF. Hij stelde een (door de gemeenschap gecorrigeerde) e-mail op die hij eind augustus verstuurde.
@@ -1877,7 +1879,7 @@ Gavin, die dicht bij Satoshi staat maar ook met andere ontwikkelaars discussieer
 De aanleiding voor het vertrek van Satoshi is de WikiLeaks-affaire. WikiLeaks is een niet-gouvernementele organisatie die in 2006 werd opgericht door Cypherpunk Julian Assange, met als doel een stem te geven aan klokkenluiders en informatielekken en tegelijkertijd hun bronnen te beschermen. In 2010 werden de vertrouwelijke documenten die door de NGO waren onthuld, door de grote media verspreid en veroorzaakten ze opschudding in de publieke opinie. Het gaat met name om de buitensporige acties van het Amerikaanse leger, zoals burgerslachtoffers en gepleegde martelingen, in Afghanistan (Afghan War Diary) en Irak (Iraq War Logs).
 
 
-![WikiLeaks logo in November 2010](assets/en/59.webp)
+![WikiLeaks logo in November 2010](assets/en/059.webp)
 
 
 De financiering van WikiLeaks is voornamelijk gebaseerd op donaties van het publiek, dus vertrouwt de organisatie op betalingsverwerkers om online betalingen te ontvangen. Na deze onthullingen wordt er echter druk uitgeoefend op deze tussenpersonen die de reactie van de toezichthouder vrezen. Daarom [bevriest](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) het online betalingsbedrijf Moneybookers de rekening van de NGO op 14 oktober.
@@ -1886,7 +1888,7 @@ De financiering van WikiLeaks is voornamelijk gebaseerd op donaties van het publ
 Deze situatie opent een koninklijke weg voor het gebruik van Bitcoin, dat niet afhankelijk is van een betrouwbare derde partij en veel beter bestand zou zijn tegen financiële censuur. In november opende Amir Taaki, een 22-jarige Brits-Iraanse die het pseudoniem genjix gebruikt, de hypothese op het forum.
 
 
-![Amir Taaki in December 2012 in Bratislava](assets/en/60.webp)
+![Amir Taaki in December 2012 in Bratislava](assets/en/060.webp)
 
 Amir Taaki in december 2012 in Bratislava (bron: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
@@ -2057,25 +2059,25 @@ Maar het is vooral het beheer van de website dat Martti moet delegeren. Eind 201
 Het uiterlijk veranderde ook. In december 2010 zag de website er nog net zo uit als tijdens het Satoshi tijdperk. Hier is een [snapshot] (https://web.archive.org/web/20101110005546/http://www.Bitcoin.org/) van 5 december:
 
 
-![Snapshot of Bitcoin.org from December 5, 2010](assets/en/61.webp)
+![Snapshot of Bitcoin.org from December 5, 2010](assets/en/061.webp)
 
 
 Zo werd er begin 2011 een vleugje kleur [toegevoegd](https://web.archive.org/web/20110216125441/http://www.Bitcoin.org/):
 
 
-![Snapshot of Bitcoin.org from February 16, 2011](assets/en/62.webp)
+![Snapshot of Bitcoin.org from February 16, 2011](assets/en/062.webp)
 
 
 In april veranderde de lay-out van de website als gevolg van een herontwerp [georganiseerd](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) door de gemeenschap. Hier is hoe het er toen [uitzag](https://web.archive.org/web/20110411071904/http://www.Bitcoin.org/):
 
 
-![Snapshot of Bitcoin.org from April 11, 2011](assets/en/63.webp)
+![Snapshot of Bitcoin.org from April 11, 2011](assets/en/063.webp)
 
 
 Uiteindelijk werd in september 2011 een nieuwe wijziging [gemaakt](https://buildingbitcoin.org/Bitcoin-dev/log-2011-08-31.html#l-691) door Nils Schneider. Voor de gelegenheid werd een nieuwe GitHub repository [aangemaakt](https://github.com/Bitcoin/Bitcoin.org). Dit ontwerp zou langer blijven bestaan: het zou pas in 2013 worden veranderd. Hier is het (merk op dat Bitcoin-de-software dan wordt beschreven als "een community-gedreven open source project"):
 
 
-![Snapshot of Bitcoin.org from September 23, 2011](assets/en/64.webp)
+![Snapshot of Bitcoin.org from September 23, 2011](assets/en/064.webp)
 
 
 De wiki was aanvankelijk gebaseerd op DokuWiki, een gratis engine die in de website was geïntegreerd. In december 2010 maakte Mark Karpelès, een Franse ontwikkelaar die in Japan woont en op het forum het pseudoniem MagicalTux gebruikt, echter een nieuwe wiki aan op Bitcoin.it. Deze wiki is gebaseerd op de MediaWiki-engine, die hij eleganter en gebruiksvriendelijker vindt. Het initiële idee is niet om de bestaande documentatie te vervangen, maar, zoals Mark [uitdrukt](https://buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) op IRC, om "een minder formele, meer gemeenschapsgerichte wiki" te ontwikkelen
@@ -2084,7 +2086,7 @@ De wiki was aanvankelijk gebaseerd op DokuWiki, een gratis engine die in de webs
 Deze nieuwe wiki spreekt [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) en [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535) aan, dus ze overwegen al snel om er de hoofdwiki van te maken. Hier is een [snapshot](https://web.archive.org/web/20110521044430/https://en.Bitcoin.it/wiki/Main_Page) genomen op 21 mei:
 
 
-![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/65.webp)
+![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/065.webp)
 
 
 Een paar dagen na de lancering verwijst de link "wiki" op de Bitcoin.org homepage [naar] (https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) Bitcoin.it. De inhoud wordt geleidelijk overgezet van de DokuWiki versie. Op 31 januari [geeft](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) Martti op het forum aan dat dit de nieuwe wiki is.
@@ -2112,7 +2114,7 @@ Februari markeert ook de [eerste gefilmde presentatie](https://www.youtube.com/w
 Hoewel de eerste evenementen in de Verenigde Staten plaatsvonden, bleef de Franse gemeenschap niet achter. Op 25 mei werd ter gelegenheid van het bezoek van Gavin Andresen aan Parijs een lunch georganiseerd in het district La Défense, die werd bijgewoond door prominenten als Lucien Grondin, David François en Jon Matonis (die ook op bezoek was).
 
 
-![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/66.webp)
+![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/066.webp)
 
 Ontmoeting op La Défense in Parijs met Gavin Andresen, in een roze shirt (bron: [forum archive](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
@@ -2120,7 +2122,7 @@ Ontmoeting op La Défense in Parijs met Gavin Andresen, in een roze shirt (bron:
 Een maand later, op 15 juni, vond de eerste openbare presentatie van Bitcoin in het Frans [plaats](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), opnieuw in Parijs. Deze werd gegeven door Renaud Lifchitz (nono2357), een jonge cyberveiligheidsexpert die Bitcoin een jaar eerder had ontdekt. De [gepresenteerde inhoud](https://prezi.com/tikwkjt9ouey/Bitcoin-une-monnaie-electronique-pour-tous/) was van zeer hoge kwaliteit, en de opkomst van het publiek was zo goed dat de zaal stampvol zat.
 
 
-![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/67.webp)
+![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/067.webp)
 
 Bitcoin presentatie door Renaud Lifchitz op 15 juni 2011 (bron: [forumarchief](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
@@ -2151,7 +2153,7 @@ Ten eerste begonnen er steeds meer video's over dit onderwerp op YouTube te vers
 In april werd het onderwerp digitale valuta behandeld door grote mainstream persorganen zoals [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/) en [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). In mei kwam de beweging in een stroomversnelling en Bitcoin werd bijna overal genoemd, met name in [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/Bitcoin-P2P-currency), op [Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), op [Gizmodo](https://gizmodo.com/what-is-Bitcoin-5803124) en [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/).
 
 
-![Gavin Andresen in Forbes in April 2011](assets/en/68.webp)
+![Gavin Andresen in Forbes in April 2011](assets/en/068.webp)
 
 Gavin Andresen in Forbes in april 2011 (bron: [Forbes archief](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
@@ -2168,7 +2170,7 @@ Individuele bloggers zijn ook geïnteresseerd. Dit is het geval voor Rick Falkvi
 De popularisering van Bitcoin betekent dat de prijs aanzienlijk stijgt. In december 2010 was de prijs gedaald tot 20 cent, maar op 9 februari 2011 bereikte hij pariteit met de dollar. Op dat moment verklaarde Hal Finney [https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307] dat leden van de gemeenschap "echt geluk hebben om aan het begin te staan van een mogelijk explosief nieuw fenomeen" Hij had een goed instinct, want wat er nu gebeurt is bliksemsnel.
 
 
-![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/69.webp)
+![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/069.webp)
 
 Foto gepubliceerd door jimbobway op het forum de dag van pariteit met de dollar (bron: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
@@ -2176,7 +2178,7 @@ Foto gepubliceerd door jimbobway op het forum de dag van pariteit met de dollar 
 Inderdaad, de mediagekte van de lente creëert geleidelijk een ongekend speculatief fenomeen. Na enkele maanden rond de $1 te hebben gestagneerd, ging de prijs omhoog en bereikte $3 aan het einde van april. In mei staat de prijs op $8. Uiteindelijk bereikt de prijs van Bitcoin op 8 juni een historisch hoogtepunt van $32 op Mt. Gox! Deze stijging komt overeen met een 160-voudige toename in zes maanden.
 
 
-![Average price of BTC between January 1 and June 30, 2011](assets/en/70.webp)
+![Average price of BTC between January 1 and June 30, 2011](assets/en/070.webp)
 
 Gemiddelde prijs van BTC tussen 1 januari en 30 juni 2011 (bron: [Bitbo.io](https://calendar.bitbo.io/price/))
 

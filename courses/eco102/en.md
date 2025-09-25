@@ -481,7 +481,6 @@ Imagine an English knife that sells in our country for 2 euros, and a knife made
 
 If we ban the English product, the consumer will pay one more unit for his knife. Protectionism thus results in a profit for a national industry and two losses, one for another industry (that of pencils) and the other for the consumer. On the contrary, free trade makes two happy winners.
 
-![image](assets/en/059.webp)
 
 Protectionism is also a form of class struggle. According to Bastiat, it is a system based on the selfishness and greed of producers. To increase their remuneration, farmers or industrialists demand taxes to close the market to foreign products, thus forcing consumers to pay more for their products.
 

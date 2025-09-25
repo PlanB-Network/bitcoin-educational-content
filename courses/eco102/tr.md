@@ -706,7 +706,6 @@ fransa'da üretilen bir blenderin tanıtım reklamı örneği_
 Eğer İngiliz ürününü yasaklarsak, tüketici bıçağı için bir birim daha fazla ödeyecektir. Dolayısıyla korumacılık ulusal bir endüstri için bir kar ve biri başka bir endüstri (kalem endüstrisi) diğeri de tüketici için olmak üzere iki kayıpla sonuçlanır. Aksine, serbest ticaret iki mutlu kazanan yaratır.
 
 
-![image](assets/en/059.webp)
 
 
 Korumacılık aynı zamanda bir sınıf mücadelesi biçimidir. Bastiat'ya göre, üreticilerin bencilliğine ve açgözlülüğüne dayanan bir sistemdir. Çiftçiler ya da sanayiciler ücretlerini arttırmak için piyasayı yabancı ürünlere kapatmak üzere vergi talep eder, böylece tüketicileri kendi ürünleri için daha fazla ödemeye zorlarlar.

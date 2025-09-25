@@ -707,7 +707,6 @@ Wyobraźmy sobie angielski nóż, który sprzedaje się w naszym kraju za 2 euro
 Jeśli zakażemy angielskiego produktu, konsument zapłaci o jedną jednostkę więcej za swój nóż. Protekcjonizm skutkuje więc zyskiem dla krajowego przemysłu i dwiema stratami, jedną dla innego przemysłu (tego produkującego ołówki), a drugą dla konsumenta. Wręcz przeciwnie, wolny handel daje dwóch szczęśliwych zwycięzców.
 
 
-![image](assets/en/059.webp)
 
 
 Protekcjonizm jest również formą walki klasowej. Według Bastiata jest to system oparty na egoizmie i chciwości producentów. Aby zwiększyć swoje wynagrodzenie, rolnicy lub przemysłowcy żądają podatków, aby zamknąć rynek dla zagranicznych produktów, zmuszając tym samym konsumentów do płacenia więcej za ich produkty.

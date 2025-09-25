@@ -707,7 +707,6 @@ Stellen Sie sich ein englisches Messer vor, das bei uns für 2 Euro verkauft wir
 Wenn wir das englische Produkt verbieten, wird der Verbraucher eine Einheit mehr für sein Messer bezahlen. Protektionismus führt also zu einem Gewinn für eine nationale Industrie und zu zwei Verlusten, einem für eine andere Industrie (die der Bleistifte) und dem anderen für den Verbraucher. Im Gegensatz dazu gibt es beim Freihandel zwei glückliche Gewinner.
 
 
-![image](assets/en/059.webp)
 
 
 Der Protektionismus ist auch eine Form des Klassenkampfes. Bastiat zufolge ist er ein System, das auf dem Egoismus und der Gier der Produzenten beruht. Um ihre Löhne zu erhöhen, fordern Landwirte oder Industrielle Steuern, um den Markt für ausländische Produkte zu schließen und so die Verbraucher zu zwingen, mehr für ihre Produkte zu bezahlen.

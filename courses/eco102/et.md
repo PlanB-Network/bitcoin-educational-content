@@ -707,7 +707,6 @@ Kujutage ette, et Inglismaa nuga müüakse meie riigis 2 euroga, Prantsusmaal va
 Kui me keelame inglise toote, maksab tarbija oma noa eest ühe ühiku võrra rohkem. Protektsionismi tulemuseks on seega kasumi saamine siseriiklikule tööstusele ja kaks kahjumit, üks teisele tööstusele (pliiatsite tootmisele) ja teine tarbijale. Vastupidi, vabakaubandus toob kaks õnnelikku võitjat.
 
 
-![image](assets/en/059.webp)
 
 
 Protektsionism on samuti klassivõitluse vorm. Bastiat' sõnul on see süsteem, mis põhineb tootjate isekusel ja ahnusel. Oma tasu suurendamiseks nõuavad põllumajandustootjad või töösturid makse, et sulgeda turg välismaistele toodetele, sundides seega tarbijaid maksma oma toodete eest rohkem.

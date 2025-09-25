@@ -706,7 +706,6 @@ Hebu fikiria kisu cha Kiingereza ambacho kinauzwa katika nchi yetu kwa euro 2, n
 Ikiwa tutapiga marufuku bidhaa ya Kiingereza, mtumiaji atalipa kitengo kimoja zaidi kwa kisu chake. Ulinzi kwa hivyo husababisha faida kwa tasnia ya kitaifa na hasara mbili, moja kwa tasnia nyingine (ile ya penseli) na nyingine kwa watumiaji. Kinyume chake, biashara huria huwafanya washindi wawili wenye furaha.
 
 
-![image](assets/en/059.webp)
 
 
 Ulinzi pia ni aina ya mapambano ya kitabaka. Kulingana na Bastiat, ni mfumo unaozingatia ubinafsi na uchoyo wa wazalishaji. Ili kuongeza ujira wao, wakulima au wenye viwanda hudai kodi ili kufunga soko kwa bidhaa za nje, hivyo kuwalazimu walaji kulipia zaidi bidhaa zao.

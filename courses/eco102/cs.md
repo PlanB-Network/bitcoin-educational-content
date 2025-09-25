@@ -476,8 +476,6 @@ Představte si anglický nůž, který se v naší zemi prodává za 2 eura, a n
 
 Pokud zakážeme anglický produkt, spotřebitel zaplatí za svůj nůž o frank více. Protekcionismus tak vede k zisku pro národní průmysl a dvěma ztrátám, jednu pro jiný průmysl (ten tužkový) a druhou pro spotřebitele. Naopak, volný obchod dělá dva šťastné vítěze.
 
-![obrázek](assets/en/059.webp)
-
 Protekcionismus je také formou třídního boje. Podle Bastiata je to systém založený na sobectví a chamtivosti výrobců. Aby zvýšili svou odměnu, zemědělci nebo průmyslníci požadují daně, aby uzavřeli trh pro zahraniční produkty, čímž donutí spotřebitele platit více za jejich produkty.
 
 ![obrázek](assets/en/060.webp)

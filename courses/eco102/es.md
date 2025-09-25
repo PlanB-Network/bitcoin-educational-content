@@ -707,7 +707,6 @@ Imaginemos un cuchillo inglés que se vende en nuestro país a 2 euros, y un cuc
 Si prohibimos el producto inglés, el consumidor pagará una unidad más por su navaja. El proteccionismo produce así un beneficio para una industria nacional y dos pérdidas, una para otra industria (la de los lápices) y otra para el consumidor. Por el contrario, el libre comercio produce dos felices ganadores.
 
 
-![image](assets/en/059.webp)
 
 
 El proteccionismo es también una forma de lucha de clases. Según Bastiat, es un sistema basado en el egoísmo y la codicia de los productores. Para aumentar su remuneración, los agricultores o los industriales exigen impuestos para cerrar el mercado a los productos extranjeros, obligando así a los consumidores a pagar más por sus productos.

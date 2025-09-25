@@ -484,8 +484,6 @@ Immaginate un coltello inglese che si vende nel nostro paese per 2 euro, e un co
 
 Se vietiamo il prodotto inglese, il consumatore pagherà un franco in più per il suo coltello. Il protezionismo risulta quindi in un profitto per un'industria nazionale e due perdite, una per un'altra industria (quella delle matite) e l'altra per il consumatore. Al contrario, il libero scambio rende due felici vincitori.
 
-![immagine](assets/en/059.webp)
-
 Il protezionismo è anche una forma di lotta di classe. Secondo Bastiat, è un sistema basato sull'egoismo e l'avidità dei produttori. Per aumentare la loro remunerazione, agricoltori o industriali richiedono tasse per chiudere il mercato ai prodotti stranieri, costringendo così i consumatori a pagare di più per i loro prodotti.
 
 ![immagine](assets/en/060.webp)

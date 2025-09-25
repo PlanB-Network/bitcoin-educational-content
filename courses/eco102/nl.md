@@ -706,7 +706,6 @@ Stel je een Engels mes voor dat in ons land wordt verkocht voor 2 euro, en een m
 Als we het Engelse product verbieden, betaalt de consument een eenheid meer voor zijn mes. Protectionisme resulteert dus in winst voor een nationale industrie en twee verliezen, één voor een andere industrie (die van potloden) en de andere voor de consument. Vrijhandel daarentegen zorgt voor twee gelukkige winnaars.
 
 
-![image](assets/en/059.webp)
 
 
 Protectionisme is ook een vorm van klassenstrijd. Volgens Bastiat is het een systeem dat gebaseerd is op het egoïsme en de hebzucht van producenten. Om hun beloning te verhogen, eisen boeren of industriëlen belastingen om de markt te sluiten voor buitenlandse producten, waardoor consumenten gedwongen worden meer te betalen voor hun producten.

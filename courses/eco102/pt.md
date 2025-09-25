@@ -707,7 +707,6 @@ Imaginemos que uma faca inglesa é vendida no nosso país por 2 euros e que uma 
 Se proibirmos o produto inglês, o consumidor pagará mais uma unidade pela sua faca. Assim, o protecionismo resulta num lucro para uma indústria nacional e em duas perdas, uma para outra indústria (a dos lápis) e outra para o consumidor. Pelo contrário, o comércio livre dá origem a dois felizes vencedores.
 
 
-![image](assets/en/059.webp)
 
 
 O protecionismo é também uma forma de luta de classes. Segundo Bastiat, é um sistema baseado no egoísmo e na ganância dos produtores. Para aumentar a sua remuneração, os agricultores ou os industriais exigem impostos para fechar o mercado aos produtos estrangeiros, obrigando assim os consumidores a pagar mais pelos seus produtos.

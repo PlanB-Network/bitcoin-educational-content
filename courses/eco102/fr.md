@@ -511,8 +511,6 @@ Imaginons un couteau anglais qui se vend dans notre pays pour 2 euros, et qu’u
 
 Si on interdit le produit anglais, le consommateur paiera un franc de plus son couteau. Le protectionnisme se traduit donc par un profit pour une industrie nationale et par deux pertes, l’une pour une autre industrie (celle des crayons) et l’autre pour le consommateur. Au contraire, l’échange libre fait deux heureux gagnants.
 
-![image](assets/en/059.webp)
-
 Le protectionnisme est également une forme de lutte des classes. Selon Bastiat, c’est un système fondé sur l’égoïsme et l’avidité des producteurs. Pour augmenter leur rémunération, les agriculteurs ou les industriels réclament des taxes pour fermer le marché aux produits étrangers, contraignant ainsi les consommateurs à payer leurs produits plus chers.
 
 ![image](assets/en/060.webp)

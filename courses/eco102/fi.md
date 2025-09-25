@@ -707,7 +707,6 @@ Kuvitellaanpa englantilainen veitsi, jota myydään maassamme 2 eurolla, ja Rans
 Jos kiellämme englantilaisen tuotteen, kuluttaja maksaa veitsestään yhden yksikön enemmän. Protektionismi johtaa siis voittoon kansalliselle teollisuudelle ja kahteen tappioon, joista toinen koituu toiselle teollisuudelle (lyijykynät) ja toinen kuluttajalle. Sitä vastoin vapaakauppa tuottaa kaksi onnellista voittajaa.
 
 
-![image](assets/en/059.webp)
 
 
 Protektionismi on myös luokkataistelun muoto. Bastiat'n mukaan se on järjestelmä, joka perustuu tuottajien itsekkyyteen ja ahneuteen. Lisätäkseen palkkioitaan maanviljelijät tai teollisuusyrittäjät vaativat veroja sulkeakseen markkinat ulkomaisilta tuotteilta ja pakottaakseen näin kuluttajat maksamaan enemmän heidän tuotteistaan.

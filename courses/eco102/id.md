@@ -486,8 +486,6 @@ Bayangkan sebuah pisau Inggris yang dijual di negara kita seharga 2 euro, dan pi
 
 Jika kita melarang produk Inggris, konsumen akan membayar satu franc lebih untuk pisau nya. Proteksionisme dengan demikian menghasilkan keuntungan untuk industri nasional dan dua kerugian, satu untuk industri lain (itu dari pensil) dan yang lainnya untuk konsumen. Sebaliknya, perdagangan bebas membuat dua pemenang bahagia.
 
-![image](assets/en/059.webp)
-
 Proteksionisme juga merupakan bentuk perjuangan kelas. Menurut Bastiat, ini adalah sistem yang didasarkan pada keegoisan dan keserakahan produsen. Untuk meningkatkan remunerasi mereka, petani atau industrialis menuntut pajak untuk menutup pasar terhadap produk asing, sehingga memaksa konsumen membayar lebih untuk produk mereka.
 
 ![image](assets/en/060.webp)

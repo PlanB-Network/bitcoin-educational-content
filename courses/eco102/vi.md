@@ -707,7 +707,6 @@ Hãy tưởng tượng một con dao Anh được bán ở nước ta với giá
 Nếu chúng ta cấm sản phẩm của Anh, người tiêu dùng sẽ phải trả thêm một đơn vị cho con dao của mình. Do đó, chủ nghĩa bảo hộ dẫn đến lợi nhuận cho một ngành công nghiệp quốc gia và hai khoản lỗ, một cho một ngành công nghiệp khác (ngành sản xuất bút chì) và một cho người tiêu dùng. Ngược lại, thương mại tự do tạo ra hai người chiến thắng hạnh phúc.
 
 
-![image](assets/en/059.webp)
 
 
 Chủ nghĩa bảo hộ cũng là một hình thức đấu tranh giai cấp. Theo Bastiat, đó là một hệ thống dựa trên sự ích kỷ và lòng tham của người sản xuất. Để tăng thu nhập, nông dân hoặc các nhà công nghiệp yêu cầu đánh thuế để đóng cửa thị trường đối với hàng hóa nước ngoài, buộc người tiêu dùng phải trả nhiều tiền hơn cho sản phẩm của họ.

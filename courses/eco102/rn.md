@@ -706,7 +706,6 @@ Ibaze imbugita y’icongereza igurishwa mu gihugu cacu ku ma euro 2, imbugita ik
 Nitwabuza igicuruzwa c’icongereza, umuguzi azoriha uwundi unité imwe ku mbugita yiwe. Ugukingira rero bituma inganda y’igihugu ironka inyungu, n’ibihombo bibiri, kimwe ku yindi nganda (iy’amakaramu) ikindi ku baguzi. Ahubwo, ubudandaji bw’ubuntu butuma abantu babiri batsinda banezerewe.
 
 
-![image](assets/en/059.webp)
 
 
 Ugukingira igihugu na co nyene ni uburyo bwo kurwana n’abanyagihugu. Nk’uko Bastiat abivuga, ni uburyo bushingiye ku bwikunzi n’ukunzi kw’abahinguzi. Kugira ngo bongere impembo zabo, abarimyi canke abahinga mu vy’inganda basaba imisoro kugira ngo isoko ry’ibicuruzwa vyo hanze rifungwe, gutyo bagahatira abaguzi kwishura vyinshi ku bicuruzwa vyabo.

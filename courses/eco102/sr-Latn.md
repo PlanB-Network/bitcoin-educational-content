@@ -706,7 +706,6 @@ Zamislite engleski nož koji se u našoj zemlji prodaje za 2€, a nož proizved
 Ako zabranimo engleski proizvod, potrošač će platiti jednu jedinicu više za svoj nož. Protekcionizam tako rezultira profitom za nacionalnu industriju i dva gubitka, jedan za drugu industriju (onu olovaka) i drugi za potrošača. Suprotno tome, slobodna trgovina čini dva srećna pobednika.
 
 
-![image](assets/en/059.webp)
 
 
 Protecionizam je takođe oblik klasne borbe. Prema Bastiat-u, to je sistem zasnovan na sebičnosti i pohlepi proizvođača. Da bi povećali svoje prihode, poljoprivrednici ili industrijalci zahtevaju poreze kako bi zatvorili tržište za strane proizvode, prisiljavajući tako potrošače da plaćaju više za njihove proizvode.

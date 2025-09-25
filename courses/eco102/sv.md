@@ -706,7 +706,6 @@ Tänk dig en engelsk kniv som säljs i vårt land för 2 euro, och en kniv tillv
 Om vi förbjuder den engelska produkten kommer konsumenten att få betala en enhet mer för sin kniv. Protektionism resulterar alltså i en vinst för en nationell industri och två förluster, en för en annan industri (pennindustrin) och en för konsumenten. Frihandel ger tvärtom två glada vinnare.
 
 
-![image](assets/en/059.webp)
 
 
 Protektionism är också en form av klasskamp. Enligt Bastiat är det ett system som bygger på producenternas själviskhet och girighet. För att öka sin ersättning kräver jordbrukare eller industrialister skatter för att stänga marknaden för utländska produkter, vilket tvingar konsumenterna att betala mer för deras produkter.

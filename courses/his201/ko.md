@@ -152,13 +152,13 @@ Satoshi 나카모토가 Bitcoin을 만든 실제 이야기를 살펴보기 전�
 이러한 유형의 암호화를 사용하면 암호화 알고리즘과 서명 프로세스를 모두 구현할 수 있습니다. 비대칭 암호화는 공개 키를 암호화 키로 사용하고 개인 키를 암호 해독 키로 사용합니다. 사용자는 한 쌍의 키를 생성하여 개인 키를 보관하고 공개 키를 상대방과 공유하여 메시지를 보낼 수 있습니다. 이러한 유형의 암호화는 수신자가 편지를 받을 때 사용하는 우편함에 비유할 수 있으며, 이 중 본인만 키를 소유하고 있습니다.
 
 
-![Asymmetric encryption](assets/en/01.webp)
+![Asymmetric encryption](assets/en/001.webp)
 
 
 반면 디지털 서명은 개인 키를 서명 키로, 공개 키를 인증 키로 사용합니다. 사용자는 한 쌍의 키를 생성하고 개인 키로 메시지에 서명한 후 상대방에게 보내면 상대방은 공개 키를 사용하여 진위 여부를 확인할 수 있습니다. 따라서 상대방은 개인 키를 알 필요가 없습니다.
 
 
-![Digital signature](assets/en/02.webp)
+![Digital signature](assets/en/002.webp)
 
 
 1970년대에 몇몇 연구자들이 비대칭 암호화를 독립적으로 발견했습니다. 그러나 그들이 발견한 것을 최초로 발표한 사람은 스탠포드 대학교의 두 암호학자인 휘트필드 디피와 마틴 헬먼이었습니다. 1976년 11월, 이들은 *정보 이론에 관한 IEEE 트랜잭션* 저널에 '[암호학의 새로운 방향](https://ee.stanford.edu/~hellman/publications/24.pdf)'이라는 제목의 논문을 발표하여 대칭 암호화를 위한 비밀 키 전송을 위한 핵심 Exchange 알고리즘과 디지털 서명 프로세스에 대해 설명했습니다. 이 논문의 서론에서 다음과 같이 썼습니다:
@@ -168,7 +168,7 @@ Satoshi 나카모토가 Bitcoin을 만든 실제 이야기를 살펴보기 전�
 다음은 1977년 척 페인터가 스탠포드 뉴스 서비스를 위해 찍은 사진입니다. 사진에서 오른쪽에 휘트필드 디피와 가운데에 마틴 헬먼이 보입니다. 왼쪽에 있는 사람은 같은 발견을 앞두고 있던 암호학자 랄프 머클입니다.
 
 
-![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/03.webp)
+![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/003.webp)
 
 
 디피와 헬먼의 논문은 많은 혁신의 길을 열었습니다. 그 중 하나는 1977년 암호학자 Ronald Rivest, Adi Shamir, Leonard Adleman이 설계하고 1983년 MIT에서 특허를 받은 [RSA 암호화 시스템](https://people.csail.mit.edu/rivest/Rsapaper.pdf)이었습니다. 이 시스템은 키의 역할이 서로 바뀌기 때문에 메시지의 암호화와 서명이 모두 가능합니다. RSA는 1977년 8월에 '수학 게임'이라는 제목으로 [마틴 가드너의 기사](https://simson.net/ref/1977/Gardner_RSA.pdf)에 게재된 *Scientific American* 잡지에서 처음으로 공개적으로 발표되었습니다: 해독하는 데 수백만 년이 걸릴 새로운 종류의 암호"라는 제목의 기사였습니다
@@ -186,7 +186,7 @@ Elements의 기본 암호화 Bitcoin은 이 연구에서 비롯되었습니다. 
 이러한 암호화의 혁명은 당시 버클리 대학교에서 박사 과정을 밟고 있던 서부 출신의 컴퓨터 과학자 데이비드 차움에게도 영감을 주었습니다. 그는 곧 개인 정보 보호에 대한 열정을 갖게 되었고 점점 더 컴퓨터화되어 가는 사회에서 자유와 기밀의 미래에 대해 매우 우려했습니다.
 
 
-![David Chaum in the 90s](assets/en/04.webp)
+![David Chaum in the 90s](assets/en/004.webp)
 
 90년대의 데이비드 차움 (출처: [엘릭서](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
@@ -215,7 +215,7 @@ Elements의 기본 암호화 Bitcoin은 이 연구에서 비롯되었습니다. 
 다음은 쇼미안 노트의 생성 및 교체와 관련된 여러 단계를 설명하는 그림입니다(*L'Élégance de Bitcoin*에서 발췌):
 
 
-![Creation and replacement of a Chaumian note](assets/en/05.webp)
+![Creation and replacement of a Chaumian note](assets/en/005.webp)
 
 
 각각 수학적 연산 또는 정보 전송에 해당하는 작업은 다음과 같습니다:
@@ -254,7 +254,7 @@ Elements의 기본 암호화 Bitcoin은 이 연구에서 비롯되었습니다. 
 1990년, 데이비드 차움은 전자 현금에 대한 자신의 아이디어를 구현하기 위해 네덜란드 암스테르담에 Digicash B.V.라는 회사를 설립했습니다. 이 회사는 그의 발명품에 대한 특허를 보유하고 있었습니다. 당시 인터넷은 아직 초기 단계였고(웹은 아직 개발 중이었음) 전자상거래는 존재하지 않았기 때문에 전자 현금 모델은 엄청난 기회였습니다.
 
 
-![DigiCash Logo](assets/en/06.webp)
+![DigiCash Logo](assets/en/006.webp)
 
 
 그러나 이 모델을 처음 테스트한 것은 데이비드 차움의 회사가 아니라 특허를 고려하지 않고 이를 구현한 사이퍼펑크들이었으며, 이들은 특허에 대한 허가를 요청하지도 않았습니다. 따라서 1994년 2월 4일에 Pr0duct Cypher라는 익명의 개발자가 매직 머니라는 프로토콜을 [제안](https://cypherpunks.venona.com/date/1994/02/msg00247.html)하여 사이퍼펑크 메일링 리스트에 올렸습니다. 이 프로토콜은 전자 화폐 조폐국 역할을 하는 이메일 서버를 운영하여 자신의 화폐를 만들 수 있도록 했습니다. 사이퍼펑크족은 Tacky Token, GhostMark, DigiFrancs, NexusBucks 등 다양한 종류의 계정 단위를 재미있게 만들었습니다. 그러나 이러한 토큰의 효용성은 미미했고 거래는 매우 드물었습니다.
@@ -262,7 +262,7 @@ Elements의 기본 암호화 Bitcoin은 이 연구에서 비롯되었습니다. 
 디지캐시는 몇 년간의 개발 끝에 1994년 5월 제네바에서 열린 최초의 월드와이드웹 국제 컨퍼런스에서 프로토타입을 발표했습니다(https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf). 그 후 그해 10월 19일에는 다른 어떤 통화로도 뒷받침되지 않는 '사이버벅스'라는 단위를 발행하여 시범 서비스를 실시했습니다. 이 실험의 일환으로 다양한 상인들이 사이버벅스를 받아들였습니다. 사이퍼펑크들도 사이버벅스를 실제 거래에 사용했습니다. 이렇게 사이버벅스는 시장에서 가치를 인정받았습니다. 하지만 이 가치는 기존 은행 시스템에 전자화폐가 도입되면서 무너졌습니다.
 
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/07.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/en/007.webp)
 
 1995년 디지캐시 팀의 사진(흐릿함): 맨 왼쪽에 데이비드 차움이 있습니다(출처: [Chaum.com](https://chaum.com/ecash/))
 
@@ -327,7 +327,7 @@ Satoshi 나카모토는 Bitcoin를 통해 강력하고 기밀이 유지되는 �
 금 보유 금지가 폐지되고 1970년대부터 인터넷이 발달하면서 민간 화폐를 발행하자는 아이디어가 다시 등장했습니다. 1998년 금과 은을 기반으로 한 은화와 지폐를 발행하는 화폐인 리버티 달러를 출시한 버나드 폰 노트하우스가 바로 그 주인공입니다. 비영리 단체인 NORFED(연방준비제도 및 내국세법 폐지를 위한 전국기구의 약자)가 이 시스템을 관리했습니다. 2003년부터는 전자 골드와 유사한 계정 시스템을 통해 디지털 형태로도 리버티 달러를 사용할 수 있었습니다(다음 섹션 참조). 이 시스템은 어느 정도 성공을 거두었습니다. 유통되는 주화 외에도 NORFED의 금고에는 디지털 화폐를 뒷받침하기 위한 600만 달러를 포함하여 약 800만 달러의 귀금속이 보관되어 있어 화폐의 전환성을 보장했습니다.
 
 
-![2003 Silver Liberty Dollar](assets/en/08.webp)
+![2003 Silver Liberty Dollar](assets/en/008.webp)
 
 2003 년 은화 리버티 달러 (10 달러) (출처: [누미스타](https://en.numista.com/catalogue/exonumia242820.html))
 
@@ -345,7 +345,7 @@ Satoshi 나카모토는 Bitcoin를 통해 강력하고 기밀이 유지되는 �
 전자 골드 시스템은 초기 웹, 특히 최신 넷스케이프 브라우저를 활용했습니다. 각 고객은 전용 소프트웨어를 운영할 필요 없이 웹사이트에서 자신의 계정에 액세스할 수 있었습니다. 당시 이 플랫폼은 은행 간 이체에서 영감을 얻은 실시간 총액 정산 시스템을 활용하여 매우 높은 성능을 발휘했습니다. 2005년 당시의 전자 골드 송금 모습은 다음과 같습니다([튜토리얼](https://www.geocities.ws/rizuan_mahrol/setpbystep.html)의 이미지):
 
 
-![Sending on e-gold in 2005](assets/en/09.webp)
+![Sending on e-gold in 2005](assets/en/009.webp)
 
 
 전자 골드 시스템은 2006년 전성기에는 3.6톤, 8천만 달러 이상의 금을 [보증](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html), 하루 75,000건, 연간 30억 달러 규모의 거래를 [처리](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html)하고 270만 개 이상의 계좌를 관리하는 등 큰 성공을 거뒀습니다.
@@ -362,7 +362,7 @@ Satoshi 나카모토는 Bitcoin를 통해 강력하고 기밀이 유지되는 �
 중앙집중식 개인 통화 시스템의 또 다른 예로는 사용자가 미국 달러, 유로 또는 금에 고정된 전자 화폐를 보유하고 이체할 수 있는 Liberty Reserve가 있습니다. 우크라이나 출신의 미국인 아서 부도프스키와 상트페테르부르크 출신의 러시아 이민자 블라디미르 카츠가 이 시스템을 만들었습니다. 2006년 아서 부도프스키는 당시 조세 피난처로 여겨지던 코스타리카로 이주하여 자신의 회사인 Liberty Reserve S.A.를 등록했습니다.
 
 
-![Liberty Reserve logo in 2009](assets/en/10.webp)
+![Liberty Reserve logo in 2009](assets/en/010.webp)
 
 2009 년 리버티 리저브 로고 (출처: [위키미디어](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
@@ -392,7 +392,7 @@ PayPal의 초기 비전은 피터 틸의 자유주의적 비전과 맞닿아 있
 
 > "물론 미국 사용자에게는 '편리하다'고 말하는 것이 개발도상국에는 혁명적일 수 있습니다. 이들 국가의 많은 정부는 자국 통화를 빠르고 느슨하게 다루고 있습니다. 작년에 러시아와 몇몇 동남아시아 국가에서 보았듯이 인플레이션과 때로는 대대적인 통화 평가절하를 통해 자국민의 부를 빼앗아갑니다. 대부분의 일반 국민은 역외 계좌를 개설할 기회도, 미국 달러와 같은 안정적인 통화의 지폐 몇 장 이상을 손에 넣을 기회도 갖지 못합니다. 결국 페이팔은 이를 바꿀 수 있을 것입니다. 향후 미국 외 지역에서 서비스를 제공하고 인터넷 보급이 모든 경제 계층으로 확대되면, 전 세계 시민들은 이전보다 더 많은 통화를 직접 통제할 수 있게 될 것입니다. 부패한 정부가 기존의 수단을 통해 국민으로부터 부를 탈취하는 것은 거의 불가능할 것입니다. 왜냐하면 국민들이 달러, 파운드 또는 엔화로 전환하여 가치 없는 현지 통화를 버리고 더 안전한 통화를 사용할 것이기 때문입니다."
 
-![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/11.webp)
+![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/011.webp)
 
 1999년 10월 20일, 캘리포니아 오클랜드에서 독립 연구소에서 연설하는 피터 틸(출처: 독립 연구소) [유튜브](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
@@ -429,7 +429,7 @@ Bitcoin는 탈중앙화된 디지털 화폐 모델을 나타냅니다. 이를 �
 1950년대에 컴퓨터가 등장하면서 컴퓨터를 연결할 수 있는 가능성이 나타났습니다. 이렇게 최초의 컴퓨터 네트워크가 형성되어 1970년대에 '네트워크의 네트워크'인 인터넷이 발전하게 되었습니다. 이러한 네트워크의 인프라에 대한 문제가 필연적으로 발생했습니다. 그래서 폴란드계 미국인 컴퓨터 과학자 폴 바란은 1964년 발표한 논문(패킷 스위칭 설명)에서 단일 노드에 의존하는 중앙 집중식 네트워크, 각 지점이 노드인 분산 네트워크, 여러 노드로 구성된 분산 네트워크에 의존하는 분산(비분산) 네트워크 등 세 가지 유형의 네트워크를 나열했습니다.
 
 
-![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/12.webp)
+![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/012.webp)
 
 
 이러한 고려 사항에서 두 가지 순수 모델을 도출할 수 있는데, 중앙 서버가 클라이언트의 요청에 응답하는 클라이언트-서버 모델과 각 노드가 시스템에서 동일한 역할을 하는 피어 투 피어 모델입니다. 후자의 모델은 2000년대 비트토렌트 및 기타 유사한 프로토콜의 탄생과 함께 파일 공유에 특히 유용했습니다. 토르 네트워크는 순수한 P2P가 아닌 탈중앙화 네트워크입니다.
@@ -440,7 +440,7 @@ Bitcoin는 탈중앙화된 디지털 화폐 모델을 나타냅니다. 이를 �
 이 문제는 비잔틴 제국의 군대 장군들이 군대를 이끌고 적의 도시를 포위하고 공격을 시도하며 메신저를 통해서만 소통할 수 있는 상황을 비유적으로 표현한 것입니다. 목표는 배신자의 존재를 관리하고 모든 충성스러운 장군들이 전투 계획에 동의하여 공격에 성공할 수 있도록 하는 전략(즉, 알고리즘)을 찾는 것입니다. 다음은 그림입니다(출처: *엘레강스 드 Bitcoin*):
 
 
-![The Byzantine Generals Problem](assets/en/13.webp)
+![The Byzantine Generals Problem](assets/en/013.webp)
 
 
 계정 단위를 관리하는 분산 시스템에서는 이 문제를 해결하는 것이 중요합니다. 이러한 시스템에서는 참여자들이 계정 단위, 즉 누가 무엇을 소유하는지에 대한 Ownership에 동의해야 합니다.
@@ -462,7 +462,7 @@ Bitcoin 합의 알고리즘을 통해 Satoshi 나카모토는 확률론적으로
 1991년, 뉴저지에 위치한 R&D 컨소시엄인 벨 커뮤니케이션 리서치(일반적으로 "벨코어"라고 함)에서 일하는 두 명의 연구원 스튜어트 하버와 스콧 스토네타가 비밀스럽고 안전한 타임스탬프 기법을 제안했습니다. 이들은 "디지털 문서에 타임스탬프를 찍는 방법"이라는 제목의 논문(http://www.staroceans.org/e-book/Haber_Stornetta.pdf)에서 인증된 타임스탬프 서비스가 단방향 기능(예: MD4 Hash 기능)과 서명 알고리즘을 사용하여 클라이언트 문서의 기밀성과 인증의 신뢰성을 높일 수 있는 방법을 설명했습니다. 특히 단방향 기능을 적용하는 데 기존 Timestamp를 포함시켜 정보를 체인화하는 아이디어가 떠올랐습니다.
 
 
-![Example of certified timestamping](assets/en/14.webp)
+![Example of certified timestamping](assets/en/014.webp)
 
 인증된 타임스탬프의 예(출처: [위키미디어](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
@@ -482,7 +482,7 @@ Proof of Work 개념은 1992년 캘리포니아 산호세 남쪽에 위치한 IB
 1990년대 인터넷이 대중화되면서 사이퍼펑크의 메일링 리스트를 비롯해 원치 않는 이메일 문제가 점점 더 심각해졌습니다. 그래서 1997년 영국의 젊은 Cypherpunk 아담 백이 Hash 함수를 사용하여 간단한 작업 증명을 생성하는 알고리즘인 해시캐시를 통해 Dwork와 Naor가 [구현](https://cypherpunks.venona.com/date/1997/03/msg00774.html)한 개념이 탄생했습니다. 보다 구체적으로, 이는 고려된 Hash 함수의 부분 충돌, 즉 동일한 데이터 비트로 시작하는 풋프린트를 가진 두 개의 메시지를 얻는 것을 포함합니다(참고: 2002년에 출시된 버전 1.0부터는 제로 프린트에 대한 부분 충돌, 즉 풋프린트가 정해진 수의 이진 0으로 시작하는 사전 이미지를 찾는 것을 포함합니다). Hash 기능은 단방향이기 때문에 이러한 성과는 다양한 가능성을 개별적으로 테스트해야만 실현할 수 있으며, 이는 에너지 소비를 필요로 합니다.
 
 
-![Adam Back in 2001](assets/en/15.webp)
+![Adam Back in 2001](assets/en/015.webp)
 
 2001년 아담 백 (출처: [아담 백의 개인 페이지 아카이브](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
@@ -512,7 +512,7 @@ Cypherpunk 운동에서 등장한 첫 번째 프로토콜은 1998년 웨이 다�
 목록에 공개된 후 비머니는 사이퍼펑크, 특히 [아담 백의 비머니](https://cypherpunks.venona.com/date/1998/12/msg00203.html)의 관심을 끌었습니다. 그러나 웨이 다이가 그의 모델을 구현하지 않은 이유는 기능 장애뿐만 아니라 암호화폐 무정부 상태에 대한 암호학자의 [환멸](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) 때문이기도 했습니다. 그럼에도 불구하고 비머니는 Bitcoin 백서에 인용되어 그 선구자 중 하나가 되었습니다.
 
 
-![Citation of b-money in the Bitcoin white paper](assets/en/16.webp)
+![Citation of b-money in the Bitcoin white paper](assets/en/016.webp)
 
 
 ### 비트 골드: Bitcoin 이전의 디지털 골드
@@ -524,7 +524,7 @@ Cypherpunk 운동에서 등장한 첫 번째 프로토콜은 1998년 웨이 다�
 1994년 닉 자보는 libtech-l이라는 비공개 메일링리스트를 만들었습니다. 이름에서 알 수 있듯이 이 메일링 리스트는 공권력의 공격으로부터 개인의 자유를 보호할 수 있는 해방 기술에 대한 토론을 주최하는 것을 목표로 했습니다. 하이에크식 통화 경쟁과 자유 은행을 지지하는 경제학자 래리 화이트와 조지 셀긴처럼 웨이 다이와 할 피니 같은 사이퍼펑크들도 이 메일링 리스트에 접속할 수 있었습니다.
 
 
-![Nick Szabo in 1997](assets/en/17.webp)
+![Nick Szabo in 1997](assets/en/017.webp)
 
 1997년의 닉 자보 (출처: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
@@ -557,7 +557,7 @@ Cypherpunk 운동에서 등장한 첫 번째 프로토콜은 1998년 웨이 다�
 다음은 할 피니가 직접 디자인한 일러스트레이션(https://nakamotoinstitute.org/finney/rpow/slides/slide004.html)입니다:
 
 
-![Exchange in RPOW](assets/en/18.webp)
+![Exchange in RPOW](assets/en/018.webp)
 
 
 할 피니는 이 모델을 설계했을 뿐만 아니라 직접 구현하기도 했습니다. 2004년 8월 15일, 그는 [발표](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html)를 통해 사이퍼펑크 메일링 리스트에 RPOW 시스템의 시작을 알렸고, 전용 웹사이트(rpow.net)에 그 작동을 문서화했습니다. 그 후 샌프란시스코에서 열린 CodeCon 2005 컨퍼런스에서 [발표](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)를 통해 가치 전송, 스팸 규제, 비디오 게임에서의 상거래, 포커와 같은 온라인 도박, 비트토렌트 같은 파일 공유 프로토콜의 안티리칭 등 Proof-of-Work 토큰의 잠재적 용도에 대해 논의했습니다.
@@ -579,7 +579,7 @@ Cypherpunk 운동에서 등장한 첫 번째 프로토콜은 1998년 웨이 다�
 Bitcoin의 또 다른 잘 알려지지 않은 이전 모델이지만 여기서 중요한 것은 2004년에 캐나다 개발자 라이언 퍼거가 설계한 분산 신용 프로토콜 리플입니다. 이 젊은 캐나다인은 프로토콜을 설계하기 전 밴쿠버에서 경험한 [지역 Exchange 거래 시스템](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local)(LETS)의 개념에서 영감을 얻었습니다. 그는 2004년 4월 14일에 리플 [백서](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf)를 발표했습니다. 그 후 그는 중앙 서버에서 작동하고 사용자가 이메일 Address만으로 연결할 수 있는 리플페이라는 개념 증명을 통해 이를 구현했습니다.
 
 
-![Ryan Fugger circa 2010](assets/en/19.webp)
+![Ryan Fugger circa 2010](assets/en/019.webp)
 
 2010년경 라이언 퍼거 (출처: [크런치베이스](https://www.crunchbase.com/person/ryan-fugger))
 
@@ -653,7 +653,7 @@ Satoshi가 Bitcoin의 출시를 준비하기로 결정한 것은 2008년 8월이
 8월 20일, Bitcoin의 창시자인 아담 백(https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf)에게 백서에 해시캐시에 관한 자신의 논문을 인용하는 방법에 대한 조언을 구하는 이메일을 보냈습니다. Hard는 이를 해시캐시의 발명가가 자신의 새로운 시스템을 알리기 위한 구실로 보지 않습니다.
 
 
-![Adam Back in 2012](assets/en/20.webp)
+![Adam Back in 2012](assets/en/020.webp)
 
 2012년의 아담 백 (출처: [아담 백의 개인 페이지](http://www.cypherspace.org/adam/))
 
@@ -697,7 +697,7 @@ Satoshi는 목록에 보낸 첫 번째 [이메일](https://www.metzdowd.com/pipe
 이메일에는 이미 Bitcoin.org에서 호스팅되고 있는 백서 링크가 포함되어 있습니다. 9페이지 분량의 이 짧은 문서는 과학 논문 형식으로 Bitcoin의 기술적 작동 방식을 설명하고 온라인 결제 문제를 집중적으로 다루고 있습니다.
 
 
-![Title and summary of the first version of the white paper (October 2008)](assets/en/21.webp)
+![Title and summary of the first version of the white paper (October 2008)](assets/en/021.webp)
 
 
 Satoshi 발표 후 몇 가지 반응이 있었지만 대부분 회의적인 반응을 보였습니다. 특히 세 가지 이유로 비판을 받았습니다:
@@ -714,7 +714,7 @@ Satoshi 발표 후 몇 가지 반응이 있었지만 대부분 회의적인 반�
 회의론이 목록의 지배적인 태도이지만, 메일링 리스트에 가입한 모든 사람이 회의론을 공유하지는 않습니다. 특히 90년대의 실패에도 불구하고 미래를 낙관적으로 바라보고 전자 현금에 대한 아이디어를 포기하지 않은 Hal Finney는 다른 사람들보다 열정이 돋보이는 사람 중 한 명입니다. 그는 몇 년 후 이 문제에 대해 "암호학자들은 [...] 냉소적이 되는 경향이 있다"고 말했지만, 자신은 "항상 암호학, 그 신비, 역설을 사랑"했기에 "더 이상주의적"이었다고 말했습니다(https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) (*원본: "저는 (50대 중반의) 암호학 전공자들이 냉소적으로 변하는 경향이 있다는 것을 알았습니다. 저는 더 이상주의적이었고, 항상 암호화폐의 신비와 역설을 좋아했습니다."*) 11월 7일에는 [이메일](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)을 통해 "Bitcoin은 매우 유망한 아이디어인 것 같다"며 Satoshi의 모델을 닉 사보의 비트 골드와 비교하기도 했습니다. (*원문: "Bitcoin은 매우 유망한 아이디어인 것 같습니다."*)
 
 
-![Hal Finney in 2007](assets/en/22.webp)
+![Hal Finney in 2007](assets/en/022.webp)
 
 2007년 할 피니
 
@@ -787,7 +787,7 @@ return nSubsidy + nFees;
 하지만 당시 Bitcoin을 시도한 사람은 할 피니만이 아니었습니다. 당시 디지털 화폐(특히 전자 버전의 리버티 달러)에 관심이 많았던 미국의 컴퓨터 보안 연구원이었던 더스틴 트램멜도 메일링 리스트를 통해 Bitcoin을 발견했습니다. 1월 11일, 그는 자신의 업무용 컴퓨터에서 소프트웨어를 실행합니다(하지만 기술적 문제로 인해 13일까지 첫 번째 [블록](https://Mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e)을 채굴하지 못합니다). 1월 11~12일 밤에는 Satoshi와 광범위하게 연락을 취하고, 다음 날까지 [통신](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip)을 합니다. 1월 15일, 더스틴 트램멜은 그로부터 25비트코인을 [수신](https://Mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577)합니다.
 
 
-![Dustin Trammell](assets/en/23.webp)
+![Dustin Trammell](assets/en/023.webp)
 
 더스틴 트램멜(출처: [더스틴 트램멜의 블로그 아카이브](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
@@ -843,7 +843,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 - 다른 한편으로는 당시의 화폐 및 금융 상황을 언급함으로써 Bitcoin가 무엇을 반대하는지를 상징적으로 나타냅니다.
 
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
 
 
 당시 전 세계는 2007년 미국의 서브프라임 거품 붕괴로 시작된 금융 위기의 충격을 온몸으로 느끼고 있었습니다. 2008년 9월 15일 투자은행 리먼 브라더스의 파산 이후 각국 정부는 추가 파산을 막기 위해 금융기관을 구제했고, 중앙은행은 금융 시장에 유동성을 투입하는 양적 완화에 나섰습니다. 이를 위해 조성된 공적 자금의 사용은 은행 시스템이 실제로는 사적인 이익과 사회화된 손실이라는 것을 깨달은 많은 시민들을 불안하게 만들었습니다.
@@ -893,7 +893,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 마지막으로, 사이퍼펑크의 창립 멤버이자 1992년부터 1997년까지 이 운동의 첫 번째 메일링 리스트의 관리자였던 존 길모어의 마지막 발언이 있습니다. 1월 25일에 보낸 이메일에서 그는 Bitcoin의 예상되는 생태학적 결과를 강조하며, "우리가 마지막으로 필요로 하는 것은 이메일이나 스팸을 전송하기 위해 소량의 비트벅스를 생산하기 위해 인터넷에서 전기를 소비하고 이산화탄소를 발생시키는 시스템을 배치하는 것"이라고 [작성](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html)했습니다 Satoshi는 "경제적 자유와 환경 보존 중 하나를 선택해야 하는 것은 아이러니한 일"이라고 개인적으로 답장(https://mmalmi.github.io/Satoshi/#email-3)을 보냈습니다 그는 "Proof of Work은 P2P 전자 현금 시스템을 작동시키기 위해 [자신이] 찾은 유일한 솔루션"이며, 많은 에너지를 소비하더라도 "대체할 노동력과 자원 집약적인 기존 은행 활동보다는 덜 낭비할 것"이라고 덧붙입니다
 
 
-![John Gilmore in 2007](assets/en/25.webp)
+![John Gilmore in 2007](assets/en/025.webp)
 
 2007년의 존 길모어 (출처: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
@@ -920,7 +920,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
 그는 자신의 [프로필](https://p2pfoundation.ning.com/profile/SatoshiNakamoto)에서 일본인이라고 주장하지만 그게 전부는 아닙니다. 2011년 Interface 업데이트에서 그의 나이가 35세로 밝혀졌는데, 이는 2009년에는 32세 또는 33세였다는 뜻입니다. 그러다가 2014년에 [발견](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/)된 것은 그가 특정 생년월일을 표시한 것이었습니다: 1975년 4월 5일. 무해해 보이는 이 날짜는 1933년부터 1975년까지 미국에서 미국 시민의 금 소유가 금지된 시기와 관련이 있을 가능성이 높습니다. 4월 5일은 1933년 4월 5일 프랭클린 델라노 루스벨트 대통령이 서명한 [행정명령 6102호](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-Coin-gold-bullion-and-gold-certificates)에 의해 이 금지령이 제정된 날과 관련이 있으며, 1975년은 [공법 93-373호](https://www.govtrack.us/congress/bills/93/s2665/text)의 제정으로 금지령이 폐지된 날에 해당합니다. 이 금지 조치는 고전적 금본위제(대표 지폐로 Exchange로 금을 얻을 수 있었던)를 종식시키고, 1934년 금준비법을 통해 달러의 평가 절하를 허용했으며, 1971년 닉슨 쇼크 이후 우리가 알고 있는 변동금리 통화 체제의 확립을 촉진했기 때문에 매우 중요한 의미를 가집니다.
 
-![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/26.webp)
+![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/026.webp)
 
 
 2011년 3월 17일 P2P 재단 포럼에서 나카모토 나카모토의 프로필 (출처: [포럼 캡처](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
@@ -950,7 +950,7 @@ Satoshi의 커뮤니케이션 전략은 서서히 결실을 맺고 있습니다.
 4월 12일, 마이크 헌은 Satoshi에 [이메일](https://plan99.net/~mike/Satoshi-emails/thread1.html)을 보내 Bitcoin에 대한 일련의 질문을 던졌습니다. 그는 "진정으로 혁신적인 아이디어를 접하는 것은 드문 일"이라고 언급하며 리플에 대해 언급하지 않을 수 없었습니다.
 
 
-![Mike Hearn](assets/en/27.webp)
+![Mike Hearn](assets/en/027.webp)
 
 
 마이크 헌과 Satoshi 나카모토는 확장성, 소액 결제, 소프트웨어 작동 방식, 지불 거절의 부재 등 Bitcoin의 다양한 측면에 대해 논의했습니다. 특히 마이크 헌은 Satoshi에게 총 비트코인 수량으로 '2400만'(*역주*)을 선택한 이유와 비트코인을 세분화할 수 있는지에 대해 질문했습니다. 그러자 Satoshi은 다음과 같이 설명했습니다:
@@ -972,7 +972,7 @@ Satoshi의 통신은 마르티 말미라는 핀란드의 젊은 컴퓨터 공학
 
 > "이 시스템은 익명성이 보장되며, 어떤 정부도 거래에 세금을 부과하거나 거래를 막을 수 없습니다. 새로운 화폐를 무제한으로 발행하여 통화의 가치를 떨어뜨릴 수 있는 중앙은행도 없습니다. 이러한 시스템이 광범위하게 채택되면 국가의 국민 부양 능력에 치명적인 영향을 미칠 수 있습니다."
 
-![Martti Malmi in 2013](assets/en/28.webp)
+![Martti Malmi in 2013](assets/en/028.webp)
 
 2013년 마르티 말미 (출처: [비즈니스 인사이더](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
@@ -1023,7 +1023,7 @@ Satoshi은 이 프레젠테이션에 대해 전반적으로 [승인](https://mma
 첫 번째 사용자는 다음 달 초에 등록하기 시작합니다. 12월 9일, Satoshi가 아닌 다른 사람이 올린 [첫 번째 메시지](https://bitcointalk.org/index.php?topic=12.msg40#msg40)가 나타나면서 본격적인 토론이 시작됩니다. 2010년 5월 29일 포럼의 [스크린샷](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/)을 예로 들어 설명합니다:
 
 
-![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/29.webp)
+![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/029.webp)
 
 
 새로운 포럼의 시작은 Satoshi 나카모토와 마르티 말미가 몇 달 동안 작업해 온 소프트웨어의 [버전 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73)를 12월 16일에 출시하는 계기가 되었습니다. 이 버전에는 작업 표시줄 최소화, 실행 시 자동 시작, Mining 프로덕션을 위한 멀티스레딩 등의 개선 사항이 포함되어 있습니다. 이 소프트웨어는 또한 Malmi의 기여와 새로 도입된 NewLibertyStandard(다음 장에서 다룰 예정입니다)의 테스트 덕분에 Linux에 맞게 조정되었습니다.
@@ -1099,7 +1099,7 @@ Mining를 시작하기로 결정한 세 번째 원동력은 투기적 관심입�
 2009년 9월 말, 뉴리버티스탠다드라는 가명을 사용하는 한 개인이 Bitcoin를 발견했습니다(약칭 NLS). 그는 소프트웨어를 사용해보고 Mining를 시작합니다. 그가 생성한 첫 번째 블록은 [블록 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50)입니다. 그는 리눅스 사용자이므로 "에뮬레이터" Wine을 사용하여 소프트웨어를 실행합니다. "자유"라는 단어가 새겨진 아메리칸 이글을 그린 포럼의 [아바타](https://bitcointalk.org/index.php?action=profile;u=26)에서 알 수 있듯이, 그는 정치적 자유와 귀금속에 관심이 있습니다. 따라서 그는 Bitcoin를 디지털 세계에서 금과 동등한 것으로 보고 있습니다: [개인 페이지](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/)에서 나카모토는 Satoshi을 "경제 혁명"이자 "디지털 화폐의 금본위제"로 소개합니다
 
 
-![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/30.webp)
+![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/030.webp)
 
 
 2009년 10월, 사람들이 달러를 비트코인으로, 비트코인을 다시 달러로 변환할 수 있는 최초의 통화 Exchange 서비스가 시작되었습니다. 창시자는 소스포지의 Bitcoin 전용 포럼에 등록하고 그곳에서 서비스 개시를 발표했습니다. Exchange 요금을 추정하기 위해 그는 자신의 위치의 전기 가격과 생산 빈도를 고려하여 한 단위를 얻는 데 필요한 에너지 비용을 기반으로 계산했습니다. 그는 자신의 페이지에 [https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate]를 작성했습니다:
@@ -1110,7 +1110,7 @@ Mining를 시작하기로 결정한 세 번째 원동력은 투기적 관심입�
 다음은 NLS의 개인 페이지에도 게시된 NLS 서비스의 Exchange 요금표입니다:
 
 
-![Indicative exchange rates of the NLS service](assets/en/31.webp)
+![Indicative exchange rates of the NLS service](assets/en/031.webp)
 
 
 거래는 이메일(newlibertystandard@gmail.com)을 통해 정산됩니다. 달러 송금은 PayPal을 통해서만 이루어지며, 이 경우 수수료가 부과됩니다.
@@ -1143,7 +1143,7 @@ NLS가 발표된 후 마르티 말미는 그와 연락을 취했습니다. 두 �
 2월 5일, NLS는 해외 Exchange 시장에서 거래되는 통화와 마찬가지로 Bitcoin에도 티커 기호 BTC와 태국 바트(฿) 기호를 채택할 것을 [제안](https://bitcointalk.org/index.php?topic=41.msg238#msg238)했습니다. 그 전까지는 정해진 관행이 없었는데, 예를 들어 Satoshi과 마르티는 [서신](https://mmalmi.github.io/Satoshi/#email-119)에서 단위를 설명하기 위해 `bc`라는 문자를 사용했습니다. BTC 기호의 사용은 빠르게 표준화되었습니다. 2월 24일, Satoshi이 [디자인](https://bitcointalk.org/index.php?topic=64.msg504#msg504)한 통화 기호(대문자 B와 두 개의 세로 막대가 교차하는 모양)는 최초의 실제 Bitcoin 로고를 만들었습니다.
 
 
-![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/32.webp)
+![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/032.webp)
 
 
 점차 사람들이 Bitcoin를 받아들이기 시작했습니다. 2009년 12월에 BTC 2 PSC라는 페이세이프카드 기프트 카드 판매 서비스의 존재를 [보고](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65)한 SmokeTooMuch라는 사용자가 바로 그 사례입니다. 이 서비스는 이후 2010년 2월 4일 Satoshi에 의해 긍정적으로 [언급](https://mmalmi.github.io/Satoshi/#email-141)되었습니다. 2월 9일에 자신의 온라인 스토어인 리버티 스왑 버라이어티 샵을 [오픈](https://bitcointalk.org/index.php?topic=30.msg305#msg305)하여 우표와 스티커를 판매한 NLS의 경우도 마찬가지였습니다.
@@ -1158,7 +1158,7 @@ NLS가 발표된 후 마르티 말미는 그와 연락을 취했습니다. 두 �
 - 3월 16일에 dwdollar라는 사람이 [출시](https://bitcointalk.org/index.php?topic=20.msg726#msg726)한 페이팔을 사용하는 P2P 마켓플레이스인 Bitcoin 마켓(bitcoinmarket.com)은 7월에 마운트곡스가 등장하기 전에 큰 성공을 거둘 것으로 보입니다.
 
 
-![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/33.webp)
+![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/033.webp)
 
 캡처](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) 이후 Bitcoin 마켓 Interface(2011년 8월)의 [캡처](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/)
 
@@ -1172,7 +1172,7 @@ NLS가 발표된 후 마르티 말미는 그와 연락을 취했습니다. 두 �
 최초의 전용 Bitcoin 커스터디 서비스도 등장합니다: 특히 모바일에서 쉽고 안정적으로 암호화폐를 사용할 수 있는 웹 애플리케이션인 마이비트코인입니다. 이 서비스 덕분에 사용자는 거래를 주고받기 위해 전체 체인 데이터를 다운로드할 필요도 없고, 개인 키를 저장하여 비트코인을 직접 보관할 필요도 없습니다.
 
 
-![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/34.webp)
+![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/034.webp)
 
 
 당시에는 경량 지갑("SPV"로 알려진)이 존재하지 않았기 때문에, Satoshi 나카모토 자신은 이러한 유형의 소프트웨어를 사용하는 것이 Bitcoin의 핵심인 탈중개 원칙에 어긋나지만 허용될 수 있다고 생각했습니다. 2010년 5월 18일, 그는 포럼에 [글을](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) 썼습니다:
@@ -1236,7 +1236,7 @@ Bitcoin에 대한 수요가 증가함에 따라 네트워크에서 Mining 활동
 Satoshi 나카모토는 이러한 난이도 증가에 대해 매우 우려하여 2010년 2월부터 포럼에 [기록](https://bitcointalk.org/index.php?topic=43.msg249#msg249)을 유지했습니다. 그 모습은 다음과 같습니다:
 
 
-![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/35.webp)
+![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/035.webp)
 
 
 네트워크의 컴퓨팅 파워 증가에 대한 이러한 열광에도 불구하고, Satoshi은 유닛 분배에 유리하도록 Mining의 전문화 속도를 늦추려고 했습니다. 그때까지 채굴자들은 중앙처리장치(CPU)를 사용해 새로운 비트코인을 추출했습니다. 그러나 이러한 프로세서는 이러한 유형의 반복 계산에 훨씬 더 적합한 그래픽 처리 장치(GPU)에 비해 반복적인 작업을 수행하는 데 비효율적인 것으로 나타났습니다. 따라서 Satoshi 자신을 포함한 모든 사람들이 이러한 진화가 불가피하다는 것을 알고 있었습니다. 2009년 12월 19일, 그는 [다음과 같이](https://bitcointalk.org/index.php?topic=12.msg54#msg54) 말했습니다:
@@ -1247,7 +1247,7 @@ Satoshi 나카모토는 이러한 난이도 증가에 대해 매우 우려하여
 하지만 몇 달 후 판도라의 상자가 열렸습니다. 문제의 주인공은 플로리다에 거주하는 헝가리 출신의 28세 미국인 개발자 라즐로 하녜츠입니다. 그는 2010년 4월에 Bitcoin을 발견했습니다. 9일에 그는 약 20달러에 NLS로부터 3,300 비트코인을 [획득](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1)한 후 몇 번의 이체를 통해 시스템을 테스트했습니다. 18일에는 [공개 Address](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4)에서 트랜잭션을 늘려 네트워크를 혼잡하게 만들려고 시도했지만 실패했습니다.
 
 
-![Laszlo Hanyecz with his son in May 2018](assets/en/36.webp)
+![Laszlo Hanyecz with his son in May 2018](assets/en/036.webp)
 
 2018년 5월, 아들과 함께 있는 라즐로 하녜츠 (출처: [텔레그래프](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1270,7 +1270,7 @@ Mining의 증가는 또한 중요한 결과를 가져왔습니다: Satoshi은 �
 Satoshi의 Mining 활동에는 뚜렷한 패턴이 있어 몇 가지 오탐을 통해 그가 발견했을 가능성이 있는 블록을 식별할 수 있습니다. 개발자 세르지오 레르너는 2013년에 이 Mining 패턴을 강조하여 파토시 패턴이라고 명명했습니다.
 
 
-![Patoshi Pattern between blocks 0 and 50,000](assets/en/37.webp)
+![Patoshi Pattern between blocks 0 and 50,000](assets/en/037.webp)
 
 
 웹사이트 [satoshiblocks.info](http://satoshiblocks.info/)에서 관찰된 0~50,000 블록 사이의 파토시 패턴: 각 포인트는 블록에 해당합니다. 파란색 선은 Satoshi의 블록으로 형성된 것이고, 다른 선은 다른 마이너의 생산량을 나타냅니다.
@@ -1282,13 +1282,13 @@ Satoshi의 Mining 활동에는 뚜렷한 패턴이 있어 몇 가지 오탐을 �
 2009년 가을에 컴퓨팅 파워가 증가하면서 전체 네트워크 파워 대비 Satoshi의 컴퓨팅 파워 비율은 점차 감소했습니다. 2009년 3월 75%에서 9월에는 60%, 12월에는 15%로 낮아졌고, 5월에는 0%에 도달했습니다. 아래는 2014년 [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)에서 만든 그래프입니다:
 
 
-![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/38.webp)
+![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/038.webp)
 
 
 게다가 Satoshi의 Mining 지배력 감소는 단순히 수동적인 것이 아니라 같은 기간 동안 생산 속도를 늦췄습니다. 실제로 Satoshi의 목표는 모든 사람이 참여하는 것입니다. 그는 금전적 이익을 위해 채굴하는 것이 아니라 인센티브가 적용될 때까지 네트워크의 운영을 보장하기 위해서입니다. 따라서 그는 이 Mining 기간 동안 Hash 속도(초당 수행되는 계산 횟수)를 2009년 6월에 4.5에서 2.5 MH/s로, 10월에 2.5에서 1 MH/s로, 2010년 5월에 1에서 0 MH/s로 세 번이나 낮췄습니다. 다음은 이 기간 동안의 Hash 속도 변화 차트입니다([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
-![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/39.webp)
+![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/039.webp)
 
 
 따라서 [제임슨 롭]이 지적했듯이(https://blog.lopp.net/was-Satoshi-a-greedy-Miner/), Satoshi의 Mining는 확실히 이타적이라고 할 수 있습니다. 2010년 5월 3일에 Mining를 중단했을 때(마지막 블록은 [블록 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), 이는 Bitcoin의 느린 발전에서 또 다른 성과인 경제 행위자에 의한 거래 확인의 인수에 해당합니다.
@@ -1305,7 +1305,7 @@ Satoshi의 Mining 활동에는 뚜렷한 패턴이 있어 몇 가지 오탐을 �
 4일 후, 이 제안은 수락되었습니다. 제레미 스터디반트라는 캘리포니아 청년이 IRC 인스턴트 메시징 서비스에서 Exchange을 수락했습니다.
 
 
-![Jeremy Sturdivant in May 2018](assets/en/40.webp)
+![Jeremy Sturdivant in May 2018](assets/en/040.webp)
 
 2018년 5월의 제레미 스터디반트 (출처: [텔레그래프](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1313,7 +1313,7 @@ Satoshi의 Mining 활동에는 뚜렷한 패턴이 있어 몇 가지 오탐을 �
 5월 22일, 그는 파파존스에서 피자 두 판을 주문하여 플로리다 잭슨빌에 있는 라즐로에게 배달했습니다. 그는 [Exchange로](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10,000 비트코인을 받았으며, 이는 Bitcoin 시장 시세로 약 44달러에 해당하는 금액입니다. 다음은 라즐로가 직접 [공유](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/)한 피자 두 판의 사진입니다:
 
 
-![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/41.webp)
+![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/041.webp)
 
 
 이로써 비트코인을 통한 첫 번째 실물 상품 구매는 간접 구매라 하더라도 마무리되었습니다. 라즐로는 [마르티 말미](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196)로부터 "큰 발걸음을 내디뎠다"는 축하를 받았습니다 NLS도 이 문제에 대해 [긍정적인 코멘트](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197)를 덧붙였습니다.
@@ -1336,7 +1336,7 @@ Satoshi의 Mining 활동에는 뚜렷한 패턴이 있어 몇 가지 오탐을 �
 이 시기에는 Bitcoin의 역사에 중요한 인물이 등장하기도 했습니다: 호주에서 태어나 2004년 미국 국적을 [취득](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html)하고 당시 매사추세츠주 애머스트에 거주하고 있던 44세의 개발자 개빈 안드레센이 바로 그 주인공입니다. 호주 여행에서 돌아와 일시적으로 실직 상태였던 그는 5월 말 인포월드에 게재된 닐 맥알리스터의 [기사](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3)를 통해 Bitcoin을 발견했습니다. 이 기사는 나카모토의 Satoshi 프로젝트를 "오픈소스 혁신"으로 소개했습니다
 
 
-![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/42.webp)
+![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/042.webp)
 
 호주 퀸즐랜드주 타운스빌의 개빈 안드레센(출처: [CIO 아카이브](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
@@ -1429,7 +1429,7 @@ Satoshi는 이 서비스의 시작을 바로 알아차리지는 못했지만 호
 
 > "파괴적인 기술이라고 하기에는 어떤가요? Bitcoin은 중앙 은행이 없고 거래 수수료가 없는 P2P 네트워크 기반 디지털 화폐입니다. Proof-of-Work 개념을 사용하여 노드는 코인 묶음을 검색하기 위해 CPU 사이클을 소모하고 그 결과를 네트워크에 브로드캐스트합니다. 에너지 사용량 분석에 따르면 비트코인의 시장 가치는 이미 generate에 필요한 에너지의 가치를 상회하고 있으며, 이는 건전한 수요를 나타냅니다. 커뮤니티는 이 통화가 어떤 정부의 영향력 밖에서 유지되기를 희망하고 있습니다."
 
-![Slashdot Logo in 2010](assets/en/43.webp)
+![Slashdot Logo in 2010](assets/en/043.webp)
 
 
 이 게시물이 알려지자 며칠 만에 500개에 가까운 댓글이 달렸습니다. Bitcoin의 경우, 이러한 성공으로 인해 사이트와 포럼에 엄청난 방문자가 유입되었습니다. 네트워크에서 수행된 거래 건수는 7월 10일 42건에서 12일 1,641건으로 증가했고 14일에는 사상 최고치인 5,554건에 달했습니다. 시스템은 부하 증가에도 불구하고 견뎌냈습니다. 14일에 개발자 개빈 안드레센이 포럼에 [글을](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) 올렸습니다:
@@ -1449,7 +1449,7 @@ Satoshi는 이 서비스의 시작을 바로 알아차리지는 못했지만 호
 2000년대 P2P 파일 공유 소프트웨어인 eDonkey2000을 공동 창업하고 개발한 것으로 유명한 35세의 미국 기업가이자 프로그래머인 제드 맥칼렙은 Slashdot 덕분에 Bitcoin를 발견한 사람 중 한 명입니다. Exchange에서 Bitcoin를 1달러에 구하기 어렵다는 사실을 깨달은 그는 효율적인 마켓플레이스를 만들기로 '즉흥적으로' 결심했습니다. 이를 위해 그는 2007년에 개발했던 프로젝트 중 하나의 용도를 변경했습니다: 온라인 게임 *매직: 더 개더링 온라인*의 카드를 사고 팔 수 있는 웹사이트인 매직 더 개더링 온라인 Exchange(MTGOX)였습니다. 그는 이 프로젝트의 도메인 이름(mtgox.com)을 재사용했고, 이것이 새로운 플랫폼의 이름이 되었습니다: "마운트 곡스"로 발음되는 마운트 곡스.
 
 
-![Jed McCaleb in 2013](assets/en/44.webp)
+![Jed McCaleb in 2013](assets/en/044.webp)
 
 2013년의 제드 맥칼렙 (출처: 아리엘 잠벨리히, [와이어드](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
@@ -1457,7 +1457,7 @@ Satoshi는 이 서비스의 시작을 바로 알아차리지는 못했지만 호
 일주일 후인 7월 18일, 제드 맥칼렙은 Exchange 플랫폼을 출시하고 포럼에서 이를 [발표](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866)했습니다. 그의 전문성 덕분에 그는 플랫폼이 현대의 온라인 거래소와 유사한 자동화된 마켓플레이스로 운영되도록 했습니다. [그에 따르면](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891) "항상 온라인 상태이고, 자동화되어 있으며," "사이트가 더 빠르고 전용 호스팅이 있었으며," "Interface이 더 사용자 친화적이었다"는 점에서 Bitcoin 마켓과 차별화되었다고 합니다 그 결과 마운트곡스는 Bitcoin을 구매하는 주요 수단으로 빠르게 자리 잡았고, 달러 시세의 벤치마크로 자리매김했습니다.
 
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/45.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/en/045.webp)
 
 2011년 2월 마운트곡스 플랫폼의 Interface(출처: [마운트곡스 아카이브](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
@@ -1495,7 +1495,7 @@ Slashdot의 사용자 유입으로 인해 소프트웨어 개선도 필요했습
 마지막으로, 자유 소프트웨어, 특히 레드햇 배포판의 미국 개발자이자 기여자이며 오스트리아 경제학파의 자유주의 추종자인 제프 가직(포럼에서 jgarzik이라는 필명을 사용)을 언급할 수 있습니다. 그는 Slashdot의 기사를 통해 Bitcoin을 발견하고 거의 즉시 Bitcoin에 참여했습니다.
 
 
-![Jeff Garzik in 2013](assets/en/46.webp)
+![Jeff Garzik in 2013](assets/en/046.webp)
 
 2013년 제프 가직(출처: [벤슨 사무엘](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
 
@@ -1557,7 +1557,7 @@ Satoshi은 블록 크기 제한의 존재를 언급하지 않았지만, 시간�
 마지막으로, 이 매개변수의 존재는 "정부 셧다운보다 확장성에 대해 훨씬 더 우려"하고 "분당 463건의 거래 제한과 같은 내장된 제한을 가지고 어떻게 진지한 투자자들에게 Bitcoin을 판매할 수 있는지"(https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107)를 묻는 Jeff Garzik에게 영향을 미쳤습니다 그 결과 10월 3일, 그는 포럼에 블록 크기 제한을 7.168MB로 늘려 "페이팔의 평균 거래 속도에 맞추자"는 패치를 제안했습니다 이에 대해 테이모스는 "이 패치를 적용하면 다른 Bitcoin 클라이언트와 호환되지 않는다"고 답했습니다 이 메시지는 Satoshi 나카모토가 이 패치를 사용하지 말 것을 [권장](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139)하며 다음과 같이 언급하고 있습니다: "나중에 필요성이 더 커지면 단계적으로 변경할 수 있습니다."라고 말합니다 후자는 다음 날 프로토콜 변경 방법을 안내하며 자신의 생각을 [명확히](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) 밝혔습니다.
 
 
-![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/47.webp)
+![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/047.webp)
 
 
 이 논의는 확장성에 대한 논쟁의 시작을 알렸고, 결국 2015년과 2017년 사이에는 블록 크기 전쟁이라는 실제 내전으로 이어졌습니다.
@@ -1609,7 +1609,7 @@ Satoshi은 블록 크기 제한의 존재를 언급하지 않았지만, 시간�
 2010년 7월 Bitcoin이 인하된 후, 가격 인상으로 인한 높은 금전적 보상과 향후 성장 가능성으로 인해 개인들은 Bitcoin 생성에 더 집중적으로 전념하게 되었습니다. 7월 11일 0.22GH/s였던 네트워크의 [Hash 속도](https://bitinfocharts.com/comparison/Bitcoin-Hashrate.html#alltime)가 17일 2.78GH/s, 8월 15일 5.79GH/s, 9월 19일 9.94GH/s, 9월 29일 12.58GH/s로 상승한 것도 바로 이 때문입니다.
 
 
-![Total network hash rate from July 11 to October 5, 2010](assets/en/48.webp)
+![Total network hash rate from July 11 to October 5, 2010](assets/en/048.webp)
 
 2010년 7월 11일부터 10월 5일까지의 총 네트워크 Hash 비율 (출처: [코인워즈](https://www.coinwarz.com/Mining/Bitcoin/Hashrate-chart))
 
@@ -1619,7 +1619,7 @@ Satoshi은 블록 크기 제한의 존재를 언급하지 않았지만, 시간�
 그는 7월 19일에 비트코인을 생성하기 시작했습니다. 7월 25일, 아트포즈는 사용자들에게 Bitcoin 보유량을 묻는 스레드에서(https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) 6일 동안 1,700 비트코인을 생성했으며, 이는 Hash 비율의 4%, 즉 80 MH/s에 해당한다고 밝혔습니다. 점차적으로 그는 "아트팜"으로 알려진 대규모 Mining 농장을 건설했습니다 8월에 그의 팜에는 [https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-Mining/] 6개의 ATI Radeon HD 5770이 포함되어 있어 8월 9일의 76 MH/s에서 13일에는 약 450 MH/s로 증가했습니다.
 
 
-![ArtForz's mining production between August and October 2010](assets/en/49.webp)
+![ArtForz's mining production between August and October 2010](assets/en/049.webp)
 
 2010년 8월과 10월 사이의 아트포즈의 Mining 생산(출처: 블랙번 외, "[탈중앙화 실패 중 익명의 그룹 간의 협력으로 Bitcoin 보호](https://arxiv.org/pdf/2206.02871)")
 
@@ -1666,7 +1666,7 @@ Mining 전문화로 인해 Hash 비율이 크게 증가하면서 중앙 프로�
 11월 27일, 마렉 팔라티누스라는 체코의 젊은 개발자가 슬러시라는 가명을 사용해 '네트워크'와 제프 가직의 논리를 활용하는 모델인 '협동조합 Mining'에 대한 설명을 포럼에 게시했습니다(https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0). 이 모델은 채굴자들이 생산한 부분적인 작업 증명(지분증명)을 기반으로 합니다. 다음날 Satoshi 나카모토는 이 개념을 [승인]했습니다(https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119).
 
 
-![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/50.webp)
+![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/050.webp)
 
 2013년 5월 11일 프라하에서 열린 Z-DAY 컨퍼런스에서 마렉 팔라티누스(슬러시)
 
@@ -1683,7 +1683,7 @@ Mining 전문화로 인해 Hash 비율이 크게 증가하면서 중앙 프로�
 이 협동조합은 Bitcoin Mining의 벤치마크가 될 것입니다. 수년에 걸쳐 여러 가지 이름을 사용했습니다(https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history): Bitcoin Pooled Mining(BPM), Bitcoin.cz Mining, 그리고 마지막으로 슬러시 풀(제작자에 대한 이름). 그리고 2022년 9월에 Braiins Pool이 되었습니다.
 
 
-![Logo of Slush's cooperative in September 2011](assets/en/51.webp)
+![Logo of Slush's cooperative in September 2011](assets/en/051.webp)
 
 2011년 9월 슬러시 협동조합의 로고 (출처: 해당 사이트의 [아카이브](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/))
 
@@ -1724,13 +1724,13 @@ Bitcoin은 국제적인 프로젝트이므로 영어권 이외의 지역에서�
 며칠 후인 30일, 그는 LinuxFr.org(DLFP)에 프랑스어로 된 [보도 자료](https://linuxfr.org/news/connaissez-vous-les-bitcoins)를 게시했습니다. "비트코인을 아십니까?"라는 제목의 이 릴리스는 아마도 몰리에르의 언어로 작성된 Bitcoin의 첫 번째 발표일 것입니다. 이 글은 많은 사람들에게 도달하여 거의 350개의 댓글이 달렸습니다. 다음은 당시 [게재된] 첫 문단(https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html)입니다:
 
 
-![Do you know about bitcoins?](assets/en/52.webp)
+![Do you know about bitcoins?](assets/en/052.webp)
 
 
 특히, 이번 파견은 29세의 벨기에 블로거이자 자유 소프트웨어 옹호자인 Ploum(본명 Lionel Dricot)의 관심을 끌었습니다. 그는 10월 25일 자신의 블로그에 "괴짜 화폐, 원숭이 화폐?"라는 제목으로 탈중앙화를 옹호하고 Bitcoin의 원칙을 지지하는 글을 [게시](https://ploum.net/monnaie-de-geek-monnaie-de-singe/)했습니다. 이를 통해 많은 프랑스어권 인터넷 사용자들이 Bitcoin에 대해 알게 되었고, 2017년 Bitcoin 캐시를 만들게 된 개발자 [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)도 이 글을 읽었습니다.
 
 
-![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/53.webp)
+![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/053.webp)
 
 2012년 벨기에 지방선거에 해적당의 깃발을 들고 출마한 라이오넬 드리코(Ploum)의 모습(출처: 프레임워크): [프레임블로그](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
@@ -1743,13 +1743,13 @@ Bitcoin은 국제적인 프로젝트이므로 영어권 이외의 지역에서�
 언어 커뮤니티의 발전과 더불어 Bitcoin에 대한 커뮤니케이션에 사용되는 방법에는 일정한 혁신이 있습니다. 10월 4일, 노아젠다마켓이라는 가명을 사용하는 38세의 호주인이 비트코인미디어(https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217)라는 이름의 이니셔티브를 시작했습니다. 콘텐츠를 제작하고 사람들이 관심을 가질 만한 장소에 광고함으로써 Bitcoin를 홍보한다는 것이 이 이니셔티브의 아이디어입니다. 이 이니셔티브는 기대만큼의 성공을 거두지는 못했지만, Bitcoin에 대한 첫 번째 동영상 제작으로 이어졌다는 장점이 있습니다. 10월 5일에 [게시](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461)된 이 채널의 첫 번째 동영상은 YouTube 도구를 사용하여 제작한 Google 검색 스토리입니다(아래 스크린샷 참조). 다른 동영상은 미리 디자인된 캐릭터와 설정으로 동영상 시퀀스를 쉽게 제작할 수 있는 도구인 Xtranormal을 사용하여 제작할 예정입니다.
 
 
-![First video on Bitcoin (Google Search Story)](assets/en/54.webp)
+![First video on Bitcoin (Google Search Story)](assets/en/054.webp)
 
 
 이 기간 동안 Bitcoin에 대한 블로그 게시물이 급증하고 있습니다. 특히 디지털 화폐, 무료 뱅킹, 암호화에 대해 논의하는 블로그 *The Monetary Future*를 운영하는 존 마토니스가 그 대표적인 사례입니다. 그는 3월에 Bitcoin를 발견하고 Satoshi과 [교환](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514)한 후 이 주제에 대한 글을 쓰기 시작했습니다. 10월에는 [세 번째 기사](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html)를 게시하여 가격 상승에 대해 이야기하고 생태계의 참신함에 대해 자세히 설명했습니다.
 
 
-![Profile picture of Jon Matonis in 2011](assets/en/55.webp)
+![Profile picture of Jon Matonis in 2011](assets/en/055.webp)
 
 2011년 존 마토니스의 프로필 사진 (출처: [포브스](https://www.forbes.com/sites/jonmatonis/))
 
@@ -1757,7 +1757,7 @@ Bitcoin은 국제적인 프로젝트이므로 영어권 이외의 지역에서�
 현재 새로운 Bitcoin 로고도 제안되었습니다. 11월 1일, 비트보이라는 가명을 사용하는 한 포럼 회원이 암호화폐를 강조하기 위해 [게시](https://bitcointalk.org/index.php?topic=1631.0) 그래픽 Elements을 사용했습니다. 이 Elements 로고 중 하나는 B가 지워지고 약간 기울어진 주황색 로고입니다:
 
 
-![Bitcoin logo designed by bitboy, November 2010](assets/en/56.webp)
+![Bitcoin logo designed by bitboy, November 2010](assets/en/056.webp)
 
 
 ### 성장하는 경제
@@ -1767,7 +1767,7 @@ Bitcoin은 국제적인 프로젝트이므로 영어권 이외의 지역에서�
 이 모든 Elements으로 인해 가격이 급격히 상승했습니다. 8월 이후 약 6센트에서 안정세를 보이다가 10월 초부터 상승하기 시작합니다. 10¢까지 올라 월말에는 20¢에 도달합니다. 11월 6일에는 50센트를 돌파하며 포럼 회원들을 [흥분](https://bitcointalk.org/index.php?topic=1681.0)시키기에 충분했습니다.
 
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/57.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/057.webp)
 
 2010년 7월 18일부터 10월 18일까지 마운트곡스의 BTC 가격 (출처: [*더 머니 퓨처*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
 
@@ -1792,7 +1792,7 @@ Bitcoin의 성공을 나타내는 마지막 요소는 일부 사람들이 그 �
 2010년 말에는 전자 프론티어 재단이 Bitcoin을 승인한 중요한 사건이 있었습니다. 이 단체는 1900년 미치 카포, 존 길모어, 존 페리 발로우가 공동 설립한 인터넷의 자유를 보호하기 위한 국제 단체입니다. 이는 사이퍼펑크에 심취해 있던 Bitcoin의 얼리어답터들에게 특히 중요했습니다. 그들은 Bitcoin을 받아들이는 데 열심이었죠.
 
 
-![Logo of the Electronic Frontier Foundation](assets/en/58.webp)
+![Logo of the Electronic Frontier Foundation](assets/en/058.webp)
 
 
 2010년 8월 13일, [제안](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)을 통해 EFF에 연락하여 기부를 받겠다고 제안하고 커뮤니티에서 [모금](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578)한 것은 포럼 회원인 Kiba라는 사람이 주도적으로 시작하였습니다. 이를 위해 그는 마이비트코인에 [계정](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)을 개설하여 자금을 모았고, EFF로 이체하고자 했습니다. 그는 8월 말에 (커뮤니티에서 수정한) 이메일 초안을 작성하여 보냈습니다.
@@ -1877,7 +1877,7 @@ Satoshi와 가깝지만 다른 개발자들과도 논의하는 개빈은 이 상
 Satoshi의 이탈을 촉발한 사건은 위키리크스 사건입니다. 위키리크스는 내부 고발자와 정보 유출자의 목소리를 대변하는 동시에 정보원을 보호하는 것을 목표로 2006년 Cypherpunk 줄리안 어산지가 설립한 비정부기구입니다. 2010년 한 해 동안 이 NGO가 공개한 기밀문서는 주요 언론을 통해 중계되면서 여론을 뒤흔들었습니다. 특히 아프가니스탄(아프간 전쟁 일지)과 이라크(이라크 전쟁 일지)에서 미군이 저지른 민간인 사상자와 고문 행위 등 미군의 과도한 행동에 대한 우려의 목소리가 높았습니다.
 
 
-![WikiLeaks logo in November 2010](assets/en/59.webp)
+![WikiLeaks logo in November 2010](assets/en/059.webp)
 
 
 위키리크스의 자금은 주로 대중의 기부에 기반하기 때문에 온라인 결제를 받기 위해 결제 처리업체에 의존하고 있습니다. 그러나 이번 폭로 이후 규제 당국의 반응을 두려워하는 중개업체들이 압박을 받고 있습니다. 이 때문에 온라인 결제 업체인 머니부커스(https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)는 10월 14일에 이 NGO의 계좌를 동결했습니다.
@@ -1886,7 +1886,7 @@ Satoshi의 이탈을 촉발한 사건은 위키리크스 사건입니다. 위키
 이러한 상황은 신뢰할 수 있는 제3자에 의존하지 않고 금융 검열에 훨씬 더 잘 견딜 수 있는 Bitcoin를 사용할 수 있는 길을 열어줍니다. 11월, 젠직스라는 가명을 사용하는 22세의 영국계 이란인 아미르 타키가 포럼에서 이 가설을 공개했습니다.
 
 
-![Amir Taaki in December 2012 in Bratislava](assets/en/60.webp)
+![Amir Taaki in December 2012 in Bratislava](assets/en/060.webp)
 
 2012년 12월 브라티슬라바에서 아미르 타키 (출처: [미치 알트만](https://www.flickr.com/photos/maltman23/8272321106/))
 
@@ -2057,25 +2057,25 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 외관도 바뀌었습니다. 2010년 12월, 웹사이트는 여전히 Satoshi 시절의 모습 그대로였습니다. 다음은 12월 5일의 [스냅샷](https://web.archive.org/web/20101110005546/http://www.Bitcoin.org/)입니다:
 
 
-![Snapshot of Bitcoin.org from December 5, 2010](assets/en/61.webp)
+![Snapshot of Bitcoin.org from December 5, 2010](assets/en/061.webp)
 
 
 따라서 2011년 초에 [색상이 추가되었습니다](https://web.archive.org/web/20110216125441/http://www.Bitcoin.org/):
 
 
-![Snapshot of Bitcoin.org from February 16, 2011](assets/en/62.webp)
+![Snapshot of Bitcoin.org from February 16, 2011](assets/en/062.webp)
 
 
 4월에 커뮤니티에서 [정리한](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) 재설계로 인해 웹사이트 레이아웃이 변경되었습니다. 당시의 [모습](https://web.archive.org/web/20110411071904/http://www.Bitcoin.org/)은 다음과 같습니다:
 
 
-![Snapshot of Bitcoin.org from April 11, 2011](assets/en/63.webp)
+![Snapshot of Bitcoin.org from April 11, 2011](assets/en/063.webp)
 
 
 마침내 2011년 9월, Nils Schneider에 의해 [변경](https://buildingbitcoin.org/Bitcoin-dev/log-2011-08-31.html#l-691)이 이루어졌습니다. 이를 위해 새로운 GitHub 리포지토리가 [생성](https://github.com/Bitcoin/Bitcoin.org)되었습니다. 이 디자인은 2013년까지 변경되지 않고 오래 지속될 것입니다. 여기 그 모습이 있습니다(당시 Bitcoin-the-소프트웨어는 "커뮤니티 주도 오픈 소스 프로젝트"로 설명되었습니다):
 
 
-![Snapshot of Bitcoin.org from September 23, 2011](assets/en/64.webp)
+![Snapshot of Bitcoin.org from September 23, 2011](assets/en/064.webp)
 
 
 위키의 경우, 처음에는 웹사이트에 통합된 무료 엔진인 도쿠위키를 기반으로 했습니다. 그러나 2010년 12월, 일본에 거주하며 포럼에서 MagicalTux라는 가명을 사용하는 프랑스인 개발자 마크 카펠레스가 Bitcoin.it에 새로운 위키를 만들었습니다. 이 위키는 그가 더 우아하고 사용하기 쉽다고 생각하는 미디어위키 엔진을 기반으로 합니다. 초기 아이디어는 기존 문서를 대체하는 것이 아니라, IRC에서 마크가 표현한 것처럼(https://buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) "덜 형식적이고 커뮤니티 지향적인 위키"를 개발하는 것이었습니다
@@ -2084,7 +2084,7 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 마르티 말미](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873)와 [개빈 안드레센](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535)은 이 새 위키가 마음에 들어 곧바로 메인 위키로 만들 것을 고려합니다. 다음은 5월 21일에 촬영한 [스냅샷](https://web.archive.org/web/20110521044430/https://en.Bitcoin.it/wiki/Main_Page)입니다:
 
 
-![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/65.webp)
+![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/065.webp)
 
 
 출시 며칠 후, Bitcoin.org 홈페이지 [포인트](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872)의 "위키"라는 제목의 링크가 Bitcoin.it로 연결됩니다. 콘텐츠는 도쿠위키 버전에서 점차적으로 이전됩니다. 1월 31일, 마르티는 포럼에서 이것이 새로운 위키임을 [지적](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789)했습니다.
@@ -2112,7 +2112,7 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 첫 번째 행사는 미국에서 열렸지만 프랑스 커뮤니티도 뒤처지지 않았습니다. 5월 25일, 개빈 안드레센의 파리 방문을 기념하기 위해 라데팡스 지역에서 루시앙 그롱댕, 데이비드 프랑수아, 존 마토니스 등 저명한 인사들이 참석한 오찬이 열렸습니다(역시 방문 중).
 
 
-![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/66.webp)
+![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/066.webp)
 
 분홍색 셔츠를 입은 개빈 안드레센과 파리의 라 데팡스에서 만나는 모습(출처: [포럼 아카이브](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
@@ -2120,7 +2120,7 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 한 달 후인 6월 15일, 파리에서 Bitcoin의 첫 번째 프랑스어 공개 발표회(https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831)가 다시 열렸습니다. 발표는 1년 전에 Bitcoin을 발견한 젊은 사이버 보안 전문가인 르노 리프치츠(nono2357)가 진행했습니다. 발표 내용](https://prezi.com/tikwkjt9ouey/Bitcoin-une-monnaie-electronique-pour-tous/)은 매우 수준 높았고, 방이 꽉 찰 정도로 청중들의 호응이 좋았습니다.
 
 
-![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/67.webp)
+![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/067.webp)
 
 2011년 6월 15일 르노 리프치츠의 Bitcoin 프레젠테이션(출처: [포럼 아카이브](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
@@ -2151,7 +2151,7 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 4월에는 [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/), [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) 등 주요 주류 언론 매체에서 디지털 화폐에 대한 주제를 다뤘습니다. 5월에는 이 움직임이 탄력을 받아 [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/Bitcoin-P2P-currency), [Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), [Gizmodo](https://gizmodo.com/what-is-Bitcoin-5803124), [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/) 등 거의 모든 곳에서 Bitcoin에 대한 언급이 있었습니다.
 
 
-![Gavin Andresen in Forbes in April 2011](assets/en/68.webp)
+![Gavin Andresen in Forbes in April 2011](assets/en/068.webp)
 
 2011년 4월 포브스의 개빈 안드레센 (출처: [포브스 아카이브](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
@@ -2168,7 +2168,7 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 Bitcoin의 대중화로 인해 가격이 크게 상승했습니다. 2010년 12월에는 20센트까지 떨어졌지만, 2011년 2월 9일에는 달러와 동등한 수준에 도달했습니다. 당시 할 피니는 [커뮤니티 회원들은](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) "폭발적인 새로운 현상의 시작점에 있는 것은 정말 운이 좋은 일"이라고 말했습니다 앞으로 일어날 일이 순식간에 벌어질 것이기 때문에 그는 좋은 직감을 가지고 있었습니다.
 
 
-![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/69.webp)
+![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/069.webp)
 
 달러와 동등한 날 포럼에 게시된 짐보웨이의 사진 (출처: [비트코인토크](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
@@ -2176,7 +2176,7 @@ Bitcoin의 대중화로 인해 가격이 크게 상승했습니다. 2010년 12�
 실제로 봄의 미디어 열풍은 점차 전례 없는 투기 현상을 만들어 냈습니다. 몇 달 동안 약 1달러에서 정체되다가 4월 말에는 가격이 상승하여 3달러에 도달했습니다. 5월에는 8달러, 마침내 6월 8일에는 Bitcoin의 가격이 마운트곡스에서 사상 최고가인 32달러에 도달했습니다! 이는 6개월 만에 160배 상승한 수치입니다.
 
 
-![Average price of BTC between January 1 and June 30, 2011](assets/en/70.webp)
+![Average price of BTC between January 1 and June 30, 2011](assets/en/070.webp)
 
 2011년 1월 1일과 6월 30일 사이의 BTC 평균 가격 (출처: [Bitbo.io](https://calendar.bitbo.io/price/))
 

@@ -101,16 +101,16 @@ David Chaum的行动遵循了一个概念性的革命：1976年Whitfield Diffie�
 
 这种类型的密码学允许实现加密算法和签名过程。非对称加密涉及使用公钥作为加密密钥，私钥作为解密密钥。用户生成一对密钥，保留私钥，并与他们的通信者共享公钥，以便他们可以发送消息。这种类型的加密类似于收件人用来接收信件的邮箱，而只有他们拥有钥匙。
 
-![非对称加密](assets/en/01.webp)
+![非对称加密](assets/en/001.webp)
 另一方面，数字签名依赖于使用私钥作为签名密钥，公钥作为验证密钥。用户生成一对密钥，用私钥签署消息，并将其发送给他们的通信对象，这些对象可以使用公钥验证其真实性。因此，他们永远不需要知道私钥。
-![数字签名](assets/en/02.webp)
+![数字签名](assets/en/002.webp)
 
 非对称密码学在1970年代被几位研究人员独立发现。然而，第一个呈现他们所发现的是来自斯坦福大学的两位密码学家Whitfield Diffie和Martin Hellman。1976年11月，他们在《IEEE信息理论交易》杂志上发表了一篇题为“[密码学的新方向](https://ee.stanford.edu/~hellman/publications/24.pdf)”的论文，该论文描述了一个密钥交换算法（用于对称加密的秘密密钥的传输）以及一个数字签名过程。在这篇论文的引言中，他们写道：
 > “我们今天站在密码学革命的边缘。廉价的数字硬件的发展使其从机械计算的设计限制中解放出来，并将高级密码设备的成本降低到可以在商业应用中使用的程度，如远程现金分发机和计算机终端。反过来，这些应用创造了对新型密码系统的需求，这些系统最小化了安全密钥分发渠道的必要性，并提供了书面签名的等价物。同时，信息理论和计算机科学的理论发展有望提供可证明安全的密码系统，将这门古老的艺术变成一门科学。”
 
 这是1977年由斯坦福新闻服务的Chuck Painter拍摄的一张照片，你可以看到Whitfield Diffie（右侧）和Martin Hellman（中间）。左侧的人是密码学家Ralph Merkle，他当时正处于做出同样发现的边缘。
 
-![Ralph Merkle, Martin Hellman, 和 Whitfield Diffie 于 1977年](assets/en/03.webp)
+![Ralph Merkle, Martin Hellman, 和 Whitfield Diffie 于 1977年](assets/en/003.webp)
 
 Diffie和Hellman的文章为众多创新铺平了道路。其中之一是[RSA密码系统](https://people.csail.mit.edu/rivest/Rsapaper.pdf)，它由密码学家Ronald Rivest、Adi Shamir和Leonard Adleman（以他们的名字命名）在1977年设计，并于1983年由MIT申请了专利。这个系统允许对消息进行加密和签名，这得益于密钥角色的互换。RSA首次公开展示是在1977年8月，《科学美国人》杂志上Martin Gardner发表的一篇文章中，标题为“数学游戏：一种需要数百万年才能破解的新型密码。”
 
@@ -121,7 +121,7 @@ Diffie和Hellman的文章为众多创新铺平了道路。其中之一是[RSA密
 
 这场加密学领域的革命也激发了年轻的David Chaum的灵感，他是来自西海岸的计算机科学家，当时是加州大学伯克利分校的博士生。他很快就对隐私保护产生了热情。他确实非常关注在日益电脑化的社会中，自由和保密的未来。
 
-![David Chaum in the 90s](assets/en/04.webp)
+![David Chaum in the 90s](assets/en/004.webp)
 90年代的David Chaum（来源：[Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw)）
 
 在他的[基础文章](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf)中，1985年发表于*Communications of the ACM*的《无需识别的安全性：让大哥哥过时的交易系统》中，他写道：
@@ -140,7 +140,7 @@ eCash模型是一种数字货币概念，允许客户进行相对保密的支付
 
 以下是创建和替换Chaumian票据的不同步骤的示意图（来自*比特币的优雅*）：
 
-![创建和替换Chaumian票据](assets/en/05.webp)
+![创建和替换Chaumian票据](assets/en/005.webp)
 
 行动（每个对应一个数学操作或信息传输）如下：
 
@@ -162,12 +162,12 @@ eCash模型是一种数字货币概念，允许客户进行相对保密的支付
 
 ### eCash的实现
 1990年，David Chaum创立了自己的公司DigiCash B.V.，以实现他的电子现金概念。该公司位于荷兰阿姆斯特丹，并持有他的发明专利。当时，互联网还处于起步阶段（网络仍在开发中），电子商务尚不存在；因此，eCash模型构成了一个强大的机会。
-![DigiCash Logo](assets/en/06.webp)
+![DigiCash Logo](assets/en/006.webp)
 
 然而，首先测试该模型的并非David Chaum的公司，而是不顾专利并未征得许可就实施它的密码朋克。因此，一个名为Magic Money的协议于1994年2月4日在密码朋克邮件列表上被一位化名为Pr0duct Cypher的匿名开发者[提出](https://cypherpunks.venona.com/date/1994/02/msg00247.html)。该协议允许通过运营电子邮件服务器（作为eCash铸币厂）来创建自己的货币。密码朋克们对此乐此不疲，创造了各种计量单位，如Tacky Tokens, GhostMarks, DigiFrancs和NexusBucks。然而，这些代币的实用性很小，交换也非常罕见。
 在DigiCash一侧，经过几年的开发，一个原型于1994年5月在日内瓦的CERN举行的第一届国际万维网会议上[展示](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf)。公司随后于当年10月19日开始了一项试验，发行了称为"CyberBucks"的单位，这些单位没有任何其他货币的支持。各种商家接受CyberBucks作为这个实验的一部分。密码朋克们也参与其中，使用它进行真实交易。因此，CyberBucks在市场上获得了价值。然而，当eCash在传统银行系统中部署时，这个价值崩溃了。
 
-![DigiCash团队在1995年的照片（模糊）](assets/en/07.webp)
+![DigiCash团队在1995年的照片（模糊）](assets/en/007.webp)
 1995年DigiCash团队的照片（模糊）：David Chaum在最左边（来源：[Chaum.com](https://chaum.com/ecash/)）
 
 eCash于1995年10月引入银行系统，开始了DigiCash与密苏里州的Mark Twain Bank的合作。与CyberBucks的浮动汇率不同，计量单位由美元支持。在1996年至1998年间，六家银行跟随Mark Twain Bank的步伐：芬兰的Merita Bank、德国的Deutsche Bank、澳大利亚的Advance Bank、奥地利的Bank Austria、挪威的Den norske Bank和瑞士的Credit Suisse。媒体随后为这一系统预言了光明的未来。
@@ -205,7 +205,7 @@ eCash于1995年10月引入银行系统，开始了DigiCash与密苏里州的Mark
 
 之后，情况变得更加受限。美国的中央银行，即美国联邦储备系统，于1913年创建，这是1907年银行恐慌之后的结果。然后，作为富兰克林·D·罗斯福新政的一部分，1933年放弃了经典金本位制，通过了[行政命令6102](https://fr.wikipedia.org/wiki/Executive_Order_6102)，禁止位于美国的个人和公司持有黄金。最终，在1971年，理查德·尼克松宣布结束美元对黄金的国际可兑换性时，货币体系中的黄金参考被彻底放弃。
 随着1970年代黄金拥有禁令的废除和互联网的发展，部署私人货币的想法重新浮现。Bernard von NotHaus在1998年推出的自由美元（Liberty Dollar）就是一个例子，这是一种基于黄金和白银的货币，可以以银币和代表性纸币的形式找到。该系统由一个名为NORFED（National Organization for the Repeal of the Federal Reserve and Internal Revenue Code的缩写）的非营利组织管理。从2003年开始，自由美元也通过一个类似于e-gold的账户系统提供数字形式。该系统取得了一定程度的成功。除了流通的硬币，NORFED的金库中还包含了大约800万美元的贵金属以确保货币的可兑换性，其中600万用于支持数字单位。
-![2003年银质自由美元](assets/en/08.webp)
+![2003年银质自由美元](assets/en/008.webp)
 2003年银质自由美元（10美元）（来源：[Numista](https://en.numista.com/catalogue/exonumia242820.html)）
 
 2006年9月，美国铸币局与司法部联合发布了一份[新闻稿](https://www.usmint.gov/news/press-releases/20060914-liberty-dollars-not-legal-tender-united-states-mint-warns-consumers)，其中得出结论，使用NORFED的硬币违反了美国法典第18篇第486节，并构成“联邦犯罪”。因此，继2007年联邦调查局对NORFED的场所进行突袭后，NotHaus及其同伙在2009年被逮捕，并于2011年3月受审。2014年，Bernard von NotHaus在上诉中被判处六个月的软禁和三年的缓刑。
@@ -216,7 +216,7 @@ eCash于1995年10月引入银行系统，开始了DigiCash与密苏里州的Mark
 
 e-gold系统利用了刚刚兴起的网络，特别是最近推出的Netscape浏览器。每个客户都可以从网站访问他们的账户，而不必操作专用软件。对于当时来说，该平台性能非常高，利用了受到银行间转账启发的实时全额结算系统。以下是2005年发送e-gold的样子（图片来自当时的[教程](https://www.geocities.ws/rizuan_mahrol/setpbystep.html)）：
 
-![2005年在e-gold上发送](assets/en/09.webp)
+![2005年在e-gold上发送](assets/en/009.webp)
 电子黄金系统取得了巨大成功：在2006年的高峰时期，它[保证](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html)拥有3.6吨黄金，价值超过8000万美元，[处理](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html)每天75,000笔交易，年化交易量达到30亿美元，并管理着超过270万个账户。这一成功随着国家的干预而突然终止。经过美国特勤局的调查，道格拉斯·杰克逊、他的两家公司及其合伙人于2007年4月27日被司法部以促进洗钱和未经许可经营货币转移业务为由[起诉](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html)。2008年11月，道格拉斯·杰克逊被判有罪，并被判处3年缓刑，包括6个月的家庭软禁并接受电子监控。在未能成功获得许可后，电子黄金被迫在2009年11月永久关闭。
 
 在此模型之后创建了其他系统。我们可以提到GoldMoney，由詹姆斯·图尔克和他的儿子于2001年2月创立，如今已适应金融法规。由詹姆斯·费耶德于2001年7月创立的e-Bullion系统在2008年关闭了大门。最后，最后一个数字黄金货币是Pecunix，由西蒙·戴维斯于2002年在巴拿马创立，并在2015年作为退出骗局的一部分停止了运营。
@@ -225,7 +225,7 @@ e-gold系统利用了刚刚兴起的网络，特别是最近推出的Netscape浏
 
 另一个中央化的私人货币系统例子是自由储备，它允许用户持有和转移与美元、欧元或黄金挂钩的电子货币。这个系统由美国乌克兰裔的亚瑟·布多夫斯基和来自圣彼得堡的俄罗斯移民弗拉基米尔·卡茨创立。2006年，亚瑟·布多夫斯基移民到哥斯达黎加，当时被视为一个避税天堂，在那里他注册了他的公司，自由储备股份有限公司。
 
-![2009年自由储备标志](assets/en/10.webp)
+![2009年自由储备标志](assets/en/010.webp)
 2009年自由储备标志（来源：[维基媒体](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp)）
 该系统与电子黄金（e-gold）非常相似，不同之处在于资金（主要是美元）被存放在海外银行账户中，而不是私人金库中。自从2007年4月道格拉斯·杰克逊及其合伙人被起诉后，电子黄金关闭，自由储备（Liberty Reserve）因此大受益。根据[美国司法部](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf)2013年5月的数据，该平台在全球拥有超过一百万用户，包括美国的20多万用户，并每年处理1200万笔金融交易，总额超过14亿美元。该平台主要用于犯罪活动，但[不仅限于此](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/)：自由储备也被外汇交易者或用于海外转账。
 
@@ -243,7 +243,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 
 > “当然，我们所说的‘方便’对美国用户来说将是革命性的，对发展中国家来说更是如此。这些国家的政府对待他们的货币玩忽职守。他们使用通货膨胀，有时像我们去年在俄罗斯和几个东南亚国家看到的那样，进行大规模货币贬值，从他们的公民那里夺走财富。那里的大多数普通人从来没有机会开设海外账户或者获得几张像美元这样稳定货币的纸币。最终，PayPal将能够改变这一点。将来，当我们将服务提供给美国以外的地区，且随着互联网渗透继续扩展到所有经济层次的人们时，PayPal将给予全世界的公民比以往任何时候都更直接地控制他们的货币。腐败的政府几乎不可能通过他们旧有的手段从人民那里窃取财富，因为如果他们尝试，人们将转向美元、英镑或日元，实际上是用更安全的货币取代了毫无价值的本地货币。”
 
-![彼得·蒂尔于1999年10月20日，在加利福尼亚州奥克兰为独立研究所发表演讲](assets/en/11.webp)
+![彼得·蒂尔于1999年10月20日，在加利福尼亚州奥克兰为独立研究所发表演讲](assets/en/011.webp)
 彼得·蒂尔于1999年10月20日，在加利福尼亚州奥克兰为独立研究所发表演讲（来源：[Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E)）
 
 然而，事情并没有朝着预期的方向发展，PayPal不得不遵守各种金融法规，以至于该服务现在因其支付审查和全球范围内的账户冻结而闻名。认为这样的系统可以挑战既定权力是天真的。
@@ -265,14 +265,14 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 
 随着1950年代计算机的出现，将它们相互连接的可能性出现了。这就是最初的计算机网络形成的方式，导致了1970年代“网络中的网络”即互联网的发展。这些网络的基础设施问题不可避免地出现了。这就是为什么波兰裔美国计算机科学家Paul Baran在他的1964年的基础性文章中（描述了分组交换）列出了三种类型的网络：依赖单一节点的集中式网络；每个点都是节点的分布式网络；依赖多个节点的分布式网络的去中心化（非分布式）网络。
 
-![根据Paul Baran的定义，集中式、去中心化和分布式网络](assets/en/12.webp)
+![根据Paul Baran的定义，集中式、去中心化和分布式网络](assets/en/012.webp)
 
 从这些考虑中可以衍生出两种纯粹的模型：客户端-服务器模型，其中中央服务器响应客户端的请求，以及对等网络模型，其中每个节点在系统中扮演相同的角色。后者模型在2000年代用于文件共享特别有用，随着BitTorrent和其他类似协议的创建。Tor网络是去中心化的，不是纯粹的对等网络。
 在分布式架构中遇到的一个问题是分布式共识的问题，通常被称为拜占庭将军问题，这个问题由Leslie Lamport、Robert Shostak和Marshall Pease在1982年发表的一篇[论文](https://lamport.azurewebsites.net/pubs/byz.pdf)中正式提出。这个问题涉及到点对点系统中传输可靠性和参与者完整性的挑战，并且适用于计算机系统的组件需要达成一致的情况。
 
 问题以一种隐喻的形式陈述，涉及拜占庭帝国军队的将军们，他们正围攻一个敌人城市，打算发动攻击，并且只能通过信使进行通信。目标是找到一种策略（即算法），能够管理叛徒的存在并确保所有忠诚的将军就战斗计划达成一致，以便攻击成功。以下是一个插图（来源：*L'Élégance de Bitcoin*）：
 
-![拜占庭将军问题](assets/en/13.webp)
+![拜占庭将军问题](assets/en/013.webp)
 
 解决这个问题对于需要管理账户单位的分布式系统非常重要。这样的系统确实需要参与者就账户单位的所有权达成一致，即谁拥有什么。
 
@@ -284,7 +284,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 时间戳是一种技术，涉及将日期和时间与信息（如事件或文档）关联起来。从法律角度来看，这可以例如确保合同在给定日期之前的存在。在现实世界中，有许多方法可以对某物进行时间戳标记，例如发送一个密封的信封或在笔记本中记录时间线。
 然而，在数字世界中，时间戳特别有用，其中的文件（文本、图像、音频或视频）很容易被修改。时间戳可以由中心化服务执行，这些服务负责保存收到的文档（或其指纹）并将其与接收日期和时间关联。这被称为可信时间戳。
 1991年，两位为新泽西州的贝尔通信研究公司（通常称为“Bellcore”）工作的研究员斯图尔特·哈伯（Stuart Haber）和斯科特·斯托内塔（Scott Stornetta）提出了一种机密且安全的时间戳技术。在他们的论文[《如何为数字文档打上时间戳》](http://www.staroceans.org/e-book/Haber_Stornetta.pdf)中，他们描述了认证时间戳服务如何使用单向函数（例如MD4哈希函数）和签名算法来增加客户文档的机密性和认证的可靠性。特别是，这个想法是通过在应用单向函数时涉及前一个时间戳来链接信息。
-![认证时间戳的示例](assets/en/14.webp)
+![认证时间戳的示例](assets/en/014.webp)
 认证时间戳的示例（来源：[维基媒体](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg)）
 
 哈伯和斯托内塔通过从1992年开始在《纽约时报》的分类广告中发布加密指纹（由有用数据的哈希结果产生）来实施他们的想法。然后，他们在1994年创立了自己的公司Surety Technologies，旨在全身心投入这项活动。因此，他们以创建第一个时间戳链而[闻名](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain)，在计算要在报纸上发布的新指纹时考虑了之前的指纹，这预示了比特币区块链的出现。
@@ -294,7 +294,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 工作量证明是一个过程，它允许计算机设备以客观和可量化的方式证明它已经耗费了能量，以便被选中访问服务或特权。它本质上是一种抵抗Sybil攻击的机制，这使得攻击者难以过度增加身份以破坏或控制任何声誉系统。
 工作量证明（Proof of Work）的概念最初由计算机科学家Cynthia Dwork和Moni Naor在1992年描述，当时他们在位于加利福尼亚州圣何塞南部的IBM Almaden研究中心工作。在一篇名为“通过处理定价或对抗垃圾邮件”（Pricing via Processing or Combatting Junk Mail）的[研究论文](https://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf)中，他们提出了一种对抗电子邮件收件箱中垃圾邮件的方法。该模型包括强迫用户为每封发送的电子邮件解决一个密码学难题，以限制发送大量电子邮件的能力，同时允许偶尔的发送者不受阻碍。然而，他们从未实施过他们的想法。随着互联网在1990年代的普及，不受欢迎的电子邮件问题变得越来越紧迫，包括在密码朋克（cypherpunks）的邮件列表上。这就是为什么Dwork和Naor的概念在1997年被年轻的英国密码朋克Adam Back通过Hashcash实现的原因，Hashcash是一种使用哈希函数产生简单工作量证明的算法。更具体地说，它涉及找到考虑的哈希函数的部分碰撞，即获得两个具有以相同数据位开始的足迹的消息（注：从2002年发布的1.0版本开始，它涉及发现零印的部分碰撞，即找到一个前像，其足迹以确定数量的二进制零开始）。由于哈希函数是单向的，这样的成就只能通过逐一测试不同的可能性来实现，这需要能量消耗。
 
-![Adam Back in 2001](assets/en/15.webp)
+![Adam Back in 2001](assets/en/015.webp)
 2001年的Adam Back（来源：[Adam Back个人页面的存档](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/)）
 
 但是，密码朋克们并不仅仅将工作量证明视为限制垃圾邮件的简单手段；他们还想将其用作保证生产数字货币成本的方式。因此，在1997年，Adam Back[设想](https://cypherpunks.venona.com/date/1997/04/msg00822.html)了这个想法，但他意识到这样获得的工作量证明不能以完全分布式的方式转移（因为双重支付问题），因此有必要通过像eCash这样的中心化系统。同样，在1996年，密码学家Ronald Rivest和Adi Shamir描述了[MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf)，一个中心化的小额支付系统，其硬币被认为是无法伪造的，这要归功于工作量证明的产生。
@@ -313,13 +313,13 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 尽管相当巧妙，魏戴提出的b-money概念并非完全可行。因此，它存在主要缺陷，如对网络的Sybil攻击的脆弱性（理论上任何人都可以向网络添加新节点）、在服务器被预选的情况下的网络中心化，以及与账户单位稳定性相关的问题（谁来决定市场上的可观察价格？）。
 在列表上发布后，b-money引起了密码朋克的注意，特别是[亚当·贝克的注意](https://cypherpunks.venona.com/date/1998/12/msg00203.html)。然而，魏戴从未实施他的模型，不仅因为它功能失调，还因为这位密码学家对加密无政府主义的[幻灭](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d)。尽管如此，b-money最终被引用在比特币白皮书中，成为其前身之一。
 
-![比特币白皮书中提到的b-money](assets/en/16.webp)
+![比特币白皮书中提到的b-money](assets/en/016.webp)
 
 ### 比特金：比特币之前的数字黄金
 
 从密码朋克的想法中涌现的第二个模型是尼克·萨博（Nick Szabo）在1998年想象的比特金概念。他是一位美国计算机科学家，拥有匈牙利血统，曾经为DigiCash担任顾问六个月。作为一个密码朋克，他以在1995年正式定义智能合约的概念而闻名。
 1994年，Nick Szabo 创建了一个名为 libtech-l 的私人邮件列表，其目的如其名称所示，旨在主持关于解放技术的讨论，允许保护个人自由，抵御权威的侵犯。像 Wei Dai 和 Hal Finney 这样的密码朋克，以及经济学家 Larry White 和 George Selgin 都可以访问，他们是哈耶克货币竞争和自由银行制度的支持者。
-![Nick Szabo in 1997](assets/en/17.webp)
+![Nick Szabo in 1997](assets/en/017.webp)
 1997年的Nick Szabo（来源：[Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1)）
 
 正是在 libtech-l 列表上，Nick Szabo 最初描述了他的概念，然后在1999年在他的个人网站上托管了一份[草案](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html)。之后，他在2005年通过在他的博客Unenumerated上发布的[文章](https://unenumerated.blogspot.com/2005/12/bit-gold.html)中介绍了比特黄金。
@@ -340,7 +340,7 @@ PayPal的最初愿景是革命性的，符合彼得·蒂尔的自由主义愿景
 
 以下是Hal Finney本人设计的插图：
 
-![RPOW中的交换](assets/en/18.webp)
+![RPOW中的交换](assets/en/018.webp)
 
 Hal Finney不仅设计了模型，而且还亲自实施了它。2004年8月15日，他在密码朋克邮件列表上[宣布](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html)了RPOW系统的启动，并在专用网站（rpow.net）上记录了其操作。然后，他在旧金山举行的2005年CodeCon会议上[展示](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)了它，讨论了工作证明令牌的潜在用途，即：价值转移、垃圾邮件调控、视频游戏中的商业活动、在线赌博如扑克，以及像BitTorrent这样的文件共享协议中的反吸血鬼策略。
 然而，RPOW存在内在缺陷，这可能解释了为什么它没有达到预期的成功：
@@ -352,7 +352,7 @@ Hal Finney不仅设计了模型，而且还亲自实施了它。2004年8月15日
 
 ### Ripple：信用的去中心化
 比特币的另一个鲜为人知但同样重要的前身模型是分布式信用协议Ripple，这是由加拿大开发者Ryan Fugger在2004年设计的。这位年轻的加拿大人受到了[本地交换贸易系统](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local)（LETS）概念的启发，这是他在设计协议之前在温哥华经历过的。他于2004年4月14日发布了Ripple的[白皮书](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf)，然后通过一个名为RipplePay的概念验证实现了它，该系统运行在一个中央服务器上，允许用户仅使用电子邮件地址连接。
-![Ryan Fugger circa 2010](assets/en/19.webp)
+![Ryan Fugger circa 2010](assets/en/019.webp)
 Ryan Fugger circa 2010 (来源：[Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
 Ripple的概念基于这样一个观点，即金钱本质上是由借据组成的，也就是信用。它旨在建立一个点对点网络，其链接将是人与人之间的信用关系。然后通过一系列贷款的路由来进行支付，所有参与者都充当彼此借贷金钱的银行家。Alice可以通过借给Bob 10美元，并要求Bob对Carole做同样的事，然后Carole再对David做同样的事来支付David 10美元：David的账户随后被记入了Alice创造的10美元。该系统在某种程度上通过涟漪作用运行，这解释了项目名称的由来。
@@ -400,7 +400,7 @@ Ripple的概念基于这样一个观点，即金钱本质上是由借据组成�
 
 8月20日，比特币的创造者[联系](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf)了Adam Back，通过发送电子邮件向他询问如何在白皮书中引用他关于Hashcash的论文。很难不将此视为一个借口，以确保Hashcash的发明者意识到他的新系统。
 
-![Adam Back in 2012](assets/en/20.webp)
+![Adam Back in 2012](assets/en/020.webp)
 2012年的Adam Back（来源：[Adam Back的个人页面](http://www.cypherspace.org/adam/)）
 
 电子邮件中包含了白皮书草稿的链接。PDF文件名为`ecash.pdf`，标题为“无需可信第三方的电子现金”。摘要与10月发布的第一版相同，只有一个词的差异。不幸的是，我们没有完整的文档。
@@ -429,7 +429,7 @@ Ripple的概念基于这样一个观点，即金钱本质上是由借据组成�
 
 在他的电子邮件中，他包含了一个指向白皮书的链接，该白皮书已经托管在Bitcoin.org上，这是一份简短的9页文档，以科学文章的形式呈现，描述了比特币的技术工作原理。这份文件着重讨论了在线支付的问题。
 
-![第一版白皮书的标题和摘要（2008年10月）](assets/en/21.webp)
+![第一版白皮书的标题和摘要（2008年10月）](assets/en/021.webp)
 
 在这次公告之后，中本聪收到了一些回复，但大多数都持怀疑态度。他主要因三件事受到批评：
 - 首先，密码朋克James A. Donald[挑战](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html)系统的可扩展性，他说“它似乎无法扩展到所需的规模。”中本聪[回复](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)说，“带宽可能没有你想象的那么禁止性。”
@@ -438,7 +438,7 @@ Ripple的概念基于这样一个观点，即金钱本质上是由借据组成�
 - 最后，一个名叫Ray Dillinger（使用化名bear）的个体[对](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html)账户单位的价值表示好奇，他哀叹“工作量证明没有内在价值”并批评它们因计算机硬件的技术进步而具有通货膨胀的性质。中本聪[回复](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)说，“硬件速度的增加已经被考虑在内”通过定期调整生产难度。
 尽管怀疑是邮件列表上的主导态度，但并非每个订阅该邮件列表的人都持有这种态度。特别是，有一个人因其热情而脱颖而出：Hal Finney，他对未来持乐观态度，并且尽管90年代的失败，他从未放弃电子现金的想法。几年后，他在这个问题上[声明](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833)说，“我注意到密码学的老前辈们（我当时50多岁）往往会变得愤世嫉俗。我更加理想主义；我一直热爱密码学，它的神秘和悖论。”因此，在11月7日，他在一封[电子邮件](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)中写给列表说，“比特币似乎是一个非常有前途的想法”并将中本聪的模型与Nick Szabo的比特黄金进行比较。
 
-![Hal Finney 2007年](assets/en/22.webp)
+![Hal Finney 2007年](assets/en/022.webp)
 Hal Finney 2007年
 
 ### 货币政策和软件代码
@@ -485,7 +485,7 @@ Hal Finney和Ray Dillinger对代码进行了彻底的审查。每个人都专注
 通过Satoshi和Hal Finney之间的这些交流，0.1.3版本[发布](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/bitcoin/mailman/message/21313152/)于1月12日，比之前的版本稳定得多。Satoshi还利用与Hal Finney的对话给了他一些比特币：他在1月11日至12日的夜晚，凌晨3:30通过IP地址[发送](https://mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16)给他10比特币。这是网络上从一个人到另一个人的第一次转账。
 
 但Hal Finney并不是当时尝试比特币的唯一人。美国计算机安全研究员Dustin D. Trammell也是如此，他当时对数字货币（特别是自由美元的电子版本）感兴趣，并通过邮件列表发现了比特币。1月11日，他在自己的一台工作机器上运行了软件（但由于技术问题，直到13日才挖到他的第一个[区块](https://mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e)）。在1月11日至12日的夜晚，他与Satoshi取得了联系，并在接下来的几天里[广泛交流](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip)。1月15日，Dustin Trammell也从他那里[收到](https://mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577)了25比特币。
-![Dustin Trammell](assets/en/23.webp)达斯汀·特拉梅尔（来源：[达斯汀·特拉梅尔的博客存档](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/)）
+![Dustin Trammell](assets/en/023.webp)达斯汀·特拉梅尔（来源：[达斯汀·特拉梅尔的博客存档](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/)）
 
 随后，其他人尝试让软件运行起来。这就是英国律师尼古拉斯·博姆的情况，他在1月25日因遇到技术问题而在bitcoin-list上发送电子邮件，并与中本聪私下交流。一个名叫杰夫·凯恩的人设法在1月30日让0.1.3版本运行起来。尼古拉斯·博姆将在2月初发布的软件版本0.1.5的致谢名单中与达斯汀·特拉梅尔一起被提及。
 
@@ -519,7 +519,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 - 一方面，它通过证明系统不可能在1月3日之前启动来防止网络启动的回溯，因为在报纸发布之前，中本聪不可能知道这个头条；
 - 另一方面，它通过引用当时的货币和金融背景，象征性地表明比特币所反对的东西。
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
 
 当时，世界确实感受到了2007年美国次贷泡沫破裂引发的金融危机的全面影响。在投资银行雷曼兄弟于2008年9月15日倒闭后，政府救助了金融机构以防止进一步的破产，中央银行通过向金融市场注入流动性进行了量化宽松。这种为此次场合创造的公共资金的使用，让许多公民意识到银行系统实际上是私人利润和社会化损失的体系。
 
@@ -552,7 +552,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
 最后，最后一条评论来自John Gilmore，他是cypherpunks的创始成员，也是该运动从1992年到1997年的第一个邮件列表的保管者。在1月25日发送的一封电子邮件中，他强调了比特币假定的生态后果，并[写道](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html)：“我们最不需要的就是部署一个旨在消耗所有可用周期、消耗电力并在整个互联网上产生二氧化碳的系统，以便生产少量的bitbux来通过电子邮件或垃圾邮件。”Satoshi私下[回复](https://mmalmi.github.io/satoshi/#email-3)他说，“在经济自由和环境保护之间不得不选择将是讽刺的。”他补充说，“工作证明是我找到的唯一解决方案，使点对点电子现金系统工作”，即使它可能消耗大量能源，“它仍然会浪费比它将取代的劳动力和资源密集型的传统银行活动少。”
 
-![John Gilmore in 2007](assets/en/25.webp)
+![John Gilmore in 2007](assets/en/025.webp)
 2007年的John Gilmore（来源：[Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/)）
 
 在27日，Hal Finney[提到](https://www.metzdowd.com/pipermail/cryptography/2009-January/015056.html)减少计算工作证明相关的能量耗散的方法。一个小时后，他在Twitter上[写道](https://twitter.com/halfin/status/1153096538)“思考如何减少广泛实施比特币的CO2排放。”
@@ -567,7 +567,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 2月11日，中本聪在论坛(p2pfoundation.ning.com)上发布了一条[介绍信息](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source)，介绍比特币，并通过电子邮件将[副本](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001347.html)发送到列表(p2p-research)。在这段文字中，他写道：
 
 > “传统货币的根本问题在于所有需要的信任才能使其运作。我们必须信任中央银行不会贬值货币，但是法定货币的历史充满了对这种信任的背叛。我们必须信任银行保管我们的钱并进行电子转账，但他们在几乎没有足够储备的情况下，以信贷泡沫的形式借出去。我们必须信任他们保护我们的隐私，不让身份盗贼清空我们的账户。他们显著的高额成本使得微支付变得不可能。”
-在他的[个人资料](https://p2pfoundation.ning.com/profile/SatoshiNakamoto)上，他声称自己是一名日本人，但这并不是全部。2011年的一个界面更新揭示了他的年龄：35岁，这意味着他在2009年时32或33岁。然后，在2014年，人们[发现](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/)他指明了一个具体的出生日期：1975年4月5日。这个看似无害的日期，很可能是对美国公民在1933年至1975年间被禁止拥有黄金的综合提及。4月5日这一天与[行政命令6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates)签署的日期相关，该命令由富兰克林·德拉诺·罗斯福总统于1933年4月5日签署，而1975年则对应于该禁令通过颁布[公共法律93-373](https://www.govtrack.us/congress/bills/93/s2665/text)被废除的年份。这个细节非常重要，因为这个禁令结束了经典的金本位制（人们可以用代表性的票据兑换黄金），允许美元贬值（通过1934年的黄金储备法案），并促成了我们所知的浮动汇率货币制度的建立，这一切都是在1971年尼克松冲击之后发生的。![2011年3月17日，P2P基金会论坛上的中本聪个人资料](assets/en/26.webp)
+在他的[个人资料](https://p2pfoundation.ning.com/profile/SatoshiNakamoto)上，他声称自己是一名日本人，但这并不是全部。2011年的一个界面更新揭示了他的年龄：35岁，这意味着他在2009年时32或33岁。然后，在2014年，人们[发现](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/)他指明了一个具体的出生日期：1975年4月5日。这个看似无害的日期，很可能是对美国公民在1933年至1975年间被禁止拥有黄金的综合提及。4月5日这一天与[行政命令6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates)签署的日期相关，该命令由富兰克林·德拉诺·罗斯福总统于1933年4月5日签署，而1975年则对应于该禁令通过颁布[公共法律93-373](https://www.govtrack.us/congress/bills/93/s2665/text)被废除的年份。这个细节非常重要，因为这个禁令结束了经典的金本位制（人们可以用代表性的票据兑换黄金），允许美元贬值（通过1934年的黄金储备法案），并促成了我们所知的浮动汇率货币制度的建立，这一切都是在1971年尼克松冲击之后发生的。![2011年3月17日，P2P基金会论坛上的中本聪个人资料](assets/en/026.webp)
 
 2011年3月17日，P2P基金会论坛上的中本聪个人资料（来源：[论坛截图](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto)）
 
@@ -586,7 +586,7 @@ Satoshi的沟通策略逐渐见效。2009年4月，其他人开始对他的发�
 
 4月12日，Mike Hearn向Satoshi发送了一封[电子邮件](https://plan99.net/~mike/satoshi-emails/thread1.html)，他在邮件中询问了关于比特币的一系列问题。他指出“很少遇到真正革命性的想法”，并且没有忘记提及Ripple。
 
-![Mike Hearn](assets/en/27.webp)
+![Mike Hearn](assets/en/027.webp)
 
 Mike Hearn和Satoshi Nakamoto讨论了比特币的各个方面，如扩展性、微支付、软件如何工作以及没有退款的情况。特别是，Mike Hearn询问Satoshi为什么选择“2400万”(*sic*)作为比特币总量的数量，以及它们是否可以被细分。Satoshi随后给出了以下解释：
 
@@ -601,7 +601,7 @@ Mike Hearn和Satoshi Nakamoto讨论了比特币的各个方面，如扩展性、
 
 > “该系统是匿名的，没有任何政府能够对交易征税或阻止交易。没有中央银行可以通过无限制创造新货币来贬值货币。这样一个系统的广泛采用似乎是能够对国家依赖其公民的能力产生毁灭性影响的事情。”
 
-![Martti Malmi in 2013](assets/en/28.webp)
+![Martti Malmi in 2013](assets/en/028.webp)
 2013年的Martti Malmi（来源：[Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5)）
 
 Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/satoshi/#email-1)，告诉他自己是这篇文本的作者，他写道他“希望能帮助比特币”，尽管他“在开发方面的经验还不多”。中本聪在5月2日回复他，告诉他他对比特币的“理解是非常准确的”。
@@ -635,7 +635,7 @@ Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/s
 
 第一批用户开始在下个月初注册。12月9日，发表的[第一条信息](https://bitcointalk.org/index.php?topic=12.msg40#msg40)由非Satoshi的人发出，这真正地开启了讨论。作为一个例证，这里有一个2010年5月29日论坛的[截图](https://web.archive.org/web/20100529193636/http://www.bitcoin.org/smf/)：
 
-![2010年5月29日比特币论坛的截图](assets/en/29.webp)
+![2010年5月29日比特币论坛的截图](assets/en/029.webp)
 
 新论坛的启动是发布[软件版本0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73)的一个机会，Satoshi Nakamoto和Martti Malmi已经工作了几个月，这在12月16日完成。这个版本包括了如最小化到任务栏、启动时自动启动或挖矿生产的多线程等改进。得益于Malmi的贡献和新来的NewLibertyStandard（其案例将在下一章中讨论）进行的测试，软件也适配了Linux。
 
@@ -681,7 +681,7 @@ Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/s
 ### 第一个交易服务和第一个价格
 在2009年9月底，一位使用化名NewLibertyStandard（我们将其简称为NLS）的个人发现了比特币。他尝试了该软件并开始挖矿。他产出的第一个区块是[区块23,940](https://mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50)。他是一位Linux用户，因此使用了“模拟器”Wine来运行软件。他对政治自由和贵金属感兴趣，这一点从他在论坛上的[头像](https://bitcointalk.org/index.php?action=profile;u=26)中可以看出，头像描绘了一只美国鹰，上面刻有“自由”一词。因此，他将比特币视为数字世界中的黄金：在他的[个人页面](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/)上，他将中本聪的创造呈现为“一场经济革命”和“数字货币的黄金标准”。
 
-![NewLibertyStandard在比特币论坛上的头像，描绘了一只美国鹰](assets/en/30.webp)
+![NewLibertyStandard在比特币论坛上的头像，描绘了一只美国鹰](assets/en/030.webp)
 
 2009年10月，第一个货币兑换服务建立，允许人们将他们的美元兑换成比特币，以及将比特币兑换回美元。该服务的创建者在SourceForge专门的比特币论坛上注册，并在那里宣布了他的服务开通。为了估算汇率，他根据获得一个单位所需的能源成本来计算，考虑了他所在地的电价和他个人生产的频率。在他的页面上，他[写道](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate)：
 
@@ -689,7 +689,7 @@ Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/s
 
 以下是NLS服务的指示性汇率，也发布在NLS的个人页面上：
 
-![NLS服务的指示性汇率](assets/en/31.webp)
+![NLS服务的指示性汇率](assets/en/031.webp)
 
 交易通过newlibertystandard@gmail.com的电子邮件完成。美元转账仅通过PayPal进行，且此操作会收取费用。
 
@@ -710,7 +710,7 @@ Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/s
 
 2月5日，NLS[建议](https://bitcointalk.org/index.php?topic=41.msg238#msg238)比特币采用外汇市场上交易的货币一样的股票代码BTC和泰铢的符号(฿)。在此之前，并没有建立起来的惯例：例如，Satoshi和Martti在他们的[通信](https://mmalmi.github.io/satoshi/#email-119)中使用字母`bc`来描述单位。BTC符号的使用很快就标准化了。2月24日，货币符号（大写字母B被两个垂直条穿过）由Satoshi[设计](https://bitcointalk.org/index.php?topic=64.msg504#msg504)，他随后创建了第一个真正的比特币标志。
 
-![由中本聪设计的第一个真正的比特币标志（2010）](assets/en/32.webp)
+![由中本聪设计的第一个真正的比特币标志（2010）](assets/en/032.webp)
 
 渐渐地，人们开始接受比特币。2009年12月，一个名为SmokeTooMuch的用户刚到来，就[报告了](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65)一个名为BTC 2 PSC的paysafecard礼品卡销售服务的存在。该服务后来在2010年2月4日被Satoshi[积极提及](https://mmalmi.github.io/satoshi/#email-141)。NLS也是如此，他在2月9日[开设](https://bitcointalk.org/index.php?topic=30.msg305#msg305)了自己的在线商店Liberty Swap Variety Shop，出售邮票和贴纸。
 
@@ -719,7 +719,7 @@ Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/s
 - BitcoinFX (bitcoinfx.cz.cc)，一个以Liberty Reserve美元出售比特币的服务，于2月15日[宣布](https://bitcointalk.org/index.php?topic=30.msg194#msg194)；
 - BitcoinExchange (bitcoinexchange.com)，Martti Malmi的平台，独特地通过考虑用户存入的欧元和比特币来[衡量](https://mmalmi.github.io/satoshi/#email-25)供需，并于2010年3月2日[向公众开放](https://bitcointalk.org/index.php?topic=68.msg591#msg591)；
 - Bitcoin Market (bitcoinmarket.com)，一个使用PayPal的点对点市场，由一个名为dwdollar的人在3月16日[启动](https://bitcointalk.org/index.php?topic=20.msg726#msg726)，并在Mt. Gox于7月出现之前取得了显著的成功。
-![2011年8月26日比特币市场界面的后期截图](assets/en/33.webp)[截图](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/)显示了2011年8月的比特币市场界面
+![2011年8月26日比特币市场界面的后期截图](assets/en/033.webp)[截图](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/)显示了2011年8月的比特币市场界面
 
 3月11日，由BitcoinFX的管理员组织的第一场涉及比特币的扑克游戏[举行](https://bitcointalk.org/index.php?topic=80.msg781#msg781)，这标志着赌博与加密货币之间强大关系的开始。这场游戏由dwdollar赢得，他赚得了[600 BTC](https://mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761)。
 
@@ -727,7 +727,7 @@ Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/s
 
 第一个专门的比特币托管服务也随之出现：这是MyBitcoin，一个网页应用程序，使得使用加密货币，特别是在移动设备上，变得简单而安心。多亏了这项服务，用户实际上不需要下载完整的链数据来发送和接收交易，也不需要通过保存他们的私钥来自己保管比特币。
 
-![MyBitcoin网站存档中的MyBitcoin标志](assets/en/34.webp)
+![MyBitcoin网站存档中的MyBitcoin标志](assets/en/034.webp)
 
 在那个时候，轻量级钱包（被称为"SPV"）还不存在，所以中本聪自己认为使用这种类型的软件是可以接受的，即使这种使用违背了比特币核心的去中介化原则。2010年5月18日，他在论坛上[写道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
 
@@ -767,14 +767,14 @@ Martti随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/s
 
 中本聪对这种难度的增加非常关注，并从2010年2月开始在论坛上保持了一个[历史记录](https://bitcointalk.org/index.php?topic=43.msg249#msg249)。以下是它的样子：
 
-![中本聪在论坛上描述的难度演变](assets/en/35.webp)
+![中本聪在论坛上描述的难度演变](assets/en/035.webp)
 
 尽管对网络计算能力的增加感到热情，中本聪仍然希望减缓挖矿的专业化，以促进单位的分配。直到那时，矿工一直在使用他们的中央处理单元（CPU）来提取新的比特币。然而，与图形处理单元（GPU）相比，这些处理器在执行重复操作时被证明是低效的，GPU更适合这种类型的重复计算。因此，包括中本聪在内的每个人都知道，这种演变是不可避免的。2009年12月19日，他[如此声明](https://bitcointalk.org/index.php?topic=12.msg54#msg54)：
 “我们应该有一个绅士协议，尽可能长时间地推迟GPU军备竞赛，以利于网络的良好。如果新用户不必担心GPU驱动程序和兼容性，让他们快速上手就会容易得多。现在任何只有CPU的人都可以相当公平地竞争，这很好。”
 
 然而，几个月后，潘多拉的盒子被打开了。麻烦制造者是Laszlo Hanyecz，一位28岁的美国开发者，匈牙利血统，居住在佛罗里达。他在2010年4月发现了比特币。9号那天，他从NLS[获得](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1)了3300个比特币，大约20美元，然后通过进行几次转账来测试系统。18号，他试图通过从他的[公共地址](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4)进行多次交易来拥堵网络，但它撑住了。
 
-![2018年5月Laszlo Hanyecz和他的儿子](assets/en/36.webp)
+![2018年5月Laszlo Hanyecz和他的儿子](assets/en/036.webp)
 2018年5月Laszlo Hanyecz和他的儿子（来源：[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/)）
 随后，他[适配了](https://bitcointalk.org/index.php?topic=116.msg972#msg972)软件代码，使其能够在Mac OS X操作系统上运行。然后，他通过使用OpenCL环境来优化挖矿，该环境允许[GPU的参与](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100)生成比特币。5月10日，他发布了他的[可执行文件](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100)并[提供](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103)编写补丁以使其他矿工也能这样做。这种优化很快让他在区块生产中占据了重要地位。4月底，Laszlo联系了Satoshi以征询他的意见，但后者直到5月17日才回应。比特币的创造者随后[要求](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/)他放慢操作速度，以便挖矿对大多数人仍然可接近：
 > “对新用户的一大吸引力是，任何拥有电脑的人都可以生成一些免费的币。当有5000个用户时，这种激励可能会消失，但现在，这仍然是真的。GPU将过早地将激励限制为只有那些拥有高端GPU硬件的人。GPU计算集群最终占据所有生成的币是不可避免的，但我不想加速那一天的到来。（...）我不是想听起来像个社会主义者，我不在乎财富是否集中，但现在，将这些钱给予100%的人比只给20%的人可以获得更多的增长。此外，我们能越晚延迟GPU军备竞赛，OpenCL库就会越成熟，拥有OpenCL兼容显卡的人就会越多。”
@@ -787,17 +787,17 @@ Laszlo并没有真正注意这个警告，继续使用他的图形卡挖掘区�
 
 Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找到的区块，尽管有一些误报。这种挖矿模式由开发者Sergio Lerner在2013年突显出来，并被命名为Patoshi模式。
 
-![Patoshi模式在0到50,000区块之间](assets/en/37.webp)
+![Patoshi模式在0到50,000区块之间](assets/en/037.webp)
 
 在网站[satoshiblocks.info](http://satoshiblocks.info/)上观察到的0到50,000区块之间的Patoshi模式：每个点对应一个区块，蓝线由Satoshi的区块形成，其他线代表其他矿工的输出。
 根据Whale Alert在2020年发布的一项研究，中本聪挖掘了大约22,500个区块，因此累积了1,122,693比特币，这超过了计划中的2100万单位的5%。在2009年的大部分时间里，网络依赖于其创始人的计算能力。这种依赖在2009年8月得到了体现，那是挖矿活动最糟糕的时期，恰逢中本聪“暂停”期，他可能较少监控他的机器。实际上，在这个8月，只生产了1,564个区块，而预期的是4,464个，相应的平均时间为28分钟30秒。
 随着2009年秋季计算能力的增加，中本聪相对于总网络功率的计算能力比例逐渐下降。它从2009年3月的75%下降到9月的60%，然后在12月下降到15%，并在5月达到0%。以下是[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)在2014年制作的图表：
 
-![估计2009年1月至2010年7月中本聪计算能力相对于总功率的比例](assets/en/38.webp)
+![估计2009年1月至2010年7月中本聪计算能力相对于总功率的比例](assets/en/038.webp)
 
 此外，中本聪挖矿主导地位的下降并非仅仅是被动的：在同一时期，他自己也放慢了生产速度。实际上，中本聪的明确目标是让每个人都参与进来：他不是为了财务收益而挖矿，而是为了确保网络运行，直到激励措施生效。因此，他在这个挖矿期间三次降低了他的哈希率（每秒执行的计算次数）：第一次从4.5 MH/s降到2.5 MH/s在2009年6月，第二次从2.5 MH/s降到1 MH/s在10月，第三次从1 MH/s降到0 MH/s在2010年5月。这里是他在此期间哈希率演变的图表（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)）：
 
-![估计2009年1月至2010年5月中本聪的哈希率](assets/en/39.webp)
+![估计2009年1月至2010年5月中本聪的哈希率](assets/en/039.webp)
 
 因此，中本聪的挖矿行为绝对是利他的，正如[Jameson Lopp指出的](https://blog.lopp.net/was-satoshi-a-greedy-miner/)。当他在2010年5月3日停止挖矿时（他的最后一个区块是[区块54,316](https://mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)），这构成了比特币缓慢发展的另一个成就：经济行为者接管交易确认。
 
@@ -808,12 +808,12 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 
 这个提议在四天后被接受。接受交换的是一位来自加利福尼亚的年轻人，名叫Jeremy Sturdivant，他通过IRC即时消息服务完成了交易。
 
-![2018年5月的Jeremy Sturdivant](assets/en/40.webp)
+![2018年5月的Jeremy Sturdivant](assets/en/040.webp)
 2018年5月的Jeremy Sturdivant（来源：[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/)）
 
 在5月22日，他从Papa John's订购了两个披萨，送到了佛罗里达州杰克逊维尔的Laszlo家。作为交换，他[收到了](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d)10,000比特币，按照比特币市场的汇率大约值44美元。这里是Laszlo自己[分享的](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/)这两个披萨的照片：
 
-![2010年5月22日送到Laszlo Hanyecz家的Papa John's披萨](assets/en/41.webp)
+![2010年5月22日送到Laszlo Hanyecz家的Papa John's披萨](assets/en/041.webp)
 
 这标志着使用比特币购买实物商品的第一次交易，即使这次购买是间接的。[Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196)祝贺Laszlo，写道“迈出了重要的一步。”NLS也在这件事上添加了一个[积极的评论](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197)。
 
@@ -827,7 +827,7 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 
 这一时期还见证了比特币历史上的一个关键人物的到来：加文·安德森，一位出生在澳大利亚的44岁开发者，他在2004年获得了美国国籍，当时住在马萨诸塞州的阿默斯特。从澳大利亚旅行回来并暂时失业后，他在5月底通过尼尔·麦卡利斯特（Neil McAllister）在InfoWorld上发表的[文章](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3)发现了比特币。这篇文章将中本聪的项目描述为“开源创新”。
 
-![加文·安德森在澳大利亚昆士兰州汤斯维尔的资料照片](assets/en/42.webp)
+![加文·安德森在澳大利亚昆士兰州汤斯维尔的资料照片](assets/en/042.webp)
 加文·安德森在澳大利亚昆士兰州汤斯维尔（图片来源：[CIO档案](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/)）
 
 好奇且具有创造力的他很快开始了一个个人项目：一个向任何请求者提供比特币的“比特币水龙头”。6月11日，他[启动](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488)了他的服务，并在论坛上如下介绍：
@@ -886,7 +886,7 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 
 > “这算不算一项颠覆性技术？比特币是一种点对点的、基于网络的数字货币，没有中央银行，也没有交易费用。使用工作量证明概念，节点燃烧CPU周期寻找硬币束，将其发现广播到网络。能源使用分析表明，比特币的市场价值已经超过了生成它们所需的能源价值，表明需求健康。社区希望这种货币能够保持在任何政府的触手之外。”
 
-![Slashdot Logo in 2010](assets/en/43.webp)
+![Slashdot Logo in 2010](assets/en/043.webp)
 
 该出版物引起了注意，在几天内收到了近500条评论。对于比特币来说，这一成功导致了大量访客涌入网站和论坛。区块链的使用激增：网络上进行的交易数量从7月10日的42笔增加到12日的1,641笔，到14日达到5,554笔，创下了历史新高。尽管负载增加，系统仍然稳定运行。14日，开发者Gavin Andresen在论坛上[写道](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745)：
 
@@ -898,12 +898,12 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 
 在通过Slashdot发现比特币的人中，有Jed McCaleb，一位35岁的美国企业家和程序员，他因在2000年代共同创立并开发点对点文件共享软件eDonkey2000而闻名。意识到用美元兑换比特币有多困难后，他"一时兴起"决定创建一个高效的市场。为此，他重新利用了他在2007年开发的一个旧项目：Magic The Gathering Online eXchange (MTGOX)，这是一个允许买卖在线游戏《Magic: The Gathering Online》卡牌的网站。他重用了这个项目的域名(mtgox.com)，这个名称成为了新平台的名称：Mt. Gox，发音为"Mount Gox"。
 
-![Jed McCaleb in 2013](assets/en/44.webp)
+![Jed McCaleb in 2013](assets/en/044.webp)
 2013年的Jed McCaleb（来源：Ariel Zambelich为[Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/)）
 
 一周后，即7月18日，Jed McCaleb启动了他的交易平台，并在论坛上[宣布](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866)了这一消息。凭借他的专业知识，他确保了平台作为一个自动化市场的运作，类似于现代在线交易所。[据他所说](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891)，它与Bitcoin Market不同之处在于它“始终在线，自动化”，“网站更快，有专用托管”，以及“界面更加用户友好”。结果，Mt. Gox迅速成为获取比特币的主要手段，确立了自己作为美元报价的标杆。
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/45.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/en/045.webp)
 2011年2月Mt. Gox平台的界面（来源：[Mt. Gox archive](https://web.archive.org/web/20110203031942/http://mtgox.com/)）
 最初，该平台接受通过PayPal进行支付。然而，在2010年10月，由于过多的退款请求，PayPal [封锁](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421)了Jed McCaleb的账户，这迫使他暂时暂停了平台上的存款和取款操作。几周后，他通过添加Liberty Reserve作为支付方式，[恢复](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700)了转账。随后，应要求他还接受了通过[Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809)的交易，并且接受了[美元](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610)（ACH）和[欧元](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040)（SEPA）的银行转账。
 ### Slashdot效应的加速作用
@@ -924,7 +924,7 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 然而，比特币的创造者并不是独自一人在编写代码。他可以依靠Gavin Andresen的帮助，Gavin于6月份加入，并且越来越多地参与到开发中（自7月9日起，他在SourceForge仓库中被[认证](https://sourceforge.net/p/bitcoin/code/101/)）。还有一些对系统如何工作感到好奇并在遇到问题时报告问题的人，例如Christian Decker（cdecker）或Michael Marquardt（更广为人知的化名是Theymos）。Satoshi还得到了矿工的支持，这些矿工修改代码以寻找优化单位生成的方法，比如ArtForz（我们将在下一章看到，他是第一个建立矿场的人）、德国开发者Nils Schneider（tcatm）、Michael Brown（knightmb）或BlackEye。
 最后，我们可以提到Jeff Garzik（在论坛上使用化名jgarzik），他是一位美国开发者，在自由软件世界中做出了贡献，特别是对于Red Hat发行版，同时他也是奥地利经济学派的自由主义追随者。他通过在Slashdot上发布的文章发现了比特币，并几乎立即参与到比特币中。
 
-![Jeff Garzik in 2013](assets/en/46.webp)
+![Jeff Garzik in 2013](assets/en/046.webp)
 2013年的Jeff Garzik（来源：[Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/)）
 
 Satoshi的首要目标是使软件和协议更加安全，以应对最近使用量的增加。他和Gavin Andresen一起考虑可能发生的各种攻击（包括拒绝服务攻击），并努力修正发现的漏洞。这就是7月17日添加检查点系统（[v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)）的原因，它阻止了在特定日期之前重写链的行为，并且在7月25日集成了工作概念（[v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)）以完善节点选择正确链的机制。
@@ -961,7 +961,7 @@ Gavin和Satoshi还修复了几个漏洞。其中最主要的一个是“1 RETURN
 
 尽管中本聪没有提及区块大小限制的存在，但随着时间的推移，几个人注意到了代码中的这一点。早在8月12日，一个使用化名throughput的讲俄语的论坛成员就[指出](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873)，以一种相对赞同的语气说，“另一个有趣的方面是，区块的字节大小（所以其中的交易数量）是有限的。”后来，在9月30日，Theymos向另一个成员[指出](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748)，“比特币不允许超过1MB的区块，所以假设一个（相当小的）平均交易大小为216字节，比特币每10分钟只能处理4,629笔交易。”
 最终，这个参数的存在影响了Jeff Garzik，他[声明](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750)自己“比起政府关闭，更加关心可扩展性”，并且[询问](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107)如何能够“向严肃的投资者出售比特币，而内置的限制，如每分钟463笔交易的限制。”因此，在10月3日，他在论坛上提出了一个补丁，以将区块大小限制增加到7.168 MB，以便“匹配PayPal的平均交易率。”Theymos回应说，“应用这个补丁将使你与其他比特币客户端不兼容。”这一消息得到了中本聪的认可，他[推荐](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139)不使用该补丁，并声明：“如果我们接近需要它的时候，我们可以稍后逐步引入变更。”后者在第二天[阐明](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366)了他的想法，提供了如何进行此类协议更改的指导。
-![中本聪在2010年描述增加区块大小限制的消息](assets/en/47.webp)
+![中本聪在2010年描述增加区块大小限制的消息](assets/en/047.webp)
 
 这次讨论标志着关于可扩展性的辩论的开始，这最终会在2015年到2017年之间导致一场真正的内战，被称为区块大小战争。
 
@@ -993,11 +993,11 @@ Gavin和Satoshi还修复了几个漏洞。其中最主要的一个是“1 RETURN
 
 在2010年7月比特币被Slashdot报道后，价格上涨带来的高额财务回报和未来增长的可能性鼓励个人更加密集地致力于生成比特币。这就是为什么网络的[哈希率](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime)在7月11日是0.22 GH/s，到了17日上升到2.78 GH/s，然后在8月15日达到5.79 GH/s，最终在9月19日达到9.94 GH/s，最后在9月29日达到12.58 GH/s。
 
-![2010年7月11日至10月5日的总网络哈希率](assets/en/48.webp)
+![2010年7月11日至10月5日的总网络哈希率](assets/en/048.webp)
 2010年7月11日至10月5日的总网络哈希率（来源：[CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart)）
 这一时期最大的矿工是一位德国开发者，他的名字叫ArtForz。在通过Slashdot了解到比特币后，他迅速参与到软件开发中，并在IRC频道#bitcoin-dev上花费了大量时间。特别是，他使用OpenCL开发了自己的GPU挖矿算法，并用自己的显卡运行。他从7月19日开始生成比特币。7月25日，在一个调查用户比特币持有量的帖子中，ArtForz[声明](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617)他在6天内生成了1,700个比特币，这相当于4%的哈希率，或80 MH/s。逐渐地，他建立了一个大型的挖矿农场，被称为"ArtFarm"。到了8月，他的农场[包括](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/)6个ATI Radeon HD 5770s，使他能够从8月9日的76 MH/s增加到13日的约450 MH/s。
 
-![ArtForz在2010年8月至10月间的挖矿产量](assets/en/49.webp)
+![ArtForz在2010年8月至10月间的挖矿产量](assets/en/049.webp)
 ArtForz在2010年8月至10月间的挖矿产量（来源：Blackburn et al., "[Cooperation among an anonymous group protected Bitcoin during failures of decentralization](https://arxiv.org/pdf/2206.02871)")
 
 随着时间的推移，ArtForz控制了网络计算能力的重要部分。9月2日，矿工puddinpop[声明](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957)他“使用他的OpenCL客户端大约有12个5770s”，并且他“拥有超过1 Ghash/s”，占了“网络哈希能力的20%”。（原文："ArtForz, on IRC, has like 12 or so 5770s running his own OpenCL client. The entire network is doing something around 5-6Ghash/s, and he alone has stated that he has over 1Ghash/s."）9月23日，ArtForz[宣布](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0)拥有近2 GH/s的哈希率，仍然代表了20%的哈希能力。10月3日，theymos[声明](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118)ArtForz“拥有网络计算能力的20到30%。”（原文："he has 20-30% of the network's CPU power"）
@@ -1023,7 +1023,7 @@ ArtForz在2010年8月至10月间的挖矿产量（来源：Blackburn et al., "[C
 
 11月27日，一位名叫Marek Palatinus的年轻捷克开发者，使用化名slush，在论坛上[发布](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0)了“合作挖矿”的描述，这是一个利用`getwork`和Jeff Garzik的逻辑的模型。这个模型基于矿工产生的部分工作证明（按份额支付）。第二天，Satoshi Nakamoto[批准](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119)了这个概念。
 
-![Marek Palatinus (slush) 在2013年5月11日布拉格的Z-DAY会议上](assets/en/50.webp)
+![Marek Palatinus (slush) 在2013年5月11日布拉格的Z-DAY会议上](assets/en/050.webp)
 Marek Palatinus（slush）在2013年5月11日于布拉格举行的Z-DAY会议上
 两种估算模型于12月份实施。首先，puddinpop概念由用户doublec在12月1日应用，他[邀请](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人们连接到他的矿池服务器。该团队形成的[产出](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)了其第一个区块（95,420）于12月4日。在几天后又产出了一个额外的区块后，doublec的服务器于15日被[关闭](https://bluishcoder.co.nz/bitcoin-pool/)。由于出现了一个更高效的合作伙伴：Bitcoin.cz Mining，该服务于17日永久关闭。
 
@@ -1033,7 +1033,7 @@ Marek Palatinus（slush）在2013年5月11日于布拉格举行的Z-DAY会议上
 
 该合作社将成为比特币挖矿的一个基准。它[经历](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)了多年的几个名称：Bitcoin Pooled Mining (BPM)、Bitcoin.cz Mining，最终以其创造者的名字命名为Slush Pool。它在2022年9月变成了Braiins Pool。
 
-![Slush合作社2011年9月的标志](assets/en/51.webp)
+![Slush合作社2011年9月的标志](assets/en/051.webp)
 Slush合作社2011年9月的标志（来源：[存档](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/)网站）
 
 ### 挖矿的大跃进
@@ -1058,30 +1058,30 @@ Slush合作社2011年9月的标志（来源：[存档](https://web.archive.org/w
 
 几天后，即30日，他在LinuxFr.org（DLFP）上用法语发布了一篇[新闻稿](https://linuxfr.org/news/connaissez-vous-les-bitcoins)。这篇标题为“你知道比特币吗？”的文章，可能是第一篇用莫里哀的语言撰写的比特币介绍。文章吸引了大量人群，产生了近350条评论。以下是当时[出现](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html)的第一段内容：
 
-![你知道比特币吗？](assets/en/52.webp)
+![你知道比特币吗？](assets/en/052.webp)
 特别是，这篇报道引起了一位名叫Lionel Dricot的比利时博主和自由软件倡导者的注意，他的网名是Ploum，今年29岁。10月25日，他在自己的博客上[发布](https://ploum.net/monnaie-de-geek-monnaie-de-singe/)了一篇题为《极客货币，猴子钱？》的文章，其中他主张去中心化并支持比特币的原则。包括[Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)在内的许多法语互联网用户通过这种方式了解到比特币，他是后来在2017年创建比特币现金的开发者。
-![Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了比利时市镇和省级选举](assets/en/53.webp)
+![Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了比利时市镇和省级选举](assets/en/053.webp)
 Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了比利时市镇和省级选举（来源：[Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/)）
 
 同一天，Ploum在比特币论坛上开启了[讨论帖](https://bitcointalk.org/index.php?topic=1567.0)“French”。接下来几个月，法语论坛成员的留言增加了。值得注意的是，10月17日注册的David François（[davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)），未来的Bitcoin-Central创始人，以及11月7日注册的Mark Karpelès（[MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)），未来的Mt. Gox平台所有者，都参与了讨论。同时，一位名叫Jean-Luc的人在12月23日开设了网站[Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/)，并在1月开始[推广](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524)它。Martti Malmi最终在2011年2月1日创建了一个[法语子论坛](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0)。
 
 ### 通信的发展
 除了语言社区的发展之外，关于比特币沟通方法也有一定的创新。10月4日，一位使用化名noagendamarket的38岁澳大利亚人[启动](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217)了一个名为BitcoinMedia的倡议。这个想法是通过创建各种内容并在可能吸引观众的地方进行广告来推广比特币。尽管这一倡议没有达到预期的成功，但它有推动制作第一批讲述比特币的视频的功劳。该频道的第一个视频于10月5日[发布](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461)，是一个Google搜索故事，使用Youtube工具创建（见下面的截图）。其他视频将使用Xtranormal生成，这是一个从一套预设计的角色和设置中创建视频序列的简单工具。
-![比特币的第一个视频（Google搜索故事）](assets/en/54.webp)
+![比特币的第一个视频（Google搜索故事）](assets/en/054.webp)
 
 在这一时期，关于比特币的博客文章正在增多。Jon Matonis的例子尤其值得注意，他经营着名为*The Monetary Future*的博客，在那里他讨论与数字货币、自由银行和密码学相关的话题。他在3月份发现了比特币，并与中本聪[交流](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514)，之后他开始就这个主题进行写作。10月，他发表了第[三篇文章](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)，在其中他谈到了价格上涨并详细介绍了生态系统的新奇之处。
 
-![2011年Jon Matonis的资料照片](assets/en/55.webp)
+![2011年Jon Matonis的资料照片](assets/en/055.webp)
 2011年Jon Matonis的资料照片（来源：[Forbes](https://www.forbes.com/sites/jonmatonis/））
 
 也是在这个时候，提出了一个新的比特币标志。11月1日，一个使用化名bitboy的论坛成员[发布](https://bitcointalk.org/index.php?topic=1631.0)了图形元素来突出这种加密货币。其中一个元素是一个橙色的标志，B字母被划掉并稍微倾斜：
 
-![由bitboy设计的比特币标志，2010年11月](assets/en/56.webp)
+![由bitboy设计的比特币标志，2010年11月](assets/en/056.webp)
 
 ### 不断增长的经济
 这一时期还标志着生态系统在经济层面的显著增长。2010年秋季期间，像Mt. Gox、Bitcoin Market以及其他一些平台已经存在，但这还不够。这就是场外交易所开始增多的原因。除了在论坛上通过私人消息进行的交易外，一个稍微更严格的系统被建立：#bitcoin-otc。这是一个由一个名为nanotube的用户在10月18日在Freenode上[开设](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508)的IRC频道。订单簿托管在[关联网站](https://web.archive.org/web/20101027090714/http://bitcoin-otc.com/vieworderbook.php)上，交易直接在双方之间进行，不通过托管存款，通过各种支付方式（PayPal, Liberty Reserve）进行。接受比特币的服务数量也在增加，尽管相对较低，正如官方网站的列表页面[证明](https://web.archive.org/web/20101120224505/http://www.bitcoin.org/trade)的那样。所有这些因素导致价格急剧上涨。虽然自8月以来价格稳定在6美分左右，但在10月初开始上涨。价格上涨到10美分，到月底达到20美分。11月6日，甚至超过50美分，这无疑[激发](https://bitcointalk.org/index.php?topic=1681.0)了论坛成员的兴趣。
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/57.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/057.webp)
 2010年7月18日至10月18日Mt. Gox上的BTC价格（来源：[*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)）
 
 比特币的崛起意味着开始对各种事物进行衡量，无论是价格、链上活动还是挖矿。每个人都知道生态系统正在经历一些增长，但没有人知道如何正确估计它。这就是为什么在2010年下半年和2011年初期间出现服务的原因，其中主要的包括：
@@ -1098,7 +1098,7 @@ Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了
 
 2010年底的一个重大事件是电子前哨基金会接受比特币，这是一个由Mitch Kapor、John Gilmore和John Perry Barlow于1900年共同创立的国际组织，旨在保护互联网上的自由。这对比特币的早期采用者来说尤其重要，他们内心是密码朋克。他们热衷于让其接受比特币。
 
-![电子前哨基金会的标志](assets/en/58.webp)
+![电子前哨基金会的标志](assets/en/058.webp)
 
 这是论坛成员Kiba在2010年8月13日采取的主动，他[提议](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)联系EFF并建议他们接受社区[收集](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578)的捐款。为此，他在MyBitcoin上设置了一个[账户](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)，在那里他收集了资金，并希望将访问权限转给EFF。他起草了一封电子邮件（由社区纠正），并在8月底发送。
 
@@ -1154,13 +1154,13 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 
 中本聪离开的触发事件是维基解密事件。维基解密是由密码朋克Julian Assange于2006年创立的非政府组织，旨在为告密者和信息泄露者提供发声平台，同时保护其来源。2010年，该NGO揭露的机密文件通过主流媒体传播，引起公众舆论的轰动。这些文件特别涉及美国军队的过度行为，如在阿富汗（阿富汗战争日记）和伊拉克（伊拉克战争日志）犯下的平民伤亡和酷刑行为。
 
-![2010年11月的维基解密标志](assets/en/59.webp)
+![2010年11月的维基解密标志](assets/en/059.webp)
 
 维基解密的资金主要基于公众捐款，因此该组织依赖支付处理商来接收在线支付。然而，随着这些揭露，这些中介机构因担心监管机构的反应而受到压力。这就是在线支付公司Moneybookers在10月14日[冻结](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)该NGO账户的原因。
 
 这种情况为使用比特币打开了一条通道，比特币不依赖任何可信第三方，能够更好地抵抗财务审查。这一假设在11月由Amir Taaki在论坛上提出，Amir Taaki是一位22岁的英国伊朗裔，使用genjix这个化名。
 
-![2012年12月在布拉迪斯拉发的Amir Taaki](assets/en/60.webp)
+![2012年12月在布拉迪斯拉发的Amir Taaki](assets/en/060.webp)
 2012年12月在布拉迪斯拉发的Amir Taaki（图片来源：[Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/)）
 黑客、无政府主义者和[扑克玩家](https://bitcointalk.org/index.php?topic=1487.0)，他最近了解到了中本聪的模型。他在维基解密的处境中看到了展示比特币实用性的机会。11月10日，他在论坛上[写下](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271)以下信息：
 > “我想就比特币的事给维基解密发封信，因为不幸的是，他们过去的资金被没收过几次。[...] 有人知道该往哪儿发信息给他们吗？”
@@ -1267,23 +1267,23 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 
 它的外观也发生了变化。2010年12月，网站的外观仍然像在中本聪时代那样。这是12月5日的一个[快照](https://web.archive.org/web/20101110005546/http://www.bitcoin.org/)：
 
-![2010年12月5日Bitcoin.org的快照](assets/en/61.webp)
+![2010年12月5日Bitcoin.org的快照](assets/en/061.webp)
 
 因此，在2011年初，网站增添了一抹色彩：
 
-![2011年2月16日Bitcoin.org的快照](assets/en/62.webp)
+![2011年2月16日Bitcoin.org的快照](assets/en/062.webp)
 
 到了4月，经过社区[组织](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581)的重新设计，网站的布局发生了变化。这是当时的样子：
 
-![2011年4月11日Bitcoin.org的快照](assets/en/63.webp)
+![2011年4月11日Bitcoin.org的快照](assets/en/063.webp)
 
 最后，在2011年9月，Nils Schneider进行了一次新的变更。为此[创建](https://github.com/bitcoin/bitcoin.org)了一个新的GitHub仓库。这个设计持续的时间更长：直到2013年才发生变化。这是当时的样子（注意，那时的Bitcoin软件被描述为“一个社区驱动的开源项目”）：
 
-![2011年9月23日Bitcoin.org的快照](assets/en/64.webp)
+![2011年9月23日Bitcoin.org的快照](assets/en/064.webp)
 
 关于wiki，最初是基于DokuWiki的，一个免费的引擎集成到网站中。然而，在2010年12月，居住在日本的法国开发者Mark Karpelès，在论坛上使用MagicalTux这个假名，创建了一个新的wiki，地址是bitcoin.it。这个wiki基于MediaWiki引擎，他发现它更优雅，更易于使用。最初的想法不是替换现有的文档，而是，正如Mark在IRC上[表达](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848)的，开发“一个不那么正式、更加面向社区的wiki”。
 这个新的wiki吸引了[Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873)和[Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535)，因此他们很快就考虑将其作为主要的wiki。这里有一个于5月21日拍摄的[快照](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page)：
-![2011年5月21日Bitcoin.it wiki的快照](assets/en/65.webp)
+![2011年5月21日Bitcoin.it wiki的快照](assets/en/065.webp)
 
 在启动几天后，Bitcoin.org首页上的“wiki”链接[指向](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872)了Bitcoin.it。内容逐渐从DokuWiki版本转移过来。1月31日，Martti在论坛上[表示](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789)这是新的wiki。
 
@@ -1299,12 +1299,12 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 
 尽管首批活动是在美国举行的，但法国社区并未落后。5月25日，为了纪念加文·安德森（Gavin Andresen）访问巴黎，一个午餐会在拉德芳斯区组织，出席的知名人士包括卢西恩·格隆丁（Lucien Grondin），大卫·弗朗索瓦（David François），和正在访问的乔恩·马托尼斯（Jon Matonis）。
 
-![与加文·安德森在巴黎拉德芳斯区的会面，他穿着粉红色衬衫](assets/en/66.webp)
+![与加文·安德森在巴黎拉德芳斯区的会面，他穿着粉红色衬衫](assets/en/066.webp)
 与加文·安德森在巴黎拉德芳斯区的会面，他穿着粉红色衬衫（来源：[论坛存档](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40)）
 
 一个月后，6月15日，法语的比特币首次公开演讲[在巴黎举行](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831)。这次演讲由雷诺·利夫希茨（Renaud Lifchitz，即nono2357），一位一年前发现比特币的年轻网络安全专家进行。[演讲内容](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/)质量非常高，观众反响如此之好以至于会场座无虚席。
 
-![2011年6月15日雷诺·利夫希茨的比特币演讲](assets/en/67.webp)
+![2011年6月15日雷诺·利夫希茨的比特币演讲](assets/en/067.webp)
 2011年6月15日雷诺·利夫希茨的比特币演讲（来源：[论坛存档](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0)）
 
 在这次经历之后，巴黎社区[组织了](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443)一个社交聚会，于7月11日举行。这次活动汇聚了像皮埃尔·诺伊扎特（Pierre Noizat）或埃米利安·杜唐（Émilien Dutang）这样的个人。
@@ -1321,7 +1321,7 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 
 :::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 4月份，数字货币这一话题被主流媒体广泛报道，包括[The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/)、[时代杂志](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/)和[福布斯](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)。到了5月，这一运动获得了更大的动力，比特币几乎无处不在，尤其是在[Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency)、[Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html)、[Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124)和[TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/)上的报道。
-![2011年4月Gavin Andresen在福布斯](assets/en/68.webp)
+![2011年4月Gavin Andresen在福布斯](assets/en/068.webp)
 2011年4月Gavin Andresen在福布斯（来源：[福布斯档案](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)）
 
 广播也被用来讨论加密货币。加拿大CBC Radio的一个节目在2月27日[专门讨论](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/)了货币和比特币的话题。比特币还在FreeTalkLive的几期节目中被提及，这是一个在美国的自由主义倾向的节目。特别是，在2011年3月16日，尤其是在讨论丝绸之路的崛起的背景下，这个话题被[更广泛地讨论](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16)。最后，在5月24日，比特币成为美国国家公共广播电台一个[短片段](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins)的主题。
@@ -1331,12 +1331,12 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 
 比特币的普及意味着其价格显著上涨。虽然在2010年12月曾跌至20美分，但在2011年2月9日达到了与美元的等值。那时，Hal Finney[表示](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307)社区成员“真的很幸运，能在可能是爆炸性新现象的开始阶段”。他有很好的直觉，因为接下来发生的事情是闪电般的快速。
 
-![jimbobway在论坛上发布的与美元等值那天的照片](assets/en/69.webp)
+![jimbobway在论坛上发布的与美元等值那天的照片](assets/en/069.webp)
 jimbobway在论坛上发布的与美元等值那天的照片（来源：[Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144)）
 
 事实上，春季的媒体狂热逐渐造成了一个前所未有的投机现象。价格在几个月内围绕1美元徘徊后开始上涨，并在四月底达到3美元。五月份时，价格达到8美元。最终，在6月8日，比特币价格在Mt. Gox上达到了32美元的历史高点！这一增长相当于6个月内增长了160倍。
 
-![2011年1月1日至6月30日BTC的平均价格](assets/en/70.webp)
+![2011年1月1日至6月30日BTC的平均价格](assets/en/070.webp)
 2011年1月1日至6月30日BTC的平均价格（来源：[Bitbo.io](https://calendar.bitbo.io/price/)）
 
 自然地，这种投机运动让人想起了金融泡沫，即金融产品相对于其基本价值的高估。就像比特币这样的货币，它关于短暂热情导致价格急剧上升，随后由于新参与者缺乏信念而导致的急剧下跌。这就是价格演变在5月27日路透社专栏作家的一篇文章中被[描述](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/)为“泡沫”的方式，这是比特币的第一个“讣告”之一。

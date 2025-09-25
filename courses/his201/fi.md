@@ -105,9 +105,9 @@ Tämän ongelman ratkaisemiseksi kehitettiin _asymmetrinen_ kryptografia, joka t
 
 Tämä kryptografian tyyppi mahdollistaa sekä salausalgoritmien että allekirjoitusprosessien toteuttamisen. Asymmetrisessä salauksessa käytetään julkista avainta salausavaimena ja yksityistä avainta purkuavaimena. Käyttäjä luo avainparin, pitää yksityisen avaimen ja jakaa julkisen avaimen vastaanottajiensa kanssa, jotta he voivat lähettää viestejä. Tämän tyyppinen salaus on verrattavissa postilaatikkoon, jota vastaanottaja käyttää kirjeiden vastaanottamiseen ja jonka avaimen vain hän omistaa.
 
-![Asymmetrinen salaus](assets/en/01.webp)
+![Asymmetrinen salaus](assets/en/001.webp)
 Toisaalta digitaaliset allekirjoitukset perustuvat yksityisen avaimen käyttöön allekirjoitusavaimena ja julkisen avaimen käyttöön varmennusavaimena. Käyttäjä luo avainparin, allekirjoittaa viestin yksityisellä avaimella ja lähettää sen vastaanottajilleen, jotka voivat varmistaa sen aitouden käyttämällä julkista avainta. Näin ollen heidän ei koskaan tarvitse tietää yksityistä avainta.
-![Digitaalinen allekirjoitus](assets/en/02.webp)
+![Digitaalinen allekirjoitus](assets/en/002.webp)
 
 Epäsymmetrinen kryptografia keksittiin itsenäisesti useiden tutkijoiden toimesta 1970-luvulla. Ensimmäisinä löydöksensä esittelivät kuitenkin Whitfield Diffie ja Martin Hellman, kaksi kryptografia Stanfordin yliopistosta. Marraskuussa 1976 he julkaisivat artikkelin "[New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)" lehdessä _IEEE Transactions on Information Theory_, joka kuvasi avainvaihtoalgoritmin (tarkoitettu symmetrisen salauksen salaisille avaimille) sekä digitaalisen allekirjoitusprosessin. Tämän paperin johdannossa he kirjoittivat:
 
@@ -115,7 +115,7 @@ Epäsymmetrinen kryptografia keksittiin itsenäisesti useiden tutkijoiden toimes
 
 Tässä on valokuva vuodelta 1977, jonka otti Chuck Painter Stanford News Servicelle, jossa näet Whitfield Diffien (oikealla) ja Martin Hellmanin (keskellä). Vasemmalla oleva henkilö on kryptografi Ralph Merkle, joka oli tekemässä samaa löytöä.
 
-![Ralph Merkle, Martin Hellman ja Whitfield Diffie vuonna 1977](assets/en/03.webp)
+![Ralph Merkle, Martin Hellman ja Whitfield Diffie vuonna 1977](assets/en/003.webp)
 
 Diffien ja Hellmanin artikkeli raivasi tietä lukuisille innovaatioille. Yksi näistä oli [RSA-kryptosysteemi](https://people.csail.mit.edu/rivest/Rsapaper.pdf), jonka suunnittelivat kryptografit Ronald Rivest, Adi Shamir ja Leonard Adleman (jotka antoivat sille nimensä) vuonna 1977, ja jonka MIT patentoi vuonna 1983. Tämä järjestelmä mahdollistaa sekä viestien salaamisen että allekirjoittamisen, kiitos avainten roolien vaihdon. RSA esiteltiin julkisesti ensimmäistä kertaa [Martin Gardnerin artikkelissa](https://simson.net/ref/1977/Gardner_RSA.pdf), joka julkaistiin lehdessä _Scientific American_ elokuussa 1977 otsikolla "Mathematical Games: A new kind of cipher that would take millions of years to break."
 
@@ -126,7 +126,7 @@ Bitcoinin perustavanlaatuiset kryptografiset elementit juontavat juurensa täst�
 
 Tämä kryptografian alan vallankumous inspiroi myös nuorta David Chaumia, tietojenkäsittelytieteilijää Länsirannikolta ja tuolloin tohtoriopiskelijaa Berkeleyn yliopistossa. Hän innostui nopeasti yksityisyydensuojasta. Hän oli todella huolissaan vapauden ja luottamuksellisuuden tulevaisuudesta yhä enemmän tietokoneistuvassa yhteiskunnassa.
 
-![David Chaum 90-luvulla](assets/en/04.webp)
+![David Chaum 90-luvulla](assets/en/004.webp)
 David Chaum 90-luvulla (lähde: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
 Hänen [perustavanlaatuisessa artikkelissaan](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf), "Security Without Identification: Transaction Systems to Make Big Brother Obsolete" julkaistu vuonna 1985 _Communications of the ACM_:ssa, hän kirjoitti:
@@ -145,7 +145,7 @@ Teknisessä toiminnassaan eCash-malli perustuu sokkosignatuuriprosessiin, joka m
 
 Tässä on esimerkki eri vaiheista, jotka liittyvät Chaumian setelin luomiseen ja korvaamiseen (_L'Élégance de Bitcoin_ -teoksesta):
 
-![Creation and replacement of a Chaumian note](assets/en/05.webp)
+![Creation and replacement of a Chaumian note](assets/en/005.webp)
 
 Toimenpiteet (jokainen vastaa matemaattista operaatiota tai tiedonsiirtoa) ovat seuraavat:
 
@@ -168,12 +168,12 @@ Kaikki tämä tarkoittaa, että järjestelmän mikään pankki ei voi yhdistää
 ### eCashin toteutukset
 
 Vuonna 1990 David Chaum perusti oman yrityksensä, DigiCash B.V.:n, toteuttaakseen ideansa elektronisesta rahasta. Yritys sijaitsi Amsterdamissa, Alankomaissa, ja sillä oli patentit keksintöönsä. Tuolloin Internet oli vielä lapsenkengissään (Web oli vielä kehitteillä) ja sähköistä kaupankäyntiä ei ollut olemassa; näin ollen eCash-malli muodosti merkittävän mahdollisuuden.
-![DigiCash Logo](assets/en/06.webp)
+![DigiCash Logo](assets/en/006.webp)
 
 Kuitenkaan David Chaumin yritys ei ollut ensimmäinen, joka testasi mallia: se oli cypherpunkit, jotka toteuttivat sen piittaamatta patenteista ja jotka eivät pyytäneet siihen lupaa. Näin ollen protokolla nimeltä Magic Money [ehdotettiin](https://cypherpunks.venona.com/date/1994/02/msg00247.html) cypherpunkien postituslistalla 4. helmikuuta 1994 nimimerkkiä Pr0duct Cypher käyttäneen anonyymin kehittäjän toimesta. Tämä protokolla mahdollisti oman valuutan luomisen toimimalla sähköpostipalvelimena, joka toimi eCash-rahanlyöntilaitoksena. Cypherpunkit pitivät hauskaa sen kanssa, luoden kaikenlaisia tilivaluuttoja kuten Tacky Tokens, GhostMarks, DigiFrancs ja NexusBucks. Kuitenkin näiden tokenien hyödyllisyys oli vähäistä, ja vaihdot olivat hyvin harvinaisia.
 DigiCashin puolella, muutaman kehitysvuoden jälkeen, prototyyppi [esiteltiin](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) toukokuussa 1994 ensimmäisessä kansainvälisessä World Wide Web -konferenssissa CERNissä Genevessä. Yritys aloitti sitten kokeilun, joka alkoi 19. lokakuuta samana vuonna, liikkeeseenlaskemalla yksiköitä nimeltä "CyberBucks", jotka eivät olleet tuettuja minkään muun valuutan toimesta. Useat kauppiaat hyväksyivät CyberBuckseja osana tätä kokeilua. Cypherpunkit myös tarttuivat siihen, käyttäen sitä todellisten vaihtojen suorittamiseen. Näin ollen CyberBucks hankki markkina-arvoa. Tämä arvo kuitenkin romahti, kun eCash otettiin käyttöön perinteisessä pankkijärjestelmässä.
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/07.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/en/007.webp)
 Kuva (sumea) DigiCash-tiimistä vuonna 1995: David Chaum on kuvan vasemmassa reunassa (lähde: [Chaum.com](https://chaum.com/ecash/))
 
 eCashin käyttöönotto pankkijärjestelmässä alkoi lokakuussa 1995, kun DigiCash aloitti yhteistyön Mark Twain Bankin, pienen pankin Missourissa, kanssa. Toisin kuin CyberBucksin tapauksessa, jonka vaihtokurssi oli kelluva, tilivaluutta oli tuettu Yhdysvaltain dollarilla. Vuosien 1996 ja 1998 välillä kuusi pankkia seurasi Mark Twain Bankin esimerkkiä: Merita Pankki Suomessa, Deutsche Bank Saksassa, Advance Bank Australiassa, Bank Austria Itävallassa, Den norske Bank Norjassa ja Credit Suisse Sveitsissä. Lehdistö ennusti tälle järjestelmälle loistavaa tulevaisuutta.
@@ -214,7 +214,7 @@ Näiden rajoitusten valvomiseksi hallituksen virasto perustettiin vuonna 1865 Ab
 
 Tilanne muuttui vielä rajoittuneemmaksi myöhemmin. Keskuspankki, joka kutsutaan Yhdysvaltain Federal Reserveksi, perustettiin vuonna 1913 seurauksena pankkipaniikista vuonna 1907. Sitten klassisesta kultakannasta luovuttiin vuonna 1933 osana F.D. Rooseveltin New Deal -ohjelmaa, [Executive Order 6102](https://fr.wikipedia.org/wiki/Executive_Order_6102) -asetuksen myötä, joka kielsi yksilöitä ja yrityksiä Yhdysvalloissa pitämästä kultaa. Viittaus kultaan rahajärjestelmässä hylättiin lopullisesti vuonna 1971, kun Richard Nixon ilmoitti dollarin muunnettavuuden kullaksi kansainvälisesti päättyneeksi.
 Kullan omistuskiellon kumoamisen ja Internetin kehittymisen myötä 1970-luvulta alkaen yksityisten valuuttojen käyttöönoton idea nousi jälleen esiin. Näin tapahtui Bernard von NotHausin tapauksessa, joka lanseerasi Liberty Dollarin vuonna 1998. Kyseessä oli kultaan ja hopeaan perustuva valuutta, jota oli saatavilla hopeakolikoiden ja edustavien seteleiden muodossa. Järjestelmää hallinnoi voittoa tavoittelematon järjestö nimeltä NORFED (lyhenne sanoista National Organization for the Repeal of the Federal Reserve and Internal Revenue Code). Vuodesta 2003 alkaen Liberty Dollar oli saatavilla myös digitaalisessa muodossa, tilijärjestelmän kautta, joka oli samankaltainen kuin e-gold (katso seuraava osio). Järjestelmä saavutti tietyn tason menestystä. NORFEDin holvit sisälsivät noin 8 miljoonan dollarin arvosta jalometalleja valuutan vaihdettavuuden takaamiseksi, mukaan lukien 6 miljoonaa digitaalisen yksikön takaamiseksi.
-![2003 Silver Liberty Dollar](assets/en/08.webp)
+![2003 Silver Liberty Dollar](assets/en/008.webp)
 Liberty Dollar (10 dollaria) hopeasta vuodelta 2003 (lähde: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
 Syyskuussa 2006 Yhdysvaltain rahapaja julkaisi [lehdistötiedotteen](https://www.usmint.gov/news/press-releases/20060914-liberty-dollars-not-legal-tender-united-states-mint-warns-consumers), jonka se oli laatinut yhdessä Oikeusministeriön kanssa. Siinä todettiin, että NORFEDin kolikoiden käyttö rikkoi Yhdysvaltain lakikokoelman 18 osaston 486 pykälää ja muodosti "liittovaltion rikoksen". Tämän seurauksena FBI:n ratsian jälkeen NORFEDin tiloihin vuonna 2007, rikkomukset kohdistettiin NotHausiin ja hänen yhteistyökumppaneihinsa, jotka pidätettiin vuonna 2009 ja jotka tuomittiin maaliskuussa 2011. Vuonna 2014 Bernard von NotHaus tuomittiin valituksenalaisessa tuomiossa kuuden kuukauden kotiarestiin ja kolmen vuoden ehdonalaiseen.
@@ -226,7 +226,7 @@ Periaatteena oli, että jokainen e-gold-yksikkö voitiin muuttaa oikeaksi kullak
 
 E-gold-järjestelmä hyödynsi nousevaa Webiä, erityisesti tuore Netscape-selainta. Asiakas saattoi päästä tililleen verkkosivuston kautta, sen sijaan että olisi tarvinnut käyttää omistettua ohjelmistoa. Aikanaan alusta oli erittäin suorituskykyinen, hyödyntäen reaaliaikaista bruttoselvitysjärjestelmää, joka oli inspiroitunut pankkien välisestä siirrosta. Tältä näytti e-goldin lähettäminen vuonna 2005 (kuva aikansa [oppaasta](https://www.geocities.ws/rizuan_mahrol/setpbystep.html)):
 
-![Sending on e-gold in 2005](assets/en/09.webp)
+![Sending on e-gold in 2005](assets/en/009.webp)
 E-gold-järjestelmä kohtasi suuren menestyksen: huipentuen vuonna 2006, se [takasi](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 3,6 tonnia kultaa, arvoltaan yli 80 miljoonaa dollaria, [käsitteli](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75 000 transaktiota päivässä, vuosittaisella volyymilla 3 miljardia dollaria, ja hallinnoi yli 2,7 miljoonaa tiliä. Tämä menestys päättyi äkillisesti valtion puuttuessa asiaan. Salaisen palvelun suorittaman tutkinnan jälkeen Douglas Jackson, hänen kaksi yritystään ja hänen liikekumppaninsa [syytettiin](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html) 27. huhtikuuta 2007 oikeusministeriön toimesta rahanpesun helpottamisesta ja luvattoman rahansiirtoyrityksen pyörittämisestä. Marraskuussa 2008 Douglas Jackson todettiin syylliseksi ja hänet tuomittiin 3 vuoden ehdolliseen, mukaan lukien 6 kuukautta kotiarestia elektronisen valvonnan alaisena. Epäonnistuneen yrityksen jälkeen saada lisenssi, e-gold joutui pysyvästi sulkeutumaan marraskuussa 2009.
 
 Muita järjestelmiä luotiin seuraamaan samaa mallia. Mainittakoon GoldMoney, jonka perustivat James Turk ja hänen poikansa helmikuussa 2001, ja joka on nykyään mukautunut rahoitusmääräyksiin. e-Bullion, järjestelmä jonka perusti James Fayed heinäkuussa 2001, sulki ovensa vuonna 2008. Lopulta yksi viimeisistä digitaalisista kultavaluutoista oli Pecunix, jonka perusti Simon Davis Panamassa vuonna 2002 ja joka lopetti toimintansa vuonna 2015, osana poistumishuijausta.
@@ -235,7 +235,7 @@ Muita järjestelmiä luotiin seuraamaan samaa mallia. Mainittakoon GoldMoney, jo
 
 Toinen esimerkki keskitetystä yksityisestä valuuttajärjestelmästä on Liberty Reserve, joka mahdollisti käyttäjilleen pitää ja siirtää elektronisia valuuttoja, jotka olivat sidottuja Yhdysvaltain dollariin, euroon tai kultaan. Tämän järjestelmän loivat Arthur Budovsky, amerikkalainen ukrainalaisella taustalla, ja Vladimir Kats, venäläinen maahanmuuttaja Pietarista. Vuonna 2006 Arthur Budovsky muutti Costa Ricaan, jota tuolloin pidettiin veroparatiisina, missä hän rekisteröi yrityksensä, Liberty Reserve S.A.
 
-![Liberty Reserve logo vuonna 2009](assets/en/10.webp)
+![Liberty Reserve logo vuonna 2009](assets/en/010.webp)
 Liberty Reserve logo vuonna 2009 (lähde: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 Järjestelmä oli hyvin samankaltainen kuin e-gold, paitsi että varat (pääasiassa dollareissa) pidettiin ulkomaisissa pankkitileissä, ei yksityisissä holveissa. Liberty Reserve hyötyi suuresti e-goldin sulkemisesta huhtikuussa 2007 Douglas Jacksonin ja hänen liittolaistensa syytteeseen asettamisen jälkeen. Toukokuussa 2013, [Yhdysvaltain oikeusministeriön mukaan](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf), alustalla oli yli miljoona käyttäjää maailmanlaajuisesti, mukaan lukien yli 200 000 Yhdysvalloissa, ja se käsiteli 12 miljoonaa rahoja siirtoa vuosittain, yhteensä yli 1,4 miljardin dollarin arvosta. Käyttö oli pääasiassa rikollista toimintaa varten, mutta [ei rajoittunut siihen](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/): Liberty Reserveä käytettiin myös Forex-kauppiaille tai ulkomaan siirtoihin.
 
@@ -253,7 +253,7 @@ PayPalin alkuperäinen visio oli vallankumouksellinen, linjassa Peter Thielin li
 
 > "Tietenkin, mitä me kutsumme 'käteväksi' amerikkalaisille käyttäjille, tulee olemaan vallankumouksellista kehittyville maille. Monien näiden maiden hallitukset pelaavat löysästi valuuttojensa kanssa. Ne käyttävät inflaatiota ja joskus kokonaisia valuutan devalvaatioita, kuten näimme Venäjällä ja useissa Kaakkois-Aasian maissa viime vuonna, viedäkseen varallisuutta kansalaisiltaan. Useimmilla tavallisilla ihmisillä siellä ei koskaan ole mahdollisuutta avata ulkomaista tiliä tai saada käsiinsä enempää kuin muutaman setelin vakaasta valuutasta, kuten Yhdysvaltain dollareista. Lopulta PayPal pystyy muuttamaan tämän. Tulevaisuudessa, kun teemme palvelumme saataville Yhdysvaltojen ulkopuolella ja kun Internetin leviäminen jatkuu kaikille talouden tasoille, PayPal antaa kansalaisille maailmanlaajuisesti suorempaa hallintaa heidän valuutoistaan kuin heillä koskaan aiemmin on ollut. Korruptoituneiden hallitusten on lähes mahdotonta varastaa varallisuutta kansaltaan vanhojen keinojensa avulla, sillä jos ne yrittävät, ihmiset vaihtavat dollareihin, puntiin tai jeniin, hyläten käytännössä arvottoman paikallisen valuutan joksikin turvallisemmaksi."
 
-![Peter Thiel 20. lokakuuta 1999, hänen puheensa aikana Oaklandissa, Kaliforniassa Independent Instituutille](assets/en/11.webp)
+![Peter Thiel 20. lokakuuta 1999, hänen puheensa aikana Oaklandissa, Kaliforniassa Independent Instituutille](assets/en/011.webp)
 Peter Thiel 20. lokakuuta 1999, hänen puheensa aikana Oaklandissa, Kaliforniassa Independent Instituutille (lähde: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
 Kuitenkaan asiat eivät kehittyneet toivotulla tavalla, ja PayPalin oli noudatettava kaikenlaisia rahoitusmääräyksiä, siinä määrin, että palvelu on nyt kuuluisa maksujen sensuroinnista ja tilien jäädytyksistä ympäri maailmaa. Oli naiivia uskoa, että tällainen järjestelmä voisi haastaa vakiintuneen vallan.
@@ -277,13 +277,13 @@ Tässä luvussa tutkimme erilaisten perustavanlaatuisten teknisten elementtien, 
 
 1950-luvulla tietokoneiden esiinmarssin myötä ilmeni mahdollisuus yhdistää ne toisiinsa. Näin muodostuivat ensimmäiset tietokoneverkot, johtaen Internetin, "verkkojen verkon", kehitykseen 1970-luvulla. Näiden verkkojen infrastruktuurin kysymys nousi väistämättä esiin. Siksi puolalais-amerikkalainen tietojenkäsittelytieteilijä Paul Baran luetteli perustavassa 1964 artikkelissaan (joka kuvasi pakettikytkentää) kolme verkkojen tyyppiä: keskitetyn verkon, joka nojaa yhteen solmuun; hajautetun verkon, jossa jokainen piste on solmu; hajautetun (ei-levitetyn) verkon, joka nojaa useiden solmujen hajautettuun verkkoon.
 
-![Keskitetyt, hajautetut ja levitetyt verkot Paul Baranin mukaan](assets/en/12.webp)
+![Keskitetyt, hajautetut ja levitetyt verkot Paul Baranin mukaan](assets/en/012.webp)
 
 Näistä pohdinnoista voidaan johtaa kaksi puhdasta mallia: asiakas-palvelin malli, jossa keskitetty palvelin vastaa asiakkaiden pyyntöihin, ja vertaisverkkomalli, jossa jokaisella solmulla on sama rooli järjestelmässä. Jälkimmäinen malli oli erityisen hyödyllinen tiedostonjaossa 2000-luvulla, BitTorrentin ja muiden vastaavien protokollien luomisen myötä. Tor-verkko on hajautettu, ei puhtaasti vertaisverkkopohjainen.
 Hajautetuissa arkkitehtuureissa kohdattu ongelma on hajautetun konsensuksen kysymys, jota yleisesti kutsutaan Bysantin kenraalien ongelmaksi. Sen formalisoi Leslie Lamport, Robert Shostak ja Marshall Pease vuonna 1982 julkaistussa [artikkelissa](https://lamport.azurewebsites.net/pubs/byz.pdf). Tämä ongelma käsittelee siirrettävyyden luotettavuuden ja vertaisverkkojärjestelmien osallistujien eheyden haastetta, ja se on sovellettavissa tapauksissa, joissa tietokonejärjestelmän komponenttien on päästävä yhteisymmärrykseen.
 Ongelma esitetään metaforana, joka sisältää Bysantin valtakunnan armeijan kenraaleja, jotka piirittävät viholliskaupunkia joukkoineen aikoen hyökätä ja voivat kommunikoida vain lähettien kautta. Tavoitteena on löytää strategia (eli algoritmi), joka pystyy hallitsemaan pettureiden läsnäolon ja varmistamaan, että kaikki uskolliset kenraalit sopivat taistelusuunnitelmasta, jotta hyökkäys onnistuu. Tässä on havainnollistus (lähde: _L'Élégance de Bitcoin_):
 
-![Bysantin kenraalien ongelma](assets/en/13.webp)
+![Bysantin kenraalien ongelma](assets/en/013.webp)
 
 Tämän ongelman ratkaiseminen on tärkeää hajautetuille järjestelmille, jotka hallinnoisivat tiliyksikköä. Tällaiset järjestelmät vaativat todellakin, että osallistujat pääsevät yhteisymmärrykseen tiliyksiköiden omistajuudesta, eli siitä, kuka omistaa mitä.
 
@@ -296,7 +296,7 @@ Bitcoinin konsensusalgoritmilla Satoshi Nakamoto ratkaisi sen probabilistisella 
 Aikaleimaus on tekniikka, joka liittää päivämäärän ja ajan tietoihin, kuten tapahtumaan tai asiakirjaan. Oikeudellisesta näkökulmasta tämä voi esimerkiksi varmistaa sopimuksen olemassaolon ennen tiettyä päivämäärää. Todellisessa maailmassa on lukuisia tapoja aikaleimata jotain, kuten lähettää asiakirja sinetöidyssä kirjekuoressa tai kirjata aikajana muistikirjaan.
 Aikaleimaus on kuitenkin erityisen hyödyllistä digitaalisessa maailmassa, jossa tiedostoja (teksti, kuva, audio tai video) on helppo muokata. Aikaleimausta voidaan suorittaa keskitetyillä palveluilla, jotka vastaavat vastaanotettujen asiakirjojen (tai niiden sormenjälkien) tallentamisesta ja niiden yhdistämisestä vastaanottopäivämäärän ja -ajan kanssa. Tätä kutsutaan luotetuksi aikaleimaukseksi.
 Vuonna 1991 Stuart Haber ja Scott Stornetta, kaksi Bell Communications Research Inc. (yleisesti kutsuttu "Bellcore"), New Jerseyn tutkimus- ja kehityskonsortion tutkijaa, ehdottivat luottamuksellista ja turvallista aikaleimaustekniikkaa. Heidän [artikkelissaan](http://www.staroceans.org/e-book/Haber_Stornetta.pdf), jonka otsikko oli "How to time-stamp a digital document", he kuvasivat, kuinka sertifioitu aikaleimauspalvelu voisi käyttää yksisuuntaista funktiota (kuten MD4-hajautusfunktiota) ja allekirjoitus algoritmia asiakirjojen luottamuksellisuuden lisäämiseksi ja sertifioinnin luotettavuuden parantamiseksi. Erityisesti ideana oli ketjuttaa tieto ottamalla mukaan edellinen aikaleima yksisuuntaisen funktion soveltamisessa.
-![Esimerkki sertifioidusta aikaleimauksesta](assets/en/14.webp)
+![Esimerkki sertifioidusta aikaleimauksesta](assets/en/014.webp)
 Esimerkki sertifioidusta aikaleimauksesta (lähde: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber ja Stornetta toteuttivat ideansa julkaisemalla kryptografisia sormenjälkiä (jotka saatiin hyödyllisten tietojen hajauttamisesta) New York Timesin luokitelluissa ilmoituksissa vuodesta 1992 alkaen. He perustivat oman yrityksensä vuonna 1994, Surety Technologies, tavoitteenaan omistautua täysin tälle toiminnalle. Heidät tunnetaan näin ollen [ensimmäisen aikaleimaketjun luojina](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), jossa otettiin huomioon edellinen sormenjälki uuden lehdessä julkaistavan sormenjäljen laskennassa, mikä ennakoi Bitcoinin lohkoketjua.
@@ -309,7 +309,7 @@ Työn todistamisen konsepti kuvattiin ensimmäisen kerran vuonna 1992 tietojenk�
 
 Internetin suosion kasvaessa 1990-luvulla ei-toivottujen sähköpostien ongelma muuttui yhä painostavammaksi, myös cypherpunkien postituslistalla. Tämän vuoksi Dworkin ja Naorin konsepti [toteutettiin](https://cypherpunks.venona.com/date/1997/03/msg00774.html) nuoren brittiläisen cypherpunkin Adam Backin toimesta vuonna 1997 Hashcash-nimisen algoritmin avulla, joka tuottaa yksinkertaisia työn todistuksia käyttäen hash-funktiota. Tarkemmin sanottuna, se sisältää osittaisen törmäyksen löytämisen kyseiselle hash-funktiolle, eli kahden viestin saamisen, joilla on sama datan aloitusbitit (huom: versiosta 1.0 alkaen, joka julkaistiin vuonna 2002, se sisältää osittaisen törmäyksen löytämisen nollatulosteelle, nimittäin esikuvan löytämisen, jonka jalanjälki alkaa määrätyllä määrällä binäärinollia). Koska hash-funktio on yksisuuntainen, tällainen saavutus voidaan toteuttaa vain kokeilemalla eri mahdollisuuksia yksi kerrallaan, mikä vaatii energiankulutusta.
 
-![Adam Back vuonna 2001](assets/en/15.webp)
+![Adam Back vuonna 2001](assets/en/015.webp)
 Adam Back vuonna 2001 (lähde: [Adam Backin henkilökohtaisen sivun arkisto](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
 Mutta cypherpunkit eivät rajoittaneet itseään pitämään työn todistusta vain yksinkertaisena keinona rajoittaa roskapostia; he halusivat myös käyttää sitä keinona taata digitaalisen valuutan tuotannon kustannukset. Näin ollen vuonna 1997 Adam Back [hahmotteli](https://cypherpunks.venona.com/date/1997/04/msg00822.html) tätä ideaa itse, mutta hän oli tietoinen siitä, että näin saadut työn todistukset eivät voisi siirtyä täysin hajautetulla tavalla (kaksoiskulutusongelman vuoksi) ja että sen vuoksi olisi tarpeen käyttää keskitettyä järjestelmää, kuten eCashia. Samoin vuonna 1996 kryptografian tutkijat Ronald Rivest ja Adi Shamir kuvasivat [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf), keskitetyn mikromaksujärjestelmän, jonka kolikoiden piti olla väärentämättömiä työn todistusten tuotannon ansiosta.
@@ -328,14 +328,14 @@ Valuutan luominen oli avoin kaikille osallistujille ja se tapahtui todistamalla 
 Vaikka varsin nerokas, Wei Dain esittelemä b-money-konsepti ei ollut täysin toimiva. Sillä oli siis merkittäviä puutteita, kuten haavoittuvuus Sybil-hyökkäyksille verkossa (kuka tahansa voisi teoriassa lisätä uusia solmuja verkkoon), verkon keskittäminen tapauksessa, jossa palvelimet olisi etukäteen valittu, ja yksikköarvon vakauttamiseen liittyvä ongelma (kuka määrää markkinoilla havaittavat hinnat?).
 Julkaisunsa jälkeen listalla b-money kiinnitti kyberpunkkien huomion, erityisesti [Adam Backin](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Kuitenkaan Wei Dai ei koskaan toteuttanut malliaan, ei ainoastaan siksi, että se oli toimimaton, vaan myös kryptografin [pettymyksen](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) vuoksi kryptoanarkiaan. Siitä huolimatta b-money mainittiin Bitcoinin white paperissa, tehden siitä yhden sen edeltäjistä.
 
-![Citation of b-money in the Bitcoin white paper](assets/en/16.webp)
+![Citation of b-money in the Bitcoin white paper](assets/en/016.webp)
 
 ### bit gold: digitaalinen kulta ennen Bitcoinia
 
 Toinen kyberpunkkien ideoista esiin noussut malli oli bit gold, jonka Nick Szabo kuvitteli vuonna 1998. Hän oli unkarilaistaustainen amerikkalainen tietojenkäsittelijä, joka oli työskennellyt kuusi kuukautta konsulttina DigiCashille. Kyberpunkkina hän tunnetaan älykkäiden sopimusten käsitteen muodollistamisesta vuonna 1995.
 Vuonna 1994 Nick Szabo loi yksityisen postituslistan nimeltä libtech-l, jonka tavoitteena oli, kuten nimi vihjaa, isännöidä keskusteluja vapauttavista tekniikoista, jotka mahdollistavat yksilön vapauksien suojelun viranomaisten hyökkäyksiltä. Kypherpunkit kuten Wei Dai ja Hal Finney sekä taloustieteilijät Larry White ja George Selgin, jotka kannattivat Hayekilaisen valuuttakilpailun ja vapaan pankkitoiminnan periaatteita, pääsivät käyttämään listaa.
 
-![Nick Szabo vuonna 1997](assets/en/17.webp)
+![Nick Szabo vuonna 1997](assets/en/017.webp)
 Nick Szabo vuonna 1997 (lähde: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
 Juuri libtech-l -listalla Nick Szabo alun perin kuvasi konseptinsa, ennen kuin hän isännöi [luonnoksen](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html) white paperista vuonna 1999 henkilökohtaisella verkkosivustollaan. Hän esitteli bit goldin vuonna 2005 [artikkelissa](https://unenumerated.blogspot.com/2005/12/bit-gold.html), joka julkaistiin hänen blogissaan, Unenumerated.
@@ -356,7 +356,7 @@ Uudelleenkäytettävät työtodistusten tokenit hallinnoi palvelin, joka vastasi
 
 Tässä on esimerkki [suunniteltu](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) itse Hal Finneyn toimesta:
 
-![Vaihto RPOW:ssa](assets/en/18.webp)
+![Vaihto RPOW:ssa](assets/en/018.webp)
 
 Hal Finney ei ainoastaan suunnitellut mallia, vaan myös toteutti sen henkilökohtaisesti. Elokuun 15. päivänä 2004 hän [ilmoitti](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) RPOW-järjestelmän käynnistämisestä kybersissien postituslistalla, lisäksi hän dokumentoi sen toiminnan omistetulla verkkosivustolla (rpow.net). Hän sitten [esitteli](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) sen CodeCon 2005 -konferenssissa San Franciscossa, jossa hän keskusteli työtodistustokenien mahdollisista käyttötarkoituksista, nimittäin: arvon siirto, roskapostin säätely, kaupankäynti videopeleissä, online-uhkapelit kuten pokeri, ja anti-leeching tiedostonjakoprotokollissa kuten BitTorrent.
 Kuitenkin, RPOW:ssa oli sisäänrakennettuja puutteita, jotka saattavat selittää, miksi se ei saavuttanut odotettua menestystä:
@@ -369,7 +369,7 @@ Näin ollen RPOW:n todellinen käyttö oli anekdootillista, mutta Hal Finney ans
 ### Ripple: Luoton hajauttaminen
 
 Toinen vähemmän tunnettu, mutta silti merkittävä Bitcoinin edeltäjämalli on hajautettu luottoprotokolla Ripple, jonka suunnitteli kanadalainen kehittäjä Ryan Fugger vuonna 2004. Nuori kanadalainen sai inspiraationsa [paikallisesta vaihtokauppajärjestelmästä](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), jonka hän oli kokenut Vancouverissa ennen protokollansa suunnittelua. Hän julkaisi Ripple [valkoisen kirjan](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) 14. huhtikuuta 2004 ja toteutti sen käyttöönottokonseptin nimeltä RipplePay, joka toimi keskitetyllä palvelimella ja salli käyttäjien yhdistää pelkällä sähköpostiosoitteella.
-![Ryan Fugger noin 2010](assets/en/19.webp)
+![Ryan Fugger noin 2010](assets/en/019.webp)
 Ryan Fugger noin 2010 (lähde: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
 Ripplen konsepti perustui ajatukseen, että raha koostui käytännössä IOU:sta, eli velkakirjoista. Kyse oli vertaisverkon perustamisesta, jonka linkit olisivat ihmisten välisiä luottosuhteita. Maksut suoritettiin reitittämällä sarja lainoja, joissa kaikki osallistujat toimivat pankkiireina lainaten rahaa toisilleen. Alice voisi maksaa Davidille 10 dollaria lainaamalla 10 dollaria Bobille ja pyytämällä Bobia tekemään saman Carolelle, sitten Carole tekisi saman Davidille: Davidin tilille kirjattiin sitten 10 dollaria Alicen luoman rahan ansiosta. Järjestelmä toimi jossain määrin aaltoina, mikä selittää projektin nimen.
@@ -421,7 +421,7 @@ Elokuussa 2008 Satoshi päätti valmistella Bitcoinin julkaisua. Hän varasi 18.
 
 Elokuun 20. päivänä Bitcoinin luoja [otti yhteyttä](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) Adam Backiin lähettämällä hänelle sähköpostia ja pyytämällä neuvoa siitä, miten siteerata hänen paperiaan Hashcashista white paperissa. On vaikea olla näkemättä tätä tekosyynä varmistaa, että Hashcashin keksijä tuli tietoiseksi hänen uudesta järjestelmästään.
 
-![Adam Back vuonna 2012](assets/en/20.webp)
+![Adam Back vuonna 2012](assets/en/020.webp)
 Adam Back vuonna 2012 (lähde: [Adam Backin henkilökohtainen sivu](http://www.cypherspace.org/adam/))
 
 Sähköposti sisälsi linkin white paperin luonnokseen. PDF-tiedoston nimi oli `ecash.pdf` ja sen otsikko oli "Electronic Cash Without a Trusted Third Party". Tiivistelmä on sama kuin ensimmäisessä versiossa, joka julkaistaisiin lokakuussa, yhtä sanaa lukuun ottamatta. Valitettavasti meillä ei ole koko dokumenttia.
@@ -451,7 +451,7 @@ Hän listaa myös mallinsa pääominaisuudet:
 
 Sähköpostissaan hän sisällyttää linkin white paperiin, joka on jo isännöity Bitcoin.org-sivustolla, ja se on lyhyt 9-sivuinen asiakirja, esitetty tieteellisenä artikkelina, joka kuvailee Bitcoinin teknisiä toimintoja. Tämä asiakirja keskittyy online-maksujen ongelmaan.
 
-![White paperin ensimmäisen version otsikko ja yhteenveto (lokakuu 2008)](assets/en/21.webp)
+![White paperin ensimmäisen version otsikko ja yhteenveto (lokakuu 2008)](assets/en/021.webp)
 
 Tämän ilmoituksen jälkeen Satoshi saa muutamia vastauksia, mutta useimmat niistä ovat skeptisiä. Häntä kritisoidaan erityisesti kolmesta asiasta:
 
@@ -461,7 +461,7 @@ Tämän ilmoituksen jälkeen Satoshi saa muutamia vastauksia, mutta useimmat nii
 - Lopulta henkilö nimeltä Ray Dillinger (käyttäen pseudonyymiä bear) [pohtii](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html) tilin yksikön arvoa, valittaen sitä, että "laskennalliset työn todistukset eivät omaa sisäistä arvoa" ja kritisoiden niiden inflaatioherkkyyttä tietokonetekniikan kehityksen vuoksi. Satoshi [vastaa](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html), että "laitteiston nopeuden kasvu on otettu huomioon" tuotannon vaikeusasteen periodisella säätämisellä.
   Vaikka skeptisyys on vallitseva asenne listalla, kaikki tilaajat eivät jaa sitä. Erityisesti yksi henkilö erottuu muista innostuksellaan: Hal Finney, jolla on optimistinen näkemys tulevaisuudesta ja joka ei koskaan luopunut elektronisen rahan ideasta, huolimatta 90-luvun epäonnistumisista. Hän [lausui](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) tästä asiasta muutama vuosi myöhemmin, että "kryptografiset harmaaparrat [...] taipuvat tulemaan kyynisiksi", mutta että hän "oli idealistisempi" ja että hän "on aina rakastanut kryptografiaa, sen mysteeriä ja paradoksia." (_alkuperäinen: "I've noticed that cryptographic graybeards (I was in my mid 50's) tend to get cynical. I was more idealistic; I have always loved crypto, the mystery and the paradox of it."_) Näin ollen 7. marraskuuta hän kirjoitti [sähköpostin](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) listalle, että "Bitcoin vaikuttaa erittäin lupaavalta idealta" ja vertaa Satoshi mallia Nick Szabon bit goldiin. (_alkuperäinen: "Bitcoin seems to be a very promising idea."_)
 
-![Hal Finney vuonna 2007](assets/en/22.webp)
+![Hal Finney vuonna 2007](assets/en/022.webp)
 Hal Finney vuonna 2007
 
 ### Raha- ja ohjelmistopolitiikka
@@ -507,7 +507,7 @@ Muutama tunti ilmoituksen jälkeen, tammikuun 8. päivän ja 9. päivän välise
 Kun tämä on tehty, Satoshi ottaa tehtäväkseen ilmoittaa eri henkilöille, joiden kanssa hän on kommunikoinut tästä käynnistyksestä. Kello 5:21 aamulla hän lähettää [sähköpostin](https://www.coindesk.com/markets/2020/11/26/previously-unpublished-emails-of-satoshi-nakamoto-present-a-new-puzzle/) Hal Finneylle ilmoittaen, että "Bitcoin v0.1 julkaisu EXE:llä ja täydellä lähdekoodilla on saatavilla Sourceforgessa." (_alkuperäinen: "the Bitcoin v0.1 release with EXE and full sourcecode is up on Sourceforge"_) Seuraavana päivänä hän ottaa yhteyttä Adam Backiin ja Wei Daihin lähettämällä heille personoidun sähköpostin. Näissä viimeisissä sähköposteissa hän erityisesti sisältää kuvauksen, jonka Hal Finney julkaisi postituslistalla, joka mainitsee proof of workin ja b-moneyn. 10. tammikuuta Hal Finney yritti käynnistää ohjelmiston suoritettavan tiedoston, mutta kohtasi teknisen ongelman, joka kaatoi hänen tietokoneensa. Hän [otti yhteyttä](https://web.archive.org/web/20140821141611/http://sourceforge.net/p/bitcoin/mailman/message/21295694/) Satoshiin ja alkoi vaihtaa hänen kanssaan viestejä tästä asiasta. Vaikeuksista huolimatta Hal Finney onnistui saamaan ohjelmiston toimimaan. 10. tammikuuta ja 11. tammikuuta välisenä yönä, kello 1 aamulla, hän löysi ensimmäisen lohkonsa (lohko [78](https://mempool.space/block/00000000a2886c95400fd3b263b9920af80b118b28fee5d2a162a18e4d9d8b2f)) ja ansaitsi näin 50 bitcoinia. Tuntia myöhemmin hän lähetti [kehuvan sähköpostin](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) _Cryptography mailing list_ -postituslistalle, jossa hän onnitteli Satoshiä alpha-version julkaisusta ja korosti yksikön rahapolitiikkaa. Lopulta kello 3:33 aamulla hän [jakoi](https://twitter.com/halfin/status/1110302988) kokemuksensa Twitterissä (tuolloin nousevassa sosiaalisessa verkostossa) todeten, että hän oli "\[r\]unning \[B\]itcoin". Tämä on ensimmäinen tweetti Bitcoinista.
 Näistä Satoshiin ja Hal Finneyyn välisistä vaihdoista syntyi versio 0.1.3, [julkaistu](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/bitcoin/mailman/message/21313152/) 12. tammikuuta, joka oli paljon vakaampi kuin edelliset versiot. Satoshi hyödynsi myös keskusteluaan Hal Finneyn kanssa antaakseen hänelle joitakin bitcoineja: hän [lähetti](https://mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) hänelle 10 bitcoinia IP-osoitteen kautta 11. tammikuuta ja 12. tammikuuta välisenä yönä, kello 3:30. Tämä oli ensimmäinen siirto henkilöltä toiselle verkossa.
 Mutta Hal Finney ei ole ainoa henkilö, joka kokeilee Bitcoinia tuolloin. Näin tekee myös Dustin D. Trammell, amerikkalainen tietokoneen turvallisuustutkija, joka oli tuolloin kiinnostunut digitaalisista valuutoista (erityisesti Liberty Dollarin elektronisesta versiosta) ja löysi Bitcoinin postituslistan kautta. 11. tammikuuta hän käynnistää ohjelmiston yhdellä työkoneistaan (mutta hän ei louhi ensimmäistä [lohkoaan](https://mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) ennen 13. päivää teknisen ongelman vuoksi). 11. tammikuuta ja 12. tammikuuta välisenä yönä hän ottaa yhteyttä Satoshiin, jonka kanssa hän [kommunikoi](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) laajasti seuraavien päivien aikana. 15. tammikuuta Dustin Trammell [saakin](https://mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) häneltä myös 25 bitcoinia.
-![Dustin Trammell](assets/en/23.webp)Dustin Trammell (lähde: [Dustin Trammellin blogiarkisto](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
+![Dustin Trammell](assets/en/023.webp)Dustin Trammell (lähde: [Dustin Trammellin blogiarkisto](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
 Myöhemmin muut ihmiset yrittävät saada ohjelmiston toimimaan. Näin käy Nicholas Bohmille, brittiläiselle lakimiehelle, joka lähettää sähköpostia 25. tammikuuta bitcoin-listalle, koska hän kohtaa teknisen ongelman ja vaihtaa yksityisviestejä Satoshin kanssa. Eräs Jeff Kane onnistuu saamaan version 0.1.3 toimimaan 30. tammikuuta. Nicholas Bohmia mainitaan yhdessä Dustin Trammellin kanssa ohjelmiston version 0.1.5 krediiteissä, joka julkaistiin alkuvuodesta helmikuussa.
 
@@ -544,7 +544,7 @@ Tämä on otsikko brittiläisestä sanomalehdestä _The Times_ kyseisenä päiv�
 - Toisaalta se estää verkon käynnistämisen takautuvasti todistamalla, että järjestelmää ei olisi voitu aloittaa ennen 3. tammikuuta, koska Satoshi ei olisi voinut tietää otsikosta ennen kuin sanomalehti julkaistiin;
 - Toisaalta se symbolisesti osoittaa, mitä Bitcoin vastustaa viittaamalla ajan rahalliseen ja taloudelliseen kontekstiin.
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
 
 Tuolloin maailma todella tunsi vuonna 2007 Yhdysvalloissa subprime-kuplan puhkeamisen aloittaman talouskriisin täyden vaikutuksen. Hallitukset pelastivat rahoituslaitoksia estääkseen lisää konkurssitapahtumia Lehman Brothers -sijoituspankin kaaduttua 15. syyskuuta 2008, ja keskuspankit harjoittivat kvantitatiivista keventämistä ruiskuttamalla likviditeettiä rahoitusmarkkinoille. Tämän tilaisuuden varalta luodun julkisen rahan käyttö häiritsi monia kansalaisia, jotka ymmärsivät, että pankkijärjestelmä on itse asiassa yksityisten voittojen ja sosialisoitujen tappioiden järjestelmä.
 
@@ -576,7 +576,7 @@ Seuraavaksi samassa sähköpostissa Jonathan Thornburg keskustelee zombietietoko
 
 Lopuksi viimeisen kommentin antaa John Gilmore, cypherpunk-liikkeen perustajajäsen ja liikkeen ensimmäisen postituslistan ylläpitäjä vuosina 1992–1997. Sähköpostissa, jonka hän lähetti 25. tammikuuta, hän korostaa Bitcoinin oletettuja ekologisia seurauksia ja [kirjoittaa](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html), että "viimeinen asia, mitä tarvitsemme, on ottaa käyttöön järjestelmä, joka on suunniteltu polttamaan kaikki saatavilla olevat syklit, kuluttamaan sähköä ja tuottamaan hiilidioksidia kaikkialla Internetissä, jotta voidaan tuottaa pieniä määriä bitbuxeja saamaan sähköpostit tai spämmiviestit läpi." Satoshi [vastaa](https://mmalmi.github.io/satoshi/#email-3) hänelle yksityisesti, että "olisi ironista joutua valitsemaan taloudellisen vapauden ja ympäristönsuojelun välillä." Hän lisää, että "työn todistus on ainoa ratkaisu [jonka hän on] löytänyt toimivan vertaisverkkoon perustuvan elektronisen rahajärjestelmän aikaansaamiseksi" ja että, vaikka se kuluttaisikin paljon energiaa, "se tuhlaisi silti vähemmän kuin korvattava työ- ja resurssi-intensiivinen perinteinen pankkitoiminta."
 
-![John Gilmore vuonna 2007](assets/en/25.webp)
+![John Gilmore vuonna 2007](assets/en/025.webp)
 John Gilmore vuonna 2007 (lähde: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
 27. päivänä Hal Finney [mainitsee](https://www.metzdowd.com/pipermail/cryptography/2009-January/015056.html) keinoja vähentää työn todistuksen laskentaan liittyvää energian hukkaa. Tuntia myöhemmin hän [kirjoittaa](https://twitter.com/halfin/status/1153096538) Twitterissä "miettien, miten vähentää CO2-päästöjä laajalle levinneestä Bitcoinin käytöstä."
@@ -592,7 +592,7 @@ Helmikuun 11. päivänä Satoshi julkaisi [esittelyviestin](https://p2pfoundatio
 
 > "Perinteisen valuutan perusongelma on kaikki luottamus, jota sen toimiminen edellyttää. Meidän on luotettava keskuspankkiin, ettei se devalvoi valuuttaa, mutta fiat-valuuttojen historia on täynnä näiden luottamusten pettämisiä. Meidän on luotettava pankkeihin, että ne pitävät rahamme ja siirtävät sitä sähköisesti, mutta ne lainaavat sitä ulos luottokuplien aaltoina, joissa on vain murto-osa varantona. Meidän on luotettava heihin, että he suojelevat yksityisyyttämme, etteivät identiteettivarkaat tyhjennä tilejämme. Heidän merkittävät yleiskustannuksensa tekevät mikromaksuista mahdottomia."
 > Hänen [profiilissaan](https://p2pfoundation.ning.com/profile/SatoshiNakamoto) hän väittää olevansa japanilainen mies, mutta se ei ole kaikki. Käyttöliittymän päivitys vuonna 2011 paljasti hänen ikänsä: 35 vuotta, mikä tarkoittaa, että hän oli 32 tai 33-vuotias vuonna 2009. Sitten vuonna 2014 [löydettiin](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/), että hän oli ilmoittanut tietyn syntymäpäivän: huhtikuun 5. päivä 1975. Tämä päivämäärä, joka vaikuttaa viattomalta, on todennäköisesti viittaus siihen, että Yhdysvaltain kansalaiset eivät saaneet omistaa kultaa vuosien 1933 ja 1975 välisenä aikana Yhdysvalloissa. Huhtikuun 5. päivä liittyy siihen päivään, jolloin tämä kielto asetettiin [presidentin asetuksella 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates), jonka allekirjoitti presidentti Franklin Delano Roosevelt 5. huhtikuuta 1933, ja vuosi 1975 vastaa sen kumoamista [julkisen lain 93-373](https://www.govtrack.us/congress/bills/93/s2665/text) säätämisellä. Tämä yksityiskohta on erittäin tärkeä, koska tämä kielto päätti klassisen kultakannan (jossa voitiin saada kultaa vaihdossa edustavaan seteliin), salli dollarin devalvaation (kultavarantojen lain kautta vuonna 1934) ja helpotti kelluvan valuuttakurssin rahajärjestelmän perustamista, jonka tunnemme Nixonin shokin jälkeen vuonna 1971.
-> ![Satoshi Nakamoton profiili P2P Foundation -foorumilla, otettu talteen 17. maaliskuuta 2011](assets/en/26.webp)
+> ![Satoshi Nakamoton profiili P2P Foundation -foorumilla, otettu talteen 17. maaliskuuta 2011](assets/en/026.webp)
 
 Satoshi Nakamoton profiili P2P Foundation -foorumilla 17. maaliskuuta 2011 (lähde: [foorumin tallenne](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
 
@@ -612,7 +612,7 @@ Satoshi Nakamoton viestintästrategia alkaa vähitellen kantaa hedelmää. Huhti
 
 Huhtikuun 12. päivänä Mike Hearn lähetti [sähköpostin](https://plan99.net/~mike/satoshi-emails/thread1.html) Satoshi Nakamotolle, jossa hän esitti joukon kysymyksiä Bitcoinista. Hän huomautti, että "on harvinaista kohdata todella vallankumouksellisia ideoita" eikä epäröinyt mainita Rippleä.
 
-![Mike Hearn](assets/en/27.webp)
+![Mike Hearn](assets/en/027.webp)
 
 Mike Hearn ja Satoshi Nakamoto keskustelivat Bitcoinin eri näkökohdista, kuten skaalautuvuudesta, mikromaksuista, ohjelmiston toiminnasta ja takaisinmaksujen puuttumisesta. Erityisesti Mike Hearn kysyi Satoshi Nakamotolta, miksi hän valitsi määrän "24 miljoonaa" (_sic_) Bitcoinien kokonaismääräksi ja voisivatko ne olla jaettavissa. Satoshi antoi seuraavan selityksen:
 
@@ -627,7 +627,7 @@ Satoshiin viestintä kiinnitti myös nuoren suomalaisen tietojenkäsittelytietee
 
 > "Järjestelmä on anonyymi, eikä mikään hallitus voisi mahdollisesti verottaa tai estää transaktioita. Ei ole keskuspankkia, joka voisi devalvoida valuuttaa luomalla rajattomasti uutta rahaa. Tällaisen järjestelmän laajamittainen omaksuminen vaikuttaisi olevan jotain, jolla voisi olla tuhoisa vaikutus valtion kykyyn elää kansalaistensa kustannuksella."
 
-![Martti Malmi vuonna 2013](assets/en/28.webp)
+![Martti Malmi vuonna 2013](assets/en/028.webp)
 Martti Malmi vuonna 2013 (lähde: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
 Martti lähettää sitten [sähköpostin](https://mmalmi.github.io/satoshi/#email-1) Satoshille ilmoittaen, että hän on tämän tekstin kirjoittaja, jossa hän kirjoittaa, että hän "haluaisi auttaa Bitcoinin kanssa", vaikka hänellä "ei vielä ole paljon kokemusta kehitystyöstä." Satoshi Nakamoto vastaa 2. toukokuuta kertoen hänelle, että hänen "ymmärryksensä Bitcoinista" on "täysin oikea."
@@ -659,7 +659,7 @@ Kuukausien kuluessa yhä useammat ihmiset rekisteröityvät ja osallistuvat täh
 > Teknisen ratkaisun valinnasta käytyjen keskustelujen jälkeen Martti Malmi [asentaa](https://mmalmi.github.io/satoshi/#email-93) foorumin palvelimelleen marraskuun 17. päivänä, ja Satoshi alkaa [määrittää](https://mmalmi.github.io/satoshi/#email-99) sitä 19. marraskuuta. Alkaen 22. päivästä, Bitcoinin luoja siirtää joitakin kysymyksiä ja vastauksia vanhalta foorumilta, jotka kattavat aiheita kuten yksityisyys, louhinta ja Linux. Hän julkaisee myös [tervetuloviestin](https://bitcointalk.org/index.php?topic=5.msg28#msg28). 25. päivänä foorumi [käynnistetään](https://mmalmi.github.io/satoshi/#email-110) osoitteessa bitcoin.org/smf.
 > Ensimmäiset käyttäjät alkavat rekisteröityä seuraavan kuun alussa. Joulukuun 9. päivänä ilmestyy [ensimmäinen viesti](https://bitcointalk.org/index.php?topic=12.msg40#msg40), jonka on kirjoittanut joku muu kuin Satoshi, mikä todella käynnistää keskustelut. Esimerkkinä tässä on [näyttökuva](https://web.archive.org/web/20100529193636/http://www.bitcoin.org/smf/) foorumista 29. toukokuuta 2010:
 
-![Näyttökuva Bitcoin-foorumista 29. toukokuuta 2010](assets/en/29.webp)
+![Näyttökuva Bitcoin-foorumista 29. toukokuuta 2010](assets/en/029.webp)
 
 Uuden foorumin käynnistäminen oli tilaisuus julkaista [versio 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) ohjelmistosta, jota Satoshi Nakamoto ja Martti Malmi olivat työstäneet kuukausien ajan, mikä tapahtui 16. joulukuuta. Tähän versioon sisältyi parannuksia, kuten pienentäminen tehtäväpalkkiin, automaattinen käynnistys latauksen yhteydessä tai monisäikeisyys louhintatuotannossa. Ohjelmisto mukautettiin myös Linuxille, kiitos Malmin panoksen ja uuden tulokkaan NewLibertyStandardin suorittamien testien (joiden tapaus käsitellään seuraavassa luvussa).
 
@@ -711,7 +711,7 @@ Viimeiset kaksi syytä ovat paljon merkittävämpiä, sillä ne motivoivat ihmis
 
 Syyskuun lopussa 2009 henkilö, joka käyttää nimimerkkiä NewLibertyStandard (jota lyhennämme NLS), löytää Bitcoinin. Hän kokeilee ohjelmistoa ja aloittaa louhinnan. Ensimmäinen hänen tuottamansa lohko on [lohko 23,940](https://mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). Hän on Linux-käyttäjä ja käyttää siksi "emulaattoria" Wine ohjelmiston ajamiseen. Hän on kiinnostunut poliittisesta vapaudesta ja jalometalleista, kuten hänen [avatarinsa](https://bitcointalk.org/index.php?action=profile;u=26) foorumilla osoittaa, jossa kuvataan Amerikan kotka, jonka päällä lukee sana "liberty". Hän näkee siis Bitcoinin digitaalisen maailman kultana: omalla [henkilökohtaisella sivullaan](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/) hän esittelee Satoshi Nakamoton luomuksen "taloudellisena vallankumouksena" ja "digitaalisen valuutan kultakantana".
 
-![NewLibertyStandardin avatar Bitcoin-foorumilla, joka esittää Amerikan kotkaa](assets/en/30.webp)
+![NewLibertyStandardin avatar Bitcoin-foorumilla, joka esittää Amerikan kotkaa](assets/en/030.webp)
 
 Lokakuussa 2009 perustettiin ensimmäinen valuutanvaihtopalvelu, joka mahdollisti ihmisten vaihtaa dollareita bitcoineiksi ja bitcoineja takaisin dollareiksi. Palvelun luoja rekisteröityi Bitcoinille omistetulle foorumille SourceForgessa ja ilmoitti palvelunsa avautumisesta siellä. Vaihtokurssin arvioimiseksi hän perusti sen yksikön saamiseksi tarvittavan energiakustannuksen mukaan, ottaen huomioon sähkön hinnan hänen sijainnissaan ja henkilökohtaisen tuotantonsa tiheyden. Sivullaan hän [kirjoitti](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
 
@@ -719,7 +719,7 @@ Lokakuussa 2009 perustettiin ensimmäinen valuutanvaihtopalvelu, joka mahdollist
 
 Tässä ovat NLS-palvelun ohjeelliset vaihtokurssit, jotka on myös julkaistu NLS:n henkilökohtaisella sivulla:
 
-![NLS-palvelun ohjeelliset vaihtokurssit](assets/en/31.webp)
+![NLS-palvelun ohjeelliset vaihtokurssit](assets/en/031.webp)
 
 Transaktiot suoritetaan sähköpostitse osoitteessa newlibertystandard@gmail.com. Dollareiden siirrot tehdään yksinomaan PayPalin kautta, ja toiminnasta peritään maksut.
 
@@ -741,7 +741,7 @@ Vuoden 2010 alku merkitsee kaupallisten vaihtojen alkuvaiheita kryptovaluutassa.
 
 Helmikuun 5. päivänä NLS [ehdotti](https://bitcointalk.org/index.php?topic=41.msg238#msg238), että bitcoin, kuten valuutat, joita käydään kauppaa valuuttamarkkinoilla, ottaisi käyttöön tunnusmerkin BTC ja Thaimaan bahtin symbolin (฿). Tähän asti ei ollut vakiintunutta käytäntöä: esimerkiksi Satoshi ja Martti käyttivät kirjaimia `bc` kuvaamaan yksiköitä [kirjeenvaihdossaan](https://mmalmi.github.io/satoshi/#email-119). BTC-symbolin käyttö vakiintui nopeasti. Helmikuun 24. päivänä valuuttasymboli (iso B, jota kaksi pystysuoraa viivaa leikkaa) [suunniteltiin](https://bitcointalk.org/index.php?topic=64.msg504#msg504) Satoshi Nakamoton toimesta, joka loi myös ensimmäisen oikean Bitcoin-logon.
 
-![Ensimmäinen oikea Bitcoin-logo, jonka suunnitteli Satoshi Nakamoto (2010)](assets/en/32.webp)
+![Ensimmäinen oikea Bitcoin-logo, jonka suunnitteli Satoshi Nakamoto (2010)](assets/en/032.webp)
 
 Vähitellen ihmiset alkoivat hyväksyä bitcoinin. Näin tapahtui käyttäjälle SmokeTooMuch joulukuussa 2009, joka oli juuri saapunut ja [raportoi olemassaolosta](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) paysafecard-lahjakorttien myyntipalvelusta nimeltä BTC 2 PSC. Palvelusta myöhemmin [mainitsi](https://mmalmi.github.io/satoshi/#email-141) positiivisesti Satoshi 4. helmikuuta 2010. Samoin teki NLS, joka 9. helmikuuta [avasi](https://bitcointalk.org/index.php?topic=30.msg305#msg305) oman verkkokauppansa, Liberty Swap Variety Shopin, jossa hän tarjosi myyntiin postimerkkejä ja tarroja.
 
@@ -750,7 +750,7 @@ Vaihto dollariin myös kehittyi, ja kahden kuukauden sisällä avattiin ei vähe
 - BitcoinFX (bitcoinfx.cz.cc), palvelu, joka myy bitcoineja Liberty Reserve dollareissa, joka [ilmoitettiin](https://bitcointalk.org/index.php?topic=30.msg194#msg194) 15. helmikuuta;
 - BitcoinExchange (bitcoinexchange.com), Martti Malmi alusta, joka ainutlaatuisesti [mittaa](https://mmalmi.github.io/satoshi/#email-25) tarjontaa ja kysyntää harkiten euroja ja bitcoineja, jotka käyttäjät ovat tallettaneet, ja joka [avattiin yleisölle](https://bitcointalk.org/index.php?topic=68.msg591#msg591) 2. maaliskuuta 2010;
 - Bitcoin Market (bitcoinmarket.com), vertaisverkkomarkkinapaikka, joka käyttää PayPalia ja jonka [käynnisti](https://bitcointalk.org/index.php?topic=20.msg726#msg726) henkilö nimeltä dwdollar 16. maaliskuuta, ja joka saavutti merkittävää menestystä ennen Mt. Goxin esiinmarssia heinäkuussa.
-  ![Myöhempi näkymä Bitcoin Market -käyttöliittymästä, 26. elokuuta 2011](assets/en/33.webp)[Näkymä](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) Bitcoin Market -käyttöliittymästä myöhemmin (elokuu 2011)
+  ![Myöhempi näkymä Bitcoin Market -käyttöliittymästä, 26. elokuuta 2011](assets/en/033.webp)[Näkymä](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) Bitcoin Market -käyttöliittymästä myöhemmin (elokuu 2011)
 
 Maaliskuun 11. päivänä järjestetään ensimmäinen pokeripeli, jossa käytetään bitcoineja. Pelin järjestää BitcoinFX:n ylläpitäjä, mikä aloittaa vahvan suhteen, joka tulee vallitsemaan uhkapelin ja kryptovaluutan välillä. Pelin voittaa dwdollar, joka ansaitsee [600 BTC](https://mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761).
 
@@ -758,7 +758,7 @@ Muita bitcoineja hyväksyviä palveluita ilmestyy, kuten äänen välityspalvelu
 
 Ensimmäinen omistautunut Bitcoin-säilytyspalvelu myös ilmestyy: kyseessä on MyBitcoin, web-sovellus, joka mahdollistaa helpon ja rauhallisen kryptovaluutan käytön, erityisesti mobiililaitteilla. Tämän palvelun ansiosta käyttäjien ei tarvitse ladata koko ketjun dataa lähettääkseen ja vastaanottaakseen transaktioita, eikä säilyttää bitcoinejaan itse tallentamalla heidän yksityisiä avaimiaan.
 
-![MyBitcoinin logo sivuston mybitcoin.com arkistosta](assets/en/34.webp)
+![MyBitcoinin logo sivuston mybitcoin.com arkistosta](assets/en/034.webp)
 
 Tuolloin kevytlompakot (tunnetaan nimellä "SPV") eivät olleet olemassa, joten Satoshi Nakamoto itse piti tällaisen ohjelmiston käyttöä hyväksyttävänä, vaikka tämä käyttö meni vastoin Bitcoinin ytimessä olevaa välityksen poistamisen periaatetta. Toukokuun 18. päivänä 2010 hän [kirjoitti](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) foorumilla:
 
@@ -804,14 +804,14 @@ Tässä luvussa tarkastelemme ensimmäistä louhintaa näytönohjaimella (GPU), 
 Bitcoinin kasvavan kysynnän myötä verkossa tapahtuva louhinta-aktiivisuus kasvoi vähitellen. Vuoden 2009 aikana verkon vaikeustaso oli minimaalisella tasolla 1, mikä vaati kaikilta solmuilta noin 4,3 miljardin laskelman suorittamista lohkon louhimiseksi. Kuitenkin joulukuussa 2009 tämä muuttui kiitos säätöalgoritmin, joka nosti vaikeustekijän 1:stä 1,18:aan.
 Satoshi Nakamoto oli erittäin huolestunut tästä vaikeustason noususta ja ylläpiti [historiaa](https://bitcointalk.org/index.php?topic=43.msg249#msg249) foorumilla alkaen helmikuusta 2010. Tältä se näytti:
 
-![Vaikeustason kehitys kuvattuna Satoshi Nakamoton toimesta foorumilla](assets/en/35.webp)
+![Vaikeustason kehitys kuvattuna Satoshi Nakamoton toimesta foorumilla](assets/en/035.webp)
 
 Huolimatta tästä innostuksesta verkon laskentatehon kasvusta, Satoshi pyrki kuitenkin hidastamaan louhinnan erikoistumista suosien yksiköiden jakautumista. Tähän mennessä louhijat olivat käyttäneet keskusyksikköjään (CPU) uusien bitcoinien louhimiseen. Kuitenkin nämä prosessorit osoittautuivat tehottomiksi toistuvien operaatioiden suorittamisessa verrattuna grafiikkaprosessoreihin (GPU), jotka soveltuvat paljon paremmin tällaiseen toistuvaan laskentaan. Tästä syystä kaikki tiesivät tuolloin, että tämä kehitys oli väistämätön, Satoshi mukaan lukien. Joulukuun 19. päivänä 2009 hän [lausui](https://bitcointalk.org/index.php?topic=12.msg54#msg54) seuraavasti:
 "Meidän pitäisi olla herrasmiessopimus lykätä GPU-kilpavarustelua niin kauan kuin mahdollista verkon hyväksi. Uusien käyttäjien perehdyttäminen on paljon helpompaa, jos heidän ei tarvitse huolehtia GPU-ajureista ja yhteensopivuudesta. On hienoa, että kuka tahansa vain CPU:lla voi kilpailla melko tasavertaisesti juuri nyt."
 
 Kuitenkin muutama kuukausi myöhemmin Pandoran lipas avattiin. Häirikkö oli Laszlo Hanyecz, 28-vuotias amerikkalainen kehittäjä unkarilaisilla juurilla, joka asui Floridassa. Hän löysi Bitcoinin huhtikuussa 2010. Yhdeksäntenä hän [hankki](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3,300 bitcoinia NLS:ltä noin 20 dollarilla, sitten testasi järjestelmää tekemällä muutamia siirtoja. Kahdeksastoista päivä hän yritti ruuhkauttaa verkon moninkertaistamalla siirtoja [julkisesta osoitteestaan](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), mutta se kesti.
 
-![Laszlo Hanyecz poikansa kanssa toukokuussa 2018](assets/en/36.webp)
+![Laszlo Hanyecz poikansa kanssa toukokuussa 2018](assets/en/036.webp)
 Laszlo Hanyecz poikansa kanssa toukokuussa 2018 (lähde: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 Tämän jälkeen hän [mukautti](https://bitcointalk.org/index.php?topic=116.msg972#msg972) ohjelmakoodia, jotta se toimisi Mac OS X -käyttöjärjestelmässä. Sen jälkeen hän työskenteli louhinnan optimoinnin parissa käyttäen OpenCL-ympäristöä, mikä mahdollistaa [GPU:n osallistumisen](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) bitcoinien generointiin. Toukokuun 10. päivänä hän julkaisi [suoritettavan tiedoston](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) ja [tarjosi](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) kirjoittaa päivityksiä, jotta muut louhijat voisivat tehdä samoin. Tämä optimointi nopeasti mahdollisti hänelle merkittävän aseman lohkojen tuotannossa. Huhtikuun lopussa Laszlo otti yhteyttä Satoshiin kysyäkseen tämän mielipidettä, mutta jälkimmäinen vastasi vasta toukokuun 17. päivänä. Bitcoinin luoja sitten [pyysi](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) häntä hidastamaan toimintaansa, jotta louhinta pysyisi kaikkien saavutettavissa:
 
@@ -825,18 +825,18 @@ Tämä louhinnan nousu johti myös merkittävään seuraukseen: Satoshi lopetti 
 
 Satoshin louhintatoiminnalla on er distinct kuviointi, mikä mahdollistaa hänen todennäköisesti löytämiensä lohkojen tunnistamisen, muutamia vääriä positiivisia tuloksia lukuun ottamatta. Tämä louhintakuvio tuotiin esiin kehittäjä Sergio Lernerin toimesta vuonna 2013 ja sitä on kutsuttu Patoshi-kuvioiksi.
 
-![Patoshi-kuvio lohkojen 0 ja 50,000 välillä](assets/en/37.webp)
+![Patoshi-kuvio lohkojen 0 ja 50,000 välillä](assets/en/037.webp)
 
 Patoshi-kuvio lohkojen 0 ja 50,000 välillä havaittuna verkkosivustolla [satoshiblocks.info](http://satoshiblocks.info/): jokainen piste vastaa lohkoa, siniset viivat muodostuvat Satoshin lohkoista, muut viivat edustavat muiden louhijoiden tuloksia.
 Whale Alertin vuonna 2020 julkaiseman tutkimuksen mukaan Satoshi louhi noin 22 500 lohkoa ja kerrytti siten 1 122 693 bitcoinia, mikä on yli 5% suunnitellusta 21 miljoonan yksikön kokonaismäärästä. Suuren osan vuodesta 2009 verkko nojasi perustajansa laskentatehoon. Tämä riippuvuus tuli ilmi elokuussa 2009, joka oli louhintatoiminnan kannalta huonoin ajanjakso ja ajoittui yhteen Satoshin "taukoa" koskevan ajan kanssa, jolloin hän todennäköisesti valvoi koneitaan vähemmän. Todellakin, tämän elokuun aikana tuotettiin vain 1 564 lohkoa odotetuista 4 464:stä, mikä vastaa keskimääräistä aikaa 28 minuuttia ja 30 sekuntia.
 
 Laskentatehon kasvaessa syksyllä 2009 Satoshin laskentatehon osuus koko verkon tehosta väheni asteittain. Se laski 75%:sta maaliskuussa 2009 60%:iin syyskuussa, sitten 15%:iin joulukuussa ja saavutti 0% toukokuussa. Alla on [Organofcortin](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html) vuonna 2014 tekemä kaavio:
 
-![Satoshin laskentatehon osuuden arviointi suhteessa kokonaistehoon tammikuun 2009 ja heinäkuun 2010 välisenä aikana](assets/en/38.webp)
+![Satoshin laskentatehon osuuden arviointi suhteessa kokonaistehoon tammikuun 2009 ja heinäkuun 2010 välisenä aikana](assets/en/038.webp)
 
 Lisäksi Satoshin louhinnan hallinnan lasku ei ole pelkästään passiivista: hän itse hidastaa tuotantoaan samana aikana. Todellakin, Satoshin ilmoitettu tavoite on, että kaikki osallistuvat: hän ei louhi taloudellisen hyödyn vuoksi, vaan varmistaakseen verkon toiminnan, kunnes kannustimet alkavat vaikuttaa. Näin ollen hän vähentää hash-nopeuttaan (sekunnissa suoritettavien laskelmien määrä) kolme kertaa tämän louhintajakson aikana: ensimmäisen kerran 4,5:stä 2,5 MH/s:iin kesäkuussa 2009, toisen kerran 2,5:stä 1 MH/s:iin lokakuussa ja kolmannen kerran 1:stä 0 MH/s:iin toukokuussa 2010. Tässä on kaavio hänen hash-nopeutensa kehityksestä tänä aikana ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)):
 
-![Satoshin hash-nopeuden arviointi tammikuun 2009 ja toukokuun 2010 välisenä aikana](assets/en/39.webp)
+![Satoshin hash-nopeuden arviointi tammikuun 2009 ja toukokuun 2010 välisenä aikana](assets/en/039.webp)
 
 Satoshin louhinta on siis päättäväisesti altruistista, kuten [Jameson Lopp huomauttaa](https://blog.lopp.net/was-satoshi-a-greedy-miner/). Kun hän lopettaa louhinnan 3. toukokuuta 2010 (hänen viimeinen lohkonsa on [lohko 54,316](https://mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), se merkitsee toista saavutusta Bitcoinin hitaassa kehityksessä: taloudellisten toimijoiden ottamaa vastuuta transaktioiden vahvistamisesta.
 
@@ -847,12 +847,12 @@ Toukokuu 2010 merkitsee myös perustavaa laatua olevaa tapahtumaa: ensimmäistä
 
 Tarjouksen hyväksyi neljän päivän kuluttua nuori kalifornialainen nimeltä Jeremy Sturdivant IRC-välittömän viestinnän palvelussa.
 
-![Jeremy Sturdivant toukokuussa 2018](assets/en/40.webp)
+![Jeremy Sturdivant toukokuussa 2018](assets/en/040.webp)
 Jeremy Sturdivant toukokuussa 2018 (lähde: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/))
 
 22. toukokuuta hän tilasi kaksi pizzaa Papa John'silta, jotka toimitettiin Laszlo Hanyeczille Jacksonvilleen, Floridaan. Hän [sai vastineeksi](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10 000 bitcoinia, joiden arvo Bitcoin Market -kurssilla oli noin 44 dollaria. Tässä on valokuva näistä kahdesta pizzasta, jonka Laszlo itse [jakoi](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/):
 
-![Pizzat Papa John'silta toimitettuna Laszlo Hanyeczille 22. toukokuuta 2010](assets/en/41.webp)
+![Pizzat Papa John'silta toimitettuna Laszlo Hanyeczille 22. toukokuuta 2010](assets/en/041.webp)
 
 Tämä päättää ensimmäisen fyysisen hyödykkeen ostamisen bitcoineilla, vaikka tämä ostos onkin epäsuora. Laszloa onnittelee [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196), joka kirjoittaa, että "suuri askel on otettu." NLS lisää myös [positiivisen kommentin](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) tästä asiasta.
 
@@ -866,7 +866,7 @@ Tämä päättää ensimmäisen fyysisen hyödykkeen ostamisen bitcoineilla, vai
 
 Tähän aikaan saapui myös avainhahmo Bitcoinin historiassa: Gavin Andresen, 44-vuotias kehittäjä, joka oli syntynyt Australiassa ja [hankkinut](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) Yhdysvaltain kansalaisuuden vuonna 2004 ja asui tuolloin Amherstissa, Massachusettsissa. Palattuaan matkalta Australiasta ja ollessaan väliaikaisesti työtön, hän löysi Bitcoinin toukokuun lopussa Neil McAllisterin InfoWorldissä julkaisemasta [artikkelista](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3). Tämä artikkeli esitteli Satoshi Nakamoton projektin "avointa lähdekoodia olevana innovaationa."
 
-![Gavin Andresenin profiilikuva, otettu Townsvillessä, Queenslandissa, Australiassa](assets/en/42.webp)
+![Gavin Andresenin profiilikuva, otettu Townsvillessä, Queenslandissa, Australiassa](assets/en/042.webp)
 Gavin Andresen Townsvillessä, Queenslandissa, Australiassa (lähde: [CIO arkisto](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
 Uteliaana ja kekseliäänä hän alkoi nopeasti työstää henkilökohtaista projektia: "Bitcoin-hanaa", joka antaa bitcoineja kenelle tahansa, joka niitä pyytää. Kesäkuun 11. päivänä hän [käynnisti](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) palvelunsa ja esitteli sen foorumilla seuraavasti:
@@ -929,7 +929,7 @@ Myöhemmin Teppy päivitti esityksen ottaen huomioon ehdotukset. Näin ollen hei
 
 > "Miten tämä mullistava teknologia kuulostaa? Bitcoin on vertaisverkkoon perustuva digitaalinen valuutta ilman keskuspankkia ja ilman transaktiomaksuja. Proof-of-work-konseptia käyttäen solmut kuluttavat CPU-syklejä etsiessään kolikkopaketteja, lähettäen löytönsä verkkoon. Energiankäytön analyysi osoittaa, että Bitcoinien markkina-arvo on jo yli energian arvon, joka niiden tuottamiseen tarvitaan, mikä osoittaa terveen kysynnän. Yhteisö toivoo, että valuutta pysyy minkä tahansa hallituksen ulottumattomissa."
 
-![Slashdot Logo in 2010](assets/en/43.webp)
+![Slashdot Logo in 2010](assets/en/043.webp)
 
 Julkaisu huomattiin, ja muutamassa päivässä siihen postitettiin lähes 500 kommenttia. Bitcoinille tämä menestys johti massiiviseen kävijämäärän kasvuun sivustolla ja foorumilla. Blockchainin käyttö kasvoi: verkossa suoritettujen transaktioiden määrä kasvoi 42:sta 10. heinäkuuta 1 641:een 12. päivänä, saavuttaen 5 554 14. päivänä, mikä oli kaikkien aikojen korkein. Järjestelmä piti pintansa lisääntyneestä kuormasta huolimatta. 14. päivänä kehittäjä Gavin Andresen [kirjoitti](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745) foorumilla:
 
@@ -940,12 +940,12 @@ Julkaisu huomattiin, ja muutamassa päivässä siihen postitettiin lähes 500 ko
 
 Niiden joukossa, jotka löysivät Bitcoinin Slashdotin ansiosta, oli Jed McCaleb, 35-vuotias amerikkalainen yrittäjä ja ohjelmoija, joka tunnetaan vertaisverkkoon perustuvan tiedostonjakosovelluksen eDonkey2000:n kehittämisestä ja perustamisesta 2000-luvulla. Huomattuaan, kuinka vaikeaa oli hankkia Bitcoinia dollareita vastaan, hän päätti "päähänpistosta" luoda tehokkaan markkinapaikan. Tätä varten hän hyödynsi yhtä vanhaa projektiaan, joka oli kehitetty vuonna 2007: Magic The Gathering Online eXchange (MTGOX), verkkosivusto, joka mahdollisti korttien ostamisen ja myymisen online-pelille _Magic: The Gathering Online_. Hän käytti uudelleen tämän projektin verkkotunnusta (mtgox.com), josta tuli uuden alustan name: Mt. Gox, lausutaan "Mount Gox".
 
-![Jed McCaleb vuonna 2013](assets/en/44.webp)
+![Jed McCaleb vuonna 2013](assets/en/044.webp)
 Jed McCaleb vuonna 2013 (lähde: Ariel Zambelich [Wiredille](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
 Viikkoa myöhemmin, 18. heinäkuuta, Jed McCaleb lanseerasi vaihtoalustansa ja [ilmoitti](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) siitä foorumilla. Asiantuntemuksensa ansiosta hän varmisti, että alusta toimi automatisoituna markkinapaikkana, samankaltaisena kuin nykyaikaiset online-vaihtoalustat. [Hänen mukaansa](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891) se erottui Bitcoin Marketista, koska se oli "aina online, automatisoitu", "sivusto oli nopeampi ja sillä oli omistettu hosting" ja "käyttöliittymä oli käyttäjäystävällisempi". Tuloksena Mt. Goxista tuli nopeasti ensisijainen keino hankkia bitcoineja, vakiinnuttaen asemansa dollarikurssien vertailukohtana.
 
-![Mt. Gox -alustan käyttöliittymä helmikuussa 2011](assets/en/45.webp)
+![Mt. Gox -alustan käyttöliittymä helmikuussa 2011](assets/en/045.webp)
 Mt. Gox -alustan käyttöliittymä helmikuussa 2011 (lähde: [Mt. Gox -arkisto](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 Alun perin alusta hyväksyi maksut PayPalin kautta. Kuitenkin lokakuussa 2010, liian monen chargeback-pyynnön jälkeen, PayPal [estä](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421) Jed McCalebin tilin, mikä pakotti hänet väliaikaisesti keskeyttämään talletukset ja nostot alustalla. Muutama viikko myöhemmin, hän [palautti](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) siirrot lisäämällä Liberty Reserve maksutavaksi. Myöhemmin hän hyväksyi myös transaktioita [Paxumin](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809) kautta pyynnöstä, sekä pankkisiirrot [dollareissa](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) ja [euroissa](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
 
@@ -968,7 +968,7 @@ Slashdotista tulleiden käyttäjien tulva edellytti myös ohjelmiston parantamis
 Bitcoinin luoja ei kuitenkaan työstä koodia yksin. Hän voi luottaa Gavin Andreseniin, joka saapui kesäkuussa ja on yhä enemmän mukana kehitystyössä (hänet on [mainittu](https://sourceforge.net/p/bitcoin/code/101/) SourceForge-repositoriossa 9. heinäkuuta alkaen). On myös ihmisiä, jotka ovat uteliaita siitä, miten järjestelmä toimii ja raportoivat ongelmista, kun he kohtaavat niitä, kuten Christian Decker (cdecker) tai Michael Marquardt (paremmin tunnettu nimimerkillä Theymos). Satoshi saa myös tukea louhijoilta, jotka muokkaavat koodia löytääkseen keinoja yksiköiden tuottamisen optimoimiseksi, kuten ArtForz (ensimmäinen henkilö, joka perusti louhintafarmin, kuten näemme seuraavassa luvussa), saksalainen kehittäjä Nils Schneider (tcatm), Michael Brown (knightmb) tai BlackEye.
 Lopuksi voimme mainita Jeff Garzikin (käyttää foorumilla nimimerkkiä jgarzik), joka on amerikkalainen kehittäjä, avoimen lähdekoodin maailman avustaja, erityisesti Red Hat -jakelulle, ja itävaltalaisen talouskoulukunnan libertaarinen seuraaja. Hän löysi Bitcoinin Slashdotissa julkaistun artikkelin kautta ja ryhtyi melkein välittömästi osallistumaan Bitcoiniin.
 
-![Jeff Garzik vuonna 2013](assets/en/46.webp)
+![Jeff Garzik vuonna 2013](assets/en/046.webp)
 Jeff Garzik vuonna 2013 (lähde: [Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
 
 Satoshi ensisijainen tavoite on tehdä ohjelmistosta ja protokollasta turvallisempi, selviytyäkseen äskettäisestä käytön lisääntymisestä. Yhdessä Gavin Andresenin kanssa he harkitsevat erilaisia hyökkäyksiä, jotka voisivat tapahtua (mukaan lukien palvelunestohyökkäykset) ja pyrkivät korjaamaan löydetyt haavoittuvuudet. Näin lisätään tarkistuspisteiden järjestelmä 17. heinäkuuta ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)), estäen ketjun uudelleenkirjoittamisen ennen tiettyä päivämäärää, ja työn käsite integroidaan 25. heinäkuuta ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)) hienosäätämään mekanismia oikean ketjun valitsemiseksi solmujen toimesta.
@@ -1004,7 +1004,7 @@ Tämä parametri [lisättiin](https://sourceforge.net/p/bitcoin/code/103/) huoma
 
 Vaikka Satoshi ei maininnut lohkon koon rajoituksen olemassaoloa, useat ihmiset huomasivat sen läsnäolon koodissa ajan myötä. Näin ollen jo 12. elokuuta venäjänkielisen foorumin jäsen, joka käytti nimimerkkiä throughput, [mainitsi](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873) suhteellisen myönteiseen sävyyn, että "Toinen mielenkiintoinen näkökohta on, että lohkon tavukoko (eli siinä olevien transaktioiden määrä) on rajoitettu." Myöhemmin, 30. syyskuuta, Theymos [huomautti](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) toiselle jäsenelle, että "Bitcoin ei salli yli 1MB:n lohkoja, joten olettaen (melko pienen) keskimääräisen transaktiokoon 216 tavua, Bitcoin voi käsitellä vain 4 629 transaktiota joka 10. minuutti."
 Lopulta tämän parametrin läsnäolo vaikuttaa Jeff Garzikiin, joka [ilmoittaa](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) olevansa "paljon huolestuneempi skaalautuvuudesta kuin hallituksen sulkemisesta" ja joka [kysyy](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107), miten on mahdollista "myydä bitcoin vakaville sijoittajille, sisäänrakennetuilla rajoituksilla kuten 463 transaktion minuuttiraja." Seurauksena, 3. lokakuuta hän ehdottaa foorumilla päivitystä lohkon koon rajoituksen nostamiseksi 7.168 MB:iin, jotta se "vastaisi PayPalin keskimääräistä transaktiovauhtia." Theymos vastaa sanomalla, että "tämän päivityksen soveltaminen tekee sinut yhteensopimattomaksi muiden Bitcoin-asiakkaiden kanssa." Tämän viestin vahvistaa Satoshi Nakamoto, joka [suosittelee](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) olemaan käyttämättä päivitystä ja toteaa: "Voimme vaiheittain ottaa muutoksen käyttöön myöhemmin, jos lähestymme tarvetta siihen." Jälkimmäinen [selventää](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) ajatuksiaan seuraavana päivänä antamalla ohjeita tällaisen protokollamuutoksen tekemiseen.
-![Viesti Satoshi Nakamotolta, joka kuvailee lohkon koon rajoituksen kasvattamista vuonna 2010](assets/en/47.webp)
+![Viesti Satoshi Nakamotolta, joka kuvailee lohkon koon rajoituksen kasvattamista vuonna 2010](assets/en/047.webp)
 
 Tämä keskustelu merkitsee skaalautuvuuskeskustelun alkua, joka lopulta johtaisi todelliseen sisällissotaan vuosien 2015 ja 2017 välillä, tunnettu nimellä lohkokoon sota.
 
@@ -1039,11 +1039,11 @@ Tämä ajanjakso oli erityisesti kulta-aikaa louhinnalle, joka näki merkittävi
 
 Kun Bitcoin oli slashdotted heinäkuussa 2010, hinnannousun tuoma korkea taloudellinen palkkio ja tulevaisuuden kasvun mahdollisuus kannustivat yksilöitä omistautumaan bitcoinejen intensiivisempään tuottamiseen. Siksi verkon [hash rate](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime), joka oli 0.22 GH/s 11. heinäkuuta, nousi 2.78 GH/s:iin 17. päivänä, sitten 5.79 GH/s:iin 15. elokuuta, lopulta saavuttaen 9.94 GH/s 19. syyskuuta ja viimein 12.58 GH/s 29. syyskuuta.
 
-![Koko verkon hash rate 11. heinäkuuta - 5. lokakuuta 2010](assets/en/48.webp)
+![Koko verkon hash rate 11. heinäkuuta - 5. lokakuuta 2010](assets/en/048.webp)
 Koko verkon hash rate 11. heinäkuuta - 5. lokakuuta 2010 (lähde: [CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart))
 Tämän ajanjakson suurin louhija oli saksalainen kehittäjä, joka tunnettiin nimellä ArtForz. Slashdotin kautta Bitcoinista kuultuaan hän ryhtyi nopeasti mukaan ohjelmistokehitykseen ja vietti paljon aikaa IRC-kanavalla #bitcoin-dev. Erityisesti hän kehitti oman GPU-louhinta-algoritminsa OpenCL:llä, jonka hän ajoi tietokoneensa näytönohjaimella. Hän alkoi tuottaa bitcoineja 19. heinäkuuta. 25. heinäkuuta keskusteluketjussa, jossa kyseltiin käyttäjien bitcoin-omistuksista, ArtForz [ilmoitti](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617), että hän oli louhinut 1 700 bitcoinia kuudessa päivässä, mikä vastaa 4%:n osuutta hash-nopeudesta eli 80 MH/s. Vähitellen hän rakensi suuren louhintatilan, joka tunnettaisiin nimellä "ArtFarm". Elokuussa hänen tilansa [sisälsi](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) 6 ATI Radeon HD 5770 -näytönohjainta, joiden avulla hän pystyi nostamaan nopeutensa 76 MH/s 9. elokuuta noin 450 MH/s 13. päivään mennessä.
 
-![ArtForzin louhintatuotanto elokuun ja lokakuun 2010 välillä](assets/en/49.webp)
+![ArtForzin louhintatuotanto elokuun ja lokakuun 2010 välillä](assets/en/049.webp)
 ArtForzin louhintatuotanto elokuun ja lokakuun 2010 välillä (lähde: Blackburn et al., "[Cooperation among an anonymous group protected Bitcoin during failures of decentralization](https://arxiv.org/pdf/2206.02871)")
 
 Viikkojen aikana ArtForz alkoi hallita merkittävää osaa verkon laskentatehosta. 2. syyskuuta louhija puddinpop [ilmoitti](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957), että hänellä on "noin 12 5770s käyttäen hänen OpenCL-asiakasohjelmaansa" ja että hänellä on "yli 1 Ghash/s", mikä antaa hänelle "20% verkon hash-kapasiteetista". (_alkuperäinen: "ArtForz, IRC:ssä, on kuin 12 tai niin 5770s ajamassa omaa OpenCL-asiakasohjelmaansa. Koko verkko tekee jotain 5-6Ghash/s ympärillä, ja hän yksin on ilmoittanut, että hänellä on yli 1Ghash/s."_) 23. syyskuuta ArtForz [julistautui](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0) pitävänsä lähes 2 GH/s hash-nopeutta, edelleen edustaen 20% laskennasta. 3. lokakuuta theymos [ilmoitti](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118), että ArtForz "hallitsee 20-30% verkon laskentatehosta." (_alkuperäinen: "hänellä on 20-30% verkon CPU-tehosta"_)
@@ -1072,7 +1072,7 @@ Kuitenkin on paljon yksinkertaisempi tapa mitata asiakkaan hash-nopeus: osittain
 
 24. marraskuuta nuori tšekkiläinen kehittäjä nimeltä Marek Palatinus, käyttäen nimimerkkiä slush, [julkaisi](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0) kuvaus "yhteistyöllisestä louhinnasta" foorumilla, malli, joka hyödyntää `getwork`-toimintoa ja Jeff Garzikin logiikkaa. Tämä malli perustuu louhijoiden tuottamiin osittaisiin työtodisteisiin (pay-per-share). Seuraavana päivänä Satoshi Nakamoto [hyväksyi](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) konseptin.
 
-![Marek Palatinus (slush) Z-DAY-konferenssissa Prahassa 11. toukokuuta 2013](assets/en/50.webp)
+![Marek Palatinus (slush) Z-DAY-konferenssissa Prahassa 11. toukokuuta 2013](assets/en/050.webp)
 Marek Palatinus (slush) Z-DAY-konferenssissa Prahassa 11. toukokuuta 2013
 Kaksi arviointimallia otettiin käyttöön joulukuussa. Ensimmäisenä puddinpop-konseptia sovellettiin 1. joulukuuta käyttäjän doublec toimesta, joka [kutsui](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) ihmisiä liittymään hänen yhteisökaivos-palvelimeensa. Ryhmä [tuotti](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) ensimmäisen lohkonsa (95,420) 4. joulukuuta. Tuotettuaan vielä yhden lohkon muutama päivä myöhemmin, doublecin palvelin [suljettiin](https://bluishcoder.co.nz/bitcoin-pool/) 15. päivänä. Palvelu sulki ovensa pysyvästi 17. päivänä, paljon tehokkaamman yhteistyön: Bitcoin.cz Miningin ilmestymisen vuoksi.
 
@@ -1082,7 +1082,7 @@ Yön aikana 15. joulukuuta ja 16. joulukuuta osuuskunta [käynnistettiin](https:
 
 Osuuskunta tulisi olemaan vertailukohta Bitcoinin kaivostoiminnassa. Se [kantoi](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) useita nimiä vuosien varrella: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining ja lopulta Slush Pool, viitaten sen luojaan. Se muuttui Braiins Pooliksi syyskuussa 2022.
 
-![Slushin osuuskunnan logo syyskuussa 2011](assets/en/51.webp)
+![Slushin osuuskunnan logo syyskuussa 2011](assets/en/051.webp)
 Slushin osuuskunnan logo syyskuussa 2011 (lähde: [arkisto](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/) sivustolta)
 
 ### Suuri harppaus eteenpäin kaivostoiminnassa
@@ -1110,9 +1110,9 @@ Ranskan yhteisön kanssa asiat muuttuivat, erityisesti yhden henkilön toimien k
 
 Muutamaa päivää myöhemmin, 30. päivänä, hän julkaisi [uutisjulkaisun](https://linuxfr.org/news/connaissez-vous-les-bitcoins) ranskaksi LinuxFr.org-sivustolla (DLFP). Tämä julkaisu, jonka otsikko oli "Tunnetko bitcoinit?", on todennäköisesti ensimmäinen Bitcoinin esittely ranskan kielellä. Artikkeli tavoitti suuren määrän ihmisiä, generoiden lähes 350 kommenttia. Tässä on ensimmäinen kappale sellaisena kuin se [näkyi](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) tuolloin:
 
-![Tunnetko bitcoinit?](assets/en/52.webp)
+![Tunnetko bitcoinit?](assets/en/052.webp)
 Erityisesti tämä lähetys on vaikuttanut siihen, että erään Ploumin, oikealta nimeltään Lionel Dricot, 29-vuotiaan belgialaisen bloggaajan ja vapaan ohjelmiston puolestapuhujan, huomio kiinnittyy siihen. Lokakuun 25. päivänä hän [julkaisi](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) artikkelin blogissaan, otsikolla "Geek-valuutta, apinaraha?", jossa hän kannattaa hajauttamista ja tukee Bitcoinin periaatetta. Monet ranskankieliset internetin käyttäjät kuulivat Bitcoinista tämän kautta, mukaan lukien [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), kehittäjä, joka myöhemmin loisi Bitcoin Cashin vuonna 2017.
-![Lionel Dricot (Ploum) vuonna 2012, tuolloin ehdokkaana Merirosvopuolueen lipun alla Belgian kunnallis- ja maakuntavaaleissa](assets/en/53.webp)
+![Lionel Dricot (Ploum) vuonna 2012, tuolloin ehdokkaana Merirosvopuolueen lipun alla Belgian kunnallis- ja maakuntavaaleissa](assets/en/053.webp)
 Lionel Dricot (Ploum) vuonna 2012, tuolloin ehdokkaana Merirosvopuolueen lipun alla Belgian kunnallis- ja maakuntavaaleissa (lähde: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
 Samana päivänä Ploum avasi [keskusteluketjun](https://bitcointalk.org/index.php?topic=1567.0) "French" Bitcoin-foorumilla. Ranskankielisten foorumin jäsenten viestit lisääntyivät seuraavien kuukausien aikana. Erityisesti David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)), rekisteröitynyt 17. lokakuuta ja tuleva Bitcoin-Centralin perustaja, sekä Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)), rekisteröitynyt 7. marraskuuta ja tuleva Mt. Gox -alustan omistaja, osallistuivat. Mukana oli myös eräs Jean-Luc, joka avaisi sivuston [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/) 23. joulukuuta ja alkaisi [mainostaa](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) sitä tammikuussa. [Ranskalainen alafoorumi](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0) luotaisiin lopulta Martti Malmi toimesta 1. helmikuuta 2011.
@@ -1120,16 +1120,16 @@ Samana päivänä Ploum avasi [keskusteluketjun](https://bitcointalk.org/index.p
 ### Viestinnän kehitys
 
 Lingvististen yhteisöjen kehittymisen lisäksi Bitcoinin viestintämenetelmissä on tapahtunut tiettyä innovaatiota. Lokakuun 4. päivänä 38-vuotias australialainen, joka käytti nimimerkkiä noagendamarket, [käynnisti](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) aloitteen nimeltä BitcoinMedia. Ideana on edistää Bitcoinia luomalla erilaisia sisältöjä ja mainostamalla niitä paikoissa, jotka todennäköisesti houkuttelevat yleisöä. Vaikka tämä aloite ei saavuttanut odotettua menestystä, sillä on ansio siitä, että se johti ensimmäisten Bitcoinista kertovien videoiden tuotantoon. Kanavan ensimmäinen video, [julkaistu](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) lokakuun 5. päivänä, on Google Search Story, joka on luotu Youtube-työkalulla (katso alla oleva kuvakaappaus). Muut videot luodaan Xtranormalilla, joka on helppokäyttöinen työkalu videosekvenssien luomiseen valmiiksi suunnitelluista hahmoista ja asetuksista.
-![Ensimmäinen video Bitcoinista (Google Search Story)](assets/en/54.webp)
+![Ensimmäinen video Bitcoinista (Google Search Story)](assets/en/054.webp)
 
 Tänä aikana Bitcoinista kertovat blogikirjoitukset lisääntyvät. Tämä pätee erityisesti Jon Matonisiin, joka ylläpitää blogia _The Monetary Future_, jossa hän käsittelee digitaalisiin valuuttoihin, vapaaseen pankkitoimintaan ja kryptografiaan liittyviä aiheita. Hän löysi Bitcoinin maaliskuussa ja [vaihtoi](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) viestejä Satoshi Nakamoton kanssa, minkä jälkeen hän alkoi kirjoittaa aiheesta. Lokakuussa hän julkaisee [kolmannen artikkelin](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html), jossa hän puhuu hinnan noususta ja käsittelee ekosysteemin uutuuksia.
 
-![Jon Matonisin profiilikuva vuonna 2011](assets/en/55.webp)
+![Jon Matonisin profiilikuva vuonna 2011](assets/en/055.webp)
 Jon Matonisin profiilikuva vuonna 2011 (lähde: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
 Tähän aikaan ehdotetaan myös uutta Bitcoin-logoa. Marraskuun 1. päivänä foorumin jäsen, joka käytti nimimerkkiä bitboy, [julkaisi](https://bitcointalk.org/index.php?topic=1631.0) graafisia elementtejä korostaakseen kryptovaluuttaa. Yksi näistä elementeistä on oranssi logo, jossa B on yliviivattu ja hieman kallistettu:
 
-![Bitcoin-logo, jonka suunnitteli bitboy, marraskuu 2010](assets/en/56.webp)
+![Bitcoin-logo, jonka suunnitteli bitboy, marraskuu 2010](assets/en/056.webp)
 
 ### Kasvava talous
 
@@ -1137,7 +1137,7 @@ Tämä ajanjakso on merkitty myös ekosysteemin huomattavalla kasvulla taloudell
 
 Kaikki nämä elementit johtavat hintojen jyrkkään nousuun. Vaikka se vakautuu 6 senttiin elokuusta lähtien, se alkaa nousta lokakuun alussa. Se menee 10 senttiin, saavuttaen 20 senttiä kuun lopussa. Marraskuun 6. päivänä se jopa ylittää 50 senttiä, mikä ei epäonnistu [innostamaan](https://bitcointalk.org/index.php?topic=1681.0) foorumin jäseniä.
 
-![BTC:n hinta 18. heinäkuuta ja 18. lokakuuta 2010 Mt. Goxissa](assets/en/57.webp)
+![BTC:n hinta 18. heinäkuuta ja 18. lokakuuta 2010 Mt. Goxissa](assets/en/057.webp)
 BTC:n hinta 18. heinäkuuta ja 18. lokakuuta 2010 Mt. Goxissa (lähde: [_The Monetary Future_](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html))
 
 Bitcoinin nousu tarkoittaa, että asioita aletaan mitata, olipa kyse sitten hinnasta, toiminnasta ketjussa tai louhinnasta. Kaikki tietävät, että ekosysteemi kokee kasvua, mutta kukaan ei tiedä, miten sitä oikein arvioida. Siksi palveluita alkaa ilmestyä vuoden 2010 toisella puoliskolla ja vuoden 2011 alussa, joiden joukossa pääasialliset ovat:
@@ -1154,7 +1154,7 @@ Yksi viimeinen elementti, joka osoittaa Bitcoinin menestyksen, on se, että jotk
 
 Merkittävä tapahtuma vuoden 2010 lopussa oli Electronic Frontier Foundationin, kansainvälisen järjestön, joka suojaa vapauksia Internetissä ja jonka perustivat vuonna 1900 Mitch Kapor, John Gilmore ja John Perry Barlow, hyväksyntä bitcoinille. Tämä oli erityisen tärkeää Bitcoinin varhaisille omaksujille, jotka olivat sydämeltään kyberpunkkeja. He olivat innokkaita saamaan sen hyväksymään bitcoinit.
 
-![Electronic Frontier Foundationin logo](assets/en/58.webp)
+![Electronic Frontier Foundationin logo](assets/en/058.webp)
 
 Foorumin jäsen nimeltä Kiba otti aloitteen 13. elokuuta 2010 [ehdottamalla](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) ottaa yhteyttä EFF:iin ja ehdottaa heille lahjoituksen hyväksymistä, [kerätty](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) yhteisöltä. Tätä tarkoitusta varten hän perusti [tilin](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) MyBitcoinissa, jonne hän keräsi varat ja halusi siirtää pääsyn EFF:lle. Hän laati sähköpostin (yhteisön korjaaman), jonka hän lähetti elokuun lopussa.
 
@@ -1215,13 +1215,13 @@ Gavin, joka on lähellä Satoshi Nakamotoa mutta keskustelee myös muiden kehitt
 
 Satoshi Nakamoton lähdön laukaiseva tapahtuma on WikiLeaks-skandaali. WikiLeaks on kypherpunk Julian Assangen vuonna 2006 perustama kansalaisjärjestö, jonka tavoitteena on antaa ääni ilmiantajille ja tietovuodoille suojellen samalla heidän lähteitään. Vuonna 2010 järjestön paljastamat luottamukselliset asiakirjat välittävät suuria mediayhtiöitä ja herättävät suurta huomiota julkisessa mielipiteessä. Nämä koskevat erityisesti Yhdysvaltain armeijan liiallisia toimia, kuten siviiliuhreja ja kidutustapauksia Afganistanissa (Afganistanin sotapäiväkirja) ja Irakissa (Irakin sotapäiväkirjat).
 
-![WikiLeaksin logo marraskuussa 2010](assets/en/59.webp)
+![WikiLeaksin logo marraskuussa 2010](assets/en/059.webp)
 
 WikiLeaksin rahoitus perustuu pääasiassa julkisiin lahjoituksiin, joten järjestö luottaa maksunvälittäjiin verkossa tapahtuvien maksujen vastaanottamiseksi. Kuitenkin näiden paljastusten jälkeen välittäjiin kohdistuu painostusta, koska ne pelkäävät sääntelijän reaktiota. Tästä syystä online-maksuyhtiö Moneybookers [jäädyttää](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) järjestön tilin 14. lokakuuta.
 
 Tilanne avaa kuninkaallisen tien Bitcoinin käytölle, joka ei luota mihinkään luotettuun kolmanteen osapuoleen ja vastustaisi taloudellista sensuuria paljon paremmin. Hypoteesi avataan foorumilla marraskuussa Amir Taakin toimesta, 22-vuotias brittiläinen iranilaistaustainen henkilö, joka käyttää nimimerkkiä genjix.
 
-![Amir Taaki joulukuussa 2012 Bratislavassa](assets/en/60.webp)
+![Amir Taaki joulukuussa 2012 Bratislavassa](assets/en/060.webp)
 Amir Taaki joulukuussa 2012 Bratislavassa (lähde: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 Hakkeri, anarkisti ja [pokerinpelaaja](https://bitcointalk.org/index.php?topic=1487.0), hän sai äskettäin tietää Satoshi Nakamoton mallista. Hän näkee WikiLeaksin tilanteessa mahdollisuuden osoittaa Bitcoinin hyödyllisyyttä. Marraskuun 10. päivänä hän [kirjoittaa](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271) seuraavan viestin foorumille:
 
@@ -1332,23 +1332,23 @@ Ajan puutteen vuoksi Martti joutui vähitellen sulkemaan vaihtoalustansa, Bitcoi
 Mutta ensisijaisesti Martti tarvitsee delegoida verkkosivuston hallinnan. Vuoden 2010 lopussa ja 2011 alussa Bitcoin.org kohtasi [joitakin](https://bitcointalk.org/index.php?topic=2026.msg25845#msg25845) [ongelmia](https://bitcointalk.org/index.php?topic=3328.msg46775#msg46775). Maaliskuun 28. päivänä Martti [julkaisi](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922) ilmoituksen foorumilla pyytäen teknistä apua ja sai useita vastauksia. Tämän jälkeen hosting tehtiin [kestävämmäksi](https://bitcointalk.org/index.php?topic=13375.msg184002#msg184002), estäen sivustoa kaatumasta jokaisen massiivisen kävijäryntäyksen yhteydessä.
 Sen ulkonäkö myös muuttui. Joulukuussa 2010 verkkosivusto näytti vielä siltä, miltä se oli näyttänyt Satoshi-kauden aikana. Tässä on [näkymä](https://web.archive.org/web/20101110005546/http://www.bitcoin.org/) joulukuun 5. päivältä:
 
-![Bitcoin.org:n näkymä 5. joulukuuta, 2010](assets/en/61.webp)
+![Bitcoin.org:n näkymä 5. joulukuuta, 2010](assets/en/061.webp)
 
 Näin ollen alkuvuodesta 2011 lisättiin hieman väriä:
 
-![Bitcoin.org:n näkymä 16. helmikuuta, 2011](assets/en/62.webp)
+![Bitcoin.org:n näkymä 16. helmikuuta, 2011](assets/en/062.webp)
 
 Huhtikuussa, yhteisön [järjestämän](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) uudelleensuunnittelun jälkeen, verkkosivuston ulkoasu muuttui. Tältä se [näytti](https://web.archive.org/web/20110411071904/http://www.bitcoin.org/) silloin:
 
-![Bitcoin.org:n näkymä 11. huhtikuuta, 2011](assets/en/63.webp)
+![Bitcoin.org:n näkymä 11. huhtikuuta, 2011](assets/en/063.webp)
 
 Lopulta syyskuussa 2011 tehtiin uusi muutos Nils Schneiderin toimesta. Tuolloin luotiin uusi GitHub-repositorio [tilaisuutta](https://github.com/bitcoin/bitcoin.org) varten. Tämä suunnittelu kestäisi pidempään: sitä ei muutettaisi ennen vuotta 2013. Tässä se on (huomaa, että Bitcoin-ohjelmistoa kuvataan tuolloin "yhteisövetoiseksi avoimen lähdekoodin projektiksi"):
 
-![Bitcoin.org:n näkymä 23. syyskuuta, 2011](assets/en/64.webp)
+![Bitcoin.org:n näkymä 23. syyskuuta, 2011](assets/en/064.webp)
 
 Wikin osalta se perustui alun perin DokuWikiin, ilmaiseen moottoriin, joka oli integroitu verkkosivustoon. Kuitenkin joulukuussa 2010 Mark Karpelès, ranskalainen kehittäjä, joka asui Japanissa ja käytti foorumilla nimimerkkiä MagicalTux, loi uuden wikin osoitteeseen bitcoin.it. Tämä wiki perustuu MediaWiki-moottoriin, jonka hän kokee tyylikkäämmäksi ja helpommaksi käyttää. Alkuperäinen idea ei ole korvata olemassa olevaa dokumentaatiota, vaan, kuten Mark [ilmaisee](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) IRC:ssä, kehittää "vähemmän muodollinen, enemmän yhteisökeskeinen wiki."
 Tämä uusi wiki vetoaa [Martti Malmiin](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) ja [Gavin Andreseniin](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535), joten he harkitsevat nopeasti sen tekemistä pääwikiksi. Tässä on [tilannevedos](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page) otettu 21. toukokuuta:
-![Bitcoin.it wikin tilannevedos 21. toukokuuta 2011](assets/en/65.webp)
+![Bitcoin.it wikin tilannevedos 21. toukokuuta 2011](assets/en/065.webp)
 
 Muutama päivä käynnistyksen jälkeen Bitcoin.org:n kotisivun "wiki"-linkki [osoittaa](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) Bitcoin.it-sivustoon. Sisältö siirretään vähitellen DokuWikin versiosta. Tammikuun 31. päivänä Martti [ilmoittaa](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) foorumilla, että tämä on uusi wiki.
 
@@ -1364,12 +1364,12 @@ Ensimmäiset Bitcoin-käyttäjätapaamiset käynnisti Bruce Wagner, New Yorkissa
 
 Vaikka ensimmäiset tapahtumat pidettiin Yhdysvalloissa, ranskalainen yhteisö ei jäänyt jälkeen. 25. toukokuuta, merkiksi Gavin Andresenin vierailusta Pariisiin, järjestettiin lounas La Défensen alueella, johon osallistuivat merkittävät henkilöt kuten Lucien Grondin, David François ja Jon Matonis (joka myös vieraili).
 
-![Tapaaminen La Défensessä Pariisissa Gavin Andresenin kanssa, jolla on vaaleanpunainen paita](assets/en/66.webp)
+![Tapaaminen La Défensessä Pariisissa Gavin Andresenin kanssa, jolla on vaaleanpunainen paita](assets/en/066.webp)
 Tapaaminen La Défensessä Pariisissa Gavin Andresenin kanssa, vaaleanpunaisessa paidassa (lähde: [foorumin arkisto](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
 Kuukautta myöhemmin, 15. kesäkuuta, ensimmäinen julkinen Bitcoin-esittely ranskaksi [pidettiin](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831) jälleen Pariisissa. Sen piti Renaud Lifchitz (nono2357), nuori kyberturvallisuusasiantuntija, joka oli löytänyt Bitcoinin vuotta aiemmin. [Esitetty sisältö](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/) oli erittäin korkealaatuista, ja yleisön osallistuminen oli niin hyvää, että huone oli täynnä.
 
-![Bitcoin-esittely Renaud Lifchitzilta 15. kesäkuuta 2011](assets/en/67.webp)
+![Bitcoin-esittely Renaud Lifchitzilta 15. kesäkuuta 2011](assets/en/067.webp)
 Bitcoin-esittely Renaud Lifchitzilta 15. kesäkuuta 2011 (lähde: [foorumin arkisto](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
 Tämän kokemuksen jälkeen pariisilainen yhteisö [järjesti](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) sosiaalisen kokoontumisen, joka pidettiin 11. heinäkuuta. Tämä tapahtuma toi yhteen henkilöitä kuten Pierre Noizat tai Émilien Dutang.
@@ -1386,7 +1386,7 @@ Aluksi aiheesta alkoi ilmestyä videoita Youtubeen. 22. maaliskuuta ensimmäinen
 
 :::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 Huhtikuussa digitaalinen valuutta oli pääaiheena suurissa valtavirtamedioissa, kuten [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), ja [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). Toukokuussa liikehdintä sai vauhtia, ja Bitcoinista puhuttiin lähes kaikkialla, erityisesti [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency)ssa, [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html)ssa, [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124)ssa, ja [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/)issa.
-![Gavin Andresen Forbesissa huhtikuussa 2011](assets/en/68.webp)
+![Gavin Andresen Forbesissa huhtikuussa 2011](assets/en/068.webp)
 Gavin Andresen Forbesissa huhtikuussa 2011 (lähde: [Forbesin arkisto](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
 Myös radioa käytettiin kryptovaluutan keskusteluun. Kanadalaisen CBC Radion jakso oli [omistettu](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/) valuutan ja Bitcoinin aiheelle 27. helmikuuta. Bitcoin mainittiin myös useissa FreeTalkLive-ohjelman jaksoissa, joka on Yhdysvalloissa libertarianismiin suuntautunut ohjelma. Erityisesti aiheesta [keskusteltiin](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16) laajemmin 16. maaliskuuta 2011, erityisesti Silk Roadin nousun kontekstissa. Lopulta 24. toukokuuta Bitcoin oli aiheena [lyhyessä osiossa](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins) Yhdysvaltojen National Public Radiossa.
@@ -1396,12 +1396,12 @@ Myös yksittäiset bloggaajat ovat kiinnostuneita. Näin on Ruotsin Pirate Party
 
 Bitcoinin suosion kasvu tarkoittaa, että sen hinta nousee merkittävästi. Vaikka se oli laskenut 20 senttiin joulukuussa 2010, se saavutti dollarin pariteetin 9. helmikuuta 2011. Tuolloin Hal Finney [totesi](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307), että yhteisön jäsenet ovat "todella onnekkaita olla alussa mahdollisesti räjähdysmäisesti kasvavaa uutta ilmiötä". Hänellä oli hyvä vaisto, sillä seuraavaksi tapahtuu salamannopeasti.
 
-![Valokuva, jonka jimbobway julkaisi foorumilla dollarin pariteetin päivänä](assets/en/69.webp)
+![Valokuva, jonka jimbobway julkaisi foorumilla dollarin pariteetin päivänä](assets/en/069.webp)
 Valokuva julkaistu jimbobwayn toimesta foorumilla dollarin pariteetin päivänä (lähde: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 Todellakin, kevään mediahuuma johtaa vähitellen ennennäkemättömän spekulatiivisen ilmiön luomiseen. Hinnan pysähdyttyä noin $1 tasolle usean kuukauden ajan, se nousee ja saavuttaa $3 lopussa huhtikuussa. Toukokuussa se on $8. Lopulta, 8. kesäkuuta, bitcoinin hinta saavuttaa historiallisen korkean $32 Mt. Goxissa! Tämä nousu vastaa 160-kertaista kasvua 6 kuukaudessa.
 
-![BTC:n keskihinta 1. tammikuuta ja 30. kesäkuuta 2011 välisenä aikana](assets/en/70.webp)
+![BTC:n keskihinta 1. tammikuuta ja 30. kesäkuuta 2011 välisenä aikana](assets/en/070.webp)
 BTC:n keskihinta 1. tammikuuta ja 30. kesäkuuta 2011 välisenä aikana (lähde: [Bitbo.io](https://calendar.bitbo.io/price/))
 
 Luonnollisesti tämä spekulatiivinen liike muistuttaa finanssikuplaa, eli rahoitustuotteen yliarvostusta verrattuna sen perusarvoon. Bitcoinin kaltaisen valuutan tapauksessa kyse on ohimenevästä innostuksesta, joka johtaa huimaavaan hinnannousuun, minkä jälkeen seuraa jyrkkä lasku uusien osallistujien vakuuttuneisuuden puutteen vuoksi. Näin hinnan kehitystä [kuvataan](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/) "kuplaksi" Reutersin kolumnistin toimesta 27. toukokuuta, yhtenä ensimmäisistä Bitcoinin "nekrologeista".

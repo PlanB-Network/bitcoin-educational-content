@@ -1412,7 +1412,6 @@ Ao contrário de Rousseau, que procura erradicar o mal através de instituiçõe
 Frédéric Bastiat, no seu célebre panfleto "A Lei", denuncia a perversão do direito que consiste em legalizar, sob o nome de "solidariedade", aquilo a que, de facto, se deve chamar pilhagem. De facto, há uma contradição em querer impor a fraternidade através da lei, aquilo a que hoje chamaríamos "justiça social" ou solidariedade.
 
 
-![image](assets/en/114.webp)
 
 
 Porque a moral é definida como um comportamento voluntário. Quando um indivíduo é forçado a dar algo que não quer dar, está sempre a ser vítima de roubo.

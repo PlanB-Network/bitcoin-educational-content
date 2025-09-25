@@ -963,7 +963,6 @@ Deve essere chiarito che questo sviluppo del progresso attraverso la responsabil
 
 Frédéric Bastiat, nel suo famoso opuscolo "La Legge", denuncia la perversione della legge che consiste nel legalizzare, sotto il nome di "solidarietà", ciò che deve effettivamente essere chiamato saccheggio. Infatti, c'è una contraddizione nel voler imporre la fraternità attraverso la legge, ciò che oggi chiameremmo "giustizia sociale" o solidarietà.
 
-![image](assets/en/114.webp)
 
 Perché la moralità è definita come comportamento volontario. Quando a un individuo è costretto a dare qualcosa che non vuole dare, è sempre vittima di furto.
 

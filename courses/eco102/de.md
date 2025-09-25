@@ -1412,7 +1412,6 @@ Es muss klargestellt werden, dass diese Entwicklung des Fortschritts durch Veran
 Frédéric Bastiat prangert in seinem berühmten Pamphlet "Das Gesetz" die Perversion des Rechts an, die darin besteht, unter dem Namen "Solidarität" zu legalisieren, was in der Tat als Plünderung bezeichnet werden muss. Es ist in der Tat ein Widerspruch, die Brüderlichkeit durch das Gesetz erzwingen zu wollen, was wir heute "soziale Gerechtigkeit" oder Solidarität nennen würden.
 
 
-![image](assets/en/114.webp)
 
 
 Denn Moral wird als freiwilliges Verhalten definiert. Wenn eine Person gezwungen wird, etwas zu geben, was sie nicht geben will, ist sie immer das Opfer eines Diebstahls.

@@ -1412,7 +1412,6 @@ Tuleb täpsustada, et see vastutuse kaudu toimuv areng ei ole sugugi automaatne.
 Frédéric Bastiat mõistab oma kuulsas pamfletis "Õigus" hukka õiguse perverssuse, mis seisneb selles, et "solidaarsuse" nime all legaliseeritakse see, mida tuleb tõepoolest nimetada röövimiseks. Tõepoolest, on vastuolu, kui tahetakse õiguse kaudu kehtestada vendlust, mida me täna nimetaksime "sotsiaalseks õigluseks" või solidaarsuseks.
 
 
-![image](assets/en/114.webp)
 
 
 Sest moraali määratletakse kui vabatahtlikku käitumist. Kui inimest sunnitakse andma midagi, mida ta ei taha anda, on ta alati varguse ohver.

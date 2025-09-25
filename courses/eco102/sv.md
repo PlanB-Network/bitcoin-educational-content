@@ -1407,7 +1407,6 @@ Det måste klargöras att denna utveckling av framsteg genom ansvar inte på nå
 Frédéric Bastiat fördömer i sin berömda pamflett "Lagen" den pervertering av lagen som består i att under namnet "solidaritet" legalisera vad som verkligen måste kallas plundring. Det finns faktiskt en motsägelse i att vilja införa broderskap genom lag, det som vi i dag skulle kalla "social rättvisa" eller solidaritet.
 
 
-![image](assets/en/114.webp)
 
 
 Moral definieras nämligen som frivilligt beteende. När en individ tvingas att ge något som den inte vill ge är den alltid offer för stöld.

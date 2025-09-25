@@ -948,7 +948,6 @@ Harus dijelaskan bahwa pengembangan kemajuan melalui tanggung jawab sama sekali 
 
 Frédéric Bastiat, dalam pamflet terkenalnya "The Law," mengecam perbuatan memperdaya hukum yang terdiri dari melegalisasi, di bawah nama "solidaritas," apa yang memang harus disebut perampasan. Memang, ada kontradiksi dalam ingin memaksakan persaudaraan melalui hukum, apa yang kita sebut hari ini "keadilan sosial" atau solidaritas.
 
-![image](assets/en/114.webp)
 
 Karena moralitas didefinisikan sebagai perilaku sukarela. Ketika seseorang dipaksa untuk memberikan sesuatu yang tidak mereka inginkan, mereka selalu menjadi korban pencurian.
 

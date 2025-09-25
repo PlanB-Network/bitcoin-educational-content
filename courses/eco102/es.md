@@ -1412,7 +1412,6 @@ Hay que aclarar que este desarrollo del progreso a través de la responsabilidad
 Frédéric Bastiat, en su célebre opúsculo "El derecho", denuncia la perversión del derecho que consiste en legalizar, bajo el nombre de "solidaridad", lo que en realidad debe llamarse expolio. En efecto, hay una contradicción en querer imponer por ley la fraternidad, lo que hoy llamaríamos "justicia social" o solidaridad.
 
 
-![image](assets/en/114.webp)
 
 
 Porque la moralidad se define como un comportamiento voluntario. Cuando se obliga a un individuo a dar algo que no quiere dar, siempre es víctima de un robo.

@@ -1407,7 +1407,6 @@ Ni lazima ifafanuliwe kwamba maendeleo haya kwa njia ya uwajibikaji sio moja kwa
 Frédéric Bastiat, katika kijitabu chake maarufu "Sheria," analaani upotoshaji wa sheria unaojumuisha kuhalalisha, chini ya jina la "mshikamano," kile ambacho lazima kiitwe uporaji. Hakika, kuna mkanganyiko katika kutaka kulazimisha udugu kupitia sheria, kile tunachoweza kuita leo "haki ya kijamii" au mshikamano.
 
 
-![image](assets/en/114.webp)
 
 
 Kwa maana maadili hufafanuliwa kama tabia ya hiari. Wakati mtu binafsi analazimishwa kutoa kitu ambacho hataki kutoa, yeye huwa mwathirika wa wizi.

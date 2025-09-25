@@ -1412,7 +1412,6 @@ Det må presiseres at denne utviklingen av fremskritt gjennom ansvar på ingen m
 Frédéric Bastiat fordømmer i sin berømte pamflett "Loven" den pervertering av loven som består i å legalisere, under navnet "solidaritet", det som i virkeligheten må kalles plyndring. Det er faktisk en selvmotsigelse å ville innføre brorskap gjennom loven, det vi i dag ville kalle "sosial rettferdighet" eller solidaritet.
 
 
-![image](assets/en/114.webp)
 
 
 For moral er definert som frivillig atferd. Når et individ blir tvunget til å gi noe det ikke ønsker å gi, er det alltid et offer for tyveri.

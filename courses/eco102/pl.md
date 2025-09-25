@@ -1408,7 +1408,6 @@ Należy wyjaśnić, że rozwój postępu poprzez odpowiedzialność nie jest byn
 Frédéric Bastiat, w swoim słynnym pamflecie "Prawo", potępia wypaczenie prawa, które polega na legalizacji, pod nazwą "solidarności", tego, co w rzeczywistości należy nazwać grabieżą. Rzeczywiście, istnieje sprzeczność w chęci narzucenia braterstwa poprzez prawo, co dziś nazwalibyśmy "sprawiedliwością społeczną" lub solidarnością.
 
 
-![image](assets/en/114.webp)
 
 
 Moralność jest bowiem definiowana jako dobrowolne zachowanie. Kiedy jednostka jest zmuszana do oddania czegoś, czego nie chce, zawsze pada ofiarą kradzieży.

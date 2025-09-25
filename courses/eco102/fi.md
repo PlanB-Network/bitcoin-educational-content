@@ -1412,7 +1412,6 @@ On selvennettävä, että tämä vastuullisuuden kautta tapahtuva kehitys ei sui
 Frédéric Bastiat tuomitsee kuuluisassa pamfletissaan "Laki" lain vääristelyn, joka on "solidaarisuuden" nimissä laillistamista, jota on todellakin kutsuttava ryöstöksi. On todellakin ristiriitaista, että lain avulla halutaan saada aikaan veljeys, jota nykyään kutsuttaisiin "sosiaaliseksi oikeudenmukaisuudeksi" tai solidaarisuudeksi.
 
 
-![image](assets/en/114.webp)
 
 
 Sillä moraali määritellään vapaaehtoiseksi käyttäytymiseksi. Kun yksilö pakotetaan antamaan jotain, mitä hän ei halua antaa, hän on aina varkauden uhri.

@@ -933,7 +933,6 @@ Je nutné objasnit, že tento vývoj pokroku skrze odpovědnost není nijak auto
 
 Frédéric Bastiat ve svém slavném pamfletu "Zákon" odsuzuje perverzi zákona, která spočívá v legalizaci, pod názvem "solidarita", toho, co by se skutečně mělo nazývat loupeží. Skutečně existuje rozpor v tom, chtít uvalit bratrství prostřednictvím zákona, což bychom dnes nazvali "sociální spravedlnost" nebo solidarita.
 
-![image](assets/en/114.webp)
 
 Neboť morálka je definována jako dobrovolné chování. Když je jednotlivec nucen dát něco, co nechce dát, je vždy obětí krádeže.
 

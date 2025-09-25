@@ -1407,7 +1407,6 @@ Het moet duidelijk zijn dat deze ontwikkeling van vooruitgang door verantwoordel
 Frédéric Bastiat hekelt in zijn beroemde pamflet "De Wet" de perversie van het recht die bestaat uit het legaliseren, onder de naam van "solidariteit", van wat we inderdaad plundering moeten noemen. Er schuilt inderdaad een tegenstrijdigheid in het willen opleggen van broederschap door middel van de wet, wat we tegenwoordig "sociale rechtvaardigheid" of solidariteit zouden noemen.
 
 
-![image](assets/en/114.webp)
 
 
 Want moraliteit wordt gedefinieerd als vrijwillig gedrag. Wanneer een individu gedwongen wordt iets te geven wat hij niet wil geven, is hij altijd het slachtoffer van diefstal.

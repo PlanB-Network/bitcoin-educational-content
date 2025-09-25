@@ -1407,7 +1407,6 @@ Sorumluluk yoluyla ilerlemenin bu gelişiminin hiçbir şekilde otomatik olmadı
 Frédéric Bastiat, ünlü broşürü "The Law "da, aslında yağma olarak adlandırılması gereken şeyin "dayanışma" adı altında yasallaştırılmasından ibaret olan hukuk sapkınlığını kınamaktadır. Gerçekten de, bugün "sosyal adalet" ya da dayanışma olarak adlandırdığımız şeyi, hukuk yoluyla kardeşliğe dayatmak istemenin bir çelişkisi vardır.
 
 
-![image](assets/en/114.webp)
 
 
 Çünkü ahlak, gönüllü davranış olarak tanımlanır. Bir birey vermek istemediği bir şeyi vermeye zorlandığında, her zaman hırsızlığın kurbanı olur.

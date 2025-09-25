@@ -1407,7 +1407,6 @@ Mora se pojasniti da ovaj razvoj napretka kroz odgovornost ni u kom slučaju nij
 Frédéric Bastiat, u svom čuvenom pamfletu "Zakon" (The Law), osuđuje izopačenje zakona koje se sastoji u legalizaciji, pod imenom "solidarnost," onoga što se zaista mora nazvati pljačkom. Zaista, postoji kontradikcija u želji da se bratstvo nametne zakonom, što bismo danas nazvali "socijalna pravda" ili solidarnost.
 
 
-![image](assets/en/114.webp)
 
 
 Moralnost se definiše kao dobrovoljno ponašanje. Kada je pojedinac prisiljen da da nešto što ne želi da da, uvek je žrtva krađe.

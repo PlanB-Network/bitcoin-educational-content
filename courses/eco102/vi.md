@@ -1412,7 +1412,6 @@ Cần phải làm rõ rằng sự phát triển tiến bộ thông qua trách nh
 Frédéric Bastiat, trong cuốn sách nhỏ nổi tiếng "Luật pháp", đã lên án sự xuyên tạc luật pháp, bao gồm việc hợp pháp hóa, dưới danh nghĩa "đoàn kết", cái mà thực ra phải được gọi là cướp bóc. Thật vậy, có một mâu thuẫn trong việc muốn áp đặt tình huynh đệ thông qua luật pháp, cái mà ngày nay chúng ta gọi là "công lý xã hội" hay đoàn kết.
 
 
-![image](assets/en/114.webp)
 
 
 Bởi vì đạo đức được định nghĩa là hành vi tự nguyện. Khi một cá nhân bị ép buộc phải cho đi thứ họ không muốn cho đi, họ luôn là nạn nhân của hành vi trộm cắp.

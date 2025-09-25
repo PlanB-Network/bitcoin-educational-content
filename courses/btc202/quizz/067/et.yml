@@ -1,0 +1,9 @@
+question: Milliseid varukoopiaid on vaja Lightning-sõlme taastamiseks?
+answer: seed ja SCB
+wrong_answers:
+  - seed ja txindex-faili
+  - seed ja avalik IP Address
+  - seed ja 2FA
+explanation: |
+  Lightning-sõlme taastamiseks on vaja nii seed kui ka SCB (Static Channel Backup), ilma milleta ei ole võimalik kanali vahendeid taastada.
+reviewed: true

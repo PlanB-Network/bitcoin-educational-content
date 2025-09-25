@@ -1,5 +1,5 @@
 ---
-name: پروتون میل
+name: Proton Mail
 description: راه‌اندازی یک صندوق پستی امن
 ---
 ![cover](assets/cover.webp)

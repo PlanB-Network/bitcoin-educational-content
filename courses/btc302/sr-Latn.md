@@ -82,7 +82,7 @@ Ovaj značajan rast je, naravno, usko povezan sa:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/sr-Latn/001.webp)
 
 
 
@@ -227,7 +227,7 @@ Izgradnjom prvih "citadela" sutrašnjice, **Bitcoin zajednice širom sveta služ
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/sr-Latn/002.webp)
 
 
 
@@ -252,7 +252,7 @@ Meetupi nude ličnije i prijatnije iskustvo nego onlajn audio ili video pozivi. 
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/sr-Latn/003.webp)
 
 
 Bitcoin okupljanja mogu služiti mnogim svrhama:
@@ -314,7 +314,7 @@ Možete proveriti [btcmap.org](https://btcmap.org/communities/map#0/0/0/), koji 
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/sr-Latn/004.webp)
 
 
 
@@ -395,7 +395,7 @@ U zavisnosti od tema (tehnički razgovori ili praktične radionice), može čak 
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/sr-Latn/005.webp)
 
 
 
@@ -516,7 +516,7 @@ Da bismo vam dali neke ideje, evo nekoliko primera logotipa francuske zajednice:
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/sr-Latn/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Da bismo vam dali neke ideje, evo nekoliko primera logotipa francuske zajednice:
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/sr-Latn/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Da bismo vam dali neke ideje, evo nekoliko primera logotipa francuske zajednice:
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/sr-Latn/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Da bismo vam dali neke ideje, evo nekoliko primera logotipa francuske zajednice:
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/sr-Latn/009.webp)
 
 
 
@@ -615,7 +615,7 @@ Evo gotovi Canva predlošci koje možete duplicirati i prilagoditi za svoju zaje
 - **Najava okupljanja** (za društvene mreže i štampanje A4/A3): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
+![image](assets/sr-Latn/010.webp)
 
 
 
@@ -637,7 +637,7 @@ Evo gotovi Canva predlošci koje možete duplicirati i prilagoditi za svoju zaje
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/sr-Latn/011.webp)
 
 
 
@@ -659,10 +659,10 @@ Evo gotovi Canva predlošci koje možete duplicirati i prilagoditi za svoju zaje
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/sr-Latn/012.webp)
 
 
-![image](assets/fr/013.webp)
+![image](assets/sr-Latn/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Ako želite da dizajnirate futuristički logo za "Bitcoin London" okupljanje, mo
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/sr-Latn/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Ako prva četiri rezultata nisu dovoljno realistična, precizirajte svoj zahtev:
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/sr-Latn/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Za čistiji izgled, kao za nalepnicu:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/sr-Latn/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Na primer, švajcarske zajednice prvenstveno koriste Telegram, Twitter i svoj ve
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/sr-Latn/017.webp)
 
 
 
@@ -901,7 +901,7 @@ Zaista, **Telegram kanal je više kao jednosmerni alat za emitovanje za administ
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/sr-Latn/018.webp)
 
 
 
@@ -925,7 +925,7 @@ S druge strane, **Telegram grupa je idealna za zajednice**: Baš kao aplikacije 
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/sr-Latn/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Savet: Prilagodite svoje teme potrebama vaše zajednice. Primer: Abidjan Bitcoin
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/sr-Latn/020.webp)
 
 
 Imajte na umu da **Telegram supergrupe mogu biti pomalo nezgodne za korišćenje nekim članovima**. Na primer, ne znaju svi **kako da pristupe različitim temama** (samo treba da dodirnu logo grupe u glavnom meniju Telegrama da bi videli punu listu tema). Slanje brzog snimka ekrana može pomoći da se razjasni svaka zabuna.
@@ -1053,7 +1053,7 @@ Preporučuje se da **napišete jasan opis vašeg okupljanja** prilikom kreiranja
 
 > Pogledajte naše druge društvene mreže: [LINK] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/sr-Latn/021.webp)
 
 
 
@@ -1106,7 +1106,7 @@ Korišćenjem **bota [@GroupHelpBot](https://telegram.me/grouphelpbot)**, najkor
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/sr-Latn/022.webp)
 
 
 
@@ -1232,7 +1232,7 @@ To je ono što je uradio kolektiv FREE Madeira.
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/sr-Latn/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ Twitter je veoma lak za korišćenje, a da biste poboljšali svoju privatnost, p
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/sr-Latn/024.webp)
 
 
 
@@ -1328,7 +1328,7 @@ Evo nekoliko **ključnih stvari na koje se treba fokusirati kako biste povećali
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/sr-Latn/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Obroci **Cercle du Coin** su još jedan dobar primer.
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/sr-Latn/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ To uključuje:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/sr-Latn/027.webp)
 
 
 Druge platforme takođe mogu povećati vašu vidljivost. **[Meetup](https://www.meetup.com/)** je jedna od njih, i to je vebsajt (i aplikacija za telefon) gde možete kreirati događaj i pronaći druge u blizini.
@@ -1476,7 +1476,7 @@ Događaj poput ovog vam omogućava, na vašem nivou, da **stvorite uzbuđenje ok
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/sr-Latn/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ Umesto da sami birate datum, obično je najbolje **napraviti anketu oko deset da
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/sr-Latn/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Kada vaš sastanak tek počinje, često nije pravo vreme za formalnu prezentacij
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/sr-Latn/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ U prvom slučaju, dok imate na umu preferencije svih, jasan cilj može osigurati
 U drugom slučaju, drugi mesečni događaj mogao bi biti posvećen određenoj temi, kao što su sesije za početnike ili radionice (Mining, Lightning, instalacija nodova, itd.).
 
 
-![image](assets/fr/031.webp)
+![image](assets/sr-Latn/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ Pored toga, ovde su tri važne tačke koje treba imati na umu:
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/sr-Latn/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Kontaktirajte lokaciju na kojoj ćete održati događaj i rezervišite je za pro
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/sr-Latn/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Evo šta treba uraditi:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/sr-Latn/034.webp)
 
 
 
@@ -1762,7 +1762,7 @@ Da biste bili sigurni da se svi osećaju uključeno na vašim događajima, fokus
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/sr-Latn/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ Ključ je jednostavno biti svestan toga.
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/sr-Latn/036.webp)
 
 
 
@@ -1905,7 +1905,7 @@ U zavisnosti od vaše dostupnosti i nivoa angažovanosti u vašoj zajednici, mo�
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/sr-Latn/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Pre nego što naručite, imajte na umu ove savete:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/sr-Latn/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Ako vodite udruženje i želite da investirate deo svojih sredstava u obrazovne 
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/sr-Latn/039.webp)
 
 
 Da podrži ekosistem, **[izdavač Konsensus Network](https://konsensus.network/) nudi međunarodnim Bitcoin okupljanjima i zajednicama popust od 15% do 35% na sve svoje knjige od kraja 2023. godine, za narudžbine od tri knjige ili više**.
@@ -1997,7 +1997,7 @@ Evo jednog primera otvorenog koda koji možete koristiti i prilagoditi:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/sr-Latn/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Jedan primer je [potpuno dokumentovan flajer](https://profedustream.substack.com
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/sr-Latn/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/sr-Latn/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ U Francuskoj i nekoliko drugih zemalja postoje i "kutije za knjige", male drvene
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/sr-Latn/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/sr-Latn/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Evo [brošura koju dele francuski bitkoineri](https://profedustream.substack.com
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/sr-Latn/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/sr-Latn/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Neki bitkoineri su čak preuzeli inicijativu da u potpunosti prevedu "Stranded" 
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/sr-Latn/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Jedan primer je [StreetCyberArt](https://twitter.com/streetcyber_art), nemački 
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/sr-Latn/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Takođe imajte na umu da štampanje ovih postera na ličnom štampaču obično d
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/sr-Latn/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Ako želite da naručite više od 50 NFC kartica, možete kontaktirati kompaniju
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/sr-Latn/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Koji god da izabereš, dizajniraj vizuale specifične za platformu kako bi tvoj 
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/sr-Latn/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Nekoliko šablona za bedževe koje koristi udruženje Bitcoin Lille su [dostupne
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/sr-Latn/052.webp)
 
 
 
@@ -2400,7 +2400,7 @@ To je rečeno, ovo nije lak poduhvat: zahteva motivaciju, trud i prave veze.
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/sr-Latn/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Ipak, vredi pokušati, posebno sa studentskim unijama i udruženjima. A ko zna? 
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/sr-Latn/054.webp)
 
 
 
@@ -2450,7 +2450,7 @@ Svaki trgovac je drugačiji, i njihovo uključivanje dolazi sa sopstvenim nizom 
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/sr-Latn/055.webp)
 
 
 
@@ -2500,7 +2500,7 @@ Nakon što su na brodu:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/sr-Latn/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Budite svesni, medijski intervjui mogu biti nezgodni. Reči mogu biti izvučene 
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/sr-Latn/057.webp)
 
 
 
@@ -2613,7 +2613,7 @@ Dobar primer je **[Bitcoin Lille-ov pravilnik otvorenog koda](https://bitcoinlil
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/sr-Latn/058.webp)
 
 
 
@@ -2700,7 +2700,7 @@ Koristite **šifrovane ili anonimne komunikacione alate** kako biste zaštitili 
 Dana 5. aprila 1933. godine, Frenklin Ruzvelt, 32. predsednik Sjedinjenih Američkih Država, potpisao je **Izvršnu naredbu 6102**, čime je postalo nezakonito da privatna lica poseduju zlatne kovanice, poluge ili sertifikate bilo gde u zemlji.
 
 
-![image](assets/fr/059.webp)
+![image](assets/sr-Latn/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ Ne moramo upadati u teorije zavere. Ali ništa nas ne sprečava da predviđamo, 
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/sr-Latn/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Pošto je naše vreme ograničeno, ključ je ostati skroman, nastaviti sa učenj
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/sr-Latn/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ Umesto toga, **potražite pomoć od bitkoinera koji su već prošli istim tunelo
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/sr-Latn/062.webp)
 
 
 
@@ -2897,7 +2897,7 @@ Za ovo ćemo se osloniti na iskustva zajednica koje su već kreirale sopstvene d
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/sr-Latn/063.webp)
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: ヌンチャク
+name: Nunchuk
 description: すべての人に適したWalletモバイル
 ---
 ![cover](assets/cover.webp)

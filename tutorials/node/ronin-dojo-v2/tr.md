@@ -532,7 +532,7 @@ Samourai Wallet ve RoninDojo v2 ile coinjoining sürecinde size A'dan Z'ye adım
 CoinJoin'i ve Bitcoin'da kullanımını daha iyi anlamak için sizi bu diğer makaleye de bakmaya davet ediyorum: CoinJoin'i Bitcoin üzerinde anlamak ve kullanmak, bu teknik hakkında bilmeniz gereken her şeyi detaylandırıyorum.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Whirlpool İstatistik Aracını (WST) Kullanma
 

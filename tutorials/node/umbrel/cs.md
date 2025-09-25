@@ -1,5 +1,5 @@
 ---
-name: Deštník
+name: Umbrel
 description: Objevte a nainstalujte Umbrel - Váš uzel Bitcoin a domovský server
 ---
 

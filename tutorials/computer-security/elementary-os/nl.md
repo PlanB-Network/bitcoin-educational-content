@@ -1,5 +1,5 @@
 ---
-name: Elementaire OS
+name: Elementary OS
 description: De ideale vervanging voor Windows en MacOS
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Pi-Delik
+name: Pi-Hole
 description: Tüm ağınız için bir reklam engelleyici
 ---
 ![cover](assets/cover.webp)

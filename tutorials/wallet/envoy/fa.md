@@ -1,5 +1,5 @@
 ---
-name: فرستاده
+name: Envoy
 description: راه‌اندازی و استفاده از پاسپورت با برنامه Envoy
 ---
 ![cover](assets/cover.webp)

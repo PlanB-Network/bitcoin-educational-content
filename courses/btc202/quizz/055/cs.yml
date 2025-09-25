@@ -1,0 +1,9 @@
+question: Jaké tři možnosti serveru jsou k dispozici v Sparrow?
+answer: Veřejný server, Bitcoin core, Soukromý Electrum
+wrong_answers:
+  - RPC Direct, VPN, Tor
+  - Full node, lehký uzel, mobilní uzel
+  - Jádro RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow nabízí tři možnosti serverů: Veřejný server, Bitcoin core (RPC) a soukromý Electrum.
+reviewed: true

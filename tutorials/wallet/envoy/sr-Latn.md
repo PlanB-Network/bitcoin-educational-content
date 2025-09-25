@@ -1,5 +1,5 @@
 ---
-name: Izaslanik
+name: Envoy
 description: Postavljanje i korišćenje Passport-a sa Envoy aplikacijom
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Nhập Auth
+name: Ente Auth
 description: Trình xác thực 2FA mã nguồn mở, được mã hóa đầu cuối
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Blockstream 应用程序 - 桌面
+name: Blockstream App - Desktop
 description: 如何在电脑上使用带有 Blockstream 应用程序的 Hardware Wallet？
 ---
 ![cover](assets/cover.webp)
@@ -534,7 +534,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **限制**：
     - RBF 不适用于 Liquid 或 Lightning 交易。
     - 初始交易必须标记为与 RBF 兼容，Blockstream App 会自动进行标记。
-- 更多信息，请参见 [我们的术语表](https://planb.network/resources/glossary/RBF-replacebyfee)。
+- 更多信息，请参见 [我们的术语表](https://planb.network/resources/glossary/rbf-replacebyfee)。
 
 
 
@@ -630,7 +630,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[术语表](https://planb.network/fr/resources/glossary/Liquid-network)
+[术语表](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 

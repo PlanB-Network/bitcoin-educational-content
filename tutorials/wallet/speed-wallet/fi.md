@@ -1,5 +1,5 @@
 ---
-name: Nopeus Wallet
+name: Speed Wallet
 description: Maksa ja Exchange bitcoineilla ja USDT:llä heti
 ---
 ![cover](assets/cover.webp)

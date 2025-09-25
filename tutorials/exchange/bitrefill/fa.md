@@ -1,5 +1,5 @@
 ---
-name: بیت‌رفیل
+name: Bitrefill
 description: چگونه با استفاده از Bitrefill کالا و خدمات را با BTC خریداری کنیم؟
 ---
 ![cover](assets/cover.webp)

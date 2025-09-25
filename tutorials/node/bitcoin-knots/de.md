@@ -1,5 +1,5 @@
 ---
-name: Bitcoin-Knoten
+name: Bitcoin Knots
 description: Wie starte ich einen Knoten mit dem alternativen Bitcoin-Knoten-Client?
 ---
 ![cover](assets/cover.webp)

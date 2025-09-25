@@ -1,5 +1,5 @@
 ---
-name: GitHub skrivbord
+name: GitHub Desktop
 description: Hur ställer man in den lokala arbetsmiljön?
 ---
 ![github](assets/cover.webp)

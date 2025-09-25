@@ -1,5 +1,5 @@
 ---
-name: Flaş
+name: Flash
 description: Lightning'in gücü sayesinde 100 CFA frankından bitcoin satın alın.
 ---
 

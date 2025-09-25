@@ -1,5 +1,5 @@
 ---
-name: Alby Browseruitbreiding
+name: Alby
 
 description: Browseruitbreiding voor de Bitcoin en Lightning Network
 ---

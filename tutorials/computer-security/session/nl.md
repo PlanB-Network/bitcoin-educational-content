@@ -1,5 +1,5 @@
 ---
-name: Sessie
+name: Session
 description: Versleutelde berichten verzenden, geen metagegevens
 ---
 ![cover](assets/cover.webp)

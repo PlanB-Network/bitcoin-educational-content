@@ -8282,16 +8282,24 @@ Ni muhimu kuchagua vifaa vya kisasa, vinavyotunzwa na mtengenezaji wake, na vina
 Kipanga njia kinachooana na Wi-Fi 6, Wi-Fi 6E au Wi-Fi 7 kitakupa kasi iliyoboreshwa na zaidi ya yote, usaidizi asilia kwa teknolojia za kisasa za usalama. Kinyume chake, vifaa vya zamani sana, haswa ambavyo havipokei tena sasisho za programu, vinaweza kuwa na udhaifu unaojulikana, ambao haujadhibitiwa. Kwa hivyo zinawakilisha hatari kwa mtandao wako wote, hata ikiwa utazisanidi kwa usahihi. Ikilinganishwa na simu za rununu au kompyuta, vipanga njia ni vifaa ambavyo huwa tunahifadhi kwa miaka mingi. Hata hivyo, inaweza kuwa wazo nzuri kuchukua nafasi yao mara kwa mara, ili kufaidika na mfano wa kisasa zaidi, salama zaidi.
 
 
+**Tahadhari**: Kwa ujumla, ruta zinazotolewa na watoa huduma za intaneti zinaweza kukosa kipengele muhimu cha masasisho pamoja na uwezo wa kubinafsisha. Katika baadhi ya visa, watoa huduma wanaweza pia kuwa na ufikiaji usio na kikomo kwenye mtandao wa ndani wa mtumiaji wa mwisho.
+
 Kwa hivyo hakikisha unasasisha kwa utaratibu firmware ya kipanga njia chako. Masasisho haya husahihisha udhaifu, ongeza vipengele vipya na uimarishe uthabiti wa jumla wa mfumo. Watengenezaji wengine hutoa sasisho za kiotomatiki, lakini katika hali zingine utahitaji kuangalia mwenyewe kupitia zana ya usimamizi ya kipanga njia chako cha Interface. Kama ilivyo kwa simu yako, kompyuta, mfumo wa uendeshaji na programu, ni muhimu kusasisha kipanga njia chako mara kwa mara. Unaweza kufanya sehemu hii ya utaratibu wako wa kila wiki - Kila Jumapili, kwa mfano - kwa kuandaa orodha ya vitu vyote unahitaji kuangalia na kusasisha.
 
 
-Ikiwa kipanga njia chako hakitunzwa tena lakini bado kinafanya kazi kwa usahihi kutoka kwa mtazamo wa maunzi, unaweza kusakinisha programu mbadala ya chanzo-wazi, kama vile:
+Badala, unaweza kuwezesha masasisho ya moja kwa moja au angalau skanning moja kwa moja kwa masasisho mapya ya firmware ikiwa unapendelea kuchukua hatua kwa mikono. Ingawa kipengele cha masasisho ya moja kwa moja bado kinaweza kuleta tishio la usalama, kushindwa kusasisha firmware ya router yako mara kwa mara kutaweka mtandao wako wa ndani wazi kwa udhaifu unaojulikana hadharani.
+
+**Mfano**: Unaponunua router yako mwenyewe, inaweza kuwa wazo zuri kutafuta kampuni zilizoanzishwa ndani ya tasnia ambazo zimekuwa zikiwapa soko routers kwa muda mrefu. Kwa mfano, routers za Fritz!Box zina sifa ya muda mrefu kama vifaa za plug-and-play, vinavyofaa kwa matumizi katika mazingira ya familia na kampuni ndogo. Sera yao ya masasisho ya programu kawaida inaonekana kwa miaka kadhaa.
+
+Ikiwa router yako haendelezwi tena lakini bado inafanya kazi kwa usahihi kwa upande wa vifaa, huenda ukaweza kusakinisha firmware mbadala ya open-source, kama:
 
 
 
 - OpenWrt, usambazaji wa Linux unaobobea katika ruta, unaotoa unyumbufu mkubwa na masasisho ya mara kwa mara
 - pfSense na OPNsense, mifumo miwili ya FreeBSD (Unix-kama) ya ngome za x86 na vipanga njia.
 
+
+**Kumbuka**: Baadhi ya ISP hutoa wateja wao mara nyingi router za jumla zinazotengenezwa na kampuni moja inayowahudumia ISP mbalimbali duniani kote. Unaweza kugundua kuwa ili kusakinisha moja ya firmware mbadala kwenye router, mtu mwingine tayari ameweza kugundua jinsi ya kufanya hivyo, hata kama wako upande mwingine wa dunia.
 
 ![Image](assets/fr/196.webp)
 

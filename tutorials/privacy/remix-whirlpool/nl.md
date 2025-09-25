@@ -80,7 +80,7 @@ Daarom beschouw ik het gebruik van Whirlpool als bijzonder relevant in een `HODL
 Ik hoop dat dit antwoord wat licht heeft geworpen op het Whirlpool model. Als je meer wilt weten over hoe coinjoins werken op Bitcoin, raad ik je aan mijn uitgebreide artikel over dit onderwerp te lezen:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Externe bronnen:**
 

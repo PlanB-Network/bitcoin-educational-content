@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Trezor Wallet cihazıma nasıl passphrase ekleyebilirim?
 ---
 ![cover](assets/cover.webp)

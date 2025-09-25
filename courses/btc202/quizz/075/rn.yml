@@ -1,0 +1,9 @@
+question: Ni kuki ubunini bw’umugwi wa UTXO bukunda gukura mu mibumbe uko igihe kigenda kirarenga?
+answer: Igihe cose umuntu yishuye muri rusangi, arema UTXO zibiri nshasha .
+wrong_answers:
+  - Ivyishyurwa bisanzwe ntibikoresha UTXO mu vyo winjiza
+  - Buri Fork igwiza umubare w'ama UTXO ariho .
+  - Umubare w'ama bitcoins ashobora kuremwa nta n'iherezo .
+explanation: |
+  Igikorwa kijanye n’ukwishura gifata UTXO imwe kandi kenshi kigasubira kurema zibiri (ukwishura + Exchange), kigatuma ubunini bwose bw’ivyo bikoresho butera imbere.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Navegador Orion
+name: Orion Browser
 description: ¿Cómo utilizar Orion Browser para proteger tu privacidad en Mac y iPhone?
 ---
 

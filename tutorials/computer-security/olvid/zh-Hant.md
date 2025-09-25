@@ -1,5 +1,5 @@
 ---
-name: 奧爾維德
+name: Olvid
 description: 每個人的私人訊息
 ---
 ![cover](assets/cover.webp)

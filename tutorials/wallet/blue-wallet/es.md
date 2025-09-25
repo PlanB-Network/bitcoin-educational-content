@@ -1,5 +1,5 @@
 ---
-name: Azul Wallet
+name: Blue Wallet
 
 description: Bitcoin Cartera radicalmente sencilla y potente
 ---

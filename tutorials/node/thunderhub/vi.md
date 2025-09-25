@@ -1,5 +1,5 @@
 ---
-name: Sấm sét
+name: ThunderHub
 description: Interface Lightning node quản lý web LND
 ---
 ![cover](assets/cover.webp)

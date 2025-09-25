@@ -66,7 +66,7 @@ Whirlpool byl navržen s ohledem na dvě důležité požadavky:
 Tyto imperativy vedly vývojáře Samourai Wallet při návrhu Whirlpool k omezení počtu účastníků na cyklus. Příliš málo účastníků by ohrozilo efektivitu coinjoinu, drasticky snížilo by se množství generovaných anonsetů v každém cyklu, zatímco příliš mnoho účastníků by představovalo problémy s řízením na mobilních aplikacích a brzdilo by tok cyklů.
 **Nakonec není potřeba mít vysoký počet účastníků na coinjoin v Whirlpool, protože anonsety jsou dosaženy akumulací několika cyklů coinjoin.**
 
-[-> Zjistěte více o anonsetech Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Zjistěte více o anonsetech Whirlpool.
 
 ### Pooly a poplatky za coinjoin
 Aby tyto několik cyklů skutečně zvýšilo anonsety smíchaných mincí, musí být stanoven určitý rámec pro omezení použitých částek UTXO. Whirlpool tak definuje různé pooly.
@@ -371,7 +371,7 @@ Ujistěte se, že váš SCODE byl správně zaregistrován kliknutím ještě je
 
 ## Jak poznat kvalitu našich cyklů coinjoin?
 Pro skutečně účinný coinjoin je zásadní, aby prokázal dobrou uniformitu mezi částkami vstupů a výstupů. Tato uniformita zvyšuje počet možných interpretací v očích vnějšího pozorovatele, čímž zvyšuje nejistotu obklopující transakci. Pro kvantifikaci této nejistoty generované coinjoinem lze využít výpočet entropie transakce. Pro hlubší průzkum těchto ukazatelů vás odkazuji na tutoriál: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Model Whirlpool je uznáván jako ten, který přináší nejvíce homogenity coinjoinům.
-Dále je hodnocen výkon několika cyklů coinjoin na základě rozsahu skupin, ve kterých je mince skryta. Velikost těchto skupin definuje, co se nazývá anonsety. Existují dva typy anonsetů: první hodnotí získané soukromí proti retrospektivní analýze (z přítomnosti do minulosti) a druhý proti prospektivní analýze (z minulosti do přítomnosti). Pro podrobné vysvětlení těchto dvou ukazatelů vás zvu, abyste si přečetli tutoriál: [WHIRLPOOL STATS TOOLS - ANONSETY](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+Dále je hodnocen výkon několika cyklů coinjoin na základě rozsahu skupin, ve kterých je mince skryta. Velikost těchto skupin definuje, co se nazývá anonsety. Existují dva typy anonsetů: první hodnotí získané soukromí proti retrospektivní analýze (z přítomnosti do minulosti) a druhý proti prospektivní analýze (z minulosti do přítomnosti). Pro podrobné vysvětlení těchto dvou ukazatelů vás zvu, abyste si přečetli tutoriál: WHIRLPOOL STATS TOOLS - ANONSETY
 ## Jak spravovat postmix?
 Po provedení cyklů coinjoin je nejlepší strategií nechat vaše UTXO na účtu **postmix**, čekající na jejich budoucí použití. Je dokonce doporučeno nechat je remixovat nekonečně, dokud je nepotřebujete utratit.
 
@@ -402,6 +402,7 @@ Podrobné tutoriály k implementaci těchto různých technik budou brzy nabíze
 - [Dokumentace Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter vlákno o coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Blogový příspěvek o coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

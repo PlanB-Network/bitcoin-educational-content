@@ -4,7 +4,7 @@ description: Cài đặt node Bitcoin RoninDojo v2 trên Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***CẢNH BÁO:** Sau vụ bắt giữ các nhà sáng lập của Samourai Wallet và việc tịch thu máy chủ của họ vào ngày 24 tháng 4, một số tính năng của RoninDojo, như Whirlpool, không còn hoạt động. Tuy nhiên, có khả năng những công cụ này sẽ được khôi phục hoặc ra mắt lại theo cách khác trong những tuần tới. Ngoài ra, do mã nguồn của RoninDojo được lưu trữ trên GitLab của Samourai, cũng đã bị tịch thu, hiện tại không thể tải xuống mã nguồn từ xa. Các đội ngũ RoninDojo có khả năng đang làm việc để tái xuất bản mã nguồn.*
+**CẢNH BÁO:** Sau vụ bắt giữ các nhà sáng lập của Samourai Wallet và việc tịch thu máy chủ của họ vào ngày 24 tháng 4, một số tính năng của RoninDojo, như Whirlpool, không còn hoạt động. Tuy nhiên, có khả năng những công cụ này sẽ được khôi phục hoặc ra mắt lại theo cách khác trong những tuần tới. Ngoài ra, do mã nguồn của RoninDojo được lưu trữ trên GitLab của Samourai, cũng đã bị tịch thu, hiện tại không thể tải xuống mã nguồn từ xa. Các đội ngũ RoninDojo có khả năng đang làm việc để tái xuất bản mã nguồn.*
 
 _Chúng tôi đang theo dõi sát sao các diễn biến của vụ việc này cũng như các công cụ liên quan. Hãy yên tâm rằng chúng tôi sẽ cập nhật hướng dẫn này khi có thông tin mới._
 
@@ -12,7 +12,7 @@ _Hướng dẫn này được cung cấp chỉ dành cho mục đích giáo dụ
 
 ---
 
-> "*Sử dụng Bitcoin một cách riêng tư.*"
+> Sử dụng Bitcoin một cách riêng tư.
 
 Trong một hướng dẫn trước đây, chúng tôi đã giải thích quy trình cài đặt và sử dụng RoninDojo v1. Tuy nhiên, trong năm qua, các đội ngũ RoninDojo đã ra mắt phiên bản 2 của họ, đánh dấu một bước ngoặt quan trọng trong kiến trúc phần mềm. Thực tế, họ đã chuyển từ phân phối Linux Manjaro sang Debian. Do đó, họ không còn cung cấp hình ảnh được cấu hình sẵn cho việc cài đặt tự động trên Raspberry Pi. Nhưng vẫn còn một phương pháp để tiến hành cài đặt thủ công. Đây là phương pháp tôi đã sử dụng cho node của mình, và từ đó, RoninDojo v2 đã hoạt động tuyệt vời trên Raspberry Pi 4 của tôi. Vì vậy, tôi đang cung cấp một hướng dẫn mới về cách cài đặt thủ công RoninDojo v2 trên Raspberry Pi.
 
@@ -323,7 +323,7 @@ Một hướng dẫn chi tiết đang được chuẩn bị để hướng dẫn
 
 Để hiểu sâu hơn về trộn coin và cách sử dụng nó trên Bitcoin, tôi cũng mời bạn tham khảo bài viết khác: Hiểu và sử dụng trộn coin trên Bitcoin - Understanding and using coinjoin on Bitcoin, nơi tôi chi tiết hoá mọi thứ bạn cần biết về kỹ thuật này.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Sử dụng công cụ Whirlpool Stat Tool (WST)
 
@@ -510,3 +510,4 @@ Về các tab khác có sẵn trên bảng điều khiển RoninUI của bạn:
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/giới thiệu-boltzmann-85930984a159](https://medium.com/@laurentmt/giới thiệu-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

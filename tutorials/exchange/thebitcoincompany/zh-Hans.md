@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 公司
+name: The Bitcoin Company
 description: 如何使用 The Bitcoin Company 购买 BTC 中的商品和服务？
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Który opcjonalny indeks można aktywować w Bitcoin core, aby znaleźć transakcję według jej txid?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - electrumindex
+explanation: |
+  Opcja txindex=1 służy do odpytywania transakcji według jej unikalnego identyfikatora (txid).
+reviewed: true

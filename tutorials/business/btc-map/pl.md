@@ -1,5 +1,5 @@
 ---
-name: Mapa BTC
+name: BTC Map
 description: Znajdź miejsca, w których możesz spędzić Sats
 ---
 ![cover](assets/cover.webp)

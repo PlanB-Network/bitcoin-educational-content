@@ -1,5 +1,5 @@
 ---
-name: Guarda-chuva
+name: Umbrel
 description: Descubra e instale o Umbrel - Seu nó Bitcoin e servidor doméstico
 ---
 

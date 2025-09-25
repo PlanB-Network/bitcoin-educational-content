@@ -1,5 +1,5 @@
 ---
-name: Rychlost Wallet
+name: Speed Wallet
 description: Platit a Exchange v bitcoinech a USDT okamžitě
 ---
 ![cover](assets/cover.webp)

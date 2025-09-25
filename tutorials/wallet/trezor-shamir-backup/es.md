@@ -1,5 +1,5 @@
 ---
-name: Respaldo Trezor Shamir
+name: Trezor Shamir Backup
 description: Frases Mnemonic monopartitas y multipartitas en Trezor
 ---
 ![cover](assets/cover.webp)

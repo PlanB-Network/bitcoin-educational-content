@@ -1,5 +1,5 @@
 ---
-name: SatoshiのWallet
+name: Wallet of Satoshi
 description: 最もシンプルなカストーディアルWallet
 ---
 ![cover](assets/cover.webp)

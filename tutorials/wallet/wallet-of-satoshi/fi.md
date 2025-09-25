@@ -1,5 +1,5 @@
 ---
-name: Wallet ja Satoshi
+name: Wallet of Satoshi
 description: Yksinkertaisin huoltajien Wallet, jolla pääsee alkuun
 ---
 ![cover](assets/cover.webp)

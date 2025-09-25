@@ -1,5 +1,5 @@
 ---
-name: मुल्वाड ब्राउज़र
+name: Mullvad Browser
 description: गोपनीयता के लिए Mullvad ब्राउज़र का उपयोग कैसे करें
 ---
 

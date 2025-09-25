@@ -1,5 +1,5 @@
 ---
-name: Paspoort kern
+name: Passport Core
 description: De Passport Hardware Wallet configureren en gebruiken in handmatige modus
 ---
 ![cover](assets/cover.webp)

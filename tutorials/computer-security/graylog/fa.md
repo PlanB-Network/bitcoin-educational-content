@@ -1,5 +1,5 @@
 ---
-name: گری‌لاگ
+name: Graylog
 description: به‌سادگی لاگ‌های خود را متمرکز و تحلیل کنید
 ---
 ![cover](assets/cover.webp)

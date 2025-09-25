@@ -1,5 +1,5 @@
 ---
-name: Barua ya Protoni
+name: Proton Mail
 description: Kuweka kisanduku cha barua kilicho salama
 ---
 ![cover](assets/cover.webp)

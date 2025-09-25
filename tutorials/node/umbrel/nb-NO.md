@@ -1,5 +1,5 @@
 ---
-name: Paraply
+name: Umbrel
 description: Oppdag og installer Umbrel - din Bitcoin-node og hjemmeserver
 ---
 

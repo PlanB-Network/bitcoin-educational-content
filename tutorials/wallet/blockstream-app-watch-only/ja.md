@@ -1,5 +1,5 @@
 ---
-name: ブロックストリームアプリ - 時計専用
+name: Blockstream App - Watch-Only
 description: Blockstream AppでWatch-only walletを設定するには？
 ---
 

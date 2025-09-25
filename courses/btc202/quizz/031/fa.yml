@@ -1,0 +1,9 @@
+question: کدام توزیع برای Raspberry Pi مناسب‌تر است، زیرا به‌ویژه سبک است؟
+answer: راسپی‌بلیتز
+wrong_answers:
+  - آمبرل
+  - مای‌نود
+  - شروع9
+explanation: |
+  RaspiBlitz برای Raspberry Pi بهینه‌سازی شده و سبک باقی می‌ماند، برخلاف Umbrel که برای این دستگاه‌ها بیش از حد سنگین شده است.
+reviewed: true

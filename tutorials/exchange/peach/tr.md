@@ -1,5 +1,5 @@
 ---
-name: Şeftali
+name: Peach
 description: Peach kullanımı ve bitcoin alışverişi için eksiksiz kılavuz P2P
 ---
 ![cover](assets/cover.webp)

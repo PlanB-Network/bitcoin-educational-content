@@ -1,5 +1,5 @@
 ---
-name: ルクス
+name: LUKS
 description: LUKSとcryptsetupによるUSBフラッシュドライブの暗号化
 ---
 ![cover](assets/cover.webp)

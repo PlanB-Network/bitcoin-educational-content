@@ -1,5 +1,5 @@
 ---
-name: Zen-selain
+name: Zen Browser
 description: Kuinka käyttää Zen Browseria tuottavaan ja luottamukselliseen selaamiseen?
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: タンドー
+name: Tando
 description: ケニアのどこでもBitcoinを過ごす。
 ---
 

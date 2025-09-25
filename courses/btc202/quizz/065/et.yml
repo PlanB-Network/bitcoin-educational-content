@@ -1,0 +1,9 @@
+question: Milline on esimene samm, mida teha Umbrelil esineva vea korral?
+answer: generate diagnostikapakett
+wrong_answers:
+  - Paigaldage Bitcoin core uuesti ja tehke IBD uuesti
+  - Tühjenda vahemälu
+  - 2FA väljalülitamine
+explanation: |
+  Probleemi korral alustame diagnostikakomplekti loomisega tõrkeotsingu sektsioonis, et analüüsida probleemi ja pidada arvestust.
+reviewed: true

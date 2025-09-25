@@ -1,5 +1,5 @@
 ---
-name: Persika
+name: Peach
 description: Komplett guide till att använda Peach och växla bitcoins P2P
 ---
 ![cover](assets/cover.webp)

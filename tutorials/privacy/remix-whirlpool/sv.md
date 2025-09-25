@@ -80,7 +80,7 @@ Det är därför jag anser att användningen av Whirlpool är särskilt relevant
 Jag hoppas att detta svar har kastat lite ljus över Whirlpool-modellen. Om du vill lära dig mer om hur coinjoins fungerar på Bitcoin rekommenderar jag att du läser min omfattande artikel om detta ämne:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Externa resurser:**
 

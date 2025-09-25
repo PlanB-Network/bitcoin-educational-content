@@ -73,7 +73,7 @@ Standardmäßig ist die Minibits-Münze aktiviert, wenn Sie die App starten. Ein
 
 Die Sicherung ist wohl der wichtigste Schritt im gesamten Einrichtungsprozess. Um auf die Backup-Optionen zuzugreifen, navigieren Sie zu `Einstellungen`-> `Backup` Hier finden Sie zwei wichtige Optionen:
 
-1. ihr seed-Satz, der 12 Wörter enthält, mit denen Sie Ihr Guthaben im Falle eines Geräteverlusts wiederherstellen können. Dieser seed-Satz ist Ihr Hauptschlüssel für das gesamte Bargeld aller Münzstätten, die Sie hinzugefügt haben. Schreiben Sie ihn auf ein physisches Medium (Papier oder Metall) und bewahren Sie ihn sicher an mehreren Orten auf. Bewahren Sie Ihren seed-Schlüssel niemals digital auf, wo er kompromittiert werden könnte. Besuchen Sie diese [Anleitung] (https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), um sich über die besten Praktiken zur Sicherung Ihres Wallet zu informieren.
+1. ihr seed-Satz, der 12 Wörter enthält, mit denen Sie Ihr Guthaben im Falle eines Geräteverlusts wiederherstellen können. Dieser seed-Satz ist Ihr Hauptschlüssel für das gesamte Bargeld aller Münzstätten, die Sie hinzugefügt haben. Schreiben Sie ihn auf ein physisches Medium (Papier oder Metall) und bewahren Sie ihn sicher an mehreren Orten auf. Bewahren Sie Ihren seed-Schlüssel niemals digital auf, wo er kompromittiert werden könnte. Besuchen Sie diese [Anleitung] (https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270), um sich über die besten Praktiken zur Sicherung Ihres Wallet zu informieren.
 
 2. gW-28-Sicherung", die eine lange Sicherungszeichenfolge enthält.
 

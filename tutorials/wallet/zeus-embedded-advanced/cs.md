@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - Pokročilý
+name: Zeus Embedded - Pokročilé
 description: Víceuzlová samosprávná Lightning peněženka
 ---
 

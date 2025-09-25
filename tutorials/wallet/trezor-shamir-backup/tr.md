@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamir Yedekleme
+name: Trezor Shamir Backup
 description: Trezor'da tek paylaşımlı ve çok paylaşımlı Mnemonic ifadeleri
 ---
 ![cover](assets/cover.webp)

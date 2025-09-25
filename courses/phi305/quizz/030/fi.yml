@@ -1,0 +1,9 @@
+question: Kuka sanoo, että "ihminen ei ole valtakunta valtakunnan sisällä"?
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Spinoza väitti, että "ihminen ei ole imperiumi imperiumin sisällä". Tämä lause ilmaisee ajatuksen siitä, että ihminen ei ole erillään luonnosta, vaan sen erottamaton osa, joka on samojen lakien alainen.
+reviewed: false

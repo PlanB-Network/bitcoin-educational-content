@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Узлы
+name: Bitcoin Knots
 description: Как запустить узел с помощью альтернативного клиента Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)

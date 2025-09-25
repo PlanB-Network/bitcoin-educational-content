@@ -82,7 +82,7 @@ BTC302 में आपका स्वागत है!
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/hi/001.webp)
 
 
 
@@ -227,7 +227,7 @@ Bitcoin समुदाय अक्सर व्यापक लक्ष्य
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/hi/002.webp)
 
 
 
@@ -252,7 +252,7 @@ Bitcoin समुदाय अक्सर व्यापक लक्ष्य
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/hi/003.webp)
 
 
 Bitcoin मीटअप कई उद्देश्यों की पूर्ति कर सकते हैं:
@@ -314,7 +314,7 @@ Bitcoin मीटअप कई उद्देश्यों की पूर�
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/hi/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/hi/005.webp)
 
 
 
@@ -516,7 +516,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/hi/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/hi/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/hi/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/hi/009.webp)
 
 
 
@@ -615,7 +615,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 - **मीट-अप घोषणा पोस्टर** (सोशल मीडिया और A4/A3 प्रिंटिंग के लिए): [लिंक](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
+![image](assets/hi/010.webp)
 
 
 
@@ -637,7 +637,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/hi/011.webp)
 
 
 
@@ -659,10 +659,10 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/hi/012.webp)
 
 
-![image](assets/fr/013.webp)
+![image](assets/hi/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/hi/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/hi/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/hi/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/hi/017.webp)
 
 
 
@@ -901,7 +901,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/hi/018.webp)
 
 
 
@@ -925,7 +925,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/hi/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/hi/020.webp)
 
 
 ध्यान रखें कि **टेलीग्राम सुपरग्रुप्स का इस्तेमाल कुछ सदस्यों के लिए थोड़ा मुश्किल हो सकता है**। उदाहरण के लिए, हर कोई **अलग-अलग विषयों तक कैसे पहुँचें** नहीं जानता (उन्हें विषयों की पूरी सूची देखने के लिए बस मुख्य टेलीग्राम मेनू में ग्रुप लोगो पर टैप करना होगा)। एक त्वरित स्क्रीनशॉट भेजने से किसी भी भ्रम को दूर करने में मदद मिल सकती है।
@@ -1053,7 +1053,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 > हमारे अन्य सोशल नेटवर्क देखें: [LINK] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/hi/021.webp)
 
 
 
@@ -1106,7 +1106,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/hi/022.webp)
 
 
 
@@ -1232,7 +1232,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/hi/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/hi/024.webp)
 
 
 
@@ -1328,7 +1328,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/hi/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/hi/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/hi/027.webp)
 
 
 अन्य प्लेटफ़ॉर्म भी आपकी दृश्यता बढ़ा सकते हैं। **[मीटअप](https://www.meetup.com/)** उनमें से एक है, और यह एक वेबसाइट (और एक फ़ोन ऐप) है जहाँ आप एक ईवेंट बना सकते हैं और आस-पास के अन्य लोगों को ढूंढ सकते हैं।
@@ -1476,7 +1476,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/hi/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/hi/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/hi/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 दूसरे मामले में, दूसरा मासिक कार्यक्रम किसी विशिष्ट विषय को समर्पित किया जा सकता है, जैसे कि शुरुआती सत्र या कार्यशालाएं (Mining, लाइटनिंग, नोड स्थापना, आदि)।
 
 
-![image](assets/fr/031.webp)
+![image](assets/hi/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/hi/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/hi/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/hi/034.webp)
 
 
 
@@ -1748,8 +1748,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 ऐसा करने के लिए एक बात आवश्यक है: **प्रतिभागियों को व्यस्त रखें**।
 
 
-इसकी शुरुआत उत्साही बिटकॉइनर्स के एक छोटे समूह से हो सकती है, जिसका उद्देश्य नियमित रूप से एकत्रित होकर Bitcoin पर चर्चा करना है। समय के साथ, प्रत्येक व्यक्ति की उपलब्धता और रुचियों के आधार पर, आप **समूह के साथ कुछ संगठनात्मक कार्य साझा कर सकते हैं**, या मुख्य सदस्यों को विशिष्ट परियोजनाएँ सौंप सकते हैं। ये आपके समुदाय, आपके मीट-अप या आपके शहर के लिए विशिष्ट हो सकते हैं या [इस पाठ्यक्रम के भाग 6/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6
-
+इसकी शुरुआत उत्साही बिटकॉइनर्स के एक छोटे समूह से हो सकती है, जिसका उद्देश्य नियमित रूप से एकत्रित होकर Bitcoin पर चर्चा करना है। समय के साथ, प्रत्येक व्यक्ति की उपलब्धता और रुचियों के आधार पर, आप **समूह के साथ कुछ संगठनात्मक कार्य साझा कर सकते हैं**, या मुख्य सदस्यों को विशिष्ट परियोजनाएँ सौंप सकते हैं। ये आपके समुदाय, आपके मीट-अप या आपके शहर के लिए विशिष्ट हो सकते हैं या [इस पाठ्यक्रम के भाग 6/8](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/6565e8a0-d535-5be0-9764-273584c675bd)
 
 जैसे-जैसे आपकी मुलाकातें आगे बढ़ेंगी, नए चेहरे सामने आएंगे: वे लोग जिन्होंने पिछले चक्रों में बीटीसी और/या ऑल्टकॉइन खरीदे थे, तकनीकी उत्साही जो अपनी समझ को गहरा करना चाहते हैं, या पूर्णतया शुरुआती लोग जो इस बिना किसी शर्त और विश्वसनीय तृतीय पक्षों के बिना काम करने वाली, बिना किसी सेंसरशिप वाली, विकेन्द्रीकृत, पारदर्शी और निष्पक्ष भुगतान प्रणाली के बारे में उत्सुक हैं।
 
@@ -1762,7 +1761,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/hi/035.webp)
 
 
 
@@ -1822,7 +1821,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/hi/036.webp)
 
 
 
@@ -1905,7 +1904,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/hi/037.webp)
 
 
 
@@ -1934,7 +1933,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/hi/038.webp)
 
 
 
@@ -1973,7 +1972,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/hi/039.webp)
 
 
 पारिस्थितिकी तंत्र का समर्थन करने के लिए, **[प्रकाशक कोन्सेंसस नेटवर्क](https://konsensus.network/) 2023 के अंत से अंतर्राष्ट्रीय Bitcoin मीट-अप और समुदायों को तीन या अधिक पुस्तकों के ऑर्डर पर अपनी सभी पुस्तकों पर 15% से 35% की छूट दे रहा है**।
@@ -1997,7 +1996,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/hi/040.webp)
 
 
 
@@ -2037,10 +2036,10 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/hi/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/hi/042.webp)
 
 
 
@@ -2051,10 +2050,10 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/hi/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/hi/044.webp)
 
 
 
@@ -2081,10 +2080,10 @@ Bitcoin श्वेत पत्र को छोड़ना प्रती�
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/hi/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/hi/046.webp)
 
 
 
@@ -2120,7 +2119,7 @@ Bitcoin श्वेत पत्र को छोड़ना प्रती�
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/hi/047.webp)
 
 
 
@@ -2144,7 +2143,7 @@ Bitcoin श्वेत पत्र को छोड़ना प्रती�
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/hi/048.webp)
 
 
 
@@ -2157,7 +2156,7 @@ Bitcoin श्वेत पत्र को छोड़ना प्रती�
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/hi/049.webp)
 
 
 
@@ -2188,7 +2187,7 @@ Bitcoin श्वेत पत्र को छोड़ना प्रती�
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/hi/050.webp)
 
 
 
@@ -2253,7 +2252,7 @@ Bitcoin श्वेत पत्र को छोड़ना प्रती�
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/hi/051.webp)
 
 
 
@@ -2331,7 +2330,7 @@ Bitcoin लिले एसोसिएशन द्वारा उपयोग
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/hi/052.webp)
 
 
 
@@ -2400,7 +2399,7 @@ Bitcoin लिले एसोसिएशन द्वारा उपयोग
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/hi/053.webp)
 
 
 
@@ -2424,7 +2423,7 @@ Bitcoin लिले एसोसिएशन द्वारा उपयोग
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/hi/054.webp)
 
 
 
@@ -2450,7 +2449,7 @@ Bitcoin लिले एसोसिएशन द्वारा उपयोग
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/hi/055.webp)
 
 
 
@@ -2500,7 +2499,7 @@ Bitcoin लिले एसोसिएशन द्वारा उपयोग
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/hi/056.webp)
 
 
 
@@ -2552,7 +2551,7 @@ Bitcoin लिले एसोसिएशन द्वारा उपयोग
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/hi/057.webp)
 
 
 
@@ -2613,7 +2612,7 @@ Bitcoin लिले एसोसिएशन द्वारा उपयोग
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/hi/058.webp)
 
 
 
@@ -2700,7 +2699,7 @@ a) इन आयोजनों के दौरान **Bitcoin-थीम व�
 5 अप्रैल, 1933 को, संयुक्त राज्य अमेरिका के 32वें राष्ट्रपति फ्रैंकलिन रूजवेल्ट ने **कार्यकारी आदेश 6102** पर हस्ताक्षर किए, जिसके तहत देश में कहीं भी निजी व्यक्तियों के लिए सोने के सिक्के, बुलियन या प्रमाण पत्र रखना अवैध बना दिया गया।
 
 
-![image](assets/fr/059.webp)
+![image](assets/hi/059.webp)
 
 
 
@@ -2717,7 +2716,7 @@ a) इन आयोजनों के दौरान **Bitcoin-थीम व�
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/hi/060.webp)
 
 
 
@@ -2748,7 +2747,7 @@ Bitcoin एक विशाल खरगोश-खाल है, जो इत�
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/hi/061.webp)
 
 
 
@@ -2847,7 +2846,7 @@ Bitcoin एक विशाल खरगोश-खाल है, जो इत�
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/hi/062.webp)
 
 
 
@@ -2897,7 +2896,7 @@ Bitcoin एक विशाल खरगोश-खाल है, जो इत�
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/hi/063.webp)
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: नर्डमाइनर
+name: Nerdminer
 description: Mining Bitcoin से शुरू करें, जीतने की संभावना 0 के करीब है
 ---
 

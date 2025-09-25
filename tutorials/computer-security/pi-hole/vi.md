@@ -1,5 +1,5 @@
 ---
-name: Lỗ Pi
+name: Pi-Hole
 description: Trình chặn quảng cáo cho toàn bộ mạng của bạn
 ---
 ![cover](assets/cover.webp)

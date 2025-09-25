@@ -1,5 +1,5 @@
 ---
-name: Şemsiye
+name: Umbrel
 description: Umbrel'i keşfedin ve kurun - Bitcoin düğümünüz ve ana sunucunuz
 ---
 

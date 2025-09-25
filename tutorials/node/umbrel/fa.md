@@ -1,5 +1,5 @@
 ---
-name: آمبرل
+name: Umbrel
 description: کشف و نصب Umbrel - نود Bitcoin و سرور خانگی شما
 ---
 

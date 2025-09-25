@@ -1,5 +1,5 @@
 ---
-name: Персик
+name: Peach
 description: Полное руководство по использованию Peach и обмену биткоинов P2P
 ---
 ![cover](assets/cover.webp)

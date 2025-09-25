@@ -1,5 +1,5 @@
 ---
-name: Allmän pool
+name: Public Pool
 description: Introduktion till Public Pool
 ---
 

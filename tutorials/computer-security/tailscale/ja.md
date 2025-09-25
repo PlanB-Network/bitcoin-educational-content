@@ -1,5 +1,5 @@
 ---
-name: テールスケール
+name: Tailscale
 description: 上級テールスケール・チュートリアル
 ---
 ![cover](assets/cover.webp)

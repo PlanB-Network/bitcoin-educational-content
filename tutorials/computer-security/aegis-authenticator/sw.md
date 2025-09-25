@@ -1,5 +1,5 @@
 ---
-name: Kithibitishaji cha Aegis
+name: Aegis Authenticator
 description: Unawezaje kutumia Kithibitishaji cha Aegis ili kulinda akaunti zako kwa uthibitishaji wa pande mbili?
 ---
 

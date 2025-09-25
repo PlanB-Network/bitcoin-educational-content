@@ -1,5 +1,5 @@
 ---
-name: Sesjon
+name: Session
 description: Send krypterte meldinger, ikke metadata
 ---
 ![cover](assets/cover.webp)

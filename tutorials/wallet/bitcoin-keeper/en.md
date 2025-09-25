@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Multi Key Security
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - a mobile application that allows you to create both hot wallets and cold storage vaults for long term savings
 ---
 

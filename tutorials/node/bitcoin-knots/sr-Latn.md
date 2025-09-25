@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Čvorovi
+name: Bitcoin Knots
 description: Kako da pokrenem čvor sa alternativnim Bitcoin Knots klijentom?
 ---
 ![cover](assets/cover.webp)

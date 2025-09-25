@@ -1,5 +1,5 @@
 ---
-name: Blockstream-app - Onchain
+name: Blockstream App - Onchain
 description: Blockstream App instellen op mobiel en onchain-transacties beheren
 ---
 ![cover](assets/cover.webp)

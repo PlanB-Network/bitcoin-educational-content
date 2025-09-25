@@ -1,5 +1,5 @@
 ---
-name: Портал
+name: Portal
 description: Настройка и использование аппаратного кошелька TwentyTwo-Devices Portal
 ---
 ![cover](assets/cover.webp)

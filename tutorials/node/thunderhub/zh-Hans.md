@@ -1,5 +1,5 @@
 ---
-name: 雷霆集线器
+name: ThunderHub
 description: Interface 闪电节点管理网络 LND
 ---
 ![cover](assets/cover.webp)

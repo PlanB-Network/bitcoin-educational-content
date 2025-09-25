@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - 钥匙传送
+name: COLDCARD Q - Key Teleport
 description: 什么是密钥传送，如何使用？
 ---
 

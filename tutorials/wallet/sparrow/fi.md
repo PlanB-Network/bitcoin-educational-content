@@ -1,5 +1,5 @@
 ---
-name: Varpunen Wallet
+name: Sparrow Wallet
 description: Sparrow Wallet:n asentaminen, konfigurointi ja käyttö
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: ピュアオーエス
+name: PureOS
 description: あなたのデジタルライフをコントロールするLinuxディストリビューション。
 ---
 

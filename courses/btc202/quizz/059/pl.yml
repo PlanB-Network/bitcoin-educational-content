@@ -1,0 +1,9 @@
+question: Jaki jest najlepszy sposób na zdalny dostęp do Bitcoin core?
+answer: Odsłanianie portu RPC
+wrong_answers:
+  - Korzystanie z usługi Tor
+  - Korzystanie z VPN
+  - Ujawnianie serwera Electrum
+explanation: |
+  Niezaszyfrowany port RPC stanowi poważne zagrożenie dla bezpieczeństwa. Preferowany jest Tor lub VPN.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - varblane
+name: Jade Plus - Sparrow
 description: Jade Plusi täiustatud konfiguratsioon koos Sparrow Walletiga
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Escala de cauda
+name: Tailscale
 description: Tutorial avançado de Tailscale
 ---
 ![cover](assets/cover.webp)

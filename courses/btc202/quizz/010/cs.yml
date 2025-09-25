@@ -1,0 +1,9 @@
+question: Jaký je ekonomický rozdíl mezi uzlem a Miner?
+answer: Miner dostává odměny, uzel nemá žádný přímý zisk
+wrong_answers:
+  - Uzel obdrží poplatek, Miner obdrží blokový grant
+  - Uzel dostává odměny, Miner nemá žádný přímý zisk
+  - Obě ocenění jsou stejná
+explanation: |
+  Těžaři dostávají odměny (dotace a poplatky), zatímco uzel nepřináší svému uživateli žádný přímý finanční prospěch.
+reviewed: true

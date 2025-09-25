@@ -1,5 +1,5 @@
 ---
-name: Criptomante
+name: Cryptomator
 description: Crittografia dei file nel cloud
 ---
 ![cover](assets/cover.webp)

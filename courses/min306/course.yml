@@ -1,5 +1,4 @@
 id: 57c6e89c-90ac-11f0-9427-13620e434184
-test_only: true
 
 topic: mining
 subtopic: mining
@@ -17,9 +16,8 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    - Asi0Flammeus
-    reward: 1
-
+      - Asi0Flammeus
+    reward: 23.58
 tags:
   - mining
   - DIY

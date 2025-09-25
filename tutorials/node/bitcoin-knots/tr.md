@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Düğümler
+name: Bitcoin Knots
 description: Bitcoin Knots alternatif istemcisi ile bir düğümü nasıl başlatabilirim?
 ---
 ![cover](assets/cover.webp)

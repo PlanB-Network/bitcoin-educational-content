@@ -1,5 +1,5 @@
 ---
-name: KARTU KOLEKSI Q - Lanjutan
+name: COLDCARD Q - Ahli
 description: Menggunakan opsi lanjutan COLDCARD Q
 ---
 ![cover](assets/cover.webp)

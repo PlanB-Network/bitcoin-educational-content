@@ -1,5 +1,5 @@
 ---
-name: आड़ू
+name: Peach
 description: पीच का उपयोग करने और बिटकॉइन का आदान-प्रदान करने के लिए पूर्ण गाइड P2P
 ---
 ![cover](assets/cover.webp)

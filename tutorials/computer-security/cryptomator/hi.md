@@ -1,5 +1,5 @@
 ---
-name: क्रिप्टोमेटर
+name: Cryptomator
 description: क्लाउड में अपनी फ़ाइलें एन्क्रिप्ट करें
 ---
 ![cover](assets/cover.webp)

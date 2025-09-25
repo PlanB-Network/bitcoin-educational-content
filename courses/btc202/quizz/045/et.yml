@@ -1,0 +1,9 @@
+question: Millised sammud tuleb enne UmbrelOSi paigaldamist lõpule viia?
+answer: Luua bootitav USB-võti koos kujutisega
+wrong_answers:
+  - Bitcoin core lähtekoodi kompileerimine
+  - Blockchain vormindamine
+  - Loo konto aadressil umbrel.com
+explanation: |
+  Paigaldamine algab käivitatava USB-mäluseadme ettevalmistamisega UmbrelOSiga Balena Etcher'i abil.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Fersken
+name: Peach
 description: Komplett guide til bruk av Peach og veksling av bitcoins P2P
 ---
 ![cover](assets/cover.webp)

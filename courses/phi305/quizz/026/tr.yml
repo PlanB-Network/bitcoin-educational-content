@@ -1,0 +1,9 @@
+question: Kim insanın Doğaya tabi olmak yerine onu rahatsız edebileceğini düşünür?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Descartes insanın doğaya tabi olmak yerine onu bozabileceğine inanıyordu. Bu düalist görüş insanı doğayla karşı karşıya getirir ve irademizle doğa yasalarının üzerine çıkabileceğimizi öne sürer.
+reviewed: false

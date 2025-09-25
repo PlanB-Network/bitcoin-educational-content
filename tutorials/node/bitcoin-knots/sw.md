@@ -1,5 +1,5 @@
 ---
-name: Mafundo ya Bitcoin
+name: Bitcoin Knots
 description: Ninawezaje kuzindua nodi na mteja mbadala wa Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)

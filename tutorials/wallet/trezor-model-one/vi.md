@@ -1,5 +1,5 @@
 ---
-name: Trezor Mẫu Một
+name: Trezor Model One
 description: Thiết lập và sử dụng Hardware Wallet Model One
 ---
 ![cover](assets/cover.webp)

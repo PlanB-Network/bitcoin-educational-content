@@ -1,5 +1,5 @@
 ---
-name: RGBライトニング・ノード
+name: RGB Lightning Node
 description: RLNでRGB対応のLightningノードを起動するには？
 ---
 ![cover](assets/cover.webp)

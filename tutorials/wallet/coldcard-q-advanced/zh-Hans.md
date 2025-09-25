@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - 高级
+name: COLDCARD Q - 专家
 description: 使用 COLDCARD Q 的高级选项
 ---
 ![cover](assets/cover.webp)

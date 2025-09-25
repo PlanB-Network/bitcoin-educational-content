@@ -1,5 +1,5 @@
 ---
-name: 速度 Wallet
+name: Speed Wallet
 description: 使用比特币和 USDT 即时支付和 Exchange
 ---
 ![cover](assets/cover.webp)

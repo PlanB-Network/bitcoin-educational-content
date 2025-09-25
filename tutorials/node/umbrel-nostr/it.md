@@ -1,5 +1,5 @@
 ---
-name: Ombrello Nostr
+name: Umbrel Nostr
 description: Configurazione e utilizzo delle applicazioni Nostr su Umbrel
 ---
 

@@ -1,0 +1,9 @@
+question: Zgodnie z teorią perkolacji, co zapewnia przekroczenie progu krytycznego?
+answer: Propagacja transakcji w całej sieci
+wrong_answers:
+  - Natychmiastowe utworzenie nowego bloku
+  - Automatyczne tłumienie kosztów przez węzły
+  - Blokowanie transakcji przez sieć
+explanation: |
+  Po przekroczeniu progu perkolacji transakcja rozprzestrzenia się niemal natychmiast w całej sieci Bitcoin.
+reviewed: true

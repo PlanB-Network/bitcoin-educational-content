@@ -1,5 +1,5 @@
 ---
-name: Programu ya Blockstream - Onchain
+name: Blockstream App - Onchain
 description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala ya onchain
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Protoni Wallet
+name: Proton Wallet
 description: Kufunga na kutumia Protoni Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)

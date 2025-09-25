@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Beveiliging met meerdere sleutels
+name: Bitcoin Keeper
 description: Bitcoin Keeper App - een mobiele applicatie waarmee je zowel Hot wallets als Cold opslagkluizen kunt maken voor langetermijnsparen
 ---
 

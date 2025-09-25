@@ -1,5 +1,5 @@
 ---
-name: Autentikátor Aegis
+name: Aegis Authenticator
 description: Jak můžete pomocí nástroje Aegis Authenticator zabezpečit své účty pomocí duálního ověřování?
 ---
 

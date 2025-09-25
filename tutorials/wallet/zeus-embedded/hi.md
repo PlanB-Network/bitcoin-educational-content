@@ -1,5 +1,5 @@
 ---
-name: ज़ीउस एम्बेडेड
+name: Zeus Embedded
 description: लाइटनिंग ज़ीउस एम्बेडेड Wallet का उपयोग कैसे करें
 ---
 ![cover-zeus-embedded](assets/cover.webp)

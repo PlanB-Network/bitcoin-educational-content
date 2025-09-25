@@ -1,5 +1,5 @@
 ---
-name: 阿塔卡伊
+name: Attakaï
 
 description: 將S9改造成家用暖氣機
 ---

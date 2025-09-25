@@ -1,0 +1,9 @@
+question: Sự khác biệt giữa quy tắc đồng thuận và quy tắc chuyển tiếp là gì?
+answer: Sự đồng thuận xác định tính hợp lệ, chuyển tiếp sự lan truyền của các giao dịch
+wrong_answers:
+  - Sự đồng thuận xác định phí, chuyển tiếp xác định địa chỉ
+  - Consensus quản lý Blockchain, relay quản lý khóa riêng
+  - Sự đồng thuận chọn thợ mỏ, chuyển tiếp chọn thương gia
+explanation: |
+  Quy tắc đồng thuận xác định nội dung nào hợp lệ trong Bitcoin, trong khi quy tắc chuyển tiếp quản lý các giao dịch giữa các nút.
+reviewed: true

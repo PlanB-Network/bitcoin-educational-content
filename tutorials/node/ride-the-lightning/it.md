@@ -1,5 +1,5 @@
 ---
-name: Cavalcare il fulmine (RTL)
+name: Ride The Lightning (RTL)
 description: Utilizzare Ride The Lightning (RTL) per gestire il proprio nodo Lightning
 ---
 ![cover](assets/cover.webp)

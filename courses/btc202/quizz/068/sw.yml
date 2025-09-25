@@ -1,0 +1,9 @@
+question: Ni faida gani tatu kuu za sasisho za kawaida za OS na programu?
+answer: Usalama, kuegemea, utendaji
+wrong_answers:
+  - Kasi, kutokujulikana, utangamano
+  - Usalama, kumbukumbu, uhifadhi
+  - Usiri, utendaji, kuegemea
+explanation: |
+  Masasisho huhakikisha usalama dhidi ya athari, uoanifu na mageuzi na vipengele vipya, na kutegemewa kwa mfumo.
+reviewed: true

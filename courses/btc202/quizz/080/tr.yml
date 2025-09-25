@@ -1,0 +1,9 @@
+question: Bitcoin core'da maxconnections parametresinin varsayılan değeri nedir?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections gelen ve giden bağlantıların toplam sayısını sınırlar. Varsayılan değer 125'tir.
+reviewed: true

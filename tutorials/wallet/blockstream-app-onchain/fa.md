@@ -1,5 +1,5 @@
 ---
-name: برنامه Blockstream - Onchain
+name: Blockstream App - Onchain
 description: راه‌اندازی اپلیکیشن Blockstream بر روی موبایل و مدیریت تراکنش‌های زنجیره‌ای
 ---
 ![cover](assets/cover.webp)

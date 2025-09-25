@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - 麻雀
+name: Jade Plus - Sparrow
 description: 配备麻雀钱包的 Jade Plus 的高级配置
 ---
 ![cover](assets/cover.webp)

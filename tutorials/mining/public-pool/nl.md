@@ -1,5 +1,5 @@
 ---
-name: Openbaar zwembad
+name: Public Pool
 description: Inleiding tot openbaar zwembad
 ---
 

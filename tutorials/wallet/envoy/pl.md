@@ -1,5 +1,5 @@
 ---
-name: Wysłannik
+name: Envoy
 description: Konfigurowanie i używanie paszportu z aplikacją Envoy
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Sint IP-skanner
+name: Angry IP Scanner
 description: En enkel måte å skanne nettverket ditt på
 ---
 ![cover](assets/cover.webp)

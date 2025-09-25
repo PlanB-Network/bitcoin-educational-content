@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Muhimu Teleport
+name: COLDCARD Q - Key Teleport
 description: Teleport muhimu ni nini na ninaitumiaje?
 ---
 

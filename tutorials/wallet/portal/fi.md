@@ -1,5 +1,5 @@
 ---
-name: Portaali
+name: Portal
 description: TwentyTwo-Devices-laitteiston lompakkoportaalin määrittäminen ja käyttö
 ---
 ![cover](assets/cover.webp)

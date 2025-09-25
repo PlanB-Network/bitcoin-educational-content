@@ -1,5 +1,5 @@
 ---
-name: Svansvåg
+name: Tailscale
 description: Avancerad handledning för Tailscale
 ---
 ![cover](assets/cover.webp)

@@ -50,7 +50,7 @@ Amri zilizomo zimeandikwa katika lugha ya programu ya JavaScript.
 Muda wa utekelezaji wa JavaScript ni programu maalum ambayo hutekeleza faili hizi.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### Muda wa utekelezaji wa NodeJS
@@ -71,7 +71,7 @@ Kwa kuwa NodeJS inapatikana kwa OS zote tatu, programu unazoandika zitaweza kute
 Hii inamaanisha kuwa unaweza, kwa mfano, kuandika mchezo rahisi wa video katika JavaScript kwenye Kompyuta yako ya Windows na kuipitisha kwa rafiki yako ili kuuendesha kwenye Mac yake.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Unaweza kuchanganya booleans kwa kutumia waendeshaji mantiki:
 - `!` inamaanisha “sio”, inatumiwa kabla ya boolean, na itaipindua: ikiwa boolean ni `kweli` itarejesha `false`, na kinyume chake.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Mifano:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Darasa la `Gari` sasa **linarithi** kila kitu kutoka kwa `Gari`. Inapata sifa ya `brand`, na tumebadilisha mbinu ya `start()` kwa toleo letu.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Hebu tujaribu:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript ni lugha iliyotafsiriwa, tofauti na lugha zilizokusanywa kama C.
 Nambari iliyoandikwa katika lugha iliyokusanywa hubadilishwa kuwa ya jozi, na binary hulishwa moja kwa moja kwa CPU ya kompyuta.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Lugha zinazofasiriwa, kwa upande mwingine, zinaelekea kuwa rafiki zaidi kwa watumiaji, na ziko karibu na jinsi wanadamu wanavyofikiri ("kiwango cha juu") badala ya jinsi mashine zinavyofanya kazi ("kiwango cha chini"); kwa hivyo huwa na mashine ya kawaida iliyojengwa ili kuendesha nambari zao.
@@ -5261,7 +5261,7 @@ Kwa nini hilo ni tatizo?
 Naam, kwa kuwa vivinjari hutekeleza msimbo ulioletwa kutoka kwa mamilioni ya vyanzo tofauti kwenye mtandao, vinaweza kujiingiza kwa urahisi kwenye programu hasidi, kwa hivyo "zimesasishwa" kutoka kwa mfumo mwingine wa uendeshaji.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript haikuweza kufikia mfumo wa faili na rasilimali zingine za ndani kwenye kompyuta yako (angalau si kwa urahisi kama lugha zingine zingeweza), kwa hivyo hiyo ilikuwa kizuizi kikubwa juu ya aina ya programu ambazo unaweza kuunda nayo.
@@ -5270,7 +5270,7 @@ JavaScript haikuweza kufikia mfumo wa faili na rasilimali zingine za ndani kweny
 Mnamo 2009, Ryan Dahl alichapisha NodeJS, ambayo ni wakati wa kukimbia ambao hukuruhusu kutumia injini ya V8 nje ya kivinjari, moja kwa moja kwenye mfumo asili wa uendeshaji wa kompyuta yako. Pia inaongeza vipengele vingi ambavyo ni muhimu kwa kuandika programu za upande wa seva na mstari wa amri. Kwa mfano, unaweza kutumia NodeJS kuunda seva ya wavuti, kusoma na kuandika faili, au kuunda zana zinazofanya kazi kiotomatiki.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Katika kozi hii hadi sasa, tumechunguza vipengele vya JavaScript ambavyo vipo kwenye kivinjari na katika NodeJS. Vipengele hivyo vilituruhusu kufafanua data na kuibadilisha kwa njia dhahania. Katika masomo machache yanayofuata, tutachunguza vipengele ambavyo ni mahususi kwa NodeJS na kuturuhusu kuingiliana na mfumo wa uendeshaji.

@@ -1,5 +1,5 @@
 ---
-name: Mwavuli LND
+name: Umbrel LND
 description: Mafunzo ya kina juu ya kusakinisha na kusanidi Lightning Network Daemon (LND) kwenye Umbrel
 ---
 ![cover](assets/cover.webp)

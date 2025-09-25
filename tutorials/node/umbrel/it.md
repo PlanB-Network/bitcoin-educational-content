@@ -1,5 +1,5 @@
 ---
-name: Ombrello
+name: Umbrel
 description: Scoprire e installare Umbrel - Il vostro nodo Bitcoin e il vostro server domestico
 ---
 

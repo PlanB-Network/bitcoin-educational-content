@@ -1,5 +1,5 @@
 ---
-name: بانکساس
+name: Banxaas
 description: ساتوشی‌ها و XOF را در سراسر سنگال معامله کنید
 ---
 

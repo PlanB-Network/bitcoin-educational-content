@@ -1,5 +1,5 @@
 ---
-name: PayJoin
+name: Payjoin
 description: Co to jest PayJoin na Bitcoin?
 ---
 ![Payjoin thumbnail - steganography](assets/cover.webp)

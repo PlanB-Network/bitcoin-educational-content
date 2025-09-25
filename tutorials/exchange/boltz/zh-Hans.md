@@ -1,5 +1,5 @@
 ---
-name: 博尔茨
+name: Boltz
 description: 在不同的 Bitcoin 层之间切换，同时保持控制。
 ---
 

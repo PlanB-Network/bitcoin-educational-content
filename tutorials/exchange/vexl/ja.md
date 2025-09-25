@@ -1,5 +1,5 @@
 ---
-name: ベクスル
+name: Vexl
 description: P2Pで、当初の予定通りBTCを売買する。
 ---
 

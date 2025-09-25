@@ -1,0 +1,9 @@
+question: 最初のピア・ディスカバリーに使用されるDNS seedサーバーは誰が管理していますか？
+answer: エコシステム開発者
+wrong_answers:
+  - インターネット・サービス・プロバイダ
+  - Satoshi 中本
+  - Miningプール
+explanation: |
+  DNSシードは有名な開発者（Wuille、Corallo、Dashjrなど）によって管理され、接続を開始するためのアクティブなノードIPを提供する。
+reviewed: true

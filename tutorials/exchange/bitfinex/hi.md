@@ -1,5 +1,5 @@
 ---
-name: बिटफिनेक्स
+name: Bitfinex
 description: मैं बिटफिनेक्स का उपयोग कैसे करूँ?
 ---
 ![cover](assets/cover.webp)

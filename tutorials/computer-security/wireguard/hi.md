@@ -1,5 +1,5 @@
 ---
-name: वायरगार्ड
+name: WireGuard
 description: डेबियन और विंडोज़ पर वायरगार्ड वीपीएन सेट अप करना
 ---
 ![cover](assets/cover.webp)

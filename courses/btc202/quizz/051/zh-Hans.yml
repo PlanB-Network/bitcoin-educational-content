@@ -1,0 +1,9 @@
+question: 用户何时必须安装索引器？
+answer: 运行 Block explorer
+wrong_answers:
+  - 对于 Mining 块自己
+  - 激活 Lightning Network
+  - 签署交易
+explanation: |
+  索引器对于高级用途（如本地资源管理器）是不可或缺的。
+reviewed: true

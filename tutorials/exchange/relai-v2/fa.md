@@ -1,5 +1,5 @@
 ---
-name: رله
+name: Relai
 description: یک آموزش ساده برای استفاده از Relai در سفر Bitcoin شما!
 ---
 

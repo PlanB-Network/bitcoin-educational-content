@@ -72,7 +72,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 首先，我們要回顧一下支配 Bitcoin 運作的基本原則，如此一來，我們就可以冷靜地處理與機密性相關的概念。掌握一些基本概念是很有必要的，例如 UTXO、接收位址和腳本，這樣才能完全理解我們在接下來的章節中要介紹的概念。我們也將介紹 Bitcoin 的一般保密性模型，正如 Satoshi Nakamoto 所想像的一樣，這將使我們能夠掌握相關的利害關係和風險。
 
 
-![BTC204](assets/fr/001.webp)
+![BTC204](assets/zh-Hant/001.webp)
 
 
 **第 2 節：瞭解並防範連鎖分析**
@@ -81,7 +81,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 在第二部分，我們將探討 Blockchain 分析公司用來追蹤您在 Bitcoin 上活動的技術。了解這些方法對於加強您的隱私權保護至關重要。本節的目的是檢視攻擊者的策略，以便更好地瞭解風險，並為我們將在以下各節中研究的技術做好準備。我們會分析交易模式、內外部啟發式方法，以及對這些模式可能的詮釋。除了理論之外，我們還會透過實例和練習，學習如何使用 Block explorer 進行連鎖分析。
 
 
-![BTC204](assets/fr/002.webp)
+![BTC204](assets/zh-Hant/002.webp)
 
 
 **第 3 節：掌握保護隱私的最佳做法**
@@ -90,7 +90,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 在培訓課程的第三部分，我們將進入細節：練習！目的是掌握所有基本的最佳實務，這些實務應該成為任何 Bitcoin 使用者的自然反應。我們將介紹空白位址的使用、標記、整合、完整節點的使用，以及 KYC 和獲取方法。我們的目的是為您提供一個全面的概覽，讓您了解要避免的陷阱，以便在我們追求保護隱私權的過程中建立穩固的基礎。對於其中一些實務，我們會引導您參閱如何實作的特定教學。
 
 
-![BTC204](assets/fr/003.webp)
+![BTC204](assets/zh-Hant/003.webp)
 
 
 **第 4 節：瞭解 CoinJoin 交易**
@@ -99,7 +99,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 談到 Bitcoin 上的隱私權，怎麼能不提 coinjoins 呢？在第 4 節中，您將瞭解有關這種混合方法的所有資訊。您將學習到什麼是 coinjoins、它的歷史和目標，以及 CoinJoin 存在的不同類型。最後，對於較有經驗的使用者，我們會看看什麼是 anonsets 和 entropy，以及如何計算它們。
 
 
-![BTC204](assets/fr/004.webp)
+![BTC204](assets/zh-Hant/004.webp)
 
 
 **第 5 節：了解其他先進保密技術的挑戰**
@@ -111,7 +111,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 我們也會研究節點網路和交易傳播層級的隱私權。我們也會討論多年來為了加強 Bitcoin 上使用者隱私權而提出的各種通訊協定，包括靜態 Address 通訊協定。
 
 
-![BTC204](assets/fr/005.webp)
+![BTC204](assets/zh-Hant/005.webp)
 
 準備好探索 Bitcoin 上複雜的隱私權嗎？開始吧
 
@@ -141,7 +141,7 @@ Bitcoin 通訊協定以 UTXO 模式為基礎，代表「未使用的交易輸出
 這種模式與傳統的銀行體系有很大的不同，傳統的銀行體系依賴帳戶和餘額機制來追蹤資金流。事實上，在銀行體系中，個人的餘額被保存在與身份相關的帳戶中。舉例來說，當您向麵包師傅購買法棍時，您的銀行只需從您的帳戶中扣除購買金額，減少您的餘額，而麵包師傅的帳戶則貸記相同金額，增加其餘額。在這個系統中，除了交易記錄之外，您帳戶內的錢和您帳戶外的錢之間沒有任何關聯。
 
 
-![BTC204](assets/fr/006.webp)
+![BTC204](assets/zh-Hant/006.webp)
 
 
 Bitcoin 的運作方式不同。帳戶的概念並不存在，貨幣單位也不是透過餘額來管理，而是透過 UTXOs 來管理。一個 UTXO 代表特定數量的比特幣，這些比特幣尚未被花掉，因此形成「一塊 Bitcoin」，可大可小。例如，一個 UTXO 可以值 `500 BTC` 或簡單的 `700 Sats`。
@@ -167,13 +167,13 @@ Bitcoin 的運作方式不同。帳戶的概念並不存在，貨幣單位也不
 UTXOs 是 Exchange 在 Bitcoin 上的工具。每次交易都會消耗作為輸入的 UTXOs，並產生作為輸出的新 UTXOs。當交易完成時，作為輸入的 UTXO 被視為 「消耗」，而新的 UTXO 則會產生，並分配給交易輸出中指定的接收者。因此，UTXO 僅代表未用完的交易輸出，因此代表在特定時間屬於使用者的比特幣數量。
 
 
-![BTC204](assets/fr/007.webp)
+![BTC204](assets/zh-Hant/007.webp)
 
 
 所有的 UTXO 都是由定義可使用條件的腳本所保護。若要使用 UTXO，使用者必須向網路證明他或她符合保護 UTXO 的腳本所規定的條件。通常，UTXO 受公開金鑰 (或代表此公開金鑰的接收 Address) 保護。若要使用與此公開金鑰相關的 UTXO，使用者必須提供使用此金鑰所做的數位簽章，以證明他持有對應的私人金鑰。這就是為什麼我們說您的 Bitcoin Wallet 實際上並不包含比特幣，而是儲存了您的私人密碼鑰匙，而私人密碼鑰匙又讓您可以存取您的 UTXOs，進而存取它們所代表的比特幣。
 
 
-![BTC204](assets/fr/008.webp)
+![BTC204](assets/zh-Hant/008.webp)
 
 
 由於 Bitcoin 中沒有帳號的概念，因此 Wallet 的餘額就是它可以花費的所有 UTXO 的總和。例如，如果您的 Bitcoin Wallet 可以使用下列 4 個 UTXO：
@@ -190,7 +190,7 @@ UTXOs 是 Exchange 在 Bitcoin 上的工具。每次交易都會消耗作為輸�
 您的投資組合總結餘將為 `17 BTC`。
 
 
-![BTC204](assets/fr/009.webp)
+![BTC204](assets/zh-Hant/009.webp)
 
 
 ## Bitcoin 交易的結構
@@ -206,13 +206,13 @@ UTXOs 是 Exchange 在 Bitcoin 上的工具。每次交易都會消耗作為輸�
 Bitcoin 交易是記錄在 Blockchain 上的一個操作，將 Ownership 的比特幣從一個人轉移至另一個人。更精確的說，因為我們是在 UTXO 模型上，而且沒有帳號，所以交易滿足了保證一個或多個 UTXOs 的支出條件，消耗了這些支出條件，等於用新的支出條件創建了新的 UTXOs。簡而言之，交易將比特幣從滿足的腳本移動到新的腳本，新的腳本是為了確保比特幣的安全而設計的。
 
 
-![BTC204](assets/fr/010.webp)
+![BTC204](assets/zh-Hant/010.webp)
 
 
 因此，每個 Bitcoin 交易由一個或多個輸入和一個或多個輸出組成。輸入是 generate 輸出的交易所消耗的 UTXO。輸出是新的 UTXO，可作為未來交易的輸入。
 
 
-![BTC204](assets/fr/011.webp)
+![BTC204](assets/zh-Hant/011.webp)
 
 
 **你可知道？** 理論上，一個 Bitcoin 交易可以有無限多的輸入和輸出。唯一的限制是最大區塊大小。
@@ -221,7 +221,7 @@ Bitcoin 交易是記錄在 Blockchain 上的一個操作，將 Ownership 的比�
 Bitcoin 交易中的每個輸入都是指先前未使用的 UTXO。要使用 UTXO 作為輸入，其持有者必須證明他/她是合法的擁有者，方法是驗證相關的腳本，也就是滿足所施加的支出條件。一般而言，這意味著提供一個數位簽章，該數位簽章是以對應公開金鑰的私密金鑰製作，而公開金鑰則是該 UTXO 的初始保證。因此，腳本包括驗證該簽章與收到資金時所使用的公開金鑰相符。
 
 
-![BTC204](assets/fr/012.webp)
+![BTC204](assets/zh-Hant/012.webp)
 
 
 每個輸出依次指定要轉移的比特幣數量以及接收者。後者是由新的腳本定義的，通常是用接收的 Address 或新的公開金鑰來封鎖新建立的 UTXO。
@@ -242,13 +242,13 @@ Bitcoin 交易中的每個輸入都是指先前未使用的 UTXO。要使用 UTX
 Bitcoin 以類似的方式運作。讓我們假設 Alice 有`10,000 Sats` 的 UTXO，並希望購買`4,000 Sats` 的法棍。Alice 將以 1 個 滿 滿 滿 滿 10,000 Sats` 的 UTXO 作為輸入（她將全額消耗），以 2 個 滿 滿 4,000 Sats` 和 滿 6,000 Sats` 的 UTXO 作為輸出進行交易。4,000 Sats` 的 UTXO 將被送到麵包師傅那裡作為法棍的付款，而 6,000 Sats` 的 UTXO 將以零錢的形式返回 Alice。這個 UTXO 會回到交易的原始發行者，在 Bitcoin 行話中稱為 "Exchange"。
 
 
-![BTC204](assets/fr/013.webp)
+![BTC204](assets/zh-Hant/013.webp)
 
 
 現在讓我們想像一下，Alice 並沒有一支`10,000 Sats` 的 UTXO，而是有兩支各有`3,000 Sats` 的 UTXO。在這種情況下，任何一個 UTXO 都不足以設定魔杖的 `4,000 Sats`。因此，Alice 必須同時使用 2 個 淨值為 `3,000 Sats` 的 UTXO 作為交易的輸入。如此一來，輸入的總金額將達到 `6,000 Sats`，使她能夠滿足支付給麵包師的 `4,000 Sats`。這種將多個 UTXO 組合起來作為交易投入的方法通常稱為 「合併」。
 
 
-![BTC204](assets/fr/014.webp)
+![BTC204](assets/zh-Hant/014.webp)
 
 
 ### 交易費用
@@ -265,7 +265,7 @@ Frais = total inputs - total outputs
 讓我們以 Alice 為例，她的 UTXO 為 `10,000 Sats`，想要以 `4,000 Sats` 的價格購買法棍。Alice 以她的 UTXO `10,000 Sats` 作為輸入來建立一個交易。然後，她會產生 `4,000 Sats` 的輸出，讓麵包師傅支付長棍麵包的費用。為了鼓勵礦工將她的交易整合到區塊中，Alice 分配了 `200 Sats` 的費用。接著，她又創造了第二筆輸出，Exchange，這筆輸出將返還給她，金額為 `5,800Sats`。
 
 
-![BTC204](assets/fr/015.webp)
+![BTC204](assets/zh-Hant/015.webp)
 
 
 運用收費公式，我們可以看到確實有 `200 Sats` 剩給未成年人：
@@ -297,7 +297,7 @@ Coinbase 是一種特定類型的 Bitcoin 交易，每個區塊都是獨一無�
 Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生有地創造比特幣的裝置，不需要消耗輸入到 generate 的輸出。這些新創造的比特幣，我們可以稱之為「原始 UTXOs」。
 
 
-![BTC204](assets/fr/016.webp)
+![BTC204](assets/zh-Hant/016.webp)
 
 
 區塊資助比特幣是按照共識規則中預先設定的發行時間表，從零開始創建的新 BTC。區塊補助每 210,000 個區塊減半，也就是大約每四年減半一次，這個過程稱為 "Halving"。最初，每次補助會創造 50 個比特幣，但這個數量已逐漸減少；目前，每個區塊補助 3.125 個比特幣。
@@ -331,13 +331,13 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 貨幣的功能之一就是解決需求雙重重合的問題。在一個以物易物的系統中，要完成 Exchange 的交易，不僅需要找到一個人送出與我的需求相對應的物品，同時也要提供他等值的物品，以滿足他自己的需求。取得這種平衡是一件複雜的事情。
 
 
-![BTC204](assets/fr/017.webp)
+![BTC204](assets/zh-Hant/017.webp)
 
 
 這就是為什麼我們使用金錢來移動空間和時間中的價值。
 
 
-![BTC204](assets/fr/018.webp)
+![BTC204](assets/zh-Hant/018.webp)
 
 
 為了讓硬幣解決這個問題，提供商品或服務的一方必須確信自己有能力在日後花費這筆錢。因此，任何希望接受硬幣（無論是數位硬幣還是實物硬幣）的理性個體，都會確保它符合兩項基本標準：
@@ -354,7 +354,7 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 另一方面，由於其本質，雙重消費對實體貨幣來說並不是問題。如果我給你一張 10 歐元的鈔票，它就不可撤銷地從我的手中離開，並進入你的手中。簡言之，我將無法再次使用這張 10 歐元的鈔票。
 
 
-![BTC204](assets/fr/019.webp)
+![BTC204](assets/zh-Hant/019.webp)
 
 
 對於數位貨幣而言，難度則有所不同。確保硬幣的真實性和完整性通常比較簡單。正如我們在上一節所看到的，Bitcoin 的 UTXO 模型使得追溯一個硬幣的來源成為可能，從而驗證它確實是由符合共識規則的 Miner 所創造的。
@@ -363,7 +363,7 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 另一方面，確保沒有 Double-spending 則比較複雜，因為所有數位商品的本質都是資訊。與實體商品不同，資訊在交換時不會被分割，而是透過相乘的方式散播。舉例來說，如果我用電子郵件寄給你一份文件，它就會被複製。你無法確定我是否已經刪除原始文件。
 
 
-![BTC204](assets/fr/020.webp)
+![BTC204](assets/zh-Hant/020.webp)
 
 
 ### 防止 Bitcoin 的雙重支出
@@ -372,7 +372,7 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 要避免這種數位資產重複的唯一方法，就是要知道系統上所有的交易所。這樣，我們就可以知道誰擁有什麼，並根據進行的交易更新每個人的持有量。舉例來說，銀行系統中的經文錢就是這樣。當您使用信用卡向商家支付 10 歐元時，銀行會記錄 Exchange 並更新帳簿。
 
 
-![BTC204](assets/fr/021.webp)
+![BTC204](assets/zh-Hant/021.webp)
 
 
 在 Bitcoin 上，Double-spending 以相同的方式防止。我們尋求確認是否有交易已經花掉了相關的硬幣。如果硬幣從未被使用過，那麼我們就可以確定不會發生雙重花費的情況。Satoshi Nakamoto 在白皮書中用著名的短語描述了這一原則：
@@ -393,25 +393,25 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 在傳統系統中，您的銀行帳戶與您的身份相關聯。銀行家能夠知道哪個銀行帳戶屬於哪位客戶，以及與之相關的交易。但是，銀行和公共領域之間的資訊流被隔絕了。換句話說，不可能知道屬於另一個人的銀行帳戶的餘額和交易。只有銀行才能獲得這些資訊。
 
 
-![BTC204](assets/fr/022.webp)
+![BTC204](assets/zh-Hant/022.webp)
 
 
 舉例來說，您的銀行知道您每天早上從當地的麵包店購買法棍，但您的鄰居卻不知道這項交易。如此一來，資訊的流動對於相關的各方，尤其是銀行，是可以取得的，但對於外人卻是無法取得的。
 
 
-![BTC204](assets/fr/023.webp)
+![BTC204](assets/zh-Hant/023.webp)
 
 
 由於我們在上一節所看到的交易公開散播的限制，Bitcoin 的保密模式無法遵循銀行系統的模式。在 Bitcoin 的案例中，由於交易與公共領域之間的資訊流通無法斷絕，因此**的保密模型依賴於使用者身分與交易**本身的分離。
 
 
-![BTC204](assets/fr/024.webp)
+![BTC204](assets/zh-Hant/024.webp)
 
 
 例如，如果您從麵包店買了一根法棍，並以 BTC 付款，您的鄰居擁有自己的完整節點，他可以看到您的交易完成，就像他可以看到系統中的所有其他交易一樣。但是，如果遵守保密原則，他應該無法將此特定交易與您的身份聯繫起來。
 
 
-![BTC204](assets/fr/025.webp)
+![BTC204](assets/zh-Hant/025.webp)
 
 
 但由於 Bitcoin 交易都是公開的，因此仍有可能在這些交易之間建立關聯，從而推斷出相關各方的資訊。這項活動本身甚至構成一門專業，稱為「Blockchain 分析」。在課程的下一部分，我邀請您探索 Blockchain 分析的基本原理，讓您了解您的比特幣是如何被追蹤的，並更好地防禦它們。
@@ -442,7 +442,7 @@ Blockchain 分析是追蹤比特幣在 Blockchain 上流向的做法。一般來
 3. **假設的演繹**
 
 
-![BTC204](assets/fr/026.webp)
+![BTC204](assets/zh-Hant/026.webp)
 
 
 任何人都可以進行 Blockchain 分析。您只需要透過完整的節點存取 Blockchain 的公開資訊，就可以觀察交易動向並提出假設。也有一些免費的工具可以促進這種分析，例如 [OXT.me](https://oxt.me/)，我們會在本節的最後兩章詳細探討。然而，保密性的主要風險來自專門從事字串分析的公司。這些公司已將 Blockchain 分析提升至工業規模，並將服務出售給金融機構和政府。在這些公司中，Chainalysis 肯定是最知名的。
@@ -454,7 +454,7 @@ Blockchain 分析是追蹤比特幣在 Blockchain 上流向的做法。一般來
 Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起，以確定進行這些活動的使用者的唯一性。之後，就可以嘗試將此活動群組與真實身分連結。
 
 
-![BTC204](assets/fr/027.webp)
+![BTC204](assets/zh-Hant/027.webp)
 
 
 回想上一章。我解釋了為什麼 Bitcoin 的隱私模型最初是基於使用者身分與交易的分離。因此，我們很容易會認為 Blockchain 的分析毫無用處，因為即使我們能夠彙總網路上的活動，也無法將這些活動與真正的身分聯繫起來。
@@ -463,7 +463,7 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 理論上，這個說法是正確的。在本課程的第一部分，我們看到密碼金鑰對是用來建立 UTXO 的條件。本質上，這些金鑰對不會洩露其持有者的身份資訊。因此，即使我們能夠將與不同金鑰對相關的活動歸類在一起，也無法得知這些活動背後的實體。
 
 
-![BTC204](assets/fr/028.webp)
+![BTC204](assets/zh-Hant/028.webp)
 
 
 然而，實際情況要複雜得多。有許多行為可以將真實身份與上鏈活動聯繫起來。在分析中，這稱為入口點，而入口點有很多。
@@ -475,7 +475,7 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 使用 Bitcoin 時，這些入口點幾乎是無法避免的。雖然我們可能會嘗試限制它們的範圍，但它們始終存在。這就是為什麼結合旨在保護您隱私的方法至關重要。雖然將您的真實身份和交易分開是一種有趣的方法，但現在仍然不足夠。事實上，如果您所有的上鏈活動都可以集中在一起，那麼即使是最小的切入點，也可能會破壞您建立的單一 Layer 保密性。
 
 
-![BTC204](assets/fr/029.webp)
+![BTC204](assets/zh-Hant/029.webp)
 
 
 ### 防禦連鎖分析
@@ -484,7 +484,7 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 因此，我們在使用 Bitcoin 時，也需要能夠應付 Blockchain 的分析。如此一來，我們就可以將我們活動的聚集程度降到最低，並限制切入點對我們隱私權的影響。
 
 
-![BTC204](assets/fr/030.webp)
+![BTC204](assets/zh-Hant/030.webp)
 
 
 要反對 Blockchain 分析，還有什麼比了解其中使用的方法更好的方法呢？如果您想知道如何在 Bitcoin 上改善您的隱私，您就需要瞭解這些方法。這將讓您更能掌握 CoinJoin 或 PayJoin 等技術（我們將在課程的最後部分介紹這些技術），並減少您可能犯下的錯誤。
@@ -528,7 +528,7 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 - 和 Address 的再利用。
 
 
-![BTC204](assets/fr/031.webp)
+![BTC204](assets/zh-Hant/031.webp)
 
 
 資料來源：S. Nakamoto，「Bitcoin：點對點電子現金系統」，https://Bitcoin.org/Bitcoin.pdf，2009 年。
@@ -550,7 +550,7 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 換句話說，我們只會觀察輸入中的 UTXO 數量和輸出中的 UTXO 數量，而不會糾纏於交易的更多具體細節或環境。根據觀察到的模式，我們可以解讀交易的本質。接著，我們會尋找其結構的特徵，並推演出解釋。
 
 
-![BTC204](assets/fr/032.webp)
+![BTC204](assets/zh-Hant/032.webp)
 
 
 在本節中，我們將一併瞭解在連鎖分析中遇到的主要交易模式，對於每一種模式，我都會給您這個結構可能的詮釋，以及一個具體的範例。
@@ -562,7 +562,7 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 讓我們從一個很常見的模式開始，因為這是大多數 Bitcoin 付款上出現的模式。簡單付款模式的特徵是消耗一個或多個 UTXOs 作為輸入，生產 2 個 UTXOs 作為輸出。因此，這個模式是這樣的
 
 
-![BTC204](assets/fr/033.webp)
+![BTC204](assets/zh-Hant/033.webp)
 
 
 當我們在 Blockchain 上發現這個交易結構時，我們已經可以做出解釋。顧名思義，這個模型表示我們正在進行傳送或付款交易。使用者在輸入時消耗了自己的 UTXO，在輸出時滿足了付款 UTXO 和 Exchange UTXO（錢退回給同一使用者）。
@@ -582,7 +582,7 @@ b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 ```
 
 
-![BTC204](assets/fr/034.webp)
+![BTC204](assets/zh-Hant/034.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
@@ -600,7 +600,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb1
 第二種模式的特點是以單一 UTXO 的消耗量作為輸入，並以單一 UTXO 的產量作為輸出。
 
 
-![BTC204](assets/fr/035.webp)
+![BTC204](assets/zh-Hant/035.webp)
 
 
 這個模型的詮釋是，我們正處在一個自我轉移的場合。用戶把他的比特幣轉給了自己，轉給了屬於他的另一個 Address。由於交易中沒有 Exchange，我們極不可能是在進行付款。事實上，當進行付款時，付款人幾乎不可能擁有與賣方所需金額完全相對應的 UTXO，再加上交易費用。一般而言，付款人因此有義務產生一個 Exchange 輸出。
@@ -617,7 +617,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb1
 ```
 
 
-![BTC204](assets/fr/036.webp)
+![BTC204](assets/zh-Hant/036.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
@@ -635,7 +635,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/35f1072a0fda5ae106efb4fda87
 此模型的特點是在輸入端消耗數個 UTXO，在輸出端產生單個 UTXO。
 
 
-![BTC204](assets/fr/037.webp)
+![BTC204](assets/zh-Hant/037.webp)
 
 
 對這種模式的解讀是，我們正處於合併的時代。這是 Bitcoin 使用者常見的做法，目的在於合併數個 UTXO，以預見交易費用可能增加。在費用較低的期間執行此操作，可以節省未來的費用。我們會在第 4.3 章詳細討論這種做法。
@@ -655,7 +655,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/35f1072a0fda5ae106efb4fda87
 ```
 
 
-![BTC204](assets/fr/038.webp)
+![BTC204](assets/zh-Hant/038.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
@@ -664,7 +664,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b
 在連鎖分析中，這個模型可以揭示大量的資訊。舉例來說，如果我們知道其中一項輸入是屬於 Alice 的，我們就可以假設所有其他輸入和這項交易的輸出也是屬於她的。如此一來，我們就可以沿著之前的交易鏈往上追溯，以發現和分析可能與 Alice 有關的其他交易。
 
 
-![BTC204](assets/fr/039.webp)
+![BTC204](assets/zh-Hant/039.webp)
 
 
 ### 成組支出
@@ -673,7 +673,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b
 此模型的特點是消耗少數 UTXO 作為輸入（通常只有一個），並生產許多 UTXO 作為輸出。
 
 
-![BTC204](assets/fr/040.webp)
+![BTC204](assets/zh-Hant/040.webp)
 
 
 這個模型的詮釋是，我們正處於群組支出的狀態。這種做法很可能揭示了非常大的經濟活動，例如 Exchange 平台。群組化支出能讓這些實體將支出合併在單一交易中，從而節省成本。
@@ -690,7 +690,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b
 ```
 
 
-![BTC204](assets/fr/041.webp)
+![BTC204](assets/zh-Hant/041.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
@@ -702,7 +702,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/8a7288758b6e5d550897beedd13
 在交易模式中，我們也可以識別出那些顯示使用特定通訊協定的交易模式。例如，Whirlpool 硬幣接合（在第五部分討論）會有一個容易識別的結構，以區別於其他更常規的交易。
 
 
-![BTC204](assets/fr/042.webp)
+![BTC204](assets/zh-Hant/042.webp)
 
 
 分析此圖案顯示，我們很可能正處於合作交易的狀態。也有可能觀察到一個 CoinJoin。如果後一種假設被證實是正確的，那麼退出的次數可以讓我們粗略估計 CoinJoin 的參與者數目。
@@ -716,7 +716,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/8a7288758b6e5d550897beedd13
 ```
 
 
-![BTC204](assets/fr/043.webp)
+![BTC204](assets/zh-Hant/043.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
@@ -747,7 +747,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79e
 一般而言，這類啟發式方法可讓我們識別特定交易中的 Exchange。如此一來，我們就可以在幾個不同的交易中持續追蹤一個實體。事實上，如果我們識別出屬於我們想要追蹤的使用者的 UTXO，那麼當他進行交易時，就必須確定哪些輸出已轉移給其他使用者，哪些輸出代表 Exchange，因此 Exchange 仍由他持有。
 
 
-![BTC204](assets/fr/044.webp)
+![BTC204](assets/zh-Hant/044.webp)
 
 
 讓我再次提醒您，這些啟發式方法並非絕對精確。單獨來看，它們只能讓我們識別可能發生的情況。多種啟發式方法的累積有助於減少不確定性，但卻無法完全消除不確定性。
@@ -762,7 +762,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79e
 最明顯的特點是在相同的交易中重複使用接收 Address。
 
 
-![BTC204](assets/fr/045.webp)
+![BTC204](assets/zh-Hant/045.webp)
 
 
 這個啟發式的方法幾乎沒有讓人懷疑的空間。除非他的私密金鑰被駭客入侵，否則相同的接收 Address 必然會揭露單一使用者的活動。結果的解釋是交易 Exchange 是以相同的 Address 作為輸入的輸出。我們就可以從這個 Exchange 繼續追蹤這個人。
@@ -776,7 +776,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/00601af905bede31086d9b1b79e
 ```
 
 
-![BTC204](assets/fr/046.webp)
+![BTC204](assets/zh-Hant/046.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
@@ -785,7 +785,7 @@ Source : [Mempool.space](https://Mempool.space/tx/54364146665bfc453a55eae4bfb8fd
 輸入與輸出之間的這些相似性並不止於 Address 的重複使用。任何使用腳本的相似性都可以用來套用啟發式。舉例來說，有時候我們可以觀察到輸入與其中一個交易輸出之間有相同的版本。
 
 
-![BTC204](assets/fr/047.webp)
+![BTC204](assets/zh-Hant/047.webp)
 
 
 在此圖表中，我們可以看到輸入 n° 0 解鎖 P2WPKH 指令碼 (SegWit V0 以 `bc1q` 開頭)。輸出 n° 0 使用相同類型的腳本。另一方面，輸出 n° 1 使用 P2TR 指令碼 (SegWit V1，以 `bc1p` 開頭)。這個特徵的解釋是，與輸入具有相同版本的 Address 很可能是 Exchange Address。因此，它會永遠屬於同一個使用者。
@@ -799,7 +799,7 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ```
 
 
-![BTC204](assets/fr/048.webp)
+![BTC204](assets/zh-Hant/048.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
@@ -817,7 +817,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 另一個可以幫助我們識別 Exchange 的內部啟發式是圓數啟發式。一般而言，面對簡單的付款模式 (1 個輸入和 2 個輸出)，如果其中一個輸出花費的金額是整數，那麼這代表付款。
 
 
-![BTC204](assets/fr/049.webp)
+![BTC204](assets/zh-Hant/049.webp)
 
 
 根據排除法，如果一個輸出代表付款，另一個則代表 Exchange。因此，可以解釋為輸入使用者很可能始終擁有被識別為 Exchange 的輸出。
@@ -839,7 +839,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 一旦轉換成法定貨幣，此交易就可以用來應用整數付款啟發式。20 歐元的輸出可能流向商家，或至少改變了 Ownership。根據推論，41.27 歐元的輸出可能仍由原始使用者持有。
 
 
-![BTC204](assets/fr/050.webp)
+![BTC204](assets/zh-Hant/050.webp)
 
 
 如果有一天，Bitcoin 成為我們交流中的首選計算單位，這個啟發式的分析可能會更有用。
@@ -853,7 +853,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 ```
 
 
-![BTC204](assets/fr/051.webp)
+![BTC204](assets/zh-Hant/051.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
@@ -865,7 +865,7 @@ Source : [Mempool.space](https://Mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d
 當我們在一個簡單的支付模型上找出 2 個交易產出之間有足夠大的差距時，我們可以估計最大的產出可能是外國的 Exchange。
 
 
-![BTC204](assets/fr/052.webp)
+![BTC204](assets/zh-Hant/052.webp)
 
 
 這個最大輸出啟發式肯定是最不精確的。就其本身而言，它相當薄弱。不過，這個特徵可以與其他啟發式結合，以減少我們詮釋的不確定性。
@@ -882,7 +882,7 @@ b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 ```
 
 
-![BTC204](assets/fr/053.webp)
+![BTC204](assets/zh-Hant/053.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
@@ -910,7 +910,7 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 對於重複使用 Address 的詮釋是，在該 Address 上封鎖的所有 UTXO 均屬於 (或曾經屬於) 同一個實體。這種啟發式方法幾乎沒有留下不確定性的空間。一經識別，所得的詮釋很可能與現實相符。因此，它可以將不同的 onchain 活動歸類。
 
 
-![BTC204](assets/fr/054.webp)
+![BTC204](assets/zh-Hant/054.webp)
 
 
 正如在第三部分的介紹中所解釋的，這個啟發式是由 Satoshi Nakamoto 自己發現的。在白皮書中，他提到了一個幫助用戶避免產生這種情況的解決方案，那就是簡單地為每筆新交易使用空白的 Address：
@@ -919,7 +919,7 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 "_作為額外的防火牆，每筆交易都可以使用新的金鑰對，以保持它們與共同擁有者無關。
 
 
-![BTC204](assets/fr/055.webp)
+![BTC204](assets/zh-Hant/055.webp)
 
 
 資料來源：S. Nakamoto，「Bitcoin：點對點電子現金系統」，https://Bitcoin.org/Bitcoin.pdf，2009 年。
@@ -933,7 +933,7 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
 
-![BTC204](assets/fr/056.webp)
+![BTC204](assets/zh-Hant/056.webp)
 
 
 來源 : [Mempool.space](https://Mempool.space/Address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
@@ -954,7 +954,7 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 舉例來說，我們就可以識別出被追蹤的使用者有系統地將變更傳送至 P2TR 位址 (`bc1p...`)。如果這個過程重複發生，我們就可以將它作為啟發式來進行其餘的分析。我們也可以使用其他指紋，例如 UTXO 的順序、變更在輸出中的位置、RBF (Replace-by-fee) 訊號，或版本號碼、`nSequence`欄位和`nLockTime`欄位。
 
 
-![BTC204](assets/fr/057.webp)
+![BTC204](assets/zh-Hant/057.webp)
 
 
 正如[@LaurentMT](https://twitter.com/LaurentMT)在[Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji)（法語播客）中指出的，隨著時間的推移，投資組合指紋在連鎖分析中的用處正在顯著增加。事實上，腳本類型的不斷增加，以及投資組合軟體對這些新功能日益漸進式的部署，都突顯了這些差異。在某些情況下，甚至有可能識別出被追蹤實體所使用的確切軟體。因此，我們必須了解，投資組合足跡的研究對於近期的交易尤其重要，而非 2010 年代初期開始的交易。
@@ -969,19 +969,19 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 共同輸入 Ownership 啟發式 (CIOH) 是一種啟發式，指出當交易有多個輸入時，這些輸入都可能來自單一實體。因此，它們的 Ownership 是共通的。
 
 
-![BTC204](assets/fr/058.webp)
+![BTC204](assets/zh-Hant/058.webp)
 
 
 要應用 CIOH，我們首先要觀察一個有數個輸入的交易。這可能是 2 個輸入或 30 個輸入。一旦找出這個特徵，我們就會檢查交易是否符合已知的交易模式。例如，如果有 5 個金額大致相同的輸入和 5 個金額完全相同的輸出，我們就會知道這是 CoinJoin 的結構。我們將無法應用 CIOH。
 
 
-![BTC204](assets/fr/059.webp)
+![BTC204](assets/zh-Hant/059.webp)
 
 
 另一方面，如果交易不符合任何已知的協同交易模型，那麼我們可以解釋為所有輸入都可能來自同一個實體。這對於擴展已知的叢集或繼續追蹤非常有用。
 
 
-![BTC204](assets/fr/060.webp)
+![BTC204](assets/zh-Hant/060.webp)
 
 
 CIOH 是由 Satoshi Nakamoto 發現的。他在白皮書的第 10 部分談到了這一點：
@@ -990,7 +990,7 @@ CIOH 是由 Satoshi Nakamoto 發現的。他在白皮書的第 10 部分談到�
 "_[...]連結對於多筆交易是不可避免的，因為多筆交易必然會揭露它們的記項是由同一個所有人所持有。風險是，如果鑰匙的所有者被揭露，連結可能會揭露屬於同一所有者的其他交易。_"
 
 
-![BTC204](assets/fr/061.webp)
+![BTC204](assets/zh-Hant/061.webp)
 
 
 特別令人著迷的是，Satoshi 中本，甚至在 Bitcoin 正式推出之前，就已經找出使用者的兩個主要隱私漏洞，也就是 CIOH 和 Address 重複使用。這樣的先見之明相當不凡，因為這兩種啟發式方法即使到了今天，仍然是 Blockchain 分析中最有用的。
@@ -1004,7 +1004,7 @@ CIOH 是由 Satoshi Nakamoto 發現的。他在白皮書的第 10 部分談到�
 ```
 
 
-![BTC204](assets/fr/062.webp)
+![BTC204](assets/zh-Hant/062.webp)
 
 
 Source : [Mempool.space](https://Mempool.space/tx/20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712)
@@ -1028,7 +1028,7 @@ Source : [Mempool.space](https://Mempool.space/tx/20618e63b6eed056263fa52a2282c8
 頻道分析也包括稍為一般性的 OSINT (*Open Source Intelligence*) 元件，涉及網際網路搜尋。正因如此，我們建議不要直接在社交網路或網站上發佈地址，不論是否為假名。
 
 
-![BTC204](assets/fr/063.webp)
+![BTC204](assets/zh-Hant/063.webp)
 
 
 ### 時間模型
@@ -1060,7 +1060,7 @@ bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
 
-![BTC204](assets/fr/064.webp)
+![BTC204](assets/zh-Hant/064.webp)
 
 
 來源 : OXT.me
@@ -1158,7 +1158,7 @@ baa228f6859ca63e6b8eea24ffad7e871713749d693ebd85343859173b8d5c20
 讓我們想像一下 Loïc 在社交網路 Twitter 上發佈了他的一個 Bitcoin 接收地址：
 
 
-![BTC204](assets/fr/065.webp)
+![BTC204](assets/zh-Hant/065.webp)
 
 
 ```plaintext
@@ -1192,7 +1192,7 @@ bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
 在練習 5 之後，由於 Address 重複使用啟發式，您已經可以找出 Loïc 似乎有參與的幾個 Bitcoin 交易。現在您要找出 Loïc 從何而來。根據找到的交易，執行時間分析，找出 Loïc 最可能使用的時區。從這個時區，確定 Loïc 似乎居住的地點 (國家、州/地區、城市...)。
 
 
-![BTC204](assets/fr/066.webp)
+![BTC204](assets/zh-Hant/066.webp)
 
 
 ### 練習八
@@ -1423,7 +1423,7 @@ OP_CHECKMULTISIG
 ```
 
 
-![BTC204](assets/fr/066.webp)
+![BTC204](assets/zh-Hant/067.webp)
 
 
 UTC-7時區在夏季尤其重要，因為它包括諸如......等州和地區：
@@ -1499,7 +1499,7 @@ ___
 
 
 > 「*若要使用此新的 UTXO，您必須使用與此接收 Address 相關的私人金鑰提供數位簽章。*」
-![BTC204](assets/fr/067.webp)
+![BTC204](assets/zh-Hant/068.webp)
 
 
 Bitcoin 位址有不同的類型，取決於所使用的腳本模型。第一種模式稱為「傳統」，包括 `P2PKH` (*Pay-to-PubKey-Hash*) 和 `P2SH` (*Pay-to-Script-Hash*) 位址。P2PKH 位址總是以 `1` 開頭，而 P2SH 則以 `3` 開頭。雖然這些格式仍然安全，但現在已經過時，因為它們需要較高的交易成本，而且提供的保密性也比新標準低。
@@ -1539,7 +1539,7 @@ bc1ps5gd2ys8kllz9alpmcwxqegn7kl3elrpnnlegwkm3xpq2h8da07spxwtf5
 - 至於 `P2TR` 位址，其有效負載是經過調整的公開金鑰。P2TR 輸出結合了 _Pay-to-PubKey_ 和 _Pay-to-Script_ 兩種方式。經調整過的公開金鑰是在經典的花費公開金鑰上加上「調整」的結果，是由一套也可以用來花費比特幣的腳本的 Merkle Root 所衍生出來的。
 
 
-![BTC204](assets/fr/068.webp)
+![BTC204](assets/zh-Hant/069.webp)
 
 
 在您的組合軟體上顯示的位址也包括 HRP (*Human-Readable Part*) (通常為 SegWit 後位址的 `bc`)、`1` 分隔符，以及 SegWit V0 的版本號`q`和 Taproot/SegWit V1 的版本號`p`。還會加入校驗和，以保證 Address 在傳輸過程中的完整性和有效性。
@@ -1584,7 +1584,7 @@ Address 重複使用是指使用相同的接收 Address 來封鎖數個不同的
 
 
 > *作為額外的防火牆，每筆交易都可以使用一對新的金鑰，以保持它們與共同的所有者沒有連結*。
-![BTC204](assets/fr/055.webp)
+![BTC204](assets/zh-Hant/070.webp)
 
 
 資料來源：S. Nakamoto，「Bitcoin：點對點電子現金系統」，https://Bitcoin.org/Bitcoin.pdf，2009 年。
@@ -1596,7 +1596,7 @@ Satoshi 這句話的用意是在使用者的身分與 Bitcoin 上的配對密碼
 當您重複使用 Address 時，您會在與該 Address 相關的所有交易之間建立幾乎不可抹滅的連結。雖然這不會直接危及您的資金，因為橢圓曲線加密法保證了您私密金鑰的安全性，但卻讓您的活動更容易被監控。事實上，任何擁有節點的人都可以觀察地址的交易和餘額，完全損害您的匿名性。
 
 
-![BTC204](assets/fr/054.webp)
+![BTC204](assets/zh-Hant/071.webp)
 
 
 為了說明這一點，讓我們以 Bob 為例，Bob 是一個經常在 DCA 小額購買比特幣的用戶，他總是把比特幣發送到同一個 Address。兩年之後，這個 Address 包含了相當數量的比特幣。如果 Bob 使用這台 Address 向當地商家付款，後者就能看到所有相關的資金，並推算出 Bob 的財富。這可能導致個人安全風險，例如企圖盜竊或勒索。如果鮑勃使用空白的 Address 來接收每筆定期購買的款項，他向商家透露的資訊就會無限減少。
@@ -1617,13 +1617,13 @@ Satoshi 這句話的用意是在使用者的身分與 Bitcoin 上的配對密碼
 內部 Address 重複使用不是發生在跨越數個交易的重複使用，而是發生在單一交易內。事實上，如果用於鎖定輸入的相同 Address 被用作交易的輸出，那麼我們可以推斷此輸出仍屬於同一使用者 (Exchange)，而第二個輸出代表實際付款。這個其他的啟發式方法讓我們可以在幾個交易中持續追蹤資金。
 
 
-![BTC204](assets/fr/045.webp)
+![BTC204](assets/zh-Hant/072.webp)
 
 
 Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站（目前無法存取）的資料，2022 年 Bitcoin 上 Address 的整體重複使用率約為 52%：
 
 
-![BTC204](assets/fr/069.webp)
+![BTC204](assets/zh-Hant/073.webp)
 
 
 這個比率相當龐大，但絕大多數來自 Exchange 平台，而非個人使用者。
@@ -1638,7 +1638,7 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 感謝 BIP32，現代的組合現在是確定且分層的。這表示使用者可從單一初始資訊 seed 獲得大量地址。透過儲存這單一資訊，就可以還原組合中的所有私密金鑰，從而存取對應地址所保證的資金。
 
 
-![BTC204](assets/fr/070.webp)
+![BTC204](assets/zh-Hant/074.webp)
 
 
 這就是為什麼當您按下 Wallet 軟體中的「*接收*」按鈕時，每次都會建議一個未使用的接收 Address。在這個 Address 收到比特幣後，軟體會自動建議一個新的 Address。
@@ -1685,7 +1685,7 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 硬幣控制是優良 Bitcoin Wallet 軟體中的一項功能，讓您可以手動選擇特定的 UTXO 作為輸入來完成交易。事實上，為了滿足輸出付款，您需要消耗輸入 UTXO 作為回報。基於許多原因（我們稍後會詳細討論），您可能想要精確地選擇消耗哪些部分作為輸入，以滿足特定的付款。這正是硬幣控制可以讓您做到的。打个比方，这个功能类似于您在支付法棍时从 Wallet 中选择一个特定的硬币。
 
 
-![BTC204](assets/fr/071.webp)
+![BTC204](assets/zh-Hant/075.webp)
 
 
 使用具有硬幣控制功能的組合軟體，再加上 UTXO 標籤，讓使用者既能分辨又能精確地選擇UTXO 進行交易。
@@ -1711,7 +1711,7 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 - 更換沙發
 
 
-![BTC204](assets/fr/072.webp)
+![BTC204](assets/zh-Hant/076.webp)
 
 
 為了微調您的 UTXO 管理，並尊重您投資組合內的基金分離策略，您可以在標籤中加入額外的指標，以反映這些分離情況。如果您的投資組合包含兩種您不希望混雜的 UTXO 類別，您可以在標籤中加入標記，以清楚區分這些組別。這些區分標記取決於您自己的標準，例如區分涉及 KYC 的收購過程所產生的 UTXO，或區分專業基金與個人基金。以上述標籤範例為例，這可以轉換為
@@ -1725,7 +1725,7 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 - 沒有 KYC - 變更沙發購買
 
 
-![BTC204](assets/fr/073.webp)
+![BTC204](assets/zh-Hant/077.webp)
 
 
 此外，建議在交易過程中永久標示某個部分。例如，將 UTXO no-KYC 合併時，請務必在合併後的 UTXO 上標示「合併」，並特別標示「合併 no-KYC」，以便清楚記錄硬幣的來源。
@@ -1749,7 +1749,7 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 為了說明第一點，讓我們舉一個具體的例子。假設您用比特幣向麵包師傅買了一根法棍。您使用您持有的一個或多個 UTXO 作為輸入，至少滿足了法棍的價格輸出，以及交易費用。您的麵包師傅可能會將您的臉，或他知道的您身份的任何其他部分，與作為輸入的硬幣聯繫起來。知道這個連結的存在後，您在付款時可能會選擇特定的 UTXO 而不是其他。
 
 
-![BTC204](assets/fr/074.webp)
+![BTC204](assets/zh-Hant/078.webp)
 
 
 例如，如果您的其中一個 UTXO 來自 Exchange 平台，而您希望烘焙師不知道您在該平台上的帳戶，您會避免使用該 UTXO 付款。如果您有一個高價值的 UTXO，顯示了大量的比特幣，您可能也會選擇不使用它，以避免烘焙師知道您的 BTC 財富。
@@ -1761,19 +1761,19 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 除了可能透露給接收者的資訊之外，輸入的選擇也會影響您透露給所有 Blockchain 觀察者的資訊。事實上，根據 CIOH 啟發式 (_Common Input Ownership Heuristic_)，使用數個 UTXOs 作為交易的輸入，您會透露這些 UTXOs 屬於同一個實體。
 
 
-![BTC204](assets/fr/075.webp)
+![BTC204](assets/zh-Hant/079.webp)
 
 
 因此，在選擇零件時，您必須注意您要廣播的交易會在所有使用的 UTXOs 之間建立連結。此連結可能會對您的個人隱私造成問題，尤其是當 UTXO 來自不同來源時。
 
 
-![BTC204](assets/fr/076.webp)
+![BTC204](assets/zh-Hant/080.webp)
 
 
 以我從 Bisq 購買的無 KYC UTXO 為例，我希望避免將它與知道我身份的受監管 Exchange 平台的 UTXO 結合。事實上，如果我使用這兩個 UTXO 作為同一筆交易的輸入，受監管的平台將能夠將我的身份與我在 Bisq 上購買的 UTXO 連結起來，而 UTXO 之前並未與我的身份連結。
 
 
-![BTC204](assets/fr/077.webp)
+![BTC204](assets/zh-Hant/081.webp)
 
 
 最後，在選擇使用哪些 UTXO 作為交易的輸入時，最重要的是避免使用多個 UTXO。如果可以的話，最多選擇一個夠大的硬幣來滿足您的支付。這樣，您就完全避免了與 CIOH 相關的風險。但是，如果沒有一個 UTXO 足夠支付，而您需要消耗多個 UTXO，請確保它們來自相似的來源，以減少不必要的連結風險。同時請記住，收件人可能會將他們所持有的您的資訊與投入時所使用的硬幣歷史相關聯。
@@ -1830,7 +1830,7 @@ KYC 代表「認識您的客戶」。這是某些在 Bitcoin 部門營運的公�
 與 KYC 相關的第一個風險是，它為 Blockchain 分析提供了一個優越的切入點。正如我們在上一節所看到的，分析師可以使用交易模式和啟發式方法對 Blockchain 上的活動進行聚類和追蹤。一旦他們成功聚類使用者的 onchain 活動，他們所需要做的就是在他所有的交易和金鑰中找到一個單一的切入點，以完全洩露他的機密性。
 
 
-![BTC204](assets/fr/078.webp)
+![BTC204](assets/zh-Hant/082.webp)
 
 
 當您執行 KYC 時，您提供了一個高品質的 Blockchain 分析切入點，因為您將從 Exchange 平台提取比特幣時使用的接收地址與您的完整、經過驗證的身份相聯繫。理論上，只有您提供資訊的公司知道這些資訊，但正如我們將在下面看到的，資料洩漏的風險是真實存在的。更重要的是，即使公司沒有分享這些資訊，單是公司持有這些資訊的事實也可能會造成問題。
@@ -1839,7 +1839,7 @@ KYC 代表「認識您的客戶」。這是某些在 Bitcoin 部門營運的公�
 因此，如果您不採取其他步驟來限制您在 Blockchain 上活動的彙總，任何知道此 KYC 入口點的人都有可能將您在 Bitcoin 上的所有活動與您的身份聯繫起來。從該公司的觀點來看，您使用 Bitcoin 就失去了所有的保密性。
 
 
-![BTC204](assets/fr/079.webp)
+![BTC204](assets/zh-Hant/083.webp)
 
 
 用比較來說明這一點，就好像您在 *Bank X* 的銀行家不僅可以存取您在 *Bank X* 的所有交易，也可以觀察您在 *Bank Y* 的交易，以及您所有的現金交易。
@@ -1902,7 +1902,7 @@ KYC 的另一個問題是，它要求您的所有個人資料都儲存在私人�
 首先，認為保護通過 KYC 獲得的比特幣的隱私是沒有意義的是不準確的。Bitcoin上的隱私工具和方法是多種多樣的，服務於不同的目的。例如，在通過 KYC 獲得的比特幣上使用 CoinJoin 交易不是一個壞主意。當然，您需要小心使用受監管的 Exchange 平台，以避免帳戶被凍結或封禁，但從嚴格的技術角度來看，這些做法並非互不相容。CoinJoin 具有打破代幣歷史的效果，從而幫助您挫敗某些與 KYC 相關的連鎖分析風險。儘管它並不能消除所有風險，但它確實代表了一個顯著的好處。
 
 
-![BTC204](assets/fr/080.webp)
+![BTC204](assets/zh-Hant/084.webp)
 
 
 Bitcoin 上的保密性不應該以二元對立的方式來看待，將其視為 「匿名 」比特幣與其他非匿名比特幣之間的區別。擁有通過 KYC 獲得的比特幣並不意味著一切都失去了意義；相反，使用保密工具可以證明更加有益。
@@ -1938,19 +1938,19 @@ KYC 特指某些公司為了驗證和登記客戶身份而實施的監管程序�
 例如，如果您在瑞士的監管平台上購買比特幣，則不需要 KYC。但是，您的鑰匙可能會被識別出來，因為購買是通過您的銀行帳戶進行的。這時，與 KYC 相關的前兩個風險 - 促進鏈上追蹤和暴露於國家監控 - 也會在沒有 KYC 的 Exchange 中體現。如果瑞士實體向您所在國家的當局報告可疑交易，他們只需檢查用於購買的銀行帳戶即可發現您的身份。因此，在受監管的平台上不經 KYC 購買，在關鍵識別的風險等級上相當高。
 
 
-![BTC204](assets/fr/081.webp)
+![BTC204](assets/zh-Hant/085.webp)
 
 
 然而，避開受監管的平台並選擇 P2P 購買方式並不能完全消除鑰匙識別的風險，而只是降低了風險。讓我們以在 Bisq 或其他 P2P 平台上購買為例。要付款給交易對手，您可能會使用您的銀行帳戶。如果當局詢問與您交易的人，並問出您的姓名，我們又回到風險 1 和 2。儘管這些風險比在沒有 KYC 的平台上買入時要低得多，甚至比在有 KYC 的平台上買入時還要低，但還是會在較小程度上存在。
 
 
-![BTC204](assets/fr/082.webp)
+![BTC204](assets/zh-Hant/086.webp)
 
 
 最後，即使您透過實體 Exchange 以現金取得比特幣，您也不是完全匿名的。與您交換的人看到了您的臉，這是您身份的一部分。雖然在這個例子中微乎其微，但仍有可能被鑰匙識別。
 
 
-![BTC204](assets/fr/083.webp)
+![BTC204](assets/zh-Hant/087.webp)
 
 
 總之，當比特幣與其他資產交換時，無論是以國家貨幣購買或以實物兌換，總會有某種形式的鑰匙識別。根據所選擇的 Exchange 方法，這種識別的強度可能會有所不同。重要的是，不要將這種識別與 KYC 混淆，KYC 是一個明確的監管流程。然而，KYC 與識別頻譜之間是有關連的，因為 KYC 屬於頻譜的高端，因為它有系統地促進了主管機關對使用者金鑰的識別。
@@ -1972,13 +1972,13 @@ KYC 特指某些公司為了驗證和登記客戶身份而實施的監管程序�
 正如我們所見，就保密性而言，最好的方法仍然是 P2P（人對人）Exchange 與現金結算。這種方法可以讓您盡量減少留下的蛛絲馬跡，無論是買入還是賣出，都大大降低了鑰匙被識別的可能性。
 
 
-![BTC204](assets/fr/084.webp)
+![BTC204](assets/zh-Hant/088.webp)
 
 
 儘管如此，個人安全也存在風險。主要的危險在於，在 Exchange 期間，交易對方會知道您持有大筆現金或比特幣。這些資訊會引起惡意人士的注意。事實上，一般建議您對 Bitcoin 的持有量保持謹慎。這個建議也適用於現金。然而，當面交換時，不可避免地會透露您擁有比特幣，這可能會引起不愉快的注意。
 
 
-![BTC204](assets/fr/085.webp)
+![BTC204](assets/zh-Hant/089.webp)
 
 
 為了限制此風險，我建議您傾向與可信賴的人進行現金交易，例如家人或親密朋友。另外，您也可以考慮參加幾次 [當地 Bitcoin 聚會](https://btcmap.org/communities/map) 之後，在聚會中進行交易。這樣可以讓您更了解其他參與者，在進行實體交換時也不會感到孤單。然而，重要的是要認識到，P2P 現金交換對您的個人安全固有風險，而通過受監管的平台和您的銀行帳戶購買則不存在這些風險。
@@ -1993,7 +1993,7 @@ KYC 特指某些公司為了驗證和登記客戶身份而實施的監管程序�
 最後，P2P 購買的另一個缺點是價格通常高於受監管的平台。賣家通常會加價 1%，有時甚至超過 10%。造成這種價格差異的原因有幾個。首先，這是 P2P 賣家的普遍做法，隨著時間的推移已經形成。其次，賣家將資金寄送給買家的交易有相關費用。與平台交易相比，P2P 銷售中的盜竊風險也會增加，因此有理由對所承擔的風險進行補償。最後，額外成本可能與 Exchange 在保密性方面的需求和品質有關。作為買方，保密性的收益是有價格的，這反映在賣方的加價上。一些比特幣玩家也認為，在P2P上購買的BTC的加價價格反映了其真實的價格，並認為監管平台上較低的價格是您個人資料保密性受損的結果。
 
 
-![BTC204](assets/fr/086.webp)
+![BTC204](assets/zh-Hant/090.webp)
 
 
 ### 透過撮合平台進行 P2P 交換
@@ -2002,25 +2002,25 @@ KYC 特指某些公司為了驗證和登記客戶身份而實施的監管程序�
 就個人安全而言，風險較低的選擇是透過 PayPal、銀行轉帳或 Revolut 等電子付款方式，完全在線上進行 P2P 兌換。
 
 
-![BTC204](assets/fr/087.webp)
+![BTC204](assets/zh-Hant/091.webp)
 
 
 這種方式避免了許多與現金交易相關的風險。但是，在線上 Exchange 交易中，交易對方違約的風險較大。事實上，在實體的 Exchange 交易中，如果您把錢交給賣家，但賣家卻沒有把 bitcoins 寄給您作為回報，您可以立即要求他負責，因為他就站在您面前。另一方面，在網路上，往往無法追蹤到偷您錢的人。
 
 
-![BTC204](assets/fr/088.webp)
+![BTC204](assets/zh-Hant/092.webp)
 
 
 為了降低此風險，可以使用專門的 P2P 交換平台。這些平台使用衝突解決機制來保護受委屈的使用者。一般而言，它們提供託管系統，在賣方確認以法幣付款之前，比特幣都會被託管。
 
 
-![BTC204](assets/fr/089.webp)
+![BTC204](assets/zh-Hant/093.webp)
 
 
 就個人安全而言，這種購買方式比實體現金Exchange安全得多。然而，如上所述，線上 P2P 交換會比實體 Exchange 留下更多的痕跡，這可能會對 Bitcoin 上的隱私造成損害。使用銀行等線上法幣付款方式，您會暴露更多可能有助於鎖定識別的資訊。
 
 
-![BTC204](assets/fr/090.webp)
+![BTC204](assets/zh-Hant/094.webp)
 
 
 再次重申，我不建議在這些平台的單筆交易中進行過多的大額交易。透過分割交易，您可以分散交易對手盜用的風險。
@@ -2029,7 +2029,7 @@ KYC 特指某些公司為了驗證和登記客戶身份而實施的監管程序�
 再次，P2P 購買的另一個缺點是價格通常高於受監管平台的價格。賣家通常會加價 1%，有時甚至超過 10%。造成這種價格差異的原因有幾個。首先，這是 P2P 賣家的常見做法，隨著時間的推移已經形成。其次，賣家需要支付相關的交易費用，才能將資金寄送給買家。與平台交易相比，P2P 銷售中的盜竊風險也會增加，因此有理由對所承擔的風險進行補償。最後，額外成本可能與 Exchange 在保密性方面的需求和品質有關。作為買方，保密性的收益是有價格的，這反映在賣方的加價上。一些比特幣玩家也認為，在P2P上購買的BTC的加價價格反映了它的真實價格，並認為在受監管的平台上較低的價格是對您個人資料的保密性妥協的結果。
 
 
-![BTC204](assets/fr/086.webp)
+![BTC204](assets/zh-Hant/095.webp)
 
 
 就解決方案而言，我個人一直使用 [Bisq](https://bisq.network/)，而且非常滿意。他們的系統經過測試，看起來很可靠。不過，Bisq 只能在 PC 上使用，而且它的 Interface 對初學者來說可能太複雜。另一個缺點是，Bisq 僅使用 onchain 交易，這在 Bitcoin 交易費用高昂的時期可能變得昂貴。
@@ -2069,7 +2069,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-![BTC204](assets/fr/091.webp)
+![BTC204](assets/zh-Hant/096.webp)
 
 
 ### 沒有 KYC 的受監管平台
@@ -2095,7 +2095,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 另一個無需 KYC 即可買賣比特幣的選擇是加密貨幣 ATM。就我個人而言，我從來沒有機會測試這種解決方案，因為在我的國家裡沒有。但這種方法可能非常有趣，這取決於你住在哪裡。
 
 
-![BTC204](assets/fr/092.webp)
+![BTC204](assets/zh-Hant/097.webp)
 
 
 自動櫃員機的問題在於，有些國家禁止使用自動櫃員機，有些國家則高度管制自動櫃員機。如果自動提款機需要身份驗證程序，那麼它所面臨的風險與受 KYC 監管的平台所固有的風險相同。另一方面，如果自動提款機允許進行小額交易而無需身份驗證，那麼使用自動提款機可以提供與 P2P 現金 Exchange 相當的保密性，同時避免與此類 Exchange 相關的大部分風險。
@@ -2118,7 +2118,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-![BTC204](assets/fr/093.webp)
+![BTC204](assets/zh-Hant/098.webp)
 
 
 ### 其他獲取方法
@@ -2161,7 +2161,7 @@ Bitcoin 的運作方式類似拍賣市場，礦工會優先考慮提供最低費
 - 交易 B 是更複雜的交易，有 2 個輸入和 2 個輸出，分配 2,640 Sats 的費用，重量為 220 vB。
 
 
-![BTC204](assets/fr/094.webp)
+![BTC204](assets/zh-Hant/099.webp)
 
 
 在這個範例中，雖然交易 B 提供較高的總費用，但礦工會偏好交易 A，因為它在費用和權重之間提供較好的比率。以下是每筆交易的計算方式，以每虛擬位元組 (sat/vB) 的 Sats 表示：
@@ -2176,7 +2176,7 @@ TXB : 2640 / 220 = 12 sats / vB
 這表示對於每單位重量，交易 A 提供的成本比交易 B 高，即使交易 B 提供的絕對成本較高。
 
 
-![BTC204](assets/fr/095.webp)
+![BTC204](assets/zh-Hant/100.webp)
 
 
 因此，對使用者來說，在交易中消耗盡可能少的輸入總是比較有趣的。但是，您需要消耗足夠的數量才能滿足輸出付款。在管理投資組合時，您需要有足夠大的 UTXO。
@@ -2185,7 +2185,7 @@ TXB : 2640 / 220 = 12 sats / vB
 合併的原則正是利用 Bitcoin 費用低廉的時期，將較小的 UTXO 合併為單一較大的 UTXO。如此一來，當 Bitcoin 上的費用上升時，您就能以最少的投入進行交易，因此絕對花費較少。因此，我們的目標是預測在高費用期間必須進行的交易。
 
 
-![BTC204](assets/fr/096.webp)
+![BTC204](assets/zh-Hant/101.webp)
 
 
 除了節省交易成本之外，整合 UTXO 還有助於防止形成「Dust」。Dust "指的是在 Sats 中價值低到不足以支付花費所需交易成本的 UTXO。這使得只要交易成本居高不下，使用這些 UTXO 在經濟上就是不合理的。透過主動匯集您的 UTXOs，您可以防止它們變成 Dust，確保您所有的資金仍然可用。
@@ -2230,13 +2230,13 @@ $$
 Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ownership 啟發式*），它假設 Bitcoin 交易的所有輸入都屬於同一個實體。合併的原則就是消耗數個 UTXO 作為輸入，並建立單一 UTXO 作為輸出。因此，合併可以應用 ICOH。
 
 
-![BTC204](assets/fr/097.webp)
+![BTC204](assets/zh-Hant/102.webp)
 
 
 實際上，這表示外部觀察者可以推斷所有合併的 UTXO 很可能屬於同一個人，而產生的唯一輸出也屬於他或她。這種情況會將不同的交易歷史聯繫起來，危及您的機密性。例如，假設我將透過 P2P 取得的 3 個 UTXO 與透過需要 KYC 的平台取得的 1 個 UTXO 合併：
 
 
-![BTC204](assets/fr/098.webp)
+![BTC204](assets/zh-Hant/103.webp)
 
 
 這樣一來，任何可以存取 Exchange 平台資料的實體（可能包括政府機構），都可以識別出我擁有其他數量的 BTC。在此之前，這些 UTXOs 與我的身份沒有直接關聯，但現在有了。更重要的是，它會向所有來源透露我擁有一定數量的比特幣。
@@ -2282,13 +2282,13 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 除了這些好處之外，使用完整的節點還可以提高您在廣播交易時的機密性。當您發佈交易時，它會先透過您的 Wallet 建立並簽署。若要在 Bitcoin 網路上廣播，必須至少有一個節點知道它。透過使用您自己的節點，您可以直接控制此分發，從而加強您的機密性，並限制資料外洩的風險。
 
 
-![BTC204](assets/fr/099.webp)
+![BTC204](assets/zh-Hant/104.webp)
 
 
 如果您沒有自己的 Bitcoin 節點，您將不得不使用第三方節點，例如您的 Wallet 軟體供應商所提供的節點。除了廣播交易之外，您的 Wallet 還需要存取各種資訊，例如待處理的交易、與您地址相關的餘額，以及交易確認的次數。要存取所有這些資料，您需要查詢節點。
 
 
-![BTC204](assets/fr/100.webp)
+![BTC204](assets/zh-Hant/105.webp)
 
 
 當您不是使用自己的 Bitcoin 節點時，主要的風險是第三方節點的操作者可能會觀察到您在 Blockchain 上的活動，甚至與其他實體分享這些資訊。為了限制此風險，一個中間解決方案是使用 Wallet 軟體，透過 Tor 隱藏您的連線。這可以減少您的資料曝光。然而，最佳的解決方案是擁有自己的 Bitcoin 節點，並使用它來廣播您的交易。當然，您也需要小心不要透過您的節點洩漏任何資訊，但這也是我們稍後會討論的另一個主題。
@@ -2312,7 +2312,7 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 一般而言，只要最新的腳本標準已被充分採用，選擇最新的腳本標準會比較明智。因此，如果在 2022 年，我會建議不要使用 P2TR (Taproot)，因為它的採用率很低，那麼到了 2024 年，我會建議改用這類腳本，如果不行，也可以使用 SegWit V0 腳本，因為使用 P2TR 的交易數量已經開始佔相當大的比例。
 
 
-![BTC204](assets/fr/101.webp)
+![BTC204](assets/zh-Hant/106.webp)
 
 
 來源 : [txstats.com](https://txstats.com/d/000000054/UTXO-set-repartition-by-output-type)
@@ -2321,7 +2321,7 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 另一個保密技巧是嘗試繞過內部交易啟發式處理。例如，在付款時，您可以嘗試避免建立金額為整數的輸出，因為這可能是其他輸出代表外國 Exchange 的訊號。如果您需要傳送 100 k Sats 給朋友，可以考慮傳送稍微高一點的金額來逃避這個啟發式。同樣地，儘量不要建立與所付金額不成比例的外國 Exchange 輸出，因為這也可能透露出哪一個輸出代表外國 Exchange。
 
 
-![BTC204](assets/fr/102.webp)
+![BTC204](assets/zh-Hant/107.webp)
 
 
 最後，如果您定期執行 Bitcoin 交易，請確保不要總是在相同的時間播送。將交易的廣播時間分散在一天或一週之內，就可以避免讓外部觀察者有機會偵測到以時區為基礎的時間模式，進而強化他們的分析。
@@ -2358,7 +2358,7 @@ CoinJoin 是一種在 Blockchain 上破解 Bitcoin 追蹤的技術。它以具�
 正如我們在本課程的前半部分所看到的，Bitcoin 的交易是所有使用者透過他們的節點所知道的。因此很容易檢查每個硬幣的電子簽章鏈，並觀察其歷史。這表示所有使用者都可以嘗試分析其他使用者的交易。因此，交易層級的匿名性是不可能的。但是，匿名性在個人識別層面上卻得以保留。在傳統銀行系統中，每個帳戶都與個人身份相關聯，而在 Bitcoin 上則不同，資金與密碼匙對（或腳本）相關聯，在密碼識別符後為使用者提供了一種假名形式。
 
 
-![BTC204](assets/fr/103.webp)
+![BTC204](assets/zh-Hant/108.webp)
 
 
 當外部觀察者能將特定的 UTXOs 與已識別的使用者聯繫起來時，Bitcoin 的機密性就會受到破壞。一旦建立這種關聯，就有可能追蹤他們的交易並分析他們的 Bitcoin 歷史。CoinJoin 正是為了打破 UTXOs 的可追蹤性而開發的技術，目的是在交易層面上為 Bitcoin 用戶提供一定的 Layer 保密性。
@@ -2370,7 +2370,7 @@ Coinjoins 可讓外部觀察者更複雜地進行連鎖分析，從而加強 Bit
 重要的是要了解 CoinJoin 交易的目的是打破硬幣的歷史。此技術不會賦予永久匿名性或完全阻止 Bitcoin 追蹤，這與您的想法剛好相反。CoinJoin 只會在進行 CoinJoin 交易時破壞歷史記錄。然而，在此操作之前和之後，硬幣在機密性方面仍然面臨相同的風險。
 
 
-![BTC204](assets/fr/104.webp)
+![BTC204](assets/zh-Hant/109.webp)
 
 
 ### 共同接合如何運作？
@@ -2379,13 +2379,13 @@ Coinjoins 可讓外部觀察者更複雜地進行連鎖分析，從而加強 Bit
 CoinJoin 原則是基於一種協作方式：希望混合比特幣的多位使用者存入相同數額的比特幣作為同一筆交易的輸入。這些金額會以等值的輸出重新分配給每個使用者。
 
 
-![BTC204](assets/fr/105.webp)
+![BTC204](assets/zh-Hant/110.webp)
 
 
 在交易結束時，就無法將特定的輸出與稱為輸入的使用者聯繫起來。輸入與輸出之間沒有直接連結，這就打破了使用者與其 UTXOs 之間的關聯，也打破了每個零件的歷史。
 
 
-![BTC204](assets/fr/106.webp)
+![BTC204](assets/zh-Hant/111.webp)
 
 
 讓我們以 Alice 為例。她想寄約 100,000 Sats 給她的妹妹 Eve 作為生日禮物。然而，Alice 不希望 Eve 可以追蹤她的交易歷史，因為她不想透露她有多少比特幣，或是她是如何得到這些比特幣的。為此，Alice 決定用 CoinJoin 交易來打破她的 UTXO 歷史。她組織了 Bob、Charles、David 和 Frank 進行合作交易：
@@ -2396,7 +2396,7 @@ CoinJoin 原則是基於一種協作方式：希望混合比特幣的多位使�
 - Alice、Bob、Charles、David 和 Frank 各承諾 105,000 Sats 的 UTXO (其中 5,000 Sats 為 Mining 費用) 作為交易的輸入：
 
 
-![BTC204](assets/fr/107.webp)
+![BTC204](assets/zh-Hant/112.webp)
 
 
 
@@ -2404,7 +2404,7 @@ CoinJoin 原則是基於一種協作方式：希望混合比特幣的多位使�
 - 作為消耗這些輸入的回報，每個人都會產生空白的 Address，以建立五個相同的輸出，每個輸出 100,000 Sats。每個取回一個輸出：
 
 
-![BTC204](assets/fr/108.webp)
+![BTC204](assets/zh-Hant/113.webp)
 
 
 
@@ -2412,7 +2412,7 @@ CoinJoin 原則是基於一種協作方式：希望混合比特幣的多位使�
 - Alice 發現自己有一筆 UTXO 的 100,000 Sats，其歷史被搞混了。她在新的交易中使用這個 UTXO，將這筆錢寄給 Eve 作為她的生日禮物：
 
 
-![BTC204](assets/fr/109.webp)
+![BTC204](assets/zh-Hant/114.webp)
 
 
 
@@ -2420,7 +2420,7 @@ CoinJoin 原則是基於一種協作方式：希望混合比特幣的多位使�
 - 如果 Eve 嘗試分析這筆交易來擷取資訊，她會面對涉及 Alice、Bob、Charles、David 和 Frank 的 CoinJoin 交易。由於金額的一致性，Eve 無法區分哪些輸入是屬於誰的，因此無法追蹤 Alice 的 UTXO 歷史，也無法確定她妹妹擁有多少比特幣，或她是如何取得這些比特幣的：
 
 
-![BTC204](assets/fr/110.webp)
+![BTC204](assets/zh-Hant/115.webp)
 
 
 在這個案例中，Alice 使用 CoinJoin 技術來增加回溯分析的保密性。實際上，Alice 是在保護自己不受 Eve 可能的分析，因為 Eve 會從特定的交易開始，向後追溯 UTXO 的歷史。這種防止從現在到過去的分析，稱為回溯性保密。我們會在本節的最後幾章更詳細地探討這個概念。
@@ -2434,7 +2434,7 @@ CoinJoin 原則是基於一種協作方式：希望混合比特幣的多位使�
 - Eve、Grace、Mallory、Oscar 和 Victor 各自投入 98,000 Sats 的 UTXO，作為 Bitcoin 交易的輸入：
 
 
-![BTC204](assets/fr/111.webp)
+![BTC204](assets/zh-Hant/116.webp)
 
 
 
@@ -2442,7 +2442,7 @@ CoinJoin 原則是基於一種協作方式：希望混合比特幣的多位使�
 - 作為消耗這些輸入的回報，每個使用者提供一個空白的 Address，用來建立 5 個 97,500 個完全相等的 Sats 輸出。每位使用者得到一個輸出：
 
 
-![BTC204](assets/fr/112.webp)
+![BTC204](assets/zh-Hant/117.webp)
 
 
 
@@ -2450,13 +2450,13 @@ CoinJoin 原則是基於一種協作方式：希望混合比特幣的多位使�
 - Eve 現在持有 97,500 Sats 的 UTXO，其歷史已被打破。她可以放心地用它來進行未來的交易。事實上，如果 Alice 試著追蹤她寄給 Eve 的 bitcoins，她會遇到 CoinJoin 交易。她將無法判斷哪一個寄出的 UTXO 屬於 Eve。分析變得不可能：
 
 
-![BTC204](assets/fr/113.webp)
+![BTC204](assets/zh-Hant/118.webp)
 
 
 在第一個範例中，我們看到 CoinJoin 如何保護與房間過去相關的隱私，而在第二個範例中，我們也看到 CoinJoin 如何保護與房間未來相關的歷史。這就是為什麼我提到 CoinJoin 應該被視為一個一次性的事件，在兩個方向上分割出一部分歷史：
 
 
-![BTC204](assets/fr/104.webp)
+![BTC204](assets/zh-Hant/119.webp)
 
 
 ### 混音器、CoinJoin、混音器...有什麼不同？
@@ -2468,7 +2468,7 @@ Coinjoins 有時被描述為 "mixers"，一些比特幣玩家拒絕使用這個�
 在一般的數學領域中，混合是指動力系統的一種特性，在經過一段時間後，理論上初始空間的所有部分都可以與其他任何部分混合。混合意味著粒子的位置或系統的狀態會以這樣的方式演變：它的未來分佈與它的初始分佈無關，從而達到初始狀態的特性均勻地分佈在整個系統空間的狀態。這正是比特幣在 CoinJoin 中發生的情況。因此，在我看來，CoinJoin 是真正的混幣方法。
 
 
-![BTC204](assets/fr/114.webp)
+![BTC204](assets/zh-Hant/120.webp)
 
 
 另一方面，將 CoinJoin 與 shuffler 區分開來是很重要的。洗幣機是用戶將其比特幣送去洗幣的服務。這些服務在 2010 年代很流行，但由於與 CoinJoin 相比有兩大缺點，其使用量已經下降：
@@ -2480,7 +2480,7 @@ Coinjoins 有時被描述為 "mixers"，一些比特幣玩家拒絕使用這個�
 - 無法保證混音器不會記錄交易詳細資訊，甚至將這些資訊賣給連鎖分析公司。
 
 
-![BTC204](assets/fr/115.webp)
+![BTC204](assets/zh-Hant/121.webp)
 
 
 因此，現今的使用者偏好 CoinJoin，因為 CoinJoin 可讓他們在整個過程中完全掌控自己的資金。CoinJoin 的參與者不會有比特幣被其他參與方盜取的風險。讓我們在下一章看看這一切是如何實現的。
@@ -2499,7 +2499,7 @@ CoinJoin 所提供的隱密性是由我們的作品所隱藏的群體大小來�
 這就是 CoinJoin 協調員在 Bitcoin 上發展的原因。他們的角色是讓不同的使用者互相聯繫，並傳送完成協同交易所需的資訊。
 
 
-![BTC204](assets/fr/116.webp)
+![BTC204](assets/zh-Hant/122.webp)
 
 
 但我們如何能確保統籌者永遠不會染指使用者的比特幣，儘管他是建置 CoinJoin 交易的人，我們如何能確保他無法連結使用者的輸入和輸出，這可能構成機密洩漏？
@@ -2514,7 +2514,7 @@ CoinJoin 所提供的隱密性是由我們的作品所隱藏的群體大小來�
 Chaum 的盲簽章是數位簽章的一種形式，簽章的簽發者不知道他要簽章的訊息內容。但是簽章可以根據原始訊息進行驗證。此技術由密碼學家 David Chaum 於 1983 年開發。
 
 
-![BTC204](assets/fr/117.webp)
+![BTC204](assets/zh-Hant/123.webp)
 
 
 讓我們以一家公司為例，該公司希望在不洩露機密文件（如 Contract）內容的情況下對其進行驗證。該公司採用一種遮蔽程序，以可逆方式對原始文件進行加密轉換。此修改後的文件會傳送給認證機構，認證機構會在不知道基本內容的情況下附上盲簽章。公司收到已簽署的文件後，就會鬆開簽署。結果是一份原始文件經由認證機關的簽名認證，而認證機關從未看過原始內容。
@@ -2540,7 +2540,7 @@ CoinJoin 的交易建構過程包含 3 個主要階段：輸入登記、輸出�
 - Alice 傳送 UTXO 到協調器，她希望使用 UTXO 作為交易的輸入，以及她希望使用遮罩的接收 Address 作為輸出，以接收她的 bitcoins。因此，協調器無法知道 Alice 的 Address。它只能看到她的遮罩版本：
 
 
-![BTC204](assets/fr/118.webp)
+![BTC204](assets/zh-Hant/124.webp)
 
 
 
@@ -2548,7 +2548,7 @@ CoinJoin 的交易建構過程包含 3 個主要階段：輸入登記、輸出�
 - 協調員檢查輸入的有效性，然後用他的私人金鑰簽署 Alice 的遮蔽 Address。他會將盲簽章回傳給 Alice：
 
 
-![BTC204](assets/fr/119.webp)
+![BTC204](assets/zh-Hant/125.webp)
 
 
 **步驟 2：輸出登錄**
@@ -2559,7 +2559,7 @@ CoinJoin 的交易建構過程包含 3 個主要階段：輸入登記、輸出�
 - Alice 可以解除她的 Address，現在已經由協調者的私人金鑰簽章。她會以不同的 Tor 身分建立新的連線。協調者無法識別出以這個新身分連線的是 Alice：
 
 
-![BTC204](assets/fr/120.webp)
+![BTC204](assets/zh-Hant/126.webp)
 
 
 
@@ -2567,7 +2567,7 @@ CoinJoin 的交易建構過程包含 3 個主要階段：輸入登記、輸出�
 - Alice 將解除遮罩的 Address 和簽章傳送給協調者 (協調者仍不知道是 Alice)：
 
 
-![BTC204](assets/fr/121.webp)
+![BTC204](assets/zh-Hant/127.webp)
 
 
 **步驟 3：簽署交易**
@@ -2578,7 +2578,7 @@ CoinJoin 的交易建構過程包含 3 個主要階段：輸入登記、輸出�
 - 以同樣的方式，協調員從所有參與者擷取未被遮蔽的輸出。由於有了相關的簽章，他可以檢查每個匿名提交的輸出是否事先經由他的私人金鑰簽章，從而保證它們的合法性。然後，他就可以建立 CoinJoin 交易，並發送給參與者簽署：
 
 
-![BTC204](assets/fr/122.webp)
+![BTC204](assets/zh-Hant/128.webp)
 
 
 
@@ -2586,7 +2586,7 @@ CoinJoin 的交易建構過程包含 3 個主要階段：輸入登記、輸出�
 - Alice 和其他參與者一樣，會檢查她的輸入和輸出是否正確地包含在協調者建構的交易中。如果一切都令人滿意，她就會將解鎖輸入腳本的簽章傳送給協調者：
 
 
-![BTC204](assets/fr/123.webp)
+![BTC204](assets/zh-Hant/129.webp)
 
 
 
@@ -2616,7 +2616,7 @@ CoinJoin 的交易建構過程包含 3 個主要階段：輸入登記、輸出�
 Maxwell, G. (2013, August 22). *CoinJoin：Bitcoin 現實世界的隱私*.BitcoinTalk 論壇. https://bitcointalk.org/index.php?topic=279249.0
 
 
-![BTC204](assets/fr/124.webp)
+![BTC204](assets/zh-Hant/130.webp)
 
 
 然而，還有其他更早的提法，既有Chaum簽名作為混合的一部分，也有Coinjoins。[2011年6月，Duncan Townsend在BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0)上展示了一個混合器，它使用Chaum簽名的方式與現代的Chaumian Coinjoins非常相似。
@@ -2625,7 +2625,7 @@ Maxwell, G. (2013, August 22). *CoinJoin：Bitcoin 現實世界的隱私*.Bitcoi
 在同一主題中，我們可以找到[hashcoin回應Duncan Townsend的訊息](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)，以改善他的混音器。這則訊息所描述的過程正是coinjoins的目的。在 [Alex Mizrahi 在 2012 年的一則訊息](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry) 中也可以找到類似系統的提法，當時他正在為 Tenebrix 的創造者提供建議，Tenebrix 是最早的另類幣之一，也是後來創造 Litecoin 的基礎。甚至「CoinJoin」一詞本身據說也不是 Greg Maxwell 創造的，而是來自 Peter Todd 的想法。
 
 
-![BTC204](assets/fr/125.webp)
+![BTC204](assets/zh-Hant/131.webp)
 
 
 ### Zerolink
@@ -2634,25 +2634,25 @@ Maxwell, G. (2013, August 22). *CoinJoin：Bitcoin 現實世界的隱私*.Bitcoi
 Zerolink 是一個全面的混合協定，它結合了 Chaumian coinjoins 和各種策略，以保護使用者的匿名性，防止幾種形式的鏈分析，特別是通過最小化與投資組合管理相關的錯誤。此協定 [由 nopara73 和 TDevD 於 2017 年推出](https://github.com/nopara73/ZeroLink/blob/master/README.md)。
 
 
-![BTC204](assets/fr/126.webp)
+![BTC204](assets/zh-Hant/132.webp)
 
 
 顧名思義，Zerolink 背後的原理是建立 CoinJoin 交易，以確保無法追蹤輸入和輸出之間的連結。這是透過確保所有輸出都有完全相同的金額來達成的。
 
 
-![BTC204](assets/fr/127.webp)
+![BTC204](assets/zh-Hant/133.webp)
 
 
 Zerolink 採取的一項重要預防措施，是使用獨立的密碼金鑰集，甚至是獨立的組合，將未混合的 UTXO 與混合的 UTXO 完全分開。這可以區分 「*預混合*」Wallet 與 "*post-mix*" 的區別。Wallet 的區別。
 
 
-![BTC204](assets/fr/128.webp)
+![BTC204](assets/zh-Hant/134.webp)
 
 
 這種嚴格的 UTXO 分離首先是為了防止混合 UTXO 與未混合 UTXO 之間的意外關聯。事實上，如果發生這樣的連結，CoinJoin 對混合 UTXO 的效用就會在使用者不知情的情況下被取消，進而損害 UTXO 的機密性，而使用者還以為他已經破壞了 UTXO 的歷史。如果使用者將混合和未混合的 UTXOs 當作同一交易的輸入來消耗，這些連結可能會透過 Address 重複使用於混合 UTXO 與未混合 UTXO 的保證上，或是透過 CIOH (_Common-Input-Ownership Heuristic_) 的應用而發生。透過分開混合前和混合後的組合，我們可以避免這種意外的關聯，並保護使用者免於無心之失。
 
 
-![BTC204](assets/fr/129.webp)
+![BTC204](assets/zh-Hant/135.webp)
 
 
 這種分離也提供了在組合軟體層級上，在前混合組合與後混合組合之間應用不同規則的可能性。例如，在混合後組合中，軟體可以禁止將 UTXO 合併到輸入中，以防止應用 CIOH，因為這會損害使用者的 anonset。也可以標準化腳本和交易選項（例如 RBF 報告）的使用，以防止 Wallet 指紋的識別。
@@ -2690,7 +2690,7 @@ Zerolink 採取的一項重要預防措施，是使用獨立的密碼金鑰集�
 JoinMarket 由 Adam Gibson 和 Chris Belcher 於 2015 年創立，因其獨特的使用者連結模式，從其他 CoinJoin 實作中脫穎而出。該系統是基於一個 P2P Exchange 市場，其中一些使用者，即「製造者」，提供他們的比特幣以供混合，而其他使用者，即「接受者」，則使用這些現金進行 Coinjoins，以換取一定的費用。
 
 
-![BTC204](assets/fr/130.webp)
+![BTC204](assets/zh-Hant/136.webp)
 
 
 在此模式中，「製造者 」將其比特幣提供給 「接受者」，並收取服務費。而 「接受者 」則付費使用 「製造者 」的比特幣進行自己的 CoinJoin 交易。服務費依所扮演的角色而有所不同：「製造者 」因提供流動性而累積費用，而 「接受者 」則支付費用。市場自由運作，沒有使用條件。
@@ -2699,7 +2699,7 @@ JoinMarket 由 Adam Gibson 和 Chris Belcher 於 2015 年創立，因其獨特�
 JoinMarket 的主要缺點之一是使用上的複雜性，需要對終端機有一定程度的熟悉才能有效操作。雖然這種複雜性對有經驗的使用者來說不是障礙，但可能會限制一般大眾的使用。不過，最近推出的網頁 Interface (稱為 JAM) 使其使用更為簡便。
 
 
-![BTC204](assets/fr/131.webp)
+![BTC204](assets/zh-Hant/137.webp)
 
 
 來源 : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
@@ -2720,7 +2720,7 @@ JoinMarket 的主要缺點之一是使用上的複雜性，需要對終端機有
 Wabisabi 是另一個 CoinJoin 實作，採用集中交易協調的方式。這個模型是由 Ádám Ficsór (nopara73)、Yuval Kogman、Lucas Ontivero 和 István András Seres 在 2021 年構思的，並在翌年整合到 Wasabi 2.0 軟體中。Wabisabi 正是 2018 年推出的 Wasabi 軟體 CoinJoin 機型的進化版。
 
 
-![BTC204](assets/fr/132.webp)
+![BTC204](assets/zh-Hant/138.webp)
 
 
 在 2010 年代末期，Wasabi 採用了與 Whirlpool 完全不同的 CoinJoin 交易結構。Wasabi 使用涉及數十個參與者的大型 CoinJoin 交易來增加參與者的 anonsets。相比之下，Whirlpool 選擇了多筆小額交易，使 anonsets 在每個週期都呈指數級增長。
@@ -2729,7 +2729,7 @@ Wabisabi 是另一個 CoinJoin 實作，採用集中交易協調的方式。這�
 Exchange 的管理方法也區別了兩種實作。對於 Whirlpool，由於 TX0 的關係，外來 Exchange 在 CoinJoin 循環之前被排除並與 UTXOs 隔離，這個概念我會在下一章進一步說明。另一方面，在 Wasabi 中，外來 Exchange 形成 CoinJoin 交易的輸出之一，維持某些輸入和輸出之間的確定連結。
 
 
-![BTC204](assets/fr/133.webp)
+![BTC204](assets/zh-Hant/139.webp)
 
 
 有了 Wabisabi，Wasabi 版本 2.0 已經調整了其錢幣接合的方式，以符合 Whirlpool 的方式。雖然 CoinJoin 交易仍然非常大，但現在可以依循 Whirlpool 模型，連續串接數個循環。此外，Wabisabi 也特別注意 Exchange 的兌換率管理：Wasabi 1.0 版本的 Exchange 兌換率直接與使用者的輸入掛鈎，但 Wabisabi 則不同，Wabisabi 嘗試將 Exchange 兌換率細分為數個小數目，並將所有參與者分成相等的面額。
@@ -2738,13 +2738,13 @@ Exchange 的管理方法也區別了兩種實作。對於 Whirlpool，由於 TX0
 讓我們以一個只涉及 2 位使用者的簡化範例來說明：Alice 希望混合 115,000 Sats，Bob 希望混合 210,000 Sats。忽略費用，在Wasabi 1.0中，CoinJoin交易會產生3個100,000 Sats的輸出，加上Alice的1個15,000 Sats的Exchange和Bob的1個10,000 Sats的Exchange。Exchange 輸出仍會連結至輸入：
 
 
-![BTC204](assets/fr/134.webp)
+![BTC204](assets/zh-Hant/140.webp)
 
 
 根據 Wabisabi，相同的交易會產生 3 筆 100,000 Sats 的輸出和 5 筆 5,000 Sats 的輸出，因此分散了 Exchange，使其無法與特定的輸入直接連結：
 
 
-![BTC204](assets/fr/135.webp)
+![BTC204](assets/zh-Hant/141.webp)
 
 
 就我個人而言，我發現 Wabisabi 的外國 Exchange 管理存在數項風險，可能會影響其在保密性方面的成效：
@@ -2794,7 +2794,7 @@ Whirlpool 與其他 CoinJoin 方法的不同之處在於使用「_ZeroLink_」�
 對於輸入的這種限制性方法使 Whirlpool 的 CoinJoin 交易具有一個獨特的特點：輸入和輸出之間完全沒有確定的聯繫。換句話說，相對於交易中的所有其他輸出，每項輸出歸屬於任何參與者的機率相同。
 
 
-![BTC204](assets/fr/136.webp)
+![BTC204](assets/zh-Hant/142.webp)
 
 
 ### Whirlpool 如何運作
@@ -2811,7 +2811,7 @@ Whirlpool 與其他 CoinJoin 方法的不同之處在於使用「_ZeroLink_」�
 - 5 組輸入和 5 組輸出 ；
 
 
-![BTC204](assets/fr/137.webp)
+![BTC204](assets/zh-Hant/143.webp)
 
 
 
@@ -2819,7 +2819,7 @@ Whirlpool 與其他 CoinJoin 方法的不同之處在於使用「_ZeroLink_」�
 - 6 組輸入和 6 組輸出 ；
 
 
-![BTC204](assets/fr/138.webp)
+![BTC204](assets/zh-Hant/144.webp)
 
 
 
@@ -2827,7 +2827,7 @@ Whirlpool 與其他 CoinJoin 方法的不同之處在於使用「_ZeroLink_」�
 - 7 輸入和 7 輸出 ；
 
 
-![BTC204](assets/fr/139.webp)
+![BTC204](assets/zh-Hant/145.webp)
 
 
 
@@ -2835,7 +2835,7 @@ Whirlpool 與其他 CoinJoin 方法的不同之處在於使用「_ZeroLink_」�
 - 8 組輸入和 8 組輸出。
 
 
-![BTC204](assets/fr/140.webp)
+![BTC204](assets/zh-Hant/146.webp)
 
 
 Whirlpool 的模型是基於 CoinJoin 的小型交易。與 Wabisabi 和 JoinMarket 不同，Wabisabi 和 JoinMarket 是依據單一週期（或幾個週期）的參與者數量來決定 anonsets 的穩健性，而 Whirlpool 則是依據幾個小週期的順序。
@@ -2847,7 +2847,7 @@ Whirlpool 的模型是基於 CoinJoin 的小型交易。與 Wabisabi 和 JoinMar
 每當有新的 CoinJoin 作品加入，以及過去遇到的同儕加入，Anonsets 就會成倍成長。我們的目標是利用這些免費的混音，每次混音都會有助於強化與每件混音作品相關的 anonsets 密度。
 
 
-![BTC204](assets/fr/141.webp)
+![BTC204](assets/zh-Hant/147.webp)
 
 
 Whirlpool 在設計時考慮到兩項重要需求：
@@ -2929,7 +2929,7 @@ Whirlpool 在設計時考慮到兩項重要需求：
 事實上，在每個 Whirlpool CoinJoin 中，輸入的使用者中有 2 位是新加入者。其他投入來自混音者。因此，交易中所有參與者的 Mining 成本都由這 2 位新參與者承擔，他們也可以從免費的混音中獲益：
 
 
-![BTC204](assets/fr/142.webp)
+![BTC204](assets/zh-Hant/148.webp)
 
 
 由于采用了这种收费系统，Whirlpool 从其他 CoinJoin 实现中脱颖而出，因为 UTXO 的匿名性与用户支付的价格不成正比。因此，只需支付入池費和兩筆交易（"Tx0 "和初始混合）的 Mining 費用，就有可能實現更高水平的匿名性。
@@ -2944,7 +2944,7 @@ Whirlpool 在設計時考慮到兩項重要需求：
 若要透過 Whirlpool 建立 CoinJoin，Wallet 必須 generate 幾個獨立的帳號。這就是 ZeroLink 協定背後的原理。在 HD (*Hierarchical Deterministic*) 組合的背景下，一個帳戶構成一個與其他帳戶完全隔離的部分，這種隔離發生在組合階層結構的第三個深度層級，即「xpub」層級。
 
 
-![BTC204](assets/fr/143.webp)
+![BTC204](assets/zh-Hant/149.webp)
 
 
 理論上，一個 HD Wallet 最多可衍生出 `2^(31)` 不同的帳戶。所有 Bitcoin 錢包默認使用的初始帳戶對應於 `0'` 索引。
@@ -2982,7 +2982,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 這個初始的 `Tx0` 交易也用來支付 CoinJoin 協調者應得的服務費。與以下步驟不同的是，此交易不是協作性的，因此使用者必須承擔 Mining 的全部費用：
 
 
-![BTC204](assets/fr/144.webp)
+![BTC204](assets/zh-Hant/150.webp)
 
 
 在這個 `Tx0` 交易的範例中，來自**存款**帳戶的 `372,000 Sats` 輸入被分割成幾個輸出 UTXO，細分如下：
@@ -2999,7 +2999,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 例如，這裡有一個真實的 Whirlpool Tx0 (不是我的)：[edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://Mempool.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
 
-![BTC204](assets/fr/145.webp)
+![BTC204](assets/zh-Hant/151.webp)
 
 
 ### 毒性變化
@@ -3011,7 +3011,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 這個 UTXO 對使用者的機密性而言是很危險的，因為它不只仍依附於其過去，因此可能依附於其擁有者的身分，而且還被註明屬於已製作 CoinJoin 的使用者。
 
 
-![BTC204](assets/fr/146.webp)
+![BTC204](assets/zh-Hant/152.webp)
 
 
 如果將 UTXO 與混合輸出合併，後者將喪失在 CoinJoin 循環過程中獲得的所有機密性，這主要是由於 CIOH (*Common-Input-Ownership-Heuristic*) 所致。如果它與其他 doxxic 變更合併，使用者就有失去機密性的風險，因為它會連結各種 CoinJoin 週期項目。因此應該謹慎處理。我們會在本章最後一節詳細說明如何管理這些 UTXOs doxxic。
@@ -3026,7 +3026,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 在這些第一次混合結束時，**premix** 帳戶將為空，而我們的硬幣在支付了第一個 CoinJoin 的 Mining 費用後，將完全調整為所選池所定義的金額。在我們的例子中，我們的初始 UTXOs `108,000 Sats` 將會準確減少到 `100,000 Sats`。
 
 
-![BTC204](assets/fr/147.webp)
+![BTC204](assets/zh-Hant/153.webp)
 
 
 ### 混音
@@ -3053,7 +3053,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 合併 UTXOs 是最常見的錯誤。為了避免 CIOH（*Commun-Input-Ownership-Heuristic*），您必須避免在同一筆交易中將混合的 UTXO 與未混合的 UTXO 合併。這需要在您的投資組合內小心管理您的 UTXO，特別是在標籤方面。
 
 
-![BTC204](assets/fr/148.webp)
+![BTC204](assets/zh-Hant/154.webp)
 
 
 在整合混合 UTXO 時也必須小心。如果您的混合 UTXOs 有顯著的異集，則可以進行適度的合併，但這將不可避免地降低零件的機密性。請確保合併既不要太廣泛，也不要在重新混合次數不足後進行，以免在 CoinJoin 循環之前和之後的 UTXO 之間建立可推斷的連結。如果對這些操作有疑問，最好的做法是不要合併混音後的 UTXO，而是將它們逐一轉移到 Hardware Wallet，每次都產生一個新的空白 Address。再次提醒您，請記得標示您收到的每個 UTXO。
@@ -3093,7 +3093,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 在 Samourai Wallet 的創始人於 2024 年 4 月 24 日被捕並其伺服器被扣押之後，Whirlpool 工具已無法使用，即使對於那些擁有自己道場的人也是如此。在此之前，它可在 Samourai Wallet 和 Sparrow Wallet 上使用。
 
 
-![BTC204](assets/fr/149.webp)
+![BTC204](assets/zh-Hant/155.webp)
 
 
 不過，視乎試驗結果，這項工具仍有可能在未來幾週內重新啟動，或以不同的方式重新推出。無論如何，我不認為 Bitcoin CoinJoin 市場會長期沒有 Supply 的存在，因為需求是存在的。更重要的是，由於 Whirlpool 的機型在機密性方面是最先進的，因此未來一定會成為其他實作的首選機型。
@@ -3105,11 +3105,11 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 在下一章中，我們會瞭解什麼是「anonsets」、這些指標是如何計算出來的，以及它們如何幫助我們估計 CoinJoin 循環的效率。
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b
+
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ## 匿名套裝
 
@@ -3130,13 +3130,13 @@ CoinJoin 的效用在於它能夠產生似是而非的隱蔽性，將你的部�
 換句話說，知道您在 CoinJoin 循環進入時的初始交易 (`Tx0`)的分析師，應該無法確定您在 remix 循環退出時的 UTXO (循環進入到循環退出分析)。
 
 
-![BTC204](assets/fr/150.webp)
+![BTC204](assets/zh-Hant/156.webp)
 
 
 反過來說，如果分析師知道您在 CoinJoin 週期出口時的 UTXO，就一定無法確定在週期入口時的原始交易（週期出口到週期入口分析）。
 
 
-![BTC204](assets/fr/151.webp)
+![BTC204](assets/zh-Hant/157.webp)
 
 
 要評估分析師將過去與現在聯繫起來的難度有多大，反之亦然，我們需要量化您的部分所隱藏的同質部分群組的大小。這個量度可以告訴我們有多少分析具有相同的機率。因此，如果正確的分析淹沒在其他 3 個機率相同的分析中，您的隱藏程度就非常低。另一方面，如果正確的分析在 20,000 個相同機率的分析群組中被發現，您的部分就隱藏得非常好。這些群組的大小代表稱為「anonsets」的指標。
@@ -3169,7 +3169,7 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 此指標量度房間機密性對過去到現在（輸入到輸出）分析的抵抗力。
 
 
-![BTC204](assets/fr/152.webp)
+![BTC204](assets/zh-Hant/158.webp)
 
 
 這個指標用來估計您的 UTXO 受保護的程度，以防有人試圖重建其從進入 CoinJoin 流程到退出 CoinJoin 流程的歷史。
@@ -3178,13 +3178,13 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 例如，如果您的交易已經參與了第一個 CoinJoin 週期，並且已經完成了兩個遞減週期，那麼您的硬幣的潛在 anonset 將會是 `13` ：
 
 
-![BTC204](assets/fr/153.webp)
+![BTC204](assets/zh-Hant/159.webp)
 
 
 舉例來說，假設我們的硬幣在 CoinJoin 週期的一開始，其預定的取消時間為 `86,871`。實際上，這表示它隱藏在 `86,871` 個無法區分的部分中。對於在 CoinJoin 週期開始時就知道這枚硬幣的外部觀察者來說，如果試圖追蹤它的出口，他將會面對 `86,871` 個可能的 UTXO，每個都有相同的可能性是他要找的硬幣。
 
 
-![BTC204](assets/fr/154.webp)
+![BTC204](assets/zh-Hant/160.webp)
 
 
 ### 溯及既往
@@ -3193,19 +3193,19 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 回溯保密性表示特定零件可能來源的數量，在週期結束時知道 UTXO。此指標量度零件的保密性對現在到過去（輸出到輸入）分析的阻力，也就是在 CoinJoin 循環之前，分析師要追溯您的零件來源有多困難。這個指標的名稱是 "backward anonset「 或 」backward-looking metrics"。
 
 
-![BTC204](assets/fr/155.webp)
+![BTC204](assets/zh-Hant/161.webp)
 
 
 藉由知道您在週期結束時的 UTXO，回溯自動化決定了可能構成您進入 CoinJoin 週期的潛在 Tx0 交易的數量。在下圖中，這相當於所有橙色氣泡的總和。
 
 
-![BTC204](assets/fr/156.webp)
+![BTC204](assets/zh-Hant/162.webp)
 
 
 舉例來說，假設我們的 CoinJoin 零件的追溯時效為 `42,185`。實際上，這表示這枚 UTXO 有 `42,185` 個潛在來源。如果外部觀察者在週期結束時發現這枚硬幣，並試圖追溯其來源，他或她將會面對 `42,185` 個可能的來源，所有這些來源都有相同的可能性成為所尋找的來源。
 
 
-![BTC204](assets/fr/157.webp)
+![BTC204](assets/zh-Hant/163.webp)
 
 
 ### 如何計算 anonsets？
@@ -3214,13 +3214,13 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 使用 Block explorer 人工計算小集合的 anonsets 是可行的。然而，對於較大的 anonsets，就必須使用專門的工具。據我所知，唯一能夠執行這項任務的軟體是 *Whirlpool Stats Tool*，這是由 Samourai 和 OXT 團隊開發的 Python 工具。不幸的是，在 Samourai 的創辦人被捕以及 OXT 中斷之後，這個工具目前已停止使用，而 OXT 則是用來擷取 Blockchain 的資料。
 
 
-![BTC204](assets/fr/158.webp)
+![BTC204](assets/zh-Hant/164.webp)
 
 
 正如我們在本章所看到的，只有在 CoinJoin 結構具有一定同质性的情況下，才能計算出 anonsets。在下一章中，我們將發現如何在 Bitcoin 交易上量化這種同質性，無論是 CoinJoin 還是更傳統的交易。
 
 
-https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375
+
 
 ## 熵
 
@@ -3244,19 +3244,19 @@ https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af
 例如，有 1 個輸入和 2 個輸出的簡單付款交易只有一種解釋，即輸入 #0 資助了輸出 #0 和輸出 #1。沒有其他可能的解釋：
 
 
-![BTC204](assets/fr/159.webp)
+![BTC204](assets/zh-Hant/165.webp)
 
 
 另一方面，一個 Whirlpool 5x5 角有 $1\,496$ 的可能組合：
 
 
-![BTC204](assets/fr/160.webp)
+![BTC204](assets/zh-Hant/166.webp)
 
 
 一個 Whirlpool Surge Cycle 8x8 CoinJoin 有 $9\,934\,563$ 可能的解釋：
 
 
-![BTC204](assets/fr/161.webp)
+![BTC204](assets/zh-Hant/167.webp)
 
 
 ### 熵
@@ -3318,7 +3318,7 @@ $$
 讓我們以另一個典型的付款交易為例，有 1 個輸入和 2 個輸出：[1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://Mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
 
 
-![BTC204](assets/fr/162.webp)
+![BTC204](assets/zh-Hant/168.webp)
 
 
 對於這個交易，唯一可能的解釋是：`(In.0) > (Out.0 ; Out.1)`。因此，其熵為 $0$ ：
@@ -3520,13 +3520,13 @@ $$
 在此之前，有一個由 OXT 和 Samourai 團隊開發的 Python 工具 _Boltzmann Calculator_，可以自動計算 Bitcoin 交易的所有這些指標：
 
 
-![BTC204](assets/fr/163.webp)
+![BTC204](assets/zh-Hant/169.webp)
 
 
 也可以使用 KYCP.org 網站進行這些分析：
 
 
-![BTC204](assets/fr/164.webp)
+![BTC204](assets/zh-Hant/170.webp)
 
 
 不幸的是，在 Samourai 的創辦人被捕後，這些工具已無法運作。
@@ -3578,7 +3578,7 @@ PayJoin 的特點在於它能夠 generate 一種乍看之下很普通的交易�
 讓我們舉個例子來更好地理解這個過程。Alice 用 10,000 Sats 的 UTXO 買了一根 4,000 Sats 的法棍，並選擇了 PayJoin。她的麵包師傅包勃加了屬於他的 15,000 Sats 的 UTXO 作為輸入，除了愛麗絲的 4,000 Sats 外，他也全數收回作為輸出。
 
 
-![BTC204](assets/fr/165.webp)
+![BTC204](assets/zh-Hant/171.webp)
 
 
 在這個範例中，麵包師傅 Bob 輸入 15,000 Sats，輸出 19,000 Sats，差額正好是 4,000 Sats，也就是長棍麵包的價格。在 Alice 這邊，她輸入 10,000 Sats，最後輸出 6,000 Sats，餘額為 -4,000 Sats，也就是法棍的價格。為了簡化範例，我刻意省略了這筆交易中的 Mining 成本。
@@ -3599,19 +3599,19 @@ PayJoin 交易可達成兩個目標，讓使用者提高付款的機密性。
 讓我們以支付長棍麵包的 PayJoin 交易為例：
 
 
-![BTC204](assets/fr/166.webp)
+![BTC204](assets/zh-Hant/172.webp)
 
 
 看到 Blockchain 上的這筆交易，外部觀察者按照 Blockchain 分析的一般啟發式方法會做出以下解釋：「*Alice 合併了 2 個 UTXO 作為交易的輸入，以便支付 19,000 Sats 給 Bob*」。
 
 
-![BTC204](assets/fr/167.webp)
+![BTC204](assets/zh-Hant/173.webp)
 
 
 這個解釋顯然是錯誤的，因為您已經知道，輸入中的兩個 UTXO 並不屬於同一個人。一個來自法棍買主 Alice，另一個來自麵包師 Bob。
 
 
-![BTC204](assets/fr/168.webp)
+![BTC204](assets/zh-Hant/174.webp)
 
 
 如此一來，外部觀察者的分析就會被導向錯誤的結論，確保利益相關者的機密性。
@@ -3626,13 +3626,13 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 如果我們回到購買法棍的例子，分析師會認為付款金額對應於 6,000 Sats 的 UTXO 或 19,000 Sats 的 UTXO。在這種情況下，分析師寧願認為付款金額是 19,000 Sats，因為輸出中有 2 個 UTXO，其中至少有一個大於 6,000 Sats（沒有邏輯理由使用 2 個 UTXO 來支付 6,000 Sats，因為單單一個 UTXO 就足以滿足這筆付款）。
 
 
-![BTC204](assets/fr/169.webp)
+![BTC204](assets/zh-Hant/175.webp)
 
 
 但實際上，這種分析是有缺陷的。支付金額與任何產出都不對應。它實際上是收款人的 UTXO 產出與收款人的 UTXO 投入之間的差額。
 
 
-![BTC204](assets/fr/170.webp)
+![BTC204](assets/zh-Hant/176.webp)
 
 
 在這方面，PayJoin 交易屬於隱藏術的範疇。它可以將交易的真實金額隱藏在作為誘餌的偽造交易中。
@@ -3653,13 +3653,13 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 支援 PayJoin 的知名軟體程式包括 Sparrow Wallet、Wasabi Wallet、Mutiny、BitMask、BlueWallet 和 JoinMarket，以及支付處理商 BTCPay。
 
 
-![BTC204](assets/fr/171.webp)
+![BTC204](assets/zh-Hant/177.webp)
 
 
 最先進的 PayJoin 實作只有 Samourai Wallet 上的 Stowaway。不過，自從軟體創辦人被捕後，這個工具現在只剩下部分功能。Stowaway 的優點在於它是一個全面、容易使用的協定，同時支援接收和傳送 payjoins。部分簽章交易可透過掃描幾個 QR 代碼手動交換，或透過 Soroban 由 Tor 自動交換。後一種通訊方式目前已停止服務。
 
 
-![BTC204](assets/fr/172.webp)
+![BTC204](assets/zh-Hant/178.webp)
 
 
 使用 PayJoin 的困難在於它依賴商家的參與。作為客戶，如果商家不支援 PayJoin，您就無法使用。這就給購買過程增加了更多的困難：不僅很難找到接受 Bitcoin 的商家，如果還要找那些支持 payjoins 的商家，那就更複雜了。
@@ -3668,7 +3668,7 @@ PayJoin 的第二個目的是誤導外部觀察者，讓他們不知道實際支
 其中一個解決方案是使用交易結構，在不需要收款人合作的情況下，將模糊性引入連鎖分析。這將使我們能夠提高支付的保密性，而無需依賴商家的積極參與。這正是我們在下一章要探討的。
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
+
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
 
@@ -3703,7 +3703,7 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 讓我們舉一個例子來了解這種交易結構。Alice 去麵包師傅 Bob 處買她的法棍，價格是 4,000 Sats。她想用比特币支付，同时对她的付款保持某种形式的保密。所以她決定建立一個石牆交易來支付。
 
 
-![BTC204](assets/fr/173.webp)
+![BTC204](assets/zh-Hant/179.webp)
 
 
 透過分析這筆交易，我們可以看到麵包師傅 Bob 實際上收到了 4,000 Sats 的長棍付款。Alice 使用 2 個 UTXO 作為輸入：一個 10,000 Sats 和一個 15,000 Sats。在輸出中，她收回了 3 個 UTXO：一個 4,000 Sats，一個 6,000 Sats 和一個 11,000 Sats。因此，Alice 在這筆交易中的淨餘額為 -4,000 Sats，相當於長棍麵包的價格。
@@ -3721,19 +3721,19 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 讓我們以 Alice 在麵包師傅 Bob 家為例。Blockchain 上的交易會是這樣的：
 
 
-![BTC204](assets/fr/174.webp)
+![BTC204](assets/zh-Hant/180.webp)
 
 
 外部觀察者依賴一般的連鎖分析啟發式可能會錯誤地得出「*兩個人做了一個小型的 CoinJoin，輸入端各有一個 UTXO，輸出端各有兩個 UTXO*」的結論。從外部分析這筆交易並不會導致應用 CIOH，因為兩筆相同金額的輸出的存在顯示出 CoinJoin 的模式。因此，從外部觀點來看，CIOH 不適用於此特定情況。
 
 
-![BTC204](assets/fr/175.webp)
+![BTC204](assets/zh-Hant/181.webp)
 
 
 這個解釋並不準確，因為大家都知道，有一個 UTXO 傳送給鮑勃，2 個 UTXO 輸入來自愛麗絲，而她恢復了 3 個 Exchange 輸出。
 
 
-![BTC204](assets/fr/176.webp)
+![BTC204](assets/zh-Hant/182.webp)
 
 
 而石牆交易結構中特別有趣的是，從外部觀察者的角度來看，它在各方面都與石牆 x2 交易相似。
@@ -3761,7 +3761,7 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 讓我們回到愛麗絲的例子，她在鮑勃麵包店買了一根長棍，花了 4,000 Sats。她想用比特币支付，同时对她的付款保持一定的保密性。所以她找來了她的朋友 Charles，Charles 會在這個過程中幫助她。
 
 
-![BTC204](assets/fr/177.webp)
+![BTC204](assets/zh-Hant/183.webp)
 
 
 分析這筆交易，我們可以看到麵包師鮑勃實際收到 4,000 Sats 的長棍付款。Alice 使用了 10,000 Sats 作為輸入，並收回了 6,000 Sats 作為輸出，也就是淨餘額為 -4,000 Sats，相當於長棍的價格。至於 Charles，他提供了 15,000 Sats 的輸入，並收到兩筆輸出：一筆是 4,000 Sats，另一筆是 11,000 Sats，結餘為 0。
@@ -3779,19 +3779,19 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 讓我們以 Alice、Bob the Baker 和 Charles 為例。Blockchain 上的交易會是這樣的：
 
 
-![BTC204](assets/fr/178.webp)
+![BTC204](assets/zh-Hant/184.webp)
 
 
 外部觀察者依賴一般的連鎖分析啟發式可能會得出錯誤的結論：「*Alice 和 Charles 進行了一個小型的 CoinJoin，輸入各為一個 UTXO，輸出各為兩個 UTXO*」。同樣地，從外部分析這筆交易並不會導致 ICOH 的應用，因為兩筆相同金額的輸出的出現顯示了 CoinJoin 的模式。因此，從外部觀點來看，CIOH 不適用於此特定情況。
 
 
-![BTC204](assets/fr/179.webp)
+![BTC204](assets/zh-Hant/185.webp)
 
 
 這個解釋是不對的，因為大家都知道，有一個 UTXO 已經傳送給鮑勃，愛麗絲只有一個 Exchange 輸出，而查爾斯有兩個。
 
 
-![BTC204](assets/fr/180.webp)
+![BTC204](assets/zh-Hant/186.webp)
 
 
 再一次，石牆 x2 交易結構特別有趣的地方是，從外部觀察者的角度來看，它在各方面都與石牆交易相似。
@@ -3803,13 +3803,13 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c71
 StonewallX2 交易的工作原理與 Stonewall 交易完全相同，只是前者是協作式的，而後者不是。正如我們所看到的，Stonewall X2 交易涉及到第三方（Charles）的參與，他是支付的外部參與者，他將提供自己的比特幣來加強交易的保密性。在典型的石牆交易中，合作者的角色由發送者擔當。
 
 
-![BTC204](assets/fr/181.webp)
+![BTC204](assets/zh-Hant/187.webp)
 
 
 從外部觀點來看，交易模式完全相同。
 
 
-![BTC204](assets/fr/182.webp)
+![BTC204](assets/zh-Hant/188.webp)
 
 
 這兩種交易結構具有完全相同的模式，這意味著即使外部觀察者成功識別出 "Stonewall(x2) "模式，他也無法掌握所有資訊。他無法確定兩筆相同金額的 UTXO 中，哪一筆與付款相符。此外，他也無法確定這兩個有輸入的 UTXO 是否來自兩個不同的人（Stonewall x2），或這兩個 UTXO 是否屬於一個人，而這個人合併了這兩個 UTXO（Stonewall）。
@@ -3837,7 +3837,7 @@ StonewallX2 交易的工作原理與 Stonewall 交易完全相同，只是前者
 Stonewall 和 Stonewall x2 交易在 Samourai Wallet 應用程式和 Sparrow Wallet 軟體上均可使用。
 
 
-![BTC204](assets/fr/183.webp)
+![BTC204](assets/zh-Hant/189.webp)
 
 
 然而，就像 payjoins 一樣，在 Samourai 的創始人被捕之後，Stonewall x2 交易現在只能透過相關各方之間手動交換 PSBT 來進行。不幸的是，透過 Soroban 的自動 Exchange 已不再可用。
@@ -3866,13 +3866,13 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 根據您打算在 CoinJoin 循環後如何使用您的零件，它已經過此過程的事實可能會有問題。例如，如果您打算在受監管的 Exchange 平台上出售您的錢幣，但它最近經歷了一次 CoinJoin，則該平台的鏈分析工具將偵測到這一事實。屆時，該平台可能會拒絕接受您的錢幣連鎖 UTXO，甚至要求您做出解釋，您的帳戶有可能被暫停或資金被凍結。在某些情況下，平台也可能會將您的行為上報給國家機關（例如，法國 TRACFIN 對 PSANs 的要求就是如此）。
 
 
-![BTC204](assets/fr/184.webp)
+![BTC204](assets/zh-Hant/190.webp)
 
 
 為了避免這種情況，我們需要一種工具，能夠模糊 Bitcoin 硬幣過去的痕跡，以恢復某種形式的可替代性。這正是反彈的目的。
 
 
-![BTC204](assets/fr/185.webp)
+![BTC204](assets/zh-Hant/191.webp)
 
 
 ### 什麼是跳彈？
@@ -3884,19 +3884,19 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 為了撫平過去事件在硬幣上留下的印記，例如 CoinJoin 循環，ricochet 會執行四次連續交易，讓使用者在不同的地址將資金轉移給自己。
 
 
-![BTC204](assets/fr/186.webp)
+![BTC204](assets/zh-Hant/192.webp)
 
 
 經過這一連串的交易之後，蓖麻工具最後會將比特幣傳送到最終目的地，例如 Exchange 平台。
 
 
-![BTC204](assets/fr/187.webp)
+![BTC204](assets/zh-Hant/193.webp)
 
 
 其目的在於創造影響硬幣可替代性的距離，例如 CoinJoin 的交易，以及最終的支出行為，可能會因為硬幣的過去而拒絕這枚硬幣。因此，連鎖分析工具可能會得出結論，Ownership 在事件發生後很可能有變更，並認為這枚錢幣是可替代的。在 CoinJoin 的情況下，Blockchain 分析工具就可以假設寄送比特幣和執行 CoinJoin 的不是同一人，因此對寄送者採取行動是沒有意義的。
 
 
-![BTC204](assets/fr/188.webp)
+![BTC204](assets/zh-Hant/194.webp)
 
 
 ### 為什麼會有效？
@@ -3905,7 +3905,7 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 面對這種跳彈方法，我們可以想像，連鎖分析軟體會深入檢測四次跳彈以上的情況。然而，這些平台在最佳化偵測臨界值時卻面臨兩難的局面。它們必須設定跳躍次數的限制，在此限制之後，它們才會接受可能已經發生了屬性改變，並且應該忽略與先前事件 (例如 CoinJoin) 的連結。
 
 
-![BTC204](assets/fr/189.webp)
+![BTC204](assets/zh-Hant/195.webp)
 
 
 然而，設定這個臨界值是有風險的：觀察到的跳轉數量每增加一次，假陽性的數量就會以指數方式增加，也就是個人被錯誤標示為事件的參與者，但事實上該作業是由其他人執行的。這種情況會對這些公司構成重大風險，因為誤判會導致客戶不滿，進而使受影響的客戶轉投競爭對手的懷抱。長期而言，過高的偵測門檻會導致平台失去比競爭對手更多的客戶，這可能會威脅到平台的生存空間。因此，對這些平台來說，增加觀察到的跳票數量是很複雜的，而 4 通常是足以反擊其分析的數量。
@@ -3932,7 +3932,7 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 這種跳彈方法的構想最初來自 Samourai Wallet 團隊，他們將此方法整合到應用程式中，使流程自動化。這項服務在 Samourai 並不是免費的，因為轉帳需要 100,000 Sats 的服務費，再加上 Mining 的費用。因此建議大額轉帳時使用。
 
 
-![BTC204](assets/fr/190.webp)
+![BTC204](assets/zh-Hant/196.webp)
 
 
 Samurai 應用程式提供兩種跳彈變體：
@@ -3943,7 +3943,7 @@ Samurai 應用程式提供兩種跳彈變體：
 - 強化回彈，或稱「交錯交割」，其優點在於可將 Samurai 服務費分散到五次連續交易中。此選項還可確保每筆交易都在不同的時間進行廣播，並記錄在不同的區塊中，盡可能模仿物主變更的行為。雖然速度較慢，但對於那些不急著趕時間的人來說，這種方法更為可取，因為它透過強化回彈對連鎖分析的抵抗力，最大化了回彈的效率；
 
 
-![BTC204](assets/fr/191.webp)
+![BTC204](assets/zh-Hant/197.webp)
 
 
 
@@ -3951,7 +3951,7 @@ Samurai 應用程式提供兩種跳彈變體：
 - 經典的跳字，是為了快速執行操作，在縮短的時間間隔內廣播所有交易。因此，與強化方法相比，此方法的保密性和抗分析能力較低。它只能用於緊急出貨。
 
 
-![BTC204](assets/fr/192.webp)
+![BTC204](assets/zh-Hant/198.webp)
 
 
 跳轉僅表示將比特幣發送給自己。您完全可以在任何 Wallet 軟體上手動轉送比特幣，而不需要使用專門的工具。您所要做的就是連續傳送相同的硬幣給自己，每次都使用新的、空白的 Address。
@@ -3978,25 +3978,25 @@ Bitcoin 的另一項保密技術是 Ownership 的秘密轉移。這種方法的�
 Coinwap 是基於一個相對簡單的概念：它使用智慧契約來促進兩個使用者之間的 Bitcoin Ownership 轉移，不需要信任，也不需要在 Blockchain 上明確顯示此轉移。
 
 
-![BTC204](assets/fr/193.webp)
+![BTC204](assets/zh-Hant/199.webp)
 
 
 讓我們想像一個天真的例子，Alice 和 Bob。Alice 持有 1 個以私人密碼匙 $A$ 加密的 BTC，Bob 也持有 1 個以私人密碼匙 $B$ 加密的 BTC。理論上，他們可以透過外部通訊管道 Exchange 他們的私人密碼匙來進行秘密轉移。
 
 
-![BTC204](assets/fr/194.webp)
+![BTC204](assets/zh-Hant/200.webp)
 
 
 然而，這種天真的方法會帶來很高的信任風險。沒有什麼可以阻止 Alice 在 Exchange 之後保留一份 $A$ 私密金鑰的副本，並在金鑰落入 Bob 手中之後使用它來竊取 bitcoins。
 
 
-![BTC204](assets/fr/195.webp)
+![BTC204](assets/zh-Hant/201.webp)
 
 
 此外，在 Exchange 中，無法保證 Alice 不會收到 Bob 的私人密碼匙 $B$，也絕不會傳送她的私人密碼匙 $A$。因此，這個 Exchange 依賴雙方之間過度的信任，無法有效確保 Ownership 的安全秘密傳輸。
 
 
-![BTC204](assets/fr/196.webp)
+![BTC204](assets/zh-Hant/202.webp)
 
 
 為了解決這些問題，並讓互不信任的雙方進行交換，我們要改用 Smart contract 系統。Smart contract 是一種在符合預先定義條件時自動執行的程式。在我們的案例中，這可確保財產的 Exchange 自動進行，而不需要相互信任。
@@ -4096,13 +4096,13 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_
 與 Coinswap 相似，使用相同類型的智慧契約，也可以進行原子交換。原子交換可讓兩個使用者之間直接進行不同加密貨幣（如 BTC 和 XMR）的 Exchange 交換，而無需信任或中介介入。這些交換之所以稱為「原子交換」，是因為它們只有兩種可能的結果：交換成功，雙方都滿意；交換失敗，雙方都保留自己原有的加密貨幣，不需要信任對方。
 
 
-![BTC204](assets/fr/197.webp)
+![BTC204](assets/zh-Hant/203.webp)
 
 
 原子交換和硬幣交換有類似的操作方法，在保密性方面有相同的優缺點。事實上，從 Bitcoin 的角度來看，原子交換相當於分兩個階段進行的換幣。首先，我們 Exchange 將我們的 BTC 兌換成另一種加密貨幣，然後此加密貨幣可以兌換成其他 BTC。最後，我們收回另一位使用者的 BTC。這就是為什麼在分析保密性問題時，我將這兩個協定歸類為專屬秘密交換的原因。
 
 
-![BTC204](assets/fr/198.webp)
+![BTC204](assets/zh-Hant/204.webp)
 
 
 但是請注意，與換幣不同，原子交換在可用流動性方面可能存在不平衡，特別是在 BTC/XMR 交易所。一般來說，將比特幣兌換成其他代幣比較容易，因為比特幣的需求強勁，這使得這種兌換方向的溢價保持在低水平。然而，由於需求較低，將altcoins兌換成BTC可能會比較複雜，往往會導致非常高的溢價。
@@ -4120,13 +4120,13 @@ Ownership 的秘密轉移，例如硬幣交換和原子交換，具有欺騙連�
 事實上，當 Alice 與 Bob 執行換幣或原子交換時，她將自己擁有的比特幣與 Bob 的比特幣交換。在原子交換的情況下，Exchange 包括一個 Altcoin，但原理是一樣的。因此，Alice 最後擁有 $B$ 硬幣，而 Bob 則擁有 $A$ 硬幣。這增加了鏈分析的疑點，但硬幣的歷史仍然是可追溯的。如果分析師檢查 $A$ 部分，他或她可以追蹤 Alice 之前的活動，反之亦然。
 
 
-![BTC204](assets/fr/199.webp)
+![BTC204](assets/zh-Hant/205.webp)
 
 
 從 Alice 的角度來看，其風險是 $B$ 硬幣的歷史可能會被某些實體認為是可疑的。例如，如果鮑勃是通過黑客等犯罪行為獲得$B$硬幣的，該硬幣就會與他的非法活動聯繫在一起。愛麗絲可能會發現她擁有的錢幣不能轉移到受監管的Exchange平台，而不會有資金被凍結的風險，甚至被指控鮑勃的罪行，儘管她與這些罪行毫無關係。
 
 
-![BTC204](assets/fr/200.webp)
+![BTC204](assets/zh-Hant/206.webp)
 
 
 無可避免地，資金受到當局監控的罪犯會偏愛諸如換幣或原子交換等保密方式。這些協定使他們能夠在 Exchange 中處置他們被監控的比特幣，以換取完全可替代的比特幣。這也讓他們可以將當局引向其他的使用者，從而達到轉移視線的目的。所以這些人有雙重目的.
@@ -4135,7 +4135,7 @@ Ownership 的秘密轉移，例如硬幣交換和原子交換，具有欺騙連�
 有了 CoinJoin，即使您的硬幣混入了受監控的比特幣，硬幣的歷史記錄也會被打破，提供了一種似是而非的可抵賴性，而在秘密的 Ownership 傳輸協定（如 Coinswap 或 atomic swap）中是不存在的。
 
 
-![BTC204](assets/fr/201.webp)
+![BTC204](assets/zh-Hant/207.webp)
 
 
 如果 Alice 希望避免任何風險，她必然要使用一種方法來破解 $B$ 硬幣的歷史，例如透過硬幣接合 (coinjoins) 來傳遞。這就產生了一個問題，結合 Ownership 和 CoinJoin 的秘密傳輸是否有用。CoinJoin 透過破解硬幣的歷史，已經為 Alice 提供了足夠的保密程度。因此，我的看法是，如果 Alice 想要保護她的隱私，直接進行 CoinJoin 會比先進行硬幣交換再進行 CoinJoin 更為明智。
@@ -4172,31 +4172,31 @@ Bitcoin 上的活動與 IP Address 之間的關聯對使用者的機密性造成
 在經典的 Bitcoin 作業中，使用者在其 Wallet 軟體上建立的交易會傳送到他的個人節點。這個節點會立即將新的交易廣播給它所連結的所有對等體。
 
 
-![BTC204](assets/fr/202.webp)
+![BTC204](assets/zh-Hant/208.webp)
 
 
 然後，這些對等人會檢查交易，以確保它符合共識和當地標準化規則。一旦確認無誤，每個對等者就會依次將交易轉發給他或她的對等者，如此類推。
 
 
-![BTC204](assets/fr/203.webp)
+![BTC204](assets/zh-Hant/209.webp)
 
 
 等待整合成區塊的交易分佈相當均衡，在統計學上也是可預測的。共謀的間諜節點可以利用這個弱點，協力監控和分析網路，以找出第一個廣播交易的節點。如果觀察者成功找到來源節點，就可以假設交易是來自該節點的操作者。這種觀察方式可用來將通常匿名的交易與特定的 IP 位址連結起來。
 
 
-![BTC204](assets/fr/204.webp)
+![BTC204](assets/zh-Hant/210.webp)
 
 
 BIP156 的目的是 Address 這個問題。為了做到這一點，它在新交易的傳播中引入了一個額外的階段，以便在廣泛公開傳播之前保持匿名性。Dandelion 首先使用「莖」(stem) 階段，在此階段中，交易會透過節點的隨機路徑傳送。
 
 
-![BTC204](assets/fr/205.webp)
+![BTC204](assets/zh-Hant/211.webp)
 
 
 隨後，交易會在「Fluff」階段被廣播到整個網路。
 
 
-![BTC204](assets/fr/206.webp)
+![BTC204](assets/zh-Hant/212.webp)
 
 
 「莖」和「Fluff」是對交易在網路中傳播行為的比喻，其形狀和演化類似於蒲公英（英文為「Dandelion」）。
@@ -4205,13 +4205,13 @@ BIP156 的目的是 Address 這個問題。為了做到這一點，它在新交�
 因此，間諜節點可能會將交易追溯到啟動「Fluff」階段（大規模廣播）的節點，但該節點並非最早發送交易的節點，因為它是從莖的最後一個節點接收到交易的。若間諜節點無法追蹤莖部路徑，也無法識別源節點。
 
 
-![BTC204](assets/fr/207.webp)
+![BTC204](assets/zh-Hant/213.webp)
 
 
 即使在幹線階段有間諜節點的存在，疑點始終存在，因為只要在擴散圖中遇到誠實的節點，間諜就無法判斷這個節點是原始來源，還是只是一個中介。
 
 
-![BTC204](assets/fr/208.webp)
+![BTC204](assets/zh-Hant/214.webp)
 
 
 這種路由方法會模糊追溯到來源節點的痕跡，使交易難以透過網路追溯到其源頭。因此，Dandelion 限制了對手對網路進行去匿名化的能力，從而提高了保密性。當交易在「莖化」(stemming) 階段穿越加密網路通訊的節點 (如 Tor 或 P2P Transport V2) 時，此方法就更為有效。
@@ -4247,7 +4247,7 @@ P2P V2 傳輸在 2023 年 12 月部署的 Bitcoin Core 版本 26.0 中被列為�
 Tor 是一個由中繼伺服器 (節點) 組成的網路，可將網際網路上 TCP 連線的來源匿名化。它的工作原理是將資料封裝在數層加密中。每個中繼節點都會移除一個 Layer，以顯示下一個節點的 Address，直到抵達最終目的地為止。Tor 網路透過防止中介節點知道資料的來源和目的地來確保匿名性，使得觀察者很難追蹤使用者的活動。
 
 
-![BTC204](assets/fr/209.webp)
+![BTC204](assets/zh-Hant/215.webp)
 
 
 Tor 不僅可以加密資料，還可以隱藏通訊的來源和目的地。透過使用 Tor 從您的個人節點進行通訊，您可以加強交易的機密性：您的 ISP 無法解密通訊，Bitcoin 網路中的其他節點也無法識別源節點的 IP Address。更重要的是，Tor 也會向您的 ISP 隱藏您使用 Bitcoin 的情況。
@@ -4272,13 +4272,13 @@ Tor 不僅可以加密資料，還可以隱藏通訊的來源和目的地。透�
 正如我們在第三部分所看到的，Address 重複使用會嚴重妨礙 Bitcoin 通訊協定上的使用者機密性。為了降低這些風險，強烈建議在 Wallet 收到每筆新付款時，都要 generate 產生一個空白的收款 Address。儘管現代軟體和分層確定式錢包的使用已簡化了生成新 Address 的過程，但這種做法看起來可能有違直覺。
 
 
-![BTC204](assets/fr/210.webp)
+![BTC204](assets/zh-Hant/216.webp)
 
 
 舉例來說，在傳統的銀行系統中，我們習慣分享 IBAN，而 IBAN 永遠保持不變。一旦我們將 IBAN 給了別人，他們就可以向我們發送多筆付款，而無需再次與我們互動。新式銀行也提供了更多現代化的可能性，例如 PayPal 使用獨特的電子郵件地址，或 Revolut 使用 RevTags。即使在金融領域之外，我們的日常識別符號，例如郵政 Address、電話號碼和電子郵件 Address 也是唯一且永久的。我們不必為每次新的互動更新它們。
 
 
-![BTC204](assets/fr/211.webp)
+![BTC204](assets/zh-Hant/217.webp)
 
 
 然而，Bitcoin 的運作方式不同：每筆傳入的交易都必須產生新的接收 Address。這種在易用性和機密性之間的折衷，可以追溯到 Bitcoin 白皮書的起源。早在 2008 年底發表第一版文件時，Satoshi Nakamoto 就已經提醒我們注意這個風險：
@@ -4290,7 +4290,7 @@ Tor 不僅可以加密資料，還可以隱藏通訊的來源和目的地。透�
 有許多方法可以在單一識別碼上接收多筆付款，而無需重複使用 Address。每種方法都有自己的取捨和缺點。在這些方法中，BIP47 是由 Justus Ranvier 提出並於 2015 年發表的提案。該提案旨在創建可重複使用的付款代碼，使同一人可進行多筆交易，同時避免重複使用 Address。簡而言之，BIP47 旨在提供像唯一識別碼一樣直觀的支付系統，同時保護交易的機密性。
 
 
-![BTC204](assets/fr/212.webp)
+![BTC204](assets/zh-Hant/218.webp)
 
 
 BIP47 並未直接提高使用者的機密性，因為 BIP47 付款提供的機密性等級與使用空白位址的傳統 Bitcoin 交易相同。但是，它確實使 Bitcoin 的使用更加方便和直觀，而這種方便性通常會影響保密性。多虧了 BIP47，這種易用性達到了與傳統交易相同的保密性。這就是為什麼 BIP47 是保護隱私的重要工具。
@@ -4305,7 +4305,7 @@ BIP47 並未直接提高使用者的機密性，因為 BIP47 付款提供的機�
 BIP47 的目的是在不重複使用地址的情況下，使接收大量付款成為可能。其基礎是使用可重複使用的付款代碼，這使得不同的發卡機構可以向屬於其他用戶的單一代碼發送多筆付款。因此，收款人不必為每次交易提供一個新的、空白的 Address，這大大方便了交換，同時又能保密。
 
 
-![BTC204](assets/fr/213.webp)
+![BTC204](assets/zh-Hant/219.webp)
 
 
 因此，使用者可以完全自由地分享自己的付款代碼，無論是在社交網路或自己的網站上，都不會有任何失密的風險，這與傳統的收款人 Address 或公開金鑰不同。
@@ -4320,7 +4320,7 @@ BIP47 的目的是在不重複使用地址的情況下，使接收大量付款�
 因此，付款代碼是從 seed 組合衍生出來的虛擬識別碼。在組合的階層式衍生結構中，付款代碼位於第 3 層，即帳戶層級。
 
 
-![BTC204](assets/fr/214.webp)
+![BTC204](assets/zh-Hant/220.webp)
 
 
 BIP47 的衍生目標由索引 `47'` (`0x8000002F`) 識別，指的是 BIP47。可重複使用的付款代碼的衍生路徑範例如下：
@@ -4355,7 +4355,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 這些化身也可以用影像來表示：
 
 
-![BTC204](assets/fr/215.webp)
+![BTC204](assets/zh-Hant/221.webp)
 
 
 雖然這些機器人在 BIP47 架構中沒有特定的技術功能，但它們提供了容易辨識的視覺形象，在促進使用者互動方面確實扮演了一定的角色。
@@ -4398,7 +4398,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ```
 
 
-![BTC204](assets/fr/216.webp)
+![BTC204](assets/zh-Hant/222.webp)
 
 
 接下來，必須在開頭加上 `P` 前綴位元組，以清楚表示這是付款代碼。這個位元組用 `0x47` 表示：
@@ -4417,7 +4417,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ```
 
 
-![BTC204](assets/fr/217.webp)
+![BTC204](assets/zh-Hant/223.webp)
 
 
 完成這些步驟後，付款代碼就準備好了。剩下的工作就是將它轉換為基數 58，以獲得最終版本：
@@ -4439,7 +4439,7 @@ m/47'/0'/0'/
 具體來說，為了 generate 與可重複使用的付款代碼相關的壓縮公開金鑰和字串代碼，我們先從 Wallet seed 開始計算主私密金鑰。接著，我們使用索引 `47 + 2^31` 來推導出一對子金鑰 (強化推導)。接著再連續推導出兩個子鑰匙對，每個都使用索引 `2^31` (強化推導)。
 
 
-![BTC204](assets/fr/218.webp)
+![BTC204](assets/zh-Hant/224.webp)
 
 
 ### 橢圓曲線 (ECDH) 上的 Diffie-Hellman 金鑰 Exchange
@@ -4451,13 +4451,13 @@ BIP47 核心的加密協定以縮寫 ECDH 而聞名，即 *Elliptic-Curve Diffie
 Diffie-Hellman 於 1976 年推出，是一種金鑰協定通訊協定，可讓各自配備金鑰對（公開金鑰和私人金鑰）的雙方，即使僅透過公開、不安全的頻道通訊，也能就共同的秘密達成協議。
 
 
-![BTC204](assets/fr/219.webp)
+![BTC204](assets/zh-Hant/225.webp)
 
 
 此共用秘密 (在本例中為藍色金鑰) 隨後可用於其他操作。一般而言，此共用秘密可用於在不安全的網路中加密和解密通訊：
 
 
-![BTC204](assets/fr/220.webp)
+![BTC204](assets/zh-Hant/226.webp)
 
 
 為了達到這個目的，Diffie-Hellman 使用模組運算來計算共享秘密。以下是通俗易懂的工作原理：
@@ -4473,7 +4473,7 @@ Diffie-Hellman 於 1976 年推出，是一種金鑰協定通訊協定，可讓�
 - Bob 用 Alice 的橙色和秘密藍色做同樣的動作，也會得到棕色。
 
 
-![BTC204](assets/fr/221.webp)
+![BTC204](assets/zh-Hant/227.webp)
 
 
 在此普及中，褐色代表 Alice 和 Bob 分享的秘密。想像一下，在現實中，攻擊者不可能分開橘色和 Green 的顏色，以找出 Alice 或 Bob 的秘密顏色。
@@ -4602,7 +4602,7 @@ $$
 由於 modulo 運算子的分配性，Alice 和 Bob 得到完全相同的值 $z$。這個數字代表他們的共同秘密，等同於之前用油漆罐普及的**棕色**。現在他們可以使用這個共同秘密，在不安全的網路中對稱加密他們的通訊。
 
 
-![BTC204](assets/fr/222.webp)
+![BTC204](assets/zh-Hant/228.webp)
 
 
 即使攻擊者擁有 $p$、$g$、$A$ 和 $B$（公共值），也無法計算 $a$、$b$ 或 $z$（私人值）。為了達到這個目的，幂级数必須反轉，這個操作如果不逐一嘗試所有的可能性是不可能的，因為它等於計算離散對數，也就是有限循環群中幂级数的倒數。
@@ -4704,7 +4704,7 @@ TLS 是 `https` 中的 `s` 和瀏覽器 Address 欄中的掛鎖 - 加密通訊�
 正如我們在上一節所看到的，ECDH 是 Diffie-Hellman Exchange 的變體，使用在橢圓曲線上建立的金鑰對。好在我們的 Bitcoin 錢包中已經有很多符合這個標準的金鑰對！BIP47 的構想是使用雙方分層確定的 Bitcoin 錢包中的金鑰對來建立雙方之間共享的短暫秘密。BIP47 使用 ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***) 來代替。
 
 
-![BTC204](assets/fr/223.webp)
+![BTC204](assets/zh-Hant/229.webp)
 
 
 ECDHE 首先用於 BIP47，將付款代碼從寄件者傳送給收件者。這就是著名的**通知交易**。這個步驟非常重要，因為 BIP47 要有效運作，相關的雙方 (寄件者和收件者) 都需要知道彼此的付款代碼。有了這些知識，就能衍生出短暫公開金鑰，進而衍生出相關的空白接收位址。
@@ -4716,7 +4716,7 @@ ECDHE 首先用於 BIP47，將付款代碼從寄件者傳送給收件者。這�
 這是因為，與傳統的地址不同，BIP47 地址不是直接從收件人的 seed 衍生出來的 - 在這種情況下使用 `xpub` 會比較簡單 - 而是結合了兩個付款代碼的計算結果：發貨人的付款代碼和收件人的付款代碼。因此，如果收件人丟失了他的 Wallet，並嘗試從他的 seed 恢復它，他將恢復他自己的付款代碼，這是直接從他的 seed 派生的。但是，要恢復短暫地址，他還需要所有通過 BIP47 向他發送比特幣的人的支付代碼。因此，通知交易非常重要，它可以將這些資訊保存在 Bitcoin Blockchain 上，同時還可以非常容易地找到這些資訊，而無需從 2009 年推出以來執行的十億筆交易中搜尋。
 
 
-![BTC204](assets/fr/224.webp)
+![BTC204](assets/zh-Hant/230.webp)
 
 
 因此，只要每個使用者都備份其對等使用者的付款代碼，就可以不使用通知交易來實現 BIP47。然而，在開發出簡單、穩健且有效的備份、儲存和更新解決方案之前，這種方法的管理會很複雜。就目前情況而言，通知交易幾乎是不可避免的。
@@ -4763,7 +4763,7 @@ ECDHE 首先用於 BIP47，將付款代碼從寄件者傳送給收件者。這�
 在下圖中，橘色線表示資訊流必須中斷的點位，黑色箭頭表示第三方可能觀察到的連線：
 
 
-![BTC204](assets/fr/225.webp)
+![BTC204](assets/zh-Hant/231.webp)
 
 
 實際上，在 Bitcoin 的傳統保密模式中，要完全離間金鑰對與使用者之間的資訊流通常是很複雜的，尤其是在遠端交易中。舉例來說，在捐款活動中，收款人無可避免地必須透過其網站或社交網路公開 Address 或公開金鑰。正確使用 BIP47，尤其是通知交易，就可以繞過這個問題，這都要歸功於 ECDHE 和我們稍後要介紹的加密 Layer。
@@ -4871,7 +4871,7 @@ OP_RETURN 是一個操作碼，用來標記 Bitcoin 交易的輸出為無效。�
 - 它使用 `OP_RETURN` 交易輸出，將隱藏的付款代碼傳達給 Bob。
 
 
-![BTC204](assets/fr/226.webp)
+![BTC204](assets/zh-Hant/232.webp)
 
 
 ### 交易通知：實務研究
@@ -4880,7 +4880,7 @@ OP_RETURN 是一個操作碼，用來標記 Bitcoin 交易的輸出為無效。�
 為了更詳細瞭解其運作方式，特別是 `OP_RETURN` 的使用，讓我們來看看真實的通知交易。我在 Testnet 上進行了這樣一個交易，您可以 [按一下這裡](https://Mempool.space/fr/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e)。
 
 
-![BTC204](assets/fr/227.webp)
+![BTC204](assets/zh-Hant/233.webp)
 
 
 觀察這個交易，我們已經可以看到它有一個輸入和 4 個輸出：
@@ -5186,7 +5186,7 @@ $$ A = a \cdot G $$
 $$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
 
 
-![BTC204](assets/fr/228.webp)
+![BTC204](assets/zh-Hant/234.webp)
 
 
 既然 Bob 知道 Alice 的付款代碼，他就能偵測到她的 BIP47 付款，也就能推算出封鎖所收到的 bitcoins 的私密金鑰。
@@ -5204,7 +5204,7 @@ $$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
 - 它會使用這個致盲因子來解密 OP_RETURN 中所包含的 Alice 付款代碼有效負載。
 
 
-![BTC204](assets/fr/229.webp)
+![BTC204](assets/zh-Hant/235.webp)
 
 
 ### BIP47 付款交易
@@ -5299,13 +5299,13 @@ $$ K0 = B + s \cdot G $$
 - Alice 可以使用衍生的短暫接收 Address 向 Bob 進行傳統交易。
 
 
-![BTC204](assets/fr/230.webp)
+![BTC204](assets/zh-Hant/236.webp)
 
 
 如果 Alice 想要進行第二次付款，她會遵循之前相同的步驟，只是這次她會選擇從 Bob 的付款代碼衍生出來的第二個公開金鑰。具體來說，她會使用下一個未使用的金鑰。因此，她將獲得一個屬於 Bob 的新接收 Address，指定為 $K1$ ：
 
 
-![BTC204](assets/fr/231.webp)
+![BTC204](assets/zh-Hant/237.webp)
 
 
 它可以繼續以這種方式推導出多達 `2^32` 個屬於 Bob 的空白位址。
@@ -5322,7 +5322,7 @@ $$ K0 = B + s \cdot G $$
 它看起來像一個典型的交易，有一個消耗輸入、一個付款輸出和一個 Exchange 比率：
 
 
-![BTC204](assets/fr/232.webp)
+![BTC204](assets/zh-Hant/238.webp)
 
 
 ### 收到 BIP47 付款並衍生私密金鑰
@@ -5405,19 +5405,19 @@ $$ K0 = k0 \cdot G $$
 - 鮑勃計算與此短暫公開金鑰相關的私密金鑰，方法是加入由他的付款代碼和共用秘密所衍生的子私密金鑰。
 
 
-![BTC204](assets/fr/233.webp)
+![BTC204](assets/zh-Hant/239.webp)
 
 
 由於 Alice 無法取得 $b$（Bob 的私人密碼鑰），因此無法確定 $k0$（與 Bob 的 BIP47 接收 Address 相關的私人密碼鑰）。在結構上，我們可以將共用秘密 $S$ 的計算表示如下：
 
 
-![BTC204](assets/fr/228.webp)
+![BTC204](assets/zh-Hant/240.webp)
 
 
 一旦使用 ECDH 找到共用秘密，Alice 和 Bob 會計算 BIP47 支付公開金鑰 $K0$，Bob 也會計算相關的私人金鑰 $k0$：
 
 
-![BTC204](assets/fr/234.webp)
+![BTC204](assets/zh-Hant/241.webp)
 
 
 ### 退還 BIP47 付款
@@ -5432,7 +5432,7 @@ $$ K0 = k0 \cdot G $$
 然後，Bob 可以用 Alice 寄給他付款的相同方式償還 Alice。角色反轉：
 
 
-![BTC204](assets/fr/235.webp)
+![BTC204](assets/zh-Hant/242.webp)
 
 
 *非常感謝 [Fanis Michalakis](https://x.com/FanisMichalakis)，感謝他對文章的校對和專家意見，啟發了本章的撰寫！*
@@ -5497,7 +5497,7 @@ BIP47 因其鏈上效率低而廣受批評。如前一章所述，它需要為�
 在開始之前，有必要指出 Silent Payments 完全依賴使用 P2TR (*Pay to Taproot*)腳本類型。與 BIP47 不同的是，不需要從子公開金鑰透過散列推導出接收位址。在 P2TR 標準中，經調整過的公開金鑰會直接使用，並且在 Address 中不加密。因此 Taproot 接收 Address 基本上是一個帶有一些元資料的公開金鑰。這個經調整過的公開金鑰是另外兩個公開金鑰的集合：一個是透過簡單簽章直接使用傳統的花費，另一個則代表 MAST 的 Merkle Root，它授權花費必須滿足 Merkle Tree 中可能記載的條件之一。
 
 
-![BTC204](assets/fr/068.webp)
+![BTC204](assets/zh-Hant/243.webp)
 
 
 決定將 Silent Payments 侷限於 Taproot 有兩個主要原因：
@@ -5577,7 +5577,7 @@ $$ p = (b + text{Hash}(b \cdot A))\bmod n $$
 如您所見，要計算私人密碼匙 $p$，您必須擁有私人密碼匙 $b$。只有 Bob 有這個私人密碼匙 $b$。因此，只有他能夠花費發送給他的 Silent Payments Address 的比特幣。
 
 
-![BTC204](assets/fr/236.webp)
+![BTC204](assets/zh-Hant/244.webp)
 
 
 *圖例：*
@@ -5647,7 +5647,7 @@ p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n
 $$
 
 
-![BTC204](assets/fr/237.webp)
+![BTC204](assets/zh-Hant/245.webp)
 
 
 *圖例：*
@@ -5706,7 +5706,7 @@ p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
 $$
 
 
-![BTC204](assets/fr/238.webp)
+![BTC204](assets/zh-Hant/246.webp)
 
 
 *圖例：*
@@ -5744,7 +5744,7 @@ $$
 - $a_2$ 確保輸入 #2。
 
 
-![BTC204](assets/fr/239.webp)
+![BTC204](assets/zh-Hant/247.webp)
 
 
 按照之前描述的方法，Alice 必須從 $a_0$、$a_1$ 和 $a_2$ 中選擇一個單一的金鑰對，從 Bob 的靜態 Address $B$ 中計算 ECDH 秘 密和 generate 單一支付 Address $P$。然而，此方法需要 Bob 依序測試每種可能性，從 $a_0$開始，然後是 $a_1$，如此類推，直到他識別出能產生有效 $P$ Address 的一對。這個過程需要 Bob 對所有交易的所有輸入執行 ECDH 計算，這大大增加了掃描的操作負載。
@@ -5822,7 +5822,7 @@ $$ P_0 = B_{text{spend}}+ \text{Hash}(\text{inputHash} \cdot b_{text{scan}} \cdo
 $$ p_0 = (b_{text\{spend}}+ \text{Hash}(\text{inputHash} \cdot b_{text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
 
 
-![BTC204](assets/fr/240.webp)
+![BTC204](assets/zh-Hant/248.webp)
 
 
 *圖例：*
@@ -5907,7 +5907,7 @@ $$ B_1 = B_{text{spend}}+ text{Hash}(b_{text{scan}} \text{ ‖ } 1) \cdot G $$
 但請注意，這種分隔靜態位址的做法僅在個人組合管理的觀點上有效，並不能分隔身份。由於它們都有相同的 $B_{text/{scan}}$，因此很容易將所有的靜態位址聯繫在一起，推斷它們屬於單一的個體。
 
 
-![BTC204](assets/fr/241.webp)
+![BTC204](assets/zh-Hant/249.webp)
 
 
 *圖例：*

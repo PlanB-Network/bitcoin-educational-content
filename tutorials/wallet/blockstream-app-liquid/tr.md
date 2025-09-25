@@ -1,5 +1,5 @@
 ---
-name: Blockstream Uygulaması - Liquid
+name: Blockstream App - Liquid
 description: Blockstream Uygulaması nasıl yapılandırılır ve Liquid Network nasıl kullanılır
 ---
 ![cover](assets/cover.webp)

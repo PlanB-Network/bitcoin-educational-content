@@ -1,5 +1,5 @@
 ---
-name: 怒りのIPスキャナー
+name: Angry IP Scanner
 description: ネットワークをスキャンする簡単な方法
 ---
 ![cover](assets/cover.webp)

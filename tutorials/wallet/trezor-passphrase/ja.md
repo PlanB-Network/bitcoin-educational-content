@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 トレゾール
+name: BIP-39 Passphrase Trezor
 description: passphraseをTrezorのポートフォリオに加えるには？
 ---
 ![cover](assets/cover.webp)

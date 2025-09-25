@@ -1,5 +1,5 @@
 ---
-name: पीएफसेंस
+name: pfSense
 description: Pfsense स्थापित करना
 ---
 ![cover](assets/cover.webp)

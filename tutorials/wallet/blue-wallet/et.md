@@ -1,5 +1,5 @@
 ---
-name: Sinine Wallet
+name: Blue Wallet
 
 description: Bitcoin Radikaalselt lihtne ja võimas portfell
 ---

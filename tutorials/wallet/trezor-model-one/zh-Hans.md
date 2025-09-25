@@ -1,5 +1,5 @@
 ---
-name: Trezor 型号 One
+name: Trezor Model One
 description: 设置和使用 Hardware Wallet 型号一
 ---
 ![cover](assets/cover.webp)

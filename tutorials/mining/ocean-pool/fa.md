@@ -1,5 +1,5 @@
 ---
-name: اوشن Mining
+name: Ocean Mining
 
 description: مقدمه‌ای بر Ocean Mining
 ---

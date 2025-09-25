@@ -1,5 +1,5 @@
 ---
-name: Staarten
+name: Tails
 
 description: Installeer Tails op een USB-stick
 ---

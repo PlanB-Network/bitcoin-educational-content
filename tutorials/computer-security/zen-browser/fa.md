@@ -1,5 +1,5 @@
 ---
-name: مرورگر Zen
+name: Zen Browser
 description: چگونه از مرورگر Zen برای مرور سازنده و محرمانه استفاده کنیم؟
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Payung LND
+name: Umbrel LND
 description: Tutorial lanjutan tentang cara menginstal dan mengonfigurasi Lightning Network Daemon (LND) pada Umbrel
 ---
 ![cover](assets/cover.webp)

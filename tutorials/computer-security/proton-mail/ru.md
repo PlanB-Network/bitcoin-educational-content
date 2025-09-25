@@ -1,5 +1,5 @@
 ---
-name: Почта Протона
+name: Proton Mail
 description: Настройка защищенного почтового ящика
 ---
 ![cover](assets/cover.webp)

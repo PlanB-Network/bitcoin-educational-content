@@ -1,5 +1,5 @@
 ---
-name: Cổng thông tin
+name: Portal
 description: Cấu hình và sử dụng Cổng thông tin ví phần cứng TwentyTwo-Devices
 ---
 ![cover](assets/cover.webp)

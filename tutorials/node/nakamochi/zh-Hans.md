@@ -1,5 +1,5 @@
 ---
-name: 中茂地
+name: Nakamochi
 description: 节点运行更轻松 - 如何配置和使用 Nakamochi 比特币和闪电网络节点。
 ---
 

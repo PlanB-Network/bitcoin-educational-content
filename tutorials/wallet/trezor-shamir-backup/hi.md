@@ -1,5 +1,5 @@
 ---
-name: ट्रेज़ोर शमीर बैकअप
+name: Trezor Shamir Backup
 description: ट्रेज़ोर पर सिंगल-शेयर और मल्टी-शेयर Mnemonic वाक्यांश
 ---
 ![cover](assets/cover.webp)

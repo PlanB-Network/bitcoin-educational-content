@@ -1,5 +1,5 @@
 ---
-name: エヌマップ
+name: Nmap
 description: ネットワークマッピングと脆弱性スキャンのためのマスターNmap
 ---
 

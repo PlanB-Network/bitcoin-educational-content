@@ -1,5 +1,5 @@
 ---
-name: KARTU KOLDCARD Q - Teleportasi Kunci
+name: COLDCARD Q - Key Teleport
 description: Apa itu Key Teleport dan bagaimana cara menggunakannya?
 ---
 

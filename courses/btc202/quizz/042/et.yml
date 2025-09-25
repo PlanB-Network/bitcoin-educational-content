@@ -1,0 +1,9 @@
+question: Millise litsentsi alusel levitatakse umbrelOSi?
+answer: PolyForm Noncommercial 1.0
+wrong_answers:
+  - MIT
+  - GPLv3
+  - Apache 2.0
+explanation: |
+  umbrelOS on avaldatud PolyForm Noncommercial 1.0 litsentsi alusel, mis lubab isiklikku kasutamist, kuid keelab kommertsliku kasutamise.
+reviewed: true

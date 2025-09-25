@@ -1,5 +1,5 @@
 ---
-name: Kikao
+name: Session
 description: Tuma ujumbe uliosimbwa kwa njia fiche, si metadata
 ---
 ![cover](assets/cover.webp)

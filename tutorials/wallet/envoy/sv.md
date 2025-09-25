@@ -1,5 +1,5 @@
 ---
-name: Sändebud
+name: Envoy
 description: Konfigurera och använda ett pass med Envoy-applikationen
 ---
 ![cover](assets/cover.webp)

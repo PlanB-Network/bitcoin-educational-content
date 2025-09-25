@@ -1,5 +1,5 @@
 ---
-name: 麻雀 Wallet
+name: Sparrow Wallet
 description: 安裝、配置和使用 Sparrow Wallet
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Advanced
+name: COLDCARD Q - Mtaalamu
 description: Kwa kutumia chaguo za kina za COLDCARD Q
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Wat vindt Spinoza van toeval?
+answer: Het bestaat niet.
+wrong_answers:
+  - Het bestaat.
+  - Hij stelt het gelijk aan fatalisme.
+  - Hij beschouwt het als bijgeloof.
+explanation: |
+  Voor Spinoza bestaat er niet zoiets als toeval. Alles in het universum volgt noodzakelijke en vaststaande wetten. Wat voor ons toeval lijkt, is slechts het resultaat van onze onwetendheid over de ware oorzaken.
+reviewed: false

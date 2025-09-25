@@ -1,5 +1,5 @@
 ---
-name: 電子琴 OP_RETURN
+name: Electrum OP_RETURN
 description: 使用 Electrum 註冊 Blockchain Bitcoin 的訊息
 ---
 

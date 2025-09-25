@@ -133,6 +133,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.28
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.85
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.72
 tags:
   - business
   - adoption

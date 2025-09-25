@@ -1,5 +1,5 @@
 ---
-name: Ba mẹ
+name: Threema
 description: Nhắn tin tức thời an toàn, ẩn danh
 ---
 ![cover](assets/cover.webp)

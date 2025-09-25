@@ -1,5 +1,5 @@
 ---
-name: Trình duyệt Zen
+name: Zen Browser
 description: Làm thế nào để sử dụng Zen Browser để duyệt web hiệu quả và bảo mật?
 ---
 

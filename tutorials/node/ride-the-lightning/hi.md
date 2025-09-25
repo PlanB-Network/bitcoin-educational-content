@@ -1,5 +1,5 @@
 ---
-name: राइड द लाइटनिंग (RTL)
+name: Ride The Lightning (RTL)
 description: अपने लाइटनिंग नोड को प्रबंधित करने के लिए राइड द लाइटनिंग (RTL) का उपयोग करें
 ---
 ![cover](assets/cover.webp)

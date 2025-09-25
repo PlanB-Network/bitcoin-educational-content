@@ -1,5 +1,5 @@
 ---
-name: Trezor Salama 5
+name: Trezor Safe 5
 description: Kusanidi na kutumia Hardware Wallet Salama 5
 ---
 ![cover](assets/cover.webp)

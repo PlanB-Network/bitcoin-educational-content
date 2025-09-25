@@ -1,5 +1,5 @@
 ---
-name: Kryptomator
+name: Cryptomator
 description: Szyfrowanie plików w chmurze
 ---
 ![cover](assets/cover.webp)

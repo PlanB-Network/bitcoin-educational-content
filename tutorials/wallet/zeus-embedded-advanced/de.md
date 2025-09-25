@@ -1,5 +1,5 @@
 ---
-name: Zeus Embedded - Fortgeschritten
+name: Zeus Embedded - Erweitert
 description: Multi-Node selbstverwaltete Lightning-Wallet
 ---
 

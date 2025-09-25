@@ -1,5 +1,5 @@
 ---
-name: Ngurumo
+name: Thunderbird
 description: Ujumbe salama kwa wataalamu na watu binafsi
 ---
 

@@ -50,7 +50,7 @@ Los comandos que contienen están escritos en el lenguaje de programación JavaS
 Un runtime JavaScript es un programa especial que ejecuta estos archivos.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### El entorno de ejecución de NodeJS
@@ -71,7 +71,7 @@ Dado que NodeJS está disponible para los tres sistemas operativos, los programa
 Esto significa que puedes, por ejemplo, escribir un videojuego sencillo en JavaScript en tu PC con Windows y pasárselo a tu amigo para que lo ejecute en su Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Puedes combinar booleanos utilizando operadores lógicos:
 - `!` significa "no", se aplica antes de un booleano, y le dará la vuelta: si el booleano es `true` devolverá `false`, y viceversa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Ejemplos:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 La clase `Car` ahora **hereda** todo de `Vehicle`. Obtiene la propiedad `brand`, y hemos reemplazado el método `start()` por nuestra propia versión.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Vamos a probarlo:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript es un lenguaje interpretado, a diferencia de los lenguajes compilados
 El código escrito en un lenguaje compilado se convierte en binario, y el binario pasa directamente a la CPU del ordenador.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 En cambio, los lenguajes interpred suelen ser más fáciles de usar y se acercan más a cómo piensan los humanos ("alto nivel") que a cómo funcionan las máquinas ("bajo nivel"), por lo que suelen tener una máquina virtual construida para ejecutar su código.
@@ -5261,7 +5261,7 @@ A pesar de ser fácil de usar y bastante rápido de ejecutar, tras el lanzamient
 Pues bien, dado que los navegadores ejecutan código obtenido de millones de fuentes distintas en Internet, pueden incurrir fácilmente en malware, por lo que están "aislados" del resto del sistema operativo.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript no podía acceder al sistema de archivos ni a otros recursos locales del ordenador (al menos, no tan fácilmente como otros lenguajes), lo que suponía una limitación importante para el tipo de aplicaciones que se podían crear con él.
@@ -5270,7 +5270,7 @@ JavaScript no podía acceder al sistema de archivos ni a otros recursos locales 
 En 2009, Ryan Dahl publicó NodeJS, que es un runtime que permite utilizar el motor V8 fuera del navegador, directamente en el sistema operativo nativo del ordenador. También añade muchas características útiles para escribir programas del lado del servidor y de línea de comandos. Por ejemplo, puedes utilizar NodeJS para crear un servidor web, leer y escribir archivos o crear herramientas que automaticen tareas.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 En este curso hasta ahora, hemos explorado las características de JavaScript que están presentes tanto en el navegador como en NodeJS. Esas características nos han permitido definir datos y manipularlos de forma abstracta. En las próximas lecciones, exploraremos las características que son específicas de NodeJS y nos permiten interactuar con el sistema operativo.

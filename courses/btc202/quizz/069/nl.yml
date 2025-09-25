@@ -1,0 +1,9 @@
+question: Wat is het grootste risico van de ophoping van Dust in je mini-pc?
+answer: Processor smoren
+wrong_answers:
+  - Blockchain blok verwijderen
+  - Schijfbeschadiging
+  - Verminderde RAM-capaciteit
+explanation: |
+  Dust blokkeert de ventilatie, veroorzaakt oververhitting en leidt tot throttling, waardoor de processor minder efficiënt werkt.
+reviewed: true

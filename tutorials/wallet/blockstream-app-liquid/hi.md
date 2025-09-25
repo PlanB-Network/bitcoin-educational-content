@@ -1,5 +1,5 @@
 ---
-name: ब्लॉकस्ट्रीम ऐप - Liquid
+name: Blockstream App - Liquid
 description: ब्लॉकस्ट्रीम ऐप को कैसे कॉन्फ़िगर करें और Liquid Network का उपयोग कैसे करें
 ---
 ![cover](assets/cover.webp)

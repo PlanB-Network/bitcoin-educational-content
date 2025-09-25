@@ -80,7 +80,7 @@ Bu nedenle Whirlpool kullanımının özellikle `HODL -> Karıştır -> Harca ->
 Umarım bu cevap Whirlpool modeline biraz ışık tutmuştur. Bitcoin'ta coinjoins'in nasıl çalıştığı hakkında daha fazla bilgi edinmek istiyorsanız, bu konudaki kapsamlı makalemi okumanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Harici kaynaklar:**
 

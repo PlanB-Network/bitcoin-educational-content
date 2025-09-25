@@ -1,5 +1,5 @@
 ---
-name: ライド・ザ・ライトニング（RTL）
+name: Ride The Lightning (RTL)
 description: Ride The Lightning (RTL)を使用してLightningノードを管理します。
 ---
 ![cover](assets/cover.webp)

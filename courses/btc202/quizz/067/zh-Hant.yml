@@ -1,0 +1,9 @@
+question: 還原 Lightning 節點需要哪些備份？
+answer: seed 和 SCB
+wrong_answers:
+  - seed 和 txindex 檔案
+  - seed 和公用 IP Address
+  - seed 和 2FA
+explanation: |
+  還原 Lightning 節點需要同時使用 seed 和 SCB（靜態通道備份），否則通道資金無法還原。
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Zen brauser
+name: Zen Browser
 description: Kuidas kasutada Zen Browser'i produktiivseks ja konfidentsiaalseks sirvimiseks?
 ---
 

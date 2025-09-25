@@ -1,5 +1,5 @@
 ---
-name: تیلزکیل
+name: Tailscale
 description: آموزش پیشرفته Tailscale
 ---
 ![cover](assets/cover.webp)

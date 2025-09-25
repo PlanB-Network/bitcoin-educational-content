@@ -1,5 +1,5 @@
 ---
-name: Bitcoinカンパニー
+name: The Bitcoin Company
 description: BitcoinカンパニーでBTCで商品やサービスを購入するには？
 ---
 ![cover](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Bitcoin कोर (macOS और Windows)
+name: "Bitcoin Core (macOS & Windows)"
 description: मैक या विंडोज पर Bitcoin कोर स्थापित करें
 ---
 

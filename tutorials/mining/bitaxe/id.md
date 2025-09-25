@@ -1,5 +1,5 @@
 ---
-name: Mengatur BitAxe
+name: Bitaxe
 description: Bagaimana cara mengatur BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)

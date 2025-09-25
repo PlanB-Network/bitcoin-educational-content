@@ -73,7 +73,7 @@ ecash 是什麼：令人難以置信的私密性 (交易不會留下任何可追
 
 備份可以說是整個設定過程中最關鍵的步驟。若要存取備份選項，請導航至 `設定 `-> `備份 ` 在這裡您會找到兩個重要選項：
 
-1.您的 seed 詞組」包含「12 個單字」，可讓您在裝置遺失時恢復您的 ecash 結餘。這個 seed 詞組是您在所有已加入的鑄幣廠存取所有 ecash 的主密碼。請將它寫在實體媒體 (紙張或金屬) 上，並將它安全地儲存在多個位置。切勿以數位方式儲存您的 seed 短語，因為它可能會外洩。請考慮瀏覽此 [教學](https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 以獲得保護您的 Wallet 的最佳做法。
+1.您的 seed 詞組」包含「12 個單字」，可讓您在裝置遺失時恢復您的 ecash 結餘。這個 seed 詞組是您在所有已加入的鑄幣廠存取所有 ecash 的主密碼。請將它寫在實體媒體 (紙張或金屬) 上，並將它安全地儲存在多個位置。切勿以數位方式儲存您的 seed 短語，因為它可能會外洩。請考慮瀏覽此 [教學](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 以獲得保護您的 Wallet 的最佳做法。
 
 2.包含長備份字串的 `Wallet backup`。
 

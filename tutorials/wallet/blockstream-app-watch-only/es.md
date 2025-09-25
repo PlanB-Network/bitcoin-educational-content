@@ -1,5 +1,5 @@
 ---
-name: Aplicación Blockstream - Watch-Only
+name: Blockstream App - Watch-Only
 description: ¿Cómo configuro una Watch-only wallet en Blockstream App?
 ---
 

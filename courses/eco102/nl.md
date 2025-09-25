@@ -1468,7 +1468,6 @@ Solidariteit binnen de familie, lokale solidariteit of georganiseerde filantropi
 Het is vaak in de mode om te klagen over het "egoïsme" dat zou heersen in liberale samenlevingen. Maar precies het tegenovergestelde is waar. Wanneer een samenleving belast wordt met belastingen en individuen niet langer hun eigendom bezitten, worden ze niet aangemoedigd om te geven maar eerder om zich in zichzelf terug te trekken.
 
 
-![image](assets/en/119.webp)
 
 
 In werkelijkheid berust een vrije burgermaatschappij niet op egoïsme: de markteconomie werkt op basis van dienstbaarheid aan de naaste en wederkerigheid. Men kan alleen het eigen belang dienen door het belang van een ander te dienen, door de ander een tegenprestatie te bieden die leidt tot een wederzijds voordelige Exchange. Met andere woorden, het is de vrijwillige Exchange die echte solidariteit creëert. Met andere woorden, het is vrijwillige Exchange die echte solidariteit creëert.

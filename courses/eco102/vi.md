@@ -1473,7 +1473,6 @@ Trên thực tế, tình đoàn kết trong gia đình, tình đoàn kết đị
 Người ta thường than thở về "sự ích kỷ" vốn thịnh hành trong các xã hội tự do. Nhưng thực tế hoàn toàn ngược lại. Khi một xã hội bị gánh nặng thuế má và cá nhân không còn sở hữu tài sản của mình, họ không được khuyến khích cho đi mà lại thu mình lại.
 
 
-![image](assets/en/119.webp)
 
 
 Trên thực tế, một xã hội dân sự tự do không dựa trên sự ích kỷ: nền kinh tế thị trường vận hành trên cơ sở phục vụ người lân cận và có đi có lại. Người ta chỉ có thể phục vụ lợi ích của mình bằng cách phục vụ lợi ích của người khác, bằng cách cung cấp cho người khác một đối tác dẫn đến một Exchange cùng có lợi. Nói cách khác, chính Exchange tự nguyện mới tạo nên sự đoàn kết thực sự.

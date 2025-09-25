@@ -1468,7 +1468,6 @@ Gerçekten de, aile içi dayanışma, yerel dayanışma veya örgütlü hayırse
 Liberal toplumlarda hüküm sürecek olan "bencillikten" yakınmak çoğu zaman moda olmuştur. Ancak bunun tam tersi doğrudur. Bir toplum vergilerle yüklendiğinde ve bireyler artık kendi mülklerine sahip olmadıklarında, vermeye değil, kendi içlerine kapanmaya teşvik edilirler.
 
 
-![image](assets/en/119.webp)
 
 
 Gerçekte, özgür bir sivil toplum bencilliğe dayanmaz: piyasa ekonomisi komşuya hizmet ve karşılıklılık temelinde işler. Kişi kendi çıkarına ancak bir başkasının çıkarına hizmet ederek, diğerine karşılıklı fayda sağlayan bir KBG-17'ye yol açan bir karşılık sunarak hizmet edebilir. Başka bir deyişle, gerçek dayanışmayı yaratan gönüllü KA-17'dir.

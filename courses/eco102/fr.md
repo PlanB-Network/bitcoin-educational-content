@@ -1031,8 +1031,6 @@ De fait, la solidarité intrafamiliale, la solidarité locale ou la philanthropi
 
 Il est souvent de bon ton de déplorer « l'égoïsme » qui prévaudrait dans les sociétés libérales. Mais c’est exactement l’inverse qui est vrai. Quand une société est écrasée d’impôts et que les individus ne sont plus propriétaires de leurs biens, ils ne sont pas incités à donner mais plutôt à se replier sur eux-mêmes.
 
-![image](assets/en/119.webp)
-
 En réalité, la société civile libre ne repose pas sur l'égoïsme : l'économie de marché fonctionne sur la base du service à son prochain et sur la réciprocité. On ne peut servir son propre intérêt qu’en servant l’intérêt d’autrui, en offrant à l'autre une contrepartie qui conduit à un échange mutuellement bénéfique. Autrement dit c’est l’échange volontaire qui crée la vraie solidarité.
 
 La redistribution forcée n’a donc rien à voir avec la solidarité humaine authentique, qui est d’ordre privée ou volontaire et qu’on voit à l’intérieure des familles, ou bien entre les membres d’une association.

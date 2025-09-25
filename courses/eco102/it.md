@@ -1014,7 +1014,6 @@ Infatti, la solidarietà intrafamiliare, la solidarietà locale o la filantropia
 
 Spesso è di moda lamentarsi del "egoismo" che prevalerebbe nelle società liberali. Ma è vero esattamente il contrario. Quando una società è gravata dalle tasse e gli individui non possiedono più la loro proprietà, non sono incoraggiati a dare, ma piuttosto a ritirarsi in se stessi.
 
-![image](assets/en/119.webp)
 
 
 Nella realtà, una società civile libera non si basa sull'egoismo: l'economia di mercato opera sulla base del servizio al prossimo e della reciprocità. Si può servire il proprio interesse solo servendo l'interesse di un altro, offrendo all'altro una controparte che porta a uno scambio reciprocamente vantaggioso. In altre parole, è lo scambio volontario che crea la vera solidarietà.

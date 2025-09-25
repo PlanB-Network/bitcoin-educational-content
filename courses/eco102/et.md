@@ -1473,7 +1473,6 @@ Tõepoolest, peresisene solidaarsus, kohalik solidaarsus või organiseeritud hea
 Sageli on moes kurta "isekuse" üle, mis valitseks liberaalsetes ühiskondades. Kuid see on täpselt vastupidi. Kui ühiskonda koormatakse maksudega ja üksikisikud ei ole enam oma vara omanikud, ei julgustata neid mitte andma, vaid pigem endasse tõmbuma.
 
 
-![image](assets/en/119.webp)
 
 
 Tegelikkuses ei põhine vaba kodanikuühiskond egoismil: turumajandus toimib ligimese teenimise ja vastastikkuse alusel. Oma huve saab teenida vaid teise huve teenides, pakkudes teisele vastutasu, mis viib vastastikku kasulikku Exchange. Teisisõnu, see on vabatahtlik Exchange, mis loob tõelise solidaarsuse.

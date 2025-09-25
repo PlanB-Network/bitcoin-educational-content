@@ -1473,7 +1473,6 @@ Perheen sisäinen solidaarisuus, paikallinen solidaarisuus tai järjestäytynyt 
 On usein muodikasta valittaa "itsekkyyttä", joka vallitsisi liberaalissa yhteiskunnassa. Täysin päinvastoin on kuitenkin totta. Kun yhteiskuntaa rasittavat verot ja kun yksilöt eivät enää omista omaisuuttaan, heitä ei kannusteta antamaan vaan pikemminkin vetäytymään itseensä.
 
 
-![image](assets/en/119.webp)
 
 
 Todellisuudessa vapaa kansalaisyhteiskunta ei perustu itsekkyyteen: markkinatalous toimii lähimmäisen palvelemisen ja vastavuoroisuuden pohjalta. Omaa etua voi palvella vain palvelemalla toisen etua, tarjoamalla toiselle vastapalveluksen, joka johtaa molempia osapuolia hyödyttävään Exchange:ään. Toisin sanoen vapaaehtoinen Exchange luo todellista solidaarisuutta.

@@ -1468,7 +1468,6 @@ Kwa hakika, mshikamano wa ndani ya familia, mshikamano wa ndani, au ufadhili uli
 Mara nyingi ni mtindo kuomboleza "ubinafsi" ambao ungetawala katika jamii huria. Lakini kinyume kabisa ni kweli. Wakati jamii inaelemewa na kodi na watu binafsi hawamiliki mali zao tena, hawahimizwa kutoa bali kujitoa wenyewe.
 
 
-![image](assets/en/119.webp)
 
 
 Kwa kweli, jumuiya huru ya kiraia haitegemei ubinafsi: uchumi wa soko unafanya kazi kwa misingi ya huduma kwa jirani na usawa. Mtu anaweza tu kutumikia maslahi yake mwenyewe kwa kutumikia maslahi ya mwingine, kwa kumpa mwenzake mwenzake ambayo inaongoza kwa manufaa ya Ubadilishanaji. Kwa maneno mengine, ni ubadilishanaji wa hiari ambao unaunda mshikamano wa kweli.

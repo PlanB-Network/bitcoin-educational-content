@@ -1473,7 +1473,6 @@ Tatsächlich sind die innerfamiliäre Solidarität, die lokale Solidarität oder
 Es ist oft in Mode, den "Egoismus" zu beklagen, der in liberalen Gesellschaften herrschen würde. Doch genau das Gegenteil ist der Fall. Wenn eine Gesellschaft mit Steuern belastet wird und der Einzelne nicht mehr Eigentümer seines Eigentums ist, wird er nicht ermutigt zu geben, sondern sich auf sich selbst zurückzuziehen.
 
 
-![image](assets/en/119.webp)
 
 
 In Wirklichkeit beruht eine freie Zivilgesellschaft nicht auf Egoismus: Die Marktwirtschaft funktioniert auf der Grundlage des Dienstes am Nächsten und der Gegenseitigkeit. Man kann dem eigenen Interesse nur dienen, indem man dem Interesse eines anderen dient, indem man dem anderen eine Gegenleistung anbietet, die zu einem für beide Seiten vorteilhaften Exchange führt. Mit anderen Worten, es sind freiwillige Exchange, die wahre Solidarität schaffen.

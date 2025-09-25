@@ -1467,7 +1467,6 @@ Rzeczywiście, solidarność wewnątrzrodzinna, solidarność lokalna lub zorgan
 Często modne jest ubolewanie nad "egoizmem", który zapanowałby w liberalnych społeczeństwach. Jest jednak dokładnie odwrotnie. Kiedy społeczeństwo jest obciążone podatkami, a jednostki nie są już właścicielami swojej własności, nie są zachęcane do dawania, ale raczej do zamykania się w sobie.
 
 
-![image](assets/en/119.webp)
 
 
 W rzeczywistości wolne społeczeństwo obywatelskie nie opiera się na egoizmie: gospodarka rynkowa działa na zasadzie służby bliźniemu i wzajemności. Można służyć własnemu interesowi tylko poprzez służenie interesowi drugiej osoby, oferując jej odpowiednik, który prowadzi do wzajemnie korzystnego Exchange. Innymi słowy, to dobrowolne Exchange tworzy prawdziwą solidarność.

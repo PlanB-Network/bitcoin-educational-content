@@ -997,7 +997,6 @@ Memang, solidaritas intra-keluarga, solidaritas lokal, atau filantropi terorgani
 
 Sering kali menjadi tren untuk mengeluhkan "keegoisan" yang akan mendominasi di masyarakat liberal. Namun, kebalikannya adalah benar. Ketika masyarakat dibebani dengan pajak dan individu tidak lagi memiliki properti mereka, mereka tidak didorong untuk memberi tetapi lebih cenderung untuk menarik diri ke dalam diri mereka sendiri.
 
-![image](assets/en/119.webp)
 
 Pada kenyataannya, masyarakat sipil yang bebas tidak didasarkan pada keegoisan: ekonomi pasar beroperasi berdasarkan pelayanan kepada sesama dan timbal balik. Seseorang hanya dapat melayani kepentingan diri sendiri dengan melayani kepentingan orang lain, dengan menawarkan pihak lain sebuah imbalan yang mengarah pada pertukaran yang saling menguntungkan. Dengan kata lain, pertukaran sukarela yang menciptakan solidaritas sejati.
 

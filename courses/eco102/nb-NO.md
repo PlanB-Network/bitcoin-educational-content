@@ -1473,7 +1473,6 @@ Solidaritet innad i familien, lokal solidaritet eller organisert filantropi er f
 Det er ofte på moten å beklage den "egoismen" som skulle råde i liberale samfunn. Men det er det stikk motsatte som er tilfelle. Når et samfunn er tynget av skatter og avgifter, og individene ikke lenger eier sin egen eiendom, oppmuntres de ikke til å gi, men snarere til å trekke seg inn i seg selv.
 
 
-![image](assets/en/119.webp)
 
 
 I virkeligheten hviler ikke et fritt sivilsamfunn på egoisme: Markedsøkonomien fungerer på grunnlag av tjeneste for naboen og gjensidighet. Man kan bare tjene sin egen interesse ved å tjene en annens interesse, ved å tilby den andre en motytelse som fører til en gjensidig fordelaktig Exchange. Det er med andre ord frivillig Exchange som skaper ekte solidaritet.

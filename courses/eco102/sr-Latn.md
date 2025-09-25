@@ -1466,7 +1466,6 @@ Zaista, solidarnost unutar porodice, lokalna solidarnost ili organizovana filant
 Često je moderno žaliti se na "sebičnost" koja bi prevladavala u liberalnim društvima. Ali tačno je suprotno. Kada je društvo opterećeno porezima i pojedinci više ne poseduju svoju imovinu, nisu podstaknuti da daju, već da se povuku u sebe.
 
 
-![image](assets/en/119.webp)
 
 
 U stvarnosti, slobodno građansko društvo ne počiva na sebičnosti: tržišna ekonomija funkcioniše na osnovu služenja bližnjem i reciprociteta. Čovek može služiti sopstvenom interesu samo služeći interesu drugog, nudeći drugome protivvrednost koja vodi ka obostrano korisnoj razmeni. Drugim rečima, dobrovoljna razmena stvara pravu solidarnost.

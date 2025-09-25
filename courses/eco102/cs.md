@@ -981,7 +981,6 @@ V pamfletu nazvaném "Spravedlnost a bratrství" Bastiat také zkoumá myšlenku
 
 Skutečně, solidarita v rámci rodiny, místní solidarita nebo organizovaná filantropie jsou mnohem více rozvinuté v zemích, které mají lehký daňový systém a relativně vysoký stupeň ekonomické svobody, jako je Švýcarsko a Spojené státy, zatímco je výrazně potlačena v zemích, kde stát do značné míry nahradil individuální odpovědnost, jako je Francie nebo Německo.
 Často je módní naříkat nad "sobeckostí", která by měla převládat v liberálních společnostech. Ale pravda je přesně opačná. Když je společnost zatížena daněmi a jednotlivci již nevlastní svůj majetek, nejsou povzbuzováni k dávání, ale spíše k uzavírání se do sebe.
-![image](assets/en/119.webp)
 
 Ve skutečnosti svobodná občanská společnost nestojí na sobeckosti: tržní ekonomika funguje na základě služby bližnímu a vzájemnosti. Sloužit vlastnímu zájmu lze pouze tím, že sloužíme zájmu druhého, nabídnutím protistrany, která vede k vzájemně výhodné výměně. Jinými slovy, je to dobrovolná výměna, která vytváří pravou solidaritu.
 

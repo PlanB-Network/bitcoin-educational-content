@@ -1004,7 +1004,6 @@ Indeed, intra-family solidarity, local solidarity, or organized philanthropy are
 
 It is often fashionable to lament the "selfishness" that would prevail in liberal societies. But the exact opposite is true. When a society is burdened with taxes and individuals no longer own their property, they are not encouraged to give but rather to withdraw into themselves.
 
-![image](assets/en/119.webp)
 
 In reality, a free civil society does not rest on selfishness: the market economy operates on the basis of service to one's neighbor and reciprocity. One can only serve one's own interest by serving the interest of another, by offering the other a counterpart that leads to a mutually beneficial exchange. In other words, it is voluntary exchange that creates true solidarity.
 

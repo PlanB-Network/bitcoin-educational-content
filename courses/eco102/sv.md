@@ -1468,7 +1468,6 @@ Solidaritet inom familjen, lokal solidaritet eller organiserad filantropi är my
 Det är ofta på modet att beklaga sig över den "själviskhet" som skulle råda i liberala samhällen. Men det är precis tvärtom. När ett samhälle tyngs av skatter och individer inte längre äger sin egendom uppmuntras de inte att ge utan snarare att dra sig undan.
 
 
-![image](assets/en/119.webp)
 
 
 I själva verket vilar ett fritt civilsamhälle inte på själviskhet: marknadsekonomin fungerar på grundval av service till sin granne och ömsesidighet. Man kan bara tjäna sitt eget intresse genom att tjäna den andres intresse, genom att erbjuda den andre en motpart som leder till en ömsesidigt fördelaktig Exchange. Med andra ord är det frivillig Exchange som skapar verklig solidaritet.

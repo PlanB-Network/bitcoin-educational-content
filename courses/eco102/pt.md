@@ -1473,7 +1473,6 @@ Com efeito, a solidariedade intrafamiliar, a solidariedade local ou a filantropi
 Está muitas vezes na moda lamentar o "egoísmo" que prevaleceria nas sociedades liberais. Mas é exatamente o contrário que acontece. Quando uma sociedade é sobrecarregada de impostos e os indivíduos deixam de ser proprietários dos seus bens, não são encorajados a dar, mas sim a fecharem-se em si próprios.
 
 
-![image](assets/en/119.webp)
 
 
 Na realidade, uma sociedade civil livre não se baseia no egoísmo: a economia de mercado funciona com base no serviço ao próximo e na reciprocidade. Só se pode servir o próprio interesse servindo o interesse do outro, oferecendo-lhe uma contrapartida que conduza a um Exchange mutuamente vantajoso. Por outras palavras, é o Exchange voluntário que cria a verdadeira solidariedade.

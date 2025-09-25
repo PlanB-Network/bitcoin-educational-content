@@ -1468,7 +1468,6 @@ Nkako, ubumwe bwo mu miryango, ubumwe bwo mu karere, canke ubugiraneza buteguwe 
 Kenshi ni umuco kwidodomba "ubwikunzi" bwobayeho mu bihugu vy'ubwigenge. Ariko ni ibihushanye n’ivyo. Iyo igihugu kiremerewe n’imisoro kandi abantu ku giti cabo batagifise ivyabo, ntibaremeshwa gutanga ahubwo bakikuramwo.
 
 
-![image](assets/en/119.webp)
 
 
 Mu vy’ukuri, sosiyete sivile yidegemvya ntiruhukira ku bwikunzi: ubutunzi bw’isoko bukora bushingiye ku gukorera mugenziwe no gusubizanya. Umuntu ashobora gukorera inyungu yiwe gusa mu gukorera inyungu z’uwundi, mu guha uwundi umugenzi ajana ku Exchange y’inyungu bose. Mu yandi majambo, ni Exchange y’ubushake irema ubumwe nyakuri.

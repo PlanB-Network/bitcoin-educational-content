@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Edistyneet
+name: COLDCARD Q - Asiantuntija
 description: COLDCARD Q:n lisäasetusten käyttäminen
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ COLDCARD-korttien kohdalla sinulla on kaksi vaihtoehtoa salasanan hallintaan:
 
 1. **Klassinen syöttö:** Syötät salasanan manuaalisesti joka kerta, kun käytät laitteistolompakkoa, aivan kuten muidenkin laitteistolompakoiden kanssa. COLDCARD Q helpottaa tätä tehtävää täydellä näppäimistöllä.
 
-2. **Voit salata salasanasi ja tallentaa sen microSD-kortille. Tässä tapauksessa sinun on asetettava microSD-kortti COLDCARD Q -laitteeseen joka kerta, kun käytät sitä. Huomaa, että tämä microSD-kortti toimii vain COLDCARD Q:ssa eikä se ole varmuuskopio. Siksi on erittäin tärkeää, että säilytät myös kopion salasanastasi fyysisellä välineellä, kuten paperilla tai metallilla.
+2. **Voit salata salasanasi ja tallentaa sen microSD-kortille.** Tässä tapauksessa sinun on asetettava microSD-kortti COLDCARD Q -laitteeseen joka kerta, kun käytät sitä. Huomaa, että tämä microSD-kortti toimii vain COLDCARD Q:ssa eikä se ole varmuuskopio. Siksi on erittäin tärkeää, että säilytät myös kopion salasanastasi fyysisellä välineellä, kuten paperilla tai metallilla.
 
 Voit asettaa BIP39-salasanan valitsemalla "*Salasana*"-valikon.
 

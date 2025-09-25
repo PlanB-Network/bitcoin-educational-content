@@ -1,5 +1,5 @@
 ---
-name: Bitvarden
+name: Bitwarden
 description: Hur ställer man in en lösenordshanterare?
 ---
 ![cover](assets/cover.webp)

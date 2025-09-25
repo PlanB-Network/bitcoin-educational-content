@@ -68,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.71
+    reward: 2.7
   - language: et
     last_contribution_date:
     urgency: 1
@@ -83,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.27
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -114,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.27
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -124,7 +124,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.41
+    reward: 1.4
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -134,7 +134,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.27
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.84
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.7
 tags:
   - guides
   - good-practice

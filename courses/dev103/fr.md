@@ -50,7 +50,7 @@ Les commandes qu'ils contiennent sont écrites dans le langage de programmation 
 Un moteur d'exécution JavaScript est un programme spécial qui exécute ces fichiers.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### L'environnement d'exécution NodeJS
@@ -71,7 +71,7 @@ Comme NodeJS est disponible pour les trois systèmes d'exploitation, les program
 Cela signifie que vous pouvez, par exemple, écrire un jeu vidéo simple en JavaScript sur votre PC Windows et le transmettre à votre ami pour qu'il l'exécute sur son Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Vous pouvez combiner des booléens à l'aide d'opérateurs logiques :
 - `!` signifie "not", il est appliqué devant un booléen, et il l'inverse : si le booléen est `true`, il retournera `false`, et vice versa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Exemples :
@@ -730,9 +730,9 @@ Dans cette section, nous aborderons trois autres types très courants dans les p
 
 
 
-- Tableaux** : séquences de valeurs
-- undefined** : une valeur spéciale qui signifie "rien n'a été attribué"
-- null** : une autre valeur spéciale qui signifie "intentionnellement vide"
+- **Tableaux** : séquences de valeurs
+- **undefined** : une valeur spéciale qui signifie "rien n'a été attribué"
+- **null** : une autre valeur spéciale qui signifie "intentionnellement vide"
 
 
 ### Tableaux et accès aux index
@@ -1193,7 +1193,7 @@ En utilisant des blocs, des opérateurs logiques et des opérateurs de comparais
 ### `pendant`, `interrompre`, `continuer`
 
 
-Une boucle `while` répète le code *tant qu'une condition est vraie.
+Une boucle `while` répète le code *tant qu'une condition est vraie*.
 
 
 ```javascript
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 La classe `Car` **hérite** maintenant de la classe `Vehicle`. Elle obtient la propriété `brand`, et nous avons remplacé la méthode `start()` par notre propre version.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Essayons-le :
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -4102,7 +4102,7 @@ Cette empreinte :
 Jusqu'à présent, notre code était **synchrone** : il s'exécutait une ligne à la fois, dans l'ordre. Mais certaines choses dans le monde réel prennent du temps, et nous ne voulons pas que le programme entier se mette en pause pendant l'attente.
 
 
-Dans ce chapitre, nous allons introduire un nouveau concept : *la *concurrence**. Il nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
+Dans ce chapitre, nous allons introduire un nouveau concept : **la concurrence**. Il nous permet de manipuler l'ordre dans lequel les choses sont faites. C'est utile lorsqu'il s'agit de choses comme des minuteries, des entrées utilisateur ou la lecture de fichiers sur le disque. JavaScript propose différents outils pour gérer la simultanéité.
 
 
 ### `setTimeout`
@@ -5228,7 +5228,7 @@ JavaScript est un langage interprété, par opposition aux langages compilés co
 Le code écrit dans un langage compilé est transformé en binaire, et le binaire est transmis directement à l'unité centrale de l'ordinateur.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Les langages prédéfinis, en revanche, tendent à être plus conviviaux et sont plus proches de la façon dont les humains pensent ("haut niveau") que de la façon dont les machines fonctionnent ("bas niveau") ; c'est pourquoi ils disposent généralement d'une machine virtuelle pour exécuter leur code.
@@ -5261,7 +5261,7 @@ En quoi cela pose-t-il un problème ?
 Comme les navigateurs exécutent du code provenant de millions de sources différentes sur l'internet, ils peuvent facilement se transformer en logiciels malveillants, c'est pourquoi ils sont séparés du reste du système d'exploitation.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript ne pouvait pas accéder au système de fichiers et à d'autres ressources locales de votre ordinateur (du moins pas aussi facilement que d'autres langages), ce qui limitait considérablement le type d'applications que vous pouviez créer avec lui.
@@ -5270,7 +5270,7 @@ JavaScript ne pouvait pas accéder au système de fichiers et à d'autres ressou
 En 2009, Ryan Dahl a publié NodeJS, qui est un moteur d'exécution permettant d'utiliser le moteur V8 en dehors du navigateur, directement sur le système d'exploitation natif de votre ordinateur. Il ajoute également de nombreuses fonctionnalités utiles pour l'écriture de programmes côté serveur et en ligne de commande. Par exemple, vous pouvez utiliser NodeJS pour créer un serveur web, lire et écrire des fichiers ou créer des outils qui automatisent des tâches.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Dans ce cours, nous avons exploré les fonctionnalités JavaScript présentes à la fois dans le navigateur et dans NodeJS. Ces fonctionnalités nous ont permis de définir des données et de les manipuler de manière abstraite. Dans les prochaines leçons, nous explorerons les fonctionnalités spécifiques à NodeJS qui nous permettent d'interagir avec le système d'exploitation.
@@ -6431,10 +6431,10 @@ NodeJS dispose de quatre types principaux de flux :
 
 
 
-- Lisable** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
-- Writable** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
-- Duplex** : flux qui sont à la fois lisibles et inscriptibles
-- Transformer** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
+- **Lisable** : flux dont vous pouvez lire les données (comme pour la lecture d'un fichier)
+- **Writable** : flux dans lesquels vous pouvez écrire des données (comme dans un fichier)
+- **Duplex** : flux qui sont à la fois lisibles et inscriptibles
+- **Transformer** : comme les flux duplex, mais ils peuvent modifier (transformer) les données au fur et à mesure qu'elles circulent
 
 
 ### Flux lisibles

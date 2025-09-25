@@ -1,0 +1,9 @@
+question: Full node의 주요 특징은 무엇인가요?
+answer: 전체 Blockchain을 다운로드하고 유효성을 검사합니다
+wrong_answers:
+  - 블록 헤더만 유지합니다
+  - 확인 후 오래된 블록을 삭제합니다
+  - 트랜잭션의 유효성을 검사하기 위해 다른 노드에 의존합니다
+explanation: |
+  Full node는 전체 Blockchain를 유지하며 각 블록과 트랜잭션의 유효성을 독립적으로 검증합니다.
+reviewed: true

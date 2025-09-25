@@ -17,7 +17,7 @@ https://planb.network/tutorials/computer-security/operating-system/debian-d09a57
 
 
 
-PureOS, Purism tarafından geliştirilen Debian tabanlı bir işletim sistemidir. PureOS hem BT profesyonelleri hem de basit, kullanımı kolay bir dağıtım arayan kullanıcılar için uygundur. Özgür Yazılım* olmasıyla benzersizdir ve Debian tarafından sunulan gizlilik, özgürlük, güvenlik ve istikrara dayalı bir çerçeve oluşturarak kullanıcılarının kişisel verilerinin korunmasına odaklanır.
+PureOS, Purism tarafından geliştirilen Debian tabanlı bir işletim sistemidir. PureOS hem BT profesyonelleri hem de basit, kullanımı kolay bir dağıtım arayan kullanıcılar için uygundur. **Özgür Yazılım** olmasıyla benzersizdir ve Debian tarafından sunulan gizlilik, özgürlük, güvenlik ve istikrara dayalı bir çerçeve oluşturarak kullanıcılarının kişisel verilerinin korunmasına odaklanır.
 
 
 
@@ -27,25 +27,25 @@ PureOS, Purism tarafından geliştirilen Debian tabanlı bir işletim sistemidir
 
 
 
-- Basit, sezgisel Interface**: GNOME, komut satırında rahat olmayan kişiler için bile kullanımı kolay olacak şekilde tasarlanmış net bir Interface masaüstü sunar.
+- **Basit, sezgisel Interface**: GNOME, komut satırında rahat olmayan kişiler için bile kullanımı kolay olacak şekilde tasarlanmış net bir Interface masaüstü sunar.
 
 
 
 
 
-- Ücretsiz**: Çoğu Linux dağıtımı gibi PureOS'un kullanımı da tamamen ücretsizdir. Ancak, geliştiricileri desteklemek için aylık bir abonelik mevcuttur.
+- **Ücretsiz**: Çoğu Linux dağıtımı gibi PureOS'un kullanımı da tamamen ücretsizdir. Ancak, geliştiricileri desteklemek için aylık bir abonelik mevcuttur.
 
 
 
 
 
-- Güvenlik ve kararlılık**: PureOS'un mimarisi ve işletim modu, onu son derece güvenli bir dağıtım haline getirerek veri koruması ve sistem kararlılığını garanti eder.
+- **Güvenlik ve kararlılık**: PureOS'un mimarisi ve işletim modu, onu son derece güvenli bir dağıtım haline getirerek veri koruması ve sistem kararlılığını garanti eder.
 
 
 
 
 
-- Dokümantasyon ve aktif topluluk**: PureOS, sorunları çözmeyi ve sistemi adım adım öğrenmeyi kolaylaştıran açık, erişilebilir belgelere ve kararlı, duyarlı bir topluluğa sahiptir.
+- **Dokümantasyon ve aktif topluluk**: PureOS, sorunları çözmeyi ve sistemi adım adım öğrenmeyi kolaylaştıran açık, erişilebilir belgelere ve kararlı, duyarlı bir topluluğa sahiptir.
 
 
 
@@ -148,7 +148,7 @@ Bir eğitim verilmektedir, ancak bu adımı atlamak isterseniz pencereyi kapatab
 
 
 
-Aktiviteler** menüsüne tıklayın ve sisteme önceden yüklenmiş uygulamaları ve araçları keşfedin. Kurulumu başlatmak için **Install PureOS** üzerine tıklayın
+**Aktiviteler** menüsüne tıklayın ve sisteme önceden yüklenmiş uygulamaları ve araçları keşfedin. Kurulumu başlatmak için **Install PureOS** üzerine tıklayın
 
 
 
@@ -181,7 +181,7 @@ Hard diskinizi bölümlemek için iki seçeneğiniz vardır:
 
 
 
-- Diski sil**: PureOS'un tam kurulumu için, Hard diskinizdeki önceden var olan tüm verileri siler.
+- **Diski sil**: PureOS'un tam kurulumu için, Hard diskinizdeki önceden var olan tüm verileri siler.
 
 
 
@@ -191,7 +191,7 @@ Hard diskinizi bölümlemek için iki seçeneğiniz vardır:
 
 
 
-- Kendi skorlarınızı oluşturmak için Manuel Bölümleme**
+- Kendi skorlarınızı oluşturmak için **Manuel Bölümleme**
 
 
 
@@ -260,16 +260,16 @@ PureOS'u kullanmaya başlamadan önce sisteminizi güncellemeniz çok önemlidir
 
 
 
-- Interface grafiği aracılığıyla güncelleme**:
+- **Interface grafiği aracılığıyla güncelleme**:
 
 
-Yazılım** uygulamasını açın, ardından **Güncellemeler** sekmesine gidin. Mevcut güncellemeler otomatik olarak görüntülenir. İndirme işlemi tamamlandıktan sonra **İndir** ve ardından **Yükle** seçeneğine tıklayın.
+**Yazılım** uygulamasını açın, ardından **Güncellemeler** sekmesine gidin. Mevcut güncellemeler otomatik olarak görüntülenir. İndirme işlemi tamamlandıktan sonra **İndir** ve ardından **Yükle** seçeneğine tıklayın.
 
 
 
 
 
-- Terminal üzerinden güncelleyin**:
+- **Terminal üzerinden güncelleyin**:
 
 
 Terminali açın, ardından mevcut paketlerin listesini güncellemek için aşağıdaki komutu girin:
@@ -331,9 +331,9 @@ PureOS ayrıca **LibreOffice** ofis paketini de içerir:
 
 
 
-- Writer**: belge oluşturmak ve düzenlemek için eksiksiz bir kelime işlemci.
-- Calc**: verilerinizi ve hesaplamalarınızı yönetmek için güçlü bir elektronik tablo programı.
-- Impress**: profesyonel sunumlar oluşturmak için bir araç.
+- **Writer**: belge oluşturmak ve düzenlemek için eksiksiz bir kelime işlemci.
+- **Calc**: verilerinizi ve hesaplamalarınızı yönetmek için güçlü bir elektronik tablo programı.
+- **Impress**: profesyonel sunumlar oluşturmak için bir araç.
 
 
 

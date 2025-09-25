@@ -1353,9 +1353,9 @@ Omdat de regio zo arm was, was het niet interessant voor de ministers. Dit gaf T
 
 
 
-- De herverdeling van de taille**, de persoonlijke belasting (Turgot streefde ernaar om zoveel mogelijk objectiviteit in zijn beoordeling te introduceren).
-- De corvée**, een vorm van belasting betaald in arbeid, waarbij boeren werden gedwongen om te werken aan de aanleg van wegen. Tijdens een rondreis door de regio merkte Turgot al snel de slechte staat van de wegen op. Hij verving de corvée door een monetaire belasting.
-- Het rekruteren van milities**, boerenlegers die in tijden van oorlog gemobiliseerd werden.
+- De herverdeling van de **taille**, de persoonlijke belasting (Turgot streefde ernaar om zoveel mogelijk objectiviteit in zijn beoordeling te introduceren).
+- De **corvée**, een vorm van belasting betaald in arbeid, waarbij boeren werden gedwongen om te werken aan de aanleg van wegen. Tijdens een rondreis door de regio merkte Turgot al snel de slechte staat van de wegen op. Hij verving de corvée door een monetaire belasting.
+- Het rekruteren van **milities**, boerenlegers die in tijden van oorlog gemobiliseerd werden.
 
 
 ![image](assets/fr/115.webp)

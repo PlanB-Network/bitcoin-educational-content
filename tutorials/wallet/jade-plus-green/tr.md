@@ -130,7 +130,7 @@ Yeni kurtarma ifadenizi görüntülemek için "*Devam*" düğmesine tıklayın.
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
 
-Jade Plus'ınızda 12 kelimelik Mnemonic ifadeniz görüntülenir. **Bu Mnemonic size tüm bitcoinlerinize tam ve sınırsız erişim sağlar. Bu ifadeye sahip olan herkes, Jade Plus'ınıza fiziksel erişimi olmasa bile paralarınızı çalabilir. 12 kelimelik ifade, Jade'inizin kaybolması, çalınması veya kırılması durumunda bitcoinlerinize erişimi geri kazandırır. Bu nedenle bu ifadeyi dikkatli bir şekilde saklamak ve güvenli bir yerde muhafaza etmek çok önemlidir.
+Jade Plus'ınızda 12 kelimelik Mnemonic ifadeniz görüntülenir. **Bu Mnemonic size tüm bitcoinlerinize tam ve sınırsız erişim sağlar. Bu ifadeye sahip olan herkes, Jade Plus'ınıza fiziksel erişimi olmasa bile paralarınızı çalabilir.** 12 kelimelik ifade, Jade'inizin kaybolması, çalınması veya kırılması durumunda bitcoinlerinize erişimi geri kazandırır. Bu nedenle bu ifadeyi dikkatli bir şekilde saklamak ve güvenli bir yerde muhafaza etmek çok önemlidir.
 
 
 Kutuyla birlikte verilen kartona yazabilir veya daha fazla güvenlik için, yangından, selden veya çökmeden korumak için paslanmaz çelik bir tabana kazımanızı öneririm.
@@ -144,7 +144,7 @@ Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla b
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir
+**Bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir**
 
 
 Aşağıdaki kelimeleri görüntülemek için ekranın sağındaki oka tıklayın.
@@ -423,4 +423,3 @@ Tebrikler, artık Jade Plus'ı Blockstream Green mobil uygulaması ile Bluetooth
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
-

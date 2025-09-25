@@ -1353,9 +1353,9 @@ Vì khu vực này quá nghèo nên các bộ trưởng không quan tâm đến 
 
 
 
-- Việc phân phối lại taille**, thuế cá nhân (Turgot muốn đưa ra mức độ khách quan nhất có thể trong quá trình đánh giá).
-- Corvée**, một hình thức thuế trả bằng lao động, trong đó nông dân bị buộc phải làm việc xây dựng đường sá. Khi đi tham quan khu vực này, Turgot nhanh chóng nhận thấy tình trạng tồi tệ của đường sá. Ông đã thay thế corvée bằng một loại thuế tiền tệ.
-- Việc tuyển dụng dân quân**, quân đội nông dân được huy động trong thời chiến.
+- Việc phân phối lại **taille**, thuế cá nhân (Turgot muốn đưa ra mức độ khách quan nhất có thể trong quá trình đánh giá).
+- **Corvée**, một hình thức thuế trả bằng lao động, trong đó nông dân bị buộc phải làm việc xây dựng đường sá. Khi đi tham quan khu vực này, Turgot nhanh chóng nhận thấy tình trạng tồi tệ của đường sá. Ông đã thay thế corvée bằng một loại thuế tiền tệ.
+- Việc tuyển dụng dân quân, quân đội nông dân được huy động trong thời chiến.
 
 
 ![image](assets/fr/115.webp)

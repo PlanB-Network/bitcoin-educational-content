@@ -1,0 +1,9 @@
+question: Co je to TTP?
+answer: Usiluje o oddělení náboženství a státu.
+wrong_answers:
+  - Zaveďte teokracii.
+  - Obrana anarchie.
+  - Výzva k revoluci.
+explanation: |
+  Hlavním cílem Teologicko-politického traktátu je oddělit náboženství od státu. Spinoza v něm hájí myšlenku, že stát by měl zaručit svobodu filozofování a že náboženství by nemělo zasahovat do politických záležitostí.
+reviewed: false

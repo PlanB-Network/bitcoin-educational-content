@@ -1,5 +1,5 @@
 ---
-name: Proton lompakko
+name: Proton Wallet
 description: Proton Bitcoin-lompakon asentaminen ja käyttö
 ---
 ![cover](assets/cover.webp)

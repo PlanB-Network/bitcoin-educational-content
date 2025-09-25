@@ -11,7 +11,7 @@ Bitcoin 技术代表了一种创新，越来越多的非洲社区正依靠这种
 
 
 
-在**费米-隆格**演讲的推动下，肯尼亚超级应用程序 Tando 的冒险之旅将于 2023 年在**非洲 Bitcoin 会议上开始： *非洲人需要为非洲人创造 Bitcoin 解决方案*。2024 年，Tando 在肯尼亚部署，并继续通过 Lightning Network 促进 Bitcoin 的日常使用。
+在**费米-隆格**演讲的推动下，肯尼亚超级应用程序 Tando 的冒险之旅将于 2023 年在**非洲 Bitcoin 会议**上开始：*非洲人需要为非洲人创造 Bitcoin 解决方案*。2024 年，Tando 在肯尼亚部署，并继续通过 Lightning Network 促进 Bitcoin 的日常使用。
 
 
 
@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- 扫描付款** ：
+- **扫描付款**：
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- 向肯尼亚汇款** ：
+- **向肯尼亚汇款**：
 
 
 
@@ -121,7 +121,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- 支付账单** ：
+- **支付账单**：
 
 
 
@@ -135,7 +135,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- 购买商品** ：
+- **购买商品**：
 
 
 

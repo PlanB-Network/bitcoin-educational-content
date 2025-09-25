@@ -380,7 +380,7 @@ Cependant, cette suppression des taux d'intérêt a un coût : elle rend le capi
 
 Cet acte d'équilibre ne se déroule pas tout à fait comme prévu…
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Figure [Dette vs PIB](https://www.longtermtrends.net/us-debt-to-gdp/)
 
@@ -434,7 +434,7 @@ Figure: Performance par Classe d'Actifs ([Actions](https://finance.yahoo.com/quo
 
 Avec ce retard des salaires par rapport aux prix des actifs, nous avons assisté à l'un des plus grands transferts de richesse de la classe inférieure vers la classe supérieure dans l'histoire récente.
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 Figure: Part de la [Valeur Nette](https://fred.stlouisfed.org/series/WFRBSN40188#0.) Totale
 
@@ -831,7 +831,7 @@ Les portefeuilles non-custodiaux sont un type de portefeuille Bitcoin où vous �
 
 Les portefeuilles non-custodiaux offrent un niveau de sécurité et de confidentialité supérieur aux portefeuilles de garde puisque vous êtes le seul responsable de la sécurité de vos fonds. Des exemples de portefeuilles non-custodiaux incluent des portefeuilles matériels comme [Coldcard](https://store.coinkite.com/store/coldcard) et [Trezor](https://trezor.io/), qui sont des dispositifs physiques qui stockent vos clés privées hors ligne et fournissent une couche supplémentaire de sécurité. D'autres portefeuilles non-custodiaux populaires sont des portefeuilles logiciels comme [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), et [Blockstream Green](https://blockstream.com/green/), qui peuvent être téléchargés et installés sur votre ordinateur ou appareil mobile.
 
-\*_Bien que nous ne puissions recommander un portefeuille spécifique, nous vous conseillons vivement de prendre le contrôle de votre bitcoin par l'auto-garde ou la garde collaborative, ce qui implique de sélectionner un portefeuille qui répond à vos besoins et préférences. Il est essentiel de mener une recherche approfondie avant de décider d'un portefeuille pour s'assurer qu'il correspond à vos exigences de sécurité et d'utilisabilité._
+*Bien que nous ne puissions recommander un portefeuille spécifique, nous vous conseillons vivement de prendre le contrôle de votre bitcoin par l'auto-garde ou la garde collaborative, ce qui implique de sélectionner un portefeuille qui répond à vos besoins et préférences. Il est essentiel de mener une recherche approfondie avant de décider d'un portefeuille pour s'assurer qu'il correspond à vos exigences de sécurité et d'utilisabilité.*
 
 Bien que les portefeuilles de garde puissent sembler pratiques, ils comportent des risques significatifs. En donnant la garde de vos clés privées à un tiers, vous leur donnez effectivement le contrôle de vos fonds. Si le gardien fait faillite, est piraté ou ferme, vous pourriez perdre l'accès à votre bitcoin. Et cela s'est produit à de nombreuses reprises, avec des exemples de profil élevé incluant les piratages de Mt. Gox et QuadrigaCX entrainant la perte des fonds des clients, ou FTX, Voyager, BlockFi, et Celsius connaissant des insolvabilités catastrophiques, menant aussi à la perte des fonds de leurs clients. Surtout pour l'épargne, pratiquer l'auto-garde et prendre la responsabilité de sécuriser votre bitcoin est crucial.
 
@@ -1136,7 +1136,7 @@ Comme l'histoire d'Adanna l'a démontré, l'inflation est une réalité douloure
 
 Pour illustrer l'effet d'une inflation à deux chiffres, un taux d'inflation de 10 %, comme celui vécu par l'Europe en octobre 2022, signifierait une perte de pouvoir d'achat de 61,5 % sur dix ans.
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 _**Figure :** Effet de l'Inflation sur le [Pouvoir d'Achat](https://anilsaidso.gumroad.com/)_
 
@@ -1415,7 +1415,7 @@ Cependant, désormais, les producteurs d'énergie ont un moyen de capitaliser su
 
 Enfin, les mineurs de Bitcoin sont motivés à rechercher des sources d'énergie bon marché puisque leurs profits dépendent du coût de l'énergie. Par conséquent, ils recherchent activement de l'énergie excédentaire ou d'autres formes d'énergie qui seraient autrement inutilisées. Un exemple notable est le gaz de torchère, qui est libéré lorsque les compagnies pétrolières extraient du pétrole du sol. Le gaz de torchère est un sous-produit de ce processus et est typiquement brûlé en raison du coût élevé associé à sa capture. Cette pratique, connue sous le nom de torchage, entraîne non seulement un gaspillage d'énergie mais aussi libère du méthane et divers autres gaz dans l'atmosphère.
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 _**Figure :** Gaz de [Torchère](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
@@ -1556,7 +1556,7 @@ Cependant, ces dernières années, Bitcoin est apparu comme un outil puissant po
 
 Alors que le monde regardait avec horreur les Talibans prendre le contrôle de l'Afghanistan en [1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), cette jeune fille, Roya, vivait au cœur du conflit. À seulement sept ans, elle se retrouvait prise dans la tourmente et l'incertitude de la guerre alors que sa ville natale était envahie et occupée par les Talibans. Malgré le danger et l'adversité auxquels elle était confrontée, en plus du fait qu'elle ne pouvait pas aller à l'école, Roya refusait d'être vaincue. Au lieu de cela, elle s'est tournée vers l'éducation comme moyen de surmonter les limitations imposées par sa situation.
 
-![image](assets/5.webp) 
+![image](assets/en/005.webp) 
 
 ***Figure :** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)*
 
@@ -1611,73 +1611,73 @@ Loc - Propriétaire d'un café, Vietnam
 
 “Dans mon café du district de Binh Thanh, nous servons une clientèle jeune et occasionnellement des touristes, offrant une variété de boissons, y compris du café, des boissons non alcoolisées et des cocktails. Tether est devenu notre solution privilégiée pour traiter les paiements des clients étrangers qui manquent de monnaie locale ou de comptes bancaires. Bien que les ventes via Tether soient actuellement modestes, cela nous offre un moyen pratique de combler le fossé monétaire et d'accueillir nos clients internationaux. Les clients sont souvent étonnés par notre ouverture à accepter les paiements en cryptomonnaie, laissant une impression durable sur leur expérience."
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 
 Parvinee Ratchaphokhinpiti - Retraité, Thaïlande
 
 “L'USDt a révolutionné mes transferts d'argent internationaux. En tant que retraité, je comptais auparavant sur les virements bancaires lents. Grâce à l'USDt, je peux maintenant envoyer de l'argent sans effort via une plateforme d'échange d'actifs numériques. En 30 minutes, ma sœur a reçu les fonds. Les avantages en termes de gain de temps sont inestimables, assurant des transactions rapides et sans tracas.”
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 
 Jamie Tran - Professeur de piano, Vietnam
 
 "Envoyer de l'argent à mes proches à l'étranger a été une nécessité fréquente, mais le processus de conversion de devises dans les bureaux de change locaux s'est avéré à la fois chronophage et coûteux. Pour relever ces défis, j'ai initié mes proches à la commodité d'utiliser l'USDt. Ce simple changement a permis à notre famille d'économiser beaucoup de temps et d'argent dans nos transactions financières. Avec l'USDt, nous profitons maintenant de transferts outre-mer simplifiés, assurant un soutien efficace et économique pour nos êtres chers."
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 
 Roman - Expatrié russe vivant au Vietnam
 
 “Vivant au Vietnam, j'envoie fréquemment du Tether à mes proches et cousins en Russie. Transférer de l'argent à l'étranger avec Tether est sans tracas comparé à l'utilisation des méthodes bancaires traditionnelles. Pas besoin de visiter les banques, de documents notariés, ou d'explications. Sans limites d'envoi, avec des frais minimaux et des transactions rapides, les fonds sont livrés en quelques minutes.”
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 
 Luis Graterol - Audiovisuel, Venezuela
 
 “Je m'appelle Luis Graterol, et Tether m'a aidé à sécuriser mes économies d'une autre manière. Au Venezuela, nous souffrons à cause de la forte inflation, et Tether a beaucoup aidé. Son utilisation est simple, et dans de nombreux cas, vous pouvez effectuer des transactions sans aucun frais. L'USDt rend ma vie plus facile ! Cela m'aide également à éduquer et encourager son utilisation dans les médias audiovisuels ; depuis que j'ai découvert sa facilité, je reçois mes paiements en USDt, et j'économise le fastidieux fiat local qui affecte beaucoup d'entre nous !”
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 
 Dubraska Villanloga - PDG de Tu Cachapa Caricuao, Caracas, Venezuela
 
 “Je suis du Venezuela et je dirige une petite entreprise de livraison de petit-déjeuner. Tether USDt a été une solution viable pour le problème de l'argent physique pour moi. L'USDt m'a également aidé avec mes économies car si je gardais les comptes de mon entreprise en Bolivar vénézuélien, je n'aurais pas pu planifier à l'avance avec mes approvisionnements en nourriture en raison de la dévaluation constante.”
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 
 Marcela Romero - Responsable Marketing et Relations Publiques, Guanacaste, Costa Rica
 
 "Il y a quelques années, j'ai déménagé dans le pays de mon mari. En raison de la pandémie, j'ai été confrontée à une condition migratoire unique, résultant en une longue attente pour obtenir la résidence ou la citoyenneté. Pendant près de trois ans, je n'ai pas eu accès à un compte bancaire et je ne pouvais pas travailler légalement dans le pays. Cependant, en tirant parti de mes capacités de travail en ligne et en recevant mon salaire en USDt, j'ai continué ma carrière à distance avec des entreprises internationales. Avec Tether, je peux instantanément envoyer de l'argent à ma famille sans frais élevés ni retards. Tether m'a permis de poursuivre mes objectifs professionnels et de maintenir mon indépendance financière malgré les restrictions gouvernementales."
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 
 Simoneth Gomez - Ingénieure QA, Venezuela, vivant en Argentine
 
 "Bonjour, je m'appelle Simoneth Gomez. Je suis originaire du Venezuela, mais je vis actuellement à Buenos Aires, où je travaille en tant qu'analyste de la qualité logicielle. Lorsque je suis arrivée en Argentine, il y avait une distance de 12 km entre mon travail et l'endroit où je devais changer de l'argent pour envoyer à ma famille au Venezuela. J'ai donc été introduite à l'USDt et j'ai commencé à l'utiliser parce qu'au lieu de devoir faire ce trajet pour 5 ou 10 dollars en bus, je pouvais résoudre cela depuis mon bureau en deux minutes."
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 
 Carlos Caballero - Psychologue, Argentine
 
 "Tether a été la solution qui m'a permis de continuer à travailler dans ma profession pendant les années de pandémie. Le fait d'être une monnaie ancrée au dollar lui permet d'avoir une valeur de référence internationale. Et sa stabilité et sécurité face à la volatilité des autres cryptomonnaies est la principale raison qui m'a amené à la choisir."
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 
 Heloisa Passos - PDG de Sp4ce Games, Brésil
 
 "Je travaille à distance pour des entreprises internationales depuis environ cinq ans maintenant, et la plupart du temps, j'ai souffert des taux d'intérêt élevés des banques nationales, qui prélèvent un pourcentage important pour chaque envoi de fonds international, en plus du délai d'attente pour le déblocage des paiements via le système SWIFT (environ 24 heures). Quand j'ai commencé à recevoir mon salaire en Tether, j'ai réalisé combien de temps et d'argent j'ai commencé à économiser juste en étant payé en USDt."
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 
 Samuel - Entreprise de Trading, Nigeria
 
 "Utiliser l'USDt a fait économiser beaucoup de temps à notre entreprise car, en tant qu'entreprise nigériane obtenant des USD nécessite d'aller à notre banque tout en passant un temps précieux à remplir des formulaires et à faire la queue pendant des heures pour effectuer des retraits ou des transferts. Avec l'USDt, cependant, nous pouvons l'échanger contre de la monnaie locale en moins de 5 minutes et exécuter toute transaction que nous pourrions avoir."
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 
 Joshua - Étudiant, Nigeria
 
 "Tether m'a aidé de nombreuses manières. Gagner en Tether m'a aidé à surmonter la tension de l'inflation croissante dans le pays, et cela m'a aidé à réduire les dépenses inutiles. De plus, cela aide mes économies à conserver leur valeur car je ne suis pas gravement affecté par la dévaluation du Naira."
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 
 Esther - Agence RH, Nigeria
 

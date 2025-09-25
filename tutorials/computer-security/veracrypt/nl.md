@@ -11,7 +11,7 @@ Tegenwoordig is het belangrijk om een strategie te implementeren om de toegankel
 Om deze problemen te voorkomen, raad ik je aan om meerdere back-ups van je bestanden op verschillende media te bewaren. Een veelgebruikte strategie in de computerwereld is de "3-2-1" back-up strategie, die de bescherming van je bestanden garandeert:
 
 
-- 3** kopieën van je bestanden;
+- 3 **kopieën** van je bestanden;
 - Opgeslagen op minstens **2** verschillende soorten media;
 - Met ten minste **1** kopie op een externe locatie.
 

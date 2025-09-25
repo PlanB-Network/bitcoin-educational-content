@@ -91,7 +91,7 @@ Avanevas aknas leiate väljad, mida "täita": valige paremal olev nupp _Browse_ 
 ![image](assets/en/07.webp)
 
 
-**N.B. ekraanipilt on tehtud Windowsi arvutist, sama praktikat saab kasutada mis tahes operatsioonisüsteemiga arvutis, lihtsalt Sparrow wallet peab olema paigaldatud. Ja kontrollitud!
+**N.B.** ekraanipilt on tehtud Windowsi arvutist, sama praktikat saab kasutada mis tahes operatsioonisüsteemiga arvutis, lihtsalt Sparrow wallet peab olema paigaldatud. Ja kontrollitud!
 
 
 

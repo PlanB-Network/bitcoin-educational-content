@@ -47,7 +47,7 @@ Więc... Mama Dartha postanowiła zacząć używać LN z Blixtem. Decyzja Hard, 
 Darth ostrzega swoją mamę:
 
 
-"*Mamo, jeśli zaczniesz używać węzła Blixt LN, musisz najpierw wiedzieć, czym jest Lightning Network i jak działa, przynajmniej na poziomie podstawowym. [Tutaj umieściłem prostą listę zasobów na temat Lightning Network](https://blixtwallet.github.io/faq#what-is-LN). Przeczytaj je najpierw."
+"*Mamo, jeśli zaczniesz używać węzła Blixt LN, musisz najpierw wiedzieć, czym jest Lightning Network i jak działa, przynajmniej na poziomie podstawowym. [Tutaj umieściłem prostą listę zasobów na temat Lightning Network](https://blixtwallet.github.io/faq#what-is-LN). Przeczytaj je najpierw.*"
 
 
 Mama Dartha zapoznała się z zasobami i wykonała pierwszy krok: zainstalowała Blixt na swoim nowym urządzeniu z Androidem. Blixt jest również dostępny na iOS i macOS (desktop). Ale te nie są dla mamy Dartha... Niemniej jednak zaleca się korzystanie z nowszej wersji Androida, co najmniej 9 lub 10, aby uzyskać lepszą kompatybilność i wrażenia. Uruchomienie pełnego węzła LN na urządzeniu mobilnym nie jest łatwym zadaniem i może zająć trochę miejsca (min. 600 MB) i pamięci.
@@ -673,7 +673,7 @@ Tymczasem tutaj znajdują się wszystkie linki dotyczące tego niesamowitego Bit
 *Nie jestem w żaden sposób opłacany ani wspierany przez twórców tej aplikacji. Napisałem ten przewodnik, ponieważ zauważyłem, że zainteresowanie tą aplikacją Wallet rośnie, a nowi użytkownicy wciąż nie rozumieją, jak zacząć z nią korzystać. Również, aby pomóc Hampusowi (głównemu deweloperowi) z dokumentacją dotyczącą korzystania z tego węzła Wallet.*
 
 
-*Nie mam żadnego innego interesu w promowaniu tej aplikacji LN, poza forsowaniem przyjęcia Bitcoin i LN. To jedyny sposób!
+*Nie mam żadnego innego interesu w promowaniu tej aplikacji LN, poza forsowaniem przyjęcia Bitcoin i LN. To jedyny sposób!*
 
 
 ---

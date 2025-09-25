@@ -1,0 +1,9 @@
+question: 建議使用哪個元件在電源故障時保護節點？
+answer: 變頻器
+wrong_answers:
+  - 第二張顯示卡
+  - 額外的路由器
+  - USB 集線器
+explanation: |
+  逆變器可防止電源故障時突然關機，並保護節點的穩定性。
+reviewed: true

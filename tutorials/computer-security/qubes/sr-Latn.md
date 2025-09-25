@@ -118,7 +118,7 @@ Pre nego što instalirate Qubes OS, neophodno je da se uverite da vaš hardver i
 
 - **Procesor**: 64-bitni procesor kompatibilan sa hardverskom virtualizacijom (Intel VT-x ili AMD-V).
 - RAM: minimum 8 GB je potrebno, ali preporučujemo RAM od 16 GB ili više za istovremeno pokretanje nekoliko qubes.
-- Prostor za skladištenje**: minimum 36 GB, idealno 128 GB na SSD-u za optimalne performanse.
+- **Prostor za skladištenje**: minimum 36 GB, idealno 128 GB na SSD-u za optimalne performanse.
 
 
 

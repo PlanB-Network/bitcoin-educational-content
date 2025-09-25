@@ -66,7 +66,7 @@ Whirlpool dirancang dengan mempertimbangkan dua persyaratan penting:
 Imperatif ini memandu pengembang Samourai Wallet dalam perancangan Whirlpool, membawa mereka untuk membatasi jumlah peserta per siklus. Terlalu sedikit peserta akan mengompromikan efisiensi coinjoin, drastis mengurangi anonset yang dihasilkan setiap siklus, sementara terlalu banyak peserta akan menimbulkan masalah manajemen pada aplikasi mobile dan akan menghambat aliran siklus.
 **Pada akhirnya, tidak perlu memiliki jumlah peserta yang tinggi per coinjoin di Whirlpool karena anonset dicapai melalui akumulasi beberapa siklus coinjoin.**
 
-[-> Pelajari lebih lanjut tentang anonset Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
+-> Pelajari lebih lanjut tentang anonset Whirlpool.
 
 ### Pool dan biaya coinjoin
 Agar siklus-siklus ini secara efektif meningkatkan anonset dari coin yang dicampur, harus ada kerangka kerja tertentu yang ditetapkan untuk membatasi jumlah UTXO yang digunakan. Whirlpool mendefinisikan berbagai pool.
@@ -371,7 +371,7 @@ Pastikan SCODE Anda telah terdaftar dengan benar dengan mengklik sekali lagi pad
 
 ## Bagaimana mengetahui kualitas siklus coinjoin kami?
 Agar coinjoin benar-benar efektif, sangat penting bahwa ia menunjukkan keseragaman yang baik antara jumlah input dan output. Keseragaman ini memperkuat jumlah interpretasi yang mungkin di mata pengamat eksternal, sehingga meningkatkan ketidakpastian seputar transaksi. Untuk mengkuantifikasi ketidakpastian yang dihasilkan oleh coinjoin, seseorang dapat menggunakan perhitungan entropi transaksi. Untuk eksplorasi mendalam tentang indikator-indikator ini, saya merujuk Anda ke tutorial: [KALKULATOR BOLTZMANN](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Model Whirlpool diakui sebagai salah satu yang membawa homogenitas terbanyak ke coinjoins.
-Selanjutnya, kinerja dari beberapa siklus coinjoin dievaluasi berdasarkan sejauh mana kelompok-kelompok di mana sebuah koin disembunyikan. Ukuran dari kelompok-kelompok ini mendefinisikan apa yang disebut anonsets. Ada dua jenis anonsets: yang pertama menilai privasi yang diperoleh melawan analisis retrospektif (dari masa sekarang ke masa lalu) dan yang kedua, melawan analisis prospektif (dari masa lalu ke masa sekarang). Untuk penjelasan rinci tentang kedua indikator ini, saya mengundang Anda untuk berkonsultasi dengan tutorial: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
+Selanjutnya, kinerja dari beberapa siklus coinjoin dievaluasi berdasarkan sejauh mana kelompok-kelompok di mana sebuah koin disembunyikan. Ukuran dari kelompok-kelompok ini mendefinisikan apa yang disebut anonsets. Ada dua jenis anonsets: yang pertama menilai privasi yang diperoleh melawan analisis retrospektif (dari masa sekarang ke masa lalu) dan yang kedua, melawan analisis prospektif (dari masa lalu ke masa sekarang). Untuk penjelasan rinci tentang kedua indikator ini, saya mengundang Anda untuk berkonsultasi dengan tutorial: WHIRLPOOL STATS TOOLS - ANONSETS.
 
 ## Bagaimana cara mengelola postmix?
 Setelah melakukan siklus coinjoin, strategi terbaik adalah menyimpan UTXO Anda di akun **postmix**, menunggu penggunaan masa depan mereka. Bahkan disarankan untuk membiarkan mereka remix secara tak terbatas sampai Anda perlu menghabiskannya.
@@ -403,6 +403,7 @@ Tutorial terperinci tentang penerapan teknik-teknik berbeda ini akan segera dita
 - [Dokumentasi Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Thread Twitter tentang coinjoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Postingan blog tentang coinjoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+
 
 
 

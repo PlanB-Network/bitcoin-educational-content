@@ -1,5 +1,5 @@
 ---
-name: Blau Wallet
+name: Blue Wallet
 
 description: Bitcoin Radikal einfaches und leistungsstarkes Portfolio
 ---
@@ -152,7 +152,7 @@ Sie können einen oder alle Empfänger entfernen, indem Sie auf **Empfänger ent
 
 
 
-- Gebühren aufblähen**: Haben Sie eine Transaktion durchgeführt, deren Bestätigung lange auf sich warten lässt? Wenn Sie die Gebühreninflation aktivieren, können Sie zusätzliche Transaktionsgebühren zu Ihrer ausstehenden Transaktion hinzufügen, um deren Bestätigung zu beschleunigen.
+- **Gebühren aufblähen**: Haben Sie eine Transaktion durchgeführt, deren Bestätigung lange auf sich warten lässt? Wenn Sie die Gebühreninflation aktivieren, können Sie zusätzliche Transaktionsgebühren zu Ihrer ausstehenden Transaktion hinzufügen, um deren Bestätigung zu beschleunigen.
 
 
 
@@ -248,7 +248,7 @@ Der Empfang von Bitcoins in einem Multi-Signatur-Wallet ist derselbe Prozess wie
 
 
 
-- Bitcoins** senden:
+- **Bitcoins** senden:
 
 
 
@@ -274,7 +274,7 @@ Der zweite Wallet-Unterzeichner kann, wenn er ebenfalls ein Nutzer ist, die Tran
 
 
 
-- Mit dem Multi-Signatur**-Portfolio kommen Sie weiter:
+- Mit dem **Multi-Signatur-Portfolio** kommen Sie weiter:
 
 
 

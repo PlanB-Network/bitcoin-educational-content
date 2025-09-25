@@ -1,5 +1,5 @@
 ---
-name: Tarjetas
+name: Coincards
 description: ¿Cómo puedo comprar bienes y servicios en BTC con Coincards?
 ---
 ![cover](assets/cover.webp)

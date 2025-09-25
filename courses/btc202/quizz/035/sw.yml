@@ -1,0 +1,9 @@
+question: Ni sehemu gani inayopendekezwa kulinda nodi katika tukio la kushindwa kwa nguvu?
+answer: Inverter
+wrong_answers:
+  - Kadi ya pili ya picha
+  - Router ya ziada
+  - Kitovu cha USB
+explanation: |
+  Inverter huzuia kuzima kwa ghafla katika tukio la kushindwa kwa nguvu na kulinda utulivu wa nodi.
+reviewed: true

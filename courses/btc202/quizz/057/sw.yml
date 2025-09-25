@@ -1,0 +1,9 @@
+question: Ni chaguo gani la seva ya Sparrow wallet inalingana na muunganisho wa RPC?
+answer: Bitcoin core
+wrong_answers:
+  - Seva ya Umma
+  - Electrum ya kibinafsi
+  - API ya mbali
+explanation: |
+  Katika Sparrow, chaguo la Bitcoin core linalingana na uunganisho wa moja kwa moja kwenye node kupitia RPC.
+reviewed: true

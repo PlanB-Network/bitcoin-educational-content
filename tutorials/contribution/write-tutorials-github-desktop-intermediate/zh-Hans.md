@@ -17,13 +17,13 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 在本教程中，我们将了解如何通过 GitHub Desktop 设置本地环境，在 Plan ₿ Network 上添加自己的教程。如果你已经熟练掌握 Git，可能就没必要看这么详细的教程了。我建议您参考另一篇教程，其中只介绍了主要指南，没有详细的分步指导：
 
 
-- 经验丰富的用户**：
+- **经验丰富的用户**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 如果你不想设置本地环境，可以参考另一篇专为初学者设计的教程，我们将直接通过 GitHub 的网页界面进行更改：
 
 
-- 初学者（网络界面）**：
+- 初学者（网络界面）：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## 先决条件
@@ -381,8 +381,8 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 如果您想创建自己的图表，请务必遵守 Plan ₿ Network 的图形章程，以确保视觉一致性：
 
 
-- 字体**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
-- 颜色**：
+- 字体：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
+- **颜色**：
  - 橙色#FF5C00
  - 黑色：#000000
  - 白色#FFFFFF
@@ -446,5 +446,4 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 - 如果您的 PR 已与主分支合并，则需要重新创建一个新分支，然后提交一份新 PR。在继续之前，请确保本地版本库与 Plan ₿ Network 源版本库同步。
 
 如果您在提交教程时遇到技术问题，请随时在[我们的专用投稿 Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)上寻求帮助。谢谢！
-
 

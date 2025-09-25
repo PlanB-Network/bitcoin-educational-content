@@ -24,19 +24,19 @@ Mbinu ya Ninja SAFU inatoa faida kadhaa:
 
 
 
-- Usiri**: Haununui bidhaa iliyotambuliwa kama inayokusudiwa kuhifadhi nakala ya sarafu ya crypto. Vipengele ni vya kawaida (washers, bolts, sanduku la chuma), vinavyopatikana katika maduka ya vifaa, ambayo hupunguza hatari ya kulenga katika tukio la uvujaji wa data kutoka kwa muuzaji maalumu.
+- **Usiri**: Haununui bidhaa iliyotambuliwa kama inayokusudiwa kuhifadhi nakala ya sarafu ya crypto. Vipengele ni vya kawaida (washers, bolts, sanduku la chuma), vinavyopatikana katika maduka ya vifaa, ambayo hupunguza hatari ya kulenga katika tukio la uvujaji wa data kutoka kwa muuzaji maalumu.
 
 
 
 
 
-- Uwezo wa kumudu** : Suluhu hili linagharimu kati ya **15 na 140 EUR**, kulingana na zana ulizo nazo.
+- **Uwezo wa kumudu**: Suluhu hili linagharimu kati ya **15 na 140 EUR**, kulingana na zana ulizo nazo.
 
 
 
 
 
-- Kuegemea**: Ilijaribiwa tangu 2020, mbinu hii imejaribiwa na kufanyiwa majaribio na wataalamu wa usalama kama vile [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), ambao wameifanyia majaribio makali ya mfadhaiko (joto kali, shinikizo, kutu).
+- **Kuegemea**: Ilijaribiwa tangu 2020, mbinu hii imejaribiwa na kufanyiwa majaribio na wataalamu wa usalama kama vile [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), ambao wameifanyia majaribio makali ya mfadhaiko (joto kali, shinikizo, kutu).
 
 
 
@@ -59,17 +59,17 @@ Ili kuunda nakala ya Ninja SAFU, utahitaji vipengele vifuatavyo, vyote vinapatik
 
 
 
-- Vioo vya chuma cha pua (M8 inapendekezwa)** :
- - Nyenzo**: Chuma cha pua (k.m. 304 au V4A kwa upinzani ulioimarishwa wa kutu)
-    - Ukubwa**: M8 (kipenyo cha ndani 8 mm, kipenyo cha nje ~ 24 mm). Washer wa M6 ni ndogo sana na ni vigumu kuchonga.
-    - Kiasi**: washer 12 au 24 kwa sentensi ya kawaida ya seed, pamoja na washer wa hiari (tazama sehemu ya 3.4) na kumi au zaidi kwa majaribio au makosa.
+- **Vioo vya chuma cha pua (M8 inapendekezwa)**:
+- **Nyenzo**: Chuma cha pua (k.m. 304 au V4A kwa upinzani ulioimarishwa wa kutu)
+- **Ukubwa**: M8 (kipenyo cha ndani 8 mm, kipenyo cha nje ~ 24 mm). Washer wa M6 ni ndogo sana na ni vigumu kuchonga.
+- **Kiasi**: washer 12 au 24 kwa sentensi ya kawaida ya seed, pamoja na washer wa hiari (tazama sehemu ya 3.4) na kumi au zaidi kwa majaribio au makosa.
 
 
 
 
 
-- Chuma cha pua Bolt na nati (M8)** :
- - Specifications **: Bolt 2.5 hadi 5 cm urefu, kulingana na idadi na unene wa washers, kipenyo 8mm. Koti ya bawa hurahisisha uwazi usio na zana, lakini nati rahisi pia inaweza kutumika.
+- **Chuma cha pua Bolt na nati (M8)** :
+- **Specifications**: Bolt 2.5 hadi 5 cm urefu, kulingana na idadi na unene wa washers, kipenyo 8mm. Koti ya bawa hurahisisha uwazi usio na zana, lakini nati rahisi pia inaweza kutumika.
 
 
 
@@ -79,8 +79,8 @@ Ili kuunda nakala ya Ninja SAFU, utahitaji vipengele vifuatavyo, vyote vinapatik
 
 
 
-- Seti ya ngumi ya herufi na nambari (mm 3 au 6 mm)** :
-    - Specifications**: Herufi za urefu wa 6 mm hurahisisha uhalali na inaweza kuwa vyema ikiwa sehemu ya herufi imeharibika. Chagua seti thabiti kwa matumizi ya mara kwa mara.
+- **Seti ya ngumi ya herufi na nambari (mm 3 au 6 mm)**:
+- **Specifications**: Herufi za urefu wa 6 mm hurahisisha uhalali na inaweza kuwa vyema ikiwa sehemu ya herufi imeharibika. Chagua seti thabiti kwa matumizi ya mara kwa mara.
 
 
 
@@ -90,14 +90,14 @@ Ili kuunda nakala ya Ninja SAFU, utahitaji vipengele vifuatavyo, vyote vinapatik
 
 
 
-- Nyundo au nyundo** :
+- **Nyundo au nyundo** :
     - Sledgehammer ni bora kwa nguvu ya kutosha na sahihi ya kukanyaga
 
 
 
 
 
-- Uso au sehemu dhabiti** :
+- **Uso au sehemu dhabiti** :
  - Sehemu mnene, ya Hard (k.m. kilo 1 ya kinara au jiwe la lami la sentimita 10) ili kunyonya mishtuko.
 
 
@@ -112,7 +112,7 @@ Ikiwa hutaki kuwekeza katika seti ya ngumi, unaweza pia kuchonga washers zako na
 
 
 
-- Kifaa cha kupigia chapa**: Hushikilia washer na kuongoza ngumi, kuruhusu upigaji chapa sahihi, safi, uelekeo bora na hata nafasi za herufi.
+- **Kifaa cha kupigia chapa**: Hushikilia washer na kuongoza ngumi, kuruhusu upigaji chapa sahihi, safi, uelekeo bora na hata nafasi za herufi.
 
 
 
@@ -122,7 +122,7 @@ Ikiwa hutaki kuwekeza katika seti ya ngumi, unaweza pia kuchonga washers zako na
 
 
 
-- Vifaa vya kuziba**: Mfuko uliofungwa au ukanda wa kuziba
+- **Vifaa vya kuziba**: Mfuko uliofungwa au ukanda wa kuziba
 
 
 
@@ -132,7 +132,7 @@ Ikiwa hutaki kuwekeza katika seti ya ngumi, unaweza pia kuchonga washers zako na
 
 
 
-- Chombo kilichofungwa kwa hermetically**: Kwa ajili ya kuhifadhi sehemu ya washers
+- Chombo kilichofungwa kwa **hermetically**: Kwa ajili ya kuhifadhi sehemu ya washers
 
 
 
@@ -145,8 +145,8 @@ Ikiwa hutaki kuwekeza katika seti ya ngumi, unaweza pia kuchonga washers zako na
 
 
 
-- Glovu** na **Miwani ya usalama** inapendekezwa.
-- Wrench ya bomba** ambayo itatelezesha ngumi, ili ushikilie ngumi kwa ufunguo wa bomba na si kwa vidole vyako.
+- **Glovu** na **Miwani ya usalama** inapendekezwa.
+- Wrench ya bomba ambayo itatelezesha ngumi, ili ushikilie ngumi kwa ufunguo wa bomba na si kwa vidole vyako.
 
 
 
@@ -156,13 +156,13 @@ Ikiwa hutaki kuwekeza katika seti ya ngumi, unaweza pia kuchonga washers zako na
 
 
 
-- Kiasi cha chelezo cha maneno 24**: viosha 24 (kiwango cha chini), 1 Bolt, nati 1 ya bawa, seti 1 ya ngumi, nyundo 1/massette, nyundo 1/msaada.
+- Kiasi cha chelezo cha maneno **24**: viosha 24 (kiwango cha chini), 1 Bolt, nati 1 ya bawa, seti 1 ya ngumi, nyundo 1/massette, nyundo 1/msaada.
 
 
 
 
 
-- Jumla ya gharama** :
+- **Jumla ya gharama** :
  - Washers na bolts/nuts: ~ 15 EUR
  - Seti ya ngumi: ~ 45 EUR
  - Kesi ya ulinzi: ~ 55 EUR
@@ -254,7 +254,7 @@ Ikiwa hutaki kuwekeza katika seti ya ngumi, unaweza pia kuchonga washers zako na
 
 
     - Kutoka kwa nakala yako mpya, jaribu kurejesha kwingineko yako
-- Kuweka muhuri nakala rudufu** (hiari na inapendekezwa) :
+- Kuweka muhuri nakala rudufu (hiari na inapendekezwa) :
  - Kwa vipande vya kuziba, au kwenye mifuko iliyofungwa.
  - Ikiwa unatumia pochi, andika nambari yake ya kipekee ya utambulisho, ili uweze kuangalia kama ni pochi inayofaa na si deko inayochukua nafasi ya ile asili.
 
@@ -269,7 +269,7 @@ Ikiwa hutaki kuwekeza katika seti ya ngumi, unaweza pia kuchonga washers zako na
 
 
 
-Hifadhi nakala yako katika **eneo la busara**, lisiloonekana na linaloweza kufikiwa kwa ukaguzi wa mara kwa mara. Chagua hifadhi isiyoshika moto na isiyoingiza maji**, nyumbani au mahali penye **udhibiti wako wa kipekee**.
+Hifadhi nakala yako katika **eneo la busara**, lisiloonekana na linaloweza kufikiwa kwa ukaguzi wa mara kwa mara. Chagua hifadhi isiyoshika moto na isiyoingiza maji, nyumbani au mahali penye **udhibiti wako wa kipekee**.
 
 
 
@@ -313,7 +313,7 @@ Hata ikiwa imehifadhiwa vizuri, nakala yako inahitaji ** kuangaliwa mara kwa mar
 
 
 
-*KAA SAFU!
+**KAA SAFU!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Kulingana na Jameson Lopp:
 
 
 
-- Washers** kwa
+- **Washers** kwa
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Washers + nati + kesi ya kinga** (ya washers)
+- Washers + nati + **kesi ya kinga** (ya washers)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Seti ya ngumi
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Msingi wa kuandika **
+- Msingi wa kuandika
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Kifaa cha kugonga ** (mwongozo)
+- Kifaa cha kugonga **(mwongozo)**
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-enschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Kifaa cha kuziba
  - [Mkoba uliofungwa](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Vipande vya kufunga](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Kamili ** seti
+- Kamili **seti**
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?p r_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=sare)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

@@ -36,10 +36,10 @@ Tetapi memilih Firefox hanyalah langkah pertama. Secara default, bahkan Firefox 
 
 
 
-- Gratis dan sumber terbuka** (mesin Gecko): kode yang dapat diaudit dan transparan
-- Organisasi nirlaba**: Mozilla Foundation, misi kepentingan umum
-- Perlindungan asli bawaan**: Perlindungan Pelacakan yang Ditingkatkan (ETP), Perlindungan Cookie Total (TCP), Pemisahan Status, mode khusus HTTPS, DNS melalui HTTPS (DoH)
-- Kustomisasi tingkat lanjut**: tidak seperti Chrome, Firefox memungkinkan Anda memodifikasi perilakunya secara mendalam
+- **Gratis dan sumber terbuka** (mesin Gecko): kode yang dapat diaudit dan transparan
+- **Organisasi nirlaba**: Mozilla Foundation, misi kepentingan umum
+- **Perlindungan asli bawaan**: Perlindungan Pelacakan yang Ditingkatkan (ETP), Perlindungan Cookie Total (TCP), Pemisahan Status, mode khusus HTTPS, DNS melalui HTTPS (DoH)
+- **Kustomisasi tingkat lanjut**: tidak seperti Chrome, Firefox memungkinkan Anda memodifikasi perilakunya secara mendalam
 
 
 
@@ -49,9 +49,9 @@ Tetapi memilih Firefox hanyalah langkah pertama. Secara default, bahkan Firefox 
 
 
 
-- Tidak ada resep universal**: semakin banyak Anda memodifikasi, semakin besar risiko Anda terlihat menonjol (sidik jari). Tujuannya adalah untuk lebih terlindungi tanpa terlihat menonjol dari yang lain.
-- Kemajuan langkah demi langkah**: Ubah pengaturan, uji situs yang biasa Anda gunakan, lalu lanjutkan. Tidak perlu mengubah semuanya sekaligus.
-- Saldo pribadi**: Temukan kompromi ANDA antara privasi dan kemudahan penggunaan.
+- **Tidak ada resep universal**: semakin banyak Anda memodifikasi, semakin besar risiko Anda terlihat menonjol (sidik jari). Tujuannya adalah untuk lebih terlindungi tanpa terlihat menonjol dari yang lain.
+- **Kemajuan langkah demi langkah**: Ubah pengaturan, uji situs yang biasa Anda gunakan, lalu lanjutkan. Tidak perlu mengubah semuanya sekaligus.
+- **Saldo pribadi**: Temukan kompromi ANDA antara privasi dan kemudahan penggunaan.
 
 
 
@@ -69,9 +69,9 @@ Tetapi memilih Firefox hanyalah langkah pertama. Secara default, bahkan Firefox 
 
 
 
-- Windows**: unduh penginstal `.exe`, klik dua kali dan ikuti wizard penginstalan
-- macOS**: unduh file `.dmg`, buka dan seret Firefox ke dalam folder Aplikasi
-- Linux**: tersedia beberapa pilihan - paket `.deb`/`.rpm`, Flatpak (Flathub), Snap, atau melalui pengelola paket (apt, dnf, pacman). Lebih memilih sumber resmi Mozilla.
+- **Windows**: unduh penginstal `.exe`, klik dua kali dan ikuti wizard penginstalan
+- **macOS**: unduh file `.dmg`, buka dan seret Firefox ke dalam folder Aplikasi
+- **Linux**: tersedia beberapa pilihan - paket `.deb`/`.rpm`, Flatpak (Flathub), Snap, atau melalui pengelola paket (apt, dnf, pacman). Lebih memilih sumber resmi Mozilla.
 
 
 
@@ -106,9 +106,9 @@ Tetapi memilih Firefox hanyalah langkah pertama. Secara default, bahkan Firefox 
 
 
 
-- Isolasi situs (Fission)**: dalam penyebaran progresif. Fitur ini menjalankan setiap situs dalam proses terpisah untuk mencegah satu tab berbahaya mengakses data yang lain. Periksa statusnya melalui `about:support` (cari "Fission"). Jika tidak diaktifkan, Anda dapat mengaktifkannya secara manual di `about:config` dengan `fission.autostart = true`.
-- Perlindungan Cookie Total (TCP)**: aktif secara default. Cookie dan penyimpanan lainnya terbatas pada situs pihak pertama (satu "jar" per situs), yang menetralkan pelacakan lintas situs. Pengecualian sementara dibuat melalui API Akses Penyimpanan bila diperlukan (tombol login terintegrasi).
-- Perlindungan Pelacakan Lambungan/Pengalihan**: Firefox secara otomatis mendeteksi dan membersihkan cookie yang ditinggalkan oleh situs bounce (tautan yang mengarahkan Anda melalui pelacak sebelum sampai ke tempat tujuan), sehingga mengurangi jalur pelacakan ini tanpa tindakan apa pun dari Anda.
+- **Isolasi situs (Fission)**: dalam penyebaran progresif. Fitur ini menjalankan setiap situs dalam proses terpisah untuk mencegah satu tab berbahaya mengakses data yang lain. Periksa statusnya melalui `about:support` (cari "Fission"). Jika tidak diaktifkan, Anda dapat mengaktifkannya secara manual di `about:config` dengan `fission.autostart = true`.
+- **Perlindungan Cookie Total (TCP)**: aktif secara default. Cookie dan penyimpanan lainnya terbatas pada situs pihak pertama (satu "jar" per situs), yang menetralkan pelacakan lintas situs. Pengecualian sementara dibuat melalui API Akses Penyimpanan bila diperlukan (tombol login terintegrasi).
+- **Perlindungan Pelacakan Lambungan/Pengalihan**: Firefox secara otomatis mendeteksi dan membersihkan cookie yang ditinggalkan oleh situs bounce (tautan yang mengarahkan Anda melalui pelacak sebelum sampai ke tempat tujuan), sehingga mengurangi jalur pelacakan ini tanpa tindakan apa pun dari Anda.
 
 
 
@@ -146,13 +146,13 @@ Berikut ini adalah tingkat keamanan ETP yang berbeda:
 
 
 
-- Standar** (seimbang, kompatibilitas maksimum)
+- **Standar** (seimbang, kompatibilitas maksimum)
   - Blokir: pelacak sosial, cookie lintas situs (semua jendela), melacak konten dalam penjelajahan pribadi, penambang mata uang kripto, detektor sidik jari.
   - Termasuk **Perlindungan Cookie Total** (TCP): satu toples per situs.
-- Ketat** (disarankan untuk kerahasiaan)
+- **Ketat** (disarankan untuk kerahasiaan)
   - Juga memblokir konten pelacakan di semua jendela + sidik jari yang diketahui dan dicurigai.
   - Dapat merusak beberapa situs; gunakan perisai 🛡️ untuk pengecualian lokal.
-- Kustom** (lanjutan)
+- **Kustom** (lanjutan)
   - Penyempurnaan: cookie, pelacakan konten, anak di bawah umur, sidik jari (diketahui/diduga).
 
 
@@ -161,7 +161,7 @@ Berikut ini adalah tingkat keamanan ETP yang berbeda:
 
 
 
-**Cookie dan data situs
+**Cookie dan data situs**
 
 
 
@@ -176,9 +176,9 @@ Berikut ini adalah tingkat keamanan ETP yang berbeda:
 
 
 - Nonaktifkan **pengisian otomatis** (ID, alamat, kartu). Gunakan pengelola kata sandi sebagai gantinya.
-- Pencarian**: nonaktifkan **"Tampilkan saran pencarian "**.
-- Bar Address**: potong **"Saran bersponsor "** dan **"Saran kontekstual "**.
-- Beranda**: nonaktifkan **Saku** dan **konten bersponsor**.
+- **Pencarian**: nonaktifkan **"Tampilkan saran pencarian"**.
+- **Bar Address**: potong **"Saran bersponsor"** dan **"Saran kontekstual"**.
+- **Beranda**: nonaktifkan **Saku** dan **konten bersponsor**.
 
 
 
@@ -198,14 +198,14 @@ Berikut ini adalah tingkat keamanan ETP yang berbeda:
 
 
 
-**Pengukuran telemetri dan iklan
+**Pengukuran telemetri dan iklan**
 
 
 
 
 - Pada "Pengumpulan data oleh Firefox", **hapus centang semua**.
 - Nonaktifkan **"Langkah-langkah periklanan yang ramah privasi "** (PPA).
-- Penjelajahan Aman**: tetap aktifkan (disarankan). Firefox memeriksa situs-situs dari daftar ancaman melalui kueri hash dan pemeriksaan lokal, melindungi dari phishing dan malware dengan dampak privasi yang minimal.
+- **Penjelajahan Aman**: tetap aktifkan (disarankan). Firefox memeriksa situs-situs dari daftar ancaman melalui kueri hash dan pemeriksaan lokal, melindungi dari phishing dan malware dengan dampak privasi yang minimal.
 
 
 
@@ -218,7 +218,7 @@ Berikut ini adalah tingkat keamanan ETP yang berbeda:
 
 
 
-** Mesin pencari
+**Mesin pencari**
 
 
 
@@ -245,10 +245,10 @@ Berikut ini adalah tingkat keamanan ETP yang berbeda:
 
 
 
-- uBlock Origin**: memblokir iklan dan pelacakan saat ini, ringan.
-- Privacy Badger**: belajar memblokir apa yang mengikuti Anda; mengirimkan Do Not Track / GPC.
-- Hapus URL** (opsional): Firefox (ETP Strict) dan uBO sudah banyak membersihkan; pertahankan jika anda masih melihat URL "kotor" (utm, fbclid).
-- Wadah Multi-Akun Firefox**: **Mengisolasi cookie/sesi dan penyimpanan per kontainer; multi-akun paralel; pelacakan lintas situs yang lebih sedikit**. Ekstensi resmi: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **uBlock Origin**: memblokir iklan dan pelacakan saat ini, ringan.
+- **Privacy Badger**: belajar memblokir apa yang mengikuti Anda; mengirimkan Do Not Track / GPC.
+- Hapus URL (opsional): Firefox (ETP Strict) dan uBO sudah banyak membersihkan; pertahankan jika anda masih melihat URL "kotor" (utm, fbclid).
+- **Wadah Multi-Akun Firefox**: **Mengisolasi cookie/sesi dan penyimpanan per kontainer; multi-akun paralel; pelacakan lintas situs yang lebih sedikit**. Ekstensi resmi: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 
 
 
@@ -261,7 +261,7 @@ Berikut ini adalah tingkat keamanan ETP yang berbeda:
 
 
 
-- Gunakan pengelola kata sandi khusus** (Bitwarden, KeePassXC). **Hindari** menyimpan kata sandi di peramban. **Aktifkan 2FA** jika memungkinkan.
+- Gunakan pengelola kata sandi khusus (Bitwarden, KeePassXC). **Hindari** menyimpan kata sandi di peramban. **Aktifkan 2FA** jika memungkinkan.
 
 
 
@@ -278,11 +278,11 @@ Tujuan: mengkotak-kotakkan aktivitas dan mengurangi kebocoran jaringan.
 
 
 
-- Status default**: Diaktifkan secara otomatis di beberapa wilayah (Amerika Serikat, Kanada, Rusia, Ukraina). Di tempat lain, diperlukan aktivasi manual.
-- Konfigurasi**: Pengaturan → Umum → Pengaturan jaringan → **Aktifkan DoH** → **Cloudflare** atau **Quad9** → **Perlindungan maksimum**.
-- Perlindungan maksimum = Hanya TRR** (tidak ada fallback ke DNS sistem). Jika jaringan perusahaan/hotel memblokir, alihkan kembali ke **Standar** atau nonaktifkan DoH.
-- Redundansi**: Jika Anda sudah menggunakan VPN tepercaya dengan DNS-nya sendiri yang aman, DoH bisa jadi berlebihan.
-- Uji verifikasi**: `https://www.dnsleaktest.com/` seharusnya hanya menampilkan penyedia layanan kesehatan yang dipilih.
+- **Status default**: Diaktifkan secara otomatis di beberapa wilayah (Amerika Serikat, Kanada, Rusia, Ukraina). Di tempat lain, diperlukan aktivasi manual.
+- **Konfigurasi**: Pengaturan → Umum → Pengaturan jaringan → **Aktifkan DoH** → **Cloudflare** atau **Quad9** → **Perlindungan maksimum**.
+- Perlindungan maksimum = Hanya **TRR** (tidak ada fallback ke DNS sistem). Jika jaringan perusahaan/hotel memblokir, alihkan kembali ke **Standar** atau nonaktifkan DoH.
+- **Redundansi**: Jika Anda sudah menggunakan VPN tepercaya dengan DNS-nya sendiri yang aman, DoH bisa jadi berlebihan.
+- **Uji verifikasi**: `https://www.dnsleaktest.com/` seharusnya hanya menampilkan penyedia layanan kesehatan yang dipilih.
 
 
 
@@ -290,20 +290,20 @@ Tujuan: mengkotak-kotakkan aktivitas dan mengurangi kebocoran jaringan.
 
 
 
-**Kompartementalisasi dengan wadah dan profil
+**Kompartementalisasi dengan wadah dan profil**
 
 
 
 
-- Wadah Multi-Akun**: buat ruang (Pribadi, Pekerjaan, Keuangan, Jejaring Sosial, Belanja, Sekali Pakai). Konfigurasikan **"Selalu buka di wadah ini "** untuk situs berulang Anda. Ekstensi resmi: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
+- **Wadah Multi-Akun**: buat ruang (Pribadi, Pekerjaan, Keuangan, Jejaring Sosial, Belanja, Sekali Pakai). Konfigurasikan **"Selalu buka di wadah ini"** untuk situs berulang Anda. Ekstensi resmi: `https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/`.
 - Mengapa menggunakannya?
-  - Isolasi** yang kuat dari cookie/sesi/penyimpanan berdasarkan ruang.
-  - Mengurangi pelacakan lintas situs**: membatasi raksasa (Facebook, Google).
-  - Multi-rekening secara bersamaan** pada layanan yang sama.
-  - Lebih sedikit risiko CSRF/XSS** di antara identitas yang tersegmentasi.
+- **Isolasi** yang kuat dari cookie/sesi/penyimpanan berdasarkan ruang.
+- Mengurangi pelacakan lintas situs: membatasi raksasa (Facebook, Google).
+- **Multi-rekening secara bersamaan** pada layanan yang sama.
+- Lebih sedikit risiko **CSRF/XSS** di antara identitas yang tersegmentasi.
   - Tip: paling tidak, wadah khusus untuk Jejaring Sosial/Google, Pekerjaan, Keuangan.
-- Facebook Container** (opsional): versi sederhana yang didedikasikan untuk FB/Instagram.
-- Profil terpisah**: melalui `about:profiles` (profil utama, profil minimal "sangat aman", profil uji). Kompartementalisasi data total dan ekstensi.
+- **Facebook Container** (opsional): versi sederhana yang didedikasikan untuk FB/Instagram.
+- **Profil terpisah**: melalui `about:profiles` (profil utama, profil minimal "sangat aman", profil uji). Kompartementalisasi data total dan ekstensi.
 
 
 
@@ -312,8 +312,8 @@ Tujuan: mengkotak-kotakkan aktivitas dan mengurangi kebocoran jaringan.
 
 
 
-- Cookie AutoDelete**: menghapus cookie situs segera setelah tab ditutup (berguna jika Firefox dibuka untuk waktu yang lama).
-- LocalCDN**: menyajikan pustaka saat ini secara lokal (mengurangi panggilan ke Google/Microsoft). Kompatibilitas sebagian.
+- **Cookie AutoDelete**: menghapus cookie situs segera setelah tab ditutup (berguna jika Firefox dibuka untuk waktu yang lama).
+- **LocalCDN**: menyajikan pustaka saat ini secara lokal (mengurangi panggilan ke Google/Microsoft). Kompatibilitas sebagian.
 
 
 
@@ -322,7 +322,7 @@ Tujuan: mengkotak-kotakkan aktivitas dan mengurangi kebocoran jaringan.
 
 
 
-- Firefox Android + uBlock Origin**: perlindungan serupa saat bepergian.
+- **Firefox Android + uBlock Origin**: perlindungan serupa saat bepergian.
 
 
 
@@ -542,11 +542,11 @@ Praktik terbaik
 
 
 
-- Pembaruan**: Firefox dan ekstensi terbaru.
-- Ekstensi**: masuk akal dan dapat diandalkan; waspadai penebusan yang "meragukan".
-- Unduhan**: hati-hati; uji file sensitif di VirusTotal.
-- Kata sandi**: **manajer khusus** (Bitwarden, KeePassXC); **2FA** diaktifkan; hindari menyimpan di peramban.
-- Kebersihan**: batasi Google/Facebook pada wadah; tutup/buka secara teratur untuk "mengatur ulang" konteks.
+- **Pembaruan**: Firefox dan ekstensi terbaru.
+- **Ekstensi**: masuk akal dan dapat diandalkan; waspadai penebusan yang "meragukan".
+- **Unduhan**: hati-hati; uji file sensitif di VirusTotal.
+- **Kata sandi**: **manajer khusus** (Bitwarden, KeePassXC); **2FA** diaktifkan; hindari menyimpan di peramban.
+- **Kebersihan**: batasi Google/Facebook pada wadah; tutup/buka secara teratur untuk "mengatur ulang" konteks.
 
 
 
@@ -559,7 +559,7 @@ Praktik terbaik
 - Peramban yang dikeraskan ≠ anonimitas jaringan: tanpa **VPN**, IP Anda tetap terlihat; bahkan dengan itu pun, korelasi tetap dimungkinkan.
 - Terlalu banyak memodifikasi dapat membuat Anda menjadi **unik**. **RFP** menjadi standar; alat pengacakan (mis. Chameleon) dapat... membuat Anda berbeda. Uji, bandingkan, sesuaikan.
 - Alternatif/pelengkap:
- - Tor Browser: anonimitas jaringan melalui Tor; lebih lambat. Lihat panduan instalasi dan konfigurasi lengkap kami**:
+- Tor Browser: anonimitas jaringan melalui Tor; lebih lambat. Lihat panduan instalasi dan konfigurasi lengkap kami:
 
 
 
@@ -567,7 +567,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
- - Peramban Mullvad: "Tor tanpa Tor", untuk digabungkan dengan VPN; jejak standar. Cari tahu cara menginstalnya di tutorial khusus kami**:
+- Peramban Mullvad: "Tor tanpa Tor", untuk digabungkan dengan VPN; jejak standar. Cari tahu cara menginstalnya di tutorial khusus kami:
 
 
 
@@ -591,7 +591,7 @@ Dengan mengikuti panduan langkah demi langkah ini, Anda telah mengubah Firefox m
 
 
 
-**Ingat: kerahasiaan tidak pernah diberikan. Uji proteksi Anda secara teratur, perbarui pengaturan Anda, dan jangan ragu untuk menyesuaikan konfigurasi Anda seiring dengan perubahan kebiasaan Anda. Anonimitas online Anda sangat bergantung pada peralatan Anda dan juga pada praktik Anda.
+**Ingat: kerahasiaan tidak pernah diberikan. Uji proteksi Anda secara teratur, perbarui pengaturan Anda, dan jangan ragu untuk menyesuaikan konfigurasi Anda seiring dengan perubahan kebiasaan Anda. Anonimitas online Anda sangat bergantung pada peralatan Anda dan juga pada praktik Anda.**
 
 
 
@@ -604,7 +604,7 @@ Dengan mengikuti panduan langkah demi langkah ini, Anda telah mengubah Firefox m
 
 
 
-- SCU 202 - Meningkatkan keamanan digital pribadi Anda: Untuk mempelajari lebih lanjut tentang konsep keamanan digital yang tercakup dalam tutorial ini**
+- SCU 202 - Meningkatkan keamanan digital pribadi Anda: Untuk mempelajari lebih lanjut tentang konsep keamanan digital yang tercakup dalam tutorial ini
 
 
 
@@ -637,8 +637,8 @@ https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [PrivacyGuides - Peramban Desktop](https://www.privacyguides.org/en/desktop-browsers/): Rekomendasi dan perbandingan peramban
-- Reddit**: r/firefox, r/privacy untuk umpan balik dan dukungan
-- Forum PrivacyGuides**: diskusi teknis yang mendalam
+- **Reddit**: r/firefox, r/privacy untuk umpan balik dan dukungan
+- **Forum PrivacyGuides**: diskusi teknis yang mendalam
 
 
 

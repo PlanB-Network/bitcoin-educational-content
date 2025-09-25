@@ -1,0 +1,9 @@
+question: Ni faili gani ambazo nodi hushauriana kwanza ili kupata wenzao wa zamani kwenye kuwasha tena?
+answer: nanga.dat na peers.dat
+wrong_answers:
+  - Mempool.dat na peers.dat
+  - Mempool.dat na ip.dat
+  - ip.dat na nanga.dat
+explanation: |
+  Bitcoin core kwanza hushauriana na anchors.dat (wanafunzi wenzao waliomaliza muda wao), kisha peers.dat (kitabu kinachojulikana cha Address) ili kuunganisha tena.
+reviewed: true

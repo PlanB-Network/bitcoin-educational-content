@@ -7,7 +7,7 @@ description: Savoir utiliser le portefeuille Lightning Zeus Embedded
 ZEUS est initialement une application mobile de gestion de nœud lightning à distance, qui permet de piloter son nœud installé sur un serveur distant
 Mais l’application propose aussi un noeud Lightning Intégré ou “Embedded node” en anglais. 
 
-**C’est cette facette de l’application que nous explorerons dans ce tutoriel. Cela permet à n’importe qui d’avoir son propre noeud lightning sur mobile, sans avoir besoin d’un serveur dédié, à la manière de ce que propose ACINQ avec son incroyable wallet lightning Phoenix.
+**C'est cette facette de l'application que nous explorerons dans ce tutoriel. Cela permet à n'importe qui d'avoir son propre noeud lightning sur mobile, sans avoir besoin d'un serveur dédié, à la manière de ce que propose ACINQ avec son incroyable wallet lightning Phoenix.**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
@@ -134,7 +134,7 @@ Une fois les fonds confirmés et crédités sur votre wallet, vous pouvez les ut
 
 Sur l'écran suivant, on vous propose d'ouvrir un canal en collaboration avec **"Olympus by Zeus"** qui est le LSP (Lightning Service Provider) privilégié par le wallet.
 Pour ce tutoriel nous choisirons cette option pour d'avantage de simplicité, mais il est parfaitement possible d'ouvrir des canaux avec n'importe quel noeud du réseau.
-Il est même possible d'ouvrir plusieurs canaux en une seule transaction en sélectionnant "OPEN ADDITIONAL CHANNEL". *Mais nous verrons éventuellement cela dans une éventuelle version"avancée" du tutoriel **Zeus Embedded****.
+Il est même possible d'ouvrir plusieurs canaux en une seule transaction en sélectionnant "OPEN ADDITIONAL CHANNEL". *Mais nous verrons éventuellement cela dans une éventuelle version "avancée" du tutoriel* **Zeus Embedded**.
 
 - Sélectionnez ensuite  le montant que vous souhaitez dédier à ce canal. Dans notre cas l'ensemble de nos fonds on-chain seront utilisés, nous activons donc le bouton "Use all possible funds".
 

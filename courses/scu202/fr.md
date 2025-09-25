@@ -984,7 +984,7 @@ Chaque dépôt est divisé en sections. Ubuntu active par défaut quatre section
 * **main** : les logiciels libres officiellement maintenus par Canonical. Exemples : Firefox, LibreOffice, bash...
 * **restricted** : les logiciels non libres, mais indispensables pour le bon fonctionnement matériel. Exemples : pilotes NVIDIA, firmware Wi-Fi, codecs propriétaires...
 * **universe** : les logiciels libres maintenus par la communauté. Exemples : GIMP, Inkscape, Audacity…
-* **multiverse** : les logiciels soumis à des restrictions légales (brevets, licences non libres). Leur disponibilité peut varier selon les pays. Exemples : certains codecs audio/vidéo, Steam…
+**multiverse** : les logiciels soumis à des restrictions légales (brevets, licences non libres). Leur disponibilité peut varier selon les pays. Exemples : certains codecs audio/vidéo, Steam…
 
 Chaque composant peut ensuite être décliné en plusieurs canaux ou pockets : `release`, `security`, `updates`, `backports`, etc., qui correspondent à la nature des mises à jour.
 
@@ -3113,11 +3113,11 @@ Pour atténuer ces risques, les éditeurs de navigateurs publient des mises à j
 
 Il est donc impératif :
 * d’activer les mises à jour automatiques de votre navigateur et de vérifier régulièrement à la main qu'aucune mise à jour n'est disponible ;
-* ou, si vous utilisez une version packagée manuellement (par exemple via `apt`, `flatpak` ou `snap` sous Linux), de mettre à jour régulièrement l’ensemble du système via votre gestionnaire de paquets.
+*ou, si vous utilisez une version packagée manuellement (par exemple via `apt`, `flatpak` ou `snap` sous Linux), de mettre à jour régulièrement l'ensemble du système via votre gestionnaire de paquets.*
 
 Pour vérifier manuellement la version et déclencher une mise à jour :
 * dans Firefox : `Menu > Settings > Firefox Updates` ;
-* en ligne de commande sous Linux (paquets `apt`) :
+**en ligne de commande sous Linux (paquets `apt`) :**
 
 ```bash
 sudo apt update && sudo apt upgrade firefox
@@ -3224,23 +3224,23 @@ Dans la majorité des cas, l’attaque consiste à imiter l’apparence d’un s
 
 Pour éviter ces attaques lors de votre navigation en ligne, il convient de respecter certains principes de base :
 
-* **Analysez l’URL** : les attaquants utilisent souvent des adresses très proches de l’originale (par exemple `micr0soft-support.com`, `paypal-verif.net`, etc.). Certains substituent des caractères visuellement similaires, en exploitant des alphabets Unicode. Vérifiez que l’adresse correspond exactement au site attendu, sans préfixe ou suffixe suspect.
+**Analysez l'URL** : les attaquants utilisent souvent des adresses très proches de l'originale (par exemple `micr0soft-support.com`, `paypal-verif.net`, etc.). Certains substituent des caractères visuellement similaires, en exploitant des alphabets Unicode. Vérifiez que l'adresse correspond exactement au site attendu, sans préfixe ou suffixe suspect.
 
-* **Évitez les liens raccourcis** : des services comme `bit.ly` ou `t.co` peuvent masquer l’adresse finale. Si vous recevez un lien raccourci, méfiez-vous ou utilisez un service d’expansion d’URL pour vérifier sa destination.
+**Évitez les liens raccourcis** : des services comme `bit.ly` ou `t.co` peuvent masquer l'adresse finale. Si vous recevez un lien raccourci, méfiez-vous ou utilisez un service d'expansion d'URL pour vérifier sa destination.
 
-* **Méfiez-vous des messages alarmistes** : les tentatives de phishing exploitent souvent des émotions fortes (urgence, menace, récompense, curiosité...). Un e-mail prétendant que votre compte va être bloqué ou qu’un colis ne peut être livré est suspect par nature.
+**Méfiez-vous des messages alarmistes** : les tentatives de phishing exploitent souvent des émotions fortes (urgence, menace, récompense, curiosité...). Un e-mail prétendant que votre compte va être bloqué ou qu'un colis ne peut être livré est suspect par nature.
 
-* **Ne transmettez jamais d'informations sensibles via un lien reçu** : Une institution légitime ne vous demandera jamais un mot de passe, un code d’authentification ou un scan de pièce d’identité via un simple e-mail ou SMS.
+**Ne transmettez jamais d'informations sensibles via un lien reçu** : Une institution légitime ne vous demandera jamais un mot de passe, un code d'authentification ou un scan de pièce d'identité via un simple e-mail ou SMS.
 
 Et voici également quelques mesures de prévention à mettre en place directement dans votre navigateur afin de réduire au maximum les risques de phishing :
 
-* **Accédez aux sites critiques via vos favoris** :
+**Accédez aux sites critiques via vos favoris** :
 
 Pour les services importants (banque, impôts, e-mail...), et plus largement pour tous les sites que vous utilisez de manière régulière, enregistrez l’URL officielle dans vos favoris et n’utilisez jamais un moteur de recherche ou un lien externe pour vous y rendre.
 
 Vous avez reçu un e-mail du service des impôts contenant un lien ? Ne cliquez pas dessus. Rendez-vous plutôt directement sur votre espace personnel en utilisant l’URL que vous avez enregistrée dans vos favoris. Aujourd’hui, tous les navigateurs modernes proposent une barre de favoris avec la possibilité d’organiser vos liens dans des dossiers. Prenez le temps de le faire une fois, en vérifiant soigneusement l’URL ainsi que le certificat SSL/TLS, et vous naviguerez ensuite en toute tranquillité.
 
-* **Respectez les bonnes pratiques liées à l'authentification** :
+**Respectez les bonnes pratiques liées à l'authentification** :
 
 Il est également essentiel de suivre les bonnes pratiques liées à l’authentification pour limiter l’impact potentiel d’une attaque par phishing. Les deux règles les plus importantes sont l’usage de mots de passe uniques pour chaque service et l’activation du 2FA.
 
@@ -3248,7 +3248,7 @@ Prenons un exemple : si un attaquant parvient à obtenir le mot de passe de votr
 
 En complément de ces mesures, l’utilisation d’un bon gestionnaire de mots de passe sous forme d’extension de navigateur peut également vous protéger contre les faux sites. En effet, la plupart de ces extensions détecteront une URL suspecte et refuseront d’auto-remplir vos identifiants, voire vous le signalerons, ce qui vous évitera ainsi de divulguer vos accès par inadvertance.
 
-* **Inspectez les certificats SSL/TLS** : 
+**Inspectez les certificats SSL/TLS** :
 
 La présence du cadenas dans la barre d’adresse indique une connexion chiffrée, mais ne garantit pas la légitimité du site. Cliquez dessus pour examiner le certificat (organisation, domaine, autorité de certification). Cela reste utile en cas de doute sur une URL.
 
@@ -4542,11 +4542,19 @@ Il est important de privilégier un équipement moderne, maintenu par son fabric
 
 Un routeur compatible Wi-Fi 6, Wi-Fi 6E ou Wi-Fi 7 vous donnera des débits améliorés et surtout un support natif des technologies de sécurité modernes. À l’inverse, les équipements très anciens, notamment ceux qui ne reçoivent plus de mises à jour logicielles, peuvent comporter des vulnérabilités connues et non corrigées. Ils représentent donc un risque pour l’ensemble de votre réseau, même si vous les configurez correctement. Comparé aux téléphones portables ou aux ordinateurs, le routeur est un équipement que l’on a tendance à conserver pendant de nombreuses années. Pourtant, il peut être pertinent de le remplacer plus régulièrement, afin de bénéficier d’un modèle plus moderne et mieux sécurisé.
 
+**Attention** : En règle générale, les routeurs fournis par les fournisseurs d’accès à Internet peuvent être dépourvus de la fonction essentielle de mise à jour ainsi que des capacités de personnalisation. Dans certains cas, les fournisseurs peuvent également avoir un accès illimité au réseau interne de l’utilisateur final.
+
 Aussi, veillez à appliquer systématiquement les mises à jour du firmware de votre routeur. Ces mises à jour corrigent des failles, ajoutent de nouvelles fonctionnalités et renforcent la stabilité générale du système. Certains fabricants proposent une mise à jour automatique, mais dans certains cas, il faudra effectuer une vérification manuelle via l’interface d’administration du routeur. Tout comme pour votre téléphone, votre ordinateur, votre système d’exploitation ou vos logiciels, il est donc très important de mettre régulièrement à jour votre routeur. Vous pouvez d’ailleurs intégrer cette vérification dans une routine hebdomadaire, par exemple chaque dimanche, en dressant une liste de tous les éléments à contrôler et à maintenir à jour.
 
-Si votre routeur n’est plus maintenu mais fonctionne correctement d’un point de vue matériel, vous pouvez installer un firmware alternatif open source, comme :
+Vous pouvez également activer les mises à jour automatiques ou au moins le balayage automatique des nouvelles mises à jour du firmware si vous préférez agir manuellement. Bien que la fonction de mise à jour automatique puisse toujours représenter une menace pour la sécurité, ne pas mettre régulièrement à jour le firmware du routeur exposera votre réseau local à des vulnérabilités publiquement connues.
+
+**Exemple**: Lors de l'achat de votre propre routeur, il peut être judicieux de rechercher des entreprises établies dans le secteur qui fournissent des routeurs sur le marché depuis longtemps. Par exemple, les routeurs Fritz!Box ont une réputation de longue date en tant qu'appareils plug-and-play, bien adaptés à une utilisation en milieu familial comme en petite entreprise. Leur politique de mises à jour logicielles s'étend généralement sur plusieurs années.
+
+Si votre routeur n'est plus maintenu mais fonctionne toujours correctement du point de vue matériel, vous pourrez peut-être installer un firmware open-source alternatif, tel que:
 - **OpenWrt**, une distribution Linux spécialisée dans les routeurs, qui offre une grande flexibilité et des mises à jour régulières ;
 - **pfSense** et **OPNsense**, deux systèmes basés sur FreeBSD (type Unix) pour les pare-feux et routeurs x86.
+
+**Remarque** : Certains fournisseurs d'accès (ISP) fournissent à leurs clients des routeurs en gros fabriqués par une seule entreprise qui dessert simultanément de nombreux ISP différents dans le monde. Vous pouvez constater que, pour installer l'un des firmwares alternatifs sur le routeur, quelqu'un d'autre a peut‑être déjà découvert comment le faire, même s'il se trouve à l'autre bout du monde.
 
 ![Image](assets/fr/196.webp)
 
@@ -4762,6 +4770,5 @@ En suivant ces quelques étapes, vous construisez un environnement réseau robus
 ## Conclusion
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

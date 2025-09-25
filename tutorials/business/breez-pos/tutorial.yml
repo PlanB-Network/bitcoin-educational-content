@@ -63,7 +63,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -103,12 +103,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.98
+    reward: 2.97
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -123,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 2.25
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -134,6 +134,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.69
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.97
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.41
 tags:
   - guides
   - adoption

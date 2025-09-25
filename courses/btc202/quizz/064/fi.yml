@@ -1,0 +1,9 @@
+question: Mikä on tärkein syy asentaa paikallinen Block explorer kuten Mempool.Space Umbreliin?
+answer: Säilytä luottamuksellisuus ja käytä oman solmun tietoja
+wrong_answers:
+  - Nopeuttaa Bitcoin core:n alkuperäistä synkronointia
+  - Lisää lohkoille käytettävissä olevaa tallennuskapasiteettia
+  - Lightning-kanavien hankkiminen
+explanation: |
+  Paikallinen Block explorer estää IP-vuodot ja luottaa omiin validoituihin tietoihin, mikä takaa luottamuksellisuuden ja luotettavuuden.
+reviewed: true

@@ -33,7 +33,7 @@ O Fedi Wallet é um portefólio Bitcoin que inclui uma nova abordagem para guard
 
 
 
-- Custodials**: Decide depositar a sua confiança numa entidade externa, o criador da carteira, que manterá as palavras de recuperação da sua carteira para si. Não tem acesso nem a capacidade de exportar a sua carteira Bitcoin.
+- **Custodials**: Decide depositar a sua confiança numa entidade externa, o criador da carteira, que manterá as palavras de recuperação da sua carteira para si. Não tem acesso nem a capacidade de exportar a sua carteira Bitcoin.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Autocustodials** : A aplicação dá-lhe acesso a palavras de recuperação assim que cria o seu Wallet. Assim, pode exportar livremente os seus bitcoins para o Wallet que mais lhe convém.
+- **Autocustodials**: A aplicação dá-lhe acesso a palavras de recuperação assim que cria o seu Wallet. Assim, pode exportar livremente os seus bitcoins para o Wallet que mais lhe convém.
 
 
 
@@ -103,7 +103,7 @@ No menu **Federações**, desloque-se para uma federação e clique em **Detalhe
 
 
 
-- Receber bitcoins na Fedi**: Na página inicial, selecione a federação que pretende utilizar para receber bitcoins e, em seguida, clique no botão **Receber** para criar um Lightning Invoice com um montante a receber.
+- Receber bitcoins na **Fedi**: Na página inicial, selecione a federação que pretende utilizar para receber bitcoins e, em seguida, clique no botão **Receber** para criar um Lightning Invoice com um montante a receber.
 
 
 
@@ -113,7 +113,7 @@ No menu **Federações**, desloque-se para uma federação e clique em **Detalhe
 
 
 
-- Enviar bitcoins**: Na página inicial, clique no botão **Enviar** para enviar bitcoins para um Lightning Address, para pagar um Invoice ou fazer um pagamento offline.
+- **Enviar bitcoins**: Na página inicial, clique no botão **Enviar** para enviar bitcoins para um Lightning Address, para pagar um Invoice ou fazer um pagamento offline.
 
 
 
@@ -232,4 +232,3 @@ Você acabou de fazer o tour Fedi Wallet, agora está em posição de aproveitar
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

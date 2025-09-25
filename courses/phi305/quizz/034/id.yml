@@ -1,0 +1,9 @@
+question: Siapa Lamarck?
+answer: Seorang naturalis Prancis yang mendahului Darwin.
+wrong_answers:
+  - Seorang filsuf Belanda.
+  - Seorang murid dari Spinoza.
+  - Seorang pelukis klasik.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) adalah seorang naturalis Prancis yang mengusulkan teori evolusi sebelum Darwin. Teori transformisme yang dikemukakannya mencakup faktor keturunan dari sifat-sifat yang diperoleh.
+reviewed: false

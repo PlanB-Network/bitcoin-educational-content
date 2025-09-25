@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Company
+name: The Bitcoin Company
 description: Kuidas ma saan osta kaupu ja teenuseid BTC-s The Bitcoin Company'ga?
 ---
 ![cover](assets/cover.webp)

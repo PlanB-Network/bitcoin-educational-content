@@ -1,0 +1,9 @@
+question: Mis on finalism?
+answer: Põhjuse ja tagajärje ümberpööramine, et midagi mõista.
+wrong_answers:
+  - Poliitiline teooria.
+  - Retsept toiduvalmistamiseks.
+  - Psühhoanalüüsi põhimõte.
+explanation: |
+  Finalism on põhjuse ja tagajärje ümberpööramine, et midagi mõista. See on nähtuse seletamine selle oletatava eesmärgi, mitte selle tegelike põhjuste abil, mida Spinoza kritiseerib kui illusiooni.
+reviewed: false

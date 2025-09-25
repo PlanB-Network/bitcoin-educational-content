@@ -1,5 +1,5 @@
 ---
-name: Signaal
+name: Signal
 description: Väljendage end vabalt
 ---
 ![cover](assets/cover.webp)

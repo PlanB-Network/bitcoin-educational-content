@@ -1121,7 +1121,7 @@ Dupont de Nemours yama yubaha cane Quesnay.
 
 Mu nyuma yaravuze ati: "Nari umuhungu gusa igihe Quesnay yampa amaboko—yaranhinduye umuntu." Quesnay ni we yamugize umuhinga mu vy’ubutunzi mu vy’ubuhinga bwo kwandika muri ico gihe.
 
-Inyuma y'ikinyamakuru c'uburimyi, ubudandaji n'ivy'amahera*, Dupont yashinzwe kuba umunyamabanga mukuru w'ikinyamakuru *Les Éphémérides du Citoyen*, kikaba ari co cabaye uruganda rwemewe rw'abafiziyokarate.
+Inyuma y'ikinyamakuru c'uburimyi, ubudandaji n'ivy'amahera, Dupont yashinzwe kuba umunyamabanga mukuru w'ikinyamakuru *Les Éphémérides du Citoyen*, kikaba ari co cabaye uruganda rwemewe rw'abafiziyokarate.
 
 
 ![image](assets/fr/091.webp)
@@ -1353,9 +1353,9 @@ Kubera ko ako karere kari gakenye cane, nta co kari gifise akamaro ku baminisiti
 
 
 
-- Gusubira gusangira taille**, umusoro w’umuntu ku giti ciwe (Turgot yari afise intumbero yo gushiramwo ubutungane bwinshi bushoboka mu gusuzuma kwayo).
-- Corvée**, ni ubwoko bw’ikori ryishyurwa mu bikorwa, aho abarimyi bagoberwa no gukora ibikorwa vyo kwubaka amabarabara. Turgot amaze gutembera muri ako karere, yaciye abona ningoga ukuntu amabarabara yari ameze nabi. Yasubirije iyo corvée umusoro w’amahera.
-- Gutora ingabo z’abasirikare**, ingabo z’abarimyi zakoranijwe mu bihe vy’intambara.
+- Gusubira gusangira **taille**, umusoro w'umuntu ku giti ciwe (Turgot yari afise intumbero yo gushiramwo ubutungane bwinshi bushoboka mu gusuzuma kwayo).
+- **Corvée**, ni ubwoko bw'ikori ryishyurwa mu bikorwa, aho abarimyi bagoberwa no gukora ibikorwa vyo kwubaka amabarabara. Turgot amaze gutembera muri ako karere, yaciye abona ningoga ukuntu amabarabara yari ameze nabi. Yasubirije iyo corvée umusoro w'amahera.
+- Gutora ingabo z'abasirikare, ingabo z'abarimyi zakoranijwe mu bihe vy'intambara.
 
 
 ![image](assets/fr/115.webp)

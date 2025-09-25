@@ -1,0 +1,9 @@
+question: Bitcoin core'ın ana alternatif uygulaması nedir?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin Nakit
+  - BTCD
+  - Bcoin
+explanation: |
+  Luke Dashjr tarafından geliştirilen Bitcoin Knots, ek seçenekler ve daha muhafazakar bir vizyon sunan Core'un bir Fork'üdür.
+reviewed: true

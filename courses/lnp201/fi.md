@@ -537,12 +537,12 @@ Ymmärtääksemme paremmin, miten maksut toimivat, tutkitaan samaa Lightning Net
 Samasta **40,000 satoshin** maksusta Bobille, Alicen on lähetettävä hieman enemmän, koska jokainen välisolmu vähentää omat maksunsa:
 
 - **Carol** vähentää 1.04 satoshia kanavalla Bobin kanssa:
-  $$ f*{\text{Carol-Bob}} = \text{perusmaksu} + \left(\frac{\text{ppm} \times \text{määrä}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{perusmaksu} + \left(\frac{\text{ppm} \times \text{määrä}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
 - **Suzie** vähentää 8 satoshia maksuina kanavalla Carolin kanssa:
-  $$ f*{\text{Suzie-Carol}} = \text{perusmaksu} + \left(\frac{\text{ppm} \times \text{määrä}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{perusmaksu} + \left(\frac{\text{ppm} \times \text{määrä}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
 Tämän maksun kokonaismaksut tällä reitillä ovat siis **9.04 satoshia**. Näin ollen Alicen on lähetettävä **40,009.04 satoshia**, jotta Bob saa tarkalleen **40,000 satoshia**.
 

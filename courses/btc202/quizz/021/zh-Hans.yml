@@ -1,0 +1,9 @@
+question: 是什么因素决定了节点对共识规则的影响？
+answer: 其经济份量
+wrong_answers:
+  - 其外发连接数
+  - 在网络中的资历
+  - 没有，因为每个节点只有一票
+explanation: |
+  对共识规则的影响取决于节点所支持的经济活动，而不是节点的数量。
+reviewed: true

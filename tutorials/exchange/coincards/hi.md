@@ -1,5 +1,5 @@
 ---
-name: कॉइनकार्ड
+name: Coincards
 description: मैं कॉइनकार्ड्स के साथ बीटीसी में सामान और सेवाएं कैसे खरीद सकता हूं?
 ---
 ![cover](assets/cover.webp)

@@ -8,17 +8,17 @@ Skrót od "Bitcoin Improvement Proposal" Bitcoin Improvement Proposal (BIP) to f
 BIP są podzielone na trzy główne kategorie:
 
 
-- BIPy ścieżki standardów*: Dotyczą modyfikacji, które bezpośrednio wpływają na implementacje Bitcoin, takie jak reguły walidacji transakcji i bloków;
-- BIP o charakterze informacyjnym*: Dostarczają informacji lub zaleceń bez proponowania bezpośrednich zmian w protokole;
-- Procesy BIP*: Opis zmian w procedurach dotyczących Bitcoin, takich jak procesy zarządzania.
+- **BIPy ścieżki standardów**: Dotyczą modyfikacji, które bezpośrednio wpływają na implementacje Bitcoin, takie jak reguły walidacji transakcji i bloków;
+- **BIP o charakterze informacyjnym**: Dostarczają informacji lub zaleceń bez proponowania bezpośrednich zmian w protokole;
+- Procesy **BIP**: Opis zmian w procedurach dotyczących Bitcoin, takich jak procesy zarządzania.
 
 
 Ścieżki standardów i informacyjne BIP są również klasyfikowane według "Layer":
 
 
-- Layer*: BIPy w tym Layer dotyczą zasad konsensusu Bitcoin, takich jak modyfikacje zasad walidacji bloków lub transakcji. Propozycje te mogą być forkami Soft (modyfikacje kompatybilne wstecz) lub Hard (modyfikacje niekompatybilne wstecz). Na przykład BIPy dla SegWit i Taproot należą do tej kategorii;
-- Usługi równorzędne*: Ten Layer dotyczy działania sieci węzłów Bitcoin, czyli sposobu, w jaki węzły znajdują i komunikują się ze sobą w Internecie.
-- API/RPC*: BIPy tego Layer dotyczą interfejsów programowania aplikacji (API) i zdalnych wywołań procedur (RPC), które umożliwiają oprogramowaniu Bitcoin interakcję z węzłami;
+- **Layer**: BIPy w tym Layer dotyczą zasad konsensusu Bitcoin, takich jak modyfikacje zasad walidacji bloków lub transakcji. Propozycje te mogą być forkami Soft (modyfikacje kompatybilne wstecz) lub Hard (modyfikacje niekompatybilne wstecz). Na przykład BIPy dla SegWit i Taproot należą do tej kategorii;
+- Usługi równorzędne: Ten Layer dotyczy działania sieci węzłów Bitcoin, czyli sposobu, w jaki węzły znajdują i komunikują się ze sobą w Internecie.
+- **API/RPC**: BIPy tego Layer dotyczą interfejsów programowania aplikacji (API) i zdalnych wywołań procedur (RPC), które umożliwiają oprogramowaniu Bitcoin interakcję z węzłami;
 - Aplikacje Layer*: Layer odnosi się do aplikacji opartych na Bitcoin. BIPy w tej kategorii zazwyczaj dotyczą modyfikacji na poziomie standardów Bitcoin Wallet.
 
 
@@ -41,4 +41,4 @@ BIP przechodzą następnie przez różne statusy w trakcie swojego cyklu życia.
 ![](../../dictionnaire/assets/25.webp)
 
 
-> *BIP jest skrótem od "Bitcoin Improvement Proposal". W języku francuskim można go przetłumaczyć jako "Proposition d'amélioration de Bitcoin". Jednak większość francuskich tekstów bezpośrednio używa akronimu "BIP" jako rzeczownika pospolitego, czasem rodzaju żeńskiego, czasem męskiego
+> *BIP jest skrótem od "Bitcoin Improvement Proposal". W języku francuskim można go przetłumaczyć jako "Proposition d'amélioration de Bitcoin". Jednak większość francuskich tekstów bezpośrednio używa akronimu "BIP" jako rzeczownika pospolitego, czasem rodzaju żeńskiego, czasem męskiego*

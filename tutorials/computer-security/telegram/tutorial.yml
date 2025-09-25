@@ -92,7 +92,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
@@ -103,7 +103,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -139,3 +139,13 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.38
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.72
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.04

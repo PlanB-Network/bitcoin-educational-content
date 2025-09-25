@@ -1,0 +1,9 @@
+question: What's the main limitation of Tor communications with your node?
+answer: Slowness
+wrong_answers:
+  - Lack of encryption
+  - Spam
+  - The impossibility of using RPC
+explanation: |
+  Tor connections are secure, but slower than alternatives such as VPN.
+reviewed: true

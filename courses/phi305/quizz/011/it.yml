@@ -1,0 +1,9 @@
+question: Cosa pensa Spinoza del caso?
+answer: Non esiste.
+wrong_answers:
+  - Esiste.
+  - Lo equipara al fatalismo.
+  - La considera una superstizione.
+explanation: |
+  Per Spinoza, il caso non esiste. Tutto nell'universo segue leggi necessarie e determinate. Ciò che ci appare come caso è solo il risultato della nostra ignoranza delle vere cause.
+reviewed: false

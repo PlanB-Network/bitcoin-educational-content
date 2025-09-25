@@ -1,5 +1,5 @@
 ---
-name: जीएनयूपीजी
+name: GnuPG
 description: सॉफ्टवेयर की अखंडता और प्रामाणिकता की पुष्टि कैसे करें?
 ---
 ![cover](assets/cover.webp)

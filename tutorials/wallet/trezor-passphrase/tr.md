@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Trezor Wallet cihazıma nasıl passphrase ekleyebilirim?
 ---
 ![cover](assets/cover.webp)
@@ -71,7 +71,7 @@ Bu pencere sizden passphrase'inizi girmenizi ister. Güçlü bir passphrase seç
 
 
 
-elbette, bu eğitimde yaptığım gibi passphrase'unuzu asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.**_
+elbette, bu eğitimde yaptığım gibi passphrase'unuzu asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.
 
 
 

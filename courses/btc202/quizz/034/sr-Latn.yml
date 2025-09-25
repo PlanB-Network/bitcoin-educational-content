@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između sirove implementacije i node-in-a-box?
+answer: Prisustvo Interface i integrisanih aplikacija
+wrong_answers:
+  - Kompatibilnost mreže
+  - Blockchain veličina pohranjena na disku
+  - Protokol i valuta koja se koristi
+explanation: |
+  Sirova implementacija instalira samo softver čvora, dok čvor-u-kutiji dodaje Interface, App Store i integrisane usluge.
+reviewed: true

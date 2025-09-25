@@ -1,5 +1,5 @@
 ---
-name: موون
+name: Muun
 
 description: راه‌اندازی Muun Wallet شما
 ---

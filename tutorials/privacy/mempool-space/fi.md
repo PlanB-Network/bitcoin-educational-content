@@ -64,10 +64,10 @@ In the menu bar, you will find the following networks:
 
 
 
-- Mainnet** : The main Bitcoin network where real Bitcoin transactions take place.
-- Signet**: A test network that uses digital signatures to validate blocks without requiring the resources required by the main network.
-- Testnet 3**: A risk-free test and development network on the Bitcoin protocol.
-- Testnet 4** : The new version of Testnet 3 brings greater stability and new consensus rules to the test environment.
+- **Mainnet**: The main Bitcoin network where real Bitcoin transactions take place.
+- **Signet**: A test network that uses digital signatures to validate blocks without requiring the resources required by the main network.
+- **Testnet 3**: A risk-free test and development network on the Bitcoin protocol.
+- **Testnet 4**: The new version of Testnet 3 brings greater stability and new consensus rules to the test environment.
 
 
 
@@ -142,9 +142,9 @@ On the transaction details page, you will find general information about your tr
 
 
 
-- Status**: Confirmed when added to a block, unconfirmed when waiting in a Mempool.
-- Transaction fees**.
-- Estimated time of arrival (ETA)** :  The approximate time it will take for your transaction to be added to a block. It is calculated according to the ratio constituting the fees associated with this transaction.
+- **Status**: Confirmed when added to a block, unconfirmed when waiting in a Mempool.
+- **Transaction fees**.
+- **Estimated time of arrival (ETA)**: The approximate time it will take for your transaction to be added to a block. It is calculated according to the ratio constituting the fees associated with this transaction.
 
 
 
@@ -192,7 +192,7 @@ Fortunately, there are two methods available on the Bitcoin network to speed up 
 
 
 
-- RBF** - Replacement By Fee: A method that allows you to spend the same entries as your low-fee transaction, but this time by increasing the transaction fee to speed up validation. Your new transaction will be validated more quickly and included in a block, invalidating the low-fee transaction.
+- **RBF** - Replacement By Fee: A method that allows you to spend the same entries as your low-fee transaction, but this time by increasing the transaction fee to speed up validation. Your new transaction will be validated more quickly and included in a block, invalidating the low-fee transaction.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: An approach inspired by RBF, but on the receiver's side. When the transaction in which you are the recipient is blocked in a Mempool, you have the option of spending the outputs (UTXOs) of this transaction, despite the fact that it has not yet been confirmed, by allocating more fees to this new transaction so that the average fees - of the transaction for which you are the recipient and the initiated transaction - encourage miners to include both transactions in a block.
+- **CPFP** - Child pay for parent: An approach inspired by RBF, but on the receiver's side. When the transaction in which you are the recipient is blocked in a Mempool, you have the option of spending the outputs (UTXOs) of this transaction, despite the fact that it has not yet been confirmed, by allocating more fees to this new transaction so that the average fees - of the transaction for which you are the recipient and the initiated transaction - encourage miners to include both transactions in a block.
 
 
 

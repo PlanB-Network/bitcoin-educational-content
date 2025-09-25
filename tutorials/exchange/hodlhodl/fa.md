@@ -1,5 +1,5 @@
 ---
-name: HODL HODL
+name: Hodl Hodl
 
 description: راهنمای گام به گام برای HODLHODL
 ---

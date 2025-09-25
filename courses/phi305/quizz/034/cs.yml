@@ -1,0 +1,9 @@
+question: Kdo je Lamarck?
+answer: Francouzský přírodovědec, který předcházel Darwinovi.
+wrong_answers:
+  - Nizozemský filozof.
+  - Spinozův žák.
+  - Klasický malíř.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) byl francouzský přírodovědec, který navrhl evoluční teorii ještě před Darwinem. Jeho teorie transformismu zahrnovala dědičnost získaných znaků.
+reviewed: false

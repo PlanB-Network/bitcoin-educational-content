@@ -1,5 +1,5 @@
 ---
-name: آتاکای
+name: Attakaï
 
 description: تبدیل یک S9 به بخاری خانگی
 ---

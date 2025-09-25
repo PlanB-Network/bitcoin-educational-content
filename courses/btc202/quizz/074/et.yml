@@ -1,0 +1,9 @@
+question: Milline andmestruktuur võtab tehingud plokis kokku?
+answer: Merkle Tree
+wrong_answers:
+  - Tabel Hash UTXO
+  - Faili peers.dat
+  - Assumeutxo register
+explanation: |
+  Blokis olevad tehingud kantakse Merkle Tree, mille juur on ploki päises, et tagada ploki terviklikkus.
+reviewed: true

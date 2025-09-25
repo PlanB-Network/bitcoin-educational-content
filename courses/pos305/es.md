@@ -582,7 +582,7 @@ Un administrador puede querer optar por no usar esta configuración. Con la sigu
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Configuraciones de la billetera de BTCPay Server
@@ -1708,7 +1708,7 @@ La tabla a continuación lista y describe los estados estándar de las facturas 
 | En proceso (pagado de más)  | Pagado más del importe de la factura, no recibido suficiente cantidad de confirmaciones                                                                           | Esperar a ser liquidado luego contactar al comprador para organizar un reembolso por el importe extra, o, opcionalmente esperar a que el comprador se contacte contigo |
 | Liquidado                   | Pagado, en su totalidad, recibido suficiente cantidad de confirmaciones en tienda                                                                                 | Cumplir con el pedido                                                                                                                                         |
 | Liquidado (marcado)         | El estado fue cambiado manualmente a liquidado desde un estado en proceso o inválido                                                                              | El administrador de la tienda ha marcado el pago como liquidado                                                                                               |
-| Inválido\*                  | Pagado, pero falló en recibir suficiente cantidad de confirmaciones dentro del tiempo especificado en la configuración de la tienda                               | Revisar la transacción en un explorador de blockchain, si recibió suficientes confirmaciones, marcar como liquidado                                           |
+| **Inválido**                  | Pagado, pero falló en recibir suficiente cantidad de confirmaciones dentro del tiempo especificado en la configuración de la tienda                               | Revisar la transacción en un explorador de blockchain, si recibió suficientes confirmaciones, marcar como liquidado                                           |
 | Inválido (marcado)          | El estado fue cambiado manualmente a inválido desde un estado liquidado o expirado                                                                                | El administrador de la tienda ha marcado el pago como inválido                                                                                                |
 | Inválido (pagado de más)    | Pagado más del importe de la factura, pero falló en recibir suficiente cantidad de confirmaciones dentro del tiempo especificado en la configuración de la tienda | Revisar la transacción en un explorador de blockchain, si recibió suficientes confirmaciones, marcar como liquidado                                           |
 

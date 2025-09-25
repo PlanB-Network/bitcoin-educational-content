@@ -1,0 +1,9 @@
+question: Какие три варианта сервера доступны в Sparrow?
+answer: Публичный сервер, Bitcoin core, Private Electrum
+wrong_answers:
+  - RPC Direct, VPN, Tor
+  - Full node, легкий узел, мобильный узел
+  - Core RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow предлагает три варианта серверов: Public Server, Bitcoin core (RPC) и Private Electrum.
+reviewed: true

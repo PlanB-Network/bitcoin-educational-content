@@ -1,5 +1,5 @@
 ---
-name: Pulpit GitHub
+name: GitHub Desktop
 description: Jak skonfigurować lokalne środowisko pracy?
 ---
 ![github](assets/cover.webp)
@@ -11,8 +11,8 @@ Misją PlanB jest dostarczanie najwyższej jakości zasobów edukacyjnych na tem
 Jeśli chcesz wnieść swój wkład do PlanB Network, musisz użyć GitHub, aby zaproponować zmiany. W tym celu dostępne są dwie opcje:
 
 
-- Przyczyń się bezpośrednio przez Interface** na stronie GitHub: Jest to najprostsza metoda. Jeśli jesteś początkującym użytkownikiem lub planujesz wnieść tylko kilka drobnych zmian, ta opcja jest prawdopodobnie najlepsza dla Ciebie;
-- Współtwórz lokalnie za pomocą Git**: Ta metoda jest bardziej odpowiednia, jeśli planujesz wnosić regularny lub znaczący wkład w PlanB Network. Chociaż skonfigurowanie lokalnego środowiska Git na komputerze może początkowo wydawać się skomplikowane, podejście to jest bardziej wydajne na dłuższą metę. Pozwala ono na bardziej elastyczne zarządzanie zmianami. Jeśli jesteś w tym nowy, nie martw się, **wyjaśniamy cały proces konfiguracji środowiska w tym samouczku** (obiecujemy, że nie będziesz musiał wpisywać żadnych wierszy poleceń ^^).
+- Przyczyń się bezpośrednio przez **Interface** na stronie GitHub: Jest to najprostsza metoda. Jeśli jesteś początkującym użytkownikiem lub planujesz wnieść tylko kilka drobnych zmian, ta opcja jest prawdopodobnie najlepsza dla Ciebie;
+- **Współtwórz lokalnie za pomocą Git**: Ta metoda jest bardziej odpowiednia, jeśli planujesz wnosić regularny lub znaczący wkład w PlanB Network. Chociaż skonfigurowanie lokalnego środowiska Git na komputerze może początkowo wydawać się skomplikowane, podejście to jest bardziej wydajne na dłuższą metę. Pozwala ono na bardziej elastyczne zarządzanie zmianami. Jeśli jesteś w tym nowy, nie martw się, **wyjaśniamy cały proces konfiguracji środowiska w tym samouczku** (obiecujemy, że nie będziesz musiał wpisywać żadnych wierszy poleceń ^^).
 
 
 Jeśli nie masz pojęcia, czym jest GitHub lub jeśli chcesz dowiedzieć się więcej o technicznych terminach związanych z Gitem i GitHubem, polecam przeczytać nasz artykuł wprowadzający, aby zapoznać się z tymi pojęciami.

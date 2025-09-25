@@ -18,11 +18,11 @@ Já tem:
 Neste tutorial, veremos como adicionar seu tutorial ao Plan ₿ Network usando a versão web do GitHub. Se você já domina o Git, este tutorial muito detalhado pode não ser necessário para você. Em vez disso, recomendo que você confira um desses outros 2 tutoriais, onde detalho as diretrizes a serem seguidas e as etapas para fazer alterações de um arquivo:
 
 
-- Utilizadores experientes**:
+- **Utilizadores experientes**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
-- Intermediário (GitHub Desktop)**:
+- **Intermediário (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
@@ -346,8 +346,8 @@ O ponto de exclamação no início indica uma imagem. O texto alternativo, que a
 Se pretender criar os seus próprios esquemas, certifique-se de que segue as diretrizes gráficas do Plano ₿ Rede para garantir a consistência visual:
 
 
-- Tipo de letra**: Utilizar [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Cores**:
+- **Tipo de letra**: Utilizar [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Cores**:
  - Laranja: #FF5C00
  - Preto: #000000
  - Branco: #FFFFFF

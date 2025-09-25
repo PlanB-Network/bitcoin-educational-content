@@ -1,0 +1,9 @@
+question: Welke bestanden raadpleegt een knooppunt als eerste om zijn oude peers te vinden bij het opnieuw opstarten?
+answer: ankers.dat en peers.dat
+wrong_answers:
+  - Mempool.dat en peers.dat
+  - Mempool.dat en ip.dat
+  - ip.dat en ankers.dat
+explanation: |
+  Bitcoin core raadpleegt eerst anchors.dat (vorige uitgaande peers), dan peers.dat (bekend Address boek) om opnieuw verbinding te maken.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Onko skolastiikka?
+answer: Keskiajan filosofia.
+wrong_answers:
+  - Modernin ajan filosofia.
+  - Muinainen filosofia.
+  - Ateistinen filosofia.
+explanation: |
+  Skolastiikka oli keskiaikainen filosofia, joka pyrki sovittamaan yhteen kristillisen uskon ja aristoteelisen filosofian. Se hallitsi Euroopan yliopistoja ennen modernin filosofian syntyä.
+reviewed: false

@@ -64,10 +64,10 @@ Na pasku menu znajdują się następujące sieci:
 
 
 
-- Mainnet** : Główna sieć Bitcoin, w której odbywają się prawdziwe transakcje Bitcoin.
-- Signet**: Sieć testowa, która wykorzystuje podpisy cyfrowe do walidacji bloków bez konieczności korzystania z zasobów wymaganych przez sieć główną.
-- Testnet 3**: Wolna od ryzyka sieć testowa i rozwojowa na protokole Bitcoin.
-- Testnet 4** : Nowa wersja Testnet 3 zapewnia większą stabilność i nowe zasady konsensusu w środowisku testowym.
+- **Mainnet**: Główna sieć Bitcoin, w której odbywają się prawdziwe transakcje Bitcoin.
+- **Signet**: Sieć testowa, która wykorzystuje podpisy cyfrowe do walidacji bloków bez konieczności korzystania z zasobów wymaganych przez sieć główną.
+- **Testnet 3**: Wolna od ryzyka sieć testowa i rozwojowa na protokole Bitcoin.
+- **Testnet 4**: Nowa wersja Testnet 3 zapewnia większą stabilność i nowe zasady konsensusu w środowisku testowym.
 
 
 
@@ -142,9 +142,9 @@ Na stronie szczegółów transakcji znajdują się ogólne informacje na jej tem
 
 
 
-- Status**: Potwierdzony w przypadku dodania do bloku, niepotwierdzony w przypadku oczekiwania w Mempool.
-- Opłaty transakcyjne**.
-- Szacowany czas przybycia (ETA)** :  Przybliżony czas potrzebny na dodanie transakcji do bloku. Jest on obliczany zgodnie ze współczynnikiem stanowiącym opłaty związane z tą transakcją.
+- **Status**: Potwierdzony w przypadku dodania do bloku, niepotwierdzony w przypadku oczekiwania w Mempool.
+- **Opłaty transakcyjne**.
+- **Szacowany czas przybycia (ETA)**: Przybliżony czas potrzebny na dodanie transakcji do bloku. Jest on obliczany zgodnie ze współczynnikiem stanowiącym opłaty związane z tą transakcją.
 
 
 
@@ -192,7 +192,7 @@ Na szczęście w sieci Bitcoin dostępne są dwie metody przyspieszające potwie
 
 
 
-- RBF** - Zastąpienie przez opłatę: Metoda, która pozwala wydać te same wpisy, co transakcja z niską opłatą, ale tym razem poprzez zwiększenie opłaty transakcyjnej w celu przyspieszenia walidacji. Nowa transakcja zostanie szybciej zweryfikowana i uwzględniona w bloku, unieważniając transakcję z niską opłatą.
+- **RBF** - Zastąpienie przez opłatę: Metoda, która pozwala wydać te same wpisy, co transakcja z niską opłatą, ale tym razem poprzez zwiększenie opłaty transakcyjnej w celu przyspieszenia walidacji. Nowa transakcja zostanie szybciej zweryfikowana i uwzględniona w bloku, unieważniając transakcję z niską opłatą.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Podejście inspirowane RBF, ale po stronie odbiorcy. Gdy transakcja, w której jesteś odbiorcą, zostanie zablokowana w Mempool, masz możliwość wydania wyników (UTXO) tej transakcji, mimo że nie została ona jeszcze potwierdzona, przydzielając więcej opłat do tej nowej transakcji, tak aby średnie opłaty - transakcji, w której jesteś odbiorcą i zainicjowanej transakcji - zachęcały górników do włączenia obu transakcji do bloku.
+- **CPFP** - Child pay for parent: Podejście inspirowane RBF, ale po stronie odbiorcy. Gdy transakcja, w której jesteś odbiorcą, zostanie zablokowana w Mempool, masz możliwość wydania wyników (UTXO) tej transakcji, mimo że nie została ona jeszcze potwierdzona, przydzielając więcej opłat do tej nowej transakcji, tak aby średnie opłaty - transakcji, w której jesteś odbiorcą i zainicjowanej transakcji - zachęcały górników do włączenia obu transakcji do bloku.
 
 
 

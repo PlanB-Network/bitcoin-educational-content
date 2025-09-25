@@ -118,7 +118,7 @@ To wrap up the course, you'll be able to attempt the final exam to obtain your c
 Are you ready to fully take control of your IT security, strengthen your individual sovereignty and guarantee your online privacy? Let's go!
 
 
-*N.B.: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions
+*N.B.: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions*
 
 
 ## Essential recap of SCU101
@@ -520,7 +520,7 @@ Richard Stallman openly criticizes the use of the term "open source", deeming it
 ![Image](assets/fr/015.webp)
 
 
-*Source: Nathaniel Welch
+**Source: Nathaniel Welch**
 
 
 The distinction between the two terms therefore lies in the underlying motivation: the free software movement primarily promotes a philosophy of individual and collective freedom with regard to software, while open source primarily values technical efficiency, transparency and collaboration as the means to a better product.
@@ -2940,11 +2940,11 @@ As we saw in the previous section, Windows has historically been more exposed to
 
 
 - *Sysinternals Suite*: this is a much more advanced set of tools offered by Microsoft for diagnosing, monitoring and troubleshooting Windows. Here are the main tools in this suite:
-    - Process Monitor*: allows you to observe active processes, file accesses, registers, etc. in real time;
-    - Autoruns*: displays all programs launched at startup, helping you to quickly detect persistent malware or applications that shouldn't be running;
-    - Process Explorer*: monitors processes and detects suspicious behavior;
-    - TCPView*: visualizes active network connections (detection of abnormal connections) ;
-    - Sigcheck*: checks digital signatures on files for malicious code.
+- **Process Monitor**: allows you to observe active processes, file accesses, registers, etc. in real time;
+- **Autoruns**: displays all programs launched at startup, helping you to quickly detect persistent malware or applications that shouldn't be running;
+- **Process Explorer**: monitors processes and detects suspicious behavior;
+- **TCPView**: visualizes active network connections (detection of abnormal connections);
+- **Sigcheck**: checks digital signatures on files for malicious code.
 
 
 ![Image](assets/fr/207.webp)
@@ -3628,7 +3628,7 @@ Finally, click on the arrow-shaped button in the top right-hand corner to eject 
 
 
 
-- Windows:**
+- **Windows:**
 
 
 Under Windows, a native solution allows you to encrypt your disk. It's easy to activate: just go to the "*Privacy & Security*" settings, then tick the "*Device encryption*" box in the sub-menu of the same name. The recovery keys will then be automatically saved in your associated Microsoft account.
@@ -3664,7 +3664,7 @@ Once FileVault has been activated, you'll need to choose a recovery method in th
 For external storage media (hard disks, USB sticks, etc.), encryption is performed using the disk utility. You will need to completely reformat the volume:
 
 - Select the device, click on "*Delete*"
-- Select the "GUID* Partition Table" scheme
+- Select the "GUID Partition Table" scheme
 - Then choose an encrypted file system format (*APFS* or *Mac OS extended*)
 - Choose a strong password
 - Click on "*Delete*" then "*OK*" and encryption is complete
@@ -3739,7 +3739,7 @@ This package installs `exiftool`, which you can then use directly from the comma
 
 
 
-- Step 2: Viewing file metadata** (in French)
+- Step 2: **Viewing file metadata** (in French)
 
 
 To view all the metadata contained in a file, use the following command:
@@ -4303,7 +4303,7 @@ Blink-based browsers also include a number of more marginal browsers, often desi
 
 
 
-- Arc** :
+- **Arc**:
 
 
 Developed by The Browser Company, [Arc](https://arc.net/) offers a radically different approach to the user interface. It replaces traditional tabs with a system of "*spaces*", a unified sidebar, and integrates creative tools such as annotatable captures and a simple site editor. The emphasis is on usability, visual customization and fluidity of use, making this a tool favored by some professionals.
@@ -4316,7 +4316,7 @@ From a technical point of view, Arc is based on Chromium, but remains proprietar
 
 
 
-- Polypane** :
+- **Polypane** :
 
 
 [Polypane](https://polypane.app/) is aimed specifically at front-end developers and UX designers. Its main function is to simultaneously display several instances of the same site on different screen resolutions, in order to test the *responsive* behavior of an interface in real time. It also offers accessibility tools, HTML/CSS validators, color-blind simulators and performance metrics.
@@ -6105,12 +6105,20 @@ It's important to choose modern equipment, maintained by its manufacturer, and c
 
 A Wi-Fi 6, Wi-Fi 6E or Wi-Fi 7-compatible router will give you improved speeds and, above all, native support for modern security technologies. Conversely, very old equipment, especially that no longer receives software updates, may contain known, unpatched vulnerabilities. They therefore represent a risk for your entire network, even if you configure them correctly. Compared with cell phones or computers, routers are equipment that we tend to keep for many years. However, it may be a good idea to replace them more regularly, in order to benefit from a more modern, more secure model.
 
+**Attention**: As a general rule of thumb, the routers provided by ISPs may lack the essential update feature, as well as personalization capabilities. In some cases, ISPs may also have unrestricted access to the end user's internal network.
+
 So make sure you systematically update your router's firmware. These updates correct vulnerabilities, add new features and enhance overall system stability. Some manufacturers offer automatic updates, but in some cases you'll need to check manually via your router's interface administration tool. As with your phone, computer, operating system and software, it's important to update your router regularly. You can make this part of your weekly routine - Every Sunday, for example - by drawing up a list of all the items you need to check and keep up to date.
 
-If your router is no longer maintained but still works correctly from a hardware point of view, you can install an alternative open-source firmware, such as:
+Alternatively, you may enable auto-updates or at least auto-scan for new firmware updates if you prefer to act manually. While the auto-update feature may still pose a security threat, failing to update the router's firmware regularly will expose your local network to publicly known vulnerabilities.
+
+**Example**: When purchasing your own router, it may be a good idea to look for established firms in the industry that have been providing routers on the market for a long time. For instance, Fritz!Box routers have a longstanding reputation as plug-and-play devices, well-suited for use in both family settings and small-sized companies. Their software update policy typically extends over several years.
+
+If your router is no longer maintained but still works correctly from a hardware point of view, you may be able to install an alternative open-source firmware, such as:
 
 - OpenWrt, a Linux distribution specializing in routers, offering great flexibility and regular updates
 - pfSense and OPNsense, two FreeBSD-based (Unix-like) systems for x86 firewalls and routers
+
+**Note**: Some ISPs supply their customers with bulk routers made by a single company that simultaneously provides many different ISPs around the world. You may find that in order to install one of the alternative firmwares on the router, someone else may have already discovered how to do it, even if they are on the other side of the world.
 
 ![Image](assets/fr/196.webp)
 
@@ -6121,7 +6129,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 These systems enable finer control of firewall rules, outgoing and incoming connections, network segmentation (VLANs) and DNS management, but are aimed more at advanced users.
 
-**To sum up, I recommend**:
+**To sum up, I recommend to**:
 
 - Choose a recent router
 - Keep your system up to date
@@ -6334,6 +6342,5 @@ By following these few steps, you'll build a robust, secure network environment 
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

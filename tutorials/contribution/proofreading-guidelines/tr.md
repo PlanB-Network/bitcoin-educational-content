@@ -6,7 +6,7 @@ description: Plan ₿ Network'da redaksiyon yaparken akılda tutulması gereken 
 ![github](assets/cover.webp)
 
 
-Plan ₿ Network'de içerik redaksiyonu yaparken izlenecek yönergeler** hakkındaki bu eğitime hoş geldiniz. İnsanların Bitcoin'nin nasıl çalıştığı ve günlük yaşamlarında nasıl kullanılabileceği konusunda farkındalık kazanmalarına yardımcı olmak için Bitcoin materyallerini mümkün olduğunca çok dile çevirme misyonumuzu paylaştığınız için mutluyuz.
+Plan ₿ Network'de içerik redaksiyonu yaparken izlenecek **yönergeler** hakkındaki bu eğitime hoş geldiniz. İnsanların Bitcoin'nin nasıl çalıştığı ve günlük yaşamlarında nasıl kullanılabileceği konusunda farkındalık kazanmalarına yardımcı olmak için Bitcoin materyallerini mümkün olduğunca çok dile çevirme misyonumuzu paylaştığınız için mutluyuz.
 
 
 Her şeyden önce, Plan ₿ Network [public repository](https://github.com/PlanB-Network/Bitcoin-educational-content)'e katkıda bulunmak size öğreticiler yazma, mevcut içeriği düzeltme ve hatta platforma yeni bir dil eklenmesini önerme şansı verir. Daha fazla bilgi edinmek için önce [Telegram Grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılın ve kendiniz ve konuşabildiğiniz diller hakkında kısa bir sunum yazın.
@@ -107,7 +107,7 @@ Bu ikinci durumda, **her zaman Bitcoin topluluğunuzda başka birinin bu kelimey
 
 
 
-- Bir çözüm, kelimenin çevrilip çevrilmediğini görmek için hedef dilinizde [BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** adresini kontrol etmek olabilir. Eğer çevrilmemişse, kelimeyi İngilizce olarak tutarsınız.
+- Bir çözüm, kelimenin çevrilip çevrilmediğini görmek için hedef dilinizde **[BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** adresini kontrol etmek olabilir. Eğer çevrilmemişse, kelimeyi İngilizce olarak tutarsınız.
 
 
 
@@ -115,7 +115,7 @@ Bu ikinci durumda, **her zaman Bitcoin topluluğunuzda başka birinin bu kelimey
 
 
 
-- Bir başka iyi çözüm de EN orijinal sözcüğü/ifadeyi saklamak ve ardından planb.network'teki [glossary](https://planb.network/en/resources/glossary) adresine yönlendiren bir köprü** oluşturmaktır. Bunu yapmak için, aşağıdaki örnekte görebileceğiniz gibi, kelimeyi / cümleyi köşeli parantez içine ve bağlantıyı yuvarlak parantez içine eklemeniz gerekir:
+- Bir başka iyi çözüm de EN orijinal sözcüğü/ifadeyi saklamak ve ardından planb.network'teki [glossary](https://planb.network/en/resources/glossary) adresine yönlendiren bir **köprü** oluşturmaktır. Bunu yapmak için, aşağıdaki örnekte görebileceğiniz gibi, kelimeyi / cümleyi köşeli parantez içine ve bağlantıyı yuvarlak parantez içine eklemeniz gerekir:
 
 
 ```
@@ -169,7 +169,7 @@ Kurslarda, en önemli bölümler tek bir Hash işaretiyle tanıtılırken, alt b
 Bir başlıktan önce **Hash işaretlerini** ASLA silmediğinizden emin olun, aksi takdirde metnin yapısıyla ilgili sorunlar yaratırsınız.
 
 
-Aynı zamanda, yukarıdaki resimde görebileceğiniz ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>` bölümünü veya ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::`` gibi video referanslarını **değiştirmeyin.
+Aynı zamanda, yukarıdaki resimde görebileceğiniz `<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>` bölümünü veya `:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::` gibi video referanslarını **değiştirmeyin**.
 
 
 Bir başlıktan önce ``#`` eklediğimizde, kurs önizlemesinde otomatik olarak kalın hale gelecektir, bu nedenle **düzeltme sırasında başlıkları kalın yapmaktan kaçının**.
@@ -205,7 +205,7 @@ Aşağıda, hedef dilde içerik redaksiyonu yaparken dikkat etmeniz gereken form
 
 
 
-- Kalın sembolün kötü bir yorumunu temsil edebilecek `\*\*` veya ``**`` gibi garip noktalama işaretlerine dikkat edin. Aşağıdaki resimde, yıldız işaretlerinin yalnızca kelimenin sağında olduğunu görebilirsiniz, bu da garip görünüyor.
+- Kalın sembolün kötü bir yorumunu temsil edebilecek `**` veya `**` gibi garip noktalama işaretlerine dikkat edin. Aşağıdaki resimde, yıldız işaretlerinin yalnızca kelimenin sağında olduğunu görebilirsiniz, bu da garip görünüyor.
 
 
 

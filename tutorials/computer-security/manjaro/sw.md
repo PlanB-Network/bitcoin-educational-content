@@ -90,9 +90,9 @@ Ili Manjaro ifanye kazi kikamilifu, kompyuta yako lazima itimize mahitaji machac
 
 
 
-- Kichakataji cha biti 64 (x86_64)**
-- RAM ya GB 4 inapendekezwa (angalau GB 2)** (tazama hapa chini)
-- GB 30 ya nafasi ya diski (zaidi ikiwa utaunda kizigeu cha `/home`)**
+- Kichakataji cha biti 64 (x86_64)
+- **RAM ya GB 4 inapendekezwa (angalau GB 2)** (tazama hapa chini)
+- GB 30 ya nafasi ya diski (zaidi ikiwa utaunda kizigeu cha `/home`)
 
 
 
@@ -219,8 +219,8 @@ Manjaro hukuruhusu kuchagua kati ya **FreeOffice** na **LibreOffice**.
 
 
 
-- LibreOffice** imekamilika zaidi, ikiwa na anuwai ya programu na vipengele vya kina.
-- FreeOffice**, kwa upande mwingine, ni nyepesi na inajumuisha tu mambo muhimu: **TextMaker**, PlanMaker** na Presentations**.
+- **LibreOffice** imekamilika zaidi, ikiwa na anuwai ya programu na vipengele vya kina.
+- **FreeOffice**, kwa upande mwingine, ni nyepesi na inajumuisha tu mambo muhimu: **TextMaker**, **PlanMaker** na **Presentations**.
 
 
 

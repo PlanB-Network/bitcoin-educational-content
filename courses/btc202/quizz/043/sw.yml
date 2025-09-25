@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kati ya Umbrel Home na umbrelOS?
+answer: Umbrel Home ni seva ndogo iliyosanikishwa hapo awali, mwavuli OS ni usakinishaji wa kufanya-wewe-mwenyewe.
+wrong_answers:
+  - Umbrel Home ni bure, umbrelOS sio
+  - Nyumba ya Umbrel haitumii Bitcoin; umbrelOS hufanya
+  - Nyumba ya Umbrel ni chanzo wazi, mwavuli OS ni ya umiliki
+explanation: |
+  Umbrel Home inauzwa turnkey na umbrelOS tayari imewekwa, wakati umbrelOS inaweza kusakinishwa DIY kwenye maunzi yako mwenyewe.
+reviewed: true

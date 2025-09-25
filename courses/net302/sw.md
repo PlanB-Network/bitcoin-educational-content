@@ -240,8 +240,8 @@ Utawala na mageuzi ya itifaki hizi unasimamiwa na ***Bodi ya Usanifu wa Mtandao*
 Shirika hili linaratibu maelekezo ya kiufundi kupitia miundo miwili mikuu:
 
 
-- IRTF** (_Kikosi Kazi cha Utafiti wa Mtandao_), ambacho hufanya utafiti wa muda mrefu juu ya mageuzi na uboreshaji wa itifaki.
-- IETF** (_Internet Engineering Task Force_), ambayo hutengeneza, kusawazisha, na kuweka kumbukumbu za itifaki za uendeshaji zinazotumiwa kwenye Mtandao.
+- **IRTF** (_Kikosi Kazi cha Utafiti wa Mtandao_), ambacho hufanya utafiti wa muda mrefu juu ya mageuzi na uboreshaji wa itifaki.
+- **IETF** (_Internet Engineering Task Force_), ambayo hutengeneza, kusawazisha, na kuweka kumbukumbu za itifaki za uendeshaji zinazotumiwa kwenye Mtandao.
 
 
 Usambazaji wa rasilimali za mtandao (safu za IP Address, nambari za mfumo unaojitegemea, majina ya vikoa vya mizizi, n.k.) huratibiwa kimataifa na **IANA/ICANN**. Usimamizi wa uendeshaji unategemea: **RIR** (*Regional Internet Registries*): **RIPE NCC** (Ulaya, Mashariki ya Kati, Asia ya Kati), **ARIN**, **APNIC**, **LACNIC** na **AFRINIC**.
@@ -354,9 +354,9 @@ Katika kiwango cha kimwili, upitishaji hutegemea miingiliano ya maunzi ili kuanz
 Usanidi tatu wa mtandao wa Elements huamua jinsi pakiti inatumwa kwenye njia yake:
 
 
-- IP Address**: humtambulisha kwa njia ya kipekee mwenyeji lengwa katika mtandao.
-- Kinyago cha subnet**: hubainisha ni sehemu gani ya Address inayotambulisha mtandao na ni sehemu gani inayotambua seva pangishi, na kuwezesha mgawanyiko wa kimantiki katika nyavu ndogo.
-- Lango**: linaonyesha kipanga njia cha kati ambacho pakiti inapaswa kupita ili kufikia mtandao wa nje au sehemu nyingine ya mtandao wa ndani.
+- **IP Address**: humtambulisha kwa njia ya kipekee mwenyeji lengwa katika mtandao.
+- **Kinyago cha subnet**: hubainisha ni sehemu gani ya Address inayotambulisha mtandao na ni sehemu gani inayotambua seva pangishi, na kuwezesha mgawanyiko wa kimantiki katika nyavu ndogo.
+- **Lango**: linaonyesha kipanga njia cha kati ambacho pakiti inapaswa kupita ili kufikia mtandao wa nje au sehemu nyingine ya mtandao wa ndani.
 
 
 Kwenye Mtandao, data haitiririki kama mtiririko mmoja unaoendelea, lakini hutumwa kama **datagramu**: vizuizi huru vya data, kila kimoja kikiwa na taarifa zote zinazohitajika ili kuwasilishwa. Hii ndiyo kanuni ya **kubadilisha pakiti**, ambapo maelezo hugawanywa katika vitengo vinavyojitosheleza ambavyo vinaweza kuchukua njia tofauti kumfikia mpokeaji sawa.
@@ -381,9 +381,9 @@ Datagram ya IP inapohitaji kupita kwenye mtandao ambao uwezo wake wa kutuma ni m
 Kila teknolojia ya mtandao inaweka MTU yake mwenyewe, imedhamiriwa na vifaa vyake na sifa za itifaki. Maadili ya kawaida ni pamoja na:
 
 
-- ARPANET**: baiti 1000
-- Ethernet**: baiti 1500
-- FDDI**: baiti 4470
+- **ARPANET**: baiti 1000
+- **Ethernet**: baiti 1500
+- **FDDI**: baiti 4470
 
 
 Datagram inapozidi MTU ya sehemu ya mtandao inayohitaji kuvuka, vifaa vya kuelekeza vitaigawanya katika **vipande** vidogo ambavyo vinatii kikomo. Hii hutokea kwa kawaida wakati wa kusonga kutoka kwa mtandao wa juu wa MTU hadi kwa uwezo wa chini. Kwa mfano, datagramu inayotoka kwa mtandao wa FDDI inaweza kuhitaji kugawanywa kabla ya kutumwa kwa sehemu ya Ethaneti.
@@ -449,10 +449,10 @@ Baada ya kuwasili, mchakato umebadilishwa: mashine ya kupokea inapata sura kweny
 Mabadiliko ya data katika kila Layer yanaweza kufupishwa kama:
 
 
-- Ujumbe**: kizuizi cha habari kwenye Maombi ya Layer.
-- Sehemu**: kitengo cha data baada ya kufungwa na Usafiri Layer.
-- Datagram**: fomu iliyochukuliwa kufuatia kuongezwa kwa kichwa cha IP na Mtandao wa Layer.
-- Fremu**: Kizuizi cha mwisho kiko tayari kutumwa kupitia mkondo halisi na Ufikiaji wa Mtandao wa Layer.
+- **Ujumbe**: kizuizi cha habari kwenye Maombi ya Layer.
+- **Sehemu**: kitengo cha data baada ya kufungwa na Usafiri Layer.
+- **Datagram**: fomu iliyochukuliwa kufuatia kuongezwa kwa kichwa cha IP na Mtandao wa Layer.
+- **Fremu**: Kizuizi cha mwisho kiko tayari kutumwa kupitia mkondo halisi na Ufikiaji wa Mtandao wa Layer.
 
 
 
@@ -475,8 +475,8 @@ Katika IPv4, IP Address imewekwa kwenye **biti 32** na imeandikwa kama nambari n
 IP Address ina sehemu mbili:
 
 
-- _netid_**: hutambua mtandao ambao mwenyeji ni wake
-- _hostid_**: hutambua mwenyeji mahususi ndani ya mtandao huo
+- **netid**: hutambua mtandao ambao mwenyeji ni wake
+- **hostid**: hutambua mwenyeji mahususi ndani ya mtandao huo
 
 Utengano huu huruhusu Mtandao wa kimataifa kupangwa kimantiki katika mitandao mingi iliyounganishwa.
 
@@ -514,9 +514,9 @@ Idadi ya anwani zinazopatikana hutofautiana sana kati ya madarasa: kutoka mitand
 Baadhi ya safu za Address zimehifadhiwa kwa matumizi ya kibinafsi na kamwe hazipitishwi moja kwa moja kwenye Mtandao. Hizi hujulikana kama **anwani za kibinafsi**, na hutumiwa ndani ya mashirika, biashara, au nyumba, na zinahitaji tafsiri ya Address, kwa kawaida NAT (*Network Address Translation*), ili kufikia Mtandao wa umma. Hizi ni:
 
 
-- Darasa A**: kutoka 10.0.0.0 hadi 10.255.255.255
-- Darasa B**: kutoka 172.16.0.0 hadi 172.31.255.255
-- Darasa C**: kutoka 192.168.0.0 hadi 192.168.255.255
+- **Darasa A**: kutoka 10.0.0.0 hadi 10.255.255.255
+- **Darasa B**: kutoka 172.16.0.0 hadi 172.31.255.255
+- **Darasa C**: kutoka 192.168.0.0 hadi 192.168.255.255
 
 
 Wakati kifaa kilicho na Address ya kibinafsi kinapofikia Mtandao, kipanga njia au lango lililowezeshwa na NAT huibadilisha na Address halali ya umma.
@@ -540,9 +540,9 @@ Ili kuboresha matumizi ya Address na kubuni mitandao changamano, **subnetmask** 
 Kila darasa lina mask chaguo-msingi:
 
 
-- 255.0.0.0** kwa darasa A,
-- 255.255.0.0** kwa darasa B,
-- 255.255.255.0** kwa darasa C.
+- **255.0.0.0** kwa darasa A,
+- **255.255.0.0** kwa darasa B,
+- **255.255.255.0** kwa darasa C.
 
 
 Muundo mzuri wa mtandao unafuata kanuni ya msingi: vifaa vinavyopaswa kuwasiliana moja kwa moja vinapaswa kuwa katika mtandao mmoja au subnet. Ili kugawa mtandao, tunatumia subnetting, kugawa mtandao katika nyati ndogo kwa kutumia mask maalum zaidi.
@@ -561,7 +561,7 @@ Tunataka subneti 4 za hadi wapangishi 60 kila moja.
 **Hatua ya 2**: Tafuta nguvu iliyo karibu zaidi ya 2 ≥ 62. -> 2⁶ = 64.
 
 
-**Hatua ya 3: Rekebisha barakoa. Weka _netid_ biti na uhifadhi biti _hostid_ zinazohitajika. Tunapata mask ya binary ambayo, mara tu inabadilishwa, inatoa **255.255.255.192**.
+**Hatua ya 3: Rekebisha barakoa. Weka _netid_ biti na uhifadhi biti _hostid_ zinazohitajika. Tunapata mask ya binary ambayo, mara tu inabadilishwa, inatoa 255.255.255.192.**
 
 
 ```
@@ -758,7 +758,7 @@ Usimamizi huu sahihi, unaochanganya uelekezaji unaonyumbulika wa IP na udhibiti 
 Katika baadhi ya matukio, hata hivyo, kuegemea kabisa sio kipaumbele: kasi na unyenyekevu ni. Hii ni kweli kwa programu kama vile utiririshaji wa moja kwa moja au VoIP, ambayo inaweza kustahimili upotezaji wa pakiti bila kuathiri sana matumizi ya mtumiaji. Katika hali kama hizi, **UDP** (Itifaki_ya Data ya Mtumiaji_) inapendekezwa.
 
 
-UDP hufanya kazi kwa kanuni tofauti kabisa na TCP: haina muunganisho**, kumaanisha hakuna uhusiano wa awali ulioanzishwa kati ya mtumaji na mpokeaji. Wakati mashine inatuma pakiti kupitia UDP, zinapitishwa kwa njia moja; mpokeaji haitumi shukrani, na mtumaji hana uthibitisho kwamba ujumbe umefika. Kijajuu cha UDP ni chache kimakusudi, kinajumuisha mlango wa chanzo pekee, mlango wa mwisho, urefu wa sehemu na cheki, bila uthibitisho uliojumuishwa ndani au utaratibu wa udhibiti wa serikali. Kama kawaida, anwani za IP hubebwa na kichwa cha msingi cha IP.
+UDP hufanya kazi kwa kanuni tofauti kabisa na TCP: haina muunganisho, kumaanisha hakuna uhusiano wa awali ulioanzishwa kati ya mtumaji na mpokeaji. Wakati mashine inatuma pakiti kupitia UDP, zinapitishwa kwa njia moja; mpokeaji haitumi shukrani, na mtumaji hana uthibitisho kwamba ujumbe umefika. Kijajuu cha UDP ni chache kimakusudi, kinajumuisha mlango wa chanzo pekee, mlango wa mwisho, urefu wa sehemu na cheki, bila uthibitisho uliojumuishwa ndani au utaratibu wa udhibiti wa serikali. Kama kawaida, anwani za IP hubebwa na kichwa cha msingi cha IP.
 
 
 Mfano wa kawaida ni kwamba TCP ni kama **simu**, ambapo mzunguko huanzishwa, kufuatwa na kudhibitiwa katika mazungumzo yote. Wakati, itifaki ya UDP ni kama **kuchapisha barua**, ambapo mtumaji huweka barua kwenye kisanduku cha barua bila uthibitisho wa moja kwa moja wa kuwasilishwa au maoni ya utaratibu.
@@ -787,7 +787,7 @@ Kila Layer inajenga juu ya uwezo wa ile iliyo chini yake, na kwa upande wake ina
 Vipengele viwili muhimu vinatawala mabadilishano haya:
 
 
-- Kipengele cha wima**: uhusiano kati ya Layer moja na ile iliyo juu au chini yake (kutoka Layer N hadi Layer N+1, na kinyume chake).
+- **Kipengele cha wima**: uhusiano kati ya Layer moja na ile iliyo juu au chini yake (kutoka Layer N hadi Layer N+1, na kinyume chake).
 
 
 
@@ -796,7 +796,7 @@ Vipengele viwili muhimu vinatawala mabadilishano haya:
 
 
 
-- Kipengele cha mlalo**: mwingiliano kati ya programu za mbali, yaani, mazungumzo kati ya **mteja** na **seva**, katika pande zote mbili.
+- **Kipengele cha mlalo**: mwingiliano kati ya programu za mbali, yaani, mazungumzo kati ya **mteja** na **seva**, katika pande zote mbili.
 
 
 
@@ -810,10 +810,10 @@ Usanifu wa tabaka hufuata kanuni kwamba kila Layer inashughulikia habari tu ndan
 **Kikumbusho**: Istilahi mahususi hutumika kuelezea vitengo vya data vinavyobadilishwa kati ya safu:
 
 
-- ujumbe** kwa Maombi ya Layer,
-- sehemu** ya Usafiri Layer (TCP),
-- datagram** ya Mtandao wa Layer (IP),
-- fremu** ya Ufikiaji wa Mtandao wa Layer.
+- **ujumbe** kwa Maombi ya Layer,
+- sehemu ya **Usafiri Layer (TCP)**,
+- **datagram** ya Mtandao wa Layer (IP),
+- **fremu** ya Ufikiaji wa Mtandao wa Layer.
 
 
 Jedwali hapa chini linatoa muhtasari wa masharti ya muktadha wa TCP na UDP:
@@ -885,8 +885,8 @@ IP Address ni kitambulishi cha kipekee cha nambari kilichotolewa kwa kila **mtan
 Anwani za IP zinaweza kupewa kwa njia kuu mbili:
 
 
-- Imetulia**: Imewekwa kwa mikono kwenye kifaa.
-- Inayobadilika**: Imetolewa kiotomatiki inapohitajika na seva ya DHCP (_Itifaki_ya Usanidi ya Mwenyeji_Dynamic). DHCP hurahisisha usimamizi wa mtandao, na kuondoa hitaji la usanidi mwenyewe huku kuwezesha udhibiti sahihi kupitia uwekaji nafasi na muda wa kukodisha.
+- **Imetulia**: Imewekwa kwa mikono kwenye kifaa.
+- **Inayobadilika**: Imetolewa kiotomatiki inapohitajika na seva ya DHCP (*Itifaki ya Usanidi ya Mwenyeji Dynamic*). DHCP hurahisisha usimamizi wa mtandao, na kuondoa hitaji la usanidi mwenyewe huku kuwezesha udhibiti sahihi kupitia uwekaji nafasi na muda wa kukodisha.
 
 
 **Anwani za IPv4** zimeandikwa katika umbizo la **32-bit** lililogawanywa katika **baiti nne**. Kila baiti ina biti 8 na inawakilisha nambari ya desimali kutoka 0 hadi 255. Baiti 4 hutenganishwa kwa nukta ili kuunda nukuu wazi na inayosomeka.
@@ -944,8 +944,8 @@ Vipanga njia husoma anwani hizi ili kubaini njia bora ya kutuma pakiti hadi ifik
 IPv4 Address ina sehemu mbili:
 
 
-- NetID**: hutambua mtandao
-- HostID**: hutambua kifaa ndani ya mtandao huo
+- **NetID**: hutambua mtandao
+- **HostID**: hutambua kifaa ndani ya mtandao huo
 
 **Mask ya subnet** huamua ambapo NetID inaishia na HostID huanza, ikibainisha ni biti ngapi zinafaa kwa kila sehemu. Kadiri NetID ilivyokuwa ndefu, ndivyo idadi ya subnets inavyokuwa kubwa zaidi, lakini idadi ya seva pangishi kwa kila neti ndogo hupungua ipasavyo.
 
@@ -972,17 +972,17 @@ Hapo awali, mitandao ya IPv4 iligawanywa katika **madaraja** matano: (A, B, C, D
 Anwani Maalum:
 
 
-- Mtandao wa Address**: Hutambua mtandao wenyewe (unaotumika katika majedwali ya kuelekeza).
-- Tangaza Address**: Hutuma data kwa vifaa vyote kwenye subnet mara moja (biti zote za HostID zimewekwa 1).
+- **Mtandao wa Address**: Hutambua mtandao wenyewe (unaotumika katika majedwali ya kuelekeza).
+- **Tangaza Address**: Hutuma data kwa vifaa vyote kwenye subnet mara moja (biti zote za HostID zimewekwa 1).
 
 
 Masafa yafuatayo yamehifadhiwa kwa matumizi ya ndani:
 
 
-- 10.0.0.0/8** (Daraja la Kibinafsi A)
-- 127.0.0.0/8** (mzunguko wa ndani au _loopback_)
-- 172.16.0.0 hadi 172.31.255.255** (Daraja B la kibinafsi)
-- 192.168.0.0 hadi 192.168.255.255** (Daraja la kibinafsi C)
+- **10.0.0.0/8** (Daraja la Kibinafsi A)
+- **127.0.0.0/8** (mzunguko wa ndani au _loopback_)
+- 172.16.0.0 hadi 172.31.255.255 **(Daraja B la kibinafsi)**
+- 192.168.0.0 hadi 192.168.255.255 **(Daraja la kibinafsi C)**
 
 
 Anwani **127.0.0.1** na, kwa ujumla zaidi, safu nzima ya 127.0.0.0/8 inatumika kwa majaribio ya ndani: ombi lolote linalotumwa kwake haliachi kamwe mashine. Hii ni muhimu kwa kuangalia kuwa huduma ya mtandao wa ndani inafanya kazi bila kuhusisha mtandao mpana.
@@ -995,8 +995,8 @@ Katika mitandao ya kisasa, anwani za IP kawaida huunganishwa na vitambulishi vin
 
 
 
-- jina la kikoa** lililosajiliwa katika **DNS** (_Mfumo wa Jina la Kikoa_): Inahusisha IP ya nambari Address na jina linalofaa binadamu.
-- MAC Address**: kitambulisho halisi kilichochongwa kwenye kadi ya mtandao, kinachotumika kwa usafiri wa ndani (_Ethernet_). Wakati pakiti ya IP inahitaji kupitishwa kimwili, jedwali la ARP linalingana na IP Address na MAC Address ya lengwa.
+- jina la kikoa lililosajiliwa katika **DNS** (_Mfumo wa Jina la Kikoa_): Inahusisha IP ya nambari Address na jina linalofaa binadamu.
+- **MAC Address**: kitambulisho halisi kilichochongwa kwenye kadi ya mtandao, kinachotumika kwa usafiri wa ndani (_Ethernet_). Wakati pakiti ya IP inahitaji kupitishwa kimwili, jedwali la ARP linalingana na IP Address na MAC Address ya lengwa.
 
 
 Ili kukabiliana na upungufu wa IPv4 Address na kuongeza Layer ya usalama, mitandao mara nyingi hutumia tafsiri ya Address (_NAT_). NAT inaruhusu vifaa vingi vya kibinafsi kushiriki IP moja ya umma Address wakati wa kufikia Mtandao.
@@ -1041,7 +1041,7 @@ Kinyume chake, kuna anwani za kibinafsi za IPv4, jibu la vitendo kwa uhaba wa an
 Ili kuruhusu kifaa kilicho na IP ya faragha ya Address kufikia Mtandao, mitandao hutumia NAT (Tafsiri ya Mtandao wa Address). NAT hufanya kazi kwa kubadilisha kikamilifu Address ya kibinafsi na ya umma, kuwezesha kadhaa (au hata mamia) ya vifaa kushiriki IP moja ya umma ya Address. Njia hii huboresha matumizi ya nafasi ya IPv4 na pia huongeza Layer ya usalama kwa kuficha muundo wa mtandao wa ndani.
 
 
-Aina nyingine maalum ni **anwani ambazo hazijabainishwa. Nukuu ya IPv4 **0.0.0.0** au toleo lake la IPv6 **::/128** inamaanisha "hakuna Address mahususi". Address kama hiyo ni batili kama lengwa la mtandao wa Address, lakini inaweza kutumika ndani ya nchi na mwenyeji kuashiria "miingiliano yote" au "bado hakuna Address iliyokabidhiwa". Hii ni kawaida katika Assignment inayobadilika ya DHCP au kwa kusikiliza kwenye violesura vyote vya seva.
+Aina nyingine maalum ni **anwani ambazo hazijabainishwa**. Nukuu ya IPv4 **0.0.0.0** au toleo lake la IPv6 **::/128** inamaanisha "hakuna Address mahususi". Address kama hiyo ni batili kama lengwa la mtandao wa Address, lakini inaweza kutumika ndani ya nchi na mwenyeji kuashiria "miingiliano yote" au "bado hakuna Address iliyokabidhiwa". Hii ni kawaida katika Assignment inayobadilika ya DHCP au kwa kusikiliza kwenye violesura vyote vya seva.
 
 
 IPv6 pia inaauni ushughulikiaji wa faragha, lakini kiwango kwa ujumla kinapendekeza ushughulikiaji wa umma ili kuepuka kuweka safu nyingi za NAT. **Anwani za tovuti-eneo** (_tovuti-ya karibu_) za kitalu cha **fec0::/10** ziliacha kutumika na **RFC 3879** kwa sababu za uthabiti na za usalama. Nafasi zao zilibadilishwa na **Anwani za Kipekee za Mitaa** (_ULA_) zilizo katika eneo la **fc00::/7**. ULA huruhusu uundaji wa mitandao ya faragha ya IPv6 yenye uelekezaji safi wa ndani, kwa kutumia kitambulishi kilichozalishwa bila mpangilio cha biti 40 ili kuhakikisha upekee wa ndani.
@@ -1463,8 +1463,8 @@ ifdown eth2
 Faili za usanidi (kama RHEL):
 
 
-- /etc/sysconfig/network**: mipangilio ya kimataifa (NETWORKING, HOSTNAME, GATEWAY...).
-- ifcfg-**: mipangilio maalum kwa kila Interface.
+- **/etc/sysconfig/network**: mipangilio ya kimataifa (NETWORKING, HOSTNAME, GATEWAY...).
+- **ifcfg-**: mipangilio maalum kwa kila Interface.
 
 
 Mfano tuli (ifcfg-eth0):
@@ -1783,10 +1783,10 @@ IPv6 Address ambayo haijabainishwa inawakilishwa na `::` au, kwa uwazi zaidi, `:
 Masafa fulani ya IPv6 yamehifadhiwa wazi na haipaswi kutumiwa kama anwani za kimataifa. Wana madhumuni maalum ya kiufundi:
 
 
-- `::/128`**: Address isiyobainishwa, ambayo haijatolewa kabisa kwa kifaa, lakini inatumiwa kama chanzo Address na mashine inayosubiri kusanidi.
-- `::1/128`**: _loopback_ Address, sawa na `127.0.0.1` moja kwa moja katika IPv4, ambayo inaruhusu mashine kuwa Address yenyewe.
-- `64:ff9b::/96`**: Imehifadhiwa kwa ajili ya watafsiri wa itifaki ili kuwezesha muunganisho wa IPv4/IPv6, kama inavyofafanuliwa katika RFC 6052.
-- `::ffff:0:0/96`**: kizuizi cha uoanifu cha kuwakilisha IPv4 Address katika muundo mahususi wa IPv6, mara nyingi hutumiwa ndani na programu.
+- `::/128`: **Address isiyobainishwa, ambayo haijatolewa kabisa kwa kifaa, lakini inatumiwa kama chanzo Address na mashine inayosubiri kusanidi.**
+- `::1/128`: **_loopback_ Address**, sawa na `127.0.0.1` moja kwa moja katika IPv4, ambayo inaruhusu mashine kuwa Address yenyewe.
+- `64:ff9b::/96`: Imehifadhiwa kwa ajili ya watafsiri wa itifaki ili kuwezesha muunganisho wa IPv4/IPv6, kama inavyofafanuliwa katika RFC 6052.
+- `::ffff:0:0/96`: kizuizi cha uoanifu cha kuwakilisha IPv4 Address katika muundo mahususi wa IPv6, mara nyingi hutumiwa ndani na programu.
 
 
 Vitalu hivi vinahakikisha ushirikiano na kuwezesha uhamiaji kati ya matoleo mawili ya itifaki.
@@ -1801,9 +1801,9 @@ Anwani za ulimwengu za unicast zinajumuisha sehemu kubwa ya IPv6 inayoweza kupit
 Baadhi ya masafa yana matumizi maalum yaliyoandikwa:
 
 
-- `2001:2::/48`**: Imehifadhiwa kwa ajili ya majaribio ya utendaji na ushirikiano (RFC 5180).
-- `2001:db8::/32`**: Imehifadhiwa kwa hati na mifano (RFC 3849).
-- `2002::/16`**: Inatumika kwa utaratibu wa 6to4, ambao huruhusu trafiki ya IPv6 kusafiri katika miundombinu ya IPv4 (inatumika wakati wa awamu ya mpito kati ya itifaki hizo mbili).
+- `2001:2::/48`: **Imehifadhiwa kwa ajili ya majaribio ya utendaji na ushirikiano (RFC 5180).**
+- `2001:db8::/32`: **Imehifadhiwa kwa hati na mifano (RFC 3849).**
+- `2002::/16`: Inatumika kwa utaratibu wa 6to4, ambao huruhusu trafiki ya IPv6 kusafiri katika miundombinu ya IPv4 (inatumika wakati wa awamu ya mpito kati ya itifaki hizo mbili).
 
 
 **Kumbuka:** sehemu kubwa ya anwani za kimataifa bado hazijatumika, zikitumika kama hifadhi ya ukuaji wa Intaneti wa siku zijazo.
@@ -1964,8 +1964,8 @@ Hata hivyo, kutokana na wasiwasi unaoongezeka juu ya ufuatiliaji wa kifaa, mifum
 Kama ilivyo kwa DHCP katika IPv4, anwani za IPv6 zilizowekwa kiotomatiki zinaweza kuwa na muda wa maisha mbili, zinazofafanuliwa na vipanga njia au seva za DHCPv6:
 
 
-- Muda wa maisha unaopendekezwa*: baada ya kipindi hiki, Address inasalia kuwa halali, lakini haitumiki tena kuanzisha miunganisho mipya;
-- Muda halali wa maisha*: wakati huu unapoisha, Address imeondolewa kabisa kutoka kwa usanidi wa Interface.
+- Muda wa maisha unaopendekezwa: baada ya kipindi hiki, Address inasalia kuwa halali, lakini haitumiki tena kuanzisha miunganisho mipya;
+- **Muda halali wa maisha**: wakati huu unapoisha, Address imeondolewa kabisa kutoka kwa usanidi wa Interface.
 
 
 Mfumo huu hufanya iwezekanavyo kusimamia mabadiliko ya mtandao kwa nguvu, kwa mfano, kuhakikisha mabadiliko ya laini kutoka kwa ISP moja hadi nyingine. Kwa kusasisha kiambishi awali kilichotangazwa na vipanga njia na kurekebisha rekodi za DNS sambamba, uhamishaji wa IPv6 unaweza kufanywa bila kukatizwa kwa huduma yoyote inayoonekana.
@@ -2108,10 +2108,10 @@ Kijajuu cha uelekezaji kinabainisha orodha ya anwani za kati ambazo pakiti lazim
 Sehemu nne za kwanza za kichwa hiki cha mizizi ni:
 
 
-- Kijajuu Kinachofuata**: hubainisha aina ya kichwa kinachofuata;
-- Aina ya Uelekezaji**: inafafanua mbinu ya uelekezaji (kawaida `0`);
-- Sehemu zilizoachwa**: idadi ya sehemu zilizosalia ili kuvuka ;
-- Address[n]**: orodha ya anwani za kati.
+- **Kijajuu Kinachofuata**: hubainisha aina ya kichwa kinachofuata;
+- **Aina ya Uelekezaji**: inafafanua mbinu ya uelekezaji (kawaida `0`);
+- **Sehemu zilizoachwa**: idadi ya sehemu zilizosalia ili kuvuka ;
+- **Address[n]**: orodha ya anwani za kati.
 
 
 Sehemu ya "Sehemu Zilizosalia" huanza na jumla ya idadi ya sehemu zilizosalia na hupunguzwa kwa moja kwa kila mruko.
@@ -2129,9 +2129,9 @@ Katika IPv6, mwenyeji wa chanzo pekee ndiye anayeruhusiwa kugawanya datagramu, t
 Kichwa cha kugawanyika kina sehemu zifuatazo:
 
 
-- Kitambulisho**: kitambulisho cha kipekee cha datagramu cha kuunganisha tena.
-- Fragment Offset**: nafasi ya kipande ndani ya datagram asili.
-- M bendera**: inaonyesha ikiwa vipande zaidi vinafuata.
+- **Kitambulisho**: kitambulisho cha kipekee cha datagramu cha kuunganisha tena.
+- **Fragment Offset**: nafasi ya kipande ndani ya datagram asili.
+- **M bendera**: inaonyesha ikiwa vipande zaidi vinafuata.
 
 
 ![Image](assets/fr/049.webp)
@@ -2727,13 +2727,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Kila mstari unawakilisha njia. Sehemu kuu ni pamoja na:
 
 
-- chaguo-msingi**: njia chaguo-msingi, inayotumiwa wakati hakuna njia mahususi inayolingana.
-- kupitia**: lango linalotumiwa kufikia lengwa.
-- dev**: mtandao wa Interface uliotumika.
-- proto**: jinsi njia iliundwa (mwongozo, DHCP, kernel, nk).
-- metric**: gharama ya njia, inayotumika kuweka kipaumbele njia nyingi zinazowezekana.
-- upeo**: upeo wa njia (k.m. `kiungo` kwa njia iliyounganishwa moja kwa moja).
-- src**: chanzo cha IP Address kinachotumika kwa pakiti zinazotoka kwenye Interface hii.
+- **chaguo-msingi**: njia chaguo-msingi, inayotumiwa wakati hakuna njia mahususi inayolingana.
+- **kupitia**: lango linalotumiwa kufikia lengwa.
+- **dev**: mtandao wa Interface uliotumika.
+- **proto**: jinsi njia iliundwa (mwongozo, DHCP, kernel, nk).
+- **metric**: gharama ya njia, inayotumika kuweka kipaumbele njia nyingi zinazowezekana.
+- **upeo**: upeo wa njia (k.m. `kiungo` kwa njia iliyounganishwa moja kwa moja).
+- **src**: chanzo cha IP Address kinachotumika kwa pakiti zinazotoka kwenye Interface hii.
 
 
 #### Kuongeza na kufuta njia
@@ -3114,10 +3114,10 @@ Katika hali hii, wapangishi wote katika safu `192.168.0.0` hadi `192.168.0.255` 
 Msimamizi anaweza kutegemea `nmap` kwa kazi kadhaa:
 
 
-- Kugundua seva pangishi zinazotumika**: tambua ni mashine zipi zinazojibu ndani ya subnet;
-- Orodha ya huduma**: hakikisha ni bandari zinazohitajika pekee ndizo zinazofikiwa (kanuni ya upendeleo mdogo);
-- Ukaguzi wa kufuata**: linganisha bandari zilizo wazi dhidi ya sera ya usalama ya shirika;
-- Kinga ya hatari**: tambua huduma zisizo salama au zilizopitwa na wakati zinazoendeshwa kwenye mashine muhimu.
+- **Kugundua seva pangishi zinazotumika**: tambua ni mashine zipi zinazojibu ndani ya subnet;
+- **Orodha ya huduma**: hakikisha ni bandari zinazohitajika pekee ndizo zinazofikiwa (kanuni ya upendeleo mdogo);
+- **Ukaguzi wa kufuata**: linganisha bandari zilizo wazi dhidi ya sera ya usalama ya shirika;
+- **Kinga ya hatari**: tambua huduma zisizo salama au zilizopitwa na wakati zinazoendeshwa kwenye mashine muhimu.
 
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
@@ -3216,10 +3216,10 @@ Zana hizi huwapa wasimamizi seti madhubuti ya viunzi vya kiufundi kufuatilia afy
 Zana zinazotoa mwonekano wa moja kwa moja katika violesura na fremu:
 
 
-- arp / ip neigh**: kagua na urekebishe akiba ya ARP/NDP ili kuangalia au kusahihisha miunganisho ya IP-MAC;
-- tcpdump**: kunasa pakiti ya mstari wa amri, inaweza kuchujwa na kusafirishwa nje;
-- Wireshark**: uchanganuzi wa pakiti za picha na usimbaji wa kina wa itifaki;
-- ethtool**: uliza na urekebishe vigezo vya kimwili vya kadi ya Ethernet (kasi, duplex, WoL, nk).
+- **arp / ip neigh**: kagua na urekebishe akiba ya ARP/NDP ili kuangalia au kusahihisha miunganisho ya IP-MAC;
+- **tcpdump**: kunasa pakiti ya mstari wa amri, inaweza kuchujwa na kusafirishwa nje;
+- **Wireshark**: uchanganuzi wa pakiti za picha na usimbaji wa kina wa itifaki;
+- **ethtool**: uliza na urekebishe vigezo vya kimwili vya kadi ya Ethernet (kasi, duplex, WoL, nk).
 
 
 #### Mtandao wa Layer
@@ -3228,10 +3228,10 @@ Zana zinazotoa mwonekano wa moja kwa moja katika violesura na fremu:
 Zana za kutathmini muunganisho wa IP, uelekezaji, na trafiki ya pakiti:
 
 
-- ping**: uwezo wa kufikiwa na kipimo cha kusubiri kwa kutumia ICMP;
-- njia ya ip**: kagua na urekebishe jedwali la uelekezaji ili kudhibiti njia za pakiti;
-- traceroute**: kitambulisho cha hop-by-hop cha vipanga njia kando ya njia ya kuelekea lengwa;
-- ss**: orodha ya kina ya soketi za TCP/UDP na michakato inayohusiana (mrithi wa netstat).
+- **ping**: uwezo wa kufikiwa na kipimo cha kusubiri kwa kutumia ICMP;
+- **njia ya ip**: kagua na urekebishe jedwali la uelekezaji ili kudhibiti njia za pakiti;
+- **traceroute**: kitambulisho cha hop-by-hop cha vipanga njia kando ya njia ya kuelekea lengwa;
+- **ss**: orodha ya kina ya soketi za TCP/UDP na michakato inayohusiana (mrithi wa netstat).
 
 
 #### Tabaka za Usafiri na Maombi
@@ -3240,9 +3240,9 @@ Zana za kutathmini muunganisho wa IP, uelekezaji, na trafiki ya pakiti:
 Zana za utambuzi wa huduma na michakato:
 
 
-- nslookup / dig / jeshi **: Maswali ya DNS ili kuthibitisha azimio la jina na kuchambua rekodi;
-- nmap**: chunguza bandari zilizo wazi na huduma wazi ili kutathmini eneo la mashambulizi;
-- lsof**: orodhesha faili na soketi zilizofunguliwa na michakato, mfumo wa kuunganisha na shughuli za mtandao.
+- nslookup / dig / jeshi: Maswali ya DNS ili kuthibitisha azimio la jina na kuchambua rekodi;
+- **nmap**: chunguza bandari zilizo wazi na huduma wazi ili kutathmini eneo la mashambulizi;
+- **lsof**: orodhesha faili na soketi zilizofunguliwa na michakato, mfumo wa kuunganisha na shughuli za mtandao.
 
 
 Kujua zana hizi, kila moja ikilinganishwa na hatua mahususi ya muundo wa TCP/IP, huwezesha mbinu ya kimbinu: kuanzia Layer halisi, kusonga kupitia uelekezaji, na hadi huduma za programu. Msururu huu wa utaalamu huwapa wasimamizi uwezo wa kutambua, kulinda na kuboresha miundombinu yao, kuhakikisha utendakazi na upatikanaji wa mtandao.

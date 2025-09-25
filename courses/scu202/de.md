@@ -156,7 +156,7 @@ Sind Sie bereit, die volle Kontrolle über Ihre IT-Sicherheit zu übernehmen, Ih
 
 
 
-*N.B.: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, konsultieren Sie bitte [das Glossar] (https://planb.network/resources/glossary) für Definitionen
+*N.B.: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, konsultieren Sie bitte [das Glossar](https://planb.network/resources/glossary) für Definitionen*
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman kritisiert offen die Verwendung des Begriffs "Open Source", da 
 
 
 
-*Quelle: Nathaniel Welch
+**Quelle:** Nathaniel Welch
 
 
 
@@ -794,7 +794,7 @@ Diese frühen Bemühungen waren die Geburtsstunde der Linux-Distributionen:
 
 
 
-- Februar 1992: MCC-Interims-Linux**
+- Februar 1992: MCC-Interims-Linux
 
 
 
@@ -804,7 +804,7 @@ MCC Interim Linux wurde an der Universität Manchester entwickelt und gilt als d
 
 
 
-- Mai 1992: Softlanding Linux System (SLS)**
+- Mai 1992: Softlanding Linux System (SLS)
 
 
 
@@ -826,7 +826,7 @@ SLS existiert nicht mehr. Seine letzte bekannte Version stammt von Ende 1994.
 
 
 
-- Juli 1993: Slackware**
+- Juli 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware wird auch heute noch gepflegt und ist damit die älteste noch im Einsa
 
 
 
-- August 1993: Debian**
+- August 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Debian wurde so zu einer der technischen und ideologischen Säulen der GNU/Linux
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -1050,7 +1050,7 @@ Die Wahl einer Linux-Distribution hängt von Ihren spezifischen Bedürfnissen, I
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1066,7 +1066,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1086,7 +1086,7 @@ Mint zeichnet sich durch seine Einfachheit, das standardmäßige Vorhandensein v
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,7 +1104,7 @@ Die Installation verläuft reibungslos, wichtige Software ist vorinstalliert, un
 
 
 
-- elementares OS**:
+- **elementares OS**:
 
 Elementary OS wurde 2011 eingeführt und ist eine Ubuntu-basierte Distribution, die sich vor allem auf das Design und die Konsistenz von Interface konzentriert. Seine Pantheon-Desktop-Umgebung, inspiriert von macOS, ist minimalistisch, elegant und flüssig. Das System ist jedoch weniger anpassbar als andere Distributionen, und einige fortgeschrittene Benutzer könnten sich durch die Auswahlmöglichkeiten von Interface und seine absichtlich festgelegte Struktur eingeschränkt fühlen. Es ist gut geeignet für ästhetisch sensible Benutzer, die ein einfaches, kohärentes System für den täglichen Gebrauch suchen.
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Pop!OS wurde von der amerikanischen Firma System76 entwickelt und basiert ebenfa
 
 
 
-- Fedora** (Workstation oder KDE Plasma):
+- **Fedora** (Workstation oder KDE Plasma):
 
 
 
@@ -1154,7 +1154,7 @@ Fedora ist eine von Red Hat unterstützte Distribution, die sich an den neuesten
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed oder Leap):
+- **openSUSE** (Tumbleweed oder Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE ist als Rolling Release oder stabile Distribution erhältlich. Sie verf
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,7 +1182,7 @@ Debian existiert in mehreren Zweigen, darunter *Stable* (sehr zuverlässige, abe
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Manjaro basiert auf Arch und macht Arch Linux zugänglich. Diese Distribution bi
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### Spezialisierter Vertrieb
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux ist eine auf Debian basierende Distribution, die für Penetrationstests und Sicherheitsprüfungen entwickelt wurde. Sie enthält Hunderte von Pentest-Tools. Diese Distribution ist nicht wirklich als Hauptsystem für den täglichen Gebrauch geeignet.
 
@@ -1224,7 +1224,7 @@ Kali Linux ist eine auf Debian basierende Distribution, die für Penetrationstes
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS ist ebenfalls von Debian abgeleitet. Es bietet eine Umgebung für Pent
 
 
 
-- Schwänze**:
+- **Schwänze**:
 
 
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OS basiert auf Fedora und verwendet das Xen-Virtualisierungssystem, um die
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch ist eine pentest-orientierte Erweiterung für Arch Linux (wie Kali auf
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1302,7 +1302,7 @@ PureOS ist eine von Debian abgeleitete Distribution, die von Purism entwickelt w
 
 https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- Raspberry Pi OS**:
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (früher Raspbian) ist eine für Raspberry Pi-Mikrocomputer optimierte Distribution. Sie basiert auf Debian, wobei die Pakete für die ARM-Architektur neu kompiliert wurden. Es kann für Bildungsprojekte, elektronische Tests oder kleine persönliche Server verwendet werden.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (früher Raspbian) ist eine für Raspberry Pi-Mikrocomputer opti
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1362,55 +1362,55 @@ Eine Desktop-Umgebung in einer Linux-Distribution ist keine einzelne Anwendung, 
 
 
 
-- Ein Fenstermanager**: zeichnet Fensterränder, verwaltet deren Platzierung, Größenänderung und Übergangseffekte... Zum Beispiel: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- Ein **Fenstermanager**: zeichnet Fensterränder, verwaltet deren Platzierung, Größenänderung und Übergangseffekte... Zum Beispiel: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Ein Dateimanager**: Ermöglicht es Ihnen, durch den Verzeichnisbaum zu navigieren und Dateien visuell zu kopieren, zu verschieben oder zu löschen. Beispiele: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Ein Dateimanager**: Ermöglicht es Ihnen, durch den Verzeichnisbaum zu navigieren und Dateien visuell zu kopieren, zu verschieben oder zu löschen. Beispiele: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Ein Konfigurationszentrum**: Dies ist eine Reihe von Tools, die es dem Benutzer ermöglichen, Systemparameter zu ändern, ohne die Kommandozeile zu benutzen: Aussehen, Hintergrundbild, Benutzerverwaltung, Netzwerk, Peripheriegeräte...
+- **Ein Konfigurationszentrum**: Dies ist eine Reihe von Tools, die es dem Benutzer ermöglichen, Systemparameter zu ändern, ohne die Kommandozeile zu benutzen: Aussehen, Hintergrundbild, Benutzerverwaltung, Netzwerk, Peripheriegeräte...
 
 
 
 
 
-- System-Applets**: das sind die kleinen Symbole und interaktiven Module in der Taskleiste (oder "Panel"), wie z.B. Tonsteuerung, Batteriestand, Netzwerkverbindung, Uhr...
+- **System-Applets**: das sind die kleinen Symbole und interaktiven Module in der Taskleiste (oder "Panel"), wie z.B. Tonsteuerung, Batteriestand, Netzwerkverbindung, Uhr...
 
 
 
 
 
-- Ein Panel oder Dashboard**: eine sichtbare Leiste, oft am oberen oder unteren Rand des Bildschirms, die das Hauptmenü, System-Applets, Verknüpfungen, den Benachrichtigungsbereich usw. enthält.
+- **Ein Panel oder Dashboard**: eine sichtbare Leiste, oft am oberen oder unteren Rand des Bildschirms, die das Hauptmenü, System-Applets, Verknüpfungen, den Benachrichtigungsbereich usw. enthält.
 
 
 
 
 
-- Ein Sitzungsmanager**: wird beim Start ausgeführt, zeigt den Anmeldebildschirm an und startet die ausgewählte grafische Sitzung. Zum Beispiel: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Ein Sitzungsmanager**: wird beim Start ausgeführt, zeigt den Anmeldebildschirm an und startet die ausgewählte grafische Sitzung. Zum Beispiel: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Benachrichtigungsmanager**: verwaltet die Anzeige von Systembenachrichtigungen (Nachrichten, Warnungen, Updates usw.). Zum Beispiel: dunst, Plasma-notifier, xfce4-notifyd.
+- **Benachrichtigungsmanager**: verwaltet die Anzeige von Systembenachrichtigungen (Nachrichten, Warnungen, Updates usw.). Zum Beispiel: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 Compositor (optional)**: fügt visuelle Effekte (Schatten, Transparenz, Animationen) in Umgebungen hinzu, in denen der Fenstermanager kein Compositing unterstützt. Zum Beispiel: compton, picom.
+- **X11 Compositor (optional)**: fügt visuelle Effekte (Schatten, Transparenz, Animationen) in Umgebungen hinzu, in denen der Fenstermanager kein Compositing unterstützt. Zum Beispiel: compton, picom.
 
 
 
 
 
-- Ein Display-Server**: Dies ist die Software, die die Kommunikation zwischen dem System (über den Kernel und die Grafiktreiber) und den Grafikanwendungen abwickelt. Er zeigt Fenster auf dem Bildschirm an und verwaltet Tastatur- und Mauseingaben. Der Anzeigeserver ist oft eine andere Komponente der Desktop-Umgebung, aber immer mehr Systeme übernehmen Wayland, ein modernes Protokoll, bei dem die Rolle des Anzeigeservers direkt vom Fenstermanager übernommen werden kann (z. B. Mutter unter GNOME oder KWin unter KDE). Dies wird dann als "Wayland Compositing" bezeichnet.
+- **Ein Display-Server**: Dies ist die Software, die die Kommunikation zwischen dem System (über den Kernel und die Grafiktreiber) und den Grafikanwendungen abwickelt. Er zeigt Fenster auf dem Bildschirm an und verwaltet Tastatur- und Mauseingaben. Der Anzeigeserver ist oft eine andere Komponente der Desktop-Umgebung, aber immer mehr Systeme übernehmen Wayland, ein modernes Protokoll, bei dem die Rolle des Anzeigeservers direkt vom Fenstermanager übernommen werden kann (z. B. Mutter unter GNOME oder KWin unter KDE). Dies wird dann als "Wayland Compositing" bezeichnet.
 
 
 
@@ -1877,7 +1877,7 @@ Sobald Sie Ubuntu gestartet haben, führt Sie der Installationsassistent Schritt
 
 
 
-- Installation neben Windows (*dual boot*)**
+- Installation neben Windows (*dual boot*)
 
 
 
@@ -1902,7 +1902,7 @@ Um dies richtig zu tun, empfehle ich Ihnen, zunächst eine nicht zugewiesene Par
 
 
 
-- Vollständiger Austausch von Fenstern**
+- **Vollständiger Austausch von Fenstern**
 
 
 
@@ -2020,10 +2020,10 @@ Jedes Repository ist in Abschnitte unterteilt. Standardmäßig aktiviert Ubuntu 
 
 
 
-- main**: Freie Software, die offiziell von Canonical gepflegt wird. Beispiele: Firefox, LibreOffice, bash
-- eingeschränkt**: unfreie Software, die für das ordnungsgemäße Funktionieren der Hardware unerlässlich ist. Beispiele: NVIDIA-Treiber, Wi-Fi-Firmware, proprietäre Codecs
-- universum**: Freie Software, die von der Gemeinschaft gepflegt wird. Beispiele: GIMP, Inkscape, Audacity
-- multiverse**: Die Software unterliegt rechtlichen Einschränkungen (Patente, unfreie Lizenzen). Die Verfügbarkeit kann je nach Land variieren. Beispiele: bestimmte Audio-/Video-Codecs, Steam
+- **main**: Freie Software, die offiziell von Canonical gepflegt wird. Beispiele: Firefox, LibreOffice, bash
+- **eingeschränkt**: unfreie Software, die für das ordnungsgemäße Funktionieren der Hardware unerlässlich ist. Beispiele: NVIDIA-Treiber, Wi-Fi-Firmware, proprietäre Codecs
+- **universum**: Freie Software, die von der Gemeinschaft gepflegt wird. Beispiele: GIMP, Inkscape, Audacity
+- **multiverse**: Die Software unterliegt rechtlichen Einschränkungen (Patente, unfreie Lizenzen). Die Verfügbarkeit kann je nach Land variieren. Beispiele: bestimmte Audio-/Video-Codecs, Steam
 
 
 
@@ -3541,7 +3541,7 @@ Auch wenn automatische Updates auf Ihrem System aktiviert sind, ist es wichtig, 
 
 
 
-- Betriebssystem Windows*
+- Betriebssystem Windows
 
 
 
@@ -3565,7 +3565,7 @@ Vergessen Sie nicht, im gleichen Menü nach optionalen Updates zu suchen.
 
 
 
-- Linux*-Betriebssystem
+- **Linux**-Betriebssystem
 
 
 
@@ -3618,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- Betriebssystem MacOS*
+- Betriebssystem MacOS
 
 
 
@@ -3654,25 +3654,25 @@ Manche Software ist sensibler als andere, weil sie direkt mit der Außenwelt int
 
 
 
-- Webbrowser*: Sie stehen an vorderster Front der Angriffe, da sie ungeprüfte Inhalte in Echtzeit verarbeiten und eine besonders große Angriffsfläche bieten. Darüber hinaus spielen sie eine zentrale Rolle beim Schutz Ihrer persönlichen Daten. Und vor allem ersetzen sie in der Regel viele früher lokal genutzte Softwareanwendungen (E-Mail-Clients, Office-Suiten, Mediaplayer...). Aber darauf werden wir im nächsten Abschnitt des SCU202-Kurses zurückkommen;
+- **Webbrowser**: Sie stehen an vorderster Front der Angriffe, da sie ungeprüfte Inhalte in Echtzeit verarbeiten und eine besonders große Angriffsfläche bieten. Darüber hinaus spielen sie eine zentrale Rolle beim Schutz Ihrer persönlichen Daten. Und vor allem ersetzen sie in der Regel viele früher lokal genutzte Softwareanwendungen (E-Mail-Clients, Office-Suiten, Mediaplayer...). Aber darauf werden wir im nächsten Abschnitt des SCU202-Kurses zurückkommen;
 
 
 
 
 
-- E-Mail-Clients*: Sie erhalten Anhänge oder Links aus externen Quellen, die unkontrollierbar und daher riskant sind;
+- **E-Mail-Clients**: Sie erhalten Anhänge oder Links aus externen Quellen, die unkontrollierbar und daher riskant sind;
 
 
 
 
 
-- Kommunikationstools* (TeamViewer, Zoom, Signal, Teams...): Aufgrund ihrer interaktiven Natur sind sie Ziele für Spionageangriffe oder Fernsteuerungsversuche. Genauso wie E-Mail-Clients können Kommunikations-Tools als Vektoren für Phishing-Versuche oder die Verbreitung bösartiger Anhänge genutzt werden;
+- **Kommunikationstools** (TeamViewer, Zoom, Signal, Teams...): Aufgrund ihrer interaktiven Natur sind sie Ziele für Spionageangriffe oder Fernsteuerungsversuche. Genauso wie E-Mail-Clients können Kommunikations-Tools als Vektoren für Phishing-Versuche oder die Verbreitung bösartiger Anhänge genutzt werden;
 
 
 
 
 
-- Antiviren-, Firewall- und andere Erkennungslösungen*: Diese Tools genießen in der Regel erhöhte Privilegien, da sie Ihre Dateien, Prozesse und Netzwerkverbindungen ständig überprüfen. Eine veraltete Signaturenbasis, eine schlechte Konfiguration oder eine Schwachstelle in der Software selbst kann es Malware ermöglichen, unerkannt zu bleiben oder sogar erhöhte Privilegien zu erlangen.
+- **Antiviren-, Firewall- und andere Erkennungslösungen**: Diese Tools genießen in der Regel erhöhte Privilegien, da sie Ihre Dateien, Prozesse und Netzwerkverbindungen ständig überprüfen. Eine veraltete Signaturenbasis, eine schlechte Konfiguration oder eine Schwachstelle in der Software selbst kann es Malware ermöglichen, unerkannt zu bleiben oder sogar erhöhte Privilegien zu erlangen.
 
 
 
@@ -3893,7 +3893,7 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-- Microsoft Defender*: Unter Windows ist ein gutes Virenschutzprogramm eine Grundvoraussetzung. Viele Jahre lang galt der Microsoft Defender (ehemals Windows Defender), das integrierte Antivirenprogramm des Systems, als unzuverlässig, und es wurden stattdessen Lösungen von Drittanbietern empfohlen. Aber diese Software hat sich im Laufe der Zeit erheblich verbessert und ist meiner Meinung nach jetzt ausreichend, um einen grundlegenden Schutz für den persönlichen Gebrauch zu bieten. Dennoch sollte man die Rolle der Antiviren-Software nicht überbewerten: Es sind vor allem Ihre eigenen digitalen Praktiken, die Ihre Sicherheit gewährleisten. Einer der Vorteile von Defender ist seine native Integration in Windows. Zusätzlich zum Echtzeitschutz bietet er umfassende Scans, die Sie wöchentlich planen oder in regelmäßigen Abständen manuell ausführen können.
+- **Microsoft Defender**: Unter Windows ist ein gutes Virenschutzprogramm eine Grundvoraussetzung. Viele Jahre lang galt der Microsoft Defender (ehemals Windows Defender), das integrierte Antivirenprogramm des Systems, als unzuverlässig, und es wurden stattdessen Lösungen von Drittanbietern empfohlen. Aber diese Software hat sich im Laufe der Zeit erheblich verbessert und ist meiner Meinung nach jetzt ausreichend, um einen grundlegenden Schutz für den persönlichen Gebrauch zu bieten. Dennoch sollte man die Rolle der Antiviren-Software nicht überbewerten: Es sind vor allem Ihre eigenen digitalen Praktiken, die Ihre Sicherheit gewährleisten. Einer der Vorteile von Defender ist seine native Integration in Windows. Zusätzlich zum Echtzeitschutz bietet er umfassende Scans, die Sie wöchentlich planen oder in regelmäßigen Abständen manuell ausführen können.
 
 
 
@@ -3903,12 +3903,12 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-- Sysinternals Suite*: Hierbei handelt es sich um eine wesentlich fortschrittlichere Reihe von Tools, die von Microsoft zur Diagnose, Überwachung und Fehlerbehebung von Windows angeboten werden. Hier sind die wichtigsten Tools dieser Suite:
-    - Process Monitor*: Ermöglicht es Ihnen, aktive Prozesse, Dateizugriffe, Register usw. in Echtzeit zu beobachten;
-    - Autoruns*: zeigt alle beim Start gestarteten Programme an und hilft Ihnen, hartnäckige Malware oder Anwendungen, die nicht ausgeführt werden sollten, schnell zu erkennen;
-    - Process Explorer*: überwacht Prozesse und erkennt verdächtiges Verhalten;
-    - TCPView*: Visualisierung aktiver Netzwerkverbindungen (Erkennung von anormalen Verbindungen) ;
-    - Sigcheck*: prüft digitale Signaturen von Dateien auf bösartigen Code.
+- **Sysinternals Suite**: Hierbei handelt es sich um eine wesentlich fortschrittlichere Reihe von Tools, die von Microsoft zur Diagnose, Überwachung und Fehlerbehebung von Windows angeboten werden. Hier sind die wichtigsten Tools dieser Suite:
+- **Process Monitor**: Ermöglicht es Ihnen, aktive Prozesse, Dateizugriffe, Register usw. in Echtzeit zu beobachten;
+- **Autoruns**: zeigt alle beim Start gestarteten Programme an und hilft Ihnen, hartnäckige Malware oder Anwendungen, die nicht ausgeführt werden sollten, schnell zu erkennen;
+- **Process Explorer**: überwacht Prozesse und erkennt verdächtiges Verhalten;
+- **TCPView**: Visualisierung aktiver Netzwerkverbindungen (Erkennung von anormalen Verbindungen) ;
+- **Sigcheck**: prüft digitale Signaturen von Dateien auf bösartigen Code.
 
 
 
@@ -3918,7 +3918,7 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-- GlassWire*: ein Tool zur Netzwerküberwachung. Es verfolgt ein- und ausgehende Verbindungen in Echtzeit und warnt Sie bei ungewöhnlichen Aktivitäten.
+- **GlassWire**: ein Tool zur Netzwerküberwachung. Es verfolgt ein- und ausgehende Verbindungen in Echtzeit und warnt Sie bei ungewöhnlichen Aktivitäten.
 
 
 
@@ -3936,7 +3936,7 @@ Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wir
 
 
 
-- Fail2ban*: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z. B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP Address über `iptables` vorübergehend gebannt;
+- **Fail2ban**: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z. B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP Address über `iptables` vorübergehend gebannt;
 
 
 
@@ -3946,7 +3946,7 @@ Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wir
 
 
 
-- Lynis*: ein umfassendes Sicherheits-Audit-Tool, das Ihr System auf Fehlkonfigurationen, bekannte Schwachstellen oder Abweichungen von bewährten Verfahren untersucht. Es erstellt einen leicht verständlichen Bericht mit einer Sicherheitsbewertung und Empfehlungen.
+- **Lynis**: ein umfassendes Sicherheits-Audit-Tool, das Ihr System auf Fehlkonfigurationen, bekannte Schwachstellen oder Abweichungen von bewährten Verfahren untersucht. Es erstellt einen leicht verständlichen Bericht mit einer Sicherheitsbewertung und Empfehlungen.
 
 
 
@@ -3965,7 +3965,7 @@ macOS ist für seine Sicherheit bekannt, vor allem dank der Richtlinien für Anw
 
 
 
-- KnockKnock*: scannt alle Elements, die so konfiguriert sind, dass sie beim Start ausgeführt werden (Agenten, Daemons, Kernelmodule...) und identifiziert diejenigen, die potenziell verdächtig, unsigniert oder unbekannt sind. Damit können Sie bösartige Persistenz auf Ihrem System schnell identifizieren.
+- **KnockKnock**: scannt alle Elements, die so konfiguriert sind, dass sie beim Start ausgeführt werden (Agenten, Daemons, Kernelmodule...) und identifiziert diejenigen, die potenziell verdächtig, unsigniert oder unbekannt sind. Damit können Sie bösartige Persistenz auf Ihrem System schnell identifizieren.
 
 
 
@@ -4549,7 +4549,7 @@ Die vollständige Verschlüsselung ist wie ein Schloss: Solange das Passwort nic
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4808,7 +4808,7 @@ Klicken Sie abschließend auf die pfeilförmige Schaltfläche in der oberen rech
 
 
 
-- Fenster:**
+- **Fenster:**
 
 
 
@@ -4854,7 +4854,7 @@ Nach der Aktivierung von FileVault müssen Sie eine Wiederherstellungsmethode f�
 Bei externen Speichermedien (Hard-Disketten, USB-Sticks usw.) wird die Verschlüsselung mit dem Festplattendienstprogramm durchgeführt. Sie müssen den Datenträger vollständig neu formatieren:
 
 - Wählen Sie das Gerät aus und klicken Sie auf "*Löschen*"
-- Wählen Sie das Schema "GUID* Partitionstabelle"
+- Wählen Sie das Schema "GUID Partitionstabelle"
 - Wählen Sie dann ein verschlüsseltes Dateisystemformat (*APFS* oder *Mac OS extended*)
 - Wählen Sie ein sicheres Passwort
 - Klicken Sie auf "*Löschen*" und dann auf "*OK*" und die Verschlüsselung ist abgeschlossen
@@ -4934,7 +4934,7 @@ Dieses Paket installiert `exiftool`, das Sie dann direkt von der Kommandozeile a
 
 
 
-- Schritt 2: Anzeige der Datei-Metadaten** (auf Französisch)
+- Schritt 2: **Anzeige der Datei-Metadaten** (auf Französisch)
 
 
 
@@ -5680,7 +5680,7 @@ Zu den auf Blink basierenden Browsern gehören auch eine Reihe von eher marginal
 
 
 
-- Bogen** :
+- **Bogen**:
 
 
 
@@ -5698,7 +5698,7 @@ Aus technischer Sicht basiert Arc auf Chromium, bleibt aber eine proprietäre So
 
 
 
-- Polypan** :
+- **Polypan** :
 
 
 
@@ -6190,25 +6190,25 @@ Um diese Angriffe beim Surfen im Internet zu vermeiden, ist es wichtig, bestimmt
 
 
 
-- Analysieren Sie die URL**: Angreifer verwenden oft Adressen, die dem Original sehr ähnlich sind (z. B. "micr0soft-support.com", "paypal-verif.net" usw.). Einige ersetzen auch visuell ähnliche Zeichen und nutzen Unicode-Zeichen aus. Prüfen Sie, ob der Address genau der erwarteten Website entspricht und keine verdächtigen Präfixe oder Suffixe enthält.
+- **Analysieren Sie die URL**: Angreifer verwenden oft Adressen, die dem Original sehr ähnlich sind (z. B. "micr0soft-support.com", "paypal-verif.net" usw.). Einige ersetzen auch visuell ähnliche Zeichen und nutzen Unicode-Zeichen aus. Prüfen Sie, ob der Address genau der erwarteten Website entspricht und keine verdächtigen Präfixe oder Suffixe enthält.
 
 
 
 
 
-- Vermeiden Sie verkürzte Links**: Dienste wie `bit.ly` oder `t.co` können den endgültigen Address verschleiern. Wenn Sie einen verkürzten Link erhalten, seien Sie misstrauisch oder verwenden Sie einen URL-Erweiterungsdienst, um das Ziel zu überprüfen.
+- **Vermeiden Sie verkürzte Links**: Dienste wie `bit.ly` oder `t.co` können den endgültigen Address verschleiern. Wenn Sie einen verkürzten Link erhalten, seien Sie misstrauisch oder verwenden Sie einen URL-Erweiterungsdienst, um das Ziel zu überprüfen.
 
 
 
 
 
-- Hüten Sie sich vor alarmistischen Nachrichten**: Phishing-Versuche nutzen oft starke Emotionen aus (Dringlichkeit, Bedrohung, Belohnung, Neugier...). Eine E-Mail, in der behauptet wird, dass Ihr Konto demnächst gesperrt wird oder dass ein Paket nicht zugestellt werden kann, ist natürlich verdächtig.
+- **Hüten Sie sich vor alarmistischen Nachrichten**: Phishing-Versuche nutzen oft starke Emotionen aus (Dringlichkeit, Bedrohung, Belohnung, Neugier...). Eine E-Mail, in der behauptet wird, dass Ihr Konto demnächst gesperrt wird oder dass ein Paket nicht zugestellt werden kann, ist natürlich verdächtig.
 
 
 
 
 
-- Übermitteln Sie niemals sensible Informationen über einen empfangenen Link**: Ein seriöses Institut wird Sie niemals über eine einfache E-Mail oder SMS nach einem Passwort, einem Authentifizierungscode oder einer eingescannten Kopie Ihres Ausweises fragen.
+- **Übermitteln Sie niemals sensible Informationen über einen empfangenen Link**: Ein seriöses Institut wird Sie niemals über eine einfache E-Mail oder SMS nach einem Passwort, einem Authentifizierungscode oder einer eingescannten Kopie Ihres Ausweises fragen.
 
 
 
@@ -6218,7 +6218,7 @@ Und hier sind ein paar Präventivmaßnahmen, die Sie direkt in Ihrem Browser imp
 
 
 
-- Zugriff auf wichtige Websites über Ihre Lesezeichen**:
+- **Zugriff auf wichtige Websites über Ihre Lesezeichen**:
 
 
 
@@ -6232,7 +6232,7 @@ Haben Sie eine E-Mail vom Finanzamt erhalten, die einen Link enthält? Klicken S
 
 
 
-- Respektieren Sie gute Authentifizierungspraktiken** :
+- **Respektieren Sie gute Authentifizierungspraktiken**:
 
 
 
@@ -6250,7 +6250,7 @@ Zusätzlich zu diesen Maßnahmen kann die Verwendung eines guten Passwortmanager
 
 
 
-- Überprüfen Sie SSL/TLS**-Zertifikate:
+- Überprüfen Sie **SSL/TLS-Zertifikate**:
 
 
 
@@ -6296,19 +6296,19 @@ Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer best
 
 
 
-- Verwenden Sie mehrere verschiedene Browser**: zum Beispiel Firefox für den privaten Gebrauch, Tor oder Mullvad für sensible Aktivitäten und Chromium für professionelle Aufgaben. Jeder Browser verwendet eine eigene Speicherinstanz, die Cookies, Sitzungen und Erweiterungen vollständig isoliert. So können Sie die Browsereinstellungen auf Ihre spezifischen Anwendungsfälle abstimmen.
+- Verwenden Sie mehrere verschiedene Browser: zum Beispiel Firefox für den privaten Gebrauch, Tor oder Mullvad für sensible Aktivitäten und Chromium für professionelle Aufgaben. Jeder Browser verwendet eine eigene Speicherinstanz, die Cookies, Sitzungen und Erweiterungen vollständig isoliert. So können Sie die Browsereinstellungen auf Ihre spezifischen Anwendungsfälle abstimmen.
 
 
 
 
 
-- Erstellen Sie mehrere Profile in einem einzigen Browser**: Einige Browser ermöglichen es Ihnen, unabhängige Profile zu erstellen, jedes mit seinem eigenen Verlauf, seinen Sitzungen, Erweiterungen und Einstellungen. Dies ist eine etwas weniger restriktive Lösung als die Verwendung mehrerer separater Browser, aber immer noch weniger effektiv.
+- **Erstellen Sie mehrere Profile in einem einzigen Browser**: Einige Browser ermöglichen es Ihnen, unabhängige Profile zu erstellen, jedes mit seinem eigenen Verlauf, seinen Sitzungen, Erweiterungen und Einstellungen. Dies ist eine etwas weniger restriktive Lösung als die Verwendung mehrerer separater Browser, aber immer noch weniger effektiv.
 
 
 
 
 
-- Verwenden Sie integrierte Container**: Firefox bietet die [Multi-Account Containers]-Erweiterung (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), mit der Sie separate Registerkarten öffnen können, jede mit eigenem Login und eigenen Cookies. Sie können auch bestimmte Websites automatisch einem bestimmten Container zuweisen, um sie bei jedem Öffnen getrennt zu halten.
+- **Verwenden Sie integrierte Container**: Firefox bietet die [Multi-Account Containers]-Erweiterung (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), mit der Sie separate Registerkarten öffnen können, jede mit eigenem Login und eigenen Cookies. Sie können auch bestimmte Websites automatisch einem bestimmten Container zuweisen, um sie bei jedem Öffnen getrennt zu halten.
 
 
 
@@ -6318,7 +6318,7 @@ Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer best
 
 
 
-- Verwenden Sie eine isolierte Systemumgebung**: Bei besonders sensiblen Anwendungen können Sie Ihren Browser auch innerhalb einer virtuellen Maschine oder eines Docker-Containers ausführen, um ihn vollständig von Ihrer Hauptumgebung zu trennen.
+- **Verwenden Sie eine isolierte Systemumgebung**: Bei besonders sensiblen Anwendungen können Sie Ihren Browser auch innerhalb einer virtuellen Maschine oder eines Docker-Containers ausführen, um ihn vollständig von Ihrer Hauptumgebung zu trennen.
 
 
 
@@ -8070,8 +8070,8 @@ Die Internet-Infrastruktur basiert hauptsächlich auf zwei Protokollen:
 
 
 
-- IP** (*Internet Protocol*) Identifiziert jedes angeschlossene Gerät und leitet Datenpakete weiter.
-- TCP** (*Transmission Control Protocol*) segmentiert den Datenfluss, prüft auf Fehler und bringt die Segmente wieder in die richtige Reihenfolge.
+- **IP** (*Internet Protocol*) Identifiziert jedes angeschlossene Gerät und leitet Datenpakete weiter.
+- **TCP** (*Transmission Control Protocol*) segmentiert den Datenfluss, prüft auf Fehler und bringt die Segmente wieder in die richtige Reihenfolge.
 
 
 → Für Echtzeitanwendungen, bei denen die Zuverlässigkeit weniger wichtig ist als die Latenzzeit (VoIP, DNS, Streaming usw.), wird häufig ein anderes Transportprotokoll anstelle von TCP verwendet: UDP (*User Datagram Protocol*).
@@ -8098,21 +8098,21 @@ Das Internet ist also ein riesiges dezentralisiertes Netz, das auf gemeinsamen R
 In den meisten modernen Haushalten wird der Internetzugang über ein zentrales Gerät bereitgestellt, das als Modem und Router fungiert. Der Name dieses Geräts variiert von Land zu Land (in Frankreich heißt es "Internet Box"). Dieses multifunktionale Gerät, das vom Internetanbieter zur Verfügung gestellt wird, verbindet Sie mit dem restlichen Internetnetz.
 
 
-→ *ISP = Internet Service Provider
+→ *ISP = Internet Service Provider*
 
 
 Dieses Gerät vereint 2 Hauptfunktionen:
 
 
 
-- Die Modemrolle**
+- Die **Modemrolle**
 
 
 Das Modem (kurz für "*Modulator-Demodulator*") ist die Komponente, die das Netz Ihres Internetanbieters mit Ihrem Haus verbindet. Es wandelt die empfangenen elektrischen oder optischen Signale (über Glasfaser, Koaxialkabel, ADSL oder das Mobilfunknetz) in digitale Signale um, die von Ihren Geräten verstanden werden können. Umgekehrt wandelt er die Daten Ihrer Geräte in ein Format um, das über die Infrastruktur des Betreibers übertragen werden kann. Dieser Schritt ist unerlässlich, wenn Ihr Heimnetz mit dem Internet kommunizieren soll.
 
 
 
-- Die Rolle des Routers**
+- **Die Rolle des Routers**
 
 
 Der Router ist das Herzstück Ihres lokalen Netzwerks. Er verteilt die Internetverbindung an alle Ihre Geräte: Computer, Smartphones, angeschlossene Objekte, Drucker usw. Er weist jedem von ihnen eine lokale IP Address zu (die sich von Ihrer im Internet sichtbaren öffentlichen IP unterscheidet). Der Router organisiert dann den ein- und ausgehenden Datenverkehr und sorgt dafür, dass die Daten das richtige Gerät erreichen. Er kann auch eine Firewall integrieren, Netzwerkpakete filtern oder Portweiterleitungsregeln verwalten. NAT maskiert Ihr lokales Netzwerk vor den Augen des Internets und verwendet eine einzige öffentliche IP Address, um alle Ihre Geräte zu repräsentieren. Nur der Router weiß, welches lokale Gerät welche Anfrage initiiert hat.
@@ -8267,7 +8267,7 @@ Wie wir im vorigen Kapitel festgestellt haben, ist die Sicherung Ihres Heimnetzw
 Nach einem Überblick über die theoretischen Grundlagen führt Sie dieses Kapitel durch klare, praktische und effektive Schritte zur Verbesserung der Sicherheit Ihres lokalen Netzwerks.
 
 
-*Bitte beachten Sie: Die hier bereitgestellten Informationen sind allgemeiner Art, da sich Plan ₿ Network an ein internationales Publikum richtet. Abhängig von Ihren lokalen Gegebenheiten und Ihrem ISP werden bestimmte bewährte Verfahren hier möglicherweise nicht erwähnt oder gelten in anderer Weise
+*Bitte beachten Sie: Die hier bereitgestellten Informationen sind allgemeiner Art, da sich Plan ₿ Network an ein internationales Publikum richtet. Abhängig von Ihren lokalen Gegebenheiten und Ihrem ISP werden bestimmte bewährte Verfahren hier möglicherweise nicht erwähnt oder gelten in anderer Weise*
 
 
 ### Auswahl und Sicherung Ihrer Netzwerkausrüstung
@@ -8282,16 +8282,24 @@ Es ist wichtig, moderne Geräte zu wählen, die vom Hersteller gewartet werden u
 Ein mit Wi-Fi 6, Wi-Fi 6E oder Wi-Fi 7 kompatibler Router bietet Ihnen bessere Geschwindigkeiten und vor allem native Unterstützung für moderne Sicherheitstechnologien. Umgekehrt können sehr alte Geräte, insbesondere solche, die keine Software-Updates mehr erhalten, bekannte, ungepatchte Sicherheitslücken enthalten. Sie stellen daher ein Risiko für Ihr gesamtes Netz dar, selbst wenn Sie sie richtig konfigurieren. Im Vergleich zu Mobiltelefonen oder Computern sind Router Geräte, die wir in der Regel viele Jahre lang behalten. Es kann jedoch sinnvoll sein, sie in regelmäßigen Abständen zu ersetzen, um von einem moderneren und sichereren Modell zu profitieren.
 
 
+**Achtung**: Als Faustregel gilt, dass die von Internetanbietern bereitgestellten Router möglicherweise keine wesentliche Aktualisierungsfunktion sowie keine Personalisierungsmöglichkeiten bieten. In einigen Fällen können Internetanbieter auch uneingeschränkten Zugriff auf das interne Netzwerk des Endnutzers haben.
+
 Aktualisieren Sie daher systematisch die Firmware Ihres Routers. Diese Updates beheben Schwachstellen, fügen neue Funktionen hinzu und verbessern die allgemeine Systemstabilität. Einige Hersteller bieten automatische Aktualisierungen an, aber in einigen Fällen müssen Sie sie manuell über das Interface-Verwaltungstool Ihres Routers überprüfen. Wie bei Ihrem Telefon, Computer, Betriebssystem und Ihrer Software ist es wichtig, dass Sie Ihren Router regelmäßig aktualisieren. Sie können dies zu einem Teil Ihrer wöchentlichen Routine machen - zum Beispiel jeden Sonntag - indem Sie eine Liste aller Elemente erstellen, die Sie überprüfen und auf dem neuesten Stand halten müssen.
 
 
-Wenn Ihr Router nicht mehr gewartet wird, aber von der Hardware her noch einwandfrei funktioniert, können Sie eine alternative Open-Source-Firmware installieren, z. B:
+Alternativ können Sie Auto-Updates aktivieren oder zumindest das automatische Scannen nach neuen Firmware-Updates, wenn Sie lieber manuell vorgehen möchten. Obwohl die Auto-Update-Funktion weiterhin ein Sicherheitsrisiko darstellen kann, wird das Versäumnis, die Firmware des Routers regelmäßig zu aktualisieren, Ihr lokales Netzwerk öffentlich bekannten Schwachstellen aussetzen.
+
+**Beispiel**: Beim Kauf Ihres eigenen Routers kann es eine gute Idee sein, nach etablierten Firmen in der Branche zu suchen, die seit langem Router auf dem Markt anbieten. Beispielsweise genießen Fritz!Box-Router einen langjährigen Ruf als Plug-and-Play-Geräte, die sich sowohl für den Einsatz im Familienumfeld als auch in kleinen Unternehmen eignen. Ihre Richtlinie für Software-Updates erstreckt sich typischerweise über mehrere Jahre.
+
+Wenn Ihr Router nicht mehr gepflegt wird, aber aus Hardware-Sicht noch einwandfrei funktioniert, könnten Sie in der Lage sein, eine alternative Open-Source-Firmware zu installieren, wie zum Beispiel:
 
 
 
 - OpenWrt, eine auf Router spezialisierte Linux-Distribution, die große Flexibilität und regelmäßige Updates bietet
 - pfSense und OPNsense, zwei FreeBSD-basierte (Unix-ähnliche) Systeme für x86-Firewalls und Router
 
+
+**Hinweis**: Einige ISPs liefern ihren Kunden Großhandelsrouter eines einzigen Herstellers, der gleichzeitig viele verschiedene ISPs weltweit beliefert. Möglicherweise stellen Sie fest, dass zum Installieren einer alternativen Firmware auf dem Router bereits jemand anders herausgefunden hat, wie es geht, selbst wenn er auf der anderen Seite der Welt ist.
 
 ![Image](assets/fr/196.webp)
 
@@ -8356,21 +8364,21 @@ Einige Funktionen sollten vermieden oder systematisch deaktiviert werden:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Diese Funktion ermöglicht es den Geräten in Ihrem Netzwerk, den Router aufzufordern, automatisch Ports zu öffnen. Dies erleichtert zwar bestimmte Nutzungen (Online-Spiele, angeschlossene Kameras usw.), öffnet aber auch die Tür für bösartige Anwendungen, die die Netzwerkkonfiguration ohne Ihre Zustimmung ändern können. UPnP ist eine der Hauptursachen für die unbeabsichtigte Offenlegung interner Dienste gegenüber der Außenwelt.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- WPS (*Wi-Fi Protected Setup*):
 
 
 Dieses System, das ursprünglich entwickelt wurde, um die Verbindung von Geräten mit Wi-Fi ohne Eingabe eines Passworts zu vereinfachen, basiert auf einem PIN-Code, der oft schwach ist und leicht mit roher Gewalt angegriffen werden kann. Ich rate Ihnen, es zu deaktivieren.
 
 
 
-- Fernzugriff (*Remote Management*)**:
+- Fernzugriff (**Remote Management**):
 
 
 Einige Router ermöglichen es Ihnen, von außen über das Internet eine Verbindung zu ihrer Verwaltung Interface herzustellen. Diese Funktion vergrößert die Angriffsfläche Ihres Routers unangemessen. Deaktivieren Sie diese Funktion vollständig, es sei denn, Sie haben einen speziellen Bedarf an Fernverwaltung. Selbst dann sollten Sie immer ein VPN verwenden.
@@ -8379,14 +8387,14 @@ Einige Router ermöglichen es Ihnen, von außen über das Internet eine Verbindu
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Veraltete oder unsichere Protokolle**:
+- **Veraltete oder unsichere Protokolle**:
 
 
 Deaktivieren Sie alle Verwaltungsdienste, die Klartextprotokolle wie Telnet, FTP, unverschlüsseltes HTTP oder SMBv1 verwenden. Diese Protokolle gewährleisten weder die Vertraulichkeit noch die Integrität der ausgetauschten Daten und sind häufig das Ziel von Malware. Wenn Sie einen lokalen oder Fernzugriff benötigen, verwenden Sie nur Verbindungen über HTTPS (verschlüsseltes Interface), SSH oder SFTP, je nach Bedarf.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Einige Router reagieren standardmäßig auf ICMP-Anfragen, die von außen gesendet werden (Befehl "ping"). Dadurch kann ein Angreifer überprüfen, ob Ihr Netz aktiv und erreichbar ist. Wenn Sie dies nicht benötigen, deaktivieren Sie diese Antwort in der Firewall des Routers.
@@ -8475,15 +8483,15 @@ Aktivieren Sie als nächstes ein Protokoll zur Verschlüsselung von DNS-Anfragen
 
 
 
-- DoH (*DNS über HTTPS*)**: Verkapselt DNS-Anfragen in das HTTPS-Protokoll, so dass sie nicht von herkömmlichem verschlüsseltem Webverkehr zu unterscheiden sind
+- DoH (**DNS über HTTPS**): Verkapselt DNS-Anfragen in das HTTPS-Protokoll, so dass sie nicht von herkömmlichem verschlüsseltem Webverkehr zu unterscheiden sind
 
 
 
-- DoT (*DNS über TLS*)**: Erzeugt einen speziellen verschlüsselten Kanal zwischen Ihrem Gerät und dem DNS-Server
+- **DoT (*DNS über TLS*)**: Erzeugt einen speziellen verschlüsselten Kanal zwischen Ihrem Gerät und dem DNS-Server
 
 
 
-- DoQ (*DNS über QUIC*)**: Überträgt DNS-Anfragen über das UDP-basierte QUIC-Protokoll
+- **DoQ (*DNS über QUIC*)**: Überträgt DNS-Anfragen über das UDP-basierte QUIC-Protokoll
 
 
 In der Praxis können DNS-Verschlüsselung und Serverwechsel auf verschiedenen Ebenen implementiert werden:
@@ -8598,5 +8606,4 @@ Wenn Sie diese wenigen Schritte befolgen, bauen Sie eine stabile, sichere Netzwe
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 

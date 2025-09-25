@@ -1,0 +1,9 @@
+question: Qual é a vantagem de um computador portátil dedicado em relação a um mini-PC?
+answer: A sua bateria funciona como um inversor
+wrong_answers:
+  - É mais silencioso
+  - Dura mais tempo
+  - Consome menos energia
+explanation: |
+  A bateria de um computador portátil funciona como uma UPS natural, evitando paragens súbitas em caso de corte de energia.
+reviewed: true

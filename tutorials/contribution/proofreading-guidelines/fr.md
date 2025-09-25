@@ -166,7 +166,7 @@ Dans les cours, les parties les plus importantes sont introduites par un seul si
 
 
 
-Veillez à ne JAMAIS supprimer les signes Hash** avant un titre, sinon vous créerez des problèmes avec la structure du texte.
+Veillez à ne JAMAIS supprimer les signes **Hash** avant un titre, sinon vous créerez des problèmes avec la structure du texte.
 
 
 En même temps, **ne changez pas** la partie chapterID que vous pouvez voir dans l'image ci-dessus, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` ou les références vidéo comme ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.

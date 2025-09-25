@@ -1,448 +1,226 @@
 ---
 name: Electrum Airgap
-description: A first step toward safety, a Cold Wallet with Electrum
+description: Un premier pas vers la sécurité, un cold wallet avec Electrum
 ---
 ![cover](assets/cover.webp)
 
-
-
 ## Cold Wallet
 
+Dans ce tutoriel, je vais t’expliquer comment réaliser ton premier dispositif de signature airgap, totalement déconnecté d’Internet, même sans posséder de hardware wallet dédié. Tout ce dont tu as besoin, c’est de deux ordinateurs :
+- un ancien appareil auquel tu interdiras définitivement toute connexion à Internet ;
+- ton ordinateur d’utilisation quotidienne.
 
+Cette configuration permet d’obtenir un degré de sécurité supérieur par rapport à un simple `hot wallet` : l’ancien ordinateur – sans connexion au réseau – conserve tes clés privées, qui ne sont jamais exposées en ligne, mais bien gardées hors ligne (« airgap » ou « cold »).
 
-In this tutorial I will explain how to make your first airgap signing device, disconnected from the Internet, even without having a dedicated Hardware Wallet. All you need is to have two computers available:
+Sur ton ordinateur principal, tu installeras en revanche un wallet de visualisation (« watch-only »), connecté à Internet et qui te permettra, par exemple, de consulter le solde et de préparer les transactions de réception.
 
+## Wallet Airgap : Quoi et Comment
 
+En suivant les étapes de ce guide, nous installerons deux logiciels Electrum sur deux ordinateurs distincts et, finalement, nous créerons deux wallets avec des keystore différents :  
+- le wallet airgap utilisera toute la hiérarchie du wallet HD ;  
+- le wallet de visualisation sera généré à partir de la clé publique master.
 
+Ces deux wallets seront très différents l’un de l’autre. La seule chose qu’ils auront en commun, comme nous le verrons, ce sont les adresses :
+- le wallet sur l’ordinateur airgap peut uniquement signer mais, déconnecté du réseau, il ne connaît ni le solde ni les adresses utilisées ;
+- le wallet sur l’ordinateur quotidien peut uniquement préparer et diffuser des transactions, sans pouvoir dépenser les fonds, faute de posséder les clés privées.
 
-- an old device to be forever prevented from connecting to the Internet;
-- your daily-use computer.
+## Préparation Préliminaire
 
+Pour télécharger Electrum, je te conseille de suivre les premiers pas de ce tutoriel :
 
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
-This configuration allows for a greater degree of security than the classic `Hot Wallet`: the old computer--without network connection--is the keeper of your private keys, which are never exposed on the Internet, but stored offline ("airgap" or "Cold").
+Après le téléchargement, vérifie toujours la release avant de l’installer, puis procède à la configuration « One Server », comme indiqué dans la section du guide au chapitre `Commence avec un wallet fictif`.
 
+L’opération de configuration « One Server » est nécessaire uniquement pour le wallet installé sur l’ordinateur quotidien, puisque l’autre appareil restera toujours hors ligne.
 
+Les étapes suivantes doivent être effectuées sur deux ordinateurs (et wallets) différents. Pour plus de clarté et de praticité, j’ai choisi de configurer le wallet airgap avec le thème clair, tandis que le wallet de visualisation utilise le thème sombre.
 
-Instead, you will install a Wallet display ("watch-only") on your daily computer, which is connected to the network and with which you can, for example, check balances and prepare receipt transactions.
+## Création du Wallet Airgap
 
+Après avoir téléchargé et vérifié Electrum, copie l’exécutable et transfère-le sur l’ordinateur hors ligne. Lance-le ensuite et installe Electrum.
 
-
-## Wallet Airgap: What and How
-
-
-
-By performing the steps in this guide, we will install two Software Wallet Electrum on the two different computers and finally create two Wallets with different keystores: the Wallet airgap will use the entire hierarchy of the Wallet HD, while the Wallet display will be generated with the master public key.
-
-
-
-These two Wallets will be, in all respects, very different from each other. The only thing they will have in common, as we shall see, are the addresses:
-
-
-
-
-- gW-13 on the airgap computer can only sign but, disconnected from the network, does not know the balance and addresses used;
-- the Wallet on the daily computer will only be able to prepare and propagate transactions, without being able to dispose of the expenditure, in the absence of the private keys.
-
-
-
-## Preliminary Preparation
-
-
-
-To download Electrum, I recommend you follow the first steps in this tutorial:
-
-
-
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
-
-After downloading always verify the release before installing it, then proceed to "One Server" configuration, as you will find in the help section, under `Start with a Dummy Wallet`.
-
-
-
-The "One Server" configuration operation is only necessary for the Wallet installed on the daily computer, as the other computer will always be offline.
-
-
-
-The following operations involve practicing on two different computers (and Wallets), so-for convenience and focus-I chose to set the Wallet airgap with the light theme, while the Wallet display has the dark theme.
-
-
-
-## Wallet Airgap Creation
-
-
-
-After downloading and verifying the download of Electrum, take a copy of the executable and bring it to your computer offline. Then launch it and install Electrum.
-
-
-
-Double-click to start Electrum: the computer where you will use this Wallet is offline, ignore the network settings and go to the creation of the Wallet which, in this guide, we will call `airgap`.
-
-
+Avec un double clic, démarre Electrum : l’ordinateur sur lequel tu utilises ce wallet est hors ligne, ignore donc les paramètres réseau et procède directement à la création du wallet que, dans ce guide, nous appellerons `airgap`.
 
 ![image](assets/en/01.webp)
 
-
-
-Choose _Standard wallet_.
-
-
+Choisis _Standard wallet_.
 
 ![image](assets/en/02.webp)
 
-
-
-And then select _Create a new seed_ to have the software generate the Mnemonic.
-
-
+Puis sélectionne _Create a new seed_ pour générer la phrase mnémotechnique via le logiciel.
 
 ![image](assets/en/03.webp)
 
-
-
-Accurately transcribe the 12 generate words from Electrum onto a paper backing and proceed with the verification step, re-entering the words in order when Electrum requests it.
-
-
+Transcris soigneusement les 12 mots générés par Electrum sur un support papier et procède à la vérification en les ressaisissant dans l’ordre, lorsque le logiciel te le demande.
 
 ![image](assets/en/04.webp)
 
-
-
 ![image](assets/en/05.webp)
 
-
-
-After the Wallet creation is complete, set a complex password (`Strong`) to encrypt the Wallet file on the airgap device. This step is very delicate and important, as the password chosen now, prevents access to the Wallet which has dispositive power, being able to spend funds sign transactions.
-
-
+À la fin de la création du wallet, définis un mot de passe complexe (`Strong`) afin de chiffrer le fichier du wallet sur l’appareil airgap. Ce passage est très délicat et essentiel, car le mot de passe choisi à ce stade empêche tout accès au wallet qui détient la capacité de dépenser les fonds et de signer les transactions.
 
 ![image](assets/en/06.webp)
 
-
-
-By clicking _Finish_ the Wallet is defined and appears on the screen. Of course, the network connection indicator, i.e., the colored dot in the lower right corner, is red, as the computer is disconnected and does not allow Wallet to expose the online keys.
-
-
+En cliquant sur _Finish_, le wallet est créé et s’affiche à l’écran. Naturellement, l’indicateur de connexion réseau, représenté par le point coloré en bas à droite, est rouge, puisque l’ordinateur est déconnecté et que le wallet ne peut exposer aucune clé en ligne.
 
 ![image](assets/en/07.webp)
 
+## Création du Wallet de Visualisation
 
+Désormais, tes clés privées sont hors ligne. Il te faut préparer un wallet de visualisation, ou `watch-only`, qui te permettra de consulter le solde et de générer des transactions de réception afin de continuer à accumuler des sats en toute sécurité.
 
-## Creation Wallet of Visualization
-
-
-
-Now that your Wallet has offline private keys, you need to set up a display Wallet, or `watch-only`, which will allow you to view the balance, as well as prepare receipt transactions to continue to accumulate Sats safely.
-
-
-
-From the Wallet located on the offline device, choose the _Wallet_ -> _Information_ menu
-
-
+Depuis le wallet installé sur l’appareil hors ligne, choisis le menu _Wallet_ -> _Information_
 
 ![image](assets/en/08.webp)
 
-
-
-The window containing all your Wallet information will appear, where you can check `derivation path` and `master fingerprint`, for example to mark them next to the words in the Mnemonic sentence (strongly recommended).
-
-
+Une fenêtre s’ouvre avec toutes les informations de ton wallet, où tu peux vérifier le `derivation path` et le `master fingerprint`, que tu peux noter à côté de ta phrase mnémotechnique (fortement recommandé).
 
 ![image](assets/en/09.webp)
 
+Souviens-toi que ces données proviennent d’un ordinateur non connecté. Tu devras donc copier/coller la `zpub` dans un fichier texte et la sauvegarder sur une clé USB.
 
+Tu peux maintenant passer à l’ordinateur connecté à Internet, lancer Electrum et créer un nouveau wallet.
 
-Remember that you are taking this data from an unconnected computer, so you will have to copy/paste the `zpub` to a text file and save it to a usb stick.
-
-
-
-Now you can move to the computer connected to the Internet, to launch Electrum and create a new Wallet.
-
-
-
-From the _File_ menu, choose _New/Restore_.
-
-
+Depuis le menu _File_, choisis _New/Restore_.
 
 ![image](assets/en/10.webp)
 
-
-
-The new Wallet is view-only, so for this guide we will call it `watch-only`.
-
-
+Le nouveau wallet est en lecture seule ; dans ce guide, nous l’appellerons `watch-only`.
 
 ![image](assets/en/12.webp)
 
-
-
-On the next screen choose _Standard wallet_ and proceed by clicking _Next_.
-
-
+À l’écran suivant, sélectionne _Standard wallet_ et clique sur _Next_.
 
 ![image](assets/en/13.webp)
 
-
-
-In choosing the `Keystore` be careful: to create the display Wallet select _Use a master key_. Then proceed with _Next_.
-
-
+Lors du choix du `Keystore`, fais attention : pour créer le wallet de visualisation, sélectionne _Use a master key_. Clique ensuite sur _Next_.
 
 ![image](assets/en/14.webp)
 
-
-
-Paste here the `zpub` copied from Wallet offline and which you brought to this computer via usb media.
-
-
+Colle ici la `zpub` copiée depuis le wallet hors ligne et transférée via clé USB.
 
 ![image](assets/en/15.webp)
 
+Pour terminer, définis un mot de passe robuste également pour ce wallet, idéalement différent de celui du cold wallet correspondant.
 
+Le wallet de visualisation apparaîtra avec un avertissement. Le message rappelle qu’il s’agit d’un wallet en lecture seule et qu’il est impossible de dépenser les fonds associés.
 
-Conclude by setting a strong password for this Wallet as well, possibly different from the one chosen for its corresponding Cold.
-
-
-
-You will see the display Wallet appear, with a warning. The message reminds you that this is a display-only Wallet and that you cannot, with it, spend the associated funds.
-
-
-
-**Note Well**: **you will therefore need to always possess the private keys to dispose of the UTXOs of this Wallet**. With a good backup system, it will not be difficult for you to remain in full possession of your Bitcoins.
-
-
+**Nota Bene** : **il sera donc toujours nécessaire de posséder les clés privées pour dépenser les UTXO de ce wallet**. Avec un bon système de sauvegarde, tu conserveras sans difficulté la pleine propriété de tes bitcoins.
 
 ![image](assets/en/16.webp)
 
+Cet avertissement apparaîtra à chaque ouverture du wallet. Clique sur _Ok_ et passons à la vérification.
 
+## Vérification des Deux Wallets
 
-This warning will appear every single time you open this Wallet. Click _Ok_ and let's move on to the verification step.
+Comme nous l’avons appris au début de ce guide, un wallet airgap et son wallet de visualisation sont deux portefeuilles distincts, mais **partageant les mêmes adresses**.
 
-
-
-## Verification of the Two Wallet
-
-
-
-As we learned at the beginning of this guide, a Wallet airgap and its display Wallet are two portfolios that have different faculties but **share the same addresses**.
-
-
-
-If we look at the two Wallets side by side, visually we notice that in the Wallet airgap there is a "seed" symbol, while in the watch-only there is not. Even this detail will help you remember that the Wallet display Wallet does not have private keys.
-
-
+Si nous les comparons côte à côte, on remarque que dans le wallet airgap figure l’icône du « seed », alors qu’elle n’apparaît pas dans le wallet watch-only. Ce détail te rappellera que le wallet de visualisation n’a pas les clés privées.
 
 ![image](assets/en/17.webp)
 
-
-
-To make an accurate first check, however, select in both Wallets the `Addresses` menu: since they share the same addresses, the list of addresses should be identical for both.
-
-
+Pour une première vérification précise, sélectionne dans les deux wallets le menu `Addresses` : puisque les adresses sont partagées, la liste doit être identique dans les deux cas.
 
 ![image](assets/en/18.webp)
 
+⚠️ **ATTENTION** : **il ne peut y avoir aucune différence ; les adresses doivent être strictement identiques. Si elles diffèrent, il est nécessaire de tout supprimer et de recommencer depuis le début**.
 
+Tu peux maintenant effectuer deux vérifications supplémentaires. D’abord, supprime les deux wallets et restaure-les depuis zéro, chacun sur son ordinateur respectif. Pour le wallet de visualisation, les étapes sont identiques à celles décrites plus haut.
 
-⚠️ **ATTENTION**: **there can be no middle ground; the addresses must be the same. In case they are different, it is necessary to delete all the work done so far and start over**.
+Pour le wallet airgap, en revanche, à l’écran du `keystore`, choisis _I already have a seed_ et saisis les mots depuis ta sauvegarde papier.
 
+Une fois cette vérification « à blanc » terminée, tu peux effectuer une transaction avec un petit montant et la dépenser immédiatement.
 
+## Transactions de Réception et de Dépense
 
-Now you can proceed to do two different checks. First, try deleting the two Wallets and restoring them from scratch, each on the appropriate computer. In case you proceed to do this verification, the procedures for the display Wallet are identical to those set out above.
+Pour commencer à utiliser ton Electrum airgap, tu peux recevoir une petite somme, puis la dépenser vers une autre de tes adresses. Cela te permettra de te familiariser avec la procédure et de vérifier que tu as bien le contrôle de tes fonds.
 
+**Note** : je te déconseille de déposer une somme importante sur le wallet tant que tu n’es pas certain de pouvoir exécuter toutes les opérations avec aisance.
 
+Les étapes décrites ci-dessous peuvent sembler complexes de prime abord. Ne t’en inquiète pas : une fois la première tentative effectuée, tu verras qu’elles ne prennent que quelques minutes.
 
-For the Wallet airgap, however, on the `keystore` screen you will have to choose _I already have a seed_ and enter the words by copying them from your paper backup.
-
-
-
-After the "no-load" trial is over, you can try to make a transaction of a small amount and spend it immediately.
-
-
-
-## Receiving and Spending Transactions
-
-
-
-To begin using your Electrum airgap, you can make a receipt transaction with a small amount, then spend it toward an Address of your own. You can then familiarize yourself with the procedure, verifying that you are in full control of the funds.
-
-
-
-**Note**: I do not recommend that you deposit a large amount of funds on Wallet before you are confident that you can perform all operations smoothly.
-
-
-
-The steps explained below may, at first glance, seem complicated. Don't let this get you down: when you have given them your first try, you will find that they take only a few minutes to complete.
-
-
-
-To receive funds, you must necessarily use the display Wallet located on your computer connected to the Internet. From the `Receive` menu click on _Create request_ to have Electrum generate the first available Address and use it to send us a few Satss.
-
-
+Pour recevoir des fonds, tu dois obligatoirement utiliser le wallet de visualisation sur ton ordinateur connecté. Depuis le menu `Receive`, clique sur _Create request_ pour que Electrum génère la première adresse disponible et utilise-la pour y envoyer quelques sats.
 
 ![image](assets/en/19.webp)
 
-
-
 ![image](assets/en/20.webp)
 
-
-
-Once the transaction has been propagated you can already see that-as is natural- it is visible only on the display Wallet and not on the Wallet airgap.
-
-
+Une fois la transaction propagée, tu remarqueras – ce qui est normal – qu’elle est visible uniquement dans le wallet de visualisation et non dans le wallet airgap.
 
 ![image](assets/en/21.webp)
 
-
-
-After your transaction has received some confirmation, you can prepare the expense and thus try the signing procedure from the Wallet out-of-network. Then prepare the transaction on the watch-only and press _Preview_ to check it
-
-
+Après quelques confirmations, tu peux préparer une dépense et tester la procédure de signature sur le wallet hors ligne. Prépare la transaction sur le watch-only et clique sur _Preview_ pour la vérifier.
 
 ![image](assets/en/22.webp)
 
+La fenêtre de transaction avancée apparaît et tu constates que :
+- la transaction n’est pas signée (`Status: Unsigned`) ;
+- les commandes `Sign` et `Broadcast` sont désactivées.
 
+La seule opération possible est d’exporter la transaction telle quelle, afin de la transférer sur le wallet airgap pour signature.
 
-You get the advanced transaction window where you can see that:
-
-
-
-
-- the transaction is not signed (`Status: Unsigned);
-- `Sign` and `Broadcast` commands are inhibited.
-
-
-
-The only thing you can do is to export the transaction as is, to take it to the Wallet airgap and sign it.
-
-
-
-Introduce a USB flash drive into your computer and, from the menu at the bottom left, choose _Share_.
-
-
+Insère une clé USB dans ton ordinateur, puis depuis le menu en bas à gauche, choisis _Share_.
 
 ![image](assets/en/23.webp)
 
-
-
-After that select _Save to file_.
-
-
+Sélectionne ensuite _Save to file_.
 
 ![image](assets/en/24.webp)
 
+Sauvegarde la transaction sur la clé USB.
 
+Tu remarqueras qu’Electrum attribue au fichier un nom reprenant les premiers caractères du transaction ID, avec l’extension `.psbt`, signifiant `Partially Signed Bitcoin Transaction`.
 
-Save the transaction to the usb stick.
+Retire ensuite la clé USB et insère-la dans l’ordinateur hors ligne.
 
-
-
-You will notice that Electrum gives the file a name bearing the first digits of transaction ID, and the file extension is `.PSBT`, meaning `Partially Signed Bitcoin Transaction`.
-
-
-
-Extract the media with the `.PSBT` file and connect it to the computer offline.
-
-
-
-From the Wallet airgap, now choose the _Tools_ menu, then _Load transaction_ and following From file_.
-
-
+Depuis le wallet airgap, sélectionne le menu _Tools_, puis _Load transaction_ et ensuite _From file_.
 
 ![image](assets/en/25.webp)
 
-
-
-With the file manager, choose `.PSBT` from its location.
-
-
+Avec le gestionnaire de fichiers, choisis le `.psbt` à l’endroit où tu l’as sauvegardé.
 
 ![image](assets/en/29.webp)
 
-
-
-The off-network computer software will automatically open the advanced transaction window, completely identical to how you saw it on the Wallet display. The status is `Unsigned`, but the difference is that the `Sign` command here is active. And that is precisely what you will have to execute.
-
-
+Le logiciel hors ligne ouvrira automatiquement la fenêtre de transaction avancée, identique à celle vue sur le wallet de visualisation. Le statut est `Unsigned`, mais cette fois la commande `Sign` est active. C’est précisément ce qu’il faut exécuter.
 
 ![image](assets/en/26.webp)
 
-
-
 ![image](assets/en/27.webp)
 
+La transaction est maintenant signée, mais souviens-toi que ton wallet est sur une machine hors ligne. Même si le bouton `Broadcast` est actif, il est impossible de propager la transaction vers le réseau Bitcoin.
 
+Il te faut donc exporter à nouveau la transaction signée sur la clé USB, afin de l’importer sur l’ordinateur connecté et de la diffuser.
 
-Now that the transaction is signed, remember that your Wallet is on an offline machine. Therefore-even if you see the `Broadcast` command active-your Wallet will not be able to propagate the transaction to the Bitcoin network.
-
-
-
-What you need to do now is to repeat the operation of exporting the signed transaction to the usb stick, so that you can import it to a computer connected to the Internet and propagate it.
-
-
-
-From the bottom left menu, choose _Share_ again and then _Save to file_.
-
-
+Depuis le menu en bas à gauche, choisis encore _Share_ puis _Save to file_.
 
 ![image](assets/en/28.webp)
 
-
-
-Now the file has a different extension: **instead of `.PSBT` now the transaction has extension `.txn`. From now on this is how Electrum will let you recognize signed transactions from unsigned ones**.
-
-
+Le fichier a désormais une autre extension : **au lieu de `.psbt`, la transaction possède l’extension `.txn`. À partir de maintenant, Electrum distinguera ainsi les transactions signées des non signées**.
 
 ![image](assets/en/30.webp)
 
+Pour propager définitivement la transaction, retire la clé USB de l’ordinateur hors ligne et insère-la dans celui connecté à Internet.
 
-
-For the final propagation of the transaction, take the usb stick out of the off-line computer and insert it into the computer connected to the Internet.
-
-
-
-From the watch-only, repeat the import procedure, that is, from the _Tools_ menu select _Load transaction_ and finally _From file_.
-
-
+Depuis le wallet watch-only, répète l’importation en allant dans le menu _Tools_ -> _Load transaction_ -> _From file_.
 
 ![image](assets/en/31.webp)
 
+Electrum ouvrira la fenêtre de transaction, cette fois différente de celle vue précédemment sur ce wallet, car elle est signée (`Status: Signed`) et le bouton `Broadcast` est accessible.
 
-
-Electrum will open the transaction window for you, markedly different from the one shown earlier on this Wallet, in that it is now signed (`Status: Signed`) and the `Broadcast` command accessible.
-
-
-
-The last operation you need to do is just that:
-
-
+La dernière étape consiste précisément à cliquer sur ce bouton :
 
 ![image](assets/en/32.webp)
 
-
-
 ## Conclusions
 
+Tes tests sont maintenant terminés. Si tu as suivi ce guide et obtenu les mêmes résultats, tu as créé un wallet cold avec Electrum, réparti sur deux ordinateurs distincts, que tu pourras utiliser en mode airgap pour conserver tes bitcoins.
 
-
-Your tests are now finished. If you followed the guide and got the same results, you have created a Wallet Cold with Electrum, on two different computers, which you can use in airgap fashion to store your Bitcoins.
-
-
-
-The only things you will have to pay close attention to are two:
-
-
-1) **never use Wallet airgap to generate receiving addresses**. Since it is offline, it will always offer you the first Address, which coincides with the one you just used to make the test transaction;
-
-
+Deux points demandent ton attention maximale :
+1) **ne jamais utiliser le wallet airgap pour générer des adresses de réception**. Étant hors ligne, il proposera toujours la première adresse, qui correspond à celle utilisée pour la transaction de test ;
 
 ![image](assets/en/33.webp)
 
+_Comme tu peux le constater sur l’image ci-dessus, le wallet hors ligne ignore totalement l’historique de ses adresses. Il est complètement aveugle de ce point de vue. **Son seul rôle est de conserver les clés hors ligne et de signer tes transactions**._
 
-
-_As you can see from the image above, the offline Wallet does not know its own Address history. It is totally blind in this respect. **The only task it can do for you is to store your offline keys and sign your transactions**_.
-
-
-
-2) Use a USB flash drive dedicated only for this purpose, **don't use a medium you use frequently**. Everyday tools are more likely to be cyber-attacked, and unintentionally, you could attack even the computer you are keeping disconnected from the network. A USB stick that you use only for this purpose has very few opportunities to make contact with your PC online, especially if you are a hodler who doesn't have to spend, thus reducing the likelihood of receiving and then transmitting viruses, malware, etc.
+2) Utilise une clé USB dédiée uniquement à cet usage. **N’emploie pas un support que tu utilises fréquemment**. Les périphériques de stockage utilisés au quotidien présentent davantage de risques d’infection et, sans le vouloir, tu pourrais contaminer aussi l’ordinateur que tu maintiens déconnecté. Une clé USB réservée à cet usage n’aura que très rarement l’occasion d’être branchée à ton PC connecté, surtout si tu es un hodler qui dépense peu, ce qui réduit considérablement les risques de transmission de virus, malwares, etc.

@@ -1,0 +1,9 @@
+question: Hva er det som sikrer at den kritiske terskelen overskrides, ifølge perkolasjonsteorien?
+answer: Transaksjoner spres i hele nettverket
+wrong_answers:
+  - Umiddelbar opprettelse av en ny blokk
+  - Automatisk kostnadsundertrykkelse av noder
+  - Blokkering av en transaksjon av nettverket
+explanation: |
+  Når perkolasjonsterskelen er overskredet, forplanter en transaksjon seg nesten umiddelbart i hele Bitcoin-nettverket.
+reviewed: true

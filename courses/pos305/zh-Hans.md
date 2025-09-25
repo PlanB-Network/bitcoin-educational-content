@@ -572,7 +572,7 @@ BTCPay服务器使用 “mempoolfullrbf=1”；我们已将其作为默认设置
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### BTCPay服务器钱包设置

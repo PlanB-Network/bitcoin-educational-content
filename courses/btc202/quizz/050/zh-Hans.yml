@@ -1,0 +1,9 @@
+question: Electrs 和 Fulcrum 用于连接钱包的协议是什么？
+answer: 电石
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - 闪电 gRPC
+explanation: |
+  这些软件包会暴露一个 Electrum 服务器，这是许多钱包（如 Sparrow 或 Electrum Wallet）使用的标准。
+reviewed: true

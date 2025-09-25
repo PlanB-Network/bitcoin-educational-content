@@ -306,7 +306,7 @@ Kartica "*Filters*" vam omogućava upravljanje filtrima za e-poštu koju primate
 
 
 
-Kartica "Prosleđivanje i automatski odgovor*" omogućava vam upravljanje prosleđivanjem i automatskim odgovorom za vaše e-poruke.
+Kartica "Prosleđivanje i automatski odgovor" omogućava vam upravljanje prosleđivanjem i automatskim odgovorom za vaše e-poruke.
 
 
 

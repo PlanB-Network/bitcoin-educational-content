@@ -1,5 +1,5 @@
 ---
-name: 石墨烯OS
+name: GrapheneOS
 
 description: 一個基於安卓、專注於安全和隱私的行動作業系統
 ---
@@ -60,7 +60,7 @@ GrapheneOS 透過一些簡單的核心原則，為您的 Android 體驗提供額
 如果您採取這種方法，請嚴格要求自己，儘快斷絕對受監視替代品的依賴。我們人類很懶惰，通常會選擇阻力最小的路徑。請記住您一開始轉換的原因。
 
 
-*** 您選擇以時間，有時甚至是 Hard 賺來的金錢（取決於您安裝的替代應用程式）來支付，而不是以個人資料來支付。
+**您選擇以時間，有時甚至是辛苦賺來的金錢（取決於您安裝的替代應用程式）來支付，而不是以個人資料來支付。**
 
 
 ## 開始使用
@@ -484,10 +484,10 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-- Apple CarPlay/Android Auto** - 您需要堅持使用傳統的藍牙、USB 或 Aux。
-- Apple/Google Pay** - 無論如何，幾乎每個人都會隨身攜帶 Wallet！
-- 銀行應用程式** - 這些應用程式並非完全無法運作。有些可以，事實上非常好用。其他應用程式只能在啟用 Google Play 服務 (請參閱下文) 的情況下運作，其他應用程式則完全無法運作。請閱讀有關您銀行的報告 [這裡](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) 以瞭解目前的情況。如果您的銀行在無法運作的名單上，請不要害怕，記得您可以將 URL 儲存為網頁應用程式放在主畫面上。
-- 推播通知** - 大部分應用程式在不使用特定應用程式時，都會透過 Google Play 服務來傳送更新訊息給您。GrapheneOS 預設並未安裝這些服務，因此如果您發現朋友傳送電子郵件給您時，您沒有立即收到通知，很可能就是這個原因。好消息是，上面提到的一些應用程式已執行自己的背景連線，定期檢查更新，然後在需要時給您通知。
+- **Apple CarPlay/Android Auto** - 您需要堅持使用傳統的藍牙、USB 或 Aux。
+- **Apple/Google Pay** - 無論如何，幾乎每個人都會隨身攜帶 Wallet！
+- **銀行應用程式** - 這些應用程式並非完全無法運作。有些可以，事實上非常好用。其他應用程式只能在啟用 Google Play 服務 (請參閱下文) 的情況下運作，其他應用程式則完全無法運作。請閱讀有關您銀行的報告 [這裡](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) 以瞭解目前的情況。如果您的銀行在無法運作的名單上，請不要害怕，記得您可以將 URL 儲存為網頁應用程式放在主畫面上。
+- **推播通知** - 大部分應用程式在不使用特定應用程式時，都會透過 Google Play 服務來傳送更新訊息給您。GrapheneOS 預設並未安裝這些服務，因此如果您發現朋友傳送電子郵件給您時，您沒有立即收到通知，很可能就是這個原因。好消息是，上面提到的一些應用程式已執行自己的背景連線，定期檢查更新，然後在需要時給您通知。
 
 
 ### 沙盒的 Google Play
@@ -606,4 +606,3 @@ GrapheneOS 是一個任何人都可以輕鬆花上好幾個星期去探索的兔
 
 
 *本教程改編自 [BitcoinQnA 在 Bitcoiner.Guide 上以 MIT 授權發佈的原始內容](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md)，其最初的撰寫工作應完全歸功於 BitcoinQnA。*
-

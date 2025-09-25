@@ -233,8 +233,8 @@ Per effettuare un trasferimento, è necessario manipolare un portafoglio Bitcoin
 Nella maggior parte dei casi, l'interazione tra i partecipanti a un contratto (ad esempio, Alice e Bob) avviene tramite la generazione di una fattura. Se Alice vuole che Bob esegua qualcosa (un trasferimento di token, una riemissione, un'azione in un DAO, ecc.), Alice crea una fattura che dettaglia le sue istruzioni a Bob. Quindi abbiamo :
 
 
-- Alice** (l'emittente della fattura) ;
-- Bob** (che riceve ed esegue la fattura).
+- **Alice** (l'emittente della fattura) ;
+- **Bob** (che riceve ed esegue la fattura).
 
 A differenza di altri ecosistemi, una fattura RGB non si limita alla nozione di pagamento. Può incorporare qualsiasi richiesta legata al contratto: revocare una chiave, votare, creare un'incisione (*incisione*) su un NFT, ecc. L'operazione corrispondente può essere descritta nell'interfaccia del contratto. L'operazione corrispondente può essere descritta nell'interfaccia del contratto.
 

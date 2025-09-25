@@ -121,7 +121,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-Ili kufanya hivyo, nenda kwenye kichupo cha "* Usalama*" kwenye menyu ya "* Mipangilio".
+Ili kufanya hivyo, nenda kwenye kichupo cha "**Usalama**" kwenye menyu ya "**Mipangilio**".
 
 ![BITWARDEN](assets/notext/14.webp)
 

@@ -1,0 +1,9 @@
+question: Mis on determinism?
+answer: Kontseptsioon maailmast, milles ei ole ei juhuslikkust ega juhust.
+wrong_answers:
+  - Jumala poolt määratud maailmavaade.
+  - Ateismi vorm.
+  - Ebausk.
+explanation: |
+  Determinism on maailmavaade, milles ei ole ei juhuslikkust ega juhust. Iga sündmus on eelnevate põhjuste vältimatu tagajärg, vastavalt muutumatutele loodusseadustele.
+reviewed: false

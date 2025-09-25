@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Parandage oma veebiturvalisust Ledger abil
 ---
 ![cover](assets/cover.webp)

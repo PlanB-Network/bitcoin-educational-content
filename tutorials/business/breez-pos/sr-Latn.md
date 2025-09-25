@@ -16,9 +16,9 @@ _Ovaj tekst dolazi sa Breez dokumentacionog sajta: https://doc.breez.technology/
 
 
 
-- Lightning** je Bitcoin platna mreža koja smanjuje vreme transakcije sa minuta na milisekunde i naknade za transakcije sa nekoliko dolara na nekoliko centi ili manje. Lightning pretvara Bitcoin iz digitalnog zlata u digitalnu valutu, zadržavajući sve prednosti koje čine Bitcoin odličnim.
-- Nekustodijalno** znači da Breez ne preuzima vlasništvo nad novcem korisnika. Mnoge Lightning aplikacije preuzimaju vlasništvo nad novcem svojih korisnika. One su u suštini Bitcoin banke. Sa nekustodijalnom aplikacijom kao što je Breez, svi korisnici su svoje sopstvene banke.
-- Full-service** znači da Breez automatski i u pozadini brine o gotovo svim tehničkim operacijama. Stvari poput kreiranja kanala, dolazne likvidnosti i rutiranja ostaju ispod haube. (Ali Breez je takođe otvorenog koda, tako da su svi zainteresovani za reviziju tehnologije dobrodošli da to učine!)
+- **Lightning** je Bitcoin platna mreža koja smanjuje vreme transakcije sa minuta na milisekunde i naknade za transakcije sa nekoliko dolara na nekoliko centi ili manje. Lightning pretvara Bitcoin iz digitalnog zlata u digitalnu valutu, zadržavajući sve prednosti koje čine Bitcoin odličnim.
+- **Nekustodijalno** znači da Breez ne preuzima vlasništvo nad novcem korisnika. Mnoge Lightning aplikacije preuzimaju vlasništvo nad novcem svojih korisnika. One su u suštini Bitcoin banke. Sa nekustodijalnom aplikacijom kao što je Breez, svi korisnici su svoje sopstvene banke.
+- **Full-service** znači da Breez automatski i u pozadini brine o gotovo svim tehničkim operacijama. Stvari poput kreiranja kanala, dolazne likvidnosti i rutiranja ostaju ispod haube. (Ali Breez je takođe otvorenog koda, tako da su svi zainteresovani za reviziju tehnologije dobrodošli da to učine!)
 
 
 **Breez POS** je skraćenica za naš režim prodajnog mesta. Drugim rečima, Breez funkcioniše kao digitalna kasa za preduzeća i trgovce koji žele da prihvate Lightning uplate (pored svog "standardnog" režima, koji je kao digitalna verzija kožnog Wallet za Bitcoin, i plejera za podkaste sledeće generacije). Sada ćemo pogledati kako da postavite Breez kao Lightning kasu za vaše poslovanje.

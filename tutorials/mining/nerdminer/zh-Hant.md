@@ -1,5 +1,5 @@
 ---
-name: 書呆子
+name: Nerdminer
 description: 開始 Mining Bitcoin，勝算接近 0
 ---
 

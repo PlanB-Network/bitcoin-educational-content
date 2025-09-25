@@ -1,0 +1,9 @@
+question: Mikä asetus pakottaa Bitcoin core:n muodostamaan yhteyden vain Tor-verkon kautta?
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  Vainnet=onion -vaihtoehto rajoittaa kaikki lähtevät yhteydet Tor-verkkoon, kun taas listenonion=1 antaa sinun kuunnella vain saapuvia Tor-yhteyksiä.
+reviewed: true

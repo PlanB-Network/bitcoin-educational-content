@@ -75,9 +75,9 @@ Třetí část, "Nastavení vašeho plánu", se zaměřuje na váš osobní př�
 
 
 
-- hodler*, zaměřený na dlouhodobé držení Bitcoin ;
-- skladník*, který nakupuje pravidelně a metodicky;
-- uživatele*, který denně upřednostňuje používání Bitcoin;
+- **hodler**, zaměřený na dlouhodobé držení Bitcoin ;
+- **skladník**, který nakupuje pravidelně a metodicky;
+- **uživatele**, který denně upřednostňuje používání Bitcoin;
 - a nakonec *paranoik*, který chce maximální zabezpečení, aby účinně ochránil svůj majetek a soukromí.
 
 
@@ -98,6 +98,8 @@ Na konci tohoto kurzu získáte všechny praktické nástroje, které potřebuje
 
 Jste připraveni vydat se na cestu do světa Bitcoin? Jdeme na to!
 
+
+**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.network/resources/glossary) pro definice.
 
 # Předpoklady pro pochopení Bitcoin
 
@@ -122,11 +124,11 @@ Než budeme pokračovat, je důležité jasně rozlišit dva zásadně odlišné
 
 
 
-- Ekosystém Bitcoin** se soustředí na myšlenku zdravých peněz, postavenou na silné decentralizaci, dlouhodobé odolnosti, soukromí a individuální suverenitě. Od svého spuštění v roce 2009 funguje Bitcoin spolehlivě a bezpečně, podporován globální, angažovanou komunitou vývojářů. Nejedná se o přechodný trend, ale o stabilní a dobře zavedený protokol navržený tak, aby si uchoval hodnotu v průběhu času.
+- **Ekosystém Bitcoin** se soustředí na myšlenku zdravých peněz, postavenou na silné decentralizaci, dlouhodobé odolnosti, soukromí a individuální suverenitě. Od svého spuštění v roce 2009 funguje Bitcoin spolehlivě a bezpečně, podporován globální, angažovanou komunitou vývojářů. Nejedná se o přechodný trend, ale o stabilní a dobře zavedený protokol navržený tak, aby si uchoval hodnotu v průběhu času.
 
 
 
-- Na druhou stranu odvětví kryptoměn** je mnohem větší a zahrnuje desítky tisíc různých projektů, z nichž každý má svůj vlastní token. Tento prostor často pohání rychlé inovace, hype a krátkodobé finanční spekulace. Mnohé z těchto projektů jsou centralizované, méně bezpečné a nenabízejí mnoho skutečné hodnoty - navzdory odvážným slibům a okázalému marketingu.
+- Na druhou stranu odvětví kryptoměn je mnohem větší a zahrnuje desítky tisíc různých projektů, z nichž každý má svůj vlastní token. Tento prostor často pohání rychlé inovace, hype a krátkodobé finanční spekulace. Mnohé z těchto projektů jsou centralizované, méně bezpečné a nenabízejí mnoho skutečné hodnoty - navzdory odvážným slibům a okázalému marketingu.
 
 
 ![BTC102-Bitcoin](assets/fr/001.webp)
@@ -293,22 +295,22 @@ S ohledem na tuto skutečnost vám přinášíme několik dobrých návyků, kte
 
 
 
-- Buďte velmi obezřetní s jakýmikoliv investičními doporučeními do kryptoměn.**
+- Buďte velmi obezřetní s jakýmikoliv investičními doporučeními do kryptoměn.
 
 Důvěryhodná a znalá osoba vás nikdy nebude tlačit do nákupu kryptoměny, aniž by vás vyzvala, abyste si nejprve udělali vlastní průzkum.
 
 
-- Placené kurzy obchodování nebo investování nejsou vždy známkou kvality.**
+- Placené kurzy obchodování nebo investování nejsou vždy známkou kvality.
 
 Mnohé z těchto kurzů propagují riskantní nebo příliš zjednodušené strategie; často se jedná o stejné informace, které můžete najít zdarma online.
 
 
-- Neexistuje žádný zaručený způsob, jak kopírovat něčí obchody a dosáhnout stejných výsledků.**
+- Neexistuje žádný zaručený způsob, jak kopírovat něčí obchody a dosáhnout stejných výsledků.
 
 Každá investiční strategie závisí na osobních souvislostech, načasování, znalostech a dalších faktorech, které nelze přesně kopírovat.
 
 
-- Dávejte si pozor zejména na rady, které zní příliš dobře na to, aby byly pravdivé.**
+- Dávejte si pozor zejména na rady, které zní příliš dobře na to, aby byly pravdivé.
 
 Nerealistické sliby nebo zaručené zisky jsou téměř vždy známkou manipulace. Pamatujte si: to, že někdo něco sebevědomě říká, ještě neznamená, že je to pravda.
 
@@ -422,9 +424,9 @@ Jedním z nejčastějších důvodů, proč jsou lidé napadáni, je používán
 Správce hesel umožňuje:
 
 
-- Bezpečné uložení všech hesel** v šifrovaném trezoru
-- generate dlouhá, složitá a jedinečná hesla** automaticky pro každý účet
-- Používejte pouze jedno hlavní heslo**, abyste měli bezpečný přístup ke všemu
+- **Bezpečné uložení všech hesel** v šifrovaném trezoru
+- generate dlouhá, složitá a jedinečná hesla automaticky pro každý účet
+- Používejte pouze jedno hlavní heslo, abyste měli bezpečný přístup ke všemu
 
 
 Díky správci hesel už nikdy nebudete muset klikat na "Zapomenuté heslo" nebo se spoléhat na slabé, opakovaně používané přihlašovací údaje. Většina správců hesel navíc umožňuje bezproblémovou synchronizaci mezi zařízeními (počítač, telefon, tablet) a dokonce i automatické vyplňování přihlašovacích formulářů, takže bezpečný přístup je snadný a efektivní.
@@ -515,7 +517,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 
 
-- Šifrování** souborů pomocí nástrojů, jako je Bitlocker (pro Windows) nebo VeraCrypt (dostupný pro více platforem).
+- **Šifrování** souborů pomocí nástrojů, jako je Bitlocker (pro Windows) nebo VeraCrypt (dostupný pro více platforem).
 
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
@@ -567,7 +569,7 @@ Zde jsou klíčové body, které společně projdeme:
 - Uvědomte si **daňové důsledky** svých investic;
 - Pečlivě chraňte svou **frázi pro obnovení**;
 - Zůstaňte skromní a držte se **nízko** (diskrétnost je součástí bezpečnosti);
-- Přemýšlejte dlouhodobě**, přibližujte se a buďte trpěliví (berte to jako maraton, ne jako sprint).
+- Přemýšlejte **dlouhodobě**, přibližujte se a buďte trpěliví (berte to jako maraton, ne jako sprint).
 
 
 ![BTC102-Bitcoin](assets/fr/017.webp)
@@ -583,29 +585,29 @@ Bitcoin je otevřená všem, ale to neznamená, že byste se do ní měli vrhnou
 
 
 
-- Ztráta fráze seed:** Fráze pro obnovení (obvykle 12 nebo 24 slov) je jediným způsobem, jak získat přístup k vašemu Bitcoin, pokud se něco stane s vaším Wallet. Pokud ji ztratíte, vaše prostředky jsou trvale ztraceny;
-- Uložení bitcoinů na platformě třetí strany:** Pokud jsou vaše mince na centralizované platformě, ve skutečnosti je nevlastníte. Jste vystaveni rizikům, jako jsou hackerské útoky, selhání platformy nebo dokonce zabavení finančních prostředků;
-- Zanedbání ochrany soukromí:** Ochrana soukromí je základní součástí zabezpečení vašeho majetku. Veřejné odhalení toho, kolik Bitcoin vlastníte, by z vás mohlo udělat cíl;
-- Nedostatečné zabezpečení online:** Pokud svá zařízení nezabezpečíte pomocí základních ochran (jako jsou aktualizace, silná hesla nebo 2FA), stanete se snadným cílem útočníků a může vás to stát vše.
+- Ztráta fráze seed: **Fráze pro obnovení (obvykle 12 nebo 24 slov) je jediným způsobem, jak získat přístup k vašemu Bitcoin, pokud se něco stane s vaším Wallet. Pokud ji ztratíte, vaše prostředky jsou trvale ztraceny;**
+- **Uložení bitcoinů na platformě třetí strany:** Pokud jsou vaše mince na centralizované platformě, ve skutečnosti je nevlastníte. Jste vystaveni rizikům, jako jsou hackerské útoky, selhání platformy nebo dokonce zabavení finančních prostředků;
+- **Zanedbání ochrany soukromí:** Ochrana soukromí je základní součástí zabezpečení vašeho majetku. Veřejné odhalení toho, kolik Bitcoin vlastníte, by z vás mohlo udělat cíl;
+- **Nedostatečné zabezpečení online:** Pokud svá zařízení nezabezpečíte pomocí základních ochran (jako jsou aktualizace, silná hesla nebo 2FA), stanete se snadným cílem útočníků a může vás to stát vše.
 
 
 **Finanční chyby:**
 
 
 
-- Investovat více, než si můžete dovolit ztratit**: Nikdy se nezadlužujte a nevkládejte peníze na nájem do Bitcoin. Vaše základní finanční stabilita by měla být vždy na prvním místě.
+- **Investovat více, než si můžete dovolit ztratit**: Nikdy se nezadlužujte a nevkládejte peníze na nájem do Bitcoin. Vaše základní finanční stabilita by měla být vždy na prvním místě.
 
 
 
-- Neznalost rozdílu mezi obchodováním a investováním**: Obchodování vyžaduje čas, dovednosti a vážnou emocionální disciplínu. Dlouhodobé investování je pro začátečníky mnohem přívětivější.
+- **Neznalost rozdílu mezi obchodováním a investováním**: Obchodování vyžaduje čas, dovednosti a vážnou emocionální disciplínu. Dlouhodobé investování je pro začátečníky mnohem přívětivější.
 
 
 
-- Zapomeňte na daně**: Každá země má pro kryptoměny svá vlastní daňová pravidla. Jejich ignorování může vést k nepříjemným překvapením v budoucnu.
+- **Zapomeňte na daně**: Každá země má pro kryptoměny svá vlastní daňová pravidla. Jejich ignorování může vést k nepříjemným překvapením v budoucnu.
 
 
 
-- Propadnout FOMO**: Impulzivní nákupy ze strachu z promeškání obvykle vedou ke špatnému načasování a špatným rozhodnutím. Vaším nejlepším spojencem je trpělivost.
+- **Propadnout FOMO**: Impulzivní nákupy ze strachu z promeškání obvykle vedou ke špatnému načasování a špatným rozhodnutím. Vaším nejlepším spojencem je trpělivost.
 
 
 ![BTC102-Bitcoin](assets/fr/019.webp)
@@ -749,14 +751,14 @@ Bitcoin není systém rychlého zbohatnutí.
 
 
 
-- Investice:**
+- **Investice:**
 
 
 Investoři mají střednědobý až dlouhodobý pohled a kupují Bitcoin s vírou, že jeho hodnota v průběhu času poroste (měsíce, roky nebo dokonce desetiletí). Stále zde samozřejmě existuje riziko, protože cena Bitcoin může výrazně kolísat. Tento přístup je však obecně klidnější a pro většinu lidí mnohem praktičtější, zejména pro ty, kteří nechtějí trávit každý den hodiny přilepení ke grafům.
 
 
 
-- Držení (HODL) :**
+- Držení (HODL) **:**
 
 
 "HODL" vzniklo jako překlep pro "hold" a rychle se stalo součástí kultury Bitcoin. Dnes je to čestný odznak.
@@ -797,9 +799,9 @@ Na závěr uvádíme několik nadčasových zásad, které by měl mít každý 
 
 
 
-- Pravidlo č. 1**: Nikdy neinvestujte více, než si můžete dovolit ztratit. Bitcoin je volatilní aktivum. Neriskujte svou finanční stabilitu v honbě za zisky. Vaše základní potřeby a klid by měly být vždy na prvním místě.
-- Pravidlo č. 2**: Nedůvěřujte slepě reklamám a zázračným radám. Ignorujte trendy a okázalé sliby. Místo toho se zaměřte na přijímání dobře informovaných a racionálních rozhodnutí. V případě pochybností se na ně vyspěte; proberte je s lidmi, kterým důvěřujete. Je lepší postupovat pomalu a promyšleně, než se pouštět do nákladných chyb.
-- Pravidlo č. 3**: Vytvořte si plán a držte se dlouhodobé vize.
+- **Pravidlo č. 1**: Nikdy neinvestujte více, než si můžete dovolit ztratit. Bitcoin je volatilní aktivum. Neriskujte svou finanční stabilitu v honbě za zisky. Vaše základní potřeby a klid by měly být vždy na prvním místě.
+- **Pravidlo č. 2**: Nedůvěřujte slepě reklamám a zázračným radám. Ignorujte trendy a okázalé sliby. Místo toho se zaměřte na přijímání dobře informovaných a racionálních rozhodnutí. V případě pochybností se na ně vyspěte; proberte je s lidmi, kterým důvěřujete. Je lepší postupovat pomalu a promyšleně, než se pouštět do nákladných chyb.
+- **Pravidlo č. 3**: Vytvořte si plán a držte se dlouhodobé vize.
 
 Důslednost, trpělivost a disciplína vás dovedou dál než krátkodobé nadšení. Nesnažte se o úspěch, ale o udržitelný růst. Vyhněte se fatálním chybám a nechte malá vítězství v průběhu času narůstat.
 
@@ -1119,15 +1121,15 @@ Jaké jsou však reálné možnosti ochrany vašich úspor ve světě, kde stát
 
 
 
-- Bankovní účty** mohou být zmrazeny během okamžiku, zabaveny na základě jednoduchého vládního příkazu nebo vyčerpány v důsledku nadměrných peněžních omezení.
+- **Bankovní účty** mohou být zmrazeny během okamžiku, zabaveny na základě jednoduchého vládního příkazu nebo vyčerpány v důsledku nadměrných peněžních omezení.
 
 
 
-- Zlato**, ačkoli sloužilo jako uchovatel hodnoty po tisíciletí, je obtížné rozdělit, nepohodlné pro přepravu a nepraktické pro použití v naléhavých krizových situacích.
+- **Zlato**, ačkoli sloužilo jako uchovatel hodnoty po tisíciletí, je obtížné rozdělit, nepohodlné pro přepravu a nepraktické pro použití v naléhavých krizových situacích.
 
 
 
-- Hotovost** je sice anonymní, ale je objemná, snadno zabavitelná a neustále ztrácí hodnotu v důsledku inflace.
+- **Hotovost** je sice anonymní, ale je objemná, snadno zabavitelná a neustále ztrácí hodnotu v důsledku inflace.
 
 
 Bitcoin je však více než jen praktický nástroj. Je to také **pokojná forma protestu**; vyhlášení nezávislosti na finančním systému založeném na svévolné moci, centralizaci a systémové nerovnosti. Zvolit si Bitcoin znamená odmítnout manipulaci, znehodnocování a dohled. Jde o znovuzískání vaší **suverenity**, zajištění vaší budoucnosti a obranu vašeho práva na kontrolu vlastního bohatství.
@@ -1189,8 +1191,8 @@ Tento systém je založen na slepé důvěře veřejnosti ve finanční instituc
 
 
 
-- Pokud vaše banka zkrachuje, vaše peníze mohou zmizet.** I v případě systémů pojištění vkladů historie ukázala, že tyto záruky mohou během systémových krizí selhat.
-- Pokud vaše banka omezí přístup k vašim prostředkům, je možné, že nebudete moci vybírat nebo používat své vlastní peníze**. To se stalo již mnohokrát; během ekonomického kolapsu v Řecku, Libanonu a Argentině nebo při politických potlačeních, jako byly protesty řidičů kamionů v Kanadě.
+- Pokud vaše banka zkrachuje, vaše peníze mohou zmizet. I v případě systémů pojištění vkladů historie ukázala, že tyto záruky mohou během systémových krizí selhat.
+- Pokud vaše banka omezí přístup k vašim prostředkům, je možné, že nebudete moci vybírat nebo používat své vlastní peníze. To se stalo již mnohokrát; během ekonomického kolapsu v Řecku, Libanonu a Argentině nebo při politických potlačeních, jako byly protesty řidičů kamionů v Kanadě.
 
 
 Bitcoin nabízí radikálně odlišný režim - otevřený, neutrální a nepodplatitelný. Jeho pravidla jsou pevně zakódována na základě konsensu a platí stejně pro všechny účastníky sítě.
@@ -1216,11 +1218,11 @@ Přijmout Bitcoin znamená zvolit zdravé peníze. Je to odmítnutí zůstat jen
 Bitcoineři pocházejí z různých společenských vrstev, ale mají společnou vizi: svět, kde je měnová suverenita v rukou jednotlivců, nikoli institucí. Patří mezi ně např:
 
 
-- Cypherpunkeři**, kteří se zasazují o soukromí a brání se sledování;
-- Utlačovaní občané**, kteří hledají útočiště před autoritářskými režimy a kontrolou kapitálu;
-- Anarchisté**, kteří považují Bitcoin za nástroj osvobození od státní kontroly;
-- Rakouští ekonomové**, kteří prosazují zdravé peníze a svobodu od vládní manipulace;
-- Inženýři, finančníci a zastánci svobody slova**, kteří si uvědomují hluboké společenské důsledky tohoto nového měnového paradigmatu.
+- **Cypherpunkeři**, kteří se zasazují o soukromí a brání se sledování;
+- **Utlačovaní občané**, kteří hledají útočiště před autoritářskými režimy a kontrolou kapitálu;
+- **Anarchisté**, kteří považují Bitcoin za nástroj osvobození od státní kontroly;
+- **Rakouští ekonomové**, kteří prosazují zdravé peníze a svobodu od vládní manipulace;
+- Inženýři, finančníci a zastánci svobody slova, kteří si uvědomují hluboké společenské důsledky tohoto nového měnového paradigmatu.
 
 
 ![BTC102-Bitcoin](assets/fr/043.webp)
@@ -1372,15 +1374,15 @@ Vzhledem k tomu, že Bitcoin je celosvětová síť, reagovaly jednotlivé země
 
 
 
-- Některé státy, jako například Čína, zavádějí přísná omezení**, čímž se snaží omezit užívání, aniž by ho skutečně zastavily.
+- Některé státy, jako například Čína, zavádějí **přísná omezení**, čímž se snaží omezit užívání, aniž by ho skutečně zastavily.
 
 
 
-- Některé jiné země, jako Švýcarsko nebo Kanada, nabízejí vstřícnější prostředí** a považují Bitcoin spíše za příležitost než za hrozbu.
+- Některé jiné země, jako Švýcarsko nebo Kanada, nabízejí **vstřícnější prostředí** a považují Bitcoin spíše za příležitost než za hrozbu.
 
 
 
-- Většina z nich stále není rozhodnuta**, experimentuje s regulacemi a snaží se vyvážit inovace s dohledem.
+- Většina z nich stále není rozhodnuta, experimentuje s regulacemi a snaží se vyvážit inovace s dohledem.
 
 
 ![BTC102-Bitcoin](assets/fr/056.webp)
@@ -1439,7 +1441,7 @@ Existuje několik typů platforem, z nichž každá je vhodná pro specifické p
 
 
 
-- Peer-to-peer platformy Exchange (P2P)**
+- **Peer-to-peer platformy Exchange (P2P)**
 
 
 Tyto platformy umožňují uživatelům nakupovat a prodávat bitcoiny přímo mezi sebou, bez centralizovaného zprostředkovatele. Nabízejí větší soukromí, zejména proto, že fungují bez nutnosti KYC. Můžete zde najít místní prodejce, se kterými můžete provádět osobní transakce nebo používat různé online platební metody (SEPA, Revolut, Wise atd.).
@@ -1459,7 +1461,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
-- Pouze platformy Bitcoin Exchange**
+- Pouze platformy **Bitcoin Exchange**
 
 
 Tyto platformy jsou uživatelsky přívětivé a nabízejí jednoduché a transparentní služby. Jsou určeny pouze pro Bitcoin. Často zavádějí řešení pro nákup bitcoinů prostřednictvím průměrování dolarových nákladů (DCA) a nabízejí automatické výběry na osobní Wallet. Jsou vhodné zejména pro začátečníky, kteří chtějí hromadit bitcoiny progresivním a bezpečným způsobem. Příklady: Bitcoiny, které se nacházejí na území České republiky, jsou v současnosti nejrozšířenější na světě: Relai, Bull Bitcoin, StackinSat, Bitstack...
@@ -1474,7 +1476,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
-- Platformy Exchange pro všeobecné použití nebo pro obchodování**
+- **Platformy Exchange pro všeobecné použití nebo pro obchodování**
 
 
 Tyto platformy nabízejí pokročilé funkce nad rámec pouhého nákupu Bitcoin, včetně pákového efektu a derivátů. Důrazně však nedoporučujeme obchodovat. Místo toho doporučujeme zakoupit Bitcoin a přesunout jej na vlastní Wallet. Obchodování je vysoce riziková činnost a obecně není vhodná pro ty, kteří se zaměřují na dlouhodobou akumulaci. Zůstat mimo hru obchodování je často rozumnější cesta.
@@ -1492,9 +1494,9 @@ https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-
 
 
 
-- Hacking**: Mnoho bitcoinů bylo ukradeno z napadených platforem (např. MtGox);
-- Vládní zabavení**: Vláda může platformu uzavřít a zmrazit prostředky jejích uživatelů;
-- Úpadek nebo podvod**: Řada platforem zmizela i s penězi svých zákazníků (např. FTX).
+- **Hacking**: Mnoho bitcoinů bylo ukradeno z napadených platforem (např. MtGox);
+- **Vládní zabavení**: Vláda může platformu uzavřít a zmrazit prostředky jejích uživatelů;
+- **Úpadek nebo podvod**: Řada platforem zmizela i s penězi svých zákazníků (např. FTX).
 
 
 Zlaté pravidlo je jednoduché: **Pokud nevlastníte své soukromé klíče, nevlastníte ani své bitcoiny**. Vždy si co nejdříve vyberte své prostředky na osobní účet Wallet, abyste si zajistili naprostou suverenitu nad svými penězi.
@@ -1522,9 +1524,9 @@ Odvětví Bitcoin Wallet je rozděleno do několika kategorií, z nichž každá
 
 
 
-- Hardware Wallet Výrobci**: Tyto společnosti vyvíjejí fyzická zařízení určená pro bezpečné ukládání klíčů. Některé jsou open-source, jiné nabízejí proprietární řešení s různými funkcemi a úrovní zabezpečení. Mezi nejvýznamnější jména patří Ledger, Trezor, Coinkite, Foundation a Shiftcrypto.
-- Software Wallet Vývojáři**: Jedná se o různé společnosti i nezávislé vývojáře, kteří vytvářejí mobilní a desktopové aplikace. Jejich nabídky se liší v uživatelském prostředí, zabezpečení a funkcích. Mezi příklady patří Sparrow, Wizard Sardine, Galoy, Synonym a Blockstream.
-- Peněženky DIY (*Do It Yourself*)**:Tato řešení s otevřeným zdrojovým kódem jsou určena pro pokročilé uživatele, kteří chtějí mít plnou kontrolu a minimálně se spoléhat na třetí strany. Sestavení vlastní peněženky Wallet snižuje závislost na důvěře a může zvýšit vaši bezpečnost. Mezi významné možnosti DIY patří Seedsigner a Specter DIY.
+- **Hardware Wallet Výrobci**: Tyto společnosti vyvíjejí fyzická zařízení určená pro bezpečné ukládání klíčů. Některé jsou open-source, jiné nabízejí proprietární řešení s různými funkcemi a úrovní zabezpečení. Mezi nejvýznamnější jména patří Ledger, Trezor, Coinkite, Foundation a Shiftcrypto.
+- **Software Wallet Vývojáři**: Jedná se o různé společnosti i nezávislé vývojáře, kteří vytvářejí mobilní a desktopové aplikace. Jejich nabídky se liší v uživatelském prostředí, zabezpečení a funkcích. Mezi příklady patří Sparrow, Wizard Sardine, Galoy, Synonym a Blockstream.
+- Peněženky DIY (*Do It Yourself*): Tato řešení s otevřeným zdrojovým kódem jsou určena pro pokročilé uživatele, kteří chtějí mít plnou kontrolu a minimálně se spoléhat na třetí strany. Sestavení vlastní peněženky Wallet snižuje závislost na důvěře a může zvýšit vaši bezpečnost. Mezi významné možnosti DIY patří Seedsigner a Specter DIY.
 
 
 Peněženky hrají v Bitcoin zásadní roli a budou podrobněji probrány později v tomto kurzu.
@@ -1543,9 +1545,9 @@ Ekosystém Mining se skládá z několika hlavních hráčů:
 
 
 
-- Výrobci hardwaru**:Společnosti jako Bitmain navrhují a vyrábějí ASIC (Application-Specific Integrated Circuits), ultraspecializované čipy vytvořené výhradně pro Mining Bitcoin.
-- Mining pools**:Jedná se o kolektivy těžařů, kteří kombinují svůj výpočetní výkon, aby zvýšili své šance na získání odměn. Vzhledem k rostoucí obtížnosti Mining nabízejí pooly předvídatelnější výplaty tím, že odměny za bloky (nově vytěžené bitcoiny a transakční poplatky) rozdělují mezi účastníky na základě jejich příspěvku. Mezi příklady patří Foundry USA, AntPool, F2Pool, MARA Pool a Braiins Pool.
-- Těžaři**:Jedná se o jednotlivce nebo organizace, které provozují hardware a software Mining. Na jedné straně stojí drobní těžaři používající stroje jako Antminer S9 a na druhé straně průmyslové provozy jako Galaxy Digital, které spravují obrovská zařízení určená pro Mining.
+- **Výrobci hardwaru**: Společnosti jako Bitmain navrhují a vyrábějí ASIC (Application-Specific Integrated Circuits), ultraspecializované čipy vytvořené výhradně pro Mining Bitcoin.
+- **Mining pools**: Jedná se o kolektivy těžařů, kteří kombinují svůj výpočetní výkon, aby zvýšili své šance na získání odměn. Vzhledem k rostoucí obtížnosti Mining nabízejí pooly předvídatelnější výplaty tím, že odměny za bloky (nově vytěžené bitcoiny a transakční poplatky) rozdělují mezi účastníky na základě jejich příspěvku. Mezi příklady patří Foundry USA, AntPool, F2Pool, MARA Pool a Braiins Pool.
+- **Těžaři**: Jedná se o jednotlivce nebo organizace, které provozují hardware a software Mining. Na jedné straně stojí drobní těžaři používající stroje jako Antminer S9 a na druhé straně průmyslové provozy jako Galaxy Digital, které spravují obrovská zařízení určená pro Mining.
 
 
 Mining je svět sám o sobě, který má mnoho vrstev, jež je třeba prozkoumat; do hry vstupují technické problémy, ekonomické pobídky a energetické aspekty. Zájemci, kteří chtějí tuto oblast prozkoumat hlouběji a skutečně pochopit, jak funguje, se v našem kurzu MIN201 dozvědí vše, co potřebují.
@@ -1563,9 +1565,9 @@ Vývoj Bitcoin lze chápat prostřednictvím několika odlišných skupin přisp
 
 
 
-- Bitcoin Hlavní vývojáři**, Jedná se o osoby, které udržují a vylepšují hlavního softwarového klienta. Mezi ně patří správci, kteří mají klíče ke správě úložiště. V roce 2025 jich je pět: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao a Ryan Ofsky. Dále jsou to přispěvatelé, kteří zasílají změny kódu, opravy chyb nebo vylepšení. Tyto návrhy procházejí vzájemným hodnocením a komunitní diskusí, než jsou přijaty.
-- Vývojáři vrstvených protokolů**,Tato skupina pracuje na technologiích, které staví na Bitcoin, jako je Lightning Network nebo RGB, a snaží se rozšířit možnosti Bitcoin, aniž by měnila jeho jádro.
-- Nezávislí vývojáři**, Tito vývojáři se zaměřují na vytváření nástrojů a aplikací pro zlepšení uživatelského komfortu, jako je například Mempool.space(vizuální Interface pro sledování transakční aktivity) nebo Alby( nástroje pro používání plateb Lightning v prohlížečích a aplikacích).
+- **Bitcoin Hlavní vývojáři**, Jedná se o osoby, které udržují a vylepšují hlavního softwarového klienta. Mezi ně patří správci, kteří mají klíče ke správě úložiště. V roce 2025 jich je pět: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao a Ryan Ofsky. Dále jsou to přispěvatelé, kteří zasílají změny kódu, opravy chyb nebo vylepšení. Tyto návrhy procházejí vzájemným hodnocením a komunitní diskusí, než jsou přijaty.
+- Vývojáři vrstvených protokolů, Tato skupina pracuje na technologiích, které staví na Bitcoin, jako je Lightning Network nebo RGB, a snaží se rozšířit možnosti Bitcoin, aniž by měnila jeho jádro.
+- **Nezávislí vývojáři**. Tito vývojáři se zaměřují na vytváření nástrojů a aplikací pro zlepšení uživatelského komfortu, jako je například Mempool.space(vizuální Interface pro sledování transakční aktivity) nebo Alby( nástroje pro používání plateb Lightning v prohlížečích a aplikacích).
 
 
 Změny v jádru Bitcoin může navrhnout kdokoli, ale proces je záměrně přísný. Zdokonalování nových nápadů často trvá roky a vyžaduje hluboké technické znalosti, široké zapojení komunity a několik úrovní přezkoumání. Návrhy jsou obvykle předkládány ve formě **Návrhů na zlepšení Bitcoin (BIP)** ; některé z nich se do protokolu nikdy nedostanou.
@@ -1608,7 +1610,7 @@ Mezi hlavní překryvné systémy obohacující ekosystém Bitcoin patří:
 
 
 
-- Lightning Network**:
+- **Lightning Network**:
 
 
 Lightning Network, který v roce 2016 vytvořili Thaddeus Dryja a Joseph Poon, je řešením druhé generace Layer, které má umožnit okamžité a levné platby. Dva uživatelé si mohou otevřít soukromý kanál, kde mohou provádět transakce, přičemž zůstatek se na Blockchain aktualizuje pouze při otevření nebo uzavření kanálu. Transakce v rámci kanálu probíhají off-chain, což znamená, že nemusí být jednotlivě zaznamenávány na Bitcoin Blockchain. Tato struktura umožňuje okamžité transakce a minimální poplatky, takže je ideální pro transakce s nízkou hodnotou, které vyžadují rychlé potvrzení.
@@ -1626,7 +1628,7 @@ Pokud máte zájem dozvědět se více o tom, jak Lightning funguje, nabízíme 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
-- Vedlejší řetězce** :
+- **Vedlejší řetězce**:
 
 
 Vedlejší řetězce jsou blokové řetězce, které běží paralelně s hlavním řetězcem Bitcoin. Jsou propojeny obousměrným pegem, který zajišťuje, že aktivum pohybující se mezi řetězci si zachovává stejnou hodnotu; to znamená, že Bitcoin na Sidechain má stále hodnotu jednoho Bitcoin na hlavním řetězci. Každý řetězec Sidechain má svůj vlastní mechanismus konsensu, který může být zcela samostatný nebo částečně závislý na mechanismu Bitcoin.
@@ -1644,7 +1646,7 @@ Pokud byste se chtěli tématu Liquid věnovat podrobněji, nabízíme pokročil
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
-- RGB** :
+- **RGB**:
 
 
 RGB je decentralizovaný systém Smart contract zaměřený na ochranu soukromí a navržený tak, aby fungoval nad Bitcoin a Lightning Network. Na rozdíl od tradičních platforem Smart contract používá RGB model Client-side Validation(což znamená, že celý Contract State je uložen off-chain a do Bitcoin jsou zveřejňovány pouze kryptografické závazky Blockchain). Tato konstrukce zlepšuje škálovatelnost i soukromí. Pomocí RGB mohou uživatelé vytvářet pokročilé inteligentní kontrakty pro vydávání tokenů, NFT, decentralizovaných identit nebo dokonce aplikací DeFi přímo na Bitcoin nebo Lightning.
@@ -1780,11 +1782,11 @@ Zde jsou některé faktory, které je třeba zvážit při výběru nejlepšího
 
 
 
-- Částka, kterou chcete investovat**: Kupujete malé množství, abyste mohli experimentovat a učit se bez velkého rizika? Nebo plánujete významnější investici, kterou chcete držet dlouhodobě?
-- Frekvence vašich investic**: Chcete provést jednorázový nákup a zajistit si své prostředky hned, nebo byste raději rozložili své nákupy v čase pomocí strategie, jako je Dollar-Cost Averaging (DCA), abyste vyrovnali kolísání cen?
-- Co chcete dělat se svými bitcoiny**: Držíte je výhradně jako dlouhodobé úspory? Používáte je ke každodenním platbám? Nebo snad od obojího trochu?
-- Váš postoj k ochraně soukromí**: Vyhovuje vám poskytování osobních údajů a používání centralizovaných platforem pro nákup Bitcoin? Nebo dáváte přednost metodám zaměřeným na ochranu soukromí, jako jsou peer-to-peer burzy bez KYC?
-- Vaše osobní, právní a zeměpisné souvislosti**: V závislosti na místě, kde žijete, může být přístup k některým burzám omezen. Místní zákony a daňové předpisy mohou také ovlivnit způsob uložení a použití vašeho Bitcoin.
+- **Částka, kterou chcete investovat**: Kupujete malé množství, abyste mohli experimentovat a učit se bez velkého rizika? Nebo plánujete významnější investici, kterou chcete držet dlouhodobě?
+- **Frekvence vašich investic**: Chcete provést jednorázový nákup a zajistit si své prostředky hned, nebo byste raději rozložili své nákupy v čase pomocí strategie, jako je Dollar-Cost Averaging (DCA), abyste vyrovnali kolísání cen?
+- Co chcete dělat se svými bitcoiny: Držíte je výhradně jako dlouhodobé úspory? Používáte je ke každodenním platbám? Nebo snad od obojího trochu?
+- **Váš postoj k ochraně soukromí**: Vyhovuje vám poskytování osobních údajů a používání centralizovaných platforem pro nákup Bitcoin? Nebo dáváte přednost metodám zaměřeným na ochranu soukromí, jako jsou peer-to-peer burzy bez KYC?
+- **Vaše osobní, právní a zeměpisné souvislosti**: V závislosti na místě, kde žijete, může být přístup k některým burzám omezen. Místní zákony a daňové předpisy mohou také ovlivnit způsob uložení a použití vašeho Bitcoin.
 
 
 Každý z těchto faktorů hraje roli při vytváření správné strategie pro vás. Někteří uživatelé ocení jednoduchost a snadné používání prostřednictvím regulovaných služeb, zatímco jiní budou preferovat samostatnější přístup zaměřený na ochranu soukromí.
@@ -1812,20 +1814,20 @@ Výběr správné strategie pro získání a zabezpečení bitcoinů začíná p
 
 
 
-- Kybernetické útoky**: Pokud nejste dobře informováni o kybernetické bezpečnosti nebo používáte zranitelná zařízení, můžete se stát terčem online útoků. V takovém případě může být bezpečnějším řešením uložení bitcoinů offline (úložiště Cold).
-- Fyzické hrozby**: Bohužel dochází k fyzickým útokům: vloupání, loupežná přepadení, dokonce i únosy se staly terčem držitelů Bitcoin. Přestože jsou tyto incidenty stále vzácné a většinou postihují vysoce postavené osoby, stojí za to je vzít v úvahu již na začátku při navrhování bezpečnostního nastavení.
+- **Kybernetické útoky**: Pokud nejste dobře informováni o kybernetické bezpečnosti nebo používáte zranitelná zařízení, můžete se stát terčem online útoků. V takovém případě může být bezpečnějším řešením uložení bitcoinů offline (úložiště Cold).
+- **Fyzické hrozby**: Bohužel dochází k fyzickým útokům: vloupání, loupežná přepadení, dokonce i únosy se staly terčem držitelů Bitcoin. Přestože jsou tyto incidenty stále vzácné a většinou postihují vysoce postavené osoby, stojí za to je vzít v úvahu již na začátku při navrhování bezpečnostního nastavení.
 
 
 
-- Přírodní katastrofy**: Pokud žijete v oblasti náchylné k požárům, záplavám nebo jiným extrémním povětrnostním jevům, je nezbytné mít odolný záložní systém, který ochrání vaše soukromé klíče.
+- **Přírodní katastrofy**: Pokud žijete v oblasti náchylné k požárům, záplavám nebo jiným extrémním povětrnostním jevům, je nezbytné mít odolný záložní systém, který ochrání vaše soukromé klíče.
 
 
 
-- Vládní konfiskace**: Pokud ve vaší zemi platí restriktivní nebo nestabilní finanční předpisy, můžete se setkat s omezením nákupu nebo používání Bitcoin. V takových případech budete chtít upřednostnit soukromá, neexekuční řešení.
+- **Vládní konfiskace**: Pokud ve vaší zemi platí restriktivní nebo nestabilní finanční předpisy, můžete se setkat s omezením nákupu nebo používání Bitcoin. V takových případech budete chtít upřednostnit soukromá, neexekuční řešení.
 
 
 
-- Ztráta paměti nebo ztráta dat**: Správa soukromých klíčů vyžaduje ukládání a načítání citlivých informací. Pokud se obáváte zapomnětlivosti nebo možných zdravotních problémů, je rozumné zavést silné zálohovací systémy; nebo dokonce zapojit do svého bezpečnostního plánu důvěryhodnou osobu.
+- **Ztráta paměti nebo ztráta dat**: Správa soukromých klíčů vyžaduje ukládání a načítání citlivých informací. Pokud se obáváte zapomnětlivosti nebo možných zdravotních problémů, je rozumné zavést silné zálohovací systémy; nebo dokonce zapojit do svého bezpečnostního plánu důvěryhodnou osobu.
 
 
 Chcete-li lépe porozumět svým zranitelným místům, ohodnoťte každé z těchto rizik na stupnici od 0 (nízké) do 10 (vysoké). Toto sebehodnocení vám pomůže stanovit priority správné ochrany pro další postup.
@@ -1859,10 +1861,10 @@ Vaše strategie ukládání a správy by měla odrážet způsob, jakým hodlát
 
 
 
-- Dlouhodobé úspory**: Bitcoin kupujete jako investici a neplánujete jej v dohledné době používat. V tomto případě je klíčové maximální zabezpečení a minimalizace rizika přístupu.
-- Postupná akumulace**: Pravidelně nakupujete malé množství. Dobře funguje strategie jako DCA (Dollar Cost Averaging) ve spojení s bezpečným Wallet.
-- Každodenní výdaje**: Bitcoin používáte jako peníze. Pro drobné každodenní platby používejte mobilní telefon Wallet (třeba s Bleskem) a většinu Bitcoin si nechte na bezpečnějším místě.
-- Příprava na důchod nebo předání majetku**: Chcete svůj majetek Bitcoin někomu předat později. Využijte nástroje, které vám umožní snadno a bezpečně převést finanční prostředky, až nastane ten správný čas. Lze zavést strategie, jako je Multisig s časovým zámkem nebo specifické dědické plány, které zajistí, že o své prostředky nepřijdete ani k nim nebudete mít přístup příliš brzy.
+- **Dlouhodobé úspory**: Bitcoin kupujete jako investici a neplánujete jej v dohledné době používat. V tomto případě je klíčové maximální zabezpečení a minimalizace rizika přístupu.
+- **Postupná akumulace**: Pravidelně nakupujete malé množství. Dobře funguje strategie jako DCA (Dollar Cost Averaging) ve spojení s bezpečným Wallet.
+- **Každodenní výdaje**: Bitcoin používáte jako peníze. Pro drobné každodenní platby používejte mobilní telefon Wallet (třeba s Bleskem) a většinu Bitcoin si nechte na bezpečnějším místě.
+- **Příprava na důchod nebo předání majetku**: Chcete svůj majetek Bitcoin někomu předat později. Využijte nástroje, které vám umožní snadno a bezpečně převést finanční prostředky, až nastane ten správný čas. Lze zavést strategie, jako je Multisig s časovým zámkem nebo specifické dědické plány, které zajistí, že o své prostředky nepřijdete ani k nim nebudete mít přístup příliš brzy.
 
 
 Jakmile si promyslíte svá rizika, životní styl a cíle, budete připraveni učinit chytrá rozhodnutí pro svou cestu s Bitcoin.
@@ -2088,12 +2090,12 @@ Nákup Bitcoin bez zveřejnění vaší identity je možností pro ty, kteří u
 
 
 
-- Peer-to-peer (P2P) mezi soukromými osobami**: Nákup přímo v hotovosti od osoby, které důvěřujete (přátelé, rodina, místní síť, setkání...), se vyhýbá jakýmkoli oficiálním záznamům o transakcích a udržuje vás mimo bankovní systém. Ačkoli je to pravděpodobně nejlepší způsob, jak získat nebo prodat Bitcoin, je spojen s rizikem fyzického napadení, protože se jedná o přímý kontakt tváří v tvář Exchange.
-- Platformy P2P**: Platformy, jako jsou Bisq, RoboSats a Peach, umožňují výměnu mezi soukromými osobami bez nutnosti ověřování totožnosti a k zabezpečení transakcí používají systémy úschovy. Tyto platformy stále nesou riziko krádeže, pokud druhá strana nespolupracuje, ale riziko je minimalizováno službami úschovy.
-- Bitcoin Bankomaty (ATM)**: Některé bankomaty (kiosky) umožňují nákup Bitcoin v hotovosti, avšak poplatky bývají vysoké a některé vyžadují ověření totožnosti při větších transakcích.
-- Platformy Exchange bez KYC**: Některé platformy, zejména ve Švýcarsku, umožňují nákup malých množství Bitcoin bez nutnosti ověření totožnosti.
-- Mining**: Jednotlivci mohou těžit Bitcoin. Starší nebo menší stroje jsou přístupné, což poskytuje netradiční způsob, jak získat Bitcoin bez KYC. Připojením k Mining pool můžete získávat pravidelné výplaty i se základním vybavením. Další informace najdete [v našich návodech k těžbě Mining](https://planb.network/tutorials/mining).
-- Platby / mzda v bitcoinech**: Pokud provozujete firmu, můžete jako platbu přijímat Bitcoin. Pokud jste zaměstnaní, můžete v závislosti na jurisdikci požádat o výplatu v Bitcoin. Tyto metody vám umožní získat Bitcoin bez nutnosti KYC.
+- **Peer-to-peer (P2P) mezi soukromými osobami**: Nákup přímo v hotovosti od osoby, které důvěřujete (přátelé, rodina, místní síť, setkání...), se vyhýbá jakýmkoli oficiálním záznamům o transakcích a udržuje vás mimo bankovní systém. Ačkoli je to pravděpodobně nejlepší způsob, jak získat nebo prodat Bitcoin, je spojen s rizikem fyzického napadení, protože se jedná o přímý kontakt tváří v tvář Exchange.
+- **Platformy P2P**: Platformy, jako jsou Bisq, RoboSats a Peach, umožňují výměnu mezi soukromými osobami bez nutnosti ověřování totožnosti a k zabezpečení transakcí používají systémy úschovy. Tyto platformy stále nesou riziko krádeže, pokud druhá strana nespolupracuje, ale riziko je minimalizováno službami úschovy.
+- **Bitcoin Bankomaty (ATM)**: Některé bankomaty (kiosky) umožňují nákup Bitcoin v hotovosti, avšak poplatky bývají vysoké a některé vyžadují ověření totožnosti při větších transakcích.
+- **Platformy Exchange bez KYC**: Některé platformy, zejména ve Švýcarsku, umožňují nákup malých množství Bitcoin bez nutnosti ověření totožnosti.
+- **Mining**: Jednotlivci mohou těžit Bitcoin. Starší nebo menší stroje jsou přístupné, což poskytuje netradiční způsob, jak získat Bitcoin bez KYC. Připojením k Mining pool můžete získávat pravidelné výplaty i se základním vybavením. Další informace najdete [v našich návodech k těžbě Mining](https://planb.network/tutorials/mining).
+- **Platby / mzda v bitcoinech**: Pokud provozujete firmu, můžete jako platbu přijímat Bitcoin. Pokud jste zaměstnaní, můžete v závislosti na jurisdikci požádat o výplatu v Bitcoin. Tyto metody vám umožní získat Bitcoin bez nutnosti KYC.
 
 
 **Výhody** :
@@ -2367,11 +2369,11 @@ Pokud se v těchto osobnostních rysech poznáváte, jste pravděpodobně rozen�
 
 
 
-- Trpělivost**: Hodler projevuje výjimečnou trpělivost. Jsou ochotni držet Bitcoin po celá léta (někdy i desetiletí), aniž by se nechali vyvést z míry každodenními výkyvy cen. Chápou, že se Bitcoin pohybuje v cyklech, a nepanikaří, když se cena propadne. Korekce jsou jen součástí hry. Pro hodlery se hodnota neměří v měsících, ale v dlouhodobém horizontu.;
-- Dlouhodobá vize** : Hodler myslí mnohem dál než jen na krátkodobý zisk. Věří ve strukturální růst Bitcoin a jeho postupné celosvětové přijetí. Navzdory volatilitě vidí vzestupnou trajektorii; trajektorii expanze následované konsolidací. Bitcoin je pro ně dlouhodobým aktivem, pojistkou proti inflaci a klíčovou součástí větší měnové revoluce;
-- Sebedisciplína**: Mentální disciplína je základem myšlení hodlera. Jejich největší výzvou je paradoxně nejednání. Odolávají nutkání prodávat během cenových nárůstů a nepodléhají strachu během propadů. Chápou, že Bitcoin přežila mnoho brutálních medvědích trhů; a že ti, kteří vydrží přes bolest, často těží nejvíce;
-- Emoční odolnost** : Cena Bitcoin může během několika týdnů klesnout o 50 % i více, a přesto zůstává hodler klidný. Osvojili si myšlenku, že volatilita neohrožuje základy společnosti Bitcoin. Tato emoční odolnost jim umožňuje zachovat si chladnou hlavu během nejistoty a udržet si racionální pohled na věc, když ostatní panikaří;
-- Víra v technologie**: Hodlery nepovažují Bitcoin pouze za spekulativní aktivum. Věří v jeho technologii a převratný potenciál. Pro mnohé z nich nejde jen o peníze, ale o svobodu. Bitcoin vnímají jako odolnou, apolitickou měnu a skutečnou alternativu k tradičnímu bankovnictví, která jednotlivcům umožňuje větší finanční suverenitu.
+- **Trpělivost**: Hodler projevuje výjimečnou trpělivost. Jsou ochotni držet Bitcoin po celá léta (někdy i desetiletí), aniž by se nechali vyvést z míry každodenními výkyvy cen. Chápou, že se Bitcoin pohybuje v cyklech, a nepanikaří, když se cena propadne. Korekce jsou jen součástí hry. Pro hodlery se hodnota neměří v měsících, ale v dlouhodobém horizontu.;
+- **Dlouhodobá vize**: Hodler myslí mnohem dál než jen na krátkodobý zisk. Věří ve strukturální růst Bitcoin a jeho postupné celosvětové přijetí. Navzdory volatilitě vidí vzestupnou trajektorii; trajektorii expanze následované konsolidací. Bitcoin je pro ně dlouhodobým aktivem, pojistkou proti inflaci a klíčovou součástí větší měnové revoluce;
+- **Sebedisciplína**: Mentální disciplína je základem myšlení hodlera. Jejich největší výzvou je paradoxně nejednání. Odolávají nutkání prodávat během cenových nárůstů a nepodléhají strachu během propadů. Chápou, že Bitcoin přežila mnoho brutálních medvědích trhů; a že ti, kteří vydrží přes bolest, často těží nejvíce;
+- **Emoční odolnost**: Cena Bitcoin může během několika týdnů klesnout o 50 % i více, a přesto zůstává hodler klidný. Osvojili si myšlenku, že volatilita neohrožuje základy společnosti Bitcoin. Tato emoční odolnost jim umožňuje zachovat si chladnou hlavu během nejistoty a udržet si racionální pohled na věc, když ostatní panikaří;
+- **Víra v technologie**: Hodlery nepovažují Bitcoin pouze za spekulativní aktivum. Věří v jeho technologii a převratný potenciál. Pro mnohé z nich nejde jen o peníze, ale o svobodu. Bitcoin vnímají jako odolnou, apolitickou měnu a skutečnou alternativu k tradičnímu bankovnictví, která jednotlivcům umožňuje větší finanční suverenitu.
 
 
 ![BTC102-Bitcoin](assets/fr/072.webp)
@@ -2407,13 +2409,13 @@ Výhody stohování :
 
 
 
-- Snížená volatilita**: Pravidelné nákupy pomáhají vyrovnávat cenové výkyvy, protože nakupujete více Sats, když jsou ceny nízké, a méně, když jsou vysoké.
-- Přístupnost**: Nepotřebujete velký počáteční kapitál. Můžete začít s pouhými 10 EUR měsíčně a postupem času částku DCA zvyšovat.
-- Disciplína a automatizace** : Stackeři se vyhýbají emocionálnímu rozhodování. Automatizované opakované nákupy zajišťují konzistenci a snižují riziko impulzivních kroků.
-- Dlouhodobá strategie**: Postupné investování zvyšuje šance na využití výhod býčích trhů a zároveň snižuje riziko během poklesů.
+- **Snížená volatilita**: Pravidelné nákupy pomáhají vyrovnávat cenové výkyvy, protože nakupujete více Sats, když jsou ceny nízké, a méně, když jsou vysoké.
+- **Přístupnost**: Nepotřebujete velký počáteční kapitál. Můžete začít s pouhými 10 EUR měsíčně a postupem času částku DCA zvyšovat.
+- **Disciplína a automatizace**: Stackeři se vyhýbají emocionálnímu rozhodování. Automatizované opakované nákupy zajišťují konzistenci a snižují riziko impulzivních kroků.
+- **Dlouhodobá strategie**: Postupné investování zvyšuje šance na využití výhod býčích trhů a zároveň snižuje riziko během poklesů.
 
 
-Tato metoda je vhodná zejména pro začátečníky**; odstraňuje tlak na časování trhu a umožňuje stabilní akumulaci bez nutnosti ručních prací.
+Tato metoda je vhodná zejména pro **začátečníky**; odstraňuje tlak na časování trhu a umožňuje stabilní akumulaci bez nutnosti ručních prací.
 
 
 ### Investiční plán společnosti Stacker
@@ -2429,7 +2431,7 @@ Zakladač potřebuje nastavení Wallet, které vyváží snadné používání a
 
 
 
-- Hot Wallet** : Ideální pro začátečníky, mobilní nebo stolní peněženky umožňují snadno přijímat Sats a provádět platby. Nejlépe se však hodí pro malé částky. Peněženky On-Chain jsou pro střádání výhodnější než peněženky Lightning kvůli lepší správě UTXO. Doporučené softwarové peněženky: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
+- **Hot Wallet**: Ideální pro začátečníky, mobilní nebo stolní peněženky umožňují snadno přijímat Sats a provádět platby. Nejlépe se však hodí pro malé částky. Peněženky On-Chain jsou pro střádání výhodnější než peněženky Lightning kvůli lepší správě UTXO. Doporučené softwarové peněženky: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
@@ -2450,7 +2452,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Hardware Wallet**: S rostoucím majetkem Bitcoin je pro minimalizaci rizika krádeže nezbytné zabezpečit své finanční prostředky pomocí Cold Wallet. Seriózní střadatel pravidelně přesouvá finanční prostředky ze svého Hot Wallet na Hardware Wallet. Příklady: Bitbox02, Trezor, Ledger, Coldcard, Jade...
+- **Hardware Wallet**: S rostoucím majetkem Bitcoin je pro minimalizaci rizika krádeže nezbytné zabezpečit své finanční prostředky pomocí Cold Wallet. Seriózní střadatel pravidelně přesouvá finanční prostředky ze svého Hot Wallet na Hardware Wallet. Příklady: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
@@ -2478,7 +2480,7 @@ Průměrování dolarových nákladů (DCA) je investiční strategie, při kter
 
 
 
-- Frekvence nákupu**: Vyberte si podle svých příjmů a cílů. Vyhněte se příliš častým nákupům, pokud by jejich výsledkem bylo mnoho drobných UTXO, které by se později prodražily. vycházíte ze svého rozpočtu a tolerance k riziku. důležitější než velikost je konzistence; je lepší střádat skromné částky po několik let, než se příliš zavázat a upustit od nich. Výši DCA lze samozřejmě upravovat podle toho, jak se vyvíjí vaše finanční situace.
+- **Frekvence nákupu**: Vyberte si podle svých příjmů a cílů. Vyhněte se příliš častým nákupům, pokud by jejich výsledkem bylo mnoho drobných UTXO, které by se později prodražily. vycházíte ze svého rozpočtu a tolerance k riziku. důležitější než velikost je konzistence; je lepší střádat skromné částky po několik let, než se příliš zavázat a upustit od nich. Výši DCA lze samozřejmě upravovat podle toho, jak se vyvíjí vaše finanční situace.
 
 
 
@@ -2560,11 +2562,11 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 
 
-- Organizace**: Dodržujte rozpočet, držte se svého plánu. Střadatelé musí zajistit, aby jejich plán akumulace byl životaschopný po dobu několika let.
-- Disciplína**: Dodržujte svůj plán, aniž byste reagovali na šumy na trhu. Pravidelnost má přednost před impulzivními úpravami. Stále je však možné provádět přiměřené úpravy.
-- Trpělivost**: Odměna za stohování není okamžitá. Tato strategie se vyvíjí dlouhodobě, někdy trvá roky, než přinese hmatatelné výsledky. Úspěšní jsou ti, kteří dokáží zůstat trpěliví a nenechají se ovlivnit krátkodobými výkyvy.
-- Finanční znalosti**: Důkladná znalost DCA, řízení rizik a základů trhu Bitcoin vám pomůže investovat s jistotou. Informovaný střadatel je lépe vybaven k tomu, aby odolal pochybnostem a vyhnul se impulzivním rozhodnutím v obdobích vysoké volatility.
-- Dlouhodobá vize**: Zakladač pevně věří v technologický potenciál Bitcoin. Nesoustředí se na krátkodobé cenové výkyvy, ale na stabilní růst svých podílů v průběhu let.
+- **Organizace**: Dodržujte rozpočet, držte se svého plánu. Střadatelé musí zajistit, aby jejich plán akumulace byl životaschopný po dobu několika let.
+- **Disciplína**: Dodržujte svůj plán, aniž byste reagovali na šumy na trhu. Pravidelnost má přednost před impulzivními úpravami. Stále je však možné provádět přiměřené úpravy.
+- **Trpělivost**: Odměna za stohování není okamžitá. Tato strategie se vyvíjí dlouhodobě, někdy trvá roky, než přinese hmatatelné výsledky. Úspěšní jsou ti, kteří dokáží zůstat trpěliví a nenechají se ovlivnit krátkodobými výkyvy.
+- **Finanční znalosti**: Důkladná znalost DCA, řízení rizik a základů trhu Bitcoin vám pomůže investovat s jistotou. Informovaný střadatel je lépe vybaven k tomu, aby odolal pochybnostem a vyhnul se impulzivním rozhodnutím v obdobích vysoké volatility.
+- **Dlouhodobá vize**: Zakladač pevně věří v technologický potenciál Bitcoin. Nesoustředí se na krátkodobé cenové výkyvy, ale na stabilní růst svých podílů v průběhu let.
 
 
 ![BTC102-Bitcoin](assets/fr/079.webp)
@@ -2582,7 +2584,7 @@ Dále: prozkoumáme radikálně odlišný profil bitcoinera - aktivního uživat
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 
-Stát se aktivním uživatelem Bitcoin znamená překročit rámec dlouhodobých investičních strategií. Na rozdíl od hodlera nebo střadatele, kteří především spoří, aniž by utráceli, aktivní uživatel přistupuje ke Bitcoin jako ke skutečnému prostředku Exchange**. Používá jej k placení za zboží a služby a aktivně se podílí na protihospodářství.
+Stát se aktivním uživatelem Bitcoin znamená překročit rámec dlouhodobých investičních strategií. Na rozdíl od hodlera nebo střadatele, kteří především spoří, aniž by utráceli, aktivní uživatel přistupuje ke Bitcoin jako ke skutečnému prostředku **Exchange**. Používá jej k placení za zboží a služby a aktivně se podílí na protihospodářství.
 
 
 ![BTC102-Bitcoin](assets/fr/083.webp)
@@ -2595,21 +2597,21 @@ Každodenní používání Bitcoin přináší individuální i kolektivní výh
 
 
 
-- Podpora ekosystému Bitcoin prostřednictvím přijetí** :
+- Podpora ekosystému Bitcoin prostřednictvím **přijetí**:
 
 
 Každá transakce posiluje legitimitu Bitcoin jako měny a podporuje další obchodníky a služby, aby ji přijímali. Používání měny Bitcoin je hlasováním pro její užitečnost. Peníze odvozují svou hodnotu od své schopnosti usnadňovat obchod, nikoliv směnu. Pokud měnu nepřijímají žádní obchodníci, nemá objektivní hodnotu. Čím více zboží a služeb si za ni můžete koupit, tím je užitečnější. Tím, že se rozhodnete platit měnou Bitcoin, směřujete hodnotu k obchodníkům, kteří ji přijímají. To zvyšuje jejich zisky a může časem snížit zisky konkurentů, kteří ji odmítají. V rámci celé komunity může tato dynamika podpořit širší přijetí Bitcoin a přispět k pozitivnímu cyklu přijetí.
 
 
 
-- Využijte jedinečné funkce Bitcoin** :
+- Využijte jedinečné funkce **Bitcoin**:
 
 
 Bitcoin nabízí několik výkonných funkcí, jako jsou rychlé transakce prostřednictvím Lightning Network a osvobození od cenzury, finančního dohledu a seigniorage. Jeho hlavní hodnota spočívá v odstranění vládní kontroly nad penězi Supply a umožnění necenzurovatelných transakcí. Pokud se tyto výhody shodují s vašimi osobními potřebami a hodnotami, možná zjistíte, že vám profil Aktivní uživatel vyhovuje.
 
 
 
-- Učte se praxí** :
+- **Učte se praxí** :
 
 
 Aktivní používání Bitcoin vám pomůže získat zkušenosti z reálného světa. Seznámíte se s typy Wallet, ochranou osobních údajů při platbách a správou UTXO. Každodenní používání se stane praktickým výukovým prostředím.
@@ -2727,7 +2729,7 @@ Existuje několik způsobů, jak si Bitcoin pořídit, v závislosti na úrovni 
 
 
 
-- Tradiční nákup přes regulované platformy**, jako je Bitfinex nebo Bull Bitcoin (ideální pro doplnění Cold Wallet);
+- Tradiční nákup přes regulované platformy, jako je **Bitfinex** nebo **Bull Bitcoin** (ideální pro doplnění Cold Wallet);
 
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
@@ -2747,7 +2749,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
-- Získání bez KYC** prostřednictvím peer-to-peer služeb, jako jsou Peach, Robosaty nebo bankomaty Bitcoin, které vám umožní přidat se ke svému Wallet bez zveřejnění osobních údajů.
+- **Získání bez KYC** prostřednictvím peer-to-peer služeb, jako jsou Peach, Robosaty nebo bankomaty Bitcoin, které vám umožní přidat se ke svému Wallet bez zveřejnění osobních údajů.
 
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
@@ -2761,7 +2763,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
-- Vydělávání v Bitcoin**, Být aktivním uživatelem není jen o utrácení BTC, ale také o jejich vydělávání. Pokud provozujete podnik, zvažte možnost přijímat Bitcoin jako platbu. Jste-li zaměstnanec, zjistěte, zda váš zaměstnavatel nenabízí možnost dostávat celý plat nebo jeho část v BTC.
+- **Vydělávání v Bitcoin**, Být aktivním uživatelem není jen o utrácení BTC, ale také o jejich vydělávání. Pokud provozujete podnik, zvažte možnost přijímat Bitcoin jako platbu. Jste-li zaměstnanec, zjistěte, zda váš zaměstnavatel nenabízí možnost dostávat celý plat nebo jeho část v BTC.
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
@@ -2809,10 +2811,10 @@ Jste připraveni být aktivním uživatelem Bitcoin? Zde jsou klíčové vlastno
 
 
 
-- Pragmatismus a Commitment:** Máte motivaci začlenit Bitcoin do svého každodenního života a aktivně se podílet na růstu jeho ekosystému. Uvědomujete si výhody i výzvy, které s tím souvisejí.
-- Technické znalosti:** Buď již dobře rozumíte tomu, jak peněženky Bitcoin a Lightning Network fungují, nebo se to chcete naučit. Bez problémů se orientujete v pokročilých koncepcích, jako je správa UTXO.
-- Flexibilita a přizpůsobivost:** Jste otevřeni zkoušení nových nástrojů, přepínání mezi řešeními a úpravám svých postupů podle toho, jak se vyvíjí ekosystém Bitcoin a mění vaše potřeby.
-- Finanční disciplína:** S výdaji a úsporami v Bitcoin hospodaříte pečlivě. Chápete, že je důležité jasně oddělit každodenní finanční prostředky od dlouhodobých úspor.
+- **Pragmatismus a Commitment:** Máte motivaci začlenit Bitcoin do svého každodenního života a aktivně se podílet na růstu jeho ekosystému. Uvědomujete si výhody i výzvy, které s tím souvisejí.
+- **Technické znalosti:** Buď již dobře rozumíte tomu, jak peněženky Bitcoin a Lightning Network fungují, nebo se to chcete naučit. Bez problémů se orientujete v pokročilých koncepcích, jako je správa UTXO.
+- **Flexibilita a přizpůsobivost:** Jste otevřeni zkoušení nových nástrojů, přepínání mezi řešeními a úpravám svých postupů podle toho, jak se vyvíjí ekosystém Bitcoin a mění vaše potřeby.
+- **Finanční disciplína:** S výdaji a úsporami v Bitcoin hospodaříte pečlivě. Chápete, že je důležité jasně oddělit každodenní finanční prostředky od dlouhodobých úspor.
 
 
 ![BTC102-Bitcoin](assets/fr/082.webp)
@@ -2846,11 +2848,11 @@ Volba přístupu zaměřeného na ochranu soukromí přináší několik klíčo
 
 
 
-- Finanční nezávislost:** Tím, že zůstanete mimo radar bank, vlád a korporací, se chráníte před dohledem a nežádoucími zásahy.
-- Ochrana majetku:** Pokud se ekonomické nebo politické podmínky stanou nestabilními, je pro třetí strany mnohem obtížnější vystopovat nebo zabavit váš majetek Bitcoin, pokud není spojen s vaší identitou.
-- Zvýšená osobní bezpečnost:** Lidé, o nichž je známo, že drží velké množství Bitcoin, se mohou stát terčem útoků. Udržování vaší identity v tajnosti snižuje riziko, že se stanete terčem útoku.
-- Svoboda od diskriminace**: Některé služby nebo vlády mohou blokovat transakce nebo účty na základě vaší dřívější činnosti nebo toho, kdo jste. Ochrana soukromí tuto moc drží pod kontrolou.
-- Zůstat věrný kořenům Bitcoin:** Bitcoin byl navržen jako forma peněz odolná vůči cenzuře a bez povolení. Ochrana vašeho soukromí je součástí dodržování tohoto původního poslání.
+- **Finanční nezávislost:** Tím, že zůstanete mimo radar bank, vlád a korporací, se chráníte před dohledem a nežádoucími zásahy.
+- **Ochrana majetku:** Pokud se ekonomické nebo politické podmínky stanou nestabilními, je pro třetí strany mnohem obtížnější vystopovat nebo zabavit váš majetek Bitcoin, pokud není spojen s vaší identitou.
+- **Zvýšená osobní bezpečnost:** Lidé, o nichž je známo, že drží velké množství Bitcoin, se mohou stát terčem útoků. Udržování vaší identity v tajnosti snižuje riziko, že se stanete terčem útoku.
+- **Svoboda od diskriminace**: Některé služby nebo vlády mohou blokovat transakce nebo účty na základě vaší dřívější činnosti nebo toho, kdo jste. Ochrana soukromí tuto moc drží pod kontrolou.
+- **Zůstat věrný kořenům Bitcoin:** Bitcoin byl navržen jako forma peněz odolná vůči cenzuře a bez povolení. Ochrana vašeho soukromí je součástí dodržování tohoto původního poslání.
 
 
 Je to chytrá a promyšlená reakce na velmi reálné hrozby, které v dnešním digitálním a finančním prostředí existují. Ano, tento přístup vyžaduje větší úsilí. Vyžaduje čas, technické znalosti a disciplínu. Ale pro ty, kteří se rozhodnou pro tuto cestu, nejde jen o používání Bitcoin; jde o znovuzískání kontroly nad svými penězi, identitou a svobodou.
@@ -2874,7 +2876,7 @@ Paranoidní uživatel nikdy nemíchá finanční prostředky podle původu nebo 
 
 
 
-- A Cold Wallet (vzduchem uzavřené a/nebo DIY)** Dlouhodobé podíly jsou uloženy ve vysoce zabezpečených, vzduchem uzavřených nebo DIY peněženkách. Obvykle se jedná o zařízení s otevřeným zdrojovým kódem nebo o zařízení s ověřitelným kódem, jako jsou Jade, Coldcard, SeedSigner, Portal nebo Passport... Kdykoli je to možné, získají tato zařízení anonymně; buď platbou v hotovosti nebo pomocí Bitcoin v kamenném obchodě, nebo objednávkou online s možností diskrétní dopravy a platby BTC. Ve Francii je například jedním z takových obchodů [Bitcoin Bazar](https://bitcoinbazar.fr/). Podobné poskytovatele můžete vyhledat i ve svém regionu.
+- **A Cold Wallet (vzduchem uzavřené a/nebo DIY)** Dlouhodobé podíly jsou uloženy ve vysoce zabezpečených, vzduchem uzavřených nebo DIY peněženkách. Obvykle se jedná o zařízení s otevřeným zdrojovým kódem nebo o zařízení s ověřitelným kódem, jako jsou Jade, Coldcard, SeedSigner, Portal nebo Passport... Kdykoli je to možné, získají tato zařízení anonymně; buď platbou v hotovosti nebo pomocí Bitcoin v kamenném obchodě, nebo objednávkou online s možností diskrétní dopravy a platby BTC. Ve Francii je například jedním z takových obchodů [Bitcoin Bazar](https://bitcoinbazar.fr/). Podobné poskytovatele můžete vyhledat i ve svém regionu.
 
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -2886,7 +2888,7 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- Hot Wallet pro každodenní transakce**, Pro pravidelné výdaje volí paranoidní uživatelé peněženky zaměřené na ochranu soukromí, jako jsou Ashigaru, Wasabi Wallet nebo Sparrow Wallet. Tyto peněženky podporují pokročilé funkce, jako jsou: mini-CoinJoin výdajové transakce, payjoins, potenciálně CoinJoin nástroje, kontrola mincí, UTXO tagování nebo možnost připojení přes vlastní uzel Bitcoin.
+- **Hot Wallet pro každodenní transakce** - Pro pravidelné výdaje volí paranoidní uživatelé peněženky zaměřené na ochranu soukromí, jako jsou Ashigaru, Wasabi Wallet nebo Sparrow Wallet. Tyto peněženky podporují pokročilé funkce, jako jsou: mini-CoinJoin výdajové transakce, payjoins, potenciálně CoinJoin nástroje, kontrola mincí, UTXO tagování nebo možnost připojení přes vlastní uzel Bitcoin.
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
@@ -2946,7 +2948,7 @@ V širším smyslu tento typ uživatelů uplatňuje pokročilý přístup k výp
 
 
 
-- Operační systémy** v telefonu i v počítači;
+- **Operační systémy** v telefonu i v počítači;
 
 
 https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
@@ -2956,7 +2958,7 @@ https://planb.network/tutorials/computer-security/operating-system/linux-mint-da
 https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
-- Nástroje pro ověřování** ;
+- **Nástroje pro ověřování**;
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -2968,7 +2970,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
-- Komunikační nástroje**;
+- **Komunikační nástroje**;
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
@@ -2980,7 +2982,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
-- Nástroje pro správu dat**.
+- **Nástroje pro správu dat**.
 
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
@@ -3001,7 +3003,7 @@ Základní zásadou paranoidního investora je pořídit si Bitcoin, aniž by je
 
 
 
-- P2P nákup platforem**, jako jsou Bisq, Robosat, LNP2PBot, Peach, HODL HODL atd. ;
+- P2P nákup platforem, jako jsou **Bisq, Robosat, LNP2PBot, Peach, HODL HODL** atd. ;
 
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
@@ -3015,15 +3017,15 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
-- Osobní výměna peněz**, například na místních setkáních Bitcoin;
+- **Osobní výměna peněz**, například na místních setkáních Bitcoin;
 
 
 https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
-- Bankomaty Bitcoin**;
-- Získání Sats** poskytnutím zboží nebo služeb v Exchange pro Bitcoin;
-- Mining bitcoinů**.
+- Bankomaty **Bitcoin**;
+- Získání **Sats** poskytnutím zboží nebo služeb v Exchange pro Bitcoin;
+- Mining bitcoinů.
 
 
 https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
@@ -3045,11 +3047,11 @@ I po anonymním získání mincí může dojít k úniku osobních údajů On-Ch
 
 
 
-- Zamezení opětovného použití Address**, a to buď ručně, nebo pomocí pokročilých nástrojů, jako jsou Silent Payments nebo BIP47 ;
-- Označování UTXO** ;
-- Nácvik ovládání rohů při utrácení** ;
-- Vyhnutí se konsolidaci UTXO** ;
-- Používání transakčních struktur, které chrání soukromí**: coinjoins, payjoins, ricochets a mini-payment coinjoins...
+- Zamezení opětovného použití **Address**, a to buď ručně, nebo pomocí pokročilých nástrojů, jako jsou Silent Payments nebo BIP47 ;
+- **Označování UTXO**;
+- Nácvik ovládání rohů při utrácení ;
+- Vyhnutí se konsolidaci **UTXO**;
+- Používání transakčních struktur, které chrání soukromí: **coinjoins, payjoins, ricochets a mini-payment coinjoins**...
 
 
 Jsou také obeznámeni se základy sledování Blockchain a vědí, jak společnosti sledují aktivity. Díky pochopení heuristiky a vzorců, které používají firmy zabývající se analýzou řetězců, mohou podniknout aktivní kroky, aby se nedostali do známých pastí.
@@ -3085,11 +3087,11 @@ Zde jsou hlavní rysy paranoidního bitcoinera:
 
 
 
-- Ostražitý a dbající na bezpečnost**: Jste ochotni přijmout další opatření, abyste zabránili úniku osobních informací. Finanční dohled považujete za vážnou hrozbu a aktivně hledáte způsoby, jak se před ním chránit.
-- Nezávislý**: Odmítáte se spoléhat na služby třetích stran při ukládání, správě nebo převodu vašich bitcoinů. Jste připraveni hostovat vlastní uzly Bitcoin a Lightning, používat komplexní peněženky a převzít plnou odpovědnost za správu svých záloh a soukromých klíčů.
-- Nedůvěřivý**: Důvěryhodnost: aktivně se vyhýbáte platformám KYC a dáváte přednost anonymním metodám získávání P2P, i když to znamená, že za ně zaplatíte vyšší cenu. Chápete, že veškeré sdílené osobní údaje mohou být jednoho dne použity proti vám.
-- Znalosti a disciplína**:Máte nadšení pro kybernetickou bezpečnost a technologie zvyšující ochranu soukromí. Věnujete čas studiu dostupných řešení, testování nástrojů, vzděláváte se v oblasti osvědčených postupů a uplatňujete přísné metodiky pro minimalizaci rizik.
-- Pragmatičtí a realističtí**:Chápete, že úplná anonymita je téměř nemožná, ale snažíte se co nejvíce omezit své odhalení a zároveň vyvážit soukromí, bezpečnost a použitelnost. Váš přístup se neustále vyvíjí v reakci na nové hrozby a technologický vývoj.
+- **Ostražitý a dbající na bezpečnost**: Jste ochotni přijmout další opatření, abyste zabránili úniku osobních informací. Finanční dohled považujete za vážnou hrozbu a aktivně hledáte způsoby, jak se před ním chránit.
+- **Nezávislý**: Odmítáte se spoléhat na služby třetích stran při ukládání, správě nebo převodu vašich bitcoinů. Jste připraveni hostovat vlastní uzly Bitcoin a Lightning, používat komplexní peněženky a převzít plnou odpovědnost za správu svých záloh a soukromých klíčů.
+- **Nedůvěřivý**: Důvěryhodnost: aktivně se vyhýbáte platformám KYC a dáváte přednost anonymním metodám získávání P2P, i když to znamená, že za ně zaplatíte vyšší cenu. Chápete, že veškeré sdílené osobní údaje mohou být jednoho dne použity proti vám.
+- **Znalosti a disciplína**: Máte nadšení pro kybernetickou bezpečnost a technologie zvyšující ochranu soukromí. Věnujete čas studiu dostupných řešení, testování nástrojů, vzděláváte se v oblasti osvědčených postupů a uplatňujete přísné metodiky pro minimalizaci rizik.
+- **Pragmatičtí a realističtí**: Chápete, že úplná anonymita je téměř nemožná, ale snažíte se co nejvíce omezit své odhalení a zároveň vyvážit soukromí, bezpečnost a použitelnost. Váš přístup se neustále vyvíjí v reakci na nové hrozby a technologický vývoj.
 
 
 Pokud vám tyto vlastnosti připadají povědomé, je tato strategie pro vás pravděpodobně vhodná. Je náročná a vyžaduje soustavné úsilí, ale poskytuje vysokou úroveň finanční suverenity a ochrany před dohledem, zabavením nebo dohledatelností vašich finančních prostředků.
@@ -3217,12 +3219,12 @@ Mnoho lidí tento krok odkládá kvůli mylným představám, které jim brání
 
 
 
-- "*Potřebuji si najmout právníka.*"** → **Nepravda**. I když právník může být užitečný v právních záležitostech, technický plán dědictví Bitcoin lze sestavit i bez něj. Nejdůležitější je mít jasné a dostupné pokyny;
-- "*Potřebuji důvěřovat třetí straně.*"** → **Nepravda**. Váš plán může být navržen tak, aby minimalizoval potřebu důvěry, například distribucí informací mezi více stran nebo použitím řešení s více podpisy, s časovým zámkem nebo bez něj;
-- "*Plánování usnadní krádež mého majetku.*"** → **Nepravda**.Promyšlený plán chrání před pokusy o krádež a zároveň zajistí, že vaši dědicové budou moci bezpečně získat vaše finanční prostředky zpět. Je však důležité si uvědomit, že žádné řešení není spolehlivé: dědický plán zvyšuje riziko krádeže v závislosti na tom, jaké informace jsou sdíleny. Podrobněji se tomuto tématu budeme věnovat později;
-- "*Hodnota mých bitcoinů je příliš malá na to, abych ji plánoval.*"** → **Nepravda**. vždy je lepší plánovat dopředu. Vaši blízcí pravděpodobně neznají přesné množství Bitcoin, které vlastníte, a to je dobře. Ale kdyby se vám něco stalo, nechtěli by ho získat zpět, i když neznají přesné množství? Hodnota Bitcoin může v průběhu času výrazně vzrůst, takže je rozumné jim přístup k vašim prostředkům usnadnit a nedávat jim falešné naděje ohledně hodnoty nebo je nenechat hledat něco, co možná neexistuje.
-- "*Moji dědicové si to vyřeší sami.*"** → **Nepravda**. Bitcoin není jako běžný bankovní účet. Bez jasných pokynů se může stát, že vaši blízcí nebudou mít k vašim prostředkům nikdy přístup, nebo najdou jen jejich část. Na rozdíl od bankovních účtů, kde finanční instituce nebo notáři po smrti kontaktují rodinné příslušníky, neexistuje žádný prostředník, který by vaši rodinu informoval o vašem účtu Bitcoin Wallet. Proto je na vás, abyste jej výslovně zahrnuli do svého plánu pozůstalosti;
-- "*Smart contract zvládne všechno.*"** → **Nepravda**. Systém Smart contract, například multi-sig Wallet s časovým zámkem, může být součástí řešení, ale nikdy nenahradí dobře strukturovaný plán, zejména pro lidi, kteří neznají systém Bitcoin. Obě řešení se vzájemně doplňují.
+- **"*Potřebuji si najmout právníka.*"** → **Nepravda**. I když právník může být užitečný v právních záležitostech, technický plán dědictví Bitcoin lze sestavit i bez něj. Nejdůležitější je mít jasné a dostupné pokyny;
+- **"*Potřebuji důvěřovat třetí straně.*"** → **Nepravda**. Váš plán může být navržen tak, aby minimalizoval potřebu důvěry, například distribucí informací mezi více stran nebo použitím řešení s více podpisy, s časovým zámkem nebo bez něj;
+- "*Plánování usnadní krádež mého majetku.*" → **Nepravda**. Promyšlený plán chrání před pokusy o krádež a zároveň zajistí, že vaši dědicové budou moci bezpečně získat vaše finanční prostředky zpět. Je však důležité si uvědomit, že žádné řešení není spolehlivé: dědický plán zvyšuje riziko krádeže v závislosti na tom, jaké informace jsou sdíleny. Podrobněji se tomuto tématu budeme věnovat později;
+- "*Hodnota mých bitcoinů je příliš malá na to, abych ji plánoval.*" → **Nepravda**. Vždy je lepší plánovat dopředu. Vaši blízcí pravděpodobně neznají přesné množství Bitcoin, které vlastníte, a to je dobře. Ale kdyby se vám něco stalo, nechtěli by ho získat zpět, i když neznají přesné množství? Hodnota Bitcoin může v průběhu času výrazně vzrůst, takže je rozumné jim přístup k vašim prostředkům usnadnit a nedávat jim falešné naděje ohledně hodnoty nebo je nenechat hledat něco, co možná neexistuje.
+- **"Moji dědicové si to vyřeší sami."** → **Nepravda**. Bitcoin není jako běžný bankovní účet. Bez jasných pokynů se může stát, že vaši blízcí nebudou mít k vašim prostředkům nikdy přístup, nebo najdou jen jejich část. Na rozdíl od bankovních účtů, kde finanční instituce nebo notáři po smrti kontaktují rodinné příslušníky, neexistuje žádný prostředník, který by vaši rodinu informoval o vašem účtu Bitcoin Wallet. Proto je na vás, abyste jej výslovně zahrnuli do svého plánu pozůstalosti;
+- "**Smart contract zvládne všechno.**" → **Nepravda**. Systém Smart contract, například multi-sig Wallet s časovým zámkem, může být součástí řešení, ale nikdy nenahradí dobře strukturovaný plán, zejména pro lidi, kteří neznají systém Bitcoin. Obě řešení se vzájemně doplňují.
 
 
 
@@ -3236,8 +3238,8 @@ Pokud jde o předání dědictví v Bitcoin, vaši blízcí pravděpodobně nebu
 
 
 
-- Důvěryhodný příbuzný**, který zajistí hladký průběh vašeho plánu. Nemusí mít nutně hluboké znalosti v oblasti Bitcoin, ale musí to být někdo, na koho se vaši dědicové mohou spolehnout.
-- Zkušený uživatel Bitcoin**, který může poskytnout technickou podporu při obnově prostředků, správě peněženek a pochopení souvisejících procesů.
+- Důvěryhodný příbuzný, který zajistí hladký průběh vašeho plánu. Nemusí mít nutně hluboké znalosti v oblasti Bitcoin, ale musí to být někdo, na koho se vaši dědicové mohou spolehnout.
+- Zkušený uživatel **Bitcoin**, který může poskytnout technickou podporu při obnově prostředků, správě peněženek a pochopení souvisejících procesů.
 
 
 Lidé, které si vyberete, by nikdy neměli mít přímý přístup k vašim soukromým klíčům (ani k frázi Mnemonic), ale musí mít tuto možnost:
@@ -3275,10 +3277,10 @@ Zvažte všechna místa, kde máte bitcoiny nebo fiat měnu spojenou s Bitcoin. 
 
 
 
-- Platformy Exchange**:  Účty s BTC nebo fiat propojené s vašimi nákupy na Bitcoin.
-- Peněženky Hot (mobilní nebo stolní)**: Aplikace nainstalované v telefonu, které se používají pro každodenní transakce;
-- Hardwarové peněženky** : Fyzická zařízení, která uchovávají vaše soukromé klíče offline;
-- Další řešení**: Multisig, papírové peněženky, speciálně uložené soukromé klíče atd.
+- **Platformy Exchange**: Účty s BTC nebo fiat propojené s vašimi nákupy na Bitcoin.
+- **Peněženky Hot (mobilní nebo stolní)**: Aplikace nainstalované v telefonu, které se používají pro každodenní transakce;
+- **Hardwarové peněženky**: Fyzická zařízení, která uchovávají vaše soukromé klíče offline;
+- **Další řešení**: Multisig, papírové peněženky, speciálně uložené soukromé klíče atd.
 
 
 Ke strukturování tohoto soupisu použijte tabulku. Cílem není ukládat tento dokument online, ale uchovávat jej na bezpečném místě, nejlépe na papíře. Například:
@@ -3368,11 +3370,11 @@ Před nakládáním s těmito prostředky proveďte veškerá nezbytná opatřen
 
 
 
-- Nespěchejte**. Než začnete jednat, dejte si čas na učení. Bitcoin je při správném používání bezpečný.
-- Nikdy nedávejte větu o 24 slovech pouze jedné osobě**. Pokud vás někdo požádá o plný přístup, buďte obezřetní.
-- Nepřipojujte mé peněženky k neznámému počítači**. Používejte zabezpečené prostředí, pokud možno offline.
-- Pozor na podvody**. Kolem modelu Bitcoin existuje mnoho podvodů. Důvěřujte pouze lidem uvedeným v tomto dopise.
-- Uložte si vše, co děláte**.  Dělejte si poznámky, zaznamenávejte důležité kroky a chraňte přístup.
+- **Nespěchejte**. Než začnete jednat, dejte si čas na učení. Bitcoin je při správném používání bezpečný.
+- Nikdy nedávejte větu o 24 slovech pouze jedné osobě. Pokud vás někdo požádá o plný přístup, buďte obezřetní.
+- **Nepřipojujte mé peněženky k neznámému počítači**. Používejte zabezpečené prostředí, pokud možno offline.
+- **Pozor na podvody**. Kolem modelu Bitcoin existuje mnoho podvodů. Důvěřujte pouze lidem uvedeným v tomto dopise.
+- Uložte si vše, co děláte. Dělejte si poznámky, zaznamenávejte důležité kroky a chraňte přístup.
 
 
 #### 4. Právní informace a závěrečná zpráva
@@ -3553,9 +3555,9 @@ Bitcoin je víc než jen finanční nástroj, je to hnutí. V závislosti na va�
 
 
 
-- Vzdělávat a zvyšovat povědomí**: Pomozte svým blízkým porozumět Bitcoin, sdílejte své znalosti a účastněte se místních diskusí;
-- Vývoj nástrojů a aplikací**: Pokud máte technické dovednosti, je přispívání k nástrojům s otevřeným zdrojovým kódem skvělým způsobem, jak přinést hodnotu společnosti Bitcoin;
-- Připojte se k místní komunitě**: Účastněte se akcí, setkání a fór, abyste se seznámili s dalšími bitcoinery a Exchange názory na nejnovější vývoj.
+- **Vzdělávat a zvyšovat povědomí**: Pomozte svým blízkým porozumět Bitcoin, sdílejte své znalosti a účastněte se místních diskusí;
+- **Vývoj nástrojů a aplikací**: Pokud máte technické dovednosti, je přispívání k nástrojům s otevřeným zdrojovým kódem skvělým způsobem, jak přinést hodnotu společnosti Bitcoin;
+- **Připojte se k místní komunitě**: Účastněte se akcí, setkání a fór, abyste se seznámili s dalšími bitcoinery a Exchange názory na nejnovější vývoj.
 
 
 Pokud chcete pomoci vzdělávat ostatní, Plan ₿ Network stále hledá přispěvatele! Veškerý náš vzdělávací obsah je otevřený a umístěný na serveru GitHub. Uvítáme přispěvatele, kteří nám pomohou s korekturami a překlady obsahu do různých jazyků; v Exchange pro několik Sats! Ať už nyní, nebo později na své cestě Bitcoin, jste zváni, abyste se připojili k [naší skupině Telegram pro přispěvatele](https://t.me/PlanBNetwork_ContentBuilder) Plan ₿ Network.
@@ -3617,7 +3619,6 @@ Ještě jednou vám blahopřeji k tomu, jak daleko jste došli. A nezapomeňte, 
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

@@ -75,7 +75,7 @@ Poruszanie się po złożonym krajobrazie zarządzania Bitcoin wymaga nie tylko 
 Gotowy na kolejny krok w swojej podróży Bitcoin? Zaczynajmy!
 
 
-***UWAGA: Jeśli podczas kursu napotkasz nieznane terminy związane z Bitcoin, zapoznaj się z [glosariuszem](https://planb.network/resources/glossary), aby znaleźć definicje*
+**UWAGA: Jeśli podczas kursu napotkasz nieznane terminy związane z Bitcoin, zapoznaj się z [glosariuszem](https://planb.network/resources/glossary), aby znaleźć definicje**
 
 
 

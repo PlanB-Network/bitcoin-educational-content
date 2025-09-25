@@ -45,11 +45,11 @@ Its unique feature? Orion is the **only WebKit** browser to natively install Chr
 
 
 
-- Limited availability**: Currently reserved for macOS and iOS/iPadOS. A Linux version is reaching development milestones (Milestone 2 in 2025), but no public build is available. Windows and Android are not in development for lack of resources.
-- Closed source code**: Although some components are open-source, Orion remains predominantly proprietary, a point of debate in the privacy community.
-- Experimental extensions**: Extension support remains in beta, with frequent incompatibilities. Extensions can affect performance, and some don't work at all.
-- WebKit security**: Unlike Chromium, WebKit doesn't offer such robust per-site process isolation, which can pose security risks in certain scenarios.
-- Blocking tests**: Orion performs deliberately poorly in online advertising tests (26-35%), as Kagi considers these tests to be "fundamentally flawed". Actual effectiveness in everyday use is far superior.
+- **Limited availability**: Currently reserved for macOS and iOS/iPadOS. A Linux version is reaching development milestones (Milestone 2 in 2025), but no public build is available. Windows and Android are not in development for lack of resources.
+- **Closed source code**: Although some components are open-source, Orion remains predominantly proprietary, a point of debate in the privacy community.
+- **Experimental extensions**: Extension support remains in beta, with frequent incompatibilities. Extensions can affect performance, and some don't work at all.
+- **WebKit security**: Unlike Chromium, WebKit doesn't offer such robust per-site process isolation, which can pose security risks in certain scenarios.
+- **Blocking tests**: Orion performs deliberately poorly in online advertising tests (26-35%), as Kagi considers these tests to be "fundamentally flawed". Actual effectiveness in everyday use is far superior.
 
 
 ## Orion Browser installation
@@ -101,7 +101,7 @@ brew install --cask orion
 On first launch, Orion guides you through several steps:
 
 
-**1. Welcome screen
+**1. Welcome screen**
 
 ![Écran de bienvenue d'Orion](assets/fr/04.webp)
 
@@ -116,8 +116,8 @@ On first launch, Orion guides you through several steps:
 
 
 
-- Data import**: Easily transfer favorites and passwords from Safari, Chrome or Firefox
-- ICloud sync**: Activate to find your favorites and tabs on all your Apple devices
+- **Data import**: Easily transfer favorites and passwords from Safari, Chrome or Firefox
+- **iCloud sync**: Activate to find your favorites and tabs on all your Apple devices
 
 
 **3. Installation on mobile devices**
@@ -127,7 +127,7 @@ On first launch, Orion guides you through several steps:
 *Installation screen on iOS showing the QR code to quickly download Orion Browser from the App Store*
 
 
-**4. Interface welcome and essential tools
+**4. Interface welcome and essential tools**
 
 
 ![Page d'accueil Orion](assets/fr/07.webp)
@@ -139,9 +139,9 @@ Once the configuration is complete, you'll discover Orion's streamlined Interfac
 
 
 
-- Shield 🛡️**: Displays Privacy Report with number of items blocked on current page
-- Brush 🖌️**: Customize page display (theme, font, remove distracting elements)
-- Gear ⚙️**: Configure website-specific parameters (permissions, blocking, etc.)
+- **Shield 🛡️**: Displays Privacy Report with number of items blocked on current page
+- **Brush 🖌️**: Customize page display (theme, font, remove distracting elements)
+- **Gear ⚙️**: Configure website-specific parameters (permissions, blocking, etc.)
 
 
 These tools are always available and allow you to control your browsing experience on a site-by-site basis.
@@ -186,8 +186,8 @@ Access preferences via **Orion → Preferences** (or ⌘,):
 
 
 
-- Default engine**: Select **DuckDuckGo**, **Startpage** or **Kagi** for optimum privacy (avoid Google/Bing)
-- Search suggestions**: Disable them to prevent keystrokes from leaking to search engine servers
+- **Default engine**: Select **DuckDuckGo**, **Startpage** or **Kagi** for optimum privacy (avoid Google/Bing)
+- **Search suggestions**: Disable them to prevent keystrokes from leaking to search engine servers
 
 
 **2. Privacy - General** protection
@@ -201,17 +201,17 @@ Access preferences via **Orion → Preferences** (or ⌘,):
 **Content Blocker active by default**:
 
 
-- EasyList**: 119k+ ad-blocking rules
-- EasyPrivacy**: Protection against tracking
-- Manage Filter Lists**: Add additional lists (Hagezi recommended)
+- **EasyList**: 119k+ ad-blocking rules
+- **EasyPrivacy**: Protection against tracking
+- **Manage Filter Lists**: Add additional lists (Hagezi recommended)
 
 
 **Privacy options**:
 
 
-- Remove trackers from URLs**: "For Private Browsing only" cleans up copied links
-- Share crash reports**: "After asking for approval" respects your consent
-- Custom user agent**: Can be modified to bypass certain blockages
+- **Remove trackers from URLs**: "For Private Browsing only" cleans up copied links
+- **Share crash reports**: "After asking for approval" respects your consent
+- **Custom user agent**: Can be modified to bypass certain blockages
 
 
 ![YouTube avec Privacy Report](assets/fr/10.webp)
@@ -230,10 +230,10 @@ Access preferences via **Orion → Preferences** (or ⌘,):
 **Quick access**: Click on the gear ⚙️ in the address bar to adjust:
 
 
-- Compatibility Mode**: Solves display problems by suspending extensions
-- Content Blockers**: Deactivate blocking for a specific site if necessary
-- JavaScript/Cookies**: Granular control by site
-- Permissions**: Camera, microphone, location individually configured
+- **Compatibility Mode**: Solves display problems by suspending extensions
+- **Content Blockers**: Deactivate blocking for a specific site if necessary
+- **JavaScript/Cookies**: Granular control by site
+- **Permissions**: Camera, microphone, location individually configured
 
 
 **4. Advanced Custom Filters** (see below)
@@ -250,7 +250,7 @@ Access preferences via **Orion → Preferences** (or ⌘,):
 - `@@||site-utile.com^`: Creates an exception for a site
 
 
-**Tip: Visit [FilterLists.com](https://filterlists.com) for thousands of ready-to-use specialized lists.
+**Tip: Visit [FilterLists.com](https://filterlists.com) for thousands of ready-to-use specialized lists.**
 
 
 ### Recommended extensions
@@ -262,17 +262,17 @@ Orion natively supports Chrome and Firefox extensions. Install them directly fro
 **Essentials**:
 
 
-- uBlock Origin**: Adds granular control to the native blocker
-- Bitwarden**: Open-source password manager
-- ClearURLs**: Deletes URL tracking parameters
+- **uBlock Origin**: Adds granular control to the native blocker
+- **Bitwarden**: Open-source password manager
+- **ClearURLs**: Deletes URL tracking parameters
 
 
 **Optional**:
 
 
-- LocalCDN**: Serves shared libraries locally
-- Cookie AutoDelete**: Automatically deletes cookies after closing tabs
-- NoScript**: Total control over JavaScript execution (advanced users)
+- **LocalCDN**: Serves shared libraries locally
+- **Cookie AutoDelete**: Automatically deletes cookies after closing tabs
+- **NoScript**: Total control over JavaScript execution (advanced users)
 
 
 To install a:
@@ -314,15 +314,15 @@ Orion's **brush** tool is a unique feature that lets you customize the display o
 **Typographical control**:
 
 
-- Font size**: Adjust legibility with the A- and A+ buttons
-- Font style**: Change font family (default or custom)
+- **Font size**: Adjust legibility with the A- and A+ buttons
+- **Font style**: Change font family (default or custom)
 
 
 **Interface cleaning**:
 
 
-- Disable sticky headers**: Removes headers that remain stuck at the top when scrolling
-- Erase Elements**: Permanently remove annoying elements (ads, pop-ups, cookie banners)
+- **Disable sticky headers**: Removes headers that remain stuck at the top when scrolling
+- **Erase Elements**: Permanently remove annoying elements (ads, pop-ups, cookie banners)
   - Click on "+ Erase" then select the item to be hidden
   - Very useful for sites with persistent ads or visual tracking elements
 
@@ -333,10 +333,10 @@ Orion's **brush** tool is a unique feature that lets you customize the display o
 **Advanced tab management**:
 
 
-- Vertical tabs**: Activate via the menu bar (Tabs on the Side function)
-- Compact tabs**: In Preferences → Tabs → Layout "Compact" to save space
-- Tab groups**: Organize your sessions by theme
-- Multiple profiles**: Create separate identities via the menu bar (Profiles function) with completely isolated data
+- **Vertical tabs**: Activate via the menu bar (Tabs on the Side function)
+- **Compact tabs**: In Preferences → Tabs → Layout "Compact" to save space
+- **Tab groups**: Organize your sessions by theme
+- **Multiple profiles**: Create separate identities via the menu bar (Profiles function) with completely isolated data
 
 
 **Low Power Mode**: Inspired by the iPhone, this mode automatically suspends inactive tabs after 5 minutes and can reduce energy consumption by up to 90%. Activate it via Orion's menu bar on Mac, or in settings on iOS.
@@ -345,13 +345,13 @@ Orion's **brush** tool is a unique feature that lets you customize the display o
 **Built-in tools** (Edit menu and others):
 
 
-- Edit Text on Page**: temporarily modify any text (Edit menu)
-- Allow Copy & Paste**: Bypasses copy restrictions (Edit menu)
-- Copy Clean Link**: Right-click on a link to remove tracking parameters
-- Focus Mode**: distraction-free, full-screen navigation
-- Picture-in-Picture**: Watch videos in a floating window
-- Open in Internet Archive**: Direct access to archived versions
-- Privacy Report**: Click on the shield 🛡️ to see the items blocked by page
+- **Edit Text on Page**: temporarily modify any text (Edit menu)
+- **Allow Copy & Paste**: Bypasses copy restrictions (Edit menu)
+- **Copy Clean Link**: Right-click on a link to remove tracking parameters
+- **Focus Mode**: distraction-free, full-screen navigation
+- **Picture-in-Picture**: Watch videos in a floating window
+- **Open in Internet Archive**: Direct access to archived versions
+- **Privacy Report**: Click on the shield 🛡️ to see the items blocked by page
 
 
 ### Private browsing management
@@ -375,14 +375,14 @@ Orion's private navigation (⌘⇧N) offers:
 To keep Orion fast and private:
 
 
-- Extensions**: Limit to the strict minimum (may reduce performance)
-- Low Power Mode**: Activate for long sessions (90% savings possible)
-- Privacy Report**: Click on the shield 🛡️ to see blockages in real time
-- Visual customization**: Use the 🖌️ brush to adapt the display and remove distracting elements
-- Copy Clean Link**: Right-click to copy links without trackers
-- Separate profiles**: Use dedicated profiles to compartmentalize your activities
-- Website Settings**: Click on the gear ⚙️ to adapt permissions by site
-- Regular cleaning**: Clear the cache via Orion → Clear Browsing Data
+- **Extensions**: Limit to the strict minimum (may reduce performance)
+- **Low Power Mode**: Activate for long sessions (90% savings possible)
+- **Privacy Report**: Click on the shield 🛡️ to see blockages in real time
+- **Visual customization**: Use the 🖌️ brush to adapt the display and remove distracting elements
+- **Copy Clean Link**: Right-click to copy links without trackers
+- **Separate profiles**: Use dedicated profiles to compartmentalize your activities
+- **Website Settings**: Click on the gear ⚙️ to adapt permissions by site
+- **Regular cleaning**: Clear the cache via Orion → Clear Browsing Data
 
 
 ## Comparison with alternatives
@@ -453,9 +453,9 @@ To keep Orion fast and private:
 
 
 
-- Automatic updates**: Orion updates automatically on macOS via Sparkle
-- Vulnerability tracking**: Regularly check release notes for security patches
-- Bug reporting**: Use [orionfeedback.org](https://orionfeedback.org) to report problems
+- **Automatic updates**: Orion updates automatically on macOS via Sparkle
+- **Vulnerability tracking**: Regularly check release notes for security patches
+- **Bug reporting**: Use [orionfeedback.org](https://orionfeedback.org) to report problems
 
 
 
@@ -480,12 +480,12 @@ Remember: protecting your privacy doesn't just depend on your browser. Combine O
 ### Official documentation
 
 
-- Official website**: [kagi.com/orion](https://kagi.com/orion/)
-- Full FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Community forum**: [community.kagi.com](https://community.kagi.com)
-- Bug tracking**: [orionfeedback.org](https://orionfeedback.org)
-- GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source components
-- Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - News and updates
+- **Official website**: [kagi.com/orion](https://kagi.com/orion/)
+- **Full FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
+- **Community forum**: [community.kagi.com](https://community.kagi.com)
+- **Bug tracking**: [orionfeedback.org](https://orionfeedback.org)
+- **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source components
+- **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - News and updates
 
 
 ### Recommended verification tests

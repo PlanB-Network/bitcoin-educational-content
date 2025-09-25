@@ -1,0 +1,9 @@
+question: 斯宾诺莎的家人呢？
+answer: 犹太人
+wrong_answers:
+  - 天主教徒
+  - 新教徒
+  - 无神论者
+explanation: |
+  斯宾诺莎的家族是犹太人。他的父母是葡萄牙犹太人，为躲避宗教裁判所来到阿姆斯特丹定居，那里有一个庞大的塞法迪犹太人社区。
+reviewed: false

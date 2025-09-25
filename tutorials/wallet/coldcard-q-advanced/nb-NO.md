@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Avansert
+name: COLDCARD Q - Ekspert
 description: Bruke COLDCARD Qs avanserte alternativer
 ---
 ![cover](assets/cover.webp)
@@ -28,7 +28,7 @@ På COLDCARDs har du to alternativer for å administrere passordfrasen din:
 
 1. **Klassisk inntasting:** Du taster inn passordfrasen manuelt hver gang du bruker maskinvarelommeboken, akkurat som du gjør med andre maskinvarelommebøker. COLDCARD Q forenkler denne oppgaven med sitt komplette tastatur.
 
-2. **Du kan velge å kryptere passordfrasen og lagre den på et microSD-kort. I så fall må du sette microSD-kortet inn i COLDCARD Q hver gang du bruker det. Vær oppmerksom på at dette microSD-kortet bare fungerer på COLDCARD Q og ikke er en sikkerhetskopi. Det er derfor svært viktig at du også oppbevarer en kopi av passordfrasen din på et fysisk medium, for eksempel papir eller metall.
+2. **Du kan velge å kryptere passordfrasen og lagre den på et microSD-kort. I så fall må du sette microSD-kortet inn i COLDCARD Q hver gang du bruker det. Vær oppmerksom på at dette microSD-kortet bare fungerer på COLDCARD Q og ikke er en sikkerhetskopi. Det er derfor svært viktig at du også oppbevarer en kopi av passordfrasen din på et fysisk medium, for eksempel papir eller metall.**
 
 For å angi passordfrasen for BIP39 går du til menyen "*Passphrase*".
 
@@ -112,7 +112,7 @@ Velg deretter handlingen som skal utføres automatisk hver gang du taster inn de
 ![CCQ](assets/fr/16.webp)
 
 
-- "*Nedtelling ved innlogging*": Denne menyen grupperer handlinger med en nedtelling før de utføres. **Noen av dem kan ødelegge enheten din eller føre til tap av bitcoins. Her er de tilgjengelige underhandlingene:
+- **Nedtelling ved innlogging**: Denne menyen grupperer handlinger med en nedtelling før de utføres. **Noen av dem kan ødelegge enheten din eller føre til tap av bitcoins.** Her er de tilgjengelige underhandlingene:
  - "*Wipe & Countdown* : Sletter seed fra minnet på COLDCARD, og starter deretter en nedtelling på én time. Hvis du ikke lagrer mnemonikken eller passordfrasen din, vil bitcoinsene dine gå tapt. Dette alternativet er utformet for å lure en angriper til å tro at enheten vil låses opp ved slutten av nedtellingen, mens den i virkeligheten vil tilbakestilles til fabrikkinnstillingene.
  - "*Nedtelling og murstein*": Starter en nedtelling på én time, og på slutten av nedtellingen ødelegger COLDCARD sine to sikkerhetsbrikker, noe som gjør det permanent ubrukelig. Uten backup vil bitcoinsene dine gå tapt. Denne handlingen er utformet for å lure en angriper, som tror at han venter på en opplåsing, mens enheten i virkeligheten vil selvdestruere.
  - "*Just Countdown* : Utløser en enkel nedtelling på én time, hvoretter COLDCARD starter på nytt uten ytterligere tiltak. Frøet slettes ikke, og enheten forblir intakt. Vær forsiktig så du ikke forveksler denne handlingen med alternativet "*Login Countdown*", som omtales i de følgende avsnittene, og som legger til en nedtelling til hoved-PIN-koden samtidig som det gir tilgang til den virkelige lommeboken.

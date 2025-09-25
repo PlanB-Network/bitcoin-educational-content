@@ -536,12 +536,12 @@ Para entender melhor como funcionam as taxas, vamos estudar a mesma Rede Lightni
 Para o mesmo pagamento de **40.000 satoshis** para Bob, Alice terá que enviar um pouco mais, já que cada nó intermediário deduzirá suas taxas:
 
 - **Carol** deduz 1,04 satoshis no canal com Bob:
-  $$ f*{\text{Carol-Bob}} = \text{taxa base} + \left(\frac{\text{ppm} \times \text{quantidade}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{taxa base} + \left(\frac{\text{ppm} \times \text{quantidade}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ sats} $$
 
 - **Suzie** deduz 8 satoshis em taxas no canal com Carol:
-  $$ f*{\text{Suzie-Carol}} = \text{taxa base} + \left(\frac{\text{ppm} \times \text{quantidade}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{taxa base} + \left(\frac{\text{ppm} \times \text{quantidade}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001,04}{10^6} = 0 + 8,0002 \approx 8 \text{ sats} $$
 
 As taxas totais para este pagamento neste caminho são, portanto, **9,04 satoshis**. Assim, Alice deve enviar **40.009,04 satoshis** para que Bob receba exatamente **40.000 satoshis**.
 

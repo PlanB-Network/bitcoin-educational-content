@@ -1,0 +1,9 @@
+question: K čemu slouží soubory revNNNNN.dat uložené vedle blkNNNNN.dat?
+answer: Obnovení sady UTXO během reorganizace
+wrong_answers:
+  - Obnovení nastavení UTXO během Hard Fork
+  - Obnovení Mempool během Hard Fork
+  - Obnovení Mempool během reorganizace
+explanation: |
+  Každý soubor revNNNNN.dat obsahuje údaje potřebné ke zrušení účinků bloku na sadu UTXO, což usnadňuje správu reorganizací.
+reviewed: true

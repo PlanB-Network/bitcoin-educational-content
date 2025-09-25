@@ -50,7 +50,7 @@ Các lệnh chứa trong đó được viết bằng ngôn ngữ lập trình Ja
 Thời gian chạy JavaScript là một chương trình đặc biệt thực thi các tệp này.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### Môi trường chạy NodeJS
@@ -71,7 +71,7 @@ Vì NodeJS có sẵn cho cả ba hệ điều hành nên các chương trình b�
 Điều này có nghĩa là bạn có thể viết một trò chơi điện tử đơn giản bằng JavaScript trên máy tính Windows của mình và chuyển cho bạn bè chạy trên máy Mac của họ.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Bạn có thể kết hợp các giá trị boolean bằng cách sử dụng cá
 - `!` nghĩa là “không”, được áp dụng trước một giá trị boolean và sẽ đảo ngược giá trị đó: nếu giá trị boolean là `true` thì sẽ trả về `false` và ngược lại.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Ví dụ:
@@ -730,9 +730,9 @@ Trong phần này, chúng ta sẽ tìm hiểu thêm ba loại rất phổ biến
 
 
 
-- Mảng**: chuỗi giá trị
-- undefined**: một giá trị đặc biệt có nghĩa là “không có gì được gán”
-- null**: một giá trị đặc biệt khác có nghĩa là "có chủ ý để trống"
+- **Mảng**: chuỗi giá trị
+- **undefined**: một giá trị đặc biệt có nghĩa là "không có gì được gán"
+- **null**: một giá trị đặc biệt khác có nghĩa là "có chủ ý để trống"
 
 
 ### Mảng và truy cập chỉ mục
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Lớp `Car` hiện **thừa hưởng** mọi thứ từ `Vehicle`. Nó có thuộc tính `brand`, và chúng tôi đã thay thế phương thức `start()` bằng phiên bản riêng của mình.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Chúng ta hãy thử xem nhé:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript là ngôn ngữ được thông dịch, trái ngược với ngôn ng
 Mã được viết bằng ngôn ngữ biên dịch sẽ được chuyển thành mã nhị phân và mã nhị phân này sẽ được đưa trực tiếp vào CPU của máy tính.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Ngược lại, các ngôn ngữ được thông dịch có xu hướng thân thiện với người dùng hơn và gần với cách con người suy nghĩ ("cấp cao") hơn là cách máy móc hoạt động ("cấp thấp"); do đó, chúng thường có một máy ảo được xây dựng để chạy mã của chúng.
@@ -5261,7 +5261,7 @@ Tại sao điều đó lại là vấn đề?
 Vâng, vì trình duyệt thực thi mã được lấy từ hàng triệu nguồn khác nhau trên Internet nên chúng có thể dễ dàng bị nhiễm phần mềm độc hại, do đó chúng được "cách ly" khỏi phần còn lại của hệ điều hành.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript không thể truy cập vào hệ thống tệp và các tài nguyên cục bộ khác trên máy tính của bạn (ít nhất là không dễ dàng như các ngôn ngữ khác), do đó, đây là một hạn chế đáng kể đối với loại ứng dụng bạn có thể xây dựng bằng JavaScript.
@@ -5270,7 +5270,7 @@ JavaScript không thể truy cập vào hệ thống tệp và các tài nguyên
 Năm 2009, Ryan Dahl đã xuất bản NodeJS, một môi trường chạy thực tế cho phép bạn sử dụng engine V8 bên ngoài trình duyệt, trực tiếp trên hệ điều hành gốc của máy tính. Nó cũng bổ sung nhiều tính năng hữu ích cho việc viết các chương trình phía máy chủ và dòng lệnh. Ví dụ: bạn có thể sử dụng NodeJS để tạo máy chủ web, đọc và ghi tệp, hoặc xây dựng các công cụ tự động hóa tác vụ.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Trong khóa học này, chúng ta đã tìm hiểu các tính năng JavaScript có trong cả trình duyệt và NodeJS. Những tính năng này cho phép chúng ta định nghĩa và thao tác dữ liệu theo những cách trừu tượng. Trong vài bài học tiếp theo, chúng ta sẽ khám phá các tính năng dành riêng cho NodeJS và cho phép chúng ta tương tác với hệ điều hành.
@@ -6431,10 +6431,10 @@ NodeJS có bốn loại luồng chính:
 
 
 
-- Có thể đọc**: các luồng bạn có thể đọc dữ liệu từ đó (giống như đọc tệp)
-- Có thể ghi**: các luồng bạn có thể ghi dữ liệu vào (giống như ghi vào tệp)
-- Duplex**: luồng có thể đọc và ghi được
-- Chuyển đổi**: giống như luồng song công, nhưng chúng có thể thay đổi (biến đổi) dữ liệu khi nó chảy
+- **Có thể đọc**: các luồng bạn có thể đọc dữ liệu từ đó (giống như đọc tệp)
+- Có thể ghi: các luồng bạn có thể ghi dữ liệu vào (giống như ghi vào tệp)
+- **Duplex**: luồng có thể đọc và ghi được
+- **Chuyển đổi**: giống như luồng song công, nhưng chúng có thể thay đổi (biến đổi) dữ liệu khi nó chảy
 
 
 ### Luồng có thể đọc được

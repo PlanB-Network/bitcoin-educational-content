@@ -1,0 +1,9 @@
+question: Jaký protokol používají společnosti Electrs a Fulcrum k propojení peněženek?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - ROZHRANÍ JSON API
+  - Lightning gRPC
+explanation: |
+  Tyto softwarové balíčky vystavují server Electrum, standard používaný mnoha peněženkami, jako je Sparrow nebo Electrum Wallet.
+reviewed: true

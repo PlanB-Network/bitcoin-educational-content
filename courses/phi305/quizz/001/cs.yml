@@ -1,0 +1,9 @@
+question: Je Spinoza filozof?
+answer: Od 17. století.
+wrong_answers:
+  - Od 16. století.
+  - Od 18. století.
+  - Ze starověku.
+explanation: |
+  Spinoza žil v letech 1632 až 1677, což z něj činí filozofa 17. století. V tomto období, známém jako věk rozumu, se objevil moderní racionalismus a nové vědecké přístupy k chápání světa.
+reviewed: false

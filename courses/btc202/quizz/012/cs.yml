@@ -1,0 +1,9 @@
+question: Která fáze je součástí role nezletilého?
+answer: Sestavení kandidátského bloku z Mempool
+wrong_answers:
+  - Ověření celého Blockchain z Mempool
+  - Vytvoření adres Bitcoin pro uživatele
+  - Ukládání soukromých klíčů pro peněženky
+explanation: |
+  Miner vybere transakce z Mempool a sestaví kandidátský blok, který se pokusí ověřit Proof of Work.
+reviewed: true

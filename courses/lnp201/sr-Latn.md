@@ -598,16 +598,16 @@ Za istu uplatu od **40,000 Satošija** Bobu, Alisa će morati poslati malo više
 
 - **Karol** oduzima 1.04 Satošija na kanalu sa Bobom:
 
-$$ f*{\text{Carol-Bob}} = \text{osnovna naknada} + \left(\frac{\text{ppm} \times \text{iznos}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = \text{osnovna naknada} + \left(\frac{\text{ppm} \times \text{iznos}}{10^6}\right) $$
 
-$$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ Sats} $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ Sats} $$
 
 
 - **Suzi** odbija 8 Satošija kao naknade na kanalu sa Carol:
 
-$$ f*{\text{Suzie-Carol}} = \text{osnovna naknada} + \left(\frac{\text{ppm} \times \text{iznos}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = \text{osnovna naknada} + \left(\frac{\text{ppm} \times \text{iznos}}{10^6}\right) $$
 
-$$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
 
 Ukupne naknade za ovu uplatu na ovom putu su stoga **9.04 Satošija**. Dakle, Alisa mora poslati **40,009.04 Satošija** da bi Bob primio tačno **40,000 Satošija**.
 

@@ -39,17 +39,17 @@ ECO204 kursuna hoş geldiniz!
 Bu eğitimin amacı, itibari para sistemi bağlamında hiperenflasyonun temel nedenlerini, mekanizmalarını ve sonuçlarını anlamanıza yardımcı olmaktır. Somut örnekler ve tarihsel analizler aracılığıyla, hiperenflasyon dönemlerinden önce tekrar eden kalıpları tanımayı ve kendinizi korumak için eylem kaldıraçlarını belirlemeyi öğreneceksiniz.
 
 
-**Bölüm 2: Enflasyon Nedir?
+**Bölüm 2: Enflasyon Nedir?**
 
 Konunun özüne inmeden önce, temel konulara tekrar döneceğiz: enflasyon nedir? Bu bölümde enflasyonun parasal kökenleri, farklı enflasyon türleri ve bunların daha geniş bir ekonomik dinamiğe nasıl uyum sağladığı ele alınacaktır. Bu, normal enflasyonun nasıl hiperenflasyona dönüşebileceğini anlamak için önemli bir adımdır.
 
 
-**Bölüm 3: Hiperenflasyon Nedir?
+**Bölüm 3: Hiperenflasyon Nedir?**
 
 Bu bölümde, hiperenflasyonun kesin tanımlarını ve Weimar Almanya'sı ve Zimbabwe de dahil olmak üzere birkaç önemli tarihsel olayı inceleyeceksiniz. Bunların ortak yönlerini, farklılıklarını ve çağdaş paralelliklerini analiz edeceğiz. Ayrıca Latin Amerika'da birbirini izleyen yeniden değerlemeler ve bazı ülkelerde gözlemlenen çıkış stratejileri gibi daha az bilinen vakaları da keşfedeceksiniz.
 
 
-**Bölüm 4: Buraya Nasıl Geldik?
+**Bölüm 4: Buraya Nasıl Geldik?**
 
 Bu bölüm, özellikle parasal "ikinci Layer "ın gelişimi ve merkez bankalarının rolü yoluyla hiperenflasyonu mümkün kılan yapısal mekanizmaları anlamayı amaçlamaktadır. Daha fazla araştırma için ek kaynaklar ve okuma önerileri sunulacaktır.
 

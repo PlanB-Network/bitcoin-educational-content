@@ -7,17 +7,17 @@ Acronym for "Bitcoin Improvement Proposal." A Bitcoin Improvement Proposal (BIP)
 BIPs are classified into three main categories:
 
 
-- Standards Track BIPs*: Concern modifications that directly affect Bitcoin implementations, such as transaction and block validation rules;
-- Informational BIPs*: Provide information or recommendations without proposing direct changes to the protocol;
-- Process BIPs*: Describe changes in the procedures surrounding Bitcoin, such as governance processes.
+- **Standards Track BIPs**: Concern modifications that directly affect Bitcoin implementations, such as transaction and block validation rules;
+- **Informational BIPs**: Provide information or recommendations without proposing direct changes to the protocol;
+- Process BIPs: Describe changes in the procedures surrounding Bitcoin, such as governance processes.
 
 Standards Track and Informational BIPs are also classified by "Layer":
 
 
-- Consensus Layer*: BIPs in this layer concern the consensus rules of Bitcoin, such as modifications to the block or transaction validation rules. These proposals can be either soft forks (backward-compatible modifications) or hard forks (non-backward-compatible modifications). For example, the BIPs for SegWit and Taproot belong to this category;
-- Peer Services*: This layer concerns the operation of the Bitcoin node network, that is, how nodes find and communicate with each other on the Internet.
-- API/RPC*: The BIPs of this layer concern the Application Programming Interfaces (API) and Remote Procedure Calls (RPC) that allow Bitcoin software to interact with nodes;
-- Applications Layer*: This layer pertains to applications built on top of Bitcoin. The BIPs in this category typically deal with modifications at the level of Bitcoin wallet standards.
+- **Consensus Layer**: BIPs in this layer concern the consensus rules of Bitcoin, such as modifications to the block or transaction validation rules. These proposals can be either soft forks (backward-compatible modifications) or hard forks (non-backward-compatible modifications). For example, the BIPs for SegWit and Taproot belong to this category;
+- **Peer Services**: This layer concerns the operation of the Bitcoin node network, that is, how nodes find and communicate with each other on the Internet.
+- **API/RPC**: The BIPs of this layer concern the Application Programming Interfaces (API) and Remote Procedure Calls (RPC) that allow Bitcoin software to interact with nodes;
+- **Applications Layer**: This layer pertains to applications built on top of Bitcoin. The BIPs in this category typically deal with modifications at the level of Bitcoin wallet standards.
 
 The process of submitting a BIP begins with the conceptualization and discussion of the idea on the *Bitcoin-dev* mailing list. If the idea is promising, the author drafts a BIP following a specific format and submits it via a Pull Request on the Core GitHub repository. The editors review this proposal to verify that it meets all the criteria. The BIP must be technically feasible, beneficial to the protocol, comply with the required formatting, and be in accordance with Bitcoin's philosophy. If the BIP meets these conditions, it is officially integrated into the GitHub repository of BIPs. It is then assigned a number. This number is generally decided by the editor, often Luke Dashjr, and is assigned logically: BIPs dealing with similar subjects often receive consecutive numbers.
 

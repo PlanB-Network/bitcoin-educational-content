@@ -1,0 +1,9 @@
+question: Bitcoin core hangi programlama dilinde yazılmıştır?
+answer: C++
+wrong_answers:
+  - Git
+  - JavaScript
+  - Rust
+explanation: |
+  Bitcoin core, C++ dilinde yazılmıştır ve büyük, açık kaynaklı bir topluluk tarafından sürdürülmektedir.
+reviewed: true

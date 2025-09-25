@@ -1,0 +1,9 @@
+question: Bitcoin 노드는 미사용 출력을 추적하기 위해 어떤 데이터베이스를 로컬에 보관하나요?
+answer: UTXO 세트
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Wallet의 역사
+explanation: |
+  노드는 향후 트랜잭션에 사용할 수 있는 미사용 출력 세트인 UTXO 세트를 유지합니다.
+reviewed: true

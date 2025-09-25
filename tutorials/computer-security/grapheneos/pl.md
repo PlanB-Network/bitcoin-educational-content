@@ -484,10 +484,10 @@ Jednak przechodząc na GrapheneOS, trzeba zrezygnować z pewnych udogodnień ze 
 
 
 
-- Apple CarPlay/Android Auto** - będziesz musiał pozostać przy starym, dobrym Bluetooth, USB lub Aux.
-- Apple/Google Pay** - i tak prawie każdy ma przy sobie Wallet!
-- Aplikacje bankowe** - Nie chodzi o to, że w ogóle nie działają. Niektóre działają doskonale. Inne działają tylko z włączonymi Usługami Google Play (więcej na ten temat poniżej), a jeszcze inne po prostu nie działają wcale. Przeczytaj raport na temat swojego banku [tutaj](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/), aby zobaczyć aktualny stan rzeczy. Nie obawiaj się, jeśli Twój jest na liście, która nie działa, pamiętaj, że możesz po prostu zapisać adres URL jako aplikację internetową na ekranie głównym.
-- Powiadomienia push** - Większość aplikacji, które wysyłają aktualizacje, gdy nie korzystasz z konkretnej aplikacji, robi to za pośrednictwem Usług Google Play. Nie są one domyślnie instalowane w systemie GrapheneOS, więc jeśli nie otrzymasz natychmiastowego powiadomienia, gdy Twój znajomy wyśle Ci wiadomość e-mail, prawdopodobnie jest to przyczyna. Dobrą wiadomością jest to, że niektóre z wyżej wymienionych aplikacji zaimplementowały własne połączenie w tle, aby okresowo sprawdzać dostępność aktualizacji, a następnie wysyłać powiadomienia w razie potrzeby
+- **Apple CarPlay/Android Auto** - będziesz musiał pozostać przy starym, dobrym Bluetooth, USB lub Aux.
+- **Apple/Google Pay** - i tak prawie każdy ma przy sobie Wallet!
+- **Aplikacje bankowe** - Nie chodzi o to, że w ogóle nie działają. Niektóre działają doskonale. Inne działają tylko z włączonymi Usługami Google Play (więcej na ten temat poniżej), a jeszcze inne po prostu nie działają wcale. Przeczytaj raport na temat swojego banku [tutaj](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/), aby zobaczyć aktualny stan rzeczy. Nie obawiaj się, jeśli Twój jest na liście, która nie działa, pamiętaj, że możesz po prostu zapisać adres URL jako aplikację internetową na ekranie głównym.
+- **Powiadomienia push** - Większość aplikacji, które wysyłają aktualizacje, gdy nie korzystasz z konkretnej aplikacji, robi to za pośrednictwem Usług Google Play. Nie są one domyślnie instalowane w systemie GrapheneOS, więc jeśli nie otrzymasz natychmiastowego powiadomienia, gdy Twój znajomy wyśle Ci wiadomość e-mail, prawdopodobnie jest to przyczyna. Dobrą wiadomością jest to, że niektóre z wyżej wymienionych aplikacji zaimplementowały własne połączenie w tle, aby okresowo sprawdzać dostępność aktualizacji, a następnie wysyłać powiadomienia w razie potrzeby
 
 
 ### Piaskownica Google Play
@@ -606,4 +606,3 @@ GrapheneOS to królicza nora, w której każdy może spędzić tygodnie. Jest ta
 
 
 *Ten poradnik jest adaptacją oryginalnej treści opublikowanej przez [BitcoinQnA na Bitcoiner.Guide na licencji MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), któremu należy się pełne uznanie za pierwotną pracę redakcyjną.*
-

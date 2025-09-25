@@ -1,5 +1,5 @@
 ---
-name: एल्बी
+name: Alby
 
 description: Bitcoin और लाइटनिंग नेटवर्क के लिए ब्राउज़र एक्सटेंशन
 ---

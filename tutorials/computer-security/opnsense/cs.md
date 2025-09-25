@@ -56,55 +56,55 @@ Zde jsou některé z klíčových funkcí systému OPNsense:
 
 
 
-- Brána firewall a NAT**: OPNsense poskytuje pokročilé funkce stavové brány firewall se stavovým filtrováním a také funkce překladu sítě Address (NAT).
+- **Brána firewall a NAT**: OPNsense poskytuje pokročilé funkce stavové brány firewall se stavovým filtrováním a také funkce překladu sítě Address (NAT).
 
 
 
 
 
-- DNS/DHCP**: OPNsense lze nakonfigurovat tak, aby spravoval služby DNS a DHCP v síti. Může fungovat jako server DHCP, ale lze jej použít také jako překladač DNS pro počítače v místní síti. Ve výchozím nastavení je integrován také Dnsmasq.
+- **DNS/DHCP**: OPNsense lze nakonfigurovat tak, aby spravoval služby DNS a DHCP v síti. Může fungovat jako server DHCP, ale lze jej použít také jako překladač DNS pro počítače v místní síti. Ve výchozím nastavení je integrován také Dnsmasq.
 
 
 
 
 
-- VPN**: OPNsense podporuje několik protokolů VPN, včetně IPsec, OpenVPN a WireGuard, které umožňují bezpečné připojení pro vzdálený přístup k mobilním pracovním stanicím nebo propojení pracovišť.
+- **VPN**: OPNsense podporuje několik protokolů VPN, včetně IPsec, OpenVPN a WireGuard, které umožňují bezpečné připojení pro vzdálený přístup k mobilním pracovním stanicím nebo propojení pracovišť.
 
 
 
 
 
-- Webový proxy server**: OPNsense obsahuje webový proxy server pro kontrolu a filtrování přístupu k internetu. Lze ji také použít k filtrování obsahu a správě přístupu k síti.
+- **Webový proxy server**: OPNsense obsahuje webový proxy server pro kontrolu a filtrování přístupu k internetu. Lze ji také použít k filtrování obsahu a správě přístupu k síti.
 
 
 
 
 
-- Správa šířky pásma (QoS)**: OPNsense nabízí funkce správy kvality služeb (QoS), které umožňují upřednostňovat síťový provoz a lépe spravovat šířku pásma sítě.
+- **Správa šířky pásma (QoS)**: OPNsense nabízí funkce správy kvality služeb (QoS), které umožňují upřednostňovat síťový provoz a lépe spravovat šířku pásma sítě.
 
 
 
 
 
-- Captive portal**: tato funkce umožňuje spravovat přístup uživatelů do sítě prostřednictvím ověřovací stránky (místní základna, bony atd.). Jedná se o funkci běžně nasazovanou pro veřejné sítě Wi-Fi.
+- **Captive portal**: tato funkce umožňuje spravovat přístup uživatelů do sítě prostřednictvím ověřovací stránky (místní základna, bony atd.). Jedná se o funkci běžně nasazovanou pro veřejné sítě Wi-Fi.
 
 
 
 
 
-- IDS/IPS**: OPNsense integruje Suricatu a nabízí funkce detekce a prevence narušení (IDS/IPS), které chrání síť před útoky.
+- **IDS/IPS**: OPNsense integruje Suricatu a nabízí funkce detekce a prevence narušení (IDS/IPS), které chrání síť před útoky.
 
 
 
 
 
-- Vysoká dostupnost (CARP)**: OPNsense podporuje CARP (*Common Address Redundancy Protocol*) pro vysokou dostupnost mezi více firewally OPNsense, což zajišťuje, že služba zůstane aktivní i v případě selhání hardwaru.
+- **Vysoká dostupnost (CARP)**: OPNsense podporuje CARP (*Common Address Redundancy Protocol*) pro vysokou dostupnost mezi více firewally OPNsense, což zajišťuje, že služba zůstane aktivní i v případě selhání hardwaru.
 
 
 
 
 
-- Podávání zpráv a monitorování**: OPNsense poskytuje nástroje pro reportování a monitorování v reálném čase, které umožňují sledovat výkon sítě (pomocí NetFlow) a odhalovat potenciální problémy díky vytváření protokolů. To zahrnuje i grafické zobrazení. Nástroj Monit je integrován do systému OPNsense a umožňuje dohled nad samotnou bránou firewall.
+- **Podávání zpráv a monitorování**: OPNsense poskytuje nástroje pro reportování a monitorování v reálném čase, které umožňují sledovat výkon sítě (pomocí NetFlow) a odhalovat potenciální problémy díky vytváření protokolů. To zahrnuje i grafické zobrazení. Nástroj Monit je integrován do systému OPNsense a umožňuje dohled nad samotnou bránou firewall.
 
 
 
@@ -179,11 +179,11 @@ Naším cílem je
 
 
 
-- Vytvořte interní virtuální síť (192.168.10.0/24 - LAN)**, která může přistupovat k Internetu prostřednictvím brány firewall OPNsense. Pro produkční použití to může být vaše místní síť, kabelová síť a/nebo Wi-Fi.
-- Aktivace a konfigurace NAT**, aby virtuální počítače ve vnitřní virtuální síti měly přístup k internetu
-- Aktivace a konfigurace serveru DHCP v systému OPNsense** za účelem distribuce konfigurace IP budoucím počítačům připojeným k interní virtuální síti
-- Nakonfigurujte bránu firewall** tak, aby povolovala pouze odchozí toky z LAN do WAN v protokolech HTTP (80) a HTTPS (443).
-- Nakonfigurujte bránu firewall** tak, aby virtuální síť LAN mohla používat službu OPNsense jako překladač DNS (53).
+- Vytvořte interní virtuální síť (192.168.10.0/24 - LAN), která může přistupovat k Internetu prostřednictvím brány firewall OPNsense. Pro produkční použití to může být vaše místní síť, kabelová síť a/nebo Wi-Fi.
+- Aktivace a konfigurace **NAT**, aby virtuální počítače ve vnitřní virtuální síti měly přístup k internetu
+- **Aktivace a konfigurace serveru DHCP v systému OPNsense** za účelem distribuce konfigurace IP budoucím počítačům připojeným k interní virtuální síti
+- Nakonfigurujte bránu **firewall** tak, aby povolovala pouze odchozí toky z LAN do WAN v protokolech HTTP (80) a HTTPS (443).
+- Nakonfigurujte bránu **firewall** tak, aby virtuální síť LAN mohla používat službu OPNsense jako překladač DNS (53).
 
 
 
@@ -257,7 +257,7 @@ Poté se dostanete na obrazovku Interface podobnou té níže. Přihlaste se pom
 
 
 
-Na obrazovce se zobrazí nový průvodce. Prvním krokem je výběr rozložení klávesnice odpovídající vaší konfiguraci. V případě klávesnice AZERTY vyberte ze seznamu možnost "**Francouzština (klávesy s diakritikou)**" a poté dvakrát klikněte na**.
+Na obrazovce se zobrazí nový průvodce. Prvním krokem je výběr rozložení klávesnice odpovídající vaší konfiguraci. V případě klávesnice AZERTY vyberte ze seznamu možnost **Francouzština (klávesy s diakritikou)** a poté dvakrát klikněte na.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-K OPNsense Administration Interface lze přistupovat přes HTTPS pomocí IP Address sítě LAN** Interface (nebo WAN). Prohlížeč vás přenese na přihlašovací stránku. Přihlaste se pomocí účtu "root" a hesla, které jste vybrali dříve.
+K OPNsense Administration Interface lze přistupovat přes HTTPS pomocí IP Address sítě LAN **Interface** (nebo WAN). Prohlížeč vás přenese na přihlašovací stránku. Přihlaste se pomocí účtu "root" a hesla, které jste vybrali dříve.
 
 
 
@@ -472,7 +472,7 @@ Services > ISC DHCPv4 > [LAN]
 
 
 
-V případě potřeby můžete změnit rozsah distribuovaných IP adres: *v závislosti na aktuálním nastavení můžete změnit rozdělení adres *192.168.10.10** až **192.168.10.245**.
+V případě potřeby můžete změnit rozsah distribuovaných IP adres: *v závislosti na aktuálním nastavení můžete změnit rozdělení adres* **192.168.10.10** až **192.168.10.245**.
 
 
 
@@ -566,7 +566,7 @@ Z toho vyplývá následující výsledek:
 
 
 
-Zbývá už jen kliknout na tlačítko "**Použít změny**" a přepnout nová pravidla brány firewall do produkčního režimu. **Upozorňujeme, že všechny toky, které nejsou výslovně autorizovány, budou ve výchozím nastavení blokovány
+Zbývá už jen kliknout na tlačítko "**Použít změny**" a přepnout nová pravidla brány firewall do produkčního režimu. **Upozorňujeme, že všechny toky, které nejsou výslovně autorizovány, budou ve výchozím nastavení blokovány.**
 
 
 

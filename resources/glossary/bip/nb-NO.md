@@ -7,17 +7,17 @@ Forkortelse for "Bitcoin Improvement Proposal" Et Bitcoin Improvement Proposal (
 BIP-er klassifiseres i tre hovedkategorier:
 
 
-- BIP-er for standardspor*: Gjelder endringer som direkte påvirker Bitcoin-implementeringer, for eksempel regler for transaksjons- og blokkvalidering;
-- Informative BIP-er*: Gir informasjon eller anbefalinger uten å foreslå direkte endringer i protokollen;
-- Prosess BIP-er*: Beskriv endringer i prosedyrene rundt Bitcoin, for eksempel styringsprosesser.
+- BIP-er for standardspor: Gjelder endringer som direkte påvirker Bitcoin-implementeringer, for eksempel regler for transaksjons- og blokkvalidering;
+- Informative BIP-er: Gir informasjon eller anbefalinger uten å foreslå direkte endringer i protokollen;
+- Prosess BIP-er: Beskriv endringer i prosedyrene rundt Bitcoin, for eksempel styringsprosesser.
 
 Standard Track og Informational BIP-er klassifiseres også etter "lag":
 
 
-- Konsensuslag*: BIP-er i dette laget gjelder konsensusreglene for Bitcoin, for eksempel endringer i blokkerings- eller transaksjonsvalideringsreglene. Disse forslagene kan enten være myke gafler (bakoverkompatible modifikasjoner) eller harde gafler (ikke-bakoverkompatible modifikasjoner). BIP-ene for SegWit og Taproot tilhører for eksempel denne kategorien;
-- Peer Services*: Dette laget omhandler driften av Bitcoin-nodenettverket, det vil si hvordan noder finner og kommuniserer med hverandre på Internett.
-- API/RPC*: BIP-ene i dette laget gjelder API (Application Programming Interfaces) og RPC (Remote Procedure Calls) som gjør det mulig for Bitcoin-programvare å samhandle med noder;
-- Applikasjonslag*: Dette laget gjelder applikasjoner som er bygget på toppen av Bitcoin. BIP-ene i denne kategorien omhandler vanligvis modifikasjoner på nivået for Bitcoin-lommebokstandarder.
+- **Konsensuslag**: BIP-er i dette laget gjelder konsensusreglene for Bitcoin, for eksempel endringer i blokkerings- eller transaksjonsvalideringsreglene. Disse forslagene kan enten være myke gafler (bakoverkompatible modifikasjoner) eller harde gafler (ikke-bakoverkompatible modifikasjoner). BIP-ene for SegWit og Taproot tilhører for eksempel denne kategorien;
+- **Peer Services**: Dette laget omhandler driften av Bitcoin-nodenettverket, det vil si hvordan noder finner og kommuniserer med hverandre på Internett.
+- **API/RPC**: BIP-ene i dette laget gjelder API (Application Programming Interfaces) og RPC (Remote Procedure Calls) som gjør det mulig for Bitcoin-programvare å samhandle med noder;
+- **Applikasjonslag**: Dette laget gjelder applikasjoner som er bygget på toppen av Bitcoin. BIP-ene i denne kategorien omhandler vanligvis modifikasjoner på nivået for Bitcoin-lommebokstandarder.
 
 Prosessen med å sende inn en BIP begynner med konseptualisering og diskusjon av ideen på e-postlisten *Bitcoin-dev*. Hvis ideen er lovende, utarbeider forfatteren et utkast til en BIP i et bestemt format og sender det inn via en Pull Request på Core GitHub-depotet. Redaktørene går gjennom forslaget for å kontrollere at det oppfyller alle kriteriene. BIP-en må være teknisk gjennomførbar, gunstig for protokollen, overholde den påkrevde formateringen og være i samsvar med Bitcoins filosofi. Hvis BIP-en oppfyller disse vilkårene, blir den offisielt integrert i GitHub-arkivet for BIP-er. Den blir deretter tildelt et nummer. Dette nummeret bestemmes vanligvis av redaktøren, ofte Luke Dashjr, og tildeles logisk: BIP-er som omhandler lignende emner, får ofte fortløpende nummer.
 

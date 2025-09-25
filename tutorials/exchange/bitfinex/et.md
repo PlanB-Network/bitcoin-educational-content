@@ -53,10 +53,10 @@ Teie konto on nüüd loodud. Vajutage platvormile juurdepääsuks nupule "*Logi 
 Bitfinex rakendab kehtivatele eeskirjadele vastavat kontrolliprotsessi (KYC). "Basic" režiimis on võimatu teha sissemakseid, väljavõtteid või tehinguid, mistõttu on oluline saada vähemalt "Basic Plus" või vajadusel isegi "Intermediate" või "Full" verifikatsioonitase:
 
 
-- Basic* on ainult kuvamisrežiim, mis võimaldab teil platvormiga konsulteerida ilma toiminguid sooritamata;
-- Basic Plus* pakub juurdepääsu põhifunktsioonidele, sealhulgas hetketuru tehingutele ning valitud sisse- ja väljamaksevõimalustele;
-- Intermediate* avab edasijõudnud teenused, nagu marginaalkaubandus, laenud, P2P ja börsivälised tehingud, ning pakub vähendatud hoiustamistähtaegu;
-- Full* annab teile juurdepääsu rahvusvahelistele pangaülekannetele ja kõigile platvormi funktsioonidele.
+- **Basic** on ainult kuvamisrežiim, mis võimaldab teil platvormiga konsulteerida ilma toiminguid sooritamata;
+- **Basic Plus** pakub juurdepääsu põhifunktsioonidele, sealhulgas hetketuru tehingutele ning valitud sisse- ja väljamaksevõimalustele;
+- **Intermediate** avab edasijõudnud teenused, nagu marginaalkaubandus, laenud, P2P ja börsivälised tehingud, ning pakub vähendatud hoiustamistähtaegu;
+- **Full** annab teile juurdepääsu rahvusvahelistele pangaülekannetele ja kõigile platvormi funktsioonidele.
 
 Iga taseme puhul on kontrollimiseks vaja täiendavaid dokumente. Enamiku kasutajate jaoks piisab tavaliselt *Basic Plus* või *Intermediate* kontodest.
 
@@ -79,11 +79,11 @@ Täitke sammud, esitades nõutud teabe ja dokumendid. Kui teie taotlus on täide
 Kui olete sisse loginud, näete kasutajaliidese ülaosas navigatsiooniriba, millel on: "*Trading*", "*Derivatiivid*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" jne. Bitfinex pakub mitmesuguseid funktsioone, sealhulgas :
 
 
-- Kauplemine**: "*klassiline*" turg, kus saab esitada tellimusi krüptovaluutade (sh bitcoin) ostmiseks ja müümiseks;
-- OTC**: Over-The-Counter teenus, mis on mõeldud suurte mahtudega kauplemiseks otse teise mängijaga, väljaspool avalikke tellimusraamatuid;
-- Rahastamine**: Laenude ja marginaalfinantseerimise valdkond;
-- Tuletisinstrumendid**: Tuletisinstrumentide (futuurid jne) sektsioon, mis on mõeldud kogenud kauplejatele;
-- P2P**: Võimaldab teil osta või müüa krüptosid teistelt kasutajatelt peer-to-peer põhimõttel.
+- **Kauplemine**: "*klassiline*" turg, kus saab esitada tellimusi krüptovaluutade (sh bitcoin) ostmiseks ja müümiseks;
+- **OTC**: Over-The-Counter teenus, mis on mõeldud suurte mahtudega kauplemiseks otse teise mängijaga, väljaspool avalikke tellimusraamatuid;
+- **Rahastamine**: Laenude ja marginaalfinantseerimise valdkond;
+- **Tuletisinstrumendid**: Tuletisinstrumentide (futuurid jne) sektsioon, mis on mõeldud kogenud kauplejatele;
+- **P2P**: Võimaldab teil osta või müüa krüptosid teistelt kasutajatelt peer-to-peer põhimõttel.
 
 Tavapäraseks kasutamiseks (bitcoinide ostmine/müümine ja hoiused/väljavõtmised) kasutate peamiselt vahekaarti "*Trading*" ning sektsioone "*Wallet*", "*Deposit*" ja "*Withdraw*".
 

@@ -156,7 +156,7 @@ Apakah Anda siap untuk sepenuhnya mengendalikan keamanan TI Anda, memperkuat ked
 
 
 
-*N.B.: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.network/resources/glossary) untuk mendapatkan definisinya
+*N.B.: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.network/resources/glossary) untuk mendapatkan definisinya*
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman secara terbuka mengkritik penggunaan istilah "open source", men
 
 
 
-*Sumber: Nathaniel Welch
+**Sumber: Nathaniel Welch**
 
 
 
@@ -794,7 +794,7 @@ Upaya-upaya awal ini menandai lahirnya distribusi Linux:
 
 
 
-- Februari 1992: Linux Sementara PKS ** Linux Interim
+- Februari 1992: Linux Sementara PKS **Linux Interim**
 
 
 
@@ -804,7 +804,7 @@ Dikembangkan di Universitas Manchester, MCC Interim Linux dianggap sebagai distr
 
 
 
-- Mei 1992: Softlanding Linux System (SLS)**
+- Mei 1992: **Softlanding Linux System (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS sudah tidak ada lagi. Versi terakhirnya yang diketahui berasal dari akhir ta
 
 
 
-- Juli 1993: Perangkat lunak yang tidak dapat digunakan**
+- Juli 1993: Perangkat lunak yang tidak dapat digunakan
 
 
 
@@ -848,7 +848,7 @@ Slackware masih dipertahankan hingga saat ini, menjadikannya distribusi Linux te
 
 
 
-- Agustus 1993: Debian**
+- Agustus 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Dengan demikian, Debian menjadi salah satu pilar teknis dan ideologis dunia GNU/
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -1050,7 +1050,7 @@ Pilihan distribusi Linux tergantung pada kebutuhan spesifik Anda, tingkat teknis
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1066,7 +1066,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1086,7 +1086,7 @@ Mint menonjol karena kesederhanaannya, kehadiran codec multimedia secara default
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,7 +1104,7 @@ Pemasangannya lancar, perangkat lunak penting sudah terinstal sebelumnya, dan ve
 
 
 
-- oS dasar**:
+- **OS dasar**:
 
 Diluncurkan pada tahun 2011, elementary OS adalah distribusi berbasis Ubuntu yang berfokus pada desain dan konsistensi Interface. Lingkungan desktop Pantheon-nya, yang terinspirasi oleh macOS, minimalis, elegan, dan lancar. Namun, sistem ini masih kurang dapat dikustomisasi dibandingkan distribusi lainnya, dan beberapa pengguna tingkat lanjut mungkin merasa dibatasi oleh pilihan Interface dan strukturnya yang sengaja dikunci. Distribusi ini sangat cocok untuk pengguna yang sensitif secara estetika yang mencari sistem yang sederhana dan koheren untuk penggunaan sehari-hari.
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Dikembangkan oleh perusahaan Amerika System76, Pop!OS juga berbasis Ubuntu. Sist
 
 
 
-- Fedora** (Workstation atau KDE Plasma):
+- **Fedora** (Workstation atau KDE Plasma):
 
 
 
@@ -1154,7 +1154,7 @@ Fedora adalah distribusi yang didukung oleh Red Hat, yang berorientasi pada tekn
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed atau Leap):
+- **openSUSE** (Tumbleweed atau Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE tersedia sebagai rilis bergulir atau distribusi stabil. Distribusi ini 
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,7 +1182,7 @@ Debian ada dalam beberapa cabang, termasuk *Stable* (sangat andal, tetapi perang
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Berbasiskan Arch, Manjaro membuat Arch Linux dapat diakses. Distribusi ini menaw
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### Distribusi khusus
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux adalah distribusi berbasis Debian yang dirancang untuk pengujian penetrasi dan audit keamanan. Distribusi ini mencakup ratusan alat pentest. Distribusi ini tidak terlalu cocok sebagai sistem utama untuk penggunaan sehari-hari.
 
@@ -1224,7 +1224,7 @@ Kali Linux adalah distribusi berbasis Debian yang dirancang untuk pengujian pene
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS juga berasal dari Debian. Menawarkan lingkungan untuk pentesting, keam
 
 
 
-- Ekor**:
+- **Ekor**:
 
 
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OS didasarkan pada Fedora dan menggunakan sistem virtualisasi Xen untuk me
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch adalah ekstensi berorientasi pentest untuk Arch Linux (seperti Kali di
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1302,7 +1302,7 @@ PureOS adalah distribusi turunan Debian yang dikembangkan oleh Purism, benar-ben
 
 https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- Raspberry Pi OS**:
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (sebelumnya Raspbian) adalah distribusi yang dioptimalkan untuk mikrokomputer Raspberry Pi. OS ini didasarkan pada Debian, dengan paket-paket yang dikompilasi ulang untuk arsitektur ARM. OS ini dapat digunakan untuk proyek pendidikan, pengujian elektronik, atau server pribadi kecil.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (sebelumnya Raspbian) adalah distribusi yang dioptimalkan untuk 
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1362,55 +1362,55 @@ Lingkungan desktop dalam distribusi Linux bukanlah sebuah aplikasi tunggal, teta
 
 
 
-- Manajer jendela**: menggambar batas jendela, mengelola penempatan, mengubah ukuran, dan efek transisi... Sebagai contoh: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Manajer jendela**: menggambar batas jendela, mengelola penempatan, mengubah ukuran, dan efek transisi... Sebagai contoh: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Manajer file**: memungkinkan Anda menavigasi pohon direktori, menyalin, memindahkan, atau menghapus file secara visual. Contoh: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Manajer file**: memungkinkan Anda menavigasi pohon direktori, menyalin, memindahkan, atau menghapus file secara visual. Contoh: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Pusat konfigurasi**: ini adalah seperangkat alat bantu yang memungkinkan pengguna memodifikasi parameter sistem tanpa melalui baris perintah: tampilan, wallpaper, manajemen pengguna, jaringan, periferal...
+- **Pusat konfigurasi**: ini adalah seperangkat alat bantu yang memungkinkan pengguna memodifikasi parameter sistem tanpa melalui baris perintah: tampilan, wallpaper, manajemen pengguna, jaringan, periferal...
 
 
 
 
 
-- Applet sistem**: ini adalah ikon kecil dan modul interaktif di bilah tugas (atau "panel"), seperti kontrol suara, level baterai, koneksi jaringan, jam...
+- **Applet sistem**: ini adalah ikon kecil dan modul interaktif di bilah tugas (atau "panel"), seperti kontrol suara, level baterai, koneksi jaringan, jam...
 
 
 
 
 
-- Panel atau dasbor**: bilah yang terlihat, biasanya di bagian atas atau bawah layar, yang berisi menu utama, applet sistem, pintasan, zona notifikasi, dll.
+- **Panel atau dasbor**: bilah yang terlihat, biasanya di bagian atas atau bawah layar, yang berisi menu utama, applet sistem, pintasan, zona notifikasi, dll.
 
 
 
 
 
-- Manajer sesi**: berjalan pada saat pengaktifan, menampilkan layar masuk dan meluncurkan sesi grafis yang dipilih. Sebagai contoh: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Manajer sesi**: berjalan pada saat pengaktifan, menampilkan layar masuk dan meluncurkan sesi grafis yang dipilih. Sebagai contoh: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Pengelola notifikasi**: mengelola tampilan notifikasi sistem (pesan, peringatan, pembaruan, dll.). Misalnya: dunst, Plasma-notifier, xfce4-notifyd.
+- **Pengelola notifikasi**: mengelola tampilan notifikasi sistem (pesan, peringatan, pembaruan, dll.). Misalnya: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 compositor (opsional)**: menambahkan efek visual (bayangan, transparansi, animasi) di lingkungan di mana window manager tidak mendukung penyusunan komposit. Misalnya: compton, picom.
+- **X11 compositor (opsional)**: menambahkan efek visual (bayangan, transparansi, animasi) di lingkungan di mana window manager tidak mendukung penyusunan komposit. Misalnya: compton, picom.
 
 
 
 
 
-- Server tampilan**: ini adalah perangkat lunak yang menangani komunikasi antara sistem (melalui kernel dan driver grafis) dan aplikasi grafis. Perangkat lunak ini menampilkan jendela pada layar dan mengelola input keyboard dan mouse. Display server sering kali merupakan komponen yang berbeda dari lingkungan desktop, tetapi semakin banyak sistem yang mengadopsi Wayland, protokol modern di mana peran display server dapat diambil alih secara langsung oleh window manager (misalnya Mutter di bawah GNOME atau KWin di bawah KDE). Hal ini kemudian disebut sebagai "penggabungan Wayland".
+- **Server tampilan**: ini adalah perangkat lunak yang menangani komunikasi antara sistem (melalui kernel dan driver grafis) dan aplikasi grafis. Perangkat lunak ini menampilkan jendela pada layar dan mengelola input keyboard dan mouse. Display server sering kali merupakan komponen yang berbeda dari lingkungan desktop, tetapi semakin banyak sistem yang mengadopsi Wayland, protokol modern di mana peran display server dapat diambil alih secara langsung oleh window manager (misalnya Mutter di bawah GNOME atau KWin di bawah KDE). Hal ini kemudian disebut sebagai "penggabungan Wayland".
 
 
 
@@ -1877,7 +1877,7 @@ Setelah Anda meluncurkan Ubuntu, wizard instalasi akan memandu Anda langkah demi
 
 
 
-- Instalasi bersama Windows (*boot ganda*)**
+- Instalasi bersama Windows (**boot ganda**)
 
 
 
@@ -1902,7 +1902,7 @@ Untuk melakukan hal ini dengan benar, saya sarankan Anda untuk terlebih dahulu m
 
 
 
-- Penggantian Windows secara lengkap**
+- **Penggantian Windows secara lengkap**
 
 
 
@@ -2020,10 +2020,10 @@ Setiap repositori dibagi menjadi beberapa bagian. Secara default, Ubuntu mengakt
 
 
 
-- main**: perangkat lunak bebas yang secara resmi dikelola oleh Canonical. Contoh: Firefox, LibreOffice, bash
-- dibatasi**: perangkat lunak tidak bebas yang penting agar perangkat keras dapat berfungsi dengan baik. Contoh: Driver NVIDIA, firmware Wi-Fi, codec eksklusif
-- semesta**: perangkat lunak bebas yang dikelola oleh komunitas. Contoh: GIMP, Inkscape, Audacity
-- multiverse**: perangkat lunak yang tunduk pada pembatasan hukum (paten, lisensi tidak bebas). Ketersediaannya mungkin berbeda di setiap negara. Contoh: codec audio/video tertentu, Steam
+- **main**: perangkat lunak bebas yang secara resmi dikelola oleh Canonical. Contoh: Firefox, LibreOffice, bash
+- **dibatasi**: perangkat lunak tidak bebas yang penting agar perangkat keras dapat berfungsi dengan baik. Contoh: Driver NVIDIA, firmware Wi-Fi, codec eksklusif
+- **semesta**: perangkat lunak bebas yang dikelola oleh komunitas. Contoh: GIMP, Inkscape, Audacity
+- **multiverse**: perangkat lunak yang tunduk pada pembatasan hukum (paten, lisensi tidak bebas). Ketersediaannya mungkin berbeda di setiap negara. Contoh: codec audio/video tertentu, Steam
 
 
 
@@ -3334,7 +3334,7 @@ Secara konkret, pada komputer pribadi Anda, ini berarti bahwa akun pengguna utam
 
 
 
-Pada Windows, sebagian besar pengguna memiliki akun administrator secara default, meskipun ini adalah praktik yang buruk. Saya sarankan Anda membuat akun pengguna standar untuk penggunaan sehari-hari, dan meninggalkan akun administrator untuk operasi yang benar-benar membutuhkannya. Ketika Anda mencoba melakukan tugas yang membutuhkan hak istimewa, Windows hanya akan meminta Anda memasukkan kata sandi administrator, bukan hanya mengklik tombol "*YES".
+Pada Windows, sebagian besar pengguna memiliki akun administrator secara default, meskipun ini adalah praktik yang buruk. Saya sarankan Anda membuat akun pengguna standar untuk penggunaan sehari-hari, dan meninggalkan akun administrator untuk operasi yang benar-benar membutuhkannya. Ketika Anda mencoba melakukan tugas yang membutuhkan hak istimewa, Windows hanya akan meminta Anda memasukkan kata sandi administrator, bukan hanya mengklik tombol "*YES*".
 
 
 
@@ -3541,7 +3541,7 @@ Meskipun pembaruan otomatis diaktifkan di sistem Anda, tetap penting untuk memer
 
 
 
-- Sistem operasi Windows*
+- Sistem operasi Windows
 
 
 
@@ -3565,7 +3565,7 @@ Jangan lupa untuk memeriksa pembaruan opsional di menu yang sama.
 
 
 
-- Sistem operasi Linux*
+- Sistem operasi **Linux**
 
 
 
@@ -3618,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- Sistem operasi MacOS*
+- Sistem operasi **MacOS**
 
 
 
@@ -3654,25 +3654,25 @@ Beberapa perangkat lunak lebih sensitif daripada yang lain, karena berinteraksi 
 
 
 
-- Peramban web*: peramban web berada di garis depan serangan, karena mereka memproses konten yang belum diverifikasi secara real time dan memiliki permukaan serangan yang sangat besar. Terlebih lagi, peramban web memainkan peran sentral dalam melindungi data pribadi Anda. Dan, di atas semua itu, mereka cenderung menggantikan banyak aplikasi perangkat lunak yang sebelumnya digunakan secara lokal (klien email, paket kantor, pemutar media...). Tetapi kita akan kembali ke poin ini di bagian selanjutnya dari kursus SCU202;
+- Peramban web: peramban web berada di garis depan serangan, karena mereka memproses konten yang belum diverifikasi secara real time dan memiliki permukaan serangan yang sangat besar. Terlebih lagi, peramban web memainkan peran sentral dalam melindungi data pribadi Anda. Dan, di atas semua itu, mereka cenderung menggantikan banyak aplikasi perangkat lunak yang sebelumnya digunakan secara lokal (klien email, paket kantor, pemutar media...). Tetapi kita akan kembali ke poin ini di bagian selanjutnya dari kursus SCU202;
 
 
 
 
 
-- Klien email*: mereka menerima lampiran atau tautan dari sumber eksternal yang tidak dapat dikontrol dan karena itu berisiko;
+- Klien **email**: mereka menerima lampiran atau tautan dari sumber eksternal yang tidak dapat dikontrol dan karena itu berisiko;
 
 
 
 
 
-- Alat komunikasi* (TeamViewer, Zoom, Signal, Teams...): karena sifatnya yang interaktif, alat komunikasi ini menjadi target serangan spionase atau upaya kendali jarak jauh. Dengan cara yang sama seperti klien email, alat komunikasi dapat digunakan sebagai vektor untuk upaya phishing atau distribusi lampiran berbahaya;
+- Alat komunikasi (TeamViewer, Zoom, Signal, Teams...): karena sifatnya yang interaktif, alat komunikasi ini menjadi target serangan spionase atau upaya kendali jarak jauh. Dengan cara yang sama seperti klien email, alat komunikasi dapat digunakan sebagai vektor untuk upaya phishing atau distribusi lampiran berbahaya;
 
 
 
 
 
-- Antivirus, firewall, dan solusi deteksi lainnya*: perangkat-perangkat ini umumnya memiliki hak istimewa yang lebih tinggi, karena mereka secara terus-menerus memindai file, proses, dan koneksi jaringan Anda. Basis tanda tangan yang ketinggalan zaman, konfigurasi yang buruk, atau kerentanan pada perangkat lunak itu sendiri dapat membuat malware tidak terdeteksi, atau bahkan mendapatkan hak istimewa yang lebih tinggi.
+- **Antivirus, firewall, dan solusi deteksi lainnya**: perangkat-perangkat ini umumnya memiliki hak istimewa yang lebih tinggi, karena mereka secara terus-menerus memindai file, proses, dan koneksi jaringan Anda. Basis tanda tangan yang ketinggalan zaman, konfigurasi yang buruk, atau kerentanan pada perangkat lunak itu sendiri dapat membuat malware tidak terdeteksi, atau bahkan mendapatkan hak istimewa yang lebih tinggi.
 
 
 
@@ -3893,7 +3893,7 @@ Seperti yang kita lihat di bagian sebelumnya, Windows secara historis lebih rent
 
 
 
-- Microsoft Defender*: di Windows, memiliki antivirus yang bagus adalah kebutuhan dasar. Selama bertahun-tahun, Microsoft Defender (sebelumnya Windows Defender), antivirus bawaan sistem, dianggap tidak dapat diandalkan, dan sebagai gantinya, solusi pihak ketiga direkomendasikan. Tetapi perangkat lunak ini telah berkembang pesat dari waktu ke waktu, dan sekarang, menurut pendapat saya, sudah cukup memadai untuk memberikan perlindungan dasar untuk penggunaan pribadi. Meskipun demikian, kita tidak boleh melebih-lebihkan peran perangkat lunak antivirus: di atas segalanya, praktik digital Anda sendirilah yang memastikan keamanan Anda. Salah satu keunggulan Defender adalah integrasi bawaannya dengan Windows. Selain perlindungan waktu nyata, dia menawarkan pemindaian komprehensif yang dapat Anda jadwalkan setiap minggu atau dijalankan secara manual secara berkala.
+- **Microsoft Defender**: di Windows, memiliki antivirus yang bagus adalah kebutuhan dasar. Selama bertahun-tahun, Microsoft Defender (sebelumnya Windows Defender), antivirus bawaan sistem, dianggap tidak dapat diandalkan, dan sebagai gantinya, solusi pihak ketiga direkomendasikan. Tetapi perangkat lunak ini telah berkembang pesat dari waktu ke waktu, dan sekarang, menurut pendapat saya, sudah cukup memadai untuk memberikan perlindungan dasar untuk penggunaan pribadi. Meskipun demikian, kita tidak boleh melebih-lebihkan peran perangkat lunak antivirus: di atas segalanya, praktik digital Anda sendirilah yang memastikan keamanan Anda. Salah satu keunggulan Defender adalah integrasi bawaannya dengan Windows. Selain perlindungan waktu nyata, dia menawarkan pemindaian komprehensif yang dapat Anda jadwalkan setiap minggu atau dijalankan secara manual secara berkala.
 
 
 
@@ -3903,12 +3903,12 @@ Seperti yang kita lihat di bagian sebelumnya, Windows secara historis lebih rent
 
 
 
-- Sysinternals Suite*: ini adalah seperangkat alat yang jauh lebih canggih yang ditawarkan oleh Microsoft untuk mendiagnosis, memantau, dan memecahkan masalah Windows. Berikut adalah alat utama dalam rangkaian ini:
-    - Process Monitor*: memungkinkan Anda mengamati proses aktif, akses file, register, dll. secara real time;
-    - Autoruns*: menampilkan semua program yang diluncurkan saat startup, membantu Anda mendeteksi dengan cepat malware atau aplikasi yang tidak seharusnya berjalan;
-    - Process Explorer*: memantau proses dan mendeteksi perilaku yang mencurigakan;
-    - TCPView*: memvisualisasikan koneksi jaringan yang aktif (deteksi koneksi yang tidak normal);
-    - Sigcheck*: memeriksa tanda tangan digital pada file untuk mengetahui adanya kode berbahaya.
+- **Sysinternals Suite**: ini adalah seperangkat alat yang jauh lebih canggih yang ditawarkan oleh Microsoft untuk mendiagnosis, memantau, dan memecahkan masalah Windows. Berikut adalah alat utama dalam rangkaian ini:
+- **Process Monitor**: memungkinkan Anda mengamati proses aktif, akses file, register, dll. secara real time;
+- **Autoruns**: menampilkan semua program yang diluncurkan saat startup, membantu Anda mendeteksi dengan cepat malware atau aplikasi yang tidak seharusnya berjalan;
+- **Process Explorer**: memantau proses dan mendeteksi perilaku yang mencurigakan;
+- **TCPView**: memvisualisasikan koneksi jaringan yang aktif (deteksi koneksi yang tidak normal);
+- **Sigcheck**: memeriksa tanda tangan digital pada file untuk mengetahui adanya kode berbahaya.
 
 
 
@@ -3918,7 +3918,7 @@ Seperti yang kita lihat di bagian sebelumnya, Windows secara historis lebih rent
 
 
 
-- GlassWire*: alat pemantauan jaringan. Alat ini melacak koneksi yang masuk dan keluar dalam waktu nyata, dan memperingatkan Anda tentang aktivitas yang tidak biasa.
+- **GlassWire**: alat pemantauan jaringan. Alat ini melacak koneksi yang masuk dan keluar dalam waktu nyata, dan memperingatkan Anda tentang aktivitas yang tidak biasa.
 
 
 
@@ -3936,7 +3936,7 @@ Pada mesin Linux yang dipelihara dengan baik dan digunakan untuk keperluan priba
 
 
 
-- Fail2ban*: memonitor log sistem untuk upaya akses yang tidak berhasil (seperti upaya login SSH secara paksa). Ketika perilaku mencurigakan terdeteksi, maka untuk sementara waktu melarang IP Address yang menyinggung melalui `iptables`;
+- **Fail2ban**: memonitor log sistem untuk upaya akses yang tidak berhasil (seperti upaya login SSH secara paksa). Ketika perilaku mencurigakan terdeteksi, maka untuk sementara waktu melarang IP Address yang menyinggung melalui `iptables`;
 
 
 
@@ -3946,7 +3946,7 @@ Pada mesin Linux yang dipelihara dengan baik dan digunakan untuk keperluan priba
 
 
 
-- Lynis*: alat bantu audit keamanan komprehensif yang menganalisis sistem Anda dari kesalahan konfigurasi, kelemahan yang diketahui, atau penyimpangan dari praktik terbaik. Alat ini menghasilkan laporan yang mudah dibaca, dengan skor keamanan dan rekomendasi.
+- **Lynis**: alat bantu audit keamanan komprehensif yang menganalisis sistem Anda dari kesalahan konfigurasi, kelemahan yang diketahui, atau penyimpangan dari praktik terbaik. Alat ini menghasilkan laporan yang mudah dibaca, dengan skor keamanan dan rekomendasi.
 
 
 
@@ -3965,7 +3965,7 @@ macOS terkenal dengan keamanannya, khususnya berkat kebijakan tanda tangan aplik
 
 
 
-- KnockKnock*: memindai semua Elements yang dikonfigurasikan untuk berjalan pada saat startup (agen, daemon, modul kernel...) dan mengidentifikasi yang berpotensi mencurigakan, tidak bertanda tangan, atau tidak dikenal. Ini memungkinkan Anda untuk dengan cepat mengidentifikasi kegigihan berbahaya pada sistem Anda.
+- **KnockKnock**: memindai semua Elements yang dikonfigurasikan untuk berjalan pada saat startup (agen, daemon, modul kernel...) dan mengidentifikasi yang berpotensi mencurigakan, tidak bertanda tangan, atau tidak dikenal. Ini memungkinkan Anda untuk dengan cepat mengidentifikasi kegigihan berbahaya pada sistem Anda.
 
 
 
@@ -4549,7 +4549,7 @@ Enkripsi penuh itu seperti sebuah kunci: selama kata sandi tidak diberikan, data
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4808,7 +4808,7 @@ Terakhir, klik tombol berbentuk panah di sudut kanan atas untuk mengeluarkan kun
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4854,7 +4854,7 @@ Setelah FileVault diaktifkan, Anda harus memilih metode pemulihan jika terjadi k
 Untuk media penyimpanan eksternal (disk Hard, stik USB, dll.), enkripsi dilakukan dengan menggunakan utilitas disk. Anda harus memformat ulang volume sepenuhnya:
 
 - Pilih perangkat, klik "*Hapus*"
-- Pilih skema "Tabel Partisi GUID*"
+- Pilih skema "Tabel Partisi GUID"
 - Kemudian pilih format sistem file yang dienkripsi (*APFS* atau *Mac OS extended*)
 - Pilih kata sandi yang kuat
 - Klik "*Hapus*" lalu "*OK*" dan enkripsi selesai
@@ -4934,7 +4934,7 @@ Paket ini menginstal `exiftool`, yang kemudian dapat Anda gunakan secara langsun
 
 
 
-- Langkah 2: Melihat metadata file** (dalam bahasa Prancis)
+- Langkah 2: Melihat metadata **file** (dalam bahasa Prancis)
 
 
 
@@ -5680,7 +5680,7 @@ Browser berbasis Blink juga menyertakan sejumlah browser yang lebih marjinal, ya
 
 
 
-- Busur** :
+- **Busur** :
 
 
 
@@ -5698,7 +5698,7 @@ Dari sudut pandang teknis, Arc didasarkan pada Chromium, tetapi tetap merupakan 
 
 
 
-- Polypane**:
+- **Polypane**:
 
 
 
@@ -6190,25 +6190,25 @@ Untuk menghindari serangan ini saat menjelajah online, penting untuk mengikuti p
 
 
 
-- Analisis URL**: penyerang sering menggunakan alamat yang sangat mirip dengan alamat aslinya (misalnya `micr0soft-support.com`, `paypal-verif.net`, dan lain-lain). Beberapa juga mengganti karakter yang mirip secara visual, dengan memanfaatkan karakter Unicode. Periksa apakah Address sesuai dengan situs yang diharapkan, tanpa awalan atau akhiran yang mencurigakan.
+- **Analisis URL**: penyerang sering menggunakan alamat yang sangat mirip dengan alamat aslinya (misalnya `micr0soft-support.com`, `paypal-verif.net`, dan lain-lain). Beberapa juga mengganti karakter yang mirip secara visual, dengan memanfaatkan karakter Unicode. Periksa apakah Address sesuai dengan situs yang diharapkan, tanpa awalan atau akhiran yang mencurigakan.
 
 
 
 
 
-- Hindari tautan yang dipendekkan**: layanan seperti `bit.ly` atau `t.co` dapat menyembunyikan Address akhir. Jika Anda menerima tautan yang dipendekkan, curigailah atau gunakan layanan perluasan URL untuk memeriksa tujuannya.
+- **Hindari tautan yang dipendekkan**: layanan seperti `bit.ly` atau `t.co` dapat menyembunyikan Address akhir. Jika Anda menerima tautan yang dipendekkan, curigailah atau gunakan layanan perluasan URL untuk memeriksa tujuannya.
 
 
 
 
 
-- Waspadai pesan yang mengkhawatirkan**: upaya phishing sering kali memanfaatkan emosi yang kuat (urgensi, ancaman, imbalan, keingintahuan...). Email yang mengklaim bahwa akun Anda akan diblokir atau paket tidak dapat dikirim tentu saja mencurigakan.
+- Waspadai pesan yang mengkhawatirkan: upaya phishing sering kali memanfaatkan emosi yang kuat (urgensi, ancaman, imbalan, keingintahuan...). Email yang mengklaim bahwa akun Anda akan diblokir atau paket tidak dapat dikirim tentu saja mencurigakan.
 
 
 
 
 
-- Jangan pernah mengirimkan informasi sensitif melalui tautan yang diterima**: Institusi yang sah tidak akan pernah meminta kata sandi, kode autentikasi, atau salinan pindaian kartu identitas Anda melalui email atau SMS.
+- Jangan pernah mengirimkan informasi sensitif melalui tautan yang diterima: Institusi yang sah tidak akan pernah meminta kata sandi, kode autentikasi, atau salinan pindaian kartu identitas Anda melalui email atau SMS.
 
 
 
@@ -6218,7 +6218,7 @@ Dan berikut ini adalah beberapa langkah pencegahan yang dapat Anda terapkan lang
 
 
 
-- Mengakses situs penting melalui bookmark Anda**:
+- Mengakses situs penting melalui bookmark Anda:
 
 
 
@@ -6232,7 +6232,7 @@ Apakah Anda menerima email dari kantor pajak yang berisi tautan? Jangan klik tau
 
 
 
-- Hormati praktik autentikasi yang baik** :
+- **Hormati praktik autentikasi yang baik** :
 
 
 
@@ -6250,7 +6250,7 @@ Selain langkah-langkah ini, penggunaan pengelola kata sandi yang baik sebagai ek
 
 
 
-- Periksa sertifikat SSL/TLS**:
+- Periksa sertifikat **SSL/TLS**:
 
 
 
@@ -6296,19 +6296,19 @@ Tujuannya sederhana: untuk mencegah insiden yang melibatkan aktivitas tertentu (
 
 
 
-- Gunakan beberapa peramban yang berbeda**: misalnya, Firefox untuk penggunaan pribadi, Tor atau Mullvad untuk aktivitas yang sensitif, dan Chromium untuk tugas-tugas profesional. Setiap peramban menggunakan contoh penyimpanannya sendiri, yang sepenuhnya mengisolasi cookie, sesi, dan ekstensi. Hal ini juga memungkinkan Anda untuk menyesuaikan pengaturan peramban dengan kasus penggunaan spesifik Anda.
+- **Gunakan beberapa peramban yang berbeda**: misalnya, Firefox untuk penggunaan pribadi, Tor atau Mullvad untuk aktivitas yang sensitif, dan Chromium untuk tugas-tugas profesional. Setiap peramban menggunakan contoh penyimpanannya sendiri, yang sepenuhnya mengisolasi cookie, sesi, dan ekstensi. Hal ini juga memungkinkan Anda untuk menyesuaikan pengaturan peramban dengan kasus penggunaan spesifik Anda.
 
 
 
 
 
-- Buat beberapa profil dalam satu browser**: beberapa browser memungkinkan Anda untuk membuat profil independen, masing-masing dengan riwayat, sesi, ekstensi, dan pengaturannya sendiri. Ini adalah solusi yang sedikit lebih longgar daripada menggunakan beberapa peramban terpisah, tetapi masih kurang efektif.
+- Buat beberapa profil dalam satu browser: beberapa browser memungkinkan Anda untuk membuat profil independen, masing-masing dengan riwayat, sesi, ekstensi, dan pengaturannya sendiri. Ini adalah solusi yang sedikit lebih longgar daripada menggunakan beberapa peramban terpisah, tetapi masih kurang efektif.
 
 
 
 
 
-- Gunakan wadah bawaan**: Firefox menawarkan ekstensi [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), yang memungkinkan anda membuka tab terpisah, masing-masing dengan login dan kuki sendiri. Anda juga dapat secara otomatis menetapkan situs tertentu ke wadah tertentu, agar tetap terpisah setiap kali dibuka.
+- **Gunakan wadah bawaan**: Firefox menawarkan ekstensi [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), yang memungkinkan anda membuka tab terpisah, masing-masing dengan login dan kuki sendiri. Anda juga dapat secara otomatis menetapkan situs tertentu ke wadah tertentu, agar tetap terpisah setiap kali dibuka.
 
 
 
@@ -6318,7 +6318,7 @@ Tujuannya sederhana: untuk mencegah insiden yang melibatkan aktivitas tertentu (
 
 
 
-- Gunakan lingkungan sistem yang terisolasi**: Untuk penggunaan yang sangat sensitif, Anda juga dapat menjalankan peramban di dalam mesin virtual atau kontainer Docker, untuk menjaganya agar tetap terpisah dari lingkungan utama.
+- Gunakan lingkungan sistem yang terisolasi: Untuk penggunaan yang sangat sensitif, Anda juga dapat menjalankan peramban di dalam mesin virtual atau kontainer Docker, untuk menjaganya agar tetap terpisah dari lingkungan utama.
 
 
 
@@ -8070,8 +8070,8 @@ Infrastruktur Internet didasarkan pada dua protokol:
 
 
 
-- IP** (*Internet Protocol*) Mengidentifikasi setiap perangkat yang tersambung dan merutekan paket data.
-- TCP** (*Transmission Control Protocol*) Memilah-milah aliran, memeriksa kesalahan, dan menempatkan kembali segmen-segmen secara berurutan.
+- **IP** (*Internet Protocol*) Mengidentifikasi setiap perangkat yang tersambung dan merutekan paket data.
+- **TCP** (*Transmission Control Protocol*) Memilah-milah aliran, memeriksa kesalahan, dan menempatkan kembali segmen-segmen secara berurutan.
 
 
 → Untuk penggunaan waktu nyata di mana keandalan tidak terlalu penting dibandingkan latensi (VoIP, DNS, streaming, dll.), protokol transport lain sering digunakan sebagai pengganti TCP: UDP (*User Datagram Protocol*).
@@ -8112,7 +8112,7 @@ Modem (kependekan dari "*modulator-demodulator*") adalah komponen yang menghubun
 
 
 
-- Peran router**
+- Peran **router**
 
 
 Router adalah jantung dari jaringan lokal Anda. Router mendistribusikan koneksi Internet ke semua perangkat Anda: Komputer, ponsel cerdas, benda-benda yang terhubung, printer, dll. Router memberikan IP lokal Address kepada masing-masing perangkat tersebut (berbeda dengan IP publik Anda yang terlihat di Internet). Router kemudian mengatur lalu lintas masuk dan keluar, memastikan bahwa data mencapai perangkat yang tepat. Router ini juga dapat mengintegrasikan firewall, memfilter paket jaringan, atau mengelola aturan penerusan port. NAT menyembunyikan jaringan lokal Anda dari mata Internet, menggunakan satu IP publik Address untuk mewakili semua perangkat Anda. Hanya router yang tahu perangkat lokal mana yang memulai permintaan yang mana.
@@ -8356,21 +8356,21 @@ Beberapa fitur harus dihindari atau dinonaktifkan secara sistematis:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Fungsi ini memungkinkan perangkat di jaringan Anda untuk meminta router membuka port secara otomatis. Meskipun ini memfasilitasi penggunaan tertentu (game online, kamera yang terhubung, dll.), ini juga membuka pintu bagi aplikasi berbahaya yang mampu mengubah konfigurasi jaringan tanpa otorisasi Anda. UPnP adalah salah satu penyebab utama pemaparan layanan internal yang tidak disengaja ke dunia luar.
 
 
 
-- WPS (*Pengaturan Terproteksi Wi-Fi*)**:
+- WPS (**Pengaturan Terproteksi Wi-Fi**):
 
 
 Awalnya dirancang untuk menyederhanakan menghubungkan perangkat ke Wi-Fi tanpa memasukkan kata sandi, sistem ini didasarkan pada kode PIN yang sering kali lemah dan mudah diserang dengan kekerasan. Saya menyarankan Anda untuk menonaktifkannya.
 
 
 
-- Akses jarak jauh (*Manajemen Jarak Jauh*)**:
+- Akses jarak jauh (**Manajemen Jarak Jauh**):
 
 
 Beberapa router memungkinkan Anda untuk terhubung ke Interface administrasi mereka dari luar, melalui Internet. Fitur ini secara tidak wajar meningkatkan permukaan serangan router Anda. Nonaktifkan sepenuhnya, kecuali Anda memiliki kebutuhan khusus untuk manajemen jarak jauh. Meskipun begitu, selalu gunakan VPN.
@@ -8379,14 +8379,14 @@ Beberapa router memungkinkan Anda untuk terhubung ke Interface administrasi mere
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Protokol yang sudah usang atau tidak aman**:
+- **Protokol yang sudah usang atau tidak aman**:
 
 
 Nonaktifkan layanan administrasi apa pun yang menggunakan protokol teks biasa seperti Telnet, FTP, HTTP yang tidak dienkripsi, atau SMBv1. Protokol-protokol ini tidak menjamin kerahasiaan maupun integritas data yang dipertukarkan, dan sering kali menjadi sasaran malware. Jika Anda membutuhkan akses lokal atau jarak jauh, hanya gunakan koneksi melalui HTTPS (terenkripsi Interface), SSH atau SFTP, yang sesuai.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Beberapa router merespon secara default terhadap permintaan ICMP yang dikirim dari luar (perintah `ping`). Hal ini memungkinkan penyerang untuk memeriksa apakah jaringan Anda aktif dan dapat diakses. Jika Anda tidak memerlukannya, nonaktifkan respons ini di firewall router.
@@ -8475,15 +8475,15 @@ Selanjutnya, aktifkan protokol enkripsi kueri DNS untuk mencegah kueri DNS diceg
 
 
 
-- DoH (*DNS melalui HTTPS*)**: Mengenkapsulasi permintaan DNS dalam protokol HTTPS, sehingga tidak dapat dibedakan dari lalu lintas web terenkripsi konvensional
+- DoH (**DNS melalui HTTPS**): Mengenkapsulasi permintaan DNS dalam protokol HTTPS, sehingga tidak dapat dibedakan dari lalu lintas web terenkripsi konvensional
 
 
 
-- DoT (*DNS melalui TLS*)**: Membuat saluran terenkripsi khusus antara perangkat Anda dan server DNS
+- DoT (**DNS melalui TLS**): Membuat saluran terenkripsi khusus antara perangkat Anda dan server DNS
 
 
 
-- DoQ (*DNS melalui QUIC*)**: Mengirimkan permintaan DNS melalui protokol QUIC berbasis UDP
+- **DoQ (*DNS melalui QUIC*)**: Mengirimkan permintaan DNS melalui protokol QUIC berbasis UDP
 
 
 Secara praktis, enkripsi DNS dan peralihan server bisa diimplementasikan pada berbagai tingkatan:
@@ -8598,5 +8598,4 @@ Dengan mengikuti beberapa langkah berikut ini, Anda akan membangun lingkungan ja
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 

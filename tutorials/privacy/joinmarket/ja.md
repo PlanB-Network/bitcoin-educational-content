@@ -1,5 +1,5 @@
 ---
-name: ジョインマーケット
+name: JoinMarket
 
 description: JoinMarketを使用し、コマンドラインからCoinJoin over Bitcoinを行う方法についてのガイドとチュートリアル
 ---
@@ -376,7 +376,7 @@ python3 wallet-tool.py testwallet.jmdat gettimelockaddress 2025-11
 
 
 
-**注意フィデリティ・ボンド（通称FB）を作る場合、細心の注意を払うべきことが2つある；
+**注意：フィデリティ・ボンド（通称FB）を作る場合、細心の注意を払うべきことが2つある；**
 
 
 

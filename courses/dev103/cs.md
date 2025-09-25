@@ -50,7 +50,7 @@ Příkazy, které obsahují, jsou napsány v programovacím jazyce JavaScript.
 Runtime JavaScriptu je speciální program, který tyto soubory spouští.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### Prostředí NodeJS
@@ -71,7 +71,7 @@ Protože je NodeJS k dispozici pro všechny tři operační systémy, bude možn
 To znamená, že můžete například napsat jednoduchou videohru v JavaScriptu na svém počítači s Windows a předat ji kamarádovi, aby ji spustil na svém Macu.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -676,11 +676,11 @@ Logické operátory můžete kombinovat:
 
 
 - `&&` znamená "a" a vrátí `pravdu` pouze v případě, že **obě** hodnoty jsou `pravdivé`, jinak vrátí `nepravdu`
-- `||` znamená "nebo" a vrátí `pravdu`, pokud je alespoň jedna** z hodnot `pravdivá`, jinak (pokud jsou obě nepravdivé) vrátí `nepravdu`
+- `||` znamená "nebo" a vrátí `pravdu`, pokud je alespoň jedna z hodnot `pravdivá`, jinak (pokud jsou obě nepravdivé) vrátí `nepravdu`
 - `!` znamená "ne", aplikuje se před boolean a převrátí ho: pokud je boolean `pravdivý`, vrátí `nepravdivý` a naopak.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Příklady:
@@ -730,15 +730,15 @@ V této části se budeme zabývat dalšími třemi typy, které jsou v programe
 
 
 
-- Pole**: posloupnosti hodnot
-- undefined**: speciální hodnota, která znamená "nic nebylo přiřazeno"
-- null**: další speciální hodnota, která znamená "záměrně prázdný"
+- **Pole**: posloupnosti hodnot
+- **undefined**: speciální hodnota, která znamená "nic nebylo přiřazeno"
+- **null**: další speciální hodnota, která znamená "záměrně prázdný"
 
 
 ### Pole a přístup k indexům
 
 
-Pole** je typ, který může obsahovat více hodnot v seznamu.
+**Pole** je typ, který může obsahovat více hodnot v seznamu.
 
 
 Pole vytvoříte pomocí hranatých závorek `[]` a oddělením položek čárkami.
@@ -1962,7 +1962,7 @@ Tyto předměty se hodí, když chcete jen něco rychlého a jednoduchého. Poku
 ### Třídy a konstruktory
 
 
-Třída** je jako plán. Říká JavaScriptu, jak vytvořit určitý druh objektu.
+**Třída** je jako plán. Říká JavaScriptu, jak vytvořit určitý druh objektu.
 
 
 Třídu definujete pomocí klíčového slova `class`, za kterým následuje název třídy a blok složených závorek `{}`.
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Třída `Car` nyní **dědí** vše od třídy `Vehicle`. Získává vlastnost `značka` a metodu `start()` jsme nahradili naší vlastní verzí.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Vyzkoušejme si to:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -3602,7 +3602,7 @@ JavaScript nám poskytuje některé speciální typy kolekcí, které přesahuj�
 Pomáhají ukládat a spravovat skupiny hodnot, ale fungují jinak než dosud.
 
 
-`Mapa` je kolekce dvojic klíč-hodnota**, stejně jako objekt. Má však několik důležitých rozdílů:
+`Mapa` je kolekce dvojic klíč-hodnota, stejně jako objekt. Má však několik důležitých rozdílů:
 
 
 
@@ -4147,7 +4147,7 @@ Zde je stručnější a pro začátečníky přívětivější přepis částí 
 ### Zpětná volání
 
 
-Zpětná vazba** je pouze funkce, kterou předáme jiné funkci, aby mohla být později **vyvolána**.
+**Zpětná vazba** je pouze funkce, kterou předáme jiné funkci, aby mohla být později **vyvolána**.
 
 
 Podívejme se na skutečný příklad s použitím čísel. Představme si, že máme seznam čísel a chceme každé z nich zdvojnásobit a na výsledné "zdvojené" pole aplikovat funkci (zpětné volání), ale chceme to provést s malým zpožděním, jako kdybychom čekali na něco pomalého (například načítání dat z internetu).
@@ -4833,7 +4833,7 @@ return new Promise(resolve => setTimeout(resolve, ms))
 ```
 
 
-Nyní se pomalu** věnujme číslům:
+Nyní se pomalu **věnujme číslům:**
 
 
 ```javascript
@@ -5228,7 +5228,7 @@ JavaScript je interpretovaný jazyk, na rozdíl od kompilovaných jazyků, jako 
 Kód napsaný v kompilovaném jazyce se změní na binární kód a ten se přenese přímo do procesoru počítače.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpredové jazyky jsou naopak uživatelsky přívětivější a mají blíže k tomu, jak myslí lidé ("high level"), než jak pracují stroje ("low level"); proto je pro jejich kód obvykle vytvořen virtuální stroj.
@@ -5261,7 +5261,7 @@ Proč je to problém?
 Vzhledem k tomu, že prohlížeče spouštějí kód získaný z milionů různých zdrojů na internetu, mohou se snadno stát škodlivým softwarem, a proto jsou "sandboxovány" od zbytku operačního systému.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript neuměl přistupovat k souborovému systému a dalším místním zdrojům v počítači (alespoň ne tak snadno jako jiné jazyky), takže to představovalo významné omezení pro to, jaké aplikace jste s ním mohli vytvářet.
@@ -5270,7 +5270,7 @@ JavaScript neuměl přistupovat k souborovému systému a dalším místním zdr
 V roce 2009 vydal Ryan Dahl knihu NodeJS, což je runtime, který umožňuje používat engine V8 mimo prohlížeč, přímo v nativním operačním systému počítače. Přidává také mnoho funkcí, které jsou užitečné pro psaní programů na straně serveru a příkazového řádku. Pomocí NodeJS můžete například vytvořit webový server, číst a zapisovat soubory nebo vytvářet nástroje pro automatizaci úloh.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 V tomto kurzu jsme se zatím zabývali funkcemi JavaScriptu, které jsou přítomny jak v prohlížeči, tak v NodeJS. Tyto funkce nám umožnily definovat data a manipulovat s nimi abstraktním způsobem. V několika příštích lekcích prozkoumáme funkce, které jsou specifické pro NodeJS a umožňují nám komunikovat s operačním systémem.
@@ -6329,7 +6329,7 @@ Například:
 - síťový požadavek vrací data
 
 
-Událost** je pouze signál, že se něco stalo, a vy můžete napsat kód, který bude těmto událostem naslouchat a reagovat na ně.
+**Událost** je pouze signál, že se něco stalo, a vy můžete napsat kód, který bude těmto událostem naslouchat a reagovat na ně.
 
 
 V NodeJS může mnoho objektů vysílat události. Tyto objekty se nazývají **EventEmitters**.
@@ -6431,10 +6431,10 @@ NodeJS má čtyři hlavní typy streamů:
 
 
 
-- Readable**: proudy, ze kterých lze číst data (jako při čtení souboru)
-- Writable**: proudy, do kterých lze zapisovat data (jako zápis do souboru)
-- Duplexní**: toky, které lze číst i zapisovat
-- Transformace**: jako duplexní toky, ale mohou měnit (transformovat) data v průběhu jejich toku
+- **Readable**: proudy, ze kterých lze číst data (jako při čtení souboru)
+- **Writable**: proudy, do kterých lze zapisovat data (jako zápis do souboru)
+- **Duplexní**: toky, které lze číst i zapisovat
+- **Transformace**: jako duplexní toky, ale mohou měnit (transformovat) data v průběhu jejich toku
 
 
 ### Čitelné proudy

@@ -108,7 +108,7 @@ Tujuan dari kursus ini adalah untuk memberi Anda semua yang Anda butuhkan untuk 
 
 
 
-**Bagian 1: Pendahuluan
+**Bagian 1: Pendahuluan**
 
 
 Kami akan mulai dengan menyoroti pentingnya menyatukan orang-orang di sekitar Bitcoin, baik melalui komunitas online atau pertemuan lokal. Anda akan mengetahui mengapa dan di mana harus memulai komunitas Anda sendiri, serta cara menetapkan tujuan yang jelas untuk mendorong pertumbuhan dan keberlanjutan jangka panjang.
@@ -476,7 +476,7 @@ Langkah selanjutnya dalam membangun komunitas Anda adalah menentukan identitasny
 Bagian ini menyediakan tutorial dan solusi perangkat lunak yang ramah bagi pemula untuk membantu Anda mendesain identitas visual komunitas Anda, bahkan dengan keterampilan pemula.
 
 
-**Mengapa identitas itu penting?
+**Mengapa identitas itu penting?**
 
 Orang-orang merasa lebih terlibat dan berkomitmen ketika mereka dapat mengidentifikasi diri mereka dengan sebuah kelompok. Identitas yang kuat membantu komunitas Anda menonjol dan menumbuhkan rasa memiliki.
 
@@ -567,7 +567,7 @@ Jika inspirasi muncul, Anda bisa mengembangkannya lebih jauh: membuat lambang, m
 
 
 
-Anda dapat menggunakan [Canva](https://www.canva.com/)** untuk membuat berbagai visual untuk komunitas Anda.
+Anda dapat menggunakan **[Canva](https://www.canva.com/)** untuk membuat berbagai visual untuk komunitas Anda.
 
 
 
@@ -612,7 +612,7 @@ Berikut ini adalah templat Canva siap pakai yang dapat Anda duplikat dan adaptas
 
 
 
-- Poster pengumuman pertemuan** (untuk media sosial dan pencetakan A4/A3): [tautan](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Poster pengumuman pertemuan** (untuk media sosial dan pencetakan A4/A3): [tautan](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Berikut ini adalah templat Canva siap pakai yang dapat Anda duplikat dan adaptas
 
 
 
-- Poster acara** (untuk media sosial dan pencetakan A4/A3): [tautan](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Poster acara** (untuk media sosial dan pencetakan A4/A3): [tautan](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- spanduk media sosial**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **spanduk media sosial**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Pengumuman kontes**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Pengumuman kontes**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -643,19 +643,19 @@ Berikut ini adalah templat Canva siap pakai yang dapat Anda duplikat dan adaptas
 
 
 
-- pedoman merek** perpustakaan kami, yang ditampilkan dalam ukuran A4 pada saat pertemuan: [tautan](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **pedoman merek** perpustakaan kami, yang ditampilkan dalam ukuran A4 pada saat pertemuan: [tautan](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Presentasi PowerPoint** "Bab 2 - Memahami transaksi Bitcoin", oleh @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Presentasi **PowerPoint** "Bab 2 - Memahami transaksi Bitcoin", oleh @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- selebaran** "21 alasan untuk menggunakan Bitcoin", yang ditulis oleh @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **selebaran** "21 alasan untuk menggunakan Bitcoin", yang ditulis oleh @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1030,7 +1030,7 @@ Jadi, Anda tidak perlu mengunduh "Telegram+" lagi, kecuali jika Anda menginginka
 
 Sekarang grup (atau supergrup) Telegram Anda telah aktif dan berjalan, saatnya untuk **mengkonfigurasi izin dan mengatur moderasi**.
 
-Setiap komunitas bebas memilih pendekatannya sendiri, tetapi pengalaman menunjukkan bahwa sebaiknya membatasi izin anggota tertentu**:
+Setiap komunitas bebas memilih pendekatannya sendiri, tetapi pengalaman menunjukkan bahwa sebaiknya membatasi izin anggota tertentu:
 
 
 
@@ -1061,7 +1061,7 @@ Dalam contoh ini, administrator Bitcoin Lille telah menyesuaikan tautan Telegram
 
 
 
-Dalam "Pengaturan grup", sebaiknya aktifkan "Setujui anggota baru "**.
+Dalam "Pengaturan grup", sebaiknya aktifkan "Setujui anggota baru".
 
 
 Beberapa grup Telegram Bitcoin telah menjadi sasaran ribuan akun palsu yang dirancang untuk mengirim spam atau mengganggu komunitas.
@@ -1092,15 +1092,15 @@ Dengan menggunakan **bot [@GroupHelpBot] (https://telegram.me/grouphelpbot)**, o
 
 
 - Perintah **perintah aturan** (/rules) untuk menampilkan panduan komunitas Anda;
-- Perlindungan anti-spam** untuk menyaring pesan dan akun yang mencurigakan;
-- Pesan selamat datang otomatis yang dapat disesuaikan** untuk anggota baru (dengan opsional hapus otomatis setelah beberapa menit)
-- Perlindungan anti-banjir** untuk mencegah spam pesan
+- **Perlindungan anti-spam** untuk menyaring pesan dan akun yang mencurigakan;
+- Pesan selamat datang otomatis yang dapat disesuaikan **untuk anggota baru** (dengan opsional hapus otomatis setelah beberapa menit)
+- **Perlindungan anti-banjir** untuk mencegah spam pesan
 - Perintah **@administrator** untuk menjangkau admin grup dengan cepat
-- Aturan pemblokiran** untuk konten yang tidak diinginkan
+- **Aturan pemblokiran** untuk konten yang tidak diinginkan
 - Perintah **perintah tautan grup** (/link)
 - Perintah **manajemen perizinan**
-- Penghapusan otomatis** jenis pesan tertentu
-- Pemblokiran bot** dan **pemblokiran masuk/keluar** untuk menjaga keamanan grup Anda
+- **Penghapusan otomatis** jenis pesan tertentu
+- **Pemblokiran bot** dan **pemblokiran masuk/keluar** untuk menjaga keamanan grup Anda
 - Buat daftar **jejaring sosial komunitas Anda** (/jejaring)
 - Dan masih banyak lagi...
 
@@ -1193,7 +1193,7 @@ Itulah sebabnya, setelah saluran inti Anda siap dan semuanya berjalan dengan lan
 Dalam beberapa bulan ke depan, kursus ini dan platform planb.network akan menawarkan tutorial tentang cara menggunakan protokol alternatif seperti **Simplex dan Element**: alat komunikasi yang terdesentralisasi, terenkripsi, dan sangat dapat disesuaikan.
 
 
-**Mengapa repot-repot mencari opsi ini?
+**Mengapa repot-repot mencari opsi ini?**
 
 Karena, seperti halnya jejaring sosial NOSTR, mereka tidak hanya memberikan privasi yang lebih besar tetapi juga perlindungan terhadap sensor atau penutupan grup Telegram Anda secara sewenang-wenang.
 
@@ -1216,7 +1216,7 @@ Dan sungguh, apa yang lebih sesuai dengan semangat Bitcoin daripada desainnya ya
 
 
 
-Jadi, komunitas Anda sudah aktif dan berjalan. Anda telah menyiapkan ruang Telegram atau Matrix Anda... tetapi untuk saat ini, hanya Anda yang ada di sana. **Waktunya untuk membuat orang tahu bahwa kau ada!
+Jadi, komunitas Anda sudah aktif dan berjalan. Anda telah menyiapkan ruang Telegram atau Matrix Anda... tetapi untuk saat ini, hanya Anda yang ada di sana. **Waktunya untuk membuat orang tahu bahwa kau ada!**
 
 
 Sederhana saja: jika tidak ada yang bisa mengakses grup Anda dan melihat kapan pertemuan berikutnya, Anda hanya akan memposting ke dalam kekosongan. Itulah mengapa media sosial, dan beberapa platform tertentu yang akan kita bahas nanti, sangat penting untuk membangun komunitas Anda.
@@ -1308,8 +1308,8 @@ Berikut ini adalah **hal-hal penting yang harus difokuskan untuk meningkatkan vi
     - Dorong komunitas Anda untuk berinteraksi:
         - Suka = bobot 0,5
         - Retweet = bobot 1
-        - Balas = bobot 27 (!!)**
-    - Membalas orang yang menanggapi tweet Anda** (bobot 75!!);
+- Balas = bobot 27 (!!)
+- Membalas orang yang menanggapi tweet Anda (bobot 75!!);
     - Hindari menempatkan tautan di tweet utama: sebagai gantinya, tambahkan tautan di komentar pertama..;
     - Tulislah kata-kata secara lengkap, hindari singkatan.
 
@@ -1419,7 +1419,7 @@ Ini termasuk:
 
 
 - [Btcmap.org](https://btcmap.org/)**, sebuah situs web dengan dua peta yang diperbarui setiap hari: **[peta dunia bisnis yang menerima Bitcoin](https://btcmap.org/map)** dan **[peta komunitas dunia](https://btcmap.org/communities/map)**. Banyak pengguna bitcoin yang memeriksa peta-peta ini secara teratur, baik ketika mereka bepergian atau menjalani kehidupan sehari-hari, untuk bertemu dengan orang-orang baru atau menemukan tempat untuk membelanjakan Sats mereka. Btcmap adalah referensi global, dan mendaftarkan komunitas Anda di sana sangat penting untuk visibilitas.**
-- [BitcoinerEvents] (https://www.bitcoinerevents.com/), sebuah situs web yang dibuat oleh para bitcoiners, untuk para bitcoiners. **Situs ini memungkinkan Anda untuk memposting acara-acara yang akan diadakan oleh komunitas Anda. Namun, di Prancis, situs ini masih belum banyak digunakan.
+- [BitcoinerEvents](https://www.bitcoinerevents.com/), sebuah situs web yang dibuat oleh para bitcoiners, untuk para bitcoiners. **Situs ini memungkinkan Anda untuk memposting acara-acara yang akan diadakan oleh komunitas Anda. Namun, di Prancis, situs ini masih belum banyak digunakan.**
 - tergantung pada negara Anda, mungkin ada inisiatif lokal lainnya. Di Prancis, misalnya, ada [Bitcoin.fr] (https://Bitcoin.fr/events/categories/evenements/), yang **mencantumkan lusinan acara Bitcoin setiap bulannya**. Jadi, jika Anda belum mengikuti mereka di Twitter atau menghubungi mereka untuk berbagi informasi tentang komunitas dan acara Anda, sekaranglah saatnya! **Untuk membantu menjaga agar kalender acara di Perancis tetap up-to-date, akan sangat baik jika semua komunitas Bitcoin Perancis membiasakan diri untuk:**
     - menyebut @bitcoinpointfr di Twitter untuk setiap acara komunitas baru
     - menyematkan pengumuman acara baru di grup Telegram mereka.
@@ -1504,7 +1504,7 @@ Lebih baik mengatur pertemuan setelah Anda memiliki setidaknya beberapa anggota 
 Setelah Anda merasakan percikan itu, sarankan untuk bertemu langsung. Jika orang lain tertarik, Anda tinggal menentukan tanggal untuk pertemuan pertama Anda.
 
 
-Daripada memilih tanggal sendiri, biasanya yang terbaik adalah membuat jajak pendapat sekitar sepuluh hari sebelumnya dengan beberapa kemungkinan hari dan waktu**. Dengan cara ini, Anda dapat menggunakan hasil pemungutan suara untuk memaksimalkan kehadiran, membangun kegembiraan, dan memanfaatkan waktu sebaik-baiknya.
+Daripada memilih tanggal sendiri, biasanya yang terbaik adalah membuat jajak pendapat sekitar sepuluh hari sebelumnya dengan beberapa kemungkinan hari dan waktu. Dengan cara ini, Anda dapat menggunakan hasil pemungutan suara untuk memaksimalkan kehadiran, membangun kegembiraan, dan memanfaatkan waktu sebaik-baiknya.
 
 
 
@@ -1691,7 +1691,7 @@ Inilah yang harus dilakukan:
 
 1) **Datanglah lebih awal** untuk menyiapkan segala sesuatunya.
 
-2) **Aturlah ruangan sesuai dengan kebutuhan Anda dan kemungkinan tempat tersebut. Jika Anda hanya terdiri dari enam orang, tidak banyak pengaturan yang diperlukan. Namun, jika jumlah peserta mencapai 10-20 orang, tata letak yang sepenuhnya duduk dapat membatasi interaksi. Dalam hal ini, pilihlah pengaturan berdiri dengan meja-meja tinggi dengan jarak yang cukup jauh jika tersedia, namun tetap sediakan beberapa kursi (sebaiknya yang tinggi). Jika ada rencana presentasi, pertahankan tata letak berdiri untuk sebagian besar malam dan bawa kursi tepat sebelum pembicaraan.
+2) **Aturlah ruangan sesuai dengan kebutuhan Anda dan kemungkinan tempat tersebut.** Jika Anda hanya terdiri dari enam orang, tidak banyak pengaturan yang diperlukan. Namun, jika jumlah peserta mencapai 10-20 orang, tata letak yang sepenuhnya duduk dapat membatasi interaksi. Dalam hal ini, pilihlah pengaturan berdiri dengan meja-meja tinggi dengan jarak yang cukup jauh jika tersedia, namun tetap sediakan beberapa kursi (sebaiknya yang tinggi). Jika ada rencana presentasi, pertahankan tata letak berdiri untuk sebagian besar malam dan bawa kursi tepat sebelum pembicaraan.
 
 3) Tambahkan sentuhan khusus yang kecil:
 
@@ -1757,8 +1757,8 @@ Seiring dengan berjalannya pertemuan Anda, wajah-wajah baru akan bermunculan: or
 Untuk memastikan semua orang merasa dilibatkan dalam acara Anda, fokuslah pada dua aspek utama:
 
 
-- Inklusi sosial**: Setiap orang yang hadir harus merasa diterima. Berusahalah untuk menyapa para pendatang baru, tanyakan alasan mereka datang, dan perkenalkan mereka kepada orang lain. Ketika orang merasa diikutsertakan, mereka akan lebih mungkin untuk datang kembali dan bahkan mungkin membantu mengatur acara-acara di masa depan.
-- Kesabaran dan keterbukaan**: Ini membutuhkan waktu dan motivasi. Jika Anda berbicara dengan seorang shitcoiner yang berkomitmen (atau lebih buruk lagi, seorang XRP Maximalist), Anda mungkin tergoda untuk mengabaikannya. Tetapi dengan terlibat dalam percakapan, Anda dapat menjernihkan kesalahpahaman atau alasan yang salah. Jika mereka mau mendengarkan, mereka mungkin siap untuk benar-benar memahami Bitcoin.
+- **Inklusi sosial**: Setiap orang yang hadir harus merasa diterima. Berusahalah untuk menyapa para pendatang baru, tanyakan alasan mereka datang, dan perkenalkan mereka kepada orang lain. Ketika orang merasa diikutsertakan, mereka akan lebih mungkin untuk datang kembali dan bahkan mungkin membantu mengatur acara-acara di masa depan.
+- **Kesabaran dan keterbukaan**: Ini membutuhkan waktu dan motivasi. Jika Anda berbicara dengan seorang shitcoiner yang berkomitmen (atau lebih buruk lagi, seorang XRP Maximalist), Anda mungkin tergoda untuk mengabaikannya. Tetapi dengan terlibat dalam percakapan, Anda dapat menjernihkan kesalahpahaman atau alasan yang salah. Jika mereka mau mendengarkan, mereka mungkin siap untuk benar-benar memahami Bitcoin.
 
 
 
@@ -1900,8 +1900,8 @@ Tergantung pada ketersediaan Anda dan tingkat keterlibatan dalam komunitas Anda,
 - Malam atau akhir pekan untuk merayakan **Halving** berikutnya
 - Malam permainan keluarga tentang Bitcoin dan cara kerjanya, menggunakan permainan seperti [Le Coin de Table] (https://www.Maximalist.ovh/) atau [SHAmory] (https://shamory.com/)
 - Lokakarya **Mining** yang menghadirkan berbagai jenis perangkat keras (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
-- Sore atau malam hari untuk pemula**, dengan lokakarya bertema
-- Pertemuan bersama dengan komunitas tetangga**
+- Sore atau malam hari untuk **pemula**, dengan lokakarya bertema
+- **Pertemuan bersama dengan komunitas tetangga**
 
 
 
@@ -2030,7 +2030,7 @@ Selebaran ini dapat ditargetkan:
 Anda juga dapat mendesain brosur khusus untuk komunitas atau pertemuan Anda, yang menampilkan kegiatan, tujuan, tautan media sosial, saluran komunikasi, dan acara yang akan datang.
 
 
-Beberapa brosur telah tersedia sebagai sumber terbuka di [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet)** di planB.network dan lebih banyak lagi yang akan ditambahkan dari waktu ke waktu.
+Beberapa brosur telah tersedia sebagai sumber terbuka di [Bitcoin Teaching Toolbox](https://planb.network/fr/resources/bet) di planB.network dan lebih banyak lagi yang akan ditambahkan dari waktu ke waktu.
 
 
 Salah satu contohnya adalah [brosur bersumber lengkap](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) dengan 21 alasan untuk menggunakan Bitcoin. Desainnya juga [tersedia dalam sumber terbuka](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) bagi Anda untuk dimodifikasi, diadaptasi, dan dibagikan. Ingatlah untuk mencantumkan sumber Anda.
@@ -2113,7 +2113,7 @@ Bagi sebagian besar masyarakat, harga ini sangat mahal, terutama karena film dok
 Tentu saja, proyeksi lain pun dimungkinkan.
 
 
-Sebagai contoh, di Prancis, **sutradara [Alana Mediavilla] (https://twitter.com/AlanaMediavilla) memberikan hak kepada pertemuan lokal untuk melihat pratinjau film dokumenternya yang berjudul "Stranded", yang mencakup cuplikan dari film tahun 2024 yang akan datang [film "Dirty Coin"] (https://www.dirtycointhemovie.com/).
+Sebagai contoh, di Prancis, **sutradara [Alana Mediavilla] (https://twitter.com/AlanaMediavilla) memberikan hak kepada pertemuan lokal untuk melihat pratinjau film dokumenternya yang berjudul "Stranded"**, yang mencakup cuplikan dari film tahun 2024 yang akan datang [film "Dirty Coin"] (https://www.dirtycointhemovie.com/).
 
 
 Beberapa bitcoiners bahkan berinisiatif untuk menerjemahkan "Stranded" ke dalam bahasa Prancis, menambahkan subtitle, dan membagikannya ke berbagai pertemuan di seluruh negeri. Selama minggu 4 Maret 2024, film ini diputar secara serentak di sekitar selusin pertemuan di seluruh negeri.
@@ -2609,7 +2609,7 @@ Pertama, jika Anda memiliki 500 orang yang mendiskusikan semua jenis topik dalam
 
 Kedua, lebih banyak orang di saluran Anda berarti lebih banyak bot, lebih banyak penipuan, dan lebih banyak moderasi yang harus ditangani. Bersiaplah untuk itu dengan membuat seperangkat aturan yang jelas yang dapat Anda rujuk ketika memoderasi pesan. Menurut pengalaman kami, hal ini sangat membantu untuk menghindari konflik, terutama jika peraturan tersebut mudah diakses di channel Anda.
 
-Contoh yang baik adalah **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/) yang ditulis beberapa tahun yang lalu untuk grup Telegram dan server Discord. Buku ini didasarkan pada prinsip-prinsip universal yang sederhana, dan Anda bahkan dapat mengambil [versi desain yang dapat disesuaikan di sini](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Contoh yang baik adalah **[Bitcoin Lille's open-source rulebook](https://bitcoinlille.fr/reglement/)** yang ditulis beberapa tahun yang lalu untuk grup Telegram dan server Discord. Buku ini didasarkan pada prinsip-prinsip universal yang sederhana, dan Anda bahkan dapat mengambil [versi desain yang dapat disesuaikan di sini](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2662,7 +2662,7 @@ Bayangkan ini: Anda telah menjalankan pertemuan Bitcoin Anda selama bertahun-tah
 
 Silakan rencanakan terlebih dahulu untuk memindahkan komunitas Anda:
 
-1) **Berikan hak admin (atau Ownership) untuk saluran komunikasi Anda kepada anggota tepercaya. Peran selalu dapat berpindah tangan nantinya.
+1) **Berikan hak admin (atau Ownership) untuk saluran komunikasi Anda kepada anggota tepercaya. Peran selalu dapat berpindah tangan nantinya.**
 
 2) **Berbagi detail akun** (nama pengguna, kata sandi, email terkait) untuk media sosial dan saluran visibilitas Anda dengan setidaknya satu orang tepercaya.
 
@@ -2673,7 +2673,7 @@ Tanpa akses ini, hampir tidak mungkin bagi orang lain untuk mengambil alih secar
 Jika Anda tidak memiliki kontak tepercaya dalam pertemuan Anda, Anda dapat menghubungi @ProfEduStream, @copinmalin, atau @gabtribe di Telegram. Mereka dapat membantu menemukan penerus yang termotivasi dan mengoordinasikan pengalihan akun dan hak admin.
 
 
-**Mengapa Desentralisasi Penting?
+**Mengapa Desentralisasi Penting?**
 
 
 Jika Anda adalah satu-satunya yang terlibat dan Anda memegang semua kendali, apa yang terjadi jika Anda menghilang? Jawabannya sederhana: komunitas Anda juga akan menghilang.
@@ -2682,7 +2682,7 @@ Jika Anda adalah satu-satunya yang terlibat dan Anda memegang semua kendali, apa
 Solusinya: desentralisasi tugas, peran, dan akses sehingga grup dapat terus berjalan meskipun ada satu penyelenggara yang keluar, baik karena keterbatasan waktu atau, dalam skenario yang lebih buruk, karena mereka ditangkap karena memegang Bitcoin non-KYC.
 
 
-**Bagaimana Mendorong Desentralisasi Lebih Jauh?
+**Bagaimana Mendorong Desentralisasi Lebih Jauh?**
 
 Gunakan perangkat lunak bebas dan sumber terbuka seperti [framasoft suite] (https://framasoft.org/fr/) untuk mengurangi ketergantungan pada platform terpusat dan menambah ketahanan terhadap potensi sensor negara atau larangan Bitcoin.
 
@@ -2704,7 +2704,7 @@ Pada tanggal 5 April 1933, Franklin Roosevelt, Presiden ke-32 Amerika Serikat, m
 
 
 
-Tentu saja, Depresi Besar (kejatuhan pasar saham pada tahun 1929) bukanlah realitas kita saat ini. Tetapi bisakah pemerintah suatu hari nanti melakukan hal yang sama dengan Bitcoin: **melarang Ownership pribadi secara langsung?
+Tentu saja, Depresi Besar (kejatuhan pasar saham pada tahun 1929) bukanlah realitas kita saat ini. Tetapi bisakah pemerintah suatu hari nanti melakukan hal yang sama dengan Bitcoin: **melarang ownership pribadi secara langsung?**
 
 
 Sebenarnya, tindakan Orwellian seperti itu tidak akan menghentikan seseorang untuk benar-benar memiliki BTC, karena tidak ada hukum yang dapat mencegah seseorang untuk menghafal urutan kata.
@@ -2744,7 +2744,7 @@ Bitcoin adalah lubang kelinci yang sangat luas, yang menyentuh sejarah, ekonomi,
 Karena waktu kita terbatas, kuncinya adalah tetap rendah hati, terus belajar, dan Exchange pengetahuan dengan orang lain. Dengan begitu, masing-masing dari kita dapat mencapai tingkat pemahaman yang kita cari.
 
 
-**Oleh karena itu, komunitas Bitcoin global memainkan peran penting dalam membangun dunia masa depan: ruang di mana para pengguna bitcoin dapat *Exchange, membangun dan berbagi*. **Bersama-sama**.
+**Oleh karena itu, komunitas Bitcoin global memainkan peran penting dalam membangun dunia masa depan: ruang di mana para pengguna bitcoin dapat *Exchange, membangun dan berbagi***. **Bersama-sama**.
 
 
 
@@ -2876,15 +2876,15 @@ Di Prancis, misalnya, dari sekitar enam puluh komunitas dan pertemuan, hampir se
 Manfaatnya ada dua:
 
 
-- Pengakuan resmi**: Anda dapat membuka rekening bank asosiasi, mendapatkan perhatian pers/media, dan bahkan mengajukan permohonan subsidi.
-- Organisasi terstruktur**: Anda dapat mendefinisikan peran yang jelas, sehingga lebih mudah untuk menjalankan komunitas dan melaksanakan proyek.
+- **Pengakuan resmi**: Anda dapat membuka rekening bank asosiasi, mendapatkan perhatian pers/media, dan bahkan mengajukan permohonan subsidi.
+- **Organisasi terstruktur**: Anda dapat mendefinisikan peran yang jelas, sehingga lebih mudah untuk menjalankan komunitas dan melaksanakan proyek.
 
 
-Untuk membantu komunitas Anda berkembang lebih jauh, **sebuah tindak lanjut dari kursus COMMU302<img width="80" height="18" alt="bayangkan" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Untuk membantu komunitas Anda berkembang lebih jauh, **sebuah tindak lanjut dari kursus COMMU302** <img width="80" height="18" alt="bayangkan" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="bayangkan" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-akan dirilis di [planb.network](https://planb.network/) dalam beberapa bulan mendatang**.
+akan dirilis di [planb.network](https://planb.network/) dalam beberapa bulan mendatang.
 
 
 Sesi berikutnya dapat mengeksplorasi topik-topik lanjutan seperti:

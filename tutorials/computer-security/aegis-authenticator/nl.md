@@ -196,13 +196,13 @@ Het instellingenmenu van Aegis groepeert een aantal belangrijke onderdelen:
 
 
 
-- Uiterlijk**: Thema (licht, donker, AMOLED), taal en andere visuele instellingen aanpassen
-- Gedrag**: Configureer het gedrag van de toepassing bij interactie met de lijst met items
-- Pictogrammensets**: beheer en importeer pictogrammensets om de look en feel van je accounts aan te passen
-- Beveiliging**: Instellingen voor versleuteling, biometrische ontgrendeling, automatische vergrendeling en andere beveiligingsparameters
-- Back-ups**: Configureer automatische back-ups naar een locatie van uw keuze
-- Importeren en exporteren**: Back-ups importeren uit andere verificatietoepassingen en uw Aegis-kluis handmatig exporteren
-- Auditlogboek**: Gedetailleerd logboek van alle belangrijke gebeurtenissen in de applicatie
+- **Uiterlijk**: Thema (licht, donker, AMOLED), taal en andere visuele instellingen aanpassen
+- **Gedrag**: Configureer het gedrag van de toepassing bij interactie met de lijst met items
+- **Pictogrammensets**: beheer en importeer pictogrammensets om de look en feel van je accounts aan te passen
+- **Beveiliging**: Instellingen voor versleuteling, biometrische ontgrendeling, automatische vergrendeling en andere beveiligingsparameters
+- **Back-ups**: Configureer automatische back-ups naar een locatie van uw keuze
+- **Importeren en exporteren**: Back-ups importeren uit andere verificatietoepassingen en uw Aegis-kluis handmatig exporteren
+- **Auditlogboek**: Gedetailleerd logboek van alle belangrijke gebeurtenissen in de applicatie
 
 
 
@@ -228,9 +228,9 @@ Vanuit het hoofdscherm van Aegis Interface druk je op de **+** knop rechtsonder 
 
 
 
-- Scan QR-code**: Scan rechtstreeks de QR-code die wordt weergegeven door de webservice
-- Afbeelding scannen**: Scan een QR-code van een afbeelding die is opgeslagen op uw apparaat
-- Handmatig invoeren**: 2FA-accountgegevens handmatig invoeren
+- **Scan QR-code**: Scan rechtstreeks de QR-code die wordt weergegeven door de webservice
+- **Afbeelding scannen**: Scan een QR-code van een afbeelding die is opgeslagen op uw apparaat
+- **Handmatig invoeren**: 2FA-accountgegevens handmatig invoeren
 
 
 
@@ -252,8 +252,8 @@ Laten we het concrete voorbeeld nemen van 2FA activering op Bitwarden om het pro
 
 
 
-- Inloggen en instellingen openen**: Log in op uw Bitwarden-account en ga naar de instellingen, tabblad "Beveiliging
-- Providers sectie**: Ga naar de sectie "Providers" en klik op "Beheren" in de sectie "Authenticator app"
+- **Inloggen en instellingen openen**: Log in op uw Bitwarden-account en ga naar de instellingen, tabblad "Beveiliging"
+- **Providers sectie**: Ga naar de sectie "Providers" en klik op "Beheren" in de sectie "Authenticator app"
 
 
 
@@ -267,10 +267,10 @@ Laten we het concrete voorbeeld nemen van 2FA activering op Bitwarden om het pro
 
 
 
-- Scan de QR-code**: Er wordt een pop-upvenster geopend met de QR-code en geheime sleutel
-- In Aegis**: Gebruik "Scan QR-code" om informatie automatisch vast te leggen
-- Verificatie**: Voer de 6-cijferige code gegenereerd door Aegis in het veld "Verificatiecode" in
-- Activering**: Klik op "Aanzetten" om activering te voltooien
+- **Scan de QR-code**: Er wordt een pop-upvenster geopend met de QR-code en geheime sleutel
+- In **Aegis**: Gebruik "Scan QR-code" om informatie automatisch vast te leggen
+- **Verificatie**: Voer de 6-cijferige code gegenereerd door Aegis in het veld "Verificatiecode" in
+- **Activering**: Klik op "Aanzetten" om activering te voltooien
 
 
 
@@ -292,12 +292,12 @@ Als je de QR-code liever niet scant, gebruik dan de optie "Handmatig invoeren". 
 
 
 
-- Naam** : Naam van de service (bijv. Bitwarden, GitHub...)
-- Emittent** : De emittent (vaak identiek aan de naam)
-- Groep**: Optioneel, om uw accounts per categorie te ordenen
-- Opmerking** : Persoonlijke opmerkingen over deze rekening
-- Geheim** : De geheime sleutel die door de service wordt geleverd (standaard gemaskeerd)
-- Geavanceerd**: Geavanceerde parameters (algoritme, periode, aantal cijfers)
+- **Naam**: Naam van de service (bijv. Bitwarden, GitHub...)
+- **Emittent**: De emittent (vaak identiek aan de naam)
+- **Groep**: Optioneel, om uw accounts per categorie te ordenen
+- **Opmerking**: Persoonlijke opmerkingen over deze rekening
+- **Geheim**: De geheime sleutel die door de service wordt geleverd (standaard gemaskeerd)
+- **Geavanceerd**: Geavanceerde parameters (algoritme, periode, aantal cijfers)
 
 
 
@@ -323,10 +323,10 @@ Als je eenmaal meerdere accounts hebt toegevoegd, zul je de organisatorische too
 
 
 
-- Aangepaste sortering:** Standaard worden accounts in alfabetische volgorde weergegeven, maar u kunt de volgorde handmatig wijzigen
-- Groepen en categorieën:** Maak groepen om je persoonlijke accounts te scheiden van je zakelijke accounts, of groepeer ze op soort dienst (bankieren, e-mail, sociale netwerken, enz.)
-- Aangepaste pictogrammen:** Aegis probeert automatisch een geschikt pictogram toe te wijzen als dat beschikbaar is, anders kun je kiezen uit veel algemene pictogrammen of een afbeelding importeren
-- Snel zoeken:** Met de zoekbalk bovenaan kun je een paar letters typen om direct overeenkomende items te filteren
+- **Aangepaste sortering:** Standaard worden accounts in alfabetische volgorde weergegeven, maar u kunt de volgorde handmatig wijzigen
+- **Groepen en categorieën:** Maak groepen om je persoonlijke accounts te scheiden van je zakelijke accounts, of groepeer ze op soort dienst (bankieren, e-mail, sociale netwerken, enz.)
+- **Aangepaste pictogrammen:** Aegis probeert automatisch een geschikt pictogram toe te wijzen als dat beschikbaar is, anders kun je kiezen uit veel algemene pictogrammen of een afbeelding importeren
+- **Snel zoeken:** Met de zoekbalk bovenaan kun je een paar letters typen om direct overeenkomende items te filteren
 
 
 
@@ -423,15 +423,15 @@ Aegis biedt verschillende back-upstrategieën voor verschillende beveiligings- e
 
 
 
-- Bewaar meerdere back-upversies** om corruptie te voorkomen
-- Test** je back-ups regelmatig door te proberen ze terug te zetten
-- Bewaar uw door de service geleverde herstelcodes afzonderlijk**
-- Je hoofdwachtwoord** is nog steeds vereist, zelfs bij cloudback-ups
-- Beveilig je hoofdwachtwoord**: gebruik een uniek, sterk wachtwoord dat is opgeslagen in een wachtwoordmanager
-- Houd je applicatie up-to-date** met de nieuwste beveiligingspatches
-- Activeer automatisch vergrendelen** in de instellingen om de toegang tot de applicatie te beveiligen
-- Schakel screenshots** uit (standaardoptie) om te voorkomen dat je codes worden onderschept
-- Gebruik biometrische gegevens spaarzaam**: geef de voorkeur aan wachtwoorden voor kritieke toegangen
+- Bewaar meerdere back-upversies om corruptie te voorkomen
+- **Test** je back-ups regelmatig door te proberen ze terug te zetten
+- Bewaar uw door de service geleverde herstelcodes afzonderlijk
+- Je **hoofdwachtwoord** is nog steeds vereist, zelfs bij cloudback-ups
+- **Beveilig je hoofdwachtwoord**: gebruik een uniek, sterk wachtwoord dat is opgeslagen in een wachtwoordmanager
+- Houd je applicatie **up-to-date** met de nieuwste beveiligingspatches
+- Activeer **automatisch vergrendelen** in de instellingen om de toegang tot de applicatie te beveiligen
+- Schakel **screenshots** uit (standaardoptie) om te voorkomen dat je codes worden onderschept
+- Gebruik biometrische gegevens spaarzaam: geef de voorkeur aan wachtwoorden voor kritieke toegangen
 
 
 
@@ -534,9 +534,9 @@ De beveiliging van uw online accounts hoeft niet afhankelijk te zijn van de good
 
 
 
-- Officiële website**: [getaegis.app](https://getaegis.app/) - Aanvraagpresentatie en download
-- Broncode**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Officiële GitHub repository
-- F-Droid** : [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installatie via de gratis winkel
+- **Officiële website**: [getaegis.app](https://getaegis.app/) - Aanvraagpresentatie en download
+- **Broncode**: [github.com/beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis) - Officiële GitHub repository
+- **F-Droid**: [f-droid.org/packages/com.beemdevelopment.aegis](https://f-droid.org/packages/com.beemdevelopment.aegis/) - Installatie via de gratis winkel
 
 
 
@@ -545,6 +545,6 @@ De beveiliging van uw online accounts hoeft niet afhankelijk te zijn van de good
 
 
 
-- Vault documentatie**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Technische beschrijving van encryptie en veilige architectuur
-- Officiële FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Antwoorden op veelgestelde vragen
-- Project wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Volledige gebruikersdocumentatie
+- **Vault documentatie**: [Vault design](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Technische beschrijving van encryptie en veilige architectuur
+- **Officiële FAQ**: [getaegis.app/#faq](https://getaegis.app/#faq) - Antwoorden op veelgestelde vragen
+- **Project wiki**: [github.com/beemdevelopment/Aegis/wiki](https://github.com/beemdevelopment/Aegis/wiki) - Volledige gebruikersdocumentatie

@@ -1,5 +1,5 @@
 ---
-name: GrafeenOS
+name: GrapheneOS
 
 description: Een mobiel besturingssysteem gericht op veiligheid en privacy, gebaseerd op Android
 ---
@@ -484,10 +484,10 @@ Maar als je overstapt op GrapheneOS, zijn er een aantal gemakken die je moet opg
 
 
 
-- Apple CarPlay/Android Auto** - Je zult het bij ouderwetse Bluetooth, USB of Aux moeten houden.
-- Apple/Google Pay** - Bijna iedereen heeft toch al zijn Wallet bij zich!
-- Bankieren-apps** - Het is niet zo dat deze helemaal niet werken. Sommige werken perfect. Andere werken alleen als Google Play Services is ingeschakeld (lees daar hieronder meer over) en weer andere werken gewoon helemaal niet. Lees het rapport over jouw bank [hier](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) om de huidige stand van zaken te zien. Vrees niet als de jouwe op de lijst staat die niet werkt, vergeet niet dat je de URL gewoon kunt opslaan als een webapp op je startscherm.
-- Pushmeldingen** - De meeste applicaties die je updates sturen wanneer je een specifieke app niet gebruikt, doen dit via Google Play Services. Deze zijn niet standaard geïnstalleerd bij GrapheneOS, dus als je merkt dat je niet meteen een melding krijgt als je vriend je een e-mail stuurt, is dit waarschijnlijk de reden. Het goede nieuws is dat sommige van de hierboven genoemde apps hun eigen verbinding op de achtergrond hebben geïmplementeerd om periodiek te controleren op updates en je dan een melding te geven indien nodig
+- **Apple CarPlay/Android Auto** - Je zult het bij ouderwetse Bluetooth, USB of Aux moeten houden.
+- **Apple/Google Pay** - Bijna iedereen heeft toch al zijn Wallet bij zich!
+- **Bankieren-apps** - Het is niet zo dat deze helemaal niet werken. Sommige werken perfect. Andere werken alleen als Google Play Services is ingeschakeld (lees daar hieronder meer over) en weer andere werken gewoon helemaal niet. Lees het rapport over jouw bank [hier](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) om de huidige stand van zaken te zien. Vrees niet als de jouwe op de lijst staat die niet werkt, vergeet niet dat je de URL gewoon kunt opslaan als een webapp op je startscherm.
+- **Pushmeldingen** - De meeste applicaties die je updates sturen wanneer je een specifieke app niet gebruikt, doen dit via Google Play Services. Deze zijn niet standaard geïnstalleerd bij GrapheneOS, dus als je merkt dat je niet meteen een melding krijgt als je vriend je een e-mail stuurt, is dit waarschijnlijk de reden. Het goede nieuws is dat sommige van de hierboven genoemde apps hun eigen verbinding op de achtergrond hebben geïmplementeerd om periodiek te controleren op updates en je dan een melding te geven indien nodig
 
 
 ### Sandboxed Google Play
@@ -606,4 +606,3 @@ GrapheneOS is een konijnenhol waar je gemakkelijk weken in kunt duiken. Er is zo
 
 
 *Deze handleiding is een bewerking van de originele inhoud gepubliceerd door [BitcoinQnA op Bitcoiner.Guide onder MIT-licentie](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), aan wie de volledige eer toekomt voor het oorspronkelijke schrijfwerk.*
-

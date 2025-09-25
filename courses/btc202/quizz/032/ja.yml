@@ -1,0 +1,9 @@
+question: 現在、どのノード・イン・ア・ボックス・ソリューションが市場をリードしているか？
+answer: アンブレル
+wrong_answers:
+  - スタート9
+  - ノドル
+  - 浪人道場
+explanation: |
+  Umbrelは、そのインストールの容易さと豊富なApp Storeのおかげで、最も人気のあるnode-in-a-boxソリューションです。
+reviewed: true

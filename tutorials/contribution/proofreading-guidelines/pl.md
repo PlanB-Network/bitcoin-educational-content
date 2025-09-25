@@ -205,7 +205,7 @@ Poniżej znajduje się kilka przykładów kwestii formatu, na które należy zwr
 
 
 
-- Zwróć uwagę na dziwne znaki interpunkcyjne, takie jak `\*\*` lub ``**``, które mogą reprezentować złe renderowanie pogrubionego symbolu. Na poniższym obrazku widać, że gwiazdki znajdują się tylko po prawej stronie słowa, co wygląda dziwnie.
+- Zwróć uwagę na dziwne znaki interpunkcyjne, takie jak `**` lub `**`, które mogą reprezentować złe renderowanie pogrubionego symbolu. Na poniższym obrazku widać, że gwiazdki znajdują się tylko po prawej stronie słowa, co wygląda dziwnie.
 
 
 

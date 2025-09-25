@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Bảo mật nhiều khóa
+name: Bitcoin Keeper
 description: Ứng dụng Bitcoin Keeper - một ứng dụng di động cho phép bạn tạo cả ví Hot và kho lưu trữ Cold để tiết kiệm dài hạn
 ---
 

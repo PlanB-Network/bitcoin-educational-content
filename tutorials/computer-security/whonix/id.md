@@ -17,12 +17,12 @@ description: Menjaga privasi dan kerahasiaan Anda.
 
 
 
-- Gratis**: Seperti kebanyakan distribusi Linux, Whonix merupakan sistem sumber terbuka yang dilisensikan secara gratis. Sistem ini dikembangkan secara open source, dengan komunitas yang aktif dan transparan.
-- Privasi, keamanan, dan anonimitas**: Tujuan utama Whonix adalah menawarkan lingkungan yang sangat aman, di mana semua data Anda terlindungi dan komunikasi Anda dienkripsi melalui jaringan Tor.
-- Mudah digunakan**: Whonix menawarkan Interface grafis yang intuitif dan telah dikonfigurasi sebelumnya, cocok bahkan untuk pengguna pemula. Tidak perlu menjadi seorang ahli untuk mendapatkan manfaat dari perlindungan tingkat lanjut.
-- Lingkungan yang ideal untuk pengembangan yang aman**: Whonix memungkinkan Anda mengembangkan, menguji, mengaudit, atau menjalankan program tanpa harus mengungkap IP Address asli Anda atau mengekspos kebiasaan browsing atau komunikasi jaringan Anda.
-- Sesi sekali pakai dan mode Live**: Whonix dapat diluncurkan dalam mode Live atau melalui mesin sekali pakai (misalnya melalui **Qubes OS**), memungkinkan tugas-tugas penting dilakukan tanpa meninggalkan jejak yang terus-menerus setelah sesi berakhir.
-- Instalasi yang relatif sederhana**: Gambar siap pakai disediakan untuk instalasi cepat di mesin virtual (VirtualBox, KVM, Qubes). Sistem ini didokumentasikan dan diperbarui secara berkala.
+- **Gratis**: Seperti kebanyakan distribusi Linux, Whonix merupakan sistem sumber terbuka yang dilisensikan secara gratis. Sistem ini dikembangkan secara open source, dengan komunitas yang aktif dan transparan.
+- **Privasi, keamanan, dan anonimitas**: Tujuan utama Whonix adalah menawarkan lingkungan yang sangat aman, di mana semua data Anda terlindungi dan komunikasi Anda dienkripsi melalui jaringan Tor.
+- **Mudah digunakan**: Whonix menawarkan Interface grafis yang intuitif dan telah dikonfigurasi sebelumnya, cocok bahkan untuk pengguna pemula. Tidak perlu menjadi seorang ahli untuk mendapatkan manfaat dari perlindungan tingkat lanjut.
+- **Lingkungan yang ideal untuk pengembangan yang aman**: Whonix memungkinkan Anda mengembangkan, menguji, mengaudit, atau menjalankan program tanpa harus mengungkap IP Address asli Anda atau mengekspos kebiasaan browsing atau komunikasi jaringan Anda.
+- **Sesi sekali pakai dan mode Live**: Whonix dapat diluncurkan dalam mode Live atau melalui mesin sekali pakai (misalnya melalui **Qubes OS**), memungkinkan tugas-tugas penting dilakukan tanpa meninggalkan jejak yang terus-menerus setelah sesi berakhir.
+- **Instalasi yang relatif sederhana**: Gambar siap pakai disediakan untuk instalasi cepat di mesin virtual (VirtualBox, KVM, Qubes). Sistem ini didokumentasikan dan diperbarui secara berkala.
 
 
 
@@ -56,9 +56,9 @@ Berikut ini adalah spesifikasi yang direkomendasikan untuk pengalaman yang lanca
 
 
 
-- Memori Akses Acak (RAM)**: minimal **8 GB** sangat disarankan. Semakin banyak RAM yang Anda miliki, semakin banyak sumber daya yang dapat Anda alokasikan ke mesin virtual (Gateway dan Workstation), sehingga meningkatkan kinerja.
+- **Memori Akses Acak (RAM)**: minimal **8 GB** sangat disarankan. Semakin banyak RAM yang Anda miliki, semakin banyak sumber daya yang dapat Anda alokasikan ke mesin virtual (Gateway dan Workstation), sehingga meningkatkan kinerja.
 - Ruang disk yang tersedia**: sediakan setidaknya 30 GB ruang disk kosong**. Ini termasuk ruang yang diperlukan untuk dua mesin virtual, file sistem, dan data atau snapshot.
-- Prosesor**: prosesor dengan setidaknya **4 inti fisik** (8 thread logis) direkomendasikan, terutama jika Anda ingin menjalankan layanan atau alat lain secara paralel.
+- **Prosesor**: prosesor dengan setidaknya **4 inti fisik** (8 thread logis) direkomendasikan, terutama jika Anda ingin menjalankan layanan atau alat lain secara paralel.
 
 
 

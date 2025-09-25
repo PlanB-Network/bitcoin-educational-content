@@ -63,6 +63,8 @@ Enfin, la quatrième partie, "Protéger ses héritiers et son patrimoine", abord
 
 Prêt à débuter votre parcours dans le monde de Bitcoin ? Allons-y !  
 
+**N.B.** : Si vous rencontrez des termes inconnus pendant le cours, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour les définitions.
+
 # Prérequis pour comprendre Bitcoin
 
 <partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>

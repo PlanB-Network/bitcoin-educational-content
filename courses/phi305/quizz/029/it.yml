@@ -1,0 +1,9 @@
+question: Chi è Ayn Rand?
+answer: L'autore di "La Grève" e "La Source Vive".
+wrong_answers:
+  - Il compagno di Spinoza.
+  - Politico britannico.
+  - Un autore romantico.
+explanation: |
+  Ayn Rand (1905-1982) è l'autrice di Atlas Shrugged e The Fountainhead. Ha sviluppato una filosofia chiamata Oggettivismo, che sostiene l'individualismo razionale e il capitalismo.
+reviewed: false

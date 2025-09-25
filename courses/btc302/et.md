@@ -108,7 +108,7 @@ Selle kursuse eesmärk on anda teile kõik, mida vajate Bitcoin kogukonna või k
 
 
 
-** 1. jagu: Sissejuhatus
+**1. jagu: Sissejuhatus**
 
 
 Alustame sellega, et rõhutame, kui oluline on ühendada inimesi Bitcoin ümber, olgu selleks siis veebikogukonnad või kohalikud kohtumised. Saate teada, miks ja kus oma kogukonna käivitada ning kuidas seada selged eesmärgid, et edendada selle kasvu ja pikaajalist jätkusuutlikkust.
@@ -272,7 +272,7 @@ Paljusid neist võimalustest käsitleme üksikasjalikult käesoleva kursuse 6/8.
 
 
 
-Kuigi iga kogukond võib vabalt kujundada oma arvamusi, käivitada projekte ja katsetada omal moel, osutuvad kohtumised üha enam **oluliseks Bitcoin arenguks ja bitcoin'i kasutajate kasvuks**. **Korraldamine nõuab siiski aega ja vaeva**, mistõttu jagab see kursus [umbes kuuekümne Bitcoin kogukonna Prantsusmaal ja Belgias](https://btcmap.org/communities/map#2/5.24949/0.20000) ühendatud kogemust, et aidata teil oma kogukonda ja kokkusaamisi võimalikult sujuvalt luua ja kasvatada**.
+Kuigi iga kogukond võib vabalt kujundada oma arvamusi, käivitada projekte ja katsetada omal moel, osutuvad kohtumised üha enam **oluliseks Bitcoin arenguks ja bitcoin'i kasutajate kasvuks**. **Korraldamine nõuab siiski aega ja vaeva**, mistõttu jagab see kursus [umbes kuuekümne Bitcoin kogukonna Prantsusmaal ja Belgias](https://btcmap.org/communities/map#2/5.24949/0.20000) ühendatud kogemust, et aidata teil oma kogukonda ja kokkusaamisi võimalikult sujuvalt luua ja kasvatada.
 
 
 
@@ -567,7 +567,7 @@ Kui teil tekib inspiratsioon, võite minna veelgi kaugemale: luua oma kogukonnal
 
 
 
-Võite kasutada [Canva](https://www.canva.com/)**, et luua oma kogukonna jaoks erinevaid visuaalseid kujundusi.
+Võite kasutada [Canva](https://www.canva.com/), et luua oma kogukonna jaoks erinevaid visuaalseid kujundusi.
 
 
 
@@ -612,7 +612,7 @@ Siin on valmis Canva mallid, mida saate kopeerida ja kohandada oma kogukonna jao
 
 
 
-- Kokkutuleku teadaande plakat** (sotsiaalmeedia ja A4/A3 trükkimise jaoks): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Kokkutuleku teadaande plakat** (sotsiaalmeedia ja A4/A3 trükkimise jaoks): [link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ![image](assets/fr/010.webp)
@@ -621,19 +621,19 @@ Siin on valmis Canva mallid, mida saate kopeerida ja kohandada oma kogukonna jao
 
 
 
-- Ürituse plakat** (sotsiaalmeedia ja A4/A3 trükkimiseks): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Ürituse plakat** (sotsiaalmeedia ja A4/A3 trükkimiseks): [link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- sotsiaalmeedia bännerid**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **sotsiaalmeedia bännerid**: [link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Võistluse väljakuulutamine**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Võistluse väljakuulutamine**: [link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -643,19 +643,19 @@ Siin on valmis Canva mallid, mida saate kopeerida ja kohandada oma kogukonna jao
 
 
 
-- meie raamatukogu brändi suunised**, mis kuvatakse A4-formaadis kohtumistel: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- meie raamatukogu brändi suunised, mis kuvatakse A4-formaadis kohtumistel: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- PowerPoint esitlus** "Chapter 2 - Understanding Bitcoin transactions", autor @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **PowerPoint esitlus** "Chapter 2 - Understanding Bitcoin transactions", autor @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- flaier** "21 põhjust, miks kasutada Bitcoin", mille on kirjutanud @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **flaier** "21 põhjust, miks kasutada Bitcoin", mille on kirjutanud @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -1092,15 +1092,15 @@ Kasutades **roboti [@GroupHelpBot](https://telegram.me/grouphelpbot)**, on kõig
 
 
 - **reeglite käsk** (/rules), et kuvada oma kogukonna suuniseid;
-- Spamivastane** kaitse, et filtreerida kahtlased sõnumid ja kontod;
-- Kohandatavad automaatsed tervitussõnumid** uutele liikmetele (valikuline automaatne kustutamine mõne minuti pärast)
-- Üleujutuste vastane kaitse** sõnumite rämpsposti vältimiseks
+- **Spamivastane** kaitse, et filtreerida kahtlased sõnumid ja kontod;
+- **Kohandatavad automaatsed tervitussõnumid** uutele liikmetele (valikuline automaatne kustutamine mõne minuti pärast)
+- **Üleujutuste vastane kaitse** sõnumite rämpsposti vältimiseks
 - **@administrator käsk**, et kiiresti jõuda grupiadministraatoriteni
-- Blokeerimisreeglid** soovimatu sisu jaoks
+- **Blokeerimisreeglid** soovimatu sisu jaoks
 - **rühma linkimise käsk** (/link)
 - Käskkiri **lubade haldamine**
-- Teatud sõnumitüüpide automaatne kustutamine**
-- Botide blokeerimine** ja ** sisenemise/väljumise blokeerimine**, et hoida oma grupp turvaliselt
+- **Teatud sõnumitüüpide automaatne kustutamine**
+- **Botide blokeerimine** ja **sisenemise/väljumise blokeerimine**, et hoida oma grupp turvaliselt
 - Loetlege oma **ühenduse sotsiaalsed võrgustikud** (/networks)
 - Ja palju muud...
 
@@ -1256,7 +1256,7 @@ Twitterit on väga lihtne kasutada ja oma privaatsuse parandamiseks peate kohand
 **Uue Twitteri konto loomisel tuleb sisestada neli olulist teavet:**:
 
 
-1/ **Twitter @, mis määratleb teie identiteedi ja teeb teid kergesti leitavaks. Kui teie kogukonna nimi on "Bitcoin [CITY]", on asjakohane valida "@Bitcoin[CITY]";
+1/ **Twitter @, mis määratleb teie identiteedi ja teeb teid kergesti leitavaks.** Kui teie kogukonna nimi on "Bitcoin [CITY]", on asjakohane valida "@Bitcoin[CITY]";
 
 
 2/ **logo ja bänner**, mille olete loonud oma kogukonna või kohtumise jaoks (vt jaotist [Logo, plakati ja bänneri loomine](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
@@ -1308,8 +1308,8 @@ Siin on **võtmeküsimused, millele keskenduda, et suurendada oma nähtavust**:
     - Julgustage oma kogukonda suhtlema:
         - Nagu = kaal 0,5
         - Retweet = kaal 1
-        - Vastus = kaal 27 (!!)**
-    - Vastake inimestele, kes vastavad teie säutsudele** (kaal 75!!);
+- Vastus = kaal 27 (!!)
+- Vastake inimestele, kes vastavad teie säutsudele (kaal 75!!);
     - Vältige linkide paigutamist peamisesse säutsu: lisage need hoopis esimesse kommentaari.;
     - Kirjutage sõnad täismahus, vältige lühendeid.
 
@@ -1757,8 +1757,8 @@ Koosolekute edenedes ilmuvad uued näod: inimesed, kes ostsid BTC ja/või altcoi
 Selleks, et kõik tunneksid end oma üritustel kaasatuna, keskendu kahele peamisele aspektile:
 
 
-- Sotsiaalne kaasatus**: Kõik osalejad peaksid end teretulnud tundma. Tehke jõupingutusi, et tervitada uustulnukaid, küsida, miks nad tulid, ja tutvustada neid teistele. Kui inimesed tunnevad end kaasatuna, tulevad nad suurema tõenäosusega tagasi ja võib-olla isegi aitavad edaspidiseid üritusi korraldada.
-- Kannatlikkus ja avatus**: See nõuab aega ja motivatsiooni. Kui räägite pühendunud shitcoineriga (või veel hullem, XRP Maximalist), võib olla kiusatus neid kõrvale jätta. Kuid vestlusse astudes võite selgitada arusaamatusi või vigaseid põhjendusi. Kui nad on valmis kuulama, võivad nad olla valmis Bitcoin tõeliselt mõistma.
+- **Sotsiaalne kaasatus**: Kõik osalejad peaksid end teretulnud tundma. Tehke jõupingutusi, et tervitada uustulnukaid, küsida, miks nad tulid, ja tutvustada neid teistele. Kui inimesed tunnevad end kaasatuna, tulevad nad suurema tõenäosusega tagasi ja võib-olla isegi aitavad edaspidiseid üritusi korraldada.
+- **Kannatlikkus ja avatus**: See nõuab aega ja motivatsiooni. Kui räägite pühendunud shitcoineriga (või veel hullem, XRP Maximalist), võib olla kiusatus neid kõrvale jätta. Kuid vestlusse astudes võite selgitada arusaamatusi või vigaseid põhjendusi. Kui nad on valmis kuulama, võivad nad olla valmis Bitcoin tõeliselt mõistma.
 
 
 
@@ -2592,7 +2592,7 @@ Kui Bitcoin sisenes oma neljandasse ajastusse plokis 840,000, hakkasid üha enam
 Sarnaselt interneti arengule võtab ka see revolutsioon aega, mis on tegelikult eelis. See annab inimestele võimaluse **õppida Bitcoin põhialuseid**, mõista, kuidas seda kasutada, ning võimaldab arendajatel ja ettevõtetel **loomata protokollid ja rakendused**, mis avavad selle täieliku potentsiaali.
 
 
-Keegi ei oska tulevikku ennustada, kuid me võime **odata Bitcoin kasutuselevõtu järsku suurenemist**. See tähendab, et peame olema valmis kõigiks stsenaariumideks**, isegi äärmuslikeks, nagu traditsioonilise finantssüsteemi kokkuvarisemine või Bitcoin otsene keelustamine.
+Keegi ei oska tulevikku ennustada, kuid me võime **oodata Bitcoin kasutuselevõtu järsku suurenemist**. See tähendab, et peame olema valmis kõigiks stsenaariumideks, isegi äärmuslikeks, nagu traditsioonilise finantssüsteemi kokkuvarisemine või Bitcoin otsene keelustamine.
 
 
 Selles kursuse seitsmendas ja eelviimases osas vaatleme põhipunkte, mida oma kogukonna ja kokkusaamiste kasvades meeles pidada.
@@ -2609,7 +2609,7 @@ Esiteks, kui 500 inimest arutavad ühes vestluses kõikvõimalikke teemasid, vii
 
 Teiseks, rohkem inimesi teie kanalites tähendab rohkem botte, rohkem petuskeeme ja seega rohkem modereerimist. Olge selleks valmis, luues selged reeglid, millele saate sõnumeid modereerides viidata. Meie kogemuse kohaselt aitab see palju kaasa konfliktide vältimisele, eriti kui reeglid on teie kanalites kergesti kättesaadavad.
 
-Hea näide on **[Bitcoin Lille'i avatud lähtekoodiga reeglistik](https://bitcoinlille.fr/reglement/), mis kirjutati mõned aastad tagasi selle Telegrami grupi ja Discord-serveri jaoks. See põhineb lihtsatel ja universaalsetel põhimõtetel ning siit saab isegi [kujunduse kohandatav versioon](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) kätte.
+Hea näide on **[Bitcoin Lille'i avatud lähtekoodiga reeglistik](https://bitcoinlille.fr/reglement/)**, mis kirjutati mõned aastad tagasi selle Telegrami grupi ja Discord-serveri jaoks. See põhineb lihtsatel ja universaalsetel põhimõtetel ning siit saab isegi [kujunduse kohandatav versioon](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) kätte.
 
 
 
@@ -2876,15 +2876,15 @@ Näiteks Prantsusmaal on umbes kuuekümnest kogukonnast ja kokkusaamisest peaaeg
 Kasu on kahekordne:
 
 
-- Ametlik tunnustus**: saate avada ühingu pangakonto, saada ajakirjanduse/meedia tähelepanu ja isegi taotleda toetusi.
-- Struktureeritud organisatsioon**: saate määratleda selged rollid, mis lihtsustab kogukonna juhtimist ja projektide elluviimist.
+- **Ametlik tunnustus**: saate avada ühingu pangakonto, saada ajakirjanduse/meedia tähelepanu ja isegi taotleda toetusi.
+- **Struktureeritud organisatsioon**: saate määratleda selged rollid, mis lihtsustab kogukonna juhtimist ja projektide elluviimist.
 
 
-Et aidata oma kogukonnal veelgi kasvada, **selline jätkukursus COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Et aidata oma kogukonnal veelgi kasvada, **selline jätkukursus COMMU302**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-võidakse avaldada [planb.network](https://planb.network/) lähikuudel**.
+võidakse avaldada [planb.network](https://planb.network/) lähikuudel.
 
 
 Järgmisel istungil võiks uurida selliseid edasijõudnute teemasid nagu:

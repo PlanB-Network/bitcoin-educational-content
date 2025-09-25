@@ -39,8 +39,8 @@ Platforma nabízí dvě hlavní služby:
 
 
 
-- FlashX**: Bitcoiny Exchange s mobilními penězi.
-- FlashPayment**: Použijte Bitcoin pro každodenní služby.
+- **FlashX**: Bitcoiny Exchange s mobilními penězi.
+- **FlashPayment**: Použijte Bitcoin pro každodenní služby.
 
 
 
@@ -73,9 +73,9 @@ Flash provádí své transakce pomocí místních mobilních peněz. V závislos
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Oranžová.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Oranžová.
 
 
 
@@ -157,10 +157,10 @@ Kromě nákupu a prodeje bitcoinů nabízí Flash své komunitě kontextové vyu
 
 
 
-- Jednotky GSM**;
-- Internetové balíčky**;
-- Balíčky pro volání**;
-- Kombinace balíčku volání a internetu**.
+- Jednotky **GSM**;
+- **Internetové balíčky**;
+- Balíčky pro volání;
+- Kombinace balíčku volání a internetu.
 
 
 
@@ -203,4 +203,3 @@ Pokud vám tento návod pomohl při práci s Flashem, dejte nám prosím palec G
 
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-

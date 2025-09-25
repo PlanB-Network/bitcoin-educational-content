@@ -582,7 +582,7 @@ Um administrador pode querer optar por não usar essa configuração. Pela segui
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Configurações da Carteira do BTCPay Server
@@ -1690,7 +1690,7 @@ A tabela abaixo lista e descreve os status padrão de faturas no BTCPay e sugere
 | Processando (paidOver)          | Pagou mais do que o valor da fatura, não recebeu quantidade suficiente de confirmações                                                                  | Espere ser liquidado então contate o comprador para organizar um reembolso pelo valor extra, ou opcionalmente espere que o comprador entre em contato com você |
 | Liquidado                       | Pago, integralmente, recebeu quantidade suficiente de confirmações na loja                                                                              | Cumpra o pedido                                                                                                                                                |
 | Liquidado (marcado)             | O status foi manualmente alterado para liquidado de um status em processamento ou inválido                                                              | O administrador da loja marcou o pagamento como liquidado                                                                                                      |
-| Inválido\*                      | Pago, mas falhou em receber quantidade suficiente de confirmações dentro do tempo especificado nas configurações da loja                                | Verifique a transação em um explorador de blockchain, se recebeu confirmações suficientes, marque como liquidado                                               |
+| **Inválido**                      | Pago, mas falhou em receber quantidade suficiente de confirmações dentro do tempo especificado nas configurações da loja                                | Verifique a transação em um explorador de blockchain, se recebeu confirmações suficientes, marque como liquidado                                               |
 | Inválido (marcado)              | O status foi manualmente alterado para inválido de um status liquidado ou expirado                                                                      | O administrador da loja marcou o pagamento como inválido                                                                                                       |
 | Inválido (paidOver)             | Pagou mais do que o valor da fatura, mas falhou em receber quantidade suficiente de confirmações dentro do tempo especificado nas configurações da loja | Verifique a transação em um explorador de blockchain, se recebeu confirmações suficientes, marque como liquidado                                               |
 

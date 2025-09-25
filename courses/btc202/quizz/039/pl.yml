@@ -1,0 +1,9 @@
+question: Jaka jest zalecana minimalna pojemność dysku SSD w 2025 r. dla węzła Bitcoin?
+answer: 2 Do
+wrong_answers:
+  - 512 GB
+  - 10 Do
+  - 256 GB
+explanation: |
+  Przy Blockchain przekraczającym 700 GB i dodatkowych aplikacjach, 2 TB stało się rozsądnym minimum.
+reviewed: true

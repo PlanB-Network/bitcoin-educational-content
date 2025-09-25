@@ -1,5 +1,5 @@
 ---
-name: 比特币优惠券机器人
+name: BitcoinVoucherBot
 description: 在保密情况下购买 Bitcoin 的 Telegram 机器人
 ---
 ![image](assets/cover.webp)

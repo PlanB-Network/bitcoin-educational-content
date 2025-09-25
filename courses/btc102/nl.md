@@ -52,7 +52,7 @@ Daarna zullen we uitleggen waarom Bitcoin fundamenteel belangrijk is vanuit tech
 Het derde deel, "Jouw plan opstellen", richt zich op je persoonlijke benadering van Bitcoin. We beginnen met het definiëren van jouw gebruikersprofiel uit vier hoofdcategorieën:
 
 - de hodler*, gericht op het vasthouden van Bitcoin op de lange termijn;
-- de stapelaar*, die regelmatig en methodisch inkoopt;
+- de **stapelaar**, die regelmatig en methodisch inkoopt;
 - de gebruiker*, die prioriteit geeft aan het dagelijks gebruik van Bitcoin;
 - en tot slot *de paranoïde*, die maximale beveiliging wil om zijn bezittingen en privacy effectief te beschermen.
 
@@ -67,6 +67,8 @@ Ten slotte behandelt het vierde deel, "Je erfgenamen en vermogen beschermen", ee
 Aan het einde van deze cursus beschik je over alle praktische hulpmiddelen die je nodig hebt om vol vertrouwen door het Bitcoin ecosysteem te navigeren en een van de meest geavanceerde gebruikers te worden!
 
 Klaar om je reis in de wereld van Bitcoin te beginnen? Laten we gaan!
+
+**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.network/resources/glossary) voor definities.
 
 # Voorwaarden om Bitcoin te begrijpen
 
@@ -2528,6 +2530,5 @@ Nogmaals gefeliciteerd met hoe ver je bent gekomen. En onthoud: mijn hoofddoel z
 
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

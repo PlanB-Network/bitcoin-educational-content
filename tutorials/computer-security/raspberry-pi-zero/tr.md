@@ -46,8 +46,8 @@ Size daha fazlasını anlatacağım: sonuna kadar okuyun. Önerilen çözüm ucu
 
 
 
-- Maliyet**: Bu yazının yazıldığı tarihte (Ağustos 2025) yaklaşık 15.00.
-- Üretimin sürekliliği**: Ahududu, Ocak 2030'a kadar üretimi garanti eder.
+- **Maliyet**: Bu yazının yazıldığı tarihte (Ağustos 2025) yaklaşık 15.00.
+- **Üretimin sürekliliği**: Ahududu, Ocak 2030'a kadar üretimi garanti eder.
 
 
 
@@ -76,7 +76,7 @@ Devam etmeye karar verdiğimde, PI Zero'nun tüm potansiyelinden tam olarak yara
 
 
 
-- Maliyet**: 19.99 Euro.
+- **Maliyet**: 19.99 Euro.
 
 
 

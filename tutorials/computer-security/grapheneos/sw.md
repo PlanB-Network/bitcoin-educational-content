@@ -484,10 +484,10 @@ Walakini unapohamia GrapheneOS, kuna starehe za kiumbe ambazo lazima uache kwa s
 
 
 
-- Apple CarPlay/Android Auto** - Utahitaji kushikamana na Bluetooth ya mtindo wa zamani, USB au Aux.
-- Apple/Google Pay** - Kila mtu hubeba Wallet yake hata hivyo!
-- Programu za benki** - Sio kwamba hizi hazifanyi kazi hata kidogo. Wengine hufanya, kwa kweli kabisa. Wengine hufanya kazi tu na Huduma za Google Play zimewezeshwa (soma zaidi juu ya hiyo hapa chini) na zingine hazifanyi kazi hata kidogo. Soma ripoti kwenye benki yako [hapa](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) ili kuona hali ya sasa ya uchezaji. Usiogope ikiwa yako iko kwenye orodha ambayo haifanyi kazi, kumbuka unaweza tu kuhifadhi URL kama programu ya wavuti kwenye skrini yako ya kwanza.
-- Arifa za Push** - Programu nyingi zinazokutumia masasisho wakati hutumii programu mahususi zitafanya hivyo kupitia Huduma za Google Play. Hizi hazijasakinishwa kwa chaguo-msingi kwenye GrapheneOS, kwa hivyo ukijikuta huarifiwi mara moja rafiki yako anapokutumia barua pepe, hii ndiyo sababu inayofanya. Habari njema ni kwamba baadhi ya programu zilizotajwa hapo juu zimetumia muunganisho wao wa usuli ili kuangalia mara kwa mara masasisho na kisha kukupa arifa inapohitajika.
+- **Apple CarPlay/Android Auto** - Utahitaji kushikamana na Bluetooth ya mtindo wa zamani, USB au Aux.
+- **Apple/Google Pay** - Kila mtu hubeba Wallet yake hata hivyo!
+- **Programu za benki** - Sio kwamba hizi hazifanyi kazi hata kidogo. Wengine hufanya, kwa kweli kabisa. Wengine hufanya kazi tu na Huduma za Google Play zimewezeshwa (soma zaidi juu ya hiyo hapa chini) na zingine hazifanyi kazi hata kidogo. Soma ripoti kwenye benki yako [hapa](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) ili kuona hali ya sasa ya uchezaji. Usiogope ikiwa yako iko kwenye orodha ambayo haifanyi kazi, kumbuka unaweza tu kuhifadhi URL kama programu ya wavuti kwenye skrini yako ya kwanza.
+- **Arifa za Push** - Programu nyingi zinazokutumia masasisho wakati hutumii programu mahususi zitafanya hivyo kupitia Huduma za Google Play. Hizi hazijasakinishwa kwa chaguo-msingi kwenye GrapheneOS, kwa hivyo ukijikuta huarifiwi mara moja rafiki yako anapokutumia barua pepe, hii ndiyo sababu inayofanya. Habari njema ni kwamba baadhi ya programu zilizotajwa hapo juu zimetumia muunganisho wao wa usuli ili kuangalia mara kwa mara masasisho na kisha kukupa arifa inapohitajika.
 
 
 ### Google Play ya Sandboxed
@@ -606,4 +606,3 @@ GrapheneOS ni shimo la sungura mtu yeyote anaweza kutumia kwa urahisi wiki kwend
 
 
 *Mafunzo haya ni urekebishaji wa yaliyomo asilia yaliyotolewa na [BitcoinQnA kwenye Bitcoiner.Guide chini ya leseni ya MIT](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), ambaye anastahili sifa zote kwa kazi ya awali ya uandishi.*
-

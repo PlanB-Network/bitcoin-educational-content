@@ -80,7 +80,7 @@ Telegram ist nun auf dem Handy voll funktionsfähig, wir können zu den ersten G
 
 Der Telegram-Benutzername - manchmal auch `Handle` genannt - ist viel mehr als eine bloße Fantasie. Das Handle ist in der Tat **einzigartig für jeden Benutzer**.
 
-Auf Telegram ist es leicht, Betrügern zu begegnen, die privat schreiben und vorgeben, jemand zu sein, der sie nicht sind. Jeder Nutzer kann in die Falle tappen und persönliche Informationen preisgeben, in dem Glauben, dass er mit einem Kontakt chattet, dem er voll und ganz vertraut. **Wir werden sehen, dass der Handle die beste Verteidigung ist, um diese Art von Gefahren zu entschärfen.
+Auf Telegram ist es leicht, Betrügern zu begegnen, die privat schreiben und vorgeben, jemand zu sein, der sie nicht sind. Jeder Nutzer kann in die Falle tappen und persönliche Informationen preisgeben, in dem Glauben, dass er mit einem Kontakt chattet, dem er voll und ganz vertraut. **Wir werden sehen, dass der Handle die beste Verteidigung ist, um diese Art von Gefahren zu entschärfen.**
 
 Wählen Sie im Hauptmenü _Mein Profil_.
 

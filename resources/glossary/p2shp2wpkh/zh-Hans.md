@@ -8,4 +8,4 @@ P2SH-P2WPKH 是随着 2017 年 8 月 SegWit 的实施而推出的。该脚本是
 
 该脚本是在 SegWit 推出时创建的，目的是促进 SegWit 的采用。它允许使用这一新标准，即使服务或钱包尚未与原生 SegWit 兼容。这是一种向新标准过渡的脚本。如今，使用这类封装的 SegWit 脚本已不再重要，因为大多数钱包都已实现了本地 SegWit。P2SH-P2WPKH 地址使用 `Base58Check` 编码编写，始终以 `3` 为开头，与任何 P2SH 地址一样。
 
-> ► *`P2SH-P2WPKH`有时也被称为 `嵌入在 P2SH 中的 P2WPKH`。
+> ► *`P2SH-P2WPKH`有时也被称为 `嵌入在 P2SH 中的 P2WPKH`*。

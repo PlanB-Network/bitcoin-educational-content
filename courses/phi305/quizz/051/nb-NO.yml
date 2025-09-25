@@ -1,0 +1,9 @@
+question: Hvilken østerriksk økonom snakker om planisme?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) var den østerrikske økonomen som skapte begrepet "planisme" for å beskrive sentralisert økonomisk planlegging. Han kritiserer denne tilnærmingen i "The Road to Serfdom".
+reviewed: false

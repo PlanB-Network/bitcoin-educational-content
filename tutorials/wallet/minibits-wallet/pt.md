@@ -73,7 +73,7 @@ o [Bitcoinmints.com](Bitcoinmints.com) fornece uma lista abrangente de casas da 
 
 O backup é sem dúvida o passo mais crítico em todo o processo de configuração. Para aceder às opções de Backup, navegue até `Configurações`-> `Backup` Aqui encontrará duas opções essenciais:
 
-1. a "sua frase seed", que contém "12 palavras", permite-lhe recuperar o seu saldo de dinheiro eletrónico em caso de perda do dispositivo. Esta frase seed é a sua chave mestra para todos os ecash de todas as casas da moeda que adicionou. Escreva-a num suporte físico (papel ou metal) e guarde-a em segurança em vários locais. Nunca guarde a sua frase seed num suporte digital onde possa ser comprometida. Considere visitar este [tutorial] (https://planb.network/en/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) para conhecer as melhores práticas de proteção do seu Wallet.
+1. a "sua frase seed", que contém "12 palavras", permite-lhe recuperar o seu saldo de dinheiro eletrónico em caso de perda do dispositivo. Esta frase seed é a sua chave mestra para todos os ecash de todas as casas da moeda que adicionou. Escreva-a num suporte físico (papel ou metal) e guarde-a em segurança em vários locais. Nunca guarde a sua frase seed num suporte digital onde possa ser comprometida. Considere visitar este [tutorial] (https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) para conhecer as melhores práticas de proteção do seu Wallet.
 
 2. `Wallet backup` que contém uma longa cadeia de backup.
 

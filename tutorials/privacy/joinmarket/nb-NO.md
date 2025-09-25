@@ -423,7 +423,7 @@ Når Satoshiene dine lager CoinJoins, vil de bevege seg fra mixdybde til mixdybd
 
 
 
-Her er vi endelig på den saftigste delen av JoinMarket, tumbler! Hvis du har lyttet til podcasten vet du allerede hva dette handler om. En anbefaling før vi kommer i gang: **Husk å sette grensene i joinmarket.cfg-filen (som forklart i begynnelsen), og vurder å kjøre programmet bare når onchain-gebyrene er relativt lave (under 10 Sats/vB).
+Her er vi endelig på den saftigste delen av JoinMarket, tumbler! Hvis du har lyttet til podcasten vet du allerede hva dette handler om. En anbefaling før vi kommer i gang: **Husk å sette grensene i joinmarket.cfg-filen (som forklart i begynnelsen), og vurder å kjøre programmet bare når onchain-gebyrene er relativt lave (under 10 Sats/vB).**
 
 
 

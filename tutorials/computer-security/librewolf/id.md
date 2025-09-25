@@ -52,10 +52,10 @@ LibreWolf bertujuan untuk memaksimalkan perlindungan terhadap pelacakan dan sidi
 
 
 
-- Menghilangkan semua telemetri dan pengumpulan data** di Firefox
-- Menonaktifkan fungsi yang bertentangan dengan kebebasan pengguna**, seperti modul DRM berpemilik
-- Menerapkan pengaturan privasi/keamanan** dan tambalan khusus sejak awal
-- Pengembangan masyarakat menjamin transparansi dan kemandirian** dari kepentingan komersial
+- Menghilangkan semua **telemetri dan pengumpulan data** di Firefox
+- Menonaktifkan fungsi yang bertentangan dengan **kebebasan pengguna**, seperti modul DRM berpemilik
+- Menerapkan **pengaturan privasi/keamanan** dan tambalan khusus sejak awal
+- Pengembangan masyarakat menjamin transparansi dan **kemandirian** dari kepentingan komersial
 
 
 
@@ -75,7 +75,7 @@ Sejak awal, LibreWolf menawarkan serangkaian fitur berorientasi privasi:
 
 
 
-**LibreWolf secara asli mengintegrasikan ekstensi uBlock Origin, salah satu pemblokir dan pelacak iklan terbaik di pasaran. Secara default, LibreWolf secara agresif menyaring apa pun yang dapat melacak Anda secara online (iklan yang mengganggu, skrip pelacakan, mata uang kripto Mining).
+**LibreWolf secara asli mengintegrasikan ekstensi uBlock Origin, salah satu pemblokir dan pelacak iklan terbaik di pasaran. Secara default, LibreWolf secara agresif menyaring apa pun yang dapat melacak Anda secara online (iklan yang mengganggu, skrip pelacakan, mata uang kripto Mining).**
 
 
 
@@ -90,7 +90,7 @@ Sejak awal, LibreWolf menawarkan serangkaian fitur berorientasi privasi:
 ![LIBREWOLF](assets/fr/07.webp)
 
 
-*Halaman uji EFF [Cover Your Tracks](https://coveryourtracks.eff.org/) dengan tombol TEST YOUR BROWSER. Halaman ini digunakan untuk mengevaluasi perlindungan terhadap pelacak dan sidik jari
+*Halaman uji EFF* [Cover Your Tracks](https://coveryourtracks.eff.org/) dengan tombol **TEST YOUR BROWSER**. Halaman ini digunakan untuk mengevaluasi perlindungan terhadap pelacak dan sidik jari
 
 
 
@@ -101,7 +101,7 @@ Sejak awal, LibreWolf menawarkan serangkaian fitur berorientasi privasi:
 
 
 
-**LibreWolf mengaktifkan pengaturan keamanan yang ketat secara default. Perlindungan Pelacakan yang Ditingkatkan Firefox didorong ke tingkat Ketat untuk memblokir ribuan pelacak, kuki pihak ketiga, dan konten berbahaya. Firefox juga mengaktifkan isolasi situs dan cookie (*Total Cookie Protection*) untuk mempartisi data untuk setiap domain, dan membatasi WebRTC (membatasi *Kandidat IE* dan perutean melalui proksi ketika proksi hadir) untuk mengurangi risiko kebocoran IP Address.
+**LibreWolf mengaktifkan pengaturan keamanan yang ketat secara default. Perlindungan Pelacakan yang Ditingkatkan Firefox didorong ke tingkat Ketat untuk memblokir ribuan pelacak, kuki pihak ketiga, dan konten berbahaya. Firefox juga mengaktifkan isolasi situs dan cookie (*Total Cookie Protection*) untuk mempartisi data untuk setiap domain, dan membatasi WebRTC (membatasi *Kandidat ICE* dan perutean melalui proksi ketika proksi hadir) untuk mengurangi risiko kebocoran IP Address.**
 
 
 
@@ -119,37 +119,37 @@ Sejak awal, LibreWolf menawarkan serangkaian fitur berorientasi privasi:
 
 
 
-- Tidak ada telemetri atau koneksi yang tidak diinginkan:** LibreWolf tidak mengirimkan data penggunaan, memastikan penghormatan penuh terhadap privasi Anda.
+- **Tidak ada telemetri atau koneksi yang tidak diinginkan:** LibreWolf tidak mengirimkan data penggunaan, memastikan penghormatan penuh terhadap privasi Anda.
 
 
 
 
 
-- Sumber terbuka dan berbasis komunitas:** Proyek ini 100% sumber terbuka dan dikelola oleh para sukarelawan. Kemandirian ini menjamin bahwa tidak ada model iklan yang akan mempengaruhi pengembangan.
+- **Sumber terbuka dan berbasis komunitas:** Proyek ini 100% sumber terbuka dan dikelola oleh para sukarelawan. Kemandirian ini menjamin bahwa tidak ada model iklan yang akan mempengaruhi pengembangan.
 
 
 
 
 
-- Pra-konfigurasi untuk privasi:** LibreWolf menghemat waktu Anda yang berharga: tidak perlu menghabiskan waktu berjam-jam untuk mengeraskan pengaturan Firefox, semuanya sudah selesai.
+- **Pra-konfigurasi untuk privasi:** LibreWolf menghemat waktu Anda yang berharga: tidak perlu menghabiskan waktu berjam-jam untuk mengeraskan pengaturan Firefox, semuanya sudah selesai.
 
 
 
 
 
-- Pemblokir/pelacak iklan asli:** uBlock Origin terintegrasi sebagai standar, jadi Anda tidak perlu melakukan apa pun untuk melindungi diri Anda dari iklan dan bug.
+- **Pemblokir/pelacak iklan asli:** uBlock Origin terintegrasi sebagai standar, jadi Anda tidak perlu melakukan apa pun untuk melindungi diri Anda dari iklan dan bug.
 
 
 
 
 
-- Perlindungan anti-sidik jari yang luar biasa:** Berkat RFP dan berbagai pengaturan privasi, LibreWolf secara drastis mengurangi jejak digital Anda yang unik di web.
+- **Perlindungan anti-sidik jari yang luar biasa:** Berkat RFP dan berbagai pengaturan privasi, LibreWolf secara drastis mengurangi jejak digital Anda yang unik di web.
 
 
 
 
 
-- Peningkatan kinerja dan bobot yang ringan:** Dengan menghapus telemetri dan fitur-fitur tertentu yang tidak penting, LibreWolf dapat sedikit lebih cepat dan tidak terlalu boros daya daripada Firefox standar.
+- **Peningkatan kinerja dan bobot yang ringan:** Dengan menghapus telemetri dan fitur-fitur tertentu yang tidak penting, LibreWolf dapat sedikit lebih cepat dan tidak terlalu boros daya daripada Firefox standar.
 
 
 
@@ -159,31 +159,31 @@ Sejak awal, LibreWolf menawarkan serangkaian fitur berorientasi privasi:
 
 
 
-- Tidak ada pembaruan otomatis bawaan:** LibreWolf tidak memperbarui dirinya sendiri. Terserah Anda untuk menginstal versi baru segera setelah dirilis, agar tetap aman.
+- **Tidak ada pembaruan otomatis bawaan:** LibreWolf tidak memperbarui dirinya sendiri. Terserah Anda untuk menginstal versi baru segera setelah dirilis, agar tetap aman.
 
 
 
 
 
-- Berkurangnya kompatibilitas dengan layanan tertentu:** Karena pengaturannya yang sangat ketat, LibreWolf mungkin mengalami masalah pada situs web tertentu. Platform streaming Netflix dan Disney+ tidak akan berfungsi, karena LibreWolf menonaktifkan DRM Widevine secara default.
+- **Berkurangnya kompatibilitas dengan layanan tertentu:** Karena pengaturannya yang sangat ketat, LibreWolf mungkin mengalami masalah pada situs web tertentu. Platform streaming Netflix dan Disney+ tidak akan berfungsi, karena LibreWolf menonaktifkan DRM Widevine secara default.
 
 
 
 
 
-- Tidak ada jaringan anonim bawaan:** Tidak seperti Tor Browser, LibreWolf tidak merutekan lalu lintas melalui Tor atau VPN sendiri. Jika Anda membutuhkan anonimitas jaringan, Anda perlu mengonfigurasi proksi/VPN secara manual.
+- **Tidak ada jaringan anonim bawaan:** Tidak seperti Tor Browser, LibreWolf tidak merutekan lalu lintas melalui Tor atau VPN sendiri. Jika Anda membutuhkan anonimitas jaringan, Anda perlu mengonfigurasi proksi/VPN secara manual.
 
 
 
 
 
-- Cookie dan sesi yang tidak permanen (default):** Untuk alasan kerahasiaan, LibreWolf menghapus cookie, riwayat, dan data situs setiap kali Anda menutup peramban. Anda harus masuk lagi ke akun Anda setiap kali Anda masuk.
+- **Cookie dan sesi yang tidak permanen (default):** Untuk alasan kerahasiaan, LibreWolf menghapus cookie, riwayat, dan data situs setiap kali Anda menutup peramban. Anda harus masuk lagi ke akun Anda setiap kali Anda masuk.
 
 
 
 
 
-- Tidak ada versi seluler atau sinkronisasi awan:** LibreWolf hanya tersedia di desktop (Windows, Linux, macOS). Tidak ada aplikasi seluler, dan oleh karena itu tidak ada sinkronisasi akun atau penanda melalui awan.
+- **Tidak ada versi seluler atau sinkronisasi awan:** LibreWolf hanya tersedia di desktop (Windows, Linux, macOS). Tidak ada aplikasi seluler, dan oleh karena itu tidak ada sinkronisasi akun atau penanda melalui awan.
 
 
 
@@ -241,8 +241,8 @@ Unduh penginstal (.exe) dari situs web resmi atau gunakan ekstensi:
 
 
 
-- Cokelat:** `choco instal librewolf`
-- WinGet:** `winget instal librewolf`
+- **Cokelat:** `choco install librewolf`
+- **WinGet:** `winget install librewolf`
 
 
 
@@ -265,7 +265,7 @@ Saat pertama kali dijalankan, Anda akan melihat Firefox Interface yang sudah tid
 ![LIBREWOLF](assets/fr/04.webp)
 
 
-*Halaman beranda LibreWolf dengan ekstensi dan menu. Panah biru di sudut kanan atas menunjukkan ikon menu (tiga bilah horizontal)
+*Halaman beranda LibreWolf dengan ekstensi dan menu. Panah biru di sudut kanan atas menunjukkan ikon menu (tiga bilah horizontal)*
 
 
 
@@ -325,8 +325,8 @@ Pada prinsipnya, LibreWolf tidak menyarankan penambahan ekstensi yang tidak perl
 
 
 
-- Wadah Multi-Akun Firefox** (oleh Mozilla) untuk penjelajahan terkotak-kotak
-- Decentraleyes** atau **LocalCDN** untuk melayani perpustakaan umum secara lokal
+- **Wadah Multi-Akun Firefox** (oleh Mozilla) untuk penjelajahan terkotak-kotak
+- **Decentraleyes** atau **LocalCDN** untuk melayani perpustakaan umum secara lokal
 
 
 
@@ -402,7 +402,7 @@ LibreWolf adalah bagian dari "kotak peralatan" peramban berorientasi privasi:
 
 
 
-**Brave menggunakan kode Chrome/Chromium dan mengintegrasikan model bisnis melalui program periklanan opsional. LibreWolf, sebagai komunitas Fork untuk Firefox, mempertahankan ekosistem bebas Mozilla dan tidak memiliki hubungan dengan Google.
+**Brave menggunakan kode Chrome/Chromium dan mengintegrasikan model bisnis melalui program periklanan opsional. LibreWolf, sebagai komunitas Fork untuk Firefox, mempertahankan ekosistem bebas Mozilla dan tidak memiliki hubungan dengan Google.**
 
 
 

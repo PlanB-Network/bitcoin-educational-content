@@ -1,0 +1,9 @@
+question: کدام دو مؤلفه از نسخه 0.5 با Bitcoin core توزیع شده‌اند؟
+answer: Bitcoin-qt و bitcoind
+wrong_answers:
+  - bitcoin-cli و Bitcoin-gui
+  - Bitcoin-Miner و Bitcoin-Wallet
+  - Bitcoin-core و Bitcoin-node
+explanation: |
+  از نسخه 0.5، Bitcoin core شامل یک Interface گرافیکی (Bitcoin-qt) و یک Interface خط فرمان (bitcoind) است.
+reviewed: true

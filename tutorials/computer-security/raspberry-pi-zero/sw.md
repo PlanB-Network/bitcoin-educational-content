@@ -46,8 +46,8 @@ Nitakuambia zaidi: soma njia yote. Suluhisho lililopendekezwa ni la bei nafuu, l
 
 
 
-- Gharama**: takriban 15.00 wakati wa kuandika mafunzo haya (Agosti 2025).
-- Mwendelezo wa uzalishaji**: Raspberry huhakikisha uzalishaji hadi Januari 2030.
+- **Gharama**: takriban 15.00 wakati wa kuandika mafunzo haya (Agosti 2025).
+- **Mwendelezo wa uzalishaji**: Raspberry huhakikisha uzalishaji hadi Januari 2030.
 
 
 
@@ -76,7 +76,7 @@ Nilipoamua kuendelea, nilipata [seti hii](https://www.amazon.it/-/en/GeeekPi-Ras
 
 
 
-- Gharama**: euro 19.99.
+- **Gharama**: euro 19.99.
 
 
 

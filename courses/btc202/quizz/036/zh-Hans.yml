@@ -1,0 +1,9 @@
+question: 专用笔记本电脑比迷你电脑有什么优势？
+answer: 其电池可充当逆变器
+wrong_answers:
+  - 更安静
+  - 使用寿命更长
+  - 能耗更低
+explanation: |
+  笔记本电脑的电池就像一个天然的 UPS，可以防止断电时突然停机。
+reviewed: true

@@ -57,7 +57,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.37
+    reward: 2.36
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -77,7 +77,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.94
+    reward: 2.93
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -97,17 +97,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.37
+    reward: 2.36
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.37
+    reward: 2.36
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.94
+    reward: 2.93
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -127,7 +127,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.94
+    reward: 2.93
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.36
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.5
 tags:
   - DIY
   - hardware

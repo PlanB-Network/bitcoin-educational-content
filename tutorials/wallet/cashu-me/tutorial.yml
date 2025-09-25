@@ -1,0 +1,31 @@
+id: 509bf335-1122-49ec-9600-9987436985eb
+
+project_id: ef37a74a-6ac1-4399-99f6-38114b85b7bc
+
+tags:
+  - wallets
+  - guides
+  - privacy
+
+category: mobile
+
+level: beginner
+
+professor_id: d6587ae8-ea52-483d-b0ac-52ec3ab7f9f4
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: de
+    last_contribution_date: 2025-09-18
+    urgency: 1
+    contributor_names:
+      - runningbitcoin21
+    reward: 0
+  - language: en
+    last_contribution_date: 2025-09-06
+    urgency: 1
+    contributor_names:
+      - runningbitcoin21
+    reward: 0

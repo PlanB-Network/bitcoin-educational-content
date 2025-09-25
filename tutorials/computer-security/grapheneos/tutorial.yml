@@ -61,12 +61,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.38
+    reward: 19.62
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.02
+    reward: 29.38
   - language: et
     last_contribution_date:
     urgency: 1
@@ -82,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.2
+    reward: 24.5
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -103,17 +103,17 @@ proofreading:
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 9.69
+    reward: 9.81
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.38
+    reward: 19.62
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.2
+    reward: 24.5
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -123,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.56
+    reward: 14.74
   - language: nl
     last_contribution_date:
     urgency: 1
@@ -133,7 +133,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.2
+    reward: 24.5
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 19.62
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 29.38
 tags:
   - guides
   - personal-security

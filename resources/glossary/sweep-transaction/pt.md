@@ -6,4 +6,4 @@ Modelo de padrão ou transação utilizado na análise da cadeia para determinar
 
 ![](../../dictionnaire/assets/6.webp)
 
-> ► *Em francês, "sweep transaction" pode ser traduzido como "transaction de balayage"
+> ► *Em francês, "sweep transaction" pode ser traduzido como "transaction de balayage"*

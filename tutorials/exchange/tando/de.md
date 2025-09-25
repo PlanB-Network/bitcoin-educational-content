@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Scan to Pay** :
+- **Scan to Pay**:
 
 
 
@@ -95,7 +95,7 @@ Scan to pay ist eine der automatischen Zahlungsoptionen der Anwendung. Scannen S
 
 
 
-- Geld nach Kenia senden** :
+- **Geld nach Kenia senden**:
 
 
 
@@ -121,7 +121,7 @@ Bezahlen Sie die Rechnung mit Ihrem Lightning Wallet und Tando wird sie in kenia
 
 
 
-- Bezahlen Sie Ihre Rechnungen** :
+- **Bezahlen Sie Ihre Rechnungen**:
 
 
 
@@ -135,7 +135,7 @@ Geben Sie die Nummer des Invoice ein, das Sie bezahlen möchten, und fahren Sie 
 
 
 
-- Kauf von Waren** :
+- **Kauf von Waren**:
 
 
 

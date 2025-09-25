@@ -1,5 +1,5 @@
 ---
-name: BIP39 Passphrase Ledger
+name: BIP-39 Passphrase Ledger
 description: Как добавить парольную фразу к вашему кошельку Ledger?
 ---
 ![cover](assets/cover.webp)

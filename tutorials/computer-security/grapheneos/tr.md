@@ -185,7 +185,7 @@ Ayarlar > Duvar Kağıdı ve Stil bölümüne gidin. Buradan:
 ### Pil yüzdesini göster
 
 
-Ayarlar** > **Pil** bölümüne gidin, ardından durum çubuğunda **Pil yüzdesini göster** seçeneğini etkinleştirin.
+**Ayarlar** > **Pil** bölümüne gidin, ardından durum çubuğunda **Pil yüzdesini göster** seçeneğini etkinleştirin.
 
 
 ### Kişileri içe aktarma
@@ -484,10 +484,10 @@ Ancak GrapheneOS'a geçerken, alternatif olmadığı için vazgeçmeniz gereken 
 
 
 
-- Apple CarPlay/Android Auto** - Eski moda Bluetooth, USB veya Aux'a bağlı kalmanız gerekecek.
-- Apple/Google Pay** - Hemen hemen herkes Wallet'sını yanında taşıyor zaten!
-- Bankacılık uygulamaları** - Bunlar hiç çalışmıyor değil. Aslında bazıları mükemmel çalışıyor. Diğerleri yalnızca Google Play Hizmetleri etkinleştirildiğinde çalışıyor (aşağıda daha fazlasını okuyun) ve diğerleri hiç çalışmıyor. Mevcut durumu görmek için bankanızla ilgili raporu [burada] (https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) okuyun. Sizinki çalışmayanlar listesindeyse korkmayın, URL'yi ana ekranınıza bir web uygulaması olarak kaydedebileceğinizi unutmayın.
-- Anında Bildirimler** - Belirli bir uygulamayı kullanmadığınızda size güncellemeler gönderen çoğu uygulama bunu Google Play Hizmetleri aracılığıyla yapacaktır. Bunlar GrapheneOS ile varsayılan olarak yüklenmez, bu nedenle arkadaşınız size bir e-posta gönderdiğinde hemen bildirim almadığınızı fark ederseniz, muhtemelen nedeni budur. İyi haber şu ki, yukarıda bahsedilen bazı uygulamalar, güncellemeleri periyodik olarak kontrol etmek ve gerektiğinde size bir bildirim vermek için kendi arka plan bağlantılarını uyguladılar
+- **Apple CarPlay/Android Auto** - Eski moda Bluetooth, USB veya Aux'a bağlı kalmanız gerekecek.
+- **Apple/Google Pay** - Hemen hemen herkes Wallet'sını yanında taşıyor zaten!
+- **Bankacılık uygulamaları** - Bunlar hiç çalışmıyor değil. Aslında bazıları mükemmel çalışıyor. Diğerleri yalnızca Google Play Hizmetleri etkinleştirildiğinde çalışıyor (aşağıda daha fazlasını okuyun) ve diğerleri hiç çalışmıyor. Mevcut durumu görmek için bankanızla ilgili raporu [burada] (https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) okuyun. Sizinki çalışmayanlar listesindeyse korkmayın, URL'yi ana ekranınıza bir web uygulaması olarak kaydedebileceğinizi unutmayın.
+- **Anında Bildirimler** - Belirli bir uygulamayı kullanmadığınızda size güncellemeler gönderen çoğu uygulama bunu Google Play Hizmetleri aracılığıyla yapacaktır. Bunlar GrapheneOS ile varsayılan olarak yüklenmez, bu nedenle arkadaşınız size bir e-posta gönderdiğinde hemen bildirim almadığınızı fark ederseniz, muhtemelen nedeni budur. İyi haber şu ki, yukarıda bahsedilen bazı uygulamalar, güncellemeleri periyodik olarak kontrol etmek ve gerektiğinde size bir bildirim vermek için kendi arka plan bağlantılarını uyguladılar
 
 
 ### Sandbox'lı Google Play
@@ -553,7 +553,7 @@ Yedekleme dosyasını herhangi bir harici depolama ortamına veya Nextcloud gibi
 İlk yedeğinizi oluşturmak için:
 
 
-1. Ayarlar** > **Sistem** > **Yedekleme** bölümüne gidin, ardından 12 kelimelik kurtarma kodunuzu yazın. Bu kod, daha sonraki bir tarihte yedekleme dosyasının şifresini çözmek için gereklidir. Kodu kaybederseniz, telefon yedeklemenize erişiminizi kaybedersiniz.
+1. **Ayarlar** > **Sistem** > **Yedekleme** bölümüne gidin, ardından 12 kelimelik kurtarma kodunuzu yazın. Bu kod, daha sonraki bir tarihte yedekleme dosyasının şifresini çözmek için gereklidir. Kodu kaybederseniz, telefon yedeklemenize erişiminizi kaybedersiniz.
 
 2. Ardından depolama konumunuzu seçin. Harici bir USB sürücü veya endüstriyel sınıf microSD kart tavsiye ederim.
 
@@ -606,4 +606,3 @@ GrapheneOS, herkesin kolayca haftalarını harcayabileceği bir tavşan deliğid
 
 
 *Bu eğitim, [BitcoinQnA tarafından Bitcoiner.Guide üzerinde MIT lisansı altında yayınlanan](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md) orijinal içeriğin bir uyarlamasıdır ve ilk yazım çalışmasının tüm kredisi ona aittir.*
-

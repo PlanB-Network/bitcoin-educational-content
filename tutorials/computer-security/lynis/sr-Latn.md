@@ -22,7 +22,7 @@ ___
 
 
 
-**U ovom vodiču ćemo naučiti kako da izvršimo bezbednosnu proveru na Linux mašini koristeći Lynis! Za one koji ne znaju **Lynis,** to je mali alat za komandnu liniju koji će analizirati konfiguraciju vašeg servera i dati preporuke za **poboljšanje bezbednosti vaše mašine.**
+**U ovom vodiču ćemo naučiti kako da izvršimo bezbednosnu proveru na Linux mašini koristeći Lynis!** Za one koji ne znaju **Lynis**, to je mali alat za komandnu liniju koji će analizirati konfiguraciju vašeg servera i dati preporuke za **poboljšanje bezbednosti vaše mašine**.
 
 
 
@@ -321,10 +321,10 @@ Dalje, Lynis će navesti skup tačaka koje odgovaraju svemu što je proverio na 
 
 
 
-- Crveno** za kritične Elements ili nepoštovanje najboljih praksi (na primer, nedostaje paket), tj. vaš server ne poštuje ovu tačku
-- Žuto** za sugestije ili delimičnu usklađenost sa preporukom (recimo da je plus ispuniti tačku istaknutu ovom bojom (neprioritetno))
-- Green** za tačke gde je konfiguracija vašeg servera usklađena
-- Bela**, kada je neutralna
+- **Crveno** za kritične Elements ili nepoštovanje najboljih praksi (na primer, nedostaje paket), tj. vaš server ne poštuje ovu tačku
+- **Žuto** za sugestije ili delimičnu usklađenost sa preporukom (recimo da je plus ispuniti tačku istaknutu ovom bojom (neprioritetno))
+- **Green** za tačke gde je konfiguracija vašeg servera usklađena
+- **Bela**, kada je neutralna
 
 
 
@@ -604,10 +604,10 @@ Neke informacije o instaliranim paketima:
 
 
 
-- Clamav** je antivirus.
-- unattend-upgrades** će vam omogućiti da automatski upravljate svojim ažuriranjima i čak restartujete mašinu ili automatski očistite stare pakete, potpuno je podesiv.
-- rkhunter** je anti-rootkit koji skenira vaš fajl sistem.
-- Fail2ban** će se oslanjati na vaše log fajlove prema onome što mu date da pročita i radiće sa **iptables**, na primer da zabrani IP adrese koje pokušavaju da "brute force-uju" vaš server preko SSH.
+- **Clamav** je antivirus.
+- **unattend-upgrades** će vam omogućiti da automatski upravljate svojim ažuriranjima i čak restartujete mašinu ili automatski očistite stare pakete, potpuno je podesiv.
+- **rkhunter** je anti-rootkit koji skenira vaš fajl sistem.
+- **Fail2ban** će se oslanjati na vaše log fajlove prema onome što mu date da pročita i radiće sa **iptables**, na primer da zabrani IP adrese koje pokušavaju da "brute force-uju" vaš server preko SSH.
 
 
 
@@ -820,7 +820,7 @@ Konačno, ne zaboravimo da proverimo **Lynis audit score**! Vidimo da je **moj H
 
 
 
-**Drugim rečima, što je viši rezultat, to bolje! Stoga treba da radite na svojoj konfiguraciji kako biste postigli najviši mogući rezultat, dok omogućavate vašoj mašini i hostovanim uslugama da funkcionišu normalno (što znači sprovođenje funkcionalnih testova).
+**Drugim rečima, što je viši rezultat, to bolje! Stoga treba da radite na svojoj konfiguraciji kako biste postigli najviši mogući rezultat, dok omogućavate vašoj mašini i hostovanim uslugama da funkcionišu normalno (što znači sprovođenje funkcionalnih testova).**
 
 
 
@@ -896,4 +896,4 @@ Konačno, možete uporediti **Lynis** sa drugim alatima, kojih ima nekoliko. Ako
 
 
 
-**Ovaj vodič je završen, zabavite se sa Lynis!
+**Ovaj vodič je završen, zabavite se sa Lynis!**

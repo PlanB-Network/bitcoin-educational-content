@@ -1,5 +1,5 @@
 ---
-name: Göz kırpma
+name: Blink
 description: Blink Wallet Eğitimini Tamamlayın - Bitcoin'ı Kolaylıkla Gönderin, Alın ve Kullanın
 ---
 

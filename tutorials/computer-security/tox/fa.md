@@ -1,5 +1,5 @@
 ---
-name: توکس
+name: Tox
 description: مکالمات را بدون واسطه‌ها در پروتکل غیرمتمرکز Tox باز کنید
 ---
 ![cover](assets/cover.webp)

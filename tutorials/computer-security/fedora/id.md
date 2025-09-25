@@ -40,25 +40,25 @@ Di antara sekian banyak distribusi Linux yang tersedia, Fedora menonjol khususny
 
 
 
-- Modularitas**: Kompatibel dengan arsitektur prosesor yang berbeda, Fedora dapat diinstal pada sebagian besar komputer, bahkan komputer dengan daya rendah, beradaptasi dengan sempurna dengan kebutuhan Anda.
+- **Modularitas**: Kompatibel dengan arsitektur prosesor yang berbeda, Fedora dapat diinstal pada sebagian besar komputer, bahkan komputer dengan daya rendah, beradaptasi dengan sempurna dengan kebutuhan Anda.
 
 
 
 
 
-- Interface yang sederhana dan intuitif**: Fedora menggabungkan Interface grafis modern dengan Interface baris perintah yang kuat, membuatnya mudah digunakan untuk semua profil.
+- **Interface yang sederhana dan intuitif**: Fedora menggabungkan Interface grafis modern dengan Interface baris perintah yang kuat, membuatnya mudah digunakan untuk semua profil.
 
 
 
 
 
-- Stabilitas Kernel**: Berbasis Red Hat, Fedora terkenal dengan keandalan pembaruannya, terutama pembaruan kernel, yang dilakukan tanpa bug besar berkat kontribusi gratis dari komunitas yang besar.
+- **Stabilitas Kernel**: Berbasis Red Hat, Fedora terkenal dengan keandalan pembaruannya, terutama pembaruan kernel, yang dilakukan tanpa bug besar berkat kontribusi gratis dari komunitas yang besar.
 
 
 
 
 
-- Instalasi cepat dan mudah**: dengan ukuran gambar hanya 3 GB, instalasi menjadi cepat dan mudah, bahkan pada mesin dengan sumber daya yang terbatas.
+- **Instalasi cepat dan mudah**: dengan ukuran gambar hanya 3 GB, instalasi menjadi cepat dan mudah, bahkan pada mesin dengan sumber daya yang terbatas.
 
 
 
@@ -72,19 +72,19 @@ Bergantung pada profil dan penggunaan Anda, Fedora menawarkan edisi yang sesuai 
 
 
 
-- Fedora Workstation**: Ideal untuk penggunaan pribadi dan/atau profesional pada komputer Anda, edisi ini diinstal dengan utilitas umum seperti peramban, office suite (editor teks), dan perangkat lunak pemutaran media.
+- **Fedora Workstation**: Ideal untuk penggunaan pribadi dan/atau profesional pada komputer Anda, edisi ini diinstal dengan utilitas umum seperti peramban, office suite (editor teks), dan perangkat lunak pemutaran media.
 
 
 
 
 
-- Server Fedora**: Edisi ini didedikasikan untuk manajemen server. Fedora Server menyertakan berbagai alat untuk membantu Anda menggunakan dan mengelola server dalam skala Anda sendiri.
+- **Server Fedora**: Edisi ini didedikasikan untuk manajemen server. Fedora Server menyertakan berbagai alat untuk membantu Anda menggunakan dan mengelola server dalam skala Anda sendiri.
 
 
 
 
 
-- Fedora CoreOS**: Ingin menjalankan dan menggunakan aplikasi cloud dengan mudah? Fedora CoreOS adalah edisi yang memberi Anda alat untuk membuat dan mengelola image dengan Docker dan Kubernet, misalnya.
+- **Fedora CoreOS**: Ingin menjalankan dan menggunakan aplikasi cloud dengan mudah? Fedora CoreOS adalah edisi yang memberi Anda alat untuk membuat dan mengelola image dengan Docker dan Kubernet, misalnya.
 
 
 
@@ -103,7 +103,7 @@ Menginstalasi Fedora Workstation membutuhkan konfigurasi perangkat keras berikut
 
 - Kunci USB minimal **8 GB** untuk mem-boot sistem operasi.
 - Setidaknya **40 GB ruang kosong** pada disk Hard komputer Anda.
-- rAM 4 GB** untuk pengalaman yang lancar.
+- **RAM 4 GB** untuk pengalaman yang lancar.
 
 
 
@@ -156,7 +156,7 @@ Hidupkan komputer Anda, lalu akses BIOS selama pengaktifan dengan menekan tombol
 
 
 
-Pada pilihan boot, pilih kunci USB Anda sebagai perangkat boot utama. Dengan mengonfirmasi pilihan ini, komputer Anda akan memulai ulang dan secara otomatis menjalankan pemasang Fedora** yang ada pada kunci USB.
+Pada pilihan boot, pilih kunci USB Anda sebagai perangkat boot utama. Dengan mengonfirmasi pilihan ini, komputer Anda akan memulai ulang dan secara otomatis menjalankan pemasang **Fedora** yang ada pada kunci USB.
 
 
 
@@ -169,7 +169,7 @@ Pada tahap ini, Anda memiliki opsi berikut:
 
 
 
-- Media uji**: Opsi ini memungkinkan Anda memeriksa integritas stik USB dan memastikan bahwa semua dependensi yang diperlukan untuk instalasi yang benar sudah ada. Ini adalah langkah opsional, tetapi disarankan jika Anda ragu dengan stik USB.
+- **Media uji**: Opsi ini memungkinkan Anda memeriksa integritas stik USB dan memastikan bahwa semua dependensi yang diperlukan untuk instalasi yang benar sudah ada. Ini adalah langkah opsional, tetapi disarankan jika Anda ragu dengan stik USB.
 
 
 
@@ -183,7 +183,7 @@ Pada tahap ini, Anda memiliki opsi berikut:
 
 
 
-- Mulai Fedora**: Ini meluncurkan Fedora dalam mode "langsung", tanpa instalasi.
+- **Mulai Fedora**: Ini meluncurkan Fedora dalam mode "langsung", tanpa instalasi.
 
 
 
@@ -368,9 +368,9 @@ Fedora menyertakan paket perkantoran **LibreOffice** secara default, yang menawa
 
 
 
-- Writer** untuk pengolah kata.
-- Calc** untuk spreadsheet.
-- Impress** untuk membuat presentasi.
+- **Writer** untuk pengolah kata.
+- **Calc** untuk spreadsheet.
+- **Impress** untuk membuat presentasi.
 
 
 ## Menginstal aplikasi

@@ -1,0 +1,9 @@
+question: Mini PC'nizde Dust birikmesinin yarattığı ana risk nedir?
+answer: İşlemci azaltma
+wrong_answers:
+  - Blockchain blok silme
+  - Disk bozulması
+  - Azaltılmış RAM kapasitesi
+explanation: |
+  Dust havalandırmayı engeller, aşırı ısınmaya neden olur ve işlemci verimliliğini azaltarak kısılmaya yol açar.
+reviewed: true

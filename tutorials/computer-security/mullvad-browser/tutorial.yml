@@ -97,22 +97,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.67
+    reward: 5.53
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.52
+    reward: 7.35
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -138,3 +138,13 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 9.16
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.35
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.97

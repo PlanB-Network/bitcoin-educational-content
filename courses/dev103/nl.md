@@ -50,7 +50,7 @@ De commando's die ze bevatten zijn geschreven in de programmeertaal JavaScript.
 Een JavaScript runtime is een speciaal programma dat deze bestanden uitvoert.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### De NodeJS-runtime
@@ -71,7 +71,7 @@ Aangezien NodeJS beschikbaar is voor alle drie de besturingssystemen, kunnen de 
 Dit betekent dat je bijvoorbeeld een eenvoudige videogame in JavaScript kunt schrijven op je Windows-pc en het aan je vriend kunt geven om het op zijn Mac uit te voeren.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Je kunt booleans combineren met logische operatoren:
 - `!` betekent "niet", het wordt toegepast voor een boolean en zal het omdraaien: als het boolean `true` is, zal het `false` teruggeven, en vice versa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Voorbeelden:
@@ -730,9 +730,9 @@ In dit gedeelte behandelen we nog drie typen die veel voorkomen in JavaScript-pr
 
 
 
-- Arrays**: opeenvolgingen van waarden
-- undefined**: een speciale waarde die betekent "er is niets toegewezen"
-- null**: een andere speciale waarde die "opzettelijk leeg" betekent
+- **Arrays**: opeenvolgingen van waarden
+- **undefined**: een speciale waarde die betekent "er is niets toegewezen"
+- **null**: een andere speciale waarde die "opzettelijk leeg" betekent
 
 
 ### Matrices en indextoegang
@@ -1503,7 +1503,7 @@ Dit was een heel saai voorbeeld, maar hopelijk heeft het de (incidentele) behoef
 <chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
 
 
-Als je programma's groeien, zul je vaak stukken code** willen hergebruiken.
+Als je programma's groeien, zul je vaak stukken **code** willen hergebruiken.
 
 
 Daar zijn **functies** voor: hiermee kun je code groeperen, een naam geven en uitvoeren wanneer je maar wilt.
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 De `Car` klasse **erft** nu alles van `Vehicle`. Het krijgt de `merk` eigenschap en we hebben de `start()` methode vervangen door onze eigen versie.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Laten we het uitproberen:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -2530,7 +2530,7 @@ Zo werkt het:
 
 
 - De code in het `try` blok wordt eerst geprobeerd.
-- Als er een fout optreedt, springt JavaScript naar het `catch` blok**, waarbij de rest van het `try` blok wordt overgeslagen.
+- Als er een fout optreedt, springt JavaScript naar het `catch` blok, waarbij de rest van het `try` blok wordt overgeslagen.
 - Het `catch` blok ontvangt de fout, zodat je deze kunt afdrukken, of op een andere manier kunt afhandelen, zoals bijvoorbeeld
 
 
@@ -4190,7 +4190,7 @@ Here is the doubled array: [ 2, 4, 6 ]
 ```
 
 
-**Wat gebeurt hier?
+**Wat gebeurt hier?**
 
 
 1. We geven `input` door als de lijst met getallen die we willen verdubbelen.
@@ -5048,7 +5048,7 @@ Deze zijn handig als je een variabele wilt bijwerken met zijn eigen waarde.
 ### Destructurering
 
 
-*met *Destructureren** kun je waarden uit arrays of objecten halen en ze eenvoudig opslaan in variabelen.
+**Met destructureren** kun je waarden uit arrays of objecten halen en ze eenvoudig opslaan in variabelen.
 
 
 #### Rijen
@@ -5228,7 +5228,7 @@ JavaScript is een geïnterpreteerde taal, in tegenstelling tot gecompileerde tal
 Code die is geschreven in een gecompileerde taal wordt omgezet in een binair getal en het binaire getal wordt rechtstreeks naar de CPU van de computer gestuurd.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpred-talen daarentegen zijn meestal gebruiksvriendelijker en staan dichter bij hoe mensen denken ("hoog niveau") in plaats van hoe machines werken ("laag niveau"); daarom hebben ze meestal een virtuele machine gebouwd om hun code te draaien.
@@ -5261,7 +5261,7 @@ Waarom is dat een probleem?
 Nou, omdat browsers code uitvoeren die van miljoenen verschillende bronnen op het internet is gehaald, kunnen ze gemakkelijk in malware veranderen, dus zijn ze "sandboxed" van de rest van het besturingssysteem.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript had geen toegang tot het bestandssysteem en andere lokale bronnen op je computer (in ieder geval niet zo gemakkelijk als andere talen dat konden), dus dat was een belangrijke beperking voor het soort toepassingen dat je ermee kon bouwen.
@@ -5270,7 +5270,7 @@ JavaScript had geen toegang tot het bestandssysteem en andere lokale bronnen op 
 In 2009 publiceerde Ryan Dahl NodeJS, een runtime waarmee je de V8 engine buiten de browser kunt gebruiken, direct op het native besturingssysteem van je computer. Het voegt ook veel functies toe die handig zijn voor het schrijven van server-side en commandoregelprogramma's. Je kunt NodeJS bijvoorbeeld gebruiken om een webserver te maken, bestanden te lezen en te schrijven of tools te bouwen die taken automatiseren.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Tot nu toe hebben we in deze cursus de JavaScript-functies verkend die zowel in de browser als in NodeJS aanwezig zijn. Met deze functies kunnen we gegevens definiëren en op abstracte manieren manipuleren. In de volgende lessen verkennen we de functies die specifiek zijn voor NodeJS en ons in staat stellen om te communiceren met het besturingssysteem.
@@ -6431,10 +6431,10 @@ NodeJS heeft vier hoofdtypen streams:
 
 
 
-- Leesbaar**: streams waarvan je gegevens kunt lezen (zoals het lezen van een bestand)
-- Writable**: streams waar je gegevens naar kunt schrijven (zoals naar een bestand)
-- Duplex**: streams die zowel leesbaar als beschrijfbaar zijn
-- Transformeer**: zoals duplex streams, maar ze kunnen de gegevens veranderen (transformeren) terwijl ze stromen
+- **Leesbaar**: streams waarvan je gegevens kunt lezen (zoals het lezen van een bestand)
+- **Writable**: streams waar je gegevens naar kunt schrijven (zoals naar een bestand)
+- **Duplex**: streams die zowel leesbaar als beschrijfbaar zijn
+- **Transformeer**: zoals duplex streams, maar ze kunnen de gegevens veranderen (transformeren) terwijl ze stromen
 
 
 ### Leesbare streams

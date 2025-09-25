@@ -18,11 +18,11 @@ Již máte:
 V tomto tutoriálu pro zkušené uživatele systému Git stručně shrneme klíčové kroky a základní pokyny pro nabídku nového tutoriálu Plan ₿ Network. Pokud se v systému Git a GitHub nevyznáte, doporučuji vám raději sledovat jeden z těchto dalších 2 podrobnějších tutoriálů, které vás provedou krok za krokem:
 
 
-- Středně pokročilý (GitHub Desktop)**:
+- **Středně pokročilý (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Začátečníci (webové rozhraní)**:
+- **Začátečníci (webové rozhraní)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,30 +31,30 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 Pro úpravu souborů Markdown:
 
 
-- Obsidian** (zdarma, ne open-source)
-- Mark Text** (zdarma, open-source)
-- Zettlr** (zdarma, open-source)
-- Typora** (Payware, ~15 EUR, není open-source)
+- **Obsidian** (zdarma, ne open-source)
+- **Mark Text** (zdarma, open-source)
+- **Zettlr** (zdarma, open-source)
+- **Typora** (Payware, ~15 EUR, není open-source)
 
 Pro Git:
 
 
-- Git** (zdarma, open-source)
-- GitHub Desktop** (zdarma, open-source)
-- Sourcetree** (zdarma, ne open-source)
+- **Git** (zdarma, open-source)
+- **GitHub Desktop** (zdarma, open-source)
+- **Sourcetree** (zdarma, ne open-source)
 
 Pro úpravu souborů YAML:
 
 
-- Visual Studio Code** (zdarma, open-source)
-- Sublime Text** (zdarma s omezeními, není open-source)
+- **Visual Studio Code** (zdarma, open-source)
+- **Sublime Text** (zdarma s omezeními, není open-source)
 
 Vytváření diagramů a vizualizací:
 
 
-- Canva** (zdarma s placenými možnostmi, ne open-source)
-- Inkscape** (zdarma, open-source)
-- Penpot** (zdarma, open-source)
+- **Canva** (zdarma s placenými možnostmi, ne open-source)
+- **Inkscape** (zdarma, open-source)
+- **Penpot** (zdarma, open-source)
 
 ## Pracovní postupy
 
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Standardy pro tvorbu obsahu
 
 
-- Formátování podporované platformou**:
+- **Formátování podporované platformou**:
     - Klasický Markdown: seznamy, odkazy, obrázky, citace, tučné písmo, kurzíva atd.
     - LaTeX (pouze blokově, ne inline): ohraničeno `$$`.
     - Řádkový kód: Syntaxe s jedním zpětným zaškrtnutím.
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Ilustrace a schémata**:
+- **Ilustrace a schémata**:
     - Všechny obrázky musí být ve formátu WebP. V případě potřeby použijte tento bezplatný nástroj pro jejich konverzi: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Pojmenujte vizuály pomocí 2 nebo 3 číslic (např. `001.webp`, `002.webp`).
     - Pro výukové programy pro mobilní nebo hardwarové peněženky používejte makety.
     - Používejte pouze vizuály vytvořené vlastními silami nebo bez nároku na honorář.
     - Ujistěte se, že jsou relevantní a kvalitní.
-- Grafická karta**:
+- **Grafická karta**:
     - Písmo: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Barvy Plán ₿ Síť:
         - Oranžová: `#FF5C00`

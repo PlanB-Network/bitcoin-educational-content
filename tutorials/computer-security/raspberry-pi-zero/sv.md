@@ -46,8 +46,8 @@ Jag ska säga dig mer: läs hela vägen igenom. Den föreslagna lösningen är b
 
 
 
-- Kostnad**: ca 15,00 vid tidpunkten för skrivandet av denna handledning (augusti 2025).
-- Kontinuitet i produktionen**: Raspberry garanterar produktion fram till januari 2030.
+- **Kostnad**: ca 15,00 vid tidpunkten för skrivandet av denna handledning (augusti 2025).
+- **Kontinuitet i produktionen**: Raspberry garanterar produktion fram till januari 2030.
 
 
 
@@ -76,7 +76,7 @@ När jag bestämde mig för att gå vidare hittade jag [det här kitet](https://
 
 
 
-- Kostnad**: 19.99 euro.
+- **Kostnad**: 19.99 euro.
 
 
 

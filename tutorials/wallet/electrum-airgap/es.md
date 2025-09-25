@@ -1,6 +1,6 @@
 ---
 name: Electrum Airgap
-description: Un primer paso hacia la seguridad, una Cold Wallet con Electrum
+description: Un primer paso hacia la seguridad, un cold wallet con Electrum
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ Para descargar Electrum, te recomiendo que sigas los primeros pasos de este tuto
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Después de la descarga, verifique siempre la versión antes de instalarla y proceda a la configuración de "Un servidor", como encontrará en la sección de ayuda, en "Empezar con un Wallet ficticio".
 

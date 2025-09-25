@@ -1336,13 +1336,13 @@ En el próximo capítulo de SCU202, echaremos un vistazo más de cerca al entorn
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-En un sistema GNU/Linux, el entorno de escritorio juega uno de los papeles más importantes en la experiencia de usuario. Es el Layer gráfico que permite la interacción con el sistema, basado en representaciones visuales familiares: ventanas, menús, iconos, paneles y aplicaciones preinstaladas.
+En un sistema GNU/Linux, el entorno de escritorio juega uno de los papeles más importantes en la experiencia de usuario. Es la capa gráfica que permite la interacción con el sistema, basado en representaciones visuales familiares: ventanas, menús, iconos, paneles y aplicaciones preinstaladas.
 
 En este capítulo, exploraré la estructura y el papel de un entorno de escritorio, sus componentes típicos, las principales familias disponibles, los criterios de selección y su integración en las distribuciones Linux más populares.
 
-### ¿Qué es un entorno de oficina?
+### ¿Qué es un entorno de escritorio?
 
-Un entorno de escritorio (o "*DE*" por *Desktop Environment*) se refiere al conjunto de programas que conforman el Interface gráfico completo de un sistema operativo. En Windows y macOS, se ofrece por defecto un único entorno de escritorio, integrado en el sistema, sin posibilidad de modificarlo por completo (sólo existen ciertos shells para modificar parcialmente el Interface). En cambio, los sistemas Linux son mucho más modulares y tratan el entorno de escritorio como un componente independiente que puede sustituirse libremente.
+Un entorno de escritorio (o "*DE*" por *Desktop Environment*) se refiere al conjunto de programas que conforman el interfaz gráfico completo de un sistema operativo. En Windows y macOS, se ofrece por defecto un único entorno de escritorio, integrado en el sistema, sin posibilidad de modificarlo por completo (sólo existen ciertos shells para modificar parcialmente el Interface). En cambio, los sistemas Linux son mucho más modulares y tratan el entorno de escritorio como un componente independiente que puede sustituirse libremente.
 
 En Linux, es importante distinguir claramente entre todas las capas: el núcleo (que gestiona la interacción con el hardware), el servidor de pantalla (que actúa como intermediario entre las aplicaciones, los controladores gráficos y el hardware a través del núcleo) y, por último, el propio entorno de escritorio, que se basa en esta infraestructura para ofrecer un Interface gráfico coherente al usuario. Esta distinción a veces puede ser menos clara, ya que muchas distribuciones de Linux vienen con un entorno de escritorio preinstalado que a veces incluye su propio compositor Wayland, que luego actúa como servidor de pantalla.
 
@@ -1352,11 +1352,11 @@ En Linux, es importante distinguir claramente entre todas las capas: el núcleo 
 
 
 
-### Componentes típicos de un entorno de oficina
+### Componentes típicos de un entorno de escritorio
 
 
 
-Un entorno de escritorio en una distribución Linux no es una única aplicación, sino un conjunto coherente de componentes de software que proporcionan un Interface gráfico completo para interactuar con el sistema operativo. Estos componentes se basan en varias capas de software, que se estructuran de la siguiente manera:
+Un entorno de escritorio en una distribución Linux no es una única aplicación, sino un conjunto coherente de componentes de software que proporcionan un interfaz gráfico completo para interactuar con el sistema operativo. Estos componentes se basan en varias capas de software, que se estructuran de la siguiente manera:
 
 
 
@@ -1374,7 +1374,7 @@ Un entorno de escritorio en una distribución Linux no es una única aplicación
 
 
 
-- Un centro de configuración**: se trata de un conjunto de herramientas que permiten al usuario modificar los parámetros del sistema sin pasar por la línea de comandos: aspecto, papel tapiz, gestión de usuarios, red, periféricos...
+- Un centro de configuración**: se trata de un conjunto de herramientas que permiten al usuario modificar los parámetros del sistema sin pasar por la línea de comandos: aspecto, fondo de escritorio, gestión de usuarios, red, periféricos...
 
 
 
@@ -1414,7 +1414,7 @@ Un entorno de escritorio en una distribución Linux no es una única aplicación
 
 
 
-Todos estos Elements se basan en un conjunto de herramientas gráficas, es decir, una biblioteca de software que proporciona los componentes básicos para crear interfaces gráficas: botones, menús, campos de texto... Los dos principales toolkits de Linux son:
+Todos estos elementos se basan en un conjunto de herramientas gráficas, es decir, una biblioteca de software que proporciona los componentes básicos para crear interfaces gráficas: botones, menús, campos de texto... Los dos principales toolkits de Linux son:
 
 
 
@@ -1440,7 +1440,7 @@ Todos estos Elements se basan en un conjunto de herramientas gráficas, es decir
 
 
 
-Lanzado en 1997 y publicado por primera vez en 1999, GNOME ("*GNU Network Object Model Environment*") se basa en la biblioteca GTK y pretende minimizar la fricción entre el usuario y Interface mediante una organización muy sencilla. Desde GNOME 3, su núcleo, GNOME Shell, ha abandonado la metáfora tradicional del escritorio cubierto de iconos: en lugar de hacer malabarismos con varios espacios de trabajo visibles simultáneamente, los usuarios cambian a un único selector de actividades donde gestionan ventanas, escritorios virtuales y lanzadores de aplicaciones.
+Lanzado en 1997 y publicado por primera vez en 1999, GNOME ("*GNU Network Object Model Environment*") se basa en la biblioteca GTK y pretende minimizar la fricción entre el usuario y la interfaz mediante una organización muy sencilla. Desde GNOME 3, su núcleo, GNOME Shell, ha abandonado la metáfora tradicional del escritorio cubierto de iconos: en lugar de hacer malabarismos con varios espacios de trabajo visibles simultáneamente, los usuarios cambian a un único selector de actividades donde gestionan ventanas, escritorios virtuales y lanzadores de aplicaciones.
 
 
 
@@ -1448,7 +1448,7 @@ Lanzado en 1997 y publicado por primera vez en 1999, GNOME ("*GNU Network Object
 
 
 
-Técnicamente, el compositor Mutter combina la gestión de ventanas y la pila Wayland, siendo compatible con X11 gracias a XWayland. Por defecto, el entorno proporciona Nautilus para la navegación de archivos, GNOME Terminal para la línea de comandos y un panel de configuración centralizado. Las opciones de personalización de GNOME son inherentemente limitadas.
+Técnicamente, el compositor Mutter combina la gestión de ventanas y la infraestructure de Wayland, siendo compatible con X11 gracias a XWayland. Por defecto, el entorno proporciona Nautilus para la navegación de archivos, GNOME Terminal para la línea de comandos y un panel de configuración centralizado. Las opciones de personalización de GNOME son inherentemente limitadas.
 
 
 
@@ -1464,7 +1464,7 @@ El proyecto KDE se inició en 1996 y la primera versión de su entorno de escrit
 
 
 
-KDE Plasma se basa en Qt 6, un framework C++ multiplataforma, y en KDE Frameworks, una colección modular de bibliotecas que facilitan el desarrollo de aplicaciones integradas. Su gestor de ventanas, KWin, también actúa como un completo compositor Wayland: maneja efectos visuales (desenfoque, transparencia, transiciones), división de pantalla con aceleración GPU y gestos multitáctiles a través de libinput.
+KDE Plasma se basa en Qt 6, un framework C++ multiplataforma, y en KDE Frameworks, una colección modular de bibliotecas que facilitan el desarrollo de aplicaciones integradas. Su gestor de ventanas, KWin, también actúa como compositor Wayland: maneja efectos visuales (desenfoque, transparencia, transiciones), división de pantalla con aceleración GPU y gestos multitáctiles a través de libinput.
 
 
 
@@ -1472,7 +1472,7 @@ KDE Plasma se basa en Qt 6, un framework C++ multiplataforma, y en KDE Framework
 
 
 
-Uno de los puntos distintivos de KDE Plasma es su centro de configuración unificado, que expone un Interface gráfico para prácticamente todos los ajustes: comportamiento del escritorio virtual, accesos directos globales, suavidad de las animaciones, gestión de energía, configuración de red, apariencia de los bordes de las ventanas... No es necesario editar manualmente archivos de configuración de texto, lo que facilita la personalización del entorno de escritorio.
+Uno de los puntos distintivos de KDE Plasma es su centro de configuración unificado, que expone una interfaz gráfica para prácticamente todos los ajustes: comportamiento del escritorio virtual, accesos directos globales, suavidad de las animaciones, gestión de energía, configuración de red, apariencia de los bordes de las ventanas... No es necesario editar manualmente archivos de configuración de texto, lo que facilita la personalización del entorno de escritorio.
 
 
 
@@ -1488,7 +1488,7 @@ Xfce es un entorno de escritorio libre y de código abierto creado en 1996 por O
 
 
 
-Xfce adopta un enfoque gráfico tradicional de Interface, con un escritorio basado en iconos, menú de aplicaciones, barra de tareas y paneles configurables. Todo el paquete está diseñado para consumir pocos recursos, tanto de RAM como de procesador. Esto lo convierte en una solución ideal para ordenadores antiguos y menos potentes, o simplemente para usuarios que buscan un sistema fluido, estable y con capacidad de respuesta.
+Xfce adopta un enfoque gráfico tradicional de interfaz, con un escritorio basado en iconos, menú de aplicaciones, barra de tareas y paneles configurables. Todo el paquete está diseñado para consumir pocos recursos, tanto de RAM como de procesador. Esto lo convierte en una solución ideal para ordenadores antiguos y menos potentes, o simplemente para usuarios que buscan un sistema fluido, estable y con capacidad de respuesta.
 
 
 
@@ -1500,7 +1500,7 @@ Xfce adopta un enfoque gráfico tradicional de Interface, con un escritorio basa
 
 
 
-LXQt es un entorno de escritorio ligero diseñado para ofrecer un Interface gráfico completo con un consumo mínimo de recursos del sistema. Es especialmente adecuado para máquinas antiguas o menos potentes.
+LXQt es un entorno de escritorio ligero diseñado para ofrecer un interfaz gráfico completo con un consumo mínimo de recursos del sistema. Es especialmente adecuado para máquinas antiguas o menos potentes.
 
 
 
@@ -1512,7 +1512,7 @@ LXQt es el resultado de la fusión en 2013 de dos proyectos independientes: LXDE
 
 
 
-#### Canela
+#### Cinnamon
 
 
 
@@ -1524,7 +1524,7 @@ Inicialmente, Cinnamon era un simple Fork de GNOME Shell, pero poco a poco se fu
 
 
 
-Su principal objetivo es ofrecer un Interface clásico e intuitivo, en la continuidad de GNOME 2 y Windows: un menú de aplicaciones en la parte inferior izquierda, una barra de tareas, una zona de notificaciones y un escritorio manejable. Este enfoque conservador es especialmente interesante para los usuarios noveles o los que vienen de Windows, que se orientarán rápidamente.
+Su principal objetivo es ofrecer una interfaz clásica e intuitiva, en la continuidad de GNOME 2 y Windows: un menú de aplicaciones en la parte inferior izquierda, una barra de tareas, una zona de notificaciones y un escritorio manejable. Este enfoque conservador es especialmente interesante para los usuarios noveles o los que vienen de Windows, que se orientarán rápidamente.
 
 
 
@@ -1536,7 +1536,7 @@ Su principal objetivo es ofrecer un Interface clásico e intuitivo, en la contin
 
 
 
-MATE es un Fork de GNOME 2, lanzado en 2011, tras la llegada de GNOME 3 y su radicalmente diferente Interface (GNOME Shell). MATE nació del deseo de preservar el enfoque clásico del entorno GNOME 2, a la vez que se mantenía y modernizaba.
+MATE es un Fork de GNOME 2, lanzado en 2011, tras la llegada de GNOME 3 y su interfaz radicalmente diferente (GNOME Shell). MATE nació del deseo de preservar el enfoque clásico del entorno GNOME 2, a la vez que se mantenía y modernizaba.
 
 
 
@@ -1544,7 +1544,7 @@ Técnicamente, MATE está basado en las librerías GTK 3 (después de haber usad
 
 
 
-Su Interface se basa en la lógica tradicional de los escritorios: uno o dos paneles (menú, áreas de inicio rápido, reloj, áreas de notificación), un escritorio con iconos y una organización de ventanas flotantes.
+Su interfaz se basa en la lógica tradicional de los escritorios: uno o dos paneles (menú, áreas de inicio rápido, reloj, áreas de notificación), un escritorio con iconos y una organización de ventanas flotantes.
 
 
 
@@ -1564,12 +1564,12 @@ Elegir el entorno de escritorio GNU/Linux no es trivial: determina la experienci
 
 
 
-Cada entorno de escritorio tiene una huella de recursos diferente. Esto se mide en términos de consumo de RAM, uso de CPU y tiempo de arranque:
+Cada entorno de escritorio tiene una huella de consumo de recursos diferente. Esto se mide en términos de consumo de RAM, uso de CPU y tiempo de arranque:
 
 
 
 
-- En máquinas más antiguas o menos potentes (CPU de un solo núcleo, menos de 2 GB de RAM...), recomiendo entornos muy ligeros como LXQt, LXDE o Xfce. Ofrecen un Interface gráfico completo, pero sin efectos visuales ni dependencias pesadas;
+- En máquinas más antiguas o menos potentes (CPU de un solo núcleo, menos de 2 GB de RAM...), recomiendo entornos muy ligeros como LXQt, LXDE o Xfce. Ofrecen una interfaz gráfica completa, pero sin efectos visuales ni dependencias pesadas;
 - Los entornos intermedios, como MATE o Cinnamon, requieren un hardware ligeramente más reciente (se recomiendan de 4 a 6 GB de RAM), pero siguen siendo razonables;
 - Los entornos modernos y ricos como GNOME o KDE Plasma son muy completos, pero requieren más recursos, especialmente si se activan los efectos gráficos. Son adecuados para máquinas recientes.
 
@@ -1579,12 +1579,12 @@ Cada entorno de escritorio tiene una huella de recursos diferente. Esto se mide 
 
 
 
-Cada ET ofrece una filosofía Interface distinta:
+Cada ET ofrece una filosofía de interfaz distinta:
 
 
 
 
-- GNOME favorece la sencillez de uso, con un Interface racionalizado, sin escritorio ni iconos clásicos, y un flujo de trabajo orientado a la productividad que puede resultar desconcertante para los principiantes
+- GNOME favorece la sencillez de uso, con un interfaz simple, sin escritorio ni iconos clásicos, y un flujo de trabajo orientado a la productividad que puede resultar desconcertante para los principiantes
 - KDE Plasma es extremadamente personalizable, hasta el más mínimo detalle. Presenta un aspecto moderno, animaciones y un Interface por defecto más parecido al de Windows
 - Cinnamon y MATE ofrecen una experiencia clásica: menú inferior izquierdo, barra de tareas, iconos de escritorio. Cinnamon es visualmente más moderno, MATE más ligero
 - Xfce y LXQt apuestan por la sencillez y el rendimiento, con una estética más sobria pero configurable
@@ -1602,7 +1602,7 @@ El uso principal del ordenador también influirá en su elección:
 
 - Para uso ofimático y multimedia, todos los entornos son adecuados
 - Para una estación de trabajo de desarrollo, las preferencias varían: algunos desarrolladores aprecian la sobriedad de Xfce, otros prefieren las herramientas de integración que ofrece KDE
-- Para aplicaciones integradas o de servidor con un Interface mínimo, o en máquinas muy antiguas, LXQt, LXDE o Xfce son a menudo las únicas opciones viables
+- Para aplicaciones integradas o de servidor con una interfaz mínima, o en máquinas muy antiguas, LXQt, LXDE o Xfce son a menudo las únicas opciones viables
 
 
 
@@ -1610,11 +1610,11 @@ El uso principal del ordenador también influirá en su elección:
 
 
 
-Cada distribución GNU/Linux favorece un entorno de escritorio por defecto, que a menudo está mejor integrado, mejor probado, viene con herramientas dedicadas y se instala por defecto. Siempre es posible instalar otro entorno de escritorio, pero esto puede conducir a la duplicación de software, conflictos de configuración, o una experiencia de usuario menos consistente. Por lo tanto, tu elección de entorno de escritorio puede estar influenciada por la de tu distribución de Linux o, a la inversa, tu preferencia por un entorno de escritorio específico puede guiar tu elección de distribución.
+Cada distribución GNU/Linux tiene un entorno de escritorio por defecto, que a menudo está mejor integrado, mejor probado, viene con herramientas dedicadas y se instala por defecto. Siempre es posible instalar otro entorno de escritorio, pero esto puede conducir a la duplicación de software, conflictos de configuración, o una experiencia de usuario menos consistente. Por lo tanto, tu elección de entorno de escritorio puede estar influenciada por la de tu distribución de Linux o, a la inversa, tu preferencia por un entorno de escritorio específico puede guiar tu elección de distribución.
 
 
 
-Tenga en cuenta que algunas distribuciones, ya sean mantenidas por el equipo del proyecto o por colaboradores externos, incluyen un entorno de escritorio diferente del predeterminado (por ejemplo, Kubuntu, Lubuntu, Xubuntu...).
+Ten en cuenta que algunas distribuciones, ya sean mantenidas por el equipo del proyecto o por colaboradores externos, incluyen un entorno de escritorio diferente del predeterminado (por ejemplo, Kubuntu, Lubuntu, Xubuntu...).
 
 
 

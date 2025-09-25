@@ -1023,7 +1023,6 @@ Od samog početka, on odbacuje još uvek prisutan argument da javna potrošnja f
 Štaviše, država je rasipnija od pojedinaca. Zaista, podseća nas, država ne poseduje ništa; ne proizvodi bogatstvo. Javna potrošnja su često izvor rasipanja jer ogromne sume konfiskovane od pojedinaca izmiču odgovornosti njihovih vlasnika i umesto njih ih troše birokrate, podložne pritiscima interesnih grupa.
 
 
-![image](assets/en/085.webp)
 
 
 Naravno, kao plaćanje za ekvivalentnu javnu uslugu primljenu zauzvrat, oporezivanje je potpuno opravdano. Ali u Francuskoj, država je dodelila nekoliko uloga porezima.

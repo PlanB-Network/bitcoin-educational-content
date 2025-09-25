@@ -1024,7 +1024,6 @@ En başından itibaren, vergilerle finanse edilen kamu harcamalarının istihdam
 Dahası, devlet bireylerden daha savurgandır. Gerçekten de bize devletin hiçbir şeye sahip olmadığını, hiçbir zenginlik üretmediğini hatırlatıyor. Kamu harcamaları genellikle bir israf kaynağıdır çünkü bireylerden el konulan muazzam meblağlar sahiplerinin sorumluluğundan kaçar ve onların yerine baskı gruplarına tabi bürokratlar tarafından harcanır.
 
 
-![image](assets/en/085.webp)
 
 
 Elbette, Exchange'te alınan eşdeğer bir kamu hizmeti için ödeme olarak vergilendirme tamamen savunulabilir. Ancak Fransa'da devlet vergilere çeşitli roller biçmiştir.

@@ -1028,7 +1028,6 @@ Gleich zu Beginn widerlegt er das immer noch weit verbreitete Argument, dass dur
 Außerdem ist der Staat verschwenderischer als der Einzelne. Er erinnert uns daran, dass der Staat nichts besitzt und keinen Reichtum produziert. Öffentliche Ausgaben sind oft eine Quelle der Verschwendung, weil die immensen Summen, die dem Einzelnen entzogen werden, der Verantwortung ihrer Eigentümer entgehen und an ihrer Stelle von Bürokraten ausgegeben werden, die Interessengruppen unterliegen.
 
 
-![image](assets/en/085.webp)
 
 
 Natürlich ist die Besteuerung als Gegenleistung für eine gleichwertige öffentliche Dienstleistung, die in Exchange erbracht wird, durchaus vertretbar. Aber in Frankreich hat der Staat den Steuern mehrere Aufgaben zugewiesen.

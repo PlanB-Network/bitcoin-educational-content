@@ -1024,7 +1024,6 @@ Vanaf het begin weerlegt hij het nog steeds gangbare argument dat overheidsuitga
 Bovendien is de staat verkwistender dan individuen. Sterker nog, hij herinnert ons eraan dat de staat niets bezit; hij produceert geen rijkdom. Overheidsuitgaven zijn vaak een bron van verspilling omdat de immense bedragen die van individuen worden geconfisqueerd ontsnappen aan de verantwoordelijkheid van hun eigenaars en in hun plaats worden uitgegeven door bureaucraten, onderworpen aan pressiegroepen.
 
 
-![image](assets/en/085.webp)
 
 
 Als betaling voor een gelijkwaardige openbare dienst ontvangen in Exchange is belasting natuurlijk volledig verdedigbaar. Maar in Frankrijk heeft de staat verschillende rollen toegekend aan belastingen.

@@ -1028,7 +1028,6 @@ De entrada, refuta el argumento, aún muy extendido, de que el gasto público fi
 Además, el Estado es más derrochador que los individuos. En efecto, recuerda, el Estado no posee nada, no produce riqueza. El gasto público es a menudo una fuente de despilfarro porque las inmensas sumas confiscadas a los particulares escapan a la responsabilidad de sus propietarios y son gastadas en su lugar por burócratas, sometidos a grupos de presión.
 
 
-![image](assets/en/085.webp)
 
 
 Por supuesto, como pago por un servicio público equivalente recibido en Exchange, los impuestos son totalmente defendibles. Pero en Francia, el Estado ha asignado varias funciones a los impuestos.

@@ -704,7 +704,6 @@ Fin dall'inizio, egli confuta l'argomento ancora prevalente secondo cui la spesa
 
 Inoltre, lo stato è più sprecone degli individui. Infatti, ci ricorda, lo stato non possiede nulla; non produce ricchezza. La spesa pubblica è spesso fonte di spreco perché le immense somme confiscate dagli individui sfuggono alla responsabilità dei loro proprietari e vengono spese al loro posto da burocrati, soggetti a gruppi di pressione.
 
-![image](assets/en/085.webp)
 
 Naturalmente, come pagamento per un servizio pubblico equivalente ricevuto in cambio, la tassazione è completamente difendibile. Ma in Francia, allo stato sono stati assegnati diversi ruoli alle tasse.
 

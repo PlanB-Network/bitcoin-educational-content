@@ -1024,7 +1024,6 @@ Kuva mu ntango, arahakana iciyumviro kikiriho c’uko amahera Leta ikoresha ater
 Ikindi kandi, Leta irasesagura kuruta abantu ku giti cabo. Nkako, aratwibutsa, Leta ntaco ifise; nta butunzi buvamwo. Amafaranga Leta ikoresha akenshi ni isoko y’ubusa kubera ko amahera menshi cane afatwa ku bantu ku giti cabo ahunga inshingano za ba nyen’ayo mahera, agakoreshwa mu kibanza cayo n’abanyabiro, bishingiye ku migwi y’abakosha.
 
 
-![image](assets/en/085.webp)
 
 
 Ego ni ko, nk’ukwishurwa kw’igikorwa ca Leta kingana n’ico umuntu aronka mu Exchange, ugutanga imisoro ni ikintu co gukingira rwose. Ariko mu Bufaransa, Leta yarahaye imisoro uruhara rwinshi.

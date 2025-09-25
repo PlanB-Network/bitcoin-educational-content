@@ -1028,7 +1028,6 @@ Hän kumoaa heti aluksi sen edelleen vallalla olevan väitteen, jonka mukaan ver
 Lisäksi valtio on tuhlailevampi kuin yksityishenkilöt. Hän muistuttaa, että valtio ei itse asiassa omista mitään, eikä se tuota vaurautta. Julkiset menot ovat usein tuhlauksen lähde, koska yksityishenkilöiltä takavarikoidut valtavat summat karkaavat omistajiensa vastuulta ja niitä käyttävät heidän sijastaan byrokraatit, jotka ovat painostusryhmien alaisia.
 
 
-![image](assets/en/085.webp)
 
 
 Tietenkin verotus on täysin perusteltua, jos se on maksu vastaavasta julkisesta palvelusta, joka on saatu Exchange:ssä. Ranskassa valtio on kuitenkin antanut veroille useita tehtäviä.

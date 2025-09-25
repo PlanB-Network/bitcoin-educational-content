@@ -682,7 +682,6 @@ Hned na začátku odmítá stále rozšířený argument, že veřejné výdaje 
 
 Navíc stát je plýtvavější než jednotlivci. Skutečně, připomíná nám, stát nic nevlastní; nevytváří žádné bohatství. Veřejné výdaje jsou často zdrojem plýtvání, protože obrovské sumy zabavené jednotlivcům unikají odpovědnosti jejich majitelů a jsou utraceny místo nich byrokraty, kteří jsou pod tlakem zájmových skupin.
 
-![image](assets/en/085.webp)
 
 Samozřejmě, jako platba za ekvivalentní veřejnou službu obdrženou výměnou, je zdanění zcela obhajitelné. Ale ve Francii stát přiřadil daním několik rolí.
 

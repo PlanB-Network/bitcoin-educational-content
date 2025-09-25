@@ -1024,7 +1024,6 @@ Od samego początku obala on wciąż dominujący argument, że wydatki publiczne
 Co więcej, państwo jest bardziej rozrzutne niż jednostki. W istocie, przypomina nam, państwo nie jest właścicielem niczego; nie wytwarza bogactwa. Wydatki publiczne są często źródłem marnotrawstwa, ponieważ ogromne sumy skonfiskowane jednostkom wymykają się odpowiedzialności ich właścicieli i są wydawane w ich zastępstwie przez biurokratów, podlegających grupom nacisku.
 
 
-![image](assets/en/085.webp)
 
 
 Oczywiście, jako zapłata za równoważną usługę publiczną otrzymaną w Exchange, opodatkowanie jest całkowicie do obrony. Ale we Francji państwo przypisało podatkom kilka ról.

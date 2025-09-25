@@ -1024,7 +1024,6 @@ Tangu awali, anakanusha hoja ambayo bado imeenea kwamba matumizi ya umma yanayof
 Zaidi ya hayo, serikali inafuja zaidi kuliko watu binafsi. Hakika, anatukumbusha, serikali haimiliki kitu; haizai mali. Matumizi ya umma mara nyingi ni chanzo cha upotevu kwa sababu pesa nyingi zinazochukuliwa kutoka kwa watu binafsi huepuka wajibu wa wamiliki wao na hutumiwa badala yao na watendaji wa serikali, chini ya makundi ya shinikizo.
 
 
-![image](assets/en/085.webp)
 
 
 Bila shaka, kama malipo ya huduma sawa ya umma iliyopokelewa katika Ubadilishanaji, ushuru unaweza kulindwa kabisa. Lakini huko Ufaransa, serikali imetoa majukumu kadhaa kwa ushuru.

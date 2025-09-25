@@ -726,7 +726,6 @@ Dès lors, il réfute l’argument, toujours actuel, qui veut que les dépenses 
 
 Or l’État est plus dispendieux que les particuliers. En effet, rappelle-t-il, l’État n’a rien, il ne produit aucune richesse. La dépense publique est donc souvent une source de gaspillage parce que les sommes immenses qui sont confisquées aux individus, échappent à la responsabilité de leurs propriétaires et sont dépensées à leur place par des bureaucrates, soumis à des groupes de pression.
 
-![image](assets/en/085.webp)
 
 Bien sûr, comme paiement d’un service public équivalent reçu en échange, l’impôt est tout à fait défendable. Mais en France l’État a assigné plusieurs rôles à l’impôt.
 

@@ -693,7 +693,6 @@ Dari awal, ia membantah argumen yang masih berlaku bahwa pengeluaran publik yang
 
 Lebih lanjut, negara lebih boros daripada individu. Memang, ia mengingatkan kita, negara tidak memiliki apa-apa; itu tidak menghasilkan kekayaan. Pengeluaran publik seringkali merupakan sumber pemborosan karena jumlah besar yang disita dari individu lepas dari tanggung jawab pemiliknya dan dihabiskan atas nama mereka oleh birokrat, yang tunduk pada kelompok tekanan.
 
-![image](assets/en/085.webp)
 
 Tentu saja, sebagai pembayaran untuk layanan publik yang setara yang diterima sebagai tukarannya, perpajakan sepenuhnya dapat dibela. Namun di Prancis, negara telah menetapkan beberapa peran untuk pajak.
 

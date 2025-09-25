@@ -1028,7 +1028,6 @@ Han tilbakeviser fra første stund det fortsatt utbredte argumentet om at offent
 Dessuten er staten mer sløsende enn enkeltmennesker. Han minner oss om at staten ikke eier noe, den produserer ingen rikdom. Offentlige utgifter er ofte en kilde til sløsing fordi de enorme summene som konfiskeres fra enkeltpersoner, unndrar seg eiernes ansvar og brukes i stedet av byråkrater, underlagt pressgrupper.
 
 
-![image](assets/en/085.webp)
 
 
 Som betaling for en tilsvarende offentlig tjeneste mottatt i Exchange er beskatning selvsagt fullt ut forsvarlig. Men i Frankrike har staten tildelt skattene flere roller.

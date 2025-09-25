@@ -1028,7 +1028,6 @@ Desde o início, refuta o argumento, ainda prevalecente, de que a despesa públi
 Além disso, o Estado é mais esbanjador do que os indivíduos. De facto, recorda, o Estado não possui nada, não produz riqueza. A despesa pública é muitas vezes uma fonte de desperdício, porque as somas imensas confiscadas aos indivíduos escapam à responsabilidade dos seus proprietários e são gastas em seu lugar por burocratas, sujeitos a grupos de pressão.
 
 
-![image](assets/en/085.webp)
 
 
 É claro que, como pagamento de um serviço público equivalente recebido em Exchange, a tributação é perfeitamente defensável. Mas em França, o Estado atribuiu várias funções aos impostos.

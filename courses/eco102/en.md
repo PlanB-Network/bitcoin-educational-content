@@ -698,7 +698,6 @@ From the outset, he refutes the still prevalent argument that public spending fu
 
 Moreover, the state is more wasteful than individuals. Indeed, he reminds us, the state owns nothing; it produces no wealth. Public spending is often a source of waste because the immense sums confiscated from individuals escape the responsibility of their owners and are spent in their stead by bureaucrats, subject to pressure groups.
 
-![image](assets/en/085.webp)
 
 Of course, as payment for an equivalent public service received in exchange, taxation is entirely defensible. But in France, the state has assigned several roles to taxes.
 

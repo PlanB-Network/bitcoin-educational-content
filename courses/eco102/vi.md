@@ -1028,7 +1028,6 @@ Ngay từ đầu, ông đã bác bỏ lập luận vẫn còn phổ biến rằn
 Hơn nữa, nhà nước còn lãng phí hơn cả cá nhân. Thực vậy, ông nhắc nhở chúng ta, nhà nước không sở hữu gì cả; nó không tạo ra của cải. Chi tiêu công thường là một nguồn lãng phí bởi vì những khoản tiền khổng lồ tịch thu từ cá nhân nằm ngoài trách nhiệm của chủ sở hữu và được các quan chức chi tiêu thay thế, chịu sự chi phối của các nhóm lợi ích.
 
 
-![image](assets/en/085.webp)
 
 
 Tất nhiên, với tư cách là khoản thanh toán cho một dịch vụ công tương đương được nhận trong Exchange, việc đánh thuế hoàn toàn có thể chấp nhận được. Nhưng ở Pháp, nhà nước đã giao cho thuế nhiều vai trò.

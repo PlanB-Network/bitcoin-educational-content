@@ -1028,7 +1028,6 @@ Ta lükkab kohe alguses ümber endiselt levinud väite, et maksudest rahastatava
 Lisaks sellele on riik raiskavam kui üksikisikud. Ta tuletab meile meelde, et riik ei oma midagi; ta ei tooda rikkust. Riiklikud kulutused on sageli raiskamise allikas, sest üksikisikutelt konfiskeeritud tohutud summad pääsevad omanike vastutusest ja neid kulutavad nende asemel bürokraadid, kes alluvad survegruppidele.
 
 
-![image](assets/en/085.webp)
 
 
 Loomulikult on maksustamine kui tasu samaväärse avaliku teenuse eest, mis on saadud Exchange-s, täiesti õigustatud. Kuid Prantsusmaal on riik määranud maksudele mitu rolli.

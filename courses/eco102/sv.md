@@ -1024,7 +1024,6 @@ Redan från början tillbakavisar han det fortfarande förhärskande argumentet 
 Dessutom är staten mer slösaktig än individer. Han påminner oss om att staten inte äger någonting och att den inte producerar någon rikedom. Offentliga utgifter är ofta en källa till slöseri eftersom de enorma summor som konfiskeras från enskilda undgår ägarnas ansvar och spenderas i deras ställe av byråkrater som är underkastade påtryckningsgrupper.
 
 
-![image](assets/en/085.webp)
 
 
 Som betalning för en motsvarande offentlig tjänst som erhålls i Exchange är beskattning naturligtvis helt försvarbar. Men i Frankrike har staten tilldelat skatterna flera roller.

@@ -71,7 +71,27 @@ Jadi, seorang jenius yang tidak diakui namun juga menjadi cahaya bagi zaman kita
 ![image](assets/en/004.webp)
 
 Dia juga seorang filsuf dan pemikir tentang masyarakat, tatanan sosial, keadilan, hukum, pemikir tentang hak. Dan dalam hal ini, kita dapat mengatakan bahwa Bastiat adalah cahaya bagi zaman kita. Dan saya ingin menyimpulkan dengan itu. Dia adalah seseorang yang mencoba memahami cara kerja pasar politik. Tentu saja, dia juga seorang pembela ekonomi pasar, bagi siapa pada akhirnya ekonomi pasar adalah cara terbaik untuk menciptakan kekayaan. Tapi selain itu, dan inilah di mana dia tidak diakui, dia memahami mekanisme pasar politik.
+
+![image](assets/en/005.webp)
+
+
 Ketika dia terpilih sebagai seorang deputi, itu adalah selama Republik Kedua, dan dari titik itu ke depan, itu adalah rakyat yang membuat undang-undang. Pada waktu itu, Bastiat menyaksikan semacam inflasi undang-undang ke segala arah, termasuk penciptaan layanan publik, hak-hak sosial, pajak, dll.
+
+![image](assets/en/006.webp)
+
+
+---
+
+>**BENGKEL NASIONAL**  
+>**AGENDA.**  
+>Mengingat para pekerja yang terdaftar di Bengkel Nasional telah dengan adil meminta agar pekerjaan yang tersedia dibagikan di antara mereka secara seimbang dan seadil mungkin;  
+>Mengingat bahwa pekerjaan hanya ada untuk 16.000 orang, sementara jumlah pekerja terdaftar melebihi 50.000;  
+>Disepakati bahwa, sampai ada pemberitahuan lebih lanjut dan sambil menunggu pengaturan yang lebih baik, setiap kelompok akan bekerja dua hari per minggu mulai Senin tanggal 17.  
+>_Komisioner Republik, Direktur Bengkel Nasional,_  
+>**Émile THOMAS.**
+
+---
+
 
 Dan dia menyadari bahwa pada dasarnya, tidak ada yang benar-benar berubah. Orang-orang mendisposisikan properti orang lain melalui pemungutan suara dan hukum, apa yang dia sebut sebagai penjarahan legal. Fenomena penjarahan legal ini berada di pusat karyanya, terutama dalam teks pendek yang dia tulis menjelang akhir hidupnya, "The Law," di mana dia membandingkan penjarahan legal dengan properti, hak atas properti. Dia menunjukkan bahwa, pada dasarnya, solusi sebenarnya untuk masalah sosial adalah kebebasan, yaitu, properti, kontrol atas diri sendiri dan buah dari pekerjaan seseorang.
 
@@ -143,6 +163,10 @@ Ekonomi politik, sebagaimana dipahami oleh Adam Smith dan J.-B. Say, terangkum d
 _(Say, Destutt de Tracy, Quesnay, de Gournay)_
 
 Adam Smith tertarik pada kemakmuran, bukan sebagai tujuan akhir tetapi sebagai sarana untuk elevasi moral individu. Baginya, kekayaan bangsa terdiri dari kekayaan individu-individu. Jika Anda menginginkan sebuah bangsa yang makmur, kata Adam Smith, biarkan individu bertindak secara bebas. Dan pasar bekerja karena memungkinkan setiap orang untuk mengekspresikan preferensi mereka dan mengejar kepentingan mereka.
+
+![image](assets/en/016.webp)
+
+
 Kebaruan besar dari para ekonom modern di awal abad ke-18 adalah bahwa mereka tertarik pada setiap individu dengan keinginan untuk mengembalikan kapasitas mereka untuk bertindak sambil memikirkan cara untuk menahan gairah dan konflik. Manusia secara alami ingin memperbaiki nasibnya dan nasib orang-orang terkasih melalui pertukaran barang dan jasa.
 Apa yang ditunjukkan oleh Adam Smith adalah bahwa seseorang hanya dapat melayani kepentingan sendiri dengan melayani kepentingan orang lain.
 
@@ -220,7 +244,12 @@ Ini mendominasi periode revolusioner dan dipimpin oleh Jean-Baptiste Say. Destut
 Tujuan dari Traktatnya tentang Ekonomi Politik adalah untuk "memeriksa cara terbaik untuk memanfaatkan semua kemampuan fisik dan intelektual kita untuk memenuhi berbagai kebutuhan kita." Ideanya adalah bahwa perdagangan adalah sumber dari semua kebaikan manusia; itu adalah kekuatan yang memperadabkan, merasionalisasi, dan memperdamaikan dunia. Maksim besar ekonomi politik dirumuskannya sebagai berikut: "perdagangan adalah keseluruhan masyarakat, sama seperti kerja adalah keseluruhan kekayaan." Memang, ia melihat masyarakat sebagai "serangkaian pertukaran yang berkelanjutan di mana kedua kontraktor selalu mendapat keuntungan." Oleh karena itu, pasar adalah kebalikan dari pemangsaan. Ini memperkaya beberapa tanpa memiskinkan yang lain. Seperti yang akan dikatakan nanti, ini bukan "permainan jumlah nol," tetapi permainan jumlah positif.
 
 Penulis kita tidak sampai pada mendefinisikan ekonomi politik sebagai ilmu pertukaran. Namun, penalaran yang sama akan diambil dan dilanjutkan oleh Bastiat. Menjual adalah pertukaran objek, menyewa adalah pertukaran jasa, dan meminjam hanyalah pertukaran yang ditunda. Ekonomi politik dengan demikian menjadi bagi Bastiat "teori pertukaran."
+
+![image](assets/en/027.webp)
+
 Menurut Destutt de Tracy, hak milik secara inheren berasal dari sifat kita, dari kemampuan kita untuk menginginkan. Jika manusia tidak menginginkan apa-apa, ia tidak akan memiliki hak atau kewajiban. Untuk memenuhi kebutuhannya dan melaksanakan kewajibannya, manusia harus menggunakan sarana yang ia peroleh melalui kerjanya. Dan bentuk organisasi sosial yang sesuai dengan tujuan ini adalah hak milik pribadi. Itulah mengapa satu-satunya objek pemerintah adalah untuk melindungi hak milik dan memungkinkan pertukaran yang damai.
+
+![image](assets/en/028.webp)
 
 Baginya, pajak terbaik adalah yang paling moderat, dan ia berharap pengeluaran negara sebatas mungkin. Ia mengutuk penjarahan kekayaan masyarakat oleh pemerintah dalam bentuk utang publik, pajak, monopoli perbankan, dan pengeluaran. Sekali lagi, hukum hanya harus berfungsi untuk melindungi kebebasan; seharusnya tidak pernah merampok.
 
@@ -236,17 +265,28 @@ Kesimpulannya, Ideolog memiliki intuisi yang mendalam, yaitu bahwa produksi dan 
 
 Sejarah semua peradaban adalah cerita tentang perjuangan antara kelas perampok dan kelas produktif. Ini adalah keyakinan dari dua penulis yang akan kita bahas. Mereka adalah pencetus teori liberal tentang perjuangan kelas yang menginspirasi Frédéric Bastiat sebanyak Karl Marx, meskipun yang terakhir menyimpangkannya.
 
+![image](assets/en/029.webp)
+
 Untuk Comte dan Dunoyer, perampokan, yang berarti semua bentuk kekerasan yang dilakukan dalam masyarakat oleh yang kuat terhadap yang lemah, adalah kunci utama untuk memahami sejarah manusia. Ini adalah asal dari semua fenomena eksploitasi satu kelas oleh kelas lainnya.
+
+![image](assets/en/030.webp)
 
 Jika Frédéric Bastiat berhutang pendidikan ekonominya kepada Smith, Destutt de Tracy, dan Say, ia berhutang pendidikan politiknya kepada pemimpin jurnal Le Censeur, Charles Comte dan Charles Dunoyer.
 
 Ulasan ini (1814-1819), yang berganti nama menjadi Le Censeur européen setelah Seratus Hari, menyebarkan ide-ide liberal yang berjaya pada tahun 1830 dengan pemberontakan Tiga Hari yang Mulia dan naiknya kekuasaan Duke of Orléans, Louis-Philippe I.
 
+![image](assets/en/031.webp)
+
+![image](assets/en/032.webp)
+
 Charles Comte, sepupu dari Auguste Comte dan menantu dari Say, adalah pendiri ulasan tersebut. Ia segera bergabung dengan Charles Dunoyer, seorang yuris seperti dirinya, dan kemudian oleh seorang sejarawan muda, Augustin Thierry, mantan sekretaris Saint Simon. Moto mereka di halaman depan setiap edisi ulasan adalah "Damai dan Kebebasan".
 
 Apa tujuan dari ulasan tersebut? Judulnya sudah menjelaskan: untuk mengkritik pemerintah. Untuk melawan sewenang-wenang kekuasaan dengan mencerahkan opini publik, untuk membela kebebasan pers.
 
+![image](assets/en/033.webp)
+
 _(Benjamin Constant)_
+
 Mereka mengadopsi dari Benjamin Constant perbedaan antara Orang Kuno dan Orang Modern, yang ditandai di satu sisi oleh perang, dan di sisi lain oleh perdagangan dan industri. Namun, mereka menambahkan dengan Say bahwa ekonomi politik memberikan penjelasan terbaik tentang fenomena sosial. Mereka khususnya memahami bahwa bangsa-bangsa mencapai perdamaian dan kemakmuran ketika hak milik dan perdagangan bebas dihormati. Mulai sekarang, bagi mereka, ekonomi politik adalah dasar sejati dan satu-satunya dari politik. Untuk filsafat, yang membatasi dirinya pada kritik abstrak terhadap bentuk-bentuk pemerintahan, harus digantikan dengan teori yang didasarkan pada pengetahuan tentang kepentingan ekonomi. Ekonomi politik, dengan menunjukkan bagaimana bangsa-bangsa makmur dan menurun, telah meletakkan dasar sejati dari politik.
 
 > Dunoyer
@@ -289,11 +329,19 @@ Pertarungan ekonomi untuk perdagangan bebas ini akan menyita seluruh Inggris hin
 Kampanye agitasi untuk perdagangan bebas ini, di seluruh kerajaan, dengan puluhan ribu anggota, yang membuat pena Bastiat terbakar dan secara radikal dan definitif mengubah jalannya hidupnya.
 
 Liga dapat dibandingkan dengan sebuah universitas keliling, mendidik secara ekonomi mereka yang menghadiri pertemuannya di seluruh negeri—rakyat jelata, industrialis, petani, dan peternak, semua di bawah naungan Liga dan yang kepentingannya tertindas oleh undang-undang biji-bijian. Richard Cobden adalah jiwa dari gerakan ini dan seorang agitator yang luar biasa.
+
+![image](assets/en/040.webp)
+
+
 Seorang pembicara yang menarik dan tangguh, dia memiliki hadiah luar biasa untuk menciptakan frasa yang mencolok dan ringkas, jauh dari wacana abstrak para ekonom.
 
 > Apa itu monopoli roti? dia berseru. Itu adalah kelangkaan roti. Anda terkejut mengetahui bahwa legislasi negara ini, dalam hal ini, tidak memiliki tujuan lain selain untuk menghasilkan kelangkaan roti sebanyak mungkin. Dan namun itulah adanya. Legislasi hanya dapat mencapai tujuannya melalui kelangkaan.
 
+![image](assets/en/041.webp)
+
 Pada tahun 1845, Bastiat menerbitkan di Paris bukunya Cobden dan Liga, dengan terjemahannya disertai komentar. Buku ini dibuka dengan pengantar tentang situasi ekonomi Inggris, tentang sejarah asal mula dan kemajuan Liga. Sejak 1815, proteksionisme sangat berkembang di Inggris. Ada, khususnya, undang-undang yang membatasi impor gandum yang memiliki konsekuensi sangat keras bagi rakyat. Memang, gandum diperlukan untuk membuat roti, komoditas vital saat itu. Selain itu, sistem ini mendukung aristokrasi, yaitu pemilik tanah besar, yang mendapatkan sewa darinya.
+
+![image](assets/en/042.webp)
 
 > Yang koeksistensi di Inggris, tulis Bastiat, adalah sejumlah kecil perampok dan sejumlah besar yang dirampok, dan seseorang tidak perlu menjadi ekonom hebat untuk menyimpulkan kemakmuran yang pertama dan kesengsaraan yang terakhir.
 
@@ -305,7 +353,9 @@ Tujuan Liga adalah untuk memobilisasi opini publik untuk menekan parlemen agar m
 - Membuat pertanian dan industri lebih efisien melalui kompetisi
 - Mendorong perdamaian antar bangsa
 
+![image](assets/en/043.webp)
 _(Jeremy Bentham)_
+
 Seorang pengikut utilitarianisme Bentham, keyakinan Cobden adalah bahwa kebebasan tenaga kerja dan perdagangan secara langsung melayani kepentingan massa yang paling banyak, paling miskin, dan paling menderita dalam masyarakat. Sebaliknya, bea cukai sebagai instrumen larangan dan hak istimewa yang sewenang-wenang hanya dapat menguntungkan industri-industri tertentu yang paling kuat.
 Dalam pemilihan umum tahun 1841, lima anggota liga, termasuk Cobden, terpilih menjadi anggota parlemen. Pada tanggal 26 Mei 1846, perdagangan bebas unilateral menjadi hukum kerajaan. Sejak saat itu, Kerajaan Inggris akan mengalami periode kebebasan dan kemakmuran yang cemerlang.
 Yang menarik adalah Bastiat mengambil sebagian dari metode mereka; ia menyerap bahasa mereka dan mentransposisikannya ke dalam konteks Prancis. Buku tentang Cobden dan Liga dengan cepat menjadi sukses, dan Bastiat membuat entri sensasional ke dalam dunia ekonomi. Ia mendirikan sebuah asosiasi di Bordeaux untuk mendukung perdagangan bebas dan kemudian memindahkannya ke Paris. Ia ditawari kepemimpinan Journal des Économistes. Gerakan itu lahir, dan terus berlanjut hingga 1848.
@@ -365,6 +415,8 @@ Namun, juga terserah pada hukum untuk membuat properti ada. Menurut Rousseau, pr
 Oleh karena itu, properti alami adalah sumber kejahatan. Dan Marx, pembaca besar Rousseau, akan mengingat ini. Bagaimana cara memerangi kejahatan ini? Melalui kontrak sosial, jawab Rousseau. Memang, masyarakat yang baik adalah yang merupakan hasil dari kontrak yang menetapkan pengasingan individu dengan semua haknya kepada komunitas. Dari saat itu, terserah pada komunitas untuk memberikan hak kepada individu melalui hukum.
 Berbeda dengan Rousseau, Frédéric Bastiat mengatakan bahwa "manusia dilahirkan sebagai pemilik properti." Baginya, properti adalah konsekuensi yang diperlukan dari sifat manusia, dari konstitusinya. Dia menulis bahwa "manusia dilahirkan sebagai pemilik properti, karena dia dilahirkan dengan kebutuhan yang kepuasannya sangat penting untuk kehidupan, dengan organ dan fakultas yang latihannya sangat penting untuk memuaskan kebutuhan-kebutuhan tersebut". Namun, fakultas hanyalah perluasan dari orang itu sendiri, dan properti hanyalah perluasan dari fakultas. Dengan kata lain, penggunaan fakultas kita dalam bekerja yang melegitimasi properti.
 
+![image](assets/en/051.webp)
+
 Menurut Bastiat, masyarakat, orang-orang, dan properti ada sebelum hukum, dan dia memiliki frasa terkenal ini: "Bukan karena ada hukum maka ada properti, tetapi karena ada properti maka ada hukum". Itulah sebabnya hukum harus bersifat negatif: itu harus mencegah pelanggaran terhadap orang dan barang-barang mereka. Properti adalah raison d'être dari hukum dan bukan sebaliknya.
 
 ## Pendidikan Klasik
@@ -372,15 +424,21 @@ Menurut Bastiat, masyarakat, orang-orang, dan properti ada sebelum hukum, dan di
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 Pada tanggal 24 Februari 1848, setelah tiga hari kerusuhan di Paris, Raja Louis-Philippe I melepaskan kekuasaannya. Ini menandai kelahiran Republik Kedua.
 
+![image](assets/en/052.webp)
+
 Bastiat berada di Paris, menyaksikan peristiwa tersebut secara langsung. Kemudian, dia akan menulis:
 
 > Pada tanggal 24 Februari, saya, seperti banyak orang lain, khawatir bahwa bangsa ini tidak siap untuk mengatur dirinya sendiri. Saya harus mengakui, saya takut akan pengaruh ide-ide Yunani dan Romawi yang dipaksakan kepada kita semua oleh monopoli akademik.
 
 Bagian ini mengejutkan. Apa hubungannya antikuitas Yunani dan Romawi dengan ini?
 
+![image](assets/en/053.webp)
+
 Bastiat merujuk pada Republik Plato dan teorinya tentang raja-filosof, tetapi juga kepada Sparta, yang sangat dikagumi Rousseau, kepada Kekaisaran Romawi, yang sangat dirindukan Napoleon. Sayangnya, menurut Bastiat, ide-ide Yunani dan Romawi ini didasarkan pada premis yang salah: ide tentang kekuasaan mutlak legislator, tentang kedaulatan absolut hukum.
 
 Cukup membuka hampir setiap buku tentang filsafat, politik, atau sejarah secara acak untuk menemukan ide ini, yang berakar dalam budaya kita, bahwa kemanusiaan adalah materi iners yang menerima kehidupan, organisasi, moralitas, dan kemakmuran dari kekuatan politik. Dibiarkan dengan perangkatnya sendiri, kemanusiaan akan cenderung ke arah anarki dan hanya akan diselamatkan dari bencana ini oleh tangan misterius dan mahakuasa Legislator. Namun, Bastiat mengatakan, ide ini telah lama matang dan dipersiapkan oleh abad-abad pendidikan klasik.
+
+![image](assets/en/054.webp)
 
 Pertama-tama, dia mengatakan, orang Romawi menganggap properti sebagai fakta yang murni konvensional, sebagai ciptaan buatan hukum tertulis. Mengapa? Sederhana, Bastiat menjelaskan, karena mereka hidup dari perbudakan dan penjarahan. Bagi mereka, semua properti adalah buah dari penjarahan. Oleh karena itu, mereka tidak dapat memperkenalkan ke dalam legislasi ide bahwa dasar dari properti yang sah adalah tenaga kerja tanpa menghancurkan dasar-dasar masyarakat mereka.
 Mereka memang memiliki definisi empiris tentang properti, "jus utendi et abutendi" (hak untuk menggunakan dan menyalahgunakan). Namun, definisi ini hanya menyangkut efek dan bukan penyebabnya, dengan kata lain, asal-usul etis dari properti. Untuk benar-benar menetapkan properti, seseorang harus kembali ke konstitusi manusia itu sendiri, dan memahami hubungan dan keterkaitan yang diperlukan antara kebutuhan, kemampuan, tenaga kerja, dan properti. Apakah orang Romawi, yang merupakan pemilik budak, dapat membayangkan ide bahwa "setiap orang memiliki dirinya sendiri, dan oleh karena itu tenaga kerjanya, dan, akibatnya, produk dari tenaga kerjanya"? Bastiat bertanya-tanya.
@@ -437,7 +495,13 @@ Proteksionisme juga merupakan bentuk perjuangan kelas. Menurut Bastiat, ini adal
 ![image](assets/en/060.webp)
 
 Bastiat dengan tegas berpihak pada konsumen. Melawan kepentingan kelas, dia menempatkan kepentingan umum, yaitu kepentingan konsumen, yaitu kepentingan semua orang. Selalu dari sudut pandang konsumenlah Negara harus menempatkan dirinya saat bertindak.
-Dengan revolusi Februari 1848 dan barikade-barikadenya, musuh yang lebih formidabel dari proteksionisme akan muncul, satu dengan banyak kesamaan: sosialisme. Apa itu? Ini adalah gerakan politik yang menuntut organisasi tenaga kerja oleh hukum, nasionalisasi industri dan bank, dan redistribusi kekayaan melalui perpajakan. Bastiat kini akan mengabdikan seluruh energi, bakat, dan tulisannya melawan doktrin baru ini, yang hanya bisa mengarah pada pertumbuhan kekuasaan yang eksponensial dan perjuangan kelas yang abadi. Jadi, dari hari-hari pertama revolusi, dia berkontribusi pada sebuah koran singkat bernama "La République Française," yang cepat dikenal sebagai jurnal kontra-revolusioner. Ini adalah waktu ketika dia menulis pamfletnya tentang properti, negara, penjarahan, dan hukum.
+
+Dengan revolusi Februari 1848 dan barikade-barikadenya, musuh yang lebih formidabel dari proteksionisme akan muncul, satu dengan banyak kesamaan: sosialisme.
+
+![image](assets/en/061.webp)
+
+
+Apa itu? Ini adalah gerakan politik yang menuntut organisasi tenaga kerja oleh hukum, nasionalisasi industri dan bank, dan redistribusi kekayaan melalui perpajakan. Bastiat kini akan mengabdikan seluruh energi, bakat, dan tulisannya melawan doktrin baru ini, yang hanya bisa mengarah pada pertumbuhan kekuasaan yang eksponensial dan perjuangan kelas yang abadi. Jadi, dari hari-hari pertama revolusi, dia berkontribusi pada sebuah koran singkat bernama "La République Française," yang cepat dikenal sebagai jurnal kontra-revolusioner. Ini adalah waktu ketika dia menulis pamfletnya tentang properti, negara, penjarahan, dan hukum.
 
 Pada 27 Juni 1848, sehari setelah pemberontakan baru yang berdarah di Paris, dalam sebuah surat panjang kepada Richard Cobden, dia merenungkan penyebab yang bisa telah membawa ke peristiwa-peristiwa ini.
 
@@ -604,6 +668,8 @@ Dalam Bab XVI, ada teks yang sangat ironis lainnya, berjudul: Tangan Kanan dan T
 Mengikuti logika menciptakan pekerjaan dengan segala cara ini, mengapa tidak juga mengganti truk dengan gerobak dorong dan sekop dengan sendok teh? Semua sofisma ini memiliki satu kesamaan: mereka mengacaukan sarana dengan tujuan. Bagi Bastiat, tujuan ekonomi bukanlah pelestarian pekerjaan. Kita tidak seharusnya menilai utilitas pekerjaan berdasarkan durasi dan intensitasnya tetapi berdasarkan hasilnya: kepuasan kebutuhan, utilitas.
 Kekeliruan antara sarana dan tujuan ditemukan dalam slogan "uang adalah kekayaan." Ini adalah aksioma yang mengatur kebijakan moneter sebagian besar negara. Memang, peningkatan buatan dalam jumlah uang memungkinkan bank untuk meminjamkan uang kepada individu dan negara untuk dengan mudah melunasi utang mereka, ini adalah "apa yang kita lihat". Namun, "apa yang tidak kita lihat" adalah bahwa penciptaan uang ini, yang tidak didasarkan pada penciptaan kekayaan nyata, akan menyebabkan inflasi dan kehancuran bagi para penabung.
 
+![image](assets/en/082.webp)
+
 Kekayaan sejati, menurut Bastiat, adalah kumpulan hal-hal berguna yang kita produksi melalui pekerjaan untuk memenuhi kebutuhan kita. Uang hanya merupakan sarana pertukaran yang umum digunakan, ia hanya memainkan peran sebagai perantara.
 
 ## Penjarahan melalui Pajak
@@ -642,19 +708,35 @@ Tentu saja, sebagai pembayaran untuk layanan publik yang setara yang diterima se
 Awalnya, itu seharusnya menutupi pengeluaran bersama. Kemudian, pajak juga diberi peran dalam mengatur ekonomi. Dalam hal ini, politisi dan birokrat memiliki kekuatan yang hanya dibatasi oleh niat baik mereka. Terpaku pada konstruksi buatan mereka, mereka membentuk ekonomi dengan memajaki dan mengatur sektor lebih atau kurang sesuai dengan keinginan mereka untuk mendukung atau merugikan mereka.
 
 Akhirnya, peran sosial diberikan kepada pajak. Mereka dijadikan instrumen keadilan sosial. Dengan demikian, pajak tidak boleh mengenai semua orang dengan cara yang sama. Pajak harus redistributif, dari mereka "yang memiliki lebih" ke mereka "yang memiliki kurang."
+
+![image](assets/en/086.webp)
+
+
 Masalahnya adalah bahwa pajak, sebagaimana yang dipahami, tunduk pada keberpihakan mereka yang berkuasa. Mereka memihak atau tidak memihak kategori sosial tertentu tergantung pada apakah mereka mengharapkan suara dari mereka atau tidak. Selain itu, tarif progresif memberikan sedikit kepada kas negara. Namun, mereka memungkinkan mayoritas untuk mengeksploitasi minoritas dan secara alami menjadi konfiskatori.
 
 Itulah mengapa Bastiat sudah memahami kurva Laffer. Arthur Laffer adalah seorang ekonom Amerika yang dikenal dengan "kurva" terkenalnya (sebuah elips), yang diterbitkan pada tahun 1974, yang menunjukkan bahwa hasil dari pajak meningkat dengan penurunan tarif pajak. Ini adalah teori tentang pengembalian menurun dari perpajakan yang berlebihan.
 
+![image](assets/en/087.webp)
+
 > Terlalu banyak pajak membunuh pajak.
+>  
+> Arthur Laffer  
 
 Para politisi dengan naif menganggap ada hubungan otomatis dan tetap antara tarif pajak dan pendapatan pajak. Mereka berpikir mereka dapat menggandakan pendapatan pajak dengan menggandakan tarif pajak. Menurut Laffer, pendekatan seperti itu mengabaikan fakta bahwa wajib pajak mungkin mengubah perilaku mereka sebagai respons terhadap insentif baru.
+
+![image](assets/en/088.webp)
 
 Kurva Laffer menunjukkan bahwa pemerintah tidak mengumpulkan pendapatan apa pun ketika tarif pajak berada pada 100%. Sebaliknya, setiap pengurangan pajak berfungsi untuk merangsang aktivitas ekonomi dan dengan demikian pendapatan negara. Memang, mengurangi tarif pajak marginal merangsang investasi, pekerjaan, kreativitas, dan dengan demikian mendorong pertumbuhan ekonomi. Pengurangan yang cukup dapat menghasilkan stimulus ekonomi yang cukup untuk meningkatkan pendapatan publik dengan memperluas basis pajak secara signifikan.
 
 Bastiat mungkin menambahkan bahwa sebanyak pentingnya mengurangi pengeluaran negara seperti halnya mengurangi pajak. Namun, seperti yang dikatakan Margaret Thatcher, seorang murid dari Frédéric Bastiat, dengan tepat:
 
-> "Tujuannya bukan untuk membuat orang kaya menjadi miskin, tetapi untuk membuat orang miskin menjadi kaya." Dan dia mengatakan ini saat berbicara kepada sosialis.
+![image](assets/en/089.webp)
+
+
+> Tujuannya bukan membuat orang kaya menjadi miskin, tetapi membuat orang miskin menjadi kaya.  
+
+Dan ia mengatakannya saat berbicara kepada kaum sosialis.
+
 
 ## Dua Moralitas
 
@@ -662,18 +744,25 @@ Bastiat mungkin menambahkan bahwa sebanyak pentingnya mengurangi pengeluaran neg
 
 Semua orang tahu Tartuffe atau sang Penipu, komedi oleh Molière di mana seorang pemuja yang licik mencoba untuk merayu Elmire dan menipu suaminya Orgon. Bagaimana seseorang dapat melindungi diri dari penipuan seorang munafik yang berpura-pura melakukan kebaikan sambil merencanakan melawan Anda?
 
+![image](assets/en/090.webp)
+
 Bastiat mencatat bahwa ada dua cara untuk mengakhiri jenis penipuan ini: memperbaiki Tartuffe atau mencerahkan Orgon. Tentu saja, akan selalu ada Tartuffe, tetapi kekuatan mereka untuk berbuat jahat akan jauh berkurang jika ada lebih sedikit Orgon yang mendengarkan mereka.
 
 Kelemahan akal manusia adalah akar dari penyalahgunaan kebebasan. Ini adalah batasan utama manusia dan penyebab banyak kejahatan. Oleh karena itu, perlu untuk mencerahkan hati nurani tentang sifat berguna atau merugikan, dan dengan demikian adil atau tidak adil, dari tindakan manusia, baik individu maupun kolektif.
 
 Namun, ada dua cara komplementer untuk mencerahkan penilaian warga negara, seperti yang diuraikan Bastiat dalam sebuah bab dari seri kedua Sophisme Ekonomi berjudul "Dua Moralitas".
 
+![image](assets/en/091.webp)
+
 - Pertama, ada "moralitas filosofis atau religius" yang bertindak dengan memurnikan dan memperbaiki tindakan manusia (manusia sebagai agen)
 - Kemudian, ada "moralitas ekonomi", yang bertindak dengan menunjukkan kepada manusia "konsekuensi yang diperlukan dari tindakannya" (manusia sebagai pasien)
   Sebenarnya, ini adalah dua kerangka moral yang sempurna saling melengkapi.
 
 1. Yang pertama menargetkan hati dan mendorong individu untuk berbuat baik; itu adalah moralitas religius atau filosofis. Ini adalah yang paling mulia. Ini menanamkan dalam hati manusia kesadaran akan kewajibannya. Ini mengatakan kepadanya:
-   Tingkatkan diri Anda; bersihkan diri Anda; berhentilah melakukan kejahatan; lakukan kebaikan, kendalikan hasrat Anda; korbankan kepentingan Anda; jangan menindas tetangga Anda yang merupakan kewajiban Anda untuk mencintai dan meringankan beban mereka; berlakulah adil terlebih dahulu dan beramal setelahnya. Singkatnya, ini mengajarkan tentang kebajikan, tindakan tanpa pamrih. Moralitas ini, kata Bastiat, akan selamanya menjadi yang paling indah dan menyentuh, karena menunjukkan apa yang terbaik dalam manusia.
+
+> Tingkatkan diri Anda; bersihkan diri Anda; berhentilah melakukan kejahatan; lakukan kebaikan, kendalikan hasrat Anda; korbankan kepentingan Anda; jangan menindas tetangga Anda yang merupakan kewajiban Anda untuk mencintai dan meringankan beban mereka; berlakulah adil terlebih dahulu dan beramal setelahnya.
+
+Singkatnya, ini mengajarkan tentang kebajikan, tindakan tanpa pamrih. Moralitas ini, kata Bastiat, akan selamanya menjadi yang paling indah dan menyentuh, karena menunjukkan apa yang terbaik dalam manusia.
 
 ![image](assets/en/092.webp)
 
@@ -1032,6 +1121,10 @@ Mereka yakin bahwa hak-hak alami mereka dijamin dan tidak dapat diganggu gugat. 
 > Ketidakhadiran Penjarahan, — itu adalah prinsip keadilan, perdamaian, ketertiban, stabilitas, rekonsiliasi, akal sehat yang akan saya proklamasikan dengan semua kekuatan, sayangnya! tidak cukup, dari paru-paru saya, sampai nafas terakhir saya
 
 Bastiat menulis dalam The Law, beberapa waktu sebelum dia meninggal.
+
+![image](assets/en/131.webp)
+
+
 Seabad setelah kematian Frédéric Bastiat, penjarahan hukum jelas terlihat dalam Deklarasi Universal Hak Asasi Manusia tahun 1948, terutama dalam artikel-artikelnya 22 ("setiap orang berhak atas jaminan sosial"), 23 ("setiap orang berhak atas pekerjaan"), 24 ("setiap orang berhak atas istirahat dan waktu luang"), 25 ("setiap orang berhak atas standar hidup yang layak untuk kesehatan dan kesejahteraan"), 26 ("setiap orang berhak atas pendidikan").
 
 ## Peran Hukum dan Negara
@@ -1066,7 +1159,7 @@ Itulah mengapa Negara tidak dapat dalam kasus apa pun melanggar hak alami; sebal
 
 Negara menjamin Keamanan, baik internal maupun eksternal, dan Keadilan. Negara dapat kuat dan efektif dalam domainnya. Namun, hukum tidak dapat melangkah keluar dari peran yang sangat ketat ini karena kemudian menjadi alat penjarahan dari beberapa orang untuk keuntungan orang lain. Ketika Hukum diperversion, itu bertindak sebagai alat ketidakadilan. Perversion hukum selalu mengarah pada penjarahan, seperti yang telah kita lihat di kursus sebelumnya. Ini adalah langsung, otomatis, tak terhindarkan, dan pasti. Mengambil hukum keluar dari domainnya hanya dapat melanggar hak alami. Masyarakat sipil kemudian dicabut kekuatannya (institusi alami, kontrak, pertukaran, asosiasi) demi pengelolaan negara, yaitu, teknokratik dan birokratis.
 
-![image](assets/en/138.webp)
+![image](assets/en/107.webp)
 
 Akibatnya, satu-satunya layanan publik yang sah dari sebuah Negara menurut Bastiat adalah tiga jumlahnya: militer, polisi, dan yudikatif. Dengan kata lain, Negara harus menjamin perlindungan internal dan eksternal individu, kebebasan mereka, dan properti mereka. Oleh karena itu, wajar jika setiap orang berkontribusi pada perlindungan ini. Namun, di luar fungsi-fungsi sah ini, kontribusi lainnya terhadap layanan lain yang disediakan oleh Negara tunduk pada pengawasan.
 
@@ -1094,6 +1187,8 @@ Menetap di New York pada tahun 1943, Mises mengorganisir seminar yang menarik pi
 ![image](assets/en/139.webp)
 Namun, orang yang juga mempopulerkan tesis Frédéric Bastiat adalah seorang kolumnis ekonomi untuk New York Times, Henry Hazlitt, dalam sebuah buku kecil berjudul: "Economics in One Lesson," yang diterbitkan pada tahun 1946. Secara eksplisit mengambil dari ide-ide Bastiat, dia bertujuan untuk menunjukkan bahwa masalah dengan solusi ekonomi statistik adalah kegagalan mereka untuk mempertimbangkan konsekuensi jangka panjang yang bencana.
 
+![image](assets/en/140.webp)
+
 Hazlitt memulai bukunya dengan menceritakan kisah jendela pecah Bastiat. Dia merangkum cerita tersebut dalam satu pelajaran sederhana dan unik:
 
 > Seni ekonomi terdiri dalam melihat tidak hanya pada efek langsung tetapi juga pada efek jangka panjang dari setiap tindakan atau kebijakan; itu terdiri dalam menelusuri konsekuensi dari kebijakan tersebut tidak hanya untuk satu kelompok tetapi untuk semua kelompok.
@@ -1108,7 +1203,11 @@ Pelajaran yang Reagan ajarkan kepada karyawannya, mengikuti Bastiat, adalah bahw
 John Maynard Keynes secara khusus menyarankan bahwa pengeluaran publik meningkatkan produksi karena pengganda: jika pemerintah membangun jembatan, pekerja jembatan tersebut akan dapat membeli roti, kemudian tukang roti dapat membeli sepatu, dan seterusnya. Jika industri swasta sedang menurun, itu dapat diatasi dengan pekerjaan besar. Jika ada pengangguran, Negara dapat menciptakan pekerjaan publik.
 Namun, seperti yang dengan tepat ditunjukkan oleh Bastiat, intervensi negara memiliki efek negatif yang tidak terlihat. Hanya seorang ekonom yang baik yang mampu meramalkannya. Mari kita ambil sebuah contoh: Ini adalah ilusi untuk percaya bahwa pemerintah dapat "menciptakan pekerjaan" karena untuk setiap pekerjaan publik yang diciptakan, itu menghancurkan sebuah pekerjaan di pasar. Memang, pekerjaan publik dibayar dengan pajak. Pekerjaan publik tidak diciptakan; mereka dirasakan. Setiap sen yang dihabiskan oleh Negara harus secara pasti diperoleh melalui pajak atau utang.
 
+![image](assets/en/142.webp)
+
 Jika kita melihat hal-hal dari sudut pandang ini, Reagan menjelaskan kepada karyawan GE, keajaiban-keajaiban yang disebut dari pengeluaran negara tampak dalam cahaya yang sepenuhnya berbeda. Karena pajak menghambat produksi, dan kekayaan yang diciptakan oleh pengeluaran publik tidak dapat sepenuhnya menggantikan mereka yang dicegah untuk lahir oleh pajak yang dikenakan untuk membayar pengeluaran ini.
+
+![image](assets/en/138.webp)
 
 Pada intinya, Reagan mengambil dari Bastiat beberapa elemen kunci dari visi liberal masyarakat dan manusia: supremasi masyarakat sipil atas Negara, nilai pilihan dan tanggung jawab individu, pentingnya pengusaha dalam penciptaan kekayaan, pentingnya kerangka hukum yang fleksibel dan minimal, yang memungkinkan kepercayaan dan penghormatan terhadap kontrak, hukum fundamental bahwa kekayaan harus diciptakan sebelum dapat didistribusikan, keinginan untuk memberikan kesempatan kepada semua orang di pasar yang kompetitif…
 

@@ -922,7 +922,6 @@ Selle tekstisarja suur õppetund on see, et riigi sekkumisel on perversne mõju,
 
 _üles: Marine Le Pen, Prantsuse poliitik_
 
-![image](assets/en/078.webp)
 
 
 Seejärel kirjutas Bastiat satiirilise teksti, millest hiljem sai üks tema kuulsamaid teoseid: "Küünalde valmistajate petitsioon". See illustreerib, kuidas teatavad hästi organiseeritud tootjate survegrupid saavad riigilt põhjendamatuid privileege kodanike kahjuks. Samal ajal näitab see protektsionistlike õigusaktide absurdset ja hävitavat olemust.

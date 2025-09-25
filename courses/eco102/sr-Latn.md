@@ -918,7 +918,6 @@ Godine 1840, Zastupnički dom je izglasao zakon o povećanju uvoznih poreza kako
 
 _iznad: Marine Le Pen, francuska političarka_
 
-![image](assets/en/078.webp)
 
 
 Bastiat je zatim sastavio satirični tekst koji je kasnije postao jedno od njegovih najpoznatijih dela: "peticija proizvođača sveća"(the petition of the candle makers). Ilustruje kako određene dobro organizovane interesne grupe proizvođača dobijaju nezaslužene privilegije od države, na štetu građana. Istovremeno, pokazuje apsurdnu i destruktivnu prirodu protekcionističkog zakonodavstva.

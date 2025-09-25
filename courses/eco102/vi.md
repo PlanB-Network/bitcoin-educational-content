@@ -922,7 +922,6 @@ Năm 1840, Hạ viện đã bỏ phiếu thông qua luật tăng thuế nhập k
 
 _trên: Marine Le Pen, một chính trị gia người Pháp_
 
-![image](assets/en/078.webp)
 
 
 Sau đó, Bastiat đã viết một tác phẩm châm biếm mà sau này trở thành một trong những tác phẩm nổi tiếng nhất của ông: "Lời thỉnh cầu của những người làm nến". Tác phẩm này minh họa cách một số nhóm sản xuất được tổ chức bài bản đã giành được những đặc quyền không chính đáng từ nhà nước, gây bất lợi cho người dân. Đồng thời, tác phẩm cũng cho thấy bản chất phi lý và hủy hoại của luật pháp bảo hộ.

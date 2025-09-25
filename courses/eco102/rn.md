@@ -919,7 +919,6 @@ Mu mwaka w’1840, Inama Nkuru y’Igihugu yatoye itegeko ryo kwongera imisoro k
 
 _hejuru: Marine Le Pen, umunyapolitike w'umufaransa_
 
-![image](assets/en/078.webp)
 
 
 Bastiat yaciye yandika igitabu c'ugutwenga caje kuba kimwe mu bitabu vyiwe bizwi cane: "igisabisho c'abahinguzi b'amabuye y'agaciro". Birerekana ingene imigwi imwimwe y’abahingura ibintu itunganijwe neza, ironka uduteka tudakwiriye kuri Leta, bikaba bitera ingorane abanyagihugu. Muri ico gihe nyene, ryerekana ukuntu amategeko y’uburinzi ari ubujuju kandi asenya.

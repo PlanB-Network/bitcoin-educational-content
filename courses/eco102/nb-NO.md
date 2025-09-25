@@ -922,7 +922,6 @@ I 1840 stemte deputertkammeret for en lov som økte importavgiftene for å besky
 
 _over: Marine Le Pen, en fransk politikeran_
 
-![image](assets/en/078.webp)
 
 
 Bastiat skrev deretter en satirisk tekst som senere ble et av hans mest berømte verk: "Stearinlysprodusentenes petisjon". Den illustrerer hvordan visse velorganiserte pressgrupper av produsenter skaffer seg urettmessige privilegier fra staten, på bekostning av borgerne. Samtidig demonstrerer den det absurde og destruktive ved proteksjonistisk lovgivning.

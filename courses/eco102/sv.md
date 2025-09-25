@@ -919,7 +919,6 @@ Den stora lärdomen av denna serie texter är att statliga ingripanden har perve
 
 _överst: Marine Le Pen, en fransk politikeran_
 
-![image](assets/en/078.webp)
 
 
 Bastiat skrev då en satirisk text som senare blev ett av hans mest kända verk: "Ljusmakarnas petition". Den illustrerar hur vissa välorganiserade intressegrupper av producenter erhåller otillbörliga privilegier från staten, till nackdel för medborgarna. Samtidigt visar den hur absurd och destruktiv den protektionistiska lagstiftningen är.

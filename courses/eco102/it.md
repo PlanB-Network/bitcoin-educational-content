@@ -632,7 +632,6 @@ Nel 1840, la Camera dei Deputati votò per una legge che aumentava le tasse di i
 
 _sopra: Marine Le Pen, una politica francese_
 
-![image](assets/en/078.webp)
 
 Bastiat compose allora un testo satirico che in seguito divenne uno dei suoi lavori più famosi: "la petizione dei fabbricanti di candele". Illustra come certi gruppi di pressione di produttori ben organizzati ottengano privilegi indebiti dallo stato, a detrimento dei cittadini. Allo stesso tempo, dimostra la natura assurda e distruttiva della legislazione protezionistica.
 

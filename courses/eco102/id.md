@@ -623,7 +623,6 @@ Pelajaran besar dari serangkaian teks ini adalah bahwa intervensi negara memilik
 Pada tahun 1840, Majelis Deputi memilih untuk sebuah undang-undang yang meningkatkan pajak impor untuk melindungi industri Prancis. Ini adalah patriotisme ekonomi yang terkenal, yang masih kita temui saat ini.
 
 ![image](assets/en/077.webp)
-![image](assets/en/078.webp)
 
 Bastiat kemudian menyusun teks satir yang kemudian menjadi salah satu karya paling terkenalnya: "petisi para pembuat lilin". Ini menggambarkan bagaimana beberapa kelompok tekan produsen yang terorganisir dengan baik mendapatkan hak istimewa yang tidak semestinya dari negara, merugikan warga negara. Pada saat yang sama, ini menunjukkan sifat perlindungan yang absurd dan merusak dari legislasi proteksionis.
 

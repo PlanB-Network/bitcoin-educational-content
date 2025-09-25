@@ -922,7 +922,6 @@ Vuonna 1840 edustajainhuone äänesti tuontiverojen korottamista koskevan lain p
 
 _yläpuolella: Marine Le Pen, ranskalainen poliitikko_
 
-![image](assets/en/078.webp)
 
 
 Tämän jälkeen Bastiat kirjoitti satiirisen tekstin, josta tuli myöhemmin yksi hänen kuuluisimmista teoksistaan: "Kynttilänvalmistajien vetoomus". Siinä kuvataan, miten tietyt hyvin järjestäytyneet tuottajien painostusryhmät saavat valtiolta kohtuuttomia etuoikeuksia kansalaisten kustannuksella. Samalla se osoittaa protektionistisen lainsäädännön absurdin ja tuhoisan luonteen.

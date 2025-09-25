@@ -922,7 +922,6 @@ Im Jahr 1840 stimmte die Abgeordnetenkammer für ein Gesetz zur Erhöhung der Ei
 
 _oben: Marine Le Pen, eine französische Politikerin_
 
-![image](assets/en/078.webp)
 
 
 Bastiat verfasste daraufhin einen satirischen Text, der später zu einem seiner berühmtesten Werke wurde: "Die Petition der Kerzenmacher". Er veranschaulicht, wie bestimmte gut organisierte Interessengruppen von Herstellern vom Staat unzulässige Privilegien zum Nachteil der Bürger erhalten. Gleichzeitig zeigt sie die absurde und zerstörerische Natur der protektionistischen Gesetzgebung auf.

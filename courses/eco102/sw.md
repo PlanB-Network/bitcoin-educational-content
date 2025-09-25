@@ -919,7 +919,6 @@ Mnamo 1840, Baraza la Manaibu lilipiga kura kwa sheria ya kuongeza ushuru wa bid
 
 _juu: Marine Le Pen, mwanasiasa Mfaransa_
 
-![image](assets/en/078.webp)
 
 
 Bastiat kisha akatunga maandishi ya kejeli ambayo baadaye yalikuja kuwa moja ya kazi zake maarufu: "ombi la watengeneza mishumaa". Inaonyesha jinsi vikundi fulani vya shinikizo vilivyopangwa vyema vya wazalishaji hupata marupurupu yasiyofaa kutoka kwa serikali, kwa madhara ya wananchi. Wakati huo huo, inaonyesha hali ya upuuzi na ya uharibifu ya sheria ya ulinzi.

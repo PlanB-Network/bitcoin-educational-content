@@ -919,7 +919,6 @@ Bu metin dizisinden çıkarılacak en büyük ders, devlet müdahalesinin görü
 
 _yukarıda: Marine Le Pen, Fransız bir politikacı_
 
-![image](assets/en/078.webp)
 
 
 Bastiat daha sonra en ünlü eserlerinden biri haline gelecek olan hicivli bir metin kaleme aldı: "Mum Üreticilerinin Dilekçesi". Bu metin, iyi örgütlenmiş bazı üretici baskı gruplarının, vatandaşların aleyhine olacak şekilde devletten nasıl haksız ayrıcalıklar elde ettiğini göstermektedir. Aynı zamanda, korumacı mevzuatın saçma ve yıkıcı doğasını da ortaya koyar.

@@ -611,7 +611,6 @@ Velké ponaučení z této série textů je, že státní zásah má perverzní 
 V roce 1840 hlasovala Sněmovna poslanců pro zákon zvyšující dovozní cla za účelem ochrany francouzského průmyslu. Jedná se o slavný ekonomický patriotismus, se kterým se setkáváme i dnes.
 
 ![image](assets/en/077.webp)
-![image](assets/en/078.webp)
 
 Bastiat tehdy složil satirický text, který se později stal jedním z jeho nejslavnějších děl: "petice svíčkářů". Ilustruje, jak určité dobře organizované tlakové skupiny výrobců získávají od státu neoprávněné výhody na úkor občanů. Zároveň ukazuje absurdní a destruktivní povahu protekcionistické legislativy.
 

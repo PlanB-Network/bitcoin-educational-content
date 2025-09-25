@@ -919,7 +919,6 @@ W 1840 r. Izba Deputowanych przegłosowała ustawę zwiększającą podatki impo
 
 _powyżej: Marine Le Pen, francuska polityk_
 
-![image](assets/en/078.webp)
 
 
 Bastiat skomponował wówczas satyryczny tekst, który później stał się jednym z jego najsłynniejszych dzieł: "Petycja producentów świec". Ilustruje on, w jaki sposób pewne dobrze zorganizowane grupy nacisku producentów uzyskują nienależne przywileje od państwa, ze szkodą dla obywateli. Jednocześnie pokazuje absurdalną i destrukcyjną naturę protekcjonistycznego prawodawstwa.

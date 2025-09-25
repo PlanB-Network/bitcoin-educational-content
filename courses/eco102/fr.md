@@ -654,7 +654,6 @@ La grande leçon de cette série de textes, c’est que l'intervention de l'Éta
 En 1840, la Chambre des députés vota une loi augmentant les taxes à l’importation afin de protéger l’industrie française. C’est le fameux patriotisme économique, qu’on retrouve encore de nos jours.
 
 ![image](assets/en/077.webp)
-![image](assets/en/078.webp)
 
 Bastiat composa alors un texte satirique qui est devenu par la suite l’un de ses textes les plus célèbres : "la pétition des fabricants de chandelles". Il montre comment certains groupes de pression bien organisés de producteurs obtiennent de l'État des privilèges indus, au détriment des citoyens. En même temps, il démontre le caractère absurde et destructeur des législations protectionnistes.
 

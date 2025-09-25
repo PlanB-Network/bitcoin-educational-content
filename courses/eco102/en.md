@@ -624,7 +624,6 @@ In 1840, the Chamber of Deputies voted for a law increasing import taxes to prot
 
 ![image](assets/en/077.webp)
 _above: Marine Le Pen, a French politician_
-![image](assets/en/078.webp)
 
 Bastiat then composed a satirical text that later became one of his most famous works: "the petition of the candle makers". It illustrates how certain well-organized pressure groups of producers obtain undue privileges from the state, to the detriment of the citizens. At the same time, it demonstrates the absurd and destructive nature of protectionist legislation.
 

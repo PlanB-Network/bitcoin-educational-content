@@ -922,7 +922,6 @@ En 1840, la Cámara de Diputados votó una ley que aumentaba los impuestos a la 
 
 _arriba: Marine Le Pen, política francesa_
 
-![image](assets/en/078.webp)
 
 
 Bastiat compuso entonces un texto satírico que más tarde se convertiría en una de sus obras más famosas: "La petición de los fabricantes de velas". Ilustra cómo ciertos grupos de presión de productores bien organizados obtienen privilegios indebidos del Estado, en detrimento de los ciudadanos. Al mismo tiempo, demuestra el carácter absurdo y destructivo de la legislación proteccionista.

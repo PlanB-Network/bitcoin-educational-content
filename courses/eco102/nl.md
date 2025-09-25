@@ -919,7 +919,6 @@ In 1840 stemde de Kamer van Afgevaardigden voor een wet die de importbelastingen
 
 hierboven: Marine Le Pen, een Franse politica_
 
-![image](assets/en/078.webp)
 
 
 Bastiat schreef toen een satirische tekst die later een van zijn beroemdste werken werd: "de petitie van de kaarsenmakers". Het illustreert hoe bepaalde goed georganiseerde pressiegroepen van producenten onterechte privileges van de staat krijgen, ten nadele van de burgers. Tegelijkertijd toont het de absurde en destructieve aard van protectionistische wetgeving.

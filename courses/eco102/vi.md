@@ -490,7 +490,6 @@ Là một diễn giả hấp dẫn và đáng gờm, ông có tài năng phi th�
 Năm 1845, Bastiat xuất bản tại Paris cuốn sách "Cobden và Liên minh", kèm theo bản dịch và bình luận. Cuốn sách mở đầu bằng phần giới thiệu về tình hình kinh tế nước Anh, lịch sử hình thành và phát triển của Liên minh. Từ năm 1815, chủ nghĩa bảo hộ mậu dịch đã phát triển mạnh mẽ ở Anh. Đặc biệt, có những luật hạn chế nhập khẩu ngũ cốc, gây ra những hậu quả rất nặng nề cho người dân. Thật vậy, lúa mì là nguyên liệu cần thiết để làm bánh mì, một mặt hàng thiết yếu vào thời điểm đó. Hơn nữa, hệ thống này lại có lợi cho tầng lớp quý tộc, tức là những địa chủ lớn, những người hưởng lợi từ việc canh tác lúa mì.
 
 
-![image](assets/en/042.webp)
 
 
 > Bastiat viết rằng, điều cùng tồn tại ở Anh là một số ít kẻ cướp và một số lượng lớn người bị cướp, và người ta không cần phải là một nhà kinh tế học vĩ đại để kết luận về sự giàu có của nhóm trước và sự khốn khổ của nhóm sau.

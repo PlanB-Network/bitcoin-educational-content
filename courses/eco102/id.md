@@ -340,7 +340,6 @@ Seorang pembicara yang menarik dan tangguh, dia memiliki hadiah luar biasa untuk
 
 Pada tahun 1845, Bastiat menerbitkan di Paris bukunya Cobden dan Liga, dengan terjemahannya disertai komentar. Buku ini dibuka dengan pengantar tentang situasi ekonomi Inggris, tentang sejarah asal mula dan kemajuan Liga. Sejak 1815, proteksionisme sangat berkembang di Inggris. Ada, khususnya, undang-undang yang membatasi impor gandum yang memiliki konsekuensi sangat keras bagi rakyat. Memang, gandum diperlukan untuk membuat roti, komoditas vital saat itu. Selain itu, sistem ini mendukung aristokrasi, yaitu pemilik tanah besar, yang mendapatkan sewa darinya.
 
-![image](assets/en/042.webp)
 
 > Yang koeksistensi di Inggris, tulis Bastiat, adalah sejumlah kecil perampok dan sejumlah besar yang dirampok, dan seseorang tidak perlu menjadi ekonom hebat untuk menyimpulkan kemakmuran yang pertama dan kesengsaraan yang terakhir.
 

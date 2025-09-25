@@ -489,7 +489,6 @@ Han var en fascinerande och formidabel talare som hade en fantastisk förmåga a
 År 1845 publicerade Bastiat i Paris sin bok Cobden and the League, med sina översättningar åtföljda av kommentarer. Boken inleds med en introduktion om den ekonomiska situationen i England, om historien om förbundets ursprung och utveckling. Sedan 1815 var protektionismen mycket utvecklad i England. Det fanns i synnerhet lagar som begränsade spannmålsimporten som hade mycket hårda konsekvenser för folket. Vete var nämligen nödvändigt för att baka bröd, vilket var en livsviktig vara vid den tiden. Dessutom gynnade detta system aristokratin, det vill säga de stora markägarna, som drog in hyror från det.
 
 
-![image](assets/en/042.webp)
 
 
 > Det som existerar i England, skrev Bastiat, är ett litet antal plundrare och ett stort antal plundrade, och man behöver inte vara någon stor ekonom för att dra slutsatsen att de förstnämnda är överflödiga och de sistnämnda eländiga.

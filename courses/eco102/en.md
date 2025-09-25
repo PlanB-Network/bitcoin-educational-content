@@ -333,8 +333,6 @@ A fascinating and formidable speaker, he had a prodigious gift for inventing str
 
 In 1845, Bastiat published in Paris his book Cobden and the League, with his translations accompanied by comments. The book opens with an introduction on the economic situation of England, on the history of the origin and progress of the League. Since 1815, protectionism was very developed in England. There were, in particular, laws limiting grain imports which had very harsh consequences for the people. Indeed, wheat was necessary for making bread, a vital commodity at the time. Moreover, this system favored the aristocracy, that is, the large landowners, who derived rents from it.
 
-![image](assets/en/042.webp)
-
 > What coexists in England, Bastiat wrote, is a small number of plunderers and a large number of plundered, and one does not need to be a great economist to conclude the opulence of the former and the misery of the latter.  
 
 The goal of the League was to mobilize public opinion to pressure parliament to repeal the grain law. In the long term, Cobden and his friends hoped to:

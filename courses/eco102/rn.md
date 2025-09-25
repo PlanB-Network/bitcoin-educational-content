@@ -489,7 +489,6 @@ Yari umuvugizi ateye umunezero kandi ateye ubwoba, yari afise ingabirano idasanz
 Mu 1845, Bastiat yarasohoye i Paris igitabu ciwe citwa Cobden and the League, ivyo yahinduye bikaba vyari biherekejwe n’ibisobanuro. Ico gitabu gitangura n’intangamarara yerekeye ubutunzi bw’Ubwongereza, yerekeye kahise k’inkomoko n’iterambere ry’Ishirahamwe. Kuva mu 1815, uburinzi bwarateye imbere cane mu Bwongereza. Hariho cane cane amategeko agenga ivy’intete biva hanze vyari bifise ingaruka zikomeye cane ku bantu. Nkako, ingano zari zikenewe kugira ngo umuntu akore umukate, kikaba cari ikintu gihambaye cane ico gihe. Vyongeye, iyo nzira yarashigikira abakuru b’igihugu, ni ukuvuga ba nyen’amatongo menshi, bakaba ari bo bayironkeramwo amahera y’ubukode.
 
 
-![image](assets/en/042.webp)
 
 
 > Bastiat yanditse ati: “Ikiba kumwe mu Bwongereza ni umubare mutoyi w’abasahura n’umubare munini w’abasahura, kandi umuntu ntakeneye kuba umuhinga mu vy’ubutunzi akomeye kugira ngo ashike ku ciyumviro c’ubutunzi bw’aba mbere n’ububabare bw’aba nyuma.

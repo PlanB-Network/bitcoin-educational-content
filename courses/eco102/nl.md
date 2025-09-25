@@ -489,7 +489,6 @@ Hij was een fascinerend en formidabel spreker en had een wonderbaarlijke gave vo
 In 1845 publiceerde Bastiat in Parijs zijn boek Cobden and the League, met zijn vertalingen voorzien van commentaar. Het boek opent met een inleiding over de economische situatie van Engeland, over de geschiedenis van het ontstaan en de voortgang van de Liga. Sinds 1815 was het protectionisme in Engeland sterk ontwikkeld. Er waren vooral wetten die de invoer van graan beperkten, wat zeer harde gevolgen had voor het volk. Tarwe was immers noodzakelijk voor het maken van brood, een levensnoodzakelijk product in die tijd. Bovendien bevoordeelde dit systeem de aristocratie, dat wil zeggen de grootgrondbezitters, die er inkomsten uit haalden.
 
 
-![image](assets/en/042.webp)
 
 
 > Wat in Engeland naast elkaar bestaat, schreef Bastiat, is een klein aantal plunderaars en een groot aantal geplunderden, en je hoeft geen groot econoom te zijn om de weelde van de eersten en de ellende van de laatsten vast te stellen.

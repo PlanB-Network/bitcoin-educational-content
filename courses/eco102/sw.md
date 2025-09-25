@@ -489,7 +489,6 @@ Akiwa mzungumzaji wa kuvutia na mwenye kutisha, alikuwa na kipawa cha ajabu cha 
 Mnamo 1845, Bastiat alichapisha huko Paris kitabu chake Cobden and the League, na tafsiri zake zikiambatana na maoni. Kitabu hiki kinaanza na utangulizi wa hali ya kiuchumi ya Uingereza, juu ya historia ya asili na maendeleo ya Ligi. Tangu 1815, ulinzi uliendelezwa sana nchini Uingereza. Kulikuwa na, haswa, sheria zinazozuia uagizaji wa nafaka kutoka nje ambayo ilikuwa na matokeo mabaya sana kwa watu. Kwa kweli, ngano ilikuwa muhimu kwa kutengeneza mkate, bidhaa muhimu wakati huo. Zaidi ya hayo, mfumo huu ulipendelea utawala wa aristocracy, yaani, wamiliki wa ardhi wakubwa, ambao walipata kodi kutoka kwao.
 
 
-![image](assets/en/042.webp)
 
 
 > Kinachoishi Uingereza, Bastiat aliandika, ni idadi ndogo ya waporaji na idadi kubwa ya walioporwa, na hakuna haja ya kuwa mwanauchumi mkubwa ili kuhitimisha utajiri wa zamani na masaibu ya mwisho.

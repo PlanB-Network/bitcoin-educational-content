@@ -489,7 +489,6 @@ Etkileyici ve müthiş bir konuşmacı olarak, ekonomistlerin soyut söylemlerin
 Bastiat, 1845'te Paris'te Cobden ve Birlik adlı kitabını, çevirileri ve yorumlarıyla birlikte yayınladı. Kitap, İngiltere'nin ekonomik durumu, Lig'in ortaya çıkış tarihi ve gelişimi üzerine bir girişle başlar. 1815'ten beri İngiltere'de korumacılık çok gelişmişti. Özellikle tahıl ithalatını sınırlayan ve halk için çok ağır sonuçları olan yasalar vardı. Gerçekten de buğday, o dönemde hayati bir mal olan ekmeğin yapımı için gerekliydi. Dahası, bu sistem aristokrasiyi, yani ondan rant elde eden büyük toprak sahiplerini destekliyordu.
 
 
-![image](assets/en/042.webp)
 
 
 > Bastiat'ya göre İngiltere'de az sayıda yağmacı ve çok sayıda yağmalanan bir arada yaşamaktadır ve birincilerin zenginliği ve ikincilerin sefaleti sonucuna varmak için büyük bir ekonomist olmaya gerek yoktur.

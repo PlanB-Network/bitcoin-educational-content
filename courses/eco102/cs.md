@@ -339,7 +339,6 @@ Fascinující a formidabilní řečník, měl neobyčejný dar vymýšlet působ
 
 V roce 1845 Bastiat v Paříži publikoval svou knihu Cobden a Liga, s jeho překlady doplněnými komentáři. Kniha začíná úvodem o ekonomické situaci Anglie, o historii vzniku a pokroku Ligy. Od roku 1815 byl v Anglii velmi rozvinutý protekcionismus. Existovaly zejména zákony omezující dovoz obilí, které měly pro lid velmi tvrdé důsledky. Pšenice byla totiž nezbytná pro výrobu chleba, v té době životně důležitého zboží. Navíc tento systém upřednostňoval aristokracii, tedy velké pozemkové vlastníky, kteří z něj čerpali renty.
 
-![image](assets/en/042.webp)
 
 > Co v Anglii souexistuje, napsal Bastiat, je malý počet lupičů a velký počet oloupených, a není třeba být velkým ekonomem, aby se došlo k závěru o bohatství prvních a bídě druhých.
 

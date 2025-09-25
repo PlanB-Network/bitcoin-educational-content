@@ -490,7 +490,6 @@ Põnev ja suurepärane kõneleja, kellel oli hämmastav oskus leiutada tabavaid 
 1845. aastal avaldas Bastiat Pariisis oma raamatu "Cobden ja liit", millele olid lisatud tema tõlked ja kommentaarid. Raamat algab sissejuhatusega Inglismaa majanduslikust olukorrast, Liiga tekkimise ja arengu ajaloost. Alates 1815. aastast oli Inglismaal protektsionism väga arenenud. Eelkõige kehtisid teravilja importi piiravad seadused, millel olid rahva jaoks väga karmid tagajärjed. Nisu oli tõepoolest vajalik leiva valmistamiseks, mis oli tol ajal elutähtis kaup. Pealegi soosis see süsteem aristokraatiat, st suurmaaomanikke, kes said sellest rendi.
 
 
-![image](assets/en/042.webp)
 
 
 > Bastiat kirjutas, et Inglismaal eksisteerib samaaegselt väike arv rüüstajate ja suur arv rüüstatute, ning ei pea olema suur majandusteadlane, et järeldada esimeste rikkust ja viimaste viletsust.

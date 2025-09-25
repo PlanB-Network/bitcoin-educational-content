@@ -490,7 +490,6 @@ Hän oli kiehtova ja vaikuttava puhuja, ja hänellä oli ihmeellinen lahja keksi
 Vuonna 1845 Bastiat julkaisi Pariisissa kirjansa Cobden and the League, jossa oli hänen käännöksiään ja kommentteja. Kirjan alussa on johdanto Englannin taloudellisesta tilanteesta, Liigan syntyhistoriasta ja edistymisestä. Vuodesta 1815 lähtien protektionismi oli Englannissa hyvin kehittynyttä. Erityisesti oli olemassa viljan tuontia rajoittavia lakeja, joilla oli hyvin ankaria seurauksia kansalle. Vehnää tarvittiin nimittäin leivän valmistukseen, joka oli tuolloin elintärkeä hyödyke. Lisäksi tämä järjestelmä suosi aristokratiaa eli suurmaanomistajia, jotka saivat siitä vuokria.
 
 
-![image](assets/en/042.webp)
 
 
 > Bastiat kirjoitti, että Englannissa elää rinnakkain pieni määrä ryöstäjiä ja suuri määrä ryöstettyjä, eikä tarvitse olla suuri taloustieteilijä voidakseen päätellä edellisten yltäkylläisyyden ja jälkimmäisten kurjuuden.

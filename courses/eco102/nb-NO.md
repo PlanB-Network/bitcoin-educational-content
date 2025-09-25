@@ -490,7 +490,6 @@ Han var en fascinerende og formidabel foredragsholder, og han hadde en fantastis
 I 1845 utga Bastiat i Paris boken Cobden and the League, med sine oversettelser ledsaget av kommentarer. Boken åpner med en innledning om den økonomiske situasjonen i England, om historien om forbundets opprinnelse og utvikling. Siden 1815 var proteksjonismen svært utviklet i England. Det var spesielt lover som begrenset kornimporten, noe som hadde svært harde konsekvenser for folket. Hvete var nemlig nødvendig for å lage brød, en livsviktig vare på den tiden. Dessuten favoriserte dette systemet aristokratiet, det vil si de store jordeierne, som tjente på det.
 
 
-![image](assets/en/042.webp)
 
 
 > Det som eksisterer i England, skrev Bastiat, er et lite antall plyndrere og et stort antall utplyndrede, og man trenger ikke å være noen stor økonom for å konkludere med førstnevntes overflod og sistnevntes elendighet.

@@ -492,7 +492,6 @@ Fascinantan i zastrašujuć govornik, imao je izvanredan dar za izmišljanje upe
 Godine 1845., Bastiat je objavio u Parizu svoju knjigu Cobden i Liga (Cobden and the League), sa svojim prevodima praćenim komentarima. Knjiga počinje uvodom o ekonomskoj situaciji u Engleskoj, o istoriji porekla i napretka Lige. Od 1815. godine, protekcionizam je bio veoma razvijen u Engleskoj. Postojali su, posebno, zakoni koji su ograničavali uvoz žitarica, što je imalo veoma teške posledice po narod. Naime, pšenica je bila neophodna za pravljenje hleba, osnovne životne namirnice u to vreme. Štaviše, ovaj sistem je pogodovao aristokratiji, odnosno velikim zemljoposednicima, koji su od toga ostvarivali prihode.
 
 
-![image](assets/en/042.webp)
 
 
 > Ono što koegzistira u Engleskoj, napisao je Bastiat, jeste mali broj pljačkaša i veliki broj opljačkanih, i ne treba biti veliki ekonomista da bi se zaključilo o bogatstvu prvih i bedi drugih.

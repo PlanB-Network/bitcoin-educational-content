@@ -490,7 +490,6 @@ Er war ein faszinierender und beeindruckender Redner, der eine erstaunliche Gabe
 1845 veröffentlicht Bastiat in Paris sein Buch "Cobden und die Liga" mit seinen Übersetzungen und Kommentaren. Das Buch beginnt mit einer Einleitung über die wirtschaftliche Situation Englands, über die Entstehungsgeschichte und die Entwicklung der Liga. Seit 1815 war der Protektionismus in England sehr ausgeprägt. Es gab vor allem Gesetze zur Beschränkung der Getreideeinfuhr, die für die Bevölkerung sehr harte Konsequenzen hatten. Weizen war nämlich für die Herstellung von Brot, einem damals lebenswichtigen Gut, notwendig. Darüber hinaus begünstigte dieses System die Aristokratie, d. h. die Großgrundbesitzer, die daraus Pachten bezogen.
 
 
-![image](assets/en/042.webp)
 
 
 > In England, schrieb Bastiat, gibt es eine kleine Zahl von Plünderern und eine große Zahl von Ausgeplünderten, und man muss kein großer Ökonom sein, um auf den Reichtum der einen und das Elend der anderen zu schließen.

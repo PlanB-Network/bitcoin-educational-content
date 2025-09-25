@@ -493,7 +493,6 @@ Fascynujący i potężny mówca, miał niesamowity dar do wymyślania uderzając
 W 1845 r. Bastiat opublikował w Paryżu swoją książkę Cobden and the League wraz z tłumaczeniami i komentarzami. Książkę otwiera wprowadzenie na temat sytuacji gospodarczej Anglii, historii powstania i rozwoju Ligi. Od 1815 r. protekcjonizm w Anglii był bardzo rozwinięty. Istniały w szczególności prawa ograniczające import zboża, które miały bardzo poważne konsekwencje dla ludzi. W rzeczywistości pszenica była niezbędna do produkcji chleba, który był wówczas ważnym towarem. Co więcej, system ten faworyzował arystokrację, czyli dużych właścicieli ziemskich, którzy czerpali z niego czynsze.
 
 
-![image](assets/en/042.webp)
 
 
 > To, co współistnieje w Anglii, pisał Bastiat, to niewielka liczba grabieżców i duża liczba plądrowanych, i nie trzeba być wielkim ekonomistą, aby stwierdzić bogactwo tych pierwszych i nędzę tych drugich.

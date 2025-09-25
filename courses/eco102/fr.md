@@ -361,7 +361,6 @@ Orateur fascinant et redoutable, il avait un don prodigieux pour inventer des fo
 
 En 1845, Bastiat fait paraître à Paris son livre Cobden et la Ligue, avec ses traductions accompagnées de commentaires. Le livre s'ouvre par une introduction sur la situation économique de l'Angleterre, sur l’histoire de l’origine et des progrès de la Ligue. Depuis 1815, le protectionnisme était très développé en Angleterre. Il existait en particulier des lois limitant les importations de grains qui avaient des conséquences très dures pour le peuple. En effet, le blé était nécessaire à la fabrication du pain, denrée vitale à l'époque. Par ailleurs ce système favorisait l'aristocratie, c’est-à-dire les grands propriétaires terriens, qui en tiraient des rentes.
 
-![image](assets/en/042.webp)
 
 > Ce qui coexiste en Angleterre, écrit Bastiat, c’est un petit nombre de spoliateurs et un grand nombre de spoliés, et il ne faut pas être un grand économiste pour en conclure l’opulence des uns et la misère des autres.
 

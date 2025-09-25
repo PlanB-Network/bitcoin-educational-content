@@ -344,7 +344,6 @@ Un oratore affascinante e formidabile, aveva un dono prodigioso nell'inventare f
 
 Nel 1845, Bastiat pubblicò a Parigi il suo libro Cobden e la Lega, con le sue traduzioni accompagnate da commenti. Il libro si apre con un'introduzione sulla situazione economica dell'Inghilterra, sulla storia dell'origine e del progresso della Lega. Dal 1815, il protezionismo era molto sviluppato in Inghilterra. Vi erano, in particolare, leggi che limitavano l'importazione di grano che avevano conseguenze molto dure per il popolo. Infatti, il grano era necessario per fare il pane, una merce vitale all'epoca. Inoltre, questo sistema favoriva l'aristocrazia, cioè i grandi proprietari terrieri, che ne ricavavano rendite.
 
-![image](assets/en/042.webp)
 
 
 > Quello che coesiste in Inghilterra, scrisse Bastiat, è un piccolo numero di saccheggiatori e un grande numero di saccheggiati, e non occorre essere un grande economista per concludere l'opulenza dei primi e la miseria degli ultimi.

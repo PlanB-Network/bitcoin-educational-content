@@ -490,7 +490,6 @@ Orador fascinante e formidável, tinha um dom prodigioso para inventar frases ma
 Em 1845, Bastiat publicou em Paris o seu livro Cobden e a Liga, com as suas traduções acompanhadas de comentários. O livro começa com uma introdução sobre a situação económica da Inglaterra, sobre a história da origem e dos progressos da Liga. Desde 1815, o protecionismo estava muito desenvolvido em Inglaterra. Havia, nomeadamente, leis que limitavam a importação de cereais e que tinham consequências muito duras para a população. De facto, o trigo era necessário para fazer pão, um bem vital na época. Além disso, este sistema favorecia a aristocracia, ou seja, os grandes proprietários de terras, que dele retiravam rendas.
 
 
-![image](assets/en/042.webp)
 
 
 > O que coexiste em Inglaterra, escreveu Bastiat, é um pequeno número de saqueadores e um grande número de saqueados, e não é preciso ser um grande economista para concluir a opulência dos primeiros e a miséria dos segundos.

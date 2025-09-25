@@ -888,6 +888,7 @@ The risk of overly favoring the path of law or bureaucratic control is that it d
 Let's illustrate this issue with a few major current topics. First example, the 2008 crisis.
 
 ![image](assets/en/103.webp)
+
 _(Alan Greenspan, Chairman of the FED, the American central bank, from 1987 to 2006)_
 
 For years, monetary policy leaders explained that if profits are privatized when everything goes well, losses will be mutualized in case of bankruptcy (bailouts, rescue plans, interest rate manipulation, printing money, etc.). In doing so, they created a moral hazard, they facilitated unreasonable risk-taking, and they encouraged the financial world to behave irresponsibly. They thus precipitated finance into the crisis we experienced.

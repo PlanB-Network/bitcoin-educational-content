@@ -4,245 +4,114 @@ description: Bagaimana cara menggunakan Proton Authenticator untuk mengamankan a
 ---
 ![cover](assets/cover.webp)
 
+Two-factor authentication (2FA) menambahkan lapisan keamanan ekstra pada akun Anda dengan mewajibkan, selain kata sandi Anda, bukti tambahan yang hanya Anda miliki. Mengaktifkan 2FA secara signifikan mengurangi risiko peretasan, bahkan jika kata sandi Anda disusupi melalui phishing atau kebocoran data. Tanpa 2FA, penyerang hanya membutuhkan kata sandi Anda untuk mengakses akun Anda; dengan 2FA, ia juga membutuhkan faktor kedua Anda, menggagalkan sebagian besar upaya pencurian akun.
 
+Ada berbagai jenis 2FA. Kode SMS lebih baik daripada tidak sama sekali, tetapi tetap rentan terhadap serangan SIM swapping dan penyadapan. Kami tidak merekomendasikan SMS sebagai 2FA utama. Authentication applications (TOTP) menghasilkan kode sementara secara lokal di perangkat Anda, membuatnya jauh lebih sulit untuk disadap. Physical security keys menawarkan keamanan terbaik, tetapi memerlukan hardware khusus.
 
-Autentikasi dua faktor (2FA) menambahkan penghalang keamanan tambahan pada akun Anda dengan mengharuskan, selain kata sandi, bukti tambahan bahwa hanya Anda yang memilikinya. Mengaktifkan 2FA secara drastis mengurangi risiko peretasan, bahkan jika kata sandi Anda dibobol melalui phishing atau kebocoran data. Tanpa 2FA, penyerang hanya membutuhkan kata sandi Anda untuk mengakses akun Anda; dengan 2FA, dia juga membutuhkan faktor kedua Anda, menggagalkan sebagian besar upaya pencurian akun.
-
-
-
-Ada berbagai jenis 2FA. Kode SMS lebih baik daripada tidak sama sekali, tetapi tetap rentan terhadap serangan pertukaran SIM dan intersepsi. Kami tidak merekomendasikan SMS sebagai 2FA utama. Aplikasi otentikasi (TOTP) generate kode sementara secara lokal di perangkat Anda, sehingga lebih sulit untuk disadap. Kunci keamanan fisik menawarkan keamanan terbaik, tetapi membutuhkan perangkat keras khusus.
-
-
-
-Proton Authenticator adalah pengautentikasi TOTP. Ini adalah respons Proton terhadap keterbatasan aplikasi yang ada: banyak yang bersifat eksklusif, berisi pelacak iklan dan tidak menawarkan cadangan terenkripsi. Proton Authenticator membedakan dirinya dengan menyediakan aplikasi sumber terbuka, bebas dari iklan dan pelacak, dengan cadangan terenkripsi ujung ke ujung.
-
-
+Proton Authenticator adalah authenticator TOTP. Ini adalah Respon Proton terhadap keterbatasan aplikasi yang sudah ada: banyak yang berbayar, mengandung pelacak iklan, dan tidak menawarkan cadangan terenkripsi. Proton Authenticator membedakan dirinya dengan menyediakan aplikasi open source, bebas iklan dan pelacak, dengan cadangan terenkripsi end-to-end.
 
 ## Memperkenalkan Proton Authenticator
 
+Proton Authenticator adalah aplikasi autentikasi TOTP seluler dan desktop yang dikembangkan oleh Proton, yang terkenal dengan layanan yang berfokus pada privasi. Seperti semua produk Proton, aplikasi ini open source dan telah menjalani audit keamanan independen. Ini tersedia secara gratis di semua platform (Android, iOS, Windows, macOS, Linux).
 
-
-Proton Authenticator adalah aplikasi otentikasi TOTP seluler dan desktop yang dikembangkan oleh Proton, yang terkenal dengan layanan yang berfokus pada privasi. Seperti semua produk Proton, aplikasi ini bersifat open source dan telah menjalani audit keamanan independen. Aplikasi ini tersedia secara gratis di semua platform (Android, iOS, Windows, macOS, Linux).
-
-
-
-Proton Authenticator menawarkan fitur-fitur utama berikut ini:
-
-
-
-
+Proton Authenticator menawarkan fitur-fitur utama berikut:
 
 - Pembuatan kode **TOTP** untuk akun 2FA Anda, kompatibel dengan sebagian besar situs yang menggunakan Google Authenticator, Authy, dll.
-
-
-
-
-
-- **Pencadangan awan terenkripsi opsional**: Anda dapat menautkan aplikasi ke akun Proton Anda untuk mencadangkan dan menyinkronkan kode Anda dengan enkripsi ujung ke ujung. Jika Anda kehilangan perangkat Anda, cukup sambungkan kembali perangkat yang baru untuk memulihkan semua kode Anda.
-
-
-
-
-
-- **Sinkronisasi multi-perangkat**: dengan masuk ke Proton di aplikasi, kode 2FA Anda secara otomatis disinkronkan di antara beberapa perangkat melalui enkripsi ujung ke ujung. Pada iOS, alternatifnya adalah sinkronisasi melalui iCloud.
-
-
-
-
-
-- **Penguncian lokal dengan kata sandi atau biometrik**: aplikasi ini menawarkan penguncian PIN dan/atau sidik jari / ID Wajah. Jadi, meskipun seseorang secara fisik mengakses ponsel Anda yang tidak terkunci, mereka tidak akan dapat membuka Proton Authenticator.
-
-
-
-
-
+- **Cadangan cloud terenkripsi opsional**: Anda dapat menautkan aplikasi ke akun Proton Anda untuk mencadangkan dan menyinkronkan kode Anda dengan enkripsi end-to-end. Jika Anda kehilangan perangkat, cukup sambungkan kembali perangkat baru untuk memulihkan semua kode Anda.
+- **Sinkronisasi multi-perangkat**: Dengan login ke Proton di aplikasi, kode 2FA Anda secara otomatis tersinkronisasi antara beberapa perangkat melalui enkripsi end-to-end. Di iOS, alternatifnya adalah sinkronisasi melalui iCloud.
+- **Penguncian lokal dengan kata sandi atau biometrik**: Aplikasi ini menawarkan penguncian PIN dan/atau fingerprint/Face ID. Jadi, meskipun seseorang secara fisik mengakses ponsel pintar Anda yang tidak terkunci, mereka tidak akan dapat membuka Proton Authenticator.
 - **Tidak ada pengumpulan data atau pelacak**: Proton berkomitmen untuk tidak mengumpulkan data pribadi melalui aplikasi. Tidak ada iklan tersembunyi atau analisis perilaku.
+- **Impor/ekspor mudah**: Salah satu poin kuat Proton Authenticator adalah wizard impornya untuk akun yang sudah ada, kompatibel dengan aplikasi lain (Google Authenticator, Authy, Aegis, dll.). Anda juga dapat mengekspor kode Anda ke file jika diperlukan.
 
-
-
-
-
-- **Impor/ekspor yang mudah**: salah satu keunggulan Proton Authenticator adalah panduan impor untuk akun yang sudah ada, yang kompatibel dengan aplikasi lain (Google Authenticator, Authy, Aegis, dll.). Anda juga dapat mengekspor kode Anda ke sebuah file jika diperlukan.
-
-
-
-Singkatnya, Proton Authenticator bertujuan untuk menjadi solusi 2FA tanpa kompromi: aman, privat, fleksibel.
-
-
+Singkatnya, Proton Authenticator bertujuan untuk menjadi solusi 2FA yang tanpa kompromi: aman, privat, fleksibel.
 
 ## Instalasi
 
-
-
 Proton Authenticator tersedia secara gratis di semua platform. Untuk mengunduh aplikasi, buka halaman resminya: [https://proton.me/fr/authenticator/download](https://proton.me/fr/authenticator/download)
-
-
 
 ![PROTON AUTHENTICATOR](assets/fr/01.webp)
 
-
-
 *Halaman resmi Proton Authenticator yang menunjukkan fitur utama aplikasi dan Interface*
 
-
-
-Di halaman ini, Anda akan menemukan tautan unduhan untuk semua sistem operasi: Android, iOS, Windows, macOS, dan Linux. Cukup klik pada sistem operasi pilihan Anda dan ikuti langkah-langkah instalasi standar.
-
-
+Di halaman ini, Anda akan menemukan link unduhan untuk semua sistem operasi: Android, iOS, Windows, macOS, dan Linux. Cukup klik pada sistem operasi pilihan Anda dan ikuti langkah-langkah instalasi standar.
 
 Dalam tutorial ini, kami akan menunjukkan cara memasang dan mengonfigurasinya di macOS, lalu kita akan melihat cara memasang aplikasi di iOS dan menyinkronkan kode Anda di antara kedua perangkat.
 
-
-
 ### Instalasi di macOS
-
-
 
 Setelah Anda mengunduh dan menginstal aplikasi, luncurkan Proton Authenticator. Saat pertama kali diluncurkan, aplikasi akan memandu Anda melalui beberapa layar konfigurasi awal:
 
-
-
 ![PROTON AUTHENTICATOR](assets/fr/02.webp)
 
-
-
-*Layar selamat datang Proton Authenticator dengan pesan "Keamanan di setiap kode" dan tombol "Mulai "*
-
-
+*Layar selamat datang Proton Authenticator dengan pesan "Keamanan di setiap kode" dan tombol "Get started"*
 
 ### Impor awal
 
-
-
 Jika Proton Authenticator mendeteksi bahwa Anda sebelumnya menggunakan aplikasi 2FA lain, wizard impor mungkin muncul. Ini mendukung impor langsung dari aplikasi tertentu (Google Authenticator, 2FAS, Authy, Aegis, dll.). Atau, Anda bisa melewatkan langkah ini dan menambahkan akun secara manual nanti.
-
-
 
 ![PROTON AUTHENTICATOR](assets/fr/03.webp)
 
-
-
 *Panduan impor untuk mentransfer kode dari aplikasi autentikasi lain*
-
-
 
 ![PROTON AUTHENTICATOR](assets/fr/04.webp)
 
-
-
-*Aplikasi impor yang kompatibel: 2FAS, Aegis Authenticator, Authy, Bitwarden Authenticator, Ente Auth, dan Google Authenticator*
-
-
+*Aplikasi yang kompatibel untuk impor: 2FAS, Aegis Authenticator, Authy, Bitwarden Authenticator, Ente Auth, dan Google Authenticator*
 
 ### Perlindungan aplikasi lokal
 
-
-
 Tetapkan PIN buka kunci, atau aktifkan buka kunci biometrik (Touch ID) jika tersedia. Langkah ini sangat penting untuk mencegah siapa pun yang menggunakan Mac Anda mendapatkan akses gratis ke kode 2FA.
-
-
 
 ![PROTON AUTHENTICATOR](assets/fr/05.webp)
 
-
-
-*Layar konfigurasi Touch ID dengan pesan "Lindungi data Anda" dan tombol "Aktifkan Touch ID "*
-
-
+*Layar konfigurasi Touch ID dengan pesan "Lindungi data Anda" dan tombol "Activate Touch ID"*
 
 ### Opsi sinkronisasi
 
-
-
 Aplikasi ini juga memungkinkan Anda mengaktifkan sinkronisasi iCloud untuk mencadangkan data dengan aman di antara perangkat Apple Anda.
-
-
 
 ![PROTON AUTHENTICATOR](assets/fr/06.webp)
 
-
-
-*Opsi sinkronisasi iCloud dengan pesan "Cadangkan data Anda dengan aman dengan sinkronisasi iCloud terenkripsi "*
-
-
+*Opsi sinkronisasi iCloud dengan pesan "Cadangkan data Anda dengan aman dengan sinkronisasi terenkripsi iCloud"*
 
 Setelah langkah-langkah ini selesai, Proton Authenticator siap digunakan.
 
-
-
 ![PROTON AUTHENTICATOR](assets/fr/07.webp)
 
-
-
-*Interface Proton Authenticator kosong utama dengan opsi "Buat kode baru" dan "Impor kode "*
-
-
+*Interface Proton Authenticator kosong utama dengan opsi "Create a new code" dan "Import codes"*
 
 ## Tambahkan akun 2FA dengan ProtonMail
 
-
-
 Sekarang kita akan melihat cara menambahkan kode 2FA pertama Anda, dengan menggunakan ProtonMail sebagai contoh. Metode ini bekerja sama untuk semua layanan yang mendukung autentikasi dua faktor.
-
-
 
 ### Mengaktifkan 2FA di ProtonMail
 
-
-
 Pertama-tama, Anda dapat membaca panduan kami untuk ProtonMail untuk informasi lebih lanjut:
-
-
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-Masuk ke akun ProtonMail Anda dan buka pengaturan keamanan. Cari opsi "Autentikasi dua faktor" dan aktifkan.
-
-
+Masuk ke akun ProtonMail Anda dan buka pengaturan keamanan. Cari opsi "two-factor authentication" dan aktifkan.
 
 ![PROTON AUTHENTICATOR](assets/fr/08.webp)
 
-
-
-*Halaman pengaturan ProtonMail dengan opsi "Aplikasi autentikator" di bagian "Otentikasi dua faktor "*
-
-
+*Halaman pengaturan ProtonMail dengan opsi "Aplikasi autentikator" di bagian "two-factor authentication"*
 
 Klik pada tombol untuk mengaktifkan autentikator dan ProtonMail akan meminta Anda untuk memilih aplikasi autentikasi.
 
-
-
 ![PROTON AUTHENTICATOR](assets/fr/09.webp)
 
-
-
-*Jendela konfigurasi ProtonMail 2FA dengan tombol "Batal" dan "Berikutnya"*
-
-
+*Window konfigurasi ProtonMail 2FA dengan tombol "Camcel dan Next"*
 
 ProtonMail kemudian akan menampilkan kode QR untuk Anda pindai dengan aplikasi autentikasi Anda.
 
-
-
 ![PROTON AUTHENTICATOR](assets/fr/10.webp)
 
+*Kode QR ProtonMail untuk dipindai dengan aplikasi autentikasi Anda, dengan opsi "Enter key manually instead" tersedia*
 
-
-*Kode QR ProtonMail untuk dipindai dengan aplikasi autentikasi Anda, dengan opsi "Masukkan kunci secara manual sebagai gantinya" tersedia*
-
-
-
-Jika Anda lebih suka memasukkan kunci secara manual, klik "Masukkan kunci secara manual" untuk melihat kunci rahasia.
-
-
+Jika Anda lebih suka memasukkan kunci secara manual, klik "Enter key manually instead" untuk melihat kunci rahasia.
 
 ![PROTON AUTHENTICATOR](assets/fr/11.webp)
 
-
-
 *Memasukkan informasi 2FA secara manual: Kunci, Interval (30) dan Angka (6)*
-
-
 
 ### Pindai kode QR dengan Proton Authenticator
 

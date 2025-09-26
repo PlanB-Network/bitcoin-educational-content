@@ -1,0 +1,9 @@
+question: Full nodeの主な特徴は？
+answer: Blockchain全体をダウンロードし、検証する。
+wrong_answers:
+  - ブロックヘッダーのみを保持
+  - 検証後に古いブロックを削除する
+  - トランザクションを検証するために別のノードに依存する。
+explanation: |
+  Full nodeはBlockchain全体を保持し、各ブロックとトランザクションを独立して検証する。
+reviewed: true

@@ -5,7 +5,7 @@ objectives:
 
   - Understand the role and purpose of a Bitcoin node.
   - Identify the different hardware and software solutions available.
-  - Install and configure a complete node (Bitcoin Core).
+  - Install and configure a full node (Bitcoin Core).
   - Use the Interface Umbrel and add useful applications.
   - Connect a personal wallet to its own node.
   - Explore advanced settings and best security practices.
@@ -17,7 +17,7 @@ objectives:
 You're probably familiar with the adage "Not your keys, not your coins", which encourages self-custody of your bitcoins. Holding your own keys is indeed an essential first step, but it's not enough. To achieve true monetary sovereignty, you also need to install and use your own Bitcoin node. This course is designed to guide you through this fundamental step in your Bitcoin journey!
 
 
-BTC 202 is an accessible course designed to teach you how to spin your own Bitcoin knot, even if you're not a technical expert. We'll start by defining what a Bitcoin knot is, what it's for, and why it's absolutely essential to spin one yourself. I'll then guide you step-by-step through choosing your hardware, installing the necessary software, connecting your portfolio software, and making the first possible optimizations to take it further.
+BTC 202 is an accessible course designed to teach you how to spin your own Bitcoin knot, even if you're not a technical expert. We'll start by defining what a Bitcoin knot is, what it's for, and why it's absolutely essential to spin one yourself. I'll then guide you step-by-step through choosing your hardware, installing the necessary software, connecting your wallet, and making the first possible optimizations to take it further.
 
 
 Running a Bitcoin node is not just an option for experts; it's a necessity. It's a resilience tool that every user needs to understand and implement. This course is your starting point to becoming a sovereign bitcoiner!
@@ -73,7 +73,7 @@ After a brief introduction to Umbrel, we'll provide a detailed tutorial to guide
 ### Part 4 - Connecting your wallet to your node
 
 
-Now that you've set up a Bitcoin node, it's time to use it! In this section, you'll learn how to connect your portfolio management software (like Sparrow wallet) to your own address indexer (Electrs or Fulcrum), or directly to Bitcoin Core, so you're no longer dependent on public servers.
+Now that you've set up a Bitcoin node, it's time to use it! In this section, you'll learn how to connect your wallet management software (like Sparrow wallet) to your own address indexer (Electrs or Fulcrum), or directly to Bitcoin Core, so you're no longer dependent on public servers.
 
 
 We'll also examine the role of indexers and the various methods of connecting to your node (LAN, Tor, Tailscale, etc.). Finally, in the last chapter, we'll review the most useful applications available on Umbrel for the everyday bitcoiner.
@@ -213,7 +213,7 @@ A Bitcoin node, as mentioned above, is a piece of software that actively partici
 A Bitcoin wallet, on the other hand, is a piece of software designed to store and manage your private keys. These keys enable you to spend your bitcoins by satisfying the locking scripts (typically through a signature). A wallet can connect to a node (whether local or remote) in order to consult the status of the Blockchain and broadcast the transactions it builds, but it is not, as such, a participant in the network.
 
 
-In some cases, these two functions coexist within the same software, as is the case with Bitcoin Core, which serves as both a complete node and a wallet. However, many popular wallet programs (Sparrow, BlueWallet, etc.) require a connection to an external node (whether your own or a third party's) to broadcast transactions and determine the wallet balance.
+In some cases, these two functions coexist within the same software, as is the case with Bitcoin Core, which serves as both a full node and a wallet. However, many popular wallet programs (Sparrow, BlueWallet, etc.) require a connection to an external node (whether your own or a third party's) to broadcast transactions and determine the wallet balance.
 
 
 ![Image](assets/fr/052.webp)
@@ -408,7 +408,7 @@ Without a personal node, you remain dependent on a third party for access to inf
 ![Image](assets/fr/060.webp)
 
 
-Running a complete node means you can check all the protocol rules yourself, for every transaction and every block. As a result, the balance displayed by your wallet is not data received from a remote server, but a result calculated locally from a complete copy of the Blockchain, validated block by block. This approach gives full meaning to the bitcoiners' maxim:
+Running a full node means you can check all the protocol rules yourself, for every transaction and every block. As a result, the balance displayed by your wallet is not data received from a remote server, but a result calculated locally from a complete copy of the Blockchain, validated block by block. This approach gives full meaning to the bitcoiners' maxim:
 
 
 > Don't trust, verify.
@@ -431,7 +431,7 @@ So it's not a direct personal benefit: running a node makes you partly responsib
 ### Deepen your understanding of the system
 
 
-Installing a complete node is no trivial operation. It involves installing software, understanding basic operation, monitoring synchronization, examining logs in the event of problems, and even using the terminal. This will necessarily lead you to deepen your understanding of the protocol. This is an indirect, but not insignificant advantage.
+Installing a full node is no trivial operation. It involves installing software, understanding basic operation, monitoring synchronization, examining logs in the event of problems, and even using the terminal. This will necessarily lead you to deepen your understanding of the protocol. This is an indirect, but not insignificant advantage.
 
 
 Acquiring this knowledge strengthens your confidence in the tool and can reduce the risk of error or exposure to scams. Spinning your own knot is also a form of learning.
@@ -514,7 +514,7 @@ Let's take an example: let's suppose Bitcoin suffers a Hard Fork. There would th
 On Bitcoin, the role of "merchant", understood as any entity with a certain economic weight, of course includes businesses (physical stores, online sales sites, service providers, etc.), but also exchange platforms, since they accept Bitcoin in exchange for other currencies, and miners, since they accept Bitcoin via fees in exchange for the service of including a transaction in a block.
 
 
-As far as consensus rules are concerned, your node allows you to direct your economic activity towards one currency or another. For example, if you have 10 complete nodes at home, but no significant economic activity, your influence during a Fork will be almost nil. Conversely, a single node used to manage a chain of 200 stores accepting Bitcoin confers significant economic weight.
+As far as consensus rules are concerned, your node allows you to direct your economic activity towards one currency or another. For example, if you have 10 full nodes at home, but no significant economic activity, your influence during a Fork will be almost nil. Conversely, a single node used to manage a chain of 200 stores accepting Bitcoin confers significant economic weight.
 
 
 So it's not the number of nodes that matters, but the importance of the economic activity they support. What's more, if your economic activity depends on a node you don't control, its owner will decide what currency you use, as long as you remain connected to that node. This is why running and using your own node is particularly important in the context of system governance:
@@ -534,19 +534,19 @@ A Bitcoin node is, therefore, a machine running an implementation of the Bitcoin
 ### The complete knot
 
 
-A complete node is simply a Bitcoin node that downloads the entire Blockchain from the Genesis block, validates each block independently, and stores the history of all that Blockchain locally. This is the "normal" form of a Bitcoin node, as imagined by Satoshi Nakamoto.
+A full node is simply a Bitcoin node that downloads the entire Blockchain from the Genesis block, validates each block independently, and stores the history of all that Blockchain locally. This is the "normal" form of a Bitcoin node, as imagined by Satoshi Nakamoto.
 
 
 ![Image](assets/fr/063.webp)
 
 
-The complete node doesn't need to trust anyone because it validates and knows all the information in the system. It's the type of node that gives you the most guarantees: you know, without relying on a third party, whether a payment is valid, whether a block is valid, whether a reorganization is legitimate, and so on.
+The full node doesn't need to trust anyone because it validates and knows all the information in the system. It's the type of node that gives you the most guarantees: you know, without relying on a third party, whether a payment is valid, whether a block is valid, whether a reorganization is legitimate, and so on.
 
 
-In practice, a complete node requires non-trivial resources, including several hundred gigabytes for block files, a processor capable of validating scripts, RAM for the Mempool and caches, and stable bandwidth. The first synchronization (*IBD*) reads and verifies the complete history: it's intensive, but only happens once. A full node actively participates in the network, relaying blocks and transactions, and can accept incoming connections to assist other peers.
+In practice, a full node requires non-trivial resources, including several hundred gigabytes for block files, a processor capable of validating scripts, RAM for the Mempool and caches, and stable bandwidth. The first synchronization (*IBD*) reads and verifies the complete history: it's intensive, but only happens once. A full node actively participates in the network, relaying blocks and transactions, and can accept incoming connections to assist other peers.
 
 
-Depending on your needs, you can add an indexer to your complete node. Bitcoin Core offers transaction indexing as an optional feature (deactivated by default), which can be useful for specific purposes. However, it doesn't include an address indexer, which is often the most sought-after feature for individual users. To remedy this, you can install dedicated software on your node, such as Electrs or Fulcrum, to speed up address balance verification queries from associated UTXOs. We'll come back to the role of the indexer in more detail in a separate chapter.
+Depending on your needs, you can add an indexer to your full node. Bitcoin Core offers transaction indexing as an optional feature (deactivated by default), which can be useful for specific purposes. However, it doesn't include an address indexer, which is often the most sought-after feature for individual users. To remedy this, you can install dedicated software on your node, such as Electrs or Fulcrum, to speed up address balance verification queries from associated UTXOs. We'll come back to the role of the indexer in more detail in a separate chapter.
 
 
 ### The pruned knot
@@ -561,7 +561,7 @@ The pruned node validates everything as a full node, from the Genesis block to t
 The technical implications of this option are fairly straightforward: the pruned node is perfectly capable of broadcasting your transactions, participating in the relay, verifying blocks and transactions, and tracking the chain. On the other hand, it cannot serve as a source of historical data beyond its limits for other applications (e.g., full explorers, indexers, wallets). Functions requiring the archive (or a global index) will therefore not be available.
 
 
-In practical terms, you can use a pruned node to connect portfolio management software such as Sparrow wallet. However, you won't be able to scan transactions on your Wallet that predate the pruning limit. For example, if you have a transaction registered in block 901 458, but your node only keeps blocks from 905 402 upwards (because the oldest have been pruned), you won't be able to scan this transaction. On the other hand, if you had already scanned it when your node still had this block height, then your portfolio management software will store the information and display the balance of the corresponding UTXOs correctly.
+In practical terms, you can use a pruned node to connect wallet management software such as Sparrow wallet. However, you won't be able to scan transactions on your Wallet that predate the pruning limit. For example, if you have a transaction registered in block 901 458, but your node only keeps blocks from 905 402 upwards (because the oldest have been pruned), you won't be able to scan this transaction. On the other hand, if you had already scanned it when your node still had this block height, then your wallet management software will store the information and display the balance of the corresponding UTXOs correctly.
 
 
 In short, Wallet tracking works without a hitch on a pruned node if you create a new wallet while your software is already connected to that node. On the other hand, you may encounter difficulties if you restore an old wallet, as past transactions that are no longer retained by the node will obviously not be retrievable.
@@ -570,7 +570,7 @@ In short, Wallet tracking works without a hitch on a pruned node if you create a
 ### The light knot / SPV
 
 
-An SPV (*Simplified Payment Verification*) node, or lightweight node, retains only block headers, not transaction details, and relies on other complete nodes to obtain proof that a transaction is in a block (Merkle proofs via trees) for which it has the header. The concept of simplified payment verification is not new, having been proposed by Satoshi Nakamoto himself in part 8 of the White Paper.
+An SPV (*Simplified Payment Verification*) node, or lightweight node, retains only block headers, not transaction details, and relies on other full nodes to obtain proof that a transaction is in a block (Merkle proofs via trees) for which it has the header. The concept of simplified payment verification is not new, having been proposed by Satoshi Nakamoto himself in part 8 of the White Paper.
 
 
 ![Image](assets/fr/066.webp)
@@ -579,10 +579,10 @@ An SPV (*Simplified Payment Verification*) node, or lightweight node, retains on
 Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
 
 
-This type of node is obviously much lighter in terms of storage and CPU usage than a full node or even a pruned node. The SPV node is therefore well-suited to smaller devices and intermittent connections. In fact, it is often integrated directly into portfolio management software, especially mobile software such as the Blockstream App.
+This type of node is obviously much lighter in terms of storage and CPU usage than a full node or even a pruned node. The SPV node is therefore well-suited to smaller devices and intermittent connections. In fact, it is often integrated directly into the wallet, especially mobile software such as the Blockstream App.
 
 
-The trade-off is trust and confidentiality: an SPV client doesn't check scripts or validation policies itself; it assumes that the chain with the most work is valid, and depends on one or more complete nodes for responses. Using this type of node is therefore a better option than connecting to a third-party node; however, it is still less advantageous than having a full node or even a pruned node.
+The trade-off is trust and confidentiality: an SPV client doesn't check scripts or validation policies itself; it assumes that the chain with the most work is valid, and depends on one or more full nodes for responses. Using this type of node is therefore a better option than connecting to a third-party node; however, it is still less advantageous than having a full node or even a pruned node.
 
 
 ![Image](assets/fr/065.webp)
@@ -609,7 +609,7 @@ An intermediate user with a PC can install a pruned node to benefit from almost 
 - Sovereign Bitcoiner / advanced
 
 
-A complete node remains the best solution if you want to be totally independent in your use of Bitcoin and not limit yourself later on to advanced uses such as an indexer, a Lightning node, or even a block explorer. That's exactly what we're going to explore in this course!
+A full node remains the best solution if you want to be totally independent in your use of Bitcoin and not limit yourself later on to advanced uses such as an indexer, a Lightning node, or even a block explorer. That's exactly what we're going to explore in this course!
 
 
 ## Overview of software solutions
@@ -639,7 +639,7 @@ This is the most sovereign and flexible approach: you know exactly what's runnin
 #### Bitcoin Core (ultra-majority customer)
 
 
-[Bitcoin Core is the network's ultra-majority client](https://bitcoincore.org/). It downloads, validates, and maintains the Blockchain, provides RPC/REST APIs, and can integrate a software portfolio. If you prefer standard tools and feel comfortable adding services yourself (such as Electrum server, explorer, and LND), you're better off using Core as is.
+[Bitcoin Core is the network's ultra-majority client](https://bitcoincore.org/). It downloads, validates, and maintains the Blockchain, provides RPC/REST APIs, and can integrate a wallet. If you prefer standard tools and feel comfortable adding services yourself (such as Electrum server, explorer, and LND), you're better off using Core as is.
 
 
 **Benefits:** Maximum stability, predictable behavior, raw experience, easy to install and configure.
@@ -714,7 +714,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 [Start9 offers StartOS (https://start9.com/), a system designed for "sovereign computing": the aim is for everyone to own and manage their own private server, enhanced by a marketplace of self-hosted applications. You can purchase a Start9 server (Server One at $619, Server Pure at $899) or assemble your own in DIY mode on your own machine.
 
 
-On the Bitcoin side, StartOS lets you install a complete node, a Lightning node, BTCPay Server, Electrs, and many other services. However, Start9's appeal extends beyond this: it offers the possibility of discovering, configuring, and exposing various software (file cloud, messaging, monitoring) in a unified manner, with complete control. The project is therefore aimed at users who want a robust self-hosting platform, not just a simple Bitcoin node. It's probably the most complete ecosystem after Umbrel.
+On the Bitcoin side, StartOS lets you install a full node, a Lightning node, BTCPay Server, Electrs, and many other services. However, Start9's appeal extends beyond this: it offers the possibility of discovering, configuring, and exposing various software (file cloud, messaging, monitoring) in a unified manner, with complete control. The project is therefore aimed at users who want a robust self-hosting platform, not just a simple Bitcoin node. It's probably the most complete ecosystem after Umbrel.
 
 
 ![Image](assets/fr/068.webp)
@@ -737,7 +737,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 ![Image](assets/fr/069.webp)
 
 
-In practice, MyNode brings together all the basic building blocks needed to operate a complete node, as well as the applications essential to Bitcoin users. Therefore, it's a suitable solution if you don't require applications external to the Bitcoin ecosystem, such as self-hosted apps found in Start9 and Umbrel systems.
+In practice, MyNode brings together all the basic building blocks needed to operate a full node, as well as the applications essential to Bitcoin users. Therefore, it's a suitable solution if you don't require applications external to the Bitcoin ecosystem, such as self-hosted apps found in Start9 and Umbrel systems.
 
 
 https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
@@ -800,7 +800,7 @@ Now that we've explored all the software possibilities, let's focus on the hardw
 ### Do you really need a dedicated machine?
 
 
-Over the past few years, bitcoiners have become increasingly aware of a common misconception, particularly with the popularization of node-in-a-box in the early 2020s: a Bitcoin node should necessarily run on a machine dedicated exclusively to this purpose. But this is not true. You don't necessarily need a dedicated computer to run a Bitcoin node: Bitcoin Core is perfectly capable of running on your everyday PC. If you have sufficient disk space for Blockchain or enable pruning, you can validate the chain, connect your portfolio software, and even close the program when you're done using it. The advantage of this approach is considerable: zero initial investment and minimal complexity.
+Over the past few years, bitcoiners have become increasingly aware of a common misconception, particularly with the popularization of node-in-a-box in the early 2020s: a Bitcoin node should necessarily run on a machine dedicated exclusively to this purpose. But this is not true. You don't necessarily need a dedicated computer to run a Bitcoin node: Bitcoin Core is perfectly capable of running on your everyday PC. If you have sufficient disk space for Blockchain or enable pruning, you can validate the chain, connect your wallet, and even close the program when you're done using it. The advantage of this approach is considerable: zero initial investment and minimal complexity.
 
 
 ![Image](assets/fr/074.webp)
@@ -1153,7 +1153,7 @@ However, each application in the Store retains its own license, often open sourc
 
 
 
-## Installing a complete node with Umbrel
+## Installing a full node with Umbrel
 
 <chapterId>61bc09c7-787d-4649-b142-457ec018b0f4</chapterId>
 
@@ -1564,7 +1564,7 @@ Generally speaking, an indexer is a program that scans a set of raw data, extrac
 In layman's terms, it's the same principle as an index in a book: if you're looking for a specific piece of information, rather than rereading the whole book, you consult the index to directly find the page where the information you're looking for appears.
 
 
-In a Bitcoin node, such as Bitcoin Core, Blockchain data is stored in its raw, chronological form. Each block contains transactions, which in turn contain inputs and outputs, without any particular classification by address, identifier, or portfolio. This linear organization is optimized for block validation, but unsuitable for targeted searches. For example, if you wanted to find all transactions linked to a specific address in a non-indexed node, you'd have to manually review the entire blockchain, block by block and transaction by transaction. This is precisely where the indexer on your Bitcoin node comes in.
+In a Bitcoin node, such as Bitcoin Core, Blockchain data is stored in its raw, chronological form. Each block contains transactions, which in turn contain inputs and outputs, without any particular classification by address, identifier, or wallet. This linear organization is optimized for block validation, but unsuitable for targeted searches. For example, if you wanted to find all transactions linked to a specific address in a non-indexed node, you'd have to manually review the entire blockchain, block by block and transaction by transaction. This is precisely where the indexer on your Bitcoin node comes in.
 
 
 ![Image](assets/fr/085.webp)
@@ -1630,7 +1630,7 @@ The indexer requires a certain amount of synchronization time (less than the IBD
 ### Which indexer to choose?
 
 
-Two software programs are commonly used to build this type of address index and make it accessible: **Electrs** and **Fulcrum**. These tools index the Blockchain according to script-hash (addresses) and then propose a standardized Interface (the Electrum protocol), to which numerous portfolios, such as Electrum Wallet, Sparrow, or Phoenix, connect.
+Two software programs are commonly used to build this type of address index and make it accessible: **Electrs** and **Fulcrum**. These tools index the Blockchain according to script-hash (addresses) and then propose a standardized Interface (the Electrum protocol), to which numerous wallets, such as Electrum Wallet, Sparrow, or Phoenix, connect.
 
 
 ![Image](assets/fr/087.webp)
@@ -1650,7 +1650,7 @@ In concrete terms, in August 2025, Electrs will require approximately 56 GB of s
 - If you've got a comfortable amount of disk space, Fulcrum may be just what you're looking for.
 
 
-For the rest of this BTC 202 course, I'll be using Electrs, but you can easily follow along with Fulcrum: the installation procedure is identical, as is the Interface connection to the portfolio software, since both expose an Electrum server.
+For the rest of this BTC 202 course, I'll be using Electrs, but you can easily follow along with Fulcrum: the installation procedure is identical, as is the Interface connection to the wallet, since both expose an Electrum server.
 
 
 ### How do I install an indexer on Umbrel?
@@ -1668,7 +1668,7 @@ Once installation is complete, Electrs will proceed with a synchronization (inde
 ![Image](assets/fr/029.webp)
 
 
-Once synchronization is complete, you can connect your portfolio software to your Electrum server, which is hosted on Umbrel.
+Once synchronization is complete, you can connect your wallet software to your Electrum server, which is hosted on Umbrel.
 
 
 ## How do I connect my wallet to my Bitcoin node?
@@ -1689,7 +1689,7 @@ As mentioned above, there are two main connection interfaces:
 In this tutorial, we'll concentrate on connecting to your node via Tor, as this is both a simple and secure solution for beginners. I strongly advise against exposing your node's RPC port in the clear, as misconfiguration represents a significant risk to the security and confidentiality of your data. The main disadvantage of communications via Tor is its slowness. In the next chapter, we'll explore a fast and secure alternative to Tor for remote access to your node: VPN.
 
 
-We'll use Sparrow as an example in this chapter, but the procedure is the same for all other portfolio management software accepting connections to Electrum servers. Simply locate the corresponding setting in your application parameters (usually in "*Server*", "*Network*", "*Node*"...).
+We'll use Sparrow as an example in this chapter, but the procedure is the same for all other wallet management software accepting connections to Electrum servers. Simply locate the corresponding setting in your application parameters (usually in "*Server*", "*Network*", "*Node*"...).
 
 
 On Sparrow, open the "*File*" tab and go to the "Settings" menu.
@@ -1790,7 +1790,7 @@ The tick in the bottom right-hand corner of the Interface Sparrow wallet will tu
 **Note:** For the connection to work, your indexer must be 100% synchronized. If this is not the case, wait until the indexing process is complete.
 
 
-Now you know how to connect your portfolio management software to your Bitcoin node! In the next chapter, I'll introduce you to several additional applications available on Umbrel that I'm particularly fond of, and that will enable you to enhance your daily use of Bitcoin through your node.
+Now you know how to connect your wallet to your Bitcoin node! In the next chapter, I'll introduce you to several additional applications available on Umbrel that I'm particularly fond of, and that will enable you to enhance your daily use of Bitcoin through your node.
 
 
 
@@ -2148,7 +2148,7 @@ You can force full validation of all scripts by disabling this mechanism, at the
 `assumeutxo` is another existing parameter, but unlike `assumevalid`, it is not activated by default. This mechanism enables the software to load a snapshot of the UTXO set, along with its metadata, and provisionally consider it as a reference state, after verifying that the headers indeed lead to the Blockchain with the most work.
 
 
-The node thus quickly becomes operational for common uses (RPC, connecting portfolios, etc.), while simultaneously launching the complete, verified reconstruction of its own UTXO set in the background. Once this stage is complete, the initial snapshot is replaced by the locally reconstructed state. This approach separates fast node provision from full verification, without compromising the latter.
+The node thus quickly becomes operational for common uses (RPC, connecting wallets, etc.), while simultaneously launching the complete, verified reconstruction of its own UTXO set in the background. Once this stage is complete, the initial snapshot is replaced by the locally reconstructed state. This approach separates fast node provision from full verification, without compromising the latter.
 
 
 ### Peer discovery: How does your node find the Bitcoin network?
@@ -2206,7 +2206,7 @@ When your node has completed its initial synchronization, it stores several comp
 - and the **Mempool** is stored in RAM and periodically serialized.
 
 
-Additionally, several auxiliary files (peers, fee estimates, exclusion lists, portfolios, etc.) complete the picture. Let's discover the role of all these files.
+Additionally, several auxiliary files (peers, fee estimates, exclusion lists, wallets, etc.) complete the picture. Let's discover the role of all these files.
 
 
 ### Where are the node's data actually located?
@@ -2221,7 +2221,7 @@ By default, Bitcoin Core saves its data in a specific working directory. Under G
 ### The blocks
 
 
-Blockchain is, therefore, a collection of blocks. A complete node stores these blocks as sequential flat files and maintains a parallel index for quick retrieval. When needed (reorganization, portfolio rescan, peer service), this data is re-read as is.
+Blockchain is, therefore, a collection of blocks. A full node stores these blocks as sequential flat files and maintains a parallel index for quick retrieval. When needed (reorganization, wallet rescan, peer service), this data is re-read as is.
 
 
 **Note:** A reorganization, or resynchronization, is a phenomenon in which the Blockchain undergoes a modification of its structure due to the existence of competing blocks at the same height. This happens when a portion of the blockchain is replaced by another chain with a greater amount of accumulated work. These resynchronizations are a natural part of Bitcoin's operation, where different miners can find new blocks almost simultaneously, thereby splitting the Bitcoin network in two. In such cases, the network may temporarily split into competing chains. Eventually, as one of these chains accumulates more work, the other chains are abandoned by the nodes, and their blocks become known as "obsolete blocks" or "orphan blocks." This process of replacing one chain with another is called resynchronization.
@@ -2263,7 +2263,7 @@ Searching for a block directly in the flat files would be too time-consuming. Co
 Some indexes are optional and disabled by default, as they increase the disk footprint:
 
 
-- `indexes/txindex/`, which we've already mentioned, provides a transaction → location mapping table, making it possible to retrieve any confirmed transaction without knowing the block that contains it. This is useful for off-portfolio `getrawtransaction` type RPC queries, but is quite expensive.
+- `indexes/txindex/`, which we've already mentioned, provides a transaction → location mapping table, making it possible to retrieve any confirmed transaction without knowing the block that contains it. This is useful for off-wallet `getrawtransaction` type RPC queries, but is quite expensive.
 - indexes/blockfilter/` which can contain compact block filters (BIP157/158) for thin clients. These structures accelerate client-side verification at the expense of additional storage on the indexer node.
 
 
@@ -2305,7 +2305,7 @@ The growth of the UTXO set also stems from the structure of simple payment trans
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Since a portion of it must be kept in RAM to verify transactions in a reasonable time, the UTXO set may gradually render the operation of a complete node too costly. To solve this problem, a few proposals already exist, notably [Utreexo](https://planb.network/resources/glossary/utreexo).
+Since a portion of it must be kept in RAM to verify transactions in a reasonable time, the UTXO set may gradually render the operation of a full node too costly. To solve this problem, a few proposals already exist, notably [Utreexo](https://planb.network/resources/glossary/utreexo).
 
 
 ### The Mempool
@@ -2359,12 +2359,12 @@ Several other files at the same level as `blocks/`, `chainstate/`, and `indexes/
 - `guisettings.ini.bak` is the automatic saving of GUI settings (*Bitcoin Qt*) when the `-resetguisettings` option is used.
 
 
-As we saw in the first parts of this BTC 202 course, Bitcoin Core is both Bitcoin node software and portfolio management software. However, it's not necessarily the solution I'd recommend for managing your portfolios, as its Interface remains basic and its functionalities are limited compared with modern software such as Sparrow or Liana. Core also includes files for managing your portfolios:
+As we saw in the first parts of this BTC 202 course, Bitcoin Core is both Bitcoin node software and wallet. However, it's not necessarily the solution I'd recommend for managing your wallets, as its Interface remains basic and its functionalities are limited compared with modern software such as Sparrow or Liana. Core also includes files for managing your wallets:
 
 
 
 - `wallets/` is the default directory that hosts one or more;
-- `wallets/<name>/Wallet.dat` is the SQLite database of the portfolio (keys, descriptors, transaction metadata, etc.);
+- `wallets/<name>/Wallet.dat` is the SQLite database of the wallet (keys, descriptors, transaction metadata, etc.);
 - wallets/<name>/Wallet.dat-journal` is the SQLite rollback log.
 
 
@@ -2496,7 +2496,7 @@ First of all, it's important to clearly distinguish between the 2 types of conne
 These two types of connection are perfectly capable of exchanging the same data in both directions; it's not a question of limiting the direction of flow, but only of a difference in the initiator of the connection. From our node's point of view, outgoing connections are generally considered safer, since we initiate them and choose precisely which node to connect to, making it unlikely that the connection is malicious. By default, Bitcoin Core maintains 10 outgoing connections (8 "*full-relay*" + 2 "*block-relay-only*").
 
 
-A complete node adds more value to the network by accepting incoming connections. The `listen=1` parameter enables listening on the default port 8333 of the network in question, enabling these incoming connections to be received on the clearnet. For this to work, this port must also be open on your router. If it isn't, your node will continue to work with outgoing connections only, which will have no impact on your personal use of Bitcoin. The choice of whether to allow incoming connections is yours; there is no "best choice."
+A full node adds more value to the network by accepting incoming connections. The `listen=1` parameter enables listening on the default port 8333 of the network in question, enabling these incoming connections to be received on the clearnet. For this to work, this port must also be open on your router. If it isn't, your node will continue to work with outgoing connections only, which will have no impact on your personal use of Bitcoin. The choice of whether to allow incoming connections is yours; there is no "best choice."
 
 
 If you prefer not to open a port on your router, but still accept incoming connections, you can activate the `listenonion=1` parameter. This will achieve the same result, but only through the Tor network rather than clearnet.
@@ -2635,7 +2635,7 @@ As a reminder, all these relay rules have no impact on the validity of transacti
 ### Wallets
 
 
-You can also adjust the way your portfolios are managed in the `Bitcoin.conf` file. If you're not using Wallet directly in Core, but rather external management software such as Sparrow or Liana, these parameters will be of little importance:
+You can also adjust the way your wallets are managed in the `Bitcoin.conf` file. If you're not using Wallet directly in Core, but rather external management software such as Sparrow or Liana, these parameters will be of little importance:
 
 
 
@@ -2647,7 +2647,7 @@ You can also adjust the way your portfolios are managed in the `Bitcoin.conf` fi
 
 
 
-- `Wallet=<path>`: Loads an existing portfolio at startup (can be repeated to load multiple portfolios).
+- `Wallet=<path>`: Loads an existing wallet at startup (can be repeated to load multiple wallets).
 
 
 
@@ -2733,7 +2733,7 @@ The configuration file also allows you to adjust the parameters related to your 
 
 
 
-- txindex=1`: Builds and maintains a global index of confirmed transactions. Essential for certain queries (`getrawtransaction` non-portfolio) and for exploration purposes, but significantly increases disk footprint. Incompatible with pruned mode.
+- txindex=1`: Builds and maintains a global index of confirmed transactions. Essential for certain queries (`getrawtransaction` non-wallet) and for exploration purposes, but significantly increases disk footprint. Incompatible with pruned mode.
 
 
 
@@ -2803,7 +2803,7 @@ Finally, the `Bitcoin.conf` file also allows you to configure the access paramet
 
 
 
-- `rpccookiefile=<path>`: Path to authentication cookie (default: `.cookie` file under `datadir/`). This is used for local access by the same user without managing persistent passwords. For example, you can use it to connect the Liana portfolio management software to your Bitcoin Core on the same machine.
+- `rpccookiefile=<path>`: Path to authentication cookie (default: `.cookie` file under `datadir/`). This is used for local access by the same user without managing persistent passwords. For example, you can use it to connect the Liana wallet to your Bitcoin Core on the same machine.
 
 
 

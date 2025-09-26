@@ -8282,16 +8282,24 @@ Važno je odabrati modernu opremu, koju održava njen proizvođač, i koja je u 
 Ruter kompatibilan sa Wi-Fi 6, Wi-Fi 6E ili Wi-Fi 7 pružiće vam poboljšane brzine i, pre svega, podršku za moderne sigurnosne tehnologije. Nasuprot tome, veoma stara oprema, posebno ona koja više ne prima softverske nadogradnje, može sadržati poznate, nezakrpljene ranjivosti. Stoga predstavljaju rizik za celu vašu mrežu, čak i ako ih pravilno konfigurišete. U poređenju sa mobilnim telefonima ili računarima, rutere obično zadržavamo mnogo godina. Međutim, može biti dobra ideja da ih češće menjate, kako biste imali koristi od modernijeg, sigurnijeg modela.
 
 
+**Pažnja**: Kao opšte pravilo, ruteri koje obezbeđuju internet provajderi mogu da nemaju osnovnu funkciju ažuriranja, kao i mogućnosti personalizacije. U nekim slučajevima, provajderi mogu imati i neograničen pristup unutrašnjoj mreži krajnjeg korisnika.
+
 Zato se pobrinite da sistematski ažurirate firmver vašeg rutera. Ova ažuriranja ispravljaju ranjivosti, dodaju nove funkcije i poboljšavaju ukupnu stabilnost sistema. Neki proizvođači nude automatska ažuriranja, ali u nekim slučajevima ćete morati ručno proveriti putem alata za administraciju vašeg rutera Interface. Kao i sa vašim telefonom, računarom, operativnim sistemom i softverom, važno je redovno ažurirati vaš ruter. Možete to učiniti delom vaše nedeljne rutine - Na primer, svake nedelje - tako što ćete napraviti listu svih stavki koje treba proveriti i ažurirati.
 
 
-Ako vaš usmerivač više nije održavan, ali i dalje ispravno radi sa hardverske tačke gledišta, možete instalirati alternativni open-source firmware, kao što su:
+Alternativno, možete omogućiti automatska ažuriranja ili makar automatsko skeniranje novih ažuriranja firmvera ako više volite da postupate ručno. Iako funkcija automatskog ažuriranja i dalje može predstavljati bezbednosnu pretnju, neosvežavanje firmvera rutera redovno izložiće vašu lokalnu mrežu javno poznatim ranjivostima.
+
+**Primer**: Prilikom kupovine sopstvenog rutera, može biti dobra ideja potražiti etablirane firme u industriji koje dugo pružaju rutere na tržištu. Na primer, Fritz!Box ruteri imaju dugogodišnju reputaciju plug-and-play uređaja, pogodnih za upotrebu i u porodičnom okruženju i u malim preduzećima. Njihova politika ažuriranja softvera obično se proteže tokom više godina.
+
+Ako vaš ruter više nije održavan ali i dalje radi ispravno sa stajališta hardvera, možda ćete moći da instalirate alternativni open-source firmware, kao što je:
 
 
 
 - OpenWrt, Linux distribucija specijalizovana za rutere, nudi veliku fleksibilnost i redovna ažuriranja
 - pfSense i OPNsense, dva sistema zasnovana na FreeBSD-u (slična Unix-u) za x86 vatrozide i rutere
 
+
+**Napomena**: Neki ISP-ovi isporučuju svojim korisnicima masovne rutere koje proizvodi jedna kompanija koja istovremeno opslužuje mnoge različite ISP-ove širom sveta. Možda ćete otkriti da je za instaliranje jednog od alternativnih firmvera na ruter neko drugi već otkrio kako to da uradi, čak i ako se nalazi na drugoj strani sveta.
 
 ![Image](assets/fr/196.webp)
 

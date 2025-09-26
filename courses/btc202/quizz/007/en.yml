@@ -1,7 +1,7 @@
-question: What does a portfolio need to do to view the status of Blockchain?
+question: What does a wallet need to do to view the status of Blockchain?
 answer: Connect to a local or remote node
 wrong_answers:
-  - Ask other portfolios in the network
+  - Ask other wallets in the network
   - Interviewing network miners
   - Connect to an online exchange platform
 explanation: |

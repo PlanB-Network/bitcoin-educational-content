@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste kenmerk van een Full node?
+answer: Het downloadt en valideert de volledige Blockchain
+wrong_answers:
+  - Alleen de headers van het blok blijven behouden
+  - Het verwijdert oude blokken na verificatie
+  - Het is afhankelijk van een ander knooppunt om transacties te valideren
+explanation: |
+  De Full node behoudt de volledige Blockchain en valideert elk blok en elke transactie onafhankelijk.
+reviewed: true

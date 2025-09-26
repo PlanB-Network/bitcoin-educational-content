@@ -1,4 +1,4 @@
-question: What makes a pruned node different from a complete node?
+question: What makes a pruned node different from a full node?
 answer: It gradually eliminates the old blocks
 wrong_answers:
   - It does not validate older transactions

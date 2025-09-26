@@ -6105,12 +6105,20 @@ It's important to choose modern equipment, maintained by its manufacturer, and c
 
 A Wi-Fi 6, Wi-Fi 6E or Wi-Fi 7-compatible router will give you improved speeds and, above all, native support for modern security technologies. Conversely, very old equipment, especially that no longer receives software updates, may contain known, unpatched vulnerabilities. They therefore represent a risk for your entire network, even if you configure them correctly. Compared with cell phones or computers, routers are equipment that we tend to keep for many years. However, it may be a good idea to replace them more regularly, in order to benefit from a more modern, more secure model.
 
+**Attention**: As a general rule of thumb, the routers provided by ISPs may lack the essential update feature, as well as personalization capabilities. In some cases, ISPs may also have unrestricted access to the end user's internal network.
+
 So make sure you systematically update your router's firmware. These updates correct vulnerabilities, add new features and enhance overall system stability. Some manufacturers offer automatic updates, but in some cases you'll need to check manually via your router's interface administration tool. As with your phone, computer, operating system and software, it's important to update your router regularly. You can make this part of your weekly routine - Every Sunday, for example - by drawing up a list of all the items you need to check and keep up to date.
 
-If your router is no longer maintained but still works correctly from a hardware point of view, you can install an alternative open-source firmware, such as:
+Alternatively, you may enable auto-updates or at least auto-scan for new firmware updates if you prefer to act manually. While the auto-update feature may still pose a security threat, failing to update the router's firmware regularly will expose your local network to publicly known vulnerabilities.
+
+**Example**: When purchasing your own router, it may be a good idea to look for established firms in the industry that have been providing routers on the market for a long time. For instance, Fritz!Box routers have a longstanding reputation as plug-and-play devices, well-suited for use in both family settings and small-sized companies. Their software update policy typically extends over several years.
+
+If your router is no longer maintained but still works correctly from a hardware point of view, you may be able to install an alternative open-source firmware, such as:
 
 - OpenWrt, a Linux distribution specializing in routers, offering great flexibility and regular updates
 - pfSense and OPNsense, two FreeBSD-based (Unix-like) systems for x86 firewalls and routers
+
+**Note**: Some ISPs supply their customers with bulk routers made by a single company that simultaneously provides many different ISPs around the world. You may find that in order to install one of the alternative firmwares on the router, someone else may have already discovered how to do it, even if they are on the other side of the world.
 
 ![Image](assets/fr/196.webp)
 
@@ -6121,7 +6129,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 
 These systems enable finer control of firewall rules, outgoing and incoming connections, network segmentation (VLANs) and DNS management, but are aimed more at advanced users.
 
-**To sum up, I recommend**:
+**To sum up, I recommend to**:
 
 - Choose a recent router
 - Keep your system up to date

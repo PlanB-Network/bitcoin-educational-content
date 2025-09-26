@@ -1,0 +1,9 @@
+question: Ni utaratibu gani unaweza kutumika kupakia taswira ya seti ya UTXO ili kufanya nodi itumike haraka?
+answer: kudhani
+wrong_answers:
+  - kudhani nchi
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo hupakia muhtasari wa seti ya UTXO ili kupata nodi iendeshe haraka, huku ikijenga upya seti kamili ya UTXO nyuma.
+reviewed: true

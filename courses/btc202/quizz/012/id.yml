@@ -1,0 +1,9 @@
+question: Tahap mana yang merupakan bagian dari peran anak di bawah umur?
+answer: Membangun blok kandidat dari Mempool
+wrong_answers:
+  - Validasi seluruh Blockchain dari Mempool
+  - Membuat alamat Bitcoin untuk pengguna
+  - Menyimpan kunci pribadi untuk dompet
+explanation: |
+  Miner memilih transaksi dari Mempool dan membangun blok kandidat, yang akan divalidasi oleh Proof of Work.
+reviewed: true

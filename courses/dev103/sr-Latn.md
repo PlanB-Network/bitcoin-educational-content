@@ -50,7 +50,7 @@ Komande koje sadrže napisane su u programskom jeziku JavaScript.
 JavaScript runtime je poseban program koji izvršava ove fajlove.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### NodeJS okruženje za izvršavanje
@@ -71,7 +71,7 @@ Pošto je NodeJS dostupan za sve tri operativne sisteme, programi koje napišete
 To znači da možete, na primer, napisati jednostavnu video igru u JavaScript-u na vašem Windows računaru i proslediti je prijatelju da je pokrene na svom Mac-u.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Možete kombinovati booleove vrednosti koristeći logičke operatore:
 - `!` znači „ne“, primenjuje se pre booleana i preokrenuće ga: ako je boolean `true` vratiće `false`, i obrnuto.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Primeri:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Klasa `Car` sada **nasleđuje** sve od `Vehicle`. Dobija svojstvo `brand`, a metodu `start()` smo zamenili našom verzijom.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Hajde da probamo:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript je interpretirani jezik, za razliku od kompajliranih jezika kao što 
 Kod napisan u kompajliranom jeziku pretvara se u binarni kod, a taj binarni kod se direktno šalje CPU računara.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpredirani jezici, s druge strane, teže da budu više prilagođeni korisnicima i bliži su načinu na koji ljudi razmišljaju ("visok nivo") nego načinu na koji mašine rade ("nizak nivo"); tako da obično imaju virtuelnu mašinu napravljenu za pokretanje njihovog koda.
@@ -5261,7 +5261,7 @@ Zašto je to problem?
 Pa, pošto pregledači izvršavaju kod preuzet sa miliona različitih izvora na internetu, lako mogu naići na malver, pa su "sandboxovani" od ostatka operativnog sistema.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript nije mogao pristupiti sistemu datoteka i drugim lokalnim resursima na vašem računaru (barem ne lako kao što su to mogli drugi jezici), tako da je to bila značajna ograničenja u pogledu vrsta aplikacija koje ste mogli izraditi s njim.
@@ -5270,7 +5270,7 @@ JavaScript nije mogao pristupiti sistemu datoteka i drugim lokalnim resursima na
 2009. godine, Ryan Dahl je objavio NodeJS, koji je okruženje za izvršavanje koje omogućava korišćenje V8 engine-a van pregledača, direktno na matičnom operativnom sistemu vašeg računara. Takođe dodaje mnoge funkcije koje su korisne za pisanje server-side i command-line programa. Na primer, možete koristiti NodeJS za kreiranje web servera, čitanje i pisanje fajlova, ili izradu alata koji automatizuju zadatke.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 U ovom kursu do sada smo istraživali JavaScript funkcije koje su prisutne i u pregledaču i u NodeJS-u. Te funkcije su nam omogućile da definišemo podatke i manipulišemo njima na apstraktne načine. U narednih nekoliko lekcija istražićemo funkcije koje su specifične za NodeJS i omogućavaju nam interakciju sa operativnim sistemom.

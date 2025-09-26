@@ -93,7 +93,7 @@ Slutligen får du lära dig hur du går med i en Mining pool och optimerar prest
 För att förklara konceptet Mining på ett förenklat sätt kan en relevant analogi användas: ett pussel. Precis som ett pussel är Mining en komplex uppgift att utföra men lätt att verifiera när den är klar. I samband med Bitcoin Mining strävar gruvarbetare efter att snabbt lösa ett digitalt pussel. Den första Miner som löser pusslet presenterar sin lösning för hela nätverket, som sedan enkelt kan verifiera dess giltighet. Denna framgångsrika verifiering gör det möjligt för Miner att validera ett nytt block och lägga till det i Bitcoin Timechain. Som ett erkännande av sitt arbete, som innebär betydande kostnader, belönas Miner med ett visst antal bitcoins. Denna belöning fungerar som ett ekonomiskt incitament för miners att fortsätta sitt arbete med att validera transaktioner och säkra Bitcoin-nätverket.
 
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 
 Inledningsvis i Bitcoin-nätverket var den tilldelade belöningen 50 bitcoins var tionde minut, parallellt med att gruvarbetarna upptäckte ett block var tionde minut i genomsnitt. Denna belöning genomgår en Halving var 210.000:e block, ungefär vart fjärde år. Denna ersättning fungerar som ett kraftfullt incitament för att uppmuntra miners att delta i Mining-processen trots dess energikostnad. Utan en belöning skulle den elintensiva Mining överges, vilket skulle äventyra säkerheten och stabiliteten i hela Bitcoin-nätverket.
@@ -110,7 +110,7 @@ Mining-processen innebär att man hittar en giltig Hash som är godtagbar för B
 I början dominerade CPU-eran, där gruvarbetarna använde sina persondatorer för Bitcoin Mining. Upptäckten av fördelarna med GPU:er (grafikkort) för denna uppgift markerade en vändpunkt, vilket avsevärt ökade Hashrate och minskade energiförbrukningen. Utvecklingen stannade inte där, utan FPGA:er (Field Programmable Gate Arrays) introducerades senare. FPGA:erna fungerade som en plattform för utvecklingen av ASIC:er (applikationsspecifika integrerade kretsar).
 
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 
 ASICs är chip som kan jämföras med ett CPU-chip, men de är utvecklade för att utföra endast en specifik typ av beräkning på effektivast möjliga sätt. Med andra ord kan en CPU utföra en mängd olika typer av beräkningar utan att vara särskilt optimerad för den ena eller andra typen av beräkning, medan en ASIC endast kan utföra en typ av beräkning, men mycket effektivt. Bitcoin ASICs är konstruerade för beräkning av SHA256-algoritmen.
@@ -127,7 +127,7 @@ För att illustrera intensiteten i denna process kan man tänka sig en typisk Mi
 Svårighetsjustering är en avgörande mekanism i driften av Bitcoin-nätverket och säkerställer att block bryts i genomsnitt var 10:e minut. Denna varaktighet är ett genomsnitt eftersom Mining-processen faktiskt är ett sannolikhetsspel, som liknar att kasta tärning i hopp om att få ett nummer som är lägre än det nummer som definieras av svårigheten. Vart 2016:e block justerar nätverket Mining-svårigheten baserat på den genomsnittliga tid som krävs för att bryta de föregående blocken. Om den genomsnittliga tiden är längre än 10 minuter minskas svårighetsgraden och omvänt, om den genomsnittliga tiden är lägre, ökas svårighetsgraden. Denna justeringsmekanism säkerställer att Mining-tiden för nya block förblir konstant över tiden, oavsett antalet miners eller den totala datorkraften i nätverket. Det är därför som Bitcoin Blockchain också kallas för Timechain.
 
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 
 
@@ -145,7 +145,7 @@ När det gäller utvecklingen av Bitcoin Mining-maskiner är det viktigt att not
 Med tanke på de ständiga tekniska framstegen inom Mining-området måste yrkesverksamma strategiskt positionera sig. Mining-industrin är föremål för kontinuerliga innovationer, vilket framgår av den senaste lanseringen av J-versionen av S19 och den förväntade lanseringen av S19 XP, som erbjuder betydligt högre Mining-kapacitet. Dessutom är förbättringarna inte bara relaterade till maskinernas råprestanda. Till exempel använder den nya S19 XP-modellen ett Liquid-kylsystem, en teknisk modifiering som möjliggör en betydande förbättring av energieffektiviteten. Även om innovation förblir en konstant kommer framtida effektivitetsvinster sannolikt att vara mindre jämfört med de som hittills observerats, på grund av att en viss tröskel för teknisk innovation har nåtts.
 
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 
 Sammanfattningsvis fortsätter Bitcoin Mining-industrin att anpassa sig och utvecklas, och branschaktörerna måste förutse minskande effektivitetsvinster i framtiden och anpassa sina strategier därefter. Framtida tekniska framsteg, även om de fortfarande är närvarande, kommer sannolikt att ske i mindre skala, vilket återspeglar sektorns växande mognad.
@@ -163,7 +163,7 @@ Sammanfattningsvis fortsätter Bitcoin Mining-industrin att anpassa sig och utve
 För närvarande har Bitcoin Mining utvecklats till en seriös och betydande industri, med många aktörer som nu är allmänt kända och ett ökande antal betydande gruvarbetare. Denna utveckling har gjort Mining nästan otillgänglig för små aktörer på grund av de höga kostnaderna för att skaffa nya Mining-maskiner. Detta väcker frågan om fördelningen av Hashrate mellan olika marknadsaktörer. Situationen är komplex eftersom det är viktigt att undersöka både fördelningen av Hashrate mellan olika företag och mellan olika Mining-pooler.
 
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 
 En Mining pool är en grupp miners som kombinerar sina dataresurser för att öka sina chanser till Mining. Detta samarbete är nödvändigt eftersom en isolerad liten Mining-maskin konkurrerar mot branschjättar, vilket minskar dess chanser att lyckas till en försumbar nivå. Mining fungerar enligt en lotteriprincip och chansen att vinna ett block (och därmed Bitcoin-belöningen) var tionde minut är extremt låg för en enskild liten Miner. Genom att gå samman i en pool kan miners kombinera sin datorkraft, hitta block oftare och sedan fördela belöningarna proportionellt mot varje Miner:s bidrag till poolen.
@@ -210,7 +210,7 @@ Mining centralisering tas upp som en stor utmaning. Stora aktörer, såsom Found
 Regleringsrisk Det betonas att om ett land som USA skulle besluta att reglera eller förbjuda vissa Bitcoin-transaktioner skulle det kunna ha en betydande inverkan på nätverket, särskilt om en stor del av hashkraften är centraliserad i det landet.
 
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 
 För att motverka denna centralisering diskuteras olika strategier:
@@ -248,7 +248,7 @@ Attakai-initiativet har sitt ursprung i ett personligt Mining-experiment i hemme
 Efter att ha presenterat sitt projekt för Bitcoin-communityn och sett det intresse det genererade, beslutade uppfinnarna av Attakai att publicera detaljerade guider på Découvre Bitcoin-plattformen, så att vem som helst kan replikera sin hem-Mining-upplevelse. De planerar nu att utvidga detta koncept bortom den inhemska miljön. Målet är att visa hur en modifierad Miner kan omvandlas till en tyst extravärmare som kan användas under vintern, vilket ger en smidig övergång till en andra del av utbildningen, som fokuserar på det praktiska genomförandet av dessa modifieringar, illustrerat med förklarande videor. Frågan kvarstår dock om detta initiativ kan utvidgas i större skala och erbjuda ett realistiskt och hållbart alternativ till nuvarande centraliserade Mining-strukturer.
 
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 
 ### Gränsen för denna decentralisering?
@@ -284,7 +284,7 @@ När det gäller frågan om vad som bör ingå i ett Bitcoin-block är det vikti
 Med den förväntade tillväxten av Lightning Network och den därmed följande ökningen av kanalöppningar och -stängningar kommer utrymme i Bitcoin-block att bli alltmer värdefullt. Bitcoin-communityn tenderar redan att värdesätta bevarandet av detta utrymme och erkänner dess inneboende begränsning. Denna medvetenhet har lett till diskussioner om den legitima användningen av blockutrymme, med oro för "spam" på Blockchain från transaktioner som anses vara icke-essentiella.
 
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 
 Spekulationer omger den framtida användningen av blockutrymme, men det är allmänt accepterat att det är en knapp resurs som bör användas klokt. Även om det finns en önskan att fylla det, är det viktigt att bevara det för att säkerställa den långsiktiga livskraften i Bitcoin-nätverket och förutse en framtida ökning av efterfrågan på blockutrymme. Som på alla fria marknader kommer Supply och efterfrågan att reglera användningen av blockutrymme. Med begränsad Supply kommer intressenterna att behöva göra välgrundade val om användningen av detta värdefulla utrymme för att säkerställa den långsiktiga effektiviteten och säkerheten i Bitcoin-nätverket.
@@ -305,7 +305,7 @@ Miners roll i Bitcoin-nätverket har varit föremål för intensiv debatt under 
 Under blockstorlekskrigen var många miners emot vissa utvecklingar i nätverket, vilket belyser spänningen mellan olika aktörer i ekosystemet. Frågan kvarstår om hur man ska balansera makten mellan miners, noder och användare för att säkerställa den långsiktiga säkerheten för Bitcoin.
 
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 
 Bitcoin:s säkerhetsdilemma vilar på en känslig balans. Medan miners spelar en avgörande roll för att validera och skapa block, upprätthåller noderna integriteten genom att verifiera och validera transaktioner och block. Ett felaktigt eller bedrägligt block kommer att avvisas av noderna, vilket censurerar Miner och bevarar nätverkets säkerhet. Makt innehas också av noderna och användarna av Bitcoin-nätverket. Noderna har makten att verifiera och validera, medan användarna har makten att välja vilken Blockchain som ska användas. Denna maktfördelning säkerställer distributionen och integriteten i Bitcoin-nätverket.
@@ -323,7 +323,7 @@ I slutändan delas ansvaret mellan alla aktörer i Bitcoin-nätverket. En minskn
 Satoshi Nakamotos eleganta spelteori skapade en situation där varje aktör i Bitcoin-nätverket har incitament att agera korrekt för att skydda både sina egna och andra deltagares intressen. Detta skapar en balans där dåligt beteende kan bestraffas, vilket ökar säkerheten och stabiliteten i hela systemet. Trots denna balans utgör stater fortfarande ett potentiellt hot. Som framgår av presentationen på Surfing Bitcoin 2022 kan stater försöka attackera Mining-industrin, vilket utsätter Bitcoin-nätverket för risker för centralisering och attack. Hypotetiska scenarier som en militär attack riktad mot produktionsanläggningar för Mining-hårdvara belyser vikten av geografisk och industriell diversifiering för Bitcoin-nätverkets motståndskraft.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 
 Centraliseringen av produktionen av Mining-hårdvara i Kina utgör en annan risk. En vägran att exportera Mining-maskiner eller en ackumulering av Hashrate för en potentiell 51%-attack från Kina understryker behovet av diversifierad Mining-hårdvaruproduktion. Som svar på dessa risker utforskar Bitcoin-communityn aktivt lösningar. Företag som Intel överväger att producera Mining-utrustning i USA, vilket bidrar till att fördela produktionen. Andra initiativ, som Blocks Mining Development Kit (MDK) med öppen källkod, syftar till att minska monopolet på design och produktion av Mining-hårdvara, vilket möjliggör en bredare distribution av Hashrate. I hjärtat av dessa diskussioner ligger Bitcoin:s grundläggande uppdrag: att vara ett censurresistent värde Exchange-nätverk. Bitcoin-communityn strävar ständigt efter att stärka distributionen, motståndet mot censur och nätverkets antifragilitet, och avvisar förslag som övergången till proof of stake, som inte överensstämmer med dessa grundläggande principer.
@@ -335,7 +335,7 @@ Centraliseringen av produktionen av Mining-hårdvara i Kina utgör en annan risk
 Proof of Work (PoW) är väsentlig eftersom den utgör den fysiska länken mellan den verkliga världen och Bitcoin. Även om bitcoins är immateriella kräver deras produktion konkret energi, vilket skapar en direkt koppling till den fysiska och verkliga världen. Denna koppling säkerställer att produktionen och valideringen av bitcoins och block har en verklig energikostnad, vilket därmed förankrar Bitcoin-nätverket i den fysiska verkligheten och förhindrar att det helt domineras av mäktiga enheter. PoW fungerar som ett bålverk mot centralisering och säkerställer att deltagande i nätverket och validering av transaktioner kräver en investering i materiella resurser. Detta förhindrar monopolisering av nätverket av enheter som annars skulle kunna ta kontroll utan någon betydande inträdesbarriär, vilket säkerställer en mer rättvis fördelning av makt och inflytande inom Bitcoin-nätverket.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 
 ### Begränsningarna av Proof of Stake
@@ -365,7 +365,7 @@ Den nuvarande Hash-kursen, trots att Bitcoin:s pris ligger på 30 000 USD jämf�
 Denna situation illustrerar också motståndskraften hos Bitcoin, som ofta bedöms baserat på dess pris. En djupare analys av Bitcoin:s hälsa kräver dock att man undersöker dess Hash-hastighet, som mäter beräkningarna per sekund i Bitcoin-nätverket. Medan priset på Bitcoin fluktuerar är dess kostnad, kopplad till den elektricitet som krävs för att driva Mining-maskiner, fortfarande avgörande för att förstå marknadsdynamiken. Genom att fokusera på kostnaden snarare än priset får man ett mer konsekvent perspektiv på Bitcoin:s stabilitet och långsiktiga lönsamhet. Generellt sett är kostnaden för Bitcoin proportionell mot priset, vilket ger en bättre förståelse för prisfluktuationer och framtida utsikter.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 
 ### Hash ränta och belöning
@@ -419,7 +419,7 @@ Mining erbjuder dock unika möjligheter att engagera sig i Bitcoin-ekosystemet. 
 Trots dessa alternativ presenterar Mining betydande utmaningar. Det välkända ordspråket i kryptovalutornas värld, "Inte dina nycklar, inte dina Bitcoins", finner en liknande resonans i Mining:s värld: "Inte din Hashrate, inte din belöning." Berättelser om besvikelser och frånkopplade maskiner är vanliga, och många spelare lovar exceptionella resultat men misslyckas med att leverera. Problem med el Supply och maskinhaverier kan göra investerare maktlösa, med dyr utrustning som de inte kontrollerar. I detta sammanhang är försiktighet och en djup förståelse för Mining-sektorn avgörande innan man ger sig in i den. Även om det finns möjligheter till vinster är riskerna betydande, och ett informerat och genomtänkt tillvägagångssätt är avgörande för att navigera i detta komplexa och ofta oförutsägbara område. Det är därför viktigt att genomföra grundlig forskning och noggrant väga för- och nackdelar innan man engagerar sig i Bitcoin Mining.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/013.webp)
 
 
 ### Virgin Bitcoins
@@ -440,7 +440,7 @@ I detta sammanhang verkar det klokt att välja ett autonomt och utbildat tillvä
 I och med frågan om ett eventuellt förbud mot Mining i Europa blir diskussioner om regleringar alltmer relevanta. Det fluktuerande regleringslandskapet kan verkligen påverka Bitcoin Mining-industrin avsevärt. Förbudet mot Mining i Europa är ett tänkbart scenario, särskilt med tanke på tidigare exempel i Kina. Även om Mining-verksamheten fortsätter i Kina trots förbudet, skulle Europa kunna följa en liknande väg. En bredare distribution av Hashrate över olika regioner skulle kunna bidra till att stärka Mining-samhället i Europa, så att de effektivt kan motverka missförstånd och missuppfattningar om Mining, dess miljöpåverkan och dess fotavtryck på elnätet.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 
 Inför kampanjer som Greenpeaces och de ofta missvisande siffrorna från vissa studier är sanningsenlig information fortfarande det bästa vapnet. Det är viktigt att informera allmänheten och beslutsfattarna om verkligheten bakom Mining, dess komplexitet och nyanser, i stället för att låta dem förlita sig på stereotyper och felaktig information. Ju fler människor som är informerade och medvetna om vad Mining verkligen är, desto bättre kan branschen försvara sig mot potentiella restriktiva regleringar.
@@ -546,7 +546,7 @@ Antminer S9 finns i flera varianter (i, j) som gör mindre ändringar i den för
 Priset på ASICs varierar beroende på många faktorer, t.ex. priset på Bitcoin, nätverkets svårighetsgrad, maskinens effektivitet och elkostnaden. Därför är det svårt att ge en exakt uppskattning för inköp av en begagnad maskin. I februari 2023 ligger det förväntade priset i Frankrike i allmänhet mellan 100 och 200 euro, men dessa priser kan ändras snabbt.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 
 Antminer S9 är uppbyggd av följande delar:
@@ -556,54 +556,54 @@ Antminer S9 är uppbyggd av följande delar:
 - 3 hashboards som innehåller de chips som producerar hashkraften.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 
 
 - Ett kontrollkort som innehåller en plats för ett SD-kort, en Ethernet-port och anslutningar för hashkort och fläktar. Detta är hjärnan i din ASIC.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 
 
 - 3 datakablar som ansluter hashplattorna till styrkortet.
 
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 
 
 - Strömförsörjningen Supply, som drivs med 220V och kan anslutas som en vanlig hushållsapparat.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 
 
 - 2 120 mm fläktar.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 
 
 - En C13-hankabel.
 
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 
 När du köper en begagnad maskin är det viktigt att kontrollera att alla delar ingår och fungerar. Under Exchange bör du be säljaren att slå på maskinen för att kontrollera att den fungerar korrekt. Det är viktigt att verifiera att enheten slås på korrekt och sedan kontrollera internetanslutningen genom att ansluta en Ethernet-kabel och komma åt Bitmain-inloggningen Interface via en webbläsare på samma lokala nätverk. Du kan hitta denna IP Address genom att ansluta till din internetrouter Interface och leta efter anslutna enheter. Denna Address bör ha följande format: 192.168.x.x
 
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 
 
 Kontrollera också att standardautentiseringsuppgifterna fungerar (användarnamn: root, lösenord: root). Om standardautentiseringsuppgifterna inte fungerar måste du återställa maskinen.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 
 När du är ansluten bör du kunna se status för varje hashboard på instrumentpanelen. Om Miner är ansluten till en pool bör du se att alla hashboards fungerar. Det är viktigt att notera att miners gör mycket ljud, vilket är normalt. Se också till att fläktarna fungerar som de ska.
@@ -638,19 +638,19 @@ Om du är en skicklig hantverkare och vill förvandla en Miner till en värmare 
 Originalfläktarna på Antminer S9 är för högljudda för att Antminer ska kunna användas som värmare. Lösningen är att ersätta dem med tystare fläktar. Vårt team har testat flera modeller från varumärket Noctua och har valt Noctua NF-A14 iPPC-2000 PWM som den bästa kompromissen. Var noga med att välja 12V-versionen av fläktarna. Denna 140mm fläkt kan producera upp till 1200W värme samtidigt som den bibehåller en teoretisk ljudnivå på 31 dB. För att installera dessa 140mm-fläktar måste du använda en 140mm till 120mm-adapter, som du hittar i DécouvreBitcoin-butiken. Vi kommer också att lägga till 140 mm skyddsgaller.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/024.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/26.webp)
+![image](assets/en/026.webp)
 
 
 Den kraftfulla Supply-fläkten är också ganska bullrig och måste bytas ut. Vi rekommenderar Noctua NF-A6x25 PWM. Observera att kontakterna på Noctua-fläktarna inte är desamma som de ursprungliga, så du behöver en kontaktadapter för att ansluta dem. Två stycken kommer att räcka. Återigen, se till att välja 12V-versionen av fläkten.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/027.webp)
 
-![image](assets/en/28.webp)
+![image](assets/en/028.webp)
 
 
 2. Lägg till en WIFI/Ethernet-brygga
@@ -659,9 +659,9 @@ Den kraftfulla Supply-fläkten är också ganska bullrig och måste bytas ut. Vi
 Istället för att använda en Ethernet-kabel kan du ansluta din Antminer via WIFI genom att lägga till en WIFI/Ethernet-brygga. Vi har valt vonets vap11g-300 eftersom den enkelt låter dig hämta WIFI-signalen från din Internetbox och överföra den till din Antminer via Ethernet utan att skapa ett subnät. Om du har elektriska färdigheter kan du driva den direkt med Antminers ström Supply utan att behöva lägga till en USB-laddare. För detta behöver du ett 5,5 mmx2,1 mm honjack.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/029.webp)
 
-![image](assets/en/30.webp)
+![image](assets/en/030.webp)
 
 
 3. Valfritt: lägg till en smart kontakt
@@ -670,7 +670,7 @@ Istället för att använda en Ethernet-kabel kan du ansluta din Antminer via WI
 Om du vill slå på/stänga av din Antminer från din smartphone och övervaka dess strömförbrukning kan du lägga till en smart kontakt. Vi testade ANTELA-kontakten i 16A-versionen, som är kompatibel med smartlife-appen. Med den här smarta kontakten kan du se strömförbrukningen per dag och månad och den ansluts direkt till din internetrouter via WiFi.
 
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 
 Lista över utrustning och länkar
@@ -719,19 +719,19 @@ Strömförsörj bryggan genom att ansluta den via USB.
 Från datorn ansluter du till VONETS\_**\*\*** WIFI-nätverk med lösenordet 12345678.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 
 Logga in med användarnamnet "admin" och lösenordet "admin".
 
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 
 Välj Wizard.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 
 Välj det WIFI-nätverk som du vill ansluta din Miner till och klicka sedan på Nästa.
@@ -740,7 +740,7 @@ Välj det WIFI-nätverk som du vill ansluta din Miner till och klicka sedan på 
 OBS: Vonet-bryggan fungerar endast på 2,4 GHz-frekvensen. Numera erbjuder routrar vanligtvis två WIFI-nätverk, ett på 2,4 GHz och ett på 5 GHz.
 
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 
 Ange lösenordet för ditt WIFI-nätverk i fältet "Source WIFI hotspot password". Om du inte vill använda din Vonet-brygga för att utöka ditt WIFI-nätverk markerar du rutan "Disable Hotspot". Annars lämnar du den omarkerad.
@@ -771,7 +771,7 @@ Denna metod kan tillämpas mellan 2 minuter och 10 minuter efter att Miner har s
 2 minuter efter att du har slagit på Miner, tryck på "Reset"-knappen i 5 sekunder och släpp den sedan. Miner återställs till fabriksinställningarna inom 4 minuter och startar om automatiskt (du behöver inte stänga av den).
 
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 
 ## Installera BraiinsOS+ på en Antminer S9
@@ -796,13 +796,13 @@ Här kommer vi att se hur du enkelt installerar Braiins OS+ direkt på minnet i 
 3. Packa upp den nedladdade filen och öppna filen bos-toolbox.bat. Välj språk och efter en stund kommer du att se det här fönstret:
 
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 
 4. Bos verktygslåda gör att du enkelt kan hitta IP Address för din Antminer och installera BraiinsOS+. Om du redan vet IP Address för din maskin kan du hoppa till steg 8. Annars går du till fliken Skanna.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 
 5. I hemmanätverk är IP Address vanligtvis mellan 192.168.1.1 och 192.168.1.255, så ange "192.168.1.0/24" i fältet för IP-intervall. Om ditt nätverk är annorlunda, ändra dessa adresser i enlighet med detta. Klicka sedan på "Start".
@@ -814,7 +814,7 @@ Här kommer vi att se hur du enkelt installerar Braiins OS+ direkt på minnet i 
 7. Du bör se att alla Antminers i ditt nätverk visas här, och IP Address är 192.168.1.37.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 
 8. Klicka på "Tillbaka" och sedan på fliken "Installera", ange den tidigare hittade IP Address och klicka på "Start".
@@ -822,7 +822,7 @@ Här kommer vi att se hur du enkelt installerar Braiins OS+ direkt på minnet i 
 
 > Om installationen inte fungerar kan det vara nödvändigt att göra en återställning och försöka igen (se föregående avsnitt).
 
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 
 9. Efter några ögonblick startar din Antminer om och du kommer att kunna komma åt Braiins OS+ Interface på den angivna IP Address, här 192.168.1.37, direkt i Address-fältet i din webbläsare. Standardanvändarnamnet är "root" och det finns inget standardlösenord.
@@ -854,7 +854,7 @@ Du kommer sedan att mötas av Brains OS+ Dashboard.
 ### Instrumentpanel
 
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 
 På den första sidan kan du se hur din maskin presterar i realtid.
@@ -866,7 +866,7 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 - Nedan visas fläkthastigheten i procent av maxhastigheten och antalet rotationer per minut.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 
 
@@ -879,19 +879,19 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 ### Konfiguration
 
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 
 ### System
 
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 
 ### Snabba åtgärder
 
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 
 # Attakai - Modifiering av fläkt
@@ -908,7 +908,7 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 
 > VARNING: Det är viktigt att du tidigare har installerat Braiins OS+ på din Miner, eller någon annan programvara som kan minska maskinens prestanda. Denna åtgärd är avgörande eftersom vi för att minska bullret kommer att installera mindre kraftfulla fläktar som kan avleda mindre värme.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Nödvändiga material
@@ -921,88 +921,88 @@ På den första sidan kan du se hur din maskin presterar i realtid.
 
 > VARNING: Innan du börjar ska du först kontrollera att du har dragit ur kontakten till din Miner för att undvika risk för elstötar.
 
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 
 Ta först bort de 6 skruvarna på sidan av chassit som håller det stängt. När skruvarna har lossats öppnar du försiktigt höljet för att ta bort plastskyddet som täcker komponenterna.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/048.webp)
 
-![image](assets/en/49.webp)
+![image](assets/en/049.webp)
 
 
 Därefter är det dags att ta bort originalfläkten, var försiktig så att du inte skadar de andra komponenterna. För att göra detta, ta bort skruvarna som håller den på plats och skala försiktigt bort det vita limmet som omger kontakten. Det är viktigt att gå försiktigt fram för att undvika att skada ledningarna eller kontakterna.
 
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 
 När originalfläkten har tagits bort kommer du att märka att kontakterna på den nya Noctua-fläkten inte matchar originalfläktens. Den nya fläkten har faktiskt 3 ledningar, inklusive en gul ledning som möjliggör hastighetsreglering. Denna ledning kommer dock inte att användas i detta specifika fall. För att ansluta den nya fläkten rekommenderas därför att man använder en speciell adapter. Det är dock viktigt att notera att denna adapter ibland kan vara svår att hitta.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 
 Om du inte har denna adapter kan du ändå fortsätta att ansluta den nya fläkten med hjälp av en elektrikers socker. För att göra detta måste du klippa kablarna till den gamla och den nya fläkten.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/052.webp)
 
-![image](assets/en/53.webp)
+![image](assets/en/053.webp)
 
 
 På den nya fläkten använder du en avbitartång och skär försiktigt av huvudmantelns konturer på 1 cm utan att skära av kablarnas mantlar undertill.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 
 Dra sedan huvudmanteln nedåt och klipp av mantlarna på den röda och svarta kabeln på samma sätt som tidigare. Och klipp av den gula kabeln i jämnhöjd.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 
 På den gamla fläkten är det mer känsligt att skära av huvudmanteln utan att skada mantlarna på de röda och svarta ledningarna. För detta ändamål använde vi en nål som vi förde in mellan huvudmanteln och de röda och svarta ledningarna.
 
 
-![image](assets/en/56.webp)
+![image](assets/en/056.webp)
 
-![image](assets/en/57.webp)
+![image](assets/en/057.webp)
 
 
 När de röda och svarta ledningarna är frilagda, klipp försiktigt av höljena för att undvika att skada de elektriska ledningarna.
 
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 
 Anslut sedan kablarna med ett socker, den svarta ledningen med den svarta och den röda ledningen med den röda. Du kan också lägga till eltejp.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/059.webp)
 
-![image](assets/en/60.webp)
+![image](assets/en/060.webp)
 
 
 När anslutningen är klar är det dags att montera den nya Noctua-fläkten med gallret och de gamla skruvarna. De nya skruvarna i lådan kommer att återanvändas senare. Se till att placera den i rätt riktning. Du kommer att märka en pil på ena sidan av fläkten, som anger luftflödets riktning. Det är viktigt att fläkten placeras så att pilen pekar mot insidan av chassit. Anslut sedan fläkten igen.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/061.webp)
 
-![image](assets/en/62.webp)
+![image](assets/en/062.webp)
 
 
 > Valfritt: Om du är kunnig inom elektricitet kan du direkt lägga till en 5,5 mm jackkontakt till 12V-utgången, som direkt driver Vonet Wi-Fi-bryggan. Om du är osäker på dina elektriska färdigheter är det dock bäst att använda USB-kontakten med en laddare av smartphonetyp för att undvika risk för kortslutning eller elektriska skador.
 
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 
 När anslutningarna är klara ska plastskyddet placeras över höljets plast och inte inuti.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 
 Slutligen sätter du tillbaka chassilocket på plats och skruvar fast de 6 skruvarna på sidorna för att hålla allt på plats. Och så har du det, ditt power Supply-chassi är nu utrustat med en ny fläkt.
@@ -1016,7 +1016,7 @@ Slutligen sätter du tillbaka chassilocket på plats och skruvar fast de 6 skruv
 
 > VARNING: Det är viktigt att du tidigare har installerat Braiins OS+ på din Miner, eller någon annan programvara som kan minska maskinens prestanda. Denna åtgärd är avgörande eftersom vi för att minska bullret kommer att installera mindre kraftfulla fläktar, som kommer att avleda mindre värme.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Obligatoriska material
@@ -1033,15 +1033,15 @@ Slutligen sätter du tillbaka chassilocket på plats och skruvar fast de 6 skruv
 1. Koppla först bort fläktarna och skruva loss dem.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 
 2. Anslutningarna på de nya Noctua-fläktarna matchar inte de ursprungliga, men oroa dig inte! Ta fram din avbitartång och klipp försiktigt av de små plastflikarna så att kontakterna passar perfekt på din Miner.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/066.webp)
 
-![image](assets/en/67.webp)
+![image](assets/en/067.webp)
 
 
 3. Nu är det dags att installera 3D-delarna!
@@ -1049,7 +1049,7 @@ Slutligen sätter du tillbaka chassilocket på plats och skruvar fast de 6 skruv
 Fäst dem på båda sidor av Miner med hjälp av skruvarna som du tog bort från fläktarna. Skruva fast dem tills skruvhuvudet är i jämnhöjd med 3D-delen och den sitter ordentligt på plats. Var försiktig så att du inte drar åt för mycket, eftersom du då kan deformera delen och en av skruvarna kan komma i kontakt med en kondensator!
 
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 
 4. Låt oss nu gå vidare till fansen.
@@ -1058,31 +1058,31 @@ Fäst dem på båda sidor av Miner med hjälp av skruvarna som du tog bort från
 Fäst dem på 3D-delarna med hjälp av skruvarna som medföljer i lådan. Var uppmärksam på luftflödets riktning, pilarna på sidorna av fläktarna visar vilken riktning du ska följa. Gå från Ethernet-portsidan till den andra sidan. Se bilden nedan.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/069.webp)
 
-![image](assets/en/70.webp)
+![image](assets/en/070.webp)
 
-![image](assets/en/71.webp)
+![image](assets/en/071.webp)
 
 
 5. Sista steget: anslut fläktarna och fäst gallren ovanpå med skruvarna som inte användes i Power Supply fläktbox. Du har bara 4 stycken, men det räcker med 2 per galler i motsatta hörn. Du kan också leta efter liknande skruvar i en järnaffär om det behövs.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/072.webp)
 
-![image](assets/en/73.webp)
+![image](assets/en/073.webp)
 
 
 I väntan på att kunna erbjuda ett snyggare hölje för din nya värmare kan du fästa höljet och strömmen Supply med elektrikerns buntband.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 
 Och som pricken över i:et ansluter du Vonet-bryggan till Ethernet-porten och dess strömförsörjning Supply.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 
 Och där har du det, grattis! Du har just bytt ut hela den mekaniska delen av din Miner. Du bör nu höra mycket mindre ljud.
@@ -1129,7 +1129,7 @@ Den belöningsmodell som intresserar oss är PPS, som står för "pay-per-share"
 För att konfigurera en pool i Braiins OS+ måste du skapa ett konto i en av de pooler du väljer. Här kommer vi att ta exemplet Linecoin:
 
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 
 När ditt konto har skapats klickar du på Connect To Pool
@@ -1138,13 +1138,13 @@ När ditt konto har skapats klickar du på Connect To Pool
 Kopiera sedan Stratum Address och ditt användarnamn:
 
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 
 Du kan nu gå tillbaka till Braiins OS+ Interface för att ange dessa inloggningsuppgifter. För lösenordet kan du lämna fältet tomt.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 
 ## Optimera prestandan för din Antminer S9

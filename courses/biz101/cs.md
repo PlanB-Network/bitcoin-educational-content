@@ -35,6 +35,8 @@ Ať už zastupujete malý podnik nebo velkou korporaci, cílem tohoto kurzu je v
 
 Připraveni ponořit se do světa Bitcoinu pro podniky? Jdeme na to!
 
+**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.network/resources/glossary) pro definice.
+
 # Měna, platební systémy a Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

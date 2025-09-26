@@ -50,7 +50,7 @@ Zawarte w nich polecenia są napisane w języku programowania JavaScript.
 Środowisko uruchomieniowe JavaScript to specjalny program, który wykonuje te pliki.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### Środowisko uruchomieniowe NodeJS
@@ -71,7 +71,7 @@ Ponieważ NodeJS jest dostępny dla wszystkich trzech systemów operacyjnych, pr
 Oznacza to, że można na przykład napisać prostą grę wideo w JavaScript na komputerze z systemem Windows i przekazać ją znajomemu, aby uruchomił ją na swoim komputerze Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Wartości logiczne można łączyć za pomocą operatorów logicznych:
 - `!` oznacza "nie", jest stosowane przed wartością logiczną i odwraca ją: jeśli wartość logiczna jest `true`, zwróci `false` i odwrotnie.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Przykłady:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Klasa `Car` teraz **dziedziczy** wszystko od `Vehicle`. Otrzymuje właściwość `brand` i zastąpiliśmy metodę `start()` naszą własną wersją.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Wypróbujmy to:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript jest językiem interpretowanym, w przeciwieństwie do języków kompi
 Kod napisany w skompilowanym języku jest przekształcany w plik binarny, a ten jest przesyłany bezpośrednio do procesora komputera.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Z drugiej strony, języki interpred są zwykle bardziej przyjazne dla użytkownika i są bliższe temu, jak myślą ludzie ("wysokiego poziomu"), a nie temu, jak działają maszyny ("niskiego poziomu"); więc zwykle mają zbudowaną maszynę wirtualną do uruchamiania ich kodu.
@@ -5261,7 +5261,7 @@ Dlaczego jest to problem?
 Cóż, ponieważ przeglądarki wykonują kod pobrany z milionów różnych źródeł w Internecie, mogą łatwo stać się złośliwym oprogramowaniem, więc są "piaskownicą" od reszty systemu operacyjnego.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript nie mógł uzyskać dostępu do systemu plików i innych lokalnych zasobów na komputerze (przynajmniej nie tak łatwo, jak inne języki), więc było to znaczące ograniczenie tego, jakie aplikacje można było za jego pomocą tworzyć.
@@ -5270,7 +5270,7 @@ JavaScript nie mógł uzyskać dostępu do systemu plików i innych lokalnych za
 W 2009 roku Ryan Dahl opublikował NodeJS, który jest środowiskiem wykonawczym umożliwiającym korzystanie z silnika V8 poza przeglądarką, bezpośrednio w natywnym systemie operacyjnym komputera. Dodaje również wiele funkcji przydatnych do pisania programów po stronie serwera i wiersza poleceń. Na przykład, można użyć NodeJS do utworzenia serwera WWW, odczytu i zapisu plików lub tworzenia narzędzi automatyzujących zadania.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 W tym kursie do tej pory zbadaliśmy funkcje JavaScript, które są obecne zarówno w przeglądarce, jak i w NodeJS. Funkcje te pozwoliły nam definiować dane i manipulować nimi w abstrakcyjny sposób. W następnych kilku lekcjach zbadamy funkcje, które są specyficzne dla NodeJS i pozwalają nam na interakcję z systemem operacyjnym.

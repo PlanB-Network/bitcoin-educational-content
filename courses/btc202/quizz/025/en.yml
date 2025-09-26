@@ -1,5 +1,5 @@
-question: When is a pruned knot a problem for a portfolio?
-answer: When restoring an old portfolio
+question: When is a pruned knot a problem for a wallet?
+answer: When restoring an old wallet
 wrong_answers:
   - When creating a new reception address
   - When sending a recent transaction

@@ -8282,16 +8282,24 @@ Je důležité vybrat si moderní zařízení, které je udržováno výrobcem a
 Směrovač kompatibilní s Wi-Fi 6, Wi-Fi 6E nebo Wi-Fi 7 vám poskytne vyšší rychlost a především nativní podporu moderních bezpečnostních technologií. Naopak velmi stará zařízení, zejména ta, která již nedostávají aktualizace softwaru, mohou obsahovat známé, neopravené zranitelnosti. Představují proto riziko pro celou vaši síť, a to i v případě, že je správně nakonfigurujete. Ve srovnání s mobilními telefony nebo počítači jsou směrovače zařízení, která máme tendenci uchovávat po mnoho let. Může však být dobré je pravidelněji vyměňovat, abychom mohli využívat výhod modernějšího a bezpečnějšího modelu.
 
 
+**Pozor**: Obecně platí, že směrovače poskytované poskytovateli internetových služeb mohou postrádat základní funkci aktualizace a také možnosti personalizace. V některých případech mohou mít poskytovatelé internetových služeb také neomezený přístup k interní síti koncového uživatele.
+
 Proto se ujistěte, že firmware routeru systematicky aktualizujete. Tyto aktualizace opravují zranitelnosti, přidávají nové funkce a zvyšují celkovou stabilitu systému. Někteří výrobci nabízejí automatické aktualizace, ale v některých případech je třeba provést kontrolu ručně prostřednictvím nástroje pro správu routeru Interface. Stejně jako u telefonu, počítače, operačního systému a softwaru je důležité pravidelně aktualizovat směrovač. Můžete to zařadit do své týdenní rutiny - například každou neděli - a sestavit si seznam všech položek, které je třeba zkontrolovat a aktualizovat.
 
 
-Pokud váš směrovač již není udržován, ale z hlediska hardwaru stále funguje správně, můžete nainstalovat alternativní firmware s otevřeným zdrojovým kódem, např.:
+Alternativně můžete povolit automatické aktualizace nebo alespoň automatické skenování nových aktualizací firmwaru, pokud dáváte přednost ručnímu jednání. I když funkce automatických aktualizací může stále představovat bezpečnostní hrozbu, neprovedení pravidelných aktualizací firmwaru směrovače vystaví vaši lokální síť veřejně známým zranitelnostem.
+
+**Příklad**: Při nákupu vlastního směrovače může být dobrý nápad hledat zavedené firmy v oboru, které dlouhodobě poskytují směrovače na trhu. Například směrovače Fritz!Box mají dlouholetou pověst zařízení typu plug-and-play, vhodných pro použití jak v rodinném prostředí, tak v malých firmách. Jejich politika aktualizací softwaru obvykle trvá několik let.
+
+Pokud váš směrovač není již udržován, ale stále funguje správně z hlediska hardwaru, možná budete schopni nainstalovat alternativní open-source firmware, jako například:
 
 
 
 - OpenWrt, linuxová distribuce specializovaná na routery, která nabízí velkou flexibilitu a pravidelné aktualizace
 - pfSense a OPNsense, dva systémy založené na FreeBSD (podobné Unixu) pro firewally a směrovače x86
 
+
+**Poznámka**: Někteří poskytovatelé internetu dodávají svým zákazníkům hromadné routery vyráběné jednou společností, která současně poskytuje služby mnoha různým ISP po celém světě. Může se stát, že pro instalaci jednoho z alternativních firmware na routeru už někdo jiný objevil, jak to udělat, i když je na druhé straně světa.
 
 ![Image](assets/fr/196.webp)
 

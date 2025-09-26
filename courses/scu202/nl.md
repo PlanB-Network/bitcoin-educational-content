@@ -8282,16 +8282,24 @@ Het is belangrijk om moderne apparatuur te kiezen, die wordt onderhouden door de
 Een router die compatibel is met Wi-Fi 6, Wi-Fi 6E of Wi-Fi 7 biedt je verbeterde snelheden en bovenal native ondersteuning voor moderne beveiligingstechnologieën. Daarentegen kan zeer oude apparatuur, vooral apparatuur die geen software-updates meer ontvangt, bekende, ongepatchte kwetsbaarheden bevatten. Ze vormen daarom een risico voor je hele netwerk, zelfs als je ze correct configureert. Vergeleken met mobiele telefoons of computers zijn routers apparatuur die we vaak jarenlang bewaren. Het kan echter een goed idee zijn om ze regelmatiger te vervangen om te profiteren van een moderner, veiliger model.
 
 
+**Let op**: Als vuistregel geldt dat de routers die door internetproviders worden geleverd mogelijk geen essentiële updatefunctie of personalisatiemogelijkheden hebben. In sommige gevallen kunnen providers ook onbeperkte toegang hebben tot het interne netwerk van de eindgebruiker.
+
 Zorg er dus voor dat je de firmware van je router systematisch bijwerkt. Deze updates corrigeren kwetsbaarheden, voegen nieuwe functies toe en verbeteren de algehele stabiliteit van het systeem. Sommige fabrikanten bieden automatische updates, maar in sommige gevallen moet je ze handmatig controleren via de Interface beheertool van je router. Net als bij je telefoon, computer, besturingssysteem en software is het belangrijk om je router regelmatig bij te werken. Je kunt dit onderdeel maken van je wekelijkse routine - bijvoorbeeld elke zondag - door een lijst op te stellen van alle items die je moet controleren en up-to-date houden.
 
 
-Als je router niet langer wordt onderhouden, maar hardwarematig nog steeds correct werkt, kun je een alternatieve open-source firmware installeren, zoals:
+Als alternatief kunt u automatische updates inschakelen of op zijn minst automatisch scannen naar nieuwe firmware-updates als u er de voorkeur aan geeft handmatig te handelen. Hoewel de functie voor automatische updates nog steeds een beveiligingsrisico kan vormen, zal het nalaten om de firmware van de router regelmatig bij te werken uw lokale netwerk blootstellen aan publiekelijk bekende kwetsbaarheden.
+
+**Voorbeeld**: Bij de aankoop van uw eigen router kan het een goed idee zijn om te zoeken naar gevestigde bedrijven in de branche die al lange tijd routers op de markt aanbieden. Fritz!Box-routers hebben bijvoorbeeld een lange reputatie als plug-and-play-apparaten, die zowel voor gebruik in gezinnen als in kleine bedrijven goed geschikt zijn. Hun beleid voor software-updates strekt zich doorgaans over meerdere jaren uit.
+
+Als uw router niet langer wordt onderhouden maar nog steeds hardwarematig correct werkt, kunt u mogelijk alternatieve open-source firmware installeren, zoals:
 
 
 
 - OpenWrt, een Linux-distributie gespecialiseerd in routers, met veel flexibiliteit en regelmatige updates
 - pfSense en OPNsense, twee op FreeBSD gebaseerde (Unix-achtige) systemen voor x86 firewalls en routers
 
+
+**Opmerking**: Sommige ISP's leveren hun klanten bulkrouters die door één bedrijf worden gemaakt dat tegelijk veel verschillende ISP's wereldwijd bedient. Je kunt ontdekken dat om één van de alternatieve firmwares op de router te installeren, iemand anders misschien al heeft uitgevogeld hoe dat moet, zelfs als die persoon aan de andere kant van de wereld zit.
 
 ![Image](assets/fr/196.webp)
 
@@ -8304,7 +8312,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 Deze systemen maken een fijnere controle mogelijk van firewallregels, uitgaande en inkomende verbindingen, netwerksegmentatie (VLAN's) en DNS-beheer, maar zijn meer gericht op gevorderde gebruikers.
 
 
-**Samengevat raad ik** aan:
+**Samengevat raad ik aan**:
 
 
 

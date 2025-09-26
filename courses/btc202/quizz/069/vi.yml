@@ -1,0 +1,9 @@
+question: Rủi ro chính do sự tích tụ Dust trong máy tính mini của bạn là gì?
+answer: Điều chỉnh bộ xử lý
+wrong_answers:
+  - Xóa khối Blockchain
+  - Đĩa bị hỏng
+  - Giảm dung lượng RAM
+explanation: |
+  Dust chặn thông gió, gây quá nhiệt và dẫn đến tình trạng giảm hiệu suất của bộ xử lý.
+reviewed: true

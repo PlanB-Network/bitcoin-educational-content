@@ -1,0 +1,9 @@
+question: Was ist der Standardwert für den Parameter dbcache in Bitcoin core?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Standardmäßig weist der Bitcoin core dem Cache 450 MiB (472 MB) zu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wie hoch ist das Risiko, wenn ein Wallet von einem Knotenpunkt eines Drittanbieters abhängt?
+answer: Gefahr von Überwachung und Zensur
+wrong_answers:
+  - Risiko der automatischen Double-spending
+  - Risiko des Verlusts privater Schlüssel
+  - Verlustrisiko und Überwachung
+explanation: |
+  Ein fremder Knotenpunkt kann Ihre Transaktionen analysieren oder blockieren oder sogar Ihre Daten mit Ihrer Identität in Verbindung bringen.
+reviewed: true

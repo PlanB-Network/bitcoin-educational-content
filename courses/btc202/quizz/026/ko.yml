@@ -1,0 +1,9 @@
+question: 간편 결제 인증(SPV)의 개념은 누가 만들었나요?
+answer: Satoshi 나카모토
+wrong_answers:
+  - 할 피니
+  - 아담 백
+  - 피터 우일
+explanation: |
+  SPV는 Satoshi 나카모토 백서의 파트 8에 소개되어 있습니다.
+reviewed: true

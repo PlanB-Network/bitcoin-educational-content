@@ -1,0 +1,9 @@
+question: O que acontece se um bloco violar as regras de consenso?
+answer: É imediatamente rejeitada pelos nós
+wrong_answers:
+  - Está armazenado no Mempool a aguardar validação
+  - É retransmitido apenas por nós que aceitam outras regras
+  - É validado apenas pelas carteiras
+explanation: |
+  Os nós rejeitam sistematicamente qualquer bloco que não cumpra as regras de consenso.
+reviewed: true

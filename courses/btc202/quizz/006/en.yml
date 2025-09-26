@@ -1,4 +1,4 @@
-question: Why is a single portfolio not considered a Bitcoin network participant?
+question: Why is a single wallet not considered a Bitcoin network participant?
 answer: Because it does not validate transactions or blocks
 wrong_answers:
   - Because it cannot generate private keys

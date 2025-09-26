@@ -1,0 +1,9 @@
+question: Je, madhumuni ya faili za revNNNNN.dat zilizohifadhiwa pamoja na blkNNNNN.dat ni nini?
+answer: Rejesha seti ya UTXO wakati wa kupanga upya
+wrong_answers:
+  - Rejesha seti ya UTXO wakati wa Hard Fork
+  - Rejesha Mempool wakati wa Hard Fork
+  - Kurejesha Mempool wakati wa kupanga upya
+explanation: |
+  Kila revNNNNN.dat ina data inayohitajika kutendua athari za kizuizi kwenye seti ya UTXO, na kuifanya iwe rahisi kudhibiti upangaji upya.
+reviewed: true

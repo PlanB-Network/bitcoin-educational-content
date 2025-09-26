@@ -35,6 +35,8 @@ Olenemata sellest, kas esindate väikeettevõtet või suurt korporatsiooni, on s
 
 Olete valmis sukelduma ettevõtete jaoks mõeldud Bitcoini maailma? Lähme!
 
+**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.network/resources/glossary) definitsioonid.
+
 # Valuuta, maksesüsteemid ja Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

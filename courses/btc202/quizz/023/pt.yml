@@ -1,0 +1,9 @@
+question: Qual é a diferença entre as regras de consenso e as regras de retransmissão?
+answer: O consenso define a validade, transmite a difusão das transacções
+wrong_answers:
+  - O consenso define as taxas, a retransmissão define os endereços
+  - O consenso gere o Blockchain, o retransmissor gere as chaves privadas
+  - O consenso escolhe os mineiros, a retransmissão escolhe os comerciantes
+explanation: |
+  As regras de consenso determinam o que é válido no Bitcoin, enquanto as regras de retransmissão gerem as transacções entre nós.
+reviewed: true

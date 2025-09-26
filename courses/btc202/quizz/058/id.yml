@@ -1,0 +1,9 @@
+question: Apa batasan utama komunikasi Tor dengan node Anda?
+answer: Kelambatan
+wrong_answers:
+  - Kurangnya enkripsi
+  - Spam
+  - Ketidakmungkinan menggunakan RPC
+explanation: |
+  Koneksi Tor aman, tetapi lebih lambat daripada alternatif lain seperti VPN.
+reviewed: true

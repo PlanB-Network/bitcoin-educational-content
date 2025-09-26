@@ -1,7 +1,7 @@
 question: What's a Bitcoin node?
 answer: A computer running software implementing the Bitcoin protocol
 wrong_answers:
-  - A hardware portfolio implementing the Bitcoin network
+  - A hardware wallet implementing the Bitcoin network
   - A miner producing new blocks for Bitcoin
   - A central server managing the Bitcoin network and transaction confirmation
 explanation: |

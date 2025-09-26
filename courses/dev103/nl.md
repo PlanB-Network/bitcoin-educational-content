@@ -50,7 +50,7 @@ De commando's die ze bevatten zijn geschreven in de programmeertaal JavaScript.
 Een JavaScript runtime is een speciaal programma dat deze bestanden uitvoert.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### De NodeJS-runtime
@@ -71,7 +71,7 @@ Aangezien NodeJS beschikbaar is voor alle drie de besturingssystemen, kunnen de 
 Dit betekent dat je bijvoorbeeld een eenvoudige videogame in JavaScript kunt schrijven op je Windows-pc en het aan je vriend kunt geven om het op zijn Mac uit te voeren.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Je kunt booleans combineren met logische operatoren:
 - `!` betekent "niet", het wordt toegepast voor een boolean en zal het omdraaien: als het boolean `true` is, zal het `false` teruggeven, en vice versa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Voorbeelden:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 De `Car` klasse **erft** nu alles van `Vehicle`. Het krijgt de `merk` eigenschap en we hebben de `start()` methode vervangen door onze eigen versie.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Laten we het uitproberen:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript is een geïnterpreteerde taal, in tegenstelling tot gecompileerde tal
 Code die is geschreven in een gecompileerde taal wordt omgezet in een binair getal en het binaire getal wordt rechtstreeks naar de CPU van de computer gestuurd.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpred-talen daarentegen zijn meestal gebruiksvriendelijker en staan dichter bij hoe mensen denken ("hoog niveau") in plaats van hoe machines werken ("laag niveau"); daarom hebben ze meestal een virtuele machine gebouwd om hun code te draaien.
@@ -5261,7 +5261,7 @@ Waarom is dat een probleem?
 Nou, omdat browsers code uitvoeren die van miljoenen verschillende bronnen op het internet is gehaald, kunnen ze gemakkelijk in malware veranderen, dus zijn ze "sandboxed" van de rest van het besturingssysteem.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript had geen toegang tot het bestandssysteem en andere lokale bronnen op je computer (in ieder geval niet zo gemakkelijk als andere talen dat konden), dus dat was een belangrijke beperking voor het soort toepassingen dat je ermee kon bouwen.
@@ -5270,7 +5270,7 @@ JavaScript had geen toegang tot het bestandssysteem en andere lokale bronnen op 
 In 2009 publiceerde Ryan Dahl NodeJS, een runtime waarmee je de V8 engine buiten de browser kunt gebruiken, direct op het native besturingssysteem van je computer. Het voegt ook veel functies toe die handig zijn voor het schrijven van server-side en commandoregelprogramma's. Je kunt NodeJS bijvoorbeeld gebruiken om een webserver te maken, bestanden te lezen en te schrijven of tools te bouwen die taken automatiseren.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Tot nu toe hebben we in deze cursus de JavaScript-functies verkend die zowel in de browser als in NodeJS aanwezig zijn. Met deze functies kunnen we gegevens definiëren en op abstracte manieren manipuleren. In de volgende lessen verkennen we de functies die specifiek zijn voor NodeJS en ons in staat stellen om te communiceren met het besturingssysteem.

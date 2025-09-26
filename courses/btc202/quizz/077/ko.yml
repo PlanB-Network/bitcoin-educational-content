@@ -1,0 +1,9 @@
+question: 블록 메타데이터를 저장하기 위해 블록/인덱스/에서 어떤 데이터베이스가 사용되나요?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - 버클리 DB
+explanation: |
+  Bitcoin core은 블록을 인덱싱하기 위해 블록/index/에서 LevelDB를 사용하여 검색 및 피어에 대한 서비스 속도를 높입니다.
+reviewed: true

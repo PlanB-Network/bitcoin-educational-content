@@ -11,7 +11,7 @@ objectives:
 
 Benvenuti a questo corso dedicato alla storia della creazione di Bitcoin! Come utente, potresti esserti chiesto da dove provenga lo strumento che stai utilizzando. Inoltre, potresti non comprendere i riferimenti talvolta fatti alle persone e agli eventi che hanno segnato la breve storia della criptovaluta. Infine, studiare questa storia ti permetterà di capire meglio Bitcoin stesso, dato che entrerai a conoscenza del contesto che ha plasmato la sua lenta formazione.
 
-In questo corso, scoprirai la sua progettazione, il lancio e la struttura economica iniziale. Nella prima parte, esamineremo il contesto tecnico in cui il concetto di Bitcoin è emerso. Nella seconda parte, ci concentreremo sulla sua nascita e sul suo avviamento. Nella terza parte, studieremo come Bitcoin ha guadagnato importanza in termini di uso economico, di produzione mediante il processo di mining e di sviluppo software. Nella quarta parte, seguiremo semplicemente come Satoshi Nakamoto, il creatore di Bitcoin, sia gradualmente scomparso e come la comunità abbia preso il sopravvento, rendendo la criptovaluta un progetto veramente collettivo.
+In questo corso, scoprirai la sua progettazione, il lancio e la struttura economica iniziale. Nella prima parte, esamineremo il contesto tecnico in cui il concetto di Bitcoin è emerso. Nella seconda parte, ci concentreremo sulla sua nascita e sul suo avviamento. Nella terza parte, studieremo come Bitcoin ha guadagnato importanza in termini di uso economico, di produzione mediante il processo di mining e di sviluppo software. Nella quarta parte, seguiremo semplicemente come Satoshi Nakamoto, il creatore di Bitcoin, sia gradualmente scomparso e come la community abbia preso il sopravvento, rendendo la criptovaluta un progetto veramente collettivo.
 
 Questo corso è, naturalmente, centrato sulla figura di Satoshi Nakamoto, di cui scoprirai le parole e azioni. Inoltre, conoscerai anche altri personaggi che hanno partecipato allo sviluppo di Bitcoin durante i suoi primi anni di esistenza. Conoscerai così individui come Hal Finney, Martti Malmi, Laszlo Hanyecz, Gavin Andresen, Jeff Garzik o Amir Taaki, che sono stati i principali pionieri in questa crescita. Speriamo che questa immersione nella storia degli inizi di Bitcoin ti sia utile!
 
@@ -27,11 +27,11 @@ Questo corso mira a raccontarti la storia della creazione di Bitcoin in un modo 
 
 **Breve panoramica**
 
-Bitcoin è stato progettato da un individuo (o un gruppo) che utilizza lo pseudonimo di Satoshi Nakamoto. Il 31 ottobre 2008, ha condiviso un White paper che descriveva il suo modello tramite una oscura mailing list email su Internet. L'8 gennaio 2009, ha implementato il suo concetto pubblicando il codice sorgente del software, e lanciando la rete minando i primi blocchi della [blockchain](https://planb.network/resources/glossary/blockchain). Desideroso di attrarre un numero critico di utenti, ha promosso la sua creazione attraverso vari canali di comunicazione.
+Bitcoin è stato progettato da un individuo (o un gruppo) che utilizza lo pseudonimo di Satoshi Nakamoto. Il 31 ottobre 2008, ha condiviso un White paper che descriveva il suo modello tramite una oscura mailing list email su Internet. L'8 gennaio 2009, ha implementato il suo concetto pubblicando il codice sorgente del software, e lanciando il network grazie alo i primi blocchi della [blockchain](https://planb.network/resources/glossary/blockchain). Desideroso di attrarre un numero critico di utenti, ha promosso la sua creazione attraverso vari canali di comunicazione.
 
 Dopo un inizio difficile, il sistema ha ottenuto maggiore visibilità nell'ottobre 2009, quando all'unità di conto – chiamata anch'essa bitcoin – è stato associato un prezzo. All'inizio del 2010, vari exchange hanno iniziato a offrire i primi servizi finanziari, cambiando bitcoin con il dollaro. Nello stesso periodo, seguendo l'iniziativa di Laszlo Hanyecz, sono avvenuti due fatti importanti: il mining venne reso più efficiente, utilizzando una scheda grafica per la prima volta; inoltre, avvenne il primo scambio per un bene fisico, ovvero una pizza.
 
-Il progetto ha davvero preso il volo durante l'estate del 2010, a seguito della pubblicazione di un articolo sul sito Slashdot che all'epoca era molto popolare. Lo scambio con il dollaro, il mining di Bitcoin e lo sviluppo del software sono migliorati significativamente durante questo periodo. Dall'autunno, Satoshi Nakamoto ha iniziato gradualmente a ritirarsi, smettendo di scrivere pubblicamente e delegando gradualmente i suoi compiti. Alla fine è scomparso completamente nella primavera del 2011, dopo aver consegnato i suoi accessi ai suoi uomini di fiducia, Martti Malmi e Gavin Andresen. La comunità ha infine preso il controllo e ha portato avanti il progetto fino a ciò che è oggi.
+Il progetto ha davvero preso il volo durante l'estate del 2010, a seguito della pubblicazione di un articolo sul sito Slashdot che all'epoca era molto popolare. Lo scambio con il dollaro, il mining di Bitcoin e lo sviluppo del software sono migliorati significativamente durante questo periodo. Dall'autunno, Satoshi Nakamoto ha iniziato gradualmente a ritirarsi, smettendo di scrivere pubblicamente e delegando gradualmente i suoi compiti. Alla fine è scomparso completamente nella primavera del 2011, dopo aver consegnato i suoi accessi ai suoi uomini di fiducia, Martti Malmi e Gavin Andresen. La community ha infine preso il controllo e ha portato avanti il progetto fino a ciò che è oggi.
 
 Oltre a questa narrazione, Bitcoin ha anche una preistoria. Infatti, non è un oggetto che è uscito dal nulla. La sua creazione fa parte di un contesto specifico: la ricerca di un modo per trascrivere le proprietà del contante nel cyberspazio. In particolare, gli elementi tecnici che lo compongono sono il risultato di decenni di ricerca e sperimentazione che lo hanno preceduto. Bitcoin si basa su:
 
@@ -40,7 +40,7 @@ Oltre a questa narrazione, Bitcoin ha anche una preistoria. Infatti, non è un o
 - Timestamping di documenti, inventato nei primi anni '90 con l'emergere delle prime funzioni hash forti;
 - Proof of work, descritto e implementato durante gli anni '90.
 
-Nel progettare Bitcoin, Satoshi Nakamoto è stato fortemente ispirato dal modello eCash, un concetto proposto dal crittografo David Chaum nel 1982 e implementato attraverso la sua azienda DigiCash negli anni '90. Questo modello, che si basava sul processo di [firma cieca](https://planb.network/resources/glossary/blind-signature), permetteva agli utenti di effettuare scambi in modo relativamente confidenziale. Tuttavia, era basato su una rete centralizzata di banche che interveniva per prevenire la doppia spesa. Pertanto, quando DigiCash fallì, il sistema crollò. Bitcoin ha corretto questo problema eliminando la necessità di una terza parte fidata.
+Nel progettare Bitcoin, Satoshi Nakamoto è stato fortemente ispirato dal modello eCash, un concetto proposto dal crittografo David Chaum nel 1982 e implementato attraverso la sua azienda DigiCash negli anni '90. Questo modello, che si basava sul processo di [firma cieca](https://planb.network/resources/glossary/blind-signature), permetteva agli utenti di effettuare scambi in modo relativamente confidenziale. Tuttavia, il sistema era basato su una rete centralizzata di banche che interveniva per prevenire la doppia spesa. Pertanto, quando DigiCash fallì, il sistema crollò. Bitcoin ha corretto questo problema eliminando la necessità di una terza parte fidata.
 
 Bitcoin è emerso in un contesto particolare: la chiusura da parte del governo federale degli Stati Uniti di sistemi di valuta privata. Tra questi c'erano la valuta digitale in oro e-gold nel 2008 e il sistema Liberty Reserve nel 2013. Facendo affidamento su un modello che distribuiva il rischio tra i suoi partecipanti, simile ai sistemi di condivisione peer-to-peer come BitTorrent, Satoshi Nakamoto ha creato un modello robusto di valuta digitale che poteva resistere agli assalti diretti dello Stato.
 
@@ -50,7 +50,7 @@ Infine, il progetto Bitcoin incarna l'etica del movimento cypherpunk, un movimen
 
 **Programma del corso**
 
-Questo corso è diviso in quattro parti, che si concentrano rispettivamente sulle origini di Bitcoin (3 capitoli), la sua lenta emergenza (3 capitoli), la sua ascesa iniziale (3 capitoli) e la formazione della sua comunità (4 capitoli). In totale, include 12 capitoli che sono i seguenti (è specificato anche il periodo di riferimento):
+Questo corso è diviso in quattro parti, che si concentrano rispettivamente sulle origini di Bitcoin (3 capitoli), la sua lenta emergenza (3 capitoli), la sua ascesa iniziale (3 capitoli) e la formazione della sua community (4 capitoli). In totale, include 12 capitoli che sono i seguenti (è specificato anche il periodo di riferimento):
 
 - eCash: denaro elettronico Chaumiano (1976–1998)
 - Valute digitali private (1996–2013)
@@ -64,11 +64,11 @@ Questo corso è diviso in quattro parti, che si concentrano rispettivamente sull
 - La corsa all'oro digitale (Settembre 2010–Ottobre 2010)
 - Lo sviluppo dell'ecosistema (Ottobre 2010–Dicembre 2010)
 - La scomparsa di Satoshi (Dicembre 2010–Aprile 2011)
-- La comunità prende il controllo (Aprile 2011–Settembre 2011)
+- La community prende il controllo (Aprile 2011–Settembre 2011)
 
 **Dettagli**
 
-Tutte le date e gli orari sono forniti secondo il fuso orario UTC (corrispondente al Meridiano di Greenwich) e possono quindi differire dalle date americane. È probabile che Satoshi Nakamoto si trovasse negli Stati Uniti mentre lavorava al suo progetto. Tuttavia, Bitcoin è un progetto internazionale, che includeva molti interventi dello sviluppatore finlandese Martti Malmi (Ora dell'Europa Orientale, UTC+2 / UTC+3), e ci riferiremo quindi al fuso orario universale. Pertanto, diciamo che il lancio effettivo della rete principale ha avuto luogo il 9 gennaio alle 2:54 AM, piuttosto che l'8 gennaio alle 6:54 PM, che corrisponde al fuso orario della costa orientale (Pacific Time, UTC-8 / UTC-7).
+Tutte le date e gli orari sono forniti secondo il fuso orario UTC (corrispondente al Meridiano di Greenwich) e possono quindi differire dalle date americane. È probabile che Satoshi Nakamoto si trovasse negli Stati Uniti mentre lavorava al suo progetto. Tuttavia, Bitcoin è un progetto internazionale, che includeva molti interventi dello sviluppatore finlandese Martti Malmi (Ora dell'Europa Orientale, UTC+2 / UTC+3), e ci riferiremo quindi al fuso orario universale. Pertanto, diciamo che il lancio effettivo del network ha avuto luogo il 9 gennaio alle 2:54 AM, piuttosto che l'8 gennaio alle 6:54 PM, che corrisponde al fuso orario della costa orientale (Pacific Time, UTC-8 / UTC-7).
 
 Il contenuto è parzialmente adattato dal libro francese [*L'Élégance de Bitcoin*](https://bitcoinbook.shop/products/lelegance-de-bitcoin) (2024), scritto dall'autore di questo corso. Oltre alle fonti dirette archiviate su Internet, ci affidiamo a un numero di opere di riferimento. Ecco le principali:
 
@@ -395,7 +395,7 @@ Ecco un video introduttivo di Ripple realizzato nel 2011:
 
 :::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
-Nonostante l'entusiasmo della sua comunità e qualche migliaio di utenti, Ripple aveva gravi difetti che ne impedivano il successo. In particolare, [soffriva](https://fiatjaf.com/3cb7c325.html) del "problema dell'impegno decentralizzato": durante un pagamento, i partecipanti non potevano impegnarsi in modo sicuro per garantire la catena di prestiti, un problema che sarebbe stato risolto in seguito da Lightning. (*originale: "the problem of the decentralized commit"*)
+Nonostante l'entusiasmo della sua community e qualche migliaio di utenti, Ripple aveva gravi difetti che ne impedivano il successo. In particolare, [soffriva](https://fiatjaf.com/3cb7c325.html) del "problema dell'impegno decentralizzato": durante un pagamento, i partecipanti non potevano impegnarsi in modo sicuro per garantire la catena di prestiti, un problema che sarebbe stato risolto in seguito da Lightning. (*originale: "the problem of the decentralized commit"*)
 
 Vedendo che il suo progetto non stava andando da nessuna parte, Ryan Fugger cedette le redini di Ripple ai leader della compagnia OpenCoin Inc., Chris Larsen e Jed McCaleb, nel novembre 2012. La compagnia fu rinominata Ripple Labs nel 2013. La trasformarono in un protocollo significativamente diverso dal concetto iniziale, basato su un algoritmo di consenso e su un'unità di conto nativa, l'XRP. Ryan Fugger alla fine cambiò il nome della sua prova di concetto, cioè del suo progetto abbozzato, in [Rumplepay](https://rumplepay.com/) nel 2020 per evitare confusione.
 
@@ -462,7 +462,7 @@ Elenca anche le principali proprietà del suo modello:
 - "Nessuna banca o altre parti fidate."
 - "I partecipanti possono essere anonimi."
 - "I nuovi coin sono creati da una prova di lavoro in stile Hashcash."
-- "La prova di lavoro utilizzata per generare nuovi coin consente anche di prevenire il doppio-spending all'interno della rete."
+- "La prova di lavoro utilizzata per generare nuovi coin consente anche di prevenire il doppio-spending all'interno del network."
 
 Nella sua email, include un link al White paper, già presente su Bitcoin.org, che è un breve documento di 9 pagine, presentato come un articolo scientifico, che descrive il funzionamento tecnico di Bitcoin. Questo documento si concentra sul problema dei pagamenti online.
 
@@ -482,12 +482,12 @@ Hal Finney nel 2007
 
 ### Politica monetaria e codice software
 
-Bitcoin utilizza un algoritmo di consenso distribuito che permette a tutti i nodi della rete di concordare sui contenuti di un registro, che Hal Finney menziona nella sua prima email come "block chain". I conflitti tra blocchi concorrenti vengono risolti scegliendo la linea della blockchain che contiene il maggior numero di blocchi. Il meccanismo è stato perfezionato [in seguito](https://sourceforge.net/p/bitcoin/code/109/) per prendere in considerazione la quantità di lavoro accumulato piuttosto che il numero di blocchi.
+Bitcoin utilizza un algoritmo di consenso distribuito che permette a tutti i nodi del network di concordare sui contenuti di un registro, che Hal Finney menziona nella sua prima email come "block chain". I conflitti tra blocchi concorrenti vengono risolti scegliendo la linea della blockchain che contiene il maggior numero di blocchi. Il meccanismo è stato perfezionato [in seguito](https://sourceforge.net/p/bitcoin/code/109/) per prendere in considerazione la quantità di lavoro accumulato piuttosto che il numero di blocchi.
 
 Questo meccanismo di consenso permette l'imposizione di ogni sorta di regole e incentivi (per usare l'ultima frase del White paper) all'interno del sistema. Dato che Bitcoin è, tra le altre cose, anche un servizio di timestamping distribuito, è possibile far interagire queste regole con il passare del tempo. Da qui l'algoritmo di aggiustamento della difficoltà che entra in gioco per regolare la produzione di nuovi blocchi e dei relativi bitcoin: se il numero di blocchi prodotti in un dato periodo è troppo elevato, la difficoltà di produzione aumenta; in caso contrario, diminuisce. Bitcoin differisce quindi da RPOW, dove le prove di lavoro costituiscono le unità di conto.
 
 Grazie al meccanismo che regola la difficoltà, Bitcoin può seguire una vera e propria politica monetaria: la quantità di nuove monete emesse dal protocollo può essere decisa in anticipo.
-All’inizio, l’emissione di nuove unità è costante, così da incentivare i nodi produttori a contribuire con la loro potenza di calcolo alla rete, senza prevedere commissioni sulle transazioni. Come spiegava Satoshi Nakamoto nella sezione “Incentivi” del suo [White paper](assets/pdf/bitcoin-20081003.pdf):
+All’inizio, l’emissione di nuove unità è costante, così da incentivare i nodi produttori a contribuire con la loro potenza di calcolo al network, senza prevedere commissioni sulle transazioni. Come spiegava Satoshi Nakamoto nella sezione “Incentivi” del suo [White paper](assets/pdf/bitcoin-20081003.pdf):
 
 > "L'aggiunta costante di una quantità fissa di nuovi coin è analoga al fatto che i cercatori d'oro spendano risorse per mettere altro oro in circolazione."
 
@@ -510,7 +510,7 @@ int64 GetBlockValue(int64 nFees)
 Ci sono 100 bitcoin creati durante il primo periodo di 100.000 blocchi, 50 durante il secondo periodo, ecc., in modo che la quantità totale di bitcoin converga verso i 21 milioni. Ogni bitcoin (COIN) è divisibile in 100 centesimi (CENT), che a loro volta sono divisibili in 10.000 unità base, il che significa che un bitcoin può essere diviso in 1 milione di unità più piccole, e non 100 milioni come nella versione 0.1 che è stata rilasciata a gennaio.
 Hal Finney e Ray Dillinger hanno poi condotto una revisione approfondita del codice. Ognuno si è concentrato su una parte specifica del sistema: Ray Dillinger era interessato alla parte del consenso, mentre Hal Finney ha studiato il sistema degli script. Il 10 dicembre, Satoshi [ha creato](https://web.archive.org/web/20131016004654/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=200812) la mailing list Bitcoin su SourceForge. Questa lista ha avuto poco successo, anche se negli anni sono state inviate alcune email da persone interessate. Tuttavia, tutto ciò dimostra che era tutto pronto per il lancio del prototipo, un evento che si sarebbe verificato un mese dopo, all'inizio del 2009.
 
-### Il rilascio del software e il lancio della rete
+### Il rilascio del software e il lancio del network
 
 L'8 gennaio 2009, alle 19:27, Satoshi Nakamoto pubblicò la prima versione del software (numerata 0.1.0) sulla mailing list Metzdowd.com. Il codice sorgente in C++ fu rilasciato apertamente sotto la licenza MIT, in modo che chiunque potesse copiarlo, modificarlo e utilizzarlo come desiderava. In particolare, conteneva i dati del blocco genesi, il primo blocco della catena da cui quest'ultima deve estendersi. Il software funziona solo su Windows. Nel suo annuncio via [email](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html), Satoshi scrisse:
 
@@ -519,13 +519,13 @@ L'8 gennaio 2009, alle 19:27, Satoshi Nakamoto pubblicò la prima versione del s
 Specifica che "il software è ancora in alpha e in una fase sperimentale" e che "il sistema potrebbe essere riavviato se necessario." Ci sono due modi per ottenere bitcoin: ricevendo fondi da qualcun altro, o facendo mining tramite CPU. Ci sono anche due modi per inviare bitcoin: utilizzando l'indirizzo IP del destinatario, o attraverso un indirizzo Bitcoin, che consente di inviare un pagamento offline. Infine, l'email descrive la politica monetaria definitiva di Bitcoin, di cui parleremo nel capitolo seguente.
 
 Il codice rilasciato è un po' più complesso di quanto presentato ed è scritto per lo sviluppo futuro di un'interfaccia che consentirebbe più funzionalità rispetto al semplice trasferimento di bitcoin. Satoshi ha infatti [integrato](https://plan99.net/~mike/satoshi-emails/thread4.html) nel client le basi di un "mercato in stile eBay" (*originale: "an eBay style marketplace built in to the client"*) che [potrebbe](https://plan99.net/~mike/satoshi-emails/thread1.html) in particolare "rendere facile per chiunque offrire servizi di cambio valuta" (*originale: "make it easy for anyone to offer currency exchange"*). Il codice contiene anche [alcune funzioni](https://github.com/trottier/original-bitcoin/blob/4184ab26345d19e87045ce7d9291e60e7d36e096/src/uibase.cpp#L1573-L1731) dedicate all'eventuale configurazione di un'applicazione di poker direttamente nel software. Il poker online stava vivendo un fantastico boom negli Stati Uniti dal 2003 (grazie all'"effetto Moneymaker") ma è stato vittima di una forma di censura finanziaria in seguito all'adozione dell'[Unlawful Internet Gambling Enforcement Act](https://www.pgt.com/news/what-if-poker-wasnt-part-of-the-uigea-back-in-2006) nel 2006, il che spiega questa aggiunta.
-Poche ore dopo l'annuncio, nella notte tra l'8 e il 9 gennaio, Satoshi inizia a minare. Il secondo blocco della catena, il blocco 1, viene convalidato da lui il 9 gennaio alle 2:54 AM. La produzione di questo blocco segna il lancio effettivo della rete, e altri blocchi vengono aggiunti alla catena nelle ore successive.
+Poche ore dopo l'annuncio, nella notte tra l'8 e il 9 gennaio, Satoshi inizia a minare. Il secondo blocco della catena, il blocco 1, viene convalidato da lui il 9 gennaio alle 2:54 AM. L'emissione di questo blocco segna il lancio effettivo del network. Successivamente vengono aggiunti altri blocchi alla catena.
 
 Una volta fatto ciò, Satoshi si assume l'incarico di avvisare le varie persone con cui ha comunicato riguardo a questo lancio. Alle 5:21 AM, invia un'[email](https://www.coindesk.com/markets/2020/11/26/previously-unpublished-emails-of-satoshi-nakamoto-present-a-new-puzzle/) ad Hal Finney informandolo che "la versione Bitcoin v0.1 con EXE e il codice sorgente completo è disponibile su Sourceforge." (*originale: "the Bitcoin v0.1 release with EXE and full sourcecode is up on Sourceforge"*) Il giorno successivo, contatta Adam Back e Wei Dai inviando loro un'email personalizzata. In queste ultime email, include in particolare una descrizione pubblicata da Hal Finney sulla mailing list, che menziona la prova di lavoro e b-money.
 
 Il 10 gennaio, Hal Finney ha tentato di avviare il file eseguibile del software ma ha incontrato un problema tecnico che ha causato il crash del suo computer. Ha [contattato](https://web.archive.org/web/20140821141611/http://sourceforge.net/p/bitcoin/mailman/message/21295694/) Satoshi e ha iniziato a discutere con lui su questo problema. Nonostante le difficoltà, Hal Finney è riuscito a far funzionare il software. Nella notte tra il 10 e l'11 gennaio, all'1 di mattina, ha trovato il suo primo blocco (il [blocco 78](https://mempool.space/block/00000000a2886c95400fd3b263b9920af80b118b28fee5d2a162a18e4d9d8b2f)) e quindi ha guadagnato 50 bitcoin. Un'ora dopo, ha inviato una [email di elogio](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) alla *Cryptography mailing list* dove ha congratulato Satoshi per il rilascio della versione alpha e ha evidenziato la politica monetaria di bitcoin. Infine, alle 3:33 del mattino, ha [condiviso](https://twitter.com/halfin/status/1110302988) la sua esperienza su Twitter (allora un social network emergente, oggi rinominato "X") postando "running Bitcoin". Questo è il primo tweet su Bitcoin.
 
-Da questi scambi tra Satoshi e Hal Finney è emersa la versione 0.1.3, [pubblicata](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/bitcoin/mailman/message/21313152/) il 12 gennaio, che era molto più stabile delle precedenti. Satoshi ha anche approfittato della sua conversazione con Hal Finney per dargli alcuni bitcoin: gli ha [inviato](https://mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) 10 bitcoin tramite il suo indirizzo IP nella notte tra l'11 e il 12 gennaio, alle 3:30 del mattino. Questo è stato il primo trasferimento da una persona all'altra sulla rete.
+Da questi scambi tra Satoshi e Hal Finney è emersa la versione 0.1.3, [pubblicata](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/bitcoin/mailman/message/21313152/) il 12 gennaio, che era molto più stabile delle precedenti. Satoshi ha anche approfittato della sua conversazione con Hal Finney per dargli alcuni bitcoin: gli ha [inviato](https://mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) 10 bitcoin tramite il suo indirizzo IP nella notte tra l'11 e il 12 gennaio, alle 3:30 del mattino. Questo è stato il primo trasferimento da una persona all'altra sul network.
 
 Ma Hal Finney non è l'unica persona a provare Bitcoin in quel periodo. Lo stesso fa Dustin D. Trammell, un ricercatore americano sulla sicurezza informatica che all'epoca era interessato dalle valute digitali (e in particolare alla versione elettronica del Liberty Dollar) e che scopre Bitcoin tramite la mailing list. L'11 gennaio, esegue il software su una delle sue macchine di lavoro (ma non mina il suo primo [blocco](https://mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) fino al 13 a causa di un problema tecnico). 
 Durante la notte tra l'11 e il 12 gennaio, entra in contatto con Satoshi, con il quale [comunica](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) ampiamente nei giorni seguenti. Il 15 gennaio, Dustin Trammell [riceve](https://mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) anche lui 25 bitcoin da Satoshi.
@@ -535,18 +535,18 @@ Dustin Trammell (fonte: [Archivio blog di Dustin Trammell](https://web.archive.o
 
 Successivamente, altre persone tentano di far funzionare il software. Questo è il caso di Nicholas Bohm, un avvocato britannico, che invia un'email il 25 gennaio sulla bitcoin-list perché sta incontrando un problema tecnico e parla privatamente con Satoshi. Un certo Jeff Kane riesce a far funzionare la versione 0.1.3 il 30 gennaio. Nicholas Bohm verrà menzionato insieme a Dustin Trammell nei crediti della versione 0.1.5 del software rilasciata all'inizio di febbraio.
 
-Dal 9 gennaio 2009, la rete non si fermerà più. Blocco dopo blocco, la catena continuerà ad allungarsi. E Bitcoin alla fine raggiungerà il successo.
+Dal 9 gennaio 2009, il network non si fermerà più. Blocco dopo blocco, la catena continuerà ad allungarsi. E Bitcoin alla fine raggiungerà il successo.
 
 ### Una progettazione graduale
 
-Quello che possiamo trarre da questo racconto sulla progettazione di Bitcoin è che è stata graduale. Tra la prima idea nella primavera del 2007 e il lancio effettivo della rete nell'inverno del 2009, sono passati infatti più di un anno e mezzo. Inoltre, alcuni elementi del modello si sono evoluti, come la politica monetaria e il meccanismo delle commissioni sulle transazioni che sono apparsi dopo la pubblicazione della prima versione del White paper il 31 ottobre 2008.
+Quello che possiamo trarre da questo racconto sulla progettazione di Bitcoin è che è stata graduale. Tra la prima idea nella primavera del 2007 e il lancio effettivo della network nell'inverno del 2009, sono passati infatti più di un anno e mezzo. Inoltre, alcuni elementi del modello si sono evoluti, come la politica monetaria e il meccanismo delle commissioni sulle transazioni che sono apparsi dopo la pubblicazione della prima versione del White paper il 31 ottobre 2008.
 
 Tuttavia, questo lavoro non è stato sufficiente e ci è voluta la perseveranza di Satoshi per avviare il sistema. Fin dall'inizio, sapeva bene che poche persone avevano considerato seriamente il suo modello e che sarebbe stato complicato attirare nuovi utenti e collaboratori. Ecco perché ha cercato di generare entusiasmo vendendo la sua idea nel miglior modo possibile. Esploreremo questo aspetto nel capitolo seguente, che copre gran parte dell'anno 2009.
 
 ## Presentazione al mondo
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
 
-Dopo aver esaminato come Bitcoin è stato progettato e lanciato da Satoshi Nakamoto, concentriamoci su come è stato presentato pubblicamente. Seguendo il suo lancio all'inizio del 2009, la rete era operativa, ma c'erano pochi miners (Satoshi ha minato la gran parte dei blocchi) e l'attività era praticamente inesistente (solo 32 transazioni nel mese di gennaio). Il progetto aveva solo un sito web di base e una pagina SourceForge per scaricare il software. Inoltre, la comunicazione su Bitcoin era limitata alla mailing list sulla crittografia Metzdowd, seguita al massimo da qualche centinaio di persone appassionate di crittografia.
+Dopo aver esaminato come Bitcoin è stato progettato e lanciato da Satoshi Nakamoto, concentriamoci su come è stato presentato pubblicamente. Seguendo il suo lancio all'inizio del 2009, il network era operativo, ma c'erano pochi miners (Satoshi ha minato la gran parte dei blocchi) e l'attività era praticamente inesistente (solo 32 transazioni nel mese di gennaio). Il progetto aveva solo un sito web di base e una pagina SourceForge per scaricare il software. Inoltre, la comunicazione su Bitcoin era limitata alla mailing list sulla crittografia Metzdowd, seguita al massimo da qualche centinaio di persone appassionate di crittografia.
 
 La sfida di questo periodo era, quindi, promuovere Bitcoin per attrarre una massa critica di utenti, che potessero poi contribuire alla causa in un modo o nell'altro. Ecco perché la priorità di Satoshi era migliorare il sito e interagire con varie persone. Voleva far conoscere la sua scoperta al mondo.
 
@@ -555,7 +555,7 @@ In questo capitolo, esamineremo i codici culturali che sono emersi dagli sforzi 
 ### Il blocco genesi
 
 Il lancio nel gennaio 2009 ha fornito a Satoshi Nakamoto l'opportunità di stabilire dei paletti fissi nel suo sistema. Come avrebbe [scritto](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) in seguito, la natura di Bitcoin è tale che, "una volta rilasciata la versione 0.1," il suo funzionamento di base è "scolpito nella pietra per il resto della sua esistenza," rendendo necessario fare le cose per bene prima che il sistema si espanda. (*originale: "once version 0.1 was released, the core design was set in stone for the rest of its lifetime"*) In particolare, due elementi fondamentali hanno un'importanza culturale significativa: il contenuto del blocco genesi e il limite di 21 milioni di unità.
-Il blocco genesi è il blocco base della blockchain di Bitcoin, dal quale si estendono i blocchi successivi. È, quindi, codificato nel software. Prima di lanciare la rete, Satoshi ha costruito questo primo blocco producendo la prova di lavoro richiesta e apponendovi un timestamp il 3 gennaio 2009, alle 18:15:05 UTC. In questo blocco (precisamente nella transazione di ricompensa), ha inciso il seguente messaggio:
+Il blocco genesi è il blocco base della blockchain di Bitcoin, dal quale si estendono i blocchi successivi. È, quindi, codificato nel software. Prima di lanciare il network, Satoshi ha costruito questo primo blocco producendo la prova di lavoro richiesta e apponendovi un timestamp il 3 gennaio 2009, alle 18:15:05 UTC. In questo blocco (precisamente nella transazione di ricompensa), ha inciso il seguente messaggio:
 
 ```
 The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
@@ -563,7 +563,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
 Questo è il titolo del giornale britannico *The Times* di quel giorno, che indica che il ministro delle finanze britannico stava per salvare le banche per la seconda volta. La presenza di questo titolo nel blocco svolge un doppio ruolo:
 
-- Da un lato, impedisce di retrodatare il lancio della rete dimostrando che il sistema non avrebbe potuto essere avviato prima del 3 gennaio, poiché Satoshi non avrebbe potuto conoscere il titolo prima che il giornale fosse pubblicato;
+- Da un lato, impedisce di retrodatare il lancio del network dimostrando che il sistema non avrebbe potuto essere avviato prima del 3 gennaio, poiché Satoshi non avrebbe potuto conoscere il titolo prima che il giornale fosse pubblicato;
 - Dall'altro, indica simbolicamente ciò a cui Bitcoin si oppone, riferendosi al contesto monetario e finanziario dell'epoca.
 
 ![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
@@ -574,7 +574,7 @@ Bitcoin, d'altra parte, non si affida a una terza parte fidata e quindi non è s
 
 ### Il limite dei 21 milioni
 
-Questo ci porta al secondo elemento presentato da Satoshi il giorno del lancio della rete Bitcoin: il limite dei 21 milioni. L'8 gennaio, nella sua [email di introduzione](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html), ha descritto questa politica monetaria come segue:
+Questo ci porta al secondo elemento presentato da Satoshi il giorno del lancio del network Bitcoin: il limite dei 21 milioni. L'8 gennaio, nella sua [email di introduzione](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html), ha descritto questa politica monetaria come segue:
 
 > "Verrà messo in circolo un totale di 21.000.000 di bitcoin. &nbsp;Saranno distribuiti ai miners man mano che creano blocchi, con la quantità emessa che viene dimezzata ogni 4 anni.
 >
@@ -630,7 +630,7 @@ Questo non è l'unico riferimento ai metalli preziosi trovato nelle comunicazion
 Satoshi Nakamoto è anche attivo nella mailing list dove scambia idee con Martien van Steenbergen, un consulente olandese di gestione progetti. Il 13 febbraio, affronta il tema della programmabilità di Bitcoin e gli [scrive](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html):
 
 > "Considero Bitcoin un pilastro fondamentale, il primo passo per implementare valute sociali P2P programmabili come descritto dalle idee di Marc Fawzi e da altri discussi qui. Innanzitutto, una valuta P2P di base e standardardizzata deve funzionare. Una volta consolidata e funzionante, è facile arrivare al passaggio successivo, ovvero quello della valuta che aggiusta il proprio valore in modo dinamico e automatico.
-> Mi piace molto l'idea di comunità virtuali, senza appartenenza geografica, che sperimentano nuovi modelli economici".
+> Mi piace molto l'idea di community virtuali, senza appartenenza geografica, che sperimentano nuovi modelli economici".
 
 Tutto ciò dimostra che il creatore di Bitcoin cerca di adattarsi al suo pubblico e sta facendo tutto il possibile per suscitare l'interesse delle persone verso la sua scoperta.
 
@@ -644,7 +644,7 @@ Il 12 aprile, Mike Hearn inviò una [email](https://plan99.net/~mike/satoshi-ema
 
 Mike Hearn e Satoshi Nakamoto discussero vari aspetti di Bitcoin come lo scaling, i micropagamenti, come funziona il software e l'impossibilità nel rimborsare addebiti. In particolare, Mike Hearn chiese a Satoshi perché avesse scelto la quantità di "21 milioni" (*sic*) per il totale dei bitcoin e se potessero essere suddivisi. Satoshi diede la seguente spiegazione:
 
-> "La mia scelta per il numero di bitcoin e il programma di distribuzione è stata una ipotesi plausibile. È stata una scelta difficile perché una volta che la rete è in funzione, è bloccata e non può essere cambiata. Volevo scegliere qualcosa che rendesse il prezzo simile alle valute esistenti, ma, senza conoscere il futuro, è una cosa molto difficile da fare. Ho finito per scegliere una via di mezzo. Se Bitcoin rimane una nicchia piccola, varrà meno per unità rispetto alle valute esistenti. Se immagini che venga utilizzato per una frazione del commercio mondiale, allora ci saranno solo 21 milioni di bitcoin per tutto il mondo. Di conseguenza ciascun bitcoin varrebbe molto di più. I valori sono interi a 64 bit con 8 decimali, quindi 1 bitcoin è rappresentato internamente come 100000000. C'è molta granularità per poter rappresentare cifre piccole. Ad esempio, se 0,001 vale 1 Euro, si potrebbe cambiare la posizione della virgola decimale in modo che se hai 1 Bitcoin viene visualizzato come 1000 e 0,001 viene visualizzato come 1."
+> "La mia scelta per il numero di bitcoin e il programma di distribuzione è stata una ipotesi plausibile. È stata una scelta difficile perché una volta che il network è in funzione, è bloccato e non può essere cambiato. Volevo scegliere qualcosa che rendesse il prezzo simile alle valute esistenti, ma, senza conoscere il futuro, è una cosa molto difficile da fare. Ho finito per scegliere una via di mezzo. Se Bitcoin rimane una nicchia piccola, varrà meno per unità rispetto alle valute esistenti. Se immagini che venga utilizzato per una frazione del commercio mondiale, allora ci saranno solo 21 milioni di bitcoin per tutto il mondo. Di conseguenza ciascun bitcoin varrebbe molto di più. I valori sono interi a 64 bit con 8 decimali, quindi 1 bitcoin è rappresentato internamente come 100000000. C'è molta granularità per poter rappresentare cifre piccole. Ad esempio, se 0,001 vale 1 Euro, si potrebbe cambiare la posizione della virgola decimale in modo che se hai 1 Bitcoin viene visualizzato come 1000 e 0,001 viene visualizzato come 1."
 
 Più tardi spiegò a Mike Hearn che aveva "pensato a 100 BTC [per blocco] e 42 milioni", ma 42 milioni gli sembravano troppi. ("Ho pensato a 100 BTC e 42 milioni, ma 42 milioni sembravano tanti.")
 Dopo aver contattato Satoshi, Mike Hearn ha iniziato ad utilizzare il software sul suo computer personale. Ha minato alcuni blocchi, inclusi [blocco 11,157](https://mempool.space/block/00000000a630e2695d98b11707d053b12c583f58976f8b4ae6a6f289ee32797b). Parallelamente alla loro discussione, i due hanno effettuato alcuni scambi monetari. Il 18 aprile, Mike Hearn ha inviato 32,51 bitcoin a Satoshi, che li ha restituiti lo stesso giorno. Si sono anche inviati reciprocamente 50 bitcoin provenienti dai loro sforzi personali di mining.
@@ -899,7 +899,7 @@ Il 12 giugno, Laszlo Hanyecz [ribadisce](https://bitcointalk.org/index.php?topic
 
 Allo stesso modo, ha portato a termine diverse altre transazioni dello stesso tipo, fino al 4 agosto quando [scrisse](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544) che non poteva più "permettersi di continuare a fare così" poiché non poteva più "generare migliaia di bitcoin al giorno". Il motivo: l'aumento di prezzo causato dall'afflusso di utenti provenienti da Slashdot l'11 luglio, che gli è valso anche le battute sarcastiche dei membri del forum, i quali insinuavano che avrebbe fatto meglio a conservare i suoi bitcoin. Pochi mesi dopo, a novembre, mentre il prezzo del bitcoin si aggirava intorno ai 25 centesimi, l'utente ribuck [scrisse](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) in modo quasi profetico: "Diventerà questa la prima pizza da un milione di dollari al mondo?". 
 
-Tuttavia, l'aumento del potere d'acquisto della criptovaluta non ne ha sminuito il valore simbolico, che viene commemorato ogni anno in questa data come il Bitcoin Pizza Day dalla comunità Bitcoin.
+Tuttavia, l'aumento del potere d'acquisto della criptovaluta non ne ha sminuito il valore simbolico, che viene commemorato ogni anno in questa data come il Bitcoin Pizza Day dalla community Bitcoin.
 
 ### Gavin Andresen e il Bitcoin faucet
 
@@ -971,7 +971,7 @@ Successivamente, Teppy ha aggiornato la presentazione tenendo conto dei suggerim
 
 L'11 luglio 2010, una versione rivista della presentazione di Bitcoin scritta da Teppy fu [pubblicata](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03) su Slashdot. Il messaggio era il seguente:
 
-> "Che ne dite di una tecnologia rivoluzionaria? Bitcoin è una valuta digitale peer-to-peer, basata su un network senza banche centrali e senza commissioni di transazione. Utilizzando un concetto di proof-of-work, i miners usano la CPU per generare bitcoin, che vengono poi trasmessi alla rete. L'analisi dell'uso dell'energia indica che il valore di mercato di Bitcoin è già superiore al valore dell'energia necessaria per minarli, indicando una domanda sana. La comunità spera che la valuta rimanga fuori dalla portata di qualsiasi governo."
+> "Che ne dite di una tecnologia rivoluzionaria? Bitcoin è una valuta digitale peer-to-peer, basata su un network senza banche centrali e senza commissioni di transazione. Utilizzando un concetto di proof-of-work, i miners usano la CPU per generare bitcoin, che vengono poi trasmessi alla rete. L'analisi dell'uso dell'energia indica che il valore di mercato di Bitcoin è già superiore al valore dell'energia necessaria per minarli, indicando una domanda sana. La community spera che la valuta rimanga fuori dalla portata di qualsiasi governo."
 
 ![Logo di Slashdot nel 2010](assets/en/43.webp)
 
@@ -1024,16 +1024,16 @@ Il secondo obiettivo era migliorare le prestazioni del sistema modificando il pr
 
 Anche i miners condividono le loro scoperte per migliorare, direttamente o indirettamente, il mining di bitcoin con il software principale. Come prima cosa, l'[ottimizzazione personale di Laszlo](https://bitcointalk.org/index.php?topic=199.msg1686#msg1686) è stata integrata nel software il 6 luglio (v0.3.0). Successivamente, il 29 luglio (v0.3.6), sono stati aggiunti al software il [caching del contesto](https://bitcointalk.org/index.php?topic=501.msg5815#msg5815) per la funzione hash SHA-256 da Nils Schneider e l'[ottimizzazione del suo calcolo](https://bitcointalk.org/index.php?topic=453.msg5774#msg5774) da BlackEye. Infine, la [parallelizzazione del calcolo su un singolo processore](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722) proposta sempre da Nils Schneider è stata [integrata](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) nel codice il 15 agosto (v0.3.10).
 
-Tutti questi miglioramenti indicano che Bitcoin si sta rafforzando giorno dopo giorno, sia in termini di funzionamento del software che di prestazioni di mining. Tuttavia, questo slancio innovativo è in qualche modo offuscato da un evento che ha profondamente segnato la comunità. È l'incidente del valore overflow, che si è verificato ad agosto e ha interrotto il network per circa quindici ore.
+Tutti questi miglioramenti indicano che Bitcoin si sta rafforzando giorno dopo giorno, sia in termini di funzionamento del software che di prestazioni di mining. Tuttavia, questo slancio innovativo è in qualche modo offuscato da un evento che ha profondamente segnato la community. È l'incidente del valore overflow, che si è verificato ad agosto e ha interrotto il network per circa quindici ore.
 
 ### L'incidente del valore overflow
 
 Il 15 agosto 2010, intorno alle 17:00 (UTC), un blocco contenente una transazione che ha creato più di 184 *miliardi* di bitcoin è stato aggiunto alla catena all'altezza 74,638. Questa emissione straordinariamente alta ha sfruttato una vulnerabilità di overflow della memoria nella rappresentazione delle quantità: l'attaccante ha creato due output di transazione di 92,233,720,368.54277039 BTC ciascuno, un importo vicino alle unità massime che possono essere rappresentate da un intero 64 bit (il formato utilizzato nel protocollo).
-Un'ora dopo, il problema fu notato da Jeff Garzik, che [avvisò](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) la comunità sul forum riguardo a un "blocco strano". La risposta di Satoshi arrivò intorno alle 21:00: egli [pubblicò](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530) una modifica preliminare del codice sul forum e [consigliò](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) alle persone di "smettere di fare mining". Dopo aver apportato alcune revisioni e caricato le modifiche su Sourceforge, alla fine [rilasciò](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) una patch per Windows, Linux e Mac OS X alle 23:48.
+Un'ora dopo, il problema fu notato da Jeff Garzik, che [avvisò](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) la community sul forum riguardo a un "blocco strano". La risposta di Satoshi arrivò intorno alle 21:00: egli [pubblicò](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530) una modifica preliminare del codice sul forum e [consigliò](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) alle persone di "smettere di fare mining". Dopo aver apportato alcune revisioni e caricato le modifiche su Sourceforge, alla fine [rilasciò](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) una patch per Windows, Linux e Mac OS X alle 23:48.
 
 Questa patch permetteva ai miners di rifiutare la transazione incriminata come non valida e di creare un ramo alternativo che non la contenesse. Il [primo blocco](https://mempool.space/block/000000000069e1affe7161ab4bcbeacebb4ddf155b50e807f42de971b688a09b) di questo ramo fu trovato alle 23:53.
 
-La mattina seguente, poco dopo le 8:00, la situazione conflittuale fu risolta. La catena corretta divenne più lunga dell'altra, il che significava che tutti i nodi dovevano seguire questa catena, che avessero applicato la patch o meno. Questo incidente interruppe l'attività della rete per circa 15 ore, ma la reattività della comunità fu esemplare. Satoshi [scrisse](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) intorno alle 13:00:
+La mattina seguente, poco dopo le 8:00, la situazione conflittuale fu risolta. La catena corretta divenne più lunga dell'altra, il che significava che tutti i nodi dovevano seguire questa catena, che avessero applicato la patch o meno. Questo incidente interruppe l'attività della rete per circa 15 ore, ma la reattività della community fu esemplare. Satoshi [scrisse](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) intorno alle 13:00:
 
 > "Sembra che abbiamo superato la cattiva catena a partire dal blocco 74,689. &nbsp;I nodi 0.3.9 e inferiori stanno rispondendo con il numero del blocco corrente da alcune ore. (...) Grazie a tutti per la pronta risposta!"
 
@@ -1074,9 +1074,9 @@ Il 7 settembre, nella versione 0.3.12, Satoshi [inserisce](https://bitcointalk.o
 ### Un'estate di sviluppo
 
 Durante l'estate del 2010, un periodo ricco di eventi, Satoshi si dedicò allo sviluppo del software Bitcoin. La pubblicazione del testo introduttivo di Bitcoin su Slashdot portò a un afflusso senza precedenti di utenti, mettendo anche a rischio il sistema. Di conseguenza, il fondatore e coloro che lo assistevano (incluso, in particolare, Gavin Andresen) cercarono nel miglior modo possibile di correggere le vulnerabilità. Tuttavia, il network incappò in un grave incidente, quello del valore overflow, che portò alla creazione di un sistema di allerta gestito da Satoshi all'interno del software. Infine, questo periodo fu anche segnato dall'aggiunta del limite di dimensione del blocco, un elemento fondamentale nella storia di Bitcoin.
-Nei mesi successivi, continuarono a emergere miglioramenti tecnici, economici e di mining, trasformando gradualmente Bitcoin in un progetto collettivo. La "comunità Bitcoin" finalmente prese vita come entità autonoma. Questo è ciò che studieremo nella prossima parte di questo corso.
+Nei mesi successivi, continuarono a emergere miglioramenti tecnici, economici e di mining, trasformando gradualmente Bitcoin in un progetto collettivo. La "community Bitcoin" finalmente prese vita come entità autonoma. Questo è ciò che studieremo nella prossima parte di questo corso.
 
-# La comunità Bitcoin
+# La community Bitcoin
 <partId>811e7c15-497a-46df-b67b-27eefbc73a63</partId>
 
 ## La corsa all'oro digitale
@@ -1151,7 +1151,7 @@ Qui, affronteremo innanzitutto l'inizio dell'esportazione internazionale di Bitc
 
 ### Bitcoin in altre lingue
 
-Bitcoin è un progetto internazionale e, come tale, deve essere accessibile al maggior numero di persone al di fuori della sfera anglofona. Ecco perché la comunità ha [coordinato](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259) a partire da maggio 2010 la traduzione del sito web e dell'interfaccia grafica del software in diverse lingue. Tra queste, in particolare, sono stati inclusi l'italiano, il tedesco e l'olandese.
+Bitcoin è un progetto internazionale e, come tale, deve essere accessibile al maggior numero di persone al di fuori della sfera anglofona. Ecco perché la community ha [coordinato](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259) a partire da maggio 2010 la traduzione del sito web e dell'interfaccia grafica del software in diverse lingue. Tra queste, in particolare, sono stati inclusi l'italiano, il tedesco e l'olandese.
 
 Ma non è tutto. Alla fine di luglio, Martti Malmi ha iniziato a creare sottosezioni dedicate ai non anglofoni. La community russa è stata la prima a formarsi: in seguito a una richiesta di un certo bitcoinex, la sottosezione dedicata è stata [creata](https://bitcointalk.org/index.php?topic=151.msg6241#msg6241) il 28 luglio. Successivamente, sono stati creati [thread di discussione](https://web.archive.org/web/20101018144227/http://www.bitcoin.org:80/smf/index.php?board=11.0) dedicati ad altre community linguistiche: italiano, olandese, giapponese e catalano ad agosto; spagnolo a settembre; e infine tedesco ad ottobre. Tuttavia, nessun gruppo si confrontava con la community russa, pertanto sono stati scambiati solo pochi messaggi.
 
@@ -1172,7 +1172,7 @@ Nello stesso giorno, Ploum ha aperto il [thread di discussione](https://bitcoint
 
 ### Lo sviluppo della comunicazione
 
-Oltre allo sviluppo delle comunità linguistiche, c'è una certa innovazione nei metodi utilizzati per la comunicazione riguardante Bitcoin. Il 4 ottobre, un australiano di 38 anni che usa lo pseudonimo noagendamarket ha [lanciato](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) un'iniziativa chiamata BitcoinMedia. L'idea è promuovere Bitcoin creando vari contenuti e pubblicizzandoli in luoghi che potrebbero attirare il pubblico. Sebbene questa iniziativa non abbia incontrato il successo sperato, ha il merito di aver realizzato i primi video che parlano di Bitcoin. Il primo video del canale, [pubblicato](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) il 5 ottobre, è una Google Search Story, creata utilizzando Youtube (vedi lo screenshot qui sotto). Gli altri video saranno generati con Xtranormal, uno strumento semplice per creare sequenze video da un insieme di personaggi e scenari pre-progettati.
+Oltre allo sviluppo delle community linguistiche, c'è una certa innovazione nei metodi utilizzati per la comunicazione riguardante Bitcoin. Il 4 ottobre, un australiano di 38 anni che usa lo pseudonimo noagendamarket ha [lanciato](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) un'iniziativa chiamata BitcoinMedia. L'idea è promuovere Bitcoin creando vari contenuti e pubblicizzandoli in luoghi che potrebbero attirare il pubblico. Sebbene questa iniziativa non abbia incontrato il successo sperato, ha il merito di aver realizzato i primi video che parlano di Bitcoin. Il primo video del canale, [pubblicato](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) il 5 ottobre, è una Google Search Story, creata utilizzando Youtube (vedi lo screenshot qui sotto). Gli altri video saranno generati con Xtranormal, uno strumento semplice per creare sequenze video da un insieme di personaggi e scenari pre-progettati.
 
 ![Primo video su Bitcoin (Google Search Story)](assets/en/54.webp)
 
@@ -1337,7 +1337,7 @@ Il 26 aprile 2011, Gavin Andresen inviò un'email [finale](http://gavinandresen.
 
 > "Spero che parlando direttamente con 'loro' e, più importante, ascoltando le loro domande/preoccupazioni, penseranno a Bitcoin nel modo in cui lo faccio io – come un denaro semplicemente migliore, più efficiente, meno soggetto a capricci politici. Non come uno strumento onnipotente del mercato nero che sarà utilizzato dagli anarchici per rovesciare Il Sistema."
 
-Il giorno successivo, Gavin [annunciò](https://bitcointalk.org/index.php?topic=6652.msg97181#msg97181) la notizia sul forum in piena trasparenza. Specificò di essere stato pagato 3.000 dollari per questo viaggio. Tuttavia, ciò non infastidì la comunità, che comprese il suo approccio, anche se, ovviamente, la diffidenza era giustificata. La visita di Gavin alla sede della CIA [ebbe luogo](https://twitter.com/gavinandresen/status/80785477342478336) il 14 giugno.
+Il giorno successivo, Gavin [annunciò](https://bitcointalk.org/index.php?topic=6652.msg97181#msg97181) la notizia sul forum in piena trasparenza. Specificò di essere stato pagato 3.000 dollari per questo viaggio. Tuttavia, ciò non infastidì la community, che comprese il suo approccio, anche se, ovviamente, la diffidenza era giustificata. La visita di Gavin alla sede della CIA [ebbe luogo](https://twitter.com/gavinandresen/status/80785477342478336) il 14 giugno.
 
 Simbolicamente, il 14 giugno è anche la data in cui WikiLeaks [iniziò](https://twitter.com/wikileaks/status/80774521350668288) ad accettare donazioni in bitcoin. Questa notizia fu riportata sul sito di Forbes.
 
@@ -1403,7 +1403,7 @@ Infine, nel settembre 2011, è stato [effettuato](https://buildingbitcoin.org/bi
 
 ![Snapshot di Bitcoin.org del 23 settembre 2011](assets/en/64.webp)
 
-Riguardo al sito wiki, inizialmente si basava su DokuWiki, un motore gratuito integrato nel sito web. Tuttavia, nel dicembre 2010, Mark Karpelès, uno sviluppatore francese che vive in Giappone e che usa lo pseudonimo MagicalTux sul forum, ha creato un nuovo wiki all'indirizzo bitcoin.it. Questo wiki si basa sul motore MediaWiki, che trova più elegante e facile da usare. L'idea iniziale non è sostituire la documentazione esistente, ma, come Mark [esprime](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) su IRC, sviluppare "un wiki meno formale, più orientato alla comunità".
+Riguardo al sito wiki, inizialmente si basava su DokuWiki, un motore gratuito integrato nel sito web. Tuttavia, nel dicembre 2010, Mark Karpelès, uno sviluppatore francese che vive in Giappone e che usa lo pseudonimo MagicalTux sul forum, ha creato un nuovo wiki all'indirizzo bitcoin.it. Questo wiki si basa sul motore MediaWiki, che trova più elegante e facile da usare. L'idea iniziale non è sostituire la documentazione esistente, ma, come Mark [esprime](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) su IRC, sviluppare "un wiki meno formale, più orientato alla community".
 Questo nuovo wiki ha attirato l'attenzione di [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) e [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535), i quali hanno rapidamente considerato l'idea di renderlo il wiki principale. Ecco uno [snapshot](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page) scattato il 21 maggio:
 
 ![Snapshot del wiki Bitcoin.it il 21 maggio 2011](assets/en/65.webp)
@@ -1423,7 +1423,7 @@ Febbraio segna anche la [prima presentazione filmata](https://www.youtube.com/wa
 
 :::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
-Anche se i primi eventi si svolsero negli Stati Uniti, la comunità francese non rimase indietro. Il 25 maggio, per segnare la visita di Gavin Andresen a Parigi, fu organizzato un pranzo nel quartiere de La Défense, al quale parteciparono figure di spicco come Lucien Grondin, David François e Jon Matonis (che era anche in visita).
+Anche se i primi eventi si svolsero negli Stati Uniti, la community francese non rimase indietro. Il 25 maggio, per segnare la visita di Gavin Andresen a Parigi, fu organizzato un pranzo nel quartiere de La Défense, al quale parteciparono figure di spicco come Lucien Grondin, David François e Jon Matonis (che era anche in visita).
 
 ![Incontro a La Défense a Parigi con Gavin Andresen, in una camicia rosa](assets/en/66.webp)
 

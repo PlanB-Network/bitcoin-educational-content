@@ -1,6 +1,6 @@
 ---
-name: ColdCard Co-Sign
-description: Qu'est ce que Co-Sign and comment s'en servir sur son appareil Coldcard
+name: COLDCARD - Co-Sign
+description: Découvrir la fonctionnalité Co-Sign et l’utiliser sur votre COLDCARD
 ---
 
 ![cover](assets/cover.webp)

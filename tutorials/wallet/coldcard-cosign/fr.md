@@ -1,13 +1,13 @@
 ---
 name: ColdCard Co-Sign
-description: What is CoSign and how to use it on ColdCard devices ?
+description: Qu'est ce que Co-Sign and comment s'en servir sur son appareil Coldcard
 ---
 
 ![cover](assets/cover.webp)
 
 https://youtu.be/MjMPDUWWegw
 
-*Ce tutoriel s'adresse à des personnes ayant déjà un peu d'expérience avec les wallet multisignatures et des logiciels comme Sparrow Wallet ou Nunchuk.*
+*NB: Ce tutoriel s'adresse à des personnes ayant déjà un peu d'expérience avec les wallets multisignatures, les appareils Coinkite, et des logiciels comme Sparrow Wallet ou Nunchuk.*
 
 
 **A quoi sert ColdCard Co-Sign ?**
@@ -31,7 +31,7 @@ A chaque fois que la "Clé C" sera sollicitée pour signer, alors les conditions
 
 Si vous souhaitez vous affranchir de ces conditions de dépense, vous pouvez le faire:
 - en signant avec l'une des clés de backup et la main seed, ou 2 clés de backups suivant la taille de votre multisig.
-- en renseignant la "Spending Policy Key" ou "Clé C" dans le menu dédié à "Co-Sign". **Cette dernière n'est donc pas consultable directement sur l'appareil, autrement n'importe qui pourrait annuler les conditions de dépenses configurées.**
+- en renseignant la "Spending Policy Key" ou "Clé C" dans le menu "Co-Sign". **Cette dernière n'est donc pas consultable directement sur l'appareil, autrement n'importe qui pourrait annuler les conditions de dépenses configurées.**
 
 
 ## Configurer ColdCard Co-Sign
@@ -230,7 +230,7 @@ Pas de problème cette fois, aucun message d'alerte n'apparait et quand on impor
 
 ### 1- Web 2FA & adresses pré-autorisées (Whitelisted)
 
-Nous allons dans ce paragraphe utiliser notre wallet multisig Co-Sign avec Nunchuk, et en profitez pour appliquer de nouvelles conditions de dépenses pour voir comment cela se passe.
+Nous allons dans ce paragraphe utiliser notre wallet multisig Co-Sign avec Nunchuk, et en profiter pour appliquer de nouvelles conditions de dépenses pour voir comment cela se passe.
 
 Allons dans *Avanced Tools > ColdCard Co-Signing*.
 On nous demande de rentrer notre "Spending Policy Key", afin d'accéder au menu nous permettant de changer les conditions de dépenses. Dans notre cas nous rentrons 12 x "beef".
@@ -241,7 +241,7 @@ Nous décidons de garder une magnitude de 21212 sats, et une "Limit Velocity" ma
 ![Co-Sign](assets/fr/31.webp)
 
 
-Scannez les QR codes associés aux adresses que vous souhaitez ajouter dans votre liste blanche, puis cliquez sur **"ENTER"**. Après avoir validé vos adresses en appuyant successivement sur **"ENTER"**, nous voyons que des limites sur la Magnitude et les adresses bénéficiaires ont été appliquées.
+Scannez les QR codes associés aux adresses (nous en choisissons 2) que vous souhaitez ajouter dans votre liste blanche, puis cliquez sur **"ENTER"**. Après avoir validé vos adresses en appuyant successivement sur **"ENTER"**, nous voyons que des limites sur la Magnitude et les adresses bénéficiaires ont été appliquées.
 
 ![Co-Sign](assets/fr/32.webp)
 
@@ -257,7 +257,7 @@ Cette fonctionnalité vous permet d'utiliser une application compatible TOTP RFC
 
 [Plan ₿ Network - Aegis Authenticator](https://planb.network/en/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc)
 
- Concrètement avant de signer une transaction vous devrez taper votre appareil NFC et connecté à internet à votre Coldcard. Cela vous conduira automatiquement sur une page web sur coldcard.com, où il vous sera demandé d'entrer le code à 6 chiffres de votre application. Si vous entrez le bon code, la page web vous indiquera soit un QR code à scanner pour le ColdCardQ, soit un code à 8 chiffres qu'il faudra entrer sur votre Mk4, afin d'autoriser votre appareil à signer.
+ Concrètement avant de signer une transaction vous devrez taper votre appareil NFC et connecté à internet à votre Coldcard. Cela vous conduira automatiquement sur une page web coldcard.com, où il vous sera demandé d'entrer le code à 6 chiffres de votre application. Si vous entrez le bon code, la page web vous indiquera soit un QR code à scanner pour le ColdCardQ, soit un code à 8 chiffres qu'il faudra entrer sur votre Mk4, afin d'autoriser votre appareil à signer.
 
 
 
@@ -269,7 +269,7 @@ Taper votre ColdCard au dos de votre appareil NFC.
 
 ![Co-Sign](assets/fr/34.webp)
 
-Sur la page web qui s'ouvre, renseigner votre le code 2FA de votre application favorite. Puis scannez le QR code qui s'affiche avec votre ColdCardQ, ou renseignez dans votre Mk4 le code à 8 chiffres qui s'affiche.
+Sur la page web qui s'ouvre, renseigner votre le code 2FA de votre application favorite. Puis scannez le QR code qui s'affiche avec votre ColdCardQ (ou renseignez dans votre Mk4 le code à 8 chiffres qui s'affiche).
 
 ![Co-Sign](assets/fr/35.webp)
 
@@ -306,11 +306,13 @@ Enfin tapez le dos de votre smartphone à l'écran de votre ColdCardQ pour impor
 
 ![Co-Sign](assets/fr/41.webp)
 
+On retrouve bien notre compte et les satoshis déposés précédemment via Sparrow Wallet.
+
 ![Co-Sign](assets/fr/42.webp)
 
 ### 3- Test des conditions de dépenses (spending policies) prédéfinies
 
-Essayons maintenant de réaliser une transaction qui viole les 2 conditions de dépenses que nous avons fixés. Nous allons essayer de dépenser plus de 21212 sats vers une adresse qui n'a pas été approuvée. Essayons d'envoyer 22 222 sats vers une adresse aléatoire.
+Essayons maintenant de réaliser une transaction qui viole les 2 conditions de dépenses que nous avons fixés. **Nous allons essayer de dépenser plus de 21212 sats vers une adresse qui n'a pas été approuvée.** Essayons d'envoyer 22 222 sats vers une adresse aléatoire.
 
 ![Co-Sign](assets/fr/43.webp)
 
@@ -323,12 +325,12 @@ Puis choisissez **"Export via BBQR"**, et scannez le QR code affiché à l'aide 
 ![Co-Sign](assets/fr/45.webp)
 
 Votre ColdcardQ vous affiche un avertissement, qui si on fait défiler l'écran jusqu'en bas, nous indique que notre transaction viole les conditions de dépense comme attendu.
-On remarque que l'appareil ne nous indique pas de quelles conditions de dépenses il s'agit, pour éviter qu'un éventuel attaquant puisse essayer de contourner les restrictions.
+**On remarque que l'appareil ne nous indique pas de quelles conditions de dépenses il s'agit, pour éviter qu'un éventuel attaquant puisse essayer de contourner les restrictions.**
 
 
 ![Co-Sign](assets/fr/46.webp)
 
-Si on valide quand même en appuyant sur **"ENTER"**  le QR code de la transaction signée apparait. Si on l'importe sur Nunckuk, on voit bien qu'une seule signature a été appliquée. 
+Si on valide quand même en appuyant sur **"ENTER"**  le QR code représentant la transaction signée apparait. Si on l'importe sur Nunckuk, on voit bien qu'une seule signature a été appliquée. 
 
 ![Co-Sign](assets/fr/47.webp)
 
@@ -337,15 +339,15 @@ Si on valide quand même en appuyant sur **"ENTER"**  le QR code de la transacti
 
 
 
-Réalisons exactement la même opération, mais cette fois avec une transaction qui respecte la magnitude limite (21212 sats), et qui dépense les satoshis vers une adresse que l'on a préconfigurée.
+Réalisons exactement la même opération, mais cette fois avec une transaction qui respecte la magnitude limite (21212 sats), et qui dépense les satoshis vers une des 2 adresses que l'on a préconfigurée.
 
-On envoie 12121 sats à une une de nos 2 adresses. Puis on exporte la transaction vers notre ColdCard comme déjà fait précédemment.
+On envoie sur Nunchuk 12121 sats à une une de nos 2 adresses. Puis on exporte la transaction vers notre ColdCard comme déjà fait précédemment.
 
 ![Co-Sign](assets/fr/49.webp)
 
 
-Après avoir importé la transaction non signée sur notre ColdCardQ, voyons voir ce qui nous est indiqué.
-On voit qu'un warning est toujours présent mais cette fois, si on fait défiler l'écran jusqu'en bas on se rend compte qu'il s'agit désormais de valider la transaction via le 2FA. Il nous est demandé de taper notre ColdCardQ à notre appareil NFC connecté à internet, ce que nous faisons.
+Après avoir importé la transaction non signée sur notre ColdCardQ, voyons voir ce qui nous est indiqué cette fois-ci.
+On voit qu'un warning est toujours présent mais cette fois, si on fait défiler l'écran jusqu'en bas on se rend compte qu'il s'agit désormais de valider la transaction via le 2FA. Il nous est demandé de taper notre ColdCardQ à notre appareil NFC connecté à internet (smartphone / tablette), ce que nous faisons.
 
 ![Co-Sign](assets/fr/50.webp)
 

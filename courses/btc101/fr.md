@@ -582,7 +582,7 @@ Bien entendu, les portefeuilles Bitcoin diffèrent selon les cas d'utilisation e
 
 ### La sécurité doit être adaptée
 
-Le montant que l'on est prêt à laisser sur un niveau de sécurité spécifique dépend de chaque individu. Pour certains, laisser 1 BTC sur un hot wallet est raisonnable, alors que pour d'autres, c'est le contraire. Dans tous les cas, lorsque vous souhaitez sécuriser un petit montant, nous vous conseillons de ne pas trop dépenser pour la sécurité en achetant un portefeuille physique. Par ailleurs, gardez à l'esprit que compliquer à l'excès la sécurité et l'accessibilité de vos bitcoins peut s'avérer préjudiciable, surtout si vous malmenez les sauvegardes de vos portefeuilles.
+Le montant que l'on est prêt à laisser sur un niveau de sécurité spécifique dépend de chaque individu. Pour certains, laisser 1 BTC sur un hot wallet est raisonnable, alors que pour d'autres, c'est le contraire. Dans tous les cas, lorsque vous souhaitez sécuriser un petit montant, nous vous conseillons de ne pas trop dépenser pour la sécurité en achetant un portefeuille physique. De plus, gardez à l’esprit que rendre la sécurité et l’accessibilité de vos bitcoins trop compliquées peut être préjudiciable, surtout si vous gérez mal les sauvegardes de vos portefeuilles.
 
 En conclusion, la propriété directe de ses bitcoins est un élément essentiel pour assurer sa souveraineté financière. Il est recommandé d'utiliser un portefeuille mobile pour les dépenses quotidiennes et un portefeuille physique hors ligne, ou "froid", pour stocker des montants plus importants. Les entreprises, quant à elles, devraient envisager d'utiliser des systèmes de multi-signature, ou "multisig", pour une sécurité accrue et partagée. Il est également essentiel d'éviter les services de garde, qui peuvent reproduire certaines vulnérabilités du système financier traditionnel.
 
@@ -606,7 +606,7 @@ Lorsque vous créez un portefeuille, le logiciel crée généralement votre clé
 
 - Couvrir toutes les caméras.
 - Ne prenez pas de photo de la liste de mots.
-- Ne le saisissez pas sur un ordinateur ou un téléphone.
+- Ne la saisissez pas sur un ordinateur ou un téléphone.
 - Ne l'enregistrez pas comme contact et ne vous l'envoyez pas par SMS.
 - Ne laissez jamais vos mots sans surveillance sur votre bureau.
 - Ne cachez jamais votre liste de mots dans un endroit inhabituel.

@@ -4,10 +4,9 @@ description: Découvrir la fonctionnalité Co-Sign et l’utiliser sur votre COL
 ---
 
 ![cover](assets/cover.webp)
-
-https://youtu.be/MjMPDUWWegw
-
 *NB: Ce tutoriel s'adresse à des personnes ayant déjà un peu d'expérience avec les wallets multisignatures, les appareils Coinkite, et des logiciels comme Sparrow Wallet ou Nunchuk.*
+
+![video](https://youtu.be/MjMPDUWWegw)
 
 
 **A quoi sert ColdCard Co-Sign ?**

@@ -78,7 +78,7 @@ On the Home Screen we can see different items displayed:
 
 ![image](assets/en/11.webp)
 
-Tapping the `Hamburger menu` icon iopens the settings menu. Let's review the options. 
+Tapping the `Hamburger menu` icon opens the settings menu. Let's review the options. 
 
 ![image](assets/en/05.webp)
 

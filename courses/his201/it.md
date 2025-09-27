@@ -796,7 +796,7 @@ Appare anche il primo servizio custodial dedicato a Bitcoin: si tratta di MyBitc
 
 ![Logo di MyBitcoin dall'archivio del sito mybitcoin.com](assets/en/34.webp)
 
-A quel tempo, i wallet lightining network custodial (noti come "SPV") non esistevano, quindi lo stesso Satoshi Nakamoto riteneva accettabile l'uso di questo tipo di software, anche se questo uso andava contro il principio di disintermediazione al cuore di Bitcoin. Il 18 maggio 2010, [scriveva](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) sul forum:
+A quel tempo, i wallet leggeri (ovvero wallet avente un sistema di pagamento semplificato, noti come "SPV") non esistevano, quindi lo stesso Satoshi Nakamoto riteneva accettabile l'uso di questo tipo di software, anche se questo uso andava contro il principio di disintermediazione al cuore di Bitcoin. Il 18 maggio 2010, [scriveva](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) sul forum:
 
 > "Nel frattempo, siti come [vekja.net](http://vekja.net) e [www.mybitcoin.com](http://www.mybitcoin.com) hanno sperimentato sistemi basati su account. &nbsp; Si crea un account su un sito web, si conservano i bitcoin e si trasferiscono in entrata e in uscita. Creare un account su un sito web è molto più semplice che installare un software e imparare a usarlo, ed è un metodo più familiare per la maggior parte delle persone. L'unico svantaggio è che bisogna fidarsi del sito, ma questo va bene per piccoli importi destinati a micropagamenti e spese varie. È un modo facile per iniziare, per poi passare al software bitcoin effettivo quando le quantità ricevute diventano più significative."
 

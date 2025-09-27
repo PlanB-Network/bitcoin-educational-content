@@ -5,5 +5,5 @@ wrong_answers:
   - Il limite di dimensione del blocco
   - Gli op codes OP_NOP
 explanation: |
-  Questo efficace sistema di allerta gli permetteva, con l'uso di una chiave privata, di avvisare i nodi della rete in caso di problema tecnico e di sospendere alcuni comandi API.
+  Questo efficace sistema di allerta gli permetteva, con l'uso di una chiave privata, di avvisare i nodi del network in caso di problema tecnico e di sospendere alcuni comandi API.
 reviewed: false

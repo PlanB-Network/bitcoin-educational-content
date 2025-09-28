@@ -582,7 +582,7 @@ Ein Administrator möchte vielleicht auf diese Einstellung verzichten. Mit der f
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### BTCPay Server Wallet-Einstellungen
@@ -1691,7 +1691,7 @@ Die untenstehende Tabelle listet die Standardrechnungsstatus in BTCPay auf und b
 | In Bearbeitung (überbezahlt)        | Mehr als der Rechnungsbetrag bezahlt, nicht die erforderliche Anzahl an Bestätigungen erhalten                                                  | Warten Sie, bis die Zahlung abgerechnet ist, dann kontaktieren Sie den Käufer, um eine Rückerstattung für den zusätzlichen Betrag zu arrangieren, oder warten Sie optional, bis der Käufer Sie kontaktiert. |
 | Abgerechnet                         | Vollständig bezahlt, ausreichende Anzahl an Bestätigungen im Geschäft erhalten                                                                  | Erfüllen Sie die Bestellung                                                                                                                                                                                 |
 | Abgerechnet (markiert)              | Der Status wurde manuell von einem in Bearbeitung oder ungültigen Status auf abgerechnet geändert                                               | Der Geschäftsadministrator hat die Zahlung als abgerechnet markiert                                                                                                                                         |
-| Ungültig\*                          | Bezahlt, aber nicht die erforderliche Anzahl an Bestätigungen innerhalb der im Geschäft festgelegten Zeit erhalten                              | Überprüfen Sie die Transaktion in einem Blockchain-Explorer, wenn sie ausreichende Bestätigungen erhalten hat, markieren Sie sie als abgerechnet                                                            |
+| **Ungültig**                          | Bezahlt, aber nicht die erforderliche Anzahl an Bestätigungen innerhalb der im Geschäft festgelegten Zeit erhalten                              | Überprüfen Sie die Transaktion in einem Blockchain-Explorer, wenn sie ausreichende Bestätigungen erhalten hat, markieren Sie sie als abgerechnet                                                            |
 | Ungültig (markiert)                 | Der Status wurde manuell von einem abgerechneten oder abgelaufenen Status auf ungültig geändert                                                 | Der Geschäftsadministrator hat die Zahlung als ungültig markiert                                                                                                                                            |
 | Ungültig (überbezahlt)              | Mehr als der Rechnungsbetrag bezahlt, aber nicht die erforderliche Anzahl an Bestätigungen innerhalb der im Geschäft festgelegten Zeit erhalten | Überprüfen Sie die Transaktion in einem Blockchain-Explorer, wenn sie ausreichende Bestätigungen erhalten hat, markieren Sie sie als abgerechnet                                                            |
 

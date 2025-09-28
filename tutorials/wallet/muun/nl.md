@@ -7,10 +7,10 @@ description: De Muun Wallet instellen
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) is een zelf-custodiale Wallet voor Bitcoin en bliksem.
+[Muun](https://muun.com/) is een zelfbewaarde wallet voor bitcoin en lightning.
 
 
-## uitlegvideo
+## Videotutorial
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
@@ -19,7 +19,7 @@ Muun (https://muun.com/) is een zelf-custodiale Wallet voor Bitcoin en bliksem.
 ## Muun Wallet - Complete Gebruikershandleiding
 
 
-Complete gebruikershandleiding (met schermafbeeldingen) voor de Muun-applicatie; een gebruiksvriendelijke mobiele Bitcoin Wallet waarmee je kunt handelen op de Lightning Network.
+Volledige gebruikershandleiding (met schermafbeeldingen) voor de Muun-applicatie; een gebruiksvriendelijke mobiele Bitcoin-portemonnee waarmee u transacties kunt uitvoeren op het Lightning-netwerk.
 
 
 ![image](assets/0.5.webp)
@@ -182,19 +182,19 @@ Hier is de vertaling van de instructies:
 Deze noodprocedure helpt je om je geld terug te krijgen als je Muun niet kunt gebruiken op je apparaat.
 
 
-1. Vind je herstelcode
+- Vind je herstelcode
 
 
 Je hebt deze code op een stuk papier geschreven voordat je je EHBO-kit maakte. Je hebt hem later nodig.
 
 
-2. De hersteltool downloaden
+- Download de hersteltool
 
 
 Ga naar de pagina https://github.com/muun/recovery en download de tool naar je computer.
 
 
-3. Uw geld terugvorderen
+- Herstel je fondsen
 
 
 Start het herstelprogramma en volg de stappen. Het hulpprogramma zal je geld overzetten naar een Bitcoin Address van jouw keuze.
@@ -260,7 +260,7 @@ De aanpassingsopties vind je onder het menu "Invoice instellingen". Hier kun je 
 ![image](assets/28.webp)
 
 
-## De functie LNURL gebruiken
+## De LNURL-functie gebruiken
 
 
 De Muun Wallet biedt de mogelijkheid om LNURL te gebruiken om transacties te ontvangen. Deze functie, die wordt geactiveerd door op het vierkante scansymbool rechtsboven op de pagina te tikken, heeft verschillende voordelen, waaronder het feit dat je geen Invoice hoeft te delen om een transactie te ontvangen. In plaats daarvan moet je een QR-code scannen om de betalingsinformatie te ontvangen, die je vervolgens kunt valideren om het transactieproces te bevestigen.

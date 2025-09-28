@@ -1,0 +1,9 @@
+question: 微型电脑中 Dust 的积累会带来什么主要风险？
+answer: 处理器节流
+wrong_answers:
+  - 删除 Blockchain 区块
+  - 磁盘损坏
+  - 内存容量减少
+explanation: |
+  Dust 会阻碍通风，造成过热，并导致节流，降低处理器效率。
+reviewed: true

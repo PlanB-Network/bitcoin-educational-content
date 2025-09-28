@@ -1,5 +1,5 @@
 ---
-name: Blå Wallet
+name: Blue Wallet
 
 description: Bitcoin Radikalt enkel og kraftfull portefølje
 ---
@@ -152,7 +152,7 @@ Du kan fjerne én eller alle mottakere ved å klikke på henholdsvis **Fjern mot
 
 
 
-- Oppblåste gebyrer**: Har du foretatt en transaksjon som det tar lang tid å få bekreftet? Ved å aktivere gebyrinflasjon kan du legge til ekstra transaksjonsgebyrer til den ventende transaksjonen for å fremskynde bekreftelsen.
+- **Oppblåste gebyrer**: Har du foretatt en transaksjon som det tar lang tid å få bekreftet? Ved å aktivere gebyrinflasjon kan du legge til ekstra transaksjonsgebyrer til den ventende transaksjonen for å fremskynde bekreftelsen.
 
 
 
@@ -248,7 +248,7 @@ På Multisig Wallet-siden finner du transaksjonshistorikken din og knappene Mott
 
 
 
-- Send bitcoins** :
+- Send **bitcoins**:
 
 
 
@@ -274,7 +274,7 @@ Den andre Wallet-signatøren, hvis han eller hun også er en bruker, kan signere
 
 
 
-- Gå lenger med Multi signature**-porteføljen:
+- Gå lenger med **Multi signature**-porteføljen:
 
 
 

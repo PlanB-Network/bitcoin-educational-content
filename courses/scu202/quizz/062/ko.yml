@@ -1,0 +1,9 @@
+question: 탈중앙화되었지만 지연 시간이 긴 네트워크를 통해 트래픽을 리디렉션하여 익명성을 보장하는 브라우저는 무엇인가요?
+answer: 토르 브라우저
+wrong_answers:
+  - 멀바드 브라우저
+  - Lynx
+  - LibreWolf
+explanation: |
+  토르 브라우저는 익명 브라우징을 위해 토르 네트워크에 의존하지만, 그 대가로 성능이 크게 저하됩니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vad är syftet med revNNNNN.dat-filerna som lagras tillsammans med blkNNNNN.dat?
+answer: Återställ UTXO som sattes under omorganisationen
+wrong_answers:
+  - Återställ UTXO som ställdes in under en Hard Fork
+  - Återställ Mempool under Hard Fork
+  - Återställning av Mempool under en omorganisation
+explanation: |
+  Varje revNNNNN.dat innehåller de data som behövs för att upphäva effekterna av ett block på UTXO-uppsättningen, vilket gör det lättare att hantera omorganisationer.
+reviewed: true

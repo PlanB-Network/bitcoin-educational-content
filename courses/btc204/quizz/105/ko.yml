@@ -1,0 +1,9 @@
+question: 기존 결제 거래와 비교하여 PayJoin 거래의 주요 장점은 무엇인가요?
+answer: 개인 정보 보호 향상
+wrong_answers:
+  - 확인 속도가 빨라집니다
+  - 거래 수수료 절감
+  - 수신자를 오도하는 경우
+explanation: |
+  PayJoin 거래는 잘못된 체인 분석을 통해 이해관계자의 프라이버시를 강화합니다.
+reviewed: true

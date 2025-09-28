@@ -1,0 +1,9 @@
+question: ノードを素早く使えるようにするために、UTXOセットのスナップショットをロードするためにどのようなメカニズムが使えるか？
+answer: アスキュソ
+wrong_answers:
+  - 仮定
+  - txインデックス
+  - ノットインデックス
+explanation: |
+  AssumeutxoはUTXOセットのスナップショットをロードし、ノードを素早く立ち上げ、バックグラウンドで完全なUTXOセットを再構築する。
+reviewed: true

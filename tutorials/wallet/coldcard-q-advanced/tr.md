@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Gelişmiş
+name: COLDCARD Q - Uzman
 description: COLDCARD Q'nun gelişmiş seçeneklerini kullanma
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ COLDCARD'larda, passphrase'inizi yönetmek için iki seçeneğiniz vardır:
 1. **Klasik giriş:** Diğer donanım cüzdanlarında yaptığınız gibi Hardware Wallet'unuzu her kullandığınızda passphrase'u manuel olarak girersiniz. COLDCARD Q, tam klavyesi ile bu görevi basitleştirir.
 
 
-2. **passphrase'inizi şifrelemeyi ve bir microSD kartta saklamayı seçebilirsiniz. Bu durumda, microSD'yi her kullandığınızda COLDCARD Q'ya takmanız gerekecektir. Bu microSD'nin yalnızca COLDCARD Q'nuzda çalışacağını ve bir yedek olmadığını unutmayın. Bu nedenle, passphrase'inizin bir kopyasını kağıt veya metal gibi fiziksel bir ortamda da saklamanız çok önemlidir.
+2. **passphrase'inizi şifrelemeyi ve bir microSD kartta saklamayı seçebilirsiniz.** Bu durumda, microSD'yi her kullandığınızda COLDCARD Q'ya takmanız gerekecektir. Bu microSD'nin yalnızca COLDCARD Q'nuzda çalışacağını ve bir yedek olmadığını unutmayın. Bu nedenle, passphrase'inizin bir kopyasını kağıt veya metal gibi fiziksel bir ortamda da saklamanız çok önemlidir.
 
 
 BIP39 passphrase'nizi ayarlamak için "*passphrase*" menüsüne erişin.

@@ -1,0 +1,9 @@
+question: Siapa yang menulis "Tidak ada yang terjadi di alam yang dapat dikaitkan dengan
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Spinoza yang menulis: "Tidak ada sesuatu pun yang terjadi di alam yang dapat dikaitkan dengan kekurangan yang ada di dalamnya". Ungkapan ini mengekspresikan gagasan bahwa alam itu sempurna dalam jenisnya, dan bahwa cacat hanyalah penilaian manusia.
+reviewed: false

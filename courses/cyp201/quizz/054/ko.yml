@@ -1,0 +1,9 @@
+question: Bitcoin HD Wallet에서 passphrase의 주요 역할은 무엇인가요?
+answer: 보안을 강화하기 위해 키 파생 수정하기
+wrong_answers:
+  - 보류 중인 거래 암호 해독
+  - generate Wallet의 UTXO
+  - 얼굴 ID로 Wallet 액세스 보호
+explanation: |
+  passphrase은 두 번째 보안 요소로 작용하여 Mnemonic 문구가 손상될 경우 Wallet에 대한 액세스를 방지하기 위해 키 파생 seed를 변경합니다.
+reviewed: false

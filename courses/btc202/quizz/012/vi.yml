@@ -1,0 +1,9 @@
+question: Giai đoạn nào là một phần trong vai trò của diễn viên phụ?
+answer: Xây dựng khối ứng viên từ Mempool
+wrong_answers:
+  - Xác thực toàn bộ Blockchain từ Mempool
+  - Tạo địa chỉ Bitcoin cho người dùng
+  - Lưu trữ khóa riêng cho ví
+explanation: |
+  Miner chọn các giao dịch từ Mempool và xây dựng một khối ứng viên, sau đó Proof of Work sẽ xác thực khối này.
+reviewed: true

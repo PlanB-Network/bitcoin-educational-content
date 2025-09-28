@@ -1,0 +1,9 @@
+question: Vilka säkerhetsåtgärder rekommenderas starkt när du skapar ett Umbrel-konto?
+answer: Aktivera 2FA
+wrong_answers:
+  - Inaktivera lösenord
+  - Använda en PIN-kod
+  - Inaktivera alla anslutningar
+explanation: |
+  2FA ger extra skydd och rekommenderas starkt, särskilt när du använder en Lightning-nod eller känslig självhosting.
+reviewed: true

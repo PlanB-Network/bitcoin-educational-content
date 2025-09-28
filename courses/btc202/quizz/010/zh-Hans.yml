@@ -1,0 +1,9 @@
+question: 节点和 Miner 在经济上有什么区别？
+answer: Miner 获得奖励，节点没有直接收益
+wrong_answers:
+  - 节点获得酬金，Miner 获得整笔赠款
+  - 节点获得奖励，Miner 没有直接收益
+  - 两者获得相同的奖项
+explanation: |
+  矿工获得奖励（补贴和费用），而节点不会给用户带来直接的经济利益。
+reviewed: true

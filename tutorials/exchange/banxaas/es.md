@@ -73,7 +73,7 @@ La plataforma web de Banxaas es minimalista e intuitiva, permitiéndole completa
 
 
 
-- Del franco CFA a los satoshis** :
+- Del franco CFA a los **satoshis**:
 
 
 
@@ -114,7 +114,7 @@ Confirme su transacción haciendo clic en el botón **Troc** para comprar bitcoi
 
 
 
-- De Satoshis a Francos CFA**
+- De Satoshis a Francos CFA
 
 
 

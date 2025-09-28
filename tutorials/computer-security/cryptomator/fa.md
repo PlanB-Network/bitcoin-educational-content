@@ -1,5 +1,5 @@
 ---
-name: کریپتوماتور
+name: Cryptomator
 description: فایل‌های خود را در فضای ابری رمزگذاری کنید
 ---
 ![cover](assets/cover.webp)

@@ -319,42 +319,42 @@ Faida za kuendesha nodi ya Bitcoin ni kubwa kwa Bitcoiner yoyote aliyejitolea. S
 Hizi ni baadhi ya amri za msingi wakati wa kusanidi nodi zako:
 
 
-- Angalia hali ya Bitcoin daemon**:
+- Angalia hali ya **Bitcoin daemon**:
 
 ```bash
 sudo systemctl status bitcoind
 ```
 
 
-- Anzisha Bitcoin daemon:**:
+- **Anzisha Bitcoin daemon**:
 
 ```bash
 systemctl start bitcoind
 ```
 
 
-- Zima Bitcoin daemon:**:
+- **Zima Bitcoin daemon**:
 
 ```bash
 sudo systemctl stop bitcoind
 ```
 
 
-  - Pata maelezo ya kina**:
+- Pata maelezo ya kina:
 
 ```bash
 bitcoin-cli getblockchaininfo
 ```
 
 
-- Pogoa Blockchain ili kuokoa nafasi ya diski kwa kuweka tu vizuizi vya hivi karibuni:**:
+- Pogoa Blockchain ili kuokoa nafasi ya diski kwa kuweka tu vizuizi vya hivi karibuni:
 
 ```bash
 prune=550
 ```
 
 
-- Washa seva ya Bitcoin Core na usanidi mipangilio ya RPC:**:
+- **Washa seva ya Bitcoin Core na usanidi mipangilio ya RPC:**
 
 ```bash
 server=1
@@ -363,14 +363,14 @@ rpcpassword=yourpassword
 ```
 
 
-- Angalia hali ya Bitcoin daemon**:
+- Angalia hali ya **Bitcoin daemon**:
 
 ```bash
 sudo systemctl status bitcoind
 ```
 
 
-- Angalia salio la Bitcoin kwenye pochi lako:**:
+- Angalia salio la Bitcoin kwenye pochi lako**:**
 
 ```bash
 sudo systemctl status bitcoind
@@ -1213,7 +1213,7 @@ Kila shughuli katika block ya Bitcoin ina yafuatayo:
 - **Idadi ya Matokeo**: Hesabu ya matokeo ya muamala.
 - **Matokeo**: Ina Thamani na ScriptPubKey.
   - **Thamani**: Thamani ya muamala.
-  - Urefu wa Hati ya PubKey**: Urefu wa hati ya PubKey.
+- **Urefu wa Hati ya PubKey**: Urefu wa hati ya PubKey.
   - **Hati ya PubKey**: Ina ufunguo wa umma kama usanidi wa kudai matokeo.
 - **Muda wa Kufunga**: Huonyesha urefu wa kizuizi au Muhuri wa muda ambapo muamala huu unaweza kujumuishwa kwenye kizuizi.
 
@@ -1849,7 +1849,7 @@ Itifaki ya Lightning Network inafafanuliwa kwa uangalifu kupitia BOLT 10 (Msingi
 Bolt 1 inaangazia uumbizaji wa ujumbe kwa kutumia muundo wa Thamani ya Aina ya Urefu (TLV), ambao huhakikisha kuwa ujumbe unaeleweka kwa usawa katika utekelezaji tofauti. Mawasiliano kwa kawaida hufanywa kupitia mlango maalum wa TCP, na ujumbe unaweza kuainishwa katika:
 
 
-- Ujumbe wa Mawasiliano**: Hizi ni pamoja na `Init`, `Error`, `Onyo`, `Ping` na `Pong` ujumbe, ambazo huanzisha miunganisho, kushughulikia hitilafu, kuchunguza hali ya muunganisho na kutatiza trafiki.
+- **Ujumbe wa Mawasiliano**: Hizi ni pamoja na `Init`, `Error`, `Onyo`, `Ping` na `Pong` ujumbe, ambazo huanzisha miunganisho, kushughulikia hitilafu, kuchunguza hali ya muunganisho na kutatiza trafiki.
 - **Ujumbe wa Kuanzisha Kituo**: Hizi ni muhimu wakati wa awamu ya uanzishaji wa kituo.
 - **Ujumbe wa Hali ya Idhaa**: Ujumbe huu hushughulikia masasisho ndani ya chaneli zinazotumika, kuhakikisha pande zote mbili zinasawazishwa.
 - **Ujumbe wa Udaku**: Hizi hutumika kwa ugunduzi wa topolojia ya mtandao na masasisho.

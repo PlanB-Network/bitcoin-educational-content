@@ -19,7 +19,7 @@ Alby Hub adalah alat yang sangat mudah beradaptasi. Alat ini dapat memenuhi kebu
 Tergantung pada kebutuhan Anda, Alby Hub tersedia dalam 4 konfigurasi:
 
 
-- Alby Hub Cloud: ** Awan Alby
+- Alby Hub Cloud: **Awan Alby**
 
 Ideal untuk pemula, opsi pertama ini adalah opsi cloud Alby. Ini memungkinkan Anda untuk mengimplementasikan Hub secara langsung di server yang dikelola oleh Alby, dapat diakses melalui antarmuka Alby Hub Anda. Meskipun Alby mengelola server, Anda tetap memiliki kedaulatan atas dana Anda, karena kunci Anda dienkripsi menggunakan kata sandi yang hanya diketahui oleh Anda. Namun, kunci Anda harus tetap didekripsi di RAM agar node dapat beroperasi, yang secara teoritis mengeksposnya ke risiko jika seseorang mengakses server secara fisik. Ini adalah kompromi menarik bagi pemula, tetapi penting untuk menyadari risikonya.
 
@@ -32,7 +32,7 @@ Alby Cloud adalah layanan berbayar [Periksa harga mereka](https://albyhub.com/#p
 Jika Anda sudah memiliki node yang dihosting, misalnya pada Umbrel atau Start9, Alby Hub dapat digunakan sebagai antarmuka manajemen tingkat lanjut, dengan cara yang sama seperti ThunderHub atau RTL.
 
 
-- Alby Hub lokal :** Lokal
+- Alby Hub lokal: **Lokal**
 
 Juga memungkinkan untuk menginstal Alby Hub langsung di PC Anda, meskipun opsi ini kurang praktis, karena PC Anda harus tetap aktif setiap saat untuk mengakses node Lightning dari jarak jauh. Namun, alternatif ini mungkin cocok untuk kebutuhan spesifik Anda.
 
@@ -297,7 +297,7 @@ Kembali ke aplikasi Alby Go, pindai kode QR atau tempelkan rahasianya.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Klik "Selesai*".
+Klik "Selesai".
 
 ![ALBY HUB](assets/fr/51.webp)
 

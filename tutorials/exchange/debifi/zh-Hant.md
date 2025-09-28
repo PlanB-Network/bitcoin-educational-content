@@ -1,5 +1,5 @@
 ---
-name: 德比菲
+name: Debifi
 description: 在不出售或放棄控制權的情況下，為您的 Bitcoin 賺取美元
 ---
 

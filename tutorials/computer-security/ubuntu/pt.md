@@ -11,19 +11,19 @@ Um sistema operativo (SO) é o software principal que gere todos os recursos do 
 ### Porquê o Ubuntu?
 
 
-- Segurança melhorada**: As distribuições Linux são conhecidas pela sua segurança e robustez
-- Custo zero**: O Ubuntu e a maioria das distribuições Linux são gratuitas
-- Grande comunidade**: Uma comunidade de utilizadores prontos a ajudar através de fóruns e tutoriais
-- Respeito pela privacidade**: Sistema de fonte aberta para maior transparência
-- Simplicidade**: Interface amigável e facilidade de utilização
-- Ecossistema rico**: Catálogo alargado de software de fonte aberta
-- Suporte regular**: Actualizações seguras da Canonical
+- **Segurança melhorada**: As distribuições Linux são conhecidas pela sua segurança e robustez
+- **Custo zero**: O Ubuntu e a maioria das distribuições Linux são gratuitas
+- **Grande comunidade**: Uma comunidade de utilizadores prontos a ajudar através de fóruns e tutoriais
+- **Respeito pela privacidade**: Sistema de fonte aberta para maior transparência
+- **Simplicidade**: Interface amigável e facilidade de utilização
+- **Ecossistema rico**: Catálogo alargado de software de fonte aberta
+- **Suporte regular**: Actualizações seguras da Canonical
 
 ## Instalação e configuração
 
 ### 1. Pré-requisitos
 
-**Equipamento necessário
+**Equipamento necessário**
 
 
 - Uma chave USB de pelo menos 12 GB
@@ -71,61 +71,61 @@ Um sistema operativo (SO) é o software principal que gere todos os recursos do 
 
 **4.2 Iniciar a instalação** (em francês)
 
-**Ecrã de arranque
+**Ecrã de arranque**
 
 Quando arrancar a partir da chave USB, verá este ecrã, que lhe permite iniciar o Ubuntu.
 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
-**Escolha da língua
+**Escolha da língua**
 
 Escolha a sua língua preferida para a instalação e o sistema.
 
 ![Sélection de la langue](assets/fr/07.webp)
 
-**Opções de acessibilidade
+**Opções de acessibilidade**
 
 Configurar as opções de acessibilidade, se necessário (leitor de ecrã, alto contraste, etc.).
 
 ![Options d'accessibilité](assets/fr/08.webp)
 
-**Configuração do teclado
+**Configuração do teclado**
 
 Selecione a disposição do seu teclado. Está disponível um campo de teste para verificar se as teclas correspondem à sua configuração.
 
 ![Configuration du clavier](assets/fr/09.webp)
 
-**Ligação de rede
+**Ligação de rede**
 
 Ligue-se à sua rede Wi-Fi ou com fios para descarregar actualizações durante a instalação.
 
 ![Configuration réseau](assets/fr/10.webp)
 
-**Tipo de instalação
+**Tipo de instalação**
 
 Escolha entre "Experimentar o Ubuntu" (para testar sem instalar) ou "Instalar o Ubuntu".
 
 ![Choix du type d'installation](assets/fr/11.webp)
 
-**Método de instalação
+**Método de instalação**
 
 Selecionar a instalação interactiva.
 
 ![Mode d'installation](assets/fr/12.webp)
 
-**Seleção da aplicação
+**Seleção da aplicação**
 
 Escolha entre a instalação predefinida ou uma seleção alargada de aplicações.
 
 ![Sélection des applications](assets/fr/13.webp)
 
-**Aplicações de terceiros
+**Aplicações de terceiros**
 
 Decida se quer ou não instalar controladores adicionais e software proprietário.
 
 ![Installation applications tierces](assets/fr/14.webp)
 
-**Tipo de particionamento
+**Tipo de particionamento**
 
 Existem duas opções principais:
 
@@ -135,19 +135,19 @@ Existem duas opções principais:
 
 ![Choix du partitionnement](assets/fr/15.webp)
 
-**Criação de conta de utilizador
+**Criação de conta de utilizador**
 
 Defina o seu nome de utilizador e palavra-passe para a sua conta Ubuntu.
 
 ![Création du compte](assets/fr/16.webp)
 
-**Fuso horário
+**Fuso horário**
 
 Selecione a sua área geográfica para definir a hora do sistema.
 
 ![Sélection du fuseau horaire](assets/fr/17.webp)
 
-**Resumo da instalação
+**Resumo da instalação**
 
 Verifique todas as suas escolhas antes de iniciar a instalação final. Depois de clicar em "Instalar", o processo inicia-se.
 
@@ -157,14 +157,14 @@ Verifique todas as suas escolhas antes de iniciar a instalação final. Depois d
 
 A atualização do sistema é um passo importante após uma nova instalação. Existem duas opções:
 
-**Opção 1: Através da interface gráfica do utilizador
+**Opção 1: Através da interface gráfica do utilizador**
 
 
 - Procurar "Software e actualizações" no menu de aplicações
 - A aplicação verificará automaticamente se existem actualizações disponíveis
 - Siga as instruções no ecrã para instalar as actualizações
 
-**Opção 2: via terminal
+**Opção 2: via terminal**
 
 
 - Abrir o Terminal (Ctrl + Alt + T)
@@ -187,7 +187,7 @@ sudo apt upgrade
 
 ### 5. Descobrir as tarefas básicas
 
-**5.1 Navegar na Internet
+**5.1 Navegar na Internet**
 
 Por predefinição, é frequente encontrar o Firefox na barra de lançamento.
 
@@ -195,7 +195,7 @@ Inicie o Firefox e comece a navegar.
 
 Outros browsers (Chrome, Brave, etc.) podem ser instalados através do Gestor de Software ou através de pacotes .deb.
 
-**5.2 Processamento de texto
+**5.2 Processamento de texto**
 
 O Ubuntu vem com o pacote LibreOffice (Writer para processamento de texto).
 
@@ -203,7 +203,7 @@ Para o abrir: Actividades > Procurar "LibreOffice Writer" ou clicar no ícone se
 
 Pode criar, editar e guardar documentos numa variedade de formatos (incluindo .docx).
 
-**5.3 Instalação de aplicações
+**5.3 Instalação de aplicações**
 
 Gestor de software (chamado "Ubuntu Software"): interface gráfica para procurar e instalar aplicações.
 

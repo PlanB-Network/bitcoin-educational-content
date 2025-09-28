@@ -13,12 +13,12 @@ description: Preserve your privacy and confidentiality.
 
 
 
-- Free**: Like most Linux distributions, Whonix is an open-source system licensed completely free of charge. It is developed in open source, with an active and transparent community.
-- Privacy, security and anonymity**: Whonix's main objective is to offer an ultra-secure environment, in which all your data is protected and your communications encrypted via the Tor network.
-- Easy to use**: Whonix offers an intuitive, pre-configured graphical Interface, suitable even for novice users. No need to be an expert to benefit from advanced protection.
-- Ideal environment for secure development**: Whonix lets you develop, test, audit or run programs without ever revealing your real IP address or exposing your browsing or network communication habits.
-- Disposable sessions and Live mode**: Whonix can be launched in Live mode or via disposable machines (e.g. via **Qubes OS**), enabling critical tasks to be carried out without leaving persistent traces once the session has ended.
-- Relatively simple installation**: Ready-to-use images are supplied for rapid installation in virtual machines (VirtualBox, KVM, Qubes). The system is documented and regularly updated.
+- **Free**: Like most Linux distributions, Whonix is an open-source system licensed completely free of charge. It is developed in open source, with an active and transparent community.
+- **Privacy, security and anonymity**: Whonix's main objective is to offer an ultra-secure environment, in which all your data is protected and your communications encrypted via the Tor network.
+- **Easy to use**: Whonix offers an intuitive, pre-configured graphical Interface, suitable even for novice users. No need to be an expert to benefit from advanced protection.
+- **Ideal environment for secure development**: Whonix lets you develop, test, audit or run programs without ever revealing your real IP address or exposing your browsing or network communication habits.
+- **Disposable sessions and Live mode**: Whonix can be launched in Live mode or via disposable machines (e.g. via **Qubes OS**), enabling critical tasks to be carried out without leaving persistent traces once the session has ended.
+- **Relatively simple installation**: Ready-to-use images are supplied for rapid installation in virtual machines (VirtualBox, KVM, Qubes). The system is documented and regularly updated.
 
 
 ## Installation and configuration
@@ -43,9 +43,9 @@ Here are the recommended specifications for a smooth and stable experience with 
 
 
 
-- Random Access Memory (RAM)**: a minimum of **8 GB** is strongly recommended. The more RAM you have, the more resources you can allocate to the virtual machines (Gateway and Workstation), improving performance.
+- **Random Access Memory (RAM)**: a minimum of **8 GB** is strongly recommended. The more RAM you have, the more resources you can allocate to the virtual machines (Gateway and Workstation), improving performance.
 - Available disk space**: please allow at least 30 GB of free disk space**. This includes the space required for the two virtual machines, system files and any data or snapshots.
-- Processor**: a processor with at least **4 physical cores** (8 logical threads) is recommended, especially if you want to run other services or tools in parallel.
+- **Processor**: a processor with at least **4 physical cores** (8 logical threads) is recommended, especially if you want to run other services or tools in parallel.
 
 
 ### Download Whonix

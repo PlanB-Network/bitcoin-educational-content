@@ -1,0 +1,9 @@
+question: 什麼是 Bitcoin 節點？
+answer: 執行 Bitcoin 通訊協定軟體的電腦
+wrong_answers:
+  - A Hardware Wallet 實作 Bitcoin 網路
+  - A Miner 為 Bitcoin 生產新區塊
+  - 管理 Bitcoin 網路和交易確認的中央伺服器
+explanation: |
+  Bitcoin 節點是運行軟體（例如 Bitcoin core）的電腦，可執行通訊協定並參與 Bitcoin 網路。
+reviewed: true

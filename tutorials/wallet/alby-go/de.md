@@ -15,7 +15,6 @@ description: Anleitung für die Alby Go Mobile App
 **✅ Unterstützte und kompatible Wallets/Nodes:**
 
 
-
 - **[Alby Hub](https://albyhub.com/)** *(empfohlen)*
 - **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
 - **Coinos** *(ungetestet)*
@@ -120,6 +119,6 @@ Nimm dein Bitcoin überallhin mit.
 - 🧷 Hinzufügen, Entfernen und Exportieren von Wallets
 
 
-**💡 Brauchst du Hilfe?*
+**💡 Brauchst du Hilfe?**
 
 Besuche getalby.com für Support und Updates.

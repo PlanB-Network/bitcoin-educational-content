@@ -1,0 +1,9 @@
+question: 리눅스를 상징하는 마스코트의 이름은 무엇인가요?
+answer: 턱시도
+wrong_answers:
+  - Duke
+  - Beastie
+  - daemon
+explanation: |
+  Tux는 1996년부터 래리 유잉이 만든 공식 리눅스 커널 마스코트입니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dust 在您的迷你電腦中累積所造成的主要風險是什麼？
+answer: 處理器節流
+wrong_answers:
+  - Blockchain 區塊刪除
+  - 磁碟損壞
+  - 記憶體容量減少
+explanation: |
+  Dust 會阻礙通風，造成過熱，並導致節流，降低處理器效率。
+reviewed: true

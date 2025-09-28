@@ -1,0 +1,9 @@
+question: Node-in-a-box'ın ham bir uygulamaya göre temel avantajı nedir?
+answer: Kolay kurulum ve entegre uygulama yönetimi
+wrong_answers:
+  - Mutabakat kurallarının daha sıkı doğrulanması
+  - Depolama olmadan Blockchain'a doğrudan erişim
+  - Bitcoin dışında bir para birimi ile uyumluluk
+explanation: |
+  Node-in-a-box, birleşik bir Interface aracılığıyla çok sayıda yardımcı uygulamanın kurulumunu ve yönetimini basitleştirir.
+reviewed: true

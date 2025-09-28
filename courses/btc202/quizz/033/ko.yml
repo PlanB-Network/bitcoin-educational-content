@@ -1,0 +1,9 @@
+question: Bitcoin Knots 프로젝트는 누가 유지 관리하나요?
+answer: Luke Dashjr
+wrong_answers:
+  - 개빈 안드레센
+  - 블라디미르 J. 반 데어 란
+  - 피터 우일
+explanation: |
+  Bitcoin Knots은 Luke Dashjr가 유지 관리하며 Bitcoin core의 주요 대체 클라이언트 역할을 합니다.
+reviewed: true

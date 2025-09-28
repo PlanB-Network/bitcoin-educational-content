@@ -1,5 +1,5 @@
 ---
-name: باکا
+name: Bacca
 description: پیکربندی یک Ledger بدون نرم‌افزار Ledger Live
 ---
 ![cover](assets/cover.webp)

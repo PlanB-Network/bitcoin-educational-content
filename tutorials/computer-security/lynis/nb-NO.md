@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Fares CHELLOUG publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Fares CHELLOUG publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -22,7 +22,7 @@ ___
 
 
 
-**I denne veiledningen skal vi lære hvordan du utfører en sikkerhetsrevisjon på en Linux-maskin ved hjelp av Lynis! For de av dere som ikke kjenner **Lynis,** er det et lite kommandolinjeverktøy som analyserer serverens konfigurasjon og kommer med anbefalinger for å **forbedre sikkerheten på maskinen din.**
+**I denne veiledningen skal vi lære hvordan du utfører en sikkerhetsrevisjon på en Linux-maskin ved hjelp av Lynis!** For de av dere som ikke kjenner **Lynis**, er det et lite kommandolinjeverktøy som analyserer serverens konfigurasjon og kommer med anbefalinger for å **forbedre sikkerheten på maskinen din**.
 
 
 
@@ -321,10 +321,10 @@ Deretter lister Lynis opp et sett med punkter som tilsvarer alt han har sjekket 
 
 
 
-- Rød** for kritisk Elements eller beste praksis som ikke respekteres (for eksempel en manglende pakke), dvs. at serveren din ikke respekterer dette punktet
-- Gul** for forslag eller delvis etterlevelse av anbefalingen (la oss si at det er et pluss å etterleve et punkt som er uthevet med denne fargen (ikke-prioritert))
-- Green** for punkter der serverkonfigurasjonen din er kompatibel
-- Hvit**, når den er nøytral
+- **Rød** for kritisk Elements eller beste praksis som ikke respekteres (for eksempel en manglende pakke), dvs. at serveren din ikke respekterer dette punktet
+- **Gul** for forslag eller delvis etterlevelse av anbefalingen (la oss si at det er et pluss å etterleve et punkt som er uthevet med denne fargen (ikke-prioritert))
+- **Green** for punkter der serverkonfigurasjonen din er kompatibel
+- **Hvit**, når den er nøytral
 
 
 
@@ -368,7 +368,7 @@ Her er hva du kan finne i seksjonene "**Shells", "Files Systems" og "USB Devices
 
 
 
-Deretter seksjonene: "**Navnetjenester", "Porter og pakker", "Nettverk", Her står det at pakker som ikke lenger er i bruk, kan slettes, og at det ikke finnes noe verktøy som kan håndtere automatiske oppdateringer.
+Deretter seksjonene: **Navnetjenester**, **Porter og pakker**, **Nettverk**. Her står det at pakker som ikke lenger er i bruk, kan slettes, og at det ikke finnes noe verktøy som kan håndtere automatiske oppdateringer.
 
 
 
@@ -604,10 +604,10 @@ Litt informasjon om de installerte pakkene:
 
 
 
-- Clamav** er et antivirusprogram.
-- unattend-upgrades** gjør at du kan administrere oppdateringene dine automatisk og til og med starte maskinen på nytt eller automatisk fjerne gamle pakker.
-- rkhunter** er et anti-rootkit som skanner filsystemet ditt.
-- Fail2ban** baserer seg på loggfilene dine i henhold til det du gir den tillatelse til å lese, og den fungerer med **iptables**, for eksempel for å utestenge IP-adresser som prøver å "brute force" serveren din i SSH.
+- **Clamav** er et antivirusprogram.
+- **unattend-upgrades** gjør at du kan administrere oppdateringene dine automatisk og til og med starte maskinen på nytt eller automatisk fjerne gamle pakker.
+- **rkhunter** er et anti-rootkit som skanner filsystemet ditt.
+- **Fail2ban** baserer seg på loggfilene dine i henhold til det du gir den tillatelse til å lese, og den fungerer med **iptables**, for eksempel for å utestenge IP-adresser som prøver å "brute force" serveren din i SSH.
 
 
 
@@ -820,7 +820,7 @@ Til slutt, la oss ikke glemme å sjekke **Lynis audit score**! Vi ser at **herdi
 
 
 
-**Med andre ord: Jo høyere poengsum, desto bedre! Du må derfor jobbe med konfigurasjonen for å oppnå høyest mulig poengsum, samtidig som du lar maskinen og de hostede tjenestene fungere normalt (det vil si at du må utføre funksjonstester).
+**Med andre ord: Jo høyere poengsum, desto bedre! Du må derfor jobbe med konfigurasjonen for å oppnå høyest mulig poengsum, samtidig som du lar maskinen og de hostede tjenestene fungere normalt (det vil si at du må utføre funksjonstester).**
 
 
 
@@ -884,7 +884,7 @@ Du kommer sannsynligvis ikke til å bruke den samme konfigurasjonen for en VPS s
 
 
 
-Når du har funnet en konfigurasjon som passer deg når det gjelder herding, er det lurt å ta i bruk et automatiseringsverktøy, slik at du slipper å gjøre oppgavene manuelt, noe som er tidkrevende og feilutsatt. Du kan for eksempel bruke **: Puppet, Chef, Ansible osv
+Når du har funnet en konfigurasjon som passer deg når det gjelder herding, er det lurt å ta i bruk et automatiseringsverktøy, slik at du slipper å gjøre oppgavene manuelt, noe som er tidkrevende og feilutsatt. Du kan for eksempel bruke: **Puppet, Chef, Ansible osv.**
 
 
 
@@ -896,4 +896,4 @@ Til slutt kan du også sammenligne **Lynis** med andre verktøy, som det finnes 
 
 
 
-**Denne veiledningen er over, ha det gøy med Lynis!
+**Denne veiledningen er over, ha det gøy med Lynis!**

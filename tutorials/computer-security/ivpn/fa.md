@@ -1,5 +1,5 @@
 ---
-name: آی‌وی‌پی‌ان
+name: IVPN
 description: راه‌اندازی یک VPN که با بیت‌کوین پرداخت شده است
 ---
 ![cover](assets/cover.webp)

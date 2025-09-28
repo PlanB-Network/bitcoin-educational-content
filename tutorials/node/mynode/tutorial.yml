@@ -130,6 +130,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.41
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.74
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.41
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.07
 tags:
   - node
   - guides

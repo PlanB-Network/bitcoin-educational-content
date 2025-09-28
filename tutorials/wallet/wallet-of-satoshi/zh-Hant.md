@@ -1,5 +1,5 @@
 ---
-name: Satoshi 的 Wallet
+name: Wallet of Satoshi
 description: 入門最簡單的保管 Wallet
 ---
 ![cover](assets/cover.webp)
@@ -79,8 +79,8 @@ Satoshi 的 Wallet 已傳送訊息至指定的電子郵件收件匣。
 在信箱中，我們會發現兩個單字，我們需要在應用程式提供的空格中輸入、改寫這兩個單字。
 
 
-- 請勿啟動翻譯器：字句仍為英文**
-- 重寫這兩個字，注意大寫/小寫**
+- 請勿啟動翻譯器：字句仍為英文
+- 重寫這兩個字，注意大寫/小寫
 
 
 ![image](assets/it/10.webp)

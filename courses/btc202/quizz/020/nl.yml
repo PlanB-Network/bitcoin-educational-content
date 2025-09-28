@@ -1,0 +1,9 @@
+question: Wat gebeurt er als een blok de consensusregels overtreedt?
+answer: Het wordt onmiddellijk afgewezen door de knooppunten
+wrong_answers:
+  - Het is opgeslagen in Mempool in afwachting van validatie
+  - Het wordt alleen doorgegeven door knooppunten die andere regels accepteren
+  - Het wordt alleen gevalideerd door de portemonnees
+explanation: |
+  Knooppunten verwerpen systematisch elk blok dat niet voldoet aan de consensusregels.
+reviewed: true

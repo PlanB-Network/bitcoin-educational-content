@@ -22,7 +22,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 
 
-- کاربران با تجربه**:
+- **کاربران با تجربه**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
@@ -31,7 +31,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-
 
 
 
-- مبتدیان (وب Interface)**:
+- **مبتدیان (وب Interface)**:
 
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -340,23 +340,23 @@ reward:
 
 
 
-- شناسه**: یک UUID (_شناسه منحصربه‌فرد جهانی_) که به‌طور منحصربه‌فرد آموزش را شناسایی می‌کند. می‌توانید آن را با استفاده از [یک ابزار آنلاین](https://www.uuidgenerator.net/version4) به generate تبدیل کنید. تنها شرط این است که این UUID تصادفی باشد تا از تداخل با UUID دیگری در پلتفرم جلوگیری شود؛
+- **شناسه**: یک UUID (*شناسه منحصربه‌فرد جهانی*) که به‌طور منحصربه‌فرد آموزش را شناسایی می‌کند. می‌توانید آن را با استفاده از [یک ابزار آنلاین](https://www.uuidgenerator.net/version4) به generate تبدیل کنید. تنها شرط این است که این UUID تصادفی باشد تا از تداخل با UUID دیگری در پلتفرم جلوگیری شود؛
 
 
 
-- project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه شده در آموزش [از لیست پروژه](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند را نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آموزش خود، شما یک پیوند بین دو Elements ایجاد می‌کنید؛
+- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه شده در آموزش [از لیست پروژه](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند را نگهداری می‌کند. با افزودن `project_id` موجودیت مرتبط با آمو
 
 
 
-- برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزشی، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
+- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزشی، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
 
 
 
-- دسته‌بندی**: زیرمجموعه‌ای که با محتوای آموزش مطابقت دارد، بر اساس ساختار وب‌سایت Plan ₿ Network (برای مثال، برای کیف پول‌ها: `desktop`, `hardware`, `mobile`, `backup`);
+- **دسته‌بندی**: زیرمجموعه‌ای که با محتوای آموزش مطابقت دارد، بر اساس ساختار وب‌سایت Plan ₿ Network (برای مثال، برای کیف پول‌ها: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- سطح**: سطح دشواری آموزش، انتخاب شده از:
+- **سطح**: سطح دشواری آموزش، انتخاب شده از:
     - `مبتدی`
     - `متوسط`
     - `پیشرفته`
@@ -364,20 +364,20 @@ reward:
 
 
 
-- professor_id**: `professor_id` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
+- **professor_id**: `professor_id` شما (UUID) همانطور که در [پروفایل استاد شما](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) نمایش داده شده است؛
 
 
 
-- زبان_اصلی**: زبان اصلی آموزش (مثلاً، `fr`، `en`، و غیره)؛
+- **زبان_اصلی**: زبان اصلی آموزش (مثلاً، `fr`، `en`، و غیره)؛
 
 
 
-- بازخوانی**: اطلاعاتی درباره فرآیند بازخوانی. بخش اول را کامل کنید، زیرا بازخوانی آموزش خودتان به عنوان اولین اعتبارسنجی محسوب می‌شود:
-    - زبان**: کد زبان برای تصحیح (مثلاً، `fr`، `en`، و غیره).
-    - last_contribution_date**: تاریخ روز.
-    - فوریت**: 1
-    - نام‌های_مشارکت‌کننده**: شناسه GitHub شما.
-    - پاداش**: 0
+- **بازخوانی**: اطلاعاتی درباره فرآیند بازخوانی. بخش اول را کامل کنید، زیرا بازخوانی آموزش خودتان به عنوان اولین اعتبارسنجی محسوب می‌شود:
+- **زبان**: کد زبان برای تصحیح (مثلاً، `fr`، `en`، و غیره).
+- **last_contribution_date**: تاریخ روز.
+- **فوریت**: 1
+- **نام‌های_مشارکت‌کننده**: شناسه GitHub شما.
+- **پاداش**: 0
 
 
 برای جزئیات بیشتر در مورد شناسه معلم خود، لطفاً به آموزش مربوطه مراجعه کنید:
@@ -521,8 +521,8 @@ description: [Description]
 اگر می‌خواهید نمودارهای خود را ایجاد کنید، مطمئن شوید که به منشور گرافیکی Plan ₿ Network پایبند باشید تا از یکنواختی بصری اطمینان حاصل کنید:
 
 
-- فونت**: از [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) استفاده کنید؛
-- رنگ‌ها**:
+- **فونت**: از [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) استفاده کنید؛
+- **رنگ‌ها**:
  - نارنجی: #FF5C00
  - سیاه: #000000
  - سفید: #FFFFFF

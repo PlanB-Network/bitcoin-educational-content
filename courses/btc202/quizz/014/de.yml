@@ -1,0 +1,9 @@
+question: Was hat die ursprüngliche Bitcoin-Software im Jahr 2009 kombiniert?
+answer: Wallet, Bogen und Moll
+wrong_answers:
+  - Knotenpunkt, Miner und Block explorer
+  - Wallet, Chopper und Miner
+  - Miner und Mining pool
+explanation: |
+  Die ursprüngliche Bitcoin-Software integrierte Wallet-, Knoten- und Miner-Funktionen in einem einzigen Programm.
+reviewed: true

@@ -1,13 +1,13 @@
 ---
-term: Anchor
+term: ANCHOR
 ---
 
-In the RGB protocol, a Anchor represents a set of client-side data used to prove the inclusion of a single commitment in a transaction. In the RGB protocol, a Anchor is made up of the following elements:
+In the RGB protocol, an Anchor represents a set of client-side data used to prove the inclusion of a single commitment in a transaction. In the RGB protocol, an Anchor is made up of the following elements:
 
 
-- Transaction ID Bitcoin (txid) from Witness Transaction ;
-- Multi Protocol Commitment (MPC);
-- Deterministic Bitcoin Commitment (DBC);
-- Extra Transaction Proof (ETP) if the Tapret commitment mechanism is used.
+- The Bitcoin Transaction ID (txid) from the Witness Transaction;
+- The Multi Protocol Commitment (MPC);
+- The Deterministic Bitcoin Commitment (DBC);
+- The Extra Transaction Proof (ETP) if the Tapret commitment mechanism is used.
 
-A Anchor therefore serves to establish a verifiable link between a specific Bitcoin transaction and private data validated by the RGB protocol. It guarantees that these data are indeed included in Blockchain, without their exact content being made public.
+An Anchor therefore serves to establish a verifiable link between a specific Bitcoin transaction and private data validated by the RGB protocol. It guarantees that this data is indeed included in the Blockchain, without its exact content being publicly revealed.

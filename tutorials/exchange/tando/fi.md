@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Skannaa maksaaksesi** :
+- **Skannaa maksaaksesi**:
 
 
 
@@ -95,7 +95,7 @@ Skannaa maksaaksesi on yksi sovelluksen automaattisista maksuvaihtoehdoista. Ska
 
 
 
-- Rahan lähettäminen Keniaan** :
+- **Rahan lähettäminen Keniaan**:
 
 
 
@@ -121,7 +121,7 @@ Maksa lasku Lightning Wallet:lla, ja Tando muuntaa sen Kenian shillingeiksi (KES
 
 
 
-- Maksa laskut** :
+- **Maksa laskut**:
 
 
 
@@ -135,7 +135,7 @@ Kirjoita sen Invoice:n numero, jonka haluat maksaa, ja siirry sitten maksamaan s
 
 
 
-- Tavaroiden ostaminen** :
+- **Tavaroiden ostaminen**:
 
 
 

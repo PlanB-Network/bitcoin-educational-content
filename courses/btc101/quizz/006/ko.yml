@@ -1,0 +1,10 @@
+question: Cypherpunk 선언문이란 무엇인가요?
+answer: 에릭 휴즈가 개인정보 보호가 기본 권리임을 강조하는 글입니다.
+wrong_answers:
+  - 줄리안 어산지가 기술의 미래에 대해 쓴 책입니다.
+  - Bitcoin의 원칙을 설명하는 문서입니다.
+  - 디지털 화폐의 중요성에 대해 데이비드 차움이 쓴 선언문입니다.
+explanation: |
+  Cypherpunk 선언문은 1993년 에릭 휴즈가 작성했으며
+  프라이버시가 기본 권리임을 주장합니다.
+reviewed: true

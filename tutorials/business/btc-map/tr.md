@@ -1,5 +1,5 @@
 ---
-name: BTC Haritası
+name: BTC Map
 description: Sats'ınızı harcayabileceğiniz yerler bulun
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: Que opção do servidor Sparrow wallet corresponde à ligação RPC?
+answer: Bitcoin core
+wrong_answers:
+  - Servidor público
+  - Electrum privado
+  - API remota
+explanation: |
+  No Sparrow, a opção Bitcoin core corresponde a uma ligação direta ao nó através do RPC.
+reviewed: true

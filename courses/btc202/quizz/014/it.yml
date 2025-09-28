@@ -1,0 +1,9 @@
+question: Cosa combinava il software originale Bitcoin nel 2009?
+answer: Wallet, arco e minore
+wrong_answers:
+  - Nodo, Miner e Block explorer
+  - Wallet, chopper e Miner
+  - Miner e Mining pool
+explanation: |
+  Il software originale Bitcoin integrava le funzioni Wallet, nodo e Miner in un unico programma.
+reviewed: true

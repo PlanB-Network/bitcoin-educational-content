@@ -1,6 +1,6 @@
 ---
-name: PayJoin - Samourai Wallet
-description: Jinsi ya kufanya shughuli ya PayJoin kwenye Samourai Wallet?
+name: Payjoin - Samourai Wallet
+description: Jinsi ya kufanya miamala ya PayJoin kwenye Samourai Wallet?
 ---
 ![samourai payjoin cover](assets/cover.webp)
 
@@ -27,7 +27,7 @@ PayJoin ni muundo mahususi wa muamala wa Bitcoin ambao huongeza faragha ya mtumi
 ## Stowaway inafanyaje kazi?
 
 
-Kama ilivyoelezwa hapo awali, Samourai Wallet inatoa zana ya PayJoin inayoitwa "Stowaway." Inaweza kufikiwa kupitia programu ya Sparrow Wallet kwenye Kompyuta au programu ya Samourai Wallet kwenye Android. Ili kutekeleza PayJoin, mpokeaji, ambaye pia anafanya kazi kama mshirika, lazima atumie programu inayooana na Stowaway, yaani Sparrow au Samourai. Programu hizi mbili zinashirikiana, kuruhusu muamala wa Stowaway kati ya Sparrow Wallet na Samourai Wallet, na kinyume chake.
+Kama ilivyoelezwa hapo awali, Samourai Wallet inatoa zana ya PayJoin inayoitwa Stowaway. Inaweza kupatikana kupitia programu ya Sparrow Wallet kwenye kompyuta au Samourai Wallet kwenye Android. Ili kutekeleza PayJoin, mpokeaji—ambaye pia hufanya kazi kama mshiriki—lazima atumie programu inayooana na Stowaway, yaani Sparrow au Samourai. Programu hizi mbili hufanya kazi kwa pamoja, kuruhusu muamala wa Stowaway kati ya Sparrow Wallet na Samourai Wallet, na kinyume chake.
 
 
 Stowaway hutegemea aina ya miamala ambayo Samourai inarejelea kama "Cahoots." Cahoot kimsingi ni shughuli shirikishi kati ya watumiaji wengi, inayohitaji maelezo ya off-chain Exchange. Hadi sasa, Samourai inatoa zana mbili za Cahoots: Stowaway (Payjoins) na StonewallX2 (ambazo tutachunguza katika makala yajayo).
@@ -36,7 +36,7 @@ Stowaway hutegemea aina ya miamala ambayo Samourai inarejelea kama "Cahoots." Ca
 Miamala ya Cahoots inahusisha ubadilishanaji wa miamala iliyotiwa saini sehemu kati ya watumiaji. Utaratibu huu unaweza kuwa mrefu na mgumu, haswa unapofanywa kwa mbali. Hata hivyo, bado inaweza kufanywa na mtumiaji mwingine, ambayo inaweza kuwa rahisi ikiwa washirika wako karibu. Kwa mazoezi, hii inahusisha kubadilishana mwenyewe misimbo mitano ya QR ili kuchanganuliwa mfululizo.
 
 
-Inapofanywa kwa mbali, mchakato huu unakuwa mgumu sana. Kwa Address suala hili, Samourai imeunda itifaki ya mawasiliano iliyosimbwa kwa njia fiche kulingana na Tor, inayoitwa "Soroban." Kwa Soroban, ubadilishanaji unaohitajika kwa PayJoin ni otomatiki nyuma ya Interface ambayo ni rafiki kwa mtumiaji. Hii ni njia ya pili tutakayojifunza katika makala hii.
+Inapotekelezwa kwa mbali, mchakato huu huwa mgumu zaidi. Ili kushughulikia hili, Samourai iliunda protocol ya mawasiliano iliyosimbwa kupitia Tor, iitwayo Soroban. Kwa kutumia Soroban, ubadilishanaji unaohitajika kwa PayJoin hufanywa kiotomatiki nyuma ya user-friendly interface. Hii ndiyo njia ya pili tutakayojifunza katika makala hii.
 
 
 Mabadilishano haya yaliyosimbwa kwa njia fiche yanahitaji kuanzishwa kwa muunganisho na uthibitishaji kati ya washiriki wa Cahoots. Kwa hivyo, mawasiliano ya Soroban yanatokana na Paynyms za watumiaji. Ikiwa hujui Paynyms, ninakualika uangalie makala haya kwa maelezo zaidi: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)

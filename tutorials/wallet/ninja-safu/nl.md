@@ -24,19 +24,19 @@ De Ninja SAFU-benadering biedt verschillende voordelen:
 
 
 
-- Vertrouwelijkheid**: Je koopt geen product waarvan wordt aangegeven dat het bedoeld is voor back-up van cryptocurrency. De onderdelen zijn standaard (sluitringen, bouten, metalen doos), verkrijgbaar in hardwarewinkels, wat het risico op een doelwit verkleint in het geval van een gegevenslek van een gespecialiseerde leverancier.
+- **Vertrouwelijkheid**: Je koopt geen product waarvan wordt aangegeven dat het bedoeld is voor back-up van cryptocurrency. De onderdelen zijn standaard (sluitringen, bouten, metalen doos), verkrijgbaar in hardwarewinkels, wat het risico op een doelwit verkleint in het geval van een gegevenslek van een gespecialiseerde leverancier.
 
 
 
 
 
-- Betaalbaarheid** : Deze oplossing kost tussen **15 en 140 EUR**, afhankelijk van de tools die je al hebt.
+- **Betaalbaarheid**: Deze oplossing kost tussen **15 en 140 EUR**, afhankelijk van de tools die je al hebt.
 
 
 
 
 
-- Betrouwbaarheid**: De methode is getest sinds 2020 en is beproefd door veiligheidsexperts zoals [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), die de methode hebben onderworpen aan strenge stresstests (extreme hitte, corrosie, mechanische druk).
+- **Betrouwbaarheid**: De methode is getest sinds 2020 en is beproefd door veiligheidsexperts zoals [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), die de methode hebben onderworpen aan strenge stresstests (extreme hitte, corrosie, mechanische druk).
 
 
 
@@ -59,17 +59,17 @@ Om een Ninja SAFU-back-up te maken, heb je de volgende onderdelen nodig, allemaa
 
 
 
-- Ringen van roestvrij staal (M8 aanbevolen)** :
- - Materiaal**: Roestvrij staal (bijv. 304 of V4A voor verbeterde corrosiebestendigheid)
-    - Afmetingen**: M8 (binnendiameter 8 mm, buitendiameter ~24 mm). M6 ringen zijn te klein en moeilijk te graveren.
-    - Hoeveelheid**: 12 of 24 sluitringen voor een standaard seed zin, plus optionele sluitringen (zie paragraaf 3.4) en een tiental voor tests of fouten.
+- **Ringen van roestvrij staal (M8 aanbevolen)**:
+- **Materiaal**: Roestvrij staal (bijv. 304 of V4A voor verbeterde corrosiebestendigheid)
+- **Afmetingen**: M8 (binnendiameter 8 mm, buitendiameter ~24 mm). M6 ringen zijn te klein en moeilijk te graveren.
+- **Hoeveelheid**: 12 of 24 sluitringen voor een standaard seed zin, plus optionele sluitringen (zie paragraaf 3.4) en een tiental voor tests of fouten.
 
 
 
 
 
-- Roestvrij staal Bolt en moer (M8)** :
- - Specificaties**: Bolt 2,5 tot 5 cm lang, afhankelijk van het aantal en de dikte van de ringen, diameter 8mm. Een vleugelmoer vergemakkelijkt het openen zonder gereedschap, maar een eenvoudige moer kan ook worden gebruikt.
+- **Roestvrij staal Bolt en moer (M8)** :
+- **Specificaties**: Bolt 2,5 tot 5 cm lang, afhankelijk van het aantal en de dikte van de ringen, diameter 8mm. Een vleugelmoer vergemakkelijkt het openen zonder gereedschap, maar een eenvoudige moer kan ook worden gebruikt.
 
 
 
@@ -79,8 +79,8 @@ Om een Ninja SAFU-back-up te maken, heb je de volgende onderdelen nodig, allemaa
 
 
 
-- Letter- en cijferponsset (3 mm of 6 mm)** :
-    - Specificaties**: 6 mm hoge letters vergemakkelijken de leesbaarheid en kunnen de voorkeur verdienen als een deel van de letters is afgebroken. Kies een stevige set voor herhaaldelijk gebruik.
+- **Letter- en cijferponsset (3 mm of 6 mm)**:
+- **Specificaties**: 6 mm hoge letters vergemakkelijken de leesbaarheid en kunnen de voorkeur verdienen als een deel van de letters is afgebroken. Kies een stevige set voor herhaaldelijk gebruik.
 
 
 
@@ -90,14 +90,14 @@ Om een Ninja SAFU-back-up te maken, heb je de volgende onderdelen nodig, allemaa
 
 
 
-- Hamer of voorhamer** :
+- **Hamer of voorhamer** :
     - Een voorhamer verdient de voorkeur voor voldoende en nauwkeurige stempelkracht
 
 
 
 
 
-- Aambeeld of stevig oppervlak** :
+- **Aambeeld of stevig oppervlak**:
  - Een dik Hard oppervlak (bijvoorbeeld een aambeeld van 1 kg of een stoeptegel van 10 cm) om schokken te absorberen.
 
 
@@ -112,7 +112,7 @@ Als je niet wilt investeren in een set ponsen, kun je je sluitringen ook gravere
 
 
 
-- Stempelapparaat**: Houdt de sluitring vast en geleidt de stempel, voor nauwkeurig, schoon stempelen, betere oriëntatie en gelijkmatige afstand tussen de letters
+- **Stempelapparaat**: Houdt de sluitring vast en geleidt de stempel, voor nauwkeurig, schoon stempelen, betere oriëntatie en gelijkmatige afstand tussen de letters
 
 
 
@@ -122,7 +122,7 @@ Als je niet wilt investeren in een set ponsen, kun je je sluitringen ook gravere
 
 
 
-- Sealapparaten**: Verzegelde zak of verzegelstrip
+- **Sealapparaten**: Verzegelde zak of verzegelstrip
 
 
 
@@ -132,7 +132,7 @@ Als je niet wilt investeren in een set ponsen, kun je je sluitringen ook gravere
 
 
 
-- Hermetisch afgesloten container**: Voor het bewaren van het blok sluitringen
+- **Hermetisch afgesloten container**: Voor het bewaren van het blok sluitringen
 
 
 
@@ -145,8 +145,8 @@ Als je niet wilt investeren in een set ponsen, kun je je sluitringen ook gravere
 
 
 
-- Handschoenen** en **veiligheidsbril** aanbevolen.
-- Pijptang** om de pons in te schuiven, zodat je de pons vasthoudt met de pijptang en niet met je vingers.
+- **Handschoenen** en **veiligheidsbril** aanbevolen.
+- **Pijptang** om de pons in te schuiven, zodat je de pons vasthoudt met de pijptang en niet met je vingers.
 
 
 
@@ -156,13 +156,13 @@ Als je niet wilt investeren in een set ponsen, kun je je sluitringen ook gravere
 
 
 
-- Hoeveelheid voor een 24-woorden back-up**: 24 sluitringen (minimaal), 1 Bolt, 1 vleugelmoer, 1 set ponsen, 1 hamer/massette, 1 aambeeld/steun.
+- **Hoeveelheid voor een 24-woorden back-up**: 24 sluitringen (minimaal), 1 Bolt, 1 vleugelmoer, 1 set ponsen, 1 hamer/massette, 1 aambeeld/steun.
 
 
 
 
 
-- Totale kosten** :
+- **Totale kosten**:
  - Sluitringen en bouten/moeren: ~ 15 EUR
  - Punch-set: ~ 45 EUR
  - Beschermhoes: ~ 55 EUR
@@ -254,7 +254,7 @@ Als je niet wilt investeren in een set ponsen, kun je je sluitringen ook gravere
 
 
     - Probeer vanuit je nieuwe back-up je portfolio te herstellen
-- De back-up verzegelen** (optioneel en aanbevolen) :
+- **De back-up verzegelen** (optioneel en aanbevolen) :
  - In verzegelde stroken of in verzegelde zakjes.
  - Als je een etui gebruikt, noteer dan het unieke identificatienummer, zodat je kunt controleren of het de juiste etui is en niet een lokvogel die het origineel vervangt.
 
@@ -269,7 +269,7 @@ Als je niet wilt investeren in een set ponsen, kun je je sluitringen ook gravere
 
 
 
-Bewaar je back-up op een **discrete locatie**, uit het zicht en toegankelijk voor periodieke controles. Kies voor brandveilige en waterdichte opslag**, thuis of op een plek onder uw **exclusieve controle**.
+Bewaar je back-up op een **discrete locatie**, uit het zicht en toegankelijk voor periodieke controles. Kies voor brandveilige en waterdichte **opslag**, thuis of op een plek onder uw **exclusieve controle**.
 
 
 
@@ -297,7 +297,7 @@ Zelfs als de materialen die je hebt gekozen voor je apparaat water- en vuurbeste
 
 
 
-Zelfs als je back-up goed is opgeslagen, moet deze regelmatig** worden gecontroleerd:
+Zelfs als je back-up goed is opgeslagen, moet deze **regelmatig** worden gecontroleerd:
 
 
 
@@ -313,7 +313,7 @@ Zelfs als je back-up goed is opgeslagen, moet deze regelmatig** worden gecontrol
 
 
 
-*BLIJF VEILIG!
+**BLIJF VEILIG!**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Volgens Jameson Lopp:
 
 
 
-- Sluitringen** voor
+- **Sluitringen** voor
  - [Titan](https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Sluitringen + moer + beschermhoes** (voor sluitringen)
+- Sluitringen + moer + **beschermhoes** (voor sluitringen)
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Ponsset
  - [PlebStijl](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Basis van typen**
+- **Basis van typen**
  - [PlebStijl](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Tapapparaat** (geleider)
+- **Tapapparaat** (geleider)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Afdichtapparaat
  - [Verzegeld zakje] (https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Afdichtstrips](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Complete** kit
+- **Complete** kit
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

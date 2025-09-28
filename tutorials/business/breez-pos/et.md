@@ -1,5 +1,5 @@
 ---
-name: Breez müügipunkt
+name: Breez - POS
 
 description: Juhend, kuidas hakata Breez POS-i kasutades bitcoine vastu võtma
 ---

@@ -1,5 +1,5 @@
 ---
-name: Thẻ Coincards
+name: Coincards
 description: Làm thế nào tôi có thể mua hàng hóa và dịch vụ bằng BTC với Coincards?
 ---
 ![cover](assets/cover.webp)

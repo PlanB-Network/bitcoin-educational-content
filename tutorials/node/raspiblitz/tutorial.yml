@@ -61,12 +61,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.37
+    reward: 6.47
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.5
+    reward: 9.65
   - language: et
     last_contribution_date:
     urgency: 1
@@ -81,7 +81,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.93
+    reward: 8.06
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -101,18 +101,18 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.37
+    reward: 6.47
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 3.18
+    reward: 3.23
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.93
+    reward: 8.06
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -122,12 +122,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.8
+    reward: 4.88
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 6.37
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.06
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.47
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.65
 tags:
   - guides
   - DIY

@@ -11,7 +11,7 @@ Siku hizi, ni muhimu kutekeleza mkakati ili kuhakikisha ufikivu, usalama na chel
 Ili kuzuia shida hizi, nakushauri uhifadhi nakala nyingi za faili zako kwenye media tofauti. Mbinu inayotumika sana katika kompyuta ni mkakati wa chelezo wa "3-2-1", ambao huhakikisha ulinzi wa faili zako:
 
 
-- 3** nakala za faili zako;
+- 3 **nakala za faili zako**;
 - Imehifadhiwa kwenye angalau **2** aina tofauti za midia;
 - Na angalau nakala **1** iliyohifadhiwa nje ya tovuti.
 

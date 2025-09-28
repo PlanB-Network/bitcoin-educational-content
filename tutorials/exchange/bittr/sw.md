@@ -21,23 +21,23 @@ Hebu tuchunguze jinsi ilivyo rahisi kuanza kuweka Sats na Bittr.
 ## Anza na Bittr
 
 
-1) Kwenye wavuti au simu ya mkononi nenda kwa [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) na ubofye "Nunua Bitcoin"
+- Kwenye wavuti au simu ya mkononi nenda kwa [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) na ubofye "Nunua Bitcoin"
 
 
 
-- Hakuna Akaunti:** Si lazima ufungue akaunti ili kununua Bitcoin
-- Hakuna mchakato wa KYC:** Si lazima upitie KYC (hadi 999CHF kwa siku 30)
-- Anza moja kwa moja:** Unaanza mara moja na unaweza kupokea Sats yako ndani ya dakika chache
+- **Hakuna Akaunti:** Huna haja ya kuunda akaunti ili kununua Bitcoin
+- **Hakuna mchakato wa KYC:** Huna haja ya kupitia KYC (hadi 999 CHF kwa siku 30)
+- **Kuanza moja kwa moja:** Unaendelea mara moja na unaweza kupokea sats zako ndani ya dakika chache
 
 
 ![image1](assets/en/01.webp)
 
 
-2) Weka IBAN ambayo utakuwa unatuma kutoka
+- Weka IBAN ambayo utakuwa unatuma kutoka
 
 
 
-- SEPA pekee:** Bittr inafanya kazi ndani ya Uropa pekee
+- **SEPA pekee:** Bittr inafanya kazi tu ndani ya Ulaya
 
 
 ![image2](assets/en/02.webp)
@@ -58,37 +58,37 @@ Tutaanza na BlueWallet kwa wanaoanza, na baadaye katika mafunzo tunaiweka na Bit
 Tunapendekeza uweke mipangilio katika sehemu tulivu na ya faragha. Haipaswi kukuchukua zaidi ya dakika 5.
 
 
-1) Chagua "bluewallet" kwenye tovuti
+- Chagua "bluewallet" kwenye tovuti
 
 
-2) Pakua Programu ya BlueWallet hapa: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Pakua Programu ya BlueWallet hapa: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)
 
 
-3) Bonyeza "Ongeza Wallet" (Ikiwa tayari una Wallet kwenda hatua inayofuata).
+- Bonyeza "Ongeza Wallet" (Ikiwa tayari una Wallet kwenda hatua inayofuata).
 
 
 ![image4](assets/en/04.webp)
 
 
-4) Chagua Wallet yako na uende kusaini ujumbe
+- Chagua Wallet yako na uende kusaini ujumbe
 
 
 ![image5](assets/en/05.webp)
 
 
-5) Kamilisha kutia sahihi kwa ujumbe na ubandike saini yako kwenye tovuti
+- Kamilisha kutia sahihi kwa ujumbe na ubandike saini yako kwenye tovuti
 
 
 ![image6](assets/en/06.webp)
 
 
-**Kumbuka: Unaweza pia kubofya "Shiriki" katika BlueWallet, nakili kiungo kizima, na ukibandike kwenye uga kwenye tovuti ya Bittr.**
+**Kumbuka: Unaweza pia kubofya "Shiriki" kwenye BlueWallet, kunakili kiungo kizima, na kukibandika kwenye sehemu ya tovuti ya Bittr.**
 
 
-6) Sanidi uhamisho wako wa benki ukitumia maelezo yako ya malipo ya kibinafsi
+- Sanidi uhamisho wako wa benki ukitumia maelezo yako ya malipo ya kibinafsi
 
 
 ![image7](assets/en/07.webp)
@@ -97,28 +97,29 @@ Tunapendekeza uweke mipangilio katika sehemu tulivu na ya faragha. Haipaswi kuku
 ## Nunua Bitcoin moja kwa moja kwenye BitBox
 
 
-1) Chagua "BitBox"
+- Chagua "BitBox"
 
 
 ![image8](assets/en/08.webp)
 
 
-2) Bofya ili kufungua Programu ya BitBox kwenye kompyuta yako
+- Bofya ili kufungua Programu ya BitBox kwenye kompyuta yako
 
 
 ![image9](assets/en/09.webp)
 
 
-3) Fungua BitBox yako na ufuate hatua na ukamilishe kusaini ujumbe
+- Fungua BitBox yako na ufuate hatua na ukamilishe kusaini ujumbe
 
 
 ![image10](assets/en/10.webp)
 
 
-4) Sanidi uhamisho wako wa benki ukitumia maelezo yako ya malipo ya kibinafsi
+- Sanidi uhamisho wako wa benki ukitumia maelezo yako ya malipo ya kibinafsi
 
 
 ![image11](assets/en/11.webp)
 
 
 Wuuu, ndio hivyo! 🤩 Punde tu pesa zitakapofika katika akaunti ya benki ya Bittr, Bittr itanunua Bitcoin yako, kutuma Bitcoin moja kwa moja kwa Wallet yako, na kukutumia barua pepe maelezo ya muamala (pamoja na kiwango cha Exchange wakati wa ubadilishaji).
+

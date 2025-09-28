@@ -8,4 +8,4 @@ En Blockchain som är utformad för att fungera parallellt med Bitcoin:s huvudsa
 Konceptet med en Sidechain introducerades ursprungligen 2014 av Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon och Pieter Wuille. För närvarande är de mest välkända sidokedjorna på Bitcoin Liquid och RSK (Rootstock). Dessa är dock fortfarande mycket mindre använda jämfört med andra overlay-lösningar med en annan modell, som Lightning Network.
 
 
-> ► * På franska kallas den "chaîne latérale" eller "chaîne parallèle"
+> ► *På franska kallas den "chaîne latérale" eller "chaîne parallèle"*

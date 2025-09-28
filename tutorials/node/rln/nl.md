@@ -1,5 +1,5 @@
 ---
-name: RGB Bliksemknooppunt
+name: RGB Lightning Node
 description: Hoe lanceer ik een RGB-compatibel Lightning-knooppunt met RLN?
 ---
 ![cover](assets/cover.webp)

@@ -1,0 +1,9 @@
+question: ¿Qué estructura de datos resume las transacciones de un bloque?
+answer: La Merkle Tree
+wrong_answers:
+  - La tabla Hash UTXO
+  - El archivo peers.dat
+  - El registro assumeutxo
+explanation: |
+  Las transacciones de un bloque se consignan en un Merkle Tree, cuya raíz se incluye en la cabecera del bloque para garantizar su integridad.
+reviewed: true

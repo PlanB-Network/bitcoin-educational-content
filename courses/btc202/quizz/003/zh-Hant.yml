@@ -1,0 +1,9 @@
+question: 根據 Eric Voskuil 在 Cryptoeconomics 一書中所述，Bitcoin 的安全性是基於什麼？
+answer: 關於個人
+wrong_answers:
+  - 關於 Blockchain
+  - 關於 Hash 電源
+  - 關於密碼學
+explanation: |
+  Eric Voskuil 解釋說，Bitcoin 的安全性首先仰賴冒險維護系統的人員。
+reviewed: true

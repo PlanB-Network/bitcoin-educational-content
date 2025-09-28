@@ -1,0 +1,9 @@
+question: Šta je determinizam?
+answer: Koncept sveta u kojem ne postoji ni kontingencija ni slučajnost.
+wrong_answers:
+  - Svetski pogled određen Bogom.
+  - Jedan oblik ateizma.
+  - Jedno sujeverje.
+explanation: |
+  Deterministički pogled na svet je onaj u kojem nema ni kontingencije ni slučajnosti. Svaki događaj je neophodna posledica prethodnih uzroka, prema nepromenljivim prirodnim zakonima.
+reviewed: false

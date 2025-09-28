@@ -25,10 +25,10 @@ Mezi vrstvami protokolu Bitcoin však přetrvával zásadní problém: interoper
 
 
 
-- on chain**: V hlavním řetězci Bitcoin, kde jsou transakce potvrzovány v průměru každých 10 minut, jsou transakční poplatky často vysoké, což nemusí nutně vyhovovat potřebám uživatelů;
-- Lightning Network**: Překrytí Bitcoin pro okamžité platby za nízké poplatky, což umožňuje používat Bitcoin pro denní platby;
-- Liquid Network**: překryvný nástroj pro Bitcoin vytvořený společností Blockstream, který umožňuje rychlé použití Confidential Transactions a použití dalších finančních nástrojů založených na Bitcoin;
-- RootStock**: Řešení pro vývoj chytrých smluv založených na protokolu Bitcoin.
+- **on chain**: V hlavním řetězci Bitcoin, kde jsou transakce potvrzovány v průměru každých 10 minut, jsou transakční poplatky často vysoké, což nemusí nutně vyhovovat potřebám uživatelů;
+- **Lightning Network**: Překrytí Bitcoin pro okamžité platby za nízké poplatky, což umožňuje používat Bitcoin pro denní platby;
+- **Liquid Network**: překryvný nástroj pro Bitcoin vytvořený společností Blockstream, který umožňuje rychlé použití Confidential Transactions a použití dalších finančních nástrojů založených na Bitcoin;
+- **RootStock**: Řešení pro vývoj chytrých smluv založených na protokolu Bitcoin.
 
 
 

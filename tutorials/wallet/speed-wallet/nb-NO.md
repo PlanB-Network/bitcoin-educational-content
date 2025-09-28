@@ -1,5 +1,5 @@
 ---
-name: Hastighet Wallet
+name: Speed Wallet
 description: Betal og Exchange i bitcoins og USDT umiddelbart
 ---
 ![cover](assets/cover.webp)
@@ -161,7 +161,7 @@ Du kan også bruke Lightning Address når du ønsker å gi avsenderen fleksibili
 
 
 
-- Send bitcoins med Speed Wallet** :
+- Send bitcoins med **Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Med alternativene **Buy** og **Swap** kan du veksle bitcoins til andre valutaer 
 
 
 
-- Kjøp Bitcoin med kredittkortet ditt**: Speed Wallet gjør det enkelt å kjøpe Bitcoin fra fiat-valutaene du bruker hver dag. Den inneholder en betalingsaggregator som lar deg betale bitcoins med kredittkortet ditt.
+- **Kjøp Bitcoin med kredittkortet ditt**: Speed Wallet gjør det enkelt å kjøpe Bitcoin fra fiat-valutaene du bruker hver dag. Den inneholder en betalingsaggregator som lar deg betale bitcoins med kredittkortet ditt.
 
 
 
@@ -201,7 +201,7 @@ Med alternativene **Buy** og **Swap** kan du veksle bitcoins til andre valutaer 
 
 
 
-- Kjøp Bitcoin fra andre kryptovalutaer**: Du kan Exchange USDT, USDC for bitcoins i din Wallet og vice versa. Gjennom dette alternativet forenkler Speed Wallet prosessen med å kjøpe og selge Bitcoin uten å henvise til eksterne Exchange-plattformer. Så du kan handle for så lite som 20 000 satoshier, rundt 20 dollar til dagens kurs, uten å forlate din Speed Wallet.
+- **Kjøp Bitcoin fra andre kryptovalutaer**: Du kan Exchange USDT, USDC for bitcoins i din Wallet og vice versa. Gjennom dette alternativet forenkler Speed Wallet prosessen med å kjøpe og selge Bitcoin uten å henvise til eksterne Exchange-plattformer. Så du kan handle for så lite som 20 000 satoshier, rundt 20 dollar til dagens kurs, uten å forlate din Speed Wallet.
 
 
 
@@ -375,25 +375,25 @@ I hovedsak fokusert på betalinger, finner du følgende alternativer:
 
 
 
-- Betalinger på nett**: Med dette alternativet kan du godta Bitcoin som betalingsmiddel for dine digitale produkter, via betalingslenker, fakturering og abonnementer.
+- **Betalinger på nett**: Med dette alternativet kan du godta Bitcoin som betalingsmiddel for dine digitale produkter, via betalingslenker, fakturering og abonnementer.
 
 
 
 
 
-- Betalinger på stedet**: For å samle inn betalinger i butikken din.
+- **Betalinger på stedet**: For å samle inn betalinger i butikken din.
 
 
 
 
 
-- Øyeblikkelige betalinger**: Et alternativ som lar deg administrere refusjoner, uttak, utlegg og lønnsslipper for ansatte direkte fra Speed Business Interface.
+- **Øyeblikkelige betalinger**: Et alternativ som lar deg administrere refusjoner, uttak, utlegg og lønnsslipper for ansatte direkte fra Speed Business Interface.
 
 
 
 
 
-- Plattformbetalinger**: Koble Speed Business-kontoen din til eksterne verktøy du bruker til å foreta overføringer og betalinger til disse plattformene.
+- **Plattformbetalinger**: Koble Speed Business-kontoen din til eksterne verktøy du bruker til å foreta overføringer og betalinger til disse plattformene.
 
 
 

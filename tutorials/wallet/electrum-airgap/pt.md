@@ -1,6 +1,6 @@
 ---
-name: Elétrodo de ar
-description: Um primeiro passo para a segurança, um Cold Wallet com Electrum
+name: Electrum Airgap
+description: Um primeiro passo para a segurança, uma cold wallet com Electrum
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ Para descarregar o Electrum, recomendo que siga os primeiros passos deste tutori
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Depois de fazer o download, verifique sempre a versão antes de a instalar e, em seguida, proceda à configuração "One Server", tal como se encontra na secção de ajuda, em `Start with a Dummy Wallet`.
 

@@ -1,5 +1,5 @@
 ---
-name: Pardal Wallet
+name: Sparrow Wallet
 description: Instalação, configuração e utilização do Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -224,7 +224,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ![Image](assets/fr/26.webp)
 
-**Obviamente, nunca se deve partilhar estas palavras na Internet, como faço neste tutorial. Este exemplo Wallet será utilizado apenas no Testnet e será eliminado no final do tutorial
+**Obviamente, nunca se deve partilhar estas palavras na Internet, como faço neste tutorial. Este exemplo Wallet será utilizado apenas no Testnet e será eliminado no final do tutorial.**
 
 Também pode optar por adicionar um passphrase BIP39 clicando na caixa "*Usar passphrase*". Atenção: a utilização de um passphrase pode ser muito útil, mas se não compreender o seu funcionamento, pode ser muito arriscado. É por isso que aconselho vivamente a leitura deste pequeno artigo teórico sobre o assunto:
 

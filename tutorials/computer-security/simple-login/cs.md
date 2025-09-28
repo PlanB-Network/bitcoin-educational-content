@@ -1,5 +1,5 @@
 ---
-name: Jednoduché přihlášení
+name: Simple Login
 description: Identita chráněná přezdívkami
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Při používání osobního e-mailu Address pro každé přihlášení si lze s
 Vývojáři nástrojů s otevřeným zdrojovým kódem vytvořili řadu sad aplikací, které vznikly právě proto, aby uživatelé získali zpět trochu soukromí: stále se budou přihlašovat, ale místo nástroje, který odhaluje jejich soukromou identitu, budou používat přezdívku.
 
 
-Nejjednodušší z těch, které jsem osobně vyzkoušel a stále je testuji, je [Simple Login](https://simplelogin.io/).
+Nejjednodušší, z těch, které jsem osobně vyzkoušel a které stále testuji, je právě [Simple Login](https://simplelogin.io/).
 
 
 ## Alias
@@ -190,7 +190,7 @@ Výsledkem však je, že jsme zachovali hlavní Address, který od okamžiku vyt
 Pseudonym funguje jak pro příjem, tak pro odesílání: jiný uživatel skutečně obdrží odpověď z adresy alias.preoccupy789@8shield.net, pokud je to pseudonym zvolený pro daného příjemce.
 
 
-## Klady
+## Pro
 
 
 Používání přezdívek je celkově účinný způsob ochrany identity a soukromí. E-mailové adresy jsou často shromažďovány zprostředkovateli dat a webovými stránkami za účelem sledování zvyků a chování uživatelů. Ačkoli vás alias neudělá zcela nevystopovatelnými, jeho důsledné používání je pozitivním krokem k ochraně vašich informací. V naší "globální digitální vesnici", kde jsou hackerské útoky, prodej dat a narušení bezpečnosti až příliš časté, je navíc velmi pravděpodobné, že e-mail, který používáte k registraci na různých webových stránkách, již byl napaden nebo se stal terčem útoku.
@@ -210,7 +210,7 @@ Pokud jde o jednoduché přihlášení, tento nástroj má následující funkce
 - mezi bezplatnými plány v tomto odvětví možnost používat aliasy s více "oficiálními" e-mailovými schránkami. Ostatní konkurenti se omezují pouze na jednu.
 
 
-## Nevýhody
+## Proti
 
 
 - 10 aliasů nemusí stačit, pokud plánujete používat Simple Login ve velké míře. V takovém případě se hodí placený tarif, který je cenově poměrně dostupný a který zvýší počet možných dostupných aliasů.

@@ -1,0 +1,9 @@
+question: Essential 프로필에 대한 Bitcoin 결제를 수락하는 스위스 Bitcoin Pay의 대체 솔루션은 100% 커스터디인가요?
+answer: 노드 열기
+wrong_answers:
+  - BTCPay 서버
+  - 비트코인화 PoS
+  - Phoenix Wallet
+explanation: |
+  오픈 노드는 스위스 Bitcoin 페이의 하이브리드 성격과 달리 완전한 커스터디 솔루션이라는 점이 특징입니다.
+reviewed: true

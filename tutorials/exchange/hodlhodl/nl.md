@@ -1,5 +1,5 @@
 ---
-name: HODL HODL
+name: Hodl Hodl
 
 description: Stap voor stap handleiding voor HODLHODL
 ---
@@ -16,10 +16,9 @@ HODL HODL is een gedecentraliseerde Bitcoin Exchange die gebruikerscontrole en v
 https://hodlhodl.com/pages/faq_help
 
 
-## Schrijfgids:
+## Begin uw reis op Hodl Hodl
 
 
-Begin je reis met HodlHodl: een stap-voor-stap handleiding
 
 
 ![image](assets/5.webp)
@@ -68,61 +67,61 @@ Om te beginnen met handelen in BTC, moet je eerst je BTC Address opgeven. Deze k
 Gids door Bitcoiner V&A https://bitcoiner.guide/hodlhodl/
 
 
-1. Ga naar hodlhodl.com en maak je account aan. De enige gegevens die je hoeft op te geven zijn een gebruikersnaam en e-mail Address. Je komt dan op de startpagina.
+- Ga naar hodlhodl.com en maak je account aan. De enige gegevens die je hoeft op te geven zijn een gebruikersnaam en e-mail Address. Je komt dan op de startpagina.
 
 
 ![cover](assets/11.webp)
 
 
-2. Klik op 'BTC kopen' in de header van de website.
+- Klik op 'BTC kopen' in de header van de website.
 
 
 ![cover](assets/12.webp)
 
 
-3. Selecteer je gewenste betalingstype en -methode. Indien nodig kun je hier ook een specifiek bedrag opgeven.
+- Selecteer je gewenste betalingstype en -methode. Indien nodig kun je hier ook een specifiek bedrag opgeven.
 
 
 ![cover](assets/13.webp)
 
 
-4. Selecteer het gewenste aanbod. Je kunt dan de details van de transactie bekijken en ook de activiteitenrapporten en beoordelingen van de peer lezen.
+- Selecteer het gewenste aanbod. Je kunt dan de details van de transactie bekijken en ook de activiteitenrapporten en beoordelingen van de peer lezen.
 
 
 ![cover](assets/14.webp)
 
 
-5. Als je tevreden bent, kun je aangeven hoeveel je wilt kopen, de Address invoeren waarnaar je de Bitcoin wilt laten sturen en de door de verkoper geadverteerde betaalmethode bevestigen. Klik op 'Accepteer aanbod en maak Contract aan'.
+- Als je tevreden bent, kun je aangeven hoeveel je wilt kopen, de Address invoeren waarnaar je de Bitcoin wilt laten sturen en de door de verkoper geadverteerde betaalmethode bevestigen. Klik op 'Accepteer aanbod en maak Contract aan'.
 
 
 ![cover](assets/15.webp)
 
 
-6. Je hebt nu je Contract aangemaakt en moet op 'generate Escrow' drukken, waar je gevraagd wordt om een betalingswachtwoord aan te maken. Het betalingswachtwoord is een coderingssleutel voor het escrow sleutelpaar van de gebruiker. Het wordt gebruikt om Bitcoin in of uit escrow te deponeren of vrij te geven.
+- Je hebt nu je Contract aangemaakt en moet op 'generate Escrow' drukken, waar je gevraagd wordt om een betalingswachtwoord aan te maken. Het betalingswachtwoord is een coderingssleutel voor het escrow sleutelpaar van de gebruiker. Het wordt gebruikt om Bitcoin in of uit escrow te deponeren of vrij te geven.
 
 
 ![cover](assets/16.webp)
 
 
-7. Nu moet je wachten tot de verkoper zijn Bitcoin in de Wallet escrow heeft gestort. Nadat je de Contract hebt gestart, kun je met de verkoper chatten via de chatbox aan de rechterkant van de pagina.
+- Nu moet je wachten tot de verkoper zijn Bitcoin in de Wallet escrow heeft gestort. Nadat je de Contract hebt gestart, kun je met de verkoper chatten via de chatbox aan de rechterkant van de pagina.
 
 
 ![cover](assets/17.webp)
 
 
-8. Zodra de verkoper zijn geld op de escrow heeft gestort, zie je dit scherm met het advies om je geld niet te sturen totdat er voldoende Blockchain bevestigingen zijn geweest (dit hangt af van de handelsvoorwaarden). Je kunt de voortgang van de stortingstransactie van de verkoper controleren door op de blauwe link 'transaction ID storten' te klikken.
+- Zodra de verkoper zijn geld op de escrow heeft gestort, zie je dit scherm met het advies om je geld niet te sturen totdat er voldoende Blockchain bevestigingen zijn geweest (dit hangt af van de handelsvoorwaarden). Je kunt de voortgang van de stortingstransactie van de verkoper controleren door op de blauwe link 'transaction ID storten' te klikken.
 
 
 ![cover](assets/18.webp)
 
 
-9. Zodra dit is bevestigd, ontvang je een bericht en kun je het geld naar de verkoper sturen via de gegevens die hij je heeft verstrekt. Zodra je dit hebt gedaan, klik je op 'Ik heb de betaling verzonden'.
+- Zodra dit is bevestigd, ontvang je een bericht en kun je het geld naar de verkoper sturen via de gegevens die hij je heeft verstrekt. Zodra je dit hebt gedaan, klik je op 'Ik heb de betaling verzonden'.
 
 
 ![cover](assets/19.webp)
 
 
-10. Je moet dan wachten tot de verkoper bevestigt dat hij het geld heeft ontvangen, waarna de Bitcoin wordt vrijgegeven in de Address die je bij het begin van de Contract hebt opgegeven. Je krijgt ook de mogelijkheid om je collega te beoordelen.
+- Je moet dan wachten tot de verkoper bevestigt dat hij het geld heeft ontvangen, waarna de Bitcoin wordt vrijgegeven in de Address die je bij het begin van de Contract hebt opgegeven. Je krijgt ook de mogelijkheid om je collega te beoordelen.
 
 
 ![cover](assets/20.webp)

@@ -1,0 +1,9 @@
+question: 暗号経済学』のエリック・ヴォスクイルによれば、Bitcoinの安全性は何に基づいているのか？
+answer: 個人について
+wrong_answers:
+  - Blockchainについて
+  - Hashパワーについて
+  - 暗号について
+explanation: |
+  エリック・ヴォスクイルは、Bitcoinのセキュリティーは、何よりもリスクを冒してシステムを維持する人々に依存していると説明する。
+reviewed: true

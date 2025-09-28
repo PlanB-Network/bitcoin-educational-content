@@ -1,0 +1,9 @@
+question: MwamvuliOS inasambazwa chini ya leseni gani?
+answer: PolyForm Isiyo ya Kibiashara 1.0
+wrong_answers:
+  - MIT
+  - GPLv3
+  - Apache 2.0
+explanation: |
+  umbrelOS inatolewa chini ya leseni ya PolyForm Noncommercial 1.0, ambayo inaruhusu matumizi ya kibinafsi lakini inakataza matumizi ya kibiashara.
+reviewed: true

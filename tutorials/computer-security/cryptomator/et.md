@@ -170,7 +170,7 @@ Seifi avamiseks peate sisestama oma salasõna. Seejärel klõpsake nuppu "**Vaba
 
 
 
-OneDrive'i poolel ei saa me Cryptomatori võlvkappi otse sirvida. Me ei näe andmeid (ei failide nimesid ega sisu). See tähendab, et te ei pea Cryptomatori võlvile andmeid lisama tavapärase OneDrive'i otsetee kaudu. **Te peate oma andmed lisama, kasutades Cryptomatori virtuaalset draivi
+OneDrive'i poolel ei saa me Cryptomatori võlvkappi otse sirvida. Me ei näe andmeid (ei failide nimesid ega sisu). See tähendab, et te ei pea Cryptomatori võlvile andmeid lisama tavapärase OneDrive'i otsetee kaudu. **Te peate oma andmed lisama, kasutades Cryptomatori virtuaalset draivi.**
 
 
 

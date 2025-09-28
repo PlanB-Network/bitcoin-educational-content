@@ -271,7 +271,7 @@ Safe 3 će kreirati vašu Mnemonic frazu koristeći svoj generator slučajnih br
 
 
 
-***Očigledno, nikada ne smete deliti ove reči na Internetu, kao što ja radim u ovom vodiču. Ovaj primer Wallet će biti korišćen samo na Testnet i biće obrisan na kraju vodiča.
+**Očigledno, nikada ne smete deliti ove reči na Internetu, kao što ja radim u ovom vodiču. Ovaj primer Wallet će biti korišćen samo na Testnet i biće obrisan na kraju vodiča.**
 
 
 

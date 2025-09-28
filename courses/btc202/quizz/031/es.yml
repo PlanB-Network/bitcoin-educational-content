@@ -1,0 +1,9 @@
+question: ¿Qué distribución se adapta mejor a la Raspberry Pi, ya que es especialmente ligera?
+answer: RaspiBlitz
+wrong_answers:
+  - Paraguas
+  - MiNodo
+  - Inicio9
+explanation: |
+  RaspiBlitz está optimizado para la Raspberry Pi y sigue siendo ligero, a diferencia de Umbrel, que se ha vuelto demasiado pesado para estas máquinas.
+reviewed: true

@@ -10,6 +10,10 @@ topic: bitcoin
 # For other topics, refer to https: //github.com/orgs/DecouvreBitcoin/projects/3/views/7
 subtopic: bitcoin
 
+# type
+# Choose between theory, practice
+type: theory
+
 # level
 # Define the difficulty of the course
 # Choose between beginner, intermediate, expert, wizard
@@ -96,7 +100,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 10.99
+    reward: 10.98
   - language: vi
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -145,7 +149,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Sanja993
-    reward: 10.99
+    reward: 10.98
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -177,6 +181,21 @@ proofreading:
     contributor_names:
       - rogerbracket
     reward: 10.99
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 27.43
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 21.97
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 32.9
 tags:
   - user-friendly
   - wallets
@@ -211,7 +230,7 @@ videos:
       - fr: U28-oh950Dw
   - id: b551f3e8-09e9-400b-9fc6-0af59c4e68b1
     youtube:
-      - fr: GdeLB39QdUQ
+      - fr: GdeLB39QdUQv
   - id: 7c203208-9368-4704-8bdb-45878d3d5226
     youtube:
       - fr: GJlUqtGzxLk

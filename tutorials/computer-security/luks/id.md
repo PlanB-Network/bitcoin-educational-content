@@ -131,7 +131,7 @@ Sekarang kita akan menghapus semua data pada stik USB kita. Operasi ini terdiri 
 
 
 
-**Pastikan Anda menargetkan file perangkat yang tepat!
+**Pastikan Anda menargetkan file perangkat yang tepat!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Di sini, subperintah "`luksFormat`" menginisialisasi dan memformat perangkat untuk menggunakan enkripsi LUKS. Anda akan diminta untuk mengonfirmasi operasi ini dengan mengetik `YES` dalam huruf besar, lalu tentukan *passphrase*. **Pilihlah *passphrase* yang kuat untuk memastikan bahwa, jika terjadi kehilangan, penyerang tidak dapat menemukannya melalui serangan brute force.
+Di sini, subperintah "`luksFormat`" menginisialisasi dan memformat perangkat untuk menggunakan enkripsi LUKS. Anda akan diminta untuk mengonfirmasi operasi ini dengan mengetik `YES` dalam huruf besar, lalu tentukan *passphrase*. **Pilihlah** ***passphrase*** **yang kuat untuk memastikan bahwa, jika terjadi kehilangan, penyerang tidak dapat menemukannya melalui serangan brute force.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Di sini, lokasi target** ditetapkan sebagai "**/dev/mappe/usbkey1**"**, mengapa?
+**Di sini, lokasi target** ditetapkan sebagai "**/dev/mappe/usbkey1**", mengapa?
 
 
 
@@ -268,7 +268,7 @@ sr0        11:0    1 1024M  0 rom
 
 
 
-*melalui grafik Interface ** **:**:**
+*melalui grafik Interface*:
 
 
 

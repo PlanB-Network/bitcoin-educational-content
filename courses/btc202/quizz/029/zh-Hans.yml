@@ -1,0 +1,9 @@
+question: Full node 的主要特点是什么？
+answer: 它下载并验证整个 Blockchain
+wrong_answers:
+  - 它只保留了块状顶盖
+  - 验证后删除旧区块
+  - 它依赖于另一个节点来验证交易
+explanation: |
+  Full node 保留整个 Blockchain，并独立验证每个区块和交易。
+reviewed: true

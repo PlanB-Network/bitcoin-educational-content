@@ -1,0 +1,9 @@
+question: Android 스마트폰에 대체 ROM을 설치하려면 어떻게 해야 하나요?
+answer: 부트로더 잠금 해제하기
+wrong_answers:
+  - Apple 계정 만들기
+  - 특수 SIM 카드 설치
+  - IOS에서 개발자 모드 활성화
+explanation: |
+  Android 스마트폰에 새 시스템 이미지를 작성하려면 부트 로더를 잠금 해제해야 합니다.
+reviewed: false

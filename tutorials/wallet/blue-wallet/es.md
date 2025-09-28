@@ -1,5 +1,5 @@
 ---
-name: Azul Wallet
+name: Blue Wallet
 
 description: Bitcoin Cartera radicalmente sencilla y potente
 ---
@@ -152,7 +152,7 @@ Puede eliminar uno o todos los destinatarios haciendo clic en **Eliminar destina
 
 
 
-- Inflar las comisiones**: ¿Has realizado una transacción que está tardando mucho en confirmarse? Activando la inflación de tasas puedes añadir tasas adicionales a tu transacción pendiente para acelerar su confirmación.
+- **Inflar las comisiones**: ¿Has realizado una transacción que está tardando mucho en confirmarse? Activando la inflación de tasas puedes añadir tasas adicionales a tu transacción pendiente para acelerar su confirmación.
 
 
 
@@ -248,7 +248,7 @@ Recibir bitcoins en una Wallet multifirma es el mismo proceso que cuando se est�
 
 
 
-- Enviar bitcoins** :
+- **Enviar bitcoins**:
 
 
 
@@ -274,7 +274,7 @@ El segundo firmante de Wallet, si también es usuario, puede firmar la transacci
 
 
 
-- Vaya más allá con la cartera Multi firma**:
+- Vaya más allá con la **cartera Multi firma**:
 
 
 

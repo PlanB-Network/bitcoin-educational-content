@@ -1,0 +1,9 @@
+question: Která aplikace Umbrel umožňuje spravovat uzel Lightning pomocí pokročilé aplikace Interface?
+answer: Jízda na blesku
+wrong_answers:
+  - BTCPay Lightning
+  - Nostr relé
+  - Bitfeed
+explanation: |
+  Aplikace Ride The Lightning a ThunderHub nabízejí kompletní webovou aplikaci Interface pro správu uzlu Lightning.
+reviewed: true

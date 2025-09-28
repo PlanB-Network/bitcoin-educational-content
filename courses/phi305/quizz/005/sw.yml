@@ -1,0 +1,9 @@
+question: Ni mwanasayansi gani anayeamini kwamba hisabati ni lugha ya ulimwengu?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Copernicus.
+explanation: |
+  Galileo ni maarufu kwa madai yake kwamba "kitabu cha asili kimeandikwa kwa lugha ya hisabati". Maono haya yamekuwa na ushawishi mkubwa kwa sayansi ya kisasa na falsafa ya kimantiki, pamoja na ile ya Spinoza.
+reviewed: false

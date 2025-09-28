@@ -182,10 +182,10 @@ Kroz BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) ima za cilj uspostavl
 
 
 
-- Poverljivost**: Ne morate kreirati nalog na platformi, ne morate verifikovati svoj identitet i ne morate pružati bilo kakve lične informacije.
-- Sloboda**: Možete koristiti BitSpenda iz bilo koje zemlje za obavljanje transakcija u Ganu, Nigeriju i Keniju.
-- Brzina**: Oslanjanje na Lightning plaćanja omogućilo je BitSpendi da smanji vreme obrade i učini transakcije trenutnim.
-- Transparentnost**: Sve transakcije koje ste obavili na BitSpenda povezane su sa jedinstvenim identifikatorima koji vam omogućavaju praćenje i praćenje napretka ovih transakcija. Takođe možete koristiti ove identifikatore da kontaktirate [podršku aplikacije na X](https://x.com/bitspenda).
+- **Poverljivost**: Ne morate kreirati nalog na platformi, ne morate verifikovati svoj identitet i ne morate pružati bilo kakve lične informacije.
+- **Sloboda**: Možete koristiti BitSpenda iz bilo koje zemlje za obavljanje transakcija u Ganu, Nigeriju i Keniju.
+- **Brzina**: Oslanjanje na Lightning plaćanja omogućilo je BitSpendi da smanji vreme obrade i učini transakcije trenutnim.
+- **Transparentnost**: Sve transakcije koje ste obavili na BitSpenda povezane su sa jedinstvenim identifikatorima koji vam omogućavaju praćenje i praćenje napretka ovih transakcija. Takođe možete koristiti ove identifikatore da kontaktirate [podršku aplikacije na X](https://x.com/bitspenda).
 
 
 

@@ -1,127 +1,224 @@
 ---
 name: Bitcoin Core (Linux)
-description: 使用Bitcoin Core运行您自己的节点
+description: 在 Linux 上使用 Bitcoin core 运行自己的节点
 ---
 
-![封面](assets/cover.webp)
+![cover](assets/cover.webp)
 
-# 使用Bitcoin Core运行您自己的节点
 
-介绍比特币和节点的概念，补充了在Linux上安装的全面指南。
+## 使用 Bitcoin core 运行自己的节点
 
-比特币最令人兴奋的提议之一是能够自己运行程序，从而在网络和公共交易账本的验证中以细粒度参与。
 
-比特币是一个开源项目，自2009年以来一直免费公开分发。在其诞生近15年后，比特币现已成为一个强大且不可阻挡的数字货币网络，受益于强大的有机网络效应。对于他们的努力和远见，中本聪值得我们的感激。顺便说一下，我们在Agora 256上托管了比特币白皮书（注：也在大学上）。
+介绍 Bitcoin 和节点的概念，辅以全面的 Linux 安装指南。
 
-## 成为您自己的银行
 
-对于坚持比特币公理的人来说，运行自己的节点已变得至关重要。无需请求任何人的许可，就可以从一开始下载区块链，从而根据比特币协议验证从A到Z的所有交易。
+Bitcoin 最令人兴奋的一点是，我们可以自己运行程序，从而在更细的层面上参与网络和公共交易 Ledger 的验证。
 
-该程序还包括自己的钱包。因此，我们可以控制我们发送到网络其余部分的交易，无需任何中介或第三方。你就是你自己的银行。
 
-因此，本文的其余部分是一个安装指南，专门介绍在Debian兼容的Linux发行版上安装Bitcoin Core——最广泛使用的比特币软件版本，例如Ubuntu和Pop!/\_OS。遵循本指南，向您的个人主权迈进一步。
+Bitcoin 作为一个开源项目，自 2009 年以来一直免费提供并公开发布。成立近 17 年后，Bitcoin 已成为一个强大且不可阻挡的数字货币网络，并受益于强大的有机网络效应。Satoshi 中本聪的努力和远见值得我们感谢。顺便说一句，我们在 Agora 256 上发布了 Bitcoin 白皮书（注：也在大学里发布）。
 
-## Debian/Ubuntu上的Bitcoin Core安装指南
 
-> 先决条件
->
-> - 最小6GB的数据存储（修剪节点）— 1TB的数据存储（完整节点）
-> - 允许至少24小时完成初始区块下载（IBD）。即使对于修剪节点，这个操作也是必须的。
-> - 即使对于修剪节点，也允许~600GB的带宽用于IBD。
+### 成为自己的银行
 
-> 💡 以下命令是为Bitcoin Core版本24.1预定义的。
 
-## 下载和验证文件
+对于 Bitcoin 精神的拥护者来说，运行自己的节点已经变得至关重要。无需征得任何人的同意，就可以从一开始就下载 Blockchain，从而根据 Bitcoin 协议验证从 A 到 Z 的所有交易。
 
-1. 下载bitcoin-24.1-x86_64-linux-gnu.tar.gz，以及SHA256SUMS和SHA256SUMS.asc文件。（https://bitcoincore.org/bin/bitcoin-core-24.1/bitcoin-24.1-x86_64-linux-gnu.tar.gz）
 
-2. 在下载文件所在的目录中打开一个终端。例如，cd ~/Downloads/。
-3. 使用命令sha256sum --ignore-missing --check SHA256SUMS验证版本文件的校验和是否列在校验和文件中。
-4. 此命令的输出应包括下载的版本文件的名称，后跟“OK”。示例：bitcoin-24.0.1-x86_64-linux-gnu.tar.gz: OK。
+该程序还包括自己的 Wallet。因此，我们可以控制发送到网络其他部分的交易，而无需任何中介或第三方。您就是自己的银行。
 
-5. 使用命令sudo install git安装git。然后，使用命令git clone https://github.com/bitcoin-core/guix.sigs克隆包含Bitcoin Core签名者PGP密钥的存储库。
-6. 使用命令gpg --import guix.sigs/builder-keys/\*导入所有签名者的PGP密钥。
-7. 使用命令gpg --verify SHA256SUMS.asc验证校验和文件是否已使用签名者的PGP密钥签名。
-每个签名都会返回一行以：“gpg: Good signature”开头，另一行以“Primary key fingerprint: 133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320”（Pieter Wuille的PGP密钥指纹示例）结尾。
-> 💡 并非所有签名者的密钥都需要返回“OK”。实际上，可能只需要一个。由用户确定他们自己对PGP验证的验证阈值。
->
-> 可以忽略警告消息：WARNING: This key is not certified with a trusted signature!
 
-> 没有迹象表明该签名属于所有者。
+因此，本文的其余部分将专门介绍如何在兼容 Debian 的 Linux 发行版（如 Ubuntu 和 Pop！OS）上安装 Bitcoin core（使用最广泛的 Bitcoin 软件版本）。根据本指南，您将离个人主权更近一步。
 
-## 安装比特币核心图形界面
 
-1. 在终端中，仍在位于比特币核心版本文件的目录中，使用命令 tar xzf bitcoin-24.1-x86_64-linux-gnu.tar.gz 来提取存档中包含的文件。
+## Bitcoin core Debian/Ubuntu 安装指南
 
-2. 使用命令 sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-24.1/bin//\* 安装之前提取的文件。
 
-3. 使用命令 sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools qtwayland5 libqrencode-dev 安装必要的依赖项。
+**前提条件**
 
-4. 使用命令 bitcoin-qt 启动 bitcoin-qt（比特币核心图形界面）。
 
-5. 要选择一个裁剪节点，请勾选限制区块链存储并配置要存储的数据限制：
+- 至少 6GB 数据存储空间（pruned 节点）- 1TB 数据存储空间（Full node）
+- 预计 *初始块下载* (IBD) 至少需要 24 小时。即使是 pruned 节点也必须执行此操作。
+- 即使是 pruned 节点，也要为 IBD 预留 ~600GB 的带宽。
 
-![welcome](assets/1.webp)
 
-## 第一部分结论：安装指南
+**注：💡** 下列命令为 Bitcoin core 版本 24.1 的预定义命令。
 
-一旦安装了比特币核心，建议尽可能保持运行，以通过验证交易和向其他节点传输新区块来为比特币网络做出贡献。
 
-然而，即使只是为了验证收到和发送的交易，间歇性地运行和同步你的节点仍然是一个好习惯。
+### 下载和验证文件
 
-![Creation wallet](assets/2.webp)
 
-# 为比特币核心节点配置Tor
 
-> 💡 本指南适用于Ubuntu/Debian兼容的Linux发行版上的比特币核心24.0.1。
+- [下载](https://bitcoincore.org/en/download/) `Bitcoin-24.1-x86_64-linux-gnu.tar.gz`，以及 `SHA256SUMS` 和 `SHA256SUMS.asc` 文件（显然您需要下载最新版本的软件）。
 
-## 为比特币核心安装和配置Tor
 
-首先，我们需要安装Tor服务（The Onion Router），一个用于匿名通信的网络，它将允许我们匿名化我们与比特币网络的互动。关于在线隐私保护工具的介绍，包括Tor，请参考我们关于此主题的文章。
 
-要安装Tor，打开终端并输入 sudo apt -y install tor。安装完成后，服务通常会自动在后台启动。使用命令 sudo systemctl status tor 检查它是否正确运行。响应应显示 Active: active (exited)。按Ctrl+C退出此功能。
+- 在下载文件所在的目录下打开终端。例如：`cd ~/Downloads/`。
 
-> 无论如何，你可以在终端使用以下命令来启动、停止或重启Tor：
 
-```
+
+- 使用 "sha256sum --ignore-missing --check SHA256SUMS "命令验证版本文件的校验和是否列在校验和文件中。
+
+
+
+- 该命令的输出应包括下载的版本文件名，后面跟`OK`。Example: `Bitcoin-24.0.1-x86_64-linux-gnu.tar.gz:OK`。
+
+
+
+- 使用 `sudo apt install git` 命令安装 git。然后，使用 `git clone https://github.com/Bitcoin-core/guix.sigs` 命令克隆包含 Bitcoin core 签名者 PGP 密钥的仓库。
+
+
+
+- 使用`gpg --import guix.sigs/builder-keys/*` 命令导入所有签名者的 PGP 密钥
+
+
+
+- 使用 "gpg --verify SHA256SUMS.asc "命令验证校验和文件是否已用签名者的 PGP 密钥签名。
+
+
+
+每个有效签名都会显示一行以gpg：良好签名 "开头的一行和以 "主密钥指纹："结尾的一行：主密钥指纹：133E AC17 9436 F14A 5CF1 B794 860F EB80 4E66 9320`（Pieter Wuille 的 PGP 密钥指纹示例）。
+
+
+**注意💡：** 并非所有签名密钥都必须返回 "OK"。事实上，可能只需要一个。用户可自行决定 PGP 验证的验证阈值。
+
+
+你可以忽略这些警告：
+
+
+
+- 此密钥未经可信签名认证！``
+
+
+
+- 没有迹象表明签名属于所有人。
+
+
+### 安装 Bitcoin core 图形化 Interface
+
+
+
+- 在终端中，仍在 Bitcoin core 版本文件所在的目录下，使用 "tar xzf Bitcoin-24.1-x86_64-linux-gnu.tar.gz" 命令解压压缩包中的文件。
+
+
+
+- 使用命令 `sudo install -m 0755 -o root -g root -t /usr/local/bin Bitcoin-24.1/bin/*` 安装之前提取的文件
+
+
+
+- 使用 "sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools qtwayland5 libqrencode-dev "命令安装必要的依赖项。
+
+
+
+- 使用 `Bitcoin-qt` 命令启动 _bitcoin-qt_ (Bitcoin core 图形化 Interface)。
+
+
+
+- 要选择 pruned 节点，请选中 _Limit Blockchain storage_ 并配置要存储的数据限制：
+
+
+![welcome](assets/fr/02.webp)
+
+
+### 第 1 部分结论：安装指南
+
+
+安装 Bitcoin core 后，建议尽可能保持其运行，通过验证交易和向其他对等方传输新区块，为 Bitcoin 网络做出贡献。
+
+
+不过，间歇性地运行和同步节点，哪怕只是为了验证接收和发送的事务，仍不失为一种好的做法。
+
+
+![Creation wallet](assets/fr/03.webp)
+
+
+## 为 Bitcoin core 节点配置 Tor
+
+
+**注意💡：** 本指南适用于兼容 Ubuntu/Debian 的 Linux 发行版上的 Bitcoin core 24.0.1。
+
+
+### 为 Bitcoin core 安装和配置 Tor
+
+
+首先，我们需要安装 Tor 服务（洋葱路由器），这是一个用于匿名通信的网络，可以让我们匿名处理与 Bitcoin 网络的交互。如需了解包括 Tor 在内的在线隐私保护工具，请参阅我们的相关文章。
+
+
+要安装 Tor，请打开终端并输入 `sudo apt -y install tor`。安装完成后，服务通常会在后台自动启动。使用命令 `sudo systemctl status tor` 检查服务是否正常运行。响应应显示 `Active: active (exited)`。按 `Ctrl+C` 键退出此功能。
+
+
+**提示：** 在任何情况下，你都可以在终端中使用以下命令来启动、停止或重启 Tor：
+
+
+```shell
 sudo systemctl start tor
 sudo systemctl stop tor
 sudo systemctl restart tor
 ```
 
-接下来，让我们用命令 bitcoin-qt 启动比特币核心图形界面。然后，启用软件的自动功能，通过Tor代理路由我们的连接：Settings > Network，从那里我们可以勾选 Connect through SOCKS5 proxy (default proxy) 以及 Use a separate SOCKS5 proxy to reach peers via Tor onion services。
 
-![option](assets/3.webp)
+接下来，让我们使用 "Bitcoin-qt "命令启动 Bitcoin core 图形化 Interface。然后，启用软件的自动功能，通过 Tor 代理路由我们的连接：设置 > 网络_，然后勾选_通过 SOCKS5 代理（默认代理）连接_和_使用单独的 SOCKS5 代理通过 Tor 洋葱服务连接对等网络_。
 
-比特币核心会自动检测是否安装了Tor，如果是，将默认创建到其他也使用Tor的节点的出站连接，除了到使用IPv4/IPv6网络（明网）的节点的连接。
-💡 要将显示语言更改为法语，请转到设置中的显示选项卡。
-## 高级Tor配置（可选）
 
-可以配置比特币核心（Bitcoin Core），使其仅通过Tor网络与节点连接，从而通过我们的节点优化我们的匿名性。由于图形界面中没有此功能的内置功能，我们需要手动创建一个配置文件。转到设置，然后选择选项。
+![option](assets/fr/04.webp)
 
-![option 2](assets/4.webp)
 
-在这里，点击打开配置文件。一旦进入bitcoin.conf文本文件，简单地添加一行onlynet=onion并保存文件。你需要重启比特币核心使此命令生效。
-然后，我们将配置Tor服务，以便比特币核心可以通过代理接收传入连接，允许网络上的其他节点使用我们的节点下载区块链数据，而不会危及我们机器的安全。
+Bitcoin core 会自动检测是否安装了 Tor，如果安装了 Tor，除了与使用 IPv4/IPv6 网络（clearnet）的节点建立连接外，默认情况下还会与同样使用 Tor 的其他节点建立出站连接。
 
-在终端中，输入sudo nano /etc/tor/torrc以访问Tor服务配置文件。在此文件中，查找行#ControlPort 9051并删除#以启用它。现在在文件中添加两行新内容：HiddenServiceDir /var/lib/tor/bitcoin-service/ 和 HiddenServicePort 8333 127.0.0.1:8334。要在保存文件的同时退出文件，请按Ctrl+X > Y > Enter。回到终端，通过输入命令sudo systemctl restart tor重启Tor。
 
-通过这种配置，比特币核心将能够仅通过Tor网络（Onion）与网络上的其他节点建立传入和传出连接。要确认这一点，请点击窗口选项卡，然后选择节点。
+**注💡：** 要将显示语言更改为法语，请转到 "设置 "中的 "显示 "选项卡。
 
-![Nodes Window](assets/5.webp)
 
-## 额外资源
+### Tor 高级配置（可选）
 
-最终，仅使用Tor网络（onlynet=onion）可能会使您容易受到Sybil攻击。这就是为什么一些人推荐维持多网络配置以减轻这种类型风险的原因。此外，一旦配置了Tor代理，所有IPv4/IPv6连接都将通过Tor代理路由，如前所述。
 
-另外，为了仅停留在Tor网络上并减轻Sybil攻击的风险，您可以通过添加行addnode=trusted_address.onion到您的bitcoin.conf文件中，添加另一个受信任节点的地址。如果您想连接到多个受信任的节点，可以多次添加此行。
+我们可以对 Bitcoin core 进行配置，使其只使用 Tor 网络与对等网络连接，从而优化节点的匿名性。由于 Interface 图形界面没有内置功能，我们需要手动创建一个配置文件。转到 "设置"，然后是 "选项"。
 
-要查看与Tor交互的您的比特币节点的特定日志，请在您的bitcoin.conf文件中添加debug=tor。现在，您将在调试日志中拥有相关的Tor信息，您可以在信息窗口中使用调试文件按钮查看这些日志。也可以直接在终端中使用命令bitcoind -debug=tor查看这些日志。
 
-> 💡 一些有趣的链接：
->
-> - 解释Tor及其与比特币关系的Wiki页面
-> - 由Jameson Lopp提供的比特币核心配置文件生成器
-> - 由Jon Atack提供的Tor配置指南
+![option 2](assets/fr/05.webp)
 
-一如既往，如果您有任何问题，随时在Agora256社区分享。我们一起学习，为的是明天比今天更好！
+
+在这里，点击_Open configuration file_（打开配置文件）。进入 `Bitcoin.conf` 文本文件后，只需添加一行 `onlynet=onion` 并保存文件。您需要重启 Bitcoin core 才能使该命令生效。
+
+
+然后，我们将配置 Tor 服务，使 Bitcoin core 可以通过代理接收传入连接，让网络上的其他节点可以使用我们的节点下载 Blockchain 数据，而不会影响我们机器的安全性。
+
+
+在终端中输入 `sudo nano /etc/tor/torrc` 访问 Tor 服务配置文件。在该文件中，查找 "#ControlPort 9051 "行，删除 "#"以启用它。现在在文件中添加两行新内容：
+
+
+```
+HiddenServiceDir /var/lib/tor/bitcoin-service/
+HiddenServicePort 8333 127.0.0.1:8334
+```
+
+
+要在保存文件的同时退出文件，请按 `Ctrl+X > Y > Enter` 键。返回终端，输入命令 `sudo systemctl restart tor` 重启 Tor。
+
+
+使用此配置后，Bitcoin core 将只能通过 Tor 网络（洋葱）与网络上的其他节点建立进出连接。要确认这一点，请点击_Window_（窗口）选项卡，然后点击_Peers_（同行）。
+
+
+![Nodes Window](assets/fr/06.webp)
+
+
+### 其他资源
+
+
+归根结底，只使用 Tor 网络（`onlynet=onion`）可能会让你容易受到 Sybil Attack 的攻击。这就是为什么有人建议保持多网络配置以降低此类风险。此外，如前所述，一旦配置了 Tor 代理，所有 IPv4/IPv6 连接都将通过 Tor 代理路由。
+
+
+或者，为了只留在 Tor 网络上并降低 Sybil Attack 的风险，你可以在`Bitcoin.conf`文件中添加`addnode=trusted_address.onion`行，将另一个受信任节点的 Address 添加到文件中。如果要连接多个受信任节点，可以多次添加此行。
+
+
+要查看 Bitcoin 节点与 Tor 交互相关的日志，请在 `Bitcoin.conf` 文件中添加 `debug=tor`。现在，您的调试日志中就会有相关的 Tor 信息，您可以在_信息_窗口中使用_调试文件_按钮查看这些信息。也可以直接在终端中使用`bitcoind -debug=tor`命令查看这些日志。
+
+
+**提示💡：** 这里有一些有趣的链接：
+
+
+- [维基页面解释 Tor 及其与 Bitcoin 的关系](https://en.Bitcoin.it/wiki/Tor)
+- [Bitcoin core 配置文件生成器，Jameson Lopp 提供](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Jon Atack 的 Tor 配置指南](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
+
+
+如果您有任何问题，请随时与 Agora256 社区分享。我们一起学习，明天会比今天更好！

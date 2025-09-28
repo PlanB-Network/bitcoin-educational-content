@@ -64,10 +64,10 @@ Nella barra dei menu si trovano le seguenti reti:
 
 
 
-- Mainnet** : La rete Bitcoin principale dove avvengono le transazioni Bitcoin reali.
-- Signet**: Una rete di prova che utilizza le firme digitali per convalidare i blocchi senza richiedere le risorse necessarie alla rete principale.
-- Testnet 3**: Una rete di test e sviluppo priva di rischi sul protocollo Bitcoin.
-- Testnet 4** : La nuova versione di Testnet 3 apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
+- **Mainnet**: La rete Bitcoin principale dove avvengono le transazioni Bitcoin reali.
+- **Signet**: Una rete di prova che utilizza le firme digitali per convalidare i blocchi senza richiedere le risorse necessarie alla rete principale.
+- **Testnet 3**: Una rete di test e sviluppo priva di rischi sul protocollo Bitcoin.
+- **Testnet 4**: La nuova versione di Testnet 3 apporta maggiore stabilità e nuove regole di consenso all'ambiente di test.
 
 
 
@@ -142,9 +142,9 @@ Nella pagina dei dettagli della transazione si trovano informazioni generali sul
 
 
 
-- Stato**: Confermato quando viene aggiunto a un blocco, non confermato quando è in attesa in un Mempool.
-- Spese di transazione**.
-- Tempo stimato di arrivo (ETA)** :  Il tempo approssimativo necessario affinché la transazione venga aggiunta a un blocco. Viene calcolato in base al rapporto che costituisce le commissioni associate a questa transazione.
+- **Stato**: Confermato quando viene aggiunto a un blocco, non confermato quando è in attesa in un Mempool.
+- **Spese di transazione**.
+- **Tempo stimato di arrivo (ETA)**: Il tempo approssimativo necessario affinché la transazione venga aggiunta a un blocco. Viene calcolato in base al rapporto che costituisce le commissioni associate a questa transazione.
 
 
 
@@ -192,7 +192,7 @@ Fortunatamente, sulla rete Bitcoin sono disponibili due metodi per accelerare la
 
 
 
-- RBF** - Sostituzione per tassa: Un metodo che consente di spendere le stesse voci della transazione a tariffa ridotta, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente e inserita in un blocco, invalidando la transazione a tariffa ridotta.
+- **RBF** - Sostituzione per tassa: Un metodo che consente di spendere le stesse voci della transazione a tariffa ridotta, ma questa volta aumentando la tariffa della transazione per accelerare la convalida. La nuova transazione verrà convalidata più rapidamente e inserita in un blocco, invalidando la transazione a tariffa ridotta.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Un approccio ispirato al RBF, ma dal lato del destinatario. Quando la transazione di cui si è destinatari viene bloccata in un Mempool, si ha la possibilità di spendere gli output (UTXO) di questa transazione, nonostante non sia ancora stata confermata, assegnando più commissioni a questa nuova transazione in modo che le commissioni medie - della transazione di cui si è destinatari e della transazione avviata - incoraggino i minatori a includere entrambe le transazioni in un blocco.
+- **CPFP** - Child pay for parent: Un approccio ispirato al RBF, ma dal lato del destinatario. Quando la transazione di cui si è destinatari viene bloccata in un Mempool, si ha la possibilità di spendere gli output (UTXO) di questa transazione, nonostante non sia ancora stata confermata, assegnando più commissioni a questa nuova transazione in modo che le commissioni medie - della transazione di cui si è destinatari e della transazione avviata - incoraggino i minatori a includere entrambe le transazioni in un blocco.
 
 
 

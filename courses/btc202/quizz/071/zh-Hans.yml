@@ -1,0 +1,9 @@
+question: 节点重启时会首先查阅哪些文件来查找旧的对等节点？
+answer: anchors.dat 和 peers.dat
+wrong_answers:
+  - Mempool.dat 和 peers.dat
+  - Mempool.dat 和 ip.dat
+  - ip.dat 和 anchors.dat
+explanation: |
+  Bitcoin core 首先查询 anchors.dat（以前的传出对等体），然后查询 peers.dat（已知的 Address 书）以重新连接。
+reviewed: true

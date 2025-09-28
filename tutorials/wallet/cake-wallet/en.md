@@ -52,9 +52,9 @@ If you're already running your own node, toggle `Add New Custom Node` and  provi
 
 ![image](assets/en/03.webp)
 
-On the next screen, you get this disclaimer:
+On the next screen, you get a disclaimer:
 
-> On the next page you will see a series of words. This is your unique and private seed and it is the ONLY way to recover your wallet in case of lass or malfunction. It is YOUR responsibility to write it down and store it in a safe place outside of the Cake Wallet app. 
+```On the next page you will see a series of words. This is your unique and private seed and it is the ONLY way to recover your wallet in case of lass or malfunction. It is YOUR responsibility to write it down and store it in a safe place outside of the Cake Wallet app.```
 
 ![image](assets/en/04.webp)
 
@@ -153,11 +153,9 @@ Once you have sent the transaction, you will be asked if you would like to add t
 
 ## 6️⃣ PayJoin
 
-Lets review what PayJoin is about: 
+Lets review what PayJoin is [about](https://docs.cakewallet.com/cryptos/bitcoin/#payjoin): 
 
-> Payjoin v2 is a privacy-preserving and fee-saving feature in Bitcoin that allows the sender and recipient of a transaction to work together to create a single transaction. This transaction has inputs from *both* the sender and receiver, breaking the most common surveillance techniques against Bitcoin and allowing for better scaling and fee savings in some circumstances as well.
-
-– Cake Wallet Documentation, [PayJoin](https://docs.cakewallet.com/cryptos/bitcoin/#payjoin)
+_Payjoin v2 is a privacy-preserving and fee-saving feature in Bitcoin that allows the sender and recipient of a transaction to work together to create a single transaction. This transaction has inputs from *both* the sender and receiver, breaking the most common surveillance techniques against Bitcoin and allowing for better scaling and fee savings in some circumstances as well._
 
 To lean more about PayJoin you can also visit the following tutorial. 
 
@@ -197,7 +195,7 @@ https://github.com/cake-tech/cake_wallet
 
 https://blog.cakewallet.com/
 
-[https://silentpayments.xyz/](https://silentpayments.xyz/)[h](https://bips.dev/352/)
+[https://silentpayments.xyz/](https://silentpayments.xyz/)
 
 [ttps://bips.dev/352/](https://bips.dev/352/)
 

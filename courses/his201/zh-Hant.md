@@ -1,6 +1,6 @@
 ---
 name: Bitcoin 的創建歷史
-goal: 探索 Bitcoin 的起源、發射和早期發展的歷史。
+goal: 探索 Bitcoin 的起源、啟動和早期發展的歷史。
 objectives: 
 
   - 理解 Bitcoin 出現的技術背景

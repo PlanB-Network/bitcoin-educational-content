@@ -6,4 +6,4 @@ wrong_answers:
   - /etc/hosts.ruhusu
 explanation: |
   Faili ya /etc/resolv.conf inabainisha seva za DNS na vikoa vya utafutaji kwa utatuzi wa jina.
-reviewed: false
+reviewed: true

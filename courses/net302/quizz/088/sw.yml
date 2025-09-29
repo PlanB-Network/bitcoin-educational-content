@@ -5,5 +5,5 @@ wrong_answers:
   - njia ya ping
   - netstat -s
 explanation: |
-  onyesho la njia ya ip huorodhesha njia zinazojulikana kwa kernel na njia zinazochukuliwa na pakiti za IP.
-reviewed: false
+  onyesho la njia ya ip huorodhesha njia zinazojulikana kwa kernel na njia zinazochukuliwa na IP packets.
+reviewed: true

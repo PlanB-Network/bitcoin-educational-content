@@ -459,7 +459,7 @@ INDEXER_EXTERNAL_IP=192.168.1.157
 
 Pour connaître l’adresse IP locale de votre machine, ouvrez un autre terminal et saisissez la commande suivante :
 
-```shell
+```bash
 hostname -I
 ```
 
@@ -617,13 +617,13 @@ Le Dojo Maintenance Tool est une interface web sécurisée qui permet de surveil
 
 Pour y accéder, vous devez connaître l’URL de votre DMT et vous y connecter [via le navigateur Tor](https://www.torproject.org/download/). Pour cela, ouvrez un terminal et placez-vous dans le répertoire `/my-dojo` :
 
-```shell
+```bash
 cd ~/dojo-app/docker/my-dojo
 ```
 
 Puis exécutez la commande suivante :
 
-```shell
+```bash
 ./dojo.sh onion
 ```
 
@@ -703,7 +703,7 @@ Vous verrez alors s’afficher la hauteur du dernier bloc indexé, indiquée apr
 
 Fulcrum est un indexeur particulièrement performant, mais son installation peut s’avérer complexe, notamment en raison de la gestion délicate de sa base de données. En cas de coupure de courant ou d’arrêt brutal de la machine durant la synchronisation initiale, la base de données de l’indexeur risque d’être corrompue. Vous pouvez le constater, par exemple, si vous avez les logs suivants :
 
-```shell
+```bash
 fulcrum | The database has been corrupted etc... 
 ```
 
@@ -713,14 +713,14 @@ Si cela vous arrive, aucun impact n’est à craindre sur bitcoind (votre nœud 
 
 Arrêtez Dojo :
 
-```shell
+```bash
 cd ~/dojo-app/docker/my-dojo
 ./dojo.sh stop
 ```
 
 Supprimez uniquement le conteneur et le volume de Fulcrum :
 
-```shell
+```bash
 docker rm -f fulcrum || true
 docker volume ls | grep -i fulcrum
 docker volume rm my-dojo_data-fulcrum
@@ -730,13 +730,216 @@ Normalement le nom est `my-dojo_data-fulcrum`, si ce n'est pas le cas pour vous,
 
 Ensuite relancez Dojo et reconstruisez Fulcrum de zéro :
 
-```shell
+```bash
 ./dojo.sh upgrade
 ```
 
 Vous pouvez ensuite vérifier le bon fonctionnement de Fulcrum en consultant les logs :
 
-```shell
+```bash
 docker logs -f fulcrum
 ```
 
+
+## 8. Utilisation du Dojo Maintenance Tool
+
+Une fois votre nœud Bitcoin synchronisé sur la tête de chaîne présentant le plus de preuve de travail, et la blockchain indexée à 100 % par Fulcrum, vous pouvez commencer à utiliser votre Dojo.
+
+Votre Dojo propose de nombreuses fonctionnalités, régulièrement enrichies à chaque nouvelle version. Selon moi, les 2 plus importantes sont :
+- la possibilité de connecter votre portefeuille Ashigaru afin d’utiliser votre propre nœud pour consulter les données de la blockchain et diffuser vos transactions,
+- et l’explorateur de blocs, qui offre un accès à des informations sur la blockchain Bitcoin sans exposer vos données à une instance extérieure que vous ne contrôlez pas.
+
+Découvrons comment les utiliser.
+### 8.1. Connecter Ashigaru à votre Dojo
+
+Pour connecter votre portefeuille Ashigaru à votre Dojo, c’est très simple : une fois sur votre DMT, ouvrez le menu "Pairing". Un QR code s’affiche, que vous pouvez scanner directement avec l’application Ashigaru.
+
+38
+
+Dans l’application Ashigaru, au premier lancement après avoir créé ou restauré votre portefeuille, vous serez redirigé vers la page "Configure your Dojo server". Appuyez sur "Scan QR", puis scannez le QR code affiché sur votre DMT.
+
+39
+
+Cliquez ensuite sur le bouton "Continue".
+
+40
+
+Vous êtes désormais connecté à votre Dojo.
+
+41
+
+### 8.2. Utiliser l'explorateur de bloc
+
+Dojo installe automatiquement un explorateur de blocs, [BTC-RPC Explorer](https://github.com/janoside/btc-rpc-explorer), qui s’appuie directement sur les données de votre propre nœud Bitcoin. Un explorateur vous permet d’accéder aux informations brutes de la blockchain et de votre mempool à travers une interface web facile à comprendre. Vous pouvez ainsi, par exemple, vérifier l’état d’une transaction en attente, consulter le solde d’une adresse ou encore examiner la composition d’un bloc facilement.
+
+Pour y accéder, rien de plus simple : il suffit de récupérer l’adresse Tor de votre explorateur. Pour cela, exécutez la même commande que celle utilisée précédemment pour obtenir l’adresse de votre DMT :
+
+```bash
+./dojo.sh onion
+```
+
+42
+
+Vous aurez accès à l’ensemble des informations relatives aux connexions à votre Dojo via Tor. Celle qui nous intéresse ici est l’URL suivante :
+
+```
+Block Explorer =
+```
+
+Si vous êtes déjà connecté à votre DMT, vous pouvez également retrouver cette adresse dans le menu "Pairing", à l’intérieur du JSON de connexion :
+
+43
+
+Pour accéder à votre explorateur depuis n’importe quelle machine, quel que soit le réseau (même à distance), ouvrez [Tor Browser](https://www.torproject.org/download/) et saisissez l’URL que vous venez de récupérer.
+
+⚠️ **Attention : gardez cette adresse strictement confidentielle.**
+
+Vous aurez alors accès à votre propre explorateur de blocs.
+
+44
+
+*Crédit image : https://ashigaru.rs/.*
+
+Pour suivre une transaction, il vous suffit d’entrer son TXID dans la barre de recherche située en haut à droite.
+
+45
+
+*Crédit image : https://ashigaru.rs/.*
+
+Pour vérifier les mouvements associés à une adresse, procédez de la même manière en saisissant l’adresse dans la barre de recherche.
+
+46
+
+*Crédit image : https://ashigaru.rs/.*
+
+Vous pouvez également renseigner le hash d’un bloc ou sa hauteur dans la barre de recherche pour en afficher le détail.
+
+47
+
+*Crédit image : https://ashigaru.rs/.*
+
+## 9. Maintenance de votre Dojo
+
+### 9.1 Arrêter votre Dojo
+
+Ne coupez jamais brutalement l’alimentation de votre Dojo, au risque de corrompre certaines bases de données, en particulier celle de l’indexeur Fulcrum. Si vous devez l’éteindre, procédez toujours à un arrêt propre de Dojo, puis, une fois toutes les procédures terminées, éteignez la machine à son tour :
+
+```bash
+cd ~/dojo-app/docker/my-dojo
+./dojo.sh stop
+```
+
+### 9.2 Mettre à jour votre Dojo
+
+Dojo évolue régulièrement et de nouvelles versions sont publiées pour corriger des bugs, améliorer la stabilité et ajouter des fonctionnalités. Il est donc important [de vérifier régulièrement si des mises à jour sont disponibles](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases) et de mettre à jour votre Dojo. Le processus est proche de l’installation initiale, mais nécessite de remplacer certains fichiers par la dernière version disponible tout en conservant votre configuration. Voici les étapes détaillées à suivre pour effectuer une mise à jour propre et sécurisée :
+
+Pour connaitre la version actuelle de votre Dojo, exécutez la commande : 
+
+```bash
+./dojo.sh version
+```
+
+Bien que cette étape soit optionnelle, je vous conseille de commencer par mettre à jour votre OS. Cela réduit les risques d’incompatibilités et assure que les dépendances utilisées par Dojo sont à jour :
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+Placez-vous dans le répertoire de Dojo et arrêtez les services en cours :
+
+```bash
+cd ~/dojo-app/docker/my-dojo
+./dojo.sh stop
+```
+
+Ensuite, redémarrez votre système pour repartir sur une base propre :
+
+```bash
+sudo reboot
+```
+
+Dojo est fourni avec des fichiers signés numériquement. Ces signatures PGP assurent que les fichiers proviennent bien du développeur et qu’ils n’ont subi aucune altération. Leur vérification est importante à chaque mise à jour, exactement comme lors de l’installation initiale. Commencez par télécharger la clé publique du développeur via Tor, puis importez-la :
+
+```bash
+torsocks wget http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion/vks/v1/by-fingerprint/E53AD419B242822F19E23C6D3033D463D6E544F6 && gpg --import E53AD419B242822F19E23C6D3033D463D6E544F6
+```
+
+Revenez dans votre répertoire personnel :
+
+```bash
+cd ~/
+```
+
+Téléchargez la dernière version de Dojo depuis GitHub via Tor. Dans cet exemple, il s’agit de la version `1.28.0` (qui n'existe pas encore au moment de la rédaction de ce tuto : c'est pour prendre un exemple). Pensez à remplacer le fichier et le lien [avec la version que vous souhaitez installer](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases) :
+
+```bash
+torsocks wget -O samourai-dojo-1.28.0.zip https://github.com/Dojo-Open-Source-Project/samourai-dojo/archive/refs/tags/v1.28.0.zip
+```
+
+Téléchargez également le fichier contenant les empreintes et la signature PGP (encore une fois, pensez à ajuster la version dans la commande) :
+
+```bash
+torsocks wget https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases/download/v1.28.0/samourai-dojo-1.28.0-fingerprints.txt && torsocks wget https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases/download/v1.28.0/samourai-dojo-1.28.0-fingerprints.txt.sig
+```
+
+Vérifiez que le fichier d’empreintes téléchargé a bien été signé par la clé du développeur :
+
+```bash
+gpg --verify samourai-dojo-1.28.0-fingerprints.txt.sig
+```
+
+Un résultat correct doit afficher :
+
+```
+gpg: Signature made [date + time]
+gpg: using EDDSA key E53AD419B242822F19E23C6D3033D463D6E544F6
+gpg: Good signature from "dojocoder@pm.me" <dojocoder@pm.me> [unknown]
+```
+
+Un avertissement concernant l’absence de certification de la clé peut apparaître, mais il est sans importance. En revanche, si la signature est invalide ou correspond à une autre clé, n’allez pas plus loin et recommencez en vérifiant les liens.
+
+Calculez ensuite l’empreinte SHA256 de l’archive et comparez-la avec celle du fichier d’empreintes officiel :
+
+```bash
+sha256sum samourai-dojo-1.28.0.zip
+cat samourai-dojo-1.28.0-fingerprints.txt
+```
+
+Si les deux empreintes correspondent parfaitement, l’archive est authentique et intacte. Si elles diffèrent, supprimez immédiatement les fichiers et ne continuez pas.
+
+Décompressez l’archive dans votre répertoire personnel :
+
+```bash
+unzip samourai-dojo-1.28.0.zip -d .
+```
+
+Copiez ensuite le contenu vers le répertoire de Dojo, en écrasant les anciens fichiers :
+
+```bash
+cp -a samourai-dojo-1.28.0/. dojo-app/
+```
+
+Cette opération conserve vos fichiers de configuration situés dans `~/dojo-app/docker/my-dojo/conf`, mais remplace tous les autres fichiers par les versions mises à jour.
+
+Pour garder un environnement propre, supprimez les fichiers inutiles :
+
+```bash
+rm -r samourai-dojo-1.28.0 && rm samourai-dojo-1.28.0.zip && rm samourai-dojo-1.28.0-fingerprints.txt && rm samourai-dojo-1.28.0-fingerprints.txt.sig && rm E53AD419B242822F19E23C6D3033D463D6E544F6
+```
+
+Retournez dans le répertoire des scripts de Dojo et lancez la commande de mise à jour :
+
+```bash
+cd ~/dojo-app/docker/my-dojo
+./dojo.sh upgrade -y
+```
+
+Cette commande demande à Docker de reconstruire les images avec les nouveaux fichiers, puis de relancer automatiquement tous les services. À la fin du processus, consultez les journaux pour vérifier que Bitcoin Core, Fulcrum et Dojo fonctionnent tous correctement :
+
+```bash
+./dojo.sh logs bitcoind
+./dojo.sh logs fulcrum
+```
+
+Si les services démarrent sans erreur et que les journaux affichent des blocs en cours de traitement, cela signifie que votre Dojo est désormais à jour et opérationnel.

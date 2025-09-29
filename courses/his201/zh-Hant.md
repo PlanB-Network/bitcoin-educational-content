@@ -247,21 +247,21 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 
 ### e-gold：網上的黃金
 
-私人電子貨幣的一個代表性例子是電子黃金系統。它就是所謂的「數位黃金貨幣」，意指以電子方式轉移並由安全儲存的等量黃金完全支持的貨幣。它由 Douglas Jackson 和 Barry Downey 於 1996 年共同創立。Douglas Jackson 是一位居住在佛羅里達州的美國腫瘤科醫生，他是奧地利經濟學家 Friedrich von Hayek 的追隨者，並希望利用電子黃金創造一種「[更好的貨幣](https://blog.bettermoney.com/)」。
+私人電子貨幣的一個代表性例子是電子黃金系統。它就是所謂的「數位黃金貨幣」，意指可電子轉移且完全有相對應量黃金安全儲存的貨幣。它由 Douglas Jackson 和 Barry Downey 於 1996 年共同創立。Douglas Jackson 是一位居住在佛羅里達州的美國腫瘤科醫生，他是奧地利經濟學家 Friedrich von Hayek 的追隨者，並希望利用電子黃金創造一種「[更好的貨幣](https://blog.bettermoney.com/)」。
 
-其原理是每個單位的電子黃金都可以轉換成真黃金。黃金儲備由美國一家名為 Gold & Silver Reserve Inc. (G&SR) 的公司管理。電腦系統由第二家在加勒比海聖基茨和尼維斯註冊的公司 e-gold Ltd. 管理。黃金並不是唯一涉及的金屬：用戶也可以持有和 Exchange e-銀、e-鉑金和 e-鈀金，它們都建立在相同的模型上。
+其原理是每個 e-gold 單位都可以轉換成真黃金。黃金儲備由美國一家名為 Gold & Silver Reserve Inc. (G&SR) 的公司管理。電腦系統由第二家在加勒比海聖基茨和尼維斯註冊的公司 e-gold Ltd. 管理。黃金並不是唯一涉及的金屬：用戶還可以持有和交換 e-silver、e-platinum 和 e-palladium，這些都是基於相同的模型。
 
-e-gold 系統利用了新生的網路，特別是最新的 Netscape 瀏覽器。每位客戶都可以從網站上存取自己的帳戶，而不必操作專用軟體。就當時而言，該平台的性能非常高，採用了受銀行間轉帳啟發的即時總結算系統。以下是 2005 年發送 e-gold 的樣子（圖片來自當時的 [教學](https://www.geocities.ws/rizuan_mahrol/setpbystep.html)）：
+e-gold 系統利用了新生的網路，特別是最新的 Netscape 瀏覽器。每位客戶都可以從網站上存取自己的帳戶，而不必操作專用軟體。就當時而言，該平台的性能非常高，靈感來自於銀行間轉賬的即時結算系統。以下是 2005 年發送 e-gold 的樣子（圖片來自當時的 [教學](https://www.geocities.ws/rizuan_mahrol/setpbystep.html)）：
 
 ![Sending on e-gold in 2005](assets/en/009.webp)
 
-電子黃金系統取得了巨大成功：在 2006 年的高峰期，它 [保證](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 了 3.6 噸黃金，價值超過 8,000 萬美元，每天 [處理](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75,000 宗交易，年交易量達 30 億美元，並管理超過 270 萬個帳戶。
+e-gold 系統取得了巨大成功：在 2006 年的高峰期，它 [保證](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 了 3.6 噸黃金，價值超過 8,000 萬美元，每天 [處理](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75,000 宗交易，年交易量達 30 億美元，並管理超過 270 萬個帳戶。
 
 在國家的介入下，這項成功突然中止。經過特勤局的調查，Douglas Jackson、他的兩家公司以及他的同伙於 2007 年 4 月 27 日被司法部[起訴](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html)，罪名是協助洗錢和無照經營轉帳業務。2008 年 11 月，Douglas Jackson 被判定有罪，並被判 3 年緩刑，其中包括 6 個月在電子監視下的軟禁。在嘗試取得執照未果後，e-gold 於 2009 年 11 月被迫永久關閉。
 
-其他系統也是按照相同的模式創建的。我們可以提一下由 James Turk 和他的兒子於 2001 年 2 月創立的 GoldMoney，如今已經適應了金融法規。由 James Fayed 於 2001 年 7 月創立的 e-Bullion 系統於 2008 年關門。最後，最後的數位黃金貨幣之一是 Pecunix，由 Simon Davis 於 2002 年在巴拿馬創立，並於 2015 年停止營運，成為退出騙局的一部分。
+其他系統也是按照相同的模式創建的。我們可以提一下由 James Turk 和他的兒子於 2001 年 2 月創立的 GoldMoney，如今已經適應了金融法規。由 James Fayed 於 2001 年 7 月創立的 e-Bullion 系統於 2008 年關門。最後，最後的數位黃金貨幣之一是 Pecunix，由 Simon Davis 於 2002 年在巴拿馬創立，並於 2015 年停止營運，成為退出騙局（exit scam）的一部分。
 
-### 自由儲備，美聯儲的替代方案
+### Liberty Reserve：美聯儲的替代方案
 
 另一個集中式私人貨幣系統的例子是 Liberty Reserve，它允許使用者持有和轉移與美元、歐元或黃金掛鉤的電子貨幣。這個系統是由烏克蘭裔美國人 Arthur Budovsky 和來自聖彼得堡的俄羅斯移民 Vladimir Kats 共同創建。2006 年，Arthur Budovsky 遷居當時被視為避稅天堂的哥斯達黎加，並在那裡註冊了他的公司 Liberty Reserve S.A.。
 
@@ -269,23 +269,23 @@ e-gold 系統利用了新生的網路，特別是最新的 Netscape 瀏覽器。
 
 2009 年的 Liberty Reserve 標誌 (來源：[Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
-該系統與 e-gold 非常相似，只是資金（主要是美元）存放在離岸銀行帳戶，而不是私人保險庫。在 Douglas Jackson 及其同伙被起訴後，2007 年 4 月 e-gold 關閉，Liberty Reserve 從中獲益良多。2013 年 5 月，[根據美國司法部的資料](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf)，該平台在全球擁有超過 100 萬名使用者，其中包括超過 20 萬名美國使用者，每年處理 1200 萬筆金融交易，總交易量超過 14 億美元。主要用於犯罪活動，但 [不僅限於](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/) 這些：Liberty Reserve 也被外匯交易商使用或用於海外轉帳。
+該系統與 e-gold 非常相似，只是資金（主要是美元）存放在離岸銀行帳戶，而不是私人金庫。Liberty Reserve 在2007年4月因 e-gold 關閉和 Douglas Jackson 及其合夥人被起訴而獲得了巨大的利益。2013 年 5 月，[根據美國司法部的資料](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf)，該平台在全球擁有超過 100 萬名使用者，其中包括超過 20 萬名美國使用者，每年處理 1200 萬筆金融交易，總交易量超過 14 億美元。主要用於犯罪活動，但 [不僅限於](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/) 這些：Liberty Reserve 也被外匯交易商使用或用於海外轉帳。
 
-然而，該系統最終遭遇了與 e-gold 相同的命運。2009 年，哥斯達黎加 *Superintendencia General de Entidades Financieras* 對 Liberty Reserve 感興趣，要求該公司取得執照（該公司未能取得執照）。之後，在 2011 年 11 月，美國 FinCEN 發出一份 [通知](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf#page=12)，指出該系統「被不法分子利用來進行匿名交易，以在全球範圍內移動資金」。最後，Liberty Reserve 在一次國際行動結束時被關閉：2013 年 5 月 24 日，Arthur Budovsky 及其主要同伙在不同司法管轄區（西班牙、美國、哥斯達黎加）被起訴和逮捕，主網站也被司法部查封。2016 年，在被引渡到美國後，Arthur Budovsky 因洗錢罪被判入獄 20 年。
+然而，該系統最終遭遇了與 e-gold 相同的命運。2009 年，哥斯達黎加 *Superintendencia General de Entidades Financieras* 對 Liberty Reserve 開始關注，要求該公司取得執照（該公司未能取得執照）。之後，在 2011 年 11 月，美國 FinCEN 發出一份 [通知](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf#page=12)，指出該系統「被不法分子利用來進行匿名交易，以在全球範圍內移動資金」。最後，Liberty Reserve 在一次國際行動結束時被關閉：2013 年 5 月 24 日，Arthur Budovsky 及其主要同伙在不同司法管轄區（西班牙、美國、哥斯達黎加）被起訴和逮捕，主網站也被司法部查封。2016 年，在被引渡到美國後，Arthur Budovsky 因洗錢罪被判入獄 20 年。
 
-因此，這個例子顯示司法套利不足以保護貨幣不受國家干預。
+因此，這個例子顯示司法套利（jurisdictional arbitrage）不足以保護貨幣不受國家干預。
 
 ### PayPal 與 Peter Thiel 的願景
 
-最後，我們必須討論 PayPal 的案例。雖然 PayPal 的創造者並未打算讓 PayPal 成為獨立於現有體系的貨幣，但他們預見這項產品會對社會造成影響，這與矽谷的破壞性意識形態相符。PayPal 產品由 Confinity Inc. 所開發，1998 年 12 月由 Max Levchin 和 Peter Thiel 於舊金山共同創立，兩人幾個月前在史丹福大學相識。該公司最初名為 FieldLink，目的是在 PalmPilot 掌上電腦上開發安全支付系統。
+最後，我們必須討論 PayPal 的案例。雖然 PayPal 的創造者並未打算讓 PayPal 成為獨立於現有體系的貨幣，但他們預見這項產品會對社會造成影響，這與矽谷的顛覆性理念一致。PayPal 產品由 Confinity Inc. 所開發，1998 年 12 月由 Max Levchin 和 Peter Thiel 於舊金山共同創立，兩人幾個月前在史丹福大學相識。該公司最初名為 FieldLink，目的是在 PalmPilot 掌上電腦上開發安全支付系統。
 
 PayPal 於 1999 年 10 月由該公司的工程師創立。它允許在電子郵件地址之間輕鬆且免費地付款，其目的是在個人之間轉移簡單的付款（"pay pal"）。它的商業模式是基於從客戶存放在銀行的資金中賺取利息，以支付營運成本和回報股東。因此，它是建立在銀行系統之上的服務，類似於 Liberty Reserve。
 
-由於網際網路泡沫正處於高峰期，該產品從最初幾個月開始就經歷了快速成長，這主要歸功於其推薦系統。這種成功引起了競爭對手的注意，他們擁有更多的資金，複製了這個想法，並推出了自己版本的服務，對 Confinity 造成了損害。這就是為什麼該公司不得不在 2000 年 3 月與其中一家公司，即 Elon Musk 擁有的線上銀行 X.com 合併，成為 PayPal Inc.
+隨著網際網路泡沫的高峰，該產品在最初幾個月經歷了快速增長，主要得益於其推薦系統。這種成功引起了競爭對手的注意，他們擁有更多的資金，複製了這個想法，並推出了自己版本的服務，影響了 Confinity。這就是為什麼該公司不得不在 2000 年 3 月與其中一家公司，即 Elon Musk 擁有的線上銀行 X.com 合併，成為 PayPal Inc.
 
 PayPal 最初的願景是革命性的，符合 Peter Thiel 的自由主義願景。以下是他在 1999 年秋天所說的話，由 Eric Jackson 於 2012 年在《*PayPal 戰爭*》中報導：
 
-> "當然，我們對美國使用者所說的「便利」，對發展中世界來說將會是革命性的。許多這些國家的政府對於他們的貨幣玩弄於股掌之間。他們利用通貨膨脹，有時甚至是全面性的貨幣貶值，就像我們去年在俄羅斯和幾個東南亞國家所看到的，從他們的國民手中奪走財富。那裡的大多數普通人從來沒有機會開設離岸帳戶，也沒有機會拿到超過幾張美元等穩定貨幣的鈔票。最終，PayPal 將能改變這種情況。未來，當我們的服務在美國以外的地區提供時，隨著互聯網滲透率不斷擴大到所有經濟階層的人，PayPal將讓全球公民比以前更直接地控制他們的貨幣。屆時，腐敗的政府幾乎不可能透過舊有的手段從人民手中竊取財富，因為如果他們嘗試這樣做，人民就會轉用美元、英鎊或日圓，實際上就是拋棄毫無價值的當地貨幣，轉用更安全的貨幣。
+> "當然，我們對美國使用者所說的「便利」，對發展中國家來說將是革命性的。許多這些國家的政府對於他們的貨幣玩弄於股掌之間。他們利用通貨膨脹，有時甚至是全面性的貨幣貶值，就像我們去年在俄羅斯和幾個東南亞國家所看到的，從他們的國民手中奪走財富。那裡的大多數普通人從來沒有機會開設離岸帳戶，也沒有機會拿到超過幾張美元等穩定貨幣的鈔票。最終，PayPal 將能改變這種情況。未來，當我們的服務在美國以外的地區提供時，隨著互聯網滲透率不斷擴大到所有經濟階層的人，PayPal將讓全球公民比以前更直接地控制他們的貨幣。屆時，腐敗的政府幾乎不可能透過舊有的手段從人民手中竊取財富，因為如果他們嘗試這樣做，人民就會轉用美元、英鎊或日圓，實際上就是拋棄毫無價值的當地貨幣，轉用更安全的貨幣。
 ![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/011.webp)
 
 1999 年 10 月 20 日，Peter Thiel 在加州奧克蘭為獨立研究所演講時（資料來源：[Youtube]()[Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
@@ -294,159 +294,158 @@ PayPal 最初的願景是革命性的，符合 Peter Thiel 的自由主義願景
 
 ### 集中式替代方案與 Bitcoin
 
-因此，我們觀察到，嘗試創造集中式服務作為現有系統的替代方案，最終都以這樣或那樣的方式停止了。這些模式的缺點在於它們依賴於可信賴的第三方，而第三方可能破產、攜帶資金潛逃，或受到當局的控制。在後者的情況下，有關的服務將面臨兩難的處境：一是遵從金融法規來適應，就像 GoldMoney 和 PayPal 所做的一樣；二是拒絕遵從法規而滅亡，就像 e-gold、Liberty Reserve 和 Liberty Dollar 所遭遇的命運一樣。
+因此，我們觀察到，嘗試創造集中式服務作為現有系統的替代方案，最終都以某種方式被中止。這些模式的缺點在於它們依賴信任的第三方，而第三方可能破產、攜帶資金潛逃，或受到當局控制。在後者的情況下，有關的服務將面臨兩難的處境：遵從金融法規來適應，就像 GoldMoney 和 PayPal 所做的一樣；或是拒絕遵從法規而滅亡，就像 e-gold、Liberty Reserve 和 Liberty Dollar 所遭遇的命運一樣。
 
-這些系統的關閉與 Bitcoin 的創建和早期是同步的。因此，Satoshi 中本和 Bitcoin 的早期使用者都很清楚這些系統。至於 Satoshi，他[知道](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html) e-gold 所使用的模式，並在他的公開和私人介入中多次[提到](https://bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix 和 Liberty Reserve。
+這些系統的關閉與 Bitcoin 誕生的早期階段同時發生。因此，中本聰和 Bitcoin 的早期使用者都很清楚這些系統。至於中本聰，他[知道](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html) e-gold 所使用的模型，並在他公開和私下的發言多次[提到](https://bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix 和 Liberty Reserve。
 
-正是因為集中式系統的這種脆弱性，自由的支持者--尤其包括cypherpunks--試圖創造一種*去中心化*的貨幣。我們必須找到一種方法，避免將整個系統的基礎設施放在單一點上。這就是為什麼在 Bitcoin 發現之前，1990 年代末和 2000 年代初會出現幾種「信任最小化」模型的原因。下一章將專門介紹這些模型。
+正是因為集中式系統的這種脆弱性，自由的支持者，包括密碼龐克（cypherpunks）試圖創造一種*去中心化*的貨幣。我們必須找到一種方法，避免將整個系統的基礎設施放在單一點上。這就是為什麼在 Bitcoin 出現之前，1990 年代末和 2000 年代初會出現幾種「信任最小化」模型的原因。下一章將專門介紹這些模型。
 
-## 中本之前的分散模式
+## 在中本聰之前的去中心化模型
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
-Bitcoin 代表了數位貨幣的去中心化模式。這樣，它就避免了對可信第三方的需求，因為第三方會構成系統中的單點故障。正如 eCash、數位黃金貨幣和 Liberty Reserve 的例子所顯示的，一個意圖成為現有系統替代品的系統的集中化必然會以這樣或那樣的方式導致其關閉。
+Bitcoin 代表了數位貨幣的去中心化模式。藉此避免了對於需要信任的第三方的依賴，因為第三方在系統中會形成單一故障點。正如 eCash、數位黃金貨幣和 Liberty Reserve 的例子所顯示的，一個意圖成為現有系統替代品的集中化必然會以各種方式導致其關閉。
 
-然而，Bitcoin 並不是第一個被提出的去中心化貨幣概念。自 1990 年代後期起，cypherpunks 就曾描述過這種模式，他們著迷於網際網路上個人的自由與隱私，並相信（就像 David Chaum 一樣）受監控的系統會導致一個烏托邦式的未來。他們[呼籲](https://cypherpunks.venona.com/date/1993/03/msg00392.html)「寫程式碼」，並認為「電子貨幣」是他們理想的重要元素。(*原文："Cypherpunks寫代碼。(...)我們以密碼學、匿名郵件轉寄系統、數位簽名和電子貨幣來捍衛我們的隱私。"*)
+然而，Bitcoin 並不是第一個被提出的去中心化貨幣概念。自 1990 年代後期起，密碼龐克（cypherpunks）就曾描述過這種模式，他們著迷於網際網路上個人的自由與隱私，並相信（就像 David Chaum 一樣）受監控的系統會導致一個反烏托邦的未來。他們[呼籲](https://cypherpunks.venona.com/date/1993/03/msg00392.html)「寫程式碼」，並認為「電子貨幣」是他們理想的重要元素。(*原文："Cypherpunks寫代碼。(...)我們以密碼學、匿名郵件轉寄系統、數位簽名和電子貨幣來捍衛我們的隱私。"*)
 
-在本章中，我們將研究後來用在 Bitcoin 的各種基礎技術 Elements 的出現：分散式共識、時間戳記和 Proof of Work。接著，我們將談到 b-money、bit gold 和 RPOW，分別由 cypherpunks Wei Dai、Nick Szabo 和 Hal Finney 所設計。最後，我們將討論 Ripple 的案例，其模式略有不同，但在 Bitcoin 的創造歷史中也有其一席之地。
+在這一章中，我們將探討後來被 Bitcoin 所採用的各種基礎技術元素的出現：分散式共識、時間戳記以及工作量證明。接下來，我們將分別談到由密碼龐克（cypherpunks） Wei Dai、Nick Szabo 和 Hal Finney 設計的 b-money、bit gold 和 RPOW。最後，我們將討論 Ripple 的案例，其模型略有不同，但在 Bitcoin 創建的歷史中占有一席之地。
 
 ### 分散式共識
 
-隨著 20 世紀 50 年代電腦的出現，出現了將電腦互相連接的可能性。第一批電腦網路就是這樣形成的，並在 1970 年代發展出網際網路這個「網中之網」。這些網路的基礎設施問題不可避免地出現了。這就是為什麼波蘭裔美國電腦科學家 Paul Baran 在他 1964 年的奠基性文章 (描述封包交換) 中列出了三種類型的網路：集中式網路，依賴於單一節點；分散式網路，每個點都是一個節點；分散式 (非分散式) 網路，依賴於多節點的分散式網路。
+隨著 20 世紀 50 年代電腦的出現，出現了將電腦互相連接的可能性。第一批電腦網路就是這樣形成的，並在 1970 年代發展出網際網路這個「網中之網」。網路的基礎設施問題必然會引發思考。這就是為什麼波蘭裔美國電腦科學家 Paul Baran 在他 1964 年的奠基性文章 (描述封包交換) 中列出了三種類型的網路：集中式網路，依賴於單一節點；分散式網路，每個點都是一個節點；去中心化 (非分散式) 網路，依賴於多節點的分散式網路。
 
 ![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/012.webp)
 
-從這些考量可衍生出兩種純模式：客戶端伺服器模式，即中央伺服器回應客戶端的要求；以及點對點模式，即每個節點在系統中都扮演相同的角色。後一種模式在 2000 年代對檔案分享特別有用，BitTorrent 和其他類似的通訊協定也因此而生。Tor 網路是分散式的，並非純點對點。
+從這些考量可衍生出兩種純模式：客戶端伺服器模式，即中央伺服器回應客戶端的要求；以及點對點模式，即每個節點在系統中都扮演相同的角色。後一種模式在 2000 年代對檔案分享特別有用，BitTorrent 和其他類似的通訊協定也因此而生。Tor 網路是去中心化的，但不是純粹的點對點。
 
-分佈式架構中遇到的一個問題是分佈式共識問題，通常稱為拜占庭大將問題 (Byzantine Generals Problem)，由 Leslie Lamport、Robert Shostak 和 Marshall Pease 在 1982 年發表的一篇 [論文](https://lamport.azurewebsites.net/pubs/byz.pdf) 中正式提出。這個問題解決了傳輸可靠性和點對點系統中參與者完整性的挑戰，它適用於電腦系統的元件需要達成一致的情況。
+分佈式架構中遇到的一個問題是分佈式共識問題，通常稱為拜占庭將軍問題 (Byzantine Generals Problem)，由 Leslie Lamport、Robert Shostak 和 Marshall Pease 在 1982 年發表的一篇 [論文](https://lamport.azurewebsites.net/pubs/byz.pdf) 中正式提出。這個問題探討了在點對點系統中進行可靠傳輸和參與者誠信的挑戰，並適用於系統的組件需要達成協議的情況。
 
-這個問題以隱喻的形式提出，涉及拜占庭帝國軍隊的將軍們，他們的部隊圍攻敵人的城市，打算發動攻擊，但只能透過信使溝通。我們的目標是找到一個策略（即演算法），可以管理叛徒的存在，並確保所有忠心的將軍都同意一個戰鬥計畫，以便攻擊成功。以下是一個說明（來源：*L'Élégance de Bitcoin*）：
+問題以比喻方式陳述，涉及拜占庭帝國的軍隊將領，他們帶著軍隊圍攻敵人的城市，打算攻擊，但只能通過信使傳達計畫。目標是找到一個策略（即算法），可以應付叛徒的存在，並確保所有忠誠的將軍在戰鬥計畫上達成一致，以便攻擊成功。這裡是一個插圖（來源：*L'Élégance de Bitcoin*）：
 
 ![The Byzantine Generals Problem](assets/en/013.webp)
 
-解決這個問題對會管理帳戶單位的分散式系統很重要。這樣的系統確實需要參與者同意帳戶單位的 Ownership，也就是誰擁有什麼。
+解決這個問題對會管理帳戶單位的分散式系統很重要。這樣的系統需要參與者達成共識，即誰擁有什麼資產。
 
 在 Bitcoin 之前，這個問題完全由所謂的「經典」演算法解決，這些演算法要求事先知道節點，而且其中兩個節點必須誠實。其中最著名的可能是共識演算法 [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf)（Practical Byzantine Fault Tolerance 的縮寫，即實用拜占庭容錯），它是由 Miguel Castro 和 Barbara Liskov 在 1999 年開發的，可讓一定數量的參與者透過管理每秒數以千計的請求達成協議，且延遲時間少於一毫秒。
 
-透過 Bitcoin 共識演算法，Satoshi Nakamoto 以概率方式解決了這個問題，允許透過犧牲交易的嚴格終局性來移除某些限制。2008 年 11 月 13 日，他 [寫道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html) 「Proof-of-Work 鏈是拜占庭大將問題的解決方案」。
+透過 Bitcoin 共識演算法，中本聰以概率方式解決了這個問題，允許透過犧牲交易的嚴格終局性來移除某些限制。2008 年 11 月 13 日，他 [寫道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html) 「工作量證明（proof-of-work）鏈是拜占庭大將問題的解決方案」。
 
 ### 文件時間戳記
 
-時間戳記是一種將日期和時間與事件或文件等資訊相關聯的技術。舉例來說，從法律的角度來看，這可以確保在特定日期之前有 Contract 的存在。在現實世界中，有許多 Timestamp 的方法，例如將文件裝在密封的信封中寄送，或是將時間記錄在筆記型電腦中。
+時間戳記是一種技術，將日期和時間與事件或文件等資訊相關聯。從法律角度來看，這可以確保合約在特定日期之前就已經存在。在現實世界中，有許多方法可以對事物進行時間戳記，例如將文件放入密封信封或在記事本中記錄時間。
 
 然而，時間戳記在數位世界中特別有用，因為在數位世界中，檔案 (文字、影像、音訊或視訊) 是很容易修改的。時間戳記可以由中央服務執行，中央服務負責儲存收到的文件 (或其指紋)，並將其與收到的日期和時間相關聯。這稱為可信時間戳記。
 
-1991 年，Stuart Haber 和 Scott Stornetta 這兩位為位於新澤西州的研發財團 Bell Communications Research Inc.（一般稱為「Bellcore」）工作的研究人員提出了保密且安全的時間戳技術。在 [他們的論文](http://www.staroceans.org/e-book/Haber_Stornetta.pdf)，題為「如何為數位文件加上時間戳記」，他們描述了認證的時間戳記服務如何使用單向函數 (例如 MD4 Hash 函數) 和簽章演算法來增加客戶端文件的機密性和認證的可靠性。特別是，他們的想法是在應用單向函數時，讓之前的 Timestamp 參與其中，將資訊串連。
+1991 年，Stuart Haber 和 Scott Stornetta 這兩位為位於新澤西州的研發財團 Bell Communications Research Inc.（一般稱為「Bellcore」）工作的研究人員提出了保密且安全的時間戳技術。在 [他們的論文](http://www.staroceans.org/e-book/Haber_Stornetta.pdf)，題為「如何為數位文件加上時間戳記」，他們描述了認證的時間戳記服務如何使用單向函數 (例如 MD4 哈希函數) 和簽章演算法來增加客戶端文件的機密性和認證的可靠性。特別是，他們的想法是在應用單向函數時，讓之前的時間戳記參與其中，將資訊串連。
 
 ![Example of certified timestamping](assets/en/014.webp)
 
 經認證的時間戳範例 (來源：[Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
-Haber 和 Stornetta 從 1992 年開始在《紐約時報》的分類廣告中刊登密碼指紋（由有用資料散列得出），實現了他們的想法。之後，他們在 1994 年創立了自己的公司 Surety Technologies，目的是全心投入這項活動。他們因此 [知名](https://www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain) 創造了第一個 Timestamp 鏈，在計算要刊登在報紙上的新指紋時，會將之前的指紋考慮在內，這也是 Bitcoin Blockchain 的前兆。
+Haber 和 Stornetta 從 1992 年開始在《紐約時報》的分類廣告中刊登加密指紋（從有用數據的哈希運算中得出），實現了他們的想法。之後，他們在 1994 年創立了自己的公司 Surety Technologies，目的是全心投入這項活動。他們因創造了第一個時間戳鏈而因此 [文明](https://www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain) ，在計算要刊登在報紙上的新指紋時，會將之前的指紋考慮在內，這也是 Bitcoin 區塊鏈的前身。
 
-Satoshi Nakamoto 在 [Bitcoin 白皮書](assets/pdf/Bitcoin-20090324.pdf) 中引用了 Haber 和 Stornetta 的三篇論文：之前提到的 1991 年的論文、1993 年的一篇 [論文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)，這篇論文改進了之前論文中提出的協定，特別是通過使用 Merkle 樹，以及 1997 年的一篇 [論文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)，這篇論文提出了一種使用單向函數普遍命名檔案的方法。此外，Henri Massias、Xavier Serret-Avila 和 Jean-Jacques Quisquater 這三人在比利時天主教魯汶大學 (Catholic University of Louvain) 的密碼學研究小組工作，他們在 1999 年寫了一篇 [論文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)，描述了一個新的時間戳系統。
+中本聰在 [Bitcoin 白皮書](assets/pdf/Bitcoin-20090324.pdf) 中引用了 Haber 和 Stornetta 的三篇論文：之前提到的 1991 年的論文、1993 年的一篇 [論文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)，這篇論文改進了之前論文中提出的協定，特別是通過使用 Merkle 樹，以及 1997 年的一篇 [論文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)，這篇論文提出了一種使用單向函數普遍命名檔案的方法。此外，Henri Massias、Xavier Serret-Avila 和 Jean-Jacques Quisquater 這三人在比利時天主教魯汶大學 (Catholic University of Louvain) 的密碼學研究小組工作，他們在 1999 年寫了一篇 [論文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)，描述了一個新的時間戳系統。
 
-### Proof of Work 和 Hashcash
+### 工作量證明和 Hashcash
 
-Proof of Work 是一種程序，允許電腦裝置以客觀、可量化的方式證明其已消耗能量，以便被選取存取服務或特權。它基本上是一種抵抗 Sybil 攻擊的機制，可讓攻擊者難以過度繁殖身份來擾亂或控制任何信譽系統。
+工作量證明是一種機制，允許電腦裝置以客觀、可量化的方式證明其已消耗能量，以便被選取存取服務或權利。它基本上是一種抵抗女巫攻擊（Sybil attack）的機制，使攻擊者難以透過複製身份以破壞或控制任何信譽系統。
 
-Proof of Work 的概念於 1992 年由電腦科學家 Cynthia Dwork 和 Moni Naor 首次描述，他們當時在位於加州聖荷西南部的 IBM Almaden 研究中心工作。在一篇題為「透過處理或對抗垃圾郵件來定價」(Pricing via Processing or Combatting Junk Mail) 的 [研究論文](https://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf)中，他們提出了一種在電子郵件收件匣中對抗垃圾郵件的方法。這個模型包括強制使用者為每封寄出的電子郵件解決一個加密謎題，以限制大量寄送電子郵件的能力，同時讓偶爾寄送電子郵件的人不會受到妨礙。然而，他們從未實現他們的想法。
+工作量證明的概念首次由在 IBM Almaden 研究中心工作的計算科學家 Cynthia Dwork 和 Moni Naor 提出。在一篇題為「透過處理或對抗垃圾郵件來定價」(Pricing via Processing or Combatting Junk Mail) 的 [研究論文](https://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf)中，他們提出了一種在電子郵件收件匣中對抗垃圾郵件的方法。這個模型包括強制使用者為每封寄出的電子郵件解決一個加密謎題，以限制大量寄送電子郵件的能力，同時讓偶爾寄送電子郵件的人不會受到妨礙。然而，他們從未實現他們的想法。
 
-隨著 1990 年代網際網路的普及，不需要的電子郵件問題變得越來越迫切，包括在 cypherpunks 的郵件列表上。這就是為什麼 Dwork 和 Naor 的概念在 1997 年由年輕的英國 Cypherpunk Adam Back 以 Hashcash [實作](https://cypherpunks.venona.com/date/1997/03/msg00774.html)，一個使用 Hash 函數產生簡單工作證明的演算法。更明確地說，它涉及到尋找所考慮的 Hash 函數的部分碰撞，也就是取得兩條足跡以相同資料位元開始的訊息 (註：從 2002 年發佈的 1.0 版本開始，它涉及到發現零列印的部分碰撞，也就是尋找足跡以確定的二進位零數開始的預影像)。由於 Hash 功能是單向的，因此這樣的成就只能透過逐一測試不同的可能性來實現，而這需要消耗能量。
+隨著 1990 年代網際網路的普及，垃圾郵件問題變得越來越緊迫，包括在密碼龐克的郵件論壇中。這就是為什麼 Dwork 和 Naor 的概念在 1997 年由年輕的英國密碼龐克 Adam Back 以 Hashcash [實作](https://cypherpunks.venona.com/date/1997/03/msg00774.html)，一個使用 Hash 函數產生簡單工作量證明的演算法。更明確地說，它涉及到尋找所考慮的 Hash 函數的部分碰撞，也就是取得兩條足跡以相同資料位元開始的訊息 (註：從 2002 年發佈的 1.0 版本開始，它涉及到發現零列印的部分碰撞，也就是尋找足跡以確定的二進位零數開始的預影像)。由於 Hash 功能是單向的，因此這樣的成就只能透過逐一測試不同的可能性來實現，而這需要消耗能量。
 
 ![Adam Back in 2001](assets/en/015.webp)
 
 2001 年的 Adam Back（資料來源：[archive of Adam Back's personal page](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
-但是，cypherpunks 並不僅僅把 Proof of Work 視為一種限制垃圾郵件的簡單手段；他們還想用它來保證生產數位貨幣的成本。因此，在 1997 年，Adam Back [envisaged](https://cypherpunks.venona.com/date/1997/04/msg00822.html)自己提出了這個想法，但他也意識到，由此獲得的工作證明無法以完全分散的方式進行傳輸（因為 Double-spending 問題），因此必須通過像 eCash 這樣的集中式系統。同樣地，在 1996 年，密碼學家 Ronald Rivest 和 Adi Shamir 描述了 [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf)，這是一個集中式的微型付款系統，由於工作證明的產生，其硬幣應該是不可能被偽造的。
+不過，密碼龐克並不僅僅將工作量證明視作限制垃圾郵件的一種手段；他們還希望利用它來保證數字貨幣的生產成本。因此，在 1997 年，Adam Back [提出](https://cypherpunks.venona.com/date/1997/04/msg00822.html)了這個想法，但他也意識到，由此獲得的工作證明無法以完全分散的方式進行傳輸（由於雙重支付問題），因此必須通過像 eCash 這樣的集中式系統。同樣地，在 1996 年，密碼學家 Ronald Rivest 和 Adi Shamir 描述了 [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf)，這是一個集中式的微型付款系統，其硬幣由工作量證明生產而無法被偽造。
 
-我們必須找到一個好的安排，讓這種模式能夠穩健且持續地運作。這就是 Cyppherunks Wei Dai、Nick Szabo 和 Hal Finney 嘗試用他們各自的協定 - b-money、bit gold 和 RPOW - 來開發的東西，我們接下來會研究這些協定。而這也是 Satoshi Nakamoto 在設計 Bitcoin 時加入 Hashcash 所做的事。
+必須找到一種能夠使這種模型穩定且持久運行的方式。密碼龐克 Wei Dai、Nick Szabo 和 Hal Finney 嘗試通過其協議 b-money、bit gold 和 RPOW 開發這一概念，我們將在下一步中探討這些協議。中本聰透過在其 Bitcoin 設計中整合 Hashcash 實現了這一點。
 
-### b-money: 分散式的穩定代幣
+### b-money：去中心化的穩定代幣
 
-在 Cypherpunk 運動中出現的第一個協定是 b-money，這是由 Wei Dai 在 1998 年構思的分散式數位貨幣模型。他是一位住在西雅圖、為微軟工作的年輕華裔密碼學家，從 1994 年開始參與郵寄名單。他創造了開放原始碼的 Crypto++ 函式庫，後來被用於 Bitcoin 軟體，因而一舉成名。
+從密碼龐克運動中誕生的第一個協議是 b-money，一種由 Wei Dai 在 1998 年構想的去中心化數位貨幣模型。Wei Dai 是一位年輕的華裔美籍密碼學家，住在 Seattle，為 Microsoft 工作，並從 1994 年開始參加郵件論壇。他特別因創建了開源的 Crypto++ 函式庫而出名，該函式庫後來被使用於 Bitcoin 軟體中。
 
-Wei Dai 於 1998 年 11 月 26 日在他的個人頁面上發表了 b-money 的描述性文字，並在同一天分享了連結到 Cypherpunk 郵件列表。在他的 [電子郵件](https://cypherpunks.venona.com/date/1998/11/msg00941.html)中，他將 b-money 描述為 「一個新的假名貨幣 Exchange 和 Contract 執行協定」。
+Wei Dai 於 1998 年 11 月 26 日在他的個人頁面上發表了 b-money 的描述性文字，並在同一天分享了連結到密碼龐克郵件論壇。在他的 [電子郵件](https://cypherpunks.venona.com/date/1998/11/msg00941.html)中，他將 b-money 描述為 「一種新的在假名間進行貨幣交換和執行合約的協議」。
 
-在他的概念中，這個系統是以無法追蹤的點對點網路為基礎。每個參與者都以 「數位假名」（即一個公開密碼匙）來識別，每個交易訊息都由寄件者簽署，並為收件者加密。每個參與者都有一個數據庫，列出每個假名持有的 b-money單位數量。
+在他的概念中，這個系統是以無法追蹤的點對點網路為基礎。每個參與者都以 「數位假名」（即一個公鑰）來識別，每個交易訊息都由寄件者簽署，並為收件者加密。每個參與者都有一個數據庫，列出每個假名持有的 b-money單位數量。
 
-貨幣創造對所有參與者開放，並透過 Proof of Work 廣播已知且先前未解決的計算問題的解決方案。所創造的單位數量取決於相對於一籃子標準商品（例如包括貴金屬）的成本，以維持單位價值在一個「穩定」的平衡點附近。該系統也提供了直接在網路上建立和執行合約的可能性，這要歸功於一個基本的託管流程。
+貨幣創造對所有參與者開放，通過工作量證明，廣播對已知的且未解決的計算問題的答案。所創造的單位數量取決於相對於一籃子標準商品（例如包括貴金屬）的成本，以維持單位價值在一個「穩定」的平衡點附近。該系統也提供了直接在網路上建立和執行合約的可能性，這要歸功於一個基本的託管流程。
 
-Wei Dai 提出的 b-money 概念雖然相當巧妙，但並非完全實用。因此，它存在一些重大缺陷，例如容易受到網絡上的 Sybil 攻擊（理論上任何人都可以在網絡上添加新的節點）、在伺服器被預先選擇的情況下的網絡集中化，以及與賬戶單位的穩定有關的問題（誰來決定市場上的可觀察價格？）
+Wei Dai 提出的 b-money 概念雖然相當巧妙，但並非完全實用。因此，它存在一些重大缺陷，例如容易受到網絡上的女巫攻擊（理論上任何人都可以在網絡上添加新的節點）、在伺服器被預先選擇的情況下的網絡集中化，以及與賬戶單位的穩定有關的問題（誰來決定市場上的價格？）
 
-b-money 在名單上發表之後，引起了 cypherpunks 的注意，尤其是 [Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html) 的注意。然而，戴偉從來沒有實現他的模型，不僅因為它功能失常，也因為密碼學家對密碼無政府主義的[幻滅](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d)。儘管如此，b-money 最後被引用在 Bitcoin 白皮書中，成為其先驅之一。
+b-money 在論壇上發表之後，引起了密碼龐克的關注，尤其是 [Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html) 的注意。然而，Wei Dai 從來沒有實現他的模型，不僅因為它功能不完善，也因為密碼學家對密碼無政府主義的[幻滅](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d)。儘管如此，b-money 最後被引用在 Bitcoin 白皮書中，成為其先驅之一。
 
 ![Citation of b-money in the Bitcoin white paper](assets/en/016.webp)
 
-### bit gold：Bitcoin 之前的數位黃金
+### bit gold：比 Bitcoin 更早的數字黃金
 
-第二個從 cypherpunks 想法中衍生出來的模式是 Nick Szabo 在 1998 年提出的 bit gold 概念。他是一位來自匈牙利的美國電腦科學家，曾擔任 DigiCash 的顧問六個月。他是一位 Cypherpunk，因在 1995 年正式提出 Smart contract 的概念而聞名。
+第二個從密碼龐克的創意中衍生出來的模型是 Nick Szabo 在 1998 年提出的 bit gold 。他是一位來自匈牙利的美國電腦科學家，曾擔任 DigiCash 的顧問六個月。他是一位 Cypherpunk，因在 1995 年正式提出智能合約的概念而聞名。
 
-1994 年，Nick Szabo 創建了一個名為 libtech-l 的私人郵件論壇，顧名思義，這個論壇的目的是主持有關自由技術的討論，保護個人自由免受權威的攻擊。Cypherpunks 如 Wei Dai 和 Hal Finney，以及經濟學家 Larry White 和 George Selgin，哈耶克貨幣競爭和自由銀行的支持者，都可以進入這個論壇。
+1994 年，Nick Szabo 創建了一個名為 libtech-l 的私人郵件論壇，顧名思義，這個論壇的目的是主持有關自由技術的討論，保護個人自由免受權威的攻擊。密碼龐克如 Wei Dai 和 Hal Finney，以及經濟學家 Larry White 和 George Selgin，哈耶克貨幣競爭和自由銀行的支持者，都可以進入這個論壇。
 
 ![Nick Szabo in 1997](assets/en/017.webp)
 
 Nick Szabo 於 1997 年 (資料來源：[Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
-Nick Szabo 最初是在 libtech-l 清單上描述他的概念，之後於 1999 年在他的個人網站上發表了一份白皮書的 [草稿](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html)。之後，他於 2005 年在他的部落格 Unenumerated 上發表了一篇 [文章](https://unenumerated.blogspot.com/2005/12/bit-gold.html)，提出了比特金。
+Nick Szabo 最初是在 libtech-l 論壇上描述他的概念，之後於 1999 年在他的個人網站上發表了一份白皮書的 [草稿](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html)。之後，他於 2005 年在他的部落格 Unenumerated 上發表了一篇 [文章](https://unenumerated.blogspot.com/2005/12/bit-gold.html)，提出了 bit gold 。
 
-該協定應該用來管理稱為 bit gold 的虛擬資源的創建和交換。與電子黃金不同的是，電子黃金由實體黃金或理論上與一籃子商品指數掛鉤的 b-money提供擔保，而比特黃金不受任何其他資產的支持，但擁有其固有的不可偽造的稀缺性，因此構成了一種完全數位化的黃金。
+該協定應該用來管理稱為 bit gold 的虛擬資源的創建和交換。不同於以實體黃金為擔保的 e-gold，或理論上與某一貨物籃子指數掛勾的 b-money ，bit gold 不被任何其他資產支持，但由於其內在的，不可偽造的稀缺性構成了一種純粹的數字黃金。
 
-該協定的核心要素是貨幣的創造是透過 Proof of Work 來完成的：利用電腦的運算能力來創造比特金的比特，每個解決方案都是由另一個解決方案計算出來的，從而形成一連串的工作證明。這些工作證明的生產日期和時間是由多台 Timestamp 伺服器來認證的。該系統依賴財產所有權的公共註冊處，參考使用者的財產和交換，使用者由其公開金鑰識別，並使用其私人金鑰授權交易。註冊表由稱為「財產俱樂部」的伺服器網路進行驗證與維護，並由稱為 [Byzantine Quorum System] (https://dahliamalkhi.wordpress.com/wp-content/uploads/2015/12/byzquorums-distcomputing1998.pdf) 的經典共識演算法協調。
+bit gold 的位元透過電腦的計算能力創造，而每個答案都是從另一個答案創造出來的，形成了一個工作量證明的鏈條。這些工作量證明的生產時間和日期通過多個時間戳服務器得到認證。系統依賴於一個公開財產登記冊，參考用戶的物品和交易，被它們的公鑰識別並通過其私鑰授權交易。登記冊由稱為「財產俱樂部」的伺服器核實和維護，並由一個經典的共識算法 [Byzantine Quorum System] (https://dahliamalkhi.wordpress.com/wp-content/uploads/2015/12/byzquorums-distcomputing1998.pdf) 協調。
 
-bit gold 與 Bitcoin 的相似性非常顯著。該系統的三個組成部分 Elements (工作證明的產生、其時間戳記，以及財產登記冊的管理)，在 bit gold 中是分開的，但在 Bitcoin 中卻被發現是單一的概念：Blockchain。這就是為什麼很多人將其視為 Bitcoin 的草稿，並猜想 Nick Szabo 可能就是 Satoshi。
+bit gold 與 Bitcoin 的相似性非常顯著。該系統的三個組成部分 (工作量證明的產生、其時間戳記，以及財產登記冊的管理)，在 bit gold 中是分開的，但在 Bitcoin 中卻被發現是單一的概念：區塊鏈。這就是為什麼很多人將其視為 Bitcoin 的草稿，並猜想 Nick Szabo 可能就是中本聰。
 
-然而，兩人的願景並不一致。在比特金中，數位黃金的生產方式意味著它們是不可替代的，這意味著它們不能相互混合：它們必須在系統的外部市場上進行評估，以作為真正的同質計量單位的基礎。因此，比特金模式被構思為一個管理稀有儲備貨幣的結算系統，在此之上，如果可能的話，將使用Chaumian模式建立一個自由銀行經濟。因此，在 2008 年 4 月，Nick Szabo 在其部落格上的 [comment](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269)，仍在尋求協助來實現他的概念。然而，這個實現從來沒有發生過。
+然而，兩人的願景並不一致。在 bit gold 中，數位黃金的生產方式意味著它們是不可替代的（not fungible），這意味著它們不能相互混合：它們必須在系統的外部市場上進行評估，以作為真正的同質計量單位的基礎。因此，bit gold 模式被構思為一個管理稀有儲備貨幣的結算系統，在此之上，如果可能的話，將使用 Chaumian 模型建立一個自由銀行經濟。因此，在 2008 年 4 月，Nick Szabo 在其部落格上的 [評論中](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269)，仍在尋求協助來實現他的概念。然而，實作從未發生。
 
 ### RPOW：可重複使用的工作證明
 
-從 cypherpunks 腦海中出現的第三個系統是 RPOW 系統，RPOW 是 Reusable Proofs of Work 的縮寫，由 Hal Finney 於 2004 年開發。Hal Finney 是一位住在洛杉磯地區的美國電腦科學家和密碼學家。他是 Cypherpunk 的早期成員，熱衷於 David Chaum 的想法和他著名的 eCash 模型。他從 1996 年開始與 Phil Zimmermann 一起開發 PGP 加密軟體。
+從密碼龐克形成的第三個系統是 RPOW 系統，即可重複使用的工作量證明（Reusable Proofs of Work，簡稱 RPOW），由 Hal Finney 在 2004 年開發。Hal Finney 是一位住在洛杉磯的美籍電腦科學家及密碼學家。作為早期的密碼龐克，他沉迷於 David Chaum 和他的 eCash 模型。自 1996 年以來，他一直與 Phil Zimmermann 一起研發 PGP 加密軟件。
 
-為了設計他的 RPOW 系統，Hal Finney 吸收了 eCash 和 bit gold 背後的理念。他的系統的獨特之處在於它是基於一個透明的伺服器，允許傳輸 Hashcash 所產生的工作證明。此伺服器使用 IBM 4758 安全加密協同處理器，這是一種高安全性的防篡改元件，可透過 IBM 設計的認證程序，驗證機器上執行的程式。因此，外部使用者可以隨時確保 RPOW 伺服器正在執行正確的程式，而該程式的程式碼也是公開的。
+為了設計他的 RPOW 系統，Hal Finney 吸收了 eCash 和 bit gold 背後的理念。他的系統的獨特之處在於它是基於一個透明的伺服器，允許傳輸 Hashcash 所產生的工作量證明。此伺服器使用 IBM 4758 安全加密協同處理器，這是一種高安全性的防篡改元件，可透過 IBM 設計的認證程序，驗證機器上執行的程式。因此，外部使用者可以隨時確保 RPOW 伺服器正在執行正確的程式，而該程式的程式碼也是公開的。
 
-可重複使用的 Proof of Work 令牌由伺服器管理，伺服器負責使用 RSA 加密簽章。這些代幣是透過 Hashcash 或之前的 RPOW 代幣產生 Proof of Work 的。在付款過程中，寄件者將其 RPOW 代幣交給收件者，而收件者會立即與伺服器通訊，以接收一個或多個新的代幣，其總價值等於輸入值。因此，RPOW 的操作類似於 eCash 中的數位票券。
-
+伺服器管理可重複使用的工作量證明代幣，並負責使用 RSA 加密技術對其進行簽名。這些代幣是透過 Hashcash 生成的工作量證明或者是來自先前的 RPOW 代幣創建的。付款過程中，發件人將其 RPOW 代幣移交給接收者，接收者立即與伺服器聯繫，以接收一個或多個新的代幣，這些代幣的總值等同於輸入值。RPOW 的運作類似於 eCash 。
 這是 Hal Finney 親自 [設計](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) 的插圖：
 
 ![Exchange in RPOW](assets/en/018.webp)
 
-Hal Finney 不僅設計了這個模型，還親自實施。2004 年 8 月 15 日，他在 cypherpunks 郵件列表上 [宣布](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) 推出 RPOW 系統，此外還在專用網站 (rpow.net) 上記錄其運作。之後，他在舊金山舉行的 CodeCon 2005 會議上 [發表](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)，討論 Proof-of-Work 代幣的潛在用途，即：價值轉移、垃圾郵件規範、電子遊戲中的商業、撲克等線上賭博，以及 BitTorrent 等檔案分享協定上的反盜取。
+Hal Finney 不僅設計了這個模型，還親自實作。2004 年 8 月 15 日，他在密碼龐克郵件論壇上 [宣布](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) 推出 RPOW 系統，此外還在專用網站 (rpow.net) 上記錄其運作。之後，他在舊金山舉行的 CodeCon 2005 會議上 [發表](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)，討論工作量證明代幣的潛在用途，即：價值轉移、垃圾郵件規範、電子遊戲中的商業、撲克等線上賭博，以及 BitTorrent 等檔案分享協定上的反吸血（anti-leeching）。
 
-然而，RPOW 有其內在的缺陷，這也可能解釋了為什麼它沒有取得預期的成功：
+然而，RPOW 有其內在的缺陷，這也解釋了為什麼它沒有取得預期的成功：
 
 
 - 其安全模式相當薄弱，因為它依賴於中央伺服器；
 - 由於計算效能呈指數級成長，其貨幣政策（基於散列）並不特別吸引人。
 
-因此，RPOW 的實際使用是聞所未聞的，但 Hal Finney 在 Satoshi Nakamoto 來到之前的四年，透過建立實驗性的概念驗證，「[鋪平了道路](https://mmalmi.github.io/Satoshi/#email-24)」（*原文：「攜帶了這個火炬」*）到 Bitcoin 應記一功。
+因此，RPOW 的實際使用是聞所未聞的，但 Hal Finney 在中本聰來到之前的四年，透過建立實驗性的概念驗證，「[鋪平了道路](https://mmalmi.github.io/Satoshi/#email-24)」（*原文：「攜帶了這個火炬」*）到 Bitcoin 應記一功。
 
 ### Ripple：信貸的去中心化
 
-Bitcoin 的另一個較不知名的前身模式，但在此卻很重要，那就是加拿大開發人員 Ryan Fugger 於 2004 年設計的分散式信用協定 Ripple。這位年輕的加拿大人受到 [本地 Exchange 交易系統](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS) 概念的啟發，在設計他的協定之前，他在溫哥華已經體驗過這個概念。他在 2004 年 4 月 14 日發表了 Ripple [白皮書](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf)，然後透過一個名為 RipplePay 的概念驗證來實作，它在中央伺服器上運作，使用者只需透過電子郵件 Address 即可連線。
+另一個不太知名但在這裡意義重大的 Bitcoin 前身模型，是 Ripple 的分布式信用協議，由加拿大開發者 Ryan Fugger 在 2004 年設計的。這位年輕的加拿大人在設計協議之前，受到了到 [地方交易系統](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS) 概念的啟發，在設計他的協議之前，他在溫哥華已經體驗過這個概念。他在 2004 年 4 月 14 日發表了 Ripple [白皮書](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf)，然後透過一個名為 RipplePay 的概念驗證來實作，它在中央伺服器上運作，使用者只需透過電子郵件地址即可連線。
 
 ![Ryan Fugger circa 2010](assets/en/019.webp)
 
 Ryan Fugger 約於 2010 年 (資料來源：[Crunchbase]()[Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
-Ripple 的概念基於貨幣基本上是由 IOU（即信用）構成的想法。它是關於建立一個點對點的網路，其連結將是人與人之間的信用關係。所有參與者都扮演銀行家的角色，互相借錢給對方。Alice 可以借 10 美元給 Bob，再請 Bob 借 10 美元給 Carole，然後再請 Carole 借 10 美元給 David，這樣就可以付給 David 10 美元。這個系統的運作有點像漣漪，這也解釋了這個專案的名稱。
+Ripple 的概念基於貨幣基本上是由 IOU（即信用）構成的想法。它建立一個點對點網路，其中的連結是人與人之間的信用關係。所有參與者都扮演銀行家的角色，互相借錢給對方。Alice 可以借 10 美元給 Bob，再請 Bob 借 10 美元給 Carole，然後再請 Carole 借 10 美元給 David，這樣就可以付給 David 10 美元。這個系統的運作有點像漣漪，也就是這個專案的名稱 Ripple 。
 
 以下是 2011 年製作的 Ripple 介紹影片：
 
 :::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
-儘管它的社群和幾千個使用者對它充滿熱情，但 Ripple 有著重大的缺陷，使它無法成功。尤其是，它[遭受](https://fiatjaf.com/3cb7c325.html)了「分散式 Commitment 的問題」：在付款過程中，參與者無法以安全的方式提交以確保貸款鏈，這個問題日後將由 Lightning 解決。(*原文：「分散式提交的問題」*)
+儘管它的社群和幾千個使用者對它充滿熱情，但 Ripple 有著重大的缺陷，使它無法成功。尤其是，它[遭受](https://fiatjaf.com/3cb7c325.html)了「去中心化履約（decentralized commitment）問題」：在付款過程中，參與者無法以安全的方式提交以確保貸款鏈，這個問題日後將由閃電網路解決。(*原文：「分散式提交的問題」*)
 
 看到自己的項目無疾而終，Ryan Fugger 於 2012 年 11 月將 Ripple 交給 OpenCoin Inc.該公司於 2013 年更名為 Ripple Labs。他們使其成為一個與最初概念明顯不同的協定，以共識演算法和原生的帳戶單位 XRP 為基礎。為了避免混淆，Ryan Fugger 最後在 2020 年將概念驗證的名稱改為 [Rumplepay](https://rumplepay.com/)。
 
-可以說，Ripple 與 Bitcoin 是同時代的產品，事實證明，許多對後者感興趣的人也對前者感興趣。事實上，Ripple 構成了一個創新的模式，它基於一個分散式的架構，這也是 Bitcoin 的共同特徵。關於這一主題，Satoshi 中本[寫道](https://diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February.txt.gz)，「Ripple 的獨特之處在於它分散信任而非集中信任」。
+可以說，Ripple 與 Bitcoin 是同時代的產品，事實證明，許多對後者感興趣的人也對前者感興趣。事實上，Ripple 構成了一個創新的模式，它基於一個分散式的架構，這也是 Bitcoin 的共同特徵。關於這一主題，中本聰[寫道](https://diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February.txt.gz)，「Ripple 的獨特之處在於它分散信任而非集中信任」。
 
-### Bitcoin，探索的頂點
+### Bitcoin，探索的頂峰
 
-因此，到 2000 年代末期，Bitcoin 的所有組成 Elements 都已為人所知，並已多次嘗試將其組合。然而，所提出的組合並不具說服力。尤其是 cypherpunks，他們逐漸對這個問題失去興趣，認為設計一個真正去中心化的數位貨幣是不可能的。Satoshi Nakamoto 證明他們錯了。
+因此，到 2000 年代末，Bitcoin 的所有組成元素都是已知的，並且已有多次將其結合的嘗試。然而，所建議的組合不具說服力。密碼龐克特別是逐漸失去對此問題的興趣，認為設計一個真正去中心化的數字貨幣是不可能的。中本聰證明了他們錯了。
 
-Bitcoin 確實是所有這些概念的巧妙結合。它以數位簽章為基礎，源自 Diffie 和 Hellmann 於 1976 年提出的非對稱加密技術。它是 David Chaum 在 90 年代實現的 eCash 模型中的 「電子現金」。憑藉其創新的共識演算法，它強大地解決了由 Lamport、Shostak 和 Pease 於 1982 年提出的拜占庭將軍問題 (Byzantine Generals' Problem)。透過在對等網路中管理 Blockchain，它是一種「分散式 Timestamp 伺服器」，重溫了 Haber 和 Stornetta 在 1991 年提出的概念。對於交易區塊的選擇和單位的生產，它使用 Proof of Work，使用類似於 Adam Back 在 1997 年提出的 Hashcash 流程。最後，在其設計上，它讓人聯想到 b-money、bit gold、RPOW 和 Ripple 等專案，Satoshi 中本以某種方式向這些專案致敬。
+Bitcoin 確實是所有這些概念的巧妙結合。它以數位簽章為基礎，源自 Diffie 和 Hellmann 於 1976 年提出的非對稱加密技術。它是 David Chaum 在 90 年代實現的 eCash 模型中的 「電子現金」。憑藉其創新的共識演算法，它解決了由 Lamport、Shostak 和 Pease 於 1982 年提出的拜占庭將軍問題 (Byzantine Generals' Problem)。透過在網路中管理區塊鏈，成為了「分散式時間戳記伺服器」，重新審視了 Haber 和 Stornetta 在 1991 年提出的概念。對於交易區塊的選擇和單位的生產，它使用工作量證明，使用類似於 Adam Back 在 1997 年提出的 Hashcash 流程。在其設計上，它讓人聯想到 b-money、bit gold、RPOW 和 Ripple 等專案，中本聰以某種方式對其致敬。
 
-Bitcoin 因此成為追求網路貨幣的頂峰，一種完全存在於網際網路上、不受國家支配的貨幣。在本課程的其餘部分，我們將回顧它是如何誕生的，以及它早期的重大事件。這個故事是獨一無二的，如果您到此為止，一定會對它感興趣。做好準備
+Bitcoin 因此成為了網路貨幣的代表，一種完全存在於網際網路上、不受國家支配的貨幣。在本課程的其餘部分，我們將回顧它是如何誕生的，以及它早期的重大事件。這個故事是獨一無二的，如果你已經看到了這裡，那麼這個故事你一定會感興趣！
 
 # 慢慢出現的 Bitcoin
 
@@ -456,68 +455,68 @@ Bitcoin 因此成為追求網路貨幣的頂峰，一種完全存在於網際網
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
-在了解 Bitcoin 的由來之後，我們現在將專注於它的歷史本身。多年來，這已經成為無數文章、播客和影片的主題，以至於幾乎成為某種創始神話。正如我們所見，Bitcoin 與它的創建背景密不可分；早年發生的事件也是如此，這些事件塑造了今天的 Bitcoin，它有優點也有缺點。
+在了解 Bitcoin 的由來之後，我們現在將專注於它的歷史本身。多年來，這已經成為無數文章、播客和影片的主題，以至於幾乎成為某種創始神話。正如我們所見，Bitcoin 與它的創建背景密不可分，它誕生初期發生的事件也塑造了現今的樣貌。
 
-Bitcoin 由 Satoshi Nakamoto 創建，他是一個自稱是日本人的未知個體，在向公眾揭開它的面紗之前，他們花了很多時間深思熟慮地設計它。隨後，他們盡一切努力確保 Bitcoin 在最佳條件下推出，在討論中得到很好的展示，並且被越來越多的人使用。歸根結柢，創造者的努力不只在於最初的設計，也在於系統的經濟啟動。
+Bitcoin 是由一名不知名、聲稱是日本人的中本聰所創立，他花時間謹慎地設計此系統，然後才向公眾公開。隨後，他竭盡所能地確保 Bitcoin 在最佳條件下推出，並在討論中被妥善呈現，以吸引更多人使用它。最終，創建者的努力不僅在於系統的設計，還在於其初期經濟啟動。
 
-本章將介紹 Bitcoin 的誕生過程，即 2008 年秋季至 2009 年冬季。這段期間發生了兩件大事：2008 年 10 月 31 日發表白皮書，也就是解釋系統技術運作的基礎文件；以及兩個多月後，也就是 2009 年 1 月 9 日推出原型網路。因此，我們將著重於 Satoshi Nakamoto 在這段期間的行動，以及他與 Bitcoin 早期採用者和第一批貶低者的少數互動。
+本章將介紹 Bitcoin 的誕生過程，即 2008 年秋季至 2009 年冬季。這段期間發生了兩件大事：2008 年 10 月 31 日發表白皮書，也就是解釋系統技術運作的基礎文件；以及兩個多月後，也就是 2009 年 1 月 9 日啟動的原型網路。因此，我們將著重於中本聰在這段期間的行動，以及他與 Bitcoin 早期使用者和第一批反對者的少數互動。
 
 ### 發現
 
-根據他 [自己的](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [證詞](https://bitcointalk.org/index.php?topic=13.msg46#msg46)，Satoshi Nakamoto 在 2007 年春天開始研究 Bitcoin。在對數位貨幣主題進行各種研究之後，他最終找到了一種解決 Double-spending 問題的方法，而不需要可信賴的第三方。在一年多的時間裡，他一直對自己的模型保密，希望改進模型以確保其穩健性。正如他 [https://bitcointalk.org/index.php?topic=195.msg1617#msg1617]後來所寫的那樣：
+根據他 [自己的](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [證詞](https://bitcointalk.org/index.php?topic=13.msg46#msg46)，中本聰在 2007 年春天開始研究 Bitcoin。經過對數位貨幣的不同研究後，他最終找到了在不需要信賴第三方的情況下解決雙重支付問題的方法。他將模型保密了一年多，想要完善它以確保其穩健性。正如他 [https://bitcointalk.org/index.php?topic=195.msg1617#msg1617]後來所寫的那樣：
 
-> "在某個時候，我開始相信有一種方法可以做到這一點，而完全不需要任何信任，並忍不住繼續思考。
-為了確保它能正確運作，Satoshi [編程](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) 在草擬白皮書之前先做了一個原型。這種做法與學術界通常的做法剛好相反，學術界通常是先在科學論文中正式提出概念，然後才付諸實行。Bitcoin 的創造者 [表示](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html)：
+> "在某個時候，我開始相信有一種方法可以做到這一點，而完全不需要任何信任，於是無法抗拒繼續思考它。
+為了確保它能正確運作，中本聰在草擬白皮書之前先[寫出](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) 了一個原型。這種做法與學術界通常的做法剛好相反，學術界通常是先在科學論文中正式提出概念，然後才付諸實行。Bitcoin 的創造者 [表示](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html)：
 
 > 「其實我是倒過來做的。 &nbsp;我必須先寫完所有的程式碼，才能說服自己可以解決每個問題，然後再寫論文」。
 ### 準備工作
 
-就在 2008 年 8 月，Satoshi 決定準備推出 Bitcoin。18日，他通過匿名服務AnonymousSpeech預留了域名Bitcoin.org（以及[Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720)，可能還沒敲定他的概念名稱選擇）。該網域名稱將承載 Bitcoin 的主網站。然而，Satoshi 未能保留 Bitcoin.com 域名，該域名當時由一位 [投機者](https://mmalmi.github.io/Satoshi/#email-28) 持有，並將於 2009 年至 2011 年間由一家名為 Bitcoin Ltd. 的公司 [使用](https://web.archive.org/web/20090719065532/http://www.Bitcoin.com/)，該公司專門從事微額支付業務。
+就在 2008 年 8 月，中本聰決定準備推出 Bitcoin。18日，他通過匿名服務 AnonymousSpeech 預留了域名Bitcoin.org（以及[Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720)，可能還沒敲定他的概念名稱選擇）。該網域名稱將成為 Bitcoin 的主網站。然而，中本聰未註冊 Bitcoin.com 域名，該域名當時由一位 [投機者](https://mmalmi.github.io/Satoshi/#email-28) 持有，並將於 2009 年至 2011 年間由一家名為 Bitcoin Ltd. 的公司 [使用](https://web.archive.org/web/20090719065532/http://www.Bitcoin.com/)，該公司專門從事微額支付業務。
 
-8 月 20 日，Bitcoin 的創造者 [聯絡](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) Adam Back，寄了一封電子郵件給他，請求他建議如何在白皮書中引用他有關 Hashcash 的論文。這是 Hard 不看這是一個藉口，以確保 Hashcash 的發明者知道他的新系統。
+8 月 20 日，Bitcoin 的創造者 [聯絡](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) Adam Back，寄了一封電子郵件給他，請求他建議如何在白皮書中引用他有關 Hashcash 的論文。這似乎是確保 Hashcash 的發明者認識這個新系統的一個藉口。
 
 ![Adam Back in 2012](assets/en/020.webp)
 
 2012 年的 Adam Back（資料來源：[Adam Back 的個人頁面](http://www.cypherspace.org/adam/)
 
-該電子郵件包含白皮書草稿的連結。PDF文件名為`ecash.pdf`，其標題為 「沒有可信第三方的電子現金」。摘要與將於十月發表的第一版摘要相同，只有一個字的差異。不幸的是，我們沒有完整的文件。
+這封電子郵件包含了白皮書草稿的連結。PDF 檔案名為 `ecash.pdf`，標題是「無需信任第三方的電子現金」。摘要與將於 10 月發佈的第一版本相同，只差一個字。很遺憾，我們並沒有完整的文件。
 
-在讀完 Satoshi 寄來的摘要 (但不是論文) 的隔天，Adam Back 將他轉到 Wei Dai 的 b-money 提案，這似乎與他的概念有相似之處。Satoshi 回應時感謝他的指點，並指明「我的想法正是從這一點出發」。Adam Back 也提到 MicroMint 的存在，但 Satoshi 沒有回應。
+在讀完寄來的摘要 (但不是論文) 的隔天，Adam Back 將他轉到 Wei Dai 的 b-money 提案，這似乎與他的概念有相似之處。中本聰回應時感謝他的指點，並指明「我的想法正是從這一點出發」。Adam Back 也提到 MicroMint 的存在，但中本聰沒有回應。
 
-隔天，也就是 8 月 22 日，Satoshi 發了一封電子郵件給 Wei Dai，說他 「正準備發表一篇論文，將您的想法擴展成一個完整的工作系統」，並請他提供他在 b-money 頁面上的出版年份，以便在白皮書中參考。就像他與 Adam Back 的 Exchange 一樣，他與戴偉分享了白皮書的草稿。
+隔天，也就是 8 月 22 日，中本聰發了一封電子郵件給 Wei Dai，說他 「正準備發表一篇論文，將您的想法擴展成一個完整的工作系統」，並請他提供他在 b-money 頁面上的出版年份，以便在白皮書中參考。就像他與 Adam Back 的交流中，他也把草稿分享給了 Wei Dai。
 
-儘管有這些互動，Adam Back 和 Wei Dai 並沒有立即對 Satoshi 的概念產生興趣。多年之後，他們才回到 Bitcoin：Wei Dai 在 2010-2011 年，Adam Back 在 2013 年。
+儘管有這些交流，Adam Back 和 Wei Dai 並未馬上對中本聰的概念產生興趣。他們直到幾年後才重新對 Bitcoin 感興趣：Wei Dai 在 2010-2011 年，而 Adam Back 在 2013 年。
 
-Satoshi 則完成了公開發明的準備工作。10 月 3 日，他完成了 Bitcoin 白皮書的第一版，現在已經選好了名字。10 月 5 日，他在 SourceForge 專案管理平台上註冊，開放原始碼軟體的原始碼將在此平台上存放並維護至 2011 年。
+另一方面，中本聰完成了使其公開的準備工作。在 10 月 3 日，他完成了 Bitcoin 白皮書的第一個版本，名稱也已選定。在 10 月 5 日，他註冊了 SourceForge 專案管理平台，開源軟體的原始碼將被托管和維護直到 2011 年。
 
 ### 白皮書的出版
 
-2008 年 10 月 31 日，Satoshi Nakamoto 在一個專門針對密碼學的電子郵件論壇上發表 [白皮書第一版](assets/pdf/Bitcoin-20081003.pdf)，簡稱 "Cryptography mailing list"。自 1996 年 [創建](https://cypherpunks.venona.com/date/1996/12/msg00102.html) 以來，此清單一直由開發人員 Perry Metzger 管理，並自 [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) 以來一直寄存在他的個人網站 Metdowd.com。它是 cypherpunks 列表的繼承者，不同之處在於它受到嚴格的管理。2008 年，仍有幾位前 cypherpunks 參與，例如 John Gilmore、Hal Finney 和 Len Sassaman。
+2008 年 10 月 31 日，中本聰在一個名為「Cryptography mailing list」的加密郵件論壇上發佈了[白皮書的第一個版本](assets/pdf/Bitcoin-20081003.pdf)。論壇自 1996 年 [創建](https://cypherpunks.venona.com/date/1996/12/msg00102.html) 以來，此清單一直由開發人員 Perry Metzger 管理，並自 [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html) 以來一直寄存在他的個人網站 Metdowd.com。它是密碼龐克（cypherpunk）論壇的繼承者，不同之處在於它受到嚴格的管理。2008 年，仍有幾位前密碼龐克（cypherpunk）參與，例如 John Gilmore、Hal Finney 和 Len Sassaman。
 
-在他寄給名單的第一封 [電子郵件](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html)中，Satoshi 簡單地寫道：
+在他給論壇發的第一封 [電子郵件](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html)中，中本聰寫道：
 
-> 「我一直在研究一個新的電子現金系統 它是完全點對點的，沒有可信的第三方」
+> 「我一直在致力於開發一種全新的電子現金系統，完全是點對點的，不需要受信任的第三方。」
 它也列出了他的模型的主要屬性：
 
 
-- 「Double-spending用點對點網路來防止」
-- 「沒有薄荷糖或其他可信任的一方」
-- 「參與者可以匿名」。
-- 「新單位是由 Hashcash 風格的 GW -167 製成的」
-- 「用於產生新機組的 Proof-of-Work 也能讓網路防止 Double-spending」。
+- 「通過點對點網絡防止雙重支付。」
+- 「沒有鑄幣廠或其他受信任的第三方。」
+- 「參與者可以是匿名的。」
+- 「新單位由類 Hashcash 的工作量證明創建。」
+- 「生成新單位所需的工作量證明也使網絡能防止雙重支付。」
 
-在他的電子郵件中，他附上了白皮書的連結，白皮書已存放在 Bitcoin.org，這是一份短短 9 頁的文件，以科學文章的形式呈現，描述 Bitcoin 的技術運作。這份文件著重於線上付款的問題。
+在他的電子郵件中，他附上了一個連結指向已經託管於 Bitcoin.org 的白皮書。這份簡短的 9 頁文件以一篇科學論文的形式呈現，描述了 Bitcoin 的技術運作，側重於線上支付問題。
 
 ![Title and summary of the first version of the white paper (October 2008)](assets/en/021.webp)
 
-在這項宣佈之後，Satoshi 收到了一些回應，但大部分都持懷疑態度。他在三件事上受到了顯著的批評：
+在這項宣佈之後，中本聰收到了幾個回覆，但大多數人持懷疑態度。尤其有三點被批評：
 
 
-- 首先，Cypherpunk James A. Donald [挑戰](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) 系統的可擴充性，他說 「似乎無法擴充到所需的規模」。Satoshi[回复](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)说，「带宽可能不像你想象的那样令人望而却步」。
-- 第二個負面評論來自 John R. Levine，他是《Internet for Dummies》一書的作者，也是一位專精於電子郵件基礎架構、垃圾郵件過濾和軟體專利的顧問。他 [批評](https://www.metzdowd.com/pipermail/cryptography/2008-November/014817.html) Bitcoin 的安全性，提到由駭客控制的電腦所組成的「殭屍機器農場」所擁有的運算能力。他特別指出，在網際網路上，「好人的計算能力遠遠低於壞人」。Satoshi [回應](https://www.metzdowd.com/pipermail/cryptography/2008-November/014818.html) 非常精彩：Satoshi [回應]() 非常精闢：「要求是好人集體的計算能力比任何單一攻擊者都要強」。
-- 最後，一位名叫 Ray Dillinger 的人 (使用假名 bear) [疑惑](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html) 計量單位的價值，感嘆「計算工作證明沒有內在價值」，並批評計算單位因電腦硬體的技術演進而膨脹。Satoshi[回覆](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)說「硬體速度的增加是由生產難度的週期性調整所解釋」。
+- 首先，密碼龐克 James A. Donald [質疑](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) 系統的可擴充性，他說 「似乎無法擴充到所需的規模」。中本聰[回覆](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)稱「帶寬可能沒有你想像得那麼受限。」
+- 第二個負面評論來自 John R. Levine，他是《Internet for Dummies》一書的作者，也是一位專精於電子郵件基礎架構、垃圾郵件過濾和軟體專利的顧問。他 [批評](https://www.metzdowd.com/pipermail/cryptography/2008-November/014817.html) Bitcoin 的安全性，提到由駭客控制的電腦所組成的「殭屍機器農場」所擁有的運算能力。他特別指出，在網際網路上，「好人的計算能力遠遠低於壞人」。中本聰[回應](https://www.metzdowd.com/pipermail/cryptography/2008-November/014818.html) 非常精彩：中本聰 [回應]() 非常精闢：「要求是好人集體的計算能力比任何單一攻擊者都要強」。
+- 最後，一位名叫 Ray Dillinger 的人 (使用假名 bear) [疑惑](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html) 計量單位的價值，感嘆「計算工作證明沒有內在價值」，並批評由於計算機硬體技術的演變，它們具有通貨膨脹性。中本聰[回覆](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)說「硬體速度的增加是由生產難度的週期性調整所解釋」。
 
-儘管懷疑主義是郵寄名單上的主要態度，但並非每個訂閱郵寄名單的人都抱持這種態度。特別是，有一個人的熱情從其他人中脫穎而出，他就是 Hal Finney，他對未來抱持樂觀的看法，儘管在 90 年代失敗，但他從未放棄電子現金的想法。幾年後，他[表示](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833)在這個問題上，「灰色的密碼學家[...]容易變得玩世不恭」，但他「比較理想主義」，「一直熱愛密碼學、它的神秘和它的弔詭」。（*原創："我注意到密碼學界的灰袍老頭（我已經 50 多歲了）傾向於變得玩世不恭。我比較理想主義；我一直都很喜歡密碼學，喜歡它的神秘和弔詭。「*）因此，11 月 7 日，他在寄給名單的 [電子郵件](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) 中寫道：」Bitcoin 似乎是個很有前途的想法"，並將 Satoshi 的模型與 Nick Szabo 的 bit gold 相提並論。(*原文：「Bitcoin 似乎是個非常有前途的想法。」*)
+儘管郵件論壇上普遍持懷疑態度，但並非所有訂閱者都這樣看待。特別的是，有一位表現出極大熱情：Hal Finney。他對未來持樂觀態度，儘管90年代數位現金的失敗，他從未放棄電子現金的理念。在此方面他多年後[表示](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833)在這個問題上，加密學的灰鬍子（年長的專家）往往會變得憤世嫉俗」，而他「更為理想主義」因為他「一直熱愛密碼學，那其中的神秘和矛盾」。（*原創："我注意到密碼學界的灰袍老頭（我已經 50 多歲了）傾向於變得玩世不恭。我比較理想主義；我一直都很喜歡密碼學，喜歡它的神秘和弔詭。「*）因此，11 月 7 日，他在寄給郵件論壇的[電子郵件](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) 中寫道：」Bitcoin 似乎是個很有前途的想法"，並將中本聰的模型與 Nick Szabo 的 bit gold 相比。(*原文：「Bitcoin 似乎是個非常有前途的想法。」*)
 
 ![Hal Finney in 2007](assets/en/022.webp)
 
@@ -525,20 +524,20 @@ Hal Finney 於 2007 年
 
 ### 貨幣政策與軟體程式碼
 
-Bitcoin 使用分散式共識演算法，讓所有網路節點就 Ledger 的內容達成共識，Hal Finney 在他的第一封電子郵件中提到「區塊鏈」這兩個字。選出的正確 Blockchain 就是擁有最多區塊的區塊，而競爭區塊的衝突則根據這個簡單的原則來解決。此機制會在 [稍後](https://sourceforge.net/p/Bitcoin/code/109/) 加以改進，以考量累積的工作量，而非區塊數。
+Bitcoin 使用了一種分布式共識演算法，使所有網絡節點對帳本的內容達成共識，Hal Finney 在他的第一封電子郵件中將此稱為「區塊 鏈（block chain）」，用兩個詞表示。正確的區塊鏈選擇是擁有最多區塊的那個，競爭區塊的衝突根據這個簡單的原則解決。機制後來[得到了改進](https://sourceforge.net/p/Bitcoin/code/109/) 以考量累積的工作量，而非區塊數。
 
-這種共識機制允許在系統中實施各種規則和激勵措施（套用白皮書的最後一句話）。由於 Bitcoin 構成分散式時間戳記服務，因此這些規則也有可能與時間的流逝產生互動。因此，難度調整演算法開始發揮作用，用來調節新區塊的生產以及與之相關的比特幣：如果在特定時期內生產的區塊數量過多，那麼生產的難度就會增加；反之，難度就會降低。Bitcoin 因此不同於 RPOW，在 RPOW 中，工作憑證本身構成了記帳單位。
+這種共識機制允許在系統中實施各種規則和激勵措施（套用白皮書的最後一句話）。由於 Bitcoin 構成分散式時間戳記服務，因此這些規則也有可能與時間產生互動。因此，難度調整演算法開始發揮作用，用來調節新區塊的生產以及與之相關的比特幣：如果在特定時期內生產的區塊數量過多，那麼生產的難度就會增加；反之，難度就會降低。Bitcoin 因此不同於 RPOW，在 RPOW 中，工作憑證本身構成了記帳單位。
 
-由於這個難度調整，Bitcoin 因此可以有貨幣政策，也就是說，協定所發行的新單位數量可以預先決定。一開始，為了鼓勵生產節點將其計算能力貢獻給網路，計劃中的貨幣發行量是恆定的，而且沒有交易費用。正如 Satoshi Nakamoto 在 [白皮書](assets/pdf/Bitcoin-20081003.pdf) 的「獎勵」部分所寫的一樣：
+憑藉這一難度調整，Bitcoin 可以擁有貨幣政策，發行的新單位數量可以預先確定。最初的計劃是使貨幣發行保持恆定，以鼓勵生產節點將計算能力貢獻給網絡，並且沒有交易費用。正如中本聰在[白皮書](assets/pdf/Bitcoin-20081003.pdf) 的「獎勵」部分所寫的一樣：
 
 > 「新硬幣數量的穩定增加，就好比黃金開採者耗費資源增加黃金流通量」。
-Satoshi [在郵寄名單上](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) 和 [在他的私人信件中](https://mmalmi.github.io/Satoshi/#email-3) 所確認的這項屬性，並沒有逃過 James A. Donald 的眼睛。11月9日，他[批評](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html)「追蹤誰擁有什麼的工作」(即 Mining)是「由seigniorage支付」，而且「需要通貨膨脹」，儘管他指出「可預測的通貨膨脹比起不時擺動以將財富從一個投票區轉移到另一個投票區的通貨膨脹較不令人反感」。(*原文："在建議的系統中，追蹤誰擁有什麼硬幣的工作是由seigniorage來支付的，而seigniorage需要通貨膨脹。這並非不可容忍的缺點--可預測的通貨膨脹比起為了將財富從一個投票區塊轉移到另一個投票區塊而不時擺動的通貨膨脹更不令人反感。」*）此外，他[指出](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html)「忽略所有它不關心的花費」的 Mining 節點「不會有任何不良後果」，因此突顯了審查的問題。(*原文：「如果一個節點忽略所有它不關心的花費，它就不會遭受任何不良後果。」*)
+中本聰[在郵件論壇上](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) 和 [在他的私人信件中](https://mmalmi.github.io/Satoshi/#email-3) 所確認的這項屬性，並沒有逃過 James A. Donald 的眼睛。11月9日，他[批評](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html)這個「追蹤誰擁有什麼的工作」（也就是挖礦）是「由鑄幣稅支付」的，需要「通貨膨脹」，即便他注意到「可預測的通貨膨脹比時不時對它進行刪減以將財富從一個投票集團轉移到另一個投票集團要少引人反感」。(*原文："在建議的系統中，追蹤誰擁有什麼硬幣的工作是由seigniorage來支付的，而seigniorage需要通貨膨脹。這並非不可容忍的缺點--可預測的通貨膨脹比起為了將財富從一個投票區塊轉移到另一個投票區塊而不時擺動的通貨膨脹更不令人反感。」*）此外，他[指出](https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html)如果一個挖礦節點「忽略掉所有它不關心的消費」，它不會「遭受任何不利後果」，指出了審查問題。(*原文：「如果一個節點忽略所有它不關心的花費，它就不會遭受任何不良後果。」*)
 
-這些話大概讓Satoshi意識到，他可以實行一種[交易費機制](https://www.metzdowd.com/pipermail/cryptography/2008-November/014842.html)來解決這兩個問題，方法是取代新單位的創建，並[鼓勵](https://www.metzdowd.com/pipermail/cryptography/2008-November/014843.html)礦工 「包含他們收到的所有付費交易」。(*原文：「節點會有動力去包含它們收到的所有付費交易 」*)
+些評論很可能讓中本聰意識到他可以實施一個[交易費用機制](https://www.metzdowd.com/pipermail/cryptography/2008-November/014842.html)來解決這兩個問題，方法是取代新單位的創建，並[鼓勵](https://www.metzdowd.com/pipermail/cryptography/2008-November/014843.html)礦工 「打包他們收到的所有付費交易」。(*原文：「節點會有動力去包含它們收到的所有付費交易 」*)
 
-同時，對話者的問題也促使他分享模型的原始碼。11 月 16 日，Satoshi 將程式碼傳送給 Hal Finney、James A. Donald 和 Ray Dillinger。17 日，他在郵寄名單上回覆 James A. Donald 時 [寫道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) 他已經將「主要檔案」寄給他，這些檔案「目前可應要求提供」，而且「很快」就會「完全釋出」。（*原文："I sent you the main files. &nbsp;(available by request at the moment, full release soon) "*) 在 Ray Dillinger 於 2013 年 [公開](https://bitcointalk.org/index.php?action=printpage;topic=382374.0) 的這部分程式碼中，我們可以看到 Bitcoin 的所有基礎 Elements 都存在：Blockchain（當時仍稱為「時間鏈」）、Proof of Work、硬幣表示模型 (UTXO)、交易可程式化、交易費用和 Halving。
+同時，對話者的問題也促使他分享模型的原始碼。11 月 16 日，中本聰把程式碼傳給了 Hal Finney、James A. Donald 和 Ray Dillinger。17 日，他在郵寄名單上回覆 James A. Donald 時 [寫道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) 他已經將「主要檔案」寄給他，這些檔案「目前可應要求提供」，而且「很快」就會「完全釋出」。（*原文："I sent you the main files. &nbsp;(available by request at the moment, full release soon) "*) 在 Ray Dillinger 於 2013 年 [公開](https://bitcointalk.org/index.php?action=printpage;topic=382374.0) 的這部分程式碼中，我們可以看到 Bitcoin 的所有基礎元件都存在：區塊鏈（當時還稱為「時間鏈（timechain）」）、工作量證明、硬幣表示模型（UTXO）、交易的可編程性、交易費用，以及減半機制。
 
-然而，有些參數有所不同，顯示它們是自發選擇的，或如[Satoshi寫道](https://plan99.net/~mike/Satoshi-emails/thread1.html)「有根據的猜想」。(*原文：「有根據的猜測 」*) 區塊時間，也就是每個區塊之間的目標時間，是 15 分鐘而不是 10 分鐘。難度調整期間為 2,880 個區塊（相當於 30 天，區塊時間為 15 分鐘），而非 2,016 個區塊（相當於 14 天，區塊時間為 10 分鐘）。Halving 機制存在於 `GetBlockValue` 函式中，決定了 Halving 應該每 100,000 個區塊發生一次，大約每 2 年又 311 天：
+然而，有些參數有所不同，顯示它們是自發選擇的，或如[中本聰所寫](https://plan99.net/~mike/Satoshi-emails/thread1.html)「有根據的猜想」。(*原文：「有根據的猜測 」*) 區塊時間，也就是每個區塊之間的目標時間，是 15 分鐘而不是 10 分鐘。難度調整期間為 2,880 個區塊（相當於 30 天，區塊時間為 15 分鐘），而非 2,016 個區塊（相當於 14 天，區塊時間為 10 分鐘）。減半機制存在於 `GetBlockValue` 函式中，決定了減半應該每 100,000 個區塊發生一次，大約每 2 年又 311 天：
 
 ```cpp
 int64 GetBlockValue(int64 nFees)
@@ -552,18 +551,18 @@ return nSubsidy + nFees;
 
 在第一個 100,000 個區塊期間會產生 100 個比特幣，在第二個期間會產生 50 個，如此類推，比特幣的總數量會趨向 2,000 萬。每個 Bitcoin (COIN) 可分割成 100 美分 (CENT)，而 100 美分 (CENT) 又可分割成 10,000 個基本單位，這表示一個 Bitcoin 可分割成 1 百萬個較小的單位，而不是像 1 月份發行的 0.1 版中的 1 億個單位。
 
-之後，Hal Finney 和 Ray Dillinger 對程式碼進行了徹底的檢閱。他們各自專注於系統的特定部分：Ray Dillinger 對共識部分感興趣，而 Hal Finney 則研究腳本系統。12 月 10 日，Satoshi [建立](https://web.archive.org/web/20131016004654/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200812) 了 Bitcoin-list 郵件列表，寄存在 SourceForge 上。這個列表成功率不高，儘管多年來也有一些感興趣的人寄出電子郵件。儘管如此，這一切都顯示原型推出的一切準備就緒，這件事將在一個月後，也就是 2009 年初發生。
+之後，Hal Finney 和 Ray Dillinger 對程式碼進行了徹底的檢閱。他們各自專注於系統的特定部分：Ray Dillinger 對共識部分感興趣，而 Hal Finney 則研究腳本系統。12 月 10 日，中本聰在[建立](https://web.archive.org/web/20131016004654/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200812) 了 Bitcoin-list 郵件論壇，寄存在 SourceForge 上。這個論壇並不是很成功，儘管多年來也有一些感興趣的人寄出電子郵件。儘管如此，這一切都顯示原型推出的一切準備就緒，這件事將在一個月後，也就是 2009 年初發生。
 
 ### 軟體發佈與網路啟動
 
-2009 年 1 月 8 日 19:27 時，Satoshi Nakamoto 在 Metzdowd.com 郵件列表上發佈了軟體的第一個版本（編號為 0.1.0）。C++ 原始碼在 MIT 授權下公開釋出，任何人都可以複製、修改和隨意使用。值得注意的是，它包含 Genesis 區塊的資料，這是連鎖的第一個區塊，後者必須從這個區塊延伸出來。此軟體只能在 Windows 上運作。Satoshi 在其 [email](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html) 公告中寫道：
+2009 年 1 月 8 日 19:27 時，中本聰在 Metzdowd.com 郵件論壇上發佈了軟體的第一個版本（編號為 0.1.0）。C++ 原始碼在 MIT 授權下公開釋出，任何人都可以複製、修改和隨意使用。值得注意的是，它包含創區塊（Genesis)的資料，這是鏈中第一個區塊，後者必須從中開始延伸。該軟體僅適用於 Windows 。中本聰在其 [email](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html) 公告中寫道：
 
-> "宣布 Bitcoin 的首次釋出，這是一個使用點對點網路來防止 Double-spending 的新電子現金系統。它是完全分散式的，沒有伺服器或中央機關"。
-他特別指出，「軟體仍在alpha階段，處於實驗階段」，而且「無法保證系統的狀態在某個時候，如果有必要的話，不會需要重新啟動」。（*原文："軟體仍處於 alpha 和實驗階段。如果有必要，不能保證系統狀態不會在某個時候被重新啟動 "*）獲得比特幣有兩種方式：從他人處接收資金，或者通過 CPU 啟動代幣。發送單位也有兩種方式：使用收件者的 IP Address，或透過 Bitcoin Address，可以離線發送付款。最後，電子郵件說明 Bitcoin 的最終貨幣政策，我們會在下一章討論。
+> "宣佈 Bitcoin 的首次發佈，這是一款使用點對點網絡來防止雙重支付的新電子現金系統。它是完全去中心化的，沒有服務器或中央權限。"
+他特別指出，「軟體仍在alpha階段，處於實驗階段」，而且「無法保證系統的狀態在某個時候，如果有必要的話，不會需要重新啟動」。（*原文："軟體仍處於 alpha 和實驗階段。如果有必要，不能保證系統狀態不會在某個時候被重新啟動 "*）獲得比特幣有兩種方式：從他人處接收資金，或者通過 CPU 生成代幣。發送單位也有兩種方式：使用收件者的 IP，或透過 Bitcoin 地址，可以離線發送付款。最後，這封電子郵件說明 Bitcoin 的最終貨幣政策，我們會在下一章討論。
 
-釋出的程式碼比展示的要複雜一些，是為了將來開發 Interface 而寫的，Interface 將允許更多的功能，而不只是轉移比特幣。Satoshi 確實 [整合](https://plan99.net/~mike/Satoshi-emails/thread4.html) 了「eBay 風格的市場」(*原文：「內建於客戶端中的 eBay 風格市場」*) 的基本功能，這 [可以](https://plan99.net/~mike/Satoshi-emails/thread1.html) 顯著「讓任何人都能輕鬆提供貨幣 Exchange」(*原文：「讓任何人都能輕鬆提供貨幣 Exchange」*)。該程式碼還包含 [一些功能](https://github.com/trottier/original-Bitcoin/blob/4184ab26345d19e87045ce7d9291e60e7d36e096/src/uibase.cpp#L1573-L1731)，專門用於直接在軟體中設置撲克應用程式的可能性。線上撲克自 2003 年起在美國蓬勃發展 (這要歸功於 「Moneymaker 效應」)，但在 2006 年通過 [Unlawful Internet Gambling Enforcement Act](https://www.pgt.com/news/what-if-poker-wasnt-part-of-the-uigea-back-in-2006) 之後，就成為金融審查的受害者，這也是新增功能的原因。
+發布的程式碼比最初展示的更加複雜，是為了未來開發，允許更多功能而不僅僅是轉賬比特幣。中本聰確實 [整合](https://plan99.net/~mike/Satoshi-emails/thread4.html) 了「eBay 風格的市場」(*原文：「內建於客戶端中的 eBay 風格市場」*) 的基本功能，這 [可以](https://plan99.net/~mike/Satoshi-emails/thread1.html) 顯著「讓任何人都能輕鬆提供貨幣交易」(*原文：「讓任何人都能輕鬆提供貨幣 Exchange」*)。該程式碼還包含 [一些功能](https://github.com/trottier/original-Bitcoin/blob/4184ab26345d19e87045ce7d9291e60e7d36e096/src/uibase.cpp#L1573-L1731)，專門用於直接在軟體中設置撲克應用程式的可能性。線上撲克自 2003 年起在美國蓬勃發展 (這要歸功於 「Moneymaker 效應」)，但在 2006 年通過 [Unlawful Internet Gambling Enforcement Act](https://www.pgt.com/news/what-if-poker-wasnt-part-of-the-uigea-back-in-2006) 之後，就成為金融審查的受害者，這也是新增功能的原因。
 
-公告幾小時後，在 1 月 8 日到 1 月 9 日的夜間，Satoshi 開始挖礦。1 月 9 日凌晨 2 點 54 分，他驗證了該鏈的第二個區塊（區塊 1）。這一區塊的產生標誌著網絡的有效啟動，在接下來的幾個小時內，其他鏈路也相繼加入。
+在公告發佈的幾小時後，1 月 8 日到 9 日的夜晚，中本聰開始挖礦。他在 1 月 9 日 2:54 驗證了區塊鏈的第二個區塊，區塊 1。這一區塊的生產標誌著網絡的正式啟動，其他區塊數小時內被添加到鏈上。
 
 完成這項工作之後，Satoshi 便自行通知與他溝通過的各個人有關這項發佈。在早上 5:21 時，他寄了一封 [email](https://www.coindesk.com/markets/2020/11/26/previously-unpublished-emails-of-Satoshi-nakamoto-present-a-new-puzzle/) 給 Hal Finney，通知他「Bitcoin v0.1 發行版與 EXE 和完整原始碼已可在 Sourceforge 上取得」。(*原文："the Bitcoin v0.1 release with EXE and full sourcecode is up on Sourceforge "*）第二天，他聯繫了 Adam Back 和 Wei Dai，給他們發送了一封個人化的郵件。在這些最後的電子郵件中，他特別加入了 Hal Finney 在郵件列表上發表的說明，其中提到 Proof of Work 和 b-money。
 

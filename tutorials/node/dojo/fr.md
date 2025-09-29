@@ -635,8 +635,6 @@ Vous aurez alors accès à l’ensemble des informations relatives aux connexion
 Dojo API and Maintenance Tool =
 ```
 
-33
-
 Pour accéder au DMT depuis n’importe quelle machine, quel que soit le réseau (même à distance), ouvrez Tor Browser et saisissez cette URL suivie de `/admin`. Par exemple, si votre URL est `wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion`, vous devrez entrer dans la barre de [Tor Browser](https://www.torproject.org/download/) :
 
 ```
@@ -647,14 +645,61 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 Vous serez ensuite redirigé vers une page d’authentification. La connexion au DMT s’effectue à l’aide du mot de passe `NODE_ADMIN_KEY` que vous avez généré plus tôt.
 
+33
+
+Une fois connecté, vous accédez au *Dojo Maintenance Tool* ! Durant l'IBD, vous pouvez notamment voir l'information "Latest Block" dans le menu "FULL NODE", qui vous permet de savoir où en est votre noeud Bitcoin.
+
 34
 
-Une fois connecté, vous accédez au *Dojo Maintenance Tool* ! Pensez à ajouter cette adresse à vos favoris dans Tor Browser afin de la retrouver facilement par la suite.
+Pensez à ajouter cette adresse à vos favoris dans Tor Browser afin de la retrouver facilement par la suite.
 
+Une fois votre Dojo entièrement synchronisé, vous devriez voir apparaître des green check ✅ sur l’ensemble des indicateurs de la page d’accueil du DMT.
 
+### 7.2. Vérification via les logs de Dojo
 
+La seconde méthode pour suivre l’avancement de votre IBD consiste à consulter directement les logs de votre machine. Cette approche offre un suivi bien plus précis et en temps réel. Vous pouvez ainsi observer la progression du téléchargement des blocs par Bitcoin Core ainsi que l’indexation réalisée par Fulcrum.
 
-### 7.3. Gestion de la corruption de Fulcrum
+Connectez-vous à la machine qui héberge votre Dojo et ouvrez un terminal. Toutes les commandes doivent être exécutées depuis le répertoire `my-dojo`. Positionnez-vous dans ce dossier :
+
+```bash
+cd ~/dojo-app/docker/my-dojo
+```
+
+35
+
+#### Logs de Bitcoin Core
+
+Affichez les journaux liés à Bitcoin Core pour suivre la progression de l’IBD :
+
+```bash
+./dojo.sh logs bitcoind
+```
+
+Au début, vous verrez apparaître une phase de présynchronisation des en-têtes de blocs :
+
+```
+bitcoind | Pre-synchronizing blockheader, height : NNNNNN
+```
+
+Lorsque ce chiffre atteint 100 %, Bitcoin Core entame alors le téléchargement complet de la blockchain. Vous verrez apparaître la progression de l’IBD. Pour connaître la hauteur de bloc en cours, consultez la valeur indiquée par `height=`. Vous pouvez également suivre la clé `progress=`, qui renseigne le pourcentage d’avancement de l’IBD.
+
+36
+
+Comme toujours, pour fermer les logs et revenir à l’invite de commande, utilisez la combinaison `Ctrl + C`.
+
+#### Logs de Fulcrum
+
+Une fois que Bitcoin Core a terminé la présynchronisation des en-têtes, Fulcrum commence à indexer la blockchain au fur et à mesure. Affichez ses journaux avec :
+
+```bash
+./dojo.sh logs fulcrum
+```
+
+Vous verrez alors s’afficher la hauteur du dernier bloc indexé, indiquée après `height:`, ainsi que le pourcentage de progression de l’indexation.
+
+37
+
+### 7.3. Corruption de la base de données de Fulcrum
 
 Fulcrum est un indexeur particulièrement performant, mais son installation peut s’avérer complexe, notamment en raison de la gestion délicate de sa base de données. En cas de coupure de courant ou d’arrêt brutal de la machine durant la synchronisation initiale, la base de données de l’indexeur risque d’être corrompue. Vous pouvez le constater, par exemple, si vous avez les logs suivants :
 

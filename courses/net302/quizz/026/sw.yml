@@ -1,9 +1,9 @@
-question: Je, ni kitengo gani cha data kinatumika kwenye Layer ya mtandao ya TCP/IP?
+question: Je, ni kitengo gani cha data kinatumika kwenye internet Layer ya TCP/IP?
 answer: Datagramu
 wrong_answers:
   - Sehemu
   - Fremu
   - Ujumbe
 explanation: |
-  Mtandao wa Layer hubadilisha datagramu, ikijumuisha sehemu kutoka kwa Usafiri Layer.
+  Internet Layer hubadilisha datagramu, ikijumuisha sehemu kutoka kwa transport Layer.
 reviewed: true

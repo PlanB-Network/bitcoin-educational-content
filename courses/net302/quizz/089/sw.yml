@@ -6,4 +6,4 @@ wrong_answers:
   - ARP
 explanation: |
   Amri ya ping hutumia itifaki ya ICMP kutuma maombi ya mwangwi na kupima muda wa mtandao.
-reviewed: false
+reviewed: true

@@ -1,17 +1,4 @@
-Get-ChildItem "*.md" -Recurse | ForEach-Object {
-    Write-Host "Processing: $($_.Name)" -ForegroundColor Yellow
-    
-    # Read content
-    $content = Get-Content $_.FullName -Raw
-    
-    # Replace /001.webp to /001.webp, /099.webp to /099.webp, etc.
-    $newContent = $content -replace '/(\d{2}\.webp)', '/0$1'
-    
-    # Save the file
-    Set-Content -Path $_.FullName -Value $newContent -NoNewline
-    
-    Write-Host "  Changed 2-digit to 3-digit format" -ForegroundColor Green
-}---
+---
 name: Pengantar tentang Penambangan Bitcoin
 goal: Memahami fungsi industri penambangan melalui latihan praktis menggunakan kembali ASIC.
 objectives:

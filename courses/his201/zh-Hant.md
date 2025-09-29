@@ -564,43 +564,43 @@ return nSubsidy + nFees;
 
 在公告發佈的幾小時後，1 月 8 日到 9 日的夜晚，中本聰開始挖礦。他在 1 月 9 日 2:54 驗證了區塊鏈的第二個區塊，區塊 1。這一區塊的生產標誌著網絡的正式啟動，其他區塊數小時內被添加到鏈上。
 
-完成這項工作之後，Satoshi 便自行通知與他溝通過的各個人有關這項發佈。在早上 5:21 時，他寄了一封 [email](https://www.coindesk.com/markets/2020/11/26/previously-unpublished-emails-of-Satoshi-nakamoto-present-a-new-puzzle/) 給 Hal Finney，通知他「Bitcoin v0.1 發行版與 EXE 和完整原始碼已可在 Sourceforge 上取得」。(*原文："the Bitcoin v0.1 release with EXE and full sourcecode is up on Sourceforge "*）第二天，他聯繫了 Adam Back 和 Wei Dai，給他們發送了一封個人化的郵件。在這些最後的電子郵件中，他特別加入了 Hal Finney 在郵件列表上發表的說明，其中提到 Proof of Work 和 b-money。
+完成這項工作之後，中本聰便自行通知與他溝通過的各個人有關這項發佈。在早上 5:21 時，他寄了一封 [email](https://www.coindesk.com/markets/2020/11/26/previously-unpublished-emails-of-Satoshi-nakamoto-present-a-new-puzzle/) 給 Hal Finney，通知他「Bitcoin v0.1 發行版與 EXE 和完整原始碼已可在 Sourceforge 上取得」。(*原文："the Bitcoin v0.1 release with EXE and full sourcecode is up on Sourceforge "*）第二天，他聯繫了 Adam Back 和 Wei Dai，給他們發送了一封個人化的郵件。在這些最後的電子郵件中，他特別加入了 Hal Finney 在郵件論壇上發表的說明，其中提到工作量證明和 b-money。
 
-1 月 10 日，Hal Finney 嘗試啟動軟體的可執行檔案，但遇到技術問題，導致電腦當機。他 [聯絡](https://web.archive.org/web/20140821141611/http://sourceforge.net/p/Bitcoin/mailman/message/21295694/)Satoshi 並開始就此事與他交換意見。雖然困難重重，Hal Finney 還是成功地讓軟體運作起來。在 1 月 10 日晚上到 11 日凌晨 1 點，他找到了他的第一個區塊（[區塊 78](https://Mempool.space/block/00000000a2886c95400fd3b263b9920af80b118b28fee5d2a162a18e4d9d8b2f)），因此賺到了 50 個比特幣。一個小時之後，他向*加密郵件列表*發送了一封[值得稱讚的電子郵件](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html)，在郵件中他祝賀 Satoshi 發布 alpha 版本，並強調了帳戶單位的貨幣政策。最後，在凌晨3:33，他[分享](https://twitter.com/halfin/status/1110302988)他在Twitter（一個當時新興的社交網絡）上的經驗，說他正在"\[r\]unning \[B\]itcoin"。這是第一條關於 Bitcoin 的推特。
+1 月 10 日，Hal Finney 嘗試啟動軟體的可執行檔案，但遇到技術問題，導致電腦當機。他 [聯絡](https://web.archive.org/web/20140821141611/http://sourceforge.net/p/Bitcoin/mailman/message/21295694/)中本聰並開始就此事與他交換意見。雖然困難重重，Hal Finney 還是成功地讓軟體運作起來。在 1 月 10 日晚上到 11 日凌晨 1 點，他找到了他的第一個區塊（[區塊 78](https://Mempool.space/block/00000000a2886c95400fd3b263b9920af80b118b28fee5d2a162a18e4d9d8b2f)），因此賺到了 50 個比特幣。一個小時之後，他向*加密郵件論壇*發送了一封[讚美的電子郵件](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html)，在郵件中他祝賀中本聰發布 alpha 版本，並強調了帳戶單位的貨幣政策。最後，在凌晨3:33，他[分享](https://twitter.com/halfin/status/1110302988)他在Twitter（一個當時新興的社交網絡）上的經驗，說他正在"\[r\]unning \[B\]itcoin"。這是第一條關於 Bitcoin 的推特。
 
-從這些 Satoshi 和 Hal Finney 之間的交流中產生了 0.1.3 版本，並於 1 月 12 日 [發布](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/Bitcoin/mailman/message/21313152/)，這個版本比之前的版本更穩定。Satoshi 也利用他與 Hal Finney 的對話，給了他一些 bitcoins：他在 1 月 11 日到 12 日的夜間，凌晨 3:30 透過他的 IP Address [寄](https://Mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) 給他 10 個 bitcoins。這是網路中第一個從一個人轉到另一個人的轉帳。
+從這些中本聰和 Hal Finney 之間的交流中產生了 0.1.3 版本，並於 1 月 12 日 [發布](https://web.archive.org/web/20171124135217/https://sourceforge.net/p/Bitcoin/mailman/message/21313152/)，這個版本比之前的版本更穩定。中本聰也利用他與 Hal Finney 的對話，給了他一些 bitcoins：他在 1 月 11 日到 12 日的夜間，凌晨 3:30 透過他的 IP Address [寄](https://Mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16) 給他 10 個 bitcoins。這是網路中第一個從一個人轉到另一個人的轉帳。
 
-但 Hal Finney 並不是當時唯一嘗試 Bitcoin 的人。Dustin D. Trammell 也是如此，他是一位美國電腦安全研究員，當時對數位貨幣（尤其是電子版的自由幣）很感興趣，他透過郵件列表發現了 Bitcoin。1 月 11 日，他在自己的一台工作機器上執行該軟體（但由於技術問題，他直到 13 日才挖出第一個 [區塊](https://Mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e)）。在 1 月 11 日至 12 日的夜間，他與 Satoshi 取得聯繫，並在接下來的幾天與 Satoshi 進行了廣泛的 [溝通](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip)。1 月 15 日，Dustin Trammell [收到](https://Mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) 他寄來的 25 個 bitcoins。
+Hal Finney 並不是當時唯一嘗試 Bitcoin 的人。Dustin D. Trammell 也是如此，他是一位美國電腦安全研究員，當時對數位貨幣（尤其是電子版的自由幣）很感興趣，他透過郵件論壇發現了 Bitcoin。1 月 11 日，他在自己的一台工作機器上執行該軟體（但由於技術問題，他直到 13 日才挖出第一個 [區塊](https://Mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e)）。在 1 月 11 日至 12 日的夜間，他與中本聰取得聯繫，並在接下來的幾天與中本聰進行了廣泛的 [溝通](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip)。1 月 15 日，Dustin Trammell [收到](https://Mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) 他寄來的 25 個 bitcoins。
 
 ![Dustin Trammell](assets/en/023.webp)
 
 Dustin Trammell (來源：[Dustin Trammell 的部落格檔案](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/)
 
-隨後，其他人嘗試讓軟體運作。英國律師 Nicholas Bohm 就是這樣，他於 1 月 25 日在 Bitcoin-list 發送電子郵件，因為他遇到技術問題，並與 Satoshi 私下交換意見。某位 Jeff Kane 在 1 月 30 日成功地讓 0.1.3 版正常運作。Nicholas Bohm 將與 Dustin Trammell 一起在二月初發佈的 0.1.5 版軟體的功勞表中被提及。
+隨後，其他人嘗試讓軟體運作。英國律師 Nicholas Bohm 就是這樣，他於 1 月 25 日在 Bitcoin-list 發送電子郵件，因為他遇到技術問題，並私下與中本聰交流。某位 Jeff Kane 在 1 月 30 日成功地讓 0.1.3 版正常運作。Nicholas Bohm 將與 Dustin Trammell 一起在二月初發佈的 0.1.5 版軟體的功勞表中被提及。
 
 從 2009 年 1 月 9 日起，網路將不會停止。一個接一個的區塊，鏈會繼續延長。而 Bitcoin 最終將取得成功。
 
 ### 漸進式設計
 
-從 Bitcoin 的設計過程中，我們可以了解到它是循序漸進的。從 2007 年春天的第一個構思到 2009 年冬天網絡的實際啟動，實際上已經過了一年半的時間。此外，一些Elements的模式也在不斷演變，就像我們看到的貨幣政策和交易費機制，都是在2008年10月31日第一版白皮書發佈後出現的。
+從 Bitcoin 的設計過程中，我們可以了解到它是循序漸進的。從 2007 年春天的第一個構思到 2009 年冬天網絡的實際啟動，實際上已經過了一年半的時間。此外，模型的某些元素隨著時間的推移而演變，就像我們看到的貨幣政策和交易費機制，都是在2008年10月31日第一版白皮書發佈後出現的。
 
-然而，這些工作並不足夠，Satoshi 需要堅持不懈才能啟動他的系統。從一開始，他就很清楚很少有人認真考慮過他的模式，而且要吸引新的使用者和貢獻者會很複雜。這就是為什麼他嘗試通過盡可能地推銷他的想法來讓 generate 興奮的原因。我們將在涵蓋 2009 年大部分時間的下一章探討這方面的問題。
+然而，這些工作並不足夠，中本聰需要堅持不懈才能啟動他的系統。從一開始，他就很清楚很少有人認真考慮過他的模式，而且要吸引新的使用者和貢獻者會很困難。因此，他試圖通過盡最大努力推銷自己的想法來引起興趣。我們將在接下來的章節探討這一方面，涵蓋大部分 2009 年的內容。
 
 ## 向世界展示
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
 
-在檢視過 Bitcoin 是如何由 Satoshi Nakamoto 設計與推出之後，讓我們重點看看它是如何公開展示的。Bitcoin 於 2009 年初推出後，網路開始運作，但生成節點很少 (Satoshi 挖出絕大多數的區塊)，活動幾乎不存在 (1 月份實際交易 32 次)。該專案只有一個基本的網站和一個供下載軟體的 SourceForge 頁面。此外，關於 Bitcoin 的溝通也僅限於 Metzdowd Cryptography 郵件列表，最多只有幾百個熱衷於密碼學的人關注。
+在檢視過 Bitcoin 是如何由中本聰設計與推出之後，讓我們重點看看它是如何公開展示的。Bitcoin 於 2009 年初推出後，網路開始運作，但節點很少 (中本聰挖出絕大多數的區塊)，活動幾乎不存在 (1 月份實際交易 32 次)。該專案只有一個基本的網站和一個供下載軟體的 SourceForge 頁面。此外，關於 Bitcoin 的溝通也僅限於 Metzdowd Cryptography 郵件論壇，最多只有幾百個熱衷於密碼學的人關注。
 
-因此，這段期間的挑戰是如何推廣 Bitcoin，以吸引臨界用戶群，進而讓他們以某種方式為這項事業做出貢獻。這就是為什麼 Satoshi 的首要任務是改善網站，並與不同的人互動。他想讓全世界都知道他的發現。
+因此，這段期間的挑戰是如何推廣 Bitcoin，以吸引用戶群，進而讓他們以某種方式為這項事業做出貢獻。這就是為什麼中本聰的首要任務是改善網站，並與不同的人互動。他想讓全世界都知道他的發現。
 
-在本章中，我們將探討在 Satoshi 的溝通努力中出現的文化符碼，例如對銀行系統的不信任和 2,100 萬的限額。我們也會評論 Satoshi 為了捍衛他的發明而與他的敵對者進行的對話。最後，我們會談談他從其他人那裡獲得的幫助，尤其是他的第一得力助手 Martti Malmi 所提供的重要協助。
+在本章中，我們將探討在中本聰的溝通努力中出現的文化符碼，例如對銀行系統的不信任和 2,100 萬的限額。我們也會評論中本聰為了捍衛他的發明而與他的敵對者進行的對話。最後，我們會談談他從其他人那裡獲得的幫助，尤其是他的第一得力助手 Martti Malmi 所提供的重要協助。
 
-### Genesis Block
+### 創世區塊（Genesis Block）
 
-2009 年 1 月的發佈為 Satoshi Nakamoto 提供了建立其系統固定參數的機會。正如他後來 [撰文](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) 所說，Bitcoin 的性質是這樣的：「一旦 0.1 版發佈，」其基本操作就「在餘下的時間裡一錘定音」，因此有必要在系統擴展之前把事情做好。(*原文：「一旦 0.1 版發佈，核心設計就在其餘下的生命中定型 」*）特別是，Elements 的兩個基礎具有重大的文化重要性：Genesis 區塊的內容和 2,100 萬單位的限制。
+2009 年 1 月的發佈為中本聰提供了建立其系統固定參數的機會。正如他後來 [撰文](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) 所說，Bitcoin 的性質是這樣的：「一旦 0.1 版發佈，」其基本操作就「在餘下的時間裡一錘定音」，因此有必要在系統擴展之前把事情做好。(*原文：「一旦 0.1 版發佈，核心設計就在其餘下的生命中定型 」*）特別是，兩個基礎元素具有重大的文化意義：創世區塊的內容和 2100 萬單位的限制。
 
-Genesis 區塊是 Bitcoin Blockchain 的基本區塊，必須從 Bitcoin Blockchain 延伸出來。因此，它被硬編入軟體中。在啟動網路之前，Satoshi 藉由製作所需的 Proof of Work 並在 2009 年 1 月 3 日 18:15:05 UTC 打上時間戳，建構了這第一個連結。在這個區塊中（特別是在獎勵交易中），他刻下了以下訊息：
+創世區塊是 Bitcoin 區塊鏈的基本區塊，需從此延伸。因此，它被硬編碼進軟體。啟動網絡之前，中本聰通過生成所需的工作量證明並將其時間戳設置為 2009 年 1 月 3 日 18:15:05 UTC，構造了第一個鏈結。在此區塊（尤其是在獎勵交易中），他刻下了以下信息：
 
 ```
 The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
@@ -609,74 +609,74 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 這是英國《泰晤士報》當天的頭條新聞，顯示財政大臣（即英國財政大臣）即將第二次拯救銀行。在區塊中出現這個標題有雙重作用：
 
 
-- 一方面，由於 Satoshi 不可能在報紙刊登之前就知道頭條新聞，因此可以證明系統不可能在 1 月 3 日之前啟動，從而防止追溯網路啟動的時間；
+- 一方面，因為中本聰不可能在報紙發行之前知道這篇文章標題，因此可以證明系統不可能在 1 月 3 日之前啟動，從而防止追溯網路啟動的時間；
 - 另一方面，它象徵性地指出 Bitcoin 所反對的是當時的貨幣與金融環境。
 
 ![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
 
-當時，全球確實感受到自 2007 年美國次贷泡沫爆破開始的金融危機所帶來的全面衝擊。在投資銀行雷曼兄弟於 2008 年 9 月 15 日倒閉後，各國政府為了防止金融機構進一步破產而對其進行救助，各國央行也透過向金融市場注入流動資金的方式實行量化寬鬆政策。這種運用公共資金所創造出來的場合，讓許多公民感到不安，他們意識到銀行體系實際上是一個私人獲利、社會化虧損的體系。
+當時，全球確實感受到自 2007 年美國次貸泡沫爆破開始的金融危機所帶來的全面衝擊。在投資銀行雷曼兄弟於 2008 年 9 月 15 日倒閉後，各國政府為了防止金融機構進一步破產而對其進行救助，各國央行也透過向金融市場注入流動資金的方式實行量化寬鬆政策。這種運用公共資金所創造出來的場合，讓許多公民感到不安，他們意識到銀行體系實際上是一個私人獲利、社會化虧損的體系。
 
 另一方面，Bitcoin 不依賴可信賴的第三方，因此不受中央銀行的左右。因此，它與美元或歐元等國家貨幣形成對比，這些貨幣的數量可以由控制貨幣創造的人任意改變；Bitcoin 的貨幣政策確實是事先編程，寫入協議中，理論上永遠不會改變。
 
 ### 2,100 萬上限
 
-這讓我們想到 Satoshi 在網路啟動當天提出的第二個要素：2,100 萬的限額。1 月 8 日，他在【介紹電子郵件】(https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html) 中，對這項貨幣政策做了如下描述：
+這讓我們想到中本聰在網路啟動當天提出的第二個要素：2,100 萬的限額。1 月 8 日，他在【介紹電子郵件】(https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html) 中，對這項貨幣政策做了如下描述：
 
 > "總發行量將為 21,000,000 個單位。&nbsp;它們將在創建區塊時分發給網路節點，發行量每 4 年減半一次。
 >
 
-> 前 4 年：10,500,000 件
-> 未來 4 年：5,250,000 台
-> 未來 4 年：2,625,000 件
-> 未來 4 年：1,312,500 件
+> 前 4 年：10,500,000 單位
+> 未來 4 年：5,250,000 單位
+> 未來 4 年：2,625,000 單位
+> 未來 4 年：1,312,500 單位
 > 等等。
 >
 
 > &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."。
-幾天之後，Hal Finney [反應](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 在郵寄名單上正面回應這項貨幣政策，他對於 「系統可以被設定為只允許某個最大數量的單位產生 」感到興奮。在他的電子郵件中，他估計如果 Bitcoin 成為「全球使用的主要支付系統」，那麼每個單位的「價值約為 1,000 萬美元」。他在結論中寫道：「今天用幾美分的計算時間就能產生單位的可能性 」可能是 「一個非常好的賭注」。即使這個估算值得商榷（因為它是基於相當於全球財富總額的 Bitcoin 估值），其推理也是合理的。
+幾天之後，Hal Finney 針對這一貨幣政策在郵件論壇上[正面回應](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 這項貨幣政策，他對於 「系統可以被設定為只允許某個最大數量的單位產生 」感到興奮。在他的電子郵件中，他估計如果 Bitcoin 成為「全球使用的主要支付系統」，那麼每個單位的「價值約為 1,000 萬美元」。他在結論中寫道：「今天用幾美分的計算時間就能產生單位的可能性 」可能是 「一個非常好的賭注」。即使這個估算值得商榷（因為它是基於相當於全球財富總額的 Bitcoin 估值），其推理也是合理的。
 
-1 月 16 日，Satoshi 在他分享給郵件列表的一封电子邮件中再次提到了「長期投資」的想法，他在郵件中描述了潛在的使用案例。他 [表示](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) 當時表示，「如果它流行起來，買一些也許是有道理的。如果有足夠的人有相同的想法，那就會成為一個自我充實的預言"。一個月之後，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) 這種說法，並解釋說，數量有限很可能會造成「正反饋循環」，也就是「使用者越多，價值就越高，這可能會吸引更多想要從價值增加中獲益的使用者」。因此，投機元素從一開始就存在，目的是啟動系統。
+1 月 16 日，中本聰在他與郵件論壇的信中重提了這一「長期投資」的想法，他在郵件中描述了潛在的使用案例。他 [表示](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) 當時表示，「如果它流行起來，買一些也許是有道理的。如果有足夠的人有相同的想法，那就會成為一個自我實現的預言"。一個月之後，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) 這種說法，並解釋說，數量有限很可能會造成「正反饋循環」，也就是「使用者越多，價值就越高，這可能會吸引更多想要從價值增加中獲益的使用者」。因此，投機元素從一開始就存在，目的是啟動系統。
 
 ### 監管、殭屍網絡和生態學
 
-在此之後，另一個討論在郵件列表中發展。Satoshi 提到垃圾郵件限制是一個用例，這引起了不同貢獻者的反應。Bitcoin 的創作人寧願私下回應這些批評，但 Hal Finney 卻主動公開提出反對。他在嘗試使用 RPOW 開發自己的數位貨幣時，確實有時間反省這些問題。
+在此之後，另一場有關郵件論壇的討論展開。中本聰提到垃圾郵件限制作為一個範例，這激起了各種貢獻者的反應。Bitcoin 的創造者更願意私下回應這些批評，但 Hal Finney 公開提出了異議。他反思這些問題，因為他曾試圖開發自己的數位貨幣，RPOW。
 
-首先，出現了政府管制和可能禁止 Bitcoin 的問題。這個問題是由 Jonathan Thornburg [提出](https://www.metzdowd.com/pipermail/cryptography/2009-January/015016.html)，他是布魯明頓印第安那大學天文系的研究員，也是郵件列表的常客。在他回應 Satoshi 所提出的使用案例的電子郵件中，他概述了全球金融監控的情況，並指出 Bitcoin 可以允許轉移超過當局所能容忍臨界值的金額。他推理的邏輯結果是，「沒有任何主要政府可能會允許目前形式的 Bitcoin 大規模運作」。
+首先，出現了政府管制和可能禁止 Bitcoin 的問題。這個問題是由 Jonathan Thornburg [提出](https://www.metzdowd.com/pipermail/cryptography/2009-January/015016.html)，他是布魯明頓印第安那大學天文系的研究員，也是郵件論壇常客。在他回應中本聰所提出的使用案例的電子郵件中，他概述了全球金融監控的情況，並指出 Bitcoin 可以允許轉移超過當局所能容忍臨界值的金額。他推理的邏輯結果是，「沒有任何主要政府可能會允許目前形式的 Bitcoin 大規模運作」。
 
 Hal Finney 對這個問題很感興趣，他在 1 月 21 日寫了一則 [推文](https://twitter.com/halfin/status/1136749815)，表示他正在「研究如何在 Bitcoin 中加入更多匿名功能」。之後，他在 24 日 [回應](https://www.metzdowd.com/pipermail/cryptography/2009-January/015036.html) Jonathan Thornburg，寫道：「這一點當然有道理，而且多年來在電子現金的辯論中已被廣泛討論。Bitcoin 有幾個優點：一是它是分散式的，沒有單點故障、沒有「鑄幣廠」、沒有可被傳票、逮捕和關閉的公司人員。
 
-接下來，在同一封電子郵件中，Jonathan Thornburg 討論了殭屍電腦網路的主題，殭屍電腦網路可以輕易「繞過付費的電子郵件過濾器」，他指的是 Satoshi 所強調的使用案例。Satoshi 私下 [回覆](https://mmalmi.github.io/Satoshi/#email-3) 給他，解釋在這種情況下，可以「透過設立付費寄送的電子郵件位址，收集所有垃圾郵件的錢，賺取可觀的利潤」，他在 25 日的名單上 [轉錄](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html) 了這個意見。Hal Finney 則提醒我們，Proof of Work「主要是為了確保交易歷史資料庫的可靠性」，並補充說，如果 Proof of Work 代幣有用，那麼機器就不會再閒置，寄生蟲也會減少。
+接下來，在同一封電子郵件中，Jonathan Thornburg 討論了殭屍電腦網路的主題，殭屍電腦網路可以輕易「繞過付費的電子郵件過濾器」，他指的是中本聰所強調的使用案例。中本聰私下 [回覆](https://mmalmi.github.io/Satoshi/#email-3) 給他，解釋在這種情況下，可以「透過設立付費寄送的電子郵件位址，收集所有垃圾郵件的錢，賺取可觀的利潤」，他在 25 日的論壇上 [轉錄](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html) 了這個意見。Hal Finney 則提醒我們，工作量證明「主要是為了確保交易歷史資料庫的可靠性」，並補充說，如果工作量證明代幣有用，那麼機器就不會再閒置，寄生蟲也會減少。
 
-最後，最後一則評論來自 John Gilmore，他是 cypherpunks 的創始成員，也是 1992 年至 1997 年間該運動第一封郵件列表的管理人。在 1 月 25 日寄出的電子郵件中，他強調 Bitcoin 應有的生態後果，並 [寫道](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) 「我們最不需要的就是部署一個設計來燃燒所有可用週期的系統，在網際網路上消耗電力並產生二氧化碳，以產生少量的 bitbux 來讓電子郵件或垃圾郵件通過」。Satoshi [回覆](https://mmalmi.github.io/Satoshi/#email-3) 私下對他說，「如果要在經濟自由和環境保護之間做選擇，那真是諷刺」。他補充說，「Proof of Work 是 [他] 找到的唯一能讓點對點電子現金系統正常運作的解決方案」，而且即使要消耗大量能源，「它的浪費還是會比它要取代的勞動力和資源密集的傳統銀行活動少」。
+最後，最後一則評論來自 John Gilmore，他是密碼龐克的創始成員，也是 1992 年至 1997 年間該運動首個郵件論壇的管理者。在 1 月 25 日寄出的電子郵件中，他強調 Bitcoin 應有的生態後果，並 [寫道](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) 「我們最不需要的就是部署一個系統來消耗所有的可用運算能力，耗費電能並產生二氧化碳，以產生少量的 bitbux 來讓電子郵件或垃圾郵件通過」。中本聰 [回覆](https://mmalmi.github.io/Satoshi/#email-3) 私下對他說，「如果要在經濟自由和環境保護之間做選擇，那真是諷刺」。他補充說，「工作量證明是 [他] 找到的唯一能讓點對點電子現金系統正常運作的解決方案」，而且即使要消耗大量能源，「它的浪費還是會比它要取代的勞動力和資源密集的傳統銀行活動少」。
 
 ![John Gilmore in 2007](assets/en/025.webp)
 
 John Gilmore 於 2007 年 (來源：[Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
-27 日，Hal Finney [提到](https://www.metzdowd.com/pipermail/cryptography/2009-January/015056.html) 減少與計算 Proof of Work 相關的能量耗散的方法。一小時後，他在 Twitter 上 [寫道](https://twitter.com/halfin/status/1153096538) 「思考如何減少因廣泛實施 Bitcoin 而產生的二氧化碳排放」。
+27 日，Hal Finney [提到](https://www.metzdowd.com/pipermail/cryptography/2009-January/015056.html) 減少與計算工作量證明相關的能量耗散的方法。一小時後，他在 Twitter 上 [寫道](https://twitter.com/halfin/status/1153096538) 「思考如何減少因廣泛實施 Bitcoin 而產生的二氧化碳排放」。
 
-另一個支持來自 Cypherpunk Zooko Wilcox-O'Hearn，他當時正在開發 Tahoe-LAFS，這是一個檔案分享系統，是 2000 年代初期流行的專案 [Mojo Nation](https://www.salon.com/2000/10/09/mojo_nation/)的繼承者。1 月 26 日，在郵件論壇的討論中，他分享了一個連結，連結到他當天在部落格發表的一篇文章，題為「[Decentralized Money](https://web.archive.org/web/20090303195936/http://testgrid.allmydata.org:3567/uri/URI:DIR2-RO:j74uhg25nwdpjpacl6rkat2yhm:kav7ijeft5h7r7rxdp5bgtlt3viv32yabqajkrdykozia5544jqa/wiki.html#%5B%5BDecentralized%20Money%5D%5D)」，他在文章中提到各種數位貨幣專案 (DigiCash、bit gold、b-money)，並稱讚 Bitcoin。他特別寫道：
+另一個支持來自密碼龐克 Zooko Wilcox-O'Hearn，他當時正在開發 Tahoe-LAFS，這是一個檔案分享系統，是 2000 年代初期流行的專案 [Mojo Nation](https://www.salon.com/2000/10/09/mojo_nation/)的繼承者。1 月 26 日，在郵件論壇的討論中，他分享了一個連結，連結到他當天在部落格發表的一篇文章，題為「[Decentralized Money](https://web.archive.org/web/20090303195936/http://testgrid.allmydata.org:3567/uri/URI:DIR2-RO:j74uhg25nwdpjpacl6rkat2yhm:kav7ijeft5h7r7rxdp5bgtlt3viv32yabqajkrdykozia5544jqa/wiki.html#%5B%5BDecentralized%20Money%5D%5D)」，他在文章中提到各種數位貨幣專案 (DigiCash、bit gold、b-money)，並稱讚 Bitcoin。他特別寫道：
 
-> 「我想要的是一種人人都能廉價方便地使用，但***無人***有權操控的貨幣。&nbsp;無人有權使貨幣 Supply 膨脹或貶值，無人有權監控、徵稅或阻止交易。&nbsp;在黃金成為通用貨幣的時代和地方，真正等同於黃金的數碼貨幣。」
-幾個星期之後，Bitcoin.org 終於[新增](https://web.archive.org/web/20090303195936/http://Bitcoin.org/) 了這個文字的連結。而 Satoshi 在一年半之後親自[感謝](https://bitcointalk.org/index.php?topic=890.msg10723#msg10723) Zooko 的這點幫助。
+> 「我想要的是一種貨幣，人人都能便宜和方便地使用，但***無人***有權操控的貨幣。&nbsp;無人有能力擴充或縮減貨幣供應，無人有權監控、徵稅或阻止交易。&nbsp;宛如在黃金成為通用貨幣的時代和地方，真正等同於黃金的數碼貨幣。」
+幾個星期之後，Bitcoin.org [新增](https://web.archive.org/web/20090303195936/http://Bitcoin.org/) 了這個文字的連結。而中本聰在一年半之後親自[感謝](https://bitcointalk.org/index.php?topic=890.msg10723#msg10723) Zooko 的這點幫助。
 
 ### 點對點與對中央銀行的不信任
 
-正如我們所說，雖然 Satoshi 的溝通最初僅限於 Cryptography 郵件列表，但後來擴展到其他領域。2009 年 2 月，他參加了 P2P 基金會的論壇和郵件列表，該組織成立於 2007 年，專門研究點對點基礎設施對社會的影響。他與幾位成員互動，目的都是為了推廣他的模式。
+如前所述，中本聰的交流最初僅限於密碼學郵件論壇，而後來才擴展到其他領域。2009年2月，他參加了P2P Foundation的論壇和郵件論壇，該組織成立於2007年，研究P2P基礎設施對社會的影響。他與其成員進行互動，一直試圖推廣自己的模型。
 
-2 月 11 日，Satoshi 在論壇 (p2pfoundation.ning.com) 上發表了一篇介紹 Bitcoin 的 [介紹訊息](https://p2pfoundation.ning.com/forum/topics/Bitcoin-open-source)，並透過電子郵件傳送了一份 [複本](https://diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001347.html) 到列表 (P2P-research)。在這篇文章中，他寫道：
+2 月 11 日，中本聰在論壇 (p2pfoundation.ning.com) 上發表了一篇介紹 Bitcoin 的 [介紹訊息](https://p2pfoundation.ning.com/forum/topics/Bitcoin-open-source)，並透過電子郵件傳送了一份 [複本](https://diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001347.html) 到列表 (P2P-research)。在這篇文章中，他寫道：
 
-> "傳統貨幣的根本問題在於它需要信任才能運作。我們必須信任中央銀行不會貶值貨幣，但法定貨幣的歷史充滿了違反信任的情況。我們必須相信銀行會持有我們的錢並透過電子方式轉移，但他們卻在一波波的信貸泡沫中把錢借出去，而且幾乎沒有任何儲備。我們必須相信銀行會保護我們的隱私，不會讓身份盜用者掏空我們的帳戶。銀行高昂的間接成本使得微額支付成為不可能"。
-在他的 [個人資料](https://p2pfoundation.ning.com/profile/SatoshiNakamoto)，他聲稱自己是日本人，但這並非全部。2011 年的 Interface 更新顯示了他的年齡：35 歲，這表示他在 2009 年是 32 或 33 歲。之後，在 2014 年，有人 [發現](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) 他表示了特定的出生日期：1975 年 4 月 5 日。這個日期看似無關緊要，但很可能是綜合參考了美國在 1933 年至 1975 年間禁止美國公民擁有黃金的規定。4 月 5 日與 1933 年 4 月 5 日富蘭克林-德拉諾-羅斯福總統簽署的[行政命令 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates)所規定的禁止日期有關，而 1975 年則與[公法 93-373](https://www.govtrack.us/congress/bills/93/s2665/text)的頒布廢除日期相符。這個細節非常重要，因為這項禁令終止了古典金本位制（在古典金本位制下，人們可以用 Exchange 代表鈔票獲得黃金），允許美元貶值（通過 1934 年的《黃金儲備法》），並促進了浮動 Exchange 匯率貨幣制度的建立，而我們所知道的浮動 Exchange 匯率貨幣制度是在 1971 年尼克松震盪之後建立的。
+> "傳統貨幣的根本問題在於它需要信任才能運作。我們必須信任中央銀行不會貶值貨幣，但法定貨幣的歷史充滿了違反信任的情況。我們必須相信銀行會持有我們的錢並透過電子方式轉移，但他們卻在一波波的信貸泡沫中把錢借出去，而且幾乎沒有任何儲備。我們必須相信銀行會保護我們的隱私，不會讓身份盜用者掏空我們的帳戶。銀行高昂的間接成本使得小額支付成為不可能"。
+在他的 [個人資料](https://p2pfoundation.ning.com/profile/SatoshiNakamoto)，他聲稱自己是日本人，但這並非全部。2011 年的介面更新顯示了他的年齡：35 歲，這表示他在 2009 年是 32 或 33 歲。之後，在 2014 年，有人 [發現](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) 他表示了特定的出生日期：1975 年 4 月 5 日。這個日期看似無關緊要，但很可能是綜合參考了美國在 1933 年至 1975 年間禁止美國公民擁有黃金的規定。4 月 5 日與 1933 年 4 月 5 日富蘭克林-德拉諾-羅斯福總統簽署的[行政命令 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates)所規定的禁止日期有關，而 1975 年則與[公法 93-373](https://www.govtrack.us/congress/bills/93/s2665/text)的頒布廢除日期相符。這個細節非常重要，因為這項禁令終止了古典金本位制（在古典金本位制下，人們可用代表性票據獲得黃金），允許美元貶值（通過 1934 年的《黃金儲備法》），並促進了浮動匯率貨幣制度的建立，而我們所知道的浮動匯率貨幣制度是在 1971 年尼克松震盪之後建立的。
 
 ![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/026.webp)
 
-2011 年 3 月 17 日，Satoshi 中本在 P2P 基金會論壇上的簡介（資料來源：Satoshi 基金會論壇[forum capture](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
+2011 年 3 月 17 日，中本聰在 P2P 基金會論壇上的簡介（資料來源：Satoshi 基金會論壇[forum capture](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
 
-這並不是 Satoshi 通訊中唯一提到貴金屬的地方。Bitcoin 的創造者 [寫道](https://p2pfoundation.ning.com/forum/topics/Bitcoin-open-source?commentId=2003008:Comment:9562) 在 2 月 18 日的評論中：
+這並不是中本聰通訊中唯一提到貴金屬的地方。Bitcoin 的創造者 [寫道](https://p2pfoundation.ning.com/forum/topics/Bitcoin-open-source?commentId=2003008:Comment:9562) 在 2 月 18 日的評論中：
 
-> "對於 Sepp 的問題，確實沒有人可以扮演中央銀行或聯邦儲備的角色，隨著使用者人口的成長而調整貨幣 Supply。那就需要信任的一方來決定價值，因為我不知道有什麼方法可以讓軟體知道事物的真實世界價值。如果有一些巧妙的方法，或者如果我們想要信任某人主動管理 Supply 的錢，讓它與某種東西掛鈎，那麼就可以為此編寫規則。從這個意義上說，它更像是一種典型的貴金屬"。
-Satoshi Nakamoto 也活躍於郵寄名單，與荷蘭專案管理顧問 Martien van Steenbergen 交換意見。2 月 13 日，他針對 Bitcoin 的可程式化主題，[寫](https://diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) 給他：
+> "對於 Sepp 的問題，確實沒有人可以扮演中央銀行或聯邦儲備的角色，隨著使用者人口的成長而調整貨幣供給。那就需要信任的一方來決定價值，因為我不知道有什麼方法可以讓軟體知道事物的真實世界價值。或者如果我們想要相信一個人來積極管理貨幣供應以將其固定在某個值，那麼就可以為此編寫規則。從這個意義上說，它更像是一種典型的貴金屬"。
+中本聰還積極參加郵件論壇，與荷蘭專案管理顧問 Martien van Steenbergen 交換意見。2 月 13 日，他針對 Bitcoin 的可程式化主題，[寫](https://diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) 給他：
 
 > "我認為 Bitcoin 是一個基石，如果你想實現 Marc \[Fawzi\]的想法和這裡討論的其他人所描述的可編程 P2P 社會貨幣，這是第一步。首先，一個基本和正常的 P2P 貨幣需要工作。一旦它被建立和證明，進入下一步，即動態自動貨幣，就很容易了。
 我非常喜歡虛擬社區的想法，沒有地理上的歸屬，嘗試新的經濟模式"。
@@ -685,70 +685,70 @@ Satoshi Nakamoto 也活躍於郵寄名單，與荷蘭專案管理顧問 Martien 
 
 ### Mike Hearn 和 2100 萬
 
-Satoshi 的溝通策略漸見成效。2009 年 4 月，其他人開始對他的發明感興趣。其中包括 Mike Hearn，一位在瑞士 Google 工作的英國開發人員，他的空閒時間都花在開放原始碼軟體上。之後，他開始對數位支付系統感興趣，尤其是 Ryan Fugger 的專案 Ripple。他正是在 Ripple Google Group 上，透過美國年輕電腦科學家兼企業家 Charles N. Wyble 在 3 月所建立的 [討論主題](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)，聽說了 Bitcoin。
+中本聰的溝通策略漸見成效。2009 年 4 月，其他人開始對他的發明感興趣。其中包括 Mike Hearn，一位在瑞士 Google 工作的英國開發人員，他的空閒時間都花在開放原始碼軟體上。之後，他開始對數位支付系統感興趣，尤其是 Ryan Fugger 的專案 Ripple。他正是在 Ripple Google Group 上，透過美國年輕電腦科學家兼企業家 Charles N. Wyble 在 3 月所建立的 [討論主題](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)，聽說了 Bitcoin。
 
-4 月 12 日，Mike Hearn 向 Satoshi 發送了一封 [電子郵件](https://plan99.net/~mike/Satoshi-emails/thread1.html)，其中他提出了一系列關於 Bitcoin 的問題。他指出，「遇到真正革命性的想法是很罕見的」，並且不忘提到 Ripple。
+4 月 12 日，Mike Hearn 向中本聰發送了一封 [電子郵件](https://plan99.net/~mike/Satoshi-emails/thread1.html)，其中他提出了一系列關於 Bitcoin 的問題。他指出，「遇到真正革命性的想法是很罕見的」，並且不忘提到 Ripple。
 
 ![Mike Hearn](assets/en/027.webp)
 
-Mike Hearn 和 Satoshi Nakamoto 討論了 Bitcoin 的各個方面，例如縮放、微額支付、軟體如何運作以及沒有扣款。其中，Mike Hearn 問 Satoshi 為何選擇「2,400 萬」（*sic*）這個數量作為比特幣的總量，以及是否可以再細分。Satoshi 隨後作了如下解釋：
+Mike Hearn 和中本聰討論了 Bitcoin 的各個方面，例如縮放、微額支付、軟體如何運作以及沒有扣款。其中，Mike Hearn 問中本聰為何選擇「2,400 萬」（*sic*）這個數量作為比特幣的總量，以及是否可以再細分。中本聰隨後作了如下解釋：
 
-> "我對硬幣數量和發行時間表的選擇是經過深思熟慮的猜測。這是一個困難的選擇，因為一旦網路開始運作，它就會被鎖定，我們就會被它困住。我想挑一個能讓價格與現有貨幣相近的貨幣，但在不知道未來的情況下，這是非常Hard的。我最後選擇了中間的東西。如果 Bitcoin 仍然是小眾貨幣，它的單位價值就會比現有貨幣低。如果您想像它被用於世界貿易的某個部分，那麼全世界只會有 2,100 萬個硬幣，所以它的單位價值會高很多。價值是有 8 位小數的 64 位元整數，因此 1 個硬幣在內部表示為 100000000。如果典型的價格變得很小，就有足夠的粒度。例如，如果 0.001 值 1 歐元，那麼改變小數點的顯示位置可能會更容易，所以如果您有 1 Bitcoin，現在就顯示為 1000，而 0.001 則顯示為 1。
+> "我對硬幣數量和發行時間表的選擇是經過深思熟慮的猜測。這是一個困難的選擇，因為一旦網路開始運作，它就會被鎖定，我們就會被它困住。我想挑一個能讓價格與現有貨幣相近的貨幣，但在不知道未來的情況下，這是非常Hard的。我最後選擇了中間的某個值。如果 Bitcoin 仍然是小眾貨幣，它的單位價值就會比現有貨幣低。如果您想像它被用於世界貿易的某個部分，那麼全世界只會有 2,100 萬個硬幣，所以它的單位價值會高很多。價值是有 8 位小數的 64 位元整數，因此 1 個硬幣在內部表示為 100000000。如果典型的價格變得很小，就有足夠的細緻度。例如，如果 0.001 值 1 歐元，那麼改變小數點的顯示位置可能會更容易，所以如果您有 1 Bitcoin，現在就顯示為 1000，而 0.001 則顯示為 1。
 他後來向 Mike Hearn 解釋，他「想過 100 BTC [每個區塊] 和 4,200 萬，」但他覺得 4,200 萬似乎很高。(「我考慮過 100 BTC 和 4,200 萬，但 4,200 萬看起來很高。」)
 
-與 Satoshi 聯繫之後，Mike Hearn 開始在他的個人電腦上使用該軟體。他挖出了一些區塊，包括 [block 11,157] (https://Mempool.space/block/00000000a630e2695d98b11707d053b12c583f58976f8b4ae6a6f289ee32797b)。在討論的同時，兩人也進行了一些金錢上的交換。4 月 18 日，Mike Hearn 向 Satoshi 發送了 32.51 比特幣，Satoshi 在同一天將其退回。他們也從 Mining 的個人努力中送出 50 個比特幣給對方。
+與中本聰聯繫之後，Mike Hearn 開始在他的個人電腦上使用該軟體。他挖出了一些區塊，包括 [block 11,157] (https://Mempool.space/block/00000000a630e2695d98b11707d053b12c583f58976f8b4ae6a6f289ee32797b)。在討論的同時，兩人也進行了一些金錢上的交換。4 月 18 日，Mike Hearn 向中本聰發送了 32.51 比特幣，中本聰在同一天將其退回。他們還彼此寄送了各自挖礦的50 Bitcoin。
 
 ### Martti Malmi 與 Bitcoin 簡報會
 
-Satoshi 的通訊也引起了一位名叫 Martti Malmi 的芬蘭年輕電腦科學學生的注意。他在四月初透過 P2P 基金會論壇上的文字發現了 Bitcoin。9 日，他開始使用該軟體，並挖出了他的第一個區塊（區塊 10,351）。晚上，他寫了一篇簡短的 Bitcoin 簡報，他在簡報中支持無政府主義者的假設：「P2P 貨幣能讓政府滅亡？」他以 Trickster(n) 的筆名在兩個不同敏感度的自由主義論壇上發表了他的文章：anti-state.com (ASC) 和 Freedomain Radio (anarcho-capitalist Stefan Molyneux 的媒體) 的論壇。Martti 寫道
+中本聰的溝通策略同樣引起了一位年輕的芬蘭計算機科學學生 Martti Malmi 的關注。他在四月初透過 P2P 基金會論壇上的文字發現了 Bitcoin。9 日，他開始使用該軟體，並挖出了他的第一個區塊（區塊 10,351）。晚上，他寫了一篇簡短的 Bitcoin 簡報，他在簡報中支持無政府主義者的假設：「P2P 貨幣能讓政府滅亡？」他以 Trickster(n) 的筆名在兩個不同敏感度的自由主義論壇上發表了他的文章：anti-state.com (ASC) 和 Freedomain Radio (anarcho-capitalist Stefan Molyneux 的媒體) 的論壇。Martti 寫道
 
 > "這個系統是匿名的，沒有政府可以徵稅或阻止交易。也沒有中央銀行可以無限制地創造新錢來貶低貨幣。這種系統的廣泛採用似乎會對國家搾取公民血汗的能力造成毀滅性的影響"。
 ![Martti Malmi in 2013](assets/en/028.webp)
 
 2013 年的 Martti Malmi（資料來源：Martti Malmi[Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
-Martti 隨後發了一封 [email](https://mmalmi.github.io/Satoshi/#email-1) 給 Satoshi，說明他就是這篇文字的作者，他在其中寫道，雖然他 「還沒有太多的開發經驗」，但他 「願意協助 Bitcoin」。Satoshi Nakamoto 在 5 月 2 日回覆，告訴他 「對 Bitcoin 的理解」 是 「正確的」。
+Martti 隨後發了一封 [email](https://mmalmi.github.io/Satoshi/#email-1) 給中本聰，說明他就是這篇文字的作者，他在其中寫道，雖然他 「還沒有太多的開發經驗」，但他 「願意協助 Bitcoin」。中本聰在 5 月 2 日回覆，告訴他 「對 Bitcoin 的理解」 是 「正確的」。
 
 Bitcoin 的創造者邀請他為 SourceForge 上的 [網頁](https://web.archive.org/web/20090511173000/http://Bitcoin.sourceforge.net/)貢獻心力，SourceForge 是該專案所在的平台，主要是撰寫 [常見問題](https://mmalmi.github.io/Satoshi/#email-4)(FAQ) 章節。在首頁 (Bitcoin.sourceforge.net)，他將 Bitcoin 介紹為「基於點對點網路的匿名數位貨幣」，不依賴「任何中央機構發行新貨幣或監控交易」。他強調了以下優點：
 
 
 - 「透過網際網路輕鬆轉帳，無需信任第三方」。
 - 「任何第三方都無法阻止或控制您的交易」。
-- "保護自己免受部分儲備金制度和中央銀行不良政策所造成的不穩定。Bitcoin 系統的貨幣 Supply 的有限膨脹（按計算能力）在整個網絡中平均分配，而不是由銀行壟斷"。
+- "保護自己免受部分儲備金制度和中央銀行不良政策所造成的不穩定。Bitcoin 系統的貨幣供給的有限膨脹（按計算能力）在整個網絡中平均分配，而不是由銀行壟斷"。
 - 「隨著 Bitcoin 經濟的增長超過通貨膨脹率，Bitcoin 的價值可能會增加 - 考慮將 Bitcoin 作為一項投資，從今天開始運行一個節點！」
 
-Satoshi [贊同](https://mmalmi.github.io/Satoshi/#email-5) 此陳述的整體內容，但他有所保留。他 [對於](https://mmalmi.github.io/Satoshi/#email-19) 宣稱 Bitcoin 為「投資」特別「不習慣」，很可能是擔心這樣的聲明會涉及法律問題。該頁面於 5 月 6 日 [發表](https://mmalmi.github.io/Satoshi/#email-9)，兩天後，Martti Malmi 在 [Hackernews](https://news.ycombinator.com/item?id=599852) 和 [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/) 平台分享連結，以推廣該頁面。2009 年底，在主網站上[找到](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/)此描述的略微修改版本。
+中本聰[贊同](https://mmalmi.github.io/Satoshi/#email-5) 此陳述的整體內容，但他有所保留。他 [對於](https://mmalmi.github.io/Satoshi/#email-19) 宣稱 Bitcoin 為「投資」很「不習慣」，很可能是擔心這樣的聲明會涉及法律問題。該頁面於 5 月 6 日 [發表](https://mmalmi.github.io/Satoshi/#email-9)，兩天後，Martti Malmi 在 [Hackernews](https://news.ycombinator.com/item?id=599852) 和 [Reddit](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/) 平台分享連結，以推廣該頁面。2009 年底，在主網站上[找到](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/)此描述的略微修改版本。
 
-2009 年春天，「加密貨幣」一詞也出現了，最初是用來指 Bitcoin。5 月 11 日，Satoshi [寫](https://mmalmi.github.io/Satoshi/#email-19) 給 Martti Malmi：
+2009 年春天，「加密貨幣」一詞也出現了，最初是用來指 Bitcoin。5 月 11 日，中本聰[寫](https://mmalmi.github.io/Satoshi/#email-19) 給 Martti Malmi：
 
 > "有人想出了「加密貨幣」這個詞......也許我們應該用這個詞來形容 Bitcoin，你喜歡嗎？"
 年輕的 Finn 表示同意，並建議「The P2P Cryptocurrency」可以成為 Bitcoin 的口號。這個建議將被實行：介紹頁面的標題將變成「Bitcoin P2P Cryptocurrency」，2010 年 7 月版本 0.3 的公告將描述專案為「Bitcoin，P2P 的加密貨幣」。
 
 ### 專屬於 Bitcoin 的兩個論壇
 
-Martti Malmi 也設立了論壇和 wiki，仍在 SourceForge 頁面上。這些 Elements 在 6 月 9 日 [開啟](https://mmalmi.github.io/Satoshi/#email-17)。13 日，Malmi 在 Bitcoin 郵件列表上 [宣布](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906) SourceForge 頁面、論壇和 wiki 的存在：
+Martti Malmi 也設立了論壇和 wiki，這些還保留在 SourceForge 頁面上。這些元素在6月9日被 [開啟](https://mmalmi.github.io/Satoshi/#email-17)。13 日，Malmi 在 Bitcoin 郵件論壇上 [宣布](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906) SourceForge 頁面、論壇和 wiki 的存在：
 
 > "新的 Bitcoin 網站/入口網站已在 Bitcoin.sourceforge.net 上線。包含論壇和 wiki，歡迎您加入討論和 wiki 文件。"
 這個論壇找到了它的受眾。似乎它甚至 [leads](https://mmalmi.github.io/Satoshi/#email-27) 在八月創建了一個專門的 IRC 開發頻道 (#Bitcoin-dev)。不過，我們沒有存檔，因為只有其會員才能存取。
 
-幾個月來，越來越多的人註冊並參與這個第一個論壇，讓 Satoshi 意識到 Malmi 所建立的軟體基礎架構並未足夠。11 月 5 日，他寫信給年輕的 Finn，建議建立一個可以處理更高流量的新論壇：
+幾個月來，越來越多的人註冊並參與這個第一個論壇，讓中本聰意識到 Malmi 所建立的軟體基礎架構並未足夠。11 月 5 日，他寫信給年輕的 Finn，建議建立一個可以處理更高流量的新論壇：
 
 > 「既然 Bitcoin.sourceforge.net 上的論壇已經開始流行，我們真的應該找一個可以免費寄存完整論壇軟體的地方」。
-經過一些關於應採用的技術解決方案的討論之後，Martti Malmi 於 11 月 17 日在他的伺服器上 [安裝](https://mmalmi.github.io/Satoshi/#email-93) 了這個論壇，而 Satoshi 則於 11 月 19 日開始 [設定](https://mmalmi.github.io/Satoshi/#email-99)。從 22 日開始，Bitcoin 的創造者會從舊版討論區轉移一些問與答，涵蓋隱私權、Mining 和 Linux 等主題。他也發表了一篇 [歡迎詞](https://bitcointalk.org/index.php?topic=5.msg28#msg28)。25 日，論壇在 Address Bitcoin.org/smf [啟用](https://mmalmi.github.io/Satoshi/#email-110)。
+經過一些關於應採用的技術解決方案的討論之後，Martti Malmi 於 11 月 17 日在他的伺服器上 [安裝](https://mmalmi.github.io/Satoshi/#email-93) 了這個論壇，而 Satoshi 則於 11 月 19 日開始 [設定](https://mmalmi.github.io/Satoshi/#email-99)。從 22 日開始，Bitcoin 的創造者會從舊版討論區轉移一些問與答，涵蓋隱私權、挖礦和 Linux 等主題。他也發表了一篇 [歡迎詞](https://bitcointalk.org/index.php?topic=5.msg28#msg28)。25 日，論壇在 Bitcoin.org/smf [啟用](https://mmalmi.github.io/Satoshi/#email-110)。
 
-第一批使用者在下個月初開始註冊。12 月 9 日，由 Satoshi 以外的人張貼的 [第一則訊息](https://bitcointalk.org/index.php?topic=12.msg40#msg40) 出現，真正拉開了討論的序幕。以下是 2010 年 5 月 29 日論壇的 [截圖](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/)，以資說明：
+第一批使用者在下個月初開始註冊。12 月 9 日，由除中本聰之外的人發表的 [第一則訊息](https://bitcointalk.org/index.php?topic=12.msg40#msg40) 出現，真正拉開了討論的序幕。以下是 2010 年 5 月 29 日論壇的 [截圖](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/)，以資說明：
 
 ![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/029.webp)
 
-新論壇的推出是一個契機，讓 Satoshi Nakamoto 和 Martti Malmi 幾個月來努力開發的軟體 [0.2 版](https://bitcointalk.org/index.php?topic=16.msg73#msg73)，在 12 月 16 日完成發佈。這個版本包含了一些改進，例如最小化到工作列、啟動時自動啟動，或是 Mining 生產的多執行緒。由於 Malmi 的貢獻以及新加入的 NewLibertyStandard 所進行的測試 (其個案將在下一章中討論)，軟體也針對 Linux 進行了適配。
+新論壇的推出是一個契機，讓中本聰和 Martti Malmi 幾個月來努力開發的軟體 [0.2 版](https://bitcointalk.org/index.php?topic=16.msg73#msg73)，在 12 月 16 日完成發佈。這個版本包含了一些改進，例如最小化到工作列、啟動時自動啟動，或是挖礦的多執行緒。由於 Malmi 的貢獻以及新加入的 NewLibertyStandard 所進行的測試 (其個案將在下一章中討論)，軟體也針對 Linux 進行了適配。
 
-在這個於2011年8月成為BitcoinTalk的論壇上，Satoshi一共寫了539篇留言。通過這種方式，他能夠提供技術澄清、解釋各種經濟機制，並更普遍地分享他對 Bitcoin 的觀點。這一系列的訊息將構成他留下來的大部分資料。
+在這個於2011年8月成為 BitcoinTalk 的論壇上，中本聰一共寫了539篇留言。通過這種方式，他能夠提供技術澄清、解釋各種經濟機制，並更普遍地分享他對 Bitcoin 的觀點。這一系列的訊息將構成他留下來的大部分資料。
 
 ### 分階段溝通
 
-因此，2009 年的前半部分是專門用於溝通的。Satoshi 確定要透過各種方式，在不同的地方引起人們對他的發現的注意。包括 Martti Malmi 在內的其他人也協助他傳播訊息。
+因此，2009 年的前半部分是專門用於溝通的。中本聰透過各種方式，在不同的地方引起人們對他的發現的注意。包括 Martti Malmi 在內的其他人也協助他傳播訊息。
 
-Bitcoin 的宣傳也經歷了幾個階段：首先，Satoshi 著重於線上支付；然後，他強調了固定貨幣政策和 2,100 萬台的限額；最後，他提到了其模式的可編程性。
+Bitcoin 的宣傳也經歷了幾個階段：首先，中本聰著重於線上支付；然後，他強調了固定貨幣政策和 2,100 萬台的限額；最後，他提到了其模式的可編程性。
 
 2009 年秋天，Bitcoin 似乎已經做好了成長的準備。而恰恰是在那個時候，系統的經濟開發才真正開始。這個主題是下一章的主題。
 
@@ -756,7 +756,7 @@ Bitcoin 的宣傳也經歷了幾個階段：首先，Satoshi 著重於線上支�
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
-在之前的章節中，我們觀察到 Satoshi 中本如何實現他的想法，以及他如何傳達這個想法，將 Bitcoin 介紹給全世界。然而，並非一切都取決於他：還需要人們為帳戶單位賦予價值。由於這樣可以透過交易費用賺取礦工的報酬，並透過自然通縮獎勵商人，因此這種升值對於系統的安全性至關重要。
+在之前的章節中，我們觀察到中本聰如何實現他的想法，以及他如何傳達這個想法，將 Bitcoin 介紹給全世界。然而，並非一切都取決於他：還需要人們為帳戶單位賦予價值。由於這樣可以透過交易費用賺取礦工的報酬，並透過自然通縮獎勵商人，因此這種升值對於系統的安全性至關重要。
 
 然而，Bitcoin 價值的出現並非易事。它確實是基於完全主觀的理由，賦予一個之前沒有經濟重要性的物件以經濟重要性。Hal Finney 在 2009 年 1 月 11 日寄送給 Cryptography 郵件論壇的 [email](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 中做了很好的解釋，他寫道："Bitcoin 的價值在於它的經濟價值：
 

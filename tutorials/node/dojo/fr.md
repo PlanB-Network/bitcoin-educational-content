@@ -894,7 +894,7 @@ Un résultat correct doit afficher :
 ```
 gpg: Signature made [date + time]
 gpg: using EDDSA key E53AD419B242822F19E23C6D3033D463D6E544F6
-gpg: Good signature from "*dojocoder@pm.me*" <dojocoder@pm.me> [unknown]
+gpg: Good signature from "dojocoder@pm.me" <dojocoder@pm.me> [unknown]
 ```
 
 Un avertissement concernant l’absence de certification de la clé peut apparaître, mais il est sans importance. En revanche, si la signature est invalide ou correspond à une autre clé, n’allez pas plus loin et recommencez en vérifiant les liens.

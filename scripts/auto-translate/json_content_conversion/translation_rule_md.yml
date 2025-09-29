@@ -16,7 +16,6 @@ non_translatable:
 translatable:
   - name
   - description
-  - term
   - goal
   - objectives
   - paragraph

@@ -54,7 +54,9 @@ If you're already running your own node, toggle `Add New Custom Node` and  provi
 
 On the next screen, you get a disclaimer:
 
-```On the next page you will see a series of words. This is your unique and private seed and it is the ONLY way to recover your wallet in case of lass or malfunction. It is YOUR responsibility to write it down and store it in a safe place outside of the Cake Wallet app.```
+```
+On the next page you will see a series of words. This is your unique and private seed and it is the ONLY way to recover your wallet in case of lass or malfunction. It is YOUR responsibility to write it down and store it in a safe place outside of the Cake Wallet app.
+```
 
 ![image](assets/en/04.webp)
 
@@ -101,6 +103,8 @@ We can toggle on the Silent Payments card on the Home screen to display this fea
 To secure our wallet, we can create a backup by following the in-app prompts. This will ensure we have a safe copy of our private keys, allowing us to recover our wallet if it's lost or stolen. Additionally, we can view our seed phrase and private keys, change our PIN, enable biometric authentication, Sign / Verify and set up 2FA for an extra layer of protection.
 
 ![image](assets/en/08.webp)
+
+**Note**: As of September 2025, fingerprint biometric authentication on Android devices is required to function with at least a Level 2 fingerprint sensor. However, this requirement may evolve in the future.
 
 ### D - Privacy Settings 🔒
 

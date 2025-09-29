@@ -135,7 +135,7 @@ sudo apt-get update
 
 ![Image](assets/fr/07.webp)
 
-### 2.2. Installer les utilitaires indispensables
+### 2.2. Installer les utilitaires
 
 Plusieurs outils doivent être ajoutés au système :
 - `apt-transport-https` : permet de télécharger des paquets de manière sécurisée via HTTPS
@@ -163,7 +163,7 @@ sudo apt install torsocks
 
 ![Image](assets/fr/09.webp)
 
-### 2.4. Installation de Docker et Docker Compose
+### 2.4. Installer Docker et Docker Compose
 
 Dojo s’exécute à l’intérieur de conteneurs Docker. Cela signifie que chaque service est isolé dans un environnement indépendant, ce qui simplifie la maintenance et la sécurité. Pour cela, il faut installer Docker et l’outil Docker Compose qui permet de gérer plusieurs conteneurs en même temps.
 
@@ -206,7 +206,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 ![Image](assets/fr/12.webp)
 
-#### Autorisation de l’utilisateur
+#### Autorisation utilisateur
 
 Par défaut, seules les commandes exécutées avec les droits administrateur peuvent lancer Docker. Pour plus de confort, je vous conseille d’ajouter votre utilisateur courant au groupe "*docker*". Cela permet d’utiliser Docker sans devoir taper systématiquement `sudo`.
 
@@ -228,7 +228,7 @@ La commande suivante crée un nouvel utilisateur nommé "*dojo*". Cet utilisateu
 sudo useradd -s /bin/bash -d /home/dojo -m -G sudo dojo
 ```
 
-### 3.2. Définition d’un mot de passe robuste
+### 3.2. Définition d’un mot de passe
 
 Il est important d’attribuer un mot de passe fort à ce compte. L’idéal est d’utiliser un gestionnaire de mots de passe tel que Bitwarden afin de générer une combinaison longue et difficile à deviner.
 
@@ -240,7 +240,7 @@ Le système vous demandera alors de saisir le mot de passe choisi, puis de le co
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-### 3.3. Autorisation de l’utilisateur à utiliser Docker
+### 3.3. Autoriser l'utilisateur à utiliser Docker
 
 Pour que l’utilisateur "*dojo*" puisse lancer les conteneurs nécessaires au fonctionnement de Dojo, il doit être ajouté au groupe Docker. Cela évite d’avoir à précéder chaque commande de `sudo`.
 

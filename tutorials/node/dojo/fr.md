@@ -11,7 +11,7 @@ description: Un nœud Bitcoin open-source orienté confidentialité et autonomie
 
 Dojo est un logiciel libre conçu pour servir de serveur backend à certains portefeuilles Bitcoin axés sur la confidentialité, en s'appuyant sur un nœud Bitcoin Core. Historiquement, il a été développé pour fonctionner avec Samourai Wallet, un portefeuille mobile qui proposait des fonctionnalités avancées de confidentialité comme Whirlpool (coinjoin), Ricochet, Stonewall, PayNym... Samourai Wallet est aujourd’hui à l’arrêt suite à l'arrestation de ses développeurs, mais son successeur communautaire, **Ashigaru Wallet**, a pris le relais et continue de s’appuyer sur Dojo pour offrir une expérience complète aux utilisateurs souhaitant garder le contrôle de leurs données lors de leur utilisation de Bitcoin.
 
-01
+![Image](assets/fr/01.webp)
 
 Concrètement, Dojo agit comme une passerelle entre votre portefeuille et le réseau Bitcoin. Sans Dojo, un portefeuille mobile léger doit interroger des serveurs tiers pour obtenir l’état de vos UTXOs et votre historique ou pour diffuser vos transactions. Cela implique une dépendance et une fuite de données sensibles vers un serveur tiers (adresses utilisées, montants, fréquence des paiements...). Avec Dojo, vous hébergez vous-même ce serveur, directement connecté à votre propre nœud Bitcoin. Ainsi, toutes les requêtes de votre portefeuille passent par une infrastructure que vous contrôlez, sans intermédiaire, ce qui renforce votre confidentialité et votre souveraineté.
 
@@ -70,33 +70,33 @@ Après avoir préparé le matériel choisi, il faut maintenant y installer un sy
 
 Depuis un ordinateur déjà fonctionnel (votre machine habituelle), téléchargez l’image ISO d’Ubuntu LTS [sur le site officiel](https://ubuntu.com/download/desktop) (`24.04` au moment de la rédaction de ce tutoriel, mais prenez la plus récente si une autre est disponible).
 
-02
+![Image](assets/fr/02.webp)
 
 Insérez une clé USB d’au moins 8 Go dans cet ordinateur, puis créez une clé amorçable à l’aide d’un logiciel comme [Balena Etcher](https://etcher.balena.io/). Sélectionnez l’image ISO d’Ubuntu que vous venez de télécharger, choisissez la clé USB comme périphérique cible, puis lancez la création (ayez patience, cela peut prendre plusieurs minutes).
 
-03
+![Image](assets/fr/03.webp)
 
 Insérez la clé USB amorçable dans l'ordinateur éteint (celui sur lequel vous voulez faire tourner Dojo). Démarrez ensuite la machine et appuyez immédiatement sur la touche **F12** ou **F10** de votre clavier (selon le modèle) pour accéder au menu de démarrage. Choisissez ensuite votre clé USB comme périphérique prioritaire dans l’ordre de boot de l’ordinateur.
 
-04
+![Image](assets/fr/04.webp)
 
 ### 1.2. Installer le système d'exploitation
 
-L’écran d’accueil d’Ubuntu s’affiche. Sélectionnez "Try or Install Ubuntu".
+L’écran d’accueil d’Ubuntu s’affiche. Sélectionnez "*Try or Install Ubuntu*".
 
-05
+![Image](assets/fr/05.webp)
 
 Suivez ensuite le processus classique d’installation d’Ubuntu :
 - Choisissez la langue.
 - Sélectionnez le type de clavier.
 - Si vous êtes connecté par câble RJ45, inutile de configurer le Wi-Fi.
-- Cliquez sur "Install Ubuntu" et cochez l’option permettant l’installation des logiciels tiers (pilotes Wi-Fi, codecs multimédias...).
-- Lorsque l’assistant vous demande le type d’installation, sélectionnez "Erase disk and install Ubuntu". **Attention** : cette opération effacera entièrement le contenu du disque. Vérifiez attentivement que le disque choisi correspond bien au SSD NVMe destiné à Dojo.
-- Créez un nom d’utilisateur simple (par exemple "loic").
-- Attribuez un nom à la machine (par exemple "dojo-node").
+- Cliquez sur "*Install Ubuntu*" et cochez l’option permettant l’installation des logiciels tiers (pilotes Wi-Fi, codecs multimédias...).
+- Lorsque l’assistant vous demande le type d’installation, sélectionnez "*Erase disk and install Ubuntu*". **Attention** : cette opération effacera entièrement le contenu du disque. Vérifiez attentivement que le disque choisi correspond bien au SSD NVMe destiné à Dojo.
+- Créez un nom d’utilisateur simple (par exemple "*loic*").
+- Attribuez un nom à la machine (par exemple "*dojo-node*").
 - Définissez un mot de passe robuste et conservez-le précieusement.
-- Activez l’option "Demander mon mot de passe pour ouvrir une session" afin de renforcer la sécurité.
-- Indiquez votre fuseau horaire, puis cliquez sur "Install".
+- Activez l’option "*Demander mon mot de passe pour ouvrir une session*" afin de renforcer la sécurité.
+- Indiquez votre fuseau horaire, puis cliquez sur "*Install*".
 - Patientez le temps de l’installation. Une fois terminée, le système redémarrera automatiquement.
 - Retirez la clé USB d’installation lors du redémarrage de l’ordinateur.
 
@@ -113,7 +113,7 @@ sudo apt update
 sudo apt upgrade -y
 ```
 
-06
+![Image](assets/fr/06.webp)
 
 ## 2. Installation des dépendances
 
@@ -133,7 +133,7 @@ Avant toute installation, il est nécessaire de s’assurer que la base de donn�
 sudo apt-get update
 ```
 
-07
+![Image](assets/fr/07.webp)
 
 ### 2.2. Installer les utilitaires indispensables
 
@@ -149,9 +149,9 @@ Plusieurs outils doivent être ajoutés au système :
 sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common unzip
 ```
 
-Lors de l’installation, le système peut vous demander une confirmation. Tapez alors sur la touche "y" puis appuyez sur "Entrée".
+Lors de l’installation, le système peut vous demander une confirmation. Tapez alors sur la touche "*y*" puis appuyez sur "*Entrée*".
 
-08
+![Image](assets/fr/08.webp)
 
 ### 2.3. Installer Torsocks
 
@@ -161,7 +161,7 @@ Torsocks permet d’exécuter certaines commandes en passant par le réseau Tor,
 sudo apt install torsocks
 ```
 
-09
+![Image](assets/fr/09.webp)
 
 ### 2.4. Installation de Docker et Docker Compose
 
@@ -179,7 +179,7 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
-10
+![Image](assets/fr/10.webp)
 
 #### Ajout du dépôt officiel Docker
 
@@ -188,13 +188,13 @@ Il faut ensuite indiquer au système où trouver les paquets Docker officiels. C
 ```bash
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  $(. /etc/os-release && echo "*$VERSION_CODENAME*") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 sudo apt-get update
 ```
 
-11
+![Image](assets/fr/11.webp)
 
 #### Installation de Docker et Docker Compose
 
@@ -204,17 +204,17 @@ Les composants principaux de Docker peuvent maintenant être installés.
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-12
+![Image](assets/fr/12.webp)
 
 #### Autorisation de l’utilisateur
 
-Par défaut, seules les commandes exécutées avec les droits administrateur peuvent lancer Docker. Pour plus de confort, je vous conseille d’ajouter votre utilisateur courant au groupe "docker". Cela permet d’utiliser Docker sans devoir taper systématiquement `sudo`.
+Par défaut, seules les commandes exécutées avec les droits administrateur peuvent lancer Docker. Pour plus de confort, je vous conseille d’ajouter votre utilisateur courant au groupe "*docker*". Cela permet d’utiliser Docker sans devoir taper systématiquement `sudo`.
 
 ```bash
 sudo usermod -aG docker $USER
 ```
 
-13
+![Image](assets/fr/13.webp)
 
 ## 3. Création d’un utilisateur isolé (optionnel)
 
@@ -222,7 +222,7 @@ Si vous souhaitez améliorer la sécurité de votre système, je vous recommande
 
 ### 3.1. Création du compte utilisateur
 
-La commande suivante crée un nouvel utilisateur nommé "dojo". Cet utilisateur disposera d’un répertoire personnel `/home/dojo` et de l’accès au terminal bash. Il sera également ajouté au groupe sudo pour permettre l’exécution de commandes admin.
+La commande suivante crée un nouvel utilisateur nommé "*dojo*". Cet utilisateur disposera d’un répertoire personnel `/home/dojo` et de l’accès au terminal bash. Il sera également ajouté au groupe sudo pour permettre l’exécution de commandes admin.
 
 ```bash
 sudo useradd -s /bin/bash -d /home/dojo -m -G sudo dojo
@@ -242,7 +242,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 ### 3.3. Autorisation de l’utilisateur à utiliser Docker
 
-Pour que l’utilisateur "dojo" puisse lancer les conteneurs nécessaires au fonctionnement de Dojo, il doit être ajouté au groupe Docker. Cela évite d’avoir à précéder chaque commande de `sudo`.
+Pour que l’utilisateur "*dojo*" puisse lancer les conteneurs nécessaires au fonctionnement de Dojo, il doit être ajouté au groupe Docker. Cela évite d’avoir à précéder chaque commande de `sudo`.
 
 ```bash
 sudo usermod -aG docker dojo
@@ -272,7 +272,7 @@ Téléchargez la clé publique du développeur via Tor et importez-la dans votre
 torsocks wget http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion/vks/v1/by-fingerprint/E53AD419B242822F19E23C6D3033D463D6E544F6 && gpg --import E53AD419B242822F19E23C6D3033D463D6E544F6
 ```
 
-14
+![Image](assets/fr/14.webp)
 
 ### 4.2. Télécharger la dernière version de Dojo
 
@@ -282,7 +282,7 @@ Récupérez l’archive compressée contenant le code source de Dojo. Dans cet e
 torsocks wget -O samourai-dojo-1.27.0.zip https://github.com/Dojo-Open-Source-Project/samourai-dojo/archive/refs/tags/v1.27.0.zip
 ```
 
-15
+![Image](assets/fr/15.webp)
 
 ### 4.3. Télécharger les empreintes et leur signature
 
@@ -292,7 +292,7 @@ Les développeurs publient un fichier listant les empreintes numériques des arc
 torsocks wget https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases/download/v1.27.0/samourai-dojo-1.27.0-fingerprints.txt && torsocks wget https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases/download/v1.27.0/samourai-dojo-1.27.0-fingerprints.txt.sig
 ```
 
-16
+![Image](assets/fr/16.webp)
 
 ### 4.4. Vérifier la signature PGP
 
@@ -306,7 +306,7 @@ Un résultat correct affiche une signature valide avec la clé `E53AD419B242822F
 
 Si en revanche la signature est invalide, arrêtez immédiatement le processus d'installation et recommencez depuis le début.
 
-17
+![Image](assets/fr/17.webp)
 
 ### 4.5. Vérifier l’intégrité de l’archive
 
@@ -319,7 +319,7 @@ cat samourai-dojo-1.27.0-fingerprints.txt
 
 Si les deux empreintes sont identiques, vous avez la garantie que l’archive n’a pas été modifiée. Si elles diffèrent, n’allez pas plus loin et supprimez les fichiers.
 
-18
+![Image](assets/fr/18.webp)
 
 ### 4.6. Extraire et organiser les fichiers
 
@@ -331,7 +331,7 @@ mkdir ~/dojo-app
 mv ~/samourai-dojo-1.27.0/* ~/dojo-app/
 ```
 
-19
+![Image](assets/fr/19.webp)
 
 ### 4.7. Nettoyer les fichiers inutiles
 
@@ -341,7 +341,7 @@ Supprimez les fichiers temporaires et les archives devenues inutiles afin de gar
 rm -r samourai-dojo-1.27.0 && rm samourai-dojo-1.27.0.zip && rm samourai-dojo-1.27.0-fingerprints.txt && rm samourai-dojo-1.27.0-fingerprints.txt.sig && rm E53AD419B242822F19E23C6D3033D463D6E544F6
 ```
 
-20
+![Image](assets/fr/20.webp)
 
 ## 5. Configuration de Dojo
 
@@ -376,7 +376,7 @@ Les fichiers de configuration de Dojo se trouvent dans le dossier `conf/`. Dépl
 cd ~/dojo-app/docker/my-dojo/conf/
 ```
 
-21
+![Image](assets/fr/21.webp)
 
 ### 5.3. Configuration de Bitcoin Core
 
@@ -386,7 +386,7 @@ Ouvrez le fichier de configuration de Bitcoin Core avec l’éditeur de texte na
 nano docker-bitcoind.conf.tpl
 ```
 
-22
+![Image](assets/fr/22.webp)
 
 Dans ce fichier, renseignez les identifiants générés :
 
@@ -406,7 +406,7 @@ BITCOIND_DB_CACHE=2048
 Pour enregistrer vos modifications et fermer l’éditeur :
 - appuyez sur `Ctrl + X`
 - tapez `y`
-- puis appuyez sur "Entrée"
+- puis appuyez sur "*Entrée*"
 
 ### 5.4. Configuration de MySQL
 
@@ -426,9 +426,9 @@ MYSQL_PASSWORD=your-password-here
 
 ⚠️ ***Remplacez `your-ID-here` et `your-password-here` par vos propres identifiants (avec des mot de passe forts et uniques).***
 
-Enregistrez de la même manière (`Ctrl + X`, `y`, "Entrée").
+Enregistrez de la même manière (`Ctrl + X`, `y`, "*Entrée*").
 
-23
+![Image](assets/fr/23.webp)
 
 ### 5.5. Configuration de l’indexeur Fulcrum
 
@@ -447,7 +447,7 @@ INDEXER_BATCH_SUPPORT=active
 INDEXER_EXTERNAL=on
 ```
 
-24
+![Image](assets/fr/24.webp)
 
 Ensuite, il y a 2 possibilités en fonction de votre configuration. Si Dojo est installé sur une machine distincte de votre ordinateur de tous les jours (sur une machine dédiée, un serveur...), indiquez son adresse IP dans votre réseau local, par exemple :
 
@@ -455,7 +455,7 @@ Ensuite, il y a 2 possibilités en fonction de votre configuration. Si Dojo est 
 INDEXER_EXTERNAL_IP=192.168.1.157
 ```
 
-25
+![Image](assets/fr/25.webp)
 
 Pour connaître l’adresse IP locale de votre machine, ouvrez un autre terminal et saisissez la commande suivante :
 
@@ -469,7 +469,7 @@ Seconde possibilité : si Dojo est exécuté directement sur votre ordinateur pe
 INDEXER_EXTERNAL_IP=127.0.0.1
 ```
 
-Enregistrez et quittez l’éditeur (`Ctrl + X`, `y`, "Entrée").
+Enregistrez et quittez l’éditeur (`Ctrl + X`, `y`, "*Entrée*").
 
 ### 5.6. Configuration du service Node
 
@@ -489,7 +489,7 @@ NODE_JWT_SECRET=your-password-here
 
 ⚠️ ***Remplacez `your-password-here` par vos propres identifiants (avec des mot de passe forts et uniques).***
 
-26
+![Image](assets/fr/26.webp)
 
 Activez ensuite l’indexeur local :
 
@@ -497,7 +497,7 @@ Activez ensuite l’indexeur local :
 NODE_ACTIVE_INDEXER=local_indexer
 ```
 
-Enregistrez et quittez l’éditeur (`Ctrl + X`, `y`, "Entrée").
+Enregistrez et quittez l’éditeur (`Ctrl + X`, `y`, "*Entrée*").
 
 ### 5.7. Gestion des identifiants
 
@@ -528,7 +528,7 @@ Hello from Docker!
 This message shows that your installation appears to be working correctly...
 ```
 
-27
+![Image](assets/fr/27.webp)
 
 Si ce message ne s’affiche pas, commencez par redémarrer votre machine avec :
 
@@ -546,11 +546,11 @@ Les scripts nécessaires à l’installation se trouvent dans le dossier `my-doj
 cd ~/dojo-app/docker/my-dojo
 ```
 
-28
+![Image](assets/fr/28.webp)
 
 Vérifiez avec la commande `ls` que le fichier `dojo.sh` est bien présent. Il s’agit du script principal qui automatise l’installation de Dojo et le lancement de tous ses services.
 
-29
+![Image](assets/fr/29.webp)
 
 ### 6.3. Lancer l’installation
 
@@ -560,9 +560,9 @@ Démarrez l’installation en exécutant le script :
 ./dojo.sh install
 ```
 
-Confirmez l'installation en tapant la touche `y` puis "Entrée".
+Confirmez l'installation en tapant la touche `y` puis "*Entrée*".
 
-30
+![Image](assets/fr/30.webp)
 
 Ce script va :
 - télécharger et lancer les conteneurs Docker nécessaires,
@@ -572,7 +572,7 @@ Ce script va :
 
 Vous allez voir défiler un flux continu de journaux contenant des mentions de couleur comme `bitcoind`, `soroban`, `nodejs` ou encore `fulcrum`. Ce défilement indique que Dojo fonctionne et commence à exécuter les différents services.
 
-31
+![Image](assets/fr/31.webp)
 
 ### 6.4. Quitter l’affichage des journaux
 
@@ -627,7 +627,7 @@ Puis exécutez la commande suivante :
 ./dojo.sh onion
 ```
 
-32
+![Image](assets/fr/32.webp)
 
 Vous aurez alors accès à l’ensemble des informations relatives aux connexions à votre Dojo via Tor. Celle qui nous intéresse ici est l’URL suivante :
 
@@ -645,11 +645,11 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 Vous serez ensuite redirigé vers une page d’authentification. La connexion au DMT s’effectue à l’aide du mot de passe `NODE_ADMIN_KEY` que vous avez généré plus tôt.
 
-33
+![Image](assets/fr/33.webp)
 
-Une fois connecté, vous accédez au *Dojo Maintenance Tool* ! Durant l'IBD, vous pouvez notamment voir l'information "Latest Block" dans le menu "FULL NODE", qui vous permet de savoir où en est votre noeud Bitcoin.
+Une fois connecté, vous accédez au *Dojo Maintenance Tool* ! Durant l'IBD, vous pouvez notamment voir l'information "*Latest Block*" dans le menu "*FULL NODE*", qui vous permet de savoir où en est votre noeud Bitcoin.
 
-34
+![Image](assets/fr/34.webp)
 
 Pensez à ajouter cette adresse à vos favoris dans Tor Browser afin de la retrouver facilement par la suite.
 
@@ -665,7 +665,7 @@ Connectez-vous à la machine qui héberge votre Dojo et ouvrez un terminal. Tout
 cd ~/dojo-app/docker/my-dojo
 ```
 
-35
+![Image](assets/fr/35.webp)
 
 #### Logs de Bitcoin Core
 
@@ -683,7 +683,7 @@ bitcoind | Pre-synchronizing blockheader, height : NNNNNN
 
 Lorsque ce chiffre atteint 100 %, Bitcoin Core entame alors le téléchargement complet de la blockchain. Vous verrez apparaître la progression de l’IBD. Pour connaître la hauteur de bloc en cours, consultez la valeur indiquée par `height=`. Vous pouvez également suivre la clé `progress=`, qui renseigne le pourcentage d’avancement de l’IBD.
 
-36
+![Image](assets/fr/36.webp)
 
 Comme toujours, pour fermer les logs et revenir à l’invite de commande, utilisez la combinaison `Ctrl + C`.
 
@@ -697,7 +697,7 @@ Une fois que Bitcoin Core a terminé la présynchronisation des en-têtes, Fulcr
 
 Vous verrez alors s’afficher la hauteur du dernier bloc indexé, indiquée après `height:`, ainsi que le pourcentage de progression de l’indexation.
 
-37
+![Image](assets/fr/37.webp)
 
 ### 7.3. Corruption de la base de données de Fulcrum
 
@@ -752,21 +752,21 @@ Votre Dojo propose de nombreuses fonctionnalités, régulièrement enrichies à 
 Découvrons comment les utiliser.
 ### 8.1. Connecter Ashigaru à votre Dojo
 
-Pour connecter votre portefeuille Ashigaru à votre Dojo, c’est très simple : une fois sur votre DMT, ouvrez le menu "Pairing". Un QR code s’affiche, que vous pouvez scanner directement avec l’application Ashigaru.
+Pour connecter votre portefeuille Ashigaru à votre Dojo, c’est très simple : une fois sur votre DMT, ouvrez le menu "*Pairing*". Un QR code s’affiche, que vous pouvez scanner directement avec l’application Ashigaru.
 
-38
+![Image](assets/fr/38.webp)
 
-Dans l’application Ashigaru, au premier lancement après avoir créé ou restauré votre portefeuille, vous serez redirigé vers la page "Configure your Dojo server". Appuyez sur "Scan QR", puis scannez le QR code affiché sur votre DMT.
+Dans l’application Ashigaru, au premier lancement après avoir créé ou restauré votre portefeuille, vous serez redirigé vers la page "*Configure your Dojo server*". Appuyez sur "*Scan QR*", puis scannez le QR code affiché sur votre DMT.
 
-39
+![Image](assets/fr/39.webp)
 
-Cliquez ensuite sur le bouton "Continue".
+Cliquez ensuite sur le bouton "*Continue*".
 
-40
+![Image](assets/fr/40.webp)
 
 Vous êtes désormais connecté à votre Dojo.
 
-41
+![Image](assets/fr/41.webp)
 
 ### 8.2. Utiliser l'explorateur de bloc
 
@@ -778,7 +778,7 @@ Pour y accéder, rien de plus simple : il suffit de récupérer l’adresse Tor 
 ./dojo.sh onion
 ```
 
-42
+![Image](assets/fr/42.webp)
 
 Vous aurez accès à l’ensemble des informations relatives aux connexions à votre Dojo via Tor. Celle qui nous intéresse ici est l’URL suivante :
 
@@ -786,9 +786,9 @@ Vous aurez accès à l’ensemble des informations relatives aux connexions à v
 Block Explorer =
 ```
 
-Si vous êtes déjà connecté à votre DMT, vous pouvez également retrouver cette adresse dans le menu "Pairing", à l’intérieur du JSON de connexion :
+Si vous êtes déjà connecté à votre DMT, vous pouvez également retrouver cette adresse dans le menu "*Pairing*", à l’intérieur du JSON de connexion :
 
-43
+![Image](assets/fr/43.webp)
 
 Pour accéder à votre explorateur depuis n’importe quelle machine, quel que soit le réseau (même à distance), ouvrez [Tor Browser](https://www.torproject.org/download/) et saisissez l’URL que vous venez de récupérer.
 
@@ -796,25 +796,25 @@ Pour accéder à votre explorateur depuis n’importe quelle machine, quel que s
 
 Vous aurez alors accès à votre propre explorateur de blocs.
 
-44
+![Image](assets/fr/44.webp)
 
 *Crédit image : https://ashigaru.rs/.*
 
 Pour suivre une transaction, il vous suffit d’entrer son TXID dans la barre de recherche située en haut à droite.
 
-45
+![Image](assets/fr/45.webp)
 
 *Crédit image : https://ashigaru.rs/.*
 
 Pour vérifier les mouvements associés à une adresse, procédez de la même manière en saisissant l’adresse dans la barre de recherche.
 
-46
+![Image](assets/fr/46.webp)
 
 *Crédit image : https://ashigaru.rs/.*
 
 Vous pouvez également renseigner le hash d’un bloc ou sa hauteur dans la barre de recherche pour en afficher le détail.
 
-47
+![Image](assets/fr/47.webp)
 
 *Crédit image : https://ashigaru.rs/.*
 
@@ -894,7 +894,7 @@ Un résultat correct doit afficher :
 ```
 gpg: Signature made [date + time]
 gpg: using EDDSA key E53AD419B242822F19E23C6D3033D463D6E544F6
-gpg: Good signature from "dojocoder@pm.me" <dojocoder@pm.me> [unknown]
+gpg: Good signature from "*dojocoder@pm.me*" <dojocoder@pm.me> [unknown]
 ```
 
 Un avertissement concernant l’absence de certification de la clé peut apparaître, mais il est sans importance. En revanche, si la signature est invalide ou correspond à une autre clé, n’allez pas plus loin et recommencez en vérifiant les liens.

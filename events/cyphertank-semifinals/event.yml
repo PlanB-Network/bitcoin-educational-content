@@ -1,0 +1,34 @@
+id: 70e2e6bd-d0b5-44e0-b65d-0cd2773c8b4d
+start_date: 2025-10-22 07:00:00
+end_date: 2025-10-22 14:00:00
+timezone: Europe/Zurich
+address_city_country: Lugano, Switzerland
+address_line_2: Pow.Space, Contrada di Sassello 10
+name: CypherTank Semi Final
+type: conference
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+book_online: false
+book_in_person: true
+price_dollars: 625
+available_seats: 21
+is_gdpr_compliance: true
+custom_tc_disclaimer: I accept that some information such as Username, Display Name and Email may be shared for venue access purposes.
+description: |
+    CypherTank is a Bitcoin-focused pitch competition that will be held in Lugano during the Plan ₿ Forum. This first edition is designed to showcase innovation, attract global talent and attention to Lugano as a Bitcoin hub, and connect promising founders with world-class investors and advocates.
+
+    The format, a first in the Bitcoin ecosystem, will be published/distributed online at the end of 2025. It is promoted, funded, and sponsored by Plan ₿ Network and the Plan ₿ VC Fund.
+
+    ⚡ Important: The fee listed here is only for spectators who want to attend the event live in Lugano.
+
+    ➡️ If you are a founder and want to pitch your project, participation is completely FREE.
+    Find more information and sign up under the founder application form.
+links:
+  website: https://docs.google.com/forms/d/e/1FAIpQLScuHtn2LpMhdYkPUmPo0J8mERNDKVyk5I-VwihntM3GxxpRYw/viewform
+  replay_url:
+  live_url:
+language:
+  - en
+tags:
+  - DIY
+  - investment
+  - hardware

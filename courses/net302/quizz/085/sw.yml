@@ -1,4 +1,4 @@
-question: Ni amri gani inayoweza kutumika kuangalia ni Interface na lango gani la pakiti hadi 8.8.8.8 lingepitishwa?
+question: Ni amri gani inayoweza kutumika kuangalia ni Interface na port gani la pakiti hadi 8.8.8.8 lingepitishwa?
 answer: njia ya ip pata 8.8.8.8
 wrong_answers:
   - ss njia -tulnp 8.8.8.8

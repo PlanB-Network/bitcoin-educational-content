@@ -54,10 +54,11 @@ Il n’est pas nécessaire d’acheter une machine neuve. Un ordinateur recondit
 - Dell OptiPlex
 - Lenovo ThinkCentre / ThinkPad
 - Intel NUC
+- etc.
 
 Il est tout à fait possible de faire tourner un serveur Dojo sur d’autres configurations matérielles. Cependant, pour obtenir les meilleures performances et limiter les problèmes, il est conseillé de respecter les recommandations ci-dessus.
 
-Dans ce tutoriel, je vais utiliser un ThinkCentre Tiny.
+Dans ce tutoriel, je vais utiliser un vieux ThinkCentre Tiny avec un processeur Intel Pentium Dual-Core G4400T, 8 Go de RAM et un SSD de 2 To.
 
 ## 1 - Installer Ubuntu
 
@@ -75,37 +76,37 @@ Insérez une clé USB d’au moins 8 Go dans cet ordinateur, puis créez une cl�
 
 03
 
-Insérez la clé USB amorçable dans le ThinkCentre éteint. Allumez la machine et appuyez immédiatement sur la touche **F12** ou **F10** de votre clavier (cela dépent du modèle) afin d’accéder au menu de démarrage. Sélectionnez votre clé usb comme priorité sur le boot de l'ordinateur.
+Insérez la clé USB amorçable dans l'ordinateur éteint (celui sur lequel vous voulez faire tourner Dojo). Démarrez ensuite la machine et appuyez immédiatement sur la touche **F12** ou **F10** de votre clavier (selon le modèle) pour accéder au menu de démarrage. Choisissez ensuite votre clé USB comme périphérique prioritaire dans l’ordre de boot de l’ordinateur.
 
 04
 
 ### 1.2. Installer le système d'exploitation
 
-L’écran d’accueil d’Ubuntu apparaît. Choisissez "Try or Install Ubuntu".
+L’écran d’accueil d’Ubuntu s’affiche. Sélectionnez "Try or Install Ubuntu".
 
 05
 
-Puis suivez le processus classique d'installation d'Ubuntu :
-- Sélectionnez la langue.
-- Indiquez le type de clavier.
-- Si vous utilisez un cable RJ45, pas besoin de connecter le Wi-Fi.
-- Optez pour "Install Ubuntu" et cochez la case permettant l’installation des logiciels tiers (pilotes Wi-Fi, codecs multimédias).
-- Lorsque le programme demande le type d’installation, choisissez "Erase disk and install Ubuntu". **Attention** : cette action effacera intégralement le contenu du disque. Vérifiez que le disque sélectionné correspond bien au SSD NVMe destiné à Dojo.
-- Définissez un nom d’utilisateur simple (par exemple "loic").
+Suivez ensuite le processus classique d’installation d’Ubuntu :
+- Choisissez la langue.
+- Sélectionnez le type de clavier.
+- Si vous êtes connecté par câble RJ45, inutile de configurer le Wi-Fi.
+- Cliquez sur "Install Ubuntu" et cochez l’option permettant l’installation des logiciels tiers (pilotes Wi-Fi, codecs multimédias...).
+- Lorsque l’assistant vous demande le type d’installation, sélectionnez "Erase disk and install Ubuntu". **Attention** : cette opération effacera entièrement le contenu du disque. Vérifiez attentivement que le disque choisi correspond bien au SSD NVMe destiné à Dojo.
+- Créez un nom d’utilisateur simple (par exemple "loic").
 - Attribuez un nom à la machine (par exemple "dojo-node").
-- Choisissez un mot de passe fort et conservez-le précieusement.
+- Définissez un mot de passe robuste et conservez-le précieusement.
 - Activez l’option "Demander mon mot de passe pour ouvrir une session" afin de renforcer la sécurité.
-- Choisissez votre timezone, puis cliquez sur le bouton "Install".
-- Patientez le temps de l'instalation. Une fois terminé, le système redémarre automatiquement.
-- Retirez la clé USB amorçale d’installation lorsque l’ordinateur redémarre.
+- Indiquez votre fuseau horaire, puis cliquez sur "Install".
+- Patientez le temps de l’installation. Une fois terminée, le système redémarrera automatiquement.
+- Retirez la clé USB d’installation lors du redémarrage de l’ordinateur.
 
-Pour plus de précisions sur le rpocessus d'instaltion d'Ubuntu, vous pouvez consulter notre tutoriel dédié : 
+Pour davantage de détails sur le processus d’installation d’Ubuntu, vous pouvez consulter notre tutoriel dédié :
 
 https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. Mise à jour du système
 
-Après le premier démarrage, ouvrez un terminal à l’aide de la combinaison de touches **Ctrl + Alt + T** et exécutez les commandes suivantes :
+Après le premier démarrage, ouvrez un terminal à l’aide de la combinaison de touches ***Ctrl + Alt + T*** et exécutez les commandes suivantes pour mettre à jour le système :
 
 ```bash
 sudo apt update
@@ -217,7 +218,7 @@ sudo usermod -aG docker $USER
 
 ## 3. Création d’un utilisateur isolé (optionnel)
 
-Si vous souhaitez améliorer la sécurité de votre système, je vous recommande de créer un utilisateur distinct exclusivement destiné à l’exécution de Dojo. Cette séparation limite les risques : si un problème de sécurité survient dans Dojo, il ne compromettra pas directement votre compte principal, et inversement.
+Si vous souhaitez améliorer la sécurité de votre système, je vous recommande de créer un utilisateur distinct exclusivement destiné à l’exécution de Dojo. Cette séparation limite les risques : si un problème de sécurité survient dans Dojo, il ne compromettra pas directement votre compte principal.
 
 ### 3.1. Création du compte utilisateur
 
@@ -229,7 +230,7 @@ sudo useradd -s /bin/bash -d /home/dojo -m -G sudo dojo
 
 ### 3.2. Définition d’un mot de passe robuste
 
-Il est important d’attribuer un mot de passe fort à ce compte. L’idéal est d’utiliser un gestionnaire de mots de passe tel que Bitwarden afin de générer une combinaison longue et difficile à deviner. Si le serveur Dojo est installé sur une machine locale (non accessible à distance), vous pouvez aussi noter ce mot de passe dans un carnet pour ne pas le perdre.
+Il est important d’attribuer un mot de passe fort à ce compte. L’idéal est d’utiliser un gestionnaire de mots de passe tel que Bitwarden afin de générer une combinaison longue et difficile à deviner.
 
 ```bash
 sudo passwd dojo
@@ -261,7 +262,7 @@ Lorsque le système redémarre, connectez-vous avec l’identifiant ***dojo*** e
 
 ## 4. Télécharger et vérifier Dojo
 
-Avant d’installer Dojo, il est indispensable de s’assurer que les fichiers proviennent bien du développeur officiel et qu’ils n’ont pas été modifiés. Cette étape repose sur l’utilisation de Tor pour télécharger les fichiers et de PGP pour vérifier leur authenticité.
+Avant d’installer Dojo, il est indispensable de s’assurer que les fichiers proviennent bien du développeur officiel et qu’ils n’ont pas été modifiés. Cette étape repose sur l’utilisation de PGP et des hachages pour vérifier l'authenticité et l'intégrité des fichiers.
 
 ### 4.1. Importer la clé PGP du développeur
 
@@ -365,11 +366,11 @@ Pour sécuriser l’accès aux différents services, vous devez générer plusie
 - `NODE_ADMIN_KEY`
 - `NODE_JWT_SECRET`
 
-Ces identifiants doivent être uniques (c'est très important, il ne faut pas utiliser le même mot de passe pour plusieurs services), composés uniquement de chiffres, de lettres majuscules et de lettres minuscules (alphanumériques), et comporter environ 40 caractères pour garantir un haut niveau de sécurité.
+Ces identifiants **doivent être uniques** (c'est très important, il ne faut pas utiliser le même mot de passe pour plusieurs services), composés uniquement de chiffres, de lettres majuscules et de lettres minuscules (alphanumériques), et comporter environ 40 caractères pour garantir un haut niveau de sécurité. Encore une fois, je vous conseille fortement d'utiliser un gestionnaire de mots de passe.
 
 ### 5.2. Accéder aux fichiers de configuration
 
-Les fichiers de configuration de Dojo se trouvent dans le dossier `conf`. Déplacez-vous dans ce répertoire :
+Les fichiers de configuration de Dojo se trouvent dans le dossier `conf/`. Déplacez-vous dans ce répertoire :
 
 ```bash
 cd ~/dojo-app/docker/my-dojo/conf/
@@ -396,7 +397,7 @@ BITCOIND_RPC_PASSWORD=your-password-here
 
 ⚠️ ***Remplacez `your-ID-here` et `your-password-here` par vos propres identifiants (avec un mot de passe fort).***
 
-Ajustez également la taille de la mémoire cache utilisée par Bitcoin Core pour améliorer les performances :
+Ajustez également la taille de la mémoire cache utilisée par Bitcoin Core pour améliorer les performances (vous pouvez même mettre plus si vous avez beaucoup de RAM disponible) :
 
 ```
 BITCOIND_DB_CACHE=2048
@@ -456,7 +457,7 @@ INDEXER_EXTERNAL_IP=192.168.1.157
 
 25
 
-Pour connaitre l'adresse IP lcoale de votre machine, dna sun autre terminal, tapez la commande : 
+Pour connaître l’adresse IP locale de votre machine, ouvrez un autre terminal et saisissez la commande suivante :
 
 ```shell
 hostname -I
@@ -510,7 +511,7 @@ Cet identifiant vous permettra de vous connecter plus tard à l’outil de maint
 
 ## 6. Installation de Dojo
 
-À cette étape, Dojo va être installé et démarré sur votre machine. L’opération va lancer plusieurs services critiques (Bitcoin Core, l’indexeur Fulcrum, le backend Dojo, etc.) et initier la synchronisation complète de la blockchain Bitcoin. Cette étape peut prendre plusieurs jours selon votre matériel et votre connexion Internet.
+À cette étape, Dojo va être installé et démarré sur votre machine. L’opération va lancer plusieurs services (Bitcoin Core, l’indexeur Fulcrum, le backend Dojo, etc.) et initier la synchronisation complète de la blockchain Bitcoin. Cette étape peut prendre plusieurs jours selon votre matériel et votre connexion Internet.
 
 ### 6.1. Vérifier le bon fonctionnement de Docker
 
@@ -535,7 +536,7 @@ Si ce message ne s’affiche pas, commencez par redémarrer votre machine avec :
 sudo reboot
 ```
 
-Reconnectez-vous ensuite à votre compte **dojo**, puis relancez la commande de test. Si le problème persiste, cela signifie que Docker n’est pas installé correctement. Dans ce cas, il faudra revenir à l’étape `2.4.` d’installation de Docker et vérifier chaque commande.
+Reconnectez-vous ensuite à votre compte **dojo** et exécutez de nouveau la commande de test. Si l’erreur persiste, cela indique que Docker n’a pas été installé correctement. Dans ce cas, retournez à l’étape `2.4.` consacrée à l’installation de Docker et vérifiez attentivement chaque commande.
 
 ### 6.2. Accéder au répertoire d’installation de Dojo
 
@@ -566,7 +567,7 @@ Confirmez l'installation en tapant la touche `y` puis "Entrée".
 Ce script va :
 - télécharger et lancer les conteneurs Docker nécessaires,
 - initialiser Bitcoin Core et commencer à synchroniser la blockchain,
-- démarrer l’indexeur Fulcrum pour gérer les transactions et les adresses,
+- démarrer l’indexeur Fulcrum pour tracer les transactions et les adresses,
 - activer le backend Dojo et ses API.
 
 Vous allez voir défiler un flux continu de journaux contenant des mentions de couleur comme `bitcoind`, `soroban`, `nodejs` ou encore `fulcrum`. Ce défilement indique que Dojo fonctionne et commence à exécuter les différents services.
@@ -583,7 +584,7 @@ Ctrl + C
 
 Ne vous inquiétez pas : arrêter l’affichage des journaux ne stoppe pas les services. Docker continue à exécuter Dojo en arrière-plan (il ne faut évidemment pas arrêter l'ordinateur si vous voulez que l'IBD continue).
 
-### 6.5. Comprendre l’Initial Block Download (IBD)
+### 6.5. Comprendre l’*Initial Block Download* (IBD)
 
 Dès le démarrage, Bitcoin Core doit télécharger et vérifier l’intégralité de la blockchain depuis 2009. Cette étape est appelée ***Initial Block Download* (IBD)**. Elle est indispensable, car elle permet à votre nœud Dojo de vérifier chaque bloc et transaction Bitcoin de manière indépendante.
 
@@ -595,6 +596,102 @@ La durée de cette synchronisation dépend de plusieurs facteurs :
 
 En pratique, cette opération prend généralement entre **2 et 7 jours**. Pendant cette période, vous pouvez laisser votre machine tourner en continu. Plus la machine reste allumée, plus vite la synchronisation sera terminée. Je vous conseille de vérifier régulièrement l’état de la synchronisation en consultant les journaux de Bitcoin Core ou en utilisant l’outil de maintenance de Dojo une fois installé (partie suivante).
 
-Pour en savoir plus sur l'IBD, et plus généralement, sur le foncitonnement et le rôle de votre noeud Bitcoin, je vous consielle de consulter ce cours :
+Pour approfondir vos connaissances sur l’IBD et, plus largement, sur le fonctionnement ainsi que le rôle de votre nœud Bitcoin, je vous recommande de consulter ce cours :
 
 https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+
+
+## 7. Suivi de la synchronisation
+
+Lors de la première installation de Dojo, il faut attendre que deux opérations principales soient entièrement terminées : le téléchargement complet de la blockchain Bitcoin (*IBD*) et l’indexation de cette blockchain par Fulcrum. Selon votre connexion et la puissance de votre machine, cela peut prendre plusieurs jours. Pendant cette période, vous pouvez surveiller l’avancée du processus pour vous assurer que tout fonctionne correctement.
+
+Deux méthodes existent pour suivre l’état de la synchronisation :
+- l’utilisation de l’outil de maintenance de Dojo (ou DMT), qui est simple mais fournit peu de détails durant l’IBD ;
+- la consultation directe des logs de Dojo sur votre machine, plus technique mais beaucoup plus précise.
+
+### 7.1. Vérification via l’outil de maintenance de Dojo (DMT)
+
+Le Dojo Maintenance Tool est une interface web sécurisée qui permet de surveiller l’état de votre installation, et de réaliser certaines opérations. C’est la méthode la plus simple et la plus accessible pour suivre l'avancement de l'IBD. Durant la phase initiale de synchronisation, les informations affichées peuvent être limitées. Par exemple, le DMT ne montre pas l’avancement détaillé de l’indexation de Fulcrum. En revanche, une fois la synchronisation terminée, le DMT affichera clairement :
+- tous les voyants au vert ;
+- le dernier bloc validé à jour pour chaque service (Node, Indexer, Dojo DB).
+
+Pour y accéder, vous devez connaître l’URL de votre DMT et vous y connecter [via le navigateur Tor](https://www.torproject.org/download/). Pour cela, ouvrez un terminal et placez-vous dans le répertoire `/my-dojo` :
+
+```shell
+cd ~/dojo-app/docker/my-dojo
+```
+
+Puis exécutez la commande suivante :
+
+```shell
+./dojo.sh onion
+```
+
+32
+
+Vous aurez alors accès à l’ensemble des informations relatives aux connexions à votre Dojo via Tor. Celle qui nous intéresse ici est l’URL suivante :
+
+```
+Dojo API and Maintenance Tool =
+```
+
+33
+
+Pour accéder au DMT depuis n’importe quelle machine, quel que soit le réseau (même à distance), ouvrez Tor Browser et saisissez cette URL suivie de `/admin`. Par exemple, si votre URL est `wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion`, vous devrez entrer dans la barre de [Tor Browser](https://www.torproject.org/download/) :
+
+```
+wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
+```
+
+⚠️ **Attention : conservez cette adresse strictement confidentielle.**
+
+Vous serez ensuite redirigé vers une page d’authentification. La connexion au DMT s’effectue à l’aide du mot de passe `NODE_ADMIN_KEY` que vous avez généré plus tôt.
+
+34
+
+Une fois connecté, vous accédez au *Dojo Maintenance Tool* ! Pensez à ajouter cette adresse à vos favoris dans Tor Browser afin de la retrouver facilement par la suite.
+
+
+
+
+### 7.3. Gestion de la corruption de Fulcrum
+
+Fulcrum est un indexeur particulièrement performant, mais son installation peut s’avérer complexe, notamment en raison de la gestion délicate de sa base de données. En cas de coupure de courant ou d’arrêt brutal de la machine durant la synchronisation initiale, la base de données de l’indexeur risque d’être corrompue. Vous pouvez le constater, par exemple, si vous avez les logs suivants :
+
+```shell
+fulcrum | The database has been corrupted etc... 
+```
+
+**Note :** Ce type d’erreur devrait être corrigé avec la sortie prochaine de Fulcrum 2.0.
+
+Si cela vous arrive, aucun impact n’est à craindre sur bitcoind (votre nœud Bitcoin) : son IBD poursuivra sa progression indépendamment de Fulcrum. En revanche, il sera impossible d’utiliser Fulcrum tant que vous n’aurez pas supprimé ses données corrompues et relancé sa synchronisation depuis le début. Voici la marche à suivre :
+
+Arrêtez Dojo :
+
+```shell
+cd ~/dojo-app/docker/my-dojo
+./dojo.sh stop
+```
+
+Supprimez uniquement le conteneur et le volume de Fulcrum :
+
+```shell
+docker rm -f fulcrum || true
+docker volume ls | grep -i fulcrum
+docker volume rm my-dojo_data-fulcrum
+```
+
+Normalement le nom est `my-dojo_data-fulcrum`, si ce n'est pas le cas pour vous, adaptez le nom renvoyé par la commande précédente.
+
+Ensuite relancez Dojo et reconstruisez Fulcrum de zéro :
+
+```shell
+./dojo.sh upgrade
+```
+
+Vous pouvez ensuite vérifier le bon fonctionnement de Fulcrum en consultant les logs :
+
+```shell
+docker logs -f fulcrum
+```
+

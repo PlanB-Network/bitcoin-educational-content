@@ -57,7 +57,7 @@ Muriteguye kwinjira  mw’isi ya Bitcoin mu nganda ? Reka tugende!
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
 
 
-## Amafaranga y'agaciro
+## Amafaranga ya kera 
 
 <chapterId>785e095c-6811-4ca2-ba46-fe38291432d4</chapterId>
 
@@ -68,16 +68,16 @@ Muriteguye kwinjira  mw’isi ya Bitcoin mu nganda ? Reka tugende!
 Amafaranga ni imirongo y’ishimikiro ishobora gutuma Exchange y’agaciro ikora neza.
 
 
-Ata mafaranga, abantu bategerezwa kwizigira **barter**, uburyo aho ibintu canke ibikorwa bihindurwa ataco bimaze. Guhinduranya ntaco bimaze kuko bisaba "uguhuza kabiri kw'ivyo umuntu yipfuza"—bompi bategerezwa kwipfuza ivyo uwundi atanga igihe kimwe. Nk’akarorero, nimba umurimyi afise ingano zirengeye ashaka inkweto, bategerezwa kurondera umuhinguzi w’inkweto akeneye canecane ingano. Ivyo ni bike kandi ntibikora neza. Ikindi, **n’ibicuruzwa n mu bukungu bw’uguhinduranya, hariho ~n(n−1)/2 Exchange ibiciro bikenewe**, bikaba bituma habaho uburyo butoroshe cane kandi butoroshe. Nk’akarorero ivyo vyosaba ibiciro birenga ~124.000 vya Exchange ku bicuruzwa 500 gusa.
+Ata mafaranga, abantu bategerezwa gusubira ku  **barter( le troc)**, uburyo aho ibintu canke ibikorwa babiguranyana batamanje gukoresha amafaranga . Guhinduranya ntaco bimaze kuko bisaba "uguhuza ibintu bisa gusu"—bose bategerezwa kwipfuriza rimwe  ivyo uwundi atanga . Nk’akarorero, nimba umurimyi afise ingano zirengeye ashaka inkweto, ategerezwe kurondera umuhinguzi w’ibirato akeneye nawenyene izo ngano . Ivyo biba gake  kandi ntibikora neza. Naho, **n’ibicuruzwa n mu bukungu bw’uguhinduranya, hariho ~n(n−1)/2 Exchange ibiciro bikenewe**, bikaba bituma habaho uburyo butoroshe cane kandi bugumye . Nk’akarorero ivyo vyosaba ibiciro birenga ~124.000 vya Exchange ku bicuruzwa 500 gusa.
 
 
-Amafaranga aravyorosha mu gukora nk’umuhuza, akarema **uruja n’uruza rugabanya igitigiri c’ibiciro vya Exchange ku n** —kimwe ku kintu cose kijanye n’amafaranga. Ivyo bituma ugucuruza bigenda neza cane kandi **bituma abantu bashobora gucuruza ibintu n’ibikorwa ataco basaba ko bompi bashaka igihe kimwe**. Aho guhindura ingano n’inkweto ataco akora, uwo murimyi arashobora kugurisha ingano ziwe kugira ngo abone amahera, mu nyuma akakoresha ayo mahera kugira ngo agure inkweto, canke ikindi kintu cose bakeneye.
+Amafaranga aravyorosha mu gukora nk’umuhuza, akarema **uruja n’uruza ( umuhora )rugabanya igitigiri c’ibiciro vya Exchange ku n** —kimwe ku kintu cose kijanye n’amafaranga. Ivyo bituma irungika ni rungikwa  bigenda neza cane kandi **bituma abantu bashobora gucuruza ibintu n’ibikorwa ataco basaba ko bompi bashakira ibintu bimwe mugihe kimwe**. Aho guhindura ingano n’ibirato umanje kurondera umuhinguzi wibirato akeneye nawenyene ingano, uwo murimyi arashobora kugurisha ingano ziwe kugira ngo abone amahera, mu nyuma akakoresha ayo mahera kugira ngo agure ibirato, canke ikindi kintu cose akeneye.
 
 
-Gushiramwo amafaranga nk’uruja n’uruza ntivyorosha gusa ubudandaji ariko kandi birashoboza **ugusangira ibikorwa n’ubuhinga bwihariye**. Kubera ko hariho uburyo bwo kwizigirwa bwa Exchange, abantu ku giti cabo n’imiryango ntibagikeneye guhingura ivyo barya vyose. Ahubwo barashobora kwibanda ku vyo bakora neza kuruta ibindi vyose, bikongera ubushobozi n’uburyo. Umurimyi arashobora kuba umuhinga mu vyo kurima, umuhinguzi w’inkweto mu gukora inkweto, umwubatsi na we akamenya kwubaka inzu. Abo bahinga barashobora rero Exchange ibintu vyabo n’ibikorwa vyabo biciye mu mafaranga, bakavyungukirako ku buhinga bwabo. Ukwo kwiga ni kwo gutuma habaho **ugutanga umusaruro n’uguhingura ibintu bishasha**, uko abantu banonosora ubuhinga bwabo no gutegura uburyo bushasha mu mirimo yabo.
+Gushiramwo amafaranga nk’uruja n’uruza ntivyorosha gusa ubudandaji ariko kandi birashoboza **ugusangira ibikorwa n’ubuhinga bwihariye**. Kubera ko hariho uburyo bwizewe  bwa Exchange, abantu  n’imiryango ntibagikeneye guhingura ibintu vyose barya. Ahubwo barashobora kwibanda ku vyo bakora neza kuruta ibindi vyose, bikongerereza ubushobozi n’ibintu bime neza. Umurimyi arashobora kwibanda muburimyi bwiwe   , umuhinguzi w’ibirato mu gukora ibirato, umwubatsi nawe mukwubaka amazu . Abo bahinga barashobora rero guhanahana  ibintu vyabo n’ibikorwa vyabo biciye mu mafaranga, bakavyungukirako umwe wese mubuhinga bwiwe . Ukwo kwibanda kuki kanaka  ni kwo gutuma habaho **ugutanga umusaruro n’uguhingura ibintu bishasha**, uko niko abantu banonosora ubuhinga bwabo no gutegura uburyo bushasha mu mirimo yabo.
 
 
-Urubuga rw'amafranga rurazana izindi nyungu zihambaye. Ica mbere, kuba mu mugwi w’amahera ni **ivyiza kuruta kuba hanze yarwo**. Itegeko ry'urubuga rusangi ryorosha ubudandaji, rigatuma abantu bashobora guhuza ibikorwa vyabo vy'ubutunzi mbere no **ku ntambwe ndende**. Nk’akarorero, umucuruzi wo mu gisagara kimwe arashobora gucuruza ibintu n’umuguzi wo mu kindi akoresheje amahera amwe, ivyo bikaba bituma ubutunzi butera imbere be n’ugufashanya mu turere tunini.
+kamere y'umuhora  w'amafranga urazanana n'izindi nyungu zihambaye. Ica mbere nambere , kuba mu muhora  w’amahera ni **ivyiza kuruta kuba hanze yawo**. Itegeko ry'urubuga rusangi ryorosha ubudandaji, rituma abantu bashobora guhuza ibikorwa vyabo vy'ubutunzi mbere no **mumihingo itandukanye ya kure na kure**. Nk’akarorero, umucuruzi wo mu gisagara kimwe arashobora gucuruza ibintu k’umuguzi wo mu kindi gisagara  akoresheje amahera amwe, ivyo bikaba bituma ubutunzi butera imbere be n’ugufashanya mu turere tunini.
 
 
 Ikindi ciza gikomeye c’amahera ni ubushobozi bwayo bwo **kwemera guhindura amafaranga**. Iyo umuntu akoresheje ubuhinga bwo guhinduranya, amafaranga aca ahita; iciza kimwe gihindurwa n’ikindi mu gihe nyaco. Amafaranga, ariko, arashoboza **kuzigama—abantu barashobora kubika agaciro kugira ngo bazokoreshe muri kazoza**. Ivyo bigereranya ugutera imbere gukomeye mu bijanye n’igenamigambi ry’ubutunzi, ishoramari, n’ukwirundanira ubutunzi, ivyo vyose bikaba bituma ubuzima bw’abaje mu nama butera imbere.

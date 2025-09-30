@@ -15,7 +15,7 @@ Je hebt al:
 
 
 
-- Kies een thema voor je zelfstudie;
+- Kies een thema voor je tutorial;
 - Neem contact op met het Plan ₿ Network team via [Telegram groep](https://t.me/PlanBNetwork_ContentBuilder) of paolo@planb.network ;
 - Kies je bijdragehulpmiddelen.
 
@@ -39,14 +39,14 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 ## Vereisten
 
 
-Vereisten voordat u de zelfstudie start:
+Vereisten voordat je de tutorial start:
 
 
 
 
 - Een [GitHub account] hebben (https://github.com/signup);
-- Neem een Fork van de [Plan ₿ Network bronopslagplaats] (https://github.com/PlanB-Network/Bitcoin-educational-content);
-- Heb [een leraarsprofiel op Plan ₿ Network](https://planb.network/professors) (alleen als je een volledige bijles aanbiedt).
+- Een fork hebben van de [Plan ₿ Network bron repository] (https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Heb [een leraarsprofiel op Plan ₿ Network](https://planb.network/professors) (alleen als je een volledige tutorial aanbiedt).
 
 
 Als je hulp nodig hebt bij het verkrijgen van deze vereisten, kunnen mijn andere tutorials je helpen:
@@ -59,37 +59,37 @@ https://planb.network/tutorials/contribution/others/github-desktop-work-environm
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Als alles klaar is en je Fork van de Plan ₿ Network repository hebt, kun je beginnen met het toevoegen van de tutorial.
+Als alles klaar is en je hebt je fork van de Plan ₿ Network repository, dan kun je beginnen met het toevoegen van de tutorial.
 
 
-## 1 - Maak een nieuwe tak
+## 1 - Maak een nieuwe branch
 
 
-Open je browser en navigeer naar je Fork pagina in de Plan ₿ Network repository. Dit is de Fork die je hebt aangemaakt op GitHub. De URL van je Fork zou er als volgt uit moeten zien: `https://github.com/[jouw-gebruikersnaam]/Bitcoin-onderwijsinhoud`:
+Open je browser en navigeer naar je fork pagina in de Plan ₿ Network repository. Dit is de fork die je hebt aangemaakt op GitHub. De URL van je fork zou er als volgt uit moeten zien: `https://github.com/[your-username]/bitcoin-educational-content`:
 
 
 ![GITHUB](assets/fr/01.webp)
 
 
-Zorg ervoor dat je op de hoofd `dev` branch zit, klik dan op de "*Sync Fork*" knop. Als je Fork niet up-to-date is, zal GitHub je vragen om je branch bij te werken. Ga verder met deze update:
+Zorg ervoor dat je op de hoofd `dev` branch zit, klik dan op de knop "*Sync Fork*". Als je fork niet up-to-date is, zal GitHub je vragen om je branch bij te werken. Ga verder met deze update:
 
 
 ![GITHUB](assets/fr/02.webp)
 
 
-Klik op de `dev` tak, noem dan je werktak zo dat de titel duidelijk het doel weergeeft, gebruik streepjes om woorden te scheiden. Bijvoorbeeld, als het ons doel is om een tutorial te schrijven over het gebruik van Green Wallet, dan zou de branch kunnen heten: `tuto-Green-Wallet-loic`. Na het invoeren van een geschikte naam, klik je op "*Create branch*" om het aanmaken van je nieuwe tak op basis van `dev` te bevestigen:
+Klik op de `dev` branch, geef je branch een naamn zodat de titel duidelijk het doel weergeeft, gebruik streepjes om woorden te scheiden. Bijvoorbeeld, als het ons doel is om een tutorial te schrijven over het gebruik van Green Wallet, dan zou de branch kunnen heten: `tuto-Green-Wallet-loic`. Na het invoeren van een geschikte naam, klik je op "*Create branch*" voor het bevestigen van je nieuwe branch op basis van `dev`:
 
 
 ![GITHUB](assets/fr/03.webp)
 
 
-Je zou nu op je nieuwe tak van werk moeten zijn:
+Je zou nu op je nieuwe werk branch moeten zijn:
 
 
 ![GITHUB](assets/fr/04.webp)
 
 
-Dit betekent dat alle wijzigingen die je maakt alleen op die specifieke tak worden opgeslagen.
+Dit betekent dat alle wijzigingen die je maakt alleen op die specifieke branch worden opgeslagen.
 
 
 Maak voor elk nieuw artikel dat je van plan bent te publiceren een nieuwe branch aan van `dev`.
@@ -98,19 +98,19 @@ Maak voor elk nieuw artikel dat je van plan bent te publiceren een nieuwe branch
 Een branch in Git vertegenwoordigt een parallelle versie van het project, waardoor je aan wijzigingen kunt werken zonder de hoofdbranch te beïnvloeden, totdat je werk klaar is om geïntegreerd te worden.
 
 
-## 2 - Zelfstudiebestanden toevoegen
+## 2 - Tutorial bestanden toevoegen
 
 
 Nu de werkende branch is aangemaakt, is het tijd om je nieuwe tutorial te integreren.
 
 
-Binnen je vertakkingsbestanden moet je de juiste submap vinden voor het plaatsen van je zelfstudie. De organisatie van de mappen weerspiegelt de verschillende secties van de Plan ₿ Network website. In ons voorbeeld, omdat we een zelfstudie toevoegen aan Green Wallet, ga je naar het volgende pad: `Bitcoin-educational-content\tutorialsWallet`, wat overeenkomt met de `Wallet` sectie van de website:
+Binnen je branch bestanden moet je de juiste submap vinden voor het plaatsen van je tutorial. De organisatie van de mappen weerspiegelt de verschillende secties van de Plan ₿ Network website. In ons voorbeeld, waarbij we een tutorial toevoegen over Green Wallet, ga je naar het volgende pad: `bitcoin-educational-content\tutorials\wallet`, wat overeenkomt met de `Wallet` sectie van de website:
 
 
 ![GITHUB](assets/fr/05.webp)
 
 
-Maak in de `Wallet` map een nieuwe map aan die specifiek gewijd is aan je tutorial. De naam van deze map moet duidelijk de software aangeven die in de tutorial behandeld wordt, waarbij je koppeltekens gebruikt om woorden te verbinden. In mijn voorbeeld krijgt de map de naam `Green-Wallet`. Klik op "*Add File*" en vervolgens op "*Create new file*":
+Maak in de `Wallet` map een nieuwe map aan die specifiek gewijd is aan je tutorial. De naam van deze map moet duidelijk de software aangeven die in de tutorial behandeld wordt, waarbij je koppeltekens gebruikt om woorden te verbinden. In mijn voorbeeld krijgt de map de naam `Green-Wallet`. Klik op "*Add File*" (bestand toevoegen) en vervolgens op "*Create new file*" (nieuw bestand aanmaken):
 
 
 ![GITHUB](assets/fr/06.webp)
@@ -122,15 +122,15 @@ Voer de mapnaam in gevolgd door een schuine streep `/` om de aanmaak als map te 
 ![GITHUB](assets/fr/07.webp)
 
 
-In deze nieuwe submap voor je zelfstudie moet je verschillende items toevoegen:
+In deze nieuwe submap voor je tutorial moet je verschillende items toevoegen:
 
 
 
 
-- Maak een map `assets` aan voor alle illustraties die nodig zijn voor je zelfstudie;
-- Maak in deze map `assets` een submap met de naam van de oorspronkelijke taal van de zelfstudie. Als de handleiding bijvoorbeeld in het Engels is geschreven, moet deze submap `en` heten. Plaats al het beeldmateriaal van de handleiding (diagrammen, afbeeldingen, screenshots, enz.) in deze map.
+- Maak een map `assets` aan voor alle illustraties die nodig zijn voor je tutorial;
+- Maak in deze map `assets` een submap met de naam van de oorspronkelijke taal van de zelfstudie. Als de handleiding bijvoorbeeld in het Engels is geschreven, moet deze submap `en` heten. Plaats al het beeldmateriaal van de tutorial (diagrammen, afbeeldingen, screenshots, enz.) in deze map.
 - Een `tutorial.yml` bestand moet worden aangemaakt om de details van je tutorial vast te leggen;
-- Er moet een markdown-bestand gemaakt worden om de eigenlijke inhoud van je zelfstudie te schrijven. Dit bestand moet de naam krijgen van de taal waarin het geschreven is. Voor een handleiding in het Frans moet het bestand bijvoorbeeld `fr.md` heten.
+- Er moet een markdown-bestand gemaakt worden om de eigenlijke inhoud van je tutorial te schrijven. Dit bestand moet de naam krijgen van de taal waarin het geschreven is. Voor een handleiding in het Frans moet het bestand bijvoorbeeld `fr.md` heten.
 
 
 Samengevat is dit de hiërarchie van de bestanden (we gaan verder met het maken ervan in de volgende sectie):
@@ -193,27 +193,27 @@ Dit zijn de verplichte velden:
 
 
 
-- **id**: Een UUID (_Universally Unique Identifier_) die de zelfstudie uniek identificeert. Je kunt het generate met behulp van [een online tool](https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
+- **id**: Een UUID (_Universally Unique Identifier_) die de tutorial uniek identificeert. Je kunt het genereren met behulp van [een online tool](https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
 
 
 
-- **project_id**: De UUID van het bedrijf of de organisatie achter het gereedschap dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die werken op Bitcoin of gerelateerde projecten. Door de `project_id` van de entiteit die gelinkt is aan je zelfstudie toe te voegen, creëer je een link tussen de twee Elements;
+- **project_id**: De UUID van het bedrijf of de organisatie achter de tool die in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die werken aan Bitcoin of gerelateerde projecten. Door de `project_id` van de entiteit die gelinkt is aan je tutorial toe te voegen, creëer je een link tussen de twee elementen;
 
 
 
-- **tags**: 2 of 3 relevante sleutelwoorden gerelateerd aan de inhoud van de zelfstudie, exclusief gekozen [uit de Plan ₿ Network tag lijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 of 3 relevante sleutelwoorden gerelateerd aan de inhoud van de tutorial, exclusief gekozen [uit de Plan ₿ Network tag lijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **categorie**: De subcategorie die overeenkomt met de tutorialinhoud, volgens de Plan ₿ Network websitestructuur (bijvoorbeeld voor wallets: `desktop`, `hardware`, `mobiel`, `backup`);
+- **category**: De subcategorie die overeenkomt met de tutorialinhoud, volgens de Plan ₿ Network websitestructuur (bijvoorbeeld voor wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- **level**: De moeilijkheidsgraad van de zelfstudie, gekozen uit:
-    - beginner
-    - gemiddeld
-    - geavanceerd
-    - `expert`
+- **level**: De moeilijkheidsgraad van de tutorial, gekozen uit:
+  - `beginner`
+  - `intermediate`
+  - `advanced`
+  - `expert`
 
 
 
@@ -221,16 +221,16 @@ Dit zijn de verplichte velden:
 
 
 
-- **oorspronkelijke_taal**: De oorspronkelijke taal van de zelfstudie (bijv. `fr`, `en`, enz.);
+- **original_language**: De oorspronkelijke taal van de tutorial (bijv. `fr`, `en`, enz.);
 
 
 
-- **proeflezen**: Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen zelfstudie telt als een eerste validatie:
+- **proofreading**: Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen tutorial telt als een eerste validatie:
 - **language**: Taalcode van het proeflezen (bijv. `fr`, `en`, enz.).
 - **last_contribution_date**: Datum van de dag.
 - **urgentie**: 1
 - **contributor_names**: Je GitHub ID.
-- **beloning**: 0
+- **reward**: 0
 
 
 Raadpleeg de bijbehorende handleiding voor meer informatie over je leraren-ID:

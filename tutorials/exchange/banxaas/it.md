@@ -18,7 +18,7 @@ In questo tutorial, scopriamo **Banxaas**, una piattaforma di baratto che avvici
 
 ## Come iniziare con Banxaas
 
-
+DDDDDDDDDD........
 
 Banxaas deriva dal dialetto senegalese (Wolof) e significa "ramo". Ideologicamente, possiamo vedere Banxaas come un ramo che lega il popolo senegalese all'utilizzo del Bitcoin. Un ramo su cui fare affidamento per proteggere i propri risparmi dall'inflazione e dalla censura. Sviluppata da una start-up senegalese (Yité Technologies), [Banxaas](https://banxaas.com) offre un servizio istantaneo Exchange tra il Bitcoin e il franco CFA (XOF) viceversa, grazie alla potenza del Lightning Network. Banxaas ha un approccio insolito alle piattaforme Exchange nella subregione dell'Africa occidentale.
 

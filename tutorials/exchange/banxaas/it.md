@@ -5,7 +5,7 @@ description: Commercio di satoshis e XOF ovunque in Senegal
 
 ![cover](assets/cover.webp)
 
-
+jfjfjfjfjfjfjfjfjfjfjfjfjf
 
 L'avvento del Lightning Network ha segnato l'inizio del mainstream del Bitcoin, offrendo possibilità istantanee e meno costose rispetto alla rete principale del protocollo Bitcoin (Mainnet).
 

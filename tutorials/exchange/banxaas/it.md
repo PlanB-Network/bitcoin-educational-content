@@ -1,6 +1,6 @@
 ---
 name: Banxaas
-description: Commercio di satoshis e XOF ovunque in Senegal
+description: Commercio di satoshi e XOF ovunque in Senegal
 ---
 
 ![cover](assets/cover.webp)
@@ -20,7 +20,7 @@ In questo tutorial, scopriamo **Banxaas**, una piattaforma di scambio che avvici
 
 
 
-Banxaas deriva dal dialetto senegalese (Wolof) e significa "ramo". Ideologicamente, possiamo vedere Banxaas come un ramo che lega il popolo senegalese all'utilizzo di Bitcoin. Un ramo su cui fare affidamento per proteggere i propri risparmi dall'inflazione e dalla censura. Sviluppata da una start-up senegalese (Yité Technologies), [Banxaas](https://banxaas.com) offre un servizio istantaneo Exchange tra Bitcoin e il franco CFA (XOF) e viceversa, grazie alla potenza di Lightning Network. Banxaas ha un approccio insolito alle piattaforme Exchange nella sottoregione dell'Africa occidentale.
+Banxaas deriva dal dialetto senegalese (Wolof) e significa "ramo". Ideologicamente, possiamo vedere Banxaas come un ramo che lega il popolo senegalese all'utilizzo di Bitcoin. Un ramo su cui fare affidamento per proteggere i propri risparmi dall'inflazione e dalla censura. Sviluppata da una start-up senegalese (Yité Technologies), [Banxaas](https://banxaas.com) offre un servizio istantaneo Exchange tra Bitcoin e il franco CFA (XOF) e viceversa, grazie alla potenza di Lightning Network. Banxaas ha un approccio inusuale alle piattaforme di scambio nella sottoregione dell'Africa occidentale.
 
 
 
@@ -77,18 +77,18 @@ La piattaforma web di Banxaas è minimalista e intuitiva, consente di completare
 
 
 
-Banxaas copre l'intero territorio senegalese con i due principali operatori di telefonia mobile. Con l'aiuto del suo integratore di pagamenti (DexchangePay), la piattaforma supporta principalmente :
+Banxaas copre l'intero territorio senegalese con i due principali operatori di telefonia mobile. Con l'aiuto del loro gestore di pagamenti (DexchangePay), la piattaforma supporta principalmente :
 
 
 
 
-- Soldi arancioni
-- Onda
-- Soldi Wizall
+- Orange Money
+- Wave
+- Wizall Money
 
 
 
-Quando si avvia una conversione da franchi CFA a Bitcoin, si aggiunge il Address Lightning o un Invoice senza importo creato dal Wallet Lightning nel campo di destinazione.
+Quando si avvia una conversione da franchi CFA a Bitcoin, si aggiunge l’Address Lightning o una Invoice senza importo creata dal Wallet Lightning nel campo di destinazione.
 
 
 
@@ -104,7 +104,7 @@ Banxaas consente di verificare l'accuratezza della ricezione Bitcoin Address cli
 
 
 
-Confermate la transazione cliccando sul pulsante **Troc** per acquistare bitcoin dal vostro pagamento in franchi CFA.
+Conferma la transazione cliccando sul pulsante **Troc** per acquistare Bitcoin con i tuoi franchi CFA.
 
 
 
@@ -125,11 +125,11 @@ Banxaas permette di convertire i bitcoin in franchi CFA e di riceverli su due op
 
 
 - Orange Money Senegal
-- Onda Senegal
+- Wave Senegal
 
 
 
-Cliccare sul pulsante **Troc** per pagare il Lightning Invoice che verrà generato per ricevere l'importo equivalente sul proprio Mobile Money.
+Clicca sul pulsante **Troc** per pagare l’Invoice Lightning che verrà generata e ricevere l'importo equivalente sul proprio Mobile Money.
 
 
 
@@ -137,7 +137,7 @@ Cliccare sul pulsante **Troc** per pagare il Lightning Invoice che verrà genera
 
 
 
-Più che una semplice piattaforma di conversione, Banxaas è un servizio che consente di utilizzare i bitcoin come mezzo di pagamento Exchange. Attraverso la piattaforma, è possibile pagare i pasti, fare la spesa e pagare le attrezzature utilizzando i satoshis, barattando **Satoshis in CFA Franc** e fornendo il numero di cellulare Money del venditore.
+Più che una semplice piattaforma di conversione, Banxaas è un servizio che consente l'utilizzo di bitcoin come mezzo di pagamento. Attraverso la piattaforma, è possibile pagare i pasti, fare la spesa e pagare le attrezzature utilizzando i satoshi, barattando **Satoshi in CFA Franc** e fornendo il numero di cellulare Money del venditore.
 
 
 ### La trasparenza al centro del processo

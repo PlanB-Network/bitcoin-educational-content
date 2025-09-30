@@ -29,13 +29,13 @@ objectives:
 
 ### 簡介
 
-Bitcoin 是由一位使用化名中本聰的個人（或一群人）設計的。2008 年 10 月 31 日，他通過一個鮮為人知的電子郵件郵件列表共享了一份描述其模型的白皮書。2009 年 1 月 8 日，他通過發布軟體的原始碼並挖掘區塊鏈的第一個區塊來實現他的概念。為了吸引大量使用者，他在各種通信渠道推廣自己的創作。
+Bitcoin 是由一位使用化名中本聰的個人（或一群人）設計的。2008 年 10 月 31 日，他通過一個鮮為人知的電子郵件論壇共享了一份描述其模型的白皮書。2009 年 1 月 8 日，他通過發布軟體的原始碼並挖掘區塊鏈的第一個區塊來實現他的概念。為了吸引大量使用者，他在各種渠道推廣自己的創作。
 
-經歷了艱難的開始，系統的啟動最終於 2009 年 10 月發生，當時計量單位－即比特幣－開始獲得價格。第一家商業服務於 2010 年出現，首先是與美元對接的交易服務。大約在這個時候，使用顯示卡進行挖礦的更高效方法最初被實施，並且第一次用比特幣交換實物商品，特別是披薩，這是 Laszlo Hanyecz 提出的倡議。
+經歷了艱難的開始，系統的啟動最終於 2009 年 10 月發生，當時比特幣開始獲得價格。第一家商業服務於 2010 年出現，首先是與美元對接的交易。大約在這個時候，使用顯卡進行挖礦的更高效方法最初被實施，並且第一次用比特幣交換實體商品，特別是披薩，這是 Laszlo Hanyecz 做出的壯舉。
 
-該專案在 2010 年夏季開始起飛，隨著在非常受歡迎的網站 Slashdot 上發表的一篇文章的發佈，與美元的交易、比特幣挖礦和軟體開發在這一時期顯著提升。從秋季起，中本聰逐漸開始撤回，停止公眾寫作並逐步將其任務委派給他身邊的人。最終，他在 2011 年春季完全消失，在這之前已將其訪問權限移交給他的左右手 Martti Malmi 和 Gavin Andresen。社群最終接管並成功地將專案推向今天的樣貌。
+該專案在 2010 年夏季開始受到注目，隨著在非常受歡迎的網站 Slashdot 上發表的一篇文章的發佈，與美元的交易、比特幣挖礦和軟體開發在這一時期顯著提升。從秋季起，中本聰逐漸開始撤回，停止公眾寫作並逐步將其任務委派給他身邊的人。最終，他在 2011 年春季完全消失，在這之前已將其訪問權限移交給他的左右手 Martti Malmi 和 Gavin Andresen。社群最終接管並成功地將專案推向今天的樣貌。
 
-除了這個敘述，Bitcoin 也有一段史前史。事實上，Bitcoin 並非憑空出現的物件。它的創造是特定環境的一部分：尋找將現金特性轉錄到網路空間的方法。特別是，組成它的技術元素是之前數十年研究和實驗的成果。Bitcoin 是基於
+除了這個敘述，Bitcoin 也有一段史前史。事實上，Bitcoin 並非憑空出現的物件。它的出生是特定歷史環境的產物：尋找將現金特性轉錄到網路空間的方法。組成它的技術元素是之前數十年研究和實驗的成果。Bitcoin 是基於
 
 
 - 數位簽名，源於非對稱加密，自 1976 年誕生；
@@ -756,80 +756,80 @@ Bitcoin 的宣傳也經歷了幾個階段：首先，中本聰著重於線上支
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
-在之前的章節中，我們觀察到中本聰如何實現他的想法，以及他如何傳達這個想法，將 Bitcoin 介紹給全世界。然而，並非一切都取決於他：還需要人們為帳戶單位賦予價值。由於這樣可以透過交易費用賺取礦工的報酬，並透過自然通縮獎勵商人，因此這種升值對於系統的安全性至關重要。
+在之前的章節中，我們觀察到中本聰如何實現他的想法，以及他如何傳達這個想法，將 Bitcoin 介紹給全世界。然而，並非一切都取決於他：還需要人們為 Bitcoin 賦予價值。由於這樣可以透過交易費用賺取礦工的報酬，並透過自然通縮獎勵商人，因此這種升值對於系統的安全性至關重要。
 
-然而，Bitcoin 價值的出現並非易事。它確實是基於完全主觀的理由，賦予一個之前沒有經濟重要性的物件以經濟重要性。Hal Finney 在 2009 年 1 月 11 日寄送給 Cryptography 郵件論壇的 [email](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 中做了很好的解釋，他寫道："Bitcoin 的價值在於它的經濟價值：
+然而，Bitcoin 價值的出現並非易事。為之前沒有經濟價值的對象賦予經濟意義，且完全是基於主觀原因。Hal Finney 在 2009 年 1 月 11 日寄送給 Cryptography 郵件論壇的 [email](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 中做了很好的解釋，他寫道："Bitcoin 的價值在於它的經濟價值：
 
-> "任何新貨幣的直接問題之一就是如何為其估值。即使忽略一開始幾乎沒有人會接受它這個實際問題，要提出一個合理的論據來支持單位的特定非零價值，仍然存在困難"。
-因此，貨幣現象需要一個非貨幣原因的初步評估。正如[Satoshi寫](https://mmalmi.github.io/Satoshi/#email-1)給Martti所說，需要有「火花」來引燃易燃物的燃燒。
+> "任何新貨幣的一個直接問題是如何對其進行估值。即使忽略幾乎沒有人會接受它的實際問題，要提出一個合理的論據來支持單位的價值，仍然存在困難"。
+因此，貨幣現象需要一個非貨幣原因的初步評估。正如[中本聰寫](https://mmalmi.github.io/Satoshi/#email-1)給Martti所說，需要有「火花」來引燃易燃物的燃燒。
 
-Bitcoin 的這種經濟引導作用從一開始就隨著 Mining 的活動逐漸發生。然而，直到 2009 年 10 月第一次 Exchange 兌換美元時，它才真正展現出來。在本章中，我們將嘗試描述這種開端是如何發生的，以及是什麼原因導致不同的參與者賦予計價單位價值。
+Bitcoin 的這種經濟引導作用從一開始就隨著挖礦的活動逐漸發生。然而，直到 2009 年 10 月第一次兌換美元時，它才真正展現出來。在本章中，我們將說明這一啟動期是如何發生的，以及不同的參與者出於何種原因賦予該單位價值。
 
 ### 第一批礦工
 
-從 2009 年 1 月開始，Bitcoin 的啟動分幾個階段展開：第一批礦工的到來、Exchange 與美元的出現，以及第一批接受 Bitcoin 的服務的發展。因此，部署生成節點的人是第一個間接為帳戶單位賦予價值的人。他們確實貢獻了自己的計算能力，將 Proof of Work 添加到交易區塊中，從而將其附加到鏈上，這是一項在時間（由於軟體維護）和能源（由於過程中消耗的電力）上都很昂貴的任務。這種努力得到了比特幣的回報，因此以這種方式產生的比特幣構成了一種經濟形式的 Exchange。
+從 2009 年 1 月開始，Bitcoin 的啟動分幾個階段展開：第一批礦工的出現、與美元的首次兌換，以及第一批接受 Bitcoin 的服務的發展。部署生成節點的人是第一個間接為帳戶單位賦予價值的人。他們貢獻了自己的計算能力，將工作量證明附加到交易區塊中，從而將其附加到鏈上，這是一項在時間（由軟體維護）和能源（由過程中消耗的電力）上都是昂貴的。這種努力以 Bitcoin 的形式獲得回報，因此這種生成貨幣的方式構成了一種經濟交換形式。
 
-然而，正如我們在引言中指出的，比特幣在市場上沒有價值。因此，礦工們需要找到主觀理由來做出這樣的努力。主要原因有三：技術好奇心、意識形態動機和投機興趣。
+然而，正如我們在引言中指出的，Bitcoin 在市場上沒有價值。因此，礦工們需要找到理由來做出這樣的努力。主要原因有三：技術好奇心、意識形態動機和投機興趣。
 
-第一個原因可能是最不重要的，那就是對技術的好奇心。Bitcoin 的早期使用者確實通常都是電腦愛好者，而且大多數時間都是從事與程式設計或工程相關的職業。他們喜歡知道「引擎蓋下」的事物是如何運作的，這驅使他們啟動軟體和 generate 一些比特幣。Mike Hearn 就是明顯的例子，他在 2009 年 4 月 12 日向 Satoshi 提出問題後，[趕緊](https://plan99.net/~mike/Satoshi-emails/thread1.html) 在他的電腦上 「試用應用程式」，並產生一些區塊。(*原文：「我嘗試了應用程式」*)
+第一個原因可能是最不重要的，那就是對技術的好奇心。Bitcoin 的早期使用者確實通常都是電腦愛好者，而且大多數時間都是從事與程式設計或工程相關的職業。他們喜歡知道「引擎蓋下」的事物是如何運作的，這驅使他們啟動軟體和生成一些比特幣。Mike Hearn 就是明顯的例子，他在 2009 年 4 月 12 日向中本聰提出問題後，[趕緊](https://plan99.net/~mike/Satoshi-emails/thread1.html) 在他的電腦上 「試用應用程式」，並產生一些區塊。(*原文：「我嘗試了應用程式」*)
 
-Mining 的第二個原因是意識形態動機。許多早期的軟體使用者都是「為了善因」，因為他們的個人信仰。他們提供自己的計算能力，為不依賴中央權威的強大數位貨幣的誕生做出貢獻。Hal Finney 在 2008 年 11 月 13 日[撰文](https://www.metzdowd.com/pipermail/cryptography/2008-November/014848.html)率先強調了這個概念：
+第二個挖礦原因是意識形態動機。許多早期的軟體使用者都是「為了善因」，因為他們的個人信仰。他們提供自己的計算能力，為不依賴中央權威的強大數位貨幣的誕生做出貢獻。Hal Finney 在 2008 年 11 月 13 日[撰文](https://www.metzdowd.com/pipermail/cryptography/2008-November/014848.html)率先強調了這個概念：
 
-> 「Bitcoin系統與美國的自由主義運動顯然是一致的，自由主義運動提倡不受限制的自由市場，並明確地與國家對立，尤其是在國家對貨幣的控制方面(」[結束美聯儲](https://en.wikipedia.org/wiki/End_the_Fed)")。這就是為什麼 Satoshi [回應](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) Hal Finney 說他的論點「對自由主義者的觀點非常有吸引力，如果我們能好好解釋的話」。
-決定啟動 Mining 的第三個動力是投機興趣。如前一章所述，Bitcoin 的貨幣政策是其主要賣點之一。如果流通中的比特幣數量要接近固定數量（2,100 萬單位），那麼隨著越來越多的人加入經濟體，其單位價格可能會變得非常高。這個論點，特別說服 Dustin Trammell 很早就開始產生比特幣，就像他與 Satoshi 在他們的 [私人通信](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) 中分享的一樣：
+> 「Bitcoin系統與美國的自由主義運動顯然是一致的，自由主義運動提倡不受限制的自由市場，並明確地與國家對立，尤其是在國家對貨幣的控制方面(」[結束美聯儲](https://en.wikipedia.org/wiki/End_the_Fed)")。這就是為什麼中本聰[回應](https://www.metzdowd.com/pipermail/cryptography/2008-November/014853.html) Hal Finney 說他的論點「對自由主義者的觀點非常有吸引力，如果我們能好好解釋的話」。
+決定啟動挖礦的第三個動力是投機興趣。如前一章所述，Bitcoin 的貨幣政策是其主要賣點之一。如果流通中的 Bitcoin 數量要接近固定數量（2,100 萬單位），那麼隨著越來越多的人加入經濟體，其單位價格可能會變得非常高。這個論點，說服 Dustin Trammell 很早就開始產生 Bitcoin，就像他與中本聰在他們的 [私訊](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) 中分享的一樣：
 
-> "這是推動我這麼快就開始一個節點的原因之一。我的系統在閒置時沒有做什麼其他事，為什麼不創造比特幣呢？如果有一天它們值錢了......？那就是額外的獎勵了！"
+> "這是推動我這麼快就開始一個節點的原因之一。我的系統在閒置時沒有做什麼其他事，為什麼不創造 Bitcoin 呢？如果有一天它們值錢了......？那就是額外的獎勵了！"
 最後兩個原因更為重要，因為它們會激勵人們持續挖礦。因此，在 2009 年，有幾個人在這些原因的驅使下，為網路貢獻了他們的計算能力，產生了大量的區塊。在這些人當中，值得注意的是
 
 
 - Hal Finney 在網路啟動至 2009 年 3 月期間管理他的電腦，累積了超過 10,000 個比特幣。
 - Dustin Trammell，他在 2009 年和 2010 年初挖出了數量驚人的區塊，從與他的 [Address](https://Mempool.space/Address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv) 相關聯的活動中可以看出，他因此獲得了超過 70,000 個比特幣；- 一位名叫 James Howells 的英國工程師，他在 2 月到 4 月期間用自己的電腦 [產生](https://Mempool.space/Address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi) 了 8,000 個比特幣（他將在 2013 年把自己的電腦送去垃圾填埋場，並在幾個月後意識到自己的錯誤；他的案例將被 *The Guardian* [公開](https://www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site)）；
 - Martti Malmi，他在 2009 年 4 月至 2010 年間，參與網路區塊的生產，因此 [獲得](https://twitter.com/marttimalmi/status/1339908783187832834) 55,000 多個比特幣；
-- 某位 NewLibertyStandard，從 2009 年 9 月開始產生大量的比特幣，為其新生的 Exchange 服務提供燃料...
+- 一位稱為 NewLibertyStandard 的人於 2009 年 9 月開始產生大量的比特幣，以支持其新開的兌換服務...
 
-### 第一個 Exchange 服務和第一個價格
+### 首次兌換服務和首個價格
 
-2009 年 9 月底，一位化名為 NewLibertyStandard (我們簡稱為 NLS) 的人發現 Bitcoin。他試用該軟體，並啟動 Mining。他產生的第一個區塊是 [block 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50)。他是 Linux 使用者，因此使用「模擬器」Wine 來執行軟體。他對政治自由和貴金屬很感興趣，從他在論壇上的 [頭像](https://bitcointalk.org/index.php?action=profile;u=26)可以看出，他的頭像是刻有「自由」字樣的美國鷹。因此，他將 Bitcoin 視為等同於數位世界中的黃金：在他的 [個人頁面](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/)，他將 Satoshi Nakamoto 的創造稱為「經濟革命」和「數位貨幣的黃金標準」。
+2009 年 9 月底，一位化名為 NewLibertyStandard (我們簡稱為 NLS) 的人發現 Bitcoin。他試用該軟體，並開始挖礦。他產生的第一個區塊是 [block 23,940](https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50)。他是 Linux 使用者，因此使用「模擬器」Wine 來執行軟體。他對政治自由和貴金屬很感興趣，從他在論壇上的 [頭像](https://bitcointalk.org/index.php?action=profile;u=26)可以看出，他的頭像是刻有「自由」字樣的美國鷹。因此，他將 Bitcoin 視為等同於數位世界中的黃金：在他的 [個人頁面](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/)，他將中本聰的創造稱為「經濟革命」和「數位貨幣的黃金標準」。
 
 ![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/030.webp)
 
-2009 年 10 月，第一個貨幣 Exchange 服務成立，讓人們可以將美元兌換成比特幣，再將比特幣兌回美元。創造者在 SourceForge 上的 Bitcoin 專屬論壇註冊，並在那裡宣佈開通服務。為了估算 Exchange 的費率，他以取得一個單位所需的能源成本為基礎，並考慮到他所在地的電力價格和他個人生產的頻率。在他的頁面上，他 [寫道](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate)：
+2009 年 10 月，第一個貨幣兌換服務成立，讓人們可以將美元兌換成比特幣，再將比特幣兌回美元。創造者在 SourceForge 上的 Bitcoin 專屬論壇註冊，並在那裡宣佈開通服務。為了估算匯率，他以取得一個單位所需的能源成本為基礎，並考慮到他所在地的電力價格和他個人生產的頻率。在他的頁面上，他 [寫道](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate)：
 
-> 「我們的 Exchange 費率的計算方式是：將 1.00 美元除以一台 CPU 使用量高的電腦一年所需的平均電量 1331.5 kWh，再乘以前一年美國住宅平均電費 0.1136 美元，全部除以 12 個月，再除以我的電腦在過去 30 天內產生的比特幣數量」。
-以下是 NLS 服務的指示性 Exchange 費率，也公布在 NLS 的個人頁面上：
+> 「我們的匯率是通過將 1.00 美元除以一個高耗電量的計算機每年所需的平均電力量，1331.5 千瓦時，乘以美國上一年度的平均住宅電價，0.1136 美元，然後除以 12 個月，最後除以過去 30 天內我的電腦生成的 Bitcoin 數量。」
+以下是 NLS 服務的指導性匯率，也公布在 NLS 的個人頁面上：
 
 ![Indicative exchange rates of the NLS service](assets/en/031.webp)
 
 交易透過 newlibertystandard@gmail.com 電子郵件結算。美元轉帳完全透過 PayPal 進行，並收取操作費用。
 
-10 月 8 日，Martti Malmi [通知](https://mmalmi.github.io/Satoshi/#email-34) Satoshi 有關 NLS 服務的存在。Bitcoin 的創建者對此消息反應積極，因為他已經考慮了 [一段時間](https://mmalmi.github.io/Satoshi/#email-28) 建立一種保證比特幣價值的方式來獎勵 Mining，並啟動系統的經濟動力。10 月 16 日，他 [寫信](https://mmalmi.github.io/Satoshi/#email-35) 給他的得力助手：
+10 月 8 日，Martti Malmi [通知](https://mmalmi.github.io/Satoshi/#email-34) 中本聰有關 NLS 服務的存在。Bitcoin 的創建者對此消息反應積極，因為他已經考慮了 [一段時間](https://mmalmi.github.io/Satoshi/#email-28) 建立一種保證比特幣價值的方式來獎勵挖礦，並啟動系統的經濟動力。10 月 16 日，他 [寫信](https://mmalmi.github.io/Satoshi/#email-35) 給他的得力助手：
 
 "看到更多人對 NewLibertyStandard 網站等產生興趣，實在令人鼓舞。我喜歡他根據電力估算價值的方法。看到人們採用什麼樣的解釋很有教育意義。他們可能有助於發現一種簡化的方式來理解 [Bitcoin]，讓大眾更容易理解。世界上許多複雜的概念都有一種簡化的解釋，能滿足 80% 的人，而另一種完整的解釋則能滿足另外 20% 的人，因為他們看到了簡化解釋中的缺點"。
 
-在 NLS 公佈之後，Martti Malmi 與他取得聯繫。兩人同意做一個 Exchange。在 2009 年 10 月 11 日到 12 日的晚上，第一次比特币换美元的买卖敲定了：Martti [轉帳](https://twitter.com/marttimalmi/status/423455561703624704) 從他的 Mining 努力中轉了 5,050 個比特幣給 NLS，NLS 再轉帳 5.02 美元到他的 PayPal 帳戶。這相當於約 0.001 美元的單價。
+在 NLS 公佈之後，Martti Malmi 與他取得聯繫。兩人同意進行交易。在 2009 年 10 月 11 日到 12 日的晚上，第一次以美元出售 Bitcoin 完成：Martti [轉帳](https://twitter.com/marttimalmi/status/423455561703624704) 5050 個通過採礦得到的 Bitcoin 給 NLS，後者然後向他的 PayPal 帳戶轉移了 5.02 美元。這相當於每個單位價格約為 0.001 美元。
 
-在接下來的幾個星期裡，NLS 累積了更多的比特幣來 Supply 他的服務。11月19日，有人[購買](https://Mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756)了他擁有的大約22,500個比特幣，完成了他的第一筆Bitcoin銷售。幾個小時後，Satoshi在寫給Martti Malmi的[電子郵件](https://mmalmi.github.io/Satoshi/#email-99)中對這次金融操作感到非常興奮。
+在接下來的幾個星期裡，NLS 累積了更多的比特幣來支持他的服務。11月19日，有人[購買](https://Mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756)了他擁有的大約22,500個比特幣，完成了他第一次的 Bitcoin 出售。幾個小時後，中本聰在寫給Martti Malmi的[電子郵件](https://mmalmi.github.io/Satoshi/#email-99)中對這次金融操作感到非常興奮。
 
-在隨後的幾個月中，NLS 服務成為 Bitcoin 經濟發展的核心要素，為 Bitcoin 與美元之間的 Exchange 提供了一個基準。然而，隨著其他更高效的 Exchange 服務的出現，它在 2010 年上半年開始面對競爭。
+在隨後的幾個月中，NLS 服務成為 Bitcoin 經濟發展的核心要素，為 Bitcoin 與美元之間的兌換提供了一個基準。然而，隨著其他更高效的 Exchange 服務的出現，它在 2010 年上半年開始面對競爭。
 
-### 經濟的開始
+### 經濟的起步
 
-2010 年初的標誌是加密貨幣商業交換的最初步驟。NewLibertyStandard 是第一個真正接受以 Exchange 接收 Bitcoin 以換取另一種經濟物品（在此為美元）的人，他也是這股經濟熱潮的第一個推動者。2010 年 1 月 19 日，剛在新論壇註冊後，他 [寫道](https://bitcointalk.org/index.php?topic=15.msg111#msg111) 以下文字：
+2010 年初的標誌是加密貨幣商業交換的初現端倪。NewLibertyStandard 作為第一個願意接受 Bitcoin 作為另一種經濟商品的人，也是這股經濟熱潮的第一個推動者。2010 年 1 月 19 日，剛在新論壇註冊後，他 [寫道](https://bitcointalk.org/index.php?topic=15.msg111#msg111) 以下文字：
 
-> "人們從我這裡買比特幣，也把比特幣賣給我。Supply和需求，即使很低，也已經存在，這就是真正需要的。提出用 Exchange 比特币换另一种货币，归根结底与用比特币换商品或服务没有什么区别。貨幣是商品，而交換貨幣是一種服務。除了美元之外，我也試著去想一些可以用比特幣買賣的東西，但是我找不到任何東西。請隨時告訴我們你決定用比特幣賣什麼。關於資金消耗的問題，我已經在我的預算中計劃了每日捐款。你今天可以買下我所有的美元或比特幣，但明天和後天總會有更多。每個使用比特幣買賣商品的人，包括交換商，都在推動 Bitcoin 經濟。讓每個人都盡自己的一份力。用比特币在Exchange买东西或卖东西吧！"
+> "有人從我這裡購買了 Bitcoin，也有人向我出售了 Bitcoin。供求，儘管量小，已經存在，這就是所需的一切。提出用 Bitcoin 兌換另一貨幣，歸根結底與用 Bitcoin 兌換商品或服務無異。貨幣是商品，兌換它們是一種服務。我試圖想出用 Bitcoin 購買或出售，但找不到。請隨時告訴我們您決定出售的 Bitcoin 商品。關於資金的問題，我已在我的預算中計畫了每日捐贈。您可以今天買下我所有的美元或 Bitcoin，但明天和後天總有更多。每個使用 Bitcoin 購買或出售東西的人，包括交易者，都在推動 Bitcoin 經濟。讓每個人都盡自己的責任。買或賣些東西換取 Bitcoin！"
 協調工作主要在論壇上進行。1 月 27 日，一位名叫 giik 的荷蘭使用者創建了一個[thread](https://bitcointalk.org/index.php?topic=30.0)，標題為 "We accept Bitcoins"（我們接受比特幣），他在其中建議列出接受 Bitcoin 的各種服務。就在這個時候，新論壇開始受到歡迎，留言也開始成倍增加。2 月 7 日，Satoshi [指出](https://mmalmi.github.io/Satoshi/#email-153) 對 Martti Malmi 說：「論壇確實正在起飛。&nbsp;我沒想到會這麼快就有這麼多活動」。
 
-2 月 5 日，NLS [建議](https://bitcointalk.org/index.php?topic=41.msg238#msg238)，Bitcoin 應像在國外 Exchange 市場交易的貨幣一樣，採用股票代號 BTC 和泰銖的代號 (฿)。在此之前，並沒有既定的做法：例如，Satoshi 和 Martti 在 [通信](https://mmalmi.github.io/Satoshi/#email-119) 中使用字母 `bc` 來描述單位。BTC 符號的使用很快成為標準。2 月 24 日，Satoshi [設計](https://bitcointalk.org/index.php?topic=64.msg504#msg504) 了貨幣符號 (大寫的 B 由兩條垂直橫條交叉)，隨後他創造了第一個真正的 Bitcoin 標誌。
+2 月 5 日，NLS [建議](https://bitcointalk.org/index.php?topic=41.msg238#msg238)，Bitcoin 應像在外匯市場交易的貨幣一樣，採用股票代號 BTC 和泰銖的代號 (฿)。在此之前，並沒有既定的做法：例如，中本聰和 Martti 在 [通信](https://mmalmi.github.io/Satoshi/#email-119) 中使用字母 `bc` 來描述單位。BTC 符號的使用很快成為標準。2 月 24 日，中本聰[設計](https://bitcointalk.org/index.php?topic=64.msg504#msg504) 了貨幣符號 (大寫的 B 由兩條垂直橫條交叉)，隨後他創造了第一個真正的 Bitcoin 標誌。
 
 ![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/032.webp)
 
-漸漸地，人們開始接受 Bitcoin。2009年12月的用戶SmokeTooMuch就是這樣，他剛到手就[報告](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65)了一個名為BTC 2 PSC的paysafecard禮物卡銷售服務。該服務後來在2010年2月4日被Satoshi正面[提及](https://mmalmi.github.io/Satoshi/#email-141)。NLS的情況也是如此，他在2月9日[開設](https://bitcointalk.org/index.php?topic=30.msg305#msg305)了自己的線上商店Liberty Swap Variety Shop，提供郵票和貼紙銷售。
+漸漸地，人們開始接受 Bitcoin。2009年12月的用戶 SmokeTooMuch 就是這樣，他[報導](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65)了一個名為BTC 2 PSC的paysafecard禮物卡銷售服務。該服務後來在2010年2月4日被中本聰[提及](https://mmalmi.github.io/Satoshi/#email-141)。NLS的情況也是如此，他在2月9日[開設](https://bitcointalk.org/index.php?topic=30.msg305#msg305)了自己的線上商店Liberty Swap Variety Shop，提供郵票和貼紙銷售。
 
-與美元的 Exchange 也發展起來，兩個月內，就有不少於三個平台開業：
+與美元的交易也發展起來，兩個月內，就有不少於三個平台開業：
 
 
-- BitcoinFX (bitcoinfx.zz.cc)，以自由儲備幣出售比特幣的服務，於 2 月 15 日 [公佈](https://bitcointalk.org/index.php?topic=30.msg194#msg194)；
-- BitcoinExchange (bitcoinexchange.com)，Martti Malmi 的平台，通過考慮用戶存入的歐元和比特幣，獨特地[衡量](https://mmalmi.github.io/Satoshi/#email-25) Supply 和需求，並於 2010 年 3 月 2 日[向公眾開放](https://bitcointalk.org/index.php?topic=68.msg591#msg591)；
+- BitcoinFX (bitcoinfx.zz.cc)，使用 Liberty Reserve 美元出售 Bitcoin 的服務，於 2 月 15 日 [公佈](https://bitcointalk.org/index.php?topic=30.msg194#msg194)；
+- BitcoinExchange (bitcoinexchange.com)，Martti Malmi 的平台，其獨特之處在於通過考慮用戶存款的歐元和 Bitcoin 來[衡量](https://mmalmi.github.io/Satoshi/#email-25) 供給和需求，並於 2010 年 3 月 2 日[向公眾開放](https://bitcointalk.org/index.php?topic=68.msg591#msg591)；
 - Bitcoin Market (bitcoinmarket.com)，這是一個使用 PayPal 的點對點市場，由一個叫 dwdollar 的人在 3 月 16 日 [推出](https://bitcointalk.org/index.php?topic=20.msg726#msg726)，在 7 月 Mt. Gox 出現之前，會看到顯著的成功。
 
 ![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/033.webp)

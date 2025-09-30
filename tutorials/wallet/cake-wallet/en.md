@@ -104,7 +104,7 @@ To secure our wallet, we can create a backup by following the in-app prompts. Th
 
 ![image](assets/en/08.webp)
 
-**Note**: As of September 2025, fingerprint biometric authentication on Android devices is required to function with at least a Level 2 fingerprint sensor. However, this requirement may evolve in the future.
+**Note**: As of September 2025, fingerprint biometric authentication on Android devices is required to function with at least a Class 2 biometric implementation, for more details see [here](https://source.android.com/docs/security/features/biometric/measure#biometric-classes). However, this requirement may change in the future.
 
 ### D - Privacy Settings 🔒
 

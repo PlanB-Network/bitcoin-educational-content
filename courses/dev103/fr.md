@@ -50,7 +50,7 @@ Les commandes qu'ils contiennent sont écrites dans le langage de programmation 
 Un moteur d'exécution JavaScript est un programme spécial qui exécute ces fichiers.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### L'environnement d'exécution NodeJS
@@ -71,7 +71,7 @@ Comme NodeJS est disponible pour les trois systèmes d'exploitation, les program
 Cela signifie que vous pouvez, par exemple, écrire un jeu vidéo simple en JavaScript sur votre PC Windows et le transmettre à votre ami pour qu'il l'exécute sur son Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Vous pouvez combiner des booléens à l'aide d'opérateurs logiques :
 - `!` signifie "not", il est appliqué devant un booléen, et il l'inverse : si le booléen est `true`, il retournera `false`, et vice versa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Exemples :
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 La classe `Car` **hérite** maintenant de la classe `Vehicle`. Elle obtient la propriété `brand`, et nous avons remplacé la méthode `start()` par notre propre version.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Essayons-le :
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript est un langage interprété, par opposition aux langages compilés co
 Le code écrit dans un langage compilé est transformé en binaire, et le binaire est transmis directement à l'unité centrale de l'ordinateur.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Les langages prédéfinis, en revanche, tendent à être plus conviviaux et sont plus proches de la façon dont les humains pensent ("haut niveau") que de la façon dont les machines fonctionnent ("bas niveau") ; c'est pourquoi ils disposent généralement d'une machine virtuelle pour exécuter leur code.
@@ -5261,7 +5261,7 @@ En quoi cela pose-t-il un problème ?
 Comme les navigateurs exécutent du code provenant de millions de sources différentes sur l'internet, ils peuvent facilement se transformer en logiciels malveillants, c'est pourquoi ils sont séparés du reste du système d'exploitation.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript ne pouvait pas accéder au système de fichiers et à d'autres ressources locales de votre ordinateur (du moins pas aussi facilement que d'autres langages), ce qui limitait considérablement le type d'applications que vous pouviez créer avec lui.
@@ -5270,7 +5270,7 @@ JavaScript ne pouvait pas accéder au système de fichiers et à d'autres ressou
 En 2009, Ryan Dahl a publié NodeJS, qui est un moteur d'exécution permettant d'utiliser le moteur V8 en dehors du navigateur, directement sur le système d'exploitation natif de votre ordinateur. Il ajoute également de nombreuses fonctionnalités utiles pour l'écriture de programmes côté serveur et en ligne de commande. Par exemple, vous pouvez utiliser NodeJS pour créer un serveur web, lire et écrire des fichiers ou créer des outils qui automatisent des tâches.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Dans ce cours, nous avons exploré les fonctionnalités JavaScript présentes à la fois dans le navigateur et dans NodeJS. Ces fonctionnalités nous ont permis de définir des données et de les manipuler de manière abstraite. Dans les prochaines leçons, nous explorerons les fonctionnalités spécifiques à NodeJS qui nous permettent d'interagir avec le système d'exploitation.

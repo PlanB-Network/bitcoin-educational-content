@@ -8282,16 +8282,24 @@ Es importante elegir un equipo moderno, mantenido por su fabricante y que cumpla
 Un router compatible con Wi-Fi 6, Wi-Fi 6E o Wi-Fi 7 le proporcionará velocidades mejoradas y, sobre todo, compatibilidad nativa con las tecnologías de seguridad modernas. Por el contrario, los equipos muy antiguos, sobre todo los que ya no reciben actualizaciones de software, pueden contener vulnerabilidades conocidas y sin parches. Por tanto, representan un riesgo para toda su red, aunque los configure correctamente. En comparación con los teléfonos móviles o los ordenadores, los routers son equipos que solemos conservar durante muchos años. Sin embargo, puede ser una buena idea sustituirlos con más regularidad, para beneficiarse de un modelo más moderno y seguro.
 
 
+**Atención**: Como regla general, los enrutadores proporcionados por los proveedores de servicios de Internet pueden carecer de la función esencial de actualización, así como de capacidades de personalización. En algunos casos, los proveedores también pueden tener acceso sin restricciones a la red interna del usuario final.
+
 Así que asegúrese de actualizar sistemáticamente el firmware de su router. Estas actualizaciones corrigen vulnerabilidades, añaden nuevas funciones y mejoran la estabilidad general del sistema. Algunos fabricantes ofrecen actualizaciones automáticas, pero en algunos casos tendrás que comprobarlo manualmente a través de la herramienta de administración Interface de tu router. Al igual que con el teléfono, el ordenador, el sistema operativo y el software, es importante actualizar el router con regularidad. Puedes convertirlo en parte de tu rutina semanal (cada domingo, por ejemplo) elaborando una lista de todos los elementos que debes comprobar y mantener al día.
 
 
-Si tu router ya no recibe mantenimiento pero sigue funcionando correctamente desde el punto de vista del hardware, puedes instalar un firmware alternativo de código abierto, como:
+Alternativamente, puede habilitar las actualizaciones automáticas o al menos el escaneo automático de nuevas actualizaciones de firmware si prefiere actuar manualmente. Aunque la función de actualización automática aún puede suponer una amenaza de seguridad, no actualizar el firmware del router regularmente expondrá su red local a vulnerabilidades públicamente conocidas.
+
+**Ejemplo**: Al comprar su propio router, puede ser una buena idea buscar empresas consolidadas en la industria que hayan estado proporcionando routers en el mercado durante mucho tiempo. Por ejemplo, los routers Fritz!Box tienen una reputación de larga data como dispositivos plug-and-play, adecuados tanto para uso familiar como para pequeñas empresas. Su política de actualización de software típicamente se extiende durante varios años.
+
+Si su router ya no se mantiene pero aún funciona correctamente desde el punto de vista del hardware, puede que pueda instalar un firmware de código abierto alternativo, como:
 
 
 
 - OpenWrt, una distribución Linux especializada en routers, que ofrece gran flexibilidad y actualizaciones periódicas
 - pfSense y OPNsense, dos sistemas basados en FreeBSD (similares a Unix) para cortafuegos y enrutadores x86
 
+
+**Nota**: Algunos ISP suministran a sus clientes routers al por mayor fabricados por una sola empresa que al mismo tiempo provee a muchos ISP diferentes en todo el mundo. Puede ocurrir que, para instalar uno de los firmwares alternativos en el router, otra persona ya haya descubierto cómo hacerlo, aunque esté al otro lado del mundo.
 
 ![Image](assets/fr/196.webp)
 

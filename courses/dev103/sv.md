@@ -50,7 +50,7 @@ De kommandon som de innehåller är skrivna i programmeringsspråket JavaScript.
 En JavaScript-körtid är ett speciellt program som kör dessa filer.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### NodeJS-körtid
@@ -71,7 +71,7 @@ Eftersom NodeJS är tillgängligt för alla tre operativsystemen kommer de progr
 Det innebär att du t.ex. kan skriva ett enkelt videospel i JavaScript på din Windows-dator och skicka det till din vän som kör det på sin Mac.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Du kan kombinera booleaner med hjälp av logiska operatorer:
 - `!` betyder "inte", det används före en boolean och vänder på det: om booleanen är "sann" kommer den att returnera "falsk" och vice versa.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Exempel på detta:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Klassen `Car` **ärver** nu allt från `Vehicle`. Den får egenskapen `brand`, och vi har ersatt metoden `start()` med vår egen version.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Låt oss prova det:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript är ett tolkat språk, i motsats till kompilerade språk som C.
 Kod som skrivs i ett kompilerat språk omvandlas till en binär fil och den binära filen matas direkt till datorns CPU.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpredspråk, å andra sidan, tenderar att vara mer användarvänliga och ligger närmare hur människor tänker ("hög nivå") snarare än hur maskiner fungerar ("låg nivå"); så de har vanligtvis en virtuell maskin byggd för att köra sin kod.
@@ -5261,7 +5261,7 @@ Varför är det ett problem?
 Eftersom webbläsare exekverar kod som hämtas från miljontals olika källor på internet kan de lätt bli skadlig kod, så de är "sandboxade" från resten av operativsystemet.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript kunde inte komma åt filsystemet och andra lokala resurser på din dator (åtminstone inte lika enkelt som andra språk), så det var en betydande begränsning för vilken typ av applikationer du kunde bygga med det.
@@ -5270,7 +5270,7 @@ JavaScript kunde inte komma åt filsystemet och andra lokala resurser på din da
 År 2009 publicerade Ryan Dahl NodeJS, som är en runtime som gör att du kan använda V8-motorn utanför webbläsaren, direkt på datorns inbyggda operativsystem. Det lägger också till många funktioner som är användbara för att skriva program på serversidan och kommandoraden. Du kan t.ex. använda NodeJS för att skapa en webbserver, läsa och skriva filer eller bygga verktyg som automatiserar uppgifter.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 I den här kursen har vi hittills utforskat de JavaScript-funktioner som finns i både webbläsaren och i NodeJS. Dessa funktioner gjorde det möjligt för oss att definiera data och manipulera dem på abstrakta sätt. Under de kommande lektionerna kommer vi att utforska de funktioner som är specifika för NodeJS och som gör att vi kan interagera med operativsystemet.

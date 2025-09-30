@@ -37,6 +37,8 @@ objectives:
 
 准备好探索企业的比特币世界了吗？让我们开始吧！
 
+**注意**: 如果您在课程中遇到任何不熟悉的术语，请查阅[词汇表](https://planb.network/resources/glossary)获取定义。
+
 # 货币、支付系统和比特币
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

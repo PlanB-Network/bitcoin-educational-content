@@ -37,6 +37,8 @@ Enten du representerer en liten bedrift eller et stort konsern, har dette kurset
 
 Klar til å dykke ned i Bitcoin-verdenen for bedrifter? La oss gå!
 
+**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.network/resources/glossary) for definisjoner.
+
 # Valuta, betalingssystemer og Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

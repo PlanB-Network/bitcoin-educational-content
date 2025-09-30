@@ -1,0 +1,26 @@
+id: d095b0c8-b4b8-4b9f-b2e7-a59d1f74914a
+name: Cake Wallet
+
+links:
+  website: https://cakewallet.com/
+  twitter: https://x.com/cakewallet
+
+category: wallet
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - software
+  - onchain
+  - wallets
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-29
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

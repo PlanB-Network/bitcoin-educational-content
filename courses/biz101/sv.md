@@ -34,6 +34,10 @@ Kursen inleds med en detaljerad genomgång av konventionella valutor och betalni
 
 Oavsett om du representerar ett litet företag eller ett stort bolag syftar den här kursen till att ge dig kunskapen att integrera Bitcoin i din dagliga verksamhet och därigenom förbättra ditt företags motståndskraft, effektivitet och konkurrensfördelar. Eftersom Bitcoin fortsätter att omforma det ekonomiska landskapet är förståelse för dessa banbrytande teknologier inte bara ett alternativ utan en strategisk nödvändighet. Förbered dig på att ta del av insiktsfullt innehåll, praktiska exempel och strategisk vägledning som gör det möjligt för dig att navigera och utnyttja den föränderliga världen av Bitcoin!
 
+Är du redo att dyka ner i Bitcoin-världen för företag? Låt oss gå!
+
+**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.network/resources/glossary) för definitioner.
+
 # Valuta, betalningssystem och Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

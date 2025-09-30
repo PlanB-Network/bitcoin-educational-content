@@ -50,7 +50,7 @@ Niiden sisältämät komennot on kirjoitettu JavaScript-ohjelmointikielellä.
 JavaScript-runtime on erityinen ohjelma, joka suorittaa nämä tiedostot.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### NodeJS-suoritusaika
@@ -71,7 +71,7 @@ Koska NodeJS on saatavilla kaikille kolmelle käyttöjärjestelmälle, kirjoitta
 Tämä tarkoittaa, että voit esimerkiksi kirjoittaa yksinkertaisen videopelin JavaScriptillä Windows-tietokoneellasi ja antaa sen ystävällesi, jotta hän voi ajaa sen Mac-tietokoneellaan.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Voit yhdistää loogisia lausekkeita loogisilla operaattoreilla:
 - `!` tarkoittaa "ei", sitä käytetään ennen booleania ja se kääntää sen: jos boolean on `true`, se palauttaa `false`, ja päinvastoin.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Esimerkkejä:
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Luokka `Auto` perii nyt kaiken luokasta `Ajoneuvo`. Se saa `brand`-ominaisuuden, ja olemme korvanneet `start()`-metodin omalla versiollamme.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Kokeillaan sitä:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -5228,7 +5228,7 @@ JavaScript on tulkattu kieli, toisin kuin C:n kaltaiset käännetyt kielet.
 Käännetyllä kielellä kirjoitettu koodi muutetaan binääriksi, ja binääri syötetään suoraan tietokoneen suorittimelle.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpred-kielet taas ovat yleensä käyttäjäystävällisempiä ja lähempänä ihmisten ajattelua ("korkean tason") kuin koneiden toimintaa ("matalan tason"), joten niihin on yleensä rakennettu virtuaalikone niiden koodin suorittamista varten.
@@ -5261,7 +5261,7 @@ Miksi se on ongelma?
 Koska selaimet suorittavat koodia, joka on haettu miljoonista eri lähteistä internetistä, ne voivat helposti joutua haittaohjelmiksi, joten ne on "hiekkalaatikoitu" muusta käyttöjärjestelmästä.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScriptillä ei voinut käyttää tietokoneen tiedostojärjestelmää ja muita paikallisia resursseja (ainakaan niin helposti kuin muilla kielillä), joten se rajoitti merkittävästi sitä, millaisia sovelluksia sillä pystyi rakentamaan.
@@ -5270,7 +5270,7 @@ JavaScriptillä ei voinut käyttää tietokoneen tiedostojärjestelmää ja muit
 Vuonna 2009 Ryan Dahl julkaisi NodeJS:n, joka on ajoaika, jonka avulla voit käyttää V8-moottoria selaimen ulkopuolella, suoraan tietokoneen natiivissa käyttöjärjestelmässä. Se lisää myös monia ominaisuuksia, jotka ovat hyödyllisiä palvelinpuolen ja komentorivin ohjelmien kirjoittamisessa. NodeJS:n avulla voit esimerkiksi luoda verkkopalvelimen, lukea ja kirjoittaa tiedostoja tai rakentaa työkaluja, jotka automatisoivat tehtäviä.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Tällä kurssilla olemme tähän mennessä tutustuneet JavaScript-ominaisuuksiin, joita on sekä selaimessa että NodeJS:ssä. Näiden ominaisuuksien avulla olemme voineet määritellä tietoja ja käsitellä niitä abstrakteilla tavoilla. Seuraavilla oppitunneilla tutustumme ominaisuuksiin, jotka ovat NodeJS:lle ominaisia ja joiden avulla voimme olla vuorovaikutuksessa käyttöjärjestelmän kanssa.

@@ -8282,16 +8282,24 @@ Penting untuk memilih peralatan modern, dipelihara oleh produsennya, dan sesuai 
 Router yang kompatibel dengan Wi-Fi 6, Wi-Fi 6E, atau Wi-Fi 7 akan memberikan Anda kecepatan yang lebih baik dan, yang terpenting, dukungan asli untuk teknologi keamanan modern. Sebaliknya, peralatan yang sangat tua, terutama yang tidak lagi menerima pembaruan perangkat lunak, mungkin mengandung kerentanan yang diketahui dan belum ditambal. Oleh karena itu, peralatan tersebut mewakili risiko untuk seluruh jaringan Anda, bahkan jika Anda mengkonfigurasinya dengan benar. Dibandingkan dengan ponsel atau komputer, router adalah peralatan yang cenderung kita simpan selama bertahun-tahun. Namun, mungkin ada baiknya untuk menggantinya secara lebih teratur, untuk mendapatkan manfaat dari model yang lebih modern dan lebih aman.
 
 
+**Perhatian**: Sebagai aturan umum, router yang disediakan oleh penyedia layanan internet mungkin tidak memiliki fitur pembaruan penting maupun kemampuan personalisasi. Dalam beberapa kasus, penyedia layanan internet juga dapat memiliki akses tanpa batas ke jaringan internal pengguna akhir.
+
 Jadi, pastikan Anda memperbarui firmware router Anda secara sistematis. Pembaruan ini memperbaiki kerentanan, menambahkan fitur baru, dan meningkatkan stabilitas sistem secara keseluruhan. Beberapa produsen menawarkan pembaruan otomatis, tetapi dalam beberapa kasus Anda perlu memeriksa secara manual melalui alat administrasi Interface router Anda. Seperti halnya ponsel, komputer, sistem operasi, dan perangkat lunak Anda, penting untuk memperbarui router Anda secara teratur. Anda bisa menjadikan ini bagian dari rutinitas mingguan Anda - Setiap hari Minggu, misalnya - dengan membuat daftar semua item yang perlu Anda periksa dan perbarui.
 
 
-Jika router Anda sudah tidak lagi dirawat tetapi masih berfungsi dengan baik dari segi perangkat keras, Anda bisa menginstal firmware sumber terbuka alternatif, seperti:
+Sebagai alternatif, Anda dapat mengaktifkan pembaruan otomatis atau setidaknya pemindaian otomatis untuk pembaruan firmware baru jika Anda lebih suka bertindak secara manual. Meskipun fitur pembaruan otomatis mungkin masih menimbulkan ancaman keamanan, kegagalan memperbarui firmware router secara teratur akan mengekspos jaringan lokal Anda terhadap kerentanan yang diketahui secara publik.
+
+**Contoh**: Saat membeli router sendiri, mungkin ide yang baik untuk mencari perusahaan mapan di industri yang telah menyediakan router di pasar untuk waktu yang lama. Misalnya, router Fritz!Box memiliki reputasi lama sebagai perangkat plug-and-play, cocok untuk digunakan baik di lingkungan keluarga maupun perusahaan kecil. Kebijakan pembaruan perangkat lunak mereka biasanya berlangsung selama beberapa tahun.
+
+Jika router Anda tidak lagi dipelihara tetapi masih berfungsi dengan baik dari segi perangkat keras, Anda mungkin dapat menginstal firmware sumber terbuka alternatif, seperti:
 
 
 
 - OpenWrt, distribusi Linux yang mengkhususkan diri pada router, menawarkan fleksibilitas tinggi dan pembaruan rutin
 - pfSense dan OPNsense, dua sistem berbasis FreeBSD (mirip Unix) untuk firewall dan router x86
 
+
+**Catatan**: Beberapa ISP memasok pelanggan mereka dengan router massal yang dibuat oleh satu perusahaan yang secara bersamaan memasok banyak ISP berbeda di seluruh dunia. Anda mungkin menemukan bahwa untuk memasang salah satu firmware alternatif pada router, orang lain mungkin sudah menemukan caranya, bahkan jika mereka berada di belahan dunia yang lain.
 
 ![Image](assets/fr/196.webp)
 

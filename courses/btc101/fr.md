@@ -85,6 +85,8 @@ L'important ici est de comprendre cette nouvelle technologie de manière génér
 
 Prêt à plonger dans l'univers fascinant de Bitcoin et à en comprendre tous les rouages ? Allons-y !  
 
+**N.B.** : Si vous rencontrez des termes inconnus pendant le cours, veuillez consulter [le glossaire](https://planb.network/resources/glossary) pour les définitions.
+
 ## La préhistoire de Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

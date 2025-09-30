@@ -568,7 +568,7 @@ Denna räntesänkning har dock en kostnad: den gör kapital mer lättillgänglig
 Den här balansakten går inte riktigt som planerat..
 
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Diagram [Skuld i förhållande till BNP] (https://www.longtermtrends.net/us-debt-to-gdp/)
@@ -647,7 +647,7 @@ Diagram: Utveckling per tillgångsslag ([Aktier](https://finance.yahoo.com/quote
 Med denna eftersläpning av lönerna i förhållande till tillgångspriserna har vi sett en av de största förmögenhetsöverföringarna från underklassen till överklassen i modern tid
 
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 Diagram: Andel av total [nettoförmögenhet] (https://fred.stlouisfed.org/series/WFRBSN40188#0.)
@@ -1709,7 +1709,7 @@ Som Adannas berättelse visar är inflationen en plågsam realitet för otaliga 
 För att illustrera effekten av tvåsiffrig inflation skulle en inflationstakt på 10%, som Europa upplevde i oktober 2022, innebära en köpkraftsförlust på 61,5% under tio år.
 
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 
 _**Figur:** Inflationens effekt på köpkraften (https://anilsaidso.gumroad.com/)_
@@ -2138,7 +2138,7 @@ Men nu har energiproducenter ett sätt att kapitalisera på denna strandade ener
 Slutligen motiveras Bitcoin-gruvarbetare att söka efter billiga energikällor eftersom deras vinster beror på energikostnaden. Följaktligen letar de aktivt efter strandad energi eller andra former av energi som annars skulle gå oanvända. Ett anmärkningsvärt exempel är fackelgas, som frigörs när oljebolag utvinner olja ur marken. Fackelgas är en biprodukt av denna process och bränns vanligtvis upp på grund av de höga kostnader som är förknippade med att fånga upp den. Denna metod, som kallas fackling, leder inte bara till slöseri med energi utan släpper också ut metan och andra gaser i atmosfären.
 
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 
 _**Figur:** Fackla [Gas](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
@@ -2351,7 +2351,7 @@ Under de senaste åren har Bitcoin dock visat sig vara ett kraftfullt verktyg f�
 Medan världen med fasa såg på när talibanerna tog kontroll över Afghanistan [1996] (https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), levde den unga flickan Roya mitt i konfliktens centrum. Bara sju år gammal hamnade hon mitt i krigets tumult och osäkerhet när hennes hemstad invaderades och ockuperades av talibanerna. Trots de faror och motgångar hon utsattes för, och trots att hon inte kunde gå i skolan, vägrade Roya att låta sig besegras. Istället vände hon sig till utbildning som ett sätt att övervinna de begränsningar som hennes omständigheter medförde för henne.
 
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
 
 **Bild:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
@@ -2439,7 +2439,7 @@ Loc
 "På mitt café i Binh Thanh-distriktet vänder vi oss till en ung kundkrets och enstaka turister och erbjuder en mängd olika drycker, inklusive kaffe, Soft-drycker och cocktails. Tether har blivit vår lösning för att hantera betalningar från utländska kunder som saknar lokal valuta eller bankkonton. Även om försäljningen via Tether är liten för närvarande, ger det oss ett bekvämt sätt att överbrygga valutagapet och tillgodose våra internationella kunder. Kunderna blir ofta förvånade över vår öppenhet när det gäller att ta emot betalningar med kryptovalutor, vilket lämnar ett bestående intryck av deras upplevelse."
 
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 
 Parvinee Ratchaphokhinpiti
 
@@ -2449,7 +2449,7 @@ Pensionär, Thailand
 "USDt revolutionerade mina internationella penningöverföringar. Som pensionär brukade jag förlita mig på långsamma banköverföringar. Tack vare USDt kan jag nu skicka pengar utan ansträngning genom en digital tillgång Exchange. Inom 30 minuter hade min syster fått pengarna. De tidsbesparande fördelarna är ovärderliga och säkerställer snabba och problemfria transaktioner."
 
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 
 Jamie Tran
 
@@ -2459,7 +2459,7 @@ Pianolärare, Vietnam
 "Att skicka pengar till mina släktingar utomlands har varit en frekvent nödvändighet, men processen att konvertera valutor på lokala börser visade sig vara både tidskrävande och dyr. För att Address dessa utmaningar introducerade jag mina släktingar till bekvämligheten med att använda USDt. Denna enkla förändring har gjort det möjligt för vår familj att spara mycket tid och pengar i våra finansiella transaktioner. Med USDt har vi nu strömlinjeformade utlandsöverföringar, vilket säkerställer ett effektivt och kostnadseffektivt stöd för våra nära och kära."
 
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 
 Romersk
 
@@ -2469,7 +2469,7 @@ Rysk expat som bor i Vietnam
 "Jag bor i Vietnam och skickar ofta Tether till mina släktingar och kusiner i Ryssland. Att överföra pengar utomlands med Tether är problemfritt jämfört med att använda traditionella bankmetoder. Inga bankbesök, notariserade dokument eller förklaringar krävs. Med inga sändningsgränser, minimala avgifter och snabba transaktioner levereras pengarna inom några minuter."
 
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 
 Luis Graterol
 
@@ -2479,7 +2479,7 @@ Audiovisuell, Venezuela
 "Jag heter Luis Graterol, och Tether hjälpte mig att säkra mina besparingar på ett annat sätt. I Venezuela lider vi av den höga inflationen och Tether har varit till stor hjälp. Användarvänligheten är enkel och i många fall kan du göra transaktioner utan några avgifter. USDt gör mitt liv enklare! Det hjälper mig också att utbilda och uppmuntra dess användning i audiovisuella medier; sedan jag upptäckte dess enkelhet får jag mina betalningar med USDt, och jag sparar den tråkiga lokala fiat som påverkar många av oss!"
 
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 
 Dubraska Villanloga
 
@@ -2489,7 +2489,7 @@ VD Tu Cachapa Caricuao, Caracas, Venezuela
 "Jag är från Venezuela och driver ett litet frukostleveransföretag. Tether USDt har varit en hållbar lösning på problemet med fysiska kontanter för mig. USDt har också hjälpt mig med mina besparingar, för om jag hade haft mina företagskonton i venezuelanska bolivar hade jag inte kunnat planera mina inköp av livsmedel på grund av den ständiga devalveringen."
 
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 
 Marcela Romero
 
@@ -2499,7 +2499,7 @@ Marknads- och PR-chef, Guanacaste, Costa Rica
 "För några år sedan flyttade jag till min mans hemland. På grund av pandemin ställdes jag inför ett unikt migrationsvillkor, vilket resulterade i en lång väntan på uppehållstillstånd eller medborgarskap. Under nästan tre år saknade jag tillgång till ett bankkonto och kunde inte arbeta lagligt i landet. Men genom att utnyttja mina möjligheter att arbeta online och få min lön i USDt kunde jag fortsätta min karriär på distans med internationella företag. Med Tether kan jag omedelbart skicka pengar hem utan höga avgifter eller förseningar. Tether har gjort det möjligt för mig att uppnå mina yrkesmässiga mål och behålla mitt ekonomiska oberoende trots regeringens restriktioner."
 
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 
 Simoneth Gomez
 
@@ -2509,7 +2509,7 @@ QA-ingenjör, Venezuela, bosatt i Argentina
 "Hej, mitt namn är Simoneth Gomez. Jag kommer från Venezuela, men bor för närvarande i Buenos Aires där jag arbetar som kvalitetsanalytiker för programvara. När jag kom till Argentina hade jag ett avstånd på 12 km mellan mitt arbete och den plats där jag var tvungen att växla pengar för att skicka till min familj i Venezuela. Så jag blev introducerad till USDt och började använda det eftersom jag istället för att behöva gå den vägen för 5 eller 10 dollar på en buss kunde lösa det från mitt skrivbord på två minuter."
 
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 
 Carlos Caballero
 
@@ -2519,7 +2519,7 @@ Psykolog, Argentina
 "Tether har varit den lösning som har gjort det möjligt för mig att fortsätta arbeta med mitt yrke under pandemins år. Det faktum att det är en valuta som är förankrad i dollarn gör att den har ett internationellt referensvärde. Och dess stabilitet och säkerhet mot volatiliteten i andra kryptovalutor är det främsta skälet till att jag valde den."
 
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 
 Heloisa Passos
 
@@ -2529,7 +2529,7 @@ VD Sp4ce Games, Brasilien
 "Jag har arbetat på distans för internationella företag i ungefär fem år nu, och under större delen av den tiden har jag lidit av höga räntor från de nationella bankerna, som tar ut en hög procentsats för varje internationell överföring, utöver väntetiden för clearing av betalningar genom Swift-systemet (cirka 24 timmar). När jag började få min lön i Tether insåg jag hur mycket tid och pengar jag sparade bara genom att få betalt i USDt."
 
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 
 Samuel
 
@@ -2539,7 +2539,7 @@ Handelsföretag, Nigeria
 "Att använda USDt har sparat mycket tid för vår verksamhet, eftersom vi som nigerianskt företag måste gå till vår bank för att få USD och spendera värdefull tid på att fylla i formulär och köa i timmar för att göra uttag eller överföringar. Men med USDt kan vi växla till oss lokal valuta på mindre än 5 minuter och genomföra alla transaktioner vi kan tänkas ha."
 
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 
 Joshua
 
@@ -2549,7 +2549,7 @@ Student, Nigeria
 "Tether har hjälpt mig på många sätt. Att tjäna pengar på Tether har hjälpt mig att hantera den stigande inflationen i landet och det har hjälpt mig att minska slöseriet med pengar. Det hjälper också mina besparingar att behålla sitt värde eftersom jag inte påverkas så mycket av devalveringen av Naira."
 
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 
 Esther
 

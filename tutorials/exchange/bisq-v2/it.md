@@ -24,7 +24,7 @@ Bisq 2 è la nuova versione del popolare exchange decentralizzato Bisq, lanciato
 - Supporto per più tipi di portafoglio
 - Sistema di ruoli con deposito obbligatorio in BSQ
 
-Questa guida si concentra esclusivamente su "Bisq Easy", l'unico protocollo attualmente disponibile. Bisq Easy è stato progettato specificamente per i nuovi utenti di Bitcoin. Questo protocollo consente agli utenti di acquistare e vendere Bitcoin contro valute fiat su una piattaforma decentralizzata peer-to-peer. Le transazioni sono limitate all'equivalente di 600 USD (con un minimo di 6 USD) e la sicurezza dello scambio si basa sulla reputazione dei venditori di BTC. Bisq Easy non prevede commissioni di trading né requisiti di deposito di sicurezza. Bisq Easy dovrebbe sostituire Bisq 1 per gli scambi di denaro al di sotto dei 600 USD (o equivalenti).
+Questa guida si concentra esclusivamente su "Bisq Easy", l'unico protocollo attualmente disponibile. Bisq Easy è stato progettato specificamente per i nuovi utenti di Bitcoin. Questo protocollo consente agli utenti di acquistare e vendere Bitcoin contro valute fiat su una piattaforma decentralizzata peer-to-peer. Le transazioni sono limitate all'equivalente di 600 USD (con un minimo di 6 USD) e la sicurezza dello scambio si basa sulla reputazione dei venditori di BTC. Bisq Easy non prevede commissioni di trading né richiede un deposito di sicurezza. Bisq Easy dovrebbe sostituire Bisq 1 per gli scambi di denaro al di sotto dei 600 USD (o equivalenti).
 
 **Caratteristiche principali:**
 
@@ -122,13 +122,13 @@ Seguire i passaggi di installazione appropriati per il proprio sistema operativo
 
 ![Création d'un nouveau compte de paiement](assets/fr/05.webp)
 
-La preconfigurazione dei metodi di pagamento è facoltativa, ma consigliata per risparmiare tempo durante la negoziazione. È anche possibile configurare i metodi di pagamento direttamente durante una transazione, contattando il partner di scambio.
+La preconfigurazione dei metodi di pagamento è facoltativa, ma consigliata per risparmiare tempo durante la negoziazione. È anche possibile configurare i metodi di pagamento durante una transazione, contattando il partner di scambio.
 
 ### 5. Sicurezza del conto
 
 **Backup dei dati**
 
-A differenza di Bisq 1, Bisq 2 non integra attualmente un portafoglio Bitcoin: le transazioni vengono quindi effettuate tramite portafogli esterni. Tuttavia, si consiglia di eseguire regolarmente un backup della cartella dati di Bisq 2. Per individuare la cartella dati, consultare il [wiki ufficiale di Bisq](). Per individuare la cartella dei dati, consultare il [wiki ufficiale di Bisq](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
+A differenza di Bisq 1, Bisq 2 non integra attualmente un portafoglio Bitcoin: le transazioni vengono quindi effettuate tramite portafogli esterni. Tuttavia, si consiglia di eseguire regolarmente un backup della cartella dati di Bisq 2. Per individuare la cartella dei dati, consultare il [wiki ufficiale di Bisq](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory).
 
 **Gestione dell'identità**
 
@@ -352,11 +352,11 @@ Sebbene Bisq Easy sia attualmente l'unico protocollo disponibile, diversi altri 
 - **Bisq Lightning**: Protocollo di scambio basato su un sistema di deposito a garanzia che utilizza la crittografia di calcolo multiparty sulla rete Lightning.
 - **Bisq MuSig**: Migrazione del protocollo principale da Bisq 1 a Bisq 2, utilizzando un multisig 2 contro 2 con depositi di sicurezza.
 - **Scambi BSQ**: Scambi atomici istantanei tra BSQ e BTC.
-- **Liquid Swaps**: Scambio di attività sulla rete Liquid (USDT, BTC-L) tramite swap atomici.
-- **Scambi di Monero**: Scambi atomici tra Bitcoin e Monero.
+- **Liquid Swaps**: Scambio di attività sulla rete Liquid (USDT, BTC-L) tramite atomic swaps.
+- **Scambi di Monero**: atomic swaps tra Bitcoin e Monero.
 - **Liquid MuSig**: Versione del protocollo multisig che utilizza L-BTC per ridurre i costi e aumentare la riservatezza.
 - **Scambi sottomarini**: Scambi tra Bitcoin sulla rete Lightning e Bitcoin on-chain.
-- **Scambi di Stablecoin**: Scambi atomici tra Bitcoin e Stablecoin USD.
+- **Scambi di Stablecoin**: atomic swaps tra Bitcoin e Stablecoin USD.
 - **Opzioni Multisig**: Creazione di opzioni put e call P2P con blocco di BTC in una transazione multisig on-chain.
 - **Contratti aperti multisig**: Consente di creare contratti condizionati personalizzati utilizzando un sistema multisig 2 contro 3 con arbitraggio.
 

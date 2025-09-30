@@ -7,25 +7,25 @@ description: Commercio di satoshis e XOF ovunque in Senegal
 
 
 
-L'avvento del Lightning Network ha segnato l'inizio del mainstream del Bitcoin, offrendo possibilità istantanee e meno costose rispetto alla rete principale del protocollo Bitcoin (Mainnet).
+L'avvento di Lightning Network ha segnato l'inizio del mainstream di Bitcoin, offrendo possibilità istantanee e meno costose rispetto alla rete principale del protocollo Bitcoin (Mainnet).
 
 
-Oggi l'accesso al Bitcoin è una sfida innovativa nei Paesi sottosviluppati e/o emergenti, per compensare un certo fallimento del sistema finanziario locale.
+Oggi l'accesso a Bitcoin rappresenta una sfida innovativa nei Paesi sottosviluppati e/o emergenti, per compensare ad un certo fallimento del sistema finanziario locale.
 
 
-In questo tutorial, scopriamo **Banxaas**, una piattaforma di baratto che avvicina i senegalesi agli scambi di Bitcoin.
+In questo tutorial, scopriamo **Banxaas**, una piattaforma di scambio che avvicina il popolo senegalese a Bitcoin.
 
 
 ## Come iniziare con Banxaas
 
 
 
-Banxaas deriva dal dialetto senegalese (Wolof) e significa "ramo". Ideologicamente, possiamo vedere Banxaas come un ramo che lega il popolo senegalese all'utilizzo del Bitcoin. Un ramo su cui fare affidamento per proteggere i propri risparmi dall'inflazione e dalla censura. Sviluppata da una start-up senegalese (Yité Technologies), [Banxaas](https://banxaas.com) offre un servizio istantaneo Exchange tra il Bitcoin e il franco CFA (XOF) viceversa, grazie alla potenza del Lightning Network. Banxaas ha un approccio insolito alle piattaforme Exchange nella subregione dell'Africa occidentale.
+Banxaas deriva dal dialetto senegalese (Wolof) e significa "ramo". Ideologicamente, possiamo vedere Banxaas come un ramo che lega il popolo senegalese all'utilizzo di Bitcoin. Un ramo su cui fare affidamento per proteggere i propri risparmi dall'inflazione e dalla censura. Sviluppata da una start-up senegalese (Yité Technologies), [Banxaas](https://banxaas.com) offre un servizio istantaneo Exchange tra Bitcoin e il franco CFA (XOF) e viceversa, grazie alla potenza di Lightning Network. Banxaas ha un approccio insolito alle piattaforme Exchange nella sottoregione dell'Africa occidentale.
 
 
 
 
-- Banxaas è una piattaforma non depositaria: non è necessario creare un conto o possedere un Wallet sulla piattaforma. Si mantiene il controllo del proprio denaro e l'anonimato è rafforzato.
+- Banxaas è una piattaforma non-custodial: non è necessario creare un account o possedere un Wallet sulla piattaforma. Mantieni il controllo del tuo denaro e l'anonimato è rafforzato.
 
 
 
@@ -33,7 +33,7 @@ https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-- Contabilità trasparente: Banxaas sostiene la trasparenza, rafforzando al contempo l'anonimato delle transazioni finanziarie.
+- Contabilità trasparente: Banxaas favorisce la trasparenza, rafforzando al contempo l'anonimato nelle transazioni finanziarie.
 
 
 
@@ -43,13 +43,13 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-La prima cosa da fare su [banxaas](https://banxaas.com) è definire la direzione del proprio Exchange:
+La prima cosa da fare su [banxaas](https://banxaas.com) è definire la direzione del proprio scambio:
 
 
 
 
 
-- Avete un franco CFA e desiderate passare dal Exchange al Bitcoin.
+- hai dei franchi CFA e desideri convertirli in Bitcoin.
 
 
 
@@ -59,7 +59,7 @@ La prima cosa da fare su [banxaas](https://banxaas.com) è definire la direzione
 
 
 
-- Disponete di bitcoin che desiderate convertire in franchi CFA
+-  hai dei bitcoin e vorresti convertirli in franchi CFA
 
 
 
@@ -67,7 +67,7 @@ La prima cosa da fare su [banxaas](https://banxaas.com) è definire la direzione
 
 
 
-La piattaforma web di Banxaas è minimalista e intuitiva e consente di completare la transazione in un solo minuto. Dopo aver definito la direzione del vostro Exchange, inserite l'importo che desiderate inviare nel primo campo di testo del modulo, oppure inserite l'importo che desiderate ricevere.
+La piattaforma web di Banxaas è minimalista e intuitiva, consente di completare la transazione in un solo minuto. Dopo aver definito la direzione dello scambio, inserisci l'importo che desideri inviare nel primo campo di testo del modulo, oppure inserite l'importo che desideri ricevere.
 
 
 

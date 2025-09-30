@@ -979,78 +979,78 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 
 然而，到了六月底，網絡上的活動仍然相當平淡。新使用者寥寥無幾，但貨幣現象的火焰沒有熄滅。6 月 30 日，在 Bitcoin-list 郵件論壇上，密碼龐克的 James A. Donald（他似乎沒有跟進最新的進展，也不知道論壇的存在）[宣布](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=201006) 「Bitcoin （已經）死了」。儘管他錯了，但他的評論揭示了一個明顯的溝通缺失：知道這個項目的人太少了，在這方面需要更多的努力。Bitcoin 需要「用戶生態才有用」，而這個關鍵的群體尚未形成。兩週後的一個事件將推動這方面的前進，我們將在下一章介紹。(*原創："問題是 Bitcoin 要有用，就需要使用者的生態。）
 
-## 偉大的 Slashdotting
+## Slashdot 效應
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
-2010 年夏初，儘管有一些令人鼓舞的初步發展，Bitcoin 的基礎仍然不穩。除了 Satoshi Nakamoto 之外，該軟體幾乎沒有其他開發人員。挖矿者都是使用个人电脑的业余爱好者。與 Bitcoin 相關的服務約有 20 種，而實際的交換也非常罕見。然而，事情在下半年發生了翻天覆地的變化。
+在 2010 年夏季初期，儘管有一些令人鼓舞的初步發展，Bitcoin 仍然建立在不穩固的基礎上。除了中本聰之外，該軟體幾乎沒有其他開發者。挖礦者都是在個人電腦上進行的業餘活動。與 Bitcoin 相關的服務約有二十個，而實際的交易所則同樣稀少。然而，事情將在年下半年發生劇變。
 
-在本章中，我們將討論「偉大的 Slashdotting」，也就是 2010 年 7 月 11 日在熱門網站 Slashdot 發表 Bitcoin 的簡報後，使用者突然大量湧入。我們將探討這篇文章如何成為 Satoshi 最後的溝通方式，以及 Bitcoin 的普及化所帶來的直接影響。
+在本章中，我們將討論「Slashdot 效應」，也就是 2010 年 7 月 11 日在熱門網站 Slashdot 發表 Bitcoin 的介紹後，使用者突然大量湧入。我們將探討這篇文章如何成為中本聰最後的溝通方式，以及 Bitcoin 的普及化所帶來的直接影響。
 
-### 版本 0.3 的軟體
+### 軟體的 0.3 版本
 
-2010 年夏初，Satoshi Nakamoto 和 Martti Malmi 籌備已久的軟體 0.3 版本正式發行。相較於前一年十二月發行的 0.2 版，這個版本包含了一些重要的改進，例如 [daemon](https://fr.wikipedia.org/wiki/Daemon_\(informatique\))（後來成為 bitcoind）、命令列控制、API（透過 JSON-RPC）、單位產生的最佳化，以及估算使用者 Hash 速率的「hashmeter」。它還包括 Laszlo Hanyecz 所提供的 Mac OS X 支援，以及圖形化 Interface 的德文、荷蘭文和義大利文翻譯。
+2010 年夏初，中本聰和 Martti Malmi 籌備已久的軟體 0.3 版本正式發行。相較於前一年十二月發行的 0.2 版，這個版本包含了一些重要的改進，例如 [daemon](https://fr.wikipedia.org/wiki/Daemon_\(informatique\))（後來成為 bitcoind）、命令列控制、API（透過 JSON-RPC）、單位產生的最佳化，以及估算使用者 Hash 速率的「hashmeter」。它還包括 Laszlo Hanyecz 所提供的 Mac OS X 支援，以及圖形化介面的德文、荷蘭文和義大利文翻譯。
 
-6 月 22 日，Satoshi [要求](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) 論壇成員測試這個版本的軟體。他將這個版本的發行視為 Bitcoin 發展的關鍵時刻，並[考慮](https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) 甚至取消「測試版」的字眼，直接將編號移至 1.3 版。不過，他很快就[回復](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928)了他的決定。
+6 月 22 日，中本聰[要求](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654) 論壇成員測試這個版本的軟體。他將這個版本的發行視為 Bitcoin 發展的關鍵時刻，並[考慮](https://bitcointalk.org/index.php?topic=217.msg1803#msg1803) 甚至取消「測試版」的字眼，直接將編號移至 1.3 版。不過，他很快就[改變了](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928)了他的決定。
 
-7 月 6 日，Satoshi 中本宣佈推出軟體 0.3 版。他知道這個版本對 Bitcoin 的進展可能意義重大，因此他仔細地準備簡報，並[撰寫](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004)：
+7 月 6 日，中本聰宣佈推出軟體 0.3 版。他知道這個版本對 Bitcoin 的進展可能意義重大，因此他仔細地準備簡報，並[撰寫](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004)：
 
-> "這裡是點對點加密貨幣Bitcoin的0.3版本！ &nbsp;Bitcoin是一種數位貨幣，它使用加密技術和分散式網路來取代對可信賴的中央伺服器的需求。 &nbsp;擺脫中央管理貨幣的任意通貨膨脹風險！&nbsp;Bitcoin的總流通量限制在2100萬個單位。&nbsp;這些單位會根據其提供的計算能力逐步分配到網絡節點上，因此您可以通過貢獻您的閒置CPU時間來獲得其中的一份。"
-### 給 Slashdot 的簡報
+> "這裡是點對點加密貨幣 Bitcoin 的0.3版本！ &nbsp;Bitcoin 是一種數位貨幣，它使用加密技術和分散式網路來取代對可信賴的中央伺服器的需求。 &nbsp;擺脫中央管理貨幣的通貨膨脹風險！&nbsp;Bitcoin 的總流通量限制在2100萬個單位。&nbsp;這些單位會根據其提供的計算能力逐步分配到網絡節點上，因此您可以通過貢獻您的閒置 CPU 來獲得其中的一份。"
+### 在 Slashdot 上的介紹
 
-在新軟體版本發行之際，一位名為 Teppy 的論壇使用者（五月份開始接受 Bitcoin 的 MMORPG 管理員）[建議](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) 在 Slashdot 上做廣告，這是一個非常受歡迎的新聞網站，內容涵蓋電腦、電玩、科學、網路等書呆子的主題，其名稱來自「/.」這兩個字。6 月 22 日，他在論壇上詢問他們是否應該「嘗試做一些宣傳」，並指明「Slashdot 是個好地方，如果我們可以得到的話」。(*原文："我們應該嘗試做些宣傳嗎？如果可以的話，Slashdot 是個好地方。「*）Martti Malmi [註解](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) 寫道：」Slashdot 擁有數百萬有技術能力的讀者，如果能接觸到他們，那將是一件很棒的事，也許是一件可以想像得到的好事！"
+在新軟體版本發行之際，一位名為 Teppy 的論壇使用者（五月份開始接受 Bitcoin 的 MMORPG 管理員）[建議](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662) 在 Slashdot 上做廣告，這是一個非常受歡迎的新聞網站，內容涵蓋電腦、電玩、科學、網路等書呆子的主題，其名稱來自「/.」這兩個字。6 月 22 日，他在論壇上詢問他們是否應該「嘗試做一些宣傳」，並指明「Slashdot 是個好地方，如果能夠上的話」。(*原文："我們應該嘗試做些宣傳嗎？如果可以的話，Slashdot 是個好地方。「*）Martti Malmi [註解](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664) 寫道：」Slashdot 擁有數百萬有技術能力的讀者，如果能接觸到他們，那將是一件很棒的事，也許是一件可以想像得到的好事！"
 
 7 月 5 日，Teppy 寫了一份他打算自己提交給 Slashdot 的簡報，並在論壇上 [發表](https://bitcointalk.org/index.php?topic=234.msg1969#msg1969)：
 
-> 「這樣的顛覆性技術如何？Bitcoin 是一種買方匿名、賣方匿名的加密貨幣，沒有中央銀行，也沒有交易費用。使用類似 Hashcash 的概念，用戶端會燃燒 CPU 週期，嘗試從 21,000,000 個比特幣中發現一些最終會被發現的比特幣。預計隨著時間的推移，比特幣的市場價值將達到與 generate 所需的能量持平，從而形成一種任何政府都無法企及的能源支持貨幣"。
-幾位論壇成員提出改善這篇文章的建議。Satoshi [介入](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976) 自己在第一條訊息幾小時後提出他的意見。他寫道，他「真的很感激這份努力」，但「有很多問題」，然後他列出了困擾他的 Elements：
+> 「這是一項顛覆性的技術嗎？Bitcoin 是一種買賣雙方均匿名的加密貨幣，沒有中央銀行，也沒有交易手續費。使用類似於 Hashcash 的概念，客戶端燃燒 CPU 循環，試圖發現最終將被找到的 2100 萬枚 Bitcoin 中的一部分。預期隨著時間推移，Bitcoin 的市場價值將與產生它們所需的能量達到平衡，形成一種不受任何政府影響的能量支撐貨幣。
+幾位論壇成員提出改善這篇文章的建議。中本聰在第一條訊息幾小時後[提出](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976) 。他寫道，他「真的很感激這份努力」，但「有很多問題」，然後他列出了困擾他的要素：
 
 
 - 對於沒有國家的影響，他謹慎地寫道：「我不會這樣挑釁或聲稱」；（*原文："'開發人員預期，這將會導致一種不受任何政府影響的穩定能源貨幣。- 我絕對沒有進行這樣的嘲弄或斷言。"*)
 - 關於能源的支持，他認為貨幣「在能源方面並不穩定」，並補充說："這個問題已經討論過了。它與能源成本無關。NLS 基於能源的估算是一個很好的起點，但市場力量將越來越佔主導地位」；
 - 關於系統的匿名層面，他表示不想「突出「匿名」的層面」，而且在這方面他原本「打算修改首頁」。(*原文 "我們不想以「匿名」為主題。(我一直想修改首頁）"*)
 
-在幾小時後寄給 Martti Malmi 的 [email](https://mmalmi.github.io/Satoshi/#email-197) 中，Satoshi 提出了兩個主要理由來解釋這種淡化匿名性的意圖：對使用者的危險和公眾觀感。他寫道：
+在幾小時後寄給 Martti Malmi 的 [email](https://mmalmi.github.io/Satoshi/#email-197) 中，中本聰提出了兩個主要理由來解釋這種淡化匿名性的意圖：對使用者的危險和公眾觀感。他寫道：
 
 > 「我認為我們應該不再強調匿名性。隨著 Bitcoin 位址取代以 IP 傳送的普及，我們不能讓人覺得一切都自動匿名。偽匿名是有可能的，但你必須小心。[...]此外，「匿名」聽起來有點可疑。我認為想要匿名的人不用我們宣傳也會知道的"。
 他在論壇留言的結尾是：
 
-> "對不起，我是一個濕毯子。"為一般大眾撰寫這東西的描述 是該死的 GW -517.「沒什麼好說的」
+> 「抱歉澆冷水。為普通公眾撰寫這個東西的描述真的很難。沒有什麼可以類比。」
 之後，Teppy 參考這些建議更新了簡報。因此，在七月初，我們觀察到圍繞 Bitcoin 的論述已經達到很好的校準，顯示它已經到了史無前例的成熟階段。
 
 ### Slashdotted！
 
 2010 年 7 月 11 日，Teppy 撰寫的 Bitcoin 簡報修訂版在 Slashdot [發表](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03)。內容如下：
 
-> "這項顛覆性的技術如何？Bitcoin 是一種點對點、以網路為基礎的數位貨幣，沒有中央銀行，也沒有交易費用。使用 Proof-of-Work 的概念，節點會消耗 CPU 週期搜尋一捆捆的硬幣，並將搜尋結果廣播至網路。能源使用分析顯示，比特幣的市值已經高於 generate 所需的能源價值，顯示出健康的需求。該社群希望該貨幣能保持在任何政府的控制範圍之外"。
+> "這項顛覆性的技術如何？Bitcoin 是一種點對點、以網路為基礎的數位貨幣，沒有中央銀行，也沒有交易費用。使用工作量證明概念，節點會消耗 CPU 週期搜尋一捆捆的硬幣，並將搜尋結果廣播至網路。能源使用分析顯示，Bitcoin 的市場價值已經高於生成它們所需的能量價值，顯示出健康的需求。社群希望該貨幣能夠保持在任何政府的可控範圍之外。」
 ![Slashdot Logo in 2010](assets/en/043.webp)
 
-這篇刊物受到關注，幾天內就有近 500 則留言。對 Bitcoin 而言，這次成功讓大量訪客湧入網站和論壇。Blockchain 的使用量激增：網路上進行的交易數量從 7 月 10 日的 42 次增加到 12 日的 1,641 次，14 日達到 5,554 次，創下歷史新高。儘管負荷增加，系統仍能維持運作。14 日，開發人員 Gavin Andresen 在論壇上 [寫道](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745)：
+這篇刊物受到關注，幾天內就有近 500 則留言。對 Bitcoin 而言，這次成功讓大量訪客湧入網站和論壇。區塊鏈的使用量猛增：網路上進行的交易數量從 7 月 10 日的 42 次增加到 12 日的 1,641 次，14 日達到 5,554 次，創下歷史新高。儘管負荷增加，系統仍能維持運作。14 日，開發人員 Gavin Andresen 在論壇上 [寫道](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745)：
 
-> "我認為 Satoshi 做得非常好：在 Bitcoin 'slashdotted' 的這兩天裡，我沒有聽到任何有關 Bitcoin 交易損失的問題，也沒有聽到因負載而造成的網路停機，或任何有關基本功能的問題。
+> "我認為中本聰做得非常好：在 Bitcoin 'slashdotted' 的這兩天裡，我沒有聽到任何有關 Bitcoin 交易損失的問題，也沒有聽到因負載而造成的網路停機，或任何有關基本功能的問題。
 大量湧入的第一個後果就是 Bitcoin 的價格經歷了飛躍式的成長，在一週內從 0.008 美元成長到 0.08 美元，成長了十倍！
 
 從 Slashdot 湧入的人潮所帶來的另一個影響是部署在網路上的運算能力增加了。許多人啟動軟體，用他們的中央處理器產生區塊。從 7 月 11 日到 7 月 17 日，Hash 的速率從 0.22 GH/s 增加到 2.78 GH/s。
 
 ### Mt.Gox的創建
 
-在透過 Slashdot 發現 Bitcoin 的人當中，有一位 35 歲的美國企業家兼程式設計師 Jed McCaleb，他因在 2000 年代共同創立並開發點對點檔案分享軟體 eDonkey2000 而聞名。他意識到很難用 Exchange 換取 Bitcoin，於是 「心血來潮 」決定創造一個有效率的市場。為此，他重新利用了他在 2007 年開發的一個舊專案：Magic The Gathering Online Exchange (MTGOX)，這是一個允許買賣線上遊戲 *Magic: The Gathering Online* 卡牌的網站。他重新使用這個專案的網域名稱 (mtgox.com)，這也成為新平台的名稱：Mt.Gox，讀作「Mount Gox」。
+在透過 Slashdot 發現 Bitcoin 的人當中，有一位 35 歲的美國企業家兼程式設計師 Jed McCaleb，他因在 2000 年代共同創立並開發點對點檔案分享軟體 eDonkey2000 而聞名。他意識到很難用美元換取 Bitcoin，於是 「心血來潮 」決定創造一個有效率的市場。為此，他重新利用了他在 2007 年開發的一個舊專案：Magic The Gathering Online Exchange (MTGOX)，這是一個允許買賣線上遊戲 *Magic: The Gathering Online* 卡牌的網站。他重新使用這個專案的網域名稱 (mtgox.com)，這也成為新平台的名稱：Mt.Gox，讀作「Mount Gox」。
 
 ![Jed McCaleb in 2013](assets/en/044.webp)
 
 2013 年的 Jed McCaleb（資料來源：Ariel Zambelich for [Wired]()Ariel Zambelich for [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
-一週後，也就是 7 月 18 日，Jed McCaleb 推出了他的 Exchange 平台，並在論壇上 [宣布](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866)。由於他的專業知識，他確保該平台能以自動化市場的方式運作，類似於現代的線上交易所。[據他說](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891)，它從 Bitcoin 市場中脫穎而出，因為它 「始終在線，自動化」，「網站速度更快，有專用主機」，「Interface 對用戶來說更友好」。因此，Mt. Gox 很快成為獲取 Bitcoin 的主要途徑，奠定了自己作為美元報價標杆的地位。
+一週後，也就是 7 月 18 日，Jed McCaleb 推出了他的交易平台，並在論壇上 [宣布](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866)。由於他的專業知識，他確保該平台能以自動化市場的方式運作，類似於現代的線上交易所。[據他說](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891)，它從 Bitcoin 市場中脫穎而出，因為它 「始終在線，自動化」，「網站速度更快，有專用主機」，「介面對用戶來說更友好」。因此，Mt. Gox 很快成為獲取 Bitcoin 的主要途徑，奠定了自己作為美元報價基準的地位。
 
 ![Interface of the Mt. Gox platform in February 2011](assets/en/045.webp)
 
-2011年2月Mt. Gox平台的Interface（資料來源：Mt：[Mt. Gox archive](https://web.archive.org/web/20110203031942/http://mtgox.com/))
+2011年2月Mt. Gox 平台的介面（資料來源：Mt：[Mt. Gox archive](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
 最初，該平台接受透過 PayPal 付款。然而，2010 年 10 月，由於收到太多退款請求，PayPal [封鎖](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421) Jed McCaleb 的帳戶，迫使他暫時擱置平台上的存款和提款。幾個星期後，他[恢復](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700) 轉帳，加入 Liberty Reserve 作為付款方式。隨後，他也應要求接受透過 [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809) 進行的交易，以及 [美元](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) 和 [歐元](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA) 的銀行轉帳。
 
 ### Slashdot 的加速效應
 
-在 Slashdot 上發佈 Bitcoin 的介紹，對 Satoshi Nakamoto 的專案來說，效果非常顯著。大量有興趣的人湧入，導致價格和 Hash 的比率創下新高。此外，它促使某位 Jed McCaleb 發現了 Bitcoin，並以 Mt.
+在 Slashdot 上發佈 Bitcoin 的介紹，對中本聰的專案來說，效果非常顯著。大量有興趣的人湧入，導致價格和 Hash 的比率創下新高。此外，它促使某位 Jed McCaleb 發現了 Bitcoin，並以 Mt.
 
 在接下來的幾個月中，技術、經濟與 Mining 的改進持續蓬勃發展，讓 Slashdot 成為 Bitcoin 社群運動的真正起點。然而，最重大的改變發生在軟體與通訊協定層面：確實有一些重大的弱點需要修補。下一章將集中討論這些技術問題，它們構成了 Bitcoin 發展的關鍵一步。
 

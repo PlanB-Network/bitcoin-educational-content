@@ -13,14 +13,14 @@ L'avvento di Lightning Network ha segnato l'inizio del mainstream di Bitcoin, of
 Oggi l'accesso a Bitcoin rappresenta una sfida innovativa nei Paesi sottosviluppati e/o emergenti, per compensare ad un certo fallimento del sistema finanziario locale.
 
 
-In questo tutorial, scopriamo **Banxaas**, una piattaforma di scambio che avvicina il popolo senegalese a Bitcoin.
+In questo tutorial, scopriamo **Banxaas**, una piattaforma di conversione che avvicina il popolo senegalese a Bitcoin.
 
 
 ## Come iniziare con Banxaas
 
 
 
-Banxaas deriva dal dialetto senegalese (Wolof) e significa "ramo". Ideologicamente, possiamo vedere Banxaas come un ramo che lega il popolo senegalese all'utilizzo di Bitcoin. Un ramo su cui fare affidamento per proteggere i propri risparmi dall'inflazione e dalla censura. Sviluppata da una start-up senegalese (Yité Technologies), [Banxaas](https://banxaas.com) offre un servizio istantaneo Exchange tra Bitcoin e il franco CFA (XOF) e viceversa, grazie alla potenza di Lightning Network. Banxaas ha un approccio inusuale alle piattaforme di scambio nella sottoregione dell'Africa occidentale.
+Banxaas deriva dal dialetto senegalese (Wolof) e significa "ramo". Ideologicamente, possiamo vedere Banxaas come un ramo che lega il popolo senegalese all'utilizzo di Bitcoin. Un ramo su cui fare affidamento per proteggere i propri risparmi dall'inflazione e dalla censura. Sviluppata da una start-up senegalese (Yité Technologies), [Banxaas](https://banxaas.com) offre un servizio istantaneo di conversione tra Bitcoin e il franco CFA (XOF) e viceversa, grazie alla potenza di Lightning Network. Banxaas ha un approccio inusuale alle piattaforme di conversione nella sottoregione dell'Africa occidentale.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-La prima cosa da fare su [banxaas](https://banxaas.com) è definire la direzione del proprio scambio:
+La prima cosa da fare su [banxaas](https://banxaas.com) è definire la direzione della conversione:
 
 
 
@@ -67,7 +67,7 @@ La prima cosa da fare su [banxaas](https://banxaas.com) è definire la direzione
 
 
 
-La piattaforma web di Banxaas è minimalista e intuitiva, consente di completare la transazione in un solo minuto. Dopo aver definito la direzione dello scambio, inserisci l'importo che desideri inviare nel primo campo di testo del modulo, oppure inserite l'importo che desideri ricevere.
+La piattaforma web di Banxaas è minimalista e intuitiva, consente di completare la transazione in un solo minuto. Dopo aver definito la direzione della conversione, inserisci l'importo che desideri inviare nel primo campo di testo del modulo, oppure inserisci l'importo che desideri ricevere.
 
 
 
@@ -88,7 +88,7 @@ Banxaas copre l'intero territorio senegalese con i due principali operatori di t
 
 
 
-Quando si avvia una conversione da franchi CFA a Bitcoin, si aggiunge l’Address Lightning o una Invoice senza importo creata dal Wallet Lightning nel campo di destinazione.
+Quando devi convertire da franchi CFA a Bitcoin, aggiungi l’Address Lightning oppure una Invoice senza importo creata dal Wallet Lightning nel campo di destinazione.
 
 
 
@@ -137,14 +137,14 @@ Clicca sul pulsante **Troc** per pagare l’Invoice Lightning che verrà generat
 
 
 
-Più che una semplice piattaforma di conversione, Banxaas è un servizio che consente l'utilizzo di bitcoin come mezzo di pagamento. Attraverso la piattaforma, è possibile pagare i pasti, fare la spesa e pagare le attrezzature utilizzando i satoshi, barattando **Satoshi in CFA Franc** e fornendo il numero di cellulare Money del venditore.
+Più che una semplice piattaforma di conversione, Banxaas è un servizio che consente l'utilizzo di bitcoin come mezzo di pagamento. Attraverso la piattaforma, è possibile pagare i pasti, fare la spesa e pagare le attrezzature utilizzando i satoshi, convertendo **Satoshi in CFA Franc** e fornendo il numero di cellulare Money del venditore.
 
 
 ### La trasparenza al centro del processo
 
 
 
-La trasparenza è un pilastro importante per Banxaas, per ridurre al minimo la censura e consentire agli utenti della soluzione di giudicare la sua affidabilità.
+La trasparenza è un pilastro importante per Banxaas, per ridurre al minimo la censura e permettere agli utenti di giudicarne la sua affidabilità.
 
 
 Nel menu Transazioni è possibile visualizzare le transazioni recenti senza avere accesso alle informazioni dell'utente: Banxaas chiede solo il numero di telefono o il Lightning Address. Ogni transazione è unica e identificata da un UUID (Universal Unique Identifier).
@@ -159,7 +159,7 @@ Nel menu Transazioni è possibile visualizzare le transazioni recenti senza aver
 
 
 
-E non finisce qui. È anche possibile consultare, nel menu **Tesoreria**, la posizione di cassa in Franchi CFA (con gli aggregatori di pagamento) e il saldo del portafoglio Bitcoin utilizzato da Banxaas. Questo approccio è una novità assoluta nella subregione dell'Africa occidentale e consente agli utenti di valutare lo stato delle finanze della piattaforma.
+E non finisce qui. È anche possibile consultare, nel menu **Tesoreria**, la posizione di cassa in Franchi CFA (con gli aggregatori di pagamento) e il saldo del portafoglio Bitcoin utilizzato da Banxaas. Questo approccio è una novità assoluta nella subregione dell'Africa occidentale e consente agli utenti di valutare lo stato delle finanze nella piattaforma.
 
 
 
@@ -167,7 +167,7 @@ E non finisce qui. È anche possibile consultare, nel menu **Tesoreria**, la pos
 
 
 
-Il team di Banxaas è a vostra disposizione per aiutarvi a risolvere qualsiasi problema. Potete contattare l'assistenza clienti tramite i loro social network:
+Il team di Banxaas è a tua disposizione per aiutarti a risolvere qualsiasi problema. Puoi contattare l'assistenza clienti tramite i loro social network:
 
 
 
@@ -182,11 +182,11 @@ Il team di Banxaas è a vostra disposizione per aiutarvi a risolvere qualsiasi p
 ![support](assets/fr/09.webp)
 
 
-Ora avete imparato a usare la piattaforma Banxaas per Exchange i vostri bitcoin e potenzialmente inviare denaro in Senegal usando i vostri satoshis.
+Ora hai imparato a usare la piattaforma Banxaas per convertire i tuoi bitcoin ed eventualmente inviare denaro in Senegal usando i tuoi satoshi.
 
 
 
-Date un'occhiata anche al nostro tutorial su Peach, una piattaforma peer-to-peer Exchange che vi permette anche di acquistare e vendere bitcoin senza compromettere la vostra riservatezza.
+Dai anche un’occhiata al nostro tutorial su Peach, una piattaforma peer-to-peer di scambio che ti permette di acquistare e vendere bitcoin senza compromettere la vostra riservatezza.
 
 
 

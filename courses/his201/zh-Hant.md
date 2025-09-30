@@ -830,37 +830,37 @@ Bitcoin 的這種經濟引導作用從一開始就隨著挖礦的活動逐漸發
 
 - BitcoinFX (bitcoinfx.zz.cc)，使用 Liberty Reserve 美元出售 Bitcoin 的服務，於 2 月 15 日 [公佈](https://bitcointalk.org/index.php?topic=30.msg194#msg194)；
 - BitcoinExchange (bitcoinexchange.com)，Martti Malmi 的平台，其獨特之處在於通過考慮用戶存款的歐元和 Bitcoin 來[衡量](https://mmalmi.github.io/Satoshi/#email-25) 供給和需求，並於 2010 年 3 月 2 日[向公眾開放](https://bitcointalk.org/index.php?topic=68.msg591#msg591)；
-- Bitcoin Market (bitcoinmarket.com)，這是一個使用 PayPal 的點對點市場，由一個叫 dwdollar 的人在 3 月 16 日 [推出](https://bitcointalk.org/index.php?topic=20.msg726#msg726)，在 7 月 Mt. Gox 出現之前，會看到顯著的成功。
+- Bitcoin Market (bitcoinmarket.com)，這是一個使用 PayPal 的點對點市場，由一個叫 dwdollar 的人在 3 月 16 日 [推出](https://bitcointalk.org/index.php?topic=20.msg726#msg726)，在 7 月 Mt. Gox 出現之前，看到顯著的成功。
 
 ![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/033.webp)
 
 [Capture](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) of Bitcoin Market Interface later on (August 2011)
 
-3月11日，BitcoinFX的管理員[組織](https://bitcointalk.org/index.php?topic=80.msg781#msg781)了第一場涉及比特幣的撲克遊戲，開啟了賭博和加密貨幣之間的緊密關係。這場遊戲的贏家是dwdollar，他賺了[600 BTC](https://Mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761)。
+3月11日，BitcoinFX 的管理員[組織](https://bitcointalk.org/index.php?topic=80.msg781#msg781)了第一場比特幣的撲克遊戲，開啟了賭博和加密貨幣之間的緊密關係。這場遊戲的贏家是 dwdollar，他賺了[600 BTC](https://Mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761)。
 
-其他接受 Bitcoin 的服務也陸續出現，例如 3 月 16 日的語音 IP 服務 [Link2VoIP](https://bitcointalk.org/index.php?topic=30.msg733#msg733)、4 月 23 日的網頁寄存服務 [Vekja.net](https://bitcointalk.org/index.php?topic=30.msg1008#msg1008)，以及 4 月 30 日的域名銷售商 [Privacy Shark](https://bitcointalk.org/index.php?topic=30.msg1035#msg1035)。這種服務的激增導致 Martti Malmi 最終在 Bitcoin.org 網站上主持一個 [page](https://web.archive.org/web/20100517040312/http://www.Bitcoin.org:80/trade) 列出商家。
+其他接受 Bitcoin 的服務也陸續出現，例如 3 月 16 日的語音 IP 服務 [Link2VoIP](https://bitcointalk.org/index.php?topic=30.msg733#msg733)、4 月 23 日的網頁寄存服務 [Vekja.net](https://bitcointalk.org/index.php?topic=30.msg1008#msg1008)，以及 4 月 30 日的域名銷售商 [Privacy Shark](https://bitcointalk.org/index.php?topic=30.msg1035#msg1035)。這種服務的激增導致 Martti Malmi 最終在 Bitcoin.org 網站上主持一個 [頁面](https://web.archive.org/web/20100517040312/http://www.Bitcoin.org:80/trade) 列出商家。
 
 第一個專門的 Bitcoin 託管服務也出現了，它就是 MyBitcoin，這是一個網路應用程式，可讓您輕鬆、安靜地使用加密貨幣，尤其是在行動裝置上。有了這項服務，使用者確實不需要下載完整的鏈資料來傳送和接收交易，也不需要自己儲存私密金鑰來保管比特幣。
 
 ![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/034.webp)
 
-當時，輕量級錢包（稱為「SPV」）並不存在，因此 Satoshi 中本自己認為使用這種類型的軟體是可以接受的，儘管這種使用違反了 Bitcoin 核心的去中介化原則。2010 年 5 月 18 日，他在論壇上[寫道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
+當時，輕量級錢包（稱為「SPV」）並不存在，因此中本聰自己認為使用這種類型的軟體是可以接受的，儘管這種使用違反了 Bitcoin 核心的去中介化原則。2010 年 5 月 18 日，他在論壇上[寫道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
 
 > "與此同時，[vekja.net](http://vekja.net) 和 [www.mybitcoin.com](http://www.mybitcoin.com)等網站一直在嘗試使用基於帳戶的系統。&nbsp;你在一個網站上創建一個帳戶，把你的比特幣存放在那裡，並將它們轉入和轉出。&nbsp;在網站上創建一個帳戶比安裝軟件和學習使用它容易得多，而且對大多數人來說，這是一種更熟悉的方法。&nbsp;唯一的缺點是您必須信任該網站，但對於用於微額支付和雜項支出的小額金額來說，這也是沒問題的。&nbsp;這是一種很容易上手的方法，如果收到的金額變得更大，您可以轉用實際的 Bitcoin 軟體。
 最後，在 5 月 19 日，一位名叫 Teppy 的使用者開始 [接受](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) 他所管理的大型多人遊戲 *A Tale in the Desert* 的 Bitcoin。
 
-### Bitcoin 價值的由來
+### Bitcoin 價值的起源
 
-因此，在 2010 年春天，Bitcoin 似乎確實在許多人心目中獲得了價值。儘管系統的使用還處於起步階段，但無論從 Mining、Exchange 與美元的角度，還是從服務銷售的角度來看，對 Bitcoin 的需求都是存在的。5 月 22 日發生的一件象徵性事件確切地封閉了這一經濟開端：第一次用比特幣購買實體商品，具體來說是比薩餅，我們將在下一章敘述。
+2010 年春天，Bitcoin 在許多人心中獲得了價值。即使該系統的使用仍處於起步階段，但從挖礦、與美元的交易、服務銷售來看，Bitcoin 的需求是存在的。5 月 22 日發生的事件標示了經濟啟動：使用 Bitcoin 的第一次實體商品購買，具體來說是披薩，我們將在下一章中敘述。
 
-Bitcoin 價值的起源問題一直是許多人努力想要解釋的。這種價值的出現尤其讓奧地利學派的支持者感到不安，他們對路德維希-馮-米塞斯的[迴歸定理](https://en.wikipedia.org/wiki/Regression_theorem)作了狹隘的詮釋。某個人 xc 就是這樣，他在論壇上 [尋求](https://bitcointalk.org/index.php?topic=583.msg5984#msg5984) 將價值的傳遞建立在與美元的轉換上。
+Bitcoin 價值的起源問題一直是許多人努力想要解釋的。這種價值的出現尤其讓奧地利學派的支持者感到不安，他們對路德維希-馮-米塞斯的[迴歸定理](https://en.wikipedia.org/wiki/Regression_theorem)作了狹隘的詮釋。叫做 xc 的人在論壇上[尋求](https://bitcointalk.org/index.php?topic=583.msg5984#msg5984) 將價值的傳遞建立在與美元的轉換上。
 
-然而，這個問題從來沒有困擾過 Satoshi，他認為新貨幣的啟動是一個挑戰，當然很難克服，但不是不可能的。因此，他於 2010 年 8 月 27 日在論壇上 [表達](https://bitcointalk.org/index.php?topic=583.msg11405#msg11405) 他的觀點，回應 xc：
+然而，這個問題從來沒有困擾過中本聰，他認為新貨幣的啟動是一個挑戰，當然很難克服，但不是不可能的。因此，他於 2010 年 8 月 27 日在論壇上 [表達](https://bitcointalk.org/index.php?topic=583.msg11405#msg11405) 他的觀點，回應 xc：
 
 > "作為一個思想實驗，假設有一種和黃金一樣稀缺的基本金屬，但具有以下特性：
 > \- 灰色
 > \- 不是良好的電導體
-> \- 不是特別強，但也不是延展性或易延展性
+> \- 不是特別強，但也不易延展或塑形
 > \- 無任何實用或觀賞用途
 >
 
@@ -871,93 +871,92 @@ Bitcoin 價值的起源問題一直是許多人努力想要解釋的。這種價
 > 如果由於某種原因，這種金屬有了任何價值，那麼任何想長距離轉移財富的人都可以買一些，傳送出去，然後讓收件人賣掉。
 >
 
-> 或許它可以像您所建議的那樣，透過人們預見它對 Exchange 的潛在用途，循環獲得初始價值（我絕對想要一些）。(我一定會想要一些）也許收藏家，或任何隨機的理由，都能激發它的火花。"
+> 或許它可以像您所建議的那樣，透過人們預見它對交換中的潛在用途，循環獲得初始價值，也許收藏家，或任何隨機的理由，都能激發它的火花。"
 # Bitcoin 第一次崛起
 
 <partId>557d792d-34d5-4a10-8977-82afdcfe402b</partId>
 
-## 顯示卡、披薩和免費比特幣
+## 顯卡、披薩和免費 Bitcoin
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
-在上一部分，我們探討了 Bitcoin 如何出現、如何介紹給大眾，以及如何在經濟上發起。2010 年春天，當比特幣的商業活動剛開始盛行時，Satoshi Nakamoto 和支持他的幾個人的目標是要讓火焰繼續燃燒下去。幸運的是，其他個人也加入了努力的行列，特別是 Miner Laszlo Hanyecz 和開發人員 Gavin Andresen，他們的行動脫穎而出。
+在上一部分，我們探討了 Bitcoin 如何出現、如何介紹給大眾，以及如何在經濟上發起。2010 年春天，當比特幣的商業活動剛開始盛行時，中本聰及其支持者決心要讓這個火種持續燃燒。幸運的是，其他人也加入了行列，特別是 Miner Laszlo Hanyecz 和開發人員 Gavin Andresen，他們的行動尤其突出。
 
-在本章中，我們將探討圖形處理器 (GPU) 首次部署 Mining、Satoshi Nakamoto 累積的財富、首次使用比特幣購買實物、建立 Bitcoin Faucet 贈送免費單位，以及 Slashdot 之前軟體與網路的演進。
+在本章中，我們將探討利用顯示卡（GPU）進行挖礦的首次部署、中本聰累積的財富、首次使用 Bitcoin 購買實物、建立免費發放 Bitcoin 單位的「比特幣水龍頭（bitcoin faucet）」以及在 Slashdot 效應之前的軟體和網路的演變。
+### 顯示卡挖礦
 
-### Mining by 圖形處理單元
+隨著 Bitcoin 的需求日益增加，網路上的挖礦活動也逐漸增長。2009 年全年，網絡上的難度都處於 1 的最低下限，即所有節點都需要進行約 43 億次計算才能挖出一個區塊。然而，在 2009 年 12 月，由於調整演算法將難度係數從 1 提升至 1.18，使得情況有所改變。
 
-隨著 Bitcoin 的需求日益增加，網絡上的 Mining 活動也逐漸增加。2009 年全年，網絡上的難度都處於 1 的最低下限，即所有節點都需要進行約 43 億次計算才能挖出一個區塊。然而，在 2009 年 12 月，由於調整演算法將難度係數從 1 提升至 1.18，使得情況有所改變。
-
-Satoshi Nakamoto 非常關注這一難度的增加，並從 2010 年 2 月開始在論壇上維護 [history](https://bitcointalk.org/index.php?topic=43.msg249#msg249)。下面是它的樣子：
+中本聰對這種難度的增加深感擔憂，並從 2010 年 2 月開始在論壇上維護 [history](https://bitcointalk.org/index.php?topic=43.msg249#msg249)。下面是它的樣子：
 
 ![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/035.webp)
 
-儘管如此熱衷於網路運算能力的提升，Satoshi 仍希望減緩 Mining 的專業化，以利於單位的分配。在此之前，礦工一直使用中央處理器 (CPU) 來提取新的比特幣。然而，事實證明這些處理器在執行重複性運算時並不有效率，相較之下，繪圖處理器 (GPU) 則更適合這種重複性計算。因此，當時每個人都知道這種演進是不可避免的，包括 Satoshi 本人。2009 年 12 月 19 日，他[聲明](https://bitcointalk.org/index.php?topic=12.msg54#msg54) 如下：
+儘管對於網絡中計算能力增強感到興奮，但中本聰仍希望減緩挖礦專業化的速度以促進單位的分配。在此之前，礦工一直使用中央處理器 (CPU) 來挖新的比特幣。然而，事實證明這些處理器在執行重複性運算時並不有效率，相較之下，圖形處理器 (GPU) 則更適合這種重複性計算。因此，當時每個人都知道這種演進是不可避免的，包括中本聰本人。2009 年 12 月 19 日，他[聲明](https://bitcointalk.org/index.php?topic=12.msg54#msg54) 如下：
 
-"我們應該有君子協定，為了網路的利益，盡可能延遲 GPU 軍備競賽。如果新使用者不必擔心 GPU 驅動程式與相容性的問題，他們就能更容易上手。現在任何只有 CPU 的人都可以公平競爭，這真是太好了。
+"我們應該有君子協定，為了網路的利益，盡可能延遲 GPU 軍備競賽。如果新使用者不必擔心 GPU 驅動程式與相容性的問題，他們就能更容易上手。現在任何有 CPU 的人都可以公平競爭，這真是太好了。
 
-然而，幾個月後，潘朵拉的盒子被打開了。麻煩的制造者是 Laszlo Hanyecz，一位 28 歲的美國開發人員，原籍匈牙利，住在佛羅里達州。他在 2010 年 4 月發現 Bitcoin。9 日，他以約 20 美元的價格從 NLS [取得](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3,300 個比特幣，然後透過數次轉帳測試系統。18 日，他嘗試透過倍增他 [公開 Address](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4) 的交易來擁塞網路，但卻撐不住了。
+然而，幾個月後，潘朵拉的盒子被打開了。麻煩製造者是 Laszlo Hanyecz，一位 28 歲的美國開發人員，原籍匈牙利，住在佛羅里達州。他在 2010 年 4 月發現 Bitcoin。9 日，他以約 20 美元的價格從 NLS [取得](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3,300 個比特幣，然後透過數次轉帳測試系統。18 日，他試圖從他的[公用地址](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4) 的展開多筆交易來擁塞網路，但網路撐住了。
 
 ![Laszlo Hanyecz with his son in May 2018](assets/en/036.webp)
 
 2018 年 5 月，Laszlo Hanyecz 與他的兒子（資料來源：Laszlo Hanyecz）：[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
-隨後，他[改編](https://bitcointalk.org/index.php?topic=116.msg972#msg972) 了軟體程式碼，使其能在 Mac OS X 作業系統上運作。之後，他使用 OpenCL 環境優化 Mining，讓 GPU[參與](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) 產生比特幣。5 月 10 日，他發表了他的 [可執行檔](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100)，並 [提出](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) 寫補丁，讓其他礦工也能這麼做。這種優化很快就讓他在區塊生產中佔據了重要的一席之地。
+隨後，他[改編](https://bitcointalk.org/index.php?topic=116.msg972#msg972) 了軟體程式碼，使其能在 Mac OS X 作業系統上運作。之後，他使用 OpenCL 環境優化挖礦，讓 GPU[參與](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100) 產生 Bitcoin。5 月 10 日，他發表了他的 [可執行檔](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100)，並 [提出](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103) 補丁，讓其他礦工也能這麼做。這種優化很快就讓他在區塊生產中佔據了重要的一席之地。
 
-四月底，Laszlo 聯絡 Satoshi 詢問他的意見，但後者在 5 月 17 日才回覆。Bitcoin 的創作者隨後[要求](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) 他放慢作業速度，以便 Mining 仍能讓最多的人使用：
+四月底，Laszlo 聯絡中本聰詢問他的意見，但後者在 5 月 17 日才回覆。Bitcoin 的創作者隨後[要求](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/) 他放慢作業速度，以便挖礦仍能讓最多的人使用：
 
-> "對新使用者的一大吸引力是，任何有電腦的人都可以 generate 一些免費的硬幣。當使用者達到 5000 人時，這項獎勵可能會逐漸消失，但就目前而言，這仍是事實。GPU 會過早地將誘因限制在只有擁有高階 GPU 硬體的使用者身上。GPU 計算叢集終於會霸佔所有產生的硬幣，這是無可避免的，但我不想加速那一天的來臨。(......)我不想聽起來像個社會主義者，我不在乎財富是否集中，但就目前而言，將這筆錢給 100% 的人比給 20% 的人獲得更多的成長。此外，我們能延緩 GPU 軍備競賽的時間越長，OpenCL 函式庫就會越成熟，也就會有越多人擁有相容 OpenCL 的顯示卡"。
-Laszlo 並未真正注意到這項警告，並繼續使用他的顯示卡挖礦區塊，在接下來的幾個月中產生了數以萬計的比特幣。然而，直到 10 月，GPU Mining 才開始普及。
+> "對新使用者的一大吸引力是，任何有電腦的人都可以產生一些免費的幣。當使用者達到 5000 人時，這項獎勵可能會逐漸消失，但就目前而言，這仍是事實。GPU 會過早地將誘因限制在只有擁有高階 GPU 硬體的使用者身上。GPU 計算叢集終於會霸佔所有產生的硬幣，這是無可避免的，但我不想加速那一天的來臨。(......)我不想聽起來像個社會主義者，我不在乎財富是否集中，但就目前而言，將這筆錢給 100% 的人比給 20% 的人獲得更多的成長。此外，我們能延緩 GPU 軍備競賽的時間越長，OpenCL 函式庫就會越成熟，也就會有越多人擁有相容 OpenCL 的顯示卡"。
+Laszlo 並未真正注意到這項警告，並繼續使用他的顯示卡挖礦區塊，在接下來的幾個月中產生了數以萬計的比特幣。然而，直到 10 月，GPU 挖礦才開始普及。
 
-### Satoshi 的比特幣
+### 中本聰的比特幣
 
-Mining 的這種上升也產生了重大後果：Satoshi 停止生產區塊。自從網路啟動以來，他確實一直是 Mining 來確保足夠的確認速度和可接受的安全等級。有了部署的新力量，他因此可以放棄這項任務，並讓其他網路成員受益於所創造的全部比特幣。
+這次挖礦的增長還有一個重要後果：中本聰停止了產出區塊。自從網路啟動以來，他挖礦是為了確保足夠的確認步伐和一個可接受的安全水平。有了新力量，他因此可以放棄這項任務，並讓其他網路成員受益於所創造的全部比特幣。
 
-Satoshi 的 Mining 活動有一個明顯的模式，使得我們可以識別出他可能發現的區塊，只有少數的誤判。開發人員 Sergio Lerner 在 2013 年強調這種 Mining 模式，並將其命名為 Patoshi 模式。
+中本聰的挖礦活動有一個明顯的模式，使得我們可以識別出他可能發現的區塊，儘管有少數的誤判。開發人員 Sergio Lerner 在 2013 年強調這種挖礦模式，並將其命名為 Patoshi 模式。
 
 ![Patoshi Pattern between blocks 0 and 50,000](assets/en/037.webp)
 
-從網站 [satoshiblocks.info](http://satoshiblocks.info/) 觀察到的區塊 0 到 50,000 之間的 Patoshi Pattern：每個點對應一個區塊，藍線由 Satoshi 的區塊組成，其他線代表其他礦工的輸出。
+從網站 [satoshiblocks.info](http://satoshiblocks.info/) 觀察到的區塊 0 到 50,000 之間的 Patoshi 模式：每個點對應一個區塊，藍線由中本聰的區塊組成，其他線代表其他礦工的輸出。
 
-根據 Whale Alert 在 2020 年發表的研究報告，Satoshi 挖出了約 22,500 個區塊，因此累積了 1,122,693 枚比特幣，超過計劃中 2,100 萬枚的 5%。2009 年的大部分時間，該網路都依賴其創始人的運算能力。2009 年 8 月是 Mining 活動最差的時期，也正好是 Satoshi 的「暫停」時期，他可能較少監控自己的機器，這就說明了這種依賴性。事實上，在這個八月，在預期的 4,464 個區塊中，只產生了 1,564 個區塊，相對應的平均時間為 28 分 30 秒。
+根據 Whale Alert 在 2020 年發表的研究報告，中本聰挖出了約 22,500 個區塊，因此累積了 1,122,693 枚比特幣，超過計劃中 2,100 萬枚的 5%。2009 年的大部分時間，該網路都依賴其創始人的運算能力。2009 年 8 月是挖礦活動最差的時期，也正好是中本聰的「暫停」時期，他可能較少監控自己的機器，這就說明了這種依賴性。事實上，在這個八月，在預期的 4,464 個區塊中，只產生了 1,564 個區塊，相對應的平均時間為 28 分 30 秒。
 
-隨著 2009 年秋季運算能力的提升，Satoshi 的運算能力相對於總網路能力的比例逐漸下降。它從 2009 年 3 月的 75% 降到 9 月的 60%，然後在 12 月降到 15%，並在 5 月達到 0%。以下是 [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) 在 2014 年製作的圖表：
+隨著 2009 年秋季運算能力的提升，中本聰的運算能力相對於總網路能力的比例逐漸下降。它從 2009 年 3 月的 75% 降到 9 月的 60%，然後在 12 月降到 15%，並在 5 月達到 0%。以下是 [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) 在 2014 年製作的圖表：
 
 ![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/038.webp)
 
-此外，Satoshi 對 Mining 的支配力下降並非只是被動的：他自己在同一時期也放慢了生產速度。事實上，Satoshi 的既定目標是讓每個人都參與其中：他挖礦並非為了獲得經濟利益，而是為了確保網路的運作，直到獎勵措施生效為止。因此，在這段 Mining 期間，他將 Hash 速率（每秒執行的計算次數）降低了三次：第一次在 2009 年 6 月從 4.5 MH/s 降為 2.5 MH/s，第二次在 10 月從 2.5 MH/s 降為 1 MH/s，第三次在 2010 年 5 月從 1 MH/s 降為 0 MH/s。以下是他在這段期間的 Hash 速率演變圖（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)）：
+此外，中本聰挖礦主導地位的減少並不僅僅是被動的：他自己在同一時期也放慢了生產速度。事實上，中本聰定目標是讓每個人都參與其中：他挖礦並非為了獲得經濟利益，而是為了確保網路的運作，直到獎勵措施生效為止。因此，在這段挖礦期間，他將哈希速率（每秒執行的計算次數）降低了三次：第一次在 2009 年 6 月從 4.5 MH/s 降為 2.5 MH/s，第二次在 10 月從 2.5 MH/s 降為 1 MH/s，第三次在 2010 年 5 月從 1 MH/s 降為 0 MH/s。以下是他在這段期間的哈希速率演變圖（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)）：
 
 ![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/039.webp)
 
-因此，Satoshi 的 Mining 決定是利他的，正如 [Jameson Lopp 指出](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/)。當他在 2010 年 5 月 3 日停止 Mining 時（他的最後一個區塊是 [block 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e) ），就構成了 Bitcoin 在緩慢發展中的另一項成就：經濟行為者接管交易確認。
+因此，中本聰的挖礦確實是無私的，正如 [Jameson Lopp 指出](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/)。當他在 2010 年 5 月 3 日停止挖礦時（他的最後一個區塊是 [block 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e) ），就構成了 Bitcoin 在緩慢發展中的另一項成就：經濟行為者接管交易確認。
 
 ### Bitcoin 披薩日
 
-2010 年 5 月還發生了一件奠基性事件：首次使用比特幣購買實物。Laszlo Hanyecz 踏出了第一步。透過他的演算法，他累積了超過 20,000 個比特幣，他試圖透過取得披薩，將比特幣重新注入經濟體系。5 月 18 日，他在論壇上寫了以下 [公告](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141)：
+2010 年 5 月還發生了一件奠基性事件：首次使用比特幣購買實物。Laszlo Hanyecz 踏出了第一步。透過他的演算法，他累積了超過 20,000 個 Bitcoin，他試圖透過買披薩，將 Bitcoin 注入經濟體系。5 月 18 日，他在論壇上寫了以下 [公告](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141)：
 
-> "我願意花 10,000 比特幣買幾個披薩......可能是兩個大的，這樣我就可以剩一些第二天吃。我喜歡吃剩下的披薩，以後再啃。你可以自己做披薩送到我家，或者從外賣店代我訂，但我的目標是用比特幣在 Exchange 獲得外賣食物，我不需要自己訂餐或準備食物，有點像在旅館或其他地方訂「早餐拼盤」，他們只要送點東西給你吃，你就滿意了！(......)如果您有興趣，請讓我知道，我們可以達成協議"。
-這項提議在四天後被接受。是一位年輕的加州人 Jeremy Sturdivant 在 IRC 即時通訊服務上接受了 Exchange。
+> "我願意花 10,000 Bitcoin 買幾個披薩......可能是兩個大的，這樣我就可以剩一些第二天吃。我喜歡吃剩下的披薩，以後再啃。你可以自己做披薩送到我家，或者從外賣店代我訂，但我的目標是用 Bitcoin 獲得外賣食物，我不需要自己訂餐或準備食物，有點像在旅館或其他地方訂「早餐拼盤」，他們只要送點東西給你吃，你就滿意了！(......)如果您有興趣，請讓我知道，我們可以達成協議"。
+這項提議在四天後被接受。是一位年輕的加州人 Jeremy Sturdivant 在 IRC 即時通訊服務上接受了交易。
 
 ![Jeremy Sturdivant in May 2018](assets/en/040.webp)
 
 Jeremy Sturdivant 於 2018 年 5 月（資料來源：Jeremy Sturdivant[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
-5 月 22 日，他從 Papa John's 訂購了兩個披薩，並送到了佛羅里達州杰克遜維爾的 Laszlo 手中。他 [收到](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10,000 個 Exchange 的比特幣，以 Bitcoin 市價計算，價值約 44 美元。以下是這兩個披薩的照片，由 Laszlo 本人 [分享](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/)：
+5 月 22 日，他從 Papa John's 訂購了兩個披薩，並送到了佛羅里達州杰克遜維爾的 Laszlo 手中。他 [收到](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10,000 個 Bitcoin，以 Bitcoin 市價計算，價值約 44 美元。以下是這兩個披薩的照片，由 Laszlo 本人 [分享](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/)：
 
 ![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/041.webp)
 
-這是第一次用比特幣購買實物，即使是間接購買。Laszlo 得到了[Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196)的祝賀，他寫道：「邁出了一大步」。NLS 也就此事添加了[正面評論](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197)。
+這是第一次用 Bitcoin 購買實物，即使是間接購買。Laszlo 得到了[Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196)的祝賀，他寫道：「邁出了一大步」。NLS 也就此事添加了[正面評論](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197)。
 
 6 月 12 日，Laszlo Hanyecz 在論壇上寫信 [重申](https://bitcointalk.org/index.php?topic=137.msg1526#msg1526) 他的提議：
 
 > "順便說一下，這是公開出價...只要我有資金，我隨時可以用10,000 BTC換2個披薩"
-因此，他又進行了幾次同類型的交易，直到 8 月 4 日，他 [寫道](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544) 他真的「沒有能力繼續這樣做」，因為他再也無法「每天 generate 上千個單位」。原因是：7 月 11 日從 Slashdot 湧入所帶來的價格上漲，這也讓他贏得了論壇成員的嘲諷，他們暗示他最好還是留著他的比特幣。幾個月後的 11 月，當 Bitcoin 的價格徘徊在 25 美分左右時，用戶 ribuck [寫道](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) 以幾近預言的方式寫道：「這最終會成為世界上第一個百萬美元的披薩嗎？」
+因此，他又進行了幾次同類型的交易，直到 8 月 4 日，他 [寫道](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544) 他真的「沒有能力繼續這樣做」，因為他再也無法「每天生成上千個幣」。原因是：7 月 11 日從 Slashdot 湧入所帶來的價格上漲，這也讓他贏得了論壇成員的嘲諷，他們暗示他最好還是留著他的 Bitcoin。幾個月後的 11 月，當 Bitcoin 的價格徘徊在 25 美分左右時，用戶 ribuck [寫道](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352) 以幾近預言的方式寫道：「這最終會成為世界上第一個百萬美元的披薩嗎？」
 
 儘管如此，加密貨幣購買力的提升並沒有減弱這一事件的象徵意義，Bitcoin 社群每年都會在這一天紀念 Bitcoin 披薩日。
 
-### Gavin Andresen 與 Bitcoin Faucet
+### Gavin Andresen 與 Bitcoin Faucet（比特幣水龍頭）
 
-這段期間也見證了 Bitcoin 歷史上一位關鍵人物的到來：Gavin Andresen 是一位 44 歲的開發人員，出生於澳洲，2004 年 [取得](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) 美國國籍，當時住在馬薩諸塞州的 Amherst。他從澳洲旅行回來後暫時失業，5 月底透過 Neil McAllister 在 InfoWorld 上發表的一篇 [文章](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3)，發現了 Bitcoin。這篇文章將 Satoshi Nakamoto 的專案介紹為一項「開源創新」。
+這段期間也見證了 Bitcoin 歷史上一位關鍵人物的到來：Gavin Andresen 是一位 44 歲的開發人員，出生於澳洲，2004 年 [取得](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) 美國國籍，當時住在馬薩諸塞州的 Amherst。他從澳洲旅行回來後暫時失業，5 月底透過 Neil McAllister 在 InfoWorld 上發表的一篇 [文章](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3)，發現了 Bitcoin。這篇文章將中本聰的專案介紹為一項「開源創新」。
 
 ![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/042.webp)
 
@@ -965,20 +964,20 @@ Gavin Andresen 在澳洲昆士蘭州湯斯維爾 (資料來源：[CIO archive](h
 
 由於好奇心和創造力，他很快就開始了一個個人專案："Bitcoin Faucet"，它可以給任何要求比特幣的人。6 月 11 日，他 [推出](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488) 了他的服務，並在論壇上作了如下介紹：
 
-"在我的第一個 Bitcoin 程式設計專案中，我決定做一件聽起來很蠢的事情：我創建了一個分發比特幣的網站。(...)為什麼？因為我希望 Bitcoin 專案能夠成功，而且我認為如果人們能夠拿到少量的單位來試用，成功的機會會更大。"
+"在我的第一個 Bitcoin 程式設計專案中，我決定做一件聽起來很蠢的事情：我創建了一個分發 Bitcoin 的網站。(...)為什麼？因為我希望 Bitcoin 專案能夠成功，而且我認為如果人們能夠拿到少量的單位來試用，成功的機會會更大。"
 
-Satoshi 對於這項服務的推出反應良好，儘管他並沒有馬上注意到。一週後，也就是 6 月 18 日，他 [恭喜](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) 創造者，寫道這是「第一個專案的絕佳選擇」，而且他「計畫如果沒有人做，也要做一模一樣的事情，所以當凡人 Hard 無法 generate 50BTC 時，新使用者可以馬上得到一些錢幣來玩"。
+中本聰對於這項服務的推出反應良好，儘管他並沒有馬上注意到。一週後，也就是 6 月 18 日，他 [恭喜](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620) 創造者，寫道這是「第一個專案的絕佳選擇」，而且他「打算做一模一樣的事，若無人完成它，那麼當生成 50 BTC 對一般人來說太難時，新用戶仍可以獲得一些幣來供他們使用。」
 
-Gavin Andresen 的貢獻並不止於此。他對 Bitcoin 的運作方式深感興趣，並開始剖析程式碼。他 [發現](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) 了協定中內建的腳本系統，並迅速在論壇上分享。他對這項功能表示憂慮，因為它降低了系統的安全性 (「複雜性是安全性的敵人」)，也增加了開發第二個軟體實作的難度。Satoshi [解釋](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) 整合這個他稱為 Script 的機制背後的原因：
+Gavin Andresen 的貢獻並不止於此。他對 Bitcoin 的運作方式深感興趣，並開始剖析程式碼。他 [發現](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) 了協定中內建的腳本系統，並迅速在論壇上分享。他對這項功能表示憂慮，因為它降低了系統的安全性 (「複雜性是安全性的敵人」)，也增加了開發第二個軟體實作的難度。中本聰[解釋](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) 整合這個他稱為腳本（Script）的機制背後的原因：
 
-> "Bitcoin的本質是，一旦0.1版發佈，核心設計在其餘下的生命週期中就定型了。(...)&nbsp;解決方案是腳本，它將問題一般化，因此交易方可以將他們的交易描述為節點網路評估的謂語。&nbsp;節點只需要在評估是否滿足寄件者條件的範圍內瞭解交易。"
-Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code/101/) Linux 開機自動啟動，專注於 API (他在 0.3.3 版的改進[功不可沒](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707))，並參與測試網路的部署 (他在 6 月 9 日[構想](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104))。由於 Martti Malmi 在新的全職工作上 [非常忙碌](https://mmalmi.github.io/Satoshi/#email-191)，他將與 Satoshi 私下討論 Exchange 的想法，逐漸成為 Exchange 的得力助手。
+> "Bitcoin 的本質是，一旦0.1版發佈，核心設計在其餘下的生命週期中就定型了。(...)&nbsp;由於這一點，我希望能設計它，使其能支持我能想到的所有可能的交易類型，解決方案是腳本，它將問題一般化，因此交易方可以將他們的交易描述為節點網路評估的謂語。&nbsp;節點只需要評估是否滿足發送者的條件。"
+Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code/101/) Linux 開機自動啟動，專注於 API (他在 0.3.3 版的改進[功不可沒](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707))，並參與測試網路的部署 (他在 6 月 9 日[構想](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104))。Martti Malmi 在新的工作上 [非常忙碌](https://mmalmi.github.io/Satoshi/#email-191)時，他也與中本聰私下討論想法，逐漸成為中本聰得力助手。
 
 ### 充滿基礎活動的春天
 
-2010 年春季發生了許多奠基性的事件。首先，在 4 月底，開發人員 Laszlo Hanyecz 開發了 GPU Mining，這是 Satoshi 在短期內反對的最佳化（儘管他承認長期而言這是不可避免的）。這項發展與 Satoshi 停止生產區塊不謀而合，可能是估計網路的 Hash 率已經足夠。之後，5 月 22 日，Laszlo Hanyecz 和 Jeremy Sturdivant 發表了著名的披薩 Exchange，這是第一次用比特幣購買實物。最後，在 6 月，Gavin Andresen 來到，他創造了 Bitcoin Faucet，並迅速參與軟體開發。所有這些 Elements 顯示出 Bitcoin 周邊經濟令人鼓舞的進展。
+2010 年春季發生了許多奠基性的事件。首先，在 4 月底，開發人員 Laszlo Hanyecz 開發了 GPU 挖礦，這是中本聰在短期內反對的最佳化（儘管他承認長期而言這是不可避免的）。這項發展與中本聰停止生產區塊不謀而合，可能是估計網路的 Hash 率已經足夠。之後，5 月 22 日，Laszlo Hanyecz 和 Jeremy Sturdivant 進行的著名披薩交易，這是第一次用比特幣購買實物。最後，在 6 月，Gavin Andresen 來到，他創造了 Bitcoin Faucet，並迅速參與軟體開發。所有這些事件顯示出 Bitcoin 鼓舞人心的進展。
 
-然而，到了六月底，網絡上的活動仍然相當平淡。新使用者寥寥無幾，而貨幣現象的火焰剛好沒有熄滅。6 月 30 日，在 Bitcoin-list 郵件列表上，Cypherpunk 的 James A. Donald（他似乎沒有跟進最新的進展，也不知道論壇的存在）[宣布](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=201006) 「Bitcoin （已經）死了」。儘管他錯了，但他的評論揭示了一個明顯的溝通缺失：知道這個項目的人太少了，在這方面需要更多的努力。Bitcoin 需要「用戶生態才有用」，而這個臨界質量還沒到。兩週後的一項活動將朝向這個方向邁進，我們將在下一章介紹 Address。(*原創："問題是 Bitcoin 要有用，就需要使用者的生態。）
+然而，到了六月底，網絡上的活動仍然相當平淡。新使用者寥寥無幾，但貨幣現象的火焰沒有熄滅。6 月 30 日，在 Bitcoin-list 郵件論壇上，密碼龐克的 James A. Donald（他似乎沒有跟進最新的進展，也不知道論壇的存在）[宣布](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=201006) 「Bitcoin （已經）死了」。儘管他錯了，但他的評論揭示了一個明顯的溝通缺失：知道這個項目的人太少了，在這方面需要更多的努力。Bitcoin 需要「用戶生態才有用」，而這個關鍵的群體尚未形成。兩週後的一個事件將推動這方面的前進，我們將在下一章介紹。(*原創："問題是 Bitcoin 要有用，就需要使用者的生態。）
 
 ## 偉大的 Slashdotting
 

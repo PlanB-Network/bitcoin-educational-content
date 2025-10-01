@@ -33,7 +33,7 @@ _Se conosci una guida più aggiornata con immagini e orientata ai principianti, 
 
 Puoi scaricare e installare Bisq facilmente da questo sito web (https://bisq.network/downloads) o da GitHub (https://github.com/bisq-network/bisq/releases/latest).
 
-È anche una buona idea verificare il file del programma di installazione per essere sicuri che non sia stato manomesso. Vedi i video qui per le istruzioni. Ulteriori dettagli sono presenti in questo articolo del wiki. (https://bisq.wiki/Downloading_and_installing)
+È anche una buona idea verificare il file di installazione per essere sicuri che non sia stato manomesso. Vedi i video qui per le istruzioni. Ulteriori dettagli sono presenti in questo articolo del wiki. (https://bisq.wiki/Downloading_and_installing)
 
 Se desideri compilare Bisq dal codice sorgente, ecco le istruzioni (https://github.com/bisq-network/bisq/blob/master/docs/build.md). Bisq è un software open-source gratuito/libero a cui puoi contribuire. (https://bisq.wiki/Contributor_checklist)
 
@@ -45,7 +45,7 @@ Se desideri compilare Bisq dal codice sorgente, ecco le istruzioni (https://gith
 
 ![Tour di Bisq](https://youtu.be/HDkzUl9wibc)
 
-Con Bisq, hai il totale controllo dei tuoi fondi e dei tuoi dati. Ciò significa che mantieni un'autonomia senza precedenti, ma significa anche che nessuno può aiutarti se perdi qualcosa di importante, quindi è fondamentale fare backup adeguati prima di utilizzare Bisq per il trading.
+Con Bisq, hai il pieno controllo dei tuoi fondi e dei tuoi dati. Questo ti garantisce una sovranità assoluta, ma significa anche che nessuno può aiutarti se perdi qualcosa di importante, quindi è fondamentale fare backup adeguati prima di utilizzare Bisq per il trading.
 
 Abbiamo anche preparato un breve tour dell'interfaccia di Bisq in modo da poterne trarre il massimo vantaggio.
 
@@ -60,8 +60,8 @@ Ulteriori dettagli sono presenti nel wiki: annotare le parole seed e fare il bac
 ![Crea un Account di Pagamento Altcoin su Bisq](https://youtu.be/33UTotkxw_0)
 
 ![Tutto sulle Limitazioni degli Account su Bisq (Solo Fiat)](https://youtu.be/TP5Zh6IJPVo)
-
-Per poter scambiare bitcoin su Bisq, devi impostare un modo per inviare o ricevere altri fondi. Bisq si occupa solo del lato bitcoin di uno scambio, mentre l'altro lato viene gestito tramite servizi di pagamento fiat (banche, vaglia postali, contanti) o portafogli di altcoin.
+ 
+Per poter scambiare bitcoin su Bisq, devi impostare un metodo per inviare o ricevere altri fondi. Bisq si occupa solo del lato bitcoin di uno scambio, mentre l'altro lato viene gestito tramite servizi di pagamento fiat (banche, vaglia postali, contanti) o portafogli di altcoin.
 
 Non sei sicuro di quale tipo di account di pagamento impostare? C'è una lista completa dei metodi di pagamento nel wiki (https://bisq.wiki/Payment_methods). Se stai scambiando fiat, assicurati di guardare il video sui limiti dell'account o leggere questo articolo nel wiki (https://bisq.wiki/Account_limits).
 

@@ -1,0 +1,9 @@
+question: Koliko je dužina, u bitovima, standardnog IPv4 Address?
+answer: 32-bit
+wrong_answers:
+  - 8 bita
+  - 128-bit
+  - 16 bita
+explanation: |
+  IPv4 Address je kodiran na 32 bita, podeljen u četiri bajta od po 8 bita.
+reviewed: false

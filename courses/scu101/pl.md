@@ -44,7 +44,7 @@ Théo; wkład
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 
-**Cel: Zaktualizuj swoje umiejętności w zakresie bezpieczeństwa !
+**Cel: Zaktualizuj swoje umiejętności w zakresie bezpieczeństwa!**
 
 
 Witamy wszystkich w tym programie edukacyjnym poświęconym bezpieczeństwu cyfrowemu. Szkolenie to zostało zaprojektowane tak, aby było dostępne dla każdego, więc nie jest wymagana wcześniejsza znajomość informatyki. Naszym głównym celem jest dostarczenie wiedzy i umiejętności niezbędnych do bezpieczniejszego i bardziej prywatnego poruszania się po cyfrowym świecie.
@@ -463,30 +463,24 @@ Dzięki menedżerowi haseł nie musisz już martwić się o zapominanie haseł l
 
 ![](assets/notext/18.webp)
 
-(Uwaga: Wybór między usługą zewnętrzną a usługą hostowaną samodzielnie zależy od poziomu komfortu technologicznego i priorytetu kontroli nad wygodą. Usługi firm trzecich są generalnie wygodniejsze dla większości ludzi, podczas gdy samodzielny hosting wymaga większej wiedzy technicznej, ale może zapewnić większą kontrolę i spokój ducha pod względem bezpieczeństwa)
+W przypadku rozwiązań samodzielnie hostowanych, takich jak KeePass, możliwe jest synchronizowanie bazy danych między kilkoma urządzeniami bez korzystania ze scentralizowanych usług stron trzecich. Narzędzia takie jak **Syncthing** umożliwiają szyfrowaną i zdecentralizowaną synchronizację bezpośrednio między urządzeniami. Takie podejście pozwala zachować kontrolę nad danymi i jednocześnie zapewnia ich dostępność na wszystkich urządzeniach.
 
+(Uwaga: Wybór między usługą zewnętrzną a usługą hostowaną samodzielnie zależy od poziomu komfortu technologicznego i priorytetu kontroli nad wygodą. Usługi firm trzecich są generalnie wygodniejsze dla większości ludzi, podczas gdy samodzielny hosting wymaga większej wiedzy technicznej, ale może zapewnić większą kontrolę i spokój ducha pod względem bezpieczeństwa)
 
 ### Co składa się na dobre hasło:
 
-
 Dobre hasło to zazwyczaj:
-
-
 
 - Długi: co najmniej 12 znaków.
 - Złożony: mieszanka wielkich i małych liter, cyfr i symboli.
 - Unikalne: nie używaj ponownie tego samego hasła dla różnych kont.
 - Nie opiera się na danych osobowych: unikaj dat urodzenia, nazwisk itp.
 
-
 Aby zapewnić bezpieczeństwo swojego konta, kluczowe jest tworzenie silnych i bezpiecznych haseł. Długość hasła nie wystarczy, aby zapewnić jego bezpieczeństwo. Znaki muszą być całkowicie losowe, aby oprzeć się atakom brute force. Niezależność zdarzeń jest również ważna, aby uniknąć najbardziej prawdopodobnych kombinacji. Popularne hasła, takie jak "password", są łatwe do złamania.
-
 
 Aby utworzyć silne hasło, zaleca się użycie dużej liczby losowych znaków, bez używania przewidywalnych słów lub wzorów. Istotne jest również uwzględnienie cyfr i znaków specjalnych. Należy jednak pamiętać, że niektóre witryny mogą ograniczać użycie niektórych znaków specjalnych. Hasła, które nie są generowane losowo, są łatwe do odgadnięcia. Wariacje lub dodatki do haseł nie są bezpieczne. Witryny nie mogą zagwarantować bezpieczeństwa haseł wybranych przez użytkowników.
 
-
 Losowo generowane hasła oferują wyższy poziom bezpieczeństwa, choć mogą być trudniejsze do zapamiętania. Menedżery haseł mogą generate bezpieczniejsze losowe hasła. Korzystając z menedżera haseł, nie trzeba zapamiętywać wszystkich haseł. Ważne jest, aby stopniowo zastępować stare hasła tymi wygenerowanymi przez menedżera, ponieważ są one silniejsze i dłuższe. Upewnij się, że hasło główne menedżera haseł jest również silne i bezpieczne.
-
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -494,19 +488,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## Uwierzytelnianie dwuskładnikowe
 
-
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
-
 
 ### Dlaczego warto wdrożyć 2FA
 
-
 Uwierzytelnianie dwuskładnikowe (2FA) to dodatkowy Layer zabezpieczeń stosowany w celu zapewnienia, że osoby próbujące uzyskać dostęp do konta online są tymi, za kogo się podają. Zamiast wprowadzania nazwy użytkownika i hasła, 2FA wymaga drugiej formy weryfikacji.
 
-
 Tym drugim krokiem może być:
-
-
 
 - Tymczasowy kod wysyłany za pośrednictwem wiadomości SMS.
 - Kod wygenerowany przez aplikację taką jak Google Authenticator lub Authy.

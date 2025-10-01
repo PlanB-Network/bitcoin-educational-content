@@ -1,0 +1,9 @@
+question: Ni gute MAC yemerera Alice kugenzura ko ubutumwa buva kuri Bob vy’ukuri?
+answer: Mu kugenzura ko ikimenyetso cakozwe gihuye n’ico Bob yohereje.
+wrong_answers:
+  - Mu gukuraho ubutumwa kugira ngo urabe nimba bushobora gusomwa .
+  - Mu kugereranya ubunini bw'ubutumwa n'ubw'ikimenyetso
+  - Mu kugenzura IP y’uwarungitse Address.
+explanation: |
+  Alice ikoresha urufunguzo rw'ibanga rusangi kuri generate ikimenyetso kiva ku butumwa bwakiriwe. Iyo iyo tag ihuye n’iyo Bob yohereje, aramenya ko ubwo butumwa ari ubw’ukuri kandi ko ataco buhinduye.
+reviewed: false

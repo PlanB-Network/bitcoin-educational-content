@@ -1,11 +1,9 @@
-question: Kdo byl první osobou, která se připojila k síti Bitcoin po Satoshi Nakamotovi?
-answer: Hal Finney.
+question: Jaká byla online dostupnost Bitcoinu od roku 2009?
+answer: 99,988 %.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Hal Finney byl první osobou, která se připojila k síti Bitcoin
-  po samotném Satoshi Nakamotovi. Dokonce tweetoval Running
-  Bitcoin, aby označil tuto příležitost.
+  Online dostupnost Bitcoinu je od roku 2009 99,988 %.
 reviewed: true

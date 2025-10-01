@@ -1,0 +1,9 @@
+question: Ni algoriti au hati gani inayosimamia uteuzi kati ya IPv4 na IPv6 wakati jina lina aina zote mbili za Address?
+answer: RFC 6724
+wrong_answers:
+  - RFC 1918
+  - RFC 4861
+  - RFC 1035
+explanation: |
+  RFC 6724 inafafanua algoriti inayotumika kuamua ikiwa itatumia IPv4 au IPv6 Address wakati zote zinapatikana kwa jina moja la seva pangishi.
+reviewed: false

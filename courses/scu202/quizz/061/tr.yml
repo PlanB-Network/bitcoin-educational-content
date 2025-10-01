@@ -1,0 +1,9 @@
+question: Hangi tarayıcı reklam ve izleyici engelleme, parmak izi koruması sunar ve Chromium tabanlıdır?
+answer: Cesur
+wrong_answers:
+  - Firefox
+  - Tor
+  - Krom
+explanation: |
+  Brave, varsayılan olarak Chromium tabanlı reklam engelleme, izleyici ve gelişmiş parmak izi koruması özelliklerine sahiptir.
+reviewed: false

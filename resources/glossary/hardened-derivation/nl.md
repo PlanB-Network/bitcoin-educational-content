@@ -1,0 +1,5 @@
+---
+term: VERHARDE AFLEIDING
+---
+
+Het proces van het genereren van kindsleutels in HD wallets. Geharde afleiding gebruikt de privésleutel van de ouder als invoer voor de `HMAC-SHA512` functie, waardoor het onmogelijk is om generate child public keys te maken van de parent public key en parent chain code. Het proces bestaat uit het aaneenschakelen van de privésleutel van de ouder en een index groter dan of gelijk aan $2^{31}$, gevolgd door de toepassing van `HMAC-SHA512` met de chain code van de ouder. Het resultaat wordt in twee delen gesplitst: de eerste 256 bits worden toegevoegd aan de privésleutel van de ouder om de privésleutel van het kind te verkrijgen, terwijl de resterende 256 bits de chain code van het kind vormen. Deze methode zorgt ervoor dat zelfs als een uitgebreide publieke sleutel gecompromitteerd is, deze niet gebruikt kan worden om publieke kindsleutels af te leiden. In standaardafleiding wordt geharde afleiding gebruikt op alle afleidingsniveaus tot aan de accountdiepte. In derivatiepadnotaties wordt een verharde derivatie aangeduid met een apostrof `'` of, wat zeldzamer is, met een `h`.

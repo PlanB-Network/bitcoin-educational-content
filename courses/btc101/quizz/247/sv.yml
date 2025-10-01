@@ -1,8 +1,11 @@
-question: Vilken är en av de viktigaste frågorna som ställs om finanssektorns framtid?
-answer: Vem ska inneha, auktorisera och spåra de pengar vi använder?
+question: Vad är ett praktiskt sätt att få Bitcoins?
+answer: Köpa dem via reglerade eller oreglerade plattformar.
 wrong_answers:
-  - Hur kan vi eliminera pengar helt och hållet?
-  - Hur kan vi se till att alla har lika mycket pengar?
-  - Hur kan vi göra pengar obsoleta?
-explanation: >-
+  - Mining dem med hjälp av en laptop.
+  - Att hitta dem i den fysiska världen.
+  - Skapar dem med hjälp av en speciell programvara.
+explanation: |
+  Texten nämner att användare kan få Bitcoins genom att
+  acceptera dem för handel eller genom att köpa dem via
+  reglerade eller oreglerade plattformar.
 reviewed: true

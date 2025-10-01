@@ -1,0 +1,9 @@
+question: Was ist die Hauptaufgabe des TCP-Protokolls im TCP/IP-Modell?
+answer: Sicherstellung einer zuverlässigen und ordnungsgemäßen Datenübertragung
+wrong_answers:
+  - Verschlüsselung der Netzwerkkommunikation
+  - IP-Adressen den Rechnern zuweisen
+  - Fragmentierung von Datenpaketen auf der physischen Ebene
+explanation: |
+  TCP sorgt für eine zuverlässige Datenübertragung, indem es die Integrität prüft, die Ordnung aufrechterhält und die Wiederherstellung im Falle eines Verlustes übernimmt.
+reviewed: false

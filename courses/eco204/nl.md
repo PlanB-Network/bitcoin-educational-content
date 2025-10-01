@@ -39,17 +39,17 @@ Welkom bij de cursus ECO204!
 Het doel van deze cursus is om je te helpen de onderliggende oorzaken, mechanismen en gevolgen van hyperinflatie binnen de context van een fiat monetair systeem te begrijpen. Aan de hand van concrete voorbeelden en historische analyse leer je terugkerende patronen herkennen die voorafgaan aan perioden van hyperinflatie en kun je actiemiddelen identificeren om jezelf te beschermen.
 
 
-**Deel 2: Wat is inflatie?
+**Deel 2: Wat is inflatie?**
 
 Voordat we in de kern van het onderwerp duiken, gaan we eerst terug naar de basis: wat is inflatie? In dit hoofdstuk bespreken we de monetaire oorsprong, de verschillende soorten inflatie en hoe ze passen in een bredere economische dynamiek. Dit is een essentiële stap om te begrijpen hoe gewone inflatie kan uitgroeien tot hyperinflatie.
 
 
-**Deel 3: Wat is hyperinflatie?
+**Deel 3: Wat is hyperinflatie?**
 
 In dit hoofdstuk bestudeer je precieze definities van hyperinflatie en verschillende grote historische episodes, waaronder Weimar Duitsland en Zimbabwe. We analyseren hun overeenkomsten, verschillen en hedendaagse parallellen. Je zult ook minder bekende gevallen ontdekken, zoals opeenvolgende redenominaties in Latijns-Amerika, en exit-strategieën die in bepaalde landen zijn waargenomen.
 
 
-**Deel 4: Hoe zijn we hier gekomen?
+**Deel 4: Hoe zijn we hier gekomen?**
 
 Dit deel is gericht op het begrijpen van de structurele mechanismen die hyperinflatie mogelijk maken, met name door de ontwikkeling van de monetaire "tweede Layer" en de rol van centrale banken. Er worden aanvullende bronnen en leessuggesties gegeven voor verdere verkenning.
 
@@ -83,7 +83,7 @@ Inflatie is een concept dat vaak verkeerd begrepen wordt omdat er meerdere defin
 - Definitie van Larousse: Inflatie is een fenomeen dat gekenmerkt wordt door een algemene en voortdurende stijging van het prijsniveau. Hier is het woord "veralgemeend" cruciaal.
 
 
-![image](assets/chapitre-2.1/4.webp)
+![image](assets/fr/001.webp)
 
 
 In het licht van deze definities is het essentieel om te begrijpen dat inflatie voor Robert vooral betrekking heeft op de toename van het geld Supply. Larousse richt zich daarentegen op de gevolgen van deze toename, namelijk de algemene stijging van de prijzen. Larousse richt zich daarentegen op de gevolgen van deze expansie, namelijk de algemene prijsstijging.
@@ -115,7 +115,7 @@ In traditionele monetaire systemen werd de toename van het geld Supply bereikt d
 Een andere methode was het verminderen van de hoeveelheid edelmetaal in munteenheden die gebaseerd waren op metalen zoals zilver of goud. Een treffend voorbeeld is te vinden in het Romeinse Rijk, waar de denarius, die aanvankelijk bijna volledig uit zilver bestond, zijn zilvergehalte na verloop van tijd drastisch zag verminderen. Dit kwam neer op een vorm van inflatie, maar niet noodzakelijkerwijs hyperinflatie.
 
 
-![image](assets/chapitre-2.1/1.webp)
+![image](assets/fr/002.webp)
 
 
 Het is cruciaal om te benadrukken dat hyperinflatie voornamelijk wordt waargenomen bij fiatvaluta's die zijn losgekoppeld van hun onderliggende activa, zoals edelmetalen. In het verleden, toen een munt gebaseerd was op dergelijke activa, waren er periodes van inflatie (bijvoorbeeld door devaluatie van de metaalinhoud), maar deze periodes bereikten nooit de extreme niveaus van hyperinflatie. In de volgende paragrafen zullen we de perioden van monetaire devaluatie en de implicaties van deze verschillende monetaire systemen op de inflatie in detail bestuderen.
@@ -132,7 +132,7 @@ Door de geschiedenis heen hebben verschillende beschavingen perioden van geldont
 
 De Peloponnesische Oorlog, een conflict tussen Athene en Sparta, en de Tweede Punische Oorlog, tussen de Romeinse Republiek en Carthago, zijn de vroegste voorbeelden van muntdevaluatie die in de archieven zijn gevonden. Om deze oorlogen te financieren devalueerden deze beschavingen hun munten door het zilvergehalte te verlagen en andere metalen toe te voegen, terwijl het aantal geproduceerde munten toenam.
 
-![image](assets/chapitre-2.1/8.webp)
+![image](assets/fr/003.webp)
 
 
 Gravure met de massamoord op de Atheners aan de oevers van de Assinaros.
@@ -147,7 +147,7 @@ Na het tijdperk van de Romeinse Republiek, tijdens het Keizerrijk, was er in de 
 Hoewel deze periodes een aanzienlijke inflatie kenden, bereikten ze niet het niveau van hyperinflatie dat we in sommige moderne situaties kunnen waarnemen. De reden hiervoor is dat, ook al was de munteenheid gedevalueerd, het nog steeds gebaseerd was op edele metalen. Deze solide basis bood enige bescherming tegen extreme inflatieniveaus. In de volgende paragrafen gaan we dieper in op de aard en gevolgen van hyperinflatie.
 
 
-![image](assets/chapitre-2.1/2.webp)
+![image](assets/fr/004.webp)
 
 
 
@@ -164,7 +164,7 @@ Met de geldontwaarding verscheen er een nieuwe munt, de Antoninianus. Deze munt 
 Als je de twee munten naast elkaar vergelijkt, valt het verschil op. De denarius uit 160 na Christus heeft een duidelijk zilveren uiterlijk, terwijl de Antoninianus uit de late 3e eeuw na Christus veel doffer is, wat duidt op een aanzienlijke daling van het zilvergehalte. Deze visuele vergelijking geeft een duidelijke illustratie van de geldontwaarding die het oude Rome in een paar eeuwen onderging.
 
 
-![image](assets/chapitre-2.1/3.webp)
+![image](assets/fr/005.webp)
 
 
 Om deze demonstratie compleet te maken, zou een grafiek die de devaluatie van deze munten in de loop der tijd illustreert ideaal zijn. Hoewel het moeilijk is om dit via dit platform te visualiseren, kun je je een grafiek voorstellen die de waarde van de denarius laat zien en vervolgens de daling tegen het einde van de 2e eeuw, vervangen door de Antoninianus die verondersteld werd twee denarii waard te zijn, maar met een veel lager zilvergehalte. Deze artefacten zijn stille getuigen van de economische schommelingen van vroegere beschavingen.
@@ -173,7 +173,7 @@ Om deze demonstratie compleet te maken, zou een grafiek die de devaluatie van de
 #### 3. De Spaanse Maravedi: Getuige van gerichte devaluatie
 
 
-![image](assets/chapitre-2.1/5.webp)
+![image](assets/fr/006.webp)
 
 
 De Maravedi neemt als koperen munt een speciale plaats in in de geschiedenis van de Spaanse valuta. Zoals eerder vermeld was de Spaanse dollar oorspronkelijk de internationale standaard, een essentiële reservevaluta voor Spanje. Geconfronteerd met bepaalde economische uitdagingen moest Spanje echter zijn toevlucht nemen tot slimme monetaire strategieën.
@@ -193,7 +193,7 @@ Deze strategie stelde de staat in staat om een munteenheid effectief te devaluer
 Het geval van de Maravedis illustreert hoe een staat selectief een lokale munt kan devalueren om aan zijn interne economische behoeften te voldoen, terwijl de waarde van een reservemunt op het wereldtoneel behouden blijft. Het is een treffend voorbeeld van de complexiteit en finesse van monetair beleid in de geschiedenis.
 
 
-![image](assets/chapitre-2.1/7.webp)
+![image](assets/fr/007.webp)
 
 
 Meer over wat? -> [Link](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
@@ -211,7 +211,7 @@ Tussen de 15e en 17e eeuw was Europa getuige van een opmerkelijk economisch feno
 In de 18e eeuw werd de Franse economische geschiedenis gekenmerkt door twee belangrijke gebeurtenissen op het gebied van valuta. Ten eerste overtuigde John Law, een Schotse econoom en financier, de Franse regering ervan om een monetair systeem op basis van papiergeld in te voeren. Hoewel dit initiatief aanvankelijk werd gezien als een innovatieve oplossing voor de financiële problemen van het land, leidde het al snel tot een ongebreidelde inflatie. Kort daarna, tijdens de onrust van de Franse Revolutie, introduceerde de regering "assignats".
 
 
-![image](assets/chapitre-2.1/9.webp)
+![image](assets/fr/008.webp)
 
 
 Assignats van 1793
@@ -233,7 +233,7 @@ In de Verenigde Staten vond aan het begin van de jaren dertig een grote verschui
 - Het 20 dollarbiljet van 1928
 
 
-![image](assets/chapitre-2.1/11.webp)
+![image](assets/fr/009.webp)
 
 
 In 1928 stond er op een biljet van $20 in de Verenigde Staten: "Inwisselbaar in goud op verzoek" Dit betekent dat elk biljet letterlijk in goud kon worden omgezet. Concreet kwam een biljet van $20,67 overeen met één ounce goud.
@@ -246,13 +246,13 @@ In 1928 stond er op een biljet van $20 in de Verenigde Staten: "Inwisselbaar in 
 In 1933 vond er een grote omwenteling plaats met de uitvaardiging van Executive Order 6102. Dit decreet maakte het illegaal voor burgers om goud te bezitten, in de vorm van baren, munten of certificaten.
 
 
-![image](assets/chapitre-2.1/14.webp)
+![image](assets/fr/010.webp)
 
 
 Het gouden certificaat is een goed voorbeeld. Er stond op: "In gouden munt, betaalbaar aan de toonder op verzoek" Het bezit van zo'n certificaat werd illegaal en bleef dat tot 1964.
 
 
-![image](assets/chapitre-2.1/12.webp)
+![image](assets/fr/011.webp)
 
 
 
@@ -262,7 +262,7 @@ Het gouden certificaat is een goed voorbeeld. Er stond op: "In gouden munt, beta
 Na de inbeslagname van het goud in 1934 werd een nieuwe serie bankbiljetten in omloop gebracht.
 
 
-![image](assets/chapitre-2.1/13.webp)
+![image](assets/fr/012.webp)
 
 De vermelding dat ze in goud konden worden omgezet is verwijderd en vervangen door "Dit biljet is een wettig betaalmiddel voor alle schulden" (Ce billet est une monnaie légale pour toutes dettes).
 
@@ -289,7 +289,7 @@ Vroeger, tijdens de Renaissance, was de Italiaanse florijn, uitgegeven door Flor
 In dezelfde geest handhaafden Spanje en Nederland, als houders van de wereldreservemunt vanwege hun bloeiende internationale handel, de integriteit van hun munt om het vertrouwen en de status quo in internationale uitwisselingen te behouden. Nederland was zelfs getuige van de oprichting van de eerste centrale bank, een cruciale mijlpaal in de wereldwijde monetaire evolutie.
 
 
-![image](assets/chapitre-2.1/15.webp)
+![image](assets/fr/013.webp)
 
 
 De situatie veranderde echter met de opkomst van de Verenigde Staten als dominante economische macht. Zij kozen ervoor om hun reservemunt te devalueren en zo de inflatie in hun voordeel uit te buiten. Deze beslissing wordt vaak toegeschreven aan de veranderde dynamiek, waarbij de keuze van de reservemunt niet meer zo vrij was als voorheen. Door de Amerikaanse hegemonie werd de dollar de wereldreservemunt, waardoor de waarde ervan gemanipuleerd kon worden. Deze verschuiving onthult de potentiële invloed van monetair beleid op de internationale handel in een geglobaliseerde economie en markeert een belangrijke overgang in het beheer van wereldwijde reservemunten.
@@ -300,13 +300,13 @@ De situatie veranderde echter met de opkomst van de Verenigde Staten als dominan
 
 De Zwitserse dinar illustreert een ander fascinerend aspect van monetaire devaluatie, dit keer verankerd in de Iraakse context van voor de Golfoorlog. Deze munt, genoemd naar de opmerkelijke kwaliteit van de bankbiljetten, werd uitgegeven door de Centrale Bank van Irak en genoot een reputatie van stabiliteit in de regio van het Midden-Oosten. Dit vertrouwen was vooral te danken aan de kwaliteit van het drukken van de bankbiljetten in Engeland, wat een zekere robuustheid tegen devaluatie impliceerde.
 
-![image](assets/chapitre-2.1/16.webp)
+![image](assets/fr/014.webp)
 
 
 De Golfoorlogen markeerden echter een keerpunt in de geschiedenis van de Zwitserse dinar. Irak, dat niet langer kon vertrouwen op zijn Engelse leverancier voor het drukken van de bankbiljetten, wendde zich tot China. Deze overgang resulteerde in een duidelijk verschil in de kwaliteit van de bankbiljetten, waarbij de Chinese versie als inferieur werd gezien. Deze perceptie was niet ongegrond; de Chinese bankbiljetten waren gemakkelijker te vervalsen en vatbaar voor overdrukken door de overheid, waardoor hun waarde in gevaar kwam.
 
 
-![image](assets/chapitre-2.1/17.webp)
+![image](assets/fr/015.webp)
 
 
 In de Iraakse economie na de Golfoorlog deed zich een opvallend fenomeen voor: het dubbele prijssysteem. Kooplieden hanteerden verschillende prijzen afhankelijk van het type bankbiljet dat werd gebruikt om te betalen, waarbij de voorkeur werd gegeven aan de originele Zwitserse dinar boven het Chinese bankbiljet. Dit systeem weerspiegelde het behouden vertrouwen in bankbiljetten van hogere kwaliteit, die minder gevoelig waren voor devaluatie, zelfs in een context waarin de waarde voornamelijk werd opgelegd door de staat. Deze episode toont het belang aan van intrinsieke kenmerken van valuta en hoe, zelfs in een fiatvalutaregime, de waargenomen kwaliteit van een valuta de relatieve waarde ervan kan beïnvloeden en daarmee het vertrouwen van economische actoren.
@@ -318,7 +318,7 @@ In de Iraakse economie na de Golfoorlog deed zich een opvallend fenomeen voor: h
 In de gangbare perceptie wordt valuta vaak geassocieerd met de creatie van een staat, waarbij de uitgifte en de waarde ervan worden geregeld door de staat. Dit concept heeft zijn wortels in oude beschavingen zoals Rome, waar munten werden gestandaardiseerd en gestempeld door het Rijk, waardoor ze een officiële waarde kregen. Bij nader onderzoek blijkt echter dat de intrinsieke waarde van munten vooral werd bepaald door het edelmetaal dat erin zat.
 
 
-![image](assets/chapitre-2.1/18.webp)
+![image](assets/fr/016.webp)
 
 Een voorbeeld hiervan wordt geïllustreerd aan de hand van een muntgewicht dat overeenkomt met acht Spaanse reales, of één Spaanse dollar. Dit gewicht, gemarkeerd met een Romeins cijfer dat de waarde aangaf, werd door geldwisselaars gebruikt om de waarde van munten te bepalen op basis van hun gewicht in plaats van alleen hun stempel. Door de munten te wegen, konden de wisselaars bepalen of ze waren veranderd of beschadigd, wat hun waarde had kunnen verminderen. Deze praktijk laat zien dat, hoewel het gestandaardiseerde stempel van de staat een bepaalde nominale waarde aan het geld gaf, de echte waarde in het gewicht van het edelmetaal zat.
 
@@ -344,7 +344,7 @@ Concluderend opent dit onderzoek naar monetaire devaluatie de deur naar een diep
 In dit hoofdstuk gaan we in op de verschillende dimensies van inflatie, een fenomeen dat vaak verkeerd wordt begrepen. Hoewel inflatie in de media en in alledaagse discussies vaak wordt gezien als een multifactorieel verschijnsel, is het cruciaal om niet te vergeten dat het in wezen een monetair verschijnsel is.
 
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 
 Hier volgt een opsplitsing van het onderwerp in een aantal belangrijke punten:
@@ -407,7 +407,7 @@ De eerste verklaring ligt in de manier waarop inflatie wordt gemeten. De consume
 Bovendien omvat de berekening van de CPI bepaalde methodologieën die werkelijke prijsstijgingen kunnen compenseren of maskeren. Zo kunnen bijvoorbeeld kwalitatieve verbeteringen van producten worden gebruikt om de index aan te passen. Als de prijs van een product stijgt, maar de kwaliteit of eigenschappen ervan ook verbeteren, kan de CPI ervan uitgaan dat de werkelijke waarde voor de consument niet is veranderd en dus geen inflatie weergeeft. Een illustratief voorbeeld is een geval waarin, ondanks een stijging van de prijzen van rundvlees en computers als gevolg van een monetaire injectie, de verbetering van de computerprestaties wordt gebruikt om deze stijging te compenseren. Als een computer twee keer zo veel kost, maar vier keer zo krachtig is, kan de ICP dit interpreteren als een prijsdaling en zo de stijging van de rundvleesprijs maskeren.
 
 
-![image](assets/chapitre-2.2/2.webp)
+![image](assets/fr/019.webp)
 
 
 Deze nuances in het meten van de inflatie aan de hand van de CPI benadrukken de complexiteit van de relatie tussen monetaire druk en inflatie. Ze suggereren ook dat de werkelijke inflatie hoger kan zijn dan gerapporteerd als alle prijsstijgingen, vooral in belangrijke sectoren zoals onroerend goed, uitgebreider in aanmerking zouden worden genomen. Deze analyse benadrukt hoe belangrijk het is om de onderliggende mechanismen van inflatie en de beperkingen van de conventionele indexen die worden gebruikt om de inflatie te meten, te begrijpen om de economische impact van monetair beleid beter te begrijpen.
@@ -419,7 +419,7 @@ Deze nuances in het meten van de inflatie aan de hand van de CPI benadrukken de 
 De Moderne Monetaire Theorie (MMT) biedt een ander perspectief op geldschepping en inflatie. Volgens MMT is geld in de eerste plaats afkomstig van de overheid, die aanzienlijke bedragen kan drukken om haar behoeften te financieren zonder inflatie te veroorzaken, zolang de sectoren waarop deze middelen zijn gericht niet verzadigd zijn. Deze benadering wijkt af van traditionele monetaire theorieën en benadrukt het belang van sectorale absorptiecapaciteiten in de inflatiedynamiek.
 
 
-![image](assets/chapitre-2.2/4.webp)
+![image](assets/fr/020.webp)
 
 
 Een illustratief voorbeeld van MMT is het Amerikaanse militair-industriële complex. Volgens MMT kunnen honderden miljarden dollars aan deze sector worden toegewezen zonder inflatie te veroorzaken, dankzij de absorptiecapaciteit. Als er daarentegen veel geld wordt geïnjecteerd in de aanleg van wegen in de Verenigde Staten, waar het aantal bedrijven en arbeidskrachten beperkt is, zou er inflatie kunnen ontstaan door de schaarste aan grondstoffen en de hogere kosten die leveranciers vragen.
@@ -436,7 +436,7 @@ De analyse van Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) benadrukt
 Een derde voorbeeld van waarom monetair printen geen inflatie zou veroorzaken, is dat de relatie tussen monetair printen en inflatie wordt gemoduleerd door de manier waarop nieuw gecreëerd geld in de economie wordt geïntroduceerd. Als dit geld op de balansen van particuliere banken blijft staan zonder uitgeleend te worden aan economische actoren, zal het geen directe invloed hebben op de reële economie en daarom niet leiden tot inflatie.
 
 
-![image](assets/chapitre-2.2/5.webp)
+![image](assets/fr/021.webp)
 
 
 Het drukken van geld kan worden gezien als een zwaard van Damocles dat boven de economie hangt. Het gecreëerde geld kan gedurende een bepaalde tijd latent blijven zonder enig zichtbaar inflatoir effect, zolang het niet in de economie wordt geïnjecteerd via bankleningen of andere mechanismen. Wanneer dit latente geld echter uiteindelijk in omloop wordt gebracht, kunnen er inflatoire effecten optreden. Dit is wat is waargenomen in de jaren 2020, waar eerder gecreëerd geld zijn weg heeft gevonden naar de economie, wat heeft geleid tot inflatie.
@@ -450,7 +450,7 @@ Dit scenario benadrukt het belang van monetaire transmissiemechanismen bij het b
 Het voorbeeld van de Weimarrepubliek illustreert een ander cruciaal aspect van de relatie tussen het drukken van geld en inflatie: de rol van verwachtingen en het gedrag van economische agenten. Toen de Centrale Bank van de Weimarrepubliek begon met het drukken van een grote hoeveelheid geld, leidde economische onzekerheid ertoe dat mensen geld gingen oppotten, d.w.z. opslaan in plaats van uitgeven. Deze reactie vertraagde tijdelijk de inflatoire effecten van het drukken van geld.
 
 
-![image](assets/chapitre-2.2/6.webp)
+![image](assets/fr/022.webp)
 
 
 Toen de economische situatie echter licht begon te verbeteren, herstelde het vertrouwen geleidelijk. Individuen haalden toen hun spaargeld uit hun schuilplaatsen en begonnen massaal geld uit te geven in de economie. Deze plotselinge gedragsverandering, gecombineerd met een toch al hoge Supply, leidde tot een explosie van de vraag. Met meer geld in omloop en een grotere vraag begonnen de prijzen snel te stijgen, wat leidde tot een merkbare inflatie.
@@ -483,7 +483,7 @@ Dit voorbeeld benadrukt het belang van timing en agentengedrag bij het ontstaan 
 Deze voorbeelden kunnen gebruikt worden in discussies om uit te leggen waarom inflatie niet altijd een onmiddellijk gevolg is van het drukken van geld, en hoe economische contexten en het gedrag van agenten inflatie beïnvloeden.
 
 
-![image](assets/chapitre-2.2/0.5.webp)
+![image](assets/fr/023.webp)
 
 
 Omdat, zoals deze [thread] (https://twitter.com/saifedean/status/1673639779433590786) laat zien: Inflatie is alles behalve de schuld van centrale banken.
@@ -493,48 +493,48 @@ Omdat, zoals deze [thread] (https://twitter.com/saifedean/status/167363977943359
 - Economen wijten inflatie aan klimaatverandering
 
 
-![image](assets/chapitre-2.2/8.webp)
+![image](assets/fr/024.webp)
 
 
 
 - Voorbeeld van Zweden die Beyoncé de schuld geeft van de inflatie in een bepaalde maand.
 
 
-![image](assets/chapitre-2.2/0.webp)
+![image](assets/fr/017.webp)
 
 
 
 - Centrale bank in Polen schrijft inflatie toe aan Russische agressie in Oekraïne en pandemie
 
 
-![image](assets/chapitre-2.2/7.webp)
+![image](assets/fr/025.webp)
 
 
 
 - Brexit verantwoordelijk voor inflatie Verenigd Koninkrijk.
 
 
-![image](assets/chapitre-2.2/9.webp)
+![image](assets/fr/026.webp)
 
 
 
 - De release van het Zelda-spel gaat gepaard met een inflatieschok.
 
 
-![image](assets/chapitre-2.2/12.webp)
+![image](assets/fr/027.webp)
 
 
 
 - Taylor Swift zou inflatie veroorzaken.
 
 
-![image](assets/chapitre-2.2/15.webp)
+![image](assets/fr/028.webp)
 
 
 Hoe zouden Beyoncé of Taylor Swift een wijdverspreide prijsstijging kunnen verklaren? Zie je, het slaat nergens op. Kortom:
 
 
-![image](assets/chapitre-2.2/14.webp)
+![image](assets/fr/029.webp)
 
 
 ### Verkenning van soorten inflatie
@@ -553,7 +553,7 @@ Het is cruciaal om het onderscheid tussen verschillende soorten inflatie te begr
 - Hyperinflatie: Hyperinflatie is een extreem verschijnsel waarbij de inflatie meer dan 50% per maand bedraagt, wat door de exponentiële aard van inflatie gelijk staat aan een jaarlijkse inflatie van meer dan 13.000%. Dit inflatieniveau destabiliseert de economie ernstig, waardoor de munt bijna waardeloos wordt en het vertrouwen in het monetaire systeem verloren gaat.
 
 
-![image](assets/chapitre-2.2/17.webp)
+![image](assets/fr/030.webp)
 
 
 Bij het onderzoeken van soorten inflatie kom je in onderwijsmateriaal vaak termen tegen als "Demand Pull" en "Cost Push". Hoewel deze concepten geldig zijn, verklaren ze eerder prijsstijgingen dan inflatie als een monetair fenomeen. Hier volgt een meer diepgaande analyse:
@@ -579,7 +579,7 @@ Deze traditionele verklaringen associëren prijsstijgingen vaak met inflatie, wa
 Bernholz stelt een vereenvoudigde maar nauwkeurige classificatie van inflatie in drie categorieën voor, die een beter begrip van dit complexe monetaire fenomeen mogelijk maakt:
 
 
-![image](assets/chapitre-2.2/16.webp)
+![image](assets/fr/031.webp)
 
 
 
@@ -664,13 +664,13 @@ Ter illustratie: als de inflatie in juli daalt tot 40% en pas in juli van het vo
 Deze definitie is overgenomen in de Hanke-Krus tabel, die 56 perioden van hyperinflatie documenteert. De tabel omvat echter niet alle perioden, zoals die in Venezuela in 2016, waardoor het totaal op 57 komt.
 
 
-![image](assets/chapitre-3.1/1.webp)
+![image](assets/fr/032.webp)
 
 
 zoom
 
 
-![image](assets/chapitre-3.1/0.webp)
+![image](assets/fr/033.webp)
 
 Opgemerkt moet worden dat deze definitie, hoewel nauwkeurig, mogelijk bepaalde perioden van hyperinflatie uitsluit vanwege de strikte drempel van 50%. Het is mogelijk om deze definitie uit te breiden met andere perioden die, hoewel ze niet strikt voldoen aan de criteria van Cagan, toch perioden van extreem hoge inflatie vertegenwoordigen. Deze observatie opent de deur naar een breder onderzoek naar hyperinflatieverschijnselen, waardoor een genuanceerder begrip van de oorzaken en gevolgen mogelijk wordt. In volgende discussies zullen we overwegen om deze definitie te herzien en perioden van hyperinflatie te onderzoeken die niet onder de strikte criteria van Cagan vallen.
 
@@ -681,7 +681,7 @@ Opgemerkt moet worden dat deze definitie, hoewel nauwkeurig, mogelijk bepaalde p
 Philip Cagan heeft misschien een arbitraire mijlpaal gezet met de drempel van 50% maandelijkse inflatie bij het definiëren van hyperinflatie. Hij geeft zelf toe dat deze definitie arbitrair is en diende zijn analyse voornamelijk op basis van zeven perioden van hyperinflatie. Onderzoek van Cagans gegevens laat zien dat de drie periodes van hyperinflatie met de laagste maandelijkse inflatie rond de 47%, 46% en 57% lagen. Het lijkt erop dat de drempel van 50% werd gekozen om deze gevallen in zijn studie op te nemen.
 
 
-![image](assets/chapitre-3.1/4.webp)
+![image](assets/fr/034.webp)
 
 
 
@@ -704,7 +704,7 @@ Andere economen, zoals Bernholz, de auteur van Monetary Regime and Inflation, he
 Bernholz merkt op dat er episodes van hoge inflatie zijn met dezelfde kwalitatieve kenmerken als episodes van hyperinflatie, zonder dat de drempel van 50% wordt bereikt.
 
 
-![image](assets/chapitre-3.1/3.webp)
+![image](assets/fr/035.webp)
 
 
 Deze reflectie leidt ertoe dat we vraagtekens zetten bij de starheid van de traditionele definitie van hyperinflatie en benadrukt de noodzaak om deze drempel wellicht te herzien door meer episodes en historische gegevens op te nemen. De definitie van hyperinflatie moet wellicht flexibel zijn om verschillende verschijningsvormen van extreme inflatie in verschillende economische en historische contexten te kunnen omvatten.
@@ -715,20 +715,20 @@ Deze reflectie leidt ertoe dat we vraagtekens zetten bij de starheid van de trad
 
 Dus, hoeveel gevallen van hyperinflatie zijn er in totaal?
 
-Gangbare definities van hyperinflatie, zoals die van Kagan die uitgaat van een maandelijkse inflatie van 50%, kunnen soms verwarrend of te simpel zijn. Twee landen met een jaarlijkse inflatie van respectievelijk 1000% en 3000% kunnen bijvoorbeeld anders worden gezien, afhankelijk van de maandelijkse verdeling van deze inflatie. Als geen enkele maand de drempel van 50% overschrijdt, volgens de definitie van Kagan, zouden deze landen niet in een staat van hyperinflatie verkeren. Deze benadering kan daarom leiden tot anomalieën in de classificatie van hyperinflatie, vooral bij het vergelijken van cumulatieve inflaties over het jaar.
+Gangbare definities van hyperinflatie, zoals die van Cagan die uitgaat van een maandelijkse inflatie van 50%, kunnen soms verwarrend of te simpel zijn. Twee landen met een jaarlijkse inflatie van respectievelijk 1000% en 3000% kunnen bijvoorbeeld anders worden gezien, afhankelijk van de maandelijkse verdeling van deze inflatie. Als geen enkele maand de drempel van 50% overschrijdt, volgens de definitie van Cagan, zouden deze landen niet in een staat van hyperinflatie verkeren. Deze benadering kan daarom leiden tot anomalieën in de classificatie van hyperinflatie, vooral bij het vergelijken van cumulatieve inflaties over het jaar.
 
 
-![image](assets/chapitre-3.1/7.webp)
+![image](assets/fr/038.webp)
 
 
 
-- Kagans werk "Monetary Dynamics of Hyperinflation", dat een fundamentele analyse van hyperinflatie geeft.
-- Bernolds boek, dat 30 verschillende perioden van hyperinflatie bestudeert, waardoor de reikwijdte van de analyse wordt vergroot.
+- Cagans werk "Monetary Dynamics of Hyperinflation", dat een fundamentele analyse van hyperinflatie geeft.
+- Bernholzs boek, dat 30 verschillende perioden van hyperinflatie bestudeert, waardoor de reikwijdte van de analyse wordt vergroot.
 - Davids persoonlijke verzameling bankbiljetten uit 36 periodes van hyperinflatie, waardoor een tastbaar en historisch begrip ontstaat.
-- De Hanky Cross tabel (versie 2012, bijgewerkt in 2016 met Venezuela), met 57 periodes van hyperinflatie volgens de definitie van Kagan.
+- De Hanky Cross tabel (versie 2012, bijgewerkt in 2016 met Venezuela), met 57 periodes van hyperinflatie volgens de definitie van Cagan.
 
 
-Opgemerkt moet worden dat bepaalde historische perioden van hoge inflatie niet zijn opgenomen in de klassieke tabellen van hyperinflatie, vaak vanwege strenge indelingscriteria. Bijvoorbeeld, tijdens de Amerikaanse Onafhankelijkheidsoorlog in november 1779 en tijdens de Amerikaanse Burgeroorlog in maart 1864 was de maandelijkse inflatie respectievelijk 47,4% en 40%. Hoewel deze percentages hoog zijn, overschrijden ze de door Kagan gestelde drempel van 50% niet, waardoor deze periodes niet worden geclassificeerd als hyperinflatie. Deze omissie illustreert de beperkingen van rigide definities en benadrukt de noodzaak van een meer genuanceerde benadering om hyperinflatie in al zijn complexiteit te begrijpen.
+Opgemerkt moet worden dat bepaalde historische perioden van hoge inflatie niet zijn opgenomen in de klassieke tabellen van hyperinflatie, vaak vanwege strenge indelingscriteria. Bijvoorbeeld, tijdens de Amerikaanse Onafhankelijkheidsoorlog in november 1779 en tijdens de Amerikaanse Burgeroorlog in maart 1864 was de maandelijkse inflatie respectievelijk 47,4% en 40%. Hoewel deze percentages hoog zijn, overschrijden ze de door Cagan gestelde drempel van 50% niet, waardoor deze periodes niet worden geclassificeerd als hyperinflatie. Deze omissie illustreert de beperkingen van rigide definities en benadrukt de noodzaak van een meer genuanceerde benadering om hyperinflatie in al zijn complexiteit te begrijpen.
 
 
 ## Weimar vs. Zimbabwe overeenkomsten
@@ -746,14 +746,14 @@ In dit hoofdstuk onderzoeken we de gevolgen van hyperinflatie, waarbij we ons ri
 Verschillende boeken zijn bijzonder informatief geweest:
 
 
-![image](assets/chapitre-3.2/0.webp)
+![image](assets/fr/039.webp)
 
 
 
 - "When Money Dies" van Adam Ferguson beschrijft de hyperinflatie na de Eerste Wereldoorlog in Duitsland, Oostenrijk en Hongarije.
 - Twee boeken over hyperinflatie in Zimbabwe, "Zimbabwe Warm Heart Ugly Face" en "Hard Boiled Egg Index" van respectievelijk Jérôme Gardner en Kudzai Joseph Gou Min-Yu, bieden aangrijpende getuigenissen van een CEO van een kledingwinkelketen en een landbouwbankier over hun ervaringen tijdens deze tumultueuze periode.
 
-![image](assets/chapitre-3.2/1.webp)
+![image](assets/fr/040.webp)
 
 
 Bij het consolideren van mijn aantekeningen zag ik talrijke overeenkomsten tussen de ervaringen van hyperinflatie in Zimbabwe en de Weimarrepubliek, ondanks het verschil van 90 jaar tussen beide. Ik identificeerde ongeveer 17 overeenkomsten, waarvan 13 een soort progressie naar de economische ramp illustreren die in deze getuigenissen wordt beschreven. Deze fascinerende parallellen tonen de repetitieve en verwoestende aard van hyperinflatie over tijd en grenzen heen. Vandaag onderzoeken we deze overeenkomsten en hoe ze een zorgwekkend traject beschrijven tijdens perioden van hyperinflatie.
@@ -765,7 +765,7 @@ Bij het consolideren van mijn aantekeningen zag ik talrijke overeenkomsten tusse
 Het spel van 14 verschillen!
 
 
-1. Geld tekort
+#### 1. Geldtekort
 
 
 Wanneer valuta met een duizelingwekkende snelheid in waarde daalt, kunnen zelfs de meest ambitieuze pogingen om de markt te overspoelen met nieuwe bankbiljetten onvoldoende blijken. De onophoudelijke vraag naar tastbaar geld kan de capaciteit van de centrale banken om bankbiljetten te produceren ver overstijgen, waardoor ongekende liquiditeitscrises ontstaan.
@@ -775,7 +775,7 @@ Wanneer valuta met een duizelingwekkende snelheid in waarde daalt, kunnen zelfs 
 
 > Zimbabwe: "Van 2002 tot januari 2009 waren er verschillende kritieke liquiditeitstekorten. Er waren gewoon niet genoeg bankbiljetten gedrukt of in omloop om de torenhoge inflatie bij te houden."
 
-2. "En het is mest!"
+#### 2. "En dat is mest!"
 
 
 De snelheid waarmee geld zijn waarde kan verliezen in bepaalde economische situaties is verbazingwekkend. Astronomische hoeveelheden bankbiljetten kunnen in recordtijd worden uitgegeven, waardoor ooit aanzienlijke bedragen in iets onbeduidends als mest veranderen.
@@ -785,7 +785,7 @@ De snelheid waarmee geld zijn waarde kan verliezen in bepaalde economische situa
 
 > Zimbabwe: "Op 17 september 2006 verklaarde de gouverneur van de RBZ, Gideon Gono: '10 biljoen is er nog steeds, en het is mest geworden
 
-3. Bankbiljetten die minder waard zijn dan het papier waarop ze gedrukt zijn
+#### 3. Bankbiljetten zijn minder waard dan het papier waarop ze zijn gedrukt
 
 In bepaalde economische omstandigheden kan de intrinsieke waarde van een bankbiljet lager worden dan de waarde van het papier waarop het gedrukt is. Door deze drastische waardevermindering worden bankbiljetten, die normaal gesproken symbolen van waarde en koopkracht zijn, slechts stukken waardeloos papier.
 
@@ -793,10 +793,10 @@ In bepaalde economische omstandigheden kan de intrinsieke waarde van een bankbil
 
 > Zimbabwe: "De centrale bank verspilde geld door een bankbiljet te drukken dat het papier waarop het gedrukt werd niet waard was. Met andere woorden, het was minder waard dan toiletpapier. Hoe absurd het ook klinkt, het was goedkoper om het bankbiljet van 100 biljoen ZWD als toiletpapier te gebruiken dan om echt toiletpapier te kopen."
 
-![image](assets/chapitre-3.2/PN3.webp)
+![image](assets/fr/041.webp)
 
 
-4. Geld tellen
+#### 4. Geld tellen
 
 
 Wanneer geld snel zijn waarde verliest, kunnen zelfs de eenvoudigste transacties omslachtige taken worden. Het berekenen van de prijs van een artikel of het tellen van de biljetten die nodig zijn voor de betaling kan enkele minuten duren, wat de dagelijkse interacties complexer maakt.
@@ -809,17 +809,21 @@ Wanneer geld snel zijn waarde verliest, kunnen zelfs de eenvoudigste transacties
 :::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 
-Geldteltechniek uit Oezbekistan
+Oezbeekse techniek van geld tellen
 
 
-5. Betalingen per cheque
+#### 5. Betalingen met cheque
 
 
 In verstoorde economieën kunnen traditionele betaalmethodes zoals cheques snel hun effectiviteit verliezen. Banken, overweldigd door de stijgende vraag naar valuta als gevolg van hyperinflatie, kunnen het innen van cheques rantsoeneren of uitstellen, waardoor hun reële waarde daalt. Deze instabiliteit leidt vaak tot een prioritering van betaalmethoden, waarbij de prijzen kunnen variëren afhankelijk van de manier van betalen.
 
 
 > Weimar: "Prijsstijgingen verhoogden de vraag naar geld, zowel door de staat als door andere werkgevers. Particuliere banken konden helemaal niet aan de vraag voldoen en moesten het verzilveren van cheques rantsoeneren, zodat ongedekte cheques bevroren bleven terwijl hun koopkracht afnam."
-> Zimbabwe: "De tijdwaarde van geld heeft drie prijzen voor goederen en diensten gecreëerd: een contante prijs, een real-time brutovereffeningsprijs en een chequeprijs. Uiteindelijk accepteerde niemand nog cheques, die er vijf dagen over deden om te innen." 6. De "Brander-preneurs"
+> Zimbabwe: “De tijdswaarde van geld creëerde drie prijzen voor goederen en diensten; namelijk een contante prijs, een prijs bij realtime bruto-afwikkeling en een chequeprijs. Uiteindelijk accepteerde niemand meer cheques, die vijf dagen nodig hadden om te worden geïnd.”
+
+
+
+#### 6. De "Burner-preneurs"
 
 Naarmate de waarde van de valuta erodeert, ontstaan er nieuwe economische mogelijkheden die gebruik maken van marktverstoringen. Deze ondernemers, vaak aangeduid met inventieve namen als "Burner-preneurs", kunnen gedijen door gedevalueerde valuta te lenen om te investeren in tastbare activa en vervolgens hun schulden terug te betalen met nog meer gedevalueerde valuta.
 
@@ -830,7 +834,7 @@ Weimar: "Speculatie op inflatie bestond uit het lenen van papieren marken, deze 
 Zimbabwe: de "brander-preneurs
 
 
-7. Eerlijkheid en Hard werk verliezen hun aantrekkingskracht
+#### 7. Eerlijkheid en hard werken verliezen hun aantrekkingskracht
 
 
 In instabiele economische contexten kunnen traditionele waarden als Hard werk, spaarzaamheid en integriteit overschaduwd worden door de allure van snelle rijkdom. Speculatie en valutahandel bieden vaak veel hogere beloningen dan regulier werk, waardoor maatschappelijke prioriteiten worden verstoord.
@@ -842,10 +846,10 @@ Weimar: "Toen de oude deugden van spaarzaamheid, eerlijkheid en Hard werk hun aa
 Zimbabwe: "Deze praktijken verrijkten een paar individuen, maar verarmden de stedelijke arbeidersklasse en de plattelandsbevolking. Onderwijs verloor zijn waarde, want deze handel werd gedreven door mensen die geen opleiding of Hard werk nodig hadden om het te rechtvaardigen. Het enige wat ze nodig hadden waren connecties en startkapitaal om hun easy money business te beginnen."
 
 
-![image](assets/chapitre-3.2/5.webp)
+![image](assets/fr/042.webp)
 
 
-8. De "wereldbanken
+#### 8. De "banken van de wereld"
 
 
 In situaties van hyperinflatie of monetaire crisis ontstaan er vaak parallelle en ongereguleerde markten voor vreemde valuta. Deze informele "banken", die vaak met humor "wereldbanken" of andere lokale namen worden genoemd, bieden een toevluchtsoord voor mensen die hun bezittingen willen beschermen tegen devaluatie. Hoewel deze markten een noodzakelijke economische reddingslijn kunnen vormen, benadrukken ze vaak het wijdverspreide wantrouwen tegenover officiële financiële instellingen en overheidsbeleid.
@@ -857,7 +861,7 @@ Zimbabwe: "Het waren ook geldwisselaars. Ze opereerden ongestraft tussen 2nd en 
 Argentinië: "Dus ging ik waar alle Argentijnen gaan: de cuevas, de 'grotten', die te vinden zijn in de wijk Florida in het hart van Buenos Aires." - TheBigWhale
 
 
-9. Valuta Exchange was illegaal
+#### 9. Het wisselen van buitenlandse valuta was illegaal
 
 
 In een poging om hun eigen valuta te stabiliseren en de kapitaalstroom te beheersen, kunnen regeringen deze transacties in vreemde valuta illegaal maken. Hoewel deze repressieve maatregelen bedoeld zijn om de nationale economie te beschermen, kunnen ze vaak het tegenovergestelde effect hebben: het wantrouwen van het publiek wordt versterkt en de zwarte markt wordt aangemoedigd.
@@ -869,7 +873,7 @@ Weimar: "Mensen namen hun toevlucht tot ruilhandel en wendden zich geleidelijk a
 Zimbabwe: "Overvallen op bedrijven leidden tot de opsluiting van verschillende zakenlieden uit Bulawayo voor het weekend en boetes ter waarde van twee keer het bedrag aan teruggevorderde buitenlandse valuta, daarna nam deze dapperheid af."
 
 
-10. Kapitaalcontroles
+#### 10. Kapitaalcontroles
 
 
 Wanneer een land geconfronteerd wordt met een monetaire of economische crisis, is een veel voorkomende reactie van regeringen om strenge controle uit te oefenen op het verkeer en de vormen van kapitaal. Deze maatregelen zijn vaak bedoeld om paniek te voorkomen en het vertrouwen te herstellen, of het nu gaat om orders die de acceptatie van gedevalueerde nationale valuta's afdwingen of om strenge sancties tegen mensen die bepaalde betaalmethoden afwijzen. Hun doeltreffendheid varieert echter en soms blijken deze maatregelen contraproductief te zijn of los te staan van de realiteit die burgers ervaren.
@@ -880,10 +884,10 @@ Weimar: "Kooplieden waren onlangs door een nieuw decreet gedwongen om staatsbank
 Zimbabwe: "De regering voerde op 12 december 2008 SI 175/2008 in met betrekking tot betalingen per cheque. Daarin stond: 'De straf voor het weigeren van betaling per cheque/bankkaart of een andere door de bank bemiddelde elektronische betaalmethode is een boete van niveau 8 of een gevangenisstraf van zes maanden of beide Het is duidelijk dat we de SI hebben genegeerd, omdat deze totaal niet strookte met de werkelijkheid."
 
 
-![image](assets/chapitre-3.2/4.webp)
+![image](assets/fr/043.webp)
 
 
-11. Gedwongen om hun winkels open te houden
+#### 11. Gedwongen hun winkels open te houden
 
 
 Wanneer de economie instort en de munt zijn waarde verliest, kunnen regeringen hun toevlucht nemen tot drastische maatregelen om de schijn van normale gang van zaken op te houden.
@@ -895,7 +899,7 @@ Weimar: "Kooplieden die hun activiteiten voortzetten, werden onderworpen aan een
 Zimbabwe: "Alleen lege stalen schappen en koelkasten, koelers en vriezers bleven over. De tragedie was dat de winkel nog open was omdat ze niet durfden te sluiten vanwege de politieke spanningen en de angst dat de leiders zouden worden gearresteerd door de prijscontrolemacht van de regering. Zelfs de arbeiders werden niet ontslagen omdat iedereen dacht dat er een snelle oplossing zou zijn."
 
 
-12. Iedereen is een crimineel
+#### 12. Iedereen is een crimineel
 
 
 In het licht van een instortende economie en alomtegenwoordige regelgeving vervaagt de grens tussen overleven en criminaliteit.
@@ -904,7 +908,9 @@ In het licht van een instortende economie en alomtegenwoordige regelgeving verva
 Weimar: "Alle misdaden tegen de staat, stuk voor stuk, in verschillende mate, werden een kwestie van overleven voor individuen."
 
 
-Zimbabwe: "Elke inwoner van Zimbabwe was een crimineel. Hoe hard het ook mag klinken, het was waar. Met de talloze kleine wetten die elk aspect van het leven regelden, was het onvermijdelijk dat iedereen elke dag een wet overtrad. Vreemde valuta bezitten was illegaal, volgens een SI gepubliceerd in 2004. Het hebben van meerdere bankrekeningen om de dagelijkse opnamelimiet te omzeilen was illegaal. Het niet hebben van de juiste nummerplaten op je auto, of geen autoradiovergunning of generatorvergunning, waren allemaal wetten die iemand, ergens, overtrad." 13. Buitenlandse valuta kopen tegen elke prijs
+> Zimbabwe: “Elke inwoner van Zimbabwe was een crimineel. Hoe hard het ook klinkt, het was waar. Met de talloze kleine wetten die elk aspect van het leven regelden, was het onvermijdelijk dat iedereen elke dag een wet overtrad. Het bezitten van vreemde valuta was illegaal, volgens een SI gepubliceerd in 2004. Het hebben van meerdere bankrekeningen om de dagelijkse opnamebeperking te omzeilen was illegaal. Het niet hebben van de juiste kentekenplaten op uw auto, of geen autoradiolicentie of geen generatorvergunning, waren allemaal wetten die iemand, ergens, overtrad.”
+
+#### 13. Buitenlandse valuta kopen tegen elke prijs
 
 De verwoede aankoop van vreemde valuta's is vaak een kritiek keerpunt geweest in de devaluatie van valuta's, waardoor de daling van de intrinsieke waarde verergerd is.
 
@@ -916,7 +922,7 @@ De verwoede aankoop van vreemde valuta's is vaak een kritiek keerpunt geweest in
 ### Samenvatting van het proces
 
 
-![image](assets/chapitre-3.2/2.webp)
+![image](assets/fr/044.webp)
 
 
 Bij het analyseren van het economische traject blijkt dat wanneer een hoge inflatie wordt bereikt, de waarde van de monetaire massa verslechtert. Deze devaluatie leidt tot verschillende complicaties, waaronder een tekort aan bankbiljetten. In deze context ontstaan arbitragemogelijkheden, vooral bij Exchange koersschommelingen. Als gevolg hiervan wenden veel individuen zich tot deze arbitrage en investeren ze zwaar in materiële activa in afwachting van een toekomstige devaluatie van de munt, waardoor ze hun schulden kunnen terugbetalen met een verzwakte munt. Dit economische klimaat ondermijnt de aantrekkingskracht van traditionele banen en tast bijgevolg de sociale cohesie aan.
@@ -928,32 +934,45 @@ Als reactie op deze situatie legt de regering draconische regels op, waaronder k
 ### 4 Overeenkomsten in de gevolgen van hyperinflatie
 
 
-![image](assets/chapitre-3.2/6.webp)
+![image](assets/fr/045.webp)
 
 
-1. Olie en metalen
+#### 1. Olie en metalen
 
+In Duitsland tijdens de Weimar-periode was de diefstal van waardevolle materialen zo wijdverbreid dat lood van daken vaak werd gestolen. In Zimbabwe dreef de wanhoop sommigen ertoe het elektriciteitsnet af te sluiten om olie uit transformatoren te halen en in hun voertuigen te gebruiken.
 
-In Duitsland tijdens de Weimar-periode was de diefstal van kostbare materialen zo omvangrijk dat lood van daken vaak werd gestolen. In Zimbabwe leidde wanhoop ertoe dat sommigen het elektriciteitsnet onderbraken om olie uit transformatoren te halen en die in hun voertuigen te gebruiken.
+Weimar: «De metalen platen van nationale monumenten moesten worden verwijderd om veiliggesteld te worden. Messing deurbelplaten werden gestolen van de deuren van de Britse ambassade in Berlijn.»
 
-In de context van een verslechterende economie en schaarse middelen kunnen overheden rantsoeneringssystemen invoeren om de distributie van essentiële goederen te controleren. Dit omvat het gebruik van bonnen of vouchers om de aankoop van benzine of brandstof te regelen.
+Zimbabwe: «Om de zaken nog erger te maken, was er door het gebrek aan buitenlandse valuta een tekort aan smeerolie voor auto’s, en werden transformatoren een gemakkelijk doelwit voor dieven die tijdens stroomuitval de koelolie aftapten.»
 
+#### 2. Treinen
 
-> Weimar: "In Berlijn werd vanwege de schaarste aan benzine een bonnensysteem ingevoerd om de distributie te regelen. Elke burger kreeg een bepaald aantal coupons toegewezen waarmee hij een beperkte hoeveelheid brandstof kon kopen."
+De waardevermindering van de munt kan burgers aanzetten tot overlevingsgedrag gebaseerd op vandalisme. Geconfronteerd met een instortende economie kan dure publieke infrastructuur zoals transportsystemen worden aangetast, wat leidt tot rampzalige maatschappelijke gevolgen.
 
-> Zimbabwe: "Tijdens de brandstofcrisis voerde de overheid een couponsysteem in om de distributie van benzine te beheren. Iedereen kreeg een vast aantal coupons die konden worden ingewisseld voor een bepaalde hoeveelheid brandstof."
-> De bevolking zoekt stabiele alternatieven voor transacties. In Weimar dienden producten zoals messing en brandstof als Exchange vanwege hun constante intrinsieke waarde. In Zimbabwe, dat geconfronteerd werd met de snelle devaluatie van de Zimbabwaanse dollar, werden benzinebonnen, die een vaste hoeveelheid van een essentieel product vertegenwoordigden, een de facto betaalmiddel. Deze situaties laten zien hoe samenlevingen zich aanpassen aan extreme economische omstandigheden en innovatieve oplossingen vinden om de handel en de economie draaiende te houden.
+> Weimar: «In Berlijn stopte het tramsysteem met functioneren wegens gebrek aan middelen.»
 
-Weimar: "Ruilen was al een gebruikelijke vorm van Exchange; maar nu werden goederen zoals koper en brandstof de gemeenschappelijke valuta voor aankoop en betaling."
+> Zimbabwe: «Een van de meest verontrustende en trieste scenario’s was toen bijna de hele elektrische koperlijn die Harare met Dabuka verbond (meer dan 280 kilometer) werd gestolen. Bij de voltooiing was het de trots van Zimbabwe geweest, met snelle elektrische passagiers- en goederentreinen die deze route gebruikten.»
 
+#### 3. “Mealie Meal”
 
-Zimbabwe: "We gebruikten deze vouchers nu om huur te betalen aan huisbazen, gemeentebelastingen, telefoonrekeningen, in feite bijna alles, omdat iedereen geen betalingen in Zimbabwaanse dollars en cheques meer accepteerde."
+In de context van belachelijk lage lonen en een instabiele economie werden bedrijven gedwongen hun werknemers voedsel te verstrekken om hen productief en operationeel te houden. Dit initiatief was niet alleen een manier om het tekort en de hoge kosten van voedsel te compenseren, maar ook een strategie om personeel te behouden in een moeilijke economische omgeving.
 
+> Weimar: «In Berlijn ontvingen kantoormedewerkers, die een zeer belangrijke klasse in de hoofdstad vormden, volledig ontoereikende salarissen variërend van 12.000 tot 20.000 per maand (d.w.z. tussen 12 en 19 pond per jaar), die voortdurend afnamen; maar de meesten konden nog steeds hun lunch verkrijgen voor een symbolisch bedrag, verstrekt door hun kantoren, zodat lichaam en ziel net bijeen konden worden gehouden.»
+
+> Zimbabwe: «Op dit moment gaven we al ons personeel een gratis lunch. Maïsmeel was essentieel voor het voortdurende functioneren van ons bedrijf, omdat het in veel gevallen de enige maaltijd was die ons personeel elke dag kreeg.»
+
+#### 4. Benzinebonnen
+
+De bevolking zocht naar stabiele alternatieven voor transacties. In Weimar fungeerden producten zoals messing en brandstof als ruilmiddelen vanwege hun constante intrinsieke waarde. In Zimbabwe, geconfronteerd met de snelle devaluatie van de Zimbabwaanse dollar, werden benzinebonnen, die een vaste hoeveelheid van een essentieel product vertegenwoordigden, een de facto munt. Deze situaties benadrukken hoe samenlevingen zich aanpassen aan extreme economische omstandigheden en innovatieve oplossingen vinden om handel en economie draaiende te houden.
+
+Weimar: «Ruilhandel was al een gebruikelijke vorm van uitwisseling; maar nu werden goederen zoals messing en brandstof de gangbare munt voor aankopen en betalingen.»
+
+Zimbabwe: «Deze bonnen gebruikten we nu om huur aan verhuurders te betalen, gemeentebelastingen, telefoonrekeningen – eigenlijk bijna alles – omdat iedereen was gestopt met het accepteren van betalingen in Zimbabwaanse dollars en cheques.»
 
 #### Conclusie
 
+Dit besluit deze video over de overeenkomsten in de ervaringen tijdens de hyperinflatieperiodes in Zimbabwe en de Weimarrepubliek. In de volgende video zullen we het hebben over de verschillen en hedendaagse parallellen. Dank u.
 
-Tot zover deze video over de overeenkomsten tussen de ervaringen tijdens de periodes van hyperinflatie in Zimbabwe en de Weimarrepubliek. In de volgende video bespreken we de verschillen en hedendaagse parallellen. Dank je wel.
 
 
 ## Weimar vs Zimbabwe: Verschillen en hedendaagse parallellen
@@ -968,23 +987,23 @@ In dit hoofdstuk verkennen we de verschillen en hedendaagse parallellen tussen v
 ### Verschillen tussen de Weimarrepubliek en Zimbabwe
 
 
-1. Het is de schuld van de dollar!
+#### 1. Het is de schuld van de dollar!
 
 
 In Duitsland was het gebruikelijk dat de bevolking de inflatie toeschreef aan de stijging van de dollar in plaats van aan de intrinsieke devaluatie van hun eigen munt. Velen geloofden dat het waargenomen fenomeen te wijten was aan een waardestijging van de dollar. Deze perceptie verwierp elke erkenning van het verband tussen hun economische problemen en monetaire devaluatie, voornamelijk veroorzaakt door buitensporige geldcreatie. Het boek "When Money Dies" illustreert duidelijk dit onbegrip bij de Duitse bevolking. In Zimbabwe daarentegen was de situatie anders: de burgers waren zich volledig bewust van de onderliggende oorzaak van de hyperinflatie die ze meemaakten.
 
 
-![image](assets/chapitre-3.3/3.webp)
+![image](assets/fr/046.webp)
 
 
-2. Noodzakelijke valuta (Notgeld)
+#### 2. Noodgeld (Notgeld)
 
 
 Geconfronteerd met de monetaire en economische crisis nam Duitsland zijn toevlucht tot "Notgeld" (noodgeld). Deze biljetten, gedrukt door steden of bepaalde bedrijven, waren bedoeld om een tekort aan gemeenschappelijke valuta op te vangen.
 
 Interessant is dat Frankrijk ook zijn toevlucht nam tot Notgeld, vooral in de jaren 1920. Dit initiatief was niet alleen een direct gevolg van de hyperinflatie, maar had ook zijn wortels in de verstoringen die werden veroorzaakt door de Eerste Wereldoorlog. Hierdoor was de intrinsieke waarde van metalen munten vaak hoger dan de nominale waarde, waardoor mensen ze gingen hamsteren. Bij gebrek aan munten drukten sommige instellingen, zoals de Kamer van Koophandel in Lyon, hun eigen Notgeld.
 
-![image](assets/chapitre-3.3/0.webp)
+![image](assets/fr/048.webp)
 
 
 > "Wat gedaan moet worden, moet gedaan worden." - een lokaal gezegde
@@ -995,14 +1014,14 @@ Onder het Notgeld valt één bepaald bankbiljet op. Het is voorzien van een aang
 De kunstenaar achter dit notgeld lijkt een ironische kritiek te leveren op de autoriteiten die verantwoordelijk zijn voor de hyperinflatiecrisis. Het bankbiljet draagt de inscriptie "Noodzaak kent geen wet". Een andere uitdrukking die specifiek is voor de plaats van herkomst van het Notgeld luidt: "Wat gedaan moet worden, moet gedaan worden".
 
 
-![image](assets/chapitre-3.3/1.webp)
+![image](assets/fr/047.webp)
 
 
 > "noodzaak kent geen wet"
 
 > De eerste shitcoin: Anekdotisch gezien, kijkend naar de centrale illustratie van het bankbiljet, waar de munt letterlijk gedevalueerd wordt door de actie van het individu, zou het de eerste "shitcoin" genoemd kunnen worden.
 
-3. Obligaties en hypotheken
+#### 3. Obligaties en hypotheken
 
 
 In Weimar werden sommige schulden geherwaardeerd om de gevolgen van inflatie te compenseren. Deze maatregel werd niet toegepast in Zimbabwe.
@@ -1015,13 +1034,13 @@ In Weimar werden sommige schulden geherwaardeerd om de gevolgen van inflatie te 
 Om meer te weten te komen over het beheer van de Duitse crisis, is dit boek ook onmisbaar.
 
 
-![image](assets/chapitre-3.3/4.webp)
+![image](assets/fr/049.webp)
 
 
 ### Hedendaagse parallellen
 
 
-1. Manipulatie van monetair beleid om de economie te controleren.
+#### 1. Manipulatie van het monetaire beleid om de economie te beheersen.
 
 In de geschiedenis van de Weimarrepubliek is het duidelijk dat industriëlen de waardestijging van de Mark niet graag zagen. Hun mogelijkheid om te lenen en hun schulden terug te betalen met een sterk gedeprecieerde munt gaf hen een aanzienlijk voordeel. Dit mechanisme maakte de bouw van enorme industriële complexen tegen bijna geen kosten mogelijk. Deze industriëlen vreesden een waardestijging van de Mark omdat dit hun activiteiten belemmerde. Sommigen zagen de ongebreidelde inflatie zelfs als een goede zaak, in de overtuiging dat dit de werkgelegenheid voor de bevolking garandeerde. Ze realiseerden zich echter niet de nadelige gevolgen van deze inflatie voor het spaargeld en de economie in het algemeen. Voor deze economische actoren was het drukken van geld een zegen.
 
@@ -1035,7 +1054,7 @@ Er is een hedendaagse parallel te trekken met de uitspraken van Christine Lagard
 
 > Christine Lagarde: "We zouden blijer moeten zijn dat we een baan hebben dan dat ons spaargeld beschermd is."
 
-2. Privébezit in tijden van conflict.
+#### 2. Privé-eigendom in tijden van conflicten
 
 
 De geschiedenis van de Weimarrepubliek onthult dat in deze periode bezittingen en kapitaal in het buitenland in beslag werden genomen. Deze maatregel doet denken aan meer recente gebeurtenissen in Rusland, vooral aan het begin van een conflict. Deze situaties benadrukken een verontrustende realiteit: in tijden van crisis kan het respect voor privébezit in het gedrang komen. Dit is een historische en hedendaagse parallel die de mogelijke repercussies van crises op individuele rechten onderstreept.
@@ -1045,42 +1064,50 @@ De geschiedenis van de Weimarrepubliek onthult dat in deze periode bezittingen e
 
 > [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Ongeveer 300 miljard dollar aan Russische reserves in het buitenland zijn inderdaad bevroren als onderdeel van de westerse sancties, van de 640 miljard dollar aan reserves die de Russische Centrale Bank aanhoudt."
 
-3. Het concept van marktprijzen.
-
-> Weimar: "Zombies"
-
-> Hedendaags: "Ondernemingen zombies"
-> Weimar: "Stabilisatie maakte een einde aan de periode waarin ondernemers zoveel konden lenen als ze wilden ten koste van alle anderen. Een groot aantal bedrijven, opgericht of ontwikkeld tijdens de monetaire overvloed, werd snel onproductief toen kapitaal schaars werd."
-> Een zombiebedrijf is een bedrijf dat onder normale marktomstandigheden insolvent of bijna failliet zou zijn, maar voornamelijk blijft opereren door goedkoop te lenen. Deze bedrijven verdienen net genoeg geld om hun schulden te dekken, maar zijn niet in staat om significant te groeien.
-
-Het concept van zombiebedrijven is niet nieuw. Het bestond al in de Weimarrepubliek. In die tijd leken veel bedrijven te floreren en te profiteren van de toegang tot gratis krediet. Ze leenden aanzienlijke bedragen, met het vooruitzicht dat ze die later zouden terugbetalen met een gedeprecieerde munt als gevolg van de ongebreidelde inflatie. Toen de inflatie echter stopte en de Duitse mark weer aan waarde won, werden deze bedrijven, die operationeel en financieel niet echt levensvatbaar waren, onrendabel en moesten ze hun deuren sluiten.
 
 
-![image](assets/chapitre-3.3/5.webp)
 
+#### 3. Het begrip marktprijs
 
-Het fenomeen van zombiebedrijven is niet beperkt tot de naoorlogse geschiedenis van Duitsland. Zelfs vandaag de dag overleven veel grote bedrijven dankzij de bevoorrechte toegang tot zeer laagrentende kredieten. Als ze tegen conventionelere tarieven zouden moeten lenen, zouden veel van hen niet langer winstgevend zijn. Dit is vooral relevant nu we in 2023 zijn, en na een lange periode van bijna-nul rentetarieven, zijn deze nu aan het stijgen. Deze recente ontwikkeling in het financiële landschap zal ongetwijfeld een beslissende test zijn voor deze bedrijven die ooit "zombies" werden genoemd.
+Tijdens de Weimarrepubliek uitten boeren hun ongenoegen over de "Umlage", die hen verplichtte de eerste twee miljoen ton tarwe die elk jaar werd geproduceerd te leveren. Deze regelgeving had tot gevolg dat de helft van de totale broodvoorraad op de markt werd gebracht tegen gesubsidieerde prijzen. Vanaf augustus moesten deze boeren naar wereldmarktprijzen worden betaald, want hoewel ze gedwongen waren hun tarwe tegen lage prijzen af te staan, moesten ze meststoffen tegen wereldmarktprijzen kopen.
 
+Deze situatie roept een centraal probleem op met betrekking tot het begrip marktprijs tijdens hyperinflatie. In de Duitse context van die tijd werden boeren gedwongen hun tarwe onder de werkelijke waarde te verkopen, terwijl ze zich van meststoffen moesten voorzien tegen wereldwijde kosten. Een dergelijke economische discrepantie benadrukt de uitdagingen die de voedselprijzen vandaag de dag vertegenwoordigen. Landbouwproducenten, geconfronteerd met de stijging van de kosten van inputs als gevolg van inflatie, berekenen deze kosten door in de eindproducten. Hen bekritiseren voor deze stijging komt neer op het negeren van de dynamiek van de marktprijs en de economische druk waarmee zij worden geconfronteerd. Verkopen tegen kunstmatig lage prijzen terwijl men hoge kosten moet dragen, is onhoudbaar voor elk bedrijf.
 
-5. Snel rijk worden!
+> Weimar: "De landbouwbelangen waren ontevreden over de 'Umlage', de verplichte levering van de eerste twee miljoen ton tarwe die elk jaar werd geproduceerd, waardoor de helft van de totale broodvoorraad tegen lage prijzen kon worden verkocht. Vanaf augustus moesten boeren naar wereldmarktprijzen worden betaald, want wanneer zij gedwongen werden tarwe goedkoop te verkopen, moesten zij nog steeds de wereldprijs betalen voor meststoffen."
 
+#### 4. De ontkenning van het verband tussen geldhoeveelheid en inflatie
 
-Door de geschiedenis heen zijn er momenten geweest waarop individuen snel rijk wilden worden, zoals in Weimar en Zimbabwe door middel van arbitrage. Vandaag zien we een gelijkaardige trend met de opkomst van bepaalde cryptocurrencies. Mensen worden verleid door snelle winsten en nemen risico's in de hoop op een exponentiële vermenigvuldiging van hun investering. Deze aanpak kan doen denken aan wat wordt waargenomen tijdens perioden van hyperinflatie, waar arbitrage wordt gebruikt om snelle winsten te behalen, vaak ten koste van anderen.
+> Weimar: «Hij bleef stevig vasthouden aan zijn standpunt dat de geldhoeveelheid noch verband hield met het prijsniveau, noch met de wisselkoersen;»
 
+In de hedendaagse tijd houdt deze tendens aan, zoals blijkt uit het voorbeeld in het vorige hoofdstuk met een lijst van verklaringen die door verschillende economen en economische instituten zijn voorgesteld om inflatie te rechtvaardigen. Deze redenen variëren van culturele gebeurtenissen en beroemdheden zoals Taylor Swift, Zelda of Beyoncé, tot mondiale factoren zoals oorlog en pandemie. Al deze redenen, hoewel ze mogelijk bijdragen aan kortetermijnschommelingen in de economie, leiden de aandacht af van de werkelijke onderliggende oorzaak, namelijk de uitbreiding van de geldhoeveelheid.
 
-![image](assets/chapitre-3.3/6.webp)
+#### 5. Zombiebedrijven
 
+> Weimar: "De stabilisatie had een einde gemaakt aan de periode waarin ondernemers zoveel konden lenen als ze wilden ten koste van alle anderen. Een zeer groot aantal bedrijven, opgericht of uitgebreid tijdens de monetaire overvloed, werd snel onproductief toen kapitaal schaars werd."
 
-6. Besparingen, de remedie tegen onzekerheid
+Een zombiebedrijf is een onderneming die onder normale marktomstandigheden insolvent of bijna failliet zou zijn, maar die blijft bestaan, voornamelijk dankzij goedkope leningen. Deze bedrijven verdienen net genoeg om hun schulden te dekken, maar zijn niet in staat om significant te groeien.
 
+Dit idee van een zombiebedrijf is niet nieuw. Het bestond namelijk al in de Weimarrepubliek. In die tijd leken veel bedrijven welvarend, grotendeels profiterend van toegang tot gratis krediet. Ze leenden aanzienlijke bedragen met het vooruitzicht om later terug te betalen met een door de hyperinflatie gedevalueerde munt. Toen de inflatie echter stopte en de Duitse mark zijn waarde terugkreeg, werden deze bedrijven, die operationeel en financieel eigenlijk niet levensvatbaar waren, onrendabel en moesten ze hun deuren sluiten.
 
-> de invasieve en destructieve invloed van de constante erosie van de waarde van kapitaal en inkomen, evenals de onzekerheid over de toekomst.
-> Het is interessant om een citaat te benadrukken dat het destructieve effect van de erosie van de waarde van kapitaal op sociale cohesie benadrukt, evenals de onzekerheid die het genereert. Er staat: "de invasieve en destructieve invloed van de constante erosie van de waarde van kapitaal en inkomen, evenals de onzekerheid over de toekomst."
+![image](assets/fr/050.webp)
 
-Stel je een scenario voor waarbij je een gezin of dierbaren hebt die je wilt beschermen. Je werkt Hard, spaart geld om te anticiperen op toekomstige onzekerheden. Als alles voorspelbaar was, zou sparen zinloos zijn. Maar in het onverwachte, zoals een kapotte auto, wordt sparen een reddingslijn. Het vermindert de onzekerheid van de wereld. In een periode van hyperinflatie wordt sparen echter een uitdaging. Geld verliest snel zijn waarde, waardoor langetermijnplanning moeilijk wordt. Deze financiële instabiliteit kan stress en angst veroorzaken.
+Het fenomeen van zombiebedrijven beperkt zich niet tot de naoorlogse Duitse geschiedenis. Ook vandaag nog overleven veel grote bedrijven dankzij bevoorrechte toegang tot kredieten met zeer lage rentetarieven. Als ze zouden moeten lenen tegen meer conventionele tarieven, zouden veel van hen ophouden rendabel te zijn. Dit is des te relevanter in 2023, nu, na een lange periode van bijna nulrentetarieven, de rente is begonnen te stijgen. Deze recente ontwikkeling van het financiële landschap zal ongetwijfeld een beslissende test zijn voor deze bedrijven die ooit als "zombies" werden bestempeld.
 
+#### 6. Snel rijk worden!
 
-Nu de koopkracht daalt, neemt beleggen de overhand. Deze aanpak brengt echter zijn eigen risico's met zich mee. Sparen is altijd een middel geweest tegen onzekerheid. Het hebben van financiële reserves om onvoorziene situaties het hoofd te bieden, draagt bij aan gemoedsrust en versterkt de sociale cohesie. Kortom, het beschermen van onze koopkracht is essentieel om sociale en individuele stabiliteit te behouden.
+In de geschiedenis zien we momenten waarop individuen proberen snel rijk te worden, zoals het geval was in Weimar en Zimbabwe via arbitrage. Vandaag de dag zien we een vergelijkbare trend met de opkomst van bepaalde cryptovaluta. Mensen worden verleid door snelle winsten, nemen risico's in de hoop op een exponentiële vermenigvuldiging van hun investering. Deze benadering doet denken aan die welke werd waargenomen in perioden van hyperinflatie, waarin arbitrage werd gebruikt om snel winst te behalen, vaak ten koste van anderen.
+
+![image](assets/fr/051.webp)
+
+#### 7. Sparen, het middel tegen onzekerheid
+
+> De alomtegenwoordige en destructieve invloed van de voortdurende erosie van de waarde van kapitaal en inkomen, evenals de onzekerheid over de toekomst.
+
+Het is interessant een citaat te benadrukken dat de destructieve invloed van de erosie van de kapitaalwaarde op de sociale cohesie benadrukt, evenals de onzekerheid die zij veroorzaakt. Het luidt: "de alomtegenwoordige en destructieve invloed van de voortdurende erosie van de waarde van kapitaal en inkomen, evenals de onzekerheid over de toekomst."
+
+Stel je een scenario voor waarin je een gezin of dierbaren hebt die je wilt beschermen. Je werkt hard, spaart, om toekomstige onzekerheden voor te zijn. Als alles voorspelbaar was, zou sparen nutteloos zijn. Maar geconfronteerd met het onverwachte, zoals een kapotte auto, wordt sparen een reddingsboei. Het vermindert de onzekerheid van de wereld. In een periode van hyperinflatie wordt sparen echter een uitdaging. Geld verliest snel zijn waarde, waardoor langetermijnplanning moeilijk wordt. Deze financiële instabiliteit kan stress en angst veroorzaken.
+
+Vandaag de dag neemt investeren het over, gezien de daling van de spaarcapaciteit. Deze aanpak brengt echter zijn eigen risico's met zich mee. Sparen is altijd een remedie geweest tegen onzekerheid. Financiële reserves hebben om onvoorziene situaties het hoofd te bieden, draagt bij aan gemoedsrust en versterkt de sociale cohesie. Concluderend is de bescherming van onze spaarcapaciteit essentieel om sociale en individuele stabiliteit te behouden.
 
 
 ## Redenominaties in Latijns-Amerika
@@ -1098,10 +1125,10 @@ We zullen nu kijken naar verschillende perioden van redenominatie in Latijns-Ame
 Op de dia staan links de jaren van redenominatie, de naam van de nieuwe valuta en de Exchange koers ten opzichte van de oude valuta. Als we het voorbeeld van Argentinië nemen, werd de peso moneda nacional omgerekend tegen een koers van 25 tegen 1 ten opzichte van de vorige munteenheid, de peso real. In deze context zullen we de ontwikkeling van de Argentijnse munt in de loop van de tijd onderzoeken. Daarnaast zullen we voor elke periode de begin- en eindwaarden van de bankbiljetten aangeven.
 
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 
-Aan de rechterkant van de dia staat een grafiek van de inflatie. De rode pijlen staan voor jaren van hyperinflatie, gedefinieerd volgens Kagans criterium als een inflatie van 50% per maand. Dit criterium kan soms leiden tot dubbelzinnige interpretaties, waarbij jaren met hoge inflatiecijfers niet voldoen aan de strikte definitie van hyperinflatie.
+Aan de rechterkant van de dia staat een grafiek van de inflatie. De rode pijlen staan voor jaren van hyperinflatie, gedefinieerd volgens Cagans criterium als een inflatie van 50% per maand. Dit criterium kan soms leiden tot dubbelzinnige interpretaties, waarbij jaren met hoge inflatiecijfers niet voldoen aan de strikte definitie van hyperinflatie.
 
 Opgemerkt moet worden dat redenominatie, tijdens perioden van inflatie, een gebruikelijke maatregel is die door overheden wordt genomen. Dit lost het onderliggende probleem van inflatie of hyperinflatie echter niet op. Het is slechts een manier om de munteenheid een andere naam te geven en nullen te verwijderen, zonder echt de hoofdoorzaak van hyperinflatie aan te pakken: de expansie van het geld Supply. In een latere video zullen we de echte oplossingen voor Address bespreken en het probleem van hyperinflatie oplossen. In deze serie belichten we de gevolgen van een eenvoudige redenominatie zonder adequate hervormingen: de inflatie houdt aan.
 
@@ -1111,7 +1138,7 @@ Na Argentinië zullen we Brazilië, Bolivia, Peru, Nicaragua en Venezuela bestud
 ### Argentinië
 
 
-![image](assets/chapitre-3.4/1.webp)
+![image](assets/fr/052.webp)
 
 
 Voor 1826 gebruikte Argentinië de Spaanse dollar. Na zijn onafhankelijkheid in 1816 introduceerde het zijn eigen munteenheid, gebaseerd op de Spaanse real. De tabel begint in 1881, het jaar van de introductie van de "peso moneda nacional" met bankbiljetten tot 10.000. Deze werd gevolgd door de "peso ley". Deze werd gevolgd door de "peso ley", gewisseld tegen een koers van 100 tegen 1 en met bankbiljetten tot een miljoen. Daarna kwam de "argentijnse peso" met een Exchange koers van 10.000 tegen 1 (gelijk aan het verwijderen van vier nullen) en bankbiljetten tot 10.000. In 1985 werd de "australes" geïntroduceerd en ingewisseld tegen 1.000 tegen 1, met bankbiljetten tot 500.000. In 1992 werd de huidige "peso ley" ingevoerd tegen een koers van 10.000 tegen 1, waarbij opnieuw vier nullen werden verwijderd. Alleen in 1989 en 1990 was er sprake van hyperinflatie.
@@ -1120,7 +1147,7 @@ Voor 1826 gebruikte Argentinië de Spaanse dollar. Na zijn onafhankelijkheid in 
 ### Brazilië
 
 
-![image](assets/chapitre-3.4/2.webp)
+![image](assets/fr/053.webp)
 
 
 Brazilië is een emblematisch geval van monetaire redenominatie, zoals wordt geïllustreerd door de geschiedenis van wisselkoersveranderingen. Voor zijn onafhankelijkheid gebruikte Brazilië de Portugese real. Maar al in 1747 begon het land zijn eigen "Braziliaanse real" te gebruiken, lang voor de onafhankelijkheidsverklaring in 1822. De tabel begint in 1818 en markeert het begin van de uitgifte van Braziliaanse bankbiljetten. Daarvoor was de munteenheid voornamelijk in de vorm van munten. Deze bankbiljetten bereikten waarden tot een miljoen reals.
@@ -1145,7 +1172,7 @@ Het biljet met de hoogste denominatie bereikte 500.000 en de laatste redenominat
 ### Bolivia
 
 
-![image](assets/chapitre-3.4/3.webp)
+![image](assets/fr/054.webp)
 
 
 Bolivia is een ander voorbeeld van een land dat periodes van acute inflatie heeft doorgemaakt, waardoor valuta moesten worden omgewisseld. Hier volgt een samenvatting van de monetaire geschiedenis:
@@ -1168,7 +1195,7 @@ Dat is een overzicht van de tumultueuze monetaire geschiedenis van Bolivia, geke
 ### Peru
 
 
-![image](assets/chapitre-3.4/4.webp)
+![image](assets/fr/055.webp)
 
 
 Peru is een interessant geval wat betreft de effecten van de willekeurige 50%-regel. Om te beginnen met de monetaire geschiedenis: Peru gebruikte Spaans goud tot de 19e eeuw en riep zijn onafhankelijkheid uit in 1821. De Peruaanse dollar was in gebruik van 1822 tot 1863. In 1863 werd de Peruaanse real vervangen door de soldi oro, tegen een koers van 10 op 1, met een maximale waarde van 50.000. In 1985 werd de munteenheid "Inti" geïntroduceerd met een omrekeningskoers van 1000 tegen 1, met een maximumwaarde van 5 miljoen. In 1991 werd de "SOL" geïntroduceerd met een Exchange koers van 1 miljoen tegen 1, met bankbiljetten van 10 tot 200.
@@ -1184,7 +1211,7 @@ Als we kijken naar de redenominatieperioden, wordt 1988 beschouwd als een jaar v
 ### Nicaragua
 
 
-![image](assets/chapitre-3.4/5.webp)
+![image](assets/fr/056.webp)
 
 Nicaragua, dat vroeger onder Spaanse heerschappij stond, gebruikte aanvankelijk de Spaanse dollar, net als veel andere landen die door Spanje gekoloniseerd waren. Na te zijn opgenomen in het Spaanse Rijk, het Mexicaanse Rijk en vervolgens de Federale Republiek Midden-Amerika, verklaarde Nicaragua zich onafhankelijk. Vanaf 1878 werd de peso de officiële munteenheid van het land, met waarden die schommelden tussen 1 en 100. In 1912 introduceerde het land de eerste Cordoba, gevolgd door de tweede in 1988 en de derde in 1991, die vandaag de dag nog steeds in gebruik is. De eerste Cordoba bereikte een waarde van 1 miljoen en de tweede 10 miljoen. De redenominatie in 1991 volgde op enkele jaren van hyperinflatie.
 
@@ -1192,7 +1219,7 @@ Nicaragua, dat vroeger onder Spaanse heerschappij stond, gebruikte aanvankelijk 
 ### Venezuela
 
 
-![image](assets/chapitre-3.4/6.webp)
+![image](assets/fr/057.webp)
 
 
 Venezuela is het laatste land dat in deze video wordt genoemd. Het land heeft in de loop der tijd vier valuta redenominaties ondergaan. In het begin gebruikte Venezuela de Spaanse dollar voordat het in 1811 de onafhankelijkheid uitriep. In 1879 introduceerde het de bolivar als officiële munteenheid, die van kracht bleef tot 1983, toen de regering koos voor een zwevende Exchange koers dollar.
@@ -1201,16 +1228,16 @@ Venezuela is het laatste land dat in deze video wordt genoemd. Het land heeft in
 Een opmerkelijk feit over Venezuela is het lidmaatschap van de Latijnse Monetaire Unie. Deze unie omvatte munten zoals de 5 peseta's uit Spanje, de 5 drachmen uit Griekenland, de 5 bolivars uit Venezuela, de 5 lire uit Italië, de 5 Belgische franken en de 5 Franse franken.
 
 
-![image](assets/chapitre-3.4/8.webp)
+![image](assets/fr/058.webp)
 
 
-![image](assets/chapitre-3.4/7.webp)
+![image](assets/fr/059.webp)
 
 
-![image](assets/chapitre-3.4/9.webp)
+![image](assets/fr/060.webp)
 
 
-![image](assets/chapitre-3.4/10.webp)
+![image](assets/fr/061.webp)
 
 
 In deze periode had de munt van 5 bolivar uit Venezuela hetzelfde gewicht als die van de lidstaten van de Unie, waaronder Italië, Spanje, België en Frankrijk. Deze bolivars waren gemaakt van zilver, waarbij een specifieke munt uit 1929 25 gram woog en een zuiverheid had van 900, oftewel 90% puur zilver. Met de huidige prijs van zilver is deze munt ongeveer 17 tot 18 US dollar waard.
@@ -1250,7 +1277,7 @@ Tot slot is hyperinflatie slechts één aspect van economische uitdagingen. Hoge
 ### Hoe een einde maken aan gematigde en hoge inflatie
 
 
-De genoemde conclusies komen uit het boek "Monetary Regime and Inflation" van Bernold. Volgens Bernold is de enige methode om een einde te maken aan inflatie het doorvoeren van een monetaire hervorming en het opleggen van beperkingen aan de overheid. Deze beperkingen omvatten de oprichting van een instelling, zoals een centrale bank, die onafhankelijk van de politieke beslissingen van de regering opereert. Hoge en hyperinflatie zijn vaak het gevolg van het financieren van begrotingstekorten door monetaire creatie. Om de Address inflatie te matigen, is het essentieel om de groei van het geld Supply te verminderen. Bernold suggereert ook dat deze monetaire groei relatief moet zijn ten opzichte van de buurlanden. Een verrassend punt is dat in perioden van hoge of hyperinflatie, de totale waarde van het geld Supply juist kan afnemen. Een treffend voorbeeld van deze situatie is Zimbabwe.
+De genoemde conclusies komen uit het boek "Monetary Regime and Inflation" van Bernholz. Volgens Bernholz is de enige methode om een einde te maken aan inflatie het doorvoeren van een monetaire hervorming en het opleggen van beperkingen aan de overheid. Deze beperkingen omvatten de oprichting van een instelling, zoals een centrale bank, die onafhankelijk van de politieke beslissingen van de regering opereert. Hoge en hyperinflatie zijn vaak het gevolg van het financieren van begrotingstekorten door monetaire creatie. Om de Address inflatie te matigen, is het essentieel om de groei van het geld Supply te verminderen. Bernholz suggereert ook dat deze monetaire groei relatief moet zijn ten opzichte van de buurlanden. Een verrassend punt is dat in perioden van hoge of hyperinflatie, de totale waarde van het geld Supply juist kan afnemen. Een treffend voorbeeld van deze situatie is Zimbabwe.
 
 
 ### Contra-intuïtieve oplossingen
@@ -1259,10 +1286,10 @@ De genoemde conclusies komen uit het boek "Monetary Regime and Inflation" van Be
 Bij het bestuderen van Zimbabwe viel het op dat 10 biljoen eenheden van het geld Supply al hun waarde hadden verloren. In Weimar was het mogelijk om twee derde van de totale nominale waarde van 65 miljard eenheden van het geld Supply in één dag te drukken. Dit laat zien hoe het geld Supply gedevalueerd kan worden. Om deze situatie te verhelpen, is het noodzakelijk om het geld Supply aanzienlijk te verhogen om een passend niveau te bereiken. Dan is een monetaire hervorming onontbeerlijk. In een situatie van hoge inflatie is deze hervorming onvermijdelijk, maar ze moet ervoor zorgen dat er genoeg geld in omloop is. Na deze stap kunnen beperkingen worden opgelegd aan de overheid.
 
 
-Volgens Bernolds observaties volgen instellingen als het IMF en de Wereldbank niet altijd de juiste strategie bij het oplossen van inflatieproblemen. In sommige gevallen, wanneer een land zijn geld Supply moet verhogen, proberen deze instellingen het te verlagen. De sleutel is om een adequaat monetair niveau te bereiken en vervolgens grenzen te stellen aan de groei ervan, om zo te voorkomen dat overheidsuitgaven worden gefinancierd door monetaire creatie.
+Volgens Bernholzs observaties volgen instellingen als het IMF en de Wereldbank niet altijd de juiste strategie bij het oplossen van inflatieproblemen. In sommige gevallen, wanneer een land zijn geld Supply moet verhogen, proberen deze instellingen het te verlagen. De sleutel is om een adequaat monetair niveau te bereiken en vervolgens grenzen te stellen aan de groei ervan, om zo te voorkomen dat overheidsuitgaven worden gefinancierd door monetaire creatie.
 
 
-Een interessant aspect dat Bernold naar voren brengt, is dat het succes van een monetaire hervorming niet alleen afhangt van de technische relevantie, maar ook van het vertrouwen dat de bevolking erin heeft. Sommige goed ontworpen hervormingen kunnen mislukken omdat de bevolking er geen vertrouwen in heeft, terwijl andere, slecht ontworpen hervormingen kunnen slagen omdat de bevolking er wel vertrouwen in heeft. Perceptie en vertrouwen van het publiek zijn daarom essentiële Elements factoren voor het slagen of mislukken van een monetaire hervorming.
+Een interessant aspect dat Bernholz naar voren brengt, is dat het succes van een monetaire hervorming niet alleen afhangt van de technische relevantie, maar ook van het vertrouwen dat de bevolking erin heeft. Sommige goed ontworpen hervormingen kunnen mislukken omdat de bevolking er geen vertrouwen in heeft, terwijl andere, slecht ontworpen hervormingen kunnen slagen omdat de bevolking er wel vertrouwen in heeft. Perceptie en vertrouwen van het publiek zijn daarom essentiële Elements factoren voor het slagen of mislukken van een monetaire hervorming.
 
 
 
@@ -1273,7 +1300,7 @@ Een interessant aspect dat Bernold naar voren brengt, is dat het succes van een 
 ### Het geval Zimbabwe
 
 
-![image](assets/chapitre-3.5/1.webp)
+![image](assets/fr/062.webp)
 
 
 Zimbabwe werd onafhankelijk in 1980 en introduceerde de Zimbabwaanse dollar. Aanvankelijk waren twee Zimbabwaanse dollars ongeveer 1,60 US dollar waard. Maar in 1997, na sociale maatregelen ten gunste van oorlogsveteranen, devalueerde de munt met 72% op één dag tijdens Black Friday. In het begin van de jaren 2000 lanceerde het land een landherverdelingsprogramma, waarbij land van blanke eigenaars werd afgepakt en aan de lokale bevolking werd gegeven. Deze beslissing schaadde de export omdat de nieuwe eigenaars vaak niet over de nodige expertise beschikten om grootschalige boerderijen te beheren. Het gevolg was dat Zimbabwe in 1999 nog een netto-exporteur was, maar in 2003 een netto-importeur werd.
@@ -1282,7 +1309,7 @@ Zimbabwe werd onafhankelijk in 1980 en introduceerde de Zimbabwaanse dollar. Aan
 In 2006 introduceerde het land een nieuwe versie van zijn munteenheid, de ZWN, met een Exchange-koers van 1 op 1.000. In 2008 werd een andere munteenheid, de ZWR, geïntroduceerd met een Exchange-koers van 1 op 10 miljard. In 2008 werd een andere denominatie, de ZWR, geïntroduceerd met een Exchange koers van 1 op 10 miljard. Dit leidde tot de creatie van de iconische 100 biljoen bankbiljetten.
 
 
-![image](assets/chapitre-3.5/2.webp)
+![image](assets/fr/063.webp)
 
 
 #### Dollarisering en crisisoplossing
@@ -1305,13 +1332,13 @@ Het is verontrustend dat Zimbabwe sindsdien heeft geprobeerd om zijn eigen munte
 In mijn boek "Alles over Bitcoin" heb ik een heel hoofdstuk gewijd aan de hyperinflatie in Zimbabwe. Ik beschrijf de belangrijkste gebeurtenissen in detail en geef verschillende voorbeelden die illustreren hoe het land uiteindelijk een einde maakte aan de hyperinflatie.
 
 
-![image](assets/chapitre-3.5/3.webp)
+![image](assets/fr/064.webp)
 
 
 Wie nieuwsgierig is naar de Duitse ervaringen na de Eerste Wereldoorlog kan ik het stripboek "The Reich's Banker" van harte aanbevelen Het vertelt hoe Duitsland erin slaagde hyperinflatie te overwinnen, met name door de creatie van de Rentenmark.
 
 
-![image](assets/chapitre-3.5/4.webp)
+![image](assets/fr/065.webp)
 
 
 De belangrijkste conclusie is dat er verschillende strategieën zijn om hyperinflatie te overwinnen. Je kunt kiezen voor dollarisering of een nieuwe munteenheid introduceren. Deze oplossingen werken alleen als de bevolking er vertrouwen in heeft. Het is cruciaal om strenge beperkingen op te leggen. Een echt onafhankelijke centrale bank is essentieel. Ze mag het geld Supply niet opblazen om overheidstekorten te dekken. In het geval van milde inflatie zou het beperken van de groei van het geld Supply voldoende moeten zijn. Bij hyperinflatie is het echter cruciaal om eerst een geld Supply te hebben die past bij de omvang van de economie in kwestie. Vervolgens is het noodzakelijk om de overheid strenge beperkingen op te leggen om de situatie te stabiliseren.
@@ -1323,9 +1350,10 @@ De belangrijkste conclusie is dat er verschillende strategieën zijn om hyperinf
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-De link naar de gescande collectie is beschikbaar in de Bitcoin Educational Toolkit, toegankelijk via het Resources gedeelte van het platform.
+[Ontdek de gescande collectie in de *Bitcoin Educational Toolkit* (ook toegankelijk via de sectie *Bronnen* van het Plan ₿ Network-platform.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
 
+![afbeelding](assets/fr/072.webp)
 # Hoe zijn we hier gekomen?
 
 
@@ -1344,7 +1372,7 @@ Transcript:
 Het ontstaan van de tweede Layer van geld en de eerste centrale banken is een fascinerend onderwerp. Dit thema wordt uitgebreid besproken in het boek "Layered Money" van Nick Battia. Ik kan het van harte aanbevelen aan diegenen die geïnteresseerd zijn in de evolutie en de fijne kneepjes van onze monetaire systemen. Het doel van dit gedeelte is om de oorsprong van geldschepping te begrijpen en hoe dit zou kunnen leiden tot hyperinflatie.
 
 
-![image](assets/chapitre-4.1/1.webp)
+![image](assets/fr/066.webp)
 
 
 ### Piramide geld en centrale banken
@@ -1356,10 +1384,10 @@ Het ontstaan van de tweede Layer van geld en de eerste centrale banken is een fa
 De geschiedenis van het geld gaat terug tot het 13e-eeuwse Italië, met name Florence. In die tijd waren de florijn en de biljetten van Exchange heel gewoon. Een opmerkelijk voorbeeld is de florijn, versierd met de figuur van Sint Jan de Doper.
 
 
-![image](assets/chapitre-4.1/2.webp)
+![image](assets/fr/067.webp)
 
 
-![image](assets/chapitre-4.1/3.webp)
+![image](assets/fr/068.webp)
 
 
 Hoewel het bezit van een echte florijn tegenwoordig duur is, zijn er reproducties verkrijgbaar. Er zijn ook andere munten uit die tijd, zoals de soldo uit de Italiaanse staten van de 17e eeuw, met een afbeelding van Christus.
@@ -1385,7 +1413,7 @@ Dit concept, hoewel het geassocieerd wordt met Nick Bell via zijn Twitter pseudo
 #### De VOC en de Amsterdamse Beurs (17e eeuw)
 
 
-![image](assets/chapitre-4.1/4.webp)
+![image](assets/fr/069.webp)
 
 
 Na de Antwerpse Stock Exchange was een belangrijke mijlpaal de oprichting van de VOC, de Verenigde Oost-Indische Compagnie. Dit bedrijf, gevestigd in Nederland, gaf zelfs zijn eigen munteenheid uit. Na de oprichting van de VOC werd in Amsterdam de eerste aandelenmarkt opgericht. Wat interessant is om te weten, is hoe de Nederlanders erin slaagden om een einde te maken aan de suprematie van Antwerpen als internationaal economisch centrum. Ze blokkeerden eenvoudigweg de toegang tot de Schelde. Deze strategie maakte deel uit van een grotere historische beweging, de opstand van de bedelaars. Een cruciale gebeurtenis in de Europese geschiedenis.
@@ -1394,7 +1422,7 @@ Na de Antwerpse Stock Exchange was een belangrijke mijlpaal de oprichting van de
 #### De tussenkomst van de Bank van Amsterdam
 
 
-![image](assets/chapitre-4.1/5.webp)
+![image](assets/fr/070.webp)
 
 
 Na de oprichting van de VOC was een ander belangrijk element in de monetaire geschiedenis de introductie van gouden munten door de Bank van Amsterdam. Deze munten, die dateren uit 1722, waren gemaakt van zilver. Wat in die tijd echter een revolutie in de financiële wereld teweegbracht, waren niet zozeer de munten zelf, maar de rekeningen die bij de Bank van Amsterdam bij deze munten hoorden. Deze rekeningen werden het belangrijkste middel voor het internationale Exchange. Transacties werden simpelweg vastgelegd in registers of grootboeken. Dankzij dit systeem werd Amsterdam het wereldwijde economische centrum. Na verloop van tijd besloot de Bank van Amsterdam het gebruik van deze rekeningen verplicht te stellen. Onafhankelijke geldwisselaars moesten hun munten elke dag Exchange inleveren bij de bank.
@@ -1411,7 +1439,7 @@ Aanvankelijk werd de eerste Layer van valuta vertegenwoordigd door goud. Deposit
 #### De paniek van 1796
 
 
-![image](assets/chapitre-4.1/6.webp)
+![image](assets/fr/071.webp)
 
 Paniek bij de Seamen's Savings Bank tijdens de paniek van 1857.
 

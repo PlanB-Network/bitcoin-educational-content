@@ -1,0 +1,9 @@
+question: Wann wird die Option -u in lsof verwendet?
+answer: So filtern Sie nach Benutzer
+wrong_answers:
+  - So erzwingen Sie die DNS-Auflösung
+  - So zeigen Sie offene Ports an
+  - So geben Sie einen DNS-Server an
+explanation: |
+  Die Option -u in lsof schränkt die Ausgabe auf Dateien ein, die von einem bestimmten Benutzer oder einer UID geöffnet wurden.
+reviewed: false

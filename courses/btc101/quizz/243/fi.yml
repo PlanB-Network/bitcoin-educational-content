@@ -1,10 +1,9 @@
-question: Mitä mahdollisia liiketoimintamahdollisuuksia Lightning-verkko tarjoaa?
-answer: Uudet taloudelliset mallit, joissa kuluttajat maksavat sisällöstä sen mukaan, mitä he kuluttavat.
+question: Mikä voisi olla päähuolenaihe pankkijärjestelmässä?
+answer: Pankkitoiminnan säännöt eivät ole läpinäkyviä ja ymmärrettäviä kaikille.
 wrong_answers:
-  - Uudet taloudelliset mallit, joissa kuluttajat maksavat käyttäen eri kryptovaluuttoja.
-  - Uudet taloudelliset mallit, joissa kuluttajat käyttävät personoituja lohkoketjuja.
-  - Uudet taloudelliset mallit, joissa kuluttajat eivät maksa mistään sisällöstä.
+  - Pankkijärjestelmä on liian helppo ymmärtää.
+  - Pankkijärjestelmä on liian läpinäkyvä.
+  - Pankkijärjestelmä on liian hajautettu.
 explanation: >-
-  Lightning-verkko avaa lukuisia jännittäviä käyttötapauksia Bitcoin-käyttäjille. Tuloksena olevat taloudelliset mallit ja liiketoimintamahdollisuudet ovat lukuisia
-  ja vaihtelevia, mukaan lukien uudet taloudelliset mallit, joissa kuluttajat maksavat sisällöstä sen mukaan, mitä he kuluttavat.
+  Tekstissä mainitaan, että kysymys siitä, kenen tulisi hallita pankkijärjestelmää, on ratkaiseva, koska pankkitoiminnan säännöt eivät ole läpinäkyviä ja ymmärrettäviä kaikille.
 reviewed: true

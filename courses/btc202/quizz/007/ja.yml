@@ -1,0 +1,9 @@
+question: Blockchainの状況を見るために、Walletは何をする必要がありますか？
+answer: ローカルまたはリモートのノードに接続
+wrong_answers:
+  - ネットワーク内の他のウォレットに問い合わせる
+  - ネットワーク・マイナーへのインタビュー
+  - オンラインExchangeプラットフォームに接続する
+explanation: |
+  Walletは、Blockchainのステータスにアクセスし、そのトランザクションをブロードキャストするために、ノードに接続しなければならない。
+reviewed: true

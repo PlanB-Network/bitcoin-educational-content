@@ -1,0 +1,13 @@
+question: Açık kaynaklı yazılım kullanmanın temel avantajı nedir?
+answer: Kişisel verilerinizi çalmak için gizli bir erişim olmadığının doğrulanmasını sağlar.
+wrong_answers:
+  - Her zaman ücretsizdir.
+  - Kapalı kaynaklı yazılımlardan her zaman daha güvenlidir.
+  - Kapalı kaynaklı yazılımlara göre her zaman daha kullanıcı dostudur.
+explanation: |
+  Açık kaynaklı yazılım, kodu bilinen ve
+  herkes tarafından erişilebilir. Bu, aşağıdakiler arasında doğrulama yapılmasına olanak tanır
+  çalmak için gizli bir erişim olmadığından emin olmaktır
+  kişisel veriler. Ancak, her zaman ücretsiz, daha güvenli veya
+  kapalı kaynaklı yazılımlardan daha kullanıcı dostu.
+reviewed: true

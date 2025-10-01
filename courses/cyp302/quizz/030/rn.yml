@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe rikomeye riri hagati y’urudodo rw’imburakimazi n’urudodo rw’imburakimazi?
+answer: Urudodo rw'imburakimazi ruva ku nzira y'imburakimazi, mu gihe urudodo rw'imburakimazi ruterwa n'ubuhinga buva kuri seed.
+wrong_answers:
+  - Urudodo rw'ibinyoma rukoresha ibice 1 gusa.
+  - Urudodo rw’imburakimazi rwama rurerure kuruta urudodo rw’imburakimazi kuko hariho igikorwa c’akameremere kuri rwo.
+  - Urudodo rw'ibinyoma rusobanurwa n'ikigereranyo c'ibice bibiri, mu gihe umurongo w'ibinyoma usobanurwa n'ikigereranyo c'ibice cumi na bitandatu.
+explanation: |
+  Urudodo rw'imburakimazi ruva ku nzira y'imburakimazi, mu gihe urudodo rw'imburakimazi rukorwa hakoreshejwe ubuhinga bwo kwagura n'intango seed.
+reviewed: false

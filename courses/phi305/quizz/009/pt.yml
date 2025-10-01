@@ -1,0 +1,9 @@
+question: A família de Spinoza era?
+answer: Judeu.
+wrong_answers:
+  - Católico.
+  - Protestante.
+  - Ateu.
+explanation: |
+  A família de Spinoza era judia. Os seus pais eram judeus portugueses que tinham fugido à Inquisição e se tinham estabelecido em Amesterdão, onde existia uma grande comunidade judaica sefardita.
+reviewed: false

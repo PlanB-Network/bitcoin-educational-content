@@ -170,7 +170,7 @@ Unaweza pia kuchunguza mipangilio mingine inayopatikana ili kubinafsisha program
 
 
 
-Ili uweze kutuma ujumbe, lazima kwanza uongeze anwani. Kutoka kwa ukurasa wa nyumbani, bofya kitufe cha bluu "**".
+Ili uweze kutuma ujumbe, lazima kwanza uongeze anwani. Kutoka kwa ukurasa wa nyumbani, bofya kitufe cha bluu **"**".
 
 
 
@@ -242,7 +242,7 @@ Hongera, sasa uko kwenye kasi ya kutumia ujumbe wa Olvid, njia mbadala nzuri ya 
 
 
 
-Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail :
+Pia ninapendekeza somo hili lingine, ambalo ninakuletea Proton Mail, njia mbadala ya ufaragha zaidi kwa Gmail:
 
 
 

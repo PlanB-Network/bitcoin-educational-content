@@ -1,0 +1,10 @@
+question: Karışım sonrası Wallet'ın Zerolink protokolündeki rolü nedir?
+answer: UTXO'ları karıştırdıktan sonra saklamak için.
+wrong_answers:
+  - UTXO'ları karıştırmadan önce saklamak için.
+  - Değişiklik UTXO'larını saklamak için.
+  - Konsolidasyon UTXO'larını saklamak için.
+explanation: |
+  Karışım sonrası Wallet, karıştırılmış madeni paralar için ayrılmıştır.
+  
+reviewed: false

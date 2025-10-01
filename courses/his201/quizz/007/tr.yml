@@ -1,0 +1,9 @@
+question: Bernard von NotHaus tarafından 1998 yılında altın ve gümüşe dayalı hangi para birimi yaratılmıştır?
+answer: Özgürlük Doları
+wrong_answers:
+  - Özgürlük Rezervi
+  - e-altın
+  - GoldMoney
+explanation: |
+  Bu para birimi gümüş sikkeler ve temsili banknotlar halinde ve 2003 yılından itibaren dijital formda mevcuttu.
+reviewed: true

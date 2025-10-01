@@ -1,0 +1,9 @@
+question: Ni itegeko irihe rishobora gukoreshwa mu gushiramwo porogarama zivuye mu bubiko bwa Ubuntu buzwi?
+answer: sudo apt gushiramwo
+wrong_answers:
+  - sudo yum gushiramwo
+  - sudo irema
+  - gushiramwo porogaramu
+explanation: |
+  Itegeko rya "sudo apt install" rishiraho porogaramu biciye ku mucungerezi wa porogaramu APT, uburyo kavukire kuri Ubuntu.
+reviewed: false

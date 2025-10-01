@@ -1,0 +1,9 @@
+question: Dokumen mana yang berfungsi sebagai referensi teknis untuk spesifikasi protokol TCP/IP?
+answer: RFC
+wrong_answers:
+  - Buku Putih
+  - ISO
+  - IIP
+explanation: |
+  RFC (Request For Comments) adalah dokumen referensi yang mendefinisikan spesifikasi protokol TCP/IP.
+reviewed: false

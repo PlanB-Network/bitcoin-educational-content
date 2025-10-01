@@ -1,0 +1,9 @@
+question: Kako se zove jedinica podataka koja se razmenjuje na Aplikacionom sloju Layer (TCP/IP)?
+answer: Poruka
+wrong_answers:
+  - Ram
+  - Segment
+  - Datagram
+explanation: |
+  U TCP/IP modelu, podaci razmenjeni na Application Layer nazivaju se porukama (ili tokovima, u zavisnosti od konteksta).
+reviewed: false

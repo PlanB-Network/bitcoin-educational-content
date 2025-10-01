@@ -1,0 +1,9 @@
+question: Ni kuki ama UTXO akenshi agereranywa n’amafaranga y’amahera?
+answer: Bitegerezwa gukoreshwa vyose .
+wrong_answers:
+  - Bishobora gukoreshwa incuro nyinshi gushika biheze .
+  - Bikoreshwa gusa mu bikorwa bimwebimwe vyihariye
+  - Bigereranya amafaranga makeyi adahinduka y'ama bitcoins .
+explanation: |
+  Cokimwe n’agapapuro k’amahera, UTXO itegerezwa gukoreshwa yose mu gucuruza, kandi iyo yose irenze irasubirwamwo uwuyirungitse nk’ihinduka.
+reviewed: false

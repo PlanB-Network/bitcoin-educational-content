@@ -1,0 +1,9 @@
+question: Mis vahe on Umbrel Home ja umbrelOS vahel?
+answer: Umbrel Home on eelinstalleeritud miniserver, umbrelOS on do-it-yourself paigaldus
+wrong_answers:
+  - Umbrel Home on tasuta, umbrelOS ei ole
+  - Umbrel Home ei toeta Bitcoin; umbrelOS toetab seda
+  - Umbrel Home on avatud lähtekoodiga, umbrelOS on patenteeritud
+explanation: |
+  Umbrel Home'i müüakse võtmed kätte koos juba paigaldatud umbrelOSiga, samas kui umbrelOSi saab paigaldada iseenda riistvarale.
+reviewed: true

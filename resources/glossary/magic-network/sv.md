@@ -31,4 +31,4 @@ fabfb5da
 ```
 
 
-> ► * Dessa 4 byte kallas ibland också "Magic Number", "Magic Bytes" eller "Start String"
+> ► *Dessa 4 byte kallas ibland också "Magic Number", "Magic Bytes" eller "Start String"*

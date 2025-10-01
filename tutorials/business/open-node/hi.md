@@ -1,5 +1,5 @@
 ---
-name: ओपन नोड
+name: Open Node
 description: अपने ऑनलाइन व्यवसाय के लिए ओपन नोड सेट अप करें।
 ---
 ![cover](assets/cover.webp)

@@ -59,7 +59,7 @@ För att ladda ner VirtualBox för installation på en Windows-maskin finns det 
 
 
 
-Installationen av VirtualBox** är enkel och processen är densamma för alla versioner av Windows. Börja med att starta den körbara filen för VirtualBox som du just har laddat ner och klicka sedan på "**Nästa**".
+Installationen av **VirtualBox** är enkel och processen är densamma för alla versioner av Windows. Börja med att starta den körbara filen för VirtualBox som du just har laddat ner och klicka sedan på "**Nästa**".
 
 
 
@@ -67,15 +67,15 @@ Installationen av VirtualBox** är enkel och processen är densamma för alla ve
 
 
 
-Denna installation är anpassningsbar, men jag rekommenderar att du installerar alla funktioner: vilket är fallet med standardvalet. I bilden nedan kan du se olika Elements, inklusive :
+Denna installation är anpassningsbar, men jag rekommenderar att du installerar alla funktioner: vilket är fallet med standardvalet. I bilden nedan kan du se olika Elements, inklusive:
 
 
 
 
 
-- VirtualBox USB Support** för att aktivera stöd för USB-enheter i VirtualBox
-- VirtualBox Bridged Network** för att integrera nätverksstöd i "Bridge"-läge (den virtuella maskinen kan ansluta direkt till ditt lokala nätverk)
-- VirtualBox Host-Only Network** för att integrera nätverksstöd i läget "Host-Only" (den virtuella maskinen kan bara kommunicera med din fysiska Windows 11-värd och andra virtuella maskiner i det här läget)
+- **VirtualBox USB Support** för att aktivera stöd för USB-enheter i VirtualBox
+- **VirtualBox Bridged Network** för att integrera nätverksstöd i "Bridge"-läge (den virtuella maskinen kan ansluta direkt till ditt lokala nätverk)
+- **VirtualBox Host-Only Network** för att integrera nätverksstöd i läget "Host-Only" (den virtuella maskinen kan bara kommunicera med din fysiska Windows 11-värd och andra virtuella maskiner i det här läget)
 
 
 
@@ -165,10 +165,10 @@ För att skapa en ny virtuell maskin på VirtualBox klickar du bara på knappen 
 
 
 
-- Inställningar**: allmän konfiguration av VirtualBox (standardmapp för virtuella datorer, uppdateringshantering, språk, NAT-nätverk, tillägg etc.)
-- Import**: importera en virtuell appliance i OVF-format
-- Export**: exportera en befintlig virtuell maskin i OVF-format för att skapa en virtuell appliance
-- Lägg till**: lägg till en befintlig virtuell maskin i din VirtualBox-inventering, i standard VirtualBox-format (.vbox) eller XML-format
+- **Inställningar**: allmän konfiguration av VirtualBox (standardmapp för virtuella datorer, uppdateringshantering, språk, NAT-nätverk, tillägg etc.)
+- **Import**: importera en virtuell appliance i OVF-format
+- **Export**: exportera en befintlig virtuell maskin i OVF-format för att skapa en virtuell appliance
+- **Lägg till**: lägg till en befintlig virtuell maskin i din VirtualBox-inventering, i standard VirtualBox-format (.vbox) eller XML-format
 
 
 
@@ -184,16 +184,16 @@ Till vänster ger avsnittet "**Tools**" tillgång till **avancerade funktioner, 
 
 
 
-**Som en påminnelse stöder VirtualBox en mängd olika operativsystem, inklusive Windows, Linux och BSD. I det här exemplet ska jag skapa en virtuell maskin för Windows 11. Flera fält måste fyllas i:
+**Som en påminnelse stöder VirtualBox en mängd olika operativsystem, inklusive Windows, Linux och BSD. I det här exemplet ska jag skapa en virtuell maskin för Windows 11. Flera fält måste fyllas i:**
 
 
 
 
 
-- Namn**: namn på den virtuella maskinen (detta är det namn som kommer att visas i VirtualBox)
-- Maskinmapp**: var den virtuella maskinen ska lagras, eftersom en undermapp med VM:ns namn kommer att skapas på denna plats
-- Typ**: typ av operativsystem, beroende på vilket operativsystem du vill installera
-- Version**: versionen av det system du vill installera, i det här fallet Windows 11, så "**Windows11_64**"
+- **Namn**: namn på den virtuella maskinen (detta är det namn som kommer att visas i VirtualBox)
+- **Maskinmapp**: var den virtuella maskinen ska lagras, eftersom en undermapp med VM:ns namn kommer att skapas på denna plats
+- **Typ**: typ av operativsystem, beroende på vilket operativsystem du vill installera
+- **Version**: versionen av det system du vill installera, i det här fallet Windows 11, så "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Klicka på "**Nästa**" för att fortsätta.
 
 
 
-Beroende på vilket operativsystem du väljer i föregående steg ger **VirtualBox rekommendationer om vilka resurser som ska allokeras till den virtuella maskinen**. Här talar vi om RAM-minnet som du vill tilldela VM. Låt oss anta 4 GB, eftersom detta verkligen rekommenderas för Windows 11, men om du har ont om resurser, ange 2 GB istället. ** Fortsätt
+Beroende på vilket operativsystem du väljer i föregående steg ger **VirtualBox rekommendationer om vilka resurser som ska allokeras till den virtuella maskinen**. Här talar vi om RAM-minnet som du vill tilldela VM. Låt oss anta 4 GB, eftersom detta verkligen rekommenderas för Windows 11, men om du har ont om resurser, ange 2 GB istället. **Fortsätt**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox stöder tre olika format för virtuella Hard-diskar, vilket är en st
 
 
 
-- VDI**, det officiella VirtualBox-formatet
-- VHD**, som är det officiella Hyper-V-formatet, även om det nya VHDX-formatet används oftare nuförtiden
-- VMDX** är det officiella VMware-formatet för både VMware Workstation och VMware ESXi
+- **VDI**, det officiella VirtualBox-formatet
+- **VHD**, som är det officiella Hyper-V-formatet, även om det nya VHDX-formatet används oftare nuförtiden
+- **VMDX** är det officiella VMware-formatet för både VMware Workstation och VMware ESXi
 
 
 
@@ -273,7 +273,7 @@ Vid den här tidpunkten finns den virtuella datorn i vårt lager, den är konfig
 
 
 
-För att installera Windows 11, eller något annat system, behöver vi installationskällor. I de flesta fall använder vi en diskavbildning i ISO-format för att installera ett operativsystem. **Det är nödvändigt att ladda Windows 11 ISO-avbildningen i vår virtuella VM: s virtuella DVD-enhet
+För att installera Windows 11, eller något annat system, behöver vi installationskällor. I de flesta fall använder vi en diskavbildning i ISO-format för att installera ett operativsystem. **Det är nödvändigt att ladda Windows 11 ISO-avbildningen i vår virtuella VM:s virtuella DVD-enhet.**
 
 
 
@@ -333,7 +333,7 @@ I mitt fall har den virtuella maskinen 2 virtuella processorer:
 
 
 
-**Tveka inte att ta en titt på de andra avsnitten i konfigurationsmenyn.
+**Tveka inte att ta en titt på de andra avsnitten i konfigurationsmenyn.**
 
 
 
@@ -390,10 +390,10 @@ På vår fysiska Windows 11-värd, där VirtualBox är installerat, kan vi se at
 
 
 
-- VBOX**-filen (i XML-format) som motsvarar VM-konfigurationen (RAM, CPU, etc.)
-- Filen VBOX-PREV** är en säkerhetskopia av den tidigare konfigurationen
-- VDI**-filen motsvarar den virtuella Hard-disken i dynamiskt läge, så den är för närvarande bara 13 GB, medan den maximala storleken är 64 GB
-- NVRAM**-filen innehåller BIOS-tillståndet för den virtuella maskinen, vilket motsvarar det icke-flyktiga minnet i en fysisk maskin
+- **VBOX-filen** (i XML-format) som motsvarar VM-konfigurationen (RAM, CPU, etc.)
+- Filen **VBOX-PREV** är en säkerhetskopia av den tidigare konfigurationen
+- **VDI-filen** motsvarar den virtuella Hard-disken i dynamiskt läge, så den är för närvarande bara 13 GB, medan den maximala storleken är 64 GB
+- **NVRAM-filen** innehåller BIOS-tillståndet för den virtuella maskinen, vilket motsvarar det icke-flyktiga minnet i en fysisk maskin
 
 
 

@@ -1,7 +1,8 @@
-question: Vilken av följande funktioner bidrog till expansionen av Bitcoin, s användning på mörka webbmarknadsplatser som Silk Road?
-answer: Dess okontrollerbara och pseudonyma karaktär.
+question: hur löser Bitcoin de bysantinska generalernas problem?
+answer: Genom att använda en Blockchain baserad på Proof of Work med en flytande svårighetsgrad.
 wrong_answers:
-  - Det är centraliserad kontroll.
-  - Dess spårbarhet och kontrollerbara natur.
-  - Dess avsaknad av pseudonymitet.
+  - Genom användning av digitala signaturer.
+  - Genom användning av en offentlig Ledger.
+  - Genom att använda en Proof of Stake-algoritm.
+explanation: >-
 reviewed: true

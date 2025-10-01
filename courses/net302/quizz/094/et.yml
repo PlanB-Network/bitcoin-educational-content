@@ -1,0 +1,9 @@
+question: Millist käsku saab kasutada DNS-serveri päringu tegemiseks, et saada domeeni IP Address?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup on DNS päringu tööriist domeeninimede IP-aadressideks lahtimõtestamiseks.
+reviewed: false

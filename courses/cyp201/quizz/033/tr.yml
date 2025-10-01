@@ -1,0 +1,9 @@
+question: SIGHASH_NONE sighash bayrağı neye izin verir?
+answer: İmzalandıktan sonra çıktıların değiştirilmesi
+wrong_answers:
+  - İmzaladıktan sonra girdilerin değiştirilmesi
+  - Tüm giriş ve çıkışları kapsar
+  - Değişiklikleri yalnızca bir çıktı ile sınırlama
+explanation: |
+  SIGHASH_NONE yalnızca girişleri kapsar, çıkışları imzaladıktan sonra değiştirilebilir bırakır.
+reviewed: false

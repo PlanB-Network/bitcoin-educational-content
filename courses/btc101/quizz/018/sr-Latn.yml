@@ -1,13 +1,12 @@
-question: Koji su bili prvi oblici valute?
-answer: Roba kao što su žito i stoka.
+question: Koja je glavna prednost Bitkoina u odnosu na druge oblike valute?
+answer: Nudi odličnu vrednost zbog strogo ograničene ponude i neutralnosti.
 wrong_answers:
-  - Zlato i srebro.
-  - Papirne beleške.
-  - Digitalni resursi.
+  - To je nedeljivo i ne može se preneti.
+  - To je odličan primer valute koja trpi monetarnu inflaciju.
+  - To je široko prihvaćeno u trgovini od strane svih trgovaca na svetu.
 explanation: |
-  Prvi oblici valute često su bili povezani sa osnovnim
-  dobrima kao što su žito, stoka i druge robe.
-  Međutim, ova dobra su imala velike nedostatke, kao što je
-  kvarljivost, što je otežavalo njihovo korišćenje kao
-  sredstvo dugoročnog štednje.
+  Glavna prednost Bitkoina u odnosu na druge oblike valute
+  je što nudi odličnu čuvanje vrednosti zahvaljujući svojoj
+  strogo ograničenoj ponudi i nedostatku poverljive strane. Ovo
+  ga čini dobrim izborom za dugoročne uštede.
 reviewed: true

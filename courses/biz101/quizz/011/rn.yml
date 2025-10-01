@@ -1,0 +1,9 @@
+question: Ni akamaro akahe Lightning iha abacuruzi ku bijanye n’uguheza kwishura?
+answer: Ivyishyurwa kuri Lightning biraheza hafi ubwo nyene, bikagabanya ingorane zo guhindura canke guhenda.
+wrong_answers:
+  - Bisaba amasaha 24 umuntu arindiriye imbere y’uko amahera akoreshwa.
+  - Bituma abakiriya bashobora gusubira gusaba amahera barishe igihe cose bashaka.
+  - Bituma amafaranga akoreshwa ashobora gusubirwamwo bimwe bishitse gushika ku misi 90.
+explanation: |
+  Na Lightning, iyo amahera amaze gushikirizwa no gushikirizwa biciye ku rubuga, ni iherezo. Ivyo bikuraho ibintu vy’ugusubiramwo amahera biboneka mu buryo bwa kera bwo kwishura.
+reviewed: false

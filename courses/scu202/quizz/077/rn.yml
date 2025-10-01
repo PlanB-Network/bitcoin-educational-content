@@ -1,0 +1,9 @@
+question: Ni igiki gikoreshwa kuri Android?
+answer: Rema umwirondoro witandukanije kugira ngo ugabanye ikoreshwa
+wrong_answers:
+  - Ubwo nyene gupfuka amakuru yose ya telefone
+  - Guhagarika amatelefone udashaka
+  - Gushiramwo porogaramu hanze y'iduka rya Play
+explanation: |
+  Shelter iragufasha gukoresha igikorwa c'Umurongo w'Akazi kugira ngo utandukanye ibikorwa n'amakuru mu kibanza kiri ukwaco.
+reviewed: false

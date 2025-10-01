@@ -1,0 +1,9 @@
+question: Evde internette gezinmek için VPN kullanmanın faydalarından biri nedir?
+answer: Üçüncü tarafların oluşturduğu tehdidi azaltarak çevrimiçi trafik için güvenliği artırır.
+wrong_answers:
+  - İnternet bağlantınızın hızını artırabilir.
+  - Her zaman daha fazla web sitesine erişim sağlar.
+  - Kurulu bir VPN bağlantısına sahip olmamaya kıyasla mobil veri tüketiminden tasarruf sağlar.
+explanation: |
+  Evde bir VPN kullanmak, çevrimiçi olarak Exchange yaptığınız verilerin güvenliğini artırabilir. VPN'ler verileri şifreleyerek üçüncü tarafların müdahale etmesini daha zor hale getirir.
+reviewed: true

@@ -8,7 +8,7 @@ description: Un bot Telegram per acquistare Bitcoin in confidenzialità
 
 _Questo tutorial è stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Introduzione
+## Introduzione
 Il BitcoinVoucherBot è uno strumento con il quale si possono acquistare Bitcoin in cambio di euro.
 
 ### KYC Light
@@ -50,9 +50,9 @@ Tra le principali operazioni ci sono:
 - _/fees_: un comando per controllare le fee di rete. Per valutarle, è sempre meglio affidarsi a mempool.space.
 - _/support_: in caso di necessità, fa comparire i contatti per segnalare al team di supporto le problematiche.
 
-# Procedura di acquisto Bitcoin
+## Procedura di acquisto Bitcoin
 
-## Preparazione dell'ordine
+### Preparazione dell'ordine
 Cliccare _/purchase_ nel menu dei comandi
 
 ![image](assets/it/03.webp)
@@ -90,7 +90,7 @@ Se tutto è corretto, proseguire cliccando _Proceed_.
 
 ![image](assets/it/10.webp)
 
-## Pagamento
+### Pagamento
 
 Dopo qualche istante, necessario per processare i dati, VoucherBot replica con un messaggio che contiene tutti i dettagli necessari a completare l'ordine. A seconda di quanto richiesto dalla propria banca, le informazioni rilevanti sono:
 - `IBAN`, indispensabile per il versamento, oltre all'indirizzo del ricevente;
@@ -114,7 +114,7 @@ Nota bene:
 
 ---
 
-## Riscatto
+### Riscatto
 Non appena il pagamento è giunto a buon fine, Bitcoin VoucherBot manda il voucher direttamente nella chat. Il voucher lightning è sottoforma di QR code, stampato su sfondo arancione.
 
 ![image](assets/it/31.webp)

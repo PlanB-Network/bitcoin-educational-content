@@ -1,0 +1,12 @@
+question: İngiltere Merkez Bankası'nın özel bankaları para sisteminde ikincil bir konuma düşürmesinin sonucu neydi?
+answer: Üçüncü bir Layer para birimi oluşturuldu
+wrong_answers:
+  - İngiltere Merkez Bankası iflas etti
+  - Altının değeri arttı
+  - Amsterdam Bankası küresel ekonomi merkezi haline geldi
+explanation: |
+  İngiltere Merkez Bankası özel bankaları ikincil konuma düşürdüğünde
+  para sisteminde üçüncü bir Layer para birimi yaratıldı. Çıkarılan senetler
+  özel bankalar tarafından artık altına değil, kağıt paraya çevrilebiliyordu
+  i̇ngiltere Merkez Bankası'nın kendisi de altına çevrilebilirdi.
+reviewed: false

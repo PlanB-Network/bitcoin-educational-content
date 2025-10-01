@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście autora wprowadzono znaczące zmiany w celu uaktualnienia samouczka
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście autora wprowadzono znaczące zmiany w celu uaktualnienia samouczka.*
 
 
 
@@ -30,7 +30,7 @@ pfSense to darmowy system operacyjny typu open source, który przekształca dowo
 
 
 
-Jego główne funkcje znacznie ewoluowały na przestrzeni lat i były ulepszane z każdą nową wersją. Do chwili obecnej pfSense oferuje :
+Jego główne funkcje znacznie ewoluowały na przestrzeni lat i były ulepszane z każdą nową wersją. Do chwili obecnej pfSense oferuje:
 
 
 
@@ -63,7 +63,7 @@ Na koniec warto pamiętać, że pfSense wymaga co najmniej dwóch fizycznych int
 
 
 
-Najnowsza stabilna wersja pfSense, w momencie pisania tego poradnika, to 2.8 (wydana w czerwcu 2025 r.). Obraz ISO lub plik instalacyjny dostosowany do posiadanego środowiska sprzętowego można pobrać bezpośrednio z oficjalnej strony :
+Najnowsza stabilna wersja pfSense, w momencie pisania tego poradnika, to 2.8 (wydana w czerwcu 2025 r.). Obraz ISO lub plik instalacyjny dostosowany do posiadanego środowiska sprzętowego można pobrać bezpośrednio z oficjalnej strony:
 
 
 
@@ -73,7 +73,7 @@ Najnowsza stabilna wersja pfSense, w momencie pisania tego poradnika, to 2.8 (wy
 
 
 
-Portal pobierania umożliwia wybór :
+Portal pobierania umożliwia wybór:
 
 
 
@@ -105,15 +105,15 @@ W tym przykładzie instalacja jest wykonywana na maszynie wirtualnej z systemem 
 
 
 
-W przypadku standardowego wdrożenia zalecamy :
+W przypadku standardowego wdrożenia zalecamy:
 
 
 
 
 
-- minimum 1 GB pamięci RAM** (zalecane jest 2 GB lub więcej, aby umożliwić obsługę dodatkowych pakietów lub ZFS).
-- 8 GB miejsca na dysku** (20 GB lub więcej jest preferowane w przypadku bardziej zaawansowanych konfiguracji, zwłaszcza jeśli instalujesz pamięć podręczną proxy, IDS/IPS lub szczegółowe dzienniki).
-- Co najmniej dwa wirtualne interfejsy sieciowe** (jeden dla sieci WAN, jeden dla sieci LAN). W VirtualBox należy dodać je do ustawień maszyny wirtualnej przed jej uruchomieniem.
+- minimum 1 GB pamięci RAM (zalecane jest 2 GB lub więcej, aby umożliwić obsługę dodatkowych pakietów lub ZFS).
+- 8 GB miejsca na dysku (20 GB lub więcej jest preferowane w przypadku bardziej zaawansowanych konfiguracji, zwłaszcza jeśli instalujesz pamięć podręczną proxy, IDS/IPS lub szczegółowe dzienniki).
+- Co najmniej dwa wirtualne interfejsy sieciowe (jeden dla sieci WAN, jeden dla sieci LAN). W VirtualBox należy dodać je do ustawień maszyny wirtualnej przed jej uruchomieniem.
 
 
 
@@ -221,7 +221,7 @@ Pierwsze pytanie dotyczy konfiguracji sieci VLAN. Na tym etapie, w przypadku pod
 
 
 
-następnie program pfSense wyświetli monit o określenie, który Interface będzie używany dla sieci WAN (dostęp do Internetu). Można wybrać pomiędzy :
+następnie program pfSense wyświetli monit o określenie, który Interface będzie używany dla sieci WAN (dostęp do Internetu). Można wybrać pomiędzy:
 
 
 
@@ -304,13 +304,13 @@ W przeglądarce przejdź do Address wskazanego przez konsolę (domyślnie `https
 
 
 
-Zostanie wyświetlony ekran logowania. Domyślne dane logowania to :
+Zostanie wyświetlony ekran logowania. Domyślne dane logowania to:
 
 
 
 
-- Nazwa użytkownika:** `admin`
-- Hasło:** `pfsense`
+- **Nazwa użytkownika:** `admin`
+- **Hasło:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Przy pierwszym połączeniu pfSense wyświetli monit o wykonanie **Kreatora konf
 
 
 
-Możesz :
+Możesz:
 
 
 
@@ -352,7 +352,7 @@ Wskaż strefę czasową witryny, aby dzienniki i harmonogramy były spójne (np.
 
 
 
-Konfiguracja połączenia WAN :
+Konfiguracja połączenia WAN:
 
 
 
@@ -383,7 +383,7 @@ Zabezpiecz pfSense, natychmiast ustawiając silne hasło dla użytkownika `admin
 
 
 
-Przed wdrożeniem zapory sieciowej należy upewnić się, że dostępna jest najnowsza wersja :
+Przed wdrożeniem zapory sieciowej należy upewnić się, że dostępna jest najnowsza wersja:
 
 
 
@@ -429,10 +429,10 @@ Aby zakończyć wdrożenie ze spokojem ducha:
 
 
 
-- Modyfikacja reguł zapory**: domyślnie program pfSense zezwala na cały ruch wychodzący w sieci LAN i blokuje ruch przychodzący w sieci WAN. Dostosuj te reguły zgodnie z wymaganiami.
-- Skonfiguruj bezpieczny dostęp zdalny**: w razie potrzeby włącz dostęp do sieci Interface z sieci WAN tylko przez VPN lub z ograniczeniami IP.
-- Włącz powiadomienia**: skonfiguruj serwer SMTP do otrzymywania powiadomień (awarie, aktualizacje, błędy).
-- Zainstaluj przydatne rozszerzenia**: na przykład IDS/IPS (Snort, Suricata), proxy (Squid), filtrowanie DNS (pfBlockerNG).
+- **Modyfikacja reguł zapory**: domyślnie program pfSense zezwala na cały ruch wychodzący w sieci LAN i blokuje ruch przychodzący w sieci WAN. Dostosuj te reguły zgodnie z wymaganiami.
+- **Skonfiguruj bezpieczny dostęp zdalny**: w razie potrzeby włącz dostęp do sieci Interface z sieci WAN tylko przez VPN lub z ograniczeniami IP.
+- **Włącz powiadomienia**: skonfiguruj serwer SMTP do otrzymywania powiadomień (awarie, aktualizacje, błędy).
+- Zainstaluj przydatne **rozszerzenia**: na przykład IDS/IPS (Snort, Suricata), proxy (Squid), filtrowanie DNS (pfBlockerNG).
 
 
 

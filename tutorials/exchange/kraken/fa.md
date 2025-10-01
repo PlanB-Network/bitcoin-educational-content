@@ -1,5 +1,5 @@
 ---
-name: کراکن
+name: Kraken
 description: چگونه می‌توانم بیت‌کوین‌ها را در Kraken بخرم و بفروشم؟
 ---
 ![cover](assets/cover.webp)

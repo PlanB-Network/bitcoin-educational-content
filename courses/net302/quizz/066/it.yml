@@ -1,0 +1,9 @@
+question: Quali sono i due tempi di vita associati a un indirizzo IPv6 assegnato automaticamente?
+answer: Durata preferita e durata valida
+wrong_answers:
+  - Tempo di locazione e tempo di attesa
+  - Tempo di vita e scadenza
+  - Durata iniziale e durata secondaria
+explanation: |
+  La durata preferita determina il periodo di utilizzo normale dell'indirizzo e la durata valida il periodo totale di validità.
+reviewed: false

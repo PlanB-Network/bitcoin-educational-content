@@ -1,0 +1,9 @@
+question: Jaká je funkce parametru assumevalid v Bitcoin core?
+answer: Ignorování ověření skriptu před referenčním blokem
+wrong_answers:
+  - Ignorování ověření Proof-of-Work před referenčním blokem
+  - Ignorování ověření záhlaví před referenčním blokem
+  - Vynucení Tor pro vyhledávání partnerů
+explanation: |
+  Assumevalid urychluje IBD tím, že ignoruje ověřování skriptů před známým blokem, zatímco všechny ostatní validace zachovává.
+reviewed: true

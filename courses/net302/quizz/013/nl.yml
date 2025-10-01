@@ -1,0 +1,9 @@
+question: Welke organisatie kent IP-protocolversienummers toe?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  De Internet Assigned Numbers Authority (IANA) beheert de Assignment van IP-protocolversienummers en de toewijzing van protocolreeksen.
+reviewed: false

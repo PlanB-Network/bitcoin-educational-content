@@ -59,8 +59,8 @@ Setelah Anda melengkapi semua bagian dan mengirimkan dokumen yang diperlukan, kl
 Setelah akun Anda diverifikasi, Anda akan mengakses platform di mana Anda akan ditawarkan dua antarmuka:
 
 
-- Kraken**: Antarmuka yang disederhanakan yang menawarkan fungsionalitas penting.
-- Kraken Pro**: Antarmuka tingkat lanjut dengan fitur tambahan, terutama untuk trading.
+- **Kraken**: Antarmuka yang disederhanakan yang menawarkan fungsionalitas penting.
+- **Kraken Pro**: Antarmuka tingkat lanjut dengan fitur tambahan, terutama untuk trading.
 
 Jika tujuan Anda hanya untuk membeli dan menjual bitcoin, pilihlah antarmuka yang disederhanakan. Anda akan selalu memiliki opsi untuk beralih ke antarmuka lanjutan nanti jika perlu.
 
@@ -158,9 +158,9 @@ Pilih jumlah, pilih mata uang kripto yang ingin Anda dapatkan, lalu konfirmasika
 Untuk transaksi ini, Anda dapat memilih di antara berbagai jenis order: *Market*, *Limit*, atau *Stop-Loss*:
 
 
-- Pasar* : Memungkinkan pembelian langsung dengan harga pasar saat ini;
-- Limit*: Memungkinkan Anda untuk menentukan harga pembelian, dan order hanya akan dieksekusi jika harga pasar mencapai jumlah ini;
-- Stop-Loss*: Menjual secara otomatis ketika harga mencapai ambang batas tertentu.
+- **Pasar**: Memungkinkan pembelian langsung dengan harga pasar saat ini;
+- **Limit**: Memungkinkan Anda untuk menentukan harga pembelian, dan order hanya akan dieksekusi jika harga pasar mencapai jumlah ini;
+- **Stop-Loss**: Menjual secara otomatis ketika harga mencapai ambang batas tertentu.
 
 ## 7 - Manajemen transaksi dan akuntansi
 

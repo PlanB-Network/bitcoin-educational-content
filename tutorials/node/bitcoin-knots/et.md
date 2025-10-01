@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Sõlmede sõlmimine
+name: Bitcoin Knots
 description: Kuidas käivitada sõlme Bitcoin Knots alternatiivse kliendiga?
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ Siiski on saadaval ka alternatiivne tarkvara. Need ei ole Altcoin-ga seotud sõl
 Core'i asemel on kaks peamist põhjust kasutada alternatiivset klienti, nagu Knots:
 
 
-- Tehniline**: Need kliendid pakuvad Core'ile sageli erinevaid võimalusi, eelkõige Mempool haldamise osas, määrates kindlaks, milliseid tehinguid teie sõlmpunkt aktsepteerib ja edastab.
-- Poliitika**: Mõned inimesed eelistavad kasutada alternatiivseid kliente, nagu Knots, mittetehnilistel põhjustel, eelkõige selleks, et toetada alternatiivi Core'ile ja seega vähendada selle monopoli. Kui Core peaks kunagi ohtu sattuma, oleks kasulik mitte ainult omada kindlaid, hästi hooldatud alternatiivseid kliente, vaid ka teada, kuidas neid kasutada. Teised kasutavad Knots'i protestiks, sest nad on kaotanud usalduse Core'i arendajate vastu või ei kiida heaks enamuse kliendi juhtimist.
+- **Tehniline**: Need kliendid pakuvad Core'ile sageli erinevaid võimalusi, eelkõige Mempool haldamise osas, määrates kindlaks, milliseid tehinguid teie sõlmpunkt aktsepteerib ja edastab.
+- **Poliitika**: Mõned inimesed eelistavad kasutada alternatiivseid kliente, nagu Knots, mittetehnilistel põhjustel, eelkõige selleks, et toetada alternatiivi Core'ile ja seega vähendada selle monopoli. Kui Core peaks kunagi ohtu sattuma, oleks kasulik mitte ainult omada kindlaid, hästi hooldatud alternatiivseid kliente, vaid ka teada, kuidas neid kasutada. Teised kasutavad Knots'i protestiks, sest nad on kaotanud usalduse Core'i arendajate vastu või ei kiida heaks enamuse kliendi juhtimist.
 
 ## Kuidas paigaldada Bitcoin sõlme?
 

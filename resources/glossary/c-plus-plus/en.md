@@ -2,6 +2,6 @@
 term: C++ (PLUS PLUS)
 ---
 
-A versatile programming language that evolved from C, known for its power and flexibility. Used for complex software development, it supports object-oriented programming and offers rich features for memory management and system resource handling.
+A versatile programming language that evolved from C, known for its power and flexibility. It is widely used for complex software development, supporting object-oriented programming and offering robust features for memory management and system resource handling.
 
-Bitcoin Core, the predominant implementation of the Bitcoin protocol, is written in C++. This is a legacy of Satoshi's very first client, which was also in this programming language. To ensure strict consistency in the behavior of nodes on the network, especially to avoid forks, it was decided not to change the language since 2009.
+Bitcoin Core, the predominant implementation of the Bitcoin protocol, is written in C++. This is a legacy of Satoshi's original client, which was also written in this programming language. o ensure strict consistency in node behavior across the network, crucial for avoiding unintended forks, it was decided to keep using C++ since 2009.

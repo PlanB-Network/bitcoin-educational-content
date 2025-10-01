@@ -1,0 +1,9 @@
+question: Ni irihe zina ry’urubuga ihuriro rya Bitcoin ryimuriwe ku wa 1 Myandagaro 2011?
+answer: Bitcointalk.org
+wrong_answers:
+  - ihuriro.Bitcoin.org
+  - urubuga rwa bitcoin.org
+  - bitco.mu/ihuriro
+explanation: |
+  Amaze kwimukira kuri forum.Bitcoin.org ku wa 17 Rusama, yahindukiye aja kuri URL bitcointalk.org guhera ku wa 1 Myandagaro.
+reviewed: true

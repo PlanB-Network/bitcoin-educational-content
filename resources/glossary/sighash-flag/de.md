@@ -16,4 +16,4 @@ Zusätzlich zu diesen drei SigHash-Flags kann der Modifikator `SIGHASH_ANYONECAN
 - sIGHASH_NONE | SIGHASH_ANYONECANPAY" (0x82"): Die Signatur deckt eine einzige Eingabe ab, ohne eine Ausgabe zu bestätigen;
 - sIGHASH_SINGLE | SIGHASH_ANYONECANPAY" (0x83"): Die Signatur gilt für eine einzige Eingabe und nur für die Ausgabe mit dem gleichen Index wie diese Eingabe.
 
-> ► *Ein manchmal verwendetes Synonym für "SigHash" ist "Signature Hash Types"
+> ► *Ein manchmal verwendetes Synonym für "SigHash" ist "Signature Hash Types"*

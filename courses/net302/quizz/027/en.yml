@@ -1,0 +1,9 @@
+question: What is the name of the data unit exchanged at the Application layer (TCP/IP)?
+answer: Message
+wrong_answers:
+  - Frame
+  - Segment
+  - Datagram
+explanation: |
+  In the TCP/IP model, data exchanged at the Application layer are called messages (or streams, depending on the context).
+reviewed: false

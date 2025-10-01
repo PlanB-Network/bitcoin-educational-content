@@ -1,5 +1,5 @@
 ---
-name: پورتال
+name: Portal
 description: پیکربندی و استفاده از پورتال TwentyTwo-Devices Hardware Wallet
 ---
 ![cover](assets/cover.webp)

@@ -156,7 +156,7 @@ Czy jesteś gotowy, aby w pełni przejąć kontrolę nad swoim bezpieczeństwem 
 
 
 
-*Uwaga: Jeśli podczas kursu napotkasz nieznane terminy, zapoznaj się z ich definicjami w [słowniczku] (https://planb.network/resources/glossary)
+*Uwaga: Jeśli podczas kursu napotkasz nieznane terminy, zapoznaj się z ich definicjami w [słowniczku](https://planb.network/resources/glossary)*
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman otwarcie krytykuje użycie terminu "open source", uznając go z
 
 
 
-*Źródło: Nathaniel Welch
+**Źródło:** Nathaniel Welch
 
 
 
@@ -749,7 +749,7 @@ Każda dystrybucja Linuksa zawiera :
 - jądro systemu **Linux**, które komunikuje się ze sprzętem i zarządza zasobami systemowymi (procesor, pamięć, dyski itp.)
 - **bootloader**, taki jak *GRUB*, do uruchamiania systemu
 - **system inicjalizacji**, który pozwala na uruchamianie usług podczas startu systemu: *systemd*, *OpenRC*, *SysV init* lub *runit* w zależności od filozoficznych wyborów danej dystrybucji
-- system zarządzania pakietami**, który pozwala instalować, aktualizować i usuwać oprogramowanie. Najpopularniejsze z nich to *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) lub *APK* (Alpine)
+- system zarządzania pakietami, który pozwala instalować, aktualizować i usuwać oprogramowanie. Najpopularniejsze z nich to *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) lub *APK* (Alpine)
 - **repozytoria oprogramowania online**, które centralizują zweryfikowane wersje dostępnych aplikacji
 - **zestaw narzędzi systemowych** (powłoka, edytory, kompilatory, interfejsy sieciowe itp.) i często wstępnie skonfigurowane środowisko graficzne (*GNOME*, *KDE Plasma*, *XFCE* itp.)
 - skrypty konfiguracyjne, dokumentacja i, w niektórych przypadkach, usługi wsparcia
@@ -764,7 +764,7 @@ Ta praca montażowa jest specyficzna dla każdej dystrybucji, która wybiera swo
 
 
 
-→ Uwaga:** Dystrybucja *rolling release* integruje najnowsze wersje oprogramowania, gdy tylko staną się one dostępne, co skutkuje stale aktualnym, ale potencjalnie mniej stabilnym systemem. I odwrotnie, *stabilna* dystrybucja wysyła wersje oprogramowania po wydaniu głównej wersji, gwarantując większą niezawodność kosztem nowości.
+→ **Uwaga:** Dystrybucja *rolling release* integruje najnowsze wersje oprogramowania, gdy tylko staną się one dostępne, co skutkuje stale aktualnym, ale potencjalnie mniej stabilnym systemem. I odwrotnie, *stabilna* dystrybucja wysyła wersje oprogramowania po wydaniu głównej wersji, gwarantując większą niezawodność kosztem nowości.
 
 
 
@@ -794,7 +794,7 @@ Te wczesne wysiłki oznaczały narodziny dystrybucji Linuksa:
 
 
 
-- Luty 1992 r: MCC Interim Linux**
+- Luty 1992 r: **MCC Interim Linux**
 
 
 
@@ -804,7 +804,7 @@ Opracowany na Uniwersytecie w Manchesterze, MCC Interim Linux jest uważany za p
 
 
 
-- Maj 1992: Softlanding Linux System (SLS)**
+- Maj 1992: **Softlanding Linux System (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS już nie istnieje. Jego ostatnia znana wersja pochodzi z końca 1994 roku.
 
 
 
-- Lipiec 1993: Slackware**
+- Lipiec 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware jest utrzymywany do dziś, co czyni go najstarszą wciąż używaną d
 
 
 
-- Sierpień 1993: Debian**
+- Sierpień 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ W ten sposób Debian stał się jednym z technicznych i ideologicznych filarów 
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -1050,7 +1050,7 @@ Wybór dystrybucji Linuksa zależy od konkretnych potrzeb, poziomu technicznego 
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1062,11 +1062,11 @@ Opracowany przez Canonical i wprowadzony na rynek w 2004 roku, Ubuntu jest jedn�
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1074,7 +1074,7 @@ Wprowadzony na rynek w 2006 roku Linux Mint to dystrybucja wywodząca się z Ubu
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint wyróżnia się prostotą, domyślną obecnością kodeków multimedialnych i dobrze zaprojektowanym narzędziem do aktualizacji. Z drugiej strony, w dużym stopniu opiera się na infrastrukturze Ubuntu, co czyni ją zależną od technicznych wyborów Ubuntu (szczególnie na poziomie jądra i repozytorium). Mint jest szczególnie odpowiedni dla użytkowników nietechnicznych lub tych, którzy chcą gotowego do użycia systemu, który nie wymaga zbyt wiele nauki.
 
@@ -1086,7 +1086,7 @@ Mint wyróżnia się prostotą, domyślną obecnością kodeków multimedialnych
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,7 +1104,7 @@ Instalacja przebiega sprawnie, niezbędne oprogramowanie jest preinstalowane, a 
 
 
 
-- podstawowy system operacyjny**:
+- **podstawowy system operacyjny**:
 
 Wprowadzony na rynek w 2011 roku, elementary OS jest dystrybucją opartą na Ubuntu, która skupia się przede wszystkim na designie i spójności Interface. Środowisko graficzne Pantheon, inspirowane systemem macOS, jest minimalistyczne, eleganckie i płynne. System pozostaje jednak mniej konfigurowalny niż inne dystrybucje, a niektórzy zaawansowani użytkownicy mogą czuć się ograniczeni wyborami Interface i jego celowo zablokowaną strukturą. Dobrze nadaje się dla wrażliwych estetycznie użytkowników szukających prostego, spójnego systemu do codziennego użytku.
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Pop!OS, opracowany przez amerykańską firmę System76, również bazuje na Ubun
 
 
 
-- Fedora** (stacja robocza lub KDE Plasma):
+- **Fedora** (stacja robocza lub KDE Plasma):
 
 
 
@@ -1154,7 +1154,7 @@ Fedora to dystrybucja wspierana przez Red Hat, zorientowana na najnowsze technol
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed lub Leap):
+- **openSUSE** (Tumbleweed lub Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE jest dostępny jako wydanie kroczące lub stabilna dystrybucja. Zawiera
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,7 +1182,7 @@ Debian istnieje w kilku gałęziach, w tym *Stable* (bardzo niezawodne, ale star
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Oparta na Arch, Manjaro sprawia, że Arch Linux jest dostępny. Ta dystrybucja o
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### Dystrybucja specjalistyczna
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux to oparta na Debianie dystrybucja przeznaczona do testów penetracyjnych i audytów bezpieczeństwa. Zawiera setki narzędzi do pentestów. Dystrybucja ta nie nadaje się jako główny system do codziennego użytku.
 
@@ -1224,7 +1224,7 @@ Kali Linux to oparta na Debianie dystrybucja przeznaczona do testów penetracyjn
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS również wywodzi się z Debiana. Oferuje środowisko do pentestingu, 
 
 
 
-- Ogony**:
+- **Ogony**:
 
 
 
@@ -1246,9 +1246,9 @@ Tails to oparta na Debianie dystrybucja live skoncentrowana na prywatności. Wsz
 
 
 
-https://planb.network/tutorials/computer-security/operating%20system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
-→ Uwaga:** Dystrybucja Live to system operacyjny Linux, który może być używany bezpośrednio z pamięci USB lub płyty CD, bez instalacji na dysku Hard.
+→ **Uwaga:** Dystrybucja Live to system operacyjny Linux, który może być używany bezpośrednio z pamięci USB lub płyty CD, bez instalacji na dysku Hard.
 
 
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating%20system/tails-15108
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OS jest oparty na Fedorze i wykorzystuje system wirtualizacji Xen do podzi
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch to zorientowane na pentesty rozszerzenie Arch Linux (podobnie jak Kali
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1300,9 +1300,9 @@ PureOS to dystrybucja wywodząca się z Debiana, opracowana przez Purism, całko
 
 
 
-- Raspberry Pi OS**:
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (dawniej Raspbian) to dystrybucja zoptymalizowana dla mikrokomputerów Raspberry Pi. Opiera się na Debianie, z pakietami przekompilowanymi dla architektury ARM. Może być używana do projektów edukacyjnych, testów elektronicznych lub małych serwerów osobistych.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (dawniej Raspbian) to dystrybucja zoptymalizowana dla mikrokompu
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1326,36 +1326,23 @@ Whonix łączy Debiana z siecią Tor w architekturze dwóch maszyn wirtualnych (
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Ta panorama daje przegląd obecnego ekosystemu dystrybucji Linuksa, umożliwiając wybór dystrybucji najlepiej dopasowanej do profilu technicznego i celów.
-
-
 
 W następnym rozdziale SCU202 przyjrzymy się bliżej praktycznemu środowisku Linuksa, zaczynając od środowisk graficznych, które stanowią podstawę codziennych interakcji z systemem.
 
-
-
 ## Środowiska graficzne Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 W systemie GNU/Linux środowisko graficzne odgrywa jedną z najważniejszych ról w doświadczeniu użytkownika. Jest to graficzny Layer, który umożliwia interakcję z systemem, w oparciu o znane wizualne reprezentacje: okna, menu, ikony, panele i preinstalowane aplikacje.
-
-
 
 W tym rozdziale zbadam strukturę i rolę środowiska graficznego, jego typowe komponenty, główne dostępne rodziny, kryteria wyboru i ich integrację z najpopularniejszymi dystrybucjami Linuksa.
 
-
-
 ### Co to jest środowisko biurowe?
 
-
-
 Środowisko graficzne (lub "*DE*" od *Desktop Environment*) odnosi się do zestawu programów, które tworzą kompletny graficzny Interface systemu operacyjnego. W systemach Windows i macOS domyślnie oferowane jest jedno środowisko graficzne, zintegrowane z systemem, bez możliwości jego całkowitej modyfikacji (istnieją tylko niektóre powłoki do częściowej modyfikacji Interface). Z drugiej strony systemy Linux są znacznie bardziej modułowe, traktując środowisko graficzne jako niezależny komponent, który można dowolnie wymieniać.
-
-
 
 W Linuksie ważne jest wyraźne rozróżnienie między wszystkimi warstwami: jądrem (które zarządza interakcją ze sprzętem), serwerem wyświetlania (który działa jako pośrednik między aplikacjami, sterownikami graficznymi i sprzętem za pośrednictwem jądra), a wreszcie samym środowiskiem graficznym, które opiera się na tej infrastrukturze, aby zapewnić użytkownikowi spójny graficzny Interface. Rozróżnienie to może być czasami mniej wyraźne, ponieważ wiele dystrybucji Linuksa jest dostarczanych z preinstalowanym środowiskiem graficznym, które czasami zawiera własny kompozytor Wayland, który następnie działa jako serwer wyświetlania.
 
@@ -1375,55 +1362,55 @@ W Linuksie ważne jest wyraźne rozróżnienie między wszystkimi warstwami: ją
 
 
 
-- Menedżer okien**: rysuje granice okien, zarządza ich rozmieszczeniem, zmianą rozmiaru i efektami przejścia... Na przykład: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Menedżer okien**: rysuje granice okien, zarządza ich rozmieszczeniem, zmianą rozmiaru i efektami przejścia... Na przykład: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Menedżer plików**: umożliwia nawigację po drzewie katalogów, kopiowanie, przenoszenie lub usuwanie plików w sposób wizualny. Przykłady: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Menedżer plików**: umożliwia nawigację po drzewie katalogów, kopiowanie, przenoszenie lub usuwanie plików w sposób wizualny. Przykłady: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Centrum konfiguracji**: jest to zestaw narzędzi umożliwiających użytkownikowi modyfikację parametrów systemu bez konieczności przechodzenia przez wiersz poleceń: wygląd, tapeta, zarządzanie użytkownikami, sieć, urządzenia peryferyjne...
+- **Centrum konfiguracji**: jest to zestaw narzędzi umożliwiających użytkownikowi modyfikację parametrów systemu bez konieczności przechodzenia przez wiersz poleceń: wygląd, tapeta, zarządzanie użytkownikami, sieć, urządzenia peryferyjne...
 
 
 
 
 
-- Aplety systemowe**: są to małe ikony i interaktywne moduły na pasku zadań (lub "panelu"), takie jak sterowanie dźwiękiem, poziom naładowania baterii, połączenie sieciowe, zegar...
+- **Aplety systemowe**: są to małe ikony i interaktywne moduły na pasku zadań (lub "panelu"), takie jak sterowanie dźwiękiem, poziom naładowania baterii, połączenie sieciowe, zegar...
 
 
 
 
 
-- Panel lub dashboard**: widoczny pasek, często u góry lub u dołu ekranu, zawierający menu główne, aplety systemowe, skróty, strefę powiadomień itp.
+- **Panel lub dashboard**: widoczny pasek, często u góry lub u dołu ekranu, zawierający menu główne, aplety systemowe, skróty, strefę powiadomień itp.
 
 
 
 
 
-- Menedżer sesji**: uruchamia się przy starcie, wyświetla ekran logowania i uruchamia wybraną sesję graficzną. Na przykład: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Menedżer sesji**: uruchamia się przy starcie, wyświetla ekran logowania i uruchamia wybraną sesję graficzną. Na przykład: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Menedżer powiadomień**: zarządza wyświetlaniem powiadomień systemowych (wiadomości, alerty, aktualizacje itp.). Na przykład: dunst, Plasma-notifier, xfce4-notifyd.
+- **Menedżer powiadomień**: zarządza wyświetlaniem powiadomień systemowych (wiadomości, alerty, aktualizacje itp.). Na przykład: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- Kompozytor X11 (opcjonalny)**: dodaje efekty wizualne (cienie, przezroczystość, animacje) w środowiskach, w których menedżer okien nie obsługuje kompozycji. Na przykład: compton, picom.
+- **Kompozytor X11 (opcjonalny)**: dodaje efekty wizualne (cienie, przezroczystość, animacje) w środowiskach, w których menedżer okien nie obsługuje kompozycji. Na przykład: compton, picom.
 
 
 
 
 
-- Serwer wyświetlania**: jest to oprogramowanie, które obsługuje komunikację między systemem (za pośrednictwem jądra i sterowników graficznych) a aplikacjami graficznymi. Wyświetla okna na ekranie i zarządza wejściami klawiatury i myszy. Serwer wyświetlania jest często innym komponentem środowiska graficznego, ale coraz więcej systemów przyjmuje Wayland, nowoczesny protokół, w którym rola serwera wyświetlania może być przejęta bezpośrednio przez menedżera okien (np. Mutter w GNOME lub KWin w KDE). Jest to określane jako "Wayland compositing".
+- **Serwer wyświetlania**: jest to oprogramowanie, które obsługuje komunikację między systemem (za pośrednictwem jądra i sterowników graficznych) a aplikacjami graficznymi. Wyświetla okna na ekranie i zarządza wejściami klawiatury i myszy. Serwer wyświetlania jest często innym komponentem środowiska graficznego, ale coraz więcej systemów przyjmuje Wayland, nowoczesny protokół, w którym rola serwera wyświetlania może być przejęta bezpośrednio przez menedżera okien (np. Mutter w GNOME lub KWin w KDE). Jest to określane jako "Wayland compositing".
 
 
 
@@ -1890,7 +1877,7 @@ Po uruchomieniu Ubuntu kreator instalacji poprowadzi cię krok po kroku. Postęp
 
 
 
-- Instalacja wraz z systemem Windows (*dual boot*)**
+- Instalacja wraz z systemem Windows (*dual boot*)
 
 
 
@@ -1915,7 +1902,7 @@ Aby zrobić to poprawnie, zalecam najpierw utworzenie nieprzydzielonej partycji 
 
 
 
-- Całkowita wymiana systemu Windows**
+- **Całkowita wymiana systemu Windows**
 
 
 
@@ -2033,10 +2020,10 @@ Każde repozytorium jest podzielone na sekcje. Domyślnie Ubuntu aktywuje cztery
 
 
 
-- main**: wolne oprogramowanie oficjalnie utrzymywane przez Canonical. Przykłady: Firefox, LibreOffice, bash
-- ograniczone**: niewolne oprogramowanie, które jest niezbędne do prawidłowego działania sprzętu. Przykłady: Sterowniki NVIDIA, oprogramowanie sprzętowe Wi-Fi, zastrzeżone kodeki
-- universe**: wolne oprogramowanie utrzymywane przez społeczność. Przykłady: GIMP, Inkscape, Audacity
-- multiverse**: oprogramowanie podlega ograniczeniom prawnym (patenty, niewolne licencje). Dostępność może się różnić w zależności od kraju. Przykłady: niektóre kodeki audio/wideo, Steam
+- **main**: wolne oprogramowanie oficjalnie utrzymywane przez Canonical. Przykłady: Firefox, LibreOffice, bash
+- **ograniczone**: niewolne oprogramowanie, które jest niezbędne do prawidłowego działania sprzętu. Przykłady: Sterowniki NVIDIA, oprogramowanie sprzętowe Wi-Fi, zastrzeżone kodeki
+- **universe**: wolne oprogramowanie utrzymywane przez społeczność. Przykłady: GIMP, Inkscape, Audacity
+- **multiverse**: oprogramowanie podlega ograniczeniom prawnym (patenty, niewolne licencje). Dostępność może się różnić w zależności od kraju. Przykłady: niektóre kodeki audio/wideo, Steam
 
 
 
@@ -2633,7 +2620,7 @@ Usługa ta chroni system przed nowo wykrytymi lukami w zabezpieczeniach, bez kon
 
 
 
-→ Uwaga:** `unattended-upgrades` jest ograniczone do pakietów bezpieczeństwa z repozytorium `security`. W związku z tym nie stosuje standardowych aktualizacji oprogramowania, które należy wykonać ręcznie.
+→ **Uwaga:** `unattended-upgrades` jest ograniczone do pakietów bezpieczeństwa z repozytorium `security`. W związku z tym nie stosuje standardowych aktualizacji oprogramowania, które należy wykonać ręcznie.
 
 
 
@@ -2847,7 +2834,7 @@ Po zainstalowaniu należy uruchomić ją z menu aplikacji. Będziesz mógł akty
 
 
 
-→ Dobre praktyki:** Nawet jeśli nie wystawiasz żadnych usług sieciowych na zewnątrz, zapora sieciowa jest nadal przydatna do blokowania niektórych rodzajów skanowania lub dostępu. Pamiętaj również, aby wyłączyć niepotrzebne usługi i zawsze aktualizować oprogramowanie sieciowe. To wzmocnienie sieci lokalnej jest pierwszą linią obrony w szerszej strategii bezpieczeństwa, ale wrócimy do tego w dalszej części kursu.
+→ **Dobre praktyki:** Nawet jeśli nie wystawiasz żadnych usług sieciowych na zewnątrz, zapora sieciowa jest nadal przydatna do blokowania niektórych rodzajów skanowania lub dostępu. Pamiętaj również, aby wyłączyć niepotrzebne usługi i zawsze aktualizować oprogramowanie sieciowe. To wzmocnienie sieci lokalnej jest pierwszą linią obrony w szerszej strategii bezpieczeństwa, ale wrócimy do tego w dalszej części kursu.
 
 
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Pakiet biurowy
 
 
@@ -3577,7 +3565,7 @@ Nie zapomnij sprawdzić opcjonalnych aktualizacji w tym samym menu.
 
 
 
-- System operacyjny Linux*
+- System operacyjny *Linux*
 
 
 
@@ -3666,25 +3654,25 @@ Niektóre programy są bardziej wrażliwe niż inne, ponieważ wchodzą w bezpo�
 
 
 
-- Przeglądarki internetowe*: znajdują się na pierwszej linii ataków, ponieważ przetwarzają niezweryfikowane treści w czasie rzeczywistym i mają szczególnie dużą powierzchnię ataku. Co więcej, odgrywają one kluczową rolę w ochronie danych osobowych użytkowników. A przede wszystkim mają tendencję do zastępowania wielu aplikacji używanych wcześniej lokalnie (klientów poczty e-mail, pakietów biurowych, odtwarzaczy multimedialnych...). Ale wrócimy do tego punktu w następnej części kursu SCU202;
+- **Przeglądarki internetowe**: znajdują się na pierwszej linii ataków, ponieważ przetwarzają niezweryfikowane treści w czasie rzeczywistym i mają szczególnie dużą powierzchnię ataku. Co więcej, odgrywają one kluczową rolę w ochronie danych osobowych użytkowników. A przede wszystkim mają tendencję do zastępowania wielu aplikacji używanych wcześniej lokalnie (klientów poczty e-mail, pakietów biurowych, odtwarzaczy multimedialnych...). Ale wrócimy do tego punktu w następnej części kursu SCU202;
 
 
 
 
 
-- Klienci poczty*: otrzymują załączniki lub linki z zewnętrznych źródeł, które są niekontrolowane, a zatem ryzykowne;
+- Klienci poczty: otrzymują załączniki lub linki z zewnętrznych źródeł, które są niekontrolowane, a zatem ryzykowne;
 
 
 
 
 
-- Narzędzia komunikacyjne* (TeamViewer, Zoom, Signal, Teams...): ze względu na swój interaktywny charakter są celem ataków szpiegowskich lub prób zdalnego sterowania. Podobnie jak klienci poczty e-mail, narzędzia komunikacyjne mogą być wykorzystywane jako wektory do prób phishingu lub dystrybucji złośliwych załączników;
+- **Narzędzia komunikacyjne** (TeamViewer, Zoom, Signal, Teams...): ze względu na swój interaktywny charakter są celem ataków szpiegowskich lub prób zdalnego sterowania. Podobnie jak klienci poczty e-mail, narzędzia komunikacyjne mogą być wykorzystywane jako wektory do prób phishingu lub dystrybucji złośliwych załączników;
 
 
 
 
 
-- Antywirus, zapora sieciowa i inne rozwiązania wykrywające*: narzędzia te mają zazwyczaj podwyższone uprawnienia, ponieważ stale skanują pliki, procesy i połączenia sieciowe. Nieaktualna baza sygnatur, słaba konfiguracja lub luka w samym oprogramowaniu mogą pozwolić złośliwemu oprogramowaniu pozostać niewykrytym, a nawet uzyskać podwyższone uprawnienia.
+- Antywirus, zapora sieciowa i inne rozwiązania wykrywające: narzędzia te mają zazwyczaj podwyższone uprawnienia, ponieważ stale skanują pliki, procesy i połączenia sieciowe. Nieaktualna baza sygnatur, słaba konfiguracja lub luka w samym oprogramowaniu mogą pozwolić złośliwemu oprogramowaniu pozostać niewykrytym, a nawet uzyskać podwyższone uprawnienia.
 
 
 
@@ -3905,7 +3893,7 @@ Jak widzieliśmy w poprzedniej sekcji, system Windows był historycznie bardziej
 
 
 
-- Microsoft Defender*: w systemie Windows posiadanie dobrego programu antywirusowego jest podstawową koniecznością. Przez wiele lat Microsoft Defender (dawniej Windows Defender), wbudowany w system antywirus, był uważany za zawodny, a zamiast niego zalecano rozwiązania innych firm. Z biegiem czasu oprogramowanie to uległo jednak znacznej poprawie i moim zdaniem jest obecnie wystarczające do zapewnienia podstawowej ochrony do użytku osobistego. Nie należy jednak przeceniać roli oprogramowania antywirusowego: to przede wszystkim własne praktyki cyfrowe zapewniają bezpieczeństwo. Jedną z zalet Defendera jest jego natywna integracja z systemem Windows. Oprócz ochrony w czasie rzeczywistym, oferuje on kompleksowe skanowanie, które można zaplanować co tydzień lub uruchamiać ręcznie w regularnych odstępach czasu.
+- **Microsoft Defender**: w systemie Windows posiadanie dobrego programu antywirusowego jest podstawową koniecznością. Przez wiele lat Microsoft Defender (dawniej Windows Defender), wbudowany w system antywirus, był uważany za zawodny, a zamiast niego zalecano rozwiązania innych firm. Z biegiem czasu oprogramowanie to uległo jednak znacznej poprawie i moim zdaniem jest obecnie wystarczające do zapewnienia podstawowej ochrony do użytku osobistego. Nie należy jednak przeceniać roli oprogramowania antywirusowego: to przede wszystkim własne praktyki cyfrowe zapewniają bezpieczeństwo. Jedną z zalet Defendera jest jego natywna integracja z systemem Windows. Oprócz ochrony w czasie rzeczywistym, oferuje on kompleksowe skanowanie, które można zaplanować co tydzień lub uruchamiać ręcznie w regularnych odstępach czasu.
 
 
 
@@ -3915,12 +3903,12 @@ Jak widzieliśmy w poprzedniej sekcji, system Windows był historycznie bardziej
 
 
 
-- Sysinternals Suite*: jest to znacznie bardziej zaawansowany zestaw narzędzi oferowanych przez Microsoft do diagnozowania, monitorowania i rozwiązywania problemów z systemem Windows. Oto główne narzędzia wchodzące w skład tego pakietu:
-    - Process Monitor*: umożliwia obserwowanie aktywnych procesów, dostępu do plików, rejestrów itp. w czasie rzeczywistym;
-    - Autoruns*: wyświetla wszystkie programy uruchamiane podczas startu, pomagając szybko wykryć trwałe złośliwe oprogramowanie lub aplikacje, które nie powinny być uruchomione;
-    - Process Explorer*: monitoruje procesy i wykrywa podejrzane zachowania;
-    - TCPView*: wizualizuje aktywne połączenia sieciowe (wykrywanie nieprawidłowych połączeń) ;
-    - Sigcheck*: sprawdza podpisy cyfrowe plików pod kątem obecności złośliwego kodu.
+- **Sysinternals Suite**: jest to znacznie bardziej zaawansowany zestaw narzędzi oferowanych przez Microsoft do diagnozowania, monitorowania i rozwiązywania problemów z systemem Windows. Oto główne narzędzia wchodzące w skład tego pakietu:
+- **Process Monitor**: umożliwia obserwowanie aktywnych procesów, dostępu do plików, rejestrów itp. w czasie rzeczywistym;
+- **Autoruns**: wyświetla wszystkie programy uruchamiane podczas startu, pomagając szybko wykryć trwałe złośliwe oprogramowanie lub aplikacje, które nie powinny być uruchomione;
+- **Process Explorer**: monitoruje procesy i wykrywa podejrzane zachowania;
+- **TCPView**: wizualizuje aktywne połączenia sieciowe (wykrywanie nieprawidłowych połączeń);
+- **Sigcheck**: sprawdza podpisy cyfrowe plików pod kątem obecności złośliwego kodu.
 
 
 
@@ -3930,7 +3918,7 @@ Jak widzieliśmy w poprzedniej sekcji, system Windows był historycznie bardziej
 
 
 
-- GlassWire*: narzędzie do monitorowania sieci. Śledzi połączenia przychodzące i wychodzące w czasie rzeczywistym i ostrzega o nietypowej aktywności.
+- **GlassWire**: narzędzie do monitorowania sieci. Śledzi połączenia przychodzące i wychodzące w czasie rzeczywistym i ostrzega o nietypowej aktywności.
 
 
 
@@ -3948,7 +3936,7 @@ Na dobrze utrzymanej maszynie z systemem Linux używanej do celów osobistych ry
 
 
 
-- Fail2ban*: monitoruje dzienniki systemowe pod kątem nieudanych prób dostępu (takich jak brutalne próby logowania SSH). W przypadku wykrycia podejrzanego zachowania, tymczasowo blokuje naruszające IP Address poprzez `iptables`;
+- **Fail2ban**: monitoruje dzienniki systemowe pod kątem nieudanych prób dostępu (takich jak brutalne próby logowania SSH). W przypadku wykrycia podejrzanego zachowania, tymczasowo blokuje naruszające IP Address poprzez `iptables`;
 
 
 
@@ -3958,7 +3946,7 @@ Na dobrze utrzymanej maszynie z systemem Linux używanej do celów osobistych ry
 
 
 
-- Lynis*: kompleksowe narzędzie do audytu bezpieczeństwa, które analizuje system pod kątem błędnych konfiguracji, znanych słabości lub odstępstw od najlepszych praktyk. Generuje łatwy do odczytania raport z oceną bezpieczeństwa i zaleceniami.
+- **Lynis**: kompleksowe narzędzie do audytu bezpieczeństwa, które analizuje system pod kątem błędnych konfiguracji, znanych słabości lub odstępstw od najlepszych praktyk. Generuje łatwy do odczytania raport z oceną bezpieczeństwa i zaleceniami.
 
 
 
@@ -3977,7 +3965,7 @@ system macOS jest znany ze swojego bezpieczeństwa, w szczególności dzięki za
 
 
 
-- KnockKnock*: skanuje wszystkie Elements skonfigurowane do uruchamiania przy starcie (agenty, demony, moduły jądra...) i identyfikuje te, które są potencjalnie podejrzane, niepodpisane lub nieznane. Pozwala to szybko zidentyfikować złośliwe oprogramowanie w systemie.
+- **KnockKnock**: skanuje wszystkie Elements skonfigurowane do uruchamiania przy starcie (agenty, demony, moduły jądra...) i identyfikuje te, które są potencjalnie podejrzane, niepodpisane lub nieznane. Pozwala to szybko zidentyfikować złośliwe oprogramowanie w systemie.
 
 
 
@@ -4561,7 +4549,7 @@ Pełne szyfrowanie jest jak zamek: dopóki hasło nie zostanie podane, dane pozo
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4820,7 +4808,7 @@ Na koniec kliknij przycisk w kształcie strzałki w prawym górnym rogu, aby wys
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4866,7 +4854,7 @@ Po aktywacji FileVault należy wybrać metodę odzyskiwania danych w przypadku u
 W przypadku zewnętrznych nośników pamięci (dyski Hard, pamięci USB itp.) szyfrowanie odbywa się za pomocą narzędzia dyskowego. Konieczne będzie całkowite ponowne sformatowanie woluminu:
 
 - Wybierz urządzenie i kliknij "*Usuń*"
-- Wybierz schemat "Tabela partycji GUID*"
+- Wybierz schemat "Tabela partycji GUID"
 - Następnie wybierz format zaszyfrowanego systemu plików (*APFS* lub *Mac OS extended*)
 - Wybierz silne hasło
 - Kliknij "*Usuń*", a następnie "*OK*" i szyfrowanie jest zakończone
@@ -4946,7 +4934,7 @@ Pakiet ten instaluje `exiftool`, którego można następnie używać bezpośredn
 
 
 
-- Krok 2: Wyświetlanie metadanych pliku** (w języku francuskim)
+- Krok 2: **Wyświetlanie metadanych pliku** (w języku francuskim)
 
 
 
@@ -5692,7 +5680,7 @@ Przeglądarki oparte na Blink obejmują również szereg bardziej marginalnych p
 
 
 
-- Arc** :
+- **Arc**:
 
 
 
@@ -5710,7 +5698,7 @@ Z technicznego punktu widzenia Arc jest oparty na Chromium, ale pozostaje oprogr
 
 
 
-- Polipan** :
+- **Polipan** :
 
 
 
@@ -5754,6 +5742,7 @@ Firefox pozostaje punktem odniesienia dla bezpieczeństwa i prywatności, mimo �
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Przeglądarka Tor
 
 
@@ -5774,15 +5763,11 @@ Wadą jest znaczny spadek wydajności (duże opóźnienia) i ograniczona kompaty
 
 #### Przeglądarka Mullvad
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) jest wynikiem współpracy pomiędzy Tor Foundation i Mullvad VPN. Opiera się na przeglądarce Tor, która sama wywodzi się z Firefoksa ESR. Mullvad Browser został zaprojektowany w celu maksymalizacji prywatności użytkownika. Domyślnie zawiera zaawansowaną ochronę przed odciskami palców, trackerami i skryptami stron trzecich.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Posiada większość funkcji bezpieczeństwa i prywatności oferowanych przez Tor Browser, z jedną różnicą: nie przekierowuje ruchu przez sieć Tor. Aby uniknąć wycieków IP Address, można go używać w połączeniu z VPN (najlepiej Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Domyślnie LibreWolf aktywuje zaawansowane ustawienia bezpieczeństwa Firefoksa 
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Przeglądarka Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) to darmowa i otwarta przeglądarka oparta na Firefoksie (silnik Gecko), uruchomiona w 2024 roku. Jej celem jest oferowanie nowoczesnego, eleganckiego, wysoce konfigurowalnego, a przede wszystkim zorientowanego na prywatność przeglądania, bez zależności od Chromium.
 
-
-
 Zen wyróżnia się radykalnym podejściem do Interface i użyteczności, w dużej mierze inspirowanym przeglądarką Arc, ale wyemancypowanym z niej dzięki otwartemu oprogramowaniu i silnikowi Gecko. Zawiera :
-
-
-
 
 - Minimalistyczny, modułowy Interface, z pionowym paskiem bocznym dla zakładek, podzielonym widokiem i systemem *workspace* do grupowania zestawów zakładek według projektów;
 - System konfigurowalnych szablonów Interface (*Zen Mods*), które można wykorzystać do głębokiej modyfikacji wyglądu przeglądarki;
 - Oryginalna funkcja o nazwie *Glance*, która otwiera link w lekkim oknie tymczasowym, unikając bałaganu zakładek...
 
-
-
 Zen obsługuje również rozszerzenia Firefoksa, a także synchronizację za pośrednictwem konta Mozilla.
-
-
 
 Z punktu widzenia bezpieczeństwa i prywatności, Zen oferuje natywne blokowanie trackerów stron trzecich. Przeglądarka sama nie gromadzi żadnych danych, a także umożliwia wyłączenie telemetrii Mozilli. Automatycznie odrzuca również przestarzałe lub niezgodne certyfikaty SSL.
 
-
-
 Zen Browser to interesująca alternatywa, jeśli szukasz środowiska przeglądania Gecko, które jest bezpłatne, innowacyjne, przejrzyste i szanuje Twoją prywatność.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Przeglądarki oparte na WebKit
 
-
-
 #### Safari
-
-
 
 Główną przeglądarką nadal korzystającą z silnika renderującego WebKit (nie Fork jak Blink) jest Safari. [Safari](https://www.apple.com/safari/) jest wyłączną przeglądarką Apple dla macOS. Oferuje doskonałą integrację z ekosystemem Apple, wysoką wydajność, a teraz zawiera silniejsze zabezpieczenia przed śledzeniem i odciskami palców.
 
-
-
 Safari pozostaje jednak zamknięte, ograniczone do macOS w wersji na komputery stacjonarne i zależne od ekosystemu Apple. Chociaż Apple ma silną politykę prywatności, a jego model biznesowy opiera się głównie na sprzedaży sprzętu, a nie na reklamach, pozostaje niejasny co do niektórych wewnętrznych praktyk.
-
-
 
 Tutaj skupiamy się na przeglądarkach desktopowych, ale ważne jest, aby pamiętać, że na iOS Apple wymaga, aby wszystkie przeglądarki korzystały z silnika renderującego WebKit (ograniczenie, które może jednak wkrótce ulec zmianie w wyniku pewnych europejskich przepisów). Oznacza to, że przeglądarki takie jak Chrome, Firefox czy Brave muszą na iOS oferować aplikację opartą na WebKit, a nie na ich zwykłym silniku renderującym.
 
@@ -5889,6 +5855,7 @@ Orion jest w całości rozwijany przez zespół Kagi (znany z wyszukiwarki bez r
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Przeglądarki bez silników renderujących
 
 
@@ -6223,25 +6190,25 @@ Aby uniknąć tych ataków podczas przeglądania Internetu, ważne jest przestrz
 
 
 
-- Przeanalizuj adres URL**: atakujący często używają adresów bardzo zbliżonych do oryginalnych (np. `micr0soft-support.com`, `paypal-verif.net` itp.). Niektórzy zastępują również wizualnie podobne znaki, wykorzystując znaki Unicode. Sprawdź, czy Address odpowiada dokładnie oczekiwanej witrynie, bez podejrzanych prefiksów lub sufiksów.
+- Przeanalizuj adres URL: atakujący często używają adresów bardzo zbliżonych do oryginalnych (np. `micr0soft-support.com`, `paypal-verif.net` itp.). Niektórzy zastępują również wizualnie podobne znaki, wykorzystując znaki Unicode. Sprawdź, czy Address odpowiada dokładnie oczekiwanej witrynie, bez podejrzanych prefiksów lub sufiksów.
 
 
 
 
 
-- Unikaj skróconych linków**: usługi takie jak `bit.ly` lub `t.co` mogą maskować końcowy Address. Jeśli otrzymasz skrócony link, zachowaj podejrzliwość lub skorzystaj z usługi rozszerzania adresów URL, aby sprawdzić jego miejsce docelowe.
+- Unikaj skróconych linków: usługi takie jak `bit.ly` lub `t.co` mogą maskować końcowy Address. Jeśli otrzymasz skrócony link, zachowaj podejrzliwość lub skorzystaj z usługi rozszerzania adresów URL, aby sprawdzić jego miejsce docelowe.
 
 
 
 
 
-- Uważaj na alarmujące wiadomości**: próby phishingu często wykorzystują silne emocje (nagła potrzeba, zagrożenie, nagroda, ciekawość...). Wiadomość e-mail z informacją, że konto zostanie zablokowane lub że przesyłka nie może zostać dostarczona, jest naturalnie podejrzana.
+- Uważaj na **alarmujące wiadomości**: próby phishingu często wykorzystują silne emocje (nagła potrzeba, zagrożenie, nagroda, ciekawość...). Wiadomość e-mail z informacją, że konto zostanie zablokowane lub że przesyłka nie może zostać dostarczona, jest naturalnie podejrzana.
 
 
 
 
 
-- Nigdy nie przesyłaj poufnych informacji za pośrednictwem otrzymanego linku**: Legalna instytucja nigdy nie poprosi o podanie hasła, kodu uwierzytelniającego lub zeskanowanej kopii dowodu tożsamości za pośrednictwem zwykłej wiadomości e-mail lub SMS.
+- **Nigdy nie przesyłaj poufnych informacji za pośrednictwem otrzymanego linku**: Legalna instytucja nigdy nie poprosi o podanie hasła, kodu uwierzytelniającego lub zeskanowanej kopii dowodu tożsamości za pośrednictwem zwykłej wiadomości e-mail lub SMS.
 
 
 
@@ -6251,7 +6218,7 @@ A oto kilka środków zapobiegawczych, które można wdrożyć bezpośrednio w p
 
 
 
-- Dostęp do najważniejszych witryn za pośrednictwem zakładek**:
+- Dostęp do najważniejszych witryn za pośrednictwem **zakładek**:
 
 
 
@@ -6265,7 +6232,7 @@ Otrzymałeś wiadomość e-mail z urzędu skarbowego zawierającą link? Nie kli
 
 
 
-- Przestrzeganie dobrych praktyk uwierzytelniania** :
+- **Przestrzeganie dobrych praktyk uwierzytelniania**:
 
 
 
@@ -6283,7 +6250,7 @@ Oprócz tych środków, korzystanie z dobrego menedżera haseł jako rozszerzeni
 
 
 
-- Sprawdzanie certyfikatów SSL/TLS**:
+- **Sprawdzanie certyfikatów SSL/TLS**:
 
 
 
@@ -6329,19 +6296,19 @@ Cel jest prosty: zapobiec incydentowi związanemu z konkretnym działaniem (taki
 
 
 
-- Korzystaj z kilku różnych przeglądarek**: na przykład Firefox do użytku osobistego, Tor lub Mullvad do wrażliwych działań i Chromium do zadań profesjonalnych. Każda przeglądarka korzysta z własnej instancji pamięci masowej, która całkowicie izoluje pliki cookie, sesje i rozszerzenia. Pozwala to również dostosować ustawienia przeglądarki do konkretnych przypadków użycia.
+- Korzystaj z kilku różnych przeglądarek: na przykład Firefox do użytku osobistego, Tor lub Mullvad do wrażliwych działań i Chromium do zadań profesjonalnych. Każda przeglądarka korzysta z własnej instancji pamięci masowej, która całkowicie izoluje pliki cookie, sesje i rozszerzenia. Pozwala to również dostosować ustawienia przeglądarki do konkretnych przypadków użycia.
 
 
 
 
 
-- Tworzenie wielu profili w ramach jednej przeglądarki**: niektóre przeglądarki umożliwiają tworzenie niezależnych profili, z których każdy ma własną historię, sesje, rozszerzenia i ustawienia. Jest to nieco mniej restrykcyjne rozwiązanie niż korzystanie z kilku oddzielnych przeglądarek, ale nadal jest mniej skuteczne.
+- **Tworzenie wielu profili w ramach jednej przeglądarki**: niektóre przeglądarki umożliwiają tworzenie niezależnych profili, z których każdy ma własną historię, sesje, rozszerzenia i ustawienia. Jest to nieco mniej restrykcyjne rozwiązanie niż korzystanie z kilku oddzielnych przeglądarek, ale nadal jest mniej skuteczne.
 
 
 
 
 
-- Użyj wbudowanych kontenerów**: Firefox oferuje rozszerzenie [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), które pozwala otwierać oddzielne karty, każda z własnym loginem i plikami cookie. Możesz także automatycznie przypisać określone witryny do określonego kontenera, aby oddzielić je za każdym razem, gdy są otwierane.
+- **Użyj wbudowanych kontenerów**: Firefox oferuje rozszerzenie [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), które pozwala otwierać oddzielne karty, każda z własnym loginem i plikami cookie. Możesz także automatycznie przypisać określone witryny do określonego kontenera, aby oddzielić je za każdym razem, gdy są otwierane.
 
 
 
@@ -6351,7 +6318,7 @@ Cel jest prosty: zapobiec incydentowi związanemu z konkretnym działaniem (taki
 
 
 
-- Używaj odizolowanego środowiska systemowego**: W przypadku szczególnie wrażliwych zastosowań można również uruchomić przeglądarkę na maszynie wirtualnej lub w kontenerze Docker, aby całkowicie oddzielić ją od głównego środowiska.
+- **Używaj odizolowanego środowiska systemowego**: W przypadku szczególnie wrażliwych zastosowań można również uruchomić przeglądarkę na maszynie wirtualnej lub w kontenerze Docker, aby całkowicie oddzielić ją od głównego środowiska.
 
 
 
@@ -6659,7 +6626,7 @@ GrapheneOS nie zawiera żadnych zastrzeżonych komponentów. Możesz dodawać us
 Graphene jest kompatybilny tylko z najnowszymi Google Pixel (Pixel 6, 7, 8 i 9).
 
 
-https://planb.network/tutorials/computer-security/operating%20system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -7075,7 +7042,7 @@ Telegram jest bardzo popularną usługą przesyłania wiadomości dzięki swojej
 Telegram może zatem technicznie uzyskać dostęp do treści większości rozmów, które nie są wyraźnie chronione. Nawet jeśli firma zajmuje zdecydowane stanowisko wobec organów rządowych, Telegram nie jest optymalnym rozwiązaniem dla poufnych lub wrażliwych wymian, chyba że wyraźnie korzystasz z "tajnych wymian", które są znacznie mniej praktyczne na co dzień.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile to mobilna wersja popularnego klienta poczty e-mail o otwarty
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis to kompleksowa aplikacja typu open source. Szyfruje bazę danych 2FA za po
 Ente Auth to nowoczesne, wieloplatformowe rozwiązanie o otwartym kodzie źródłowym z szyfrowanymi kopiami zapasowymi end-to-end. Umożliwia bezpieczną synchronizację kodów 2FA na urządzeniach mobilnych, komputerach stacjonarnych i w Internecie. Można go również używać w trybie offline, bez tworzenia kopii zapasowych w chmurze lub tworzenia konta.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth oferuje wiele dodatkowych funkcji: Organizacja według tagów, niestandardowe ikony dla każdej usługi, notatki, ulubione, zintegrowane wyszukiwanie, bezpieczne udostępnianie kodu zespołu.
 
 
@@ -7642,6 +7611,7 @@ Authy oferuje synchronizację 2FA na wielu urządzeniach, co może być przydatn
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jeśli chcesz dowiedzieć się więcej o menedżerach haseł, uwierzytelnianiu 2FA i VPN, polecam przeczytać dedykowane rozdziały w kursie SCU-101:
 
 
@@ -8035,6 +8005,7 @@ Dostępny na F-Droid i całkowicie open-source, Chrono oferuje nowoczesny, przej
 Aplikacja integruje również minutnik i stoper, z możliwością rejestrowania okrążeń, statystykami, porównywaniem czasu i zarządzaniem wieloma minutnikami. Możesz skonfigurować wiele stref czasowych, dostosować motyw (kolory, style, animacje), a nawet organizować alarmy i timery za pomocą etykiet.
 
 
+Aby zgłębić temat, polecam odwiedzenie strony [*Awesome Privacy*](https://awesome-privacy.xyz/), która przedstawia najlepsze alternatywy dbające o prywatność dla oprogramowania używanego na co dzień.
 ___
 
 
@@ -8099,8 +8070,8 @@ Infrastruktura Internetu opiera się głównie na dwóch protokołach:
 
 
 
-- IP** (*Internet Protocol*) Identyfikuje każde podłączone urządzenie i kieruje pakiety danych.
-- TCP** (*Transmission Control Protocol*) Segmentuje przepływ, sprawdza błędy i porządkuje segmenty.
+- **IP** (*Internet Protocol*) Identyfikuje każde podłączone urządzenie i kieruje pakiety danych.
+- **TCP** (*Transmission Control Protocol*) Segmentuje przepływ, sprawdza błędy i porządkuje segmenty.
 
 
 → W przypadku zastosowań w czasie rzeczywistym, w których niezawodność jest mniej ważna niż opóźnienia (VoIP, DNS, streaming itp.), zamiast TCP często używany jest inny protokół transportowy: UDP (*User Datagram Protocol*).
@@ -8127,21 +8098,21 @@ Internet można zatem podsumować jako ogromną zdecentralizowaną sieć, opart�
 W większości nowoczesnych domów dostęp do Internetu jest zapewniany za pośrednictwem centralnego urządzenia, które działa jako modem i router. Nazwa tego urządzenia różni się w zależności od kraju (we Francji nazywa się "Internet Box"). Jest to wielofunkcyjne urządzenie dostarczane przez dostawcę usług internetowych, które łączy użytkownika z resztą sieci internetowej.
 
 
-→ *ISP = dostawca usług internetowych
+→ *ISP = dostawca usług internetowych*
 
 
 Urządzenie to łączy w sobie 2 główne funkcje:
 
 
 
-- Rola modemu**
+- **Rola modemu**
 
 
 Modem (skrót od "*modulator-demodulator*") to element łączący sieć dostawcy usług internetowych z domem. Dostosowuje on odbierane sygnały elektryczne lub optyczne (za pośrednictwem światłowodu, kabla koncentrycznego, ADSL lub sieci komórkowej) do sygnałów cyfrowych, które mogą być rozumiane przez urządzenia. I odwrotnie, konwertuje dane z urządzeń na format, który może być przesyłany przez infrastrukturę operatora. Ten krok jest niezbędny, jeśli sieć domowa ma komunikować się z Internetem.
 
 
 
-- Rola routera**
+- **Rola routera**
 
 
 Router jest sercem sieci lokalnej. Rozprowadza on połączenie internetowe do wszystkich urządzeń: Komputerów, smartfonów, podłączonych przedmiotów, drukarek itp. Przypisuje każdemu z nich lokalny adres IP Address (inny niż publiczny adres IP widoczny w Internecie). Następnie router organizuje ruch przychodzący i wychodzący, zapewniając, że dane docierają do właściwego urządzenia. Może również zintegrować zaporę sieciową, filtrować pakiety sieciowe lub zarządzać regułami przekierowania portów. NAT maskuje sieć lokalną przed wzrokiem Internetu, wykorzystując pojedynczy publiczny adres IP Address do reprezentowania wszystkich urządzeń. Tylko router wie, które urządzenie lokalne zainicjowało dane żądanie.
@@ -8311,16 +8282,24 @@ Ważne jest, aby wybrać nowoczesny sprzęt, utrzymywany przez producenta i zgod
 Router zgodny z Wi-Fi 6, Wi-Fi 6E lub Wi-Fi 7 zapewnia lepsze prędkości, a przede wszystkim natywną obsługę nowoczesnych technologii bezpieczeństwa. Z drugiej strony, bardzo stare urządzenia, zwłaszcza te, które nie otrzymują już aktualizacji oprogramowania, mogą zawierać znane, niezałatane luki w zabezpieczeniach. Stanowią one zatem zagrożenie dla całej sieci, nawet jeśli zostały poprawnie skonfigurowane. W porównaniu z telefonami komórkowymi czy komputerami, routery są sprzętem, który zwykle przechowujemy przez wiele lat. Dobrym pomysłem może być jednak ich regularna wymiana, aby korzystać z nowocześniejszych i bezpieczniejszych modeli.
 
 
+**Uwaga**: Zasadniczo routery dostarczane przez dostawców usług internetowych mogą nie mieć podstawowej funkcji aktualizacji ani możliwości personalizacji. W niektórych przypadkach dostawcy mogą również mieć nieograniczony dostęp do wewnętrznej sieci użytkownika końcowego.
+
 Upewnij się więc, że systematycznie aktualizujesz oprogramowanie sprzętowe routera. Aktualizacje te usuwają luki w zabezpieczeniach, dodają nowe funkcje i zwiększają ogólną stabilność systemu. Niektórzy producenci oferują automatyczne aktualizacje, ale w niektórych przypadkach konieczne będzie ręczne sprawdzenie za pomocą narzędzia administracyjnego Interface routera. Podobnie jak w przypadku telefonu, komputera, systemu operacyjnego i oprogramowania, ważne jest, aby regularnie aktualizować router. Można to uczynić częścią cotygodniowej rutyny - na przykład w każdą niedzielę - sporządzając listę wszystkich elementów, które należy sprawdzić i aktualizować.
 
 
-Jeśli twój router nie jest już obsługiwany, ale nadal działa poprawnie z punktu widzenia sprzętu, możesz zainstalować alternatywne oprogramowanie układowe typu open source, takie jak:
+Alternatywnie możesz włączyć automatyczne aktualizacje lub przynajmniej automatyczne skanowanie w poszukiwaniu nowych aktualizacji oprogramowania układowego, jeśli wolisz działać ręcznie. Chociaż funkcja automatycznych aktualizacji nadal może stanowić zagrożenie bezpieczeństwa, nieaktualizowanie regularnie oprogramowania układowego routera narazi Twoją sieć lokalną na publicznie znane podatności.
+
+**Przykład**: Przy zakupie własnego routera warto rozważyć poszukiwanie ugruntowanych firm w branży, które od dawna dostarczają routery na rynek. Na przykład routery Fritz!Box mają długą reputację jako urządzenia typu plug-and-play, odpowiednie zarówno do użytku domowego, jak i w małych firmach. Ich polityka aktualizacji oprogramowania zwykle obowiązuje przez kilka lat.
+
+Jeśli Twój router nie jest już utrzymywany, ale nadal działa poprawnie pod względem sprzętowym, możesz być w stanie zainstalować alternatywne otwarte oprogramowanie układowe, takie jak:
 
 
 
 - OpenWrt, dystrybucja Linuksa specjalizująca się w routerach, oferująca dużą elastyczność i regularne aktualizacje
 - pfSense i OPNsense, dwa systemy oparte na FreeBSD (uniksopodobne) dla firewalli i routerów x86
 
+
+**Uwaga**: Niektórzy dostawcy usług internetowych dostarczają swoim klientom hurtowe routery produkowane przez jedną firmę, która jednocześnie obsługuje wielu różnych ISP na całym świecie. Możesz odkryć, że aby zainstalować jedno z alternatywnych oprogramowań sprzętowych na routerze, ktoś inny mógł już odkryć, jak to zrobić, nawet jeśli znajduje się po drugiej stronie świata.
 
 ![Image](assets/fr/196.webp)
 
@@ -8385,21 +8364,21 @@ Niektórych funkcji należy unikać lub systematycznie je dezaktywować:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Funkcja ta umożliwia urządzeniom w sieci żądanie od routera automatycznego otwierania portów. Chociaż ułatwia to niektóre zastosowania (gry online, podłączone kamery itp.), Otwiera również drzwi złośliwym aplikacjom zdolnym do modyfikowania konfiguracji sieci bez autoryzacji użytkownika. UPnP jest jedną z głównych przyczyn niezamierzonej ekspozycji usług wewnętrznych na świat zewnętrzny.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- WPS (*Wi-Fi Protected Setup*):
 
 
 Pierwotnie zaprojektowany w celu uproszczenia podłączania urządzeń do Wi-Fi bez konieczności wprowadzania hasła, system ten opiera się na kodzie PIN, który jest często słaby i łatwy do zaatakowania metodą brute force. Radzę go wyłączyć.
 
 
 
-- Zdalny dostęp (*Zarządzanie zdalne*)**:
+- Zdalny dostęp (**Zarządzanie zdalne**):
 
 
 Niektóre routery umożliwiają łączenie się z administracją Interface z zewnątrz, przez Internet. Ta funkcja w nieuzasadniony sposób zwiększa powierzchnię ataku routera. Należy ją całkowicie wyłączyć, chyba że istnieje szczególna potrzeba zdalnego zarządzania. Nawet wtedy zawsze używaj VPN.
@@ -8408,14 +8387,14 @@ Niektóre routery umożliwiają łączenie się z administracją Interface z zew
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Przestarzałe lub niezabezpieczone protokoły**:
+- **Przestarzałe lub niezabezpieczone protokoły**:
 
 
 Wyłącz wszystkie usługi administracyjne, które używają protokołów tekstowych, takich jak Telnet, FTP, niezaszyfrowany HTTP lub SMBv1. Protokoły te nie zapewniają poufności ani integralności wymienianych danych i są często celem złośliwego oprogramowania. Jeśli potrzebujesz dostępu lokalnego lub zdalnego, używaj tylko połączeń HTTPS (szyfrowanych Interface), SSH lub SFTP, w zależności od potrzeb.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Niektóre routery domyślnie odpowiadają na żądania ICMP wysyłane z zewnątrz (polecenie `ping`). Pozwala to atakującemu sprawdzić, czy sieć jest aktywna i dostępna. Jeśli nie jest to potrzebne, należy wyłączyć tę odpowiedź w zaporze sieciowej routera.
@@ -8504,15 +8483,15 @@ Następnie należy aktywować protokół szyfrowania zapytań DNS, aby zapobiec 
 
 
 
-- DoH (*DNS over HTTPS*)**: Encapsulates DNS requests in the HTTPS protocol, making them indistinguishable from conventional encrypted web traffic
+- DoH (**DNS over HTTPS**): Encapsulates DNS requests in the HTTPS protocol, making them indistinguishable from conventional encrypted web traffic
 
 
 
-- DoT (*DNS over TLS*)**: Tworzy specjalny szyfrowany kanał między urządzeniem a serwerem DNS
+- DoT (**DNS over TLS**): Tworzy specjalny szyfrowany kanał między urządzeniem a serwerem DNS
 
 
 
-- DoQ (*DNS over QUIC*)**: Transportuje żądania DNS za pośrednictwem protokołu QUIC opartego na UDP
+- DoQ (**DNS over QUIC**): Transportuje żądania DNS za pośrednictwem protokołu QUIC opartego na UDP
 
 
 W praktyce szyfrowanie DNS i przełączanie serwerów może być realizowane na różnych poziomach:
@@ -8526,6 +8505,7 @@ W praktyce szyfrowanie DNS i przełączanie serwerów może być realizowane na 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Na poziomie systemu operacyjnego: Niektóre systemy operacyjne natywnie integrują szyfrowaną obsługę DNS (DoT lub DoH), która zabezpiecza wszystkie żądania DNS przechodzące przez stos sieciowy systemu. Nie zabezpiecza to jednak całego komputera lub telefonu: Aplikacje mogą ominąć to ustawienie, jeśli są skonfigurowane do korzystania z innego resolwera DNS lub protokołu.
 
 
@@ -8626,3 +8606,4 @@ Postępując zgodnie z tymi kilkoma krokami, zbudujesz solidne, bezpieczne środ
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

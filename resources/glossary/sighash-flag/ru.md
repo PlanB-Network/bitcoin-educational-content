@@ -16,4 +16,4 @@ term: ФЛАГ СИГИ
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Сигнатура охватывает один вход, не фиксируя никакого выхода;
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Сигнатура применяется к одному входу и только к выходу, имеющему тот же индекс, что и этот вход.
 
-> ► *Синонимом для "SigHash" иногда служит "Signature Hash Types"
+> ► *Синонимом для "SigHash" иногда служит "Signature Hash Types"*

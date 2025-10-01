@@ -1,0 +1,9 @@
+question: 网络绑定的主要目的是什么？
+answer: 聚合多个物理网络接口
+wrong_answers:
+  - 为本地网络添加虚拟 IP 地址
+  - 创建 Wi-Fi 网桥
+  - 减少 RJ45 电缆上的数据包大小
+explanation: |
+  网络绑定将多个物理接口合并为一个逻辑接口，提供冗余或增加带宽。
+reviewed: false

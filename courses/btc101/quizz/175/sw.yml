@@ -1,8 +1,8 @@
-question: Ni ipi njia moja ya kupunguza tete ya Bitcoin?
-answer: Ua wa fedha (stablecoins).
+question: Ni kipi kati ya vipengele vifuatavyo vilivyochangia upanuzi wa matumizi ya Bitcoin katika soko la giza la wavuti kama vile Silk Road?
+answer: Asili yake isiyoweza kudhibitiwa na isiyojulikana.
 wrong_answers:
-  - Kuwekeza pesa zako zote kwenye Bitcoin.
-  - Kupuuza mwelekeo wa soko.
-  - Kununua zaidi Bitcoin wakati bei inashuka.
+  - Udhibiti wake wa kati.
+  - Ufuatiliaji wake na asili inayoweza kudhibitiwa.
+  - Ukosefu wake wa jina bandia.
 explanation: >-
 reviewed: true

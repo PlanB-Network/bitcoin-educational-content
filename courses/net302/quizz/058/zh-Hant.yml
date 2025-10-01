@@ -1,0 +1,9 @@
+question: 哪個設定檔在 RHEL-like 系統上定義靜態網路 Interface？
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  在 RHEL、CentOS 及類似的系統上，每個 Interface 都有自己的 ifcfg-* 檔案，位於 /etc/sysconfig/network-scripts/ 中。
+reviewed: false

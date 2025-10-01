@@ -1161,10 +1161,10 @@ Henri Pirenne, belgijski historyk z początku XX wieku, poświęcił część sw
 > Według Pirenne'a te miasta handlowe, dzięki swojej dynamice handlowej i strategicznej pozycji na szlakach morskich, rozwinęły praktyki gospodarcze charakterystyczne dla rodzącego się kapitalizmu. Podkreśla on w szczególności:
 
 
-- Wzrost indywidualnej przedsiębiorczości:** Włoscy kupcy, często pochodzący z zamożnych rodzin, inwestowali własne fundusze w odległe wyprawy handlowe, podejmując w ten sposób ryzyko i oczekując znacznych zysków.
-- Ekspansja kredytu:** Rozwój handlu międzynarodowego stymulował wykorzystanie różnych instrumentów kredytowych, takich jak weksle Exchange i operacje bankowe, umożliwiając finansowanie transakcji i ułatwiając przepływ kapitału.
-- Pogoń za zyskiem:** Główną motywacją włoskich kupców była pogoń za zyskami handlowymi. Angażowali się w ryzykowne przedsięwzięcia, mając nadzieję na zmaksymalizowanie swoich zysków poprzez handel cennymi produktami na odległych rynkach.
-- Pojawienie się spekulacji:** Niepewność związana z podróżami morskimi i wahaniami cen doprowadziła do powstania praktyk spekulacyjnych, w których kupcy obstawiali zmiany cen towarów.
+- **Wzrost indywidualnej przedsiębiorczości:** Włoscy kupcy, często pochodzący z zamożnych rodzin, inwestowali własne fundusze w odległe wyprawy handlowe, podejmując w ten sposób ryzyko i oczekując znacznych zysków.
+- **Ekspansja kredytu:** Rozwój handlu międzynarodowego stymulował wykorzystanie różnych instrumentów kredytowych, takich jak weksle Exchange i operacje bankowe, umożliwiając finansowanie transakcji i ułatwiając przepływ kapitału.
+- **Pogoń za zyskiem:** Główną motywacją włoskich kupców była pogoń za zyskami handlowymi. Angażowali się w ryzykowne przedsięwzięcia, mając nadzieję na zmaksymalizowanie swoich zysków poprzez handel cennymi produktami na odległych rynkach.
+- Pojawienie się spekulacji: Niepewność związana z podróżami morskimi i wahaniami cen doprowadziła do powstania praktyk spekulacyjnych, w których kupcy obstawiali zmiany cen towarów.
 
 
 Pirenne zauważa, że praktyki te, choć obecne w innych regionach Europy, doświadczyły szczególnie wczesnego i intensywnego rozwoju we włoskich miastach-państwach. Przypisuje to zjawisko kilku czynnikom, w tym wzrostowi handlu morskiego, wpływowi wypraw krzyżowych, osłabieniu struktur feudalnych i innowacyjnemu duchowi charakterystycznemu dla tych miast handlowych.
@@ -1926,7 +1926,7 @@ Austriacka Szkoła Ekonomii, założona przez Carla Mengera pod koniec XIX wieku
 Austriaccy ekonomiści odrzucają marksistowskie pojęcie walki klas, zgodnie z którym konflikt między klasą kapitalistów a klasą robotniczą byłby nieunikniony i byłby motorem zmian społecznych.
 
 
-**Wszystkie zmiany społeczne są możliwe tylko dzięki działaniom jednostek, a nie abstrakcyjnych sił społecznych, takich jak klasy
+**Wszystkie zmiany społeczne są możliwe tylko dzięki działaniom jednostek, a nie abstrakcyjnych sił społecznych, takich jak klasy**
 
 
 Austriacy twierdzą, że społeczeństwo nie jest podzielone na dwie antagonistyczne klasy, ale raczej składa się z jednostek o różnych interesach i potrzebach. Podkreślają, że relacje gospodarcze między jednostkami są generalnie wzajemnie korzystne i nie opierają się na wyzysku.
@@ -2238,12 +2238,6 @@ Dla Hayeka niestabilność gospodarki rynkowej w przeszłości wynikała z faktu
 Hayek wierzył, że wolny rynek prywatnych walut doprowadzi do większej stabilności monetarnej. Prawie 50 lat później kryptowaluta taka jak Bitcoin ucieleśnia konkurencyjną wizję Hayeka, oferując zdecentralizowaną alternatywę dla monopolistycznego systemu banków centralnych. Bitcoin, z limitem emisji wynoszącym 21 milionów jednostek, jest gwarancją ochrony przed inflacją i arbitralnością organów regulacyjnych.
 
 
-## Recenzje i oceny
-
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-
-<isCourseReview>true</isCourseReview>
 
 ## Podsumowanie: siła pomysłów
 

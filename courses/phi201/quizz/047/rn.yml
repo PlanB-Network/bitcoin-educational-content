@@ -1,0 +1,9 @@
+question: Ni igiki gisobanura amajambo ya Master Eckhart ngo Ibintu vyose birafise impamvu, ariko Imana nta mpamvu ifise?
+answer: Imana ntishobora gutahurwa n’ubwenge bw’umuntu kandi ntishobora gusigurwa n’imvo zishingiye ku vyiyumviro.
+wrong_answers:
+  - Ukwizera kuraruta ukwiyumvira kandi ntigukwiye gushirwako ibibazo bishingiye ku vyiyumviro.
+  - Gukurikirana ubumenyi bujanye n’ubwenge ni ubusa kandi ntibushobora kutujana ku Mana.
+  - Inyishu zose zivugwa haruguru ni ukuri.
+explanation: |
+  Umwigisha Eckhart atanga iciyumviro c’uko Imana irenze ivyiyumviro bishingiye ku vyiyumviro n’insobanuro z’abantu. Imana itandukanye n’ivyaremwe, ntiyigenga igira imvo n’imvano ubwenge bw’umuntu bushobora gutahura.
+reviewed: true

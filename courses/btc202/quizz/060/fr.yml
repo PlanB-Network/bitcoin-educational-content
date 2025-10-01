@@ -1,0 +1,9 @@
+question: Quel est le rôle d’un relais Nostr installé sur Umbrel ?
+answer: Héberger localement ses publications
+wrong_answers:
+  - Vérifier les transactions Bitcoin
+  - Créer des canaux Nostr avec ses contacts
+  - Sauvegarder en local la blockchain Nostr
+explanation: |
+  Un relais Nostr sur Umbrel permet d’héberger ses données localement pour garantir leur disponibilité et souveraineté.
+reviewed: false

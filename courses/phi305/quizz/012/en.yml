@@ -1,0 +1,9 @@
+question: What is morality for Gilles Deleuze?
+answer: A system of judgment between the good and the moral.
+wrong_answers:
+  - A religious initiative.
+  - The result of the law.
+  - An enduring principle.
+explanation: |
+  For Gilles Deleuze, morality is a system of judgment that classifies actions into good and evil according to transcendent values. He contrasts this with Spinozist ethics, which evaluates modes of existence according to their power to act.
+reviewed: false

@@ -1,6 +1,7 @@
 id: 65c138b0-4161-4958-bbe3-c12916bc959c
 topic: bitcoin
 subtopic: bitcoin
+type: theory
 
 level: intermediate
 hours: 26
@@ -18,7 +19,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 138.52
+    reward: 138.51
   - language: de
     last_contribution_date:
     urgency: 1
@@ -34,12 +35,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 51.96
+    reward: 51.95
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 138.52
+    reward: 138.51
   - language: fr
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -56,7 +57,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 207.73
+    reward: 207.72
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -67,64 +68,90 @@ proofreading:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 69.26
+    reward: 69.25
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 103.86
+    reward: 103.84
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 138.52
+    reward: 138.51
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 173.12
+    reward: 173.11
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 138.52
+    reward: 138.51
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 173.12
+    reward: 173.09
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 138.52
+    reward: 138.51
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 242.33
+    reward: 242.32
   - language: sr-Latn
-    last_contribution_date:
+    last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
-    reward: 138.52
+      - Sanja22B
+    reward: 69.25
   - language: sw
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 69.26
+    reward: 69.25
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 173.12
+    reward: 173.09
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 138.52
+    reward: 138.51
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 103.89
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 138.51
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 173.09
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 138.49
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 207.69
 tags:
   - privacy
   - personal-security

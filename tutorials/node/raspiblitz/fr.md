@@ -15,13 +15,13 @@ RASPIBLITZ - Comment exécuter un nœud Lightning et Bitcoin Full Node par BTC s
 
 # Guide d'installation de Raspiblitz de Parman
 
-Le Raspiblitz est un excellent système pour exécuter un nœud Bitcoin et des applications associées. Je recommande cela et le nœud My Node à la plupart des utilisateurs (idéalement, avoir deux nœuds pour la redondance). Un avantage majeur est que le nœud Raspiblitz est un "logiciel libre et open source", contrairement à MyNode ou Umbrel. Pourquoi est-ce important ? Vlad Costa explique. Vous pouvez également exécuter le RaspbiBlitz avec une connexion WiFi plutôt qu'Ethernet - voici un guide supplémentaire à ce sujet (je n'ai pas trouvé de moyen de le faire avec MyNode).
+Le Raspiblitz est un excellent système pour exécuter un nœud Bitcoin et des applications associées. Je recommande celui-ci ainsi que le nœud MyNode à la plupart des utilisateurs (idéalement avoir deux nœuds pour la redondance). Un avantage majeur est que le nœud Raspiblitz est un « Free Open Source Software », contrairement à MyNode ou Umbrel. [Pourquoi est-ce important ? Vlad Costa l’explique.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Vous pouvez également exécuter le Raspiblitz avec une connexion WiFi plutôt qu’ethernet – voici un [guide complémentaire](https://armantheparman.com/headless-wifi/) pour cela. (Je n’ai pas trouvé de moyen de le faire avec MyNode).
 
 Vous pouvez acheter un nœud préfabriqué avec un écran miniaturisé intégré, ou vous pouvez le construire vous-même (vous n'avez pas besoin d'un écran).
 
-Le guide sur la page GitHub est excellent, mais peut-être trop détaillé pour un utilisateur moyennement expérimenté. Mes instructions seront plus succinctes et, espérons-le, plus faciles à suivre.
+Le [guide sur la page GitHub](https://github.com/rootzoll/raspiblitz) est excellent, mais peut-être trop détaillé pour un utilisateur ayant une expérience modérée. Mes instructions seront plus concises et, espérons-le, plus faciles à suivre.
 
-Essentiellement, le processus est très similaire au processus de configuration d'un nœud MyNode avec un Raspberry Pi 4. Le guide Raspiblitz suggère d'acheter un moniteur, mais vous n'en avez vraiment pas besoin, et je ne le recommanderais pas. Vous n'avez même pas besoin d'un clavier ou d'une souris supplémentaires. Accédez simplement au menu terminal de l'appareil via un ordinateur connecté au même réseau domestique et utilisez la commande ssh dans le terminal. Cela est possible avec Linux/Mac (facile) et un peu plus difficile avec Windows.
+Essentiellement, le processus est très similaire à celui de la configuration d’un [nœud MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) avec un Raspberry Pi 4. Le guide Raspiblitz suggère d’acheter un écran, mais vous n’en avez vraiment pas besoin, et je ne le recommanderais pas. Vous n’avez même pas besoin d’un clavier ou d’une souris supplémentaire. Il suffit d’accéder au menu terminal de l’appareil via un ordinateur sur le même réseau domestique, et d’utiliser la commande ssh dans le terminal. Cela est possible avec Linux/Mac (facile) et un peu plus difficile avec Windows.
 
 ## Étape 1 : Achetez le matériel.
 
@@ -50,11 +50,11 @@ C'est plus rapide, mais inutilement cher:
 
 ## Étape 2: Télécharger l'image Raspiblitz
 
-Accédez au site web de Raspiblitz sur Github et trouvez le lien "télécharger l'image":
+Accédez au [site GitHub de Raspiblitz](https://github.com/rootzoll/raspiblitz), et trouvez le lien « download image » :
 
 ![image](assets/4.webp)
 
-Le hash sha-256 du fichier téléchargé est fourni sur le site web. Il changera à chaque mise à jour. Si vous ne comprenez pas de quoi il s'agit, vous devriez le faire, alors j'ai écrit un guide que vous pouvez lire ici.
+Le hachage sha-256 du fichier téléchargé est fourni sur le site web. Il changera à chaque mise à jour. Si vous ne comprenez pas de quoi il s’agit, vous devriez, c’est pourquoi j’ai rédigé un [guide que vous pouvez lire ici.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 
@@ -62,9 +62,10 @@ Le hash sha-256 du fichier téléchargé est fourni sur le site web. Il changera
 
 Avant de continuer, si vous ne connaissez pas le système de fichiers en ligne de commande, il est facile d'apprendre et vous devriez le faire.
 
-Voici une vidéo utile pour Linux, mais qui s'applique également à Mac.
+Voici une [vidéo utile pour Linux, mais qui s’applique aussi à Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Pour Windows, voici un tutoriel simple.
+Pour Windows, voici un [tutoriel simple](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_MISE À JOUR : la vérification pgp/gpg est désormais disponible. Vous aurez besoin de la clé publique d’Openoms. [La voici](http://parman.org/downloadable/openoms.txt) (il se peut que vous ayez besoin du mode navigation privée pour que le lien fonctionne – http, pas https)_
 Mac/Linux
 
 Attendez que le téléchargement du fichier soit terminé (important!), puis ouvrez le terminal, accédez à l'endroit où vous avez téléchargé le fichier et tapez la commande suivante...
@@ -90,7 +91,7 @@ L'ordinateur réfléchit pendant environ 20 secondes. Vérifiez que le hash du f
 
 ## Étape 4: Flasher la carte SD
 
-Vous pouvez utiliser Balena Etcher pour cela. Téléchargez-le ici.
+Vous pouvez utiliser Balena Etcher pour faire cela. [Téléchargez-le ici](https://www.balena.io/etcher/).
 
 Etcher est facile à utiliser. Insérez votre carte micro SD et flashez le logiciel Raspiblitz (.img) sur la carte SD.
 
@@ -145,7 +146,7 @@ Pour Mac/Linux, dans le terminal, tapez :
 ssh admin@adresse_IP_de_votre_Pi
 ```
 
-Pour Windows, vous devrez installer putty pour vous connecter en SSH au Pi. Tapez la même commande que ci-dessus.
+Pour Windows, vous devez installer [putty](http://putty.org/) afin de vous connecter en ssh au Pi. Tapez la même commande que ci-dessus.
 
 La première fois que vous le faites, ou chaque fois que vous changez le système d'exploitation du Pi en changeant la carte SD, vous pouvez obtenir cette erreur ou non...
 

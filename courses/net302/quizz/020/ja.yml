@@ -1,0 +1,9 @@
+question: TCPとUDPの主な違いは何ですか？
+answer: TCPはコネクション指向だが、UDPはコネクション指向ではない。
+wrong_answers:
+  - TCPはローカルネットワークでのみ機能し、UDPはインターネット上で機能する。
+  - TCPは常に暗号化を使うが、UDPは決して暗号化を使わない
+  - TCPはIPの断片化を管理し、UDPは圧縮を処理する
+explanation: |
+  TCPはコネクションを確立して監視する必要があるが、UDPは事前のセッションを設定したり制御したりすることなくパケットを送信する。
+reviewed: false

@@ -1,9 +1,9 @@
-question: Wie lange beträgt die durchschnittliche Zeit zwischen der Erstellung von zwei Blöcken im Bitcoin-Protokoll?
-answer: 10 Minuten.
+question: Was ist der Hauptvorteil von spezialisierten SHA256-Maschinen oder ASICs beim Bitcoin-Mining?
+answer: Sie erhöhen die Hash-Rate pro Joule.
 wrong_answers:
-  - 5 Minuten.
-  - 15 Minuten.
-  - 20 Minuten.
+  - Sie reduzieren den Energieverbrauch.
+  - Sie erhöhen die Geschwindigkeit der Transaktionen.
+  - Sie erhöhen die Sicherheit des Netzwerks.
 explanation: >-
-  Im Durchschnitt wird alle 10 Minuten ein Block im Bitcoin-Protokoll erstellt. Diese Zeit bleibt konstant, unabhängig von der Anzahl der Miner und ihrer Rechenleistung.
+  Spezialisierte SHA256-Maschinen oder ASICs erhöhen die Hash-Rate pro Joule beim Bitcoin-Mining. Das bedeutet, die Anzahl der Versuche pro Sekunde und pro verbrauchter Energie.
 reviewed: true

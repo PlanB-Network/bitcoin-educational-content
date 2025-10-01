@@ -1,0 +1,9 @@
+question: Jaký mechanismus lze použít k načtení snímku sady UTXO, aby byl uzel rychle použitelný?
+answer: assumeutxo
+wrong_answers:
+  - předpokládám, že
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo načte snímek sady UTXO, aby uzel rychle naběhl, a na pozadí obnoví kompletní sadu UTXO.
+reviewed: true

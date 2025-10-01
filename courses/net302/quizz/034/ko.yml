@@ -1,0 +1,9 @@
+question: 컴퓨터 네트워크에서 IPv4 Address의 주요 역할은 무엇인가요?
+answer: 네트워크 Interface 고유 식별
+wrong_answers:
+  - 네트워크에서 전체 디바이스 식별
+  - 네트워크에서 동적으로 MAC 주소 할당하기
+  - generate DNS 이름
+explanation: |
+  장치의 각 네트워크 Interface에 IPv4 Address가 할당되어 네트워크에서 장치를 찾고 연결할 수 있습니다.
+reviewed: false

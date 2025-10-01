@@ -1,0 +1,9 @@
+question: Lsof의 -u 옵션은 언제 사용되나요?
+answer: 사용자별로 필터링하려면 다음과 같이 하세요
+wrong_answers:
+  - DNS 확인을 강제하려면
+  - 열린 포트를 표시하려면
+  - DNS 서버를 지정하려면 다음과 같이 하세요
+explanation: |
+  Lsof의 -u 옵션은 출력을 특정 사용자 또는 UID가 연 파일로 제한합니다.
+reviewed: false

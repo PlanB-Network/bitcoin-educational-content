@@ -1,0 +1,9 @@
+question: Ni kuki ubucuruzi bwoshobora guhitamwo gufata Bitcoin nk’ishoramari ry’igihe kirekire ku rutonde rw’itunga ryabwo?
+answer: Kubera ko yoshobora gukora nk’ububiko bw’agaciro, ishobora gutera imbere uko igihe kigenda kirarenga kandi igatanga uruzitiro rwo gukingira ugutera imbere kw’ibiciro.
+wrong_answers:
+  - Kuko bituma imisoro yose ijanye n’amahera ikurwaho ubwo nyene.
+  - Kuko bisabwa n’ingingo mfatirwako mpuzamakungu z’ivy’ubuhinga bw’ivy’ubuhinga.
+  - Kuko Bitcoin mu kameremere kayo itanga inyungu zishingiye ku vyemezo ata ngorane.
+explanation: |
+  Amashirahamwe amwe amwe abona ko Bitcoin ari umutungo w’igihe kirekire ushobora kuzigama canke gukura mu gaciro, ukarinda gusenyuka kw’amahera ya kera no guhindura ububiko bwabo.
+reviewed: false

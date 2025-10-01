@@ -3,7 +3,7 @@ answer: Lightning Network
 wrong_answers:
   - Hardware Wallet
   - Conto corrente bancario
-  - RGB Layer
+  - RGB
 explanation: |
-  Lightning consente transazioni rapide e a basso costo per gli acquisti quotidiani. È lo strumento ideale per gli utenti attivi.
-reviewed: false
+  Lightning Network consente transazioni rapide e a basso costo per gli acquisti quotidiani. È lo strumento ideale per gli utenti attivi.
+reviewed: true

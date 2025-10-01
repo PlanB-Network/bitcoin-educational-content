@@ -1,11 +1,10 @@
-question: Kakva je priroda usvajanja Bitkoina kako je opisano u ovom kursu?
-answer: Viralno.
+question: Kada je Lightning mreža prvi put validirana i implementirana?
+answer: 2017.
 wrong_answers:
-  - Polako i postojano.
-  - Brzo i nekontrolisano.
-  - Sporadično i nepredvidivo.
+  - 2015.
+  - 2016.
+  - 2018.
 explanation: |
-  Tekst kursa opisuje usvajanje Bitkoina kao viralno,
-  sugerišući da se širi brzo i široko sa jedne
-  osobe na drugu, slično kao virus, ali dobar.
+  Lightning mreža je prvi put validirana i implementirana
+  2017.
 reviewed: true

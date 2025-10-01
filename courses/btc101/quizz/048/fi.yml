@@ -1,11 +1,9 @@
-question: Mikä on hyperinflaation seuraus?
-answer: Valuutan arvon jyrkkä lasku.
+question: Mikä oli Saksan inflaatioprosentti lokakuussa 1923 hyperinflaation huipulla?
+answer: 29 500 %
 wrong_answers:
-  - Valuutan arvon pieni lasku.
-  - Valuutan arvon jyrkkä nousu.
-  - Valuutan arvon pieni nousu.
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  Hyperinflaation vuoksi ihmiset menettävät nopeasti
-  luottamuksensa valuuttaan, mikä johtaa
-  valuutan arvon jyrkkään laskuun lyhyessä ajassa.
-reviewed: true
+  Lokakuu 1923 oli kuukausi, jolloin inflaatio oli Saksassa korkeimmillaan, huipussaan 29 500 %.
+reviewed: false

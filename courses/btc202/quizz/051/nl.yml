@@ -1,0 +1,9 @@
+question: Wanneer moet een gebruiker een indexer installeren?
+answer: Om een Block explorer uit te voeren
+wrong_answers:
+  - Voor Mining blokken zelf
+  - De Lightning Network activeren
+  - Transacties ondertekenen
+explanation: |
+  Een indexer wordt onmisbaar voor geavanceerd gebruik, zoals een lokale verkenner.
+reviewed: true

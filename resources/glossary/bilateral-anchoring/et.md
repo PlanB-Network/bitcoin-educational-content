@@ -9,4 +9,4 @@ Mehhanism, mis loob ühenduse Bitcoini põhisüsteemi ja külgahela (või drivec
 - Üksuste föderatsioon;
 - Kaevurite peamine kett (drivechain).
 
-> ► *Inglise keeles nimetatakse seda "two-way peg" või "2WP"
+> ► *Inglise keeles nimetatakse seda "two-way peg" või "2WP"*

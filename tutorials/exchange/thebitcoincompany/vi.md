@@ -1,5 +1,5 @@
 ---
-name: Công ty Bitcoin
+name: The Bitcoin Company
 description: Làm thế nào tôi có thể mua hàng hóa và dịch vụ bằng BTC với Công ty Bitcoin?
 ---
 ![cover](assets/cover.webp)

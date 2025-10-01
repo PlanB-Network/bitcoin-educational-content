@@ -1,8 +1,9 @@
-question: Hoe valideren miners transacties en nemen ze op in een blok?
-answer: Door het proces van Proof of Work.
+question: Wat is de huidige grootte van de Bitcoin Blockchain?
+answer: Ongeveer 500 GB.
 wrong_answers:
-  - Door het proces van Proof of stake.
-  - Door het proces van Bewijs van autoriteit.
-  - Door het proces van Bewijs van verbranding.
-explanation: >-
+  - Ongeveer 100 GB.
+  - Ongeveer 1 TB.
+  - Ongeveer 2TB.
+explanation: |
+  De Bitcoin Blockchain is ongeveer 500 GB groot vanaf 2023.
 reviewed: true

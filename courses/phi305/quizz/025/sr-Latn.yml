@@ -1,0 +1,9 @@
+question: Da li je René Descartes verovao u slobodnu volju?
+answer: Nikad.
+wrong_answers:
+  - Samo za odrasle.
+  - Samo da smo proučavali filozofiju.
+  - Pod određenim uslovima.
+explanation: |
+  René Descartes nikada nije verovao u slobodnu volju. Tvrdio je da su sve naše akcije određene prethodnim uzrocima, iako je pokušavao da sačuva neki oblik slobode volje.
+reviewed: false

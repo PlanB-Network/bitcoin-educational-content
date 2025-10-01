@@ -113,7 +113,7 @@ Märkus: rakendus laadib automaatselt uuesti, kui muudate mis tahes lähtefaile.
 
 Esimesel käivitamisel peate käivitama andmebaasi migratsiooni.
 
-Selleks käivitage migratsiooniskript : `pnpm run dev:db:migrate`
+Selleks käivitage migratsiooniskript: `pnpm run dev:db:migrate`
 
 ```markdown
 pnpm run dev:db:migrate

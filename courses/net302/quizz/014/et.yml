@@ -1,0 +1,9 @@
+question: Mis on IPv5 (Stream Protocol, ST) peamine eesmärk?
+answer: Teenuse kvaliteedi tagamine teatavate voogude puhul
+wrong_answers:
+  - Laiendada IP-aadresside mahtu
+  - Tagasiühilduvuse tagamine IPv6-ga
+  - TCP/IP-võrgupakettide suuruse vähendamine
+explanation: |
+  IPv5 (ST) on loodud selleks, et tagada teenuse kvaliteet (QoS) multimeediavoogude, näiteks VoIPi jaoks, tagades ribalaiuse ja prioriteedi.
+reviewed: false

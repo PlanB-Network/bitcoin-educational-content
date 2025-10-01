@@ -1,10 +1,9 @@
-question: Ni nini athari ya mfumuko wa bei wa 20% kwenye nguvu ya ununuzi kwa miaka 3?
-answer: Unapoteza 50% ya uwezo wako wa kununua.
+question: Ni ipi kati ya zifuatazo ambayo sio tabia ya Bitcoin?
+answer: Inadhibitiwa kwa urahisi.
 wrong_answers:
-  - Unapoteza 100% ya uwezo wako wa kununua.
-  - Unapoteza 60% ya uwezo wako wa kununua.
-  - Unapoteza 30% ya uwezo wako wa kununua.
+  - Inasafirishwa papo hapo.
+  - Ina gharama kidogo za uthibitishaji.
+  - Ina sera ya fedha isiyobadilika.
 explanation: |
-  Kwa mfumuko wa bei wa 20%, unapoteza karibu nusu ya ununuzi wako
-  nguvu katika miaka 3.
+  Bitcoin ina sifa zote zinazohitajika ili kuwa sarafu bora na yenye afya: inayoweza kugawanywa, kusafirishwa papo hapo, isiyoweza kubatilishwa, gharama isiyo na maana ya uthibitishaji, na yenye sera ya fedha ambayo tayari imewekwa kwa karne kadhaa kuja na vitengo milioni 21.
 reviewed: true

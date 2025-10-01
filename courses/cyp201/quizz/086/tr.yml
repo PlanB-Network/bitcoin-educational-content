@@ -1,0 +1,9 @@
+question: Bech32'de kodlanan SegWit v0 adresleri için sağlama toplamı nasıl hesaplanır?
+answer: BCH kodlarını kullanma
+wrong_answers:
+  - HASH256'yı iki kez uygulayarak
+  - Bir RIPEMD160 Hash ekleyerek
+  - Doğrudan base64 olarak kodlayarak
+explanation: |
+  Bech32 adresleri sağlama toplamını hesaplamak için BCH kodlarını kullanır.
+reviewed: false

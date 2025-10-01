@@ -1,11 +1,13 @@
-question: Vad är en av nackdelarna med guld som en form av pengar?
-answer: Den är inte lätt delbar.
+question: Vilken är utvecklingsvägen för dagens valuta?
+answer: Rå sten -> Mynt -> Sedel -> Bankkort -> Blockchain -> Lightning Network
 wrong_answers:
-  - Den behåller inte sitt värde i rymden.
-  - Det eroderar med tiden.
-  - Det är lätt att producera.
+  - Rå sten -> mynt -> sedel -> Blockchain -> Lightning Network
+  - Rå sten -> Mynt -> Sedel -> Bankkort -> Lightning Network
+  - Rå sten -> Mynt -> Bankkort -> Sedel -> Blockchain -> Lightning Network
 explanation: |
-  En av de största nackdelarna med guld som en form av pengar är
-  att det är svårt att dela upp i små enheter när behovet uppstår
-  uppstår, vilket gör det mindre praktiskt att använda.
+  Valuta är en teknik som har utvecklats med tiden,
+  från att ha representerats av råa stenar, övergått till
+  till metallmynt, sedan till sedlar, bankkort och slutligen till
+  slutligen till peer-to-peer-nätverk med användning av
+  Bitcoin Blockchain och Lightning Network.
 reviewed: true

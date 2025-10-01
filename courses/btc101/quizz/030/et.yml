@@ -1,11 +1,9 @@
-question: Mis on fiat-valuutade peamine eelis?
-answer: Neid on lihtne jagada
+question: Milline üksus vastutab füüsilise valuuta emiteerimise eest?
+answer: Keskpank
 wrong_answers:
-  - Neid kontrollib keskne osapool
-  - Neid ei ole lihtne transportida
-  - Need on efektiivsed väärtuse säilitamiseks ajas
+  - Kommertspank
+  - Valitsus
+  - Eraasutused
 explanation: |
-  Fiat-valuutad, nagu dollar ja euro, on väga likviidsed ja
-  lihtsasti transporditavad, kuna need on nüüd peamiselt digitaalsed. Siiski, nende väärtust
-  kahandab pidevalt rahaline inflatsioon.
+  Keskpank on üksus, mis vastutab füüsilise valuuta emiteerimise eest. Nad otsustavad rahapoliitika üle ja määravad, kui palju raha tuleks ringlusse lasta või trükkida.
 reviewed: true

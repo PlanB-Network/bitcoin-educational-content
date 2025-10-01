@@ -1,0 +1,9 @@
+question: Který příkaz načte místní IP adresu Address vašeho Umbrelu, pokud přístup přes umbrel.local selže?
+answer: hostname -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  V případě problémů s detekcí můžete v počítači Umbrel použít příkaz hostname -I a zjistit jeho místní IP adresu.
+reviewed: true

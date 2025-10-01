@@ -1,0 +1,9 @@
+question: XOR işlemi iki bit arasında uygulandığında ne anlama gelir?
+answer: Bitler farklıysa 1 döndürür, aksi takdirde 0 döndürür
+wrong_answers:
+  - Yalnızca her iki bit de 1 ise 1 döndürür
+  - Bitleri toplar ve toplamı döndürür
+  - Sonuç ne olursa olsun her zaman 0 döndürür
+explanation: |
+  XOR işlemi (veya özel veya), iki bit farklıysa (0 ve 1 veya 1 ve 0) 1, aynıysa 0 üretir.
+reviewed: false

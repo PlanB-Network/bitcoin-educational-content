@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Ledger
+name: BIP-39 Passphrase Ledger
 description: Jak dodać passphrase do Ledger Wallet?
 ---
 ![cover](assets/cover.webp)

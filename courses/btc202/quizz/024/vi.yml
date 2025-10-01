@@ -1,0 +1,9 @@
+question: Rủi ro là gì nếu Wallet phụ thuộc vào một nút của bên thứ ba?
+answer: Nguy cơ bị giám sát và kiểm duyệt
+wrong_answers:
+  - Nguy cơ tự động Double-spending
+  - Nguy cơ mất khóa riêng tư
+  - Rủi ro mất mát và giám sát
+explanation: |
+  Một nút của bên thứ ba có thể phân tích hoặc chặn các giao dịch của bạn hoặc thậm chí liên kết dữ liệu của bạn với danh tính của bạn.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bir düğüm yeniden başlatıldığında eski eşlerini bulmak için ilk olarak hangi dosyalara başvurur?
+answer: anchors.dat ve peers.dat
+wrong_answers:
+  - Mempool.dat ve peers.dat
+  - Mempool.dat ve ip.dat
+  - ip.dat ve anchors.dat
+explanation: |
+  Bitcoin core yeniden bağlanmak için önce anchors.dat'a (önceki giden eşler), ardından peers.dat'a (bilinen Address kitabı) başvurur.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 本地网络中 MAC Address 的主要功能是什么？
+answer: 唯一标识网络 Interface
+wrong_answers:
+  - 将域名转换为 IP Address
+  - 为主机动态分配 IP Address
+  - 确定网络连接速度
+explanation: |
+  MAC Address 是每个网络 Interface 的唯一硬件标识符，可用于区分本地网络上的设备。
+reviewed: false

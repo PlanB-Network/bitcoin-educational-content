@@ -1,9 +1,9 @@
-question: Tỷ lệ lạm phát ở Zimbabwe vào tháng 11 năm 2008 là bao nhiêu?
-answer: 79,600,000,000%
+question: Lệnh nào được sử dụng để kiểm tra số lượng bitcoin đang lưu thông trên một nút Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796%
-  - 79,600,000,000,000,000%
-  - 100%
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  Vào tháng 11 năm 2008, tỷ lệ lạm phát hàng tháng của đồng tiền Zimbabwe đã đạt đến mức 79,600,000,000%, làm giảm giá trị của đồng đô la Zimbabwe xuống còn 0.
+  Lệnh để kiểm tra số lượng bitcoin đang lưu thông trên một nút Bitcoin là bitcoin-cli gettxoutsetinfo. Lệnh này cung cấp tính minh bạch và khả năng kiểm chứng, tăng cường lòng tin vào hệ thống Bitcoin.
 reviewed: true

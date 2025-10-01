@@ -1,4 +1,2 @@
 description: |
   Bitcoin Knots 是 Bitcoin 协议的另一种实现方式，源自 Bitcoin 核心。Knots 由 Luke Dashjr 设计和维护，提供额外的功能和规则调整，同时与网络中的其他节点保持兼容。Bitcoin Knots 可用于管理综合投资组合，也可作为一个简单、全面的验证节点运行。它为有经验的用户提供了更高级的控制功能，尤其是在交易验证和配置方面。
-contributor_names:
-  - LoicPandul

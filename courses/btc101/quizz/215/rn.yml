@@ -1,0 +1,8 @@
+question: Ni ikihe kibazo c’ugutera imbere kwa Bitcoin?
+answer: Ingorane yo gushirwa mu ngiro uburyo bw’amahera bushobora gutanga umubare w’amahera uguma wiyongera ku segonda uko bugenda burashirwa mu ngiro.
+wrong_answers:
+  - Ingorane za Mining Bitcoins nshasha zifise agaciro kagenda karushirizaho uko igihe kigenda kirarenga.
+  - Ihinduka ry'igiciro ca Bitcoin rizokwongerekana inyuma ya Halving yose.
+  - Kubura amategeko ya Bitcoin bizotuma amafaranga y’ubudandaji ateye kubiri n’amategeko.
+explanation: >-
+reviewed: true

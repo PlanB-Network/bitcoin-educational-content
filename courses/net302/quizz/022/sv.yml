@@ -1,0 +1,9 @@
+question: Vad är syftet med "ACK"-flaggan i ett TCP-segment?
+answer: För att bekräfta mottagandet av segment
+wrong_answers:
+  - För att initiera stängning av anslutning
+  - För att kryptera det utväxlade dataflödet
+  - För att identifiera den serviceport som används
+explanation: |
+  När ACK-flaggan är satt bekräftar den att ett segment har tagits emot och anger nästa förväntade sekvensnummer.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ping 指令使用哪個通訊協定來測試網路連線性？
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - ARP
+explanation: |
+  ping 指令使用 ICMP 通訊協定傳送回傳要求並測量網路延遲。
+reviewed: false

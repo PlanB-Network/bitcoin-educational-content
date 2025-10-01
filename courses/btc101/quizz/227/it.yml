@@ -1,11 +1,8 @@
-question: Cosa potrebbe accadere ai servizi tradizionali di trasferimento di denaro come Western Union, alle banche centrali, a Visa e a Mastercard se non adottassero Lightning Network?
-answer: Potrebbero scomparire.
+question: Qual è una delle potenziali applicazioni di Lightning Network nella vita quotidiana?
+answer: Incasso istantaneo nel commercio.
 wrong_answers:
-  - Potrebbero diventare più popolari.
-  - Potrebbero diventare più sicuri.
-  - Potrebbero diventare più decentralizzati.
-explanation: |
-  I servizi tradizionali di trasferimento di denaro come Western Union,
-  le banche centrali, Visa e Mastercard potrebbero scomparire se non
-  adottassero la tecnologia Lightning Network.
+  - Minare nuovi Bitcoin.
+  - Creare nuove criptovalute.
+  - Aumentare il valore di Bitcoin.
+explanation: Lightning Network apre la porta a una vasta gamma di potenziali applicazioni per Bitcoin che erano precedentemente irraggiungibili a causa dei vincoli necessari per garantire la sicurezza e la decentralizzazione del protocollo. Tra queste applicazioni nella vita quotidiana, possiamo menzionare l'incasso istantaneo per i commercianti.
 reviewed: true

@@ -1,11 +1,9 @@
-question: När presenterades Bitcoin för första gången för världen?
-answer: 31 oktober 2008.
+question: Hur stor andel av tiden har Bitcoin-nätverket varit funktionellt sedan det skapades?
+answer: 99.988%.
 wrong_answers:
-  - 3 januari 2009.
-  - 22 november 2009.
-  - 12 december 2010.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Bitcoin presenterades för första gången för världen den 31 oktober,
-  2008, då Satoshi Nakamoto skickade ett e-postmeddelande till Cypherpunk
-  e-postlistan som innehöll Bitcoin:s vitbok.
+  Tillgängligheten online för Bitcoin är 99,988% sedan 2009.
 reviewed: true

@@ -1,0 +1,9 @@
+question: アプリケーションLayer（TCP/IP）で交換されるデータ単位の名前は？
+answer: メッセージ
+wrong_answers:
+  - フレーム
+  - セグメント
+  - データグラム
+explanation: |
+  TCP/IPモデルでは、アプリケーションLayerで交換されるデータはメッセージ（コンテキストによってはストリーム）と呼ばれる。
+reviewed: false

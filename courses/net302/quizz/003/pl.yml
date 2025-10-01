@@ -1,0 +1,9 @@
+question: Jaka jest główna zaleta topologii magistrali?
+answer: Niski koszt instalacji
+wrong_answers:
+  - Wysoka nadmiarowość
+  - Niskie opóźnienia
+  - Wysoka dostępność
+explanation: |
+  Magistrala opiera się na pojedynczym nośniku fizycznym, co obniża koszty instalacji, ale także wprowadza pojedynczy punkt awarii.
+reviewed: false

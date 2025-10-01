@@ -1,0 +1,12 @@
+question: Bitcoin işlemlerinde işlem ücretlerinin amacı nedir?
+answer: Bunlar, madencilerin işlemi bir sonraki bloğa dahil etmeleri için bir teşviktir.
+wrong_answers:
+  - Bunlar hükümet tarafından uygulanan bir vergidir.
+  - Bitcoin ağı tarafından hizmetlerinin kullanımı için alınan bir ücrettir.
+  - Wallet sağlayıcısı tarafından tahsil edilen bir ücrettir.
+explanation: |
+  Bitcoin işlemlerindeki işlem ücretleri bir
+  madencilerin işlemi bir sonraki
+  blok. Ücretler, aşağıdakiler için serbest bir piyasa yaratır
+  bloklar halinde işlemler.
+reviewed: true

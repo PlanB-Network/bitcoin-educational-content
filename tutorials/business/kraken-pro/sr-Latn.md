@@ -87,8 +87,8 @@ Kada vaš nalog bude verifikovan, pristupićete platformi gde će vam biti ponu�
 
 
 
-- Kraken**: Pojednostavljena Interface ponuda sa osnovnom funkcionalnošću.
-- Kraken Pro**: Napredni Interface sa dodatnim funkcijama, posebno za trgovanje.
+- **Kraken**: Pojednostavljena Interface ponuda sa osnovnom funkcionalnošću.
+- **Kraken Pro**: Napredni Interface sa dodatnim funkcijama, posebno za trgovanje.
 
 
 Ako je vaš cilj isključivo kupovina i prodaja Bitcoin, odlučite se za pojednostavljeni Interface. Uvek ćete imati opciju prelaska na napredni Interface kasnije ako bude potrebno.
@@ -112,7 +112,7 @@ U opcijama za 2FA, možete izabrati da koristite fizički sigurnosni ključ kao 
 ![KRAKEN](assets/fr/11.webp)
 
 
-Za više informacija o tome kako koristiti ovu vrstu uređaja, pogledajte naš posvećeni vodič :
+Za više informacija o tome kako koristiti ovu vrstu uređaja, pogledajte naš posvećeni vodič:
 
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
@@ -228,14 +228,14 @@ Takođe možete Exchange svoje bitkoine za druge kriptovalute, kao što su stejk
 Odaberite iznos, izaberite kriptovalutu koju želite dobiti, zatim potvrdite transakciju.
 
 
-Za ove transakcije, možete birati između različitih tipova naloga: *Market*, *Limit*, ili *Stop-Loss* :
+Za ove transakcije, možete birati između različitih tipova naloga: *Market*, *Limit*, ili *Stop-Loss*:
 
 
 
 
-- Tržište* : Omogućava trenutnu kupovinu po trenutnoj tržišnoj ceni;
-- Limit*: Omogućava vam da navedete kupovnu cenu, i nalog će biti izvršen samo ako tržišna cena dostigne ovaj iznos;
-- Stop-Loss* : Automatski prodaje kada cena dostigne određeni prag.
+- **Tržište**: Omogućava trenutnu kupovinu po trenutnoj tržišnoj ceni;
+- **Limit**: Omogućava vam da navedete kupovnu cenu, i nalog će biti izvršen samo ako tržišna cena dostigne ovaj iznos;
+- **Stop-Loss**: Automatski prodaje kada cena dostigne određeni prag.
 
 
 ## 7 - Upravljanje transakcijama i računovodstvo
@@ -317,7 +317,7 @@ U zavisnosti od ciljeva i strukture vaše kompanije, upotreba Krakena može vari
 - Izvezite istorije transakcija po potrebi.
 
 
-Za detaljniji pregled ove teme, preporučujem ovaj sveobuhvatni kurs obuke o integraciji Bitcoin u poslovanje, koji detaljno pokriva dodavanje u tok gotovine, prihvatanje Bitcoin uplata i računovodstvo :
+Za detaljniji pregled ove teme, preporučujem ovaj sveobuhvatni kurs obuke o integraciji Bitcoin u poslovanje, koji detaljno pokriva dodavanje u tok gotovine, prihvatanje Bitcoin uplata i računovodstvo:
 
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

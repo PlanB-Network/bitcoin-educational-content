@@ -1,0 +1,9 @@
+question: Czym jest finalizm?
+answer: Odwrócenie przyczyny i skutku, aby coś zrozumieć.
+wrong_answers:
+  - Teoria polityczna.
+  - Przepis na gotowanie.
+  - Zasada psychoanalizy.
+explanation: |
+  Finalizm jest odwróceniem przyczyny i skutku w celu zrozumienia czegoś. Jest to wyjaśnianie zjawiska poprzez jego domniemany cel, a nie przez jego rzeczywiste przyczyny, co Spinoza krytykuje jako iluzję.
+reviewed: false

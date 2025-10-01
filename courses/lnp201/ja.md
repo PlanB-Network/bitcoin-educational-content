@@ -537,12 +537,12 @@ Aliceはチャネルを通じてBobに**40,000サトシ**を送ります：
 **40,000サトシ**をBobに支払うためには、Aliceは少し多く送る必要があります。なぜなら、各中継ノードが手数料を差し引くからです:
 
 - **Carol**はBobとのチャネルで1.04サトシを差し引きます:
-  $$ f*{\text{Carol-Bob}} = \text{基本手数料} + \left(\frac{\text{ppm} \times \text{金額}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ サトシ} $$
+$$ f_{\text{Carol-Bob}} = \text{基本手数料} + \left(\frac{\text{ppm} \times \text{金額}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ サトシ} $$
 
 - **Suzie**はCarolとのチャネルで8サトシを手数料として差し引きます:
-  $$ f*{\text{Suzie-Carol}} = \text{基本手数料} + \left(\frac{\text{ppm} \times \text{金額}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ サトシ} $$
+$$ f_{\text{Suzie-Carol}} = \text{基本手数料} + \left(\frac{\text{ppm} \times \text{金額}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ サトシ} $$
 
 したがって、この支払いパスでの合計手数料は**9.04サトシ**です。従って、AliceはBobが正確に**40,000サトシ**を受け取るために**40,009.04サトシ**を送る必要があります。
 

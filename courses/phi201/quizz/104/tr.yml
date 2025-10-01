@@ -1,0 +1,9 @@
+question: Avusturyalılar neden sosyalizme ulaşmanın imkansız olduğunu iddia ediyorlar?
+answer: Sosyalizmin ekonomik açıdan verimsiz ancak ahlaki açıdan adil olduğunu ileri sürmektedirler.
+wrong_answers:
+  - Sosyalizm doğaya aykırıdır.
+  - Sosyalizm ekonomik olarak verimlidir ancak ahlaksızdır.
+  - Avusturyalılar sosyalizmi inovasyona ve zenginlik yaratmaya izin vermediği için eleştirmektedir.
+explanation: |
+  Avusturya ekolünden ekonomistler, bazen ahlaki niyetlerini kabul etseler de, ekonomiyi etkin bir şekilde koordine etmek için gerekli olan serbest fiyat mekanizmalarının yokluğu nedeniyle sosyalizmin ekonomik olarak verimsiz olduğunu düşünmektedirler.
+reviewed: true

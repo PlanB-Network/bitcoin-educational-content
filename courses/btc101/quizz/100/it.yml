@@ -1,11 +1,11 @@
-question: Cosa indica l'assenza di una frase mnemonica in un wallet?
-answer: Indica che il portafoglio non è sicuro per la conservazione a lungo termine di Bitcoin.
+question: Qual è il ruolo di un notaio nel contesto dell'eredità in Bitcoin?
+answer: Garantire la conformità fiscale.
 wrong_answers:
-  - Indica che il portafoglio è completamente sicuro e non richiede alcun backup.
-  - Significa che il portafoglio può contenere molti titoli diversificati.
-  - Suggerisce che il portafoglio è automaticamente salvato in backup dal dispositivo.
+  - Gestire i bitcoin dopo la morte.
+  - Modificare il piano di eredità.
+  - Proteggere i bitcoin in una cassaforte.
 explanation: |
-  L'assenza di una lista di 12 o 24 parole, ovvero la
-  frase mnemonica, in un portafoglio dovrebbe mettere in allerta sul fatto che
-  il wallet non è sicuro, in quanto non segue le procedure standard di backup.
-reviewed: true
+  Nel contesto dell'eredità di Bitcoin, è importante
+  discutere la successione con un notaio per garantire
+  la conformità fiscale.
+reviewed: false

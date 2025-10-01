@@ -30,7 +30,7 @@ pfSense adalah sistem operasi open source gratis yang mengubah komputer, server 
 
 
 
-Fungsi utamanya telah berkembang pesat selama bertahun-tahun, dan telah disempurnakan dengan setiap versi baru. Hingga saat ini, pfSense menawarkan :
+Fungsi utamanya telah berkembang pesat selama bertahun-tahun, dan telah disempurnakan dengan setiap versi baru. Hingga saat ini, pfSense menawarkan:
 
 
 
@@ -73,7 +73,7 @@ Versi stabil terbaru dari pfSense, pada saat tutorial ini ditulis, adalah 2.8 (d
 
 
 
-Portal pengunduhan memungkinkan Anda untuk memilih :
+Portal pengunduhan memungkinkan Anda untuk memilih:
 
 
 
@@ -105,15 +105,15 @@ Dalam contoh ini, penginstalan dilakukan pada mesin virtual yang menjalankan Vir
 
 
 
-Untuk penerapan standar, kami merekomendasikan :
+Untuk penerapan standar, kami merekomendasikan:
 
 
 
 
 
-- rAM minimum 1 GB** (disarankan 2 GB atau lebih untuk mengaktifkan paket tambahan atau dukungan ZFS).
-- ruang disk 8 GB** (20 GB atau lebih lebih baik untuk konfigurasi yang lebih canggih, terutama jika Anda menginstal cache proxy, IDS/IPS, atau log terperinci).
-- Setidaknya dua antarmuka jaringan virtual** (satu untuk WAN, satu untuk LAN). Di VirtualBox, tambahkan ke pengaturan VM sebelum memulai.
+- **RAM minimum 1 GB** (disarankan 2 GB atau lebih untuk mengaktifkan paket tambahan atau dukungan ZFS).
+- ruang disk **8 GB** (20 GB atau lebih lebih baik untuk konfigurasi yang lebih canggih, terutama jika Anda menginstal cache proxy, IDS/IPS, atau log terperinci).
+- Setidaknya dua antarmuka jaringan virtual (satu untuk WAN, satu untuk LAN). Di VirtualBox, tambahkan ke pengaturan VM sebelum memulai.
 
 
 
@@ -221,7 +221,7 @@ Pertanyaan pertama menyangkut konfigurasi VLAN. Pada tahap ini, untuk konfiguras
 
 
 
-pfSense kemudian meminta Anda untuk menentukan Interface mana yang akan digunakan untuk WAN (akses Internet). Anda dapat memilih antara :
+pfSense kemudian meminta Anda untuk menentukan Interface mana yang akan digunakan untuk WAN (akses Internet). Anda dapat memilih antara:
 
 
 
@@ -304,13 +304,13 @@ Pada peramban Anda, buka Address yang ditunjukkan oleh konsol (secara default `h
 
 
 
-Layar login muncul. Kredensial default adalah :
+Layar login muncul. Kredensial default adalah:
 
 
 
 
-- Nama pengguna:** `admin`
-- Kata sandi:** `pfsense`
+- **Nama pengguna:** `admin`
+- **Kata sandi:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Pada koneksi pertama, pfSense meminta Anda untuk mengikuti **Wizard Pengaturan**
 
 
 
-Anda bisa :
+Anda bisa:
 
 
 
@@ -352,7 +352,7 @@ Tunjukkan zona waktu situs Anda agar log dan jadwal konsisten (misalnya `Eropa/P
 
 
 
-Konfigurasikan koneksi WAN :
+Konfigurasikan koneksi WAN:
 
 
 
@@ -383,7 +383,7 @@ Amankan pfSense Anda dengan segera menetapkan kata sandi yang kuat untuk penggun
 
 
 
-Sebelum menerapkan firewall Anda, pastikan Anda memiliki versi terbaru dari :
+Sebelum menerapkan firewall Anda, pastikan Anda memiliki versi terbaru dari:
 
 
 
@@ -429,10 +429,10 @@ Untuk mengakhiri penyebaran Anda dengan ketenangan pikiran:
 
 
 
-- Memodifikasi aturan firewall**: secara default, pfSense mengizinkan semua lalu lintas keluar di LAN dan memblokir lalu lintas masuk di WAN. Sesuaikan aturan ini sesuai kebutuhan.
-- Konfigurasikan akses jarak jauh yang aman**: jika diperlukan, aktifkan akses ke web Interface dari WAN hanya melalui VPN atau dengan pembatasan IP.
-- Aktifkan notifikasi**: konfigurasikan server SMTP untuk menerima peringatan (kegagalan, pembaruan, kesalahan).
-- Instal ekstensi yang berguna**: misalnya, IDS/IPS (Snort, Suricata), proxy (Squid), penyaringan DNS (pfBlockerNG).
+- **Memodifikasi aturan firewall**: secara default, pfSense mengizinkan semua lalu lintas keluar di LAN dan memblokir lalu lintas masuk di WAN. Sesuaikan aturan ini sesuai kebutuhan.
+- Konfigurasikan akses jarak jauh yang aman: jika diperlukan, aktifkan akses ke web Interface dari WAN hanya melalui VPN atau dengan pembatasan IP.
+- **Aktifkan notifikasi**: konfigurasikan server SMTP untuk menerima peringatan (kegagalan, pembaruan, kesalahan).
+- Instal ekstensi yang berguna: misalnya, IDS/IPS (Snort, Suricata), proxy (Squid), penyaringan DNS (pfBlockerNG).
 
 
 

@@ -1,0 +1,9 @@
+question: Welcher Philosoph entwickelte den Begriff des Nihilismus?
+answer: Nietzsche.
+wrong_answers:
+  - Kant.
+  - Schopenhauer.
+  - Spinoza.
+explanation: |
+  Friedrich Nietzsche (1844-1900) konstruierte und entwickelte das Konzept des Nihilismus. Für ihn steht der Nihilismus für die Entwertung der höchsten Werte und den Sinnverlust der westlichen Kultur.
+reviewed: false

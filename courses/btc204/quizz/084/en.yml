@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   The post-mix wallet is reserved for coins that have been mixed.
 
-reviewed: false
+reviewed: true

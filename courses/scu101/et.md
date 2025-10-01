@@ -290,8 +290,12 @@ Paroolihalduri abil ei pea te enam muretsema oma paroolide unustamise või kuski
 - Bitwarden: See on avatud lähtekoodiga tööriist, mis tähendab, et saate selle koodi üle vaadata, et kontrollida selle turvalisust. Kuigi Bitwarden pakub majutatud teenust, võimaldab see ka kasutajatel ise majutada, mis tähendab, et saate kontrollida, kus teie paroolid salvestatakse, pakkudes potentsiaalselt rohkem turvalisust ja kontrolli.
 
 - KeePass: See on avatud lähtekoodiga lahendus, mis on peamiselt mõeldud ise majutamiseks. Teie andmed salvestatakse vaikimisi kohalikult, kuid soovi korral saate parooliandmebaasi sünkroniseerida erinevate meetoditega. KeePass on laialdaselt tunnustatud oma turvalisuse ja paindlikkuse poolest, kuigi see võib algajatele olla veidi vähem kasutajasõbralik.
-  ![](assets/notext/18.webp)
-  (Märkus: Kolmanda osapoole teenuse või ise majutatud teenuse vahel valimine sõltub teie tehnoloogilisest mugavustasemest ja sellest, kuidas te prioriseerite kontrolli mugavuse suhtes. Kolmanda osapoole teenused on enamiku inimeste jaoks üldiselt mugavamad, samas kui ise majutamine nõuab rohkem tehnilisi teadmisi, kuid võib pakkuda rohkem kontrolli ja meelerahu turvalisuse osas.)
+
+![](assets/notext/18.webp)
+
+Isetehtud lahenduste, nagu KeePass, puhul on võimalik oma andmebaasi sünkroonida mitme seadme vahel ilma tsentraliseeritud kolmanda osapoole teenuseid kasutamata. Tööriistad nagu **Syncthing** võimaldavad krüpteeritud ja detsentraliseeritud sünkroonimist otse teie seadmete vahel. See lähenemine hoiab teie andmed teie kontrolli all, tagades samal ajal nende kättesaadavuse kõigis teie seadmetes.
+
+(Märkus: Kolmanda osapoole teenuse või ise majutatud teenuse vahel valimine sõltub teie tehnoloogilisest mugavustasemest ja sellest, kuidas te prioriseerite kontrolli mugavuse suhtes. Kolmanda osapoole teenused on enamiku inimeste jaoks üldiselt mugavamad, samas kui ise majutamine nõuab rohkem tehnilisi teadmisi, kuid võib pakkuda rohkem kontrolli ja meelerahu turvalisuse osas.)
 
 ### Mis teeb parooli heaks:
 
@@ -323,7 +327,9 @@ Kahefaktoriline autentimine (2FA) on lisakiht turvalisuse tagamiseks, et veendud
 - Ajutine kood, mis saadetakse SMS-i teel.
 - Rakenduse, nagu Google Authenticator või Authy, genereeritud kood.
 - Füüsiline turvavõti, mida sisestate oma arvutisse.
+
   ![](assets/notext/19.webp)
+
   2FA abil ei saa häkker teie parooli teada saades kontole juurde pääseda ilma selle teise autentimisfaktorita. See teeb 2FA-st hädavajaliku vahendi teie veebikontode kaitsmiseks volitamata juurdepääsu eest.
 
 ### Millist varianti valida?
@@ -335,6 +341,8 @@ Erinevad tugeva autentimise valikud pakuvad erinevat turvalisuse taset.
 - Riistvaralised tokenid, nagu USB-võtmed või nutikaardid, pakuvad optimaalset turvalisust, genereerides iga saidi jaoks unikaalse privaatvõtme ja kontrollides URL-i enne ühenduse lubamist.
 
 Optimaalse turvalisuse saavutamiseks tugeva autentimisega on soovitatav kasutada turvalist e-posti aadressi, turvalist paroolihaldurit ja kasutusele võtta 2FA, kasutades YubiKey'sid. Samuti on soovitatav soetada kaks YubiKey'd, et ette näha kaotust või vargust, näiteks hoides varukoopiaid nii kodus kui ka endaga kaasas.
+
+Seoses SIM-kaardi kahefaasilise autentimise (2FA) võimalike ohtudega on tavaline näide SIM-kaardi vahetuse rünnak, kus ründaja varastab kasutaja telefoninumbri, sidudes selle ründaja kontrolli all oleva SIM-kaardiga. Ründajal on mitmeid viise, kuidas rünnakut teostada; siiski on see oht tavaliselt suur probleem ainult kõrge profiiliga isikutele ja huvipakkuvatele inimestele.
 
 Biomeetria võib olla asendus, kuid see on vähem turvaline kui teadmiste ja valduse kombinatsioon. Biomeetrilised andmed peaksid jääma autentimisseadmesse ja neid ei tohiks veebis avaldada. On oluline kaaluda erinevate autentimismeetoditega seotud ohumudeleid ja vastavalt kohandada praktikaid.
 

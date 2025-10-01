@@ -580,7 +580,7 @@ Administrátor se může rozhodnout toto nastavení vypnout. Následujícím ře
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Nastavení peněženky BTCPay Serveru
@@ -1693,7 +1693,7 @@ V následující tabulce jsou uvedeny a popsány standardní stavy faktur v BTCP
 | Zpracovává se (zaplaceno navíc)    | Zaplaceno více než částka faktury, nedostatečný počet potvrzení                                                      | Počkejte na vyrovnání, poté kontaktujte kupujícího, abyste domluvili vrácení přeplatku, nebo volitelně počkejte, až vás kupující kontaktuje                 |
 | Vyrovnané                          | Zaplaceno, v plné výši, přijat dostatečný počet potvrzení v obchodě                                                  | Vyřiďte objednávku                                                                                                                                          |
 | Vyrovnané (označeno)               | Stav byl ručně změněn na vyrovnané ze stavu zpracovává se nebo neplatné                                              | Správce obchodu označil platbu jako vyrovnanou                                                                                                              |
-| Neplatné\*                         | Zaplaceno, ale nepřijat dostatečný počet potvrzení v čase specifikovaném v nastavení obchodu                         | Zkontrolujte transakci na blockchain exploreru, pokud přijala dostatečný počet potvrzení, označte jako vyrovnané                                            |
+| Neplatné                         | Zaplaceno, ale nepřijat dostatečný počet potvrzení v čase specifikovaném v nastavení obchodu                         | Zkontrolujte transakci na blockchain exploreru, pokud přijala dostatečný počet potvrzení, označte jako vyrovnané                                            |
 | Neplatné (označeno)                | Stav byl ručně změněn na neplatné ze stavu vyrovnané nebo vypršelé                                                   | Správce obchodu označil platbu jako neplatnou                                                                                                               |
 | Neplatné (zaplaceno navíc)         | Zaplaceno více než částka faktury, ale nepřijat dostatečný počet potvrzení v čase specifikovaném v nastavení obchodu | Zkontrolujte transakci na blockchain exploreru, pokud přijala dostatečný počet potvrzení, označte jako vyrovnané                                            |
 

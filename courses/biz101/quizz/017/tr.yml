@@ -1,0 +1,9 @@
+question: Bir şirket neden hazinesinin bir kısmını Bitcoin'da tutmayı düşünebilir?
+answer: Geleneksel finansal aracılara dayanmadan değer depolayabilen ve likidite sunabilen potansiyel olarak değer kazanan bir varlık olarak.
+wrong_answers:
+  - Tüm riski derhal ortadan kaldırmak ve istikrarlı getirileri garanti etmek.
+  - Bitcoin holdingleri gerektiren zorunlu devlet düzenlemelerine uymak.
+  - Varlıklarını asla geleneksel para birimlerine geri dönüştüremeyeceğinden emin olmak için.
+explanation: |
+  Bitcoin'nin kıtlığı, küresel likiditesi ve geleneksel bankacılık sistemlerinden bağımsızlığı onu bir hazine varlığı olarak cazip kılabilir. Risk ve volatilite içermesine rağmen, işletmeler bunu uzun vadeli bir değer deposu ve enflasyona karşı bir koruma olarak görebilir.
+reviewed: false

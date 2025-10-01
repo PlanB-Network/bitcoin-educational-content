@@ -1,0 +1,9 @@
+question: 在電腦網路中，「拓樸」是什麼意思？
+answer: 裝置如何互連
+wrong_answers:
+  - 網際網路連線速度
+  - 通訊所使用的通訊協定類型
+  - 網路中使用的路由器品牌
+explanation: |
+  拓樸是指網路的實體或邏輯結構，以及其元件的連接方式。
+reviewed: false

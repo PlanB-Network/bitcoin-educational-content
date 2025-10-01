@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Was ist eine Watch-Only-Wallet und wie verwendet man sie?
 ---
 ![cover](assets/cover.webp)

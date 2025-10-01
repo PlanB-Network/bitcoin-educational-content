@@ -1,11 +1,11 @@
-question: Apa strategi yang digunakan oleh entitas pusat untuk menurunkan nilai mata uang fiat?
-answer: Mereka meningkatkan massa moneter awal beberapa persen setiap tahun.
+question: Apa itu hiperinflasi?
+answer: Peningkatan drastis dalam massa moneter
 wrong_answers:
-  - Mereka mengurangi massa moneter awal beberapa persen setiap tahun.
-  - Mereka menjaga massa moneter tetap konstan dibandingkan dengan massa awal.
-  - Mereka secara acak mengfluktuasi massa moneter dibandingkan dengan massa awal.
+  - Peningkatan halus dalam massa moneter
+  - Penurunan drastis dalam massa moneter
+  - Penurunan halus dalam massa moneter
 explanation: |
-  Entitas pusat seringkali menurunkan nilai mata uang baru dengan meningkatkan massa moneternya dibandingkan
-  dengan yang awal beberapa persen setiap tahun. Penurunan nilai ini seringkali dibenarkan
-  sebagai kepentingan bagi masyarakat.
+  Hiperinflasi adalah fenomena moneter,
+  ditandai dengan peningkatan drastis dalam inflasi melalui pencetakan uang oleh otoritas,
+  yang mengarah pada kehilangan kepercayaan total terhadap sebuah mata uang
 reviewed: true

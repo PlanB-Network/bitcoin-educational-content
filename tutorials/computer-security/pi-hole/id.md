@@ -54,7 +54,7 @@ Jadi, setiap kali Anda memasukkan nama situs web di peramban, atau mengeklik seb
 
 
 
-**Pi-Hole kemudian akan memeriksa permintaan-permintaan ini (ada ratusan permintaan setiap harinya!) dan secara otomatis memblokir mereka yang diketahui meng-host iklan atau bahkan berkas-berkas berbahaya
+**Pi-Hole kemudian akan memeriksa permintaan-permintaan ini (ada ratusan permintaan setiap harinya!) dan secara otomatis memblokir mereka yang diketahui meng-host iklan atau bahkan berkas-berkas berbahaya**
 
 
 
@@ -62,7 +62,7 @@ Jadi, setiap kali Anda memasukkan nama situs web di peramban, atau mengeklik seb
 
 
 
-Dengan nama seperti Pi-Hole, Anda mungkin berasumsi bahwa Anda membutuhkan Raspberry-Pi... Tapi itu tidak sepenuhnya benar. **Pi-Hole dapat diinstal pada komputer Linux apa pun (Debian, Fedora, Rocky, Ubuntu, dll.)
+Dengan nama seperti Pi-Hole, Anda mungkin berasumsi bahwa Anda membutuhkan Raspberry-Pi... Tapi itu tidak sepenuhnya benar. **Pi-Hole dapat diinstal pada komputer Linux apa pun (Debian, Fedora, Rocky, Ubuntu, dll.)**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Catatan: pada versi minimal Debian 11, Curl tidak terinstal, jadi Anda perlu menginstalnya secara manual dengan perintah **apt-get install curl** sebelum mengetikkan perintah di atas.
+> **Catatan: pada versi minimal Debian 11, Curl tidak terinstal, jadi Anda perlu menginstalnya secara manual dengan perintah** `apt-get install curl` **sebelum mengetikkan perintah di atas.**
 
 Setelah skrip dijalankan, serangkaian tes akan dilakukan, dan instalasi itu sendiri akan mengurus dirinya sendiri:
 
@@ -124,7 +124,7 @@ Pemilihan DNS - Pi-Hole
 
 
 
-> **Catatan: jika Anda berada di sebuah perusahaan, kemungkinan besar server DNS Anda saat ini adalah pengontrol domain Direktori Aktif. Namun jangan khawatir, Anda nantinya bisa menentukan pengarah bersyarat untuk domain pilihan Anda. Biasanya, Anda akan dapat mengalihkan permintaan apa pun terkait domain lokal Anda ke server DNS Anda.
+> **Catatan:** jika Anda berada di sebuah perusahaan, kemungkinan besar server DNS Anda saat ini adalah pengontrol domain Direktori Aktif. Namun jangan khawatir, Anda nantinya bisa menentukan pengarah bersyarat untuk domain pilihan Anda. Biasanya, Anda akan dapat mengalihkan permintaan apa pun terkait domain lokal Anda ke server DNS Anda.
 
 Anda akan melihat bahwa beberapa pilihan menyertakan opsi DNSSEC. Pada dasarnya, protokol DNS tidak aman (pada saat itu tidak dirancang dengan mempertimbangkan hal ini). DNSSEC memecahkan masalah ini dengan menambahkan keamanan Layer melalui enkripsi dan penandatanganan pertukaran, seperti yang dijelaskan dalam artikel terkait: [Keamanan DNS](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
@@ -218,7 +218,7 @@ Setelah ini dilakukan, jika ada perangkat yang telah dinyalakan sebelumnya, pera
 
 
 
-Pada workstation Windows, dengan prompt perintah :
+Pada workstation Windows, dengan prompt perintah:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-Pada stasiun kerja Linux :
+Pada stasiun kerja Linux:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-Pada bidang DNS, Anda harus memiliki Address dari Pi-Hole Anda, dalam kasus saya 192.168.1.42 :
+Pada bidang DNS, Anda harus memiliki Address dari Pi-Hole Anda, dalam kasus saya 192.168.1.42:
 
 
 
@@ -286,7 +286,7 @@ Untuk menambahkannya, pertama-tama sambungkan ke admin Interface: **http://<ip_d
 
 
 
-Kata sandi administrator telah dibuat (lihat tangkapan layar akhir instalasi), jadi Anda hanya perlu memasukkannya untuk mengakses Interface :
+Kata sandi administrator telah dibuat (lihat tangkapan layar akhir instalasi), jadi Anda hanya perlu memasukkannya untuk mengakses Interface:
 
 
 
@@ -322,7 +322,7 @@ Menambahkan daftar di Pi-Hole
 
 
 
-Yang tersisa hanyalah mengklik "**Tambahkan**" untuk menambahkannya. Untuk mengaktifkannya, kita perlu melakukan langkah tambahan untuk "memperingatkan" Pi-Hole untuk mengambil alih daftar ini. Untuk melakukan ini :
+Yang tersisa hanyalah mengklik "**Tambahkan**" untuk menambahkannya. Untuk mengaktifkannya, kita perlu melakukan langkah tambahan untuk "memperingatkan" Pi-Hole untuk mengambil alih daftar ini. Untuk melakukan ini:
 
 
 
@@ -345,7 +345,7 @@ Halaman ini akan menampilkan hasil skrip setelah selesai, yang berarti bahwa daf
 
 
 
-Seperti yang diumumkan di awal tutorial ini, Pi-Hole juga memungkinkan Anda untuk memblokir domain yang diketahui mendistribusikan malware. Untuk memperkuat fitur ini, saya sarankan Anda juga menambahkan daftar domain yang diperbarui secara berkala yang didistribusikan oleh Abuse.ch**, yang secara signifikan akan memperkuat keamanan jaringan Anda, tersedia di [Address] (https://urlhaus.abuse.ch/downloads/hostfile/).
+Seperti yang diumumkan di awal tutorial ini, Pi-Hole juga memungkinkan Anda untuk memblokir domain yang diketahui mendistribusikan malware. Untuk memperkuat fitur ini, saya sarankan Anda juga menambahkan daftar domain yang diperbarui secara berkala yang didistribusikan oleh **Abuse.ch**, yang secara signifikan akan memperkuat keamanan jaringan Anda, tersedia di [Address] (https://urlhaus.abuse.ch/downloads/hostfile/).
 
 
 

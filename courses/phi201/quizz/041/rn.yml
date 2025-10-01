@@ -1,0 +1,9 @@
+question: Nk’uko Augustin mweranda abivuga, Imana ihuza gute kuba yahaye umuntu uburenganzira bwo kwihitiramwo n’uko ari ishobora vyose kandi izi vyose?
+answer: Imana ireka ikibi kugira ngo abagabo bashobore kwigira ku makosa yabo, bakure mu mpwemu.
+wrong_answers:
+  - Imana si yo ibazwa ikibi abantu bahisemwo gukora n’uburenganzira bwabo bwo kwihitiramwo.
+  - Imana nta bubasha ifise bwo kubuza abantu guhitamwo ikibi.
+  - Ivyo vyose biri hejuru ni inyishu.
+explanation: |
+  Augustin mweranda wemera ko mu kwemera umwidegemvyo wo kwihitiramwo, Imana isiga ubushobozi bw’ikibi kugira ngo abantu bashobore kwiga no kwitunganya, umwidegemvyo ukawugira uburyo bwo gukura mu vy’impwemu naho boba bahisemwo nabi.
+reviewed: true

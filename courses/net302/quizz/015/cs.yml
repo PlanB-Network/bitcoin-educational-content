@@ -1,0 +1,9 @@
+question: Jaká je maximální teoretická velikost datagramu IP?
+answer: 65 536 bajtů
+wrong_answers:
+  - 1 500 bajtů
+  - 512 bajtů
+  - 255 bajtů
+explanation: |
+  Maximální velikost datagramu IP je 65 536 bajtů, což je dáno limitem pole celkové délky v záhlaví IP.
+reviewed: false

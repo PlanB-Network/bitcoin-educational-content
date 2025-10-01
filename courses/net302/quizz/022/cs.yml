@@ -1,0 +1,9 @@
+question: K čemu slouží příznak ACK v segmentu TCP?
+answer: Potvrzení přijetí segmentů
+wrong_answers:
+  - Iniciace uzavření spojení
+  - Šifrování vyměňovaného toku dat
+  - Identifikace použitého portu služby
+explanation: |
+  Je-li nastaven, příznak ACK potvrzuje, že segment byl úspěšně přijat, a určuje další očekávané pořadové číslo.
+reviewed: false

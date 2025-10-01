@@ -93,23 +93,23 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- Lightning Network** : یکی از پوشش‌های Bitcoin که به شما اجازه می‌دهد تراکنش‌های خرد را به‌صورت فوری انجام دهید.
+- **Lightning Network**: یکی از پوشش‌های Bitcoin که به شما اجازه می‌دهد تراکنش‌های خرد را به‌صورت فوری انجام دهید.
 
 
 
 
 
-- Bitcoin Mainnet** : زنجیره اصلی پروتکل Bitcoin، مناسب برای تراکنش‌های با ارزش بالا.
+- **Bitcoin Mainnet**: زنجیره اصلی پروتکل Bitcoin، مناسب برای تراکنش‌های با ارزش بالا.
 
 
 
 
 
-- Liquid Network**: یک زنجیره موازی با Bitcoin Mainnet که توسط BlockStream توسعه یافته و از Liquid بیت‌کوین‌ها برای انجام سریع، Confidential Transactions استفاده می‌کند.
+- **Liquid Network**: یک زنجیره موازی با Bitcoin Mainnet که توسط BlockStream توسعه یافته و از Liquid بیت‌کوین‌ها برای انجام سریع، Confidential Transactions استفاده می‌کند.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 به طور پیش‌فرض، تمام تراکنش‌های شما بر روی Liquid Network خواهد بود، اما Blitz به شما اجازه می‌دهد تا با کلیک بر روی دکمه **انتخاب فرمت** شبکه‌ای را که می‌خواهید ساتوشی‌ها را دریافت کنید، تعریف کنید.
 
@@ -169,7 +169,7 @@ Blitz Wallet ارسال بیت‌کوین از Wallet خود را برای شم�
 
 
 
-- دسترسی به خدمات هوش مصنوعی**: از مدل‌های هوش مصنوعی مولد مانند: Claude 3-5 sonnet، gpt-4o، gpt-4o-mini gemini-flash-1.5 استفاده کنید و مستقیماً با بیت‌کوین پرداخت کنید.
+- **دسترسی به خدمات هوش مصنوعی**: از مدل‌های هوش مصنوعی مولد مانند: Claude 3-5 sonnet، gpt-4o، gpt-4o-mini gemini-flash-1.5 استفاده کنید و مستقیماً با بیت‌کوین پرداخت کنید.
 
 
 
@@ -179,7 +179,7 @@ Blitz Wallet ارسال بیت‌کوین از Wallet خود را برای شم�
 
 
 
-- ارسال پیامک به هر نقطه از جهان**: در فروشگاه Blitz، شما به یک سرویس GSM دسترسی دارید که به شما امکان می‌دهد پیامک‌ها را به صورت ناشناس به هر نقطه از جهان ارسال کنید، با صورتحساب مستقیم در Bitcoin.
+- **ارسال پیامک به هر نقطه از جهان**: در فروشگاه Blitz، شما به یک سرویس GSM دسترسی دارید که به شما امکان می‌دهد پیامک‌ها را به صورت ناشناس به هر نقطه از جهان ارسال کنید، با صورتحساب مستقیم در Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Blitz Wallet ارسال بیت‌کوین از Wallet خود را برای شم�
 
 
 
-- در محرمانگی کامل مرور کنید**: اشتراک VPN (شبکه خصوصی مجازی) WireGuard را در فروشگاه Wallet Blitz با بیت‌کوین‌های خود پرداخت کنید.
+- **در محرمانگی کامل مرور کنید**: اشتراک VPN (شبکه خصوصی مجازی) WireGuard را در فروشگاه Wallet Blitz با بیت‌کوین‌های خود پرداخت کنید.
 
 
 
@@ -249,7 +249,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 
 
-- Bitcoin را در فروشگاه خود بپذیرید** :
+- **Bitcoin را در فروشگاه خود بپذیرید** :
 
 
 

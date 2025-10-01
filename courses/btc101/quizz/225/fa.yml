@@ -1,9 +1,7 @@
-question: Lightning Network اولین بار چه زمانی تأیید و اجرا شد؟
-answer: ۲۰۱۷
+question: اندازه بلوک در پروتکل Bitcoin چقدر است؟
+answer: 4MB.
 wrong_answers:
-  - ۲۰۱۵
-  - ۲۰۱۶
-  - ۲۰۱۸
-explanation: |
-  Lightning Network اولین بار در سال 2017 تأیید و اجرا شد.
+  - 1MB.
+  - 2MB.
+  - 3MB.
 reviewed: true

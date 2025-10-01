@@ -1,0 +1,9 @@
+question: What is an anycast address in IPv6?
+answer: An address assigned to multiple nodes
+wrong_answers:
+  - An address dedicated to global multicasting
+  - An address that changes with every reboot
+  - An address reserved for technical documentation
+explanation: |
+  An anycast address is assigned to multiple devices, and routing delivers the packet to the one that is topologically closest.
+reviewed: false

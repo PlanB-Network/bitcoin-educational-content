@@ -1,0 +1,9 @@
+question: Milline protokoll määrab seadmele dünaamiliselt IP Address?
+answer: DHCP
+wrong_answers:
+  - ARP
+  - DNS
+  - NAT
+explanation: |
+  DHCP-protokoll määrab automaatselt IP-aadressid võrgus olevatele seadmetele, lihtsustades Address haldamist.
+reviewed: false

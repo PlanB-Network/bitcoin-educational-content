@@ -1,9 +1,9 @@
 question: Quale servizio elenca i commercianti che accettano Bitcoin in tutto il mondo?
-answer: Mappa BTC
+answer: BTC Map
 wrong_answers:
   - CoinMarketCap
-  - Discorso Bitcoin
-  - Paga svizzera Bitcoin
+  - Bitcoin Talk
+  - Swiss Bitcoin Pay
 explanation: |
-  BTC Map è una piattaforma dedicata che individua i commercianti che accettano Bitcoin in tutto il mondo.
-reviewed: false
+  BTC Map è una piattaforma dedicata che segnala i commercianti che accettano Bitcoin in tutto il mondo.
+reviewed: true

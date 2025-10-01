@@ -1,9 +1,12 @@
-question: Kuidas tagab Bitcoin'i protokoll, et kahe ploki vaheline keskmine aeg püsib konstantne?
-answer: Kehtiva räsi leidmise raskusastet kohandatakse iga 2016 ploki järel
+question: Mis on peamine erinevus Keynesi majandusteooria ja Austria majandusteooria ideede vahel seoses rahandussüsteemiga?
+answer: Keynesi majandusteooria ei võta arvesse olukordade ja ressursside ajalist ja dünaamilist aspekti.
 wrong_answers:
-  - Kaevurite arvu reguleeritakse
-  - Plokkide suurust kohandatakse
-  - Kehtiva räsi leidmise eest antava tasu suurust suurendatakse
+  - Keynesi majandusteooria soodustab ületarbimist ja võlga
+  - Keynesi majandusteooria ei kajasta ressursside nappust
+  - Keynesi majandusteooria julgustab inflatsiooni
 explanation: >-
-  Bitcoin'i protokoll tagab kahe ploki vahelise keskmise aja konstantsuse, kohandades kehtiva räsi leidmise raskusastet iga 2016 ploki järel. See toimub sõltumata kaevurite arvust ja nende arvutusvõimsusest.
+  Peamine erinevus Keynesi majandusteooria ja Austria majandusteooria ideede vahel seoses
+  rahandussüsteemiga on see, et Keynesi majandusteooria ei võta arvesse olukordade ja ressursside
+  ajalist ja dünaamilist aspekti. Teisisõnu, piiramatu valuuta ei saa tõhusalt peegeldada meie planeedi
+  piiratud ressursse.
 reviewed: false

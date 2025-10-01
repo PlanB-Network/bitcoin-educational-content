@@ -1,0 +1,9 @@
+question: Según la teoría de la percolación, ¿qué garantiza la superación del umbral crítico?
+answer: Propagación de transacciones por la red
+wrong_answers:
+  - Creación inmediata de un nuevo bloque
+  - Supresión automática de costes por nodos
+  - Bloqueo de una transacción por la red
+explanation: |
+  Una vez superado el umbral de percolación, una transacción se propaga casi instantáneamente por toda la red Bitcoin.
+reviewed: true

@@ -577,7 +577,7 @@ Ylläpitäjä saattaa haluta poistaa tämän asetuksen käytöstä. Seuraavalla 
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### BTCPay Serverin lompakon asetukset
@@ -1702,7 +1702,7 @@ Alla oleva taulukko luettelee ja kuvailee BTCPayn standardilaskun tiloja ja ehdo
 | Processing (paidOver)          | Maksettu laskun määrää suurempi summa, ei ole saanut riittävää määrää vahvistuksia                                               | Odota selvitystä, sitten ota yhteyttä ostajaan järjestääksesi ylimääräisen summan palautuksen, tai odota vaihtoehtoisesti, että ostaja ottaa sinuun yhteyttä        |
 | Settled                        | Maksettu täysimääräisesti, saatu riittävä määrä vahvistuksia kaupassa                                                            | Toteuta tilaus                                                                                                                                                      |
 | Settled (marked)               | Tila manuaalisesti muutettu selvitettyksi käsittelyssä tai virheellisessä tilassa                                                | Kaupan ylläpitäjä on merkinnyt maksun selvitetyksi                                                                                                                  |
-| Invalid\*                      | Maksettu, mutta ei ole saanut riittävää määrää vahvistuksia kaupan asetuksissa määritellyssä ajassa                              | Tarkista transaktio lohkoketjun tutkijassa, jos se on saanut riittävät vahvistukset, merkitse selvitetyksi                                                          |
+| **Invalid**                      | Maksettu, mutta ei ole saanut riittävää määrää vahvistuksia kaupan asetuksissa määritellyssä ajassa                              | Tarkista transaktio lohkoketjun tutkijassa, jos se on saanut riittävät vahvistukset, merkitse selvitetyksi                                                          |
 | Invalid (marked)               | Tila manuaalisesti muutettu virheelliseksi selvitetystä tai vanhentuneesta tilasta                                               | Kaupan ylläpitäjä on merkinnyt maksun virheelliseksi                                                                                                                |
 | Invalid (paidOver)             | Maksettu laskun määrää suurempi summa, mutta ei ole saanut riittävää määrää vahvistuksia kaupan asetuksissa määritellyssä ajassa | Tarkista transaktio lohkoketjun tutkijassa, jos se on saanut riittävät vahvistukset, merkitse selvitetyksi                                                          |
 

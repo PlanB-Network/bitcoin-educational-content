@@ -1,0 +1,9 @@
+question: NonInflatableAsset.RGB Schema'ı yerel Stash'e nasıl aktarabilirim?
+answer: RGB içe aktarma schemata/NonInflatableAssets.RGB
+wrong_answers:
+  - RGB içe aktar Schema/NonInflatableAssets.RGB
+  - RGB clone schemata/NonInflatableAssets.RGB
+  - RGB clone Schema/NonInflatableAssets.RGB
+explanation: |
+  Derlenen Schema, "RGB import schemata/NonInflatableAssets.RGB" komutu kullanılarak yerel Stash'a aktarılır.
+reviewed: false

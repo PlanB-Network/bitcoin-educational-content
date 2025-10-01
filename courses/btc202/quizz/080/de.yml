@@ -1,0 +1,9 @@
+question: Was ist der Standardwert für den Parameter maxconnections in Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections begrenzt die Gesamtzahl der eingehenden und ausgehenden Verbindungen. Der Standardwert ist 125.
+reviewed: true

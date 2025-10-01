@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Wie können Sie einen leistungsstarken LN-Knoten auf Ihrem Mobiltelefon verwenden?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Dieser Leitfaden ist all jenen neuen Nutzern gewidmet, die Bitcoin Lightning Network (LN) in einer KOSTENLOSEN, VOLLSTÄNDIG NICHT KUNDENORIENTIERTEN Weise nutzen wollen.

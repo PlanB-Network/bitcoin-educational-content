@@ -32,4 +32,4 @@ Förutom dessa tre SigHash-flaggor kan modifieraren `SIGHASH_ANYONECANPAY` (`0x8
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Signaturen gäller för en enda inmatning och endast för den utmatning som har samma index som denna inmatning.
 
 
-> ► *En synonym som ibland används för "SigHash" är "Signature Hash Types"
+> ► *En synonym som ibland används för "SigHash" är "Signature Hash Types"*

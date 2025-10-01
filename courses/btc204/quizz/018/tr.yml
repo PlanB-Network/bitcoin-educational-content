@@ -1,0 +1,9 @@
+question: Aşağıdaki cevaplardan hangisi zincir analizinde kullanılan sezgisel yöntemlerin ve özelliklerin 3 ana kategorisinin bir parçası değildir?
+answer: Kriptografi modelleri.
+wrong_answers:
+  - İşlem modelleri.
+  - Dahili işlem sezgiselleri.
+  - Harici işlem sezgiselleri.
+explanation: |
+  Zincir analizinde kullanılan sezgisel yöntemler üç kategoride toplanabilir; işlem kalıpları (veya işlem modelleri), iç işlem sezgisel yöntemleri ve dış işlem sezgisel yöntemleri.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvem oppfant konseptet med forenklet betalingsbekreftelse (SPV)?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  SPV presenteres i del 8 av Satoshi Nakamotos hvitbok.
+reviewed: true

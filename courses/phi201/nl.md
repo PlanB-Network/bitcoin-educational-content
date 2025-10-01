@@ -1162,10 +1162,10 @@ Henri Pirenne, een Belgische historicus uit het begin van de 20e eeuw, wijdde ee
 > Volgens Pirenne hadden deze handelssteden, dankzij hun commerciële dynamiek en strategische positie op zeeroutes, economische praktijken ontwikkeld die kenmerkend waren voor het ontluikende kapitalisme. Hij benadrukt met name:
 
 
-- De opkomst van het individuele ondernemerschap:** Italiaanse kooplieden, vaak uit rijke families, investeerden hun geld in verre handelsexpedities, waarbij ze de risico's op zich namen en aanzienlijke winsten verwachtten.
-- De uitbreiding van krediet:** De ontwikkeling van de internationale handel stimuleerde het gebruik van verschillende kredietinstrumenten, zoals wissels Exchange en banktransacties, die de financiering van transacties mogelijk maakten en kapitaalbewegingen vergemakkelijkten.
-- Het streven naar winst:** De belangrijkste motivatie van Italiaanse kooplieden was het streven naar commerciële winst. Ze gingen riskante ondernemingen aan in de hoop hun winsten te maximaliseren door waardevolle producten op verre markten te verhandelen.
-- De opkomst van speculatie:** De onzekerheid die inherent is aan zeereizen en prijsschommelingen leidde tot speculatieve praktijken, waarbij kooplieden gokten op de ontwikkeling van de grondstofprijzen.
+- **De opkomst van het individuele ondernemerschap:** Italiaanse kooplieden, vaak uit rijke families, investeerden hun geld in verre handelsexpedities, waarbij ze de risico's op zich namen en aanzienlijke winsten verwachtten.
+- De uitbreiding van krediet: De ontwikkeling van de internationale handel stimuleerde het gebruik van verschillende kredietinstrumenten, zoals wissels Exchange en banktransacties, die de financiering van transacties mogelijk maakten en kapitaalbewegingen vergemakkelijkten.
+- **Het streven naar winst:** De belangrijkste motivatie van Italiaanse kooplieden was het streven naar commerciële winst. Ze gingen riskante ondernemingen aan in de hoop hun winsten te maximaliseren door waardevolle producten op verre markten te verhandelen.
+- **De opkomst van speculatie:** De onzekerheid die inherent is aan zeereizen en prijsschommelingen leidde tot speculatieve praktijken, waarbij kooplieden gokten op de ontwikkeling van de grondstofprijzen.
 
 
 Pirenne merkt op dat deze praktijken, hoewel aanwezig in andere regio's van Europa, een bijzonder vroege en intense ontwikkeling doormaakten in de Italiaanse stadstaten. Hij schrijft dit fenomeen toe aan verschillende factoren, waaronder de opkomst van de zeehandel, de invloed van de kruistochten, de verzwakking van de feodale structuren en de innovatieve geest die kenmerkend is voor deze handelssteden.
@@ -2240,12 +2240,6 @@ Voor Hayek komt de instabiliteit van de markteconomie in het verleden voort uit 
 Hayek geloofde dat een vrije markt van privévaluta's zou leiden tot grotere monetaire stabiliteit. Bijna 50 jaar later belichaamt een cryptocurrency als Bitcoin Hayeks concurrerende visie door een gedecentraliseerd alternatief te bieden voor het monopolistische systeem van centrale banken. Bitcoin, met een vaste emissielimiet van 21 miljoen eenheden, dient als bescherming tegen inflatie en de willekeur van toezichthouders.
 
 
-## Beoordelingen
-
-
-<chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
-
-<isCourseReview>true</isCourseReview>
 
 ## Conclusie: de kracht van ideeën
 

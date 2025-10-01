@@ -1,0 +1,9 @@
+question: ¿Qué base de datos se utiliza en blocks/index/ para almacenar los metadatos de los bloques?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core utiliza LevelDB en blocks/index/ para indexar bloques, lo que acelera su búsqueda y el servicio a los pares.
+reviewed: true

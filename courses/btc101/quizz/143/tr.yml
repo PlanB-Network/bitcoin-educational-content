@@ -1,0 +1,8 @@
+question: Madencilerin Bitcoin ağındaki rolü nedir?
+answer: Madenciler ağın güvenliğini sağlar ve bloklara işlem ekler.
+wrong_answers:
+  - Madenciler yeni bitcoinler yaratır.
+  - Madenciler Bitcoin kullanıcılarının kimliğini doğrular.
+  - Bitcoin'nin fiyatını madenciler belirler.
+explanation: >-
+reviewed: true

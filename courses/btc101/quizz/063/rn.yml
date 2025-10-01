@@ -1,0 +1,10 @@
+question: Ingororano ya BTC inyuma ya Halving ya kane ni ingahe?
+answer: 3.125 Igihugu.
+wrong_answers:
+  - 1,5625 n'ibindi.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  Inyuma ya Halving ya kane, iba ku burebure bw’ibarabara .
+  840.000, impembo ya BTC ku Mining ni 3.125 BTC.
+reviewed: true

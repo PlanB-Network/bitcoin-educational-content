@@ -1,0 +1,12 @@
+question: Ni isano irihe riri hagati y’ugutera imbere kw’ibiciro n’ugutera imbere kw’ibiciro mu bukungu?
+answer: Inflation na deflation ni nk’ibikoresho bimenyesha amakuru mu bukungu. Ukwongerekana kw’ibikorwa bishobora gutuma haba ugutakaza agaciro, ariko iyo amahera Supply yongerewe icarimwe, ingaruka z’ugutakaza agaciro zirakurwaho, bikavamwo ugutakaza agaciro.
+wrong_answers:
+  - Inflation na deflation biratandukanye mu bukungu.
+  - Inflation yama ijana mu gutakaza ubutunzi mu bukungu.
+  - Ugutakaza agaciro kw’ubutunzi kwama gutuma ubutunzi butera imbere.
+explanation: |
+  Ikigabane kirasigura ko ugutera imbere kw’ibiciro n’ugutakaza agaciro ari nk’uguhanahana amakuru .
+  ubwato mu bukungu. Ukwongerekana kw’ibikorwa birashobora gutuma habaho ugutakaza agaciro, ariko iyo
+  amafaranga Supply yongerwa icarimwe, ingaruka y’ugutakaza agaciro irakurwaho,
+  ivyo bikaba bituma habaho ugutera imbere kw’ibiciro.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvor er det mest aktive Umbrel-fellesskapet?
+answer: På Discord og nettforumet
+wrong_answers:
+  - På Instagram
+  - På LinkedIn og nettforumet
+  - På IRC
+explanation: |
+  Umbrel har et svært aktivt fellesskap på Discord og på nettforumet, der brukerne får hjelp og støtte fra Exchange.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Bitcoin bağlamında gizlilik neden önemlidir?
+answer: Fonlarınızın takip edilme riskini en aza indirmek için.
+wrong_answers:
+  - Bitcoinlerinizin değerini düşürmek için.
+  - Bitcoinlerinizin çalınmasını önlemek için.
+  - Bitcoinleriniz üzerinden vergi ödemek için.
+explanation: |
+  Gizlilik, Bitcoin bağlamında aşağıdakileri en aza indirmek için önemlidir
+  fonlarınızın takip edilme riskini azaltır, bu da
+  gözetiminiz.
+reviewed: true

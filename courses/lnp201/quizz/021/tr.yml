@@ -1,0 +1,9 @@
+question: Zaman kilidi Commitment işlemlerinde hileye karşı nasıl koruma sağlar?
+answer: Suçlu tarafın fonlarını derhal geri almasını engeller
+wrong_answers:
+  - Parayı hile yapana otomatik olarak iade eder
+  - Hile teşebbüsü durumunda işlemi iptal eder
+  - İptal anahtarının kullanımını engeller
+explanation: |
+  Zaman kilidi, hilekarın fonlarını geri alamayacağı bir gecikme uygular ve böylece diğer tarafa yanıt verme fırsatı verir.
+reviewed: false

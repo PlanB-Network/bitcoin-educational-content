@@ -1,0 +1,9 @@
+question: Jaká je bitová délka protokolu IPv6 Address?
+answer: 128 bitů
+wrong_answers:
+  - 512 bitů
+  - 64bitové
+  - 256 bitů
+explanation: |
+  IPv6 Address má 128 bitů, zatímco IPv4 Address má 32 bitů.
+reviewed: false

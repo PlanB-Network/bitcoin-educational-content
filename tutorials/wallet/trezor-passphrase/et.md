@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Kuidas lisada passphrase oma Trezori portfelli?
 ---
 ![cover](assets/cover.webp)
@@ -71,7 +71,7 @@ Selles aknas palutakse teil sisestada oma passphrase. Valige tugev passphrase ja
 
 
 
-loomulikult ei tohiks te kunagi oma passphrase internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidis Wallet kasutatakse ainult Testnet peal ja see kustutatakse õpetuse lõpus.**_
+loomulikult ei tohiks te kunagi oma passphrase internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidis Wallet kasutatakse ainult Testnet peal ja see kustutatakse õpetuse lõpus.
 
 
 

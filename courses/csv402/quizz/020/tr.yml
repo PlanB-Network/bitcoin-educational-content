@@ -1,0 +1,9 @@
+question: RGB'deki bir State Transition sırasında Bob'in bir varlık almasını sağlayan kilit unsur nedir?
+answer: Bob'in UTXO'üne işaret eden yeni bir Seal Definition
+wrong_answers:
+  - Bir UTXO'ya atıfta bulunmayan bir kontrol işlemi
+  - Alice'den kamuoyuna bir açıklama
+  - Alice ve Bob tarafından paylaşılan bir çift imza
+explanation: |
+  Seal Definition varlığı kriptografik olarak Bob'nin UTXO'ine bağlayarak varlığın kendisine ait olmasını sağlar.
+reviewed: false

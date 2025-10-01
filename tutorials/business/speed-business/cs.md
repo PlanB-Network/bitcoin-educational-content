@@ -1,5 +1,5 @@
 ---
-name: Rychlost Wallet - PoS
+name: Speed Wallet - POS
 description: Snadná integrace plateb Bitcoin a stablecoin do vašeho podnikání
 ---
 ![cover](assets/cover.webp)
@@ -22,31 +22,31 @@ Celosvětové přijetí Bitcoin je založeno na konkrétních případech použi
 
 
 
-Rychlost má širokou škálu funkcí, které pokrývají finanční aspekty vašeho podnikání. Najdete zde :
+Rychlost má širokou škálu funkcí, které pokrývají finanční aspekty vašeho podnikání. Najdete zde:
 
 
 
 
 
-- Konfigurace online plateb**: Přijímejte platby od svých zákazníků, ať jsou kdekoli, díky svým webovým stránkám.
+- **Konfigurace online plateb**: Přijímejte platby od svých zákazníků, ať jsou kdekoli, díky svým webovým stránkám.
 
 
 
 
 
-- Platby na místě**: Ideální pro obchody a podniky, které vybírají hotovost na prodejně.
+- **Platby na místě**: Ideální pro obchody a podniky, které vybírají hotovost na prodejně.
 
 
 
 
 
-- Stahování**: Výběry z bankomatů: vybírejte svá aktiva hladce a používejte své bitcoiny k vyplácení zákazníků a mezd.
+- **Stahování**: Výběry z bankomatů: vybírejte svá aktiva hladce a používejte své bitcoiny k vyplácení zákazníků a mezd.
 
 
 
 
 
-- Propojení s dalšími platformami**: Používáte externí nástroje pro správu plateb? Speed vám nabízí možnost propojit je se svou platformou a vytvořit tak ucelený ekosystém, který bude odrážet vaše podnikání.
+- **Propojení s dalšími platformami**: Používáte externí nástroje pro správu plateb? Speed vám nabízí možnost propojit je se svou platformou a vytvořit tak ucelený ekosystém, který bude odrážet vaše podnikání.
 
 
 
@@ -265,13 +265,13 @@ V nabídce **Odesílání plateb** najdete všechny možnosti převodu peněz, k
 
 
 
-- Okamžité platby**: S možností okamžitého odeslání můžete bezpečně odesílat bitcoiny okamžitě ze svého obchodního účtu.
+- **Okamžité platby**: S možností okamžitého odeslání můžete bezpečně odesílat bitcoiny okamžitě ze svého obchodního účtu.
 
 
 
 
 
-- generate odkazy pro výběr**, které vašim partnerům a dodavatelům umožní pozdější přístup k platbám, aniž by vyžadovaly vaši přítomnost online.
+- generate odkazy pro **výběr**, které vašim partnerům a dodavatelům umožní pozdější přístup k platbám, aniž by vyžadovaly vaši přítomnost online.
 
 
 
@@ -289,7 +289,7 @@ V možnosti **Odkazy pro výběr** vytvořte nový odkaz pro výběr a nakonfigu
 
 
 
-- Výplaty**: V nabídce Výplaty můžete iniciovat výběry z vašeho zůstatku Speed Business na váš osobní účet Wallet.
+- **Výplaty**: V nabídce Výplaty můžete iniciovat výběry z vašeho zůstatku Speed Business na váš osobní účet Wallet.
 
 
 
@@ -299,7 +299,7 @@ V možnosti **Odkazy pro výběr** vytvořte nový odkaz pro výběr a nakonfigu
 
 
 
-- Slevy**: Podpořte své stálé zákazníky nastavením možností slev a získejte bonusy.
+- **Slevy**: Podpořte své stálé zákazníky nastavením možností slev a získejte bonusy.
 
 
 
@@ -436,4 +436,3 @@ Rychlost dobře znáte, začleňte Bitcoin do svého podnikání a rozvíjejte m
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

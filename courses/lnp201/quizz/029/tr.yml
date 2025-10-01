@@ -1,0 +1,9 @@
+question: Bir kanalın zorla kapatılması hangi durumda kullanılır?
+answer: Taraflardan biri artık yanıt vermediğinde
+wrong_answers:
+  - Kanal kapasitesinin artırılması gerektiğinde
+  - Zaman kilidi yetersiz olduğunda
+  - İşlem ücretleri çok yüksek olduğunda
+explanation: |
+  Zorla kapatma, taraflardan birinin, örneğin teknik bir sorun nedeniyle, diğerinin mesajlarına artık yanıt vermemesi durumunda son çare olarak kullanılır.
+reviewed: false

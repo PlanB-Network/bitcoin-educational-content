@@ -1,0 +1,9 @@
+question: Bitcoin edinmenin bu 4 yöntemi arasında hangisi sizi anahtar tanımlama riskine en az maruz bırakır?
+answer: P2P'da nakit ile satın alma
+wrong_answers:
+  - KYC olmadan düzenlenmiş bir platform üzerinden satın alma
+  - KYC ile düzenlenmiş bir platform üzerinden satın alma
+  - P2P eşleştirme platformu üzerinden PayPal ile satın alma
+explanation: |
+  Nakit para ile eşler arası bitcoin satın almak, sizi anahtar tanımlama risklerine en az maruz bırakan yöntemdir, çünkü düzenlenmiş bir şirketten geçmeyi gerektirmez ve bankacılık sisteminde iz bırakmaz. Ayrıca, bu yöntem genellikle kişisel bilgilerin ifşa edilmesini gerektirmez.
+reviewed: false

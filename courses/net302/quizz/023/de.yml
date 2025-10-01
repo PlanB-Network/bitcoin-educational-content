@@ -1,0 +1,9 @@
+question: Wie heißt das mehrstufige Verbindungsaufbauverfahren bei TCP?
+answer: Dreiseitiges Handshake
+wrong_answers:
+  - Vierfacher Handschlag
+  - Schiebefenster
+  - Prüfsummenverfahren
+explanation: |
+  Der Drei-Wege-Handshake synchronisiert die Sequenznummern zwischen Client und Server vor dem Exchange der Nutzdaten.
+reviewed: false

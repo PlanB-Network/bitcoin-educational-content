@@ -1,0 +1,9 @@
+question: Ni imvo nyamukuru iyihe abahinguzi b’amabuye y’agaciro bashira imbere kugira ngo bashigikire ivyo basaba?
+answer: Ivyerekeye gushigikira inganda z'igihugu .
+wrong_answers:
+  - Uburinzi bw'amaso
+  - Uburyo bwiza bw'amabuye y'agaciro ugereranyije n'izuba
+  - Igiciro kinini co gukora ubuji
+explanation: |
+  Abahinguzi b’amabuye y’agaciro bavuga ko ivyo basaba bifise ishingiro kubera ko bikenewe ko inganda z’igihugu zikingirwa, iyo na yo ikaba ari imvo Bastiat akoresha mu kwamagana uburinzi bw’igihugu.
+reviewed: false

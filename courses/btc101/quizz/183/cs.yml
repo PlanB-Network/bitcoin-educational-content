@@ -1,10 +1,11 @@
-question: Jaký je jeden z důvodů, proč může cena Bitcoinu klesnout o 10 %, 20 % nebo dokonce 50 % během několika dní?
-answer: Býčí a medvědí fáze trhu.
+question: Co je AMF?
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - Počet lidí používajících internet.
-  - Počasí.
-  - Cena zlata.
-explanation: >-
-  Cena Bitcoinu je často charakterizována významnou volatilitou,
-  která může být ovlivněna tržními variacemi a býčími a medvědími fázemi trhu.
+  - Americký měnový fond.
+  - Asociace těžebních zařízení.
+  - Automatizovaný peněžní tok.
+explanation: |
+  AMF, neboli Autorité des Marchés Financiers, je francouzská
+  organizace, která reguluje platformy, na kterých lze
+  nakupovat bitcoiny.
 reviewed: true

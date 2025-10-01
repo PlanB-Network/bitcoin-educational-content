@@ -327,37 +327,37 @@ Untuk meningkatkan reputasi Anda di Bisq sebagai penjual, lakukan transaksi seca
 ### Manfaat Bisq 2
 
 
-- Kerahasiaan maksimum**: Tanpa KYC, penggunaan Tor
-- Desentralisasi**: Tidak ada server pusat
-- Keamanan**: Sumber terbuka, kode non-kustodian
-- Antarmuka yang intuitif**: lebih sederhana dari Bisq 1
-- Fleksibilitas**: Beberapa protokol pertukaran
+- **Kerahasiaan maksimum**: Tanpa KYC, penggunaan Tor
+- **Desentralisasi**: Tidak ada server pusat
+- **Keamanan**: Sumber terbuka, kode non-kustodian
+- **Antarmuka yang intuitif**: lebih sederhana dari Bisq 1
+- **Fleksibilitas**: Beberapa protokol pertukaran
 
 ### Kekurangan Bisq 2
 
 
-- Likuiditas terbatas** (untuk saat ini):
+- **Likuiditas terbatas** (untuk saat ini):
  - Protokol baru dalam tahap permulaan
  - Beberapa penawaran penjualan yang tersedia
  - Waktu tunggu yang berpotensi lama untuk menemukan pembeli
-- Batas perdagangan**: Maksimum USD 600 per transaksi (dengan Bisq easy)
-- Hanya untuk desktop**: Tidak ada aplikasi seluler
+- **Batas perdagangan**: Maksimum USD 600 per transaksi (dengan Bisq easy)
+- **Hanya untuk desktop**: Tidak ada aplikasi seluler
 
 ## Protokol Masa Depan
 
 Meskipun Bisq Easy saat ini merupakan satu-satunya protokol yang tersedia, beberapa protokol lain sedang dikembangkan untuk Bisq 2:
 
 
-- Bisq Lightning**: Protokol pertukaran berdasarkan sistem escrow menggunakan kriptografi komputasi multipartai pada jaringan Lightning.
-- Bisq MuSig**: Migrasi protokol utama dari Bisq 1 ke Bisq 2, menggunakan multisig 2-on-2 dengan uang jaminan.
-- Pertukaran BSQ**: Pertukaran atomik instan antara BSQ dan BTC.
-- Liquid Swaps**: Pertukaran aset di jaringan Liquid (USDT, BTC-L) melalui swap atom.
-- Pertukaran Monero**: Pertukaran atom antara Bitcoin dan Monero.
-- Liquid MuSig**: Versi protokol multisig yang menggunakan L-BTC untuk biaya yang lebih rendah dan kerahasiaan yang lebih tinggi.
-- Submarine Swap**: Pertukaran antara Bitcoin di jaringan Lightning dan Bitcoin on-chain.
-- Pertukaran Stablecoin**: Pertukaran atomik antara stablecoin Bitcoin dan USD.
-- Opsi Multisig**: Pembuatan opsi jual dan beli P2P dengan pemblokiran BTC dalam transaksi multisig on-chain.
-- Kontrak Terbuka Multisig**: Memungkinkan pembuatan kontrak bersyarat yang disesuaikan menggunakan sistem multisig 2-on-3 dengan arbitrase.
+- **Bisq Lightning**: Protokol pertukaran berdasarkan sistem escrow menggunakan kriptografi komputasi multipartai pada jaringan Lightning.
+- **Bisq MuSig**: Migrasi protokol utama dari Bisq 1 ke Bisq 2, menggunakan multisig 2-on-2 dengan uang jaminan.
+- **Pertukaran BSQ**: Pertukaran atomik instan antara BSQ dan BTC.
+- **Liquid Swaps**: Pertukaran aset di jaringan Liquid (USDT, BTC-L) melalui swap atom.
+- **Pertukaran Monero**: Pertukaran atom antara Bitcoin dan Monero.
+- **Liquid MuSig**: Versi protokol multisig yang menggunakan L-BTC untuk biaya yang lebih rendah dan kerahasiaan yang lebih tinggi.
+- **Submarine Swap**: Pertukaran antara Bitcoin di jaringan Lightning dan Bitcoin on-chain.
+- **Pertukaran Stablecoin**: Pertukaran atomik antara stablecoin Bitcoin dan USD.
+- **Opsi Multisig**: Pembuatan opsi jual dan beli P2P dengan pemblokiran BTC dalam transaksi multisig on-chain.
+- **Kontrak Terbuka Multisig**: Memungkinkan pembuatan kontrak bersyarat yang disesuaikan menggunakan sistem multisig 2-on-3 dengan arbitrase.
 
 Protokol-protokol ini saat ini sedang dalam pengembangan dan akan diintegrasikan secara progresif ke dalam Bisq 2, menawarkan fleksibilitas yang lebih besar kepada pengguna sesuai dengan kebutuhan spesifik mereka.
 

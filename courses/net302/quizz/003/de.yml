@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil in einer Bustopologie?
+answer: Niedrige Installationskosten
+wrong_answers:
+  - Hohe Redundanz
+  - Geringe Latenzzeit
+  - Hohe Verfügbarkeit
+explanation: |
+  Der Bus ist auf ein einziges physisches Medium angewiesen, was die Installationskosten senkt, aber auch eine einzige Fehlerquelle mit sich bringt.
+reviewed: false

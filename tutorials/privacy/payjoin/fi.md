@@ -4,13 +4,9 @@ description: Mikä on Payjoin Bitcoinissa?
 ---
 ![Payjoin-esikatselukuva - steganografia](assets/cover.webp)
 
-***HUOMIO:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, Payjoins Stowaway Samourai Walletissa toimii vain, kun PSBT:t vaihdetaan manuaalisesti asianomaisten osapuolten välillä, edellyttäen, että molemmat käyttäjät ovat yhteydessä omaan Dojoonsa. Sparrowin osalta Payjoins BIP78:n kautta toimivat edelleen. On kuitenkin mahdollista, että nämä työkalut käynnistetään uudelleen tulevien viikkojen aikana. Sillä välin voit lukea tämän artikkelin ymmärtääksesi payjoinien teoreettisen toiminnan.*
 
-_Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tämän oppaan, kun uutta tietoa tulee saataville._
 
-_Tämä opas on tarkoitettu vain koulutus- ja tiedotustarkoituksiin. Emme kannusta tai hyväksy näiden työkalujen käyttöä rikollisiin tarkoituksiin. Jokaisen käyttäjän on noudatettava oman lainkäyttöalueensa lakeja._
 
----
 ## Payjoin-transaktioiden ymmärtäminen Bitcoinissa
 
 Payjoin on erityinen Bitcoin-transaktiorakenne, joka parantaa käyttäjän yksityisyyttä maksun aikana yhteistyössä maksun vastaanottajan kanssa.
@@ -41,10 +37,10 @@ Tätä tapahtumaa lohkoketjussa nähdessään ulkopuolinen tarkkailija, joka nou
 ![Väärä tulkinta Payjoin-tapahtumasta ulkopuolelta](assets/en/3.webp)
 Tämä tulkinta on ilmeisen väärä, koska, kuten jo tiedät, kaksi syöttö-UTXO:a eivät kuulu samalle henkilölle. Lisäksi maksun todellinen arvo ei ole `19,000 sats`, vaan pikemminkin `4,000 sats`. Ulkopuolisen tarkkailijan analyysi ohjataan siis virheelliseen johtopäätökseen, varmistaen sidosryhmien luottamuksellisuuden säilymisen.![payjoin-tapahtuman kaavio](assets/en/1.webp)
 Jos haluat analysoida todellisen Payjoin-tapahtuman, tässä on yksi, jonka suoritin testnetissä: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
-[**-> Tutustu oppaaseemme, kuinka tehdä Payjoin Samourai Walletilla**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
-[**-> Tutustu oppaaseemme, kuinka tehdä Payjoin Sparrow Walletilla**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
-**Ulkopuoliset resurssit:**
-- https://docs.samourai.io/en/spend-tools#stowaway;
+
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.
+- https://payjoin.org/
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+

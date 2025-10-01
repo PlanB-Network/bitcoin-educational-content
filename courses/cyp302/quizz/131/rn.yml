@@ -1,0 +1,9 @@
+question: Ni kuki ubuhinga bwo gukingira amakuru butagiramwo uburinganire bukoreshwa cane kuruta ubuhinga bwo gukingira amakuru butaringaniye mu guhanahana amakuru menshi?
+answer: Ni bike bikora neza ku rugero rungana rw'umutekano
+wrong_answers:
+  - Ntivyemeza ko ubutumwa ari ubw'ukuri
+  - Bisaba imfunguruzo nyinshi za bose kuri Exchange yose.
+  - Ntibihuye n'amasezerano y'itumanaho y'ubu
+explanation: |
+  Asymmetric cryptography, naho ifise ububasha bwo kwemeza no gushiramwo amakuru y’intango, isaba ubutunzi bwinshi, bigatuma ikoreshwa ryayo ridakora neza mu gutanga amakuru menshi.
+reviewed: false

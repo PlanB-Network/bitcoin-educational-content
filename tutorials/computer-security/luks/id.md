@@ -30,7 +30,7 @@ Mengenkripsi stik USB adalah cara yang baik untuk melindungi data sensitif Anda.
 
 
 
-Untuk mengikuti tutorial ini, Anda memerlukan :
+Untuk mengikuti tutorial ini, Anda memerlukan:
 
 
 
@@ -131,7 +131,7 @@ Sekarang kita akan menghapus semua data pada stik USB kita. Operasi ini terdiri 
 
 
 
-**Pastikan Anda menargetkan file perangkat yang tepat!
+**Pastikan Anda menargetkan file perangkat yang tepat!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Di sini, subperintah "`luksFormat`" menginisialisasi dan memformat perangkat untuk menggunakan enkripsi LUKS. Anda akan diminta untuk mengonfirmasi operasi ini dengan mengetik `YES` dalam huruf besar, lalu tentukan *passphrase*. **Pilihlah *passphrase* yang kuat untuk memastikan bahwa, jika terjadi kehilangan, penyerang tidak dapat menemukannya melalui serangan brute force.
+Di sini, subperintah "`luksFormat`" menginisialisasi dan memformat perangkat untuk menggunakan enkripsi LUKS. Anda akan diminta untuk mengonfirmasi operasi ini dengan mengetik `YES` dalam huruf besar, lalu tentukan *passphrase*. **Pilihlah** ***passphrase*** **yang kuat untuk memastikan bahwa, jika terjadi kehilangan, penyerang tidak dapat menemukannya melalui serangan brute force.**
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Di sini, "**usbkey1**" adalah nama yang saya berikan pada partisi yang dipasang dalam konteks saya. Anda dapat memilih yang mana pun yang Anda suka. Kita kemudian perlu memformat partisi yang terdapat pada partisi LUKS, misalnya, di sini sebagai **ext4** :
+Di sini, "**usbkey1**" adalah nama yang saya berikan pada partisi yang dipasang dalam konteks saya. Anda dapat memilih yang mana pun yang Anda suka. Kita kemudian perlu memformat partisi yang terdapat pada partisi LUKS, misalnya, di sini sebagai **ext4**:
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Di sini, lokasi target** ditetapkan sebagai "**/dev/mappe/usbkey1**"**, mengapa?
+**Di sini, lokasi target** ditetapkan sebagai "**/dev/mappe/usbkey1**", mengapa?
 
 
 
@@ -268,7 +268,7 @@ sr0        11:0    1 1024M  0 rom
 
 
 
-*melalui grafik Interface ** **:**:**
+*melalui grafik Interface*:
 
 
 
@@ -353,7 +353,7 @@ Ini berarti kita dapat mengakses data pada stik USB kita secara bebas dan transp
 
 
 
-Setelah operasi kita selesai, jangan lupa untuk menutup semuanya dengan benar untuk memastikan volume kita tidak rusak. Langkah pertama adalah melepas pemasangan file :
+Setelah operasi kita selesai, jangan lupa untuk menutup semuanya dengan benar untuk memastikan volume kita tidak rusak. Langkah pertama adalah melepas pemasangan file:
 
 
 

@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe riri hagati y’urufunguzo rw’umwana rusanzwe n’urufunguzo rw’umwana rukomeye?
+answer: Urufunguzo rw'umwana rukomeye rusaba urufunguzo rw'ibanga rw'umuvyeyi kugira ngo ruvemwo.
+wrong_answers:
+  - Urufunguzo rw'umwana rusanzwe ntirushobora kuva ku mfunguruzo za bose.
+  - Urufunguzo rw'umwana rukomeye rukoresha urutonde rudasanzwe.
+  - Urufunguzo rw’umwana rusanzwe ruratekanye kuruta urufunguzo rw’umwana rukomeye.
+explanation: |
+  Urufunguzo rw'umwana rusanzwe rushobora kuva ku rufunguzo rwa bose rw'umuvyeyi, bitandukanye n'urufunguzo rw'umwana rukomeye rusaba urufunguzo rw'ibanga rw'umuvyeyi.
+reviewed: false

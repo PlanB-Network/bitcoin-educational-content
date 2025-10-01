@@ -1,0 +1,9 @@
+question: Dlaczego dysk twardy nie jest zalecany dla węzła Bitcoin?
+answer: Ponieważ znacznie spowalnia IBD i ogólne zastosowanie
+wrong_answers:
+  - Ponieważ nie może przechowywać plików Blockchain
+  - Ponieważ zużywa zbyt mało energii i grozi eksplozją
+  - Ponieważ jest niekompatybilny z Bitcoin core
+explanation: |
+  Tarcze mechaniczne ograniczają wydajność, znacznie wydłużają IBD i szybko zużywają się pod obciążeniem węzła.
+reviewed: true

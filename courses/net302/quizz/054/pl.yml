@@ -1,0 +1,9 @@
+question: Jaka forma NAT trwale łączy prywatny adres IP Address z publicznym adresem IP Address?
+answer: Tłumaczenie statyczne
+wrong_answers:
+  - Tłumaczenie dynamiczne
+  - PAT (tłumaczenie portu Address)
+  - Routing dynamiczny
+explanation: |
+  Translacja statyczna tworzy stałe mapowanie między wewnętrznym IP Address i publicznym IP Address, przydatne do udostępniania wewnętrznych zasobów z zewnątrz.
+reviewed: false

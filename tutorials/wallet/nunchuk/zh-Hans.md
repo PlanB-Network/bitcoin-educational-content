@@ -1,5 +1,5 @@
 ---
-name: 双节棍
+name: Nunchuk
 description: 适合所有人使用的 Wallet 移动电话
 ---
 ![cover](assets/cover.webp)
@@ -98,7 +98,7 @@ Nunchuk 于 2020 年底面世，其理念非常明确：使多重签名成为一
 您可以找到 Sparrow wallet 指南，下载此 Software Wallet
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 然后，您可以将电脑中的 `.apk` 文件传输到手机上
 

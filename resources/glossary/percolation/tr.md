@@ -1,0 +1,5 @@
+---
+term: PERKOLASYON
+---
+
+Bitcoin düğüm ağı boyunca bilginin (işlemler ve bloklar) yayılmasını anlamaya yardımcı olan bir modeli ifade eder. Süzülme teorisi aslında sıvıların gözenekli malzemeler boyunca hareketini ve süzülmesini inceleyen matematiksel ve fiziksel bir modeldir. Belirli bir eşiğin ötesinde, bağlı bir ağın sıvının malzeme boyunca sürekli olarak akmasına nasıl izin verdiğini analiz eder. Bu, düğümleri aktif veya inaktif olabilen siteler olarak düşünerek bilginin nasıl yayıldığını görmek için bilgisayar ağlarına uygulanabilir. Bitcoin'da düğümler böylece süzülme teorisindeki gözeneklerin rolünü oynar. Her aktif düğüm bilgi alır ve diğer düğümlere iletir, onlar da iletime devam eder ya da engeller. Belirli işlem türlerinin yayılması, bir bloğa dahil edecek bir Miner'e ulaşmak için aktif düğümlerin belirli bir yüzdesinin gerekli olduğu süzülme eşikleri açısından analiz edilebilir. Bu teori, bazı düğümler tarafından standardizasyon kurallarının değiştirilmesi gibi ağdaki değişikliklerin, bir Miner'e ulaşmak için işlem yayılımının basamaklı mekanizmasını nasıl etkilediğini değerlendirmek için bir çerçeve sağlar.

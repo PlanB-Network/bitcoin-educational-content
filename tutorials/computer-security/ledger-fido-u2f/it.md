@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F E FIDO2
+name: "Ledger U2F & FIDO2"
 description: Migliorate la vostra sicurezza online con Ledger
 ---
 ![cover](assets/cover.webp)
@@ -162,7 +162,7 @@ Vi consiglio di conservare questo codice in un luogo diverso da quello in cui co
 
 
 
-Questo approccio offre due livelli di backup in caso di perdita del Ledger per l'autenticazione 2FA: un primo backup utilizzando la frase Mnemonic per tutti gli account e un secondo backup specifico per l'account utilizzando i codici di emergenza. Tuttavia, è importante **non confondere il ruolo del Mnemonic con quello del codice di emergenza** :
+Questo approccio offre due livelli di backup in caso di perdita del Ledger per l'autenticazione 2FA: un primo backup utilizzando la frase Mnemonic per tutti gli account e un secondo backup specifico per l'account utilizzando i codici di emergenza. Tuttavia, è importante **non confondere il ruolo del Mnemonic con quello del codice di emergenza**:
 
 
 

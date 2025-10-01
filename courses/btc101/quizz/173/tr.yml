@@ -1,0 +1,8 @@
+question: Finansal otoritelerin Bitcoin'ı düzenlemesini zorlaştıran bir faktör nedir?
+answer: Küresel ölçekte, günde 24 saat, haftada 7 gün faaliyet göstermektedir.
+wrong_answers:
+  - Merkezi bir otorite tarafından kontrol edilir.
+  - Dünyanın hiçbir yerinde kullanılmamaktadır.
+  - Sahtesini yapmak kolaydır.
+explanation: >-
+reviewed: true

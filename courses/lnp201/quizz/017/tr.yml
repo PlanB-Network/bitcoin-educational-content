@@ -1,0 +1,9 @@
+question: Bob, Alice'e 30,000 satoshi karşılığında bir Invoice gönderirse ne olur?
+answer: Alice, kanaldaki Bob'e 30.000 satoshi aktarmak için bir Commitment Transaction oluşturur.
+wrong_answers:
+  - Alice bu aktarımı yapmak için yeni bir kanal açmalıdır.
+  - Bob, Wallet'sindeki 30.000 satoshiyi otomatik olarak alır.
+  - Invoice, Bitcoin üzerindeki bir On-Chain işlemi aracılığıyla ödenir.
+explanation: |
+  Bob, Alice'e bir Invoice gönderdiğinde, fon dağılımını ayarlamak için yeni bir Commitment Transaction oluşturur ve imzalar, böylece kanalda 30.000 satoshi aktarılır.
+reviewed: false

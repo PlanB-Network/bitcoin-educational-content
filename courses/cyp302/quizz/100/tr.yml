@@ -1,0 +1,9 @@
+question: Kimliği doğrulanmış bir şifreleme şemasında Nonce'ın rolü nedir?
+answer: Tekrarları önlemek için her mesajın benzersiz bir etikete sahip olduğundan emin olun
+wrong_answers:
+  - Mesajın göndericisini tanımlayın
+  - Geçici bir şifre çözme anahtarı oluşturun
+  - Ek bir Layer şifreleme ekleyin
+explanation: |
+  Kimliği doğrulanmış bir şifreleme şemasında, her mesajın benzersiz bir etikete sahip olmasını sağlamak için bir Nonce kullanılır, böylece tekrarları önleyerek güvenliği artırır.
+reviewed: false

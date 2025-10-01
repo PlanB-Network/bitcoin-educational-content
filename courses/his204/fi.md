@@ -1121,7 +1121,7 @@ Dupont de Nemours säilytti aina korkean arvostuksensa Quesnayta kohtaan.
 
 Myöhemmin hän sanoi: "Olin vasta poika, kun Quesnay ojensi minulle kätensä - hän teki minusta miehen." Quesnay teki hänestä merkittävän taloustieteilijän silloisella kirjallisella näyttämöllä.
 
-Maatalous-, kauppa- ja talouslehden* jälkeen Dupont nimitettiin *Les Éphémérides du Citoyenin* päätoimittajaksi, josta tuli fysiokraattien virallinen lehti.
+Maatalous-, kauppa- ja talouslehden jälkeen Dupont nimitettiin *Les Éphémérides du Citoyenin* päätoimittajaksi, josta tuli fysiokraattien virallinen lehti.
 
 
 ![image](assets/fr/091.webp)
@@ -1243,7 +1243,7 @@ jossa häntä pidetään Cantillonin ohella 1700-luvun suurimpana taloustieteili
 ![image](assets/fr/104.webp)
 
 
-Miten Turgot nousi niin merkittävään asemaan? Se johtui kolmen keskeisen tekijän yhdistelmästä. **Ensinnäkin hänen arvostettu perhetaustansa. Hän polveutui pitkästä kuninkaallisten hallintovirkamiesten suvusta, joista monet olivat korkeissa valtiollisissa tehtävissä. **Toiseksi**, kultainen aikakausi, jolloin hän syntyi ja kasvoi. Turgot oli 21-vuotias, kun Montesquieu julkaisi *L'Esprit des Lois*, ja 24-vuotias, kun *Encyclopédie*:n ensimmäinen nide ilmestyi.
+Miten Turgot nousi niin merkittävään asemaan? Se johtui kolmen keskeisen tekijän yhdistelmästä. **Ensinnäkin hänen arvostettu perhetaustansa.** Hän polveutui pitkästä kuninkaallisten hallintovirkamiesten suvusta, joista monet olivat korkeissa valtiollisissa tehtävissä. **Toiseksi**, kultainen aikakausi, jolloin hän syntyi ja kasvoi. Turgot oli 21-vuotias, kun Montesquieu julkaisi *L'Esprit des Lois*, ja 24-vuotias, kun *Encyclopédie*:n ensimmäinen nide ilmestyi.
 
 
 ![image](assets/fr/105.webp)
@@ -1353,9 +1353,9 @@ Koska alue oli niin köyhä, se ei kiinnostanut ministereitä. Tämä antoi Turg
 
 
 
-- Taille**:n uudelleenjako, henkilökohtainen vero (Turgot pyrki mahdollisimman objektiiviseen arviointiin).
-- Corvée**, eräänlainen työvoimana maksettu vero, jossa talonpojat pakotettiin työskentelemään tienrakennustöissä. Kierrettyään aluetta Turgot huomasi nopeasti teiden huonon kunnon. Hän korvasi corvée-veron rahamääräisellä verolla.
-- Miliisien**, sodan aikana mobilisoitujen talonpoikaisarmeijoiden, värväys.
+- **Taille**: uudelleenjako, henkilökohtainen vero (Turgot pyrki mahdollisimaan objektiiviseen arviointiin).
+- **Corvée**, eräänlainen työvoimana maksettu vero, jossa talonpojat pakotettiin työskentelemään tienrakennustöissä. Kierrettyään aluetta Turgot huomasi nopeasti teiden huonon kunnon. Hän korvasi corvée-veron rahamääräisellä verolla.
+- **Miliisien**, sodan aikana mobilisoitujen talonpoikaisarmeijoiden, värväys.
 
 
 ![image](assets/fr/115.webp)
@@ -1498,7 +1498,7 @@ Suuren osan urastaan hän omistautui aloille, jotka eivät liittyneet lainkaan t
 
 
 
-Condorcet omaksui vähitellen laissez-faire- ja vapausajattelun, aluksi aloilla, jotka eivät liittyneet poliittiseen talouteen. Teologin kirjeessä* hän pilkkasi filosofisesti katolista uskontoa ja ilmaisi toivovansa todellista uskonvapautta, myös vapautta olla uskomatta. Suvaitsevaisuuden puolesta ja uskonnollista fanatismia vastaan käymässään ristiretkessä Condorcet taisteli Chevalier de la Barren kuntouttamisen puolesta ja D'Etallonden uudelleenkäsittelyn puolesta, joka oli tuomittu kuolemaan krusifiksin rikkomisen vuoksi.
+Condorcet omaksui vähitellen laissez-faire- ja vapausajattelun, aluksi aloilla, jotka eivät liittyneet poliittiseen talouteen. **Teologin kirjeessä** hän pilkkasi filosofisesti katolista uskontoa ja ilmaisi toivovansa todellista uskonvapautta, myös vapautta olla uskomatta. Suvaitsevaisuuden puolesta ja uskonnollista fanatismia vastaan käymässään ristiretkessä Condorcet taisteli Chevalier de la Barren kuntouttamisen puolesta ja D'Etallonden uudelleenkäsittelyn puolesta, joka oli tuomittu kuolemaan krusifiksin rikkomisen vuoksi.
 
 
 

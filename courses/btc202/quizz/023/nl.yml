@@ -1,0 +1,9 @@
+question: Wat is het verschil tussen consensusregels en relaisregels?
+answer: Consensus definieert geldigheid, geeft de verspreiding van transacties door
+wrong_answers:
+  - Consensus bepaalt vergoedingen, relais bepaalt adressen
+  - Consensus beheert Blockchain, relais beheert privésleutels
+  - Consensus kiest miners, relais kiest handelaren
+explanation: |
+  Consensusregels bepalen wat geldig is in Bitcoin, terwijl relaisregels transacties tussen knooppunten beheren.
+reviewed: true

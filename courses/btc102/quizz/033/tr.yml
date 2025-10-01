@@ -1,0 +1,9 @@
+question: Lightning Network'ın mucitleri kimlerdir?
+answer: Thaddeus Dryja ve Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos ve Adam Back
+  - Pieter Wuille ve Gregory Maxwell
+  - Satoshi Nakamoto ve Hal Finney
+explanation: |
+  Thaddeus Dryja ve Joseph Poon, Bitcoin'ün ölçeklenebilirliğini artırmak için 2016 yılında Lightning Network'yi icat etti.
+reviewed: false

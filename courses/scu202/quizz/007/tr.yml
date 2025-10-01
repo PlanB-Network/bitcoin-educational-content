@@ -1,0 +1,9 @@
+question: Hangi sistem açık kaynaklı, topluluk tabanlı modeliyle öne çıkıyor?
+answer: GNU/Linux
+wrong_answers:
+  - Pencereler
+  - macOS
+  - Chrome OS
+explanation: |
+  GNU/Linux ücretsizdir ve dünya çapında bir topluluk tarafından geliştirilmiştir, kullanıcı için şeffaflık, güvenlik ve esnekliği garanti eder.
+reviewed: false

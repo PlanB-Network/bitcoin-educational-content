@@ -1,5 +1,5 @@
 ---
-name: Akili Ndogo za Miner
+name: Braiins Mini Miner
 description: Kutengeneza Mining kwa urahisi kutoka nyumbani.
 ---
 ![cover](assets/cover.webp)

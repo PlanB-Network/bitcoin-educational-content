@@ -1,0 +1,9 @@
+question: Dải IPv4 Address nào được dành riêng cho thử nghiệm vòng lặp cục bộ?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Dải 127.0.0.0/8 được sử dụng cho vòng lặp cục bộ. Mọi yêu cầu đến dải này sẽ nằm trong máy gốc.
+reviewed: false

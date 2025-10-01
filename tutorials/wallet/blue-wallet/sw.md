@@ -1,5 +1,5 @@
 ---
-name: Bluu Wallet
+name: Blue Wallet
 
 description: Bitcoin Radically Radically na Nguvu Portfolio
 ---
@@ -152,7 +152,7 @@ Unaweza kuondoa mpokeaji mmoja au wote kwa kubofya kwenye **Ondoa Mpokeaji** na 
 
 
 
-- Pandisha ada**: Je, umefanya muamala unaochukua muda mrefu kuthibitishwa? Kwa kuwezesha mfumuko wa bei wa ada unaweza kuongeza ada za ziada za ununuzi kwenye muamala wako unaosubiri ili kuharakisha uthibitishaji wake.
+- **Pandisha ada**: Je, umefanya muamala unaochukua muda mrefu kuthibitishwa? Kwa kuwezesha mfumuko wa bei wa ada unaweza kuongeza ada za ziada za ununuzi kwenye muamala wako unaosubiri ili kuharakisha uthibitishaji wake.
 
 
 
@@ -248,7 +248,7 @@ Kupokea bitcoins katika Wallet ya saini nyingi ni mchakato sawa na unapokuwa kat
 
 
 
-- Tuma bitcoins** :
+- **Tuma bitcoins** :
 
 
 
@@ -274,7 +274,7 @@ Mtia saini wa pili wa Wallet, ikiwa yeye pia ni mtumiaji, anaweza kutia sahihi m
 
 
 
-- Nenda mbali zaidi na kwingineko ya Sahihi nyingi**:
+- Nenda mbali zaidi na kwingineko ya Sahihi nyingi:
 
 
 

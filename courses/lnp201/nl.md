@@ -150,7 +150,7 @@ Laten we een voorbeeld nemen: als Alice 130.000 satho's aan haar kant heeft, kan
 Wat belangrijk is om te begrijpen, is dat de vaste capaciteit van het kanaal het maximale bedrag van een enkele transactie beperkt, maar niet het totale aantal mogelijke transacties, noch het totale volume aan geld dat binnen het kanaal wordt uitgewisseld.
 
 
-**Wat moet je meenemen uit dit hoofdstuk?
+**Wat moet je meenemen uit dit hoofdstuk?**
 
 
 
@@ -242,14 +242,14 @@ Om de middelen uit te geven die vergrendeld zijn met deze 2/2-meervoudige handte
 Dit type Address is precies de representatie op de Bitcoin Blockchain van betaalkanalen op de Lightning Network.
 
 
-**Wat moet je meenemen uit dit hoofdstuk?
+**Wat moet je meenemen uit dit hoofdstuk?**
 
 
 
 - Een **Bitcoin Address** is afgeleid van een openbare sleutel, die zelf weer is afgeleid van een privésleutel.
 - Fondsen op Bitcoin zijn vergrendeld door **scripts**, en om deze fondsen uit te geven moet men voldoen aan het script, wat over het algemeen inhoudt dat men een handtekening met de bijbehorende privésleutel moet geven.
-- UTXO's** zijn stukken bitcoins die vergrendeld zijn door scripts, en elke transactie op Bitcoin bestaat uit het ontgrendelen van een UTXO en het creëren van een of meer nieuwe in ruil daarvoor.
-- 2/2 adressen met meerdere handtekeningen** vereisen de handtekening van twee privésleutels om het geld uit te geven. Deze specifieke adressen worden gebruikt in de context van Lightning om betalingskanalen te maken.
+- **UTXO's** zijn stukken bitcoins die vergrendeld zijn door scripts, en elke transactie op Bitcoin bestaat uit het ontgrendelen van een UTXO en het creëren van een of meer nieuwe in ruil daarvoor.
+- 2/2 adressen met **meerdere handtekeningen** vereisen de handtekening van twee privésleutels om het geld uit te geven. Deze specifieke adressen worden gebruikt in de context van Lightning om betalingskanalen te maken.
 
 
 In dit hoofdstuk over de Bitcoin hebben we een aantal essentiële begrippen besproken voor wat volgt. In het volgende hoofdstuk zullen we specifiek ontdekken hoe het openen van kanalen op de Lightning Network werkt.
@@ -289,9 +289,9 @@ Het is cruciaal om duidelijk onderscheid te maken tussen de verschillende niveau
 
 
 
-- Peer-to-peer-communicatie (Lightning-protocol)**: Dit zijn de berichten die Lightning-knooppunten naar elkaar sturen om te communiceren. We zullen deze berichten weergeven met stippellijnen in onze diagrammen.
-- Betalingskanalen (Lightning-protocol)**: Dit zijn de paden voor het uitwisselen van geld op Lightning, die we zullen weergeven met ononderbroken zwarte lijnen.
-- Bitcoin transacties (Bitcoin protocol)**: Dit zijn de onchain transacties, die we weergeven met oranje lijnen.
+- **Peer-to-peer-communicatie (Lightning-protocol)**: Dit zijn de berichten die Lightning-knooppunten naar elkaar sturen om te communiceren. We zullen deze berichten weergeven met stippellijnen in onze diagrammen.
+- **Betalingskanalen (Lightning-protocol)**: Dit zijn de paden voor het uitwisselen van geld op Lightning, die we zullen weergeven met ononderbroken zwarte lijnen.
+- **Bitcoin transacties (Bitcoin protocol)**: Dit zijn de onchain transacties, die we weergeven met oranje lijnen.
 
 
 ![LNP201](assets/en/10.webp)
@@ -304,42 +304,42 @@ Het is vermeldenswaard dat een Lightning-knooppunt via het P2P protocol kan comm
 
 
 
-- Bericht Exchange**: Alice wil een kanaal openen met Bob. Ze stuurt hem een bericht met het bedrag dat ze in het kanaal wil storten (130.000 Sats) en haar publieke sleutel. Bob antwoordt door zijn eigen publieke sleutel te delen.
+- **Bericht Exchange**: Alice wil een kanaal openen met Bob. Ze stuurt hem een bericht met het bedrag dat ze in het kanaal wil storten (130.000 Sats) en haar publieke sleutel. Bob antwoordt door zijn eigen publieke sleutel te delen.
 
 
 ![LNP201](assets/en/11.webp)
 
 
 
-- Creatie van de Address** met meerdere handtekeningen: Met deze twee openbare sleutels creëert Alice een **2/2-meervoudige handtekening Address**, wat betekent dat voor het geld dat later op deze Address wordt gestort, beide handtekeningen (Alice en Bob) nodig zijn om uitgegeven te worden.
+- Creatie van de **Address** met meerdere handtekeningen: Met deze twee openbare sleutels creëert Alice een **2/2-meervoudige handtekening Address**, wat betekent dat voor het geld dat later op deze Address wordt gestort, beide handtekeningen (Alice en Bob) nodig zijn om uitgegeven te worden.
 
 
 ![LNP201](assets/en/12.webp)
 
 
 
-- Stortingstransactie**: Alice bereidt een Bitcoin transactie voor om geld te storten op deze Address met meerdere handtekeningen. Ze kan bijvoorbeeld besluiten om **130.000 satoshis** naar deze Address met meerdere handtekeningen te sturen. Deze transactie is **opgebouwd, maar nog niet gepubliceerd** op Blockchain.
+- **Stortingstransactie**: Alice bereidt een Bitcoin transactie voor om geld te storten op deze Address met meerdere handtekeningen. Ze kan bijvoorbeeld besluiten om **130.000 satoshis** naar deze Address met meerdere handtekeningen te sturen. Deze transactie is **opgebouwd, maar nog niet gepubliceerd** op Blockchain.
 
 
 ![LNP201](assets/en/13.webp)
 
 
 
-- Opnametransactie**: Voordat Alice de stortingstransactie publiceert, construeert ze een opnametransactie, zodat ze haar geld kan terugkrijgen in geval van een probleem met Bob. Zodra Alice namelijk de stortingstransactie publiceert, wordt haar Sats geblokkeerd op een 2/2 Address met meerdere handtekeningen, die zowel haar handtekening als die van Bob nodig heeft om te worden gedeblokkeerd. Alice beschermt zich tegen dit verliesrisico door de opnametransactie zo te construeren dat ze haar geld kan terugkrijgen.
+- **Opnametransactie**: Voordat Alice de stortingstransactie publiceert, construeert ze een opnametransactie, zodat ze haar geld kan terugkrijgen in geval van een probleem met Bob. Zodra Alice namelijk de stortingstransactie publiceert, wordt haar Sats geblokkeerd op een 2/2 Address met meerdere handtekeningen, die zowel haar handtekening als die van Bob nodig heeft om te worden gedeblokkeerd. Alice beschermt zich tegen dit verliesrisico door de opnametransactie zo te construeren dat ze haar geld kan terugkrijgen.
 
 
 ![LNP201](assets/en/14.webp)
 
 
 
-- Bob's handtekening**: Alice stuurt de stortingstransactie naar Bob als bewijs en vraagt hem de opnametransactie te ondertekenen. Zodra Bob's handtekening is verkregen op de opnametransactie, is Alice ervan verzekerd dat ze haar geld op elk moment kan terugkrijgen, omdat alleen haar eigen handtekening nog nodig is om de multihashandtekening te ontgrendelen.
+- **Bob's handtekening**: Alice stuurt de stortingstransactie naar Bob als bewijs en vraagt hem de opnametransactie te ondertekenen. Zodra Bob's handtekening is verkregen op de opnametransactie, is Alice ervan verzekerd dat ze haar geld op elk moment kan terugkrijgen, omdat alleen haar eigen handtekening nog nodig is om de multihashandtekening te ontgrendelen.
 
 
 ![LNP201](assets/en/15.webp)
 
 
 
-- Publicatie van de depottransactie**: Zodra de handtekening van Bob is verkregen, kan Alice de depottransactie publiceren op Bitcoin Blockchain, waardoor het Lightning-kanaal tussen de twee gebruikers officieel wordt geopend.
+- **Publicatie van de depottransactie**: Zodra de handtekening van Bob is verkregen, kan Alice de depottransactie publiceren op Bitcoin Blockchain, waardoor het Lightning-kanaal tussen de twee gebruikers officieel wordt geopend.
 
 
 ![LNP201](assets/en/16.webp)
@@ -351,7 +351,7 @@ Het is vermeldenswaard dat een Lightning-knooppunt via het P2P protocol kan comm
 Het kanaal wordt als open beschouwd zodra de stortingstransactie is opgenomen in een Bitcoin blok en het een bepaalde diepte van bevestigingen heeft bereikt (aantal volgende blokken).
 
 
-**Wat moet je onthouden uit dit hoofdstuk?
+**Wat moet je onthouden uit dit hoofdstuk?**
 
 
 
@@ -403,8 +403,8 @@ Laten we een voorbeeld nemen waarbij Alice 30.000 satoshis naar Bob stuurt:
 
 
 
-- Aanvankelijk**: Alice heeft 130.000 satoshis.
-- Na de transactie**: Alice heeft 100.000 satoshis en Bob 30.000 satoshis.
+- **Aanvankelijk**: Alice heeft 130.000 satoshis.
+- **Na de transactie**: Alice heeft 100.000 satoshis en Bob 30.000 satoshis.
 
 Om deze overdracht te valideren, creëren Alice en Bob een nieuwe **niet-gepubliceerde Bitcoin-transactie** die **100.000 satoshi's naar Alice** en **30.000 satoshi's naar Bob** zou sturen vanuit de Address met meerdere handtekeningen. Beide partijen stellen deze transactie onafhankelijk op, maar met dezelfde gegevens (bedragen en adressen). Zodra de transactie is samengesteld, ondertekenen beide partijen deze en wisselen hun handtekening uit met de andere partij. Hierdoor kunnen beide partijen de transactie op elk moment publiceren als dat nodig is om hun aandeel in het kanaal op de hoofd Bitcoin Blockchain terug te krijgen.
 
@@ -430,8 +430,8 @@ Laten we een ander voorbeeld nemen: na de eerste transactie, waarbij Alice 30.00
 
 
 
-- Alice** heeft nu **110.000 satoshis**.
-- Bob** heeft **20.000 satoshis**.
+- **Alice** heeft nu **110.000 satoshis**.
+- **Bob** heeft **20.000 satoshis**.
 
 
 ![LNP201](assets/en/21.webp)
@@ -472,7 +472,7 @@ Laten we een eenvoudig voorbeeld nemen:
 
 
 
-- Begintoestand**: Alice heeft **100.000 satos**, Bob **30.000 satos**.
+- **Begintoestand**: Alice heeft **100.000 satos**, Bob **30.000 satos**.
 - Na een transactie waarbij Alice **40.000 satoshis** naar Bob stuurt, verdeelt de nieuwe Commitment Transaction het geld als volgt:
   - Alice: **60.000 satoshis**
   - Bob: **70.000 satoshis**
@@ -506,8 +506,8 @@ Om dit soort valsspelen door Alice te voorkomen, zijn op de Lightning Network **
 
 
 
-- Het tijdslot**: Elke Commitment Transaction bevat een tijdslot voor Alice's fondsen. Het tijdslot is een Smart contract primitieve die een tijdsvoorwaarde stelt waaraan voldaan moet worden voordat een transactie aan een blok kan worden toegevoegd. Dit betekent dat Alice haar fondsen niet kan terugkrijgen totdat een bepaald aantal blokken voorbij is, als ze één van de Commitment transacties publiceert. Dit tijdslot gaat in vanaf de bevestiging van Commitment Transaction. De duur is meestal evenredig met de grootte van het kanaal, maar kan ook handmatig worden ingesteld.
-- Herroepingssleutel**: Alice's fondsen kunnen ook onmiddellijk uitgegeven worden door Bob als hij de **herroepingssleutel** bezit. Deze sleutel bestaat uit een geheim van Alice en een geheim van Bob. Merk op dat dit geheim voor elke Commitment Transaction anders is.
+- **Het tijdslot**: Elke Commitment Transaction bevat een tijdslot voor Alice's fondsen. Het tijdslot is een Smart contract primitieve die een tijdsvoorwaarde stelt waaraan voldaan moet worden voordat een transactie aan een blok kan worden toegevoegd. Dit betekent dat Alice haar fondsen niet kan terugkrijgen totdat een bepaald aantal blokken voorbij is, als ze één van de Commitment transacties publiceert. Dit tijdslot gaat in vanaf de bevestiging van Commitment Transaction. De duur is meestal evenredig met de grootte van het kanaal, maar kan ook handmatig worden ingesteld.
+- **Herroepingssleutel**: Alice's fondsen kunnen ook onmiddellijk uitgegeven worden door Bob als hij de **herroepingssleutel** bezit. Deze sleutel bestaat uit een geheim van Alice en een geheim van Bob. Merk op dat dit geheim voor elke Commitment Transaction anders is.
 
 Dankzij deze 2 gecombineerde mechanismen heeft Bob de tijd om Alice's poging om vals te spelen te detecteren en haar te straffen door zijn output terug te halen met de revocatiesleutel, wat voor Bob betekent dat alle fondsen van het kanaal worden teruggehaald. Onze nieuwe Commitment Transaction ziet er nu zo uit:
 
@@ -533,7 +533,7 @@ Laten we een voorbeeld nemen om dit proces goed te begrijpen:
 
 
 
-- Oorspronkelijke staat**: Alice heeft **100.000 satos**, Bob **30.000 satos**.
+- **Oorspronkelijke staat**: Alice heeft **100.000 satos**, Bob **30.000 satos**.
 
 
 ![LNP201](assets/en/26.webp)
@@ -560,7 +560,7 @@ Laten we een voorbeeld nemen om dit proces goed te begrijpen:
 Zelfs als Bob er in dit geval geen economisch belang bij heeft om te proberen vals te spelen, als hij dat toch doet, profiteert Alice ook van symmetrische bescherming die haar dezelfde garanties biedt.
 
 
-**Wat moet je meenemen uit dit hoofdstuk?
+**Wat moet je meenemen uit dit hoofdstuk?**
 
 
 De **Commitment transacties** op de Lightning Network bevatten beveiligingsmechanismen die zowel het risico van valsspelen als de stimulans om vals te spelen verminderen. Voor het tekenen van een nieuwe Commitment Transaction, Alice en Bob Exchange hun respectievelijke **geheimen** voor de vorige Commitment transacties. Als Alice een oude Commitment Transaction probeert te publiceren, kan Bob de **herroepingssleutel** gebruiken om alle fondsen terug te krijgen voordat Alice dat kan (omdat ze geblokkeerd is door het tijdslot), wat haar straft voor haar poging om vals te spelen.
@@ -581,7 +581,7 @@ Op dit punt in de training weet je nu hoe Lightning-kanalen worden geopend en ho
 :::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 
-In dit hoofdstuk bespreken we het sluiten van een kanaal** op de Lightning Network, wat gedaan wordt via een Bitcoin transactie, net als het openen van een kanaal. Na gezien te hebben hoe transacties binnen een kanaal werken, is het nu tijd om te zien hoe je een kanaal sluit en de fondsen terugvordert op de Bitcoin Blockchain.
+In dit hoofdstuk bespreken we het sluiten van een **kanaal** op de Lightning Network, wat gedaan wordt via een Bitcoin transactie, net als het openen van een kanaal. Na gezien te hebben hoe transacties binnen een kanaal werken, is het nu tijd om te zien hoe je een kanaal sluit en de fondsen terugvordert op de Bitcoin Blockchain.
 
 
 ### Herinnering aan de levenscyclus van kanalen
@@ -600,9 +600,9 @@ Er zijn drie manieren om dit kanaal te sluiten, die we **de goede, de brute en d
 
 
 
-- Het goede**: de **coöperatieve sluiting**, waarbij Alice en Bob overeenkomen het kanaal te sluiten.
-- De Slechte**: de **gedwongen sluiting**, waarbij een van de partijen besluit om het kanaal eerlijk te sluiten, maar zonder toestemming van de ander.
-- The Ugly**: de **sluiting met bedrog**, waarbij een van de partijen probeert fondsen te stelen door een oude Commitment Transaction te publiceren (elke, maar niet de laatste, die de werkelijke en eerlijke verdeling van fondsen weergeeft).
+- **Het goede**: de **coöperatieve sluiting**, waarbij Alice en Bob overeenkomen het kanaal te sluiten.
+- **De Slechte**: de **gedwongen sluiting**, waarbij een van de partijen besluit om het kanaal eerlijk te sluiten, maar zonder toestemming van de ander.
+- **The Ugly**: de **sluiting met bedrog**, waarbij een van de partijen probeert fondsen te stelen door een oude Commitment Transaction te publiceren (elke, maar niet de laatste, die de werkelijke en eerlijke verdeling van fondsen weergeeft).
 
 
 Laten we een voorbeeld nemen:
@@ -685,16 +685,16 @@ Bob, om dit bedrog te voorkomen, controleert Bitcoin Blockchain en haar Mempool 
 Het is duidelijk dat valsspelen kan slagen als Bob niet handelt binnen de tijd die wordt opgelegd door het tijdslot op Alice's uitvoer. In dat geval wordt de uitvoer van Alice ontgrendeld, zodat ze die kan consumeren om een nieuwe uitvoer te maken naar een Address die ze controleert.
 
 
-**Wat moet je meenemen uit dit hoofdstuk?
+**Wat moet je meenemen uit dit hoofdstuk?**
 
 
 Er zijn drie manieren om een kanaal te sluiten:
 
 
 
-- Coöperatieve afsluiting**: Snel en goedkoper, waarbij beide partijen overeenkomen om het kanaal te sluiten en een op maat gemaakte sluitingstransactie publiceren.
-- Gedwongen sluiting**: Minder wenselijk, omdat dit afhankelijk is van het publiceren van een Commitment Transaction, met mogelijk ongeschikte vergoedingen en een tijdslot, wat de afsluiting vertraagt.
-- Valsspelen**: Als een van de partijen geld probeert te stelen door een oude transactie te publiceren, kan de andere partij de revocatiesleutel gebruiken om dit bedrog te bestraffen.
+- **Coöperatieve afsluiting**: Snel en goedkoper, waarbij beide partijen overeenkomen om het kanaal te sluiten en een op maat gemaakte sluitingstransactie publiceren.
+- **Gedwongen sluiting**: Minder wenselijk, omdat dit afhankelijk is van het publiceren van een Commitment Transaction, met mogelijk ongeschikte vergoedingen en een tijdslot, wat de afsluiting vertraagt.
+- **Valsspelen**: Als een van de partijen geld probeert te stelen door een oude transactie te publiceren, kan de andere partij de revocatiesleutel gebruiken om dit bedrog te bestraffen.
 
 
 In de komende hoofdstukken zullen we de Lightning Network vanuit een breder perspectief bekijken, met de nadruk op hoe het netwerk werkt.
@@ -731,8 +731,8 @@ Stel je dat bijvoorbeeld voor:
 
 
 
-- Alice** (in oranje) heeft een kanaal met **Suzie** (in grijs) met **100.000 satoshis** aan haar kant en **30.000 satoshis** aan Suzie's kant.
-- Suzie** heeft een kanaal met **Bob** waarin zij **250.000 satoshis** bezit en Bob geen satoshis heeft.
+- **Alice** (in oranje) heeft een kanaal met **Suzie** (in grijs) met **100.000 satoshis** aan haar kant en **30.000 satoshis** aan Suzie's kant.
+- **Suzie** heeft een kanaal met **Bob** waarin zij **250.000 satoshis** bezit en Bob geen satoshis heeft.
 
 
 ![LNP201](assets/en/37.webp)
@@ -745,8 +745,8 @@ Stel dat Alice **50.000 satoshis** naar Bob wil sturen:
 
 
 
-- Alice** stuurt 50.000 satoshis naar **Suzie** in hun gemeenschappelijke kanaal.
-- Suzie** repliceert deze overdracht door 50.000 satoshis te sturen naar **Bob** in hun kanaal.
+- **Alice** stuurt 50.000 satoshis naar **Suzie** in hun gemeenschappelijke kanaal.
+- **Suzie** repliceert deze overdracht door 50.000 satoshis te sturen naar **Bob** in hun kanaal.
 
 
 ![LNP201](assets/en/38.webp)
@@ -765,9 +765,9 @@ Laten we een theoretisch voorbeeld nemen van een ander netwerk met:
 
 
 
-- 130.000 satoshis** aan Alice's kant (in oranje) in haar kanaal met **Suzie** (in grijs).
-- 90.000 satoshis** aan **Suzie's** kant en **200.000 satoshis** aan **Carol's** kant (in roze).
-- 150.000 satoshis** aan de kant van **Carol** en **100.000 satoshis** aan de kant van **Bob**.
+- **130.000 satoshis** aan Alice's kant (in oranje) in haar kanaal met **Suzie** (in grijs).
+- **90.000 satoshis** aan **Suzie's** kant en **200.000 satoshis** aan **Carol's** kant (in roze).
+- **150.000 satoshis** aan de kant van **Carol** en **100.000 satoshis** aan de kant van **Bob**.
 
 
 ![LNP201](assets/en/39.webp)
@@ -817,8 +817,8 @@ Bijvoorbeeld, voor een kanaal tussen Alice en Suzie, zouden we kunnen hebben:
 
 
 
-- Alice**: basisvergoeding van 1 sat en 1 ppm voor variabele vergoedingen.
-- Suzie**: basisvergoeding van 0,5 sat en 10 ppm voor variabele vergoedingen.
+- **Alice**: basisvergoeding van 1 sat en 1 ppm voor variabele vergoedingen.
+- **Suzie**: basisvergoeding van 0,5 sat en 10 ppm voor variabele vergoedingen.
 
 
 ![LNP201](assets/en/42.webp)
@@ -830,7 +830,7 @@ Om beter te begrijpen hoe vergoedingen werken, bestuderen we dezelfde Lightning 
 
 - Kanaal **Alice - Suzie**: basistarief van 1 Satoshi en 1 ppm voor Alice.
 - Kanaal **Suzie - Carol**: basisvergoeding van 0 Satoshi en 200 ppm voor Suzie.
-- Carol - Bob** Kanaal: basistarief van 1 Satoshi en 1 ppm voor Suzie 2.
+- Carol - **Bob** Kanaal: basistarief van 1 Satoshi en 1 ppm voor Suzie 2.
 
 ![LNP201](assets/en/43.webp)
 
@@ -839,19 +839,19 @@ Voor dezelfde betaling van **40.000 satos** aan Bob zal Alice iets meer moeten s
 
 
 
-- Carol** trekt 1,04 satoshis af op het kanaal met Bob:
+- **Carol** trekt 1,04 satoshis af op het kanaal met Bob:
 
-$$ f*{Carol-Bob}} = \text{basisvergoeding}} + \left (\frac{ppm} \times \text{bedrag}{10^6}{right) $$
+$$ f_{\text{Carol-Bob}} = \text{basisvergoeding} + \left(\frac{\text{ppm} \times \text{bedrag}}{10^6}\right) $$
 
-$$ f*{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ Sats} $$
+$$ f_{Carol-Bob} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ Sats} $$
 
 
 
-- Suzie** trekt 8 satoshis af aan vergoedingen op het kanaal met Carol:
+- **Suzie** trekt 8 satoshis af aan vergoedingen op het kanaal met Carol:
 
-$$ f*{Suzie-Carol}} = \basisvergoeding} + \left (\frac{ppm} \times \text{bedrag}{10^6}{right) $$
+$$ f_{\text{Suzie-Carol}} = \text{basisvergoeding} + \left (\frac{\text{ppm} \times \text{bedrag}}{10^6}\right) $$
 
-$$ f*{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
+$$ f_{Suzie-Carol} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ Sats} $$
 
 
 De totale kosten voor deze betaling op dit pad zijn daarom **9,04 satoshis**. Alice moet dus **40.009,04 satoshis** sturen om Bob precies **40.000 satoshis** te laten ontvangen.
@@ -873,12 +873,12 @@ Om een betaling van de verzender naar de ontvanger te routeren, gebruikt de Ligh
 
 
 
-- Het verzendende knooppunt berekent de volledige route**: Alice, bijvoorbeeld, bepaalt dat haar betaling via Suzie en Carol moet gaan voordat ze Bob bereikt.
-- Elk tussenliggend knooppunt kent alleen zijn directe buur**: Suzie weet alleen dat ze geld heeft ontvangen van Alice en dat ze dit moet overmaken aan Carol. Suzie weet echter niet of Alice het bronknooppunt is of een tussenliggend knooppunt, en ze weet ook niet of Carol het ontvangende knooppunt is of gewoon een ander tussenliggend knooppunt. Dit principe geldt ook voor Carol en alle andere knooppunten op het pad. Bij onion routing blijft de vertrouwelijkheid van transacties dus behouden door de identiteit van de verzender en de uiteindelijke ontvanger te verhullen.
+- Het verzendende knooppunt berekent de volledige route: Alice, bijvoorbeeld, bepaalt dat haar betaling via Suzie en Carol moet gaan voordat ze Bob bereikt.
+- Elk tussenliggend knooppunt kent alleen zijn directe buren: Suzie weet alleen dat ze geld heeft ontvangen van Alice en dat ze dit moet overmaken aan Carol. Suzie weet echter niet of Alice het bronknooppunt is of een tussenliggend knooppunt, en ze weet ook niet of Carol het ontvangende knooppunt is of gewoon een ander tussenliggend knooppunt. Dit principe geldt ook voor Carol en alle andere knooppunten op het pad. Bij onion routing blijft de vertrouwelijkheid van transacties dus behouden door de identiteit van de verzender en de uiteindelijke ontvanger te verhullen.
 
 Om ervoor te zorgen dat het zendende knooppunt een volledige route naar de ontvanger kan berekenen bij onion routing, moet het een **netwerkgrafiek** bijhouden om de topologie te kennen en mogelijke routes te bepalen.
 
-**Wat moet je meenemen uit dit hoofdstuk?
+**Wat moet je meenemen uit dit hoofdstuk?**
 
 
 
@@ -931,8 +931,8 @@ Een HTLC is een speciale Contract gebaseerd op twee principes:
 
 
 
-- Toegangsvoorwaarde**: De ontvanger moet een geheim onthullen om de betaling die hem toekomt te ontgrendelen.
-- Vervaldatum**: Als de betaling niet volledig is afgerond binnen een bepaalde periode, wordt deze geannuleerd en gaat het geld terug naar de verzender.
+- **Toegangsvoorwaarde**: De ontvanger moet een geheim onthullen om de betaling die hem toekomt te ontgrendelen.
+- **Vervaldatum**: Als de betaling niet volledig is afgerond binnen een bepaalde periode, wordt deze geannuleerd en gaat het geld terug naar de verzender.
 
 
 Dit is hoe dit proces werkt in ons voorbeeld met Alice, Suzie en Bob:
@@ -1056,7 +1056,7 @@ Als het kanaal niet gesloten is, dan worden na het verlopen of slagen van de Lig
 Tenslotte, in het geval van een coöperatieve kanaalsluiting terwijl een HTLC actief is, stoppen Alice en Suzie met het accepteren van nieuwe betalingen en wachten ze op de resolutie of afloop van de lopende HTLCs. Dit stelt hen in staat om een lichtere sluitingstransactie te publiceren, zonder de outputs gerelateerd aan de HTLC's, waardoor de kosten worden verlaagd en het wachten op een mogelijke tijdslot wordt vermeden.
 
 
-**Wat moet je meenemen uit dit hoofdstuk?
+**Wat moet je meenemen uit dit hoofdstuk?**
 
 
 HTLC's maken het mogelijk om Lightning-betalingen door meerdere knooppunten te routeren zonder ze te hoeven vertrouwen. Dit zijn de belangrijkste punten om te onthouden:
@@ -1126,14 +1126,14 @@ Hier is de werkelijke verdeling van fondsen in deze kanalen:
 
 
 
-- Kanaal tussen Alice en 1**: 250.000 Sats aan de kant van Alice, 80.000 aan de kant van 1 (totale capaciteit van 330.000 Sats).
-- Kanaal tussen 1 en 2**: 300.000 Sats aan de kant van 1, 200.000 aan de kant van 2 (totale capaciteit van 500.000 Sats).
-- Kanaal tussen 2 en 3**: 50.000 Sats aan de kant van 2, 60.000 aan de kant van 3 (totale capaciteit van 110.000 Sats).
-- Kanaal tussen 2 en 5**: 90.000 Sats aan kant 2, 160.000 aan kant 5 (totale capaciteit van 250.000 Sats).
-- Kanaal tussen 2 en 4**: 180.000 Sats aan kant 2, 110.000 aan kant 4 (totale capaciteit van 290.000 Sats).
-- Kanaal tussen 4 en 5**: 200.000 Sats aan kant 4, 10.000 aan kant 5 (totale capaciteit van 210.000 Sats).
-- Kanaal tussen 3 en Bob**: 50.000 Sats aan kant 3, 250.000 aan kant Bob (totale capaciteit van 300.000 Sats).
-- Kanaal tussen 5 en Bob**: 260.000 Sats aan kant 5, 100.000 aan kant Bob (totale capaciteit van 360.000 Sats).
+- Kanaal tussen Alice en **1**: 250.000 Sats aan de kant van Alice, 80.000 aan de kant van 1 (totale capaciteit van 330.000 Sats).
+- **Kanaal tussen 1 en 2**: 300.000 Sats aan de kant van 1, 200.000 aan de kant van 2 (totale capaciteit van 500.000 Sats).
+- **Kanaal tussen 2 en 3**: 50.000 Sats aan de kant van 2, 60.000 aan de kant van 3 (totale capaciteit van 110.000 Sats).
+- Kanaal tussen 2 en 5: 90.000 Sats aan kant 2, 160.000 aan kant 5 (totale capaciteit van 250.000 Sats).
+- Kanaal tussen 2 en 4: 180.000 Sats aan kant 2, 110.000 aan kant 4 (totale capaciteit van 290.000 Sats).
+- **Kanaal tussen 4 en 5**: 200.000 Sats aan kant 4, 10.000 aan kant 5 (totale capaciteit van 210.000 Sats).
+- Kanaal tussen 3 en **Bob**: 50.000 Sats aan kant 3, 250.000 aan kant Bob (totale capaciteit van 300.000 Sats).
+- Kanaal tussen 5 en **Bob**: 260.000 Sats aan kant 5, 100.000 aan kant Bob (totale capaciteit van 360.000 Sats).
 
 
 ![LNP201](assets/en/64.webp)
@@ -1149,10 +1149,10 @@ Maar omdat Alice de exacte verdeling van fondsen in elk kanaal niet kent, moet z
 
 
 
-- Waarschijnlijkheid van succes**: het is waarschijnlijker dat een kanaal met een hogere totale capaciteit voldoende liquiditeit bevat. Bijvoorbeeld, het kanaal tussen knooppunt 2 en knooppunt 3 heeft een totale capaciteit van 110.000 Sats, dus het is onwaarschijnlijk om 100.000 Sats of meer te vinden aan de kant van knooppunt 2, hoewel het mogelijk blijft.
-- Transactiekosten**: bij het kiezen van de beste route houdt het verzendende knooppunt ook rekening met de kosten die door elk tussenliggend knooppunt worden aangerekend en probeert het de totale routeringskosten te minimaliseren.
-- Vervaldatum van HTLC's**: om geblokkeerde betalingen te vermijden, is de vervaldatum van HTLC's ook een parameter om rekening mee te houden.
-- Aantal tussenliggende knooppunten**: Tot slot, meer in het algemeen, zal het verzendende knooppunt proberen een route te vinden met zo min mogelijk knooppunten om het risico op mislukking te verkleinen en Lightning-transactiekosten te beperken.
+- **Waarschijnlijkheid van succes**: het is waarschijnlijker dat een kanaal met een hogere totale capaciteit voldoende liquiditeit bevat. Bijvoorbeeld, het kanaal tussen knooppunt 2 en knooppunt 3 heeft een totale capaciteit van 110.000 Sats, dus het is onwaarschijnlijk om 100.000 Sats of meer te vinden aan de kant van knooppunt 2, hoewel het mogelijk blijft.
+- **Transactiekosten**: bij het kiezen van de beste route houdt het verzendende knooppunt ook rekening met de kosten die door elk tussenliggend knooppunt worden aangerekend en probeert het de totale routeringskosten te minimaliseren.
+- **Vervaldatum van HTLC's**: om geblokkeerde betalingen te vermijden, is de vervaldatum van HTLC's ook een parameter om rekening mee te houden.
+- **Aantal tussenliggende knooppunten**: Tot slot, meer in het algemeen, zal het verzendende knooppunt proberen een route te vinden met zo min mogelijk knooppunten om het risico op mislukking te verkleinen en Lightning-transactiekosten te beperken.
 
 
 Door deze criteria te analyseren, kan het verzendende knooppunt de meest waarschijnlijke routes testen en proberen deze te optimaliseren. In ons voorbeeld zou Alice de beste routes als volgt kunnen rangschikken:
@@ -1185,7 +1185,7 @@ Het zoeken naar een route verloopt als volgt: het verzendende knooppunt begint m
 Het is vermeldenswaard dat Bob Alice kan voorzien van informatie in de **Invoice** om de routering te vergemakkelijken. Hij kan bijvoorbeeld kanalen in de buurt met voldoende liquiditeit aangeven of het bestaan van privékanalen onthullen. Deze aanwijzingen stellen Alice in staat om routes met weinig kans op succes te vermijden en eerst de door Bob aanbevolen paden te proberen.
 
 
-**Wat moet je meenemen uit dit hoofdstuk?
+**Wat moet je meenemen uit dit hoofdstuk?**
 
 
 
@@ -1224,8 +1224,8 @@ Zoals uitgelegd in het hoofdstuk over HTLC's, begint elke betaling met het gener
 
 
 
-- Het menselijk leesbare gedeelte**: dit gedeelte bevat duidelijk zichtbare metagegevens om de gebruikerservaring te verbeteren.
-- De payload**: dit gedeelte bevat informatie die bedoeld is voor machines om de betaling te verwerken.
+- **Het menselijk leesbare gedeelte**: dit gedeelte bevat duidelijk zichtbare metagegevens om de gebruikerservaring te verbeteren.
+- **De payload**: dit gedeelte bevat informatie die bedoeld is voor machines om de betaling te verwerken.
 
 
 De typische structuur van een Invoice begint met een identificator `LN` voor "Lightning", gevolgd door `bc` voor Bitcoin, dan de hoeveelheid van de Invoice. Een scheidingsteken `1` onderscheidt het menselijk leesbare deel van het gegevens (payload) deel.
@@ -1272,7 +1272,7 @@ Om het betalingsbedrag aan te duiden, wordt het uitgedrukt in subeenheden van Bi
 
 
 
-- Millibitcoin (aangeduid met `m`):** Vertegenwoordigt een duizendste van een Bitcoin.
+- **Millibitcoin (aangeduid met `m`):** Vertegenwoordigt een duizendste van een Bitcoin.
 
 
 $$
@@ -1281,7 +1281,7 @@ $$
 
 
 
-- Microbitcoin (ook wel `u` genoemd):** Wordt ook wel "bit" genoemd, staat voor een miljoenste van een Bitcoin.
+- **Microbitcoin (ook wel `u` genoemd):** Wordt ook wel "bit" genoemd, staat voor een miljoenste van een Bitcoin.
 
 
 $$
@@ -1290,7 +1290,7 @@ $$
 
 
 
-- Nanobitcoin (aangeduid met `n`):** Vertegenwoordigt een miljardste van een Bitcoin.
+- **Nanobitcoin (aangeduid met `n`):** Vertegenwoordigt een miljardste van een Bitcoin.
 
 
 $$
@@ -1299,7 +1299,7 @@ $$
 
 
 
-- Picobitcoin (aangeduid met `p`):** Vertegenwoordigt een triljoenste van een Bitcoin.
+- **Picobitcoin (aangeduid met `p`):** Vertegenwoordigt een triljoenste van een Bitcoin.
 
 $$
 1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}
@@ -1313,13 +1313,13 @@ De payload van een Invoice bevat verschillende stukjes informatie die nodig zijn
 
 
 
-- De Timestamp:** Het moment waarop de Invoice werd aangemaakt, uitgedrukt in Unix Timestamp (het aantal seconden dat verstreken is sinds 1 januari 1970).
-- Hashing van het geheim**: Zoals we zagen in de sectie over HTLC's, moet het ontvangende knooppunt het verzendende knooppunt voorzien van de Hash van het preimage. Dit wordt gebruikt in HTLC's om de transactie te beveiligen. We hebben hiernaar verwezen als "_r_".
-- Het betalingsgeheim**: Een ander geheim wordt gegenereerd door de ontvanger, maar deze keer wordt het doorgestuurd naar het verzendende knooppunt. Het wordt gebruikt in onion routing om te voorkomen dat tussenliggende knooppunten raden of het volgende knooppunt de uiteindelijke ontvanger is of niet. Dit zorgt dus voor een vorm van vertrouwelijkheid voor de ontvanger ten opzichte van het laatste tussenliggende knooppunt op de route.
-- De openbare sleutel van de ontvanger**: Geeft aan de betaler de identifier van de te betalen persoon.
-- De aflooptijd**: De maximale tijd voor de Invoice om betaald te worden (standaard 1 uur).
-- Routing Hints**: Extra informatie verstrekt door de ontvanger om de verzender te helpen de betalingsroute te optimaliseren.
-- De handtekening**: Garandeert de integriteit van de Invoice door alle informatie te verifiëren.
+- **De Timestamp:** Het moment waarop de Invoice werd aangemaakt, uitgedrukt in Unix Timestamp (het aantal seconden dat verstreken is sinds 1 januari 1970).
+- **Hashing van het geheim**: Zoals we zagen in de sectie over HTLC's, moet het ontvangende knooppunt het verzendende knooppunt voorzien van de Hash van het preimage. Dit wordt gebruikt in HTLC's om de transactie te beveiligen. We hebben hiernaar verwezen als "_r_".
+- **Het betalingsgeheim**: Een ander geheim wordt gegenereerd door de ontvanger, maar deze keer wordt het doorgestuurd naar het verzendende knooppunt. Het wordt gebruikt in onion routing om te voorkomen dat tussenliggende knooppunten raden of het volgende knooppunt de uiteindelijke ontvanger is of niet. Dit zorgt dus voor een vorm van vertrouwelijkheid voor de ontvanger ten opzichte van het laatste tussenliggende knooppunt op de route.
+- **De openbare sleutel van de ontvanger**: Geeft aan de betaler de identifier van de te betalen persoon.
+- **De aflooptijd**: De maximale tijd voor de Invoice om betaald te worden (standaard 1 uur).
+- **Routing Hints**: Extra informatie verstrekt door de ontvanger om de verzender te helpen de betalingsroute te optimaliseren.
+- **De handtekening**: Garandeert de integriteit van de Invoice door alle informatie te verifiëren.
 
 
 De facturen worden dan gecodeerd in **bech32**, hetzelfde formaat als voor Bitcoin SegWit adressen (formaat dat begint met `bc1`).
@@ -1356,7 +1356,7 @@ Eenvoudigheidshalve is het in dit protocol de verzender die het geheim genereert
 ![LNP201](assets/en/70.webp)
 
 
-**Wat moet je meenemen uit dit hoofdstuk?
+**Wat moet je meenemen uit dit hoofdstuk?**
 
 
 
@@ -1387,9 +1387,9 @@ Er zijn drie hoofdgebruikersprofielen op Lightning, elk met specifieke liquidite
 
 
 
-- De Betaler**: Dit is degene die betalingen doet. Ze hebben uitgaande liquiditeit nodig om geld over te kunnen maken naar andere gebruikers. Dit kan bijvoorbeeld een consument zijn.
-- De verkoper (of begunstigde)**: Dit is degene die betalingen ontvangt. Ze hebben inkomende liquiditeit nodig om betalingen naar hun node te kunnen accepteren. Dit kan bijvoorbeeld een bedrijf of een online winkel zijn.
-- De router**: Een tussenliggend knooppunt, vaak gespecialiseerd in het routeren van betalingen, dat zijn liquiditeit in elk kanaal moet optimaliseren om zoveel mogelijk betalingen te routeren en vergoedingen te verdienen.
+- **De Betaler**: Dit is degene die betalingen doet. Ze hebben uitgaande liquiditeit nodig om geld over te kunnen maken naar andere gebruikers. Dit kan bijvoorbeeld een consument zijn.
+- **De verkoper (of begunstigde)**: Dit is degene die betalingen ontvangt. Ze hebben inkomende liquiditeit nodig om betalingen naar hun node te kunnen accepteren. Dit kan bijvoorbeeld een bedrijf of een online winkel zijn.
+- **De router**: Een tussenliggend knooppunt, vaak gespecialiseerd in het routeren van betalingen, dat zijn liquiditeit in elk kanaal moet optimaliseren om zoveel mogelijk betalingen te routeren en vergoedingen te verdienen.
 
 
 Deze profielen liggen natuurlijk niet vast; een gebruiker kan wisselen tussen betaler en begunstigde, afhankelijk van de transacties. Bob zou bijvoorbeeld zijn salaris op Lightning kunnen ontvangen van zijn werkgever, waardoor hij in de positie komt van een "verkoper" die inkomende liquiditeit nodig heeft. Als hij vervolgens zijn salaris wil gebruiken om voedsel te kopen, wordt hij een "betaler" en heeft hij uitgaande liquiditeit nodig.
@@ -1422,22 +1422,22 @@ Aan de andere kant is de taak voor de verkoper complexer. Om betalingen te kunne
 
 
 
-- Kanalen aantrekken**: De merchant heeft een voordeel door het volume aan inkomende betalingen dat op zijn node wordt verwacht. Hiermee rekening houdend kunnen ze proberen routeringsknooppunten aan te trekken die op zoek zijn naar inkomsten uit transactievergoedingen en die mogelijk kanalen naar hen openen in de hoop hun betalingen te routeren en de bijbehorende vergoedingen te innen.
+- **Kanalen aantrekken**: De merchant heeft een voordeel door het volume aan inkomende betalingen dat op zijn node wordt verwacht. Hiermee rekening houdend kunnen ze proberen routeringsknooppunten aan te trekken die op zoek zijn naar inkomsten uit transactievergoedingen en die mogelijk kanalen naar hen openen in de hoop hun betalingen te routeren en de bijbehorende vergoedingen te innen.
 
 
 
-- Liquiditeitsbeweging**: De verkoper kan ook een kanaal openen en een deel van het geld naar de andere kant overmaken door fictieve betalingen te doen aan een ander knooppunt, dat het geld op een andere manier zal teruggeven. We zullen in het volgende deel zien hoe we deze operatie kunnen uitvoeren.
+- **Liquiditeitsbeweging**: De verkoper kan ook een kanaal openen en een deel van het geld naar de andere kant overmaken door fictieve betalingen te doen aan een ander knooppunt, dat het geld op een andere manier zal teruggeven. We zullen in het volgende deel zien hoe we deze operatie kunnen uitvoeren.
 
 
 
-- Driehoeksopening**: Er bestaan platformen voor knooppunten die samen kanalen willen openen, zodat elk kan profiteren van onmiddellijke inkomende en uitgaande liquiditeit. Bijvoorbeeld, [LightningNetwork+](https://lightningnetwork.plus/) biedt deze service. Als Alice, Bob en Suzie een kanaal willen openen met 100.000 Sats, kunnen ze op dit platform afspreken dat Alice een kanaal opent naar Bob, Bob naar Suzie en Suzie naar Alice. Op deze manier heeft ieder 100.000 Sats aan uitgaande liquiditeit en 100.000 Sats aan inkomende liquiditeit, terwijl ze slechts 100.000 Sats hebben opgesloten.
+- **Driehoeksopening**: Er bestaan platformen voor knooppunten die samen kanalen willen openen, zodat elk kan profiteren van onmiddellijke inkomende en uitgaande liquiditeit. Bijvoorbeeld, [LightningNetwork+](https://lightningnetwork.plus/) biedt deze service. Als Alice, Bob en Suzie een kanaal willen openen met 100.000 Sats, kunnen ze op dit platform afspreken dat Alice een kanaal opent naar Bob, Bob naar Suzie en Suzie naar Alice. Op deze manier heeft ieder 100.000 Sats aan uitgaande liquiditeit en 100.000 Sats aan inkomende liquiditeit, terwijl ze slechts 100.000 Sats hebben opgesloten.
 
 
 ![LNP201](assets/en/73.webp)
 
 
 
-- Kanalen kopen**: Er bestaan ook diensten voor het huren van Lightning-kanalen om inkomende liquiditeit te verkrijgen, zoals [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) of [Lightning Labs Pool](https://lightning.engineering/pool/). Alice kan bijvoorbeeld een kanaal van een miljoen satoshis naar haar node kopen om betalingen te ontvangen.
+- **Kanalen kopen**: Er bestaan ook diensten voor het huren van Lightning-kanalen om inkomende liquiditeit te verkrijgen, zoals [Bitrefill Thor](https://www.bitrefill.com/thor-lightning-network-channels/) of [Lightning Labs Pool](https://lightning.engineering/pool/). Alice kan bijvoorbeeld een kanaal van een miljoen satoshis naar haar node kopen om betalingen te ontvangen.
 
 
 ![LNP201](assets/en/74.webp)
@@ -1463,7 +1463,7 @@ De [Loop Out](https://lightning.engineering/loop/) dienst, aangeboden door Light
 Daarom maakt deze service inkomende liquiditeit mogelijk terwijl men zijn bitcoins On-Chain terugvordert, wat helpt om de immobilisatie van contant geld te beperken die nodig is om betalingen met Lightning te accepteren.
 
 
-**Wat moet je meenemen uit dit hoofdstuk?
+**Wat moet je meenemen uit dit hoofdstuk?**
 
 
 
@@ -1504,7 +1504,7 @@ In de eerste hoofdstukken hebben we onderzocht hoe twee partijen, door het opene
 
 
 
-- Kanaal openen**: Het aanmaken van het kanaal gebeurt via een Bitcoin transactie die de fondsen vergrendelt in een 2/2 Address met meerdere handtekeningen. Deze storting vertegenwoordigt het Lightning-kanaal op de Blockchain.
+- **Kanaal openen**: Het aanmaken van het kanaal gebeurt via een Bitcoin transactie die de fondsen vergrendelt in een 2/2 Address met meerdere handtekeningen. Deze storting vertegenwoordigt het Lightning-kanaal op de Blockchain.
 
 
 ![LNP201](assets/en/76.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
@@ -1513,7 +1513,7 @@ In de eerste hoofdstukken hebben we onderzocht hoe twee partijen, door het opene
 
 
 
-- Beveiligen en afsluiten**: Deelnemers committeren zich aan de nieuwe toestand van het kanaal door revocatiesleutels uit te wisselen om de fondsen te beveiligen en valsspelen te voorkomen. Beide partijen kunnen het kanaal gezamenlijk sluiten door een nieuwe transactie op de Bitcoin Blockchain, of als laatste redmiddel door een gedwongen sluiting. Deze laatste optie, hoewel minder efficiënt omdat het langer duurt en soms slecht geëvalueerd is in termen van vergoedingen, maakt het nog steeds mogelijk om fondsen terug te krijgen. In geval van valsspelen kan het slachtoffer de valsspeler straffen door alle fondsen van het kanaal op de Blockchain terug te vorderen.
+- **Beveiligen en afsluiten**: Deelnemers committeren zich aan de nieuwe toestand van het kanaal door revocatiesleutels uit te wisselen om de fondsen te beveiligen en valsspelen te voorkomen. Beide partijen kunnen het kanaal gezamenlijk sluiten door een nieuwe transactie op de Bitcoin Blockchain, of als laatste redmiddel door een gedwongen sluiting. Deze laatste optie, hoewel minder efficiënt omdat het langer duurt en soms slecht geëvalueerd is in termen van vergoedingen, maakt het nog steeds mogelijk om fondsen terug te krijgen. In geval van valsspelen kan het slachtoffer de valsspeler straffen door alle fondsen van het kanaal op de Blockchain terug te vorderen.
 
 
 ![LNP201](assets/en/78.webp)
@@ -1526,21 +1526,21 @@ Na het bestuderen van geïsoleerde kanalen hebben we onze analyse uitgebreid naa
 
 
 
-- Routing**: Als twee partijen niet rechtstreeks met elkaar verbonden zijn via een kanaal, kan het netwerk routeren via tussenliggende knooppunten. Betalingen gaan dan van het ene knooppunt naar het andere.
+- **Routing**: Als twee partijen niet rechtstreeks met elkaar verbonden zijn via een kanaal, kan het netwerk routeren via tussenliggende knooppunten. Betalingen gaan dan van het ene knooppunt naar het andere.
 
 
 ![LNP201](assets/en/79.webp)
 
 
 
-- HTLC's**: Betalingen die via tussenliggende knooppunten lopen, worden beveiligd door "_Hash Time-Locked Contracts_" (HTLC), die ervoor zorgen dat de fondsen worden vergrendeld totdat de betaling end-to-end is voltooid.
+- **HTLC's**: Betalingen die via tussenliggende knooppunten lopen, worden beveiligd door "_Hash Time-Locked Contracts_" (HTLC), die ervoor zorgen dat de fondsen worden vergrendeld totdat de betaling end-to-end is voltooid.
 
 
 ![LNP201](assets/en/80.webp)
 
 
 
-- Uienroutering**: Om de vertrouwelijkheid van de betaling te garanderen, verbergt onion routing de eindbestemming voor tussenliggende knooppunten. Het verzendende knooppunt moet daarom de volledige route berekenen, maar omdat het geen volledige informatie heeft over de liquiditeit van de kanalen, doorloopt het opeenvolgende pogingen om de betaling te routeren.
+- **Uienroutering**: Om de vertrouwelijkheid van de betaling te garanderen, verbergt onion routing de eindbestemming voor tussenliggende knooppunten. Het verzendende knooppunt moet daarom de volledige route berekenen, maar omdat het geen volledige informatie heeft over de liquiditeit van de kanalen, doorloopt het opeenvolgende pogingen om de betaling te routeren.
 
 
 ![LNP201](assets/en/81.webp)
@@ -1553,23 +1553,23 @@ We hebben gezien dat liquiditeitsbeheer een uitdaging is voor Lightning om een s
 
 
 
-- Kanalen aantrekken**: Door andere knooppunten aan te moedigen kanalen naar zichzelf te openen, verkrijgt een gebruiker inkomende liquiditeit.
+- **Kanalen aantrekken**: Door andere knooppunten aan te moedigen kanalen naar zichzelf te openen, verkrijgt een gebruiker inkomende liquiditeit.
 
 
 
-- Liquiditeit verplaatsen**: Door betalingen naar andere kanalen te sturen, verschuift liquiditeit naar de andere kant.
+- **Liquiditeit verplaatsen**: Door betalingen naar andere kanalen te sturen, verschuift liquiditeit naar de andere kant.
 
 
 ![LNP201](assets/en/82.webp)
 
 
 
-- Diensten zoals Loop en Pool** gebruiken: Deze diensten maken herbalancering of het kopen van kanalen met liquiditeit aan de andere kant mogelijk.
+- Diensten zoals **Loop en Pool** gebruiken: Deze diensten maken herbalancering of het kopen van kanalen met liquiditeit aan de andere kant mogelijk.
 
 ![LNP201](assets/en/83.webp)
 
 
-- Gezamenlijke openingen**: Er zijn ook platforms beschikbaar voor het verbinden om driehoeksopeningen uit te voeren en om inkomende liquiditeit te hebben.
+- **Gezamenlijke openingen**: Er zijn ook platforms beschikbaar voor het verbinden om driehoeksopeningen uit te voeren en om inkomende liquiditeit te hebben.
 
 
 ![LNP201](assets/en/84.webp)

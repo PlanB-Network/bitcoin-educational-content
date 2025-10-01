@@ -1,0 +1,9 @@
+question: Ni irihe tandukaniro rikomeye riri hagati ya P2PK na P2PKH?
+answer: P2PK ikoresha urufunguzo rwa bose rudasanzwe, mu gihe P2PKH ikoresha Hash y’urufunguzo rwa bose.
+wrong_answers:
+  - P2PK ni SegWit ihuye, mu gihe P2PKH itahuye.
+  - P2PK ikoresha umukono wa Schnorr, mu gihe P2PKH ikoresha umukono wa ECDSA.
+  - P2PK ni igenewe multisigs, mu gihe P2PKH igenewe inyandiko zoroheje.
+explanation: |
+  P2PK ifunga amafaranga n’urufunguzo rwa bose rudasanzwe, mu gihe P2PKH ikoresha Hash y’urufunguzo rwa bose.
+reviewed: false

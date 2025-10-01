@@ -1,9 +1,11 @@
-question: Quelle est la principale préoccupation concernant le coût environnemental du minage de Bitcoin ?
-answer: La consommation d'énergie.
+question: Comment le Bitcoin peut-il potentiellement aider à la transition écologique ?
+answer: Il favorise l'utilisation d'énergies vertes.
 wrong_answers:
-  - La production des ASICs.
-  - Le recyclage des ASICs.
-  - Le coût de l'électricité.
+  - Il réduit la production de biens.
+  - Il régule la consommation de ressources.
+  - Il limite l'émission uniquement de gaz à effet de serre.
 explanation: >-
-  La principale préoccupation environnementale du minage de Bitcoin est la consommation d'énergie. Bien que les ASICs soient principalement fabriqués en aluminium et puissent être recyclés ou réutilisés, l'énergie nécessaire pour alimenter ces machines est significative.
+  Le Bitcoin favorise l'utilisation d'énergies vertes, ce qui peut potentiellement aider
+  à la transition écologique. Par exemple, les flammes dans les puits de pétrole, qui brûlent
+  le méthane pour diminuer la pollution, peuvent être éteintes par les mineurs de Bitcoin.
 reviewed: true

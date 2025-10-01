@@ -68,7 +68,7 @@ Por favor, consulte [o ficheiro de contribuições no repositório](https://gith
 
 **Notação**
 
-**Termos-chave
+**Termos-chave**
 
 Os termos-chave nas cartilhas são introduzidos a negrito. Por exemplo, a introdução da cifra Rijndael como termo-chave seria a seguinte: **Cifra Rijndael**.
 
@@ -572,7 +572,7 @@ A noção de pseudo-aleatoriedade abordada nesta secção pode ser definida de f
 
 A razão para abandonar a distinção entre "aleatório" e "uniforme" na nossa discussão deve agora ser clara. Na prática, toda a gente usa o termo pseudo-aleatório para indicar uma cadeia que aparece **como se** fosse o resultado da amostragem de uma variável uniforme $S$. Em rigor, devemos chamar a essa cadeia "pseudo-uniforme", adoptando a nossa linguagem de há pouco. Como o termo "pseudo-uniforme" é pouco prático e não é usado por ninguém, não o introduziremos aqui por uma questão de clareza. Em vez disso, deixamos de fazer a distinção entre "aleatório" e "uniforme" no contexto atual.
 
-**Notas
+**Notas**
 
 [2] Se estiver interessado numa exposição mais formal sobre estas questões, pode consultar o livro *Introduction to Modern Cryptography* de Katz e Lindell, especialmente o capítulo 3.
 
@@ -669,7 +669,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(o maior número primo menor que $2^{256}$). A coordenada $x$ é a chave privada e a coordenada $y$ é a sua chave pública.
+(que é o maior número primo menor que $2^{256}$).
 
 As transacções em Bitcoin envolvem tipicamente o bloqueio de saídas para uma ou mais chaves públicas de alguma forma. O valor destas transacções pode, então, ser desbloqueado através de assinaturas digitais com as chaves privadas correspondentes.
 

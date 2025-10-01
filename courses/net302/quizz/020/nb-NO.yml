@@ -1,0 +1,9 @@
+question: Hva er hovedforskjellen mellom TCP og UDP?
+answer: TCP er tilkoblingsorientert, UDP er ikke det
+wrong_answers:
+  - TCP fungerer bare på lokale nettverk, UDP på Internett
+  - TCP bruker alltid kryptering, UDP gjør det aldri
+  - TCP håndterer IP-fragmentering, UDP håndterer komprimering
+explanation: |
+  TCP krever at det opprettes og overvåkes en forbindelse, mens UDP sender pakker uten å opprette eller kontrollere en tidligere økt.
+reviewed: false

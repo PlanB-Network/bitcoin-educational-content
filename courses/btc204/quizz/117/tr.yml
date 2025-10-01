@@ -1,0 +1,10 @@
+question: Klasik bir sekme genellikle kaç ardışık işlem gerçekleştirir?
+answer: 5
+wrong_answers:
+  - 2
+  - 8
+  - 14
+explanation: |
+  Sekme yöntemi tipik olarak kendi kendine 4 işlem yapmayı ve fonları nihai alıcıya göndermek için son bir işlem yapmayı içerir.
+  
+reviewed: false

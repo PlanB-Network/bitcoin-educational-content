@@ -1,0 +1,9 @@
+question: 哪种软件兼具 Full node 和 Wallet 功能？
+answer: Bitcoin core
+wrong_answers:
+  - Sparrow wallet
+  - 灰原
+  - Satoshi 的 Wallet
+explanation: |
+  Bitcoin core 可同时充当 Full node 和 Wallet，这与其他软件包不同，后者只是 Wallet 管理软件。
+reviewed: true

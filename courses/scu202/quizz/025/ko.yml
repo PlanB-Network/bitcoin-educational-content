@@ -1,0 +1,9 @@
+question: 애플리케이션과 애플리케이션의 종속성을 분리하기 위해 Canonical은 어떤 패키지 형식을 개발했나요?
+answer: Snap
+wrong_answers:
+  - 앱 이미지
+  - 포티지
+  - RPM
+explanation: |
+  Canonical에서 개발한 Snap 포맷을 사용하면 시스템과 분리되어 독립적으로 업데이트되는 독립형 소프트웨어를 설치할 수 있습니다.
+reviewed: false

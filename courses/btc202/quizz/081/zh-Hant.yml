@@ -1,0 +1,9 @@
+question: 哪個 Bitcoin.conf 參數限制 Mempool 的大小（以 MB 為單位）？
+answer: maxmempool
+wrong_answers:
+  - 總儲存空間
+  - mempoolexpiry
+  - mempoolsize
+explanation: |
+  maxmempool 設定 Mempool 的最大大小 (預設為 300 MB)。當它滿了時，盈利較少的交易會被驅逐。
+reviewed: true

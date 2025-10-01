@@ -1,0 +1,11 @@
+question: Ni itariki iyihe ubutumwa bwihariye bwa nyuma buzwi bwa Satoshi Nakamoto biciye kuri email?
+answer: Ndamukiza 2011.
+wrong_answers:
+  - Ukuboza 2010.
+  - Mukakaro 2009.
+  - Ukwakira 2008.
+explanation: |
+  Itariki y’ubutumwa bw’ibanga bwa nyuma buzwi bwa Satoshi.
+  Nakamoto biciye kuri email ni 23 Ndamukiza 2011. Yarungitswe ku
+  umuhinguzi Mike Hearn.
+reviewed: true

@@ -329,7 +329,7 @@ Palju õnne, oled nüüd kursis Keet-sõnumite kasutamisega, mis on suurepärane
 
 
 
-Soovitan ka seda teist õpetust, kus ma tutvustan teile Proton Maili, mis on palju privaatsussõbralikum alternatiiv Gmailile :
+Soovitan ka seda teist õpetust, kus ma tutvustan teile Proton Maili, mis on palju privaatsussõbralikum alternatiiv Gmailile:
 
 
 

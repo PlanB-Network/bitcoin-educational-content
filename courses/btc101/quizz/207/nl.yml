@@ -1,8 +1,12 @@
-question: Wat is een van de mogelijke risico's van het achterlaten van je Bitcoin op een Exchange platform?
-answer: De risico's van hacken en het blokkeren van fondsen.
+question: Wat voorspelde Milton Friedman in 1999?
+answer: De ontwikkeling van een betrouwbare e-cash.
 wrong_answers:
-  - Het risico dat het platform de prijs van Bitcoin verhoogt.
-  - Het risico dat het platform de Supply van Bitcoin controleert.
-  - Het risico dat Bitcoin in prijs wordt overtroffen door een cryptocurrency.
-explanation: >-
+  - De ondergang van fysiek geld.
+  - De opkomst van Bitcoin.
+  - Het einde van overheidscontrole over geld.
+explanation: |
+  Milton Friedman, een bekende econoom, voorspelde in 1999
+  dat er snel een betrouwbare e-cash zou worden ontwikkeld, een methode
+  waarbij je via internet geld kunt overmaken van A naar B,
+  zonder dat A B kent of andersom.
 reviewed: true

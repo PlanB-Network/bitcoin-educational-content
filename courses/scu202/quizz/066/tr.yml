@@ -1,0 +1,9 @@
+question: Hangi yerel veriler reklamverenlerin birden fazla sitede gezinme alışkanlıklarınızı takip etmesini sağlar?
+answer: Üçüncü taraf çerezleri
+wrong_answers:
+  - JavaScript kodu
+  - Yerel tarih
+  - SSL sertifikası
+explanation: |
+  Harici reklam ajansları tarafından yerleştirilen üçüncü taraf çerezleri, farklı sitelerdeki kullanıcı etkinliğini izlemek ve bir reklam profili oluşturmak için kullanılır.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Ni mu mwaka uwuhe bivugwa ko uguhingura ama bitcoins bizohagarara?
+answer: 2140
+wrong_answers:
+  - 2050
+  - 2030
+  - 2200
+explanation: |
+  Kubera uburyo bwa Halving, bishobora kuba mu mibare
+  yaravuze ko uguhingura ama bitcoins bizohagarara muri 2140, 2014.
+  iyo umubare wose w’ama bitcoins ushitse ku rugero rwawo rwa 21 .
+  miliyoni.
+reviewed: true

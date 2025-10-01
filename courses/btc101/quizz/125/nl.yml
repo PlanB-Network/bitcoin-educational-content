@@ -1,11 +1,12 @@
-question: Wat is de datum van het laatst bekende privébericht van Satoshi Nakamoto via e-mail?
-answer: 23 april 2011.
+question: Wat is het belang van de geografische spreiding van Bitcoin knooppunten?
+answer: Het maakt het praktisch onmogelijk om alle kopieën van de Blockchain te vernietigen.
 wrong_answers:
-  - 12 december 2010.
-  - 8 januari 2009.
-  - 31 oktober 2008.
+  - Het bepaalt de prijs van Bitcoin in verschillende regio's.
+  - Het beïnvloedt de snelheid van Bitcoin transacties.
+  - Het bepaalt het aantal bitcoins dat in een regio kan worden gemined.
 explanation: |
-  De datum van het laatst bekende privébericht van Satoshi
-  Nakamoto via e-mail is 23 april 2011. Het werd verstuurd naar de
-  ontwikkelaar Mike Hearn.
+  De geografische spreiding van Bitcoin knooppunten maakt het
+  praktisch onmogelijk om alle kopieën van de
+  Blockchain TE VERNIETIGEN. Omdat de knooppunten verspreid zijn, is het moeilijk om ze
+  ze allemaal fysiek in beslag te nemen.
 reviewed: true

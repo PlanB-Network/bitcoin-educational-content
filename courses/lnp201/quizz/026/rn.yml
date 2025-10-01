@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwo gufunga imihora bufise ubutunzi kandi bwihuta?
+answer: Gufunga amakoperative
+wrong_answers:
+  - Gufunga ku nguvu
+  - Gufunga n'ubuhendanyi
+  - Nta n'imwe igura ubutunzi kandi yihuta
+explanation: |
+  Gufunga amakoperative ni bwo buryo bwihuta kandi buzimvye kuko bompi bemeranya gufunga umuyoboro, bagahindura amafaranga bivanye n’ingene isoko rimeze.
+reviewed: false

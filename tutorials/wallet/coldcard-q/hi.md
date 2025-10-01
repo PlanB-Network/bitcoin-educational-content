@@ -1,5 +1,5 @@
 ---
-name: कोल्डकार्ड क्यू
+name: COLDCARD Q
 description: COLDCARD Q की स्थापना और उपयोग
 ---
 ![cover](assets/cover.webp)

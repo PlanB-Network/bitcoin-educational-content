@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F i FIDO2
+name: "Trezor U2F & FIDO2"
 description: Wzmocnij swoje bezpieczeństwo online dzięki Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Oprócz U2F, który umożliwia uwierzytelnianie dwuskładnikowe, Trezory obsług
 
 
 
-Oprócz funkcji "bez hasła*", FIDO2 umożliwia również uwierzytelnianie dwuskładnikowe w podobny sposób jak U2F.
+Oprócz funkcji "bez hasła", FIDO2 umożliwia również uwierzytelnianie dwuskładnikowe w podobny sposób jak U2F.
 
 
 
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Wystarczy zastąpić `<CREDENTIAL_ID>` jednym z identyfikatorów. Na przykład w moim przypadku dałoby to :
+Wystarczy zastąpić `<CREDENTIAL_ID>` jednym z identyfikatorów. Na przykład w moim przypadku dałoby to:
 
 
 

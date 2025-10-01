@@ -1,12 +1,9 @@
-question: ¿Por qué el Bitcoin no es ampliamente aceptado en el comercio hoy en día?
-answer: Porque no es ampliamente adoptado por los individuos.
+question: ¿Cuál es la principal ventaja del oro como moneda?
+answer: Es increíblemente duradero.
 wrong_answers:
-  - Porque no es transportable.
-  - Porque no se puede dividir en unidades pequeñas.
-  - Porque no es líquido.
+  - Es fácilmente divisible o transportable a largas distancias.
+  - Es fácilmente verificable.
+  - No está regulado por el gobierno.
 explanation: |
-  A pesar de sus propiedades, como su oferta estrictamente limitada,
-  el Bitcoin todavía no es ampliamente aceptado en el comercio
-  hoy en día, debido a la falta de adopción por parte de los individuos, por lo
-  tanto, los comerciantes no se sienten motivados a aceptarlo.
+  Aunque no es fácilmente divisible o transportable a largas distancias, el oro es un material muy duradero, lo que lo convierte en un buen almacén de valor. Las monedas de oro se utilizaron como moneda en el pasado, pero no servirían para el mismo propósito en la era digital de hoy.
 reviewed: true

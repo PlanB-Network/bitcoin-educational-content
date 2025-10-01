@@ -1,0 +1,9 @@
+question: Ni amri gani inayoweza kutumika kuongeza IP tuli Address kwa Interface kwenye Linux?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] juu [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  Amri ya "ip addr add" ndiyo njia ya kisasa ya kugawa IP tuli Address kwa mtandao wa Interface kwenye Linux.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck von IPv5 (Stream Protocol, ST)?
+answer: Sicherstellung der Dienstqualität für bestimmte Ströme
+wrong_answers:
+  - Erweiterung der IP-Adressierungskapazität
+  - Gewährleistung der Abwärtskompatibilität mit IPv6
+  - Verringerung der Größe von TCP/IP-Netzwerkpaketen
+explanation: |
+  IPv5 (ST) wurde entwickelt, um die Dienstqualität (QoS) für Multimediaströme wie VoIP zu gewährleisten, indem Bandbreite und Priorität garantiert werden.
+reviewed: false

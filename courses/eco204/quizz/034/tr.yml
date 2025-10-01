@@ -1,0 +1,12 @@
+question: Zombi şirket nedir?
+answer: Normal piyasa koşullarında iflas etmiş veya iflasın eşiğinde olan, ancak düşük maliyetli borçlanma yoluyla faaliyetlerini sürdüren şirket.
+wrong_answers:
+  - Yüz yılı aşkın süredir faaliyet gösteren bir şirket.
+  - Teknoloji sektöründe faaliyet gösteren bir şirket.
+  - Hükümet tarafından kurtarılmış bir şirket.
+explanation: |
+  Bir zombi şirket, normal piyasa koşulları altında
+  iflas etmiş veya iflasın eşiğine gelmiş olsa da, faaliyetlerini ağırlıklı olarak düşük maliyetli
+  borçlanma. Bu şirketler sadece borçlarını karşılayacak kadar para kazanıyor ancak
+  önemli ölçüde büyüyecek.
+reviewed: false

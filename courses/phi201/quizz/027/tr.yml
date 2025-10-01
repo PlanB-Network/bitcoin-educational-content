@@ -1,0 +1,9 @@
+question: Phusis ve nomos arasındaki fark nedir?
+answer: Phusis doğa yasası, nomos ise insan yasasıdır.
+wrong_answers:
+  - Phusis tanrıların yasası, nomos ise insanların yasasıdır.
+  - Phusis zayıfların, nomos ise güçlülerin yasasıdır.
+  - Phusis antik çağın, nomos ise modern zamanların yasasıdır.
+explanation: |
+  Yunan felsefesinde phusis, insan eylemlerinden bağımsız olan doğal yasalara ya da doğanın özünde var olan yasalara atıfta bulunurken, nomos, toplumlar tarafından topluluk içindeki yaşamı düzenlemek için oluşturulan insan yasalarına atıfta bulunur.
+reviewed: true

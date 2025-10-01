@@ -1,0 +1,9 @@
+question: Hvilken protokoll tildeler dynamisk levetid til automatisk distribuerte IPv6-adresser?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 administrerer eksplisitt levetider gjennom leieavtaler, mens NDP kunngjør dem i ruterkonfigurasjonsmeldingene.
+reviewed: false

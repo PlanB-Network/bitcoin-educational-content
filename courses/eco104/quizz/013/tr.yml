@@ -1,0 +1,13 @@
+question: Bitcoin savaştan zarar görmüş veya istikrarsız ülkelerdeki bireylere nasıl fayda sağlıyor?
+answer: Değerin, hırsızlığa karşı daha dirençli, merkezi olmayan ve güvenli bir şekilde depolanmasını sağlar
+wrong_answers:
+  - Geleneksel bankacılık hizmetlerine erişim sağlar
+  - Değeri artabilecek fiziksel bir varlık sağlar
+  - Deflasyona karşı koruma sağlar
+explanation: |
+  Savaştan zarar görmüş veya istikrarsız ülkelerde bireyler
+  geleneksel bankacılık hizmetlerine erişim veya hırsızlık riskiyle karşılaşma veya
+  fiziksel varlıklara el konulması. Bitcoin bireylerin değer depolamasına olanak tanır
+  aracılara ihtiyaç duymadan merkezi olmayan ve güvenli bir şekilde
+  veya enflasyon, hırsızlık veya el koyma gibi risklere karşı savunmasız fiziksel varlıklar.
+reviewed: true

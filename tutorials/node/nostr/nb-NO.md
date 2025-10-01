@@ -4,9 +4,10 @@ name: NOSTR
 description: Oppdag og begynn å bruke NOSTR
 ---
 
-Ved slutten av denne veiledningen vil du forstå hva Nostr er, du vil ha opprettet en konto, og du vil være i stand til å bruke den.
 
 ![En ny utfordrer har ankommet](assets/1.webp)
+
+*På slutten av denne guiden vil du forstå hva Nostr er, du vil ha opprettet en konto, og du vil kunne bruke den.*
 
 ## Hva er Nostr?
 
@@ -34,9 +35,9 @@ Den offentlige nøkkelen, npub, er en unik identifikator som alt innhold publise
 
 Klienter er programvare som tillater interaksjon med Nostr. De viktigste klientene er:
 
-> iOS: damus
-> Android: amethyst
-> Web: iris.to; snort.social; astral.ninja
+- iOS: damus
+- Android: amethyst
+- Web: iris.to; snort.social; astral.ninja
 
 Klienter lar brukere generere et nytt nøkkelpar (tilsvarende å opprette en konto) eller autentisere med et eksisterende nøkkelpar.
 
@@ -46,7 +47,7 @@ Reléer er enkle servere som du kan forlate når som helst hvis du ikke liker in
 
 > 💡 Pro-tips: Betalte reléer er generelt mer effektive til å filtrere ut spam og uønsket innhold.
 
-# Veiledning
+## Veiledning
 
 Nå vet du nok om Nostr for å komme i gang og opprette din første identitet på denne protokollen.
 

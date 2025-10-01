@@ -1,5 +1,5 @@
 ---
-name: Blå Wallet
+name: Blue Wallet
 
 description: Bitcoin Radikalt enkel och kraftfull portfölj
 ---
@@ -11,7 +11,7 @@ Att komma igång med Bitcoin verkar vara en stor utmaning för människor som ä
 
 
 
-I den här handledningen tittar vi på Blue Wallet, en enkel men mycket effektiv Bitcoin Wallet som låter dig hantera dina bitcoins personligen och även skapa förvaltningskooperativ baserat på [Multisig] (https://planb.network/resources/glossary/Multisig) (oroa dig inte, vi kommer tillbaka till det).
+I den här handledningen tittar vi på Blue Wallet, en enkel men mycket effektiv Bitcoin Wallet som låter dig hantera dina bitcoins personligen och även skapa förvaltningskooperativ baserat på [Multisig] (https://planb.network/resources/glossary/multisig) (oroa dig inte, vi kommer tillbaka till det).
 
 
 
@@ -152,7 +152,7 @@ Du kan ta bort en eller alla mottagare genom att klicka på **Remove Recipient**
 
 
 
-- Uppblåsta avgifter**: Har du gjort en transaktion som det tar lång tid att få bekräftad? Genom att aktivera avgiftsinflation kan du lägga till ytterligare transaktionsavgifter till din väntande transaktion för att påskynda dess bekräftelse.
+- **Uppblåsta avgifter**: Har du gjort en transaktion som det tar lång tid att få bekräftad? Genom att aktivera avgiftsinflation kan du lägga till ytterligare transaktionsavgifter till din väntande transaktion för att påskynda dess bekräftelse.
 
 
 
@@ -248,7 +248,7 @@ Att ta emot bitcoins i en multi-signatur Wallet är samma process som när du ä
 
 
 
-- Skicka bitcoins** :
+- Skicka **bitcoins**:
 
 
 
@@ -264,7 +264,7 @@ När du validerar din transaktion behöver du en andra signatur för att godkän
 
 
 
-Den andra Wallet-signatören, om han eller hon också är en användare, kan signera transaktionen även om han eller hon inte är uppkopplad mot internet (inget Wi-Fi, ingen mobildata) genom att skanna QR-koden för den [delvis signerade transaktionen] (https://planb.network/resources/glossary/PSBT) som du just har skapat.
+Den andra Wallet-signatören, om han eller hon också är en användare, kan signera transaktionen även om han eller hon inte är uppkopplad mot internet (inget Wi-Fi, ingen mobildata) genom att skanna QR-koden för den [delvis signerade transaktionen] (https://planb.network/resources/glossary/psbt) som du just har skapat.
 
 
 
@@ -274,7 +274,7 @@ Den andra Wallet-signatören, om han eller hon också är en användare, kan sig
 
 
 
-- Gå längre med portföljen Multi signature**:
+- Gå längre med portföljen **Multi signature**:
 
 
 

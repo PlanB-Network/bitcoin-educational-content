@@ -1,0 +1,9 @@
+question: Bir Mnemonic cümlesinin sağlama toplamını hesaplamak için kullanılan Hash işlevi nedir?
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Bir Mnemonic ifadesinin sağlama toplamı, entropi üzerine basit bir SHA256 Hash uygulanarak hesaplanır.
+reviewed: false

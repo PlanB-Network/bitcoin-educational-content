@@ -1,0 +1,9 @@
+question: Zaman kilidi ve iptal anahtarının Commitment işlemleri üzerindeki birleşik etkisi nedir?
+answer: Anında bir ceza sunarak katılımcıları hile yapmaktan caydırırlar
+wrong_answers:
+  - Hile yapılması durumunda kanalın kapasitesini azaltırlar
+  - Suçlu tarafın fonlarını otomatik olarak kilitlerler
+  - İşlem yanlışsa yeni bir kanal açılmasını zorlarlar
+explanation: |
+  Zaman kilidi ve iptal anahtarı, herhangi bir hile girişiminin suçlu taraf için anında fon kaybıyla sonuçlanmasını sağlayarak katılımcıları hile yapmaktan caydırır.
+reviewed: false

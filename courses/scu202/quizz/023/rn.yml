@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe c'ibishushanyo gikoreshwa na GNOME na Xfce?
+answer: GTK
+wrong_answers:
+  - Qt
+  - Kinter
+  - Ishusho
+explanation: |
+  GNOME, Xfce, Cinnamon na MATE zishingiye kuri GTK, ububiko bw’ibitabo vy’ibishushanyo vy’abakoresha bishingiye kuri Linux.
+reviewed: false

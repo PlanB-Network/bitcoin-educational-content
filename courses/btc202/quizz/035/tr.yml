@@ -1,0 +1,9 @@
+question: Elektrik kesintisi durumunda bir düğümü korumak için hangi bileşen önerilir?
+answer: Bir invertör
+wrong_answers:
+  - İkinci bir grafik kartı
+  - Ek bir yönlendirici
+  - Bir USB hub
+explanation: |
+  Bir invertör, elektrik kesintisi durumunda ani kapanmaları önler ve düğümün kararlılığını korur.
+reviewed: true

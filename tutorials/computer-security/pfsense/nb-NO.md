@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det er gjort store endringer i forfatterens opprinnelige tekst for å oppdatere veiledningen
+*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det er gjort store endringer i forfatterens opprinnelige tekst for å oppdatere veiledningen.*
 
 
 
@@ -30,7 +30,7 @@ pfSense er et gratis operativsystem med åpen kildekode som forvandler en hvilke
 
 
 
-Hovedfunksjonene har utviklet seg betydelig gjennom årene, og har blitt forbedret med hver nye versjon. Til dags dato tilbyr pfSense :
+Hovedfunksjonene har utviklet seg betydelig gjennom årene, og har blitt forbedret med hver nye versjon. Til dags dato tilbyr pfSense:
 
 
 
@@ -63,7 +63,7 @@ Til slutt er det verdt å huske at pfSense krever minst to fysiske nettverksgren
 
 
 
-Den siste stabile versjonen av pfSense, i skrivende stund, er 2.8 (utgitt i juni 2025). Du kan laste ned ISO-bildet eller installasjonsfilen som er tilpasset ditt maskinvaremiljø direkte fra det offisielle nettstedet :
+Den siste stabile versjonen av pfSense, i skrivende stund, er 2.8 (utgitt i juni 2025). Du kan laste ned ISO-bildet eller installasjonsfilen som er tilpasset ditt maskinvaremiljø direkte fra det offisielle nettstedet:
 
 
 
@@ -73,7 +73,7 @@ Den siste stabile versjonen av pfSense, i skrivende stund, er 2.8 (utgitt i juni
 
 
 
-Nedlastingsportalen lar deg velge :
+Nedlastingsportalen lar deg velge:
 
 
 
@@ -105,15 +105,15 @@ I dette eksemplet utføres installasjonen på en virtuell maskin som kjører Vir
 
 
 
-For en standard distribusjon anbefaler vi :
+For en standard distribusjon anbefaler vi:
 
 
 
 
 
-- minst 1 GB RAM** (2 GB eller mer anbefales for å aktivere tilleggspakker eller støtte for ZFS).
-- 8 GB diskplass** (20 GB eller mer er å foretrekke for mer avanserte konfigurasjoner, spesielt hvis du installerer en proxy-cache, IDS/IPS eller detaljerte logger).
-- Minst to virtuelle nettverksgrensesnitt** (ett for WAN og ett for LAN). I VirtualBox legger du dem til i VM-innstillingene før oppstart.
+- minst 1 GB RAM (2 GB eller mer anbefales for å aktivere tilleggspakker eller støtte for ZFS).
+- 8 GB diskplass (20 GB eller mer er å foretrekke for mer avanserte konfigurasjoner, spesielt hvis du installerer en proxy-cache, IDS/IPS eller detaljerte logger).
+- Minst to virtuelle nettverksgrensesnitt (ett for WAN og ett for LAN). I VirtualBox legger du dem til i VM-innstillingene før oppstart.
 
 
 
@@ -221,7 +221,7 @@ Det første spørsmålet gjelder konfigurasjon av VLAN. På dette stadiet, for e
 
 
 
-pfSense ber deg deretter om å definere hvilken Interface som skal brukes til WAN (Internett-tilgang). Du kan velge mellom :
+pfSense ber deg deretter om å definere hvilken Interface som skal brukes til WAN (Internett-tilgang). Du kan velge mellom:
 
 
 
@@ -304,13 +304,13 @@ Gå til Address i nettleseren din, som er angitt av konsollen (som standard `htt
 
 
 
-Innloggingsskjermen vises. Standard påloggingsinformasjon er :
+Innloggingsskjermen vises. Standard påloggingsinformasjon er:
 
 
 
 
-- Brukernavn:** `admin`
-- Passord:** `pfsense`
+- **Brukernavn:** `admin`
+- **Passord:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Ved første tilkobling ber pfSense deg om å følge **Setup Wizard**. Vi anbefal
 
 
 
-Du kan :
+Du kan:
 
 
 
@@ -352,7 +352,7 @@ Angi nettstedets tidssone slik at logger og tidsplaner er konsistente (f.eks. `E
 
 
 
-Konfigurere WAN-tilkoblingen :
+Konfigurere WAN-tilkoblingen:
 
 
 
@@ -383,7 +383,7 @@ Sikre pfSense ved å angi et sterkt passord for `admin`-brukeren med en gang.
 
 
 
-Før du tar i bruk brannmuren, må du sørge for at du har den nyeste versjonen av :
+Før du tar i bruk brannmuren, må du sørge for at du har den nyeste versjonen av:
 
 
 
@@ -423,16 +423,16 @@ For virksomhetskritiske miljøer bør du vurdere automatisk sikkerhetskopiering 
 
 
 
-For å avslutte utplasseringen med ro i sjelen :
+For å avslutte utplasseringen med ro i sjelen:
 
 
 
 
 
-- Endre brannmurregler**: pfSense tillater som standard all utgående trafikk på LAN og blokkerer innkommende trafikk på WAN. Juster disse reglene etter behov.
-- Konfigurer sikker ekstern tilgang**: Hvis det er nødvendig, aktiverer du tilgang til Interface web fra WAN kun via VPN eller med IP-begrensninger.
-- Aktiver varslinger**: Konfigurer en SMTP-server til å motta varsler (feil, oppdateringer, feil).
-- Installer nyttige utvidelser**: for eksempel IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtrering (pfBlockerNG).
+- **Endre brannmurregler**: pfSense tillater som standard all utgående trafikk på LAN og blokkerer innkommende trafikk på WAN. Juster disse reglene etter behov.
+- **Konfigurer sikker ekstern tilgang**: Hvis det er nødvendig, aktiverer du tilgang til Interface web fra WAN kun via VPN eller med IP-begrensninger.
+- **Aktiver varslinger**: Konfigurer en SMTP-server til å motta varsler (feil, oppdateringer, feil).
+- Installer nyttige utvidelser: for eksempel IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtrering (pfBlockerNG).
 
 
 

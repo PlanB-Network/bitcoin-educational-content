@@ -1,0 +1,9 @@
+question: René Descartes Özgür İradeye inanıyor muydu?
+answer: Asla.
+wrong_answers:
+  - Sadece yetişkinler için.
+  - Sadece felsefe çalışmış olsaydık.
+  - Belirli koşullar altında.
+explanation: |
+  René Descartes özgür iradeye asla inanmamıştır. Her ne kadar bir tür irade özgürlüğünü korumaya çalışsa da, tüm eylemlerimizin önceki nedenler tarafından belirlendiğini savunmuştur.
+reviewed: false

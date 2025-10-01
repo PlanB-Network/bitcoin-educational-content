@@ -36,25 +36,53 @@ CYP201 透過清晰的教學法、超過 60 個解釋圖和具體範例，讓您
 
 我們將從加密的 Hash 函數開始，這些函數對於錢包和 Bitcoin 協定本身都很重要。您將發現它們的主要特性、Bitcoin 中使用的特定函數，並在更技術性的一章中，詳細瞭解 Hash 函數女王的運作：SHA256.
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/001.webp)
 
 接下來，我們將討論數位簽章演算法的操作，您每天都會使用這些演算法來保護您的 UTXO。Bitcoin 使用兩種：ECDSA 和 Schnorr 協定。您將學習到這些演算法的數學基元，以及它們如何確保交易的安全性。
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 當我們對這些加密學的 Elements 有了很好的了解之後，最後我們將進入訓練的核心：確定性和分層式錢包！首先，有一節專門介紹 Mnemonic 詞組，這些由 12 或 24 個單詞組成的序列可以讓您創建和還原您的錢包。您將發現這些詞彙是如何從熵源中產生的，以及它們如何促進 Bitcoin 的使用。
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/003.webp)
 
 訓練會繼續研究 BIP39 passphrase、seed（不要與 Mnemonic 語句混淆）、主鏈代碼和主鑰匙。我們將詳細瞭解這些 Elements 的內容、各自的作用以及計算方式。
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/004.webp)
 
 最後，從主密鑰，我們將發現如何以確定且分層的方式衍生出密碼鑰匙對，直到接收位址。
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 本訓練可讓您自信地使用 Wallet 軟體，同時增強您識別和降低風險的技能。準備成為 Bitcoin 錢包的真正專家！
+
+此表為您提供主要英語術語的翻譯，以便幫助您理解在 CYP 201 課程中使用的圖表和技術文件。
+
+| 英文            | 翻譯 / 解釋                                                                                         |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | 公鑰雜湊（用於生成比特幣地址）。                                                                    |
+| *public key*    | 公鑰（用於接收資金，從私鑰派生）。                                                                 |
+| *signature*     | 數位簽名（密碼學證明訊息來自私鑰持有者）。                                                          |
+| *scriptPubKey*  | 鎖定腳本（定義花費輸出的條件）。                                                                    |
+| *scriptSig*     | 解鎖腳本（提供滿足 *scriptPubKey* 的資料）。                                                        |
+| *Stack*         | 堆疊（*Bitcoin Script* 使用的資料結構）。                                                           |
+| *input*         | 交易輸入（引用作為來源的先前輸出）。                                                                |
+| *output*        | 交易輸出（定義接收者和金額）。                                                                     |
+| *transaction*   | 比特幣交易（一組輸入與輸出，用於驗證轉帳）。                                                       |
+| *XOR*           | 邏輯運算子「互斥或」，在某些密碼學方案中使用。                                                       |
+| *HMAC*          | 基於雜湊與密鑰的訊息驗證碼。                                                                       |
+| *ECDSA*         | 橢圓曲線數位簽名演算法。                                                                           |
+| *hash*          | 雜湊（資料的唯一且固定的指紋）。                                                                   |
+| *SigHash*       | 簽名雜湊類型（定義交易的哪些部分被簽名）。                                                         |
+| *HD Wallet*     | 分層確定性錢包（從單一種子生成多個金鑰）。                                                         |
+| *Random Number* | 隨機數（用於生成安全的私鑰）。                                                                     |
+| *State*         | 狀態（密碼學過程中的中間值）。                                                                     |
+| *Entropy*       | 熵（隨機性的度量，用於生成錢包種子）。                                                              |
+| *Mnemonic*      | 助記詞（由一串詞組成，便於備份與恢復種子）。                                                       |
+| *Wordlist*      | 詞表（用於生成 BIP39 助記詞的預定義集合）。                                                         |
+| *Seed*          | 種子（允許導出 HD 錢包中所有金鑰的初始值）。                                                       |
+| *Address*       | 比特幣地址（可讀的資金接收識別符，從公鑰派生）。                                                   |
+| *Leaf*          | 葉子（導出樹中的終端節點）。                                                                       |
 
 # Hash 功能
 
@@ -78,7 +106,7 @@ Hash 有時也可稱為「摘要」、「濃縮物」、「濃縮」或「散列
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 ### Hash 功能的特性
 
@@ -96,7 +124,7 @@ Hash 有時也可稱為「摘要」、「濃縮物」、「濃縮」或「散列
 
 在所給的範例中，透過知道輸入"_PlanB_"來取得 Hash `24f1b9...`既簡單又快速。但是，只知道 `24f1b9...` 而找到訊息 "_PlanB_" 是不可能的。
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 因此，不可能為 Hash $h$ 找到一個前像 $m$，使得 $h = \text{Hash}(m)$，其中 $\text{Hash}$ 是一個加密的 Hash 函數。
 
@@ -116,7 +144,7 @@ Hash 有時也可稱為「摘要」、「濃縮物」、「濃縮」或「散列
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 此特性可確保即使對原始訊息進行微小的修改，也能立即被偵測出來，因為這不只是改變 Hash 的一小部分，而是整個 Hash。這在各個領域都能引起興趣，以驗證訊息、軟體、甚至 Bitcoin 交易的完整性。
 
@@ -128,7 +156,7 @@ $$
 \text{HASH}(m_1) = \text{HASH}(m_2)
 $$
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 在現實中，Hash 函數在數學上不可避免地存在碰撞，因為輸入的大小可能大於輸出的大小。這就是所謂的 Dirichlet 抽屜原理：如果 $n$ 物件分佈在 $m$ 抽屜中，且 $m < n$，那麼至少有一個抽屜必然包含兩個或兩個以上的物件。對於 Hash 函數，此原則適用，因為可能的訊息數是 (幾乎) 無限的，而可能的雜湊數是有限的 (在 SHA256 的情況下為 $2^{256}$) 。
 
@@ -146,7 +174,7 @@ $$
 
 因此，對第二預影像的抵抗與對碰撞的抵抗有點相似，只是這裡的攻擊更困難，因為攻擊者無法自由選擇 $m_1$。
 
-![CYP201](assets/fr/005.webp)
+![CYP201](assets/en/010.webp)
 
 ### Hash 功能在 Bitcoin 中的應用
 
@@ -246,7 +274,7 @@ $$
 - 一個位元 `1` 接著幾個位元 `0` 形成位元填充；
 - $M$長度的64位元表示，以大小形成padding。
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 ### 變數初始化
 
@@ -296,9 +324,9 @@ $$
 在詳細探討壓縮函數之前，了解其中使用的基本邏輯運算是很重要的。這些運算基於布林代數，在位元層級運作。使用的基本邏輯運算有
 
 
-- 結合 (AND)**：表示為 $\land$，對應於邏輯 "AND"。
-- 析取 (OR)**：表示為 $\lor$，對應於邏輯 "OR"。
-- 否定 (NOT)**：表示為 $\lnot$，對應於邏輯 "NOT"。
+- 結合 (AND)：表示為 $\land$，對應於邏輯 "AND"。
+- 析取 (OR)：表示為 $\lor$，對應於邏輯 "OR"。
+- 否定 (NOT)：表示為 $\lnot$，對應於邏輯 "NOT"。
 
 從這些基本操作，我們可以定義更複雜的操作，例如「Exclusive OR」(XOR)，表示為 $\oplus$，在密碼學中被廣泛使用。
 
@@ -386,7 +414,7 @@ $$
 
 右移操作的示意圖可以這樣看：
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 
 SHA256 中用於位元操作的另一個操作是右圓旋轉，表示為 $RotR_n(x)$，它將 $x$ 的位元向右移動 $n$ 位置，並將移位後的位元重新插入字串的開頭。
 
@@ -398,7 +426,7 @@ $$
 
 從結構上來看，右迴圈移位操作可以這樣看：
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 ### 壓縮功能
 
@@ -407,9 +435,9 @@ $$
 在前面的步驟中，我們將輸入內容分成數個 512 位元的區塊 $P$。對於每個 512 位元的區塊 $P$，我們有：
 
 
-- 訊息字 $W_i$**: $i$ 從 0 到 63。
-- 常數 $K_i$**：為 $i$ 從 0 到 63，在上一步中定義。
-- 狀態變數 $A、B、C、D、E、F、G、H$**：以上一步的值初始化。
+- 訊息字 $W_i$: $i$ 從 0 到 63。
+- 常數 $K_i$：為 $i$ 從 0 到 63，在上一步中定義。
+- 狀態變數 $A、B、C、D、E、F、G、H$：以上一步的值初始化。
 
 前 16 個字元 $W_0$ 至 $W_{15}$，是直接從已處理的 512 位元區塊 $P$ 中抽取出來的。每個字元 $W_i$ 由區塊中 32 個連續位元組成。因此，舉例來說，我們從第一筆輸入 $P_1$，再進一步將它分割成較小的 32 位元區塊，我們稱之為字元。
 
@@ -429,35 +457,35 @@ $$
 
 一旦我們決定了 512 位元的所有字元 $W_i$，我們就可以繼續執行壓縮函數，壓縮函數包括執行 64 輪。
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 
 對於從 0 到 63 的每一輪 $i$，我們有三種不同類型的輸入。首先，我們剛決定的 $W_i$，部分由我們的訊息片 $P_n$組成。接下來是 64 個常數 $K_i$。最後，我們使用狀態變數 $A$、$B$、$C$、$D$、$E$、$F$、$G$ 和 $H$，這些變數會在整個哈希過程中演變，並隨著每個壓縮函數而修改。然而，對於第一片 $P_1$，我們使用之前給出的初始常數。
 
 然後，我們對輸入執行下列操作：
 
 
-- 函數 $\Sigma_0$:**
+- 函數 $\Sigma_0$:
 
 $$
 \Sigma_0(A) = RotR_2(A) \oplus RotR_{13}(A) \oplus RotR_{22}(A)
 $$
 
 
-- 函數 $\Sigma_1$:**
+- 函數 $\Sigma_1$:
 
 $$
 \Sigma_1(E) = RotR_6(E) \oplus RotR_{11}(E) \oplus RotR_{25}(E)
 $$
 
 
-- 函數 $Ch$ ("_Choose_"):**
+- 函數 $Ch$ ("_Choose_")**:**
 
 $$
 Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 $$
 
 
-- 函數 $Maj$ ("_Majority_"):**
+- 函數 $Maj$ ("_Majority_"):
 
 $$
 Maj(A, B, C) = (A \land B) \oplus (A \land C) \oplus (B \land C)
@@ -496,7 +524,7 @@ $$
 
 下圖表示我們剛才描述的一輪 SHA256 壓縮函數：
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 
 - 箭頭表示資料的流向；
@@ -586,8 +614,8 @@ $$
 在 Bitcoin 錢包上，主要使用 2 種衍生演算法：
 
 
-- HMAC (_Hash-based Message Authentication Code_) **
-- PBKDF2 (_Password-Based Key Derivation Function 2_)**
+- HMAC (_Hash-based Message Authentication Code_)
+- PBKDF2 (**Password-Based Key Derivation Function 2**)
 
 我們將一併探討它們各自的功能和角色。
 
@@ -597,7 +625,7 @@ HMAC 是一種加密演算法，可根據 Hash 函數和秘密金鑰的組合計
 
 以下是其一般操作方案，$m$ 為輸入訊息，$K$ 為秘密金鑰：
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 讓我們詳細研究一下 HMAC-SHA512 這個黑盒子中會發生什麼。HMAC-SHA512 功能與：
 
@@ -637,7 +665,7 @@ $$
 
 這些步驟可以示意性地總結如下：
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 HMAC 在 Bitcoin 中主要用於 HD（Hierarchical Deterministic）錢包中的金鑰推演（我們將在接下來的章節中詳細討論），也是 PBKDF2 的一個組成部分。
 
@@ -662,7 +690,7 @@ $$
 
 在結構上，PBKDF2 可表示如下：
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 在本章中，我們探討了 HMAC-SHA512 和 PBKDF2 函數，它們使用雜湊函數來確保 Bitcoin 通訊協定中金鑰推導的完整性和安全性。在下一部分，我們將探討數位簽章，這是另一種在 Bitcoin 中廣泛使用的加密方法。
 
@@ -702,7 +730,7 @@ Bitcoin 與 P2PK 腳本的初始操作包括使用公開金鑰來鎖定資金，
 
 下面是實數域上的橢圓曲線的表示：
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 每條橢圓曲線都是由一個等式定義的：
 
@@ -722,7 +750,7 @@ $$
 
 它在實數領域上的圖形表示是這樣的：
 
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 
 然而，在加密學中，我們使用的是有限數集。具體來說，我們使用的是有限域 $\mathbb{F}_p$，也就是整數域 modulo a prime number $p$。
 
@@ -750,7 +778,7 @@ $$
 
 由於這條曲線是定義在有限域 $\mathbb{F}_p$ 上，它不再像一條連續曲線，而是一組離散的點。例如，以下是 Bitcoin 使用的曲線在非常小的 $p = 17$ 時的樣子：
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 在這個範例中，為了教學的需要，我故意將有限域限制在 $p = 17$，但我們必須想像 Bitcoin 所使用的有限域大得不得了，幾乎是 $2^{256}$。
 
@@ -804,11 +832,11 @@ $$
 
 這個點 $G$ 是 Bitcoin 上所有公開密碼匙的共通點，這一點讓我們可以確定相同的私人密碼匙 $k$ 總是會給我們相同的公開密碼匙 $K$：
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 此運算的主要特點是它是單向函數。在知道私人密碼匙 $k$ 和產生點 $G$ 的情況下，要計算出公開密碼匙 $K$ 是很容易的，但只知道公開密碼匙 $K$ 和產生點 $G$ 要計算出私人密碼匙 $k$ 幾乎是不可能的。從 $K$ 和 $G$ 找到 $k$ 等同於解決橢圓曲線上的離散對數問題，這是一個在數學上很難解決的問題，目前還沒有有效的演算法。即使是目前最強大的計算機也無法在合理的時間內解決這個問題。
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 ### 橢圓曲線上點的加法與倍數
 
@@ -820,7 +848,7 @@ $$
 
 用圖表表示如下：
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 對於一個點的加倍，也就是操作 $P+P$，我們在點 $P$ 畫出曲線的切線。這條切線與曲線相交於另一點 $S'$。然後，我們取這一點相對於 x 軸的鏡射圖像，得到點 $S$，這就是加倍的結果：
 
@@ -830,7 +858,7 @@ $$
 
 以圖形顯示如下：
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 利用這些加法和加倍的操作，我們可以透過重複執行加倍和加法，來執行一個點與整數 $k$ 的標量乘法，表示為 $kP$。
 
@@ -846,7 +874,7 @@ $$
 - 將 $G$ 加倍來計算 $2G$。
 - 將 $2G$ 加倍，計算 $4G$。
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 舉例來說，如果我們想計算點 $3G$，我們必須先將點 $G$ 加倍來計算點 $2G$，然後將 $G$ 和 $2G$ 相加。要將 $G$ 和 $2G$ 相加，只需畫出連接這兩個點的線，在這條線和橢圓曲線的交點取得唯一的點 $-3G$，然後將 $3G$ 確定為 $-3G$ 的反面。
 
@@ -862,7 +890,7 @@ $$
 
 在圖表上，這將表示如下：
 
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 
 ### 單向功能
 
@@ -1021,7 +1049,7 @@ $$
 
 generate 簽署的第一步是 Hash 訊息。但與 ECDSA 不同的是，它是以其他值來完成，並使用標示的 Hash 函式來避免在不同情境下發生碰撞。帶標籤的 Hash 函數只需在 Hash 函數的輸入端與訊息資料旁加入任意標籤即可。
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 除了訊息之外，還會將公開金鑰 $K_x$ 的 $x$ 座標，以及從 Nonce $r$ ($R=r \cdot G$) 計算出來的一個點 $R$ 傳入標記函數中，這個點本身對每個簽章來說都是唯一的整數，是由私人金鑰和訊息確定地計算出來的，以避免與 Nonce 重複使用有關的漏洞。就像公開金鑰一樣，只有 Nonce 點 $R_x$ 的 $x$ 座標被保留來描述該點。
 
@@ -1089,11 +1117,11 @@ $$
 
 相較於原始的 ECDSA 演算法，Schnorr 簽章方案為 Bitcoin 提供了幾項優勢。首先，Schnorr 允許彙集金鑰和簽章。這表示可以將多個公開金鑰合併為單一金鑰。
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 同樣地，多重簽章也可以彙總為單一有效簽章。因此，在多重簽章交易的情況下，一組參與者可以使用單一簽章和單一彙總公開金鑰簽章。由於每個節點只需驗證單一簽章，因此可大幅降低網路的儲存與計算成本。
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 此外，簽章彙總可以改善隱私。有了 Schnorr，就無法區分多重簽章交易與標準單一簽章交易。這種同質性使得連鎖分析更加困難，因為它限制了識別 Wallet 指紋的能力。
 
@@ -1130,36 +1158,36 @@ $$
 
 - `SIGHASH_ALL` (`0x01`)：簽章適用於交易的所有輸入和所有輸出。交易因此完全被簽章覆蓋，不能再被修改。`SIGHASH_ALL` 是日常交易中最常用的簽章，當一個人只想做一個不能被修改的交易。
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 在本章的所有圖表中，橘色代表簽章所涵蓋的 Elements，黑色則表示未涵蓋的 Elements。
 
 
 - `SIGHASH_NONE` (`0x02`)：簽章涵蓋所有輸入，但不涵蓋任何輸出，因此允許在簽章之後修改輸出。具體來說，這類似空白支票。簽名者解鎖輸入中的 UTXOs，但保留輸出的欄位完全可修改。因此，任何知道此交易的人都可以加入他們所選擇的輸出，例如指定一個接收 Address 來收集輸入所消耗的資金，然後廣播交易以收回比特幣。輸入所有者的簽名不會失效，因為它只涵蓋輸入。
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 
 - `SIGHASH_SINGLE` (`0x03`)：簽章涵蓋所有輸入以及單一輸出，對應於簽章輸入的索引。例如，如果簽章解鎖了輸入 #0 的 _scriptPubKey_，那麼它也涵蓋了輸出 #0。簽章也保護所有其他的輸入，這些輸入不能再被修改。然而，任何人都可以增加額外的輸出，而不會使簽章失效，只要不修改唯一受簽章保護的輸出 #0。
 
-![CYP201](assets/fr/028.webp)
+![CYP201](assets/en/033.webp)
 
 除了這三個 sighash 標誌之外，還有修改器 `SIGHASH_ANYONECANPAY` (`0x80`)。這個修改器可以與基本的 sighash 標誌結合，產生三個新的 sighash 標誌：
 
 
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`)：簽章涵蓋單一輸入，同時包括交易的所有輸出。舉例來說，這個組合的 sighash 標誌允許建立集資交易。組織者用他們的 Address 和目標金額準備輸出，然後每位投資者可以加入輸入，為此輸出提供資金。一旦投入的資金足夠滿足輸出，就可以廣播交易。
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`)：簽章涵蓋單一輸入，不承諾任何輸出；
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`)：簽章涵蓋單一輸入以及與此輸入具有相同索引的輸出。例如，如果簽章解鎖輸入 #3 的 _scriptPubKey_，它也會涵蓋輸出 #3。交易的其他部分仍然可以修改，包括其他輸入和其他輸出。
 
-![CYP201](assets/fr/031.webp)
+![CYP201](assets/en/036.webp)
 
 ### 新增 Sighash 旗幟的專案
 
@@ -1167,7 +1195,7 @@ $$
 
 這兩個 sighash 標誌會在 Bitcoin 上提供額外的可能性：建立不涵蓋任何特定交易輸入的簽章。
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 這個想法最初是由 Joseph Poon 和 Thaddeus Dryja 在 Lightning 白皮書中提出的。在重新命名之前，這個 sighash 標誌被命名為 `SIGHASH_NOINPUT`。
 
@@ -1202,7 +1230,7 @@ Bitcoin Wallet 的作用正是安全地管理這些私人金鑰。實際上，�
 
 Bitcoin 上使用的第一批錢包是 JBOK (_Just a Bunch Of Keys_) 錢包，這些錢包將私人產生的金鑰獨立組合起來，它們之間沒有任何連結。這些錢包以簡單的模式運作，每個私人金鑰都可以解鎖接收 Address 的獨特 Bitcoin。
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 如果希望使用多個私人密碼匙，那麼就必須製作盡可能多的備份，以確保在託管 Wallet 的裝置發生問題時能夠存取資金。如果使用單一私人密碼匙，這種 Wallet 結構可能就足夠了，因為單一備份就夠了。但是，這會造成一個問題：在 Bitcoin 上，強烈建議不要總是使用相同的私人密碼匙。事實上，私密金鑰與獨一無二的 Address 相關聯，而 Bitcoin 收款地址通常是為一次性使用而設計的。每次收款時，您都應該 generate 新的空白 Address。
 
@@ -1215,7 +1243,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 為了 Address JBOK 錢包的限制，後來採用了新的 Wallet 結構。2012 年，Pieter Wuille 以 BIP32 為基礎進行了改進，引入了分層式確定性錢包。HD Wallet 的原理是從單一資訊來源（稱為 seed）以確定性和分層的方式衍生出所有私密金鑰。此 seed 在 Wallet 建立時隨機產生，並構成唯一的備份，允許重新產生 Wallet 的所有私密金鑰。因此，使用者可以 generate 非常多的私密金鑰，以避免 Address 重複使用並保護他們的隱私，同時只需要透過 seed 為他們的 Wallet 做單一備份。
 
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 在 HD 錢包中，金鑰的衍生是根據一種分層結構來進行的，這種結構允許將金鑰組織到衍生子空間中，每個子空間可進一步細分，以方便基金管理和不同 Wallet 軟體之間的互操作性。目前，絕大多數的 Bitcoin 使用者都採用此標準。因此，我們將在接下來的章節中詳細研究。
 
@@ -1249,7 +1277,7 @@ HD Wallet 使用的初始熵一般為 128 位元或 256 位元，其中：
 
 在大多數情況下，這個隨機數是由 Wallet 軟體使用 PRNG（偽隨機數產生器）自動產生的。PRNG 是一類演算法，用來從初始狀態產生 generate 數序列，這些序列具有接近隨機數的特性，但實際上並不是隨機數。一個好的 PRNG 必須具備輸出均勻性、不可預測性和抗預測攻擊性等特性。與真正的隨機數生成器 (TRNG) 不同，PRNG 具有確定性和可重複性。
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 另一種方法是手動 generate 產生熵，這可以提供更好的控制，但風險也更高。我強烈建議您不要自行產生 HD Wallet 的熵。
 
@@ -1283,7 +1311,7 @@ $$
 
 一旦計算出校驗和，它就會與熵連接起來，得到一個擴展的位元序列，記為 $\text{ENT}\Vert \text{CS}$（「連接 」的意思是端對端連接）。\Vert \text{CS}$（"concatenate "表示端對端）。
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 ### 熵與 Mnemonic 語句的對應關係
 
@@ -1314,19 +1342,19 @@ $$
 
 位元序列 $\text{ENT}\Vert \text{CS}$ 會被分成 11 位元的區段。每個 11 位元段轉換為十進位後，對應一個介於 0 與 2047 之間的數字，指定一個字的位置 [在 BIP39 標準化的 2048 個字清單中](https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf)。
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 
 例如，對於 128 位元的熵，校驗和為 4 位元，因此總序列為 132 位元。它被分成 12 段，每段 11 位元（橘色位元指定校驗和）：
 
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 然後將每個區段轉換為十進位數字，代表清單中的一個字。例如，二進位字段 `01011010001` 等同於十進位數字 `721`。加上 1 以符合清單的索引 (索引從 1 開始，而不是 0)，就得到字級 `722`，也就是清單中的 "_focus_"。
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 12 個片段中的每個片段都重複此對應，以獲得 12 個字的短語。
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 ### BIP39 詞表的特徵
 
@@ -1367,11 +1395,11 @@ https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-
 
 passphrase 是一個您可以自由選擇的密碼，它會在金鑰萃取過程中加入 Mnemonic 詞組，以加強 Wallet 的安全性。
 
-請注意，不要將 passphrase 與 Hardware Wallet 的 PIN 碼或用於在電腦上解鎖存取 Wallet 的密碼混淆。與所有這些 Elements 不同的是，passphrase 在您的 Wallet 的金鑰衍生過程中扮演一個角色。 **這意味著沒有它，您將永遠無法恢復您的比特幣。
+請注意，不要將 passphrase 與 Hardware Wallet 的 PIN 碼或用於在電腦上解鎖存取 Wallet 的密碼混淆。與所有這些 Elements 不同的是，passphrase 在您的 Wallet 的金鑰衍生過程中扮演一個角色。**這意味著沒有它，您將永遠無法恢復您的比特幣。**
 
 passphrase 與 Mnemonic 詞組配合使用，可修改產生金鑰的 seed。因此，即使有人取得您的 12 或 24 字短語，如果沒有 passphrase，他們也無法存取您的資金。使用 passphrase 基本上會產生新的 Wallet，並具有不同的金鑰。修改 passphrase (即使是輕微修改) 會產生不同的 generate Wallet。
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 ### 為什麼要使用 passphrase？
 
@@ -1387,7 +1415,7 @@ passphrase 是任意的，可以是使用者選擇的任何字元組合。因此
 
 正確保存這個 passphrase 也很重要，方法與 Mnemonic 短語相同。 **失去它就意味著失去比特幣的使用權**。我強烈建議不要只記住它，因為這會不合理地增加丟失的風險。最理想的做法是把它寫在一個與 Mnemonic 短語分開的實體媒介上 (紙張或金屬)。這個備份顯然必須與您的 Mnemonic 短語存放在不同的地方，以防止兩者同時被洩露。
 
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 在下一節中，我們將發現在您的 Wallet 基礎上的這兩個 Elements - Mnemonic 短語和 passphrase - 是如何用來推導出 _scriptPubKey_ 中使用的金鑰對，以鎖定您的 UTXO。
 
@@ -1401,7 +1429,7 @@ passphrase 是任意的，可以是使用者選擇的任何字元組合。因此
 
 一旦產生 Mnemonic 詞組和選用的 passphrase，就可以開始衍生 Bitcoin HD Wallet 的程序。Mnemonic 詞組會先轉換成 seed，構成 Wallet 所有鍵的基礎。
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 ### HD Wallet 的 seed
 
@@ -1423,7 +1451,7 @@ $$
 s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 $$
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 因此，seed 的值受 Mnemonic 短語和 passphrase 值的影響。改變 passphrase，就會得到不同的 seed。然而，由於 PBKDF2 是一個確定的函數，因此使用相同的 Mnemonic 詞組和 passphrase，總會產生相同的 seed。這可確保可透過我們的備份擷取相同的金鑰對。
 
@@ -1449,7 +1477,7 @@ $$
 因此，此功能的輸出為 512 位元。然後分成 2 個部分：
 
 
-- 左側的 256 位元組成 ** 主私人密碼匙；
+- 左側的 256 位元組成**主私人密碼匙**；
 - 右側的 256 位元組成 ** 主鏈碼**。
 
 在數學上，這兩個值可以記述如下，$k_M$ 是主私人密碼匙，$C_M$ 是主鏈碼：
@@ -1462,7 +1490,7 @@ $$
 C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 $$
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 ### 主鑰匙和連鎖碼的作用
 
@@ -1478,7 +1506,7 @@ $$
 
 擴展金鑰是一個金鑰 (無論是私人或公開) 和其相關鏈碼的簡單串接。這個鏈碼對於子金鑰的衍生是非常重要的，因為如果沒有它，就不可能從父金鑰衍生出子金鑰，但我們會在下一章更精確地發現這個過程。因此，這些擴充金鑰允許彙集所有必要的資訊來衍生子金鑰，從而簡化 HD Wallet 內的帳戶管理。
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 擴充金鑰由兩部分組成：
 
@@ -1506,20 +1534,20 @@ $$
 - $K_{\text{CHD}}^h$: 加密子公開金鑰；
 - $k_{\text{CHD}}^h$：加固的子私密金鑰。
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 ### 延伸金鑰的結構
 
 擴充金鑰的結構如下：
 
 
-- 版本**：版本代碼，用以識別金鑰的性質 (`xprv`、`xpub`、`yprv`、`ypub`...)。我們會在本章結尾看到字母 `x`、`y` 和 `z` 的對應關係。
-- 深度**：HD Wallet 中相對於主密鑰的層級（0 代表主密鑰）。
-- 父指紋**：父公開金鑰 HASH160 Hash 的前 4 個位元組，用來推導有效負載中存在的金鑰。
-- 索引編號**：同族鑰匙中子鑰匙的識別碼，也就是同一衍生層級中，擁有相同父鑰匙的所有鑰匙。
-- Chain Code**：唯一的 32 位元組代碼，用於衍生子金鑰。
-- 金鑰**：私密金鑰 (前綴為 1 位元組表示大小) 或公開金鑰。
-- 校驗和**：還加入了以 HASH256 函式（雙 SHA256）計算的校驗和，可在傳輸或儲存擴充金鑰時驗證其完整性。
+- 版本：版本代碼，用以識別金鑰的性質 (`xprv`、`xpub`、`yprv`、`ypub`...)。我們會在本章結尾看到字母 `x`、`y` 和 `z` 的對應關係。
+- 深度：HD Wallet 中相對於主密鑰的層級（0 代表主密鑰）。
+- 父指紋：父公開金鑰 HASH160 Hash 的前 4 個位元組，用來推導有效負載中存在的金鑰。
+- 索引編號：同族鑰匙中子鑰匙的識別碼，也就是同一衍生層級中，擁有相同父鑰匙的所有鑰匙。
+- **Chain Code**：唯一的 32 位元組代碼，用於衍生子金鑰。
+- 金鑰：私密金鑰 (前綴為 1 位元組表示大小) 或公開金鑰。
+- 校驗和：還加入了以 HASH256 函式（雙 SHA256）計算的校驗和，可在傳輸或儲存擴充金鑰時驗證其完整性。
 
 因此，擴充金鑰的完整格式是 78 位元組不含校驗和，82 位元組含校驗和。然後，它會被轉換成 Base58 格式，以產生使用者容易讀取的表示法。Base58 格式與 *Legacy* 接收位址（*SegWit* 之前）所使用的格式相同。
 
@@ -1582,14 +1610,14 @@ $$
 為了更了解擴充金鑰的內部結構，讓我們以一個擴充金鑰為例，將它分解。以下是一個擴充的金鑰：
 
 
-- 在 Base58** 中：
+- 在 **Base58** 中：
 
 ```text
 xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2rUCukSiDQFa7roTwzjiAhyQAdPLEjqHT
 ```
 
 
-- 以十六進位**表示：
+- 以十六進位**表示**：
 
 ```text
 0488B21E036D5601AD80000000C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A89303772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF50658051F067C3A
@@ -1631,7 +1659,7 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 所有這些衍生都從主密鑰和主鏈碼開始，它們是深度 0 的第一個父代。在某種程度上，它們是 Wallet 鑰匙的亞當和夏娃，是所有衍生鑰匙的共同祖先。
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 讓我們來探討這個確定性推導是如何運作的。
 
@@ -1640,8 +1668,8 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 正如我們在前一章所簡略介紹的：子鍵分為兩種主要類型：
 
 
-- 普通子密鑰** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$)：這些金鑰是從擴展的公開金鑰 ($K_{\text{PAR}}$) 或擴展的私人金鑰 ($k_{text\{PAR}}$) 衍生出來的，首先要衍生出公開金鑰。
-- 加固子密鑰** ($k_{text{CHD}}^h, K_{text{CHD}}^h$)：這些鑰匙只能從擴充的私人密碼匙 ($k_{\text{PAR}}$) 衍生出來，因此只有擴充公開密碼匙的觀察者是看不到的。
+- 普通子密鑰 ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$)：這些金鑰是從擴展的公開金鑰 ($K_{\text{PAR}}$) 或擴展的私人金鑰 ($k_{\text{PAR}}$) 衍生出來的，首先要衍生出公開金鑰。
+- 加固子密鑰 ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$)：這些鑰匙只能從擴充的私人密碼匙 ($k_{\text{PAR}}$) 衍生出來，因此只有擴充公開密碼匙的觀察者是看不到的。
 
 每個子鑰匙對都由一個 32 位元的 **索引**（在我們的計算中命名為 $i$）來識別。一般金鑰的索引範圍從 $0$ 到 $2^{31}-1$，而加固金鑰的索引範圍從 $2^{31}$ 到 $2^{32}-1$。在推導過程中，這些數字會用來區分同父異母的鑰匙對。事實上，每個父密鑰對必須能夠衍生出多個子密鑰對。如果我們從父金鑰有系統地運用相同的計算，得到的所有同胞金鑰都會是相同的，這並不可取。因此，索引引入了一個變數來修改推導計算，允許每個兄弟姊妹鍵對被區分。除了在某些協定和推導標準中的特定用途外，我們一般會從索引為 `0` 的第一個子鑰開始推導，第二個子鑰的索引為 `1`，以此類推。
 
@@ -1650,12 +1678,12 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 每個子金鑰的推導都是基於 HMAC-SHA512 函數，我們在第 2 節關於 Hash 函數的部分討論過這個函數。它需要兩個輸入：父鏈碼 $C_{\text{PAR}}$，以及父密鑰 (公鑰 $K_{\text{PAR}}$ 或私鑰 $k_{\text{PAR}}$，取決於所需的子密鑰類型) 和索引的串接。HMAC-SHA512 的輸出是一個 512 位元的序列，分成兩部分：
 
 
-- 前 32 位元組** (或 $h_1$)會用來計算新的子代對。
-- 最後一個 32 位元組** (或 $h_2$)會成為子代碼對的新鏈碼 $C_{text{CHD}}$。
+- 前 32 位元組 (或 $h_1$) 會用來計算新的子代對。
+- 最後一個 32 位元組 (或 $h_2$) 會成為子代碼對的新鏈碼 $C_{\text{CHD}}$。
 
 在我們所有的計算中，我將表示 $\text{Hash}$ 為 HMAC-SHA512 函式的輸出。
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 #### 從父私密金鑰衍生子私密金鑰
 
@@ -1697,7 +1725,7 @@ $$
 
 以下是整體推導的示意圖：
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 對於**硬化的子密鑰** ($i \geq 2^{31}$)，$text{Hash}$的計算如下：
 
@@ -1731,7 +1759,7 @@ $$
 
 以下是整體推導的示意圖：
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 我們可以看到，普通推演和加固推演的功能相同，但有以下差異：普通推演使用父公鑰作為 HMAC 函式的輸入，而加固推演則使用父私鑰。
 
@@ -1775,15 +1803,15 @@ $$
 
 以下是整體推導的示意圖：
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 ### 子公鑰與私密金鑰的對應關係
 
 可能會出現的一個問題是，從父公開金鑰衍生出來的正常子公開金鑰，如何能對應到從相對應的父私人金鑰衍生出來的正常子私人金鑰。橢圓曲線的特性正好確保了這個關係。事實上，HMAC-SHA512 也是以同樣的方式來產生正常子公開金鑰，但其輸出的使用方式不同：
 
 
-   - 正常子私密金鑰**：$k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}}\mod n$
-   - 正常子公開金鑰**：$K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
+- 正常子私密金鑰：$k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}}\mod n$
+- 正常子公開金鑰：$K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
 
 由於橢圓曲線上的加法和加倍運算，這兩種方法都能產生一致的結果：從子私密金鑰衍生出來的公開金鑰，與直接從父公開金鑰衍生出來的子公開金鑰完全相同。
 
@@ -1854,14 +1882,14 @@ Bitcoin 上 HD 錢包的分層結構允許以各種方式組織金鑰對。其�
 每個在深度 3 定義的帳戶會被結構化為兩個鏈：
 
 
-- 外部鏈**：在這個鏈中，會衍生出所謂的 「公共 」地址。這些接收地址是用來鎖定來自外部交易的 UTXOs (也就是來自消耗不屬於您的 UTXOs)。簡單來說，只要想接收比特幣，就會使用這個外部鏈。當您在 Wallet 軟體中點選 「*接收*」時，提供給您的始終是來自外部鏈的 Address。此鏈由一對索引為 $/0/$ 的鑰匙表示。
-- 內部鏈（變更）**：這個鏈是預留給接收鎖定比特幣的地址，這些比特幣來自於您的UTXO消耗，換句話說，就是變更地址。它由 $/1/$ 索引來識別。
+- 外部鏈：在這個鏈中，會衍生出所謂的「公共」地址。這些接收地址是用來鎖定來自外部交易的 UTXOs (也就是來自消耗不屬於您的 UTXOs)。簡單來說，只要想接收比特幣，就會使用這個外部鏈。當您在 Wallet 軟體中點選「*接收*」時，提供給您的始終是來自外部鏈的 Address。此鏈由一對索引為 $/0/$ 的鑰匙表示。
+- 內部鏈（變更）：這個鏈是預留給接收鎖定比特幣的地址，這些比特幣來自於您的UTXO消耗，換句話說，就是變更地址。它由 $/1/$ 索引來識別。
 
 **深度 5：Address 索引 (BIP32)**
 
 最後，深度 5 代表 Wallet 推導的最後一步。雖然在技術上可以無限期地進行下去，但目前的標準到此為止。在最後這個深度，實際上會用來鎖定和解鎖 UTXO 的鑰匙對會被衍生出來。每個索引允許區分同胞鑰匙對：因此，第一個接收的 Address 將使用索引 $/0/$，第二個使用索引 $/1/$，以此類推。
 
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 ### 衍生路徑的記號
 
@@ -1954,7 +1982,7 @@ wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1Tj
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-接下來，符號 `/<0;1>/*`指定描述符可以 generate 從外部鏈 (`0`)和內部鏈 (`1`)，以通配符 (`*`)，允許以可設定的方式依序衍生出多個位址，類似於管理傳統 Wallet 軟體上的「間隙限制」。
+符號 `/<0;1>/*` 表示描述符可以生成來自外部鏈 (`0`) 和內部鏈 (`1`) 的地址。路徑末尾的萬用字元 (`*`) 表示可以從該位置依序導出所有未加強（“*unhardened*”）的子金鑰，無論它們是外部地址還是內部地址。此語法並不直接暗示 *gap limit* 的概念，該概念屬於錢包用於地址檢測的特定機制，而此處僅用於表示會考慮該位置的所有可能導出。
 
 最後，`#jy0l7nr4` 代表驗證描述符完整性的校驗和。
 
@@ -1972,7 +2000,7 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 當使用者收到比特幣時，寄件者會建立一個輸出 UTXO，並使用 *scriptPubKey* 將其鎖定。此腳本包含通常指定解鎖此 UTXO 所需的簽名和公開金鑰的規則。若要在新的交易中使用此 UTXO，使用者必須透過 *scriptSig* 提供所要求的資訊。結合 *scriptPubKey* 執行 *scriptSig* 必須回傳 "true" 或 `1`。如果符合此條件，UTXO 就可以用來建立新的 UTXO，其本身由新的 *scriptPubKey* 鎖定，如此類推。
 
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 接收位址正是在 *scriptPubKey* 中找到的。然而，它們的使用依所採用的腳本標準而有所不同。以下是 *scriptPubKey* 中包含的資訊摘要表，依據所使用的標準，以及 *scriptSig* 中預期用來解鎖 *scriptPubKey* 的資訊。
 
@@ -2019,41 +2047,41 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 
 - 我們有 *scriptSig*、*ScriptPubKey* 和堆疊：
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 
 - *scriptSig* 被推入堆疊：
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 
 - `OP_DUP` 複製堆疊上 *scriptSig* 所提供的公開金鑰：
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 
 - `OP_HASH160` 返回剛被複製的公開金鑰的 Hash：
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 
 - `OP_PUSHBYTES_20 <pubKeyHash>` 將 *scriptPubKey* 所包含的 Bitcoin Address 推入堆疊：
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 
 - `OP_EQUALVERIFY` 會驗證散列的公開金鑰是否與所提供的接收 Address 吻合：
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 
 `OP_CHECKSIG` 使用公開金鑰檢查 *scriptSig* 所包含的簽章。此作業碼基本上是執行本訓練第三部分所描述的簽章驗證：
 
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 
 - 如果 `1` 保留在堆疊上，則腳本有效：
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 因此，總的來說，這個腳本允許在數位簽章的協助下，驗證要求此 UTXO 的 Ownership 並希望使用此 UTXO 的使用者確實擁有與接收 Address 相關的私密金鑰，而接收 Address 是在建立此 UTXO 時使用的。
 
@@ -2097,7 +2125,7 @@ P2TR 模型是隨著 2021 年 11 月 Taproot 的實施而推出的。它基於�
 
 因此，P2TR 提供了極大的靈活性，因為它允許使用唯一的公開金鑰鎖定比特幣，也允許使用多種腳本選擇鎖定比特幣，或同時使用兩種腳本鎖定比特幣。這種 Merkle Tree 結構的優點是，在交易過程中，只有所使用的支出腳本才會被公開，但所有其他替代腳本都是保密的。
 
-![CYP201](assets/fr/063.webp)
+![CYP201](assets/en/068.webp)
 
 P2TR 對應版本 1 的 SegWit 輸出，這表示 P2TR 輸入的簽章會儲存在交易的 *Witness* 區段，而不是 *scriptSig* 區段。P2TR 位址使用 *bech32m* 編碼，並以 `bc1p` 開頭，但它們相當獨特，因為它們不使用 Hash 函式來建立。事實上，它們直接表示公鑰 $Q$，而公鑰只是以元資料格式化。因此，這是一種接近 P2PK 的腳本模型。
 
@@ -2121,7 +2149,7 @@ Bitcoin 上的公開密碼匙是位於橢圓曲線上的一個點 $K$。它以 $
 
 然而，橢圓曲線有一個對 x 軸對稱的特性：對於給定的 $x$ 座標，$y$ 只有兩個可能的值：$y$ 和 $-y$。這兩點位於 x 軸的兩側。換句話說，如果我們知道 $x$，只要指定 $y$ 是偶數或奇數，就可以找出曲線上的確切點。
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 
 要壓縮公開密碼匙，只需編碼佔 256 位元的 $x$，並加入前綴以指定 $y$ 的奇偶校驗。此方法可將公開密碼匙的大小從最初的 520 位元減至 264 位元。前綴 `0x02` 表示 $y$ 是偶數，前綴 `0x03` 表示 $y$ 是奇數。
 
@@ -2230,7 +2258,7 @@ HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 1
 要使用 BCH 碼計算校驗和，我們需要準備數個 Elements：
 
 
-- HRP (*Human Readable Part*) **：Bitcoin Mainnet 的 HRP 為 `bc`；
+- HRP (*Human Readable Part*) **：** Bitcoin Mainnet 的 HRP 為 `bc`；
 
 擴充 HRP 時必須將每個字元分成兩部分：
 
@@ -2251,9 +2279,9 @@ HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 1
 ```
 
 
-- 見證版本**：對於 SegWit 版本 0，它是 `00`；
-- 有效負載**：公開金鑰 Hash 的十進位值；
-- 校驗和的預留**：我們在序列末尾加入 6 個零 `[0, 0, 0, 0, 0, 0]`。
+- 見證版本：對於 SegWit 版本 0，它是 `00`；
+- 有效負載：公開金鑰 Hash 的十進位值；
+- 校驗和的預留：我們在序列末尾加入 6 個零 `[0, 0, 0, 0, 0, 0]`。
 
 所有要輸入程式以計算校驗和的資料組合如下：
 
@@ -2274,9 +2302,9 @@ INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 
 現在我們可以依序串接下列 Elements 來建構接收 Address：
 
 
-- SegWit 版本**：`00`
-- 有效負載**：公開金鑰 Hash
-- 校驗和**：上一步取得的數值 (`10 16 11 04 13 18`)
+- SegWit 版本：`00`
+- 有效負載：公開金鑰 Hash
+- 校驗和：上一步取得的數值 (`10 16 11 04 13 18`)
 
 這樣我們就可以得到十進制：
 
@@ -2320,7 +2348,7 @@ bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 
 總括而言，以下是推導過程：
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 這就是如何從一對鑰匙產生接收 Address 的 P2WPKH (SegWit v0)。現在讓我們來看看 P2TR (SegWit v1 / Taproot) 位址，並探索其產生過程。
 
@@ -2353,7 +2381,7 @@ $$
 在哪裡？
 
 
-- $\text{H}_{text\{TapTweak}}$** 是一個 SHA256 Hash 函數，標籤為 `TapTweak`.如果您不熟悉什麼是標記的 Hash 函數，請參閱第 3.3 章；
+- $\text{H}_{text\{TapTweak}}$ 是一個 SHA256 Hash 函數，標籤為 `TapTweak`。如果您不熟悉什麼是標記的 Hash 函數，請參閱第 3.3 章；
 - $P$ 是內部公開金鑰，以 256 位元的壓縮格式表示，只使用 $x$ 座標。
 
 Taproot 公開金鑰 $Q$ 的計算方式是將調整 $t$ 乘以橢圓曲線產生器 $G$ 加到內部公開金鑰 $P$ 上：
@@ -2369,9 +2397,9 @@ $$
 Taproot Address 是以 _bech32m_ 格式對 $Q$ 的 $x$ 座標進行編碼而產生的，Elements 如下：
 
 
-- HRP (_Human Readable Part_)**：`bc`，表示主 Bitcoin 網路；
-- 版本**：`1`表示 Taproot / SegWit v1；
-- 校驗和**。
+- HRP (_Human Readable Part_)：`bc`，表示主 Bitcoin 網路；
+- 版本：`1`表示 Taproot / SegWit v1；
+- 校驗和。
 
 因此，最終的 Address 將採用以下格式：
 
@@ -2402,7 +2430,7 @@ $$
 
 接下來，我們會繼續將結果兩個兩個地串接起來，每一步都會經過標記的 Hash 函式 `TapBranch` ，直到我們得到 Merkle Tree 的根：
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 一旦計算出 Merkle Root $h_{text/{root}}$，我們就可以計算調整。為此，我們將 Wallet $P$ 的內部公開密鑰與根 $h_{\text{root}}$連接起來，然後將整體通過標記的 Hash 函數 `TapTweak`：
 

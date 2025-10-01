@@ -1,0 +1,9 @@
+question: Welke open-source software wordt vaak gebruikt als referentie voor DNS-servers?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Inktvis
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) is de open-source referentie-implementatie die door de meeste DNS-servers wereldwijd wordt gebruikt.
+reviewed: false

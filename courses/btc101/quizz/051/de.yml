@@ -1,10 +1,11 @@
-question: Welche Auswirkungen hat eine 2%ige Inflation auf die Kaufkraft über 5 Jahre?
-answer: Sie verlieren 10% Ihrer Kaufkraft.
+question: Was geschah mit dem Simbabwe-Dollar im April 2009?
+answer: Der Finanzminister kündigte die Aussetzung des Simbabwe-Dollars an und autorisierte die Verwendung verschiedener ausländischer Währungen für den Handel.
 wrong_answers:
-  - Sie verlieren 2% Ihrer Kaufkraft.
-  - Sie verlieren 5% Ihrer Kaufkraft.
-  - Sie verlieren 20% Ihrer Kaufkraft.
+  - Der Simbabwe-Dollar brach um über 72% ein.
+  - Die Regierung stimmte zu, Kriegsveteranen einen Betrag zu entschädigen, der 450 Millionen US-Dollar entspricht.
+  - Die Regierung musste dazu übergehen, die Druckerpresse laufen zu lassen.
 explanation: |
-  Bei einer Inflation von 2% verlieren Sie jährlich 2% Ihrer Kaufkraft,
-  was über 5 Jahre hinweg 10% entspricht.
+  Im April 2009 kündigte der Finanzminister die
+  Aussetzung des Simbabwe-Dollars an und autorisierte die Verwendung
+  verschiedener ausländischer Währungen für den Handel.
 reviewed: true

@@ -1,10 +1,10 @@
-question: Jak vysoké jsou poplatky za transakce v síti Lightning Network, často jsou nižší než...?
-answer: 0,5 %.
+question: Jaká je jednotka Bitcoinu používaná v Lightning Network?
+answer: Sats.
 wrong_answers:
-  - 1 %.
-  - 2 %.
-  - 3 %.
-explanation: >-
-  Poplatky za transakce v síti Lightning Network jsou extrémně nízké, často
-  jsou nižší než 0,5 %.
+  - Blok.
+  - Ether.
+  - Litecoin.
+explanation: |
+  Lightning Network používá satoshi (také nazývané sats), což jsou
+  desetinná místa bitcoinu, pro svou funkci.
 reviewed: true

@@ -209,7 +209,7 @@ Pro více informací o správném způsobu ukládání a správy mnemotechnický
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.**_
+samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.
 
 Vytvořte si fyzickou zálohu této věty.
 
@@ -485,4 +485,3 @@ Gratulujeme, nyní víte, jak nakonfigurovat a používat aplikaci Passport. Pok
 Další informace naleznete v našem návodu k softwaru Liana:
 
 https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
-

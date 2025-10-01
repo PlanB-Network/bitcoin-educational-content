@@ -1,0 +1,9 @@
+question: Ni igiki gikingira ama UTXO kuri Bitcoin?
+answer: Biciye mu nyandiko zisobanura ingene amahera akoreshwa.
+wrong_answers:
+  - Biciye mu kugenzura rimwe na rimwe n’abacukuzi b’amabuye y’agaciro.
+  - Biciye mu rutonde rw’amakuru rwo hagati.
+  - Biciye mu kugenzura akaranga k’ukoresha.
+explanation: |
+  Ivyo biva mu gucuruza Bitcoin ni UTXOs zikingiwe n’inyandiko. Iyi nyandiko isaba ko ivyangombwa vyo gukoresha amahera vyategekanijwe mbere y'igihe bishitswa kugira ngo umuntu akoreshe UTXO.
+reviewed: false

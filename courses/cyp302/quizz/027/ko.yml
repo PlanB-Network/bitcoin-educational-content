@@ -1,0 +1,9 @@
+question: XOR 연산의 순열 속성은 무엇인가요?
+answer: 피연산자의 순서는 연산 결과에 영향을 미치지 않습니다
+wrong_answers:
+  - XOR은 짝수에서만 작동합니다
+  - XOR에는 동일한 길이의 피연산자가 필요합니다
+  - 피연산자의 비트 위치는 연산 결과에 영향을 미치지 않습니다
+explanation: |
+  XOR은 정류적이어서 a XOR b는 b XOR a와 같습니다.
+reviewed: false

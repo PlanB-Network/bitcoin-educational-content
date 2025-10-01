@@ -1,0 +1,8 @@
+question: FOMO ve FUD nedir?
+answer: Dürtüsel ve potansiyel olarak zararlı kararlara yol açabilen duygular.
+wrong_answers:
+  - Bitcoin cüzdan türleri.
+  - Bitcoin satın alma stratejileri.
+  - Bitcoin ile ilgili yönetmelikler.
+explanation: >-
+reviewed: true

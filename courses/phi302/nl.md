@@ -154,7 +154,7 @@ Als ze daarin slagen, zullen dezelfde problemen in de toekomst waarschijnlijk we
 Geen van deze opties is gunstig voor de gebruiker.
 
 
-Weerstand tegen censuur door decentralisatie is wat Bitcoin onderscheidt van andere geldsystemen, maar het is niet eenvoudig te realiseren vanwege het *Double-spending probleem*. Dit is het probleem om ervoor te zorgen dat niemand dezelfde munt twee keer kan uitgeven, een probleem waarvan veel mensen dachten dat het onmogelijk was om het op een gedecentraliseerde manier op te lossen. Satoshi Nakamoto schrijft in zijn [Bitcoin whitepaper](https://planb.network/Bitcoin.pdf) over hoe het Double-spending probleem opgelost kan worden:
+Weerstand tegen censuur door decentralisatie is wat Bitcoin onderscheidt van andere geldsystemen, maar het is niet eenvoudig te realiseren vanwege het *Double-spending probleem*. Dit is het probleem om ervoor te zorgen dat niemand dezelfde munt twee keer kan uitgeven, een probleem waarvan veel mensen dachten dat het onmogelijk was om het op een gedecentraliseerde manier op te lossen. Satoshi Nakamoto schrijft in zijn [Bitcoin whitepaper](https://planb.network/bitcoin.pdf) over hoe het Double-spending probleem opgelost kan worden:
 
 
 > In dit artikel stellen we een oplossing voor voor het Double-spending probleem met behulp van een peer-to-peer gedistribueerde Timestamp server om generate rekenkundig bewijs te leveren van de chronologische volgorde van transacties.

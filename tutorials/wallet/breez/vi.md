@@ -1,5 +1,5 @@
 ---
-name: Gió nhẹ
+name: Breez
 description: Lightning Wallet giúp bạn kiểm soát mọi thứ.
 ---
 
@@ -103,9 +103,9 @@ Breez cung cấp cho bạn ba lựa chọn:
 
 
 
-- Nhận qua Lightning hoặc ID** Invoice: generate và Invoice và nhận thanh toán.
-- Nhận qua Bitcoin Address**: Nhận bitcoin với các giao dịch trên mạng chính Bitcoin.
-- Mua Bitcoin**: Breez kết hợp một cách để có được Bitcoin trực tiếp từ tiền tệ fiat.
+- Nhận qua Lightning hoặc **ID Invoice**: generate và Invoice và nhận thanh toán.
+- **Nhận qua Bitcoin Address**: Nhận bitcoin với các giao dịch trên mạng chính Bitcoin.
+- **Mua Bitcoin**: Breez kết hợp một cách để có được Bitcoin trực tiếp từ tiền tệ fiat.
 
 
 
@@ -139,9 +139,9 @@ Breez cung cấp cho bạn ba tùy chọn để gửi bitcoin.
 
 
 
-- Dán Invoice hoặc ID người dùng**: Thanh toán Lightning Invoice.
-- Kết nối để thanh toán**: Tạo phiên và mời người nhận tham gia phiên để gửi bitcoin cho họ.
-- Gửi tới BTC Address**: Giao dịch trên mạng chính Bitcoin.
+- **Dán Invoice hoặc ID người dùng**: Thanh toán Lightning Invoice.
+- **Kết nối để thanh toán**: Tạo phiên và mời người nhận tham gia phiên để gửi bitcoin cho họ.
+- Gửi tới **BTC Address**: Giao dịch trên mạng chính Bitcoin.
 
 
 
@@ -169,7 +169,7 @@ Bạn sẽ tìm thấy những dịch vụ hữu ích ngay trong ứng dụng.
 
 
 
-- Nghe podcast**: Breez là trình phát podcast 2.0 cho phép bạn hỗ trợ những người sáng tạo mà bạn yêu thích bằng cách quyên góp Bitcoin.
+- **Nghe podcast**: Breez là trình phát podcast 2.0 cho phép bạn hỗ trợ những người sáng tạo mà bạn yêu thích bằng cách quyên góp Bitcoin.
 
 
 Trong menu, chọn **Podcast**, sau đó tìm, khám phá và lắng nghe những người sáng tạo nội dung mà bạn yêu thích.
@@ -186,7 +186,7 @@ Hãy ủng hộ công việc của những người sáng tạo nội dung mà b
 
 
 
-- Điểm bán hàng**: Breez thích ứng hoàn hảo với doanh nghiệp của bạn, cho phép bạn chạy điểm bán hàng trong ứng dụng. Bạn có thể quản lý hàng tồn kho của cửa hàng, nhận thanh toán từ khách hàng và hóa đơn có thể in generate cho mọi giao dịch mua hàng. Hơn nữa, bạn có thể tìm thấy các loại tiền tệ địa phương của mình trong vô số loại tiền tệ được Breez hỗ trợ.
+- **Điểm bán hàng**: Breez thích ứng hoàn hảo với doanh nghiệp của bạn, cho phép bạn chạy điểm bán hàng trong ứng dụng. Bạn có thể quản lý hàng tồn kho của cửa hàng, nhận thanh toán từ khách hàng và hóa đơn có thể in generate cho mọi giao dịch mua hàng. Hơn nữa, bạn có thể tìm thấy các loại tiền tệ địa phương của mình trong vô số loại tiền tệ được Breez hỗ trợ.
 
 
 
@@ -210,7 +210,7 @@ Khi đã hoàn tất việc kiểm kê, bạn có thể dễ dàng Invoice cho k
 
 
 
-- Truy cập các dịch vụ của bên thứ ba**: Breez tích hợp các dịch vụ của bên thứ ba cho phép bạn thực hiện nhiều hành động hơn mà không cần phải rời khỏi danh mục đầu tư. Các dịch vụ này bao gồm Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- Truy cập các dịch vụ của bên thứ ba: Breez tích hợp các dịch vụ của bên thứ ba cho phép bạn thực hiện nhiều hành động hơn mà không cần phải rời khỏi danh mục đầu tư. Các dịch vụ này bao gồm Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)

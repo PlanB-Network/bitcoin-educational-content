@@ -1,0 +1,8 @@
+question: 2017'deki blok savaşının sonucu ne oldu?
+answer: Kullanıcılar ve düğümler blok boyutunu artırmak için önerilen değişikliği reddetti ve SegWit adlı bir güncellemeyi etkinleştirdi.
+wrong_answers:
+  - Kullanıcılar ve düğümler blok boyutunu artırmak için önerilen değişikliği kabul etti ve SegWit adı verilen bir güncellemeyi etkinleştirdi.
+  - Kullanıcılar ve düğümler blok boyutunu artırmak için önerilen değişikliği reddetmiş ve herhangi bir güncellemeyi etkinleştirmemiştir.
+  - Kullanıcılar ve düğümler blok boyutunu artırmak için önerilen değişikliği kabul etmiş ve herhangi bir güncellemeyi etkinleştirmemiştir.
+explanation: >-
+reviewed: true

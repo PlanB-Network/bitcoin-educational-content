@@ -1,0 +1,9 @@
+question: None Barack Obama yadondora gute Bitcoin?
+answer: Banki y'Ubusuwisi iri mu mufuko wawe
+wrong_answers:
+  - Inzahabu ya digitale
+  - Itunga ry'ugutekereza ku bintu vyinshi
+  - Ifaranga ryegekanijwe
+explanation: |
+  Barack Obama yigeze kuvuga ko Bitcoin ari "banki y'Ubusuwisi iri mu mufuko wawe." Nkako, Bitcoin itanga amahirwe amwe ku muntu wese, ataravye ikibanza afise, kandi iremeza Confidential Transactions.
+reviewed: false

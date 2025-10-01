@@ -1,0 +1,9 @@
+question: Distribusi mana yang paling cocok untuk Raspberry Pi, karena sangat ringan?
+answer: RaspiBlitz
+wrong_answers:
+  - Payung
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitz dioptimalkan untuk Raspberry Pi dan tetap ringan, tidak seperti Umbrel, yang menjadi terlalu berat untuk mesin ini.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bitcoin üzerindeki UTXO nedir?
+answer: Henüz harcanmamış bir Bitcoin parçası.
+wrong_answers:
+  - Fon almak için bir Bitcoin Address.
+  - Bitcoin Wallet'nın özel bir türü.
+  - Bitcoin için bir şifreleme algoritması.
+explanation: |
+  UTXO harcanmamış bir işlem çıktısıdır, bu nedenle esasen bir "Bitcoin parçasıdır".
+reviewed: false

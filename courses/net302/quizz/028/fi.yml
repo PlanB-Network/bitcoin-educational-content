@@ -1,0 +1,9 @@
+question: Mikä on TCP:n Transport Layer:n kautta kulkevan tiedon yksikkö?
+answer: Segmentti
+wrong_answers:
+  - Datagram
+  - Kehys
+  - Stream
+explanation: |
+  TCP:n kohdalla tiedonsiirtoyksikköä kutsutaan TCP:ssä segmentiksi, kun taas UDP:ssä käytetään termiä paketti.
+reviewed: false

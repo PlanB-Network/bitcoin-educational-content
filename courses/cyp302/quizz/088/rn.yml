@@ -1,0 +1,9 @@
+question: Ni igiki gikoreshwa mu gupfuka amabarabara yemejwe nk’ingingo ngenderwako ya AES?
+answer: Igitabu ca Rijndael
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Umunyakuzimu
+explanation: |
+  Rijndael Cipher yaremewe nk’itegeko ry’ugushiramwo amakuru y’ibanga (AES) na NIST, kubera ubushobozi bwayo bwinshi n’umutekano wayo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 哪個組織指派 IP 通訊協定版本號碼？
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  網際網路號碼指配機構 (IANA) 負責管理 IP 通訊協定版本號的 Assignment 以及通訊協定範圍的分配。
+reviewed: false

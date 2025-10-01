@@ -1,0 +1,9 @@
+question: 에릭 보스퀼의 저서 『크립토이코노믹스』에 따르면, Bitcoin의 보안은 무엇을 기반으로 하나요?
+answer: 개인용
+wrong_answers:
+  - Blockchain에서
+  - Hash 전원 정보
+  - 암호화 정보
+explanation: |
+  에릭 보스퀼은 Bitcoin의 보안은 무엇보다도 시스템 유지를 위해 위험을 감수하는 사람들에게 달려 있다고 설명합니다.
+reviewed: true

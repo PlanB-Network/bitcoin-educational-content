@@ -1,0 +1,9 @@
+question: Miks ei loeta ühte Wallet võrguosalist Bitcoin osalejaks?
+answer: Kuna see ei valideeri tehinguid ega plokke
+wrong_answers:
+  - Kuna see ei saa generate privaatvõtmeid
+  - Kuna see ei saa luua Bitcoin aadresse
+  - Kuna see ei kinnita müüki ega aadresse
+explanation: |
+  Wallet ei valideeri otseselt plokke ja tehinguid; ta lihtsalt haldab võtmeid ja sõltub ülejäänud osas sõlmedest.
+reviewed: true

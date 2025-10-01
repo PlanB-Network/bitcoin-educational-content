@@ -1,0 +1,13 @@
+question: Ni igiki gifise intumbero yo gukora umugambi w’iragi ry’ama bitcoins yawe?
+answer: Kugira ngo umenye neza ko ama bitcoins yawe azocungirwa neza inyuma y’urupfu rwawe.
+wrong_answers:
+  - Kugira ngo wirinde imisoro ku bitcoins zawe.
+  - Kugira ngo ugabanye agaciro k’ama bitcoins yawe.
+  - Kugira ngo ama bitcoins yawe ntiyibwe.
+explanation: |
+  Itegeko ry’iragi rituma ama bitcoins yawe azoba .
+  n’ugucungera neza inyuma y’urupfu rwawe. Bishobora kubamwo
+  Ikete ryanditswe n'ukuboko ridondora ido n'ido ivy'umutungo wawe, uko ushobora kubironka
+  uburyo, n’amakuru y’abantu bizigira .
+  kugira ngo bamenyeshe.
+reviewed: true

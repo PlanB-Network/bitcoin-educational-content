@@ -393,7 +393,6 @@ Dit tijdschrift (1814-1819), na de Honderd Dagen omgedoopt tot Le Censeur europ�
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, neef van Auguste Comte en schoonzoon van Say, is de oprichter van het tijdschrift. Hij werd al snel vergezeld door Charles Dunoyer, een jurist zoals hijzelf, en vervolgens door een jonge historicus, Augustin Thierry, voormalig secretaris van Saint Simon. Hun motto op de voorpagina van elk nummer van het tijdschrift was "Vrede en Vrijheid".
@@ -490,7 +489,6 @@ Hij was een fascinerend en formidabel spreker en had een wonderbaarlijke gave vo
 In 1845 publiceerde Bastiat in Parijs zijn boek Cobden and the League, met zijn vertalingen voorzien van commentaar. Het boek opent met een inleiding over de economische situatie van Engeland, over de geschiedenis van het ontstaan en de voortgang van de Liga. Sinds 1815 was het protectionisme in Engeland sterk ontwikkeld. Er waren vooral wetten die de invoer van graan beperkten, wat zeer harde gevolgen had voor het volk. Tarwe was immers noodzakelijk voor het maken van brood, een levensnoodzakelijk product in die tijd. Bovendien bevoordeelde dit systeem de aristocratie, dat wil zeggen de grootgrondbezitters, die er inkomsten uit haalden.
 
 
-![image](assets/en/042.webp)
 
 
 > Wat in Engeland naast elkaar bestaat, schreef Bastiat, is een klein aantal plunderaars en een groot aantal geplunderden, en je hoeft geen groot econoom te zijn om de weelde van de eersten en de ellende van de laatsten vast te stellen.
@@ -708,7 +706,6 @@ Stel je een Engels mes voor dat in ons land wordt verkocht voor 2 euro, en een m
 Als we het Engelse product verbieden, betaalt de consument een eenheid meer voor zijn mes. Protectionisme resulteert dus in winst voor een nationale industrie en twee verliezen, één voor een andere industrie (die van potloden) en de andere voor de consument. Vrijhandel daarentegen zorgt voor twee gelukkige winnaars.
 
 
-![image](assets/en/059.webp)
 
 
 Protectionisme is ook een vorm van klassenstrijd. Volgens Bastiat is het een systeem dat gebaseerd is op het egoïsme en de hebzucht van producenten. Om hun beloning te verhogen, eisen boeren of industriëlen belastingen om de markt te sluiten voor buitenlandse producten, waardoor consumenten gedwongen worden meer te betalen voor hun producten.
@@ -778,7 +775,6 @@ Pierre-Joseph Proudhon is een van de belangrijkste vertegenwoordigers van het Fr
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Er zit iets logisch absurds in deze bewering. Want als er geen rechtmatig verworven eigendom zou zijn, zou er logischerwijs ook geen daad als diefstal kunnen zijn. Daarom zou Proudhon later verduidelijken dat het de feitelijke verdeling van eigendom is die hij als diefstal beschouwt, niet het eigendom zelf, dat hij beschrijft als een revolutionaire kracht die ten grondslag ligt aan de anarchistische samenleving.
@@ -790,7 +786,6 @@ Er zit iets logisch absurds in deze bewering. Want als er geen rechtmatig verwor
 Maar Proudhon is een individualistische anarchist. Hij ziet het proletariaat noch de staat als legitieme bronnen van macht. Hij heeft scherpe kritiek op het communisme en pleit voor arbeidersmutualisme, een vorm van gestructureerde coöperatieve solidariteit, die zou berusten op de vrijwillige bundeling van middelen voor wederzijdse hulp. Het is minder bekend, maar Bastiat was in principe helemaal niet tegen dit idee. Hij was alleen bang dat de staat er een de facto monopolistische openbare dienst van zou maken. De geschiedenis zou hem gelijk geven.
 
 
-![image](assets/en/067.webp)
 
 
 Aan de andere kant is het bekend dat Marx in "De armoede van de filosofie" Proudhon en zijn socialisme, dat hij "utopisch" noemde, gewelddadig zou aanvallen ten gunste van een zogenaamd "wetenschappelijk" socialisme.
@@ -924,7 +919,6 @@ In 1840 stemde de Kamer van Afgevaardigden voor een wet die de importbelastingen
 
 hierboven: Marine Le Pen, een Franse politica_
 
-![image](assets/en/078.webp)
 
 
 Bastiat schreef toen een satirische tekst die later een van zijn beroemdste werken werd: "de petitie van de kaarsenmakers". Het illustreert hoe bepaalde goed georganiseerde pressiegroepen van producenten onterechte privileges van de staat krijgen, ten nadele van de burgers. Tegelijkertijd toont het de absurde en destructieve aard van protectionistische wetgeving.
@@ -984,7 +978,6 @@ Deze verwarring van middel en doel is terug te vinden in de slogan "geld is rijk
 Dit is het axioma dat het monetaire beleid van de meeste staten bepaalt. Inderdaad, de kunstmatige toename van de hoeveelheid geld stelt banken in staat om geld te lenen aan individuen en staten om hun schulden gemakkelijk terug te betalen, dit is "wat we zien". Maar "wat we niet zien" is dat deze geldcreatie, die niet gebaseerd is op enige echte welvaartschepping, zal leiden tot inflatie en de ondergang van spaarders.
 
 
-![image](assets/en/082.webp)
 
 
 Ware rijkdom, volgens Bastiat, is daarom het geheel van nuttige dingen die we produceren door te werken om onze behoeften te bevredigen. Geld is dus slechts een algemeen gebruikt Exchange middel, het speelt slechts de rol van tussenpersoon.
@@ -1023,7 +1016,6 @@ De economie beschrijft de goede of slechte effecten van politieke beslissingen o
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Vanaf het begin weerlegt hij het nog steeds gangbare argument dat overheidsuitgaven gefinancierd door belastingen banen creëren. Belastingen creëren inderdaad niets, omdat wat door de staat wordt uitgegeven niet meer door de belastingbetalers wordt uitgegeven.
 
@@ -1031,7 +1023,6 @@ Vanaf het begin weerlegt hij het nog steeds gangbare argument dat overheidsuitga
 Bovendien is de staat verkwistender dan individuen. Sterker nog, hij herinnert ons eraan dat de staat niets bezit; hij produceert geen rijkdom. Overheidsuitgaven zijn vaak een bron van verspilling omdat de immense bedragen die van individuen worden geconfisqueerd ontsnappen aan de verantwoordelijkheid van hun eigenaars en in hun plaats worden uitgegeven door bureaucraten, onderworpen aan pressiegroepen.
 
 
-![image](assets/en/085.webp)
 
 
 Als betaling voor een gelijkwaardige openbare dienst ontvangen in Exchange is belasting natuurlijk volledig verdedigbaar. Maar in Frankrijk heeft de staat verschillende rollen toegekend aan belastingen.
@@ -1043,7 +1034,6 @@ Aanvankelijk was het bedoeld om gemeenschappelijke uitgaven te dekken. Daarna kr
 Tot slot werd er een sociale rol toegekend aan belastingen. Ze werden een instrument van sociale rechtvaardigheid. Belastingen mogen dus niet iedereen op dezelfde manier treffen. Belastingen moeten herverdelend zijn, van degenen "die meer hebben" naar degenen "die minder hebben"
 
 
-![image](assets/en/086.webp)
 
 
 Het probleem is dat belastingen, zoals ze zijn opgevat, onderhevig zijn aan de willekeur van de machthebbers. Ze bevoordelen of benadelen bepaalde sociale categorieën afhankelijk van het feit of de machthebbers stemmen van hen verwachten of niet. Bovendien leveren progressieve tarieven weinig op voor de schatkist. Ze stellen de meerderheid echter in staat om een minderheid te onteigenen en worden van nature confiscatoir.
@@ -1144,7 +1134,6 @@ Politieke economie heeft daarom een duidelijk praktisch nut. Het onthult verspil
 Nogmaals, er zouden minder Tartuffes zijn als er minder Orgons waren om naar ze te luisteren. Dit is wat Bastiat hierover te zeggen heeft:
 
 
-![image](assets/en/094.webp)
 
 
 > Laat religieuze moraliteit daarom de harten van de Tartuffen raken als het kan. Het is de taak van de politieke economie om hun dupes te verlichten. Welke van deze twee benaderingen werkt het meest effectief voor sociale vooruitgang? Moet het gezegd worden? Ik geloof dat het de tweede is. Ik vrees dat de mensheid niet kan ontsnappen aan de noodzaak om eerst defensieve moraliteit te leren.
@@ -1299,7 +1288,6 @@ _(Alan Greenspan, voorzitter van de FED, de Amerikaanse centrale bank, van 1987 
 Jarenlang legden leiders van het monetaire beleid uit dat als winsten worden geprivatiseerd als alles goed gaat, verliezen zullen worden gecollectiviseerd in geval van faillissement (reddingsoperaties, reddingsplannen, rentemanipulatie, geld bijdrukken, etc.). Op die manier creëerden ze een moreel risico, vergemakkelijkten ze het nemen van onredelijke risico's en moedigden ze de financiële wereld aan om zich onverantwoordelijk te gedragen. Zo brachten ze de financiële wereld in de crisis die we nu doormaken.
 
 
-![image](assets/en/104.webp)
 
 
 En het fenomeen zal zich oneindig blijven herhalen zolang banken onder de heerschappij blijven van centrale autoriteiten die verondersteld worden hen te beschermen door alle beslissings- en operationele autonomie weg te nemen.
@@ -1413,13 +1401,11 @@ Het moet duidelijk zijn dat deze ontwikkeling van vooruitgang door verantwoordel
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat hekelt in zijn beroemde pamflet "De Wet" de perversie van het recht die bestaat uit het legaliseren, onder de naam van "solidariteit", van wat we inderdaad plundering moeten noemen. Er schuilt inderdaad een tegenstrijdigheid in het willen opleggen van broederschap door middel van de wet, wat we tegenwoordig "sociale rechtvaardigheid" of solidariteit zouden noemen.
 
 
-![image](assets/en/114.webp)
 
 
 Want moraliteit wordt gedefinieerd als vrijwillig gedrag. Wanneer een individu gedwongen wordt iets te geven wat hij niet wil geven, is hij altijd het slachtoffer van diefstal.
@@ -1482,7 +1468,6 @@ Solidariteit binnen de familie, lokale solidariteit of georganiseerde filantropi
 Het is vaak in de mode om te klagen over het "egoïsme" dat zou heersen in liberale samenlevingen. Maar precies het tegenovergestelde is waar. Wanneer een samenleving belast wordt met belastingen en individuen niet langer hun eigendom bezitten, worden ze niet aangemoedigd om te geven maar eerder om zich in zichzelf terug te trekken.
 
 
-![image](assets/en/119.webp)
 
 
 In werkelijkheid berust een vrije burgermaatschappij niet op egoïsme: de markteconomie werkt op basis van dienstbaarheid aan de naaste en wederkerigheid. Men kan alleen het eigen belang dienen door het belang van een ander te dienen, door de ander een tegenprestatie te bieden die leidt tot een wederzijds voordelige Exchange. Met andere woorden, het is de vrijwillige Exchange die echte solidariteit creëert. Met andere woorden, het is vrijwillige Exchange die echte solidariteit creëert.
@@ -1558,7 +1543,6 @@ Voor Rousseau gaat eigendom niet vooraf aan de wet; het is slechts een overeenko
 Bijvoorbeeld: het recht op werk of het recht op huisvesting.
 
 
-![image](assets/en/123.webp)
 
 
 Als ik iets gratis wil krijgen, moet iemand voor mij betalen. En als het de staat is die betaalt, omdat die geen rijkdom produceert, kan hij dat alleen doen door iemand een huis af te nemen, of het equivalent daarvan, om het aan mij te geven.
@@ -1575,7 +1559,6 @@ In het systeem van natuurlijke vrijheid bestaat er een natuurwet, onafhankelijk 
 Hier sluit Bastiat aan bij de nalatenschap van de Fysiocraten, en verder bij de traditie van de rechtsfilosofie van Cicero en Aristoteles. De wet schept geen rechten. Haar missie is ze te verdedigen en dus eigendom te verdedigen, zowel het eigendom van zichzelf, de integriteit van de persoon, als het eigendom van de vruchten van iemands arbeid.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 
@@ -1692,7 +1675,6 @@ Bastiat loopt dus een eeuw vooruit op de analyses van de werking van de politiek
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Bovendien, beweert Bastiat, heeft de staat geen rechten die niet eerst in het individu bestaan. Waarom heeft de staat het recht om, zelfs met geweld, het eigendom van elk individu te garanderen? Simpelweg omdat dit recht al in het individu bestaat. Men kan individuen het recht op zelfverdediging niet ontzeggen, het recht om zo nodig geweld te gebruiken om aanvallen op hun personen, hun vermogens en hun eigendommen af te slaan. Dit natuurlijke recht op zelfverdediging, dat in alle burgers aanwezig is, kan een collectieve vorm aannemen en gemeenschappelijk geweld legitimeren.
@@ -1731,7 +1713,6 @@ Samengevat: wanneer een overheid haar missie om mensen en eigendommen te bescher
 Schreef Frédéric Bastiat in een kort pamflet getiteld De Staat.
 
 
-![image](assets/en/138.webp)
 
 
 ## De nalatenschap van Frédéric Bastiat
@@ -1783,7 +1764,6 @@ Maar zoals Bastiat treffend aantoonde, heeft staatsinterventie perverse effecten
 Als we de zaken vanuit deze hoek bekijken, legde Reagan uit aan GE-werknemers, komen de zogenaamde wonderen van de staatsuitgaven in een heel ander daglicht te staan. Want belastingen ontmoedigen productie en de welvaart die wordt gecreëerd door overheidsuitgaven kan niet volledig de welvaart compenseren die werd voorkomen door de belastingen die werden geheven om deze uitgaven te betalen.
 
 
-![image](assets/en/138.webp)
 
 In essentie nam Reagan van Bastiat verschillende belangrijke Elements over van een liberale visie op de maatschappij en de mens: het primaat van de burgermaatschappij boven de staat, de waarde van keuze en individuele verantwoordelijkheid, het belang van de ondernemer bij het creëren van rijkdom, het belang van een flexibel en minimaal wettelijk kader dat vertrouwen en respect voor contracten mogelijk maakt, de fundamentele wet dat rijkdom moet worden gecreëerd voordat het kan worden verdeeld, de wens om iedereen een kans te geven in concurrerende markten..
 

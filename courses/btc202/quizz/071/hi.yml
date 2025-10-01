@@ -1,0 +1,9 @@
+question: रीबूट पर अपने पुराने साथियों को खोजने के लिए नोड सबसे पहले कौन सी फ़ाइलों से परामर्श करता है?
+answer: anchors.dat और peers.dat
+wrong_answers:
+  - Mempool.dat और peers.dat
+  - Mempool.dat और ip.dat
+  - ip.dat और anchors.dat
+explanation: |
+  Bitcoin core पहले anchors.dat (पिछले आउटगोइंग साथियों) से परामर्श करता है, फिर पुनः कनेक्ट करने के लिए peers.dat (ज्ञात Address पुस्तक) से परामर्श करता है।
+reviewed: true

@@ -715,20 +715,20 @@ Ivyo vyiyumviro bituma twibaza ukuntu insobanuro ya kera y’ugutera imbere kw�
 
 None, ni bangahe bafise ibibazo vy’ugutera imbere cane muri rusangi?
 
-Insobanuro rusangi z’ugutera imbere cane kw’ibiciro, nk’iyo Kagan yashizeho ivuga ko igipimo c’ugutera imbere kw’ibiciro ku kwezi ari 50%, rimwe na rimwe zirashobora gutera urujijo canke zigatera urujijo cane. Nk’akarorero, ibihugu bibiri bifise ibipimo vy’ugutera imbere kw’ibiciro ku mwaka ku rugero rwa 1.000% n’ibice 3.000% birashobora gufatwa mu buryo butandukanye bivanye n’ukuntu iyo ntumbero y’ugutera imbere igabanywa ku kwezi. Iyo ata kwezi kurenga urugero rwa 50%, nk’uko Kagan abisobanura, ivyo bihugu ntivyoba biri mu gihe c’ugutera imbere cane kw’ibiciro. Ubwo buryo rero burashobora gutuma habaho ukutumvikana mu gushikiriza ivyiyumviro vy’ugutera imbere kw’ibiciro, cane cane iyo ugereranya ugutera imbere kw’ibiciro vy’ibiciro vyinshi mu mwaka.
+Insobanuro rusangi z’ugutera imbere cane kw’ibiciro, nk’iyo Cagan yashizeho ivuga ko igipimo c’ugutera imbere kw’ibiciro ku kwezi ari 50%, rimwe na rimwe zirashobora gutera urujijo canke zigatera urujijo cane. Nk’akarorero, ibihugu bibiri bifise ibipimo vy’ugutera imbere kw’ibiciro ku mwaka ku rugero rwa 1.000% n’ibice 3.000% birashobora gufatwa mu buryo butandukanye bivanye n’ukuntu iyo ntumbero y’ugutera imbere igabanywa ku kwezi. Iyo ata kwezi kurenga urugero rwa 50%, nk’uko Cagan abisobanura, ivyo bihugu ntivyoba biri mu gihe c’ugutera imbere cane kw’ibiciro. Ubwo buryo rero burashobora gutuma habaho ukutumvikana mu gushikiriza ivyiyumviro vy’ugutera imbere kw’ibiciro, cane cane iyo ugereranya ugutera imbere kw’ibiciro vy’ibiciro vyinshi mu mwaka.
 
 
 ![image](assets/fr/038.webp)
 
 
 
-- Igitabo ca Kagan, "Impinduka z'amahera z'ugutera imbere kw'ibiciro", kitanga icegeranyo c'ishimikiro c'ugutera imbere kw'ibiciro.
-- Igitabo ca Bernold, kivuga ibihe 30 bitandukanye vy’ugutera imbere cane kw’ibiciro, gutyo kigatuma habaho ugusesangura gukomeye.
+- Igitabo ca Cagan, "Impinduka z'amahera z'ugutera imbere kw'ibiciro", kitanga icegeranyo c'ishimikiro c'ugutera imbere kw'ibiciro.
+- Igitabo ca Bernholz, kivuga ibihe 30 bitandukanye vy’ugutera imbere cane kw’ibiciro, gutyo kigatuma habaho ugusesangura gukomeye.
 - Ivya Dawidi ubwiwe yari yarakoranije mu bihe 36 vy’ugutera imbere cane kw’ibiciro, ivyo bikaba vyatumye umuntu ashobora gutahura ibintu bigaragara kandi vy’akahise.
-- Imbonerahamwe ya Hanky ​​Cross (iyi 2012, yahinduwe mu 2016 na Venezuela), ivuga ibihe 57 vy’ugutera imbere cane kw’ibiciro bishingiye ku nsobanuro ya Kagan.
+- Imbonerahamwe ya Hanky ​​Cross (iyi 2012, yahinduwe mu 2016 na Venezuela), ivuga ibihe 57 vy’ugutera imbere cane kw’ibiciro bishingiye ku nsobanuro ya Cagan.
 
 
-Birakenewe kumenya ko ibihe bimwe bimwe vy’amateka vy’ugutera imbere kw’ibiciro vyinshi bitashirwa mu mbonerahamwe za kera z’ugutera imbere kw’ibiciro cane, kenshi bivuye ku ngingo zikomeye zo gushikiriza ibiciro. Nk’akarorero, mu gihe c’intambara y’ukwikukira kwa Amerika mu kwezi kwa 11 1779, no mu gihe c’intambara y’abanyagihugu muri Amerika muri Ntwarante 1864, ibiharuro vy’ugutera imbere kw’ibiciro ku kwezi vyari 47,4% na 40%. Ivyo bipimo naho ari vyinshi, ntibirenga 50% vyashizweho na Kagan, gutyo bikaba bikuraho ivyo bihe kugira ngo ntibishirwe mu rutonde rw’ibihe vy’ugutera imbere cane. Ivyo bivugwa vyerekana aho insobanuro zikomeye zigarukira kandi bigaragaza ko bikenewe uburyo buteye igomwe bwo gutahura ugutera imbere kw’ibiciro mu buryo bwose butoroshe.
+Birakenewe kumenya ko ibihe bimwe bimwe vy’amateka vy’ugutera imbere kw’ibiciro vyinshi bitashirwa mu mbonerahamwe za kera z’ugutera imbere kw’ibiciro cane, kenshi bivuye ku ngingo zikomeye zo gushikiriza ibiciro. Nk’akarorero, mu gihe c’intambara y’ukwikukira kwa Amerika mu kwezi kwa 11 1779, no mu gihe c’intambara y’abanyagihugu muri Amerika muri Ntwarante 1864, ibiharuro vy’ugutera imbere kw’ibiciro ku kwezi vyari 47,4% na 40%. Ivyo bipimo naho ari vyinshi, ntibirenga 50% vyashizweho na Cagan, gutyo bikaba bikuraho ivyo bihe kugira ngo ntibishirwe mu rutonde rw’ibihe vy’ugutera imbere cane. Ivyo bivugwa vyerekana aho insobanuro zikomeye zigarukira kandi bigaragaza ko bikenewe uburyo buteye igomwe bwo gutahura ugutera imbere kw’ibiciro mu buryo bwose butoroshe.
 
 
 ## Weimar na Zimbabwe bisa
@@ -1157,7 +1157,7 @@ Ku rupapuro, ibubamfu, hari imyaka y’uguhindura amafaranga, izina ry’amafara
 ![image](assets/fr/052.webp)
 
 
-Ku ruhande rw’iburyo rw’ico gicapo, hariho igicapo c’ugutera imbere kw’ibiciro. Imyambi itukura igereranya imyaka y’ugutera imbere cane, isobanurwa hakurikijwe ingingo ya Kagan nk’igipimo c’ugutera imbere kw’ibice 50% ku kwezi. Ico kigereranyo gishobora rimwe na rimwe gutuma habaho insobanuro zidasobanutse, imyaka ikaba ifise ibiharuro vyinshi vy’ugutera imbere kw’ibiciro ariko idahuye n’insobanuro ikomeye y’ugutera imbere kw’ibiciro cane.
+Ku ruhande rw’iburyo rw’ico gicapo, hariho igicapo c’ugutera imbere kw’ibiciro. Imyambi itukura igereranya imyaka y’ugutera imbere cane, isobanurwa hakurikijwe ingingo ya Cagan nk’igipimo c’ugutera imbere kw’ibice 50% ku kwezi. Ico kigereranyo gishobora rimwe na rimwe gutuma habaho insobanuro zidasobanutse, imyaka ikaba ifise ibiharuro vyinshi vy’ugutera imbere kw’ibiciro ariko idahuye n’insobanuro ikomeye y’ugutera imbere kw’ibiciro cane.
 
 Birakenewe kumenya ko uguhindura idini, mu bihe vy’ugutera imbere kw’ibiciro, ari ingingo isanzwe ifatwa n’intwaro. Ariko rero, ivyo ntibitorera umuti ingorane nyamukuru y’ugutera imbere kw’ibiciro canke ugutera imbere cane kw’ibiciro. Ni uburyo gusa bwo guhindura izina ry’amahera no gukuraho zero, ata gutorera umuti vy’ukuri umuzi w’ugutera imbere kw’ibiciro: ukwaguka kw’amahera Supply. Mu videwo izoza, tuzovuga ku mirongo nyayo y’imiti y’ikibazo ca Address no gutorera umuti ingorane y’ugutera imbere kw’ibiciro. Muri uru rukurikirane, tuzoshira ahabona ingaruka z’uguhindura idini mu buryo bworoshe ata mpinduka zihagije: ugutera imbere kw’ibiciro kurabandanya.
 
@@ -1306,7 +1306,7 @@ Mu gusozera, ugutera imbere kw’ibiciro ni umuce umwe gusa w’ingorane z’ubu
 ### Uko twohagarika inflation iringaniye n'iyirengeye
 
 
-Ivyo bivugwa biva mu gitabu ca Bernold citwa "Régime monétaire et l'inflation". Nk’uko Bernold abivuga, uburyo bwonyene bwo gukuraho inflation ni ugukora ivugurura ry’amahera no gushinga amategeko kuri Leta. Ivyo bibujijwe birimwo ugushinga ikigo, nk’ibanki nkuru, gikora kidashingiye ku ngingo za politike za Leta. Inflation nyinshi n’izirengeje urugero akenshi ziterwa n’ugufasha mu gutanga amafaranga y’ingengo y’imari biciye mu kurema amafaranga. Kugira ngo Address igabanye inflation, ni ngombwa ko igabanya iterambere ry’amahera Supply. Bernold kandi avuga ko iyo nkunga y’amahera ikwiye kuba igereranijwe n’ibihugu bihegereye. Ikintu gitangaje ni uko, mu bihe vy’ugutera imbere cane canke kw’ugutera imbere cane, agaciro kose k’amahera Supply gashobora kugabanuka mu vy’ukuri. Akarorero gakomeye k’ivyo bintu ni Zimbabwe.
+Ivyo bivugwa biva mu gitabu ca Bernholz citwa "Régime monétaire et l'inflation". Nk’uko Bernholz abivuga, uburyo bwonyene bwo gukuraho inflation ni ugukora ivugurura ry’amahera no gushinga amategeko kuri Leta. Ivyo bibujijwe birimwo ugushinga ikigo, nk’ibanki nkuru, gikora kidashingiye ku ngingo za politike za Leta. Inflation nyinshi n’izirengeje urugero akenshi ziterwa n’ugufasha mu gutanga amafaranga y’ingengo y’imari biciye mu kurema amafaranga. Kugira ngo Address igabanye inflation, ni ngombwa ko igabanya iterambere ry’amahera Supply. Bernholz kandi avuga ko iyo nkunga y’amahera ikwiye kuba igereranijwe n’ibihugu bihegereye. Ikintu gitangaje ni uko, mu bihe vy’ugutera imbere cane canke kw’ugutera imbere cane, agaciro kose k’amahera Supply gashobora kugabanuka mu vy’ukuri. Akarorero gakomeye k’ivyo bintu ni Zimbabwe.
 
 
 ### Inyishu zitandukanye
@@ -1315,10 +1315,10 @@ Ivyo bivugwa biva mu gitabu ca Bernold citwa "Régime monétaire et l'inflation"
 Igihe bariko bariga igihugu ca Zimbabwe, vyabonetse ko amahera Supply angana na trillions 10 yari yatakaje agaciro kayo kose. I Weimar, vyarashobotse gucapura ibice bibiri vya gatatu vy’agaciro k’amahera yose hamwe k’amamiliyaridi 65 y’amahera Supply mu musi umwe. Ivyo vyerekana ingene amahera Supply ashobora gukurwako agaciro. Kugira ngo ivyo bishobore gutorwa, birakenewe ko amahera Supply yongerwa cane kugira ngo ashike ku rugero rukwiye. Maze, ivugurura ry’amahera ni ngombwa cane. Mu gihe c’ugutera imbere kw’ibiciro, iyo mpinduka ntishobora kwirindwa, ariko itegerezwa gutuma haba amahera ahagije ariko aragendagenda. Inyuma y’iyo ntambwe, Leta irashobora gushirwako amategeko.
 
 
-Nk’uko Bernold abibona, iyo bishitse ku gutorera umuti ingorane z’ugutera imbere kw’ibiciro, inzego nka FMI na Banki y’Isi yose ntizama zifata ingamba zibereye. Hari igihe iyo igihugu gikeneye kwongera amahera Supply, izo nzego zirondera kuyagabanya. Urufunguruzo ni ugushika ku rugero rw’amahera rukwiye hanyuma ugashiraho imipaka ku gukura kwayo, gutyo ugashobora kwirinda gutanga amahera y’amahera Leta ikoresha biciye mu kurema amahera.
+Nk’uko Bernholz abibona, iyo bishitse ku gutorera umuti ingorane z’ugutera imbere kw’ibiciro, inzego nka FMI na Banki y’Isi yose ntizama zifata ingamba zibereye. Hari igihe iyo igihugu gikeneye kwongera amahera Supply, izo nzego zirondera kuyagabanya. Urufunguruzo ni ugushika ku rugero rw’amahera rukwiye hanyuma ugashiraho imipaka ku gukura kwayo, gutyo ugashobora kwirinda gutanga amahera y’amahera Leta ikoresha biciye mu kurema amahera.
 
 
-Ikintu gishimishije Bernold yashize ahabona ni uko ukuroranirwa kw’ivugurura ry’amahera bitavana gusa n’uko rifise akamaro mu vy’ubuhinga, ariko kandi bivana n’ukwizigira abanyagihugu barishiramwo. Impinduka zimwe zimwe ziteguwe neza zirashobora kunanirwa kubera ko abantu bose batazizigira, mu gihe izindi, ziteguwe nabi, zishobora kuroranirwa kubera ko abanyagihugu bazizigira. Ugutahura n’ukwizigira kwa bose rero ni ngirakamaro Elements mu kuroranirwa canke kunanirwa kw’ivugurura ry’amahera.
+Ikintu gishimishije Bernholz yashize ahabona ni uko ukuroranirwa kw’ivugurura ry’amahera bitavana gusa n’uko rifise akamaro mu vy’ubuhinga, ariko kandi bivana n’ukwizigira abanyagihugu barishiramwo. Impinduka zimwe zimwe ziteguwe neza zirashobora kunanirwa kubera ko abantu bose batazizigira, mu gihe izindi, ziteguwe nabi, zishobora kuroranirwa kubera ko abanyagihugu bazizigira. Ugutahura n’ukwizigira kwa bose rero ni ngirakamaro Elements mu kuroranirwa canke kunanirwa kw’ivugurura ry’amahera.
 
 
 

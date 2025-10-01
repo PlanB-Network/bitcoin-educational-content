@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -84,8 +84,8 @@ Przy pierwszym uruchomieniu należy zapoznać się z instrukcjami w oknie "**Get
 
 
 
-- Feeder**: moduł odpowiedzialny za generowanie list adresów IP do skanowania, z losowego zakresu IP lub pliku z listą adresów IP.
-- Fetcher**: zestaw modułów do pobierania informacji o hostach w sieci. Istnieją na przykład pobieracze do wykrywania adresów MAC, skanowania portów, wykrywania nazw hostów lub wysyłania żądań HTTP.
+- **Feeder**: moduł odpowiedzialny za generowanie list adresów IP do skanowania, z losowego zakresu IP lub pliku z listą adresów IP.
+- **Fetcher**: zestaw modułów do pobierania informacji o hostach w sieci. Istnieją na przykład pobieracze do wykrywania adresów MAC, skanowania portów, wykrywania nazw hostów lub wysyłania żądań HTTP.
 
 
 

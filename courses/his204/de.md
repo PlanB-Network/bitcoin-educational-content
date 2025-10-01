@@ -1252,7 +1252,7 @@ Wie kam Turgot zu einer solchen Berühmtheit? Es war das Ergebnis einer Kombinat
 ![image](assets/fr/106.webp)
 
 
-Er war ein Zeitgenosse der Physiokraten, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet und anderer. **Drittens: seine intellektuelle Frühreife. Während seines Studiums an der Sorbonne schrieb er im Alter von 22 Jahren einen Brief über Papiergeld, hielt bemerkenswerte Reden und verfasste mit 24 Jahren eine Liste mit 52 zu schreibenden Werken.
+Er war ein Zeitgenosse der Physiokraten, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet und anderer. **Drittens: seine intellektuelle Frühreife.** Während seines Studiums an der Sorbonne schrieb er im Alter von 22 Jahren einen Brief über Papiergeld, hielt bemerkenswerte Reden und verfasste mit 24 Jahren eine Liste mit 52 zu schreibenden Werken.
 
 
 
@@ -1353,9 +1353,9 @@ Da die Region so arm war, war sie für die Minister nicht von Interesse. Dies ga
 
 
 
-- Die Umverteilung des taille**, die persönliche Steuer (Turgot wollte so viel Objektivität wie möglich in ihre Bewertung einbringen).
-- Die corvée**, eine Art Arbeitssteuer, bei der die Bauern gezwungen wurden, beim Straßenbau mitzuarbeiten. Bei einer Reise durch die Region stellte Turgot schnell den schlechten Zustand der Straßen fest. Er ersetzte die corvée durch eine Geldsteuer.
-- Die Rekrutierung von Milizen**, Bauernarmeen, die in Kriegszeiten mobilisiert werden.
+- Die Umverteilung der **taille**, die persönliche Steuer (Turgot wollte so viel Objektivität wie möglich in ihre Bewertung einbringen).
+- Die **corvée**, eine Art Arbeitssteuer, bei der die Bauern gezwungen wurden, beim Straßenbau mitzuarbeiten. Bei einer Reise durch die Region stellte Turgot schnell den schlechten Zustand der Straßen fest. Er ersetzte die **corvée** durch eine Geldsteuer.
+- Die Rekrutierung von **Milizen**, Bauernarmeen, die in Kriegszeiten mobilisiert werden.
 
 
 ![image](assets/fr/115.webp)

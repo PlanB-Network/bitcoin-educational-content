@@ -22,4 +22,4 @@ Dahası, bir general bir başkasıyla ancak bir kurye tarafından iletilen mesaj
 İkilemi Bitcoin Blockchain bağlamına uygularsak, her bir genel ağdaki bir düğümü temsil eder ve sistemin durumu hakkında bir uzlaşmaya varması gerekir. Başka bir deyişle, dağıtılmış bir ağdaki katılımcıların çoğunluğu, toplam başarısızlığı önlemek için aynı eylemi kabul etmeli ve yürütmelidir. Bu tür bir dağıtık sistemde fikir birliğine varmanın tek yolu, ağ düğümlerinin en az 2/3'ünün güvenilir ve dürüst olmasıdır. Bu nedenle, ağın çoğunluğu kötü niyetli davranmaya karar verirse, sistem savunmasız kalır.
 
 
-> ► *Bu ikilem bazen "Güvenilir Yayın Sorunu" olarak da adlandırılmaktadır
+> ► *Bu ikilem bazen "Güvenilir Yayın Sorunu" olarak da adlandırılmaktadır*

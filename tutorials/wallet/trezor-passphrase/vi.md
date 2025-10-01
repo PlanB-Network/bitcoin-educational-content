@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Làm thế nào để thêm passphrase vào danh mục đầu tư Trezor của tôi?
 ---
 ![cover](assets/cover.webp)
@@ -71,7 +71,7 @@ Cửa sổ này yêu cầu bạn nhập passphrase của mình. Chọn một pas
 
 
 
-tất nhiên, bạn không bao giờ nên chia sẻ passphrase của mình trên Internet, như tôi đã làm trong hướng dẫn này. Ví dụ Wallet này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.**_
+tất nhiên, bạn không bao giờ nên chia sẻ passphrase của mình trên Internet, như tôi đã làm trong hướng dẫn này. Ví dụ Wallet này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa vào cuối hướng dẫn.
 
 
 

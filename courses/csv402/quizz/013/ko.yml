@@ -1,0 +1,9 @@
+question: RGB Contract의 주요 작업은 무엇인가요?
+answer: State Transition, Genesis 및 State Extension
+wrong_answers:
+  - Seal Definition, Commitment 및 유효성 검사
+  - Anchor 생성, DAG 업데이트 및 트랜잭션 서명
+  - Genesis 블록, UTXO 할당 및 스크립트 유효성 검사
+explanation: |
+  이러한 작업은 Schema에 따라 Contract의 상태를 수정하거나 완료합니다.
+reviewed: false

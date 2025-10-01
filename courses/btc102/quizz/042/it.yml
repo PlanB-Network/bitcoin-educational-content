@@ -1,4 +1,4 @@
-question: Quale qualità psicologica è essenziale per un hodler?
+question: Quale attitudine psicologica è essenziale per un hodler?
 answer: Resilienza emotiva
 wrong_answers:
   - Impulsività emotiva
@@ -6,4 +6,4 @@ wrong_answers:
   - Speculazione emotiva
 explanation: |
   La resilienza emotiva permette di sopportare le fluttuazioni del mercato senza lasciarsi prendere dal panico.
-reviewed: false
+reviewed: true

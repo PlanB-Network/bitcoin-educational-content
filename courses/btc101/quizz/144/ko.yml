@@ -1,0 +1,8 @@
+question: Proof of Work(포로)란 무엇인가요?
+answer: 이는 Bitcoin 프로토콜의 보안 합의입니다.
+wrong_answers:
+  - 새로운 비트코인을 생성하는 과정입니다.
+  - Bitcoin 거래를 확인하는 방법입니다.
+  - 비트코인을 채굴하는 데 사용되는 알고리즘입니다.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wat combineerde de oorspronkelijke Bitcoin software in 2009?
+answer: Wallet, strijkstok en mineur
+wrong_answers:
+  - Knooppunt, Miner en Block explorer
+  - Wallet, chopper en Miner
+  - Miner en Mining pool
+explanation: |
+  De oorspronkelijke Bitcoin software integreerde Wallet, node en Miner functies in één enkel programma.
+reviewed: true

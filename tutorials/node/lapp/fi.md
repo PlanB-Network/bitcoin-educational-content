@@ -1,9 +1,11 @@
 ---
-name: LAPP bitcoin
-description: Opas ensimmäisen LAppisi kehittämiseen
+name: Lightning App
+description: Opas ensimmäisen Lightning-sovelluksesi (LAPP) kehittämiseen
 ---
 
-Opi koodaamaan ensimmäinen salamaverkko-sovelluksesi
+![cover](assets/cover.webp)
+
+## Opi koodaamaan ensimmäinen lightning-sovelluksesi
 
 Vaatimukset:
 
@@ -18,6 +20,8 @@ Salamaverkko-sovelluksemme rakentamiseen käytämme seuraavia teknologioita:
 
 - Express web-palvelimellemme
 - Pug-mallit + bootstrap käyttöliittymällemme
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Käyttöjärjestelmä
 

@@ -1772,7 +1772,7 @@ Eine praktische Umsetzung eines asymmetrischen Verfahrens wurde jedoch ein Jahr 
 
 Die in der asymmetrischen Kryptographie (und beim Diffie-Helmann-Schlüsselaustausch) verwendeten Falltürfunktionen sind alle mit zwei **rechnerisch schwierigen Problemen** verbunden: der Primfaktorzerlegung und der Berechnung von diskreten Logarithmen.
 
-*bei der *Primfaktorzerlegung** muss, wie der Name schon sagt, eine ganze Zahl in ihre Primfaktoren zerlegt werden. Das RSA-Problem ist bei weitem das bekannteste Beispiel für ein Kryptosystem, das mit der Primfaktorzerlegung zusammenhängt.
+*Bei der **Primfaktorzerlegung*** muss, wie der Name schon sagt, eine ganze Zahl in ihre Primfaktoren zerlegt werden. Das RSA-Problem ist bei weitem das bekannteste Beispiel für ein Kryptosystem, das mit der Primfaktorzerlegung zusammenhängt.
 
 Das **Diskrete Logarithmusproblem** ist ein Problem, das in zyklischen Gruppen auftritt. Bei einem Generator in einer bestimmten zyklischen Gruppe muss der eindeutige Exponent berechnet werden, der erforderlich ist, um aus dem Generator ein anderes Element der Gruppe zu erzeugen.
 
@@ -2083,7 +2083,7 @@ Nehmen wir zum Beispiel an, dass $N = 270$ ist. Dies ist eindeutig keine Primzah
 
 $$\phi(N) = 2^{1 - 1} \cdot (2 - 1) + 3^{3 - 1} \cdot (3 - 1) + 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 + 9 \cdot 2 + 1 \cdot 4 = 1 + 18 + 4 = 23$$
 
-Nehmen wir weiter an, dass $N$ ein Produkt aus zwei Primzahlen $p$ und $q$ ist. **Der obige Satz 2 besagt dann, dass die Ordnung von $N$ wie folgt ist:
+Nehmen wir weiter an, dass $N$ ein Produkt aus zwei Primzahlen $p$ und $q$ ist. **Der obige Satz 2 besagt dann, dass die Ordnung von $N$ wie folgt ist:**
 
 $$p^{1 - 1} \cdot (p - 1) \cdot q^{1 - 1} \cdot (q - 1) = (p - 1) \cdot (q - 1)$$
 

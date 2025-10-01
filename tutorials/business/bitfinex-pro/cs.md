@@ -80,11 +80,11 @@ Po vyplnění a odeslání žádosti může trvat několik dní, než ji platfor
 Po přihlášení se v horní části rozhraní zobrazí navigační panel s: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" atd. Bitfinex nabízí širokou škálu funkcí, včetně:
 
 
-- Obchodování**: "*klasický*" trh, kde můžete zadávat příkazy k nákupu a prodeji kryptoměn (včetně bitcoinu);
-- OTC**: OTC: mimoburzovní služba pro obchodování velkých objemů přímo s jiným subjektem, mimo veřejné knihy příkazů;
-- Financování**: Oblast věnovaná úvěrům a maržovému financování;
-- Deriváty**: Sekce pro deriváty (futures atd.), určená pro zkušené obchodníky;
-- P2P**: Umožňuje nakupovat nebo prodávat kryptoměny od ostatních uživatelů na bázi peer-to-peer.
+- **Obchodování**: "*klasický*" trh, kde můžete zadávat příkazy k nákupu a prodeji kryptoměn (včetně bitcoinu);
+- **OTC**: mimoburzovní služba pro obchodování velkých objemů přímo s jiným subjektem, mimo veřejné knihy příkazů;
+- **Financování**: Oblast věnovaná úvěrům a maržovému financování;
+- **Deriváty**: Sekce pro deriváty (futures atd.), určená pro zkušené obchodníky;
+- **P2P**: Umožňuje nakupovat nebo prodávat kryptoměny od ostatních uživatelů na bázi peer-to-peer.
 
 Pro standardní použití (nákup/prodej bitcoinů, vklady/výběry a správa hotovosti) budete používat hlavně záložku "*Trading*" a sekce "*Wallet*", "*Deposit*" a "*Withdraw*".
 

@@ -472,11 +472,11 @@ Bir satıcı olarak Bisq'teki itibarınızı artırmak için düzenli işlemler 
 
 
 
-- Maksimum gizlilik**: KYC yok, Tor kullanımı
-- Merkezsizleştirme**: Merkezi sunucu yok
-- Güvenlik**: Açık kaynak, gözetim dışı kod
-- Sezgisel Interface**: Bisq 1'den daha basit
-- Esneklik**: Çoklu Exchange protokolleri
+- **Maksimum gizlilik**: KYC yok, Tor kullanımı
+- **Merkezsizleştirme**: Merkezi sunucu yok
+- **Güvenlik**: Açık kaynak, gözetim dışı kod
+- **Sezgisel Interface**: Bisq 1'den daha basit
+- **Esneklik**: Çoklu Exchange protokolleri
 
 
 ### Bisq 2 dezavantajları
@@ -484,12 +484,12 @@ Bir satıcı olarak Bisq'teki itibarınızı artırmak için düzenli işlemler 
 
 
 
-- Sınırlı likidite** (şimdilik) :
+- **Sınırlı likidite** (şimdilik) :
  - Başlangıç aşamasında yeni protokol
  - Birkaç satış teklifi mevcut
  - Alıcı bulmak için potansiyel olarak uzun bekleme süreleri
-- İşlem limitleri**: İşlem başına maksimum 600 USD (Bisq easy ile)
-- Sadece masaüstü**: Mobil uygulama yok
+- **İşlem limitleri**: İşlem başına maksimum 600 USD (Bisq easy ile)
+- **Sadece masaüstü**: Mobil uygulama yok
 
 
 ## Gelecek Protokolleri
@@ -500,16 +500,16 @@ Bisq Easy şu anda mevcut olan tek protokol olmasına rağmen, Bisq 2 için baş
 
 
 
-- Bisq Lightning**: Exchange üzerinde çok partili hesaplama kriptografisi kullanan bir emanet sistemine dayalı Lightning Network protokolü.
-- Bisq MuSig**: Ana protokolün Bisq 1'den Bisq 2'ye, 2'ye 2 Multisig kullanılarak, teminat depozitoları ile taşınması.
-- BSQ Takasları**: BSQ ve BTC arasında anlık atomik takaslar.
-- Liquid Swapları**: Atomik takaslar yoluyla Exchange üzerindeki varlıkların Liquid Network (USDT, BTC-L).
-- Monero Takasları**: Bitcoin ve Monero arasında atomik takaslar.
-- Liquid MuSig**: Multisig protokolünün daha düşük maliyet ve daha fazla gizlilik için L-BTC kullanan sürümü.
-- Denizaltı Takasları**: Lightning Network ve Bitcoin On-Chain üzerindeki Bitcoin arasındaki değişimler.
-- Stablecoin Takasları**: Bitcoin ve USD sabit coinleri arasında atomik değişimler.
-- Multisig Opsiyonları**: Bir On-Chain Multisig işleminde BTC blokajlı P2P satım ve alım opsiyonlarının oluşturulması.
-- Multisig Açık Sözleşmeler**: Arbitrajlı 2'ye 3 Multisig sistemi kullanarak özelleştirilmiş koşullu sözleşmelerin oluşturulmasını sağlar.
+- **Bisq Lightning**: Exchange üzerinde çok partili hesaplama kriptografisi kullanan bir emanet sistemine dayalı Lightning Network protokolü.
+- **Bisq MuSig**: Ana protokolün Bisq 1'den Bisq 2'ye, 2'ye 2 Multisig kullanılarak, teminat depozitoları ile taşınması.
+- **BSQ Takasları**: BSQ ve BTC arasında anlık atomik takaslar.
+- **Liquid Swapları**: Atomik takaslar yoluyla Exchange üzerindeki varlıkların Liquid Network (USDT, BTC-L).
+- **Monero Takasları**: Bitcoin ve Monero arasında atomik takaslar.
+- **Liquid MuSig**: Multisig protokolünün daha düşük maliyet ve daha fazla gizlilik için L-BTC kullanan sürümü.
+- **Denizaltı Takasları**: Lightning Network ve Bitcoin On-Chain üzerindeki Bitcoin arasındaki değişimler.
+- **Stablecoin Takasları**: Bitcoin ve USD sabit coinleri arasında atomik değişimler.
+- **Multisig Opsiyonları**: Bir On-Chain Multisig işleminde BTC blokajlı P2P satım ve alım opsiyonlarının oluşturulması.
+- **Multisig Açık Sözleşmeler**: Arbitrajlı 2'ye 3 Multisig sistemi kullanarak özelleştirilmiş koşullu sözleşmelerin oluşturulmasını sağlar.
 
 
 Bu protokoller şu anda geliştirilme aşamasındadır ve kullanıcılara özel ihtiyaçlarına göre daha fazla esneklik sunarak Bisq 2'ye aşamalı olarak entegre edilecektir.

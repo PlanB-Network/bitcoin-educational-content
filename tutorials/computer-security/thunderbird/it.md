@@ -17,13 +17,13 @@ Thunderbird è un'applicazione di posta elettronica rinomata per la sua flessibi
 
 
 
-- Gratuito e open source**: a differenza di molte applicazioni di messaggistica, Thunderbird è totalmente gratuito. Tuttavia, è possibile sostenere la comunità degli sviluppatori inviando loro una donazione.
-- Interface intuitivo e facile da imparare**: La configurazione di Thunderbird è, per la maggior parte, semplice, quindi non c'è bisogno di preoccuparsi.
-- Adatta a diversi tipi di e-mail**: che si tratti di Gmail, Yahoo, Outlook o anche di e-mail aziendali associate a un nome di dominio, questa casella di posta elettronica è estremamente versatile.
-- Multi-account**: Thunderbird consente di connettersi a diversi account di posta elettronica contemporaneamente, semplificando l'accesso a tutti i messaggi.
-- Funzionalità e scalabilità ad alte prestazioni**: per impostazione predefinita, Thunderbird offre un'ampia gamma di funzionalità per la gestione degli account di posta elettronica e del calendario degli eventi. Tuttavia, consente anche di aggiungere ulteriori opzioni grazie alle numerose estensioni disponibili.
-- Multipiattaforma**: Thunderbird è disponibile su diversi dispositivi (Android, Windows, Linux, macOS) e consente di accedere facilmente alla posta elettronica.
-- Sicurezza**: Thunderbird è un'applicazione altamente sicura, che consente di beneficiare della crittografia end-to-end basata su RSA o ECC (Elliptic Curve) per garantire la riservatezza dei dati.
+- **Gratuito e open source**: a differenza di molte applicazioni di messaggistica, Thunderbird è totalmente gratuito. Tuttavia, è possibile sostenere la comunità degli sviluppatori inviando loro una donazione.
+- **Interface intuitivo e facile da imparare**: La configurazione di Thunderbird è, per la maggior parte, semplice, quindi non c'è bisogno di preoccuparsi.
+- **Adatta a diversi tipi di e-mail**: che si tratti di Gmail, Yahoo, Outlook o anche di e-mail aziendali associate a un nome di dominio, questa casella di posta elettronica è estremamente versatile.
+- **Multi-account**: Thunderbird consente di connettersi a diversi account di posta elettronica contemporaneamente, semplificando l'accesso a tutti i messaggi.
+- **Funzionalità e scalabilità ad alte prestazioni**: per impostazione predefinita, Thunderbird offre un'ampia gamma di funzionalità per la gestione degli account di posta elettronica e del calendario degli eventi. Tuttavia, consente anche di aggiungere ulteriori opzioni grazie alle numerose estensioni disponibili.
+- **Multipiattaforma**: Thunderbird è disponibile su diversi dispositivi (Android, Windows, Linux, macOS) e consente di accedere facilmente alla posta elettronica.
+- **Sicurezza**: Thunderbird è un'applicazione altamente sicura, che consente di beneficiare della crittografia end-to-end basata su RSA o ECC (Elliptic Curve) per garantire la riservatezza dei dati.
 
 
 
@@ -59,8 +59,8 @@ In Windows, eseguire l'eseguibile scaricato per avviare l'installazione. Fare cl
 
 
 
-- Standard**: consente l'installazione diretta senza alcuna configurazione preliminare.
-- Personalizzato**: consente di scegliere la cartella di installazione e di creare o meno dei collegamenti sul desktop.
+- **Standard**: consente l'installazione diretta senza alcuna configurazione preliminare.
+- **Personalizzato**: consente di scegliere la cartella di installazione e di creare o meno dei collegamenti sul desktop.
 
 
 
@@ -72,7 +72,7 @@ In Windows, eseguire l'eseguibile scaricato per avviare l'installazione. Fare cl
 
 
 
-**Avvio dell'installazione
+**Avvio dell'installazione**
 
 
 
@@ -116,7 +116,7 @@ Si apre una finestra che consente di inserire le informazioni. Immettere il nome
 
 
 
-**Selezione del protocollo e configurazione della connessione
+**Selezione del protocollo e configurazione della connessione**
 
 
 

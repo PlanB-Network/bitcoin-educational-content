@@ -1,5 +1,5 @@
 ---
-name: Blinka
+name: Blink
 description: Komplett Blink Wallet-handledning - Skicka, ta emot och använda Bitcoin med lätthet
 ---
 

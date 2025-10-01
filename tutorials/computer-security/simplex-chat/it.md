@@ -1,5 +1,5 @@
 ---
-name: Chat SimpleX
+name: SimpleX Chat
 description: La prima mailbox senza ID utente
 ---
 ![cover](assets/cover.webp)

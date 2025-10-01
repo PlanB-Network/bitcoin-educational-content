@@ -14,4 +14,4 @@ En annan metod för att sätta fel Address framför offret är att använda bedr
 För att skydda dig mot dessa olika angreppsmetoder är det viktigt att kontrollera flera tecken i Address, särskilt dess kontrollsumma (i slutet), på skärmen på signeringsenheten innan du signerar transaktionen.
 
 
-> ► *Denna attack kallas ibland också Address-förgiftning
+> ► *Denna attack kallas ibland också Address-förgiftning*

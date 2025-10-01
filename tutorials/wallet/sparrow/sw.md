@@ -507,7 +507,7 @@ Chagua UTXO unazotaka kutumia kama pembejeo za muamala huu, kisha ubofye "*Tuma 
 ![Image](assets/fr/49.webp)
 
 
-Weka Address ya mpokeaji katika sehemu ya "*Lipa kwa*". Unaweza pia kuchanganua Address na kamera yako ya wavuti kwa kubofya ikoni ya kamera. Kitufe cha "+Ongeza*" hukuwezesha kulipa anwani nyingi katika muamala mmoja.
+Weka Address ya mpokeaji katika sehemu ya "**Lipa kwa**". Unaweza pia kuchanganua Address na kamera yako ya wavuti kwa kubofya ikoni ya kamera. Kitufe cha "**+Ongeza**" hukuwezesha kulipa anwani nyingi katika muamala mmoja.
 
 
 ![Image](assets/fr/50.webp)

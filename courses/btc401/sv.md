@@ -178,9 +178,9 @@ Samtidigt utgjorde **Austrian Economics** grunden för Bitcoin:s monetära princ
 
 
 
-- Knapphet:** Bitcoin:s fasta Supply säkerställer dess värde över tid.
-- Tidspreferens:** Uppmuntrar till att spara för framtiden snarare än att spendera omedelbart.
-- Sparande:** Lagring av värde för framtida behov, vilket leder till investeringar och innovation.
+- **Knapphet:** Bitcoins fasta supply säkerställer dess värde över tid.
+- **Tidspreferens:** Uppmuntrar till att spara för framtiden snarare än att spendera omedelbart.
+- **Sparande:** Lagring av värde för framtida behov, vilket leder till investeringar och innovation.
 
 
 > **Definitioner:**
@@ -199,15 +199,15 @@ El Salvadors antagande av Bitcoin återspeglar dess potential som ett verktyg f�
 
 
 
-- Konkurrens**: Bitcoin introducerar konkurrens i det finansiella landskapet genom att erbjuda ett alternativ till traditionell bankverksamhet, vilket gör det möjligt för salvadoraner att kringgå finansiella grindvakter och välja tjänster som bättre tillgodoser deras behov.
+- **Konkurrens**: Bitcoin introducerar konkurrens i det finansiella landskapet genom att erbjuda ett alternativ till traditionell bankverksamhet, vilket gör det möjligt för salvadoraner att kringgå finansiella grindvakter och välja tjänster som bättre tillgodoser deras behov.
 
 
 
-- Monopol**: Genom att decentralisera den finansiella tillgången bryter Bitcoin bankernas och de statligt utfärdade valutornas monopol, vilket minskar beroendet av centraliserade institutioner och främjar finansiell inkludering.
+- **Monopol**: Genom att decentralisera den finansiella tillgången bryter Bitcoin bankernas och de statligt utfärdade valutornas monopol, vilket minskar beroendet av centraliserade institutioner och främjar finansiell inkludering.
 
 
 
-- Konfiskering**: Bitcoin:s motstånd mot konfiskation ger salvadoranerna kontroll över sina tillgångar, skyddar deras rikedomar från extern beslagtagning och stärker den finansiella suveräniteten.
+- **Konfiskering**: Bitcoin:s motstånd mot konfiskation ger salvadoranerna kontroll över sina tillgångar, skyddar deras rikedomar från extern beslagtagning och stärker den finansiella suveräniteten.
 
 
 El Salvadors införande av Bitcoin främjar ett mer inkluderande, konkurrenskraftigt och säkert finansiellt system och utmanar begränsningarna i traditionell finansiering.
@@ -434,12 +434,12 @@ Genom att köra Bitcoin Core får du möjlighet att:
 
 
 
-- Validera dina egna transaktioner och block**: Säkerställa att Bitcoin-nätverkets regler följs utan att förlita sig på tredje part.
-- Stärk nätverket**: Genom att delta i nätverket hjälper du till att hålla det decentraliserat, vilket gör Bitcoin mer motståndskraftigt mot attacker.
-- Beskär Blockchain**: Minska lagringsbehovet genom att bara spara de senaste transaktionerna, vilket är perfekt om du har begränsat diskutrymme.
-- Använd avancerade Wallet-funktioner**: Hantera din Bitcoin med integritet och säkerhet, generate privata nycklar offline och signera transaktioner på ett säkert sätt.
-- Interagera direkt med Bitcoin-nätverket**: Genom att använda Bitcoin Core kan du ansluta direkt till nätverket utan mellanhänder, vilket säkerställer att du får de mest exakta uppgifterna.
-- Dra nytta av ökad integritet**: Som Full node-operatör behöver du inte lita på externa tjänster, vilket skyddar din transaktionssekretess från extern övervakning.
+- **Validera dina egna transaktioner och block**: Säkerställa att Bitcoin-nätverkets regler följs utan att förlita sig på tredje part.
+- **Stärk nätverket**: Genom att delta i nätverket hjälper du till att hålla det decentraliserat, vilket gör Bitcoin mer motståndskraftigt mot attacker.
+- **Beskär Blockchain**: Minska lagringsbehovet genom att bara spara de senaste transaktionerna, vilket är perfekt om du har begränsat diskutrymme.
+- **Använd avancerade Wallet-funktioner**: Hantera din Bitcoin med integritet och säkerhet, generate privata nycklar offline och signera transaktioner på ett säkert sätt.
+- **Interagera direkt med Bitcoin-nätverket**: Genom att använda Bitcoin Core kan du ansluta direkt till nätverket utan mellanhänder, vilket säkerställer att du får de mest exakta uppgifterna.
+- Dra nytta av ökad integritet: Som Full node-operatör behöver du inte lita på externa tjänster, vilket skyddar din transaktionssekretess från extern övervakning.
 
 
 Fördelarna med att driva en Bitcoin-nod är betydande för alla dedikerade Bitcoiner. Du hjälper inte bara till att säkra nätverket och förstärka dess decentralisering, utan du förbättrar också din integritet, säkerställer integriteten i dina egna transaktioner och tar en proaktiv roll i Bitcoin-ekosystemet. Att driva en nod är ett viktigt steg för att uppnå ekonomisk suveränitet och fullt ut omfamna Bitcoin:s decentraliserade natur.
@@ -452,7 +452,7 @@ Det här är några av de grundläggande kommandona när du konfigurerar din nod
 
 
 
-- Kontrollera status för Bitcoin daemon**:
+- Kontrollera status för Bitcoin daemon:
 
 
 ```bash
@@ -461,7 +461,7 @@ sudo systemctl status bitcoind
 
 
 
-- Starta Bitcoin daemon:**:
+- Starta Bitcoin daemon:
 
 
 ```bash
@@ -470,7 +470,7 @@ systemctl start bitcoind
 
 
 
-- Stoppa Bitcoin daemon:**:
+- Stoppa Bitcoin daemon:
 
 
 ```bash
@@ -479,7 +479,7 @@ sudo systemctl stop bitcoind
 
 
 
-  - Få detaljerad information**:
+- Få detaljerad information:
 
 
 ```bash
@@ -488,7 +488,7 @@ bitcoin-cli getblockchaininfo
 
 
 
-- Beskär Blockchain för att spara diskutrymme genom att bara behålla de senaste blocken:**:
+- Beskär Blockchain för att spara diskutrymme genom att bara behålla de senaste blocken:
 
 
 ```bash
@@ -497,7 +497,7 @@ prune=550
 
 
 
-- Aktivera Bitcoin Core-servern och konfigurera RPC-inställningar:**:
+- **Aktivera Bitcoin Core-servern och konfigurera RPC-inställningar:**
 
 
 ```bash
@@ -508,7 +508,7 @@ rpcpassword=yourpassword
 
 
 
-- Kontrollera status för Bitcoin daemon**:
+- Kontrollera status för Bitcoin daemon:
 
 
 ```bash
@@ -517,7 +517,7 @@ sudo systemctl status bitcoind
 
 
 
-- Kontrollera saldot på din Bitcoin Wallet:**:
+- Kontrollera saldot på din **Bitcoin Wallet**:
 
 ```bash
 sudo systemctl status bitcoind
@@ -641,9 +641,9 @@ Den modulära designen hos C-Lightning innebär att du kan lägga till eller ta 
 
 
 
-- Betalningshantering**: Anpassade plugins kan hantera specifika betalningsvillkor.
-- Avgifter för routning**: Justera routningsavgifterna dynamiskt baserat på nätverksförhållandena.
-- Automatisering**: Automatisera uppgifter som kanalhantering och likviditetstillförsel.
+- **Betalningshantering**: Anpassade plugins kan hantera specifika betalningsvillkor.
+- **Avgifter för routning**: Justera routningsavgifterna dynamiskt baserat på nätverksförhållandena.
+- **Automatisering**: Automatisera uppgifter som kanalhantering och likviditetstillförsel.
 
 
 ### C-Blixtinstallation
@@ -1495,10 +1495,10 @@ Att driva en Bitcoin-nod är viktigt av flera skäl:
 
 
 
-- Förvarar en lista över peers**: Noder måste hitta och ansluta till andra noder i nätverket för att Exchange information.
-- Tar emot och sänder giltiga transaktioner och block**: Bitcoin-noder är ansvariga för att sprida giltiga transaktioner och block över nätverket.
-- Håller reda på blockens historia och den tyngsta kedjan**: Noderna lagrar sin egen kopia av Blockchain, vilket gör det möjligt för dem att validera äktheten hos transaktioner och block.
-- Upprätthåller lista över giltiga kandidater; Mempool**: Noder måste behålla en lista över möjliga transaktionskandidater i Mempool som ska ingå i block.
+- Förvarar en lista över **peers**: Noder måste hitta och ansluta till andra noder i nätverket för att Exchange information.
+- Tar emot och sänder giltiga transaktioner och block: Bitcoin-noder är ansvariga för att sprida giltiga transaktioner och block över nätverket.
+- Håller reda på blockens historia och den tyngsta kedjan: Noderna lagrar sin egen kopia av Blockchain, vilket gör det möjligt för dem att validera äktheten hos transaktioner och block.
+- Upprätthåller lista över giltiga kandidater; **Mempool**: Noder måste behålla en lista över möjliga transaktionskandidater i Mempool som ska ingå i block.
 
 
 ![nodes network](assets/en/23.webp)
@@ -1517,20 +1517,20 @@ Att driva en Bitcoin-nod är viktigt av flera skäl:
 
 
 
-- Upptäckt av kollegor**: Peer discovery är den process genom vilken en nod hittar andra noder att ansluta till.
-- Valideringsmotor**: Valideringsmotorn ansvarar för att kontrollera giltigheten av transaktioner och block enligt nätverkets regler.
-- RPC (anrop av fjärrprocedur)**: Bitcoin Core innehåller en RPC Interface som gör det möjligt för externa program, t.ex. plånböcker, att interagera med noden.
-- Lagring av block och kedjetillstånd**: Bitcoin Core kan lagra hela Blockchain eller inte, oavsett om det är en arkiverad eller beskuren nod. Den lagrar också nätverkets aktuella tillstånd (UTXO-uppsättningen) på disk.
+- **Upptäckt av kollegor**: Peer discovery är den process genom vilken en nod hittar andra noder att ansluta till.
+- **Valideringsmotor**: Valideringsmotorn ansvarar för att kontrollera giltigheten av transaktioner och block enligt nätverkets regler.
+- **RPC (anrop av fjärrprocedur)**: Bitcoin Core innehåller en RPC Interface som gör det möjligt för externa program, t.ex. plånböcker, att interagera med noden.
+- **Lagring av block och kedjetillstånd**: Bitcoin Core kan lagra hela Blockchain eller inte, oavsett om det är en arkiverad eller beskuren nod. Den lagrar också nätverkets aktuella tillstånd (UTXO-uppsättningen) på disk.
 
 
 #### Vad kan vi ta bort?
 
 
 
-- Miner**: De flesta Bitcoin-noder deltar inte i Mining på grund av den höga beräkningskraft som krävs.
-- RPC (server)**: Bitcoin Core implementerar en JSON-RPC Interface som kan nås med hjälp av kommandoradshjälpen bitcoin-cli.
-- Wallet (inaktivera plånbok)**: Om du föredrar att använda en extern Wallet kan du inaktivera Wallet-funktionaliteten i Bitcoin Core. Detta gör att du kan hantera dina privata nycklar separat.
-- Mempool (blocksonly)**: För användare som vill minimera bandbreddsanvändningen kan det vara en lösning att köra en "blocksonly"-nod där noden endast bearbetar block och ignorerar transaktioner.
+- **Miner**: De flesta Bitcoin-noder deltar inte i Mining på grund av den höga beräkningskraft som krävs.
+- **RPC (server)**: Bitcoin Core implementerar en JSON-RPC Interface som kan nås med hjälp av kommandoradshjälpen bitcoin-cli.
+- **Wallet (inaktivera plånbok)**: Om du föredrar att använda en extern Wallet kan du inaktivera Wallet-funktionaliteten i Bitcoin Core. Detta gör att du kan hantera dina privata nycklar separat.
+- **Mempool (blocksonly)**: För användare som vill minimera bandbreddsanvändningen kan det vara en lösning att köra en "blocksonly"-nod där noden endast bearbetar block och ignorerar transaktioner.
 
 
 ### Kedja Stat
@@ -1648,13 +1648,13 @@ Blockhuvudet är hörnstenen i ett Bitcoin-block och innehåller följande fält
 
 
 
-- Version**: Anger versionen av blocket.
-- Föregående block**: Hänvisning till föregående block i Blockchain.
-- Merkle Root**: En Hash som representerar den kombinerade Hash för alla transaktioner i blocket.
-- Timestamp**: Den tidpunkt då blocket utvanns.
-- Bitar**: Måltröskeln för ett giltigt block Hash.
-- Nonce**: Det värde som gruvarbetarna justerar för att uppnå en Hash under måltröskeln.
-- Transaktionsantal**: Antalet transaktioner i blocket.
+- **Version**: Anger versionen av blocket.
+- **Föregående block**: Hänvisning till föregående block i Blockchain.
+- **Merkle Root**: En Hash som representerar den kombinerade Hash för alla transaktioner i blocket.
+- **Timestamp**: Den tidpunkt då blocket utvanns.
+- **Bitar**: Måltröskeln för ett giltigt block Hash.
+- **Nonce**: Det värde som gruvarbetarna justerar för att uppnå en Hash under måltröskeln.
+- **Transaktionsantal**: Antalet transaktioner i blocket.
 
 
 **Notera**: Endast de första 80 byte (som utgör blockhuvudet) hashas under Mining.
@@ -1681,21 +1681,21 @@ Varje transaktion i ett Bitcoin-block innehåller följande:
 
 
 
-- Version**: Transaktionens version.
-- Antal ingångar**: Antal transaktionsingångar.
-- Ingångar**: Listan över ingångar.
-  - Föregående utmatning (outpoint)**: Referens för föregående utmatning.
-    - Hash**: Hash för den refererade transaktionen.
-    - Index**: Index för det specifika utflödet i transaktionen, kallat "vout".
-  - Skriptets längd**: Längden på signaturmanuset.
-  - Signaturskript**: Skript för att bekräfta transaktionsgodkännande.
-  - Sekvens**: Transaktionsversion enligt avsändarens definition.
-- Antal utgångar**: Antal transaktionsutgångar.
-- Utgångar**: Innehåller värde och ScriptPubKey.
-  - Värde**: Transaktionens värde.
-  - PubKey-skriptets längd**: Längd på PubKey-skriptet.
-  - PubKey-skript**: Innehåller den publika nyckeln som en inställning för att göra anspråk på utdata.
-- Låsningstid**: Anger den blockhöjd eller Timestamp vid vilken denna transaktion kan inkluderas i ett block.
+- **Version**: Transaktionens version.
+- **Antal ingångar**: Antal transaktionsingångar.
+- **Ingångar**: Listan över ingångar.
+- **Föregående utmatning (outpoint)**: Referens för föregående utmatning.
+- **Hash**: Hash för den refererade transaktionen.
+- **Index**: Index för det specifika utflödet i transaktionen, kallat "vout".
+- **Skriptets längd**: Längden på signaturmanuset.
+- **Signaturskript**: Skript för att bekräfta transaktionsgodkännande.
+- **Sekvens**: Transaktionsversion enligt avsändarens definition.
+- **Antal utgångar**: Antal transaktionsutgångar.
+- **Utgångar**: Innehåller värde och ScriptPubKey.
+- **Värde**: Transaktionens värde.
+- **PubKey-skriptets längd**: Längd på PubKey-skriptet.
+- **PubKey-skript**: Innehåller den publika nyckeln som en inställning för att göra anspråk på utdata.
+- **Låsningstid**: Anger den blockhöjd eller Timestamp vid vilken denna transaktion kan inkluderas i ett block.
 
 
 ![Transaction structure](assets/en/28.webp)
@@ -2012,18 +2012,18 @@ Bitcoin-noder är ryggraden i Bitcoin-nätverket. De ansluter till varandra, Exc
 
 
 
-- Fullständiga noder**: Dessa noder lagrar hela Blockchain och validerar alla transaktioner och block. De ger en hög säkerhetsnivå och är avgörande för nätverkets decentralisering.
+- **Fullständiga noder**: Dessa noder lagrar hela Blockchain och validerar alla transaktioner och block. De ger en hög säkerhetsnivå och är avgörande för nätverkets decentralisering.
 
 
 
-  - Arkiveringsnoder**: Arkivnoderna, som är en undergrupp till fulla noder, behåller alla Blockchain-data, vilket gör dem värdefulla för historisk analys och felsökning.
+- **Arkiveringsnoder**: Arkivnoderna, som är en undergrupp till fulla noder, behåller alla Blockchain-data, vilket gör dem värdefulla för historisk analys och felsökning.
 
 
 ![archival node](assets/en/37.webp)
 
 
 
-  - Beskurna noder**: Beskurna noder sparar diskutrymme genom att bara behålla en del av Blockchain och eliminera äldre data som inte längre behövs för validering.
+- **Beskurna noder**: Beskurna noder sparar diskutrymme genom att bara behålla en del av Blockchain och eliminera äldre data som inte längre behövs för validering.
 
 
 ![pruned node](assets/en/38.webp)
@@ -2036,9 +2036,9 @@ Bitcoin Core är den mest använda Full node-implementeringen. Den utför dubbla
 
 
 
-- Användbarhet**: Den kan användas via en kommandorad Interface (CLI) och en grafisk användargränssnitt Interface (GUI).
-- Öppen källkod**: Koden är öppen källkod, vilket gör det möjligt för utvecklare att bidra och granska hur den fungerar.
-- Språk**: Skriven i C++ med tester i Python, vilket garanterar robust prestanda och tillförlitlighet.
+- **Användbarhet**: Den kan användas via en kommandorad Interface (CLI) och en grafisk användargränssnitt Interface (GUI).
+- **Öppen källkod**: Koden är öppen källkod, vilket gör det möjligt för utvecklare att bidra och granska hur den fungerar.
+- **Språk**: Skriven i C++ med tester i Python, vilket garanterar robust prestanda och tillförlitlighet.
 
 
 ![cli-gui](assets/en/39.webp)
@@ -2088,9 +2088,9 @@ Utöver Bitcoin Core finns det flera alternativa implementeringar av noder:
 
 
 
-- Bitcoin-knutar**: Den erbjuder mer avancerade funktioner än Bitcoin-kärnan och tar mer utrymme och minne i anspråk.
-- LibBitcoin**: En flexibel och modulär implementering.
-- btcd**: Den är skriven i Go och erbjuder olika designfilosofier.
+- **Bitcoin-knutar**: Den erbjuder mer avancerade funktioner än Bitcoin-kärnan och tar mer utrymme och minne i anspråk.
+- **LibBitcoin**: En flexibel och modulär implementering.
+- **btcd**: Den är skriven i Go och erbjuder olika designfilosofier.
 
 
 Att implementera dessa alternativ medför sina egna risker, särskilt när det gäller konsensusreglerna. Att avvika från etablerade valideringsregler kan leda till förgreningar eller inkonsekvenser. Bitcoin Kernel-projektet försöker mildra dessa risker genom att centralisera konsensuskoden och säkerställa enhetlighet mellan olika implementeringar.
@@ -2112,31 +2112,31 @@ Bitcoin plånböcker är avgörande för att hantera dina Bitcoin innehav på et
 
 
 
-   - Plånböcker med förvaringsinstitut**: Förvaltas av tredje part och erbjuder bekvämlighet men kräver förtroende för förvaringsinstitutet.
-   - Plånböcker utan förvaringsinstitut**: Kontrolleras av användarna, vilket ger högre säkerhet och integritet.
+- **Plånböcker med förvaringsinstitut**: Förvaltas av tredje part och erbjuder bekvämlighet men kräver förtroende för förvaringsinstitutet.
+- **Plånböcker utan förvaringsinstitut**: Kontrolleras av användarna, vilket ger högre säkerhet och integritet.
 
 
 2. **Skrivbord vs. mobil**:
 
 
 
-   - Skrivbordsplånböcker**: Vanligtvis mer funktionsrika och säkra.
-   - Mobila plånböcker**: Erbjuder bekvämlighet och portabilitet.
+- **Skrivbordsplånböcker**: Vanligtvis mer funktionsrika och säkra.
+- **Mobila plånböcker**: Erbjuder bekvämlighet och portabilitet.
 
 
 3. **On-Chain mot blixt**:
 
 
 
-   - On-Chain plånböcker**: Interagera direkt med Bitcoin Blockchain.
-   - Blixtsnabba plånböcker**: Möjliggör snabbare och billigare transaktioner off-chain.
+- **On-Chain plånböcker**: Interagera direkt med Bitcoin Blockchain.
+- **Blixtsnabba plånböcker**: Möjliggör snabbare och billigare transaktioner off-chain.
 
 
 4. **Cold plånböcker jämfört med Hot plånböcker**:
 
 
-   - Cold plånböcker**: Inte anslutna till internet, vilket ger överlägsen säkerhet mot hackning.
-   - Hot plånböcker**: Ansluten till internet, vilket ger mer tillgänglighet men mindre säkerhet.
+- **Cold plånböcker**: Inte anslutna till internet, vilket ger överlägsen säkerhet mot hackning.
+- **Hot plånböcker**: Ansluten till internet, vilket ger mer tillgänglighet men mindre säkerhet.
 
 
 #### Cold Wallet säkerhet
@@ -2239,7 +2239,7 @@ BDK effektiviserar processen med att skapa, signera och sända transaktioner:
 
 
 
-- Konfigurera Wallet**: Initiera en Wallet med deskriptorer.
+- **Konfigurera Wallet**: Initiera en Wallet med deskriptorer.
 
 
 ```Rust
@@ -2263,7 +2263,7 @@ Ok(())
 
 
 
-- generate-adresser**: Skapa nya adresser för att ta emot Bitcoin från en Testnet Faucet.
+- **generate-adresser**: Skapa nya adresser för att ta emot Bitcoin från en Testnet Faucet.
 
 
 ```Rust
@@ -2277,7 +2277,7 @@ let address = wallet.get_address(AddressIndex::New)?;
 
 
 
-- Kontrollera saldo**: Övervaka Wallet:s saldo, först genom att ansluta till electrum, synkronisera Wallet och hämta saldot från Wallet.
+- **Kontrollera saldo**: Övervaka Wallet:s saldo, först genom att ansluta till electrum, synkronisera Wallet och hämta saldot från Wallet.
 
 
 ```Rust
@@ -2295,7 +2295,7 @@ println!("This is your wallet balance: {}", balance);
 
 
 
-- Bygga, signera och sända transaktioner**: Konstruera och slutföra transaktioner och sedan sända ut dem till nätverket.
+- **Bygga, signera och sända transaktioner**: Konstruera och slutföra transaktioner och sedan sända ut dem till nätverket.
 
 
 ```Rust
@@ -2558,11 +2558,11 @@ Bolt 1 beskriver meddelandeformateringen med hjälp av en TLV-struktur (Type-Len
 
 
 
-- Kommunikationsmeddelanden**: Dessa inkluderar meddelanden som "Init", "Error", "Warning", "Ping" och "Pong", som upprättar anslutningar, hanterar fel, undersöker anslutningsstatus och döljer trafik.
-- Meddelanden om kanaluppbyggnad**: Dessa är viktiga under etableringsfasen av en kanal.
-- Meddelanden om kanalstatus**: Dessa meddelanden hanterar uppdateringar inom aktiva kanaler och säkerställer att båda parter är synkroniserade.
-- Skvallermeddelanden**: Dessa används för att upptäcka och uppdatera nätverkstopologin.
-- Experimentella meddelanden**: Dessa gör det möjligt att testa nya funktioner utan att störa nätverket.
+- **Kommunikationsmeddelanden**: Dessa inkluderar meddelanden som "Init", "Error", "Warning", "Ping" och "Pong", som upprättar anslutningar, hanterar fel, undersöker anslutningsstatus och döljer trafik.
+- **Meddelanden om kanaluppbyggnad**: Dessa är viktiga under etableringsfasen av en kanal.
+- **Meddelanden om kanalstatus**: Dessa meddelanden hanterar uppdateringar inom aktiva kanaler och säkerställer att båda parter är synkroniserade.
+- **Skvallermeddelanden**: Dessa används för att upptäcka och uppdatera nätverkstopologin.
+- **Experimentella meddelanden**: Dessa gör det möjligt att testa nya funktioner utan att störa nätverket.
 
 
 #### Bolt 2 (kanalens livscykel)
@@ -2572,9 +2572,9 @@ Bolt 2 fördjupar sig i kanalens livscykel, från etablering till normal drift o
 
 
 
-- Etablering av kanal**: I denna fas öppnar parterna en kanal, Exchange-signaturer och skapar en finansieringstransaktion.
-- Normal drift**: Här uppdateras kanaltillståndet kontinuerligt med hjälp av Hash tidslåsta kontrakt (HTLC). Commitment- och återkallelsemeddelanden säkerställer att båda parter är överens om det aktuella tillståndet.
-- Uppgörelse**: Detta innebär att kanalen stängs, vanligtvis genom ömsesidig överenskommelse och avgiftsförhandling, för att slutföra transaktioner utan att gå in i en obegränsad stängningsloop.
+- **Etablering av kanal**: I denna fas öppnar parterna en kanal, Exchange-signaturer och skapar en finansieringstransaktion.
+- **Normal drift**: Här uppdateras kanaltillståndet kontinuerligt med hjälp av Hash tidslåsta kontrakt (HTLC). Commitment- och återkallelsemeddelanden säkerställer att båda parter är överens om det aktuella tillståndet.
+- **Uppgörelse**: Detta innebär att kanalen stängs, vanligtvis genom ömsesidig överenskommelse och avgiftsförhandling, för att slutföra transaktioner utan att gå in i en obegränsad stängningsloop.
 
 
 #### Uppdateringsmekanism
@@ -2650,10 +2650,10 @@ Viktiga Bolt 7-meddelanden inkluderar:
 
 
 
-- Tillkännagivande av nod**: Detta meddelande meddelar att det finns en nod.
-- Tillkännagivande av kanal**: Detta meddelande informerar nätverket om att en ny kanal har skapats.
-- Tillkännagivandets signatur**: Detta säkerställer äktheten hos broadcast-meddelanden.
-- Kanaluppdatering**: Detta meddelande kommunicerar uppdateringar om en kanal, t.ex. avgiftsstrukturer och maximala HTLC-belopp.
+- **Tillkännagivande av nod**: Detta meddelande meddelar att det finns en nod.
+- **Tillkännagivande av kanal**: Detta meddelande informerar nätverket om att en ny kanal har skapats.
+- **Tillkännagivandets signatur**: Detta säkerställer äktheten hos broadcast-meddelanden.
+- **Kanaluppdatering**: Detta meddelande kommunicerar uppdateringar om en kanal, t.ex. avgiftsstrukturer och maximala HTLC-belopp.
 
 
 #### Process för tillkännagivande av kanal
@@ -2729,16 +2729,16 @@ Bitcoin-plånböcker och Lightning-plånböcker skiljer sig fundamentalt åt i s
 
 
 
-- Bekymmer med privat nyckel**: Det primära fokuset för Bitcoin-plånböcker är vem som innehar den privata nyckeln. Detta avgör säkerheten och kontrollen av användarens medel.
-- Transaktionskomplexitet**: Bitcoin-plånböcker hanterar olika transaktionsskript som Segregated Witness (SegWit) och Taproot, som optimerar transaktionsstorlekar och förbättrar integritet och säkerhet.
+- **Bekymmer med privat nyckel**: Det primära fokuset för Bitcoin-plånböcker är vem som innehar den privata nyckeln. Detta avgör säkerheten och kontrollen av användarens medel.
+- **Transaktionskomplexitet**: Bitcoin-plånböcker hanterar olika transaktionsskript som Segregated Witness (SegWit) och Taproot, som optimerar transaktionsstorlekar och förbättrar integritet och säkerhet.
 
 
 #### Blixtsnabba plånböcker:
 
 
 
-- Hantering av privata nycklar**: I likhet med Bitcoin-plånböcker är kontrollen av privata nycklar fortfarande avgörande.
-- Likviditetshantering**: En utmärkande egenskap hos Lightning-plånböcker är behovet av att hantera likviditet, vilket innebär att balansera lokal (utgående) och fjärrlikviditet (inkommande) för att säkerställa smidig transaktionsrouting. Detta kräver att användarna förstår och optimerar sina kanaler för att underlätta effektiv vidarebefordran av betalningar.
+- **Hantering av privata nycklar**: I likhet med Bitcoin-plånböcker är kontrollen av privata nycklar fortfarande avgörande.
+- **Likviditetshantering**: En utmärkande egenskap hos Lightning-plånböcker är behovet av att hantera likviditet, vilket innebär att balansera lokal (utgående) och fjärrlikviditet (inkommande) för att säkerställa smidig transaktionsrouting. Detta kräver att användarna förstår och optimerar sina kanaler för att underlätta effektiv vidarebefordran av betalningar.
 
 
 #### Likviditetshantering i blixtplånböcker
@@ -2785,8 +2785,8 @@ Men om någon av dessa kanaler har problem med sin kapacitet eller anslutningen 
 
 
 
-- Utarmning av kanaler**: Med tiden kan kanalerna bli obalanserade, med medel koncentrerade till en sida, vilket begränsar transaktionsmöjligheterna.
-- Problem med anslutningar**: Effektiv transaktionsrouting kräver robusta nätverksanslutningar, som kan vara svåra att upprätthålla.
+- **Utarmning av kanaler**: Med tiden kan kanalerna bli obalanserade, med medel koncentrerade till en sida, vilket begränsar transaktionsmöjligheterna.
+- **Problem med anslutningar**: Effektiv transaktionsrouting kräver robusta nätverksanslutningar, som kan vara svåra att upprätthålla.
 
 
 För att möta dessa utmaningar erbjuder LSP:er (Liquidity Service Providers) tjänster som hjälper till att hantera likviditeten, ofta mot en avgift, och som säkerställer att användarna har optimala kanalbalanser för smidiga transaktioner.
@@ -2802,35 +2802,35 @@ Det finns olika Lightning-plånböcker som alla tillgodoser olika användares be
 
 
 
-- Funktioner**: Fullständig förvaring, användarvänlig, men sluten källkod med potentiella integritetsfrågor.
+- **Funktioner**: Fullständig förvaring, användarvänlig, men sluten källkod med potentiella integritetsfrågor.
 
 
 #### Albi:
 
 
 
-- Funktioner**: Webbläsartillägg, öppen källkod, stöder både modeller med och utan förmyndare, vilket ökar mångsidigheten.
+- **Funktioner**: Webbläsartillägg, öppen källkod, stöder både modeller med och utan förmyndare, vilket ökar mångsidigheten.
 
 
 #### Breeze:
 
 
 
-- Funktioner**: Lättviktig nod på en telefon, öppen källkod, kombinerar självförvar med hanterad likviditet, vilket ger en balans mellan kontroll och bekvämlighet.
+- **Funktioner**: Lättviktig nod på en telefon, öppen källkod, kombinerar självförvar med hanterad likviditet, vilket ger en balans mellan kontroll och bekvämlighet.
 
 
 #### Phoenix:
 
 
 
-- Funktioner**: Liknar Breeze, använder en LSP-modell för likviditet, öppen källkod, fokuserar på användarvänlighet och effektiv likviditetshantering.
+- **Funktioner**: Liknar Breeze, använder en LSP-modell för likviditet, öppen källkod, fokuserar på användarvänlighet och effektiv likviditetshantering.
 
 
 #### Öppna Bitcoin Wallet (OBW):
 
 
 
-- Funktioner**: Integrerar On-Chain- och Lightning-plånböcker, stöder värdkanaler, öppen källkod med avancerade funktioner, lämplig för kraftanvändare.
+- **Funktioner**: Integrerar On-Chain- och Lightning-plånböcker, stöder värdkanaler, öppen källkod med avancerade funktioner, lämplig för kraftanvändare.
 
 
 ### Matris för depå- och likviditetshantering
@@ -2840,8 +2840,8 @@ Plånböcker kan klassificeras utifrån vem som innehar de privata nycklarna och
 
 
 
-- Förvarade plånböcker**: Tredje part innehar privata nycklar och erbjuder vanligtvis automatisk likviditetshantering. Exempel på detta är Wallet eller Satoshi.
-- Icke-förvarade plånböcker**: Användare har privata nycklar, kan kräva manuell likviditetshantering. Exempel på detta är Breeze och OBW.
+- **Förvarade plånböcker**: Tredje part innehar privata nycklar och erbjuder vanligtvis automatisk likviditetshantering. Exempel på detta är Wallet eller Satoshi.
+- **Icke-förvarade plånböcker**: Användare har privata nycklar, kan kräva manuell likviditetshantering. Exempel på detta är Breeze och OBW.
 
 
 ![Liquidity Lightning](assets/en/55.webp)_2x2 Matrix of LN Clients_
@@ -2854,9 +2854,9 @@ Trots sina fördelar har Lightning wallets flera kritikpunkter och områden som 
 
 
 
-- Sekretess**: Plånböcker med sluten källkod och vissa förvaringsmodeller ger upphov till integritetsfrågor.
-- Användarvänlighet**: Att balansera avancerade funktioner med användarvänlighet är fortfarande en utmaning.
-- Utveckling av öppen källkod**: Olika nivåer av bidrag från öppen källkod påverkar användarnas förtroende och innovationstakten.
+- **Sekretess**: Plånböcker med sluten källkod och vissa förvaringsmodeller ger upphov till integritetsfrågor.
+- **Användarvänlighet**: Att balansera avancerade funktioner med användarvänlighet är fortfarande en utmaning.
+- **Utveckling av öppen källkod**: Olika nivåer av bidrag från öppen källkod påverkar användarnas förtroende och innovationstakten.
 
 
 ### Ytterligare insikter och användningsområden
@@ -2884,9 +2884,9 @@ Intäkterna från routningsavgifter är vanligtvis minimala, vilket gör det min
 
 
 
-- Blink Wallet**: El Salvador-baserad, custodial, kräver telefonnummer, har stabila Sats-funktioner, men saknar avancerade Lightning Network-funktioner.
-- Blitz Wallet**: Öppen källkod, självförvaltande, kräver användarhanterad likviditet, erbjuder omfattande information för avancerade användare.
-- SwissBitcoinPay**: Utformad för handlare, förvaring i upp till 24 timmar, minimala avgifter för användare med stora volymer.
+- **Blink Wallet**: El Salvador-baserad, custodial, kräver telefonnummer, har stabila Sats-funktioner, men saknar avancerade Lightning Network-funktioner.
+- **Blitz Wallet**: Öppen källkod, självförvaltande, kräver användarhanterad likviditet, erbjuder omfattande information för avancerade användare.
+- **SwissBitcoinPay**: Utformad för handlare, förvaring i upp till 24 timmar, minimala avgifter för användare med stora volymer.
 
 
 #### Wallet användningsfall:
@@ -2937,8 +2937,8 @@ I Lightning Network avser **likviditet** tillgången till medel i betalningskana
 
 
 
-- Praktisk fråga**: Användare tycker ofta att det är svårt att balansera sina kanaler och upprätthålla tillräcklig likviditet. Dessutom kan ombalansering av kanaler medföra kostnader.
-- Möjliga lösningar**: Vissa Lightning-plånböcker har börjat integrera automatisk ombalansering av kanaler, men den här funktionen är fortfarande under utveckling. Användare förlitar sig också på **Lightning Service Providers (LSPs)** för att hjälpa till med likviditetshanteringen.
+- **Praktisk fråga**: Användare tycker ofta att det är svårt att balansera sina kanaler och upprätthålla tillräcklig likviditet. Dessutom kan ombalansering av kanaler medföra kostnader.
+- **Möjliga lösningar**: Vissa Lightning-plånböcker har börjat integrera automatisk ombalansering av kanaler, men den här funktionen är fortfarande under utveckling. Användare förlitar sig också på **Lightning Service Providers (LSPs)** för att hjälpa till med likviditetshanteringen.
 
 
 #### **Från utvecklarens perspektiv: **
@@ -2948,8 +2948,8 @@ Utvecklare står inför utmaningen att implementera sömlös likviditetshanterin
 
 
 
-- Praktisk fråga**: Att implementera effektiva algoritmer för att dirigera betalningar över ett nätverk med varierande likviditet kan vara komplext och beräkningsintensivt.
-- Möjliga lösningar**: Utvecklare utforskar avancerade algoritmer för **liquidity routing** och använder **dual-funded channels** för att säkerställa att likviditet finns tillgänglig i båda ändar av en transaktion.
+- **Praktisk fråga**: Att implementera effektiva algoritmer för att dirigera betalningar över ett nätverk med varierande likviditet kan vara komplext och beräkningsintensivt.
+- **Möjliga lösningar**: Utvecklare utforskar avancerade algoritmer för **liquidity routing** och använder **dual-funded channels** för att säkerställa att likviditet finns tillgänglig i båda ändar av en transaktion.
 
 
 > **Definitioner**:
@@ -2970,8 +2970,8 @@ Interaktionen mellan **Layer 1 (L1)** (Bitcoin:s bas Layer) och **Layer 2 (L2)**
 
 
 
-- Praktiskt problem**: Användare kämpar ofta med komplexiteten i att förstå när de interagerar med Bitcoin bas Layer jämfört med Lightning Layer. Detta kan leda till förvirring när det gäller avgifter, transaktionstider och säkerhet.
-- Möjliga lösningar**: Förbättrad Wallet-design som abstraherar L1/L2-interaktioner och hanterar kanalöppningar/stängningar i bakgrunden. Vissa plånböcker tillåter redan användare att växla sömlöst mellan On-Chain- och Lightning-transaktioner, beroende på omständigheterna.
+- **Praktiskt problem**: Användare kämpar ofta med komplexiteten i att förstå när de interagerar med Bitcoin bas Layer jämfört med Lightning Layer. Detta kan leda till förvirring när det gäller avgifter, transaktionstider och säkerhet.
+- **Möjliga lösningar**: Förbättrad Wallet-design som abstraherar L1/L2-interaktioner och hanterar kanalöppningar/stängningar i bakgrunden. Vissa plånböcker tillåter redan användare att växla sömlöst mellan On-Chain- och Lightning-transaktioner, beroende på omständigheterna.
 
 
 #### **Från utvecklarens perspektiv: **
@@ -2981,8 +2981,8 @@ Utvecklarna har till uppgift att abstrahera komplexiteten i L1 och L2 för anvä
 
 
 
-- Praktisk fråga**: Säkerställa att användaren skyddas från den tekniska komplexiteten i hanteringen av kanaler och On-Chain-transaktioner samtidigt som transparensen upprätthålls när så behövs.
-- Möjliga lösningar**: Utvecklare arbetar på funktioner som **splicing** (som gör det möjligt att lägga till eller ta bort pengar från en kanal utan att stänga den) och verktyg för automatisk kanalhantering.
+- **Praktisk fråga**: Säkerställa att användaren skyddas från den tekniska komplexiteten i hanteringen av kanaler och On-Chain-transaktioner samtidigt som transparensen upprätthålls när så behövs.
+- **Möjliga lösningar**: Utvecklare arbetar på funktioner som **splicing** (som gör det möjligt att lägga till eller ta bort pengar från en kanal utan att stänga den) och verktyg för automatisk kanalhantering.
 
 
 > **Definitioner**:
@@ -3004,8 +3004,8 @@ En av utmaningarna i Lightning Network är **att ta emot betalningar när använ
 
 
 
-- Praktisk fråga**: Användare kan inte ta emot betalningar om inte deras nod är online och ansluten till nätverket, vilket gör det obekvämt för dem som vill använda Lightning som en daglig betalningsmetod.
-- Möjliga lösningar**: Vissa lösningar inkluderar att använda depåplånböcker eller förlita sig på tredjepartstjänster som fungerar som betalningsförmedlare tills mottagarnoden kommer online.
+- **Praktisk fråga**: Användare kan inte ta emot betalningar om inte deras nod är online och ansluten till nätverket, vilket gör det obekvämt för dem som vill använda Lightning som en daglig betalningsmetod.
+- **Möjliga lösningar**: Vissa lösningar inkluderar att använda depåplånböcker eller förlita sig på tredjepartstjänster som fungerar som betalningsförmedlare tills mottagarnoden kommer online.
 
 
 #### **Från utvecklarens perspektiv: **
@@ -3015,8 +3015,8 @@ Utvecklare utforskar sätt att låta användare ta emot Lightning-betalningar ä
 
 
 
-- Praktisk fråga**: Att utveckla ett protokoll eller system som gör det möjligt för användare att ta emot betalningar offline utan att äventyra säkerheten eller decentraliseringen är en betydande teknisk utmaning.
-- Möjliga lösningar**: Forskning pågår om **offline-betalningskuponger**, som skulle göra det möjligt för mottagarna att göra anspråk på betalningar när de återansluter till nätverket.
+- **Praktisk fråga**: Att utveckla ett protokoll eller system som gör det möjligt för användare att ta emot betalningar offline utan att äventyra säkerheten eller decentraliseringen är en betydande teknisk utmaning.
+- **Möjliga lösningar**: Forskning pågår om **offline-betalningskuponger**, som skulle göra det möjligt för mottagarna att göra anspråk på betalningar när de återansluter till nätverket.
 
 
 > **Definitioner**:
@@ -3037,8 +3037,8 @@ Säkerhetskopiering av Lightning-kanaler är avgörande för att användare ska 
 
 
 
-- Praktisk fråga**: Användare måste se till att säkerhetskopiorna av deras kanaler är uppdaterade, eftersom användning av en föråldrad säkerhetskopia kan leda till förlust av pengar eller bestraffning av nätverket.
-- Möjliga lösningar**: Plånböcker som Phoenix och andra har implementerat automatiska säkerhetskopior av kanaler, men dessa funktioner är ännu inte allmänt förekommande i alla Lightning-plånböcker.
+- **Praktisk fråga**: Användare måste se till att säkerhetskopiorna av deras kanaler är uppdaterade, eftersom användning av en föråldrad säkerhetskopia kan leda till förlust av pengar eller bestraffning av nätverket.
+- **Möjliga lösningar**: Plånböcker som Phoenix och andra har implementerat automatiska säkerhetskopior av kanaler, men dessa funktioner är ännu inte allmänt förekommande i alla Lightning-plånböcker.
 
 
 #### **Från utvecklarens perspektiv: **
@@ -3048,8 +3048,8 @@ Utvecklare måste implementera backup-lösningar som gör det möjligt för anv�
 
 
 
-- Praktisk fråga**: Det är en stor utmaning att utforma säkerhetskopieringssystem som är säkra, decentraliserade och användarvänliga, eftersom säkerhetskopiorna måste hållas uppdaterade vid varje ändring av tillståndet i en kanal.
-- Möjliga lösningar**: **SCB (Static Channel Backups)** har utvecklats för att förenkla återställningen, men det behövs mer avancerade lösningar för helt automatiserade och säkra säkerhetskopior.
+- **Praktisk fråga**: Det är en stor utmaning att utforma säkerhetskopieringssystem som är säkra, decentraliserade och användarvänliga, eftersom säkerhetskopiorna måste hållas uppdaterade vid varje ändring av tillståndet i en kanal.
+- **Möjliga lösningar**: **SCB (Static Channel Backups)** har utvecklats för att förenkla återställningen, men det behövs mer avancerade lösningar för helt automatiserade och säkra säkerhetskopior.
 
 
 > **Definitioner**:
@@ -3185,8 +3185,8 @@ Processen förlitar sig på **Hash tidslåsta kontrakt (HTLC)**, som säkerstäl
 
 
 
-- Onion-routing**: Tillhandahåller sekretess genom att kapsla in transaktionsdata i lager, vilket säkerställer att varje mellanhand endast känner till sina föregående och efterföljande noder men inte hela rutten.
-- HTLC kedja**: En serie kontrakt som låser pengarna tills betalningen antingen är genomförd eller återkallad.
+- **Onion-routing**: Tillhandahåller sekretess genom att kapsla in transaktionsdata i lager, vilket säkerställer att varje mellanhand endast känner till sina föregående och efterföljande noder men inte hela rutten.
+- **HTLC kedja**: En serie kontrakt som låser pengarna tills betalningen antingen är genomförd eller återkallad.
 
 
 Ett nyare protokoll som förbättrar Lightning Network:s möjligheter är **Keysend**. Till skillnad från traditionella metoder som kräver föregående kommunikation mellan avsändaren och mottagaren för att generate och Invoice ska kunna användas, möjliggör Keysend **avsändarinitierade betalningar**, vilket effektiviserar processen och förbättrar användarupplevelsen.
@@ -3196,8 +3196,8 @@ Traditionella fakturor har dock sina begränsningar. Till exempel:
 
 
 
-- Engångsbruk**: Fakturor används vanligtvis bara för en transaktion, vilket kan vara olämpligt.
-- Begränsningar i storlek**: Stora fakturor kan vara svåra att hantera i QR-kodform, vilket gör dem opraktiska för vissa applikationer.
+- **Engångsbruk**: Fakturor används vanligtvis bara för en transaktion, vilket kan vara olämpligt.
+- **Begränsningar i storlek**: Stora fakturor kan vara svåra att hantera i QR-kodform, vilket gör dem opraktiska för vissa applikationer.
 
 
 > **Definitioner**:
@@ -3216,11 +3216,11 @@ Till oAffärsmodeller och avancerade protokoll
 
 
 
-- LNURL**: Ett protokoll som förenklar generering av Invoice genom att möjliggöra dynamisk skapande av fakturor, stödja fiat-valörer och möjliggöra användning av **Lightning-adresser**. Detta tillvägagångssätt förbättrar användarupplevelsen avsevärt genom att erbjuda mer flexibla betalningsmetoder och integration med olika användningsområden.
+- **LNURL**: Ett protokoll som förenklar generering av Invoice genom att möjliggöra dynamisk skapande av fakturor, stödja fiat-valörer och möjliggöra användning av **Lightning-adresser**. Detta tillvägagångssätt förbättrar användarupplevelsen avsevärt genom att erbjuda mer flexibla betalningsmetoder och integration med olika användningsområden.
 
 
 
-- Bolt 12 erbjudanden**: Detta protokoll liknar LNURL men använder **Onion messaging** för förbättrad integritet. Bolt 12 gör det möjligt för användare att hämta fakturor automatiskt utan manuellt ingripande, vilket förbättrar både integriteten och användbarheten.
+- **Bolt 12 erbjudanden**: Detta protokoll liknar LNURL men använder **Onion messaging** för förbättrad integritet. Bolt 12 gör det möjligt för användare att hämta fakturor automatiskt utan manuellt ingripande, vilket förbättrar både integriteten och användbarheten.
 
 
 En anmärkningsvärd integration av Lightning-betalningar är i **Nostr**, en decentraliserad plattform för sociala medier. Nostr integrerar Lightning-betalningar för att möjliggöra dricks och mikrotransaktioner, vilket visar hur Lightning kan bäddas in i olika applikationer.
@@ -3375,8 +3375,8 @@ Resan för Mining-hårdvara har varit monumental, från enkla CPU Mining till de
 
 
 
-- S19J Pro**: S19J Pro är känd för sin höga effektivitet och tillförlitlighet och erbjuder en överlägsen Hash-hastighet med lägre strömförbrukning, vilket gör den idealisk för storskalig verksamhet.
-- Antminer S9**: Även om Antminer S9 är äldre och mindre effektiv är den fortfarande populär bland mindre installationer och hobbyanvändare tack vare sitt överkomliga pris och sin hyfsade prestanda.
+- **S19J Pro**: S19J Pro är känd för sin höga effektivitet och tillförlitlighet och erbjuder en överlägsen Hash-hastighet med lägre strömförbrukning, vilket gör den idealisk för storskalig verksamhet.
+- **Antminer S9**: Även om Antminer S9 är äldre och mindre effektiv är den fortfarande populär bland mindre installationer och hobbyanvändare tack vare sitt överkomliga pris och sin hyfsade prestanda.
 
 
 ![s19j pro vs antminer s9](assets/en/59.webp)
@@ -3422,14 +3422,14 @@ Reglering spelar en viktig roll i utformningen av Mining-landskapet. Till exempe
 
 
 
-   - Betala per andel**: Pay-Per-Share belönar miners för varje giltig share de skickar in, oavsett om poolen hittar ett block eller inte. **Shares** är bevisenheter för att gruvarbetare har slutfört det arbete som krävs, och poolen verifierar dessa aktier.
+- **Betala per andel**: Pay-Per-Share belönar miners för varje giltig share de skickar in, oavsett om poolen hittar ett block eller inte. **Shares** är bevisenheter för att gruvarbetare har slutfört det arbete som krävs, och poolen verifierar dessa aktier.
 
 
 ![pps](assets/en/60.webp)
 
 
 
-   - Proportionell**: Det beror på poolen Mining ett block för att fördela belöningen lika till bidraget från Miner till den totala Hashrate i poolen.
+- **Proportionell**: Det beror på poolen Mining ett block för att fördela belöningen lika till bidraget från Miner till den totala Hashrate i poolen.
 
 
 ![prop](assets/en/61.webp)

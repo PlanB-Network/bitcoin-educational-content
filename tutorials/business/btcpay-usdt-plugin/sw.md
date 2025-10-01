@@ -1,5 +1,5 @@
 ---
-name: Seva ya BTPay - USDT
+name: BTCPay Server - USDT
 description: Hatua za kusanidi programu-jalizi ya USDT
 ---
 ![cover](assets/cover.webp)

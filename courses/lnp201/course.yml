@@ -1,6 +1,7 @@
 id: 34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 topic: protocol
 subtopic: lightning network
+type: theory
 level: intermediate
 hours: 6
 
@@ -142,6 +143,21 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 32.43
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 40.52
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 32.43
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 48.6
 tags:
   - lightning
   - layers

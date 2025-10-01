@@ -1,0 +1,9 @@
+question: 2011년 9월에 Bitcoin의 개선을 조정하기 위한 프로세스인 Bitcoin 개선 제안 시스템을 출범시킨 사람은 누구인가요?
+answer: 아미르 타키
+wrong_answers:
+  - 개빈 안드레센
+  - 제프 가직
+  - 닐스 슈나이더
+explanation: |
+  이 시스템은 파이썬 프로그래밍 언어와 관련된 파이썬 개선 제안(PEP)을 기반으로 모델링되었습니다.
+reviewed: true

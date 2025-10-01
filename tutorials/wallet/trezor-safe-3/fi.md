@@ -271,7 +271,7 @@ Safe 3 luo Mnemonic-lauseesi satunnaislukugeneraattorin avulla. Varmista, ettei 
 
 
 
-***Ei näitä sanoja saa tietenkään koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet käytetään vain Testnet:ssä, ja se poistetaan ohjeen lopussa
+**Ei näitä sanoja saa tietenkään koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkiä Wallet käytetään vain Testnet:ssä, ja se poistetaan ohjeen lopussa**
 
 
 

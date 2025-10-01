@@ -1,0 +1,9 @@
+question: Eric Voskuil'in Cryptoeconomics kitabında belirttiğine göre Bitcoin'ın güvenliği neye dayanmaktadır?
+answer: Bireyler üzerinde
+wrong_answers:
+  - Blockchain üzerinde
+  - Hash gücü hakkında
+  - Kriptografi hakkında
+explanation: |
+  Eric Voskuil, Bitcoin'ün güvenliğinin her şeyden önce sistemi korumak için risk alan insanlara bağlı olduğunu açıklıyor.
+reviewed: true

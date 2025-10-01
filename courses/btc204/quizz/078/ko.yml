@@ -1,0 +1,10 @@
+question: Coin의 과거 거래 분석에 대해 CoinJoin이 제공하는 보호 기능을 설명하는 용어는 무엇인가요?
+answer: 소급 무설정.
+wrong_answers:
+  - 잠재적 무설정.
+  - 추적성 저항.
+  - 시간적 프라이버시.
+explanation: |
+  현재에서 과거로의 분석으로부터 보호하는 것을 소급적 익명 설정이라고 합니다.
+  
+reviewed: true

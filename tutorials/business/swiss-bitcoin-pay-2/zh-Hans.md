@@ -1,5 +1,5 @@
 ---
-name: 瑞士比特币支付
+name: Swiss Bitcoin Pay
 description: 如何轻松接受比特币支付？
 ---
 ![cover](assets/cover.webp)

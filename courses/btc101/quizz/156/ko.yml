@@ -1,0 +1,8 @@
+question: Bitcoin 프로토콜에서 두 블록이 생성될 때까지 평균 시간은 얼마나 걸리나요?
+answer: 10분.
+wrong_answers:
+  - 5분.
+  - 15분.
+  - 20분.
+explanation: >-
+reviewed: true

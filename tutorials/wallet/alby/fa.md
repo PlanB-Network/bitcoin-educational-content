@@ -1,5 +1,5 @@
 ---
-name: افزونه مرورگر Alby
+name: Alby
 
 description: افزونه مرورگر برای Bitcoin و Lightning Network
 ---

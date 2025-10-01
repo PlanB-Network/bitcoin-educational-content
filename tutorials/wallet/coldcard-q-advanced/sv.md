@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Avancerad
+name: COLDCARD Q - Expert
 description: Använda COLDCARD Q:s avancerade alternativ
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ På COLDCARDs har du två alternativ för att hantera din passphrase:
 1. **Klassisk inmatning:** Du matar in passphrase manuellt varje gång du använder din Hardware Wallet, precis som du gör med andra hårdvaruplånböcker. COLDCARD Q förenklar denna uppgift med sitt kompletta tangentbord.
 
 
-2. **Du kan välja att kryptera din passphrase och lagra den på ett microSD-kort. I så fall måste du sätta in microSD-kortet i COLDCARD Q varje gång du använder det. Observera att detta microSD-kort endast fungerar i ditt COLDCARD Q och inte är en säkerhetskopia. Det är därför mycket viktigt att du också behåller en kopia av din passphrase på ett fysiskt medium, t.ex. papper eller metall.
+2. **Du kan välja att kryptera din passphrase och lagra den på ett microSD-kort. I så fall måste du sätta in microSD-kortet i COLDCARD Q varje gång du använder det. Observera att detta microSD-kort endast fungerar i ditt COLDCARD Q och inte är en säkerhetskopia. Det är därför mycket viktigt att du också behåller en kopia av din passphrase på ett fysiskt medium, t.ex. papper eller metall.**
 
 
 För att ställa in din BIP39 passphrase, gå till menyn "*passphrase*".

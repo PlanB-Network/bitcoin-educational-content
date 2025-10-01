@@ -1,5 +1,5 @@
 ---
-name: Breez điểm bán hàng
+name: Breez - POS
 
 description: Hướng dẫn bắt đầu chấp nhận bitcoin sử dụng Breez POS
 ---

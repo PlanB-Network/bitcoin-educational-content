@@ -1,0 +1,9 @@
+question: 고급 Interface으로 라이트닝 노드를 관리할 수 있는 엄브렐 애플리케이션은 무엇인가요?
+answer: 번개 타기
+wrong_answers:
+  - BTCPay 라이트닝
+  - 노스트르 릴레이
+  - 비트피드
+explanation: |
+  라이드 더 라이트닝과 썬더허브는 라이트닝 노드를 관리할 수 있는 완벽한 웹 기반 Interface을 제공합니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 谁在维护 Bitcoin Knots 项目？
+answer: Luke Dashjr
+wrong_answers:
+  - 加文-安德烈森
+  - 弗拉基米尔-J.-范德兰
+  - Pieter Wuille
+explanation: |
+  Bitcoin Knots 由 Luke Dashjr 维护，是 Bitcoin core 的主要替代客户端。
+reviewed: true

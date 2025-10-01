@@ -17,12 +17,12 @@ description: Bảo vệ sự riêng tư và bảo mật của bạn.
 
 
 
-- Miễn phí**: Giống như hầu hết các bản phân phối Linux, Whonix là một hệ thống mã nguồn mở được cấp phép hoàn toàn miễn phí. Nó được phát triển theo mã nguồn mở, với một cộng đồng năng động và minh bạch.
-- Quyền riêng tư, bảo mật và ẩn danh**: Mục tiêu chính của Whonix là cung cấp một môi trường cực kỳ an toàn, trong đó mọi dữ liệu của bạn được bảo vệ và thông tin liên lạc của bạn được mã hóa thông qua mạng Tor.
-- Dễ sử dụng**: Whonix cung cấp giao diện đồ họa trực quan, được cấu hình sẵn, phù hợp ngay cả với người dùng mới. Không cần phải là chuyên gia để tận hưởng khả năng bảo vệ nâng cao.
-- Môi trường lý tưởng cho phát triển an toàn**: Whonix cho phép bạn phát triển, thử nghiệm, kiểm tra hoặc chạy chương trình mà không cần tiết lộ IP thực của Address hoặc thói quen duyệt web hoặc giao tiếp mạng của bạn.
-- Phiên dùng một lần và chế độ Trực tiếp**: Whonix có thể được khởi chạy ở chế độ Trực tiếp hoặc thông qua các máy dùng một lần (ví dụ: thông qua **Qubes OS**), cho phép thực hiện các tác vụ quan trọng mà không để lại dấu vết lâu dài sau khi phiên kết thúc.
-- Cài đặt tương đối đơn giản**: Các hình ảnh sẵn sàng sử dụng được cung cấp để cài đặt nhanh chóng trên các máy ảo (VirtualBox, KVM, Qubes). Hệ thống được ghi chép và cập nhật thường xuyên.
+- **Miễn phí**: Giống như hầu hết các bản phân phối Linux, Whonix là một hệ thống mã nguồn mở được cấp phép hoàn toàn miễn phí. Nó được phát triển theo mã nguồn mở, với một cộng đồng năng động và minh bạch.
+- **Quyền riêng tư, bảo mật và ẩn danh**: Mục tiêu chính của Whonix là cung cấp một môi trường cực kỳ an toàn, trong đó mọi dữ liệu của bạn được bảo vệ và thông tin liên lạc của bạn được mã hóa thông qua mạng Tor.
+- **Dễ sử dụng**: Whonix cung cấp giao diện đồ họa trực quan, được cấu hình sẵn, phù hợp ngay cả với người dùng mới. Không cần phải là chuyên gia để tận hưởng khả năng bảo vệ nâng cao.
+- **Môi trường lý tưởng cho phát triển an toàn**: Whonix cho phép bạn phát triển, thử nghiệm, kiểm tra hoặc chạy chương trình mà không cần tiết lộ IP thực của Address hoặc thói quen duyệt web hoặc giao tiếp mạng của bạn.
+- **Phiên dùng một lần và chế độ Trực tiếp**: Whonix có thể được khởi chạy ở chế độ Trực tiếp hoặc thông qua các máy dùng một lần (ví dụ: thông qua **Qubes OS**), cho phép thực hiện các tác vụ quan trọng mà không để lại dấu vết lâu dài sau khi phiên kết thúc.
+- **Cài đặt tương đối đơn giản**: Các hình ảnh sẵn sàng sử dụng được cung cấp để cài đặt nhanh chóng trên các máy ảo (VirtualBox, KVM, Qubes). Hệ thống được ghi chép và cập nhật thường xuyên.
 
 
 
@@ -56,9 +56,9 @@ Sau đây là thông số kỹ thuật được đề xuất để có trải ng
 
 
 
-- Bộ nhớ Truy cập Ngẫu nhiên (RAM)**: khuyến nghị tối thiểu **8 GB**. RAM càng nhiều, bạn càng có thể phân bổ nhiều tài nguyên hơn cho các máy ảo (Gateway và Workstation), giúp cải thiện hiệu suất.
+- **Bộ nhớ Truy cập Ngẫu nhiên (RAM)**: khuyến nghị tối thiểu **8 GB**. RAM càng nhiều, bạn càng có thể phân bổ nhiều tài nguyên hơn cho các máy ảo (Gateway và Workstation), giúp cải thiện hiệu suất.
 - Dung lượng đĩa trống**: vui lòng chừa ít nhất 30 GB dung lượng đĩa trống**. Dung lượng này bao gồm dung lượng cần thiết cho hai máy ảo, tệp hệ thống và bất kỳ dữ liệu hoặc ảnh chụp nhanh nào.
-- Bộ xử lý**: nên sử dụng bộ xử lý có ít nhất **4 lõi vật lý** (8 luồng logic), đặc biệt nếu bạn muốn chạy các dịch vụ hoặc công cụ khác song song.
+- **Bộ xử lý**: nên sử dụng bộ xử lý có ít nhất **4 lõi vật lý** (8 luồng logic), đặc biệt nếu bạn muốn chạy các dịch vụ hoặc công cụ khác song song.
 
 
 

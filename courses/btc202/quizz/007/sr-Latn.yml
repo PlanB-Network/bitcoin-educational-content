@@ -1,0 +1,9 @@
+question: Šta Wallet treba da uradi da bi video status Blockchain?
+answer: Poveži se na lokalni ili udaljeni čvor
+wrong_answers:
+  - Pitaj druge novčanike u mreži
+  - Intervju sa mrežnim rudarima
+  - Poveži se na online Exchange platformu
+explanation: |
+  Wallet mora se povezati na čvor da bi pristupio statusu Blockchain i emitovao svoje transakcije.
+reviewed: true

@@ -111,9 +111,9 @@ Standardikäyttöön suosittelemme:
 
 
 
-- vähintään 1 Gt RAM-muistia** (2 Gt tai enemmän suositellaan lisäpakettien tai ZFS-tuen mahdollistamiseksi).
-- 8 Gt levytilaa** (20 Gt tai enemmän on suositeltava edistyneemmille kokoonpanoille, erityisesti jos asennat välityspalvelimen välimuistin, IDS/IPS-järjestelmän tai yksityiskohtaiset lokit).
-- Vähintään kaksi virtuaalista verkkoliitäntää** (yksi WAN:lle ja yksi LAN:lle). Lisää ne VirtualBoxissa VM:n asetuksiin ennen käynnistystä.
+- vähintään 1 Gt RAM-muistia (2 Gt tai enemmän suositellaan lisäpakettien tai ZFS-tuen mahdollistamiseksi).
+- 8 Gt levytilaa (20 Gt tai enemmän on suositeltava edistyneemmille kokoonpanoille, erityisesti jos asennat välityspalvelimen välimuistin, IDS/IPS-järjestelmän tai yksityiskohtaiset lokit).
+- Vähintään kaksi virtuaalista verkkoliitäntää (yksi WAN:lle ja yksi LAN:lle). Lisää ne VirtualBoxissa VM:n asetuksiin ennen käynnistystä.
 
 
 
@@ -309,8 +309,8 @@ Kirjautumisnäyttö tulee näkyviin. Oletusarvoiset tunnukset ovat:
 
 
 
-- Käyttäjänimi:** `admin`
-- Salasana:** `pfsense`
+- **Käyttäjänimi:** `admin`
+- **Salasana:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ Voit lopettaa komennuksesi mielenrauhassa:
 
 
 
-- Muokkaa palomuurisääntöjä**: oletusarvoisesti pfSense sallii kaiken lähtevän liikenteen lähiverkossa ja estää saapuvan liikenteen WANissa. Muokkaa näitä sääntöjä tarpeen mukaan.
-- Määritä suojattu etäkäyttö**: Ota Interface:n verkkoyhteys käyttöön WAN:sta vain VPN:n kautta tai IP-rajoitusten avulla, jos se on tarpeen.
-- Ota ilmoitukset käyttöön**: määritä SMTP-palvelin vastaanottamaan ilmoituksia (epäonnistumiset, päivitykset, virheet).
-- Asenna hyödyllisiä laajennuksia**: esimerkiksi IDS/IPS (Snort, Suricata), välityspalvelin (Squid), DNS-suodatus (pfBlockerNG).
+- **Muokkaa palomuurisääntöjä**: oletusarvoisesti pfSense sallii kaiken lähtevän liikenteen lähiverkossa ja estää saapuvan liikenteen WANissa. Muokkaa näitä sääntöjä tarpeen mukaan.
+- **Määritä suojattu etäkäyttö**: Ota Interface:n verkkoyhteys käyttöön WAN:sta vain VPN:n kautta tai IP-rajoitusten avulla, jos se on tarpeen.
+- **Ota ilmoitukset käyttöön**: määritä SMTP-palvelin vastaanottamaan ilmoituksia (epäonnistumiset, päivitykset, virheet).
+- Asenna hyödyllisiä laajennuksia: esimerkiksi IDS/IPS (Snort, Suricata), välityspalvelin (Squid), DNS-suodatus (pfBlockerNG).
 
 
 

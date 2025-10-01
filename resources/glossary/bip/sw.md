@@ -8,18 +8,18 @@ Kifupi cha "Pendekezo la Uboreshaji la Bitcoin." Pendekezo la Uboreshaji la Bitc
 BIP zimeainishwa katika makundi makuu matatu:
 
 
-- Viwango vya Kufuatilia BIPs*: Marekebisho yanayohusu ambayo yanaathiri moja kwa moja utekelezaji wa Bitcoin, kama vile sheria za malipo na kuzuia uthibitishaji;
-- BIP za Taarifa*: Toa taarifa au mapendekezo bila kupendekeza mabadiliko ya moja kwa moja kwa itifaki;
-- Mchakato wa BIPs*: Eleza mabadiliko katika taratibu zinazozunguka Bitcoin, kama vile michakato ya utawala.
+- Viwango vya Kufuatilia **BIPs**: Marekebisho yanayohusu ambayo yanaathiri moja kwa moja utekelezaji wa Bitcoin, kama vile sheria za malipo na kuzuia uthibitishaji;
+- **BIP za Taarifa**: Toa taarifa au mapendekezo bila kupendekeza mabadiliko ya moja kwa moja kwa itifaki;
+- Mchakato wa **BIPs**: Eleza mabadiliko katika taratibu zinazozunguka Bitcoin, kama vile michakato ya utawala.
 
 
 Ufuatiliaji wa Viwango na BIP za Taarifa pia zimeainishwa kwa "Layer":
 
 
-- Makubaliano Layer*: BIPs katika Layer hii inahusu sheria za makubaliano za Bitcoin, kama vile marekebisho ya kizuizi au sheria za uthibitishaji wa shughuli. Mapendekezo haya yanaweza kuwa uma za Soft (marekebisho yanayoendana na nyuma) au uma za Hard (marekebisho yasiyo ya nyuma-ya sambamba). Kwa mfano, BIP za SegWit na Taproot ni za kitengo hiki;
-- Huduma za Rika*: Layer hii inahusu uendeshaji wa mtandao wa nodi za Bitcoin, yaani, jinsi nodi hupata na kuwasiliana kwenye mtandao.
-- API/RPC*: BIP za Layer hii zinahusu Violesura vya Kuandaa Programu (API) na Simu za Utaratibu wa Mbali (RPC) zinazoruhusu programu ya Bitcoin kuingiliana na nodi;
-- Programu Layer*: Layer hii inahusu programu zilizojengwa juu ya Bitcoin. BIPs katika kitengo hiki kwa kawaida hushughulika na marekebisho katika kiwango cha viwango vya Bitcoin Wallet.
+- **Makubaliano Layer**: BIPs katika Layer hii inahusu sheria za makubaliano za Bitcoin, kama vile marekebisho ya kizuizi au sheria za uthibitishaji wa shughuli. Mapendekezo haya yanaweza kuwa uma za Soft (marekebisho yanayoendana na nyuma) au uma za Hard (marekebisho yasiyo ya nyuma-ya sambamba). Kwa mfano, BIP za SegWit na Taproot ni za kitengo hiki;
+- Huduma za Rika: Layer hii inahusu uendeshaji wa mtandao wa nodi za Bitcoin, yaani, jinsi nodi hupata na kuwasiliana kwenye mtandao.
+- **API/RPC**: BIP za Layer hii zinahusu Violesura vya Kuandaa Programu (API) na Simu za Utaratibu wa Mbali (RPC) zinazoruhusu programu ya Bitcoin kuingiliana na nodi;
+- **Programu Layer**: Layer hii inahusu programu zilizojengwa juu ya Bitcoin. BIPs katika kitengo hiki kwa kawaida hushughulika na marekebisho katika kiwango cha viwango vya Bitcoin Wallet.
 
 
 Mchakato wa kuwasilisha BIP huanza na uundaji dhana na mjadala wa wazo kwenye orodha ya utumaji barua ya *Bitcoin-dev*. Ikiwa wazo hilo ni la kuahidi, mwandishi huandaa BIP kufuatia umbizo maalum na kuiwasilisha kupitia Ombi la Vuta kwenye hazina ya Core GitHub. Wahariri hukagua pendekezo hili ili kuthibitisha kuwa linakidhi vigezo vyote. BIP lazima iwezekane kiufundi, iwe na manufaa kwa itifaki, itii uumbizaji unaohitajika, na iwe kwa mujibu wa falsafa ya Bitcoin. Ikiwa BIP itatimiza masharti haya, itaunganishwa rasmi kwenye hazina ya GitHub ya BIPs. Kisha hupewa nambari. Nambari hii kwa ujumla huamuliwa na mhariri, mara nyingi Luke Dashjr, na huwekwa kimantiki: BIPs zinazohusika na masomo sawa mara nyingi hupokea nambari zinazofuatana.

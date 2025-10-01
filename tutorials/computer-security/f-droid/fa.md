@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: فهرست برنامه‌های رایگان و متن‌باز.
 ---
 

@@ -1,0 +1,9 @@
+question: Kes hooldab Bitcoin Knots projekti?
+answer: Luke Dashjr
+wrong_answers:
+  - Gavin Andresen
+  - Wladimir J. Van Der Laan
+  - Pieter Wuille
+explanation: |
+  Bitcoin Knots-i hooldab Luke Dashjr ja see on peamine alternatiivne klient Bitcoin core-le.
+reviewed: true

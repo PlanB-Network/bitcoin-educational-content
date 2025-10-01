@@ -1,5 +1,5 @@
 ---
-name: Wallet von Satoshi - Verkaufsstelle
+name: Wallet of Satoshi - POS
 description: Führen Sie Bitcoin über Lightning Network in Ihrem Unternehmen ein.
 ---
 

@@ -1,0 +1,9 @@
+question: Milline arutelu toob kaasa Lissaboni maavärina?
+answer: Mehed saavad ja peavad oma elu ise kontrollima.
+wrong_answers:
+  - Loodus on vastutav.
+  - Inimesed peavad loodust kartma.
+  - Loodus on arusaamatu.
+explanation: |
+  Lissaboni maavärin (1755) tõi kaasa mõtte, et inimesed võivad ja peaksid asja enda kätte võtma. See sündmus seadis kahtluse alla jumaliku ettevaatuse ja soodustas humanistlikumat, ratsionalistlikumat maailmavaadet.
+reviewed: false

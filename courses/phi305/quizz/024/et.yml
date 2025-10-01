@@ -1,0 +1,9 @@
+question: Kas skolastika on?
+answer: Keskaja filosoofia.
+wrong_answers:
+  - Moodsa ajastu filosoofia.
+  - Iidne filosoofia.
+  - Ateistlik filosoofia.
+explanation: |
+  Skolastika oli keskaegne filosoofia, mis püüdis ühitada kristlikku usku ja aristotelistlikku filosoofiat. See domineeris Euroopa ülikoolides enne moodsa filosoofia tekkimist.
+reviewed: false

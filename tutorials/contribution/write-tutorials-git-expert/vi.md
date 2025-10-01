@@ -18,11 +18,11 @@ Bạn đã có:
 Trong hướng dẫn dành cho người dùng Git có kinh nghiệm này, chúng tôi sẽ tóm tắt ngắn gọn các bước chính và hướng dẫn cần thiết để cung cấp hướng dẫn Plan ₿ Network mới. Nếu bạn không quen với Git và GitHub, tôi khuyên bạn nên làm theo một trong 2 hướng dẫn chi tiết hơn sau đây sẽ hướng dẫn bạn từng bước:
 
 
-- Trung cấp (GitHub Desktop)**:
+- **Trung cấp (GitHub Desktop)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Người mới bắt đầu (giao diện web)**:
+- **Người mới bắt đầu (giao diện web)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,30 +31,30 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 Để chỉnh sửa các tệp Markdown:
 
 
-- Obsidian** (Miễn phí, không phải mã nguồn mở)
-- Đánh dấu văn bản** (Miễn phí, mã nguồn mở)
-- Zettlr** (Miễn phí, mã nguồn mở)
-- Typora** (Phần mềm trả phí, khoảng 15€, không phải mã nguồn mở)
+- **Obsidian** (Miễn phí, không phải mã nguồn mở)
+- **Đánh dấu văn bản** (Miễn phí, mã nguồn mở)
+- **Zettlr** (Miễn phí, mã nguồn mở)
+- **Typora** (Phần mềm trả phí, khoảng 15€, không phải mã nguồn mở)
 
 Đối với Git:
 
 
-- Git** (Miễn phí, mã nguồn mở)
-- GitHub Desktop** (Miễn phí, mã nguồn mở)
-- Sourcetree** (Miễn phí, không phải mã nguồn mở)
+- **Git** (Miễn phí, mã nguồn mở)
+- **GitHub Desktop** (Miễn phí, mã nguồn mở)
+- **Sourcetree** (Miễn phí, không phải mã nguồn mở)
 
 Để chỉnh sửa các tệp YAML:
 
 
-- Visual Studio Code** (Miễn phí, mã nguồn mở)
-- Sublime Text** (Miễn phí nhưng có giới hạn, không phải mã nguồn mở)
+- **Visual Studio Code** (Miễn phí, mã nguồn mở)
+- **Sublime Text** (Miễn phí nhưng có giới hạn, không phải mã nguồn mở)
 
 Để tạo sơ đồ và hình ảnh:
 
 
-- Canva** (Miễn phí với các tùy chọn trả phí, không phải mã nguồn mở)
-- Inkscape** (Miễn phí, mã nguồn mở)
-- Penpot** (Miễn phí, mã nguồn mở)
+- **Canva** (Miễn phí với các tùy chọn trả phí, không phải mã nguồn mở)
+- **Inkscape** (Miễn phí, mã nguồn mở)
+- **Penpot** (Miễn phí, mã nguồn mở)
 
 ## Quy trình làm việc
 
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## Tiêu chuẩn sáng tạo nội dung
 
 
-- Định dạng được hỗ trợ trên nền tảng**:
+- Định dạng được hỗ trợ trên nền tảng:
     - Markdown cổ điển: danh sách, liên kết, hình ảnh, trích dẫn, in đậm, in nghiêng, v.v.
     - LaTeX (chỉ khối, không phải nội tuyến): phân cách bằng `$$`.
     - Mã nội tuyến: Cú pháp với một dấu ngoặc đơn.
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- Hình ảnh minh họa và sơ đồ**:
+- **Hình ảnh minh họa và sơ đồ**:
     - Tất cả hình ảnh phải ở định dạng WebP. Sử dụng công cụ miễn phí này để chuyển đổi chúng nếu cần: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Đặt tên hình ảnh có 2 hoặc 3 chữ số (ví dụ: `001.webp`, `002.webp`).
     - Đối với hướng dẫn về ví di động hoặc ví phần cứng, hãy sử dụng bản mô phỏng.
     - Chỉ sử dụng hình ảnh tự tạo hoặc không có bản quyền.
     - Hãy đảm bảo chúng có liên quan và chất lượng cao.
-- Hiến chương đồ họa**:
+- **Hiến chương đồ họa**:
     - Phông chữ: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Kế hoạch màu sắc ₿ Mạng lưới:
         - Màu cam: `#FF5C00`

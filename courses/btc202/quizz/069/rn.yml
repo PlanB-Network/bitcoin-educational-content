@@ -1,0 +1,9 @@
+question: Ni ikihe kibazo nyamukuru giterwa n’ukwirundanira kwa Dust muri mini-PC yawe?
+answer: Guhagarika umuriro
+wrong_answers:
+  - Blockchain gukuraho
+  - Igiturire ca disiki
+  - Ubushobozi bwa RAM bwagabanutse
+explanation: |
+  Dust irazibira umwuka, igatuma umuntu ashuha cane, kandi igatuma umuntu agira throttling, bigatuma processeur idakora neza.
+reviewed: true

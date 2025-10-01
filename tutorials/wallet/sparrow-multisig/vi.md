@@ -1,5 +1,5 @@
 ---
-name: Chim sẻ Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Tạo danh mục đầu tư đa chữ ký trên Sparrow
 ---
 ![cover](assets/cover.webp)

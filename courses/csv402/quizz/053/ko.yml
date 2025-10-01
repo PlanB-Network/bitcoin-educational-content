@@ -1,0 +1,9 @@
+question: RGB은 DEX Layer-2를 위한 길을 어떻게 열어주나요?
+answer: 라이트닝 채널과 아토믹 스왑을 통해 off-chain 자산의 Exchange을 활성화함으로써
+wrong_answers:
+  - 모든 RGB 트랜잭션에 중앙 집중식 Exchange를 사용할 수 있도록 지원함으로써
+  - Exchange 스마트 컨트랙트를 통해 자산의 On-Chain을 활성화함으로써
+  - 아토믹 스왑을 통해 Blockchain 자산 간 Exchange를 활성화함으로써
+explanation: |
+  라이트닝 채널을 통해 아토믹 스왑과 교환을 수행할 수 있는 능력은 On-Chain 거래소의 단점 없이 탈중앙화된 탈중앙 거래소를 만들 수 있는 가능성을 제공합니다.
+reviewed: false

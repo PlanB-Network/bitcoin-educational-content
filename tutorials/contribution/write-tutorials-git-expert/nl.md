@@ -209,23 +209,23 @@ Dit zijn de verplichte velden:
 
 
 
-- id**: Een UUID (_Universally Unique Identifier_) die de zelfstudie uniek identificeert. Je kunt generate gebruiken met [een online tool] (https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
+- **id**: Een UUID (_Universally Unique Identifier_) die de zelfstudie uniek identificeert. Je kunt generate gebruiken met [een online tool](https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
 
 
 
-- project_id**: De UUID van het bedrijf of de organisatie achter het gereedschap dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die op Bitcoin of gerelateerde projecten werken. Door de `project_id` toe te voegen van de entiteit die gelinkt is aan je zelfstudie, creëer je een link tussen de twee Elements;
+- **project_id**: De UUID van het bedrijf of de organisatie achter het gereedschap dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die op Bitcoin of gerelateerde projecten werken. Door de `project_id` toe te voegen van de entiteit die gelinkt is aan je zelfstudie, creëer je een link tussen de twee Elements;
 
 
 
-- tags**: 2 of 3 relevante trefwoorden die verband houden met de inhoud van de zelfstudie, exclusief gekozen [uit de Plan ₿ Network taglijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 of 3 relevante trefwoorden die verband houden met de inhoud van de zelfstudie, exclusief gekozen [uit de Plan ₿ Network taglijst](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- categorie**: De subcategorie die overeenkomt met de inhoud van de tutorial, volgens de Plan ₿ Network website structuur (bijvoorbeeld, voor wallets: `desktop`, `hardware`, `mobiel`, `backup`);
+- **categorie**: De subcategorie die overeenkomt met de inhoud van de tutorial, volgens de Plan ₿ Network website structuur (bijvoorbeeld, voor wallets: `desktop`, `hardware`, `mobiel`, `backup`);
 
 
 
-- level**: De moeilijkheidsgraad van de zelfstudie, gekozen uit:
+- **level**: De moeilijkheidsgraad van de zelfstudie, gekozen uit:
     - beginner
     - gemiddeld
     - geavanceerd
@@ -233,20 +233,20 @@ Dit zijn de verplichte velden:
 
 
 
-- professor_id**: Uw `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Uw `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- oorspronkelijke_taal**: De oorspronkelijke taal van de zelfstudie (bijv. `fr`, `en`, enz.);
+- **oorspronkelijke_taal**: De oorspronkelijke taal van de zelfstudie (bijv. `fr`, `en`, enz.);
 
 
 
-- proeflezen**: Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen zelfstudie telt als een eerste validatie:
-    - language**: Taalcode van het proeflezen (bijv. `fr`, `en`, enz.).
-    - last_contribution_date**: Datum van de dag.
-    - urgentie**: 1
-    - contributor_names**: Je GitHub ID.
-    - beloning**: 0
+- **proeflezen**: Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen zelfstudie telt als een eerste validatie:
+- **language**: Taalcode van het proeflezen (bijv. `fr`, `en`, enz.).
+- **last_contribution_date**: Datum van de dag.
+- **urgentie**: 1
+- **contributor_names**: Je GitHub ID.
+- **belonging**: 0
 
 
 Raadpleeg de bijbehorende handleiding voor meer informatie over je leraren-ID:
@@ -361,7 +361,7 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Opmaak ondersteund op het platform**:
+- **Opmaak ondersteund op het platform**:
     - Klassieke Markdown: lijsten, links, afbeeldingen, citaten, vet, cursief enz.
     - LaTeX (alleen blok, niet inline): begrensd door `$$`.
     - Inline code: Syntaxis met een enkele backtick.
@@ -374,13 +374,13 @@ print("Hello, Bitcoin!")
 
 
 
-- Illustraties en diagrammen**:
+- **Illustraties en diagrammen**:
     - Alle afbeeldingen moeten het WebP-formaat hebben. Gebruik deze gratis tool om ze indien nodig te converteren: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Geef visuals een naam met 2 of 3 cijfers (bijvoorbeeld `001.webp`, `002.webp`).
     - Gebruik mock-ups voor mobiele of Hardware Wallet tutorials.
     - Gebruik alleen zelfgemaakte of rechtenvrije afbeeldingen.
     - Zorg ervoor dat ze relevant en van hoge kwaliteit zijn.
-- Grafisch charter**:
+- **Grafisch charter**:
     - Lettertype: [Rubik](https://fonts.google.com/specimen/Rubik).
     - Kleuren Plan ₿ Network:
         - Oranje: `#FF5C00`

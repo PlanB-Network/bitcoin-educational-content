@@ -1,0 +1,9 @@
+question: Ist die Scholastik?
+answer: Eine Philosophie des Mittelalters.
+wrong_answers:
+  - Eine Philosophie der Neuzeit.
+  - Eine alte Philosophie.
+  - Eine atheistische Philosophie.
+explanation: |
+  Die Scholastik war eine mittelalterliche Philosophie, die versuchte, den christlichen Glauben mit der aristotelischen Philosophie in Einklang zu bringen. Sie dominierte die europäischen Universitäten vor dem Aufkommen der modernen Philosophie.
+reviewed: false

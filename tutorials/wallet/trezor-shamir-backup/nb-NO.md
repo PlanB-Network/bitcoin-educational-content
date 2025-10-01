@@ -34,7 +34,7 @@ Brukere som har opprettet en portefølje med *Single-share Backup*, kan når som
 
 
 
-Multi-share Backup* er tilgjengelig på Trezor Model T, Safe 3 og Safe 5. Denne funksjonen støttes ikke av Trezor Model One.
+Multi-share Backup er tilgjengelig på Trezor Model T, Safe 3 og Safe 5. Denne funksjonen støttes ikke av Trezor Model One.
 
 
 
@@ -145,7 +145,7 @@ På Trezor velger du det totale antallet aksjer du ønsker å konfigurere. De va
 
 
 
-*For Safe 5-brukere vil det stå "*Trykk for å fortsette*" på skjermen, men du må faktisk sveipe opp for å bekrefte
+*For Safe 5-brukere vil det stå "Trykk for å fortsette" på skjermen, men du må faktisk sveipe opp for å bekrefte*
 
 
 
@@ -173,7 +173,7 @@ Jeg anbefaler at du noterer ned hver deling på et separat medium og administrer
 
 
 
-du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Dette eksemplet Wallet vil bare bli brukt på Testnet og vil bli slettet på slutten av opplæringen.**_
+du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Dette eksemplet Wallet vil bare bli brukt på Testnet og vil bli slettet på slutten av opplæringen.
 
 
 

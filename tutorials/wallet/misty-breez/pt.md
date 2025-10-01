@@ -1,5 +1,5 @@
 ---
-name: Brisa de Névoa
+name: Misty Breez
 description: O Lightning Wallet sem arco.
 ---
 

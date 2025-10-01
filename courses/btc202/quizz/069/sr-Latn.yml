@@ -1,0 +1,9 @@
+question: Koji je glavni rizik od nakupljanja Dust u vašem mini-PC-ju?
+answer: Ograničavanje procesora
+wrong_answers:
+  - Brisanje bloka Blockchain
+  - Oštećenje diska
+  - Smanjeni kapacitet RAM-a
+explanation: |
+  Dust blokira ventilaciju, uzrokuje pregrevanje i dovodi do usporavanja, smanjujući efikasnost procesora.
+reviewed: true

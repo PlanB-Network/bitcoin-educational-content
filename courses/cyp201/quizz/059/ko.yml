@@ -1,0 +1,9 @@
+question: Bitcoin HD Wallet에서 seed의 역할은 무엇인가요?
+answer: 모든 키 파생의 시작점 역할을 합니다
+wrong_answers:
+  - Wallet의 트랜잭션 저장
+  - 마스터 공개키를 직접 generate
+  - 거래 기밀성 보장
+explanation: |
+  seed은 Mnemonic 구문과 passphrase에서 파생된 512비트 시퀀스입니다. Wallet의 모든 키의 기초를 형성합니다.
+reviewed: false

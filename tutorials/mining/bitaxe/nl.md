@@ -1,5 +1,5 @@
 ---
-name: Een BitAxe instellen
+name: Bitaxe
 description: Hoe stel ik een BitAxe in?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)

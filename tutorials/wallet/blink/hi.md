@@ -1,5 +1,5 @@
 ---
-name: पलक
+name: Blink
 description: संपूर्ण ब्लिंक Wallet ट्यूटोरियल - आसानी से Bitcoin भेजें, प्राप्त करें और उपयोग करें
 ---
 

@@ -1,17 +1,21 @@
 ---
-name: 中微子
+name: Neutrino
 description: LND Neutrino 安裝指南
 ---
+![image](assets/cover.webp)
 
-# 使用 LND 設定 Raspberry Pi
+
+## 使用 LND 設定 Raspberry Pi
 
 
-#### 1.下載 Raspberry Pi OS Lite
+### 1.下載 Raspberry Pi OS Lite
+
 
 在 Windows、Mac 和 Linux 中下載映像檔並安裝到 micro SD 卡的說明，請參閱 [本頁](https://www.raspberrypi.org/software/operating-systems/)。
 
 
-#### 2.格式化 SD 卡
+### 2.格式化 SD 卡
+
 
 使用 Raspberry Pi Imager 或 balenaEtcher。
 
@@ -19,7 +23,7 @@ description: LND Neutrino 安裝指南
 **Note:** 符號 `$` 用作提示符，允許使用者在電腦中輸入命令，命令將由 Linux 中的 bash 解譯。行首的符號 `#` 表示下面的文字是註解。
 
 
-#### 3.啟用 SSH
+### 3.啟用 SSH
 
 
 在使用格式化的記憶體啟動 Raspberry Pi 之前，我們必須將它插入電腦，並建立兩個檔案，讓我們可以遠端連線。使用 `touch` 指令，我們在 /boot 磁碟分割中建立一個空檔，使剛格式化的 SD 卡第一次開機時能夠進行 SSH 連線。
@@ -31,7 +35,9 @@ description: LND Neutrino 安裝指南
 $ touch /boot/ssh
 ```
 
-#### 4.建立 Wi-Fi 連線的檔案
+
+### 4.建立 Wi-Fi 連線的檔案
+
 
 使用 nano 指令建立 `wpa_supplicant.conf` 檔案，並直接開始編輯。在此檔案中，我們需要複製 wifi 設定，複製 START 和 END 之間的文字，並修改要連線的 wifi 的 SSID 和密碼。
 
@@ -52,14 +58,17 @@ psk="password"
 ```
 
 
-#### 5.連接
+### 5.連接
+
 
 然後，我們將 SD 卡插入 Raspberry Pi，並將 Pi 連接到電源，以啟動作業系統。我們需要在網路上識別它，mDNS 協定可能會為它指定 raspberrypi.local 這個名稱。讓我們嘗試透過 SSH 連線。
+
 
 ```
 $ ssh pi@raspberrypi.local
 password: raspberry
 ```
+
 
 如果不起作用，我們需要找出網路。讓我們找出我們連線的 IP Address。
 
@@ -86,7 +95,8 @@ password: raspberry
 ```
 
 
-#### 6.設定 Pi
+### 6.設定 Pi
+
 
 ```
 $ sudo raspi-config
@@ -100,7 +110,8 @@ $ sudo raspi-config
 - 完成
 
 
-#### 7.現在更新作業系統
+### 7.現在更新作業系統
+
 
 ```
 $ sudo apt update && sudo apt upgrade -y
@@ -108,14 +119,15 @@ $ sudo apt install htop git curl bash-completion jq qrencode dphys-swapfile vim 
 ```
 
 
-#### 8.新增 Bitcoin 使用者
+### 8.新增 Bitcoin 使用者
+
 
 ```
 $ sudo adduser bitcoin
 ```
 
 
-#### 9.保護 rpi
+### 9.保護 rpi
 
 
 ```
@@ -132,9 +144,10 @@ $ sudo apt install fail2ban
 ```
 
 
-#### 10.安裝 Go
+### 10.安裝 Go
 
-如果您沒有使用 raspberry pi，請下載 go for your architecture [這裡](https://golang.org/dl/)
+
+如果您使用的不是 raspberry pi，請下載 go for your architecture [這裡](https://golang.org/dl/)。
 
 
 ```
@@ -148,7 +161,7 @@ $ go version # should display the following message 'go version go1.13.5 linux/a
 ```
 
 
-#### 11.編譯並安裝 LND
+### 11.編譯並安裝 LND
 
 
 ```
@@ -163,7 +176,8 @@ lncli version 0.11.0-beta commit=v0.11.0-beta-61-g6055b00dbbcedf45cd60f12e57dc5c
 ```
 
 
-#### 12.建立 LND conf 檔案
+### 12.建立 LND conf 檔案
+
 
 建立 LND 組態檔案，這應該使用「Bitcoin」使用者來完成
 
@@ -200,7 +214,8 @@ neutrino.connect=bb2.breez.technology
 ```
 
 
-#### 13.LND 服務自動啟動
+### 13.LND 服務自動啟動
+
 
 要讓 LND 在 rpi 開機後啟動，我們必須在 systemd 中建立 .service 檔案。如果我們以 Bitcoin 使用者登入，想要切回 pi 使用者，只要輸入 'exit' 即可。
 
@@ -284,7 +299,7 @@ $ sudo journalctl -f -u lnd
 ```
 
 
-#### 14.現在我們開始 LND
+### 14.現在我們開始 LND
 
 
 ```
@@ -293,7 +308,7 @@ $ lncli create
 ```
 
 
-#### 15.將資金加入節點
+### 15.將資金加入節點
 
 
 ```
@@ -321,6 +336,7 @@ $ lncli walletbalance
 
 開啟與節點的連線：
 
+
 ```
 $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0@212.129.58.219:9735
 ```
@@ -328,12 +344,14 @@ $ lncli connect 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836
 
 然後開啟通道：
 
+
 ```
 $ lncli openchannel 031015a7839468a3c266d662d5bb21ea4cea24226936e2864a7ca4f2c3939836e0 1000000 0
 ```
 
 
 檢查我們的基金：
+
 
 ```
 $ lncli walletbalance
@@ -343,6 +361,7 @@ $ lncli channelbalance
 
 我們可以檢視待定和作用中的頻道：
 
+
 ```
 $ lncli pendingchannels
 $ lncli listchannels
@@ -351,12 +370,14 @@ $ lncli listchannels
 
 支付閃電 Invoice：
 
+
 ```
 $ lncli payinvoice lnbc1p0kkhgwpp5sn9y6xe9hx7swrjj4057674vh73nwk6rxg8j8zedztkn3vdzgjafacqmud86h
 ```
 
 
 若要接收付款，請建立特定金額的 Invoice：
+
 
 ```
 $ lncli addinvoice --memo 'my first payment on LN' --amt 100
@@ -365,6 +386,7 @@ $ lncli addinvoice --memo 'my first payment on LN' --amt 100
 
 檢視關於我的節點的資訊：
 
+
 ```
 $ lncli getinfo
 ```
@@ -372,12 +394,14 @@ $ lncli getinfo
 
 只要執行 lncli 指令，就可以看到完整的指令清單：
 
+
 ```
 $ lncli
 ```
 
 
 最後，對 LND API 進行呼叫：
+
 
 ```
 $ MACAROON_HEADER="Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 .lnd/data/chain/bitcoin/mainnet/admin.macaroon)"

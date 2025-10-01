@@ -1,0 +1,9 @@
+question: Opsi server Sparrow wallet mana yang sesuai dengan koneksi RPC?
+answer: Bitcoin core
+wrong_answers:
+  - Server Publik
+  - Electrum pribadi
+  - API jarak jauh
+explanation: |
+  Pada Sparrow, opsi Bitcoin core sesuai dengan koneksi langsung ke node melalui RPC.
+reviewed: true

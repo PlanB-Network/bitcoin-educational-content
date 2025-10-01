@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -56,55 +56,55 @@ Ecco alcune delle caratteristiche principali di OPNsense:
 
 
 
-- Firewall e NAT**: OPNsense offre funzionalità avanzate di firewall stateful con filtraggio stateful e funzionalità di traduzione Address della rete (NAT).
+- **Firewall e NAT**: OPNsense offre funzionalità avanzate di firewall stateful con filtraggio stateful e funzionalità di traduzione Address della rete (NAT).
 
 
 
 
 
-- DNS/DHCP**: OPNsense può essere configurato per gestire i servizi DNS e DHCP sulla rete. Può agire come server DHCP, ma può anche essere utilizzato come risolutore DNS per i computer della rete locale. Dnsmasq è integrato di default.
+- **DNS/DHCP**: OPNsense può essere configurato per gestire i servizi DNS e DHCP sulla rete. Può agire come server DHCP, ma può anche essere utilizzato come risolutore DNS per i computer della rete locale. Dnsmasq è integrato di default.
 
 
 
 
 
-- VPN**: OPNsense supporta diversi protocolli VPN, tra cui IPsec, OpenVPN e WireGuard, consentendo connessioni sicure per l'accesso remoto a postazioni di lavoro mobili o per l'interconnessione di siti.
+- **VPN**: OPNsense supporta diversi protocolli VPN, tra cui IPsec, OpenVPN e WireGuard, consentendo connessioni sicure per l'accesso remoto a postazioni di lavoro mobili o per l'interconnessione di siti.
 
 
 
 
 
-- Proxy web**: OPNsense include un proxy web per controllare e filtrare l'accesso a Internet. Può essere utilizzato anche per filtrare i contenuti e gestire l'accesso alla rete.
+- **Proxy web**: OPNsense include un proxy web per controllare e filtrare l'accesso a Internet. Può essere utilizzato anche per filtrare i contenuti e gestire l'accesso alla rete.
 
 
 
 
 
-- Gestione della larghezza di banda (QoS)**: OPNsense offre funzioni di gestione della qualità del servizio (QoS) per assegnare priorità al traffico di rete e gestire meglio la larghezza di banda.
+- **Gestione della larghezza di banda (QoS)**: OPNsense offre funzioni di gestione della qualità del servizio (QoS) per assegnare priorità al traffico di rete e gestire meglio la larghezza di banda.
 
 
 
 
 
-- Captive portal**: questa funzione consente di gestire l'accesso degli utenti alla rete tramite una pagina di autenticazione (base locale, voucher, ecc.). È una funzione comunemente utilizzata per le reti Wi-Fi pubbliche.
+- **Captive portal**: questa funzione consente di gestire l'accesso degli utenti alla rete tramite una pagina di autenticazione (base locale, voucher, ecc.). È una funzione comunemente utilizzata per le reti Wi-Fi pubbliche.
 
 
 
 
 
-- IDS/IPS**: OPNsense integra Suricata per offrire funzioni di rilevamento e prevenzione delle intrusioni (IDS/IPS) per proteggere la rete dagli attacchi.
+- **IDS/IPS**: OPNsense integra Suricata per offrire funzioni di rilevamento e prevenzione delle intrusioni (IDS/IPS) per proteggere la rete dagli attacchi.
 
 
 
 
 
-- Alta disponibilità (CARP)**: OPNsense supporta il CARP (*Common Address Redundancy Protocol*) per l'alta disponibilità tra più firewall OPNsense, garantendo che il servizio rimanga attivo anche in caso di guasto hardware.
+- **Alta disponibilità (CARP)**: OPNsense supporta il CARP (*Common Address Redundancy Protocol*) per l'alta disponibilità tra più firewall OPNsense, garantendo che il servizio rimanga attivo anche in caso di guasto hardware.
 
 
 
 
 
-- Reporting e monitoraggio**: OPNsense fornisce strumenti di reporting e monitoraggio in tempo reale per tracciare le prestazioni della rete (con NetFlow) e individuare potenziali problemi, grazie alla creazione di registri. Sono compresi i grafici. Lo strumento Monit è integrato in OPNsense e consente la supervisione del firewall stesso.
+- **Reporting e monitoraggio**: OPNsense fornisce strumenti di reporting e monitoraggio in tempo reale per tracciare le prestazioni della rete (con NetFlow) e individuare potenziali problemi, grazie alla creazione di registri. Sono compresi i grafici. Lo strumento Monit è integrato in OPNsense e consente la supervisione del firewall stesso.
 
 
 
@@ -179,11 +179,11 @@ Il nostro obiettivo è quello di
 
 
 
-- Creare una rete virtuale interna (192.168.10.0/24 - LAN)**, che possa accedere a Internet tramite il firewall OPNsense. Per l'uso in produzione, questa potrebbe essere la vostra rete locale, via cavo e/o Wi-Fi.
-- Attivare e configurare NAT** in modo che le macchine virtuali della rete virtuale interna possano accedere a Internet
-- Attivare e configurare il server DHCP su OPNsense** per distribuire una configurazione IP alle future macchine collegate alla rete virtuale interna
-- Configurare il firewall** per consentire solo i flussi in uscita da LAN a WAN in HTTP (80) e HTTPS (443).
-- Configurare il firewall** per consentire alla LAN virtuale di utilizzare OPNsense come resolver DNS (53).
+- Creare una rete virtuale interna (192.168.10.0/24 - LAN), che possa accedere a Internet tramite il firewall OPNsense. Per l'uso in produzione, questa potrebbe essere la vostra rete locale, via cavo e/o Wi-Fi.
+- Attivare e configurare **NAT** in modo che le macchine virtuali della rete virtuale interna possano accedere a Internet
+- Attivare e configurare il server DHCP su OPNsense per distribuire una configurazione IP alle future macchine collegate alla rete virtuale interna
+- Configurare il **firewall** per consentire solo i flussi in uscita da LAN a WAN in HTTP (80) e HTTPS (443).
+- Configurare il **firewall** per consentire alla LAN virtuale di utilizzare OPNsense come resolver DNS (53).
 
 
 
@@ -257,7 +257,7 @@ Si arriverà quindi a un Interface simile a quello qui sotto. Accedere con il lo
 
 
 
-Sullo schermo appare una nuova procedura guidata. Il primo passo consiste nel selezionare il layout della tastiera corrispondente alla propria configurazione. Per una tastiera AZERTY, selezionare dall'elenco l'opzione "**Francese (tasti accento)**", quindi fare doppio clic su**.
+Sullo schermo appare una nuova procedura guidata. Il primo passo consiste nel selezionare il layout della tastiera corrispondente alla propria configurazione. Per una tastiera AZERTY, selezionare dall'elenco l'opzione **Francese (tasti accento)**, quindi fare doppio clic su di essa.
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-È possibile accedere all'amministrazione OPNsense Interface tramite HTTPS, utilizzando l'IP Address della LAN** Interface (o della WAN). Il browser vi porterà a una pagina di accesso. Accedere con l'account "root" e la password selezionati in precedenza.
+È possibile accedere all'amministrazione OPNsense Interface tramite HTTPS, utilizzando l'IP Address della **LAN Interface** (o della WAN). Il browser vi porterà a una pagina di accesso. Accedere con l'account "root" e la password selezionati in precedenza.
 
 
 
@@ -472,7 +472,7 @@ Services > ISC DHCPv4 > [LAN]
 
 
 
-Se necessario, è possibile modificare l'intervallo di indirizzi IP da distribuire: *da *192.168.10.10** a **192.168.10.245**, a seconda delle impostazioni correnti.
+Se necessario, è possibile modificare l'intervallo di indirizzi IP da distribuire: *da* **192.168.10.10** *a* **192.168.10.245**, a seconda delle impostazioni correnti.
 
 
 
@@ -566,7 +566,7 @@ Si ottiene così il seguente risultato:
 
 
 
-Non resta che cliccare su "**Applica modifiche**" per passare le nuove regole del firewall alla produzione. **Si noti che tutti i flussi non esplicitamente autorizzati saranno bloccati per impostazione predefinita
+Non resta che cliccare su "**Applica modifiche**" per passare le nuove regole del firewall alla produzione. **Si noti che tutti i flussi non esplicitamente autorizzati saranno bloccati per impostazione predefinita.**
 
 
 

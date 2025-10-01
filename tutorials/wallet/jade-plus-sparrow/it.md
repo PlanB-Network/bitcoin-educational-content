@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Passero
+name: Jade Plus - Sparrow
 description: Configurazione avanzata di Jade Plus con Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -91,7 +91,7 @@ Fare clic su "*Impostazione di Jade*".
 
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
-Selezionare "Impostazione avanzata*".
+Selezionare "Impostazione avanzata".
 
 ![Image](assets/fr/07.webp)
 
@@ -103,7 +103,7 @@ Fare clic sul pulsante "*Continua*" per visualizzare la nuova frase di recupero.
 
 ![Image](assets/fr/09.webp)
 
-Jade Plus visualizza la frase mnemonica di 12 parole. **Questa frase mnemonica vi dà accesso completo e illimitato a tutti i vostri bitcoin. Chiunque sia in possesso di questa frase può rubare i vostri fondi, anche senza accedere fisicamente al vostro Jade Plus. La frase di 12 parole ripristina l'accesso ai bitcoin in caso di perdita, furto o rottura del Jade. È quindi molto importante salvarla con cura e conservarla in un luogo sicuro.
+Jade Plus visualizza la frase mnemonica di 12 parole. **Questa frase mnemonica vi dà accesso completo e illimitato a tutti i vostri bitcoin. Chiunque sia in possesso di questa frase può rubare i vostri fondi, anche senza accedere fisicamente al vostro Jade Plus. La frase di 12 parole ripristina l'accesso ai bitcoin in caso di perdita, furto o rottura del Jade. È quindi molto importante salvarla con cura e conservarla in un luogo sicuro.**
 
 Potete scriverlo sul cartoncino fornito nella scatola, oppure, per maggiore sicurezza, vi consiglio di inciderlo su una base in acciaio inossidabile per proteggerlo da incendi, allagamenti o crolli.
 
@@ -113,7 +113,7 @@ Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemo
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.**_
+naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.
 
 Fate clic sulla freccia a destra dello schermo per visualizzare le seguenti parole.
 

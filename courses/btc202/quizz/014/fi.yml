@@ -1,0 +1,9 @@
+question: Mitä alkuperäinen Bitcoin-ohjelmisto yhdisti vuonna 2009?
+answer: Wallet, jousi ja molli
+wrong_answers:
+  - Solmu, Miner ja Block explorer
+  - Wallet, chopper ja Miner
+  - Miner ja Mining pool
+explanation: |
+  Alkuperäinen Bitcoin-ohjelmisto yhdisti Wallet-, solmu- ja Miner-toiminnot yhteen ohjelmaan.
+reviewed: true

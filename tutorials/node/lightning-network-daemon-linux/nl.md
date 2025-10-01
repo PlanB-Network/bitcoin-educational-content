@@ -28,8 +28,8 @@ Met andere woorden, met deze implementatie kun je :
 
 
 
-- Interactie met de Lightning Network**: Je kunt commandoregels gebruiken om Lightning wallets aan te maken, betaalkanalen en routes te beheren, en nog veel meer, direct vanaf je machineterminal.
-- Een extern Bitcoin knooppunt of je eigen Bitcoin core instantie koppelen**: Met LND kun je een Bitcoin instantie koppelen en als backend gebruiken. Om deze implementatie te gebruiken, hoef je geen Bitcoin core instantie op je machine te draaien.
+- **Interactie met de Lightning Network**: Je kunt commandoregels gebruiken om Lightning wallets aan te maken, betaalkanalen en routes te beheren, en nog veel meer, direct vanaf je machineterminal.
+- **Een extern Bitcoin knooppunt of je eigen Bitcoin core instantie koppelen**: Met LND kun je een Bitcoin instantie koppelen en als backend gebruiken. Om deze implementatie te gebruiken, hoef je geen Bitcoin core instantie op je machine te draaien.
 
 
 
@@ -57,10 +57,10 @@ In die zin verhoogt het draaien van een Lightning-node de veiligheid en integrit
 
 
 
-- Totale controle**: Beheer je eigen betaalkanalen, word je eigen bank en ben de baas over je bezittingen.
-- Vertrouwelijkheid**: Transactie zonder vertrouwen op derden om je privacy te beschermen.
-- Leren en autonomie**: Dankzij de `lncli` commando's kun je de onderliggende processen van Lightning beter begrijpen door jezelf toe te passen vanaf je terminal.
-- Decentralisatie**: Speel een actieve rol in het versterken en decentraliseren van de Bitcoin / Lightning Network.
+- **Totale controle**: Beheer je eigen betaalkanalen, word je eigen bank en ben de baas over je bezittingen.
+- **Vertrouwelijkheid**: Transactie zonder vertrouwen op derden om je privacy te beschermen.
+- **Leren en autonomie**: Dankzij de `lncli` commando's kun je de onderliggende processen van Lightning beter begrijpen door jezelf toe te passen vanaf je terminal.
+- **Decentralisatie**: Speel een actieve rol in het versterken en decentraliseren van de Bitcoin / Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Aangezien LND geschreven is in Go, moet je ervoor zorgen dat je de GoLang omgevi
 
 
 
-- Hardwarevereisten:**
+- **Hardwarevereisten:**
 
 
 Voor een soepele, naadloze ervaring moet je machine de benodigde capaciteit hebben om je LND Lightning node te draaien.
@@ -105,7 +105,7 @@ Je hebt nodig :
 
 
 
-- Nuttige afhankelijkheden installeren:**
+- **Nuttige afhankelijkheden installeren:**
 
 
 Met het onderstaande commando kun je op je machine de gereedschappen installeren die je nodig hebt om LND te draaien. Je moet onder andere `Git` installeren, een versiebeheerprogramma, en `make`, dat de LND implementatie kan uitvoeren en bouwen vanaf de broncode.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Installeer GoLang op uw Linux-machine**
+- **Installeer GoLang op uw Linux-machine**
 
 
 
-Op de datum van deze tutorial vereist LND versie 1.23.6 van Go*** voor installatie.
+Op de datum van deze tutorial vereist LND versie **1.23.6 van Go** voor installatie.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Go** omgeving configureren
+- **Go** omgeving configureren
 
 
 In je `~/.bashrc` bestand, initialiseer de volgende omgevingsvariabelen om Go toe te voegen aan je Linux systeem.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- De installatie controleren** (in het Frans)
+- **De installatie controleren** (in het Frans)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Uw installatie controleren** (in het Frans)
+- **Uw installatie controleren** (in het Frans)
 
 
 
@@ -334,37 +334,37 @@ Gebaseerd op de inhoud van het `~/.LND/LND.conf` bestand, zijn hier de details v
 
 
 
-- noseedbackup**: Hiermee kun je kiezen of je wilt dat LND automatische back-ups van je portemonnees maakt.  Als je deze eigenschap op `0` zet, kun je handmatig herstelinformatie opslaan op een zelf gekozen veilige locatie.
+- **noseedbackup**: Hiermee kun je kiezen of je wilt dat LND automatische back-ups van je portemonnees maakt.  Als je deze eigenschap op `0` zet, kun je handmatig herstelinformatie opslaan op een zelf gekozen veilige locatie.
 
 
 
 
 
-- debuglevel**: Hiermee kun je het detailniveau van fouten en logs definiëren als er fouten optreden tijdens een actie.
+- **debuglevel**: Hiermee kun je het detailniveau van fouten en logs definiëren als er fouten optreden tijdens een actie.
 
 
 
 
 
-- Bitcoin.active**: Instrueert LND om te functioneren als een Bitcoin knooppunt en te communiceren met het Bitcoin netwerk.
+- **Bitcoin.active**: Instrueert LND om te functioneren als een Bitcoin knooppunt en te communiceren met het Bitcoin netwerk.
 
 
 
 
 
-- Bitcoin.Mainnet**: Geeft LND op om verbinding te maken met Bitcoin's hoofdnetwerk (Mainnet), je kunt de waarden `bitcoind.signet` en `bitcoind.regtest` respectievelijk instellen voor de Bitcoin Signet en Bitcoin Regtest netwerken
+- **Bitcoin.Mainnet**: Geeft LND op om verbinding te maken met Bitcoin's hoofdnetwerk (Mainnet), je kunt de waarden `bitcoind.signet` en `bitcoind.regtest` respectievelijk instellen voor de Bitcoin Signet en Bitcoin Regtest netwerken
 
 
 
 
 
-- Bitcoin.node**: Specificeert het type Bitcoin knooppunt waarmee LND verbinding moet maken.
+- **Bitcoin.node**: Specificeert het type Bitcoin knooppunt waarmee LND verbinding moet maken.
 
 
 
 
 
-- Bitcoin.rpcuser** en **Bitcoin.rpcpassword** : Vertegenwoordigen.
+- **Bitcoin.rpcuser** en **Bitcoin.rpcpassword**: Vertegenwoordigen.
 
 
 respectievelijk de logins (gebruiker, wachtwoord) om verbinding te maken met uw Bitcoin knooppunt
@@ -373,7 +373,7 @@ respectievelijk de logins (gebruiker, wachtwoord) om verbinding te maken met uw 
 
 
 
-- bitcoind.zmqpubrawblock** en **bitcoind.zmqpubrawtx**: definiëren respectievelijk ZeroMQ eindpunten om meldingen over nieuwe blokken en transacties op het Bitcoin netwerk te ontvangen.
+- **bitcoind.zmqpubrawblock** en **bitcoind.zmqpubrawtx**: definiëren respectievelijk ZeroMQ eindpunten om meldingen over nieuwe blokken en transacties op het Bitcoin netwerk te ontvangen.
 
 
 
@@ -492,9 +492,9 @@ Om verbinding te maken met een peer (Lightning-knooppunt), heb je drie stukjes i
 
 
 
-- De publieke sleutel van het knooppunt**: Dit is de unieke identificatiecode van het knooppunt in het Bitcoin netwerk;
-- IP** : Het IP van de machine waarop het knooppunt is geïnstalleerd;
-- PORT** :  De open poort op de machine die communicatie met dit knooppunt mogelijk maakt.
+- **De publieke sleutel van het knooppunt**: Dit is de unieke identificatiecode van het knooppunt in het Bitcoin netwerk;
+- **IP**: Het IP van de machine waarop het knooppunt is geïnstalleerd;
+- **PORT** :  De open poort op de machine die communicatie met dit knooppunt mogelijk maakt.
 
 
 
@@ -519,25 +519,25 @@ Zorg ervoor dat je verbinding maakt met **betrouwbare knooppunten** om de integr
 
 
 
-- Geografische diversificatie**: Maak verbinding met knooppunten in verschillende regio's.
+- **Geografische diversificatie**: Maak verbinding met knooppunten in verschillende regio's.
 
 
 
 
 
-- Reputatie**: Kies knooppunten met een goede beschikbaarheid.
+- **Reputatie**: Kies knooppunten met een goede beschikbaarheid.
 
 
 
 
 
-- Capaciteit**: Kies knopen met een goede liquiditeit.
+- **Capaciteit**: Kies knopen met een goede liquiditeit.
 
 
 
 
 
-- Kosten**: Kosten voor het doorsturen van cheques.
+- **Kosten**: Kosten voor het doorsturen van cheques.
 
 
 ### Een betalingskanaal openen
@@ -590,7 +590,7 @@ Er zijn twee manieren om een actief kanaal op je huidige knooppunt te sluiten.
 
 
 
-- Coöperatieve afsluiting**: Hiermee geef je aan dat je knooppunt zich wil terugtrekken uit het betalingskanaal, waarbij je ervoor zorgt dat lopende taken worden voltooid en dat er een back-up van gegevens wordt gemaakt om verlies van fondsen te voorkomen.
+- **Coöperatieve afsluiting**: Hiermee geef je aan dat je knooppunt zich wil terugtrekken uit het betalingskanaal, waarbij je ervoor zorgt dat lopende taken worden voltooid en dat er een back-up van gegevens wordt gemaakt om verlies van fondsen te voorkomen.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Gedwongen sluiting**: ⚠️ Te vermijden indien mogelijk, deze actie onderbreekt lopende processen in je betalingskanaal en verhoogt het risico op het verliezen van fondsen.
+- **Gedwongen sluiting**: ⚠️ Te vermijden indien mogelijk, deze actie onderbreekt lopende processen in je betalingskanaal en verhoogt het risico op het verliezen van fondsen.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- bitcoind verbindingsfout** : Controleer uw RPC inloggegevens
-- Synchronisatie geblokkeerd** : Controleer uw internetverbinding
-- Toestemmingsfout**: Controleer de rechten van de map `~/.LND`
+- **bitcoind verbindingsfout**: Controleer uw RPC inloggegevens
+- **Synchronisatie geblokkeerd**: Controleer uw internetverbinding
+- **Toestemmingsfout**: Controleer de rechten van de map `~/.LND`
 
 
 

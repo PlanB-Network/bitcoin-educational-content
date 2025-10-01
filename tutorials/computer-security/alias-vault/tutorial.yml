@@ -1,0 +1,24 @@
+id: 4e76c56a-537f-46bb-a2d0-5f0422fa49dc
+
+level: intermediate
+
+category: authentication
+
+professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
+
+tags: 
+  - personal-security
+  - use-case
+  - good-practice
+
+original_language: it
+
+# Proofreading metadata
+
+proofreading:
+  - language: it
+    last_contribution_date: 2025-08-30
+    urgency: 1
+    contributor_names:
+      - f205sats
+    reward: 0

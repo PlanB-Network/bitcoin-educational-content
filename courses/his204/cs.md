@@ -1353,9 +1353,9 @@ Protože byl tento region velmi chudý, ministři o něj neměli zájem. To Turg
 
 
 
-- Přerozdělování taille**, osobní daň (Turgot se snažil zavést co největší objektivitu při jejím vyměřování).
-- Corvée**, forma daně placené prací, kdy byli rolníci nuceni pracovat na stavbě silnic. Při prohlídce regionu si Turgot rychle všiml špatného stavu silnic. Nahradil corvée peněžní daní.
-- Nábor milicí**, rolnických armád mobilizovaných v době války.
+- Přerozdělování **taille**, osobní daň (Turgot se snažil zavést co největší objektivitu při jejím vyměřování).
+- **Corvée**, forma daně placené prací, kdy byli rolníci nuceni pracovat na stavbě silnic. Při prohlídce regionu si Turgot rychle všiml špatného stavu silnic. Nahradil corvée peněžní daní.
+- Nábor **milicí**, rolnických armád mobilizovaných v době války.
 
 
 ![image](assets/fr/115.webp)
@@ -1498,7 +1498,7 @@ Velkou část své kariéry se věnoval oborům, které s ekonomií vůbec nesou
 
 
 
-Condorcet si postupně osvojil myšlenky laissez-faire a svobody, zpočátku v oblastech, které nesouvisely s politickou ekonomií. Ve svém Dopise teologa* se filozoficky vysmíval katolickému náboženství a vyjádřil přání, aby existovala skutečná svoboda víry, včetně svobody nevěřit. Ve svém křížovém tažení za toleranci a proti náboženskému fanatismu Condorcet bojoval za rehabilitaci Chevaliera de la Barre a za obnovení procesu s D'Etallonde, který byl odsouzen k trestu smrti za rozbití krucifixu.
+Condorcet si postupně osvojil myšlenky laissez-faire a svobody, zpočátku v oblastech, které nesouvisely s politickou ekonomií. Ve svém *Dopise teologa* se filozoficky vysmíval katolickému náboženství a vyjádřil přání, aby existovala skutečná svoboda víry, včetně svobody nevěřit. Ve svém křížovém tažení za toleranci a proti náboženskému fanatismu Condorcet bojoval za rehabilitaci Chevaliera de la Barre a za obnovení procesu s D'Etallonde, který byl odsouzen k trestu smrti za rozbití krucifixu.
 
 
 

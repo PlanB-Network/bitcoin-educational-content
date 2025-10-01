@@ -1,0 +1,9 @@
+question: Bitcoin core'da dbcache parametresi ne yapabilir?
+answer: IBD'yi hızlandırmak için RAM ayırın
+wrong_answers:
+  - Blockchain boyutunu tanımlayın
+  - Maksimum Mining zorluğunu ayarlayın
+  - Bağlı eşlerin sayısını sınırlayın
+explanation: |
+  Dbcache parametresi, UTXO setini geçici olarak depolamak için kullanılan bellek alanını artırarak ilk senkronizasyon sürecini hızlandırabilir.
+reviewed: true

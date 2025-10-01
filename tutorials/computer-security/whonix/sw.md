@@ -17,12 +17,12 @@ description: Hifadhi faragha na usiri wako.
 
 
 
-- Bila malipo**: Kama ugawaji mwingi wa Linux, Whonix ni mfumo wa chanzo huria uliopewa leseni bila malipo kabisa. Inatengenezwa katika chanzo wazi, na jumuiya inayofanya kazi na ya uwazi.
-- Faragha, usalama na kutokujulikana**: Lengo kuu la Whonix ni kutoa mazingira salama kabisa, ambapo data yako yote inalindwa na mawasiliano yako yamesimbwa kwa njia fiche kupitia mtandao wa Tor.
-- Rahisi kutumia**: Whonix inatoa angavu, iliyosanidiwa awali ya Interface, inayofaa hata kwa watumiaji wapya. Hakuna haja ya kuwa mtaalam ili kufaidika na ulinzi wa hali ya juu.
-- Mazingira yanayofaa kwa maendeleo salama**: Whonix hukuruhusu kuunda, kujaribu, kukagua au kuendesha programu bila kamwe kufichua IP yako halisi ya Address au kufichua tabia zako za kuvinjari au mawasiliano ya mtandao.
-- Vipindi vinavyoweza kutumika na Hali ya Moja kwa Moja**: Whonix inaweza kuzinduliwa katika Hali ya Moja kwa Moja au kupitia mashine zinazoweza kutumika (k.m. kupitia **Qubes OS**), kuwezesha majukumu muhimu kutekelezwa bila kuacha ufuatiliaji unaoendelea punde tu kipindi kitakapokamilika.
-- Usakinishaji rahisi kiasi**: Picha zilizo tayari kutumika hutolewa kwa usakinishaji wa haraka katika mashine pepe (VirtualBox, KVM, Qubes). Mfumo umeandikwa na kusasishwa mara kwa mara.
+- **Bila malipo**: Kama ugawaji mwingi wa Linux, Whonix ni mfumo wa chanzo huria uliopewa leseni bila malipo kabisa. Inatengenezwa katika chanzo wazi, na jumuiya inayofanya kazi na ya uwazi.
+- **Faragha, usalama na kutokujulikana**: Lengo kuu la Whonix ni kutoa mazingira salama kabisa, ambapo data yako yote inalindwa na mawasiliano yako yamesimbwa kwa njia fiche kupitia mtandao wa Tor.
+- **Rahisi kutumia**: Whonix inatoa angavu, iliyosanidiwa awali ya Interface, inayofaa hata kwa watumiaji wapya. Hakuna haja ya kuwa mtaalam ili kufaidika na ulinzi wa hali ya juu.
+- **Mazingira yanayofaa kwa maendeleo salama**: Whonix hukuruhusu kuunda, kujaribu, kukagua au kuendesha programu bila kamwe kufichua IP yako halisi ya Address au kufichua tabia zako za kuvinjari au mawasiliano ya mtandao.
+- **Vipindi vinavyoweza kutumika na Hali ya Moja kwa Moja**: Whonix inaweza kuzinduliwa katika Hali ya Moja kwa Moja au kupitia mashine zinazoweza kutumika (k.m. kupitia **Qubes OS**), kuwezesha majukumu muhimu kutekelezwa bila kuacha ufuatiliaji unaoendelea punde tu kipindi kitakapokamilika.
+- **Usakinishaji rahisi kiasi**: Picha zilizo tayari kutumika hutolewa kwa usakinishaji wa haraka katika mashine pepe (VirtualBox, KVM, Qubes). Mfumo umeandikwa na kusasishwa mara kwa mara.
 
 
 
@@ -56,9 +56,9 @@ Hapa kuna vipimo vilivyopendekezwa vya matumizi laini na dhabiti na Whonix:
 
 
 
-- Kumbukumbu ya Ufikiaji Nasibu (RAM)**: kiwango cha chini cha **GB** kinapendekezwa sana. Kadiri unavyokuwa na RAM zaidi, ndivyo rasilimali nyingi unavyoweza kutenga kwa mashine pepe (Lango na Kituo cha Kazi), kuboresha utendaji.
+- **Kumbukumbu ya Ufikiaji Nasibu (RAM)**: kiwango cha chini cha **GB** kinapendekezwa sana. Kadiri unavyokuwa na RAM zaidi, ndivyo rasilimali nyingi unavyoweza kutenga kwa mashine pepe (Lango na Kituo cha Kazi), kuboresha utendaji.
 - Nafasi ya diski inayopatikana**: tafadhali ruhusu angalau GB 30 ya nafasi ya bure ya diski**. Hii inajumuisha nafasi inayohitajika kwa mashine mbili pepe, faili za mfumo na data au vijipicha vyovyote.
-- Kichakataji**: kichakataji chenye angalau **viini 4** (nyuzi 8 za kimantiki) kinapendekezwa, haswa ikiwa unataka kuendesha huduma au zana zingine kwa sambamba.
+- **Kichakataji**: kichakataji chenye angalau **viini 4** (nyuzi 8 za kimantiki) kinapendekezwa, haswa ikiwa unataka kuendesha huduma au zana zingine kwa sambamba.
 
 
 

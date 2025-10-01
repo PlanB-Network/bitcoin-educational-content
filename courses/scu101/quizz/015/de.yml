@@ -1,4 +1,4 @@
-question: Warum ist es wichtig, Zuverlässigkeit und technische Aspekte gegenüber der Popularität bei der Auswahl eines VPNs zu priorisieren?
+question: Warum ist es wichtig, Zuverlässigkeit und technische Aspekte gegenüber der Beliebtheit bei der Auswahl eines VPNs zu priorisieren?
 answer: VPN-Anbieter, die am wenigsten persönliche Informationen sammeln, sind im Allgemeinen am sichersten.
 wrong_answers:
   - Beliebte VPN-Anbieter werden wahrscheinlicher von Hackern angegriffen.
@@ -6,6 +6,6 @@ wrong_answers:
   - Beliebte VPN-Anbieter haben wahrscheinlicher geografische Einschränkungen.
 explanation: |
   Bei der Auswahl eines VPNs ist es wichtig,
-  Zuverlässigkeit und technische Aspekte gegenüber der Popularität zu priorisieren. Dies liegt daran,
-  dass VPN-Anbieter, die am wenigsten persönliche Informationen sammeln, im Allgemeinen am sichersten sind und somit einen besseren Schutz für Ihre Online-Sicherheit bieten.
+  Zuverlässigkeit und technische Aspekte gegenüber deren Beliebtheit zu priorisieren. Dies liegt daran,
+  dass VPN-Anbieter, die am wenigsten persönliche Informationen sammeln, im Allgemeinen am sichersten sind und somit einen besseren Schutz für deine Online-Sicherheit bieten.
 reviewed: true

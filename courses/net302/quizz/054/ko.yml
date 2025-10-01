@@ -1,0 +1,9 @@
+question: 어떤 형태의 NAT가 프라이빗 IP Address을 퍼블릭 IP Address에 영구적으로 연결하나요?
+answer: 정적 번역
+wrong_answers:
+  - 동적 번역
+  - PAT(포트 Address 번역)
+  - 동적 라우팅
+explanation: |
+  정적 변환은 외부에서 내부 리소스에 액세스할 수 있도록 내부 IP Address와 공용 IP Address 사이에 고정 매핑을 생성하여 내부 리소스에 액세스할 수 있도록 하는 데 유용합니다.
+reviewed: false

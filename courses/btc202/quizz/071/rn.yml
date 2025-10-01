@@ -1,0 +1,9 @@
+question: Ni amadosiye ayahe node ibanza kuraba kugira ironke bagenzi bayo ba kera iyo isubiye gutangura?
+answer: nanga.dat n'urunganwe.dat
+wrong_answers:
+  - Mempool.amakuru n'urunganwe.amakuru
+  - Mempool.amakuru na ip.amakuru
+  - ip.dat na nanga.dat
+explanation: |
+  Bitcoin core ibanza kuraba anchors.dat (abagenzi ba kera basohotse), hanyuma peers.dat (igitabu kizwi ca Address) kugira ngo yongere ihurire hamwe.
+reviewed: true

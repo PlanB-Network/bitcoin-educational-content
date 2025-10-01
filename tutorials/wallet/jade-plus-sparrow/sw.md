@@ -130,7 +130,7 @@ Bofya kitufe cha "*Endelea*" ili kuonyesha maneno yako mapya ya urejeshaji.
 ![Image](assets/fr/09.webp)
 
 
-Jade Plus yako inaonyesha maneno yako ya Mnemonic yenye maneno 12. **Mnemonic hii inakupa ufikiaji kamili, usio na kikomo kwa bitcoins zako zote. Mtu yeyote aliye na kifungu hiki cha maneno anaweza kuiba pesa zako, hata bila ufikiaji wa kimwili wa Jade Plus yako. Kifungu cha maneno 12 kinarejesha ufikiaji wa bitcoins zako katika tukio la kupoteza, kuibiwa au kuvunjika kwa Jade yako. Kwa hiyo ni muhimu sana kuihifadhi kwa uangalifu na kuihifadhi mahali salama.
+Jade Plus yako inaonyesha maneno yako ya Mnemonic yenye maneno 12. **Mnemonic hii inakupa ufikiaji kamili, usio na kikomo kwa bitcoins zako zote. Mtu yeyote aliye na kifungu hiki cha maneno anaweza kuiba pesa zako, hata bila ufikiaji wa kimwili wa Jade Plus yako. Kifungu cha maneno 12 kinarejesha ufikiaji wa bitcoins zako katika tukio la kupoteza, kuibiwa au kuvunjika kwa Jade yako. Kwa hiyo ni muhimu sana kuihifadhi kwa uangalifu na kuihifadhi mahali salama.**
 
 
 Unaweza kuiandika kwenye kadibodi iliyotolewa kwenye kisanduku, au kwa usalama ulioongezwa, ninapendekeza kuiweka kwenye msingi wa chuma cha pua ili kuilinda kutokana na moto, mafuriko au kuanguka.
@@ -144,7 +144,7 @@ Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mn
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-bila shaka, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Sampuli hii ya Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.**_
+bila shaka, hupaswi kamwe kushiriki maneno haya kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Sampuli hii ya Wallet itatumika kwenye Testnet pekee na itafutwa mwishoni mwa mafunzo.
 
 
 Bofya kwenye mshale ulio upande wa kulia wa skrini ili kuonyesha maneno yafuatayo.

@@ -1,0 +1,12 @@
+question: KYC 규정의 목적은 무엇인가요?
+answer: 테러 자금 조달, 탈세, 자금 세탁을 방지하기 위해.
+wrong_answers:
+  - Bitcoin의 가격을 인상하고 사용자가 더 많은 세금을 납부하도록 합니다.
+  - Bitcoin의 Supply를 제어합니다.
+  - 사람들이 Bitcoin를 구매하지 못하도록 하기 위해서입니다.
+explanation: |
+  코스 텍스트에서는 고객 파악(KYC)
+  규정에 따라 사용자는 신원 확인을 해야 한다고 설명합니다
+  테러 자금 조달, 탈세, 자금
+  자금 세탁.
+reviewed: true

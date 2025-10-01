@@ -1,5 +1,5 @@
 ---
-name: Ombrello LND
+name: Umbrel LND
 description: Esercitazione avanzata sull'installazione e la configurazione di Lightning Network Daemon (LND) su Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -154,7 +154,7 @@ LND (Lightning Network Daemon) verrà distribuito sul vostro Umbrel come applica
 
 
 
-**Nota: nelle versioni recenti di Umbrel, l'installazione dell'applicazione Lightning fornisce questo seed di 24 parole (il nodo Bitcoin di Umbrel non lo fornisce).
+**Nota: nelle versioni recenti di Umbrel, l'installazione dell'applicazione Lightning fornisce questo seed di 24 parole (il nodo Bitcoin di Umbrel non lo fornisce).**
 
 
 
@@ -418,7 +418,7 @@ Il vostro Zeus è ora collegato al vostro nodo Umbrel e vi permette di effettuar
 
 
 
-**Opzioni di connessione avanzate
+**Opzioni di connessione avanzate**
 
 
 
@@ -489,18 +489,18 @@ Il nodo Lightning Umbrel richiede due tipi di backup:
 
 
 
-*file *Canale statico di backup (SCB)**
+**file *Canale statico di backup (SCB)***
 
 
 
 
 - Contiene informazioni sul canale Lightning
 - Consente la chiusura forzata del canale in caso di arresto anomalo
-- Importante: ** Non salvare mai il file `channel.db` manualmente (rischio di sanzioni)
+- Importante: **Non salvare mai il file `channel.db` manualmente (rischio di sanzioni)**
 
 
 
-**Procedura di backup manuale
+**Procedura di backup manuale**
 
 
 
@@ -520,7 +520,7 @@ Per salvare i canali manualmente :
 
 
 
-*sistema di backup automatico *Umbrel**
+*sistema di backup automatico* **Umbrel**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Aggiornamenti software:** Mantenere Umbrel e LND aggiornati (correzioni di sicurezza)
-- Protezione hardware:** Utilizzare un sistema stabile (Raspberry Pi con SSD, mini-PC) e un gruppo di continuità
-- Sicurezza di rete:** Mantenere la configurazione predefinita di Tor, cambiare la password di amministrazione di Umbrel (predefinita: "moneyprintergobrrr")
-- Crittografia:** Abilitare la crittografia del disco, se possibile
+- **Aggiornamenti software:** Mantenere Umbrel e LND aggiornati (correzioni di sicurezza)
+- **Protezione hardware:** Utilizzare un sistema stabile (Raspberry Pi con SSD, mini-PC) e un gruppo di continuità
+- **Sicurezza di rete:** Mantenere la configurazione predefinita di Tor, cambiare la password di amministrazione di Umbrel (predefinita: "moneyprintergobrrr")
+- **Crittografia:** Abilitare la crittografia del disco, se possibile
 
 
 
@@ -691,10 +691,10 @@ RTL è un "coltellino svizzero" completo per amministrare un nodo Lightning con 
 
 
 
-- Lightning Shell** : Linea di comando (lncli) via browser
-- BTC RPC Explorer e Mempool** : Monitoraggio Blockchain
-- LNmetrics e Torq**: Analisi delle prestazioni di routing
-- Amboss & 1ML**: gestione "sociale" del proprio nodo (alias, contatti, analisi della rete)
+- **Lightning Shell**: Linea di comando (lncli) via browser
+- **BTC RPC Explorer e Mempool**: Monitoraggio Blockchain
+- **LNmetrics e Torq**: Analisi delle prestazioni di routing
+- **Amboss & 1ML**: gestione "sociale" del proprio nodo (alias, contatti, analisi della rete)
 
 
 

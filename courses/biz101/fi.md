@@ -35,6 +35,8 @@ Tämän kurssin tavoitteena on antaa sinulle tietoa siitä, miten voit integroid
 
 Oletko valmis sukeltamaan yritysten Bitcoin-maailmaan? Lähdetään liikkeelle!
 
+**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.network/resources/glossary).
+
 # Valuutta, maksujärjestelmät ja Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -64,22 +66,22 @@ Yhteenvetona voidaan todeta, että valuutat ovat verkostoja, jotka on suunnitelt
 Hyvällä valuutalla on useita olennaisia ominaisuuksia, jotka tekevät siitä tehokkaan arvojen vaihdon helpottajan. Seuraavassa on lyhyt selitys jokaisesta:
 
 
-- Turvallinen**: Rahan on oltava suojattu varkauksilta tai luvattomalta käytöltä, jotta käyttäjät voivat pitää ja siirtää sitä luottavaisin mielin. Turvallisuus on ratkaisevan tärkeää, jotta järjestelmään voidaan luottaa.
-- Väärennöksetön**: Rahan on oltava erittäin vaikea tai mahdoton väärentää. Näin varmistetaan, että jokainen yksikkö on aito, säilyttää arvonsa ja estää väärennettyjen yksiköiden liikkeeseen laskemisen aiheuttaman inflaation. Esimerkiksi kultaa on historiallisesti arvostettu sen kauneuden ja harvinaisuuden lisäksi myös siksi, että sitä on erittäin vaikea valmistaa. Toisin kuin paperisia seteleitä tai digitaalisia merkintöjä, kultaa ei voi vain "valmistaa" - se on louhittava maasta. Tämä luonnollinen niukkuus ja tuotannon vaikeus ovat auttaneet kultaa säilyttämään asemansa luotettavana arvosäilönnä ja aitouden vertailukohtana.
-- Harvinainen**: Hyvän valuutan tarjonta on rajoitettu tai sen liikkeeseenlaskua valvotaan. Niukkuus varmistaa, että sen arvo säilyy ajan mittaan ja estää ylituotannon, joka heikentäisi ostovoimaa. Esimerkiksi tietyt Amerikan alkuperäisheimot käyttivät helmiä valuuttana. Aluksi näitä helmiä oli vaikea tuottaa, mikä säilytti niiden niukkuuden ja arvon. Kun eurooppalaiset kauppiaat kuitenkin alkoivat tuottaa helmiä massatuotantona ja tulvivat helmiä markkinoille, niiden harvinaisuus katosi. Tarjonnan lisääntyessä helmet menettivät ostovoimaansa, mikä heikentää niiden asemaa luotettavana arvovaluuttana.
-- Luvaton**: Aiemmin yksityishenkilöt, paikallisviranomaiset tai kauppiaat, joilla oli käytettävissään raaka-aineita, lyötiin usein kulta- ja hopeakolikoiden kaltaisia valuuttoja. Tämä järjestelmä toimi joskus kuninkaiden tai hallitsijoiden myöntämien sopimusten tai lisenssien perusteella. Ajan myötä kuninkaat ja hallitukset keskittivät tämän prosessin saadakseen enemmän valtaa talouden vakauteen, verotukseen ja rahajärjestelmään. Yksi kuuluisa esimerkki on **thaler**, hopeakolikko, jonka paikalliset kaivostyöläiset ja viranomaiset lyötiin ensimmäisen kerran vuonna 1518 **Joachimsthalin laaksossa** (nykyisessä Jáchymovissa Tšekin tasavallassa). Nimi "thaler" juontuu saksan sanasta **"Thal "**, joka tarkoittaa "laaksoa" Nämä korkealaatuisesta hopeastaan tunnetut kolikot tulivat laajalti kiertoon kaikkialla Euroopassa. Ajan myötä termi kehittyi kielellisesti ja maantieteellisesti, ja lopulta siitä muodostui nimi "dollari", joka otettiin käyttöön Yhdysvalloissa.
+- **Turvallinen**: Rahan on oltava suojattu varkauksilta tai luvattomalta käytöltä, jotta käyttäjät voivat pitää ja siirtää sitä luottavaisin mielin. Turvallisuus on ratkaisevan tärkeää, jotta järjestelmään voidaan luottaa.
+- **Väärennöksetön**: Rahan on oltava erittäin vaikea tai mahdoton väärentää. Näin varmistetaan, että jokainen yksikkö on aito, säilyttää arvonsa ja estää väärennettyjen yksiköiden liikkeeseen laskemisen aiheuttaman inflaation. Esimerkiksi kultaa on historiallisesti arvostettu sen kauneuden ja harvinaisuuden lisäksi myös siksi, että sitä on erittäin vaikea valmistaa. Toisin kuin paperisia seteleitä tai digitaalisia merkintöjä, kultaa ei voi vain "valmistaa" - se on louhittava maasta. Tämä luonnollinen niukkuus ja tuotannon vaikeus ovat auttaneet kultaa säilyttämään asemansa luotettavana arvosäilönnä ja aitouden vertailukohtana.
+- **Harvinainen**: Hyvän valuutan tarjonta on rajoitettu tai sen liikkeeseenlaskua valvotaan. Niukkuus varmistaa, että sen arvo säilyy ajan mittaan ja estää ylituotannon, joka heikentäisi ostovoimaa. Esimerkiksi tietyt Amerikan alkuperäisheimot käyttivät helmiä valuuttana. Aluksi näitä helmiä oli vaikea tuottaa, mikä säilytti niiden niukkuuden ja arvon. Kun eurooppalaiset kauppiaat kuitenkin alkoivat tuottaa helmiä massatuotantona ja tulvivat helmiä markkinoille, niiden harvinaisuus katosi. Tarjonnan lisääntyessä helmet menettivät ostovoimaansa, mikä heikentää niiden asemaa luotettavana arvovaluuttana.
+- **Luvaton**: Aiemmin yksityishenkilöt, paikallisviranomaiset tai kauppiaat, joilla oli käytettävissään raaka-aineita, lyötiin usein kulta- ja hopeakolikoiden kaltaisia valuuttoja. Tämä järjestelmä toimi joskus kuninkaiden tai hallitsijoiden myöntämien sopimusten tai lisenssien perusteella. Ajan myötä kuninkaat ja hallitukset keskittivät tämän prosessin saadakseen enemmän valtaa talouden vakauteen, verotukseen ja rahajärjestelmään. Yksi kuuluisa esimerkki on **thaler**, hopeakolikko, jonka paikalliset kaivostyöläiset ja viranomaiset lyötiin ensimmäisen kerran vuonna 1518 **Joachimsthalin laaksossa** (nykyisessä Jáchymovissa Tšekin tasavallassa). Nimi "thaler" juontuu saksan sanasta **"Thal"**, joka tarkoittaa "laaksoa". Nämä
 
 Nykyaikana valuutoista tuli täysin sallittuja seigniorage-järjestelmän mukaisesti, mikä tarkoittaa, että vain valtuutetut tahot, kuten keskuspankit tai valtiovarainministeriöt, voivat lyödä kolikoita tai painaa seteleitä. Yksityishenkilöillä ei ole enää laillista lupaa valmistaa valuuttaa, mikä takaa sen liikkeeseenlaskun ja tarjonnan keskitetyn valvonnan.
 
 Nykyään Bitcoin-kryptovaluutta, joka toimii ilman keskitettyä valvontaa, haastaa omistusoikeuden periaatteen. Bitcoin on "luvaton" järjestelmä, jossa kuka tahansa voi osallistua valuutan käyttöön lupaa kysymättä ja louhimalla sen luomiseen. Tämä hajauttaminen poistaa liikkeeseenlaskun monopolin hallituksilta, mikä herättää kysymyksiä mahdollisesta paluusta vapailla markkinoilla toimiviin kilpailukykyisiin valuuttajärjestelmiin.
 
 
-- Tiliyksikkö**: Valuutan pitäisi tarjota vakiomitta tavaroiden ja palvelujen arvon vertailua varten. Tämä yksinkertaistaa kaupankäyntiä ja tekee hinnoittelusta avointa ja johdonmukaista kaikissa liiketoimissa.
-- Kestävä**: Valuutan on kestettävä kulutusta ajan mittaan. Fyysisten valuuttojen, kuten kolikoiden tai seteleiden, on kestettävä vaurioita, kun taas digitaalisten valuuttojen on pysyttävä turvallisesti tallennettuina ilman tietojen katoamisen riskiä.
-- Kannettava**: Valuutan on oltava helppo kuljettaa ja käyttää, ja sen on mahdollistettava kaupankäynti välimatkojen yli. Tämä voidaan saavuttaa fyysisen siirrettävyyden (kevyet kolikot tai setelit) tai digitaalisten siirtojärjestelmien avulla.
-- Jaettavissa**: Valuutan tulisi olla jaettavissa pienempiin yksiköihin, jotta erikokoiset maksutapahtumat olisivat helpompia. Tämä joustavuus varmistaa, että valuutta on käytännöllinen sekä pienissä ostoissa että laajamittaisessa kaupassa.
-- Sienestettävissä**: Rahan kaikkien yksiköiden on oltava keskenään vaihdettavissa ja samanarvoisia. Esimerkiksi yhden dollarin setelin on vastattava mitä tahansa toista dollarin seteliä. Tämä yhdenmukaisuus takaa oikeudenmukaisuuden ja yksinkertaisuuden liiketoimissa.
-- Tunnistettavissa**: Rahan on oltava helposti tunnistettavissa ja siihen on luotettava. Fyysiset valuutat saavuttavat tämän ainutlaatuisella muotoilulla ja turvaominaisuuksilla, kun taas digitaaliset valuutat voivat luottaa verifiointiprotokolliin. Tämä varmistaa laajan hyväksynnän ja vähentää petosriskiä.
+- **Tiliyksikkö**: Valuutan pitäisi tarjota vakiomitta tavaroiden ja palvelujen arvon vertailua varten. Tämä yksinkertaistaa kaupankäyntiä ja tekee hinnoittelusta avointa ja johdonmukaista kaikissa liiketoimissa.
+- **Kestävä**: Valuutan on kestettävä kulutusta ajan mittaan. Fyysisten valuuttojen, kuten kolikoiden tai seteleiden, on kestettävä vaurioita, kun taas digitaalisten valuuttojen on pysyttävä turvallisesti tallennettuina ilman tietojen katoamisen riskiä.
+- **Kannettava**: Valuutan on oltava helppo kuljettaa ja käyttää, ja sen on mahdollistettava kaupankäynti välimatkojen yli. Tämä voidaan saavuttaa fyysisen siirrettävyyden (kevyet kolikot tai setelit) tai digitaalisten siirtojärjestelmien avulla.
+- **Jaettavissa**: Valuutan tulisi olla jaettavissa pienempiin yksiköihin, jotta erikokoiset maksutapahtumat olisivat helpompia. Tämä joustavuus varmistaa, että valuutta on käytännöllinen sekä pienissä ostoissa että laajamittaisessa kaupassa.
+- **Sienestettävissä**: Rahan kaikkien yksiköiden on oltava keskenään vaihdettavissa ja samanarvoisia. Esimerkiksi yhden dollarin setelin on vastattava mitä tahansa toista dollarin seteliä. Tämä yhdenmukaisuus takaa oikeudenmukaisuuden ja yksinkertaisuuden liiketoimissa.
+- **Tunnistettavissa**: Rahan on oltava helposti tunnistettavissa ja siihen on luotettava. Fyysiset valuutat saavuttavat tämän ainutlaatuisella muotoilulla ja turvaominaisuuksilla, kun taas digitaaliset valuutat voivat luottaa verifiointiprotokolliin. Tämä varmistaa laajan hyväksynnän ja vähentää petosriskiä.
 
 Nämä ominaisuudet tekevät valuutasta käytännöllisen, luotettavan ja tehokkaan kaupankäynnin helpottamiseksi ja arvon säilyttämiseksi taloudessa.
 
@@ -132,16 +134,16 @@ Maksujärjestelmät ovat menetelmiä ja infrastruktuureja, jotka mahdollistavat 
 **Käyttö B2C- ja B2B-markkinoilla:**
 
 
-- B2C (Business-to-Consumer):**
+- **B2C (Business-to-Consumer):**
     - Kuluttajat käyttävät usein käteistä, kortteja ja digitaalisia lompakoita jokapäiväisiin ostoksiin, kuten ruokaostoksiin, verkko-ostoksiin tai kyytipalveluihin.
     - Nopeus, mukavuus ja alhaiset maksut (kuluttajan kannalta) ovat usein ensisijaisia tavoitteita.
     - Koskettamattomat ja mobiilimaksut ovat yhä suositumpia tässä tilassa niiden helppokäyttöisyyden vuoksi.
-- B2B (Business-to-Business):**
+- **B2B (Business-to-Business):**
     - Yritykset käyttävät yleisesti tilisiirtoja, shekkejä ja laskutusjärjestelmiä toimittajien maksamiseen, suurten laskujen maksamiseen tai toistuvien maksujen käsittelyyn.
     - Painopiste on usein jäljitettävyydessä, dokumentoinnissa ja kyvyssä käsitellä suurempia tapahtuma-arvoja.
     - Kortin käyttö on olemassa, mutta se on yleensä harvinaisempaa korkeampien maksujen ja tapahtumarajojen vuoksi. Digitaaliset ratkaisut, kuten integroidut maksualustat, ovat kehittymässä tilitysprosessien virtaviivaistamiseksi ja automatisoimiseksi.
 
-![BIZ101](assets/en/01.webp)
+![BIZ101](assets/fi/001.webp)
 
 *Graafinen: Global Trends in Point-of-Sale (POS) Payment Methods (2023-2027), The Global Payments Report 2024, Worldpay.*
 
@@ -149,7 +151,7 @@ Maksujärjestelmät ovat menetelmiä ja infrastruktuureja, jotka mahdollistavat 
 
 Kun asiakas käyttää luottokorttia kaupassa, POS-pääte lukee kortin, ja se välittää tapahtumatiedot turvallisesti kauppiaan pankkiin. Vastaanottaja välittää nämä tiedot asianomaiselle korttiverkolle (esim. Visa tai Mastercard), joka sitten ohjaa pyynnön liikkeeseenlaskijalle - pankille, joka antoi asiakkaan kortin. Liikkeeseenlaskija tarkistaa asiakkaan tilin tai luottorajan ja lähettää verkon ja korttitapahtumien vastaanottajan kautta valtuutuksen, jonka perusteella kauppias voi hyväksyä maksun.
 
-![BIZ101](assets/en/02.webp)
+![BIZ101](assets/fi/002.webp)
 
 Tähän näennäisen yksinkertaiseen maksutapahtumaan sisältyy todellisuudessa yli 15 vaihetta, 7 välittäjää ja kestää keskimäärin 48 tunnista 5 päivään, ennen kuin kauppias saa rahat. Seuraavien päivien aikana tapahtuu selvitys- ja toimitusprosessi. Korttiverkko kokoaa päivän tapahtumat yhteen ja koordinoi rahansiirtoa korttitapahtumien vastaanottajan ja liikkeeseenlaskijan välillä. Keskuspankki varmistaa näiden pankkien välisten maksujen tarkkuuden ja vakauden. Kauppiaan pankkitilille maksetaan lopulta korttitapahtuman hyväksyjältä hyvitetty nettomäärä (josta on vähennetty maksut), jolloin tapahtuman elinkaari päättyy.
 
@@ -192,49 +194,49 @@ Aivan kuten siirryimme minuuttihinnoittelusta äänipuheluista lähes maksuttoma
  Termi "Bitcoin" viittaa seuraaviin komponentteihin:
 
 
-- Tietokoneprotokolla**, joka helpottaa arvojen vaihtoa internetissä ilman välikäsiä, ilman lupaa ja pseudonyymisti. Se käyttää kehittyneitä salausperiaatteita.
-- Yksityishenkilöiden ja yritysten ylläpitämä fyysinen verkko**, joka koostuu internetiin liitetyistä koneista (solmut, louhijat jne.), jotka muodostavat hajautetun järjestelmän (jossa ei ole keskusviranomaista tai yksittäistä valvontapistettä).
-- Järjestelmän tiliyksikkö**. Bitcoineja ei tule koskaan olemaan yli 21 miljoonaa. Kukin bitcoin on jaettavissa 100 miljoonaan yksikköön, joita kutsutaan "satoshiksi" ja jotka on nimetty nimettömän luojansa kunniaksi.
+- **Tietokoneprotokolla**, joka helpottaa arvojen vaihtoa internetissä ilman välikäsiä, ilman lupaa ja pseudonyymisti. Se käyttää kehittyneitä salausperiaatteita.
+- Yksityishenkilöiden ja yritysten ylläpitämä **fyysinen verkko**, joka koostuu internetiin liitetyistä koneista (solmut, louhijat jne.), jotka muodostavat hajautetun järjestelmän (jossa ei ole keskusviranomaista tai yksittäistä valvontapistettä).
+- Järjestelmän tiliyksikkö. Bitcoineja ei tule koskaan olemaan yli 21 miljoonaa. Kukin bitcoin on jaettavissa 100 miljoonaan yksikköön, joita kutsutaan "satoshiksi" ja jotka on nimetty nimettömän luojansa kunniaksi.
 
-Yhdessä ne tekevät Bitcoinista **kantajan omaisuuserän** ja digitaalisen valuutan, jolla ei ole liikkeeseenlaskijaa**. Omistusoikeus on turvattu ainoastaan **yksityisen kryptografisen avaimen** hallussapidolla, mikä takaa täyden hallinnan **ilman välikäsiä tai luotettavia kolmansia osapuolia**. Kun omistusoikeus siirretään, se on välittömästi **todellinen**: uusi haltija omistaa sen kokonaan ilman, että se on riippuvainen keskusviranomaisen suojauksesta tai vaihdettavuudesta. Transaktiot ovat **kiinteitä** - kun ne on kerran kirjattu lohkoketjuun, niitä ei voi muuttaa tai poistaa.
+Yhdessä ne tekevät Bitcoinista **kantajan omaisuuserän** ja digitaalisen valuutan, jolla ei ole liikkeeseenlaskijaa. Omistusoikeus on turvattu ainoastaan **yksityisen kryptografisen avaimen** hallussapidolla, mikä takaa täyden hallinnan **ilman välikäsiä tai luotettavia kolmansia osapuolia**. Kun omistusoikeus siirretään, se on välittömästi **todellinen**: uusi haltija omistaa sen kokonaan ilman, että se on riippuvainen keskusviranomaisen suojauksesta tai vaihdettavuudesta. Transaktiot ovat **kiinteitä** - kun ne on kerran kirjattu lohkoketjuun, niitä ei voi muuttaa tai poistaa.
 
-![BIZ101](assets/en/11.webp)
+![BIZ101](assets/fi/003.webp)
 
 Bitcoinilla on kiinteä rahapolitiikka, ja sen **katto on 21 miljoonaa bitcoinia**, joista ~19,8 miljoonaa on jo jaettu. Tämä tekee siitä **deflatorisen**, ja sen arvo nousee ajan mittaan, kun käyttäjät tallentavat siihen säästöjä ja tuottavuushyötyjä.
 
 Sen tekniset ominaisuudet ylittävät kullan ja dollarin tekniset ominaisuudet yhteensä, mikä tekee siitä kovimman koskaan luodun rahoitusvarallisuuden. Bitcoin on sekä arvon säilyttäjä että vaihdon väline, syntymässä oleva valuutta. Kuvittele, että arvo siirretään yrityksen kassasta toiseen nopeasti, ilman välikäsiä, minimaalisin kustannuksin, ilman petoksia, ympäri vuorokauden ja ilman kolmansia osapuolia.
 
-![BIZ101](assets/en/03.webp)
+![BIZ101](assets/fi/004.webp)
 
 Bitcoin säilyttää arvon tehokkaasti, koska sen pääkirja on väärentämisen kestävä. Sen arvo nousee harvinaisen ja rajallisen tarjonnan sekä kasvavan käyttäjämäärän aiheuttamien vaihtomahdollisuuksien lisääntymisen ansiosta.
 
 Bitcoin on mullistava, koska se kannustaa meitä oppimaan matematiikan, kryptografian, talouden ja historian käsitteitä, joita meille ei koskaan opetettu. Vaikka Bitcoin mielletään usein monimutkaiseksi, se on itse asiassa innovaatio, johon pääsee käsiksi harjoittelemalla ja kokeilemalla.
 
-Bitcoin haastaa meidät miettimään uudelleen itse rahan luonnetta. Voisitteko selittää, mitä raha todella on? Palkkatyöntekijä tai yrittäjä saattaa käyttää 50 000-100 000 tuntia elämästään rahan ansaitsemiseen, mutta kuinka moni käyttää edes 100 tuntia sen ymmärtämiseen paremmin** ja säilyttämiseen? Bitcoin rohkaisee meitä kyseenalaistamaan rahan tarpeemme ja ajallisen perspektiivimme perimmäiset syyt. Onko raha välitöntä ylellisyyttä vai pitkän aikavälin kestävyyttä varten? Jos meillä olisi arvoa kasvattava omaisuuserä, jonka avulla voisimme lykätä ostoksia, millaisia valintoja tekisimme? Mitä keskusteluja haluaisimme käydä itsemme kanssa 20 tai 30 vuoden kuluttua?
+Bitcoin haastaa meidät miettimään uudelleen itse rahan luonnetta. Voisitteko selittää, mitä raha todella on? Palkkatyöntekijä tai yrittäjä saattaa käyttää 50 000-100 000 tuntia elämästään rahan ansaitsemiseen, mutta kuinka moni käyttää edes 100 tuntia sen ymmärtämiseen paremmin **ja säilyttämiseen?** Bitcoin rohkaisee meitä kyseenalaistamaan rahan tarpeemme ja ajallisen perspektiivimme perimmäiset syyt. Onko raha välitöntä ylellisyyttä vai pitkän aikavälin kestävyyttä varten? Jos meillä olisi arvoa kasvattava omaisuuserä, jonka avulla voisimme lykätä ostoksia, millaisia valintoja tekisimme? Mitä keskusteluja haluaisimme käydä itsemme kanssa 20 tai 30 vuoden kuluttua?
 
 **BITCOIN-HENKILÖKORTTI**
 
 
-- Ikä:** 15 vuotta (3. tammikuuta 2009)
-- Päivittäinen pörssiarvo:** 10 miljardia dollaria (> CAC40)
-- Markkina-arvo:** 1,8 biljoonaa dollaria (> Meta, Visa, hopea ; < Apple, Google, kulta)
-- Käyttäjät:** ~100-200 miljoonaa (1-2 % maailman väestöstä)
-- Volatiliteetti:** Sisäisesti ei lainkaan (1 Bitcoin = 1 Bitcoin), ulkoisesti erittäin korkea (fiat-valuutan pörsseissä)
-- Suorituskyky:** Ensimmäinen transaktio 0,0009 dollarilla; nyt 100 000 dollaria (x100 miljoonaa)
-- Verkon käytettävyys (käytettävyys):** 100 % vuodesta 2013 lähtien
-- Kuolleeksi julistettu tai arvosteltu:** Kerran kuukaudessa
+- **Ikä:** 15 vuotta (3. tammikuuta 2009)
+- **Päivittäinen pörssiarvo:** 10 miljardia dollaria (> CAC40)
+- **Markkina-arvo:** 1,8 biljoonaa dollaria (> Meta, Visa, hopea ; < Apple, Google, kulta)
+- **Käyttäjät:** ~100-200 miljoonaa (1-2 % maailman väestöstä)
+- **Volatiliteetti:** Sisäisesti ei lainkaan (1 Bitcoin = 1 Bitcoin), ulkoisesti erittäin korkea (fiat-valuutan pörsseissä)
+- **Suorituskyky:** Ensimmäinen transaktio 0,0009 dollarilla; nyt 100 000 dollaria (x100 miljoonaa)
+- **Verkon käytettävyys (käytettävyys):** 100 % vuodesta 2013 lähtien
+- **Kuolleeksi julistettu tai arvosteltu:** Kerran kuukaudessa
 
 **Ihmisten yhteistyön ihme:**
 
 
 - Täysin **avoin lähdekoodi**
-- Oikeushenkilö:** Ei ole
-- Toimitusjohtaja:** Ei ole
-- Pääomasijoitukset:** Ei ole
-- Markkinointi:** Ei ole
-- T&K:** Vapaaehtoisvoimin
-- Hallinto:** Käyttäjien toimesta
-- Innovatiivinen talousmalli:** Lohkojen luomista tuetaan transaktiomaksuilla (huutokauppapohjainen)
+- **Oikeushenkilö:** Ei ole
+- **Toimitusjohtaja:** Ei ole
+- **Pääomasijoitukset:** Ei ole
+- **Markkinointi:** Ei ole
+- **T&K:** Vapaaehtoisvoimin
+- **Hallinto:** Käyttäjien toimesta
+- **Innovatiivinen talousmalli:** Lohkojen luomista tuetaan transaktiomaksuilla (huutokauppapohjainen)
 
 Jos haluat lisätietoa Bitcoinista, sen historiasta, toiminnasta ja käytöstä, suosittelen myös tämän kattavan kurssin seuraamista:
 
@@ -249,13 +251,13 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 Salamaverkko on **protokolla ja verkko**, joka helpottaa Bitcoin-transaktioita mahdollisimman vähäisellä vuorovaikutuksella Bitcoinin päälohkoketjun kanssa. Näin se toimii:
 
 
-- Alkuasetukset:** Varat lukitaan (escrowed) päälohkoketjuun kahden osapuolen välisen maksukanavan luomiseksi.
-- Maksuverkko:** Useiden osapuolten välisten maksukanavien verkko muodostaa maksuverkon (reititys ja yhteenliittäminen).
-- Transaktiot ketjun ulkopuolella:** Osapuolten väliset transaktiot tapahtuvat, mutta niitä ei **julkaista** välittömästi Bitcoinin päälohkoketjussa (**"ketjun ulkopuolella "**).
-- On-chain-selvitykset:** Vain kanavan transaktioiden **loppusaldo** julkaistaan Bitcoinin päälohkoketjussa (**"on-chain**"), mikä mahdollistaa lukuisten transaktioiden suorittamisen sillä välin. Tämä useiden maksujen niputtaminen vähentää ruuhkautumista ja siten pienentää maksuja verrattuna siihen, että tehdään monia on-chain-tapahtumia.
-- Kanavan sulkeminen:** Käyttäjä voi sulkea kanavansa milloin tahansa ja saada Bitcoininsa takaisin julkaisemalla viimeisimmän transaktiotilan. Tämä on periaate, jonka mukaan transaktiot ovat **"julkaisukelpoisia" milloin tahansa, mutta "julkaisemattomia "**, kunnes niitä tarvitaan. Poistuminen (kanavan sulkeminen) voi olla yksipuolista (kumpi tahansa osapuolista voi päättää siitä milloin tahansa) tai molemminpuolista (jolloin ketjussa perittävät maksut ovat pienemmät)
+- **Alkuasetukset:** Varat lukitaan (escrowed) päälohkoketjuun kahden osapuolen välisen maksukanavan luomiseksi.
+- **Maksuverkko:** Useiden osapuolten välisten maksukanavien verkko muodostaa maksuverkon (reititys ja yhteenliittäminen).
+- **Transaktiot ketjun ulkopuolella:** Osapuolten väliset transaktiot tapahtuvat, mutta niitä ei **julkaista** välittömästi Bitcoinin päälohkoketjussa (**"ketjun ulkopuolella"**).
+- **On-chain-selvitykset:** Vain kanavan transaktioiden **loppusaldo** julkaistaan Bitcoinin päälohkoketjussa (**"on-chain"**), mikä mahdollistaa lukuisten transaktioiden suorittamisen sillä välin. Tämä useiden maksujen niputtaminen vähentää ruuhkautumista ja siten pienentää maksuja verrattuna siihen, että tehdään monia on-chain-tapahtumia.
+- **Kanavan sulkeminen:** Käyttäjä voi sulkea kanavansa milloin tahansa ja saada Bitcoininsa takaisin julkaisemalla viimeisimmän transaktiotilan. Tämä on periaate, jonka mukaan transaktiot ovat **"julkaisukelpoisia"** milloin tahansa, mutta **"julkaisemattomia"**, kunnes niitä tarvitaan. Poistuminen (kanavan sulkeminen) voi olla yksipuolista (kumpi tahansa osapuolista voi päättää siitä milloin tahansa) tai molemminpuolista (jolloin ketjussa perittävät maksut ovat pienemmät)
 
-![BIZ101](assets/en/04.webp)
+![BIZ101](assets/fi/005.webp)
 
 Tällä lähestymistavalla vältetään hitaus ja monimutkaisuus, joka liittyy jokaisen transaktion suorittamiseen suoraan Bitcoinin päälohkoketjuun, ja tallennetaan vain lopulliset saldot ja säilytetään sen turvallisuus. Salamaverkko on kerros Bitcoinin "päällä", mutta se on edelleen ankkuroitu siihen.
 
@@ -265,14 +267,14 @@ Protokolla luo koneiden **verkon**, jossa kanavat muodostavat universaalin maksu
 
 Lightning Network mahdollistaa välittömän arvonvaihdon valon nopeudella. Se on kuin sähköpostiprotokolla sovellettuna maksuihin: seuraavan sukupolven maksuverkko. Se muuttaa radikaalisti tavan, jolla "raha" liikkuu, ja tekee siitä yhtä ilmaista ja nopeaa kuin tiedonsiirto internetissä.
 
-![BIZ101](assets/en/12.webp)
+![BIZ101](assets/fi/006.webp)
 
 **Keskeiset edut:**
 
 
-- Nopeus:** Välittömät maksutapahtumat.
-- Alhaiset maksut:** Paljon alhaisemmat kustannukset verrattuna perinteisiin pankkiverkkoihin.
-- Helppo käyttöönotto:** Yritykset voivat nopeasti ottaa käyttöön Lightning-maksut älypuhelinsovelluksella tai verkkosivuston maksupainikkeella.
+- **Nopeus:** Välittömät maksutapahtumat.
+- **Alhaiset maksut:** Paljon alhaisemmat kustannukset verrattuna perinteisiin pankkiverkkoihin.
+- **Helppo käyttöönotto:** Yritykset voivat nopeasti ottaa käyttöön Lightning-maksut älypuhelinsovelluksella tai verkkosivuston maksupainikkeella.
 
 Lightning-infrastruktuuri on nopeudeltaan, kustannuksiltaan ja energiatehokkuudeltaan perinteisiä maksujärjestelmiä parempi. Kun kauppiaiden hyväksyntä lisääntyy, vauhti kiihtyy: jos maksut voivat ohittaa pankkien välisen verkon, miksi luopua edelleen merkittävästä osuudesta tuloista nykyisille välittäjille?
 
@@ -293,23 +295,23 @@ Lightning tarjoaa välähdyksen tulevaisuudesta, jossa kaikki internetpohjaiset 
 Lightning Network on ihanteellinen Bitcoin-maksuihin fyysisissä tai verkkokaupoissa nopeutensa ja maksun lopullisuuden vuoksi.
 
 
-- Nopeus:** Lightning (~500ms muutamasta sekunnista muutamaan sekuntiin) on huomattavasti nopeampi kuin Bitcoinin pääverkko, jossa transaktioiden vahvistaminen voi kestää noin 30 minuuttia. Suurissa ostoksissa (reilusti yli 1 000 dollaria) Bitcoinin pääverkko voi silti olla parempi, koska nopeus ei ole niin kriittinen. Nämä yksityiskohdat ovat kuitenkin usein piilossa keskivertokäyttäjältä, sillä sovellukset hoitavat nämä päätökset saumattomasti taustalla.
-- Lopullisuus:** Kun maksu on suoritettu Lightningille, se on lopullinen. Kolmannet osapuolet eivät voi periä maksua takaisin tai tehdä petoksiin liittyviä kiistoja.
-- Maksut:** Lightning-verkoston transaktiomaksut ovat minimaalisia, ja ne maksaa käyttäjä, ei kauppias. Kauppiaille aiheutuu maksuja vain, jos he joutuvat myöhemmin siirtämään Bitcoininsa toiseen verkkoon tai palveluun.
+- **Nopeus:** Lightning (~500ms muutamasta sekunnista muutamaan sekuntiin) on huomattavasti nopeampi kuin Bitcoinin pääverkko, jossa transaktioiden vahvistaminen voi kestää noin 30 minuuttia. Suurissa ostoksissa (reilusti yli 1 000 dollaria) Bitcoinin pääverkko voi silti olla parempi, koska nopeus ei ole niin kriittinen. Nämä yksityiskohdat ovat kuitenkin usein piilossa keskivertokäyttäjältä, sillä sovellukset hoitavat nämä päätökset saumattomasti taustalla.
+- **Lopullisuus:** Kun maksu on suoritettu Lightningille, se on lopullinen. Kolmannet osapuolet eivät voi periä maksua takaisin tai tehdä petoksiin liittyviä kiistoja.
+- **Maksut:** Lightning-verkoston transaktiomaksut ovat minimaalisia, ja ne maksaa käyttäjä, ei kauppias. Kauppiaille aiheutuu maksuja vain, jos he joutuvat myöhemmin siirtämään Bitcoininsa toiseen verkkoon tai palveluun.
 
 **SALAMA-TUNNISTE** *SALAMA-TUNNISTE** *SALAMA-TUNNISTE**
 
 
-- Keksintö:** 2015
-- Lanseeraus:** 2016
-- Ikä:** 7 vuotta (ensimmäinen tapahtuma: 28. joulukuuta 2017)
-- Verkon tekninen suorituskyky:** mittakaavassa se pystyy käsittelemään 1 000 kertaa enemmän välittömiä tapahtumia kuin perinteiset järjestelmät.
-- Tapahtumakoot:** Vaihtelee yhtä suuresta 1 000 kertaa pienempään kuin perinteiset järjestelmät.
-- Tapahtumanopeus:** Jopa 100 kertaa nopeampi.
-- Maksut:** Jopa 90 % alhaisemmat.
-- Maksun lopullisuus:** Lähes välitön (usein ~500 millisekuntia, joskus muutama sekunti).
-- Energiankulutus:** ~8 % perinteisestä globaalista rahajärjestelmästä.
-- Ominaisuudet:**
+- **Keksintö:** 2015
+- **Lanseeraus:** 2016
+- **Ikä:** 7 vuotta (ensimmäinen tapahtuma: 28. joulukuuta 2017)
+- **Verkon tekninen suorituskyky:** mittakaavassa se pystyy käsittelemään 1 000 kertaa enemmän välittömiä tapahtumia kuin perinteiset järjestelmät.
+- **Tapahtumakoot:** Vaihtelee yhtä suuresta 1 000 kertaa pienempään kuin perinteiset järjestelmät.
+- **Tapahtumanopeus:** Jopa 100 kertaa nopeampi.
+- **Maksut:** Jopa 90 % alhaisemmat.
+- **Maksun lopullisuus:** Lähes välitön (usein ~500 millisekuntia, joskus muutama sekunti).
+- **Energiankulutus:** ~8 % perinteisestä globaalista rahajärjestelmästä.
+- **Ominaisuudet:**
     - Vertaisverkko
     - Universal
     - Luvaton
@@ -364,7 +366,7 @@ Perinteisessä (keynesiläisessä) talousteoriassa pääoma nähdään usein yks
 
 Onneksi Bitcoin pakottaa meidät miettimään kaiken uudelleen ja haastamaan nämä ennakkokäsitykset. Itävaltalainen taloustieteellinen koulukunta voi valottaa näitä kysymyksiä ja auttaa meitä miettimään uudelleen pääoman todellista luonnetta.
 
-**Olipa kerran..
+**Olipa kerran...**
 
 Aloitetaan lyhyellä tarinalla:
 
@@ -374,7 +376,7 @@ Ennen keihään valmistamista kalastaja päättää varata sivuun jonkin verran 
 
 Samalla kun hän käyttää aikaansa keihään rakentamiseen, hän luottaa varantoihinsa ja lykkää mielellään joitakin välittömiä mukavuuksiaan (mikä on osoitus hänen **aikahalukkuudestaan**). Useiden päivien kovan työn jälkeen hän saa valmiiksi tukevan keihään.
 
-![BIZ101](assets/en/05.webp)
+![BIZ101](assets/fi/007.webp)
 
 Keihään avulla hän voi nyt pyydystää kaloja paljon nopeammin ja vähemmällä vaivalla. Hänen ei enää tarvitse uuvuttaa itseään kuten ennen, ja hänellä alkaa jopa kertyä ylijäämäkaloja. Tämä ylijäämä avaa uusia mahdollisuuksia: hän voi varastoida sitä, jakaa sitä tai sijoittaa sen muihin hankkeisiin saarella. Lykkäämällä välitöntä kulutusta ja hyödyntämällä pääomaansa kalastaja on parantanut merkittävästi tehokkuuttaan ja tulevaisuudennäkymiään."
 
@@ -389,10 +391,10 @@ Itävaltalainen taloustieteellinen koulukunta on saanut nimensä Itävallasta ko
 Itävaltalaisessa näkemyksessä pääoma liittyy läheisesti ajatukseen kulutuksen lykkäämisestä sellaisten työkalujen tai tuotantoresurssien rakentamiseksi, jotka parantavat tulevaa tuotantoa. Tämä pääoman kasautumisena tunnettu prosessi on keskeinen osa itävaltalaista talousteoriaa. Tämän näkökulman keskeisiä elementtejä ovat mm:
 
 
-- Aikapreferenssi ja lykätty kulutus**: Yksilöt luonnollisesti kuluttavat mieluummin nyt kuin myöhemmin, mutta he voivat lykätä kulutusta, jos he odottavat suurempia palkkioita tulevaisuudessa. Säästämällä nyt voidaan investoida varoja pääomatavaroihin (työkalut, koneet, infrastruktuuri), jotka parantavat tuottavuutta ajan mittaan. Yhteiskunnat tai yksilöt, joiden aikapreferenssi on pienempi, säästävät enemmän ja investoivat pitkän aikavälin hankkeisiin, mikä edistää kestävää kasvua.
-- Pääoma tulevan tuotannon moottorina**: Pääomahyödykkeet nähdään välivaiheen välineinä, joita käytetään lopullisten kulutustavaroiden tuottamiseen. Keräämällä pääomaa yrittäjät voivat parantaa tuottavuutta ja luoda enemmän vaurautta tulevaisuudessa. Esimerkiksi sen sijaan, että kulutustavaroita tuotettaisiin välittömästi, resursseja voitaisiin käyttää tehtaiden tai koneiden rakentamiseen. Vaikka tämä vähentää lyhyen aikavälin kulutusta, tehokkuus mahdollistaa suuremman tuotannon ja vaurauden myöhemmin.
-- Epäsuora tuotanto ja tehokkuus**: Eugen Böhm-Bawerkin kaltaiset itävaltalaiset taloustieteilijät korostivat ajatusta epäsuorasta tuotannosta - pidemmistä ja monimutkaisemmista tuotantoprosesseista, joissa on useita vaiheita. Vaikka nämä prosessit vievät aikaa, ne tuottavat lopulta tehokkaampia ja tuottavampia tuloksia, kuten sahalaitoksen rakentaminen puun jalostamiseksi tukkien keräämisen sijasta käsin.
-- Korot signaaleina**: Itävaltalaisen näkemyksen mukaan korot heijastavat luonnollisesti yksilöiden aikapreferenssejä. Korkeat korot viittaavat välittömän kulutuksen suosimiseen, kun taas matalat korot kannustavat säästämiseen ja pitkäaikaisiin investointeihin. Kun keskuspankit keinotekoisesti manipuloivat korkoja, ne vääristävät näitä luonnollisia signaaleja, mikä johtaa resurssien vääränlaiseen kohdentamiseen ja kestämättömiin investointeihin (epäsuotuisat investoinnit).
+- **Aikapreferenssi ja lykätty kulutus**: Yksilöt luonnollisesti kuluttavat mieluummin nyt kuin myöhemmin, mutta he voivat lykätä kulutusta, jos he odottavat suurempia palkkioita tulevaisuudessa. Säästämällä nyt voidaan investoida varoja pääomatavaroihin (työkalut, koneet, infrastruktuuri), jotka parantavat tuottavuutta ajan mittaan. Yhteiskunnat tai yksilöt, joiden aikapreferenssi on pienempi, säästävät enemmän ja investoivat pitkän aikavälin hankkeisiin, mikä edistää kestävää kasvua.
+- **Pääoma tulevan tuotannon moottorina**: Pääomahyödykkeet nähdään välivaiheen välineinä, joita käytetään lopullisten kulutustavaroiden tuottamiseen. Keräämällä pääomaa yrittäjät voivat parantaa tuottavuutta ja luoda enemmän vaurautta tulevaisuudessa. Esimerkiksi sen sijaan, että kulutustavaroita tuotettaisiin välittömästi, resursseja voitaisiin käyttää tehtaiden tai koneiden rakentamiseen. Vaikka tämä vähentää lyhyen aikavälin kulutusta, tehokkuus mahdollistaa suuremman tuotannon ja vaurauden myöhemmin.
+- **Epäsuora tuotanto ja tehokkuus**: Eugen Böhm-Bawerkin kaltaiset itävaltalaiset taloustieteilijät korostivat ajatusta epäsuorasta tuotannosta - pidemmistä ja monimutkaisemmista tuotantoprosesseista, joissa on useita vaiheita. Vaikka nämä prosessit vievät aikaa, ne tuottavat lopulta tehokkaampia ja tuottavampia tuloksia, kuten sahalaitoksen rakentaminen puun jalostamiseksi tukkien keräämisen sijasta käsin.
+- **Korot signaaleina**: Itävaltalaisen näkemyksen mukaan korot heijastavat luonnollisesti yksilöiden aikapreferenssejä. Korkeat korot viittaavat välittömän kulutuksen suosimiseen, kun taas matalat korot kannustavat säästämiseen ja pitkäaikaisiin investointeihin. Kun keskuspankit keinotekoisesti manipuloivat korkoja, ne vääristävät näitä luonnollisia signaaleja, mikä johtaa resurssien vääränlaiseen kohdentamiseen ja kestämättömiin investointeihin (epäsuotuisat investoinnit).
 
 **Kaksi pääoman muotoa nykyaikaisissa talouksissa**
 
@@ -408,7 +410,7 @@ Maailmanlaajuisen eliitin laajalti omaksuma keynesiläinen politiikka manipuloi 
 
 Miten tällaisessa ympäristössä "terve" pääoma - jonka yrittäjät ovat säästäneet huolellisesti - voi kilpailla keinotekoisesti luodun "epäterveen" pääoman kanssa? Lisäksi rahan tarjonnan yksipuolinen laajentaminen heikentää terveen pääoman ostovoimaa, mikä pahentaa taloudellista epävakautta ja yhteiskunnallista tyytymättömyyttä.
 
-**Toivon pilkahdus: Bitcoin***
+**Toivon pilkahdus: Bitcoin**
 
 Bitcoin tarjoaa keinon kerryttää ja säilyttää pääomaa pitkällä aikavälillä ilman rahan inflaation aiheuttamaa rapautumista. Arvon säilyttäjänä se antaa yrityksille mahdollisuuden suunnitella tulevia investointeja joustavasti, mikä haastaa velkavetoisten järjestelmien ylivallan ja edistää paluuta todelliseen, tuottavaan pääoman kartuttamiseen.
 
@@ -419,18 +421,18 @@ Bitcoin tarjoaa keinon kerryttää ja säilyttää pääomaa pitkällä aikaväl
 **Itävaltalaisen koulukunnan avainhenkilöt**
 
 
-- Carl Menger**: Menger, itävaltalaisen koulukunnan perustaja, kehitti subjektiivisen arvon teorian, jonka mukaan tavaroiden arvo riippuu pikemminkin yksilön mieltymyksistä kuin tuotantokustannuksista.
-- Ludwig von Mises**: Mises, itävaltalaisen koulukunnan kulmakivi, esitteli praxeologian (ihmisen toiminnan teorian) ja kirjoitti _Human Action_ -teoksen, joka on sosialismin ja keskussuunnittelun syvällistä kritiikkiä.
-- Friedrich Hayek**: Hayek, Misesin oppilas, sai taloustieteen Nobelin palkinnon vuonna 1974 työstään hajautetun tiedon ja markkinoiden spontaaniuden parissa. Kirjassaan _The Road to Serfdom_ hän kritisoi voimakkaasti keskitettyä valvontaa.
-- Murray Rothbard**: Rothbard, Misesin oppilas ja libertarismin vankkumaton kannattaja, kehitti anarkokapitalismin teorian, jossa hän visioi valtiottoman yhteiskunnan, jota hallitsevat vapaaehtoiset sopimukset. Hänen kirjansa _Mies, talous ja valtio_ on itävaltalaisen taloustieteen perusteos.
+- **Carl Menger**: Menger, itävaltalaisen koulukunnan perustaja, kehitti subjektiivisen arvon teorian, jonka mukaan tavaroiden arvo riippuu pikemminkin yksilön mieltymyksistä kuin tuotantokustannuksista.
+- **Ludwig von Mises**: Mises, itävaltalaisen koulukunnan kulmakivi, esitteli praxeologian (ihmisen toiminnan teorian) ja kirjoitti _Human Action_ -teoksen, joka on sosialismin ja keskussuunnittelun syvällistä kritiikkiä.
+- **Friedrich Hayek**: Hayek, Misesin oppilas, sai taloustieteen Nobelin palkinnon vuonna 1974 työstään hajautetun tiedon ja markkinoiden spontaaniuden parissa. Kirjassaan _The Road to Serfdom_ hän kritisoi voimakkaasti keskitettyä valvontaa.
+- **Murray Rothbard**: Rothbard, Misesin oppilas ja libertarismin vankkumaton kannattaja, kehitti anarkokapitalismin teorian, jossa hän visioi valtiottoman yhteiskunnan, jota hallitsevat vapaaehtoiset sopimukset. Hänen kirjansa _Mies, talous ja valtio_ on itävaltalaisen taloustieteen perusteos.
 
 **Muut vaikutusvaltaiset taloustieteilijät**
 
 
-- Milton Friedman**: Vaikka Friedman ei liity suoraan itävaltalaiseen koulukuntaan, hän kannatti monia markkinamyönteisiä ja liberaaleja ajatuksia. Hänen monetaristinen politiikkansa eroaa itävaltalaisesta ajattelusta, mutta jakaa sen kritiikin valtion liiallista puuttumista talouteen kohtaan.
-- Frédéric Bastiat**: Bastiat oli 1800-luvun ranskalainen taloustieteilijä, joka vaikutti itävaltalaiseen koulukuntaan vapaakauppaa ja talouspolitiikan näkymättömiä seurauksia käsittelevillä teoksillaan. Hänen esseensä _What Is Seen and What Is Not Seen_ on talousliberalismin perustavaa laatua oleva teksti.
+- **Milton Friedman**: Vaikka Friedman ei liity suoraan itävaltalaiseen koulukuntaan, hän kannatti monia markkinamyönteisiä ja liberaaleja ajatuksia. Hänen monetaristinen politiikkansa eroaa itävaltalaisesta ajattelusta, mutta jakaa sen kritiikin valtion liiallista puuttumista talouteen kohtaan.
+- **Frédéric Bastiat**: Bastiat oli 1800-luvun ranskalainen taloustieteilijä, joka vaikutti itävaltalaiseen koulukuntaan vapaakauppaa ja talouspolitiikan näkymättömiä seurauksia käsittelevillä teoksillaan. Hänen esseensä _What Is Seen and What Is Not Seen_ on talousliberalismin perustavaa laatua oleva teksti.
 
-![BIZ101](assets/en/06.webp)
+![BIZ101](assets/fi/008.webp)
 
 *Attribuutio: Ludwig von Mises Institute*
 
@@ -486,7 +488,7 @@ Ensinnäkin, **menneisyys ei takaa tulevia tuloksia**. Niin kauan kuin Bitcoin p
 
 Toiseksi, Bitcoin on tähän mennessä kokenut **4-vuotisen syklin**, mikä tarkoittaa, että yli neljän vuoden aikahorisontilla veto on aina ollut kannattava. Niille, jotka näkevät Bitcoinin sijoituksena, lyhytaikainen aikahorisontti (<4 vuotta) voi olla riskialtis.
 
-![BIZ101](assets/en/07.webp)
+![BIZ101](assets/fi/009.webp)
 
 *MICHAEL SAYLOR: "Paras Bitcoinin hintasignaali on 4 vuoden yksinkertainen liukuva keskiarvo. "* Katso yllä oleva kaavio.
 
@@ -547,7 +549,7 @@ Sinun ei tarvitse ostaa tasan yhtä Bitcoinia, koska Bitcoin on jaettavissa alay
 
 Lisäksi 21 miljoonaa bitcoinia eli **2,1 kvadriljoonaa satoshia** voidaan esittää tehokkaasti 64-bittisellä kokonaisluvulla. Tämä tarkoittaa sitä, että vaikka koko bitcoinin hinta on korkea, se pysyy jaettavuutensa ansiosta laajan sijoittajaryhmän ulottuvilla. Sinun ei siis tarvitse ostaa kokonaista bitcoinia osallistuaksesi verkkoon tai sijoittaaksesi tähän digitaaliseen omaisuuteen.
 
-![BIZ101](assets/en/08.webp)
+![BIZ101](assets/fi/010.webp)
 
 Muistakaamme, että sen suhteellisen alhainen kokonaismarkkinakapitalisaatio verrattuna muihin omaisuuseriin, kuten osakkeisiin, kultaan tai kiinteistöihin, jättää sille mahdollisuuden arvonnousuun. Koska sen levinneisyys on edelleen hyvin alhainen (noin 1 % maailman väestöstä), sen uskotaan olevan vasta nousun alkuvaiheessa. Tämä tekee siitä **sukupolvemme epäsymmetrisimmän vedon**: nyt on hyvin pieni todennäköisyys, että se putoaa tässä vaiheessa nollaan, ja suuri todennäköisyys, että se jatkaa kasvuaan.
 
@@ -555,15 +557,15 @@ Muistakaamme, että sen suhteellisen alhainen kokonaismarkkinakapitalisaatio ver
 
 Bitcoiniin sijoittamista koskevaan **päätöksentekoprosessiin** vaikuttaa suuresti asemasi yrityksessä. Jos olet **enemmistöomistaja, voit vapaasti** jakaa ylimääräiset kassavarat oman harkintasi mukaan. Jos taas olet osakas tai osakkeenomistaja kollektiivisessa päätöksentekorakenteessa, sinun on käytävä yhteisiä neuvotteluja, mikä voi mutkistaa asioita.
 
-Tässä toisessa skenaariossa eri näkökulmien yhteensovittamisesta tulee olennaista, sillä se riippuu pitkälti kunkin sidosryhmän käsityksestä Bitcoin-varallisuudesta**. Kuten sanonta kuuluu: "Bitcoin on kaikki, mitä ihmiset eivät tiedä tietokoneista, yhdistettynä kaikkeen, mitä he eivät ymmärrä rahasta." Vaikka yksi kumppani olisikin nähnyt vaivaa ymmärtääkseen Bitcoinin perusteellisesti, tämän tiedon välittäminen muille voi olla haastavaa. Tällaisissa tapauksissa on **suositeltua ottaa mukaan ulkopuolinen resurssi**, jotta ideaa ei yhdistettäisi liian tiiviisti yhteen henkilöön, mikä voisi aiheuttaa vastustusta.
+Tässä toisessa skenaariossa eri näkökulmien yhteensovittamisesta tulee olennaista, sillä se riippuu pitkälti kunkin sidosryhmän käsityksestä Bitcoin-varallisuudesta. Kuten sanonta kuuluu: "Bitcoin on kaikki, mitä ihmiset eivät tiedä tietokoneista, yhdistettynä kaikkeen, mitä he eivät ymmärrä rahasta." Vaikka yksi kumppani olisikin nähnyt vaivaa ymmärtääkseen Bitcoinin perusteellisesti, tämän tiedon välittäminen muille voi olla haastavaa. Tällaisissa tapauksissa on **suositeltava ottaa mukaan ulkopuolinen resurssi**, jotta ideaa ei yhdistettäisi liian tiiviisti yhteen henkilöön, mikä voisi aiheuttaa vastustusta.
 
 Tällä hetkellä skenaario, jossa enemmistöomistaja tekee päätöksen, on edustavin Bitcoinia hallussaan pitävien yritysten keskuudessa. Tässä on muutamia todellisia esimerkkejä :
 
 
-- Itsenäiset ammattilaiset**: Konsultit, terveydenhuollon ammattilaiset tai lakimiehet, jotka sijoittavat osan pitkän aikavälin varallisuudestaan Bitcoiniin. Yleensä näillä ammattilaisilla on jo säästö- tai määräaikaistalletustilejä, joiden tuotto on niukka.
-- Teknologia-alan johtajat**: Johtaja, joka myi yrityksensä ja sijoitti osan henkilökohtaisen holdingyhtiönsä tuotosta Bitcoiniin muutama vuosi sitten. Nykyään he nauttivat mukavasta taloudellisesta tilanteesta ja investoivat uudelleen uusiin yrityksiin.
-- Hyvin pienten yritysten omistajat** : Palvelu-, maatalous- tai käsityöalan yrittäjät, jotka ovat ymmärtäneet Bitcoinin potentiaalin ja sijoittavat osan kassavaroistaan siihen. Heidän ensisijainen motivaationsa on monipuolistaminen ja sen tarjoama vapaus
-- Julkisesti noteeratut yritykset**, kuten MicroStrategy, ovat luoneet ennakkotapauksen muuntamalla merkittävän osan yritysvaroistaan Bitcoiniksi, mikä on osoitus maailmanlaajuisesta muutoksesta yritysten pääomanjakostrategioissa. Syksyyn 2024 mennessä lukuisat muut yritykset olivat seuranneet esimerkkiä, mikä legitimoi tätä suuntausta entisestään.
+- **Itsenäiset ammattilaiset**: Konsultit, terveydenhuollon ammattilaiset tai lakimiehet, jotka sijoittavat osan pitkän aikavälin varallisuudestaan Bitcoiniin. Yleensä näillä ammattilaisilla on jo säästö- tai määräaikaistalletustilejä, joiden tuotto on niukka.
+- **Teknologia-alan johtajat**: Johtaja, joka myi yrityksensä ja sijoitti osan henkilökohtaisen holdingyhtiönsä tuotosta Bitcoiniin muutama vuosi sitten. Nykyään he nauttivat mukavasta taloudellisesta tilanteesta ja investoivat uudelleen uusiin yrityksiin.
+- **Hyvin pienten yritysten omistajat**: Palvelu-, maatalous- tai käsityöalan yrittäjät, jotka ovat ymmärtäneet Bitcoinin potentiaalin ja sijoittavat osan kassavaroistaan siihen. Heidän ensisijainen motivaationsa on monipuolistaminen ja sen tarjoama vapaus
+- Julkisesti noteeratut yritykset, kuten **MicroStrategy**, ovat luoneet ennakkotapauksen muuntamalla merkittävän osan yritysvaroistaan Bitcoiniksi, mikä on osoitus maailmanlaajuisesta muutoksesta yritysten pääomanjakostrategioissa. Syksyyn 2024 mennessä lukuisat muut yritykset olivat seuranneet esimerkkiä, mikä legitimoi tätä suuntausta entisestään.
 
 Tutustu päivitettyyn luetteloon yrityksistä, jotka pitävät eniten bitcoineja kassassa, sekä pidettyihin summiin, sivustolla: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Yritysten hallussa olevien bitcoinien verotus
@@ -584,22 +586,22 @@ Näiden erojen vuoksi **jotkut yritysten omistajat päättävät ostaa ja pitä�
 
 Bitcoinia voi hankkia kolmella tavalla:
 
-![BIZ101](assets/en/09.webp)
+![BIZ101](assets/fi/011.webp)
 
 
-- Tavaroita tai palveluja vastaan:**
+- Tavaroita tai palveluja vastaan:
 
 Koska Bitcoin toimii vaihtovälineenä, on mahdollista kuvitella kiertotaloutta. Vaikka tämä on nykyään vielä harvinaista, yhä useammat yritykset alkavat hyväksyä Bitcoin-maksuja - miksei myös sinun yrityksesi? (Katso seuraava luku)
 
 
-- Bitcoinin louhinta:**
+- **Bitcoinin louhinta:**
 
 Tämä tarkoittaa palkintojen ansaitsemista kaivoskoneiden käytöstä. Erikoistumattomille yrityksille tämä on edelleen suhteellisen marginaalista. Voit osallistua välittäjien kautta, jotka myyvät tai vuokraavat sinulle laskennan, verkon ja ylläpidon. Jos omistat koneet, voit käsitellä niitä kirjanpidossa poistokelpoisena omaisuutena. Suuressa mittakaavassa sinun on laskettava sijoitetun pääoman tuotto huolellisesti, koska markkinat ovat erittäin kilpaillut ja edellyttävät kustannusten, erityisesti sähkön, hyvää ennakointia.
 
 Jos haluat lisätietoja louhintamenetelmistä, voit [tutustua opetusohjelmiemme "louhinta"-osioon](https://planb.network/tutorials/mining).
 
 
-- Bitcoinin ostaminen:**
+- **Bitcoinin ostaminen:**
 
 Tämä on ylivoimaisesti yleisin menetelmä, ja se tapahtuu joko vertaisverkkopörssien kautta tai tyypillisemmin erikoistuneilla kauppapaikoilla. Kun yritykset hankkivat Bitcoinia yrityksen omaisuudeksi, niiden on kuitenkin noudatettava tiukkoja sääntelystandardeja ja Know-Your-Customer (KYC) -menettelyjä. Kun ne ostavat sitä erikoistuneilta kaupankäyntialustoilta, yritysten on yleensä toimitettava yksityiskohtaiset yritystiedot, kuten henkilöllisyystodistukset, tilinpäätöstiedot ja osoitetiedot, jotta ne täyttävät KYC- ja rahanpesunvastaiset vaatimukset.
 
@@ -611,7 +613,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 Jos haluat lisätietoja menetelmistä, joilla bitcoineja voi hankkia pörssin tai vertaisverkon kautta, voit [tutustua opetusohjelmiemme "exchange"-osioon](https://planb.network/tutorials/exchange).
 
-![BIZ101](assets/en/16.webp)
+![BIZ101](assets/fi/012.webp)
 
 ### Millä hinnalla?
 
@@ -635,7 +637,7 @@ Todellisuudessa Bitcoinin potentiaalinen arvonnousu on niin suuri, että vaikka 
 
 Kiinteistöala toistaa usein, että "on aina oikea aika ostaa", ja unohtaa, että jos kiinteistöt menettäisivät tehtävänsä arvon säilyttäjinä - siirtymällä Bitcoinin kaltaisiin omaisuuseriin - hinnat voisivat palata lähemmäs käyttöarvoaan (suoja). Bitcoin sen sijaan ei palvele mitään muuta tarkoitusta kuin arvon varastointia, mikä voisi tarkoittaa, että "on aina oikea aika ostaa" Tulevaisuus näyttää.
 
-![BIZ101](assets/en/13.webp)
+![BIZ101](assets/fi/013.webp)
 
 *Luotto: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
@@ -648,25 +650,25 @@ Tämä salausavain on erittäin suuri satunnaisluku. Käyttäjäkokemuksen yksin
 Tämä johtaa huoltajuuskysymykseen: Bitcoinin hallussapito tarkoittaa, että avain tai avaimet ovat hallussa. Joko säilytät niitä itse tai annat tehtävän kolmannelle osapuolelle. On olemassa myös välivaiheen ratkaisuja. Käydään läpi yleisimmät skenaariot:
 
 
-- Omahuoltajuus:**
+- **Omahuoltajuus:**
 
 Todelliset Bitcoin-harrastajat suosittelevat tätä vaihtoehtoa, koska se vastaa Bitcoinin alkuperäistä suunnittelua. Toimit omana pankkinasi: ei ole vaaraa, että kolmas osapuoli huijaa sinua, mutta olet vastuussa avaimen (avainten) turvaamisesta. Sinulla on täysi pääsy varoihisi 24/7. Jos liiketoimintaympäristössä useiden ihmisten on ehkä tehtävä liiketoimia, tarvitset asianmukaiset välineet ja menettelyt pääsyn ja turvallisuuden hallintaan.
 
 
-- Kolmannen osapuolen säilytys:**
+- **Kolmannen osapuolen säilytys:**
 
 Esimerkiksi vaihto- tai ostopalvelu voi luoda sinulle tilin, muuntaa perinteisen valuuttasi Bitcoiniksi ja pitää sitä puolestasi turvajärjestelmiensä avulla. Useimmissa tällaisissa palveluissa voit nostaa bitcoinisi lompakkoon, jonka avain on yksin sinulla. Siihen asti et oikeasti omista bitcoineja, vaan luotat niiden lupaukseen maksaa ne sinulle takaisin. Tämä edellyttää turvallisuusriskien (heidän ja sinun) ja vastapuoliriskien (he voivat epäonnistua tai kadota) tasapainottelua. Joidenkin yritysten mielestä tämä on hyväksyttävää, mutta sitä ei yleensä suositella pitkäaikaiseen varastointiin tai 100 prosentin osuuteen varastoinnista. Säilytyspalvelut voivat myös periä säilytysmaksuja.
 
 
-- "Paperinen Bitcoin" (ETF:t tai ETP:t):**
+- **"Paperinen Bitcoin" (ETF:t tai ETP:t):**
 
 Nämä ovat perinteisiä rahoitusvälineitä, jotka edustavat Bitcoinin murto-osia ja jäljittelevät sen hintakehitystä. Tuotteen takana oleva laitos ostaa ja pitää teoriassa hallussaan kohde-etuutena olevaa Bitcoinia. Maksut ja nostot tehdään perinteisessä valuutassa (esim. dollareissa tai euroissa), ei Bitcoinissa. Lukuun ottamatta tiettyjä tuotteita, jotka mahdollistavat nostot todellisina Bitcoineina (joidenkin lainkäyttöalueiden verovelvollisuuden välttämiseksi), näihin instrumentteihin liittyy vuotuisia hallinnointipalkkioita. Tässä tapauksessa luotat laitoksen turvallisuuteen ja kohtaat vastapuoliriskin (esimerkiksi jos hallitus päättää takavarikoida kaikki laitosten hallussa olevat Bitcoinit, kuten tapahtui kullan kanssa vuonna 1933 Yhdysvaltain toimeenpanomääräyksen 6102 nojalla). Niiden ensisijainen etu on helppo saatavuus, koska ne jaetaan perinteisten rahoituskanavien kautta. Niissä ei tarvita kryptografisia avaimia, mutta ne eivät tarjoa mitään Bitcoinin luontaisista ominaisuuksista: Bitcoin-verkkoa ei voi käyttää 24/7 arvon vapaaseen siirtämiseen ilman lupaa. Ne jäljittelevät vain taloudellista suorituskykyä, eivät itse Bitcoinin toiminnallisuutta tai suvereniteettia.
 
-![BIZ101](assets/en/15.webp)
+![BIZ101](assets/fi/014.webp)
 
 Lisäksi se, missä muodossa säilytät Bitcoinia, vaikuttaa merkittävästi turvatoimiin, joita tarvitaan yrityksen kassavarojen suojaamiseksi. Riippumatta siitä, valitsetko oman säilytyksen, käytätkö yhden tai usean allekirjoituksen laitteistolompakoita jne. ja pidät avaimesi suorassa hallinnassa vai annatko tämän tehtävän kolmannen osapuolen säilytyspalveluille tai ETF:ille, kumpaankin vaihtoehtoon liittyy oma riskiprofiilinsa. Esimerkiksi oma säilytys tarjoaa täyden käyttöoikeuden, mutta edellyttää tiukkoja sisäisiä turvallisuusprotokollia, kun taas kolmannen osapuolen ratkaisut vähentävät hallinnointitaakkaa vastapuoliriskin kustannuksella. Erojen havainnollistamiseksi tässä kaaviossa esitetään kunkin säilytystyypin turvamalli, jonka avulla voit valita organisaatiosi tarpeisiin parhaiten sopivan lähestymistavan:
 
-![BIZ101](assets/en/14.webp)
+![BIZ101](assets/fi/015.webp)
 
 ### Keneltä ostaa?
 
@@ -675,12 +677,12 @@ Jos valitset "paperisen Bitcoinin", käännyt rahoituslaitosten, kuten pankkien 
 Jos päätät ostaa todellisen Bitcoinin markkinapaikan (vaihdon) tai välittäjän kautta, sinulla on useita pääluokkia:
 
 
-- Suuret kansainväliset tai ulkomaiset alustat:**
+- Suuret kansainväliset tai ulkomaiset alustat:
 
 Esimerkkejä ovat Kraken, Coinbase tai Binance, joita monet yksityishenkilöt ovat historiallisesti käyttäneet. Joissakin on ollut ongelmia, ja on vaikea antaa selkeää suositusta. Yksi neuvo: jos käytät niitä, älä jätä bitcoinejasi sinne pidemmäksi aikaa kuin on tarpeen.
 
 
-- Säännellyt palveluntarjoajat (rekisteröidyt digitaalisen omaisuuden palveluntarjoajat):**
+- **Säännellyt palveluntarjoajat (rekisteröidyt digitaalisen omaisuuden palveluntarjoajat):**
 
 Esimerkiksi Ranskassa Paymiumin (vaihto) tai BullBitcoinin (välittäjä) kaltaiset alustat tunnetaan siitä, että niiden johdossa on todellisia Bitcoin-harrastajia, jotka ovat saavuttaneet vankan menestyksen. Yhdysvalloissa on palveluntarjoajia kuten River tai Swann. Yleisesti ottaen on tärkeää tutkia palveluntarjoajan sukutaulu: heidän maineensa, saavutuksensa, suosionsa Bitcoin-yhteisössä ja se, onko heidän johtonsa linjassa Bitcoinin ydinarvojen kanssa.
 
@@ -693,12 +695,12 @@ Esimerkiksi Ranskassa Paymiumin (vaihto) tai BullBitcoinin (välittäjä) kaltai
 Maksujen ja toteutusnopeuden lisäksi - joilla on vähemmän merkitystä, jos ajatellaan pitkällä aikavälillä (useita vuosia) - yrityksen tulisi myös ottaa huomioon:
 
 
-- Käyttöliittymä:** Onko alusta käyttäjäystävällinen?
-- Kirjanpito-ominaisuudet:** Vähintään kyky viedä tapahtumahistoriaa .CSV-muodossa.
-- Säilytys ja turvallisuus:** Säilyttääkö alusta bitcoineja puolestasi vai siirtääkö se omistusoikeuden sinulle? Millainen on niiden tietoturva-asetelma? Onko niillä "nostolukkoja" tai muita nostorajoituksia?
-- Asiakastuki:** Laatu, reagointikyky ja henkilökohtainen apu, erityisesti kun olet aloittamassa.
-- Maine ja eetos:** Luotettavuus ja foorumin arvot.
-- Tuki toistuville ostoille:** Jos aiot kerätä Bitcoinia ajan mittaan ajastetuilla ostoilla.
+- **Käyttöliittymä:** Onko alusta käyttäjäystävällinen?
+- **Kirjanpito-ominaisuudet:** Vähintään kyky viedä tapahtumahistoriaa .CSV-muodossa.
+- **Säilytys ja turvallisuus:** Säilyttääkö alusta bitcoineja puolestasi vai siirtääkö se omistusoikeuden sinulle? Millainen on niiden tietoturva-asetelma? Onko niillä "nostolukkoja" tai muita nostorajoituksia?
+- **Asiakastuki:** Laatu, reagointikyky ja henkilökohtainen apu, erityisesti kun olet aloittamassa.
+- **Maine ja eetos:** Luotettavuus ja foorumin arvot.
+- **Tuki toistuville ostoille:** Jos aiot kerätä Bitcoinia ajan mittaan ajastetuilla ostoilla.
 
 # Räätälöityjä Bitcoin-maksuratkaisuja jokaiselle yritykselle
 
@@ -714,37 +716,37 @@ Alkuaikoina Internet-verkko mahdollisti välikäsien poistamisen viestintäkanav
 
 Bitcoin on luottamuksen infrastruktuuri, jonka ensimmäinen sovellus on välittäjien poistaminen arvorahojen varastoinnista ja vaihdosta. Tämän infrastruktuurin pohjalta syntyy muitakin tällä hetkellä käsittämättömiä sovelluksia. Aluksi läsnäolosi täällä vastaa verkkosivustoa: se on portti vertaisverkkomaksuihin ja arvojen vaihtoon.
 
-![BIZ101](assets/en/17.webp)
+![BIZ101](assets/fi/016.webp)
 
 Mieti nyt sellaisen käytännön yrityksen näkökulmaa, jonka ydintoiminta ei liity mitenkään Bitcoiniin. Miksi se päättäisi hyväksyä Bitcoin-maksuja?
 
 
-- Bitcoin-rahaston rakentaminen:**
+- **Bitcoin-rahaston rakentaminen:**
 
 Katso edellinen artikkelimme Bitcoinin ostamisesta. Jotkut ammattilaiset päättävät hyväksyä Bitcoin-maksuja joko vakaumuksen tai hajautusstrategian vuoksi. Jotkut Bitcoin-asiantuntijat väittävät, että mitä vähemmän yritys on taloudellisesti taipuvainen - eli sillä ei ole aikaa eikä työkaluja monimutkaisten rahoitusmanööverien tekemiseen -** sitä kriittisemmäksi tulee, että yritykselle maksetaan kovimmassa saatavilla olevassa rahamuodossa**. Näin se tasoittaa pelikenttää ja antaa pienillekin, ajallisesti rajoittuneille yrityksille mahdollisuuden säilyttää arvonsa joutumatta mukaan rahoituspeleihin.
 
 
-- Uuden väestöryhmän tavoittaminen:**
+- **Uuden väestöryhmän tavoittaminen:**
 
 Bitcoin-käyttäjien määrä kasvaa, ja heillä on huomattavaa ostovoimaa. He luonnollisesti hakeutuvat yrityksiin, jotka hyväksyvät heidän valuuttansa. Koska kyseessä on lisäksi ensimmäinen yleismaailmallinen, internetin kotimainen valuutta, voit houkutella myös kansainvälisiä asiakkaita, jotka ovat läpikulkumatkalla.
 
 
-- Näkyvyyden lisääminen:**
+- **Näkyvyyden lisääminen:**
 
 Listaa yrityksesi esimerkiksi BTCmap.orgin kaltaisille alustoille. Vain harvat yritykset hyväksyvät tällä hetkellä Bitcoinia, joten suusanallinen tiedonvälitys toimii eduksesi. Se myös erottaa sinut kilpailijoistasi.
 
 
-- Pienemmät maksut:**
+- Pienemmät maksut:
 
 Välittömät Bitcoin-maksut tapahtuvat Lightning Networkin kautta. **Maksut ovat minimaalisia ja ostajan maksamia**. Maksupäätepäätemaksuja ei ole, maksujen hyväksymisvirheitä ei ole, eikä petoksia ole. Vertailun vuoksi voidaan todeta, että maksuala (kortit, terminaalit, tilisiirrot, maksupalveluntarjoajat jne.) maksaa maailmanlaajuisesti noin 2,2 biljoonaa dollaria vuodessa. Kun tähän lisätään takaisinmaksut ja petokset, lähes kymmenesosa Yhdysvaltojen BKT:n arvosta "kuoritaan" tuottavilta yrityksiltä maailmanlaajuisesti pelkästään arvon siirtämiseksi. Olipa liiketoimintasi millainen tahansa, rahoituspalkkiot ovat rasite, joka olisi optimoitava, ja joissakin tapauksissa korkeat palkkiot voivat tukahduttaa tietyt liiketoimintamallit.
 
 
-- Vapaus ja luvaton, 24/7:**
+- **Vapaus ja luvaton, 24/7:**
 
 Bitcoinin käyttöön ei tarvitse pyytää lupaa. Kuka tahansa voi osallistua talouteen muutamassa minuutissa älypuhelinsovelluksen avulla. Voit lähettää tai vastaanottaa maksun keneltä tahansa - yksityishenkilöltä tai yritykseltä - milloin tahansa ilman aikataulurajoituksia tai viiveitä.
 
 
-- Hyödynnä Bitcoin-verkon etuja:**
+- Hyödynnä Bitcoin-verkon etuja:
 
 Sinun ei tarvitse säilyttää maksujasi Bitcoin-muodossa - varsinkaan, jos sinun on maksettava toimittajille tai palautettava arvonlisävero. Tietyt palvelut voivat muuntaa kaikki Bitcoin-maksusi tai osan niistä valitsemasi valuutan määräiseksi (esim. euroja IBAN-tilinumeroosi) maksua vastaan. Tässä skenaariossa Bitcoinin hyväksymisestä saattaisi olla hyötyä uusien käyttäjien houkuttelemisessa tai Bitcoinin luontaisissa eduissa (kuten alhaisemmissa maksuissa, ympärivuorokautisessa toiminnassa eikä petos- tai takaisinkirjausriskissä).
 
@@ -840,19 +842,19 @@ Seuraavissa luvuissa kuvaamme yksityiskohtaisesti kutakin liiketoimintaprofiilia
 
 Starter-profiili on suunniteltu yrityksille, luoville tekijöille ja yksityishenkilöille, jotka haluavat tutustua Bitcoin-maksuihin ilman merkittäviä resursseja tai asiantuntemusta. Nämä ovat tyypillisesti henkilöitä, jotka käsittelevät hyvin pieniä transaktiomääriä (ehkä muutama tippi, lahjoitus tai satunnainen myynti) ja jotka etsivät yksinkertaista ja kevyttä johdatusta Bitcoin- ja Lightning Network -ekosysteemiin. Starter-lähestymistavan tärkein arvo on sen minimaalinen asennus: useimmissa tapauksissa tarvitaan vain älypuhelin tai tabletti, jossa on Lightning-yhteensopiva peruslompakko.
 
-![BIZ101-profiles](assets/en/18.webp)
+![BIZ101-profiles](assets/fi/017.webp)
 
 Yksi tämän profiilin ominaispiirteistä on, että se keskittyy vähäisiin maksuihin, jotka harvoin ylittävät muutaman sadan euron tai dollarin summan kuukaudessa. Tämä vaatimaton mittakaava tekee siitä erinomaisen valinnan kaikille, jotka haluavat testata markkinoita Bitcoinin kanssa ilman suurempien volyymien käyttöönottoon liittyviä monimutkaisuuksia. Lisäksi se mahdollistaa välittömän käytännön oppimisen; koska toiminnalliset paineet ovat pienemmät ja rahalliset panokset pienemmät, virheet voidaan rajoittaa ja opit opitaan nopeasti. Käsintehtyjä käsitöitä viikonloppumessuilla myyvistä taiteilijoista voittoa tavoittelemattomiin ryhmiin, jotka ottavat vastaan kertaluonteisia lahjoituksia, tämän luokan käyttäjät korostavat usein helppokäyttöisyyttä ja saavutettavuutta kehittyneiden toimintojen sijaan.
 
 Starter-profiilin kaksi yleisintä lompakkoasetelmaa sisältävät päätöksen huoltajuusratkaisun ja muun kuin huoltajuusratkaisun välillä. Säilytyslompakko (kuten Wallet of Satoshi tai Blink) antaa kolmannen osapuolen palvelun hallita yksityisiä avaimia ja taustatoimintoja, mikä vähentää käyttäjän teknistä vastuuta. Tämä järjestely on erityisen houkutteleva niille, jotka arvostavat ennen kaikkea mukavuutta ja haluavat mahdollisimman yksinkertaisen käyttöönoton. Toisaalta ei-hallinnolliset Lightning-lompakot (kuten Phoenix tai Breez) asettavat yksityiset avaimet ja täyden hallinnan yrityksen omistajan käsiin, mikä tarjoaa suuremman autonomian ja yksityisyyden suojan vastineeksi hieman suuremmasta alkuvaiheen vaivasta. Kummassakin tapauksessa nykyaikaiset käyttöliittymät ovat yleensä niin käyttäjäystävällisiä, että kuka tahansa pystyy hoitamaan olennaiset tehtävät (QR-koodin luominen, maksusumman syöttäminen ja tapahtumien vahvistaminen) muutamassa minuutissa.
 
-![BIZ101-profiles](assets/en/19.webp)
+![BIZ101-profiles](assets/fi/018.webp)
 
 Vaikka tietoturvaongelmat saattavat tuntua vähemmän kiireellisiltä, kun liiketoimet ovat pieniä, on kuitenkin ratkaisevan tärkeää ottaa käyttöön perussuojatoimenpiteet. Jopa yksittäinen älypuhelin tai tabletti, jota käytetään Bitcoin-maksujen vastaanottamiseen, olisi lukittava salasanalla tai biometrisellä turvajärjestelmällä, ja varmuuskopiointimenettelyihin (jotka vaihtelevat kirjautumistietojen seurannasta huoltajan lompakossa siemenlauseen turvaamiseen muussa kuin huoltajan lompakossa) on suhtauduttava vakavasti. Henkilökunnan jäsenten, jotka käsittelevät maksutapahtumia fyysisessä ympäristössä, olisi hyvä tietää perusasiat: miten sovellus avataan, miten QR-koodi esitetään asiakkaalle ja miten tarkistetaan, onko maksu todella saapunut.
 
 Vaikka kirjanpito ja raportointi ovat Starter-profiilin mukaan suhteellisen yksinkertaisia, ne vaativat silti huolellista harkintaa. Vaikka liiketoimien määrä saattaa olla minimaalinen, tarkkojen tietojen säilyttäminen ehkäisee sekaannuksia myöhemmin ja auttaa säilyttämään avoimuuden tilintarkastusten tai veroilmoitusten yhteydessä. Monet lompakkosovellukset antavat käyttäjille mahdollisuuden viedä perustapahtumahistorian CSV-tiedostona; pienessä yrityksessä tai yksittäisessä yrittäjässä näiden tiedostojen säännöllinen tallentaminen voi helpottaa tilien täsmäyttämistä huomattavasti. On myös viisasta seurata fiat-arvon likimääräistä arvoa (esimerkiksi euroina tai dollareina) kunkin transaktion vastaanottohetkellä. Koska Bitcoinin hinta voi vaihdella, muuntokurssien tallentaminen on korvaamatonta kirjanpidon ja verojen noudattamisen kannalta.
 
-![BIZ101-profiles](assets/en/20.webp)
+![BIZ101-profiles](assets/fi/019.webp)
 
 Yrityksille, jotka haluavat täydentää fyysisiä tai henkilökohtaisia maksujaan verkkolahjoituksilla tai -vihjeillä, on nyt helppoa integroida Lightning-vihjepainike tai lahjoituswidget verkkosivuille tai blogiin. BTCPay Serverin kaltaiset alustat tarjoavat helposti konfiguroitavia maksupainikkeita, ja jotkin sosiaalisen median ja livestreamin palvelut tukevat jo Lightning-vihjeitä osoitteineen. Näin ollen jopa Starter-yritys voi rakentaa vaatimattoman mutta maailmanlaajuisen tukijaverkoston. Samaan aikaan ne, jotka eivät halua pitää Bitcoinia hallussaan pitkällä aikavälillä, voivat tutkia osittaista tai automaattista muuntamista fiat-valuutaksi käyttämällä tiettyjä säilytyslompakoita tai kolmannen osapuolen palveluja. Vaikka tähän vaihtoehtoon liittyy lisämaksuja ja mahdollisia KYC-velvoitteita, se auttaa yrityksiä välttämään valuuttakurssien epävakautta ja säilyttämään nykyiset taloudelliset työnkulut mahdollisimman vähäisin häiriöin.
 
@@ -890,23 +892,23 @@ Toisin kuin Starter-profiili, Essential-yritykset pitävät Bitcoin-maksuja ylee
 
 Tämän segmentin teknologiasuosituksissa keskitytään usein **Swiss Bitcoin Pay**:hen, joka on virtaviivainen ratkaisu, jonka avulla kauppiaat voivat hyväksyä Bitcoin-maksuja helposti. Siinä on käyttäjäystävällinen PoS-sovellus, joka ei vaadi työntekijöiltä teknistä osaamista. Toisin kuin tavalliset Bitcoin-lompakot, se keskittyy pelkästään maksujen vastaanottamiseen, jolloin työntekijät voivat käyttää laitetta ilman turvallisuusriskejä. Useat PoS-sovellukset voivat muodostaa yhteyden samaan tiliin, ja niitä voidaan käyttää tableteissa, rekistereissä, älypuhelimissa tai tietokoneiden verkkoversion kautta, joka tukee Android- ja iOS-käyttöjärjestelmiä. Voit myös luoda valikon, jossa on myytävät tuotteet ja niihin liittyvät hinnat, jolloin työntekijä voi yksinkertaisesti valita ostoskorin asiakkaalle PoS:ssä ja veloittaa loppusumman.
 
-![BIZ101-profiles](assets/en/21.webp)
+![BIZ101-profiles](assets/fi/020.webp)
 
 Maksut voidaan joko nostaa Bitcoinina tiettyyn osoitteeseen tai muuntaa fiat-valuutaksi ja tallettaa pankkitilille päivittäin. Swiss Bitcoin Pay automatisoi prosessin ja käsittelee Bitcoin- ja Lightning Network -maksut ilman manuaalisia toimenpiteitä. Varoja säilytetään enintään 24 tuntia ennen siirtoa. Vaikka se ei ole täysin säilyttäjäsuojaamaton kuten BTCPay Server, se tasapainottaa mukavuuden ja turvallisuuden, eikä vaadi KYC:tä.
 
-![BIZ101-profiles](assets/en/22.webp)
+![BIZ101-profiles](assets/fi/021.webp)
 
 Palkkiot ovat kilpailukykyiset: 0,21 % ensimmäisen vuoden ajan, sitten 1 % Bitcoin-maksuista ja 1,5 % fiat-muuntomaksuista, mukaan lukien Bitcoin-tapahtumakulut. Swiss Bitcoin Pay tarjoaa käytännöllisen keskitien Open Noden kaltaisten säilytysratkaisujen ja BTCPay Serverin kaltaisten monimutkaisten itse isännöityjen järjestelmien välille ja asettaa etusijalle yksinkertaisuuden, turvallisuuden ja taloudellisen riippumattomuuden.
 
 Tämäntyyppinen kokoonpano antaa henkilökohtaisten yritysten luoda maksulaskuja nopeasti, esittää QR-koodeja asiakkailleen ja hyväksyä Lightning- tai ketjussa tapahtuvia maksutapahtumia mahdollisimman pienellä kitkalla. Henkilökunta tarvitsee vain lyhyen perehdytyksen näiden maksujen käsittelyyn, kun taas johtajat voivat kirjautua verkkokojelautaan täsmäyttääkseen päivittäisen myynnin ja käyttää perusraportteja. Virtaviivaistetun hallintakonsolin saatavuus auttaa myös pienempiä toimipaikkoja seuraamaan sekä fiat- että kryptotuloja yhdestä käyttöliittymästä, mikä vähentää sekaannusta ja manuaaliseen kirjanpitoon kuluvaa aikaa.
 
-![BIZ101-profiles](assets/en/23.webp)
+![BIZ101-profiles](assets/fi/022.webp)
 
 Essential-lähestymistavan toinen keskeinen etu on nopean käyttöönoton ja mahdollisimman vähäisten häiriöiden korostaminen. Swiss Bitcoin Payn kaltaiset ratkaisut voidaan ottaa käyttöön muutamassa tunnissa eikä päivissä tai viikoissa. Esimerkiksi vähän liikennöidyn ravintolan omistajan tai johtajan päämääränä on integroida Bitcoinin hyväksyminen aiheuttamatta viiveitä kassalla tai hämmennystä henkilökunnan keskuudessa. Kun kassakone on konfiguroitu, johtaja voi yksinkertaisesti antaa työntekijöille nopeat ohjeet laskun näyttämisestä ja maksun maksamisen tarkistamisesta. Parhaassa tapauksessa asiakkaan maksutapahtuma vahvistetaan lähes välittömästi Lightning-verkon kautta, ja yrityksen hallintopaneeli rekisteröi samanaikaisesti uuden maksun reaaliajassa.
 
 Vaikka Essential-profiili ei vaadi erittäin kehittyneitä kirjanpitojärjestelmiä, on silti viisasta pitää kirjaa tapahtumista. Swiss Bitcoin Payn kaltaiset työkalut tarjoavat CSV-vientitoimintoja, joiden avulla johtajat voivat tallentaa jokaisen Bitcoin-myynnin fiat-ekvivalenttiarvon ja seurata sitä muiden tulolähteiden ohella. Tämä dokumentointitaso riittää useimmille pienyrityksille, ja alkeellinen valuuttakurssien ymmärtäminen auttaa veroilmoitusten tekemisessä ja yleisessä talousvalvonnassa.
 
-![BIZ101-profiles](assets/en/24.webp)
+![BIZ101-profiles](assets/fi/023.webp)
 
 Profiilisi kannalta sopivin hybridiratkaisu on todennäköisesti Swiss Bitcoin Pay:
 
@@ -930,19 +932,19 @@ Professional-profiili on suunnattu yrityksille, jotka ovat siirtyneet satunnaisi
 
 Yksi ammattimaisen kauppiaan ominaispiirteistä on tarve **edistyksellisiin ominaisuuksiin** ja **räätälöitäviin ratkaisuihin**, jotka säilyttävät tehokkuuden myös tapahtumamäärien kasvaessa. Toisin kuin Essential-käyttäjät, jotka saattavat tyytyä virtaviivaiseen työkaluun, joka mahtuu näppärästi älypuhelinsovellukseen, Professional-kauppias vaatii tyypillisesti ominaisuuksia, kuten yksityiskohtaista laskujen räätälöintiä, kehittyneitä raportointinäyttöjä ja mahdollisuutta määrittää useita hallinnollisia rooleja.
 
-![BIZ101-profiles](assets/en/25.webp)
+![BIZ101-profiles](assets/fi/024.webp)
 
 Esimerkiksi ravintolaryhmässä voi olla laskutukseen ja varastonhallintaan erikoistuneita työntekijöitä, kun taas erillinen tiimi valvoo tuoteluetteloita ja markkinointikampanjoita. Tässä ympäristössä Bitcoin-maksuratkaisun on sovitettava hyvin yhteen näiden olemassa olevien organisaatiorakenteiden kanssa.
 
-![BIZ101-profiles](assets/en/26.webp)
+![BIZ101-profiles](assets/fi/025.webp)
 
 Teknologian ja työkalujen osalta **BTC Pay Server**:n kaltaiset ratkaisut muodostavat usein Professional-asennuksen ytimen. BTC Pay Server on avoimen lähdekoodin alusta, joka voidaan ottaa käyttöön joko tiloissa tai pilvipalvelun kautta ja joka tarjoaa laajat integrointimahdollisuudet verkkosivustoille ja sähköisen kaupankäynnin alustoille. Käyttämällä omaa instanssiaan yritykset voivat hallita maksuvirran kaikkia osa-alueita automaattisesti luoduista kassasivuista ilmoituksiin, jotka käynnistävät sisäisiä prosesseja, kun maksu on vahvistettu.
 
-![BIZ101-profiles](assets/en/27.webp)
+![BIZ101-profiles](assets/fi/026.webp)
 
 Lisäksi työkalut, kuten [Zaprite](https://zaprite.com/) tai [Musqet](https://musqet.tech/), voivat tarkentaa kassakokemusta ja mahdollistaa tarkemman räätälöinnin (brändivalinnoista kehittyneisiin raportointimahdollisuuksiin). Ne, jotka haluavat all-in-one-verkkokauppaympäristön, voivat käyttää [Be-BOP](https://be-bop.io/), verkkokaupparatkaisua, joka on suunniteltu helpottamaan Bitcoin-maksuja helppokäyttöisyydestä tinkimättä.
 
-![BIZ101-profiles](assets/en/28.webp)
+![BIZ101-profiles](assets/fi/027.webp)
 
 Näiden tekniikoiden käyttöönotto ammatillisessa ympäristössä edellyttää, että **toiminnan monimutkaisuuteen** kiinnitetään erityistä huomiota. Automatisoidut laskutustyönkulut, monivaluuttanäytöt ja synkronointi olemassa olevien varastojärjestelmien kanssa ovat kaikki hyvin integroidun alustan tunnusmerkkejä. Kyky viedä tapahtumatietoja tarkasti (joko CSV-tiedostoina, suorina API-kutsuina tai mukautetuissa muodoissa) auttaa yrityksiä täsmäyttämään bitcoin-myyntiä muiden tulovirtojen kanssa tehokkaasti.
 
@@ -950,7 +952,7 @@ Tietoturva ja roolien hallinta ovat toinen keskeinen näkökohta Professional-k�
 
 Kun on kyse käytännön esimerkistä, mieti keskikokoista verkkokauppaa, joka on erikoistunut teknologiatarvikkeisiin. Yritys voisi integroida BTC Pay Server -palvelimen nykyiseen verkkokauppaansa ja luoda automaattisesti Bitcoin-maksuosoitteet kassalla. Asiakkaat suorittavat ostoksensa skannaamalla Lightning- tai ketjussa olevan osoitteen, ja kaupan alusta vahvistaa maksun välittömästi. Samaan aikaan sisäinen järjestelmä päivittää tilauksen tilan ja käynnistää toimitusilmoitukset. Kehittyneiden raportointiominaisuuksien ansiosta taloustiimi voi helposti tarkastella päivittäistä Bitcoin-myyntiä, viedä konsolidoidun pääkirjan tarkastusta varten ja seurata kaikkien BTC-omistusten arvoa, jotka yritys päättää säilyttää.
 
-![BIZ101-profiles](assets/en/29.webp)
+![BIZ101-profiles](assets/fi/028.webp)
 
 *[Luotto: Bitcoin Bazar -myymälä Pariisissa, Ranskassa.](https://bitcoinbazar.fr/)*
 
@@ -991,8 +993,8 @@ Yksi Bitcoinin tärkeimmistä eduista on kyky siirtää varoja mielensä mukaan,
 Jos aloitat tyhjästä - sinulla ei ole myymälää, tuotehallintaohjelmistoa tai POS-järjestelmää - sinulla on pari vaihtoehtoa:
 
 
-- Ulkoistaminen:** Voit ulkoistaa ostosvaihtoehtoja sisältävän verkkosivuston luomisen ja lisätä sitten Bitcoin-maksutoiminnot perinteisten myymäläratkaisujen rinnalle.
-- Yksinkertaiset ratkaisut:** Vaihtoehtoisesti voit tehdä sen itse Accessing.appin kaltaisilla alustoilla. Tärkeimpiä etuja ovat mm:
+- **Ulkoistaminen:** Voit ulkoistaa ostosvaihtoehtoja sisältävän verkkosivuston luomisen ja lisätä sitten Bitcoin-maksutoiminnot perinteisten myymäläratkaisujen rinnalle.
+- **Yksinkertaiset ratkaisut:** Vaihtoehtoisesti voit tehdä sen itse Accessing.appin kaltaisilla alustoilla. Tärkeimpiä etuja ovat mm:
     - Verkkokaupan tai fyysisen myymälän perustaminen nopeasti ja edullisesti.
     - Sopii kausiluonteisille yrityksille, tapahtumille, ravintoloille tai vähittäiskaupoille.
     - Tuotteiden määrittely ja hallinta sekä fyysistä että verkkomyyntiä varten.
@@ -1010,25 +1012,25 @@ Vaikka Lightning Network tarjoaa parempaa tehokkuutta ja alhaisempia maksuja, se
 Uudet infrastruktuurit menestyvät, koska ne ovat tehokkaampia, ja varhaiset omaksujat liittyvät mukaan, koska he saavat konkreettisia etuja. Seuraavassa on havaintoja salamaverkosta vuonna 2024:
 
 
-- Äärimmäisen nopeat tapahtumat:** Tapahtumat ovat usein lähes välittömiä (<500 ms), ja niiden vikaprosentti on erittäin alhainen.
-- Verkon ammattimaistuminen:** Suuremmat toimijat varmistavat likviditeetin koko verkossa, kun taas yksityishenkilöt ovat suurelta osin lopettaneet maksujen välittämisen ja pyörittävät nykyään lähinnä "reunasolmuja"
-- Parempi käyttäjäkokemus:** Yksittäisten käyttäjien mobiilisovellukset ovat parantuneet merkittävästi. Ominaisuudet, kuten liittäminen, staattiset Bolt12-laskut ja nollavahvistusmaksut (0-conf), ovat laajalti käytettävissä, mikä tekee vuorovaikutuksesta saumatonta. Yhteentoimivuusongelmat (esim. pakolliset sulkemiset) eivät ole enää suuria huolenaiheita.
-- Parannettu solmujen ja kanavien hallinta:** Sekä yksilölliset että ammattilaisratkaisut ovat kehittyneet. Esimerkiksi BTC Pay Server tukee nyt lukuisia liitännäisiä, joiden avulla voidaan muodostaa yhteys muihin palveluntarjoajiin (PSP:t, on/off-rampit jne.). Uusia infrastruktuurin tarjoajia, kuten LightSpark ja Alby Hub, on myös tulossa tuotantoon.
-- Kauppiaiden hyväksynnän kasvu:** BitRefillin kaltaiset kauppiaat raportoivat Bitcoin-maksujen lisääntymisestä aktiivisten käyttäjiensä keskuudessa, ja Bitcoin on selvästi siirtynyt Lightningin sijaan. Lisäksi Lightningin erittäin alhaiset maksut tekevät siitä ensisijaisen vaihtoehdon pienissä maksuissa (keskimäärin 32 euroa per transaktio).
+- **Äärimmäisen nopeat tapahtumat:** Tapahtumat ovat usein lähes välittömiä (<500 ms), ja niiden vikaprosentti on erittäin alhainen.
+- **Verkon ammattimaistuminen:** Suuremmat toimijat varmistavat likviditeetin koko verkossa, kun taas yksityishenkilöt ovat suurelta osin lopettaneet maksujen välittämisen ja pyörittävät nykyään lähinnä "reunasolmuja"
+- **Parempi käyttäjäkokemus:** Yksittäisten käyttäjien mobiilisovellukset ovat parantuneet merkittävästi. Ominaisuudet, kuten liittäminen, staattiset Bolt12-laskut ja nollavahvistusmaksut (0-conf), ovat laajalti käytettävissä, mikä tekee vuorovaikutuksesta saumatonta. Yhteentoimivuusongelmat (esim. pakolliset sulkemiset) eivät ole enää suuria huolenaiheita.
+- **Parannettu solmujen ja kanavien hallinta:** Sekä yksilölliset että ammattilaisratkaisut ovat kehittyneet. Esimerkiksi BTC Pay Server tukee nyt lukuisia liitännäisiä, joiden avulla voidaan muodostaa yhteys muihin palveluntarjoajiin (PSP:t, on/off-rampit jne.). Uusia infrastruktuurin tarjoajia, kuten LightSpark ja Alby Hub, on myös tulossa tuotantoon.
+- **Kauppiaiden hyväksynnän kasvu:** BitRefillin kaltaiset kauppiaat raportoivat Bitcoin-maksujen lisääntymisestä aktiivisten käyttäjiensä keskuudessa, ja Bitcoin on selvästi siirtynyt Lightningin sijaan. Lisäksi Lightningin erittäin alhaiset maksut tekevät siitä ensisijaisen vaihtoehdon pienissä maksuissa (keskimäärin 32 euroa per transaktio).
 
-![BIZ101-profiles](assets/en/30.webp)
+![BIZ101-profiles](assets/fi/029.webp)
 
 *[Lähde: BTC Map](https://btcmap.org/)*
 
 
-- Verkkomittarit:** Lightningin kanavien ja lukittujen Bitcoinien kokonaismäärä pysyy vakaana, noin 20 000 solmua, 5 200 BTC ja 60 000 kanavaa. Tämä kuvastaa kuitenkin vain osaa verkostosta ja kertoo osallistujien vaihtuvuudesta, jossa on vähemmän yksityishenkilöitä ja enemmän ammattilaisia.
-- Lightning verkkojen välisenä siltana:** Lightning-verkon tehokkuus ja saatavuus ovat jo nyt tehneet siitä sillan muihin verkkoihin (esim. FediMint, Liquid jne.).
+- **Verkkomittarit:** Lightningin kanavien ja lukittujen Bitcoinien kokonaismäärä pysyy vakaana, noin 20 000 solmua, 5 200 BTC ja 60 000 kanavaa. Tämä kuvastaa kuitenkin vain osaa verkostosta ja kertoo osallistujien vaihtuvuudesta, jossa on vähemmän yksityishenkilöitä ja enemmän ammattilaisia.
+- **Lightning verkkojen välisenä siltana:** Lightning-verkon tehokkuus ja saatavuus ovat jo nyt tehneet siitä sillan muihin verkkoihin (esim. FediMint, Liquid jne.).
 
 **Lompakon paluu**
 
 Bitcoin ja Lightning Network ovat saattamassa päätökseen **digitaalisen lompakon vallankumouksen**. Uudet verkkopalvelut mahdollistavat nyt **transaktiot ilman tilin luomista** - lompakostasi tulee henkilöllisyytesi! **Nostr Wallet Connectin (NWC)** ja **LN-URL-AUTH:n** kaltaisten protokollien avulla lompakot voivat saumattomasti todentaa käyttäjät ja mahdollistaa transaktiot ilman perinteisiä tilejä. Menneet ovat ne ajat, jolloin tilien väsyttäminen yksinkertaisia ostoksia tai tilauksia varten on ollut tarpeetonta. Enää ei tarvitse antaa henkilö- tai maksutietoja, jotka voivat päätyä hakkeroitaviksi ja myytäviksi pimeässä verkossa, kuten viimeaikaiset tapahtumat muistuttavat meitä aivan liian usein.
 
-![BIZ101](assets/en/10.webp)
+![BIZ101](assets/fi/030.webp)
 
 Tulevaisuuden kauppiaat omaksuvat tämän innovaation ja tarjoavat asiakkaille turvallisemman, saumattomamman (yhden klikkauksen) kokemuksen, joka kunnioittaa myös heidän yksityisyyttään.
 
@@ -1053,8 +1055,8 @@ Maailmanlaajuisesti Bitcoinia ei useinkaan luokitella valuutaksi vaan digitaalis
 Toinen Bitcoin-kirjanpitoon liittyvä näkökohta on kahdenlaisten pääomavoittojen erottaminen toisistaan:
 
 
-- Piilevät voitot/tappiot:** Realisoitumattomat voitot tai tappiot, jotka perustuvat tilikauden lopussa hallussa olevan Bitcoinin arvoon.
-- Efektiiviset voitot/tappiot:** Realisoituneet voitot tai tappiot, kun Bitcoinia myydään tai vaihdetaan tilikauden aikana.
+- **Piilevät voitot/tappiot:** Realisoitumattomat voitot tai tappiot, jotka perustuvat tilikauden lopussa hallussa olevan Bitcoinin arvoon.
+- **Efektiiviset voitot/tappiot:** Realisoituneet voitot tai tappiot, kun Bitcoinia myydään tai vaihdetaan tilikauden aikana.
 
 Nämä laskelmat riippuvat suuresti siitä, pidetäänkö Bitcoinia hallussa pitkäaikaiseen sijoitukseen vai lyhytaikaiseen operatiiviseen käyttöön. Lisäksi yritysten on sovitettava kirjanpitokäytäntönsä paikallisiin verorakenteisiin, sillä säännökset vaihtelevat merkittävästi maittain.
 
@@ -1105,9 +1107,9 @@ Bitcoinin oikeudellinen ja kirjanpidollinen käsittely eroaa merkittävästi yks
 Yrityksissä Bitcoin voidaan luokitella eri tileille sen käyttötarkoituksen mukaan:
 
 
-- Käyttöomaisuus:** Pitkäaikaisesti strategisena investointina pidettäville Bitcoinille.
-- Varastot:** Tuotantoprosesseissa käytettävälle Bitcoinille (harvinainen käyttötapaus, esimerkiksi ammattimaisille kauppiaille).
-- Käteisvarat tai kassatilit:** Bitcoinille, jota pidetään likvideinä varoina ensisijaisesti operatiivisia liiketoimia tai lyhytaikaista kassanhallintaa varten.
+- **Käyttöomaisuus:** Pitkäaikaisesti strategisena investointina pidettäville Bitcoinille.
+- **Varastot:** Tuotantoprosesseissa käytettävälle Bitcoinille (harvinainen käyttötapaus, esimerkiksi ammattimaisille kauppiaille).
+- **Käteisvarat tai kassatilit:** Bitcoinille, jota pidetään likvideinä varoina ensisijaisesti operatiivisia liiketoimia tai lyhytaikaista kassanhallintaa varten.
 
 Luokituksen valinta riippuu yrityksen toiminnasta ja strategiasta, mikä vaikuttaa taloudelliseen raportointiin ja verovelvoitteisiin. Tarkista aina paikalliset määräykset, sillä luokitukset voivat vaihdella maittain.
 
@@ -1118,16 +1120,16 @@ Bitcoinin oikeudellinen tunnustaminen ja kohtelu vaihtelevat lainkäyttöalueitt
 Useimmissa maissa Bitcoin luokitellaan digitaaliseksi omaisuudeksi, ja sen käsittelyä säätelevät yleiset kirjanpitostandardit. Yritysten on kirjattava Bitcoin-tapahtumat seuraavasti:
 
 
-- Pääomavoittojen ja -tappioiden kirjaaminen:** Yritysten on kirjattava realisoituneet voitot tai tappiot taloudelliseen tulokseensa.
-- Piilevät voitot/tappiot Arviointi:** Realisoitumattomat voitot tai tappiot on usein ilmoitettava, mutta ne eivät välttämättä vaikuta suoraan verotettavaan tuloon.
-- Kirjanpitostandardien noudattaminen:** Yritysten on sisällytettävä Bitcoin-tapahtumat tavanomaisiin kirjanpitokäytäntöihin ja varmistettava avoimuus ja tarkkuus.
+- **Pääomavoittojen ja -tappioiden kirjaaminen:** Yritysten on kirjattava realisoituneet voitot tai tappiot taloudelliseen tulokseensa.
+- **Piilevät voitot/tappiot Arviointi:** Realisoitumattomat voitot tai tappiot on usein ilmoitettava, mutta ne eivät välttämättä vaikuta suoraan verotettavaan tuloon.
+- **Kirjanpitostandardien noudattaminen:** Yritysten on sisällytettävä Bitcoin-tapahtumat tavanomaisiin kirjanpitokäytäntöihin ja varmistettava avoimuus ja tarkkuus.
 
 Bitcoin-kirjanpidon lähestymistapa vaihtelee maantieteellisesti:
 
 
-- Yhdysvallat:** IRS luokittelee Bitcoinin **omaisuudeksi, joka muistuttaa osakkeita, joukkovelkakirjoja tai kiinteistöjä**. Tämä luokittelu tarkoittaa, että kaikki kryptovaluuttaan liittyvät liiketoimet, kuten ansainta, myynti, kaupankäynti tai jopa sen käyttäminen ostosten tekemiseen, voivat aiheuttaa veronalaisen tapahtuman ja voitot ovat pääomavoittoveron alaisia.
-- Euroopan unioni:** Jäsenvaltiot kohtelevat Bitcoinia yleensä pikemminkin spekulatiivisena omaisuuseränä kuin toimivana valuuttana. Tämän vuoksi voitot ovat usein myyntivoittoveron alaisia.
-- Aasia:** Singaporen ja Japanin kaltaiset maat ovat ottaneet käyttöön progressiiviset sääntelypuitteet, joissa Bitcoin-tapahtumia kohdellaan suotuisasti tietyissä yhteyksissä. Bitcoinia käsitellään kuitenkin yleensä **aineettomina hyödykkeinä**, ja se arvostetaan käypään arvoon tilinpäätöspäivänä, ja muutokset kirjataan tulosvaikutteisesti.
+- **Yhdysvallat:** IRS luokittelee Bitcoinin **omaisuudeksi, joka muistuttaa osakkeita, joukkovelkakirjoja tai kiinteistöjä**. Tämä luokittelu tarkoittaa, että kaikki kryptovaluuttaan liittyvät liiketoimet, kuten ansainta, myynti, kaupankäynti tai jopa sen käyttäminen ostosten tekemiseen, voivat aiheuttaa veronalaisen tapahtuman ja voitot ovat pääomavoittoveron alaisia.
+- **Euroopan unioni:** Jäsenvaltiot kohtelevat Bitcoinia yleensä pikemminkin spekulatiivisena omaisuuseränä kuin toimivana valuuttana. Tämän vuoksi voitot ovat usein myyntivoittoveron alaisia.
+- **Aasia:** Singaporen ja Japanin kaltaiset maat ovat ottaneet käyttöön progressiiviset sääntelypuitteet, joissa Bitcoin-tapahtumia kohdellaan suotuisasti tietyissä yhteyksissä. Bitcoinia käsitellään kuitenkin yleensä **aineettomina hyödykkeinä**, ja se arvostetaan käypään arvoon tilinpäätöspäivänä, ja muutokset kirjataan tulosvaikutteisesti.
 
 On tärkeää ymmärtää toimintamaasi säännökset ja mukauttaa kirjanpitokäytäntöjä niiden mukaisesti.
 
@@ -1136,9 +1138,9 @@ On tärkeää ymmärtää toimintamaasi säännökset ja mukauttaa kirjanpitokä
 Kryptovaluuttainnovaatioiden nopea tahti on usein nopeampi kuin sääntelykehys. Bitcoinin tunnustamisesta digitaaliseksi omaisuudeksi lähtien maailmanlaajuisia säännöksiä on päivitetty vähitellen, mutta aukkoja on edelleen:
 
 
-- Oikeuskäytännön puute:** Kirjanpitokäytäntöjä on selvitetty vain harvoissa oikeustapauksissa, mikä jättää tulkinnanvaraa.
-- Käynnissä olevat keskustelut:** Monilla lainkäyttöalueilla on edelleen ratkaisematta esimerkiksi piilevien tappioiden verokohtelu.
-- Rajat ylittävä monimutkaisuus:** Kansainvälisesti toimivilla yrityksillä on haasteita erilaisten kansallisten tilinpäätösstandardien yhteensovittamisessa.
+- **Oikeuskäytännön puute:** Kirjanpitokäytäntöjä on selvitetty vain harvoissa oikeustapauksissa, mikä jättää tulkinnanvaraa.
+- **Käynnissä olevat keskustelut:** Monilla lainkäyttöalueilla on edelleen ratkaisematta esimerkiksi piilevien tappioiden verokohtelu.
+- **Rajat ylittävä monimutkaisuus:** Kansainvälisesti toimivilla yrityksillä on haasteita erilaisten kansallisten tilinpäätösstandardien yhteensovittamisessa.
 
 Näistä haasteista huolimatta monien maiden ennakoiva asenne tarjoaa yrityksille vankan perustan Bitcoinin sisällyttämiselle toimintaansa. Jatkuvat päivitykset ja kansainvälinen yhdenmukaistaminen ovat välttämättömiä, jotta kryptovaluuttojen kirjanpitoon liittyviin uusiin monimutkaisuuksiin voidaan puuttua.
 
@@ -1147,9 +1149,9 @@ Näistä haasteista huolimatta monien maiden ennakoiva asenne tarjoaa yrityksill
 Bitcoinin luokittelu tilinpäätöksessä vaihtelee lainkäyttöalueittain ja riippuu sen käyttötarkoituksesta liiketoiminnassa. Yleisesti ottaen Bitcoinia käsitellään digitaalisena omaisuuseränä, joka muistuttaa varastoa, sijoitusta tai valuuttaa, mutta jolla on ainutlaatuisia ominaisuuksia, jotka vaikuttavat sen kirjanpitokäsittelyyn.
 
 
-- Digitaalinen hyödyke tai aineeton hyödyke**: Monet lainkäyttöalueet, kuten Ranska ja Euroopan unioni, luokittelevat Bitcoinin pikemminkin digitaaliseksi tai aineettomaksi omaisuudeksi kuin lailliseksi maksuvälineeksi. Tämä luokittelu edellyttää, että yritysten on käsiteltävä Bitcoinia eri tavalla kuin fiat-valuuttoja.
-- Varasto**: Jos yrityksen ydintoimintaan kuuluu Bitcoin-kauppaa, kuten kryptovaluuttapörsseissä tai -välittäjillä, Bitcoin luokitellaan varastoksi. Tällöin arvostuksessa noudatetaan varastokirjanpitostandardeja.
-- Taloudellinen investointi**: Yritykset, jotka pitävät Bitcoinia pitkäaikaisena omaisuutena, voivat luokitella sen finanssisijoitukseksi. Esimerkiksi Yhdysvalloissa yritykset voisivat käsitellä Bitcoinia kirjanpidossaan FASB:n (Financial Accounting Standards Board) ohjeiden mukaisesti ja kirjata arvonalentumisia, kun markkina-arvo laskee.
+- **Digitaalinen hyödyke tai aineeton hyödyke**: Monet lainkäyttöalueet, kuten Ranska ja Euroopan unioni, luokittelevat Bitcoinin pikemminkin digitaaliseksi tai aineettomaksi omaisuudeksi kuin lailliseksi maksuvälineeksi. Tämä luokittelu edellyttää, että yritysten on käsiteltävä Bitcoinia eri tavalla kuin fiat-valuuttoja.
+- **Varasto**: Jos yrityksen ydintoimintaan kuuluu Bitcoin-kauppaa, kuten kryptovaluuttapörsseissä tai -välittäjillä, Bitcoin luokitellaan varastoksi. Tällöin arvostuksessa noudatetaan varastokirjanpitostandardeja.
+- **Taloudellinen investointi**: Yritykset, jotka pitävät Bitcoinia pitkäaikaisena omaisuutena, voivat luokitella sen finanssisijoitukseksi. Esimerkiksi Yhdysvalloissa yritykset voisivat käsitellä Bitcoinia kirjanpidossaan FASB:n (Financial Accounting Standards Board) ohjeiden mukaisesti ja kirjata arvonalentumisia, kun markkina-arvo laskee.
 
 **Luokittelun seuraukset :**
 
@@ -1162,7 +1164,7 @@ Bitcoinin luokittelu tilinpäätöksessä vaihtelee lainkäyttöalueittain ja ri
 Arvonmääritysmenetelmät ovat kirjanpitotekniikoita, joita käytetään Bitcoinin hankintamenoperusteen määrittämiseen, mikä on olennaista, jotta voitot tai tappiot voidaan laskea tarkasti liiketoimien aikana. Yleisesti ottaen on parasta **ylläpitää kirjanpitojärjestelmässä aina päivitettyä arvoa Bitcoin-omistusten nykyisistä kustannuksista**. Näin varmistetaan läpinäkyvyys, verosäännösten noudattaminen ja estetään jäljessä jääminen, kun laskelmia on suoritettava.
 
 
-- First In, First Out (FIFO)**: Tämä menetelmä on yleinen Australian ja Intian kaltaisilla lainkäyttöalueilla, ja Bitcoinin arvo perustuu aikaisimpaan hankintamenoon. Tästä voi tulla melko **monimutkaista**, koska se voi vaatia jokaisen bitcoinin murto-osan jäljittämistä erikseen, kun myynti tapahtuu.
+- **First In, First Out (FIFO)**: Tämä menetelmä on yleinen Australian ja Intian kaltaisilla lainkäyttöalueilla, ja Bitcoinin arvo perustuu aikaisimpaan hankintamenoon. Tästä voi tulla melko **monimutkaista**, koska se voi vaatia jokaisen bitcoinin murto-osan jäljittämistä erikseen, kun myynti tapahtuu.
 - Painotettu keskikustannus (WAC)**: Yksinkertaisuutensa** vuoksi usein suositaan suurissa liiketoimissa, kuten Yhdysvaltojen kaltaisissa maissa.
 
 On erittäin suositeltavaa ylläpitää yksityiskohtaista työkirjaa, jossa seurataan Bitcoin-kustannuksia **siitä hetkestä lähtien, kun yritys alkaa ostaa Bitcoinia tai hyväksyä sitä maksuna**, jotta voidaan varmistaa tarkka ja järjestetty kirjanpito. Pelkästään tämän seikan pitäisi olla päällimmäisenä mielessä, kun valitaan ohjelmistoratkaisua Bitcoin-maksun hyväksymiseksi tai Bitcoinin ostamiseksi.
@@ -1181,11 +1183,11 @@ Yritysten on varmistettava, että niiden käyttämät **maksuvälineet** mahdoll
 ### Haasteet
 
 
-- Volatiliteetti**: Bitcoinin hinta vaihtelee merkittävästi, mikä aiheuttaa vaikeuksia omistusten arvostamisessa ja tulevien taloudellisten tulosten ennustamisessa.
-- Sääntelyn valvonta**: Kiinan kaltaisissa maissa Bitcoinin rajoitettu asema rajoittaa sen käyttöä valtionvaroina.
-- Sääntelyn epävarmuus** : Bitcoinin kehittyvä sääntely-ympäristö jättää yritykset usein epävarmuuteen. Esimerkiksi muutokset veropolitiikassa, kuten Intiassa tai Yhdysvalloissa, voivat vaikuttaa kirjanpitokäytäntöihin yhdessä yössä.
-- Väärinhallintariskit** : Vääränlainen luokittelu tai Bitcoin-tapahtumien valvonnan laiminlyönti voi johtaa sääntöjen noudattamiseen liittyviin ongelmiin, rangaistuksiin tai maineeseen liittyviin vahinkoihin.
-- Uudelleenkvalifiointiin liittyvät riskit**: Merkittävän osan yrityksen kassavaroista säilyttäminen Bitcoinissa altistaa yrityksen mahdollisille tappioille hinnanlaskun seurauksena. Tällä voi olla vakavia seurauksia, etenkin jos tällainen lasku tapahtuu silloin, kun maksut toimittajille, työntekijöille tai veroille ovat erääntyneet. Lisäksi yrityksen omistaja voi joutua vastuuseen, mikä voi johtaa sakkoihin tai muihin oikeudellisiin ongelmiin, kuten syytöksiin yrityksen varojen väärinkäytöstä.
+- **Volatiliteetti**: Bitcoinin hinta vaihtelee merkittävästi, mikä aiheuttaa vaikeuksia omistusten arvostamisessa ja tulevien taloudellisten tulosten ennustamisessa.
+- **Sääntelyn valvonta**: Kiinan kaltaisissa maissa Bitcoinin rajoitettu asema rajoittaa sen käyttöä valtionvaroina.
+- **Sääntelyn epävarmuus**: Bitcoinin kehittyvä sääntely-ympäristö jättää yritykset usein epävarmuuteen. Esimerkiksi muutokset veropolitiikassa, kuten Intiassa tai Yhdysvalloissa, voivat vaikuttaa kirjanpitokäytäntöihin yhdessä yössä.
+- **Väärinhallintariskit**: Vääränlainen luokittelu tai Bitcoin-tapahtumien valvonnan laiminlyönti voi johtaa sääntöjen noudattamiseen liittyviin ongelmiin, rangaistuksiin tai maineeseen liittyviin vahinkoihin.
+- **Uudelleenkvalifiointiin liittyvät riskit**: Merkittävän osan yrityksen kassavaroista säilyttäminen Bitcoinissa altistaa yrityksen mahdollisille tappioille hinnanlaskun seurauksena. Tällä voi olla vakavia seurauksia, etenkin jos tällainen lasku tapahtuu silloin, kun maksut toimittajille, työntekijöille tai veroille ovat erääntyneet. Lisäksi yrityksen omistaja voi joutua vastuuseen, mikä voi johtaa sakkoihin tai muihin oikeudellisiin ongelmiin, kuten syytöksiin yrityksen varojen väärinkäytöstä.
 
 ## Kirjanpitotyökalut ja -ohjelmistot
 
@@ -1201,7 +1203,7 @@ Kun yritys päättää integroida Bitcoinin kirjanpitoonsa, erilaiset työkalut 
 
 Ne ovat usein viisas lisä suurille organisaatioille, joilla on useita lompakoita ja varoja eri alustoilla tai pörsseissä.
 
-![BIZ101](assets/en/31.webp)
+![BIZ101](assets/fi/031.webp)
 
 Useimmille pienille yrityksille riittää kuitenkin usein pelkkä tapahtumahistorian sisältävä .csv-tiedosto. Tavoitteena on dokumentoida kunkin maksun päivämäärä, summa, vastaava arvo euroina/dollareina ja asianomaiset Bitcoin-osoitteet. Valtaosa Bitcoin-maksuratkaisuista (BTC Pay Server, Swiss Bitcoin Pay jne.) tai vaihtoalustoista (Bitfinex, Kraken, Coinbase jne.) tarjoaa jo mekanismin tapahtumahistorian viemiseksi. Antamalla tämä tiedosto kirjanpitäjälle on mahdollista virtaviivaistaa tietojen syöttämistä ja erottaa selkeästi Bitcoiniin liittyvät saapuvat ja lähtevät virrat.
 
@@ -1222,12 +1224,12 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 **Esimerkki**:
 
 
-- Bitcoin muuntokurssi**: 1 Bitcoin = 40 000 €.
-- Tapahtuma 1**: Asiakas ostaa useita leivonnaisia 20 eurolla.
+- **Bitcoin muuntokurssi**: 1 Bitcoin = 40 000 €.
+- **Tapahtuma 1**: Asiakas ostaa useita leivonnaisia 20 eurolla.
     - Bitcoin-ekvivalentti: (20 / 40 000) = 0,0005 Bitcoin = 50 000 Satoshia.
     - Muuntopalkkio: 1,5 % (20 € × 0,015) = 0,30 €.
     - Saatu netto: 20 € - 0,30 € = 19,70 €.
-- Tapahtuma 2**: Asiakas ostaa kahvia 5 eurolla.
+- **Tapahtuma 2**: Asiakas ostaa kahvia 5 eurolla.
     - Bitcoin-ekvivalentti: (5 / 40 000) = 0,000125 Bitcoin = 12 500 Satoshia.
     - Muuntopalkkio: 1,5 % (5 € × 0,015 €) = 0,075 €.
     - Saatu netto: 5 € - 0,075 € = 4,93 €.
@@ -1235,9 +1237,9 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 **Tapahtumien yhteenveto**:
 
 
-- Kokonaismyynti**: 25 euroa.
-- Maksut yhteensä**: 0,375 euroa.
-- Saadut nettoeurot**: 24 625 euroa.
+- **Kokonaismyynti**: 25 euroa.
+- **Maksut yhteensä**: 0,375 euroa.
+- **Saadut nettoeurot**: 24 625 euroa.
 
 **Kirjanpidolliset vaikutukset**:
 
@@ -1253,8 +1255,8 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 **Esimerkki**:
 
 
-- Bitcoin muuntokurssi**: 1 Bitcoin = 40 000 €.
-- Asiakastapahtuma**: Asiakas ostaa leivonnaisia 50 eurolla.
+- **Bitcoin muuntokurssi**: 1 Bitcoin = 40 000 €.
+- **Asiakastapahtuma**: Asiakas ostaa leivonnaisia 50 eurolla.
     - Bitcoin-ekvivalentti: (50 / 40 000) = 0,00125 Bitcoin = 125 000 Satoshia.
     - Muunnos (50 %): 25 euron arvoinen Bitcoin = 0,000625 Bitcoin = 62,500 Satoshis.
         - Muuntopalkkio: 1,5 % (25 € × 0,015) = 0,375 €.
@@ -1264,10 +1266,10 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 **Yhteenveto**:
 
 
-- Kokonaismyynti**: 50 euroa.
-- Maksut**: 0,375 euroa.
-- Saadut nettoeurot**: 24 625 euroa.
-- Bitcoin säilytetään**: 62 500 Satoshia.
+- **Kokonaismyynti**: 50 euroa.
+- **Maksut**: 0,375 euroa.
+- **Saadut nettoeurot**: 24 625 euroa.
+- **Bitcoin säilytetään**: 62 500 Satoshia.
 
 **Kirjanpidolliset vaikutukset**:
 
@@ -1284,10 +1286,10 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 **Esimerkki**:
 
 
-- Bitcoin muuntokurssi maksun yhteydessä**: 1 Bitcoin = 30 000 €.
-- Asiakastapahtuma**: Asiakas maksaa 3000 euron arvoisista palveluista.
+- **Bitcoin muuntokurssi maksun yhteydessä**: 1 Bitcoin = 30 000 €.
+- **Asiakastapahtuma**: Asiakas maksaa 3000 euron arvoisista palveluista.
     - Bitcoin-ekvivalentti: (3,000 / 30,000) = 0.1 Bitcoin = 10,000,000 Satoshis.
-- Vuoden lopun arvostus**:
+- **Vuoden lopun arvostus**:
     - Bitcoinin muuntokurssi vuoden lopussa: 1 Bitcoin = 35 000 euroa.
     - Bitcoin Holdingin arvostus: 0.1 Bitcoin × 35 000 € = 3 500 €.
     - Realisoitumaton voitto: 3 500 € - 3 000 € = 500 €.
@@ -1295,9 +1297,9 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 **Yhteenveto**:
 
 
-- Kirjatut tulot yhteensä**: 3 000 euroa.
-- Bitcoin Holding**: 0.1 Bitcoin, jonka arvo taseessa on 3 500 euroa.
-- Realisoitumaton voitto**: 500 euroa, joka on ilmoitettu liitetiedoissa, mutta ei ole realisoitunut tuotoksi.
+- **Kirjatut tulot yhteensä**: 3 000 euroa.
+- **Bitcoin Holding**: 0.1 Bitcoin, jonka arvo taseessa on 3 500 euroa.
+- **Realisoitumaton voitto**: 500 euroa, joka on ilmoitettu liitetiedoissa, mutta ei ole realisoitunut tuotoksi.
 
 **Kirjanpidolliset vaikutukset**:
 
@@ -1313,16 +1315,16 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 **Esimerkki**:
 
 
-- Bitcoin-ostot asiakkailta**:
+- **Bitcoin-ostot asiakkailta**:
     - Osto 1: 2 000 € hintaan 20 000 €/BTC = 0,1 Bitcoin = 10 000 000 Satoshia.
     - Osto 2: 3 000 € hintaan 25 000 €/BTC = 0,12 Bitcoin = 12 000 000 Satoshia.
     - Osto 3: 5000 € hintaan 30 000 €/BTC = 0,1667 Bitcoin = 16 670 000 Satoshia.
-    - Hallussa olevat Bitcoinit yhteensä**: 0.3867 Bitcoin = 38,670,000 Satoshis.
-- Vuoden lopun arvostus**:
+- **Hallussa olevat Bitcoinit yhteensä**: 0.3867 Bitcoin = 38,670,000 Satoshis.
+- **Vuoden lopun arvostus**:
     - Bitcoinin hinta vuoden lopussa: 40 000 €/BTC.
     - Kokonaisarvo: 0,3867 Bitcoin × 40 000 € = 15 468 €.
     - Realisoitumaton voitto: 15 468 € - 10 000 € (kokonaishinta) = 5 468 €.
-- Myynti 50 % Bitcoinista**:
+- Myynti 50 % **Bitcoinista**:
     - Bitcoin Myyty: 0.19335 Bitcoin.
     - Myyntitulot: 0.€ = 7 734 €.
     - Kustannusperuste (painotettu keskiarvo):
@@ -1334,9 +1336,9 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 **Yhteenveto**:
 
 
-- Bitcoin jäljellä**: 0.(40 000 €/BTC).
-- Realisoitu voitto**: 2 735 euroa sisältyy tuloslaskelmaan.
-- Realisoitumaton voitto**: 5 468 euroa, joka on esitetty liitetiedoissa (mukaan lukien jäljellä olevan Bitcoinin realisoitumaton arvo).
+- **Bitcoin jäljellä**: 0.(40 000 €/BTC).
+- **Realisoitu voitto**: 2 735 euroa sisältyy tuloslaskelmaan.
+- **Realisoitumaton voitto**: 5 468 euroa, joka on esitetty liitetiedoissa (mukaan lukien jäljellä olevan Bitcoinin realisoitumaton arvo).
 
 **Kirjanpidolliset vaikutukset**:
 
@@ -1367,6 +1369,5 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

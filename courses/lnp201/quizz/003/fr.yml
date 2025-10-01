@@ -5,5 +5,5 @@ wrong_answers:
   - Il peut envoyer n'importe quel montant, tant qu'il y a un accord préalable
   - Il peut emprunter des fonds du côté de l'autre participant si besoin
 explanation: |
-  Chaque participant est limité par le montant de satoshis qu'il détient dans le canal pour ses envois, ce qui garantit que les fonds sont toujours couverts.
-reviewed: false
+  Chaque participant est limité par le montant de satoshis qu'il détient de son côté du canal pour ses envois, ce qui garantit que les fonds sont toujours couverts.
+reviewed: true

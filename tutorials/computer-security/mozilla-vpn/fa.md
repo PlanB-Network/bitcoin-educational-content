@@ -1,5 +1,5 @@
 ---
-name: وی‌پی‌ان موزیلا
+name: Mozilla VPN
 description: از دستگاه‌ها و داده‌های مرور اینترنت خود محافظت کنید.
 ---
 ![cover](assets/cover.webp)

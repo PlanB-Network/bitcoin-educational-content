@@ -3,6 +3,7 @@ id: 3cd9cb94-82e8-417a-9c5a-02afc2589426
 topic: bitcoin
 
 subtopic: bitcoin
+type: practice
 
 level: intermediate
 
@@ -14,9 +15,7 @@ professors_id:
 contributor_names:
   - LoicPandul
 
-published_at: 2025-09-04
-
-test_only: true
+published_at: 2025-09-25
 
 tags:
   - DIY
@@ -34,3 +33,8 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 52.08

@@ -43,7 +43,7 @@ Graylog ist ein Analyse- und Überwachungstool, mit dem sich verdächtiges Verha
 
 
 
-**Hinweis: Die kostenlose Version, **Graylog Open**, ist kein SIEM wie Wazuh, zumal ihr echte Funktionen zur Erkennung von Eindringlingen fehlen.
+**Hinweis: Die kostenlose Version, Graylog Open, ist kein SIEM wie Wazuh, zumal ihr echte Funktionen zur Erkennung von Eindringlingen fehlen.**
 
 
 
@@ -57,9 +57,9 @@ Der **Stack Graylog** basiert auf **mehreren Komponenten**, die wir installieren
 
 
 
-- MongoDB 7**, die aktuell empfohlene Version für Graylog (mindestens 5.0.7, höchstens 7.x)
-- OpenSearch**, eine von Amazon entwickelte quelloffene Fork von Elasticsearch (mindestens 1.1.x, höchstens 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, die aktuell empfohlene Version für Graylog (mindestens 5.0.7, höchstens 7.x)
+- **OpenSearch**, eine von Amazon entwickelte quelloffene Fork von Elasticsearch (mindestens 1.1.x, höchstens 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Hinweis: **Die Installation von OpenSearch ist optional**, wenn Sie stattdessen **Graylog Data Node** verwenden.
+**Hinweis:** Die Installation von OpenSearch ist optional, wenn Sie stattdessen **Graylog Data Node** verwenden.
 
 
 
@@ -279,14 +279,14 @@ Diese OpenSearch-Konfiguration ist für die Einrichtung eines einzelnen Knotens 
 
 
 
-- cluster.name: graylog**: dieser Parameter benennt den OpenSearch-Cluster mit dem Namen "**graylog**".
-- node.name: ${HOSTNAME}**: Der Name des Knotens wird dynamisch auf den Namen des lokalen Linux-Rechners gesetzt. Auch wenn wir nur einen Knoten haben, ist es wichtig, ihn richtig zu benennen.
-- pfad.Daten: /var/lib/opensearch**: Dieser Pfad gibt an, wo OpenSearch seine Daten auf dem lokalen Rechner speichert, in diesem Fall in "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: Dieser Pfad definiert, wo OpenSearch-Protokolldateien gespeichert werden, hier in "**/var/log/opensearch**".
-- discovery.type: single-node**: Dieser Parameter konfiguriert OpenSearch so, dass es mit einem einzelnen Knoten arbeitet, daher die Wahl der Option "**single-node**".
-- network.host: 127.0.0.1**: Diese Konfiguration stellt sicher, dass OpenSearch nur auf seiner lokalen Interface-Schleife lauscht, was ausreichend ist, da es sich auf demselben Server wie Graylog befindet.
-- action.auto_create_index: false**: Wenn Sie die automatische Indexerstellung deaktivieren, erstellt OpenSearch nicht automatisch einen Index, wenn ein Dokument ohne bestehenden Index gesendet wird.
-- plugins.security.disabled: true**: Diese Option deaktiviert das OpenSearch-Sicherheits-Plugin, was bedeutet, dass es keine Authentifizierung, Zugangsverwaltung oder Kommunikationsverschlüsselung gibt. Diese Einstellung spart Zeit beim Einrichten von Graylog, sollte aber in der Produktion vermieden werden (siehe [diese Seite](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: dieser Parameter benennt den OpenSearch-Cluster mit dem Namen "**graylog**".
+- node.name: ${HOSTNAME}: Der Name des Knotens wird dynamisch auf den Namen des lokalen Linux-Rechners gesetzt. Auch wenn wir nur einen Knoten haben, ist es wichtig, ihn richtig zu benennen.
+- pfad.Daten: /var/lib/opensearch: Dieser Pfad gibt an, wo OpenSearch seine Daten auf dem lokalen Rechner speichert, in diesem Fall in "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: Dieser Pfad definiert, wo OpenSearch-Protokolldateien gespeichert werden, hier in "**/var/log/opensearch**".
+- discovery.type: single-node: Dieser Parameter konfiguriert OpenSearch so, dass es mit einem einzelnen Knoten arbeitet, daher die Wahl der Option "**single-node**".
+- network.host: 127.0.0.1: Diese Konfiguration stellt sicher, dass OpenSearch nur auf seiner lokalen Interface-Schleife lauscht, was ausreichend ist, da es sich auf demselben Server wie Graylog befindet.
+- **action.auto_create_index: false**: Wenn Sie die automatische Indexerstellung deaktivieren, erstellt OpenSearch nicht automatisch einen Index, wenn ein Dokument ohne bestehenden Index gesendet wird.
+- **plugins.security.disabled: true**: Diese Option deaktiviert das OpenSearch-Sicherheits-Plugin, was bedeutet, dass es keine Authentifizierung, Zugangsverwaltung oder Kommunikationsverschlüsselung gibt. Diese Einstellung spart Zeit beim Einrichten von Graylog, sollte aber in der Produktion vermieden werden (siehe [diese Seite](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -350,7 +350,7 @@ Schließen Sie diese Datei, nachdem Sie sie gespeichert haben.
 
 
 
-Darüber hinaus müssen wir die Konfiguration des Parameters "**max_map_count**" im Linux-Kernel überprüfen. Er definiert die Grenze der pro Prozess abgebildeten Speicherbereiche, um den Anforderungen unserer Anwendung gerecht zu werden. **OpenSearch** empfiehlt wie Elasticsearch**, diesen Wert auf "262144" zu setzen, um Fehler bei der Speicherverwaltung zu vermeiden.
+Darüber hinaus müssen wir die Konfiguration des Parameters "**max_map_count**" im Linux-Kernel überprüfen. Er definiert die Grenze der pro Prozess abgebildeten Speicherbereiche, um den Anforderungen unserer Anwendung gerecht zu werden. **OpenSearch** empfiehlt wie **Elasticsearch**, diesen Wert auf "262144" zu setzen, um Fehler bei der Speicherverwaltung zu vermeiden.
 
 
 
@@ -431,8 +431,8 @@ Beginnen wir damit, diese beiden Optionen zu konfigurieren:
 
 
 
-- password_secret**: Dieser Parameter wird verwendet, um einen Schlüssel zu definieren, der von Graylog verwendet wird, um die Speicherung von Benutzerpasswörtern zu sichern (im Sinne eines Salting Key). Dieser Schlüssel muss **einzigartig** und **zufällig** sein.
-- root_password_sha2**: Dieser Parameter entspricht dem Standard-Administrator-Passwort in Graylog. Es wird als Hash SHA-256 gespeichert.
+- **password_secret**: Dieser Parameter wird verwendet, um einen Schlüssel zu definieren, der von Graylog verwendet wird, um die Speicherung von Benutzerpasswörtern zu sichern (im Sinne eines Salting Key). Dieser Schlüssel muss **einzigartig** und **zufällig** sein.
+- **root_password_sha2**: Dieser Parameter entspricht dem Standard-Administrator-Passwort in Graylog. Es wird als Hash SHA-256 gespeichert.
 
 
 
@@ -566,7 +566,7 @@ Sie mussten dann eine erneute Verbindung mit dem Benutzer "**admin**" und dem vo
 
 
 
-**Dies ist nicht mehr der Fall. Sie müssen sich nur noch mit Ihrem Admin-Konto und dem in der Befehlszeile konfigurierten Passwort anmelden
+**Dies ist nicht mehr der Fall. Sie müssen sich nur noch mit Ihrem Admin-Konto und dem in der Befehlszeile konfigurierten Passwort anmelden.**
 
 
 
@@ -574,7 +574,7 @@ Sie mussten dann eine erneute Verbindung mit dem Benutzer "**admin**" und dem vo
 
 
 
-**Willkommen bei Graylogs Interface!
+**Willkommen bei Graylogs Interface!**
 
 
 
@@ -661,7 +661,7 @@ Der neue Eingang wurde erstellt und ist jetzt aktiv. Graylog kann jetzt Syslog-P
 ![Image](assets/fr/018.webp)
 
 
-**Hinweis: Ein einziger Input kann zum Speichern von Protokollen von mehreren Linux-Rechnern verwendet werden.
+**Hinweis: Ein einziger Input kann zum Speichern von Protokollen von mehreren Linux-Rechnern verwendet werden.**
 
 
 
@@ -701,7 +701,7 @@ Um einen neuen Stream zu erstellen, klicken Sie im Hauptmenü von Graylog auf "*
 
 
 
-**Hinweis: Nachrichten, die diesem Stream entsprechen, werden auch in den "**Standard-Stream**" aufgenommen, es sei denn, Sie aktivieren die Option "**Treffer aus 'Standard-Stream'** entfernen".
+**Hinweis: Nachrichten, die diesem Stream entsprechen, werden auch in den "Standard-Stream" aufgenommen, es sei denn, Sie aktivieren die Option "Treffer aus 'Standard-Stream' entfernen".**
 
 
 
@@ -935,7 +935,7 @@ Hier ist ein Überblick über das Ergebnis auf einem Rechner, auf dem ich mehrer
 
 
 
-Erfolglose Verbindungsversuche werden von dem Rechner mit der IP Address "**192.168.10.199**" unternommen. Wenn Sie mehr über die Aktivität dieses Rechners wissen wollen, können Sie nach dieser IP Address** suchen. Graylog wird alle Protokolle ausgeben, in denen auf diese IP Address verwiesen wird, und zwar auf allen Hosts (für die das Senden von Protokollen konfiguriert ist).
+Erfolglose Verbindungsversuche werden von dem Rechner mit der IP Address **192.168.10.199** unternommen. Wenn Sie mehr über die Aktivität dieses Rechners wissen wollen, können Sie nach dieser **IP Address** suchen. Graylog wird alle Protokolle ausgeben, in denen auf diese IP Address verwiesen wird, und zwar auf allen Hosts (für die das Senden von Protokollen konfiguriert ist).
 
 
 

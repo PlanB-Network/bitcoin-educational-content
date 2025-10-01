@@ -1,0 +1,9 @@
+question: Která distribuce je nejvhodnější pro Raspberry Pi, protože je obzvláště lehká?
+answer: RaspiBlitz
+wrong_answers:
+  - Deštník
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitz je optimalizován pro Raspberry Pi a zůstává lehký, na rozdíl od Umbrelu, který je pro tyto počítače příliš těžký.
+reviewed: true

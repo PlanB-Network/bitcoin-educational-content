@@ -24,19 +24,19 @@ Der Ninja SAFU-Ansatz bietet mehrere Vorteile:
 
 
 
-- Vertraulichkeit**: Sie kaufen kein Produkt, das für die Sicherung von Kryptowährungen bestimmt ist. Bei den Komponenten handelt es sich um Standardkomponenten (Unterlegscheiben, Schrauben, Metallgehäuse), die in Eisenwarengeschäften erhältlich sind, was das Risiko einer gezielten Ansprache im Falle eines Datenlecks durch einen spezialisierten Anbieter verringert.
+- **Vertraulichkeit**: Sie kaufen kein Produkt, das für die Sicherung von Kryptowährungen bestimmt ist. Bei den Komponenten handelt es sich um Standardkomponenten (Unterlegscheiben, Schrauben, Metallgehäuse), die in Eisenwarengeschäften erhältlich sind, was das Risiko einer gezielten Ansprache im Falle eines Datenlecks durch einen spezialisierten Anbieter verringert.
 
 
 
 
 
-- Erschwinglichkeit** : Diese Lösung kostet zwischen **15 und 140 EUR**, je nachdem, welche Werkzeuge Sie bereits besitzen.
+- **Erschwinglichkeit**: Diese Lösung kostet zwischen **15 und 140 EUR**, je nachdem, welche Werkzeuge Sie bereits besitzen.
 
 
 
 
 
-- Verlässlichkeit**: Die seit 2020 getestete Methode wurde von Sicherheitsexperten wie [Jameson Lopp] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) erprobt und strengen Belastungstests unterzogen (extreme Hitze, Korrosion, mechanischer Druck).
+- **Verlässlichkeit**: Die seit 2020 getestete Methode wurde von Sicherheitsexperten wie [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) erprobt und strengen Belastungstests unterzogen (extreme Hitze, Korrosion, mechanischer Druck).
 
 
 
@@ -59,17 +59,17 @@ Um ein Ninja SAFU-Backup zu erstellen, benötigen Sie die folgenden Komponenten,
 
 
 
-- Unterlegscheiben aus rostfreiem Stahl (M8 empfohlen)** :
- - Werkstoff**: Rostfreier Stahl (z. B. 304 oder V4A für erhöhte Korrosionsbeständigkeit)
-    - Größe**: M8 (Innendurchmesser 8 mm, Außendurchmesser ~24 mm). M6-Unterlegscheiben sind zu klein und schwer zu gravieren.
-    - Anzahl**: 12 oder 24 Unterlegscheiben für einen Standardsatz seed, plus optionale Unterlegscheiben (siehe Abschnitt 3.4) und etwa zehn für Tests oder Fehler.
+- **Unterlegscheiben aus rostfreiem Stahl (M8 empfohlen)**:
+- **Werkstoff**: Rostfreier Stahl (z. B. 304 oder V4A für erhöhte Korrosionsbeständigkeit)
+- **Größe**: M8 (Innendurchmesser 8 mm, Außendurchmesser ~24 mm). M6-Unterlegscheiben sind zu klein und schwer zu gravieren.
+- **Anzahl**: 12 oder 24 Unterlegscheiben für einen Standardsatz seed, plus optionale Unterlegscheiben (siehe Abschnitt 3.4) und etwa zehn für Tests oder Fehler.
 
 
 
 
 
-- Bolt und Mutter aus Edelstahl (M8)** :
- - Spezifikationen**: Bolt 2,5 bis 5 cm lang, je nach Anzahl und Dicke der Unterlegscheiben, Durchmesser 8 mm. Eine Flügelmutter erleichtert das werkzeuglose Öffnen, es kann aber auch eine einfache Mutter verwendet werden.
+- **Bolt und Mutter aus Edelstahl (M8)**:
+- **Spezifikationen**: Bolt 2,5 bis 5 cm lang, je nach Anzahl und Dicke der Unterlegscheiben, Durchmesser 8 mm. Eine Flügelmutter erleichtert das werkzeuglose Öffnen, es kann aber auch eine einfache Mutter verwendet werden.
 
 
 
@@ -79,8 +79,8 @@ Um ein Ninja SAFU-Backup zu erstellen, benötigen Sie die folgenden Komponenten,
 
 
 
-- Buchstaben- und Ziffernlocher-Satz (3 mm oder 6 mm)** :
-    - Spezifikationen**: 6 mm hohe Buchstaben erleichtern die Lesbarkeit und sind vorzuziehen, wenn ein Teil des Schriftzugs beschädigt ist. Wählen Sie ein robustes Set für den wiederholten Gebrauch.
+- **Buchstaben- und Ziffernlocher-Satz (3 mm oder 6 mm)**:
+- **Spezifikationen**: 6 mm hohe Buchstaben erleichtern die Lesbarkeit und sind vorzuziehen, wenn ein Teil des Schriftzugs beschädigt ist. Wählen Sie ein robustes Set für den wiederholten Gebrauch.
 
 
 
@@ -90,14 +90,14 @@ Um ein Ninja SAFU-Backup zu erstellen, benötigen Sie die folgenden Komponenten,
 
 
 
-- Hammer oder Vorschlaghammer** :
+- **Hammer oder Vorschlaghammer**:
     - Ein Vorschlaghammer ist vorzuziehen, um eine ausreichende und präzise Stempelkraft zu erzielen
 
 
 
 
 
-- Amboss oder stabiler Untergrund** :
+- **Amboss oder stabiler Untergrund**:
  - Eine dicke Hard-Oberfläche (z. B. ein 1 kg schwerer Amboss oder ein 10 cm hoher Pflasterstein), um Stöße zu absorbieren.
 
 
@@ -112,7 +112,7 @@ Wenn Sie nicht in einen Stempelsatz investieren wollen, können Sie Ihre Unterle
 
 
 
-- Stanzvorrichtung**: Hält die Unterlegscheibe und führt den Stempel, was ein präzises, sauberes Stempeln, eine bessere Ausrichtung und gleichmäßige Abstände der Buchstaben ermöglicht
+- **Stanzvorrichtung**: Hält die Unterlegscheibe und führt den Stempel, was ein präzises, sauberes Stempeln, eine bessere Ausrichtung und gleichmäßige Abstände der Buchstaben ermöglicht
 
 
 
@@ -122,7 +122,7 @@ Wenn Sie nicht in einen Stempelsatz investieren wollen, können Sie Ihre Unterle
 
 
 
-- Siegelgeräte**: Versiegelter Beutel oder Siegelstreifen
+- **Siegelgeräte**: Versiegelter Beutel oder Siegelstreifen
 
 
 
@@ -132,7 +132,7 @@ Wenn Sie nicht in einen Stempelsatz investieren wollen, können Sie Ihre Unterle
 
 
 
-- Hermetisch verschlossener Behälter**: Zur Aufbewahrung des Unterlegscheibenblocks
+- **Hermetisch verschlossener Behälter**: Zur Aufbewahrung des Unterlegscheibenblocks
 
 
 
@@ -145,8 +145,8 @@ Wenn Sie nicht in einen Stempelsatz investieren wollen, können Sie Ihre Unterle
 
 
 
-- Handschuhe** und **Schutzbrille** empfohlen.
-- Rohrzange**, in die der Stempel geschoben wird, so dass man den Stempel mit der Rohrzange und nicht mit den Fingern festhält.
+- **Handschuhe** und **Schutzbrille** empfohlen.
+- **Rohrzange**, in die der Stempel geschoben wird, so dass man den Stempel mit der Rohrzange und nicht mit den Fingern festhält.
 
 
 
@@ -156,13 +156,13 @@ Wenn Sie nicht in einen Stempelsatz investieren wollen, können Sie Ihre Unterle
 
 
 
-- Menge für eine 24-Wort-Sicherung**: 24 Unterlegscheiben (Minimum), 1 Bolt, 1 Flügelmutter, 1 Satz Stanzen, 1 Hammer/Massage, 1 Amboss/Stütze.
+- **Menge für eine 24-Wort-Sicherung**: 24 Unterlegscheiben (Minimum), 1 Bolt, 1 Flügelmutter, 1 Satz Stanzen, 1 Hammer/Massage, 1 Amboss/Stütze.
 
 
 
 
 
-- Gesamtkosten** :
+- **Gesamtkosten**:
  - Unterlegscheiben und Schrauben/Muttern: ~ 15 EUR
  - Locherset: ~ 45 EUR
  - Schutzhülle: ~ 55 EUR
@@ -254,7 +254,7 @@ Wenn Sie nicht in einen Stempelsatz investieren wollen, können Sie Ihre Unterle
 
 
     - Versuchen Sie, Ihr Portfolio aus dem neuen Backup wiederherzustellen
-- Versiegeln der Sicherung** (optional und empfohlen) :
+- **Versiegeln der Sicherung** (optional und empfohlen):
  - In Siegelstreifen oder in versiegelten Beuteln.
  - Wenn Sie einen Beutel verwenden, notieren Sie sich dessen eindeutige Identifikationsnummer, damit Sie überprüfen können, ob es sich um den richtigen Beutel handelt und nicht um eine Attrappe, die das Original ersetzt.
 
@@ -269,7 +269,7 @@ Wenn Sie nicht in einen Stempelsatz investieren wollen, können Sie Ihre Unterle
 
 
 
-Bewahren Sie Ihre Sicherungskopie an einem **unauffälligen Ort** auf, der für regelmäßige Überprüfungen nicht zugänglich ist. Wählen Sie einen feuerfesten und wasserdichten Aufbewahrungsort**, zu Hause oder an einem Ort unter Ihrer **ausschließlichen Kontrolle**.
+Bewahren Sie Ihre Sicherungskopie an einem **unauffälligen Ort** auf, der für regelmäßige Überprüfungen nicht zugänglich ist. Wählen Sie einen **feuerfesten und wasserdichten Aufbewahrungsort**, zu Hause oder an einem Ort unter Ihrer **ausschließlichen Kontrolle**.
 
 
 
@@ -313,7 +313,7 @@ Auch wenn Ihre Datensicherung gut aufbewahrt wird, muss sie regelmäßig **über
 
 
 
-*STAY SAFU !
+**STAY SAFU !**
 
 
 ![image](assets/fr/08.webp)
@@ -379,21 +379,21 @@ Laut Jameson Lopp:
 
 
 
-- Unterlegscheiben** für
+- **Unterlegscheiben** für
  - [Titan] (https://pleb.style/fr-fr/products/disques-de-seed-supplementaires-titan-Wallet)
-- Unterlegscheiben + Mutter + Schutzhülle** (für Unterlegscheiben)
+- Unterlegscheiben + Mutter + **Schutzhülle** (für Unterlegscheiben)
  - [Titan] (https://pleb.style/fr-fr/products/titan-Wallet-premium-acier-steel-Wallet-backup?variant=50022696419664)
  - [TerraSteel](https://pleb.style/fr-fr/products/terrasteel-Wallet-plebstyle-acier-backup)
 - Locherset
  - [PlebStyle](https://pleb.style/fr/products/schlagstempelset-a-z-0-9-3mm)
-- Grundlage der Typisierung**
+- **Grundlage der Typisierung**
  - [PlebStyle](https://pleb.style/fr/products/schlagunterlage-10cm-x-10cm-x-1-5cm)
-- Anzapfvorrichtung** (Führung)
+- **Anzapfvorrichtung** (Führung)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Dichtungsvorrichtung
  - [Versiegelter Beutel](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Dichtungsstreifen](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
-- Vollständiger** Bausatz
+- **Vollständiger** Bausatz
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)
 

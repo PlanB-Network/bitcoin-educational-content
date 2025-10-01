@@ -51,7 +51,7 @@ Amabwirizwa arimwo yanditswe mu rurimi rwa porogarama rwa JavaScript.
 Igihe co gukoresha JavaScript ni porogarama idasanzwe ikora izo dosiye.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### Gushiramwo NodeJS
@@ -72,7 +72,7 @@ Kubera ko NodeJS iboneka kuri OS zose zitatu, porogarama wanditse zizoshobora gu
 Ivyo bisigura ko ushobora nk’akarorero kwandika urukino rworoshe rwo muri JavaScript kuri PC yawe ya Windows ukarurungikira umugenzi wawe kugira ngo arukoreshe kuri Mac yiwe.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 ### Guhindura umwandiko
@@ -687,7 +687,7 @@ Ushobora gufatanya booleans ukoresheje abakozi b'ubwenge:
 - `!` bisigura “oya”, bikoreshwa imbere y'ibara, kandi rizorihindura: iyo ibara ari `ukuri` rizogarura `ikinyoma`, n'ibihushanye n'ivyo.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Ingero:
@@ -737,9 +737,9 @@ Muri iki gice, turaza kubona ubundi bwoko butatu busanzwe muri porogarama za Jav
 
 
 
-- Imirongo**: urutonde rw'agaciro
-- undefined**: agaciro kadasanzwe gasobanura “nta kintu na kimwe cahawe”
-- null**: akandi gaciro kadasanzwe gasobanura “ubusa n’ibigirankana”
+- **Imirongo**: urutonde rw'agaciro
+- **undefined**: agaciro kadasanzwe gasobanura "nta kintu na kimwe cahawe"
+- **null**: akandi gaciro kadasanzwe gasobanura "ubusa n'ibigirankana"
 
 
 ### Ububiko n'urutonde
@@ -2302,7 +2302,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Igitigiri ca `Imodoka` ubu **kirara** vyose biva ku `Imodoka`. Ironka umutungo wa `brand`, kandi twasubirije uburyo bwa `start()` na verisiyo yacu bwite.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Reka tubigerageze:
@@ -2356,7 +2356,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -3250,7 +3250,7 @@ Rero naho bimeze nk’aho turiko turashiraho umuhinduzi woroshe, mu vy’ukuri t
 <chapterId>01a397b8-c12a-5c39-82b3-6d9ebbb72a29</chapterId>
 
 
-Igikoresho cose kiri mu kintu ca JavaScript gifise **urufunguzo** (naco citwa izina ry'igikoresho) n'agaciro**.
+Igikoresho cose kiri mu kintu ca JavaScript gifise **urufunguzo** (naco citwa izina ry'igikoresho) n'**agaciro**.
 
 
 Nk'akarorero:
@@ -3609,7 +3609,7 @@ JavaScript iduha ubwoko bumwe bumwe bw’amakoraniro budasanzwe burenze amabara 
 Bigufasha kubika no gucunga imigwi y’agaciro, ariko bikora mu buryo butandukanye n’ivyo wabonye gushika ubu.
 
 
-`Ikarita` ni ihuriro ry'ibice bibiri vy'agaciro k'urufunguzo**, nk'ikintu. Ariko rero, hariho ibintu bihambaye bitandukanye:
+`Ikarita` ni ihuriro ry'ibice bibiri vy'agaciro k'urufunguzo, nk'ikintu. Ariko rero, hariho ibintu bihambaye bitandukanye:
 
 
 
@@ -3697,7 +3697,7 @@ Ikarata ni nziza cane mu gucunga amakoraniro manini y'agaciro, kuko gushika ku g
 ### 'Gushiraho`
 
 
-`Itsinda` ni ihuriro ry'agaciro gusa** (nta mfunguruzo), aho agaciro kose gategerezwa kuba **kadasanzwe**. Ivyo bisigura:
+`Itsinda` ni ihuriro ry'agaciro gusa (nta mfunguruzo), aho agaciro kose gategerezwa kuba **kadasanzwe**. Ivyo bisigura:
 
 
 
@@ -5235,7 +5235,7 @@ JavaScript ni ururimi rusobanuwe, bitandukanye n'indimi zikoranijwe nka C.
 Kode yanditswe mu rurimi rwakoranijwe irahinduka binaire, maze binaire igaca igaburirwa ataco ihinduye kuri CPU ya mudasobwa.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Ku rundi ruhande, indimi zisobanurwa zikunda gukoreshwa neza, kandi zikaba ziri hafi y'ingene abantu biyumvira ("urugero rwo hejuru") aho kwegera ingene imashini zikora ("urugero ruto"); rero akenshi bafise imashini y’ivy’impwemu yubatswe kugira ngo ikoreshe kode yabo.
@@ -5268,7 +5268,7 @@ Ni kubera iki ivyo ari ingorane?
 Erega, kubera ko ama browser akora code yavanywe mu ma miliyoni y'ibibanza bitandukanye kuri internet, arashobora gutera mu buryo bworoshe porogarama mbi, bigatuma "ashirwa mu gasandugu k'umunyota" avuye mu bindi bikoresho vyose.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript ntiyashobora gushika ku nzira y’amadosiye n’ibindi bikoresho vyo mu karere kuri mudasobwa yawe (n’imiburiburi ntivyari vyoroshe nk’uko izindi ndimi zashobora), rero ivyo vyari bifise uburenganzira bukomeye ku bwoko bw’ibikorwa woshobora kwubaka na yo.
@@ -5277,7 +5277,7 @@ JavaScript ntiyashobora gushika ku nzira y’amadosiye n’ibindi bikoresho vyo 
 Mu mwaka w’2009, Ryan Dahl yarasohoye NodeJS, ariyo runtime ishobora kugufasha gukoresha moteri ya V8 hanze y’umucukumbuzi, ataco uhinduye kuri system operating kavukire ya mudasobwa yawe. Yongerako kandi ibintu vyinshi bifasha mu kwandika porogarama ziri ku ruhande rwa server n’iziri ku murongo w’amabwirizwa. Nk’akarorero, urashobora gukoresha NodeJS kugira ngo ureme urubuga, usome kandi wandike amadosiye, canke wubake ibikoresho bikora ibikorwa vy’ubuhinga.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Muri iki cigwa gushika ubu, twasuzumye ibiranga JavaScript biri muri browser no muri NodeJS. Ivyo bintu vyatuma dushobora gusobanura amakuru no kuyakoresha mu buryo butaboneka. Mu vyigwa bikurikira, tuzoca irya n’ino ibintu vyihariye kuri NodeJS kandi bikaduha uburenganzira bwo gukorana na sisitemu ikoresha.
@@ -6438,10 +6438,10 @@ NodeJS ifise ubwoko bune bw'imigende:
 
 
 
-- Ishobora gusomwa**: imigende ushobora gusoma amakuru (nk'ugusoma dosiye)
-- Writable**: imigende ushobora kwandikako amakuru (nk'ukwandika muri dosiye)
-- Duplex**: imigende ishobora gusomwa no kwandikwa
-- Guhindura**: nk'imigezi ibiri, ariko ishobora guhindura (guhindura) amakuru uko agenda
+- **Ishobora gusomwa**: imigende ushobora gusoma amakuru (nk'ugusoma dosiye)
+- **Writable**: imigende ushobora kwandikako amakuru (nk'ukwandika muri dosiye)
+- **Duplex**: imigende ishobora gusomwa no kwandikwa
+- **Guhindura**: nk'imigezi ibiri, ariko ishobora guhindura (guhindura) amakuru uko agenda
 
 
 ### Imigezi isomwa

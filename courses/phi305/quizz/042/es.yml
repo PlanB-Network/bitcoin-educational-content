@@ -1,0 +1,9 @@
+question: Quién escribió "Nada ocurre en la naturaleza que pueda atribuirse a una
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Fue Spinoza quien escribió: "Nada ocurre en la naturaleza que pueda atribuirse a un vicio existente en ella". Esta frase expresa la idea de que la naturaleza es perfecta en su género, y que los defectos son meros juicios humanos.
+reviewed: false

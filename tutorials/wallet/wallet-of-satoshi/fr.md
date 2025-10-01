@@ -78,8 +78,8 @@ Wallet of Satoshi a envoyé un message à la boîte aux lettres électronique in
 Dans la boîte aux lettres, nous trouverons deux mots, que nous devrons saisir, en les réécrivant, dans l'espace fourni par l'application.
 
 
-- ne pas activer le traducteur : les mots sont et doivent rester en anglais**
-- réécrire les deux mots en respectant les majuscules et les minuscules**
+- ne pas activer le traducteur : les mots sont et doivent rester en anglais
+- réécrire les deux mots en respectant les majuscules et les minuscules
 
 
 ![image](assets/it/10.webp)

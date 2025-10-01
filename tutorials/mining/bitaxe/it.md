@@ -1,5 +1,5 @@
 ---
-name: Configurazione di un BitAxe
+name: Bitaxe
 description: Come configurare un BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)

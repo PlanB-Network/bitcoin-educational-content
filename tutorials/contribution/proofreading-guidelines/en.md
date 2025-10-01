@@ -168,23 +168,48 @@ Did you know you can also proofread the quiz questions in every course? For exam
 
 Once again, make sure you are in a dedicated branch that you open specifically for this purpose, and always inform the coordinator.
 
-After reviewing the question, make sure you change the "reviewed" status from "false" to "true," as shown in the image below.
-
+An important thing to keep in mind when proofreading this type of _yml_ file is to avoid adding colons ``:`` inside the text. In fact, the colon is **only** used to separate key-value pairs like "wrong_answers" to the rest. You can see an example in the image below:
 
 ![REVIEW](assets/en/12.webp)
+
+After reviewing the question, make sure you change the "reviewed" status from "false" to "true," as shown in the image below. Make sure to keep these status words in English, no matter what language you are working on!
+
+
+![REVIEW](assets/en/13.webp)
+
+If the status line "reviewed:true" is missing, make sure to **add it at the end of the quiz**.
 
 ## Glossary proofreading
 
 Just like the quizzes, you can also proofread the glossary. The original glossary was written in French, so you will find sentences like: "In French, this expression can be translated into..."
 
-In cases like this, please adapt this sentence to your target language, or to English.
+In cases like this, please adapt the sentence to your target language or to English. For example, you might write "In English, this expression...".
+If the title is left in English, you can adapt the sentence to your language: "In Swahili, this expression..."
+
+Additionally, make sure to write titles in CAPITAL LETTERS.
+
+![REVIEW](assets/en/14.webp)
+
+## The title and description of your PR
+
+When you send your PR, it would be amazing if you named it using this format: [PROOFREADING] CONTENT NAME - LANGUAGE:
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+Besides, in the **comment section of the PR**, you can write "closes" + the number of the issue that the coordinator sent you when you started the proofreading task, preceded by ``#``.
+For example, if you just sent a PR with the proofreading of cyp201 + quizzes, you can write "closes [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)". 
+
+This way, the PR and the issue will be connected, and whoever reads the public Github repository can easily find information.
+
 
 ## Other best practices
 
 - If you need to search for specific words inside the text, you can click on ``CTRL+F`` and the find-replace section will appear. This part is very useful when you need to jump to a specific part of the text, or you need to replace specific words/sentences in batch, without scrolling the full content.
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 When using the "replace all" function, it's important to double-check the results to ensure that links haven't been altered as well. For instance, if you want to change the word "Bitcoin" to "Bitkoin" (which may be necessary in some languages), using the "replace all" function can efficiently update all instances in the text. However, be aware that this tool will also modify any links containing that word, potentially leading to redirection issues.
@@ -194,18 +219,30 @@ In the example below, the proofreader used the above function to replace "satosh
 Always double check all the hyperlinks in the text, to make sure they are correct.
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
-- Following on the topic, if the author inserts a link referring to a Plan ₿ Network course or tutorial (**not** inside parenthesis), the website will automatically create a "card" showing the related thumbnail. As a consequence, always make sure that you **have a space between the text and the link itself**, otherwise you might see the following error on the website.
+- Following on the topic, if the author inserts a link referring to a Plan ₿ Network course or tutorial (**not** inside parenthesis), the website will automatically create a "card" showing the related thumbnail. As a consequence, always make sure that you **add a new line between the text and the link itself**, otherwise you might see the following error on the website.
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
+The same happens with "image codes" like this one ``[IMAGE](asset/fr/001.webp)``:  make sure you always add a new line between the image code and the text. An example below:
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Finally, another best practice to apply when you finish your proofreading task and send the PR is go back to the original issue opened by the coordinator, and comment with "Proofreading done". **Make sure to also insert your PR link there as well**.
+  
+RIGHT CONFIGURATION:
 
+- to start translating, click on the button `Translate`: 
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 ## Conclusion
 
@@ -213,5 +250,6 @@ To sum up, being aware of the common proofreaders' mistakes can really help you 
 
 Always keep in mind that a beginner may read these courses and tutorials, so it's our responsibility to ensure that they understand fully. As a proofreader, you are an educator!
 
-Thank you for reading through this tutorial, and enjoy your proofreading journey!
+Now you are ready to start proofreading courses, tutorials, quizzes, and glossary words. Stay tuned to also start checking images and video transcripts ;)
 
+Thank you for reading through this tutorial, and enjoy your proofreading journey!

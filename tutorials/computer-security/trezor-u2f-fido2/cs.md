@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F a FIDO2
+name: "Trezor U2F & FIDO2"
 description: Posilte své online zabezpečení pomocí aplikace Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Kromě U2F, které umožňuje dvoufaktorové ověřování, podporují Trezory t
 
 
 
-Kromě funkce "bez hesla*" umožňuje FIDO2 také dvoufaktorové ověřování podobně jako U2F.
+Kromě funkce "bez hesla" umožňuje FIDO2 také dvoufaktorové ověřování podobně jako U2F.
 
 
 

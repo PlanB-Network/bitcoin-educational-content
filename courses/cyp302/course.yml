@@ -1,6 +1,7 @@
 id: d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 topic: security
 subtopic: cryptography
+type: theory
 level: advanced
 hours: 16
 
@@ -81,17 +82,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 134.43
+    reward: 134.12
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 201.59
+    reward: 201.13
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 168.01
+    reward: 167.62
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -106,17 +107,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 134.43
+    reward: 134.12
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 134.43
+    reward: 134.12
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 168.01
+    reward: 167.62
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -126,12 +127,27 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 100.85
+    reward: 100.61
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 134.43
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 167.62
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 134.12
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 201.13
 tags:
   - deep-dive
   - historical

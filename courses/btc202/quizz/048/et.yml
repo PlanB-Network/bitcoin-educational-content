@@ -1,0 +1,9 @@
+question: Milline käsk hangib teie Umbreli kohaliku IP Address, kui juurdepääs umbrel.local kaudu ebaõnnestub?
+answer: hostname -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  Tuvastamisprobleemide korral võite kasutada käsku hostname -I, et Umbreli masina kohalik IP aadress välja selgitada.
+reviewed: true

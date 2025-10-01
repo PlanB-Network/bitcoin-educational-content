@@ -1,0 +1,9 @@
+question: Quem foi o último responsável pela manutenção principal do Bitcoin core antes de esta função ser abolida em 2023?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan ocupou este cargo de 2014 a 2023, sucedendo a Gavin Andresen e precedendo a descontinuação do cargo.
+reviewed: true

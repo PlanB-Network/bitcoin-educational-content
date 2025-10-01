@@ -1,0 +1,9 @@
+question: Umbrel'de mevcut olan iki Lightning Network uygulaması nelerdir?
+answer: LND ve Core Lightning
+wrong_answers:
+  - Elektronlar ve Dayanak
+  - Bitcoin core ve Bitcoin Knots
+  - Ride The Lightning ve ThunderHub
+explanation: |
+  Umbrel, Lightning Network'ün uygulamaları olarak LND ve Core Lightning arasında seçim yapmanızı sağlar.
+reviewed: true

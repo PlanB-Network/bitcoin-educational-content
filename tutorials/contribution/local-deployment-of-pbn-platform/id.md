@@ -36,7 +36,7 @@ git clone https://github.com/PlanB-Network/bitcoin-learning-management-system
 cd bitcoin-learning-management-system
 ```
 
-**3. Mengatur Variabel Lingkungan***
+**3. Mengatur Variabel Lingkungan**
 
 1\. Gandakan file `.env.example`:
 

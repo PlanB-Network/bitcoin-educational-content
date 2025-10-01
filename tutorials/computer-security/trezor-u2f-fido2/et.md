@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Tugevdage oma veebiturvalisust Trezoriga
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Lisaks U2F-le, mis võimaldab kahefaktorilist autentimist, toetavad Trezorid ka 
 
 
 
-Lisaks "paroolita*" funktsioonile võimaldab FIDO2 ka kahefaktorilist autentimist sarnaselt U2F-iga.
+Lisaks **paroolita** funktsioonile võimaldab FIDO2 ka kahefaktorilist autentimist sarnaselt U2F-iga.
 
 
 

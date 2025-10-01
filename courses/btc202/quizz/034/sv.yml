@@ -1,0 +1,9 @@
+question: Vad är den största skillnaden mellan en rå implementation och en "node-in-a-box"?
+answer: Förekomsten av en Interface och integrerade applikationer
+wrong_answers:
+  - Nätverkskompatibilitet
+  - Blockchain-storlek lagrad på diskett
+  - Det protokoll och den valuta som används
+explanation: |
+  En rå implementering installerar endast nodprogramvaran, medan en nod i en låda lägger till en Interface, en App Store och integrerade tjänster.
+reviewed: true

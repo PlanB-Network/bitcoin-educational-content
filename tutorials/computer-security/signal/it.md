@@ -1,5 +1,5 @@
 ---
-name: Segnale
+name: Signal
 description: Esprimetevi liberamente
 ---
 ![cover](assets/cover.webp)

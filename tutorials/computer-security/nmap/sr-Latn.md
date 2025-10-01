@@ -61,9 +61,9 @@ Snage Nmap-a su mnoge:
 
 
 
-- Snažan i fleksibilan**: Nmap može skenirati velike mreže i koristiti napredne tehnike detekcije. Podržava UDP, TCP, ICMP, IPv4 i IPv6, i može izvršavati detekciju verzija, skeniranje ranjivosti ili interakcije specifične za protokole. Njegova arhitektura je modularna, zahvaljujući posebno NSE (Nmap Scripting Engine) skriptama, koje ćemo kasnije razmotriti u ovom vodiču.
-- Jednostavnost korišćenja**: zvanična dokumentacija je obilna i najvišeg kvaliteta. Dostupni su i brojni resursi zajednice koji će vam pomoći da počnete.
-- Popularnost i dugovečnost**: Nmap je referenca u svojoj oblasti od 1998. godine. Trenutna verzija, u vreme ovog ažuriranja, je 7.95. Iako postoje drugi alati za specifične zadatke, Nmap ostaje neophodan za mapiranje i analizu mreža.
+- **Snažan i fleksibilan**: Nmap može skenirati velike mreže i koristiti napredne tehnike detekcije. Podržava UDP, TCP, ICMP, IPv4 i IPv6, i može izvršavati detekciju verzija, skeniranje ranjivosti ili interakcije specifične za protokole. Njegova arhitektura je modularna, zahvaljujući posebno NSE (Nmap Scripting Engine) skriptama, koje ćemo kasnije razmotriti u ovom vodiču.
+- **Jednostavnost korišćenja**: zvanična dokumentacija je obilna i najvišeg kvaliteta. Dostupni su i brojni resursi zajednice koji će vam pomoći da počnete.
+- **Popularnost i dugovečnost**: Nmap je referenca u svojoj oblasti od 1998. godine. Trenutna verzija, u vreme ovog ažuriranja, je 7.95. Iako postoje drugi alati za specifične zadatke, Nmap ostaje neophodan za mapiranje i analizu mreža.
 
 
 
@@ -87,7 +87,7 @@ On se takođe pojavljuje u drugim kinematografskim delima.
 
 
 
-**Povratne informacije
+**Povratne informacije**
 
 
 
@@ -485,25 +485,25 @@ Bilo na Linuxu ili Windowsu, postoji mnogo slučajeva kada će Nmap tražiti pri
 
 
 
-- Kreiranje "sirovih" mrežnih paketa**: Nmap je sposoban za širok spektar metoda skeniranja, uključujući naprednu manipulaciju i kreiranje paketa. Ovo je slučaj, na primer, kada želimo da izvršimo TCP SYN skeniranja, koja ne poštuju klasični _Three-way handshake_ TCP razmene. Da bi to uradio, Nmap mora koristiti funkcije koje nisu nativne za operativne sisteme, koji znaju samo kako da poštuju dobre prakse u mrežnim komunikacijama (poziva se na biblioteke "Npcap" i "libcap" koje su gore pomenute). Zbog toga što Nmap ne radi stvari na "standardni" način, u stanju je da zaključi određene informacije o operativnim sistemima, servisima i određenim ranjivostima.
+- Kreiranje "sirovih" mrežnih paketa: Nmap je sposoban za širok spektar metoda skeniranja, uključujući naprednu manipulaciju i kreiranje paketa. Ovo je slučaj, na primer, kada želimo da izvršimo TCP SYN skeniranja, koja ne poštuju klasični _Three-way handshake_ TCP razmene. Da bi to uradio, Nmap mora koristiti funkcije koje nisu nativne za operativne sisteme, koji znaju samo kako da poštuju dobre prakse u mrežnim komunikacijama (poziva se na biblioteke "Npcap" i "libcap" koje su gore pomenute). Zbog toga što Nmap ne radi stvari na "standardni" način, u stanju je da zaključi određene informacije o operativnim sistemima, servisima i određenim ranjivostima.
 
 
 
 
 
-- Slušajte mrežni saobraćaj**: neke od Nmap opcija zahtevaju da sluša mrežu kako bi dobio određene informacije. Ova akcija se smatra osetljivom na operativnim sistemima, jer takođe omogućava slušanje komunikacija drugih aplikacija na sistemu. Baš kao i Wireshark, Nmap zahteva specifične privilegije za ovo, koje je lakše dobiti direktnim pristupom privilegovanoj sesiji.
+- Slušajte mrežni saobraćaj: neke od Nmap opcija zahtevaju da sluša mrežu kako bi dobio određene informacije. Ova akcija se smatra osetljivom na operativnim sistemima, jer takođe omogućava slušanje komunikacija drugih aplikacija na sistemu. Baš kao i Wireshark, Nmap zahteva specifične privilegije za ovo, koje je lakše dobiti direktnim pristupom privilegovanoj sesiji.
 
 
 
 
 
-- Slušanje na privilegovanim portovima**: na operativnim sistemima, portovi od 0 do 1024 (TCP kao i UDP) se smatraju privilegovanim, tj. oni su na neki način rezervisani za vrlo specifične upotrebe i stoga zaštićeni. Iako je ovo donekle zastareo razlog danas, i dalje je potrebno imati određene privilegije za slušanje na ovim portovima, što Nmap možda mora da uradi u zavisnosti od toga kako će se koristiti.
+- **Slušanje na privilegovanim portovima**: na operativnim sistemima, portovi od 0 do 1024 (TCP kao i UDP) se smatraju privilegovanim, tj. oni su na neki način rezervisani za vrlo specifične upotrebe i stoga zaštićeni. Iako je ovo donekle zastareo razlog danas, i dalje je potrebno imati određene privilegije za slušanje na ovim portovima, što Nmap možda mora da uradi u zavisnosti od toga kako će se koristiti.
 
 
 
 
 
-- Slanje UDP paketa:** Slično tome, slušanje mrežne aplikacije na UDP portovima (protokol bez stanja) zahteva privilegovana prava na operativnim sistemima. Privilegovana sesija će stoga biti potrebna ako želite da izvršite UDP skeniranje, za koje će Nmap morati da sluša odgovor kako bi analizirao odgovore na svoja skeniranja.
+- **Slanje UDP paketa:** Slično tome, slušanje mrežne aplikacije na UDP portovima (protokol bez stanja) zahteva privilegovana prava na operativnim sistemima. Privilegovana sesija će stoga biti potrebna ako želite da izvršite UDP skeniranje, za koje će Nmap morati da sluša odgovor kako bi analizirao odgovore na svoja skeniranja.
 
 
 
@@ -562,13 +562,13 @@ Od sada, zapamtite da skenirate samo hostove u kontrolisanom okruženju za koje 
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Platforma za obuku hakovanja, Hack The Box konstantno pruža ranjive sisteme koje možete napadati kako vam odgovara. Dostupno je nekoliko stotina sistema, ali obnovljeni skup od 20 mašina se nudi besplatno tokom cele godine, sa pristupom putem OpenVPN VPN-a.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Platforma za obuku hakovanja, Hack The Box konstantno pruža ranjive sisteme koje možete napadati kako vam odgovara. Dostupno je nekoliko stotina sistema, ali obnovljeni skup od 20 mašina se nudi besplatno tokom cele godine, sa pristupom putem OpenVPN VPN-a.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Ova platforma nudi brojne namerno ranjive sisteme za preuzimanje, koji se mogu koristiti putem VirtualBox-a (takođe besplatno rešenje) ili na druge načine. Kada se preuzmu, nije potreban VPN - sve je lokalno.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Ova platforma nudi brojne namerno ranjive sisteme za preuzimanje, koji se mogu koristiti putem VirtualBox-a (takođe besplatno rešenje) ili na druge načine. Kada se preuzmu, nije potreban VPN - sve je lokalno.
 
 
 
@@ -815,7 +815,7 @@ odgovor na TCP SYN paket poslat na port 22, aktivan na cilju skeniranja
 
 
 
-Na snimku ekrana iznad, vidimo TCP SYN/ACK paket poslat od strane ciljnog hosta**. Port je aktivan i izlaže uslugu. Nmap potvrđuje prijem odgovora, zatim prekida vezu (TCP RST/ACK). **Ovako je znao da je port TCP/22 aktivan**.
+Na snimku ekrana iznad, vidimo TCP SYN/ACK paket poslat od strane ciljnog hosta. Port je aktivan i izlaže uslugu. Nmap potvrđuje prijem odgovora, zatim prekida vezu (TCP RST/ACK). **Ovako je znao da je port TCP/22 aktivan**.
 
 
 
@@ -976,7 +976,7 @@ Kao što smo videli, Nmap sam bira broj i portove za skeniranje ako ne navedete 
 
 
 
-**Kako se biraju ovi portovi?
+**Kako se biraju ovi portovi?**
 
 
 
@@ -1060,7 +1060,7 @@ Bez obzira na redosled, Nmap će proveriti sve ove portove, i to samo one na cil
 
 
 
-**Skeniraj opseg portova
+**Skeniraj opseg portova**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Skeniranje TCP i UDP portova
+**Skeniranje TCP i UDP portova**
 
 
 
@@ -1134,7 +1134,7 @@ Sada je to zanimljiv način da prilagodite svoje skeniranje!
 
 
 
-**Skeniraj sve portove
+**Skeniraj sve portove**
 
 
 
@@ -2165,31 +2165,31 @@ Da budemo jasni: Nmap nije sposoban da izvrši kompletan penetracioni test vaše
 
 
 
-- Ograničeno pokrivanje**: iako su Nmap-ovi NSE skripti moćni, njihovo pokrivanje testova može biti ograničeno u poređenju sa drugim specijalizovanim alatima za otkrivanje ranjivosti. Neke ranjivosti možda neće biti pokrivene dostupnim NSE skriptama, kao što su ranjivosti Active Directory-ja, izloženost osetljivih podataka ili napredniji slučajevi ranjivih web aplikacija.
+- **Ograničeno pokrivanje**: iako su Nmap-ovi NSE skripti moćni, njihovo pokrivanje testova može biti ograničeno u poređenju sa drugim specijalizovanim alatima za otkrivanje ranjivosti. Neke ranjivosti možda neće biti pokrivene dostupnim NSE skriptama, kao što su ranjivosti Active Directory-ja, izloženost osetljivih podataka ili napredniji slučajevi ranjivih web aplikacija.
 
 
 
 
 
-- Složenost ranjivosti**: određene vrste ranjivosti mogu biti teške za otkrivanje korišćenjem NSE skripti zbog njihove složenosti. Na primer, ranjivosti koje zahtevaju složenu interakciju sa udaljenim servisom možda neće biti efikasno otkrivene pomoću Nmap-a (kao u slučaju prekomernih dozvola u deljenju fajlova ili greške u kontroli dozvola u veb aplikaciji).
+- **Složenost ranjivosti**: određene vrste ranjivosti mogu biti teške za otkrivanje korišćenjem NSE skripti zbog njihove složenosti. Na primer, ranjivosti koje zahtevaju složenu interakciju sa udaljenim servisom možda neće biti efikasno otkrivene pomoću Nmap-a (kao u slučaju prekomernih dozvola u deljenju fajlova ili greške u kontroli dozvola u veb aplikaciji).
 
 
 
 
 
-- Pasivno otkrivanje**: Nmap se prvenstveno fokusira na aktivne skeniranja za otkrivanje ranjivosti, što znači da možda neće efikasno otkriti potencijalne ranjivosti bez uspostavljanja aktivne veze sa ciljnim hostovima. Ranjivosti koje se ne manifestuju tokom aktivnog skeniranja stoga mogu biti propuštene (kao u slučaju ubacivanja koda u veb aplikaciju).
+- **Pasivno otkrivanje**: Nmap se prvenstveno fokusira na aktivne skeniranja za otkrivanje ranjivosti, što znači da možda neće efikasno otkriti potencijalne ranjivosti bez uspostavljanja aktivne veze sa ciljnim hostovima. Ranjivosti koje se ne manifestuju tokom aktivnog skeniranja stoga mogu biti propuštene (kao u slučaju ubacivanja koda u veb aplikaciju).
 
 
 
 
 
-- Zavisnost od ažuriranja**: Nmap-ova [baza podataka](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) NSE skripti se konstantno razvija, ali može doći do kašnjenja između otkrivanja nove ranjivosti i dodavanja odgovarajuće skripte u Nmap. Kao rezultat toga, Nmap možda neće uvek biti ažuriran sa najnovijim ranjivostima.
+- **Zavisnost od ažuriranja**: Nmap-ova [baza podataka](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) NSE skripti se konstantno razvija, ali može doći do kašnjenja između otkrivanja nove ranjivosti i dodavanja odgovarajuće skripte u Nmap. Kao rezultat toga, Nmap možda neće uvek biti ažuriran sa najnovijim ranjivostima.
 
 
 
 
 
-- Lažno pozitivni i lažno negativni rezultati**: kao i sa svakim sigurnosnim alatom, Nmap-ovi NSE skripti mogu proizvesti lažno pozitivne (lažna upozorenja o ranjivostima) ili lažno negativne rezultate (prave ranjivosti koje nisu otkrivene). Ovo je nešto što treba imati na umu prilikom analize Nmap rezultata.
+- **Lažno pozitivni i lažno negativni rezultati**: kao i sa svakim sigurnosnim alatom, Nmap-ovi NSE skripti mogu proizvesti lažno pozitivne (lažna upozorenja o ranjivostima) ili lažno negativne rezultate (prave ranjivosti koje nisu otkrivene). Ovo je nešto što treba imati na umu prilikom analize Nmap rezultata.
 
 
 

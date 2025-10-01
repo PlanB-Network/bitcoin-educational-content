@@ -1,5 +1,5 @@
 ---
-name: Seva ya BTCpay
+name: BTCPay Server
 
 description: Mwongozo wa kusanidi seva yako ya BTPay na kuidhibiti
 ---

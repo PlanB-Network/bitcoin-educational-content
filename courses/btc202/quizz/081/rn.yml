@@ -1,0 +1,9 @@
+question: Ni uwuhe murongo wa Bitcoin.conf ugabanya ubunini bwa Mempool muri MB?
+answer: ivyuma vyinshi
+wrong_answers:
+  - umubare wose
+  - iherezo ry'igihe
+  - ubunini bw'ikigega
+explanation: |
+  maxmempool igena ubunini burengeye ubunini bwa Mempool (300 MB ku mburabuzi). Iyo yuzuye, amafaranga adafise inyungu nyinshi arahirukanwa.
+reviewed: true

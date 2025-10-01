@@ -1,5 +1,5 @@
 ---
-name: Phượng hoàng
+name: Phoenix
 description: Cài đặt và sử dụng Phoenix Wallet
 ---
 ![cover](assets/cover.webp)

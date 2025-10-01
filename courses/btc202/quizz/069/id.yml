@@ -1,0 +1,9 @@
+question: Apa risiko utama yang ditimbulkan oleh akumulasi Dust di mini-PC Anda?
+answer: Pelambatan prosesor
+wrong_answers:
+  - Penghapusan blok Blockchain
+  - Kerusakan disk
+  - Kapasitas RAM berkurang
+explanation: |
+  Dust menghalangi ventilasi, menyebabkan panas berlebih, dan menyebabkan pelambatan, sehingga mengurangi efisiensi prosesor.
+reviewed: true

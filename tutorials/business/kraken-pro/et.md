@@ -59,8 +59,8 @@ Kui olete täitnud kõik jaotised ja saatnud vajalikud dokumendid, klõpsake "*S
 Kui teie konto on kinnitatud, pääsete platvormile, kus teile pakutakse kahte liidest:
 
 
-- Kraken**: Lihtsustatud kasutajaliides, mis pakub olulist funktsionaalsust.
-- Kraken Pro**: Täiustatud kasutajaliides koos lisafunktsioonidega, eriti kauplemiseks.
+- **Kraken**: Lihtsustatud kasutajaliides, mis pakub olulist funktsionaalsust.
+- **Kraken Pro**: Täiustatud kasutajaliides koos lisafunktsioonidega, eriti kauplemiseks.
 
 Kui teie eesmärk on ainult osta ja müüa bitcoine, valige lihtsustatud kasutajaliides. Teil on alati võimalus hiljem vajadusel ümber lülituda täiustatud liidese peale.
 
@@ -158,9 +158,9 @@ Valige summa, valige soovitud krüptoraha ja kinnitage tehing.
 Nende tehingute puhul saate valida erinevate tellimuse tüüpide vahel: *Turu*, *Limiit* või *Stop-Loss*:
 
 
-- Turg*: Võimaldab kohest ostu jooksva turuhinnaga;
-- Piirnorm*: Võimaldab määrata ostuhinna ja korraldus täidetakse ainult siis, kui turuhind jõuab sellesse summasse;
-- Stop-Loss*: Müüb automaatselt, kui hind jõuab teatud künnisele.
+- **Turg**: Võimaldab kohest ostu jooksva turuhinnaga;
+- **Piirnorm**: Võimaldab määrata ostuhinna ja korraldus täidetakse ainult siis, kui turuhind jõuab sellesse summasse;
+- **Stop-Loss**: Müüb automaatselt, kui hind jõuab teatud künnisele.
 
 ## 7 - Tehingute haldamine ja raamatupidamine
 

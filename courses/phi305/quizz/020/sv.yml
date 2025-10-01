@@ -1,0 +1,9 @@
+question: Vad kan vi lära oss av Copernicus?
+answer: Att jorden kretsar kring solen.
+wrong_answers:
+  - Att jorden är platt.
+  - Att jorden befinner sig i universums mittpunkt.
+  - Att Euklides ekvationer är felaktiga.
+explanation: |
+  Nicolas Copernicus (1473-1543) är känd för att ha visat att jorden kretsar kring solen, vilket revolutionerade vår uppfattning om universum. Denna upptäckt hade ett djupgående inflytande på modern filosofi och rationalism.
+reviewed: false

@@ -233,8 +233,8 @@ Jotta voit suorittaa siirron, sinun on manipuloitava paikallista Bitcoin-lompakk
 Useimmissa tapauksissa sopimuksen osapuolten (esim. Alice ja Bob) välinen vuorovaikutus tapahtuu laskun laatimisen kautta. Jos Alice haluaa Bobin suorittavan jotakin (tokenin siirto, uudelleenjulkaisu, toiminta DAO:ssa jne.), Alice luo laskun, jossa hän antaa yksityiskohtaiset ohjeet Bobille. Meillä on siis :
 
 
-- Alice** (laskun laatija) ;
-- Bob** (joka vastaanottaa ja suorittaa laskun).
+- **Alice** (laskun laatija) ;
+- **Bob** (joka vastaanottaa ja suorittaa laskun).
 
 Toisin kuin muissa ekosysteemeissä, RGB-lasku ei rajoitu maksun käsitteeseen. Siihen voidaan sisällyttää mikä tahansa sopimukseen liittyvä pyyntö: avaimen peruuttaminen, äänestäminen, kaiverruksen (*kaiverrus*) luominen NFT:hen jne. Vastaava toiminto voidaan kuvata sopimuksen käyttöliittymässä. Vastaava toiminto voidaan kuvata sopimuksen käyttöliittymässä.
 

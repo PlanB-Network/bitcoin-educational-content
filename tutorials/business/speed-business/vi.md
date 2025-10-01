@@ -1,5 +1,5 @@
 ---
-name: Tốc độ Wallet - PoS
+name: Speed Wallet - POS
 description: Tích hợp thanh toán Bitcoin và stablecoin vào doanh nghiệp của bạn một cách dễ dàng
 ---
 ![cover](assets/cover.webp)
@@ -28,25 +28,25 @@ Speed có nhiều tính năng để bao quát các khía cạnh tài chính củ
 
 
 
-- Cấu hình thanh toán trực tuyến**: Nhận thanh toán từ khách hàng mọi lúc mọi nơi thông qua trang web của bạn.
+- **Cấu hình thanh toán trực tuyến**: Nhận thanh toán từ khách hàng mọi lúc mọi nơi thông qua trang web của bạn.
 
 
 
 
 
-- Thanh toán tại chỗ**: Lý tưởng cho các cửa hàng và doanh nghiệp thu tiền mặt tại cửa hàng.
+- **Thanh toán tại chỗ**: Lý tưởng cho các cửa hàng và doanh nghiệp thu tiền mặt tại cửa hàng.
 
 
 
 
 
-- Rút tiền**: Rút tài sản của bạn một cách dễ dàng và sử dụng bitcoin để trả cho khách hàng và tiền lương.
+- **Rút tiền**: Rút tài sản của bạn một cách dễ dàng và sử dụng bitcoin để trả cho khách hàng và tiền lương.
 
 
 
 
 
-- Kết nối với các nền tảng khác**: Bạn có sử dụng các công cụ bên ngoài để quản lý thanh toán của mình không? Speed cung cấp cho bạn khả năng kết nối chúng với nền tảng của mình, để có một hệ sinh thái tất cả trong một phản ánh doanh nghiệp của bạn.
+- **Kết nối với các nền tảng khác**: Bạn có sử dụng các công cụ bên ngoài để quản lý thanh toán của mình không? Speed cung cấp cho bạn khả năng kết nối chúng với nền tảng của mình, để có một hệ sinh thái tất cả trong một phản ánh doanh nghiệp của bạn.
 
 
 
@@ -265,13 +265,13 @@ Trong menu **Gửi thanh toán**, bạn sẽ tìm thấy tất cả các tùy ch
 
 
 
-- Thanh toán tức thời**: Với tùy chọn Gửi tức thời, bạn có thể gửi bitcoin an toàn ngay lập tức từ tài khoản thương gia của mình.
+- **Thanh toán tức thời**: Với tùy chọn Gửi tức thời, bạn có thể gửi bitcoin an toàn ngay lập tức từ tài khoản thương gia của mình.
 
 
 
 
 
-- Liên kết rút tiền generate** cho phép các đối tác và nhà cung cấp của bạn truy cập vào khoản thanh toán của họ sau này mà không cần sự hiện diện trực tuyến của bạn.
+- Liên kết rút tiền **generate** cho phép các đối tác và nhà cung cấp của bạn truy cập vào khoản thanh toán của họ sau này mà không cần sự hiện diện trực tuyến của bạn.
 
 
 
@@ -289,7 +289,7 @@ Trong tùy chọn **Liên kết rút tiền**, hãy tạo một liên kết rút
 
 
 
-- Thanh toán**: Trong menu Thanh toán, hãy bắt đầu rút tiền từ số dư Speed Business của bạn vào tài khoản Wallet cá nhân của bạn.
+- **Thanh toán**: Trong menu Thanh toán, hãy bắt đầu rút tiền từ số dư Speed Business của bạn vào tài khoản Wallet cá nhân của bạn.
 
 
 
@@ -299,7 +299,7 @@ Trong tùy chọn **Liên kết rút tiền**, hãy tạo một liên kết rút
 
 
 
-- Giảm giá**: Khuyến khích khách hàng thường xuyên của bạn bằng cách thiết lập các tùy chọn hoàn tiền để kiếm tiền thưởng.
+- **Giảm giá**: Khuyến khích khách hàng thường xuyên của bạn bằng cách thiết lập các tùy chọn hoàn tiền để kiếm tiền thưởng.
 
 
 
@@ -436,4 +436,3 @@ Bạn đã nắm bắt tốt về Speed, hãy tích hợp Bitcoin vào doanh ngh
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

@@ -1,0 +1,9 @@
+question: Umbrelでバグが発生した場合、最初に取るべき行動は何ですか？
+answer: generate 診断バンドル
+wrong_answers:
+  - Bitcoin coreを再インストールしてIBDをやり直す
+  - キャッシュのクリア
+  - 2FAを無効にする
+explanation: |
+  問題が発生した場合、まずトラブルシューティング・セクションで診断バンドルが生成され、問題の分析と記録の保存が行われる。
+reviewed: true

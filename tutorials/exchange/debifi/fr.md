@@ -8,13 +8,14 @@ description: Obtenir un prêt sans garde de fonds garanti par Bitcoin.
 
 ## Introduction
 
-Depuis des siècles, le prêt traditionnel a permis le financement de nombreux projets. Cependant, il reste lent, coûteux et peu inclusif, surtout pour celles et ceux  qui n’ont pas accès à une infrastructure bancaire solide.
+Depuis des siècles, le prêt traditionnel a permis le financement de nombreux projets. Cependant, il reste lent, coûteux et peu inclusif, surtout pour celles et ceux qui n’ont pas accès à une infrastructure bancaire solide.
 
 Avec l’essor du protocole Bitcoin, une nouvelle ère financière s’est ouverte, amenant avec elle plusieurs défis. Au nombre de ces défis, subsistait celui-ci : comment obtenir des liquidités sans être obligé de vendre son Bitcoin, et donc sans perdre son exposition à son potentiel de croissance ?
 
-De cette réflexion est née **Debifi**, une plateforme qui se positionne comme une alternative moderne aux banques. L’objectif est clair : rendre le crédit aussi simple et transparent que possible, en alliant les avantages du système financier traditionnel à la liberté offerte par Bitcoin. Le nom Debifi traduit bien cette vision : **Decentralized Bitcoin Finance**, une contraction qui illustre la rencontre entre finance décentralisée et innovation Bitcoin. 
+De cette réflexion est née **Debifi**, une plateforme qui se positionne comme une alternative moderne aux banques. L’objectif est clair : rendre le crédit aussi simple et transparent que possible, en alliant les avantages du système financier traditionnel à la liberté offerte par Bitcoin. Le nom Debifi traduit bien cette vision : ***Decentralized Bitcoin Finance***, une contraction qui illustre la rencontre entre finance décentralisée et innovation Bitcoin. 
 
  Debifi est une plateforme de prêts adossés au Bitcoin non custodial, ce qui signifie que vous gardez le contrôle de vos clés privées. Elle permet aux utilisateurs de débloquer de la liquidité en échange de leurs bitcoins verrouillés en garantie. Contrairement aux prêts bancaires traditionnels, Debifi utilise un système d’escrow multisignature (3 sur 4) et n’accepte pas l'hypothèque du collatéral, garantissant ainsi plus de sécurité et de transparence. 
+ 
  En pratique, cela veut dire que ni Debifi ni un prêteur individuel ne peuvent dépenser votre BTC sans l’accord de trois parties (vous, le prêteur et un tiers de confiance). Cela rend le système plus sûr : si vous empruntez sur Debifi, vous conservez la propriété de votre Bitcoin jusqu’au remboursement complet du prêt.
 
 ## Avantages de Debifi 
@@ -41,7 +42,7 @@ Avant de vous montrer pas à pas comment faire un emprunt sur Debifi, il me semb
 
 - **Un collatéral** (ou garantie) est un actif que tu déposes pour sécuriser un emprunt. Dans le cas de Debifi, le collatéral est du Bitcoin (BTC) que l’emprunteur dépose dans l’escrow multisig 3/4.
 
-- **Le système multisig escrow (¾/)** est un mécanisme de dépôt sécurisé où les bitcoins d’un emprunteur sont placés dans une adresse multisignature. Concrètement quatre (4) parties détiennent chacune une clé (emprunteur, prêteur, Debifi, tiers indépendant). Pour déplacer les fonds, il faut au moins 3 signatures sur 4.
+- **Le système multisig escrow (3/4)** est un mécanisme de dépôt sécurisé où les bitcoins d’un emprunteur sont placés dans une adresse multisignature. Concrètement quatre (4) parties détiennent chacune une clé (emprunteur, prêteur, Debifi, tiers indépendant). Pour déplacer les fonds, il faut au moins 3 signatures sur 4.
 
 - **Un stablecoin** est une cryptomonnaie dont la valeur est rattachée à un actif stable (ex. dollar US), ce qui évite la volatilité du Bitcoin. Par exemple, 1 USDC vaut toujours ~1 $, car il est garanti par des réserves en fiat.
 
@@ -61,7 +62,7 @@ Pour débuter sur Debifi, il vous faut des prérequis.
 
 - Portefeuille Bitcoin : où vous détenez vos BTC (idéalement non custodial, par exemple hardware wallet ou un portefeuille mobile de confiance). C’est depuis ce portefeuille que vous enverrez le collatéral Bitcoin sur Debifi et que vous recevrez les fonds. 
 
-- Stablecoins ou fiat : Debifi prête en stablecoins et quelques devises fiat. Les principales stablecoins utilisées sont USDT et USDC.  
+- Stablecoins ou fiat : Debifi prête en stablecoins et quelques devises fiat. Les principaux stablecoins utilisés sont USDT et USDC.  
 
 Vous pouvez utiliser Aqua, un portefeuille Bitcoin et Liquid mais qui supporte aussi la gestion des stablecoins USDT sur divers réseaux. Ou encore le COLDCARD (le Mk4 ou le Q) qui est actuellement le seul hardware pris en charge par Debifi.
 
@@ -183,7 +184,8 @@ Les tranches du prêt Bitcoin sont généralement au nombre de trois (3) :
 
 #### Taux d'intérêt
 
-La fixation des taux dépend généralement de votre LTV choisi, de la durée du terme du prêt, la volatilité des garanties et les évaluations des risques spécifiques à la plateforme. Ils restent fixes pendant toute la durée du prêt. 
+La fixation des taux dépend généralement de votre LTV choisi, de la durée du terme du prêt, la volatilité des garanties et les évaluations des risques spécifiques à la plateforme. Ils restent fixes pendant toute la durée du prêt.
+
 #### Durée de Prêt et Flexibilité du Remboursement
 
 Les calendriers de remboursement pour les prêts sont souvent flexibles et adaptés aux besoins de l'utilisateur. Les paiements peuvent être effectués à tout moment tant que les exigences en matière de garantie sont respectées. Les paiements de prêts sont généralement des intérêts pendant toute la durée du prêt, le principal étant dû à l'échéance du prêt.
@@ -198,14 +200,14 @@ Pour sélectionner une offre de prêt adaptée à vos besoins, cliquez dessus po
 
 ![image](assets/fr/24.webp)
 
-Vous pouvez voir que le: 
-1. montre le nom de l'institution prêteuse ;
-2. montre la tranche de montants dans lequel se situe ce prêt ;
-3. montre que vous recevrez les fonds en USDC Ethereum ;
-4. donne respectivement de gauche à droite la tranche de période dans laquelle se situe le prêt, le taux d'intérêt et le ratio LTV ;
-5. montre que le KYC est requis pour cette offre ;
-6. est l'onglet dans lequel le montant précis dont vous aviez doit être inscrit (ce montant doit être dans la tranche, voir 2) ;
-7. est l'onglet dans lequel l'adresse Ethereum USDC qui doit recevoir les fonds doit être renseignée.
+Vous pouvez voir : 
+1. Le nom de l'institution prêteuse ;
+2. La tranche de montants dans lequel se situe ce prêt ;
+3. Que vous recevrez les fonds en USDC Ethereum ;
+4. La tranche de période dans laquelle se situe le prêt, le taux d'intérêt et le ratio LTV ;
+5. Le KYC est requis pour cette offre ;
+6. Le montant précis dont vous avez besoin doit être inscrit (ce montant doit être dans la tranche, voir 2) ;
+7. L'adresse Ethereum USDC qui doit recevoir les fonds doit être renseignée.
 
 Une fois que les caractéristiques de l'offre vous conviennent et que vous aviez renseigné les informations nécessaires, appuyez sur ''**Demande de contrat**''.
 
@@ -245,10 +247,11 @@ Vous recevrez également cette notification dans votre application mobile.
 
 Dès confirmation de votre dépôt, le prêteur versera le montant du prêt à l'adresse de réception que vous avez indiquée, finalisant ainsi la transaction et vous donnant accès aux fonds dont vous avez besoin.
 
-Vous recevrez ensuite une notification de Debifi, vous demandant de payer les frais du prêt ou les commissions afin de faire progresser le statut de votre prêt. 
+Vous recevrez ensuite une notification de Debifi, vous demandant de payer les frais du prêt ou les commissions afin de faire progresser le statut de votre prêt.
+
 En réalité, une fois le contrat créé, les frais du prêt sont prélevés automatiquement sur le collatéral bloqué par l'emprunteur dans l'adresse d'entiercement multisignature. 
 
-Tout ce que vous aviez à faire est de signer une transaction qui permettrait à Debifi de déduire ses commissions de la garantie. De son côté, votre prêteur devra également signer la transaction de prélèvement des frais, sinon Debifi ne pourra pas recevoir sa commission.
+Tout ce que vous avez à faire est de signer une transaction qui permettrait à Debifi de déduire ses commissions de la garantie. De son côté, votre prêteur devra également signer la transaction de prélèvement des frais, sinon Debifi ne pourra pas recevoir sa commission.
 
 ![image](assets/fr/35.webp)
 
@@ -269,7 +272,7 @@ Les emprunteurs seront informés de la baisse de prix. Cette information sera é
 En cas d'augmentation du prix de la garantie, l'emprunteur conserve toute plus-value sur la garantie. Il ne doit que le montant du prêt, qui est prédéterminé et indépendant du cours du Bitcoin.
 
 
-## Remboursement et récupération du collatéral <a name="remboursement"></a>
+## Remboursement et récupération du collatéral
 
 À la fin de la durée convenue (ou avant, si vous le souhaitez), vous devrez rembourser le prêt. 
 Dans Debifi :
@@ -287,7 +290,7 @@ Bravo ! Vous avez finalisé le processus.
 
 ## Bonnes pratiques et sécurité
 
-Quel que soit les motifs ou les aspirations (réalisation de projets, achats de biens, achats de bitcoins, etc.) qui vous poussent à faire un prêt avec Bitcoin comme garantie, soyez extrêmement prudent. Que votre décision soit mûrement réfléchie parce que Bitcoin est un actif volatil. La probabilité de voir vos bitcoins être vendus (alors que vous en avez plus d'autres) à cause d'une baisse drastique de son prix existe.
+Quels que soient vos objectifs ou vos motivations — financement d’un projet, acquisition de biens, achat de bitcoins, etc. — faites preuve d’une extrême prudence avant de contracter un prêt adossé à Bitcoin. Prenez le temps de mûrement réfléchir à votre décision, car Bitcoin demeure un actif volatil. **Une forte baisse de son prix pourrait entraîner la liquidation forcée de vos bitcoins**.
 
 Surveillez votre ratio prêt/collatéral (LTV). Configurez des alertes (prix BTC, LTV) si possible. Ne laissez pas votre ratio s’approcher de 90 %. Si vous avez des doutes, augmentez le collatéral ou remboursez plus tôt.
 

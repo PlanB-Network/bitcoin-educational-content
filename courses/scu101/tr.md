@@ -44,7 +44,7 @@ Théo; katkı
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 
-**Amaç: Güvenlik becerilerinizi geliştirin !**
+**Amaç: Güvenlik becerilerinizi geliştirin!**
 
 
 Dijital güvenliğe adanmış bu eğitim programına hepiniz hoş geldiniz. Bu kurs herkesin erişimine açık olacak şekilde tasarlanmıştır, bu nedenle önceden bilgisayar bilimi bilgisi gerekmemektedir. Öncelikli hedefimiz, sizi dijital dünyada daha güvenli ve emniyetli bir şekilde gezinmek için gerekli bilgi ve becerilerle donatmaktır.
@@ -144,7 +144,7 @@ Ayrıca, genellikle daha güvenli ve kötü amaçlı yazılımlardan arınmış 
 
 
 > Bonus: Açık kaynaklı yazılımlar genellikle ücretsizdir! Bu üniversite %100 açık kaynaklıdır, dolayısıyla kodumuzu GitHub'da da inceleyebilirsiniz.
-> ![](assets/notext/5.webp)
+>![](assets/notext/5.webp)
 
 ### Çerez yönetimi: Hatalar ve en iyi uygulamalar
 

@@ -1,0 +1,8 @@
+---
+term: Taproot
+---
+
+Ivugurura rikomeye ry’amasezerano ya Bitcoin, ryemejwe biciye ku masezerano ya Soft Fork mu kwezi kwa 11 2021. Iryo vugurura rizana iterambere rikomeye mu bijanye n’ubuzima bwite, ubushobozi, n’uguhinduranya mu gushirwa mu ngiro BIP340, BIP341, na BIP342. Iryo vugurura ryafunzwe kuri block 687.284 ku wa 12 Ruheshi 2021, aho 90% vy’amabuye yavutse mu kiringo kinaka vyerekana ko rishigikiye, ivyo bikaba vyerekana ko abacukuzi biteguriye gukoresha iryo vugurura (*Speedy Trial*). Ivyo bikorwa vyaciye bibera ku nzu 709.632 kw’igenekerezo rya 14 Ugushyingo 2021, haciye hafi imyaka ine ibiganiro vya mbere ku bijanye n’ico kibazo vyabaye hagati ya Pieter Wuille, Andrew Poelstra na Gregory Maxwell. Ni co kigeragezo ca mbere gikomeye co guhindura kuva SegWit itanguye gukora mu 2017.
+
+
+Taproot ni izina rya BIP341, rishirwa mu ngiro muri Soft Fork y'iryo zina nyene, izana urugero rushasha rw'inyandiko rwitwa P2TR. Inyandiko ya P2TR ifunga ama bitcoins ku rufunguzo rwa bose rwihariye rwa Schnorr, rwerekanwa na $K$. Ariko rero, uru rufunguzo $K$ mu vy'ukuri ni umugwi w'urufunguzo rwa bose $P$ n'urufunguzo rwa bose $M$, rwa nyuma rukabarwa ruvuye kuri Merkle Root y'urutonde rwa `scriptPubKey`. Ivyo bice vy’amahera vyugarijwe n’inyandiko ya P2TR bishobora gukoreshwa mu buryo bubiri butandukanye: haba mu gutangaza umukono w’urufunguzo rwa bose $P$, canke mu guhazwa n’imwe mu nyandiko ziri muri Merkle Tree. Ihitamwo rya mbere ryitwa "*inzira y'urufunguzo*" n'irya kabiri "*inzira y'inyandiko*".

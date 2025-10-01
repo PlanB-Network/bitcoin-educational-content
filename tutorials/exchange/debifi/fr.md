@@ -71,7 +71,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 
 - KYC (*Know Your Customer*) : en fonction de l’offre de prêt choisie, un processus de vérification d’identité peut être requis. Sur Debifi, chaque offre indique si la KYC est nécessaire ou non. Donc, préparez-vous en conséquence. Le KYC est assuré par des prestataires tiers fiables tels que Sumsub.
 
-![screen](assets/fr/03.webp)
+![image](assets/fr/03.webp)
 
 - Application d'authentification à double facteurs : Debifi exige un code Authenticator pour chaque action importante. C'est une couche supplémentaire de sécurité. Dans ce tutoriel, nous utiliserons Google Authenticator. Alternativement, vous pouvez utiliser d'autres selon votre convenance. 
 
@@ -87,51 +87,51 @@ https://planb.network/tutorials/computer-security/authentication/aegis-authentic
 
 Rendez-vous sur [le site officiel de Debifi](https://debifi.com/app).
 
-![screen](assets/fr/04.webp)
+![image](assets/fr/04.webp)
 
 Installez votre application selon le type de smartphone dont vous disposez, puis ouvrez-la. 
 
-![screen|400](assets/fr/05.webp)
+![image](assets/fr/05.webp)
 
-   ![screen|400](assets/fr/06.webp)
+![image](assets/fr/06.webp)
 
 Une fois dans l'application, cliquez sur le menu **Settings**. 
 
-![screen|400](assets/fr/07.webp) 
+![image](assets/fr/07.webp) 
 
 Ensuite, cliquez sur **Login or create account** pour créer un compte avec votre adresse e-mail. 
 
- ![screen|400](assets/fr/08.webp) 
+ ![image](assets/fr/08.webp) 
 
-![screen|400](assets/fr/09.webp)
+![image](assets/fr/09.webp)
 
-![screen|400](assets/fr/10.webp)   
+![image](assets/fr/10.webp)   
 
 Vous recevrez un code de vérification par e-mail. Ce code est à copier-coller dans l'application. Ensuite, ouvrez l’application Debifi sur votre smartphone et connectez-vous.
 
- ![screen|400](assets/fr/11.webp)   
+![image](assets/fr/11.webp)   
 
 ### Sécurisation de votre compte 
 
 Pour la sécurité, Debifi vous demandera de suivre trois étapes.
 
-![screen|400](assets/fr/12.webp)
+![image](assets/fr/12.webp)
 
 - D'abord, vous devrez définir un code PIN fort pour accéder à votre application ultérieurement.
 
-![screen|400](assets/fr/13.webp)
+![image](assets/fr/13.webp)
 
 - Ensuite, configurer une authentification à deux facteurs (2FA) afin d'associer votre appareil à votre compte grâce au code 2FA.
 
-![screen|400](assets/fr/14.webp)
+![image](assets/fr/14.webp)
 
 - Enfin, sauvegardez les 12 mots de votre clé privée en la notant sur un support fiable et en la conservant en lieu sûr. Cette phase est essentielle pour la récupération de votre compte et la gestion de vos fonds.
 
-![screen|400](assets/fr/15.webp)
+![image](assets/fr/15.webp)
 
 - Pour plus de sécurité, vous avez la possibilité d'ajouter même une passphrase.
 
-![screen|400](assets/fr/16.webp)
+![image](assets/fr/16.webp)
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
@@ -139,19 +139,19 @@ Notez que seul votre smartphone enregistré pourra ouvrir votre compte (c’est 
 
 Une fois ces étapes achevées, cliquez sur le menu **Offers** pour voir les offres de prêt disponibles. Lorsque vous cliquez sur une offre, cela vous redirige vers le site web de Debifi.
 
-![screen|400](assets/fr/17.webp)
+![image](assets/fr/17.webp)
 
 ### Accédez au site Web et explorez les offres de prêt
 
 Une fois votre appareil connecté, rendez-vous sur le [site de Debifi](https://debifi.com/). Connectez-vous dans le but d'établir une connexion sécurisée entre l'application mobile Debifi et la plateforme web. Cela vous facilite ainsi l'interaction avec les offres de prêt disponibles (une vue claire sur les détails de chaque offre) et la gestion de votre compte.
 
-![screen](assets/fr/18.webp)
+![image](assets/fr/18.webp)
 
-![screen](assets/fr/19.webp)
+![image](assets/fr/19.webp)
 
-![screen](assets/fr/20.webp)
+![image](assets/fr/20.webp)
 
-![screen](assets/fr/21.webp)
+![image](assets/fr/21.webp)
 
 
 Vidéo tutoriel sur comment se connecter avec son compte sur la plateforme :
@@ -162,11 +162,11 @@ Vidéo tutoriel sur comment se connecter avec son compte sur la plateforme :
 
 La plateforme vous met en relation avec des liquidités de qualité institutionnelle et vous propose une gamme d'options adaptées à vos besoins. Parcourez-la pour découvrir les offres disponibles. Vous avez également la flexibilité d'ajuster les paramètres du prêt en fonction de votre tolérance au risque individuelle et de votre situation financière.
 
-![screen](assets/fr/22.webp)
+![image](assets/fr/22.webp)
 
  Les devises fiat que Debifi propose actuellement sont consultables sur la plateforme. 
 
-![screen](assets/fr/23.webp)
+![image](assets/fr/23.webp)
 
 ### Clauses contractuelles claires et flexibles
 
@@ -196,7 +196,7 @@ Comme le prix du bitcoin est volatil, un prêt responsable inclut des politiques
 
 Pour sélectionner une offre de prêt adaptée à vos besoins, cliquez dessus pour voir ces caractéristiques. 
 
-![screen](assets/fr/24.webp)
+![image](assets/fr/24.webp)
 
 Vous pouvez voir que le: 
 1. montre le nom de l'institution prêteuse ;
@@ -209,27 +209,27 @@ Vous pouvez voir que le:
 
 Une fois que les caractéristiques de l'offre vous conviennent et que vous aviez renseigné les informations nécessaires, appuyez sur ''**Demande de contrat**''.
 
-![screen](assets/fr/25.webp)
+![image](assets/fr/25.webp)
 
 Retournez dans l'application mobile pour ''**Provide public key**''.
 
-![screen](assets/fr/26.webp)
+![image](assets/fr/26.webp)
 
 Appuyez sur '' **Provide public key** '', ensuite choisissez la source de fourniture de la clé publique. Le prêteur aussi sera amené à fournir une clé publique de son côté.
 
-![screen|400](assets/fr/27.webp)
+![image](assets/fr/27.webp)
 
-![screen|400](assets/fr/28.webp)
+![image](assets/fr/28.webp)
 
-![screen|400](assets/fr/29.webp)
+![image](assets/fr/29.webp)
 
-![screen|400](assets/fr/30.webp)
+![image](assets/fr/30.webp)
 
 L'étape suivante sera celle de signer le contrat. Toujours dans l'application mobile, appuyez sur '' **Sign contract** ''
 
-![screen|400](assets/fr/31.webp)
+![image](assets/fr/31.webp)
 
-![screen|400](assets/fr/32.webp)
+![image](assets/fr/32.webp)
 
 Lorsque vous finissez de signer le contrat, Debifi crée automatiquement une adresse Bitcoin multisignature unique (escrow 3-sur-4) pour votre contrat. Tant que vos bitcoins sont dans l’escrow, ils ne peuvent pas être utilisés ailleurs. 
 
@@ -237,11 +237,11 @@ Lorsque vous finissez de signer le contrat, Debifi crée automatiquement une adr
 
 La dernière étape consiste à déposer votre garantie Bitcoin dans le système de séquestre multisignature. Debifi vous indique alors l’adresse (B) d’escrow et la quantité de BTC (A) à envoyer comme (collatéral + commission). 
 
-![screen](assets/fr/33.webp)
+![image](assets/fr/33.webp)
 
 Vous recevrez également cette notification dans votre application mobile.
 
-![screen|400](assets/fr/34.webp)
+![image](assets/fr/34.webp)
 
 Dès confirmation de votre dépôt, le prêteur versera le montant du prêt à l'adresse de réception que vous avez indiquée, finalisant ainsi la transaction et vous donnant accès aux fonds dont vous avez besoin.
 
@@ -250,7 +250,7 @@ En réalité, une fois le contrat créé, les frais du prêt sont prélevés aut
 
 Tout ce que vous aviez à faire est de signer une transaction qui permettrait à Debifi de déduire ses commissions de la garantie. De son côté, votre prêteur devra également signer la transaction de prélèvement des frais, sinon Debifi ne pourra pas recevoir sa commission.
 
-![screen](assets/fr/35.webp)
+![image](assets/fr/35.webp)
 
 Les frais de prêt applicables sont de 1,5 à 2 %, selon la durée du contrat. La plateforme facture des commissions en Bitcoin uniquement.
 
@@ -306,3 +306,4 @@ Vous savez désormais comment prendre en main la plateforme Debifi pour obtenir 
 Je vous conseille de suivre ce cours qui vous permet d'examiner de manière approfondie Bitcoin, les Stablecoins et leur apport de souveraineté.
 
 https://planb.network/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46 
+

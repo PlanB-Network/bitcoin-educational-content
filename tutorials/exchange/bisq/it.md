@@ -127,7 +127,7 @@ Anche se l'acquisto su Bisq è semplice, ci sono alcuni compromessi di cui bisog
 
 1. Hai bisogno di BTC prima di fare uno scambio, per formare un deposito di sicurezza. Non è un problema se sei nel giro da un po' di tempo, ma potrebbe diventare un problema se vuoi usare Bisq come primo acquisto. La tua migliore opzione in questo caso è ottenere alcuni bitcoin da un amico o un familiare.
 
-2. I bitcoin senza KYC spesso attraggono un premio sopra il prezzo di mercato, il che può scoraggiare alcuni acquirenti. Come ho discusso in precedenza, si tratta di compromessi e personalmente sarei disposto a pagare un 5-8% in più rispetto al prezzo di mercato per poter mantenere al sicuro i miei dati personali.
+2. Acquistare bitcoin senza KYC spesso richiede un premio sopra il prezzo di mercato, il che può scoraggiare alcuni acquirenti. Come ho discusso in precedenza, si tratta di compromessi e personalmente sarei disposto a pagare un 5-8% in più rispetto al prezzo di mercato per poter mantenere al sicuro i miei dati personali.
 
 Se non hai fretta di acquistare, puoi anche creare un "Offerta di acquisto" in cui puoi far sapere alla rete Bisq che sei disposto ad acquistare una certa quantità di bitcoin ad un certo prezzo rispetto al valore di mercato. Se un venditore accetta la tua offerta, può accettarla.
 

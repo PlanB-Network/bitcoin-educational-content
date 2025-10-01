@@ -1050,23 +1050,23 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 
 ### Slashdot 的加速效應
 
-在 Slashdot 上發佈 Bitcoin 的介紹，對中本聰的專案來說，效果非常顯著。大量有興趣的人湧入，導致價格和 Hash 的比率創下新高。此外，它促使某位 Jed McCaleb 發現了 Bitcoin，並以 Mt.
+在 Slashdot 上發佈 Bitcoin 的介紹，對中本聰的專案來說，效果非常顯著。大量有興趣的人湧入，導致價格和 Hash 率創下新高。此外，它促使某位 Jed McCaleb 發現了 Bitcoin，並以 Mt. Gox 之名創建交易所並交易此單位。
 
-在接下來的幾個月中，技術、經濟與 Mining 的改進持續蓬勃發展，讓 Slashdot 成為 Bitcoin 社群運動的真正起點。然而，最重大的改變發生在軟體與通訊協定層面：確實有一些重大的弱點需要修補。下一章將集中討論這些技術問題，它們構成了 Bitcoin 發展的關鍵一步。
+在接下來的幾個月中，技術、經濟與挖礦的改進持續蓬勃發展，讓 Slashdot 成為 Bitcoin 社群運動的真正起點。然而，最重大的改變發生在軟體與通訊協定層面：確實有一些重大的弱點需要修補。下一章將集中討論這些技術問題，這是 Bitcoin 發展的關鍵一步。
 
-## 第一批技術問題
+## 首次技術問題
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
 
-如上一章所述，2010 年 7 月 11 日來自 Slashdot 的大量使用者湧入，引起了人們對 Satoshi Nakamoto 專案的巨大興趣。網路的使用呈爆炸性成長；Exchange 的速率增加了十倍，專用於系統的計算能力也是如此。因此，Bitcoin 在夏天經歷了前所未有的成長。
+如上一章所述，2010 年 7 月 11 日來自 Slashdot 的大量使用者湧入，引起了人們對中本聰專案的巨大興趣。網路的使用呈爆炸性成長；幣價十倍上漲，算力也是如此。因此，Bitcoin 在夏天經歷了前所未有的成長。
 
 然而，在成功的同時也出現了技術問題，軟體中發現了許多漏洞。更高的知名度確實意味著有更多的人在檢查程式碼，也更有可能發生操作上的異常。這正是 8 月 15 日發生的值溢出事件，也是 Bitcoin 歷史上第一次「故障」，持續了約 15 小時。這段期間自然是軟體的改良，以預測各種威脅，並盡可能修正瑕疵。
 
 ### 軟體改進
 
-來自 Slashdot 的大量使用者也使得軟體必須加以改進。發現的漏洞需要修正，新功能也必須整合。因此，Satoshi 飽受壓力：7 月 18 日，他[向 Martti Malmi 私下吐露](https://mmalmi.github.io/Satoshi/#email-210)：「我快瘋了，有太多事情要做。在短短兩個月的時間內，Satoshi 推出了 8 個以上的子版本！
+來自 Slashdot 的大量使用者也使得軟體必須加以改進。發現的漏洞需要修正，新功能也必須整合。因此，中本聰飽受壓力：7 月 18 日，他[向 Martti Malmi 私下吐露](https://mmalmi.github.io/Satoshi/#email-210)：「我快瘋了，有太多事情要做。在短短兩個月的時間內，中本聰推出了 8 個以上的子版本！
 
-然而，Bitcoin 的創造者並沒有單獨開發程式碼。他可以依靠 Gavin Andresen，此人於六月到任，並且越來越多地參與開發工作 (截至七月九日，他在 SourceForge 套件庫上 [credited](https://sourceforge.net/p/Bitcoin/code/101/))。也有一些人對於系統如何運作感到好奇，並在遇到問題時回報，例如 Christian Decker (cdecker) 或 Michael Marquardt (化名 Theymos 更為人所知)。Satoshi 也受到礦工的支持，他們修改程式碼以尋找最佳化單位產生的方法，像是 ArtForz (第一個建立 Mining 礦場的人，我們會在下一章看到)、德國開發者 Nils Schneider (tcatm)、Michael Brown (knightmb) 或 BlackEye。
+然而，Bitcoin 的創造者並沒有單獨開發程式碼。他可以依靠 Gavin Andresen，此人於六月加入，並且越來越經常參與開發工作 (截至七月九日，他在 SourceForge 套件庫上 [credited](https://sourceforge.net/p/Bitcoin/code/101/))。也有一些人對於系統如何運作感到好奇，並在遇到問題時回報，例如 Christian Decker (cdecker) 或 Michael Marquardt (化名 Theymos 更為人所知)。中本聰也受到礦工的支持，他們修改程式碼以尋找最佳化單位產生的方法，像是 ArtForz (第一個建立礦場的人，我們會在下一章看到)、德國開發者 Nils Schneider (tcatm)、Michael Brown (knightmb) 或 BlackEye。
 
 最後，我們可以提到 Jeff Garzik (在論壇上使用 jgarzik 這個假名)，他是一位美國開發人員，自由軟體世界的貢獻者，特別是 Red Hat 發行版的貢獻者，也是奧地利經濟學派的自由主義追隨者。他透過 Slashdot 發表的文章發現了 Bitcoin，並幾乎立即參與 Bitcoin。
 
@@ -1074,52 +1074,52 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 
 Jeff Garzik 於 2013 年（資料來源：Jeff Garzik[Benson Samuel](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
 
-Satoshi 的第一個目標是讓軟體和通訊協定更安全，以因應最近使用量的增加。他們與 Gavin Andresen 一起考慮可能發生的各種攻擊 (包括拒絕服務攻擊)，並努力修正發現的漏洞。就這樣，在 7 月 17 日加入了檢查點系統 ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807))，防止鏈在某個日期之前被重寫，並在 7 月 25 日整合了工作的概念 ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707))，以完善節點選擇正確鏈的機制。
+中本聰的首要目標是讓軟體和通訊協定更安全，以因應最近使用量的增加。他們與 Gavin Andresen 一起考慮可能發生的各種攻擊 (包括拒絕服務攻擊)，並努力修正發現的漏洞。就這樣，在 7 月 17 日加入了檢查點系統 ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807))，防止鏈在某個日期之前被重寫，並在 7 月 25 日整合了工作的概念 ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707))，以完善節點選擇正確鏈的機制。
 
-Gavin 和 Satoshi 也修正了幾個 bug。其中最主要的是 "1 RETURN bug"，這是腳本系統中的一個漏洞，它使得使用特定腳本從任何 Address 花費比特幣成為可能。ArtForz 在 7 月 28 日報告了這個漏洞，他沒有利用這個漏洞悄悄地賺錢，而是選擇與 Satoshi 和 Gavin 分享他的發現。Satoshi 很快就在軟體中加入修補程式 ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451))，並建議所有使用者升級。因此，Bitcoin 從潛在的災難性情況中獲救。此漏洞後來以 [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141) 的標識符記錄在 MITRE 中。
+Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"，這是腳本系統中的一個漏洞，使用特定腳本便可以從任何地址花費比特幣。ArtForz 在 7 月 28 日報告了這個漏洞，他沒有利用這個漏洞悄悄地賺錢，而是選擇與中本聰和 Gavin 分享他的發現。中本聰很快就在軟體中加入修補程式 ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451))，並建議所有使用者升級。因此，Bitcoin 從潛在的災難性情況中獲救。此漏洞後來以 [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141) 的標識符記錄在 MITRE 中。
 
-第二個目標是透過修改通訊協定或優化軟體的運作來改善系統的效能。在內部腳本系統中加入`OP_NOP`操作代碼就屬於這一類，由 Satoshi 在 7 月 29 日（v0.3.6）謹慎地進行，唯一的[註解](https://sourceforge.net/p/Bitcoin/code/119/) 是 「擴充」 一詞。這些操作代碼是無聲指令，如果出現在腳本中則沒有任何效果，但也不會使交易失效。因此，我們可以修改這些指令的行為，而不會使腳本與舊版本的通訊協定不相容，這就是 Satoshi 的註解。這些操作代碼在 2015 年和 2016 年會允許所謂的「Soft 分叉」，方法是將指令 `OP_NOP2` 和 `OP_NOP3` 分別轉換為「OP_CHECKLOCKTIMEVERIFY」和「OP_CHECKSEQUENCEVERIFY」。
+第二個目標是改善系統的效能。在內部腳本系統中加入`OP_NOP`操作代碼就屬於這一類，由中本聰在 7 月 29 日（v0.3.6）低調進行，唯一的[評論](https://sourceforge.net/p/Bitcoin/code/119/) 是 「擴充」 一詞。這些操作代碼是無聲指令，如果出現在腳本中則沒有任何效果，但也不會使交易失效。因此，我們可以修改這些指令的行為，而不會使腳本與舊版本的通訊協定不相容，這就是中本聰的註解。這些操作代碼在 2015 年和 2016 年會允許所謂的「軟分叉」，方法是將指令 `OP_NOP2` 和 `OP_NOP3` 分別轉換為「OP_CHECKLOCKTIMEVERIFY」和「OP_CHECKSEQUENCEVERIFY」。
 
 礦工們也會分享他們的發現，直接或間接地改善主軟體比特幣的產生。首先，[Laszlo 的個人優化](https://bitcointalk.org/index.php?topic=199.msg1686#msg1686) 已於 7 月 6 日 (v0.3.0) 整合到軟體中。之後，Nils Schneider 的 SHA-256 Hash 函數的 [context caching](https://bitcointalk.org/index.php?topic=501.msg5815#msg5815) 和 BlackEye 的 [optimization of its calculation](https://bitcointalk.org/index.php?topic=453.msg5774#msg5774) 於 7 月 29 日 (v0.3.6) 加入軟體。最後，由 Nils Schneider (再次) 提出的 [在單一處理器上的平行化計算](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722) 已於 8 月 15 日 (v0.3.10) [整合](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) 到程式碼中。
 
-所有這些改進意味著 Bitcoin 無論是在軟體運作或 Mining 效能方面都日漸強大。然而，這個創新的勢頭卻因為一個深深烙印在社群中的事件而有些黯然失色。這就是八月發生的值溢出事件，網路中斷了大約十五個小時。
+所有這些改進意味著 Bitcoin 無論是在軟體運作或挖礦效能方面都日漸強大。然而，這個創新的勢頭卻因為一個深深烙印在社群中的事件而有些黯然失色。這就是八月發生的值溢出事件，網路中斷了大約十五個小時。
 
-### 價值溢出事件
+### 值溢出事件
 
-2010 年 8 月 15 日下午 5 點左右 (UTC)，一個包含創造了超過 184 *billion* 比特幣的交易的區塊被添加到了高度 74,638 的鏈上。這個超高的發行量利用了數量表示中的記憶體溢出漏洞：攻擊者創建了兩個交易輸出，每個都是 92,233,720,368.54277039 BTC，這個數量接近有符號的 64 位元整數（協定中使用的格式）所能表示的最大單位。
+2010 年 8 月 15 日下午 5 點左右 (UTC)，一個包含創造了超過 1840 *億* 比特幣的交易的區塊被添加到了高度 74,638 的鏈上。這個超高的發行量利用了數量表示中的記憶體溢出漏洞：攻擊者創建了兩個交易輸出，每個都是 92,233,720,368.54277039 BTC，這個數量接近有符號的 64 位元整數（協定中使用的格式）所能表示的最大單位。
 
-一小時之後，Jeff Garzik 發現了這個問題，他在論壇上 [警告](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) 社群有一個「奇怪的區塊」。Satoshi 的回應是在晚上 9 點左右：他在論壇上 [發表](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530) 了初步的程式碼修改，並 [建議](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) 大家「停止產生」。在做了一些修改並上傳到 Sourceforge 之後，他終於在晚上 11:48 [發表](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) 了 Windows、Linux 和 Mac OS X 的修補程式。
+一小時之後，Jeff Garzik 發現了這個問題，他在論壇上 [警告](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474) 社群有一個「奇怪的區塊」。中本聰的回應是在晚上 9 點左右：他在論壇上 [發表](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530) 了初步的程式碼修改，並 [建議](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531) 大家「停止產生」。在做了一些修改並上傳到 Sourceforge 之後，他終於在晚上 11:48 [發表](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590) 了 Windows、Linux 和 Mac OS X 的修補程式。
 
 這個修補程式允許礦工將有罪交易剔除為無效，並建立一個不包含該交易的替代分支。這個分支的 [第一個區塊](https://Mempool.space/block/000000000069e1affe7161ab4bcbeacebb4ddf155b50e807f42de971b688a09b) 在 11:53 PM 被發現。
 
-第二天早上 8 點過後不久，衝突的情況就解決了。正確的鏈變得比另一條長，這意味著所有節點都必須遵循這條鏈，無論他們是否套用修補程式。這次事件擾亂網路活動約 15 小時，但社群的回應能力堪稱典範。Satoshi [寫道](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) 在下午 1 點左右：
+第二天早上 8 點過後不久，衝突的情況就解決了。正確的鏈變得比另一條長，這意味著所有節點都必須遵循這條鏈，無論他們是否套用修補程式。這次事件擾亂網路活動約 15 小時，但社群的回應能力堪稱典範。中本聰[寫道](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) 在下午 1 點左右：
 
 > "看起來我們在 74689 附近的某處超越了壞鏈。&nbsp;0.3.9 及更低的節點已經用當前的區塊號碼回應了幾個小時了。(...)感謝大家的快速回應！"
 ### 警報系統
 
-在七月發現 1 RETURN bug 之後，Satoshi Nakamoto 盡了一切可能來保護網路免於意外。8 月 3 日，他在軟件中加入了一個警告機制，在鏈分裂的情況下啟動 ([v0.3.8](https://bitcointalk.org/index.php?topic=696.msg7364#msg7364))。然而，這個機制被證明對於偵測 15 日出現的數值溢出 bug 並無用處，促使 Satoshi 加速 [他的計劃](https://bitcointalk.org/index.php?topic=823.msg9586#msg9586) 開發更先進的機制。
+在七月發現 1 RETURN bug 之後，中本聰盡了一切可能來保護網路免於意外。8 月 3 日，他在軟件中加入了一個警告機制，在鏈分裂的情況下啟動 ([v0.3.8](https://bitcointalk.org/index.php?topic=696.msg7364#msg7364))。然而，這個機制被證明對於偵測 15 日出現的數值溢出 bug 並無用處，促使中本聰加快 [他的計劃](https://bitcointalk.org/index.php?topic=823.msg9586#msg9586) 開發更先進的機制。
 
-在事件發生後的幾天內，Satoshi 因此在網路上建立了一套有效的警示系統，讓他可以透過私人金鑰，在發生技術問題時警告節點，並暫停某些 API 指令。8 月 22 日，他在論壇上 [介紹](https://bitcointalk.org/index.php?topic=898.msg10722#msg10722) 了他的系統。此公告引起了會員的疑慮，他們認為此系統是一個集中化的元素，也是國家可以利用的漏洞。兩天後，Satoshi [回覆](https://bitcointalk.org/index.php?topic=898.msg11074#msg11074)，稱這些考量為「偏執」，並指明使用者可以手動停用該系統，而且無論如何這都是暫時性的。
+在事件發生後的幾天內，中本聰因此在網路上建立了一套有效的警示系統，讓他可以透過私人金鑰，在發生技術問題時警告節點，並暫停某些 API 指令。8 月 22 日，他在論壇上 [介紹](https://bitcointalk.org/index.php?topic=898.msg10722#msg10722) 了他的系統。此公告引起了會員的疑慮，他們認為此系統是一個集中化的元素，也是國家可以利用的漏洞。兩天後，中本聰[回覆](https://bitcointalk.org/index.php?topic=898.msg11074#msg11074)，稱這些考量為「偏執」，並指明使用者可以手動停用該系統，而且無論如何這都是暫時性的。
 
 8 月 27 日，警報系統正式整合到軟體中（[v0.3.11](https://bitcointalk.org/index.php?topic=941.msg11439#msg11439)）。12 月，暫停功能的可能性被 [移除](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479)。在之後的幾年中，警報系統被使用了好幾次，特別是在 2013 年的一次意外 Fork，之後在 2017 年被確定地從軟體中 [移除](https://Bitcoin.org/en/alert/2016-11-01-alert-retirement)。
 
 ### 區塊大小限制
 
-為了改善通訊協定使其能抵抗攻擊，另一個要素是增加了交易區塊大小限制。這個限制是一個參數，透過要求每個區塊小於這個大小來限制系統的交易容量。其最初的目標是防止針對網路的拒絕服務攻擊。
+為了改善通訊協定使其能抵抗攻擊，另一個要素是增加了交易區塊大小限制。該限制透過要求每個區塊必須小於此大小來限制系統的交易能力。其初衷是防止對網絡的拒絕服務攻擊。
 
-這個參數是由 Satoshi 在 7 月 15 日以常數 `MAX_BLOCK_SIZE` (v0.3.1) 的形式[加入](https://sourceforge.net/p/Bitcoin/code/103/) 到程式碼中，然後設定為 1 megabyte (1,000,000 bytes)。在 9 月 7 日，Bitcoin 的創造者 [進行](https://sourceforge.net/p/Bitcoin/code/103/) 實施約束的程式設計，同樣地，他也沒有公開宣布 (v0.3.12)。它規定大小限制（也限制區塊中的簽章運算符號數量）將從區塊 79,400 開始生效。啟用 [發生](https://Mempool.space/block/000000000021d821ec06be7173f413690bc5c4bc648dfa70b3b6763236f055b7) 在 9 月 12 日。這個限制在當時是相當良性的：它允許每秒 7 個標準交易的吞吐量，這足以支持當時的經濟活動，即使在 slashdotting 之後也是如此。
+這個參數是由中本聰在 7 月 15 日以常數 `MAX_BLOCK_SIZE` (v0.3.1) 的形式[加入](https://sourceforge.net/p/Bitcoin/code/103/) 到程式碼中，然後設定為 1 megabyte (1,000,000 bytes)。在 9 月 7 日，Bitcoin 的創造者 [進行](https://sourceforge.net/p/Bitcoin/code/103/) 實施約束的程式設計，同樣地，他也沒有公開宣布 (v0.3.12)。它規定大小限制（也限制區塊中的簽章運算符號數量）將從區塊 79,400 開始生效。啟用 [發生](https://Mempool.space/block/000000000021d821ec06be7173f413690bc5c4bc648dfa70b3b6763236f055b7) 在 9 月 12 日。這一限制在當時相對較為溫和：它允許每秒 7 次標準交易的通量，對當時的經濟活動來說足夠，甚至在 Slashdot 效應後也是如此。
 
-雖然 Satoshi 並未提及區塊大小限制的存在，但隨著時間的推移，有幾個人注意到它在程式碼中的存在。因此，早在 8 月 12 日，一位使用假名吞吐量的俄語論壇成員就注意到了這一點，他[指出](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873)，以相對有利的語氣說："另一個有趣的方面是，區塊的位元組大小（即其中的交易數量）是有限的。之後，在 9 月 30 日，是 Theymos [指出](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) 另一名會員，「Bitcoin 不允許超過 1MB 的區塊，因此假設（相當小的）平均交易大小為 216 位元組，Bitcoin 每 10 分鐘只能處理 4,629 宗交易」。
+雖然中本聰不曾提及區塊大小限制的存在，但隨著時間的推移，有幾個人注意到它在程式碼中的存在。因此，早在 8 月 12 日，一位使用假名 throughput（吞吐量） 的俄語論壇成員就注意到了這一點，他[指出](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873)，以相對積極的語氣說："另一個有趣的方面是，區塊的位元組大小（即其中的交易數量）是有限的。之後，在 9 月 30 日，是 Theymos [指出](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) 另一名會員，「Bitcoin 不允許超過 1MB 的區塊，因此假設（相當小的）平均交易大小為 216 位元組，Bitcoin 每 10 分鐘只能處理 4,629 宗交易」。
 
-最後，這個參數的存在影響到 Jeff Garzik，他 [宣稱](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) 「比起政府關閉，更關心可擴展性」，他 [詢問](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) 「如何可能將 Bitcoin 賣給嚴肅的投資人，內建的限制像是每分鐘 463 次的交易限制」。因此，10 月 3 日，他在論壇上提出一個修補程式，將區塊大小限制增加到 7.168 MB，以「符合 PayPal 的平均交易率」。Theymos 回應說，「套用這個修補程式會讓您與其他 Bitcoin 用戶端不相容」。這個訊息得到 Satoshi Nakamoto 的認可，他 [建議](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) 不要使用這個修補程式，並表示：「如果我們更接近需要變更，我們可以稍後逐步進行變更」。後者在隔天[澄清](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) 他的想法，提供如何進行這樣的通訊協定變更的指引。
+最後，這個參數的存在影響到 Jeff Garzik，他 [宣稱](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) 「比起政府關閉，更關心可擴展性」，他 [詢問](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) 「如何可能將 Bitcoin 銷售給嚴肅的投資人，內建的限制像是每分鐘 463 次的交易限制」。因此，10 月 3 日，他在論壇上提出一個修補程式，將區塊大小限制增加到 7.168 MB，以「符合 PayPal 的平均交易率」。Theymos 回應說，「套用這個修補程式會讓您與其他 Bitcoin 用戶端不相容」。這個訊息得到中本聰的認可，他 [建議](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) 不要使用這個修補程式，並表示：「如果我們更接近需要變更，我們可以稍後逐步進行變更」。後者在隔天[澄清](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) 他的想法，提供如何進行這樣的通訊協定變更的指引。
 
 ![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/047.webp)
 
-這場討論標誌著關於可擴展性的爭論的開始，而這場爭論最終會在 2015 年到 2017 年之間引發一場真正的內戰，也就是所謂的區塊大小戰 (blockize war)。
+這場討論標誌著關於可擴展性的爭論的開始，而這場爭論最終會在 2015 年到 2017 年之間引發一場真正的內戰，也就是所謂的區塊大小戰爭 (blockize war)。
 
-### 標準腳本樣式
+### 標準腳本模式
 
-9 月，Satoshi 也在程式碼中引入了一個新概念：非標準交易。這些交易是預設配置的節點不會中繼、不會保留在其 Mempool 中、也不會包含在其產生的區塊中的交易。但是，這些交易仍然完全有效，包含這些交易的區塊會被整個網路接受。
+9 月，中本聰在程式碼中引入了一個新概念：非標準交易。這些交易是預設配置的節點不會中繼、不會保留在其 Mempool 中、也不會包含在其產生的區塊中的交易。但是，這些交易仍然完全有效，包含這些交易的區塊會被整個網路接受。
 
 Bitcoin 的腳本系統相當豐富，而且尚未經過充分的檢驗，這種規範性的區別有助於限制對其潛在漏洞的利用，但代價是暫時限制了可編程性。目前，有兩種輸出腳本被網路識別為標準：
 

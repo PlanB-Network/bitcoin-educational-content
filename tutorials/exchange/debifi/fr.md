@@ -3,7 +3,6 @@ name: Debifi
 description: Obtenir un prêt sans garde de fonds garanti par Bitcoin.
 ---
 
-
 ![cover](assets/cover.webp)
 
 
@@ -49,11 +48,10 @@ Avant de vous montrer pas à pas comment faire un emprunt sur Debifi, il me semb
 - **Le ratio prêt/collatéral ou Loan-to-Value (LTV)** d'un prêt détermine combien de liquidités vous pouvez emprunter en garantie de votre Bitcoin. Ratio LTV = Montant du prêt / Montant de la garantie * 100. Par exemple un LTV de 50 % signifie que la valeur du prêt est égale à 50 % de la valeur du Bitcoin déposé.
 
 
-Tutoriel vidéo de BTC Sessions 
+Tutoriel vidéo de BTC Sessions :
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/02gzg-en8n0?si=IdhjOa6Ffas-E3vC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Vidéo tutoriel de BTC Sessions](https://youtu.be/02gzg-en8n0)
 
-[Vidéo tutoriel de BTC Sessions](https://youtu.be/02gzg-en8n0?si=HiENFeajpwqDErm9)
 ## Débuter avec Debifi
 
 Pour débuter sur Debifi, il vous faut des prérequis.
@@ -71,7 +69,7 @@ https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-- KYC (Know Your Customer) : en fonction de l’offre de prêt choisie, un processus de vérification d’identité peut être requis. Sur Debifi, chaque offre indique si la KYC est nécessaire ou non. Donc, préparez-vous en conséquence. Le KYC est assuré par des prestataires tiers fiables tels que Sumsub.
+- KYC (*Know Your Customer*) : en fonction de l’offre de prêt choisie, un processus de vérification d’identité peut être requis. Sur Debifi, chaque offre indique si la KYC est nécessaire ou non. Donc, préparez-vous en conséquence. Le KYC est assuré par des prestataires tiers fiables tels que Sumsub.
 
 ![screen](assets/fr/03.webp)
 
@@ -87,7 +85,7 @@ https://planb.network/tutorials/computer-security/authentication/aegis-authentic
 
 ### Création d’un compte 
 
-Rendez-vous sur [Debifi/app](https://debifi.com/app)
+Rendez-vous sur [le site officiel de Debifi](https://debifi.com/app).
 
 ![screen](assets/fr/04.webp)
 
@@ -135,7 +133,7 @@ Pour la sécurité, Debifi vous demandera de suivre trois étapes.
 
 ![screen|400](assets/fr/16.webp)
 
-https://planb.network/fr/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Notez que seul votre smartphone enregistré pourra ouvrir votre compte (c’est une mesure supplémentaire de sécurité). 
 
@@ -156,9 +154,9 @@ Une fois votre appareil connecté, rendez-vous sur le [site de Debifi](https://d
 ![screen](assets/fr/21.webp)
 
 
-Vidéo tutoriel sur comment se connecter avec son compte sur la plateforme.
+Vidéo tutoriel sur comment se connecter avec son compte sur la plateforme :
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cUwCfTKDAOo?si=SPmQ-3uKct8GrSk5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![video](https://www.youtube.com/cUwCfTKDAOo)
 
 ## Demande de prêt
 
@@ -177,18 +175,21 @@ Debifi mise sur des conditions de prêt transparentes et flexibles pour répondr
 #### Le ratio prêt/collatéral (LTV)
 Les tranches du prêt Bitcoin sont généralement au nombre de trois (3) :
 
-- Conservatrice [20 % – 40 % LTV], qui correspond à un emprunt à faible risque est idéal pour maximiser la sécurité contre la volatilité des prix du Bitcoin ;
+- Conservatrice (20 % – 40 % LTV), qui correspond à un emprunt à faible risque est idéal pour maximiser la sécurité contre la volatilité des prix du Bitcoin ;
 
-- Équilibrée [50 % LTV] ; 
+- Équilibrée (50 % LTV) ; 
 
-- Agressive [70 % – 85 % LTV], qui permet une liquidité accrue, mais comporte un risque très élevé de liquidation lors des baisses du marché. Une surveillance active des conditions du marché Bitcoin est nécessaire lorsque vous optez pour une offre dans cette tranche. 
+- Agressive (70 % – 85 % LTV), qui permet une liquidité accrue, mais comporte un risque très élevé de liquidation lors des baisses du marché. Une surveillance active des conditions du marché Bitcoin est nécessaire lorsque vous optez pour une offre dans cette tranche. 
 
 #### Taux d'intérêt
+
 La fixation des taux dépend généralement de votre LTV choisi, de la durée du terme du prêt, la volatilité des garanties et les évaluations des risques spécifiques à la plateforme. Ils restent fixes pendant toute la durée du prêt. 
-#### Durée de Prêt et Flexibilité du Remboursement 
+#### Durée de Prêt et Flexibilité du Remboursement
+
 Les calendriers de remboursement pour les prêts sont souvent flexibles et adaptés aux besoins de l'utilisateur. Les paiements peuvent être effectués à tout moment tant que les exigences en matière de garantie sont respectées. Les paiements de prêts sont généralement des intérêts pendant toute la durée du prêt, le principal étant dû à l'échéance du prêt.
 
 #### Droits de Liquidation (Appels de Marge)
+
 Comme le prix du bitcoin est volatil, un prêt responsable inclut des politiques spécifiques d'appels de marge dans l'accord. Cette politique permet de notifier à l'emprunteur de soit fournir une garantie supplémentaire, soit rembourser une partie du prêt.
 
 ### Lancement du processus de prêt
@@ -298,11 +299,10 @@ N’utilisez que le site officiel Debifi pour être au parfum des actualités re
 
 Par ailleurs, si vous êtes un prêteur, cette vidéo tutoriel vous guidera dans l'utilisation de la plateforme Debifi. En passant par la sélection des emprunteurs qui s'intéressent à votre offre, la fourniture des clés publiques, la signature des accords, le transfert des stablecoins, etc. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g8iLxwI4xT0?si=CRd1FcNFhOzATLSj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![video](https://www.youtube.com/g8iLxwI4xT0)
 
 Vous savez désormais comment prendre en main la plateforme Debifi pour obtenir un prêt.
 
 Je vous conseille de suivre ce cours qui vous permet d'examiner de manière approfondie Bitcoin, les Stablecoins et leur apport de souveraineté.
-https://planb.network/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46 
 
-[^1]: name
+https://planb.network/courses/fdc41e06-ea63-4bf0-a5ac-a0185fe30e46 

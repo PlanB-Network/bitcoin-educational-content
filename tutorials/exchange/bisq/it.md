@@ -61,9 +61,9 @@ Ulteriori dettagli sono presenti nel wiki: annotare le parole seed e fare il bac
 
 ![Tutto sulle Limitazioni degli Account su Bisq (Solo Fiat)](https://youtu.be/TP5Zh6IJPVo)
  
-Per poter scambiare bitcoin su Bisq, devi impostare un metodo per inviare o ricevere altri fondi. Bisq si occupa solo del lato bitcoin di uno scambio, mentre l'altro lato viene gestito tramite servizi di pagamento fiat (banche, vaglia postali, contanti) o portafogli di altcoin.
+Per scambiare bitcoin su Bisq, devi impostare un metodo per inviare o ricevere altri fondi. Bisq si occupa solo del lato bitcoin in uno scambio, mentre l'altro lato viene gestito tramite servizi di pagamento fiat (banche, vaglia postali, contanti) o portafogli di altcoin.
 
-Non sei sicuro di quale tipo di account di pagamento impostare? C'è una lista completa dei metodi di pagamento nel wiki (https://bisq.wiki/Payment_methods). Se stai scambiando fiat, assicurati di guardare il video sui limiti dell'account o leggere questo articolo nel wiki (https://bisq.wiki/Account_limits).
+Non sei sicuro di quale account di pagamento utilizzare? C'è una lista completa dei metodi di pagamento nel wiki (https://bisq.wiki/Payment_methods). Se stai scambiando fiat, assicurati di guardare il video sui limiti dell'account o leggere questo articolo nel wiki (https://bisq.wiki/Account_limits).
 
 Ci sono molte altcoin disponibili per il trading su Bisq. Ecco alcuni consigli per i mercati principali:
 
@@ -81,15 +81,15 @@ Fare un'offerta di solito ti darà un prezzo migliore e più controllo (ad esemp
 
 Vedi le commissioni di trading qui (https://bisq.wiki/Trading_fees).
 
-Noterai che i creatori di offerte pagano molto meno. Tieni presente che c'è un'app mobile per iOS e Android che puoi utilizzare per ricevere notifiche per nuove offerte e azioni sugli scambi aperti. Per vedere entrambi i lati di uno scambio Bisq contemporaneamente, affiancati, assicurati di guardare il nostro video Bird's Eye View di uno scambio Bisq.
+Noterai che i creatori di offerte pagano molto meno. Tieni presente che c'è un'app mobile per iOS e Android che puoi utilizzare per ricevere notifiche per nuove offerte e azioni sugli scambi aperti. Per vedere entrambe le parti di una transazione su Bisq contemporaneamente, affiancate, assicurati di guardare il nostro video Bird's Eye View di uno scambio Bisq.
 
-Questo è tutto: gli elementi essenziali per iniziare con Bisq.
+Ecco fatto: Questi sono gli elementi essenziali per iniziare con Bisq.
 
 ## Guida passo passo per lo scambio
 
 Guida passo passo di Bitcoiner.guide, alias bitcoinQ&A https://bitcoiner.guide/bisq/
 
-3. Ora che il tuo metodo di pagamento è impostato, puoi andare alla scheda 'Acquista BTC' e vedere i venditori che offrono bitcoin in cambio del tuo metodo di pagamento scelto. Qui puoi vedere il prezzo del BTC, la differenza percentuale rispetto al prezzo 'spot' e la quantità di bitcoin in vendita da ciascun venditore. Una volta trovata un'offerta che ti piace, fai clic su 'Accetta offerta per acquistare BTC'.
+3. Ora che hai configurato il tuo metodo di pagamento, vai alla scheda 'Acquista BTC' per vedere i venditori che offrono bitcoin in cambio del tuo metodo di pagamento scelto. Qui puoi vedere il prezzo del BTC, la differenza percentuale rispetto al prezzo 'spot' e la quantità di bitcoin in vendita da ciascun venditore. Una volta trovata un'offerta che ti piace, fai clic su 'Accetta offerta per acquistare BTC'.
 
 ![immagine](assets/3.webp)
 
@@ -97,7 +97,7 @@ Guida passo passo di Bitcoiner.guide, alias bitcoinQ&A https://bitcoiner.guide/b
 
 ![immagine](assets/4.webp)
 
-5. Ora devi finanziare il tuo portafoglio di scambio con una piccola quantità di bitcoin che funge da deposito di sicurezza. Di solito si tratta di circa il 15% della dimensione dello scambio. Anche il venditore deve effettuare un deposito dal suo lato.
+5. Ora devi finanziare il tuo portafoglio di scambio con una piccola quantità di bitcoin che funge da deposito di sicurezza. Di solito si tratta del 15% dell'importo totale dello scambio. Anche il venditore deve effettuare un deposito dal suo lato.
 
 ![immagine](assets/5.webp)
 
@@ -105,13 +105,15 @@ Guida passo passo di Bitcoiner.guide, alias bitcoinQ&A https://bitcoiner.guide/b
 
 ![immagine](assets/6.webp)
 
-7. Avrai ora una breve attesa mentre la rete Bitcoin conferma la transazione dello scambio, che mette i depositi di sicurezza di entrambe le parti nell'escrow multi-sig.
+7. Avrai ora una breve attesa, mentre la rete Bitcoin conferma la transazione dello scambio, che mette i depositi di sicurezza di entrambe le parti nell'escrow multi-sig.
 
 ![immagine](assets/7.webp)
 
 8. Dopo una conferma sulla blockchain, vedrai una finestra con i dettagli del venditore a cui inviare il pagamento.
 
-![immagine](assets/8.webp) 9. Una volta inviato il pagamento, premi il pulsante per confermare di averlo fatto e poi attendi che il venditore confermi di aver ricevuto i tuoi fondi. A questo punto puoi anche chattare con il tuo partner di scambio tramite messaggi crittografati end-to-end premendo "Apri chat con il trader". Una volta che il venditore conferma di aver ricevuto i fondi, i bitcoin acquistati insieme al tuo deposito di sicurezza saranno rilasciati nel tuo portafoglio Bisq.
+![immagine](assets/8.webp) 
+
+9. Una volta inviato il pagamento, premi il pulsante per confermare di averlo fatto, poi attendi che il venditore confermi di aver ricevuto i tuoi fondi. A questo punto puoi anche chattare con il tuo partner di scambio tramite messaggi crittografati end-to-end premendo "Apri chat con il trader". Una volta che il venditore conferma di aver ricevuto i fondi, i bitcoin acquistati insieme al tuo deposito di sicurezza saranno rilasciati nel tuo portafoglio Bisq.
 
 ![image](assets/9.webp)
 
@@ -123,14 +125,14 @@ Guida passo passo di Bitcoiner.guide, alias bitcoinQ&A https://bitcoiner.guide/b
 
 Anche se l'acquisto su Bisq è semplice, ci sono alcuni compromessi di cui bisogna essere consapevoli.
 
-1. Hai bisogno di BTC prima di fare uno scambio per formare un deposito di sicurezza. Non è un problema se sei nel giro da un po' di tempo, ma potrebbe diventare un problema se vuoi usare Bisq come primo acquisto. La tua migliore opzione in questo caso è ottenere alcuni bitcoin da un amico o un familiare.
+1. Hai bisogno di BTC prima di fare uno scambio, per formare un deposito di sicurezza. Non è un problema se sei nel giro da un po' di tempo, ma potrebbe diventare un problema se vuoi usare Bisq come primo acquisto. La tua migliore opzione in questo caso è ottenere alcuni bitcoin da un amico o un familiare.
 
 2. I bitcoin senza KYC spesso attraggono un premio sopra il prezzo di mercato, il che può scoraggiare alcuni acquirenti. Come ho discusso in precedenza, si tratta di compromessi e personalmente sarei disposto a pagare un 5-8% in più rispetto al prezzo di mercato per poter mantenere al sicuro i miei dati personali.
 
-Se non hai fretta di acquistare, puoi anche creare un "Offerta di acquisto" in cui puoi far sapere alla rete Bisq che sei disposto a acquistare una certa quantità di bitcoin a un certo prezzo rispetto al valore di mercato. Se un venditore si presenta e accetta la tua offerta, può accettarla.
+Se non hai fretta di acquistare, puoi anche creare un "Offerta di acquisto" in cui puoi far sapere alla rete Bisq che sei disposto ad acquistare una certa quantità di bitcoin ad un certo prezzo rispetto al valore di mercato. Se un venditore accetta la tua offerta, può accettarla.
 
-3. Gli scambi decentralizzati a volte possono soffrire di carenze di liquidità rispetto alle entità centralizzate più grandi. Se stai cercando di acquistare importi più grandi più frequentemente, potresti avere difficoltà.
+3. Gli scambi decentralizzati a volte possono soffrire di carenze di liquidità rispetto alle entità centralizzate più grandi. Se vuoi acquistare grandi quantità più frequentemente, potresti avere difficoltà.
 
 4. Anche se non mi è mai successo, a volte il trading peer-to-peer non va come previsto e gli utenti devono seguire il processo di risoluzione delle controversie. Fortunatamente, grazie alla struttura degli incentivi di Bisq, questi casi sono rari.
 
-Come per la maggior parte delle cose legate a Bitcoin, il dibattito KYC/Non-KYC è sfumato e pieno di compromessi. Capisco che le piattaforme più comuni come Coinbase e CashApp rendano molto facile l'acquisto, soprattutto per i principianti, ma ti prego di prenderti un attimo per considerare i compromessi e valutare le alternative prima di dare via così facilmente le tue informazioni personali.
+Come per la maggior parte delle cose legate a Bitcoin, il dibattito KYC/Non-KYC è sfumato e pieno di compromessi. Capisco che le piattaforme più comuni come Coinbase e CashApp rendano molto facile l'acquisto, soprattutto per i principianti, ma ti prego di prenderti un attimo per considerare i compromessi e valutare le alternative prima di fornire così facilmente le tue informazioni personali.

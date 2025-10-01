@@ -649,7 +649,7 @@ Hvala na pažnji. Sledeća sesija će biti u potpunosti posvećena definisanju i
 ### Definicije hiperinflacije
 
 
-U ovom odeljku istražujemo različite definicije hiperinflacije, ključnog pojma u proučavanju ekstremnih monetarnih fenomena. Najpriznatija definicija dolazi od Filipa Kagana, koji u svom delu iz 1956. godine, "Monetarna dinamika hiperinflacije," predlaže kvantitativno razumevanje hiperinflacije. Prema Kaganu:
+U ovom odeljku istražujemo različite definicije hiperinflacije, ključnog pojma u proučavanju ekstremnih monetarnih fenomena. Najpriznatija definicija dolazi od Filipa Cagana, koji u svom delu iz 1956. godine, "Monetarna dinamika hiperinflacije," predlaže kvantitativno razumevanje hiperinflacije. Prema Caganu:
 
 
 
@@ -675,7 +675,7 @@ zum
 Treba napomenuti da ova definicija, iako precizna, može eventualno isključiti određene epizode hiperinflacije zbog strogosti praga od 50%. Postoji mogućnost proširenja ove definicije kako bi se uključile druge epizode koje, iako ne ispunjavaju strogo Caganove kriterijume, ipak predstavljaju periode izuzetno visoke inflacije. Ovo zapažanje otvara vrata širem istraživanju fenomena hiperinflacije, omogućavajući nijansiranije razumevanje njegovih uzroka i efekata. U narednim diskusijama razmotrićemo ponovno razmatranje ove definicije i ispitivanje epizoda hiperinflacije koje nisu obuhvaćene Caganovim strogim kriterijumima.
 
 
-### Definicija hiperinflacije prema Kaganu
+### Definicija hiperinflacije prema Caganu
 
 
 Philip Cagan je možda postavio proizvoljnu granicu sa pragom mesečne inflacije od 50% prilikom definisanja hiperinflacije. On sam priznaje da je ova definicija proizvoljna i da je prvenstveno služila njegovoj analizi zasnovanoj na sedam epizoda hiperinflacije. Ispitivanje Caganovih podataka otkriva da su tri epizode hiperinflacije sa najnižim stopama mesečne inflacije bile oko 47%, 46% i 57%. Izgleda da je prag od 50% izabran kako bi obuhvatio ove slučajeve u njegovoj studiji.
@@ -715,20 +715,20 @@ Ovo razmišljanje nas navodi da preispitamo rigidnost tradicionalne definicije h
 
 Dakle, koliko ukupno ima slučajeva hiperinflacije?
 
-Uobičajene definicije hiperinflacije, kao što je ona koju je predložio Kagan sa mesečnom stopom inflacije od 50%, ponekad mogu biti zbunjujuće ili previše pojednostavljene. Na primer, dve zemlje koje imaju godišnje stope inflacije od 1.000% i 3.000% mogu biti različito percipirane u zavisnosti od mesečne raspodele te inflacije. Ako nijedan mesec ne prelazi prag od 50%, prema Kaganovoj definiciji, te zemlje ne bi bile u stanju hiperinflacije. Ovakav pristup može dovesti do anomalija u klasifikaciji hiperinflacije, posebno kada se upoređuju kumulativne inflacije tokom godine.
+Uobičajene definicije hiperinflacije, kao što je ona koju je predložio Cagan sa mesečnom stopom inflacije od 50%, ponekad mogu biti zbunjujuće ili previše pojednostavljene. Na primer, dve zemlje koje imaju godišnje stope inflacije od 1.000% i 3.000% mogu biti različito percipirane u zavisnosti od mesečne raspodele te inflacije. Ako nijedan mesec ne prelazi prag od 50%, prema Caganovoj definiciji, te zemlje ne bi bile u stanju hiperinflacije. Ovakav pristup može dovesti do anomalija u klasifikaciji hiperinflacije, posebno kada se upoređuju kumulativne inflacije tokom godine.
 
 
 ![image](assets/fr/038.webp)
 
 
 
-- Kaganovo delo, "Monetarna dinamika hiperinflacije," koje pruža fundamentalnu analizu hiperinflacije.
-- Bernoldova knjiga, koja proučava 30 različitih perioda hiperinflacije, čime se proširuje obim analize.
+- Caganovo delo, "Monetarna dinamika hiperinflacije," koje pruža fundamentalnu analizu hiperinflacije.
+- Bernholzova knjiga, koja proučava 30 različitih perioda hiperinflacije, čime se proširuje obim analize.
 - Davidova lična kolekcija novčanica iz 36 perioda hiperinflacije, omogućavajući opipljivo i istorijsko razumevanje.
-- Tabela Hanky Cross (verzija iz 2012, ažurirana 2016. sa Venecuelom), koja navodi 57 perioda hiperinflacije prema Kaganovoj definiciji.
+- Tabela Hanky Cross (verzija iz 2012, ažurirana 2016. sa Venecuelom), koja navodi 57 perioda hiperinflacije prema Caganovoj definiciji.
 
 
-Treba napomenuti da određeni istorijski periodi visoke inflacije nisu uključeni u klasične tabele hiperinflacije, često zbog strogih kriterijuma klasifikacije. Na primer, tokom Američkog rata za nezavisnost u novembru 1779. i tokom Američkog građanskog rata u martu 1864. godine, mesečne stope inflacije su bile 47,4% i 40% respektivno. Ove stope, iako visoke, ne prelaze prag od 50% koji je postavio Kagan, čime su ovi periodi isključeni iz klasifikacije kao slučajevi hiperinflacije. Ovo izostavljanje ilustruje ograničenja rigidnih definicija i naglašava potrebu za nijansiranijim pristupom razumevanju hiperinflacije u svoj njenoj složenosti.
+Treba napomenuti da određeni istorijski periodi visoke inflacije nisu uključeni u klasične tabele hiperinflacije, često zbog strogih kriterijuma klasifikacije. Na primer, tokom Američkog rata za nezavisnost u novembru 1779. i tokom Američkog građanskog rata u martu 1864. godine, mesečne stope inflacije su bile 47,4% i 40% respektivno. Ove stope, iako visoke, ne prelaze prag od 50% koji je postavio Cagan, čime su ovi periodi isključeni iz klasifikacije kao slučajevi hiperinflacije. Ovo izostavljanje ilustruje ograničenja rigidnih definicija i naglašava potrebu za nijansiranijim pristupom razumevanju hiperinflacije u svoj njenoj složenosti.
 
 
 ## Sličnosti između Vajmara i Zimbabvea
@@ -1126,7 +1126,7 @@ Na slajdu, sa leve strane, nalaze se godine redenominacije, naziv nove valute i 
 ![image](assets/fr/052.webp)
 
 
-Na desnoj strani slajda nalazi se grafikon inflacije. Crvene strelice predstavljaju godine hiperinflacije, definisane prema Kaganovom kriterijumu kao stopa inflacije od 50% mesečno. Ovaj kriterijum ponekad može dovesti do dvosmislenih interpretacija, sa godinama koje imaju visoke stope inflacije, ali ne ispunjavaju strogu definiciju hiperinflacije.
+Na desnoj strani slajda nalazi se grafikon inflacije. Crvene strelice predstavljaju godine hiperinflacije, definisane prema Caganovom kriterijumu kao stopa inflacije od 50% mesečno. Ovaj kriterijum ponekad može dovesti do dvosmislenih interpretacija, sa godinama koje imaju visoke stope inflacije, ali ne ispunjavaju strogu definiciju hiperinflacije.
 
 Treba napomenuti da je redenominacija, tokom perioda inflacije, uobičajena mera koju preduzimaju vlade. Međutim, ovo ne rešava osnovni problem inflacije ili hiperinflacije. To je samo način da se valuta preimenuje i uklone nule, bez stvarnog rešavanja osnovnog uzroka hiperinflacije: ekspanzije novca Supply. U kasnijem videu, razgovaraćemo o pravim rešenjima za Address i rešiti problem hiperinflacije. U ovoj seriji, istaknućemo posledice jednostavne redenominacije bez adekvatnih reformi: inflacija opstaje.
 
@@ -1275,7 +1275,7 @@ U zaključku, hiperinflacija je samo jedan aspekt ekonomskih izazova. Visoka inf
 ### Kako okončati umerenu i visoku inflaciju
 
 
-Zaključci pomenuti su izvučeni iz knjige "Monetary Regime and Inflation" autora Bernolda. Prema Bernoldu, jedini način da se okonča inflacija je sprovođenje monetarne reforme i uvođenje ograničenja vladi. Ta ograničenja uključuju uspostavljanje institucije, kao što je centralna banka, koja funkcioniše nezavisno od političkih odluka vlade. Visoka i hiperinflacija su često rezultat finansiranja budžetskih deficita kroz monetarno stvaranje. Da bi se Address umerena inflacija, neophodno je smanjiti rast novca Supply. Bernold takođe predlaže da ovaj monetarni rast treba da bude u odnosu na susedne zemlje. Iznenađujuća tačka je da, tokom perioda visoke ili hiperinflacije, ukupna vrednost novca Supply može zapravo opasti. Upečatljiv primer ove situacije je Zimbabve.
+Zaključci pomenuti su izvučeni iz knjige "Monetary Regime and Inflation" autora Bernholza. Prema Bernholzu, jedini način da se okonča inflacija je sprovođenje monetarne reforme i uvođenje ograničenja vladi. Ta ograničenja uključuju uspostavljanje institucije, kao što je centralna banka, koja funkcioniše nezavisno od političkih odluka vlade. Visoka i hiperinflacija su često rezultat finansiranja budžetskih deficita kroz monetarno stvaranje. Da bi se Address umerena inflacija, neophodno je smanjiti rast novca Supply. Bernholz takođe predlaže da ovaj monetarni rast treba da bude u odnosu na susedne zemlje. Iznenađujuća tačka je da, tokom perioda visoke ili hiperinflacije, ukupna vrednost novca Supply može zapravo opasti. Upečatljiv primer ove situacije je Zimbabve.
 
 
 ### Kontraintuitivna Rešenja
@@ -1284,10 +1284,10 @@ Zaključci pomenuti su izvučeni iz knjige "Monetary Regime and Inflation" autor
 Kada se proučava Zimbabve, primećeno je da je 10 triliona jedinica novca Supply izgubilo svu svoju vrednost. U Vajmaru, bilo je moguće odštampati dve trećine ukupne nominalne vrednosti od 65 milijardi jedinica novca Supply u jednom danu. Ovo pokazuje kako novac Supply može biti devalviran. Da bi se ova situacija popravila, neophodno je značajno povećati novac Supply kako bi se dostigao odgovarajući nivo. Zatim, monetarna reforma je neophodna. U situaciji visoke inflacije, ova reforma je neizbežna, ali mora osigurati da ima dovoljno novca u opticaju. Nakon ovog koraka, mogu se uvesti ograničenja za vladu.
 
 
-Prema Bernoldovim zapažanjima, kada je reč o rešavanju problema inflacije, institucije poput MMF-a i Svetske banke ne usvajaju uvek pravu strategiju. U nekim slučajevima, kada zemlja treba da poveća svoj novčani Supply, ove institucije nastoje da ga smanje. Ključ je dostići adekvatan monetarni nivo i zatim postaviti ograničenja na njegov rast, čime se izbegava finansiranje državnih troškova kroz kreiranje novca.
+Prema Bernholzovim zapažanjima, kada je reč o rešavanju problema inflacije, institucije poput MMF-a i Svetske banke ne usvajaju uvek pravu strategiju. U nekim slučajevima, kada zemlja treba da poveća svoj novčani Supply, ove institucije nastoje da ga smanje. Ključ je dostići adekvatan monetarni nivo i zatim postaviti ograničenja na njegov rast, čime se izbegava finansiranje državnih troškova kroz kreiranje novca.
 
 
-Jedan zanimljiv aspekt koji je istakao Bernold je da uspeh monetarne reforme zavisi ne samo od njene tehničke relevantnosti već i od poverenja koje stanovništvo ima u nju. Neke dobro osmišljene reforme mogu propasti jer im javnost ne veruje, dok druge, loše osmišljene, mogu uspeti jer im stanovništvo veruje. Percepcija i poverenje javnosti su stoga ključni Elements za uspeh ili neuspeh monetarne reforme.
+Jedan zanimljiv aspekt koji je istakao Bernholz je da uspeh monetarne reforme zavisi ne samo od njene tehničke relevantnosti već i od poverenja koje stanovništvo ima u nju. Neke dobro osmišljene reforme mogu propasti jer im javnost ne veruje, dok druge, loše osmišljene, mogu uspeti jer im stanovništvo veruje. Percepcija i poverenje javnosti su stoga ključni Elements za uspeh ili neuspeh monetarne reforme.
 
 
 

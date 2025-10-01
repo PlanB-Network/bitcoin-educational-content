@@ -156,7 +156,7 @@ Une fois votre appareil connecté, rendez-vous sur le [site de Debifi](https://d
 
 Vidéo tutoriel sur comment se connecter avec son compte sur la plateforme :
 
-![video](https://www.youtube.com/cUwCfTKDAOo)
+![video](https://youtu.be/cUwCfTKDAOo)
 
 ## Demande de prêt
 
@@ -299,7 +299,7 @@ N’utilisez que le site officiel Debifi pour être au parfum des actualités re
 
 Par ailleurs, si vous êtes un prêteur, cette vidéo tutoriel vous guidera dans l'utilisation de la plateforme Debifi. En passant par la sélection des emprunteurs qui s'intéressent à votre offre, la fourniture des clés publiques, la signature des accords, le transfert des stablecoins, etc. 
 
-![video](https://www.youtube.com/g8iLxwI4xT0)
+![video](https://youtu.be/g8iLxwI4xT0)
 
 Vous savez désormais comment prendre en main la plateforme Debifi pour obtenir un prêt.
 

@@ -134,7 +134,7 @@ Con la fotocamera del cellulare attivata, inquadra il QR code nella chat, aprend
 
 ![image](assets/it/34.webp)
 
-Prima di continuare, Wallet Of Satoshi mostra una schermata di verifica che include l’importo esatto corrispondente a quello espresso sul voucher e, come descrizione, BitcoinVoucherBot. Per incassare il voucher basta cliccare su _Receive_
+Prima di continuare, Wallet Of Satoshi mostra una schermata di verifica che include l’importo esatto corrispondente a quello espresso sul voucher e come descrizione, BitcoinVoucherBot. Per incassare il voucher basta cliccare su _Receive_
 
 ![image](assets/it/35.webp)
 

@@ -5,6 +5,5 @@ wrong_answers:
   - Swift, Kotlin, Ruby
   - PHP, Perl, Lua
 explanation: |
-  Bu bölüm Python, C ve Java'yı şu kaynaklardan bazıları olarak listelemektedir
-  siber güvenlikte kullanılan programlama dilleri.
+  Bu bölüm Python, C ve Java'yı siber güvenlikte kullanılan bazı programlama dilleri olarak listelemektedir.
 reviewed: true

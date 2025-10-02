@@ -1,9 +1,10 @@
 question: Windows'ta yönetici hesabı kullanmak için önerilen uygulama nedir?
-answer: İki ayrı hesap oluşturun - bir yönetici hesabı ve günlük kullanım için bir hesap.
+answer: İki ayrı hesap oluşturun - biri yönetici hesabı, biri günlük kullanım için.
 wrong_answers:
   - Bilgisayar internete bağlı değilse yönetici hesabını günlük olarak kullanın.
   - Biri günlük kullanım, diğeri işletim sistemi yönetimi için olmak üzere iki ayrı yönetici hesabı oluşturun.
   - Bir yönetici hesabı oluşturmayın.
 explanation: |
-  Windows'ta günlük kullanım için bir yönetici hesabı kullanmak sistemi daha fazla güvenlik riskine maruz bırakabilir. İki ayrı hesap oluşturulmalıdır: biri yönetim görevleri için diğeri günlük kullanım için.
+  Windows'ta günlük kullanım için bir yönetici hesabı kullanmak sistemi daha fazla güvenlik riskine maruz bırakabilir. 
+  İki ayrı hesap oluşturulmalıdır: biri yönetim görevleri için, diğeri günlük kullanım için.
 reviewed: true

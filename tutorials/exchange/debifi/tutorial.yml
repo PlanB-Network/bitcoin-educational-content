@@ -1,149 +1,28 @@
 id: f99dd1ed-c171-458c-b735-52cd9ba9968f
 
-project_id: 26d603ee-4b5a-4695-86c1-fe7658294413
-
 category: peer-to-peer
 
-level: intermediate
+project_id: 26d603ee-4b5a-4695-86c1-fe7658294413
 
-professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
-
-# Proofreading metadata
-
-original_language: en
-proofreading:
-  - language: en
-    last_contribution_date: 2025-08-20
-    urgency: 1
-    contributor_names:
-      - PaoloFoti
-    reward: 1
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.35
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.35
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: fa
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.35
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.68
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.51
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.35
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.6
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: nl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: pl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.35
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: sr-Latn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: sv
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.35
-  - language: sw
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: tr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.51
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.6
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.51
-  - language: zh-Hant
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.51
-  - language: ko
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: rn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.6
 tags:
   - investment
   - finance
   - regulation
+
+level: beginner
+
+professor_id: 56a6dc42-af0b-45f1-a720-b5e8a7de1e81 
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-10-01
+    urgency: 1
+    contributor_names:
+      - marshal-opsource
+    reward: 0
+
+
+

@@ -1,9 +1,9 @@
-question: Kiedy Commitment Transaction jest publikowany na Bitcoin Blockchain?
+question: Kiedy transakcja zobowiązująca jest publikowana w łańcuchu bloków Bitcoina?
 answer: Ostatecznie, gdy kanał jest zamknięty
 wrong_answers:
   - Natychmiast po każdym transferze w kanale
-  - Przed każdym nowym Commitment Transaction
+  - Przed każdą nową transakcją zobowiązującą
   - Po wyczerpaniu dostępnych środków
 explanation: |
-  Transakcje Commitment są tworzone i podpisywane dla każdej zmiany alokacji, ale są one ostatecznie publikowane na Blockchain tylko w przypadku zamknięcia kanału.
+  Transakcje zobowiązujące są tworzone i podpisywane dla każdej zmiany alokacji środków, ale są one ostatecznie publikowane w łańcuchu bloków tylko w przypadku zamknięcia kanału.
 reviewed: false

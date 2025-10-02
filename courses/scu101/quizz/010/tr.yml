@@ -7,7 +7,6 @@ wrong_answers:
 explanation: |
   Kurumsal VPN'ler işletmeler için tasarlanmıştır ve
   genellikle kurulumu ve yönetimi daha pahalı ve karmaşıktır.
-  Öte yandan, tüketici VPN'leri aşağıdakiler için tasarlanmıştır
-  bireysel kullanıcılar ve genellikle daha erişilebilir ve
-  kullanıcı dostu.
+  Öte yandan, tüketici VPN'leri bireysel kullanıcılar için tasarlanmıştır
+  ve genellikle daha erişilebilir ve kullanıcı dostudur.
 reviewed: true

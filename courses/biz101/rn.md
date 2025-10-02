@@ -80,32 +80,31 @@ Gushiramwo amafaranga nk’uruja n’uruza ntivyorosha gusa ubudandaji ariko kan
 kamere y'umuhora  w'amafranga urazanana n'izindi nyungu zihambaye. Ica mbere nambere , kuba mu muhora  w’amahera ni **ivyiza kuruta kuba hanze yawo**. Itegeko ry'urubuga rusangi ryorosha ubudandaji, rituma abantu bashobora guhuza ibikorwa vyabo vy'ubutunzi mbere no **mumihingo itandukanye ya kure na kure**. Nk’akarorero, umucuruzi wo mu gisagara kimwe arashobora gucuruza ibintu k’umuguzi wo mu kindi gisagara  akoresheje amahera amwe, ivyo bikaba bituma ubutunzi butera imbere be n’ugufashanya mu turere tunini.
 
 
-Ikindi ciza gikomeye c’amahera ni ubushobozi bwayo bwo **kwemera guhindura amafaranga**. Iyo umuntu akoresheje ubuhinga bwo guhinduranya, amafaranga aca ahita; iciza kimwe gihindurwa n’ikindi mu gihe nyaco. Amafaranga, ariko, arashoboza **kuzigama—abantu barashobora kubika agaciro kugira ngo bazokoreshe muri kazoza**. Ivyo bigereranya ugutera imbere gukomeye mu bijanye n’igenamigambi ry’ubutunzi, ishoramari, n’ukwirundanira ubutunzi, ivyo vyose bikaba bituma ubuzima bw’abaje mu nama butera imbere.
+akandi karusho gakomeye ka mahera ni ubushobozi  bwayo bwo **bwo ku ronkamwo ingurane **. Mu buryo bwokuzanya umuntu muguzanya muri uwo mwanya nyene , muguzanya ikintu nikindi muri ako kanya nyene ntavyingurane vyoroshe nkamahera. gusa amahera urashobora kuziganya ,ukayabika ukanayakoresha muri kazoza  Amafaranga, ariko, arashoboza . Ivyo vyerekana iterambere rinini mwitegekanywa ry'ubutunzi ryubutunzi , ishoramari, n’ukwirundanira ubutunzi, ivyo vyose bigatuna vyongerereza imibereho myiza yaba korera muri uwo muhora .
 
 
-Mu gusozera, amafaranga ni imirongo yagenewe gutwara agaciro neza. Binesha imipaka y’uguhinduranya, bikorohereza ubudandaji, kandi bikazana uturyo two guhuza no kuzigama. Nka kurya kw’urubuga urwo ari rwo rwose, agaciro k’amahera kavana n’ukuntu abantu benshi bayakoresha be n’ingene akoreshwa—amaherezo, amahera meza kuruta ayandi yose ni yo atsinda.
+Mu gusozera, uburyo bwogukoresha amahera ni umuhora wakozwe kugira ngo habeho ukworohererezwa bwirungikwa ryubu tunzi .Iratuma ikuraho imbibe zitarerwa nuburyo bwokuguzanya (le troc) , bikorosha uruja nuruza rwibintu nkakarorero mubudandaji , kandi bikazana amahirwe mumikoranire hagati yi nganda canke amashirahamwe   no kuzigama. nkumu hora wariwo wose ,agaciro kamahera kavana nukuntu akoreshwa  n'ingene akoreshwa , inyuma na nyuma , amafaranga yigenza neza kurusha ayandi niyo  atsinda.
 
 
-### Ifaranga ryiza ni irihe ?
+### amahera ameze neza  ni ayahe  ?
 
 
-Ifaranga ryiza rifise ibintu vyinshi bihambaye bituma rikora neza mu kworohereza agaciro ka Exchange. Ehe insobanuro ngufi ya buri kimwe cose:
+amahera ameze neza afise ibintu vyishi ngirakamaro atuma akora neza akanorohereza irungika ni rungikwa ryubu tunzi  Ifaranga . ngizi insiguro zipfunapfunye  zokuri imwe imwe yose :
 
 
-
-- **Secure**: Amafaranga ategerezwa kurindwa ubusuma canke ukuyironka ata wemerewe, kugira ngo abakoresha bashobore kuyafata no kuyarungika ataco yizigiye. Umutekano ni ikintu gihambaye cane kugira ngo umuntu yizigire iyo nzira.
-
-
-
-- **Counterfeit-Proof**: Amafaranga ategerezwa kuba agoye cane canke adashoboka ko umuntu ashobora kwigana. Ivyo bituma igice cose kiba ari ic'ukuri, kikaguma gifise agaciro, kandi kigakingira ugutera imbere kw'ibiciro bitewe n'ibice vy'ibinyoma vyinjira mu bikorwa. Nk'akarorero, mu mateka, inzahabu ntiyahawe agaciro kubera ubwiza bwayo gusa n'ukuntu idasanzwe, ariko kubera ko ari Hard cane yo gukora. Mu buryo butandukanye n'amakete yo ku mpapuro canke amakuru yo kuri interineti, ntushobora gusa "gukora" inzahabu—itegerezwa gucukurwa mw'isi. Ukwo kubura kw'ibisanzwe be n'ingorane zo gukora inzahabu vyatumye iguma ari ububiko bw'agaciro bwizigirwa be n'ikigereranyo c'ukuri.
+kkintu gihambaye kugira habe ukwizera ubu buryo  bwirungika ni rungikwa .
 
 
 
-- **Scarce**: Amafaranga meza ategerezwa kuba afise Supply canke gusohoka bigenzurwa. Ubukene buratuma agaciro kayo kagumaho uko igihe kigenda kirarenga, bikaba bituma umuntu adashobora gukora ibintu birenze urugero, ivyo bikaba vyotuma ubushobozi bwo kugura bugabanuka. Nk'akarorero, imiryango imwimwe y'Abanyamerika b'imvukira yakoresha amabuye nk'uburyo bwo gukoresha amahera. Mu ntango, ayo mabuye yari Hard kugira ngo akore, akaguma ari make kandi afise agaciro. Ariko rero, abacuruzi b'i Buraya bamaze gutangura gukora amabuye menshi cane no kwuzuza isoko amabuye, ukuntu vyari bimeze gake vyarazimangana. Uko Supply yagenda iraduga cane, ayo mabuye yaratakaje ububasha bwo kugura, ivyo bikaba vyatumye uruhara rwayo rwo kuba
+- **Counterfeit-Proof**: amahera ategerezwa kuba agoye cane gose canke atanashoboka ko umuntu ashaka kuyigana ashobora kuyigana  . Ivyo  bigasabako akantu kose kari kuri ayo mahera kaba kari kanyako gakozwe kubuhinga katopfa gusubirwamwo uko umuntu yishakiye , amahera arazigama agaciro kayo, bivanye nuko kuntu akoranye ubuhinga bigatuma abasuma badashobora kuyigana ngo bateshe agaciro ayo mahera   mugushira amahera meshi mubantu atemewe nama tegeko yinyiganano bigatuma ibintu   bitangura kuduga ibiciro  . Nk'akarorero, mubihe vyakera , inzahabu ntiyakunzwe kubera gusa ubwiza canke ukutaboneka cane  , ariko kubera bigoye cane kubucukura no kubuhingura . aho bitandukaniye nama hera yimapuro canke amahera ngurukana bumenyi , inzahabu ntamuntu ashobora kuyikora, barabucukura mwisi ndimwa . Ukwo kutaboneka ndemano kwa zahabu  be n'igorana ryo gucukura noguhingura vyatumye zahabu igumana ishusho ryubudahangarwa  ryuburunzi bwizewe ikongera ikaba icitegererezo nyakuri.
 
 
 
-- **Permissionless**: Kera, amafaranga nk'ibiceri vy'inzahabu n'ivy'ifeza akenshi yacungurwa n'abantu ku giti cabo, abategetsi bo mu karere canke abacuruzi bari bafise uburenganzira bwo kuronka ibikoresho vya mbere. Uwo murongo rimwe na rimwe warakoreshwa hakurikijwe amasezerano canke uruhusha rwatanzwe n'abami canke abategetsi. Haciye igihe, abami n'intwaro barashize hamwe iyo nzira kugira ngo bashobore kurushiriza kugenzura ugushikama kw'ubutunzi, imisoro be n'urutonde rw'amahera. Akarorero kamwe kazwi cane ni **thaler**, ifeza Coin yacuzwe ubwa mbere mu 1518 mu **kiyaya ca Joachimsthal** (ubu ni Jáchymov muri Repubulika ya Tchèque) n'abacukuzi b'amabuye y'agaciro bo muri ako karere be n'ab
+- **ukutaboneka cane **: Amafaranga ategerezwa kuba afise igitigiri nyezina yayakoreshwa mubantu atari umurengera kandi akaba akwirikiramwa mugitigiri c'ikorwa ryayo. Ukutaboneke cane biratuma amahera agumana  agaciro   uko ubihe bigenda birahera , mukurinda guhingura amahera yumusesekara bigatuma  ubushobozi bwo kugura bugabanuka. Nk'akarorero, imiryango imwimwe y'Abanyamerika b'imvukira yakoresha amabuye yagaciro  mukubaho nkuku twebwe dukoresha amahera mukugura ibintu . Mu ntango, ayo mabuye yari agoye guhingura ( gucukura ) akaba arico gituma uko kutaboneka cane vyatumye ayo mabuye yagaciro agumana agaciro kanini muri uwo muryango . Ariko rero, aho abacuruzi b'i Buraya batanguye gucukura ayo mabuye yagaciro kumurindi urihejuru amabuye akaba meshi cane kwisoko hakuzura ayo mabuye , uko kutaboneke vyaciye bitituka . Uko inzahabu zaba nyishi , niko zatakaza agaciro  mububasha bwo kugura, ivyo vyatumye kandi  ayo mabuye ata  ubudahangarwa nkubutunzi bwizewe.
+
+
+
+- **ataruhusha **: Kera, amafaranga nk'ibiceri ( ibingorongoro)  vy'inzahabu n'ivy'ifeza akenshi vyahingurwa( barabicura ) n'abantu ku giti cabo, nkabategetsi bo mu karere canke abacuruzi baba bafise uruhusha nubushobozi bwogucukura mubirombe izo nzahabu zitara hingurwa . Ubwoburyo bwakora rimwe rimwe bisunze amasezerano ni mpusha zatangwa numwami nyezina canke abatware bagace bashaka kuranguriramwo ivyo bikorwa . Uko ibihe vyagiye biragenda, Abami n'intwaro bagiye bariyegereza ivyobikorwa vyoguhingura ivyo biceri  kugira bashobore gukwirikirana no gucungera ubutunzi bushikamye  , amakori be n'uburyo  bw'amahera. Akarorero ka menyekanye cane ni  **thaler**, ifeza ryambere  ryatanguye gukoreshwa  mu 1518 mu **kiyaya ca Joachimsthal** (ubu ni Jáchymov muri Repubulika ya Tchèque) n'abacukuzi b'amabuye y'agaciro hamwe nabatware bako karere.Iryo zina  "thaler" rivuye mururimi rwiki dage  "Thal " bisigura  "umwomga"
 
 
 Mu bihe vya none, amafaranga yaraciye yemererwa bimwe bishitse mu gihe c’ubutegetsi bwa seigniorage, ivyo bikaba bisobanura ko ibigo vyemewe vyonyene—nk’amabanki akomeye canke ububiko bw’amahera—ari vyo vyari gushobora gukora ibiceri canke gucapura amanoti y’amahera. Abantu ku giti cabo ntibakiri bemerewe n’amategeko gukora amafaranga, bikaba ari vyo bituma habaho ubugenzuzi bumwe ku bijanye n’ugusohora amafaranga n’ama Supply.

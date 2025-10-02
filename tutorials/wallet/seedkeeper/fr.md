@@ -145,11 +145,11 @@ Appuyez sur le bouton "Révéler".
 
 Scannez de nouveau votre SeedKeeper.
 
-12
+21
 
 Votre phrase mnémonique précédemment enregistrée s’affiche désormais à l’écran.
 
-13
+22
 
 ## 7. Faire une sauvegarde du Seedkeeper
 
@@ -157,39 +157,39 @@ Nous allons maintenant réaliser une sauvegarde de mon SeedKeeper sur un second 
 
 Pour cela, munissez-vous de votre second SeedKeeper (pensez à identifier l’un des deux avec une marque dessus pour éviter toute confusion). Commencez par l’initialiser en reproduisant le processus de l’étape 4 de ce tutoriel. Choisissez une nouvelle fois un mot de passe fort. Selon votre stratégie, vous pouvez opter pour un mot de passe différent ou conserver le même.
 
-14
+23
 
 Ouvrez l’application, cliquez sur "Click & Scan", saisissez le mot de passe de votre SeedKeeper n°1 (source), puis scannez-le.
 
-15
+24
 
 Vous accédez à sa page d’accueil avec la liste de vos secrets. Cliquez sur les trois petits points en haut à droite de l'interface.
 
-16
+25
 
 Sélectionnez "Faire une sauvegarde", puis appuyez sur "Start".
 
-17
+26
 
 Saisissez le code PIN de votre carte de sauvegarde (SeedKeeper n°2).
 
-18
+27
 
 Scannez ensuite cette carte.
 
-19
+28
 
 Faites de même avec la carte principale (SeedKeeper n°1), puis cliquez sur "Faire une sauvegarde".
 
-20
+29
 
 Votre SeedKeeper n°2 contient désormais l’intégralité des secrets enregistrés sur le SeedKeeper n°1.
 
-21
+30
 
 Vous pouvez scanner votre SeedKeeper n°2 pour vérifier que les secrets ont bien été copiés.
 
-22
+31
 
 Voilà ! Vous savez désormais comment utiliser le SeedKeeper pour sauvegarder la phrase mnémonique d’un portefeuille Bitcoin. Dans un prochain tutoriel, nous verrons comment utiliser le SeedKeeper pour stocker vos mots de passe. Je vous invite également à découvrir son usage combiné avec le SeedSigner :
 

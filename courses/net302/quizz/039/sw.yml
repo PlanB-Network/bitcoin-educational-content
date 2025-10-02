@@ -6,4 +6,4 @@ wrong_answers:
   - Address ya kibinafsi inatolewa kila wakati na DHCP
 explanation: |
   IPv4 Address ya umma ni ya kipekee duniani kote na inaweza kubadilishwa kwenye Mtandao, wakati Address ya kibinafsi inatumika ndani ya mtandao wa ndani pekee.
-reviewed: false
+reviewed: true

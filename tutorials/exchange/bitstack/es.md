@@ -126,7 +126,7 @@ Su transacción está confirmada.
 
 ### Crear un ACA
 
-El Dollar Cost Averaging* (DCA) es una atractiva estrategia de inversión para acumular bitcoins al tiempo que se reducen los riesgos asociados a su volatilidad. Al comprar regularmente una cantidad fija, independientemente del precio, puede suavizar su coste de adquisición y evitar la toma de decisiones impulsivas. El DCA ayuda a reducir sesgos de comportamiento como el miedo a perder una oportunidad o el pánico en caso de caída del precio, y le permite así gestionar sus ahorros en bitcoins de forma serena y disciplinada.
+El **Dollar Cost Averaging** (DCA) es una atractiva estrategia de inversión para acumular bitcoins al tiempo que se reducen los riesgos asociados a su volatilidad. Al comprar regularmente una cantidad fija, independientemente del precio, puede suavizar su coste de adquisición y evitar la toma de decisiones impulsivas. El DCA ayuda a reducir sesgos de comportamiento como el miedo a perder una oportunidad o el pánico en caso de caída del precio, y le permite así gestionar sus ahorros en bitcoins de forma serena y disciplinada.
 
 Para configurar una compra recurrente (DCA) en Bitstack, vaya a la sección "*Ahorro*" de la página de inicio y seleccione "*Recurrente*". A continuación, pulsa "*Continuar*".
 

@@ -175,7 +175,7 @@ La criptografía se considera una subdisciplina de la **ciberseguridad**, que se
 
 Por ejemplo, si una empresa aloja costosos servidores a nivel local, puede que le preocupe proteger este hardware de robos y daños. Aunque se trata de un problema de ciberseguridad, tiene poco que ver con la criptografía.
 
-Por ejemplo, los ataques de suplantación de identidad (phishing)** son un problema común en nuestra era moderna. Estos ataques intentan engañar a la gente a través de un correo electrónico o algún otro medio de mensaje para que renuncie a información sensible como contraseñas o números de tarjetas de crédito. Aunque la criptografía puede ayudar a hacer frente a los ataques de phishing hasta cierto punto, un enfoque integral requiere algo más que el uso de algo de criptografía.
+Por ejemplo, los ataques de suplantación de identidad **(phishing)** son un problema común en nuestra era moderna. Estos ataques intentan engañar a la gente a través de un correo electrónico o algún otro medio de mensaje para que renuncie a información sensible como contraseñas o números de tarjetas de crédito. Aunque la criptografía puede ayudar a hacer frente a los ataques de phishing hasta cierto punto, un enfoque integral requiere algo más que el uso de algo de criptografía.
 
 **Notas:**
 

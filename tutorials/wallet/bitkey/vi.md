@@ -1,5 +1,5 @@
 ---
-name: Chìa khóa Bitkey
+name: Bitkey
 description: Hardware Wallet không hạt
 ---
 ![cover](assets/cover.webp)

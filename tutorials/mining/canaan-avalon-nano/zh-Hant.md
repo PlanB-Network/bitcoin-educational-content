@@ -1,5 +1,5 @@
 ---
-name: 迦南 Avalon Nano 3S
+name: Canaan Avalon Nano 3S
 description: 設定您的 ASIC Avalon 用於獨採或 Miner 匯集
 ---
 

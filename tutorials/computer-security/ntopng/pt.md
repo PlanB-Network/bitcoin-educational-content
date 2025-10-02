@@ -160,9 +160,9 @@ Aqui, vejo 3 interfaces:
 
 
 
-- Lo**: este é o Interface de loopback; é um Interface virtual que faz um "loop" sobre o equipamento. Basicamente, este Interface, cujo Address é 127.0.0.1 (embora qualquer Address em 127.0.0.0/8 sirva, pois esta faixa é reservada para este fim) é usado para contactar o próprio equipamento. Se instalou um sítio web na sua estação de trabalho (usando o WAMPP, por exemplo), provavelmente já usou o Address "*localhost*" Address numa altura ou noutra para mostrar o site alojado na sua própria máquina. Este nome de host está associado ao Address 127.0.0.1 e, portanto, ao loopback do Interface.
-- ens33**: este é o meu primeiro Interface, que recebeu um Address aqui do meu DHCP
-- ens36**: o meu segundo Interface
+- **Lo**: este é o Interface de loopback; é um Interface virtual que faz um "loop" sobre o equipamento. Basicamente, este Interface, cujo Address é 127.0.0.1 (embora qualquer Address em 127.0.0.0/8 sirva, pois esta faixa é reservada para este fim) é usado para contactar o próprio equipamento. Se instalou um sítio web na sua estação de trabalho (usando o WAMPP, por exemplo), provavelmente já usou o Address "*localhost*" Address numa altura ou noutra para mostrar o site alojado na sua própria máquina. Este nome de host está associado ao Address 127.0.0.1 e, portanto, ao loopback do Interface.
+- **ens33**: este é o meu primeiro Interface, que recebeu um Address aqui do meu DHCP
+- **ens36**: o meu segundo Interface
 
 
 
@@ -211,8 +211,8 @@ Eis algumas explicações sobre estas primeiras alterações:
 
 
 
-- auto *Interface***: irá "iniciar" automaticamente o Interface no arranque do sistema
-- iface *Interface* inet manual**: para utilizar o Interface sem qualquer IP Address. Tal como a palavra-chave "static" para definir um IP Address estático ou "dhcp" para utilizar o endereçamento dinâmico
+- auto **Interface**: irá "iniciar" automaticamente o Interface no arranque do sistema
+- iface *Interface* inet **manual**: para utilizar o Interface sem qualquer IP Address. Tal como a palavra-chave "static" para definir um IP Address estático ou "dhcp" para utilizar o endereçamento dinâmico
 
 
 
@@ -239,10 +239,10 @@ Mais uma vez, algumas explicações:
 
 
 
-- iface br0 inet static**: aqui eu defini minha ponte Interface (*br0*) com um Address estático.
-- Address, máscara de rede, gateway**: informações de endereçamento da placa
-- bridge_ports**: interfaces a incluir na ponte
-- bridge_stp**: o protocolo Spanning Tree é utilizado na interligação de comutadores para detetar ligações redundantes e evitar loops. Como uma ponte pode ser inserida entre dois caminhos de rede, ela pode ser a fonte de um loop, daí a possibilidade de ativar esse protocolo. Não preciso dele aqui, por isso estou a desactivá-lo.
+- iface br0 inet static: aqui eu defini minha ponte Interface (*br0*) com um Address estático.
+- **Address, máscara de rede, gateway**: informações de endereçamento da placa
+- **bridge_ports**: interfaces a incluir na ponte
+- **bridge_stp**: o protocolo Spanning Tree é utilizado na interligação de comutadores para detetar ligações redundantes e evitar loops. Como uma ponte pode ser inserida entre dois caminhos de rede, ela pode ser a fonte de um loop, daí a possibilidade de ativar esse protocolo. Não preciso dele aqui, por isso estou a desactivá-lo.
 
 
 
@@ -281,8 +281,8 @@ Por defeito, as fontes de pacotes contêm apenas pacotes compatíveis com a DFSG
 
 
 
-- contrib**: pacotes contendo software compatível com DFSG, mas usando dependências que não fazem parte do ramo **main**
-- non-free**: contém pacotes que não são compatíveis com a DFSG
+- **contrib**: pacotes contendo software compatível com DFSG, mas usando dependências que não fazem parte do ramo **main**
+- **non-free**: contém pacotes que não são compatíveis com a DFSG
 
 
 
@@ -442,7 +442,7 @@ Para o demonstrar, lanço um vídeo do YouTube no meu anfitrião:
 
 
 
-**O tráfego foi imediatamente reconhecido e categorizado!
+**O tráfego foi imediatamente reconhecido e categorizado!**
 
 
 

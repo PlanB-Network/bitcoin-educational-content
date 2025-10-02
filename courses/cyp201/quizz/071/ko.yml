@@ -1,0 +1,9 @@
+question: 파생 경로에서 통화 유형을 지정하는 깊이는 어느 정도인가요?
+answer: 깊이 2
+wrong_answers:
+  - 깊이 1
+  - 깊이 3
+  - 깊이 4
+explanation: |
+  깊이 2는 Bitcoin(인덱스 0') 또는 라이트코인(인덱스 2')과 같은 다중 통화 지갑의 통화를 식별하는 데 사용됩니다.
+reviewed: false

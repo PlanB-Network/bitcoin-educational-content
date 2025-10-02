@@ -1,5 +1,5 @@
 ---
-name: Dompet Proton
+name: Proton Wallet
 description: Menginstal dan menggunakan dompet Bitcoin Proton
 ---
 ![cover](assets/cover.webp)

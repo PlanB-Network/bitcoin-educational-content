@@ -25,7 +25,7 @@ Peach ni jukwaa la P2P Exchange linaloruhusu watumiaji kununua na kuuza bitcoins
 ### 2. Ukusanyaji wa Faragha na Data
 
 
-**Je, Peach inakusanya taarifa gani?
+**Je, Peach inakusanya taarifa gani?**
 
 
 Peach hujitahidi kuhifadhi kiwango cha chini kabisa cha data kuhusu watumiaji wake. Hapa kuna muhtasari wa data iliyohifadhiwa kwenye seva zake:
@@ -49,7 +49,7 @@ Kama ukumbusho, Hash ni data iliyotolewa bila kutambulika, sawa na usimbaji fich
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Ni nani anayeweza kuona maelezo yangu ya malipo?
+**Ni nani anayeweza kuona maelezo yangu ya malipo?**
 
 
 
@@ -93,21 +93,21 @@ Programu ya Peach imepangwa karibu na skrini kuu nne zinazoweza kufikiwa kutoka 
 
 
 
-- Nyumbani** : Skrini kuu ya kununua na kuuza bitcoins. Hapa ndipo unaweza kuunda miamala mipya na kufikia matoleo yanayopatikana.
-- Wallet**: Bitcoin Wallet yako iliyounganishwa ambayo inakuruhusu:
+- **Nyumbani** : Skrini kuu ya kununua na kuuza bitcoins. Hapa ndipo unaweza kuunda miamala mipya na kufikia matoleo yanayopatikana.
+- **Wallet**: Bitcoin Wallet yako iliyounganishwa ambayo inakuruhusu:
  - Angalia salio lako
  - Pokea bitcoins
  - Tuma bitcoins
  - Tazama historia yako ya muamala
-- Trades** : Kituo chako cha usimamizi wa biashara ambapo utapata:
+- **Trades** : Kituo chako cha usimamizi wa biashara ambapo utapata:
  - Shughuli zako za sasa
  - Historia kamili ya ubadilishanaji wako
  - Hali ya kila shughuli
-- Mipangilio** : Kitovu cha usanidi wa akaunti yako kwa :
+- **Mipangilio** : Kitovu cha usanidi wa akaunti yako kwa :
  - Dhibiti njia zako za kulipa
  - Sanidi chelezo zako
  - Geuza mapendeleo yako kukufaa
- - Upatikanaji wa usaidizi na usaidizi
+ - Upatikanaji wa usaidizi
 
 
 ### 3. Sanidi njia zako za kulipa
@@ -119,7 +119,7 @@ Programu ya Peach imepangwa karibu na skrini kuu nne zinazoweza kufikiwa kutoka 
 Fikia njia za malipo kupitia kichupo cha Mipangilio (picha 8)
 
 
-**Malipo ya mtandaoni
+**Malipo ya mtandaoni**
 
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
@@ -129,13 +129,13 @@ Fikia njia za malipo kupitia kichupo cha Mipangilio (picha 8)
 
 - Bofya kitufe ili kuongeza njia mpya ya kulipa
 - Chagua sarafu yako
-- Chagua njia ya malipo unayopendelea
+- Chagua njia ya malipo unayoipendelea
 
 
 *Aina za njia za malipo zinazopatikana:*
 
 
-*** Uhamisho wa benki unapatikana: ***
+***Uhamisho wa benki unapatikana:***
 
 
 
@@ -205,7 +205,7 @@ Mifumo ya malipo ya nchi mahususi:
 ### 4. Jinsi ya kupata Wallet yako
 
 
-**Kuelewa akaunti yako ya Peach
+**Kuelewa akaunti yako ya Peach**
 
 
 Akaunti ya Peach sio akaunti ya jadi ya kuingia na nenosiri. Ni faili iliyohifadhiwa ndani ya simu yako, kumaanisha kwamba Peach haihitaji kuhifadhi data yako au kujua utambulisho wako: wewe ndiwe unayedhibiti. Faili hii ina data yako yote, kuanzia funguo zako za Bitcoin Wallet hadi maelezo yako ya malipo.
@@ -357,7 +357,7 @@ Kwa usalama bora zaidi, tunapendekeza ufanye aina zote mbili za kuhifadhi nakala
 - Bitcoins hutolewa moja kwa moja kwa mnunuzi
 
 
-**Vidokezo vya kufanikisha muamala **
+**Vidokezo vya kufanikisha muamala**
 
 
 
@@ -378,10 +378,10 @@ Kwa usalama bora zaidi, tunapendekeza ufanye aina zote mbili za kuhifadhi nakala
 
 
 
-- Hakuna KYC inayohitajika**: Huhifadhi usiri wa mtumiaji.
-- Hakuna ufikiaji wa maelezo ya benki**: Peach haina ufikiaji wa maelezo ya benki yako au utambulisho wako.
-- Intuitive Interface**: Rahisi kutumia kwa watumiaji wa kati.
-- Chanzo Huria** : Msimbo wa chanzo ni wa umma na unaweza kuthibitishwa na jumuiya.
+- **Hakuna KYC inayohitajika**: Huhifadhi usiri wa mtumiaji.
+- **Hakuna ufikiaji wa maelezo ya benki**: Peach haina ufikiaji wa maelezo ya benki yako au utambulisho wako.
+- **Intuitive Interface**: Rahisi kutumia kwa watumiaji wa kati.
+- **Chanzo Huria** : Msimbo wa chanzo ni wa umma na unaweza kuthibitishwa na jumuiya.
 
 
 ### Hasara za Peach
@@ -389,8 +389,8 @@ Kwa usalama bora zaidi, tunapendekeza ufanye aina zote mbili za kuhifadhi nakala
 
 
 
-- Ushuru mdogo**: Kiwango cha chini cha biashara kuliko mifumo iliyoanzishwa zaidi.
-- Hatari ya udhibiti** : Maombi yanasimamiwa na kampuni ya Uswizi. Kwa hivyo iko chini ya kanuni za Uswizi, ambazo zinaweza kubadilika na uwezekano wa kukagua maombi.
+- **Ushuru mdogo**: Kiwango cha chini cha biashara kuliko mifumo iliyoanzishwa zaidi.
+- **Hatari ya udhibiti** : Maombi yanasimamiwa na kampuni ya Uswizi. Kwa hivyo iko chini ya kanuni za Uswizi, ambazo zinaweza kubadilika na uwezekano wa kukagua maombi.
 
 
 ## Rasilimali muhimu

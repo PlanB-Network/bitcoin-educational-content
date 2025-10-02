@@ -40,25 +40,25 @@ Onder de vele Linux distributies die beschikbaar zijn, valt Fedora in het bijzon
 
 
 
-- Modulariteit**: Fedora is compatibel met verschillende processor architecturen en kan geïnstalleerd worden op de meeste computers, zelfs computers met weinig vermogen, en past zich perfect aan aan je behoeften.
+- **Modulariteit**: Fedora is compatibel met verschillende processor architecturen en kan geïnstalleerd worden op de meeste computers, zelfs computers met weinig vermogen, en past zich perfect aan aan je behoeften.
 
 
 
 
 
-- Een eenvoudige, intuïtieve Interface**: Fedora combineert een moderne grafische Interface met een krachtige opdrachtregel Interface, waardoor het eenvoudig te gebruiken is voor alle profielen.
+- **Een eenvoudige, intuïtieve Interface**: Fedora combineert een moderne grafische Interface met een krachtige opdrachtregel Interface, waardoor het eenvoudig te gebruiken is voor alle profielen.
 
 
 
 
 
-- Kernel stabiliteit**: Fedora is gebaseerd op Red Hat en staat bekend om de betrouwbaarheid van zijn updates, vooral kernel updates, die zonder grote bugs worden uitgevoerd dankzij gratis bijdragen van een grote gemeenschap.
+- **Kernel stabiliteit**: Fedora is gebaseerd op Red Hat en staat bekend om de betrouwbaarheid van zijn updates, vooral kernel updates, die zonder grote bugs worden uitgevoerd dankzij gratis bijdragen van een grote gemeenschap.
 
 
 
 
 
-- Snelle, eenvoudige installatie**: met een image van slechts 3 GB is de installatie snel en eenvoudig, zelfs op machines met beperkte bronnen.
+- **Snelle, eenvoudige installatie**: met een image van slechts 3 GB is de installatie snel en eenvoudig, zelfs op machines met beperkte bronnen.
 
 
 
@@ -72,19 +72,19 @@ Afhankelijk van je profiel en gebruik, biedt Fedora edities die passen bij je be
 
 
 
-- Fedora Workstation**: Ideaal voor persoonlijk en/of professioneel gebruik op uw computers, deze editie is geïnstalleerd met algemene hulpprogramma's zoals browsers, een kantoorpakket (tekstverwerkers) en software voor het afspelen van media.
+- **Fedora Workstation**: Ideaal voor persoonlijk en/of professioneel gebruik op uw computers, deze editie is geïnstalleerd met algemene hulpprogramma's zoals browsers, een kantoorpakket (tekstverwerkers) en software voor het afspelen van media.
 
 
 
 
 
-- Fedora Server**: Deze editie is gewijd aan server management. Fedora Server bevat een verscheidenheid aan gereedschappen om je te helpen servers op je eigen schaal in te zetten en te beheren.
+- **Fedora Server**: Deze editie is gewijd aan server management. Fedora Server bevat een verscheidenheid aan gereedschappen om je te helpen servers op je eigen schaal in te zetten en te beheren.
 
 
 
 
 
-- Fedora CoreOS**: Wil je eenvoudig cloud applicaties draaien en inzetten? Fedora CoreOS is de editie die je de tools geeft om images te maken en te beheren met bijvoorbeeld Docker en Kubernets.
+- **Fedora CoreOS**: Wil je eenvoudig cloud applicaties draaien en inzetten? Fedora CoreOS is de editie die je de tools geeft om images te maken en te beheren met bijvoorbeeld Docker en Kubernets.
 
 
 
@@ -103,7 +103,7 @@ Het installeren van Fedora Workstation vereist de volgende hardware configuratie
 
 - Een USB-sleutel van minstens **8 GB** om het besturingssysteem op te starten.
 - Ten minste **40 GB vrije ruimte** op de Hard schijf van je computer.
-- 4 GB RAM** voor een soepele ervaring.
+- 4 GB **RAM** voor een soepele ervaring.
 
 
 
@@ -156,7 +156,7 @@ Schakel je computer in en open het BIOS tijdens het opstarten door op de `F2`, `
 
 
 
-Selecteer in de opstartopties je USB-sleutel als het primaire opstartapparaat. Door deze keuze te bevestigen, zal je computer herstarten en automatisch het Fedora installatieprogramma** starten dat op de USB-sleutel staat.
+Selecteer in de opstartopties je USB-sleutel als het primaire opstartapparaat. Door deze keuze te bevestigen, zal je computer herstarten en automatisch het **Fedora installatieprogramma** starten dat op de USB-sleutel staat.
 
 
 
@@ -169,7 +169,7 @@ In dit stadium heb je de volgende opties:
 
 
 
-- Test media**: Met deze optie kunt u de integriteit van de USB-stick controleren en ervoor zorgen dat alle afhankelijkheden die nodig zijn voor een correcte installatie aanwezig zijn. Dit is een optionele stap, maar aanbevolen als u twijfels hebt over de USB-stick.
+- **Test media**: Met deze optie kunt u de integriteit van de USB-stick controleren en ervoor zorgen dat alle afhankelijkheden die nodig zijn voor een correcte installatie aanwezig zijn. Dit is een optionele stap, maar aanbevolen als u twijfels hebt over de USB-stick.
 
 
 
@@ -183,7 +183,7 @@ In dit stadium heb je de volgende opties:
 
 
 
-- Start Fedora**: Dit start Fedora in "live" modus, zonder installatie.
+- **Start Fedora**: Dit start Fedora in "live" modus, zonder installatie.
 
 
 
@@ -368,9 +368,9 @@ Fedora bevat standaard de **LibreOffice** office suite, die verschillende nuttig
 
 
 
-- Writer** voor tekstverwerking.
-- Calc** voor spreadsheets.
-- Impress** om presentaties te maken.
+- **Writer** voor tekstverwerking.
+- **Calc** voor spreadsheets.
+- **Impress** om presentaties te maken.
 
 
 ## Toepassingen installeren

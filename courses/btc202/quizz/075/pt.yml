@@ -1,0 +1,9 @@
+question: Porque é que a dimensão do conjunto UTXO tende a aumentar estruturalmente ao longo do tempo?
+answer: Cada pagamento cria geralmente dois novos UTXOs
+wrong_answers:
+  - Os pagamentos convencionais não consomem UTXO na entrada
+  - Cada Fork multiplica o número de UTXOs existentes
+  - O número de bitcoins que podem ser criados é infinito
+explanation: |
+  Uma transação de pagamento consome um UTXO e recria frequentemente dois (pagamento + Exchange), aumentando a dimensão total do conjunto.
+reviewed: true

@@ -1,9 +1,12 @@
-question: Geleneksel parolalara alternatif olarak Passkeys kullanmanın avantajları nelerdir?
-answer: Yerel bir faktörle birlikte şifrelenmiş rastgele anahtarlar sunarlar. Anahtarlar bir sağlayıcı tarafından barındırılır ancak onların erişiminin dışında kalır.
+question: Geleneksel parolalara alternatif olarak Passkeys (geçiş anahtarları) kullanmanın avantajları nelerdir?
+answer: Yerel bir faktörle birlikte şifrelenmiş rastgele anahtarlar sunarlar. 
+Anahtarlar bir sağlayıcı tarafından barındırılır ancak sağlayıcının erişimini dışında kalırlar.
 wrong_answers:
   - Geleneksel şifrelere göre hatırlanmaları daha kolaydır.
   - Herhangi bir ek kimlik doğrulama faktörü gerektirmezler.
   - Herhangi bir güncelleme olmadan tüm web sitelerinde kullanılabilirler.
 explanation: |
-  Geçiş anahtarları, bir sağlayıcının barındırdığı yerel bir faktörle (biyometri veya PIN) birlikte şifrelenmiş rastgele anahtarlar sunar. Ancak, anahtarlar kullanıcıların erişiminin dışında kalır. Bu yaklaşım, parola ihtiyacını ortadan kaldırarak geleneksel parolalarla ilişkili kısıtlamalar olmaksızın yüksek düzeyde güvenlik sağlar.
+  Geçiş anahtarları, bir sağlayıcının barındırdığı yerel bir faktörle (biyometri veya PIN) birlikte şifrelenmiş rastgele anahtarlar sunar. 
+  Ancak, anahtarlar sağlayıcının erişimini dışında kalırlar. 
+  Bu yaklaşım, parola ihtiyacını ortadan kaldırarak geleneksel parolalarla ilişkili kısıtlamalar olmaksızın yüksek düzeyde güvenlik sağlar.
 reviewed: true

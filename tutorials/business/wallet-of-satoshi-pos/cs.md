@@ -1,5 +1,5 @@
 ---
-name: Wallet z Satoshi - Prodejní místo
+name: Wallet of Satoshi - POS
 description: Přijměte Bitcoin prostřednictvím Lightning Network ve své firmě.
 ---
 

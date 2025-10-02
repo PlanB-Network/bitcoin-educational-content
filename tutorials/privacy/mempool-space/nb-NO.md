@@ -64,10 +64,10 @@ I menylinjen finner du følgende nettverk:
 
 
 
-- Mainnet** : Det viktigste Bitcoin-nettverket der ekte Bitcoin-transaksjoner finner sted.
-- Signet**: Et testnettverk som bruker digitale signaturer til å validere blokker uten å kreve de samme ressursene som hovednettverket.
-- Testnet 3**: Et risikofritt test- og utviklingsnettverk på Bitcoin-protokollen.
-- Testnet 4** : Den nye versjonen av Testnet 3 gir større stabilitet og nye konsensusregler til testmiljøet.
+- **Mainnet**: Det viktigste Bitcoin-nettverket der ekte Bitcoin-transaksjoner finner sted.
+- **Signet**: Et testnettverk som bruker digitale signaturer til å validere blokker uten å kreve de samme ressursene som hovednettverket.
+- **Testnet 3**: Et risikofritt test- og utviklingsnettverk på Bitcoin-protokollen.
+- **Testnet 4**: Den nye versjonen av Testnet 3 gir større stabilitet og nye konsensusregler til testmiljøet.
 
 
 
@@ -142,9 +142,9 @@ På siden med transaksjonsdetaljer finner du generell informasjon om transaksjon
 
 
 
-- Status**: Bekreftet når den er lagt til i en blokk, ubekreftet når den venter i en Mempool.
-- Transaksjonsgebyrer**.
-- Anslått ankomsttid (ETA)** :  Den omtrentlige tiden det vil ta før transaksjonen din blir lagt til i en blokk. Den beregnes i henhold til forholdet som utgjør avgiftene knyttet til denne transaksjonen.
+- **Status**: Bekreftet når den er lagt til i en blokk, ubekreftet når den venter i en Mempool.
+- **Transaksjonsgebyrer**.
+- **Anslått ankomsttid (ETA)**: Den omtrentlige tiden det vil ta før transaksjonen din blir lagt til i en blokk. Den beregnes i henhold til forholdet som utgjør avgiftene knyttet til denne transaksjonen.
 
 
 
@@ -192,7 +192,7 @@ Heldigvis finnes det to metoder i Bitcoin-nettverket som gjør det mulig å få 
 
 
 
-- RBF** - Erstatning etter gebyr: En metode som lar deg bruke de samme posteringene som transaksjonen med lavt gebyr, men denne gangen ved å øke transaksjonsgebyret for å fremskynde valideringen. Den nye transaksjonen blir validert raskere og inkludert i en blokk, slik at transaksjonen med lav avgift blir ugyldig.
+- **RBF** - Erstatning etter gebyr: En metode som lar deg bruke de samme posteringene som transaksjonen med lavt gebyr, men denne gangen ved å øke transaksjonsgebyret for å fremskynde valideringen. Den nye transaksjonen blir validert raskere og inkludert i en blokk, slik at transaksjonen med lav avgift blir ugyldig.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: En tilnærming inspirert av RBF, men på mottakersiden. Når transaksjonen der du er mottaker, blokkeres i en Mempool, har du muligheten til å bruke utgangene (UTXO) fra denne transaksjonen, til tross for at den ennå ikke er bekreftet, ved å allokere flere gebyrer til denne nye transaksjonen, slik at de gjennomsnittlige gebyrene - for transaksjonen der du er mottaker og den initierte transaksjonen - oppmuntrer utvinnere til å inkludere begge transaksjonene i en blokk.
+- **CPFP** - Child pay for parent: En tilnærming inspirert av RBF, men på mottakersiden. Når transaksjonen der du er mottaker, blokkeres i en Mempool, har du muligheten til å bruke utgangene (UTXO) fra denne transaksjonen, til tross for at den ennå ikke er bekreftet, ved å allokere flere gebyrer til denne nye transaksjonen, slik at de gjennomsnittlige gebyrene - for transaksjonen der du er mottaker og den initierte transaksjonen - oppmuntrer utvinnere til å inkludere begge transaksjonene i en blokk.
 
 
 

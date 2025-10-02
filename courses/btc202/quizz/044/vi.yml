@@ -1,0 +1,9 @@
+question: Umbrel sử dụng công nghệ nào để cô lập và quản lý các ứng dụng của mình?
+answer: Container Docker
+wrong_answers:
+  - Máy ảo VirtualBox
+  - Tập lệnh Bash
+  - Cụm Kubernetes
+explanation: |
+  Mỗi ứng dụng trong Umbrel chạy trong một vùng chứa Docker, cho phép quản lý và cô lập độc lập.
+reviewed: true

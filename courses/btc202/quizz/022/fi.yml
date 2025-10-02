@@ -1,0 +1,9 @@
+question: Mitä kriittisen kynnyksen ylittäminen takaa perkolaatioteorian mukaan?
+answer: Tapahtumien eteneminen koko verkossa
+wrong_answers:
+  - Uuden lohkon välitön luominen
+  - Solmujen automaattinen kustannusten vähentäminen
+  - Verkon suorittama tapahtuman estäminen
+explanation: |
+  Kun perkolaatiokynnys ylittyy, transaktio leviää lähes välittömästi koko Bitcoin-verkossa.
+reviewed: true

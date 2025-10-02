@@ -1,0 +1,9 @@
+question: Kwa Spinoza, Mungu ni?
+answer: Asili.
+wrong_answers:
+  - Mtu aliyepewa nia.
+  - Mtengeneza saa.
+  - Fiction.
+explanation: |
+  Kwa Spinoza, Mungu ni Asili (Deus sive Natura). Yeye si kiumbe kipitacho, cha kibinafsi, lakini dutu ya kipekee, isiyo na mwisho ambayo kila kitu kilichopo ni hali au udhihirisho.
+reviewed: false

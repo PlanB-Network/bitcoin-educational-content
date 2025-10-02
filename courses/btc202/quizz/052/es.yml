@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal diferencia entre Electrs y Fulcrum?
+answer: Electrs es más compacto, Fulcrum es más potente
+wrong_answers:
+  - Electrs no es gratis, Fulcrum es gratis
+  - Fulcrum no soporta el protocolo Electrum
+  - Electrs es propietario, Fulcrum es de código abierto
+explanation: |
+  Electrs utiliza menos espacio en disco, mientras que Fulcrum responde más rápido a las peticiones pero consume más recursos.
+reviewed: true

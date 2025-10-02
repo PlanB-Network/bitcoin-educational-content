@@ -1,12 +1,11 @@
-question: 2FA'nın uygulanmasının amacı nedir?
-answer: Çevrimiçi hesaplarınızı yetkisiz erişime karşı korumak için.
+question: 2FA'nın (2 factor authentication; 2 faktörlü kimlik doğrulama) uygulanmasının amacı nedir?
+answer: Çevrimiçi hesaplarınızı yetkisiz erişime karşı korumakdır.
 wrong_answers:
   - Kendi hesabınıza erişmenizi zorlaştırmak için
   - Çevrimiçi etkinliklerinizi takip etmek için
   - İnternet bağlantınızın hızını artırmak için
 explanation: |
-  2FA, çevrimiçi ortamınıza ekstra bir Layer güvenlik ekler
-  hesaplar. Bir bilgisayar korsanı şifrenizi ele geçirse bile
-  olmadan hesabınıza erişemezsiniz
-  doğrulama faktörü.
+  2FA, çevrimiçi ortamınıza ekstra bir katman güvenlik ekler.
+  Bir bilgisayar korsanı şifrenizi ele geçirse bile, ikinci bir doğrulama faktörü
+  olmadan hesabınıza erişemez. 
 reviewed: true

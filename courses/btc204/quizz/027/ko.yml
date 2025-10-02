@@ -1,0 +1,9 @@
+question: KYC로 인한 추적 위험으로부터 보호하는 데 도움이 되는 기술은 무엇인가요?
+answer: CoinJoin 거래
+wrong_answers:
+  - VPN 사용
+  - Full node 사용
+  - Proof of Work를 통한 검증
+explanation: |
+  코인조인은 Coin의 이력을 차단하는 효과가 있어 KYC와 관련된 추적 위험에 대응하는 데 도움이 됩니다.
+reviewed: true

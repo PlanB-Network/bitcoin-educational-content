@@ -1,5 +1,5 @@
 ---
-name: Nodo fulmine RGB
+name: RGB Lightning Node
 description: Come si lancia un nodo Lightning compatibile con RGB con RLN?
 ---
 ![cover](assets/cover.webp)
@@ -67,17 +67,17 @@ Al termine di questo comando, un eseguibile `rgb-lightning-node' sarà disponibi
 Per funzionare, il demone `rgb-lightning-node` ha bisogno della presenza e della configurazione di :
 
 
-- Un nodo `bitcoind`**
+- Un nodo `bitcoind`
 
 Ogni istanza RLN dovrà comunicare con `bitcoind` per trasmettere e monitorare le proprie transazioni sulla catena. Al demone dovranno essere forniti l'autenticazione (login/password) e l'URL (host/porta).
 
 
-- Un indicizzatore** (Electrum o Esplora)
+- Un **indicizzatore** (Electrum o Esplora)
 
 Il demone deve essere in grado di elencare ed esplorare le transazioni sulla catena, in particolare di trovare l'UTXO su cui è stata ancorata una risorsa. È necessario specificare l'URL del server Electrum o di Esplora.
 
 
-- Un proxy RGB**
+- Un proxy **RGB**
 
 Il server proxy è un componente (opzionale, ma altamente raccomandato) per semplificare lo scambio di *conferme RGB* tra i peer Lightning. Anche in questo caso, è necessario specificare un URL.
 

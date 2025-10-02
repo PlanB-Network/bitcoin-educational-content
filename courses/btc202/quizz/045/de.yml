@@ -1,0 +1,9 @@
+question: Welche Schritte müssen durchgeführt werden, bevor UmbrelOS installiert werden kann?
+answer: Erstellen Sie einen bootfähigen USB-Stick mit dem Image
+wrong_answers:
+  - Kompilieren des Bitcoin core-Quellcodes
+  - Formatieren des Blockchain
+  - Erstellen Sie ein Konto auf umbrel.com
+explanation: |
+  Die Installation beginnt mit der Vorbereitung eines bootfähigen USB-Sticks mit UmbrelOS über Balena Etcher.
+reviewed: true

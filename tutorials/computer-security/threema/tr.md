@@ -276,7 +276,7 @@ Burada verilerinizi yedeklemek için iki seçenek bulacaksınız:
 
 
 
-"Threema Safe*, konuşmalarınız hariç tüm hesap bilgilerinizi Threema'nın sunucularında kaydeder. Bu veriler, hesabınızı oluştururken seçtiğiniz parola ile şifrelenir ve Threema'nın bunlara erişememesini sağlar. Yedeklemeler otomatik ve düzenli olarak yapılır.
+"**Threema Safe**, konuşmalarınız hariç tüm hesap bilgilerinizi Threema'nın sunucularında kaydeder. Bu veriler, hesabınızı oluştururken seçtiğiniz parola ile şifrelenir ve Threema'nın bunlara erişememesini sağlar. Yedeklemeler otomatik ve düzenli olarak yapılır.
 
 
 

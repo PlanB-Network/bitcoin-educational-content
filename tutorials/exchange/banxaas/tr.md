@@ -73,7 +73,7 @@ Banxaas web platformu minimalist ve sezgiseldir, işleminizi sadece bir dakika i
 
 
 
-- CFA Frangı'ndan satoshis'e** :
+- **CFA Frangı'ndan satoshis'e** :
 
 
 
@@ -114,7 +114,7 @@ CFA Frangı ödemenizden bitcoin satın almak için **Troc** düğmesine tıklay
 
 
 
-- Satoshis'ten CFA Frankı'na**
+- **Satoshis'ten CFA Frankı'na**
 
 
 

@@ -1,0 +1,13 @@
+question: Bitcoin의 생산 비용과 시장 가격의 관계는 어떻게 되나요?
+answer: Bitcoin의 비용은 일반적으로 가격에 비례할 수 있습니다
+wrong_answers:
+  - Bitcoin의 비용은 가격에 반비례합니다
+  - Bitcoin의 비용은 일정 비율 내에서 가격에 고정되어 있습니다
+  - Bitcoin의 비용은 항상 가격보다 높습니다
+explanation: |
+  Bitcoin의 비용은 Mining 기계를 작동하는 데 필요한 전기와 관련이 있습니다
+  gW-6 기계를 작동하는 데 필요한 전기와 관련된 비용은 일반적으로
+  가격에 비례합니다. 이러한 관계를 통해
+  가격 변동과 미래
+  전망을 더 잘 이해할 수 있습니다.
+reviewed: true

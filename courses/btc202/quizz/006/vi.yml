@@ -1,0 +1,9 @@
+question: Tại sao một Wallet đơn lẻ không được coi là thành viên của mạng Bitcoin?
+answer: Bởi vì nó không xác thực giao dịch hoặc khối
+wrong_answers:
+  - Bởi vì nó không thể generate khóa riêng tư
+  - Bởi vì nó không thể tạo địa chỉ Bitcoin
+  - Bởi vì nó không xác thực doanh số hoặc địa chỉ
+explanation: |
+  Wallet không trực tiếp xác thực các khối và giao dịch; nó chỉ quản lý các khóa và phụ thuộc vào các nút cho phần còn lại.
+reviewed: true

@@ -75,9 +75,9 @@ Breez prioritizes intuitiveness in its application. Receiving your first bitcoin
 Breez offers you three options:
 
 
-- Receive by Lightning or ID** invoice: Generate an invoice and get paid.
-- Receive via a Bitcoin address**: Receive bitcoins with transactions on the Bitcoin main network.
-- Buy Bitcoin**: Breez incorporates a way of obtaining Bitcoin directly from fiat currencies.
+- Receive by Lightning or **ID** invoice: Generate an invoice and get paid.
+- **Receive via a Bitcoin address**: Receive bitcoins with transactions on the Bitcoin main network.
+- **Buy Bitcoin**: Breez incorporates a way of obtaining Bitcoin directly from fiat currencies.
 
 
 ![receive-bitcoin](assets/fr/07.webp)
@@ -101,9 +101,9 @@ Sending bitcoins to Breez is just as intuitive as receiving them.
 Breez offers you three options for sending bitcoins.
 
 
-- Paste invoice or user ID**: Pay a Lightning invoice.
-- Connect to pay**: Create a session and invite your recipient to join the session to send them bitcoins.
-- Send to BTC address**: Transact on the Bitcoin main network.
+- **Paste invoice or user ID**: Pay a Lightning invoice.
+- **Connect to pay**: Create a session and invite your recipient to join the session to send them bitcoins.
+- Send to BTC address: Transact on the Bitcoin main network.
 
 
 ![send-bitcoins](assets/fr/09.webp)
@@ -123,7 +123,7 @@ You'll find useful services directly in the application.
 
 
 
-- Listen to podcasts**: Breez is a podcast 2.0 player that lets you support the creators you love with bitcoin donations.
+- **Listen to podcasts**: Breez is a podcast 2.0 player that lets you support the creators you love with bitcoin donations.
 
 From the menu, select **Podcasts**, then find, discover and listen to your favorite content creators.
 
@@ -134,7 +134,7 @@ Support the work of the content creators you love by making donations.
 ![boost](assets/fr/12.webp)
 
 
-- A Point of Sale**: Breez adapts perfectly to your business, allowing you to run a point of sale within the application. You can manage your store's inventory, receive payment from your customers and generate printable invoices for every purchase made. What's more, you can find your local currencies in the multitude of currencies supported by Breez.
+- **A Point of Sale**: Breez adapts perfectly to your business, allowing you to run a point of sale within the application. You can manage your store's inventory, receive payment from your customers and generate printable invoices for every purchase made. What's more, you can find your local currencies in the multitude of currencies supported by Breez.
 
 
 You can customize your currencies in the **Preferences > Fiat Currencies** menu.
@@ -150,7 +150,7 @@ Once your inventory is complete, you can easily invoice your customers for these
 ![print-receipe](assets/fr/15.webp)
 
 
-- Access third-party services**: Breez integrates third-party services that allow you to take more action without having to leave the wallet. These include Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- **Access third-party services**: Breez integrates third-party services that allow you to take more action without having to leave the wallet. These include Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 ![apps](assets/fr/16.webp)
 

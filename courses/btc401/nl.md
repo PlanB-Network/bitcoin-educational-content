@@ -178,9 +178,9 @@ Tegelijkertijd leverde **Oostenrijkse Economie** de basis voor de monetaire prin
 
 
 
-- Schaarste:** De vaste Supply van Bitcoin garandeert de waarde ervan in de loop der tijd.
-- Tijdsvoorkeur:** Stimuleert sparen voor de toekomst in plaats van onmiddellijk uitgeven.
-- Sparen:** Waarde opslaan voor toekomstige behoeften, wat leidt tot investeringen en innovatie.
+- **Schaarste:** De vaste Supply van Bitcoin garandeert de waarde ervan in de loop der tijd.
+- **Tijdsvoorkeur:** Stimuleert sparen voor de toekomst in plaats van onmiddellijk uitgeven.
+- **Sparen:** Waarde opslaan voor toekomstige behoeften, wat leidt tot investeringen en innovatie.
 
 
 > **Definities:**
@@ -199,15 +199,15 @@ De invoering van Bitcoin in El Salvador weerspiegelt het potentieel ervan als in
 
 
 
-- Concurrentie**: Bitcoin introduceert concurrentie in het financiële landschap door een alternatief te bieden voor traditioneel bankieren, waardoor Salvadoranen financiële poortwachters kunnen omzeilen en diensten kunnen kiezen die beter aansluiten bij hun behoeften.
+- **Concurrentie**: Bitcoin introduceert concurrentie in het financiële landschap door een alternatief te bieden voor traditioneel bankieren, waardoor Salvadoranen financiële poortwachters kunnen omzeilen en diensten kunnen kiezen die beter aansluiten bij hun behoeften.
 
 
 
-- Monopolie**: Door financiële toegang te decentraliseren, doorbreekt Bitcoin het monopolie van banken en door de overheid uitgegeven munteenheden, waardoor de afhankelijkheid van gecentraliseerde instellingen afneemt en financiële inclusie wordt bevorderd.
+- **Monopolie**: Door financiële toegang te decentraliseren, doorbreekt Bitcoin het monopolie van banken en door de overheid uitgegeven munteenheden, waardoor de afhankelijkheid van gecentraliseerde instellingen afneemt en financiële inclusie wordt bevorderd.
 
 
 
-- Confiscatie**: Bitcoin's verzet tegen confiscatie geeft Salvadoranen controle over hun bezittingen, beschermt hun rijkdom tegen inbeslagname van buitenaf en versterkt de financiële soevereiniteit.
+- **Confiscatie**: Bitcoin's verzet tegen confiscatie geeft Salvadoranen controle over hun bezittingen, beschermt hun rijkdom tegen inbeslagname van buitenaf en versterkt de financiële soevereiniteit.
 
 
 El Salvador's omarming van Bitcoin bevordert een meer inclusief, concurrerend en veilig financieel systeem, dat de beperkingen van traditionele financiering uitdaagt.
@@ -434,12 +434,12 @@ Door Bitcoin Core te draaien, krijg je de mogelijkheid om:
 
 
 
-- Valideer uw eigen transacties en blokken**: Ervoor zorgen dat de regels van het Bitcoin netwerk worden gevolgd zonder afhankelijk te zijn van derden.
-- Versterk het netwerk**: Door deel te nemen aan het netwerk, help je het gedecentraliseerd te houden, waardoor Bitcoin weerbaarder wordt tegen aanvallen.
-- Snoei de Blockchain**: Verminder de opslagvereisten door alleen de meest recente transacties te bewaren, wat ideaal is als je beperkte schijfruimte hebt.
-- Gebruik geavanceerde Wallet functies**: Beheer uw Bitcoin met privacy en veiligheid, generate privésleutels offline en onderteken transacties veilig.
-- Directe interactie met het Bitcoin netwerk**: Door Bitcoin Core te gebruiken, kunt u direct verbinding maken met het netwerk zonder tussenpersonen, zodat u verzekerd bent van de meest nauwkeurige gegevens.
-- Profiteer van meer privacy**: Als Full node operator hoeft u niet te vertrouwen op externe diensten, waardoor uw transactieprivacy wordt beschermd tegen externe bewaking.
+- **Valideer uw eigen transacties en blokken**: Ervoor zorgen dat de regels van het Bitcoin netwerk worden gevolgd zonder afhankelijk te zijn van derden.
+- **Versterk het netwerk**: Door deel te nemen aan het netwerk, help je het gedecentraliseerd te houden, waardoor Bitcoin weerbaarder wordt tegen aanvallen.
+- **Snoei de Blockchain**: Verminder de opslagvereisten door alleen de meest recente transacties te bewaren, wat ideaal is als je beperkte schijfruimte hebt.
+- **Gebruik geavanceerde Wallet functies**: Beheer uw Bitcoin met privacy en veiligheid, generate privésleutels offline en onderteken transacties veilig.
+- **Directe interactie met het Bitcoin netwerk**: Door Bitcoin Core te gebruiken, kunt u direct verbinding maken met het netwerk zonder tussenpersonen, zodat u verzekerd bent van de meest nauwkeurige gegevens.
+- **Profiteer van meer privacy**: Als Full node operator hoeft u niet te vertrouwen op externe diensten, waardoor uw transactieprivacy wordt beschermd tegen externe bewaking.
 
 
 De voordelen van het runnen van een Bitcoin node zijn aanzienlijk voor elke toegewijde Bitcoiner. Je helpt niet alleen het netwerk te beveiligen en de decentralisatie te versterken, maar je vergroot ook je privacy, waarborgt de integriteit van je eigen transacties en speelt een proactieve rol in het Bitcoin ecosysteem. Het runnen van een node is een belangrijke stap in het bereiken van financiële soevereiniteit en het volledig omarmen van de gedecentraliseerde aard van Bitcoin.
@@ -452,7 +452,7 @@ Dit zijn enkele van de basiscommando's bij het configureren van je node:
 
 
 
-- Controleer de status van de Bitcoin daemon**:
+- Controleer de status van de Bitcoin daemon:
 
 
 ```bash
@@ -461,7 +461,7 @@ sudo systemctl status bitcoind
 
 
 
-- Start de Bitcoin daemon:**:
+- Start de Bitcoin daemon**:**
 
 
 ```bash
@@ -470,7 +470,7 @@ systemctl start bitcoind
 
 
 
-- Stop de Bitcoin daemon:**:
+- Stop de Bitcoin daemon**:**
 
 
 ```bash
@@ -479,7 +479,7 @@ sudo systemctl stop bitcoind
 
 
 
-  - Krijg gedetailleerde informatie**:
+- Krijg gedetailleerde informatie:
 
 
 ```bash
@@ -488,7 +488,7 @@ bitcoin-cli getblockchaininfo
 
 
 
-- Snoei de Blockchain om schijfruimte te besparen door alleen de meest recente blokken te bewaren:**:
+- Snoei de Blockchain om schijfruimte te besparen door alleen de meest recente blokken te bewaren:
 
 
 ```bash
@@ -497,7 +497,7 @@ prune=550
 
 
 
-- Schakel de Bitcoin Core server in en configureer de RPC instellingen:**:
+- **Schakel de Bitcoin Core server in en configureer de RPC instellingen:**
 
 
 ```bash
@@ -508,7 +508,7 @@ rpcpassword=yourpassword
 
 
 
-- Controleer de status van de Bitcoin daemon**:
+- Controleer de status van de Bitcoin daemon:
 
 
 ```bash
@@ -517,7 +517,7 @@ sudo systemctl status bitcoind
 
 
 
-- Controleer het saldo van uw Bitcoin Wallet:**:
+- Controleer het saldo van uw **Bitcoin Wallet**:
 
 ```bash
 sudo systemctl status bitcoind
@@ -641,9 +641,9 @@ Het modulaire ontwerp van C-Lightning betekent dat u naar behoefte functies kunt
 
 
 
-- Betalingsverwerking**: Aangepaste plugins kunnen specifieke betalingsvoorwaarden afhandelen.
-- Routingkosten**: Pas routeringskosten dynamisch aan op basis van netwerkomstandigheden.
-- Automatisering**: Automatiseer taken zoals kanaalbeheer en liquiditeitsvoorziening.
+- **Betalingsverwerking**: Aangepaste plugins kunnen specifieke betalingsvoorwaarden afhandelen.
+- **Routingkosten**: Pas routeringskosten dynamisch aan op basis van netwerkomstandigheden.
+- **Automatisering**: Automatiseer taken zoals kanaalbeheer en liquiditeitsvoorziening.
 
 
 ### C-Bliksem installatie
@@ -1495,10 +1495,10 @@ Het draaien van een Bitcoin node is om verschillende redenen essentieel:
 
 
 
-- Houdt een lijst bij van peers**: Knooppunten moeten andere knooppunten in het netwerk vinden en ermee verbinden om Exchange informatie te verkrijgen.
-- Ontvangt en verzendt geldige transacties en blokken**: Bitcoin nodes zijn verantwoordelijk voor het verspreiden van geldige transacties en blokken over het netwerk.
-- Bewaart geschiedenis van blokken en zwaarste keten**: Knooppunten slaan hun eigen kopie van de Blockchain op, waardoor ze de authenticiteit van transacties en blokken kunnen valideren.
-- Houdt een lijst bij van geldige kandidaten; Mempool**: Knooppunten moeten een lijst bijhouden van mogelijke transactiekandidaten in de Mempool om in blokken te worden opgenomen.
+- Houdt een lijst bij van **peers**: Knooppunten moeten andere knooppunten in het netwerk vinden en ermee verbinden om Exchange informatie te verkrijgen.
+- **Ontvangt en verzendt geldige transacties en blokken**: Bitcoin nodes zijn verantwoordelijk voor het verspreiden van geldige transacties en blokken over het netwerk.
+- Bewaart geschiedenis van blokken en zwaarste keten: Knooppunten slaan hun eigen kopie van de Blockchain op, waardoor ze de authenticiteit van transacties en blokken kunnen valideren.
+- Houdt een lijst bij van geldige kandidaten; **Mempool**: Knooppunten moeten een lijst bijhouden van mogelijke transactiekandidaten in de Mempool om in blokken te worden opgenomen.
 
 
 ![nodes network](assets/en/23.webp)
@@ -1517,20 +1517,20 @@ Het draaien van een Bitcoin node is om verschillende redenen essentieel:
 
 
 
-- Peer zoeken**: Peer discovery is het proces waarbij een knooppunt andere knooppunten vindt om verbinding mee te maken.
-- Validatie engine**: De validatie engine is verantwoordelijk voor het controleren van de geldigheid van transacties en blokken volgens de regels van het netwerk.
-- RPC (Remote Procedure Call)**: Bitcoin Core bevat een RPC Interface waarmee externe toepassingen, zoals portemonnees, kunnen communiceren met het knooppunt.
-- Blokken en ketentoestand opslaan**: Bitcoin Core kan de hele Blockchain opslaan of niet, of het nu een archiverend of een gesnoeid knooppunt is. Het slaat ook de huidige toestand van het netwerk (de UTXO set) op schijf op.
+- **Peer zoeken**: Peer discovery is het proces waarbij een knooppunt andere knooppunten vindt om verbinding mee te maken.
+- **Validatie engine**: De validatie engine is verantwoordelijk voor het controleren van de geldigheid van transacties en blokken volgens de regels van het netwerk.
+- **RPC (Remote Procedure Call)**: Bitcoin Core bevat een RPC Interface waarmee externe toepassingen, zoals portemonnees, kunnen communiceren met het knooppunt.
+- **Blokken en ketentoestand opslaan**: Bitcoin Core kan de hele Blockchain opslaan of niet, of het nu een archiverend of een gesnoeid knooppunt is. Het slaat ook de huidige toestand van het netwerk (de UTXO set) op schijf op.
 
 
 #### Wat kunnen we verwijderen?
 
 
 
-- Miner**: De meeste Bitcoin knooppunten nemen niet deel aan Mining vanwege de hoge rekenkracht die nodig is.
-- RPC (Server)**: Bitcoin Core implementeert een JSON-RPC Interface die kan worden benaderd met de commandoregelhelper bitcoin-cli.
-- Wallet (disablewallet)**: Als u liever een externe Wallet gebruikt, kunt u de Wallet functionaliteit in Bitcoin Core uitschakelen. Hierdoor kunt u uw privésleutels apart beheren.
-- Mempool (alleen blokken)**: Voor gebruikers die bandbreedtegebruik willen minimaliseren, kan het draaien van een "alleen blokken" knooppunt een oplossing zijn waarbij het knooppunt alleen blokken verwerkt en transacties negeert.
+- **Miner**: De meeste Bitcoin knooppunten nemen niet deel aan Mining vanwege de hoge rekenkracht die nodig is.
+- **RPC (Server)**: Bitcoin Core implementeert een JSON-RPC Interface die kan worden benaderd met de commandoregelhelper bitcoin-cli.
+- **Wallet (disablewallet)**: Als u liever een externe Wallet gebruikt, kunt u de Wallet functionaliteit in Bitcoin Core uitschakelen. Hierdoor kunt u uw privésleutels apart beheren.
+- **Mempool (alleen blokken)**: Voor gebruikers die bandbreedtegebruik willen minimaliseren, kan het draaien van een "alleen blokken" knooppunt een oplossing zijn waarbij het knooppunt alleen blokken verwerkt en transacties negeert.
 
 
 ### Ketenstaat
@@ -1648,13 +1648,13 @@ De block header is de hoeksteen van een Bitcoin blok en bevat de volgende velden
 
 
 
-- Versie**: Geeft de versie van het blok aan.
-- Vorig blok**: Verwijzing naar het vorige blok in de Blockchain.
-- Merkle Root**: Een Hash die de gecombineerde Hash weergeeft van alle transacties in het blok.
-- Timestamp**: De tijd waarop het blok werd gemined.
-- Bits**: De doeldrempel voor een geldig blok Hash.
-- Nonce**: De waarde die mijnwerkers aanpassen om een Hash onder de doeldrempel te bereiken.
-- Aantal transacties**: Het aantal transacties in het blok.
+- **Versie**: Geeft de versie van het blok aan.
+- **Vorig blok**: Verwijzing naar het vorige blok in de Blockchain.
+- **Merkle Root**: Een Hash die de gecombineerde Hash weergeeft van alle transacties in het blok.
+- **Timestamp**: De tijd waarop het blok werd gemined.
+- **Bits**: De doeldrempel voor een geldig blok Hash.
+- **Nonce**: De waarde die mijnwerkers aanpassen om een Hash onder de doeldrempel te bereiken.
+- **Aantal transacties**: Het aantal transacties in het blok.
 
 
 **Noot**: Alleen de eerste 80 bytes (bestaande uit de koptekst van het blok) worden gehasht tijdens Mining.
@@ -1681,21 +1681,21 @@ Elke transactie in een Bitcoin blok bevat het volgende:
 
 
 
-- Versie**: De versie van de transactie.
-- Aantal ingangen**: Aantal transactie-ingangen.
-- Ingangen**: De lijst met ingangen.
-  - Vorige uitvoer (uitvoerpunt)**: De vorige uitvoerreferentie.
-    - Hash**: De Hash van de transactie waarnaar verwezen wordt.
-    - Index**: De index van de specifieke uitvoer in de transactie, genaamd "vout".
-  - Scriptlengte**: De lengte van het script van de handtekening.
-  - Handtekeningenscript**: Script voor het bevestigen van transactieautorisatie.
-  - Volgorde**: Transactieversie zoals gedefinieerd door de verzender.
-- Aantal uitgangen**: Aantal transactie-uitgangen.
-- Uitvoer**: Bevat Waarde en ScriptPubKey.
-  - Waarde**: Transactiewaarde.
-  - PubKey script lengte**: Lengte van het PubKey script.
-  - PubKey script**: Bevat de publieke sleutel als setup om de uitvoer te claimen.
-- Vergrendelingstijd**: Geeft de blokhoogte of Timestamp aan waarop deze transactie kan worden opgenomen in een blok.
+- **Versie**: De versie van de transactie.
+- **Aantal ingangen**: Aantal transactie-ingangen.
+- **Ingangen**: De lijst met ingangen.
+- **Vorige uitvoer (uitvoerpunt)**: De vorige uitvoerreferentie.
+- **Hash**: De Hash van de transactie waarnaar verwezen wordt.
+- **Index**: De index van de specifieke uitvoer in de transactie, genaamd "vout".
+- **Scriptlengte**: De lengte van het script van de handtekening.
+- **Handtekeningenscript**: Script voor het bevestigen van transactieautorisatie.
+- **Volgorde**: Transactieversie zoals gedefinieerd door de verzender.
+- **Aantal uitgangen**: Aantal transactie-uitgangen.
+- **Uitvoer**: Bevat Waarde en ScriptPubKey.
+- **Waarde**: Transactiewaarde.
+- **PubKey script lengte**: Lengte van het PubKey script.
+- **PubKey script**: Bevat de publieke sleutel als setup om de uitvoer te claimen.
+- **Vergrendelingstijd**: Geeft de blokhoogte of Timestamp aan waarop deze transactie kan worden opgenomen in een blok.
 
 
 ![Transaction structure](assets/en/28.webp)
@@ -2012,18 +2012,18 @@ Bitcoin nodes vormen de ruggengraat van het Bitcoin netwerk. Ze verbinden met el
 
 
 
-- Volledige knooppunten**: Deze nodes slaan het volledige Blockchain op en valideren alle transacties en blokken. Ze bieden een hoog beveiligingsniveau en zijn essentieel voor de decentralisatie van het netwerk.
+- **Volledige knooppunten**: Deze nodes slaan het volledige Blockchain op en valideren alle transacties en blokken. Ze bieden een hoog beveiligingsniveau en zijn essentieel voor de decentralisatie van het netwerk.
 
 
 
-  - Archiefknooppunten**: Een subset van volledige knooppunten, archiveringsknooppunten bewaren alle Blockchain gegevens, waardoor ze waardevol zijn voor historische analyse en debugging.
+- **Archiefknooppunten**: Een subset van volledige knooppunten, archiveringsknooppunten bewaren alle Blockchain gegevens, waardoor ze waardevol zijn voor historische analyse en debugging.
 
 
 ![archival node](assets/en/37.webp)
 
 
 
-  - Gesnoeide knooppunten**: Pruned nodes besparen schijfruimte door slechts een deel van de Blockchain te bewaren, waardoor oudere gegevens die niet langer nodig zijn voor validatie worden verwijderd.
+- **Gesnoeide knooppunten**: Pruned nodes besparen schijfruimte door slechts een deel van de Blockchain te bewaren, waardoor oudere gegevens die niet langer nodig zijn voor validatie worden verwijderd.
 
 
 ![pruned node](assets/en/38.webp)
@@ -2036,9 +2036,9 @@ Bitcoin Core is de meest gebruikte Full node implementatie. Het vervult dubbele 
 
 
 
-- Bruikbaarheid**: Het kan worden gebruikt via een opdrachtregel Interface (CLI) en een grafische gebruiker Interface (GUI).
-- Open-source karakter**: De code is open-source, waardoor ontwikkelaars kunnen bijdragen en de werking ervan kunnen onderzoeken.
-- Taal**: Geschreven in C++ met tests in Python, wat zorgt voor robuuste prestaties en betrouwbaarheid.
+- **Bruikbaarheid**: Het kan worden gebruikt via een opdrachtregel Interface (CLI) en een grafische gebruiker Interface (GUI).
+- **Open-source karakter**: De code is open-source, waardoor ontwikkelaars kunnen bijdragen en de werking ervan kunnen onderzoeken.
+- **Taal**: Geschreven in C++ met tests in Python, wat zorgt voor robuuste prestaties en betrouwbaarheid.
 
 
 ![cli-gui](assets/en/39.webp)
@@ -2088,9 +2088,9 @@ Naast Bitcoin Core zijn er verschillende alternatieve knooppuntimplementaties:
 
 
 
-- Bitcoin knopen**: Het biedt meer geavanceerde functies dan de Bitcoin kern en neemt meer ruimte en geheugen in beslag.
-- LibBitcoin**: Een flexibele en modulaire implementatie.
-- btcd**: Geschreven in Go, biedt het verschillende ontwerpfilosofieën.
+- **Bitcoin knopen**: Het biedt meer geavanceerde functies dan de Bitcoin kern en neemt meer ruimte en geheugen in beslag.
+- **LibBitcoin**: Een flexibele en modulaire implementatie.
+- **btcd**: Geschreven in Go, biedt het verschillende ontwerpfilosofieën.
 
 
 Het implementeren van deze alternatieven brengt zijn eigen risico's met zich mee, vooral met betrekking tot de consensusregels. Afwijken van gevestigde validatieregels kan leiden tot forks of inconsistenties. Het Bitcoin Kernel project probeert deze risico's te beperken door de consensuscode te centraliseren, waardoor uniformiteit tussen implementaties wordt gewaarborgd.
@@ -2112,31 +2112,31 @@ Bitcoin portemonnees zijn cruciaal voor het veilig beheren van je Bitcoin bezit.
 
 
 
-   - Portemonnees**: Beheerd door derden, biedt gemak maar vereist vertrouwen in de custodian.
-   - Niet-custodian portemonnees**: Gecontroleerd door gebruikers, voor meer veiligheid en privacy.
+- **Portemonnees**: Beheerd door derden, biedt gemak maar vereist vertrouwen in de custodian.
+- **Niet-custodian portemonnees**: Gecontroleerd door gebruikers, voor meer veiligheid en privacy.
 
 
 2. **Desktop vs. mobiel**:
 
 
 
-   - Desktop portemonnees**: Meestal rijker aan functies en veiliger.
-   - Mobiele portemonnees**: Bieden gemak en draagbaarheid.
+- **Desktop portemonnees**: Meestal rijker aan functies en veiliger.
+- **Mobiele portemonnees**: Bieden gemak en draagbaarheid.
 
 
 3. **On-Chain vs. bliksem**:
 
 
 
-   - On-Chain portemonnees**: Directe interactie met Bitcoin Blockchain.
-   - Lightning-wallets**: Snellere en goedkopere transacties mogelijk maken off-chain.
+- **On-Chain portemonnees**: Directe interactie met Bitcoin Blockchain.
+- **Lightning-wallets**: Snellere en goedkopere transacties mogelijk maken off-chain.
 
 
 4. **Cold portemonnees vs. Hot portemonnees**:
 
 
-   - Cold portemonnees**: Niet verbonden met het internet, dus superieure beveiliging tegen hacks.
-   - Hot portemonnees**: Verbonden met het internet, biedt meer toegankelijkheid maar minder veiligheid.
+- **Cold portemonnees**: Niet verbonden met het internet, dus superieure beveiliging tegen hacks.
+- **Hot portemonnees**: Verbonden met het internet, biedt meer toegankelijkheid maar minder veiligheid.
 
 
 #### Cold Wallet beveiliging
@@ -2239,7 +2239,7 @@ BDK stroomlijnt het proces van het opbouwen, ondertekenen en uitzenden van trans
 
 
 
-- Wallet instellen**: Een Wallet initialiseren met descriptoren.
+- **Wallet instellen**: Een Wallet initialiseren met descriptoren.
 
 
 ```Rust
@@ -2263,7 +2263,7 @@ Ok(())
 
 
 
-- generate adressen**: Nieuwe adressen aanmaken om Bitcoin te ontvangen van een Testnet Faucet.
+- **generate adressen**: Nieuwe adressen aanmaken om Bitcoin te ontvangen van een Testnet Faucet.
 
 
 ```Rust
@@ -2277,7 +2277,7 @@ let address = wallet.get_address(AddressIndex::New)?;
 
 
 
-- Balans controleren**: Controleer de balans van de Wallet, eerst door verbinding te maken met electrum, Wallet te synchroniseren en de balans van de Wallet op te halen.
+- **Balans controleren**: Controleer de balans van de Wallet, eerst door verbinding te maken met electrum, Wallet te synchroniseren en de balans van de Wallet op te halen.
 
 
 ```Rust
@@ -2295,7 +2295,7 @@ println!("This is your wallet balance: {}", balance);
 
 
 
-- Transacties bouwen, ondertekenen en uitzenden**: Construeer en voltooi transacties en zend ze uit naar het netwerk.
+- **Transacties bouwen, ondertekenen en uitzenden**: Construeer en voltooi transacties en zend ze uit naar het netwerk.
 
 
 ```Rust
@@ -2558,11 +2558,11 @@ Bolt 1 schetst de berichtopmaak met behulp van een TLV-structuur (Type-Length-Va
 
 
 
-- Communicatieberichten**: Dit zijn onder andere `Init`, `Error`, `Warning`, `Ping` en `Pong` berichten, die verbindingen opzetten, fouten afhandelen, de status van de verbinding peilen en verkeer versluieren.
-- Kanaaloprichtingsberichten**: Deze zijn cruciaal tijdens de opbouwfase van een kanaal.
-- Statusberichten kanaal**: Deze berichten behandelen updates binnen actieve kanalen en zorgen ervoor dat beide partijen op één lijn zitten.
-- Roddelberichten**: Deze worden gebruikt voor het ontdekken en bijwerken van de netwerktopologie.
-- Experimentele berichten**: Hiermee kunnen nieuwe functies worden getest zonder het netwerk te verstoren.
+- **Communicatieberichten**: Dit zijn onder andere `Init`, `Error`, `Warning`, `Ping` en `Pong` berichten, die verbindingen opzetten, fouten afhandelen, de status van de verbinding peilen en verkeer versluieren.
+- **Kanaaloprichtingsberichten**: Deze zijn cruciaal tijdens de opbouwfase van een kanaal.
+- **Statusberichten kanaal**: Deze berichten behandelen updates binnen actieve kanalen en zorgen ervoor dat beide partijen op één lijn zitten.
+- **Roddelberichten**: Deze worden gebruikt voor het ontdekken en bijwerken van de netwerktopologie.
+- **Experimentele berichten**: Hiermee kunnen nieuwe functies worden getest zonder het netwerk te verstoren.
 
 
 #### Bolt 2 (kanaallevenscyclus)
@@ -2572,9 +2572,9 @@ Bolt 2 gaat in op de levenscyclus van het kanaal, vanaf de oprichting tot de nor
 
 
 
-- Totstandbrenging kanaal**: In deze fase openen partijen een kanaal, Exchange-handtekeningen en maken ze een financieringstransactie aan.
-- Normale werking**: Hier wordt de kanaaltoestand continu bijgewerkt met behulp van Hash Time-Locked Contracts (HTLC's). Commitment en revocation berichten zorgen ervoor dat beide partijen het eens zijn over de huidige status.
-- Afwikkeling**: Dit houdt in dat het kanaal wordt afgesloten, meestal door wederzijdse overeenstemming en onderhandeling over vergoedingen, om transacties af te ronden zonder in een oneindige afsluitingslus terecht te komen.
+- **Totstandbrenging kanaal**: In deze fase openen partijen een kanaal, Exchange-handtekeningen en maken ze een financieringstransactie aan.
+- **Normale werking**: Hier wordt de kanaaltoestand continu bijgewerkt met behulp van Hash Time-Locked Contracts (HTLC's). Commitment en revocation berichten zorgen ervoor dat beide partijen het eens zijn over de huidige status.
+- **Afwikkeling**: Dit houdt in dat het kanaal wordt afgesloten, meestal door wederzijdse overeenstemming en onderhandeling over vergoedingen, om transacties af te ronden zonder in een oneindige afsluitingslus terecht te komen.
 
 
 #### Bijwerkmechanisme
@@ -2650,10 +2650,10 @@ De belangrijkste Bolt 7 berichten zijn:
 
 
 
-- Node-aankondiging**: Dit bericht kondigt het bestaan van een knooppunt aan.
-- Kanaalaankondiging**: Dit bericht informeert het netwerk over het aanmaken van een nieuw kanaal.
-- Aankondigingshandtekening**: Dit verzekert de authenticiteit van omroepberichten.
-- Kanaal update**: Dit bericht communiceert updates over een kanaal, zoals kostenstructuren en maximale HTLC bedragen.
+- **Node-aankondiging**: Dit bericht kondigt het bestaan van een knooppunt aan.
+- **Kanaalaankondiging**: Dit bericht informeert het netwerk over het aanmaken van een nieuw kanaal.
+- **Aankondigingshandtekening**: Dit verzekert de authenticiteit van omroepberichten.
+- **Kanaal update**: Dit bericht communiceert updates over een kanaal, zoals kostenstructuren en maximale HTLC bedragen.
 
 
 #### Kanaalaankondigingsproces
@@ -2729,16 +2729,16 @@ Bitcoin wallets en Lightning wallets verschillen fundamenteel in hun architectuu
 
 
 
-- Privé sleutel betreft**: De primaire focus voor Bitcoin wallets is wie de privésleutel bezit. Dit bepaalt de veiligheid en controle van de fondsen van de gebruiker.
-- Transactiecomplexiteit**: Bitcoin wallets verwerken verschillende transactiescripts zoals Segregated Witness (SegWit) en Taproot, die transactiegroottes optimaliseren en privacy en veiligheid verbeteren.
+- **Privé sleutel betreft**: De primaire focus voor Bitcoin wallets is wie de privésleutel bezit. Dit bepaalt de veiligheid en controle van de fondsen van de gebruiker.
+- **Transactiecomplexiteit**: Bitcoin wallets verwerken verschillende transactiescripts zoals Segregated Witness (SegWit) en Taproot, die transactiegroottes optimaliseren en privacy en veiligheid verbeteren.
 
 
 #### Lightning-portefeuilles:
 
 
 
-- Beheer van privésleutels**: Net als bij Bitcoin wallets blijft het beheer van privésleutels cruciaal.
-- Liquiditeitsbeheer**: Een onderscheidend kenmerk van Lightning wallets is de noodzaak om liquiditeit te beheren, waarbij lokale (uitgaande) en externe (inkomende) liquiditeit in balans moeten worden gebracht om een soepele routering van transacties te garanderen. Dit vereist dat gebruikers hun kanalen begrijpen en optimaliseren om een efficiënte betalingsdoorsturing mogelijk te maken.
+- **Beheer van privésleutels**: Net als bij Bitcoin wallets blijft het beheer van privésleutels cruciaal.
+- **Liquiditeitsbeheer**: Een onderscheidend kenmerk van Lightning wallets is de noodzaak om liquiditeit te beheren, waarbij lokale (uitgaande) en externe (inkomende) liquiditeit in balans moeten worden gebracht om een soepele routering van transacties te garanderen. Dit vereist dat gebruikers hun kanalen begrijpen en optimaliseren om een efficiënte betalingsdoorsturing mogelijk te maken.
 
 
 #### Liquiditeitsbeheer in lightning wallets
@@ -2785,8 +2785,8 @@ Als een van deze kanalen echter uitgeput raakt of connectiviteitsproblemen heeft
 
 
 
-- Uitputting van kanalen**: Na verloop van tijd kunnen kanalen uit balans raken, met fondsen geconcentreerd aan één kant, waardoor de transactiemogelijkheden beperkt worden.
-- Connectiviteitsproblemen**: Efficiënte routering van transacties vereist robuuste netwerkverbindingen, die soms moeilijk te onderhouden zijn.
+- **Uitputting van kanalen**: Na verloop van tijd kunnen kanalen uit balans raken, met fondsen geconcentreerd aan één kant, waardoor de transactiemogelijkheden beperkt worden.
+- **Connectiviteitsproblemen**: Efficiënte routering van transacties vereist robuuste netwerkverbindingen, die soms moeilijk te onderhouden zijn.
 
 
 Om Address aan deze uitdagingen het hoofd te bieden, bieden Liquidity Service Providers (LSP's) diensten aan om liquiditeit te helpen beheren, vaak tegen een vergoeding, zodat gebruikers optimale kanaalbalansen behouden voor soepele transacties.
@@ -2802,35 +2802,35 @@ Er zijn verschillende Lightning wallets beschikbaar, die elk voldoen aan verschi
 
 
 
-- Kenmerken**: Volledig beheerd, gebruiksvriendelijk, maar closed source met mogelijke privacyproblemen.
+- **Kenmerken**: Volledig beheerd, gebruiksvriendelijk, maar closed source met mogelijke privacyproblemen.
 
 
 #### Albi:
 
 
 
-- Kenmerken**: Browseruitbreiding, open-source, ondersteunt zowel bewaringsmodellen als nietbewaringsmodellen, wat de veelzijdigheid vergroot.
+- **Kenmerken**: Browseruitbreiding, open-source, ondersteunt zowel bewaringsmodellen als nietbewaringsmodellen, wat de veelzijdigheid vergroot.
 
 
 #### Wind:
 
 
 
-- Kenmerken**: Lichtgewicht node op een telefoon, open-source, combineert self-custody met beheerde liquiditeit, waardoor een balans ontstaat tussen controle en gemak.
+- **Kenmerken**: Lichtgewicht node op een telefoon, open-source, combineert self-custody met beheerde liquiditeit, waardoor een balans ontstaat tussen controle en gemak.
 
 
 #### Phoenix:
 
 
 
-- Kenmerken**: Vergelijkbaar met Breeze, maakt gebruik van een LSP-model voor liquiditeit, open-source, richt zich op eenvoud voor de gebruiker en effectief liquiditeitsbeheer.
+- **Kenmerken**: Vergelijkbaar met Breeze, maakt gebruik van een LSP-model voor liquiditeit, open-source, richt zich op eenvoud voor de gebruiker en effectief liquiditeitsbeheer.
 
 
 #### Open Bitcoin Wallet (OBW):
 
 
 
-- Kenmerken**: Integreert On-Chain en Lightning wallets, ondersteunt gehoste kanalen, open-source met geavanceerde functies, geschikt voor power users.
+- **Kenmerken**: Integreert On-Chain en Lightning wallets, ondersteunt gehoste kanalen, open-source met geavanceerde functies, geschikt voor power users.
 
 
 ### Matrix voor bewaring en liquiditeitsbeheer
@@ -2840,8 +2840,8 @@ Portemonnees kunnen worden ingedeeld op basis van wie de privésleutels bezit en
 
 
 
-- Custodial wallets**: Een derde partij bewaart privésleutels, biedt meestal automatisch liquiditeitsbeheer. Voorbeelden zijn Wallet of Satoshi.
-- Niet-Custodial-portefeuilles**: Gebruikers houden privésleutels, mogelijk is handmatig liquiditeitsbeheer nodig. Voorbeelden zijn Breeze en OBW.
+- **Custodial wallets**: Een derde partij bewaart privésleutels, biedt meestal automatisch liquiditeitsbeheer. Voorbeelden zijn Wallet of Satoshi.
+- **Niet-Custodial-portefeuilles**: Gebruikers houden privésleutels, mogelijk is handmatig liquiditeitsbeheer nodig. Voorbeelden zijn Breeze en OBW.
 
 
 ![Liquidity Lightning](assets/en/55.webp)_2x2 Matrix of LN Clients_
@@ -2854,9 +2854,9 @@ Ondanks hun voordelen hebben Lightning wallets te maken met verschillende punten
 
 
 
-- Privacy**: Gesloten portemonnees en bepaalde bewaarmodellen geven aanleiding tot zorgen over privacy.
-- Gebruiksgemak**: Het blijft een uitdaging om een evenwicht te vinden tussen geavanceerde functies en gebruiksvriendelijkheid.
-- Open source-ontwikkeling**: Uiteenlopende niveaus van open-source bijdragen beïnvloeden het gebruikersvertrouwen en het innovatietempo.
+- **Privacy**: Gesloten portemonnees en bepaalde bewaarmodellen geven aanleiding tot zorgen over privacy.
+- **Gebruiksgemak**: Het blijft een uitdaging om een evenwicht te vinden tussen geavanceerde functies en gebruiksvriendelijkheid.
+- **Open source-ontwikkeling**: Uiteenlopende niveaus van open-source bijdragen beïnvloeden het gebruikersvertrouwen en het innovatietempo.
 
 
 ### Aanvullende inzichten en use cases
@@ -2884,9 +2884,9 @@ De inkomsten uit routeringsvergoedingen zijn meestal minimaal, waardoor het voor
 
 
 
-- Blink Wallet**: Gebaseerd in El Salvador, bewaring, vereist telefoonnummer, stabiele Sats functies, maar mist geavanceerde Lightning Network functies.
-- Blitz Wallet**: Open-source, self-custody, vereist door de gebruiker beheerde liquiditeit, biedt uitgebreide informatie voor power users.
-- SwissBitcoinPay**: Ontworpen voor handelaren, bewaring tot 24 uur, minimale kosten voor gebruikers met hoge volumes.
+- **Blink Wallet**: Gebaseerd in El Salvador, bewaring, vereist telefoonnummer, stabiele Sats functies, maar mist geavanceerde Lightning Network functies.
+- **Blitz Wallet**: Open-source, self-custody, vereist door de gebruiker beheerde liquiditeit, biedt uitgebreide informatie voor power users.
+- **SwissBitcoinPay**: Ontworpen voor handelaren, bewaring tot 24 uur, minimale kosten voor gebruikers met hoge volumes.
 
 
 #### Wallet gebruikssituaties:
@@ -2937,8 +2937,8 @@ In de Lightning Network verwijst **liquiditeit** naar de beschikbaarheid van fon
 
 
 
-- Praktisch probleem**: Gebruikers vinden het vaak moeilijk om hun kanalen in balans te brengen en voldoende liquiditeit te behouden. Bovendien kan het herbalanceren van kanalen kosten met zich meebrengen.
-- Mogelijke oplossingen**: Sommige Lightning wallets zijn begonnen met het integreren van automatische kanaalherbalancering, maar deze functie is nog in ontwikkeling. Gebruikers vertrouwen ook op **Lightning Service Providers (LSP's)** om te helpen met liquiditeitsbeheer.
+- **Praktisch probleem**: Gebruikers vinden het vaak moeilijk om hun kanalen in balans te brengen en voldoende liquiditeit te behouden. Bovendien kan het herbalanceren van kanalen kosten met zich meebrengen.
+- **Mogelijke oplossingen**: Sommige Lightning wallets zijn begonnen met het integreren van automatische kanaalherbalancering, maar deze functie is nog in ontwikkeling. Gebruikers vertrouwen ook op **Lightning Service Providers (LSP's)** om te helpen met liquiditeitsbeheer.
 
 
 #### **Vanuit het perspectief van de ontwikkelaar:**
@@ -2948,8 +2948,8 @@ Ontwikkelaars staan voor de uitdaging om naadloos liquiditeitsbeheer te implemen
 
 
 
-- Praktisch probleem**: Het implementeren van effectieve algoritmes voor het routeren van betalingen over een netwerk met variabele liquiditeit kan complex en rekenintensief zijn.
-- Mogelijke oplossingen**: Ontwikkelaars onderzoeken geavanceerde algoritmes voor **liquiditeitsroutering** en het gebruik van **duaal gefinancierde kanalen** om ervoor te zorgen dat liquiditeit beschikbaar is aan beide uiteinden van een transactie.
+- **Praktisch probleem**: Het implementeren van effectieve algoritmes voor het routeren van betalingen over een netwerk met variabele liquiditeit kan complex en rekenintensief zijn.
+- **Mogelijke oplossingen**: Ontwikkelaars onderzoeken geavanceerde algoritmes voor **liquiditeitsroutering** en het gebruik van **duaal gefinancierde kanalen** om ervoor te zorgen dat liquiditeit beschikbaar is aan beide uiteinden van een transactie.
 
 
 > **Definities**:
@@ -2970,8 +2970,8 @@ De interactie tussen **Layer 1 (L1)** (Bitcoin's basis Layer) en **Layer 2 (L2)*
 
 
 
-- Praktisch probleem**: Gebruikers worstelen vaak met de complexiteit van het begrijpen wanneer ze communiceren met de Bitcoin basis Layer versus de Lightning Layer. Dit kan leiden tot verwarring over kosten, transactietijden en beveiliging.
-- Mogelijke oplossingen**: Verbeterde Wallet ontwerpen die L1/L2 interacties abstraheren en kanaalopeningen/sluitingen op de achtergrond beheren. Sommige wallets laten gebruikers al naadloos schakelen tussen On-Chain en Lightning transacties, afhankelijk van de omstandigheden.
+- **Praktisch probleem**: Gebruikers worstelen vaak met de complexiteit van het begrijpen wanneer ze communiceren met de Bitcoin basis Layer versus de Lightning Layer. Dit kan leiden tot verwarring over kosten, transactietijden en beveiliging.
+- **Mogelijke oplossingen**: Verbeterde Wallet ontwerpen die L1/L2 interacties abstraheren en kanaalopeningen/sluitingen op de achtergrond beheren. Sommige wallets laten gebruikers al naadloos schakelen tussen On-Chain en Lightning transacties, afhankelijk van de omstandigheden.
 
 
 #### **Vanuit het perspectief van de ontwikkelaar:**
@@ -2981,8 +2981,8 @@ Het is de taak van ontwikkelaars om de complexiteit van L1 en L2 voor gebruikers
 
 
 
-- Praktisch probleem**: Ervoor zorgen dat de gebruiker wordt afgeschermd van de technische complexiteit van het beheer van kanalen en On-Chain-transacties, terwijl de transparantie behouden blijft wanneer dat nodig is.
-- Mogelijke oplossingen**: Ontwikkelaars werken aan functies zoals **splicing** (waarmee fondsen kunnen worden toegevoegd aan of verwijderd uit een chatroom zonder deze te sluiten) en tools voor automatisch chatroombeheer.
+- **Praktisch probleem**: Ervoor zorgen dat de gebruiker wordt afgeschermd van de technische complexiteit van het beheer van kanalen en On-Chain-transacties, terwijl de transparantie behouden blijft wanneer dat nodig is.
+- **Mogelijke oplossingen**: Ontwikkelaars werken aan functies zoals **splicing** (waarmee fondsen kunnen worden toegevoegd aan of verwijderd uit een chatroom zonder deze te sluiten) en tools voor automatisch chatroombeheer.
 
 
 > **Definities**:
@@ -3004,8 +3004,8 @@ Een van de uitdagingen in de Lightning Network is **betalingen ontvangen wanneer
 
 
 
-- Praktisch probleem**: Gebruikers kunnen geen betalingen ontvangen tenzij hun node online is en verbonden met het netwerk, waardoor het onhandig is voor degenen die Lightning willen gebruiken als een dagelijkse betaalmethode.
-- Mogelijke oplossingen**: Sommige workarounds omvatten het gebruik van custodial wallets of het vertrouwen op diensten van derden die fungeren als betalingsintermediairs totdat het ontvangende knooppunt online komt.
+- **Praktisch probleem**: Gebruikers kunnen geen betalingen ontvangen tenzij hun node online is en verbonden met het netwerk, waardoor het onhandig is voor degenen die Lightning willen gebruiken als een dagelijkse betaalmethode.
+- **Mogelijke oplossingen**: Sommige workarounds omvatten het gebruik van custodial wallets of het vertrouwen op diensten van derden die fungeren als betalingsintermediairs totdat het ontvangende knooppunt online komt.
 
 
 #### **Vanuit het perspectief van de ontwikkelaar:**
@@ -3015,8 +3015,8 @@ Ontwikkelaars onderzoeken manieren om gebruikers in staat te stellen Lightning-b
 
 
 
-- Praktisch probleem**: Het ontwikkelen van een protocol of systeem waarmee gebruikers offline betalingen kunnen ontvangen zonder de veiligheid of decentralisatie in gevaar te brengen, is een aanzienlijke technische uitdaging.
-- Mogelijke oplossingen**: Er wordt onderzoek gedaan naar **offline betalingsvouchers**, waarmee ontvangers betalingen kunnen aanvragen zodra ze weer verbinding hebben met het netwerk.
+- **Praktisch probleem**: Het ontwikkelen van een protocol of systeem waarmee gebruikers offline betalingen kunnen ontvangen zonder de veiligheid of decentralisatie in gevaar te brengen, is een aanzienlijke technische uitdaging.
+- **Mogelijke oplossingen**: Er wordt onderzoek gedaan naar **offline betalingsvouchers**, waarmee ontvangers betalingen kunnen aanvragen zodra ze weer verbinding hebben met het netwerk.
 
 
 > **Definities**:
@@ -3037,8 +3037,8 @@ Een back-up maken van Lightning-kanalen is cruciaal voor gebruikers om hun geld 
 
 
 
-- Praktisch probleem**: Gebruikers moeten ervoor zorgen dat hun kanaalback-ups up-to-date zijn, omdat het gebruik van een verouderde back-up kan resulteren in geldverlies of bestraffing door het netwerk.
-- Mogelijke oplossingen**: Portemonnees zoals Phoenix en anderen hebben automatische kanaalback-ups geïmplementeerd, maar deze functies zijn nog niet alomtegenwoordig in alle Lightning-wallets.
+- **Praktisch probleem**: Gebruikers moeten ervoor zorgen dat hun kanaalback-ups up-to-date zijn, omdat het gebruik van een verouderde back-up kan resulteren in geldverlies of bestraffing door het netwerk.
+- **Mogelijke oplossingen**: Portemonnees zoals Phoenix en anderen hebben automatische kanaalback-ups geïmplementeerd, maar deze functies zijn nog niet alomtegenwoordig in alle Lightning-wallets.
 
 
 #### **Vanuit het perspectief van de ontwikkelaar:**
@@ -3048,8 +3048,8 @@ Ontwikkelaars moeten back-upoplossingen implementeren waarmee gebruikers hun fon
 
 
 
-- Praktisch probleem**: Het ontwerpen van back-upsystemen die veilig, gedecentraliseerd en gebruiksvriendelijk zijn vormt een grote uitdaging, omdat back-ups up-to-date moeten worden gehouden bij elke toestandsverandering in een kanaal.
-- Mogelijke oplossingen**: **Static Channel Backups (SCB's)** zijn ontwikkeld om herstel te vereenvoudigen, maar er zijn geavanceerdere oplossingen nodig voor volledig geautomatiseerde en veilige back-ups.
+- **Praktisch probleem**: Het ontwerpen van back-upsystemen die veilig, gedecentraliseerd en gebruiksvriendelijk zijn vormt een grote uitdaging, omdat back-ups up-to-date moeten worden gehouden bij elke toestandsverandering in een kanaal.
+- **Mogelijke oplossingen**: **Static Channel Backups (SCB's)** zijn ontwikkeld om herstel te vereenvoudigen, maar er zijn geavanceerdere oplossingen nodig voor volledig geautomatiseerde en veilige back-ups.
 
 
 > **Definities**:
@@ -3185,8 +3185,8 @@ Het proces is gebaseerd op **Hash Time-Locked Contracts (HTLC's)**, die ervoor z
 
 
 
-- Onion routing**: Biedt privacy door transactiegegevens in lagen in te kapselen, zodat elke tussenpersoon alleen zijn voorgaande en volgende knooppunten kent, maar niet de hele route.
-- HTLC keten**: Een reeks contracten die het geld vastzetten totdat de betaling is voltooid of teruggedraaid.
+- **Onion routing**: Biedt privacy door transactiegegevens in lagen in te kapselen, zodat elke tussenpersoon alleen zijn voorgaande en volgende knooppunten kent, maar niet de hele route.
+- **HTLC keten**: Een reeks contracten die het geld vastzetten totdat de betaling is voltooid of teruggedraaid.
 
 
 Een nieuwer protocol dat de mogelijkheden van de Lightning Network vergroot, is **Keysend**. In tegenstelling tot traditionele methoden waarbij voorafgaande communicatie tussen de verzender en de ontvanger nodig is voor generate en Invoice, maakt Keysend **door de verzender geïnitieerde betalingen** mogelijk, wat het proces stroomlijnt en de gebruikerservaring verbetert.
@@ -3196,8 +3196,8 @@ Traditionele facturen hebben echter hun beperkingen. Bijvoorbeeld:
 
 
 
-- Eenmalig**: Facturen worden meestal maar voor één transactie gebruikt, wat onhandig kan zijn.
-- Beperkingen in grootte**: Grote facturen kunnen moeilijk te verwerken zijn in QR code vorm, waardoor ze onpraktisch zijn voor bepaalde toepassingen.
+- **Eenmalig**: Facturen worden meestal maar voor één transactie gebruikt, wat onhandig kan zijn.
+- **Beperkingen in grootte**: Grote facturen kunnen moeilijk te verwerken zijn in QR code vorm, waardoor ze onpraktisch zijn voor bepaalde toepassingen.
 
 
 > **Definities**:
@@ -3216,11 +3216,11 @@ om de beperkingen van traditionele facturen te overwinnen, zijn er verschillende
 
 
 
-- LNURL**: Een protocol dat het genereren van Invoice vereenvoudigt door het dynamisch aanmaken van facturen mogelijk te maken, fiatwaarden te ondersteunen en het gebruik van **Lightning-adressen** mogelijk te maken. Deze aanpak verbetert de gebruikerservaring aanzienlijk door flexibelere betaalmethoden en integratie met verschillende use cases.
+- **LNURL**: Een protocol dat het genereren van Invoice vereenvoudigt door het dynamisch aanmaken van facturen mogelijk te maken, fiatwaarden te ondersteunen en het gebruik van **Lightning-adressen** mogelijk te maken. Deze aanpak verbetert de gebruikerservaring aanzienlijk door flexibelere betaalmethoden en integratie met verschillende use cases.
 
 
 
-- Bolt 12 Aanbiedingen**: Dit protocol is vergelijkbaar met LNURL, maar maakt gebruik van **Onion messaging** voor verbeterde privacy. Bolt 12 stelt gebruikers in staat om automatisch facturen op te halen zonder handmatige tussenkomst, wat zowel de privacy als de bruikbaarheid verbetert.
+- **Bolt 12 Aanbiedingen**: Dit protocol is vergelijkbaar met LNURL, maar maakt gebruik van **Onion messaging** voor verbeterde privacy. Bolt 12 stelt gebruikers in staat om automatisch facturen op te halen zonder handmatige tussenkomst, wat zowel de privacy als de bruikbaarheid verbetert.
 
 
 Een opmerkelijke integratie van Lightning betalingen is in **Nostr**, een gedecentraliseerd social media platform. Nostr integreert Lightning-betalingen om fooien en microtransacties mogelijk te maken en laat zien hoe Lightning kan worden ingebed in verschillende toepassingen.
@@ -3375,8 +3375,8 @@ De reis van Mining hardware is monumentaal geweest, van eenvoudige CPU Mining to
 
 
 
-- S19J Pro**: De S19J Pro staat bekend om zijn hoge efficiëntie en betrouwbaarheid en biedt een superieure Hash-snelheid met een lager energieverbruik, waardoor hij ideaal is voor grootschalige toepassingen.
-- Antminer S9**: Hoewel hij ouder en minder efficiënt is, blijft de Antminer S9 populair voor kleinere setups en hobbyisten vanwege zijn betaalbaarheid en degelijke prestaties.
+- **S19J Pro**: De S19J Pro staat bekend om zijn hoge efficiëntie en betrouwbaarheid en biedt een superieure Hash-snelheid met een lager energieverbruik, waardoor hij ideaal is voor grootschalige toepassingen.
+- **Antminer S9**: Hoewel hij ouder en minder efficiënt is, blijft de Antminer S9 populair voor kleinere setups en hobbyisten vanwege zijn betaalbaarheid en degelijke prestaties.
 
 
 ![s19j pro vs antminer s9](assets/en/59.webp)
@@ -3422,14 +3422,14 @@ Regelgeving speelt een belangrijke rol bij het vormgeven van het Mining landscha
 
 
 
-   - Betalen per aandeel**: Pay-Per-Share beloont miners voor elk geldig aandeel dat ze indienen, ongeacht of de pool een blok vindt. **Shares** zijn bewijseenheden dat miners het vereiste werk hebben gedaan en de pool verifieert deze shares.
+- **Betalen per aandeel**: Pay-Per-Share beloont miners voor elk geldig aandeel dat ze indienen, ongeacht of de pool een blok vindt. **Shares** zijn bewijseenheden dat miners het vereiste werk hebben gedaan en de pool verifieert deze shares.
 
 
 ![pps](assets/en/60.webp)
 
 
 
-   - Proportioneel**: Het is afhankelijk van de Mining pool van een blok om de beloning gelijk te verdelen naar de bijdrage van de Miner aan de totale Hashrate van de pool.
+- **Proportioneel**: Het is afhankelijk van de Mining pool van een blok om de beloning gelijk te verdelen naar de bijdrage van de Miner aan de totale Hashrate van de pool.
 
 
 ![prop](assets/en/61.webp)

@@ -37,6 +37,8 @@ Quer represente uma pequena empresa ou uma grande corporação, este curso tem c
 
 Pronto para mergulhar no mundo do Bitcoin para empresas? Vamos lá!
 
+**N.B.**: Se encontrar termos desconhecidos durante o curso, consulte [o glossário](https://planb.network/resources/glossary) para definições.
+
 # Moeda, sistemas de pagamento e Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -66,22 +68,22 @@ Em conclusão, as moedas são redes concebidas para movimentar o valor de forma 
 Uma boa moeda possui várias propriedades essenciais que a tornam eficaz para facilitar a troca de valores. Segue-se uma explicação concisa de cada uma delas:
 
 
-- Seguro**: Uma moeda deve ser protegida contra roubo ou acesso não autorizado, assegurando que os utilizadores a podem deter e transferir com confiança. A segurança é fundamental para criar confiança no sistema.
-- À prova de contrafação**: Uma moeda deve ser extremamente difícil ou impossível de falsificar. Isto garante que cada unidade é autêntica, mantém o seu valor e evita a inflação causada pela entrada em circulação de unidades falsas. Por exemplo, historicamente, o ouro tem sido valorizado não só pela sua beleza e raridade, mas também pelo facto de ser extremamente difícil de produzir. Ao contrário das notas de papel ou das entradas digitais, não se pode "fabricar" ouro - tem de ser extraído da terra. Esta escassez natural e a dificuldade de produção ajudaram o ouro a manter o seu estatuto de reserva de valor fiável e de referência de autenticidade.
-- Escassa**: Uma boa moeda deve ter uma oferta limitada ou uma emissão controlada. A escassez garante que o seu valor é preservado ao longo do tempo, evitando a sobreprodução, que corroeria o poder de compra. Por exemplo, algumas tribos nativas americanas utilizavam missangas como forma de moeda. Inicialmente, estas contas eram difíceis de produzir, mantendo a sua escassez e valor. No entanto, quando os comerciantes europeus começaram a produzir em massa e a inundar o mercado com contas, a sua raridade desapareceu. Com o aumento da oferta, as missangas perderam o seu poder de compra, comprometendo o seu papel de reserva de valor fiável.
-- Sem autorização**: No passado, moedas como o ouro e a prata eram frequentemente cunhadas por particulares, autoridades locais ou comerciantes que tinham acesso às matérias-primas. Este sistema funcionava, por vezes, ao abrigo de acordos ou licenças concedidas por reis ou governantes. Com o tempo, os reis e os governos centralizaram este processo para obterem um maior controlo sobre a estabilidade económica, a tributação e o sistema monetário. Um exemplo famoso é o **thaler**, uma moeda de prata cunhada pela primeira vez em 1518 no **Vale de Joachimsthal** (atual Jáchymov, na República Checa) por mineiros e autoridades locais. O nome "thaler" deriva da palavra alemã **"Thal "** que significa "vale" Estas moedas, conhecidas pela sua prata de alta qualidade, tornaram-se amplamente difundidas em toda a Europa. Com o tempo, o termo evoluiu linguística e geograficamente, acabando por dar origem ao nome "dólar", que foi adotado nos Estados Unidos para a sua moeda.
+- **Seguro**: Uma moeda deve ser protegida contra roubo ou acesso não autorizado, assegurando que os utilizadores a podem deter e transferir com confiança. A segurança é fundamental para criar confiança no sistema.
+- **À prova de contrafação**: Uma moeda deve ser extremamente difícil ou impossível de falsificar. Isto garante que cada unidade é autêntica, mantém o seu valor e evita a inflação causada pela entrada em circulação de unidades falsas. Por exemplo, historicamente, o ouro tem sido valorizado não só pela sua beleza e raridade, mas também pelo facto de ser extremamente difícil de produzir. Ao contrário das notas de papel ou das entradas digitais, não se pode "fabricar" ouro - tem de ser extraído da terra. Esta escassez natural e a dificuldade de produção ajudaram o ouro a manter o seu estatuto de reserva de valor fiável e de referência de autenticidade.
+- **Escassa**: Uma boa moeda deve ter uma oferta limitada ou uma emissão controlada. A escassez garante que o seu valor é preservado ao longo do tempo, evitando a sobreprodução, que corroeria o poder de compra. Por exemplo, algumas tribos nativas americanas utilizavam missangas como forma de moeda. Inicialmente, estas contas eram difíceis de produzir, mantendo a sua escassez e valor. No entanto, quando os comerciantes europeus começaram a produzir em massa e a inundar o mercado com contas, a sua raridade desapareceu. Com o aumento da oferta, as missangas perderam o seu poder de compra, comprometendo o seu papel de reserva de valor fiável.
+- **Sem autorização**: No passado, moedas como o ouro e a prata eram frequentemente cunhadas por particulares, autoridades locais ou comerciantes que tinham acesso às matérias-primas. Este sistema funcionava, por vezes, ao abrigo de acordos ou licenças concedidas por reis ou governantes. Com o tempo, os reis e os governos centralizaram este processo para obterem um maior controlo sobre a estabilidade económica, a tributação e o sistema monetário. Um exemplo famoso é o **thaler**, uma moeda de prata cunhada pela primeira vez em 1518 no **Vale de Joachimsthal** (atual Jáchymov, na República Checa) por mineiros e autoridades locais. O nome "thaler" deriva da palavra alemã **"Thal"** que significa "vale". Estas moedas, conhecidas pela sua prata de alta qualidade, tornaram-se amplamente difundidas em toda a Europa. Com o tempo, o termo evoluiu linguística e geograficamente, acabando por dar origem ao nome "dólar", que foi adotado nos Estados Unidos para a sua moeda.
 
 Na era moderna, as moedas tornaram-se totalmente autorizadas ao abrigo do sistema de senhoriagem, o que significa que apenas as entidades autorizadas - como os bancos centrais ou os tesouros - podiam cunhar moedas ou imprimir notas. Os indivíduos deixaram de estar legalmente autorizados a produzir moeda, assegurando um controlo centralizado sobre a sua emissão e fornecimento.
 
 Atualmente, o princípio da senhoriagem está a ser posto em causa pela criptomoeda Bitcoin, que funciona sem controlo centralizado. O Bitcoin é um sistema "sem permissão", em que qualquer pessoa pode participar na utilização da moeda sem pedir autorização e, através da extração mineira, na sua criação. Esta descentralização retira aos governos o monopólio da emissão, levantando questões sobre um potencial regresso a sistemas monetários competitivos de mercado livre.
 
 
-- Unidade de conta**: Uma moeda deve fornecer uma medida padrão para comparar o valor de bens e serviços. Isto simplifica o comércio e torna a fixação de preços transparente e coerente em todas as transacções.
-- Duradoura**: Uma moeda deve resistir ao desgaste ao longo do tempo. As moedas físicas, como moedas ou notas, devem resistir a danos, enquanto as moedas digitais devem permanecer armazenadas em segurança sem risco de perda de dados.
-- Portátil**: Uma moeda deve ser fácil de transportar e utilizar, permitindo o comércio à distância. Isto pode ser conseguido através da portabilidade física (moedas ou notas leves) ou de sistemas de transferência digital.
-- Divisível**: Uma moeda deve ser divisível em unidades mais pequenas para facilitar transacções de diferentes dimensões. Esta flexibilidade garante que a moeda é prática tanto para pequenas compras como para o comércio em grande escala.
-- Fungível**: Todas as unidades de uma moeda devem ser permutáveis e de igual valor. Por exemplo, uma nota de dólar deve ser equivalente a qualquer outra nota de dólar. Esta uniformidade assegura a equidade e a simplicidade das transacções.
-- Reconhecível**: Uma moeda deve ser facilmente identificável e fiável. As moedas físicas conseguem-no através de desenhos únicos e caraterísticas de segurança, enquanto as moedas digitais podem basear-se em protocolos de verificação. Isto assegura uma aceitação generalizada e reduz o risco de fraude.
+- **Unidade de conta**: Uma moeda deve fornecer uma medida padrão para comparar o valor de bens e serviços. Isto simplifica o comércio e torna a fixação de preços transparente e coerente em todas as transacções.
+- **Duradoura**: Uma moeda deve resistir ao desgaste ao longo do tempo. As moedas físicas, como moedas ou notas, devem resistir a danos, enquanto as moedas digitais devem permanecer armazenadas em segurança sem risco de perda de dados.
+- **Portátil**: Uma moeda deve ser fácil de transportar e utilizar, permitindo o comércio à distância. Isto pode ser conseguido através da portabilidade física (moedas ou notas leves) ou de sistemas de transferência digital.
+- **Divisível**: Uma moeda deve ser divisível em unidades mais pequenas para facilitar transacções de diferentes dimensões. Esta flexibilidade garante que a moeda é prática tanto para pequenas compras como para o comércio em grande escala.
+- **Fungível**: Todas as unidades de uma moeda devem ser permutáveis e de igual valor. Por exemplo, uma nota de dólar deve ser equivalente a qualquer outra nota de dólar. Esta uniformidade assegura a equidade e a simplicidade das transacções.
+- **Reconhecível**: Uma moeda deve ser facilmente identificável e fiável. As moedas físicas conseguem-no através de desenhos únicos e caraterísticas de segurança, enquanto as moedas digitais podem basear-se em protocolos de verificação. Isto assegura uma aceitação generalizada e reduz o risco de fraude.
 
 Estas caraterísticas tornam uma moeda prática, fiável e eficiente para facilitar o comércio e armazenar valor numa economia.
 
@@ -107,7 +109,7 @@ Atualmente, o aparecimento da moeda descentralizada Bitcoin representa o próxim
 
 Nos sistemas descentralizados, as transacções são verificadas por uma rede global de participantes que utilizam a tecnologia blockchain, garantindo segurança, transparência e resiliência. Esta estrutura minimiza o risco de fraude, reduz a dependência das autoridades centrais e permite que os indivíduos tenham um maior controlo sobre as suas finanças. Ao eliminar barreiras geográficas e institucionais, as moedas descentralizadas oferecem um sistema monetário verdadeiramente global e inclusivo.
 
-**A evolução das redes monetárias
+**A evolução das redes monetárias**
 
 Cada etapa da evolução das redes monetárias melhorou propriedades fundamentais: portabilidade, escalabilidade, acessibilidade, velocidade, segurança e confiança. As moedas deram lugar ao papel-moeda para maior portabilidade e eficiência. O papel evoluiu para o dinheiro eletrónico, permitindo o acesso global e transacções instantâneas. Atualmente, a Bitcoin está a redefinir a confiança e a segurança, criando um sistema monetário aberto e resistente. Esta progressão histórica realça o esforço contínuo da humanidade para criar melhores redes para a troca de valores, cada iteração baseando-se e ultrapassando as limitações da anterior.
 
@@ -131,19 +133,19 @@ Os sistemas de pagamento são métodos e infra-estruturas que permitem a transfe
 
 5. **Carteiras digitais e pagamentos móveis:** Aplicações ou dispositivos que armazenam informações de pagamento (por exemplo, Apple Pay, WeChatPay, AliPay, PayPal), permitindo transferências rápidas e muitas vezes sem contacto.
 
-**Utilização em B2C e B2B
+**Utilização em B2C e B2B**
 
 
-- B2C (Business-to-Consumer):**
+- **B2C (Business-to-Consumer):**
     - Os consumidores utilizam frequentemente dinheiro, cartões e carteiras digitais para as suas compras quotidianas - como mercearias, compras em linha ou serviços como o ride-hailing.
     - A rapidez, a conveniência e as taxas reduzidas (para o consumidor) são frequentemente as principais prioridades.
     - Os pagamentos móveis e sem contacto são cada vez mais populares neste espaço devido à sua facilidade de utilização.
-- B2B (Business-to-Business):**
+- **B2B (Business-to-Business):**
     - As empresas recorrem normalmente a transferências bancárias, cheques e sistemas de faturação para pagar a fornecedores, liquidar grandes contas ou tratar de pagamentos recorrentes.
     - A tónica é frequentemente colocada na rastreabilidade, na documentação e na capacidade de lidar com valores de transação mais elevados.
     - A utilização de cartões existe, mas tende a ser menos comum devido a taxas e limites de transação mais elevados. Estão a surgir soluções digitais, como plataformas de pagamento integradas, para simplificar e automatizar os processos de contas a receber/pagar.
 
-![BIZ101](assets/en/01.webp)
+![BIZ101](assets/pt/001.webp)
 
 *Gráfico: Tendências globais dos métodos de pagamento nos pontos de venda (POS) (2023-2027), The Global Payments Report 2024, Worldpay.*
 
@@ -151,7 +153,7 @@ Os sistemas de pagamento são métodos e infra-estruturas que permitem a transfe
 
 Quando um cliente utiliza um cartão de crédito numa loja, o cartão é lido pelo terminal POS, que transmite de forma segura os dados da transação ao banco adquirente do comerciante. O adquirente encaminha esta informação para a rede de cartões relevante (por exemplo, Visa ou Mastercard), que por sua vez encaminha o pedido para o emissor - o banco que forneceu o cartão do cliente. O emissor verifica a conta ou a linha de crédito do cliente e envia uma autorização através da rede e do adquirente, permitindo que o comerciante aceite o pagamento.
 
-![BIZ101](assets/en/02.webp)
+![BIZ101](assets/pt/002.webp)
 
 Esta transação aparentemente simples envolve, na realidade, mais de 15 passos, 7 intermediários e demora, em média, entre 48 horas e 5 dias até que o comerciante receba os fundos. Nos dias seguintes, ocorre um processo de compensação e liquidação. A rede de cartões agrega as transacções do dia e coordena o intercâmbio de fundos entre o adquirente e o emitente. Um banco central assegura a exatidão e a estabilidade destas liquidações interbancárias. Por fim, a conta bancária do comerciante recebe o montante líquido (menos as comissões) creditado pelo adquirente, concluindo assim o ciclo de vida da transação.
 
@@ -191,24 +193,24 @@ Tal como passámos do pagamento ao minuto das chamadas vocais para a utilizaçã
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
-**O QUE É A BITCOIN?
+**O QUE É A BITCOIN?**
 
 Bitcoin é um sistema de troca de moeda digital **peer-to-peer** (dinheiro eletrónico). O termo "Bitcoin" refere-se aos seguintes componentes:
 
 
-- Um protocolo informático** que facilita a troca de valores na Internet sem intermediários, sem necessidade de autorização e de forma pseudónima. Utiliza princípios criptográficos avançados.
-- Uma rede física** de máquinas ligadas à Internet (nós, mineiros, etc.) operadas por indivíduos e empresas, formando um sistema descentralizado (sem autoridade central ou ponto único de controlo).
-- A unidade de conta** dentro do sistema. Nunca existirão mais de 21 milhões de bitcoins. Cada bitcoin é divisível em 100 milhões de unidades chamadas "satoshis", nome dado em honra do seu criador anónimo.
+- Um protocolo informático **que facilita a troca de valores na Internet sem intermediários, sem necessidade de autorização e de forma pseudónima. Utiliza princípios criptográficos avançados.**
+- Uma rede física de máquinas ligadas à Internet (nós, mineiros, etc.) operadas por indivíduos e empresas, formando um sistema descentralizado (sem autoridade central ou ponto único de controlo).
+- A **unidade de conta** dentro do sistema. Nunca existirão mais de 21 milhões de bitcoins. Cada bitcoin é divisível em 100 milhões de unidades chamadas "satoshis", nome dado em honra do seu criador anónimo.
 
 Em conjunto, fazem da Bitcoin um **ativo portador** e uma moeda digital **sem emissor**. A propriedade é garantida apenas pela posse da **chave criptográfica privada**, garantindo o controlo total **sem intermediários ou terceiros de confiança**. Quando transferida, a **finalidade** da propriedade é imediata: o novo detentor possui-a na totalidade sem depender de uma autoridade central para proteção ou convertibilidade. As transacções são **imutáveis** - uma vez registadas na cadeia de blocos, não podem ser alteradas ou apagadas.
 
-![BIZ101](assets/en/11.webp)
+![BIZ101](assets/pt/003.webp)
 
 A Bitcoin tem uma política monetária fixa, com um **capítulo de 21 milhões de bitcoins**, dos quais ~19,8 milhões já foram distribuídos. Isto torna-a **deflacionária**, com o seu valor a aumentar ao longo do tempo, à medida que os utilizadores armazenam nela poupanças e ganhos de produtividade.
 
 As suas caraterísticas técnicas ultrapassam as do ouro e do dólar combinadas, tornando-o o ativo financeiro mais difícil alguma vez criado. A Bitcoin é simultaneamente uma reserva de valor e um meio de troca, uma moeda em construção. Imagine transferir valor da tesouraria de uma empresa para outra rapidamente, sem intermediários, a um custo mínimo, sem fraude, 24 horas por dia, 7 dias por semana, e sem qualquer terceiro envolvido.
 
-![BIZ101](assets/en/03.webp)
+![BIZ101](assets/pt/004.webp)
 
 A Bitcoin preserva efetivamente o valor porque o seu livro-razão é inviolável. O seu valor aumenta devido à oferta rara e limitada combinada com o número crescente de oportunidades de troca, impulsionado pelo número crescente de utilizadores.
 
@@ -216,29 +218,29 @@ A Bitcoin é disruptiva porque nos incentiva a aprender conceitos de matemática
 
 A Bitcoin desafia-nos a reconsiderar a natureza do próprio dinheiro. Pode explicar-nos o que é verdadeiramente o dinheiro? Um trabalhador assalariado ou um empresário pode passar 50.000 a 100.000 horas da sua vida a ganhar dinheiro, mas quantos **dedicam sequer 100 horas a compreendê-lo melhor** e a preservá-lo? A Bitcoin incita-nos a questionar as razões fundamentais da nossa necessidade de dinheiro e da nossa perspetiva temporal. O dinheiro é para luxo imediato ou para resiliência a longo prazo? Se tivéssemos um ativo em valorização que nos permitisse adiar as compras, que escolhas faríamos? Que conversas gostaríamos de ter connosco próprios daqui a 20 ou 30 anos?
 
-**CARTÃO DE IDENTIDADE DE BITCOIN
+**CARTÃO DE IDENTIDADE DE BITCOIN**
 
 
-- Idade:** 15 anos (3 de janeiro de 2009)
-- Valor diário de câmbio:** 10 mil milhões de dólares (> CAC40)
-- Capitalização bolsista:** 1,8 biliões de dólares (> Meta, Visa, Prata; < Apple, Google, Ouro)
-- Utilizadores:** ~100 a 200 milhões (1-2% da população mundial)
-- Volatilidade:** Intrinsecamente nenhuma (1 Bitcoin = 1 Bitcoin), muito elevada externamente (nas bolsas de moeda fiduciária)
-- Desempenho:** Primeira transação a $0,0009; agora $100.000 (x100 milhões)
-- Disponibilidade da rede (tempo de atividade):** 100% desde 2013
-- Declarado morto ou criticado:** Uma vez por mês
+- **Idade:** 15 anos (3 de janeiro de 2009)
+- **Valor diário de câmbio:** 10 mil milhões de dólares (> CAC40)
+- **Capitalização bolsista:** 1,8 biliões de dólares (> Meta, Visa, Prata; < Apple, Google, Ouro)
+- **Utilizadores:** ~100 a 200 milhões (1-2% da população mundial)
+- **Volatilidade:** Intrinsecamente nenhuma (1 Bitcoin = 1 Bitcoin), muito elevada externamente (nas bolsas de moeda fiduciária)
+- **Desempenho:** Primeira transação a $0,0009; agora $100.000 (x100 milhões)
+- **Disponibilidade da rede (tempo de atividade):** 100% desde 2013
+- **Declarado morto ou criticado:** Uma vez por mês
 
-**Uma maravilha da cooperação humana
+**Uma maravilha da cooperação humana**
 
 
 - Totalmente **open-source**
-- Entidade jurídica:** Nenhuma
-- Diretor Executivo:** Nenhum
-- Investimento de capital de risco:** Nenhum
-- Marketing:** Nenhum
-- I&D:** Voluntariado
-- Governação:** Pelos utilizadores
-- Modelo económico inovador:** A criação de blocos é subsidiada por taxas de transação (com base em leilões)
+- **Entidade jurídica:** Nenhuma
+- **Diretor Executivo:** Nenhum
+- **Investimento de capital de risco:** Nenhum
+- **Marketing:** Nenhum
+- **I&D:** Voluntariado
+- **Governação:** Pelos utilizadores
+- **Modelo económico inovador:** A criação de blocos é subsidiada por taxas de transação (com base em leilões)
 
 Para mais informações sobre a Bitcoin, a sua história, o seu funcionamento e a sua utilização, sugiro também que siga este outro curso completo:
 
@@ -248,35 +250,35 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**O QUE É UM RELÂMPAGO?
+**O QUE É UM RELÂMPAGO?**
 
 A Lightning Network é **um protocolo e uma rede** que facilita as transacções Bitcoin com uma interação mínima com a blockchain principal da Bitcoin. Veja como ela funciona:
 
 
-- Configuração inicial:** Os fundos são bloqueados (escrowed) na blockchain principal para estabelecer um canal de pagamento entre 2 partes.
-- Rede de pagamentos:** Uma rede de canais de pagamento entre várias partes constitui uma rede de pagamentos (encaminhamento e interligação).
-- Transacções fora da cadeia:** As transacções ocorrem entre as partes mas não são **publicadas imediatamente** na cadeia de blocos principal da Bitcoin (**"fora da cadeia "**).
-- Liquidações on-chain:** Apenas o **saldo final** das transacções de um canal é publicado na blockchain principal da Bitcoin (**"on-chain**"), permitindo que numerosas transacções ocorram entretanto. Este agrupamento de vários pagamentos reduz o congestionamento e, portanto, reduz as taxas em comparação com a realização de muitas transacções on-chain.
-- Fechamento de canal:** Um usuário pode fechar seu canal a qualquer momento e recuperar seu Bitcoin publicando o estado da última transação. Este é o princípio das transacções serem **"publicáveis" a qualquer momento mas "não publicadas "** até que seja necessário. A saída (encerramento do canal) pode ser unilateral (decidida por qualquer uma das duas partes a qualquer momento) ou mutuamente decidida (resultando em taxas mais baixas na cadeia)
+- **Configuração inicial:** Os fundos são bloqueados (escrowed) na blockchain principal para estabelecer um canal de pagamento entre 2 partes.
+- **Rede de pagamentos:** Uma rede de canais de pagamento entre várias partes constitui uma rede de pagamentos (encaminhamento e interligação).
+- **Transacções fora da cadeia:** As transacções ocorrem entre as partes mas não são **publicadas imediatamente** na cadeia de blocos principal da Bitcoin (**"fora da cadeia"**).
+- **Liquidações on-chain:** Apenas o **saldo final** das transacções de um canal é publicado na blockchain principal da Bitcoin (**"on-chain"**), permitindo que numerosas transacções ocorram entretanto. Este agrupamento de vários pagamentos reduz o congestionamento e, portanto, reduz as taxas em comparação com a realização de muitas transacções on-chain.
+- Fechamento de canal: Um usuário pode fechar seu canal a qualquer momento e recuperar seu Bitcoin publicando o estado da última transação. Este é o princípio das transacções serem **"publicáveis" a qualquer momento mas "não publicadas"** até que seja necessário. A saída (encerramento do canal) pode ser unilateral (decidida por qualquer uma das duas partes a qualquer momento) ou mutuamente decidida (resultando em taxas mais baixas na cadeia)
 
-![BIZ101](assets/en/04.webp)
+![BIZ101](assets/pt/005.webp)
 
 Esta abordagem evita a lentidão e a complexidade de realizar todas as transacções diretamente na cadeia de blocos principal da Bitcoin, registando apenas os saldos finais e mantendo a sua segurança. A Lightning Network é uma camada "no topo" do Bitcoin, mas permanece ancorada a ele.
 
-**Uma rede de pagamento global
+**Uma rede de pagamento global**
 
 O protocolo cria uma **rede** de máquinas em que os canais formam um sistema de pagamento universal. Estes nós podem ser operados livremente por indivíduos ou empresas, tornando-a numa rede completamente aberta.
 
 A Lightning Network permite a troca instantânea de valores à velocidade da luz. É como um protocolo de correio eletrónico aplicado aos pagamentos: uma rede de pagamentos da próxima geração. Transforma radicalmente a forma como o "dinheiro" circula, tornando-o tão livre e rápido como a transmissão de dados na Internet.
 
-![BIZ101](assets/en/12.webp)
+![BIZ101](assets/pt/006.webp)
 
-**Principais vantagens
+**Principais vantagens**
 
 
-- Rapidez:** Transacções instantâneas.
-- Taxas baixas:** Custos muito mais baixos em comparação com as redes bancárias tradicionais.
-- Facilidade de adoção:** As empresas podem rapidamente aceitar pagamentos Lightning utilizando apenas uma aplicação para smartphone ou um botão de pagamento no seu sítio Web.
+- **Rapidez:** Transacções instantâneas.
+- **Taxas baixas:** Custos muito mais baixos em comparação com as redes bancárias tradicionais.
+- **Facilidade de adoção:** As empresas podem rapidamente aceitar pagamentos Lightning utilizando apenas uma aplicação para smartphone ou um botão de pagamento no seu sítio Web.
 
 A infraestrutura Lightning supera os sistemas de pagamento tradicionais em termos de velocidade, custo e eficiência energética. Com a crescente adoção por parte dos comerciantes, a dinâmica irá acelerar: se os pagamentos podem contornar a rede interbancária cativa, porquê continuar a ceder uma percentagem significativa das receitas aos intermediários actuais?
 
@@ -297,23 +299,23 @@ Lightning oferece um vislumbre de um futuro em que todos os negócios que se tor
 A Lightning Network é ideal para pagamentos com Bitcoin em lojas físicas ou online devido à sua velocidade e finalidade de pagamento.
 
 
-- Velocidade:** O Lightning (~500ms a alguns segundos) é significativamente mais rápido do que a rede principal da Bitcoin, onde as transacções podem demorar cerca de 30 minutos a serem confirmadas. Para compras grandes (bem acima de US$ 1.000), a rede principal do Bitcoin ainda pode ser preferida, já que a velocidade é menos crítica. No entanto, estes pormenores são frequentemente ocultados ao utilizador médio, uma vez que as aplicações tratam destas decisões sem problemas em segundo plano.
-- Finalidade:** Uma vez efectuado um pagamento no Lightning, este é definitivo. Não há possibilidade de estornos por terceiros ou litígios relacionados com fraude.
-- Taxas:** As taxas de transação na Lightning Network são mínimas e pagas pelo utilizador, não pelo comerciante. Os comerciantes só incorrem em taxas se mais tarde precisarem de transferir a sua Bitcoin para outra rede ou serviço.
+- **Velocidade:** O Lightning (~500ms a alguns segundos) é significativamente mais rápido do que a rede principal da Bitcoin, onde as transacções podem demorar cerca de 30 minutos a serem confirmadas. Para compras grandes (bem acima de US$ 1.000), a rede principal do Bitcoin ainda pode ser preferida, já que a velocidade é menos crítica. No entanto, estes pormenores são frequentemente ocultados ao utilizador médio, uma vez que as aplicações tratam destas decisões sem problemas em segundo plano.
+- **Finalidade:** Uma vez efectuado um pagamento no Lightning, este é definitivo. Não há possibilidade de estornos por terceiros ou litígios relacionados com fraude.
+- **Taxas:** As taxas de transação na Lightning Network são mínimas e pagas pelo utilizador, não pelo comerciante. Os comerciantes só incorrem em taxas se mais tarde precisarem de transferir a sua Bitcoin para outra rede ou serviço.
 
-**CARTÃO DE IDENTIDADE RELÂMPAGO*
+**CARTÃO DE IDENTIDADE RELÂMPAGO**
 
 
-- Invenção:** 2015
-- Lançamento:** 2016
-- Idade:** 7 anos (primeira transação: 28 de dezembro de 2017)
-- Capacidade técnica da rede:** à escala, pode tratar 1000 vezes mais transacções instantâneas do que os sistemas tradicionais.
-- Tamanhos de transação:** variam de tão grandes a 1.000 vezes mais pequenos do que os sistemas tradicionais.
-- Velocidade de transação:** Até 100 vezes mais rápida.
-- Taxas:** Até 90% menos.
-- Finalidade do pagamento:** Quase instantâneo (frequentemente ~500 milissegundos, por vezes alguns segundos).
-- Consumo de energia:** ~8% do sistema monetário mundial tradicional.
-- Caraterísticas:**
+- **Invenção:** 2015
+- **Lançamento:** 2016
+- **Idade:** 7 anos (primeira transação: 28 de dezembro de 2017)
+- **Capacidade técnica da rede:** à escala, pode tratar 1000 vezes mais transacções instantâneas do que os sistemas tradicionais.
+- **Tamanhos de transação:** variam de tão grandes a 1.000 vezes mais pequenos do que os sistemas tradicionais.
+- **Velocidade de transação:** Até 100 vezes mais rápida.
+- **Taxas:** Até 90% menos.
+- **Finalidade do pagamento:** Quase instantâneo (frequentemente ~500 milissegundos, por vezes alguns segundos).
+- **Consumo de energia:** ~8% do sistema monetário mundial tradicional.
+- **Características:**
     - Peer-to-peer
     - Universal
     - Sem permissão
@@ -346,7 +348,7 @@ Em última análise, manter uma empresa saudável significa manter-se adaptável
 
 ### O capital tem uma virtude?
 
-**Como o capital é geralmente retratado
+**Como o capital é geralmente retratado**
 
 Redescubramos o que é verdadeiramente o capital - um termo tantas vezes mal compreendido e negativamente percepcionado na nossa sociedade.
 
@@ -368,7 +370,7 @@ o "capital" é muitas vezes retratado como uma ferramenta de exploração, e est
 
 Felizmente, a Bitcoin obriga-nos a repensar tudo e a pôr em causa estas noções preconcebidas. Existe uma escola de pensamento - a Escola Austríaca de Economia - que pode esclarecer estas questões e ajudar-nos a reconsiderar a verdadeira natureza do capital.
 
-**Era uma vez
+**Era uma vez**
 
 Comecemos por uma pequena história:
 
@@ -378,7 +380,7 @@ Antes de começar a fabricar a lança, o pescador decide reservar algum peixe pa
 
 Enquanto dedica o seu tempo a construir a lança, conta com as suas reservas, adiando de bom grado alguns dos seus confortos imediatos (um reflexo da sua **preferência pelo tempo**). Depois de vários dias de trabalho árduo, ele termina uma lança robusta.
 
-![BIZ101](assets/en/05.webp)
+![BIZ101](assets/pt/007.webp)
 
 Com a lança, ele pode agora apanhar peixe muito mais depressa e com menos esforço. Já não precisa de se esgotar como antes e até começa a acumular um excedente de peixe. Este excedente abre novas possibilidades: pode armazená-lo, partilhá-lo ou investi-lo noutros projectos na ilha. Ao adiar o consumo imediato e utilizar o seu capital, o pescador melhorou significativamente a sua eficiência e as suas perspectivas futuras."
 
@@ -388,17 +390,17 @@ Esta história ilustra o papel fundamental do capital, da paciência e da previs
 
 A Escola Austríaca de Economia deve o seu nome aos seus fundadores e primeiros colaboradores, originários da Áustria. O nome pegou e, desde então, a escola tornou-se intimamente associada ao pensamento liberal clássico, enfatizando a liberdade individual, os mercados livres e a intervenção mínima do Estado.
 
-**A perspetiva austríaca do capital
+**A perspetiva austríaca do capital**
 
 Na visão austríaca, o capital está profundamente ligado à ideia de adiar o consumo para construir ferramentas ou recursos produtivos que melhorem a produção futura. Este processo, conhecido como acumulação de capital, é fundamental para a teoria económica austríaca. Os principais elementos desta perspetiva incluem:
 
 
-- Preferência temporal e consumo diferido**: Os indivíduos preferem naturalmente consumir agora em vez de mais tarde, mas podem optar por adiar o consumo se esperarem maiores recompensas no futuro. Ao poupar hoje, os recursos podem ser investidos em bens de capital (ferramentas, máquinas, infra-estruturas) que melhoram a produtividade ao longo do tempo. As sociedades ou indivíduos com menor preferência temporal poupam mais e investem em projectos de longo prazo, promovendo o crescimento sustentável.
-- O capital como motor da produção futura**: Os bens de capital são vistos como ferramentas intermédias utilizadas para produzir bens de consumo final. Ao acumular capital, os empresários podem aumentar a produtividade e criar mais riqueza no futuro. Por exemplo, em vez de produzir imediatamente bens de consumo, os recursos podem ser utilizados para construir fábricas ou máquinas. Embora isto reduza o consumo a curto prazo, a eficiência resultante permite uma maior produção e prosperidade mais tarde.
-- Produção indireta e eficiência**: Os economistas austríacos, como Eugen Böhm-Bawerk, destacaram a ideia de produção indireta - processos de produção mais longos e complexos que envolvem várias fases. Embora estes processos demorem tempo, acabam por produzir resultados mais eficientes e produtivos, como a construção de uma serração para processar madeira em vez de recolher os troncos à mão.
-- As taxas de juro como sinais**: As taxas de juro, na perspetiva austríaca, reflectem naturalmente as preferências temporais dos indivíduos. Taxas elevadas indicam uma preferência pelo consumo imediato, enquanto taxas baixas incentivam a poupança e o investimento a longo prazo. Quando os bancos centrais manipulam artificialmente as taxas de juro, distorcem estes sinais naturais, conduzindo a uma má afetação de recursos e a investimentos insustentáveis (malinvestment).
+- **Preferência temporal e consumo diferido**: Os indivíduos preferem naturalmente consumir agora em vez de mais tarde, mas podem optar por adiar o consumo se esperarem maiores recompensas no futuro. Ao poupar hoje, os recursos podem ser investidos em bens de capital (ferramentas, máquinas, infra-estruturas) que melhoram a produtividade ao longo do tempo. As sociedades ou indivíduos com menor preferência temporal poupam mais e investem em projectos de longo prazo, promovendo o crescimento sustentável.
+- **O capital como motor da produção futura**: Os bens de capital são vistos como ferramentas intermédias utilizadas para produzir bens de consumo final. Ao acumular capital, os empresários podem aumentar a produtividade e criar mais riqueza no futuro. Por exemplo, em vez de produzir imediatamente bens de consumo, os recursos podem ser utilizados para construir fábricas ou máquinas. Embora isto reduza o consumo a curto prazo, a eficiência resultante permite uma maior produção e prosperidade mais tarde.
+- **Produção indireta e eficiência**: Os economistas austríacos, como Eugen Böhm-Bawerk, destacaram a ideia de produção indireta - processos de produção mais longos e complexos que envolvem várias fases. Embora estes processos demorem tempo, acabam por produzir resultados mais eficientes e produtivos, como a construção de uma serração para processar madeira em vez de recolher os troncos à mão.
+- **As taxas de juro como sinais**: As taxas de juro, na perspetiva austríaca, reflectem naturalmente as preferências temporais dos indivíduos. Taxas elevadas indicam uma preferência pelo consumo imediato, enquanto taxas baixas incentivam a poupança e o investimento a longo prazo. Quando os bancos centrais manipulam artificialmente as taxas de juro, distorcem estes sinais naturais, conduzindo a uma má afetação de recursos e a investimentos insustentáveis (*malinvestment*).
 
-**Duas formas de capital nas economias modernas
+**Duas formas de capital nas economias modernas**
 
 No quadro do sistema monetário baseado na dívida em que operamos, **existe um segundo tipo de capital**: aquele que é gerado instantaneamente quando um banco cria um empréstimo através de um simples mecanismo de crédito. Isto envolve a criação de liquidez ex nihilo, em que o banco empresta dinheiro que não detém antecipadamente, mas que cria com base numa promessa de reembolso.
 
@@ -406,13 +408,13 @@ Por um lado, o capital "austríaco" é o resultado de uma poupança real, um pro
 
 Estas duas formas de capital nunca deveriam ser confundidas, mas, num sistema baseado na dívida, são-no muitas vezes, **distorcendo os sinais económicos** e conduzindo frequentemente a maus investimentos. Este mal-entendido esclarece a razão pela qual o capitalismo é frequentemente objeto de críticas injustificadas
 
-**O principal problema do keynesianismo
+**O principal problema do keynesianismo**
 
 As políticas keynesianas, amplamente adoptadas pelas elites mundiais, manipulam as taxas de juro e estimulam a procura através da dívida. Isto encoraja os recursos a fluírem para projectos insustentáveis a curto prazo, amplificando os ciclos económicos e atrasando o verdadeiro crescimento assente em poupanças saudáveis e investimentos produtivos. Os líderes empresariais observam esta política prejudicial em primeira mão, uma vez que as empresas saudáveis são empurradas para aquisições sobrevalorizadas em busca de rendimentos inflacionados, prejudicando o crescimento orgânico e sustentável.
 
 Num tal ambiente, como pode o capital "saudável" - cuidadosamente poupado pelos empresários - competir com o capital "não saudável" criado artificialmente? Além disso, a expansão unilateral da oferta de moeda corrói o poder de compra do capital saudável, exacerbando a desorientação económica e a insatisfação social.
 
-**Uma réstia de esperança: Bitcoin
+**Uma réstia de esperança: Bitcoin**
 
 A Bitcoin oferece uma forma de acumular e preservar capital a longo prazo sem a erosão causada pela inflação monetária. Como reserva de valor, permite que as empresas planeiem investimentos futuros com resiliência, desafiando o domínio dos sistemas baseados na dívida e promovendo um regresso à verdadeira acumulação de capital produtivo.
 
@@ -420,25 +422,25 @@ A Bitcoin oferece uma forma de acumular e preservar capital a longo prazo sem a 
 
 A **Escola Austríaca de Economia** é uma tradição de pensamento económico que valoriza os mercados livres, a liberdade individual e a importância da ação humana nos processos económicos. Critica a intervenção do Estado, particularmente no dinheiro e nos mercados, e defende que os indivíduos, guiados pelas suas preferências subjectivas, são os melhores juízes dos seus próprios interesses.
 
-**Principais figuras da Escola Austríaca
+**Principais figuras da Escola Austríaca**
 
 
-- Carl Menger**: Fundador da Escola Austríaca, Menger desenvolveu a teoria do valor subjetivo, que afirma que o valor dos bens depende das preferências individuais e não dos custos de produção.
-- Ludwig von Mises**: Pedra angular da Escola Austríaca, Mises introduziu a praxeologia (a teoria da ação humana) e é autor de _Acção Humana_, uma crítica profunda ao socialismo e ao planeamento central.
-- Friedrich Hayek**: Aluno de Mises, Hayek ganhou o Prémio Nobel da Economia em 1974 pelo seu trabalho sobre o conhecimento descentralizado e a espontaneidade do mercado. No seu livro _The Road to Serfdom_, criticou fortemente o controlo centralizado.
-- Murray Rothbard**: Discípulo de Mises e acérrimo defensor do libertarianismo, Rothbard desenvolveu a teoria do anarco-capitalismo, imaginando uma sociedade sem Estado, regida por contratos voluntários. O seu livro _Man, Economy, and State_ é uma obra seminal da economia austríaca.
+- **Carl Menger**: Fundador da Escola Austríaca, Menger desenvolveu a teoria do valor subjetivo, que afirma que o valor dos bens depende das preferências individuais e não dos custos de produção.
+- **Ludwig von Mises**: Pedra angular da Escola Austríaca, Mises introduziu a praxeologia (a teoria da ação humana) e é autor de _Acção Humana_, uma crítica profunda ao socialismo e ao planeamento central.
+- **Friedrich Hayek**: Aluno de Mises, Hayek ganhou o Prémio Nobel da Economia em 1974 pelo seu trabalho sobre o conhecimento descentralizado e a espontaneidade do mercado. No seu livro _The Road to Serfdom_, criticou fortemente o controlo centralizado.
+- **Murray Rothbard**: Discípulo de Mises e acérrimo defensor do libertarianismo, Rothbard desenvolveu a teoria do anarco-capitalismo, imaginando uma sociedade sem Estado, regida por contratos voluntários. O seu livro _Man, Economy, and State_ é uma obra seminal da economia austríaca.
 
 **Outros economistas influentes**
 
 
-- Milton Friedman**: Embora não esteja diretamente associado à Escola Austríaca, Friedman apoiou muitas ideias pró-mercado e liberais. A sua política monetarista difere do pensamento austríaco, mas partilha a sua crítica à intervenção excessiva do Estado na economia.
-- Frédéric Bastiat**: Economista francês do século XIX, Bastiat influenciou a Escola Austríaca com os seus trabalhos sobre o comércio livre e as consequências invisíveis das políticas económicas. O seu ensaio _O que se vê e o que não se vê_ é um texto fundamental do liberalismo económico.
+- **Milton Friedman**: Embora não esteja diretamente associado à Escola Austríaca, Friedman apoiou muitas ideias pró-mercado e liberais. A sua política monetarista difere do pensamento austríaco, mas partilha a sua crítica à intervenção excessiva do Estado na economia.
+- **Frédéric Bastiat**: Economista francês do século XIX, Bastiat influenciou a Escola Austríaca com os seus trabalhos sobre o comércio livre e as consequências invisíveis das políticas económicas. O seu ensaio _O que se vê e o que não se vê_ é um texto fundamental do liberalismo económico.
 
-![BIZ101](assets/en/06.webp)
+![BIZ101](assets/pt/008.webp)
 
 *Atribuição: Instituto Ludwig von Mises*
 
-**Contribuições e ideias essenciais
+**Contribuições e ideias essenciais**
 
 Estes pensadores deram forma à ideia de que a intervenção do Estado distorce os mercados e que a liberdade económica é essencial para a prosperidade e a coordenação harmoniosa das acções humanas. As suas ideias realçam a importância da tomada de decisões descentralizada e os perigos do controlo centralizado nos sistemas económicos.
 
@@ -490,7 +492,7 @@ Primeiro, **o desempenho passado não garante resultados futuros**. Enquanto o B
 
 Em segundo lugar, a Bitcoin registou até agora **ciclos de 4 anos**, o que significa que, com um horizonte temporal superior a 4 anos, a aposta foi sempre rentável. Para aqueles que vêem o Bitcoin como um investimento, um horizonte de curto prazo (<4 anos) pode ser arriscado.
 
-![BIZ101](assets/en/07.webp)
+![BIZ101](assets/pt/009.webp)
 
 *MICHAEL SAYLOR: "O melhor sinal de preço do Bitcoin é a média móvel simples de 4 anos. "* Ver gráfico acima.
 
@@ -551,7 +553,7 @@ Não é necessário comprar exatamente 1 Bitcoin, porque o Bitcoin é divisível
 
 Além disso, o total de 21 milhões de bitcoins - ou **2,1 quadriliões de satoshis** - pode ser eficientemente representado por um número inteiro de 64 bits. Isto significa que, apesar de um preço elevado por bitcoin inteiro, este permanece acessível a uma vasta gama de investidores graças à sua divisibilidade. Por conseguinte, não é necessário adquirir uma bitcoin inteira para participar na rede ou investir neste ativo digital.
 
-![BIZ101](assets/en/08.webp)
+![BIZ101](assets/pt/010.webp)
 
 Recorde-se que a sua capitalização total de mercado relativamente baixa, em comparação com outros activos como as acções, o ouro ou o imobiliário, deixa intacta a sua capacidade de valorização. Com uma penetração ainda muito baixa (cerca de 1% da população mundial), pensa-se que estamos apenas no início da sua ascensão. Isto torna-o **a aposta mais assimétrica da nossa geração**: existe agora uma probabilidade muito baixa de cair para zero nesta altura, e uma forte probabilidade de continuar a ganhar terreno.
 
@@ -564,10 +566,10 @@ Neste segundo cenário, a harmonização de diferentes pontos de vista torna-se 
 Atualmente, o cenário de um proprietário maioritário a tomar a decisão é o mais representativo entre as empresas que detêm Bitcoin. Eis alguns exemplos reais:
 
 
-- Profissionais independentes**: Consultores, profissionais de saúde ou advogados que investem parte da sua tesouraria a longo prazo em Bitcoin. Geralmente, estes profissionais já possuem contas de poupança ou de depósito a prazo com rendimentos escassos.
-- Executivos do sector tecnológico**: Um executivo que vendeu a sua empresa e investiu parte dos lucros da sua holding pessoal em Bitcoin há alguns anos. Atualmente, goza de uma situação financeira confortável e reinveste em novos empreendimentos.
-- Proprietários de empresas muito pequenas** : Empresários dos sectores dos serviços, da agricultura ou do artesanato que compreenderam o potencial da Bitcoin e afectam-lhe uma parte da sua tesouraria. A sua principal motivação reside na diversificação e na liberdade que esta proporciona
-- Empresas de capital aberto** como a MicroStrategy abriram um precedente ao converter uma parte significativa da sua tesouraria corporativa em Bitcoin, demonstrando uma mudança global nas estratégias de alocação de capital corporativo. No outono de 2024, muitas outras empresas seguiram o exemplo, legitimando ainda mais esta tendência.
+- **Profissionais independentes**: Consultores, profissionais de saúde ou advogados que investem parte da sua tesouraria a longo prazo em Bitcoin. Geralmente, estes profissionais já possuem contas de poupança ou de depósito a prazo com rendimentos escassos.
+- **Executivos do sector tecnológico**: Um executivo que vendeu a sua empresa e investiu parte dos lucros da sua holding pessoal em Bitcoin há alguns anos. Atualmente, goza de uma situação financeira confortável e reinveste em novos empreendimentos.
+- **Proprietários de empresas muito pequenas**: Empresários dos sectores dos serviços, da agricultura ou do artesanato que compreenderam o potencial da Bitcoin e afectam-lhe uma parte da sua tesouraria. A sua principal motivação reside na diversificação e na liberdade que esta proporciona
+- **Empresas de capital aberto** como a MicroStrategy abriram um precedente ao converter uma parte significativa da sua tesouraria corporativa em Bitcoin, demonstrando uma mudança global nas estratégias de alocação de capital corporativo. No outono de 2024, muitas outras empresas seguiram o exemplo, legitimando ainda mais esta tendência.
 
 Descubra a lista atualizada das empresas que detêm mais bitcoins em tesouraria, bem como os montantes detidos, no site: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Tributação do bitcoin detido por empresas
@@ -588,22 +590,22 @@ Devido a estas diferenças, **alguns proprietários de empresas optam por compra
 
 Existem três formas de adquirir Bitcoin:
 
-![BIZ101](assets/en/09.webp)
+![BIZ101](assets/pt/011.webp)
 
 
-- Em troca de bens ou serviços:**
+- Em troca de bens ou serviços:
 
 Uma vez que a Bitcoin funciona como um meio de troca, é possível imaginar uma economia circular. Embora isso continue a ser pouco comum hoje em dia, cada vez mais empresas estão a começar a aceitar pagamentos em Bitcoin - porque não a sua? (Veja nosso próximo capítulo)
 
 
-- Mineração de Bitcoin:**
+- **Mineração de Bitcoin:**
 
 Trata-se de ganhar prémios com a exploração de máquinas mineiras. Para as empresas não especializadas, esta atividade continua a ser relativamente marginal. Pode participar através de intermediários que lhe venderão ou alugarão o computador, a rede e a manutenção. Se for proprietário das máquinas, pode contabilizá-las como activos depreciáveis. Em grande escala, será necessário calcular cuidadosamente o retorno do investimento, porque o mercado é altamente competitivo e exige uma boa antecipação dos custos, em particular da eletricidade.
 
 Para saber mais sobre os métodos de exploração mineira, pode [consultar a secção "exploração mineira" nos nossos tutoriais] (https://planb.network/tutorials/mining).
 
 
-- Comprar Bitcoin:**
+- **Comprar Bitcoin:**
 
 Este é, de longe, o método mais comum, efectuado através de trocas peer-to-peer ou, mais tipicamente, em plataformas de negociação especializadas. No entanto, ao adquirir Bitcoin como um ativo de tesouraria empresarial, as empresas têm de cumprir normas regulamentares robustas e procedimentos "Know-Your-Customer" (KYC). Quando a compram em plataformas de negociação especializadas, as empresas são normalmente obrigadas a fornecer informações detalhadas sobre a empresa, incluindo documentos de identificação, extractos financeiros e comprovativo de morada, para satisfazer os requisitos KYC e de combate ao branqueamento de capitais (AML).
 
@@ -615,7 +617,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 Para saber mais sobre os métodos de aquisição de bitcoins através de uma bolsa ou peer-to-peer, pode [consultar a secção "bolsa" nos nossos tutoriais] (https://planb.network/tutorials/exchange).
 
-![BIZ101](assets/en/16.webp)
+![BIZ101](assets/pt/012.webp)
 
 ### A que preço?
 
@@ -639,7 +641,7 @@ Na realidade, o potencial de valorização da Bitcoin é tal que, mesmo que come
 
 O sector imobiliário repete frequentemente que "é sempre a altura certa para comprar", esquecendo-se de que, se o imobiliário perdesse a sua função de reserva de valor - passando para activos como a Bitcoin -, os preços poderiam voltar a aproximar-se do seu valor de utilidade (abrigo). A Bitcoin, pelo contrário, não tem qualquer outra função para além do armazenamento de valor, o que pode significar que "é sempre a altura certa para comprar" O futuro o dirá.
 
-![BIZ101](assets/en/13.webp)
+![BIZ101](assets/pt/013.webp)
 
 *Crédito: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
@@ -652,25 +654,25 @@ Esta chave criptográfica é um número aleatório extremamente grande. Para sim
 Isto leva à questão da custódia: deter Bitcoin significa deter a(s) chave(s). Ou é o próprio utilizador que as detém, ou delega essa tarefa a terceiros. Existem também soluções intermédias. Vamos rever os cenários mais comuns:
 
 
-- Auto-Custódia:**
+- **Auto-Custódia:**
 
 Esta é a opção recomendada pelos verdadeiros entusiastas da Bitcoin, uma vez que está alinhada com o design original da Bitcoin. O utilizador age como o seu próprio banco: não existe o risco de um terceiro o defraudar, mas o utilizador é responsável pela segurança da(s) chave(s). Tem acesso total aos seus fundos 24 horas por dia, 7 dias por semana. Num contexto empresarial, se várias pessoas precisarem de efetuar transacções, serão necessárias ferramentas e procedimentos adequados para gerir o acesso e a segurança.
 
 
-- Custódia de terceiros:**
+- **Custódia de terceiros:**
 
 Por exemplo, uma bolsa ou um serviço de compra pode criar uma conta para si, converter a sua moeda tradicional em Bitcoin e guardá-la em seu nome utilizando os seus sistemas de segurança. A maioria destes serviços permite-lhe retirar os seus bitcoins para uma carteira onde só você tem a chave. Até que o faça, não é verdadeiramente proprietário dos bitcoins; depende da promessa deles de o reembolsar. Isto implica um equilíbrio entre os riscos de segurança (deles vs. seu) e o risco de contraparte (eles podem falhar ou desaparecer). Algumas empresas consideram esta solução aceitável, embora não seja geralmente aconselhada para armazenamento a longo prazo ou para 100% da sua alocação. Os serviços de custódia também podem cobrar taxas de armazenamento.
 
 
-- "Bitcoin de papel" (ETFs ou ETPs):**
+- **"Bitcoin de papel" (ETFs ou ETPs):**
 
 Trata-se de instrumentos financeiros tradicionais que representam fracções de Bitcoin, reproduzindo o seu desempenho em termos de preço. A instituição por trás do produto teoricamente compra e detém o Bitcoin subjacente. As suas contribuições e levantamentos são efectuados em moeda tradicional (por exemplo, dólares ou euros) e não em Bitcoin. Com exceção de certos produtos que permitem o levantamento em Bitcoin real (para evitar um evento tributável em algumas jurisdições), estes instrumentos envolvem taxas de gestão anuais. Neste caso, o utilizador depende da segurança da instituição e enfrenta o risco de contraparte (por exemplo, se um governo decidir confiscar todas as Bitcoin detidas pela instituição, como aconteceu com o ouro em 1933 ao abrigo da Ordem Executiva 6102 dos EUA). A sua principal vantagem é o fácil acesso, uma vez que são distribuídas através dos canais financeiros tradicionais. Não necessitam de chaves criptográficas seguras, mas não oferecem nenhuma das propriedades inerentes à Bitcoin: não é possível utilizar a rede Bitcoin 24 horas por dia, 7 dias por semana, para movimentar valores livremente sem autorização. Apenas reproduzem o desempenho financeiro, não a funcionalidade ou a soberania da própria Bitcoin.
 
-![BIZ101](assets/en/15.webp)
+![BIZ101](assets/pt/014.webp)
 
 Além disso, a forma como detém a Bitcoin tem um impacto significativo nas medidas de segurança necessárias para salvaguardar a tesouraria da sua empresa. Quer opte pela auto-custódia, utilizando carteiras de hardware de assinatura única ou multi-assinatura, etc. para manter o controlo direto das suas chaves, quer delegue esta tarefa a serviços de custódia de terceiros ou ETF, cada opção tem o seu próprio perfil de risco. Por exemplo, a auto-custódia oferece acesso total, mas exige protocolos de segurança internos rigorosos, enquanto as soluções de terceiros reduzem os encargos de gestão à custa do risco de contraparte. Para ilustrar melhor as distinções, este gráfico descreve o modelo de segurança para cada tipo de custódia, ajudando-o a selecionar a abordagem mais adequada às necessidades da sua organização:
 
-![BIZ101](assets/en/14.webp)
+![BIZ101](assets/pt/015.webp)
 
 ### A quem comprar?
 
@@ -679,12 +681,12 @@ Se optar pela "Bitcoin em papel", recorrerá a instituições financeiras como b
 Se optar por comprar Bitcoin real através de um mercado (bolsa) ou de um corretor, tem várias categorias principais:
 
 
-- Grandes plataformas internacionais ou estrangeiras:**
+- **Grandes plataformas internacionais ou estrangeiras:**
 
 Exemplos incluem Kraken, Coinbase ou Binance, historicamente utilizados por muitos indivíduos. Alguns tiveram problemas e é difícil fazer uma recomendação clara. Um conselho: se os utilizar, não deixe os seus bitcoins lá mais tempo do que o necessário.
 
 
-- Prestadores de serviços regulamentados (Prestadores de serviços de activos digitais registados):**
+- **Prestadores de serviços regulamentados (Prestadores de serviços de activos digitais registados):**
 
 Por exemplo, em França, plataformas como a Paymium (bolsa) ou a BullBitcoin (corretor) são conhecidas por terem verdadeiros entusiastas da Bitcoin ao leme e por terem construído um sólido historial. Nos Estados Unidos, existem prestadores de serviços como a River ou a Swann. Em geral, é importante examinar o pedigree do fornecedor: a sua reputação, historial, popularidade na comunidade Bitcoin e se a sua liderança está alinhada com os valores fundamentais da Bitcoin.
 
@@ -697,12 +699,12 @@ Por exemplo, em França, plataformas como a Paymium (bolsa) ou a BullBitcoin (co
 Para além das comissões e da velocidade de execução - que são menos importantes se pensarmos a longo prazo (vários anos) - uma empresa deve também ter em conta:
 
 
-- Interface do utilizador:** A plataforma é de fácil utilização?
-- Caraterísticas de contabilidade:** No mínimo, a capacidade de exportar o histórico de transacções em formato .CSV.
-- Custódia e segurança:** A plataforma detém os bitcoins em seu nome ou transfere a propriedade para si? Qual é a sua configuração de segurança? Eles têm "bloqueios de retirada" ou outras limitações de retirada?
-- Apoio ao cliente:** A qualidade, a capacidade de resposta e a assistência personalizada, especialmente quando se está a começar.
-- Reputação e ética:** Confiança e valores da plataforma.
-- Suporte para compras recorrentes:** Se planeia acumular Bitcoin ao longo do tempo com compras programadas.
+- **Interface do utilizador:** A plataforma é de fácil utilização?
+- **Características de contabilidade:** No mínimo, a capacidade de exportar o histórico de transacções em formato .CSV.
+- **Custódia e segurança:** A plataforma detém os bitcoins em seu nome ou transfere a propriedade para si? Qual é a sua configuração de segurança? Eles têm "bloqueios de retirada" ou outras limitações de retirada?
+- **Apoio ao cliente:** A qualidade, a capacidade de resposta e a assistência personalizada, especialmente quando se está a começar.
+- **Reputação e ética:** Confiança e valores da plataforma.
+- **Suporte para compras recorrentes:** Se planeia acumular Bitcoin ao longo do tempo com compras programadas.
 
 # Soluções de pagamento Bitcoin personalizadas para cada empresa
 
@@ -718,17 +720,17 @@ Nos primórdios, a rede Internet permitiu eliminar os intermediários dos canais
 
 A Bitcoin é uma infraestrutura de confiança, cuja primeira aplicação consiste em eliminar os intermediários do armazenamento e da troca de valor-dinheiro. Outras aplicações atualmente inimagináveis surgirão com base nesta infraestrutura. A sua presença inicial aqui é o equivalente a ter um sítio Web: uma porta de entrada para pagamentos e trocas de valores entre pares.
 
-![BIZ101](assets/en/17.webp)
+![BIZ101](assets/pt/016.webp)
 
 Agora, considere a perspetiva de uma empresa prática cuja atividade principal não tem nada a ver com a Bitcoin. Porque é que escolheria aceitar pagamentos em Bitcoin?
 
 
-- Construir um Tesouro Bitcoin:**
+- **Construir um Tesouro Bitcoin:**
 
-Ver o nosso artigo anterior sobre a compra de Bitcoin. Seja por convicção ou como estratégia de diversificação, alguns profissionais optam por aceitar pagamentos em Bitcoin. Alguns Bitcoiners argumentam que quanto menos inclinada financeiramente for uma empresa - o que significa que não tem nem o tempo nem as ferramentas para se envolver em manobras financeiras complexas - mais crítico se torna para essa empresa ser paga na forma mais difícil de dinheiro disponível**. Ao fazê-lo, o campo de jogo fica nivelado, permitindo que mesmo as pequenas empresas, com limitações de tempo, preservem o valor sem serem apanhadas em jogos financeiros.
+Ver o nosso artigo anterior sobre a compra de Bitcoin. Seja por convicção ou como estratégia de diversificação, alguns profissionais optam por aceitar pagamentos em Bitcoin. Alguns Bitcoiners argumentam que quanto menos inclinada financeiramente for uma empresa - o que significa que não tem nem o tempo nem as ferramentas para se envolver em manobras financeiras complexas - mais crítico se torna para essa empresa ser paga na forma mais difícil de dinheiro disponível. Ao fazê-lo, o campo de jogo fica nivelado, permitindo que mesmo as pequenas empresas, com limitações de tempo, preservem o valor sem serem apanhadas em jogos financeiros.
 
 
-- Atingir um novo grupo demográfico:**
+- Atingir um novo grupo demográfico:
 
 O número de utilizadores de Bitcoin está a crescer e estes têm um poder de compra significativo. Naturalmente, eles vão gravitar em torno de empresas que aceitam a sua moeda. Além disso, uma vez que esta é a primeira moeda universal, nativa da Internet, também pode atrair clientes internacionais de passagem.
 
@@ -738,17 +740,17 @@ O número de utilizadores de Bitcoin está a crescer e estes têm um poder de co
 Ao listar sua empresa em plataformas como BTCmap.org, por exemplo. Atualmente, apenas algumas empresas aceitam Bitcoin, pelo que o boca-a-boca funciona a seu favor. Também o distingue dos seus concorrentes.
 
 
-- Taxas mais baixas:**
+- **Taxas mais baixas:**
 
 Os pagamentos instantâneos de Bitcoin ocorrem através da Lightning Network. **As taxas são mínimas e pagas pelo comprador**. Não há taxas de terminais de pagamento, nem falhas de autorização de pagamento, nem fraudes. Em comparação, a indústria de pagamentos (cartões, terminais, transferências, PSPs, etc.) custa cerca de US$ 2,2 trilhões por ano globalmente. Se acrescentarmos a isto os chargebacks e as fraudes, no total, quase um décimo do equivalente ao PIB dos EUA é "desnatado" das empresas produtivas de todo o mundo apenas para transferir valor. Independentemente do seu negócio, as taxas financeiras são um encargo que deve ser optimizado e, nalguns casos, as taxas elevadas podem sufocar determinados modelos de negócio.
 
 
-- Liberdade e sem permissão, 24/7:**
+- **Liberdade e sem permissão, 24/7:**
 
 Não é necessário pedir permissão para usar o Bitcoin. Qualquer pessoa pode participar na economia em poucos minutos utilizando uma aplicação para smartphone. É possível enviar ou receber um pagamento de qualquer pessoa - física ou jurídica - a qualquer momento, sem restrições de horário ou atrasos.
 
 
-- Aproveitar as vantagens da rede Bitcoin:**
+- Aproveitar as vantagens da rede Bitcoin:
 
 Não é obrigatório manter os seus pagamentos em Bitcoin - especialmente se precisar de pagar a fornecedores ou remeter IVA. Alguns serviços podem converter a totalidade ou parte dos seus pagamentos em Bitcoin para a moeda da sua escolha (por exemplo, euros para o seu IBAN) mediante o pagamento de uma taxa. Neste cenário, o benefício de aceitar Bitcoin pode estar em atrair novos utilizadores ou nas vantagens intrínsecas do Bitcoin (tais como taxas mais baixas, operação 24 horas por dia e nenhum risco de fraude ou estornos).
 
@@ -851,19 +853,19 @@ Nos capítulos seguintes, detalharemos cada perfil de empresa e as soluções ad
 
 O perfil Starter é projetado para empresas, criadores e indivíduos que desejam explorar os pagamentos com Bitcoin sem comprometer recursos substanciais ou experiência. Estes são tipicamente aqueles que lidam com um volume muito pequeno de transacções (talvez algumas gorjetas, doações ou vendas ocasionais) e procuram uma introdução simples e leve ao ecossistema Bitcoin e Lightning Network. O principal valor da abordagem Starter reside na sua configuração mínima: na maioria dos casos, tudo o que é necessário é um smartphone ou tablet equipado com uma carteira básica compatível com Lightning.
 
-![BIZ101-profiles](assets/en/18.webp)
+![BIZ101-profiles](assets/pt/017.webp)
 
 Uma das caraterísticas que definem este perfil é o seu foco em pagamentos de baixo volume que raramente excedem algumas centenas de euros ou dólares por mês. Esta escala modesta torna-o uma excelente escolha para quem quer testar o mercado com a Bitcoin, sem as complexidades inerentes a implementações de maior volume. Além disso, permite uma aprendizagem prática imediata; uma vez que existem menos pressões operacionais e apostas monetárias mais pequenas, os erros podem ser contidos e as lições aprendidas rapidamente. Desde artistas que vendem artesanato em feiras de fim de semana a grupos sem fins lucrativos que aceitam donativos únicos, os utilizadores desta categoria privilegiam frequentemente a acessibilidade e a facilidade de utilização em detrimento de funcionalidades avançadas.
 
 As duas configurações de carteira mais comuns para o perfil Starter envolvem a decisão entre soluções de custódia e não-custódia. Uma carteira de custódia (como a Wallet of Satoshi ou a Blink) permite que um serviço de terceiros faça a gestão das chaves privadas e das operações de backend, reduzindo assim as responsabilidades técnicas do utilizador. Esta solução é especialmente atractiva para aqueles que valorizam a conveniência acima de tudo e querem uma integração o mais simples possível. Por outro lado, as carteiras Lightning sem custódia (como a Phoenix ou a Breez) colocam as chaves privadas e o controlo total nas mãos do proprietário da empresa, oferecendo maior autonomia e privacidade em troca de um esforço inicial ligeiramente superior. Em qualquer dos casos, as interfaces modernas são normalmente tão fáceis de utilizar que qualquer pessoa pode realizar tarefas essenciais (gerar um código QR, introduzir um montante de pagamento e confirmar transacções) numa questão de minutos.
 
-![BIZ101-profiles](assets/en/19.webp)
+![BIZ101-profiles](assets/pt/018.webp)
 
 Embora as preocupações com a segurança possam parecer menos urgentes quando as transacções são pequenas, é, no entanto, crucial pôr em prática medidas de proteção básicas. Mesmo um único smartphone ou tablet utilizado para receber pagamentos em Bitcoin deve ser bloqueado por uma palavra-passe ou segurança biométrica, e os procedimentos de cópia de segurança (que vão desde o controlo das credenciais de início de sessão para uma carteira de custódia até à salvaguarda de uma frase-semente para uma carteira sem custódia) devem ser levados a sério. Os funcionários que lidam com transacções num ambiente físico beneficiariam se conhecessem os princípios básicos: como abrir a aplicação, como apresentar um código QR ao cliente e como verificar se o pagamento chegou efetivamente.
 
 A contabilidade e a elaboração de relatórios, embora relativamente simples no âmbito do perfil Starter, merecem ainda assim uma atenção especial. Embora o volume de transacções possa ser mínimo, a manutenção de registos precisos evita confusões e ajuda a manter a transparência em caso de auditorias financeiras ou declarações fiscais. Muitas aplicações de carteira permitem aos utilizadores exportar um histórico básico de transacções como um ficheiro CSV; para uma pequena empresa ou um empresário individual, guardar estes ficheiros regularmente pode facilitar a reconciliação das contas. Também é aconselhável registar o valor fiduciário aproximado (por exemplo, em euros ou dólares) no momento em que cada transação é recebida. Uma vez que o preço da Bitcoin pode flutuar, ter um registo das taxas de conversão é inestimável para a contabilidade e o cumprimento das obrigações fiscais.
 
-![BIZ101-profiles](assets/en/20.webp)
+![BIZ101-profiles](assets/pt/019.webp)
 
 Para empresas que desejam complementar seus pagamentos físicos ou presenciais com doações ou gorjetas on-line, agora é fácil integrar um botão de gorjeta ou widget de doação do Lightning em um site ou blog. Plataformas como o BTCPay Server oferecem botões de pagamento fáceis de configurar, enquanto algumas redes sociais e serviços de livestream já suportam as gorjetas Lightning com endereços. Consequentemente, até mesmo uma empresa iniciante pode construir uma rede modesta, mas global, de clientes. Entretanto, aqueles que preferem não deter Bitcoin a longo prazo podem explorar a conversão parcial ou automática em moeda fiduciária utilizando determinadas carteiras de custódia ou serviços de terceiros. Embora esta opção envolva taxas adicionais e possíveis obrigações KYC, ajuda as empresas a evitar a volatilidade das taxas de câmbio e a manter os seus fluxos de trabalho financeiros actuais com o mínimo de perturbações.
 
@@ -901,23 +903,23 @@ Ao contrário do perfil Starter, as empresas Essential normalmente consideram os
 
 As recomendações tecnológicas neste segmento centram-se frequentemente no **Swiss Bitcoin Pay**, uma solução simplificada para os comerciantes aceitarem facilmente pagamentos em Bitcoin. Apresenta uma aplicação PoS de fácil utilização, não exigindo conhecimentos técnicos aos funcionários. Ao contrário das carteiras Bitcoin normais, concentra-se apenas na receção de pagamentos, permitindo que os funcionários utilizem o dispositivo sem riscos de segurança. Várias aplicações PoS podem ligar-se à mesma conta, podendo ser utilizadas em tablets, registos, smartphones ou através de uma versão Web para computadores, com suporte para Android e iOS. Também é possível criar um menu com os artigos que vende e os respectivos preços associados, permitindo que o funcionário selecione simplesmente um cesto de artigos para o cliente no terminal de pagamento automático e, em seguida, cobre o total.
 
-![BIZ101-profiles](assets/en/21.webp)
+![BIZ101-profiles](assets/pt/020.webp)
 
 Os pagamentos podem ser levantados em Bitcoin para um endereço específico ou convertidos em moeda fiduciária e depositados diariamente numa conta bancária. O Swiss Bitcoin Pay automatiza o processo, processando pagamentos em Bitcoin e Lightning Network sem intervenção manual. Os fundos são retidos por um período máximo de 24 horas antes da transferência. Embora não seja totalmente sem custódia como o BTCPay Server, ele equilibra conveniência e segurança, e não requer KYC.
 
-![BIZ101-profiles](assets/en/22.webp)
+![BIZ101-profiles](assets/pt/021.webp)
 
 As taxas são competitivas: 0,21% no primeiro ano, depois 1% para pagamentos em Bitcoin e 1,5% para pagamentos de conversões fiduciárias, incluindo custos de transação de Bitcoin. O Swiss Bitcoin Pay oferece um meio-termo prático entre soluções de custódia como o Open Node e sistemas complexos auto-hospedados como o BTCPay Server, priorizando a simplicidade, a segurança e a autonomia financeira.
 
 Este tipo de configuração permite que as empresas presenciais gerem facturas de pagamento rapidamente, apresentem códigos QR aos seus clientes e aceitem transacções Lightning ou na cadeia com o mínimo de fricção. O pessoal necessita apenas de uma breve orientação para lidar com estes pagamentos, enquanto os gestores podem iniciar sessão num painel de controlo online para reconciliar as vendas diárias e aceder a relatórios básicos. A disponibilidade de uma consola administrativa simplificada também ajuda os estabelecimentos mais pequenos a controlar as receitas fiduciárias e criptográficas a partir de uma única interface, atenuando assim a confusão e reduzindo o tempo gasto na contabilidade manual.
 
-![BIZ101-profiles](assets/en/23.webp)
+![BIZ101-profiles](assets/pt/022.webp)
 
 Outro benefício fundamental da abordagem Essential é a ênfase na rápida implantação e na mínima interrupção. Soluções como o Swiss Bitcoin Pay podem ser instaladas numa questão de horas, em vez de dias ou semanas. Para um proprietário ou gerente de um restaurante pouco movimentado, por exemplo, o objetivo final é integrar a aceitação de Bitcoin sem causar atrasos no caixa ou confusão entre os funcionários. Assim que o POS estiver configurado, o gerente pode simplesmente fornecer aos funcionários instruções rápidas sobre como exibir a fatura e verificar se o pagamento foi compensado. Na melhor das hipóteses, a transação de um cliente é confirmada quase instantaneamente através da Lightning Network e o painel administrativo da empresa regista simultaneamente um novo pagamento em tempo real.
 
 Embora o perfil Essential não exija sistemas de contabilidade altamente sofisticados, é aconselhável manter registos de transacções adequados. Ferramentas como o Swiss Bitcoin Pay oferecem funções de exportação CSV, permitindo aos gestores registar o valor equivalente em moeda fiduciária de cada venda de Bitcoin e acompanhá-lo juntamente com outras fontes de rendimento. Este nível de documentação é suficiente para a maioria das pequenas empresas, e um conhecimento rudimentar das taxas de câmbio ajudará na declaração de impostos e na supervisão financeira geral.
 
-![BIZ101-profiles](assets/en/24.webp)
+![BIZ101-profiles](assets/pt/023.webp)
 
 A solução híbrida mais adequada para o seu perfil é provavelmente o Swiss Bitcoin Pay:
 
@@ -941,19 +943,19 @@ O perfil Profissional destina-se a empresas que ultrapassaram os pagamentos Bitc
 
 Uma das caraterísticas que definem o comerciante Profissional é a necessidade de **funções avançadas** e **soluções personalizáveis** que mantenham a eficiência mesmo com o aumento do volume de transacções. Ao contrário dos utilizadores Essenciais, que podem ficar satisfeitos com uma ferramenta simplificada que se encaixa perfeitamente numa aplicação para smartphone, as empresas Profissionais exigem normalmente funcionalidades como a personalização detalhada de facturas, painéis de relatórios sofisticados e a capacidade de atribuir várias funções administrativas.
 
-![BIZ101-profiles](assets/en/25.webp)
+![BIZ101-profiles](assets/pt/024.webp)
 
 Um grupo de restaurantes, por exemplo, pode ter membros do pessoal dedicados à faturação e à gestão de stocks, enquanto uma equipa separada supervisiona as listas de produtos e as campanhas de marketing. Neste ambiente, uma solução de pagamento Bitcoin tem de se adaptar perfeitamente a estas estruturas organizacionais pré-existentes.
 
-![BIZ101-profiles](assets/en/26.webp)
+![BIZ101-profiles](assets/pt/025.webp)
 
 No que respeita à tecnologia e às ferramentas, soluções como **BTC Pay Server** constituem frequentemente o núcleo de uma configuração profissional. O BTC Pay Server é uma plataforma de código aberto que pode ser implementada no local ou através de alojamento na nuvem e que oferece amplas opções de integração para sítios Web e plataformas de comércio eletrónico. Ao executar a sua própria instância, as empresas mantêm um elevado grau de controlo sobre todos os aspectos do fluxo de pagamento, desde as páginas de checkout geradas automaticamente até às notificações que desencadeiam processos internos assim que um pagamento é confirmado.
 
-![BIZ101-profiles](assets/en/27.webp)
+![BIZ101-profiles](assets/pt/026.webp)
 
 Além disso, ferramentas como [Zaprite](https://zaprite.com/) ou [Musqet](https://musqet.tech/) podem refinar ainda mais a experiência de checkout, permitindo uma personalização mais granular (desde escolhas de marca a capacidades sofisticadas de criação de relatórios). Aqueles que preferem um ambiente de retalho online tudo-em-um podem gravitar em torno de [Be-BOP](https://be-bop.io/), uma solução de loja eletrónica criada para facilitar os pagamentos em Bitcoin sem sacrificar a facilidade de utilização.
 
-![BIZ101-profiles](assets/en/28.webp)
+![BIZ101-profiles](assets/pt/027.webp)
 
 A implementação destas tecnologias num ambiente profissional significa prestar muita atenção à **complexidade operacional**. Fluxos de trabalho de faturação automatizados, visualizações em várias moedas e sincronização com sistemas de inventário existentes são todas caraterísticas de uma plataforma bem integrada. A capacidade de exportar dados de transação com precisão (seja como ficheiros CSV, chamadas diretas à API ou formatos personalizados) ajuda as empresas a reconciliar as vendas de bitcoin com outros fluxos de receitas de forma eficiente.
 
@@ -961,7 +963,7 @@ A segurança e a gestão de funções constituem outra consideração fundamenta
 
 No que diz respeito a exemplos do mundo real, considere uma loja de comércio eletrónico de média dimensão especializada em acessórios tecnológicos. A empresa poderia integrar o BTC Pay Server na sua montra online existente, gerando automaticamente endereços de pagamento Bitcoin durante o checkout. Os clientes concluem as suas compras digitalizando um endereço Lightning ou on-chain, e a plataforma da loja confirma instantaneamente o pagamento. Ao mesmo tempo, um sistema interno actualiza o estado das encomendas e acciona notificações de envio. Graças às funcionalidades avançadas de criação de relatórios, a equipa financeira pode analisar facilmente as vendas diárias de Bitcoin, exportar um livro-razão consolidado para auditoria e acompanhar o valor de quaisquer participações em BTC que a empresa decida manter.
 
-![BIZ101-profiles](assets/en/29.webp)
+![BIZ101-profiles](assets/pt/028.webp)
 
 *[Crédito: Loja Bitcoin Bazar em Paris, França](https://bitcoinbazar.fr/)*
 
@@ -1002,8 +1004,8 @@ Uma das principais vantagens da Bitcoin é a capacidade de movimentar fundos à 
 Se está a começar do zero - sem loja, sem software de gestão de produtos e sem sistema de ponto de venda (POS) - tem algumas opções:
 
 
-- Subcontratação:** Pode subcontratar a criação de um sítio Web com opções de compras e, em seguida, adicionar capacidades de pagamento Bitcoin juntamente com soluções tradicionais na loja.
-- Soluções simples:** Em alternativa, pode utilizar plataformas como Accessing.app para o fazer você mesmo. Os principais benefícios incluem:
+- **Subcontratação:** Pode subcontratar a criação de um sítio Web com opções de compras e, em seguida, adicionar capacidades de pagamento Bitcoin juntamente com soluções tradicionais na loja.
+- **Soluções simples:** Em alternativa, pode utilizar plataformas como Accessing.app para o fazer você mesmo. Os principais benefícios incluem:
     - Criação rápida e económica de uma loja online ou física.
     - Adequado para negócios sazonais, eventos, restaurantes ou lojas de retalho.
     - Definição e gestão de produtos para venda física e online.
@@ -1021,25 +1023,25 @@ Embora a Lightning Network ofereça uma eficiência superior e taxas mais baixas
 As novas infra-estruturas têm sucesso porque são mais eficientes e os primeiros utilizadores aderem porque colhem benefícios tangíveis. Eis algumas observações sobre a Lightning Network em 2024:
 
 
-- Transacções ultra-rápidas:** As transacções são muitas vezes quase instantâneas (<500ms) e têm uma taxa de falhas extremamente baixa.
-- Profissionalização da rede:** Os maiores intervenientes estão a assegurar a liquidez em toda a rede, enquanto os indivíduos deixaram de encaminhar pagamentos e agora gerem sobretudo "nós de extremidade"
-- Melhoria da experiência do utilizador:** As aplicações móveis para utilizadores individuais melhoraram significativamente. Funcionalidades como splicing, facturas Bolt12 estáticas e pagamentos de confirmação zero (0-conf) estão amplamente disponíveis, tornando as interações perfeitas. Os problemas de interoperabilidade (por exemplo, force-closes) já não são uma grande preocupação.
-- Gestão melhorada de nós e canais:** As soluções individuais e profissionais avançaram. Por exemplo, o BTC Pay Server suporta agora numerosos plugins para ligação a outros fornecedores (PSPs, rampas on/off, etc.). Novos fornecedores de infra-estruturas, como a LightSpark e a Alby Hub, estão também a entrar em produção.
-- Crescimento da adoção por parte dos comerciantes:** Comerciantes como a BitRefill estão a registar um aumento dos pagamentos em Bitcoin entre os seus utilizadores activos, com uma clara mudança para a Bitcoin em detrimento da Lightning. Além disso, as taxas ultrabaixas do Lightning fazem dele a escolha preferida para pequenos pagamentos (média de 32 euros por transação).
+- **Transacções ultra-rápidas:** As transacções são muitas vezes quase instantâneas (<500ms) e têm uma taxa de falhas extremamente baixa.
+- **Profissionalização da rede:** Os maiores intervenientes estão a assegurar a liquidez em toda a rede, enquanto os indivíduos deixaram de encaminhar pagamentos e agora gerem sobretudo "nós de extremidade"
+- **Melhoria da experiência do utilizador:** As aplicações móveis para utilizadores individuais melhoraram significativamente. Funcionalidades como splicing, facturas Bolt12 estáticas e pagamentos de confirmação zero (0-conf) estão amplamente disponíveis, tornando as interações perfeitas. Os problemas de interoperabilidade (por exemplo, force-closes) já não são uma grande preocupação.
+- Gestão melhorada de nós e canais: As soluções individuais e profissionais avançaram. Por exemplo, o BTC Pay Server suporta agora numerosos plugins para ligação a outros fornecedores (PSPs, rampas on/off, etc.). Novos fornecedores de infra-estruturas, como a LightSpark e a Alby Hub, estão também a entrar em produção.
+- **Crescimento da adoção por parte dos comerciantes:** Comerciantes como a BitRefill estão a registar um aumento dos pagamentos em Bitcoin entre os seus utilizadores activos, com uma clara mudança para a Bitcoin em detrimento da Lightning. Além disso, as taxas ultrabaixas do Lightning fazem dele a escolha preferida para pequenos pagamentos (média de 32 euros por transação).
 
-![BIZ101-profiles](assets/en/30.webp)
+![BIZ101-profiles](assets/pt/029.webp)
 
 *[Fonte: BTC Map](https://btcmap.org/)*
 
 
-- Métricas da rede:** O número total de canais e Bitcoin bloqueados no Lightning permanece estável, com aproximadamente 20.000 nós, 5.200 BTC e 60.000 canais. No entanto, isto reflecte apenas uma parte da rede e indica uma rotação entre os participantes, com menos indivíduos e mais profissionais a participar.
-- Lightning como uma ponte entre redes:** A eficiência e a disponibilidade da Lightning Network já a posicionaram como uma ponte para outras redes interconectadas (por exemplo, FediMint, Liquid, etc.).
+- **Métricas da rede:** O número total de canais e Bitcoin bloqueados no Lightning permanece estável, com aproximadamente 20.000 nós, 5.200 BTC e 60.000 canais. No entanto, isto reflecte apenas uma parte da rede e indica uma rotação entre os participantes, com menos indivíduos e mais profissionais a participar.
+- **Lightning como uma ponte entre redes:** A eficiência e a disponibilidade da Lightning Network já a posicionaram como uma ponte para outras redes interconectadas (por exemplo, FediMint, Liquid, etc.).
 
-**O regresso da carteira
+**O regresso da carteira**
 
 A Bitcoin e a Lightning Network estão a completar a **revolução das carteiras digitais**. Novos serviços web permitem agora **transacções sem a necessidade de criar uma conta** - a sua carteira torna-se a sua identidade! Com protocolos como o **Nostr Wallet Connect (NWC)** e o **LN-URL-AUTH**, as carteiras podem autenticar utilizadores sem problemas e permitir transacções sem contas tradicionais. Já se foram os dias de cansaço com contas para simples compras ou assinaturas. Acabou-se a necessidade de fornecer informações pessoais ou de pagamento que podem acabar por ser pirateadas e vendidas na dark web, como nos recordam com demasiada frequência os acontecimentos recentes.
 
-![BIZ101](assets/en/10.webp)
+![BIZ101](assets/pt/030.webp)
 
 Os comerciantes de amanhã vão adotar esta inovação, oferecendo aos clientes uma experiência mais segura e sem descontinuidades (um clique) que também respeita a sua privacidade.
 
@@ -1064,8 +1066,8 @@ A **consequência mais importante** a ter em conta é que, na maioria das jurisd
 Outro aspeto da contabilidade Bitcoin é a diferenciação entre dois tipos de mais-valias:
 
 
-- Ganhos/perdas latentes:** Ganhos ou perdas não realizados com base no valor da Bitcoin detida no final de um período contabilístico.
-- Ganhos/Perdas efectivos:** Ganhos ou perdas realizados quando o Bitcoin é vendido ou trocado durante o ano fiscal.
+- **Ganhos/perdas latentes:** Ganhos ou perdas não realizados com base no valor da Bitcoin detida no final de um período contabilístico.
+- **Ganhos/Perdas efectivos:** Ganhos ou perdas realizados quando o Bitcoin é vendido ou trocado durante o ano fiscal.
 
 Estes cálculos dependem em grande medida do facto de a Bitcoin ser detida para investimento a longo prazo ou para utilização operacional a curto prazo. Além disso, as empresas devem alinhar as suas práticas contabilísticas com as estruturas fiscais locais, uma vez que os regulamentos variam significativamente de país para país.
 
@@ -1089,7 +1091,7 @@ Isto permitir-lhe-á, mais tarde, calcular a diferença para determinar o lucro 
 
 Este processo tem de ser repetido para cada transação, e a natureza flutuante do preço da Bitcoin torna a manutenção de registos ainda mais complicada.
 
-**Como funcionaria se a Bitcoin fosse uma moeda?
+**Como funcionaria se a Bitcoin fosse uma moeda?**
 
 Se o Bitcoin fosse tratado como uma moeda, as empresas iriam geri-lo como qualquer outra moeda no seu sistema de contabilidade. Em vez de acompanhar a base de custos e os lucros realizados/não realizados para cada transação, as participações em Bitcoin seriam simplesmente registadas numa conta de moeda. No final de cada período de reporte, o valor de todas as participações em moeda, incluindo a Bitcoin, seria convertido para a moeda contabilística (por exemplo, USD ou EUR) utilizando a taxa de câmbio atual.
 
@@ -1116,9 +1118,9 @@ O tratamento jurídico e contabilístico da Bitcoin difere significativamente en
 Para as empresas, a Bitcoin pode ser classificada em várias contas, dependendo da sua utilização prevista:
 
 
-- Activos fixos:** Para a Bitcoin detida a longo prazo como um investimento estratégico.
-- Acções:** Para a Bitcoin utilizada nos processos de produção (um caso de utilização raro, por exemplo, é o caso dos comerciantes profissionais).
-- Contas de Caixa ou Tesouraria:** Para Bitcoin detido como ativo líquido, principalmente para transacções operacionais ou gestão de tesouraria a curto prazo.
+- **Activos fixos:** Para a Bitcoin detida a longo prazo como um investimento estratégico.
+- **Acções:** Para a Bitcoin utilizada nos processos de produção (um caso de utilização raro, por exemplo, é o caso dos comerciantes profissionais).
+- **Contas de Caixa ou Tesouraria:** Para Bitcoin detido como ativo líquido, principalmente para transacções operacionais ou gestão de tesouraria a curto prazo.
 
 A escolha da classificação depende da atividade e da estratégia da empresa, com implicações para a informação financeira e as obrigações fiscais. Verifique sempre a regulamentação local, uma vez que estas classificações podem diferir consoante o país.
 
@@ -1129,16 +1131,16 @@ O reconhecimento legal e o tratamento da Bitcoin variam consoante a jurisdição
 Na maioria dos países, a Bitcoin é classificada como um ativo digital e o seu tratamento é regido por normas contabilísticas gerais. As empresas devem contabilizar as transacções de Bitcoin da seguinte forma:
 
 
-- Registo de ganhos/perdas de capital:** As empresas devem contabilizar os ganhos ou perdas realizados nos seus resultados financeiros.
-- Avaliação de ganhos/perdas latentes:** Os ganhos ou perdas não realizados devem ser frequentemente comunicados, mas podem não ter impacto direto no rendimento tributável.
-- Conformidade com as normas contabilísticas:** As empresas devem integrar as transacções Bitcoin nas práticas contabilísticas normais, garantindo transparência e precisão.
+- **Registo de ganhos/perdas de capital:** As empresas devem contabilizar os ganhos ou perdas realizados nos seus resultados financeiros.
+- **Avaliação de ganhos/perdas latentes:** Os ganhos ou perdas não realizados devem ser frequentemente comunicados, mas podem não ter impacto direto no rendimento tributável.
+- **Conformidade com as normas contabilísticas:** As empresas devem integrar as transacções Bitcoin nas práticas contabilísticas normais, garantindo transparência e precisão.
 
 A abordagem da contabilidade da Bitcoin varia consoante a geografia:
 
 
-- Estados Unidos:** O IRS classifica a Bitcoin como **propriedade, semelhante a acções, obrigações ou bens imóveis**. Esta classificação significa que qualquer transação que envolva criptomoeda, como ganhar, vender, negociar ou mesmo utilizá-la para fazer compras, pode criar um evento tributável e os ganhos estão sujeitos ao imposto sobre mais-valias.
-- União Europeia:** Os Estados-Membros tratam geralmente a Bitcoin como um ativo especulativo e não como uma moeda funcional. Por conseguinte, os ganhos estão frequentemente sujeitos ao imposto sobre as mais-valias.
-- Ásia:** Países como Singapura e Japão adoptaram quadros regulamentares progressivos, tratando favoravelmente as transacções de Bitcoin em contextos específicos. Mas a Bitcoin é geralmente contabilizada como **activos intangíveis** e é medida pelo justo valor à data do relatório, sendo as alterações reconhecidas nos lucros ou perdas.
+- **Estados Unidos:** O IRS classifica a Bitcoin como **propriedade, semelhante a acções, obrigações ou bens imóveis**. Esta classificação significa que qualquer transação que envolva criptomoeda, como ganhar, vender, negociar ou mesmo utilizá-la para fazer compras, pode criar um evento tributável e os ganhos estão sujeitos ao imposto sobre mais-valias.
+- **União Europeia:** Os Estados-Membros tratam geralmente a Bitcoin como um ativo especulativo e não como uma moeda funcional. Por conseguinte, os ganhos estão frequentemente sujeitos ao imposto sobre as mais-valias.
+- **Ásia:** Países como Singapura e Japão adoptaram quadros regulamentares progressivos, tratando favoravelmente as transacções de Bitcoin em contextos específicos. Mas a Bitcoin é geralmente contabilizada como **activos intangíveis** e é medida pelo justo valor à data do relatório, sendo as alterações reconhecidas nos lucros ou perdas.
 
 É essencial compreender a regulamentação do seu país de atividade e adaptar as suas práticas contabilísticas em conformidade.
 
@@ -1147,9 +1149,9 @@ A abordagem da contabilidade da Bitcoin varia consoante a geografia:
 O ritmo acelerado da inovação em matéria de criptomoeda ultrapassa frequentemente os quadros regulamentares. Desde o reconhecimento da Bitcoin como um ativo digital, as regulamentações globais têm sofrido actualizações incrementais, mas continuam a existir lacunas:
 
 
-- Falta de jurisprudência:** Poucos casos jurídicos esclareceram práticas contabilísticas específicas, deixando margem para interpretação.
-- Debates em curso:** Questões como o tratamento fiscal das perdas latentes continuam por resolver em muitas jurisdições.
-- Complexidade transfronteiriça:** As empresas que operam a nível internacional enfrentam desafios para conciliar as diferentes normas contabilísticas nacionais.
+- **Falta de jurisprudência:** Poucos casos jurídicos esclareceram práticas contabilísticas específicas, deixando margem para interpretação.
+- **Debates em curso:** Questões como o tratamento fiscal das perdas latentes continuam por resolver em muitas jurisdições.
+- **Complexidade transfronteiriça:** As empresas que operam a nível internacional enfrentam desafios para conciliar as diferentes normas contabilísticas nacionais.
 
 Apesar destes desafios, as posições proactivas de muitos países fornecem uma base sólida para as empresas incorporarem a Bitcoin nas suas operações. As actualizações contínuas e a harmonização internacional serão essenciais para abordar as complexidades emergentes na contabilidade da criptomoeda.
 
@@ -1158,9 +1160,9 @@ Apesar destes desafios, as posições proactivas de muitos países fornecem uma 
 A classificação da Bitcoin nas demonstrações financeiras varia consoante a jurisdição e depende da sua utilização prevista numa empresa. Em termos gerais, a Bitcoin é tratada como um ativo digital, semelhante a um inventário, investimento ou moeda, mas com caraterísticas únicas que influenciam o seu tratamento contabilístico.
 
 
-- Ativo digital ou ativo intangível**: Muitas jurisdições, incluindo a França e a União Europeia, classificam a Bitcoin como um ativo digital ou intangível e não como moeda legal. Esta classificação exige que as empresas contabilizem a Bitcoin de forma diferente das moedas fiduciárias.
-- Inventário**: Se a atividade principal de uma empresa envolve a negociação de Bitcoin, como trocas ou corretores de criptomoeda, o Bitcoin é classificado como inventário. Neste caso, a avaliação segue as normas de contabilidade de inventário.
-- Investimento financeiro**: As empresas que detêm a Bitcoin como um ativo a longo prazo podem classificá-la como um investimento financeiro. Por exemplo, nos Estados Unidos, as empresas poderiam contabilizar a Bitcoin de acordo com as diretrizes do Financial Accounting Standards Board (FASB), reconhecendo imparidades quando os valores de mercado diminuem.
+- **Ativo digital ou ativo intangível**: Muitas jurisdições, incluindo a França e a União Europeia, classificam a Bitcoin como um ativo digital ou intangível e não como moeda legal. Esta classificação exige que as empresas contabilizem a Bitcoin de forma diferente das moedas fiduciárias.
+- **Inventário**: Se a atividade principal de uma empresa envolve a negociação de Bitcoin, como trocas ou corretores de criptomoeda, o Bitcoin é classificado como inventário. Neste caso, a avaliação segue as normas de contabilidade de inventário.
+- **Investimento financeiro**: As empresas que detêm a Bitcoin como um ativo a longo prazo podem classificá-la como um investimento financeiro. Por exemplo, nos Estados Unidos, as empresas poderiam contabilizar a Bitcoin de acordo com as diretrizes do Financial Accounting Standards Board (FASB), reconhecendo imparidades quando os valores de mercado diminuem.
 
 **Implicações da classificação :**
 
@@ -1173,8 +1175,8 @@ A classificação da Bitcoin nas demonstrações financeiras varia consoante a j
 Os métodos de avaliação são técnicas contabilísticas utilizadas para determinar a base de custos da Bitcoin, que é essencial para calcular com precisão os ganhos ou perdas durante as transacções. Em geral, é melhor **manter um valor sempre atualizado dos custos actuais das participações em Bitcoin** no sistema de contabilidade. Isto garante a transparência, o cumprimento dos regulamentos fiscais e evita atrasos quando é necessário efetuar cálculos.
 
 
-- Primeiro a entrar, primeiro a sair (FIFO)**: Comum em jurisdições como a Austrália e a Índia, este método valoriza a Bitcoin com base no custo de aquisição mais antigo. Isto pode tornar-se bastante **complexo**, uma vez que pode exigir o acompanhamento de cada fração de uma bitcoin separadamente quando ocorre uma venda.
-- Custo médio ponderado (CMP)**: Frequentemente preferido para transacções de grande volume devido à sua **simplicidade**, como se vê em países como os Estados Unidos.
+- **Primeiro a entrar, primeiro a sair (FIFO)**: Comum em jurisdições como a Austrália e a Índia, este método valoriza a Bitcoin com base no custo de aquisição mais antigo. Isto pode tornar-se bastante **complexo**, uma vez que pode exigir o acompanhamento de cada fração de uma bitcoin separadamente quando ocorre uma venda.
+- **Custo médio ponderado (CMP)**: Frequentemente preferido para transacções de grande volume devido à sua **simplicidade**, como se vê em países como os Estados Unidos.
 
 É altamente recomendável manter um livro de trabalho detalhado que acompanhe os custos da Bitcoin **desde o momento em que uma empresa começa a comprar Bitcoin ou a aceitá-la como pagamento** para garantir uma manutenção de registos precisa e organizada. Esta consideração deve ser a principal preocupação ao escolher uma solução de software para aceitar pagamentos em bitcoin ou para comprar bitcoin.
 
@@ -1192,11 +1194,11 @@ As empresas devem certificar-se de que as ferramentas de **pagamento** que estã
 ### Desafios
 
 
-- Volatilidade**: O preço do Bitcoin flutua significativamente, criando dificuldades na avaliação das participações e na previsão de resultados financeiros futuros.
-- Controlo regulamentar**: Em países como a China, o estatuto restrito da Bitcoin limita a sua utilização como ativo de tesouraria.
-- Incerteza regulamentar** : O cenário regulatório em evolução do Bitcoin muitas vezes deixa as empresas no limbo. Por exemplo, as alterações nas políticas fiscais, como as da Índia ou dos Estados Unidos, podem afetar as práticas contabilísticas de um dia para o outro.
-- Riscos de má gestão** : A classificação inadequada ou a incapacidade de monitorizar as transacções de Bitcoin pode levar a problemas de conformidade, penalizações ou danos à reputação.
-- Riscos de requalificação**: A manutenção de uma parte significativa da tesouraria de uma empresa em Bitcoin expõe a empresa a potenciais perdas decorrentes de quedas de preços. Isto pode ter consequências graves, particularmente se essas quedas ocorrerem quando os pagamentos a fornecedores, empregados ou impostos são devidos. Além disso, o proprietário da empresa pode ser responsabilizado, o que pode resultar em multas ou outras questões legais, como acusações de uso indevido de activos da empresa.
+- **Volatilidade**: O preço do Bitcoin flutua significativamente, criando dificuldades na avaliação das participações e na previsão de resultados financeiros futuros.
+- **Controlo regulamentar**: Em países como a China, o estatuto restrito da Bitcoin limita a sua utilização como ativo de tesouraria.
+- **Incerteza regulamentar**: O cenário regulatório em evolução do Bitcoin muitas vezes deixa as empresas no limbo. Por exemplo, as alterações nas políticas fiscais, como as da Índia ou dos Estados Unidos, podem afetar as práticas contabilísticas de um dia para o outro.
+- **Riscos de má gestão**: A classificação inadequada ou a incapacidade de monitorizar as transacções de Bitcoin pode levar a problemas de conformidade, penalizações ou danos à reputação.
+- **Riscos de requalificação**: A manutenção de uma parte significativa da tesouraria de uma empresa em Bitcoin expõe a empresa a potenciais perdas decorrentes de quedas de preços. Isto pode ter consequências graves, particularmente se essas quedas ocorrerem quando os pagamentos a fornecedores, empregados ou impostos são devidos. Além disso, o proprietário da empresa pode ser responsabilizado, o que pode resultar em multas ou outras questões legais, como acusações de uso indevido de activos da empresa.
 
 ## Ferramentas e software de contabilidade
 
@@ -1212,7 +1214,7 @@ Quando uma empresa decide integrar o Bitcoin na sua contabilidade, várias ferra
 
 São frequentemente um complemento inteligente para grandes organizações com várias carteiras e activos em várias plataformas ou bolsas.
 
-![BIZ101](assets/en/31.webp)
+![BIZ101](assets/pt/031.webp)
 
 No entanto, um simples ficheiro `.csv` contendo o histórico de transacções é muitas vezes suficiente para a maioria das pequenas empresas. O objetivo é documentar, para cada pagamento, a data, o montante, o valor equivalente em euros/dólares e os endereços Bitcoin relevantes. A grande maioria das soluções de pagamento Bitcoin (BTC Pay Server, Swiss Bitcoin Pay, etc.) ou das plataformas de câmbio (Bitfinex, Kraken, Coinbase, etc.) já oferecem um mecanismo de exportação do histórico das transacções. Ao fornecer este ficheiro a um contabilista, torna-se possível simplificar a introdução de dados e distinguir claramente os fluxos de entrada e de saída relacionados com a Bitcoin.
 
@@ -1233,12 +1235,12 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 **Exemplo**:
 
 
-- Taxa de conversão de Bitcoin**: 1 Bitcoin = €40.000.
-- Transação 1**: O cliente compra vários produtos de pastelaria por 20 euros.
+- **Taxa de conversão de Bitcoin**: 1 Bitcoin = €40.000.
+- **Transação 1**: O cliente compra vários produtos de pastelaria por 20 euros.
     - Equivalente em Bitcoin: (20 / 40.000) = 0,0005 Bitcoin = 50.000 Satoshis.
     - Taxa de conversão: 1,5% (20 euros × 0,015) = 0,30 euros.
     - Líquido recebido: 20 euros - 0,30 euros = 19,70 euros.
-- Transação 2**: O cliente compra café por 5 euros.
+- **Transação 2**: O cliente compra café por 5 euros.
     - Equivalente em Bitcoin: (5 / 40.000) = 0,000125 Bitcoin = 12.500 Satoshis.
     - Taxa de conversão: 1,5% (5 euros × 0,015) = 0,075 euros.
     - Líquido recebido: 5 euros - 0,075 euros = 4,93 euros.
@@ -1246,9 +1248,9 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 **Resumo das transacções**:
 
 
-- Vendas totais**: 25 euros.
-- Total das taxas**: 0,375 euros.
-- Euros líquidos recebidos**: 24,625 euros.
+- **Vendas totais**: 25 euros.
+- **Total das taxas**: 0,375 euros.
+- **Euros líquidos recebidos**: 24,625 euros.
 
 **Implicações contabilísticas**:
 
@@ -1264,8 +1266,8 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 **Exemplo**:
 
 
-- Taxa de conversão de Bitcoin**: 1 Bitcoin = €40.000.
-- Transação do cliente**: O cliente compra produtos de pastelaria por 50 euros.
+- **Taxa de conversão de Bitcoin**: 1 Bitcoin = €40.000.
+- **Transação do cliente**: O cliente compra produtos de pastelaria por 50 euros.
     - Equivalente em Bitcoin: (50 / 40.000) = 0,00125 Bitcoin = 125.000 Satoshis.
     - Conversão (50%): 25 euros de Bitcoin = 0,000625 Bitcoin = 62 500 Satoshis.
         - Taxa de conversão: 1,5% (25 euros × 0,015) = 0,375 euros.
@@ -1275,10 +1277,10 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 **Resumo**:
 
 
-- Vendas totais**: 50 euros.
-- Taxas**: 0,375 euros.
-- Euros líquidos recebidos**: 24,625 euros.
-- Bitcoin retido**: 62.500 Satoshis.
+- **Vendas totais**: 50 euros.
+- **Taxas**: 0,375 euros.
+- **Euros líquidos recebidos**: 24,625 euros.
+- **Bitcoin retido**: 62.500 Satoshis.
 
 **Implicações contabilísticas**:
 
@@ -1295,10 +1297,10 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 **Exemplo**:
 
 
-- Taxa de conversão de Bitcoin no momento do pagamento**: 1 Bitcoin = €30.000.
-- Transação do cliente**: O cliente paga por serviços no valor de 3.000 euros.
+- **Taxa de conversão de Bitcoin no momento do pagamento**: 1 Bitcoin = €30.000.
+- **Transação do cliente**: O cliente paga por serviços no valor de 3.000 euros.
     - Equivalente em Bitcoin: (3.000 / 30.000) = 0,1 Bitcoin = 10.000.000 Satoshis.
-- Avaliação de fim de ano**:
+- **Avaliação de fim de ano**:
     - Taxa de conversão do Bitcoin no final do ano: 1 Bitcoin = 35 000 euros.
     - Avaliação da participação na Bitcoin: 0.1 Bitcoin × 35 000 euros = 3 500 euros.
     - Ganho não realizado: 3.500 euros - 3.000 euros = 500 euros.
@@ -1306,9 +1308,9 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 **Resumo**:
 
 
-- Total das receitas reconhecidas**: 3.000 euros.
-- Detenção de Bitcoin**: 0.1 Bitcoin avaliado em 3.500 euros no balanço.
-- Ganho não realizado**: 500 euros divulgados em notas financeiras mas não realizados como rendimento.
+- **Total das receitas reconhecidas**: 3.000 euros.
+- **Detenção de Bitcoin**: 0.1 Bitcoin avaliado em 3.500 euros no balanço.
+- **Ganho não realizado**: 500 euros divulgados em notas financeiras mas não realizados como rendimento.
 
 **Implicações contabilísticas**:
 
@@ -1324,16 +1326,16 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 **Exemplo**:
 
 
-- Compras de Bitcoin de clientes**:
+- **Compras de Bitcoin de clientes**:
     - Compra 1: 2.000 euros a 20.000 euros/BTC = 0,1 Bitcoin = 10.000.000 Satoshis.
     - Compra 2: 3.000 euros a 25.000 euros/BTC = 0,12 Bitcoin = 12.000.000 Satoshis.
     - Compra 3: 5.000 euros a 30.000 euros/BTC = 0,1667 Bitcoin = 16.670.000 Satoshis.
-    - Total de Bitcoins detidos**: 0.3867 Bitcoin = 38.670.000 Satoshis.
-- Avaliação de fim de ano**:
+- **Total de Bitcoins detidos**: 0.3867 Bitcoin = 38.670.000 Satoshis.
+- **Avaliação de fim de ano**:
     - Preço da Bitcoin no final do ano: 40 000 euros/BTC.
     - Valor total: 0,3867 Bitcoin × 40 000 euros = 15 468 euros.
     - Ganho não realizado: €15.468 - €10.000 (custo total) = €5.468.
-- Venda de 50% do Bitcoin**:
+- **Venda de 50% do Bitcoin**:
     - Bitcoin Vendido: 0.19335 Bitcoin.
     - Receitas da venda: 0.19335 Bitcoin × €40.000 = €7.734.
     - Base de custos (média ponderada):
@@ -1345,9 +1347,9 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 **Resumo**:
 
 
-- Bitcoin restante**: 0.19335 Bitcoin avaliadas em €7.734 (a €40.000/BTC).
-- Ganho realizado**: €2.735 incluído na demonstração de resultados.
-- Ganhos não realizados**: €5.468 divulgados em notas financeiras (incluindo o valor não realizado do Bitcoin remanescente).
+- **Bitcoin restante**: 0.19335 Bitcoin avaliadas em €7.734 (a €40.000/BTC).
+- **Ganho realizado**: €2.735 incluído na demonstração de resultados.
+- **Ganhos não realizados**: €5.468 divulgados em notas financeiras (incluindo o valor não realizado do Bitcoin remanescente).
 
 **Implicações contabilísticas**:
 
@@ -1378,6 +1380,5 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 

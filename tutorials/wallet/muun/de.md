@@ -6,15 +6,15 @@ description: Einrichtung Ihrer Muun-Brieftasche
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) ist eine selbstverwaltete Brieftasche für Bitcoin und Lightning.
+[Muun](https://muun.com/) ist eine selbstverwaltete Wallet für Bitcoin und Lightning.
 
-## Video-Tutorial
+## Videoanleitung
 
 ![Video-Tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun-Brieftasche - Vollständige Anleitung zur Verwendung
 
-Vollständige Anleitung zur Verwendung (mit Screenshots) der Muun-App; eine benutzerfreundliche mobile Bitcoin-Brieftasche, mit der Sie auf dem Lightning Network handeln können.
+Vollständige Benutzeranleitung (mit Screenshots) für die Muun-Anwendung; eine benutzerfreundliche mobile Bitcoin-Wallet, die es Ihnen ermöglicht, Transaktionen im Lightning-Netzwerk durchzuführen.
 
 ![Bild](assets/0.5.webp)
 
@@ -122,15 +122,15 @@ Hier ist die Übersetzung der Anweisungen:
 
 Dieses Notfallverfahren hilft Ihnen, Ihre Gelder wiederherzustellen, wenn Sie Muun auf Ihrem Gerät nicht verwenden können.
 
-1. Finden Sie Ihren Wiederherstellungscode
+- Finden Sie Ihren Wiederherstellungscode
 
 Sie haben diesen Code auf einem Stück Papier notiert, bevor Sie Ihr Emergency Kit erstellt haben. Sie werden ihn später benötigen.
 
-2. Laden Sie das Wiederherstellungstool herunter
+- Laden Sie das Wiederherstellungstool herunter
 
 Gehen Sie zur Seite https://github.com/muun/recovery und laden Sie das Tool auf Ihren Computer herunter.
 
-3. Holen Sie sich Ihre Gelder zurück
+- Stellen Sie Ihre Gelder wieder her
 
 Führen Sie das Wiederherstellungstool aus und folgen Sie den Schritten. Das Tool wird Ihre Gelder an eine von Ihnen gewählte Bitcoin-Adresse übertragen.
 

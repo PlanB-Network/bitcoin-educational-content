@@ -363,7 +363,7 @@ Namun, penekanan suku bunga ini datang dengan harga: Ini membuat modal lebih mud
 
 Tindakan seimbang ini tidak berjalan sesuai rencana...
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 Gambar [Utang vs PDB](https://www.longtermtrends.net/us-debt-to-gdp/)
 
@@ -414,7 +414,7 @@ Gambar: Kinerja Berdasarkan Kelas Aset ([Saham](https://finance.yahoo.com/quote/
 
 Dengan keterlambatan upah dibandingkan dengan harga aset, kita telah melihat salah satu transfer kekayaan terbesar dari kelas bawah ke kelas atas dalam sejarah terbaru
 
-![gambar](assets/2.webp)
+![gambar](assets/en/002.webp)
 
 Gambar: Bagian dari Total [Kekayaan Bersih](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
 
@@ -794,7 +794,7 @@ Dompet non-kustodial adalah jenis dompet Bitcoin di mana Anda adalah satu-satuny
 
 Dompet non-kustodial menawarkan tingkat keamanan dan privasi yang lebih tinggi daripada dompet kustodial karena Anda adalah satu-satunya yang bertanggung jawab atas keamanan dana Anda. Contoh dompet non-kustodial termasuk dompet perangkat keras seperti [Coldcard](https://store.coinkite.com/store/coldcard) dan [Trezor](https://trezor.io/), yang merupakan perangkat fisik yang menyimpan kunci pribadi Anda secara offline dan memberikan lapisan keamanan tambahan. Dompet non-kustodial populer lainnya adalah dompet perangkat lunak seperti [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), dan [Blockstream Green](https://blockstream.com/green/), yang dapat diunduh dan diinstal pada komputer atau perangkat seluler Anda.
 
-\*_Meskipun kami tidak dapat merekomendasikan dompet tertentu, kami sangat menyarankan untuk mengambil kendali atas bitcoin Anda melalui hak asuh sendiri atau hak asuh kolaboratif, yang melibatkan pemilihan dompet yang sesuai dengan kebutuhan dan preferensi Anda. Sangat penting untuk melakukan penelitian menyeluruh sebelum memutuskan dompet untuk memastikan bahwa itu sesuai dengan kebutuhan keamanan dan kemudahan penggunaan Anda._
+*Meskipun kami tidak dapat merekomendasikan dompet tertentu, kami sangat menyarankan untuk mengambil kendali atas bitcoin Anda melalui hak asuh sendiri atau hak asuh kolaboratif, yang melibatkan pemilihan dompet yang sesuai dengan kebutuhan dan preferensi Anda. Sangat penting untuk melakukan penelitian menyeluruh sebelum memutuskan dompet untuk memastikan bahwa itu sesuai dengan kebutuhan keamanan dan kemudahan penggunaan Anda.*
 Meskipun dompet kustodian mungkin tampak nyaman, mereka datang dengan risiko yang signifikan. Dengan memberikan hak asuh kunci privat Anda kepada pihak ketiga, Anda secara efektif memberikan mereka kontrol atas dana Anda. Jika kustodian menjadi bangkrut, diretas, atau ditutup, Anda bisa kehilangan akses ke bitcoin Anda. Dan ini telah terjadi pada banyak kesempatan, dengan contoh profil tinggi termasuk peretasan Mt. Gox dan QuadrigaCX yang mengakibatkan kehilangan dana pelanggan, atau FTX, Voyager, BlockFi, dan Celsius mengalami kebangkrutan yang menghancurkan, yang mengakibatkan kehilangan dana pelanggan mereka. Terutama untuk tabungan, mempraktikkan hak asuh sendiri dan mengambil tanggung jawab untuk melindungi bitcoin Anda sangat penting.
 
 #### Tips Keamanan
@@ -1088,7 +1088,7 @@ Seperti yang ditunjukkan oleh cerita Adanna, inflasi adalah kenyataan yang menya
 
 Untuk menggambarkan efek dari inflasi dua digit, tingkat inflasi 10%, seperti yang dialami oleh Eropa pada Oktober 2022, akan berarti kehilangan daya beli sebesar 61,5% selama sepuluh tahun.
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 _**Gambar:** Efek Inflasi Terhadap Daya [Beli](https://anilsaidso.gumroad.com/)_
 
@@ -1342,7 +1342,7 @@ Namun, sekarang produsen energi memiliki cara untuk mengkapitalisasi energi terd
 
 Terakhir, penambang Bitcoin termotivasi untuk mencari sumber energi murah karena keuntungan mereka tergantung pada biaya energi. Akibatnya, mereka secara aktif mencari energi terdampar atau bentuk energi lain yang sebaliknya tidak akan digunakan. Salah satu contoh terkenal adalah gas bakar, yang dilepaskan ketika perusahaan minyak mengekstrak minyak dari tanah. Gas bakar adalah produk sampingan dari proses ini dan biasanya dibakar karena biaya tinggi yang terkait dengan penangkapannya. Praktik ini, yang dikenal sebagai pembakaran, tidak hanya menghasilkan pemborosan energi tetapi juga melepaskan metana dan berbagai gas lain ke atmosfer.
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 _**Gambar:** Gas [Bakar](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
@@ -1478,9 +1478,9 @@ Namun, dalam beberapa tahun terakhir, Bitcoin telah muncul sebagai alat yang kua
 
 Saat dunia menyaksikan dengan ngeri saat Taliban mengambil alih kendali Afganistan pada [1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), gadis muda Roya ini hidup di jantung konflik. Di usia hanya tujuh tahun, dia menemukan dirinya terjebak dalam kekacauan dan ketidakpastian perang saat kampung halamannya diinvasi dan diduduki oleh Taliban. Meskipun menghadapi bahaya dan kesulitan, di atas kenyataan bahwa dia tidak dapat pergi ke sekolah, Roya menolak untuk dikalahkan. Sebaliknya, dia beralih ke pendidikan sebagai cara untuk mengatasi keterbatasan yang diberlakukan padanya oleh keadaannya.
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
-\***Gambar:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Gambar:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 Roya Mahboob adalah pelopor di bidang teknologi dan kewirausahaan di Afghanistan. Ia [dinamai](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) sebagai salah satu dari 100 Orang Paling Berpengaruh di Dunia oleh Majalah TIME untuk tahun 2013 setelah "membangun kelas internet di sekolah menengah di Afghanistan." Ia juga mendirikan Perusahaan Perangkat Lunak Afghan Citadel pada tahun 2010, yang bertujuan untuk "menciptakan pekerjaan bagi lulusan universitas baru - khususnya wanita." Dan jika itu belum cukup, ia kemudian memulai Digital Citizen Fund. Organisasi nirlaba ini bekerja untuk memberdayakan wanita dan anak-anak di negara berkembang melalui teknologi.
 Namun, sepanjang perjalanan ini, Roya tidak sendirian. Bitcoin telah terbukti menjadi alat yang sangat berharga dalam misinya untuk memberdayakan wanita. Meskipun menghadapi banyak rintangan, termasuk hambatan hukum yang mencegah wanita bekerja dan membuka rekening bank, Roya bertekad untuk menemukan cara untuk membayar wanita yang bekerja dengannya.
 
@@ -1532,72 +1532,72 @@ Pemilik Kafe, Vietnam
 
 “Di kafe saya di distrik Binh Thanh, kami melayani klien muda dan turis sesekali, menawarkan berbagai minuman, termasuk kopi, minuman ringan, dan koktail. Tether telah menjadi solusi utama kami untuk memproses pembayaran dari pelanggan asing yang tidak memiliki mata uang lokal atau rekening bank. Meskipun penjualan melalui Tether saat ini mungkin kecil, ini memberi kami cara yang nyaman untuk menjembatani kesenjangan mata uang dan mengakomodasi tamu internasional kami. Pelanggan sering terkesan dengan keterbukaan kami dalam menerima pembayaran cryptocurrency, meninggalkan kesan yang abadi pada pengalaman mereka."
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 Parvinee Ratchaphokhinpiti
 Pensiunan, Thailand
 
 “USDt merevolusi transfer uang internasional saya. Sebagai seorang pensiunan, saya dulu mengandalkan transfer bank yang lambat. Berkat USDt, saya sekarang dapat mengirim uang dengan mudah melalui pertukaran aset digital. Dalam waktu 30 menit, saudara perempuan saya menerima dana tersebut. Manfaat penghematan waktu sangat berharga, memastikan transaksi yang cepat dan tanpa hambatan.”
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 Jamie Tran
 Guru Piano, Vietnam
 
 "Mengirim uang ke kerabat saya di luar negeri telah menjadi kebutuhan yang sering, namun proses konversi mata uang di tempat penukaran lokal terbukti memakan waktu dan mahal. Untuk mengatasi tantangan ini, saya memperkenalkan kerabat saya pada kemudahan menggunakan USDt. Perubahan sederhana ini telah memungkinkan keluarga kami untuk menghemat waktu dan uang yang signifikan dalam transaksi keuangan kami. Dengan USDt, kami sekarang menikmati transfer lintas negara yang efisien, memastikan dukungan yang efektif dan hemat biaya untuk orang-orang terkasih kami."
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 Roman
 Ekspatriat Rusia yang tinggal di Vietnam
 
 “Tinggal di Vietnam, saya sering mengirim Tether ke kerabat dan sepupu saya di Rusia. Mengirim uang ke luar negeri dengan Tether bebas repot dibandingkan menggunakan metode perbankan tradisional. Tidak perlu kunjungan bank, dokumen yang disahkan notaris, atau penjelasan. Tanpa batas pengiriman, biaya minimal, dan transaksi cepat, dana dikirim dalam hitungan menit.”
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 Luis Graterol
 Audiovisual, Venezuela
 
 “Nama saya Luis Graterol, dan Tether membantu saya mengamankan tabungan saya dengan cara lain. Di Venezuela, kami menderita karena inflasi yang tinggi, dan Tether sangat membantu. Penggunaannya sederhana, dan dalam banyak kasus, Anda dapat melakukan transaksi tanpa biaya apa pun. USDt membuat hidup saya lebih mudah! Ini juga membantu saya mendidik dan mendorong penggunaannya dalam media audiovisual; sejak saya menemukan kemudahannya, saya menerima pembayaran saya dengan USDt, dan saya menyimpan fiat lokal yang merepotkan yang mempengaruhi banyak dari kami!”
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 Dubraska Villanloga
 CEO Tu Cachapa Caricuao, Caracas, Venezuela
 Saya berasal dari Venezuela dan menjalankan bisnis pengiriman sarapan kecil. Tether USDt telah menjadi solusi yang layak untuk masalah uang tunai fisik bagi saya. USDt juga telah membantu saya dalam menabung karena jika saya menyimpan akun bisnis saya dalam Bolivar Venezuela, saya tidak bisa merencanakan ke depan dengan sumber makanan saya karena devaluasi yang konstan.
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 Marcela Romero
 Manajer Pemasaran dan PR, Guanacaste, Kosta Rika
 
 Beberapa tahun yang lalu, saya pindah ke negara suami saya. Karena pandemi, saya menghadapi kondisi migrasi yang unik, mengakibatkan penantian panjang untuk mendapatkan residensi atau kewarganegaraan. Selama hampir tiga tahun, saya tidak memiliki akses ke rekening bank dan tidak bisa bekerja secara legal di negara tersebut. Namun, dengan memanfaatkan kemampuan kerja online saya dan menerima gaji saya dalam USDt, saya melanjutkan karir saya secara remote dengan perusahaan internasional. Dengan Tether, saya dapat mengirim uang kembali ke rumah tanpa biaya tinggi atau penundaan. Tether telah memungkinkan saya untuk mengejar tujuan profesional saya dan mempertahankan kemandirian finansial meskipun ada pembatasan pemerintah.
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 Simoneth Gomez
 Insinyur QA, Venezuela, tinggal di Argentina
 
 Hai, nama saya Simoneth Gomez. Saya berasal dari Venezuela, tetapi saat ini saya tinggal di Buenos Aires, di mana saya bekerja sebagai analis kualitas perangkat lunak. Ketika saya datang ke Argentina, saya memiliki jarak 12 km antara tempat kerja saya dan tempat saya harus menukar uang untuk mengirim ke keluarga saya di Venezuela. Jadi saya diperkenalkan dengan USDt dan mulai menggunakannya karena alih-alih harus menempuh rute itu dengan bus seharga \$5 atau \$10, saya dapat menyelesaikannya dari meja saya dalam dua menit.
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 Carlos Caballero
 Psikolog, Argentina
 
 Tether telah menjadi solusi yang memungkinkan saya untuk terus bekerja dalam profesi saya selama tahun-tahun pandemi. Fakta bahwa menjadi mata uang yang diikat ke dolar memungkinkannya memiliki nilai referensi internasional. Dan stabilitas serta keamanannya terhadap volatilitas mata uang kripto lainnya adalah alasan utama yang membuat saya memilihnya.
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 Heloisa Passos
 CEO Sp4ce Games, Brasil
 
 Saya telah bekerja secara remote untuk perusahaan internasional selama sekitar lima tahun sekarang, dan sebagian besar waktu itu, saya menderita dengan tingkat bunga tinggi dari bank nasional, yang membebankan persentase besar untuk setiap remitansi internasional yang dilakukan, selain waktu tunggu untuk kliring pembayaran melalui sistem Swift (sekitar 24 jam). Ketika saya mulai menerima gaji saya dalam Tether, saya menyadari berapa banyak waktu dan uang yang mulai saya hemat hanya dengan dibayar dalam USDt.
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 Samuel
 Perusahaan Perdagangan, Nigeria
 
 Menggunakan USDt telah menghemat banyak waktu bisnis kami karena, sebagai bisnis Nigeria yang mendapatkan USD memerlukan pergi ke bank kami sambil menghabiskan waktu berharga mengisi formulir dan mengantri selama berjam-jam untuk melakukan penarikan atau transfer. Dengan USDt, bagaimanapun, kami dapat menukarnya dengan mata uang lokal dalam waktu kurang dari 5 menit dan melakukan transaksi apa pun yang kami miliki.
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 Joshua
 Mahasiswa, Nigeria
 
 Tether telah membantu saya dalam banyak hal. Mendapatkan dalam Tether telah membantu saya mengatasi ketegangan inflasi yang meningkat di negara, dan itu telah membantu saya mengurangi pengeluaran yang sia-sia. Juga, itu membantu tabungan saya mempertahankan nilainya karena saya tidak terlalu terpengaruh oleh devaluasi Naira.
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 Esther
 Agensi HR, Nigeria
 Dalam industri HR, kami memiliki banyak orang untuk dibayar di berbagai negara. Dan kami tidak bisa membayar semua orang dalam mata uang nasional mereka. Dengan Tether USDt, kami dapat membayar semua orang tanpa memandang kebangsaan mereka dan di mana pun mereka bekerja, dan mereka dapat menukar USDt kapan pun mereka mau.

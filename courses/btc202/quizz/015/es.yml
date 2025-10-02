@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal alternativa de aplicación de Bitcoin core?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin Efectivo
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, desarrollado por Luke Dashjr, es un Fork de Core, que ofrece opciones adicionales y una visión más conservadora.
+reviewed: true

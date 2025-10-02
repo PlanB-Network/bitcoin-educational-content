@@ -6,4 +6,4 @@ wrong_answers:
   - Oni predstavljaju male fiksne iznose bitkoina
 explanation: |
   Kao novčanica, UTXO mora biti potrošen u celosti u transakciji, a svaki višak se vraća pošiljaocu kao kusur.
-reviewed: false
+reviewed: true

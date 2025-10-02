@@ -1,9 +1,9 @@
 question: Bir hodler için hangi depolama çözümü önerilir?
-answer: BIR Hardware Wallet
+answer: Bir Hardware Wallet (soğuk cüzdan, yani bir donanım)
 wrong_answers:
-  - A Hot Wallet
+  - Bir Hot Wallet (sıcak cüzdan, yani bir kripto borsasının cüzdanı)
   - Bir gözetim hizmeti
-  - Bir kağıt Wallet
+  - Bir kağıt Wallet (cüzdan)
 explanation: |
-  Uzun vadede bitcoin tutan bir hodler, güvenliği en üst düzeye çıkarmak için bir Hardware Wallet kullanmalıdır.
+  Uzun vadede bitcoin tutan bir hodler, güvenliği en üst düzeye çıkarmak için bir Hardware Wallet (soğuk cüzdan) kullanmalıdır.
 reviewed: false

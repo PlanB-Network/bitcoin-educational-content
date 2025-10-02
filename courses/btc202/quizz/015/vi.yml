@@ -1,0 +1,9 @@
+question: Triển khai thay thế chính của Bitcoin core là gì?
+answer: Bitcoin Knots
+wrong_answers:
+  - Tiền mặt Bitcoin
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, được phát triển bởi Luke Dashjr, là Fork của Core, cung cấp thêm các tùy chọn và tầm nhìn bảo thủ hơn.
+reviewed: true

@@ -205,7 +205,7 @@ Em seguida, encontrará alguns exemplos de questões de formato a que deve prest
 
 
 
-- Preste atenção a pontuações estranhas como `\*\*\`, ou ``**`` que podem representar uma má representação do símbolo de negrito. Na imagem abaixo, pode ver que os asteriscos estão apenas à direita da palavra, o que parece estranho.
+- Preste atenção a pontuações estranhas como `**`, ou `**` que podem representar uma má representação do símbolo de negrito. Na imagem abaixo, pode ver que os asteriscos estão apenas à direita da palavra, o que parece estranho.
 
 
 
@@ -234,22 +234,29 @@ Certifique-se de que verifica o ficheiro da língua original (frequentemente EN 
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Revisão de questionários
 
 
-Sabia que também pode rever as perguntas dos questionários de cada curso? Por exemplo, se quiser rever os testes do curso BTC101 em TI, pode abrir uma secção específica e seguir este caminho: "cursos" -> "BTC101" -> "questionário". Aí, encontrará todas as pastas dedicadas a cada pergunta, juntamente com o respetivo ficheiro de língua em formato _yml_.
+Sabia que também pode rever as perguntas dos questionários de cada curso? Por exemplo, se quiser rever os testes do curso BTC101 em TI, pode abrir uma secção específica e seguir este caminho: "cursos" -> "BTC101" -> "questionário". Aí, encontrará todas as pastas dedicadas a cada pergunta, juntamente com o ficheiro de língua correspondente no formato _yml_.
 
 
 Mais uma vez, certifique-se de que se encontra num balcão específico que abriu especificamente para este efeito e informe sempre o coordenador.
 
 
-Depois de rever a pergunta, certifique-se de que altera o estado "revisto" de "falso" para "verdadeiro", como mostra a imagem abaixo.
-
+Uma coisa importante a ter em mente ao revisar este tipo de arquivo _yml_ é evitar adicionar dois pontos ``:`` dentro do texto. De facto, os dois pontos são **apenas** usados para separar pares de valores chave como "wrong_answers" do resto. Pode ver um exemplo na imagem abaixo:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Depois de rever a pergunta, certifique-se de que altera o estado "revisto" de "falso" para "verdadeiro", como mostra a imagem abaixo. Certifique-se de que mantém estas palavras de estado em inglês, independentemente da língua em que está a trabalhar!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Se a linha de estado "reviewed:true" estiver em falta, certifique-se de que a **adiciona no final do teste**.
 
 
 ## Revisão do glossário
@@ -258,7 +265,35 @@ Depois de rever a pergunta, certifique-se de que altera o estado "revisto" de "f
 Tal como os testes, também pode rever o glossário. O glossário original foi escrito em francês, pelo que encontrarás frases como: "Em francês, esta expressão pode ser traduzida por..."
 
 
-Em casos como este, por favor, adapte esta frase à sua língua de chegada ou ao inglês.
+Em casos como este, adapte a frase à sua língua de chegada ou ao inglês. Por exemplo, pode escrever "Em inglês, esta expressão...".
+
+Se o título for deixado em inglês, pode adaptar a frase à sua língua: "Em suaíli, esta expressão..."
+
+
+Além disso, certifique-se de que escreve os títulos em LETRAS MAIÚSCULAS.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## O título e a descrição do seu PR
+
+
+Quando enviar o seu RP, seria ótimo se o nomeasse utilizando este formato: [REVISÃO] NOME DO CONTEÚDO - LÍNGUA:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Além disso, na secção **comentário do PR**, pode escrever "fecha" + o número do problema que o coordenador lhe enviou quando iniciou a tarefa de revisão, precedido de ``#``.
+
+Por exemplo, se acabou de enviar um RP com a revisão do cyp201 + quizzes, pode escrever "fecha [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+Desta forma, o PR e o problema estarão ligados e quem ler o repositório público do Github poderá encontrar facilmente as informações.
+
 
 
 ## Outras boas práticas
@@ -269,37 +304,49 @@ Em casos como este, por favor, adapte esta frase à sua língua de chegada ou ao
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
-Ao utilizar a função "substituir tudo", é importante verificar novamente os resultados para garantir que as hiperligações também não foram alteradas. Por exemplo, se pretender alterar a palavra "Bitcoin" para "Bitkoin" (o que pode ser necessário em algumas línguas), a utilização da função "substituir tudo" pode atualizar eficazmente todas as instâncias no texto. No entanto, tenha em atenção que esta ferramenta também modificará quaisquer hiperligações que contenham essa palavra, o que poderá levar a problemas de redireccionamento.
+Ao utilizar a função "substituir tudo", é importante verificar novamente os resultados para garantir que as hiperligações também não foram alteradas. Por exemplo, se pretender alterar a palavra "Bitcoin" para "Bitkoin" (o que pode ser necessário em algumas línguas), a utilização da função "substituir tudo" pode atualizar eficazmente todas as instâncias no texto. No entanto, tenha em atenção que esta ferramenta também modificará todas as hiperligações que contenham essa palavra, o que poderá levar a problemas de redireccionamento.
 
 
-No exemplo abaixo, o revisor utilizou a função acima para substituir "Satoshi" por "Satoshi(Sats)" e também alterou a hiperligação para um tutorial que contém a própria palavra. Como consequência, a hiperligação tornou-se inválida.
+No exemplo abaixo, o revisor utilizou a função acima para substituir "Satoshi" por "Satoshi(Sats)", e também alterou a hiperligação para um tutorial que continha a própria palavra. Como consequência, a hiperligação tornou-se inválida.
 
 
 Verifique sempre todas as hiperligações no texto, para se certificar de que estão corretas.
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- No seguimento do tópico, se o autor inserir uma ligação que remeta para um curso ou tutorial Plan ₿ Network (**não** entre parêntesis), o sítio Web criará automaticamente um "cartão" com a miniatura relacionada. Como consequência, certifique-se sempre de que **tem um espaço entre o texto e a própria ligação**, caso contrário, poderá ver o seguinte erro no sítio Web.
+- No seguimento do tópico, se o autor inserir uma ligação que remeta para um curso ou tutorial Plan ₿ Network (**não** entre parênteses), o sítio Web criará automaticamente um "cartão" com a miniatura relacionada. Como consequência, certifique-se sempre de que **acrescenta uma nova linha entre o texto e a própria ligação**, caso contrário poderá ver o seguinte erro no sítio Web.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+O mesmo acontece com "códigos de imagem" como este ``[IMAGE](asset/fr/001.webp)``: certifique-se de que adiciona sempre uma nova linha entre o código de imagem e o texto. Um exemplo abaixo:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Por fim, outra boa prática a aplicar quando terminar a sua tarefa de revisão e enviar o RP é voltar ao problema original aberto pelo coordenador e comentar com "Revisão efectuada". **Certifique-se de que também insere aí a ligação do seu RP**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Conclusão
@@ -308,7 +355,10 @@ Verifique sempre todas as hiperligações no texto, para se certificar de que es
 Em suma, estar ciente dos erros comuns dos revisores pode ajudá-lo a melhorar as suas competências na verificação de conteúdos. É fácil ignorar aspectos como o contexto ou a coerência, e a deteção destes erros pode fazer uma grande diferença.
 
 
-Tem sempre em mente que um principiante pode ler estes cursos e tutoriais, pelo que é da nossa responsabilidade garantir que eles compreendem plenamente. Como revisor, é um educador!
+Tenha sempre em mente que um principiante pode ler estes cursos e tutoriais, pelo que é da nossa responsabilidade garantir que eles compreendem plenamente. Como revisor, é um educador!
+
+
+Agora está pronto para começar a rever cursos, tutoriais, questionários e glossários. Fica atento para começares também a verificar imagens e transcrições de vídeos ;)
 
 
 Obrigado por ter lido este tutorial e desfrute da sua jornada de revisão de textos!

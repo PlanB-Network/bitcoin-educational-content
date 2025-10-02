@@ -1,0 +1,9 @@
+question: Millise filosoofilise suundumuse saadik on Spinoza?
+answer: Ratsionalism.
+wrong_answers:
+  - Romantiline liikumine.
+  - Skolastika.
+  - Strukturalism.
+explanation: |
+  Spinozat peetakse 17. sajandi ratsionalismi üheks suurimaks esindajaks Descartes'i ja Leibnizi kõrval. Ta töötas välja mõistusel ja loogikal põhineva filosoofia, püüdes mõista maailma pigem ratsionaalsete põhimõtete kui usu või traditsiooni kaudu.
+reviewed: false

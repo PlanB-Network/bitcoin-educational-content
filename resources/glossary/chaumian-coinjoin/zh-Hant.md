@@ -17,7 +17,7 @@ term: CHAUMIAN CoinJoin
 很難確定是誰最先在Bitcoin上提出CoinJoin的想法，也很難確定是誰有在此背景下使用David Chaum的盲簽名的想法。通常認為是Gregory Maxwell在[2013年BitcoinTalk上的一則消息](https://bitcointalk.org/index.php?topic=279249.0)中最先討論的：
 
 
-> *"通過使用Chaum盲簽名：使用者連線並提供輸入（並變更地址），以及他們希望將私人硬幣傳送至的加密 blinded 版本的 Address；伺服器簽署代幣並將其傳回。使用者以匿名方式重新連線，解除輸出位址的遮罩，並將其傳回伺服器。伺服器可以看到所有的輸出都經由他簽署，因此，所有的輸出都來自有效的參與者。之後，人們再重新連線並簽名。
+> *"通過使用Chaum盲簽名：使用者連線並提供輸入（並變更地址），以及他們希望將私人硬幣傳送至的加密 blinded 版本的 Address；伺服器簽署代幣並將其傳回。使用者以匿名方式重新連線，解除輸出位址的遮罩，並將其傳回伺服器。伺服器可以看到所有的輸出都經由他簽署，因此，所有的輸出都來自有效的參與者。之後，人們再重新連線並簽名。"*
 
 Maxwell, G. (2013, August 22)。 *CoinJoin: Bitcoin 現實世界的隱私*.BitcoinTalk 論壇. https://bitcointalk.org/index.php?topic=279249.0
 

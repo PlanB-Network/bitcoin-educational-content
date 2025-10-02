@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: Sanidi VPN yako
+description: Sanidi LN VPN na Lightning kwa VPN isiyojulikana na ya kubinafsishwa
 ---
 
 ![image](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Ví Proton
+name: Proton Wallet
 description: Cài đặt và sử dụng ví Proton Bitcoin
 ---
 ![cover](assets/cover.webp)

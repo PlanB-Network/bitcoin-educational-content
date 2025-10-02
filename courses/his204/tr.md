@@ -1353,9 +1353,9 @@ Bölge çok fakir olduğu için bakanların ilgisini çekmiyordu. Bu durum Turgo
 
 
 
-- Taille'ın** yeniden dağıtımı, kişisel vergi (Turgot bu verginin değerlendirilmesinde mümkün olduğunca objektiflik sağlamayı amaçlamıştır).
-- Corvée**, köylülerin yol yapımında çalışmaya zorlandığı, emek karşılığı ödenen bir vergi biçimiydi. Turgot bölgeyi gezdikten sonra yolların kötü durumunu hemen fark etti. Corvée'yi parasal bir vergi ile değiştirdi.
-- Milislerin** askere alınması, savaş zamanlarında seferber edilen köylü orduları.
+- **Taille'ın** yeniden dağıtımı, kişisel vergi (Turgot bu verginin değerlendirilmesinde mümkün olduğunca objektiflik sağlamayı amaçlamıştır).
+- **Corvée**, köylülerin yol yapımında çalışmaya zorlandığı, emek karşılığı ödenen bir vergi biçimiydi. Turgot bölgeyi gezdikten sonra yolların kötü durumunu hemen fark etti. Corvée'yi parasal bir vergi ile değiştirdi.
+- **Milislerin** askere alınması, savaş zamanlarında seferber edilen köylü orduları.
 
 
 ![image](assets/fr/115.webp)
@@ -1498,7 +1498,7 @@ Kariyerinin büyük bir bölümünde kendini ekonomi ile tamamen ilgisiz alanlar
 
 
 
-Condorcet, başlangıçta politik ekonomi ile ilgisi olmayan alanlarda laissez-faire ve özgürlük fikirlerini yavaş yavaş benimsemiştir. Bir İlahiyatçının Mektubu* adlı eserinde Katolik diniyle felsefi olarak alay etmiş ve inanmama özgürlüğü de dahil olmak üzere gerçek bir inanç özgürlüğü görme arzusunu dile getirmiştir. Condorcet, hoşgörü ve dini fanatizme karşı verdiği mücadelede, Chevalier de la Barre'ın rehabilitasyonu ve bir haçı kırdığı için idama mahkum edilen D'Etallonde'un yeniden yargılanması için mücadele etti.
+Condorcet, başlangıçta politik ekonomi ile ilgisi olmayan alanlarda laissez-faire ve özgürlük fikirlerini yavaş yavaş benimsemiştir. **Bir İlahiyatçının Mektubu** adlı eserinde Katolik diniyle felsefi olarak alay etmiş ve inanmama özgürlüğü de dahil olmak üzere gerçek bir inanç özgürlüğü görme arzusunu dile getirmiştir. Condorcet, hoşgörü ve dini fanatizme karşı verdiği mücadelede, Chevalier de la Barre'ın rehabilitasyonu ve bir haçı kırdığı için idama mahkum edilen D'Etallonde'un yeniden yargılanması için mücadele etti.
 
 
 

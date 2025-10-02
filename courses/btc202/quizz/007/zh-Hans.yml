@@ -1,0 +1,9 @@
+question: Wallet 需要做什么才能查看 Blockchain 的状态？
+answer: 连接本地或远程节点
+wrong_answers:
+  - 询问网络中的其他钱包
+  - 采访网络矿工
+  - 连接到在线 Exchange 平台
+explanation: |
+  Wallet 必须连接到节点，才能访问 Blockchain 状态并广播其交易。
+reviewed: true

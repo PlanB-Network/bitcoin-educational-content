@@ -1,0 +1,9 @@
+question: Mikä on maxconnections-parametrin oletusarvo Bitcoin core:ssa?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections rajoittaa saapuvien ja lähtevien yhteyksien kokonaismäärää. Oletusarvo on 125.
+reviewed: true

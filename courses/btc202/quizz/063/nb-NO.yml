@@ -1,0 +1,9 @@
+question: Hvilke to Lightning Network-implementeringer er tilgjengelige på Umbrel?
+answer: LND og Core Lightning
+wrong_answers:
+  - Electrs og Fulcrum
+  - Bitcoin core og Bitcoin Knots
+  - Ride The Lightning og ThunderHub
+explanation: |
+  Umbrel lar deg velge mellom LND og Core Lightning som implementeringer av Lightning Network.
+reviewed: true

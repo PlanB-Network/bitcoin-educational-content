@@ -1,0 +1,9 @@
+question: Bitcoin core에서 가정 유효하지 않은 매개 변수의 기능은 무엇인가요?
+answer: 참조 블록 전에 스크립트 확인 무시하기
+wrong_answers:
+  - 참조 블록 전에 Proof-of-Work 확인 무시하기
+  - 참조 블록 전에 헤더 확인 무시하기
+  - 피어 검색을 위한 강제 토르
+explanation: |
+  가정 유효성은 다른 모든 유효성 검사는 유지하면서 알려진 블록 이전의 스크립트 검증을 무시하여 IBD 속도를 높입니다.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Kuweka lebo UTXO
+name: Labelling UTXO
 description: Jinsi ya kuweka lebo ya UTXO yako vizuri?
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,7 @@ Kwa mfano, nikipokea UTXO kutoka kwa muamala wa P2P kupitia Bisq na Charles, naw
 Uwekaji lebo humruhusu mtu kukumbuka asili au kulengwa lengwa la UTXO, ambayo hurahisisha usimamizi wa hazina na kuboresha ufaragha wa mtumiaji. Uwekaji lebo huwa muhimu zaidi inapojumuishwa na utendakazi wa "udhibiti wa sarafu". Udhibiti wa sarafu ni chaguo linalopatikana katika pochi nzuri za Bitcoin, ambayo humpa mtumiaji uwezo wa kuchagua mwenyewe ni UTXO gani maalum zitatumika kama pembejeo wakati wa kuunda muamala.
 
 
-Kutumia Wallet yenye udhibiti wa sarafu, pamoja na uwekaji lebo wa UTXO, huruhusu watumiaji kutofautisha kwa usahihi na kuchagua UTXO kwa miamala yao, na hivyo kuepuka kuunganisha UTXO kutoka vyanzo tofauti. Zoezi hili hupunguza hatari zinazohusiana na Common Input Ownership Heuristic (CIOH), ambayo inapendekeza Ownership ya kawaida ya pembejeo za shughuli, ambayo inaweza kuhatarisha faragha ya mtumiaji.
-
+Kutumia wallet yenye udhibiti wa sarafu, pamoja na uwekaji lebo wa UTXO, huruhusu watumiaji kutofautisha kwa usahihi na kuchagua UTXO kwa miamala yao, na hivyo kuepuka kuunganisha UTXO kutoka vyanzo tofauti. Zoezi hili hupunguza hatari zinazohusiana na Common Input Ownership Heuristic (CIOH), ambayo inapendekeza ownership ya kawaida ya pembejeo za muamala, jambo ambalo linaweza kuhatarisha faragha ya mtumiaji.
 
 Hebu turudi kwenye mfano wa no-KYC UTXO yangu kutoka Bisq; Ninataka kuepuka kuichanganya na UTXO inayokuja, tuseme, kutoka kwa jukwaa lililodhibitiwa la Exchange ambalo linajua utambulisho wangu. Kwa kuweka lebo tofauti kwenye no-KYC UTXO yangu na kwenye KYC UTXO yangu, nitaweza kutambua kwa urahisi ni UTXO gani ya kutumia kama pembejeo ili kukidhi matumizi, kwa kutumia utendaji wa udhibiti wa sarafu.
 
@@ -55,7 +54,8 @@ Alama hizi za utengano zitategemea vigezo vyako mwenyewe, kama vile tofauti kati
 Kwa hali yoyote, kumbuka kuwa lebo nzuri ni kuweka lebo ambayo utaweza kuelewa unapoihitaji. Iwapo Bitcoin Wallet yako imekusudiwa kuweka akiba, huenda lebo zitakuwa na manufaa kwako tu baada ya miongo kadhaa. Kwa hivyo, hakikisha kuwa ni wazi, sahihi, na kamili.
 
 
-Inashauriwa pia kuendeleza uwekaji lebo ya sarafu katika shughuli zote. Kwa mfano, wakati wa uunganishaji wa no-KYC UTXO, hakikisha umeweka alama UTXO inayotokana si tu kama `ujumuishaji`, lakini haswa kama `uunganisho wa hakuna-KYC` ili kudumisha ufuatiliaji wazi wa asili ya sarafu.
+
+Inashauriwa pia kuendeleza uwekaji lebo ya sarafu katika miamala yote. Kwa mfano, wakati wa uunganishaji wa no-KYC UTXO, hakikisha umeweka alama UTXO inayotokana si tu kama ujumuishaji, lakini haswa kama uunganisho wa hakuna-KYC ili kudumisha ufuatiliaji wazi wa asili ya sarafu.
 
 
 Hatimaye, si lazima kuweka tarehe kwenye lebo. Programu nyingi za Wallet tayari zinaonyesha tarehe ya ununuzi, na inawezekana kila wakati kupata habari hii kwenye Block explorer kwa kutumia txid yake.
@@ -64,8 +64,7 @@ Hatimaye, si lazima kuweka tarehe kwenye lebo. Programu nyingi za Wallet tayari 
 ## Mafunzo: Kuweka lebo kwenye Eneo-kazi la Specter
 
 
-Unganisha na ufungue Wallet yako kwenye Specter Desktop, kisha uchague kichupo cha `Anwani`.
-
+Unganisha na ufungue Wallet yako kwenye Specter Desktop, kisha uchague kichupo cha Address.
 
 ![labelling](assets/notext/3.webp)
 
@@ -74,7 +73,7 @@ Hapa, utaona orodha ya anwani zako zote, pamoja na bitcoins yoyote ambayo imefun
 ![labelling](assets/notext/4.webp)
 
 
-Lebo yako kisha itaonekana kwenye orodha ya anwani zako.
+Lebo yako kisha itaonekana kwenye orodha ya address zako.
 
 
 ![labelling](assets/notext/5.webp)
@@ -195,8 +194,7 @@ Iwapo ulisahau kuweka lebo ya Address yako baada ya kupokea, bado unaweza kuiong
 ![labelling](assets/notext/22.webp)
 
 
-Pia una chaguo la kuongeza au kurekebisha lebo zako kutoka kwenye menyu ya `Anwani`.
-
+Pia una chaguo la kuongeza au kurekebisha lebo zako kutoka kwenye menyu ya `Address`.
 
 ![labelling](assets/notext/23.webp)
 

@@ -1,0 +1,9 @@
+question: Jaká je výchozí hodnota parametru dbcache v Bitcoin core?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Ve výchozím nastavení přidělí Bitcoin core do mezipaměti 450 MiB (472 MB).
+reviewed: true

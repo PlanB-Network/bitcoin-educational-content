@@ -1,0 +1,9 @@
+question: 假定无效参数在 Bitcoin core 中的作用是什么？
+answer: 忽略引用区块前的脚本验证
+wrong_answers:
+  - 忽略参考区块前的 Proof-of-Work 验证
+  - 忽略参考块前的标头验证
+  - 强制使用 Tor 进行同行发现
+explanation: |
+  Assumevalid 可忽略已知区块前的脚本验证，同时保留所有其他验证，从而加快 IBD 的速度。
+reviewed: true

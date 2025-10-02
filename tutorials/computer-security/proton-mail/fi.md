@@ -306,7 +306,7 @@ Välilehdellä "*Appearance*" voit muuttaa Interface:n värejä.
 
 
 
-"Välittäminen ja automaattinen vastaus*"-välilehdellä voit hallita sähköpostiviestien välittämistä ja automaattista vastausta.
+"Välittäminen ja automaattinen vastaus" -välilehdellä voit hallita sähköpostiviestien välittämistä ja automaattista vastausta.
 
 
 

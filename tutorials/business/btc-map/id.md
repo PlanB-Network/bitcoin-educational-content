@@ -1,5 +1,5 @@
 ---
-name: Peta BTC
+name: BTC Map
 description: Temukan tempat untuk menghabiskan Sats Anda
 ---
 ![cover](assets/cover.webp)

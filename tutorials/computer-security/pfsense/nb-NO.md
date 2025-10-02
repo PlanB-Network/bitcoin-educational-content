@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det er gjort store endringer i forfatterens opprinnelige tekst for å oppdatere veiledningen
+*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det er gjort store endringer i forfatterens opprinnelige tekst for å oppdatere veiledningen.*
 
 
 
@@ -111,9 +111,9 @@ For en standard distribusjon anbefaler vi:
 
 
 
-- minst 1 GB RAM** (2 GB eller mer anbefales for å aktivere tilleggspakker eller støtte for ZFS).
-- 8 GB diskplass** (20 GB eller mer er å foretrekke for mer avanserte konfigurasjoner, spesielt hvis du installerer en proxy-cache, IDS/IPS eller detaljerte logger).
-- Minst to virtuelle nettverksgrensesnitt** (ett for WAN og ett for LAN). I VirtualBox legger du dem til i VM-innstillingene før oppstart.
+- minst 1 GB RAM (2 GB eller mer anbefales for å aktivere tilleggspakker eller støtte for ZFS).
+- 8 GB diskplass (20 GB eller mer er å foretrekke for mer avanserte konfigurasjoner, spesielt hvis du installerer en proxy-cache, IDS/IPS eller detaljerte logger).
+- Minst to virtuelle nettverksgrensesnitt (ett for WAN og ett for LAN). I VirtualBox legger du dem til i VM-innstillingene før oppstart.
 
 
 
@@ -309,8 +309,8 @@ Innloggingsskjermen vises. Standard påloggingsinformasjon er:
 
 
 
-- Brukernavn:** `admin`
-- Passord:** `pfsense`
+- **Brukernavn:** `admin`
+- **Passord:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ For å avslutte utplasseringen med ro i sjelen:
 
 
 
-- Endre brannmurregler**: pfSense tillater som standard all utgående trafikk på LAN og blokkerer innkommende trafikk på WAN. Juster disse reglene etter behov.
-- Konfigurer sikker ekstern tilgang**: Hvis det er nødvendig, aktiverer du tilgang til Interface web fra WAN kun via VPN eller med IP-begrensninger.
-- Aktiver varslinger**: Konfigurer en SMTP-server til å motta varsler (feil, oppdateringer, feil).
-- Installer nyttige utvidelser**: for eksempel IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtrering (pfBlockerNG).
+- **Endre brannmurregler**: pfSense tillater som standard all utgående trafikk på LAN og blokkerer innkommende trafikk på WAN. Juster disse reglene etter behov.
+- **Konfigurer sikker ekstern tilgang**: Hvis det er nødvendig, aktiverer du tilgang til Interface web fra WAN kun via VPN eller med IP-begrensninger.
+- **Aktiver varslinger**: Konfigurer en SMTP-server til å motta varsler (feil, oppdateringer, feil).
+- Installer nyttige utvidelser: for eksempel IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtrering (pfBlockerNG).
 
 
 

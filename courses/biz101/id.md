@@ -35,6 +35,8 @@ Baik Anda mewakili perusahaan kecil maupun perusahaan besar, kursus ini bertujua
 
 Siap menyelami dunia Bitcoin untuk bisnis? Ayo mulai!
 
+**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.network/resources/glossary) untuk definisi.
+
 # Mata uang, sistem pembayaran, dan Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -141,7 +143,7 @@ Sistem pembayaran adalah metode dan infrastruktur yang memungkinkan transfer dan
     - Fokusnya sering kali pada keterlacakan, dokumentasi, dan kemampuan untuk menangani nilai transaksi yang lebih besar.
     - Penggunaan kartu memang ada, namun cenderung kurang umum karena biaya dan batas transaksi yang lebih tinggi. Solusi digital seperti platform pembayaran terintegrasi mulai bermunculan untuk merampingkan dan mengotomatiskan proses piutang/hutang.
 
-![BIZ101](assets/en/01.webp)
+![BIZ101](assets/id/001.webp)
 
 *Grafik: Tren Global dalam Metode Pembayaran Point-of-Sale (POS) (2023-2027), Laporan Pembayaran Global 2024, Worldpay.*
 
@@ -149,7 +151,7 @@ Sistem pembayaran adalah metode dan infrastruktur yang memungkinkan transfer dan
 
 Saat pelanggan menggunakan kartu kredit di toko, kartu tersebut dibaca oleh terminal POS, yang dengan aman mengirimkan data transaksi ke banknya pedagang. Pihak pengakuisisi meneruskan informasi ini ke jaringan kartu yang relevan (misalnya, Visa atau Mastercard), yang kemudian meneruskan permintaan tersebut ke penerbit-bank yang menyediakan kartu pelanggan. Penerbit memeriksa rekening atau batas kredit pelanggan dan mengirimkan kembali otorisasi melalui jaringan dan acquirer, yang memungkinkan pedagang untuk menerima pembayaran.
 
-![BIZ101](assets/en/02.webp)
+![BIZ101](assets/id/002.webp)
 
 Transaksi yang tampaknya sederhana ini sebenarnya melibatkan lebih dari 15 langkah, 7 perantara, dan membutuhkan waktu rata-rata antara 48 jam dan 5 hari bagi pedagang untuk menerima dana. Pada hari-hari berikutnya, proses kliring dan penyelesaian terjadi. Jaringan kartu mengumpulkan transaksi hari itu dan mengkoordinasikan pertukaran dana antara pengakuisisi dan penerbit. Bank sentral memastikan keakuratan dan stabilitas penyelesaian antar bank ini. Pada akhirnya, rekening bank pedagang menerima jumlah bersih (dikurangi biaya) yang dikreditkan dari acquirer, sehingga menyelesaikan siklus transaksi.
 
@@ -189,54 +191,54 @@ Sama seperti kita beralih dari membayar per menit untuk panggilan suara menjadi 
 
 <chapterId>4488fe33-663f-41a3-a668-e9ca2fb7122e</chapterId>
 
-**APA ITU BITCOIN?
+**APA ITU BITCOIN?**
 
 Bitcoin adalah sistem pertukaran mata uang digital peer-to-peer (uang elektronik). Istilah "Bitcoin" mengacu pada komponen-komponen berikut:
 
 
-- Protokol komputer** yang memfasilitasi pertukaran nilai di internet tanpa perantara, tanpa memerlukan izin, dan secara samaran. Protokol ini menggunakan prinsip-prinsip kriptografi tingkat lanjut.
-- Jaringan fisik** mesin yang terhubung ke internet (node, penambang, dll.) yang dioperasikan oleh individu dan bisnis, membentuk sistem yang terdesentralisasi (tanpa otoritas pusat atau titik kontrol tunggal).
-- Unit akun** di dalam sistem. Tidak akan pernah ada lebih dari 21 juta bitcoin yang ada. Setiap bitcoin dapat dibagi menjadi 100 juta unit yang disebut "satoshi", yang dinamai untuk menghormati penciptanya yang anonim.
+- **Protokol komputer** yang memfasilitasi pertukaran nilai di internet tanpa perantara, tanpa memerlukan izin, dan secara samaran. Protokol ini menggunakan prinsip-prinsip kriptografi tingkat lanjut.
+- **Jaringan fisik** mesin yang terhubung ke internet (node, penambang, dll.) yang dioperasikan oleh individu dan bisnis, membentuk sistem yang terdesentralisasi (tanpa otoritas pusat atau titik kontrol tunggal).
+- Unit **akun** di dalam sistem. Tidak akan pernah ada lebih dari 21 juta bitcoin yang ada. Setiap bitcoin dapat dibagi menjadi 100 juta unit yang disebut "satoshi", yang dinamai untuk menghormati penciptanya yang anonim.
 
 Bersama-sama, mereka menjadikan Bitcoin sebagai **bearer asset** dan mata uang digital **tanpa penerbit**. Kepemilikan dijamin hanya dengan memegang **kunci kriptografi pribadi**, memberikan kontrol penuh **tanpa perantara atau pihak ketiga yang terpercaya**. Ketika ditransfer, kepemilikan **kepastian** langsung: pemegang baru sepenuhnya memilikinya tanpa bergantung pada otoritas pusat untuk perlindungan atau konvertibilitas. Transaksi tidak dapat diubah - setelah dicatat di blockchain, transaksi tidak dapat diubah atau dihapus.
 
-![BIZ101](assets/en/11.webp)
+![BIZ101](assets/id/003.webp)
 
 Bitcoin memiliki kebijakan moneter yang tetap, dengan **cap 21 juta bitcoin**, dimana ~19,8 juta di antaranya telah didistribusikan. Hal ini menjadikannya **deflasi**, dengan nilainya yang meningkat dari waktu ke waktu karena pengguna menyimpan tabungan dan keuntungan produktivitas di dalamnya.
 
 Fitur teknisnya melebihi emas dan dolar, menjadikannya aset keuangan paling sulit yang pernah diciptakan. Bitcoin adalah penyimpan nilai dan alat tukar, sebuah mata uang yang sedang dibuat. Bayangkan mentransfer nilai dari satu perusahaan ke perusahaan lain dengan cepat, tanpa perantara, dengan biaya minimal, tanpa penipuan, 24/7, dan tanpa pihak ketiga yang terlibat.
 
-![BIZ101](assets/en/03.webp)
+![BIZ101](assets/id/004.webp)
 
 Bitcoin secara efektif menjaga nilai karena buku besar Bitcoin tahan terhadap kerusakan. Nilainya meningkat karena pasokannya yang langka dan terbatas, dikombinasikan dengan semakin banyaknya peluang penukaran, didorong oleh meningkatnya jumlah pengguna.
 
 Bitcoin bersifat disruptif karena mendorong kita untuk mempelajari konsep-konsep matematika, kriptografi, ekonomi, dan sejarah yang tidak pernah diajarkan kepada kita. Meskipun sering dianggap rumit, Bitcoin sebenarnya adalah inovasi yang dapat diakses melalui latihan dan eksperimen.
 
-Bitcoin menantang kita untuk mempertimbangkan kembali sifat uang itu sendiri. Dapatkah Anda menjelaskan apa sebenarnya uang itu? Seorang pekerja atau pengusaha yang digaji mungkin menghabiskan 50.000 hingga 100.000 jam dalam hidupnya untuk mendapatkan uang, namun berapa banyak yang mendedikasikan 100 jam untuk memahaminya dengan lebih baik** dan melestarikannya? Bitcoin mendorong kita untuk mempertanyakan alasan mendasar di balik kebutuhan kita akan uang dan perspektif kita yang bersifat sementara. Apakah uang untuk kemewahan sesaat atau ketahanan jangka panjang? Jika kita memiliki aset yang dapat dihargai yang memungkinkan kita untuk menunda pembelian, pilihan apa yang akan kita ambil? Percakapan apa yang ingin kita lakukan dengan diri kita sendiri 20 atau 30 tahun dari sekarang?
+Bitcoin menantang kita untuk mempertimbangkan kembali sifat uang itu sendiri. Dapatkah Anda menjelaskan apa sebenarnya uang itu? Seorang pekerja atau pengusaha yang digaji mungkin menghabiskan 50.000 hingga 100.000 jam dalam hidupnya untuk mendapatkan uang, namun berapa banyak yang mendedikasikan 100 jam untuk memahaminya dengan lebih baik **dan melestarikannya?** Bitcoin mendorong kita untuk mempertanyakan alasan mendasar di balik kebutuhan kita akan uang dan perspektif kita yang bersifat sementara. Apakah uang untuk kemewahan sesaat atau ketahanan jangka panjang? Jika kita memiliki aset yang dapat dihargai yang memungkinkan kita untuk menunda pembelian, pilihan apa yang akan kita ambil? Percakapan apa yang ingin kita lakukan dengan diri kita sendiri 20 atau 30 tahun dari sekarang?
 
 **KARTU IDENTITAS BITCOIN**
 
 
-- Usia:** 15 tahun (3 Januari 2009)
-- Nilai tukar harian:** $10 miliar (> CAC40)
-- Kapitalisasi pasar:** $1,8 triliun (> Meta, Visa, Silver; < Apple, Google, Gold)
-- Pengguna:** ~100 hingga 200 juta (1-2% dari populasi global)
-- Volatilitas:** Secara intrinsik tidak ada (1 Bitcoin = 1 Bitcoin), sangat tinggi secara eksternal (dalam pertukaran mata uang fiat)
-- Kinerja:** Transaksi pertama di $0,0009; sekarang $100.000 (x100 juta)
-- Ketersediaan Jaringan (uptime):** 100% sejak tahun 2013
-- Dinyatakan mati atau dikritik:** Sebulan sekali
+- **Usia:** 15 tahun (3 Januari 2009)
+- **Nilai tukar harian:** $10 miliar (> CAC40)
+- **Kapitalisasi pasar:** $1,8 triliun (> Meta, Visa, Silver; < Apple, Google, Gold)
+- **Pengguna:** ~100 hingga 200 juta (1-2% dari populasi global)
+- **Volatilitas:** Secara intrinsik tidak ada (1 Bitcoin = 1 Bitcoin), sangat tinggi secara eksternal (dalam pertukaran mata uang fiat)
+- **Kinerja:** Transaksi pertama di $0,0009; sekarang $100.000 (x100 juta)
+- **Ketersediaan Jaringan (uptime):** 100% sejak tahun 2013
+- **Dinyatakan mati atau dikritik:** Sebulan sekali
 
 **Keajaiban Kerja Sama Manusia:**
 
 
 - Sepenuhnya **sumber terbuka**
-- Badan hukum:** Tidak ada
-- CEO:** Tidak ada
-- Investasi modal ventura:** Tidak ada
-- Pemasaran:** Tidak ada
-- Penelitian dan Pengembangan:** Digerakkan oleh sukarelawan
-- Tata Kelola:** Oleh pengguna
-- Model ekonomi yang inovatif:** Pembuatan blok disubsidi oleh biaya transaksi (berbasis lelang)
+- **Badan hukum:** Tidak ada
+- **CEO:** Tidak ada
+- **Investasi modal ventura:** Tidak ada
+- **Pemasaran:** Tidak ada
+- **Penelitian dan Pengembangan:** Digerakkan oleh sukarelawan
+- **Tata Kelola:** Oleh pengguna
+- **Model ekonomi yang inovatif:** Pembuatan blok disubsidi oleh biaya transaksi (berbasis lelang)
 
 Untuk informasi lebih lanjut tentang Bitcoin, sejarahnya, cara kerjanya, dan penggunaannya, saya juga menyarankan untuk mengikuti kursus komprehensif lainnya:
 
@@ -246,18 +248,18 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**APA ITU LIGHTNING?
+**APA ITU LIGHTNING?**
 
 Lightning Network adalah **protokol dan jaringan** yang memfasilitasi transaksi Bitcoin dengan interaksi minimal dengan blockchain utama Bitcoin. Begini cara kerjanya:
 
 
-- Pengaturan awal:** Dana dikunci (escrow) di blockchain utama untuk membuat saluran pembayaran antara 2 pihak.
-- Jaringan pembayaran:** Jaringan saluran pembayaran antara beberapa pihak membentuk jaringan pembayaran (perutean dan interkoneksi).
-- Transaksi off-chain:** Transaksi yang terjadi antara para pihak tetapi tidak langsung dipublikasikan di blockchain utama Bitcoin (**"off-chain "**).
+- **Pengaturan awal:** Dana dikunci (escrow) di blockchain utama untuk membuat saluran pembayaran antara 2 pihak.
+- **Jaringan pembayaran:** Jaringan saluran pembayaran antara beberapa pihak membentuk jaringan pembayaran (perutean dan interkoneksi).
+- Transaksi off-chain: Transaksi yang terjadi antara para pihak tetapi tidak langsung dipublikasikan di blockchain utama Bitcoin (**"off-chain"**).
 - Penyelesaian on-chain:** Hanya **saldo akhir** dari transaksi saluran yang dipublikasikan di blockchain utama Bitcoin ("on-chain**"), yang memungkinkan banyak transaksi terjadi sementara itu. Penggabungan beberapa pembayaran ini mengurangi kemacetan dan dengan demikian menurunkan biaya dibandingkan dengan melakukan banyak transaksi on-chain.
-- Penutupan saluran:** Seorang pengguna dapat menutup saluran mereka kapan saja dan mendapatkan kembali Bitcoin mereka dengan mempublikasikan status transaksi terakhir. Ini adalah prinsip transaksi yang "dapat dipublikasikan" kapan saja, tetapi "tidak dipublikasikan" sampai diperlukan. Keluar (penutupan saluran) dapat dilakukan secara sepihak (diputuskan oleh salah satu dari 2 pihak kapan saja) atau diputuskan bersama (menghasilkan biaya on-chain yang lebih rendah)
+- **Penutupan saluran:** Seorang pengguna dapat menutup saluran mereka kapan saja dan mendapatkan kembali Bitcoin mereka dengan mempublikasikan status transaksi terakhir. Ini adalah prinsip transaksi yang "dapat dipublikasikan" kapan saja, tetapi "tidak dipublikasikan" sampai diperlukan. Keluar (penutupan saluran) dapat dilakukan secara sepihak (diputuskan oleh salah satu dari 2 pihak kapan saja) atau diputuskan bersama (menghasilkan biaya on-chain yang lebih rendah)
 
-![BIZ101](assets/en/04.webp)
+![BIZ101](assets/id/005.webp)
 
 Pendekatan ini menghindari kelambatan dan kerumitan dalam melakukan setiap transaksi secara langsung pada blockchain utama Bitcoin, hanya mencatat saldo akhir dan mempertahankan keamanannya. Lightning Network adalah sebuah lapisan "di atas" Bitcoin tetapi tetap terhubung dengan Bitcoin.
 
@@ -267,14 +269,14 @@ Protokol ini menciptakan **jaringan** mesin di mana saluran membentuk sistem pem
 
 Lightning Network memungkinkan pertukaran nilai secara instan dengan kecepatan cahaya. Ini seperti protokol email yang diterapkan pada pembayaran: jaringan pembayaran generasi berikutnya. Jaringan ini secara radikal mengubah cara "uang" bergerak, menjadikannya sebebas dan secepat transmisi data di internet.
 
-![BIZ101](assets/en/12.webp)
+![BIZ101](assets/id/006.webp)
 
 **Keunggulan Utama:**
 
 
-- Kecepatan:** Transaksi instan.
-- Biaya rendah:** Biaya yang jauh lebih rendah dibandingkan dengan jaringan perbankan tradisional.
-- Kemudahan adopsi:** Bisnis dapat dengan cepat mengatur untuk menerima pembayaran Lightning hanya dengan menggunakan aplikasi ponsel pintar atau tombol bayar di situs web mereka.
+- **Kecepatan:** Transaksi instan.
+- **Biaya rendah:** Biaya yang jauh lebih rendah dibandingkan dengan jaringan perbankan tradisional.
+- **Kemudahan adopsi:** Bisnis dapat dengan cepat mengatur untuk menerima pembayaran Lightning hanya dengan menggunakan aplikasi ponsel pintar atau tombol bayar di situs web mereka.
 
 Infrastruktur Lightning mengungguli sistem pembayaran tradisional dalam hal kecepatan, biaya, dan efisiensi energi. Dengan meningkatnya adopsi pedagang, momentumnya akan semakin cepat: jika pembayaran dapat melewati jaringan antar bank, mengapa harus terus menyerahkan persentase pendapatan yang signifikan kepada perantara saat ini?
 
@@ -295,23 +297,23 @@ Lightning menawarkan sekilas tentang masa depan di mana semua bisnis yang telah 
 Lightning Network sangat ideal untuk pembayaran Bitcoin di toko fisik atau online karena kecepatan dan finalitas pembayarannya.
 
 
-- Kecepatan:** Lightning (~500ms hingga beberapa detik) secara signifikan lebih cepat daripada jaringan utama Bitcoin, di mana transaksi dapat memakan waktu sekitar 30 menit untuk dikonfirmasi. Untuk pembelian dalam jumlah besar (lebih dari $1.000), jaringan utama Bitcoin mungkin masih lebih disukai, karena kecepatannya tidak terlalu penting. Akan tetapi, detail ini sering kali tidak diketahui oleh pengguna pada umumnya, karena aplikasi menangani keputusan ini dengan mulus di latar belakang.
-- Finalitas:** Setelah pembayaran dilakukan di Lightning, pembayaran bersifat final. Tidak ada kemungkinan tolak bayar oleh pihak ketiga atau sengketa terkait penipuan.
-- Biaya:** Biaya transaksi di Lightning Network sangat minim dan dibayarkan oleh pengguna, bukan pedagang. Pedagang hanya akan dikenakan biaya jika mereka kemudian perlu mentransfer Bitcoin mereka ke jaringan atau layanan lain.
+- **Kecepatan:** Lightning (~500ms hingga beberapa detik) secara signifikan lebih cepat daripada jaringan utama Bitcoin, di mana transaksi dapat memakan waktu sekitar 30 menit untuk dikonfirmasi. Untuk pembelian dalam jumlah besar (lebih dari $1.000), jaringan utama Bitcoin mungkin masih lebih disukai, karena kecepatannya tidak terlalu penting. Akan tetapi, detail ini sering kali tidak diketahui oleh pengguna pada umumnya, karena aplikasi menangani keputusan ini dengan mulus di latar belakang.
+- **Finalitas:** Setelah pembayaran dilakukan di Lightning, pembayaran bersifat final. Tidak ada kemungkinan tolak bayar oleh pihak ketiga atau sengketa terkait penipuan.
+- **Biaya:** Biaya transaksi di Lightning Network sangat minim dan dibayarkan oleh pengguna, bukan pedagang. Pedagang hanya akan dikenakan biaya jika mereka kemudian perlu mentransfer Bitcoin mereka ke jaringan atau layanan lain.
 
 **KARTU IDENTITAS KILAT**
 
 
-- Penemuan:** 2015
-- Peluncuran:** 2016
-- Usia:** 7 tahun (transaksi pertama: 28 Desember 2017)
-- Kemampuan teknis jaringan:** dalam skala besar dapat menangani 1.000 kali lebih banyak transaksi instan daripada sistem tradisional.
-- Ukuran transaksi:** Berkisar dari yang paling besar hingga 1.000 kali lebih kecil dari sistem tradisional.
-- Kecepatan transaksi:** Hingga 100 kali lebih cepat.
-- Biaya:** Hingga 90% lebih rendah.
-- Penyelesaian pembayaran:** Hampir seketika (biasanya ~500 milidetik, terkadang beberapa detik).
-- Konsumsi energi:** ~ 8% dari sistem moneter global tradisional.
-- Karakteristik:** Karakteristik
+- **Penemuan:** 2015
+- **Peluncuran:** 2016
+- **Usia:** 7 tahun (transaksi pertama: 28 Desember 2017)
+- **Kemampuan teknis jaringan:** dalam skala besar dapat menangani 1.000 kali lebih banyak transaksi instan daripada sistem tradisional.
+- **Ukuran transaksi:** Berkisar dari yang paling besar hingga 1.000 kali lebih kecil dari sistem tradisional.
+- **Kecepatan transaksi:** Hingga 100 kali lebih cepat.
+- **Biaya:** Hingga 90% lebih rendah.
+- **Penyelesaian pembayaran:** Hampir seketika (biasanya ~500 milidetik, terkadang beberapa detik).
+- **Konsumsi energi:** ~ 8% dari sistem moneter global tradisional.
+- **Karakteristik:** Karakteristik
     - Peer-to-peer
     - Universal
     - Tanpa izin
@@ -376,7 +378,7 @@ Sebelum mulai membuat tombak, sang nelayan memutuskan untuk menyisihkan beberapa
 
 Sementara ia mendedikasikan waktunya untuk membuat tombak, ia mengandalkan cadangannya, dengan rela menunda beberapa kenyamanannya yang mendesak (cerminan dari **preferensi waktu**). Setelah beberapa hari bekerja keras, dia menyelesaikan tombak yang kokoh.
 
-![BIZ101](assets/en/05.webp)
+![BIZ101](assets/id/007.webp)
 
 Dengan tombak tersebut, ia sekarang dapat menangkap ikan dengan lebih cepat dan dengan usaha yang lebih sedikit. Dia tidak perlu lagi menguras tenaga seperti sebelumnya dan bahkan mulai mengumpulkan kelebihan ikan. Surplus ini membuka berbagai kemungkinan baru: ia bisa menyimpannya, membagikannya, atau menginvestasikannya pada proyek-proyek lain di pulau tersebut. Dengan menunda konsumsi langsung dan memanfaatkan modalnya, nelayan tersebut telah meningkatkan efisiensi dan prospek masa depannya secara signifikan."
 
@@ -391,10 +393,10 @@ Sekolah Ekonomi Austria dinamai sesuai dengan nama para pendiri dan kontributor 
 Dalam pandangan Austria, modal sangat terkait dengan ide penundaan konsumsi untuk membangun alat atau sumber daya produktif yang meningkatkan produksi di masa depan. Proses ini, yang dikenal sebagai akumulasi modal, merupakan inti dari teori ekonomi Austria. Elemen-elemen kunci dari perspektif ini meliputi:
 
 
-- Preferensi Waktu dan Konsumsi yang Ditangguhkan**: Individu secara alami lebih suka mengkonsumsi sekarang daripada nanti, tetapi mereka dapat memilih untuk menunda konsumsi jika mereka mengharapkan imbalan yang lebih besar di masa depan. Dengan menabung saat ini, sumber daya dapat diinvestasikan dalam barang modal (peralatan, mesin, infrastruktur) yang meningkatkan produktivitas dari waktu ke waktu. Masyarakat atau individu dengan preferensi waktu yang lebih rendah akan menabung lebih banyak dan berinvestasi dalam proyek-proyek jangka panjang, sehingga mendorong pertumbuhan yang berkelanjutan.
-- Modal sebagai Pendorong Produksi di Masa Depan**: Barang modal dipandang sebagai alat perantara yang digunakan untuk memproduksi barang konsumsi akhir. Dengan mengumpulkan modal, pengusaha dapat meningkatkan produktivitas dan menciptakan lebih banyak kekayaan di masa depan. Sebagai contoh, alih-alih memproduksi barang konsumsi secara langsung, sumber daya dapat digunakan untuk membangun pabrik atau mesin. Meskipun hal ini mengurangi konsumsi jangka pendek, efisiensi yang dihasilkan memungkinkan produksi dan kemakmuran yang lebih besar di kemudian hari.
-- Produksi Tidak Langsung dan Efisiensi**: Ekonom Austria, seperti Eugen Böhm-Bawerk, menyoroti gagasan produksi tidak langsung - proses produksi yang lebih lama dan lebih kompleks yang melibatkan beberapa tahap. Meskipun proses ini membutuhkan waktu, pada akhirnya proses ini menghasilkan hasil yang lebih efisien dan produktif, seperti membangun pabrik penggergajian untuk memproses kayu daripada mengumpulkan kayu gelondongan secara manual.
-- Suku Bunga sebagai Sinyal**: Suku bunga, dalam pandangan Austria, secara alami mencerminkan preferensi waktu individu. Suku bunga yang tinggi mengindikasikan preferensi untuk konsumsi segera, sementara suku bunga rendah mendorong tabungan dan investasi jangka panjang. Ketika bank sentral memanipulasi suku bunga secara artifisial, mereka mendistorsi sinyal alami ini, yang mengarah ke sumber daya yang salah dialokasikan dan investasi yang tidak berkelanjutan (malinvestasi).
+- **Preferensi Waktu dan Konsumsi yang Ditangguhkan**: Individu secara alami lebih suka mengkonsumsi sekarang daripada nanti, tetapi mereka dapat memilih untuk menunda konsumsi jika mereka mengharapkan imbalan yang lebih besar di masa depan. Dengan menabung saat ini, sumber daya dapat diinvestasikan dalam barang modal (peralatan, mesin, infrastruktur) yang meningkatkan produktivitas dari waktu ke waktu. Masyarakat atau individu dengan preferensi waktu yang lebih rendah akan menabung lebih banyak dan berinvestasi dalam proyek-proyek jangka panjang, sehingga mendorong pertumbuhan yang berkelanjutan.
+- **Modal sebagai Pendorong Produksi di Masa Depan**: Barang modal dipandang sebagai alat perantara yang digunakan untuk memproduksi barang konsumsi akhir. Dengan mengumpulkan modal, pengusaha dapat meningkatkan produktivitas dan menciptakan lebih banyak kekayaan di masa depan. Sebagai contoh, alih-alih memproduksi barang konsumsi secara langsung, sumber daya dapat digunakan untuk membangun pabrik atau mesin. Meskipun hal ini mengurangi konsumsi jangka pendek, efisiensi yang dihasilkan memungkinkan produksi dan kemakmuran yang lebih besar di kemudian hari.
+- **Produksi Tidak Langsung dan Efisiensi**: Ekonom Austria, seperti Eugen Böhm-Bawerk, menyoroti gagasan produksi tidak langsung - proses produksi yang lebih lama dan lebih kompleks yang melibatkan beberapa tahap. Meskipun proses ini membutuhkan waktu, pada akhirnya proses ini menghasilkan hasil yang lebih efisien dan produktif, seperti membangun pabrik penggergajian untuk memproses kayu daripada mengumpulkan kayu gelondongan secara manual.
+- **Suku Bunga sebagai Sinyal**: Suku bunga, dalam pandangan Austria, secara alami mencerminkan preferensi waktu individu. Suku bunga yang tinggi mengindikasikan preferensi untuk konsumsi segera, sementara suku bunga rendah mendorong tabungan dan investasi jangka panjang. Ketika bank sentral memanipulasi suku bunga secara artifisial, mereka mendistorsi sinyal alami ini, yang mengarah ke sumber daya yang salah dialokasikan dan investasi yang tidak berkelanjutan (malinvestasi).
 
 **Dua Bentuk Modal dalam Perekonomian Modern**
 
@@ -421,18 +423,18 @@ Mazhab Ekonomi Austria adalah sebuah tradisi pemikiran ekonomi yang menghargai p
 **Tokoh-tokoh Kunci Mazhab Austria**
 
 
-- Carl Menger**: Pendiri Mazhab Austria, Menger mengembangkan teori nilai subjektif, yang menyatakan bahwa nilai barang bergantung pada preferensi individu daripada biaya produksi.
-- Ludwig von Mises**: Sebagai salah satu pionir Mazhab Austria, Mises memperkenalkan prakseologi (teori tindakan manusia) dan menulis _Human Action_, sebuah kritik mendalam terhadap sosialisme dan perencanaan terpusat.
-- Friedrich Hayek**: Sebagai murid Mises, Hayek memenangkan Hadiah Nobel Ekonomi pada tahun 1974 untuk karyanya tentang desentralisasi pengetahuan dan spontanitas pasar. Dalam bukunya _The Road to Serfdom_, ia mengkritik keras kontrol terpusat.
-- Murray Rothbard**: Sebagai murid Mises dan pendukung libertarianisme yang gigih, Rothbard mengembangkan teori anarko-kapitalisme, yang membayangkan masyarakat tanpa negara yang diatur oleh kontrak sukarela. Bukunya _Man, Economy, and State_ adalah karya penting dalam ekonomi Austria.
+- **Carl Menger**: Pendiri Mazhab Austria, Menger mengembangkan teori nilai subjektif, yang menyatakan bahwa nilai barang bergantung pada preferensi individu daripada biaya produksi.
+- **Ludwig von Mises**: Sebagai salah satu pionir Mazhab Austria, Mises memperkenalkan prakseologi (teori tindakan manusia) dan menulis _Human Action_, sebuah kritik mendalam terhadap sosialisme dan perencanaan terpusat.
+- **Friedrich Hayek**: Sebagai murid Mises, Hayek memenangkan Hadiah Nobel Ekonomi pada tahun 1974 untuk karyanya tentang desentralisasi pengetahuan dan spontanitas pasar. Dalam bukunya _The Road to Serfdom_, ia mengkritik keras kontrol terpusat.
+- **Murray Rothbard**: Sebagai murid Mises dan pendukung libertarianisme yang gigih, Rothbard mengembangkan teori anarko-kapitalisme, yang membayangkan masyarakat tanpa negara yang diatur oleh kontrak sukarela. Bukunya _Man, Economy, and State_ adalah karya penting dalam ekonomi Austria.
 
 **Ekonom Berpengaruh Lainnya**
 
 
-- Milton Friedman**: Meskipun tidak secara langsung terkait dengan Mazhab Austria, Friedman mendukung banyak gagasan pro-pasar dan liberal. Kebijakan monetarisnya berbeda dengan pemikiran Austria, namun memiliki kritik yang sama terhadap intervensi negara yang berlebihan dalam perekonomian.
-- Frédéric Bastiat**: Seorang ekonom Prancis abad ke-19, Bastiat mempengaruhi Mazhab Austria dengan karya-karyanya tentang perdagangan bebas dan konsekuensi yang tidak terlihat dari kebijakan ekonomi. Esainya, _What Is Seen and What Is Not Seen_, adalah teks dasar liberalisme ekonomi.
+- **Milton Friedman**: Meskipun tidak secara langsung terkait dengan Mazhab Austria, Friedman mendukung banyak gagasan pro-pasar dan liberal. Kebijakan monetarisnya berbeda dengan pemikiran Austria, namun memiliki kritik yang sama terhadap intervensi negara yang berlebihan dalam perekonomian.
+- **Frédéric Bastiat**: Seorang ekonom Prancis abad ke-19, Bastiat mempengaruhi Mazhab Austria dengan karya-karyanya tentang perdagangan bebas dan konsekuensi yang tidak terlihat dari kebijakan ekonomi. Esainya, _What Is Seen and What Is Not Seen_, adalah teks dasar liberalisme ekonomi.
 
-![BIZ101](assets/en/06.webp)
+![BIZ101](assets/id/008.webp)
 
 *Atribusi: The Ludwig von Mises Institute*
 
@@ -488,7 +490,7 @@ Pertama, **kinerja masa lalu tidak menjamin hasil di masa depan**. Selama Bitcoi
 
 Kedua, Bitcoin sejauh ini telah mengalami **siklus 4 tahunan**, yang berarti bahwa dengan jangka waktu lebih dari 4 tahun, taruhan selalu menguntungkan. Bagi mereka yang melihat Bitcoin sebagai investasi, investasi jangka pendek (<4 tahun) bisa jadi berisiko.
 
-![BIZ101](assets/en/07.webp)
+![BIZ101](assets/id/009.webp)
 
 *MICHAEL SAYLOR: "Sinyal harga Bitcoin terbaik adalah rata-rata pergerakan sederhana 4 tahun. "* Lihat grafik di atas.
 
@@ -550,7 +552,7 @@ Anda tidak perlu membeli tepat 1 Bitcoin, karena Bitcoin dapat dibagi menjadi be
 
 Selain itu, total 21 juta bitcoin - atau **2,1 kuadriliun satoshi** - dapat diwakili secara efisien oleh bilangan bulat 64-bit. Ini berarti bahwa meskipun harga per satu bitcoin tinggi, bitcoin tetap dapat diakses oleh berbagai investor berkat kemampuannya untuk dibagi. Oleh karena itu, Anda tidak perlu membeli seluruh bitcoin untuk berpartisipasi dalam jaringan atau berinvestasi dalam aset digital ini.
 
-![BIZ101](assets/en/08.webp)
+![BIZ101](assets/id/010.webp)
 
 Perlu diingat bahwa total kapitalisasi pasarnya yang relatif rendah, dibandingkan dengan aset-aset lain seperti saham, emas, atau real estat, membuat kapasitasnya untuk apresiasi tetap utuh. Dengan penetrasi yang masih sangat rendah (sekitar 1% dari populasi global), kita diperkirakan baru berada di awal kebangkitannya. Hal ini menjadikannya **taruhan paling asimetris di generasi kita**: saat ini ada kemungkinan yang sangat kecil nilainya akan turun menjadi nol pada saat ini, dan kemungkinan besar nilainya akan terus menguat.
 
@@ -563,10 +565,10 @@ Dalam skenario kedua ini, menyelaraskan sudut pandang yang berbeda menjadi sanga
 Saat ini, skenario pemilik mayoritas yang mengambil keputusan adalah yang paling representatif di antara perusahaan-perusahaan yang memegang Bitcoin. Berikut adalah beberapa contoh nyata:
 
 
-- Profesional independen**: Konsultan, praktisi kesehatan, atau pengacara yang menginvestasikan sebagian harta jangka panjang mereka dalam Bitcoin. Umumnya, para profesional ini sudah memiliki rekening tabungan atau deposito berjangka dengan imbal hasil yang kecil.
-- Eksekutif sektor teknologi**: Seorang eksekutif yang menjual perusahaan mereka dan menginvestasikan sebagian dari hasil penjualan perusahaan pribadi mereka ke dalam Bitcoin beberapa tahun yang lalu. Saat ini, mereka menikmati situasi keuangan yang nyaman dan menginvestasikan kembali ke dalam usaha-usaha baru.
-- Pemilik bisnis yang sangat kecil**: Pengusaha di bidang jasa, pertanian, atau industri kerajinan yang telah memahami potensi Bitcoin dan mengalokasikan sebagian harta mereka untuk Bitcoin. Motivasi utama mereka terletak pada diversifikasi dan kebebasan yang diberikannya
-- Perusahaan publik** seperti MicroStrategy telah menjadi preseden dengan mengubah sebagian besar harta perusahaan mereka menjadi Bitcoin, menunjukkan pergeseran global dalam strategi alokasi modal perusahaan. Pada musim gugur tahun 2024, banyak perusahaan lain yang mengikutinya, yang semakin melegitimasi tren ini.
+- **Profesional independen**: Konsultan, praktisi kesehatan, atau pengacara yang menginvestasikan sebagian harta jangka panjang mereka dalam Bitcoin. Umumnya, para profesional ini sudah memiliki rekening tabungan atau deposito berjangka dengan imbal hasil yang kecil.
+- **Eksekutif sektor teknologi**: Seorang eksekutif yang menjual perusahaan mereka dan menginvestasikan sebagian dari hasil penjualan perusahaan pribadi mereka ke dalam Bitcoin beberapa tahun yang lalu. Saat ini, mereka menikmati situasi keuangan yang nyaman dan menginvestasikan kembali ke dalam usaha-usaha baru.
+- **Pemilik bisnis yang sangat kecil**: Pengusaha di bidang jasa, pertanian, atau industri kerajinan yang telah memahami potensi Bitcoin dan mengalokasikan sebagian harta mereka untuk Bitcoin. Motivasi utama mereka terletak pada diversifikasi dan kebebasan yang diberikannya
+- **Perusahaan publik** seperti MicroStrategy telah menjadi preseden dengan mengubah sebagian besar harta perusahaan mereka menjadi Bitcoin, menunjukkan pergeseran global dalam strategi alokasi modal perusahaan. Pada musim gugur tahun 2024, banyak perusahaan lain yang mengikutinya, yang semakin melegitimasi tren ini.
 
 Temukan daftar terbaru perusahaan yang memegang bitcoin terbanyak dalam kas, serta jumlah yang dimiliki, di situs: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
 ### Perpajakan bitcoin yang dimiliki oleh bisnis
@@ -587,22 +589,22 @@ Karena perbedaan-perbedaan ini, **beberapa pemilik bisnis memilih untuk membeli 
 
 Ada tiga cara untuk mendapatkan Bitcoin:
 
-![BIZ101](assets/en/09.webp)
+![BIZ101](assets/id/011.webp)
 
 
-- Sebagai imbalan atas barang atau jasa:**
+- Sebagai imbalan atas barang atau jasa:
 
 Karena Bitcoin berfungsi sebagai alat tukar, maka dimungkinkan untuk membayangkan ekonomi sirkular. Meskipun hal ini masih belum umum saat ini, semakin banyak bisnis yang mulai menerima pembayaran dengan Bitcoin-kenapa tidak? (Lihat bab selanjutnya)
 
 
-- Menambang Bitcoin:**
+- **Menambang Bitcoin:**
 
 Hal ini melibatkan perolehan imbalan dari pengoperasian mesin-mesin pertambangan. Untuk bisnis yang tidak terspesialisasi, hal ini masih relatif kecil. Anda bisa berpartisipasi melalui perantara yang akan menjual atau menyewakan komputasi, jaringan, dan pemeliharaan kepada Anda. Jika Anda memiliki mesin tersebut, Anda dapat memperhitungkannya sebagai aset yang dapat disusutkan. Dalam skala besar, Anda perlu menghitung laba atas investasi dengan cermat karena pasarnya sangat kompetitif dan membutuhkan antisipasi biaya yang baik, terutama biaya listrik.
 
 Untuk mempelajari lebih lanjut tentang metode penambangan, Anda dapat [lihat bagian "penambangan" di tutorial kami](https://planb.network/tutorials/mining).
 
 
-- Membeli Bitcoin:**
+- **Membeli Bitcoin:**
 
 Sejauh ini, ini adalah metode yang paling umum, dilakukan melalui bursa peer-to-peer atau, biasanya, pada platform perdagangan khusus. Namun, ketika membeli Bitcoin sebagai aset perusahaan, perusahaan harus mematuhi standar regulasi yang kuat dan prosedur Know-Your-Customer (KYC). Ketika mereka membelinya di platform perdagangan khusus, perusahaan biasanya diharuskan untuk memberikan informasi perusahaan yang terperinci, termasuk dokumen identifikasi, laporan keuangan, dan bukti alamat, untuk memenuhi persyaratan KYC dan anti pencucian uang (AML).
 
@@ -614,7 +616,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 Untuk mempelajari lebih lanjut mengenai metode-metode untuk mendapatkan bitcoin melalui bursa atau peer-to-peer, Anda bisa [lihat bagian "bursa" dalam tutorial kami](https://planb.network/tutorials/exchange).
 
-![BIZ101](assets/en/16.webp)
+![BIZ101](assets/id/012.webp)
 
 ### Berapa harganya?
 
@@ -638,7 +640,7 @@ Pada kenyataannya, potensi apresiasi Bitcoin sedemikian rupa sehingga meskipun A
 
 Industri real estate sering mengulang-ulang bahwa "ini adalah waktu yang tepat untuk membeli," lupa bahwa jika real estate kehilangan fungsinya sebagai penyimpan nilai - bergeser ke aset seperti Bitcoin - harga dapat kembali mendekati nilai utilitasnya (tempat berlindung). Bitcoin, sebaliknya, tidak memiliki tujuan selain sebagai penyimpan nilai, yang dapat berarti bahwa "ini adalah waktu yang tepat untuk membeli." Masa depan akan menjawabnya.
 
-![BIZ101](assets/en/13.webp)
+![BIZ101](assets/id/013.webp)
 
 *Kredit: [Kantor Bitcoin](https://bitcoin.gob.sv/)*
 
@@ -656,20 +658,20 @@ Hal ini mengarah pada masalah hak asuh: memegang Bitcoin berarti memegang kuncin
 Ini adalah opsi yang direkomendasikan oleh para penggemar Bitcoin sejati, karena sesuai dengan desain asli Bitcoin. Anda bertindak sebagai bank Anda sendiri: tidak ada risiko pihak ketiga menipu Anda, tetapi Anda bertanggung jawab untuk mengamankan kuncinya. Anda memiliki akses penuh ke dana Anda 24/7. Dalam lingkungan bisnis, jika banyak orang perlu bertransaksi, Anda memerlukan alat dan prosedur yang tepat untuk mengelola akses dan keamanan.
 
 
-- Penitipan Pihak Ketiga:**
+- **Penitipan Pihak Ketiga:**
 
 Sebagai contoh, sebuah bursa atau layanan pembelian dapat membuatkan akun untuk Anda, mengonversi mata uang tradisional Anda ke dalam Bitcoin, dan menyimpannya atas nama Anda dengan menggunakan sistem keamanan mereka. Sebagian besar layanan seperti itu memungkinkan Anda untuk menarik bitcoin Anda ke dompet yang kuncinya Anda pegang sendiri. Sampai Anda melakukannya, Anda tidak benar-benar memiliki bitcoin; Anda hanya mengandalkan janji mereka untuk membayar Anda kembali. Hal ini melibatkan keseimbangan antara risiko keamanan (milik mereka vs milik Anda) dan risiko rekanan (mereka bisa saja gagal atau menghilang). Beberapa bisnis menganggap hal ini dapat diterima, meskipun secara umum tidak disarankan untuk penyimpanan jangka panjang atau untuk 100% alokasi Anda. Layanan penyimpanan juga dapat mengenakan biaya penyimpanan.
 
 
-- "Bitcoin Kertas" (ETF atau ETP):**
+- **"Bitcoin Kertas" (ETF atau ETP):**
 
 Ini adalah instrumen keuangan tradisional yang mewakili pecahan Bitcoin, yang mereplikasi kinerja harganya. Institusi di balik produk ini secara teoretis membeli dan menyimpan Bitcoin yang mendasarinya. Kontribusi dan penarikan dana Anda dilakukan dalam mata uang tradisional (misalnya dolar atau euro), bukan dalam Bitcoin. Kecuali untuk produk tertentu yang mengizinkan penarikan dalam Bitcoin yang sebenarnya (untuk menghindari peristiwa kena pajak di beberapa yurisdiksi), instrumen ini melibatkan biaya manajemen tahunan. Di sini, Anda bergantung pada keamanan institusi dan menghadapi risiko pihak lawan (misalnya, jika pemerintah memutuskan untuk menyita semua Bitcoin yang dimiliki institusi, seperti yang terjadi pada emas pada tahun 1933 di bawah Perintah Eksekutif AS No. 6102). Keuntungan utama mereka adalah akses yang mudah, karena didistribusikan melalui saluran keuangan tradisional. Mereka melewati kebutuhan untuk mengamankan kunci kriptografi tetapi tidak menawarkan properti yang melekat pada Bitcoin: Anda tidak dapat menggunakan jaringan Bitcoin 24/7 untuk memindahkan nilai secara bebas tanpa izin. Mereka hanya meniru kinerja keuangan, bukan fungsionalitas atau kedaulatan Bitcoin itu sendiri.
 
-![BIZ101](assets/en/15.webp)
+![BIZ101](assets/id/014.webp)
 
 Selain itu, bentuk penyimpanan Bitcoin yang Anda gunakan juga berdampak pada langkah-langkah keamanan yang diperlukan untuk melindungi harta perusahaan Anda. Baik Anda memilih penyimpanan sendiri, menggunakan dompet perangkat keras dengan tanda tangan tunggal atau multi-tanda tangan, dll. untuk mempertahankan kontrol langsung atas kunci Anda, atau mendelegasikan tugas ini ke layanan penyimpanan pihak ketiga atau ETF, setiap opsi memiliki profil risikonya masing-masing. Contohnya, penyimpanan sendiri menawarkan akses penuh namun menuntut protokol keamanan internal yang ketat, sedangkan solusi pihak ketiga mengurangi beban manajemen dengan mengorbankan risiko mitra. Untuk menggambarkan lebih jauh perbedaannya, grafik ini menguraikan model keamanan untuk setiap jenis kustodi, membantu Anda memilih pendekatan yang paling sesuai dengan kebutuhan organisasi Anda:
 
-![BIZ101](assets/en/14.webp)
+![BIZ101](assets/id/015.webp)
 
 ### Siapa yang Harus Dibeli?
 
@@ -678,12 +680,12 @@ Jika Anda memilih "Bitcoin kertas", Anda akan beralih ke lembaga keuangan sepert
 Jika Anda memilih untuk membeli Bitcoin yang sebenarnya melalui pasar (bursa) atau broker, Anda memiliki beberapa kategori utama:
 
 
-- Platform Internasional atau Asing yang Besar:**
+- **Platform Internasional atau Asing yang Besar:**
 
 Contohnya termasuk Kraken, Coinbase, atau Binance, yang secara historis digunakan oleh banyak orang. Beberapa di antaranya mengalami masalah, dan sulit untuk membuat rekomendasi yang jelas. Saran kami: jika Anda menggunakannya, jangan tinggalkan bitcoin Anda di sana lebih lama dari yang diperlukan.
 
 
-- Penyedia Layanan Teregulasi (Penyedia Layanan Aset Digital Terdaftar):**
+- **Penyedia Layanan Teregulasi (Penyedia Layanan Aset Digital Terdaftar):**
 
 Misalnya, di Prancis, platform seperti Paymium (bursa) atau BullBitcoin (pialang) dikenal sebagai penggemar Bitcoin sejati dan telah membangun rekam jejak yang solid. Di AS, Anda memiliki penyedia layanan seperti River atau Swann. Secara umum, penting untuk memeriksa silsilah penyedia layanan: reputasi, rekam jejak, popularitas dalam komunitas Bitcoin, dan apakah kepemimpinan mereka selaras dengan nilai-nilai inti Bitcoin.
 
@@ -696,12 +698,12 @@ Misalnya, di Prancis, platform seperti Paymium (bursa) atau BullBitcoin (pialang
 Selain biaya dan kecepatan eksekusi-yang tidak terlalu penting jika Anda berpikir jangka panjang (beberapa tahun)-bisnis juga harus mempertimbangkan:
 
 
-- Antarmuka Pengguna:** Apakah platform ini ramah pengguna?
-- Fitur Akuntansi:** Minimal, kemampuan untuk mengekspor riwayat transaksi dalam format .CSV.
-- Kustodian dan Keamanan:** Apakah platform menyimpan bitcoin atas nama Anda, atau apakah platform mengalihkan kepemilikan kepada Anda? Bagaimana pengaturan keamanan mereka? Apakah mereka memiliki "kunci penarikan" atau batasan penarikan lainnya?
-- Dukungan Pelanggan:** Kualitas, daya tanggap, dan bantuan yang dipersonalisasi, terutama saat Anda baru memulai.
-- Reputasi dan Etos:** Kepercayaan dan nilai-nilai platform.
-- Dukungan untuk Pembelian Berulang:** Jika Anda berencana untuk mengumpulkan Bitcoin dari waktu ke waktu dengan pembelian terjadwal.
+- **Antarmuka Pengguna:** Apakah platform ini ramah pengguna?
+- **Fitur Akuntansi:** Minimal, kemampuan untuk mengekspor riwayat transaksi dalam format .CSV.
+- **Kustodian dan Keamanan:** Apakah platform menyimpan bitcoin atas nama Anda, atau apakah platform mengalihkan kepemilikan kepada Anda? Bagaimana pengaturan keamanan mereka? Apakah mereka memiliki "kunci penarikan" atau batasan penarikan lainnya?
+- **Dukungan Pelanggan:** Kualitas, daya tanggap, dan bantuan yang dipersonalisasi, terutama saat Anda baru memulai.
+- **Reputasi dan Etos:** Kepercayaan dan nilai-nilai platform.
+- **Dukungan untuk Pembelian Berulang:** Jika Anda berencana untuk mengumpulkan Bitcoin dari waktu ke waktu dengan pembelian terjadwal.
 
 # Solusi pembayaran Bitcoin yang disesuaikan untuk setiap bisnis
 
@@ -717,37 +719,37 @@ Pada masa-masa awal, jaringan internet memungkinkan untuk menghilangkan perantar
 
 Bitcoin adalah sebuah infrastruktur kepercayaan, yang fungsi pertamanya adalah untuk menghilangkan perantara dari penyimpanan dan pertukaran nilai uang. Aplikasi-aplikasi lain yang saat ini tidak terbayangkan akan muncul pada infrastruktur ini. Kehadiran awal Anda di sini setara dengan memiliki situs web: sebuah pintu gerbang untuk pembayaran peer-to-peer dan pertukaran nilai.
 
-![BIZ101](assets/en/17.webp)
+![BIZ101](assets/id/016.webp)
 
 Sekarang, pertimbangkan perspektif bisnis praktis yang aktivitas intinya tidak ada hubungannya dengan Bitcoin. Mengapa mereka memilih untuk menerima pembayaran Bitcoin?
 
 
-- Membangun Treasury Bitcoin:**
+- Membangun Treasury Bitcoin:
 
 Lihat artikel kami sebelumnya tentang membeli Bitcoin. Entah karena keyakinan atau sebagai strategi diversifikasi, beberapa profesional memilih untuk menerima pembayaran dengan Bitcoin. Beberapa Bitcoiners berpendapat bahwa semakin tidak memiliki kemampuan finansial - yang berarti tidak memiliki waktu atau alat untuk melakukan manuver keuangan yang rumit - maka semakin penting bagi bisnis tersebut untuk dibayar dengan bentuk uang yang paling sulit didapat. Dengan demikian, hal ini akan menyamakan kedudukan di lapangan, sehingga memungkinkan perusahaan kecil yang memiliki keterbatasan waktu untuk mempertahankan nilai tanpa harus terjebak dalam permainan keuangan.
 
 
-- Menjangkau Demografi Baru:**
+- **Menjangkau Demografi Baru:**
 
 Jumlah pengguna Bitcoin terus bertambah, dan mereka memiliki daya beli yang signifikan. Mereka secara alami akan tertarik pada bisnis yang menerima mata uang mereka. Selain itu, karena ini adalah mata uang universal pertama yang berasal dari internet, Anda juga bisa menarik pelanggan internasional yang melewatinya.
 
 
-- Meningkatkan Visibilitas:**
+- **Meningkatkan Visibilitas:**
 
 Dengan mendaftarkan bisnis Anda di platform seperti BTCmap.org, misalnya. Hanya sedikit bisnis yang saat ini menerima Bitcoin, jadi promosi dari mulut ke mulut akan menguntungkan Anda. Hal ini juga membedakan Anda dari para pesaing.
 
 
-- Biaya Lebih Rendah:**
+- **Biaya Lebih Rendah:**
 
 Pembayaran Bitcoin instan terjadi melalui Jaringan Lightning. **Biaya minimal dan dibayar oleh pembeli**. Tidak ada biaya terminal pembayaran, tidak ada kegagalan otorisasi pembayaran, dan tidak ada penipuan. Sebagai perbandingan, industri pembayaran (kartu, terminal, transfer, PSP, dll.) menghabiskan biaya sekitar $ 2,2 triliun per tahun secara global. Ditambah dengan chargeback dan penipuan, dan secara total, hampir sepersepuluh dari nilai PDB Amerika Serikat "disunat" dari bisnis-bisnis produktif di seluruh dunia hanya untuk mentransfer nilai. Apa pun bisnis Anda, biaya keuangan adalah beban yang harus dioptimalkan, dan dalam beberapa kasus, biaya yang tinggi dapat menghambat model bisnis tertentu.
 
 
-- Kebebasan dan Tanpa Izin, 24/7:**
+- **Kebebasan dan Tanpa Izin, 24/7:**
 
 Tidak perlu meminta izin untuk menggunakan Bitcoin. Siapa pun dapat berpartisipasi dalam ekonomi dalam hitungan menit menggunakan aplikasi ponsel pintar. Anda bisa mengirim atau menerima pembayaran dari siapa pun - perorangan maupun bisnis - kapan saja, tanpa kendala penjadwalan atau penundaan.
 
 
-- Memanfaatkan Jaringan Bitcoin untuk mendapatkan keuntungan:**
+- **Memanfaatkan Jaringan Bitcoin untuk mendapatkan keuntungan:**
 
 Anda tidak diwajibkan untuk menyimpan pembayaran Anda dalam bentuk Bitcoin-terutama jika Anda perlu membayar pemasok atau mengirimkan PPN. Beberapa layanan tertentu dapat mengonversi semua atau sebagian pembayaran Bitcoin Anda ke mata uang pilihan Anda (misalnya, euro ke IBAN Anda) dengan biaya tertentu. Dalam skenario ini, manfaat menerima Bitcoin mungkin terletak pada menarik pengguna baru atau pada keuntungan intrinsik Bitcoin (seperti biaya yang lebih rendah, operasi sepanjang waktu, dan tidak ada risiko penipuan atau tolak bayar).
 
@@ -848,19 +850,19 @@ Pada bab-bab berikutnya, kami akan merinci setiap profil bisnis dan solusi yang 
 
 Profil Pemula dirancang untuk bisnis, kreator, dan individu yang ingin mengeksplorasi pembayaran Bitcoin tanpa harus mengeluarkan sumber daya atau keahlian yang besar. Mereka biasanya adalah orang-orang yang menangani volume transaksi yang sangat kecil (mungkin beberapa tip, donasi, atau penjualan sesekali) dan mencari pengenalan yang sederhana dan ringan terhadap ekosistem Bitcoin dan Lightning Network. Nilai utama dari pendekatan Starter terletak pada penyiapannya yang minimal: dalam banyak kasus, yang dibutuhkan hanyalah smartphone atau tablet yang dilengkapi dengan dompet dasar yang kompatibel dengan Lightning.
 
-![BIZ101-profiles](assets/en/18.webp)
+![BIZ101-profiles](assets/id/017.webp)
 
 Salah satu fitur yang menentukan dari profil ini adalah fokusnya pada pembayaran bervolume rendah yang jarang melebihi beberapa ratus euro atau dolar per bulan. Skala yang sederhana ini menjadikannya pilihan yang sangat baik bagi siapa saja yang ingin menguji pasar dengan Bitcoin, tanpa kerumitan yang melekat pada penerapan volume yang lebih tinggi. Selain itu, hal ini memungkinkan pembelajaran langsung; karena tekanan operasional yang lebih sedikit dan risiko moneter yang lebih kecil, kesalahan dapat diatasi, dan pelajaran dapat dipelajari dengan cepat. Mulai dari seniman yang menjual kerajinan tangan di pameran akhir pekan hingga kelompok nirlaba yang menerima sumbangan sesekali, pengguna dalam kategori ini sering kali menekankan aksesibilitas dan kemudahan penggunaan daripada fungsi-fungsi tingkat lanjut.
 
 Dua pengaturan dompet yang paling umum untuk profil Pemula melibatkan penentuan antara solusi kustodian dan non-kustodian. Dompet kustodian (seperti Wallet of Satoshi atau Blink) memungkinkan layanan pihak ketiga untuk mengelola kunci pribadi dan operasi backend, sehingga mengurangi tanggung jawab teknis bagi pengguna. Pengaturan ini sangat menarik bagi mereka yang menghargai kenyamanan di atas segalanya dan menginginkan proses orientasi yang sesederhana mungkin. Di sisi lain, dompet Lightning non-kustodian (seperti Phoenix atau Breez) menempatkan kunci pribadi dan kontrol penuh di tangan pemilik bisnis, menawarkan otonomi dan privasi yang lebih besar sebagai imbalan atas upaya awal yang sedikit lebih banyak. Dalam kedua kasus tersebut, antarmuka modern biasanya sangat ramah pengguna sehingga siapa pun dapat menangani tugas-tugas penting (membuat kode QR, memasukkan jumlah pembayaran, dan mengonfirmasi transaksi) dalam hitungan menit.
 
-![BIZ101-profiles](assets/en/19.webp)
+![BIZ101-profiles](assets/id/018.webp)
 
 Walaupun masalah keamanan mungkin terlihat tidak terlalu mendesak ketika transaksi yang dilakukan kecil, tetap saja sangat penting untuk melakukan langkah-langkah perlindungan dasar. Bahkan sebuah ponsel pintar atau tablet yang digunakan untuk menerima pembayaran Bitcoin harus dikunci dengan kata sandi atau keamanan biometrik, dan prosedur pencadangan (mulai dari melacak kredensial login untuk dompet kustodian sampai dengan menjaga seed phrase untuk dompet non-kustodian) harus dilakukan dengan serius. Anggota staf yang menangani transaksi secara fisik akan mendapatkan keuntungan dengan mengetahui dasar-dasarnya: cara membuka aplikasi, cara menunjukkan kode QR kepada pelanggan, dan cara memeriksa apakah pembayaran telah diterima.
 
 Akuntansi dan pelaporan, meskipun relatif sederhana di bawah profil Pemula, masih memerlukan pertimbangan yang cermat. Walaupun volume transaksi mungkin minimal, menyimpan catatan yang akurat dapat mencegah kebingungan di kemudian hari dan membantu menjaga transparansi dalam hal audit keuangan atau pengajuan pajak. Banyak aplikasi dompet yang memungkinkan pengguna untuk mengekspor riwayat transaksi dasar sebagai sebuah file CSV; untuk sebuah perusahaan kecil atau pengusaha tunggal, menyimpan file-file ini secara teratur dapat membuat rekonsiliasi akun menjadi lebih mudah. Juga merupakan hal yang bijak untuk melacak perkiraan nilai fiat (misalnya, dalam euro atau dolar) pada saat setiap transaksi diterima. Karena harga Bitcoin dapat berfluktuasi, memiliki catatan nilai konversi sangat berharga untuk pembukuan dan kepatuhan pajak.
 
-![BIZ101-profiles](assets/en/20.webp)
+![BIZ101-profiles](assets/id/019.webp)
 
 Untuk bisnis yang ingin melengkapi pembayaran fisik atau secara langsung dengan donasi atau tip online, sekarang sangat mudah untuk mengintegrasikan tombol tip Lightning atau widget donasi ke dalam situs web atau blog. Platform seperti BTCPay Server menawarkan tombol pembayaran yang mudah dikonfigurasi, sementara beberapa media sosial dan layanan streaming langsung sudah mendukung tip Lightning dengan alamat. Akibatnya, bahkan perusahaan Pemula pun dapat membangun jaringan pelanggan yang sederhana namun global. Sementara itu, mereka yang memilih untuk tidak menyimpan Bitcoin dalam jangka panjang dapat mengeksplorasi konversi parsial atau otomatis ke dalam mata uang fiat menggunakan dompet kustodian tertentu atau layanan pihak ketiga. Meskipun opsi ini melibatkan biaya tambahan dan kemungkinan kewajiban KYC, opsi ini membantu bisnis menghindari volatilitas nilai tukar dan mempertahankan alur kerja keuangan yang ada dengan gangguan minimal.
 
@@ -898,23 +900,23 @@ Tidak seperti profil Starter, bisnis Essential biasanya menganggap pembayaran Bi
 
 Rekomendasi teknologi di segmen ini sering kali berpusat pada **Swiss Bitcoin Pay**, sebuah solusi yang disederhanakan bagi para pedagang untuk menerima pembayaran Bitcoin dengan mudah. Solusi ini memiliki aplikasi PoS yang mudah digunakan, tidak memerlukan keahlian teknis bagi karyawan. Tidak seperti dompet Bitcoin standar, dompet ini hanya berfokus pada penerimaan pembayaran, sehingga karyawan dapat menggunakan perangkat ini tanpa risiko keamanan. Beberapa aplikasi PoS dapat terhubung ke akun yang sama, dapat digunakan pada tablet, register, smartphone, atau melalui versi web untuk komputer, mendukung Android dan iOS. Anda juga bisa membuat menu dengan item yang Anda jual dan harga yang terkait, sehingga karyawan cukup memilih sekeranjang barang untuk pelanggan di PoS dan kemudian menagih totalnya.
 
-![BIZ101-profiles](assets/en/21.webp)
+![BIZ101-profiles](assets/id/020.webp)
 
 Pembayaran dapat ditarik dalam Bitcoin ke alamat tertentu atau dikonversi ke mata uang fiat dan disetorkan ke rekening bank setiap hari. Swiss Bitcoin Pay mengotomatiskan prosesnya, menangani pembayaran Bitcoin dan Lightning Network tanpa intervensi manual. Dana disimpan selama maksimal 24 jam sebelum ditransfer. Meskipun tidak sepenuhnya non-kustodian seperti BTCPay Server, Swiss Bitcoin Pay menyeimbangkan kenyamanan dan keamanan, dan tidak memerlukan KYC.
 
-![BIZ101-profiles](assets/en/22.webp)
+![BIZ101-profiles](assets/id/021.webp)
 
 Biaya kompetitif: 0,21% untuk tahun pertama, kemudian 1% untuk pembayaran Bitcoin dan 1,5% untuk pembayaran konversi fiat, termasuk biaya transaksi Bitcoin. Swiss Bitcoin Pay menawarkan jalan tengah yang praktis antara solusi kustodian seperti Open Node dan sistem yang dihosting sendiri yang kompleks seperti BTCPay Server, yang memprioritaskan kesederhanaan, keamanan, dan otonomi keuangan.
 
 Jenis pengaturan ini memungkinkan bisnis langsung untuk membuat faktur pembayaran dengan cepat, menunjukkan kode QR kepada pelanggan mereka, dan menerima transaksi Lightning atau on-chain dengan gesekan minimal. Staf hanya perlu orientasi singkat untuk menangani pembayaran ini, sementara manajer dapat masuk ke dasbor online untuk merekonsiliasi penjualan harian dan mengakses laporan dasar. Ketersediaan konsol administratif yang efisien juga membantu perusahaan yang lebih kecil melacak pendapatan fiat dan kripto dari satu antarmuka, sehingga mengurangi kebingungan dan mengurangi waktu yang dihabiskan untuk pembukuan manual.
 
-![BIZ101-profiles](assets/en/23.webp)
+![BIZ101-profiles](assets/id/022.webp)
 
 Manfaat utama lainnya dari pendekatan Essential adalah penekanan pada penerapan yang cepat dan gangguan minimal. Solusi seperti Swiss Bitcoin Pay dapat disiapkan dalam hitungan jam, bukan hari atau minggu. Untuk pemilik atau manajer restoran yang tidak terlalu sibuk, misalnya, tujuan akhirnya adalah mengintegrasikan penerimaan Bitcoin tanpa menyebabkan penundaan di kasir atau kebingungan di antara para staf. Setelah POS dikonfigurasikan, manajer dapat dengan mudah memberikan instruksi singkat kepada karyawan untuk menampilkan faktur dan memverifikasi bahwa pembayaran telah selesai. Dalam skenario terbaik, transaksi pelanggan dikonfirmasi hampir seketika melalui Lightning Network, dan panel administratif bisnis secara bersamaan mendaftarkan pembayaran baru secara real time.
 
 Meskipun profil Essential tidak menuntut sistem akuntansi yang sangat canggih, tetaplah bijaksana untuk menyimpan catatan transaksi yang tepat. Alat-alat seperti Swiss Bitcoin Pay menawarkan fungsi ekspor CSV, yang memungkinkan manajer untuk menangkap nilai setara fiat dari setiap penjualan Bitcoin dan melacaknya bersama dengan sumber pendapatan lainnya. Tingkat dokumentasi ini cukup untuk sebagian besar bisnis kecil, dan pemahaman dasar tentang nilai tukar akan membantu dalam pengajuan pajak dan pengawasan keuangan secara umum.
 
-![BIZ101-profiles](assets/en/24.webp)
+![BIZ101-profiles](assets/id/023.webp)
 
 Solusi hibrida yang paling cocok untuk profil Anda kemungkinan adalah Swiss Bitcoin Pay:
 
@@ -938,19 +940,19 @@ Profil Profesional ditujukan untuk bisnis yang telah beralih dari pembayaran Bit
 
 Salah satu karakteristik yang menentukan dari pedagang Profesional adalah kebutuhan akan **fitur canggih** dan **solusi yang dapat disesuaikan** yang menjaga efisiensi bahkan ketika volume transaksi meningkat. Tidak seperti pengguna Essential, yang mungkin puas dengan alat yang ramping dan pas di aplikasi ponsel pintar, bisnis Profesional biasanya menuntut fitur-fitur seperti penyesuaian faktur yang mendetail, dasbor pelaporan yang canggih, dan kemampuan untuk menetapkan beberapa peran administratif.
 
-![BIZ101-profiles](assets/en/25.webp)
+![BIZ101-profiles](assets/id/024.webp)
 
 Sebuah grup restoran, misalnya, mungkin memiliki anggota staf yang didedikasikan untuk membuat faktur dan manajemen stok, sementara tim terpisah mengawasi daftar produk dan kampanye pemasaran. Dalam lingkungan seperti ini, solusi pembayaran Bitcoin harus sesuai dengan struktur organisasi yang sudah ada sebelumnya.
 
-![BIZ101-profiles](assets/en/26.webp)
+![BIZ101-profiles](assets/id/025.webp)
 
 Mengenai teknologi dan alat, solusi seperti **BTC Pay Server** sering kali menjadi inti dari pengaturan Profesional. BTC Pay Server adalah platform sumber terbuka yang dapat digunakan di tempat atau melalui hosting cloud dan menawarkan opsi integrasi yang luas untuk situs web dan platform e-commerce. Dengan menjalankan instance mereka sendiri, bisnis mempertahankan tingkat kontrol yang tinggi atas setiap aspek aliran pembayaran, dari halaman checkout yang dibuat secara otomatis hingga pemberitahuan yang memicu proses internal setelah pembayaran dikonfirmasi.
 
-![BIZ101-profiles](assets/en/27.webp)
+![BIZ101-profiles](assets/id/026.webp)
 
 Selain itu, alat bantu seperti [Zaprite] (https://zaprite.com/) atau [Musqet] (https://musqet.tech/) dapat menyempurnakan pengalaman pembayaran lebih lanjut, yang memungkinkan kustomisasi yang lebih terperinci (dari pilihan merek hingga kemampuan pelaporan yang canggih). Mereka yang lebih memilih lingkungan ritel online yang lengkap dapat memilih [Be-BOP] (https://be-bop.io/), sebuah solusi toko elektronik yang dibuat untuk memfasilitasi pembayaran Bitcoin tanpa mengorbankan kemudahan penggunaan.
 
-![BIZ101-profiles](assets/en/28.webp)
+![BIZ101-profiles](assets/id/027.webp)
 
 Menerapkan teknologi ini dalam lingkungan profesional berarti memperhatikan **kompleksitas operasional**. Alur kerja faktur otomatis, tampilan multi-mata uang, dan sinkronisasi dengan sistem inventaris yang ada adalah ciri khas dari platform yang terintegrasi dengan baik. Kemampuan untuk mengekspor data transaksi secara tepat (baik sebagai file CSV, panggilan API langsung, atau format yang disesuaikan) membantu bisnis merekonsiliasi penjualan bitcoin dengan aliran pendapatan lainnya secara efisien.
 
@@ -958,7 +960,7 @@ Keamanan dan manajemen peran merupakan pertimbangan penting lainnya bagi penggun
 
 Untuk contoh di dunia nyata, pertimbangkan sebuah toko e-commerce berukuran sedang yang mengkhususkan diri pada aksesori teknologi. Perusahaan dapat mengintegrasikan BTC Pay Server ke dalam etalase online yang sudah ada, yang secara otomatis menghasilkan alamat pembayaran Bitcoin saat pembayaran. Pelanggan menyelesaikan pembelian mereka dengan memindai Lightning atau alamat on-chain, dan platform toko langsung mengonfirmasi pembayaran. Pada saat yang sama, sistem internal memperbarui status pesanan dan memicu pemberitahuan pengiriman. Berkat fitur pelaporan yang canggih, tim keuangan dapat dengan mudah meninjau penjualan Bitcoin harian, mengekspor buku besar konsolidasi untuk diaudit, dan melacak nilai kepemilikan BTC yang diputuskan untuk disimpan oleh perusahaan.
 
-![BIZ101-profiles](assets/en/29.webp)
+![BIZ101-profiles](assets/id/028.webp)
 
 *[Kredit: Toko Bitcoin Bazar di Paris, Prancis.] (https://bitcoinbazar.fr/)*
 
@@ -976,7 +978,7 @@ Pada skala ini, tujuan utamanya bukan hanya untuk menerima Bitcoin, tetapi untuk
 
 Dalam konteks perusahaan, kompleksitas operasional menjadi sangat jelas. Sebuah perusahaan besar mungkin perlu mengakomodasi beberapa departemen (penjualan, pemasaran, devops, keuangan, dan akuntansi) yang masing-masing memiliki tanggung jawab dan kebutuhan data yang berbeda. Dalam skenario ini, platform pembayaran Bitcoin harus menawarkan manajemen peran yang sangat terperinci, yang memungkinkan setiap departemen untuk mengakses fungsi-fungsi yang relevan dengan tugas-tugas mereka dengan tetap menjaga kontrol yang ketat terhadap keamanan dan integritas data. Yang tidak kalah penting adalah kapasitas untuk menyesuaikan alur kerja: misalnya, pembayaran masuk dapat memicu pembaruan dalam sistem inventaris, mengirimkan notifikasi otomatis kepada manajer penjualan, dan memperbarui entri buku besar untuk tim keuangan, semuanya secara real time. Perangkat point-of-sale sendiri biasanya disesuaikan dengan lingkungan perusahaan, dengan antarmuka perangkat lunak khusus yang sesuai dengan merek dan kebutuhan operasional perusahaan.
 
-**Keamanan adalah hal yang sangat penting untuk bisnis skala perusahaan. Volume transaksi yang tinggi dan jumlah Bitcoin yang berpotensi besar membutuhkan infrastruktur yang kuat yang mampu bertahan dari serangan jahat atau ancaman orang dalam. Praktik terbaik sering kali mencakup multi-tanda tangan dengan konfigurasi perbendaharaan timelock, basis kode yang diaudit dengan cermat, dan kepatuhan yang ketat terhadap kerangka kerja peraturan yang relevan. Selain itu, kepatuhan terhadap peraturan keuangan lokal dan internasional dapat menjadi bagian integral dalam menjaga reputasi dan lisensi perusahaan untuk beroperasi.
+**Keamanan adalah hal yang sangat penting untuk bisnis skala perusahaan.** Volume transaksi yang tinggi dan jumlah Bitcoin yang berpotensi besar membutuhkan infrastruktur yang kuat yang mampu bertahan dari serangan jahat atau ancaman orang dalam. Praktik terbaik sering kali mencakup multi-tanda tangan dengan konfigurasi perbendaharaan timelock, basis kode yang diaudit dengan cermat, dan kepatuhan yang ketat terhadap kerangka kerja peraturan yang relevan. Selain itu, kepatuhan terhadap peraturan keuangan lokal dan internasional dapat menjadi bagian integral dalam menjaga reputasi dan lisensi perusahaan untuk beroperasi.
 
 Pengembangan khusus yang terlibat dalam menciptakan atau mengintegrasikan solusi pembayaran Bitcoin tingkat perusahaan lebih dari sekadar pengkodean beberapa fitur aplikasi. Hal ini biasanya membutuhkan desain arsitektur, protokol pengujian menyeluruh, dan peluncuran terstruktur yang mungkin mencakup beberapa fase (program percontohan awal, pengujian pasar terbatas, dan akhirnya penyebaran global).
 
@@ -999,8 +1001,8 @@ Salah satu keunggulan utama Bitcoin adalah kemampuannya untuk memindahkan dana s
 Jika Anda memulai dari nol-tanpa toko, tanpa perangkat lunak manajemen produk, dan tanpa sistem point-of-sale (POS)-Anda memiliki beberapa pilihan:
 
 
-- Outsourcing:** Anda dapat mengalihdayakan pembuatan situs web dengan opsi belanja dan kemudian menambahkan kemampuan pembayaran Bitcoin di samping solusi tradisional di dalam toko.
-- Solusi Sederhana:** Sebagai alternatif, Anda bisa menggunakan platform seperti Accessing.app untuk melakukannya sendiri. Manfaat utamanya meliputi:
+- **Outsourcing:** Anda dapat mengalihdayakan pembuatan situs web dengan opsi belanja dan kemudian menambahkan kemampuan pembayaran Bitcoin di samping solusi tradisional di dalam toko.
+- **Solusi Sederhana:** Sebagai alternatif, Anda bisa menggunakan platform seperti Accessing.app untuk melakukannya sendiri. Manfaat utamanya meliputi:
     - Menyiapkan toko online atau toko fisik dengan cepat dan terjangkau.
     - Cocok untuk bisnis musiman, acara, restoran, atau toko ritel.
     - Mendefinisikan dan mengelola produk untuk penjualan fisik dan online.
@@ -1018,25 +1020,25 @@ Meskipun Lightning Network menawarkan efisiensi yang unggul dan biaya yang lebih
 Infrastruktur baru berhasil karena lebih efisien, dan pengadopsi awal bergabung karena mereka menuai manfaat yang nyata. Berikut adalah pengamatan tentang Jaringan Lightning pada tahun 2024:
 
 
-- Transaksi sangat cepat:** Transaksi sering kali hampir seketika (<500ms) dan memiliki tingkat kegagalan yang sangat rendah.
-- Profesionalisasi Jaringan:** Pemain yang lebih besar memastikan likuiditas di seluruh jaringan, sementara individu sebagian besar telah berhenti melakukan routing pembayaran dan sekarang sebagian besar menjalankan "edge node"
-- Pengalaman Pengguna yang lebih baik:** Aplikasi seluler untuk pengguna individu telah meningkat secara signifikan. Fitur-fitur seperti penyambungan, faktur Bolt12 statis, dan pembayaran tanpa konfirmasi (0-conf) tersedia secara luas, membuat interaksi menjadi lancar. Masalah interoperabilitas (misalnya, penutupan paksa) tidak lagi menjadi perhatian utama.
-- Manajemen Node dan Saluran yang Ditingkatkan:** Baik solusi individu maupun profesional telah maju. Sebagai contoh, BTC Pay Server sekarang mendukung banyak plugin untuk terhubung dengan penyedia lain (PSP, on/off ramp, dll.). Penyedia infrastruktur baru, seperti LightSpark dan Alby Hub, juga mulai berproduksi.
-- Pertumbuhan Adopsi Pedagang:** Pedagang seperti BitRefill melaporkan peningkatan pembayaran Bitcoin di antara pengguna aktif mereka, dengan pergeseran yang jelas ke arah Bitcoin daripada Lightning. Selain itu, biaya Lightning yang sangat rendah menjadikannya pilihan yang lebih disukai untuk pembayaran kecil (rata-rata €32 per transaksi).
+- **Transaksi sangat cepat:** Transaksi sering kali hampir seketika (<500ms) dan memiliki tingkat kegagalan yang sangat rendah.
+- **Profesionalisasi Jaringan:** Pemain yang lebih besar memastikan likuiditas di seluruh jaringan, sementara individu sebagian besar telah berhenti melakukan routing pembayaran dan sekarang sebagian besar menjalankan "edge node"
+- **Pengalaman Pengguna yang lebih baik:** Aplikasi seluler untuk pengguna individu telah meningkat secara signifikan. Fitur-fitur seperti penyambungan, faktur Bolt12 statis, dan pembayaran tanpa konfirmasi (0-conf) tersedia secara luas, membuat interaksi menjadi lancar. Masalah interoperabilitas (misalnya, penutupan paksa) tidak lagi menjadi perhatian utama.
+- **Manajemen Node dan Saluran yang Ditingkatkan:** Baik solusi individu maupun profesional telah maju. Sebagai contoh, BTC Pay Server sekarang mendukung banyak plugin untuk terhubung dengan penyedia lain (PSP, on/off ramp, dll.). Penyedia infrastruktur baru, seperti LightSpark dan Alby Hub, juga mulai berproduksi.
+- **Pertumbuhan Adopsi Pedagang:** Pedagang seperti BitRefill melaporkan peningkatan pembayaran Bitcoin di antara pengguna aktif mereka, dengan pergeseran yang jelas ke arah Bitcoin daripada Lightning. Selain itu, biaya Lightning yang sangat rendah menjadikannya pilihan yang lebih disukai untuk pembayaran kecil (rata-rata €32 per transaksi).
 
-![BIZ101-profiles](assets/en/30.webp)
+![BIZ101-profiles](assets/id/029.webp)
 
 *[Sumber: Peta BTC](https://btcmap.org/)*
 
 
-- Metrik Jaringan:** Jumlah total saluran dan Bitcoin yang terkunci di Lightning tetap stabil, dengan sekitar 20.000 node, 5.200 BTC, dan 60.000 saluran. Namun, ini hanya mencerminkan sebagian dari jaringan dan mengindikasikan adanya rotasi di antara para peserta, dengan lebih sedikit individu dan lebih banyak profesional yang ikut serta.
-- Lightning sebagai Jembatan Antar Jaringan:** Efisiensi dan ketersediaan Lightning Network telah memposisikannya sebagai jembatan ke jaringan lain yang saling terhubung (mis., FediMint, Liquid, dll.).
+- **Metrik Jaringan:** Jumlah total saluran dan Bitcoin yang terkunci di Lightning tetap stabil, dengan sekitar 20.000 node, 5.200 BTC, dan 60.000 saluran. Namun, ini hanya mencerminkan sebagian dari jaringan dan mengindikasikan adanya rotasi di antara para peserta, dengan lebih sedikit individu dan lebih banyak profesional yang ikut serta.
+- **Lightning sebagai Jembatan Antar Jaringan:** Efisiensi dan ketersediaan Lightning Network telah memposisikannya sebagai jembatan ke jaringan lain yang saling terhubung (mis., FediMint, Liquid, dll.).
 
 **Kembalinya Dompet**
 
 Bitcoin dan Lightning Network sedang menyelesaikan revolusi dompet digital. Layanan web baru sekarang memungkinkan **transaksi tanpa perlu membuat akun** - dompet Anda menjadi identitas Anda! Dengan protokol seperti **Nostr Wallet Connect (NWC) ** dan **LN-URL-AUTH**, dompet dapat mengautentikasi pengguna dengan mulus dan memungkinkan transaksi tanpa akun tradisional. Lewatlah sudah hari-hari dimana akun Anda akan cepat habis untuk pembelian atau langganan sederhana. Tidak perlu lagi memberikan informasi pribadi atau pembayaran yang dapat diretas dan dijual di web gelap, seperti yang sering kita lihat dari kejadian-kejadian belakangan ini.
 
-![BIZ101](assets/en/10.webp)
+![BIZ101](assets/id/030.webp)
 
 Merchant masa depan akan merangkul inovasi ini, menawarkan pengalaman yang lebih aman, lebih mulus (sekali klik) dan juga menghormati privasi mereka.
 
@@ -1061,8 +1063,8 @@ Konsekuensi terpenting yang perlu diingat adalah, di sebagian besar yurisdiksi, 
 Aspek lain dari akuntansi Bitcoin adalah membedakan antara dua jenis keuntungan modal:
 
 
-- Keuntungan/Kerugian Laten:** Keuntungan atau kerugian yang belum direalisasikan berdasarkan nilai Bitcoin yang dimiliki pada akhir periode akuntansi.
-- Keuntungan/Kerugian Efektif:** Keuntungan atau kerugian yang direalisasikan ketika Bitcoin dijual atau ditukar selama tahun fiskal.
+- **Keuntungan/Kerugian Laten:** Keuntungan atau kerugian yang belum direalisasikan berdasarkan nilai Bitcoin yang dimiliki pada akhir periode akuntansi.
+- **Keuntungan/Kerugian Efektif:** Keuntungan atau kerugian yang direalisasikan ketika Bitcoin dijual atau ditukar selama tahun fiskal.
 
 Perhitungan ini sangat bergantung pada apakah Bitcoin disimpan untuk investasi jangka panjang atau penggunaan operasional jangka pendek. Selain itu, perusahaan harus menyelaraskan praktik akuntansi mereka dengan struktur pajak lokal, karena peraturan sangat bervariasi di setiap negara.
 
@@ -1086,7 +1088,7 @@ Ini akan memungkinkan Anda nantinya dapat menghitung selisihnya untuk menentukan
 
 Proses ini harus diulang untuk setiap transaksi, dan sifat harga Bitcoin yang berfluktuasi membuat pencatatan menjadi lebih rumit.
 
-**Bagaimana Cara Kerjanya Jika Bitcoin Menjadi Mata Uang?
+**Bagaimana Cara Kerjanya Jika Bitcoin Menjadi Mata Uang?**
 
 Jika Bitcoin diperlakukan sebagai mata uang, perusahaan akan mengelolanya seperti mata uang lainnya dalam sistem akuntansi mereka. Daripada melacak dasar biaya dan keuntungan yang direalisasi/belum direalisasi untuk setiap transaksi, kepemilikan Bitcoin hanya akan dicatat dalam akun mata uang. Pada akhir setiap periode pelaporan, nilai semua kepemilikan mata uang, termasuk Bitcoin, akan dikonversi ke mata uang akuntansi (misalnya, USD atau EUR) dengan menggunakan nilai tukar saat ini.
 
@@ -1113,9 +1115,9 @@ Perlakuan hukum dan akuntansi Bitcoin berbeda secara signifikan antara individu 
 Untuk bisnis, Bitcoin dapat diklasifikasikan ke dalam berbagai akun tergantung pada tujuan penggunaannya:
 
 
-- Aset Tetap:** Untuk Bitcoin yang disimpan dalam jangka panjang sebagai investasi strategis.
-- Saham:** Untuk Bitcoin yang digunakan dalam proses produksi (kasus penggunaan yang jarang terjadi, contohnya untuk trader profesional).
-- Rekening Kas atau Treasury:** Untuk Bitcoin yang disimpan sebagai aset likuid, terutama untuk transaksi operasional atau manajemen treasury jangka pendek.
+- **Aset Tetap:** Untuk Bitcoin yang disimpan dalam jangka panjang sebagai investasi strategis.
+- **Saham:** Untuk Bitcoin yang digunakan dalam proses produksi (kasus penggunaan yang jarang terjadi, contohnya untuk trader profesional).
+- **Rekening Kas atau Treasury:** Untuk Bitcoin yang disimpan sebagai aset likuid, terutama untuk transaksi operasional atau manajemen treasury jangka pendek.
 
 Pilihan klasifikasi tergantung pada aktivitas dan strategi perusahaan, yang berimplikasi pada pelaporan keuangan dan kewajiban pajak. Selalu periksa peraturan setempat, karena klasifikasi ini mungkin berbeda di setiap negara.
 
@@ -1126,16 +1128,16 @@ Pengakuan dan perlakuan hukum terhadap Bitcoin berbeda-beda di setiap yurisdiksi
 Di sebagian besar negara, Bitcoin dikategorikan sebagai aset digital, dan perlakuannya diatur oleh standar akuntansi umum. Bisnis harus memperhitungkan transaksi Bitcoin sebagai berikut:
 
 
-- Pencatatan Keuntungan/Rugi Modal:** Bisnis harus memperhitungkan keuntungan atau kerugian yang direalisasikan dalam hasil keuangan mereka.
-- Penilaian Keuntungan/Kerugian Laten:** Keuntungan atau kerugian yang belum direalisasi sering kali harus dilaporkan tetapi mungkin tidak secara langsung berdampak pada penghasilan kena pajak.
-- Kepatuhan terhadap Standar Akuntansi:** Bisnis harus mengintegrasikan transaksi Bitcoin ke dalam praktik pembukuan standar, untuk memastikan transparansi dan akurasi.
+- **Pencatatan Keuntungan/Rugi Modal:** Bisnis harus memperhitungkan keuntungan atau kerugian yang direalisasikan dalam hasil keuangan mereka.
+- **Penilaian Keuntungan/Kerugian Laten:** Keuntungan atau kerugian yang belum direalisasi sering kali harus dilaporkan tetapi mungkin tidak secara langsung berdampak pada penghasilan kena pajak.
+- **Kepatuhan terhadap Standar Akuntansi:** Bisnis harus mengintegrasikan transaksi Bitcoin ke dalam praktik pembukuan standar, untuk memastikan transparansi dan akurasi.
 
 Pendekatan akuntansi Bitcoin bervariasi sesuai dengan geografi:
 
 
-- Amerika Serikat:** IRS mengklasifikasikan Bitcoin sebagai **properti, mirip dengan saham, obligasi, atau real estat**. Klasifikasi ini berarti bahwa setiap transaksi yang melibatkan mata uang kripto, seperti menghasilkan, menjual, memperdagangkan, atau bahkan menggunakannya untuk melakukan pembelian, dapat menimbulkan peristiwa kena pajak dan keuntungannya akan dikenakan pajak capital gain.
-- Uni Eropa:** Negara-negara anggota umumnya memperlakukan Bitcoin sebagai aset spekulatif dan bukan sebagai mata uang fungsional. Oleh karena itu, keuntungan yang diperoleh sering kali dikenakan pajak capital gain.
-- Asia:** Negara-negara seperti Singapura dan Jepang telah mengadopsi kerangka kerja regulasi yang progresif, yang memperlakukan transaksi Bitcoin dengan baik dalam konteks tertentu. Namun Bitcoin umumnya dicatat sebagai aset berwujud, dan diukur pada nilai wajar pada tanggal pelaporan, dengan perubahan yang diakui dalam laba rugi.
+- Amerika Serikat: IRS mengklasifikasikan Bitcoin sebagai **properti, mirip dengan saham, obligasi, atau real estat**. Klasifikasi ini berarti bahwa setiap transaksi yang melibatkan mata uang kripto, seperti menghasilkan, menjual, memperdagangkan, atau bahkan menggunakannya untuk melakukan pembelian, dapat menimbulkan peristiwa kena pajak dan keuntungannya akan dikenakan pajak capital gain.
+- **Uni Eropa:** Negara-negara anggota umumnya memperlakukan Bitcoin sebagai aset spekulatif dan bukan sebagai mata uang fungsional. Oleh karena itu, keuntungan yang diperoleh sering kali dikenakan pajak capital gain.
+- **Asia:** Negara-negara seperti Singapura dan Jepang telah mengadopsi kerangka kerja regulasi yang progresif, yang memperlakukan transaksi Bitcoin dengan baik dalam konteks tertentu. Namun Bitcoin umumnya dicatat sebagai aset berwujud, dan diukur pada nilai wajar pada tanggal pelaporan, dengan perubahan yang diakui dalam laba rugi.
 
 Sangat penting untuk memahami peraturan di negara tempat Anda beroperasi dan menyesuaikan praktik akuntansi Anda.
 
@@ -1144,9 +1146,9 @@ Sangat penting untuk memahami peraturan di negara tempat Anda beroperasi dan men
 Laju inovasi mata uang kripto yang cepat sering kali melampaui kerangka kerja regulasi. Sejak Bitcoin diakui sebagai aset digital, regulasi global telah mengalami pembaruan bertahap, tetapi masih ada kesenjangan:
 
 
-- Kurangnya Yurisprudensi:** Beberapa kasus hukum telah mengklarifikasi praktik akuntansi tertentu, sehingga menyisakan ruang untuk interpretasi.
-- Perdebatan yang Sedang Berlangsung:** Isu-isu seperti perlakuan pajak atas kerugian laten masih belum terselesaikan di banyak yurisdiksi.
-- Kompleksitas Lintas Batas:** Perusahaan yang beroperasi secara internasional menghadapi tantangan untuk menyelaraskan standar akuntansi nasional yang berbeda.
+- **Kurangnya Yurisprudensi:** Beberapa kasus hukum telah mengklarifikasi praktik akuntansi tertentu, sehingga menyisakan ruang untuk interpretasi.
+- **Perdebatan yang Sedang Berlangsung:** Isu-isu seperti perlakuan pajak atas kerugian laten masih belum terselesaikan di banyak yurisdiksi.
+- **Kompleksitas Lintas Batas:** Perusahaan yang beroperasi secara internasional menghadapi tantangan untuk menyelaraskan standar akuntansi nasional yang berbeda.
 
 Terlepas dari tantangan-tantangan ini, sikap proaktif dari banyak negara memberikan dasar yang kuat bagi bisnis untuk memasukkan Bitcoin ke dalam operasi mereka. Pembaruan yang berkelanjutan dan harmonisasi internasional akan sangat penting untuk mengatasi kompleksitas yang muncul dalam akuntansi mata uang kripto.
 
@@ -1155,11 +1157,11 @@ Terlepas dari tantangan-tantangan ini, sikap proaktif dari banyak negara memberi
 Klasifikasi Bitcoin dalam laporan keuangan bervariasi menurut yurisdiksi dan tergantung pada tujuan penggunaannya dalam bisnis. Secara umum, Bitcoin diperlakukan sebagai aset digital, mirip dengan inventaris, investasi, atau mata uang, tetapi dengan karakteristik unik yang memengaruhi perlakuan akuntansinya.
 
 
-- Aset Digital atau Aset Tidak Berwujud**: Banyak yurisdiksi, termasuk Prancis dan Uni Eropa, mengklasifikasikan Bitcoin sebagai aset digital atau aset tidak berwujud, bukan sebagai alat pembayaran yang sah. Klasifikasi ini mengharuskan bisnis untuk memperhitungkan Bitcoin secara berbeda dari mata uang fiat.
-- Persediaan**: Jika aktivitas inti bisnis melibatkan perdagangan Bitcoin, seperti pertukaran mata uang kripto atau broker, Bitcoin diklasifikasikan sebagai persediaan. Dalam hal ini, penilaian mengikuti standar akuntansi persediaan.
-- Investasi Keuangan**: Perusahaan yang menyimpan Bitcoin sebagai aset jangka panjang dapat mengklasifikasikannya sebagai investasi keuangan. Sebagai contoh, di Amerika Serikat, perusahaan dapat memperhitungkan Bitcoin di bawah pedoman Financial Accounting Standards Board (FASB), yang mengakui penurunan nilai ketika nilai pasar menurun.
+- **Aset Digital atau Aset Tidak Berwujud**: Banyak yurisdiksi, termasuk Prancis dan Uni Eropa, mengklasifikasikan Bitcoin sebagai aset digital atau aset tidak berwujud, bukan sebagai alat pembayaran yang sah. Klasifikasi ini mengharuskan bisnis untuk memperhitungkan Bitcoin secara berbeda dari mata uang fiat.
+- **Persediaan**: Jika aktivitas inti bisnis melibatkan perdagangan Bitcoin, seperti pertukaran mata uang kripto atau broker, Bitcoin diklasifikasikan sebagai persediaan. Dalam hal ini, penilaian mengikuti standar akuntansi persediaan.
+- **Investasi Keuangan**: Perusahaan yang menyimpan Bitcoin sebagai aset jangka panjang dapat mengklasifikasikannya sebagai investasi keuangan. Sebagai contoh, di Amerika Serikat, perusahaan dapat memperhitungkan Bitcoin di bawah pedoman Financial Accounting Standards Board (FASB), yang mengakui penurunan nilai ketika nilai pasar menurun.
 
-*implikasi Klasifikasi :** * Implikasi Klasifikasi
+**Implikasi Klasifikasi:** Implikasi Klasifikasi
 
 
 - Kepemilikan jangka panjang sering kali memerlukan pengujian penurunan nilai dan amortisasi.
@@ -1170,8 +1172,8 @@ Klasifikasi Bitcoin dalam laporan keuangan bervariasi menurut yurisdiksi dan ter
 Metode penilaian adalah teknik akuntansi yang digunakan untuk menentukan dasar biaya Bitcoin, yang sangat penting untuk menghitung keuntungan atau kerugian secara akurat selama transaksi. Secara umum, yang terbaik adalah untuk selalu memperbarui nilai biaya kepemilikan Bitcoin saat ini dalam sistem akuntansi. Hal ini memastikan transparansi, kepatuhan terhadap peraturan pajak, dan mencegah terjadinya keterlambatan saat penghitungan perlu dilakukan.
 
 
-- Masuk Pertama, Keluar Pertama (FIFO) **: Metode ini umum digunakan di yurisdiksi seperti Australia dan India, metode ini menilai Bitcoin berdasarkan biaya akuisisi paling awal. Hal ini dapat menjadi sangat **kompleks** karena mungkin perlu melacak setiap pecahan bitcoin secara terpisah ketika terjadi penjualan.
-- Biaya Rata-rata Tertimbang (WAC) **: Sering kali lebih disukai untuk transaksi bervolume tinggi karena **kemudahannya**, seperti yang terlihat di negara-negara seperti Amerika Serikat.
+- **Masuk Pertama, Keluar Pertama (FIFO)**: Metode ini umum digunakan di yurisdiksi seperti Australia dan India, metode ini menilai Bitcoin berdasarkan biaya akuisisi paling awal. Hal ini dapat menjadi sangat **kompleks** karena mungkin perlu melacak setiap pecahan bitcoin secara terpisah ketika terjadi penjualan.
+- Biaya Rata-rata Tertimbang (WAC): Sering kali lebih disukai untuk transaksi bervolume tinggi karena **kemudahannya**, seperti yang terlihat di negara-negara seperti Amerika Serikat.
 
 Sangat disarankan untuk menyimpan buku kerja terperinci yang melacak biaya Bitcoin **sejak perusahaan mulai membeli Bitcoin atau menerimanya sebagai pembayaran** untuk memastikan pencatatan yang akurat dan terorganisir. Pertimbangan tersebut harus menjadi pertimbangan utama saat memilih solusi perangkat lunak untuk menerima pembayaran Bitcoin atau membeli Bitcoin.
 
@@ -1189,11 +1191,11 @@ Bisnis harus memastikan bahwa alat pembayaran apa pun yang mereka gunakan menyed
 ### Tantangan
 
 
-- Volatilitas**: Harga Bitcoin berfluktuasi secara signifikan, sehingga menimbulkan kesulitan dalam menilai kepemilikan dan memprediksi hasil keuangan di masa depan.
-- Pengawasan Regulasi**: Di negara-negara seperti Cina, status Bitcoin yang dibatasi membatasi penggunaannya sebagai aset keuangan.
-- Ketidakpastian Regulasi**: Lanskap regulasi Bitcoin yang terus berkembang sering kali membuat bisnis berada dalam ketidakpastian. Misalnya, perubahan kebijakan pajak, seperti yang terjadi di India atau Amerika Serikat, dapat berdampak pada praktik akuntansi dalam semalam.
-- Risiko Salah Kelola** : Klasifikasi yang tidak tepat atau kegagalan dalam memantau transaksi Bitcoin dapat menyebabkan masalah kepatuhan, penalti, atau kerusakan reputasi.
-- Risiko Kualifikasi Ulang**: Mempertahankan sebagian besar kas perusahaan dalam Bitcoin akan membuat bisnis terekspos pada potensi kerugian akibat penurunan harga. Hal ini dapat menimbulkan konsekuensi serius, terutama jika penurunan tersebut terjadi saat pembayaran kepada pemasok, karyawan, atau pajak jatuh tempo. Selain itu, pemilik perusahaan dapat dimintai pertanggungjawaban, yang dapat mengakibatkan denda atau masalah hukum lainnya, seperti tuduhan penyalahgunaan aset perusahaan.
+- **Volatilitas**: Harga Bitcoin berfluktuasi secara signifikan, sehingga menimbulkan kesulitan dalam menilai kepemilikan dan memprediksi hasil keuangan di masa depan.
+- **Pengawasan Regulasi**: Di negara-negara seperti Cina, status Bitcoin yang dibatasi membatasi penggunaannya sebagai aset keuangan.
+- **Ketidakpastian Regulasi**: Lanskap regulasi Bitcoin yang terus berkembang sering kali membuat bisnis berada dalam ketidakpastian. Misalnya, perubahan kebijakan pajak, seperti yang terjadi di India atau Amerika Serikat, dapat berdampak pada praktik akuntansi dalam semalam.
+- **Risiko Salah Kelola**: Klasifikasi yang tidak tepat atau kegagalan dalam memantau transaksi Bitcoin dapat menyebabkan masalah kepatuhan, penalti, atau kerusakan reputasi.
+- **Risiko Kualifikasi Ulang**: Mempertahankan sebagian besar kas perusahaan dalam Bitcoin akan membuat bisnis terekspos pada potensi kerugian akibat penurunan harga. Hal ini dapat menimbulkan konsekuensi serius, terutama jika penurunan tersebut terjadi saat pembayaran kepada pemasok, karyawan, atau pajak jatuh tempo. Selain itu, pemilik perusahaan dapat dimintai pertanggungjawaban, yang dapat mengakibatkan denda atau masalah hukum lainnya, seperti tuduhan penyalahgunaan aset perusahaan.
 
 ## Alat dan Perangkat Lunak Akuntansi
 
@@ -1209,7 +1211,7 @@ Ketika sebuah perusahaan memutuskan untuk mengintegrasikan Bitcoin ke dalam akun
 
 Mereka sering kali menjadi pelengkap yang bijaksana untuk organisasi besar dengan banyak dompet dan aset di berbagai platform atau bursa.
 
-![BIZ101](assets/en/31.webp)
+![BIZ101](assets/id/031.webp)
 
 Akan tetapi, sebuah file `.csv` sederhana yang berisi riwayat transaksi sering kali sudah cukup untuk sebagian besar bisnis kecil. Tujuannya adalah untuk mendokumentasikan, untuk setiap pembayaran, tanggal, jumlah, nilai yang setara dalam euro/dolar, dan alamat Bitcoin yang relevan. Sebagian besar solusi pembayaran Bitcoin (BTC Pay Server, Swiss Bitcoin Pay, dll.) atau platform bursa (Bitfinex, Kraken, Coinbase, dll.) sudah menawarkan mekanisme untuk mengekspor riwayat transaksi. Dengan memberikan file ini kepada seorang akuntan, maka akan memungkinkan untuk menyederhanakan entri data dan membedakan dengan jelas aliran masuk dan keluar yang berhubungan dengan Bitcoin.
 
@@ -1230,12 +1232,12 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 **Contoh**:
 
 
-- Nilai Konversi Bitcoin**: 1 Bitcoin = Rp 40.000.
-- Transaksi 1**: Pelanggan membeli beberapa kue kering seharga €20.
+- **Nilai Konversi Bitcoin**: 1 Bitcoin = Rp 40.000.
+- **Transaksi 1**: Pelanggan membeli beberapa kue kering seharga €20.
     - Setara dengan Bitcoin: (20 / 40.000) = 0,0005 Bitcoin = 50.000 Satoshi.
     - Biaya konversi: 1,5% (Rp20 × 0,015) = Rp0,30.
     - Penerimaan bersih: €20 - €0,30 = €19,70.
-- Transaksi 2**: Pelanggan membeli kopi seharga €5.
+- **Transaksi 2**: Pelanggan membeli kopi seharga €5.
     - Setara dengan Bitcoin: (5 / 40.000) = 0,000125 Bitcoin = 12.500 Satoshi.
     - Biaya konversi: 1,5% (€5 × 0,015) = €0,075.
     - Penerimaan bersih: €5 - €0,075 = €4,93.
@@ -1243,9 +1245,9 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 **Ringkasan Transaksi**:
 
 
-- Total Penjualan**: €25.
-- Total Biaya**: €0.375.
-- Euro Bersih yang Diterima**: €24.625.
+- **Total Penjualan**: €25.
+- **Total Biaya**: €0.375.
+- **Euro Bersih yang Diterima**: €24.625.
 
 **Implikasi Akuntansi**:
 
@@ -1261,8 +1263,8 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 **Contoh**:
 
 
-- Nilai Konversi Bitcoin**: 1 Bitcoin = Rp 40.000.
-- Transaksi dari pelanggan**: Pelanggan membeli kue kering seharga €50.
+- **Nilai Konversi Bitcoin**: 1 Bitcoin = Rp 40.000.
+- **Transaksi dari pelanggan**: Pelanggan membeli kue kering seharga €50.
     - Setara dengan Bitcoin: (50 / 40.000) = 0,00125 Bitcoin = 125.000 Satoshi.
     - Konversi (50%): Bitcoin senilai €25 = 0,000625 Bitcoin = 62.500 Satoshi.
         - Biaya konversi: 1,5% (€25 × 0,015) = €0,375.
@@ -1272,10 +1274,10 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 **Ringkasan**:
 
 
-- Total Penjualan**: €50.
-- Biaya**: €0.375.
-- Euro Bersih yang Diterima**: €24.625.
-- Bitcoin Ditahan**: 62.500 Satoshi.
+- **Total Penjualan**: €50.
+- **Biaya**: €0.375.
+- **Euro Bersih yang Diterima**: €24.625.
+- **Bitcoin Ditahan**: 62.500 Satoshi.
 
 **Implikasi Akuntansi**:
 
@@ -1292,10 +1294,10 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 **Contoh**:
 
 
-- Nilai Konversi Bitcoin pada saat Pembayaran**: 1 Bitcoin = Rp30.000.
-- Transaksi dari pelanggan**: Klien membayar layanan senilai €3.000.
+- **Nilai Konversi Bitcoin pada saat Pembayaran**: 1 Bitcoin = Rp30.000.
+- **Transaksi dari pelanggan**: Klien membayar layanan senilai €3.000.
     - Setara dengan Bitcoin: (3.000 / 30.000) = 0,1 Bitcoin = 10.000.000 Satoshi.
-- Penilaian Akhir Tahun**:
+- **Penilaian Akhir Tahun**:
     - Nilai Konversi Bitcoin pada Akhir Tahun: 1 Bitcoin = Rp35.000.
     - Penilaian Kepemilikan Bitcoin: 0.1 Bitcoin × Rp 35.000 = Rp 3.500.
     - Keuntungan yang belum direalisasi: €3.500 - €3.000 = €500.
@@ -1303,9 +1305,9 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 **Ringkasan**:
 
 
-- Jumlah Pendapatan yang Diakui**: €3.000.
-- Kepemilikan Bitcoin**: 0.1 Bitcoin bernilai €3.500 di neraca.
-- Keuntungan yang Belum Direalisasi**: €500 diungkapkan dalam catatan keuangan tetapi tidak direalisasikan sebagai pendapatan.
+- **Jumlah Pendapatan yang Diakui**: €3.000.
+- **Kepemilikan Bitcoin**: 0.1 Bitcoin bernilai €3.500 di neraca.
+- **Keuntungan yang Belum Direalisasi**: €500 diungkapkan dalam catatan keuangan tetapi tidak direalisasikan sebagai pendapatan.
 
 **Implikasi Akuntansi**:
 
@@ -1321,16 +1323,16 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 **Contoh**:
 
 
-- Pembelian Bitcoin dari pelanggan**:
+- **Pembelian Bitcoin dari pelanggan**:
     - Pembelian 1: Rp 2.000 dengan harga Rp 20.000/BTC = 0,1 Bitcoin = 10.000.000 Satoshi.
     - Pembelian 2: Rp 3.000 dengan harga Rp 25.000/BTC = 0,12 Bitcoin = 12.000.000 Satoshi.
     - Pembelian 3: Rp 5.000 dengan harga Rp 30.000/BTC = 0,1667 Bitcoin = 16.670.000 Satoshi.
-    - Total Bitcoin yang dimiliki**: 0.3867 Bitcoin = 38.670.000 Satoshi.
-- Penilaian Akhir Tahun**:
+- **Total Bitcoin yang dimiliki**: 0.3867 Bitcoin = 38.670.000 Satoshi.
+- **Penilaian Akhir Tahun**:
     - Harga Bitcoin di Akhir Tahun: Rp40.000/BTC.
     - Nilai Total: 0,3867 Bitcoin × Rp40.000 = Rp15.468.
     - Keuntungan yang belum direalisasi: €15.468 - €10.000 (total biaya) = €5.468.
-- Penjualan 50% Bitcoin**:
+- Penjualan 50% **Bitcoin**:
     - Bitcoin Terjual: 0,19335 Bitcoin.
     - Hasil Penjualan: 0.19335 Bitcoin × Rp 40.000 = Rp 7.734.000.
     - Dasar Biaya (Rata-rata Tertimbang):
@@ -1342,9 +1344,9 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 **Ringkasan**:
 
 
-- Sisa Bitcoin**: 0.19335 Bitcoin senilai Rp 7.734 (dengan harga Rp 40.000/BTC).
-- Keuntungan yang Direalisasikan**: €2.735 termasuk dalam laporan laba rugi.
-- Keuntungan yang Belum Direalisasi**: €5.468 diungkapkan dalam catatan keuangan (termasuk nilai yang belum direalisasikan dari Bitcoin yang tersisa).
+- **Sisa Bitcoin**: 0.19335 Bitcoin senilai Rp 7.734 (dengan harga Rp 40.000/BTC).
+- **Keuntungan yang Direalisasikan**: €2.735 termasuk dalam laporan laba rugi.
+- **Keuntungan yang Belum Direalisasi**: €5.468 diungkapkan dalam catatan keuangan (termasuk nilai yang belum direalisasikan dari Bitcoin yang tersisa).
 
 **Implikasi Akuntansi**:
 
@@ -1375,7 +1377,6 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

@@ -224,9 +224,9 @@ Le tristement célèbre tremblement de terre de Lisbonne, le 1er novembre 1755 m
 
 ![image](./assets/fr/2.2.4.webp)
 
-Ce terrible tremblement de terre détruisit la ville et tua des centaines de milliers de personnes innocentes, dont beaucoup étaient à l’église à ce moment-là, car il s’agissait du jour de la Pentecôte ce qui rajouta à l’incompréhension des rescapés.
+Ce terrible tremblement de terre détruisit la ville et tua des centaines de milliers de personnes innocentes, dont beaucoup étaient à l’église à ce moment-là, car il s’agissait du jour de la Toussaint ce qui rajouta à l’incompréhension des rescapés.
 
-Un drame qui raviva la question posée par le philosophe et mathématicien allemand Leibniz (1646-1716) sur la vision anthropomorphe d’un Dieu doué d’intention qui est bon et tout-puissant. Car si Dieu était bon, dit Leibnitz dans sa théodicée, alors il ne serait pas tout-puissant puisqu’il permettrait ce genre de catastrophe et s’il était tout-puissant, il ne serait alors pas bon non plus puisqu’il ne pourrait pas les empêcher.
+Un drame qui raviva la question posée par le philosophe et mathématicien allemand Leibniz (1646-1716) sur la vision anthropomorphe d’un Dieu doué d’intention qui est bon et tout-puissant. Car si Dieu était bon, dit Leibniz dans sa théodicée, alors il ne serait pas tout-puissant puisqu’il permettrait ce genre de catastrophe et s’il était tout-puissant, il ne serait alors pas bon non plus puisqu’il ne pourrait pas les empêcher.
 
 ![image](./assets/fr/2.2.5.webp)
 

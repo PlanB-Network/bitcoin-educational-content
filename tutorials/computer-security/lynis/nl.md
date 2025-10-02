@@ -22,7 +22,7 @@ ___
 
 
 
-**In deze tutorial leren we hoe we een beveiligingsaudit kunnen uitvoeren op een Linux machine met behulp van Lynis! Voor degenen die **Lynis,** niet kennen, het is een klein commandoregel hulpprogramma dat de configuratie van je server analyseert en aanbevelingen doet om **de beveiliging van je machine te verbeteren.**
+**In deze tutorial leren we hoe we een beveiligingsaudit kunnen uitvoeren op een Linux machine met behulp van Lynis!** Voor degenen die **Lynis** niet kennen, het is een klein commandoregel hulpprogramma dat de configuratie van je server analyseert en aanbevelingen doet om **de beveiliging van je machine te verbeteren.**
 
 
 
@@ -321,10 +321,10 @@ Vervolgens geeft Lynis een lijst met punten die overeenkomen met alles wat hij i
 
 
 
-- Rood** voor kritieke Elements of best practices die niet worden gerespecteerd (bijvoorbeeld een ontbrekend pakket), d.w.z. uw server respecteert dit punt niet
-- Geel** voor suggesties of gedeeltelijke naleving van de aanbeveling (laten we zeggen dat het een plus is om te voldoen aan een punt dat met deze kleur is gemarkeerd (niet-prioriteit))
-- Green** voor punten waar uw serverconfiguratie aan voldoet
-- Wit**, indien neutraal
+- **Rood** voor kritieke Elements of best practices die niet worden gerespecteerd (bijvoorbeeld een ontbrekend pakket), d.w.z. uw server respecteert dit punt niet
+- **Geel** voor suggesties of gedeeltelijke naleving van de aanbeveling (laten we zeggen dat het een plus is om te voldoen aan een punt dat met deze kleur is gemarkeerd (niet-prioriteit))
+- **Green** voor punten waar uw serverconfiguratie aan voldoet
+- **Wit**, indien neutraal
 
 
 
@@ -604,10 +604,10 @@ Informatie over de geïnstalleerde pakketten:
 
 
 
-- Clamav** is een antivirus.
-- unattend-upgrades** stelt je in staat om je updates automatisch te beheren en zelfs de machine opnieuw op te starten of oude pakketten automatisch te verwijderen, het is volledig configureerbaar.
-- rkhunter** is een anti-rootkit die je bestandssysteem scant.
-- Fail2ban** baseert zich op je logbestanden volgens wat je het geeft om te lezen en het werkt met **iptables**, bijvoorbeeld om IP-adressen te bannen die je server proberen te "brute-forcen" in SSH.
+- **Clamav** is een antivirus.
+- **unattend-upgrades** stelt je in staat om je updates automatisch te beheren en zelfs de machine opnieuw op te starten of oude pakketten automatisch te verwijderen, het is volledig configureerbaar.
+- **rkhunter** is een anti-rootkit die je bestandssysteem scant.
+- **Fail2ban** baseert zich op je logbestanden volgens wat je het geeft om te lezen en het werkt met **iptables**, bijvoorbeeld om IP-adressen te bannen die je server proberen te "brute-forcen" in SSH.
 
 
 
@@ -820,7 +820,7 @@ Laten we tot slot niet vergeten om de **Lynis audit score** te controleren! We z
 
 
 
-**Met andere woorden, hoe hoger de score, hoe beter! Daarom moet je aan je configuratie werken om de hoogst mogelijke score te behalen, terwijl je machine en gehoste services normaal kunnen functioneren (wat betekent dat je functionele tests moet uitvoeren).
+**Met andere woorden, hoe hoger de score, hoe beter!** Daarom moet je aan je configuratie werken om de hoogst mogelijke score te behalen, terwijl je machine en gehoste services normaal kunnen functioneren (wat betekent dat je functionele tests moet uitvoeren).
 
 
 
@@ -896,4 +896,4 @@ Tenslotte kun je **Lynis** ook vergelijken met andere tools, waarvan er verschil
 
 
 
-**Deze les is afgelopen, veel plezier met Lynis!
+**Deze les is afgelopen, veel plezier met Lynis!**

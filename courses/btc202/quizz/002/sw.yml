@@ -1,0 +1,9 @@
+question: Ni hifadhidata gani ambayo nodi ya Bitcoin huweka ndani ili kufuatilia matokeo ambayo hayajatumika?
+answer: Seti ya UTXO
+wrong_answers:
+  - Sehemu ya Mempool
+  - Sehemu ya Blockchain
+  - Historia ya Wallet
+explanation: |
+  Nodi huweka seti ya UTXO, ambayo ni seti ya matokeo ambayo hayajatumika yanayopatikana kwa shughuli za siku zijazo.
+reviewed: true

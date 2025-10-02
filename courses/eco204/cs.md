@@ -427,13 +427,13 @@ Toto zamyšlení nás vede k otázce tuhosti tradiční definice hyperinflace a 
 ### Definice hyperinflace podle Mezinárodní rady pro účetní standardy (IASB)
 
 Tak kolik případů hyperinflace celkem existuje?
-Běžné definice hyperinflace, jako je ta, kterou předložil Kagan s měsíční inflační sazbou 50%, mohou být někdy matoucí nebo zjednodušené. Například dva státy zažívající vlastní roční inflační sazby 1 000% a 3 000% mohou být vnímány odlišně v závislosti na měsíční distribuci této inflace. Pokud žádný měsíc nepřekročí práh 50% podle definice Kagana, tyto země by se nenacházely ve stavu hyperinflace. Tento přístup tedy může vést k anomáliím v klasifikaci hyperinflace, zejména při srovnávání kumulativních inflací během roku.
+Běžné definice hyperinflace, jako je ta, kterou předložil Cagan s měsíční inflační sazbou 50%, mohou být někdy matoucí nebo zjednodušené. Například dva státy zažívající vlastní roční inflační sazby 1 000% a 3 000% mohou být vnímány odlišně v závislosti na měsíční distribuci této inflace. Pokud žádný měsíc nepřekročí práh 50% podle definice Cagana, tyto země by se nenacházely ve stavu hyperinflace. Tento přístup tedy může vést k anomáliím v klasifikaci hyperinflace, zejména při srovnávání kumulativních inflací během roku.
 
-- Kaganova práce "Monetary Dynamics of Hyperinflation", která poskytuje základní analýzu hyperinflace.
-- Bernoldova kniha, která studuje 30 odlišných období hyperinflace, čímž rozšiřuje rozsah analýzy.
+- Caganova práce "Monetary Dynamics of Hyperinflation", která poskytuje základní analýzu hyperinflace.
+- Bernholzova kniha, která studuje 30 odlišných období hyperinflace, čímž rozšiřuje rozsah analýzy.
 - Davidova osobní sbírka bankovek z 36 období hyperinflace, což umožňuje hmatatelné a historické pochopení.
-- Tabulka Hanky Cross (verze z roku 2012, aktualizovaná v roce 2016 o Venezuelu), uvádějící 57 období hyperinflace podle definice Kagana.
-  Je třeba poznamenat, že určitá historická období vysoké inflace nejsou zahrnuta v klasických tabulkách hyperinflace, často kvůli přísným kritériím klasifikace. Například během Americké války za nezávislost v listopadu 1779 a během Americké občanské války v březnu 1864 byly měsíční míry inflace 47,4 % a 40 %. Tyto míry, ačkoli vysoké, nepřekračují prahovou hodnotu 50 % stanovenou Kaganem, a tím vylučují tyto období z klasifikace jako případy hyperinflace. Tato opomenutí ilustrují omezení rigidních definic a zdůrazňují potřebu nuancovanějšího přístupu k pochopení hyperinflace ve všech jejích složitostech.
+- Tabulka Hanky Cross (verze z roku 2012, aktualizovaná v roce 2016 o Venezuelu), uvádějící 57 období hyperinflace podle definice Cagana.
+  Je třeba poznamenat, že určitá historická období vysoké inflace nejsou zahrnuta v klasických tabulkách hyperinflace, často kvůli přísným kritériím klasifikace. Například během Americké války za nezávislost v listopadu 1779 a během Americké občanské války v březnu 1864 byly měsíční míry inflace 47,4 % a 40 %. Tyto míry, ačkoli vysoké, nepřekračují prahovou hodnotu 50 % stanovenou Caganem, a tím vylučují tyto období z klasifikace jako případy hyperinflace. Tato opomenutí ilustrují omezení rigidních definic a zdůrazňují potřebu nuancovanějšího přístupu k pochopení hyperinflace ve všech jejích složitostech.
 
 ## Weimar vs Zimbabwe podobnosti
 
@@ -729,7 +729,7 @@ Na snímku, na levé straně, jsou roky redenominace, název nové měny a směn
 
 ![image](assets/fr/052.webp)
 
-Na pravé straně snímku je graf inflace. Červené šipky reprezentují roky hyperinflace, definované podle Kaganova kritéria jako inflační míra 50 % za měsíc. Toto kritérium někdy může vést k nejednoznačným interpretacím, s roky majícími vysokou inflační míru, ale nesplňujícími striktní definici hyperinflace.
+Na pravé straně snímku je graf inflace. Červené šipky reprezentují roky hyperinflace, definované podle Caganova kritéria jako inflační míra 50 % za měsíc. Toto kritérium někdy může vést k nejednoznačným interpretacím, s roky majícími vysokou inflační míru, ale nesplňujícími striktní definici hyperinflace.
 Je třeba poznamenat, že redenominace, během období inflace, je běžným opatřením přijímaným vládami. Nicméně toto neřeší základní problém inflace nebo hyperinflace. Je to pouze způsob, jak přejmenovat měnu a odstranit nuly, aniž by se skutečně řešila základní příčina hyperinflace: expanze peněžní zásoby. V pozdějším videu budeme diskutovat o skutečných řešeních pro řešení a vyřešení problému hyperinflace. V této sérii zdůrazníme důsledky jednoduché redenominace bez adekvátních reforem: inflace přetrvává.
 Po Argentině se naše studie zaměří na Brazílii, Bolívii, Peru, Nikaraguu a Venezuelu. Budeme zkoumat redenominace, které v těchto zemích proběhly.
 
@@ -827,14 +827,14 @@ Závěrem, hyperinflace je jen jeden aspekt ekonomických výzev. Vysoká inflac
 
 ### Jak ukončit mírnou a vysokou inflaci
 
-Závěry uvedené jsou čerpány z knihy "Monetary Regime and Inflation" od Bernolda. Podle Bernolda jediným způsobem, jak ukončit inflaci, je provést měnovou reformu a uložit vládě omezení. Tato omezení zahrnují zřízení instituce, jako je centrální banka, která funguje nezávisle na politických rozhodnutích vlády. Vysoká a hyperinflace jsou často výsledkem financování rozpočtových schodků prostřednictvím tvorby peněz. Pro řešení mírné inflace je nezbytné snížit růst peněžní zásoby. Bernold také naznačuje, že tento růst peněžní zásoby by měl být relativní vůči sousedním zemím. Překvapivým bodem je, že během období vysoké nebo hyperinflace může celková hodnota peněžní zásoby ve skutečnosti klesnout. Nápadným příkladem této situace je Zimbabwe.
+Závěry uvedené jsou čerpány z knihy "Monetary Regime and Inflation" od Bernholza. Podle Bernholza jediným způsobem, jak ukončit inflaci, je provést měnovou reformu a uložit vládě omezení. Tato omezení zahrnují zřízení instituce, jako je centrální banka, která funguje nezávisle na politických rozhodnutích vlády. Vysoká a hyperinflace jsou často výsledkem financování rozpočtových schodků prostřednictvím tvorby peněz. Pro řešení mírné inflace je nezbytné snížit růst peněžní zásoby. Bernholz také naznačuje, že tento růst peněžní zásoby by měl být relativní vůči sousedním zemím. Překvapivým bodem je, že během období vysoké nebo hyperinflace může celková hodnota peněžní zásoby ve skutečnosti klesnout. Nápadným příkladem této situace je Zimbabwe.
 
 ### Intuitivně protichůdná řešení
 
 Při studiu Zimbabwe bylo zjištěno, že 10 bilionů jednotek peněžní zásoby ztratilo veškerou svou hodnotu. Ve Výmarské republice bylo možné v jediném dni vytisknout dvě třetiny celkové nominální hodnoty 65 miliard jednotek peněžní zásoby. To ukazuje, jak může být peněžní zásoba znehodnocena. Aby se situace napravila, je nutné peněžní zásobu výrazně zvýšit, aby dosáhla vhodné úrovně. Poté je nezbytná měnová reforma. V situaci vysoké inflace je tato reforma nevyhnutelná, ale musí zajistit, že v oběhu bude dostatek peněz. Po tomto kroku mohou být vládě uložena omezení.
-Podle pozorování Bernolda, pokud jde o řešení problémů s inflací, instituce jako MMF a Světová banka ne vždy přijímají správnou strategii. V některých případech, kdy země potřebuje zvýšit svou peněžní zásobu, tyto instituce usilují o její snížení. Klíčem je dosáhnout adekvátní úrovně peněžní zásoby a poté omezit její růst, čímž se vyhne financování vládních výdajů prostřednictvím tvorby peněz.
+Podle pozorování Bernholza, pokud jde o řešení problémů s inflací, instituce jako MMF a Světová banka ne vždy přijímají správnou strategii. V některých případech, kdy země potřebuje zvýšit svou peněžní zásobu, tyto instituce usilují o její snížení. Klíčem je dosáhnout adekvátní úrovně peněžní zásoby a poté omezit její růst, čímž se vyhne financování vládních výdajů prostřednictvím tvorby peněz.
 
-Zajímavým aspektem, který Bernold zdůraznil, je, že úspěch měnové reformy závisí nejen na její technické relevanci, ale také na důvěře, kterou v ni vkládá populace. Některé dobře navržené reformy mohou selhat, protože veřejnost jim nedůvěřuje, zatímco jiné, špatně navržené, mohou uspět, protože populace jim důvěřuje. Vnímání a veřejná důvěra jsou tedy zásadními prvky úspěchu nebo neúspěchu měnové reformy.
+Zajímavým aspektem, který Bernholz zdůraznil, je, že úspěch měnové reformy závisí nejen na její technické relevanci, ale také na důvěře, kterou v ni vkládá populace. Některé dobře navržené reformy mohou selhat, protože veřejnost jim nedůvěřuje, zatímco jiné, špatně navržené, mohou uspět, protože populace jim důvěřuje. Vnímání a veřejná důvěra jsou tedy zásadními prvky úspěchu nebo neúspěchu měnové reformy.
 
 - V Zimbabwe bylo přijaté řešení proti inflaci dollarizace, což znamená, že přijali americký dolar nebo jiné měny sousedních zemí. Tento přístup brání vládě v libovolném tisku peněz.
 - V Německu bylo řešením vytvoření nové měny, Rentenmark. Tato měna byla kryta teritoriálními aktivy Říše, a tato strategie se ukázala být účinná.

@@ -1,0 +1,9 @@
+question: 사이퍼펑크의 창립 멤버인 존 길모어는 2009년 1월 Satoshi 나카모토의 발명품에 대해 어떤 비판을 했나요?
+answer: Bitcoin은 지구를 오염시킵니다
+wrong_answers:
+  - Bitcoin는 탈세를 용이하게 합니다
+  - Bitcoin는 시빌 공격에 취약합니다
+  - Bitcoin는 디플레이션
+explanation: |
+  그는 [비판](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin가 전기를 소비하고 이산화탄소(온실가스)를 발생시킨다고 비판했습니다.
+reviewed: true

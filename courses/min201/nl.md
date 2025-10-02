@@ -93,7 +93,7 @@ Klaar om de wereld van Bitcoin Mining te ontdekken en de praktische uitdaging va
 Om het concept van Mining op een vereenvoudigde manier uit te leggen, kan een relevante analogie gebruikt worden: die van een puzzel. Net als een puzzel, is Mining een complexe taak om uit te voeren, maar gemakkelijk te verifiëren eens voltooid. In de context van Bitcoin Mining streven mijnwerkers ernaar om snel een digitale puzzel op te lossen. De eerste Miner die de puzzel oplost, presenteert zijn oplossing aan het hele netwerk, dat dan gemakkelijk de geldigheid ervan kan verifiëren. Deze succesvolle verificatie stelt de Miner in staat om een nieuw blok te valideren en toe te voegen aan de Bitcoin Timechain. Als erkenning voor hun werk, dat aanzienlijke kosten met zich meebrengt, wordt de Miner beloond met een bepaald aantal bitcoins. Deze beloning dient als een financiële stimulans voor miners om hun werk voort te zetten om transacties te valideren en het Bitcoin netwerk te beveiligen.
 
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 
 Aanvankelijk was de beloning in het Bitcoin netwerk 50 bitcoins per tien minuten, parallel aan de ontdekking van gemiddeld elke tien minuten een blok door miners. Deze beloning ondergaat een Halving elke 210.000 blokken, ongeveer elke vier jaar. Deze beloning dient als een krachtige stimulans om miners aan te moedigen deel te nemen aan het Mining proces, ondanks de energiekosten. Zonder een beloning zou het elektriciteitsintensieve Mining verlaten worden, wat de veiligheid en stabiliteit van het hele Bitcoin netwerk in gevaar brengt.
@@ -110,7 +110,7 @@ Het Mining proces bestaat uit het vinden van een geldige Hash die acceptabel is 
 In het begin domineerde het CPU-tijdperk, waarin mijnwerkers hun pc's gebruikten voor Bitcoin Mining. De ontdekking van de voordelen van GPU's (grafische kaarten) voor deze taak betekende een ommekeer. De ontdekking van de voordelen van GPU's (grafische kaarten) voor deze taak betekende een keerpunt, waarbij de Hashrate aanzienlijk werd verhoogd en het energieverbruik werd verlaagd. De vooruitgang stopte daar niet, met de daaropvolgende introductie van FPGA's (field-programmable gate arrays). FPGA's dienden als platform voor de ontwikkeling van ASIC's (toepassingsspecifieke geïntegreerde schakelingen).
 
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 
 ASIC's zijn chips, vergelijkbaar met een CPU-chip, maar ze zijn ontwikkeld om slechts één specifiek type berekening zo efficiënt mogelijk uit te voeren. Met andere woorden, een CPU kan een groot aantal verschillende soorten berekeningen uitvoeren zonder speciaal geoptimaliseerd te zijn voor het ene of het andere type berekening, terwijl een ASIC slechts één soort berekening kan uitvoeren, maar dan zeer efficiënt. In het geval van Bitcoin ASIC's zijn ze ontworpen voor de berekening van het SHA256 algoritme.
@@ -127,7 +127,7 @@ Om de intensiteit van dit proces te illustreren, bekijk een typische Miner die 1
 Moeilijkheidsaanpassing is een cruciaal mechanisme in de werking van het Bitcoin netwerk, dat ervoor zorgt dat blokken gemiddeld elke 10 minuten worden gedolven. Deze duur is een gemiddelde, omdat het Mining proces eigenlijk een kansspel is, vergelijkbaar met dobbelen in de hoop een getal te krijgen dat lager is dan het getal dat door de moeilijkheidsgraad wordt gedefinieerd. Om de 2016 blokken past het netwerk de Mining moeilijkheidsgraad aan op basis van de gemiddelde tijd die nodig was om de vorige blokken te delven. Als de gemiddelde tijd meer dan 10 minuten is, wordt de moeilijkheidsgraad verlaagd en omgekeerd, als de gemiddelde tijd lager is, wordt de moeilijkheidsgraad verhoogd. Dit aanpassingsmechanisme zorgt ervoor dat de Mining tijd voor nieuwe blokken constant blijft in de tijd, ongeacht het aantal miners of de totale rekenkracht van het netwerk. Daarom wordt de Bitcoin Blockchain ook de Timechain genoemd.
 
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 
 
@@ -145,7 +145,7 @@ Wat de evolutie van Bitcoin Mining machines betreft, is het belangrijk op te mer
 Geconfronteerd met constante technologische ontwikkelingen op het gebied van Mining, moeten professionals zich strategisch positioneren. De Mining industrie is onderhevig aan voortdurende innovaties, zoals blijkt uit de recente release van de J-versie van de S19 en de verwachte release van de S19 XP, die aanzienlijk hogere Mining capaciteiten biedt. Bovendien hebben verbeteringen niet alleen betrekking op de ruwe prestaties van de machines. Het nieuwe S19 XP-model maakt bijvoorbeeld gebruik van een Liquid koelsysteem, een technische aanpassing die een aanzienlijke verbetering van de energie-efficiëntie mogelijk maakt. Hoewel innovatie een constante blijft, zullen toekomstige efficiëntiewinsten waarschijnlijk kleiner zijn in vergelijking met de tot nu toe waargenomen winsten, vanwege het bereiken van een bepaalde drempel van technologische innovatie.
 
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 
 Concluderend kan worden gesteld dat de Bitcoin Mining industrie zich blijft aanpassen en ontwikkelen, en dat de spelers in de industrie moeten anticiperen op afnemende efficiëntiewinsten in de toekomst en hun strategieën dienovereenkomstig moeten aanpassen. Toekomstige technologische vooruitgang is weliswaar nog steeds aanwezig, maar zal waarschijnlijk op kleinere schaal plaatsvinden, wat de toenemende volwassenheid van de sector weerspiegelt.
@@ -163,7 +163,7 @@ Concluderend kan worden gesteld dat de Bitcoin Mining industrie zich blijft aanp
 Op dit moment is Bitcoin Mining uitgegroeid tot een serieuze en substantiële industrie, met veel spelers die nu publiekelijk bekend zijn en een toenemend aantal belangrijke miners. Deze evolutie heeft Mining bijna ontoegankelijk gemaakt voor kleine spelers, vanwege de hoge kosten die gepaard gaan met de aanschaf van nieuwe Mining machines. Dit roept de vraag op naar de verdeling van Hashrate onder verschillende spelers op de markt. De situatie is complex, omdat het essentieel is om zowel de verdeling van Hashrate over verschillende bedrijven als over verschillende Mining pools te onderzoeken.
 
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 
 Een Mining pool is een groep mijnwerkers die hun rekenkracht combineren om hun kansen op Mining te vergroten. Deze samenwerking is nodig omdat een geïsoleerde kleine Mining machine het opneemt tegen reuzen uit de industrie, waardoor de kans op succes tot een verwaarloosbaar niveau wordt gereduceerd. Mining werkt op een loterijprincipe en de kansen om elke tien minuten een blok (en dus de Bitcoin beloning) te winnen, zijn extreem laag voor een individuele kleine Miner. Door samen te werken, kunnen mijnwerkers een blok winnen. Door samen te werken, kunnen mijners hun rekenkracht combineren, vaker blokken vinden en dan de beloningen evenredig verdelen met de bijdrage van elke Miner aan de pool.
@@ -210,7 +210,7 @@ Mining centralisatie wordt gezien als een grote uitdaging. Grote spelers, zoals 
 Risico van regelgeving Er wordt benadrukt dat als een land als de Verenigde Staten zou besluiten om bepaalde Bitcoin transacties te reguleren of te verbieden, dit een aanzienlijke impact zou kunnen hebben op het netwerk, vooral als een groot deel van de hashing macht in dat land gecentraliseerd is.
 
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 
 Om deze centralisatie tegen te gaan, worden verschillende strategieën besproken:
@@ -248,7 +248,7 @@ Het Attakai initiatief komt voort uit een persoonlijk thuis-Mining experiment ui
 Na de presentatie van hun project aan de Bitcoin gemeenschap en de interesse die het opwekte, besloten de uitvinders van Attakai gedetailleerde gidsen te publiceren op het Découvre Bitcoin platform, zodat iedereen hun thuis-Mining ervaring kon nabootsen. Ze zijn nu van plan om dit concept uit te breiden tot buiten de huiselijke omgeving. Het doel is om te laten zien hoe een gemodificeerde Miner kan worden omgevormd tot een stille bijverwarming die 's winters kan worden gebruikt, zodat er een soepele overgang ontstaat naar een tweede deel van de training, gericht op de praktische implementatie van deze modificaties, geïllustreerd door video's met uitleg. De vraag blijft echter of dit initiatief op grotere schaal kan worden uitgebreid en een realistisch en duurzaam alternatief kan bieden voor de huidige gecentraliseerde Mining structuren.
 
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 
 ### De grens van deze decentralisatie?
@@ -284,7 +284,7 @@ Wat betreft de vraag wat er in een Bitcoin blok moet zitten, is het cruciaal om 
 Met de verwachte groei van de Lightning Network en de daaruit voortvloeiende toename van kanaalopeningen en -sluitingen, zal ruimte in Bitcoin-blokken steeds waardevoller worden. De Bitcoin gemeenschap heeft al de neiging om waarde te hechten aan het behoud van deze ruimte en erkent de intrinsieke beperking ervan. Dit bewustzijn heeft geleid tot discussies over het legitieme gebruik van blokruimte, met zorgen over "spam" op Blockchain van transacties die als niet-essentieel worden beschouwd.
 
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 
 Er wordt gespeculeerd over het toekomstig gebruik van blokruimte, maar algemeen wordt aangenomen dat het een schaarse bron is die verstandig gebruikt moet worden. Hoewel er een verlangen is om het te vullen, is het essentieel om het te behouden om de levensvatbaarheid van het Bitcoin netwerk op de lange termijn te garanderen, anticiperend op een toekomstige toename in de vraag naar blokruimte. Zoals in elke vrije markt zullen Supply en de vraag het gebruik van blokruimte reguleren. Met beperkte Supply zullen belanghebbenden weloverwogen keuzes moeten maken over het gebruik van deze waardevolle ruimte om de efficiëntie en veiligheid van het Bitcoin netwerk op lange termijn te garanderen.
@@ -305,7 +305,7 @@ De rol van miners in het Bitcoin netwerk is een onderwerp van intense discussie 
 Tijdens de block size wars waren veel miners tegen bepaalde ontwikkelingen in het netwerk, wat de spanning tussen verschillende actoren in het ecosysteem benadrukt. De vraag blijft hoe de macht tussen miners, nodes en gebruikers gebalanceerd kan worden om de veiligheid van Bitcoin op lange termijn te garanderen.
 
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 
 Het veiligheidsdilemma van Bitcoin berust op een delicaat evenwicht. Terwijl miners een cruciale rol spelen in het valideren en creëren van blokken, handhaven nodes de integriteit door transacties en blokken te verifiëren en valideren. Een onjuist of frauduleus blok wordt door de nodes afgewezen, waardoor Miner gecensureerd wordt en de veiligheid van het netwerk behouden blijft. De macht ligt ook bij de knooppunten en gebruikers van het Bitcoin netwerk. Nodes hebben de macht om te verifiëren en valideren, terwijl gebruikers de macht hebben om te kiezen welke Blockchain ze willen gebruiken. Deze machtsverdeling zorgt voor de distributie en integriteit van het Bitcoin netwerk.
@@ -323,7 +323,7 @@ Uiteindelijk wordt de verantwoordelijkheid gedeeld door alle actoren in het Bitc
 Satoshi Nakamoto's elegante speltheorie creëerde een situatie waarin elke speler in het Bitcoin netwerk gestimuleerd wordt om correct te handelen om zowel hun eigen belangen als die van andere deelnemers te beschermen. Dit creëert een evenwicht waarbij slecht gedrag kan worden bestraft, waardoor de veiligheid en stabiliteit van het hele systeem worden verbeterd. Ondanks dit evenwicht blijven staten een potentiële bedreiging. Zoals aangegeven in de presentatie op Surfing Bitcoin 2022, kunnen staten proberen de Mining industrie aan te vallen, waardoor het Bitcoin netwerk blootgesteld wordt aan risico's van centralisatie en aanvallen. Hypothetische scenario's, zoals een militaire aanval gericht op Mining productiefaciliteiten voor hardware, benadrukken het belang van geografische en industriële diversificatie voor de veerkracht van het Mining netwerk.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 
 De centralisatie van de Mining-hardwareproductie in China vormt een ander risico. Een weigering om Mining machines te exporteren of een accumulatie van Hashrate voor een potentiële 51% aanval door China onderstreept de noodzaak voor een gediversifieerde Mining hardwareproductie. Als antwoord op deze risico's onderzoekt de Bitcoin gemeenschap actief oplossingen. Bedrijven zoals Intel overwegen om Mining apparatuur in de Verenigde Staten te produceren en dragen zo bij aan de distributie van de productie. Andere initiatieven, zoals Block's open-source Mining Development Kit (MDK), hebben als doel het monopolie van Mining hardwareontwerp en -productie te verminderen, waardoor een bredere distributie van Hashrate mogelijk wordt. In het hart van deze discussies ligt de fundamentele missie van Bitcoin: een censuurbestendig waardevol Exchange netwerk zijn. De Bitcoin gemeenschap streeft voortdurend naar versterking van distributie, weerstand tegen censuur en antifragiliteit van het netwerk, en verwerpt voorstellen zoals de overgang naar proof of stake, die niet in lijn liggen met deze fundamentele principes.
@@ -335,7 +335,7 @@ De centralisatie van de Mining-hardwareproductie in China vormt een ander risico
 Proof of Work (PoW) is essentieel omdat het de fysieke link tussen de echte wereld en Bitcoin vertegenwoordigt. Hoewel bitcoins immaterieel zijn, vereist hun productie tastbare energie, waardoor een directe verbinding met de fysieke en echte wereld ontstaat. Deze verbinding zorgt ervoor dat de productie en validatie van bitcoins en blokken een echte energiekost heeft, waardoor het Bitcoin netwerk verankerd wordt in de fysieke realiteit en de volledige overheersing ervan door machtige entiteiten wordt voorkomen. PoW fungeert als een bolwerk tegen centralisatie, door ervoor te zorgen dat deelname aan het netwerk en validatie van transacties een investering in tastbare middelen vereisen. Dit voorkomt monopolisering van het netwerk door entiteiten die anders de controle zouden kunnen overnemen zonder enige significante toetredingsdrempel, en zorgt zo voor een eerlijkere verdeling van macht en invloed binnen het Bitcoin netwerk.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 
 ### De beperkingen van Proof of Stake
@@ -365,7 +365,7 @@ De huidige Hash koers, ondanks dat de prijs van Bitcoin op $30.000 staat vergele
 Deze situatie illustreert ook de veerkracht van Bitcoin, die vaak wordt beoordeeld op basis van de prijs. Voor een diepere analyse van de gezondheid van Bitcoin moet echter de Hash-snelheid worden onderzocht, die de berekeningen per seconde in het Bitcoin-netwerk meet. Terwijl de prijs van Bitcoin fluctueert, blijven de kosten ervan, gekoppeld aan de elektriciteit die nodig is om Mining machines te laten draaien, essentieel voor het begrijpen van de marktdynamiek. Door te focussen op de kosten in plaats van op de prijs, wordt een consistenter perspectief verkregen op de stabiliteit en levensvatbaarheid van Bitcoin op lange termijn. Over het algemeen zijn de kosten van Bitcoin evenredig met de prijs, wat een beter inzicht geeft in prijsschommelingen en toekomstperspectieven.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 
 ### Hash tarief en beloning
@@ -419,7 +419,7 @@ Mining biedt echter unieke mogelijkheden om betrokken te raken bij het Bitcoin e
 Ondanks deze opties stelt Mining ons voor grote uitdagingen. Het bekende gezegde in de wereld van cryptocurrencies, "Niet je sleutels, niet je Bitcoins", vindt een soortgelijke weerklank in de wereld van Mining: "Niet je Hashrate, niet je beloning" Er zijn veel verhalen over teleurstellingen en losgekoppelde machines, waarbij veel spelers uitzonderlijke resultaten beloven, maar deze niet waarmaken. Problemen met elektriciteit Supply en defecte machines kunnen investeerders machteloos achterlaten, met dure apparatuur waar ze geen controle over hebben. In deze context zijn voorzichtigheid en een grondig begrip van de Mining-sector cruciaal voordat je je erin waagt. Hoewel er winstkansen zijn, zijn de risico's aanzienlijk en is een geïnformeerde en doordachte aanpak essentieel om in dit complexe en vaak onvoorspelbare veld te navigeren. Het is daarom van vitaal belang om grondig onderzoek te doen en de voor- en nadelen zorgvuldig af te wegen voordat je je met Bitcoin Mining inlaat.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/013.webp)
 
 
 ### Maagdelijke Bitcoins
@@ -440,7 +440,7 @@ In deze context lijkt het verstandig om te kiezen voor een autonome en goed opge
 Met de kwestie van het mogelijke verbod op Mining in Europa worden discussies over regelgeving steeds relevanter. De schommelende regelgeving kan de Bitcoin Mining industrie inderdaad aanzienlijk beïnvloeden. Het verbod op Mining in Europa is een denkbaar scenario, vooral gezien de precedenten in China. Hoewel de Mining activiteiten in China doorgaan ondanks het verbod, zou Europa een vergelijkbaar pad kunnen volgen. Een bredere verspreiding van Hashrate over verschillende regio's zou de Mining gemeenschap in Europa kunnen helpen versterken, zodat ze misverstanden en misvattingen over Mining, de invloed ervan op het milieu en de voetafdruk op het elektriciteitsnet effectief kunnen tegengaan.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 
 Geconfronteerd met campagnes zoals die van Greenpeace en de vaak misleidende cijfers van sommige studies, blijft waarheidsgetrouwe informatie het beste wapen. Het is essentieel om het grote publiek en besluitvormers te informeren over de realiteit van Mining, de complexiteit en de nuances ervan, in plaats van hen te laten vertrouwen op stereotypen en onnauwkeurige informatie. Hoe meer mensen geïnformeerd zijn en weten wat Mining werkelijk is, hoe beter de industrie zich kan verdedigen tegen mogelijke beperkende regelgeving.
@@ -546,7 +546,7 @@ De Antminer S9 wordt geleverd in verschillende varianten (i, j) die kleine wijzi
 De prijs van ASIC's varieert afhankelijk van vele factoren zoals de prijs van Bitcoin, de moeilijkheidsgraad van het netwerk, de efficiëntie van de machine en de elektriciteitskosten. Daarom is het moeilijk om een nauwkeurige schatting te geven voor de aankoop van een gebruikte machine. In februari 2023 varieert de verwachte prijs in Frankrijk over het algemeen tussen €100 en €200, maar deze prijzen kunnen snel veranderen.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 
 De Antminer S9 bestaat uit de volgende onderdelen:
@@ -556,54 +556,54 @@ De Antminer S9 bestaat uit de volgende onderdelen:
 - 3 hashboards die de chips bevatten die de hashingkracht produceren.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 
 
 - Een besturingskaart met een sleuf voor een SD-kaart, een Ethernet-poort en aansluitingen voor de hashboards en ventilatoren. Dit is het brein van je ASIC.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 
 
 - 3 datakabels die de hashboards verbinden met de besturingskaart.
 
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 
 
 - De Supply, die werkt op 220V en aangesloten kan worden als een gewoon huishoudelijk apparaat.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 
 
 - 2 120mm ventilatoren.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 
 
 - Een mannelijke C13-kabel.
 
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 
 Als je een gebruikte machine koopt, is het belangrijk om te controleren of alle onderdelen aanwezig en functioneel zijn. Tijdens de Exchange moet je de verkoper vragen om de machine aan te zetten om de goede werking te controleren. Het is belangrijk om te controleren of het apparaat correct wordt ingeschakeld en vervolgens de internetconnectiviteit te controleren door een Ethernetkabel aan te sluiten en toegang te krijgen tot de Bitmain login Interface via een webbrowser op hetzelfde lokale netwerk. U kunt deze IP Address vinden door verbinding te maken met uw internetrouter Interface en te zoeken naar aangesloten apparaten. Deze Address moet het volgende formaat hebben: 192.168.x.x
 
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 
 
 Controleer ook of de standaardgegevens werken (gebruikersnaam: root, wachtwoord: root). Als de standaardgegevens niet werken, moet je de machine resetten.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 
 Eenmaal verbonden, zou je de status van elk hashboard op het dashboard moeten kunnen zien. Als de Miner verbonden is met een pool, zou je alle hashboards moeten zien functioneren. Het is belangrijk om te weten dat miners veel lawaai maken, wat normaal is. Controleer ook of de ventilatoren goed werken.
@@ -638,19 +638,19 @@ Als je een ervaren klusser bent en een Miner wilt ombouwen tot een verwarming, d
 De originele ventilatoren van de Antminer S9 maken te veel lawaai om je Antminer als verwarming te gebruiken. De oplossing is om ze te vervangen door stillere ventilatoren. Ons team heeft verschillende modellen van het merk Noctua getest en heeft de Noctua NF-A14 iPPC-2000 PWM als beste compromis geselecteerd. Zorg ervoor dat je de 12V-versie van de ventilatoren kiest. Deze 140mm ventilator kan tot 1200W warmte produceren met een theoretisch geluidsniveau van 31 dB. Om deze 140mm ventilatoren te installeren, moet je een 140mm naar 120mm adapter gebruiken, die je kunt vinden in de DécouvreBitcoin winkel. We zullen ook 140mm beschermroosters toevoegen.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/024.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/26.webp)
+![image](assets/en/026.webp)
 
 
 De Supply ventilator is ook behoorlijk luidruchtig en moet vervangen worden. Wij raden de Noctua NF-A6x25 PWM aan. Merk op dat de connectoren van de Noctua-ventilatoren niet hetzelfde zijn als de originele, dus je hebt een connectoradapter nodig om ze aan te sluiten. Twee zijn genoeg. Nogmaals, zorg ervoor dat je de 12V-versie van de ventilator kiest.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/027.webp)
 
-![image](assets/en/28.webp)
+![image](assets/en/028.webp)
 
 
 2. Een WIFI/Ethernet bridge toevoegen
@@ -659,9 +659,9 @@ De Supply ventilator is ook behoorlijk luidruchtig en moet vervangen worden. Wij
 In plaats van een ethernetkabel te gebruiken, kunt u uw Antminer via WIFI aansluiten door een WIFI/Ethernet bridge toe te voegen. We hebben gekozen voor de vonets vap11g-300 omdat je hiermee eenvoudig het WIFI signaal van je internetbox kunt halen en het via Ethernet naar je Antminer kunt sturen zonder een subnet aan te maken. Als je verstand hebt van elektriciteit, kun je het direct voeden met de Supply van de Antminer zonder dat je een USB-lader hoeft toe te voegen. Hiervoor heb je een vrouwelijke 5,5mmx2,1mm stekker nodig.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/029.webp)
 
-![image](assets/en/30.webp)
+![image](assets/en/030.webp)
 
 
 3. Optioneel: een slimme stekker toevoegen
@@ -670,7 +670,7 @@ In plaats van een ethernetkabel te gebruiken, kunt u uw Antminer via WIFI aanslu
 Als je je Antminer vanaf je smartphone wilt in- en uitschakelen en het stroomverbruik wilt controleren, kun je een slimme stekker toevoegen. Wij testten de ANTELA plug in de 16A versie, compatibel met de smartlife app. Met deze slimme stekker kun je het dagelijkse en maandelijkse stroomverbruik bekijken en hij maakt rechtstreeks verbinding met je internetrouter via wifi.
 
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 
 Lijst met apparatuur en links
@@ -719,19 +719,19 @@ Voed de bridge door hem aan te sluiten via USB.
 Maak vanaf je computer verbinding met het WIFI-netwerk van VONETS met het wachtwoord 12345678.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 
 Log in met de gebruikersnaam "admin" en wachtwoord "admin".
 
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 
 Kies Wizard.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 
 Selecteer het WIFI-netwerk waarmee u uw Miner wilt verbinden en klik op Volgende.
@@ -740,7 +740,7 @@ Selecteer het WIFI-netwerk waarmee u uw Miner wilt verbinden en klik op Volgende
 OPMERKING: De Vonet bridge werkt alleen op de 2,4GHz frequentie. Tegenwoordig bieden routers meestal twee WIFI-netwerken, één op 2,4GHz en één op 5GHz.
 
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 
 Voer het wachtwoord voor uw WIFI-netwerk in het veld "Source WIFI hotspot password" in. Als u uw Vonet bridge niet wilt gebruiken om uw WIFI-netwerk uit te breiden, vinkt u het vakje "Hotspot uitschakelen" aan. Laat het anders uitgeschakeld.
@@ -771,7 +771,7 @@ Deze methode kan worden toegepast tussen 2 minuten en 10 minuten na het starten 
 2 minuten nadat u de Miner heeft aangezet, drukt u 5 seconden op de 'Reset'-knop en laat deze dan los. De Miner wordt binnen 4 minuten teruggezet naar de fabrieksinstellingen en start automatisch opnieuw op (het is niet nodig om hem uit te zetten).
 
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 
 ## BraiinsOS+ installeren op een Antminer S9
@@ -796,13 +796,13 @@ Hier zullen we zien hoe je eenvoudig Braiins OS+ direct op het geheugen van je A
 3. Pak het gedownloade bestand uit en open het bestand bos-toolbox.bat. Kies de taal en na enkele ogenblikken zie je dit venster:
 
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 
 4. Met Bos toolbox kun je eenvoudig de IP Address van je Antminer vinden en BraiinsOS+ installeren. Als je het IP Address van je machine al weet, kun je stap 8 overslaan. Ga anders naar het tabblad scannen.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 
 5. Op thuisnetwerken ligt het IP Address bereik meestal tussen 192.168.1.1 en 192.168.1.255, dus voer "192.168.1.0/24" in het IP bereik veld in. Als jouw netwerk anders is, verander deze adressen dan dienovereenkomstig. Klik vervolgens op "Start".
@@ -814,7 +814,7 @@ Hier zullen we zien hoe je eenvoudig Braiins OS+ direct op het geheugen van je A
 7. Je zou alle Antminers op je netwerk hier moeten zien verschijnen, en het IP Address is 192.168.1.37.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 
 8. Klik op "Terug" en dan op de tab "Installeren", voer de eerder gevonden IP Address in en klik op "Start".
@@ -822,7 +822,7 @@ Hier zullen we zien hoe je eenvoudig Braiins OS+ direct op het geheugen van je A
 
 > Als de installatie niet werkt, kan het nodig zijn om een reset uit te voeren en het opnieuw te proberen (zie de vorige sectie).
 
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 
 9. Na enkele ogenblikken zal je Antminer herstarten en krijg je toegang tot de Braiins OS+ Interface op het opgegeven IP Address, hier 192.168.1.37, direct in de Address balk van je browser. De standaard gebruikersnaam is "root" en er is geen standaard wachtwoord.
@@ -854,7 +854,7 @@ Je wordt dan begroet door het Brains OS+ Dashboard.
 ### Dashboard
 
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 
 Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
@@ -866,7 +866,7 @@ Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
 - Hieronder de ventilatorsnelheid als percentage van de maximale snelheid en het aantal rotaties per minuut.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 
 
@@ -879,19 +879,19 @@ Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
 ### Configuratie
 
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 
 ### Systeem
 
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 
 ### Snelle acties
 
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 
 # Attakai - Aanpassing ventilator
@@ -908,7 +908,7 @@ Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
 
 > WAARSCHUWING: Het is essentieel dat je vooraf Braiins OS+ hebt geïnstalleerd op je Miner, of andere software die de prestaties van je machine kan verminderen. Deze maatregel is cruciaal omdat we, om het geluid te verminderen, minder krachtige ventilatoren zullen installeren die minder warmte kunnen afvoeren.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Benodigde materialen
@@ -921,88 +921,88 @@ Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
 
 > WAARSCHUWING: Voordat je begint, moet je eerst de stekker van je Miner uit het stopcontact halen om elk risico op elektrocutie te vermijden.
 
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 
 Verwijder eerst de 6 schroeven aan de zijkant van de behuizing die de behuizing gesloten houden. Zodra de schroeven zijn verwijderd, opent u voorzichtig de behuizing om de plastic bescherming die de onderdelen bedekt te verwijderen.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/048.webp)
 
-![image](assets/en/49.webp)
+![image](assets/en/049.webp)
 
 
 Vervolgens is het tijd om de originele ventilator te verwijderen, zonder de andere onderdelen te beschadigen. Verwijder hiervoor de schroeven die de ventilator op zijn plaats houden en verwijder voorzichtig de witte lijm rond de connector. Het is belangrijk om voorzichtig te werk te gaan om de draden of connectors niet te beschadigen.
 
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 
 Zodra de originele ventilator is verwijderd, zult u merken dat de connectors van de nieuwe Noctua ventilator niet overeenkomen met die van de originele ventilator. De nieuwe ventilator heeft namelijk 3 draden, waaronder een gele draad waarmee de snelheid kan worden geregeld. Deze draad wordt in dit specifieke geval echter niet gebruikt. Om de nieuwe ventilator aan te sluiten, wordt daarom aanbevolen om een speciale adapter te gebruiken. Het is echter belangrijk op te merken dat deze adapter soms moeilijk te vinden is.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 
 Als je deze adapter niet hebt, kun je de nieuwe ventilator nog steeds aansluiten met behulp van een elektriciensuiker. Hiervoor moet je de kabels van de oude en de nieuwe ventilator doorknippen.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/052.webp)
 
-![image](assets/en/53.webp)
+![image](assets/en/053.webp)
 
 
 Gebruik op de nieuwe ventilator een kniptang en knip voorzichtig de contouren van de hoofdmantel op 1 cm af zonder de mantels van de kabels eronder door te knippen.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 
 Knip vervolgens, door de hoofdmantel naar beneden te trekken, de mantels van de rode en zwarte kabels op dezelfde manier door. En knip de gele kabel gelijk af.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 
 Bij de oude ventilator is het moeilijker om de hoofdmantel door te knippen zonder de mantels van de rode en zwarte draden te beschadigen. Hiervoor gebruikten we een naald die we tussen de hoofdmantel en de rode en zwarte draden schoven.
 
 
-![image](assets/en/56.webp)
+![image](assets/en/056.webp)
 
-![image](assets/en/57.webp)
+![image](assets/en/057.webp)
 
 
 Zodra de rode en zwarte draden blootliggen, knip je de omhulsels voorzichtig door om beschadiging van de elektrische draden te voorkomen.
 
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 
 Verbind vervolgens de kabels met een suiker, de zwarte draad met de zwarte en de rode draad met de rode. Je kunt ook isolatietape gebruiken.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/059.webp)
 
-![image](assets/en/60.webp)
+![image](assets/en/060.webp)
 
 
 Zodra de verbinding is gemaakt, is het tijd om de nieuwe Noctua-ventilator te installeren met het rooster en de oude schroeven. De nieuwe schroeven in de doos worden later hergebruikt. Zorg ervoor dat je de ventilator in de juiste richting plaatst. Aan de zijkant van de ventilator zie je een pijl die de richting van de luchtstroom aangeeft. Het is belangrijk om de ventilator zo te plaatsen dat deze pijl naar de binnenkant van de kast wijst. Sluit de ventilator vervolgens weer aan.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/061.webp)
 
-![image](assets/en/62.webp)
+![image](assets/en/062.webp)
 
 
 > Optioneel: Als u goed bekend bent met elektriciteit, kunt u direct een vrouwelijke 5,5mm jack connector toevoegen aan de 12V voedingsuitgang, die de Vonet Wi-Fi bridge direct van stroom voorziet. Als u echter niet zeker bent van uw elektrische vaardigheden, kunt u het beste de USB-connector gebruiken met een smartphone-oplader om elk risico op kortsluiting of elektrische schade te vermijden.
 
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 
 Zodra de aansluitingen zijn gemaakt, plaatst u het plastic deksel over het plastic van de behuizing en niet erin.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 
 Plaats tot slot het deksel terug en schroef de 6 schroeven aan de zijkanten vast om alles op zijn plaats te houden. En daar heb je het, je Supply power kast is nu uitgerust met een nieuwe ventilator.
@@ -1016,7 +1016,7 @@ Plaats tot slot het deksel terug en schroef de 6 schroeven aan de zijkanten vast
 
 > WAARSCHUWING: Het is essentieel dat je vooraf Braiins OS+ hebt geïnstalleerd op je Miner, of andere software die de prestaties van je machine kan verminderen. Deze maatregel is cruciaal omdat we, om het geluid te verminderen, minder krachtige ventilatoren zullen installeren, die minder warmte zullen afvoeren.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Vereiste materialen
@@ -1033,15 +1033,15 @@ Plaats tot slot het deksel terug en schroef de 6 schroeven aan de zijkanten vast
 1. Koppel eerst de ventilatoren los en schroef ze los.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 
 2. De connectors van de nieuwe Noctua fans komen niet overeen met de originele, maar maak je geen zorgen! Pak je cutter en knip voorzichtig de kleine plastic lipjes door, zodat de connectors perfect op je Miner passen.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/066.webp)
 
-![image](assets/en/67.webp)
+![image](assets/en/067.webp)
 
 
 3. Het is tijd om de 3D-onderdelen te installeren!
@@ -1049,7 +1049,7 @@ Plaats tot slot het deksel terug en schroef de 6 schroeven aan de zijkanten vast
 Bevestig ze aan beide zijden van de Miner met de schroeven die je uit de ventilatoren hebt gehaald. Schroef ze vast tot de schroefkop gelijk ligt met het 3D-onderdeel en het goed op zijn plaats zit. Let op dat je ze niet te vast aandraait, want dan kun je het onderdeel vervormen en kan een van de schroeven een condensator raken!
 
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 
 4. Laten we nu overgaan op de fans.
@@ -1058,31 +1058,31 @@ Bevestig ze aan beide zijden van de Miner met de schroeven die je uit de ventila
 Bevestig ze aan de 3D-onderdelen met de meegeleverde schroeven in de doos. Let op de richting van de luchtstroom, de pijlen op de zijkanten van de ventilatoren geven de te volgen richting aan. Ga van de kant van de ethernetpoort naar de andere kant. Zie onderstaande foto.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/069.webp)
 
-![image](assets/en/70.webp)
+![image](assets/en/070.webp)
 
-![image](assets/en/71.webp)
+![image](assets/en/071.webp)
 
 
 5. Laatste stap: sluit de ventilatoren aan en bevestig de roosters bovenaan met de schroeven die niet gebruikt werden in de Supply ventilatorbox. Je hebt er maar 4, maar 2 per rooster in tegenovergestelde hoeken is genoeg. Je kunt indien nodig ook gelijkaardige schroeven zoeken in een ijzerwinkel.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/072.webp)
 
-![image](assets/en/73.webp)
+![image](assets/en/073.webp)
 
 
 In afwachting van een stijlvollere behuizing voor je nieuwe verwarming, kun je de behuizing en de voeding Supply bevestigen met kabelbinders voor elektriciens.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 
 En voor de finishing touch sluit je de Vonet bridge aan op de Ethernetpoort en de Supply.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 
 En daar heb je het, gefeliciteerd! Je hebt zojuist het gehele mechanische deel van je Miner vervangen. Je zou nu veel minder geluid moeten horen.
@@ -1129,7 +1129,7 @@ Het beloningsmodel dat ons interesseert is PPS, wat staat voor "pay-per-share". 
 Om een pool te configureren in Braiins OS+, moet je een account aanmaken in een van de pools van je keuze. Hier nemen we het voorbeeld van Linecoin:
 
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 
 Zodra je account is aangemaakt, klik je op Verbinden met pool
@@ -1138,13 +1138,13 @@ Zodra je account is aangemaakt, klik je op Verbinden met pool
 Kopieer dan de Stratum Address en je gebruikersnaam:
 
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 
 Je kunt nu teruggaan naar de Braiins OS+ Interface om deze gegevens in te voeren. Voor het wachtwoord kun je het veld leeg laten.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 
 ## De prestaties van uw Antminer S9 optimaliseren

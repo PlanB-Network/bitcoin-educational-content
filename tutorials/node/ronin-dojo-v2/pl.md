@@ -5,7 +5,7 @@ description: Instalacja węzła RoninDojo v2 Bitcoin na Raspberry Pi
 ![cover RoninDojo v2](assets/cover.webp)
 
 
-***OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i zajęciu ich serwerów 24 kwietnia, niektóre funkcje RoninDojo, takie jak Whirlpool, przestały działać. Możliwe jest jednak, że narzędzia te zostaną przywrócone lub ponownie uruchomione w inny sposób w nadchodzących tygodniach. Ponadto, ponieważ kod RoninDojo był hostowany na GitLab Samourai, który również został przejęty, obecnie nie jest możliwe zdalne pobranie kodu. Zespoły RoninDojo prawdopodobnie pracują nad ponownym opublikowaniem kodu
+**OSTRZEŻENIE:** Po aresztowaniu założycieli Samourai Wallet i zajęciu ich serwerów 24 kwietnia, niektóre funkcje RoninDojo, takie jak Whirlpool, przestały działać. Możliwe jest jednak, że narzędzia te zostaną przywrócone lub ponownie uruchomione w inny sposób w nadchodzących tygodniach. Ponadto, ponieważ kod RoninDojo był hostowany na GitLab Samourai, który również został przejęty, obecnie nie jest możliwe zdalne pobranie kodu. Zespoły RoninDojo prawdopodobnie pracują nad ponownym opublikowaniem kodu
 
 
 uważnie śledzimy rozwój tej sprawy, a także rozwój związany z powiązanymi narzędziami. Zapewniamy, że będziemy aktualizować ten poradnik w miarę pojawiania się nowych informacji
@@ -60,7 +60,7 @@ RoninDojo oferuje obraz do automatycznej instalacji swojego oprogramowania na [R
 
 Ze swojej strony uruchamiam RoninDojo na Raspberry Pi wyposażonym w 8 GB pamięci RAM. Chociaż niektórym członkom społeczności udało się uruchomić go na urządzeniach z zaledwie 4 GB pamięci RAM, to sam nie testowałem takiej konfiguracji. Biorąc pod uwagę niewielką różnicę w cenie, rozsądne wydaje się wybranie wersji z 8 GB pamięci RAM. Może to również okazać się przydatne, jeśli planujesz zmienić przeznaczenie swojego Raspberry Pi do innych zastosowań w przyszłości.
 
-Należy zauważyć, że zespoły RoninDojo zgłaszały częste problemy związane z obudową i adapterem SSD. Sam spotkałem się z tymi problemami. **Dlatego zdecydowanie zaleca się unikanie obudów wyposażonych w kabel USB do dysku SSD węzła. Zamiast tego należy wybrać kartę rozszerzeń pamięci zaprojektowaną specjalnie dla Raspberry Pi:
+Należy zauważyć, że zespoły RoninDojo zgłaszały częste problemy związane z obudową i adapterem SSD. Sam spotkałem się z tymi problemami. **Dlatego zdecydowanie zaleca się unikanie obudów wyposażonych w kabel USB do dysku SSD węzła. Zamiast tego należy wybrać kartę rozszerzeń pamięci zaprojektowaną specjalnie dla Raspberry Pi:**
 
 
 ![storage expansion card RPI4](assets/notext/1.webp)
@@ -391,7 +391,7 @@ Gratulacje! Węzeł RoninDojo v2 jest teraz skonfigurowany i gotowy do użycia. 
 **Jeśli migrujesz ze starego węzła RoninDojo v1** do nowej wersji za pomocą tego samouczka, zachowując ten sam dysk SSD, węzeł powinien automatycznie wykryć i ponownie wykorzystać istniejące dane na dysku, oszczędzając ci konieczności ponownego wykonywania IBD. W takim przypadku wystarczy poczekać na ponowną synchronizację węzła z najnowszymi blokami.
 
 
-### Krok 8: "veth* fix"
+### Krok 8: **veth** fix
 
 Jeśli napotkasz błąd z RoninDojo v2 na Raspberry Pi, w którym po bezproblemowej instalacji węzeł nagle staje się nieosiągalny przez SSH, ale odzyskuje go po prostym ponownym uruchomieniu, musisz wykonać ten krok 8. Ten powszechny błąd można łatwo naprawić za pomocą rozwiązania opracowanego przez społeczność: "_veth fix_". Ta drobna poprawka trwale usuwa nagłe rozłączenia. Oto jak ją zastosować.
 
@@ -409,7 +409,7 @@ Jeśli na przykład adres IP Address węzła to `192.168.1.40`, odpowiednim pole
 Zostaniesz poproszony o wprowadzenie hasła użytkownika. Wprowadź je i naciśnij `enter`, aby zatwierdzić. Następnie uzyskasz dostęp do RoninCLI Interface. Użyj strzałek klawiatury, aby przejść do opcji `Exit RoninDojo` i naciśnij `enter`, aby ją wybrać.
 
 
-W tym momencie znajdujesz się w terminalu węzła, z wierszem polecenia podobnym do: `ronindojo@RoninDojo:~ $`. Aby zastosować poprawkę veth*, wpisz następujące polecenie i naciśnij `enter`:
+W tym momencie znajdujesz się w terminalu węzła, z wierszem polecenia podobnym do: `ronindojo@RoninDojo:~ $`. Aby zastosować poprawkę **veth**, wpisz następujące polecenie i naciśnij `enter`:
 
 `sudo nano /etc/dhcpcd.conf`
 
@@ -479,7 +479,7 @@ Aby połączyć Samourai Wallet z Dojo, wystarczy zeskanować ten kod QR podczas
 ![Samourai Wallet connection](assets/notext/36.webp)
 
 
-Jeśli posiadałeś już Samourai Wallet przed skonfigurowaniem Ronin Dojo, konieczne jest wykonanie kopii zapasowej Wallet, odinstalowanie, a następnie ponowne zainstalowanie aplikacji Samourai Wallet przed przywróceniem Wallet. Po uruchomieniu ponownie zainstalowanej aplikacji będziesz mieć możliwość połączenia się z nowym Dojo. **Upewnij się, że masz kopię zapasową Samourai Wallet w swoich plikach i zweryfikuj ważność passphrase poprzez `Ustawienia > Rozwiązywanie problemów > passphrase`. Ważne jest również, aby mieć czytelną kopię zapasową frazy odzyskiwania i passphrase. Aby uzyskać większą precyzję tej operacji, zaleca się skorzystanie z tego szczegółowego samouczka: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
+Jeśli posiadałeś już Samourai Wallet przed skonfigurowaniem Ronin Dojo, konieczne jest wykonanie kopii zapasowej Wallet, odinstalowanie, a następnie ponowne zainstalowanie aplikacji Samourai Wallet przed przywróceniem Wallet. Po uruchomieniu ponownie zainstalowanej aplikacji będziesz mieć możliwość połączenia się z nowym Dojo. **Upewnij się, że masz kopię zapasową Samourai Wallet w swoich plikach i zweryfikuj ważność passphrase poprzez** `Ustawienia > Rozwiązywanie problemów > passphrase`. **Ważne jest również, aby mieć czytelną kopię zapasową frazy odzyskiwania i passphrase.** Aby uzyskać większą precyzję tej operacji, zaleca się skorzystanie z tego szczegółowego samouczka: [https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai](https://wiki.ronindojo.io/en/setup/v2_0_0-upgrade/reconnectsamourai).
 
 
 ### Korzystanie z własnego Mempool.space Block explorer
@@ -532,7 +532,7 @@ W przygotowaniu jest szczegółowy samouczek, który poprowadzi cię krok po kro
 Aby lepiej zrozumieć CoinJoin i jego użycie na Bitcoin, zapraszam również do zapoznania się z tym artykułem: Zrozumienie i używanie CoinJoin na Bitcoin, gdzie szczegółowo opisuję wszystko, co musisz wiedzieć o tej technice.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Korzystanie z Whirlpool Stat Tool (WST)
 
@@ -746,7 +746,7 @@ Tutaj widzimy, że prawdopodobieństwo, że każde wyjście pochodzi z wejścia 
 Na przykład transakcja Whirlpool typu CoinJoin nie ma deterministycznych powiązań, a zatem wyświetla wskaźnik i współczynnik 0%. Z drugiej strony, w naszej drugiej badanej transakcji (z jednym wejściem i dwoma wyjściami) wskaźnik jest ustawiony na 2, a współczynnik osiąga 100%. Tak więc wskaźnik zerowy sygnalizuje doskonałą poufność dzięki brakowi bezpośrednich i niepodważalnych powiązań między wejściami i wyjściami.
 
 
-**Jak uzyskać dostęp do kalkulatora Boltzmanna na RoninDojo?
+**Jak uzyskać dostęp do kalkulatora Boltzmanna na RoninDojo?**
 
 Aby uzyskać dostęp do narzędzia *Boltzmann Calculator*, przejdź do RoninCLI. Aby to zrobić, otwórz terminal na komputerze osobistym i nawiąż połączenie SSH z węzłem za pomocą następującego polecenia: `SSH ronindojo@[IP]`
 
@@ -807,9 +807,9 @@ Upewnij się, że wszystkie transakcje są prawidłowo wymienione. Ważne jest r
 Poza tym narzędziem, zakładka `Maintenance` w RoninUI jest pełna innych przydatnych funkcji:
 
 
-- Narzędzie transakcji*: Umożliwia sprawdzenie szczegółów danej transakcji;
-- Narzędzie Address*: Umożliwia potwierdzenie śledzenia danego Address przez Dojo;
-- Rescan Blocks*: Zmusza węzeł do wykonania nowego skanowania określonego zakresu bloków.
+- **Narzędzie transakcji**: Umożliwia sprawdzenie szczegółów danej transakcji;
+- Narzędzie **Address**: Umożliwia potwierdzenie śledzenia danego Address przez Dojo;
+- **Rescan Blocks**: Zmusza węzeł do wykonania nowego skanowania określonego zakresu bloków.
 
 
 Zakładka `Push Tx` to kolejna interesująca funkcja RoninUI, która umożliwia rozgłaszanie podpisanej transakcji w sieci Bitcoin. Transakcja musi być wprowadzona w postaci szesnastkowej.

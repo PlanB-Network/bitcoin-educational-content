@@ -107,9 +107,9 @@ Teil on mitu võimalust:
 
 
 
-- Google Play Store**: Otsi "Ente Auth" klassikalise paigalduse jaoks
-- F-Droid**: Saadaval Androidi avatud lähtekoodiga rakenduste kataloogist, mille puhul on tagatud kontrollitud konstruktsioon ja mille sisu ei ole kaitstud
-- Käsitsi paigaldamine** : APK-faile saab alla laadida [projekti GitHubi lehelt](https://github.com/ente-io/auth/releases) koos integreeritud teavitusega uutest versioonidest
+- **Google Play Store**: Otsi "Ente Auth" klassikalise paigalduse jaoks
+- **F-Droid**: Saadaval Androidi avatud lähtekoodiga rakenduste kataloogist, mille puhul on tagatud kontrollitud konstruktsioon ja mille sisu ei ole kaitstud
+- **Käsitsi paigaldamine**: APK-faile saab alla laadida [projekti GitHubi lehelt](https://github.com/ente-io/auth/releases) koos integreeritud teavitusega uutest versioonidest
 
 
 
@@ -129,9 +129,9 @@ Ente Auth pakub originaalseid töölauarakendusi. Külastage [ente.io/download](
 
 
 
-- Windows**: Komplektis on EXE-installatsiooniprogramm
-- macOS**: Lohistage ja laske DMG-ketta kujutis rakendustes
-- Linux** : Saadaval on mitu formaati (AppImage portable, .deb Debian/Ubuntu jaoks, .rpm Fedora/Red Hat jaoks)
+- **Windows**: Komplektis on EXE-installatsiooniprogramm
+- **macOS**: Lohistage ja laske DMG-ketta kujutis rakendustes
+- **Linux**: Saadaval on mitu formaati (AppImage portable, .deb Debian/Ubuntu jaoks, .rpm Fedora/Red Hat jaoks)
 
 
 
@@ -196,9 +196,9 @@ Soovitan tungivalt võimaldada kohalikku kaitset koodiga või biomeetria abil. M
 
 
 
-- Biomeetriline avamine**: Face ID, sõrmejälg sõltuvalt seadme võimalustest
-- Rakendusspetsiifiline PIN-kood/parool**
-- Autolukustuse viivitus**: nt "Kohe" või pärast 30 sekundit tegevusetust
+- **Biomeetriline avamine**: Face ID, sõrmejälg sõltuvalt seadme võimalustest
+- Rakendusspetsiifiline PIN-kood/parool
+- **Autolukustuse viivitus**: nt "Kohe" või pärast 30 sekundit tegevusetust
 
 
 
@@ -294,7 +294,7 @@ Saate kohandada teenuse nime ja oma kasutajanime, et seda oleks lihtsam leida. T
 
 
 
-**Tagavarakoodid**: Bull Bitcoin annab teile taastamiskoodid. **Salvestage need turvalisse kohta, autentimisseadmest eraldi.
+**Tagavarakoodid**: Bull Bitcoin annab teile taastamiskoodid. **Salvestage need turvalisse kohta, autentimisseadmest eraldi.**
 
 
 
@@ -431,10 +431,10 @@ Turvasätted võimaldavad teil :
 
 
 
-- Keel**: Interface mitmekeelne
-- Näita**: Suured ikoonid, kompaktne režiim
-- Privaatsus**: Peida koodid, kiire otsing
-- Telemetria**: Veateade (saab välja lülitada)
+- **Keel**: Interface mitmekeelne
+- **Näita**: Suured ikoonid, kompaktne režiim
+- **Privaatsus**: Peida koodid, kiire otsing
+- **Telemetria**: Veateade (saab välja lülitada)
 
 
 
@@ -498,7 +498,7 @@ Ente Auth põhineb tugeval otsast-otsani krüpteerimisel, mille arhitektuur on n
 
 
 
-**Nulltunnetuse arhitektuur: Ente ei pääse füüsiliselt ligi teie andmetele. Isegi metaandmed (teenuste nimed, sildid, märkused) krüpteeritakse kliendi poolel enne edastamist. See lähenemisviis tagab, et teie serveritele suunatud rünnaku või valitsuse nõudmise korral saab Ente avaldada ainult krüpteeritud andmeid, mida ei saa lugeda ilma teie paroolita.
+**Nulltunnetuse arhitektuur:** Ente ei pääse füüsiliselt ligi teie andmetele. Isegi metaandmed (teenuste nimed, sildid, märkused) krüpteeritakse kliendi poolel enne edastamist. See lähenemisviis tagab, et teie serveritele suunatud rünnaku või valitsuse nõudmise korral saab Ente avaldada ainult krüpteeritud andmeid, mida ei saa lugeda ilma teie paroolita.
 
 
 
@@ -516,9 +516,9 @@ Kuna kood on [avatud lähtekoodiga](https://github.com/ente-io/auth), saab koguk
 
 
 
-- Cure53** (Saksamaa): Rakenduse ja krüptograafilise turvalisuse audit
-- Symbolic Software** (Prantsusmaa): Spetsiaalsed krüptograafilised teadmised
-- Fallible** (India): Penetratsioonitestimine ja haavatavuse analüüs
+- **Cure53** (Saksamaa): Rakenduse ja krüptograafilise turvalisuse audit
+- **Symbolic Software** (Prantsusmaa): Spetsiaalsed krüptograafilised teadmised
+- **Fallible** (India): Penetratsioonitestimine ja haavatavuse analüüs
 
 
 
@@ -600,37 +600,37 @@ Tundlikke kontosid haldavate meeskondade jaoks hõlbustab Ente Auth koostööd, 
 
 
 
-- Salvestage oma hädaolukorra koodid**: Hoidke iga teenuse pakutavad taastamiskoodid telefonist eemal.
+- **Salvestage oma hädaolukorra koodid**: Hoidke iga teenuse pakutavad taastamiskoodid telefonist eemal.
 
 
 
 
 
-- Kasutage tugevat põhiparooli**: Teie Ente Auth peaparool peab olema unikaalne ja tugev, sest see kaitseb kõiki teie koode.
+- **Kasutage tugevat põhiparooli**: Teie Ente Auth peaparool peab olema unikaalne ja tugev, sest see kaitseb kõiki teie koode.
 
 
 
 
 
-- Aktiveerige kohalik kaitse**: Konfigureerige PIN-kood või biomeetria, et vältida volitamata füüsilist juurdepääsu.
+- **Aktiveerige kohalik kaitse**: Konfigureerige PIN-kood või biomeetria, et vältida volitamata füüsilist juurdepääsu.
 
 
 
 
 
-- Ärge kohandage liiga palju**: Vältige täiustatud muudatusi, mis võivad ohustada sünkroniseerimist.
+- **Ärge kohandage liiga palju**: Vältige täiustatud muudatusi, mis võivad ohustada sünkroniseerimist.
 
 
 
 
 
-- Hoidke taotlus ajakohasena**: Uuendused parandavad turvaauke ja parandavad funktsionaalsust.
+- **Hoidke taotlus ajakohasena**: Uuendused parandavad turvaauke ja parandavad funktsionaalsust.
 
 
 
 
 
-- Katse taastamine**: Kontrollige aeg-ajalt, kas saate oma koodid taastada mõnes teises seadmes.
+- **Katse taastamine**: Kontrollige aeg-ajalt, kas saate oma koodid taastada mõnes teises seadmes.
 
 
 
@@ -659,9 +659,9 @@ Olenemata sellest, kas olete üksikisik, kes soovib kaitsta oma isiklikke kontos
 
 
 
-- Ametlik veebileht**: [ente.io/auth](https://ente.io/auth)
-- Abikeskus**: [help.ente.io/auth](https://help.ente.io/auth)
-- Tehniline blogi**: [ente.io/blog](https://ente.io/blog)
+- **Ametlik veebileht**: [ente.io/auth](https://ente.io/auth)
+- **Abikeskus**: [help.ente.io/auth](https://help.ente.io/auth)
+- **Tehniline blogi**: [ente.io/blog](https://ente.io/blog)
 
 
 
@@ -670,8 +670,8 @@ Olenemata sellest, kas olete üksikisik, kes soovib kaitsta oma isiklikke kontos
 
 
 
-- GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
-- Krüptograafia audit**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
+- **GitHub**: [github.com/ente-io/auth](https://github.com/ente-io/auth)
+- **Krüptograafia audit**: [ente.io/blog/cryptography-audit](https://ente.io/blog/cryptography-audit)
 
 
 
@@ -680,5 +680,5 @@ Olenemata sellest, kas olete üksikisik, kes soovib kaitsta oma isiklikke kontos
 
 
 
-- Arutelu**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
-- Reddit**: [r/enteio](https://reddit.com/r/enteio)
+- **Arutelu**: [discord.gg/z2YVKkycX3](https://discord.gg/z2YVKkycX3)
+- **Reddit**: [r/enteio](https://reddit.com/r/enteio)

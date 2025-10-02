@@ -1,5 +1,5 @@
 ---
-name: Mafundo ya Bitcoin
+name: Bitcoin Knots
 description: Ninawezaje kuzindua nodi na mteja mbadala wa Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)
@@ -81,7 +81,7 @@ Kwa mfano, hapa, "*Chukua Halali*" imewekwa kuzuia nambari. 855.
 ![Image](assets/fr/06.webp)
 
 
-Kisha ubofye kitufe cha "*Sawa*" ili kuzindua Upakuaji wa Kuzuia Awali*. Utahitaji kuwa na subira wakati wa ulandanishi wa nodi ya awali. Ikiwa ungependa kuendelea na ulandanishi baadaye, funga programu tu na uzime kompyuta yako. Usawazishaji utaanza tena bila hitilafu wakati mwingine utakapofungua programu.
+Kisha ubofye kitufe cha "*Sawa*" ili kuzindua Upakuaji wa Kuzuia Awali. Utahitaji kuwa na subira wakati wa ulandanishi wa nodi ya awali. Ikiwa ungependa kuendelea na ulandanishi baadaye, funga programu tu na uzime kompyuta yako. Usawazishaji utaanza tena bila hitilafu wakati mwingine utakapofungua programu.
 
 
 ![Image](assets/fr/07.webp)

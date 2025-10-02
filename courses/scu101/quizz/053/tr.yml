@@ -2,11 +2,9 @@ question: Biyometrik veriler neden 2FA için bilgi ve sahip olma kombinasyonunda
 answer: Biyometrik veriler kimlik doğrulama cihazında kalmalı ve çevrimiçi olarak ifşa edilmemelidir.
 wrong_answers:
   - Kimlik doğrulama cihazında çevrimdışı tutulsa bile biyometrik verilerin çıkarılması daha kolaydır.
-  - Biyometrik verileri hatırlamak ve bir kimlik doğrulama cihazı kullanırken kullanmak hem daha zordur.
+  - Biyometrik verileri hatırlamak ve bir kimlik doğrulama cihazı kullanırken kullanmak daha zordur.
   - Biyometrik veri araçlarının uygulanması daha pahalıdır ve bu nedenle diğer çözümlere kıyasla maliyet etkin değildir.
 explanation: |
-  Biyometrik veriler daha az güvenlidir çünkü
-  kimlik doğrulama cihazına kaydedilmeli ve çevrimiçi olarak ifşa edilmemelidir. Eğer
-  çevrimiçi olarak ifşa edilirse, çalınabilir ve aşağıdakiler için kullanılabilir
-  yetkisiz erişim.
-reviewed: true
+  Biyometrik veriler daha az güvenlidir çünkü kimlik doğrulama cihazına kaydedilmeli ve çevrimiçi olarak ifşa edilmemelidir. 
+  Eğer çevrimiçi olarak ifşa edilirse, çalınabilir ve yetkisiz erişim için kullanılabilir.
+  reviewed: true

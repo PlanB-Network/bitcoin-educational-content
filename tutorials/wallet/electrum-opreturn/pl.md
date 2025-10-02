@@ -150,8 +150,8 @@ Wybierz wiadomość, którą chcesz wprowadzić (np. `Dzięki Satoshi`). Uwaga: 
 
 
 
-- pozostawić piękny wyraz naszego człowieczeństwa,*
-- unikaj wprowadzania treści, których możesz żałować*
+- pozostawić piękny wyraz naszego człowieczeństwa,
+- unikaj wprowadzania treści, których możesz żałować
 
 
 
@@ -208,9 +208,9 @@ który składa się z :
 
 
 
-- Miejsce docelowe Address**: Ważny Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Może to być Twój własny Address, jeśli chcesz zwrócić przelane środki do siebie;
-- Przelana kwota**: kwota transakcji, tutaj `0,00001` BTC. **Uwaga**: ponieważ jednostką używaną w Electrum jest BTC, kwota wskazana w skrypcie transakcji musi być również wyrażona w BTC, a nie w Sats;
-- Skrypt OP_RETURN**: Wiadomość przekonwertowana na szesnastkowy poprzedzona script(`OP_RETURN <messsage>), 0`. Tutaj, `5468616e6b73205361746f736869` dla wiadomości w systemie szesnastkowym.
+- Miejsce docelowe **Address**: Ważny Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Może to być Twój własny Address, jeśli chcesz zwrócić przelane środki do siebie;
+- **Przelana kwota**: kwota transakcji, tutaj `0,00001` BTC. **Uwaga**: ponieważ jednostką używaną w Electrum jest BTC, kwota wskazana w skrypcie transakcji musi być również wyrażona w BTC, a nie w Sats;
+- Skrypt **OP_RETURN**: Wiadomość przekonwertowana na szesnastkowy poprzedzona script(`OP_RETURN <messsage>), 0`. Tutaj, `5468616e6b73205361746f736869` dla wiadomości w systemie szesnastkowym.
 
 
 

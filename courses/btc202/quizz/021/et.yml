@@ -1,0 +1,9 @@
+question: Milline tegur määrab sõlme mõju konsensusreeglitele?
+answer: Selle majanduslik kaal
+wrong_answers:
+  - Väljuvate ühenduste arv
+  - Senioriteet võrgustikus
+  - Mitte midagi, sest igal sõlmpunktil on üks hääl
+explanation: |
+  Mõju konsensusreeglitele sõltub sõlme poolt toetatavast majandustegevusest, mitte selle arvust.
+reviewed: true

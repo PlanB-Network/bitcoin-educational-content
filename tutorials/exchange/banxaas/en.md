@@ -53,7 +53,7 @@ The Banxaas web platform is minimalist and intuitive, allowing you to complete y
 
 
 
-- From CFA Franc to satoshis** :
+- From CFA Franc to **satoshis**:
 
 
 Banxaas covers the entire Senegalese territory with two major mobile operators. With the help of their payment integrator (DexchangePay), the platform mainly supports :
@@ -84,7 +84,7 @@ Confirm your transaction by clicking on the **Troc** button to buy bitcoins from
 
 
 
-- From Satoshis to CFA Francs**
+- **From Satoshis to CFA Francs**
 
 
 Banxaas allows you to convert your bitcoins into CFA Francs and receive them on two operators available in Senegal.

@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamiri varukoopia
+name: Trezor Shamir Backup
 description: Ühe ja mitme aktsia Mnemonic fraasid Trezoril
 ---
 ![cover](assets/cover.webp)
@@ -145,7 +145,7 @@ Valige Trezori seadistamisel aktsiate koguarv, mida soovite konfigureerida. Kõi
 
 
 
-*Safe 5 kasutajate puhul, kuigi ekraanil on kirjas "*Tippige jätkamiseks*", peate kinnitamiseks tegelikult ülespoole pühkima
+**Safe 5** kasutajate puhul, kuigi ekraanil on kirjas "**Tippige jätkamiseks**", peate kinnitamiseks tegelikult ülespoole pühkima
 
 
 
@@ -173,7 +173,7 @@ Ekraani ülaosas on näha, millist aktsiat te parajasti vaatate.
 
 
 
-loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidist Wallet kasutatakse ainult Testnet peal ja see kustutatakse õpetuse lõpus.**_
+loomulikult ei tohi te neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidist Wallet kasutatakse ainult Testnet peal ja see kustutatakse õpetuse lõpus.
 
 
 

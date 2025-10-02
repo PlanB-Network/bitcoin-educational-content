@@ -863,7 +863,7 @@ Administrator može želeti da isključi ovu postavku. Pomoću sledećeg niza mo
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 
@@ -2489,7 +2489,7 @@ Tabela ispod navodi i opisuje standardne statuse faktura u BTCPay-u i predlaže 
 | Processing (paidOver)      | Plaćeno više od iznosa fakture, ali nije primljen dovoljan broj potvrda.                                                      | Sačekajte da bude razrešeno, zatim kontaktirajte kupca radi dogovora o povraćaju viška iznosa, ili po želji sačekajte da vas kupac kontaktira. |
 | Settled                    | Plaćeno u celosti, primljen dovoljan broj potvrda u prodavnici.                                                                     | Obradite porudžbinu                                                                                                            |
 | Settled (marked)           | Status je ručno promenjen u ‘razrešeno’ sa statusa ‘u obradi’ ili ‘nevažeće’.                                                             | Administrator prodavnice je označio uplatu kao razrešenu.                                                                               |
-| Invalid\*                  | Plaćeno, ali nije primljen dovoljan broj potvrda u okviru vremena definisanog u podešavanjima prodavnice                              | Proverite transakciju na blockchain pregledaču, a ako je primila dovoljan broj potvrda, označite je kao razrešenu.                    |
+| Invalid                    | Plaćeno, ali nije primljen dovoljan broj potvrda u okviru vremena definisanog u podešavanjima prodavnice                              | Proverite transakciju na blockchain pregledaču, a ako je primila dovoljan broj potvrda, označite je kao razrešenu.                    |
 | Invalid (marked)           | Status je ručno promenjen u nevažeći sa statusa razrešen ili istekao.                                                                 | Administrator prodavnice je označio uplatu kao nevažeću.                                                                               |
 | Invalid (paidOver)         | Plaćeno više od iznosa fakture, ali nije primljen dovoljan broj potvrda u roku definisanom u podešavanjima prodavnice. | Proverite transakciju na blockchain pregledaču; ako je primila dovoljan broj potvrda, označite je kao razrešenu.                    |
 

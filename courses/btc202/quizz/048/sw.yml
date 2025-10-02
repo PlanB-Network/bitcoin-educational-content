@@ -1,0 +1,9 @@
+question: Ni amri gani hupata IP ya ndani Address ya Mwavuli wako ikiwa ufikiaji kupitia umbrel.local utashindwa?
+answer: jina la mwenyeji -I
+wrong_answers:
+  - ifconfig -usb
+  - mwavuli-ip --onyesha
+  - netstat -mwavuli
+explanation: |
+  Katika tukio la matatizo ya kugundua, unaweza kutumia jina la mwenyeji -I amri kwenye mashine ya Umbrel ili kujua IP yake ya ndani.
+reviewed: true

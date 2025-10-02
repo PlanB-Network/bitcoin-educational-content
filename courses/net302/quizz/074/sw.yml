@@ -6,4 +6,4 @@ wrong_answers:
   - ARIN
 explanation: |
   IANA iko juu ya daraja la ugawaji, ikikabidhi vizuizi vya IPv6 kwa Rejesta tano za Kikanda za Mtandao (RIRs).
-reviewed: false
+reviewed: true

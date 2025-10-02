@@ -230,7 +230,7 @@ Il processo di vendita su Bisq 2 segue una logica simile a quella dell'acquisto,
 
 - Selezionare "Bisq Easy" e poi "Offerbook"
 - Cliccate su "Crea offerta" e scegliete "Vendi Bitcoin"
-- Configurare l'offerta :
+- Configurare l'offerta:
  - Selezionare la valuta (EUR, USD, ecc.)
  - Scegliere i metodi di pagamento accettati
  - Impostare l'importo (tra 6 e 600 USD equivalenti)
@@ -247,14 +247,14 @@ Il processo di vendita su Bisq 2 segue una logica simile a quella dell'acquisto,
 
 **Processo di vendita**
 
-Una volta avviato lo scambio :
+Una volta avviato lo scambio:
 
 
    - Inviate le vostre coordinate bancarie all'acquirente
    - Attendere l'indirizzo Bitcoin dell'acquirente
    - Verificare che l'indirizzo sia valido
 
-Dopo la notifica del pagamento :
+Dopo la notifica del pagamento:
 
 
    - Controllare che il pagamento sia stato ricevuto sul vostro conto
@@ -308,7 +308,7 @@ Per migliorare la vostra reputazione di venditore su Bisq, conducete transazioni
 - Fornire tutte le prove richieste
 - Seguire le istruzioni del mediatore
 
-### Informativa sulla privacy :
+### Informativa sulla privacy:
 
 
 - Non è richiesta alcuna registrazione o verifica centralizzata dell'identità
@@ -316,7 +316,7 @@ Per migliorare la vostra reputazione di venditore su Bisq, conducete transazioni
 - Nessun server centrale per l'archiviazione dei dati
 - I dettagli della transazione sono leggibili solo dalle parti coinvolte
 
-### Protezione dalla censura :
+### Protezione dalla censura:
 
 
 - Rete P2P completamente distribuita
@@ -346,7 +346,7 @@ Per migliorare la vostra reputazione di venditore su Bisq, conducete transazioni
 
 ## Protocolli futuri
 
-Sebbene Bisq Easy sia attualmente l'unico protocollo disponibile, diversi altri protocolli sono in fase di sviluppo per Bisq 2 :
+Sebbene Bisq Easy sia attualmente l'unico protocollo disponibile, diversi altri protocolli sono in fase di sviluppo per Bisq 2:
 
 
 - **Bisq Lightning**: Protocollo di scambio basato su un sistema di deposito a garanzia che utilizza la crittografia di calcolo multiparty sulla rete Lightning.
@@ -368,4 +368,4 @@ Questi protocolli sono attualmente in fase di sviluppo e saranno progressivament
 - Sito web ufficiale: [bisq.network](https://bisq.network)
 - Documentazione: [Wiki Bisq](https://bisq.wiki)
 - Supporto: [Forum Bisq](https://bisq.community)
-- Codice sorgente : [GitHub](https://github.com/bisq-network)
+- Codice sorgente: [GitHub](https://github.com/bisq-network)

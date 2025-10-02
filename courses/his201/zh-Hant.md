@@ -1131,7 +1131,7 @@ Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"�
 
 ### 發展的夏天
 
-在 2010 年夏天年夏天這段事件的時期，中本聰專注於 Bitcoin 的軟體開發。Bitcoin 的介紹文字在 Slashdot 上發表後，使用者空前湧入，也讓系統岌岌可危。因此，創辦人和協助他的人 (包括 Gavin Andresen) 盡力修正漏洞。然而，網路還是逃不過一次重大事故，即值溢出事件，這導致在軟體中建立了一個由中本聰管理的警報系統。最後，這段期間也以新增區塊大小限制為標誌，這是 Bitcoin 歷史上的基本要素。
+在 2010 年夏天這段有著各種事件的時期，中本聰專注於 Bitcoin 的軟體開發。Bitcoin 的介紹文字在 Slashdot 上發表後，使用者空前湧入，也讓系統岌岌可危。因此，創辦人和協助他的人 (包括 Gavin Andresen) 盡力修正漏洞。然而，網路還是逃不過一次重大事故，即值溢出事件，這導致在軟體中建立了一個由中本聰管理的警報系統。最後，這段期間也以新增區塊大小限制為標誌，這是 Bitcoin 歷史上的基本要素。
 
 在接下來的幾個月中，技術、經濟和挖礦的改進不斷出現，逐漸將 Bitcoin 轉變為一個集體專案。Bitcoin 社群」終於成為一個自主的實體。這就是我們將在本課程下一部分所研究的內容。
 
@@ -1143,100 +1143,100 @@ Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"�
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
-在上一部分中，我們研究了 Bitcoin 的簡報在 Slashdot 上發表 (slashdotting) 所造成的影響，以及 Satoshi 和他的助手如何處理初期的技術麻煩。到夏天結束時，專案已經度過了風浪，並準備好迎接越來越多的人。因此，2010 年秋天標誌著 Bitcoin 的成功時期。
+在上一部分中，我們研究了 Bitcoin 的簡報在 Slashdot 上發表 (slashdotting) 所造成的影響，以及中本聰和他的助手如何處理初期的技術麻煩。到夏天結束時，專案已經度過了風浪，並準備好迎接越來越多的人。因此，2010 年秋天標誌著 Bitcoin 的成功時期。
 
-這段期間尤其是 Mining 的黃金時代，隨著第一批 GPU 場和第一家合作公司的出現，Mining 有了顯著的進步。部署的資源越來越多，專用演算法的效能也不斷提升。正如當時的一位博客作者（化名 jimbobway）[寫道](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html)，這多少有點像「數位淘金熱」，他指出「成千上萬的網際網路使用者」都在使用 Mining 比特幣「希望發財」，其中許多人試圖「開發軟硬體工具以更有效率地開採比特幣」，希望能成為骯髒的富翁。(*原文："比特幣：成千上萬的互聯網用戶正在 Mining 尋找比特幣，希望藉此發財。許多人正在嘗試開發軟硬體工具，以更有效率地開採比特幣，希望成為骯髒的富人。）
+這段期間尤其是挖礦的黃金時代，隨著第一批 GPU 礦場和第一家合作公司的出現，挖礦有了顯著的進步。部署的資源越來越多，專用演算法的效能也不斷提升。正如當時的一位博客作者（化名 jimbobway）[寫道](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html)，這多少有點像「數位淘金熱」，他指出「成千上萬的網際網路使用者」都在挖礦「希望發財」，其中許多人試圖「開發軟硬體工具以更有效率地開採 Bitcoin」，希望能成為富人。
 
-### 第一個 GPU 農場
+### 第一個 GPU 礦場
 
-在 2010 年 7 月 Bitcoin 被 slashdotted 之後，價格上漲所帶來的高經濟報酬以及未來成長的可能性，鼓勵了個人更密集地投入比特幣的產生。這就是為什麼網路的 [Hash rate](https://bitinfocharts.com/comparison/Bitcoin-Hashrate.html#alltime) 在 7 月 11 日為 0.22 GH/s，在 17 日上升到 2.78 GH/s，然後在 8 月 15 日上升到 5.79 GH/s，最後在 9 月 19 日達到 9.94 GH/s，最後在 9 月 29 日達到 12.58 GH/s。
+在 2010 年 7 月 Bitcoin 被 slashdotted 之後，價格上漲所帶來的高報酬以及未來成長的可能性，鼓勵了個人更密集地投入 Bitcoin 的產生。這就是為什麼網路的 [Hash rate](https://bitinfocharts.com/comparison/Bitcoin-Hashrate.html#alltime) 在 7 月 11 日為 0.22 GH/s，在 17 日上升到 2.78 GH/s，然後在 8 月 15 日上升到 5.79 GH/s，最後在 9 月 19 日達到 9.94 GH/s，最後在 9 月 29 日達到 12.58 GH/s。
 
 ![Total network hash rate from July 11 to October 5, 2010](assets/en/048.webp)
 
 2010 年 7 月 11 日至 10 月 5 日的總網路 Hash 率（資料來源：[CoinWarz]()[CoinWarz](https://www.coinwarz.com/Mining/Bitcoin/Hashrate-chart))
 
-這段期間最大的 Miner 是一位德國開發人員，他的名字叫 ArtForz。在透過 Slashdot 得知 Bitcoin 之後，他迅速投入軟體開發，並花了許多時間在 IRC 頻道 #Bitcoin-dev。尤其是，他利用 OpenCL 開發了自己的 GPU Mining 演算法，並使用電腦的顯示卡執行。
+這段期間最大的礦工是一位德國開發人員，他的名字叫 ArtForz。在透過 Slashdot 得知 Bitcoin 之後，他迅速投入軟體開發，並花了許多時間在 IRC 頻道 #Bitcoin-dev。尤其是，他利用 OpenCL 開發了自己的 GPU 挖礦演算法，並使用電腦的顯卡執行。
 
-他在 7 月 19 日開始產生比特幣。7 月 25 日，在一個調查使用者持有 Bitcoin 的主題中，ArtForz [表示](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) 他在 6 天內產生了 1,700 個比特幣，相當於 Hash 速率的 4%，或 80 MH/s。漸漸地，他建立了一個大型的 Mining 農場，也就是後來的 "ArtFarm"。在 8 月，他的[包括](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-Mining/) 6 台 ATI Radeon HD 5770，讓他的速度從 8 月 9 日的 76 MH/s，增加到 13 日的約 450 MH/s。
+他在 7 月 19 日開始挖 Bitcoin 。7 月 25 日，在一個調查使用者持有 Bitcoin 量的討論串中，ArtForz [表示](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) 他在 6 天內產生了 1,700 個比特幣，相當於 Hash 速率的 4%，或 80 MH/s。漸漸地，他建立了一個大型的礦場，也就是後來的 "ArtFarm"。在 8 月，他的[包括](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-Mining/) 6 台 ATI Radeon HD 5770，讓他的速度從 8 月 9 日的 76 MH/s，增加到 13 日的約 450 MH/s。
 
 ![ArtForz's mining production between August and October 2010](assets/en/049.webp)
 
-ArtForz 在 2010 年 8 月至 10 月間生產的 Mining (資料來源：ArtForz：Blackburn 等人，「[匿名團體在分散失敗期間保護 Bitcoin 的合作](https://arxiv.org/pdf/2206.02871)」)
+ArtForz 2010 年 8 月至 10 月的挖礦產量 (資料來源：ArtForz：Blackburn 等人，「[Cooperation among an anonymous group protected Bitcoin during failures of decentralization](https://arxiv.org/pdf/2206.02871)」)
 
-幾個星期以來，ArtForz 控制了相當大的一部分網路運算能力。9 月 2 日，Miner puddinpop [表示](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957)，他有 「約 12 台 5770 使用他的 OpenCL 用戶端」，而且他有 「超過 1 Ghash/s」，讓他 「擁有 Hash 網路 20% 的能力」。(*原文："ArtForz，在 IRC 上，大約有 12 台 5770s 在執行他自己的 OpenCL 用戶端。整個網路的散列速度大約在 5-6Ghash/s 左右，而他一個人就表示他的散列速度超過 1Ghash/s。"*）9 月 23 日，ArtForz [宣稱](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/Bitcoin-dev/logs/2010/09/23#l1285234390.0) 持有接近 2 GH/s 的 Hash 速率，仍佔散列的 20%。10 月 3 日，theymos [聲明](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118) ArtForz「擁有網路 20% 到 30% 的運算能力」。(*原文：「他擁有網路 20-30% 的 CPU 能力」*)
+幾個星期以來，ArtForz 控制了相當大的一部分網路運算能力。9 月 2 日，礦工 puddinpop [表示](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957)，他有 「約 12 台 5770 使用他的 OpenCL 用戶端」，而且他有 「超過 1 Ghash/s」，讓他 「擁有 Hash 網路 20% 的算力」。(*原文："ArtForz，在 IRC 上，大約有 12 台 5770s 在執行他自己的 OpenCL 用戶端。整個網路的散列速度大約在 5-6Ghash/s 左右，而他一個人就表示他的散列速度超過 1Ghash/s。"*）9 月 23 日，ArtForz [宣稱](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/Bitcoin-dev/logs/2010/09/23#l1285234390.0) 持有接近 2 GH/s 的 Hash 速率，仍佔 20%。10 月 3 日，theymos [聲明](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118) ArtForz「擁有網路 20% 到 30% 的運算能力」。(*原文：「他擁有網路 20-30% 的 CPU 能力」*)
 
-然而，這個地位在秋天很快就受到其他更新系統的人的挑戰。隨後，ArtForz 漸漸從 Mining 的活動中抽身，專注於軟體開發。2011 年 8 月，他 [表示](https://bitcointalk.org/index.php?topic=37904.msg478671#msg478671) 他的計算能力不到網路的 1%。
+然而，這個地位在秋天很快就受到其他更新系統的人的挑戰。隨後，ArtForz 漸漸從挖礦活動中抽身，專注於軟體開發。2011 年 8 月，他 [表示](https://bitcointalk.org/index.php?topic=37904.msg478671#msg478671) 他的計算能力已不到網路的 1%。
 
-### Mining 專業
+### 挖礦專業化
 
-到了 2010 年夏末，ArtForz 的例子啟發了其他礦工，他們急忙開發自己的方法，利用繪圖處理器 generate 比特幣。為此，礦工們使用 CUDA 或 OpenCL 等編程環境。這使得他們能夠達到以 MH/s 計算的運算能力，並在總功率中佔有相當大的比重。
+到了 2010 年夏末，ArtForz 的例子啟發了其他礦工，他們急忙開發自己的方法，利用顯示卡挖比特幣。為此，礦工們使用 CUDA 或 OpenCL 等編程環境。這使得他們能夠達到以 MH/s 計算的運算能力，並在總功率中佔有相當大的比重。
 
-9 月 2 日，Miner puddinpop [分享](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940) 他的 Mining 客戶端的可執行檔，利用 CUDA 的演算法。他還附贈了 10% 的使用費。這種做法並未受到支持自由軟體的論壇成員的特別歡迎。
+9 月 2 日，礦工 puddinpop [分享](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940) 他的挖礦客戶端的可執行檔，利用 CUDA 的演算法。使用者需要支付 10% 的使用費。這種做法並未受到支持自由軟體的論壇成員的特別歡迎。
 
 9月6日，在一位論壇成員的建議下，他[表示](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107)，如果他收到 「大筆捐款」，他 「也許願意將程式碼開源」。15日，Jeff Garzik就此提出了一個[要約](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921)，建議給puddinpop 10,000比特幣，當時大約是600美元。Puddinpop 接受了：交易在 18 日[發生](https://Mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea)，演算法也在不久之後，由 puddinpop 以自由授權的方式[發表](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)。
 
-其他演算法也在同一時間公開。9 月 9 日，一位名叫 nelisky 的論壇成員 [分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) 了他們自己使用 CUDA 的 Mining 演算法。10 月 1 日，一位名叫 m0mchil 的人 [發表](https://web.archive.org/web/20101206143359/http://www.Bitcoin.org/smf/index.php?topic=1334.0) 了他們的演算法 (POCLBM)，並將其描述為「大眾的 OpenCL Miner」。
+其他演算法也在同一時間公開。9 月 9 日，一位名叫 nelisky 的論壇成員 [分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) 了他們自己使用 CUDA 的挖礦演算法。10 月 1 日，一位名叫 m0mchil 的人 [發表](https://web.archive.org/web/20101206143359/http://www.Bitcoin.org/smf/index.php?topic=1334.0) 了他們的演算法 (POCLBM)，並將其描述為「大眾的 OpenCL Miner」。
 
-這種改進讓技術最精湛的人可以 generate 大量生產比特幣。除了 ArtForz 之外，Nils Schneider (tcatm) 也成為這段期間的主要礦工之一。2010 年 10 月 3 日，他 [宣稱](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111) 由 3 個顯示卡處理器產生 983 MH/s 的散列速率。這個數字讓他自己也[驚為天人](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) Satoshi。
+這種改進讓技術最精湛的人可以大量生產比特幣。除了 ArtForz 之外，Nils Schneider (tcatm) 也成為這段期間的主要礦工之一。2010 年 10 月 3 日，他 [宣稱](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111) 由 3 個顯示卡可以產生 983 MH/s 的散列速率。這個數字讓中本聰也[驚為天人](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112) 。
 
-### 第一批 Mining 泳池
+### 第一個礦池
 
-由於 Mining 專門化導致 Hash 率的大量增加，使得使用中央處理器 generate 比特幣變得越來越困難，而中央處理器的價格也越來越低。事實上，產生比特幣的可能性變得更依賴於差異，有些人永遠無法產生一個區塊。解決這個問題的方法是合作式 Mining。
+由於挖礦專業化導致 Hash 率的大量增加，使得使用中央處理器挖 Bitcoin 變得越來越困難，而中央處理器的價格也越來越低。事實上，產生 Bitcoin 的可能性變得更依賴於差異，有些人永遠無法產生一個區塊。解決這個問題的方法是合作式挖礦。
 
-10 月 1 日，m0mchil [發表](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) 修改了 API，允許客戶端節點通過一個名為 `getwork` 的新函數擷取一個候選區塊，並在找到解決方案時返回 Proof of Work。他寫道，這個修正「為外部 Bitcoin 礦工開闢了道路」，「允許為一個客戶端設置多個礦工」。
+10 月 1 日，m0mchil [發表](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) 修改版 API，允許客戶端節點通過一個名為 `getwork` 的新函數擷取一個候選區塊，並在找到解決方案時返回工作量證明。他寫道，這個修正「為外部 Bitcoin 礦工開闢了道路」，「允許為一個客戶端設置多個礦工」。
 
-同一天，一位論壇成員在題為「如何推翻 GPU 寡頭」的論題中，首次 [提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) 「池化 Mining」的想法。10 月 13 日，puddinpop [提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) 一款此類型的機型。Miner 的運算能力是使用元 Hash 來測量的，元 Hash 是緩衝區的印記，包括每個區塊 Hash 的第一個位元組。伺服器就可以定期驗證用戶端是否按照定義執行計算。這個模型很複雜，而且 [不允許出錯](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
+同一天，一位論壇成員在題為「如何推翻 GPU 寡頭」的論題中，首次 [提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838) 「集體挖礦」的想法。10 月 13 日，puddinpop [提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906) 一款此類型的機型。礦工的算力是使用元 Hash 來測量的，元 Hash 是緩衝區的印記，包括每個區塊 Hash 的第一個位元組。伺服器就可以定期驗證用戶端是否按照定義執行計算。這個模型很複雜，而且 [不允許出錯](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
 
-然而，有一個更簡單的方法可以測量客戶端的 Hash 率：部分 Proof of Work。這個方法是由 ribuck、Nils Schneider 和 Gavin Andresen 依循 puddinpop 的描述 [提出](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951)。它涉及到擷取部分程度低於相同候選區塊所產生的網路難度的工作證明。收集到的部分證明允許對消耗的能量進行概率估計。
+然而，有一個更簡單的方法可以測量客戶端的 Hash 率：部分工作量證明。這個方法是由 ribuck、Nils Schneider 和 Gavin Andresen 依循 puddinpop 的描述 [提出](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951)。它涉及到擷取部分程度低於相同候選區塊所產生的網路難度的工作證明。收集到的部分證明允許對消耗的能量進行概率估計。
 
-11 月 23 日，[程式碼](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876) 加入了修改版的 `getwork` 函式，25 日，新版的主軟體 ([v0.3.17](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460))也加入了這個函式。同一天，Jeff Garzik (他 [提倡](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532) 在軟體內將連鎖管理與 Mining 分離的想法) [分享](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217) 他利用此功能的 CPU Mining 軟體。
+11 月 23 日，[程式碼](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876) 加入了修改版的 `getwork` 函式，25 日，新版的主軟體 ([v0.3.17](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460))也加入了這個函式。同一天，Jeff Garzik (他 [提倡](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532) 在軟體內部分鏈管理和挖礦的想法) [分享](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217) 他利用此功能的 CPU 挖礦軟體。
 
-11 月 27 日，一位名叫 Marek Palatinus 的捷克年輕開發者使用化名 slush 在論壇上 [發表](https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0) 了「合作式 Mining」的描述，這是一種利用「getwork」和 Jeff Garzik 邏輯的模式。這個模式是以礦工製作的部分工作證明為基礎 (按份付費)。第二天，Satoshi Nakamoto [批准](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) 了這個概念。
+11 月 27 日，一位名叫 Marek Palatinus 的捷克年輕開發者使用化名 slush 在論壇上 [發表](https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0) 了「合作式挖礦」的描述，這是一種利用「getwork」和 Jeff Garzik 邏輯的模式。這個模式是以礦工製作的部分工作證明為基礎 (按份付費)。第二天，中本聰[同意](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119) 了這個概念。
 
 ![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/050.webp)
 
 Marek Palatinus (slush) 於 2013 年 5 月 11 日在布拉格舉行的 Z-DAY 會議上
 
-這兩個估算模型是在 12 月實施的。首先，puddinpop 概念在 12 月 1 日由使用者 doublec 應用，他 [邀請](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) 人們連線到他的池化 Mining 伺服器。這個群組在 12 月 4 日 [產生](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) 了第一個區塊 (95,420)。在幾天後又生產了一個區塊之後，doublec 的伺服器於 15 日 [關閉](https://bluishcoder.co.nz/Bitcoin-pool/)。由於出現了效率更高的合作夥伴，該服務於 17 日永久關閉：Bitcoin.cz Mining.
+兩種評估模型在 12 月時實施。首先是 puddinpop 的概念，由用戶 doubled 於 12 月 1 日 應用，他 [邀請](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) 人們連線到他的礦池。這個群組在 12 月 4 日 [產生](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) 了第一個區塊 (95,420)。在幾天後又生產了一個區塊之後，doublec 的伺服器於 15 日 [關閉](https://bluishcoder.co.nz/Bitcoin-pool/)。由於出現了效率更高的礦池 Bitcoin.cz Mining 該服務於 17 日永久關閉：.
 
-在調查論壇後，Marek Palatinus 決定實作他的 Mining 合作模式，並在測試網路上進行測試。他也確保 CPU 礦工 (使用 Jeff Garzik 的軟體) 和 GPU 礦工 (使用 m0mchil 和 puddinpop 的用戶端) 都能存取伺服器。
+在調查論壇後，Marek Palatinus 決定實作他的挖礦合作模式，並在測試網路上進行測試。他也確保 CPU 礦工 (使用 Jeff Garzik 的軟體) 和 GPU 礦工 (使用 m0mchil 和 puddinpop 的用戶端) 都能存取伺服器。
 
-在 12 月 15 日至 16 日的夜間，合作社終於由 Marek Palatinus 在主網路上 [推出](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一個區塊在 16 日早上被 [發現](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834)。隨後，產生了許多其他區塊。Mining 群組從一開始就遇到了成功：在幾天之內，其 Hash 速率就達到 4 GH/s，佔網路總功率的 3.5%。
+在 12 月 15 日至 16 日的夜間，合作模型終於由 Marek Palatinus 在主網路上 [推出](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一個區塊在 16 日早上被 [發現](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655) (97,834)。隨後，產生了許多其他區塊。最初的挖礦取得成功：在幾天之內，其 Hash 速率就達到 4 GH/s，佔網路總功率的 3.5%。
 
-該合作社將成為 Bitcoin Mining 的基準。多年來，它[使用](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) 了好幾個名字：Bitcoin Pooled Mining (BPM)、Bitcoin.cz Mining，以及最後的 Slush Pool，指的是它的創造者。它在 2022 年 9 月成為 Braiins Pool。
+該合作將成為 Bitcoin 挖礦的基準。多年來，它[使用](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) 了好幾個名字：Bitcoin Pooled Mining (BPM)、Bitcoin.cz Mining，最終改名為 Slush Pool，以創建者的名字命名。它在 2022 年 9 月成為 Braiins Pool。
 
 ![Logo of Slush's cooperative in September 2011](assets/en/051.webp)
 
-2011 年 9 月 Slush 合作社的標誌 (來源：該網站的 [archive](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/))
+2011 年 9 月 Slush 礦池的標誌 (來源：該網站的 [archive](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/))
 
-### Mining 的大躍進
+### 挖礦的巨大飛躍
 
-因此，2010 年下半年是 Mining 的顯著成長期。它專門採用 GPU（圖形處理單元）世代。有幾個人專注於建立真正的 Mining 礦場，例如 ArtForz 和他的「ArtFarm」。這股熱潮最終導致合作社的出現，允許小型礦工匯集他們的運算能力，以減少獎金的差異。
+因此，2010 年下半年是挖礦的顯著成長期。它專門採用 GPU（圖形處理單元）世代。有幾個人專注於建造真正的礦池，例如 ArtForz 和他的「ArtFarm」。這股熱潮最終導致合作社的出現，使得小型礦工能夠聚集他們的算力，以減少獎金的差異。
 
-然而，秋天不僅是 Mining 的成功。它也是社區和相關經濟生態系統的成功。這是我們將在下一章討論的內容。
+然而，秋天不僅是挖礦的成功時期，也是社群和經濟生態的成功，我們將在下一章中討論這一部分。
 
 ## 生態系統的綻放
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
 
-在前一章中，我們探討了 Mining 在 2010 年下半年的發展情況。到了秋天，這項進展已相當成熟。然而，Mining 並不是 Bitcoin 成功的唯一方面：其生態系統也是如此。
+在前一章中，我們探討了 2010 下半年挖礦的發展。到了秋季，這一進展已經相當穩固。然而，挖礦並不是 Bitcoin 唯一成功的面向：其生態系統也獲得了成功。
 
-在此，我們將首先 Address Bitcoin 隨著俄羅斯和法國社區的發展而開始國際出口。接下來，我們將討論通訊的改善和經濟的成長，這顯著導致 Bitcoin 的單價有了新的提升。最後，我們會提到 Satoshi 離開之前兩個非常具象徵意義的事件：電子前沿基金會 (Electronic Frontier Foundation) 接受 Bitcoin 以及 Hal Finney 的回歸。
+我們將討論 Bitcoin 在國際上的拓展，特別是俄羅斯和法國社群的形成。接著，我們會討論通訊改進和經濟增長，這些因素顯著地帶動了 Bitcoin 單位價格的上升。最後，我們將提到兩個中本聰離開前的象徵性事件：電子前沿基金會 (Electronic Frontier Foundation)接受 Bitcoin，以及 Hal Finney 的回歸。
 
-### 其他語言的 Bitcoin
+### Bitcoin 在其他語言的發展
 
-Bitcoin 是一個國際性的專案，因此必須讓盡可能多的英語圈以外的人也能使用。因此，社群 [協調](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259) 於 2010 年 5 月開始將網站和軟體的圖形 Interface 翻譯為多種語言。其中特別包括義大利語、德語和荷蘭語。
+Bitcoin 是一個國際性的專案，因此必須讓盡可能多的英語圈以外的人也能使用。因此，社群 [協調](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259) 於 2010 年 5 月開始將網站和軟體的圖形介面翻譯為多種語言。其中特別包括義大利語、德語和荷蘭語。
 
 但這還不是全部。七月底，Martti Malmi 開始為非英語人士設立專屬的分論壇。俄語社群最先成立：在某位 bitcoinex 的要求下，專屬的分論壇於 7 月 28 日 [建立](https://bitcointalk.org/index.php?topic=151.msg6241#msg6241)。之後，專門針對其他語言社群的 [討論主題](https://web.archive.org/web/20101018144227/http://www.Bitcoin.org:80/smf/index.php?board=11.0) 也相繼成立：8月，意大利語、荷蘭語、日語和加泰羅尼亞語；9月，西班牙語；最後是10月的德語。然而，沒有任何群組能與俄語社群相匹配，而且只有少數的訊息交換。
 
 在法國社群中，事情發生了變化，特別是透過一個人的行動：Lucien Grondin，化名 grondilu。9 月 26 日，他發現了 Bitcoin，並立即對這個專案產生熱情。深夜時分，他寫信 [在 IRC 上](https://web.archive.org/web/20131201235643/http://www.bitcoinstats.com/irc/Bitcoin-dev/logs/2010/09/26#l1285544830)：
 
-> 「我睡不著I keep thinking about this great stuff.對我來說，Bitcoin 是 "cyperspace gold"（太空黃金）。I'm just amazed."
-幾天之後，在 30 日，他在 LinuxFr.org (DLFP) 上以法文發表了一篇 [新聞稿](https://linuxfr.org/news/connaissez-vous-les-bitcoins)。這篇新聞稿的標題是 「您瞭解比特幣嗎？」，這可能是第一篇以莫里哀語言撰寫的 Bitcoin 簡報。這篇文章接觸了許多人，產生了近 350 個評論。以下是當時 [出現](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) 的第一段：
+> 「天啊，我睡不著！我不斷在想這個了不起的東西。對我來說，Bitcoin 就是「網路空間的黃金」。真是讓人驚豔。"
+幾天之後，在 30 日，他在 LinuxFr.org (DLFP) 上以法文發表了一篇 [新聞稿](https://linuxfr.org/news/connaissez-vous-les-bitcoins)。這篇新聞稿的標題是 「您知道 Bitcoin 嗎？」，這可能是第一篇以法語撰寫的 Bitcoin 介紹。這篇文章觸及了許多人，有將近 350 個評論。以下是當時 [出現](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) 的第一段：
 
 ![Do you know about bitcoins?](assets/en/052.webp)
 
-> **文章：你了解比特幣嗎？** 比特幣是一種電子貨幣，由一位名叫中本聰的人在2009年設計。這種貨幣不同於其他電子貨幣，它完全去中心化，以點對點的方式運作，並巧妙地運用了基本的密碼學概念。它依賴於一款用C++編寫的軟體，並在MIT自由許可證下發佈。
+> **文章：您知道 Bitcoin 嗎？**  Bitcoin 是一種電子貨幣，由一位名叫中本聰的人在2009年設計。這種貨幣不同於其他電子貨幣，它完全去中心化，以點對點的方式運作，並巧妙地運用了基本的密碼學概念。它依賴於一款用 C++ 編寫的軟體，並在MIT自由許可證下發佈。
 
 尤其是，這篇發文引起了某位 Ploum（真名 Lionel Dricot）的注意，他是一位 29 歲的比利時部落客，也是自由軟體的倡導者。10 月 25 日，他在自己的部落格 [發表](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) 一篇題為「Geek Currency, Monkey Money?」的文章，提倡去中心化並支持 Bitcoin 的原則。許多講法語的網民都是透過這個途徑聽到 Bitcoin，包括 [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)，也就是在 2017 年繼續創造 Bitcoin Cash 的開發者。
 
@@ -1244,15 +1244,15 @@ Bitcoin 是一個國際性的專案，因此必須讓盡可能多的英語圈以
 
 2012 年，Lionel Dricot (Ploum)，當時是打著海盜黨旗號參加比利時市鎮和省級選舉的候選人（資料來源：[Framablog]()[Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
-同一天，Ploum 在 Bitcoin 論壇上開啟了 [討論主題](https://bitcointalk.org/index.php?topic=1567.0) 「法文」。在接下來的幾個月中，來自講法語的論壇成員的訊息越來越多。值得注意的是，10 月 17 日註冊、未來 Bitcoin-Central 創辦人 David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)) 和 11 月 7 日註冊、未來 Mt. Gox 平台擁有者 Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)) 參與其中。此外，還有某位 Jean-Luc 的參與，他將於 12 月 23 日開啟網站 [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.Bitcoin.fr:80/)，並於 1 月開始 [推廣](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524)。Martti Malmi 最終在 2011 年 2 月 1 日創建了一個 [法文分論壇](https://web.archive.org/web/20110217005824/http://www.Bitcoin.org/smf/index.php?board=13.0)。
+同一天，Ploum 在 Bitcoin 論壇上開啟了 [討論主題](https://bitcointalk.org/index.php?topic=1567.0) 「法文」。在接下來的幾個月中，來自講法語的論壇成員的訊息越來越多。值得注意的是，10 月 17 日註冊、未來 Bitcoin-Central 的創辦人 David François ([davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)) 和 11 月 7 日註冊、未來 Mt. Gox 平台擁有者 Mark Karpelès ([MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)) 參與其中。這也促成了某位將於 12 月 23 日開設 [Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.Bitcoin.fr:80/)，並於 1 月開始 [推廣](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524) 這個網站的 Jean-Luc 的加入。Martti Malmi 最終在 2011 年 2 月 1 日創建了一個 [法文分論壇](https://web.archive.org/web/20110217005824/http://www.Bitcoin.org/smf/index.php?board=13.0)。
 
 ### 溝通的發展
 
-除了語言社群的發展，Bitcoin的溝通方式也有一定的創新。10 月 4 日，一位 38 歲的澳大利亞人用化名 noagendamarket [發起](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) 了一個名為 BitcoinMedia 的活動。其目的是通過創建各種內容並在可能吸引受眾的地方進行廣告宣傳來推廣 Bitcoin。儘管這個計畫並沒有達到預期的成功，但它的優點是製作了第一批談論 Bitcoin 的影片。10 月 5 日 [發佈](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461)，該頻道的第一個影片是 Google Search Story，使用 Youtube 工具製作而成 (請參閱以下截圖)。其他影片將使用 Xtranormal 製作，這是一種簡易的工具，可從一套預先設計的角色和設定中建立影片序列。
+除了語言社群的發展，Bitcoin 的對外宣傳方式也有一定的創新。10 月 4 日，一位 38 歲的澳大利亞人用化名 noagendamarket [發起](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217) 了一個名為 BitcoinMedia 的活動。其目的是通過創建各種內容並在可能吸引受眾的地方進行廣告宣傳來推廣 Bitcoin。儘管這個計畫並沒有達到預期的成功，但它的優點是製作了第一批談論 Bitcoin 的影片。10 月 5 日 [發佈](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461)，該頻道的第一個影片是 Google 搜索故事（見下圖截圖），使用 Youtube 工具製作而成 (請參閱以下截圖)。其他影片將使用 Xtranormal 製作，這是一種簡易的工具，可從一套預先設計的角色和設定中建立影片序列。
 
 ![First video on Bitcoin (Google Search Story)](assets/en/054.webp)
 
-在這段期間，有關 Bitcoin 的部落格文章激增。Jon Matonis 的情況尤其顯著，他經營的部落格 *The Monetary Future* 討論與數位貨幣、自由銀行和密碼學相關的主題。他在三月發現了 Bitcoin，並與 Satoshi [交換](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514)，之後就開始撰寫相關文章。10 月，他發表了 [第三篇文章](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html)，其中他談到了價格上漲，並詳細介紹了生態系統的新奇之處。
+在這段期間，有關 Bitcoin 的部落格文章激增。Jon Matonis 的情況尤其顯著，他經營的部落格 *The Monetary Future* 討論與數位貨幣、自由銀行和密碼學相關的主題。他於 3 月發現了 Bitcoin 並 [與中本聰交流](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514)，之後就開始撰寫相關文章。10 月，他發表了 [第三篇文章](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html)，其中他談到了價格上漲，並詳細介紹了生態系統的新奇之處。
 
 ![Profile picture of Jon Matonis in 2011](assets/en/055.webp)
 
@@ -1262,34 +1262,34 @@ Jon Matonis 2011 年的個人照片（資料來源：[福布斯]()[Forbes](https
 
 ![Bitcoin logo designed by bitboy, November 2010](assets/en/056.webp)
 
-### 成長中的經濟
+### 經濟的成長
 
-這段期間在經濟層面的生態系統也有顯著的成長。在 2010 年秋天，Mt. Gox、Bitcoin Market 和其他一些平台已經存在，但這還不夠。這就是場外交易所開始成倍增加的原因。除了在論壇上透過私人訊息進行的交換之外，一個稍為嚴謹的系統也被建立起來：#Bitcoin-otc。這是一個在 Freenode 上的 IRC 頻道 [開放](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508)，由一位名為 nanotube 的使用者於 10 月 18 日開放。訂單簿託管在 [相關網站](https://web.archive.org/web/20101027090714/http://Bitcoin-otc.com/vieworderbook.php)，交換直接在雙方之間進行，無需託管存款，透過各種付款方式（PayPal、Liberty Reserve）進行。接受 Bitcoin 的服務數量也在增加，儘管仍然相對較低，官方網站的列表頁面[證明](https://web.archive.org/web/20101120224505/http://www.Bitcoin.org/trade)。
+這段期間在經濟層面的生態系統也有顯著的成長。在 2010 年秋天，Mt. Gox、Bitcoin Market 和其他一些平台已經存在，但這還不夠。這就是場外交易所開始成倍增加的原因。除了在論壇上透過私人訊息進行的交換之外，一個稍為嚴謹的系統也被建立起來：#Bitcoin-otc。這是一個在 Freenode 上的 IRC 頻道 [開放](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508)，由一位名為 nanotube 的使用者於 10 月 18 日開放。訂單簿託管在 [相關網站](https://web.archive.org/web/20101027090714/http://Bitcoin-otc.com/vieworderbook.php)，交換直接在雙方之間進行，無需託管存款，透過各種付款方式（PayPal、Liberty Reserve）進行。接受 Bitcoin 的服務數量也在增加，儘管仍然相對較低，正如官方網站的交易頁面所[證明](https://web.archive.org/web/20101120224505/http://www.Bitcoin.org/trade)。
 
-所有這些 Elements 導致價格大幅上漲。雖然自八月以來價格穩定在 6 美分左右，但在十月初開始上漲。它上升到 10 美分，並在月底達到 20 美分。在 11 月 6 日，它甚至超過了 50 美分，這不禁令論壇成員[興奮](https://bitcointalk.org/index.php?topic=1681.0)。
+所有這些因素導致價格大幅上升。雖然自八月以來價格穩定在 6 美分左右，但在十月初開始上漲。它上升到 10 美分，並在月底達到 20 美分。在 11 月 6 日，它甚至超過了 50 美分，這不禁令論壇成員[興奮](https://bitcointalk.org/index.php?topic=1681.0)。
 
 ![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/057.webp)
 
-2010年7月18日至10月18日Mt. Gox上的BTC價格 (來源：[*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
+2010年7月18日至10月18日 Mt. Gox 上的BTC價格 (來源：[*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
 
-Bitcoin 的興起意味著事物開始被衡量，無論是價格、鏈上的活動或 Mining。每個人都知道生態系統正在經歷一些成長，但沒有人知道如何正確估算。這就是為什麼 2010 年下半年和 2011 年初會出現一些服務，其中最主要的有
+Bitcoin 的崛起意味著事物開始被衡量，無論是價格、鏈上的活動或挖礦。每個人都知道生態系統正在經歷一些成長，但沒有人知道如何正確估算。這就是為什麼 2010 年下半年和 2011 年初會出現一些服務，其中最主要的有
 
 
-- Bitcoin Watch ([bitcoinwatch.com](https://web.archive.org/web/20100816161306/http://www.bitcoinwatch.com/)) 是 Jeff Garzik (jgarzik) [開發](https://bitcointalk.org/index.php?topic=734.msg7954#msg7954) 的統計聚合器；
-- Bitcoin Charts ([bitcoincharts.com](https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/)), 價格追蹤和圖表顯示 Interface [推出](https://bitcointalk.org/index.php?topic=1659.0) 由 Nils Schneider (tcatm) 於 11 月 4 日推出；
+- Bitcoin Watch ([bitcoinwatch.com](https://web.archive.org/web/20100816161306/http://www.bitcoinwatch.com/)) 是 Jeff Garzik (jgarzik) [開發](https://bitcointalk.org/index.php?topic=734.msg7954#msg7954) 的統計數據匯總工具；
+- Bitcoin Charts ([bitcoincharts.com](https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/)), 價格追蹤和圖表展示介面 [推出](https://bitcointalk.org/index.php?topic=1659.0) 由 Nils Schneider (tcatm) 於 11 月 4 日推出；
 - Bitcoin Block explorer（[blockexplorer.com](https://web.archive.org/web/20101128030227/http://blockexplorer.com/)），是由 Theymos 於 11 月 10 日 [建立](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124) 的 Block explorer，任何人都可以透過網路瀏覽器存取 Bitcoin 區塊的內容和交易；
 - Bitcoin 網路圖表 ([Bitcoin.sipa.be](https://web.archive.org/web/20110310155417/http://Bitcoin.sipa.be/))，一個顯示 Bitcoin Hash 率演變圖表的網站 [推出](https://bitcointalk.org/index.php?topic=3024.msg42173#msg42173)，由 Pieter Wuille (sipa) 於 2011 年 1 月 28 日推出；
-- Bitcoin Monitor ([bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/)) 是交易、區塊和 Exchange 作業的即時視覺化工具，由 Jan Vornberger (jav) 於 2011 年 2 月 6 日 [放在線上](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150)。
+- Bitcoin Monitor ([bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/)) 是交易、區塊和交易運作可視化工具，由 Jan Vornberger (jav) 於 2011 年 2 月 6 日 [上線](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150)。
 
-顯示 Bitcoin 成功的最後一個因素是，有人試圖測試它的極限。在 11 月 15 日到 26 日之間，確實有個人以製造大量交易來取樂，每天的交易量高達數千筆。Jeff Garzik 在 19 日 [報告](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) 了這項特殊活動。這迫使 Satoshi 採取措施，[恢復](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460) Interface 的交易費用，並增加免費交易的限制。
+顯示 Bitcoin 成功的最後一個因素是，有人試圖測試它的極限。在 11 月 15 日到 26 日之間，確實有個人以製造大量交易來取樂，每天的交易量高達數千筆。Jeff Garzik 在 19 日 [報告](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870) 了這項特殊活動。這迫使中本聰採取措施，[恢復](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460) 交易手續費並增加對免費交易的限制。
 
 ### 電子前線基金會接受 Bitcoin
 
-2010 年底的一件大事是電子前線基金會 (Electronic Frontier Foundation) 接受 Bitcoin，這是一個保護網際網路自由的國際組織，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 於 1900 年共同創立。這對於 Bitcoin 的早期採用者來說尤其重要，因為他們骨子裡都是 cypherpunks。他們非常希望 Bitcoin 能被接受。
+2010 年底的一件大事是電子前線基金會 (Electronic Frontier Foundation) 接受 Bitcoin，這是一個保護網際網路自由的國際組織，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 於 1900 年共同創立。這對於 Bitcoin 的早期採用者來說尤其重要，因為他們骨子裡都是密碼龐克。他們非常希望 Bitcoin 能被接受。
 
 ![Logo of the Electronic Frontier Foundation](assets/en/058.webp)
 
-2010年8月13日，一位名叫Kiba的論壇成員主動[提出](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)聯繫EFF，並建議他們接受社區的捐款，[收集](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578)。為此，他在MyBitcoin上建立了一個[賬戶](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)，在那裡他收集了資金，並希望轉移給EFF。他草擬了一封电子邮件（由社群更正），在八月底发送。
+2010年8月13日，一位名叫 Kiba 的論壇成員主動[提出](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)聯繫EFF，並建議他們接受社區的捐款，[收集](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578)。為此，他在 MyBitcoin 上建立了一個[賬戶](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)，在那裡他收集了資金，並希望轉移給EFF。他草擬了一封電子郵件，並於 8 月底寄出。
 
 兩週後，在沒有回覆的情況下，第二位論壇會員向他伸出援手。這位化名為 BrightAnarchist 的會員認識其中一位創始人，並在 9 月 13 日寄了一封電子郵件給他們。他在同一天收到了回復，並在論壇上[寫道](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631)：「EFF絕對有興趣接收比特幣！」該帳戶隨後被轉給了該組織。
 

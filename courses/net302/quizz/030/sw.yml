@@ -6,4 +6,4 @@ wrong_answers:
   - NAT
 explanation: |
   Itifaki ya DHCP hupanga kiotomatiki anwani za IP kwa vifaa vilivyo kwenye mtandao, na hivyo kurahisisha usimamizi wa Address.
-reviewed: false
+reviewed: true

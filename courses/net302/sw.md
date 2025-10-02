@@ -1725,7 +1725,7 @@ Kwa kuongezea, mlolongo mmoja unaoendelea wa vikundi vya sifuri unaweza kubadili
 
 
 ```
-1987:c02:0:8l9oa:9077
+1987:c02:0:84c2::cf2a:9077
 ```
 
 

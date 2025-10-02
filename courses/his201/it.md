@@ -576,7 +576,7 @@ Bitcoin, d'altra parte, non si affida a una terza parte fidata e quindi non è s
 
 Questo ci porta al secondo elemento presentato da Satoshi il giorno del lancio del network Bitcoin: il limite dei 21 milioni. L'8 gennaio, nella sua [email di introduzione](https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html), ha descritto questa politica monetaria come segue:
 
-> "Verrà messo in circolo un totale di 21.000.000 di bitcoin. &nbsp;Saranno distribuiti ai miners man mano che creano blocchi, con la quantità emessa che viene dimezzata ogni 4 anni.
+> "Verrà messo in circolo un totale di 21.000.000 di bitcoin. Saranno distribuiti ai miners man mano che creano blocchi, con la quantità emessa che viene dimezzata ogni 4 anni.
 >
 > i primi 4 anni: 10.500.000 bitcoin
 Nei prossimi 4 anni: 5.250.000 bitcoin > Nei prossimi 4 anni: 2.625.000 bitcoin
@@ -606,7 +606,7 @@ Il 27, Hal Finney [accenna](https://www.metzdowd.com/pipermail/cryptography/2009
 
 Un altro sostegno proviene dal cypherpunk Zooko Wilcox-O'Hearn, che all'epoca stava lavorando su Tahoe-LAFS, un sistema di condivisione file che è successore di [Mojo Nation](https://www.salon.com/2000/10/09/mojo_nation/), un progetto popolare nei primi anni 2000. Il 26 gennaio, durante la discussione nella mailing list, ha condiviso un link a un post pubblicato quel giorno stesso sul suo blog intitolato "[Decentralized Money](https://web.archive.org/web/20090303195936/http://testgrid.allmydata.org:3567/uri/URI:DIR2-RO:j74uhg25nwdpjpacl6rkat2yhm:kav7ijeft5h7r7rxdp5bgtlt3viv32yabqajkrdykozia5544jqa/wiki.html#%5B%5BDecentralized%20Money%5D%5D)," dove menziona vari progetti di valuta digitale (DigiCash, bit gold, b-money) e loda Bitcoin. Scrive in particolare:
 
-> "Quello che voglio è una moneta che tutti possano usare facilmente e a basso costo ma che **nessuno** abbia il potere di manipolare. &nbsp; Dove nessuno abbia il potere di gonfiare o sgonfiare il valore della moneta stessa, nessuno abbia il potere di monitorare, tassare o impedire transazioni. &nbsp; Come se fosse proprio l'equivalente digitale dell'oro, nei tempi e luoghi in cui l'oro era la valuta universale."
+> "Quello che voglio è una moneta che tutti possano usare facilmente e a basso costo ma che **nessuno** abbia il potere di manipolare. Dove nessuno abbia il potere di gonfiare o sgonfiare il valore della moneta stessa, nessuno abbia il potere di monitorare, tassare o impedire transazioni. Come se fosse proprio l'equivalente digitale dell'oro, nei tempi e luoghi in cui l'oro era la valuta universale."
 
 Un link a questo testo sarebbe stato [aggiunto](https://web.archive.org/web/20090303195936/http://bitcoin.org/) a Bitcoin.org qualche settimana dopo. E Satoshi [ringraziò](https://bitcointalk.org/index.php?topic=890.msg10723#msg10723) personalmente Zooko un anno e mezzo dopo per questo piccolo aiuto.
 
@@ -798,7 +798,7 @@ Appare anche il primo servizio custodial dedicato a Bitcoin: si tratta di MyBitc
 
 A quel tempo, i wallet leggeri (ovvero wallet aventi un sistema di pagamento semplificato, noti come "SPV") non esistevano, quindi lo stesso Satoshi Nakamoto riteneva accettabile l'uso di questo tipo di software, anche se questo uso andava contro il principio di disintermediazione al cuore di Bitcoin. Il 18 maggio 2010, [scriveva](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) sul forum:
 
-> "Nel frattempo, siti come [vekja.net](http://vekja.net) e [www.mybitcoin.com](http://www.mybitcoin.com) hanno sperimentato sistemi basati su account. &nbsp; Si crea un account su un sito web, si conservano i bitcoin e si trasferiscono in entrata e in uscita. Creare un account su un sito web è molto più semplice che installare un software e imparare a usarlo, ed è un metodo più familiare per la maggior parte delle persone. L'unico svantaggio è che bisogna fidarsi del sito, ma questo va bene per piccoli importi destinati a micropagamenti e spese varie. È un modo facile per iniziare, per poi passare al software bitcoin effettivo quando le quantità ricevute diventano più significative."
+> "Nel frattempo, siti come [vekja.net](http://vekja.net) e [www.mybitcoin.com](http://www.mybitcoin.com) hanno sperimentato sistemi basati su account. Si crea un account su un sito web, si conservano i bitcoin e si trasferiscono in entrata e in uscita. Creare un account su un sito web è molto più semplice che installare un software e imparare a usarlo, ed è un metodo più familiare per la maggior parte delle persone. L'unico svantaggio è che bisogna fidarsi del sito, ma questo va bene per piccoli importi destinati a micropagamenti e spese varie. È un modo facile per iniziare, per poi passare al software bitcoin effettivo quando le quantità ricevute diventano più significative."
 
 Infine, il 19 maggio, un utente con il nome di Teppy ha iniziato ad [accettare](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159) bitcoin per un gioco multiplayer molto diffuso che gestiva, *A Tale in the Desert*.
 
@@ -916,7 +916,7 @@ Satoshi reagì favorevolmente al lancio di questo servizio, anche se non se ne a
 
 Il contributo di Gavin Andresen non si è fermato qui. Ha mostrato un profondo interesse per il funzionamento di Bitcoin e si è dedicato all'analisi del codice. Ha [scoperto](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) il sistema di script integrato nel protocollo, qualcosa che ha prontamente condiviso sul forum. Ha espresso le sue preoccupazioni riguardo a questa caratteristica, poiché riduceva la sicurezza del sistema ("la complessità è nemica della sicurezza") e rendeva più difficile lo sviluppo di una seconda implementazione del software. Satoshi [ha spiegato](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) il motivo dell'integrazione di questo meccanismo, che ha chiamato Script:
 
-> "La natura di Bitcoin è tale che una volta rilasciata la versione 0.1, il funzionamento di base rimarrà immutato per il resto della sua vita. &nbsp; Per questo motivo, ho voluto progettarlo in modo che supportasse ogni possibile tipo di transazione che potessi immaginare.(...) &nbsp; La soluzione è stata uno script, il quale generalizza il problema in modo che le parti coinvolte possano descrivere la loro transazione come un presupposto indispensabile che il network dei nodi prende in cosiderazione. &nbsp; I nodi devono solo capire la transazione per valutare se le condizioni del mittente sono soddisfatte."
+> "La natura di Bitcoin è tale che una volta rilasciata la versione 0.1, il funzionamento di base rimarrà immutato per il resto della sua vita. Per questo motivo, ho voluto progettarlo in modo che supportasse ogni possibile tipo di transazione che potessi immaginare (...). La soluzione è stata uno script, il quale generalizza il problema in modo che le parti coinvolte possano descrivere la loro transazione come un presupposto indispensabile che il network dei nodi prende in cosiderazione. I nodi devono solo capire la transazione per valutare se le condizioni del mittente sono soddisfatte."
 
 Gavin si è anche impegnato nello sviluppo del software Bitcoin, [implementando](https://sourceforge.net/p/bitcoin/code/101/) l'avvio automatico del software stesso all'accensione di Linux. Per farlo, si è concentrato sull'API (la cui implementazione software sarebbe stata [rilasciata](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707) nella versione 0.3.3), e partecipando allo sviluppo della network di test (che aveva [concepito](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104) il 9 giugno). Avrebbe scambiato idee in privato con Satoshi, diventando gradualmente il suo braccio destro, poiché Martti Malmi era [molto impegnato](https://mmalmi.github.io/satoshi/#email-191) con il suo nuovo lavoro a tempo pieno.
 
@@ -1035,7 +1035,7 @@ Questa patch permetteva ai miners di rifiutare la transazione incriminata come n
 
 La mattina seguente, poco dopo le 8:00, la situazione conflittuale fu risolta. La catena corretta divenne più lunga dell'altra, il che significava che tutti i nodi dovevano seguire questa catena, che avessero applicato la patch o meno. Questo incidente interruppe l'attività della network per circa 15 ore, ma la reattività della community fu esemplare. Satoshi [scrisse](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734) intorno alle 13:00:
 
-> "Sembra che abbiamo superato la cattiva catena a partire dal blocco 74,689. &nbsp;I nodi 0.3.9 e inferiori stanno rispondendo con il numero del blocco corrente da alcune ore. (...) Grazie a tutti per la pronta risposta!"
+> "Sembra che abbiamo superato la cattiva catena a partire dal blocco 74,689. I nodi 0.3.9 e inferiori stanno rispondendo con il numero del blocco corrente da alcune ore. (...) Grazie a tutti per la pronta risposta!"
 
 ### Il sistema di allerta
 
@@ -1218,7 +1218,7 @@ Pochi giorni dopo, un [post](https://web.archive.org/web/20101117060233/http://w
 
 Questa è una notizia molto positiva per Bitcoin poiché entrambe le iniziative condividono valori comuni. Inoltre, l'EFF è rinomata per fornire protezione legale a progetti orientati alla privacy e alla protezione dati come Tor e BitTorrent. Lo stesso Satoshi Nakamoto ne è consapevole ed è un forte sostenitore delle azioni dell'organizzazione, come mostrato nel suo [commento](https://mmalmi.github.io/satoshi/#email-254) fatto in una delle sue email indirizzate a Gavin Andresen il 6 gennaio 2011:
 
-> "L'EFF è davvero importante. &nbsp;Dobbiamo mantenere buone relazioni con loro. &nbsp;Siamo il tipo di progetto che apprezzano; hanno aiutato il progetto TOR e hanno fatto molto per proteggere la condivisione di file P2P."
+> "L'EFF è davvero importante. Dobbiamo mantenere buone relazioni con loro. Siamo il tipo di progetto che apprezzano; hanno aiutato il progetto TOR e hanno fatto molto per proteggere la condivisione di file P2P."
 
 ### Il ritorno di Hal Finney
 
@@ -1232,7 +1232,7 @@ Inoltre, studia il codice, che non aveva guardato dal lancio, e si rende conto d
 
 Due ore dopo, Satoshi [risponde](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259):
 
-> "Questo significa molto da parte tua, Hal. &nbsp;Grazie."
+> "Questo significa molto da parte tua, Hal. Grazie."
 
 Questo fu poi il penultimo messaggio pubblico del creatore di Bitcoin, che sarebbe scomparso pochi mesi dopo.
 

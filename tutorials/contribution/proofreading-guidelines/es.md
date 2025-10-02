@@ -27,7 +27,7 @@ En este sentido, todos los colaboradores de Plan ₿ Network son educadores
 
 ## Los primeros pasos antes de corregir en Plan ₿ Network
 
-Antes de empezar una nueva tarea de corrección, anúnciala en el [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa a tu coordinador de Plan ₿ Network, que abrirá un [tema] dedicado (https://github.com/orgs/PlanB-Network/projects/3). Cuando reciba el enlace de la cuestión, simplemente **comenta que vas a empezar** con la tarea de corrección de ese contenido.
+Antes de empezar una nueva tarea de corrección, anúnciala en el [grupo de Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa a tu coordinador de Plan ₿ Network, que abrirá una [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). En el contexto de GitHub, un "issue" es una función que permite a los usuarios rastrear tareas, mejoras, errores o cualquier otra solicitud relacionada con un proyecto. Cuando reciba el enlace de la cuestión, simplemente **comenta que vas a empezar** con la tarea de corrección de ese contenido.
 
 Este sistema ayuda al coordinador a seguir el progreso dentro del repositorio, y permite que el contenido sea "reclamado" por el corrector, lo que evita la duplicación de esfuerzos por parte de otra persona.
 En la propia edición, encontrarás los enlaces que te redirigen al contenido a comprobar. Puedes simplemente hacer clic en ellos, o, incluso mejor, puedes volver a tu propio repositorio y trabajar directamente desde allí. ¡Veamos cómo puedes hacerlo!
@@ -36,11 +36,11 @@ En primer lugar, **recuerda SIEMPRE SINCRONIZAR tu repo, en la rama "dev"**. De 
 
 ![REVIEW](assets/en/1.webp)
 
-Después de sincronizar con éxito, puedes acceder directamente al contenido de interés y confirmar en una nueva rama, como se muestra en este [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). De lo contrario, puedes abrir una nueva rama donde trabajar, haciendo clic en "Ramas", como se muestra a continuación.
+Después de sincronizar con éxito, puedes acceder directamente al contenido de interés y confirmar en una nueva rama, como se muestra en este [tutorial](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). De lo contrario, puedes abrir una nueva rama donde trabajar, haciendo clic en "Branches", como se muestra a continuación.
 
 ![REVIEW](assets/en/2.webp)
 
-Dentro de esta nueva página, encontrarás todas las ramas que ya has abierto bajo el título "Tus ramas". Esta sección es muy útil porque te permite encontrar fácilmente dónde has modificado algún contenido. Si quieres abrir una nueva rama, puedes hacer clic en "Nueva rama" en la esquina superior derecha de la página.
+Dentro de esta nueva página, encontrarás todas las ramas que ya has abierto bajo el título "Your Branches". Esta sección es muy útil porque te permite encontrar fácilmente dónde has modificado algún contenido. Si quieres abrir una nueva rama, puedes hacer clic en "New Branch" en la esquina superior derecha de la página.
 
 ![REVIEW](assets/en/3.webp)
 
@@ -50,7 +50,7 @@ Te sugerimos que hagas lo mismo: Asegúrate de abrir una nueva rama cada vez que
 
 ![REVIEW](assets/en/4.webp)
 
-Después de crear esta nueva rama, asegúrate de hacer clic en ella desde "Tus ramas" en la página anterior y empezar a trabajar en el archivo *.md* relacionado con el contenido específico (en este caso, haremos clic en "cursos" -> "BTC101" -> "fr.md"). Todos los commits relacionados con el archivo específico tendrán que ser confirmados (guardados) dentro de la misma rama.
+Después de crear esta nueva rama, asegúrate de hacer clic en ella desde "Your Branches" en la página anterior y empezar a trabajar en el archivo *.md* relacionado con el contenido específico (en este caso, haremos clic en "cursos" -> "BTC101" -> "fr.md"). Todos los commits relacionados con el archivo específico tendrán que ser confirmados (guardados) dentro de la misma rama.
 
 ## ¿Lengua original o traducción?
 
@@ -120,7 +120,7 @@ Así pues, comprueba siempre el texto original en inglés para ver si debe haber
 
 ![REVIEW](assets/en/10.webp)
 
-- Lo mismo puede ocurrir con símbolos como $ y `` ``.
+- Lo mismo puede ocurrir con símbolos como $ y `` ` ``.
 
 Asegúrate de comprobar el archivo del idioma original (a menudo EN o FR) para ver dónde se supone que deben estar estos símbolos. Siempre puedes pedir ayuda al coordinador sobre este asunto.
 
@@ -133,7 +133,7 @@ Asegúrate de comprobar el archivo del idioma original (a menudo EN o FR) para v
 ¿Sabías que también puedes corregir las preguntas de los cuestionarios de cada curso? Por ejemplo, si quieres corregir los cuestionarios de BTC101 en TI, puedes abrir una rama específica y seguir este camino: "courses" -> "BTC101" -> "quiz". Allí encontrarás todas las carpetas dedicadas a cada pregunta, junto con el archivo de idioma correspondiente en formato _yml_.
 
 Una vez más, asegúrate de que te encuentras en una rama que hayas abierto específicamente para este fin, e informa siempre al coordinador.
-Después de revisar la pregunta, asegúrate de cambiar el estado "revisado" de "falso" a "verdadero", como se muestra en la imagen siguiente.
+Después de revisar la pregunta, asegúrate de cambiar el estado "reviewed" de "false" a "true", como se muestra en la imagen siguiente.
 
 ![REVIEW](assets/en/12.webp)
 
@@ -148,7 +148,7 @@ En casos como éste, adapta esta frase a su lengua de destino, o al inglés.
 
 ![REVIEW](assets/en/13.webp)
 
-Al utilizar la función "reemplazar todo", es importante comprobar dos veces los resultados para asegurarse de que no se han alterado también los enlaces. Por ejemplo, si deseas cambiar la palabra "Bitcoin" por "Bitkoin" (lo que puede ser necesario en algunos idiomas), la función "reemplazar todo" puede actualizar eficazmente todas las instancias del texto. Sin embargo, ten en cuenta que esta herramienta también modificará todos los enlaces que contengan esa palabra, lo que puede provocar problemas de redireccionamiento.
+Al utilizar la función "reemplazar todo (replace all)", es importante comprobar dos veces los resultados para asegurarse de que no se han alterado también los enlaces. Por ejemplo, si deseas cambiar la palabra "Bitcoin" por "Bitkoin" (lo que puede ser necesario en algunos idiomas), la función "reemplazar todo" puede actualizar eficazmente todas las instancias del texto. Sin embargo, ten en cuenta que esta herramienta también modificará todos los enlaces que contengan esa palabra, lo que puede provocar problemas de redireccionamiento.
 
 En el ejemplo siguiente, el corrector utilizó la función anterior para sustituir "Satoshi" por "Satoshi(Sats)", y también cambió el enlace a un tutorial que contenía la propia palabra. Como consecuencia, el enlace dejó de ser válido.
 Comprueba siempre todos los hipervínculos del texto para asegurarte de que son correctos.

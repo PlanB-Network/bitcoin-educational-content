@@ -748,7 +748,7 @@ Idealerweise sollte für diese Übungen ein professionelles Blockchain-Analyse-T
 
 Zu Beginn stelle ich Ihnen die Übungen vor. Benutzen Sie Ihren Block-Explorer, um sie auszufüllen, und notieren Sie Ihre Antworten auf einem Blatt Papier. Am Ende dieses Kapitels gebe ich Ihnen dann die Antworten, damit Sie Ihre Ergebnisse überprüfen und korrigieren können.
 
-*Die Transaktionen, die für diese Übungen ausgewählt wurden, sind rein zufällig aufgrund ihrer Merkmale ausgewählt worden. Dieses Kapitel ist ausschließlich zu Bildungs- und Informationszwecken gedacht. Ich möchte klarstellen, dass ich die Verwendung dieser Tools für böswillige Zwecke weder unterstütze noch ermutige. Ziel ist es, Ihnen beizubringen, wie Sie sich vor der Analyse von Zeichenketten schützen können, und nicht, Analysen durchzuführen, um die privaten Informationen anderer Leute zu enthüllen.*
+*Die Transaktionen, die für diese Übungen ausgewählt wurden, sind rein zufällig aufgrund ihrer Merkmale ausgewählt worden. Dieses Kapitel ist ausschließlich zu Bildungs- und Informationszwecken gedacht. Ich möchte klarstellen, dass ich die Verwendung dieser Tools für böswillige Zwecke weder unterstütze noch ermutige. Ziel ist es, Ihnen beizubringen, wie Sie sich vor der Analyse von Zeichenketten schützen können, und nicht, Analysen durchzuführen, um die privaten Informationen anderer Leute zu enthüllen.
 
 ### Übung 1
 
@@ -2421,22 +2421,22 @@ $$
 
 Nehmen wir das Beispiel eines Whirlpool 8x8 Surge Cycle Coinjoin, würde die Boltzmann-Tabelle wie folgt aussehen:
 
-| Ausgang 0 | Ausgang 1 | Ausgang 2 | Ausgang 3 | Ausgang 4 | Ausgang 5 | Ausgang 6 | Ausgang 7 |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| Eingabe 0 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
-| Eingabe 1 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
-| Eingabe 2 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
-| Eingabe 3 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
-| Eingabe 4 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
-| Eingabe 5 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
-| Eingabe 6 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
-| Eingabe 7 | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% | 23% |
+|           | Ausgang 0 | Ausgang 1 | Ausgang 2 | Ausgang 3 | Ausgang 4 | Ausgang 5 | Ausgang 6 | Ausgang 7 |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Eingabe 0 | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       |
+| Eingabe 1 | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       |
+| Eingabe 2 | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       |
+| Eingabe 3 | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       |
+| Eingabe 4 | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       |
+| Eingabe 5 | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       |
+| Eingabe 6 | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       |
+| Eingabe 7 | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       | 23%       |
 
 Im Falle einer einfachen Transaktion mit einem Eingang und 2 Ausgängen ist die Situation jedoch anders:
 
-| Ausgabe 0 | Ausgabe 1 |
-|---------|----------|----------|
-| Eingabe 0 | 100% | 100% |
+|           | Ausgabe 0 | Ausgabe 1 |
+|-----------|-----------|-----------|
+| Eingabe 0 | 100%      | 100%      |
 
 Hier sehen wir, dass die Wahrscheinlichkeit, dass jede Ausgabe von Eingabe Nr. 0 stammt, 100 % beträgt. Eine geringere Wahrscheinlichkeit spiegelt also eine größere Vertraulichkeit wider und verwässert die direkten Verbindungen zwischen Inputs und Outputs.
 

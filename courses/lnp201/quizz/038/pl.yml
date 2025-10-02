@@ -1,9 +1,9 @@
 question: Jaką rolę odgrywa blokada czasowa w działaniu HTLC?
 answer: Zapewnia ramy czasowe na dokonanie płatności przed anulowaniem
 wrong_answers:
-  - Zwiększa to przepustowość używanego kanału
-  - Dodaje to Layer prywatności do transakcji
-  - Stosuje dodatkowe opłaty za każdy węzeł pośredniczący
+  - Zwiększa przepustowość używanego kanału
+  - Dodaje warstwę prywatności do transakcji
+  - Nakłada dodatkowe opłaty za każdy węzeł pośredniczący
 explanation: |
-  Blokada czasowa nakłada ramy czasowe na ukończenie HTLC, co pozwala na odzyskanie środków, jeśli transakcja się nie powiedzie, poprzez anulowanie płatności po tym okresie.
+  Blokada czasowa nakłada ramy czasowe na ukończenie kontraktu HTLC, co pozwala na odzyskanie środków poprzez anulowanie płatności po tym okresie, jeśli transakcja się nie powiedzie.
 reviewed: false

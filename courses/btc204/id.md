@@ -50,25 +50,25 @@ Tujuan dari kursus pelatihan ini bukan untuk membuat Anda benar-benar anonim dal
 
 Sebagai permulaan, kita akan meninjau prinsip-prinsip dasar yang mengatur pengoperasian Bitcoin, sehingga kita dapat dengan tenang membahas pengertian-pengertian yang berkaitan dengan kerahasiaan. Sangat penting untuk menguasai beberapa konsep dasar, seperti UTXO, menerima alamat dan skrip, sebelum Anda dapat sepenuhnya memahami konsep-konsep yang akan kita bahas di bagian berikut. Kami juga akan memperkenalkan model kerahasiaan umum Bitcoin, seperti yang dibayangkan oleh Satoshi Nakamoto, yang akan memungkinkan kita untuk memahami taruhan dan risiko yang terkait.
 
-![BTC204](assets/fr/001.webp)
+![BTC204](assets/id/001.webp)
 
 **Bagian 2: Memahami dan melindungi dari analisis rantai**
 
 Pada bagian kedua, kita akan melihat teknik yang digunakan oleh perusahaan analisis blockchain untuk melacak aktivitas Anda di Bitcoin. Memahami metode-metode ini sangat penting untuk memperkuat perlindungan privasi Anda. Tujuan dari bagian ini adalah untuk memeriksa strategi penyerang untuk lebih memahami risiko dan mempersiapkan diri untuk teknik-teknik yang akan kita pelajari di bagian selanjutnya. Kita akan menganalisa pola-pola transaksi, heuristik internal dan eksternal, dan kemungkinan interpretasi dari pola-pola ini. Selain teori, kita akan mempelajari cara menggunakan block explorer untuk analisis rantai, melalui contoh-contoh praktis dan latihan.
 
-![BTC204](assets/fr/002.webp)
+![BTC204](assets/id/002.webp)
 
 **Bagian 3: Menguasai praktik terbaik untuk melindungi privasi Anda**
 
 Pada bagian ketiga dari kursus pelatihan ini, kita akan membahas hal-hal yang lebih detail: latihan! Tujuannya adalah untuk menguasai semua praktik terbaik yang penting yang seharusnya menjadi refleks alami bagi setiap pengguna Bitcoin. Kita akan membahas penggunaan alamat kosong, penandaan, konsolidasi, penggunaan node lengkap, serta metode KYC dan akuisisi. Tujuannya adalah untuk memberikan Anda gambaran umum yang komprehensif mengenai jebakan-jebakan yang perlu dihindari untuk membangun fondasi yang kuat dalam upaya kita melindungi privasi. Untuk beberapa praktik ini, Anda akan dipandu ke tutorial khusus tentang cara menerapkannya.
 
-![BTC204](assets/fr/003.webp)
+![BTC204](assets/id/003.webp)
 
 **Bagian 4: Memahami transaksi coinjoin**
 
 Bagaimana kita bisa membicarakan privasi di Bitcoin tanpa menyebutkan koin bersama? Di bagian 4, Anda akan mengetahui semua yang perlu Anda ketahui tentang metode pencampuran ini. Anda akan mempelajari apa itu coinjoin, sejarah dan tujuannya, serta berbagai jenis coinjoin yang ada. Terakhir, untuk pengguna yang lebih berpengalaman, kita akan melihat apa itu anonset dan entropi, dan bagaimana cara menghitungnya.
 
-![BTC204](assets/fr/004.webp)
+![BTC204](assets/id/004.webp)
 
 **Bagian 5: Memahami tantangan teknik kerahasiaan tingkat lanjut lainnya**
 
@@ -76,7 +76,7 @@ Pada bagian kelima, kita akan melihat semua teknik lain yang tersedia untuk meli
 
 Kita juga akan melihat privasi pada tingkat jaringan node dan penyebaran transaksi. Kita juga akan mendiskusikan berbagai protokol yang telah diusulkan selama bertahun-tahun untuk meningkatkan privasi pengguna Bitcoin, termasuk protokol alamat statis.
 
-![BTC204](assets/fr/005.webp)
+![BTC204](assets/id/005.webp)
 Siap menjelajahi seluk-beluk privasi di Bitcoin? Ayo mulai!
 
 # Definisi dan konsep utama
@@ -96,7 +96,7 @@ Protokol Bitcoin didasarkan pada model UTXO, yang merupakan singkatan dari "Unsp
 
 Model ini sangat berbeda dengan sistem perbankan tradisional, yang mengandalkan mekanisme rekening dan saldo untuk melacak arus keuangan. Memang, dalam sistem perbankan, saldo individu disimpan dalam rekening yang dilampirkan pada sebuah identitas. Misalnya, ketika Anda membeli baguette dari tukang roti, bank Anda hanya mendebet jumlah pembelian dari rekening Anda, mengurangi saldo Anda, sementara rekening tukang roti dikreditkan dengan jumlah yang sama, meningkatkan saldonya. Dalam sistem ini, tidak ada hubungan antara uang yang masuk ke rekening Anda dan uang yang keluar dari rekening Anda, selain catatan transaksi.
 
-![BTC204](assets/fr/006.webp)
+![BTC204](assets/id/006.webp)
 
 Bitcoin bekerja dengan cara yang berbeda. Konsep akun tidak ada, dan unit moneter tidak dikelola melalui saldo, tetapi melalui UTXO. UTXO mewakili jumlah bitcoin tertentu yang belum dibelanjakan, sehingga membentuk "sepotong bitcoin", yang bisa berukuran besar atau kecil. Sebagai contoh, satu UTXO dapat bernilai `500 BTC` atau hanya `700 SATS`.
 
@@ -114,11 +114,11 @@ Secara teoritis, satu UTXO dapat mewakili nilai berapa pun dalam bitcoin, mulai 
 
 UTXO adalah alat tukar dalam Bitcoin. Setiap transaksi menghasilkan konsumsi UTXO sebagai input dan pembuatan UTXO baru sebagai output. Ketika transaksi selesai, UTXO yang digunakan sebagai input dianggap "dihabiskan", dan UTXO baru dibuat dan dialokasikan ke penerima yang ditunjukkan dalam output transaksi. Dengan demikian, UTXO hanya mewakili output transaksi yang tidak terpakai, dan oleh karena itu merupakan jumlah bitcoin milik pengguna pada waktu tertentu.
 
-![BTC204](assets/fr/007.webp)
+![BTC204](assets/id/007.webp)
 
 Semua UTXO diamankan dengan skrip yang menentukan kondisi di mana UTXO dapat digunakan. Untuk menggunakan UTXO, pengguna harus menunjukkan kepada jaringan bahwa dia memenuhi persyaratan yang ditentukan oleh skrip yang mengamankan UTXO tersebut. Biasanya, UTXO dilindungi oleh kunci publik (atau alamat penerima yang mewakili kunci publik). Untuk membelanjakan UTXO yang terkait dengan kunci publik ini, pengguna harus membuktikan bahwa ia memegang kunci privat yang sesuai, dengan memberikan tanda tangan digital yang dibuat dengan kunci ini. Inilah mengapa kami mengatakan bahwa dompet Bitcoin Anda tidak benar-benar berisi bitcoin, tetapi menyimpan kunci pribadi Anda, yang pada gilirannya memberi Anda akses ke UTXO Anda dan, lebih jauh lagi, ke bitcoin yang diwakilinya.
 
-![BTC204](assets/fr/008.webp)
+![BTC204](assets/id/008.webp)
 
 Karena tidak ada konsep rekening dalam Bitcoin, saldo dompet hanyalah jumlah nilai dari semua UTXO yang dapat dibelanjakan. Sebagai contoh, jika dompet Bitcoin Anda dapat membelanjakan 4 UTXO berikut ini:
 
@@ -131,7 +131,7 @@ Karena tidak ada konsep rekening dalam Bitcoin, saldo dompet hanyalah jumlah nil
 
 Total saldo portofolio Anda adalah `17 BTC`.
 
-![BTC204](assets/fr/009.webp)
+![BTC204](assets/id/009.webp)
 
 ## Struktur transaksi Bitcoin
 
@@ -142,17 +142,17 @@ Total saldo portofolio Anda adalah `17 BTC`.
 
 Transaksi Bitcoin adalah sebuah operasi yang tercatat di blockchain yang mentransfer kepemilikan bitcoin dari satu orang ke orang lain. Lebih tepatnya, karena kita menggunakan model UTXO dan tidak ada akun, transaksi memenuhi syarat pengeluaran yang mengamankan satu atau lebih UTXO, mengkonsumsinya, dan secara ekuivalen menciptakan UTXO baru dengan syarat pengeluaran baru. Singkatnya, sebuah transaksi memindahkan bitcoin dari skrip yang terpenuhi ke skrip baru yang dirancang untuk mengamankannya.
 
-![BTC204](assets/fr/010.webp)
+![BTC204](assets/id/010.webp)
 
 Oleh karena itu, setiap transaksi Bitcoin terdiri dari satu atau lebih input dan satu atau lebih output. Input adalah UTXO yang dikonsumsi oleh transaksi untuk menghasilkan output. Keluaran adalah UTXO baru yang dapat digunakan sebagai input untuk transaksi selanjutnya.
 
-![BTC204](assets/fr/011.webp)
+![BTC204](assets/id/011.webp)
 
 **Tahukah Anda?** Secara teoritis, sebuah transaksi bitcoin dapat memiliki jumlah input dan output yang tidak terbatas. Satu-satunya batasan adalah ukuran blok maksimum.
 
 Setiap input dalam transaksi Bitcoin mengacu pada UTXO yang belum dibelanjakan sebelumnya. Untuk menggunakan UTXO sebagai input, pemegangnya harus menunjukkan bahwa ia adalah pemilik yang sah dengan memvalidasi skrip yang terkait, yaitu dengan memenuhi syarat pembelanjaan yang diberlakukan. Secara umum, ini berarti memberikan tanda tangan digital yang dihasilkan dengan kunci pribadi yang sesuai dengan kunci publik yang pada awalnya mengamankan UTXO ini. Oleh karena itu, skrip ini terdiri dari verifikasi bahwa tanda tangan tersebut sesuai dengan kunci publik yang digunakan ketika dana diterima.
 
-![BTC204](assets/fr/012.webp)
+![BTC204](assets/id/012.webp)
 
 Setiap output, pada gilirannya, menentukan jumlah bitcoin yang akan ditransfer, serta penerima. Yang terakhir ini ditentukan oleh skrip baru, yang biasanya memblokir UTXO yang baru dibuat dengan alamat penerima atau kunci publik baru.
 
@@ -166,11 +166,11 @@ Mekanisme ini mirip dengan koin emas. Katakanlah Anda memiliki koin 2 ons dan in
 
 Bitcoin bekerja dengan cara yang sama. Bayangkan Alice memiliki UTXO sebesar `10.000 SATS` dan ingin membeli baguette seharga `4.000 SATS`. Alice akan melakukan transaksi dengan 1 UTXO sebesar `10.000 SATS` sebagai input, yang akan ia konsumsi secara penuh, dan 2 UTXO sebesar `4.000 SATS` dan `6.000 SATS` sebagai output. UTXO sebesar `4.000 SATS` akan dikirim ke tukang roti sebagai pembayaran untuk baguette, sedangkan UTXO sebesar `6.000 SATS` akan kembali ke Alice dalam bentuk uang kembalian. UTXO ini, yang kembali ke penerbit asli transaksi, dikenal sebagai "pertukaran" dalam jargon Bitcoin.
 
-![BTC204](assets/fr/013.webp)
+![BTC204](assets/id/013.webp)
 
 Sekarang mari kita bayangkan bahwa Alice tidak memiliki satu UTXO dengan `10.000 SATS`, melainkan dua UTXO dengan `3.000 SATS`. Dalam situasi ini, tidak satu pun dari UTXO tersebut yang cukup untuk mengatur `4.000 SATS` tongkat. Oleh karena itu, Alice harus secara bersamaan menggunakan 2 UTXO dengan `3.000 SATS` sebagai input untuk transaksinya. Dengan cara ini, jumlah total input akan mencapai `6.000 SATS`, yang memungkinkannya untuk memenuhi pembayaran `4.000 SATS` kepada tukang roti. Metode ini, di mana beberapa UTXO dikelompokkan bersama sebagai input untuk sebuah transaksi, sering disebut sebagai "penggabungan".
 
-![BTC204](assets/fr/014.webp)
+![BTC204](assets/id/014.webp)
 
 ### Biaya transaksi
 
@@ -182,7 +182,7 @@ Frais = total inputs - total outputs
 
 Mari kita ambil contoh Alice, yang memiliki UTXO sebesar `10.000 SATS` dan ingin membeli sebuah baguette dengan harga `4.000 SATS`. Alice membuat transaksi dengan UTXO-nya sebesar `10.000 SATS` sebagai input. Dia kemudian menghasilkan output sebesar `4.000 SATS` untuk tukang roti untuk membayar roti baguette tersebut. Untuk mendorong para penambang mengintegrasikan transaksinya ke dalam sebuah blok, Alice mengalokasikan biaya sebesar `200 SATS`. Dia kemudian membuat output kedua, yaitu pertukaran, yang akan dikembalikan kepadanya, sebesar `5.800 SATS`.
 
-![BTC204](assets/fr/015.webp)
+![BTC204](assets/id/015.webp)
 
 Dengan menerapkan rumus biaya, kami melihat bahwa memang ada `200 SATS` yang tersisa untuk anak di bawah umur:
 
@@ -205,7 +205,7 @@ Coinbase adalah jenis transaksi Bitcoin yang spesifik, yang unik untuk setiap bl
 
 Transaksi coinbase unik karena merupakan satu-satunya transaksi yang mampu menciptakan bitcoin secara ex nihilo, tanpa perlu mengonsumsi input untuk menghasilkan output. Bitcoin yang baru dibuat ini adalah apa yang bisa kita sebut sebagai "UTXO asli".
 
-![BTC204](assets/fr/016.webp)
+![BTC204](assets/id/016.webp)
 
 Bitcoin yang disubsidi blok adalah BTC baru yang dibuat dari awal, sesuai dengan jadwal penerbitan yang telah ditetapkan sebelumnya dalam aturan konsensus. Subsidi blok dibagi dua setiap 210.000 blok, yaitu kira-kira setiap empat tahun, dalam sebuah proses yang dikenal dengan istilah "halving". Awalnya, 50 bitcoin dibuat dengan setiap subsidi, tetapi jumlah ini secara bertahap menurun; saat ini, 3,125 bitcoin per blok.
 
@@ -228,11 +228,11 @@ Kedua, seperti yang telah disebutkan di bagian sebelumnya, koin Bitcoin pada das
 
 Salah satu fungsi uang adalah untuk memecahkan masalah kebetulan ganda dari kebutuhan. Dalam sistem barter, penyelesaian pertukaran tidak hanya membutuhkan seseorang yang memberikan barang yang sesuai dengan kebutuhan saya, tetapi juga menyediakan barang yang nilainya setara yang memuaskan kebutuhannya sendiri. Mencapai keseimbangan ini adalah masalah yang kompleks.
 
-![BTC204](assets/fr/017.webp)
+![BTC204](assets/id/017.webp)
 
 Itulah mengapa kami menggunakan uang untuk memindahkan nilai dalam ruang dan waktu.
 
-![BTC204](assets/fr/018.webp)
+![BTC204](assets/id/018.webp)
 
 Agar mata uang kripto dapat mengatasi masalah ini, sangat penting bahwa pihak yang menyediakan barang atau jasa yakin akan kemampuannya untuk membelanjakan uang tersebut di kemudian hari. Dengan demikian, setiap individu yang rasional yang ingin menerima koin, baik digital maupun fisik, akan memastikan bahwa koin tersebut memenuhi dua kriteria mendasar:
 - **Karya tersebut harus memiliki integritas dan keaslian;**
@@ -244,19 +244,19 @@ Keaslian juga merupakan karakteristik yang sulit untuk diverifikasi pada media m
 
 Di sisi lain, karena sifatnya, pembelanjaan ganda tidak menjadi masalah untuk mata uang fisik. Jika saya memberi Anda uang kertas €10, uang tersebut secara permanen meninggalkan kepemilikan saya dan menjadi milik Anda, yang secara alami mengesampingkan kemungkinan pembelanjaan ganda dari unit moneter yang diwujudkannya. Singkatnya, saya tidak akan bisa membelanjakan uang kertas €10 ini lagi.
 
-![BTC204](assets/fr/019.webp)
+![BTC204](assets/id/019.webp)
 
 Untuk mata uang digital, kesulitannya berbeda. Memastikan keaslian dan integritas sebuah koin seringkali lebih sederhana. Seperti yang kita lihat pada bagian sebelumnya, model UTXO Bitcoin memungkinkan untuk melacak koin kembali ke asalnya, dan dengan demikian memverifikasi bahwa koin tersebut memang dibuat oleh penambang yang mematuhi aturan konsensus.
 
 Di sisi lain, memastikan bahwa tidak ada pengeluaran ganda lebih kompleks, karena semua barang digital pada dasarnya adalah informasi. Tidak seperti barang fisik, informasi tidak terbagi-bagi saat dipertukarkan, tetapi menyebar dengan cara digandakan. Sebagai contoh, jika saya mengirimi Anda sebuah dokumen melalui email, dokumen tersebut akan digandakan. Anda tidak dapat memastikan bahwa saya telah menghapus dokumen aslinya.
 
-![BTC204](assets/fr/020.webp)
+![BTC204](assets/id/020.webp)
 
 ### Mencegah pengeluaran ganda untuk Bitcoin
 
 Satu-satunya cara untuk menghindari duplikasi aset digital ini adalah dengan mengetahui semua pertukaran pada sistem. Dengan cara ini, kita dapat mengetahui siapa yang memiliki apa dan memperbarui kepemilikan setiap orang sesuai dengan transaksi yang dilakukan. Inilah yang terjadi, misalnya, dengan uang kertas dalam sistem perbankan. Ketika Anda membayar €10 kepada pedagang dengan kartu kredit, bank mencatat pertukaran dan memperbarui buku rekening.
 
-![BTC204](assets/fr/021.webp)
+![BTC204](assets/id/021.webp)
 
 Pada Bitcoin, pembelanjaan ganda dicegah dengan cara yang sama. Kami berusaha memastikan tidak adanya transaksi yang telah membelanjakan koin yang bersangkutan. Jika koin tersebut belum pernah digunakan, maka dapat dipastikan tidak akan ada pembelanjaan ganda yang terjadi. Prinsip ini dijelaskan oleh Satoshi Nakamoto dalam White Paper dengan kalimat yang terkenal:
 
@@ -270,19 +270,19 @@ Justru penyebaran informasi secara publik inilah yang mempersulit perlindungan p
 
 Dalam sistem tradisional, rekening bank Anda ditautkan dengan identitas Anda. Bank dapat mengetahui rekening bank mana yang dimiliki oleh nasabah mana, dan transaksi apa saja yang terkait dengannya. Namun, aliran informasi ini terputus antara bank dan domain publik. Dengan kata lain, tidak mungkin untuk mengetahui saldo dan transaksi rekening bank milik individu lain. Hanya bank yang memiliki akses ke informasi ini.
 
-![BTC204](assets/fr/022.webp)
+![BTC204](assets/id/022.webp)
 
 Sebagai contoh, bankir Anda mengetahui bahwa Anda membeli baguette setiap pagi dari tukang roti setempat, tetapi tetangga Anda tidak mengetahui transaksi ini. Dengan cara ini, arus informasi dapat diakses oleh pihak-pihak terkait, terutama bank, tetapi tetap tidak dapat diakses oleh pihak luar.
 
-![BTC204](assets/fr/023.webp)
+![BTC204](assets/id/023.webp)
 
 Karena kendala penyebaran transaksi ke publik yang telah kita lihat pada bagian sebelumnya, model kerahasiaan Bitcoin tidak dapat mengikuti model sistem perbankan. Dalam kasus Bitcoin, karena aliran informasi tidak dapat dipecah antara transaksi dan domain publik, maka model kerahasiaan bergantung pada pemisahan antara identitas pengguna dan transaksi itu sendiri.
 
-![BTC204](assets/fr/024.webp)
+![BTC204](assets/id/024.webp)
 
 Sebagai contoh, jika Anda membeli sebuah baguette dari tukang roti, dengan membayar menggunakan BTC, tetangga Anda, yang memiliki node lengkapnya sendiri, dapat melihat transaksi Anda, seperti halnya dia dapat melihat semua transaksi lain dalam sistem. Namun, jika prinsip kerahasiaan dihormati, dia seharusnya tidak dapat menghubungkan transaksi khusus ini dengan identitas Anda.
 
-![BTC204](assets/fr/025.webp)
+![BTC204](assets/id/025.webp)
 
 Namun karena transaksi Bitcoin bersifat publik, maka masih memungkinkan untuk membuat hubungan di antara mereka untuk menyimpulkan informasi mengenai pihak-pihak yang terlibat. Kegiatan ini bahkan merupakan spesialisasi tersendiri, yang dikenal sebagai "analisis blockchain". Di bagian selanjutnya dari kursus ini, saya mengundang Anda untuk menjelajahi dasar-dasar analisis blockchain, sehingga Anda dapat memahami bagaimana bitcoin Anda dilacak dan melindungi diri Anda dengan lebih baik.
 
@@ -305,7 +305,7 @@ Dalam istilah awam, ada tiga tahap utama dalam analisis rantai:
 2. **Identifikasi fitur yang diketahui;**
 3. **Pengurangan asumsi**
 
-![BTC204](assets/fr/026.webp)
+![BTC204](assets/id/026.webp)
 
 Analisis blockchain dapat dilakukan oleh siapa saja. Yang Anda perlukan hanyalah akses ke informasi publik blockchain melalui sebuah node yang lengkap untuk mengamati pergerakan transaksi dan membuat hipotesis. Ada juga alat gratis yang memfasilitasi analisis ini, seperti [OXT.me] (https://oxt.me/), yang akan kita bahas secara rinci dalam dua bab terakhir bagian ini. Akan tetapi, risiko utama terhadap kerahasiaan berasal dari perusahaan yang berspesialisasi dalam analisis string. Perusahaan-perusahaan ini telah membawa analisis blockchain ke dalam skala industri dan menjual jasa mereka kepada institusi keuangan dan pemerintah. Di antara perusahaan-perusahaan ini, Chainalysis adalah yang paling terkenal.
 
@@ -313,13 +313,13 @@ Analisis blockchain dapat dilakukan oleh siapa saja. Yang Anda perlukan hanyalah
 
 Salah satu tujuan analisis blockchain adalah untuk mengelompokkan berbagai aktivitas di Bitcoin untuk menentukan keunikan pengguna yang melakukannya. Selanjutnya, akan memungkinkan untuk mencoba menghubungkan kelompok aktivitas ini dengan identitas asli.
 
-![BTC204](assets/fr/027.webp)
+![BTC204](assets/id/027.webp)
 
 Pikirkan kembali bab sebelumnya. Saya telah menjelaskan mengapa model privasi Bitcoin pada awalnya didasarkan pada pemisahan identitas pengguna dari transaksi. Oleh karena itu, akan sangat menggoda untuk berpikir bahwa analisis blockchain tidak berguna, karena meskipun kita dapat mengumpulkan aktivitas onchain, kita tidak dapat mengaitkannya dengan identitas yang sebenarnya.
 
 Secara teoritis, pernyataan ini benar. Pada bagian pertama kursus ini, kita telah melihat bahwa pasangan kunci kriptografi digunakan untuk menetapkan kondisi pada UTXO. Pada intinya, pasangan kunci ini tidak membocorkan informasi tentang identitas pemegangnya. Jadi, meskipun kita berhasil mengelompokkan aktivitas yang terkait dengan pasangan kunci yang berbeda, hal ini tidak memberi tahu kita apa pun tentang entitas di balik aktivitas tersebut.
 
-![BTC204](assets/fr/028.webp)
+![BTC204](assets/id/028.webp)
 
 Akan tetapi, kenyataan praktisnya jauh lebih kompleks. Ada banyak sekali perilaku yang dapat menghubungkan identitas nyata dengan aktivitas onchain. Dalam analisis, ini disebut titik masuk, dan ada banyak sekali.
 
@@ -327,13 +327,13 @@ Yang paling umum adalah KYC (*Know Your Customer*). Jika Anda menarik Bitcoin An
 
 Titik-titik masuk ini hampir tidak dapat dihindari ketika menggunakan Bitcoin. Meskipun kita mungkin berusaha untuk membatasi cakupannya, mereka akan selalu ada. Oleh karena itu, sangat penting untuk menggabungkan metode-metode yang bertujuan untuk menjaga privasi Anda. Meskipun menjaga pemisahan antara identitas asli dan transaksi Anda adalah pendekatan yang menarik, namun hal ini masih belum cukup untuk saat ini. Memang, jika semua aktivitas onchain Anda dapat dikelompokkan bersama, maka titik masuk terkecil sekalipun kemungkinan besar akan mengganggu lapisan kerahasiaan yang telah Anda buat.
 
-![BTC204](assets/fr/029.webp)
+![BTC204](assets/id/029.webp)
 
 ### Mempertahankan diri Anda dari analisis berantai
 
 Jadi, kita juga harus mampu mengatasi analisis blockchain dalam penggunaan Bitcoin. Dengan demikian, kita bisa meminimalkan agregasi aktivitas kita dan membatasi dampak dari sebuah titik masuk terhadap privasi kita.
 
-![BTC204](assets/fr/030.webp)
+![BTC204](assets/id/030.webp)
 
 Apa cara yang lebih baik untuk melawan analisis blockchain selain mempelajari metode yang digunakan di dalamnya? Jika Anda ingin tahu cara meningkatkan privasi Anda di Bitcoin, Anda perlu memahami metode-metode ini. Ini akan memberi Anda pemahaman yang lebih baik tentang teknik-teknik seperti coinjoin atau payjoin (teknik yang akan kita bahas di bagian akhir kursus ini), dan mengurangi kesalahan yang mungkin Anda buat.
 
@@ -364,7 +364,7 @@ Dua heuristik analisis rantai pertama ditemukan oleh Satoshi Nakamoto sendiri. D
 - cIOH (*Common Input Ownership Heuristic*);
 - dan penggunaan ulang alamat.
 
-![BTC204](assets/fr/031.webp)
+![BTC204](assets/id/031.webp)
 
 Sumber: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
@@ -379,7 +379,7 @@ Pola transaksi adalah sebuah model atau struktur keseluruhan dari sebuah transak
 
 Dengan kata lain, kita hanya akan melihat jumlah UTXO yang masuk dan jumlah UTXO yang keluar, tanpa memikirkan detail atau lingkungan transaksi yang lebih spesifik. Berdasarkan pola yang diamati, kita dapat menginterpretasikan sifat dari transaksi tersebut. Kita kemudian akan mencari karakteristik strukturnya dan menyimpulkan interpretasi.
 
-![BTC204](assets/fr/032.webp)
+![BTC204](assets/id/032.webp)
 
 Pada bagian ini, kita akan melihat bersama model-model transaksi utama yang ditemukan dalam analisis rantai, dan untuk setiap model, saya akan memberi Anda interpretasi yang mungkin dari struktur ini, serta contoh konkret.
 
@@ -387,7 +387,7 @@ Pada bagian ini, kita akan melihat bersama model-model transaksi utama yang dite
 
 Mari kita mulai dengan pola yang sangat umum, karena pola inilah yang muncul pada sebagian besar pembayaran bitcoin. Model pembayaran sederhana ditandai dengan konsumsi satu atau lebih UTXO sebagai input dan produksi 2 UTXO sebagai output. Oleh karena itu, model ini terlihat seperti ini:
 
-![BTC204](assets/fr/033.webp)
+![BTC204](assets/id/033.webp)
 
 Ketika kita melihat struktur transaksi ini pada blockchain, kita sudah dapat menarik sebuah interpretasi. Seperti namanya, model ini menunjukkan bahwa kita sedang melakukan transaksi pengiriman atau pembayaran. Pengguna telah menggunakan UTXO miliknya sebagai input untuk menghasilkan output berupa UTXO pembayaran dan UTXO penukaran (uang yang dikembalikan ke pengguna yang sama).
 
@@ -401,7 +401,7 @@ Sebagai contoh, berikut ini adalah transaksi Bitcoin yang menggunakan pola pengi
 b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769
 ```
 
-![BTC204](assets/fr/034.webp)
+![BTC204](assets/id/034.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb14c45f1f879ea0ba4c6e3d16ad53a18c34b769)
 
@@ -413,7 +413,7 @@ Sekarang, setelah Anda memahami apa itu pola, mari kita beralih ke model lain ya
 
 Model kedua ini dicirikan oleh konsumsi satu UTXO sebagai input dan produksi satu UTXO sebagai output.
 
-![BTC204](assets/fr/035.webp)
+![BTC204](assets/id/035.webp)
 
 Interpretasi dari model ini adalah bahwa kita berada di hadapan transfer sendiri. Pengguna telah mentransfer bitcoin-nya ke dirinya sendiri, ke alamat lain miliknya. Karena tidak ada pertukaran dalam transaksi ini, maka sangat kecil kemungkinannya bahwa kita sedang melakukan pembayaran. Memang, ketika pembayaran dilakukan, hampir tidak mungkin bagi pembayar untuk mendapatkan UTXO yang sesuai dengan jumlah yang diminta oleh penjual, ditambah dengan biaya transaksi. Oleh karena itu, secara umum, pembayar diwajibkan untuk menghasilkan output pertukaran.
 
@@ -425,7 +425,7 @@ Sebagai contoh, berikut ini adalah transaksi Bitcoin yang mengadopsi pola sapuan
 35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d
 ```
 
-![BTC204](assets/fr/036.webp)
+![BTC204](assets/id/036.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/35f1072a0fda5ae106efb4fda871ab40e1f8023c6c47f396441ad4b995ea693d)
 
@@ -437,7 +437,7 @@ Mari kita ambil contoh Alice lagi: jika pemindaian mengarah ke alamat yang diket
 
 Model ini dicirikan oleh konsumsi beberapa UTXO pada input dan produksi satu UTXO pada output.
 
-![BTC204](assets/fr/037.webp)
+![BTC204](assets/id/037.webp)
 
 Interpretasi dari pola ini adalah bahwa kita sedang berada di tengah-tengah konsolidasi. Ini adalah praktik umum di kalangan pengguna Bitcoin, yang bertujuan untuk menggabungkan beberapa UTXO untuk mengantisipasi kemungkinan kenaikan biaya transaksi. Dengan melakukan operasi ini selama periode ketika biaya rendah, Anda dapat menghemat biaya di masa mendatang. Kita akan membahas lebih lanjut mengenai praktik ini di bab 4.3.
 
@@ -451,19 +451,19 @@ Sebagai contoh, berikut ini adalah transaksi Bitcoin yang mengadopsi pola konsol
 77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94
 ```
 
-![BTC204](assets/fr/038.webp)
+![BTC204](assets/id/038.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
 Dalam analisis rantai, model ini dapat mengungkapkan banyak informasi. Sebagai contoh, jika kita mengetahui bahwa salah satu input adalah milik Alice, kita dapat mengasumsikan bahwa semua input lainnya dan output dari transaksi ini juga merupakan miliknya. Asumsi ini kemudian memungkinkan kita untuk menelusuri rantai transaksi sebelumnya untuk menemukan dan menganalisis transaksi lain yang mungkin terkait dengan Alice.
 
-![BTC204](assets/fr/039.webp)
+![BTC204](assets/id/039.webp)
 
 ### Pengeluaran yang dikelompokkan
 
 Model ini dicirikan oleh konsumsi beberapa UTXO sebagai input (seringkali hanya satu) dan produksi banyak UTXO sebagai output.
 
-![BTC204](assets/fr/040.webp)
+![BTC204](assets/id/040.webp)
 
 Interpretasi dari model ini adalah bahwa kita berada di hadapan pengeluaran yang dikelompokkan. Ini adalah praktik yang mungkin menunjukkan aktivitas ekonomi yang sangat besar, seperti platform pertukaran. Pengeluaran yang dikelompokkan memungkinkan entitas-entitas ini untuk menghemat biaya dengan menggabungkan pengeluaran mereka dalam satu transaksi.
 
@@ -475,7 +475,7 @@ Sebagai contoh, berikut ini adalah transaksi Bitcoin yang mengadopsi pola pembel
 8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43
 ```
 
-![BTC204](assets/fr/041.webp)
+![BTC204](assets/id/041.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13c70bcbaba8709af01a7dbcc1f574b89176b43)
 
@@ -483,7 +483,7 @@ Source : [Mempool.space](https://mempool.space/fr/tx/8a7288758b6e5d550897beedd13
 
 Di antara pola-pola transaksi, kita juga dapat mengidentifikasi pola-pola yang menunjukkan penggunaan protokol tertentu. Sebagai contoh, Whirlpool coinjoins (dibahas pada bagian 5) akan memiliki struktur yang mudah diidentifikasi yang membedakannya dari transaksi lain yang lebih konvensional.
 
-![BTC204](assets/fr/042.webp)
+![BTC204](assets/id/042.webp)
 
 Analisis dari pola ini menunjukkan bahwa kita kemungkinan besar berada dalam sebuah transaksi kolaboratif. Kita juga dapat mengamati sebuah coinjoin. Jika hipotesis terakhir ini terbukti benar, maka jumlah pintu keluar dapat memberikan perkiraan kasar jumlah peserta dalam coinjoin.
 
@@ -493,7 +493,7 @@ Sebagai contoh, berikut ini adalah transaksi Bitcoin yang mengadopsi pola transa
 00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea
 ```
 
-![BTC204](assets/fr/043.webp)
+![BTC204](assets/id/043.webp)
 
 Source : [Mempool.space](https://mempool.space/fr/tx/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)
 
@@ -514,7 +514,7 @@ Heuristik internal adalah karakteristik spesifik yang kita identifikasi di dalam
 
 Secara umum, jenis heuristik ini akan memungkinkan kita untuk mengidentifikasi pertukaran dalam transaksi tertentu. Dengan demikian, kita dapat melacak sebuah entitas melalui beberapa transaksi yang berbeda. Memang, jika kita mengidentifikasi UTXO milik pengguna yang ingin kita lacak, sangat penting untuk menentukan, ketika dia melakukan transaksi, output mana yang telah ditransfer ke pengguna lain dan output mana yang mewakili bursa, yang dengan demikian tetap dalam kepemilikannya.
 
-![BTC204](assets/fr/044.webp)
+![BTC204](assets/id/044.webp)
 
 Sekali lagi, izinkan saya mengingatkan Anda bahwa heuristik ini tidak sepenuhnya tepat. Jika digunakan secara terpisah, mereka hanya memungkinkan kita untuk mengidentifikasi skenario yang mungkin terjadi. Ini adalah akumulasi dari beberapa heuristik yang membantu mengurangi ketidakpastian, tanpa bisa menghilangkannya sepenuhnya.
 
@@ -524,7 +524,7 @@ Heuristik ini melibatkan studi tentang kesamaan antara input dan output dari tra
 
 Fitur yang paling jelas adalah penggunaan ulang alamat penerima dalam transaksi yang sama.
 
-![BTC204](assets/fr/045.webp)
+![BTC204](assets/id/045.webp)
 
 Heuristik ini hanya menyisakan sedikit ruang untuk keraguan. Kecuali jika kunci pribadinya diretas, alamat penerima yang sama akan mengungkapkan aktivitas dari satu pengguna. Interpretasi yang dihasilkan adalah bahwa pertukaran transaksi adalah output dengan alamat yang sama dengan input. Kita kemudian dapat terus melacak individu dari pertukaran ini.
 
@@ -534,13 +534,13 @@ Sebagai contoh, berikut ini adalah sebuah transaksi di mana heuristik ini dapat 
 54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0
 ```
 
-![BTC204](assets/fr/046.webp)
+![BTC204](assets/id/046.webp)
 
 Source : [Mempool.space](https://mempool.space/tx/54364146665bfc453a55eae4bfb8fdf7c721d02cb96aadc480c8b16bdeb8d6d0)
 
 Kemiripan antara input dan output ini tidak berhenti pada penggunaan ulang alamat. Kesamaan dalam penggunaan skrip dapat digunakan untuk menerapkan heuristik. Sebagai contoh, terkadang kita dapat mengamati versi yang sama antara input dan salah satu output transaksi.
 
-![BTC204](assets/fr/047.webp)
+![BTC204](assets/id/047.webp)
 
 Pada diagram ini, kita dapat melihat bahwa input n° 0 membuka skrip P2WPKH (SegWit V0 yang dimulai dengan `bc1q`). Keluaran n° 0 menggunakan jenis skrip yang sama. Sebaliknya, keluaran nomor 1 menggunakan skrip P2TR (SegWit V1 yang dimulai dengan `bc1p`). Interpretasi dari fitur ini adalah kemungkinan alamat dengan versi yang sama dengan input adalah alamat pertukaran. Oleh karena itu, alamat tersebut akan selalu menjadi milik pengguna yang sama.
 
@@ -550,7 +550,7 @@ Berikut ini adalah sebuah transaksi di mana heuristik ini mungkin dapat diterapk
 db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 ```
 
-![BTC204](assets/fr/048.webp)
+![BTC204](assets/id/048.webp)
 
 Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
@@ -562,7 +562,7 @@ Pada awal tahun 2010-an, heuristik berdasarkan versi skrip ini relatif tidak mem
 
 Heuristik internal lain yang dapat membantu kita mengidentifikasi pertukaran adalah heuristik angka bulat. Secara umum, ketika dihadapkan pada pola pembayaran sederhana (1 input dan 2 output), jika salah satu output mengeluarkan jumlah yang bulat, maka ini mewakili pembayaran.
 
-![BTC204](assets/fr/049.webp)
+![BTC204](assets/id/049.webp)
 
 Dengan eliminasi, jika satu output mewakili pembayaran, maka output lainnya mewakili pertukaran. Oleh karena itu, dapat diartikan bahwa pengguna input selalu memiliki output yang diidentifikasi sebagai pertukaran.
 
@@ -577,7 +577,7 @@ Namun demikian, seorang analis dapat mencoba melakukan konversi ini dengan mempe
 
 Setelah dikonversi ke dalam mata uang fiat, transaksi ini dapat digunakan untuk menerapkan heuristik pembayaran jumlah bulat. Hasil €20 mungkin diberikan kepada pedagang, atau setidaknya berpindah kepemilikan. Dengan pengurangan, hasil €41,27 kemungkinan besar tetap menjadi milik pengguna asli.
 
-![BTC204](assets/fr/050.webp)
+![BTC204](assets/id/050.webp)
 
 Jika suatu hari nanti, bitcoin menjadi unit akun yang lebih disukai di bursa kita, heuristik ini dapat menjadi lebih berguna untuk analisis.
 
@@ -587,7 +587,7 @@ Sebagai contoh, berikut ini adalah sebuah transaksi di mana heuristik ini dapat 
 2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a
 ```
 
-![BTC204](assets/fr/051.webp)
+![BTC204](assets/id/051.webp)
 
 Source : [Mempool.space](https://mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d7730a7b807d470815f5034d52e96d2828a)
 
@@ -595,7 +595,7 @@ Source : [Mempool.space](https://mempool.space/tx/2bcb42fab7fba17ac1b176060e7d7d
 
 Ketika kita mengidentifikasi kesenjangan yang cukup besar antara 2 output transaksi pada model pembayaran sederhana, kita dapat memperkirakan bahwa output terbesar kemungkinan besar adalah valuta asing.
 
-![BTC204](assets/fr/052.webp)
+![BTC204](assets/id/052.webp)
 
 Heuristik keluaran terbesar ini tentunya adalah yang paling tidak tepat dari semuanya. Dengan sendirinya, ini cukup lemah. Namun, fitur ini dapat dikombinasikan dengan heuristik lain untuk mengurangi ketidakpastian interpretasi kita.
 
@@ -607,7 +607,7 @@ Sebagai contoh, berikut ini adalah sebuah transaksi di mana heuristik ini dapat 
 b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 ```
 
-![BTC204](assets/fr/053.webp)
+![BTC204](assets/id/053.webp)
 
 Source : [Mempool.space](https://mempool.space/tx/b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf)
 
@@ -626,13 +626,13 @@ Dengan demikian, dimungkinkan untuk mengeksploitasi penggunaan ulang alamat dala
 
 Interpretasi dari penggunaan kembali sebuah alamat adalah bahwa semua UTXO yang diblokir pada alamat tersebut adalah milik (atau pernah menjadi milik) entitas yang sama. Heuristik ini hanya menyisakan sedikit ruang untuk ketidakpastian. Setelah diidentifikasi, interpretasi yang dihasilkan kemungkinan besar akan sesuai dengan kenyataan. Oleh karena itu, hal ini memungkinkan pengelompokan aktivitas onchain yang berbeda.
 
-![BTC204](assets/fr/054.webp)
+![BTC204](assets/id/054.webp)
 
 Seperti yang dijelaskan pada pendahuluan di Bagian 3, heuristik ini ditemukan oleh Satoshi Nakamoto sendiri. Dalam White Paper, ia menyebutkan sebuah solusi untuk membantu pengguna menghindari pembuatannya, yaitu dengan menggunakan alamat kosong untuk setiap transaksi baru:
 
 "Sebagai firewall tambahan, pasangan kunci baru dapat digunakan untuk setiap transaksi agar tidak terhubung dengan pemilik yang sama."
 
-![BTC204](assets/fr/055.webp)
+![BTC204](assets/id/055.webp)
 
 Sumber: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
@@ -642,7 +642,7 @@ Sebagai contoh, berikut ini adalah alamat yang digunakan kembali dalam beberapa 
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
-![BTC204](assets/fr/056.webp)
+![BTC204](assets/id/056.webp)
 
 Sumber : [Mempool.space](https://mempool.space/address/bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0)
 
@@ -656,7 +656,7 @@ Secara lebih umum, seorang analis juga dapat berfokus pada sidik jari karakteris
 
 Sebagai contoh, kita akan dapat mengidentifikasi bahwa pengguna yang dilacak secara sistematis mengirimkan perubahannya ke alamat P2TR (`bc1p...`). Jika proses ini diulang, kita bisa menggunakannya sebagai heuristik untuk analisis selanjutnya. Kita juga dapat menggunakan sidik jari lain, seperti urutan UTXO, tempat perubahan pada output, sinyal RBF (Replace-by-Fee), atau nomor versi, bidang `nSequence` dan bidang `nLockTime`.
 
-![BTC204](assets/fr/057.webp)
+![BTC204](assets/id/057.webp)
 
 Seperti yang ditunjukkan oleh [@LaurentMT] (https://twitter.com/LaurentMT) dalam [Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (podcast berbahasa Prancis), kegunaan sidik jari portofolio dalam analisis rantai meningkat secara signifikan dari waktu ke waktu. Memang, semakin banyaknya jenis skrip dan penyebaran fitur-fitur baru yang semakin progresif oleh perangkat lunak portofolio menonjolkan perbedaannya. Dalam beberapa kasus, bahkan dimungkinkan untuk mengidentifikasi perangkat lunak yang tepat yang digunakan oleh entitas yang dilacak. Oleh karena itu, penting untuk memahami bahwa studi tentang jejak portofolio sangat relevan untuk transaksi-transaksi terkini, daripada transaksi yang dimulai pada awal tahun 2010.
 
@@ -666,21 +666,21 @@ Singkatnya, sebuah footprint dapat berupa praktik tertentu, yang dilakukan secar
 
 Common Input Ownership Heuristic (CIOH) adalah heuristik yang menyatakan bahwa ketika sebuah transaksi memiliki beberapa input, semuanya kemungkinan besar berasal dari satu entitas. Oleh karena itu, kepemilikannya bersifat umum.
 
-![BTC204](assets/fr/058.webp)
+![BTC204](assets/id/058.webp)
 
 Untuk menerapkan CIOH, pertama-tama kita mengamati sebuah transaksi dengan beberapa input. Ini bisa berupa 2 input, atau 30 input. Setelah karakteristik ini teridentifikasi, kita memeriksa apakah transaksi tersebut cocok dengan model transaksi yang sudah diketahui. Sebagai contoh, jika ada 5 input dengan jumlah yang kurang lebih sama dan 5 output dengan jumlah yang sama persis, kita akan mengetahui bahwa ini adalah struktur coinjoin. Kita tidak akan bisa menerapkan CIOH.
 
-![BTC204](assets/fr/059.webp)
+![BTC204](assets/id/059.webp)
 
 Di sisi lain, jika transaksi tidak sesuai dengan model transaksi kolaboratif yang diketahui, maka kita dapat menginterpretasikan bahwa semua input kemungkinan besar berasal dari entitas yang sama. Hal ini bisa sangat berguna untuk memperluas klaster yang sudah diketahui atau melanjutkan penelusuran.
 
-![BTC204](assets/fr/060.webp)
+![BTC204](assets/id/060.webp)
 
 CIOH ditemukan oleh Satoshi Nakamoto. Dia membicarakannya di bagian 10 Buku Putih:
 
 "_[...] penautan tidak dapat dihindari dengan transaksi multi entri, yang tentu saja mengungkapkan bahwa entri-entri tersebut dipegang oleh pemilik yang sama. Risikonya adalah jika pemilik sebuah kunci terungkap, tautan tersebut dapat mengungkapkan transaksi lain yang dimiliki oleh pemilik yang sama."
 
-![BTC204](assets/fr/061.webp)
+![BTC204](assets/id/061.webp)
 
 Sangat menarik untuk dicatat bahwa Satoshi Nakamoto, bahkan sebelum peluncuran resmi Bitcoin, telah mengidentifikasi dua kerentanan privasi utama bagi para pengguna, yaitu CIOH dan penggunaan ulang alamat. Pandangan ke depan tersebut cukup luar biasa, karena kedua heuristik ini tetap menjadi yang paling berguna dalam analisis blockchain hingga saat ini.
 
@@ -690,7 +690,7 @@ Sebagai contoh, berikut ini adalah sebuah transaksi yang mungkin bisa kita terap
 20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712
 ```
 
-![BTC204](assets/fr/062.webp)
+![BTC204](assets/id/062.webp)
 
 Source : [Mempool.space](https://mempool.space/tx/20618e63b6eed056263fa52a2282c8897ab2ee71604c7faccfe748e1a202d712)
 
@@ -706,7 +706,7 @@ Dengan cara yang sama, Anda dapat melakukan analisis dengan eliminasi. Sebagai c
 
 Analisis saluran juga mencakup komponen OSINT (*Open Source Intelligence*) yang sedikit lebih umum, yang melibatkan pencarian di internet. Karena alasan inilah kami menyarankan agar Anda tidak mempublikasikan alamat secara langsung di jejaring sosial atau situs web, baik yang pseudonim maupun tidak.
 
-![BTC204](assets/fr/063.webp)
+![BTC204](assets/id/063.webp)
 
 ### Model temporal
 
@@ -728,7 +728,7 @@ Sebagai contoh, pada alamat multi-penggunaan yang saya sebutkan sebelumnya, kita
 bc1qqtmeu0eyvem9a85l3sghuhral8tk0ar7m4a0a0
 ```
 
-![BTC204](assets/fr/064.webp)
+![BTC204](assets/id/064.webp)
 
 Sumber : OXT.me
 
@@ -796,7 +796,7 @@ Setelah mengidentifikasi modelnya, dengan menggunakan heuristik internal transak
 
 Bayangkan Loïc telah memposting salah satu alamat penerima Bitcoin-nya di jejaring sosial Twitter :
 
-![BTC204](assets/fr/065.webp)
+![BTC204](assets/id/065.webp)
 
 ```plaintext
 bc1qja0hycrv7g9ww00jcqanhfpqmzx7luqalum3vu
@@ -820,7 +820,7 @@ Transaksi ini merupakan transaksi pertama yang mengirimkan dana ke alamat Loïc.
 
 Setelah mengikuti latihan 5, berkat heuristik penggunaan ulang alamat, Anda sudah dapat mengidentifikasi beberapa transaksi Bitcoin yang melibatkan Loïc. Sekarang, Anda ingin mencari tahu dari mana Loïc berasal. Berdasarkan transaksi yang ditemukan, lakukan analisis waktu untuk menemukan zona waktu yang paling mungkin digunakan oleh Loïc. Dari zona waktu ini, tentukan lokasi di mana Loïc tampaknya tinggal (negara, negara bagian/wilayah, kota...).
 
-![BTC204](assets/fr/066.webp)
+![BTC204](assets/id/066.webp)
 
 ### Latihan 8
 
@@ -993,7 +993,7 @@ Analisis terhadap jadwal-jadwal ini menunjukkan bahwa UTC-7 dan UTC-8 konsisten 
 21:55 UTC > 13:55 UTC-8
 ```
 
-![BTC204](assets/fr/066.webp)
+![BTC204](assets/id/067.webp)
 
 Zona waktu UTC-7 sangat relevan pada musim panas, karena mencakup negara bagian dan wilayah seperti :
 
@@ -1046,7 +1046,7 @@ Alamat penerima Bitcoin adalah sebuah string atau pengenal yang digunakan untuk 
 Secara teknis, alamat penerima Bitcoin tidak "menerima" bitcoin dalam arti harfiah, tetapi berfungsi untuk menentukan kondisi di mana bitcoin dapat dibelanjakan. Secara konkret, ketika sebuah pembayaran dikirimkan kepada Anda, transaksi pengirim akan membuat UTXO baru untuk Anda sebagai output dari UTXO yang telah digunakan sebagai input. Pada output ini, ia membubuhkan skrip yang mendefinisikan bagaimana UTXO ini dapat digunakan di kemudian hari. Skrip ini dikenal sebagai "*SkripPubKey*" atau "*Skrip Penguncian*". Alamat penerima Anda, atau lebih tepatnya muatannya, diintegrasikan ke dalam skrip ini. Dalam istilah awam, skrip ini pada dasarnya menyatakan:
 
 > "*Untuk membelanjakan UTXO baru ini, Anda harus memberikan tanda tangan digital menggunakan kunci privat yang terkait dengan alamat penerima ini.*"
-![BTC204](assets/fr/067.webp)
+![BTC204](assets/id/068.webp)
 
 Alamat Bitcoin memiliki beberapa jenis, tergantung pada model scripting yang digunakan. Model pertama, yang dikenal sebagai **Legacy**, termasuk alamat `P2PKH` (*Pay-to-PubKey-Hash*) dan `P2SH` (*Pay-to-Script-Hash*). Alamat P2PKH selalu dimulai dengan `1`, dan P2SH dengan `3`. Walaupun masih aman, format ini sekarang sudah tidak digunakan lagi, karena memerlukan biaya transaksi yang lebih tinggi dan menawarkan kerahasiaan yang lebih rendah dibandingkan dengan standar yang baru.
 
@@ -1085,7 +1085,7 @@ Konstruksi alamat penerimaan juga bergantung pada model skrip yang dipilih:
 - Untuk alamat `P2SH` dan `P2WSH`, payload mewakili hash dari file ;
 - Sedangkan untuk alamat `P2TR`, muatannya adalah kunci publik yang diubah. Output P2TR menggabungkan aspek _Bayar-ke-PubKey_ dan _Bayar-ke-Script_. Tweak public key merupakan hasil dari penambahan public key pembelanjaan klasik dengan sebuah "tweak", yang berasal dari akar Merkle dari sekumpulan skrip yang juga dapat digunakan untuk membelanjakan bitcoin.
 
-![BTC204](assets/fr/068.webp)
+![BTC204](assets/id/069.webp)
 
 Alamat yang ditampilkan pada perangkat lunak portofolio Anda juga menyertakan HRP (*Human-Readable Part*), biasanya `bc` untuk alamat pasca-SegWit, pemisah `1`, dan nomor versi `q` untuk SegWit V0 dan `p` untuk Taproot / SegWit V1. Checksum juga ditambahkan untuk menjamin integritas dan keabsahan alamat selama transmisi.
 
@@ -1123,7 +1123,7 @@ Ketika beberapa ScriptPubKey yang berbeda berisi alamat penerima yang sama, ini 
 Karena blockchain bersifat publik, mudah untuk melihat alamat mana yang mengunci UTXO dan berapa banyak bitcoin. Jika alamat yang sama digunakan untuk beberapa transaksi, maka dapat disimpulkan bahwa semua bitcoin yang terkait dengan alamat tersebut adalah milik orang yang sama. Praktik ini membahayakan privasi pengguna dengan memungkinkan hubungan deterministik yang dibuat antara transaksi yang berbeda dan bitcoin yang akan dilacak di blockchain. Satoshi Nakamoto sendiri telah menyoroti masalah ini dalam Buku Putih Bitcoin:
 
 > *Sebagai firewall tambahan, sepasang kunci baru dapat digunakan untuk setiap transaksi agar tidak terhubung dengan pemilik yang sama*
-![BTC204](assets/fr/055.webp)
+![BTC204](assets/id/070.webp)
 
 Sumber: S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
@@ -1131,7 +1131,7 @@ Maksud Satoshi dalam kalimat ini adalah untuk membuat sebuah firewall tambahan j
 
 Ketika Anda menggunakan kembali sebuah alamat, Anda membuat hubungan yang hampir tidak dapat disangkal antara semua transaksi yang terkait dengan alamat tersebut. Meskipun hal ini tidak secara langsung membahayakan dana Anda, karena kriptografi kurva eliptik menjamin keamanan kunci pribadi Anda, namun hal ini memudahkan untuk memantau aktivitas Anda. Memang, siapa pun yang memiliki simpul dapat mengamati transaksi dan saldo dari alamat tersebut, yang benar-benar membahayakan anonimitas Anda.
 
-![BTC204](assets/fr/054.webp)
+![BTC204](assets/id/071.webp)
 
 Untuk mengilustrasikan hal ini, mari kita ambil contoh Bob, seorang pengguna yang secara teratur membeli bitcoin dalam jumlah kecil di DCA dan selalu mengirimkannya ke alamat yang sama. Setelah dua tahun, alamat ini berisi sejumlah besar bitcoin. Jika Bob menggunakan alamat ini untuk melakukan pembayaran kepada pedagang lokal, pedagang tersebut akan dapat melihat semua dana yang terkait dan menyimpulkan kekayaan Bob. Hal ini dapat menyebabkan risiko keamanan pribadi, seperti percobaan pencurian atau pemerasan. Jika Bob menggunakan alamat kosong untuk menerima setiap pembelian berkala, dia akan mengungkapkan informasi yang jauh lebih sedikit kepada pedagangnya.
 
@@ -1145,11 +1145,11 @@ Yang pertama adalah ketika sebuah alamat digunakan kembali dalam beberapa transa
 
 Penggunaan ulang alamat internal tidak terjadi ketika penggunaan ulang terjadi di beberapa transaksi, tetapi ketika terjadi dalam satu transaksi. Memang, jika alamat yang sama yang digunakan untuk mengunci input digunakan sebagai output dari sebuah transaksi, maka kita dapat menyimpulkan bahwa output ini masih milik pengguna yang sama (pertukaran), dan bahwa output kedua mewakili pembayaran yang sebenarnya. Heuristik lain ini memungkinkan untuk mengabadikan jejak dana pada beberapa transaksi.
 
-![BTC204](assets/fr/045.webp)
+![BTC204](assets/id/072.webp)
 
 Penggunaan ulang alamat adalah momok yang nyata pada Bitcoin. Menurut situs web OXT.me (saat ini tidak dapat diakses), tingkat penggunaan ulang alamat Bitcoin secara keseluruhan sekitar 52% pada tahun 2022:
 
-![BTC204](assets/fr/069.webp)
+![BTC204](assets/id/073.webp)
 
 Angka ini sangat besar, tetapi sebagian besar berasal dari platform pertukaran daripada pengguna individu.
 
@@ -1159,7 +1159,7 @@ Menghindari penggunaan ulang alamat cukup mudah: **cukup gunakan alamat baru yan
 
 Berkat BIP32, portofolio modern sekarang bersifat deterministik dan hirarkis. Ini berarti bahwa seorang pengguna dapat menghasilkan sejumlah besar alamat dari satu informasi awal: seed. Dengan menyimpan satu informasi ini, memungkinkan untuk mengembalikan semua private key dalam portofolio, memungkinkan akses ke dana yang diamankan oleh alamat yang sesuai.
 
-![BTC204](assets/fr/070.webp)
+![BTC204](assets/id/074.webp)
 
 Inilah sebabnya, ketika Anda menekan tombol "*receive*" pada perangkat lunak dompet Anda, alamat penerima yang tidak digunakan akan disarankan setiap saat. Setelah menerima bitcoin di alamat ini, perangkat lunak secara otomatis menyarankan alamat baru.
 
@@ -1191,7 +1191,7 @@ Penggunaan aktif pelabelan menjadi lebih menarik ketika digabungkan dengan opsi 
 
 Kontrol koin adalah sebuah fitur yang terdapat pada perangkat lunak dompet Bitcoin yang baik, yang memberikan Anda kemampuan untuk memilih secara manual UTXO tertentu untuk digunakan sebagai input untuk menyelesaikan transaksi. Faktanya, untuk memenuhi pembayaran output, Anda perlu menggunakan UTXO input sebagai gantinya. Untuk beberapa alasan, yang akan kita bahas nanti, Anda mungkin ingin memilih dengan tepat bagian mana yang akan dikonsumsi sebagai input untuk memenuhi pembayaran tertentu. Inilah yang dapat Anda lakukan dengan kontrol koin. Sebagai analogi, fitur ini mirip dengan memilih koin tertentu dari dompet Anda saat Anda membayar baguette.
 
-![BTC204](assets/fr/071.webp)
+![BTC204](assets/id/075.webp)
 
 Penggunaan perangkat lunak portofolio dengan kontrol koin, ditambah dengan pelabelan UTXO, memungkinkan pengguna untuk membedakan dan memilih UTXO secara akurat untuk transaksi mereka.
 
@@ -1209,7 +1209,7 @@ Hal terpenting yang perlu diperhatikan pada label adalah sumber UTXO. Anda cukup
 - beli P2P Charles` ;
 - `Ubah pembelian sofa`
 
-![BTC204](assets/fr/072.webp)
+![BTC204](assets/id/076.webp)
 
 Untuk menyempurnakan manajemen UTXO Anda dan menghormati strategi pemisahan dana dalam portofolio Anda, Anda dapat memperkaya label Anda dengan indikator tambahan yang mencerminkan pemisahan ini. Jika portofolio Anda berisi dua kategori UTXO yang tidak ingin Anda campur, Anda dapat memasukkan penanda ke dalam label Anda untuk membedakan kelompok-kelompok ini dengan jelas. Penanda pemisahan ini akan bergantung pada kriteria Anda sendiri, seperti membedakan antara UTXO yang dihasilkan dari proses akuisisi yang melibatkan KYC, atau antara dana profesional dan dana pribadi. Mengambil contoh label yang disebutkan di atas, hal ini dapat diterjemahkan menjadi:
 
@@ -1219,7 +1219,7 @@ Untuk menyempurnakan manajemen UTXO Anda dan menghormati strategi pemisahan dana
 - `TANPA KYC - Beli P2P Charles`;
 - `TANPA KYC - Ubah pembelian sofa`
 
-![BTC204](assets/fr/073.webp)
+![BTC204](assets/id/077.webp)
 
 Juga disarankan untuk mengabadikan pelabelan suatu bagian selama proses transaksi. Contohnya, ketika mengkonsolidasikan UTXO no-KYC, pastikan untuk menandai UTXO yang dihasilkan tidak hanya sebagai `konsolidasi`, tetapi secara khusus sebagai `konsolidasi no-KYC` untuk menyimpan catatan yang jelas tentang dari mana koin tersebut berasal.
 
@@ -1235,7 +1235,7 @@ Ketika Anda melakukan transaksi, kontrol koin memungkinkan Anda secara khusus me
 
 Untuk mengilustrasikan poin pertama, mari kita ambil contoh konkret. Misalkan Anda membeli roti baguette dengan bitcoin dari tukang roti Anda. Anda menggunakan satu atau beberapa UTXO yang Anda pegang sebagai input untuk memenuhi setidaknya harga baguette dalam bentuk output, serta biaya transaksi. Pembuat roti Anda kemudian berpotensi mengaitkan wajah Anda, atau bagian lain dari identitas Anda yang dia ketahui, dengan koin yang digunakan sebagai input. Dengan mengetahui adanya hubungan ini, Anda mungkin lebih memilih untuk memilih UTXO tertentu daripada yang lain saat membayar.
 
-![BTC204](assets/fr/074.webp)
+![BTC204](assets/id/078.webp)
 
 Misalnya, jika salah satu UTXO Anda berasal dari platform pertukaran dan Anda lebih suka pembuat roti tidak mengetahui akun Anda di platform tersebut, Anda tidak akan menggunakan UTXO tersebut untuk pembayaran. Jika Anda memiliki UTXO bernilai tinggi yang menunjukkan jumlah bitcoin yang signifikan, Anda juga dapat memilih untuk tidak menggunakannya agar pembuat roti tidak mengetahui kekayaan BTC Anda.
 
@@ -1243,15 +1243,15 @@ Oleh karena itu, memilih UTXO mana yang akan digunakan untuk poin pertama ini me
 
 Di luar informasi yang berpotensi diungkapkan kepada penerima, pilihan input juga memengaruhi apa yang Anda ungkapkan kepada semua pengamat blockchain. Memang, dengan menggunakan beberapa UTXO sebagai input untuk transaksi Anda, Anda mengungkapkan bahwa mereka dimiliki oleh entitas yang sama, menurut heuristik CIOH (_Common Input Ownership Heuristic_).
 
-![BTC204](assets/fr/075.webp)
+![BTC204](assets/id/079.webp)
 
 Oleh karena itu, ketika memilih suku cadang, Anda harus menyadari bahwa transaksi yang akan Anda siarkan akan membuat tautan antara semua UTXO yang digunakan. Tautan ini dapat menjadi masalah bagi privasi pribadi Anda, terutama jika UTXO berasal dari sumber yang berbeda.
 
-![BTC204](assets/fr/076.webp)
+![BTC204](assets/id/080.webp)
 
 Mari kita ambil contoh UTXO tanpa KYC saya dari Bisq; saya ingin menghindari penggabungan dengan UTXO dari, katakanlah, platform bursa teregulasi yang mengetahui identitas saya. Memang, jika saya menggunakan 2 UTXO ini sebagai input untuk transaksi yang sama, platform yang teregulasi akan dapat menautkan identitas saya dengan UTXO yang saya beli di Bisq, yang sebelumnya tidak ditautkan dengan identitas saya.
 
-![BTC204](assets/fr/077.webp)
+![BTC204](assets/id/081.webp)
 
 Terakhir, ketika memilih UTXO mana yang akan digunakan sebagai input untuk transaksi, yang paling penting adalah hindari menggunakan banyak UTXO. Sebisa mungkin, jika memungkinkan, pilihlah satu koin yang cukup besar untuk memenuhi pembayaran Anda. Dengan cara ini, Anda benar-benar terhindar dari risiko yang terkait dengan CIOH. Namun, jika tidak ada satu pun UTXO yang mencukupi untuk pembayaran dan Anda perlu menggunakan beberapa UTXO, pastikan UTXO tersebut berasal dari sumber yang sama untuk meminimalkan risiko tautan yang tidak diinginkan. Ingatlah juga bahwa penerima dapat mengaitkan informasi yang mereka pegang tentang Anda dengan riwayat koin yang digunakan dalam input.
 
@@ -1290,13 +1290,13 @@ Prosedur ini bukannya tanpa risiko terhadap privasi dan keamanan pengguna. Pada 
 
 Resiko pertama yang terkait dengan KYC adalah bahwa ia menawarkan sebuah titik masuk yang istimewa untuk analisis blockchain. Seperti yang telah kita lihat pada bagian sebelumnya, analis dapat mengelompokkan dan melacak aktivitas pada blockchain menggunakan pola transaksi dan heuristik. Ketika mereka berhasil mengelompokkan aktivitas pengguna di blockchain, yang perlu mereka lakukan adalah menemukan satu titik masuk di antara semua transaksi dan kunci-kuncinya untuk sepenuhnya membahayakan kerahasiaannya.
 
-![BTC204](assets/fr/078.webp)
+![BTC204](assets/id/082.webp)
 
 Ketika Anda melakukan KYC, Anda memberikan titik masuk berkualitas tinggi untuk analisis blockchain, karena Anda mengaitkan alamat penerima yang digunakan ketika menarik bitcoin Anda dari platform bursa dengan identitas lengkap dan terverifikasi. Secara teori, informasi ini hanya diketahui oleh perusahaan tempat Anda memberikannya, tetapi, seperti yang akan kita lihat di bawah, risiko kebocoran data adalah nyata. Terlebih lagi, fakta bahwa perusahaan memiliki informasi ini bisa menjadi masalah, bahkan jika mereka tidak membagikannya.
 
 Jadi, jika Anda tidak mengambil langkah lain untuk membatasi agregasi aktivitas Anda di blockchain, siapa pun yang mengetahui titik masuk KYC ini berpotensi menghubungkan semua aktivitas Anda di Bitcoin dengan identitas Anda. Dari sudut pandang perusahaan tersebut, penggunaan Bitcoin Anda akan kehilangan semua kerahasiaannya.
 
-![BTC204](assets/fr/079.webp)
+![BTC204](assets/id/083.webp)
 
 Sebagai perbandingan, seolah-olah bankir Anda di *Bank X* tidak hanya memiliki akses ke semua transaksi Anda dengan *Bank X*, tetapi juga dapat mengamati transaksi Anda dengan *Bank Y* dan semua transaksi tunai Anda.
 
@@ -1338,7 +1338,7 @@ Penting untuk mendekonstruksi beberapa ide yang sudah ada sebelumnya mengenai KY
 
 Pertama-tama, tidak tepat jika Anda berpikir bahwa melindungi privasi Anda untuk Bitcoin yang diperoleh melalui KYC tidak ada gunanya. Alat dan metode privasi pada Bitcoin sangat beragam dan memiliki tujuan yang berbeda-beda. Menggunakan transaksi coinjoin pada Bitcoin yang diperoleh melalui KYC, misalnya, bukanlah ide yang buruk. Tentu saja, Anda harus berhati-hati dengan platform bursa yang teregulasi untuk menghindari akun Anda dibekukan atau diblokir, tetapi dari sudut pandang teknis, praktik-praktik ini tidak bertentangan. Coinjoin memiliki efek memutus riwayat koin, sehingga membantu Anda menggagalkan risiko analisis rantai tertentu yang terkait dengan KYC. Meskipun tidak menghilangkan semua risiko, ini merupakan manfaat yang signifikan.
 
-![BTC204](assets/fr/080.webp)
+![BTC204](assets/id/084.webp)
 
 Kerahasiaan pada Bitcoin tidak boleh dilihat secara biner, sebagai pembeda antara bitcoin "anonim" dan yang tidak. Memiliki Bitcoin yang diperoleh melalui KYC tidak berarti semuanya hilang; sebaliknya, penggunaan alat kerahasiaan dapat terbukti lebih bermanfaat.
 
@@ -1362,15 +1362,15 @@ KYC secara khusus mengacu pada prosedur regulasi yang diterapkan oleh perusahaan
 
 Sebagai contoh, jika Anda membeli bitcoin di platform teregulasi di Swiss, KYC tidak diperlukan. Akan tetapi, kunci Anda dapat diidentifikasi, karena pembelian dilakukan melalui rekening bank Anda. Di sinilah dua risiko pertama yang terkait dengan KYC - fasilitasi penelusuran onchain dan paparan terhadap pengawasan negara - juga dapat muncul dalam bursa tanpa KYC. Jika entitas Swiss melaporkan transaksi yang mencurigakan kepada pihak berwenang di negara Anda, mereka dapat dengan mudah memeriksa rekening bank yang digunakan untuk pembelian untuk menemukan identitas Anda. Jadi, membeli tanpa KYC pada platform teregulasi memiliki skala risiko yang cukup tinggi untuk identifikasi kunci.
 
-![BTC204](assets/fr/081.webp)
+![BTC204](assets/id/085.webp)
 
 Akan tetapi, menghindari platform yang teregulasi dan memilih metode akuisisi P2P tidak sepenuhnya menghilangkan risiko identifikasi kunci, tetapi hanya menguranginya. Mari kita ambil contoh pembelian di Bisq atau platform P2P lainnya. Untuk membayar rekanan Anda, Anda mungkin akan menggunakan rekening bank Anda. Jika pihak berwenang menanyai orang yang bertransaksi dengan Anda dan meminta nama Anda, kita kembali ke risiko 1 dan 2. Meskipun risiko ini jauh lebih rendah dibandingkan saat membeli di platform tanpa KYC, dan bahkan lebih rendah dibandingkan saat membeli dengan KYC, risiko ini masih ada pada tingkat yang lebih rendah.
 
-![BTC204](assets/fr/082.webp)
+![BTC204](assets/id/086.webp)
 
 Terakhir, meskipun Anda mendapatkan bitcoin melalui pertukaran fisik dengan uang tunai, Anda tidak sepenuhnya anonim. Orang yang Anda ajak bertukar telah melihat wajah Anda, yang merupakan bagian dari identitas Anda. Meskipun sangat minim dalam contoh ini, masih ada kemungkinan untuk melakukan identifikasi.
 
-![BTC204](assets/fr/083.webp)
+![BTC204](assets/id/087.webp)
 
 Kesimpulannya, ketika bitcoin ditukarkan dengan aset lain, baik itu pembelian dengan mata uang negara atau penjualan dengan barang nyata, selalu ada beberapa bentuk identifikasi kunci. Tergantung pada metode pertukaran yang dipilih, identifikasi ini dapat bervariasi dalam intensitasnya. Penting untuk tidak mengacaukan identifikasi ini dengan KYC, yang merupakan proses regulasi yang jelas. Akan tetapi, terdapat hubungan antara KYC dan spektrum identifikasi, karena KYC berada di ujung spektrum yang lebih tinggi, karena secara sistematis memfasilitasi identifikasi kunci pengguna oleh pihak berwenang.
 
@@ -1385,11 +1385,11 @@ Setelah membaca bab sebelumnya, Anda mungkin bertanya-tanya bagaimana cara membe
 
 Seperti yang telah kita lihat, metode terbaik dalam hal kerahasiaan tetaplah pertukaran P2P (orang-ke-orang) dengan penyelesaian tunai. Metode ini memungkinkan Anda untuk meminimalkan jejak yang ditinggalkan, dan sangat mengurangi kemungkinan identifikasi kunci, baik saat Anda membeli atau menjual.
 
-![BTC204](assets/fr/084.webp)
+![BTC204](assets/id/088.webp)
 
 Namun demikian, ada risiko terhadap keamanan pribadi. Bahaya utama terletak pada kenyataan bahwa, selama pertukaran, pihak lawan akan mengetahui bahwa Anda memegang sejumlah besar uang, baik dalam bentuk tunai maupun bitcoin. Informasi ini dapat menarik perhatian orang yang berniat jahat. Memang, secara umum disarankan untuk berhati-hati dalam menyimpan bitcoin Anda. Saran ini juga dapat diterapkan pada uang tunai. Namun, saat bertransaksi secara langsung, tidak dapat dihindari untuk mengungkapkan bahwa Anda memiliki bitcoin, dan hal ini dapat menarik perhatian yang tidak diinginkan.
 
-![BTC204](assets/fr/085.webp)
+![BTC204](assets/id/089.webp)
 
 Untuk membatasi risiko ini, saya menyarankan Anda untuk lebih memilih transaksi tunai dengan orang yang dipercaya, seperti anggota keluarga atau teman dekat. Sebagai alternatif, Anda juga dapat mempertimbangkan untuk bertransaksi di [pertemuan Bitcoin lokal] (https://btcmap.org/communities/map), setelah menghadiri beberapa kali. Hal ini akan membuat Anda lebih mengenal peserta lain dan tidak merasa sendirian saat melakukan pertukaran secara fisik. Namun, penting untuk diketahui bahwa pertukaran uang P2P secara inheren membawa risiko terhadap keamanan pribadi Anda yang tidak ada saat membeli melalui platform yang teregulasi dan rekening bank Anda.
 
@@ -1399,31 +1399,31 @@ Menukarkan uang tunai juga dapat menimbulkan risiko hukum jika terjadi pemeriksa
 
 Terakhir, kelemahan lain dari pembelian P2P adalah harganya yang sering kali lebih tinggi daripada platform yang teregulasi. Penjual sering kali mengenakan mark-up mulai dari 1% hingga lebih dari 10%. Ada beberapa alasan untuk perbedaan harga ini. Pertama, ini adalah praktik umum di antara penjual P2P yang telah menjadi mapan dari waktu ke waktu. Kedua, penjual memiliki biaya yang terkait dengan transaksi untuk mengirimkan dana kepada pembeli. Ada juga peningkatan risiko pencurian dalam penjualan P2P dibandingkan dengan transaksi platform, yang membenarkan kompensasi atas risiko yang diambil. Terakhir, biaya tambahan dapat dikaitkan dengan permintaan dan kualitas bursa dalam hal kerahasiaan. Sebagai pembeli, keuntungan dalam kerahasiaan memiliki harga yang tercermin dalam mark-up yang diterapkan oleh penjual. Beberapa pengguna bitcoin juga percaya bahwa harga mark-up BTC yang dibeli di P2P mencerminkan harga sebenarnya, dan berpendapat bahwa harga yang lebih rendah di platform yang diatur adalah hasil dari kompromi pada kerahasiaan data pribadi Anda.
 
-![BTC204](assets/fr/086.webp)
+![BTC204](assets/id/090.webp)
 
 ### Pertukaran P2P melalui platform perjodohan
 
 Alternatif yang lebih tidak berisiko dalam hal keamanan pribadi adalah dengan melakukan pertukaran P2P secara eksklusif secara online, melalui metode pembayaran elektronik seperti PayPal, transfer bank, atau Revolut.
 
-![BTC204](assets/fr/087.webp)
+![BTC204](assets/id/091.webp)
 
 Pendekatan ini menghindari banyak risiko yang terkait dengan transaksi tunai. Akan tetapi, risiko pihak lawan gagal bayar dalam bursa online lebih besar. Memang, dalam pertukaran fisik, jika Anda menyerahkan uang kepada penjual yang tidak mengirimi Anda bitcoin sebagai gantinya, Anda dapat segera meminta pertanggungjawaban, karena dia berdiri di depan Anda. Sebaliknya, secara online, sering kali tidak mungkin untuk melacak seseorang yang telah mencuri dari Anda.
 
-![BTC204](assets/fr/088.webp)
+![BTC204](assets/id/092.webp)
 
 Untuk mengurangi risiko ini, Anda dapat menggunakan platform khusus untuk bursa P2P. Platform-platform ini menggunakan mekanisme resolusi konflik untuk melindungi pengguna yang dirugikan. Biasanya, mereka menawarkan sistem escrow, di mana bitcoin disimpan sampai pembayaran dalam mata uang fiat dikonfirmasi oleh penjual.
 
-![BTC204](assets/fr/089.webp)
+![BTC204](assets/id/093.webp)
 
 Dalam hal keamanan pribadi, metode pembelian ini jauh lebih aman dibandingkan dengan pertukaran uang tunai secara fisik. Akan tetapi, seperti yang telah disebutkan di atas, pertukaran P2P online meninggalkan lebih banyak jejak daripada pertukaran fisik, yang dapat merugikan privasi Bitcoin. Dengan menggunakan metode pembayaran fiat online seperti bank, Anda mengekspos lebih banyak informasi yang dapat memfasilitasi identifikasi kunci.
 
-![BTC204](assets/fr/090.webp)
+![BTC204](assets/id/094.webp)
 
 Sekali lagi, saya tidak akan merekomendasikan melakukan terlalu banyak perdagangan besar dalam satu transaksi di platform ini. Dengan membagi transaksi Anda, Anda menyebarkan risiko pencurian mitra pengimbang.
 
 Sekali lagi, kelemahan lain dari pembelian P2P adalah harganya yang sering kali lebih tinggi daripada yang teramati pada platform yang teregulasi. Penjual sering kali mengenakan mark-up mulai dari 1% hingga lebih dari 10%. Ada beberapa alasan untuk perbedaan harga ini. Pertama, ini adalah praktik umum di antara penjual P2P yang telah menjadi mapan dari waktu ke waktu. Kedua, penjual memiliki biaya yang terkait dengan transaksi untuk mengirimkan dana kepada pembeli. Ada juga peningkatan risiko pencurian dalam penjualan P2P dibandingkan dengan transaksi platform, yang membenarkan kompensasi atas risiko yang diambil. Terakhir, biaya tambahan dapat dikaitkan dengan permintaan dan kualitas bursa dalam hal kerahasiaan. Sebagai pembeli, keuntungan dalam kerahasiaan memiliki harga yang tercermin dalam mark-up yang diterapkan oleh penjual. Beberapa pengguna bitcoin juga percaya bahwa harga mark-up BTC yang dibeli di P2P mencerminkan harga sebenarnya, dan berpendapat bahwa harga yang lebih rendah di platform yang diatur adalah hasil dari kompromi pada kerahasiaan data pribadi Anda.
 
-![BTC204](assets/fr/086.webp)
+![BTC204](assets/id/095.webp)
 
 Sejauh menyangkut solusi, saya pribadi selalu menggunakan [Bisq] (https://bisq.network/) dan saya sangat senang dengannya. Sistem mereka telah dicoba dan diuji dan tampaknya dapat diandalkan. Namun, Bisq hanya tersedia pada PC dan antarmukanya mungkin terlalu rumit untuk pemula. Kekurangan lainnya adalah Bisq hanya beroperasi dengan transaksi onchain, yang dapat menjadi mahal selama periode biaya transaksi Bitcoin yang tinggi.
 
@@ -1453,7 +1453,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 
 https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-![BTC204](assets/fr/091.webp)
+![BTC204](assets/id/096.webp)
 
 ### Platform teregulasi tanpa KYC
 
@@ -1471,7 +1471,7 @@ Namun, dalam hal keamanan pribadi, menggunakan platform ini jauh lebih kecil ris
 
 Pilihan lain untuk membeli atau menjual bitcoin tanpa KYC adalah ATM mata uang kripto. Secara pribadi, saya tidak pernah berkesempatan untuk menguji solusi ini, karena tidak ada di negara saya. Tetapi metode ini bisa jadi sangat menarik, tergantung di mana Anda tinggal.
 
-![BTC204](assets/fr/092.webp)
+![BTC204](assets/id/097.webp)
 
 Masalah dengan ATM adalah bahwa ATM dilarang di beberapa negara, atau diatur dengan ketat di negara lain. Jika ATM memerlukan prosedur verifikasi identitas, maka ATM memiliki risiko yang sama dengan platform yang diatur oleh KYC. Di sisi lain, jika ATM mengizinkan transaksi tanpa verifikasi identitas untuk jumlah kecil, maka penggunaannya dapat menawarkan tingkat kerahasiaan yang sebanding dengan pertukaran uang P2P, sambil menghindari sebagian besar risiko yang terkait dengan jenis pertukaran ini.
 
@@ -1487,7 +1487,7 @@ Beberapa platform yang tidak memerlukan prosedur KYC menawarkan kemungkinan untu
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-![BTC204](assets/fr/093.webp)
+![BTC204](assets/id/098.webp)
 
 ### Metode akuisisi lainnya
 
@@ -1516,7 +1516,7 @@ Tidak semua transaksi Bitcoin memiliki bobot yang sama. Transaksi yang memiliki 
 - Transaksi A terdiri dari 1 input dan 1 output. Transaksi ini mengalokasikan 1.994 sat biaya dan memiliki bobot 141 vB;
 - Transaksi B, transaksi yang lebih kompleks dengan 2 input dan 2 output, mengalokasikan 2.640 sat dalam biaya untuk bobot 220 vB.
 
-![BTC204](assets/fr/094.webp)
+![BTC204](assets/id/099.webp)
 
 Dalam contoh ini, walaupun transaksi B menawarkan total biaya yang lebih tinggi, penambang akan lebih memilih transaksi A, karena transaksi A menawarkan rasio yang lebih baik antara biaya dan bobot. Berikut adalah perhitungan untuk setiap transaksi, yang dinyatakan dalam sat per virtual byte (sat/vB):
 
@@ -1527,13 +1527,13 @@ TXB : 2640 / 220 = 12 sats / vB
 
 Ini berarti bahwa untuk setiap unit berat, transaksi A menawarkan lebih banyak biaya daripada transaksi B, meskipun transaksi B menawarkan lebih banyak biaya secara absolut.
 
-![BTC204](assets/fr/095.webp)
+![BTC204](assets/id/100.webp)
 
 Oleh karena itu, akan selalu lebih menarik bagi pengguna untuk menggunakan input sesedikit mungkin dalam transaksinya. Namun, Anda perlu mengonsumsi jumlah yang cukup untuk dapat memenuhi pembayaran output. Saat mengelola portofolio Anda, Anda harus memiliki UTXO yang cukup besar.
 
 Prinsip konsolidasi adalah memanfaatkan periode ketika biaya Bitcoin rendah untuk menggabungkan UTXO yang lebih kecil menjadi satu UTXO yang lebih besar. Dengan cara ini, ketika biaya Bitcoin naik, Anda akan dapat melakukan transaksi dengan input minimum, dan karenanya menghabiskan lebih sedikit biaya secara absolut. Tujuannya adalah untuk mengantisipasi transaksi wajib yang harus dilakukan selama periode biaya tinggi.
 
-![BTC204](assets/fr/096.webp)
+![BTC204](assets/id/101.webp)
 
 Selain menghemat biaya transaksi, konsolidasi UTXO membantu mencegah pembentukan "debu". "Debu" mengacu pada UTXO yang nilainya dalam satuan sangat rendah sehingga tidak cukup untuk menutupi biaya transaksi yang diperlukan untuk membelanjakannya. Hal ini membuat UTXO ini tidak rasional secara ekonomi untuk digunakan selama biaya transaksinya masih tinggi. Dengan mengumpulkan UTXO Anda secara proaktif, Anda mencegahnya menjadi debu, memastikan bahwa semua dana Anda tetap dapat digunakan.
 
@@ -1565,11 +1565,11 @@ Dalam contoh ini, akan lebih bijaksana jika Anda menyimpan nilai minimum 940.000
 
 Salah satu heuristik yang paling banyak digunakan dalam analisis blockchain adalah CIOH (*Common Input Ownership Heuristic*), yang mengasumsikan bahwa semua input ke transaksi Bitcoin adalah milik entitas yang sama. Prinsip utama dari konsolidasi adalah menggunakan beberapa UTXO sebagai input dan membuat satu UTXO sebagai output. Dengan demikian, konsolidasi memungkinkan ICOH untuk diterapkan.
 
-![BTC204](assets/fr/097.webp)
+![BTC204](assets/id/102.webp)
 
 Dalam praktiknya, ini berarti bahwa pengamat luar dapat menyimpulkan bahwa semua UTXO yang terkonsolidasi mungkin milik orang yang sama, dan output unik yang dihasilkan juga miliknya. Situasi ini dapat membahayakan kerahasiaan Anda dengan mengaitkan riwayat transaksi yang berbeda. Sebagai contoh, katakanlah saya menggabungkan 3 UTXO yang diperoleh melalui P2P dengan satu UTXO yang diperoleh melalui platform yang memerlukan KYC:
 
-![BTC204](assets/fr/098.webp)
+![BTC204](assets/id/103.webp)
 
 Dengan demikian, setiap entitas yang memiliki akses ke data platform bursa, termasuk lembaga pemerintah, akan dapat mengidentifikasi bahwa saya memiliki sejumlah BTC. Sebelumnya, UTXO ini tidak terhubung langsung dengan identitas saya; sekarang sudah terhubung. Terlebih lagi, UTXO ini mengungkapkan kepada semua sumber bahwa saya memiliki sejumlah bitcoin.
 
@@ -1601,11 +1601,11 @@ Memiliki bitcoin Anda dalam penitipan sendiri memang bagus, tetapi menggunakan n
 
 Selain manfaat-manfaat tersebut, menggunakan node yang lengkap juga meningkatkan kerahasiaan Anda ketika menyiarkan transaksi Anda. Ketika Anda mengeluarkan sebuah transaksi, transaksi tersebut pertama kali dibuat dan ditandatangani melalui dompet Anda. Untuk menyiarkannya di jaringan Bitcoin, transaksi tersebut harus diketahui oleh setidaknya satu node. Dengan menggunakan node Anda sendiri, Anda memiliki kontrol langsung atas distribusi ini, sehingga memperkuat kerahasiaan Anda dan membatasi risiko kebocoran data.
 
-![BTC204](assets/fr/099.webp)
+![BTC204](assets/id/104.webp)
 
 Jika Anda tidak memiliki simpul Bitcoin Anda sendiri, Anda akan dipaksa untuk menggunakan simpul pihak ketiga, seperti yang ditawarkan oleh penyedia perangkat lunak dompet Anda. Selain menyiarkan transaksi, dompet Anda membutuhkan akses ke berbagai informasi seperti transaksi yang tertunda, saldo yang terkait dengan alamat Anda, dan jumlah konfirmasi untuk transaksi Anda. Untuk mengakses semua data ini, Anda perlu melakukan kueri pada sebuah node.
 
-![BTC204](assets/fr/100.webp)
+![BTC204](assets/id/105.webp)
 
 Risiko utama ketika Anda tidak menggunakan node Bitcoin Anda sendiri adalah operator node pihak ketiga dapat mengamati aktivitas Anda di blockchain, atau bahkan membagikan informasi ini dengan entitas lain. Untuk membatasi risiko ini, solusi perantaranya adalah dengan menggunakan perangkat lunak dompet yang menyembunyikan koneksi Anda melalui Tor. Hal ini dapat mengurangi eksposur data Anda. Akan tetapi, solusi yang optimal adalah dengan memiliki node Bitcoin Anda sendiri dan menggunakannya untuk menyiarkan transaksi Anda. Tentu saja, Anda juga harus berhati-hati agar tidak membocorkan informasi apa pun melalui node Anda, tetapi itu adalah topik lain yang akan kita bahas di bagian selanjutnya.
 
@@ -1621,13 +1621,13 @@ Saran pertama yang dapat saya berikan adalah berbaur dengan orang banyak. Pada B
 
 Secara umum, lebih bijaksana untuk memilih standar skrip yang paling baru, asalkan standar tersebut telah diadopsi secara memadai. Jadi, jika pada tahun 2022, saya menyarankan untuk tidak menggunakan P2TR (Taproot) karena adopsinya yang rendah, pada tahun 2024, saya akan merekomendasikan untuk memilih jenis skrip ini sebagai gantinya, atau jika tidak, untuk skrip SegWit V0, karena jumlah transaksi yang menggunakan P2TR mulai mewakili proporsi yang sangat signifikan.
 
-![BTC204](assets/fr/101.webp)
+![BTC204](assets/id/106.webp)
 
 Sumber : [txstats.com](https://txstats.com/d/000000054/utxo-set-repartition-by-output-type)
 
 Tips lain untuk menjaga kerahasiaan Anda adalah dengan mencoba melewati heuristik transaksi internal. Sebagai contoh, ketika melakukan pembayaran, Anda dapat mencoba untuk menghindari membuat output dengan jumlah yang bulat, karena hal ini dapat menandakan bahwa output lainnya merupakan valuta asing. Jika Anda perlu mengirim 100 ribu kepada seorang teman, pertimbangkan untuk mentransfer jumlah yang sedikit lebih tinggi untuk menghindari heuristik ini. Demikian pula, cobalah untuk tidak membuat output valuta asing yang tidak proporsional dalam kaitannya dengan pembayaran yang dilakukan, karena hal ini juga dapat mengungkapkan output mana yang mewakili valuta asing.
 
-![BTC204](assets/fr/102.webp)
+![BTC204](assets/id/107.webp)
 
 Terakhir, jika Anda melakukan transaksi Bitcoin secara teratur, pastikan Anda tidak selalu menyiarkannya pada waktu yang sama. Dengan menyebarkan siaran transaksi Anda sepanjang hari dan minggu, Anda tidak memberikan kesempatan kepada pengamat luar untuk mendeteksi pola temporal berbasis zona waktu yang dapat memperkuat analisis mereka.
 
@@ -1652,7 +1652,7 @@ Coinjoin adalah sebuah teknik untuk mematahkan pelacakan bitcoin pada blockchain
 
 Seperti yang telah kita lihat pada bagian pertama kursus ini, transaksi Bitcoin diketahui oleh semua pengguna melalui node mereka. Oleh karena itu, mudah untuk memeriksa rantai tanda tangan elektronik dari setiap koin dan mengamati sejarahnya. Ini berarti bahwa semua pengguna dapat mencoba menganalisis transaksi pengguna lain. Akibatnya, anonimitas pada tingkat transaksi tidak mungkin dilakukan. Akan tetapi, anonimitas dipertahankan pada tingkat identifikasi individu. Tidak seperti sistem perbankan konvensional, di mana setiap akun dihubungkan dengan identitas pribadi, pada Bitcoin, dana dihubungkan dengan pasangan kunci kriptografi (atau skrip), yang menawarkan kepada para pengguna sebuah bentuk pseudonimitas di balik pengenal kriptografi.
 
-![BTC204](assets/fr/103.webp)
+![BTC204](assets/id/108.webp)
 
 Kerahasiaan Bitcoin dirusak ketika pengamat luar dapat mengasosiasikan UTXO tertentu dengan pengguna yang teridentifikasi. Setelah asosiasi ini terbentuk, maka akan memungkinkan untuk melacak transaksi mereka dan menganalisis riwayat Bitcoin mereka. Coinjoin adalah sebuah teknik yang dikembangkan untuk mematahkan ketertelusuran UTXO, untuk menawarkan kepada para pengguna Bitcoin sebuah lapisan kerahasiaan pada tingkat transaksi.
 
@@ -1660,39 +1660,39 @@ Coinjoin memperkuat kerahasiaan pengguna Bitcoin dengan membuat analisis rantai 
 
 Penting untuk dipahami bahwa tujuan dari transaksi coinjoin adalah untuk memutus riwayat koin. Teknik ini tidak memberikan anonimitas permanen atau memblokir pelacakan bitcoin secara definitif, berlawanan dengan apa yang mungkin Anda pikirkan. Coinjoin hanya bertujuan untuk memutus riwayat pada titik di mana transaksi coinjoin dilakukan. Akan tetapi, sebelum dan sesudah operasi ini, koin tetap memiliki risiko yang sama dalam hal kerahasiaan.
 
-![BTC204](assets/fr/104.webp)
+![BTC204](assets/id/109.webp)
 
 ### Bagaimana cara kerja coinjoin?
 
 Prinsip coinjoin didasarkan pada pendekatan kolaboratif: beberapa pengguna yang ingin menggabungkan bitcoin mereka menyetorkan jumlah yang sama sebagai input untuk transaksi yang sama. Jumlah ini kemudian didistribusikan kembali dalam bentuk output dengan nilai yang sama kepada setiap pengguna.
 
-![BTC204](assets/fr/105.webp)
+![BTC204](assets/id/110.webp)
 
 Pada akhir transaksi, menjadi tidak mungkin untuk mengasosiasikan output tertentu dengan pengguna yang dikenal sebagai input. Tidak ada hubungan langsung antara input dan output, yang memutus hubungan antara pengguna dan UTXO mereka, serta riwayat setiap bagian.
 
-![BTC204](assets/fr/106.webp)
+![BTC204](assets/id/111.webp)
 
 Mari kita ambil contoh Alice. Dia ingin mengirim sekitar 100.000 satoshi kepada saudara perempuannya, Eve, untuk ulang tahunnya. Namun, Alice tidak ingin Eve dapat melacak riwayat transaksinya, karena dia tidak ingin mengungkapkan berapa banyak bitcoin yang dia miliki atau bagaimana dia mendapatkannya. Untuk itu, Alice memutuskan untuk menghapus riwayat UTXO-nya dengan transaksi coinjoin. Dia mengatur dengan Bob, Charles, David dan Frank untuk melakukan transaksi kolaboratif:
 
 
 - Alice, Bob, Charles, David, dan Frank masing-masing memberikan UTXO sebesar 105.000 sat (dengan 5.000 sat untuk biaya penambangan) sebagai input ke dalam transaksi:
 
-![BTC204](assets/fr/107.webp)
+![BTC204](assets/id/112.webp)
 
 
 - Sebagai imbalan untuk mengkonsumsi input ini, masing-masing menghasilkan alamat kosong untuk membuat lima output identik masing-masing 100.000 sat. Masing-masing mengambil satu keluaran:
 
-![BTC204](assets/fr/108.webp)
+![BTC204](assets/id/113.webp)
 
 
 - Alice mendapati dirinya memiliki UTXO sebesar 100.000 sat yang sejarahnya tercampur aduk. Dia menggunakan UTXO ini dalam transaksi baru untuk mengirim jumlah tersebut kepada Eve untuk ulang tahunnya:
 
-![BTC204](assets/fr/109.webp)
+![BTC204](assets/id/114.webp)
 
 
 - Jika Eve mencoba menganalisis transaksi ini untuk mengekstrak informasi, ia akan dihadapkan pada transaksi coinjoin yang melibatkan Alice, Bob, Charles, David, dan Frank. Karena tidak dapat membedakan input mana yang menjadi milik siapa karena keseragaman jumlah, Eve tidak dapat melacak riwayat UTXO Alice, atau menentukan berapa banyak bitcoin yang dimiliki saudara perempuannya atau bagaimana dia memperolehnya:
 
-![BTC204](assets/fr/110.webp)
+![BTC204](assets/id/115.webp)
 
 Dalam hal ini, Alice telah menggunakan teknik coinjoin untuk meningkatkan kerahasiaan sehubungan dengan analisis retrospektif. Pada dasarnya, Alice melindungi dirinya sendiri dari kemungkinan analisis oleh Eve, yang akan mulai dari transaksi tertentu dan bekerja mundur melalui sejarah UTXO. Perlindungan terhadap analisis dari masa sekarang ke masa lalu ini dikenal sebagai anonset retrospektif. Kita akan melihat konsep ini secara lebih rinci di bab-bab terakhir bagian ini.
 
@@ -1701,21 +1701,21 @@ Namun, coinjoin juga menawarkan kemungkinan untuk memperkuat kerahasiaan dalam m
 
 - Eve, Grace, Mallory, Oscar, dan Victor masing-masing memasukkan UTXO sebanyak 98.000 satoshi sebagai input untuk transaksi Bitcoin:
 
-![BTC204](assets/fr/111.webp)
+![BTC204](assets/id/116.webp)
 
 
 - Sebagai imbalan untuk menggunakan input ini, setiap pengguna memberikan alamat kosong yang akan digunakan untuk membuat 5 output dari 97.500 sat yang sama persis. Setiap pengguna mendapatkan satu keluaran:
 
-![BTC204](assets/fr/112.webp)
+![BTC204](assets/id/117.webp)
 
 
 - Eve sekarang memegang UTXO sebanyak 97.500 satoshi yang sejarahnya telah dipecahkan. Dia dapat menggunakannya tanpa rasa takut untuk melakukan transaksi di masa depan. Memang, jika Alice mencoba melacak bitcoin yang telah ia kirimkan kepada Eve, ia akan dihadapkan pada transaksi coinjoin. Dia tidak akan dapat menentukan UTXO keluar mana yang menjadi milik Eve. Analisis menjadi tidak mungkin dilakukan:
 
-![BTC204](assets/fr/113.webp)
+![BTC204](assets/id/118.webp)
 
 Pada contoh pertama, kita melihat bagaimana coinjoin dapat melindungi privasi sebuah ruangan dalam kaitannya dengan masa lalunya, dan pada contoh kedua, bagaimana coinjoin juga dapat mengamankan sejarah sebuah ruangan dalam kaitannya dengan masa depannya. Itulah mengapa saya menyebutkan bahwa coinjoin harus dilihat sebagai peristiwa sekali pakai yang menyegmentasikan bagian sejarah di kedua arah:
 
-![BTC204](assets/fr/104.webp)
+![BTC204](assets/id/119.webp)
 
 ### Mixer, coinjoin, mixer... Apa bedanya?
 
@@ -1723,7 +1723,7 @@ Coinjoin terkadang digambarkan sebagai "pencampur", sebuah istilah yang ditolak 
 
 Dalam bidang matematika secara umum, pencampuran mengacu pada sifat sistem dinamik di mana, setelah jangka waktu tertentu, semua bagian dari ruang awal secara teoritis dapat bercampur dengan bagian lainnya. Pencampuran menyiratkan bahwa posisi partikel atau keadaan suatu sistem berevolusi sedemikian rupa sehingga distribusi masa depannya tidak bergantung pada distribusi awalnya, sehingga mencapai keadaan di mana karakteristik keadaan awal terdistribusi secara seragam di seluruh ruang sistem. Inilah yang terjadi pada coinjoin dengan bitcoin. Jadi, menurut saya, coinjoin benar-benar merupakan metode pencampuran koin.
 
-![BTC204](assets/fr/114.webp)
+![BTC204](assets/id/120.webp)
 
 Di sisi lain, penting untuk membedakan coinjoin dengan shuffler. Shuffler adalah sebuah layanan di mana pengguna mengirimkan bitcoin mereka untuk dikocok. Layanan ini sangat populer pada tahun 2010-an, tetapi penggunaannya telah menurun karena dua kelemahan utama dibandingkan dengan coinjoin:
 
@@ -1731,7 +1731,7 @@ Di sisi lain, penting untuk membedakan coinjoin dengan shuffler. Shuffler adalah
 - Mereka mengharuskan pengguna untuk melepaskan hak asuh dana mereka selama proses pencampuran, yang membuat mereka terekspos pada risiko pencurian;
 - Tidak ada jaminan bahwa mixer tidak akan mencatat detail transaksi, atau bahkan menjual informasi ini ke perusahaan analisis rantai.
 
-![BTC204](assets/fr/115.webp)
+![BTC204](assets/id/121.webp)
 
 Oleh karena itu, para pengguna saat ini lebih memilih coinjoin, karena memungkinkan mereka untuk tetap memegang kendali penuh atas dana mereka selama proses berlangsung. Peserta coinjoin tidak memiliki risiko bitcoin mereka dicuri oleh pihak lain yang terlibat. Mari kita lihat bagaimana semua ini dapat dilakukan di bab selanjutnya.
 
@@ -1744,7 +1744,7 @@ Privasi yang disediakan oleh coinjoin diperoleh dari ukuran grup tempat bagian k
 
 Inilah sebabnya mengapa koordinator coinjoin telah berkembang di Bitcoin. Peran mereka adalah untuk menghubungkan berbagai pengguna satu sama lain dan mengirimkan informasi yang dibutuhkan untuk menyelesaikan transaksi kolaboratif.
 
-![BTC204](assets/fr/116.webp)
+![BTC204](assets/id/122.webp)
 
 Namun, bagaimana kita dapat memastikan bahwa koordinator tidak pernah memegang bitcoin pengguna, dan terlepas dari fakta bahwa dia adalah orang yang membangun transaksi coinjoin, bagaimana kita dapat memastikan bahwa dia tidak dapat menghubungkan input dan output pengguna, yang dapat menyebabkan kebocoran kerahasiaan?
 
@@ -1754,7 +1754,7 @@ Implementasi coinjoin modern menggunakan tanda tangan buta David Chaum untuk men
 
 Tanda tangan buta Chaum adalah bentuk tanda tangan digital di mana pemberi tanda tangan tidak mengetahui isi pesan yang ditandatanganinya. Tetapi tanda tangan tersebut dapat diverifikasi terhadap pesan aslinya. Teknik ini dikembangkan oleh kriptografer David Chaum pada tahun 1983.
 
-![BTC204](assets/fr/117.webp)
+![BTC204](assets/id/123.webp)
 
 Mari kita ambil contoh sebuah perusahaan yang ingin mengautentikasi dokumen rahasia, seperti kontrak, tanpa mengungkapkan isinya. Perusahaan menerapkan proses penyembunyian yang secara kriptografis mengubah dokumen asli dengan cara yang dapat dibalik. Dokumen yang telah dimodifikasi ini dikirim ke otoritas sertifikasi, yang membubuhkan tanda tangan buta tanpa mengetahui konten yang mendasarinya. Setelah menerima dokumen yang ditandatangani, perusahaan membuka kedok tanda tangan tersebut. Hasilnya adalah dokumen asli yang diautentikasi oleh tanda tangan otoritas, tanpa otoritas pernah melihat konten aslinya.
 
@@ -1771,36 +1771,36 @@ Proses konstruksi transaksi coinjoin melibatkan 3 tahap utama: registrasi input,
 
 - Alice mengirimkan kepada koordinator UTXO yang ingin ia gunakan sebagai input untuk transaksi, serta alamat penerima terselubung yang ingin ia gunakan sebagai output untuk menerima bitcoinnya. Oleh karena itu, koordinator tidak memiliki cara untuk mengetahui alamat Alice. Ia hanya melihat versi terselubungnya:
 
-![BTC204](assets/fr/118.webp)
+![BTC204](assets/id/124.webp)
 
 
 - Koordinator memeriksa keabsahan input, kemudian menandatangani alamat terselubung Alice dengan kunci pribadinya. Dia mengembalikan tanda tangan yang sudah ditandatangani kepada Alice:
 
-![BTC204](assets/fr/119.webp)
+![BTC204](assets/id/125.webp)
 
 **Langkah 2: Registrasi keluaran**
 
 
 - Alice dapat membuka kedok alamatnya, yang sekarang ditandatangani oleh kunci pribadi koordinator. Dia akan membuat koneksi baru dengan identitas Tor yang berbeda. Koordinator tidak dapat mengidentifikasi bahwa Alice yang terhubung dengan identitas baru ini:
 
-![BTC204](assets/fr/120.webp)
+![BTC204](assets/id/126.webp)
 
 
 - Alice mengirimkan alamat dan tanda tangan yang telah dibuka kepada koordinator (yang masih belum tahu bahwa itu adalah Alice):
 
-![BTC204](assets/fr/121.webp)
+![BTC204](assets/id/127.webp)
 
 **Langkah 3: Menandatangani transaksi**
 
 
 - Dengan cara yang sama, koordinator mengambil keluaran yang tidak disamarkan dari semua peserta. Berkat tanda tangan yang terkait, ia dapat memeriksa bahwa setiap output yang dikirimkan secara anonim telah ditandatangani oleh kunci pribadinya sebelumnya, sehingga menjamin keabsahannya. Dia kemudian siap untuk membuat transaksi coinjoin dan mengirimkannya kepada para peserta untuk ditandatangani:
 
-![BTC204](assets/fr/122.webp)
+![BTC204](assets/id/128.webp)
 
 
 - Alice, seperti peserta lainnya, memeriksa apakah input dan outputnya sudah dimasukkan dengan benar ke dalam transaksi yang dibuat oleh koordinator. Jika semuanya memuaskan, ia mengirimkan tanda tangan yang membuka skrip inputnya kepada koordinator:
 
-![BTC204](assets/fr/123.webp)
+![BTC204](assets/id/129.webp)
 
 
 - Setelah mengumpulkan tanda tangan dari semua peserta coinjoin, koordinator dapat menyiarkan transaksi tersebut di jaringan Bitcoin, sehingga dapat ditambahkan ke dalam blok.
@@ -1820,31 +1820,31 @@ Sulit untuk mengatakan dengan pasti siapa yang pertama kali memperkenalkan ide c
 > *"Menggunakan tanda tangan buta Chaum: Pengguna masuk dan memberikan input (dan bertukar alamat) serta versi kriptografi yang dibutakan dari alamat yang ingin mereka kirimkan; server menandatangani token dan mengirimkannya kembali. Pengguna terhubung kembali secara anonim, membuka kedok alamat keluaran mereka dan mengirimkannya kembali ke server. Server dapat melihat bahwa semua output telah ditandatangani olehnya dan, akibatnya, semua output berasal dari peserta yang valid. Kemudian, orang-orang terhubung kembali dan masuk"*
 Maxwell, G. (2013, Agustus 22). *CoinJoin: Privasi Bitcoin untuk dunia nyata*. Forum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
 
-![BTC204](assets/fr/124.webp)
+![BTC204](assets/id/130.webp)
 
 Akan tetapi, ada penyebutan lain yang lebih awal, baik untuk tanda tangan Chaum sebagai bagian dari pencampuran, tetapi juga untuk coinjoin. [Pada bulan Juni 2011, Duncan Townsend mempresentasikan di BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) sebuah mixer yang menggunakan tanda tangan Chaum dengan cara yang sangat mirip dengan coinjoin Chaumian modern.
 
 Dalam thread yang sama, kita dapat menemukan [pesan dari hashcoin sebagai tanggapan terhadap Duncan Townsend] (https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) untuk meningkatkan mixernya. Proses yang dijelaskan dalam pesan ini adalah persis seperti apa yang dimaksud dengan coinjoin. Penyebutan sistem yang serupa juga dapat ditemukan di [pesan dari Alex Mizrahi pada tahun 2012] (https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), ketika dia menasihati para pencipta Tenebrix, salah satu altcoin pertama yang menjadi dasar pembuatan Litecoin. Bahkan istilah "coinjoin" sendiri dikatakan tidak diciptakan oleh Greg Maxwell, tetapi berasal dari ide Peter Todd.
 
-![BTC204](assets/fr/125.webp)
+![BTC204](assets/id/131.webp)
 
 ### Zerolink
 
 Zerolink adalah sebuah protokol pencampuran yang komprehensif yang menggabungkan coinjoins Chaumian dan berbagai strategi untuk melindungi anonimitas pengguna dari beberapa bentuk analisis rantai, khususnya dengan meminimalisir kesalahan yang berhubungan dengan manajemen portofolio. Protokol ini [diperkenalkan oleh nopara73 dan TDevD pada tahun 2017] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
-![BTC204](assets/fr/126.webp)
+![BTC204](assets/id/132.webp)
 
 Seperti namanya, prinsip di balik Zerolink adalah menciptakan transaksi coinjoin yang memastikan bahwa hubungan antara input dan output tidak dapat dilacak. Hal ini dicapai dengan memastikan bahwa semua output memiliki jumlah yang identik.
 
-![BTC204](assets/fr/127.webp)
+![BTC204](assets/id/133.webp)
 
 Langkah pencegahan penting yang diambil oleh Zerolink adalah menjaga agar UTXO yang belum tercampur benar-benar terpisah dari UTXO yang sudah tercampur dengan menggunakan set kunci kriptografi yang terpisah, atau bahkan portofolio yang terpisah. Hal ini membedakan dompet "*pre-mix*", yang ditujukan untuk komponen sebelum pencampuran, dari dompet "*post-mix*", yang diperuntukkan bagi komponen yang telah dicampur.
 
-![BTC204](assets/fr/128.webp)
+![BTC204](assets/id/134.webp)
 
 Pemisahan UTXO yang ketat ini berfungsi terutama untuk mencegah hubungan yang tidak disengaja antara UTXO campuran dan UTXO yang tidak tercampur. Memang, jika hubungan seperti itu terjadi, efektivitas coinjoin pada UTXO campuran dibatalkan tanpa disadari oleh pengguna, sehingga membahayakan kerahasiaan UTXO yang sejarahnya dikiranya telah rusak. Tautan ini dapat terjadi baik melalui penggunaan ulang alamat pada pengamanan UTXO campuran dengan yang tidak tercampur, atau melalui penerapan CIOH (_Common-Input-Ownership Heuristic_), jika pengguna menggunakan UTXO campuran dan yang tidak tercampur sebagai input untuk transaksi yang sama. Dengan memisahkan portofolio pra-campuran dan pasca-campuran, kami menghindari asosiasi yang tidak disengaja dan melindungi pengguna dari kesalahan yang tidak disengaja.
 
-![BTC204](assets/fr/129.webp)
+![BTC204](assets/id/135.webp)
 
 Pemisahan ini juga menawarkan kemungkinan penerapan aturan yang berbeda antara portofolio pra-campuran dan pasca-pencampuran pada tingkat perangkat lunak portofolio. Misalnya, dalam portofolio pasca-pencampuran, perangkat lunak dapat melarang penggabungan UTXO ke dalam input untuk mencegah penerapan CIOH, yang akan membahayakan anonset pengguna. Hal ini juga memungkinkan untuk menstandarkan penggunaan skrip dan opsi transaksi (seperti pelaporan RBF, misalnya) untuk mencegah identifikasi dengan sidik jari dompet.
 
@@ -1870,13 +1870,13 @@ Setiap implementasi ini bertujuan untuk memecahkan sejarah UTXO melalui transaks
 
 JoinMarket, yang didirikan pada tahun 2015 oleh Adam Gibson dan Chris Belcher, terlihat jelas berbeda dari implementasi coinjoin lainnya berkat modelnya yang unik dalam menghubungkan para pengguna. Sistem ini didasarkan pada pasar pertukaran P2P di mana beberapa pengguna, "pembuat", membuat bitcoin mereka tersedia untuk pencampuran, sementara yang lain, "pengambil", menggunakan uang tunai ini untuk membuat coinjoin dengan imbalan biaya.
 
-![BTC204](assets/fr/130.webp)
+![BTC204](assets/id/136.webp)
 
 Dalam model ini, "pembuat" menyediakan bitcoin mereka untuk "pengambil" dan menerima bayaran untuk layanan mereka. Pengambil, pada gilirannya, membayar untuk menggunakan bitcoin pembuat untuk melakukan transaksi koin bersama mereka sendiri. Biaya layanan bervariasi sesuai dengan peran yang diambil: "pembuat" mengumpulkan biaya untuk menawarkan likuiditas, sementara "pengambil" membayar biaya. Pasar beroperasi secara bebas, tanpa syarat penggunaan.
 
 Salah satu kelemahan utama JoinMarket adalah kerumitan penggunaannya, yang membutuhkan tingkat kenyamanan tertentu dengan terminal untuk mengoperasikannya secara efektif. Meskipun kerumitan ini tidak menjadi hambatan bagi pengguna berpengalaman, namun mungkin membatasi akses ke masyarakat umum. Namun demikian, pengenalan antarmuka web yang disebut JAM baru-baru ini, telah membuatnya sedikit lebih mudah digunakan.
 
-![BTC204](assets/fr/131.webp)
+![BTC204](assets/id/137.webp)
 
 Sumber : [JAM] (https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
@@ -1890,23 +1890,23 @@ Akhirnya, meskipun konsep JoinMarket menarik, terutama bagi mereka yang tertarik
 
 Wabisabi adalah implementasi coinjoin lainnya, dengan pendekatan yang memusatkan koordinasi transaksi. Model ini digagas oleh Ádám Ficsór (nopara73), Yuval Kogman, Lucas Ontivero, dan István András Seres pada tahun 2021, dan diintegrasikan ke dalam perangkat lunak Wasabi 2.0 pada tahun berikutnya. Wabisabi merupakan evolusi dari model coinjoin perangkat lunak Wasabi yang diluncurkan pada tahun 2018.
 
-![BTC204](assets/fr/132.webp)
+![BTC204](assets/id/138.webp)
 
 Menjelang akhir tahun 2010, Wasabi mengadopsi struktur transaksi coinjoin yang sangat berbeda dengan Whirlpool. Wasabi menggunakan transaksi coinjoin yang sangat besar yang melibatkan lusinan partisipan untuk meningkatkan anonset para pesertanya. Sebaliknya, Whirlpool memilih beberapa transaksi kecil, memungkinkan anonset tumbuh secara eksponensial dengan setiap siklus.
 
 Metode manajemen bursa juga membedakan kedua implementasi tersebut. Dengan Whirlpool, valuta asing dikecualikan dan diisolasi dari UTXO sebelum siklus coinjoin berkat TX0, sebuah konsep yang akan saya jelaskan lebih lanjut di bab berikutnya. Dengan Wasabi, di sisi lain, valuta asing membentuk salah satu output dari transaksi coinjoin, mempertahankan hubungan deterministik antara input dan output tertentu.
 
-![BTC204](assets/fr/133.webp)
+![BTC204](assets/id/139.webp)
 
 Dengan Wabisabi, Wasabi versi 2.0 telah mengadaptasi pendekatannya terhadap coinjoin agar sesuai dengan Whirlpool. Meskipun transaksi coinjoin masih sangat besar, sekarang dimungkinkan untuk melakukan beberapa siklus yang berurutan, mengikuti model Whirlpool. Perhatian khusus juga diberikan pada manajemen nilai tukar: tidak seperti Wasabi 1.0, di mana nilai tukar secara langsung terkait dengan input pengguna, Wabisabi berusaha untuk membagi nilai tukar menjadi beberapa jumlah kecil, dibagi ke dalam denominasi yang sama untuk semua peserta.
 
 Mari kita ilustrasikan hal ini dengan contoh sederhana yang hanya melibatkan 2 pengguna: Alice ingin menggabungkan 115.000 satoshi dan Bob, 210.000 satoshi. Dengan mengabaikan biaya, dengan Wasabi 1.0, transaksi coinjoin akan menghasilkan 3 output 100.000 satoshi, ditambah 1 pertukaran 15.000 satoshi untuk Alice dan 1 pertukaran 10.000 satoshi untuk Bob. Output dari pertukaran masih akan terhubung dengan input:
 
-![BTC204](assets/fr/134.webp)
+![BTC204](assets/id/140.webp)
 
 Di bawah Wabisabi, transaksi yang sama akan menghasilkan 3 output 100.000 sat dan 5 output 5.000 sat, sehingga menyebarkan pertukaran sehingga tidak dapat secara langsung dikaitkan dengan input tertentu:
 
-![BTC204](assets/fr/135.webp)
+![BTC204](assets/id/141.webp)
 
 Secara pribadi, saya menemukan bahwa manajemen valuta asing Wabisabi memiliki beberapa risiko yang dapat mengganggu keefektifannya dalam hal kerahasiaan:
 
@@ -1940,7 +1940,7 @@ Yang membedakan Whirlpool dengan metode coinjoin lainnya adalah penggunaan trans
 
 Pendekatan yang ketat terhadap input ini memberikan fitur unik pada transaksi coinjoin Whirlpool: tidak adanya hubungan deterministik antara input dan output. Dengan kata lain, setiap output memiliki probabilitas yang sama untuk dikaitkan dengan peserta mana pun, relatif terhadap semua output lain dalam transaksi.
 
-![BTC204](assets/fr/136.webp)
+![BTC204](assets/id/142.webp)
 
 ### Cara kerja Whirlpool
 
@@ -1951,22 +1951,22 @@ Dengan demikian, transaksi Whirlpool dicirikan oleh jumlah input dan output yang
 
 - 5 input dan 5 output;
 
-![BTC204](assets/fr/137.webp)
+![BTC204](assets/id/143.webp)
 
 
 - 6 input dan 6 output;
 
-![BTC204](assets/fr/138.webp)
+![BTC204](assets/id/144.webp)
 
 
 - 7 input dan 7 output;
 
-![BTC204](assets/fr/139.webp)
+![BTC204](assets/id/145.webp)
 
 
 - 8 input dan 8 output.
 
-![BTC204](assets/fr/140.webp)
+![BTC204](assets/id/146.webp)
 
 Model Whirlpool didasarkan pada transaksi coinjoin kecil. Tidak seperti Wabisabi dan JoinMarket, di mana ketahanan anonset didasarkan pada volume partisipan dalam satu siklus (atau beberapa siklus), Whirlpool bergantung pada urutan beberapa siklus kecil.
 
@@ -1974,7 +1974,7 @@ Dalam model ini, pengguna membayar biaya hanya ketika mereka pertama kali bergab
 
 Dengan setiap tambahan coinjoin di mana sebuah karya berpartisipasi, serta rekan-rekannya yang ditemui di masa lalu, anonset akan tumbuh secara eksponensial. Tujuannya adalah untuk mengambil keuntungan dari remix gratis ini, yang, setiap kali terjadi, berkontribusi untuk memperkuat kepadatan anonset yang terkait dengan setiap bagian yang dicampur.
 
-![BTC204](assets/fr/141.webp)
+![BTC204](assets/id/147.webp)
 
 Whirlpool telah dirancang dengan mempertimbangkan dua persyaratan penting:
 
@@ -2038,7 +2038,7 @@ Selain biaya layanan, biaya penambangan khusus untuk setiap transaksi Bitcoin ju
 
 Faktanya, di setiap coinjoin Whirlpool, 2 pengguna di antara masukannya adalah pendatang baru. Input lainnya berasal dari remixer. Akibatnya, biaya penambangan untuk semua peserta dalam transaksi ditanggung oleh 2 pendatang baru ini, yang kemudian juga dapat memperoleh manfaat dari remix gratis:
 
-![BTC204](assets/fr/142.webp)
+![BTC204](assets/id/148.webp)
 
 Berkat sistem biaya ini, Whirlpool benar-benar menonjol dari implementasi coinjoin lainnya, karena anonset UTXO tidak sebanding dengan harga yang dibayarkan oleh pengguna. Sebagai hasilnya, dimungkinkan untuk mencapai tingkat anonimitas yang jauh lebih tinggi dengan hanya membayar biaya masuk pool dan biaya penambangan untuk 2 transaksi (`Tx0` dan campuran awal).
 
@@ -2048,7 +2048,7 @@ Penting untuk diperhatikan bahwa pengguna juga harus membayar biaya penambangan 
 
 Untuk membuat coinjoin melalui Whirlpool, wallet harus membuat beberapa akun terpisah. Ini adalah prinsip di balik protokol ZeroLink. Sebuah akun, dalam konteks portofolio HD (*Hierarchical Deterministic*), merupakan sebuah bagian yang sepenuhnya terisolasi dari yang lain, pemisahan ini terjadi pada tingkat kedalaman ketiga dari hirarki portofolio, yaitu pada tingkat `xpub`.
 
-![BTC204](assets/fr/143.webp)
+![BTC204](assets/id/149.webp)
 
 Sebuah dompet HD secara teoritis dapat menghasilkan hingga `2^(31)` akun yang berbeda. Akun awal, yang digunakan secara default pada semua dompet Bitcoin, berhubungan dengan indeks `0`.
 
@@ -2074,7 +2074,7 @@ Tx0" adalah langkah pertama dalam proses pencampuran Whirlpool. Tujuannya adalah
 
 Transaksi awal `Tx0` ini juga digunakan untuk membayar biaya layanan kepada koordinator coinjoin. Tidak seperti langkah-langkah selanjutnya, transaksi ini tidak bersifat kolaboratif, sehingga pengguna harus menanggung seluruh biaya penambangan:
 
-![BTC204](assets/fr/144.webp)
+![BTC204](assets/id/150.webp)
 
 Dalam contoh transaksi `Tx0` ini, input sebesar `372.000 sats` dari akun **deposit** kami dibagi menjadi beberapa output UTXO, yang dirinci sebagai berikut:
 
@@ -2086,7 +2086,7 @@ Dalam contoh transaksi `Tx0` ini, input sebesar `372.000 sats` dari akun **depos
 
 Sebagai contoh, berikut ini adalah Whirlpool Tx0 yang asli (bukan milik saya): [edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46](https://mempool.space/fr/tx/edef60744f539483d868caff49d4848e5cc6e805d6cdc8d0f9bdbbaedcb5fc46)
 
-![BTC204](assets/fr/145.webp)
+![BTC204](assets/id/151.webp)
 
 ### Perubahan yang sangat besar
 
@@ -2094,7 +2094,7 @@ Surplus yang tidak dapat diintegrasikan ke dalam pool, di sini setara dengan `40
 
 UTXO ini berbahaya bagi kerahasiaan pengguna, karena tidak hanya masih melekat pada masa lalunya, dan oleh karena itu mungkin pada identitas pemiliknya, tetapi juga dicatat sebagai milik pengguna yang telah melakukan coinjoin.
 
-![BTC204](assets/fr/146.webp)
+![BTC204](assets/id/152.webp)
 
 Jika UTXO ini digabungkan dengan output campuran, yang terakhir akan kehilangan semua kerahasiaan yang diperoleh selama siklus coinjoin, terutama karena CIOH (*Common-Input-Ownership-Heuristic*). Jika digabungkan dengan perubahan doxxic lainnya, pengguna berisiko kehilangan kerahasiaan, karena akan menghubungkan berbagai entri siklus coinjoin. Oleh karena itu harus diperlakukan dengan hati-hati. Kita akan membahas lebih detail tentang pengelolaan doxxic UTXO ini di bagian terakhir bab ini.
 
@@ -2104,7 +2104,7 @@ Setelah `Tx0`, UTXO yang telah disamakan dikirim ke akun **premix** portofolio k
 
 Pada akhir campuran pertama ini, akun **premix** akan kosong, sementara koin kita, setelah membayar biaya penambangan untuk koin pertama ini, akan disesuaikan dengan jumlah yang ditentukan oleh pool yang dipilih. Dalam contoh kita, UTXO awal kita sebesar `108.000 satoshi` akan dikurangi menjadi tepat `100.000 satoshi`.
 
-![BTC204](assets/fr/147.webp)
+![BTC204](assets/id/153.webp)
 
 ### Remixes
 
@@ -2122,7 +2122,7 @@ Beberapa pengguna mungkin mempertimbangkan untuk mentransfer bitcoin campuran me
 
 Menggabungkan UTXO adalah kesalahan yang paling umum. Untuk menghindari CIOH (*Common-Input-Ownership-Heuristic*), Anda harus menghindari penggabungan UTXO campuran dengan UTXO yang tidak tercampur dalam transaksi yang sama. Hal ini membutuhkan manajemen yang cermat terhadap UTXO dalam portofolio Anda, terutama dalam hal pelabelan.
 
-![BTC204](assets/fr/148.webp)
+![BTC204](assets/id/154.webp)
 
 Kehati-hatian juga harus dilakukan ketika mengkonsolidasikan UTXO campuran. Konsolidasi moderat dimungkinkan jika UTXO campuran Anda memiliki anonset yang signifikan, tetapi hal ini pasti akan mengurangi kerahasiaan bagian Anda. Pastikan konsolidasi tidak terlalu ekstensif, atau dilakukan setelah jumlah penggabungan yang tidak mencukupi, dengan risiko membangun hubungan yang dapat disimpulkan antara UTXO Anda sebelum dan sesudah siklus penggabungan. Jika Anda ragu dengan manipulasi ini, praktik terbaiknya adalah tidak menggabungkan UTXO postmix, tetapi mentransfernya satu per satu ke dompet perangkat keras Anda, menghasilkan alamat kosong baru setiap kali. Sekali lagi, ingatlah untuk memberi label pada setiap UTXO yang Anda terima.
 
@@ -2150,7 +2150,7 @@ Berikut adalah beberapa strategi untuk menggunakannya:
 
 Setelah penangkapan pendiri Samourai Wallet dan penyitaan server mereka pada tanggal 24 April 2024, alat Whirlpool tidak lagi berfungsi, bahkan bagi mereka yang memiliki Dojo sendiri. Sebelumnya, alat ini tersedia di Samourai Wallet dan Sparrow Wallet.
 
-![BTC204](assets/fr/149.webp)
+![BTC204](assets/id/155.webp)
 
 Namun, masih ada kemungkinan bahwa alat ini akan diaktifkan kembali dalam beberapa minggu mendatang, tergantung pada hasil uji coba, atau diluncurkan kembali dengan cara yang berbeda. Bagaimanapun, saya rasa pasar coinjoin Bitcoin tidak akan kekurangan pasokan untuk waktu yang lama, karena permintaan tetap ada. Terlebih lagi, karena model Whirlpool adalah yang paling canggih dalam hal kerahasiaan, model ini pasti akan menjadi model pilihan untuk implementasi lain di masa depan.
 
@@ -2177,11 +2177,11 @@ Kegunaan coinjoin terletak pada kemampuannya untuk menghasilkan penyangkalan yan
 
 Dengan kata lain, seorang analis yang mengetahui transaksi awal Anda (`Tx0`) pada saat masuknya siklus coinjoin tidak dapat mengidentifikasi dengan pasti UTXO Anda pada saat keluarnya siklus remix (analisis siklus masuk ke siklus keluar).
 
-![BTC204](assets/fr/150.webp)
+![BTC204](assets/id/156.webp)
 
 Sebaliknya, seorang analis yang mengetahui UTXO Anda pada saat keluar dari siklus coinjoin harus tidak dapat menentukan transaksi asli pada saat masuknya siklus (analisis siklus keluar ke siklus masuk).
 
-![BTC204](assets/fr/151.webp)
+![BTC204](assets/id/157.webp)
 
 Untuk menilai seberapa sulit bagi seorang analis untuk menghubungkan masa lalu dengan masa kini dan sebaliknya, kita perlu mengukur ukuran kelompok bagian yang homogen di mana bagian Anda tersembunyi. Ukuran ini memberi tahu kita berapa banyak analisis yang memiliki probabilitas yang sama. Jadi, jika analisis yang benar tenggelam di antara 3 analisis lain yang memiliki probabilitas yang sama, tingkat penyembunyian Anda sangat rendah. Di sisi lain, jika analisis yang benar ditemukan dalam sekumpulan 20.000 analisis dengan probabilitas yang sama, maka bagian Anda tersembunyi dengan sangat baik. Ukuran kelompok-kelompok ini mewakili indikator yang dikenal sebagai "anonset".
 
@@ -2203,37 +2203,37 @@ Anonset berwawasan ke depan menunjukkan ukuran kelompok di mana UTXO yang dipela
 
 Indikator ini mengukur ketahanan kerahasiaan ruangan terhadap analisis masa lalu-ke-sekarang (input-ke-output).
 
-![BTC204](assets/fr/152.webp)
+![BTC204](assets/id/158.webp)
 
 Metrik ini digunakan untuk memperkirakan sejauh mana UTXO Anda terlindungi dari upaya merekonstruksi riwayatnya dari titik masuk hingga titik keluar dalam proses coinjoin.
 
 Sebagai contoh, jika transaksi Anda telah berpartisipasi dalam siklus coinjoin pertama dan dua siklus turun lebih lanjut telah selesai, maka calon anonset koin Anda adalah `13`:
 
-![BTC204](assets/fr/153.webp)
+![BTC204](assets/id/159.webp)
 
 Sebagai contoh, bayangkan koin kita pada awal siklus coinjoin memiliki anonset prospektif sebesar `86.871`. Dalam istilah praktis, ini berarti bahwa anonset tersebut tersembunyi di antara `86.871` bagian yang tidak dapat dibedakan. Untuk pengamat luar yang mengetahui koin ini pada awal siklus coinjoin dan mencoba melacak jalan keluarnya, dia akan dihadapkan dengan `86,871` kemungkinan UTXO, masing-masing dengan probabilitas yang sama dengan koin yang dia cari.
 
-![BTC204](assets/fr/154.webp)
+![BTC204](assets/id/160.webp)
 
 ### Anonset retrospektif
 
 Anonset retrospektif menunjukkan jumlah sumber yang mungkin untuk komponen tertentu, dengan mengetahui UTXO pada akhir siklus. Indikator ini mengukur resistensi kerahasiaan komponen terhadap analisis sekarang-ke-masa lalu (output-ke-input), yaitu seberapa sulit bagi analis untuk melacak komponen Anda kembali ke asalnya, sebelum siklus coinjoin. Nama indikator ini adalah "backward anonset", atau "metrik yang melihat ke belakang".
 
-![BTC204](assets/fr/155.webp)
+![BTC204](assets/id/161.webp)
 
 Dengan mengetahui UTXO Anda pada saat keluar dari siklus, anonset retrospektif menentukan jumlah potensi transaksi Tx0 yang dapat menjadi entri Anda ke dalam siklus coinjoin. Pada diagram di bawah ini, ini sesuai dengan jumlah semua gelembung oranye.
 
-![BTC204](assets/fr/156.webp)
+![BTC204](assets/id/162.webp)
 
 Sebagai contoh, mari kita bayangkan bahwa bagian coinjoin kita memiliki anonset retrospektif sebesar `42.185`. Secara praktis, ini berarti ada `42.185` sumber potensial untuk UTXO ini. Jika seorang pengamat eksternal mengidentifikasi koin ini pada akhir siklus dan berusaha melacak asalnya, dia akan dihadapkan pada `42.185` sumber yang mungkin, semuanya dengan probabilitas yang sama untuk menjadi sumber yang dicari.
 
-![BTC204](assets/fr/157.webp)
+![BTC204](assets/id/163.webp)
 
 ### Bagaimana cara menghitung anonset?
 
 Anda dapat menghitung anonset secara manual menggunakan block explorer untuk ansambel kecil. Namun, untuk anonset yang lebih besar, penggunaan alat khusus menjadi sangat penting. Sejauh yang saya tahu, satu-satunya perangkat lunak yang mampu melakukan tugas ini adalah *Whirlpool Stats Tool*, sebuah alat Python yang dikembangkan oleh tim Samourai dan OXT. Sayangnya, alat ini saat ini tidak berfungsi setelah penangkapan para pendiri Samourai dan gangguan pada OXT, yang digunakan untuk mengekstrak data dari blockchain.
 
-![BTC204](assets/fr/158.webp)
+![BTC204](assets/id/164.webp)
 
 Seperti yang telah kita lihat pada bab ini, anonset hanya dapat dihitung jika ada homogenitas tertentu dalam struktur coinjoin. Pada bab selanjutnya, kita akan mengetahui bagaimana cara menghitung homogenitas ini pada sebuah transaksi Bitcoin, baik itu coinjoin maupun transaksi yang lebih tradisional.
 
@@ -2254,15 +2254,15 @@ Indikator pertama yang dapat diamati pada transaksi Bitcoin adalah jumlah total 
 
 Sebagai contoh, sebuah transaksi pembayaran sederhana dengan 1 input dan 2 output hanya memiliki satu interpretasi, yaitu input #0 membiayai output #0 dan output #1. Tidak ada interpretasi lain yang memungkinkan:
 
-![BTC204](assets/fr/159.webp)
+![BTC204](assets/id/165.webp)
 
-Di sisi lain, sudut Whirlpool 5x5 memiliki kemungkinan kombinasi senilai $ 1.496.000:
+Namun, sebuah coinjoin yang disusun menurut model Whirlpool 5x5 memiliki $1\,496$ kemungkinan kombinasi:
 
-![BTC204](assets/fr/160.webp)
+![BTC204](assets/id/166.webp)
 
 Sebuah Whirlpool Surge Cycle 8x8 coinjoin memiliki kemungkinan interpretasi sebesar $9\,934\,563$:
 
-![BTC204](assets/fr/161.webp)
+![BTC204](assets/id/167.webp)
 
 ### Entropi
 
@@ -2308,7 +2308,7 @@ $$
 
 Mari kita ambil contoh lain dengan transaksi pembayaran klasik, dengan 1 input dan 2 output: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
 
-![BTC204](assets/fr/162.webp)
+![BTC204](assets/id/168.webp)
 
 Dalam kasus transaksi ini, satu-satunya interpretasi yang mungkin adalah: `(In.0) > (Out.0 ; Out.1)`. Akibatnya, entropinya adalah $0$:
 
@@ -2484,11 +2484,11 @@ Menghitung indikator-indikator ini secara manual dengan menggunakan persamaan ya
 
 Sebelumnya, ada alat Python yang disebut _Boltzmann Calculator_, yang dikembangkan oleh tim OXT dan Samourai, yang secara otomatis menghitung semua indikator ini untuk transaksi Bitcoin:
 
-![BTC204](assets/fr/163.webp)
+![BTC204](assets/id/169.webp)
 
 Anda juga dapat menggunakan situs web KYCP.org untuk melakukan analisis ini:
 
-![BTC204](assets/fr/164.webp)
+![BTC204](assets/id/170.webp)
 
 Sayangnya, setelah para pendiri Samourai ditangkap, alat-alat ini tidak lagi beroperasi.
 
@@ -2526,7 +2526,7 @@ Fitur khusus dari payjoin terletak pada kemampuannya untuk menghasilkan sebuah t
 
 Mari kita ambil sebuah contoh untuk lebih memahami proses ini. Alice membeli baguette seharga 4.000 sat menggunakan UTXO 10.000 sat dan memilih pembayaran dengan sistem payjoin. Tukang rotinya, Bob, menambahkan UTXO sebanyak 15.000 sat miliknya sebagai input, yang ia dapatkan kembali secara penuh sebagai output, di samping 4.000 sat milik Alice.
 
-![BTC204](assets/fr/165.webp)
+![BTC204](assets/id/171.webp)
 
 Dalam contoh ini, Bob si pembuat roti memasukkan 15.000 sat sebagai masukan dan keluar dengan 19.000 sat, selisihnya tepat 4.000 sat, yaitu harga roti. Di sisi Alice, ia memasukkan 10.000 sat dan berakhir dengan 6.000 sat sebagai output, yang mewakili keseimbangan -4.000 sat, yaitu harga baguette. Untuk menyederhanakan contoh ini, saya sengaja menghilangkan biaya penambangan dalam transaksi ini.
 
@@ -2540,15 +2540,15 @@ Jadi, ketika seorang analis memeriksa sebuah transaksi payjoin, dia akan percaya
 
 Mari kita ambil contoh transaksi payjoin untuk pembayaran baguette:
 
-![BTC204](assets/fr/166.webp)
+![BTC204](assets/id/172.webp)
 
 Melihat transaksi ini di blockchain, pengamat luar yang mengikuti heuristik analisis blockchain yang biasa akan membuat interpretasi sebagai berikut: "*Alice menggabungkan 2 UTXO sebagai input untuk transaksi untuk membayar 19.000 sat kepada Bob*".
 
-![BTC204](assets/fr/167.webp)
+![BTC204](assets/id/173.webp)
 
 Interpretasi ini jelas tidak benar, karena seperti yang sudah Anda ketahui, dua UTXO dalam input tidak dimiliki oleh orang yang sama. Yang satu berasal dari Alice, pembeli baguette, dan yang lainnya dari Bob, pembuat roti.
 
-![BTC204](assets/fr/168.webp)
+![BTC204](assets/id/174.webp)
 
 Dengan cara ini, analisis pengamat eksternal diarahkan pada kesimpulan yang keliru, sehingga kerahasiaan para pemangku kepentingan tetap terjaga.
 
@@ -2558,11 +2558,11 @@ Tujuan kedua dari payjoin adalah untuk menyesatkan pengamat luar tentang jumlah 
 
 Jika kita kembali ke contoh pembelian baguette, analis akan berpikir bahwa jumlah pembayaran sesuai dengan UTXO 6.000 sat, atau UTXO 19.000 sat. Dalam kasus ini, analis akan lebih suka berpikir bahwa jumlah pembayaran adalah 19.000 sat, karena ada 2 UTXO dalam output, setidaknya salah satu dari mereka lebih besar dari 6.000 sat (tidak ada alasan logis untuk menggunakan 2 UTXO untuk membayar 6.000 sat ketika satu UTXO akan cukup untuk memenuhi pembayaran ini).
 
-![BTC204](assets/fr/169.webp)
+![BTC204](assets/id/175.webp)
 
 Namun pada kenyataannya, analisis ini cacat. Jumlah pembayaran tidak sesuai dengan output mana pun. Ini sebenarnya adalah perbedaan antara UTXO penerima dalam output dan UTXO penerima dalam input.
 
-![BTC204](assets/fr/170.webp)
+![BTC204](assets/id/176.webp)
 
 Dalam hal ini, transaksi payjoin masuk ke dalam ranah steganografi. Hal ini memungkinkan jumlah transaksi yang sebenarnya untuk disembunyikan di dalam transaksi palsu yang bertindak sebagai umpan.
 
@@ -2576,11 +2576,11 @@ Sebuah analogi dapat ditarik antara kriptografi dan coinjoin, dan antara stegano
 
 Program perangkat lunak terkenal yang mendukung payjoin termasuk Sparrow Wallet, Wasabi Wallet, Mutiny, BitMask, BlueWallet dan JoinMarket, serta pemroses pembayaran BTCPay.
 
-![BTC204](assets/fr/171.webp)
+![BTC204](assets/id/177.webp)
 
 Implementasi payjoin yang paling canggih hanyalah Stowaway di Samourai Wallet. Namun, sejak penangkapan para pendiri perangkat lunak ini, alat ini sekarang hanya berfungsi sebagian. Keuntungan dari Stowaway adalah protokolnya yang komprehensif dan mudah digunakan, yang mendukung penerimaan dan pengiriman payjoin. Transaksi yang ditandatangani sebagian dapat ditukar secara manual dengan memindai beberapa kode QR, atau secara otomatis dengan Tor melalui Soroban. Opsi komunikasi yang terakhir saat ini tidak tersedia.
 
-![BTC204](assets/fr/172.webp)
+![BTC204](assets/id/178.webp)
 
 Kesulitan dalam menggunakan payjoin terletak pada ketergantungannya pada partisipasi pedagang. Sebagai pelanggan, Anda tidak bisa menggunakan payjoin jika merchant tidak mendukungnya. Hal ini menambah kesulitan lebih lanjut pada proses pembelian: tidak hanya sulit untuk menemukan merchant yang menerima bitcoin, tetapi jika Anda juga mencari merchant yang mendukung payjoin, maka prosesnya menjadi lebih rumit.
 
@@ -2611,7 +2611,7 @@ Jadi hanya ada 2 peran dalam transaksi Stonewall:
 
 Mari kita ambil sebuah contoh untuk memahami struktur transaksi ini. Alice pergi ke Bob si penjual roti untuk membeli baguette seharga 4.000 sat. Ia ingin membayar dengan bitcoin, namun tetap menjaga kerahasiaan pembayarannya. Jadi, dia memutuskan untuk membuat transaksi Stonewall untuk pembayarannya.
 
-![BTC204](assets/fr/173.webp)
+![BTC204](assets/id/179.webp)
 
 Dengan menganalisis transaksi ini, kita dapat melihat bahwa Bob si pembuat roti sebenarnya menerima 4.000 sat sebagai pembayaran untuk baguette tersebut. Alice menggunakan 2 UTXO sebagai input: satu untuk 10.000 sat dan satu lagi untuk 15.000 sat. Sebagai output, dia telah mendapatkan 3 UTXO: satu untuk 4.000 sat, satu untuk 6.000 sat, dan satu untuk 11.000 sat. Oleh karena itu, Alice memiliki saldo bersih -4.000 sat pada transaksi ini, yang sesuai dengan harga baguette.
 
@@ -2623,15 +2623,15 @@ Struktur Stonewall menambahkan sejumlah besar entropi ke dalam transaksi, mengab
 
 Mari kita ambil contoh Alice di toko roti Bob. Transaksi pada blockchain akan terlihat seperti ini:
 
-![BTC204](assets/fr/174.webp)
+![BTC204](assets/id/180.webp)
 
 Seorang pengamat luar yang mengandalkan heuristik analisis rantai yang umum dapat secara keliru menyimpulkan bahwa "*dua orang telah membuat sebuah coinjoin kecil, dengan masing-masing satu UTXO sebagai input dan dua UTXO sebagai output*". Menganalisis transaksi ini dari luar tidak akan mengarah pada penerapan CIOH, karena adanya dua output dengan jumlah yang sama menunjukkan pola coinjoin. Dari sudut pandang eksternal, CIOH tidak dapat diterapkan dalam kasus khusus ini.
 
-![BTC204](assets/fr/175.webp)
+![BTC204](assets/id/181.webp)
 
 Interpretasi ini tidak akurat, karena, seperti yang Anda ketahui, satu UTXO dikirim ke Bob si tukang roti, 2 input UTXO berasal dari Alice, dan dia memulihkan 3 output pertukaran.
 
-![BTC204](assets/fr/176.webp)
+![BTC204](assets/id/182.webp)
 
 Dan yang sangat menarik dari struktur transaksi Stonewall adalah, dari sudut pandang pengamat luar, struktur ini menyerupai transaksi Stonewall x2 dalam segala hal.
 
@@ -2650,7 +2650,7 @@ Dengan demikian, ada tiga peran yang berbeda dalam transaksi Stonewall x2:
 
 Mari kita kembali ke contoh kita dengan Alice, yang berada di toko roti Bob untuk membeli roti baguette seharga 4.000 sat. Alice ingin membayar dengan bitcoin, dengan tetap menjaga kerahasiaan pembayarannya. Jadi dia memanggil temannya Charles, yang akan membantunya dalam proses ini.
 
-![BTC204](assets/fr/177.webp)
+![BTC204](assets/id/183.webp)
 
 Dengan menganalisis transaksi ini, kita dapat melihat bahwa Bob si pembuat roti sebenarnya menerima 4.000 sat sebagai pembayaran untuk baguette tersebut. Alice menggunakan 10.000 sat sebagai input dan menerima 6.000 sat sebagai output, yaitu saldo bersih sebesar -4.000 sat, yang sesuai dengan harga baguette. Sedangkan untuk Charles, ia memberikan 15.000 sat sebagai input dan menerima dua output: satu sebesar 4.000 sat dan yang lainnya sebesar 11.000 sat, memberikan saldo 0.
 
@@ -2662,15 +2662,15 @@ Seperti struktur Stonewall, struktur Stonewall x2 menambahkan banyak entropi pad
 
 Mari kita ambil contoh Alice, Bob the Baker, dan Charles. Transaksi pada blockchain akan terlihat seperti ini:
 
-![BTC204](assets/fr/178.webp)
+![BTC204](assets/id/184.webp)
 
 Seorang pengamat luar yang mengandalkan heuristik analisis rantai yang umum mungkin akan salah menyimpulkan bahwa "*Alice dan Charles telah melakukan sebuah coinjoin kecil, dengan masing-masing satu UTXO sebagai input dan dua UTXO sebagai output*". Sekali lagi, menganalisis transaksi ini dari luar tidak mengarah pada penerapan ICOH, karena adanya dua output dengan jumlah yang sama menunjukkan pola coinjoin. Dari sudut pandang eksternal, CIOH tidak dapat diterapkan dalam kasus khusus ini.
 
-![BTC204](assets/fr/179.webp)
+![BTC204](assets/id/185.webp)
 
 Interpretasi ini salah, karena, seperti yang Anda ketahui, satu UTXO telah dikirim ke Bob si tukang roti, Alice hanya memiliki satu output pertukaran, dan Charles memiliki dua.
 
-![BTC204](assets/fr/180.webp)
+![BTC204](assets/id/186.webp)
 
 Dan sekali lagi, apa yang sangat menarik tentang struktur transaksi Stonewall x2 adalah bahwa, dari sudut pandang pengamat luar, strukturnya menyerupai transaksi Stonewall dalam segala hal.
 
@@ -2678,11 +2678,11 @@ Dan sekali lagi, apa yang sangat menarik tentang struktur transaksi Stonewall x2
 
 Transaksi StonewallX2 bekerja sama persis seperti transaksi Stonewall, kecuali yang pertama bersifat kolaboratif, sedangkan yang kedua tidak. Seperti yang telah kita lihat, transaksi StonewallX2 melibatkan partisipasi pihak ketiga (Charles), yang berada di luar pembayaran, dan yang akan menyediakan bitcoin-nya untuk meningkatkan kerahasiaan transaksi. Dalam transaksi Stonewall klasik, peran kolaborator diambil oleh pengirim.
 
-![BTC204](assets/fr/181.webp)
+![BTC204](assets/id/187.webp)
 
 Dari sudut pandang eksternal, pola transaksinya persis sama.
 
-![BTC204](assets/fr/182.webp)
+![BTC204](assets/id/188.webp)
 
 Fakta bahwa kedua struktur transaksi ini memiliki pola yang sama persis berarti bahwa meskipun pengamat luar berhasil mengidentifikasi pola "Stonewall (x2)", dia tidak akan memiliki semua informasi. Dia tidak akan dapat menentukan mana dari dua UTXO dengan jumlah yang sama yang sesuai dengan pembayaran. Selain itu, ia tidak akan dapat menentukan apakah dua UTXO dengan input berasal dari dua orang yang berbeda (Stonewall x2) atau apakah keduanya milik satu orang yang telah menggabungkannya (Stonewall).
 
@@ -2701,7 +2701,7 @@ Logikanya harus seperti berikut ketika Anda ingin menggunakan alat kerahasiaan u
 
 Transaksi Stonewall dan Stonewall x2 tersedia di aplikasi Samourai Wallet dan perangkat lunak Sparrow Wallet.
 
-![BTC204](assets/fr/183.webp)
+![BTC204](assets/id/189.webp)
 
 Namun, seperti halnya payjoin, setelah penangkapan para pendiri Samourai, transaksi Stonewall x2 sekarang hanya berfungsi dengan menukarkan PSBT secara manual antara pihak-pihak yang bersangkutan. Sayangnya, pertukaran otomatis melalui Soroban tidak lagi tersedia.
 
@@ -2722,11 +2722,11 @@ Penggunaan struktur transaksi Bitcoin yang menambahkan ambiguitas pada analisis 
 
 Bergantung pada bagaimana Anda berniat menggunakan bagian Anda setelah siklus coinjoin, fakta bahwa koin tersebut telah mengalami proses ini dapat menjadi masalah. Misalnya, jika Anda berencana untuk menjual koin Anda di platform bursa yang teregulasi, tetapi koin tersebut baru saja mengalami coinjoin, alat analisis rantai platform akan mendeteksi fakta ini. Platform kemudian dapat menolak untuk menerima UTXO Anda yang mengalami coinjoin, atau bahkan meminta penjelasan dari Anda, dengan risiko akun Anda ditangguhkan atau dana Anda dibekukan. Dalam beberapa kasus, platform juga dapat melaporkan perilaku Anda kepada otoritas negara (misalnya, yang diwajibkan oleh TRACFIN terhadap PSAN di Prancis).
 
-![BTC204](assets/fr/184.webp)
+![BTC204](assets/id/190.webp)
 
 Yang perlu kita hindari adalah alat yang mampu mengaburkan jejak masa lalu koin Bitcoin, untuk mengembalikan beberapa bentuk kesepadanan. Inilah tujuan dari ricochet.
 
-![BTC204](assets/fr/185.webp)
+![BTC204](assets/id/191.webp)
 
 ### Apa yang dimaksud dengan ricochet?
 
@@ -2734,21 +2734,21 @@ Ricochet adalah sebuah teknik yang terdiri dari melakukan beberapa transaksi fik
 
 Untuk memuluskan jejak yang ditinggalkan oleh peristiwa masa lalu pada koin, seperti siklus coinjoin, ricochet mengeksekusi empat transaksi berurutan di mana pengguna mentransfer dana ke dirinya sendiri di alamat yang berbeda.
 
-![BTC204](assets/fr/186.webp)
+![BTC204](assets/id/192.webp)
 
 Setelah rangkaian transaksi ini, alat ricochet akhirnya merutekan bitcoin ke tujuan akhirnya, seperti platform bursa.
 
-![BTC204](assets/fr/187.webp)
+![BTC204](assets/id/193.webp)
 
 Tujuannya adalah untuk menciptakan jarak yang mempengaruhi kesetaraan koin, seperti transaksi koin bersama, dan tindakan akhir pengeluaran, yang dapat menolak koin ini karena masa lalunya. Dengan demikian, alat analisis rantai dapat menyimpulkan bahwa kemungkinan ada perubahan kepemilikan setelah kejadian tersebut, dan menganggap koin ini dapat dipertukarkan. Dalam kasus coinjoin, alat analisis blockchain dapat mengasumsikan bahwa bukan orang yang sama yang mengirimkan bitcoin dan melakukan coinjoin, dan oleh karena itu tidak ada gunanya untuk mengambil tindakan terhadap pengirimnya.
 
-![BTC204](assets/fr/188.webp)
+![BTC204](assets/id/194.webp)
 
 ### Mengapa ini berhasil?
 
 Dihadapkan dengan metode pantulan ini, orang mungkin membayangkan bahwa perangkat lunak analisis rantai akan memperdalam pemeriksaannya melampaui empat pantulan. Akan tetapi, platform-platform ini menghadapi dilema dalam mengoptimalkan ambang batas pendeteksian. Mereka harus menetapkan batas jumlah lompatan setelah itu mereka menerima bahwa perubahan properti mungkin telah terjadi, dan bahwa hubungan dengan peristiwa sebelumnya (seperti coinjoin) harus diabaikan.
 
-![BTC204](assets/fr/189.webp)
+![BTC204](assets/id/195.webp)
 
 Namun, menetapkan ambang batas ini berisiko: setiap penambahan jumlah lompatan yang diamati secara eksponensial meningkatkan volume positif palsu, yaitu individu yang secara keliru ditandai sebagai peserta dalam suatu peristiwa, padahal sebenarnya operasi tersebut dilakukan oleh orang lain. Skenario ini menimbulkan risiko besar bagi perusahaan-perusahaan ini, karena positif palsu menyebabkan ketidakpuasan, yang dapat mendorong pelanggan yang terkena dampak ke kompetisi. Dalam jangka panjang, ambang batas deteksi yang terlalu tinggi menyebabkan platform kehilangan lebih banyak pelanggan daripada pesaingnya, yang dapat mengancam kelangsungan hidupnya. Oleh karena itu, sulit bagi platform ini untuk meningkatkan jumlah pantulan yang diamati, dan 4 sering kali merupakan angka yang cukup untuk melawan analisis mereka.
 
@@ -2766,19 +2766,19 @@ Metode ini efektif tidak hanya untuk coinjoin, tetapi juga untuk tanda lain yang
 
 Ide untuk metode ricochet ini awalnya berasal dari tim Samourai Wallet, yang mengintegrasikannya ke dalam aplikasi mereka untuk mengotomatiskan prosesnya. Layanan ini tidak gratis di Samourai, karena ricochet melibatkan biaya layanan sebesar 100.000 sat, ditambah biaya penambangan. Oleh karena itu, penggunaannya direkomendasikan untuk transfer dalam jumlah yang signifikan.
 
-![BTC204](assets/fr/190.webp)
+![BTC204](assets/id/196.webp)
 
 Aplikasi Samurai menawarkan dua varian pantulan:
 
 
 - Diperkuat memantul, atau "pengiriman terhuyung-huyung", yang menawarkan keuntungan menyebarkan biaya layanan Samurai ke dalam lima transaksi yang berurutan. Opsi ini juga memastikan bahwa setiap transaksi disiarkan pada waktu yang berbeda dan dicatat dalam blok yang berbeda, meniru semirip mungkin perilaku perubahan pemilik. Meskipun lebih lambat, metode ini lebih disukai bagi mereka yang tidak terburu-buru, karena memaksimalkan efisiensi ricochet dengan memperkuat ketahanannya terhadap analisis rantai;
 
-![BTC204](assets/fr/191.webp)
+![BTC204](assets/id/197.webp)
 
 
 - Ricochet klasik, yang dirancang untuk menjalankan operasi dengan cepat, menyiarkan semua transaksi dalam interval waktu yang lebih singkat. Oleh karena itu, metode ini menawarkan lebih sedikit kerahasiaan dan lebih sedikit resistensi terhadap analisis daripada metode yang diperkuat. Metode ini hanya boleh digunakan untuk pengiriman yang mendesak.
 
-![BTC204](assets/fr/192.webp)
+![BTC204](assets/id/198.webp)
 
 Memantulkan berarti mengirimkan bitcoin ke diri Anda sendiri. Sangat mungkin untuk memantulkan bitcoin secara manual pada perangkat lunak dompet apa pun, tanpa menggunakan alat khusus. Yang harus Anda lakukan adalah mentransfer koin yang sama ke diri Anda sendiri secara berturut-turut, menggunakan alamat baru yang kosong setiap kali.
 
@@ -2797,19 +2797,19 @@ Teknik kerahasiaan Bitcoin lainnya adalah transfer kepemilikan secara rahasia. M
 
 Coinwap didasarkan pada konsep yang relatif sederhana: ia menggunakan kontrak pintar untuk memfasilitasi transfer kepemilikan bitcoin antara dua pengguna, tanpa perlu kepercayaan dan tanpa transfer ini terlihat secara eksplisit di blockchain.
 
-![BTC204](assets/fr/193.webp)
+![BTC204](assets/id/199.webp)
 
 Mari kita bayangkan sebuah contoh naif dengan Alice dan Bob. Alice memiliki 1 BTC yang diamankan dengan private key $A$, dan Bob juga memiliki 1 BTC yang diamankan dengan private key $B$. Secara teoritis, mereka dapat menukarkan private key mereka melalui saluran komunikasi eksternal untuk melakukan transfer rahasia.
 
-![BTC204](assets/fr/194.webp)
+![BTC204](assets/id/200.webp)
 
 Akan tetapi, metode yang naif ini memiliki risiko yang tinggi dalam hal kepercayaan. Tidak ada yang dapat menghentikan Alice untuk menyimpan salinan private key $A$ setelah pertukaran dan menggunakannya nanti untuk mencuri bitcoin, setelah kunci tersebut berada di tangan Bob.
 
-![BTC204](assets/fr/195.webp)
+![BTC204](assets/id/201.webp)
 
 Selain itu, tidak ada jaminan bahwa Alice tidak akan menerima private key $B$ milik Bob dan tidak akan pernah memberikan private key $A$ miliknya sebagai gantinya. Oleh karena itu, pertukaran ini bergantung pada kepercayaan yang berlebihan di antara kedua belah pihak, dan tidak efektif untuk memastikan transfer kepemilikan yang aman dan rahasia.
 
-![BTC204](assets/fr/196.webp)
+![BTC204](assets/id/202.webp)
 
 Untuk mengatasi masalah ini dan memungkinkan pertukaran antara pihak-pihak yang tidak saling percaya, kita akan menggunakan sistem kontrak pintar. Kontrak pintar adalah sebuah program yang dijalankan secara otomatis ketika kondisi yang telah ditentukan terpenuhi. Dalam kasus kami, ini memastikan bahwa pertukaran properti terjadi secara otomatis, tanpa perlu saling percaya.
 
@@ -2874,11 +2874,11 @@ Perlu diketahui bahwa coinswap pertama kali diusulkan oleh [Gregory Maxwell pada
 
 Dengan cara yang mirip dengan coinswap, dan menggunakan jenis kontrak pintar yang sama, juga memungkinkan untuk melakukan atomic swap. Atomic swap memungkinkan pertukaran langsung mata uang kripto yang berbeda, seperti BTC dan XMR, antara dua pengguna tanpa memerlukan kepercayaan atau intervensi perantara. Pertukaran ini disebut "atomic" karena hanya ada dua kemungkinan hasil yang mungkin terjadi: pertukaran berhasil dan kedua belah pihak merasa puas, atau gagal dan masing-masing tetap memiliki mata uang kripto aslinya, sehingga tidak perlu mempercayai pihak lain.
 
-![BTC204](assets/fr/197.webp)
+![BTC204](assets/id/203.webp)
 
 Atomic swap dan coinswap memiliki metode operasi yang sama dan menawarkan keuntungan dan kerugian yang sama dalam hal kerahasiaan. Memang, dari sudut pandang Bitcoin, atomic swap sebanding dengan coinswap yang dilakukan dalam dua tahap. Pertama, kita menukarkan BTC kita dengan mata uang kripto lain, kemudian mata uang kripto ini dapat ditukarkan dengan BTC lainnya. Pada akhirnya, kita mendapatkan kembali BTC milik pengguna lain. Inilah mengapa, dalam analisis masalah kerahasiaan, saya mengelompokkan kedua protokol ini di bawah kategori pertukaran rahasia.
 
-![BTC204](assets/fr/198.webp)
+![BTC204](assets/id/204.webp)
 
 Namun, berhati-hatilah, karena tidak seperti coinswap, atomic swap dapat menyebabkan ketidakseimbangan dalam hal likuiditas yang tersedia, terutama di bursa BTC/XMR. Pada umumnya lebih mudah untuk menukar bitcoin dengan altcoin, karena ada permintaan yang kuat untuk bitcoin, yang membuat harga premium tetap rendah untuk arah konversi ini. Namun, menukar altcoin dengan BTC bisa menjadi lebih rumit karena permintaan yang lebih rendah, dan sering kali menghasilkan premi yang sangat tinggi.
 
@@ -2890,17 +2890,17 @@ Transfer kepemilikan secara rahasia, seperti coinswap dan atomic swap, memiliki 
 
 Memang, ketika Alice melakukan coinswap atau atomic swap dengan Bob, dia menukar kepemilikan bitcoinnya dengan milik Bob. Dalam kasus pertukaran atom, pertukaran tersebut menyertakan altcoin, tetapi prinsipnya tetap sama. Dengan demikian, Alice berakhir dengan koin $B dan Bob dengan koin $A. Hal ini menambah keraguan pada analisis rantai, tetapi sejarah koin tetap dapat dilacak. Jika seorang analis memeriksa bagian $A$, dia dapat melacak aktivitas Alice sebelumnya, dan sebaliknya untuk bagian $B$.
 
-![BTC204](assets/fr/199.webp)
+![BTC204](assets/id/205.webp)
 
 Dari sudut pandang Alice, risikonya adalah riwayat koin $B$ dapat dianggap mencurigakan oleh entitas tertentu. Jika, misalnya, Bob mendapatkan koin $B$ melalui tindakan kriminal seperti peretasan, maka koin tersebut akan tetap terkait dengan aktivitas ilegal yang dilakukannya. Alice kemudian dapat menemukan dirinya memiliki koin yang tidak dapat ia transfer ke platform bursa yang teregulasi tanpa mengambil risiko dananya dibekukan, atau bahkan dituduh melakukan kejahatan Bob, meskipun ia tidak ada hubungannya dengan kejahatan tersebut.
 
-![BTC204](assets/fr/200.webp)
+![BTC204](assets/id/206.webp)
 
 Tak pelak lagi, metode kerahasiaan seperti coinswap atau atomic swap disukai oleh para penjahat yang dananya diawasi oleh pihak berwenang. Protokol ini memungkinkan mereka untuk membuang bitcoin mereka yang berada di bawah pengawasan untuk ditukar dengan bitcoin yang dapat dipertukarkan secara sempurna. Hal ini juga memungkinkan mereka untuk membuat pengalihan, dengan mengarahkan pihak berwenang ke pengguna lain. Jadi, ada tujuan ganda bagi orang-orang ini.
 
 Dengan coinjoin, meskipun koin Anda tercampur dengan bitcoin yang dipantau, riwayat koin tersebut akan rusak, memberikan sebuah bentuk penyangkalan yang masuk akal yang tidak ada pada protokol transfer kepemilikan rahasia seperti coinswap atau atomic swap.
 
-![BTC204](assets/fr/201.webp)
+![BTC204](assets/id/207.webp)
 
 Jika Alice ingin menghindari risiko, ia harus menggunakan metode untuk memecahkan riwayat koin $B$, seperti mengirimkannya melalui coinjoin. Hal ini menimbulkan pertanyaan mengenai kegunaan dari menggabungkan transfer kepemilikan secara rahasia dan coinjoin. Coinjoin, dengan merusak sejarah koin, sudah menawarkan tingkat kerahasiaan yang cukup untuk Alice. Dengan demikian, pendapat saya adalah jika Alice ingin melindungi privasinya, akan lebih bijaksana untuk langsung melakukan coinjoin daripada melakukan coinswap yang diikuti dengan coinjoin.
 
@@ -2925,33 +2925,33 @@ Hubungan antara aktivitas di Bitcoin dan alamat IP merupakan sebuah risiko yang 
 
 Dalam operasi Bitcoin klasik, transaksi yang dibuat oleh pengguna pada perangkat lunak dompetnya dikirimkan ke node pribadinya. Node ini akan segera menyiarkan transaksi baru tersebut ke semua peer yang terhubung dengannya.
 
-![BTC204](assets/fr/202.webp)
+![BTC204](assets/id/208.webp)
 
 Rekan-rekan ini kemudian memeriksa transaksi untuk memastikan bahwa transaksi tersebut sesuai dengan konsensus dan aturan standardisasi lokal. Setelah divalidasi, setiap rekan pada gilirannya meneruskan transaksi ke rekan-rekannya, dan seterusnya.
 
-![BTC204](assets/fr/203.webp)
+![BTC204](assets/id/209.webp)
 
 Distribusi transaksi yang menunggu integrasi ke dalam sebuah blok cukup seimbang dan dapat diprediksi secara statistik. Kelemahan ini dapat dieksploitasi oleh node mata-mata yang terlibat, yang berkolaborasi untuk memonitor dan menganalisa jaringan, untuk mengidentifikasi node pertama yang menyiarkan sebuah transaksi. Jika seorang pengamat berhasil menemukan node sumber, dia dapat mengasumsikan bahwa transaksi tersebut berasal dari operator node tersebut. Jenis pengamatan ini dapat digunakan untuk menghubungkan transaksi yang biasanya anonim ke alamat IP tertentu.
 
-![BTC204](assets/fr/204.webp)
+![BTC204](assets/id/210.webp)
 
 Tujuan dari BIP156 adalah untuk mengatasi masalah ini. Untuk melakukan ini, ia memperkenalkan fase tambahan dalam penyebaran transaksi baru untuk menjaga anonimitas sebelum disebarkan ke publik secara luas. Dandelion pertama kali menggunakan fase "stem" di mana transaksi dikirim melalui jalur node secara acak.
 
-![BTC204](assets/fr/205.webp)
+![BTC204](assets/id/211.webp)
 
 Transaksi kemudian disiarkan ke seluruh jaringan dalam fase "Fluff".
 
-![BTC204](assets/fr/206.webp)
+![BTC204](assets/id/212.webp)
 
 Batang dan fase "Fluff" merujuk pada perilaku penyebaran transaksi melalui jaringan, yang menyerupai bentuk dan perkembangan bunga dandelion ("Dandelion" dalam bahasa Inggris).
 
 Dengan demikian, node mata-mata dapat secara potensial melacak transaksi kembali ke node yang memulai fase "Fluff" (penyiaran massal), namun node tersebut bukanlah yang pertama kali menyiarkan transaksi tersebut, karena ia menerimanya dari node terakhir pada batang. Jika node mata-mata tidak dapat melacak batang tersebut, maka mereka juga tidak dapat mengidentifikasi node sumber.
 
-![BTC204](assets/fr/207.webp)
+![BTC204](assets/id/213.webp)
 
 Bahkan dengan adanya spy node selama fase batang, keraguan selalu ada, karena begitu mereka menemukan node yang jujur dalam grafik difusi, mata-mata tidak dapat menentukan apakah node ini adalah sumber asli atau hanya perantara.
 
-![BTC204](assets/fr/208.webp)
+![BTC204](assets/id/214.webp)
 
 Metode perutean ini mengaburkan jejak yang mengarah kembali ke node sumber, sehingga sulit untuk melacak transaksi kembali melalui jaringan ke asalnya. Dengan demikian, Dandelion meningkatkan kerahasiaan dengan membatasi kemampuan lawan untuk menganonimkan jaringan. Metode ini menjadi lebih efektif ketika, selama fase "stemming", transaksi melewati sebuah node yang mengenkripsi komunikasi jaringannya, seperti pada Tor atau P2P Transport V2.
 
@@ -2975,7 +2975,7 @@ Solusi sederhana lain untuk menghindari risiko hilangnya kerahasiaan untuk simpu
 
 Tor adalah sebuah jaringan server relai (node) yang menganonimkan asal koneksi TCP di Internet. Tor bekerja dengan mengenkapsulasi data dalam beberapa lapisan enkripsi. Setiap simpul relai menghilangkan satu lapisan untuk mengungkapkan alamat simpul berikutnya, sampai tujuan akhir tercapai. Jaringan Tor memastikan anonimitas dengan mencegah simpul perantara mengetahui asal dan tujuan data, sehingga sangat sulit bagi pengamat untuk melacak aktivitas pengguna.
 
-![BTC204](assets/fr/209.webp)
+![BTC204](assets/id/215.webp)
 
 Tor tidak hanya mengenkripsi data, tetapi juga menyamarkan asal dan tujuan komunikasi. Dengan menggunakan Tor untuk komunikasi dari node pribadi Anda, Anda memperkuat kerahasiaan transaksi Anda: ISP Anda tidak dapat mendekripsi komunikasi, dan node lain dalam jaringan Bitcoin tidak dapat mengidentifikasi alamat IP node sumber. Terlebih lagi, Tor juga menyembunyikan penggunaan Bitcoin Anda dari ISP Anda.
 
@@ -2992,11 +2992,11 @@ Setelah menjelajahi berbagai metode kerahasiaan pada tingkat jaringan, dalam beb
 
 Seperti yang telah kita lihat pada bagian 3, penggunaan ulang alamat merupakan sebuah hambatan serius untuk kerahasiaan pengguna pada protokol Bitcoin. Untuk mengurangi risiko ini, sangat disarankan untuk membuat alamat penerima kosong untuk setiap pembayaran baru yang diterima di dompet. Walaupun pembuatan alamat baru saat ini telah disederhanakan dengan penggunaan perangkat lunak modern dan dompet hirarkis deterministik, praktik ini mungkin terlihat berlawanan dengan intuisi.
 
-![BTC204](assets/fr/210.webp)
+![BTC204](assets/id/216.webp)
 
 Dalam sistem perbankan tradisional, misalnya, kita terbiasa membagikan IBAN kita, yang selalu sama. Setelah kita memberikannya kepada seseorang, mereka dapat mengirimi kita banyak pembayaran tanpa harus berinteraksi dengan kita lagi. Neo-bank juga menawarkan kemungkinan yang lebih modern, seperti penggunaan alamat email unik di PayPal atau RevTags di Revolut. Bahkan di luar bidang keuangan, pengenal kita sehari-hari seperti alamat pos, nomor telepon, dan alamat email juga unik dan permanen. Kita tidak perlu memperbaruinya untuk setiap interaksi baru.
 
-![BTC204](assets/fr/211.webp)
+![BTC204](assets/id/217.webp)
 
 Akan tetapi, Bitcoin bekerja dengan cara yang berbeda: sebuah alamat penerima baru harus dibuat untuk setiap transaksi yang masuk. Kompromi antara kemudahan penggunaan dan kerahasiaan ini sudah ada sejak awal mula White Paper Bitcoin. Pada awal publikasi versi pertama dokumennya di akhir tahun 2008, Satoshi Nakamoto telah memperingatkan kita akan risiko ini:
 
@@ -3004,7 +3004,7 @@ Akan tetapi, Bitcoin bekerja dengan cara yang berbeda: sebuah alamat penerima ba
 
 Ada banyak cara untuk menerima banyak pembayaran dengan satu pengenal tanpa harus menggunakan ulang sebuah alamat. Masing-masing memiliki kelebihan dan kekurangannya sendiri. Di antara metode-metode ini adalah BIP47, sebuah proposal yang dikembangkan oleh Justus Ranvier dan diterbitkan pada tahun 2015. Proposal ini bertujuan untuk membuat kode pembayaran yang dapat digunakan kembali yang memungkinkan beberapa transaksi dilakukan terhadap orang yang sama, sambil menghindari penggunaan ulang alamat. Singkatnya, BIP47 bertujuan untuk menawarkan sebuah sistem pembayaran yang intuitif seperti sebuah pengenal unik, dengan tetap menjaga kerahasiaan transaksi.
 
-![BTC204](assets/fr/212.webp)
+![BTC204](assets/id/218.webp)
 
 BIP47 tidak secara langsung meningkatkan kerahasiaan pengguna, karena pembayaran BIP47 menawarkan tingkat kerahasiaan yang sama dengan transaksi Bitcoin klasik yang menggunakan alamat kosong. Namun, BIP47 membuat penggunaan Bitcoin menjadi lebih nyaman dan intuitif, sebuah kemudahan yang biasanya akan membahayakan kerahasiaan. Berkat BIP47, kemudahan penggunaan ini mencapai tingkat kerahasiaan yang sama dengan transaksi klasik. Itulah mengapa BIP47 merupakan alat yang sangat berharga untuk menjaga privasi.
 
@@ -3014,7 +3014,7 @@ Pada awalnya, BIP47 diusulkan untuk diintegrasikan ke dalam Bitcoin Core, tetapi
 
 Tujuan dari BIP47 adalah untuk memungkinkan menerima pembayaran dalam jumlah besar tanpa menggunakan alamat yang sama. Hal ini didasarkan pada penggunaan kode pembayaran yang dapat digunakan kembali, yang memungkinkan penerbit yang berbeda untuk mengirim beberapa pembayaran ke satu kode milik pengguna lain. Sebagai hasilnya, penerima tidak perlu memberikan alamat baru yang kosong untuk setiap transaksi, yang sangat memudahkan pertukaran sekaligus menjaga kerahasiaan.
 
-![BTC204](assets/fr/213.webp)
+![BTC204](assets/id/219.webp)
 
 Oleh karena itu, seorang pengguna dapat membagikan kode pembayarannya dengan bebas, baik di jejaring sosial atau di situs webnya, tanpa risiko kehilangan kerahasiaan, tidak seperti dengan alamat penerima konvensional atau kunci publik.
 
@@ -3024,7 +3024,7 @@ Penggabungan kode pembayaran dari dua pengguna menghasilkan rahasia bersama, yan
 
 Kode pembayaran berfungsi sebagai pengenal virtual yang berasal dari seed portofolio. Dalam struktur derivasi hirarkis portofolio, kode pembayaran diposisikan pada level 3, yaitu pada level akun.
 
-![BTC204](assets/fr/214.webp)
+![BTC204](assets/id/220.webp)
 
 Target derivasi untuk BIP47 diidentifikasi dengan indeks `47'` (`x8000002F`), yang mengacu pada BIP47. Contoh jalur derivasi untuk kode pembayaran yang dapat digunakan kembali adalah sebagai berikut:
 
@@ -3050,7 +3050,7 @@ Sedangkan untuk PayNym Bots, robot yang kadang-kadang terlihat di Twitter, ini a
 
 Avatar ini juga dapat direpresentasikan sebagai gambar:
 
-![BTC204](assets/fr/215.webp)
+![BTC204](assets/id/221.webp)
 
 Meskipun robot ini tidak memiliki fungsionalitas teknis khusus dalam kerangka kerja BIP47, namun robot ini berperan dalam memfasilitasi interaksi pengguna dengan menawarkan identitas visual yang mudah dikenali.
 
@@ -3082,7 +3082,7 @@ Berikut adalah representasi heksadesimal dari kode pembayaran yang dapat digunak
 0x010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000
 ```
 
-![BTC204](assets/fr/216.webp)
+![BTC204](assets/id/222.webp)
 
 Selanjutnya, byte awalan `P` harus ditambahkan di awal untuk menunjukkan dengan jelas bahwa ini adalah kode pembayaran. Byte ini diwakili oleh `x47`:
 
@@ -3096,7 +3096,7 @@ Terakhir, untuk memastikan integritas kode pembayaran, perhitungan checksum dila
 0x47010002a0716529bae6b36c5c9aa518a52f9c828b46ad8d907747f0d09dcd4d9a39e97c3c5f37c470c390d842f364086362f6122f412e2b0c7e7fc6e32287e364a7a36a00000000000000000000000000567080c4
 ```
 
-![BTC204](assets/fr/217.webp)
+![BTC204](assets/id/223.webp)
 
 Setelah langkah-langkah ini selesai, kode pembayaran sudah siap. Yang tersisa hanyalah mengonversinya ke base 58 untuk mendapatkan versi final:
 
@@ -3112,7 +3112,7 @@ m/47'/0'/0'/
 
 Secara konkret, untuk menghasilkan kunci publik terkompresi dan kode string yang terkait dengan kode pembayaran yang dapat digunakan kembali, kita mulai dengan menghitung kunci privat utama dari seed wallet. Kemudian kita lanjutkan dengan menurunkan sepasang anak kunci dengan menggunakan indeks `47 + 2^31` (turunan yang diperkuat). Ini diikuti dengan dua turunan lebih lanjut dari pasangan anak kunci, masing-masing menggunakan indeks `2^31` (turunan yang diperkuat).
 
-![BTC204](assets/fr/218.webp)
+![BTC204](assets/id/224.webp)
 
 ### Pertukaran kunci Diffie-Hellman pada kurva elips (ECDH)
 
@@ -3120,11 +3120,11 @@ Protokol kriptografi yang menjadi inti dari BIP47 dikenal dengan singkatan ECDH,
 
 Diperkenalkan pada tahun 1976, Diffie-Hellman adalah protokol perjanjian kunci yang memungkinkan dua pihak, masing-masing dilengkapi dengan pasangan kunci (publik dan privat), untuk menyepakati rahasia bersama, bahkan ketika berkomunikasi hanya melalui saluran publik yang tidak aman.
 
-![BTC204](assets/fr/219.webp)
+![BTC204](assets/id/225.webp)
 
 Rahasia bersama ini (dalam hal ini, kunci biru) kemudian dapat digunakan untuk operasi lain. Biasanya, rahasia bersama ini dapat digunakan untuk mengenkripsi dan mendekripsi komunikasi pada jaringan yang tidak aman:
 
-![BTC204](assets/fr/220.webp)
+![BTC204](assets/id/226.webp)
 
 Untuk mencapai hal ini, Diffie-Hellman menggunakan aritmatika modular untuk menghitung rahasia bersama. Berikut ini cara kerjanya dalam istilah awam:
 
@@ -3136,7 +3136,7 @@ Untuk mencapai hal ini, Diffie-Hellman menggunakan aritmatika modular untuk meng
 - Dengan mencampurkan warna hijau milik Bob dengan warna rahasianya sendiri, Alice menghasilkan warna cokelat;
 - Bob, melakukan hal yang sama dengan warna oranye dan biru rahasia Alice, juga mendapatkan warna cokelat.
 
-![BTC204](assets/fr/221.webp)
+![BTC204](assets/id/227.webp)
 
 Dalam kepopuleran ini, warna coklat mewakili rahasia yang dimiliki oleh Alice dan Bob. Bayangkan, pada kenyataannya, tidak mungkin bagi penyerang untuk memisahkan warna oranye dan hijau, untuk menemukan warna rahasia Alice atau Bob.
 
@@ -3230,7 +3230,7 @@ $$
 
 Berkat distributivitas operator modulo, Alice dan Bob mendapatkan nilai yang sama persis, yaitu $z$. Angka ini mewakili rahasia bersama mereka, setara dengan **warna coklat** pada saat mereka mempopulerkan warna cat dengan kaleng. Mereka sekarang dapat menggunakan rahasia bersama ini untuk mengenkripsi komunikasi mereka secara simetris melalui jaringan yang tidak aman.
 
-![BTC204](assets/fr/222.webp)
+![BTC204](assets/id/228.webp)
 
 Seorang penyerang, bahkan jika ia memiliki $p$, $g$, $A$ dan $B$ (nilai publik), tidak akan bisa menghitung $a$, $b$ atau $z$ (nilai privat). Untuk mencapai hal ini, eksponensial harus dibalik, sebuah operasi yang tidak mungkin dilakukan tanpa mencoba semua kemungkinan satu per satu, karena ini sama saja dengan menghitung logaritma diskrit, yaitu kebalikan dari eksponensial pada sebuah grup siklik berhingga.
 
@@ -3301,7 +3301,7 @@ TLS bertanggung jawab atas huruf `s` pada `https` dan gembok di bilah alamat per
 
 Seperti yang telah kita lihat di bagian sebelumnya, ECDH adalah varian dari bursa Diffie-Hellman yang menggunakan pasangan kunci yang dibuat berdasarkan kurva elips. Untunglah kita sudah memiliki banyak pasangan kunci yang sesuai dengan standar ini di dompet Bitcoin kita! Ide dari BIP47 adalah untuk menggunakan pasangan kunci dari dompet Bitcoin hirarkis deterministik kedua belah pihak untuk membuat rahasia bersama yang bersifat fana di antara mereka. BIP47 menggunakan ECDHE (*Eliptic Curve Diffie-Hellman **Ephemeral***).
 
-![BTC204](assets/fr/223.webp)
+![BTC204](assets/id/229.webp)
 
 ECDHE pertama kali digunakan dalam BIP47 untuk mengirimkan kode pembayaran dari pengirim ke penerima. Ini adalah **transaksi pemberitahuan** yang terkenal. Langkah ini sangat penting, karena agar BIP47 dapat bekerja secara efektif, kedua belah pihak yang terlibat (pengirim dan penerima) harus mengetahui kode pembayaran masing-masing. Pengetahuan ini memungkinkan untuk mendapatkan kunci publik yang bersifat sementara dan, sebagai akibatnya, alamat penerima yang kosong.
 
@@ -3309,7 +3309,7 @@ Sebelum pertukaran ini, pengirim secara logis sudah mengetahui kode pembayaran p
 
 Hal ini dikarenakan, tidak seperti alamat konvensional, alamat BIP47 tidak diturunkan secara langsung dari seed penerima - menggunakan `xpub` akan lebih sederhana dalam kasus ini - tetapi dihasilkan dari perhitungan yang menggabungkan dua kode pembayaran: kode pembayaran dari pengirim dan kode pembayaran dari penerima. Jadi, jika penerima kehilangan dompetnya dan mencoba memulihkannya dari seed-nya, dia akan memulihkan kode pembayarannya sendiri, yang secara langsung berasal dari seed-nya. Akan tetapi, untuk memulihkan alamat fana, ia juga akan membutuhkan kode pembayaran dari semua orang yang telah mengiriminya bitcoin melalui BIP47. Oleh karena itu, pentingnya transaksi notifikasi, yang memungkinkan informasi ini disimpan di blockchain Bitcoin, namun tetap dapat ditemukan dengan mudah tanpa harus mencari melalui miliaran transaksi yang telah dilakukan sejak diluncurkan pada tahun 2009.
 
-![BTC204](assets/fr/224.webp)
+![BTC204](assets/id/230.webp)
 
 Oleh karena itu, memungkinkan untuk mengimplementasikan BIP47 tanpa menggunakan transaksi notifikasi, asalkan setiap pengguna menyimpan cadangan kode pembayaran rekan-rekannya. Akan tetapi, metode ini terbukti rumit untuk dikelola hingga solusi yang sederhana, kuat, dan efisien untuk membuat, menyimpan, dan memperbarui cadangan ini dikembangkan. Saat ini, transaksi notifikasi hampir tidak dapat dihindari.
 
@@ -3341,7 +3341,7 @@ Bagaimana saya bisa menyampaikan kode saya tanpa risiko? Menggunakan sarana komu
 
 Pada diagram di bawah ini, garis oranye menunjukkan titik-titik di mana aliran informasi harus diinterupsi, dan panah hitam menunjukkan koneksi yang berpotensi dapat diamati oleh pihak ketiga:
 
-![BTC204](assets/fr/225.webp)
+![BTC204](assets/id/231.webp)
 
 Pada kenyataannya, dalam model kerahasiaan tradisional Bitcoin, sering kali sulit untuk memisahkan aliran informasi antara pasangan kunci dan pengguna, terutama dalam transaksi jarak jauh. Sebagai contoh, dalam konteks kampanye donasi, penerima harus mengungkapkan alamat atau public key melalui situs web atau jejaring sosialnya. Penggunaan BIP47 yang benar, terutama dengan transaksi notifikasi, memungkinkan untuk mengatasi masalah ini berkat ECDHE dan lapisan enkripsi yang akan kita bahas nanti.
 
@@ -3413,13 +3413,13 @@ Saya akan meringkas langkah-langkah yang baru saja kita lihat bersama untuk mela
 - Dia menggunakan faktor pembutakan ini untuk mengenkripsi muatan kode pembayaran pribadinya;
 - Ia menggunakan output transaksi `OP_RETURN` untuk mengomunikasikan kode pembayaran tersembunyi kepada Bob.
 
-![BTC204](assets/fr/226.webp)
+![BTC204](assets/id/232.webp)
 
 ### Pemberitahuan transaksi: studi praktis
 
 Untuk memahami cara kerjanya secara lebih detail, dan khususnya penggunaan `OP_RETURN`, mari kita lihat sebuah transaksi notifikasi yang nyata. Saya melakukan transaksi seperti itu di testnet, yang dapat Anda temukan [dengan mengklik di sini] (https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
-![BTC204](assets/fr/227.webp)
+![BTC204](assets/id/233.webp)
 
 Melihat transaksi ini, kita sudah bisa melihat bahwa transaksi ini memiliki satu input dan 4 output:
 
@@ -3639,7 +3639,7 @@ $$ A = a \cdot G $$
 
 $$ S = a \cdot B = a \cdot (b \cdot G) = (b \cdot a) \cdot G = b \cdot A $$
 
-![BTC204](assets/fr/228.webp)
+![BTC204](assets/id/234.webp)
 
 Setelah Bob mengetahui kode pembayaran Alice, dia akan dapat mendeteksi pembayaran BIP47-nya, dan dia akan dapat memperoleh kunci privat yang memblokir bitcoin yang diterima.
 
@@ -3652,7 +3652,7 @@ Saya akan meringkas langkah-langkah yang baru saja kita lihat bersama untuk mene
 - Alat ini menggunakan titik rahasia ini untuk menghitung HMAC, yang merupakan faktor penyilaukan;
 - Ia menggunakan faktor pembutakan ini untuk mendekripsi muatan kode pembayaran Alice yang terkandung dalam OP_RETURN.
 
-![BTC204](assets/fr/229.webp)
+![BTC204](assets/id/235.webp)
 
 ### Transaksi pembayaran BIP47
 
@@ -3716,11 +3716,11 @@ Saya akan meringkas langkah-langkah yang baru saja kita lihat bersama untuk meng
 - Dia mendapatkan kunci publik baru yang bersifat sementara, yang mana hanya Bob yang memiliki kunci privat yang terkait;
 - Alice dapat melakukan transaksi klasik ke Bob dengan alamat penerima sementara yang diturunkan.
 
-![BTC204](assets/fr/230.webp)
+![BTC204](assets/id/236.webp)
 
 Jika Alice ingin melakukan pembayaran kedua, ia akan mengikuti langkah-langkah yang sama seperti sebelumnya, kecuali kali ini ia akan memilih public key kedua yang berasal dari kode pembayaran Bob. Secara khusus, dia akan menggunakan kunci berikutnya yang tidak terpakai. Dengan demikian, ia akan mendapatkan alamat penerima baru milik Bob, yang dinamakan $K1$:
 
-![BTC204](assets/fr/231.webp)
+![BTC204](assets/id/237.webp)
 
 Cara ini dapat dilanjutkan dan menghasilkan hingga `2^32` alamat kosong milik Bob.
 
@@ -3732,7 +3732,7 @@ Dari perspektif luar, dengan melihat blockchain, secara teoritis tidak mungkin u
 
 Ini terlihat seperti transaksi klasik dengan input yang dikonsumsi, output pembayaran, dan nilai tukar:
 
-![BTC204](assets/fr/232.webp)
+![BTC204](assets/id/238.webp)
 
 ### Tanda terima pembayaran BIP47 dan derivasi kunci pribadi
 
@@ -3787,15 +3787,15 @@ Saya akan meringkas langkah-langkah yang baru saja kita lihat bersama untuk mene
 - Dia mendapatkan kunci publik baru yang bersifat sementara, kunci publik yang akan digunakan Alice untuk mengirimkan pembayaran pertamanya;
 - Bob menghitung kunci pribadi yang terkait dengan kunci publik yang fana ini dengan menambahkan kunci pribadi anak perempuannya yang berasal dari kode pembayarannya dan rahasia bersama.
 
-![BTC204](assets/fr/233.webp)
+![BTC204](assets/id/239.webp)
 
 Karena Alice tidak dapat memperoleh $b$ (kunci pribadi Bob), ia tidak dapat menentukan $k0$ (kunci pribadi yang terkait dengan alamat penerimaan BIP47 milik Bob). Secara skematis, kita dapat merepresentasikan perhitungan rahasia bersama $S$ sebagai berikut:
 
-![BTC204](assets/fr/228.webp)
+![BTC204](assets/id/240.webp)
 
 Setelah rahasia bersama ditemukan dengan ECDH, Alice dan Bob menghitung kunci publik pembayaran BIP47 $K0$, dan Bob juga menghitung kunci privat terkait $k0$:
 
-![BTC204](assets/fr/234.webp)
+![BTC204](assets/id/241.webp)
 
 ### Pengembalian pembayaran BIP47
 
@@ -3805,7 +3805,7 @@ Fitur pengembalian dana khusus untuk BIP47 dan merupakan salah satu keunggulanny
 
 Bob kemudian dapat mengganti uang Alice dengan cara yang sama seperti saat ia mengirimkan pembayaran kepadanya. Perannya dibalik:
 
-![BTC204](assets/fr/235.webp)
+![BTC204](assets/id/242.webp)
 
 *Terima kasih banyak kepada [Fanis Michalakis](https://x.com/FanisMichalakis) atas koreksi dan saran ahli pada artikel yang menginspirasi penulisan bab ini!*
 
@@ -3850,7 +3850,7 @@ Mari kita lihat operasi teknis dari Pembayaran Diam untuk lebih memahami apa yan
 
 Sebelum memulai, penting untuk diketahui bahwa Silent Payments hanya bergantung pada penggunaan jenis skrip P2TR (*Pay to Taproot*). Tidak seperti BIP47, tidak perlu untuk mendapatkan alamat penerima dari kunci publik anak dengan melakukan hashing. Pada standar P2TR, kunci publik yang telah di-tweak digunakan secara langsung dan tidak dienkripsi pada alamatnya. Jadi, alamat penerimaan Taproot pada dasarnya adalah kunci publik dengan beberapa metadata. Kunci publik yang telah diubah ini merupakan agregasi dari dua kunci publik lainnya: satu yang memungkinkan pembelanjaan langsung dan tradisional melalui tanda tangan sederhana, dan yang lainnya mewakili akar Merkle dari MAST, yang mengesahkan pembelanjaan sesuai dengan salah satu kondisi yang mungkin tertulis di pohon Merkle.
 
-![BTC204](assets/fr/068.webp)
+![BTC204](assets/id/243.webp)
 
 Ada dua alasan utama mengapa keputusan untuk membatasi Pembayaran Senyap secara eksklusif untuk Taproot:
 
@@ -3904,7 +3904,7 @@ $$ p = (b + \text{hash}(b \cdot A)) \bmod n $$
 
 Seperti yang dapat Anda lihat, untuk menghitung kunci privat $p$ ini, Anda harus memiliki kunci privat $b$. Hanya Bob yang memiliki kunci pribadi $b$ ini. Oleh karena itu, dia akan menjadi satu-satunya yang dapat membelanjakan bitcoin yang dikirim ke alamat Silent Payments-nya.
 
-![BTC204](assets/fr/236.webp)
+![BTC204](assets/id/244.webp)
 
 *Legenda:*
 
@@ -3954,7 +3954,7 @@ $$
 p_1 = (b + \text{hash}(b \cdot A \text{ ‖ } 1)) \bmod n
 $$
 
-![BTC204](assets/fr/237.webp)
+![BTC204](assets/id/245.webp)
 
 *Legenda:*
 
@@ -3997,7 +3997,7 @@ $$
 p_0 = (b + \text{hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0)) \bmod n
 $$
 
-![BTC204](assets/fr/238.webp)
+![BTC204](assets/id/246.webp)
 
 *Legenda:*
 
@@ -4025,7 +4025,7 @@ Sebagai contoh, bayangkan transaksi Alice memiliki 3 input, masing-masing diaman
 - $a_1$ digunakan untuk mengamankan input #1;
 - $a_2$ mengamankan masukan #2.
 
-![BTC204](assets/fr/239.webp)
+![BTC204](assets/id/247.webp)
 
 Mengikuti metode yang telah dijelaskan sebelumnya, Alice harus memilih satu pasangan kunci dari antara $a_0$, $a_1$, dan $a_2$ untuk menghitung rahasia ECDH dan menghasilkan alamat pembayaran tunggal $P$ dari alamat statis Bob, yaitu $B$. Akan tetapi, pendekatan ini mengharuskan Bob untuk menguji setiap kemungkinan secara berurutan, dimulai dari $a_0$, kemudian $a_1$, dan seterusnya, hingga ia mengidentifikasi pasangan yang menghasilkan alamat $P$ yang valid. Proses ini mengharuskan Bob untuk menjalankan kalkulasi ECDH pada semua input untuk semua transaksi, yang secara signifikan meningkatkan beban operasional pemindaian.
 
@@ -4077,7 +4077,7 @@ Seperti yang dapat Anda lihat, sejauh ini Bob tidak perlu menggunakan $b_{\text{
 
 $$ p_0 = (b_{\text{pengeluaran}} + \text{hash}(\text{inputHash} \cdot b_{\text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
 
-![BTC204](assets/fr/240.webp)
+![BTC204](assets/id/248.webp)
 
 *Legenda:*
 
@@ -4137,7 +4137,7 @@ Berkat metode ini, Bob dapat menggunakan banyak alamat statis ($B_1$, $B_2$, $B_
 
 Namun, harap diperhatikan bahwa pemisahan alamat statis ini hanya berlaku dari sudut pandang manajemen portofolio pribadi, tetapi tidak memisahkan identitas. Karena semuanya memiliki $B_{\text{scan}}$ yang sama, sangat mudah untuk mengaitkan semua alamat statis bersama-sama dan menyimpulkan bahwa mereka adalah milik satu entitas.
 
-![BTC204](assets/fr/241.webp)
+![BTC204](assets/id/249.webp)
 
 *Legenda:*
 

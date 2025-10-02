@@ -88,7 +88,13 @@ Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở
 
 Điểm mấu chốt ở đây là giúp bạn hiểu được công nghệ mới này một cách tổng thể, vì vậy chúng tôi hy vọng bạn thích khóa học này và liên tục phát huy trong hệ thống tiền tệ toàn cầu mới này.
 
+Bạn đã sẵn sàng để khám phá thế giới hấp dẫn của Bitcoin và hiểu tất cả các hoạt động bên trong của nó chưa? Hãy cùng đi nào!
+
+**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa.
+
 ## Lịch sử của Bitcoin
+
+
 
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

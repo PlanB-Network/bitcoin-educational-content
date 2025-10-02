@@ -21,10 +21,12 @@ Whether you're a **small business or a large corporation**, integrating Bitcoin 
 
 
 # Introduction
+
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
 
 ## Course overview
+
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
 Welcome to the BIZ101 course! Kickstart your company’s journey on the Bitcoin network with this comprehensive training course - a gateway to understanding how Bitcoin and the Lightning Network can revolutionize traditional business operations. This course is designed for retailers, entrepreneurs, managers, and corporate decision-makers who wish to explore the practical capabilities of Bitcoin as a global, internet-native monetary network and a robust means of value exchange.
@@ -37,7 +39,10 @@ Whether you represent a small enterprise or a large corporation, this course aim
 
 Ready to dive into the world of Bitcoin for businesses? Let's go!
 
+**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.network/resources/glossary) for definitions.
+
 # Currency, payment systems, and Bitcoin
+
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
 
 ## Traditional currencies

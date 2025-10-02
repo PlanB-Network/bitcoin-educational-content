@@ -22,72 +22,72 @@ proofreading:
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 2.85
+    reward: 2.84
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.56
+    reward: 7.54
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.7
+    reward: 5.68
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.7
+    reward: 5.68
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.7
+    reward: 5.68
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.56
+    reward: 7.54
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.56
+    reward: 7.54
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.16
+    reward: 13.12
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.43
+    reward: 9.4
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.7
+    reward: 5.68
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.3
+    reward: 11.26
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.56
+    reward: 7.54
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.56
+    reward: 7.54
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.7
+    reward: 5.68
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -123,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.56
+    reward: 7.54
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -133,7 +133,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.56
+    reward: 7.54
   - language: tr
     last_contribution_date:
     urgency: 1

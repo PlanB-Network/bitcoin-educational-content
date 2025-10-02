@@ -8342,16 +8342,24 @@ Ev ağınızın güvenliği doğru donanım seçimiyle başlar: yönlendirici ve
 Wi-Fi 6, Wi-Fi 6E veya Wi-Fi 7 uyumlu bir yönlendirici size gelişmiş hızlar ve hepsinden önemlisi modern güvenlik teknolojileri için yerel destek sağlayacaktır. Buna karşılık, özellikle artık yazılım güncellemeleri almayan çok eski ekipmanlar bilinen, yamalanmamış güvenlik açıkları içerebilir. Bu nedenle, doğru yapılandırsanız bile tüm ağınız için bir risk teşkil ederler. Cep telefonları veya bilgisayarlarla karşılaştırıldığında, yönlendiriciler uzun yıllar boyunca saklama eğiliminde olduğumuz ekipmanlardır. Ancak, daha modern ve daha güvenli bir modelden faydalanmak için bunları daha düzenli olarak değiştirmek iyi bir fikir olabilir.
 
 
+**Dikkat**: Genel bir kural olarak, internet servis sağlayıcılarının sunduğu yönlendiriciler gerekli güncelleme özelliğinden ve kişiselleştirme yeteneklerinden yoksun olabilir. Bazı durumlarda, servis sağlayıcılar son kullanıcının dahili ağına sınırsız erişime de sahip olabilir.
+
 Bu yüzden yönlendiricinizin ürün yazılımını sistematik olarak güncellediğinizden emin olun. Bu güncellemeler güvenlik açıklarını düzeltir, yeni özellikler ekler ve genel sistem kararlılığını artırır. Bazı üreticiler otomatik güncellemeler sunar, ancak bazı durumlarda yönlendiricinizin Interface yönetim aracı aracılığıyla manuel olarak kontrol etmeniz gerekir. Telefonunuz, bilgisayarınız, işletim sisteminiz ve yazılımınızda olduğu gibi yönlendiricinizi de düzenli olarak güncellemeniz önemlidir. Bunu haftalık rutininizin bir parçası haline getirebilirsiniz - örneğin her Pazar - kontrol etmeniz ve güncel tutmanız gereken tüm öğelerin bir listesini hazırlayarak.
 
 
-Yönlendiricinizin bakımı artık yapılmıyorsa ancak donanım açısından hala düzgün çalışıyorsa, aşağıdaki gibi alternatif bir açık kaynaklı ürün yazılımı yükleyebilirsiniz:
+Alternatif olarak, otomatik güncellemeleri etkinleştirebilir veya manuel işlemeyi tercih ediyorsanız en azından yeni firmware güncellemeleri için otomatik taramayı etkinleştirebilirsiniz. Otomatik güncelleme özelliği hala bir güvenlik tehdidi oluşturabiliyor olsa da, yönlendiricinin firmware'ini düzenli olarak güncellememeniz yerel ağınızı herkese açık bilinen güvenlik açıklarına maruz bırakacaktır.
+
+**Örnek**: Kendi yönlendiricinizi satın alırken, uzun süredir piyasada yönlendirici sağlayan köklü firmaları aramak iyi bir fikir olabilir. Örneğin Fritz!Box yönlendiriciler, hem aile kullanımına hem de küçük ölçekli şirketlere uygun, tak-çalıştır cihazlar olarak uzun süredir itibar sahibidir. Yazılım güncelleme politikaları genellikle birkaç yıl sürer.
+
+Yönlendiriciniz artık bakımı yapılmıyor ancak donanım açısından hâlâ düzgün çalışıyorsa, şunlar gibi alternatif açık kaynaklı bir firmware yükleyebilmeniz mümkün olabilir:
 
 
 
 - OpenWrt, yönlendiriciler konusunda uzmanlaşmış, büyük esneklik ve düzenli güncellemeler sunan bir Linux dağıtımı
 - pfSense ve OPNsense, x86 güvenlik duvarları ve yönlendiriciler için iki FreeBSD tabanlı (Unix benzeri) sistem
 
+
+**Not**: Bazı ISS'ler müşterilerine aynı anda dünyanın birçok farklı ISS'sine hizmet veren tek bir şirket tarafından üretilen toplu yönlendiriciler sağlar. Yönlendiriciye alternatif yazılımlardan birini yüklemek için başka birinin nasıl yapılacağını çoktan keşfetmiş olabileceğini görebilirsiniz, hatta o kişi dünyanın öteki ucunda olsa bile.
 
 ![Image](assets/fr/196.webp)
 

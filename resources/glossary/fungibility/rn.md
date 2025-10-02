@@ -1,0 +1,5 @@
+---
+term: UBUSHOBORA
+---
+
+Umutungo w’ifaranga utuma igice cose gishobora guhindurwa kandi kidashobora gutandukanywa n’ikindi gice gisa n’ico. Bitcoin, nk’igice c’ikonti, mu ngingo ngenderwako ni ikintu gishobora guhinduka, kuko Bitcoin imwe yama ifise agaciro k’iyindi Bitcoin: 1 BTC = 1 BTC. Ariko rero, ukuntu UTXOs zishobora gukurikirana (infashanyo y’ibice) kuri Blockchain birashobora rimwe na rimwe gutuma iyo fungibilité ihungabana. Nkako, Satoshi yose irashobora gutandukanywa n’amateka yayo, ivyo bikaba biyiha akaranga kadasanzwe. Uko umuntu abona amateka ya UTXO imwe imwe birashobora kugira ico bikoze ku rubanza rw’ababuranyi ku bijanye n’uguhinduka kw’amahera ya bitcoins akoreshwa. Rero, naho ubuhinduzi ari ikintu kiranga ibice vy’amahera, burashobora guhindurwa n’ibintu vy’agaciro vy’uburyo bukoreshwa muri ivyo bice, nk’uko biri kuri Bitcoin.

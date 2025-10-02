@@ -19,30 +19,30 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.17
+    reward: 40.2
   - language: de
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - ghub-user-180
-    reward: 15.08
+    reward: 15.09
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - ckriptoco
-    reward: 15.08
+    reward: 15.09
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 15.08
+    reward: 15.09
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.17
+    reward: 40.2
   - language: fr
     last_contribution_date: 2025-08-18
     urgency: 1
@@ -55,108 +55,108 @@ proofreading:
     urgency: 1
     contributor_names:
       - TinF0ilHat
-    reward: 15.08
+    reward: 15.09
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 60.21
+    reward: 60.24
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.16
+    reward: 30.17
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 20.09
+    reward: 20.1
   - language: vi
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Henry-Da0
       - Ahn-La
-    reward: 15.05
+    reward: 15.06
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.17
+    reward: 40.2
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 50.19
+    reward: 50.22
   - language: zh-Hans
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 25.1
+    reward: 25.11
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.17
+    reward: 40.2
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.17
+    reward: 40.2
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.17
+    reward: 40.2
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 50.19
+    reward: 50.22
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 70.23
+    reward: 70.27
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 20.09
+    reward: 20.1
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.17
+    reward: 40.2
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.16
+    reward: 30.17
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
     contributor_names:
       - rogerbracket
-    reward: 20.09
+    reward: 20.1
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 50.19
+    reward: 50.22
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 40.17
+    reward: 40.2
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 60.21
+    reward: 60.24
 tags:
   - wallets
   - user-friendly
@@ -168,42 +168,70 @@ videos:
   - id: 9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a
     youtube:
       - en: ifVSDGtxZxM
+    peertube:
+      - en: wFrUi6N2YYWtUHN44p8ce5
   - id: 2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
     youtube:
       - en: G78aCcMhefI
+    peertube:
+      - en: r2vP2fz6iioAVnPZWFtWfV
   - id: 7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b
     youtube:
       - en: 4zLze9QWt-E
+    peertube:
+      - en: gekzAZPRCdZytGer8XYB7K
   - id: 3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f
     youtube:
       - en: RLl3TjwDnJ0
+    peertube:
+      - en: q2kftzLjciJBKHU9wFNGd9
   - id: 5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f
     youtube:
       - en: 42kA6D6ONBY
+    peertube:
+      - en: 3paCR1bxYHswCKRZTZRsTA
   - id: 8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d
     youtube:
       - en: EXfWIxTlusA
+    peertube:
+      - en: aEDSUECqo2XspFffapJuLH
   - id: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
     youtube:
       - en: H_YcaXbOO90
+    peertube:
+      - en: 2GgcB6w4FCQSALSTBkMVaV
   - id: 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
     youtube:
       - en: 7kR_C8oFzq8
+    peertube:
+      - en: 853QwCgJ8muVmHvayQzWPW
   - id: 3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f
     youtube:
       - en: vvwClEg8ZOY
+    peertube:
+      - en: 2oHwKqYHPTv9QbLv5UbTVs
   - id: 4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b
     youtube:
       - en: jlbrq560_JI
+    peertube:
+      - en: 8HKAtjm3GuL8vKDAi8z4ZH
   - id: 5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c
     youtube:
       - en: kQyBMuhqfsk
+    peertube:
+      - en: 6aaLTq29tdLZjVdzJM6zq9
   - id: 6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d
     youtube:
       - en: snoPO_x9-nA
+    peertube:
+      - en: pPQzRJq2aZZemxXJCQ4cFu
   - id: 7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e
     youtube:
       - en: pfrS9pmdBIE
+    peertube:
+      - en: oSDhkaGXLLBT3yEt31BmXX
   - id: 8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f
     youtube:
       - en: b_6MCWYzdGg
+    peertube:
+      - en: t4oDrjrAtx5KpXtH9PvcX3

@@ -1,5 +1,5 @@
 question: Je, ni madhara gani ya mfumuko wa bei kwenye thamani ya fedha?
-answer: Inasababisha pesa kupoteza thamani yake haraka.
+answer: Yanasababisha pesa kupoteza thamani yake haraka.
 wrong_answers:
   - Inasababisha pesa kuongezeka kwa thamani.
   - Haina athari kwa thamani ya pesa.
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Katika kipindi cha mfumuko wa bei, pesa hupoteza haraka thamani yake, kutengeneza
   mipango ya muda mrefu ngumu.
-reviewed: false
+reviewed: true

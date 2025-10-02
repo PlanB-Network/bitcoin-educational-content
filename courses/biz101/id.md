@@ -35,6 +35,8 @@ Baik Anda mewakili perusahaan kecil maupun perusahaan besar, kursus ini bertujua
 
 Siap menyelami dunia Bitcoin untuk bisnis? Ayo mulai!
 
+**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.network/resources/glossary) untuk definisi.
+
 # Mata uang, sistem pembayaran, dan Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

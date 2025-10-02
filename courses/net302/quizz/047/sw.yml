@@ -6,4 +6,4 @@ wrong_answers:
   - PAN (Nambari halisi ya Address)
 explanation: |
   OUI imetolewa na IEEE na inamtambulisha mtengenezaji wa kadi ya mtandao katika MAC Address.
-reviewed: false
+reviewed: true

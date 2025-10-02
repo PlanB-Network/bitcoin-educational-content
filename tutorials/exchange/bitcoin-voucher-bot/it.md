@@ -76,7 +76,7 @@ Il VoucherBot ti segnala che è stata fatta una prima scelta, per confermarla de
 
 ![image](assets/it/07.webp)
 
-Ora devi scegliere il metodo di pagamento. Il trasferimento avviene tramite bonifico bancario **(accettati solo SEPA)**. VoucherBot propone come destinatario una società che dispone di due conti bancari, uno in U.K (Regno Unito) e l'altro in Svizzera. Per questo tutorial scegli il conto svizzero.
+Ora devi scegliere il metodo di pagamento. Il trasferimento avviene tramite bonifico bancario **(accettati solo SEPA)**. VoucherBot propone come destinatario una società che dispone di due conti bancari, uno in U.K (Regno Unito) e l'altro in Svizzera. Per questo tutorial viene usato il conto svizzero.
 
 ![image](assets/it/08.webp)
 

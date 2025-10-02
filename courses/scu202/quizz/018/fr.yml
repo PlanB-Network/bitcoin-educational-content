@@ -5,5 +5,5 @@ wrong_answers:
   - Pacman
   - Zypper
 explanation: |
-  Debian et Ubuntu utilisent le gestionnaire de paquets APT, basé sur le format ".deb", pour gérer l’installation et la mise à jour des logiciels.
+  Debian et Ubuntu utilisent le gestionnaire de paquets APT, basé sur le format .deb, pour gérer l’installation et la mise à jour des logiciels.
 reviewed: false

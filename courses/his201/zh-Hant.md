@@ -1111,7 +1111,7 @@ Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"�
 
 雖然中本聰不曾提及區塊大小限制的存在，但隨著時間的推移，有幾個人注意到它在程式碼中的存在。因此，早在 8 月 12 日，一位使用假名 throughput（吞吐量） 的俄語論壇成員就注意到了這一點，他[指出](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873)，以相對積極的語氣說："另一個有趣的方面是，區塊的位元組大小（即其中的交易數量）是有限的。之後，在 9 月 30 日，是 Theymos [指出](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748) 另一名會員，「Bitcoin 不允許超過 1MB 的區塊，因此假設（相當小的）平均交易大小為 216 位元組，Bitcoin 每 10 分鐘只能處理 4,629 宗交易」。
 
-最後，這個參數的存在影響到 Jeff Garzik，他 [宣稱](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) 「比起政府關閉，更關心可擴展性」，他 [詢問](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) 「如何可能將 Bitcoin 銷售給嚴肅的投資人，內建的限制像是每分鐘 463 次的交易限制」。因此，10 月 3 日，他在論壇上提出一個修補程式，將區塊大小限制增加到 7.168 MB，以「符合 PayPal 的平均交易率」。Theymos 回應說，「套用這個修補程式會讓您與其他 Bitcoin 用戶端不相容」。這個訊息得到中本聰的認可，他 [建議](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) 不要使用這個修補程式，並表示：「如果我們更接近需要變更，我們可以稍後逐步進行變更」。後者在隔天[澄清](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) 他的想法，提供如何進行這樣的通訊協定變更的指引。
+最後，這個參數的存在影響到 Jeff Garzik，他 [宣稱](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) 「比起政府關閉，更關心可擴展性」，他 [詢問](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) 「如何可能將 Bitcoin 銷售給嚴肅的投資人，內建的限制像是每分鐘 463 次的交易限制」。因此，10 月 3 日，他在論壇上提出一個修補程式，將區塊大小限制增加到 7.168 MB，以「符合 PayPal 的平均交易率」。Theymos 回應說，「套用這個修補程式會讓您與其他 Bitcoin 用戶端不相容」。這個訊息得到中本聰的認可，他 [建議](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) 不要使用這個修補程式，並表示：「如果我們需要變更，我們可以稍後逐步進行變更」。後者在隔天[澄清](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) 他的想法，提供如何進行這樣的通訊協定變更的指引。
 
 ![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/047.webp)
 
@@ -1121,7 +1121,7 @@ Gavin 和中本聰也修正了幾個 bug。其中最主要的是 "1 RETURN bug"�
 
 9 月，中本聰在程式碼中引入了一個新概念：非標準交易。這些交易是預設配置的節點不會中繼、不會保留在其 Mempool 中、也不會包含在其產生的區塊中的交易。但是，這些交易仍然完全有效，包含這些交易的區塊會被整個網路接受。
 
-Bitcoin 的腳本系統相當豐富，而且尚未經過充分的檢驗，這種規範性的區別有助於限制對其潛在漏洞的利用，但代價是暫時限制了可編程性。目前，有兩種輸出腳本被網路識別為標準：
+Bitcoin 
 
 
 - 以公開金鑰 (*pubkey*) 接收，由礦工使用，並透過 IP Address 進行傳輸；

@@ -1291,36 +1291,36 @@ Bitcoin 的崛起意味著事物開始被衡量，無論是價格、鏈上的活
 
 2010年8月13日，一位名叫 Kiba 的論壇成員主動[提出](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)聯繫EFF，並建議他們接受社區的捐款，[收集](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578)。為此，他在 MyBitcoin 上建立了一個[賬戶](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)，在那裡他收集了資金，並希望轉移給EFF。他草擬了一封電子郵件，並於 8 月底寄出。
 
-兩週後，在沒有回覆的情況下，第二位論壇會員向他伸出援手。這位化名為 BrightAnarchist 的會員認識其中一位創始人，並在 9 月 13 日寄了一封電子郵件給他們。他在同一天收到了回復，並在論壇上[寫道](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631)：「EFF絕對有興趣接收比特幣！」該帳戶隨後被轉給了該組織。
+兩週後，在沒有回覆的情況下，第二位論壇會員向他伸出援手。這位化名為 BrightAnarchist 的會員認識其中一位創始人，並在 9 月 13 日寄了一封電子郵件給他們。他在同一天收到了回復，並在論壇上[寫道](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631)：「EFF絕對有興趣接收 Bitcoin ！」該帳戶隨後被轉給了該組織。
 
-EFF 花了一些時間才開始接受大眾捐款。經過協商後，社群說服他們在網站上發表捐款 Address。11 月 9 日，Address 出現在 [捐款頁面](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout)。Bitcoin users [began](https://Mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) transferring funds.
+EFF 花了一些時間才開始接受大眾捐款。經過協商後，社群說服他們在網站上發表捐款地址。11 月 9 日，地址出現在 [捐款頁面](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout)。Bitcoin 用戶開始[轉移](https://Mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) 資金。
 
-幾天之後，博主 jimbobway 寫了一篇[post](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/Bitcoin-gains-legal-protection-through.html)，引起大家對 Bitcoin 的注意。這篇文章在HackerNews上被[分享](https://news.ycombinator.com/item?id=1905522)。它也被 BitcoinMedia 使用 Xtranormal 轉錄成影片：
+幾天之後，部落客 jimbobway 寫了一篇[文章](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/Bitcoin-gains-legal-protection-through.html)，引起大家對 Bitcoin 的注意。這篇文章在 HackerNews 上被[分享](https://news.ycombinator.com/item?id=1905522)。它也被 BitcoinMedia 使用 Xtranormal 轉錄成影片：
 
 :::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
-這對 Bitcoin 來說是非常好的消息，因為這兩項計畫都有共同的價值觀。此外，EFF 以向 Tor 和 BitTorrent 等隱私保護和資料分享專案提供法律保護而聞名。Satoshi Nakamoto 本人也意識到這一點，並且特別支持該組織的行動，正如他在 2011 年 1 月 6 日致 Gavin Andresen 的一封電子郵件中提出的 [意見](https://mmalmi.github.io/Satoshi/#email-254)：
+這對 Bitcoin 來說是非常好的消息，因為這兩項計畫都有共同的價值觀。此外，EFF 以向 Tor 和 BitTorrent 等隱私保護和資料分享專案提供法律保護而聞名。中本聰本人也意識到這一點，並且特別支持該組織的行動，正如他在 2011 年 1 月 6 日致 Gavin Andresen 的一封 [郵件](https://mmalmi.github.io/Satoshi/#email-254)：
 
-> 「EFF真的很重要。&nbsp;我們希望與他們保持良好關係。&nbsp;我們是他們讚賞的那種項目；他們曾幫助TOR項目，並為保護P2P檔案分享做了很多工作。」
+> 「EFF 真的很重要。&nbsp;我們希望與他們保持良好關係。&nbsp;我們是他們讚賞的那種項目；他們曾幫助 TOR 項目，並為保護 P2P 檔案分享做了很多工作。」
 ### Hal Finney 回歸
 
 在 2009 年 4 月退出 Bitcoin 後，Hal Finney 很快得知自己被診斷出患有 ALS，[診斷](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) 是在 2009 年 8 月做出的。他依此調整自己的生活方式，但他的運動能力卻逐漸減退。
 
 11 月 30 日，他在 Bitcoin 論壇註冊並開始參與討論，尤其是關於 BitDNS 專案的討論。他毫不猶豫地向生態系統中蓬勃發展的各種專案提供小額捐款。
 
-此外，他研究了自推出以來從未看過的程式碼，並體會到所有的工作都已完成。這種體悟促使他於 12 月 11 日在論壇上 [撰寫](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) 以下評論：
+此外，他研究了他從未看過的程式碼，並體會到所有的工作都已完成。這種體悟促使他於 12 月 11 日在論壇上 [撰寫](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223) 以下評論：
 
-> "在我看來，這是一份令人印象深刻的工作，雖然我希望有更多的評論。我主要研究了 init、main、script 以及一些 net 模組。這是一些強大的機器"。
-兩小時後，Satoshi [回覆](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259)：
+> "在我看來，這是一份令人印象深刻的工作，雖然我希望有更多的註釋。我主要研究了 init、main、script 以及一些 net 模組。這是一些強大的機器"。
+兩小時後，中本聰 [回覆](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259)：
 
-> 「這對你來說意義重大 Hal 謝謝你」
+> 「來自你的肯定意義重大 Hal 謝謝你」
 這是 Bitcoin 創造者的倒數第二個公開訊息，幾個月後他就消失了。
 
 ### 關鍵時刻
 
-2010 年秋季，Bitcoin 周圍的生態系統發生了顯著變化。溝通改善，經濟發展。當時，Bitcoin 似乎已準備好獨立起飛。也正是在這個時期，Satoshi 選擇消失，並將專案的重任交給社群。
+2010 年秋季，Bitcoin 周圍的生態系統發生了顯著變化。溝通改善，經濟發展。當時，Bitcoin 似乎已準備好起飛。也正是在這個時期，中本聰選擇消失，並將掌舵專案的重責大任交給社群。
 
-## Satoshi 的消失
+## 中本聰的消失
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
 

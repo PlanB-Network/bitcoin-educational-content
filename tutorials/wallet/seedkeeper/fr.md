@@ -15,7 +15,7 @@ Le Seedkeeper répond donc selon moi à deux cas d’utilisation principaux que 
 
 Sur le plan technique, le Seedkeeper offre une capacité de 8192 octets, ce qui permet de stocker au minimum 50 secrets distincts (le nombre exact dépendra de leur taille et des métadonnées associées à chacun). L’accès au Seedkeeper se fait soit [par lecteur de carte à puce relié](https://satochip.io/accessories/) à un ordinateur, soit via l’application mobile avec connexion NFC. Le tout fonctionne en mode hors ligne, sans connexion Internet, ce qui garantit une surface d’attaque limitée.
 
-01
+![Image](assets/fr/001.webp)
 
 Une fonctionnalité particulièrement intéressante est la possibilité de dupliquer le contenu d’un Seedkeeper vers un autre afin de créer une sauvegarde. Nous allons voir dans ce tutoriel comment faire cette manipulation.
 
@@ -59,97 +59,97 @@ Si vous souhaitez utiliser la fonctionnalité de sauvegarde du Seedkeeper, il vo
 
 Dans ce tutoriel, nous allons sauvegarder la seed de notre portefeuille sur notre Seedkeeper. La première étape consiste à installer le logiciel sur votre ordinateur ou votre smartphone. Sur PC, vous devrez [télécharger la dernière version de Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). Sur mobile, l’application Seedkeeper est disponible sur le [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) ainsi que sur l’[App Store Apple](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
-02
+![Image](assets/fr/002.webp)
 
 ## 4. Initialisation du Seedkeeper
 
-Lancez l’application et cliquez sur le bouton "Click & Scan".
+Lancez l’application et cliquez sur le bouton "*Click & Scan*".
 
-03
+![Image](assets/fr/003.webp)
 
-Un code PIN vous est demandé pour votre Seedkeeper. Comme il s’agit d’une nouvelle carte, aucun PIN n’a encore été défini. Entrez donc un code quelconque pour passer cette étape, puis cliquez sur "Suivant".
+Un code PIN vous est demandé pour votre Seedkeeper. Comme il s’agit d’une nouvelle carte, aucun PIN n’a encore été défini. Entrez donc un code quelconque pour passer cette étape, puis cliquez sur "*Suivant*".
 
-04
+![Image](assets/fr/004.webp)
 
 Placez ensuite la carte à l’arrière de votre smartphone. L’application détectera que le Seedkeeper n’est pas encore initialisé et vous invitera à définir le code PIN de votre carte à puce, compris entre 4 et 16 caractères. Pour une sécurité optimale, choisissez un mot de passe robuste, le plus long possible, aléatoire et composé d’une grande diversité de caractères. Ce code PIN constitue la seule barrière de protection contre un accès physique à votre phrase de récupération.
 
 **Pensez également à sauvegarder ce code PIN dès maintenant**, par exemple dans un gestionnaire de mots de passe, ou bien sur un support physique distinct. Dans ce dernier cas, ne conservez jamais le support contenant le PIN au même endroit que votre Seedkeeper, sans quoi cette sécurité deviendrait inutile. Il est important de disposer d’une sauvegarde fiable : sans ce code PIN, il vous sera impossible de récupérer les secrets enregistrés sur votre Seedkeeper.
 
-05
+![Image](assets/fr/005.webp)
 
 Confirmez votre code PIN une seconde fois.
 
-06
+![Image](assets/fr/006.webp)
 
 Votre Seedkeeper est désormais initialisé. Vous pouvez le déverrouiller en entrant le code PIN que vous venez de définir.
 
-07
+![Image](assets/fr/007.webp)
 
 Vous accédez maintenant à la page de gestion de votre carte à puce.
 
-08
+![Image](assets/fr/008.webp)
 
 ## 5. Enregistrer une seed sur le Seedkeeper
 
-Une fois votre Seedkeeper déverrouillé, cliquez sur le bouton "+".
+Une fois votre Seedkeeper déverrouillé, cliquez sur le bouton "*+*".
 
-09
+![Image](assets/fr/009.webp)
 
-Sélectionnez "Importer un secret". L’option "Générer un secret" permet quant à elle de créer une nouvelle phrase mnémonique directement depuis l’application.
+Sélectionnez "*Importer un secret*". L’option "*Générer un secret*" permet quant à elle de créer une nouvelle phrase mnémonique directement depuis l’application.
 
-10
+![Image](assets/fr/010.webp)
 
-Dans notre cas, nous voulons sauvegarder la seed de notre portefeuille. Cliquez donc sur "Mnémonique".
+Dans notre cas, nous voulons sauvegarder la seed de notre portefeuille. Cliquez donc sur "*Mnémonique*".
 
-11
+![Image](assets/fr/011.webp)
 
-Attribuez un "Label" à ce secret afin de l’identifier facilement si vous enregistrez plusieurs informations dans votre Seedkeeper.
+Attribuez un "*Label*" à ce secret afin de l’identifier facilement si vous enregistrez plusieurs informations dans votre Seedkeeper.
 
-12
+![Image](assets/fr/012.webp)
 
-Saisissez ensuite votre phrase de récupération dans le champ prévu à cet effet. Vous pouvez également, si vous le souhaitez, ajouter une passphrase BIP39 ou vos *Descriptors*. Cliquez ensuite sur "Importer".
+Saisissez ensuite votre phrase de récupération dans le champ prévu à cet effet. Vous pouvez également, si vous le souhaitez, ajouter une passphrase BIP39 ou vos *Descriptors*. Cliquez ensuite sur "*Importer*".
 
-13
+![Image](assets/fr/013.webp)
 
 *La phrase mnémonique affichée sur cette image est fictive, elle n’appartient à personne. Il s’agit uniquement d’un exemple. Ne révélez jamais votre propre phrase à quiconque, sous peine de vous faire voler vos bitcoins.*
 
 Placez votre Seedkeeper à l’arrière de votre smartphone.
 
-14
+![Image](assets/fr/014.webp)
 
 Votre seed a bien été enregistrée.
 
-15
+![Image](assets/fr/015.webp)
 
 ## 6. Accéder à votre seed sur le Seedkeeper
 
-Si vous souhaitez consulter votre phrase mnémonique, prenez votre Seedkeeper et cliquez sur le bouton "Click & Scan".
+Si vous souhaitez consulter votre phrase mnémonique, prenez votre Seedkeeper et cliquez sur le bouton "*Click & Scan*".
 
-16
+![Image](assets/fr/016.webp)
 
-Saisissez votre code PIN puis appuyez sur "Suivant".
+Saisissez votre code PIN puis appuyez sur "*Suivant*".
 
-17
+![Image](assets/fr/017.webp)
 
 Placez votre Seedkeeper à l’arrière du smartphone.
 
-18
+![Image](assets/fr/018.webp)
 
-Vous accédez alors à la liste de tous vos secrets enregistrés. Dans cet exemple, je veux afficher la seed de mon portefeuille "Blockstream App", je clique donc dessus.
+Vous accédez alors à la liste de tous vos secrets enregistrés. Dans cet exemple, je veux afficher la seed de mon portefeuille "*Blockstream App*", je clique donc dessus.
 
-19
+![Image](assets/fr/019.webp)
 
-Appuyez sur le bouton "Révéler".
+Appuyez sur le bouton "*Révéler*".
 
-20
+![Image](assets/fr/020.webp)
 
 Scannez de nouveau votre Seedkeeper.
 
-21
+![Image](assets/fr/021.webp)
 
 Votre phrase mnémonique précédemment enregistrée s’affiche désormais à l’écran.
 
-22
+![Image](assets/fr/022.webp)
 
 ## 7. Faire une sauvegarde du Seedkeeper
 
@@ -157,39 +157,39 @@ Nous allons maintenant réaliser une sauvegarde de mon Seedkeeper sur un second 
 
 Pour cela, munissez-vous de votre second Seedkeeper (pensez à identifier l’un des deux avec une marque dessus pour éviter toute confusion). Commencez par l’initialiser en reproduisant le processus de l’étape 4 de ce tutoriel. Choisissez une nouvelle fois un mot de passe fort. Selon votre stratégie, vous pouvez opter pour un mot de passe différent ou conserver le même.
 
-23
+![Image](assets/fr/023.webp)
 
-Ouvrez l’application, cliquez sur "Click & Scan", saisissez le mot de passe de votre Seedkeeper n°1 (source), puis scannez-le.
+Ouvrez l’application, cliquez sur "*Click & Scan*", saisissez le mot de passe de votre Seedkeeper n°1 (source), puis scannez-le.
 
-24
+![Image](assets/fr/024.webp)
 
 Vous accédez à sa page d’accueil avec la liste de vos secrets. Cliquez sur les trois petits points en haut à droite de l'interface.
 
-25
+![Image](assets/fr/025.webp)
 
-Sélectionnez "Faire une sauvegarde", puis appuyez sur "Start".
+Sélectionnez "*Faire une sauvegarde*", puis appuyez sur "*Start*".
 
-26
+![Image](assets/fr/026.webp)
 
 Saisissez le code PIN de votre carte de sauvegarde (Seedkeeper n°2).
 
-27
+![Image](assets/fr/027.webp)
 
 Scannez ensuite cette carte.
 
-28
+![Image](assets/fr/028.webp)
 
-Faites de même avec la carte principale (Seedkeeper n°1), puis cliquez sur "Faire une sauvegarde".
+Faites de même avec la carte principale (Seedkeeper n°1), puis cliquez sur "*Faire une sauvegarde*".
 
-29
+![Image](assets/fr/029.webp)
 
 Votre Seedkeeper n°2 contient désormais l’intégralité des secrets enregistrés sur le Seedkeeper n°1.
 
-30
+![Image](assets/fr/030.webp)
 
 Vous pouvez scanner votre Seedkeeper n°2 pour vérifier que les secrets ont bien été copiés.
 
-31
+![Image](assets/fr/031.webp)
 
 Voilà ! Vous savez désormais comment utiliser le Seedkeeper pour sauvegarder la phrase mnémonique d’un portefeuille Bitcoin. Dans un prochain tutoriel, nous verrons comment utiliser le Seedkeeper pour stocker vos mots de passe. Je vous invite également à découvrir son usage combiné avec le SeedSigner :
 

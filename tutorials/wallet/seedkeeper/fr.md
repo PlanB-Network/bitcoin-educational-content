@@ -11,7 +11,7 @@ Concrètement, le Seedkeeper prend la forme d’une carte à puce multifonctionn
 
 Le Seedkeeper répond donc selon moi à deux cas d’utilisation principaux que nous étudierons en 2 tutoriels distincs :
 - **La conservation de phrases mnémoniques Bitcoin** : au lieu de noter vos 12 ou 24 mots sur un support papier, vous pouvez les importer dans la smartcard et les protéger par un code PIN.
-- **La gestion de mots de passe** : vous pouvez générer des mots de passe forts via l’application Seedkeeper et les stocker directement dans la smartcard, ce qui donne un gestionnaire de mot de passe sécurisé hors ligne pratique et facile à utiliser.
+- **La gestion de mots de passe** : vous pouvez générer des mots de passe forts via l’application Seedkeeper et les stocker directement dans la smartcard, ce qui donne un gestionnaire de mots de passe sécurisé hors ligne pratique et facile à utiliser.
 
 Sur le plan technique, le Seedkeeper offre une capacité de 8192 octets, ce qui permet de stocker au minimum 50 secrets distincts (le nombre exact dépendra de leur taille et des métadonnées associées à chacun). L’accès au Seedkeeper se fait soit [par lecteur de carte à puce relié](https://satochip.io/accessories/) à un ordinateur, soit via l’application mobile avec connexion NFC. Le tout fonctionne en mode hors ligne, sans connexion Internet, ce qui garantit une surface d’attaque limitée.
 
@@ -194,6 +194,8 @@ Vous pouvez scanner votre Seedkeeper n°2 pour vérifier que les secrets ont bie
 Voilà ! Vous savez désormais comment utiliser le Seedkeeper pour sauvegarder la phrase mnémonique d’un portefeuille Bitcoin. Dans un prochain tutoriel, nous verrons comment utiliser le Seedkeeper pour stocker vos mots de passe. Je vous invite également à découvrir son usage combiné avec le SeedSigner :
 
 https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+https://planb.network/tutorials/wallet/backup/seedkeeper-password-64ffaf68-53aa-43c3-bc7a-c1dc2a17fee3
 
 Dans ce tutoriel, nous avons mentionné à plusieurs reprises les ***Descriptors*** de votre portefeuille Bitcoin. Vous ne savez pas de quoi il s’agit ? Dans ce cas, je vous recommande de suivre notre formation gratuite CYP 201, qui détaille en profondeur tous les mécanismes de fonctionnement des portefeuilles HD !
 

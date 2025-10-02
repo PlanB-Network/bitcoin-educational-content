@@ -6,4 +6,4 @@ wrong_answers:
   - Jina la mwenyeji mkuu
 explanation: |
   TLD daima ndicho kipengele cha kulia zaidi cha FQDN, kama vile .com, .org au .fr.
-reviewed: false
+reviewed: true

@@ -13,7 +13,7 @@ Questo corso intitolato "una storia filosofica della libertà" esplora la libert
 
 Il corso risale alle origini della libertà nell'Antichità, con i Greci e i Romani, attraverso il Medioevo, dove la libertà umana viene discussa in contesti religiosi e politici. Mostra come le idee di libertà si siano evolute con la nascita delle università e le prime forme di capitalismo nelle città italiane.
 
-Dalla Rinascita all'Illuminismo, il corso esamina l'ascesa della libertà, segnata dalla tolleranza religiosa e dalla libertà economica, culminando nel 1776 con eventi maggiori come il Congresso di Filadelfia. I secoli XIX e XX assistono al picco e al declino della libertà, affrontando critiche al capitalismo e i pericoli del collettivismo, mettendo in prospettiva le sfide contemporanee per la libertà.
+Dal Rinascimento all'Illuminismo, il corso esamina l'ascesa della libertà, segnata dalla tolleranza religiosa e dalla libertà economica, culminando nel 1776 con eventi maggiori come il Congresso di Filadelfia. I secoli XIX e XX assistono al picco e al declino della libertà, affrontando critiche al capitalismo e i pericoli del collettivismo, mettendo in prospettiva le sfide contemporanee per la libertà.
 
 +++
 
@@ -57,7 +57,7 @@ Pronto a intraprendere questo viaggio filosofico unico alla ricerca della libert
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
-Perché intitolare questo corso: una storia della libertà? Perché dobbiamo comprendere la relazione tra idee ed eventi, per giudicare meglio la nostra epoca e agire con discernimento. È nel passato che troviamo gli elementi per una migliore comprensione di cosa sia la libertà e le ragioni per cui dobbiamo tenerla cara.
+Perché intitolare questo corso: una storia della libertà? Perché dobbiamo comprendere la relazione tra idee ed eventi, per giudicare meglio la nostra epoca e agire con discernimento. È nel passato che troviamo gli elementi per una migliore comprensione di cosa sia la libertà e le ragioni per cui dobbiamo tenerla stretta.
 
 > Quando il passato non illumina più il futuro, lo spirito cammina nell'oscurità (Alexis de Tocqueville - _Democrazia in America_.)
 
@@ -67,7 +67,7 @@ Allo stesso tempo, Auguste Comte disse: "Non si conosce pienamente una scienza f
 
 ![image](assets/1/img-022.webp)
 
-Tuttavia, l'obiettivo di questo corso non è solo fare luce sulla storia della libertà, ma anche, e soprattutto, sviluppare un giudizio critico. Infatti, la storia da sola non è sufficiente per giudicare il presente e il futuro. Deve essere accompagnata da una riflessione critica e un giudizio sugli errori del passato. Questo è il contributo della filosofia. Ecco perché ho intitolato questo corso: una storia filosofica della libertà. Si tratta infatti di esplorare come i filosofi abbiano concepito la libertà attraverso i secoli.
+Tuttavia, l'obiettivo di questo corso non è solo fare luce sulla storia della libertà, ma anche, e soprattutto, sviluppare un giudizio critico. Infatti, la storia da sola non basta per giudicare il presente e il futuro. Deve essere accompagnata da una riflessione critica e un giudizio sugli errori del passato. Questo è il contributo della filosofia. Ecco perché ho intitolato questo corso: una storia filosofica della libertà. Si tratta infatti di esplorare come i filosofi abbiano concepito la libertà attraverso i secoli.
 
 ### Il compito della filosofia
 
@@ -79,9 +79,9 @@ Fin dalle sue origini, ha uno scopo duplice:
 
 La libertà è un concetto che copre una moltitudine di varianti, che sono tante possibili declinazioni della stessa realtà: libertà politica, libertà economica, libertà di coscienza, di parola, libertà religiosa, libertà di associazione, ecc. Di quale realtà stiamo parlando? 
 
-La libertà può essere semplicemente definita come il potere di scelta, con ciò che appartiene a sé stessi. È una facoltà intrinseca dell'essere umano. È una realtà essenzialmente individuale. Solo l'individuo può pensare e agire, ovvero fare scelte. Questo non significa che l'individuo sia solo, che non debba nulla agli altri. Al contrario, vive in società e deve cooperare con gli altri per il proprio bene. Ma ognuno rimane libero di cooperare o meno e deve assumersi la responsabilità delle proprie scelte.
+La libertà può essere definita come la capacità di prendere decisioni in merito ai propri affari. È una facoltà intrinseca dell'essere umano. È una realtà essenzialmente individuale. Solo l'individuo può pensare e agire, ovvero fare scelte. Questo non significa che l'individuo sia solo, che non debba nulla agli altri. Al contrario, vive in società e deve cooperare con gli altri per il proprio bene. Ma ognuno rimane libero di cooperare o meno e deve assumersi la responsabilità delle proprie scelte.
 
-La nozione di responsabilità è correlata alla libertà perché ogni scelta ha conseguenze. La persona responsabile è quella che assume i costi delle proprie scelte e non trasferisce questo costo sugli altri. In altre parole, la libertà è esigente. È una nozione morale che implica diritti ma anche doveri verso gli altri, incluso il dovere di rispettare la loro libertà.
+La nozione di responsabilità è correlata alla libertà perché ogni scelta ha conseguenze. La persona responsabile è quella che si assume la responsabilità delle proprie scelte e non trasferisce questa responsabilità sugli altri. In altre parole, la libertà è esigente. È una nozione morale che implica diritti ma anche doveri verso gli altri, incluso il dovere di rispettare la loro libertà.
 
 - In secondo luogo, la filosofia è normativa, a differenza della storia, che è meramente descrittiva. Pertanto, la filosofia politica si distingue dalle scienze politiche. La filosofia politica è normativa, nel senso che prescrive valori e giudica le azioni umane secondo un criterio di giustizia. D'altra parte, le scienze politiche si limitano a descrivere regimi, a fare la storia delle istituzioni, senza emettere giudizi di valore.
 
@@ -89,7 +89,7 @@ La nozione di responsabilità è correlata alla libertà perché ogni scelta ha 
 
 Da questa prospettiva, esistono solo due tipi di filosofie politiche: la filosofia della libertà e la filosofia del potere.
 
-- La filosofia della libertà si basa sul diritto naturale di proprietà e afferma che l'unico scopo della legge è proteggere la proprietà privata e i contratti. Ognuno dovrebbe essere in grado di fare ciò che desidera con ciò che gli appartiene, purché non danneggi nessuno. È una filosofia che difende la libertà uguale per tutti di disporre di sé stessi e della propria proprietà sotto la condizione di responsabilità. È la filosofia del libero mercato.
+- La filosofia della libertà si basa sul diritto naturale di proprietà e afferma che l'unico scopo della legge è proteggere la proprietà privata e i contratti. Ognuno dovrebbe essere in grado di fare ciò che desidera con ciò che gli appartiene, purché non danneggi nessuno. È una filosofia che difende la libertà, che è uguale per tutti, di disporre di sé stessi e della propria proprietà sotto la condizione di responsabilità. È la filosofia del libero mercato.
 - La filosofia del potere giustifica l'autorità di certe entità collettive come lo Stato o la società nel decidere i limiti da porre al mercato e alla proprietà, e quindi alla libertà. In questo quadro, spetta alla legge organizzare l'economia, la salute, l'abitazione, la cultura, l'educazione... Questa filosofia costruttivista ha sempre avuto i suoi difensori, in nome dell'interesse collettivo, dell'uguaglianza, della protezione e del benessere.
 
 L'antagonismo tra queste due filosofie esiste in tutte le epoche. Ma possiamo illustrarlo con la filosofia dell'Illuminismo. C'è chiaramente una linea di separazione tra queste due forme di pensiero.
@@ -106,7 +106,7 @@ La seconda filosofia si trova tra autori come Rousseau, Robespierre o Kant, che 
 
 ![image](assets/1/img-026.webp)
 
-> "Chi osa intraprendere l'istituzione di un popolo," dice Rousseau, "deve sentirsi capace di cambiare, per così dire, la natura umana, di trasformare ogni individuo che, da solo, è un tutto perfetto e solitario, in parte di un tutto maggiore dal quale questo individuo riceve, in un certo senso, la sua vita e il suo essere." (_Contratto sociale_)
+> "Chi osa intraprendere l'istituzione di un popolo," dice Rousseau, "deve sentirsi capace di cambiare, per così dire, la natura umana, di trasformare ogni individuo che, da solo, è un tutto perfetto e solitario, in una parte di un tutto maggiore dal quale questo individuo riceve, in un certo senso, la sua vita e il suo essere." (_Contratto sociale_)
 
 Da questa prospettiva, la missione del legislatore è organizzare, modificare, persino abolire la proprietà se lo ritiene opportuno. Per Rousseau, la proprietà non è naturale ma convenzionale, come la società stessa. A sua volta, Robespierre stabilisce il principio che "La proprietà è il diritto di ogni cittadino di godere e disporre della porzione di beni garantita a lui dalla legge." Non esiste un diritto naturale alla proprietà; ci sono solo un numero indefinito di possibili e contingenti disposizioni.
 
@@ -114,13 +114,13 @@ Da questa prospettiva, la missione del legislatore è organizzare, modificare, p
 
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
-Quando si aprono i libri di testo, Bastiat notava, si apprende che l'umanità sarebbe condannata al nulla senza l'intervento del potere:
+Quando si aprono i libri di testo, osserva Bastiat, si scopre che l'umanità sarebbe condannata al nulla senza l'intervento del potere:
 
-> "Basta aprire, quasi a caso, un libro di filosofia, politica o storia per vedere quanto profondamente radicata nel nostro paese sia questa idea, nata dagli studi classici e madre del Socialismo, che l'umanità è una materia inerte che riceve dal potere vita, organizzazione, moralità e ricchezza; — o peggio, che l'umanità stessa tenda verso la sua degradazione e sia solo fermata su questa discesa dalla mano misteriosa del Legislatore." ([_La legge_](http://bastiat.org/fr/la_loi.html)).
+> "Basta aprire, quasi a caso, un libro di filosofia, politica o storia per vedere quanto profondamente radicata nel nostro paese sia questa idea, nata dagli studi classici e madre del Socialismo, che l'umanità è una materia inerte che riceve dal potere vita, organizzazione, moralità e ricchezza; — o peggio, che l'umanità stessa tenda verso la sua degradazione e sia solo fermata verso questa discesa dalla mano misteriosa del Legislatore." ([_La legge_](http://bastiat.org/fr/la_loi.html)).
 
 In altre parole, il pregiudizio culturale che domina la filosofia occidentale così come la storiografia è che dobbiamo tutto al potere: libertà, salute, educazione, sicurezza, prosperità. L'umanità è descritta come "materia inerte" che prende forma grazie al legislatore.
 
-Ma la realtà del potere è ben diversa secondo Bastiat. Il potere è oppressione. Scrive: "Apri a caso gli annali dell'umanità! Consulta la storia antica o moderna, sacra o profana, e chiediti da dove vengono tutte queste guerre di razza, classi, nazioni e famiglie! Riceverai sempre questa risposta invariabile: dalla sete di potere." ([_Incompatibilità Parlamentari_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
+Ma la realtà del potere è ben diversa secondo Bastiat. Il potere è oppressione. Scrive: "Apri a caso gli annali dell'umanità! Consulta la storia antica o moderna, sacra o profana, e chiediti da dove vengono tutte queste guerre di razza, classi, nazioni e famiglie! Riceverai sempre la stessa risposta: dalla sete di potere." ([_Incompatibilità Parlamentari_](http://bastiat.org/fr/incompatibilites_parlementaires.html))
 
 La sete di potere è alla radice di tutte le forme di oppressione nella storia. In una lettera a Mrs. Chevreux, datata 23 giugno 1850, Bastiat delinea le fasi dell'oppressione: "Tempi di lotta per stabilire chi si impadronirà dello Stato; e tempi di tregua che saranno il regno effimero dell'oppressione trionfante, foriero di una nuova lotta."
 
@@ -144,11 +144,11 @@ La depredazione illegale è il furto o il crimine commesso da un cittadino contr
 
 Bastiat ci dice che esistono ancora due forme di depredazione legale:
 
-> La depredazione esterna si chiama guerra, conquiste, colonie. La depredazione interna si chiama tasse, posizioni, monopoli. ([_Cobden e la Lega_](http://bastiat.org/fr/introduction_cobden_ligue.html), Introduzione).
+> La depredazione esterna si chiama guerra, conquiste, colonie. La depredazione interna si chiama tasse, imposizioni, monopoli. ([_Cobden e la Lega_](http://bastiat.org/fr/introduction_cobden_ligue.html), Introduzione).
 
 In [_La Fisiologia della depredazione_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), egli scrive:
 
-> La vera ed equa legge degli uomini è: scambio di servizi per servizi liberamente dibattuti. Il saccheggio consiste nel vietare con la forza o con l'inganno la libertà di dibattito al fine di ricevere un servizio senza renderne uno. Il saccheggio con la forza si esercita come segue: si attende che un uomo produca qualcosa, poi gliela si strappa di mano con l'uso della forza. È formalmente condannato dal Decalogo: Non rubare. Quando avviene da individuo a individuo, si chiama furto e porta in prigione; quando è da nazione a nazione, si chiama conquista e porta alla gloria.
+> La vera ed equa legge degli uomini è: scambio di servizi per servizi liberamente contrattati. Il saccheggio consiste nel vietare con la forza o con l'inganno la libertà di contrattare al fine di ricevere un servizio senza renderne uno. Il saccheggio con la forza si esercita come segue: si attende che un uomo produca qualcosa, poi gliela si strappa di mano con l'uso della forza. È formalmente condannato dal Decalogo: Non rubare. Quando avviene da individuo a individuo, si chiama furto e porta in prigione; quando è da nazione a nazione, si chiama conquista e porta alla gloria.
 
 ### Storia del saccheggio
 
@@ -174,8 +174,8 @@ Come è noto, la storia è scritta dai vincitori. L'attenzione è spesso focaliz
 
 ![image](assets/1/img-023.webp)
 
-Questo è particolarmente vero per i libri di testo destinati alle scuole pubbliche e scritti da professori impiegati dallo Stato.
-Questo non vale per un'opera in due volumi scritta da uno storico di Cambridge nel XIX secolo, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Il suo nome completo è John Emerich Edward Dalberg, Barone di Acton (1834-1902). È l'autore di _Storia della libertà nell'antichità e nel Cristianesimo_. La sua opera è considerata una delle più importanti sull'argomento, e vi ha dedicato gran parte della sua carriera. Sebbene incompiuta, la sua opera è un potente monito contro i pericoli dell'abuso di potere, e la sua difesa della libertà e della responsabilità individuale rimane attuale ancora oggi.
+Questo è particolarmente vero per i libri di testo destinati alle scuole pubbliche e scritti dai professori che sono impiegati Statali.
+Questo non vale per quanto scritto in un'opera di due volumi redatta da uno storico di Cambridge nel XIX secolo, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Il suo nome completo è John Emerich Edward Dalberg, Barone di Acton (1834-1902). È l'autore di _Storia della libertà nell'antichità e nel Cristianesimo_. La sua opera è considerata una delle più importanti sull'argomento, e vi ha dedicato gran parte della sua carriera. Sebbene incompiuta, la sua opera è un potente monito contro i pericoli dell'abuso di potere, e la sua difesa della libertà e della responsabilità individuale rimane attuale ancora oggi.
 
 Questo autore è meglio conosciuto per il suo aforisma: "Il potere tende a corrompere, e il potere assoluto corrompe assolutamente." Una formula che fa eco a quella di Montesquieu ne [_Lo spirito delle leggi_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316):
 
@@ -197,15 +197,15 @@ Friedrich Hayek aveva inizialmente considerato di chiamare la Società Mont Pele
 
 ### Voltaire e Condorcet
 
-Ma l'idea che la libertà in Europa sia nata da lotte interne tra vari pretendenti al potere, impedendo l'instaurazione di un dominio assoluto, non è unica di Acton. Si può già trovare in pensatori come Voltaire e Condorcet.
+L'idea che la libertà in Europa sia nata da lotte interne tra vari pretendenti al potere, impedendo l'instaurazione di un dominio assoluto, non è unica di Acton. Si può già trovare in filosofi come Voltaire e Condorcet.
 
-Così, Voltaire, nelle sue [_Lettere filosofiche_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribuisce la libertà inglese ai conflitti tra re e nobili che hanno impedito qualsiasi eccessiva concentrazione di potere. E nota:
+Per questo motivo, Voltaire, nelle sue [_Lettere filosofiche_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6), attribuisce la libertà del popolo inglese ai conflitti tra re e nobili che hanno impedito qualsiasi eccessiva concentrazione di potere. E osserva:
 
 > Se ci fosse solo una religione in Inghilterra, il suo dispotismo sarebbe da temere; se ce ne fossero solo due, si taglierebbero la gola a vicenda; ma ce ne sono trenta, e vivono in pace e felicità. ([Sui presbiteriani](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
 
 ![immagine](assets/1/img-105.webp)
 
-Condorcet, nel suo [_Abbozzo di un quadro storico dei progressi dello spirito umano_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), attribuisce la struttura di potere decentrata in Italia alla rivalità tra il papa e l'imperatore, che ha permesso a molte città-stato indipendenti di sopravvivere.
+Condorcet, nel suo [_Abbozzo di un quadro storico dei progressi dello spirito umano_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain), attribuisce la struttura di potere decentrata in Italia alla rivalità tra il papa e l'imperatore, che ha permesso a molte città-Stato indipendenti di sopravvivere.
 
 Questa tesi si ritrova anche in un'opera monumentale datata 1983: _Diritto e rivoluzione: La formazione della tradizione giuridica occidentale_, di Harold J. Berman ([traduzione francese di Raoul Audouin](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), pubblicata dalla Libreria dell'Università di Aix en Provence nel 2002). L'analisi di Berman evidenzia il ruolo cruciale del pluralismo giuridico nella storia dell'Occidente. Questo sistema, lungi dall'essere una mera fonte di complessità, è stato un motore di sviluppo, libertà e innovazione, plasmando in modo duraturo le tradizioni giuridiche occidentali.
 
@@ -219,13 +219,13 @@ Esiste tuttavia un'altra prospettiva sulla storia. Questa ha avuto un notevole s
 
 Spiega la straordinaria crescita dell'Europa principalmente attraverso il progresso tecnologico combinato con l'"accumulazione primitiva" di capitale, derivante dall'imperialismo, dalla schiavitù, dal commercio triangolare, dall'espropriazione dei piccoli contadini e dallo dfruttamento della classe operaia. La conclusione è chiara. Questa eccezionale crescita europea è stata ottenuta a spese di milioni e milioni di schiavi e individui oppressi.
 
-Inizialmente, Marx ha ragione su una cosa: la storia è la storia delle lotte di classe e dello sfruttamento. La citazione è ben nota, è la prima frase del primo capitolo del [_Manifesto del partito comunista_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "La storia di ogni società esistente fino ad oggi è la storia delle lotte di classe." Lo stesso Marx ha riconosciuto di aver preso in prestito la sua teoria della lotta di classe da autori precedenti:
+Marx ha certamente ragione su una cosa: la storia è la storia delle lotte di classe e dello sfruttamento. La citazione è ben nota, è la prima frase del primo capitolo del [_Manifesto del partito comunista_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "La storia di ogni società esistente fino ad oggi è la storia delle lotte di classe." Lo stesso Marx ha riconosciuto di aver preso in prestito la sua teoria della lotta di classe da autori precedenti:
 
 > Non mi attribuisco il merito di aver scoperto le classi e le lotte di classe nella società moderna. Ben prima di me, storici borghesi avevano descritto lo sviluppo storico di questa lotta di classe ed economisti borghesi l'anatomia economica delle classi.
 >
 > (_Lettera a J. Weydemeyer_, 5 marzo 1852).
 
-Ma si sbaglia su un punto fondamentale riguardo alla classe operaia: non è il capitale che produce lo sfruttamento. In altre parole, la lotta di classe non si svolge all'interno della produzione, ma tra chi paga le tasse e chi le riscuote.
+Tuttavia, Marx si sbaglia su un punto fondamentale che riguarda la classe operaia: non è il capitale che produce lo sfruttamento. In altre parole, la lotta di classe non si svolge all'interno della produzione, ma tra chi paga le tasse e chi le riscuote.
 
 Secondo Marx, lo sfruttamento è un processo che consiste nell'estrarre una parte del valore creato dal lavoratore senza pagarlo, il che permette ai capitalisti di realizzare un profitto. In altre parole, lo sfruttamento sarebbe un meccanismo che permette ai capitalisti di arricchirsi rubando il lavoro del proletariato.
 Questa analisi riflette un'incomprensione del valore aggiunto e della natura cooperativa e dinamica della vita economica. Infatti, il profitto che l'imprenditore riceve è una compensazione per il rischio che assume più il lavoro svolto dal lavoratore o dall'impiegato che non sono schiavi. In una situazione competitiva, possono accettare o rifiutare un contratto con il loro datore di lavoro. Fanno una scelta che riflette un'analisi costi-benefici.
@@ -240,13 +240,13 @@ Mises spiega che i lavori nelle fabbriche, sebbene miserabili secondo i nostri s
 
 Leggiamo un estratto da _Azione umana_:
 
-> Nei primi decenni della rivoluzione industriale, il tenore di vita degli operai in fabbrica era scandalosamente basso rispetto alle condizioni dei loro contemporanei appartenenti alle classi superiori e alla situazione attuale delle masse industriali. Le ore di lavoro erano lunghe, le condizioni igieniche dei laboratori deplorevoli. La capacità lavorativa degli individui si esauriva rapidamente. Ma resta il fatto che per la popolazione in eccesso, l'appropriazione dei pascoli comunali (recinti) li aveva ridotti alla peggiore miseria. Per coloro che non trovavano posto nel sistema produttivo dominante, il lavoro in fabbrica rappresentava la salvezza. Queste persone accorrevano in massa nelle officine solo perché avevano bisogno di migliorare il proprio tenore di vita.
+> Nei primi decenni della rivoluzione industriale, il tenore di vita degli operai in fabbrica era scandalosamente basso rispetto alle condizioni dei loro contemporanei appartenenti alle classi superiori e alla situazione attuale delle masse industriali. Le ore di lavoro erano lunghe, le condizioni igieniche dei lavoratori deplorevoli. La capacità lavorativa degli individui si esauriva rapidamente. Ma resta il fatto che per la popolazione in eccesso, l'appropriazione dei pascoli comunali (recinti) li aveva ridotti ad una miseria ancora peggiore. Per coloro che non trovavano posto nel sistema produttivo dominante, il lavoro in fabbrica rappresentava la salvezza. Queste persone accorrevano in massa nelle officine solo perché avevano bisogno di migliorare il proprio tenore di vita.
 
 Mises aggiunge che il miglioramento della condizione umana è stato reso possibile dall'accumulo di capitale:
 
-> Il radicale cambiamento di situazione che ha conferito alle masse occidentali l'attuale tenore di vita (un alto tenore di vita, in effetti, rispetto a quello che era nei tempi pre-capitalistici, e a quello che è nella Russia sovietica) è stato l'effetto dell'accumulazione di capitale attraverso il risparmio e l'investimento saggio da parte di imprenditori lungimiranti. Nessun miglioramento tecnologico sarebbe stato raggiungibile se i capitali richiesti per l'uso pratico delle nuove invenzioni non fossero stati realizzati dal risparmio preventivo.
+> Il radicale cambiamento di situazione che ha conferito alle masse occidentali l'attuale tenore di vita (un alto tenore di vita, in effetti, rispetto a quello che era nei tempi pre-capitalistici, e a quello nella Russia sovietica) è stato l'effetto dell'accumulazione di capitale attraverso il risparmio e l'investimento saggio da parte di imprenditori lungimiranti. Nessun miglioramento tecnologico sarebbe stato raggiungibile se i capitali richiesti per l'uso pratico delle nuove invenzioni non fossero stati realizzati dal risparmio preventivo.
 
-Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Il capitalismo e gli storici_ (University of Chicago Press, 1954) e al suo capitolo intitolato "Storia e politici". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come la leggenda nera del capitalismo propagata dal marxismo sostiene. Egli nota:
+Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Il capitalismo e gli storici_ (University of Chicago Press, 1954) e al suo capitolo intitolato "Storia e politici". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come la leggenda nera del capitalismo propagata dal marxismo sostiene. Egli afferma:
 
 > La vera storia della connessione tra capitalismo e l'ascesa del proletariato è quasi l'opposto di quello che queste teorie dell'espropriazione delle masse suggeriscono.
 > Prima della Rivoluzione Industriale, la maggior parte delle persone viveva in società rurali e dipendeva dall'agricoltura per la propria sopravvivenza. Avevano poco da vendere sul mercato, il che limitava le loro opportunità e il loro tenore di vita. Tutti si aspettavano di vivere in assoluta povertà e immaginavano un destino simile per i loro discendenti. Nessuno si indignava per una situazione che sembrava inevitabile.
@@ -259,7 +259,7 @@ Ecco come, osserva Hayek, "la sofferenza economica divenne più visibile e meno 
 
 Pertanto, il lavoratore non era sfruttato, anche se i salari erano bassi, a causa dell'abbondanza di manodopera in fuga dalle campagne.
 
-In realtà, lo sfruttamento ha senso solo come aggressione contro la proprietà privata. In questo senso, lo sfruttamento è sempre attuato dallo Stato. Poiché lo Stato è l'unica istituzione che ottiene le sue entrate attraverso la coercizione, cioè con la forza. Così, il vero sfruttamento, come abbiamo visto con Bastiat, è quello delle classi produttive da parte della classe dei funzionari statali. Sarebbe più accurato dire che la storia di tutta la società fino ai nostri giorni non è altro che la storia della lotta tra predatori e classi produttive.
+In realtà, lo sfruttamento ha senso solo come aggressione alla proprietà privata. In questo senso, lo sfruttamento è sempre opera dello Stato. Lo Stato è l'unica istituzione che ottiene i propri proventi attraverso la coercizione, cioè con la forza. Pertanto, il vero sfruttamento, come abbiamo visto con Bastiat, è quello delle classi produttive da parte degli stessi funzionari statali. Sarebbe più corretto affermare che la storia di tutte le società fino ai nostri giorni non è altro che la storia della lotta tra saccheggiatori e classi produttive.
 
 ### Il "miracolo europeo"
 

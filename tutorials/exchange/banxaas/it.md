@@ -77,8 +77,7 @@ La piattaforma web di Banxaas è minimalista e intuitiva, consente di completare
 
 
 
-Banxaas copre l'intero territorio senegalese con i due principali operatori di telefonia mobile. Con l'aiuto del loro gestore di pagamenti (DexchangePay), la piattaforma supporta principalmente :
-
+Banxaas copre l'intero territorio senegalese con i due principali operatori di telefonia mobile. Con l'aiuto del loro gestore di pagamenti (DexchangePay), la piattaforma supporta principalmente:
 
 
 
@@ -96,7 +95,7 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
-Banxaas consente di verificare l'accuratezza della ricezione Bitcoin Address cliccando sul pulsante **Valida destinazione**.
+Banxaas consente di verificare l'accuratezza della ricezione Bitcoin Address cliccando sul pulsante **Valider la destination** **(Valida la destinazione)**.
 
 
 
@@ -104,7 +103,7 @@ Banxaas consente di verificare l'accuratezza della ricezione Bitcoin Address cli
 
 
 
-Conferma la transazione cliccando sul pulsante **Troc** per acquistare Bitcoin con i tuoi franchi CFA.
+Conferma la transazione cliccando sul pulsante **Troc** **(scambio)** per acquistare Bitcoin con i tuoi franchi CFA.
 
 
 
@@ -129,7 +128,7 @@ Banxaas permette di convertire i bitcoin in franchi CFA e di riceverli su due op
 
 
 
-Clicca sul pulsante **Troc** per pagare l’Invoice Lightning che verrà generata e ricevere l'importo equivalente sul proprio Mobile Money.
+Clicca sul pulsante **Troc** **(scambio)** per pagare l’Invoice Lightning che verrà generata e ricevere l'importo equivalente sul proprio Mobile Money.
 
 
 
@@ -147,7 +146,7 @@ Più che una semplice piattaforma di conversione, Banxaas è un servizio che con
 La trasparenza è un pilastro importante per Banxaas, per ridurre al minimo la censura e permettere agli utenti di giudicarne la sua affidabilità.
 
 
-Nel menu Transazioni è possibile visualizzare le transazioni recenti senza avere accesso alle informazioni dell'utente: Banxaas chiede solo il numero di telefono o il Lightning Address. Ogni transazione è unica e identificata da un UUID (Universal Unique Identifier).
+Nel menu **Transactions** **(Transazioni)** è possibile visualizzare le transazioni recenti senza avere accesso alle informazioni dell'utente: Banxaas chiede solo il numero di telefono o il Lightning Address. Ogni transazione è unica e identificata da un UUID (Universal Unique Identifier).
 
 
 
@@ -159,7 +158,7 @@ Nel menu Transazioni è possibile visualizzare le transazioni recenti senza aver
 
 
 
-E non finisce qui. È anche possibile consultare, nel menu **Tesoreria**, la posizione di cassa in Franchi CFA (con gli aggregatori di pagamento) e il saldo del portafoglio Bitcoin utilizzato da Banxaas. Questo approccio è una novità assoluta nella subregione dell'Africa occidentale e consente agli utenti di valutare lo stato delle finanze nella piattaforma.
+E non finisce qui. È anche possibile consultare, nel menu **Trésorerie** **(Tesoreria)**, la posizione di cassa in Franchi CFA (con gli aggregatori di pagamento) e il saldo del portafoglio Bitcoin utilizzato da Banxaas. Questo approccio è una novità assoluta nella subregione dell'Africa occidentale e consente agli utenti di valutare lo stato delle finanze nella piattaforma.
 
 
 

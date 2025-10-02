@@ -22,77 +22,77 @@ proofreading:
     urgency: 1
     contributor_names:
       - man-orangepeel
-    reward: 1.1
+    reward: 1.09
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.88
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 2.18
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 2.18
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 2.18
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.88
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.88
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.88
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.98
+    reward: 4.96
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 3.57
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 2.18
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.28
+    reward: 4.27
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.88
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.88
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.19
+    reward: 2.18
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -132,7 +132,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.89
+    reward: 2.88
   - language: tr
     last_contribution_date:
     urgency: 1

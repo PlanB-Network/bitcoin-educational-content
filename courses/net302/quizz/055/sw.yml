@@ -6,4 +6,4 @@ wrong_answers:
   - onyesho la njia ya ip
 explanation: |
   amri ya "ip addr show" huorodhesha violesura vyote vya mtandao, pamoja na hali zao, anwani, na vigezo vinavyohusiana.
-reviewed: false
+reviewed: true

@@ -196,7 +196,7 @@ Bisq 2 consente di creare più identità. Ogni identità può essere utilizzata 
 
 ![Récapitulatif et publication](assets/fr/22.webp)
 
-Una volta avviato lo scambio :
+Una volta avviato lo scambio:
 
 
 - Inviate al venditore il vostro indirizzo Bitcoin o la vostra fattura Lightning
@@ -262,7 +262,7 @@ Dopo la notifica del pagamento :
    - Inviare bitcoin all'indirizzo fornito
    - Contrassegnare la transazione come completata
 
-Finalizzazione :
+Finalizzazione:
 
 
    - Attendere la conferma dell'acquirente
@@ -337,7 +337,7 @@ Per migliorare la vostra reputazione di venditore su Bisq, conducete transazioni
 ### Bisq 2 svantaggi
 
 
-- **Liquidità limitata** (per il momento) :
+- **Liquidità limitata** (per il momento):
  - Nuovo protocollo in fase di avvio
  - Poche offerte di vendita disponibili
  - Tempi di attesa potenzialmente lunghi per trovare un acquirente

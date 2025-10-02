@@ -19,7 +19,7 @@ Sur le plan technique, le Seedkeeper offre une capacité de 8192 octets, ce qui 
 
 Une fonctionnalité particulièrement intéressante est la possibilité de dupliquer le contenu d’un Seedkeeper vers un autre afin de créer une sauvegarde. Nous allons voir dans ce tutoriel comment faire cette manipulation.
 
-Le SeedKeeper est également très intéressant lorsqu’il est associé à un hardware wallet stateless comme le SeedSigner ou le Specter DIY. Dans ce cas, il n’est pas nécessaire d’utiliser le client de Satochip sur ordinateur ou mobile. Le Seedkeeper conserve la seed dans son élément sécurisé et peut être utilisé directement avec le périphérique de signature, ce qui évite d’avoir recours à un QR code papier. Je ne développerai pas ce cas d’usage particulier dans ce tutoriel, puisqu’il fait l’objet d’un autre tutoriel dédié :
+Le Seedkeeper est également très intéressant lorsqu’il est associé à un hardware wallet stateless comme le SeedSigner ou le Specter DIY. Dans ce cas, il n’est pas nécessaire d’utiliser le client de Satochip sur ordinateur ou mobile. Le Seedkeeper conserve la seed dans son élément sécurisé et peut être utilisé directement avec le périphérique de signature, ce qui évite d’avoir recours à un QR code papier. Je ne développerai pas ce cas d’usage particulier dans ce tutoriel, puisqu’il fait l’objet d’un autre tutoriel dédié :
 
 https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
@@ -31,9 +31,9 @@ Comparé à une simple sauvegarde papier de la phrase mnémonique, l’utilisati
 
 - **Résistance au vol :** la seed de votre portefeuille n’est pas accessible en clair. Pour l’extraire, il faut connaître le PIN du Seedkeeper. Un voleur qui s’emparerait de l’appareil ne pourra rien en faire sans ce code.
 
-- **Diffusion du risque sur deux facteurs :** vous pouvez répartir la sécurité entre un facteur numérique et un facteur physique. Par exemple, si vous stockez le PIN du SeedKeeper dans votre gestionnaire de mots de passe, il faudra à la fois accéder à ce gestionnaire et posséder la smartcard physiquement pour obtenir la seed (une probabilité d’attaque nettement réduite).
+- **Diffusion du risque sur deux facteurs :** vous pouvez répartir la sécurité entre un facteur numérique et un facteur physique. Par exemple, si vous stockez le PIN du Seedkeeper dans votre gestionnaire de mots de passe, il faudra à la fois accéder à ce gestionnaire et posséder la smartcard physiquement pour obtenir la seed (une probabilité d’attaque nettement réduite).
 
-- **Gestion centralisée :** le SeedKeeper facilite la gestion de plusieurs seeds de différents portefeuilles.
+- **Gestion centralisée :** le Seedkeeper facilite la gestion de plusieurs seeds de différents portefeuilles.
 
 - **Sauvegardes faciles :** il permet de dupliquer simplement des sauvegardes chiffrées vers d’autres SeedKeepers.
 
@@ -41,23 +41,23 @@ Cependant, certains inconvénients méritent d’être soulignés par rapport à
 
 - **Le prix :** bien que modeste (environ 25 €), il reste supérieur à celui d’une feuille de papier.
 
-- **La dépendance à un appareil informatique généraliste :** la saisie et la gestion de la seed nécessitent un ordinateur ou un smartphone, ce qui implique que votre phrase mnémonique transite par une machine avec une surface d’attaque bien plus large qu’un hardware wallet. Cela peut représenter un risque en cas de compromission du poste. C’est pourquoi je déconseille l’usage du SeedKeeper pour stocker la seed d’un hardware wallet (sauf dans un usage stateless sans ordinateur, comme avec le SeedSigner). Le rôle du hardware wallet est précisément de conserver la seed dans un environnement minimaliste et hautement sécurisé. En saisissant manuellement votre seed sur votre ordinateur habituel, elle n’est plus confinée au hardware wallet : elle se retrouve également sur une machine généraliste, exposée à de multiples vecteurs d’attaque. Il vaut donc mieux utiliser le Seedkeeper pour un portefeuille chaud plutôt que pour un portefeuille froid (sauf SeedSigner / stateless hardware wallet).
+- **La dépendance à un appareil informatique généraliste :** la saisie et la gestion de la seed nécessitent un ordinateur ou un smartphone, ce qui implique que votre phrase mnémonique transite par une machine avec une surface d’attaque bien plus large qu’un hardware wallet. Cela peut représenter un risque en cas de compromission du poste. C’est pourquoi je déconseille l’usage du Seedkeeper pour stocker la seed d’un hardware wallet (sauf dans un usage stateless sans ordinateur, comme avec le SeedSigner). Le rôle du hardware wallet est précisément de conserver la seed dans un environnement minimaliste et hautement sécurisé. En saisissant manuellement votre seed sur votre ordinateur habituel, elle n’est plus confinée au hardware wallet : elle se retrouve également sur une machine généraliste, exposée à de multiples vecteurs d’attaque. Il vaut donc mieux utiliser le Seedkeeper pour un portefeuille chaud plutôt que pour un portefeuille froid (sauf SeedSigner / stateless hardware wallet).
 
 - **Le risque de perte lié au PIN :** l’inaccessibilité directe de la seed, contrairement à une sauvegarde papier, constitue effectivement une protection face aux vols physiques. Mais comme toujours, la sécurité repose sur un équilibre entre risque de vol et risque de perte. Si votre sauvegarde nécessite un PIN, la perte de ce code rendra impossible la récupération de votre phrase mnémonique, et donc l’accès à vos bitcoins.
 
-Au regard de ces avantages et inconvénients, je considère que les meilleures utilisations du SeedKeeper (en dehors de sa fonction de gestionnaire de mots de passe) sont, d’une part, le stockage des seeds de vos **portefeuilles logiciels**, puisqu’elles résident déjà sur votre téléphone ou votre ordinateur, ou bien de vos hardware wallet sans écran comme le Satochip, et d’autre part, l’usage en combinaison avec un hardware wallet stateless comme le SeedSigner, où il prend tout son sens.
+Au regard de ces avantages et inconvénients, je considère que les meilleures utilisations du Seedkeeper (en dehors de sa fonction de gestionnaire de mots de passe) sont, d’une part, le stockage des seeds de vos **portefeuilles logiciels**, puisqu’elles résident déjà sur votre téléphone ou votre ordinateur, ou bien de vos hardware wallet sans écran comme le Satochip, et d’autre part, l’usage en combinaison avec un hardware wallet stateless comme le SeedSigner, où il prend tout son sens.
 
-Un autre cas d’utilisation particulièrement intéressant du SeedKeeper est la possibilité de sauvegarder de façon sécurisée et fiable les *Descriptors* de vos portefeuilles.
+Un autre cas d’utilisation particulièrement intéressant du Seedkeeper est la possibilité de sauvegarder de façon sécurisée et fiable les *Descriptors* de vos portefeuilles.
 
 ## 2. Comment obtenir un Seedkeeper ?
 
-Il existe principalement deux façons d’obtenir votre SeedKeeper. Vous pouvez l’[acheter directement sur la boutique officielle](https://satochip.io/product/seedkeeper/) de Satochip ou auprès d’un revendeur agréé. Mais puisque [l’applet du SeedKeeper est open-source](https://github.com/Toporin/Seedkeeper-Applet), vous avez également la possibilité de l’installer vous-même sur [une carte à puce vierge](https://satochip.io/product/blank-javacard-for-diy-project/).
+Il existe principalement deux façons d’obtenir votre Seedkeeper. Vous pouvez l’[acheter directement sur la boutique officielle](https://satochip.io/product/seedkeeper/) de Satochip ou auprès d’un revendeur agréé. Mais puisque [l’applet du Seedkeeper est open-source](https://github.com/Toporin/Seedkeeper-Applet), vous avez également la possibilité de l’installer vous-même sur [une carte à puce vierge](https://satochip.io/product/blank-javacard-for-diy-project/).
 
-Si vous souhaitez utiliser la fonctionnalité de sauvegarde du SeedKeeper, il vous faudra évidemment acquérir deux smartcards.
+Si vous souhaitez utiliser la fonctionnalité de sauvegarde du Seedkeeper, il vous faudra évidemment acquérir deux smartcards.
 
 ## 3. Installer le client Seedkeeper
 
-Dans ce tutoriel, nous allons sauvegarder la seed de notre portefeuille sur notre SeedKeeper. La première étape consiste à installer le logiciel sur votre ordinateur ou votre smartphone. Sur PC, vous devrez [télécharger la dernière version de Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). Sur mobile, l’application SeedKeeper est disponible sur le [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) ainsi que sur l’[App Store Apple](https://apps.apple.com/be/app/seedkeeper/id6502836060).
+Dans ce tutoriel, nous allons sauvegarder la seed de notre portefeuille sur notre Seedkeeper. La première étape consiste à installer le logiciel sur votre ordinateur ou votre smartphone. Sur PC, vous devrez [télécharger la dernière version de Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). Sur mobile, l’application Seedkeeper est disponible sur le [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) ainsi que sur l’[App Store Apple](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
 02
 
@@ -67,13 +67,13 @@ Lancez l’application et cliquez sur le bouton "Click & Scan".
 
 03
 
-Un code PIN vous est demandé pour votre SeedKeeper. Comme il s’agit d’une nouvelle carte, aucun PIN n’a encore été défini. Entrez donc un code quelconque pour passer cette étape, puis cliquez sur "Suivant".
+Un code PIN vous est demandé pour votre Seedkeeper. Comme il s’agit d’une nouvelle carte, aucun PIN n’a encore été défini. Entrez donc un code quelconque pour passer cette étape, puis cliquez sur "Suivant".
 
 04
 
-Placez ensuite la carte à l’arrière de votre smartphone. L’application détectera que le SeedKeeper n’est pas encore initialisé et vous invitera à définir le code PIN de votre carte à puce, compris entre 4 et 16 caractères. Pour une sécurité optimale, choisissez un mot de passe robuste, le plus long possible, aléatoire et composé d’une grande diversité de caractères. Ce code PIN constitue la seule barrière de protection contre un accès physique à votre phrase de récupération.
+Placez ensuite la carte à l’arrière de votre smartphone. L’application détectera que le Seedkeeper n’est pas encore initialisé et vous invitera à définir le code PIN de votre carte à puce, compris entre 4 et 16 caractères. Pour une sécurité optimale, choisissez un mot de passe robuste, le plus long possible, aléatoire et composé d’une grande diversité de caractères. Ce code PIN constitue la seule barrière de protection contre un accès physique à votre phrase de récupération.
 
-**Pensez également à sauvegarder ce code PIN dès maintenant**, par exemple dans un gestionnaire de mots de passe, ou bien sur un support physique distinct. Dans ce dernier cas, ne conservez jamais le support contenant le PIN au même endroit que votre SeedKeeper, sans quoi cette sécurité deviendrait inutile. Il est important de disposer d’une sauvegarde fiable : sans ce code PIN, il vous sera impossible de récupérer les secrets enregistrés sur votre SeedKeeper.
+**Pensez également à sauvegarder ce code PIN dès maintenant**, par exemple dans un gestionnaire de mots de passe, ou bien sur un support physique distinct. Dans ce dernier cas, ne conservez jamais le support contenant le PIN au même endroit que votre Seedkeeper, sans quoi cette sécurité deviendrait inutile. Il est important de disposer d’une sauvegarde fiable : sans ce code PIN, il vous sera impossible de récupérer les secrets enregistrés sur votre Seedkeeper.
 
 05
 
@@ -81,7 +81,7 @@ Confirmez votre code PIN une seconde fois.
 
 06
 
-Votre SeedKeeper est désormais initialisé. Vous pouvez le déverrouiller en entrant le code PIN que vous venez de définir.
+Votre Seedkeeper est désormais initialisé. Vous pouvez le déverrouiller en entrant le code PIN que vous venez de définir.
 
 07
 
@@ -91,7 +91,7 @@ Vous accédez maintenant à la page de gestion de votre carte à puce.
 
 ## 5. Enregistrer une seed sur le Seedkeeper
 
-Une fois votre SeedKeeper déverrouillé, cliquez sur le bouton "+".
+Une fois votre Seedkeeper déverrouillé, cliquez sur le bouton "+".
 
 09
 
@@ -103,7 +103,7 @@ Dans notre cas, nous voulons sauvegarder la seed de notre portefeuille. Cliquez 
 
 11
 
-Attribuez un "Label" à ce secret afin de l’identifier facilement si vous enregistrez plusieurs informations dans votre SeedKeeper.
+Attribuez un "Label" à ce secret afin de l’identifier facilement si vous enregistrez plusieurs informations dans votre Seedkeeper.
 
 12
 
@@ -113,7 +113,7 @@ Saisissez ensuite votre phrase de récupération dans le champ prévu à cet eff
 
 *La phrase mnémonique affichée sur cette image est fictive, elle n’appartient à personne. Il s’agit uniquement d’un exemple. Ne révélez jamais votre propre phrase à quiconque, sous peine de vous faire voler vos bitcoins.*
 
-Placez votre SeedKeeper à l’arrière de votre smartphone.
+Placez votre Seedkeeper à l’arrière de votre smartphone.
 
 14
 
@@ -123,7 +123,7 @@ Votre seed a bien été enregistrée.
 
 ## 6. Accéder à votre seed sur le Seedkeeper
 
-Si vous souhaitez consulter votre phrase mnémonique, prenez votre SeedKeeper et cliquez sur le bouton "Click & Scan".
+Si vous souhaitez consulter votre phrase mnémonique, prenez votre Seedkeeper et cliquez sur le bouton "Click & Scan".
 
 16
 
@@ -131,7 +131,7 @@ Saisissez votre code PIN puis appuyez sur "Suivant".
 
 17
 
-Placez votre SeedKeeper à l’arrière du smartphone.
+Placez votre Seedkeeper à l’arrière du smartphone.
 
 18
 
@@ -143,7 +143,7 @@ Appuyez sur le bouton "Révéler".
 
 20
 
-Scannez de nouveau votre SeedKeeper.
+Scannez de nouveau votre Seedkeeper.
 
 21
 
@@ -153,13 +153,13 @@ Votre phrase mnémonique précédemment enregistrée s’affiche désormais à l
 
 ## 7. Faire une sauvegarde du Seedkeeper
 
-Nous allons maintenant réaliser une sauvegarde de mon SeedKeeper sur un second SeedKeeper afin d’en avoir deux exemplaires. Cette redondance peut faire partie d’une stratégie de sécurisation de vos bitcoins : par exemple, stocker votre phrase à deux endroits distincts pour limiter les risques physiques, ou encore en confier une copie à un proche de confiance dans le cadre d’un plan d’héritage.
+Nous allons maintenant réaliser une sauvegarde de mon Seedkeeper sur un second Seedkeeper afin d’en avoir deux exemplaires. Cette redondance peut faire partie d’une stratégie de sécurisation de vos bitcoins : par exemple, stocker votre phrase à deux endroits distincts pour limiter les risques physiques, ou encore en confier une copie à un proche de confiance dans le cadre d’un plan d’héritage.
 
-Pour cela, munissez-vous de votre second SeedKeeper (pensez à identifier l’un des deux avec une marque dessus pour éviter toute confusion). Commencez par l’initialiser en reproduisant le processus de l’étape 4 de ce tutoriel. Choisissez une nouvelle fois un mot de passe fort. Selon votre stratégie, vous pouvez opter pour un mot de passe différent ou conserver le même.
+Pour cela, munissez-vous de votre second Seedkeeper (pensez à identifier l’un des deux avec une marque dessus pour éviter toute confusion). Commencez par l’initialiser en reproduisant le processus de l’étape 4 de ce tutoriel. Choisissez une nouvelle fois un mot de passe fort. Selon votre stratégie, vous pouvez opter pour un mot de passe différent ou conserver le même.
 
 23
 
-Ouvrez l’application, cliquez sur "Click & Scan", saisissez le mot de passe de votre SeedKeeper n°1 (source), puis scannez-le.
+Ouvrez l’application, cliquez sur "Click & Scan", saisissez le mot de passe de votre Seedkeeper n°1 (source), puis scannez-le.
 
 24
 
@@ -171,7 +171,7 @@ Sélectionnez "Faire une sauvegarde", puis appuyez sur "Start".
 
 26
 
-Saisissez le code PIN de votre carte de sauvegarde (SeedKeeper n°2).
+Saisissez le code PIN de votre carte de sauvegarde (Seedkeeper n°2).
 
 27
 
@@ -179,22 +179,23 @@ Scannez ensuite cette carte.
 
 28
 
-Faites de même avec la carte principale (SeedKeeper n°1), puis cliquez sur "Faire une sauvegarde".
+Faites de même avec la carte principale (Seedkeeper n°1), puis cliquez sur "Faire une sauvegarde".
 
 29
 
-Votre SeedKeeper n°2 contient désormais l’intégralité des secrets enregistrés sur le SeedKeeper n°1.
+Votre Seedkeeper n°2 contient désormais l’intégralité des secrets enregistrés sur le Seedkeeper n°1.
 
 30
 
-Vous pouvez scanner votre SeedKeeper n°2 pour vérifier que les secrets ont bien été copiés.
+Vous pouvez scanner votre Seedkeeper n°2 pour vérifier que les secrets ont bien été copiés.
 
 31
 
-Voilà ! Vous savez désormais comment utiliser le SeedKeeper pour sauvegarder la phrase mnémonique d’un portefeuille Bitcoin. Dans un prochain tutoriel, nous verrons comment utiliser le SeedKeeper pour stocker vos mots de passe. Je vous invite également à découvrir son usage combiné avec le SeedSigner :
+Voilà ! Vous savez désormais comment utiliser le Seedkeeper pour sauvegarder la phrase mnémonique d’un portefeuille Bitcoin. Dans un prochain tutoriel, nous verrons comment utiliser le Seedkeeper pour stocker vos mots de passe. Je vous invite également à découvrir son usage combiné avec le SeedSigner :
 
 https://planb.network/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
 Dans ce tutoriel, nous avons mentionné à plusieurs reprises les ***Descriptors*** de votre portefeuille Bitcoin. Vous ne savez pas de quoi il s’agit ? Dans ce cas, je vous recommande de suivre notre formation gratuite CYP 201, qui détaille en profondeur tous les mécanismes de fonctionnement des portefeuilles HD !
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+

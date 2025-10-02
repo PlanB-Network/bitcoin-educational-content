@@ -5,5 +5,5 @@ wrong_answers:
   - ONBOOT=dhcp
   - GATEWAY=dhcp
 explanation: |
-  Kigezo cha "BOOTPROTO=dhcp" kinabainisha kuwa Interface inapaswa kupata usanidi wake kupitia itifaki ya DHCP.
-reviewed: false
+  Kigezo cha "BOOTPROTO=dhcp" kinabainisha kuwa Interface inapaswa kupata usanidi wake kupitia protocol ya DHCP.
+reviewed: true

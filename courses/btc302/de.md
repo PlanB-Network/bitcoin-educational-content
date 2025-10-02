@@ -419,7 +419,7 @@ Das Ergebnis sieht wirklich cool aus!
 - Verwende präzise Aufforderungen: Je klarer und detaillierter deine Anweisungen sind, desto besser sind die Ergebnisse.
 - Bitte um Hilfe: Wenn du nicht zufrieden bist, wende dich an jemanden, der Erfahrung mit Grafikdesign oder KI-Tools hat. Viele Bitcoiner helfen gerne, manchmal sogar kostenlos oder für ein paar Sats.
 
-# Schaffung von Kommunikationskanälen für deine Bitcoin-Community
+# Schaffung von Kommunikationskanälen für deine Bitcoin-Community  Start Here
 
 <partId>fc588298-6876-554c-bd57-55d182464878</partId>
 

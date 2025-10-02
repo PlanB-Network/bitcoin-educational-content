@@ -42,13 +42,29 @@ Sejak awal, LibreWolf menawarkan serangkaian fitur berorientasi privasi:
 
 - **Integrasi uBlock Origin**: LibreWolf secara bawaan mengintegrasikan ekstensi uBlock Origin, salah satu pemblokir iklan dan pelacak terbaik di pasaran. Secara default, LibreWolf secara agresif menyaring apa pun yang mungkin melacak Anda secara daring (iklan mengganggu, skrip pelacak, cryptocurrency mining).
 
-- **Mesin pencari pribadi secara defaul**t: LibreWolf menggunakan DuckDuckGo sebagai mesin pencari awalnya secara default, yang tidak menyimpan riwayat permintaan Anda. Alternatif lain yang berorientasi pada privasi (Searx, Qwant, Whoogle) juga tersedia.
+**Tidak ada telemetri atau pengumpulan data:** Tidak seperti Chrome atau Firefox, yang mengirimkan statistik penggunaan tertentu, LibreWolf sama sekali tidak mengumpulkan apa pun dari penjelajahan Anda. Tidak ada laporan kerusakan, tidak ada studi pengguna, tidak ada saran yang disponsori.
+
+
+
+**LibreWolf secara asli mengintegrasikan ekstensi uBlock Origin, salah satu pemblokir dan pelacak iklan terbaik di pasaran. Secara default, LibreWolf secara agresif menyaring apa pun yang dapat melacak Anda secara online (iklan yang mengganggu, skrip pelacakan, mata uang kripto Mining).**
+
+
+
+**Mesin pencari pribadi secara default:** LibreWolf secara default menggunakan DuckDuckGo sebagai mesin pencari awalnya, yang tidak menyimpan riwayat kueri Anda. Alternatif berorientasi privasi lainnya (Searx, Qwant, Whoogle) juga tersedia.
+
+
+
+**Perlindungan anti-sidik jari yang diperkuat:** Sidik jari memungkinkan peramban diidentifikasi secara unik melalui konfigurasinya, bahkan tanpa cookie. Untuk mengatasi hal ini, LibreWolf mengaktifkan teknologi RFP (Resist Fingerprinting) dari proyek Tor, untuk membuat peramban Anda seumum mungkin. Pengujian menunjukkan bahwa Firefox standar memiliki keunikan ~90% pada alat seperti coveryourtracks.eff.org, dibandingkan dengan hanya ~10-20% pada LibreWolf (angka-angka ini bersifat indikatif dan dapat bervariasi tergantung pada konfigurasi perangkat lunak dan perangkat keras serta ekstensi yang terpasang).
+
 
 - **Perlindungan anti-fingerprint yang diperkuat**: Fingerprinting memungkinkan sebuah browser untuk diidentifikasi secara unik melalui konfigurasinya, bahkan tanpa cookie. Untuk mengatasinya, LibreWolf mengaktifkan teknologi RFP (_Resist Fingerprinting_) dari proyek Tor, untuk membuat browser Anda sesederhana mungkin. Pengujian menunjukkan bahwa Firefox standar memiliki keunikan sekitar ~90% pada aplikasi seperti coveryourtracks.eff.org, dibandingkan dengan hanya ~10-20% untuk LibreWolf (angka-angka ini bersifat indikatif dan dapat bervariasi sesuai dengan konfigurasi perangkat lunak dan perangkat keras serta ekstensi yang dipasang).
 
 ![LIBREWOLF](assets/fr/07.webp)
 
-*Halaman uji EFF [Cover Your Tracks](https://coveryourtracks.eff.org/) dengan tombol TEST YOUR BROWSER. Halaman ini digunakan untuk mengevaluasi perlindungan terhadap pelacak dan fingerprinting*
+
+*Halaman uji EFF* [Cover Your Tracks](https://coveryourtracks.eff.org/) dengan tombol **TEST YOUR BROWSER**. Halaman ini digunakan untuk mengevaluasi perlindungan terhadap pelacak dan sidik jari
+
+
 
 ![LIBREWOLF](assets/fr/08.webp)
 
@@ -56,7 +72,14 @@ Sejak awal, LibreWolf menawarkan serangkaian fitur berorientasi privasi:
 
 **LibreWolf** secara default mengaktifkan pengaturan keamanan ketat. Enhanced Tracking Protection Firefox didorong ke tingkat Strict untuk memblokir ribuan pelacak, cookies pihak ketiga, dan konten berbahaya. LibreWolf juga mengaktifkan isolasi situs dan cookies (_Total Cookie Protection_) untuk mempartisi data setiap domain, serta membatasi WebRTC (membatasi _ICE candidates_ dan perutean melalui proxy jika ada proxy) untuk mengurangi risiko kebocoran alamat IP.
 
-**Pembaruan Engine yang Cepat** : Proyek ini mengikuti perkembangan Firefox dengan sangat cermat: LibreWolf selalu didasarkan pada versi stabil Firefox terbaru, dan para pengelola berusaha merilis versi baru dalam 24 hingga 72 jam setelah setiap rilis resmi Firefox.
+
+**LibreWolf mengaktifkan pengaturan keamanan yang ketat secara default. Perlindungan Pelacakan yang Ditingkatkan Firefox didorong ke tingkat Ketat untuk memblokir ribuan pelacak, kuki pihak ketiga, dan konten berbahaya. Firefox juga mengaktifkan isolasi situs dan cookie (*Total Cookie Protection*) untuk mempartisi data untuk setiap domain, dan membatasi WebRTC (membatasi *Kandidat ICE* dan perutean melalui proksi ketika proksi hadir) untuk mengurangi risiko kebocoran IP Address.**
+
+
+
+**Pembaruan mesin yang cepat:** Proyek ini mengikuti perkembangan Firefox dengan sangat cermat: LibreWolf selalu didasarkan pada versi stabil terbaru dari Firefox, dan pengelola berusaha untuk merilis versi baru dalam waktu 24 hingga 72 jam setelah rilis resmi Firefox.
+
+
 
 ## Keuntungan dan kerugian
 
@@ -97,7 +120,7 @@ Pemasangannya berbeda-beda, tergantung pada OS Anda:
 
 ### Pada Linux
 
-LibreWolf menawarkan build untuk banyak distribusi. Pada Debian/Ubuntu dan turunannya, tersedia repositori APT resmi. Sebagai alternatif, LibreWolf dipublikasikan di Flatpak di Flathub :
+LibreWolf menawarkan build untuk banyak distribusi. Pada Debian/Ubuntu dan turunannya, tersedia repositori APT resmi. Sebagai alternatif, LibreWolf dipublikasikan di Flatpak di Flathub:
 
 ```
 flatpak install flathub io.gitlab.librewolf-community
@@ -105,7 +128,8 @@ flatpak install flathub io.gitlab.librewolf-community
 
 ### Pada Windows
 
-Unduh penginstal (.exe) dari situs web resmi atau gunakan ekstensi :
+
+Unduh penginstal (.exe) dari situs web resmi atau gunakan ekstensi:
 
 - **Chocolatey** : `choco instal librewolf`
 - **WinGet** : `winget instal librewolf`
@@ -120,7 +144,8 @@ Saat pertama kali dijalankan, Anda akan melihat Firefox Interface yang sudah tid
 
 ![LIBREWOLF](assets/fr/04.webp)
 
-*Halaman beranda LibreWolf dengan ekstensi dan menu. Panah biru di sudut kanan atas menunjukkan ikon menu (tiga bilah horizontal)
+
+*Halaman beranda LibreWolf dengan ekstensi dan menu. Panah biru di sudut kanan atas menunjukkan ikon menu (tiga bilah horizontal)*
 
 LibreWolf secara otomatis memuat halaman Anda dalam mode "ketat" (anti-pelacakan) dan mesin pencari bawaannya adalah DuckDuckGo. Anda bisa mencoba mengunjungi situs uji pelacakan (misalnya, amiunique.org) untuk mengamati jejak digital yang terekspos, seharusnya jauh lebih umum dibandingkan dengan browser standar.
 
@@ -128,7 +153,11 @@ LibreWolf secara otomatis memuat halaman Anda dalam mode "ketat" (anti-pelacakan
 
 LibreWolf sudah dikonfigurasi secara optimal untuk privasi. Pada Menu → Options → Privacy & Security, Anda akan melihat bahwa LibreWolf diatur kemode Enhanced Tracking Protection: Strict.
 
-Mode ini memblokir :
+
+LibreWolf sudah dikonfigurasi secara optimal untuk privasi. Pada Menu → Opsi → Privasi & Keamanan, Anda akan melihat bahwa LibreWolf diatur ke mode Perlindungan Pelacakan yang Ditingkatkan: Ketat. Mode ini memblokir:
+
+
+
 
 - Pelacak antar situs
 - Cookie pihak ketiga

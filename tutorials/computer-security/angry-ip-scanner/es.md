@@ -38,7 +38,7 @@ Menos completo que Nmap, **Angry IP** Scanner sigue siendo interesante para un a
 
 
 
-Si quieres ir más allá, consulta el tutorial sobre Nmap :
+Si quieres ir más allá, consulta el tutorial sobre Nmap:
 
 
 
@@ -84,8 +84,8 @@ En el primer inicio, tómate tu tiempo para leer las instrucciones de la ventana
 
 
 
-- Alimentador**: módulo encargado de generar listas de direcciones IP a escanear, a partir de un rango de IP aleatorio o de un fichero con una lista de direcciones IP.
-- Fetcher**: un conjunto de módulos para recuperar información sobre hosts en la red. Existen, por ejemplo, fetchers para detectar direcciones MAC, escanear puertos, detectar nombres de host o enviar peticiones HTTP.
+- **Alimentador**: módulo encargado de generar listas de direcciones IP a escanear, a partir de un rango de IP aleatorio o de un fichero con una lista de direcciones IP.
+- **Fetcher**: un conjunto de módulos para recuperar información sobre hosts en la red. Existen, por ejemplo, fetchers para detectar direcciones MAC, escanear puertos, detectar nombres de host o enviar peticiones HTTP.
 
 
 

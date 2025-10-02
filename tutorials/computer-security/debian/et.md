@@ -17,11 +17,11 @@ Debian on vaba GNU/Linuxi distributsioon, mis on tuntud oma töökindluse ja usa
 
 
 
-- Tasuta ja avatud**: Debian on täielikult avatud lähtekoodiga, tagades läbipaistvuse ja litsentsitasude puudumise.
-- Stabiilsus ja turvalisus**: iga versioon läbib põhjaliku testimisprotsessi, mis teeb Debianist ühe kõige usaldusväärsema ja turvalisema distributsiooni turul.
-- Aktiivne kogukond**: suur kogukond ja ulatuslik dokumentatsioon on teile alati toeks, kui seda vajate.
-- Kerge ja skaleeritav**: te saate paigaldada Debianiamiant ka tagasihoidlike ressurssidega masinatele, säilitades samal ajal hea jõudluse.
-- Laiaulatuslik tarkvarakataloog**: üle 50 000 ametliku paketi on saadaval repositooriumide kaudu.
+- **Tasuta ja avatud**: Debian on täielikult avatud lähtekoodiga, tagades läbipaistvuse ja litsentsitasude puudumise.
+- **Stabiilsus ja turvalisus**: iga versioon läbib põhjaliku testimisprotsessi, mis teeb Debianist ühe kõige usaldusväärsema ja turvalisema distributsiooni turul.
+- **Aktiivne kogukond**: suur kogukond ja ulatuslik dokumentatsioon on teile alati toeks, kui seda vajate.
+- **Kerge ja skaleeritav**: te saate paigaldada Debianiamiant ka tagasihoidlike ressurssidega masinatele, säilitades samal ajal hea jõudluse.
+- **Laiaulatuslik tarkvarakataloog**: üle 50 000 ametliku paketi on saadaval repositooriumide kaudu.
 
 
 
@@ -35,12 +35,12 @@ Debian pakub mitmeid töölauakeskkondi, mis sobivad teie vajadustele:
 
 
 
-- GNOME**: kaasaegne, intuitiivne Interface, ideaalne algajatele. See pakub sujuvat, lihtsasti kasutatavat graafilist menüüd rakendustele juurdepääsuks.
-- XFCE**: kerge ja kiire, ideaalne vähem võimsate masinate jaoks.
-- KDE Plasma**: väga hästi kohandatav, Windowsi-taolise välimusega.
-- Cinnamon**: lihtne ja elegantne Interface, mis on inspireeritud Windowsist.
-- LXDE / LXQt**: ülikerge, sobib vanematele arvutitele.
-- MATE**: lihtne ja klassikaline, lähedane vanale GNOME-le.
+- **GNOME**: kaasaegne, intuitiivne Interface, ideaalne algajatele. See pakub sujuvat, lihtsasti kasutatavat graafilist menüüd rakendustele juurdepääsuks.
+- **XFCE**: kerge ja kiire, ideaalne vähem võimsate masinate jaoks.
+- **KDE Plasma**: väga hästi kohandatav, Windowsi-taolise välimusega.
+- **Cinnamon**: lihtne ja elegantne Interface, mis on inspireeritud Windowsist.
+- **LXDE / LXQt**: ülikerge, sobib vanematele arvutitele.
+- **MATE**: lihtne ja klassikaline, lähedane vanale GNOME-le.
 
 
 
@@ -61,9 +61,9 @@ Enne paigaldamise alustamist veenduge, et teil on olemas järgmised seadmed:
 
 
 
-- USB-võti**: vähemalt 8 GB, et hoida käivitatavat ISO-kujutist.
-- Juhusjuurdepääsu mälu (RAM)**: 4 GB sujuvaks paigaldamiseks ja tööks.
-- Kettaruum**: vähemalt 15 GB vaba ruumi süsteemi ja uuenduste jaoks.
+- **USB-võti**: vähemalt 8 GB, et hoida käivitatavat ISO-kujutist.
+- **Juhusjuurdepääsu mälu (RAM)**: 4 GB sujuvaks paigaldamiseks ja tööks.
+- **Kettaruum**: vähemalt 15 GB vaba ruumi süsteemi ja uuenduste jaoks.
 
 
 
@@ -77,9 +77,9 @@ Debiani image'i valik sõltub teie protsessori arhitektuurist:
 
 
 
-- AMD64**: lae alla "live hybrid" väljaanne [download] nimekirjast (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: hankige DVD-pilt ametlikust [Debian] veebisaidilt (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Muud arhitektuurid**: leidke oma arhitektuurile vastav ISO [siin](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: lae alla "live hybrid" väljaanne [download] nimekirjast (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: hankige DVD-pilt ametlikust [Debian] veebisaidilt (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Muud arhitektuurid**: leidke oma arhitektuurile vastav ISO [siin](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Kui olete alla laadinud sobiva ISO-kujutise, jätkake paigalduskandja loomisega:
 
 
 
-- Laadige Balena Etcher** [ametlikust veebisaidist](https://etcher.balena.io/) alla, seejärel hankige oma süsteemi jaoks sobiv binaarskeem ja installige see.
+- Laadige **Balena Etcher** [ametlikust veebisaidist](https://etcher.balena.io/) alla, seejärel hankige oma süsteemi jaoks sobiv binaarskeem ja installige see.
 
 
 
@@ -106,9 +106,9 @@ Kui olete alla laadinud sobiva ISO-kujutise, jätkake paigalduskandja loomisega:
 
 
 
-- Käivitage Etcher**: avage tarkvara ja valige eelnevalt alla laaditud Debian ISO image.
-- Valige USB-mäluseade**: määrake oma mäluseade (8 GB+) sihtmärgiks.
-- Käivitage flash**: klõpsake **Flash!** ja oodake, kuni protsess on lõppenud.
+- Käivitage **Etcher**: avage tarkvara ja valige eelnevalt alla laaditud Debian ISO image.
+- **Valige USB-mäluseade**: määrake oma mäluseade (8 GB+) sihtmärgiks.
+- Käivitage flash: klõpsake **Flash!** ja oodake, kuni protsess on lõppenud.
 
 
 
@@ -128,15 +128,15 @@ Teie USB-mäluseade on nüüd valmis, et alustada Debiani installimist.
 
 
 
-Installeerimise käivitamiseks USB-mäluseadmelt :
+Installeerimise käivitamiseks USB-mäluseadmelt:
 
 
 
 
-- Lülitage** arvuti täielikult välja.
-- Taaskäivitage**, seejärel sisenege BIOS/UEFI-sse, vajutades kohe `ESC`, `F2`, `F11` (või spetsiaalset klahvi, olenevalt teie tootemargist).
+- **Lülitage** arvuti täielikult välja.
+- **Taaskäivitage**, seejärel sisenege BIOS/UEFI-sse, vajutades kohe `ESC`, `F2`, `F11` (või spetsiaalset klahvi, olenevalt teie tootemargist).
 - Käivitamismenüüs **valige alglaadimisseadmeks oma USB-mäluseade**.
-- Kinnitage** Enter-klahviga, et alustada Debian'i kujutist: see viib teid paigaldusprogrammi tervitusekraanile.
+- **Kinnitage** Enter-klahviga, et alustada Debian'i kujutist: see viib teid paigaldusprogrammi tervitusekraanile.
 
 
 
@@ -144,7 +144,7 @@ Installeerimise käivitamiseks USB-mäluseadmelt :
 
 
 
-Algusekraan :
+Algusekraan:
 
 
 
@@ -157,9 +157,9 @@ USB-mälupulgalt käivitamisel pakub Debiani tervitusekraan mitmeid võimalusi:
 
 
 
-- Live System**: käivitab Debiani ilma selle installeerimiseta, ideaalne keskkonna testimiseks.
-- Start Installer**: alustab paigaldamist otse Hard kettale.
-- Täiustatud paigaldusvalikud**: annab teile juurdepääsu kohandatud paigaldusrežiimidele.
+- **Live System**: käivitab Debiani ilma selle installeerimiseta, ideaalne keskkonna testimiseks.
+- **Start Installer**: alustab paigaldamist otse Hard kettale.
+- **Täiustatud paigaldusvalikud**: annab teile juurdepääsu kohandatud paigaldusrežiimidele.
 
 
 
@@ -173,7 +173,7 @@ Debianiga tutvumiseks reaalajas valige **Live süsteem** ja kinnitage **Enter**.
 
 
 
-- Keele valik** (valikuline)
+- **Keele valik** (valikuline)
 
 
 
@@ -187,7 +187,7 @@ Valige loetelust oma Debiani süsteemi põhikeel, seejärel klõpsake OK.
 
 
 
-- Ajavöönd** (GMT)
+- **Ajavöönd** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Valige oma klaviatuuri keel ja paigutus. Kasutage sisseehitatud testvälja, et k
 
 
 
-- Ketta kustutamine**: kui teil on spetsiaalne partitsioon, kustutab see valik kogu selle sisu.
-- Manuaalne partitsioneerimine**: valige see valik, et luua, muuta suurust või kustutada partitsioone vastavalt vajadusele.
+- **Ketta kustutamine**: kui teil on spetsiaalne partitsioon, kustutab see valik kogu selle sisu.
+- **Manuaalne partitsioneerimine**: valige see valik, et luua, muuta suurust või kustutada partitsioone vastavalt vajadusele.
 
 
 
@@ -244,7 +244,7 @@ Sisestage oma täisnimi, kontonimi ja tugev parool, et tagada teie seansi turval
 
 
 
-- Parameetrite kokkuvõte**
+- **Parameetrite kokkuvõte**
 
 
 
@@ -272,7 +272,7 @@ Klõpsake failide kopeerimise ja süsteemi konfigureerimise alustamiseks nuppu *
 
 
 
-- Restart**
+- **Restart**
 
 
 
@@ -334,7 +334,7 @@ Sisestage küsimisel oma parool (märkige, et sisestamisel ei kuvata ühtegi mä
 
 
 
-- Kättesaadavate värskenduste installimiseks :
+- Kättesaadavate värskenduste installimiseks:
 
 
 
@@ -380,7 +380,7 @@ Rakenduste paigaldamiseks Debianis on kaks võimalust:
 
 
 
-### Graafiline meetod :
+### Graafiline meetod:
 
 
 
@@ -388,7 +388,7 @@ Rakenduste hõlpsaks otsimiseks ja installimiseks saate kasutada **tarkvara hald
 
 
 
-### Käsurea meetod :
+### Käsurea meetod:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Asendage `<nimi>` paketi nimega. Näiteks `curl` paigaldamiseks :
+Asendage `<nimi>` paketi nimega. Näiteks `curl` paigaldamiseks:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Käsitsi allalaaditud paketi paigaldamine :
+### Käsitsi allalaaditud paketi paigaldamine:
 
 
 
@@ -439,7 +439,7 @@ Samuti on võimalik töölauakeskkonda vahetada (nt XFCE, KDE jne), ilma et peak
 
 
 
-Kui soovite rohkem teada saada Debianist ja üldisemalt GNU/Linuxi distributsioonidest, soovitan teil tutvuda selle kursusega :
+Kui soovite rohkem teada saada Debianist ja üldisemalt GNU/Linuxi distributsioonidest, soovitan teil tutvuda selle kursusega:
 
 
 

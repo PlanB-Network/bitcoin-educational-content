@@ -34,31 +34,31 @@ Fedora sisaldab ka töölauakeskkonda, mis on Interface, mille kaudu kasutajad t
 
 
 
-Arvukate Linuxi distributsioonide hulgast paistab Fedora eriti silma :
+Arvukate Linuxi distributsioonide hulgast paistab Fedora eriti silma:
 
 
 
 
 
-- Modulaarsus**: Fedora on ühilduv erinevate protsessorarhitektuuridega, mistõttu saab Fedora paigaldada enamikku arvutitest, isegi madala võimsusega, kohandudes ideaalselt teie vajadustele.
+- **Modulaarsus**: Fedora on ühilduv erinevate protsessorarhitektuuridega, mistõttu saab Fedora paigaldada enamikku arvutitest, isegi madala võimsusega, kohandudes ideaalselt teie vajadustele.
 
 
 
 
 
-- Lihtne, intuitiivne Interface**: Fedora ühendab kaasaegse graafilise Interface ja võimsa käsurea Interface, mis teeb selle kasutamise lihtsaks kõigi profiilide jaoks.
+- **Lihtne, intuitiivne Interface**: Fedora ühendab kaasaegse graafilise Interface ja võimsa käsurea Interface, mis teeb selle kasutamise lihtsaks kõigi profiilide jaoks.
 
 
 
 
 
-- Tuuma stabiilsus**: Fedora põhineb Red Hatil ja on tuntud oma uuenduste, eriti tuumavärskenduste usaldusväärsuse poolest, mis viiakse läbi ilma suuremate vigadeta tänu suure kogukonna tasuta panusele.
+- **Tuuma stabiilsus**: Fedora põhineb Red Hatil ja on tuntud oma uuenduste, eriti tuumavärskenduste usaldusväärsuse poolest, mis viiakse läbi ilma suuremate vigadeta tänu suure kogukonna tasuta panusele.
 
 
 
 
 
-- Kiire ja lihtne paigaldus**: kuna kujutise suurus on vaid 3 GB, on paigaldamine kiire ja lihtne, isegi piiratud ressurssidega masinatel.
+- **Kiire ja lihtne paigaldus**: kuna kujutise suurus on vaid 3 GB, on paigaldamine kiire ja lihtne, isegi piiratud ressurssidega masinatel.
 
 
 
@@ -66,25 +66,25 @@ Arvukate Linuxi distributsioonide hulgast paistab Fedora eriti silma :
 
 
 
-Sõltuvalt teie profiilist ja kasutamisest pakub Fedora teie vajadustele vastavaid versioone. Peamiselt leiate :
+Sõltuvalt teie profiilist ja kasutamisest pakub Fedora teie vajadustele vastavaid versioone. Peamiselt leiate:
 
 
 
 
 
-- Fedora Workstation**: See väljaanne on ideaalne isiklikuks ja/või professionaalseks kasutamiseks arvutites ja sellele on paigaldatud üldised utiliidid, nagu brauserid, kontoripakett (tekstiredaktorid) ja meedia taasesitustarkvara.
+- **Fedora Workstation**: See väljaanne on ideaalne isiklikuks ja/või professionaalseks kasutamiseks arvutites ja sellele on paigaldatud üldised utiliidid, nagu brauserid, kontoripakett (tekstiredaktorid) ja meedia taasesitustarkvara.
 
 
 
 
 
-- Fedora Server**: See väljaanne on pühendatud serveri haldamisele. Fedora Server sisaldab mitmesuguseid vahendeid, mis aitavad teil serverid oma mastaabis kasutusele võtta ja hallata.
+- **Fedora Server**: See väljaanne on pühendatud serveri haldamisele. Fedora Server sisaldab mitmesuguseid vahendeid, mis aitavad teil serverid oma mastaabis kasutusele võtta ja hallata.
 
 
 
 
 
-- Fedora CoreOS**: Tahad hõlpsasti käivitada ja juurutada pilverakendusi? Fedora CoreOS on väljaanne, mis annab teile vahendid näiteks Dockeri ja Kuberneti abil kujutiste loomiseks ja haldamiseks.
+- **Fedora CoreOS**: Tahad hõlpsasti käivitada ja juurutada pilverakendusi? Fedora CoreOS on väljaanne, mis annab teile vahendid näiteks Dockeri ja Kuberneti abil kujutiste loomiseks ja haldamiseks.
 
 
 
@@ -103,7 +103,7 @@ Fedora Workstationi paigaldamiseks on vaja järgmist riistvara konfiguratsiooni:
 
 - Vähemalt **8 GB suurune USB-mälu** operatsioonisüsteemi käivitamiseks.
 - Vähemalt **40 GB vaba ruumi** arvuti Hard kettal.
-- 4 GB RAM** sujuvaks kasutuskogemuseks.
+- 4 GB **RAM** sujuvaks kasutuskogemuseks.
 
 
 
@@ -156,7 +156,7 @@ Lülitage arvuti sisse, seejärel sisenege BIOSi käivitamise ajal, vajutades kl
 
 
 
-Valige alglaadimisvalikutes oma USB-mäluseade esmaseks alglaadimisseadmeks. Selle valiku kinnitamisel arvuti taaskäivitub ja käivitab automaatselt USB-mäluseadmel oleva Fedora installeri**.
+Valige alglaadimisvalikutes oma USB-mäluseade esmaseks alglaadimisseadmeks. Selle valiku kinnitamisel arvuti taaskäivitub ja käivitab automaatselt USB-mäluseadmel oleva **Fedora installeri**.
 
 
 
@@ -169,7 +169,7 @@ Selles etapis on teil järgmised võimalused:
 
 
 
-- Testkandjad**: See valik võimaldab kontrollida USB-pulga terviklikkust ja tagada, et kõik õigeks paigaldamiseks vajalikud sõltuvused on olemas. See on valikuline samm, kuid soovitatav, kui teil on USB-pulga suhtes kahtlusi.
+- **Testkandjad**: See valik võimaldab kontrollida USB-pulga terviklikkust ja tagada, et kõik õigeks paigaldamiseks vajalikud sõltuvused on olemas. See on valikuline samm, kuid soovitatav, kui teil on USB-pulga suhtes kahtlusi.
 
 
 
@@ -183,7 +183,7 @@ Selles etapis on teil järgmised võimalused:
 
 
 
-- Käivitage Fedora**: See käivitab Fedora "live"-režiimis, ilma installimiseta.
+- **Käivitage Fedora**: See käivitab Fedora "live"-režiimis, ilma installimiseta.
 
 
 
@@ -205,7 +205,7 @@ Esimene samm on valida Fedora **installeerimiskeel** ja **klaviatuuri paigutus**
 
 
 
-- Paigaldusketta valimine :
+- Paigaldusketta valimine:
 
 
 
@@ -223,7 +223,7 @@ Kui ketas on tühi, kasutab Fedora automaatselt kogu vaba ruumi. Vastasel juhul 
 
 
 
-- Krüpteerimine :
+- Krüpteerimine:
 
 
 
@@ -368,9 +368,9 @@ Fedora sisaldab vaikimisi kontoripaketti **LibreOffice**, mis pakub mitmeid kasu
 
 
 
-- Writer** tekstitöötluseks.
-- Calc** tabelite jaoks.
-- Impress** esitluste loomiseks.
+- **Writer** tekstitöötluseks.
+- **Calc** tabelite jaoks.
+- **Impress** esitluste loomiseks.
 
 
 ## Rakenduste paigaldamine
@@ -415,7 +415,7 @@ Pärast uuenduste paigaldamist võib olla vajalik **taaskäivitus**.
 
 
 
-- Avage terminal ja alustage **repositooriumide** uuendamisega, et veenduda, et teil on olemas uusimad versioonid :
+- Avage terminal ja alustage **repositooriumide** uuendamisega, et veenduda, et teil on olemas uusimad versioonid:
 
 
 

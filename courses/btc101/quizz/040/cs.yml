@@ -1,12 +1,12 @@
-question: Jaká strategie je používána centrálními subjekty k devalvaci fiat měny?
-answer: Zvyšují měnovou masu o několik procent každý rok.
+question: Co je hyperinflace?
+answer: Drastický nárůst množství peněz.
 wrong_answers:
-  - Sníží měnovou masu o několik procent každý rok.
-  - Udržují její měnovou masu konstantní ve srovnání s počáteční masou.
-  - Mají její měnovou masu náhodně kolísat ve srovnání s počáteční masou.
+  - Malý nárůst množství peněz.
+  - Drastický pokles množství peněz.
+  - Malý pokles množství peněz.
 explanation: |
-  Centrální subjekty často devalvují měnu zvyšováním její
-  měnové masy ve srovnání s počáteční o několik procent
-  každý rok. Toto tiché devalvování je často odůvodňováno jako
-  v zájmu lidí.
+  Hyperinflace je monetární jev charakterizovaný
+  drastickým nárůstem inflace prostřednictvím tisku peněz
+  autoritami, což vede k úplné ztrátě
+  důvěry v měnu.
 reviewed: true

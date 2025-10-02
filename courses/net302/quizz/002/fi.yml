@@ -1,0 +1,9 @@
+question: Mikä on rengasverkon suurin heikkous?
+answer: Yksittäisen laitteen vikaantuminen voi keskeyttää koko verkon toiminnan
+wrong_answers:
+  - Se vaatii paljon kaapeleita kunkin laitteen liittämiseksi toisiinsa
+  - On vaikea laajentaa
+  - Sen hallinta on monimutkaista
+explanation: |
+  Rengastopologiassa yhden laitteen vikaantuminen katkaisee silmukan ja estää tiedon liikkumisen.
+reviewed: false

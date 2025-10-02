@@ -11,4 +11,4 @@ Transakcja PayJoin spełnia dwa cele. Po pierwsze, ma na celu zmylenie zewnętrz
 ![](../../dictionnaire/assets/14.webp)
 
 
-> *PayJoin jest również czasami nazywana "P2EP (Pay-to-End-Point)", "Stowaway" lub "transakcją steganograficzną"
+> *PayJoin jest również czasami nazywana "P2EP (Pay-to-End-Point)", "Stowaway" lub "transakcją steganograficzną"*

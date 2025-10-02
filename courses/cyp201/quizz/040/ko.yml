@@ -1,0 +1,9 @@
+question: HD Wallet의 엔트로피를 수동으로 generate으로 설정하는 것이 왜 위험한가요?
+answer: 인간의 약점이나 예측 가능한 편견이 개입될 수 있습니다
+wrong_answers:
+  - 유효하지 않은 공개 키가 생성됩니다
+  - 개인 키 유추를 차단합니다
+  - 생성된 Mnemonic 구문의 크기를 제한합니다
+explanation: |
+  엔트로피를 수동으로 생성하면 편향이나 오류가 발생하여 키가 공격에 더 취약해질 수 있습니다.
+reviewed: false

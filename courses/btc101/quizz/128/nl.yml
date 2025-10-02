@@ -1,11 +1,8 @@
-question: Wat hoef je niet op te nemen in een successieplan?
-answer: De naam van de Bitcoin Wallet die je gewoonlijk gebruikt.
+question: Wat is de functie van de moeilijkheidsaanpassing in het Bitcoin netwerk?
+answer: Het zorgt ervoor dat er ongeveer elke tien minuten een blok wordt toegevoegd aan de Blockchain.
 wrong_answers:
-  - Een handgeschreven brief met een lijst van je bezittingen.
-  - Een beschrijving van hoe je toegang krijgt tot je fondsen.
-  - De contactgegevens van vertrouwde personen.
-explanation: |
-  het opstellen van een nalatenschapsplan is een cruciale stap om ervoor te zorgen dat je bitcoins goed worden beheerd na je dood.
-  Dit plan kan bestaan uit een handgeschreven brief met een lijst van uw bezittingen,
-  de toegangsmethoden en de contactgegevens van vertrouwde personen met wie contact moet worden opgenomen
+  - Het bepaalt de prijs van Bitcoin.
+  - Het regelt het aantal bitcoins dat kan worden gemined in de Blockchain.
+  - Het bepaalt de grootte van een blok.
+explanation: >-
 reviewed: true

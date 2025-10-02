@@ -122,7 +122,7 @@ Für die Sonde habe ich einen **Debian 11**-Rechner mit Minimalinstallation gew�
 
 
 
-Der erste Schritt ist immer derselbe: Aktualisieren Sie die :
+Der erste Schritt ist immer derselbe: Aktualisieren Sie die:
 
 
 
@@ -160,9 +160,9 @@ Hier sehe ich 3 Schnittstellen:
 
 
 
-- Lo**: Dies ist der Loopback-Interface; es ist ein virtueller Interface, der über das Gerät "schleift". Im Grunde genommen wird dieser Interface, dessen Address 127.0.0.1 ist (obwohl jeder Address in 127.0.0.0/8 ausreicht, da dieser Bereich für diesen Zweck reserviert ist), verwendet, um das Gerät selbst zu kontaktieren. Wenn Sie eine Website auf Ihrer Workstation installiert haben (z. B. mit WAMPP), haben Sie wahrscheinlich den "*localhost*" verwendet Address verwendet, um die auf Ihrem eigenen Rechner gehostete Site anzuzeigen. Dieser Hostname ist mit dem Address 127.0.0.1 und somit mit dem Interface Loopback verbunden.
-- ens33**: dies ist mein erster Interface, der hier von meinem DHCP einen Address erhalten hat
-- ens36**: mein zweiter Interface
+- **Lo**: Dies ist der Loopback-Interface; es ist ein virtueller Interface, der über das Gerät "schleift". Im Grunde genommen wird dieser Interface, dessen Address 127.0.0.1 ist (obwohl jeder Address in 127.0.0.0/8 ausreicht, da dieser Bereich für diesen Zweck reserviert ist), verwendet, um das Gerät selbst zu kontaktieren. Wenn Sie eine Website auf Ihrer Workstation installiert haben (z. B. mit WAMPP), haben Sie wahrscheinlich den "*localhost*" Address verwendet, um die auf Ihrem eigenen Rechner gehostete Site anzuzeigen. Dieser Hostname ist mit dem Address 127.0.0.1 und somit mit dem Interface Loopback verbunden.
+- **ens33**: dies ist mein erster Interface, der hier von meinem DHCP einen Address erhalten hat
+- **ens36**: mein zweiter Interface
 
 
 
@@ -211,8 +211,8 @@ Im Folgenden finden Sie einige Erläuterungen zu diesen ersten Änderungen:
 
 
 
-- auto *Interface***: startet automatisch Interface beim Systemstart
-- iface *Interface* inet manual** : um den Interface ohne IP Address zu verwenden. Wie das Schlüsselwort "static", um eine statische IP Address zu definieren oder "dhcp", um eine dynamische Adressierung zu verwenden
+- auto **Interface**: startet automatisch Interface beim Systemstart
+- iface *Interface* inet **manual**: um den Interface ohne IP Address zu verwenden. Wie das Schlüsselwort "static", um eine statische IP Address zu definieren oder "dhcp", um eine dynamische Adressierung zu verwenden
 
 
 
@@ -239,10 +239,10 @@ Hier noch einmal ein paar Erklärungen:
 
 
 
-- iface br0 inet static**: Hier habe ich meine Interface-Brücke (*br0*) mit einem statischen Address definiert.
-- Address, Netzmaske, Gateway**: Informationen zur Adressierung der Karte
-- bridge_ports**: Schnittstellen, die in die Bridge einbezogen werden sollen
-- bridge_stp**: Das Spanning-Tree-Protokoll wird bei der Verbindung von Switches verwendet, um redundante Verbindungen zu erkennen und Schleifen zu vermeiden. Da eine Brücke zwischen zwei Netzwerkpfaden eingefügt werden kann, kann sie die Quelle einer Schleife sein, daher die Möglichkeit, dieses Protokoll zu aktivieren. Ich benötige es hier nicht, also deaktiviere ich es.
+- **iface br0 inet static**: Hier habe ich meine Interface-Brücke (*br0*) mit einem statischen Address definiert.
+- **Address, Netzmaske, Gateway**: Informationen zur Adressierung der Karte
+- **bridge_ports**: Schnittstellen, die in die Bridge einbezogen werden sollen
+- **bridge_stp**: Das Spanning-Tree-Protokoll wird bei der Verbindung von Switches verwendet, um redundante Verbindungen zu erkennen und Schleifen zu vermeiden. Da eine Brücke zwischen zwei Netzwerkpfaden eingefügt werden kann, kann sie die Quelle einer Schleife sein, daher die Möglichkeit, dieses Protokoll zu aktivieren. Ich benötige es hier nicht, also deaktiviere ich es.
 
 
 
@@ -281,12 +281,12 @@ Standardmäßig enthalten die Paketquellen nur DFSG (*Debian Free Sotftware Guid
 
 
 
-- contrib**: Pakete, die DFSG-konforme Software enthalten, aber Abhängigkeiten verwenden, die nicht Teil des **Hauptzweigs** sind
-- non-free**: enthält Pakete, die nicht DFSG-konform sind
+- **contrib**: Pakete, die DFSG-konforme Software enthalten, aber Abhängigkeiten verwenden, die nicht Teil des **Hauptzweigs** sind
+- **non-free**: enthält Pakete, die nicht DFSG-konform sind
 
 
 
-Beispiel für eine Zeile in /etc/apt/sources.list :
+Beispiel für eine Zeile in /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Ich füge also einfach das Wort **contrib** zu Zeilen wie diesen hinzu.
 
 
 
-Der Rest der Schritte ist auf der [NtopNG]-Seite (https://packages.ntop.org/apt/) aufgeführt, wo Sie für Debian 11 die Ntop-Quellen für die zukünftige Installation hinzufügen müssen. Diese Hinzufügung erfolgt automatisch durch die Verwendung einer :
+Der Rest der Schritte ist auf der [NtopNG]-Seite (https://packages.ntop.org/apt/) aufgeführt, wo Sie für Debian 11 die Ntop-Quellen für die zukünftige Installation hinzufügen müssen. Diese Hinzufügung erfolgt automatisch durch die Verwendung einer:
 
 
 
@@ -426,7 +426,7 @@ Sie werden auch ein neues Menü am oberen Rand dieser Zusammenfassung bemerken. 
 ![Image](assets/fr/017.webp)
 
 
-Ha, sieht so aus, als hätten wir eine Antwort! Auf dem Diagramm auf der linken Seite sehen wir, dass 76,6% des Datenverkehrs von ... Windows Update**, also lädt dieser Host Updates herunter!
+Ha, sieht so aus, als hätten wir eine Antwort! Auf dem Diagramm auf der linken Seite sehen wir, dass 76,6% des Datenverkehrs von **Windows Update** stammt, also lädt dieser Host Updates herunter!
 
 
 
@@ -442,7 +442,7 @@ Um das zu demonstrieren, starte ich ein YouTube-Video auf meinem Rechner:
 
 
 
-**Der Verkehr wurde sofort erkannt und kategorisiert!
+**Der Verkehr wurde sofort erkannt und kategorisiert!**
 
 
 
@@ -474,7 +474,7 @@ Wenn Sie auf diese Zahl klicken, werden die Details der Warnungen angezeigt. Hie
 
 
 
-Da ich jedoch die kostenlose Version verwende, kann ich keine Domänen oder Hosts ausschließen, die die Quelle von Alarmen sind, so dass Sie diese im Auge behalten müssen, um nicht etwas viel Besorgniserregenderes zu verpassen. NtopNG wird generate-Warnungen im Falle von :
+Da ich jedoch die kostenlose Version verwende, kann ich keine Domänen oder Hosts ausschließen, die die Quelle von Alarmen sind, so dass Sie diese im Auge behalten müssen, um nicht etwas viel Besorgniserregenderes zu verpassen. NtopNG wird generate-Warnungen im Falle von:
 
 
 

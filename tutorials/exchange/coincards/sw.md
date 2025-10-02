@@ -1,22 +1,22 @@
 ---
-name: Kadi za sarafu
+name: Coincards
 description: Ninawezaje kununua bidhaa na huduma katika BTC na Coincards?
 ---
 ![cover](assets/cover.webp)
 
 
 
-> Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika
+> Bitcoin: Mfumo wa Pesa za Kielektroniki wa Peer-to-Rika
 
-Hiyo ndiyo maana ya Bitcoin, kutumiwa rika-kwa-rika bila kuhitaji ruhusa ya mtu yeyote. Leo, wafanyabiashara wachache sana wanakubali Bitcoin katika Exchange kwa bidhaa na huduma zao (tuko mapema sana), na kufanya iwe vigumu kwa wale wetu ambao tunahitaji kutumia satoshis zetu. **Coincards** iko hapa ili kujaribu na kutatua tatizo hili, huku kuruhusu kutumia bitcoins zako **kununua kadi za zawadi**
-
-
-
-Kuhusu somo hili, fupi kando ili kusisitiza umuhimu, kwa maoni yangu, wa kutumia Bitcoin kama njia ya malipo badala ya kuwa ghala la thamani pekee. Hakika, kama mistari hii inaandikwa, reflex ya Bitcoiners wengi sana, wakati wana fursa ya kutumia Sats yao ya thamani, ni kukataa kufanya hivyo, na badala yake kutumia euro / fiat shitcoin iliyowekwa juu yao.
+Hiyo ndiyo maana ya Bitcoin, kutumiwa rika-kwa-rika bila kuhitaji ruhusa ya mtu yeyote. Leo, wafanyabiashara wachache sana wanakubali Bitcoin katika Exchange kwa bidhaa na huduma zao (tuko mapema sana), na kufanya iwe vigumu kwa wale watu ambao tunahitaji kutumia satoshis zetu. **Coincards** iko hapa ili kujaribu na kutatua tatizo hili, huku kuruhusu kutumia bitcoins zako **kununua kadi za zawadi**
 
 
 
-Kwa uso wake, hii inaweza kuonekana kuwa sawa, lakini inakufanya ushangae juu ya mantiki nyuma yake. Bitcoin imeundwa kutumika bila ruhusa. Je, si ni wazi, basi, kwamba biashara zaidi kwamba kukubali Bitcoin karibu na wewe, uchaguzi zaidi una kama Bitcoiner huru? Kwa maneno mengine, kadri inavyokuwa rahisi kwako kutumia Sats yako bila kuomba ruhusa, ndivyo Bitcoins zako zinavyokuwa za thamani zaidi. Kwa hivyo kwa maana hii, unahitaji kuhimiza kuasili, kupendelea biashara zinazokubali Bitcoin ili kuwapa makali ya ushindani ambayo yatawahimiza wengine kufuata mfano wao.
+Kuhusu somo hili, fupi kando ili kusisitiza umuhimu, kwa maoni yangu, wa kutumia Bitcoin kama njia ya malipo badala ya kuwa ghala la thamani pekee. Hakika, kama mistari hii inaandikwa, reflex ya Bitcoiners wengi sana, wakati wana fursa ya kutumia Sats zao za thamani, ni kukataa kufanya hivyo, na badala yake kutumia euro / fiat shitcoin iliyowekwa juu yao.
+
+
+
+Kwa uso wake, hii inaweza kuonekana kuwa sawa, lakini inakufanya ushangae juu ya mantiki nyuma yake. Bitcoin imeundwa kutumika bila ruhusa. Je, si ni wazi, basi, kwamba biashara zaidi kwamba kukubali Bitcoin karibu na wewe, uchaguzi zaidi una kama Bitcoiner huru? Kwa maneno mengine, kadri inavyokuwa rahisi kwako kutumia Sats zako bila kuomba ruhusa, ndivyo Bitcoins zako zinavyokuwa za thamani zaidi. Kwa hivyo kwa maana hii, unahitaji kuhimiza kuasili, kupendelea biashara zinazokubali Bitcoin ili kuwapa makali ya ushindani ambao utawahimiza wengine kufuata mfano wao.
 
 
 
@@ -55,7 +55,7 @@ Ziko katika mikoa ifuatayo: Amerika ya Kaskazini, Ulaya na Australia.
 
 
 
-Coincards imejitolea kuhifadhi faragha yako. Wanakuruhusu kulipa kwa Bitcoin, On-Chain na Umeme, lakini pia huko Monero, shitcoin pekee iliyo na mtaji wa juu wa huruma katika jumuiya ya Bitcoin, kutokana na ukaribu wa kiitikadi na malengo mengi yaliyoshirikiwa na jumuiya hizo mbili. Kama ukumbusho, Monero ni mali ya crypto ambayo hukuruhusu kuficha miamala yako, na kuifanya iwe ngumu au isiwezekani kufuatilia kwenye rejista ya umma ya Blockchain.
+Coincards imejitolea kuhifadhi faragha yako. Wanakuruhusu kulipa kwa Bitcoin, On-Chain na Umeme, lakini pia huko Monero, shitcoin pekee iliyo na mtaji wa juu wa huruma katika jumuiya ya Bitcoin, kutokana na ukaribu wa kiitikadi na malengo mengi yaliyoshirikiwa na jumuiya hizo mbili. Kama ukumbusho, Monero ni mali ya crypto ambayo hukuruhusu kuficha miamala yako, na kuifanya iwe ngumu au isiwezekane kufuatilia kwenye rejista ya umma ya Blockchain.
 
 
 

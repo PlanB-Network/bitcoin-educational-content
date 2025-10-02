@@ -12,9 +12,8 @@ Hodl Hodl est une bourse décentralisée de Bitcoin qui privilégie le contrôle
 
 https://hodlhodl.com/pages/faq_help
 
-## guide d'écriture :
+## Démarrer votre parcours sur Hodl Hodl
 
-Démarrer votre parcours avec HodlHodl : Un guide étape par étape
 
 ![image](assets/5.webp)
 
@@ -47,43 +46,43 @@ Afin de commencer à trader du BTC, vous devrez d'abord fournir votre adresse BT
 
 Guide par Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
-1. Rendez-vous sur hodlhodl.com et créez votre compte. Les seuls détails que vous devez fournir sont un nom d'utilisateur et une adresse e-mail. Vous serez ensuite redirigé vers la page d'accueil.
+- Rendez-vous sur hodlhodl.com et créez votre compte. Les seuls détails que vous devez fournir sont un nom d'utilisateur et une adresse e-mail. Vous serez ensuite redirigé vers la page d'accueil.
 
 ![cover](assets/11.webp)
 
-2. Cliquez sur "Acheter du BTC" dans l'en-tête du site.
+- Cliquez sur "Acheter du BTC" dans l'en-tête du site.
 
 ![cover](assets/12.webp)
 
-3. Sélectionnez votre type et méthode de paiement souhaités. Vous pouvez également spécifier un montant spécifique ici si nécessaire.
+- Sélectionnez votre type et méthode de paiement souhaités. Vous pouvez également spécifier un montant spécifique ici si nécessaire.
 
 ![cover](assets/13.webp)
 
-4. Sélectionnez l'offre de votre choix. Vous pouvez ensuite consulter les détails de l'échange et lire les rapports d'activité et les évaluations des pairs.
+- Sélectionnez l'offre de votre choix. Vous pouvez ensuite consulter les détails de l'échange et lire les rapports d'activité et les évaluations des pairs.
 
 ![cover](assets/14.webp)
 
-5. Une fois satisfait, vous pouvez spécifier la quantité que vous souhaitez acheter, entrer l'adresse à laquelle vous souhaitez recevoir les bitcoins et confirmer la méthode de paiement annoncée par le vendeur. Cliquez sur "Accepter l'offre et créer un contrat".
+- Une fois satisfait, vous pouvez spécifier la quantité que vous souhaitez acheter, entrer l'adresse à laquelle vous souhaitez recevoir les bitcoins et confirmer la méthode de paiement annoncée par le vendeur. Cliquez sur "Accepter l'offre et créer un contrat".
 
 ![cover](assets/15.webp)
 
-6. Vous avez maintenant créé votre contrat et devez cliquer sur "Générer l'Escrow" où vous serez invité à créer un mot de passe de paiement. Le mot de passe de paiement est une clé de chiffrement pour la paire de clés d'escrow de l'utilisateur. Il est utilisé pour déposer ou libérer des bitcoins de l'escrow.
+- Vous avez maintenant créé votre contrat et devez cliquer sur "Générer l'Escrow" où vous serez invité à créer un mot de passe de paiement. Le mot de passe de paiement est une clé de chiffrement pour la paire de clés d'escrow de l'utilisateur. Il est utilisé pour déposer ou libérer des bitcoins de l'escrow.
 
 ![cover](assets/16.webp)
 
-7. Maintenant, vous devez attendre que le vendeur dépose ses bitcoins dans le portefeuille d'escrow. Après avoir lancé le contrat, vous pouvez discuter avec le vendeur en utilisant la boîte de discussion sur le côté droit de la page.
+- Maintenant, vous devez attendre que le vendeur dépose ses bitcoins dans le portefeuille d'escrow. Après avoir lancé le contrat, vous pouvez discuter avec le vendeur en utilisant la boîte de discussion sur le côté droit de la page.
 
 ![cover](assets/17.webp)
 
-8. Une fois que le vendeur a déposé ses fonds dans l'escrow, vous verrez cet écran vous conseillant de ne pas envoyer votre argent tant qu'il n'y a pas eu un nombre suffisant de confirmations de la blockchain (cela varie en fonction des conditions de l'échange). Vous pouvez vérifier l'avancement de la transaction de dépôt du vendeur en cliquant sur le lien bleu "ID de transaction de dépôt".
+- Une fois que le vendeur a déposé ses fonds dans l'escrow, vous verrez cet écran vous conseillant de ne pas envoyer votre argent tant qu'il n'y a pas eu un nombre suffisant de confirmations de la blockchain (cela varie en fonction des conditions de l'échange). Vous pouvez vérifier l'avancement de la transaction de dépôt du vendeur en cliquant sur le lien bleu "ID de transaction de dépôt".
 
 ![cover](assets/18.webp)
 
-9. Une fois confirmé, vous serez notifié et vous pourrez ensuite envoyer les fonds au vendeur aux coordonnées qu'il vous fournira. Une fois cela fait, cliquez sur "J'ai envoyé le paiement".
+- Une fois confirmé, vous serez notifié et vous pourrez ensuite envoyer les fonds au vendeur aux coordonnées qu'il vous fournira. Une fois cela fait, cliquez sur "J'ai envoyé le paiement".
 
 ![cover](assets/19.webp)
 
-10. Vous devrez ensuite attendre que le vendeur confirme avoir reçu les fonds, à ce moment-là, les bitcoins seront envoyés à l'adresse que vous avez spécifiée au début du contrat. Vous aurez également la possibilité d'évaluer votre pair.
+- Vous devrez ensuite attendre que le vendeur confirme avoir reçu les fonds, à ce moment-là, les bitcoins seront envoyés à l'adresse que vous avez spécifiée au début du contrat. Vous aurez également la possibilité d'évaluer votre pair.
 
 ![cover](assets/20.webp)
 
@@ -182,3 +181,4 @@ Contactez-nous
 - Reddit : hodlhodl.reddit.com
 - Facebook : facebook.com/HHodl
 - Youtube : youtube.com/c/HodlHodl
+

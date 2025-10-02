@@ -1,9 +1,9 @@
-question: 大規模な組織や情熱的なBitcoin愛好家がBitcoinを受け入れるためのツールは何ですか？
-answer: BTCpay Server.
+question: KYC規制の目的は何ですか？
+answer: テロ資金の調達、脱税、およびマネーロンダリングと戦うこと。
 wrong_answers:
-  - Bitcoin Wallet.
-  - Bitcoin Exchange.
-  - BTCpay Mining.
+  - ビットコインの価格を上げて、ユーザーにより多くの税金を払わせるため。
+  - ビットコインの供給を制御するため。
+  - 人々がビットコインを購入するのを防ぐため。
 explanation: |
-  BTCpay Serverは、大規模な構造や情熱的なビットコイナーがBitcoinを受け入れるためのツールです。他の解決策には、シンプルなオンラインビジネス向けのOpenNodeや、アマチュア商人向けのSwiss Bitcoin Payが含まれます。
-  レビュー済み: true
+  コースのテキストでは、「Know Your Customer」（KYC）規制が、テロ資金の調達、脱税、およびマネーロンダリングと戦うために、ユーザーに身分証明の提供を要求することが説明されています。
+reviewed: true

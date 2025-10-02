@@ -1,9 +1,12 @@
-question: Quá trình xác minh các giao dịch trên mạng Bitcoin được gọi là gì?
-answer: Đào
+question: Tần suất điều chỉnh độ khó là bao nhiêu?
+answer: Mỗi 2016 khối.
 wrong_answers:
-  - Đào bới
-  - Thu hoạch
-  - Trồng trọt
+  - Mỗi 1048 khối.
+  - Mỗi 512 khối.
+  - Mỗi 4032 khối.
 explanation: |
-  Quá trình xác minh các giao dịch trên mạng Bitcoin được gọi là đào. Các thợ đào thực hiện một nhiệm vụ mật mã và được thưởng bằng việc phát hành bitcoin mới.
+  Điều chỉnh độ khó là một cơ chế diễn ra
+  mỗi 2016 khối, hoặc khoảng hai tuần, để đảm bảo rằng một
+  khối mới được thêm vào blockchain mỗi mười phút trung bình,
+  bất kể tổng hashrate toàn cầu.
 reviewed: true

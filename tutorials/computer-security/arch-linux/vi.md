@@ -7,7 +7,7 @@ description: Thiết kế hệ thống phân phối tối giản, hiệu suất 
 
 
 
-Arch Linux là một bản phân phối nổi tiếng với tính mạnh mẽ, hiệu suất và khả năng thích ứng, đặc biệt là cho mục đích phát triển. Nó mang lại sự ổn định tuyệt vời và một môi trường thuận lợi cho việc tùy chỉnh, được hỗ trợ bởi trình quản lý gói cực kỳ nhanh chóng và đáng tin cậy. Triết lý của nó dựa trên nguyên tắc **KISS** (Giữ mọi thứ đơn giản, đừng làm rối tung lên*): cung cấp một bản phân phối nhẹ nhàng, đơn giản, nhanh chóng và gọn gàng, đồng thời mang lại sự tự do tối đa cho người dùng.
+Arch Linux là một bản phân phối nổi tiếng với tính mạnh mẽ, hiệu suất và khả năng thích ứng, đặc biệt là cho mục đích phát triển. Nó mang lại sự ổn định tuyệt vời và một môi trường thuận lợi cho việc tùy chỉnh, được hỗ trợ bởi trình quản lý gói cực kỳ nhanh chóng và đáng tin cậy. Triết lý của nó dựa trên nguyên tắc **KISS** (*Giữ mọi thứ đơn giản, đừng làm rối tung lên*): cung cấp một bản phân phối nhẹ nhàng, đơn giản, nhanh chóng và gọn gàng, đồng thời mang lại sự tự do tối đa cho người dùng.
 
 
 
@@ -17,10 +17,10 @@ Arch Linux là một bản phân phối nổi tiếng với tính mạnh mẽ, h
 
 
 
-- Miễn phí và mã nguồn mở**: Giống như hầu hết các bản phân phối Linux, Arch Linux hoàn toàn miễn phí. Không có phí cấp phép, khiến nó trở thành lựa chọn tuyệt vời cho sinh viên, người làm việc tự do hoặc những người đam mê.
-- Triết lý KISS**: Arch được thiết kế đơn giản, nhẹ nhàng và hiệu quả. Nó chỉ cung cấp những yếu tố thiết yếu, cho phép bạn tự do xây dựng môi trường sống theo ý muốn.
-- Trình quản lý gói Pacman**: Pacman là trình quản lý gói nhanh, đáng tin cậy và được thiết kế tốt. Nó cho phép cài đặt và cập nhật phần mềm hiệu quả, đồng thời quản lý các gói phụ thuộc một cách chính xác.
-- Tài liệu toàn diện và cộng đồng năng động**: [Arch Wiki](https://wiki.archlinux.org) có lẽ là một trong những tài liệu kỹ thuật tốt nhất trong thế giới Linux. Đây là một mỏ vàng để hiểu rõ những gì bạn đang làm. Cộng đồng, chủ yếu bao gồm những người có kinh nghiệm, rất năng động và có thể giúp bạn nếu bạn gặp khó khăn, miễn là bạn đã tìm hiểu trước.
+- **Miễn phí và mã nguồn mở**: Giống như hầu hết các bản phân phối Linux, Arch Linux hoàn toàn miễn phí. Không có phí cấp phép, khiến nó trở thành lựa chọn tuyệt vời cho sinh viên, người làm việc tự do hoặc những người đam mê.
+- **Triết lý KISS**: Arch được thiết kế đơn giản, nhẹ nhàng và hiệu quả. Nó chỉ cung cấp những yếu tố thiết yếu, cho phép bạn tự do xây dựng môi trường sống theo ý muốn.
+- **Trình quản lý gói Pacman**: Pacman là trình quản lý gói nhanh, đáng tin cậy và được thiết kế tốt. Nó cho phép cài đặt và cập nhật phần mềm hiệu quả, đồng thời quản lý các gói phụ thuộc một cách chính xác.
+- **Tài liệu toàn diện và cộng đồng năng động**: [Arch Wiki](https://wiki.archlinux.org) có lẽ là một trong những tài liệu kỹ thuật tốt nhất trong thế giới Linux. Đây là một mỏ vàng để hiểu rõ những gì bạn đang làm. Cộng đồng, chủ yếu bao gồm những người có kinh nghiệm, rất năng động và có thể giúp bạn nếu bạn gặp khó khăn, miễn là bạn đã tìm hiểu trước.
 
 
 
@@ -39,7 +39,7 @@ Vật liệu cần thiết:
 
 
 - Một ổ USB có dung lượng tối thiểu **8 GB**
-- Tối thiểu 2 GB** RAM
+- Tối thiểu **2 GB** RAM
 - Một máy tính có ít nhất 20 GB dung lượng đĩa trống
 
 
@@ -261,7 +261,7 @@ Chọn **GPT** nếu bạn đang ở UEFI, **DOS** nếu bạn đang ở BIOS.
 
 
 
-- Ở chế độ UEFI**
+- Ở chế độ **UEFI**
 
 
 
@@ -294,7 +294,7 @@ Chọn **Ghi**, nhập **có**, sau đó nhập **Thoát**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- **BIOS**:
 
 
 

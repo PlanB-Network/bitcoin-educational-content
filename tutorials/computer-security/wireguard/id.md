@@ -156,7 +156,7 @@ Untuk saat ini, kita akan mengesampingkan konfigurasi sisi server WireGuard.
 
 Agar komputer Debian 11 kita dapat **merutekan paket di antara jaringan yang berbeda (seperti router)**, yaitu antara jaringan VPN dan jaringan lokal, kita perlu mengaktifkan [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Secara default, fitur ini dinonaktifkan.
 
-Ubah file konfigurasi ini :
+Ubah file konfigurasi ini:
 
 ```
 sudo nano /etc/sysctl.conf
@@ -205,7 +205,7 @@ Tambahkan baris-baris ini di akhir file untuk **mengaktifkan IP masquerade pada 
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -437,7 +437,7 @@ Akhirnya, saya memanfaatkan saluran penuh ini untuk melakukan uji aliran kecil, 
 
 Konfigurasi WireGuard cukup sederhana dan mudah dimengerti, dan yang terpenting mudah untuk dipelihara.**WireGuard dianggap sebagai masa depan VPN**, jadi sebaiknya kita mengawasinya dengan cermat! Kita juga dapat melihat bahwa manfaatnya signifikan dalam hal kinerja, yang merupakan keuntungan besar untuk WireGuard dibandingkan dengan OpenVPN.
 
-Dokumentasi tambahan :
+Dokumentasi tambahan:
 
 - [Man - Command wg](https://git.zx2c4.com/wireguard-tools/about/src/man/wg.8)
 - [Man - Command wg-quick](https://manpages.debian.org/unstable/wireguard-tools/wg-quick.8.en.html)

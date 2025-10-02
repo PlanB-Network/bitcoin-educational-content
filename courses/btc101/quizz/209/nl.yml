@@ -1,8 +1,13 @@
-question: Waar lijkt de adoptiecurve van Bitcoin op?
-answer: Een S-curve.
+question: Wat is de status van Bitcoin in El Salvador?
+answer: Wettig betaalmiddel.
 wrong_answers:
-  - Een U-curve.
-  - Een V-curve.
-  - Een W-curve.
-explanation: >-
+  - Gecriminaliseerd.
+  - Onbekend.
+  - Ongereguleerd.
+explanation: |
+  De cursustekst vermeldt dat sommige landen het gebruik van Bitcoin hebben verboden en strafbaar hebben gesteld
+  en het gebruik van Bitcoin hebben gecriminaliseerd, wat de adoptie van
+  complexiteit van de adoptie van Bitcoin, gebaseerd op culturen, tijdperken en
+  landen. El Salvador was echter moedig genoeg om het in te voeren
+  als wettig betaalmiddel.
 reviewed: true

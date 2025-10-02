@@ -1,0 +1,13 @@
+question: Ni igiki gihangayikishije cane ku bijanye n’ugushiramwo urubuga rumwe (SSO) rutangwa n’ibigo bikomeye vyo kuri internet?
+answer: Bitera ingorane mu bijanye n’ukuntu biboneka be n’ingorane zo gucengera.
+wrong_answers:
+  - Biragoye gukoresha.
+  - Bisaba ahantu henshi ho kubika.
+  - Ntibihuye n’imbuga zose.
+explanation: |
+  Igikoresho co kwinjira rimwe (SSO) gitangwa n'ibigo bikomeye vyo kuri interineti
+  ingorane mu bijanye n’ukuboneka n’ingaruka zo gucengera.
+  Ivyo ni kubera ko iyo uwutanga SSO afise ikibazo co guhagarara .
+  canke afashe ingingo yo kubuza umukoresha, uwo mukoresha yoshobora gutakaza uburenganzira bwo gukoresha
+  ibikorwa vyose bikoresha iyo SSO kugira ngo bimenyekane.
+reviewed: true

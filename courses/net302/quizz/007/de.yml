@@ -1,0 +1,9 @@
+question: Welches Universitätsbetriebssystem förderte die Verbreitung von TCP/IP-Protokollen in der akademischen Welt?
+answer: BSD Unix
+wrong_answers:
+  - Linux
+  - Solaris
+  - Minix
+explanation: |
+  BSD Unix, das an der Universität Berkeley entwickelt wurde, war eines der ersten Systeme, das TCP/IP-Protokolle integrierte und zu ihrer weiten Verbreitung in der akademischen Welt beitrug.
+reviewed: false

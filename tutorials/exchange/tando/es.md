@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- Escanear para pagar** :
+- **Escanear para pagar**:
 
 
 
@@ -95,7 +95,7 @@ Escanear para pagar es una de las opciones de pago automático de la aplicación
 
 
 
-- Enviar dinero a Kenia** :
+- **Enviar dinero a Kenia**:
 
 
 
@@ -121,7 +121,7 @@ Pague la factura desde su Rayo Wallet y Tando la convertirá en chelines keniano
 
 
 
-- Pague sus facturas** :
+- **Pague sus facturas**:
 
 
 
@@ -135,7 +135,7 @@ Introduzca el número del Invoice que desea pagar y proceda a pagar el Invoice R
 
 
 
-- Compra de bienes** :
+- **Compra de bienes**:
 
 
 

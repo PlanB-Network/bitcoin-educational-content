@@ -1,5 +1,5 @@
 ---
-name: Browser Mullvad
+name: Mullvad Browser
 description: Come usare il browser Mullvad per la privacy
 ---
 
@@ -13,10 +13,10 @@ In un mondo in cui la sorveglianza digitale sta diventando onnipresente, protegg
 
 
 
-- Cookie di terze parti**: piccoli file depositati da siti esterni per seguirvi da un sito all'altro
-- Fingerprinting**: raccoglie le caratteristiche uniche del vostro browser e del vostro dispositivo (risoluzione dello schermo, font installati, plugin, ecc.) per identificarvi senza cookie
-- Script di tracciamento**: codici JavaScript invisibili che analizzano il comportamento di navigazione dell'utente (clic, scorrimento, tempo trascorso)
-- Analisi IP Address**: localizzazione geografica e identificazione del vostro fornitore di servizi Internet
+- **Cookie di terze parti**: piccoli file depositati da siti esterni per seguirvi da un sito all'altro
+- **Fingerprinting**: raccoglie le caratteristiche uniche del vostro browser e del vostro dispositivo (risoluzione dello schermo, font installati, plugin, ecc.) per identificarvi senza cookie
+- **Script di tracciamento**: codici JavaScript invisibili che analizzano il comportamento di navigazione dell'utente (clic, scorrimento, tempo trascorso)
+- **Analisi IP Address**: localizzazione geografica e identificazione del vostro fornitore di servizi Internet
 
 
 
@@ -74,25 +74,25 @@ Il browser Mullvad è stato progettato con un obiettivo principale: **proteggere
 
 
 
-- Riducete drasticamente il tracciamento degli annunci e il tracking** da parte di siti web e agenzie pubblicitarie. Per impostazione predefinita, Mullvad Browser blocca i tracker di terze parti, i cookie di tracciamento e gli script di fingerprinting che potrebbero identificare l'utente.
+- Riducete drasticamente il tracciamento degli annunci e il **tracking** da parte di siti web e agenzie pubblicitarie. Per impostazione predefinita, Mullvad Browser blocca i tracker di terze parti, i cookie di tracciamento e gli script di fingerprinting che potrebbero identificare l'utente.
 
 
 
 
 
-- Standardizzate l'impronta digitale del vostro browser** per **"confondersi con la massa "**. L'impronta digitale è come una "carta d'identità" unica creata combinando tutte le caratteristiche del vostro browser. Mullvad Browser fa in modo che tutti i suoi utenti abbiano esattamente la stessa "carta d'identità", rendendo impossibile distinguerli singolarmente.
+- Standardizzate l'impronta digitale del vostro browser per **"confondersi con la massa"**. L'impronta digitale è come una "carta d'identità" unica creata combinando tutte le caratteristiche del vostro browser. Mullvad Browser fa in modo che tutti i suoi utenti abbiano esattamente la stessa "carta d'identità", rendendo impossibile distinguerli singolarmente.
 
 
 
 
 
-- Offre una protezione immediata senza estensioni aggiuntive**. Mullvad Browser viene fornito in una configurazione "pronta all'uso": l'utente non deve installare una serie di estensioni o modificare alcuna impostazione per essere protetto.
+- Offre una protezione immediata senza estensioni aggiuntive. Mullvad Browser viene fornito in una configurazione "pronta all'uso": l'utente non deve installare una serie di estensioni o modificare alcuna impostazione per essere protetto.
 
 
 
 
 
-- Non sacrificate le prestazioni o l'ergonomia** più del necessario. In assenza del routing Tor, Mullvad Browser offre una navigazione molto più veloce di Tor Browser, avvicinandosi alle prestazioni di un browser standard abbinato a una VPN.
+- Non sacrificate le prestazioni o l'ergonomia più del necessario. In assenza del routing Tor, **Mullvad Browser** offre una navigazione molto più veloce di **Tor Browser**, avvicinandosi alle prestazioni di un browser standard abbinato a una VPN.
 
 
 
@@ -106,36 +106,36 @@ Mullvad Browser include una serie di **funzioni di sicurezza e privacy** diretta
 
 
 
-- Navigazione privata in ogni momento:** La modalità di navigazione privata è attivata per impostazione predefinita e non può essere disattivata. **Non vengono memorizzati cronologia, cookie o cache da una sessione all'altra**. Non appena si chiude Mullvad Browser, tutti i dati di navigazione vengono eliminati.
+- **Navigazione privata in ogni momento:** La modalità di navigazione privata è attivata per impostazione predefinita e non può essere disattivata. **Non vengono memorizzati cronologia, cookie o cache da una sessione all'altra**. Non appena si chiude Mullvad Browser, tutti i dati di navigazione vengono eliminati.
 
 
 
 
 
-- Protezione avanzata contro il fingerprinting:** Il browser applica impostazioni rigorose per contrastare il fingerprinting digitale. Questo include:
- - Standardizzazione dell'agente utente** e della versione del browser
- - Fuso orario impostato su UTC** per tutti gli utenti
- - Letterboxing**: una tecnica che aggiunge automaticamente margini grigi intorno alle pagine web per standardizzare le dimensioni di visualizzazione e impedire l'identificazione in base alle dimensioni dello schermo
- - Blocco delle API di fingerprinting**: Le tecnologie Canvas (disegno 2D), WebGL (grafica 3D) e AudioContext (elaborazione audio) sono disabilitate perché possono rivelare dettagli unici sull'hardware
- - Font di sistema standardizzati** per evitare l'identificazione da parte dei font installati
+- **Protezione avanzata contro il fingerprinting:** Il browser applica impostazioni rigorose per contrastare il fingerprinting digitale. Questo include:
+- Standardizzazione dell'**agente utente** e della versione del browser
+- Fuso orario impostato su **UTC** per tutti gli utenti
+- **Letterboxing**: una tecnica che aggiunge automaticamente margini grigi intorno alle pagine web per standardizzare le dimensioni di visualizzazione e impedire l'identificazione in base alle dimensioni dello schermo
+- **Blocco delle API di fingerprinting**: Le tecnologie Canvas (disegno 2D), WebGL (grafica 3D) e AudioContext (elaborazione audio) sono disabilitate perché possono rivelare dettagli unici sull'hardware
+- **Font di sistema standardizzati** per evitare l'identificazione da parte dei font installati
 
 
 
 
 
-- Blocco di tracker e pubblicità:** Mullvad Browser integra nativamente l'estensione **uBlock Origin** (preinstallata) con liste di protezione aggiuntive per bloccare **tracker di terze parti, script pubblicitari e altri contenuti dannosi**. Questa protezione è accompagnata dal **First-Party Isolation**: una tecnica che memorizza i cookie in "vasi" separati per ogni sito web, impedendo a un sito di leggere i cookie depositati da un altro.
+- Blocco di tracker e pubblicità: Mullvad Browser integra nativamente l'estensione **uBlock Origin** (preinstallata) con liste di protezione aggiuntive per bloccare **tracker di terze parti, script pubblicitari e altri contenuti dannosi**. Questa protezione è accompagnata dal **First-Party Isolation**: una tecnica che memorizza i cookie in "vasi" separati per ogni sito web, impedendo a un sito di leggere i cookie depositati da un altro.
 
 
 
 
 
-- Pulsante di ripristino della sessione:** Come il pulsante "Nuova identità" di Tor Browser, Mullvad Browser offre un pulsante per **riavviare rapidamente il browser con una nuova sessione vuota**.
+- **Pulsante di ripristino della sessione:** Come il pulsante "Nuova identità" di Tor Browser, Mullvad Browser offre un pulsante per **riavviare rapidamente il browser con una nuova sessione vuota**.
 
 
 
 
 
-- Livelli di sicurezza regolabili:** È possibile regolare il livello di sicurezza (*Normale*, *Più sicuro*, *Sicuro*) nelle impostazioni, proprio come in Tor Browser.
+- **Livelli di sicurezza regolabili:** È possibile regolare il livello di sicurezza (*Normale*, *Più sicuro*, *Sicuro*) nelle impostazioni, proprio come in Tor Browser.
 
 
 
@@ -150,7 +150,7 @@ Mullvad Browser include **tre estensioni preinstallate** che costituiscono il nu
 ### **Blocco Origine**
 
 
-Questa estensione per il blocco di annunci e tracker è preconfigurata con **elenchi di filtri ottimizzati** per bloccare :
+Questa estensione per il blocco di annunci e tracker è preconfigurata con **elenchi di filtri ottimizzati** per bloccare:
 
 
 
@@ -169,19 +169,19 @@ uBlock Origin in Mullvad Browser utilizza parametri standardizzati per garantire
 ### **NoScript**
 
 
-NoScript viene eseguito in background per gestire i **livelli di sicurezza** del browser. Questo :
+NoScript viene eseguito in background per gestire i **livelli di sicurezza** del browser. Questo:
 
 
 
 
-- Controlla l'esecuzione di JavaScript** in base al livello selezionato (normale/massima sicurezza/massima sicurezza)
-- Filtra automaticamente gli attacchi XSS** (Cross-Site Scripting)
-- Blocca i contenuti attivi pericolosi** su siti non HTTPS
+- Controlla l'esecuzione di **JavaScript** in base al livello selezionato (normale/massima sicurezza/massima sicurezza)
+- Filtra automaticamente gli attacchi **XSS** (Cross-Site Scripting)
+- Blocca i contenuti attivi pericolosi su siti non HTTPS
 - La sua icona è nascosta per impostazione predefinita, ma può essere visualizzata tramite "Personalizza barra degli strumenti"
 
 
 
-### *estensione *Mullvad Browser**
+### *estensione* **Mullvad Browser**
 
 
 Questa estensione specifica di Mullvad offre diverse funzionalità a seconda che siate o meno clienti di Mullvad VPN:
@@ -193,10 +193,10 @@ Questa estensione specifica di Mullvad offre diverse funzionalità a seconda che
 
 
 
-- Controllo di base della connessione**: visualizza l'IP pubblico attuale e alcune informazioni sulla connessione
-- Raccomandazioni sulla privacy**: suggerimenti per migliorare le impostazioni di sicurezza (DNS, solo HTTPS, motore di ricerca)
-- Controllo WebRTC**: abilitazione/disabilitazione per evitare perdite IP Address
-- Può essere eliminato senza impatto** sulla vostra impronta digitale se non utilizzate Mullvad VPN
+- **Controllo di base della connessione**: visualizza l'IP pubblico attuale e alcune informazioni sulla connessione
+- **Raccomandazioni sulla privacy**: suggerimenti per migliorare le impostazioni di sicurezza (DNS, solo HTTPS, motore di ricerca)
+- **Controllo WebRTC**: abilitazione/disabilitazione per evitare perdite IP Address
+- Può essere eliminato senza **impatto** sulla vostra impronta digitale se non utilizzate Mullvad VPN
 
 
 
@@ -209,16 +209,16 @@ L'estensione rivela tutto il suo potenziale con funzioni avanzate:
 
 
 
-- Proxy SOCKS5 integrato**: connessione con un solo clic al server proxy Mullvad VPN
- - IP Address fisso**: a differenza di una VPN, che può cambiare il proprio IP Address, un proxy garantisce sempre lo stesso Address in uscita
- - Interruttore automatico**: se la VPN si disconnette, il traffico del browser viene immediatamente bloccato
- - Supporto IPv6**: Connettività IPv6 anche se la connessione VPN non è abilitata
+- **Proxy SOCKS5 integrato**: connessione con un solo clic al server proxy Mullvad VPN
+- **IP Address fisso**: a differenza di una VPN, che può cambiare il proprio IP Address, un proxy garantisce sempre lo stesso Address in uscita
+- **Interruttore automatico**: se la VPN si disconnette, il traffico del browser viene immediatamente bloccato
+- **Supporto IPv6**: Connettività IPv6 anche se la connessione VPN non è abilitata
 
 
 
 
 
-- Multihop (doppia VPN)**: possibilità di cambiare la posizione del proxy per creare un tunnel nel tunnel
+- **Multihop (doppia VPN)**: possibilità di cambiare la posizione del proxy per creare un tunnel nel tunnel
  - Il traffico passa prima attraverso il server VPN, poi "salta" a un altro server Mullvad
  - Utilizzare una localizzazione diversa solo per il browser
 
@@ -226,13 +226,13 @@ L'estensione rivela tutto il suo potenziale con funzioni avanzate:
 
 
 
-- Monitoraggio avanzato della connessione**: monitoraggio in tempo reale dello stato della VPN, del server connesso e del rilevamento delle perdite DNS
+- **Monitoraggio avanzato della connessione**: monitoraggio in tempo reale dello stato della VPN, del server connesso e del rilevamento delle perdite DNS
 
 
 
 
 
-- Accesso a Mullvad Leta**: motore di ricerca privato riservato agli abbonati (anche se sconsigliato da Mullvad per motivi di correlazione con il proprio account)
+- **Accesso a Mullvad Leta**: motore di ricerca privato riservato agli abbonati (anche se sconsigliato da Mullvad per motivi di correlazione con il proprio account)
 
 
 
@@ -250,25 +250,25 @@ Queste tre estensioni lavorano insieme per creare un ecosistema coerente di prot
 
 
 
-- Eccellente protezione della privacy per impostazione predefinita:** Mullvad Browser applica fin dall'inizio impostazioni di privacy molto rigorose, senza necessità di configurazione manuale.
+- **Eccellente protezione della privacy per impostazione predefinita:** Mullvad Browser applica fin dall'inizio impostazioni di privacy molto rigorose, senza necessità di configurazione manuale.
 
 
 
 
 
-- Prestazioni migliori di Tor Browser:** In assenza di onion routing, Mullvad Browser è **notevolmente più veloce e reattivo** di Tor Browser per la navigazione web classica.
+- **Prestazioni migliori di Tor Browser:** In assenza di onion routing, Mullvad Browser è **notevolmente più veloce e reattivo** di Tor Browser per la navigazione web classica.
 
 
 
 
 
-- La familiare semplicità del Interface:** Mullvad Browser è basato sul Interface di Firefox. Se siete abituati a Firefox o anche a Tor Browser, non vi sentirete fuori posto.
+- La familiare semplicità del **Interface**: Mullvad Browser è basato sul Interface di Firefox. Se siete abituati a Firefox o anche a Tor Browser, non vi sentirete fuori posto.
 
 
 
 
 
-- Collaborazione fidata e codice verificato:** Mullvad Browser si avvale dell'esperienza del Progetto Tor e tutto il codice sorgente è disponibile per una verifica esterna.
+- **Collaborazione fidata e codice verificato:** Mullvad Browser si avvale dell'esperienza del Progetto Tor e tutto il codice sorgente è disponibile per una verifica esterna.
 
 
 
@@ -278,25 +278,25 @@ Queste tre estensioni lavorano insieme per creare un ecosistema coerente di prot
 
 
 
-- Nessun anonimato di rete senza VPN:** Il punto più importante è che **Mullvad Browser non nasconde il vostro IP Address da solo** (come tutti gli altri browser, tranne Tor Browser). Il vostro IP Address è come il vostro "Address postale" su Internet: rivela la vostra posizione e il vostro ISP. Per questo motivo **dipende fortemente da una VPN** (rete privata virtuale) per nascondere queste informazioni cruciali.
+- Nessun anonimato di rete senza VPN: Il punto più importante è che **Mullvad Browser non nasconde il vostro IP Address da solo** (come tutti gli altri browser, tranne Tor Browser). Il vostro IP Address è come il vostro "Address postale" su Internet: rivela la vostra posizione e il vostro ISP. Per questo motivo **dipende fortemente da una VPN** (rete privata virtuale) per nascondere queste informazioni cruciali.
 
 
 
 
 
-- Nessuna versione mobile:** Ad oggi, Mullvad Browser è disponibile solo su PC (Windows, Mac, Linux).
+- **Nessuna versione mobile:** Ad oggi, Mullvad Browser è disponibile solo su PC (Windows, Mac, Linux).
 
 
 
 
 
-- Incompatibile con alcune abitudini:** La **modalità privata permanente** significa che non è possibile mantenere una sessione da un utilizzo all'altro. È impossibile rimanere connessi a un account Web da una sessione all'altra.
+- Incompatibile con alcune abitudini: La **modalità privata permanente** significa che non è possibile mantenere una sessione da un utilizzo all'altro. È impossibile rimanere connessi a un account Web da una sessione all'altra.
 
 
 
 
 
-- Funzioni limitate:** Per preservare l'uniformità delle impronte digitali, Mullvad Browser ha **disabilitato diverse funzioni** presenti in Firefox e non è destinato alla personalizzazione.
+- **Funzioni limitate:** Per preservare l'uniformità delle impronte digitali, Mullvad Browser ha **disabilitato diverse funzioni** presenti in Firefox e non è destinato alla personalizzazione.
 
 
 
@@ -328,7 +328,7 @@ Fare clic sul pulsante **"Download "** corrispondente al proprio sistema operati
 
 
 
-Per Linux, è possibile scegliere tra diversi formati a seconda della distribuzione. Una volta completato il download :
+Per Linux, è possibile scegliere tra diversi formati a seconda della distribuzione. Una volta completato il download:
 
 
 
@@ -365,7 +365,7 @@ Quando si avvia per la prima volta Mullvad Browser, viene visualizzato un Interf
 
 
 
-*Interface Pagina iniziale di Mullvad Browser con estensioni, icona della scopa per generate una nuova identità e menu dell'applicazione in alto a destra
+*Interface Pagina iniziale di Mullvad Browser con estensioni, icona della scopa per generare una nuova identità e menu dell'applicazione in alto a destra*
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser offre tre livelli di sicurezza:
 
 
 
-- Normale** (attuale livello predefinito) : Tutte le funzioni del browser e del sito web sono abilitate
+- **Normale** (attuale livello predefinito): Tutte le funzioni del browser e del sito web sono abilitate
 
 
 
 
 
-- Più sicuro**: Disabilita le funzioni dei siti web spesso pericolose, che possono comportare una perdita di funzionalità su alcuni siti web:
+- **Più sicuro**: Disabilita le funzioni dei siti web spesso pericolose, che possono comportare una perdita di funzionalità su alcuni siti web:
  - JavaScript è disabilitato per i siti non HTTPS
  - Alcuni font e simboli matematici sono disabilitati
  - Suoni e video (HTML5 media) e WebGL sono "click to play"
@@ -414,7 +414,7 @@ Mullvad Browser offre tre livelli di sicurezza:
 
 
 
-- Il più sicuro**: Consente solo le funzioni del sito web necessarie per i siti statici e i servizi di base:
+- **Il più sicuro**: Consente solo le funzioni del sito web necessarie per i siti statici e i servizi di base:
  - JavaScript è disabilitato per impostazione predefinita per tutti i siti
  - Alcuni font, icone, immagini e simboli matematici sono disabilitati
  - Suoni e video (HTML5 media) e WebGL sono "click to play"
@@ -477,7 +477,7 @@ Se decidete di installare comunque delle estensioni, sappiate che state creando 
 
 
 
-1. **Usate sempre una VPN: Mullvad Browser non maschera il vostro IP. Una VPN è essenziale per il completo anonimato.
+1. **Usate sempre una VPN**: Mullvad Browser non maschera il vostro IP. Una VPN è essenziale per il completo anonimato.
 
 
 
@@ -489,14 +489,14 @@ Se decidete di installare comunque delle estensioni, sappiate che state creando 
 
 
 
-4. **Scegliete il livello di sicurezza più adatto alle vostre esigenze** :
+4. **Scegliete il livello di sicurezza più adatto alle vostre esigenze**:
 
 
 
 
-   - Normale (consigliato)**: Per la navigazione quotidiana. Offre già un'eccellente protezione, pur mantenendo la funzionalità dei siti web. È il miglior equilibrio per il 95% degli utenti.
-   - Più sicuro**: Se si visitano siti sconosciuti o potenzialmente pericolosi, o per una maggiore protezione sulle reti Wi-Fi pubbliche. Alcuni siti potrebbero non funzionare correttamente.
-   - Il più sicuro**: Riservato a situazioni ad alto rischio (giornalismo investigativo, comunicazioni sensibili, ambienti ostili). La maggior parte dei siti moderni sarà danneggiata, ma questo è il prezzo della massima sicurezza.
+- **Normale (consigliato)**: Per la navigazione quotidiana. Offre già un'eccellente protezione, pur mantenendo la funzionalità dei siti web. È il miglior equilibrio per il 95% degli utenti.
+- **Più sicuro**: Se si visitano siti sconosciuti o potenzialmente pericolosi, o per una maggiore protezione sulle reti Wi-Fi pubbliche. Alcuni siti potrebbero non funzionare correttamente.
+- **Il più sicuro**: Riservato a situazioni ad alto rischio (giornalismo investigativo, comunicazioni sensibili, ambienti ostili). La maggior parte dei siti moderni sarà danneggiata, ma questo è il prezzo della massima sicurezza.
 
 
 

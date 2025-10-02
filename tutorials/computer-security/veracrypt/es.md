@@ -82,7 +82,7 @@ En esta etapa, necesitarás establecer una contraseña para cifrar y descifrar t
 
 También te aconsejamos guardar tu contraseña en un gestor de contraseñas. Esto facilita el acceso y elimina el riesgo de olvido. Para nuestro caso específico, un gestor de contraseñas es preferible a un medio en papel. De hecho, en caso de un robo, aunque tu dispositivo de almacenamiento pueda ser robado, la contraseña en el gestor no puede ser encontrada por el atacante, lo que impedirá el acceso a los datos. Por el contrario, si tu gestor de contraseñas se ve comprometido, aún es necesario el acceso físico al dispositivo para explotar la contraseña y acceder a los datos.
 
-Para más información sobre la gestión de contraseñas, te aconsejamos descubrir este otro tutorial :
+Para más información sobre la gestión de contraseñas, te aconsejamos descubrir este otro tutorial:
 Introduce tu contraseña en los 2 campos designados, luego haz clic en "*Next*". ![VeraCrypt](assets/notext/25.webp)
 VeraCrypt te preguntará si planeas almacenar archivos mayores a 4 GiB en el volumen cifrado. Esta pregunta permite al software seleccionar el sistema de archivos más adecuado. Generalmente, se utiliza el sistema FAT porque es compatible con la mayoría de los sistemas operativos, pero impone un límite máximo de tamaño de archivo de 4 GiB. Si necesitas gestionar archivos más grandes, puedes optar por el sistema exFAT.
 ![VeraCrypt](assets/notext/26.webp)

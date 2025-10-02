@@ -1,0 +1,9 @@
+question: Que elemento de um nome de domínio representa o domínio de topo (TLD)?
+answer: O elemento mais à direita
+wrong_answers:
+  - O elemento mais à esquerda
+  - O segundo nível após o anfitrião
+  - O nome do anfitrião principal
+explanation: |
+  O TLD é sempre o elemento mais à direita do FQDN, como .com, .org ou .fr.
+reviewed: false

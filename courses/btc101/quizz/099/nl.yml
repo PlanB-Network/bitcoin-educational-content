@@ -1,12 +1,11 @@
-question: Wat moet je doen als de woorden van je Mnemonic zin eenmaal geschreven zijn?
-answer: Maak een tweede kopie en bewaar deze op een aparte locatie.
+question: Waarom is het aan te raden om uw Bitcoins niet achter te laten op Exchange-platforms?
+answer: Ze kunnen gevoelig zijn voor aanvallen van hackers.
 wrong_answers:
-  - Deel het met een vertrouwde vriend.
-  - E-mail het naar jezelf.
-  - Sla het op in je telefoon.
+  - Exchange platformen brengen willekeurige kosten in rekening.
+  - Bitcoin verliest waarde op Exchange platforms.
+  - Exchange platforms zijn geen gereguleerde instelling.
 explanation: |
-  Zodra de woorden van je Mnemonic zin geschreven zijn, is het
-  aanbevolen om een tweede kopie te maken en deze op een
-  aparte locatie op te slaan. Dit is een back-up
-  in geval van verlies of een ongeluk met de eerste kopie.
+  Het is aan te raden om uw Bitcoins niet achter te laten op Exchange
+  platformen omdat ze gevoelig kunnen zijn voor hacker
+  aanvallen.
 reviewed: true

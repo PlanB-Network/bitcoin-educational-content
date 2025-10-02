@@ -1,11 +1,10 @@
-question: Millega on Bitcoin'i omaksvõtu kõver sarnane?
-answer: S-kõver
+question: Mis on Bitcoini staatus mõnedes riikides?
+answer: Keelatud ja kriminaliseeritud
 wrong_answers:
-  - U-kõver
-  - V-kõver
-  - W-kõver
+  - Täielikult omaks võetud
+  - Osaliselt omaks võetud
+  - Reguleerimata
 explanation: >-
-  Bitcoin'i omaksvõtt, nagu iga uue tehnoloogia puhul, järgib S-kõverat.
-  See on uute tehnoloogiate omaksvõtu tavaline muster, kus omaksvõtt algab
-  aeglaselt, seejärel kiireneb enne kui aeglustub, kui küllastumispunkt on saavutatud.
+  Tekstis mainitakse, et mõned riigid on Bitcoini kasutamise keelanud ja kriminaliseerinud,
+  lisades Bitcoini omaksvõtu keerukusele kultuuride, ajastute ja rahvuste lõikes.
 reviewed: false

@@ -43,7 +43,7 @@ Graylog là một công cụ phân tích và giám sát giúp xác định dễ 
 
 
 
-**Lưu ý: phiên bản miễn phí, **Graylog Open**, không phải là SIEM như Wazuh, đặc biệt là vì nó thiếu các chức năng phát hiện xâm nhập thực sự.
+**Lưu ý: phiên bản miễn phí, **Graylog Open**, không phải là SIEM như Wazuh, đặc biệt là vì nó thiếu các chức năng phát hiện xâm nhập thực sự.**
 
 
 
@@ -57,9 +57,9 @@ Graylog là một công cụ phân tích và giám sát giúp xác định dễ 
 
 
 
-- MongoDB 7**, phiên bản hiện tại được khuyến nghị cho Graylog (tối thiểu 5.0.7, tối đa 7.x)
-- OpenSearch**, một Fork mã nguồn mở của Elasticsearch do Amazon tạo ra (tối thiểu 1.1.x, tối đa 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, phiên bản hiện tại được khuyến nghị cho Graylog (tối thiểu 5.0.7, tối đa 7.x)
+- **OpenSearch**, một Fork mã nguồn mở của Elasticsearch do Amazon tạo ra (tối thiểu 1.1.x, tối đa 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Lưu ý: **Cài đặt OpenSearch là tùy chọn** nếu bạn sử dụng **Graylog Data Node**.
+**Lưu ý:** Cài đặt OpenSearch là tùy chọn nếu bạn sử dụng **Graylog Data Node**.
 
 
 
@@ -149,8 +149,8 @@ Không thể cài đặt MongoDB vì thiếu gói phụ thuộc: **libssl1.1**. 
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -279,14 +279,14 @@ Cấu hình OpenSearch này được thiết kế để thiết lập một nút
 
 
 
-- cluster.name: graylog**: tham số này đặt tên cho cụm OpenSearch bằng tên "**graylog**".
-- node.name: ${HOSTNAME}**: tên nút được đặt động để khớp với tên của máy Linux cục bộ. Ngay cả khi chúng ta chỉ có một nút, việc đặt tên chính xác vẫn rất quan trọng.
-- path.data: /var/lib/opensearch**: đường dẫn này chỉ định nơi OpenSearch lưu trữ dữ liệu của mình trên máy cục bộ, trong trường hợp này là "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: đường dẫn này xác định nơi lưu trữ các tệp nhật ký OpenSearch, tại đây là "**/var/log/opensearch**".
-- discovery.type: single-node**: tham số này cấu hình OpenSearch để hoạt động với một nút duy nhất, do đó lựa chọn tùy chọn "**single-node**".
-- network.host: 127.0.0.1**: cấu hình này đảm bảo rằng OpenSearch chỉ lắng nghe trên vòng lặp cục bộ Interface của nó, điều này là đủ vì nó nằm trên cùng một máy chủ với Graylog.
-- action.auto_create_index: false**: bằng cách vô hiệu hóa tính năng tạo chỉ mục tự động, OpenSearch sẽ không tự động tạo chỉ mục khi tài liệu được gửi mà không có chỉ mục hiện có.
-- plugins.security.disabled: true**: tùy chọn này sẽ vô hiệu hóa plugin bảo mật OpenSearch, nghĩa là sẽ không có xác thực, quản lý truy cập hoặc mã hóa giao tiếp. Cài đặt này giúp tiết kiệm thời gian khi thiết lập Graylog, nhưng nên tránh sử dụng trong môi trường sản xuất (xem [trang này](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: **graylog**: tham số này đặt tên cho cụm OpenSearch bằng tên "**graylog**".
+- node.name: **${HOSTNAME}**: tên nút được đặt động để khớp với tên của máy Linux cục bộ. Ngay cả khi chúng ta chỉ có một nút, việc đặt tên chính xác vẫn rất quan trọng.
+- path.data: /var/lib/opensearch: đường dẫn này chỉ định nơi OpenSearch lưu trữ dữ liệu của mình trên máy cục bộ, trong trường hợp này là "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: đường dẫn này xác định nơi lưu trữ các tệp nhật ký OpenSearch, tại đây là "**/var/log/opensearch**".
+- discovery.type: single-node: tham số này cấu hình OpenSearch để hoạt động với một nút duy nhất, do đó lựa chọn tùy chọn "**single-node**".
+- network.host: 127.0.0.1: cấu hình này đảm bảo rằng OpenSearch chỉ lắng nghe trên vòng lặp cục bộ Interface của nó, điều này là đủ vì nó nằm trên cùng một máy chủ với Graylog.
+- **action.auto_create_index: false**: bằng cách vô hiệu hóa tính năng tạo chỉ mục tự động, OpenSearch sẽ không tự động tạo chỉ mục khi tài liệu được gửi mà không có chỉ mục hiện có.
+- **plugins.security.disabled: true**: tùy chọn này sẽ vô hiệu hóa plugin bảo mật OpenSearch, nghĩa là sẽ không có xác thực, quản lý truy cập hoặc mã hóa giao tiếp. Cài đặt này giúp tiết kiệm thời gian khi thiết lập Graylog, nhưng nên tránh sử dụng trong môi trường sản xuất (xem [trang này](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -350,7 +350,7 @@ Sau đây là hình ảnh về sự thay đổi cần thực hiện:
 
 
 
-Ngoài ra, chúng ta cần kiểm tra cấu hình của tham số "**max_map_count**" trong nhân Linux. Tham số này xác định giới hạn vùng nhớ được ánh xạ cho mỗi tiến trình, nhằm đáp ứng nhu cầu của ứng dụng. **OpenSearch**, giống như Elasticsearch**, khuyến nghị đặt giá trị này thành "262144" để tránh lỗi quản lý bộ nhớ.
+Ngoài ra, chúng ta cần kiểm tra cấu hình của tham số "**max_map_count**" trong nhân Linux. Tham số này xác định giới hạn vùng nhớ được ánh xạ cho mỗi tiến trình, nhằm đáp ứng nhu cầu của ứng dụng. **OpenSearch**, giống như **Elasticsearch**, khuyến nghị đặt giá trị này thành "262144" để tránh lỗi quản lý bộ nhớ.
 
 
 
@@ -431,8 +431,8 @@ Chúng ta hãy bắt đầu bằng cách cấu hình hai tùy chọn này:
 
 
 
-- password_secret**: tham số này được dùng để xác định khóa được Graylog sử dụng để bảo mật việc lưu trữ mật khẩu người dùng (theo tinh thần của khóa salting). Khóa này phải **duy nhất** và **ngẫu nhiên**.
-- root_password_sha2**: tham số này tương ứng với mật khẩu quản trị viên mặc định trong Graylog. Nó được lưu trữ dưới dạng Hash SHA-256.
+- **password_secret**: tham số này được dùng để xác định khóa được Graylog sử dụng để bảo mật việc lưu trữ mật khẩu người dùng (theo tinh thần của khóa salting). Khóa này phải **duy nhất** và **ngẫu nhiên**.
+- **root_password_sha2**: tham số này tương ứng với mật khẩu quản trị viên mặc định trong Graylog. Nó được lưu trữ dưới dạng Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Sau đó, bạn phải thử lại kết nối với người dùng "**admin**" 
 
 
 
-**Điều này không còn đúng nữa. Tất cả những gì bạn phải làm là đăng nhập bằng tài khoản quản trị viên và mật khẩu được cấu hình trên dòng lệnh.
+**Điều này không còn đúng nữa. Tất cả những gì bạn phải làm là đăng nhập bằng tài khoản quản trị viên và mật khẩu được cấu hình trên dòng lệnh.**
 
 
 
@@ -574,7 +574,7 @@ Sau đó, bạn phải thử lại kết nối với người dùng "**admin**" 
 
 
 
-**Chào mừng đến với Interface của Graylog!
+**Chào mừng đến với Interface của Graylog!**
 
 
 
@@ -661,7 +661,7 @@ Bạn cũng có thể chọn tùy chọn "**Lưu toàn bộ tin nhắn**" để 
 ![Image](assets/fr/018.webp)
 
 
-**Lưu ý: có thể sử dụng một Đầu vào duy nhất để lưu trữ nhật ký từ nhiều máy Linux.
+**Lưu ý:** có thể sử dụng một Đầu vào duy nhất để lưu trữ nhật ký từ nhiều máy Linux.
 
 
 
@@ -701,7 +701,7 @@ Bây giờ chúng ta cần tạo một luồng mới để định tuyến tin n
 
 
 
-**Lưu ý: các tin nhắn tương ứng với luồng này cũng sẽ được đưa vào "**Luồng mặc định**", trừ khi bạn chọn tùy chọn "**Xóa kết quả trùng khớp khỏi 'Luồng mặc định'**".
+**Lưu ý: các tin nhắn tương ứng với luồng này cũng sẽ được đưa vào "Luồng mặc định", trừ khi bạn chọn tùy chọn "Xóa kết quả trùng khớp khỏi 'Luồng mặc định'".**
 
 
 

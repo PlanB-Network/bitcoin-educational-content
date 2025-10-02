@@ -271,7 +271,7 @@ Safe 3 kommer att skapa din Mnemonic-fras med hjälp av sin slumptalsgenerator. 
 
 
 
-***Du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen
+**Du får naturligtvis aldrig dela med dig av dessa ord på Internet, vilket jag gör i den här handledningen. Detta exempel Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen**
 
 
 

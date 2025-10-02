@@ -13,10 +13,10 @@ U svetu gde digitalni nadzor postaje sveprisutan, zaštita vaše online privatno
 
 
 
-- Kolačići trećih strana**: mali fajlovi koje postavljaju spoljašnji sajtovi da bi vas pratili sa jednog sajta na drugi
-- Otisak prsta**: prikuplja jedinstvene karakteristike vašeg pregledača i uređaja (rezolucija ekrana, instalirani fontovi, dodaci, itd.) kako bi vas identifikovao bez kolačića
-- Skripte za praćenje**: nevidljivi JavaScript kodovi koji analiziraju vaše ponašanje pri pretraživanju (klikovi, skrolovanje, vreme provedeno)
-- Analiza IP Address**: geografska lokacija i identifikacija vašeg Internet provajdera
+- **Kolačići trećih strana**: mali fajlovi koje postavljaju spoljašnji sajtovi da bi vas pratili sa jednog sajta na drugi
+- **Otisak prsta**: prikuplja jedinstvene karakteristike vašeg pregledača i uređaja (rezolucija ekrana, instalirani fontovi, dodaci, itd.) kako bi vas identifikovao bez kolačića
+- **Skripte za praćenje**: nevidljivi JavaScript kodovi koji analiziraju vaše ponašanje pri pretraživanju (klikovi, skrolovanje, vreme provedeno)
+- Analiza **IP Address**: geografska lokacija i identifikacija vašeg Internet provajdera
 
 
 
@@ -74,25 +74,25 @@ Mullvad pregledač je dizajniran sa jednim glavnim ciljem: **zaštita privatnost
 
 
 
-- Drastično smanjite praćenje oglasa i praćenje** od strane veb-sajtova i oglašivačkih agencija. Po defaultu, Mullvad Browser blokira treće strane koje prate, kolačiće za praćenje i skripte za otiske prstiju koje bi vas mogle identifikovati.
+- Drastično smanjite praćenje oglasa i **praćenje** od strane veb-sajtova i oglašivačkih agencija. Po defaultu, Mullvad Browser blokira treće strane koje prate, kolačiće za praćenje i skripte za otiske prstiju koje bi vas mogle identifikovati.
 
 
 
 
 
-- Standardizujte otisak prsta vašeg pregledača** kako biste se **"stopili s masom"**. Otisak prsta je poput jedinstvene "lične karte" kreirane kombinovanjem svih karakteristika vašeg pregledača. Mullvad Browser osigurava da svi njegovi korisnici imaju potpuno istu "ličnu kartu", čineći ih nemogućim za individualno razlikovanje.
+- Standardizujte otisak prsta vašeg pregledača kako biste se **"stopili s masom"**. Otisak prsta je poput jedinstvene "lične karte" kreirane kombinovanjem svih karakteristika vašeg pregledača. Mullvad Browser osigurava da svi njegovi korisnici imaju potpuno istu "ličnu kartu", čineći ih nemogućim za individualno razlikovanje.
 
 
 
 
 
-- Nudi trenutnu zaštitu bez dodatnih ekstenzija**. Mullvad Browser dolazi u konfiguraciji "spreman za korišćenje": korisnik ne mora da instalira niz ekstenzija ili menja bilo kakva podešavanja da bi bio zaštićen.
+- **Nudi trenutnu zaštitu bez dodatnih ekstenzija**. Mullvad Browser dolazi u konfiguraciji "spreman za korišćenje": korisnik ne mora da instalira niz ekstenzija ili menja bilo kakva podešavanja da bi bio zaštićen.
 
 
 
 
 
-- Ne žrtvujte performanse ili ergonomiju** više nego što je potrebno. U odsustvu Tor rutiranja, Mullvad Browser nudi mnogo brže pretraživanje nego Tor Browser, približavajući se performansama standardnog pretraživača u kombinaciji sa VPN-om.
+- Ne žrtvujte performanse ili ergonomiju **više nego što je potrebno**. U odsustvu Tor rutiranja, Mullvad Browser nudi mnogo brže pretraživanje nego Tor Browser, približavajući se performansama standardnog pretraživača u kombinaciji sa VPN-om.
 
 
 
@@ -100,42 +100,42 @@ Mullvad pregledač je dizajniran sa jednim glavnim ciljem: **zaštita privatnost
 
 
 
-Mullvad Browser uključuje niz **sigurnosnih i privatnih funkcija** direktno inspirisanih Tor Browser-om :
+Mullvad Browser uključuje niz **sigurnosnih i privatnih funkcija** direktno inspirisanih Tor Browser-om:
 
 
 
 
 
-- Privatno pregledanje u svakom trenutku:** Privatni režim pregledanja je podrazumevano aktiviran i ne može se deaktivirati. **Nema istorije, kolačića ili keša koji se čuvaju iz jedne sesije u drugu**. Čim zatvorite Mullvad Browser, svi podaci o pregledanju se brišu.
+- **Privatno pregledanje u svakom trenutku:** Privatni režim pregledanja je podrazumevano aktiviran i ne može se deaktivirati. **Nema istorije, kolačića ili keša koji se čuvaju iz jedne sesije u drugu**. Čim zatvorite Mullvad Browser, svi podaci o pregledanju se brišu.
 
 
 
 
 
-- Poboljšana zaštita protiv otiska prsta:** Pregledač primenjuje stroga podešavanja kako bi osujetio digitalno otiskivanje prsta. Ovo uključuje:
- - Standardizacija korisničkog agenta** i verzije pregledača
- - Vremenska zona postavljena na UTC** za sve korisnike
- - Letterboxing**: tehnika koja automatski dodaje sive margine oko veb stranica kako bi standardizovala veličinu prikaza i sprečila identifikaciju prema dimenzijama vašeg ekrana
- - Blokiraj API-je za otisak prsta**: Canvas (2D crtanje), WebGL (3D grafika) i AudioContext (audio obrada) tehnologije su onemogućene jer mogu otkriti jedinstvene detalje o vašem hardveru
- - Standardizovani sistemski fontovi** kako bi se izbegla identifikacija putem instaliranih fontova
+- **Poboljšana zaštita protiv otiska prsta:** Pregledač primenjuje stroga podešavanja kako bi osujetio digitalno otiskivanje prsta. Ovo uključuje:
+- **Standardizacija korisničkog agenta** i verzije pregledača
+- Vremenska zona postavljena na **UTC** za sve korisnike
+- **Letterboxing**: tehnika koja automatski dodaje sive margine oko veb stranica kako bi standardizovala veličinu prikaza i sprečila identifikaciju prema dimenzijama vašeg ekrana
+- Blokiraj API-je za otisak prsta: **Canvas (2D crtanje), WebGL (3D grafika) i AudioContext (audio obrada)** tehnologije su onemogućene jer mogu otkriti jedinstvene detalje o vašem hardveru
+- **Standardizovani sistemski fontovi** kako bi se izbegla identifikacija putem instaliranih fontova
 
 
 
 
 
-- Blokiranje tragača i oglašavanja:** Mullvad Browser nativno integriše ekstenziju **uBlock Origin** (pre-instalirana) sa dodatnim listama zaštite za blokiranje **tragača trećih strana, oglašivačkih skripti i drugog zlonamernog sadržaja**. Ova zaštita je praćena tehnikom **First-Party Isolation**: tehnikom koja skladišti kolačiće u odvojene "posude" za svaki sajt, sprečavajući jedan sajt da čita kolačiće koje je ostavio drugi.
+- **Blokiranje tragača i oglašavanja:** Mullvad Browser nativno integriše ekstenziju **uBlock Origin** (pre-instalirana) sa dodatnim listama zaštite za blokiranje **tragača trećih strana, oglašivačkih skripti i drugog zlonamernog sadržaja**. Ova zaštita je praćena tehnikom **First-Party Isolation**: tehnikom koja skladišti kolačiće u odvojene "posude" za svaki sajt, sprečavajući jedan sajt da čita kolačiće koje je ostavio drugi.
 
 
 
 
 
-- Dugme za resetovanje sesije:** Kao dugme "New Identity" u Tor pretraživaču, Mullvad pretraživač nudi dugme za **brzo restartovanje pretraživača sa novom, praznom sesijom**.
+- **Dugme za resetovanje sesije:** Kao dugme "New Identity" u Tor pretraživaču, Mullvad pretraživač nudi dugme za **brzo restartovanje pretraživača sa novom, praznom sesijom**.
 
 
 
 
 
-- Podesiti nivoe bezbednosti:** Možete podesiti nivo bezbednosti (*Normalno*, *Bezbednije*, *Najbezbednije*) u podešavanjima, baš kao u Tor pretraživaču.
+- Podesiti nivoe bezbednosti: Možete podesiti nivo bezbednosti (*Normalno*, *Bezbednije*, *Najbezbednije*) u podešavanjima, baš kao u Tor pretraživaču.
 
 
 
@@ -150,7 +150,7 @@ Mullvad Browser uključuje **tri unapred instalirana ekstenzije** koje čine sr�
 ### **uBlock Origin**
 
 
-Ovo proširenje za blokiranje oglasa i praćenja dolazi unapred konfigurisano sa **optimizovanim listama filtera** za blokiranje :
+Ovo proširenje za blokiranje oglasa i praćenja dolazi unapred konfigurisano sa **optimizovanim listama filtera** za blokiranje:
 
 
 
@@ -169,14 +169,14 @@ uBlock Origin u Mullvad Browser koristi standardizovane parametre kako bi osigur
 ### **NoScript**
 
 
-NoScript radi u pozadini kako bi upravljao **nivoima bezbednosti** pregledača. Ovo :
+NoScript radi u pozadini kako bi upravljao **nivoima bezbednosti** pregledača. Ovo:
 
 
 
 
-- Kontroliše izvršavanje JavaScript-a** prema izabranom nivou (Normalno/Najsigurnije/Najsigurnije)
-- Automatski filtrira XSS** (Cross-Site Scripting) napade
-- Blokira opasan** aktivni sadržaj na sajtovima koji nisu HTTPS
+- **Kontroliše izvršavanje JavaScript-a** prema izabranom nivou (Normalno/Najsigurnije/Najsigurnije)
+- Automatski filtrira **XSS** (Cross-Site Scripting) napade
+- Blokira **opasan aktivni sadržaj** na sajtovima koji nisu HTTPS
 - Njegova ikona je podrazumevano skrivena, ali se može prikazati putem "Prilagodi traku sa alatkama"
 
 
@@ -193,10 +193,10 @@ Ovo Mullvad-specifično proširenje nudi različite funkcionalnosti u zavisnosti
 
 
 
-- Osnovna provera veze**: prikazuje vašu trenutnu javnu IP adresu i neke informacije o vezi
-- Preporuke za privatnost**: saveti za poboljšanje vaših sigurnosnih postavki (DNS, samo HTTPS, pretraživač)
-- WebRTC** kontrola: omogućiti/onemogućiti kako bi se sprečilo curenje IP Address
-- Može se izbrisati bez uticaja** na vaš digitalni otisak ako ne koristite Mullvad VPN
+- **Osnovna provera veze**: prikazuje vašu trenutnu javnu IP adresu i neke informacije o vezi
+- **Preporuke za privatnost**: saveti za poboljšanje vaših sigurnosnih postavki (DNS, samo HTTPS, pretraživač)
+- **WebRTC** kontrola: omogućiti/onemogućiti kako bi se sprečilo curenje IP Address
+- Može se izbrisati bez uticaja na vaš digitalni otisak ako ne koristite Mullvad VPN
 
 
 
@@ -209,16 +209,16 @@ Proširenje otkriva svoj puni potencijal sa naprednim funkcijama:
 
 
 
-- Integrisani SOCKS5 proxy**: povezivanje jednim klikom na Mullvad VPN server proxy
- - Fiksna IP Address**: za razliku od VPN-a, koji može promeniti svoj IP Address, proxy uvek garantuje isti izlazni Address
- - Automatski prekidač**: ako se VPN prekine, saobraćaj u pregledaču je odmah blokiran
- - IPv6 podrška**: IPv6 povezivanje čak i ako vaša VPN veza to nema omogućeno
+- **Integrisani SOCKS5 proxy**: povezivanje jednim klikom na Mullvad VPN server proxy
+- **Fiksna IP Address**: za razliku od VPN-a, koji može promeniti svoj IP Address, proxy uvek garantuje isti izlazni Address
+- **Automatski prekidač**: ako se VPN prekine, saobraćaj u pregledaču je odmah blokiran
+- **IPv6 podrška**: IPv6 povezivanje čak i ako vaša VPN veza to nema omogućeno
 
 
 
 
 
-- Multihop (dupli VPN)**: sposobnost promene lokacije proxy-ja kako bi se kreirao tunel unutar tunela
+- **Multihop (dupli VPN)**: sposobnost promene lokacije proxy-ja kako bi se kreirao tunel unutar tunela
  - Vaš saobraćaj prvo prolazi kroz vaš VPN server, a zatim "skače" na drugi Mullvad server.
  - Koristite drugačiju lokalizaciju samo za pregledač.
 
@@ -226,13 +226,13 @@ Proširenje otkriva svoj puni potencijal sa naprednim funkcijama:
 
 
 
-- Napredno praćenje veze**: praćenje statusa vašeg VPN-a u realnom vremenu, povezanog servera i detekcija curenja DNS-a
+- **Napredno praćenje veze**: praćenje statusa vašeg VPN-a u realnom vremenu, povezanog servera i detekcija curenja DNS-a
 
 
 
 
 
-- Pristup Mullvad Leta**: privatni pretraživač rezervisan za pretplatnike (iako ga Mullvad ne preporučuje zbog razloga korelacije sa vašim nalogom)
+- **Pristup Mullvad Leta**: privatni pretraživač rezervisan za pretplatnike (iako ga Mullvad ne preporučuje zbog razloga korelacije sa vašim nalogom)
 
 
 
@@ -250,25 +250,25 @@ Ova tri proširenja rade zajedno kako bi stvorila koherentan ekosistem zaštite,
 
 
 
-- Izvrsna zaštita privatnosti po defaultu:** Mullvad Browser primenjuje veoma stroga podešavanja privatnosti od samog početka, bez potrebe za ručnom konfiguracijom.
+- **Izvrsna zaštita privatnosti po defaultu:** Mullvad Browser primenjuje veoma stroga podešavanja privatnosti od samog početka, bez potrebe za ručnom konfiguracijom.
 
 
 
 
 
-- Bolje performanse od Tor Browser-a:** U nedostatku onion rutiranja, Mullvad Browser je **znatno brži i responzivniji** od Tor Browser-a za klasično pretraživanje interneta.
+- **Bolje performanse od Tor Browser-a:** U nedostatku onion rutiranja, Mullvad Browser je **znatno brži i responzivniji** od Tor Browser-a za klasično pretraživanje interneta.
 
 
 
 
 
-- Poznata jednostavnost Interface:** Mullvad Browser je zasnovan na Firefox-ovom Interface. Ako ste navikli na Firefox ili čak Tor Browser, nećete se osećati izgubljeno.
+- **Poznata jednostavnost Interface:** Mullvad Browser je zasnovan na Firefox-ovom Interface. Ako ste navikli na Firefox ili čak Tor Browser, nećete se osećati izgubljeno.
 
 
 
 
 
-- Pouzdana saradnja i revidirani kod:** Mullvad Browser koristi stručnost Tor Project-a, a sav izvorni kod je dostupan za eksterno revidiranje.
+- **Pouzdana saradnja i revidirani kod:** Mullvad Browser koristi stručnost Tor Project-a, a sav izvorni kod je dostupan za eksterno revidiranje.
 
 
 
@@ -278,25 +278,25 @@ Ova tri proširenja rade zajedno kako bi stvorila koherentan ekosistem zaštite,
 
 
 
-- Nema anonimnosti na mreži bez VPN-a:** Najvažnija stvar je da **Mullvad Browser sam po sebi ne skriva vaš IP Address** (kao i svi drugi pretraživači, osim Tor Browser-a). Vaš IP Address je kao vaša "poštanska Address" na Internetu: otkriva vašu lokaciju i vašeg ISP-a. Stoga **u velikoj meri zavisi od VPN-a** (virtuelne privatne mreže) da sakrije ove ključne informacije.
+- **Nema anonimnosti na mreži bez VPN-a:** Najvažnija stvar je da **Mullvad Browser sam po sebi ne skriva vaš IP Address** (kao i svi drugi pretraživači, osim Tor Browser-a). Vaš IP Address je kao vaša "poštanska Address" na Internetu: otkriva vašu lokaciju i vašeg ISP-a. Stoga **u velikoj meri zavisi od VPN-a** (virtuelne privatne mreže) da sakrije ove ključne informacije.
 
 
 
 
 
-- Nema mobilne verzije:** Do danas je Mullvad Browser dostupan samo na PC-ju (Windows, Mac, Linux).
+- **Nema mobilne verzije:** Do danas je Mullvad Browser dostupan samo na PC-ju (Windows, Mac, Linux).
 
 
 
 
 
-- Nekompatibilno sa određenim navikama:** **stalni privatni režim** znači da ne možete zadržati sesiju od jedne upotrebe do sledeće. Nemoguće je ostati prijavljen na veb nalog iz jedne sesije u drugu.
+- **Nekompatibilno sa određenim navikama:** **stalni privatni režim** znači da ne možete zadržati sesiju od jedne upotrebe do sledeće. Nemoguće je ostati prijavljen na veb nalog iz jedne sesije u drugu.
 
 
 
 
 
-- Ograničene funkcije:** Da bi se očuvala uniformnost otiska prsta, Mullvad Browser je **onemogućio nekoliko funkcija** prisutnih u Firefox-u i nije namenjen za prilagođavanje.
+- **Ograničene funkcije:** Da bi se očuvala uniformnost otiska prsta, Mullvad Browser je **onemogućio nekoliko funkcija** prisutnih u Firefox-u i nije namenjen za prilagođavanje.
 
 
 
@@ -328,7 +328,7 @@ Kliknite na dugme **"Download "** koje odgovara vašem operativnom sistemu.
 
 
 
-Za Linux, možete birati između različitih formata u zavisnosti od vaše distribucije. Kada se preuzimanje završi :
+Za Linux, možete birati između različitih formata u zavisnosti od vaše distribucije. Kada se preuzimanje završi:
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser nudi tri nivoa sigurnosti:
 
 
 
-- Normalno** (trenutni podrazumevani nivo) : Sve funkcije pregledača i vebsajta su omogućene
+- **Normalno** (trenutni podrazumevani nivo): Sve funkcije pregledača i vebsajta su omogućene
 
 
 
 
 
-- Safer**: Onemogućava često opasne funkcije veb-sajtova, što može dovesti do gubitka funkcionalnosti na nekim veb-sajtovima:
+- **Safer**: Onemogućava često opasne funkcije veb-sajtova, što može dovesti do gubitka funkcionalnosti na nekim veb-sajtovima:
  - JavaScript je onemogućen za sajtove koji nisu HTTPS
  - Neki fontovi i matematički simboli su onemogućeni
  - Zvuk i video (HTML5 mediji) kao i WebGL su "klikni za reprodukciju"
@@ -414,7 +414,7 @@ Mullvad Browser nudi tri nivoa sigurnosti:
 
 
 
-- Najbezbednije**: Dozvoljava samo funkcije veb-sajta potrebne za statične sajtove i osnovne usluge:
+- **Najbezbednije**: Dozvoljava samo funkcije veb-sajta potrebne za statične sajtove i osnovne usluge:
  - JavaScript je podrazumevano onemogućen za sve sajtove
  - Neki fontovi, ikone, slike i matematički simboli su onemogućeni.
  - Zvuk i video (HTML5 mediji) kao i WebGL su "klikni za reprodukciju"
@@ -477,7 +477,7 @@ Ako ipak odlučite da instalirate ekstenzije, budite svesni da time kreirate jed
 
 
 
-1. **Uvek koristite VPN: Mullvad Browser ne maskira vašu IP adresu. VPN je neophodan za potpunu anonimnost.
+1. **Uvek koristite VPN: Mullvad Browser ne maskira vašu IP adresu. VPN je neophodan za potpunu anonimnost.**
 
 
 
@@ -489,14 +489,14 @@ Ako ipak odlučite da instalirate ekstenzije, budite svesni da time kreirate jed
 
 
 
-4. **Izaberite nivo bezbednosti koji najbolje odgovara vašim potrebama** :
+4. **Izaberite nivo bezbednosti koji najbolje odgovara vašim potrebama**:
 
 
 
 
-   - Normalno (preporučeno)**: Za svakodnevno pretraživanje. Već nudi odličnu zaštitu uz održavanje funkcionalnosti veb-sajtova. Ovo je najbolji balans za 95% korisnika.
-   - Safer**: Ako posećujete nepoznate ili potencijalno opasne sajtove, ili za dodatnu zaštitu na javnim Wi-Fi mrežama. Neki sajtovi mogu nefunkcionisati ispravno.
-   - Najsigurnije**: Rezervisano za situacije visokog rizika (istraživačko novinarstvo, osetljive komunikacije, neprijateljska okruženja). Većina modernih sajtova neće raditi, ali to je cena maksimalne sigurnosti.
+- **Normalno (preporučeno)**: Za svakodnevno pretraživanje. Već nudi odličnu zaštitu uz održavanje funkcionalnosti veb-sajtova. Ovo je najbolji balans za 95% korisnika.
+- **Safer**: Ako posećujete nepoznate ili potencijalno opasne sajtove, ili za dodatnu zaštitu na javnim Wi-Fi mrežama. Neki sajtovi mogu nefunkcionisati ispravno.
+- **Najsigurnije**: Rezervisano za situacije visokog rizika (istraživačko novinarstvo, osetljive komunikacije, neprijateljska okruženja). Većina modernih sajtova neće raditi, ali to je cena maksimalne sigurnosti.
 
 
 

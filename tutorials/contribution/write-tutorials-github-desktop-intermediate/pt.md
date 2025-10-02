@@ -17,13 +17,13 @@ Já o fez:
 Neste tutorial, veremos como adicionar seu tutorial no Plan ₿ Network configurando seu ambiente local com GitHub Desktop. Se você já domina o Git, este tutorial muito detalhado pode não ser necessário para você. Prefiro recomendar a consulta deste outro tutorial onde apenas apresento as principais diretrizes, sem orientações detalhadas passo a passo:
 
 
-- Utilizadores experientes**:
+- **Utilizadores experientes**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Se preferir não configurar o seu ambiente local, siga este outro tutorial concebido para principiantes, onde fazemos as alterações diretamente através da interface Web do GitHub:
 
 
-- Iniciantes (interface web)**:
+- **Iniciantes (interface web)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Pré-requisitos
@@ -248,32 +248,32 @@ proofreading:
 
 Aqui estão os campos obrigatórios:
 
-- **id** : Um UUID (_Identificador Universalmente Único_) que identifica de maneira única o tutorial. Você pode gerá-lo usando [uma ferramenta online](https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
+- **id**: Um UUID (_Identificador Universalmente Único_) que identifica de maneira única o tutorial. Você pode gerá-lo usando [uma ferramenta online](https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
 
-- **project_id** : O UUID da empresa ou organização por trás da ferramenta apresentada no tutorial [da lista de projetos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se você estiver criando um tutorial sobre o software Green Wallet, poderá encontrar o `project_id` no seguinte arquivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Essas informações são adicionadas ao arquivo YAML do seu tutorial porque a Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam no Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um vínculo entre os dois elementos;
+- **project_id**: O UUID da empresa ou organização por trás da ferramenta apresentada no tutorial [da lista de projetos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se você estiver criando um tutorial sobre o software Green Wallet, poderá encontrar o `project_id` no seguinte arquivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Essas informações são adicionadas ao arquivo YAML do seu tutorial porque a Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam no Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um vínculo entre os dois elementos;
 
-- **tags** : 2 ou 3 palavras-chave relevantes relacionadas ao conteúdo do tutorial, escolhidas exclusivamente [da lista de tags da Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 ou 3 palavras-chave relevantes relacionadas ao conteúdo do tutorial, escolhidas exclusivamente [da lista de tags da Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site Plan ₿ Network (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site Plan ₿ Network (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : O nível de dificuldade do tutorial, escolhido entre:
+- **level**: O nível de dificuldade do tutorial, escolhido entre:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Seu `professor_id` (UUID) conforme exibido no [seu perfil de professor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Seu `professor_id` (UUID) conforme exibido no [seu perfil de professor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : O idioma original do tutorial (por exemplo, `fr`, `en`, etc.);
+- **original_language**: O idioma original do tutorial (por exemplo, `fr`, `en`, etc.);
 
-- **proofreading** : Informações sobre o processo de revisão. Preencha a primeira parte, pois a revisão do seu próprio tutorial conta como uma primeira validação:
-    - **language** : Código do idioma da revisão (por exemplo, `fr`, `en`, etc.).
-    - **last_contribution_date** : Data do dia.
-    - **urgency** : 1
-    - **contributor_names** : Seu ID do GitHub.
-    - **reward** : 0
+- **proofreading**: Informações sobre o processo de revisão. Preencha a primeira parte, pois a revisão do seu próprio tutorial conta como uma primeira validação:
+    - **language**: Código do idioma da revisão (por exemplo, `fr`, `en`, etc.).
+    - **last_contribution_date**: Data do dia.
+    - **urgency**: 1
+    - **contributor_names**: Seu ID do GitHub.
+    - **reward**: 0
 
-Para mais informações sobre o ID do professor, consulte o tutorial correspondente :
+Para mais informações sobre o ID do professor, consulte o tutorial correspondente:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -381,8 +381,8 @@ O ponto de exclamação no início indica que se trata de uma imagem. O texto al
 Se pretender criar os seus próprios diagramas, certifique-se de que segue a carta gráfica do Plano ₿ Rede para garantir a coerência visual:
 
 
-- Tipo de letra**: Utilizar [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Cores**:
+- **Tipo de letra**: Utilizar [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Cores**:
  - Laranja: #FF5C00
  - Preto: #000000
  - Branco: #FFFFFF
@@ -446,5 +446,4 @@ Se pretender alterar a sua contribuição depois de já ter apresentado o seu RP
 - Se o seu PR já tiver sido mesclado com o ramo principal, será necessário iniciar o processo novamente criando um novo ramo e, em seguida, enviando um novo PR. Certifique-se de que o seu repositório local está sincronizado com o repositório de origem Plan ₿ Network antes de continuar.
 
 Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições] (https://t.me/PlanBNetwork_ContentBuilder). Obrigado!
-
 

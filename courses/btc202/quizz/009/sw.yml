@@ -1,0 +1,9 @@
+question: Je, kazi kuu ya nodi ya Bitcoin ni ipi?
+answer: Okoa Blockchain na uthibitishe shughuli na vizuizi
+wrong_answers:
+  - Hifadhi funguo za kibinafsi na ufanye miamala
+  - Unda anwani mpya za watumiaji
+  - Badilisha bitcoins kuwa sarafu za fiat
+explanation: |
+  Nodi ya Bitcoin hudumisha nakala ya Blockchain na inashiriki katika kuthibitisha na kusambaza miamala na vizuizi.
+reviewed: true

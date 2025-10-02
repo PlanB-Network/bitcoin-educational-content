@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Je, ninawezaje kuongeza passphrase kwenye kwingineko yangu ya Trezor?
 ---
 ![cover](assets/cover.webp)
@@ -32,7 +32,7 @@ Chaguo hizi hazipatikani kwenye programu zote za usimamizi wa kwingineko zinazoo
 
 
 
-Katika Trezor Suite, una njia mbili tofauti za kudhibiti mahitaji ya passphrase. Unaweza kuamilisha chaguo la "*passphrase*" kwenye kichupo cha "*Kifaa*". Ikiwashwa, Trezor Suite na programu nyingine zote za usimamizi wa kwingineko zitakuuliza kwa utaratibu uweke passphrase yako kila unapoanzisha. Ikiwa unapendelea mbinu ya busara zaidi ya kutumia passphrase, unaweza kuweka mpangilio katika "*Standard*". Katika hali hii, utahitaji kufikia wewe mwenyewe menyu ya Hardware Wallet katika kona ya juu upande wa kushoto, na ubofye kitufe cha "+ passphrase*" kila mara unapoiwasha.
+Katika Trezor Suite, una njia mbili tofauti za kudhibiti mahitaji ya passphrase. Unaweza kuamilisha chaguo la "**passphrase**" kwenye kichupo cha "**Kifaa**". Ikiwashwa, Trezor Suite na programu nyingine zote za usimamizi wa kwingineko zitakuuliza kwa utaratibu uweke passphrase yako kila unapoanzisha. Ikiwa unapendelea mbinu ya busara zaidi ya kutumia passphrase, unaweza kuweka mpangilio katika "**Standard**". Katika hali hii, utahitaji kufikia wewe mwenyewe menyu ya Hardware Wallet katika kona ya juu upande wa kushoto, na ubofye kitufe cha "**+ passphrase**" kila mara unapoiwasha.
 
 
 
@@ -71,7 +71,7 @@ Dirisha hili litakuuliza uweke passphrase yako. Chagua passphrase dhabiti na ufa
 
 
 
-bila shaka, hupaswi kamwe kushiriki passphrase yako kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Mfano huu wa Wallet utatumika kwenye Testnet pekee na utafutwa mwishoni mwa mafunzo.**_
+bila shaka, hupaswi kamwe kushiriki passphrase yako kwenye Mtandao, kama ninavyofanya katika mafunzo haya. Mfano huu wa Wallet utatumika kwenye Testnet pekee na utafutwa mwishoni mwa mafunzo.
 
 
 

@@ -1,0 +1,9 @@
+question: File konfigurasi mana yang mendefinisikan jaringan statis Interface pada sistem seperti RHEL?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/jaringan/interfaces
+explanation: |
+  Pada RHEL, CentOS, dan sistem serupa, setiap Interface memiliki file ifcfg-* sendiri yang terletak di /etc/sysconfig/network-scripts/.
+reviewed: false

@@ -50,35 +50,63 @@ Pre nego što se upustimo u detalje strukture i funkcionisana Bitkojn novčanika
 Počećemo sa kriptografskim heš funkcijama, koje su fundamentalne kako za novčanike, tako i za sam Bitkojn protokol. Otkrićete njihove glavne karakteristike, specifične funkcije korišćene u Bitkojnu, a u tehnički detaljnijem poglavlju, naučićete detalje o funkcionisanju kraljice heš funkcija: SHA256.
 
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/001.webp)
 
 
 Dalje ćemo se pozabaviti funkcionisanjem algoritama za digitalno potpisivanje koje koristite svakodnevno za obezbeđivanje vaših UTXO-a. Bitcoin koristi dva takva algoritma: ECDSA i Šnor protokol. Naučićete koji matematički primitivi leže u osnovi ovih algoritama i kako oni osiguravaju bezbednost transakcija.
 
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 
 Kada dobro razumemo ove kriptografske elemente, konačno ćemo preći na srž obuke: determinističke i hijerarhijske novčanike! Prvo, postoji odeljak posvećen bezbednosnim frazama, ovim sekvencama od 12 ili 24 reči koje vam omogućavaju da kreirate i obnovite svoje novčanike. Otkrićete kako se ove reči generišu iz izvora entropije i kako olakšavaju korišćenje Bitkojna.
 
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/003.webp)
 
 
 Obuka će se nastaviti proučavanjem BIP39 passphrase (sigurnosna fraza, fraza za pristup), seed (ne treba ga mešati sa bezbednosnom frazom), master lanca koda i master ključa. Detaljno ćemo videti šta su ovi elementi, njihove odgovarajuće uloge i kako se izračunavaju.
 
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/004.webp)
 
 
 Konačno, iz glavnog ključa, otkrićemo kako se izvode kriptografski parovi ključeva na deterministički i hijerarhijski način do adresa za primanje.
 
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 
 Ova obuka će vam omogućiti da koristite vaš softverski novčanik sa samopouzdanjem, dok unapređujete svoje veštine za identifikaciju i ublažavanje rizika. Pripremite se da postanete pravi stručnjak za Bitkojn novčanike!
 
+
+Ova tabela vam nudi prevod glavnih engleskih termina koji se koriste, kako bi vam olakšala razumevanje šema i tehničkih dokumenata korišćenih u okviru kursa CYP 201.
+
+| Engleski        | Prevod / Objašnjenje                                                                               |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Heš javnog ključa (koristi se za generisanje Bitcoin adrese).                                       |
+| *public key*    | Javni ključ (služi za primanje sredstava, izveden iz privatnog ključa).                             |
+| *signature*     | Digitalni potpis (kriptografski dokaz da poruka potiče od vlasnika privatnog ključa).               |
+| *scriptPubKey*  | Skripta zaključavanja (definiše uslove za trošenje izlaza).                                         |
+| *scriptSig*     | Skripta otključavanja (obezbeđuje podatke za ispunjavanje *scriptPubKey*).                          |
+| *Stack*         | Stek (struktura podataka koju koristi *Bitcoin Script*).                                            |
+| *input*         | Ulaz transakcije (referenca na prethodni izlaz korišćen kao izvor).                                 |
+| *output*        | Izlaz transakcije (definiše primaoca i iznos).                                                      |
+| *transaction*   | Bitcoin transakcija (skup ulaza i izlaza koji potvrđuju transfer).                                  |
+| *XOR*           | Logički operator "isključivo ILI", koristi se u nekim kriptografskim šemama.                       |
+| *HMAC*          | Kod za autentifikaciju poruka zasnovan na hešu i tajnom ključu.                                     |
+| *ECDSA*         | Algoritam digitalnog potpisa sa eliptičnim krivama.                                                 |
+| *hash*          | Heš (jedinstveni i fiksni otisak podataka).                                                         |
+| *SigHash*       | Tip heša potpisa (definiše koji delovi transakcije se potpisuju).                                   |
+| *HD Wallet*     | Hijerarhijski deterministički novčanik (generiše više ključeva iz jednog semena).                   |
+| *Random Number* | Nasumičan broj (koristi se za generisanje sigurnih privatnih ključeva).                             |
+| *State*         | Stanje (međuvrednost u kriptografskom procesu).                                                     |
+| *Entropy*       | Entropija (mera nasumičnosti, koristi se za generisanje semena za novčanike).                       |
+| *Mnemonic*      | Mnemotehnika (niz reči koji olakšava čuvanje i obnavljanje semena).                                 |
+| *Wordlist*      | Lista reči (unapred definisan skup korišćen za generisanje BIP39 mnemotehnika).                     |
+| *Seed*          | Semе (početna vrednost koja omogućava izvođenje svih ključeva iz HD novčanika).                     |
+| *Address*       | Bitcoin adresa (čitljiv identifikator za primanje sredstava, izveden iz javnog ključa).             |
+| *Leaf*          | List (krajnji čvor u stablu derivacije).                                                            |
 
 # Heš Funkcije
 
@@ -111,7 +139,7 @@ Na primer, SHA256 heš funkcija proizvodi heš fiksne dužine od 256 bita. Dakle
 ```
 
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 
 ### Karakteristike heš funkcija
@@ -136,7 +164,7 @@ Nepovratnost znači da je lako izračunati heš iz ulaznih informacija, ali obrn
 U datom primeru, dobijanje heš vrednosti `24f1b9…` znajući unos "_PlanB_" je jednostavno i brzo. Međutim, pronalaženje poruke "_PlanB_" samo znajući `24f1b9…` je nemoguće.
 
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 
 Stoga je nemoguće pronaći preimage tj.input $m$ znajući vrednost heša $h$ tako da je $h = \text{Hash}(m)$, gde je $\text{Hash}$ kriptografska heš funkcija.
@@ -164,7 +192,7 @@ bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 
 Ovo svojstvo osigurava da se čak i najmanja promena originalne poruke odmah otkrije, jer ne menja samo mali deo heša, već ceo heš. Ovo može biti od interesa u raznim oblastima za verifikaciju integriteta poruka, softvera ili čak Bitkojn transakcija.
@@ -181,7 +209,7 @@ $$
 $$
 
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 
 U stvarnosti, matematički je neizbežno da kolizije postoje za heš funkcije, jer veličina ulaza može biti veća od veličine izlaza. Ovo je poznato kao Dirihleov princip fioka: ako je $n$ objekata raspoređeno u $m$ fioka, sa $m < n$, onda će najmanje jedna fioka nužno sadržati dva ili više objekata. Za heš funkciju, ovaj princip se primenjuje jer je broj mogućih poruka gotovo beskonačan, dok je broj mogućih heševa konačan ($2^{256}$ u slučaju SHA256 funkcije).
@@ -206,7 +234,7 @@ $$
 Dakle, otpornost na drugi preimage (ulaz) je donekle slična otpornosti na koliziju, osim što je ovde napad teži jer napadač ne može slobodno izabrati $m_1$.
 
 
-![CYP201](assets/fr/005.webp)
+![CYP201](assets/en/010.webp)
 
 
 ### Primene heš funkcija u Bitkojnu
@@ -339,7 +367,7 @@ Ovo popunjavanje bitovima za dužinu poruke se dodaje nakon popunjavanja bitovim
 - 64-bitna reprezentacija dužine $M$ za formiranje popunjavanja sa veličinom.
 
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 
 ### Inicijalizacija promenljivih
@@ -491,7 +519,7 @@ $$
 Šema pomeranja u desno može se videti ovako:
 
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 
 
 Još jedna operacija koja se koristi u SHA256 za manipulaciju bitovima je desna kružna rotacija, označena sa $RotR_n(x)$, koja pomera $x$ bitove udesno za $n$ pozicija, umećući pomerene bitove na početak niza.
@@ -510,7 +538,7 @@ $$
 Šema za kružno pomeranje u desno može izgledati ovako:
 
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 
 ### Funkcija kompresije
@@ -553,7 +581,7 @@ U ovom slučaju, $x$ je jednako $W_{i-15}$ za $\sigma_0(x)$ i $W_{i-2}$ za $\sig
 Kada odredimo sve reči $W_i$ za naš 512-bitni deo, možemo preći na funkciju kompresije, koja se sastoji od izvođenja 64 runde.
 
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 
 Za svaku rundu $i$ od 0 do 63, imamo tri različite vrste ulaza. Prvo, $W_i$ koji smo upravo odredili, delimično sastavljenu od naše poruke $P_n$. Zatim, 64 konstante $K_i$. Na kraju, koristimo variable stanja $A$, $B$, $C$, $D$, $E$, $F$, $G$ i $H$, koje će se menjati tokom procesa heširanja i biti modifikovane svakom funkcijom kompresije. Međutim, za prvi deo $P_1$, koristimo prethodno date početne konstante.
 
@@ -562,7 +590,7 @@ Zatim izvodimo sledeće operacije na našim ulazima:
 
 
 
-- Funkcija $\Sigma_0$:**
+- Funkcija $\Sigma_0$:
 
 
 $$
@@ -571,7 +599,7 @@ $$
 
 
 
-- Funkcija $\Sigma_1$:**
+- Funkcija $\Sigma_1$:
 
 
 $$
@@ -580,7 +608,7 @@ $$
 
 
 
-- Funkcija $Ch$ ("_Choose_"):**
+- Funkcija $Ch$ ("_Choose_"):
 
 
 $$
@@ -589,7 +617,7 @@ $$
 
 
 
-- Funkcija $Maj$ ("_Majority_"):**
+- Funkcija $Maj$ ("_Majority_"):
 
 
 $$
@@ -638,7 +666,7 @@ $$
 Sledeći dijagram predstavlja rundu SHA256 kompresione funkcije kako smo upravo opisali:
 
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 
 
@@ -781,7 +809,7 @@ HMAC je kriptografski algoritam koji izračunava autentifikacioni kod na osnovu 
 Evo njegove opšte operativne šeme sa $m$ kao ulaznom porukom i $K$ kao tajnim ključem:
 
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 
 Hajde da detaljnije proučimo šta se dešava u ovoj HMAC-SHA512 crnoj kutiji. Funkcija HMAC-SHA512 sa:
@@ -835,7 +863,7 @@ Ova jednačina je razložena na sledeće korake:
 Ovi koraci se mogu šematski rezimirati na sledeći način:
 
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 
 HMAC se koristi u Bitcoin-u posebno za derivaciju ključeva u HD (Hijerarhijski Deterministički) novčanicima (o tome ćemo detaljnije govoriti u narednim poglavljima) i kao komponenta PBKDF2.
@@ -873,7 +901,7 @@ $$
 Šema PBKDF2 može biti predstavljen na sledeći način:
 
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 
 U ovom poglavlju smo istražili funkcije HMAC-SHA512 i PBKDF2, koje koriste heš funkcije kako bi osigurale integritet i sigurnost derivacija ključeva u Bitcoin protokolu. U sledećem delu ćemo se baviti digitalnim potpisima, još jednom kriptografskom metodom koja se široko koristi u Bitcoin-u.
@@ -930,7 +958,7 @@ Važna osobina ovih krivih je da su simetrične u odnosu na x-osu. Dakle, svaka 
 Evo prikaza eliptičke krive nad poljem realnih brojeva:
 
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 
 Svaka eliptička kriva definisana je jednačinom oblika:
@@ -964,7 +992,7 @@ $$
 Njegova grafička reprezentacija u skupu realnih brojeva izgleda ovako:
 
 
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 
 
 Međutim, u kriptografiji radimo sa konačnim skupovima brojeva. Tačnije, radimo na konačnom polju $\mathbb{F}_p$, koje je polje celih brojeva modulo prosti broj $p$.
@@ -1007,7 +1035,7 @@ $$
 S obzirom na to da je ova kriva definisana nad konačnim poljem $\mathbb{F}_p$, ona više ne liči na kontinuiranu krivu već na diskretan skup tačaka. Na primer, evo kako izgleda kriva korišćena u Bitcoin-u za veoma malo $p = 17$:
 
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 
 U ovom primeru, namerno sam ograničio konačno polje na $p = 17$ iz obrazovnih razloga, ali treba zamisliti da je ono korišćeno u Bitcoin-u neizmerno veće, skoro $2^{256}$.
@@ -1087,13 +1115,13 @@ gde:
 Činjenica da je tačka $G$ zajednička za sve javne ključeve u Bitcoin-u omogućava nam da budemo sigurni da će isti privatni ključ $k$ uvek dati isti javni ključ $K$:
 
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 
 Glavna karakteristika ove operacije je da je to jednosmerna funkcija. Lako je izračunati javni ključ $K$ znajući privatni ključ $k$ i generator tačku $G$, ali je praktično nemoguće izračunati privatni ključ $k$ znajući samo javni ključ $K$ i generator tačku $G$. Pronalaženje $k$ iz $K$ i $G$ svodi se na rešavanje problema diskretnog logaritma na eliptičkim krivama, matematički teškog problema za koji nije poznat efikasan algoritam. Čak ni najmoćniji trenutni kalkulatori nisu u stanju da reše ovaj problem u razumnom vremenu.
 
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 
 ### Dodavanje i udvostručavanje tačaka na eliptičkim krivama
@@ -1113,7 +1141,7 @@ $$
 Grafički, ovo se može predstaviti na sledeći način:
 
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 
 Za udvostručavanje tačke, što je operacija $P + P$, povlačimo tangentu na krivu u tački $P$. Ova tangenta seče krivu u drugoj tački $S'$. Zatim uzimamo refleksiju ove tačke u odnosu na x-osu da bismo dobili tačku $S$, koja je rezultat udvostručavanja:
@@ -1130,7 +1158,7 @@ $$
 Grafički, ovo je prikazano kao:
 
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 
 Korišćenjem ovih operacija sabiranja i udvostručavanja, možemo izvršiti skalarno množenje tačke celim brojem $k$, označeno sa $kP$, izvođenjem ponovljenih udvostručavanja i sabiranja.
@@ -1155,7 +1183,7 @@ Grafički, ovo odgovara izvođenju niza sabiranja i udvostručavanja:
 - Izračunajte $4G$ udvostručavanjem $2G$.
 
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 
 Ako želimo, na primer, da izračunamo tačku $3G$, prvo moramo izračunati tačku $2G$ udvostručavanjem tačke $G$, zatim dodati $G$ i $2G$. Da bismo dodali $G$ i $2G$, jednostavno nacrtamo pravu koja povezuje ove dve tačke, pronađemo jedinstvenu tačku $-3G$ na preseku između ove prave i eliptičke krive, a zatim odredimo $3G$ kao suprotnost od $-3G$.
@@ -1183,7 +1211,7 @@ $$
 Grafički, ovo bi bilo predstavljeno na sledeći način:
 
 
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 
 
 ### Jednosmerna funkcija
@@ -1399,7 +1427,7 @@ $$
 Prvi korak do generisanja potpisa je heš poruka. Ali za razliku od ECDSA, to se radi sa drugim vrednostima i koristi se heš funkcija kojoj je dodata oznaka (label) kako bi se izbegle kolizije u različitim kontekstima. Ova heš funkcija jednostavno podrazumeva dodavanje proizvoljne oznake ulazima heš funkcije zajedno sa podacima poruke.
 
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 
 Pored poruke, $x$ koordinata javnog ključa $K_x$, kao i tačka $R = r \cdot G$, izračunata iz nonce-a $r$ (koji je sam po sebi jedinstven ceo broj za svaki potpis, deterministički izračunat iz privatnog ključa i poruke kako bi se izbegle ranjivosti povezane sa ponovnom upotrebom nonce-a), takođe se prosleđuju u heš funkciju sa oznakom. Kao i za javni ključ, samo $x$ koordinata nonce tačke $R_x$ se zadržava da opiše tačku.
@@ -1491,13 +1519,13 @@ $$
 Šema Schnorr potpisa nudi nekoliko prednosti za Bitcoin u odnosu na originalni ECDSA algoritam. Prvo, Schnorr omogućava agregaciju ključeva i potpisa. To znači da se više javnih ključeva može kombinovati u jedan ključ.
 
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 
 Isto tako, više potpisa može biti agregirano u jedan važeći potpis. Dakle, u slučaju transakcije sa više potpisa, skup učesnika može potpisati sa jednim potpisom i jednim agregiranim javnim ključem. Ovo značajno smanjuje troškove skladištenja i računanja za mrežu, jer svaki čvor treba da verifikuje samo jedan potpis.
 
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 
 Štaviše, agregacija potpisa poboljšava privatnost. Sa Schnorr-om, postaje nemoguće razlikovati transakciju sa višestrukim potpisom od standardne transakcije sa jednim potpisom. Ova homogenost otežava analizu blokčejna, jer ograničava mogućnost identifikacije novčanika.
@@ -1549,7 +1577,7 @@ U Bitcoin-u, postoje pre svega 3 osnovna sighash indikatora:
 - `SIGHASH_ALL` (`0x01`): Potpis se odnosi na sve ulaze i sve izlaze transakcije. Transakcija je tako u potpunosti pokrivena potpisom i više se ne može menjati. `SIGHASH_ALL` je najčešće korišćen sighash u svakodnevnim transakcijama kada neko jednostavno želi da izvrši transakciju bez mogućnosti njenog menjanja.
 
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 
 U svim dijagramima ovog poglavlja, narandžasta boja predstavlja elemente pokrivene potpisom, dok crna boja označava one koji nisu.
@@ -1559,14 +1587,14 @@ U svim dijagramima ovog poglavlja, narandžasta boja predstavlja elemente pokriv
 - `SIGHASH_NONE` (`0x02`): Potpis pokriva sve ulaze, ali nijedan izlaz, što omogućava modifikaciju izlaza nakon potpisivanja. U konkretnim terminima, ovo je slično blanko čeku. Potpisnik otključava UTXO-e u ulazima, ali ostavlja polje izlaza potpuno promenljivim. Svako ko zna za ovu transakciju može dodati izlaz po svom izboru, na primer, specificiranjem adrese za primanje kako bi prikupio sredstava potrošenih inputa, a zatim emitovati transakciju da prihvati bitkojne. Potpis vlasnika ulaza neće biti poništen, jer pokriva samo ulaze.
 
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 
 
 - `SIGHASH_SINGLE` (`0x03`): Potpis pokriva sve ulaze kao i jedan izlaz, koji odgovara indeksu potpisanog ulaza. Na primer, ako potpis otključava _scriptPubKey_ ulaza #0, onda pokriva i izlaz #0. Potpis takođe štiti sve ostale ulaze, koji se više ne mogu menjati. Međutim, svako može dodati dodatni izlaz bez poništavanja potpisa, pod uslovom da izlaz #0, koji je jedini pokriven njime, nije izmenjen.
 
 
-![CYP201](assets/fr/028.webp)
+![CYP201](assets/en/033.webp)
 
 
 Pored ova tri sighash indikatora, postoji i modifikator `SIGHASH_ANYONECANPAY` (`0x80`). Ovaj modifikator se može kombinovati sa osnovnim sighash indikatorom kako bi se kreirala tri nova sighash indikatora:
@@ -1576,21 +1604,21 @@ Pored ova tri sighash indikatora, postoji i modifikator `SIGHASH_ANYONECANPAY` (
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): Potpis pokriva jedan ulaz dok uključuje sve izlaze transakcije. Ovaj kombinovani sighash indikator omogućava, na primer, kreiranje transakcije za crowdfunding. Organizator priprema izlaz sa svojom adresom i ciljnim iznosom, a svaki investitor može dodati ulaze kako bi finansirao ovaj izlaz. Kada se skupi dovoljno sredstava u ulazima da zadovolje izlaz, transakcija se može emitovati.
 
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 
 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Potpis pokriva jedan ulaz, bez obavezivanja na bilo koji izlaz;
 
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Potpis pokriva jedan ulaz kao i izlaz koji ima isti indeks kao ovaj ulaz. Na primer, ako potpis otključava _scriptPubKey_ ulaza #3, pokriće i izlaz #3. Ostatak transakcije ostaje promenljiv, kako u smislu drugih ulaza, tako i drugih izlaza.
 
 
-![CYP201](assets/fr/031.webp)
+![CYP201](assets/en/036.webp)
 
 
 ### Projekti za dodavanje novih Sighash indikatora
@@ -1602,7 +1630,7 @@ Trenutno (2024), samo sighash indikatori predstavljeni u prethodnom odeljku su u
 Ova dva sighash indikatora bi ponudile dodatnu mogućnost u Bitcoin-u: kreiranje potpisa koji ne pokrivaju nijedan specifičan ulaz transakcije.
 
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 
 Ovu ideju su prvobitno formulisali Joseph Poon i Thaddeus Dryja u Lightning White Paper-u. Pre nego što je preimenovan, ovaj sighash indikator se zvao `SIGHASH_NOINPUT`.
@@ -1653,7 +1681,7 @@ Uloga Bitcoin novčanika je upravo da bezbedno upravlja ovim privatnim ključevi
 Prvi novčanici korišćeni u Bitcoin-u bili su JBOK (_Just a Bunch Of Keys_) novčanici, koji su grupisali privatne ključeve generisane nezavisno i bez ikakve veze među njima. Ovi novčanici su radili na jednostavnom modelu gde je svaki privatni ključ mogao da otključa jedinstvenu Bitcoin primajuću adresu.
 
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 
 Ako neko želi da koristi više privatnih ključeva, bilo je potrebno napraviti onoliko rezervnih kopija koliko je potrebno da se obezbedi pristup sredstvima u slučaju problema sa uređajem koji hostuje novčanik. Ako se koristi jedan privatni ključ, ova struktura novčanika može biti dovoljna, jer je jedna rezervna kopija dovoljna. Međutim, ovo predstavlja problem: u Bitcoin-u se snažno savetuje protiv korišćenja uvek istog privatnog ključa. Naime, privatni ključ je povezan sa jedinstvenom adresom, a Bitcoin adrese za primanje su obično dizajnirane za jednokratnu upotrebu. Svaki put kada primite sredstva, trebalo bi da generišete novu praznu adresu.
@@ -1673,7 +1701,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 Kako bi se rešilo ograničenje JBOK novčanika, naknadno je korišćena nova struktura novčanika. Godine 2012, Pieter Wuille je predložio poboljšanje sa BIP32, koje uvodi HD (Hijerarhijski Determinističke) novčanike. Princip HD novčanika je da se svi privatni ključevi izvedu iz jednog izvora informacija, nazvanog seed, na deterministički i hijerarhijski način. Ovaj seed se nasumično generiše kada se novčanik kreira i predstavlja jedinstvenu rezervnu kopiju koja omogućava rekreaciju svih privatnih ključeva novčanika. Tako korisnik može generisati veoma veliki broj privatnih ključeva kako bi izbegao ponovnu upotrebu adresa i očuvao svoju privatnost, dok mu je potrebno samo da napravi jednu rezervnu kopiju svog novčanika putem seed-a.
 
 
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 
 U HD novčanicima, derivacija ključeva se vrši prema hijerarhijskoj strukturi koja omogućava da ključevi budu organizovani u derivacione podprostore, pri čemu se svaki podprostor može dalje deliti, kako bi se olakšalo upravljanje sredstvima i interoperabilnost između različitih softverskih novčanika. Danas, ovaj standard usvaja velika većina korisnika Bitcoin-a. Iz tog razloga, detaljno ćemo ga ispitati u narednim poglavljima.
@@ -1722,7 +1750,7 @@ Početna entropija korišćena za HD Wallet je generalno 128 bita ili 256 bita, 
 U većini slučajeva, ovaj nasumični broj automatski generiše softver novčanika koristeći PRNG (_Pseudo-Random Number Generator_). PRNG-ovi su kategorija algoritama koji se koriste za generisanje sekvence brojeva iz početnog stanja, koje imaju karakteristike približne onima nasumičnog broja, bez da su zaista nasumični. Dobar PRNG mora imati osobine kao što su uniformnost izlaza, nepredvidivost i otpornost na napade putem predviđanja vrednosti. Za razliku od pravih generatora nasumičnih brojeva (TRNG-ova), PRNG-ovi su deterministički i reproduktivni.
 
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 
 Alternativa je ručno generisanje entropije, što nudi bolju kontrolu, ali je takođe mnogo rizičnije. Snažno preporučujem da ne pokušavate sami da generišete entropiju za svoj HD novčanik.
@@ -1770,7 +1798,7 @@ $$
 Jednom kada je kontrolni zbir izračunat, on se konkatenira sa entropijom da bi se dobila proširena sekvenca bitova označena sa $\text{ENT} \Vert \text{CS}$ ("konkatenirati" znači spojiti stvari jednu za drugom).
 
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 
 ### Korespondencija između entropije i bezbednosne fraze
@@ -1809,25 +1837,25 @@ Na primer, za entropiju od 256 bita, rezultat $\text{ENT} \Vert \text{CS}$ je 26
 Bit sekvenca $\text{ENT} \Vert \text{CS}$ se zatim deli na segmente od 11 bita. Svaki segment od 11 bita, kada se konvertuje u decimalni oblik, odgovara broju između 0 i 2047, koji označava poziciju reči [u listi od 2048 reči standardizovanih od strane BIP39](https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 
 
 Na primer, za entropiju od 128 bita, kontrolni zbir je 4 bita, i tako ukupna sekvenca iznosi 132 bita. Ona je podeljena na 12 segmenata od po 11 bita (narandžasti bitovi označavaju kontrolni zbir):
 
 
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 
 Svaki segment se zatim konvertuje u decimalni broj koji predstavlja reč u listi. Na primer, binarni segment `01011010001` je ekvivalentan decimalnom broju `721`. Dodavanjem 1 da bi se uskladilo sa indeksiranjem liste (koje počinje od 1, a ne od 0), ovo daje rang reči `722`, što je "_focus_" u listi.
 
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 
 Ova prepiska se ponavlja za svaki od 12 segmenata, kako bi se dobila fraza od 12 reči.
 
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 
 ### Karakteristike BIP39 liste reči
@@ -1897,7 +1925,7 @@ Budite pažljivi, passphrase ne treba mešati sa PIN kodom vašeg hardverskog no
 Passphrase radi u tandemu sa bezbednosnom frazom, modifikujući seed iz koje se generišu ključevi. Dakle, čak i ako neko dobije vašu frazu od 12 ili 24 reči, bez passphrase, ne može pristupiti vašim sredstvima. Korišćenje passphrase u suštini stvara novi novčanik sa različitim ključevima. Modifikovanje passphrase-a (čak i minimalno) će generisati drugačiji novčanik.
 
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 
 ### Zašto bi trebalo da koristite passphrase?
@@ -1920,7 +1948,7 @@ Da bi passphrase bio efikasan, mora biti dovoljno dug i nasumičan. Kao i kod ja
 Takođe je važno pravilno sačuvati ovaj passphrase, na isti način kao i bezbednosnu frazu. **Gubitak znači gubitak pristupa vašim bitcoinima**. Snažno savetujem protiv oslanjanja samo na pamćenje, jer to nerazumno povećava rizik od gubitka. Idealno je zapisati ga na fizički medijum (papir ili metal) odvojen od bezbednosne fraze. Ova rezervna kopija mora očigledno biti uskladištena na drugom mestu od mesta gde je vaša bezbednosna fraza uskladištena kako bi se sprečilo da obe budu istovremeno ugrožene.
 
 
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 
 U sledećem odeljku, otkrićemo kako se ova dva osnovna elementa vašeg novčanika — bezbednosna fraza i passphrase — koriste za izvođenje parova ključeva korišćenih u _scriptPubKey_ koji zaključavaju vaše UTXO-ve.
@@ -1941,7 +1969,7 @@ U sledećem odeljku, otkrićemo kako se ova dva osnovna elementa vašeg novčani
 Kada se generišu bezbednosna fraza i opcioni passphrase, može početi proces derivacije Bitcoin HD novčanika. Bezbednsona fraza se prvo konvertuje u seed koji čini osnovu svih ključeva novčanika.
 
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 
 ### Seed HD novčanika
@@ -1970,7 +1998,7 @@ s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 $$
 
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 
 Vrednost seed-a je stoga pod uticajem vrednosti bezbednosne fraze i passphrase-a. Promenom passphrase-a dobija se drugačiji seed. Međutim, sa istom bezbednosnom frazom i passphrase-om, uvek se generiše isti seed, jer je PBKDF2 deterministička funkcija. Ovo osigurava da se isti parovi ključeva mogu povratiti putem naših rezervnih kopija.
@@ -2026,7 +2054,7 @@ C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 $$
 
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 
 ### Uloga glavnog ključa i lanca koda
@@ -2049,7 +2077,7 @@ Pre nego što nastavimo sa izvođenjem HD novčanika sa sledećim elementima, ž
 Prošireni ključ je jednostavno konkatenacija ključa (bilo privatnog ili javnog) i njegovog pridruženog lanca koda. Ovaj lanac koda je ključan za izvođenje podključeva jer, bez njega, nije moguće izvesti podključeve iz roditeljskog ključa, ali ćemo ovaj proces preciznije istražiti u sledećem poglavlju. Ovi prošireni ključevi tako omogućavaju agregaciju svih potrebnih informacija za izvođenje podključeva, čime se pojednostavljuje upravljanje računima unutar HD novčanika.
 
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 
 Prošireni ključ se sastoji iz dva dela:
@@ -2083,7 +2111,7 @@ Za nastavak, usvojićemo sledeću notaciju:
 - $k_{\text{CHD}}^h$: ojačani privatni podključ.
 
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 
 ### Izgradnja proširenog ključa
@@ -2218,7 +2246,7 @@ Izvođenje parova ključeva za decu u Bitcoin HD novčanicima oslanja se na hije
 Sva ova izvođenja počinju sa glavnim ključem i glavnim kodom lanca, koji su prvi roditelji na dubinskom nivou 0. Oni su, na neki način, Adam i Eva ključeva vašeg novčanika, zajednički preci svih izvedenih ključeva.
 
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 
 Hajde da istražimo kako ova deterministička derivacija funkcioniše.
@@ -2250,7 +2278,7 @@ Izvođenje svakog ključa deteta zasniva se na HMAC-SHA512 funkciji, koju smo di
 U svim našim proračunima, označiću $\text{Hash}$ kao izlaz funkcije HMAC-SHA512.
 
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 
 #### Izvođenje privatnog ključa deteta iz privatnog ključa roditelja
@@ -2311,7 +2339,7 @@ $$
 Evo šematski prikaz celokupne izvedbe:
 
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 
 Za **ojačani ključ deteta** ($i \geq 2^{31}$), proračun $\text{Hash}$ je sledeći:
@@ -2359,7 +2387,7 @@ $$
 Evo šematskog prikaza celokupne izvedbe:
 
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 
 Možemo videti da normalna derivacija i ojačana derivacija funkcionišu na isti način, sa ovom razlikom: normalna derivacija koristi roditeljski javni ključ kao ulaz za HMAC funkciju, dok ojačana derivacija koristi roditeljski privatni ključ.
@@ -2426,7 +2454,7 @@ $$
 Evo šematskog prikaza celokupne izvedbe:
 
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 
 ### Korespondencija između javnih i privatnih ključeva deteta
@@ -2542,7 +2570,7 @@ Svaki nalog definisan na dubini 3 je zatim strukturisan u dva lanca:
 Konačno, dubina 5 predstavlja poslednji korak derivacije u novčaniku. Iako je tehnički moguće nastaviti beskonačno, trenutni standardi se zaustavljaju ovde. Na ovoj konačnoj dubini, parovi ključeva koji će zapravo biti korišćeni za zaključavanje i otključavanje UTXO-a su izvedeni. Svaki indeks omogućava razlikovanje između parova ključeva braće i sestara: tako će prva prijemna adresa koristiti indeks $/0/$, druga indeks $/1/$, i tako dalje.
 
 
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 
 ### Označavanje putanja derivacije
@@ -2680,7 +2708,7 @@ Kao što je ranije objašnjeno, uloga transakcije je da prenese vlasništvo nad 
 Kada korisnik primi bitkoine, pošiljalac kreira UTXO i zaključava ga pomoću *scriptPubKey*. Ovaj skript sadrži pravila za otključavanje UTXO, obično navodeći potpise i javne ključeve koji su potrebni. Da bi potrošio ovaj UTXO u novoj transakciji, korisnik mora obezbediti tražene informacije putem *scriptSig*. Izvršenje *scriptSig* u kombinaciji sa *scriptPubKey* mora vratiti "true" ili `1`. Ako je ovaj uslov ispunjen, UTXO se može potrošiti za kreiranje novog UTXO, koji je sam zaključan novim *scriptPubKey*, i tako dalje.
 
 
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 
 Upravo u *scriptPubKey* se nalaze adrese primaoca. Međutim, njihova upotreba varira u zavisnosti od usvojenog standarda skripte. Ovde je tabela sažetka informacija sadržanih u *scriptPubKey* prema korišćenom standardu, kao i informacija koje se očekuju u *scriptSig* da bi se otključao *scriptPubKey*.
@@ -2727,56 +2755,56 @@ Izvršenje skripte koju sam upravo dao kao primer prati ovaj proces:
 - Imamo *scriptSig*, *scriptPubKey* i stek:
 
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 
 
 - *scriptSig* je gurnut na stek:
 
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 
 
 - `OP_DUP` duplira javni ključ naveden u *scriptSig* na steku:
 
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 
 
 - `OP_HASH160` vraća heš javnog ključa koji je upravo dupliran:
 
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 
 
 - `OP_PUSHBYTES_20 <pubKeyHash>` postavlja Bitcoin adresu sadržanu u *scriptPubKey* na stek:
 
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 
 
 - `OP_EQUALVERIFY` proverava da li se heširani javni ključ poklapa sa datom primajućom adresom:
 
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 
 
 `OP_CHECKSIG` proverava potpis sadržan u *scriptSig* koristeći javni ključ. Ovaj opkode u suštini vrši proveru potpisa kao što smo opisali u delu 3 ove obuke:
 
 
 
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 
 
 - Ako `1` ostane na steku, onda je skripta važeća:
 
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 
 Stoga, da rezimiramo, ovaj skript omogućava verifikaciju, uz pomoć digitalnog potpisa, da korisnik koji tvrdi da je vlasnik ovog UTXO-a i želi da ga potroši zaista poseduje privatni ključ povezan sa prijemnom adresom korišćenom tokom kreiranja ovog UTXO.
@@ -2839,7 +2867,7 @@ Tehnički, P2TR skripta zaključava bitkoine na jedinstveni Schnorr javni ključ
 P2TR tako nudi veliku fleksibilnost, jer omogućava zaključavanje bitkoina bilo sa jedinstvenim javnim ključem, sa nekoliko skripti po izboru, ili oba istovremeno. Prednost ove Merkle Tree strukture je da se tokom transakcije otkriva samo skripta koja se koristi za trošenje, dok sve druge alternativne skripte ostaju tajne.
 
 
-![CYP201](assets/fr/063.webp)
+![CYP201](assets/en/068.webp)
 
 
 P2TR odgovara verziji 1 SegWit izlaza, što znači da su potpisi za P2TR ulaze pohranjeni u *Witness* sekciju transakcije, a ne u *scriptSig*. P2TR adrese koriste *bech32m* kodiranje i počinju sa `bc1p`, ali su prilično jedinstvene jer ne koriste heš funkciju za svoju konstrukciju. Zapravo, one direktno predstavljaju javni ključ $Q$ koji je jednostavno formatiran sa metapodacima. Dakle, to je skript model blizak P2PK.
@@ -2872,7 +2900,7 @@ Javni ključ u Bitcoin-u je tačka $K$ koja se nalazi na eliptičnoj krivi. Pred
 Međutim, eliptičke krive imaju svojstvo simetrije u odnosu na x-osu: za datu $x$ koordinatu, postoje samo dve moguće vrednosti za $y$: $y$ i $-y$. Ove dve tačke se nalaze sa obe strane x-ose. Drugim rečima, ako znamo $x$, dovoljno je odrediti da li je $y$ paran ili neparan da bismo identifikovali tačnu tačku na krivi.
 
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 
 
 Da bi se kompresovao javni ključ, kodira se samo $x$, koji zauzima 256 bita, i dodaje se prefiks da bi se specificirala parnost $y$. Ova metoda smanjuje dužinu javnog ključa na 264 bita umesto početnih 520. Prefiks `0x02` označava da je $y$ paran, a prefiks `0x03` označava da je $y$ neparan.
@@ -3130,7 +3158,7 @@ Posebnost ovog _bech32_ alfabeta je da uključuje sve alfanumeričke karaktere o
 Da rezimiramo, evo procesa izvođenja:
 
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 
 Ovo je način kako izvesti P2WPKH (SegWit v0) primajuću adresu iz para ključeva. Sada pređimo na P2TR (SegWit v1 / Taproot) adrese i otkrijmo njihov proces generisanja.
@@ -3181,7 +3209,7 @@ gde:
 
 
 
-- $\text{H}_{\text{TapTweak}}$** je SHA256 heš funkcija označena oznakom `TapTweak`. Ako niste upoznati sa time šta je označena heš funkcija, pozivam vas da pogledate poglavlje 3.3;
+- $\text{H}_{\text{TapTweak}}$ je SHA256 heš funkcija označena oznakom `TapTweak`. Ako niste upoznati sa time šta je označena heš funkcija, pozivam vas da pogledate poglavlje 3.3;
 - $P$ je interni javni ključ, predstavljen u kompresovanom formatu od 256 bita, koristeći samo $x$ koordinatu.
 
 
@@ -3254,7 +3282,7 @@ $$
 Zatim nastavljamo spajanjem rezultata dva po dva, propuštajući ih kroz označenu heš funkciju `TapBranch` na svakom koraku, sve dok ne dobijemo Merkle Tree Root, koji predstavlja koren:
 
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 
 Jednom kada se izračuna Merkle Root $h_{\text{root}}$, možemo izračunati prilagodbu. Za ovo, konkatenišemo interni javni ključ novčanika $P$ sa korenom $h_{\text{root}}$, a zatim sve to propuštamo kroz označenu heš funkciju `TapTweak`:

@@ -107,7 +107,7 @@ Se preferisci farlo manualmente, segui questi passaggi:
 - Individua la cartella appropriata nel repository locale (ad esempio, `tutorials/wallet`).
 - Crea una cartella dedicata al tutorial con un nome chiaro (ad esempio `green-wallet`). Il nome di questa cartella determinerà anche il percorso URL del tutorial. Deve essere scritto in minuscolo, senza caratteri speciali (tranne i trattini) e senza spazi.
 - Aggiungi i seguenti elementi a questa directory:
-    - Una sottocartella denominata `assets` contenente :
+    - Una sottocartella denominata `assets` contenente:
         - Due immagini `.webp`:
             - `logo.webp`: Il logo del tutorial (formato quadrato con sfondo). Questo logo deve rappresentare il software o lo strumento presentato. Se il tutorial non è specifico per uno strumento (ad esempio, una guida generale alla generazione di una frase mnemonica), si può scegliere un'immagine adatta (ad esempio, un'icona generica).
             - `cover.webp`: Immagine di copertina visualizzata all'inizio del tutorial.
@@ -123,9 +123,9 @@ mkdir green-wallet
 cd green-wallet
 # Créez le sous-dossier 'assets'
 mkdir -p assets
-# Créez le sous-dossier pour le code de la langue d’origine (exemple : 'en' pour l’anglais)
+# Créez le sous-dossier pour le code de la langue d’origine (exemple: 'en' pour l’anglais)
 mkdir -p assets/en
-# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple : 'en.md' pour l’anglais)
+# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple: 'en.md' pour l’anglais)
 touch tutorial.yml en.md
 ```
 
@@ -284,7 +284,7 @@ git push origin tuto-green-wallet-loic
     - Markdown classico: elenchi, link, immagini, citazioni, grassetto, corsivo, ecc.
     - LaTeX (solo blocco, non in linea): delimitato da `$$`.
     - Codice in linea: Sintassi con un singolo backtick.
-    - Blocchi di codice: Sintassi con tre trattini, ad esempio :
+    - Blocchi di codice: Sintassi con tre trattini, ad esempio:
 
 ```
 print("Hello, Bitcoin!")

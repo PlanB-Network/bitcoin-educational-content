@@ -1,0 +1,9 @@
+question: Bir Full node'ın temel özelliği nedir?
+answer: Blockchain'in tamamını indirir ve doğrular
+wrong_answers:
+  - Sadece blok başlıklarını korur
+  - Doğrulamadan sonra eski blokları siler
+  - İşlemleri doğrulamak için başka bir düğüme bağlıdır
+explanation: |
+  Full node, Blockchain'nin tamamını tutar ve her bloğu ve işlemi bağımsız olarak doğrular.
+reviewed: true

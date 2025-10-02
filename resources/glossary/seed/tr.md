@@ -11,4 +11,4 @@ seed, hiyerarşik deterministik portföyün temellerini tanımlayan BIP32 ile ic
 Bitcoin bağlamı dışında, genel olarak kriptografide seed, generate kriptografik anahtarlar için kullanılan bir başlangıç değeridir veya daha geniş anlamda, bir sözde rastgele sayı üreteci tarafından üretilen herhangi bir veri türüdür. Kriptografik sistemin güvenliğini garanti altına almak için bu başlangıç değerinin rastgele ve öngörülemez olması gerekir. Aslında, seed sisteme entropi katar, ancak bunu takip eden üretim süreci deterministiktir.
 
 
-> ► *Genel tabirle, bitcoin kullanıcılarının çoğu "seed "den bahsederken Mnemonic ifadesine atıfta bulunur, Mnemonic ifadesi ile ana anahtar arasında yer alan ara türetme durumuna değil
+> ► *Genel tabirle, bitcoin kullanıcılarının çoğu "seed"den bahsederken Mnemonic ifadesine atıfta bulunur, Mnemonic ifadesi ile ana anahtar arasında yer alan ara türetme durumuna değil*

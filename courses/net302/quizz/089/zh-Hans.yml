@@ -1,0 +1,9 @@
+question: ping 命令使用哪种协议测试网络连接？
+answer: ICMP
+wrong_answers:
+  - TCP
+  - UDP
+  - 地址解析协议
+explanation: |
+  ping 命令使用 ICMP 协议发送回波请求并测量网络延迟。
+reviewed: false

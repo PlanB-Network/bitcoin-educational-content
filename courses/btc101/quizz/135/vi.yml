@@ -1,11 +1,10 @@
-question: Chức năng của việc điều chỉnh độ khó trong mạng lưới Bitcoin là gì?
-answer: Nó đảm bảo rằng một khối được thêm vào blockchain khoảng mỗi mười phút.
+question: Node cắt tỉa trong bối cảnh của Bitcoin là gì?
+answer: Một node chỉ giữ lại N khối cuối cùng trong bộ nhớ.
 wrong_answers:
-  - Nó quyết định giá của Bitcoin.
-  - Nó điều chỉnh số lượng bitcoin có thể được khai thác trong blockchain.
-  - Nó quyết định kích thước của một khối.
+  - Một node chỉ xác nhận các giao dịch.
+  - Một node chỉ truyền thông tin cho các node khác.
+  - Một node chỉ thực thi các quy tắc của giao thức Bitcoin.
 explanation: >-
-  Việc điều chỉnh độ khó trong mạng lưới Bitcoin đảm bảo rằng một khối
-  được thêm vào khoảng mỗi mười phút. Đây là một phần của quy tắc giao thức
-  của mạng lưới Bitcoin.
+  Một node cắt tỉa trong bối cảnh của Bitcoin là một node chỉ giữ lại
+  N khối cuối cùng trong bộ nhớ.
 reviewed: true

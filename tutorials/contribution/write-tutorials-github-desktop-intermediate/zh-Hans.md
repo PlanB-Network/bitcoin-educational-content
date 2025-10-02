@@ -17,13 +17,13 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 在本教程中，我们将了解如何通过 GitHub Desktop 设置本地环境，在 Plan ₿ Network 上添加自己的教程。如果你已经熟练掌握 Git，可能就没必要看这么详细的教程了。我建议您参考另一篇教程，其中只介绍了主要指南，没有详细的分步指导：
 
 
-- 经验丰富的用户**：
+- **经验丰富的用户**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 如果你不想设置本地环境，可以参考另一篇专为初学者设计的教程，我们将直接通过 GitHub 的网页界面进行更改：
 
 
-- 初学者（网络界面）**：
+- 初学者（网络界面）：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## 先决条件
@@ -248,30 +248,30 @@ proofreading:
 
 以下是必填字段：
 
-- **id** : 一个 UUID (_Universally Unique Identifier_) 用于唯一标识教程。您可以使用 [在线工具](https://www.uuidgenerator.net/version4) 生成它。唯一的要求是这个 UUID 是随机生成的，以避免与平台上的其他 UUID 冲突；
+- **id**: 一个 UUID (_Universally Unique Identifier_) 用于唯一标识教程。您可以使用 [在线工具](https://www.uuidgenerator.net/version4) 生成它。唯一的要求是这个 UUID 是随机生成的，以避免与平台上的其他 UUID 冲突；
 
-- **project_id** : 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Network 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
+- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Network 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
 
-- **tags** : 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Network 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
+- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Network 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
 
-- **category** : 对应于教程内容的子类别，根据 Plan ₿ Network 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
+- **category**: 对应于教程内容的子类别，根据 Plan ₿ Network 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
 
-- **level** : 教程的难度级别，可从以下选项中选择：
+- **level**: 教程的难度级别，可从以下选项中选择：
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : 您的 `professor_id` (UUID)，如在 [您的教授资料](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) 中显示；
+- **professor_id**: 您的 `professor_id` (UUID)，如在 [您的教授资料](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) 中显示；
 
-- **original_language** : 教程的原始语言（例如 `fr`、`en` 等）；
+- **original_language**: 教程的原始语言（例如 `fr`、`en` 等）；
 
-- **proofreading** : 有关校对过程的信息。请填写第一部分，因为自己校对教程也算作第一次验证：
-    - **language** : 校对的语言代码（例如 `fr`、`en` 等）。
-    - **last_contribution_date** : 当前日期。
-    - **urgency** : 1
-    - **contributor_names** : 您的 GitHub ID。
-    - **reward** : 0
+- **proofreading**: 有关校对过程的信息。请填写第一部分，因为自己校对教程也算作第一次验证：
+    - **language**: 校对的语言代码（例如 `fr`、`en` 等）。
+    - **last_contribution_date**: 当前日期。
+    - **urgency**: 1
+    - **contributor_names**: 您的 GitHub ID。
+    - **reward**: 0
 
 有关教师 ID 的详细信息，请参阅相应的教程 ：
 
@@ -381,8 +381,8 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 如果您想创建自己的图表，请务必遵守 Plan ₿ Network 的图形章程，以确保视觉一致性：
 
 
-- 字体**：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
-- 颜色**：
+- 字体：使用 [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)；
+- **颜色**：
  - 橙色#FF5C00
  - 黑色：#000000
  - 白色#FFFFFF
@@ -446,5 +446,4 @@ assets "文件夹中的语言子文件夹用于存储教程中的图表和视觉
 - 如果您的 PR 已与主分支合并，则需要重新创建一个新分支，然后提交一份新 PR。在继续之前，请确保本地版本库与 Plan ₿ Network 源版本库同步。
 
 如果您在提交教程时遇到技术问题，请随时在[我们的专用投稿 Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder)上寻求帮助。谢谢！
-
 

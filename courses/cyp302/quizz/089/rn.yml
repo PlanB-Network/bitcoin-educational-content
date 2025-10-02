@@ -1,0 +1,9 @@
+question: Ni akamaro akahe ko gukoresha Nonce y’imburakimazi mu buryo bwa CBC na OFB?
+answer: Bituma igihe cose co gushiramwo amakuru kiba kidasanzwe, mbere no ku makuru asa.
+wrong_answers:
+  - Bigabanya uburebure bw’urufunguzo mu gihe cose c’ugushiramwo amakuru.
+  - Bituma ugushiramwo amakuru vyihuta.
+  - Bituma kode ya algorithme irushiriza kuba nziza ku bantu.
+explanation: |
+  Mu gukoresha Nonce y’imburakimazi ku kiganiro cose, uburyo bwa CBC na OFB buratuma uburyo bwo gushiramwo amakuru buba ubwihariye, ivyo bikaba bibuza ibitero bikoresha amakuru asa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Które narzędzie wyświetla szczegółowe komunikaty DNS, w tym rekordy i proces rozwiązywania?
+answer: kopać
+wrong_answers:
+  - gospodarz
+  - ping
+  - arp
+explanation: |
+  dig (Domain Information Groper) dostarcza szczegółowych informacji na temat rozwiązywania DNS, w tym typów rekordów.
+reviewed: false

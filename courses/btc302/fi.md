@@ -82,7 +82,7 @@ Tämä merkittävä kasvu liittyy luonnollisesti läheisesti seuraaviin tekijöi
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/fi/001.webp)
 
 
 
@@ -108,7 +108,7 @@ Tämän kurssin tavoitteena on antaa sinulle kaikki, mitä tarvitset Bitcoin-yht
 
 
 
-**Jakso 1: Johdanto
+**Jakso 1: Johdanto**
 
 
 Aloitamme korostamalla, miten tärkeää on yhdistää ihmisiä Bitcoin:n ympärille, olipa kyse sitten verkkoyhteisöistä tai paikallisista tapaamisista. Saat selville, miksi ja missä oma yhteisö kannattaa perustaa ja miten asettaa selkeät tavoitteet yhteisön kasvun ja pitkän aikavälin kestävyyden edistämiseksi.
@@ -227,7 +227,7 @@ Rakentamalla ensimmäisiä tulevaisuuden "linnakkeita" **Bitcoin-yhteisöt maail
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/fi/002.webp)
 
 
 
@@ -248,11 +248,11 @@ Kuten aiemmin mainittiin, **tapaamiset järjestetään yleensä yhteisön perust
 Kun bitcoinerin matka kehittyy, hänellä on usein halu tai jopa tarve **tapaamiseen ja vuorovaikutukseen henkilökohtaisesti muiden** kanssa, jotka kuuluvat samaan ekosysteemiin. Tämä voi johtua siitä, että tuntee itsensä eristäytyneeksi tai yksinkertaisesti siitä, ettei ole ketään, jonka kanssa puhua Bitcoin:stä jokapäiväisessä elämässä.
 
 
-Tapaamiset tarjoavat henkilökohtaisemman ja viihtyisämmän kokemuksen kuin ääni- tai videopuhelut verkossa. Ne luovat epämuodollisia ja ystävällisiä tiloja, joissa ihmiset voivat vaihtaa ajatuksia avoimesti ja suoraan, olipa kyse sitten juomasta tai ateriasta**.
+Tapaamiset tarjoavat henkilökohtaisemman ja viihtyisämmän kokemuksen kuin ääni- tai videopuhelut verkossa. Ne luovat epämuodollisia ja ystävällisiä tiloja, joissa ihmiset voivat vaihtaa ajatuksia avoimesti ja suoraan, olipa kyse sitten juomasta tai ateriasta.
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/fi/003.webp)
 
 
 Bitcoin-kokoukset voivat palvella monia tarkoituksia:
@@ -314,7 +314,7 @@ Voit tarkistaa [btcmap.org](https://btcmap.org/communities/map#0/0/0/), jossa lu
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/fi/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Aiheista riippuen (tekniset puheenvuorot tai käytännön työpajat) voi olla jo
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/fi/005.webp)
 
 
 
@@ -416,7 +416,7 @@ Jos visiosi on **luoda tiivis, motivoitunut yhteisö**, joka keskittyy oranssinp
 
 
 
-** Aseta lyhyen, keskipitkän ja pitkän aikavälin tavoitteet****
+**Aseta lyhyen, keskipitkän ja pitkän aikavälin tavoitteet**
 
 Käytännöllinen tapa suunnitella on asettaa tavoitteet kullekin aikavälille:
 
@@ -516,7 +516,7 @@ Tässä on muutamia esimerkkejä ranskalaisten yhteisöjen logoista:
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/fi/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Tässä on muutamia esimerkkejä ranskalaisten yhteisöjen logoista:
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/fi/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Tässä on muutamia esimerkkejä ranskalaisten yhteisöjen logoista:
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/fi/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Tässä on muutamia esimerkkejä ranskalaisten yhteisöjen logoista:
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/fi/009.webp)
 
 
 
@@ -567,7 +567,7 @@ Jos inspiraatio iskee, voit mennä vielä pidemmälle: luo yhteisöllesi vaakuna
 
 
 
-Voit käyttää [Canvaa](https://www.canva.com/)** erilaisten visuaalisten kuvien luomiseen yhteisöäsi varten.
+Voit käyttää [Canvaa](https://www.canva.com/) erilaisten visuaalisten kuvien luomiseen yhteisöäsi varten.
 
 
 
@@ -612,57 +612,57 @@ Tässä on valmiita Canva-malleja, jotka voit kopioida ja mukauttaa yhteisöäsi
 
 
 
-- Tapaamisen ilmoitusjuliste** (sosiaalista mediaa ja A4/A3-tulostusta varten): [linkki](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Tapaamisen ilmoitusjuliste** (sosiaalista mediaa ja A4/A3-tulostusta varten): [linkki](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
-
-
-
-
-
-- Tapahtumajuliste** (sosiaaliseen mediaan ja A4/A3-tulostukseen): [linkki](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![image](assets/fi/010.webp)
 
 
 
 
 
-- sosiaalisen median bannerit**: [linkki](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Tapahtumajuliste** (sosiaaliseen mediaan ja A4/A3-tulostukseen): [linkki](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Kilpailuilmoitus**: [linkki](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-
-![image](assets/fr/011.webp)
+- **sosiaalisen median bannerit**: [linkki](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- kirjastomme brändiohjeet**, jotka ovat esillä A4-kokoontumisissa: [linkki](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Kilpailuilmoitus**: [linkki](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+![image](assets/fi/011.webp)
 
 
 
 
 
-- PowerPoint-esitys** "Chapter 2 - Understanding Bitcoin transactions", jonka on laatinut @ProfEduStream: [linkki](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **kirjastomme brändiohjeet**, jotka ovat esillä A4-kokoontumisissa: [linkki](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- esite** "21 syytä käyttää Bitcoin:ta", kirjoittanut @ProfEduStream: [linkki](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **PowerPoint-esitys** "Chapter 2 - Understanding Bitcoin transactions", jonka on laatinut @ProfEduStream: [linkki](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
-![image](assets/fr/012.webp)
 
 
-![image](assets/fr/013.webp)
+- **Esite** "21 syytä käyttää Bitcoin:ta", kirjoittanut @ProfEduStream: [linkki](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+![image](assets/fi/012.webp)
+
+
+![image](assets/fi/013.webp)
 
 
 
@@ -722,7 +722,7 @@ Viime aikoina on kehitetty monia muitakin tekoälytyökaluja, joten tämä luett
 
 
 
-**Esimerkki: Bitcoin Lontoon futuristisen logon luominen****
+**Esimerkki: Bitcoin Lontoon futuristisen logon luominen**
 
 Jos haluat suunnitella futuristisen logon "Bitcoin London" -tapaamista varten, voit kysyä Copilotilta:
 
@@ -732,7 +732,7 @@ Jos haluat suunnitella futuristisen logon "Bitcoin London" -tapaamista varten, v
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/fi/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Jos neljä ensimmäistä tulosta eivät ole riittävän realistisia, tarkenna py
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/fi/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Siistimpi ulkoasu, kuten tarra:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/fi/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Esimerkiksi sveitsiläiset yhteisöt käyttävät pääasiassa Telegramia, Twitt
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/fi/017.webp)
 
 
 
@@ -901,7 +901,7 @@ Itse asiassa **Telegram-kanava on pikemminkin yksisuuntainen lähetystyökalu yl
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/fi/018.webp)
 
 
 
@@ -925,7 +925,7 @@ Toisaalta **Telegram-ryhmä on ihanteellinen yhteisöille**: Messengerin tai Wha
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/fi/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Vinkki: Mukauta aiheet yhteisön tarpeisiin. Esimerkki: Abidjan Bitcoin Meet-up 
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/fi/020.webp)
 
 
 Muista, että **Telegramin superryhmien käyttö voi olla joillekin jäsenille hieman hankalaa**. Kaikki eivät esimerkiksi tiedä, **miten pääsee eri aiheisiin** (heidän täytyy vain napauttaa ryhmän logoa Telegramin päävalikossa nähdäksesi koko aiheiden luettelon). Nopean kuvakaappauksen lähettäminen voi auttaa selvittämään epäselvyyksiä.
@@ -1053,7 +1053,7 @@ On erittäin suositeltavaa **kirjoittaa selkeä kuvaus tapaamisesta**, kun luot 
 
 > Tutustu muihin sosiaalisiin verkostoihimme: [LINKKI] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/fi/021.webp)
 
 
 
@@ -1092,21 +1092,21 @@ Käyttämällä **robottia [@GroupHelpBot](https://telegram.me/grouphelpbot)**, 
 
 
 - **säännöt-komento** (/rules), joka näyttää yhteisön säännöt;
-- Roskapostin** torjunta epäilyttävien viestien ja tilien suodattamiseksi;
-- Mukautettavat automaattiset tervetuliaisviestit** uusille jäsenille (valinnainen automaattinen poisto muutaman minuutin kuluttua)
-- Anti-flood-suojaus** estää viestien roskapostitusta
+- **Roskapostin** torjunta epäilyttävien viestien ja tilien suodattamiseksi;
+- **Mukautettavat automaattiset tervetuliaisviestit** uusille jäsenille (valinnainen automaattinen poisto muutaman minuutin kuluttua)
+- **Anti-flood-suojaus** estää viestien roskapostitusta
 - **@administrator-komento** ryhmän ylläpitäjien nopeaa tavoittamista varten
-- Estosäännöt** ei-toivottua sisältöä varten
+- **Estosäännöt** ei-toivottua sisältöä varten
 - **Ryhmän linkkikomento** (/link)
 - Komento **lupien hallinta**
-- Tiettyjen viestityyppien automaattinen poistaminen**
-- Bottien esto** ja **sisään-/uloskäynnin esto**, jotta ryhmäsi pysyy turvassa
+- **Tiettyjen viestityyppien automaattinen poistaminen**
+- **Bottien esto** ja **sisään-/uloskäynnin esto**, jotta ryhmäsi pysyy turvassa
 - Luettele **yhteisösi sosiaaliset verkostot** (/networks)
 - Ja paljon muuta...
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/fi/022.webp)
 
 
 
@@ -1232,14 +1232,14 @@ Juuri näin FREE Madeira -kollektiivi on tehnyt.
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/fi/023.webp)
 
 
 
 Tietenkin myös muut alustat voivat olla hyödyllisiä. Facebook (joko ryhmä tai sivu) tai jopa LinkedIn.
 
 
-Pidä kuitenkin mielessä, että mitä useampia viestintäkanavia ja sosiaalisia verkostoja hallinnoit, sitä enemmän aikaa se vaatii**. Usein on parempi keskittyä **oleellisimpiin**, Twitter (ja NOSTR) ovat hyviä vaihtoehtoja aloittaa.
+Pidä kuitenkin mielessä, että mitä useampia viestintäkanavia ja sosiaalisia verkostoja hallinnoit, sitä enemmän aikaa se vaatii. Usein on parempi keskittyä **oleellisimpiin**, Twitter (ja NOSTR) ovat hyviä vaihtoehtoja aloittaa.
 
 
 
@@ -1271,7 +1271,7 @@ Twitter on erittäin helppokäyttöinen, ja yksityisyyden suojaa parantaaksesi s
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/fi/024.webp)
 
 
 
@@ -1308,8 +1308,8 @@ Tässä ovat **avainasiat, joihin kannattaa keskittyä näkyvyyden lisäämiseks
     - Kannusta yhteisöäsi vuorovaikutukseen:
         - Like = paino 0,5
         - Uudelleentwiittaus = paino 1
-        - Vastaus = paino 27 (!!)**
-    - Vastaa ihmisille, jotka vastaavat twiitteihisi** (paino 75!!);
+- Vastaus = paino 27 (**!!**)
+- Vastaa ihmisille, jotka vastaavat twiitteihisi **(paino 75!!)**;
     - Vältä linkkien sijoittamista päätwiittaukseen: lisää ne sen sijaan ensimmäiseen kommenttiin..;
     - Kirjoita sanat kokonaan, vältä lyhenteitä.
 
@@ -1324,11 +1324,11 @@ Tässä ovat **avainasiat, joihin kannattaa keskittyä näkyvyyden lisäämiseks
 
 
 
-Lisäksi voit kiinnittää twiitin tai viestiketjun Twitter-profiiliisi antaaksesi sille mahdollisimman suuren näkyvyyden**, aivan kuten Bitcoin Witsand -yhteisö Etelä-Afrikassa tekee.
+Lisäksi voit kiinnittää twiitin tai viestiketjun Twitter-profiiliisi antaaksesi sille mahdollisimman suuren näkyvyyden, aivan kuten Bitcoin Witsand -yhteisö Etelä-Afrikassa tekee.
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/fi/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Toinen hyvä esimerkki ovat **Cercle du Coin** -ateriat.
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/fi/026.webp)
 
 
 
@@ -1418,7 +1418,7 @@ Näihin kuuluvat:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, sivusto, jossa on kaksi päivittäin päivitettävää karttaa: **[Bitcoin:n hyväksyvien yritysten maailmankartta](https://btcmap.org/map)** ja **[maailman yhteisöjen kartta](https://btcmap.org/communities/map)**. Monet bitcoin-käyttäjät tarkistavat näitä karttoja säännöllisesti, olivatpa he sitten matkoilla tai menossa jokapäiväiseen elämäänsä, tutustuakseen uusiin ihmisiin tai löytääkseen paikkoja, joissa he voivat käyttää Sats:nsa. Btcmap on maailmanlaajuinen referenssi, ja yhteisönne listaaminen sinne on tärkeää näkyvyyden kannalta.** **
+- [Btcmap.org](https://btcmap.org/), sivusto, jossa on kaksi päivittäin päivitettävää karttaa: **[Bitcoin:n hyväksyvien yritysten maailmankartta](https://btcmap.org/map)** ja **[maailman yhteisöjen kartta](https://btcmap.org/communities/map)**. Monet bitcoin-käyttäjät tarkistavat näitä karttoja säännöllisesti, olivatpa he sitten matkoilla tai menossa jokapäiväiseen elämäänsä, tutustuakseen uusiin ihmisiin tai löytääkseen paikkoja, joissa he voivat käyttää Sats:nsa. Btcmap on maailmanlaajuinen referenssi, ja yhteisönne listaaminen sinne on tärkeää näkyvyyden kannalta.
 - [BitcoinerEvents] (https://www.bitcoinerevents.com/), bitcoinereiden bitcoinereille luoma verkkosivusto. **Sen avulla voit julkaista yhteisösi tulevia tapahtumia**. Ranskassa sitä ei kuitenkaan vielä käytetä laajalti.
 - maastasi riippuen voi olla muitakin paikallisia aloitteita. Ranskassa on esimerkiksi [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), jossa **luetteloidaan kymmeniä Bitcoin-tapahtumia joka kuukausi**. Jos et siis ole vielä seurannut heitä Twitterissä tai ottanut heihin yhteyttä jakaaksesi tietoa yhteisöstäsi ja tapahtumista, nyt on sen aika! **Jotta Ranskan tapahtumakalenteri pysyisi ajan tasalla, olisi hienoa, jos kaikki ranskalaiset Bitcoin-yhteisöt ottaisivat tavakseen:**
     - mainitsemalla @bitcoinpointfr Twitterissä jokaisesta uudesta yhteisötapahtumasta
@@ -1426,7 +1426,7 @@ Näihin kuuluvat:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/fi/027.webp)
 
 
 Myös muut alustat voivat lisätä näkyvyyttäsi. **[Meetup](https://www.meetup.com/)** on yksi niistä, ja se on verkkosivusto (ja puhelinsovellus), jossa voit luoda tapahtuman ja löytää muita lähistöllä.
@@ -1476,7 +1476,7 @@ Tämänkaltaisen tapahtuman avulla voit omassa mittakaavassasi **luoda Bitcoin:n
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/fi/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ Sen sijaan, että valitsisit päivämäärän itse, on yleensä parasta **luoda 
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/fi/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Kun tapaamisesi on vasta alussa, ei useinkaan ole oikea aika muodolliselle esitt
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/fi/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ Ensimmäisessä tapauksessa selkeä tavoite voi varmistaa, että osallistujat op
 Toisessa tapauksessa toinen kuukausittainen tapahtuma voisi olla omistettu tietylle teemalle, kuten aloittelijoiden istunnoille tai työpajoille (Mining, Lightning, solmujen asennus jne.).
 
 
-![image](assets/fr/031.webp)
+![image](assets/fi/031.webp)
 
 
 
@@ -1608,11 +1608,11 @@ Lisäksi tässä on kolme tärkeää asiaa, jotka on syytä pitää mielessä:
 
 
 - Jos aiot jakaa illan kahteen osaan: ensin pidetään esitys virallisessa tilassa, jotta kaikki voivat keskittyä, ja sen jälkeen siirrytään baariin tai ravintolaan jatkamaan rennommassa ilmapiirissä, kokemus on osoittanut, että paikan vaihtaminen kesken illan johtaa usein siihen, että jotkut osallistujat lähtevät tauon aikana. Tätä lähestymistapaa ei siksi suositella.
-- Ensimmäisissä tapaamisissa osallistujamäärä on todennäköisesti pieni, etkä todennäköisesti pidä virallisia esityksiä. Tällöin sinun ei tarvitse esittäytyä omistajalle tai selittää tavoitteitasi. Kun tapaamisista tulee säännöllisiä ja niissä käy paljon ihmisiä, kannattaa kuitenkin tehdä niin osoittaaksesi ammattimaisuutta ja ilmaistaksesi halusi palata kuukausittain**. Tämä voi johtaa moniin keskusteluihin (automaattiset kuukausittaiset varaukset, ilmaiset juomat ja/tai ruokalautaset, alennukset, keskustelut Bitcoin:stä, Bitcoin-maksujen hyväksyminen jne.) On selvää, että jos etsit nimenomaan paikkaa, jossa on videoprojektori esitysten pitämistä varten, vaikuttaa olennaisen tärkeältä pyytää tapaamista (kasvotusten tai jopa puhelimitse) omistajan ja/tai johtajan kanssa esittelemään projektisi ja tavoitteesi.
+- Ensimmäisissä tapaamisissa osallistujamäärä on todennäköisesti pieni, etkä todennäköisesti pidä virallisia esityksiä. Tällöin sinun ei tarvitse esittäytyä omistajalle tai selittää tavoitteitasi. Kun tapaamisista tulee säännöllisiä ja niissä käy paljon ihmisiä, kannattaa kuitenkin tehdä niin osoittaaksesi ammattimaisuutta ja ilmaistaksesi halusi palata kuukausittain. Tämä voi johtaa moniin keskusteluihin (automaattiset kuukausittaiset varaukset, ilmaiset juomat ja/tai ruokalautaset, alennukset, keskustelut Bitcoin:stä, Bitcoin-maksujen hyväksyminen jne.) On selvää, että jos etsit nimenomaan paikkaa, jossa on videoprojektori esitysten pitämistä varten, vaikuttaa olennaisen tärkeältä pyytää tapaamista (kasvotusten tai jopa puhelimitse) omistajan ja/tai joht
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/fi/032.webp)
 
 
 
@@ -1620,7 +1620,7 @@ Lisäksi tässä on kolme tärkeää asiaa, jotka on syytä pitää mielessä:
 - lopuksi, jotkut yhteisöt **haluavat järjestää tapahtumia vain paikoissa, jotka hyväksyvät Bitcoin-maksut**, mikä on ymmärrettävää. Tässä tapauksessa on hyvä idea **aloittaa etsimällä Bitcoin-maksut hyväksyviä yrityksiä kaupungistasi** ([btcmap.org](https://btcmap.org/map/)ja ottaa niihin yhteyttä, jotta näet, täyttävätkö ne kriteerisi. Jos mitään sopivaa ei ole saatavilla, voit yrittää ottaa uusia kauppiaita mukaan, mutta odota monia kieltäytymisiä, mikä voi olla lannistavaa. Siksi on usein parasta olla asettamatta tätä tavoitteeksi heti alussa ja harkita sitä, kun yhteisösi on vakiintunut ja sinulla on tarpeeksi "tulivoimaa"
 
 
-Kun käynnistät tapaamisesi, älä myöskään epäröi vaihtaa paikkaa ensimmäisten kuukausien aikana**. Tämä auttaa sinua **rakentamaan suhteita eri johtajiin**, tutustumaan erilaisiin ilmapiireihin ja keräämään tietoa mahdollisista tulevista isännistä.
+Kun käynnistät tapaamisesi, älä myöskään epäröi vaihtaa paikkaa ensimmäisten kuukausien aikana. Tämä auttaa sinua **rakentamaan suhteita eri johtajiin**, tutustumaan erilaisiin ilmapiireihin ja keräämään tietoa mahdollisista tulevista isännistä.
 
 
 Myöhemmin, kun ryhmäsi on kasvanut, voit vaikka käydä iltapäivällä useissa yrityksissä ja baareissa kysymässä, onko niillä tilaa, joka soveltuu kuukausittaisten tapahtumien ja tapaamisten järjestämiseen.
@@ -1652,7 +1652,7 @@ Ota yhteyttä paikkaan, jossa järjestät tapahtuman, ja varaa se arvioidulle os
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/fi/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Näin toimitaan:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/fi/034.webp)
 
 
 
@@ -1757,12 +1757,12 @@ Tapaamisten edetessä uusia kasvoja ilmestyy: ihmisiä, jotka ovat ostaneet BTC:
 Jos haluat varmistaa, että kaikki tuntevat olevansa mukana tapahtumissasi, keskity kahteen keskeiseen seikkaan:
 
 
-- Sosiaalinen osallisuus**: Kaikkien osallistujien tulisi tuntea olevansa tervetulleita. Pyrkikää tervehtimään uusia tulokkaita, kysykää, miksi he ovat tulleet, ja esittelemään heidät muille. Kun ihmiset tuntevat itsensä osallisiksi, he tulevat todennäköisemmin takaisin ja ehkä jopa auttavat tulevien tapahtumien järjestämisessä.
-- Kärsivällisyys ja avoimuus**: Tämä vaatii aikaa ja motivaatiota. Jos puhut sitoutuneen paskanpuhujan (tai vielä pahempaa, XRP Maximalist:n) kanssa, voi olla houkuttelevaa hylätä hänet. Keskustelemalla voit kuitenkin selvittää väärinkäsityksiä tai virheellisiä perusteluja. Jos hän on halukas kuuntelemaan, hän saattaa olla valmis ymmärtämään Bitcoin:a aidosti.
+- **Sosiaalinen osallisuus**: Kaikkien osallistujien tulisi tuntea olevansa tervetulleita. Pyrkikää tervehtimään uusia tulokkaita, kysykää, miksi he ovat tulleet, ja esittelemään heidät muille. Kun ihmiset tuntevat itsensä osallisiksi, he tulevat todennäköisemmin takaisin ja ehkä jopa auttavat tulevien tapahtumien järjestämisessä.
+- **Kärsivällisyys ja avoimuus**: Tämä vaatii aikaa ja motivaatiota. Jos puhut sitoutuneen paskanpuhujan (tai vielä pahempaa, XRP Maximalist:n) kanssa, voi olla houkuttelevaa hylätä hänet. Keskustelemalla voit kuitenkin selvittää väärinkäsityksiä tai virheellisiä perusteluja. Jos hän on halukas kuuntelemaan, hän saattaa olla valmis ymmärtämään Bitcoin:a aidosti.
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/fi/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ Tärkeintä on vain olla tietoinen siitä.
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/fi/036.webp)
 
 
 
@@ -1905,7 +1905,7 @@ Riippuen siitä, miten hyvin olet käytettävissä ja miten paljon osallistut yh
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/fi/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Pidä nämä vinkit mielessä ennen tilaamista:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/fi/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Jos johdat yhdistystä ja haluat sijoittaa osan varoistasi koulutusresursseihin,
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/fi/039.webp)
 
 
 Ekosysteemin tukemiseksi **[kustantaja Konsensus Network](https://konsensus.network/) on tarjonnut kansainvälisille Bitcoin-tapaamisille ja -yhteisöille 15-35 prosentin alennusta kaikista kirjoistaan vuoden 2023 lopusta lähtien, kun tilaat vähintään kolme kirjaa**.
@@ -1997,7 +1997,7 @@ Tässä on avoimen lähdekoodin esimerkki, jota voit käyttää ja mukauttaa:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/fi/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Yksi esimerkki on [täydellinen esite] (https://profedustream.substack.com/p/21-
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/fi/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/fi/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ Ranskassa ja muutamissa muissa maissa on myös "kirjalaatikoita", pieniä puulaa
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/fi/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/fi/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Tässä on [ranskalaisten bitcoin-asiakkaiden jakama vihkonen](https://profedust
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/fi/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/fi/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Jotkut bitcoinilaiset tekivät jopa aloitteen "Strandedin" kääntämiseksi koko
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/fi/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Yksi esimerkki on [StreetCyberArt](https://twitter.com/streetcyber_art), saksala
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/fi/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Huomaa myös, että näiden julisteiden tulostaminen henkilökohtaisella tulosti
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/fi/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Jos haluat tilata yli 50 NFC-korttia, voit ottaa yhteyttä yritykseen sen virall
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/fi/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Kumman tahansa valitsetkin, suunnittele alustakohtainen visuaalinen ilme, jotta 
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/fi/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Useita Bitcoin Lille -yhdistyksen käyttämiä merkkimalleja on [saatavilla avoi
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/fi/052.webp)
 
 
 
@@ -2400,7 +2400,7 @@ Tämä ei kuitenkaan ole mikään kevyt yritys: se vaatii motivaatiota, vaivann�
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/fi/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Kannattaa silti yrittää, erityisesti ylioppilaskuntien ja yhdistysten kanssa. 
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/fi/054.webp)
 
 
 
@@ -2450,14 +2450,14 @@ Jokainen kauppias on erilainen, ja niiden käyttöönotossa on omat haasteensa:
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/fi/055.webp)
 
 
 
 Paikallisten yritysten mukaan ottaminen on yksi parhaista tavoista kasvattaa kaupungin Bitcoin-ekosysteemiä. Tärkeintä on edetä askel askeleelta:
 
 
-1/ **Pyydä maksamaan Bitcoin:llä joka kerta, kun teet ostoksia** **
+1/ **Pyydä maksamaan Bitcoin:llä joka kerta, kun teet ostoksia**
 
 Useimmiten saat vastaukseksi "ei" ja ehkä hämmentyneen tai jopa hieman tuomitsevan katseen, mutta kysymällä saat ajatuksen siitä, että Bitcoin on jotain, jota "tavalliset ihmiset" voivat käyttää, ja että se on tulossa yhä suositummaksi maksutavaksi. Voit jopa liittoutua parin ystäväsi kanssa ja käydä samassa kaupassa eri päivinä ja pyytää joka kerta maksamaan Bitcoin:lla. Ennemmin tai myöhemmin se herättää omistajan uteliaisuuden.
 
@@ -2500,7 +2500,7 @@ Sen jälkeen kun he ovat aluksella:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/fi/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Median haastattelut voivat olla hankalia. Sanoja saatetaan irrottaa asiayhteydes
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/fi/057.webp)
 
 
 
@@ -2609,11 +2609,11 @@ Ensinnäkin, jos 500 ihmistä keskustelee kaikenlaisista aiheista yhdessä chati
 
 Toiseksi, enemmän ihmisiä kanavillasi tarkoittaa enemmän botteja ja huijauksia, joten myös moderointia on enemmän. Varaudu tähän luomalla selkeät säännöt, joihin voit viitata viestejä moderoidessasi. Kokemuksemme mukaan tämä auttaa pitkälle konfliktien välttämisessä, varsinkin jos säännöt ovat helposti saatavilla kanavissasi.
 
-Hyvä esimerkki on **[Bitcoin Lillen avoimen lähdekoodin sääntökirja](https://bitcoinlille.fr/reglement/), joka kirjoitettiin muutama vuosi sitten sen Telegram-ryhmää ja Discord-palvelinta varten. Se perustuu yksinkertaisiin, yleismaailmallisiin periaatteisiin, ja voit jopa napata [muokattavan version ulkoasusta täältä](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Hyvä esimerkki on **[Bitcoin Lillen avoimen lähdekoodin sääntökirja](https://bitcoinlille.fr/reglement/)**, joka kirjoitettiin muutama vuosi sitten sen Telegram-ryhmää ja Discord-palvelinta varten. Se perustuu yksinkertaisiin, yleismaailmallisiin periaatteisiin, ja voit jopa napata [muokattavan version ulkoasusta täältä](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/fi/058.webp)
 
 
 
@@ -2700,7 +2700,7 @@ Käytä **salattuja tai anonyymejä viestintävälineitä** suojellaksesi jäsen
 Huhtikuun 5. päivänä 1933 Franklin Roosevelt, Yhdysvaltain 32. presidentti, allekirjoitti **Executive Order 6102**, jonka mukaan yksityishenkilöiden oli kiellettyä omistaa kultakolikoita, kultaharkkoja tai kultatodistuksia koko maassa.
 
 
-![image](assets/fr/059.webp)
+![image](assets/fi/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ Meidän ei tarvitse sortua salaliittoajatteluun. Mikään ei kuitenkaan estä me
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/fi/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Koska aikamme on rajallinen, avain on pysyä nöyränä, jatkaa oppimista ja Exc
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/fi/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ Sen sijaan kannattaa **hakea apua bitcoin-käyttäjiltä, jotka ovat jo kulkenee
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/fi/062.webp)
 
 
 
@@ -2876,15 +2876,15 @@ Esimerkiksi Ranskassa noin kuudestakymmenestä yhteisöstä ja tapaamispaikasta 
 Hyödyt ovat kaksijakoiset:
 
 
-- Virallinen tunnustaminen**: voit avata yhdistykselle pankkitilin, saada huomiota lehdistössä ja tiedotusvälineissä ja jopa hakea tukia.
-- Jäsennelty organisaatio**: voit määritellä selkeät roolit, mikä helpottaa yhteisön johtamista ja projektien toteuttamista.
+- **Virallinen tunnustaminen**: voit avata yhdistykselle pankkitilin, saada huomiota lehdistössä ja tiedotusvälineissä ja jopa hakea tukia.
+- **Jäsennelty organisaatio**: voit määritellä selkeät roolit, mikä helpottaa yhteisön johtamista ja projektien toteuttamista.
 
 
-Jotta yhteisösi kasvaisi entisestään, **seuranta COMMU302-kurssille<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Jotta yhteisösi kasvaisi entisestään, **seuranta COMMU302-kurssille**<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-voidaan julkaista [planb.network](https://planb.network/) lähikuukausina**.
+voidaan julkaista [planb.network](https://planb.network/) lähikuukausina.
 
 
 Seuraavassa istunnossa voitaisiin tarkastella seuraavia syventäviä aiheita:
@@ -2897,7 +2897,7 @@ Tässä hyödynnämme niiden yhteisöjen kokemuksia, jotka ovat jo luoneet omia 
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/fi/063.webp)
 
 
 

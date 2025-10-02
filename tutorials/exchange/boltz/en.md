@@ -19,10 +19,10 @@ However, a major problem remained between the Bitcoin protocol layers: fluid int
 [Boltz](https://boltz.Exchange) is a non-custodial platform ideal for anyone wishing to transact between the different layers of the Bitcoin protocol:
 
 
-- on chain**: Bitcoin's main chain where transactions are confirmed every 10 minutes on average, transaction fees are often high, which does not necessarily meet users' needs ;
-- Lightning Network**: The Bitcoin overlay for instant payments at low fees, allowing the Bitcoin to be used for daily payments;
-- Liquid Network**: an overlay for Bitcoin created by Blockstream, enabling fast, confidential transactions and the use of other Bitcoin-based financial instruments;
-- RootStock**: A solution for developing smart contracts based on the Bitcoin protocol.
+- **on chain**: Bitcoin's main chain where transactions are confirmed every 10 minutes on average, transaction fees are often high, which does not necessarily meet users' needs ;
+- **Lightning Network**: The Bitcoin overlay for instant payments at low fees, allowing the Bitcoin to be used for daily payments;
+- **Liquid Network**: an overlay for Bitcoin created by Blockstream, enabling fast, confidential transactions and the use of other Bitcoin-based financial instruments;
+- **RootStock**: A solution for developing smart contracts based on the Bitcoin protocol.
 
 
 ![layers](assets/fr/01.webp)
@@ -41,7 +41,7 @@ Boltz uses atomic swaps. This technology enables bitcoins to be exchanged betwee
 In this way, you retain permanent self-custody of your bitcoins, and the exchange is not based on any trust in the counterparty: either the exchange succeeds or fails, but neither party can steal the other's funds.
 
 
-An atomic exchange works with smart contracts [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). In this type of contract, the amount is "locked" in a two-way channel and a time restriction is introduced, so that if the transaction is not completed within a certain time, the balance reverts to the depositor. This is the mechanism used by the Boltz platform.
+An atomic exchange works with smart contracts [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In this type of contract, the amount is "locked" in a two-way channel and a time restriction is introduced, so that if the transaction is not completed within a certain time, the balance reverts to the depositor. This is the mechanism used by the Boltz platform.
 
 
 ## Your first exchanges with Boltz

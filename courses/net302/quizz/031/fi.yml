@@ -1,0 +1,9 @@
+question: Mikä IPv4 Address -alue on varattu paikallista silmukkatestausta varten?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Alue 127.0.0.0/8 on käytössä paikallisessa loopbackissa. Kaikki tälle alueelle osoitetut pyynnöt pysyvät lähettävän koneen sisällä.
+reviewed: false

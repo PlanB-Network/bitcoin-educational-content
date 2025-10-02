@@ -52,7 +52,7 @@ BIP-85 on kasulik, kui soovite :
 
 
 
-BIP-32 abil saab ühe seed lause abil luua generate täieliku Bitcoin kontode ja aadresside hierarhia, kasutades tuletamisradasid (näiteks: `m/44'/0'/0'/0'/0/0`). Iga tee võib esindada eraldi kontot, kuid **kõik millised neist on seotud sama seed lausega**. Seega, kui see seed lause on ohustatud, **saavad **kõik millised tuletatud kontod kättesaadavaks**.
+BIP-32 abil saab ühe seed lause abil luua generate täieliku Bitcoin kontode ja aadresside hierarhia, kasutades tuletamisradasid (näiteks: `m/44'/0'/0'/0'/0/0`). Iga tee võib esindada eraldi kontot, kuid **kõik millised neist on seotud sama seed lausega**. Seega, kui see seed lause on ohustatud, **saavad kõik millised tuletatud kontod kättesaadavaks**.
 
 
 
@@ -91,9 +91,9 @@ BIP-85 võimaldab teil luua ühest seed põhifraasist mitu Bitcoin portfelli, mi
 
 
 
-- Stsenaarium**: Kasutate igapäevasteks tehinguteks Hot Wallet (paigaldatud internetti ühendatud seadmesse).
-- Lahendus BIP-85**: Looge seed sekundaarne fraas, mis on pühendatud sellele portfellile.
-- Eelis võrreldes BIP-32ga**: Te ei pea seed esmast fraasi oma telefoni importima, mis vähendab häkkimise ohtu. Ainult seed sekundaarne fraas on ohustatud, mis kaitseb teie teisi rahakotte. BIP-32 puhul peate kasutama seed põhifraasi ja ümbersõiduteed, mis paljastab kõik teie rahalised vahendid.
+- **Stsenaarium**: Kasutate igapäevasteks tehinguteks Hot Wallet (paigaldatud internetti ühendatud seadmesse).
+- **Lahendus BIP-85**: Looge seed sekundaarne fraas, mis on pühendatud sellele portfellile.
+- **Eelis võrreldes BIP-32ga**: Te ei pea seed esmast fraasi oma telefoni importima, mis vähendab häkkimise ohtu. Ainult seed sekundaarne fraas on ohustatud, mis kaitseb teie teisi rahakotte. BIP-32 puhul peate kasutama seed põhifraasi ja ümbersõiduteed, mis paljastab kõik teie rahalised vahendid.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 võimaldab teil luua ühest seed põhifraasist mitu Bitcoin portfelli, mi
 
 
 
-- Stsenaarium**: Bitcoin Wallet seadistate kellelegi lähedasele (nt teie emale), olles samas võimeline seda tagasi saama, kui ta selle kaotab.
-- Lahendus BIP-85**: Looge spetsiaalne seed sekundaarne lause ja jagage ainult seda.
-- Eelis võrreldes BIP-32ga**: BIP-32 puhul on konto loomiseks lähedasele vaja kas jagada oma peamist seed fraasi, riskides sellega kõigi oma rahaliste vahenditega ja raskendades oma lähedase jaoks haldamist (hargnemisradade haldamine), või luua uus seed fraas, mida salvestada lisaks oma peamisele seed fraasile.
+- **Stsenaarium**: Bitcoin Wallet seadistate kellelegi lähedasele (nt teie emale), olles samas võimeline seda tagasi saama, kui ta selle kaotab.
+- **Lahendus BIP-85**: Looge spetsiaalne seed sekundaarne lause ja jagage ainult seda.
+- **Eelis võrreldes BIP-32ga**: BIP-32 puhul on konto loomiseks lähedasele vaja kas jagada oma peamist seed fraasi, riskides sellega kõigi oma rahaliste vahenditega ja raskendades oma lähedase jaoks haldamist (hargnemisradade haldamine), või luua uus seed fraas, mida salvestada lisaks oma peamisele seed fraasile.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 võimaldab teil luua ühest seed põhifraasist mitu Bitcoin portfelli, mi
 
 
 
-- Stsenaarium**: Eraldate oma bitcoinid erinevatel eesmärkidel (nt pikaajalised säästud, mitte-KYC vahendid).
-- Lahendus BIP-85**: Te loote seed teiseseid fraase, mis on pühendatud igale eesmärgile.
-- Eelis võrreldes BIP-32ga**: BIP-32 puhul kasutavad kõik kontod sama seed fraasi, mis muudab halduse kolmandate osapoolte portfellides keerulisemaks, kuna see nõuab tuletamisradade haldamist, näiteks `m/44'/0'/0'/0'`. Lisaks ei ole võimalik määrata iga seadme kohta eraldi kontot (nt "säästud Coldcardil", "igapäevane mobiilil", "puhkus Trezoril"). BIP-85 määrab iga eesmärgi kohta unikaalse seed sekundaarse fraasi, mida on lihtne tuvastada ja importida igas seadmes eraldi.
+- **Stsenaarium**: Eraldate oma bitcoinid erinevatel eesmärkidel (nt pikaajalised säästud, mitte-KYC vahendid).
+- **Lahendus BIP-85**: Te loote seed teiseseid fraase, mis on pühendatud igale eesmärgile.
+- **Eelis võrreldes BIP-32ga**: BIP-32 puhul kasutavad kõik kontod sama seed fraasi, mis muudab halduse kolmandate osapoolte portfellides keerulisemaks, kuna see nõuab tuletamisradade haldamist, näiteks `m/44'/0'/0'/0'`. Lisaks ei ole võimalik määrata iga seadme kohta eraldi kontot (nt "säästud Coldcardil", "igapäevane mobiilil", "puhkus Trezoril"). BIP-85 määrab iga eesmärgi kohta unikaalse seed sekundaarse fraasi, mida on lihtne tuvastada ja importida igas seadmes eraldi.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 võimaldab teil luua ühest seed põhifraasist mitu Bitcoin portfelli, mi
 
 
 
-- Stsenaarium**: Näiteks: teil on vaja ajutist portfelli ühekordse tehingu jaoks või konfidentsiaalsuse säilitamiseks (nt: vahendite segamine, suhtlemine Exchange KYC-ga jne).
-- Lahendus BIP-85**: Te loote seed teisese lause, kasutate seda tehingu jaoks, seejärel hävitate selle vajaduse korral, teades, et seda saab taastada.
-- Eelis võrreldes BIP-32ga**: BIP-32 puhul sõltub ajutine konto seed põhilausest, mis paljastab kõik teie rahalised vahendid, kui need satuvad ohtu.
+- **Stsenaarium**: Näiteks: teil on vaja ajutist portfelli ühekordse tehingu jaoks või konfidentsiaalsuse säilitamiseks (nt: vahendite segamine, suhtlemine Exchange KYC-ga jne).
+- **Lahendus BIP-85**: Te loote seed teisese lause, kasutate seda tehingu jaoks, seejärel hävitate selle vajaduse korral, teades, et seda saab taastada.
+- **Eelis võrreldes BIP-32ga**: BIP-32 puhul sõltub ajutine konto seed põhilausest, mis paljastab kõik teie rahalised vahendid, kui need satuvad ohtu.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 võimaldab teil luua ühest seed põhifraasist mitu Bitcoin portfelli, mi
 
 
 
-- Riistvara** (valikuline)
+- **Riistvara** (valikuline)
  - Coldcard Mk4 või Q1
  - MicroSD-kaart
 
@@ -158,7 +158,7 @@ BIP-85 võimaldab teil luua ühest seed põhifraasist mitu Bitcoin portfelli, mi
 
 
 
-- Ühilduv** tarkvara
+- **Ühilduv** tarkvara
  - Sparrow wallet (arvuti, ainult vaatlemiseks või edasijõudnute haldamiseks)
  - Nunchuck (mobiilne, mitme allkirja jaoks)
  - BlueWallet (mobiilne)
@@ -168,7 +168,7 @@ BIP-85 võimaldab teil luua ühest seed põhifraasist mitu Bitcoin portfelli, mi
 
 
 
-- 3.4 Coldcard** konfiguratsioon
+- 3.4 **Coldcard** konfiguratsioon
  - Esialgne 24 sõnast koosnev seed lause Coldcard'ile.
  - Vabatahtlik: Lisage passphrase, et tagada juurdepääs BIP-85 harudele.
  - Aktiveerige kasulikud valikud: (ekspordiks), USB-ühenduse keelamine aku korral (turvalisus).
@@ -197,7 +197,7 @@ Lülitage oma Coldcard sisse, sisestage PIN-kood.
 
 
 
-- 1. Kui olete passphrase rakendanud oma peamise seed:**
+- 1. Kui olete passphrase rakendanud oma peamise **seed**:
  - Avakuvalt avaneb valik "passphrase".
     - Valige "Lisa sõna" ja sisestage oma parool.
     - Vajutage nuppu "Rakenda".
@@ -207,7 +207,7 @@ Lülitage oma Coldcard sisse, sisestage PIN-kood.
 
 
 
-- 2. Mine menüüsse BIP-85**
+- 2. Mine menüüsse **BIP-85**
  - Avakuval valige "Täiustatud > tuletada seed B85"
  - Lugege hoiatust ja kinnitage.
 
@@ -246,7 +246,7 @@ Valige seed lauseformaat: 12, 18 või 24 sõna. Kontrollige sõnade arvu, mida a
 
 
 
-- 5. Märkus või eksport seed sekundaarne lause**
+- 5. Märkus või eksport seed sekundaarne lause
 
 
 ColdCard kuvab nüüd uut seed sekundaarset lauset. Saate :
@@ -421,7 +421,7 @@ Rohkem ressursse lisades.
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [seed fraas](https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [Multisig](https://planb.network/resources/glossary/multisig)
 
 
 

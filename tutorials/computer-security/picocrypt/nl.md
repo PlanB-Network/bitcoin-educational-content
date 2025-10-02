@@ -26,7 +26,7 @@ In deze tutorial bekijken we Picocrypt, een eenvoudige, lichte en effectieve enc
 
 
 
-Geschikt voor **het versleutelen van bestanden**, kun je het gebruiken om **data op je computer, op een USB-stick**, maar ook data opgeslagen in de Cloud** te beschermen. Je kunt bijvoorbeeld gegevens versleutelen en opslaan op **Microsoft OneDrive, Google Drive, iCloud of Dropbox**, hoewel ik voor dit doel de voorkeur geef aan een ander stuk software dat in een toekomstig artikel zal worden gepresenteerd.
+Geschikt voor **het versleutelen van bestanden**, kun je het gebruiken om **data op je computer, op een USB-stick**, maar ook **data opgeslagen in de Cloud** te beschermen. Je kunt bijvoorbeeld gegevens versleutelen en opslaan op **Microsoft OneDrive, Google Drive, iCloud of Dropbox**, hoewel ik voor dit doel de voorkeur geef aan een ander stuk software dat in een toekomstig artikel zal worden gepresenteerd.
 
 
 
@@ -52,7 +52,7 @@ PicoCrypt is volledig **gratis en open source** en is beschikbaar voor **Windows
 
 
 
-Picocrypt** encryptiesoftware presenteert zichzelf als **een alternatief** voor andere bekende oplossingen zoals **VeraCrypt** en **Cryptomator** (*ontworpen om gegevens te versleutelen op Cloud-omgevingen*), of **AxCrypt**. Trouwens, op de officiële GitHub van Picocrypt kun je een vergelijking vinden met enkele concurrenten:
+**Picocrypt** encryptiesoftware presenteert zichzelf als **een alternatief** voor andere bekende oplossingen zoals **VeraCrypt** en **Cryptomator** (*ontworpen om gegevens te versleutelen op Cloud-omgevingen*), of **AxCrypt**. Trouwens, op de officiële GitHub van Picocrypt kun je een vergelijking vinden met enkele concurrenten:
 
 
 
@@ -74,7 +74,7 @@ Picocrypt** encryptiesoftware presenteert zichzelf als **een alternatief** voor 
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Bron : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Bron: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
@@ -84,7 +84,7 @@ Picocrypt is **zeer licht**, met een gewicht van slechts **3 MB**, en hoeft niet
 
 
 
-- XChaCha20** versleutelingsalgoritme
+- **XChaCha20** versleutelingsalgoritme
 - Functie voor toetsomleiding **Argon2**
 
 
@@ -159,11 +159,11 @@ Voordat we het hebben over het ontsleutelen van gegevens, volgt hier wat informa
 
 
 
-- Paranoïde modus**: gebruik het hoogste beveiligingsniveau dat Picocrypt biedt. De tool gebruikt verschillende cascade-encryptie-algoritmen (XChaCha20 en Serpent) en HMAC-SHA3 in plaats van BLAKE2b voor gegevensauthenticatie.
-- Reed-Solomon**: implementeer *Reed-Solomon* foutcorrectiecodes om foutcorrectie op beschadigde gegevens mogelijk te maken. Hiermee kunt u een corruptieniveau van ongeveer 3% van uw bestand ondersteunen.
-- Splitsen in brokken** of **verdelen in meerdere delen**: als je een groot bestand versleutelt, kun je Picocrypt vragen om het in meerdere delen te splitsen. Dit kan de overdracht van het bestand vergemakkelijken.
-- Bestanden comprimeren** of **Bestanden comprimeren**: bestanden comprimeren om de grootte van versleutelde bestanden te verkleinen.
-- Verwijderde bestanden** of **Verwijderde bestanden**: verwijder bronbestanden om alleen de versleutelde versie te behouden
+- **Paranoïde modus**: gebruik het hoogste beveiligingsniveau dat Picocrypt biedt. De tool gebruikt verschillende cascade-encryptie-algoritmen (XChaCha20 en Serpent) en HMAC-SHA3 in plaats van BLAKE2b voor gegevensauthenticatie.
+- **Reed-Solomon**: implementeer *Reed-Solomon* foutcorrectiecodes om foutcorrectie op beschadigde gegevens mogelijk te maken. Hiermee kunt u een corruptieniveau van ongeveer 3% van uw bestand ondersteunen.
+- Splitsen in brokken of **verdelen in meerdere delen**: als je een groot bestand versleutelt, kun je Picocrypt vragen om het in meerdere delen te splitsen. Dit kan de overdracht van het bestand vergemakkelijken.
+- **Bestanden comprimeren** of **Bestanden comprimeren**: bestanden comprimeren om de grootte van versleutelde bestanden te verkleinen.
+- **Verwijderde bestanden** of **Verwijderde bestanden**: verwijder bronbestanden om alleen de versleutelde versie te behouden
 
 
 

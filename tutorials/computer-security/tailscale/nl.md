@@ -1,5 +1,5 @@
 ---
-name: Staartschaal
+name: Tailscale
 description: Tips voor gevorderde Tailscale
 ---
 ![cover](assets/cover.webp)
@@ -72,7 +72,7 @@ Deze architectuur is echter afhankelijk van Tailscale Inc. voor netwerkcoördina
 
 
 
-**Voor een gedetailleerde uitleg over de innerlijke werking van Tailscale, inclusief control plane management, NAT traversal en DERP relays, raden we het uitstekende artikel [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) op de officiële blog aan. Dit artikel legt in detail de technische concepten uit die Tailscale zo krachtig maken.
+**Voor een gedetailleerde uitleg over de innerlijke werking van Tailscale, inclusief control plane management, NAT traversal en DERP relays, raden we het uitstekende artikel [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) op de officiële blog aan. Dit artikel legt in detail de technische concepten uit die Tailscale zo krachtig maken.**
 
 
 
@@ -139,7 +139,7 @@ Zodra je een account hebt aangemaakt, kun je Tailscale op je apparaten installer
 
 
 
-- Op Windows en macOS:** Download gewoon de grafische applicatie van de officiële Tailscale website en installeer deze (.msi bestand op Windows, .dmg bestand op Mac). Eenmaal geïnstalleerd, start de applicatie een grafische Interface waarmee je (via een browser) verbinding kunt maken met je Tailscale account om de machine te authenticeren.
+- Op Windows en macOS: Download gewoon de grafische applicatie van de officiële Tailscale website en installeer deze (.msi bestand op Windows, .dmg bestand op Mac). Eenmaal geïnstalleerd, start de applicatie een grafische Interface waarmee je (via een browser) verbinding kunt maken met je Tailscale account om de machine te authenticeren.
 
 
 
@@ -159,7 +159,7 @@ Zodra je een account hebt aangemaakt, kun je Tailscale op je apparaten installer
 
 
 
-- Op Linux (Debian, Ubuntu, enz.):** Je hebt verschillende opties. De eenvoudigste methode is om het officiële installatiescript uit te voeren: bijvoorbeeld op Debian/Ubuntu :
+- Op Linux (Debian, Ubuntu, enz.): Je hebt verschillende opties. De eenvoudigste methode is om het officiële installatiescript uit te voeren: bijvoorbeeld op Debian/Ubuntu:
 
 
 
@@ -175,13 +175,13 @@ Dit script voegt de officiële Tailscale repository toe en installeert het pakke
 
 
 
-- Op ARM-gebaseerde systemen (Raspberry Pi, enz.):** We gebruiken over het algemeen Linux, dus dezelfde aanpak als hierboven (script of pakket). Merk op dat Tailscale de ARM32/ARM64-architectuur zonder problemen ondersteunt. Veel gebruikers installeren Tailscale op Raspberry Pi OS via apt of op lichtgewicht distributies (DietPi, etc.) om overal toegang te hebben tot hun Pi.
+- Op ARM-gebaseerde systemen (Raspberry Pi, enz.): We gebruiken over het algemeen Linux, dus dezelfde aanpak als hierboven (script of pakket). Merk op dat Tailscale de ARM32/ARM64-architectuur zonder problemen ondersteunt. Veel gebruikers installeren Tailscale op Raspberry Pi OS via apt of op lichtgewicht distributies (DietPi, etc.) om overal toegang te hebben tot hun Pi.
 
 
 
 
 
-- Op iOS en Android:** Tailscale biedt **officiële** mobiele applicaties. Installeer gewoon *Tailscale* in de [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) of de [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- **Op iOS en Android:** Tailscale biedt **officiële** mobiele applicaties. Installeer gewoon *Tailscale* in de [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) of de [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 
@@ -261,13 +261,13 @@ Met de beheerconsole op het web kun je al je aangesloten apparaten bekijken en b
 
 
 
-- Interface Web (Admin Console)** : toegankelijk via [https://login.tailscale.com](https://login.tailscale.com), deze webconsole is het centrale dashboard voor uw Tailscale netwerk. Het geeft een overzicht van alle apparaten (*machines*), hun online/offline status, hun Tailscale IP-adressen en meer. Hier kunt u apparaten** beheren (hernoemen, sleutels verlopen, routes autoriseren, een node uitschakelen), gebruikers** beheren (in een organisatorische context) en beveiligingsregels (ACL's) definiëren. Hier configureer je ook globale opties zoals MagicDNS, tags of auth keys (pre-generate auth keys voor het automatisch toevoegen van apparaten). Interface web is erg handig om een overzicht te krijgen en wijzigingen toe te passen die via de coördinatieserver naar alle knooppunten worden verspreid. *Voorbeeld:* Het activeren van een **subnet route** of een **exit node** gebeurt met een enkele klik in de console, zodra de node in kwestie zichzelf als zodanig heeft aangekondigd.
+- **Interface Web (Admin Console)**: toegankelijk via [https://login.tailscale.com](https://login.tailscale.com), deze webconsole is het centrale dashboard voor uw Tailscale netwerk. Het geeft een overzicht van alle apparaten (*machines*), hun online/offline status, hun Tailscale IP-adressen en meer. Hier kunt u **apparaten** beheren (hernoemen, sleutels verlopen, routes autoriseren, een node uitschakelen), **gebruikers** beheren (in een organisatorische context) en beveiligingsregels (ACL's) definiëren. Hier configureer je ook globale opties zoals MagicDNS, tags of auth keys (pre-generate auth keys voor het automatisch toevoegen van apparaten). Interface web is erg handig om een overzicht te krijgen en wijzigingen toe te passen die via de coördinatieserver naar alle knooppunten worden verspreid. *Voorbeeld:* Het activeren van een **subnet route** of een **exit node** gebeurt met een enkele klik in de console, zodra de node in kwestie zichzelf als zodanig heeft aangekondigd.
 
 
 
 
 
-- Interface commandoregel (CLI):** Het `tailscale` commando is beschikbaar in CLI op elk apparaat waar Tailscale is geïnstalleerd. Met deze CLI kun je alles lokaal doen: verbinden (`tailscale up`), status inspecteren (`tailscale status` om te zien welke peers verbonden zijn), debuggen (`tailscale ping <ip>`), enzovoort. Sommige functies zijn zelfs **exclusief voor CLI** of geavanceerder, bijvoorbeeld:
+- **Interface commandoregel (CLI):** Het `tailscale` commando is beschikbaar in CLI op elk apparaat waar Tailscale is geïnstalleerd. Met deze CLI kun je alles lokaal doen: verbinden (`tailscale up`), status inspecteren (`tailscale status` om te zien welke peers verbonden zijn), debuggen (`tailscale ping <ip>`), enzovoort. Sommige functies zijn zelfs **exclusief voor CLI** of geavanceerder, bijvoorbeeld:
 
 
 
@@ -305,7 +305,7 @@ Umbrel en Tailscale samen gebruiken is een bijzonder interessante use case, omda
 
 
 
-- Tailscale installeren op Umbrel:** Umbrel heeft een officiële Tailscale-applicatie in de App Store. Installatie kan niet eenvoudiger:
+- **Tailscale installeren op Umbrel:** Umbrel heeft een officiële Tailscale-applicatie in de App Store. Installatie kan niet eenvoudiger:
 
 
 
@@ -379,15 +379,15 @@ Toegang is opmerkelijk eenvoudig: in plaats van `umbrel.local` te gebruiken (dat
 
 
 
-- Interface hoofd Umbrel**: Toegang tot uw Umbrel-dashboard door eenvoudigweg `http://100.x.y.z` in uw browser te typen
-- Bitcoin knooppunt**: Beheer uw Bitcoin node zonder vertraging, bekijk synchronisatie en statistieken
-- Lightning Node**: Gebruik ThunderHub, RTL of andere Lightning-beheerinterfaces met onmiddellijke reactiesnelheid
-- Mempool**: Bitcoin transacties en Mempool bekijken zonder Tor-vertragingen
-- noStrudel**: Toegang tot uw Nostr-diensten die worden gehost op Umbrel
+- **Interface hoofd Umbrel**: Toegang tot uw Umbrel-dashboard door eenvoudigweg `http://100.x.y.z` in uw browser te typen
+- **Bitcoin knooppunt**: Beheer uw Bitcoin node zonder vertraging, bekijk synchronisatie en statistieken
+- **Lightning Node**: Gebruik ThunderHub, RTL of andere Lightning-beheerinterfaces met onmiddellijke reactiesnelheid
+- **Mempool**: Bitcoin transacties en Mempool bekijken zonder Tor-vertragingen
+- **noStrudel**: Toegang tot uw Nostr-diensten die worden gehost op Umbrel
 
 
 
-**Sluit externe wallets aan op je Bitcoin of lightning nodes via Tailscale :**
+**Sluit externe wallets aan op je Bitcoin of lightning nodes via Tailscale:**
 
 
 
@@ -397,7 +397,7 @@ Tailscale maakt het ook mogelijk dat je Bitcoin en Lightning wallets die op ande
 
 
 
-- Sparrow wallet (Bitcoin)**: Deze externe Wallet Bitcoin kan rechtstreeks verbinding maken met de Electrum-server van je Umbrel via de Tailscale IP Address:
+- **Sparrow wallet (Bitcoin)**: Deze externe Wallet Bitcoin kan rechtstreeks verbinding maken met de Electrum-server van je Umbrel via de Tailscale IP Address:
 
 
 
@@ -424,7 +424,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Zeus (Bliksem)**: Deze Wallet mobiele Lightning kan verbinding maken met je Lightning-node op Umbrel. In plaats van het eindpunt te configureren als `.onion', stel je gewoon het Tailscale IP van je Umbrel en de Lightning API poort in. De verbinding zal onmiddellijk zijn in vergelijking met Tor.
+- **Zeus (Bliksem)**: Deze Wallet mobiele Lightning kan verbinding maken met je Lightning-node op Umbrel. In plaats van het eindpunt te configureren als `.onion', stel je gewoon het Tailscale IP van je Umbrel en de Lightning API poort in. De verbinding zal onmiddellijk zijn in vergelijking met Tor.
 
 
 
@@ -441,7 +441,7 @@ Raadpleeg onze gedetailleerde tutorial om Zeus te configureren met je Lightning-
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Om meer te weten te komen over de Lightning Network en hoe deze werkt op Umbrel, bezoek :
+Om meer te weten te komen over de Lightning Network en hoe deze werkt op Umbrel, bezoek:
 
 
 
@@ -483,7 +483,7 @@ Communicatie wordt versleuteld (WireGuard) bovenop elke versleuteling die je die
 
 ---
 
-Om deze sectie af te sluiten, het integreren van Tailscale op Umbrel neemt slechts een paar klikken in beslag en **verbetert de toegankelijkheid** van je zelf gehoste node enorm. Je kunt Umbrel en haar diensten overal vandaan beheren, veilig en efficiënt, net alsof je thuis bent. Dit is een bijzonder nuttige oplossing voor realtime toepassingen (Lightning) die last hebben van Tor-latentie, of meer in het algemeen voor elke self-host die op zoek is naar een eenvoudige privéverbinding. Dit alles zonder ook maar één poort** op je box bloot te stellen en zonder ingewikkelde netwerkconfiguratie.
+Om deze sectie af te sluiten, het integreren van Tailscale op Umbrel neemt slechts een paar klikken in beslag en **verbetert de toegankelijkheid** van je zelf gehoste node enorm. Je kunt Umbrel en haar diensten overal vandaan beheren, veilig en efficiënt, net alsof je thuis bent. Dit is een bijzonder nuttige oplossing voor realtime toepassingen (Lightning) die last hebben van Tor-latentie, of meer in het algemeen voor elke self-host die op zoek is naar een eenvoudige privéverbinding. Dit alles zonder ook maar **één poort** op je box bloot te stellen en zonder ingewikkelde netwerkconfiguratie.
 
 
 
@@ -531,7 +531,7 @@ Om deze sectie af te sluiten, het integreren van Tailscale op Umbrel neemt slech
 
 
 
-**Als directe concurrent werkt ZeroTier op Layer 2 (Ethernet), waardoor broadcast/multicast mogelijk is, terwijl Tailscale op Layer 3 (IP) werkt. ZeroTier biedt meer flexibiliteit in het netwerk, terwijl Tailscale de voorkeur geeft aan eenvoud in gebruik.
+**Als directe concurrent werkt ZeroTier op Layer 2 (Ethernet), waardoor broadcast/multicast mogelijk is, terwijl Tailscale op Layer 3 (IP) werkt. ZeroTier biedt meer flexibiliteit in het netwerk, terwijl Tailscale de voorkeur geeft aan eenvoud in gebruik.**
 
 
 
@@ -557,8 +557,8 @@ Concluderend positioneert Tailscale zichzelf als een moderne, op eenvoud gericht
 
 
 
-- Eenvoud en prestaties** - Snelle installatie op alle platformen zonder complexe netwerkconfiguratie. Het verkeer volgt het meest directe pad tussen uw machines (P2P mesh), met de prestaties van het WireGuard-protocol en zonder centrale server om de doorvoer te beperken.
-- Beveiliging en flexibiliteit** - End-to-end encryptie, verminderd aanvalsoppervlak en geavanceerde functies (ACL, SSO/MFA-verificatie). Werkt zelfs achter NAT's of onderweg, met subnet routers en exit nodes om het netwerk aan te passen aan je behoeften.
+- **Eenvoud en prestaties** - Snelle installatie op alle platformen zonder complexe netwerkconfiguratie. Het verkeer volgt het meest directe pad tussen uw machines (P2P mesh), met de prestaties van het WireGuard-protocol en zonder centrale server om de doorvoer te beperken.
+- **Beveiliging en flexibiliteit** - End-to-end encryptie, verminderd aanvalsoppervlak en geavanceerde functies (ACL, SSO/MFA-verificatie). Werkt zelfs achter NAT's of onderweg, met subnet routers en exit nodes om het netwerk aan te passen aan je behoeften.
 
 
 
@@ -568,16 +568,16 @@ Concluderend positioneert Tailscale zichzelf als een moderne, op eenvoud gericht
 
 
 
-- Externe afhankelijkheid** - In de standaardversie is de service afhankelijk van de infrastructuur van Tailscale Inc. Deze afhankelijkheid kan worden omzeild via Headscale (zelf hosten alternatief).
-- Andere beperkingen** - Gedeeltelijk gesloten broncode, beperkingen van de gratis versie voor bepaalde geavanceerde toepassingen, geen ondersteuning voor Layer 2 (broadcast/multicast) en toegang tot internet nodig om verbindingen tot stand te brengen.
+- **Externe afhankelijkheid** - In de standaardversie is de service afhankelijk van de infrastructuur van Tailscale Inc. Deze afhankelijkheid kan worden omzeild via Headscale (zelf hosten alternatief).
+- **Andere beperkingen** - Gedeeltelijk gesloten broncode, beperkingen van de gratis versie voor bepaalde geavanceerde toepassingen, geen ondersteuning voor Layer 2 (broadcast/multicast) en toegang tot internet nodig om verbindingen tot stand te brengen.
 
 
 
-**Tailscale is ideaal voor individuele self-hosts en kleine teams, ontwikkelaars die toegang nodig hebben tot verspreide bronnen, VPN-beginners en mobiele gebruikers. Voor bedrijven die totale controle nodig hebben, kunnen andere oplossingen zoals Headscale of WireGuard direct de voorkeur hebben.
+**Tailscale is ideaal voor individuele self-hosts en kleine teams, ontwikkelaars die toegang nodig hebben tot verspreide bronnen, VPN-beginners en mobiele gebruikers. Voor bedrijven die totale controle nodig hebben, kunnen andere oplossingen zoals Headscale of WireGuard direct de voorkeur hebben.**
 
 
 
-**Verken Headscale voor volledige zelf-hosting, API en DevOps integraties (Terraform), of alternatieven zoals Innernet (vergelijkbaar maar volledig zelf gehost) en Netmaker.
+**Verken Headscale voor volledige zelf-hosting, API en DevOps integraties (Terraform), of alternatieven zoals Innernet (vergelijkbaar maar volledig zelf gehost) en Netmaker.**
 
 
 
@@ -595,9 +595,9 @@ Tailscale is een essentiële tool voor self-hosting, dankzij de eenvoud en effic
 
 
 
-- Tailscale Documentatiecentrum**: [docs.tailscale.com](https://docs.tailscale.com) - Volledige Engelstalige documentatie, installatiegidsen, tutorials en technische referenties.
-- Hoe Tailscale werkt**: [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Gedetailleerd artikel over de werking van Tailscale.
-- Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - updates en nieuwe functies bijhouden.
+- **Tailscale Documentatiecentrum**: [docs.tailscale.com](https://docs.tailscale.com) - Volledige Engelstalige documentatie, installatiegidsen, tutorials en technische referenties.
+- **Hoe Tailscale werkt**: [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - Gedetailleerd artikel over de werking van Tailscale.
+- **Changelog**: [tailscale.com/changelog](https://tailscale.com/changelog) - updates en nieuwe functies bijhouden.
 
 
 
@@ -607,9 +607,9 @@ Tailscale is een essentiële tool voor self-hosting, dankzij de eenvoud en effic
 
 
 
-- Homelab** tutorials: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifieke gidsen voor zelf hosten.
-- Een Exit Node configureren** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Gedetailleerde handleiding voor het configureren van Exit Nodes.
-- Gebruik Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Bestanden overzetten tussen Tailscale apparaten.
+- **Homelab** tutorials: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifieke gidsen voor zelf hosten.
+- **Een Exit Node configureren**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Gedetailleerde handleiding voor het configureren van Exit Nodes.
+- **Gebruik Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Bestanden overzetten tussen Tailscale apparaten.
 
 
 
@@ -619,7 +619,7 @@ Tailscale is een essentiële tool voor self-hosting, dankzij de eenvoud en effic
 
 
 
-- Tailscale vs. andere oplossingen**: [tailscale.com/compare](https://tailscale.com/compare) - Gedetailleerde vergelijkingen met andere VPN- en netwerkoplossingen (ZeroTier, OpenVPN, etc.).
+- **Tailscale vs. andere oplossingen**: [tailscale.com/compare](https://tailscale.com/compare) - Gedetailleerde vergelijkingen met andere VPN- en netwerkoplossingen (ZeroTier, OpenVPN, etc.).
 
 
 
@@ -629,9 +629,9 @@ Tailscale is een essentiële tool voor self-hosting, dankzij de eenvoud en effic
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Discussies, vragen en feedback.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Broncode van de klant, waar u de ontwikkeling kunt volgen en problemen kunt melden.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Community van gebruikers en ontwikkelaars.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Discussies, vragen en feedback.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Broncode van de klant, waar u de ontwikkeling kunt volgen en problemen kunt melden.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Community van gebruikers en ontwikkelaars.
 
 
 

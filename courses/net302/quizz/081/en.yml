@@ -5,5 +5,5 @@ wrong_answers:
   - nmap
   - ethtool
 explanation: |
-  tcpdump captures and logs packets circulating on a Interface network for analysis.
+  tcpdump captures and logs packets circulating on a network interface for analysis.
 reviewed: false

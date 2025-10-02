@@ -1,0 +1,9 @@
+question: Máy chủ DNS thường được cấu hình ở đâu trên hệ thống Linux?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/tên máy chủ
+  - /etc/mạng/giao diện
+  - /etc/hosts.allow
+explanation: |
+  Tệp /etc/resolv.conf chỉ định máy chủ DNS và tìm kiếm tên miền để phân giải tên.
+reviewed: false

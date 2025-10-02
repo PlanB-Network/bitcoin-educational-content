@@ -1,5 +1,5 @@
 ---
-name: 水
+name: Aqua
 description: 单一钱包中的比特币、闪电币和液体币
 ---
 ![cover](assets/cover.webp)

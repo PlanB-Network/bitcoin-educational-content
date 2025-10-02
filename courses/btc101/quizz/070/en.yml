@@ -1,10 +1,12 @@
-question: How much is the BTC reward after the fourth halving?
-answer: 3.125 BTC.
+question: What is the risk of sharing the public key of a Bitcoin wallet?
+answer: Losing privacy.
 wrong_answers:
-  - 1.5625 BTC.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - Destroying the Bitcoin wallet.
+  - Losing the Bitcoins.
+  - Hacking the Bitcoin wallet.
 explanation: |
-  After the fourth halving, which occurs at block height
-  840,000, the BTC reward for mining is 3.125 BTC.
+  Sharing the public key involves risks to privacy, but not
+  to security. This is because the public key is used to
+  generate Bitcoin addresses and thus receive money, but it
+  does not represent ownership of the Bitcoins.
 reviewed: true

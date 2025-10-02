@@ -1,0 +1,9 @@
+question: Która jednostka danych jest używana w internetowym Layer modelu TCP/IP?
+answer: Datagram
+wrong_answers:
+  - Segment
+  - Rama
+  - Wiadomość
+explanation: |
+  Internetowy Layer manipuluje datagramami, hermetyzując segmenty z Transportowego Layer.
+reviewed: false

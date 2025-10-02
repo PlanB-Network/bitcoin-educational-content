@@ -34,31 +34,31 @@ Fedora takođe uključuje radno okruženje, koje je Interface kroz koje korisnic
 
 
 
-Među mnoštvom dostupnih Linux distribucija, Fedora se posebno ističe zbog :
+Među mnoštvom dostupnih Linux distribucija, Fedora se posebno ističe zbog:
 
 
 
 
 
-- Modularnost**: Kompatibilan sa različitim arhitekturama procesora, Fedora se može instalirati na većinu računara, čak i na one sa slabijim performansama, savršeno se prilagođavajući vašim potrebama.
+- **Modularnost**: Kompatibilan sa različitim arhitekturama procesora, Fedora se može instalirati na većinu računara, čak i na one sa slabijim performansama, savršeno se prilagođavajući vašim potrebama.
 
 
 
 
 
-- Jednostavan, intuitivan Interface**: Fedora kombinuje moderan grafički Interface sa moćnim komandnim Interface, što ga čini jednostavnim za korišćenje za sve profile.
+- **Jednostavan, intuitivan Interface**: Fedora kombinuje moderan grafički Interface sa moćnim komandnim Interface, što ga čini jednostavnim za korišćenje za sve profile.
 
 
 
 
 
-- Stabilnost kernela**: Na osnovu Red Hat-a, Fedora je poznata po pouzdanosti svojih ažuriranja, posebno ažuriranja kernela, koja se sprovode bez većih grešaka zahvaljujući besplatnim doprinosima velike zajednice.
+- **Stabilnost kernela**: Na osnovu Red Hat-a, Fedora je poznata po pouzdanosti svojih ažuriranja, posebno ažuriranja kernela, koja se sprovode bez većih grešaka zahvaljujući besplatnim doprinosima velike zajednice.
 
 
 
 
 
-- Brza, laka instalacija**: sa veličinom slike od samo 3 GB, instalacija je brza i laka, čak i na mašinama sa ograničenim resursima.
+- **Brza, laka instalacija**: sa veličinom slike od samo 3 GB, instalacija je brza i laka, čak i na mašinama sa ograničenim resursima.
 
 
 
@@ -72,19 +72,19 @@ U zavisnosti od vašeg profila i upotrebe, Fedora nudi izdanja koja odgovaraju v
 
 
 
-- Fedora Workstation**: Idealna za ličnu i/ili profesionalnu upotrebu na vašim računarima, ova verzija dolazi instalirana sa generičkim alatima kao što su pregledači, kancelarijski paket (uređivači teksta) i softver za reprodukciju medija.
+- **Fedora Workstation**: Idealna za ličnu i/ili profesionalnu upotrebu na vašim računarima, ova verzija dolazi instalirana sa generičkim alatima kao što su pregledači, kancelarijski paket (uređivači teksta) i softver za reprodukciju medija.
 
 
 
 
 
-- Fedora Server**: Ovo izdanje je posvećeno upravljanju serverima. Fedora Server uključuje razne alate koji vam pomažu da implementirate i upravljate serverima prema vašim potrebama.
+- **Fedora Server**: Ovo izdanje je posvećeno upravljanju serverima. Fedora Server uključuje razne alate koji vam pomažu da implementirate i upravljate serverima prema vašim potrebama.
 
 
 
 
 
-- Fedora CoreOS**: Želite li jednostavno pokretati i implementirati cloud aplikacije? Fedora CoreOS je izdanje koje vam daje alate za kreiranje i upravljanje slikama pomoću Docker-a i Kubernets-a, na primer.
+- **Fedora CoreOS**: Želite li jednostavno pokretati i implementirati cloud aplikacije? Fedora CoreOS je izdanje koje vam daje alate za kreiranje i upravljanje slikama pomoću Docker-a i Kubernets-a, na primer.
 
 
 
@@ -103,7 +103,7 @@ Instalacija Fedora Workstation zahteva sledeću hardversku konfiguraciju:
 
 - USB ključ od najmanje **8 GB** za pokretanje operativnog sistema.
 - Najmanje **40 GB slobodnog prostora** na Hard disku vašeg računara.
-- 4 GB RAM** za glatko iskustvo.
+- 4 GB **RAM** za glatko iskustvo.
 
 
 
@@ -156,7 +156,7 @@ Uključite računar, zatim pristupite BIOS-u tokom pokretanja pritiskom na taste
 
 
 
-U opcijama pokretanja, izaberite vaš USB ključ kao primarni uređaj za pokretanje. Potvrđivanjem ovog izbora, vaš računar će se ponovo pokrenuti i automatski pokrenuti Fedora instalacioni program** prisutan na USB ključu.
+U opcijama pokretanja, izaberite vaš USB ključ kao primarni uređaj za pokretanje. Potvrđivanjem ovog izbora, vaš računar će se ponovo pokrenuti i automatski pokrenuti **Fedora instalacioni program** prisutan na USB ključu.
 
 
 
@@ -169,7 +169,7 @@ U ovoj fazi, imate sledeće opcije:
 
 
 
-- Testiraj medij**: Ova opcija vam omogućava da proverite integritet USB memorije i osigurate da su sve zavisnosti potrebne za ispravnu instalaciju prisutne. Ovo je opcioni korak, ali se preporučuje ako imate bilo kakve sumnje u vezi sa USB memorijom.
+- **Testiraj medij**: Ova opcija vam omogućava da proverite integritet USB memorije i osigurate da su sve zavisnosti potrebne za ispravnu instalaciju prisutne. Ovo je opcioni korak, ali se preporučuje ako imate bilo kakve sumnje u vezi sa USB memorijom.
 
 
 
@@ -183,7 +183,7 @@ U ovoj fazi, imate sledeće opcije:
 
 
 
-- Pokreni Fedoru**: Ovo pokreće Fedoru u "live" režimu, bez instalacije.
+- **Pokreni Fedoru**: Ovo pokreće Fedoru u "live" režimu, bez instalacije.
 
 
 
@@ -205,7 +205,7 @@ Prvi korak je odabir **jezika instalacije** i **rasporeda tastature** za Fedoru.
 
 
 
-- Odabir diska za instalaciju :
+- Odabir diska za instalaciju:
 
 
 
@@ -223,7 +223,7 @@ Ako je disk prazan, Fedora će automatski koristiti sav raspoloživi prostor. U 
 
 
 
-- Enkripcija :
+- Enkripcija:
 
 
 
@@ -368,9 +368,9 @@ Fedora uključuje kancelarijski paket **LibreOffice** po podrazumevanoj postavci
 
 
 
-- Pisac** za obradu teksta.
-- Calc** za proračunske tabele.
-- Impress** za kreiranje prezentacija.
+- **Pisac** za obradu teksta.
+- **Calc** za proračunske tabele.
+- **Impress** za kreiranje prezentacija.
 
 
 ## Instaliranje aplikacija

@@ -1,0 +1,9 @@
+question: Chi si occupa della manutenzione del progetto Bitcoin Knots?
+answer: Luca Dashjr
+wrong_answers:
+  - Gavin Andresen
+  - Wladimir J. Van Der Laan
+  - Pieter Wuille
+explanation: |
+  Il Bitcoin Knots è gestito da Luke Dashjr e funge da client primario alternativo al Bitcoin core.
+reviewed: true

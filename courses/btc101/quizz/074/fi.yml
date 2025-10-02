@@ -1,9 +1,10 @@
-question: Missä bitcoinit säilytetään?
-answer: Bitcoin-lohkoketjussa.
+question: Mikä on keskeinen kysymys itsellesi valitessasi Bitcoin-lompakkoa omistajuuden näkökulmasta?
+answer: Oletko varojen omistaja vai jätätkö rahasi kolmannen osapuolen hallintaan?
 wrong_answers:
-  - Bitcoin-lompakossa.
-  - Laitteessa, johon lompakko on asennettu.
-  - Federal Reserven holvissa.
+  - Onko lompakko suojattu salasanalla?
+  - Salliiko lompakko bitcoinien vastaanottamisen ja lähettämisen?
+  - Voinko jakaa lompakkoni toisen henkilön kanssa?
 explanation: |
-  Vaikka yksityiset avaimet säilytetään lompakossasi, itse bitcoinit ovat todellisuudessa tallennettuina Bitcoin-lohkoketjuun, joka on julkinen hajautettu kirjanpito Bitcoinin vertaisverkossa.
+  Bitcoin-lompakkoa valittaessa keskeinen kysymys on:
+  oletko varojen omistaja vai jätätkö rahasi kolmannen osapuolen hallintaan? Tämä johtuu siitä, että yksityisen avaimen haltija on Bitcoinien omistaja.
 reviewed: true

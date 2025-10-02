@@ -43,7 +43,7 @@ Graylog ni chombo cha uchambuzi na ufuatiliaji ambacho hurahisisha kutambua tabi
 
 
 
-**Kumbuka: toleo lisilolipishwa, **Graylog Open**, si SIEM kama Wazuh ilivyo, hasa kwa vile haina vitendaji halisi vya kugundua uvamizi.
+**Kumbuka: toleo lisilolipishwa, Graylog Open, si SIEM kama Wazuh ilivyo, hasa kwa vile haina vitendaji halisi vya kugundua uvamizi.**
 
 
 
@@ -57,9 +57,9 @@ Graylog ni chombo cha uchambuzi na ufuatiliaji ambacho hurahisisha kutambua tabi
 
 
 
-- MongoDB 7**, toleo la sasa linalopendekezwa kwa Graylog (kiwango cha chini 5.0.7, cha juu zaidi 7.x)
-- OpenSearch**, chanzo huria cha Fork cha Elasticsearch kilichoundwa na Amazon (kiwango cha chini 1.1.x, cha juu zaidi 2.15.x)
-- OpenJDK 17**
+- MongoDB 7, toleo la sasa linalopendekezwa kwa Graylog (kiwango cha chini 5.0.7, cha juu zaidi 7.x)
+- **OpenSearch**, chanzo huria cha Fork cha Elasticsearch kilichoundwa na Amazon (kiwango cha chini 1.1.x, cha juu zaidi 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Kumbuka: **Usakinishaji wa OpenSearch ni wa hiari** ikiwa unatumia **Njia ya Data ya Graylog** badala yake.
+**Kumbuka:** Usakinishaji wa OpenSearch ni wa hiari ikiwa unatumia **Njia ya Data ya Graylog** badala yake.
 
 
 
@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Ifuatayo, tutasasisha kashe ya kifurushi na kujaribu kusakinisha MongoDB :
+Ifuatayo, tutasasisha kashe ya kifurushi na kujaribu kusakinisha MongoDB:
 
 
 
@@ -149,8 +149,8 @@ MongoDB haiwezi kusakinishwa kwa sababu utegemezi haupo: **libssl1.1**. Itabidi 
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -279,14 +279,14 @@ Usanidi huu wa OpenSearch umeundwa ili kusanidi nodi moja. Hapa kuna baadhi ya m
 
 
 
-- cluster.name: graylog** : kigezo hiki kinataja nguzo ya OpenSearch yenye jina "**graylog**".
-- node.name: ${HOSTNAME}**: jina la nodi limewekwa kwa nguvu ili lilingane na mashine ya ndani ya Linux. Hata kama tuna nodi moja tu, ni muhimu kuipa jina kwa usahihi.
-- path.data: /var/lib/opensearch**: njia hii inabainisha ambapo OpenSearch huhifadhi data yake kwenye mashine ya ndani, katika hali hii katika "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: njia hii inafafanua ambapo faili za kumbukumbu za OpenSearch zimehifadhiwa, hapa katika "**/var/log/opensearch**".
+- cluster.name: graylog: kigezo hiki kinataja nguzo ya OpenSearch yenye jina "**graylog**".
+- node.name: ${HOSTNAME}: jina la nodi limewekwa kwa nguvu ili lilingane na mashine ya ndani ya Linux. Hata kama tuna nodi moja tu, ni muhimu kuipa jina kwa usahihi.
+- path.data: /var/lib/opensearch: njia hii inabainisha ambapo OpenSearch huhifadhi data yake kwenye mashine ya ndani, katika hali hii katika "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: njia hii inafafanua ambapo faili za kumbukumbu za OpenSearch zimehifadhiwa, hapa katika "**/var/log/opensearch**".
 - discovery.type: single-nodi**: parameta hii inasanidi OpenSearch kufanya kazi na nodi moja, hivyo basi chaguo la "**single-nodi**" chaguo.
-- network.host: 127.0.0.1**: usanidi huu unahakikisha kwamba OpenSearch inasikiza tu kwenye kitanzi chake cha ndani cha Interface, ambacho kinatosha kwa vile kiko kwenye seva sawa na Graylog.
-- action.auto_create_index: false**: kwa kuzima uundaji wa faharasa otomatiki, OpenSearch haitaunda faharasa kiotomatiki hati inapotumwa bila faharasa iliyopo.
-- plugins.security.disabled: kweli**: chaguo hili huzima programu-jalizi ya usalama ya OpenSearch, kumaanisha kuwa hakutakuwa na uthibitishaji, udhibiti wa ufikiaji au usimbaji fiche wa mawasiliano. Mpangilio huu huokoa muda wakati wa kusanidi Graylog, lakini unapaswa kuepukwa katika toleo la umma (angalia [ukurasa huu](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- network.host: 127.0.0.1: usanidi huu unahakikisha kwamba OpenSearch inasikiza tu kwenye kitanzi chake cha ndani cha Interface, ambacho kinatosha kwa vile kiko kwenye seva sawa na Graylog.
+- **action.auto_create_index: false**: kwa kuzima uundaji wa faharasa otomatiki, OpenSearch haitaunda faharasa kiotomatiki hati inapotumwa bila faharasa iliyopo.
+- plugins.security.disabled: **kweli**: chaguo hili huzima programu-jalizi ya usalama ya OpenSearch, kumaanisha kuwa hakutakuwa na uthibitishaji, udhibiti wa ufikiaji au usimbaji fiche wa mawasiliano. Mpangilio huu huokoa muda wakati wa kusanidi Graylog, lakini unapaswa kuepukwa katika toleo la umma (angalia [ukurasa huu](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -350,7 +350,7 @@ Funga faili hii baada ya kuihifadhi.
 
 
 
-Kwa kuongeza, tunahitaji kuangalia usanidi wa kigezo cha "**max_map_count**" kwenye kinu cha Linux. Inafafanua kikomo cha maeneo ya kumbukumbu yaliyopangwa kwa kila mchakato, ili kukidhi mahitaji ya programu yetu. **OpenSearch**, kama vile Elasticsearch**, inapendekeza kuweka thamani hii kuwa "262144" ili kuepuka makosa ya usimamizi wa kumbukumbu.
+Kwa kuongeza, tunahitaji kuangalia usanidi wa kigezo cha "**max_map_count**" kwenye kinu cha Linux. Inafafanua kikomo cha maeneo ya kumbukumbu yaliyopangwa kwa kila mchakato, ili kukidhi mahitaji ya programu yetu. **OpenSearch**, kama vile **Elasticsearch**, inapendekeza kuweka thamani hii kuwa "262144" ili kuepuka makosa ya usimamizi wa kumbukumbu.
 
 
 
@@ -408,7 +408,7 @@ Hatua inayofuata: usakinishaji uliosubiriwa kwa muda mrefu wa Graylog!
 
 
 
-Ili **kusakinisha Graylog 6.1** katika toleo lake jipya zaidi, endesha amri 4 zifuatazo ili **kupakua na kusakinisha Seva ya Greylog** :
+Ili **kusakinisha Graylog 6.1** katika toleo lake jipya zaidi, endesha amri 4 zifuatazo ili **kupakua na kusakinisha Seva ya Greylog**:
 
 
 
@@ -431,8 +431,8 @@ Wacha tuanze kwa kusanidi chaguzi hizi mbili:
 
 
 
-- password_secret**: parameta hii inatumika kufafanua ufunguo unaotumiwa na Graylog ili kupata hifadhi ya nywila za mtumiaji (kwa roho ya ufunguo wa salting). Ufunguo huu lazima uwe **kipekee** na **nasibu**.
-- root_password_sha2** : parameter hii inafanana na nenosiri la msimamizi wa default katika Graylog. Imehifadhiwa kama Hash SHA-256.
+- **password_secret**: parameta hii inatumika kufafanua ufunguo unaotumiwa na Graylog ili kupata hifadhi ya nywila za mtumiaji (kwa roho ya ufunguo wa salting). Ufunguo huu lazima uwe **kipekee** na **nasibu**.
+- **root_password_sha2**: parameter hii inafanana na nenosiri la msimamizi wa default katika Graylog. Imehifadhiwa kama Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Kisha ulilazimika kujaribu tena muunganisho na mtumiaji "**admin**" na nenosiri 
 
 
 
-**Hii sivyo ilivyo tena. Unachohitajika kufanya ni kuingia na akaunti yako ya msimamizi na nenosiri lililowekwa kwenye mstari wa amri
+**Hii sivyo ilivyo tena. Unachohitajika kufanya ni kuingia na akaunti yako ya msimamizi na nenosiri lililowekwa kwenye mstari wa amri**
 
 
 
@@ -574,7 +574,7 @@ Kisha ulilazimika kujaribu tena muunganisho na mtumiaji "**admin**" na nenosiri 
 
 
 
-**Karibu kwenye Interface ya Graylog!
+**Karibu kwenye Interface ya Graylog!**
 
 
 
@@ -661,7 +661,7 @@ Ingizo jipya limeundwa na sasa linatumika. Graylog sasa inaweza kupokea kumbukum
 ![Image](assets/fr/018.webp)
 
 
-**Kumbuka: Ingizo moja linaweza kutumika kuhifadhi kumbukumbu kutoka kwa mashine kadhaa za Linux.
+**Kumbuka:** Ingizo moja linaweza kutumika kuhifadhi kumbukumbu kutoka kwa mashine kadhaa za Linux.
 
 
 
@@ -701,7 +701,7 @@ Ili kuunda mtiririko mpya, bofya "**Mitiririko**" katika menyu kuu ya Graylog. K
 
 
 
-**Kumbuka: barua pepe zinazolingana na mtiririko huu pia zitajumuishwa katika "**Mtiririko Chaguomsingi **", isipokuwa ukiangalia chaguo la "**Ondoa mechi kutoka kwa 'Mtiririko Chaguomsingi'**".
+**Kumbuka: barua pepe zinazolingana na mtiririko huu pia zitajumuishwa katika "Mtiririko Chaguomsingi", isipokuwa ukiangalia chaguo la "Ondoa mechi kutoka kwa 'Mtiririko Chaguomsingi'".**
 
 
 
@@ -713,7 +713,7 @@ Kisha, katika mipangilio yako ya mvuke, bofya kitufe cha "**Ongeza kanuni ya mti
 
 
 
-Chagua aina ya "**lingana*" na uchague ingizo lililoundwa awali **Rsyslog katika UDP**. Thibitisha kwa kitufe cha "** Unda Sheria **". Barua pepe zote kwa Ingizo letu jipya sasa zitatumwa kwa Fahirisi ya Linux.
+Chagua aina ya "**lingana**" na uchague ingizo lililoundwa awali **Rsyslog katika UDP**. Thibitisha kwa kitufe cha "**Unda Sheria**". Barua pepe zote kwa Ingizo letu jipya sasa zitatumwa kwa Fahirisi ya Linux.
 
 
 
@@ -788,7 +788,7 @@ Katika saraka hii, lazima utumie nambari ili kufafanua utaratibu wa upakiaji, kw
 
 
 
-Katika saraka hii, tutaunda faili inayoitwa "**10-graylog.conf**" :
+Katika saraka hii, tutaunda faili inayoitwa "**10-graylog.conf**":
 
 
 

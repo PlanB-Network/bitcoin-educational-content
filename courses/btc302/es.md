@@ -82,7 +82,7 @@ Este importante crecimiento está, por supuesto, estrechamente relacionado:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/es/001.webp)
 
 
 
@@ -108,7 +108,7 @@ El objetivo de este curso es proporcionarte todo lo que necesitas para crear y o
 
 
 
-**Sección 1: Introducción
+**Sección 1: Introducción**
 
 
 Empezaremos destacando la importancia de unir a la gente en torno a la Bitcoin, ya sea a través de comunidades en línea o de encuentros locales. Descubrirás por qué y dónde crear tu propia comunidad, además de cómo establecer objetivos claros para fomentar su crecimiento y sostenibilidad a largo plazo.
@@ -227,7 +227,7 @@ Al construir las primeras "ciudadelas" del mañana, **las comunidades Bitcoin de
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/es/002.webp)
 
 
 
@@ -252,7 +252,7 @@ Los encuentros ofrecen una experiencia más personal y acogedora que las llamada
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/es/003.webp)
 
 
 Los encuentros Bitcoin pueden servir para muchas cosas:
@@ -314,7 +314,7 @@ Puedes consultar [btcmap.org](https://btcmap.org/communities/map#0/0/0/), que en
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/es/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Dependiendo de los temas (charlas técnicas o talleres prácticos), puede inclus
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/es/005.webp)
 
 
 
@@ -476,7 +476,7 @@ El siguiente paso en la construcción de su comunidad es **definir su identidad*
 Esta sección ofrece tutoriales y soluciones de software para principiantes que le ayudarán a diseñar la identidad visual de su comunidad, incluso con conocimientos básicos.
 
 
-**¿Por qué importa la identidad?
+**¿Por qué importa la identidad?**
 
 La gente se siente más implicada y comprometida cuando puede identificarse con un grupo. Una identidad fuerte ayuda a su comunidad a destacar y fomenta el sentimiento de pertenencia.
 
@@ -516,7 +516,7 @@ Para darle algunas ideas, he aquí algunos ejemplos de logotipos comunitarios fr
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/es/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Para darle algunas ideas, he aquí algunos ejemplos de logotipos comunitarios fr
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/es/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Para darle algunas ideas, he aquí algunos ejemplos de logotipos comunitarios fr
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/es/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Para darle algunas ideas, he aquí algunos ejemplos de logotipos comunitarios fr
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/es/009.webp)
 
 
 
@@ -567,7 +567,7 @@ Si te llega la inspiración, puedes ir más allá: crea un escudo, un lema o inc
 
 
 
-Puedes utilizar [Canva](https://www.canva.com/)** para crear los distintos elementos visuales de tu comunidad.
+Puedes utilizar [Canva](https://www.canva.com/) para crear los distintos elementos visuales de tu comunidad.
 
 
 
@@ -612,57 +612,57 @@ Aquí tienes plantillas de Canva listas para usar que puedes duplicar y adaptar 
 
 
 
-- Cartel anunciador del encuentro** (para redes sociales e impresión en A4/A3): [enlace](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Cartel anunciador del encuentro** (para redes sociales e impresión en A4/A3): [enlace](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
-
-
-
-
-
-- Cartel del evento** (para redes sociales e impresión A4/A3): [enlace](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![image](assets/es/010.webp)
 
 
 
 
 
-- banners para redes sociales**: [enlace](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Cartel del evento** (para redes sociales e impresión A4/A3): [enlace](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- Anuncio de concurso**: [enlace](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
-
-
-![image](assets/fr/011.webp)
+- **banners para redes sociales**: [enlace](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- directrices de marca** de nuestra biblioteca, expuestas en A4 en los encuentros: [enlace](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Anuncio de concurso**: [enlace](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+![image](assets/es/011.webp)
 
 
 
 
 
-- Presentación en PowerPoint** "Capítulo 2 - Entender las transacciones Bitcoin", por @ProfEduStream: [enlace](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **directrices de marca** de nuestra biblioteca, expuestas en A4 en los encuentros: [enlace](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- folleto** "21 razones para utilizar Bitcoin", escrito por @ProfEduStream: [enlace](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Presentación en PowerPoint** "Capítulo 2 - Entender las transacciones Bitcoin", por @ProfEduStream: [enlace](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
-![image](assets/fr/012.webp)
 
 
-![image](assets/fr/013.webp)
+- **folleto** "21 razones para utilizar Bitcoin", escrito por @ProfEduStream: [enlace](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+![image](assets/es/012.webp)
+
+
+![image](assets/es/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Si quieres diseñar un logotipo futurista para una reunión de "Bitcoin Londres"
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/es/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Si los cuatro primeros resultados no son suficientemente realistas, afine su pet
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/es/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Para un aspecto más limpio, como para una pegatina:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/es/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Por ejemplo, las comunidades suizas utilizan principalmente Telegram, Twitter y 
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/es/017.webp)
 
 
 
@@ -901,7 +901,7 @@ De hecho, **un canal de Telegram es más bien una herramienta de transmisión un
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/es/018.webp)
 
 
 
@@ -925,7 +925,7 @@ Por otro lado, **un Grupo de Telegram es ideal para comunidades**: Al igual que 
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/es/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Consejo: Adapte los temas a las necesidades de su comunidad. Ejemplo: El Bitcoin
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/es/020.webp)
 
 
 Ten en cuenta que **los supergrupos de Telegram pueden ser un poco complicados de usar para algunos miembros**. Por ejemplo, no todo el mundo sabe **cómo acceder a los diferentes temas** (sólo tienen que tocar el logo del grupo en el menú principal de Telegram para ver la lista completa de temas). Enviar una rápida captura de pantalla puede ayudar a aclarar cualquier confusión.
@@ -1053,7 +1053,7 @@ Es muy recomendable **escribir una descripción clara de tu quedada** cuando cre
 
 > Echa un vistazo a nuestras otras redes sociales: [LINK] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/es/021.webp)
 
 
 
@@ -1092,21 +1092,21 @@ Utilizando **el bot [@GroupHelpBot](https://telegram.me/grouphelpbot)**, las opc
 
 
 - Un comando **rules** (/rules) para mostrar las directrices de tu comunidad;
-- Protección antispam** para filtrar mensajes y cuentas sospechosas;
-- Mensajes automáticos de bienvenida** personalizables para los nuevos miembros (con borrado automático opcional transcurridos unos minutos)
-- Protección anti-inundación** para evitar el spam en los mensajes
+- **Protección antispam** para filtrar mensajes y cuentas sospechosas;
+- **Mensajes automáticos de bienvenida** personalizables para los nuevos miembros (con borrado automático opcional transcurridos unos minutos)
+- **Protección anti-inundación** para evitar el spam en los mensajes
 - Un comando **@administrador** para llegar rápidamente a los administradores de grupo
-- Normas de bloqueo** de contenidos no deseados
+- **Normas de bloqueo** de contenidos no deseados
 - Un **comando de enlace de grupo** (/link)
 - Comando **gestión de permisos**
-- Eliminación automática** de determinados tipos de mensajes
-- Bloqueo de bots** y **bloqueo de entradas y salidas** para mantener la seguridad de su grupo
+- **Eliminación automática** de determinados tipos de mensajes
+- **Bloqueo de bots** y **bloqueo de entradas y salidas** para mantener la seguridad de su grupo
 - Enumera las **redes sociales de tu comunidad** (/redes)
 - Y mucho más...
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/es/022.webp)
 
 
 
@@ -1193,7 +1193,7 @@ Por eso, una vez que se han establecido los canales principales y las cosas func
 En los próximos meses, este curso y la plataforma planb.network ofrecerán tutoriales sobre cómo utilizar protocolos alternativos como **Simplex y Element**: herramientas de comunicación descentralizadas, cifradas y altamente personalizables.
 
 
-**¿Por qué molestarse en buscar estas opciones?*
+**¿Por qué molestarse en buscar estas opciones?**
 
 Porque, al igual que la red social NOSTR, no sólo proporcionan una mayor privacidad, sino también una salvaguarda contra la censura o el cierre arbitrario de tu grupo de Telegram.
 
@@ -1232,7 +1232,7 @@ Eso es lo que ha hecho el colectivo FREE Madeira.
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/es/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ Twitter es muy fácil de usar y, para mejorar tu privacidad, tendrás que ajusta
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/es/024.webp)
 
 
 
@@ -1308,8 +1308,8 @@ Estos son los **aspectos clave en los que debe centrarse para aumentar su visibi
     - Anime a su comunidad a interactuar:
         - Como = peso 0,5
         - Retweet = peso 1
-        - Respuesta = peso 27 (!!)**
-    - Responde a las personas que responden a tus tweets** (¡¡peso de 75!!);
+- Respuesta = peso 27 (!!)
+- Responde a las personas que responden a tus tweets (¡¡peso de 75!!);
     - Evita colocar enlaces en el tuit principal: en su lugar, añádelos en el primer comentario.;
     - Escriba las palabras completas, evite las abreviaturas.
 
@@ -1328,7 +1328,7 @@ Además, **puedes anclar un tuit o hilo a tu perfil de Twitter para darle la má
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/es/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Las comidas del **Círculo del Coin** son otro buen ejemplo.
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/es/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ Entre ellas figuran:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/es/027.webp)
 
 
 Otras plataformas también pueden aumentar tu visibilidad. **[Meetup](https://www.meetup.com/)** es una de ellas, y se trata de un sitio web (y una aplicación para el teléfono) donde puedes crear un evento y encontrar a otras personas cerca.
@@ -1476,7 +1476,7 @@ Un acontecimiento de este tipo te permite, a tu propia escala, **crear un murmul
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/es/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ En lugar de elegir tú mismo la fecha, suele ser mejor **crear una encuesta unos
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/es/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Cuando la reunión está empezando, no suele ser el momento de hacer una present
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/es/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ En el primer caso, sin perder de vista las preferencias de cada cual, un objetiv
 En el segundo caso, se podría dedicar un segundo evento mensual a un tema específico, como sesiones para principiantes o talleres (Mining, Lightning, instalación de nodos, etc.).
 
 
-![image](assets/fr/031.webp)
+![image](assets/es/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ Además, hay tres puntos importantes a tener en cuenta:
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/es/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Póngase en contacto con el lugar donde va a celebrar el acto y resérvelo para 
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/es/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Esto es lo que hay que hacer:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/es/034.webp)
 
 
 
@@ -1748,7 +1748,7 @@ Roma no se construyó en un día, y tu comunidad tampoco. El impulso en torno a 
 Para conseguirlo, hay algo esencial: **mantener el compromiso de los participantes**.
 
 
-Podría empezar con un pequeño grupo de bitcoiners apasionados, cuyo objetivo sea reunirse regularmente y hablar sobre la Bitcoin. Con el tiempo, en función de la disponibilidad y los intereses de cada uno, puedes **repartir ciertas tareas organizativas con el grupo**, o invitar a los **miembros principales a encargarse de proyectos específicos**. Éstos pueden ser propios de tu comunidad, de tus encuentros o de tu ciudad, o incluso inspirarse en las numerosas iniciativas propuestas en [la parte 6/8 de este curso](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Esto no sólo fomenta la Commitment de tus miembros principales, sino que también ayuda a que tu comunidad crezca y prospere.
+Podría empezar con un pequeño grupo de bitcoiners apasionados, cuyo objetivo sea reunirse regularmente y hablar sobre la Bitcoin. Con el tiempo, en función de la disponibilidad y los intereses de cada uno, puedes **repartir ciertas tareas organizativas con el grupo**, o invitar a los **miembros principales a encargarse de proyectos específicos**. Éstos pueden ser propios de tu comunidad, de tus encuentros o de tu ciudad, o incluso inspirarse en las numerosas iniciativas propuestas en [la parte 6/8 de este curso](https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Esto no sólo fomenta la Commitment de tus miembros principales, sino que también ayuda a que tu comunidad crezca y prospere.**
 
 
 A medida que avancen los encuentros, aparecerán caras nuevas: personas que compraron BTC y/o altcoins en ciclos anteriores, entusiastas de la tecnología que quieran profundizar sus conocimientos o completos principiantes curiosos por este sistema de pago no censurable, descentralizado, transparente y justo que funciona sin condiciones y sin terceros de confianza.
@@ -1757,12 +1757,12 @@ A medida que avancen los encuentros, aparecerán caras nuevas: personas que comp
 Para que todos se sientan incluidos en sus actos, céntrese en dos aspectos clave:
 
 
-- Inclusión social**: Todos los asistentes deben sentirse bienvenidos. Haga el esfuerzo de saludar a los recién llegados, pregúnteles por qué han venido y presénteles a los demás. Cuando la gente se siente incluida, es más probable que vuelva e incluso que ayude a organizar eventos futuros.
-- Paciencia y apertura**: Esto requiere tiempo y motivación. Si estás hablando con un "shitcoiner" comprometido (o peor aún, con un XRP Maximalist), puede ser tentador descartarlo. Pero si entablas una conversación, puedes aclarar malentendidos o razonamientos erróneos. Si están dispuestos a escuchar, puede que estén preparados para entender de verdad la Bitcoin.
+- **Inclusión social**: Todos los asistentes deben sentirse bienvenidos. Haga el esfuerzo de saludar a los recién llegados, pregúnteles por qué han venido y presénteles a los demás. Cuando la gente se siente incluida, es más probable que vuelva e incluso que ayude a organizar eventos futuros.
+- **Paciencia y apertura**: Esto requiere tiempo y motivación. Si estás hablando con un "shitcoiner" comprometido (o peor aún, con un XRP Maximalist), puede ser tentador descartarlo. Pero si entablas una conversación, puedes aclarar malentendidos o razonamientos erróneos. Si están dispuestos a escuchar, puede que estén preparados para entender de verdad la Bitcoin.
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/es/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ La clave es simplemente ser consciente de ello.
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/es/036.webp)
 
 
 
@@ -1867,7 +1867,7 @@ También puede encontrar material adicional editable en la [Bitcoin Teaching Too
 Los capítulos 2 y 7 pueden dividirse en dos presentaciones más breves para no abrumar a los participantes. Sin embargo, si se realizan en una sola sesión, se libera espacio en el calendario para actividades especiales, como reuniones conjuntas con grupos vecinos, concursos o talleres.
 
 
-**Puedes utilizar, adaptar y compartir estos recursos, pero asegúrate de citar a los autores originales si reutilizas su trabajo
+**Puedes utilizar, adaptar y compartir estos recursos, pero asegúrate de citar a los autores originales si reutilizas su trabajo**
 
 
 Como no todo el mundo va a asistir a todas las reuniones, es buena idea grabar las presentaciones y subirlas a una plataforma de streaming o a tu sitio web. Esto permite a los ausentes ponerse al día y a los participantes repasar el material más tarde.
@@ -1905,7 +1905,7 @@ Dependiendo de su disponibilidad y del nivel de implicación en su comunidad, pu
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/es/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Antes de hacer un pedido, tenga en cuenta estos consejos:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/es/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Si diriges una asociación y quieres invertir parte de tus fondos en recursos ed
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/es/039.webp)
 
 
 Para apoyar el ecosistema, **[la editorial Konsensus Network](https://konsensus.network/) ofrece desde finales de 2023 a los encuentros y comunidades internacionales Bitcoin un descuento de entre el 15% y el 35% en todos sus libros, para pedidos de tres libros o más**.
@@ -1997,7 +1997,7 @@ Aquí tienes un ejemplo de código abierto que puedes utilizar y adaptar:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/es/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Un ejemplo es un [folleto completo de fuentes](https://profedustream.substack.co
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/es/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/es/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ En Francia y algunos otros países también hay "cajas de libros", pequeñas caj
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/es/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/es/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Aquí está [el folleto compartido entre los bitcoiners franceses](https://profe
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/es/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/es/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Algunos bitcoiners incluso tomaron la iniciativa de traducir "Stranded" al franc
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/es/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Un ejemplo es [StreetCyberArt](https://twitter.com/streetcyber_art), un bitcoine
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/es/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Tenga también en cuenta que la impresión de estos carteles en una impresora pe
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/es/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Si quiere pedir más de 50 tarjetas NFC, puede ponerse en contacto con la empres
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/es/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Elijas la que elijas, diseña elementos visuales específicos de la plataforma p
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/es/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Varias plantillas de insignias utilizadas por la asociación Bitcoin Lille está
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/es/052.webp)
 
 
 
@@ -2378,7 +2378,7 @@ La lista de proyectos descrita anteriormente no es, por supuesto, exhaustiva. En
 Ahora pasemos a la incorporación.
 
 
-Como sabe, una de las mejores formas de llegar a un gran público de una sola vez es organizar una conferencia gratuita**. Esto puede hacerse en institutos y universidades, introduciendo a los jóvenes (y a los no tan jóvenes) en la Bitcoin, tanto si son completamente nuevos en ella como si buscan profundizar sus conocimientos.
+Como sabe, una de las mejores formas de llegar a un gran público de una sola vez es organizar una **conferencia gratuita**. Esto puede hacerse en institutos y universidades, introduciendo a los jóvenes (y a los no tan jóvenes) en la Bitcoin, tanto si son completamente nuevos en ella como si buscan profundizar sus conocimientos.
 
 
 Dar una conferencia ante decenas o incluso cientos de personas requiere algo más que conocimientos técnicos. Lo necesitarás:
@@ -2400,7 +2400,7 @@ Dicho esto, no se trata de una empresa ligera: exige motivación, esfuerzo y las
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/es/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Aun así, merece la pena intentarlo, sobre todo con los sindicatos y asociacione
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/es/054.webp)
 
 
 
@@ -2450,7 +2450,7 @@ Cada comerciante es diferente y su incorporación conlleva sus propios retos:
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/es/055.webp)
 
 
 
@@ -2500,7 +2500,7 @@ Después de que estén a bordo:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/es/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Tenga en cuenta que las entrevistas con los medios de comunicación pueden ser d
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/es/057.webp)
 
 
 
@@ -2609,11 +2609,11 @@ En primer lugar, si tienes a 500 personas discutiendo sobre todo tipo de temas e
 
 En segundo lugar, más gente en tus canales significa más bots, más estafas y, por tanto, más moderación que gestionar. Prepárate para ello creando un conjunto de normas claras a las que puedas remitirte al moderar los mensajes. Según nuestra experiencia, esto ayuda mucho a evitar conflictos, sobre todo si las normas son fácilmente accesibles en tus canales.
 
-Un buen ejemplo es **[el reglamento de código abierto de Bitcoin Lille](https://bitcoinlille.fr/reglement/) escrito hace unos años para su grupo de Telegram y su servidor de Discord. Se basa en principios sencillos y universales, e incluso puedes hacerte con [una versión personalizable del diseño aquí](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Un buen ejemplo es **[el reglamento de código abierto de Bitcoin Lille](https://bitcoinlille.fr/reglement/)** escrito hace unos años para su grupo de Telegram y su servidor de Discord. Se basa en principios sencillos y universales, e incluso puedes hacerte con [una versión personalizable del diseño aquí](https://www.canva.com/design/DAGHI692AD4/rjT4sqEnhajc5FiPA6GFZQ/edit?utm_content=DAGHI692AD4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/es/058.webp)
 
 
 
@@ -2673,7 +2673,7 @@ Sin este acceso, es casi imposible que alguien más tome el relevo de forma efec
 Si no tienes un contacto de confianza en tu reunión, siempre puedes ponerte en contacto con @ProfEduStream, @copinmalin o @gabtribe en Telegram. Pueden ayudarte a encontrar un sucesor motivado y coordinar la transferencia de cuentas y derechos de administrador.
 
 
-**¿Por qué es importante la descentralización?
+**¿Por qué es importante la descentralización?**
 
 
 Si eres el único implicado y tienes todo el control, ¿qué pasa si desapareces? La respuesta es sencilla: tu comunidad también desaparecerá.
@@ -2700,7 +2700,7 @@ Utiliza **herramientas de comunicación cifradas o anónimas** para proteger la 
 El 5 de abril de 1933, Franklin Roosevelt, 32º Presidente de los Estados Unidos de América, firmó la **Orden Ejecutiva 6102**, por la que se declaraba ilegal que los particulares poseyeran monedas, lingotes o certificados de oro en cualquier lugar del país.
 
 
-![image](assets/fr/059.webp)
+![image](assets/es/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ No necesitamos caer en el pensamiento conspirativo. Pero nada nos impide anticip
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/es/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Dado que nuestro tiempo es limitado, la clave está en mantenernos humildes, seg
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/es/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ En su lugar, **busca ayuda de bitcoiners que ya hayan recorrido el mismo túnel,
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/es/062.webp)
 
 
 
@@ -2876,15 +2876,15 @@ En Francia, por ejemplo, de las cerca de sesenta comunidades y encuentros, casi 
 Los beneficios son dobles:
 
 
-- Reconocimiento oficial**: puede abrir una cuenta bancaria de la asociación, recibir atención de la prensa y los medios de comunicación e incluso solicitar subvenciones.
-- Organización estructurada**: puedes definir funciones claras, lo que facilita la gestión de tu comunidad y la realización de proyectos.
+- **Reconocimiento oficial**: puede abrir una cuenta bancaria de la asociación, recibir atención de la prensa y los medios de comunicación e incluso solicitar subvenciones.
+- **Organización estructurada**: puedes definir funciones claras, lo que facilita la gestión de tu comunidad y la realización de proyectos.
 
 
-Para que tu comunidad crezca aún más, **un seguimiento del curso COMMU302<img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
+Para que tu comunidad crezca aún más, **un seguimiento del curso COMMU302** <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/a823b6f4-3365-41fa-97fd-768a788fb871" />
 
 <img width="80" height="18" alt="immagine" src="https://github.com/user-attachments/assets/f48d024e-66db-4590-9d21-5e1aad820430" />
 
-podría publicarse en [planb.network](https://planb.network/) en los próximos meses**.
+podría publicarse en [planb.network](https://planb.network/) en los próximos meses.
 
 
 Esta próxima sesión podría explorar temas avanzados como:
@@ -2897,7 +2897,7 @@ Para ello, nos basaremos en las experiencias de comunidades que ya han creado su
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/es/063.webp)
 
 
 

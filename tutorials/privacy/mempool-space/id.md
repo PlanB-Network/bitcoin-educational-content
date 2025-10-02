@@ -64,10 +64,10 @@ Pada bilah menu, Anda akan menemukan jaringan berikut ini:
 
 
 
-- Mainnet**: Jaringan Bitcoin utama tempat transaksi Bitcoin yang sebenarnya terjadi.
-- Signet**: Jaringan uji coba yang menggunakan tanda tangan digital untuk memvalidasi blok tanpa memerlukan sumber daya yang dibutuhkan oleh jaringan utama.
-- Testnet 3**: Jaringan pengujian dan pengembangan bebas risiko pada protokol Bitcoin.
-- Testnet 4**: Versi baru Testnet 3 menghadirkan stabilitas yang lebih baik dan aturan konsensus baru ke lingkungan pengujian.
+- **Mainnet**: Jaringan Bitcoin utama tempat transaksi Bitcoin yang sebenarnya terjadi.
+- **Signet**: Jaringan uji coba yang menggunakan tanda tangan digital untuk memvalidasi blok tanpa memerlukan sumber daya yang dibutuhkan oleh jaringan utama.
+- **Testnet 3**: Jaringan pengujian dan pengembangan bebas risiko pada protokol Bitcoin.
+- **Testnet 4**: Versi baru Testnet 3 menghadirkan stabilitas yang lebih baik dan aturan konsensus baru ke lingkungan pengujian.
 
 
 
@@ -142,9 +142,9 @@ Pada halaman detail transaksi, Anda akan menemukan informasi umum tentang transa
 
 
 
-- Status**: Dikonfirmasi saat ditambahkan ke blok, belum dikonfirmasi saat menunggu di Mempool.
-- Biaya transaksi**.
-- Perkiraan waktu kedatangan (ETA)**:  Perkiraan waktu yang diperlukan agar transaksi Anda ditambahkan ke dalam blok. Ini dihitung berdasarkan rasio yang merupakan biaya yang terkait dengan transaksi ini.
+- **Status**: Dikonfirmasi saat ditambahkan ke blok, belum dikonfirmasi saat menunggu di Mempool.
+- Biaya transaksi.
+- **Perkiraan waktu kedatangan (ETA)**: Perkiraan waktu yang diperlukan agar transaksi Anda ditambahkan ke dalam blok. Ini dihitung berdasarkan rasio yang merupakan biaya yang terkait dengan transaksi ini.
 
 
 
@@ -192,7 +192,7 @@ Untungnya, ada dua metode yang tersedia di jaringan Bitcoin untuk mempercepat ko
 
 
 
-- RBF** - Penggantian Dengan Biaya: Metode yang memungkinkan Anda untuk membelanjakan entri yang sama dengan transaksi berbiaya rendah Anda, tetapi kali ini dengan meningkatkan biaya transaksi untuk mempercepat validasi. Transaksi baru Anda akan divalidasi lebih cepat dan dimasukkan ke dalam blok, sehingga membatalkan transaksi dengan biaya rendah.
+- **RBF** - Penggantian Dengan Biaya: Metode yang memungkinkan Anda untuk membelanjakan entri yang sama dengan transaksi berbiaya rendah Anda, tetapi kali ini dengan meningkatkan biaya transaksi untuk mempercepat validasi. Transaksi baru Anda akan divalidasi lebih cepat dan dimasukkan ke dalam blok, sehingga membatalkan transaksi dengan biaya rendah.
 
 
 
@@ -204,7 +204,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-- CPFP** - Child pay for parent: Pendekatan yang terinspirasi oleh RBF, tetapi dari sisi penerima. Ketika transaksi di mana Anda sebagai penerima diblokir dalam Mempool, Anda memiliki opsi untuk membelanjakan hasil (UTXO) dari transaksi ini, terlepas dari fakta bahwa transaksi tersebut belum dikonfirmasi, dengan mengalokasikan lebih banyak biaya ke transaksi baru ini sehingga biaya rata-rata - dari transaksi di mana Anda sebagai penerima dan transaksi yang diprakarsai - mendorong para penambang untuk menyertakan kedua transaksi tersebut ke dalam satu blok.
+- **CPFP** - Child pay for parent: Pendekatan yang terinspirasi oleh RBF, tetapi dari sisi penerima. Ketika transaksi di mana Anda sebagai penerima diblokir dalam Mempool, Anda memiliki opsi untuk membelanjakan hasil (UTXO) dari transaksi ini, terlepas dari fakta bahwa transaksi tersebut belum dikonfirmasi, dengan mengalokasikan lebih banyak biaya ke transaksi baru ini sehingga biaya rata-rata - dari transaksi di mana Anda sebagai penerima dan transaksi yang diprakarsai - mendorong para penambang untuk menyertakan kedua transaksi tersebut ke dalam satu blok.
 
 
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Pour permettre à Bob de dépenser les fonds directement
 explanation: |
   Alice crée une transaction de retrait afin de récupérer ses fonds si un problème survient avec Bob, garantissant ainsi la sécurité de son dépôt.
-reviewed: false
+reviewed: true 

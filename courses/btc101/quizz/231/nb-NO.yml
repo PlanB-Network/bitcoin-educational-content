@@ -1,9 +1,10 @@
-question: Hva er den gjennomsnittlige tiden mellom to blokker i Bitcoin-protokollen?
-answer: 10 minutter
+question: Hva er konseptet med pengeoverføring i konteksten av Lightning Network?
+answer: Å gjøre mikrotransaksjoner hvert minutt
 wrong_answers:
-  - 5 minutter
-  - 15 minutter
-  - 20 minutter
+  - Å strømme videoinnhold for Bitcoin
+  - Å strømme lydinnhold for Bitcoin
+  - Å strømme Bitcoin-transaksjoner i sanntid
 explanation: >-
-  I gjennomsnitt er tiden mellom to blokker i Bitcoin-protokollen 10 minutter.
-reviewed: false
+  Med Lightning Network kan vi gjøre mikrotransaksjoner hvert minutt,
+  noe som åpner døren for å eksperimentere med økonomiske modeller hvor forbrukere betaler for
+  innhold basert på hva de forbruker.

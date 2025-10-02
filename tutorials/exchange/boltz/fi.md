@@ -25,10 +25,10 @@ Bitcoin:n protokollakerrosten välillä oli kuitenkin edelleen suuri ongelma: ne
 
 
 
-- on chain**: Bitcoin:n pääketju, jossa transaktiot vahvistetaan keskimäärin 10 minuutin välein, transaktiomaksut ovat usein korkeita, mikä ei välttämättä vastaa käyttäjien tarpeita ;
-- Lightning Network**: Bitcoin:n päällekkäiskäyttö mahdollistaa pikamaksut alhaisilla maksuilla, jolloin Bitcoin:ää voidaan käyttää päivittäisiin maksuihin;
-- Liquid Network**: Blockstreamin luoma Bitcoin:n päällys, joka mahdollistaa nopean, Confidential Transactions:n ja muiden Bitcoin-pohjaisten rahoitusvälineiden käytön;
-- RootStock**: Bitcoin-protokollaan perustuvien älykkäiden sopimusten kehittämiseen tarkoitettu ratkaisu.
+- **on chain**: Bitcoin:n pääketju, jossa transaktiot vahvistetaan keskimäärin 10 minuutin välein, transaktiomaksut ovat usein korkeita, mikä ei välttämättä vastaa käyttäjien tarpeita ;
+- **Lightning Network**: Bitcoin:n päällekkäiskäyttö mahdollistaa pikamaksut alhaisilla maksuilla, jolloin Bitcoin:ää voidaan käyttää päivittäisiin maksuihin;
+- **Liquid Network**: Blockstreamin luoma Bitcoin:n päällys, joka mahdollistaa nopean, Confidential Transactions:n ja muiden Bitcoin-pohjaisten rahoitusvälineiden käytön;
+- **RootStock**: Bitcoin-protokollaan perustuvien älykkäiden sopimusten kehittämiseen tarkoitettu ratkaisu.
 
 
 
@@ -54,7 +54,7 @@ Tällä tavoin säilytät bitcoinisi pysyvästi itse, eikä Exchange perustu luo
 
 
 
-Atominen Exchange toimii älykkäiden sopimusten [HTLC](https://planb.network/resources/glossary/HTLC) kanssa (*Hashed Timelock Contract*). Tämäntyyppisessä Contract:ssä summa "lukitaan" kaksisuuntaiseen kanavaan ja otetaan käyttöön aikarajoitus, jolloin jos transaktiota ei saada päätökseen tietyn ajan kuluessa, saldo palautuu tallettajalle. Tätä mekanismia käytetään Boltz-alustalla.
+Atominen Exchange toimii älykkäiden sopimusten [HTLC](https://planb.network/resources/glossary/htlc) kanssa (*Hashed Timelock Contract*). Tämäntyyppisessä Contract:ssä summa "lukitaan" kaksisuuntaiseen kanavaan ja otetaan käyttöön aikarajoitus, jolloin jos transaktiota ei saada päätökseen tietyn ajan kuluessa, saldo palautuu tallettajalle. Tätä mekanismia käytetään Boltz-alustalla.
 
 
 

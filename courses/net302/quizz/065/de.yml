@@ -1,0 +1,9 @@
+question: Welches Protokoll weist den automatisch verteilten IPv6-Adressen dynamisch Lebensdauern zu?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 verwaltet die Lebenszeiten explizit durch Lease, während NDP sie in seinen Router-Konfigurationsmeldungen ankündigt.
+reviewed: false

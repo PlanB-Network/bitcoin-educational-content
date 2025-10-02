@@ -1,5 +1,5 @@
 ---
-name: گاو Bitcoin
+name: Bull Bitcoin
 description: خرید و فروش بیت‌کوین در Bull Bitcoin
 ---
 ![cover](assets/cover.webp)

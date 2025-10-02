@@ -1,0 +1,9 @@
+question: pruned 结何时会成为 Wallet 结的问题？
+answer: 修复旧版 Wallet 时
+wrong_answers:
+  - 创建新接收 Address 时
+  - 发送最近的交易时
+  - 选择收费金额时
+explanation: |
+  pruned 节点不保留旧块，这可能会导致在恢复时无法扫描过去的交易。
+reviewed: true

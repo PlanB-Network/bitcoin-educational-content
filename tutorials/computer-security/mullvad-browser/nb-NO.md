@@ -1,5 +1,5 @@
 ---
-name: Mullvad nettleser
+name: Mullvad Browser
 description: Slik bruker du Mullvad-nettleseren for personvern
 ---
 
@@ -13,10 +13,10 @@ I en verden der digital overvåking er i ferd med å bli allestedsnærværende, 
 
 
 
-- Tredjeparts informasjonskapsler**: små filer som lagres av eksterne nettsteder for å følge deg fra ett nettsted til et annet
-- Fingeravtrykk**: samler inn unike egenskaper ved nettleseren og enheten din (skjermoppløsning, installerte fonter, plugins osv.) for å identifisere deg uten informasjonskapsler
-- Sporingsskript**: usynlige JavaScript-koder som analyserer surfeatferden din (klikk, rulling, tidsbruk)
-- IP Address-analyse**: geografisk plassering og identifisering av internettleverandøren din
+- **Tredjeparts informasjonskapsler**: små filer som lagres av eksterne nettsteder for å følge deg fra ett nettsted til et annet
+- **Fingeravtrykk**: samler inn unike egenskaper ved nettleseren og enheten din (skjermoppløsning, installerte fonter, plugins osv.) for å identifisere deg uten informasjonskapsler
+- **Sporingsskript**: usynlige JavaScript-koder som analyserer surfeatferden din (klikk, rulling, tidsbruk)
+- **IP Address-analyse**: geografisk plassering og identifisering av internettleverandøren din
 
 
 
@@ -74,25 +74,25 @@ Mullvad-nettleseren er utviklet med ett hovedmål i tankene: **beskytte brukerne
 
 
 
-- Reduser annonsesporing og sporing** fra nettsteder og reklamebyråer drastisk. Som standard blokkerer Mullvad Browser tredjepartssporere, sporingskapsler og fingeravtrykk-skript som kan identifisere deg.
+- Reduser annonsesporing og **sporing** fra nettsteder og reklamebyråer drastisk. Som standard blokkerer Mullvad Browser tredjepartssporere, sporingskapsler og fingeravtrykk-skript som kan identifisere deg.
 
 
 
 
 
-- Standardiser nettleserens fingeravtrykk** for å **"smelte inn i mengden"**. Fingeravtrykket er som et unikt "identitetskort" som skapes ved å kombinere alle egenskapene til nettleseren din. Mullvad Browser sørger for at alle brukerne har nøyaktig samme "identitetskort", noe som gjør det umulig å skille dem fra hverandre.
+- Standardiser **nettleserens fingeravtrykk** for å **"smelte inn i mengden"**. Fingeravtrykket er som et unikt "identitetskort" som skapes ved å kombinere alle egenskapene til nettleseren din. Mullvad Browser sørger for at alle brukerne har nøyaktig samme "identitetskort", noe som gjør det umulig å skille dem fra hverandre.
 
 
 
 
 
-- Tilbyr umiddelbar beskyttelse uten ekstra utvidelser**. Mullvad Browser leveres i en "klar til bruk"-konfigurasjon: brukeren trenger ikke å installere en rekke utvidelser eller endre noen innstillinger for å bli beskyttet.
+- Tilbyr umiddelbar beskyttelse uten ekstra utvidelser. Mullvad Browser leveres i en "klar til bruk"-konfigurasjon: brukeren trenger ikke å installere en rekke utvidelser eller endre noen innstillinger for å bli beskyttet.
 
 
 
 
 
-- Ikke ofre ytelse eller ergonomi** mer enn nødvendig. Uten Tor-ruting tilbyr Mullvad Browser mye raskere surfing enn Tor Browser, og nærmer seg ytelsen til en standard nettleser kombinert med et VPN.
+- Ikke ofre ytelse eller ergonomi mer enn nødvendig. Uten Tor-ruting tilbyr Mullvad Browser mye raskere surfing enn Tor Browser, og nærmer seg ytelsen til en standard nettleser kombinert med et VPN.
 
 
 
@@ -100,42 +100,42 @@ Mullvad-nettleseren er utviklet med ett hovedmål i tankene: **beskytte brukerne
 
 
 
-Mullvad Browser inneholder en rekke **sikkerhets- og personvernfunksjoner** som er direkte inspirert av Tor Browser :
+Mullvad Browser inneholder en rekke **sikkerhets- og personvernfunksjoner** som er direkte inspirert av Tor Browser:
 
 
 
 
 
-- Privat surfing til enhver tid:** Privat surfemodus er aktivert som standard og kan ikke deaktiveres. **Ingen historikk, informasjonskapsler eller hurtigbuffer lagres fra en økt til den neste**. Så snart du lukker Mullvad Browser, slettes alle nettleserdata.
+- **Privat surfing til enhver tid:** Privat surfemodus er aktivert som standard og kan ikke deaktiveres. **Ingen historikk, informasjonskapsler eller hurtigbuffer lagres fra en økt til den neste**. Så snart du lukker Mullvad Browser, slettes alle nettleserdata.
 
 
 
 
 
-- Forbedret beskyttelse mot fingeravtrykk:** Nettleseren bruker strenge innstillinger for å hindre digitale fingeravtrykk. Dette inkluderer:
- - Standardisering av brukeragent** og nettleserversjon
- - Tidssone satt til UTC** for alle brukere
- - Letterboxing**: en teknikk som automatisk legger til grå marginer rundt nettsidene for å standardisere visningsstørrelsen og forhindre identifikasjon ut fra skjermdimensjonene dine
- - Blokker fingeravtrykk-API-er**: Canvas (2D-tegning), WebGL (3D-grafikk) og AudioContext (lydbehandling) er deaktivert fordi de kan avsløre unike detaljer om maskinvaren din
- - Standardiserte systemfonter** for å unngå identifikasjon av installerte fonter
+- **Forbedret beskyttelse mot fingeravtrykk:** Nettleseren bruker strenge innstillinger for å hindre digitale fingeravtrykk. Dette inkluderer:
+- Standardisering av **brukeragent** og nettleserversjon
+- Tidssone satt til **UTC** for alle brukere
+- **Letterboxing**: en teknikk som automatisk legger til grå marginer rundt nettsidene for å standardisere visningsstørrelsen og forhindre identifikasjon ut fra skjermdimensjonene dine
+- **Blokker fingeravtrykk-API-er**: Canvas (2D-tegning), WebGL (3D-grafikk) og AudioContext (lydbehandling) er deaktivert fordi de kan avsløre unike detaljer om maskinvaren din
+- **Standardiserte systemfonter** for å unngå identifikasjon av installerte fonter
 
 
 
 
 
-- Blokkering av sporere og reklame:** Mullvad Browser integrerer **uBlock Origin**-utvidelsen (forhåndsinstallert) med ekstra beskyttelseslister for å blokkere **tredjepartssporere, reklameskript og annet ondsinnet innhold**. Denne beskyttelsen ledsages av **First-Party Isolation**: en teknikk som lagrer informasjonskapsler i separate "potter" for hvert nettsted, slik at ett nettsted ikke kan lese informasjonskapsler som er lagret av et annet.
+- **Blokkering av sporere og reklame:** Mullvad Browser integrerer **uBlock Origin**-utvidelsen (forhåndsinstallert) med ekstra beskyttelseslister for å blokkere **tredjepartssporere, reklameskript og annet ondsinnet innhold**. Denne beskyttelsen ledsages av **First-Party Isolation**: en teknikk som lagrer informasjonskapsler i separate "potter" for hvert nettsted, slik at ett nettsted ikke kan lese informasjonskapsler som er lagret av et annet.
 
 
 
 
 
-- Tilbakestillingsknapp for økter:** I likhet med Tor-nettleserens "New Identity"-knapp har Mullvad Browser en knapp for **rask omstart av nettleseren med en ny, tom økt**.
+- Tilbakestillingsknapp for økter: I likhet med Tor-nettleserens "New Identity"-knapp har Mullvad Browser en knapp for **rask omstart av nettleseren med en ny, tom økt**.
 
 
 
 
 
-- Justerbare sikkerhetsnivåer:** Du kan justere sikkerhetsnivået (*Normal*, *Safer*, *Safest*) i innstillingene, akkurat som i Tor Browser.
+- **Justerbare sikkerhetsnivåer:** Du kan justere sikkerhetsnivået (*Normal*, *Safer*, *Safest*) i innstillingene, akkurat som i Tor Browser.
 
 
 
@@ -150,7 +150,7 @@ Mullvad Browser inkluderer **tre forhåndsinstallerte utvidelser** som utgjør k
 ### **uBlock Origin**
 
 
-Denne utvidelsen for blokkering av annonser og sporere leveres forhåndskonfigurert med **optimaliserte filterlister** for å blokkere :
+Denne utvidelsen for blokkering av annonser og sporere leveres forhåndskonfigurert med **optimaliserte filterlister** for å blokkere:
 
 
 
@@ -169,14 +169,14 @@ uBlock Origin i Mullvad Browser bruker standardiserte parametere for å sikre at
 ### **NoScript**
 
 
-NoScript kjører i bakgrunnen for å administrere nettleserens **sikkerhetsnivåer**. Dette :
+NoScript kjører i bakgrunnen for å administrere nettleserens **sikkerhetsnivåer**. Dette:
 
 
 
 
-- Kontrollerer kjøring av JavaScript** i henhold til valgt nivå (Normal/Mest sikker/Mest sikker)
-- Filtrerer automatisk bort XSS**-angrep (Cross-Site Scripting)
-- Blokkerer farlig** aktivt innhold på nettsteder som ikke er https
+- Kontrollerer kjøring av **JavaScript** i henhold til valgt nivå (Normal/Mest sikker/Mest sikker)
+- Filtrerer automatisk bort **XSS-angrep** (Cross-Site Scripting)
+- Blokkerer farlig **aktivt innhold** på nettsteder som ikke er https
 - Ikonet er skjult som standard, men kan vises via "Tilpass verktøylinjen"
 
 
@@ -193,10 +193,10 @@ Denne Mullvad-spesifikke utvidelsen tilbyr ulike funksjoner avhengig av om du er
 
 
 
-- Grunnleggende tilkoblingssjekk**: viser din nåværende offentlige IP og noe tilkoblingsinformasjon
-- Personvernanbefalinger**: tips om hvordan du kan forbedre sikkerhetsinnstillingene dine (DNS, kun HTTPS, søkemotor)
-- WebRTC**-kontroll: aktiver/deaktiver for å forhindre IP Address-lekkasjer
-- Kan slettes uten innvirkning** på ditt digitale fotavtrykk hvis du ikke bruker Mullvad VPN
+- **Grunnleggende tilkoblingssjekk**: viser din nåværende offentlige IP og noe tilkoblingsinformasjon
+- **Personvernanbefalinger**: tips om hvordan du kan forbedre sikkerhetsinnstillingene dine (DNS, kun HTTPS, søkemotor)
+- **WebRTC-kontroll**: aktiver/deaktiver for å forhindre IP Address-lekkasjer
+- Kan slettes uten **innvirkning** på ditt digitale fotavtrykk hvis du ikke bruker Mullvad VPN
 
 
 
@@ -209,16 +209,16 @@ Utvidelsen avslører sitt fulle potensial med avanserte funksjoner:
 
 
 
-- Integrert SOCKS5-proxy**: tilkobling til Mullvad VPN-serverproxy med ett klikk
- - Fast IP Address**: I motsetning til et VPN, som kan endre sin IP Address, garanterer en proxy alltid den samme utgangs-Address
- - Automatisk nødstopp**: Hvis VPN kobles fra, blokkeres nettlesertrafikken umiddelbart
- - Støtte for IPv6**: IPv6-tilkobling selv om VPN-tilkoblingen din ikke har det aktivert
+- **Integrert SOCKS5-proxy**: tilkobling til Mullvad VPN-serverproxy med ett klikk
+- **Fast IP Address**: I motsetning til et VPN, som kan endre sin IP Address, garanterer en proxy alltid den samme utgangs-Address
+- **Automatisk nødstopp**: Hvis VPN kobles fra, blokkeres nettlesertrafikken umiddelbart
+- **Støtte for IPv6**: IPv6-tilkobling selv om VPN-tilkoblingen din ikke har det aktivert
 
 
 
 
 
-- Multihop (dobbelt VPN)**: mulighet til å endre proxy-plassering for å opprette en tunnel i tunnelen
+- **Multihop (dobbelt VPN)**: mulighet til å endre proxy-plassering for å opprette en tunnel i tunnelen
  - Trafikken din går først gjennom VPN-serveren din, og "hopper" deretter til en annen Mullvad-server
  - Bruk en annen lokalisering kun for nettleseren
 
@@ -226,13 +226,13 @@ Utvidelsen avslører sitt fulle potensial med avanserte funksjoner:
 
 
 
-- Avansert tilkoblingsovervåking**: sanntidsovervåking av VPN-status, tilkoblet server og DNS-lekkasjedeteksjon
+- **Avansert tilkoblingsovervåking**: sanntidsovervåking av VPN-status, tilkoblet server og DNS-lekkasjedeteksjon
 
 
 
 
 
-- Tilgang til Mullvad Leta**: privat søkemotor forbeholdt abonnenter (men ikke anbefalt av Mullvad på grunn av korrelasjon med kontoen din)
+- Tilgang til **Mullvad Leta**: privat søkemotor forbeholdt abonnenter (men ikke anbefalt av Mullvad på grunn av korrelasjon med kontoen din)
 
 
 
@@ -250,25 +250,25 @@ Disse tre utvidelsene fungerer sammen for å skape et sammenhengende økosystem 
 
 
 
-- Utmerket personvern som standard:** Mullvad Browser bruker svært strenge personverninnstillinger helt fra starten av, uten behov for manuell konfigurasjon.
+- **Utmerket personvern som standard:** Mullvad Browser bruker svært strenge personverninnstillinger helt fra starten av, uten behov for manuell konfigurasjon.
 
 
 
 
 
-- Bedre ytelse enn Tor Browser:** I fravær av onion-routing er Mullvad Browser **betydelig raskere og mer responsiv** enn Tor Browser for klassisk nettsurfing.
+- **Bedre ytelse enn Tor Browser:** I fravær av onion-routing er Mullvad Browser **betydelig raskere og mer responsiv** enn Tor Browser for klassisk nettsurfing.
 
 
 
 
 
-- Kjent Interface-enkelhet:** Mullvad Browser er basert på Firefox' Interface. Hvis du er vant til Firefox eller til og med Tor Browser, vil du ikke føle deg malplassert.
+- **Kjent Interface-enkelhet:** Mullvad Browser er basert på Firefox' Interface. Hvis du er vant til Firefox eller til og med Tor Browser, vil du ikke føle deg malplassert.
 
 
 
 
 
-- Pålitelig samarbeid og revidert kode:** Mullvad Browser drar nytte av ekspertisen i Tor-prosjektet, og all kildekode er tilgjengelig for ekstern revisjon.
+- **Pålitelig samarbeid og revidert kode:** Mullvad Browser drar nytte av ekspertisen i Tor-prosjektet, og all kildekode er tilgjengelig for ekstern revisjon.
 
 
 
@@ -278,13 +278,13 @@ Disse tre utvidelsene fungerer sammen for å skape et sammenhengende økosystem 
 
 
 
-- Ingen nettverksanonymitet uten VPN:** Det viktigste poenget er at **Mullvad Browser ikke skjuler din IP Address av seg selv** (som alle andre nettlesere, bortsett fra Tor Browser). Din IP Address er som din "post Address" på Internett: den avslører hvor du befinner deg og din ISP. Den er derfor **avhengig av et VPN** (virtuelt privat nettverk) for å skjule denne viktige informasjonen.
+- **Ingen nettverksanonymitet uten VPN:** Det viktigste poenget er at **Mullvad Browser ikke skjuler din IP Address av seg selv** (som alle andre nettlesere, bortsett fra Tor Browser). Din IP Address er som din "post Address" på Internett: den avslører hvor du befinner deg og din ISP. Den er derfor **avhengig av et VPN** (virtuelt privat nettverk) for å skjule denne viktige informasjonen.
 
 
 
 
 
-- Ingen mobilversjon:** Mullvad Browser er foreløpig bare tilgjengelig på PC (Windows, Mac, Linux).
+- **Ingen mobilversjon:** Mullvad Browser er foreløpig bare tilgjengelig på PC (Windows, Mac, Linux).
 
 
 
@@ -296,7 +296,7 @@ Disse tre utvidelsene fungerer sammen for å skape et sammenhengende økosystem 
 
 
 
-- Begrensede funksjoner:** For å bevare fingeravtrykkets ensartethet har Mullvad Browser **deaktivert flere funksjoner** som finnes i Firefox, og er ikke beregnet for tilpasning.
+- **Begrensede funksjoner:** For å bevare fingeravtrykkets ensartethet har Mullvad Browser **deaktivert flere funksjoner** som finnes i Firefox, og er ikke beregnet for tilpasning.
 
 
 
@@ -328,7 +328,7 @@ Klikk på **"Last ned"**-knappen som tilsvarer operativsystemet ditt.
 
 
 
-For Linux kan du velge mellom ulike formater, avhengig av distribusjonen din. Når nedlastingen er fullført :
+For Linux kan du velge mellom ulike formater, avhengig av distribusjonen din. Når nedlastingen er fullført:
 
 
 
@@ -399,13 +399,13 @@ Mullvad Browser tilbyr tre sikkerhetsnivåer:
 
 
 
-- Normal** (nåværende standardnivå) : Alle nettleser- og nettstedsfunksjoner er aktivert
+- **Normal** (nåværende standardnivå): Alle nettleser- og nettstedsfunksjoner er aktivert
 
 
 
 
 
-- Tryggere**: Deaktiverer ofte farlige nettstedsfunksjoner, noe som kan føre til tap av funksjonalitet på enkelte nettsteder:
+- **Tryggere**: Deaktiverer ofte farlige nettstedsfunksjoner, noe som kan føre til tap av funksjonalitet på enkelte nettsteder:
  - JavaScript er deaktivert for nettsteder som ikke har HTTPS
  - Noen skrifter og matematiske symboler er deaktivert
  - Lyd og video (HTML5 media) samt WebGL er "klikk for å spille"
@@ -414,7 +414,7 @@ Mullvad Browser tilbyr tre sikkerhetsnivåer:
 
 
 
-- Den tryggeste**: Tillater bare de nettstedsfunksjonene som kreves for statiske nettsteder og grunnleggende tjenester:
+- **Den tryggeste**: Tillater bare de nettstedsfunksjonene som kreves for statiske nettsteder og grunnleggende tjenester:
  - JavaScript er deaktivert som standard for alle nettsteder
  - Noen skrifter, ikoner, bilder og matematiske symboler er deaktivert
  - Lyd og video (HTML5 media) samt WebGL er "klikk for å spille"
@@ -477,7 +477,7 @@ Hvis du likevel velger å installere utvidelser, må du være klar over at du op
 
 
 
-1. **Bruk alltid et VPN: Mullvad Browser maskerer ikke IP-en din. Et VPN er avgjørende for fullstendig anonymitet.
+1. **Bruk alltid et VPN:** Mullvad Browser maskerer ikke IP-en din. Et VPN er avgjørende for fullstendig anonymitet.
 
 
 
@@ -489,14 +489,14 @@ Hvis du likevel velger å installere utvidelser, må du være klar over at du op
 
 
 
-4. **Velg det sikkerhetsnivået som passer best til dine behov** :
+4. **Velg det sikkerhetsnivået som passer best til dine behov**:
 
 
 
 
-   - Normal (anbefalt)**: For daglig surfing. Gir allerede utmerket beskyttelse samtidig som nettsteder fungerer. Dette er den beste balansen for 95 % av brukerne.
-   - Tryggere**: Hvis du besøker ukjente eller potensielt farlige nettsteder, eller for ekstra beskyttelse på offentlige Wi-Fi-nettverk. Noen nettsteder kan fungere feil.
-   - Mest sikker**: Forbeholdt høyrisikosituasjoner (undersøkende journalistikk, sensitiv kommunikasjon, fiendtlige miljøer). De fleste moderne nettsteder vil bli ødelagt, men det er prisen for maksimal sikkerhet.
+- **Normal (anbefalt)**: For daglig surfing. Gir allerede utmerket beskyttelse samtidig som nettsteder fungerer. Dette er den beste balansen for 95 % av brukerne.
+- **Tryggere**: Hvis du besøker ukjente eller potensielt farlige nettsteder, eller for ekstra beskyttelse på offentlige Wi-Fi-nettverk. Noen nettsteder kan fungere feil.
+- **Mest sikker**: Forbeholdt høyrisikosituasjoner (undersøkende journalistikk, sensitiv kommunikasjon, fiendtlige miljøer). De fleste moderne nettsteder vil bli ødelagt, men det er prisen for maksimal sikkerhet.
 
 
 

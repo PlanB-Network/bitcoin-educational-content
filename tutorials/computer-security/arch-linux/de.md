@@ -17,10 +17,10 @@ Arch Linux ist eine Distribution, die für ihre Robustheit, Leistung und Anpassu
 
 
 
-- Frei und quelloffen**: Wie die meisten Linux-Distributionen ist auch Arch Linux völlig kostenlos. Es fallen keine Lizenzgebühren an, was es zu einer hervorragenden Wahl für Studenten, Freiberufler oder Enthusiasten macht.
-- KISS**-Philosophie: Arch ist so konzipiert, dass es einfach, leicht und effizient ist. Es bietet nur das Wesentliche und ermöglicht es Ihnen, Ihre Umgebung à la carte zu gestalten.
-- Pacman** Paketmanager: Pacman ist ein schneller, zuverlässiger und gut durchdachter Paketmanager. Er ermöglicht eine effiziente Installation und Aktualisierung von Software und verwaltet Abhängigkeiten mit Präzision.
-- Umfassende Dokumentation und eine aktive Gemeinschaft**: Das [Arch Wiki] (https://wiki.archlinux.org) ist wahrscheinlich eine der besten technischen Dokumentationen in der Linux-Welt. Es ist eine Goldmine, um zu verstehen, was Sie tun. Die Gemeinschaft, die hauptsächlich aus erfahrenen Profilen besteht, ist sehr aktiv und kann Ihnen helfen, wenn Sie nicht weiterkommen, vorausgesetzt, Sie haben vorher ein wenig recherchiert.
+- **Frei und quelloffen**: Wie die meisten Linux-Distributionen ist auch Arch Linux völlig kostenlos. Es fallen keine Lizenzgebühren an, was es zu einer hervorragenden Wahl für Studenten, Freiberufler oder Enthusiasten macht.
+- **KISS-Philosophie**: Arch ist so konzipiert, dass es einfach, leicht und effizient ist. Es bietet nur das Wesentliche und ermöglicht es Ihnen, Ihre Umgebung à la carte zu gestalten.
+- **Pacman** Paketmanager: Pacman ist ein schneller, zuverlässiger und gut durchdachter Paketmanager. Er ermöglicht eine effiziente Installation und Aktualisierung von Software und verwaltet Abhängigkeiten mit Präzision.
+- **Umfassende Dokumentation und eine aktive Gemeinschaft**: Das [Arch Wiki] (https://wiki.archlinux.org) ist wahrscheinlich eine der besten technischen Dokumentationen in der Linux-Welt. Es ist eine Goldmine, um zu verstehen, was Sie tun. Die Gemeinschaft, die hauptsächlich aus erfahrenen Profilen besteht, ist sehr aktiv und kann Ihnen helfen, wenn Sie nicht weiterkommen, vorausgesetzt, Sie haben vorher ein wenig recherchiert.
 
 
 
@@ -39,7 +39,7 @@ Erforderliche Materialien:
 
 
 - Ein USB-Stick mit mindestens **8 GB**
-- mindestens 2 GB** RAM
+- mindestens 2 GB RAM
 - Ein Computer mit mindestens 20 GB freiem Speicherplatz
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Laden Sie dann ein Layout mit :
+Laden Sie dann ein Layout mit:
 
 
 
@@ -208,7 +208,7 @@ Damit wird NTP aktiviert, das Protokoll für die automatische Synchronisierung m
 
 
 
-- Überprüfen Sie, ob Ihr System in **UEFI** oder **BIOS** mit :
+- Überprüfen Sie, ob Ihr System in **UEFI** oder **BIOS** mit:
 
 
 
@@ -261,7 +261,7 @@ Wählen Sie **GPT**, wenn Sie sich in UEFI befinden, **DOS**, wenn Sie sich in B
 
 
 
-- Im UEFI**-Modus
+- Im **UEFI**-Modus
 
 
 
@@ -294,7 +294,7 @@ Wählen Sie **Schreiben**, geben Sie **Ja** und dann **Beenden** ein.
 
 
 
-- UEFI** :
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- **BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Hängen Sie die **Wurzelpartition** ein:
 
 
 
-- Im BIOS :
+- Im BIOS:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- unter UEFI :
+- unter UEFI:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Installieren Sie einen Texteditor zum Bearbeiten von :
+- Installieren Sie einen Texteditor zum Bearbeiten von:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Installieren Sie die :
+Installieren Sie die:
 
 
 
@@ -472,7 +472,7 @@ Nach dem Herunterladen müssen Sie es entsprechend dem Format der Festplattenpar
 
 
 
-- Für **BIOS** :
+- Für **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- Für **UEFI** :
+- Für **UEFI**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Neustart :
+- Neustart:
 
 
 ```shell
@@ -652,7 +652,7 @@ Sobald Sie sich in **Interface GNOME** befinden, müssen Sie einen neuen Benutze
 
 
 
-- Einen Benutzer hinzufügen :
+- Einen Benutzer hinzufügen:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Installieren **sudo** :
+- Installieren **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Dekommentieren Sie dann die Zeile :
+- Dekommentieren Sie dann die Zeile:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Um z.B. den Texteditor **nano** zu installieren, können Sie :
+Um z.B. den Texteditor **nano** zu installieren, können Sie:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Um einen leichtgewichtigen Webbrowser wie `firefox` zu installieren, verwenden Sie :
+Um einen leichtgewichtigen Webbrowser wie `firefox` zu installieren, verwenden Sie:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Wenn Sie schließlich wichtige Netzwerk-Tools wie `net-tools` hinzufügen möchten, lautet der Befehl :
+Wenn Sie schließlich wichtige Netzwerk-Tools wie `net-tools` hinzufügen möchten, lautet der Befehl:
 
 
 

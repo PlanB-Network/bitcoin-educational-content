@@ -1,5 +1,5 @@
 ---
-name: Banteng Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Ketahui cara menggunakan Wallet Bull Bitcoin
 ---
 
@@ -29,9 +29,9 @@ Wallet menjawab tantangan besar: Biaya jaringan Bitcoin tidak cocok untuk pembay
 
 
 
-- Jaringan Bitcoin (onchain)**: Ideal untuk penyimpanan UTXO jangka menengah hingga jangka panjang dan transaksi bernilai besar, di mana biaya dapat diabaikan secara proporsional.
-- Liquid Network**: Dirancang untuk transaksi yang cepat (~2 menit), lebih rahasia (jumlah tersembunyi), dan berbiaya rendah, cocok untuk mengakumulasi jumlah kecil atau melindungi privasi Anda.
-- Jaringan Lightning**: Dioptimalkan untuk pembayaran instan dan berbiaya rendah, cocok untuk transaksi harian bernilai kecil hingga menengah.
+- **Jaringan Bitcoin (onchain)**: Ideal untuk penyimpanan UTXO jangka menengah hingga jangka panjang dan transaksi bernilai besar, di mana biaya dapat diabaikan secara proporsional.
+- **Liquid Network**: Dirancang untuk transaksi yang cepat (~2 menit), lebih rahasia (jumlah tersembunyi), dan berbiaya rendah, cocok untuk mengakumulasi jumlah kecil atau melindungi privasi Anda.
+- **Jaringan Lightning**: Dioptimalkan untuk pembayaran instan dan berbiaya rendah, cocok untuk transaksi harian bernilai kecil hingga menengah.
 
 
 
@@ -70,10 +70,10 @@ Sebelum Anda mulai menggunakan **Bull Bitcoin Mobile**, pastikan Anda memiliki i
 
 
 
-- Smartphone yang Kompatibel**: Perangkat **iOS** (iPhone atau iPad) atau **Android**
+- **Smartphone yang Kompatibel**: Perangkat **iOS** (iPhone atau iPad) atau **Android**
 - Koneksi internet
-- Media cadangan yang aman**: Tuliskan **frase pemulihan** (12 kata) di atas kertas atau logam dan simpan di tempat yang aman.
-- Pengetahuan dasar**: Pemahaman minimum mengenai konsep Bitcoin (alamat, transaksi, biaya) sangat berguna, meskipun tutorial ini menjelaskan setiap langkah untuk pemula.
+- **Media cadangan yang aman**: Tuliskan **frase pemulihan** (12 kata) di atas kertas atau logam dan simpan di tempat yang aman.
+- **Pengetahuan dasar**: Pemahaman minimum mengenai konsep Bitcoin (alamat, transaksi, biaya) sangat berguna, meskipun tutorial ini menjelaskan setiap langkah untuk pemula.
 
 
 
@@ -83,10 +83,10 @@ Sebelum Anda mulai menggunakan **Bull Bitcoin Mobile**, pastikan Anda memiliki i
 
 
 
-- Unduh aplikasi** :
- - [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Unduh dari toko aplikasi untuk perangkat Android
- - [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Unduh APK untuk perangkat Android secara langsung**
- - [iOS](https://testflight.apple.com/join/FJbE4JPN)** Unduh melalui TestFlight untuk perangkat Apple
+- **Unduh aplikasi** :
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Unduh dari toko aplikasi untuk perangkat Android**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Unduh APK untuk perangkat Android secara langsung**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Unduh melalui TestFlight untuk perangkat Apple**
  - Periksa nama pengembang (Bull Bitcoin) untuk menghindari aplikasi palsu.
  - Pastikan versi yang diunduh sesuai dengan versi stabil terbaru yang ditunjukkan di GitHub.
  - Bull Bitcoin Mobile adalah **sumber terbuka**. Untuk melihat kodenya: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ Aplikasi ini menggunakan frasa pemulihan 12 kata yang unik untuk kedua portofoli
 
 
 
- - mengamankan Bitcoin 'Wallet**: Untuk transaksi di jaringan Bitcoin (onchain)
- - pembayaran instan Wallet**: Untuk transaksi instan pada jaringan Liquid dan Lightning
+- mengamankan Bitcoin **Wallet**: Untuk transaksi di jaringan Bitcoin (onchain)
+- **pembayaran instan Wallet**: Untuk transaksi instan pada jaringan Liquid dan Lightning
 
 
 
@@ -249,7 +249,7 @@ Pada layar Beranda, Anda dapat :
 
 
 
-- Contoh URI yang dibuat secara otomatis**:
+- Contoh URI yang dibuat secara otomatis:
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Penggunaan**: Salin URI untuk dibagikan kepada pengirim, atau biarkan dia memindai kode QR.
+- **Penggunaan**: Salin URI untuk dibagikan kepada pengirim, atau biarkan dia memindai kode QR.
 
 
 
@@ -297,7 +297,7 @@ Meskipun Anda memasukkan jumlah atau catatan, jumlah atau catatan tersebut tidak
 
 
 
-- Penggunaan**: Salin Address untuk dibagikan kepada pengirim, atau biarkan dia memindai kode QR.
+- **Penggunaan**: Salin Address untuk dibagikan kepada pengirim, atau biarkan dia memindai kode QR.
 
 
 
@@ -308,7 +308,7 @@ Meskipun Anda memasukkan jumlah atau catatan, jumlah atau catatan tersebut tidak
 
 
 - Mengapa menggunakan Address baru untuk setiap transaksi? Hal ini **melindungi privasi Anda** dengan mencegah beberapa pembayaran ditautkan ke Address yang sama, dan membatasi kemungkinan pelacakan pada Blockchain.
- - Secara default, Bull Bitcoin secara otomatis menghasilkan Address yang tidak terpakai.**
+- Secara default, Bull Bitcoin secara otomatis menghasilkan Address yang tidak terpakai.
  - Anda dapat memaksa pembuatan Address baru dengan mengeklik **"New Address"** di bagian bawah layar.
  - Semua alamat Anda ditautkan ke frasa seed Anda: berapa pun jumlah alamat yang Anda gunakan, portofolio Anda akan menampilkan satu saldo, dan secara otomatis dapat mengkonsolidasikan dana saat pengiriman dilakukan.
 
@@ -316,7 +316,7 @@ Meskipun Anda memasukkan jumlah atau catatan, jumlah atau catatan tersebut tidak
 
 
 
-- Tip: Selalu gunakan Address** baru yang disediakan oleh Bull Bitcoin, kecuali jika Anda memiliki kebutuhan khusus (misalnya Address publik untuk menerima donasi).
+- Tip: Selalu gunakan **Address** baru yang disediakan oleh Bull Bitcoin, kecuali jika Anda memiliki kebutuhan khusus (misalnya Address publik untuk menerima donasi).
 
 
 
@@ -412,29 +412,29 @@ Pada layar Beranda, Anda dapat :
 
 
 
-- Mekanisme**: Bull Bitcoin Wallet adalah Wallet yang memungkinkan pembayaran dilakukan dan diterima melalui Lightning. Dana yang diterima melalui Lightning disimpan di jaringan **Liquid** (dalam Pembayaran Instan Wallet) berkat pertukaran otomatis melalui **Boltz**. Hal ini memberikan Anda kemampuan untuk berinteraksi dengan Lightning tanpa harus mengelola saluran likuiditas, namun tetap berada dalam penyimpanan sendiri.
+- **Mekanisme**: Bull Bitcoin Wallet adalah Wallet yang memungkinkan pembayaran dilakukan dan diterima melalui Lightning. Dana yang diterima melalui Lightning disimpan di jaringan **Liquid** (dalam Pembayaran Instan Wallet) berkat pertukaran otomatis melalui **Boltz**. Hal ini memberikan Anda kemampuan untuk berinteraksi dengan Lightning tanpa harus mengelola saluran likuiditas, namun tetap berada dalam penyimpanan sendiri.
 
 
 
 
 
-- Batasan:** Batas
- - Jumlah minimum** 100 satoshi (per 19/07/2025) saat Anda membeli generate atau Invoice.
- - Anda membayar biaya**, yang akan dipotong dari jumlah yang dikirim oleh pengirim, tidak seperti menerima dengan Wallet Lightning asli, di mana hanya pengirim yang membayar biaya transfer selain jumlah yang dikirim. Pada 19/07/2025, 47 Sats dikurangkan dari jumlah yang dikirim.
+- **Batasan:** Batas
+- Jumlah minimum **100 satoshi** (per 19/07/2025) saat Anda membeli generate atau Invoice.
+- Anda membayar biaya, yang akan dipotong dari jumlah yang dikirim oleh pengirim, tidak seperti menerima dengan Wallet Lightning asli, di mana hanya pengirim yang membayar biaya transfer selain jumlah yang dikirim. Pada 19/07/2025, 47 Sats dikurangkan dari jumlah yang dikirim.
 
 
 
 
 
-- Manfaat** :
- - Kustodian mandiri**: Dana Anda tetap berada di bawah kendali Anda, disimpan di Liquid Network.
- - Tidak ada biaya onchain yang tinggi**: Penyimpanan di Liquid menghindari setoran onchain yang mahal untuk membuka saluran Lightning Anda atau menambah likuiditas. Operasi ini dapat dilakukan nanti, ketika jumlah yang terkumpul di Liquid sesuai dengan biaya.
+- **Manfaat** :
+- **Kustodian mandiri**: Dana Anda tetap berada di bawah kendali Anda, disimpan di Liquid Network.
+- **Tidak ada biaya onchain yang tinggi**: Penyimpanan di Liquid menghindari setoran onchain yang mahal untuk membuka saluran Lightning Anda atau menambah likuiditas. Operasi ini dapat dilakukan nanti, ketika jumlah yang terkumpul di Liquid sesuai dengan biaya.
 
 
 
 
 
-- Tip:** Jika pengirim memiliki Wallet Bull Bitcoin, gunakan Liquid Network secara langsung untuk menghindari biaya swap
+- **Tip:** Jika pengirim memiliki Wallet Bull Bitcoin, gunakan Liquid Network secara langsung untuk menghindari biaya swap
 
 
 
@@ -456,13 +456,13 @@ Pada layar Beranda, Anda dapat :
 
 
 
-- Masa berlaku Invoice:** Lightning Invoice berlaku selama **12 jam**. Setelah waktu tersebut, masa berlakunya akan berakhir dan tidak dapat dibayar lagi. Invoice baru harus dibuat.
+- **Masa berlaku Invoice:** Lightning Invoice berlaku selama **12 jam**. Setelah waktu tersebut, masa berlakunya akan berakhir dan tidak dapat dibayar lagi. Invoice baru harus dibuat.
 
 
 
 
 
-- Penggunaan**: Salin Invoice untuk dibagikan kepada pengirim, atau biarkan dia memindai kode QR.
+- **Penggunaan**: Salin Invoice untuk dibagikan kepada pengirim, atau biarkan dia memindai kode QR.
 
 
 
@@ -563,27 +563,27 @@ Setelah itu, Anda dapat menyesuaikan parameternya:
 
 
 
-- Biaya**: Anda dapat memilih :
-  - Kecepatan eksekusi** transaksi Anda, dan biaya terkait akan diperkirakan
-  - Baik biaya**, dalam mode biaya absolut (total biaya dalam satoshi) atau biaya relatif (biaya per byte), dan kecepatan transaksi Anda akan diperkirakan
+- **Biaya**: Anda dapat memilih :
+- **Kecepatan eksekusi** transaksi Anda, dan biaya terkait akan diperkirakan
+- Baik biaya, dalam mode biaya absolut (total biaya dalam satoshi) atau biaya relatif (biaya per byte), dan kecepatan transaksi Anda akan diperkirakan
 
 
 
 
 
-- Pengaturan lanjutan** :
+- **Pengaturan lanjutan** :
 
 
 
 
 
- - Replace-by-fee (RBF)**: Diaktifkan secara default, fungsi ini mempercepat transaksi dengan membayar biaya yang lebih tinggi (lihat Lampiran 4 untuk rinciannya).
+- **Replace-by-fee (RBF)**: Diaktifkan secara default, fungsi ini mempercepat transaksi dengan membayar biaya yang lebih tinggi (lihat Lampiran 4 untuk rinciannya).
 
 
 
 
 
- - Pemilihan UTXO secara manual**: Jika dana Anda disimpan di beberapa alamat Wallet yang berbeda, Anda dapat memilih alamat yang akan digunakan untuk mengirim dana. Mengapa Anda harus melakukan ini? Dengan meningkatnya penggunaan Bitcoin, biaya transfer meningkat. Mengirim dari beberapa alamat dengan jumlah kecil lebih mahal daripada mengirim dari satu Address, tetapi dengan melakukannya sekarang, Anda tidak perlu melakukannya nanti, ketika biaya akan menjadi lebih tinggi. Hal ini disebut **konsolidasi UTXO.**
+- **Pemilihan UTXO secara manual**: Jika dana Anda disimpan di beberapa alamat Wallet yang berbeda, Anda dapat memilih alamat yang akan digunakan untuk mengirim dana. Mengapa Anda harus melakukan ini? Dengan meningkatnya penggunaan Bitcoin, biaya transfer meningkat. Mengirim dari beberapa alamat dengan jumlah kecil lebih mahal daripada mengirim dari satu Address, tetapi dengan melakukannya sekarang, Anda tidak perlu melakukannya nanti, ketika biaya akan menjadi lebih tinggi. Hal ini disebut **konsolidasi UTXO**.
 
 
 
@@ -593,7 +593,7 @@ Setelah itu, Anda dapat menyesuaikan parameternya:
 
 
 
-- Mengirim dengan PayJoin**: Jika fungsi ini telah diaktifkan oleh penerima yang memberikan URI, mis:
+- **Mengirim dengan PayJoin**: Jika fungsi ini telah diaktifkan oleh penerima yang memberikan URI, mis:
 
 
 
@@ -679,7 +679,7 @@ Luangkan waktu untuk memeriksa semua parameter, terutama jumlah dan tujuan Addre
 
 
 
-- Biaya**: Proporsional dengan kompleksitas transaksi, umumnya berdasarkan 0,1 sat/vB, yaitu 20-40 satoshi untuk transaksi sederhana (33 Sats pada 22/07/2025).
+- **Biaya**: Proporsional dengan kompleksitas transaksi, umumnya berdasarkan 0,1 sat/vB, yaitu 20-40 satoshi untuk transaksi sederhana (33 Sats pada 22/07/2025).
 
 
 
@@ -750,29 +750,29 @@ Catatan: jumlah harus lebih besar dari 21 Sats pada 23/07/2025
 
 
 
-- Mekanisme**: Dana diambil dari **Pembayaran Instan Wallet** (Liquid) dan dikonversi melalui swap **Liquid → Lightning** dengan **Boltz**.
+- **Mekanisme**: Dana diambil dari **Pembayaran Instan Wallet** (Liquid) dan dikonversi melalui swap **Liquid → Lightning** dengan **Boltz**.
 
 
 
 
 
-- Batasan:** Batas
- - Jumlah minimum** lebih tinggi dari Wallet Lightning asli (lihat di atas)
- - Biaya** ditambah Liquid → Lightning swap melalui Boltz
+- **Batasan:** Batas
+- Jumlah minimum **lebih tinggi** dari Wallet Lightning asli (lihat di atas)
+- **Biaya** ditambah Liquid → Lightning swap melalui Boltz
 
 
 
 
 
-- Manfaat** :
- - Penitipan mandiri**: Dana Anda tetap berada di bawah kendali Anda, disimpan di Liquid Network, dan dapat ditransfer melalui Lightning jika diperlukan
- - Tidak ada biaya onchain yang tinggi**: Menyimpan di Liquid telah menghemat deposit onchain yang mahal untuk membuka saluran Lightning Anda atau menambah likuiditas. Operasi ini dapat dilakukan nanti, ketika jumlah yang terkumpul di Liquid sesuai dengan biaya.
+- **Manfaat** :
+- **Penitipan mandiri**: Dana Anda tetap berada di bawah kendali Anda, disimpan di Liquid Network, dan dapat ditransfer melalui Lightning jika diperlukan
+- **Tidak ada biaya onchain yang tinggi**: Menyimpan di Liquid telah menghemat deposit onchain yang mahal untuk membuka saluran Lightning Anda atau menambah likuiditas. Operasi ini dapat dilakukan nanti, ketika jumlah yang terkumpul di Liquid sesuai dengan biaya.
 
 
 
 
 
-- Tip:** Jika penerima memiliki Wallet Bull Bitcoin, gunakan Liquid Network secara langsung untuk menghindari biaya swap
+- **Tip:** Jika penerima memiliki Wallet Bull Bitcoin, gunakan Liquid Network secara langsung untuk menghindari biaya swap
 
 
 
@@ -803,7 +803,7 @@ Luangkan waktu untuk memeriksa semua parameter, terutama jumlah dan tujuan Addre
 
 
 
-- Melalui layar beranda** :
+- Melalui layar beranda :
  - Klik pada **Secure Bitcoin Wallet** untuk melihat transaksi **onchain**, atau pada **Pembayaran Instan Wallet** untuk transaksi **Liquid** dan **Lightning**.
  - Riwayat ditampilkan langsung di bawah total portofolio, disaring menurut jenis Wallet yang dipilih.
 
@@ -815,7 +815,7 @@ Luangkan waktu untuk memeriksa semua parameter, terutama jumlah dan tujuan Addre
 
 
 
-- Melalui halaman khusus** :
+- Melalui halaman khusus :
  - Pada layar Beranda, klik **simbol riwayat** (ikon jam atau yang serupa).
  - Mengakses halaman yang berisi daftar semua transaksi, dengan filter berdasarkan jenis tindakan: **Kirim**, **Terima**, **Tukar**, **PayJoin**, **Jual**, **Beli** (catatan: Jual dan Beli sedang dalam pengembangan dan belum tersedia untuk saat ini, 20 Juli 2025).
 
@@ -864,57 +864,57 @@ Halaman "Pengaturan" dapat diakses secara langsung dari halaman beranda aplikasi
 
 
 
-- Wallet Pencadangan**: Menampilkan frasa pemulihan portofolio untuk pencadangan yang aman. Lihat bagian 3. tentang pembuatan portofolio untuk praktik terbaik dalam mengelola dan menyimpan frasa pemulihan.
+- **Wallet Pencadangan**: Menampilkan frasa pemulihan portofolio untuk pencadangan yang aman. Lihat bagian 3. tentang pembuatan portofolio untuk praktik terbaik dalam mengelola dan menyimpan frasa pemulihan.
 
 
 
 
 
-- Detail Wallet**:
- - Kunci publik**: Kunci publik yang terkait dengan Wallet, digunakan untuk alamat penerimaan generate Bitcoin.
- - Jalur Turunan**: Jalur turunan yang digunakan untuk alamat generate Wallet dari kunci privat.
+- **Detail Wallet**:
+- **Kunci publik**: Kunci publik yang terkait dengan Wallet, digunakan untuk alamat penerimaan generate Bitcoin.
+- **Jalur Turunan**: Jalur turunan yang digunakan untuk alamat generate Wallet dari kunci privat.
 
 
 
 
 
-- Server Electrum (Node Bitcoin)**: Siapkan koneksi ke node Bitcoin yang disesuaikan untuk transaksi onchain.
+- **Server Electrum (Node Bitcoin)**: Siapkan koneksi ke node Bitcoin yang disesuaikan untuk transaksi onchain.
 
 
 
 
 
-- Kode PIN**: Mengaktifkan dan/atau memodifikasi kode keamanan untuk melindungi akses ke aplikasi dan fungsi Wallet.
+- **Kode PIN**: Mengaktifkan dan/atau memodifikasi kode keamanan untuk melindungi akses ke aplikasi dan fungsi Wallet.
 
 
 
 
 
-- Mata uang**: Pilih apakah akan menampilkan jumlah dalam BTC atau Sats, dan mata uang fiat default (dolar, euro, dll.).
+- **Mata uang**: Pilih apakah akan menampilkan jumlah dalam BTC atau Sats, dan mata uang fiat default (dolar, euro, dll.).
 
 
 
 
 
-- Pengaturan Penukaran Otomatis**: Fungsi _Auto Swap_ memungkinkan Anda untuk mengotomatiskan transfer BTC Anda dari **Pembayaran Instan Wallet (Liquid)** ke **Bitcoin On-Chain** Wallet Anda, segera setelah jumlahnya mencapai ambang batas yang Anda anggap cukup tinggi untuk menjustifikasi biaya transaksi.
+- **Pengaturan Penukaran Otomatis**: Fungsi *Auto Swap* memungkinkan Anda untuk mengotomatiskan transfer BTC Anda dari **Pembayaran Instan Wallet (Liquid)** ke **Bitcoin On-Chain** Wallet Anda, segera setelah jumlahnya mencapai ambang batas yang Anda anggap cukup tinggi untuk menjustifikasi biaya transaksi.
 
 
 
 
 
-- Log**: Log aktivitas yang dapat dilihat, yang dapat dibagikan dengan dukungan teknis untuk memfasilitasi pemecahan masalah.
+- **Log**: Log aktivitas yang dapat dilihat, yang dapat dibagikan dengan dukungan teknis untuk memfasilitasi pemecahan masalah.
 
 
 
 
 
-- Akses Telegram untuk mendapatkan bantuan** : Tautan langsung ke saluran Telegram resmi untuk bantuan pengguna.
+- **Akses Telegram untuk mendapatkan bantuan**: Tautan langsung ke saluran Telegram resmi untuk bantuan pengguna.
 
 
 
 
 
-- Akses Github** : Tautan ke [repositori Github Bull Bitcoin] (https://github.com/SatoshiPortal) untuk melihat kode sumber terbuka atau melaporkan masalah.
+- **Akses Github**: Tautan ke [repositori Github Bull Bitcoin](https://github.com/SatoshiPortal) untuk melihat kode sumber terbuka atau melaporkan masalah.
 
 
 
@@ -956,8 +956,8 @@ Halaman "Pengaturan" dapat diakses secara langsung dari halaman beranda aplikasi
 
 
 
-- Menerima** (Address Supply): PayJoin diaktifkan secara default.
-- Kirim** : Wallet secara otomatis mendeteksi URI PayJoin dan mengonfigurasi transaksi yang sesuai, misalnya:
+- **Menerima** (Address Supply): PayJoin diaktifkan secara default.
+- **Kirim** : Wallet secara otomatis mendeteksi URI PayJoin dan mengonfigurasi transaksi yang sesuai, misalnya:
 
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Kerahasiaan yang ditingkatkan**: PayJoin mematahkan asumsi bahwa semua entri dalam sebuah transaksi adalah milik satu entitas. Dengan PayJoin, input berasal dari pengirim dan penerima, mematahkan asumsi ini.
-- Penyembunyian jumlah** : Jumlah aktual yang dipertukarkan tidak muncul secara langsung di output. Jumlah ini dihitung sebagai selisih antara UTXO masuk dan keluar dari penerima, sehingga membuat analisis menjadi tidak akurat.
+- **Kerahasiaan yang ditingkatkan**: PayJoin mematahkan asumsi bahwa semua entri dalam sebuah transaksi adalah milik satu entitas. Dengan PayJoin, input berasal dari pengirim dan penerima, mematahkan asumsi ini.
+- **Penyembunyian jumlah**: Jumlah aktual yang dipertukarkan tidak muncul secara langsung di output. Jumlah ini dihitung sebagai selisih antara UTXO masuk dan keluar dari penerima, sehingga membuat analisis menjadi tidak akurat.
 
 
 
@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Glosarium](https://planb.network/fr/resources/glossary/PayJoin)
+- [Glosarium](https://planb.network/fr/resources/glossary/payjoin)
 - Chapitre [Les transactions PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Glosarium](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Glosarium](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1038,15 +1038,15 @@ Untuk menggunakan **Bull Bitcoin Mobile** dengan aman dan efisien, ikuti rekomen
 
 
 
-- Amankan frasa pemulihan Anda** :
- - Tutorial: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+- **Amankan frasa pemulihan Anda** :
+ - Tutorial: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
 
 
 
-- Gunakan autentikasi yang aman** :
+- **Gunakan autentikasi yang aman** :
  - Aktifkan **PIN yang kuat** atau **otentikasi biometrik** (sidik jari atau pengenalan wajah) untuk melindungi akses ke aplikasi.
  - Jangan pernah membagikan PIN atau data biometrik Anda.
 
@@ -1054,7 +1054,7 @@ Untuk menggunakan **Bull Bitcoin Mobile** dengan aman dan efisien, ikuti rekomen
 
 
 
-- Lindungi privasi Anda** :
+- **Lindungi privasi Anda** :
  - generate Address baru untuk setiap penerimaan onchain atau Liquid untuk membatasi penelusuran pada Blockchain.
  - Gunakan PayJoin jika tersedia untuk meningkatkan kerahasiaan mengenai jumlah yang dikirim pada blockchain
  - Untuk kerahasiaan maksimum, sambungkan Wallet Anda ke node Bitcoin Anda sendiri melalui server Electrum alih-alih menggunakan node publik
@@ -1063,23 +1063,23 @@ Untuk menggunakan **Bull Bitcoin Mobile** dengan aman dan efisien, ikuti rekomen
 
 
 
-- Pilih jaringan yang paling sesuai dengan kebutuhan Anda**:
- - Onchain**: Lebih disukai untuk penyimpanan jangka panjang atau transaksi bernilai besar (biaya dapat diabaikan dalam kaitannya dengan jumlah).
- - Liquid**: Digunakan untuk transfer cepat dan berbiaya rendah dengan kerahasiaan yang ditingkatkan.
- - Kilat**: Pilihlah transfer instan dan berbiaya rendah untuk jumlah kecil. Jika Anda adalah dua pengguna Wallet Bull Bitcoin, pilih Liquid untuk menghindari biaya pertukaran Lightning <> Liquid melalui Boltz.
+- **Pilih jaringan yang paling sesuai dengan kebutuhan Anda**:
+- **Onchain**: Lebih disukai untuk penyimpanan jangka panjang atau transaksi bernilai besar (biaya dapat diabaikan dalam kaitannya dengan jumlah).
+- **Liquid**: Digunakan untuk transfer cepat dan berbiaya rendah dengan kerahasiaan yang ditingkatkan.
+- **Kilat**: Pilihlah transfer instan dan berbiaya rendah untuk jumlah kecil. Jika Anda adalah dua pengguna Wallet Bull Bitcoin, pilih Liquid untuk menghindari biaya pertukaran Lightning <> Liquid melalui Boltz.
 
 
 
 
 
-- Selalu periksa alamat pengiriman**:
+- **Selalu periksa alamat pengiriman**:
  - Sebelum mengirim dana, periksa Address dengan cermat. Dana yang dikirim ke Address yang salah akan hilang selamanya. Gunakan salin/tempel atau pemindaian kode QR, jangan pernah menyalin/memodifikasi Address dengan tangan.
 
 
 
 
 
-- Mengoptimalkan biaya**:
+- **Mengoptimalkan biaya**:
  - Untuk transaksi onchain, pilih biaya yang sesuai (lambat, sedang, cepat) sesuai dengan urgensi dan kepadatan jaringan.
  - Gunakan Liquid, atau Lightning untuk jumlah kecil.
  - Aktifkan Replace-by-fee (RBF) (lihat Lampiran 4) untuk pengiriman onchain jika Anda mengantisipasi kebutuhan untuk mempercepat konfirmasi.
@@ -1099,18 +1099,18 @@ Untuk menggunakan **Bull Bitcoin Mobile** dengan aman dan efisien, ikuti rekomen
 
 
 
-- Tautan dan dukungan resmi:** Tautan resmi
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : email dukungan
- - [Situs web resmi Bull Bitcoin] (https://bullbitcoin.com/) :** Informasi tentang layanan Bull Bitcoin, pembuatan akun, akses ke aplikasi
- - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Lihat kode, evolusi dan peta jalan, berkontribusi pada pengembangan...
- - [Akun X - Twitter Banteng Bitcoin](https://x.com/BullBitcoin_)**
- - Grup Telegram** untuk ponsel Wallet: obrolan grup dengan dukungan, lihat halaman "Pengaturan".
+- **Tautan dan dukungan resmi:** Tautan resmi
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : email dukungan
+- [Situs web resmi Bull Bitcoin](https://bullbitcoin.com/): **Informasi tentang layanan Bull Bitcoin, pembuatan akun, akses ke aplikasi**
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Lihat kode, evolusi dan peta jalan, berkontribusi pada pengembangan...**
+- [Akun X - Twitter Banteng Bitcoin](https://x.com/BullBitcoin_)
+- **Grup Telegram** untuk ponsel Wallet: obrolan grup dengan dukungan, lihat halaman "Pengaturan".
 
 
 
 
 
-- Penjelajah Blok: ** Penjelajah Blok
+- Penjelajah Blok: **Penjelajah Blok**
  - on chain: **[Mempool.space](https://Mempool.space/)**
  - Liquid: ** [Info Blockstream] (https://blockstream.info/Liquid) **
  - Petir: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -1119,7 +1119,7 @@ Untuk menggunakan **Bull Bitcoin Mobile** dengan aman dan efisien, ikuti rekomen
 
 
 
-- Pembelajaran dan tutorial:** **[Plan ₿ Network](https://planb.network/)** :
+- **Pembelajaran dan tutorial:** [Plan ₿ Network](https://planb.network/) :
  - Mengamankan frasa pemulihan Anda
 
 
@@ -1133,8 +1133,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network**:
- - [Glosarium](https://planb.network/resources/glossary/Liquid-network)**
+- **Liquid Network**:
+- [Glosarium](https://planb.network/resources/glossary/liquid-network)
 
 
 
@@ -1145,8 +1145,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network**:
- - [Glosarium](https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Glosarium](https://planb.network/resources/glossary/lightning-network)
 
 
 
@@ -1184,31 +1184,31 @@ Bull Bitcoin menonjol karena prinsip-prinsip Commitment hingga Cypherpunk dan et
 
 
 
-- Fokus eksklusif pada Bitcoin**: Platform ini sesuai dengan visi mata uang yang terdesentralisasi dan tahan sensor.
+- **Fokus eksklusif pada Bitcoin**: Platform ini sesuai dengan visi mata uang yang terdesentralisasi dan tahan sensor.
 
 
 
 
 
-- Bukan kustodian**: Pengguna memegang kendali penuh atas Bitcoin mereka dengan mengirimkan dana ke portofolio mereka sendiri.
+- **Bukan kustodian**: Pengguna memegang kendali penuh atas Bitcoin mereka dengan mengirimkan dana ke portofolio mereka sendiri.
 
 
 
 
 
-- Kerahasiaan**: Meminimalkan pengumpulan data pribadi, dengan opsi pembelian bebas KYC untuk transaksi di bawah 999 USD. Data dilindungi sesuai dengan peraturan (FINTRAC di Kanada, AMF di Prancis).
+- **Kerahasiaan**: Meminimalkan pengumpulan data pribadi, dengan opsi pembelian bebas KYC untuk transaksi di bawah 999 USD. Data dilindungi sesuai dengan peraturan (FINTRAC di Kanada, AMF di Prancis).
 
 
 
 
 
-- Transparansi**: Tidak ada biaya tersembunyi, biaya sudah termasuk dalam spread (selisih antara harga beli dan harga jual).
+- **Transparansi**: Tidak ada biaya tersembunyi, biaya sudah termasuk dalam spread (selisih antara harga beli dan harga jual).
 
 
 
 
 
-- Kedaulatan finansial**: Bull Bitcoin mendorong kemandirian dari sistem perbankan tradisional dan lembaga-lembaga terpusat.
+- **Kedaulatan finansial**: Bull Bitcoin mendorong kemandirian dari sistem perbankan tradisional dan lembaga-lembaga terpusat.
 
 
 
@@ -1218,19 +1218,19 @@ Bull Bitcoin menonjol karena prinsip-prinsip Commitment hingga Cypherpunk dan et
 
 
 
-- Setoran fiat**: Pengguna dapat mendanai akun Bull Bitcoin dengan mata uang fiat (CAD, EUR, dll.) melalui transfer bank atau kartu tunai/debit di kantor pos Kanada tertentu.
+- **Setoran fiat**: Pengguna dapat mendanai akun Bull Bitcoin dengan mata uang fiat (CAD, EUR, dll.) melalui transfer bank atau kartu tunai/debit di kantor pos Kanada tertentu.
 
 
 
 
 
-- Membeli Bitcoin**: Pengguna dapat membeli Bitcoin yang dikirim langsung ke portofolio non-deposito mereka, menjamin kontrol penuh atas dana mereka.
+- **Membeli Bitcoin**: Pengguna dapat membeli Bitcoin yang dikirim langsung ke portofolio non-deposito mereka, menjamin kontrol penuh atas dana mereka.
 
 
 
 
 
-- Pembelian Bitcoin terjadwal**: Bull Bitcoin menawarkan layanan pembelian berulang otomatis (DCA - Dollar Cost Averaging) secara berkala, menggunakan saldo Anda yang tersedia, dengan transfer Bitcoin langsung ke Wallet yang dikendalikan pengguna, sehingga mengurangi dampak volatilitas harga.
+- **Pembelian Bitcoin terjadwal**: Bull Bitcoin menawarkan layanan pembelian berulang otomatis (DCA - Dollar Cost Averaging) secara berkala, menggunakan saldo Anda yang tersedia, dengan transfer Bitcoin langsung ke Wallet yang dikendalikan pengguna, sehingga mengurangi dampak volatilitas harga.
 
 
 
@@ -1241,37 +1241,37 @@ Perhatikan bahwa opsi yang disebut "AutoBuy" memungkinkan Anda untuk mengonversi
 
 
 
-- Membeli Bitcoin pada harga tetap 'Limit Order'**: Memungkinkan Anda membeli Bitcoin pada harga yang ditentukan sebelumnya oleh pengguna, yang secara otomatis dieksekusi ketika harga indeks Bull Bitcoin mencapai atau turun di bawah batas yang ditetapkan.
+- Membeli Bitcoin pada harga tetap **'Limit Order'**: Memungkinkan Anda membeli Bitcoin pada harga yang ditentukan sebelumnya oleh pengguna, yang secara otomatis dieksekusi ketika harga indeks Bull Bitcoin mencapai atau turun di bawah batas yang ditetapkan.
 
 
 
 
 
-- Menjual Bitcoin**: Pengguna dapat menjual Bitcoin mereka dan menerima dana dalam mata uang fiat langsung ke rekening bank mereka melalui transfer bank atau SEPA.
+- **Menjual Bitcoin**: Pengguna dapat menjual Bitcoin mereka dan menerima dana dalam mata uang fiat langsung ke rekening bank mereka melalui transfer bank atau SEPA.
 
 
 
 
 
-- Pembayaran pihak ketiga**: Bull Bitcoin memungkinkan pengguna untuk mengirim uang fiat ke rekening bank dari Bitcoin mereka, sepenuhnya transparan kepada penerima.
+- **Pembayaran pihak ketiga**: Bull Bitcoin memungkinkan pengguna untuk mengirim uang fiat ke rekening bank dari Bitcoin mereka, sepenuhnya transparan kepada penerima.
 
 
 
 
 
-- Bull Bitcoin Prime**: Bull Bitcoin Prime adalah layanan premium untuk nasabah dengan kekayaan bersih tinggi dan nasabah perusahaan, yang menawarkan solusi khusus dan dukungan premium. Layanan ini mencakup akses ke biaya yang lebih rendah, manajer akun khusus, dan layanan korporat yang disesuaikan. Layanan ini ditujukan untuk institusi, trader profesional, dan klien korporat yang mencari keahlian mendalam dan layanan prioritas.
+- **Bull Bitcoin Prime**: Bull Bitcoin Prime adalah layanan premium untuk nasabah dengan kekayaan bersih tinggi dan nasabah perusahaan, yang menawarkan solusi khusus dan dukungan premium. Layanan ini mencakup akses ke biaya yang lebih rendah, manajer akun khusus, dan layanan korporat yang disesuaikan. Layanan ini ditujukan untuk institusi, trader profesional, dan klien korporat yang mencari keahlian mendalam dan layanan prioritas.
 
 
 
 
 
-- Mobile Wallet**: Bull Bitcoin menawarkan Wallet seluler sumber terbuka, kustodian mandiri, tersedia di Android dan iOS, yang mendukung transaksi onchain, Liquid, dan Lightning Network.
+- **Mobile Wallet**: Bull Bitcoin menawarkan Wallet seluler sumber terbuka, kustodian mandiri, tersedia di Android dan iOS, yang mendukung transaksi onchain, Liquid, dan Lightning Network.
 
 
 
 
 
-- Dukungan pendidikan**: Panduan gratis dan pelatihan yang dipersonalisasi untuk membantu pengguna membuat, mengamankan, dan mengelola portofolio Bitcoin mereka, sehingga memperkuat otonomi keuangan.
+- **Dukungan pendidikan**: Panduan gratis dan pelatihan yang dipersonalisasi untuk membantu pengguna membuat, mengamankan, dan mengelola portofolio Bitcoin mereka, sehingga memperkuat otonomi keuangan.
 
 
 
@@ -1281,10 +1281,10 @@ Perhatikan bahwa opsi yang disebut "AutoBuy" memungkinkan Anda untuk mengonversi
 
 
 
-- Regulasi**: Terdaftar di FINTRAC (Kanada) dan AMF (Prancis), Bull Bitcoin mematuhi persyaratan KYC/AML.
+- **Regulasi**: Terdaftar di FINTRAC (Kanada) dan AMF (Prancis), Bull Bitcoin mematuhi persyaratan KYC/AML.
 
 
 
 
 
-- Keamanan**: Penggunaan portofolio yang aman dan rekomendasi penyimpanan offline. Data pribadi dihosting pada infrastruktur Bitcoin Bull, yang 100% dihosting sendiri dan tidak bergantung pada pihak ketiga mana pun.
+- **Keamanan**: Penggunaan portofolio yang aman dan rekomendasi penyimpanan offline. Data pribadi dihosted pada infrastruktur Bitcoin Bull, yang 100% dihosting sendiri dan tidak bergantung pada pihak ketiga mana pun.

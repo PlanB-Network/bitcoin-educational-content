@@ -1,0 +1,9 @@
+question: 홈 네트워크에 원격으로 액세스하는 가장 좋은 방법은 무엇인가요?
+answer: 개인용 VPN 사용
+wrong_answers:
+  - 공용 SSH 포트 열기
+  - 라우터 클라우드 활성화
+  - WPS 사용
+explanation: |
+  VPN은 중요한 포트를 인터넷에 노출하지 않고 로컬 네트워크에 액세스할 수 있도록 암호화된 터널을 생성합니다.
+reviewed: false

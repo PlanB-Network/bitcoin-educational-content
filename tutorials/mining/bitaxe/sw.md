@@ -1,5 +1,5 @@
 ---
-name: Kuanzisha BitAxe
+name: Bitaxe
 description: Jinsi ya kusanidi BitAxe?
 
 ---

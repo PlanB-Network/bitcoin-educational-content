@@ -1,11 +1,11 @@
-question: Bitcoin'ın iki temel özelliği nedir?
-answer: Bitcoin hem bir bilgisayar protokolü hem de parasal bir birimdir.
+question: Bitcoin'ın tarafsız bir para birimi olması ne anlama geliyor?
+answer: Herhangi bir kurum veya kuruluş tarafından kontrol edilmemektedir.
 wrong_answers:
-  - Bitcoin hem fiziksel bir para birimi hem de dijital bir Wallet'tür.
-  - Bitcoin hem bir tür hisse senedi hem de bir tür tahvildir.
-  - Bitcoin hem merkezi hem de merkezi olmayan bir para birimidir.
+  - Tek bir kurum veya kuruluş tarafından kontrol edilir.
+  - Hükümet tarafından düzenlenmektedir.
+  - Sadece büyük işlemler için kullanılır.
 explanation: |
-  Bitcoin hem teknolojileri kullanan bir bilgisayar protokolüdür
-  kriptografi ve Blockchain gibi ve ayrıca parasal
-  işlemler için kullanılan birim.
+  Bitcoin nötr bir para birimidir, yani kontrol edilmez
+  herhangi bir kurum veya kuruluş tarafından, bu nedenle her kullanıcı aynı
+  haklar. Bu, adem-i merkeziyetçiliğin kilit bir yönüdür.
 reviewed: true

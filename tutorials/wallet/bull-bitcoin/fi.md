@@ -1,5 +1,5 @@
 ---
-name: Sonni Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Selvitä, miten Wallet Bull Bitcoin:ta käytetään
 ---
 
@@ -29,9 +29,9 @@ Wallet vastaa suureen haasteeseen: Bitcoin-verkkomaksut eivät sovellu pieniin m
 
 
 
-- Bitcoin-verkko (onchain)**: Ihanteellinen keskipitkän ja pitkän aikavälin UTXO-varastointiin ja suurten arvojen transaktioihin, joissa maksut ovat suhteellisesti merkityksettömiä.
-- Liquid Network**: Suunniteltu nopeisiin (~2 minuuttia), luottamuksellisempiin (piilotetut summat) ja edullisiin tapahtumiin, jotka sopivat täydellisesti pienten summien keräämiseen tai yksityisyyden suojaamiseen.
-- Lightning**-verkko: Soveltuu pieniin ja keskisuuriin päivittäisiin maksutapahtumiin.
+- **Bitcoin-verkko (onchain)**: Ihanteellinen keskipitkän ja pitkän aikavälin UTXO-varastointiin ja suurten arvojen transaktioihin, joissa maksut ovat suhteellisesti merkityksettömiä.
+- **Liquid Network**: Suunniteltu nopeisiin (~2 minuuttia), luottamuksellisempiin (piilotetut summat) ja edullisiin tapahtumiin, jotka sopivat täydellisesti pienten summien keräämiseen tai yksityisyyden suojaamiseen.
+- **Lightning-verkko**: Soveltuu pieniin ja keskisuuriin päivittäisiin maksutapahtumiin.
 
 
 
@@ -70,10 +70,10 @@ Ennen kuin aloitat **Bull Bitcoin Mobile**:n käytön, varmista, että sinulla o
 
 
 
-- Yhteensopiva älypuhelin**: **iOS** (iPhone tai iPad) tai **Android** -laite
+- Yhteensopiva älypuhelin: **iOS** (iPhone tai iPad) tai **Android** -laite
 - Internet-yhteys
-- Turvallinen varmuuskopiointiväline**: Kirjoita **palautuslauseke** (12 sanaa) paperille tai metallille ja säilytä se turvallisessa paikassa.
-- Perustiedot**: Bitcoin:n käsitteiden (osoitteet, maksutapahtumat, maksut) vähimmäistuntemus on hyödyllistä, vaikka tässä oppaassa selitetäänkin jokainen vaihe aloittelijoille.
+- **Turvallinen varmuuskopiointiväline**: Kirjoita **palautuslauseke** (12 sanaa) paperille tai metallille ja säilytä se turvallisessa paikassa.
+- **Perustiedot**: Bitcoin:n käsitteiden (osoitteet, maksutapahtumat, maksut) vähimmäistuntemus on hyödyllistä, vaikka tässä oppaassa selitetäänkin jokainen vaihe aloittelijoille.
 
 
 
@@ -83,10 +83,10 @@ Ennen kuin aloitat **Bull Bitcoin Mobile**:n käytön, varmista, että sinulla o
 
 
 
-- Lataa hakemus** :
- - [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Lataa sovelluskaupasta Android-laitteille
- - [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Lataa APK Android-laitteille suoraan**
- - [iOS](https://testflight.apple.com/join/FJbE4JPN)** Lataa TestFlightin kautta Applen laitteille
+- **Lataa hakemus**:
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Lataa sovelluskaupasta Android-laitteille**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Lataa APK Android-laitteille suoraan
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Lataa TestFlightin kautta Applen laitteille**
  - Tarkista kehittäjän nimi (Bull Bitcoin) välttääksesi vilpilliset hakemukset.
  - Varmista, että ladattu versio vastaa GitHubissa ilmoitettua viimeisintä vakaata versiota.
  - Bull Bitcoin Mobile on **avoin lähdekoodi**. Voit tarkastella koodia: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ Sovelluksessa käytetään molemmissa salkuissa ainutlaatuista 12-sanaista palau
 
 
 
- - gW-26' Wallet**: Bitcoin-verkossa tapahtuviin liiketoimiin (onchain)
- - instant Payments' Wallet**: Liquid- ja Lightning-verkoissa tapahtuviin välittömiin maksutapahtumiin
+- **gW-26' Wallet**: Bitcoin-verkossa tapahtuviin liiketoimiin (onchain)
+- **Instant Payments' Wallet**: Liquid- ja Lightning-verkoissa tapahtuviin välittömiin maksutapahtumiin
 
 
 
@@ -249,7 +249,7 @@ Aloitusnäytössä voit :
 
 
 
-- Esimerkki automaattisesti luodusta URI:stä** :
+- Esimerkki automaattisesti luodusta URI:stä:
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Käyttö**: Kopioi URI jaa lähettäjän kanssa tai anna hänen skannata QR-koodi.
+- **Käyttö**: Kopioi URI jaa lähettäjän kanssa tai anna hänen skannata QR-koodi.
 
 
 
@@ -297,7 +297,7 @@ Vaikka kirjoittaisit summan tai huomautuksen, niitä ei sisällytetä QR-koodiin
 
 
 
-- Käyttö**: Kopioi Address jaa se lähettäjän kanssa tai anna hänen skannata QR-koodi.
+- **Käyttö**: Kopioi Address ja jaa se lähettäjän kanssa tai anna hänen skannata QR-koodi.
 
 
 
@@ -308,7 +308,7 @@ Vaikka kirjoittaisit summan tai huomautuksen, niitä ei sisällytetä QR-koodiin
 
 
 - Miksi käyttää uutta Address:ää jokaista tapahtumaa varten? Tämä **suojaa yksityisyyttäsi** estämällä useiden maksujen yhdistämisen samaan Address:ään ja rajoittamalla Blockchain:n jäljitysmahdollisuuksia.
- - Oletusarvoisesti Bull Bitcoin luo automaattisesti käyttämättömän Address.**
+- Oletusarvoisesti Bull Bitcoin luo automaattisesti käyttämättömän Address.
  - Voit pakottaa uuden Address:n luomiseen napsauttamalla näytön alareunassa olevaa **"New Address"**.
  - Kaikki osoitteesi on yhdistetty seed-lauseeseen: riippumatta siitä, kuinka monta osoitetta käytät, salkussasi näkyy yksi saldo, ja se voi automaattisesti yhdistää varat, kun lähetys tehdään.
 
@@ -316,7 +316,7 @@ Vaikka kirjoittaisit summan tai huomautuksen, niitä ei sisällytetä QR-koodiin
 
 
 
-- Vinkki: Käytä aina Bull Bitcoin:n tarjoamaa uutta Address**, ellei sinulla ole erityistä tarvetta (esim. julkinen Address lahjoitusten vastaanottamista varten).
+- Vinkki: Käytä aina Bull Bitcoin:n tarjoamaa uutta **Address**, ellei sinulla ole erityistä tarvetta (esim. julkinen Address lahjoitusten vastaanottamista varten).
 
 
 
@@ -412,29 +412,29 @@ Aloitusnäytössä voit :
 
 
 
-- Mekanismi**: Bull Bitcoin Wallet on Wallet, joka mahdollistaa maksujen suorittamisen ja vastaanottamisen Lightningin kautta. Lightningin kautta vastaanotetut varat tallennetaan **Liquid**-verkkoon (Wallet-pikamaksuihin) **Boltzin** kautta tapahtuvan automaattisen vaihdon ansiosta. Tämä antaa sinulle mahdollisuuden olla vuorovaikutuksessa Lightningin kanssa ilman likviditeettikanavien hallintaa, ja samalla pysyt itse säilössä.
+- **Mekanismi**: Bull Bitcoin Wallet on Wallet, joka mahdollistaa maksujen suorittamisen ja vastaanottamisen Lightningin kautta. Lightningin kautta vastaanotetut varat tallennetaan **Liquid**-verkkoon (Wallet-pikamaksuihin) **Boltzin** kautta tapahtuvan automaattisen vaihdon ansiosta. Tämä antaa sinulle mahdollisuuden olla vuorovaikutuksessa Lightningin kanssa ilman likviditeettikanavien hallintaa, ja samalla pysyt itse säilössä.
 
 
 
 
 
-- Rajoitukset:**
- - Vähimmäismäärä** on 100 satoshia (19.07.2025 alkaen), kun käytät generate Invoice:ää.
- - Maksat kulut**, jotka vähennetään lähettäjän lähettämästä summasta, toisin kuin Wallet Lightning Native -lähetyksessä, jossa vain lähettäjä maksaa siirtokulut lähetetyn summan lisäksi. 19/07/2025, 47 Sats vähennetään lähetetystä summasta.
+- **Rajoitukset:**
+- **Vähimmäismäärä** on 100 satoshia (19.07.2025 alkaen), kun käytät generate Invoice:ää.
+- **Maksat kulut**, jotka vähennetään lähettäjän lähettämästä summasta, toisin kuin Wallet Lightning Native -lähetyksessä, jossa vain lähettäjä maksaa siirtokulut lähetetyn summan lisäksi. 19/07/2025, 47 Sats vähennetään lähetetystä summasta.
 
 
 
 
 
-- Edut** :
- - Omahuoltajuus**: Varasi pysyvät hallinnassasi, ne säilytetään Liquid Network:ssä.
- - Ei korkeita onchain-maksuja**: Tallentaminen Liquid:ssä välttää kalliit talletukset ketjussa Lightning-kanavan avaamiseksi tai likviditeetin lisäämiseksi. Nämä operaatiot voidaan suorittaa myöhemmin, kun Liquid:een kertynyt määrä oikeuttaa maksut.
+- **Edit**:
+- **Omahuoltajuus**: Varasi pysyvät hallinnassasi, ne säilytetään Liquid Network:ssä.
+- **Ei korkeita onchain-maksuja**: Tallentaminen Liquid:ssä välttää kalliit talletukset ketjussa Lightning-kanavan avaamiseksi tai likviditeetin lisäämiseksi. Nämä operaatiot voidaan suorittaa myöhemmin, kun Liquid:een kertynyt määrä oikeuttaa maksut.
 
 
 
 
 
-- Vihje:** Jos lähettäjällä on Wallet Bull Bitcoin, käytä suoraan Liquid Network:ta välttääksesi vaihtomaksut
+- **Vihje:** Jos lähettäjällä on Wallet Bull Bitcoin, käytä suoraan Liquid Network:ta välttääksesi vaihtomaksut
 
 
 
@@ -456,13 +456,13 @@ Aloitusnäytössä voit :
 
 
 
-- Invoice:n voimassaoloaika:** Salama Invoice on voimassa **12 tuntia**. Tämän ajan jälkeen se vanhenee, eikä sitä voi enää maksaa. Uusi Invoice on luotava.
+- **Invoice:n voimassaoloaika:** Salama Invoice on voimassa **12 tuntia**. Tämän ajan jälkeen se vanhenee, eikä sitä voi enää maksaa. Uusi Invoice on luotava.
 
 
 
 
 
-- Käyttö**: Kopioi Invoice jaa se lähettäjän kanssa tai anna hänen skannata QR-koodi.
+- **Käyttö**: Kopioi Invoice jaa se lähettäjän kanssa tai anna hänen skannata QR-koodi.
 
 
 
@@ -563,27 +563,27 @@ Sitten voit säätää parametreja:
 
 
 
-- Maksut**: Voit valita :
-  - Arvioidaan joko tapahtuman toteuttamisnopeus** ja siihen liittyvät maksut
-  - Arvioidaan joko maksut** Absoluuttiset maksut (kokonaismaksut satosheina) tai Suhteelliset maksut (maksut tavua kohti) -tilassa sekä tapahtuman nopeus
+- **Maksut**: Voit valita :
+- Arvioidaan joko tapahtuman **toteuttamisnopeus** ja siihen liittyvät maksut
+- Arvioidaan joko **maksut** Absoluuttiset maksut (kokonaismaksut satosheina) tai Suhteelliset maksut (maksut tavua kohti) -tilassa sekä tapahtuman nopeus
 
 
 
 
 
-- Lisäasetukset** :
+- **Lisäasetukset**:
 
 
 
 
 
- - Replace-by-fee (RBF)** : Tämä toiminto on oletusarvoisesti aktivoitu, ja se nopeuttaa maksutapahtumaa maksamalla korkeamman maksun (katso lisätietoja liitteestä 4).
+- **Replace-by-fee (RBF)**: Tämä toiminto on oletusarvoisesti aktivoitu, ja se nopeuttaa maksutapahtumaa maksamalla korkeamman maksun (katso lisätietoja liitteestä 4).
 
 
 
 
 
- - UTXO**:n manuaalinen valinta: Jos varoja on tallennettu useisiin eri Wallet-osoitteisiin, voit valita osoitteet, joista varat lähetetään. Miksi sinun pitäisi tehdä näin? Bitcoin:n yleistymisen myötä siirtomaksut nousevat. Lähetys useista osoitteista pienillä summilla on kalliimpaa kuin lähetys yhdestä Address-osoitteesta, mutta jos teet sen nyt, vältyt myöhemmiltä maksuilta, jolloin maksut nousevat entisestään. Tätä kutsutaan ** UTXO:n konsolidoinniksi**
+- **UTXO:n manuaalinen valinta**: Jos varoja on tallennettu useisiin eri Wallet-osoitteisiin, voit valita osoitteet, joista varat lähetetään. Miksi sinun pitäisi tehdä näin? Bitcoin:n yleistymisen myötä siirtomaksut nousevat. Lähetys useista osoitteista pienillä summilla on kalliimpaa kuin lähetys yhdestä Address-osoitteesta, mutta jos teet sen nyt, vältyt myöhemmiltä maksuilta, jolloin maksut nousevat entisestään. Tätä kutsutaan **UTXO:n konsolidoinniksi**.
 
 
 
@@ -593,7 +593,7 @@ Sitten voit säätää parametreja:
 
 
 
-- Lähettäminen PayJoin**:n kanssa: Jos URI:n toimittanut vastaanottaja on aktivoinut toiminnon, esim. :
+- Lähettäminen **PayJoin**:n kanssa: Jos URI:n toimittanut vastaanottaja on aktivoinut toiminnon, esim. :
 
 
 
@@ -679,7 +679,7 @@ Tarkista kaikki parametrit, erityisesti määrä ja määränpää Address.
 
 
 
-- Maksut**: Yleensä 0,1 sat/vB, eli 20-40 satoshia yksinkertaisesta transaktiosta (33 Sats 07/22/2025).
+- **Maksut**: Yleensä 0,1 sat/vB, eli 20-40 satoshia yksinkertaisesta transaktiosta (33 Sats 07/22/2025).
 
 
 
@@ -750,29 +750,29 @@ Huomautus: määrän on oltava suurempi kuin 21 Sats 23.07.2025
 
 
 
-- Mekanismi**: Varat otetaan **Pikamaksut Wallet**:sta (Liquid) ja muunnetaan **Liquid → Lightning**-swapilla **Boltzin** kanssa.
+- **Mekanismi**: Varat otetaan **Pikamaksut Wallet**:sta (Liquid) ja muunnetaan **Liquid → Lightning**-swapilla **Boltzin** kanssa.
 
 
 
 
 
-- Rajoitukset:**
- - Vähimmäismäärä** suurempi kuin Wallet Lightning native (ks. edellä)
- - Kulut** plus Liquid → Salamanvaihto Boltzin välityksellä
+- **Rajoitukset:**
+- **Vähimmäismäärä** suurempi kuin Wallet Lightning native (ks. edellä)
+- **Kulut** plus Liquid → Salamanvaihto Boltzin välityksellä
 
 
 
 
 
-- Edut** :
- - Omahuoltajuus**: Varasi pysyvät hallinnassasi, ne on tallennettu Liquid Network:een ja siirrettävissä tarvittaessa Lightningin kautta
- - Ei korkeita onchain-maksuja**: Tallentaminen Liquid:een on säästänyt sinut kalliilta onchain-talletuksilta Lightning-kanavan avaamiseksi tai likviditeetin lisäämiseksi. Nämä operaatiot voidaan suorittaa myöhemmin, kun Liquid:een kertynyt määrä oikeuttaa maksut.
+- **Edit**:
+- **Omahuoltajuus**: Varasi pysyvät hallinnassasi, ne on tallennettu Liquid Network:een ja siirrettävissä tarvittaessa Lightningin kautta
+- **Ei korkeita onchain-maksuja**: Tallentaminen Liquid:een on säästänyt sinut kalliilta onchain-talletuksilta Lightning-kanavan avaamiseksi tai likviditeetin lisäämiseksi. Nämä operaatiot voidaan suorittaa myöhemmin, kun Liquid:een kertynyt määrä oikeuttaa maksut.
 
 
 
 
 
-- Vihje:** Jos vastaanottajalla on Wallet Bull Bitcoin, käytä suoraan Liquid Network:ää välttääksesi vaihtokustannukset
+- **Vihje:** Jos vastaanottajalla on Wallet Bull Bitcoin, käytä suoraan Liquid Network:ää välttääksesi vaihtokustannukset
 
 
 
@@ -803,7 +803,7 @@ Tarkista kaikki parametrit, erityisesti määrä ja määränpää Address.
 
 
 
-- Aloitusnäytön kautta** :
+- **Aloitusnäytön kautta**:
  - Napsauta **Secure Bitcoin Wallet** nähdäksesi **onchain**-tapahtumat tai **Instant Payments Wallet** **Liquid**- ja **Lightning**-tapahtumia.
  - Historia näytetään suoraan salkun kokonaismäärän alapuolella, ja se suodatetaan valitun Wallet-tyypin mukaan.
 
@@ -815,9 +815,9 @@ Tarkista kaikki parametrit, erityisesti määrä ja määränpää Address.
 
 
 
-- Oman sivun kautta** :
+- **Oman sivun kautta**:
  - Napsauta aloitusnäytössä **historiasymbolia** (kellokuvake tai vastaava).
- - Pääset sivulle, jossa luetellaan kaikki tapahtumat ja jossa on suodattimia toimintatyypin mukaan: **(Huomautus: Myynti ja osto ovat kehitteillä, eivätkä ne ole käytettävissä tällä hetkellä, 20. heinäkuuta 2025).
+- Pääset sivulle, jossa luetellaan kaikki tapahtumat ja jossa on suodattimia toimintatyypin mukaan: **(Huomautus: Myynti ja osto ovat kehitteillä, eivätkä ne ole käytettävissä tällä hetkellä, 20. heinäkuuta 2025).**
 
 
 
@@ -864,57 +864,57 @@ Asetukset-sivulle pääsee suoraan Bull Bitcoin -sovelluksen etusivulta, ja sit�
 
 
 
-- Wallet Varmuuskopio**: Näyttää salkun palautuslauseen turvallista varmuuskopiointia varten. Katso palautuslausekkeen hallintaan ja tallentamiseen liittyviä parhaita käytäntöjä salkun luomista käsittelevästä kohdasta 3..
+- **Wallet Varmuuskopio**: Näyttää salkun palautuslauseen turvallista varmuuskopiointia varten. Katso palautuslausekkeen hallintaan ja tallentamiseen liittyviä parhaita käytäntöjä salkun luomista käsittelevästä kohdasta 3.
 
 
 
 
 
-- Wallet Yksityiskohdat** :
- - Pubkey**: Wallet:een liittyvä julkinen avain, jota käytetään generate Bitcoin:n vastaanotto-osoitteisiin.
- - Johdannaispolku**: Johdatuspolku, jota käytetään generate Wallet-osoitteiden johtamiseen yksityisestä avaimesta.
+- **Wallet Yksityiskohdat**:
+- **Pubkey**: Wallet:een liittyvä julkinen avain, jota käytetään generate Bitcoin:n vastaanotto-osoitteisiin.
+- **Johdannaispolku**: Johdatuspolku, jota käytetään generate Wallet-osoitteiden johtamiseen yksityisestä avaimesta.
 
 
 
 
 
-- Electrum-palvelin (Bitcoin-solmu)**: Määritä yhteys räätälöityyn Bitcoin-solmuun ketjussa tapahtuvia transaktioita varten.
+- **Electrum-palvelin (Bitcoin-solmu)**: Määritä yhteys räätälöityyn Bitcoin-solmuun ketjussa tapahtuvia transaktioita varten.
 
 
 
 
 
-- PIN-koodi**: Aktivoi ja/tai muuta turvakoodi, jolla suojataan pääsy sovellukseen ja Wallet-toimintoihin.
+- **PIN-koodi**: Aktivoi ja/tai muuta turvakoodi, jolla suojataan pääsy sovellukseen ja Wallet-toimintoihin.
 
 
 
 
 
-- Valuutta**: Valitse, näytetäänkö summat BTC:nä vai Sats:nä, ja oletusvaluutta (dollari, euro jne.).
+- **Valuutta**: Valitse, näytetäänkö summat BTC:nä vai Sats:nä, ja oletusvaluutta (dollari, euro jne.).
 
 
 
 
 
-- Automaattiset vaihto-asetukset**: Automaattivaihto -toiminnon avulla voit automatisoida BTC-siirron **Instant Payments Wallet (Liquid)**:stä **Bitcoin On-Chain** Wallet:een heti, kun summa saavuttaa kynnysarvon, jonka katsot riittävän korkeaksi transaktiopalkkion maksamiseksi.
+- **Automaattiset vaihto-asetukset**: Automaattivaihto -toiminnon avulla voit automatisoida BTC-siirron **Instant Payments Wallet (Liquid)**:stä **Bitcoin On-Chain** Wallet:een heti, kun summa saavuttaa kynnysarvon, jonka katsot riittävän korkeaksi transaktiopalkkion maksamiseksi.
 
 
 
 
 
-- Lokit**: Tarkasteltavissa olevat toimintalokit, jotka voidaan jakaa teknisen tuen kanssa vianmäärityksen helpottamiseksi.
+- **Lokit**: Tarkasteltavissa olevat toimintalokit, jotka voidaan jakaa teknisen tuen kanssa vianmäärityksen helpottamiseksi.
 
 
 
 
 
-- Telegram-yhteys tukea varten** : Suora linkki viralliseen Telegram-kanavaan, josta saa tukea käyttäjille.
+- **Telegram-yhteys tukea varten**: Suora linkki viralliseen Telegram-kanavaan, josta saa tukea käyttäjille.
 
 
 
 
 
-- Github-käyttöoikeus** : Linkki [Bull Bitcoin Github-tietokantaan](https://github.com/SatoshiPortal) avoimen lähdekoodin koodin tarkastelemiseksi tai ongelmien raportoimiseksi.
+- **Github-käyttöoikeus**: Linkki [Bull Bitcoin Github-tietokantaan](https://github.com/SatoshiPortal) avoimen lähdekoodin koodin tarkastelemiseksi tai ongelmien raportoimiseksi.
 
 
 
@@ -956,8 +956,8 @@ Asetukset-sivulle pääsee suoraan Bull Bitcoin -sovelluksen etusivulta, ja sit�
 
 
 
-- Vastaanottaa** (Address Supply): PayJoin on oletusarvoisesti käytössä.
-- Lähetä** : Wallet tunnistaa automaattisesti PayJoin URI:n ja konfiguroi tapahtuman sen mukaisesti, esimerkiksi:
+- **Vastaanottaa** (Address Supply): PayJoin on oletusarvoisesti käytössä.
+- **Lähetä**: Wallet tunnistaa automaattisesti PayJoin URI:n ja konfiguroi tapahtuman sen mukaisesti, esimerkiksi:
 
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Parannettu luottamuksellisuus**: PayJoin kumoaa oletuksen, että kaikki tapahtuman merkinnät kuuluvat yhdelle taholle. PayJoin:ssä syötteet tulevat sekä lähettäjältä että vastaanottajalta, mikä rikkoo tämän oletuksen.
-- Määrän peittäminen** : Todellinen vaihdettu määrä ei näy suoraan tulosteissa. Se lasketaan vastaanottajan saapuvan ja lähtevän UTXO:n erotuksena, mikä tekee analyysistä harhaanjohtavan.
+- **Parannettu luottamuksellisuus**: PayJoin kumoaa oletuksen, että kaikki tapahtuman merkinnät kuuluvat yhdelle taholle. PayJoin:ssä syötteet tulevat sekä lähettäjältä että vastaanottajalta, mikä rikkoo tämän oletuksen.
+- **Määrän peittäminen**: Todellinen vaihdettu määrä ei näy suoraan tulosteissa. Se lasketaan vastaanottajan saapuvan ja lähtevän UTXO:n erotuksena, mikä tekee analyysistä harhaanjohtavan.
 
 
 
@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Sanasto](https://planb.network/fr/resources/glossary/PayJoin)
+- [Sanasto](https://planb.network/fr/resources/glossary/payjoin)
 - Chapitre [Les transactions PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Sanasto](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Sanasto](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1038,15 +1038,15 @@ Jos haluat käyttää **Bull Bitcoin Mobilea** turvallisesti ja tehokkaasti, nou
 
 
 
-- Turvaa palautuslausekkeesi** :
- - Tutorial: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+- **Turvaa palautuslausekkeesi**:
+ - Tutorial: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
 
 
 
-- Käytä suojattua todennusta** :
+- **Käytä suojattua todennusta**:
  - Aktivoi **vahva PIN-koodi** tai **biometrinen tunnistus** (sormenjälki tai kasvojentunnistus) sovelluksen käytön suojaamiseksi.
  - Älä koskaan jaa PIN-koodia tai biometrisiä tietoja.
 
@@ -1054,7 +1054,7 @@ Jos haluat käyttää **Bull Bitcoin Mobilea** turvallisesti ja tehokkaasti, nou
 
 
 
-- Suojaa yksityisyytesi** :
+- **Suojaa yksityisyytesi**:
  - generate uusi Address jokaista onchain- tai Liquid-vastaanottoa varten, jotta Blockchain:n jäljitystä voidaan rajoittaa.
  - Käytä PayJoin:tä, kun se on saatavilla, jotta ketjussa lähetetyn määrän luottamuksellisuus lisääntyy
  - Jos haluat maksimaalisen luottamuksellisuuden, yhdistä Wallet omaan Bitcoin-solmuun Electrum-palvelimen kautta sen sijaan, että käyttäisit julkista solmua
@@ -1063,23 +1063,23 @@ Jos haluat käyttää **Bull Bitcoin Mobilea** turvallisesti ja tehokkaasti, nou
 
 
 
-- Valitse tarpeisiisi parhaiten sopiva verkko** :
- - Onchain**: (palkkiot ovat vähäisiä suhteessa määrään).
- - Liquid**: Käytä nopeisiin, edullisiin siirtoihin, joissa on parempi luottamuksellisuus.
- - Salama**: Valitse välitön, edullinen siirto pienille summille. Jos sinulla on kaksi Wallet Bull Bitcoin -käyttäjää, valitse Liquid välttääksesi Lightning <> Liquid -vaihtomaksut Boltzin kautta.
+- Valitse tarpeisiisi parhaiten sopiva **verkko**:
+- **Onchain**: (palkkiot ovat vähäisiä suhteessa määrään).
+- **Liquid**: Käytä nopeisiin, edullisiin siirtoihin, joissa on parempi luottamuksellisuus.
+- **Salama**: Valitse välitön, edullinen siirto pienille summille. Jos sinulla on kaksi Wallet Bull Bitcoin -käyttäjää, valitse Liquid välttääksesi Lightning <> Liquid -vaihtomaksut Boltzin kautta.
 
 
 
 
 
-- Tarkista aina toimitusosoitteet** :
+- Tarkista aina **toimitusosoitteet**:
  - Tarkista Address huolellisesti ennen varojen lähettämistä. Väärään Address:een lähetetyt varat menetetään lopullisesti. Käytä kopiointia/liittämistä tai QR-koodin skannausta, älä koskaan kopioi/muuta Address:ta käsin.
 
 
 
 
 
-- Optimoi kustannukset** :
+- **Optimoi kustannukset**:
  - Valitse ketjutapahtumille sopivat maksut (hidas, keskitasoinen, nopea) kiireellisyyden ja verkon ruuhkautumisen mukaan.
  - Käytä Liquid:a tai Lightningia pieniin määriin.
  - Aktivoi Replace-by-fee (RBF) (ks. liite 4) ketjulähetyksiä varten, jos ennakoit tarvetta nopeuttaa vahvistusta.
@@ -1099,18 +1099,18 @@ Jos haluat käyttää **Bull Bitcoin Mobilea** turvallisesti ja tehokkaasti, nou
 
 
 
-- Viralliset linkit ja tuki:**
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : tukisähköpostiosoite
- - [Bull Bitcoin:n virallinen verkkosivusto](https://bullbitcoin.com/) :** Tietoa Bull Bitcoin:n palveluista, tilin luominen, sovelluksen käyttömahdollisuudet
- - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Katso koodia, kehitystä ja etenemissuunnitelmaa, osallistu kehitykseen ja...
- - [Tili X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
- - Telegram**-ryhmä Wallet-mobiililaitteelle: ryhmäkeskustelu tuen kanssa, katso "Asetukset"-sivu.
+- **Viralliset linkit ja tuki:**
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : tukisähköpostiosoite
+- [Bull Bitcoin:n virallinen verkkosivusto](https://bullbitcoin.com/): **Tietoa Bull Bitcoin:n palveluista, tilin luominen, sovelluksen käyttömahdollisuudet**
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Katso koodia, kehitystä ja etenemissuunnitelmaa, osallistu kehitykseen ja...**
+- [Tili X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
+- **Telegram-ryhmä** Wallet-mobiililaitteelle: ryhmäkeskustelu tuen kanssa, katso "Asetukset"-sivu.
 
 
 
 
 
-- Kortteleiden tutkijat :**
+- Kortteleiden tutkijat:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Salama: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -1119,7 +1119,7 @@ Jos haluat käyttää **Bull Bitcoin Mobilea** turvallisesti ja tehokkaasti, nou
 
 
 
-- Oppiminen ja opetusohjelmat:** **[Plan ₿ Network](https://planb.network/)** :
+- **Oppiminen ja opetusohjelmat:** **[Plan ₿ Network](https://planb.network/)** :
  - Elvytyslausekkeen turvaaminen
 
 
@@ -1133,8 +1133,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Sanasto](https://planb.network/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Sanasto](https://planb.network/resources/glossary/liquid-network)
 
 
 
@@ -1145,8 +1145,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Sanasto](https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Sanasto](https://planb.network/resources/glossary/lightning-network)
 
 
 
@@ -1184,31 +1184,31 @@ Bull Bitcoin erottuu edukseen Commitment-Cypherpunk-periaatteidensa ja Bitcoin-e
 
 
 
-- Yksinomainen keskittyminen Bitcoin:een** : Alusta on uskollinen visiolle hajautetusta, sensuurin kestävästä valuutasta.
+- **Yksinomainen keskittyminen Bitcoin:een**: Alusta on uskollinen visiolle hajautetusta, sensuurin kestävästä valuutasta.
 
 
 
 
 
-- Muu kuin säilyttäjä** : Käyttäjät säilyttävät täyden määräysvallan Bitcoineihinsa lähettämällä varoja omiin salkkuihinsa.
+- **Muu kuin säilyttäjä**: Käyttäjät säilyttävät täyden määräysvallan Bitcoineihinsa lähettämällä varoja omiin salkkuihinsa.
 
 
 
 
 
-- Luottamuksellisuus**: KYC-vapaat ostovaihtoehdot alle 999 USD:n tapahtumille. Tiedot on suojattu säännösten mukaisesti (FINTRAC Kanadassa, AMF Ranskassa).
+- **Luottamuksellisuus**: KYC-vapaat ostovaihtoehdot alle 999 USD:n tapahtumille. Tiedot on suojattu säännösten mukaisesti (FINTRAC Kanadassa, AMF Ranskassa).
 
 
 
 
 
-- Avoimuus**: Kulut sisältyvät hintaan (osto- ja myyntihintojen erotus).
+- **Avoimuus**: Kulut sisältyvät hintaan (osto- ja myyntihintojen erotus).
 
 
 
 
 
-- Taloudellinen riippumattomuus**: Bull Bitcoin edistää riippumattomuutta perinteisistä pankkijärjestelmistä ja keskitetyistä laitoksista.
+- **Taloudellinen riippumattomuus**: Bull Bitcoin edistää riippumattomuutta perinteisistä pankkijärjestelmistä ja keskitetyistä laitoksista.
 
 
 
@@ -1218,19 +1218,19 @@ Bull Bitcoin erottuu edukseen Commitment-Cypherpunk-periaatteidensa ja Bitcoin-e
 
 
 
-- Fiatin talletus** : Käyttäjät voivat tallettaa Bull Bitcoin -tililleen fiat-valuuttaa (CAD, EUR jne.) pankkisiirrolla tai käteisellä/pankkikortilla tietyissä Kanadan postitoimistoissa.
+- **Fiatin talletus**: Käyttäjät voivat tallettaa Bull Bitcoin -tililleen fiat-valuuttaa (CAD, EUR jne.) pankkisiirrolla tai käteisellä/pankkikortilla tietyissä Kanadan postitoimistoissa.
 
 
 
 
 
-- Bitcoin** ostaminen : Käyttäjät voivat ostaa Bitcoin:n, joka lähetetään suoraan omaan salkkuunsa, joka ei ole säilytyspaikka, mikä takaa varojen täydellisen hallinnan.
+- **Bitcoin ostaminen**: Käyttäjät voivat ostaa Bitcoin:n, joka lähetetään suoraan omaan salkkuunsa, joka ei ole säilytyspaikka, mikä takaa varojen täydellisen hallinnan.
 
 
 
 
 
-- Suunniteltu Bitcoin-ostos**: Bull Bitcoin tarjoaa automaattisen toistuvan ostopalvelun (DCA - Dollar Cost Averaging) säännöllisin väliajoin käytettävissä olevasta saldostasi, ja Bitcoins siirretään suoraan käyttäjän hallitsemaan Wallet:een, mikä vähentää hintavaihteluiden vaikutusta.
+- **Suunniteltu Bitcoin-ostos**: Bull Bitcoin tarjoaa automaattisen toistuvan ostopalvelun (DCA - Dollar Cost Averaging) säännöllisin väliajoin käytettävissä olevasta saldostasi, ja Bitcoins siirretään suoraan käyttäjän hallitsemaan Wallet:een, mikä vähentää hintavaihteluiden vaikutusta.
 
 
 
@@ -1241,37 +1241,37 @@ Huomaa, että "AutoBuy"-vaihtoehdon avulla voit muuntaa fiatteja heti, kun ne ko
 
 
 
-- Osta Bitcoin kiinteään hintaan 'Limit Order'**: Se toteutetaan automaattisesti, kun Bull Bitcoin -indeksin hinta saavuttaa tai alittaa asetetun rajan.
+- Osta Bitcoin kiinteään hintaan **'Limit Order'**: Se toteutetaan automaattisesti, kun Bull Bitcoin -indeksin hinta saavuttaa tai alittaa asetetun rajan.
 
 
 
 
 
-- Myydään Bitcoin**: Käyttäjät voivat myydä Bitcoinejaan ja saada varat fiat-valuutassa suoraan pankkitililleen pankki- tai SEPA-siirrolla.
+- **Myydään Bitcoin**: Käyttäjät voivat myydä Bitcoinejaan ja saada varat fiat-valuutassa suoraan pankkitililleen pankki- tai SEPA-siirrolla.
 
 
 
 
 
-- Kolmannen osapuolen maksut**: Bull Bitcoin:n avulla käyttäjät voivat lähettää fiat-rahaa pankkitileille bitcoineistaan täysin läpinäkyvästi vastaanottajalle.
+- **Kolmannen osapuolen maksut**: Bull Bitcoin:n avulla käyttäjät voivat lähettää fiat-rahaa pankkitileille bitcoineistään täysin läpinäkyvästi vastaanottajalle.
 
 
 
 
 
-- Bull Bitcoin Prime**: Bull Bitcoin Prime on varakkaille ja yritysasiakkaille tarkoitettu premium-palvelu, joka tarjoaa räätälöityjä ratkaisuja ja ensiluokkaista tukea. Siihen sisältyy pääsy alennettuihin maksuihin, oma tilinhoitaja ja räätälöityjä yrityspalveluja. Tämä palvelu on suunnattu instituutioille, ammattimaisille kauppiaille ja yritysasiakkaille, jotka haluavat syvällistä asiantuntemusta ja ensisijaista kohtelua.
+- **Bull Bitcoin Prime**: Bull Bitcoin Prime on varakkaille ja yritysasiakkaille tarkoitettu premium-palvelu, joka tarjoaa räätälöityjä ratkaisuja ja ensiluokkaista tukea. Siihen sisältyy pääsy alennettuihin maksuihin, oma tilinhoitaja ja räätälöityjä yrityspalveluja. Tämä palvelu on suunnattu instituutioille, ammattimaisille kauppiaille ja yritysasiakkaille, jotka haluavat syvällistä asiantuntemusta ja ensisijaista kohtelua.
 
 
 
 
 
-- Mobiili Wallet**: Bull Bitcoin tarjoaa avoimen lähdekoodin omaehtoisen Wallet-mobiililaitteen, joka on saatavilla Android- ja iOS-käyttöjärjestelmillä ja joka tukee onchain-, Liquid- ja Lightning Network-tapahtumia.
+- **Mobiili Wallet**: Bull Bitcoin tarjoaa avoimen lähdekoodin omaehtoisen Wallet-mobiililaitteen, joka on saatavilla Android- ja iOS-käyttöjärjestelmillä ja joka tukee onchain-, Liquid- ja Lightning Network-tapahtumia.
 
 
 
 
 
-- Koulutuksellinen tuki**: Maksuttomat oppaat ja henkilökohtainen valmennus, jotka auttavat käyttäjiä luomaan, turvaamaan ja hallinnoimaan Bitcoin-salkkujaan ja vahvistavat taloudellista itsenäisyyttä.
+- **Koulutuksellinen tuki**: Maksuttomat oppaat ja henkilökohtainen valmennus, jotka auttavat käyttäjiä luomaan, turvaamaan ja hallinnoimaan Bitcoin-salkkujaan ja vahvistavat taloudellista itsenäisyyttä.
 
 
 
@@ -1281,10 +1281,10 @@ Huomaa, että "AutoBuy"-vaihtoehdon avulla voit muuntaa fiatteja heti, kun ne ko
 
 
 
-- Sääntely**: Bull Bitcoin täyttää KYC/AML-vaatimukset.
+- **Sääntely**: Bull Bitcoin täyttää KYC/AML-vaatimukset.
 
 
 
 
 
-- Turvallisuus**: Suojattujen salkkujen ja offline-tallennussuositusten käyttö. Henkilötietoja säilytetään Bullin Bitcoin-infrastruktuurissa, joka on 100-prosenttisesti itse isännöity eikä ole riippuvainen mistään kolmannesta osapuolesta.
+- **Turvallisuus**: Suojattujen salkkujen ja offline-tallennussuositusten käyttö. Henkilötietoja säilytetään Bullin Bitcoin-infrastruktuurissa, joka on 100-prosenttisesti itse isännöity eikä ole riippuvainen mistään kolmannesta osapuolesta.

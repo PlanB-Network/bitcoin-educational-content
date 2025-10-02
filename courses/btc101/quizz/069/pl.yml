@@ -1,12 +1,10 @@
-question: Jaka była szacunkowa liczba bitcoinów w obiegu po pierwszym Halving?
-answer: 10 500 000 BTC.
+question: Jaka jest rola klucza publicznego w Bitcoin Wallet?
+answer: Jest on używany do adresów generate Bitcoin, a tym samym do otrzymywania pieniędzy.
 wrong_answers:
-  - 5 250 000 BTC.
-  - 15 750 000 BTC.
-  - 21 000 000 BTC.
+  - Służy do szyfrowania transakcji Bitcoin.
+  - Służy do uzyskiwania dostępu do Bitcoin Wallet.
+  - Służy do tworzenia kopii zapasowych Bitcoin Wallet.
 explanation: |
-  Po pierwszym Halving, który miał miejsce na wysokości bloku
-  210 000, szacowana liczba bitcoinów w obiegu wynosiła
-  wynosiła 10 500 000 BTC, co stanowi połowę całkowitej liczby
-  bitcoinów, które będą w obiegu.
+  Klucz publiczny jest wyprowadzany z klucza prywatnego i jest używany do
+  do adresów generate Bitcoin w celu otrzymania pieniędzy.
 reviewed: true

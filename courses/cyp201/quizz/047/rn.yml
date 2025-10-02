@@ -1,0 +1,9 @@
+question: Ni ubunini ubuhe mu bice vy’igice ca kabiri gikoreshwa mu kurema ijambo ryose rya Mnemonic?
+answer: 11 ibice
+wrong_answers:
+  - 8 ibice
+  - 16 ibice
+  - 10 ibice
+explanation: |
+  Buri gice c'ibice 11 gihuye n'ijambo rivuye ku rutonde rw'amajambo 2048 muri BIP39.
+reviewed: false

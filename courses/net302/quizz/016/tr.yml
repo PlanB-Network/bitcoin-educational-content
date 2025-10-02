@@ -1,0 +1,9 @@
+question: Bir datagram geçtiği ağın MTU'sunu aşarsa IP protokolü ne yapar?
+answer: Onu birkaç parçaya böler
+wrong_answers:
+  - Göndermeden önce tüm datagramı şifreler
+  - Her zaman reddediyor ve bir hata mesajı gönderiyor
+  - İletmeden önce sıkıştırıyor
+explanation: |
+  Datagram boyutu MTU'yu aşarsa, yönlendirici bunu hedef ağa uyan birkaç küçük pakete böler.
+reviewed: false

@@ -1,13 +1,8 @@
-question: Bitcoin 與未來科技和社會有何關聯？
-answer: Bitcoin 是一場技術革命，讓價值的 Exchange 不需要任何可信賴的第三方。
+question: Bitcoin 協定的主要特性之一是什麼？
+answer: 它對所有使用者都是中立的。
 wrong_answers:
-  - Bitcoin 是一種人工智慧技術，可讓人們透過中央伺服器取得 Exchange 資訊。
-  - Bitcoin 是控制世界人口、消除貧困的工具。
-  - Bitcoin 是政府追蹤公民財務交易的一種方法。
-explanation: |
-  文中解釋，Bitcoin 就像通訊工具的網際網路一樣
-  是一場技術革命，它
-  為新的大規模組織模式創造了機會，為我們帶來了交流的可能性。
-  組織的機會，為我們帶來了在沒有任何可信賴的第三方的情況下交換價值的可能性。
-  價值交換的可能性。
+  - 它偏袒某些使用者而非其他使用者。
+  - 它偏向於某些使用者。
+  - 它只會讓特定的使用者受惠。
+explanation: >-
 reviewed: true

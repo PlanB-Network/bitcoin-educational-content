@@ -25,10 +25,10 @@ Međutim, veliki problem je ostao između slojeva Bitcoin protokola: fluidna int
 
 
 
-- on chain**: Glavni lanac Bitcoin gde se transakcije potvrđuju u proseku svakih 10 minuta, naknade za transakcije su često visoke, što ne mora nužno zadovoljiti potrebe korisnika ;
-- Lightning Network**: Bitcoin prekrivanje za trenutna plaćanja uz niske naknade, omogućavajući korišćenje Bitcoin za dnevna plaćanja;
-- Liquid Network**: preklop za Bitcoin koji je kreirao Blockstream, omogućavajući brzo, Confidential Transactions i korišćenje drugih finansijskih instrumenata zasnovanih na Bitcoin;
-- RootStock**: Rešenje za razvoj pametnih ugovora zasnovanih na Bitcoin protokolu.
+- **on chain**: Glavni lanac Bitcoin gde se transakcije potvrđuju u proseku svakih 10 minuta, naknade za transakcije su često visoke, što ne mora nužno zadovoljiti potrebe korisnika ;
+- **Lightning Network**: Bitcoin prekrivanje za trenutna plaćanja uz niske naknade, omogućavajući korišćenje Bitcoin za dnevna plaćanja;
+- **Liquid Network**: preklop za Bitcoin koji je kreirao Blockstream, omogućavajući brzo, Confidential Transactions i korišćenje drugih finansijskih instrumenata zasnovanih na Bitcoin;
+- **RootStock**: Rešenje za razvoj pametnih ugovora zasnovanih na Bitcoin protokolu.
 
 
 
@@ -54,7 +54,7 @@ Na ovaj način, zadržavate trajno samostalno staranje nad svojim bitcoinima, a 
 
 
 
-An atomic Exchange radi sa pametnim ugovorima [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). U ovoj vrsti Contract, iznos je "zaključan" u dvosmernom kanalu i uvodi se vremensko ograničenje, tako da ako transakcija nije završena u određenom vremenu, saldo se vraća deponentu. Ovo je mehanizam koji koristi Boltz platforma.
+An atomic Exchange radi sa pametnim ugovorima [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). U ovoj vrsti Contract, iznos je "zaključan" u dvosmernom kanalu i uvodi se vremensko ograničenje, tako da ako transakcija nije završena u određenom vremenu, saldo se vraća deponentu. Ovo je mehanizam koji koristi Boltz platforma.
 
 
 

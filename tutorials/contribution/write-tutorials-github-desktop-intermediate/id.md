@@ -17,13 +17,13 @@ Anda sudah melakukannya:
 Dalam tutorial ini, kita akan melihat cara menambahkan tutorial Anda di Plan ₿ Network dengan menyiapkan lingkungan lokal Anda dengan GitHub Desktop. Jika Anda sudah mahir menggunakan Git, tutorial yang sangat mendetail ini mungkin tidak diperlukan untuk Anda. Saya lebih menyarankan untuk membaca tutorial lain di mana saya hanya menyajikan panduan utama, tanpa panduan langkah demi langkah yang mendetail:
 
 
-- Pengguna berpengalaman**:
+- **Pengguna berpengalaman**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Jika Anda memilih untuk tidak mengatur lingkungan lokal Anda, ikuti tutorial lain yang dirancang untuk pemula, di mana kita membuat perubahan secara langsung melalui antarmuka web GitHub:
 
 
-- Pemula (antarmuka web)**:
+- **Pemula (antarmuka web)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Prasyarat
@@ -249,30 +249,30 @@ proofreading:
 
 Berikut adalah bidang yang wajib diisi:
 
-- **id** : Sebuah UUID (_Universally Unique Identifier_) yang mengidentifikasi tutorial secara unik. Anda dapat membuatnya menggunakan [alat online](https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah UUID ini harus acak untuk menghindari konflik dengan UUID lain di platform;
+- **id**: Sebuah UUID (_Universally Unique Identifier_) yang mengidentifikasi tutorial secara unik. Anda dapat membuatnya menggunakan [alat online](https://www.uuidgenerator.net/version4). Satu-satunya persyaratan adalah UUID ini harus acak untuk menghindari konflik dengan UUID lain di platform;
 
-- **project_id** : UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
+- **project_id**: UUID dari perusahaan atau organisasi yang terkait dengan alat yang dibahas dalam tutorial [dari daftar proyek](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Misalnya, jika Anda membuat tutorial tentang perangkat lunak Green Wallet, Anda dapat menemukan `project_id` dalam file berikut: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informasi ini ditambahkan ke file YAML tutorial Anda karena Plan ₿ Network mempertahankan basis data dari semua perusahaan dan organisasi yang beroperasi di Bitcoin atau proyek terkait. Dengan menambahkan `project_id` dari entitas yang terkait dengan tutorial Anda, Anda membuat hubungan antara kedua elemen tersebut;
 
-- **tags** : 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 atau 3 kata kunci relevan terkait dengan isi tutorial, dipilih secara eksklusif [dari daftar tag Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Network (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Sub-kategori yang sesuai dengan isi tutorial sesuai dengan struktur situs Plan ₿ Network (misalnya untuk dompet: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Tingkat kesulitan tutorial, dipilih dari:
+- **level**: Tingkat kesulitan tutorial, dipilih dari:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : `professor_id` Anda (UUID) seperti yang ditampilkan pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: `professor_id` Anda (UUID) seperti yang ditampilkan pada [profil profesor Anda](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Bahasa asli dari tutorial (misalnya `fr`, `en`, dll.);
+- **original_language**: Bahasa asli dari tutorial (misalnya `fr`, `en`, dll.);
 
-- **proofreading** : Informasi tentang proses pengoreksian. Lengkapi bagian pertama karena mengoreksi tutorial Anda sendiri dihitung sebagai validasi pertama:
-    - **language** : Kode bahasa untuk pengoreksian (misalnya `fr`, `en`, dll.).
-    - **last_contribution_date** : Tanggal hari ini.
-    - **urgency** : 1
-    - **contributor_names** : ID GitHub Anda.
-    - **reward** : 0
+- **proofreading**: Informasi tentang proses pengoreksian. Lengkapi bagian pertama karena mengoreksi tutorial Anda sendiri dihitung sebagai validasi pertama:
+    - **language**: Kode bahasa untuk pengoreksian (misalnya `fr`, `en`, dll.).
+    - **last_contribution_date**: Tanggal hari ini.
+    - **urgency**: 1
+    - **contributor_names**: ID GitHub Anda.
+    - **reward**: 0
 
 Untuk detail lebih lanjut mengenai ID guru Anda, silakan lihat tutorial yang sesuai:
 
@@ -382,8 +382,8 @@ Tanda seru di awal mengindikasikan bahwa itu adalah gambar. Teks alternatif, yan
 Jika Anda ingin membuat diagram Anda sendiri, pastikan untuk mematuhi piagam grafis Plan ₿ Network untuk memastikan konsistensi visual:
 
 
-- Huruf **: Gunakan [IBM Plex Sans] (https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Warna**:
+- **Huruf**: Gunakan [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Warna**:
  - Oranye: #FF5C00
  - Hitam: #000000
  - Putih: #FFFFFF
@@ -447,5 +447,4 @@ Jika Anda ingin membuat perubahan pada kontribusi Anda setelah Anda mengirimkan 
 - Jika PR Anda telah digabungkan dengan cabang utama, Anda harus memulai proses dari awal dengan membuat cabang baru, lalu mengirimkan PR baru. Pastikan repositori lokal Anda disinkronkan dengan repositori sumber Plan ₿ Network sebelum melanjutkan.
 
 Jika Anda mengalami kesulitan teknis dalam mengirimkan tutorial Anda, jangan ragu untuk meminta bantuan di [grup Telegram khusus untuk kontribusi](https://t.me/PlanBNetwork_ContentBuilder). Terima kasih!
-
 

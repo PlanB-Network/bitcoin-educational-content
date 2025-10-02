@@ -1,8 +1,8 @@
-question: Lightning Network bağlamında para akışı kavramı nedir?
-answer: Sürekli, gerçek zamanlı mikro ödemeler yapmak.
+question: Yapay zeka teknolojilerinin ilerlemesinin potansiyel sonuçlarından biri nedir?
+answer: Yapay zeka teknolojileri, günümüz işlerinin %80'inden fazlasının ortadan kalkmasına yol açacaktır.
 wrong_answers:
-  - Bitcoin'in bir ATM kullanılarak fiziksel bir yerde nakde dönüştürülmesi.
-  - Bitcoin için ses veya video içeriği akışı.
-  - Gerçek zamanlı olarak gerçekleşen Mining işlemleri aracılığıyla yeni bitcoinler yaratılması.
+  - Yapay zeka teknolojileri tüm bilgisayarları yok edecek.
+  - Yapay zeka teknolojileri insan zekasının azalmasına yol açacaktır.
+  - Yapay zeka teknolojileri küresel bir ekonomik çöküşe neden olacak.
 explanation: >-
 reviewed: true

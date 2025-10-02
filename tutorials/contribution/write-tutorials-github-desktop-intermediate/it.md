@@ -17,13 +17,13 @@ L'avete già fatto:
 In questa guida vedremo come aggiungere il vostro tutorial alla rete di Plan ₿ configurando il vostro ambiente locale con GitHub Desktop. Se siete già esperti di Git, questo tutorial molto dettagliato potrebbe non essere necessario per voi. Vi consiglio piuttosto di consultare quest'altro tutorial in cui presento solo le linee guida principali, senza una guida dettagliata passo-passo:
 
 
-- Utenti esperti**:
+- **Utenti esperti**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Se preferite non configurare il vostro ambiente locale, seguite quest'altra guida pensata per i principianti, in cui apportiamo le modifiche direttamente tramite l'interfaccia web di GitHub:
 
 
-- Principianti (interfaccia web)**:
+- **Principianti (interfaccia web)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Prerequisiti
@@ -163,7 +163,7 @@ Scegliere un nome per la cartella creata appositamente per l'esercitazione. Il n
 
 Il `project_id` è l'UUID dell'azienda o dell'organizzazione che sta dietro allo strumento trattato nel tutorial, disponibile [nell'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, per un tutorial su Sparrow Wallet, è possibile trovare il suo `project_id` nel file: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Questa informazione viene aggiunta al file YAML del tutorial perché Plan ₿ Network mantiene un database di aziende e organizzazioni attive in Bitcoin o in progetti correlati. Aggiungendo il `project_id` associato, si collega il contenuto all'entità pertinente.
 
-***Nella nuova versione dello script, non è più necessario inserire manualmente il `project_id`. È stata aggiunta una funzione di ricerca per trovare il progetto in base al nome e recuperare automaticamente il corrispondente `project_id`. Digitare l'inizio del nome del progetto nel campo "Nome progetto" per cercarlo, quindi selezionare la società desiderata dal menu a discesa. Il `project_id` verrà popolato automaticamente nel campo sottostante. Se necessario, è possibile inserirlo manualmente.
+**Nella nuova versione dello script, non è più necessario inserire manualmente il `project_id`. È stata aggiunta una funzione di ricerca per trovare il progetto in base al nome e recuperare automaticamente il corrispondente `project_id`. Digitare l'inizio del nome del progetto nel campo "Nome progetto" per cercarlo, quindi selezionare la società desiderata dal menu a discesa. Il `project_id` verrà popolato automaticamente nel campo sottostante. Se necessario, è possibile inserirlo manualmente.**
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
@@ -248,30 +248,30 @@ proofreading:
 
 Ecco i campi obbligatori:
 
-- **id** : Un UUID (_Identificatore Unico Universale_) che identifica univocamente il tutorial. Puoi generarlo con [uno strumento online](https://www.uuidgenerator.net/version4). L'unico requisito è che questo UUID sia casuale per evitare conflitti con altri UUID presenti sulla piattaforma;
+- **id**: Un UUID (_Identificatore Unico Universale_) che identifica univocamente il tutorial. Puoi generarlo con [uno strumento online](https://www.uuidgenerator.net/version4). L'unico requisito è che questo UUID sia casuale per evitare conflitti con altri UUID presenti sulla piattaforma;
 
-- **project_id** : L'UUID dell'azienda o organizzazione dietro lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial sul software Green Wallet, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, crei un collegamento tra i due elementi;
+- **project_id**: L'UUID dell'azienda o organizzazione dietro lo strumento presentato nel tutorial [dall'elenco dei progetti](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ad esempio, se stai creando un tutorial sul software Green Wallet, puoi trovare il `project_id` nel seguente file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Queste informazioni vengono aggiunte al file YAML del tuo tutorial perché Plan ₿ Network mantiene un database di tutte le aziende e organizzazioni che operano su Bitcoin o progetti correlati. Aggiungendo il `project_id` dell'entità associata al tuo tutorial, crei un collegamento tra i due elementi;
 
-- **tags** : 2 o 3 parole chiave pertinenti relative al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 o 3 parole chiave pertinenti relative al contenuto del tutorial, scelte esclusivamente [dall'elenco dei tag di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : La sottocategoria corrispondente al contenuto del tutorial, in base alla struttura del sito Plan ₿ Network (ad esempio per i wallet: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: La sottocategoria corrispondente al contenuto del tutorial, in base alla struttura del sito Plan ₿ Network (ad esempio per i wallet: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Il livello di difficoltà del tutorial, selezionabile tra:
+- **level**: Il livello di difficoltà del tutorial, selezionabile tra:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Il tuo `professor_id` (UUID) come mostrato nel [tuo profilo professore](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Il tuo `professor_id` (UUID) come mostrato nel [tuo profilo professore](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : La lingua originale del tutorial (ad esempio `fr`, `en`, ecc.);
+- **original_language**: La lingua originale del tutorial (ad esempio `fr`, `en`, ecc.);
 
-- **proofreading** : Informazioni sul processo di revisione. Compila la prima parte, poiché la revisione del tuo stesso tutorial conta come prima convalida:
-    - **language** : Codice lingua della revisione (ad esempio `fr`, `en`, ecc.).
-    - **last_contribution_date** : Data di oggi.
-    - **urgency** : 1
-    - **contributor_names** : Il tuo ID GitHub.
-    - **reward** : 0
+- **proofreading**: Informazioni sul processo di revisione. Compila la prima parte, poiché la revisione del tuo stesso tutorial conta come prima convalida:
+    - **language**: Codice lingua della revisione (ad esempio `fr`, `en`, ecc.).
+    - **last_contribution_date**: Data di oggi.
+    - **urgency**: 1
+    - **contributor_names**: Il tuo ID GitHub.
+    - **reward**: 0
 
 Per maggiori dettagli sull'ID insegnante, consultare il tutorial corrispondente:
 
@@ -381,8 +381,8 @@ Il punto esclamativo all'inizio indica che si tratta di un'immagine. Il testo al
 Se desiderate creare i vostri diagrammi, assicuratevi di aderire alla carta grafica di Plan ₿ Network per garantire la coerenza visiva:
 
 
-- Font**: Utilizzare [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Colori**:
+- **Font**: Utilizzare [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Colori**:
  - Arancione: #FF5C00
  - Nero: #000000
  - Bianco: #FFFFFF
@@ -446,5 +446,4 @@ Se desiderate apportare modifiche al vostro contributo dopo aver già presentato
 - Se il vostro PR è già stato unito al ramo principale, dovrete ricominciare il processo creando un nuovo ramo e inviando un nuovo PR. Assicurarsi che il repository locale sia sincronizzato con il repository di origine di Plan ₿ Network prima di procedere.
 
 Se incontrate difficoltà tecniche nell'inviare il vostro tutorial, non esitate a chiedere aiuto su [il nostro gruppo Telegram dedicato ai contributi](https://t.me/PlanBNetwork_ContentBuilder). Grazie!
-
 

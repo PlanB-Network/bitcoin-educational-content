@@ -1,11 +1,10 @@
-question: ¿Qué deberías hacer después de comprar Bitcoin en una plataforma de intercambio?
-answer: Retirar los bitcoins y enviarlos a tu billetera.
+question: ¿Qué país ha declarado a Bitcoin como moneda de curso legal?
+answer: El Salvador.
 wrong_answers:
-  - Dejar los bitcoins en la plataforma.
-  - Vender los bitcoins inmediatamente.
-  - Transferir los bitcoins a otra plataforma de intercambio.
-explanation: |
-  El texto del curso aconseja que después de comprar Bitcoin, uno
-  debe retirar inmediatamente los UTXOs de las plataformas de intercambio
-  para minimizar los riesgos de hackeo y bloqueo de fondos.
+  - Estados Unidos.
+  - China.
+  - India.
+explanation: >-
+  El Salvador ha dado un paso audaz al adoptar completamente a Bitcoin,
+  declarándolo como moneda de curso legal.
 reviewed: true

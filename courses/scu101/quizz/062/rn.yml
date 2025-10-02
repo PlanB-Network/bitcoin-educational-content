@@ -1,0 +1,9 @@
+question: Ni imice iyihe y’ubumenyi bw’urubuga ikenewe mu bijanye n’umutekano wo kuri Internet?
+answer: TCP/IP, VPN, uruhome rw'umuriro
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  Ico gice kivuga TCP/IP, VPN, na firewall nk’imice imwe imwe y’ubumenyi bw’urubuga bukenewe mu mutekano wo kuri interineti.
+reviewed: true

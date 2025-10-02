@@ -1,5 +1,5 @@
 ---
-name: BIP39 パスフレーズ
+name: BIP-39 Passphrase
 description: パスフレーズの仕組みを理解する
 ---
 ![cover](assets/cover.webp)

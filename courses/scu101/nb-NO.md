@@ -308,7 +308,10 @@ Med en passordbehandler trenger du ikke lenger å bekymre deg for å glemme pass
 - KeePass: Dette er en løsning med åpen kildekode som primært er ment for selvlagring. Dataene dine lagres lokalt som standard, men du kan synkronisere passorddatabasen ved hjelp av forskjellige metoder hvis du ønsker det. KeePass er anerkjent for sin sikkerhet og fleksibilitet, selv om det kan være litt mindre brukervennlig for nybegynnere.
 
 ![image](assets/notext/18.webp)
-  (Merk: Valget mellom en tredjepartstjeneste eller en selvlagrinstjeneste avhenger av ditt nivå av teknologisk komfort og hvordan du prioriterer kontroll versus bekvemmelighet. Tredjepartstjenester er generelt mer praktiske for de fleste mennesker, mens selvlagring krever mer teknisk kunnskap, men kan tilby mer kontroll og sinnsro når det gjelder sikkerhet.)
+
+For selvhostede løsninger som KeePass er det mulig å synkronisere databasen din mellom flere enheter uten å bruke sentraliserte tredjepartstjenester. Verktøy som **Syncthing** muliggjør kryptert og desentralisert synkronisering direkte mellom enhetene dine. Denne tilnærmingen holder dataene dine under din kontroll samtidig som den sikrer tilgjengeligheten på alle enhetene dine.
+
+(Merk: Valget mellom en tredjepartstjeneste eller en selvlagrinstjeneste avhenger av ditt nivå av teknologisk komfort og hvordan du prioriterer kontroll versus bekvemmelighet. Tredjepartstjenester er generelt mer praktiske for de fleste mennesker, mens selvlagring krever mer teknisk kunnskap, men kan tilby mer kontroll og sinnsro når det gjelder sikkerhet.)
 
 ### Hva som kjennetegner et godt passord:
 

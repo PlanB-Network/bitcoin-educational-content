@@ -1,0 +1,9 @@
+question: Która organizacja przypisuje numery wersji protokołu IP?
+answer: IANA
+wrong_answers:
+  - IETF
+  - RFC
+  - Google
+explanation: |
+  Internet Assigned Numbers Authority (IANA) zarządza Assignment numerów wersji protokołów IP i przydziałem zakresów protokołów.
+reviewed: false

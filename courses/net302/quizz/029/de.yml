@@ -1,0 +1,9 @@
+question: Was ist der Zweck der Dienstprimitive im TCP/IP-Modell?
+answer: Verwalten des Austauschs zwischen Schichten
+wrong_answers:
+  - Netzwerknachrichten automatisch verschlüsseln
+  - Verteilen von IP-Adressen an entfernte Hosts
+  - Überprüfung der Gesamtlänge der IP-Pakete
+explanation: |
+  Dienstprimitive definieren die Kommunikation Interface zwischen den verschiedenen Schichten und ermöglichen den Aufbau, die Aufrechterhaltung und die Beendigung des Netzaustauschs.
+reviewed: false

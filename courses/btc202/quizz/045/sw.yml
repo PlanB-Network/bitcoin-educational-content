@@ -1,0 +1,9 @@
+question: Ni hatua gani lazima zikamilishwe kabla UmbrelOS haijasakinishwa?
+answer: Unda kitufe cha USB cha bootable na picha
+wrong_answers:
+  - Inakusanya msimbo wa chanzo wa Bitcoin core
+  - Kuunda muundo wa Blockchain
+  - Unda akaunti kwenye umbrel.com
+explanation: |
+  Ufungaji huanza kwa kuandaa ufunguo wa USB wa bootable na UmbrelOS kupitia Balena Etcher.
+reviewed: true

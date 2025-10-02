@@ -1,0 +1,9 @@
+question: Wie heißt die Dateneinheit, die bei der Anwendung Layer (TCP/IP) ausgetauscht wird?
+answer: Nachricht
+wrong_answers:
+  - Rahmen
+  - Segment
+  - Datagramm
+explanation: |
+  Im TCP/IP-Modell werden Daten, die an der Anwendung Layer ausgetauscht werden, als Nachrichten (oder Streams, je nach Kontext) bezeichnet.
+reviewed: false

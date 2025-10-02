@@ -1,11 +1,12 @@
-question: Welche Einrichtungen sind für die Ausgabe von Fiatwährungen zuständig?
-answer: Zentralbanken.
+question: Was ist das potenzielle Ergebnis einer plötzlichen Abwertung oder eines Vertrauensverlustes in eine fiduziarische Währung?
+answer: Hyperinflation.
 wrong_answers:
-  - Geschäftsbanken.
-  - Regierungen.
-  - Private Institutionen.
+  - Deflation.
+  - Eine stabile Wirtschaft.
+  - Eine Erhöhung des Währungswertes.
 explanation: |
-  Zentralbanken sind die Einrichtungen, die für die Ausgabe einer
-  Fiatwährung zuständig sind. Sie entscheiden über die Geldpolitik und
-  bestimmen, wie viel Geld in Umlauf gebracht oder gedruckt werden soll.
+  Eine plötzliche Abwertung oder ein Vertrauensverlust in eine fiduziarische
+  Währung kann zu Hyperinflation führen. Dies ist eine Situation,
+  in der die Preise für Waren und Dienstleistungen in einer
+  extrem hohen Rate steigen, was oft zu wirtschaftlicher Instabilität führt.
 reviewed: true

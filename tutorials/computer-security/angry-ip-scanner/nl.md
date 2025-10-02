@@ -1,5 +1,5 @@
 ---
-name: Boze IP-scanner
+name: Angry IP Scanner
 description: Een eenvoudige manier om je netwerk te scannen
 ---
 ![cover](assets/cover.webp)
@@ -26,7 +26,7 @@ Hoe kun je snel en eenvoudig een Windows-netwerk scannen op aangesloten machines
 
 
 
-Deze tool kan gebruikt worden door individuen om hun lokale netwerk** te scannen, maar ook door IT-professionals voor hetzelfde doel. Het bewijs dat **deze tool zeer praktisch** is, is al gebruikt door **sommige cybercriminele groepen** om bedrijfsnetwerken te scannen (op dezelfde manier als Nmap). Een goed voorbeeld is [ransomware groep RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Het is nog steeds een degelijk stuk software, maar zoals met andere netwerk- en beveiligingsgerichte tools, kan het gebruik ervan misbruikt worden.
+Deze tool kan gebruikt worden door individuen om hun lokale **netwerk** te scannen, maar ook door IT-professionals voor hetzelfde doel. Het bewijs dat **deze tool zeer praktisch** is, is al gebruikt door **sommige cybercriminele groepen** om bedrijfsnetwerken te scannen (op dezelfde manier als Nmap). Een goed voorbeeld is [ransomware groep RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Het is nog steeds een degelijk stuk software, maar zoals met andere netwerk- en beveiligingsgerichte tools, kan het gebruik ervan misbruikt worden.
 
 
 
@@ -34,11 +34,11 @@ Hier gebruiken we het op **Windows 11**, maar het is perfect mogelijk om het op 
 
 
 
-Minder uitgebreid dan Nmap, **Angry IP** Scanner is nog steeds interessant voor een snelle, basis netwerkanalyse, maar ook omdat het binnen ieders bereik ligt. Het detecteert hosts die verbonden zijn met het netwerk** en identificeert **hostnamen** en **open poorten**.
+Minder uitgebreid dan Nmap, **Angry IP Scanner** is nog steeds interessant voor een snelle, basis netwerkanalyse, maar ook omdat het binnen ieders bereik ligt. Het detecteert hosts die verbonden zijn met het netwerk en identificeert **hostnamen** en **open poorten**.
 
 
 
-Als je verder wilt gaan, bekijk dan de tutorial over Nmap :
+Als je verder wilt gaan, bekijk dan de tutorial over Nmap:
 
 
 
@@ -84,8 +84,8 @@ Neem bij de eerste start de tijd om de instructies in het venster "**Aan de slag
 
 
 
-- Feeder**: module verantwoordelijk voor het genereren van lijsten met te scannen IP-adressen, vanuit een willekeurig IP-bereik of een bestand met een lijst met IP-adressen.
-- Fetcher**: een verzameling modules voor het ophalen van informatie over hosts op het netwerk. Er zijn bijvoorbeeld fetchers om MAC adressen te detecteren, poorten te scannen, hostnamen te detecteren of HTTP verzoeken te versturen.
+- **Feeder**: module verantwoordelijk voor het genereren van lijsten met te scannen IP-adressen, vanuit een willekeurig IP-bereik of een bestand met een lijst met IP-adressen.
+- **Fetcher**: een verzameling modules voor het ophalen van informatie over hosts op het netwerk. Er zijn bijvoorbeeld fetchers om MAC adressen te detecteren, poorten te scannen, hostnamen te detecteren of HTTP verzoeken te versturen.
 
 
 

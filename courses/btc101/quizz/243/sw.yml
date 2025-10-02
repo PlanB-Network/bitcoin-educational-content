@@ -1,8 +1,8 @@
-question: Je, ni fursa zipi zinazowezekana za biashara zinazotolewa na Lightning Network?
-answer: Miundo mipya ya kiuchumi ambapo watumiaji hulipa maudhui kulingana na kile wanachotumia.
+question: Ni nini kinachoweza kuwa wasiwasi kuu kuhusu mfumo wa benki?
+answer: Sheria za mchezo wa benki sio wazi na zinaeleweka kwa wote.
 wrong_answers:
-  - Miundo mipya ya kiuchumi ambapo watumiaji hulipa kwa kutumia sarafu tofauti za crypto.
-  - Aina mpya za kiuchumi ambapo watumiaji hutumia blockchains za kibinafsi.
-  - Miundo mipya ya kiuchumi ambapo watumiaji hawalipii maudhui yoyote.
+  - Mfumo wa benki ni rahisi sana kuelewa.
+  - Mfumo wa benki ni wazi sana.
+  - Mfumo wa benki umegawanywa sana.
 explanation: >-
 reviewed: true

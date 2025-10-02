@@ -1,13 +1,9 @@
-question: ¿Cuál es el principal problema del sistema financiero actual en relación con el medio ambiente?
-answer: Fomenta el sobreconsumo y la deuda.
+question: ¿Cuáles son los costos típicos para un minero?
+answer: Consumo de electricidad y compra de hardware.
 wrong_answers:
-  - Promueve el uso de combustibles fósiles.
-  - No invierte en energía renovable.
-  - No regula la producción de bienes.
-explanation: |
-  El sistema financiero actual es criticado por fomentar
-  el sobreconsumo y la deuda, lo que plantea serios
-  problemas ambientales. Esto se debe al fácil acceso al
-  crédito, la emisión monetaria por parte de los bancos y el uso
-  de la banca de reserva fraccionaria.
-reviewed: true
+  - Solo compra de hardware.
+  - Tarifas de transacción.
+  - Consumo de electricidad y tarifas de transacción.
+explanation: >-
+  Minar Bitcoin requiere de una potencia computacional sustancial, lo que a su vez consume electricidad.
+  Además, los mineros necesitan invertir en hardware especializado para minar de manera efectiva.

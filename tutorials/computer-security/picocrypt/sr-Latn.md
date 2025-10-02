@@ -52,7 +52,7 @@ Potpuno **besplatan i otvorenog koda**, PicoCrypt je dostupan za **Windows**, **
 
 
 
-Picocrypt** softver za šifrovanje predstavlja se kao **alternativa** drugim poznatim rešenjima kao što su **VeraCrypt** i **Cryptomator** (*dizajniran za šifrovanje podataka u Cloud okruženjima*), ili **AxCrypt**. Usput, na zvaničnom GitHub-u Picocrypt-a možete pronaći poređenje sa nekim konkurentima:
+**Picocrypt** softver za šifrovanje predstavlja se kao **alternativa** drugim poznatim rešenjima kao što su **VeraCrypt** i **Cryptomator** (*dizajniran za šifrovanje podataka u Cloud okruženjima*), ili **AxCrypt**. Usput, na zvaničnom GitHub-u Picocrypt-a možete pronaći poređenje sa nekim konkurentima:
 
 
 
@@ -74,17 +74,17 @@ Picocrypt** softver za šifrovanje predstavlja se kao **alternativa** drugim poz
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Izvor : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Izvor: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt je **veoma lagan**, teži samo **3 MB**, i ne treba da se instalira: to je **prenosiva aplikacija** sa prednošću da ne zahteva administratorska prava! Međutim, ne zanemaruje bezbednost, jer se oslanja na **robustne i pouzdane algoritme** :
+Picocrypt je **veoma lagan**, teži samo **3 MB**, i ne treba da se instalira: to je **prenosiva aplikacija** sa prednošću da ne zahteva administratorska prava! Međutim, ne zanemaruje bezbednost, jer se oslanja na **robustne i pouzdane algoritme**:
 
 
 
 
 
-- XChaCha20** algoritam šifrovanja
+- **XChaCha20** algoritam šifrovanja
 - Funkcija zaobilaženja ključa **Argon2**
 
 
@@ -159,11 +159,11 @@ Pre nego što razgovaramo o dešifrovanju podataka, evo nekih informacija o dost
 
 
 
-- Paranoid mode**: koristite najviši nivo sigurnosti koji nudi Picocrypt. Alat će koristiti nekoliko kaskadnih algoritama za šifrovanje (XChaCha20 i Serpent) i HMAC-SHA3 umesto BLAKE2b za autentifikaciju podataka.
-- Reed-Solomon**: implementirajte *Reed-Solomon* kodove za ispravljanje grešaka kako biste omogućili ispravljanje grešaka na oštećenim podacima. Ovo vam omogućava da podržite nivo oštećenja od oko 3% vašeg fajla.
-- Podeli na delove** ili **razdeli na nekoliko delova**: ako šifrujete veliku datoteku, možete zatražiti od Picocrypt-a da je podeli na nekoliko delova. Ovo može olakšati prenos datoteke.
-- Kompresuj Fajlove** ili **Kompresuj fajlove**: kompresuj fajlove da smanjiš veličinu enkriptovanih fajlova.
-- Izbrisane datoteke** ili **Fichiers supprimés**: izbrišite izvorne datoteke kako biste zadržali samo šifrovanu verziju
+- **Paranoid mode**: koristite najviši nivo sigurnosti koji nudi Picocrypt. Alat će koristiti nekoliko kaskadnih algoritama za šifrovanje (XChaCha20 i Serpent) i HMAC-SHA3 umesto BLAKE2b za autentifikaciju podataka.
+- **Reed-Solomon**: implementirajte *Reed-Solomon* kodove za ispravljanje grešaka kako biste omogućili ispravljanje grešaka na oštećenim podacima. Ovo vam omogućava da podržite nivo oštećenja od oko 3% vašeg fajla.
+- **Podeli na delove** ili **razdeli na nekoliko delova**: ako šifrujete veliku datoteku, možete zatražiti od Picocrypt-a da je podeli na nekoliko delova. Ovo može olakšati prenos datoteke.
+- **Kompresuj Fajlove** ili **Kompresuj fajlove**: kompresuj fajlove da smanjiš veličinu enkriptovanih fajlova.
+- **Izbrisane datoteke** ili **Fichiers supprimés**: izbrišite izvorne datoteke kako biste zadržali samo šifrovanu verziju
 
 
 

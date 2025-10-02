@@ -91,9 +91,9 @@ BIP-85:n avulla voit luoda useita Bitcoin-salkkuja yhdestä seed-ydinlausekkeest
 
 
 
-- Skenaario**: Hot Wallet" Wallet (asennettu Internet-yhteydellä varustettuun laitteeseen) päivittäisiin tapahtumiin.
-- Ratkaisu BIP-85**: Luodaan tälle salkulle omistettu seed-sekundäärilause.
-- Etu BIP-32:een** verrattuna: Sinun ei tarvitse tuoda seed:n ensisijaista lausetta puhelimeesi, mikä vähentää hakkeroinnin riskiä. Vain seed:n toissijainen lauseke vaarantuu, mikä suojaa muita lompakoitasi. BIP-32:ssa sinun on käytettävä seed-päälausetta ja ohitusreittiä, jolloin kaikki varasi paljastuvat.
+- **Skenaario**: "Hot Wallet" Wallet (asennettu Internet-yhteydellä varustettuun laitteeseen) päivittäisiin tapahtumiin.
+- **Ratkaisu BIP-85**: Luodaan tälle salkulle omistettu seed-sekundäärilause.
+- Etu BIP-32:een verrattuna: Sinun ei tarvitse tuoda seed:n ensisijaista lausetta puhelimeesi, mikä vähentää hakkeroinnin riskiä. Vain seed:n toissijainen lauseke vaarantuu, mikä suojaa muita lompakoitasi. BIP-32:ssa sinun on käytettävä seed-päälausetta ja ohitusreittiä, jolloin kaikki varasi paljastuvat.
 
 
 
@@ -103,9 +103,9 @@ BIP-85:n avulla voit luoda useita Bitcoin-salkkuja yhdestä seed-ydinlausekkeest
 
 
 
-- Skenaario**: Bitcoin Wallet jollekin läheisellesi (esim. äidillesi), mutta voit palauttaa sen, jos hän kadottaa sen.
-- Ratkaisu BIP-85**: seed:n toissijaisen lauseen luominen ja vain tämän lauseen jakaminen.
-- Etu BIP-32:een** verrattuna: Tämä vaarantaa kaikki varasi ja vaikeuttaa läheisesi hallinnointia (haarautumispolkujen hallinnointi), tai sitten on luotava uusi seed-lause, joka tallennetaan seed-lauseen lisäksi.
+- **Skenaario**: Bitcoin Wallet jollekin läheisellesi (esim. äidillesi), mutta voit palauttaa sen, jos hän kadottaa sen.
+- **Ratkaisu BIP-85**: seed:n toissijaisen lauseen luominen ja vain tämän lauseen jakaminen.
+- Etu BIP-32:een verrattuna: Tämä vaarantaa kaikki varasi ja vaikeuttaa läheisesi hallinnointia (haarautumispolkujen hallinnointi), tai sitten on luotava uusi seed-lause, joka tallennetaan seed-lauseen lisäksi.
 
 
 
@@ -115,9 +115,9 @@ BIP-85:n avulla voit luoda useita Bitcoin-salkkuja yhdestä seed-ydinlausekkeest
 
 
 
-- Skenaario**: Erittelet bitcoinisi eri tarkoituksiin (esim. pitkäaikaiset säästöt, muut kuin KYC-varat).
-- Ratkaisu BIP-85**: Luodaan seed toissijaisia lauseita, jotka on omistettu kullekin tavoitteelle.
-- Etu BIP-32:een** verrattuna: Tämä vaikeuttaa hallintaa kolmannen osapuolen salkuissa, koska se edellyttää johdannaispolkujen, kuten `m/44'/0'/0'/0'`, hallintaa. Lisäksi ei ole mahdollista määrittää erillistä tiliä laitekohtaisesti (esim. "säästöt Coldcardilla", "päivittäiset matkapuhelimella", "lomat Trezorilla"). BIP-85 määrittää jokaista tavoitetta kohden yksilöllisen seed-sekundäärilauseen, joka on helppo tunnistaa ja tuoda erikseen jokaiseen laitteeseen.
+- **Skenaario**: Erittelet bitcoinisi eri tarkoituksiin (esim. pitkäaikaiset säästöt, muut kuin KYC-varat).
+- **Ratkaisu BIP-85**: Luodaan seed toissijaisia lauseita, jotka on omistettu kullekin tavoitteelle.
+- Etu **BIP-32:een** verrattuna: Tämä vaikeuttaa hallintaa kolmannen osapuolen salkuissa, koska se edellyttää johdannaispolkujen, kuten `m/44'/0'/0'/0'`, hallintaa. Lisäksi ei ole mahdollista määrittää erillistä tiliä laitekohtaisesti (esim. "säästöt Coldcardilla", "päivittäiset matkapuhelimella", "lomat Trezorilla"). BIP-85 määrittää jokaista tavoitetta kohden yksilöllisen seed-sekundäärilauseen, joka on helppo tunnistaa ja tuoda erikseen jokaiseen laitteeseen.
 
 
 
@@ -127,9 +127,9 @@ BIP-85:n avulla voit luoda useita Bitcoin-salkkuja yhdestä seed-ydinlausekkeest
 
 
 
-- Skenaario**: Tarvitset tilapäisen salkun kertaluonteista transaktiota varten tai luottamuksellisuuden säilyttämiseksi (esim. varojen sekoittaminen, vuorovaikutus Exchange KYC:n kanssa jne.).
-- Ratkaisu BIP-85**: seed:n toissijaisen lauseen luominen, sen käyttäminen transaktioon ja sen tuhoaminen tarvittaessa tietäen, että se voidaan luoda uudelleen.
-- Etu BIP-32:een** verrattuna: BIP-32:ssa väliaikainen tili on riippuvainen seed:n päälausekkeesta, jolloin kaikki varasi ovat vaarassa, jos ne vaarantuvat.
+- **Skenaario**: Tarvitset tilapäisen salkun kertaluonteista transaktiota varten tai luottamuksellisuuden säilyttämiseksi (esim. varojen sekoittaminen, vuorovaikutus Exchange KYC:n kanssa jne.).
+- **Ratkaisu BIP-85**: seed:n toissijaisen lauseen luominen, sen käyttäminen transaktioon ja sen tuhoaminen tarvittaessa tietäen, että se voidaan luoda uudelleen.
+- Etu **BIP-32:een** verrattuna: BIP-32:ssa väliaikainen tili on riippuvainen seed:n päälausekkeesta, jolloin kaikki varat ovat vaarassa, jos ne vaarantuvat.
 
 
 
@@ -141,7 +141,7 @@ BIP-85:n avulla voit luoda useita Bitcoin-salkkuja yhdestä seed-ydinlausekkeest
 
 
 
-- Laitteisto** (valinnainen)
+- **Laitteisto** (valinnainen)
  - Coldcard Mk4 tai Q1
  - MicroSD-kortti
 
@@ -158,7 +158,7 @@ BIP-85:n avulla voit luoda useita Bitcoin-salkkuja yhdestä seed-ydinlausekkeest
 
 
 
-- Yhteensopiva** ohjelmisto
+- **Yhteensopiva** ohjelmisto
  - Sparrow wallet (tietokone, pelkkää valvontaa tai edistynyttä hallintaa varten)
  - Nunchuck (mobiili, useita allekirjoituksia varten)
  - BlueWallet (mobiili)
@@ -168,7 +168,7 @@ BIP-85:n avulla voit luoda useita Bitcoin-salkkuja yhdestä seed-ydinlausekkeest
 
 
 
-- 3.4 Kylmäkortin** kokoonpano
+- 3.4 **Kylmäkortin** kokoonpano
  - Alusta 24 sanan seed-lause Coldcard-kortille.
  - Valinnainen: Lisää passphrase turvaamaan pääsy BIP-85:n haaroihin.
  - Aktivoi hyödylliset vaihtoehdot: NFC (vientiä varten), USB:n kytkeminen pois päältä akulla (turvallisuus).
@@ -197,7 +197,7 @@ Kytke Coldcard-kortti päälle ja syötä PIN-koodi.
 
 
 
-- 1. Jos olet liittänyt passphrase:n seed:n päälaitteeseen:**
+- 1. Jos olet liittänyt passphrase:n seed:n päälaitteeseen:
  - Siirry aloitusnäytöstä kohtaan "passphrase".
     - Valitse `Add Word` ja syötä salasanasi.
     - Paina `Apply`.
@@ -207,7 +207,7 @@ Kytke Coldcard-kortti päälle ja syötä PIN-koodi.
 
 
 
-- 2. Siirry BIP-85**-valikkoon
+- 2. Siirry **BIP-85**-valikkoon
  - Siirry aloitusnäytöstä kohtaan "Lisäasetukset > Johdanto seed B85"
  - Lue varoitus ja vahvista.
 
@@ -246,7 +246,7 @@ Valitse seed-lauseen muoto: 12, 18 tai 24 sanaa. Tarkista sanojen määrä, jonk
 
 
 
-- 5. Huomautus tai vienti seed:n toissijainen lause**
+- 5. Huomautus tai vienti **seed:n toissijainen lause**
 
 
 ColdCard näyttää nyt uuden seed:n toissijaisen lauseen. Voit :
@@ -257,9 +257,9 @@ ColdCard näyttää nyt uuden seed:n toissijaisen lauseen. Voit :
  - **Nota käsin**.
  - Lehdistö :
      - 1` tallentaa sen SD-kortille
-     - `2` siirtääksesi "käytä tätä seed:ta "** tilaan ColdCardissa (hyödyllinen tapahtuman viemisessä tai allekirjoittamisessa)
+- `2` siirtääksesi "käytä tätä seed:ta" **tilaan** ColdCardissa (hyödyllinen tapahtuman viemisessä tai allekirjoittamisessa)
      - 3` näyttääksesi **QR-koodin** (skannattava mobiilisovelluksella, kuten BlueWallet tai Nunchuck)
-     - 4` lähettääksesi sen **NFC**:llä**
+- 4` lähettääksesi sen **NFC:llä**
 
 
 
@@ -421,7 +421,7 @@ Lisää resursseja liitteissä.
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [seed-lause](https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [Multisig](https://planb.network/resources/glossary/multisig)
 
 
 

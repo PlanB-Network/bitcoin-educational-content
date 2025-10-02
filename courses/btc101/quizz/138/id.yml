@@ -1,9 +1,10 @@
-question: Apa fungsi utama dari node dalam jaringan Bitcoin?
-answer: Mempertahankan salinan dari blockchain Bitcoin, memvalidasi transaksi, mentransmisikan informasi ke node lain, dan menegakkan aturan dari protokol Bitcoin.
+question: Apa itu perang blok pada tahun 2017?
+answer: Konflik tentang apakah harus meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi
 wrong_answers:
-  - Hanya memvalidasi transaksi
-  - Hanya mempertahankan salinan dari blockchain Bitcoin
-  - Hanya mentransmisikan informasi ke node lain
+  - Konflik tentang apakah harus mengurangi ukuran blok untuk mengurangi kapasitas transaksi
+  - Konflik tentang apakah harus meningkatkan hadiah blok untuk memberi insentif kepada penambang
+  - Konflik tentang apakah harus mengurangi hadiah blok untuk mengurangi insentif bagi penambang
 explanation: >-
-  Node dalam jaringan Bitcoin melakukan beberapa fungsi krusial, termasuk mempertahankan salinan dari blockchain Bitcoin, memvalidasi transaksi, mentransmisikan informasi ke node lain, dan menegakkan aturan dari protokol Bitcoin.
+  Perang blok pada tahun 2017 adalah konflik tentang apakah harus memodifikasi Bitcoin
+  dengan meningkatkan ukuran blok untuk meningkatkan kapasitas transaksi.
 reviewed: false

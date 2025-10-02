@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Fares CHELLOUG pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Fares CHELLOUG pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -22,7 +22,7 @@ ___
 
 
 
-**In questo tutorial impareremo ad eseguire un controllo di sicurezza su una macchina Linux utilizzando Lynis! Per coloro che non conoscono **Lynis,** è una piccola utility a riga di comando che analizza la configurazione del vostro server e fornisce raccomandazioni per **migliorare la sicurezza della vostra macchina.**
+**In questo tutorial impareremo ad eseguire un controllo di sicurezza su una macchina Linux utilizzando Lynis!** Per coloro che non conoscono **Lynis**, è una piccola utility a riga di comando che analizza la configurazione del vostro server e fornisce raccomandazioni per **migliorare la sicurezza della vostra macchina**.
 
 
 
@@ -51,7 +51,7 @@ Lo strumento è ampiamente utilizzato da una vasta gamma di utenti, tra cui ammi
 
 
 
-Il progetto è disponibile a questo Address su **Github** :
+Il progetto è disponibile a questo Address su **Github**:
 
 
 
@@ -82,7 +82,7 @@ Questa modalità di installazione consente di utilizzare il comando **lynis** da
 
 
 
-Collegarsi al server tramite SSH e inserire i seguenti comandi per installare Lynis :
+Collegarsi al server tramite SSH e inserire i seguenti comandi per installare Lynis:
 
 
 
@@ -209,7 +209,7 @@ Per visualizzare i comandi disponibili, basta inserire il seguente comando:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Ecco cosa si ottiene:
 
 
 
-Se si desidera visualizzare tutte le opzioni, è necessario immettere :
+Se si desidera visualizzare tutte le opzioni, è necessario immettere:
 
 
 
@@ -321,10 +321,10 @@ Successivamente, Lynis elencherà una serie di punti corrispondenti a tutto ciò
 
 
 
-- Rosso** per Elements critico o best practice non rispettate (un pacchetto mancante, per esempio), cioè il vostro server non rispetta questo punto
-- Giallo** per suggerimenti o parziale conformità alla raccomandazione (diciamo che è un vantaggio conformarsi a un punto evidenziato con questo colore (non prioritario))
-- Green** per i punti in cui la configurazione del server è conforme
-- Bianco**, se neutro
+- **Rosso** per Elements critico o best practice non rispettate (un pacchetto mancante, per esempio), cioè il vostro server non rispetta questo punto
+- **Giallo** per suggerimenti o parziale conformità alla raccomandazione (diciamo che è un vantaggio conformarsi a un punto evidenziato con questo colore (non prioritario))
+- **Green** per i punti in cui la configurazione del server è conforme
+- **Bianco**, se neutro
 
 
 
@@ -336,7 +336,7 @@ Qui possiamo vedere che Lynis raccomanda di installare **fail2ban**:
 
 
 
-Nella sezione "**Boot e servizi**", vediamo che la protezione dei servizi tramite *systemd* potrebbe essere migliorata. Il lato positivo è che Grub2 è presente e non ci sono problemi di permessi su :
+Nella sezione "**Boot e servizi**", vediamo che la protezione dei servizi tramite *systemd* potrebbe essere migliorata. Il lato positivo è che Grub2 è presente e non ci sono problemi di permessi su:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Alcune informazioni sui pacchetti installati :
+Alcune informazioni sui pacchetti installati:
 
 
 
 
 
-- Clamav** è un antivirus.
-- unattend-upgrades** vi consentirà di gestire automaticamente gli aggiornamenti e persino di riavviare la macchina o di eliminare automaticamente i vecchi pacchetti, è completamente configurabile.
-- rkhunter** è un anti-rootkit che analizza il file system.
-- Fail2ban** si baserà sui vostri file di log in base a ciò che gli darete da leggere e funzionerà con **iptables**, ad esempio per bandire gli indirizzi IP che cercano di "forzare" il vostro server in SSH.
+- **Clamav** è un antivirus.
+- **unattend-upgrades** vi consentirà di gestire automaticamente gli aggiornamenti e persino di riavviare la macchina o di eliminare automaticamente i vecchi pacchetti, è completamente configurabile.
+- **rkhunter** è un anti-rootkit che analizza il file system.
+- **Fail2ban** si baserà sui vostri file di log in base a ciò che gli darete da leggere e funzionerà con **iptables**, ad esempio per bandire gli indirizzi IP che cercano di "forzare" il vostro server in SSH.
 
 
 
@@ -623,7 +623,7 @@ Diamo un'occhiata alle raccomandazioni SSH. Sono elencate di seguito. Non preocc
 
 
 
-Diamo un'occhiata più da vicino alla mia attuale configurazione **SSH** in :**/etc/ssh/sshd_config**
+Diamo un'occhiata più da vicino alla mia attuale configurazione **SSH** in:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ La configurazione suggerita di seguito può ancora essere ottimizzata, ma fornis
 
 
 
-Noi :
+Noi:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Mantenere l'autenticazione con password :
+- Mantenere l'autenticazione con password:
 
 
 
@@ -804,7 +804,7 @@ Si noti che in alcune giurisdizioni l'invio di un messaggio prima dell'autentica
 
 
 
-In immagini, questo dà :
+In immagini, questo dà:
 
 
 
@@ -820,7 +820,7 @@ Infine, non dimentichiamo di controllare il **punteggio di audit di Lynis**! Ved
 
 
 
-**In altre parole, più alto è il punteggio, meglio è! È quindi necessario lavorare sulla configurazione per ottenere il punteggio più alto possibile, consentendo al contempo alla macchina e ai servizi ospitati di funzionare normalmente (il che significa eseguire test funzionali).
+**In altre parole, più alto è il punteggio, meglio è!** È quindi necessario lavorare sulla configurazione per ottenere il punteggio più alto possibile, consentendo al contempo alla macchina e ai servizi ospitati di funzionare normalmente (il che significa eseguire test funzionali).
 
 
 
@@ -896,4 +896,4 @@ Infine, è possibile confrontare **Lynis** con altri strumenti, che sono numeros
 
 
 
-**Questo tutorial è terminato, divertitevi con Lynis!
+**Questo tutorial è terminato, divertitevi con Lynis!**

@@ -1,9 +1,12 @@
-question: Pourquoi est-il conseillé d'éviter de laisser vos bitcoins sur des plateformes d'échange ?
-answer: Ils peuvent être susceptibles aux attaques de hackers.
+question: Qu'est-ce qui empêche tout le monde d'utiliser le même portefeuille Bitcoin ?
+answer: Les utilisateurs ont des besoins différents selon les cas d'utilisation.
 wrong_answers:
-  - Les plateformes d'échange imposent des frais aléatoires.
-  - Le bitcoin perd de sa valeur sur les plateformes d'échange.
-  - Les plateformes d'échange ne sont pas des institutions régulées.
+  - Il est coûteux d'utiliser un portefeuille Bitcoin.
+  - Il est illégal d'utiliser un portefeuille Bitcoin.
+  - Les gens ne seront jamais d'accord sur le nom d'un tel portefeuille.
 explanation: |
-  Il est conseillé d'éviter de laisser vos bitcoins sur des plateformes d'échange car ils peuvent être susceptibles aux attaques de hackers.
+  Alors qu'une personne pourrait prioriser la sécurité, une autre
+  pourrait valoriser la convivialité ou des fonctionnalités spécifiques. Par conséquent, un
+  seul portefeuille Bitcoin pourrait ne pas répondre aux besoins de tous,
+  rendant nécessaire l'existence de multiples options de portefeuilles.
 reviewed: true

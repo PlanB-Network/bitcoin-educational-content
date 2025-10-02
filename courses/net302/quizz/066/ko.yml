@@ -1,0 +1,9 @@
+question: 자동으로 할당된 IPv6 Address과 관련된 두 가지 수명은 무엇인가요?
+answer: 선호 수명 및 유효 수명
+wrong_answers:
+  - 임대 시간 및 보유 시간
+  - 유효 기간 및 만료
+  - 초기 수명 및 보조 수명
+explanation: |
+  선호 수명은 Address의 정상 사용 기간과 유효 수명에 따라 총 유효 기간이 결정됩니다.
+reviewed: false

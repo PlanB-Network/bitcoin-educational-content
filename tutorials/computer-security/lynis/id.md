@@ -113,7 +113,7 @@ Untuk menampilkan perintah yang tersedia, cukup masukkan perintah berikut ini:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -177,10 +177,10 @@ Selanjutnya, Lynis akan membuat daftar serangkaian poin yang sesuai dengan semua
 
 
 
-- Merah** untuk Elements kritis atau praktik terbaik yang tidak dipatuhi (paket yang hilang, misalnya), yaitu server Anda tidak mematuhi poin ini
-- Kuning** untuk saran atau kepatuhan sebagian terhadap rekomendasi (misalnya, mematuhi poin yang disorot dengan warna ini adalah nilai tambah (bukan prioritas))
-- Green** untuk titik-titik di mana konfigurasi server Anda sesuai
-- Putih**, bila netral
+- **Merah** untuk Elements kritis atau praktik terbaik yang tidak dipatuhi (paket yang hilang, misalnya), yaitu server Anda tidak mematuhi poin ini
+- **Kuning** untuk saran atau kepatuhan sebagian terhadap rekomendasi (misalnya, mematuhi poin yang disorot dengan warna ini adalah nilai tambah (bukan prioritas))
+- **Green** untuk titik-titik di mana konfigurasi server Anda sesuai
+- **Putih**, bila netral
 
 Selanjutnya, Lynis akan membuat daftar serangkaian poin yang sesuai dengan semua yang telah diperiksanya pada sistem kita. Ini disusun berdasarkan kategori, seperti yang akan kita lihat. Penting juga untuk dicatat bahwa kode warna digunakan untuk menyoroti rekomendasi:
 
@@ -332,7 +332,9 @@ Mari kita lihat rekomendasi SSH. Rekomendasi tersebut tercantum di bawah ini. Ja
 
 ![Image](assets/fr/034.webp)
 
-Mari kita lihat lebih dekat konfigurasi **SSH** saya saat ini di :**/etc/ssh/sshd_config**
+
+
+Mari kita lihat lebih dekat konfigurasi **SSH** saya saat ini di:**/etc/ssh/sshd_config**
 
 ![Image](assets/fr/018.webp)
 
@@ -364,7 +366,11 @@ Ini merupakan jumlah maksimum sesi simultan.
 PubkeyAuthentication yes
 ```
 
-- Mempertahankan otentikasi kata sandi :
+
+
+
+
+- Mempertahankan otentikasi kata sandi:
 
 ```
 PasswordAuthentication yes
@@ -377,7 +383,13 @@ PermitEmptyPasswords no
 PermitRootLogin no
 ```
 
-Pastikan Anda memiliki "**PermitRootLogin no**", jika sama dengan "yes", itu adalah "**kesalahan fatal**".
+
+
+Pastikan Anda memiliki **"PermitRootLogin no"**, jika sama dengan **"yes"**, itu adalah **"absolute evil"**.
+
+
+
+
 
 - Melarang pengalihan koneksi TCP
 

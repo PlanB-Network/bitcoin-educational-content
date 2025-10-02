@@ -1,0 +1,9 @@
+question: Constant에 따르면 정치 권력이 영향을 미치지 않는 영역은 무엇인가요?
+answer: 위에서 언급한 모든 도메인(종교, 과학, 산업).
+wrong_answers:
+  - 종교
+  - 과학
+  - 산업
+explanation: |
+  Constant는 개인의 자유와 사적 영역에 속하는 인간 활동의 자율성을 지키기 위해 종교, 과학, 산업 등의 영역에 정치 권력이 개입해서는 안 된다고 믿습니다.
+reviewed: true

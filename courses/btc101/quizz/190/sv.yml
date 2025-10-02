@@ -1,11 +1,11 @@
-question: Vad är AMF?
-answer: Autorité des Marchés Financiers.
+question: Vilken är en av riskerna med att köpa Bitcoin?
+answer: Dess pris kan sjunka till 0.
 wrong_answers:
-  - Amerikanska valutafonden.
-  - Association of Mining Facilities.
-  - Automatiserat pengaflöde.
+  - Den kan lätt bli stulen.
+  - Den kan dupliceras.
+  - Den kan gå förlorad fysiskt.
 explanation: |
-  AMF, eller Autorité des Marchés Financiers, är en fransk organisation som
-  organisation som reglerar plattformar där bitcoins kan köpas
-  köpas.
+  I kurslitteraturen nämns att Bitcoin är en mycket volatil
+  finansiell tillgång och att dess pris kan sjunka till 0, vilket är en av
+  av de risker som är förknippade med att köpa Bitcoin.
 reviewed: true

@@ -21,19 +21,19 @@ PureOS is a Debian-based operating system developed by Purism. PureOS is suitabl
 
 
 
-- Simple, intuitive Interface**: GNOME offers a clear Interface desktop, designed to be easy to use, even for people who are not comfortable with the command line.
+- **Simple, intuitive Interface**: GNOME offers a clear Interface desktop, designed to be easy to use, even for people who are not comfortable with the command line.
 
 
 
-- Free**: like most Linux distributions, PureOS is entirely free to use. However, a monthly subscription is available to support developers.
+- **Free**: like most Linux distributions, PureOS is entirely free to use. However, a monthly subscription is available to support developers.
 
 
 
-- Security and stability**: PureOS' architecture and operating mode make it a highly secure distribution, guaranteeing data protection and system stability.
+- **Security and stability**: PureOS' architecture and operating mode make it a highly secure distribution, guaranteeing data protection and system stability.
 
 
 
-- Documentation and active community**: PureOS has clear, accessible documentation and a committed, responsive community, making it easy to solve problems and learn the system step by step.
+- **Documentation and active community**: PureOS has clear, accessible documentation and a committed, responsive community, making it easy to solve problems and learn the system step by step.
 
 
 ## Installation and configuration
@@ -134,14 +134,14 @@ Set the system language and keyboard layout as required, then configure the hard
 You have two options for partitioning your hard disk:
 
 
-- Erase disk**: For a complete installation of PureOS, deleting all pre-existing data on your hard disk.
+- **Erase disk**: For a complete installation of PureOS, deleting all pre-existing data on your hard disk.
 
 
 ![0_14](assets/fr/14.webp)
 
 
 
-- Manual Partitioning** to create your own scores
+- **Manual Partitioning** to create your own scores
 
 
 ⚠️ When you manually create partitions for your operating system, make sure you allocate a minimum 2 GB partition for PureOS operation and then another partition for data.
@@ -192,13 +192,13 @@ Before you start using PureOS, it's essential to update your system. This will e
 
 
 
-- Update via Interface graphic** :
+- Update via Interface graphic:
 
 Open the **Software** application, then go to the **Updates** tab. Available updates are automatically displayed. Click **Download**, then **Install** once the download is complete.
 
 
 
-- Update via terminal** :
+- **Update via terminal**:
 
 Open the terminal, then enter the following command to update the list of available packages:
 
@@ -208,7 +208,7 @@ sudo apt update
 ```
 
 
-Enter your password and confirm. Then install the updates with :
+Enter your password and confirm. Then install the updates with:
 
 
 ```shell
@@ -241,13 +241,13 @@ PureOS stands out for its innovative approach to true convergence: a single oper
 PureOS applications are designed to be adaptive: they automatically adjust to screen size and input mode (touch or keyboard/mouse). For example, the GNOME Web browser dynamically adapts its Interface to provide an optimal experience on both mobile and desktop devices.
 
 
-PureOS also includes the **LibreOffice** office suite, which includes :
+PureOS also includes the **LibreOffice** office suite, which includes:
 
 
 
-- Writer**: a complete word processor for creating and editing documents.
-- Calc**: a powerful spreadsheet program for managing your data and calculations.
-- Impress**: a tool for creating professional presentations.
+- **Writer**: a complete word processor for creating and editing documents.
+- **Calc**: a powerful spreadsheet program for managing your data and calculations.
+- **Impress**: a tool for creating professional presentations.
 
 
 This free suite lets you work efficiently without having to depend on proprietary software.

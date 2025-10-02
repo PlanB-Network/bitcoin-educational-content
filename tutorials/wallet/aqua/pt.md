@@ -56,7 +56,7 @@ E voilà, o seu portefólio já está criado!
 
 ![AQUA](assets/fr/08.webp)
 
-Mas antes de mais, como esta é uma carteira de auto-custódia, é imperativo fazer um backup físico da sua mnemónica. **Esta mnemónica dá-lhe acesso total e sem restrições a todos os seus bitcoins. Qualquer pessoa na posse desta mnemónica pode roubar os seus fundos, mesmo sem acesso físico ao seu telefone.
+Mas antes de mais, como esta é uma carteira de auto-custódia, é imperativo fazer um backup físico da sua mnemónica. **Esta mnemónica dá-lhe acesso total e sem restrições a todos os seus bitcoins. Qualquer pessoa na posse desta mnemónica pode roubar os seus fundos, mesmo sem acesso físico ao seu telefone.**
 
 Permite-lhe restaurar o acesso aos seus bitcoins em caso de perda, roubo ou quebra do seu telemóvel. Por conseguinte, é muito importante guardá-la cuidadosamente num suporte físico (não digital) e armazená-la num local seguro. Pode escrevê-lo num pedaço de papel ou, para maior segurança, se se tratar de uma carteira grande, recomendo que o grave num suporte de aço inoxidável para o proteger do risco de incêndio, inundação ou desmoronamento (para uma carteira quente concebida para proteger uma pequena quantidade de bitcoins, uma simples cópia de segurança em papel é provavelmente suficiente).
 
@@ -191,4 +191,3 @@ Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Si
 Também recomendo que consulte este outro tutorial completo sobre a aplicação móvel Blockstream Green, que é outra solução interessante para configurar a sua carteira Liquid :
 
 https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-

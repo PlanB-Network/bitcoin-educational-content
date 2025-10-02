@@ -29,9 +29,9 @@ Wallet odgovara na veliki izazov: Bitcoin mrežne naknade nisu pogodne za male u
 
 
 
-- Bitcoin network (onchain)**: Idealno za srednjoročno do dugoročno skladištenje UTXO-a i transakcije velike vrednosti, gde su naknade proporcionalno zanemarljive.
-- Liquid Network**: Dizajniran za brze (~2 minuta), poverljivije (skrivene sume), niskotarifne transakcije, savršen za akumulaciju malih iznosa ili zaštitu vaše privatnosti.
-- Lightning** network: Optimizovan za trenutna, niskotarifna plaćanja, pogodan za dnevne transakcije male do srednje vrednosti.
+- **Bitcoin network (onchain)**: Idealno za srednjoročno do dugoročno skladištenje UTXO-a i transakcije velike vrednosti, gde su naknade proporcionalno zanemarljive.
+- **Liquid Network**: Dizajniran za brze (~2 minuta), poverljivije (skrivene sume), niskotarifne transakcije, savršen za akumulaciju malih iznosa ili zaštitu vaše privatnosti.
+- **Lightning network**: Optimizovan za trenutna, niskotarifna plaćanja, pogodan za dnevne transakcije male do srednje vrednosti.
 
 
 
@@ -70,10 +70,10 @@ Pre nego što počnete koristiti **Bull Bitcoin Mobile**, uverite se da imate sl
 
 
 
-- Kompatibilan pametni telefon**: **iOS** (iPhone ili iPad) ili **Android** uređaj
+- **Kompatibilan pametni telefon**: **iOS** (iPhone ili iPad) ili **Android** uređaj
 - Internet konekcija
-- Sigurnosni medij za bekap**: Zapišite svoju **frazu za oporavak** (12 reči) na papir ili metal i čuvajte je na sigurnom mestu.
-- Osnovno znanje**: Minimalno razumevanje Bitcoin koncepta (adrese, transakcije, naknade) je korisno, iako ovaj vodič objašnjava svaki korak za početnike.
+- **Sigurnosni medij za bekap**: Zapišite svoju **frazu za oporavak** (12 reči) na papir ili metal i čuvajte je na sigurnom mestu.
+- **Osnovno znanje**: Minimalno razumevanje Bitcoin koncepta (adrese, transakcije, naknade) je korisno, iako ovaj vodič objašnjava svaki korak za početnike.
 
 
 
@@ -83,10 +83,10 @@ Pre nego što počnete koristiti **Bull Bitcoin Mobile**, uverite se da imate sl
 
 
 
-- Preuzmite aplikaciju** :
- - [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Preuzmite iz prodavnice aplikacija za Android uređaje
- - [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Preuzmite APK za Android uređaje direktno**
- - [iOS](https://testflight.apple.com/join/FJbE4JPN)** Preuzmite putem TestFlight-a za Apple uređaje
+- **Preuzmite aplikaciju**:
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Preuzmite iz prodavnice aplikacija za Android uređaje**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Preuzmite APK za Android uređaje direktno**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Preuzmite putem TestFlight-a za Apple uređaje**
  - Proverite ime programera (Bull Bitcoin) kako biste izbegli lažne aplikacije.
  - Uverite se da preuzeta verzija odgovara najnovijoj stabilnoj verziji navedenoj na GitHub-u.
  - Bull Bitcoin Mobile je **open-source**. Da biste pogledali kod: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ Aplikacija koristi jedinstvenu frazu za oporavak od 12 reči za oba portfolija:
 
 
 
- - osigurati Bitcoin' Wallet**: Za transakcije na Bitcoin mreži (onchain)
- - instant Payments' Wallet**: Za trenutne transakcije na Liquid i Lightning mrežama
+- osigurati **Bitcoin Wallet**: Za transakcije na Bitcoin mreži (onchain)
+- **Instant Payments' Wallet**: Za trenutne transakcije na Liquid i Lightning mrežama
 
 
 
@@ -249,7 +249,7 @@ Na početnom ekranu, možete:
 
 
 
-- Primer automatski generisanog URI-ja** :
+- **Primer automatski generisanog URI-ja**:
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Usage**: Kopiraj URI da podeliš sa pošiljaocem, ili mu dozvoli da skenira QR kod.
+- **Usage**: Kopiraj URI da podeliš sa pošiljaocem, ili mu dozvoli da skenira QR kod.
 
 
 
@@ -297,7 +297,7 @@ bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
 
 
 
-- Upotreba**: Kopirajte Address da ga podelite sa pošiljaocem ili mu dozvolite da skenira QR kod.
+- **Upotreba**: Kopirajte Address da ga podelite sa pošiljaocem ili mu dozvolite da skenira QR kod.
 
 
 
@@ -308,7 +308,7 @@ bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
 
 
 - Zašto koristiti novi Address za svaku transakciju? Ovo **štiti vašu privatnost** sprečavanjem povezivanja više uplata sa istim Address, i ograničava mogućnosti praćenja na Blockchain.
- - Podrazumevano, Bull Bitcoin automatski generiše neiskorišćeni Address.**
+- Podrazumevano, Bull Bitcoin automatski generiše neiskorišćeni **Address**.
  - Možete forsirati kreiranje novog Address klikom na **"New Address"** na dnu ekrana.
  - Sve vaše adrese su povezane sa vašom seed frazom: bez obzira na to koliko adresa koristite, vaš portfolio će prikazivati jedinstveni saldo i može automatski konsolidovati sredstva kada se izvrši isporuka.
 
@@ -316,7 +316,7 @@ bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
 
 
 
-- Savet: Uvek koristite novi Address** koji obezbeđuje Bull Bitcoin, osim ako nemate specifičnu potrebu (npr. javni Address za primanje donacija).
+- Savet: Uvek koristite novi **Address** koji obezbeđuje Bull Bitcoin, osim ako nemate specifičnu potrebu (npr. javni Address za primanje donacija).
 
 
 
@@ -412,29 +412,29 @@ Na početnom ekranu, možete:
 
 
 
-- Mehanizam**: Bull Bitcoin Wallet je Wallet koji omogućava plaćanja putem Lightning-a. Sredstva primljena putem Lightning-a se čuvaju na mreži **Liquid** (u Wallet Instant Payments) zahvaljujući automatskoj zameni putem **Boltz**. Ovo vam omogućava interakciju sa Lightning-om bez potrebe za upravljanjem kanalima likvidnosti, dok ostajete u samostalnom staranju o sredstvima.
+- **Mehanizam**: Bull Bitcoin Wallet je Wallet koji omogućava plaćanja putem Lightning-a. Sredstva primljena putem Lightning-a se čuvaju na mreži **Liquid** (u Wallet Instant Payments) zahvaljujući automatskoj zameni putem **Boltz**. Ovo vam omogućava interakciju sa Lightning-om bez potrebe za upravljanjem kanalima likvidnosti, dok ostajete u samostalnom staranju o sredstvima.
 
 
 
 
 
-- Ograničenja:**
- - Minimalni iznos** od 100 satoshija (od 19.07.2025) kada generate Invoice.
- - Vi plaćate troškove**, koji će biti oduzeti od iznosa koji šalje pošiljalac, za razliku od primanja sa Wallet Lightning native, gde samo pošiljalac plaća troškove transfera pored poslatog iznosa. Od 19/07/2025, 47 Sats se oduzima od poslatog iznosa.
+- **Ograničenja:**
+- **Minimalni iznos** od 100 satoshija (od 19.07.2025) kada generate Invoice.
+- Vi plaćate troškove, koji će biti oduzeti od iznosa koji šalje pošiljalac, za razliku od primanja sa **Wallet Lightning native**, gde samo pošiljalac plaća troškove transfera pored poslatog iznosa. Od 19/07/2025, 47 Sats se oduzima od poslatog iznosa.
 
 
 
 
 
-- Prednosti** :
- - Samokustodijalno**: Vaša sredstva ostaju pod vašom kontrolom, uskladištena na Liquid Network.
- - Nema visokih onchain naknada**: Skladištenje na Liquid izbegava skupe onchain depozite za otvaranje vašeg Lightning kanala ili dodavanje likvidnosti. Ove operacije se mogu izvršiti kasnije, kada iznos akumuliran na Liquid opravda naknade.
+- **Prednosti**:
+- **Samokustodijalno**: Vaša sredstva ostaju pod vašom kontrolom, uskladištena na Liquid Network.
+- **Nema visokih onchain naknada**: Skladištenje na Liquid izbegava skupe onchain depozite za otvaranje vašeg Lightning kanala ili dodavanje likvidnosti. Ove operacije se mogu izvršiti kasnije, kada iznos akumuliran na Liquid opravda naknade.
 
 
 
 
 
-- Savjet:** Ako pošiljalac ima Wallet Bull Bitcoin, koristite direktno Liquid Network da izbegnete naknade za zamenu.
+- **Savjet:** Ako pošiljalac ima Wallet Bull Bitcoin, koristite direktno Liquid Network da izbegnete naknade za zamenu.
 
 
 
@@ -456,13 +456,13 @@ Na početnom ekranu, možete:
 
 
 
-- Invoice validity:** The Lightning Invoice is valid for **12 hours**. After this time, it expires and can no longer be paid. A new Invoice must be generated.
+- **Invoice validity:** The Lightning Invoice is valid for **12 hours**. After this time, it expires and can no longer be paid. A new Invoice must be generated.
 
 
 
 
 
-- Upotreba**: Kopirajte Invoice da ga podelite sa pošiljaocem, ili mu dozvolite da skenira QR kod.
+- **Upotreba**: Kopirajte Invoice da ga podelite sa pošiljaocem, ili mu dozvolite da skenira QR kod.
 
 
 
@@ -563,27 +563,27 @@ Zatim možete prilagoditi parametre:
 
 
 
-- Naknade**: Možete izabrati :
-  - Ili brzina izvršenja** vaše transakcije, a povezane naknade će biti procenjene
-  - Ili naknade**, u režimu apsolutnih naknada (ukupne naknade u satoshijima) ili relativnih naknada (naknade po bajtu), i brzina vaše transakcije će biti procenjena
+- **Naknade**: Možete izabrati :
+- Ili brzina izvršenja **vaše transakcije**, a povezane naknade će biti procenjene
+- Ili **naknade**, u režimu apsolutnih naknada (ukupne naknade u satoshijima) ili relativnih naknada (naknade po bajtu), i brzina vaše transakcije će biti procenjena
 
 
 
 
 
-- Napredna podešavanja** :
+- **Napredna podešavanja**:
 
 
 
 
 
- - Replace-by-fee (RBF)** : Aktivirana po defaultu, ova funkcija ubrzava transakciju plaćanjem veće naknade (pogledajte Dodatak 4 za detalje).
+- **Replace-by-fee (RBF)**: Aktivirana po defaultu, ova funkcija ubrzava transakciju plaćanjem veće naknade (pogledajte Dodatak 4 za detalje).
 
 
 
 
 
- - Ručno odabiranje UTXO**: Ako su vaša sredstva pohranjena na nekoliko različitih Wallet adresa, možete odabrati adrese s kojih ćete poslati sredstva. Zašto biste to učinili? Sa sve većim prihvatanjem Bitcoin, troškovi transfera rastu. Slanje s nekoliko adresa s malim iznosima je skuplje nego slanje s jedne Address, ali to učiniti sada izbegava potrebu da se to uradi kasnije, kada će naknade biti još veće. Ovo se zove **konsolidacija UTXO.**
+- **Ručno odabiranje UTXO**: Ako su vaša sredstva pohranjena na nekoliko različitih Wallet adresa, možete odabrati adrese s kojih ćete poslati sredstva. Zašto biste to učinili? Sa sve većim prihvatanjem Bitcoin, troškovi transfera rastu. Slanje s nekoliko adresa s malim iznosima je skuplje nego slanje s jedne Address, ali to učiniti sada izbegava potrebu da se to uradi kasnije, kada će naknade biti još veće. Ovo se zove **konsolidacija UTXO**.
 
 
 
@@ -593,7 +593,7 @@ Zatim možete prilagoditi parametre:
 
 
 
-- Slanje sa PayJoin**: Ako je funkcija aktivirana od strane primaoca koji je dostavio URI, npr. :
+- **Slanje sa PayJoin**: Ako je funkcija aktivirana od strane primaoca koji je dostavio URI, npr. :
 
 
 
@@ -679,7 +679,7 @@ Odvojite vreme da proverite sve parametre, posebno količinu i odredište Addres
 
 
 
-- Naknade**: Proporcionalne složenosti transakcije, generalno na osnovu 0.1 sat/vB, tj. 20-40 satoshija za jednostavnu transakciju (33 Sats na 07/22/2025).
+- **Naknade**: Proporcionalne složenosti transakcije, generalno na osnovu 0.1 sat/vB, tj. 20-40 satoshija za jednostavnu transakciju (33 Sats na 07/22/2025).
 
 
 
@@ -750,29 +750,29 @@ Napomena: iznos mora biti veći od 21 Sats dana 23.07.2025.
 
 
 
-- Mehanizam**: Sredstva se povlače iz **Instant Payments Wallet** (Liquid) i konvertuju putem **Liquid → Lightning** zamene sa **Boltz**.
+- **Mehanizam**: Sredstva se povlače iz **Instant Payments Wallet** (Liquid) i konvertuju putem **Liquid → Lightning** zamene sa **Boltz**.
 
 
 
 
 
-- Ograničenja:**
- - Minimalni iznos** veći od Wallet Lightning native (vidi gore)
- - Troškovi** plus Liquid → Lightning zamena putem Boltz
+- **Ograničenja:**
+- **Minimalni iznos** veći od Wallet Lightning native (vidi gore)
+- **Troškovi** plus Liquid → Lightning zamena putem Boltz
 
 
 
 
 
-- Prednosti** :
- - Samokustodijalno**: Vaša sredstva ostaju pod vašom kontrolom, smeštena na Liquid Network, i prenosiva putem Lightning-a ako je potrebno
- - Nema visokih onchain naknada**: Čuvanje na Liquid vam je uštedelo skupe onchain depozite za otvaranje vašeg Lightning kanala ili dodavanje likvidnosti. Ove operacije se mogu obaviti kasnije, kada iznos akumuliran na Liquid opravda naknade.
+- **Prednosti**:
+- **Samokustodijalno**: Vaša sredstva ostaju pod vašom kontrolom, smeštena na Liquid Network, i prenosiva putem Lightning-a ako je potrebno
+- **Nema visokih onchain naknada**: Čuvanje na Liquid vam je uštedelo skupe onchain depozite za otvaranje vašeg Lightning kanala ili dodavanje likvidnosti. Ove operacije se mogu obaviti kasnije, kada iznos akumuliran na Liquid opravda naknade.
 
 
 
 
 
-- Savjet:** Ako primalac ima Wallet Bull Bitcoin, koristite Liquid Network direktno da izbegnete troškove zamene.
+- **Savjet:** Ako primalac ima Wallet Bull Bitcoin, koristite Liquid Network direktno da izbegnete troškove zamene.
 
 
 
@@ -803,7 +803,7 @@ Odvojite vreme da proverite sve parametre, posebno količinu i odredište Addres
 
 
 
-- Putem početnog ekrana** :
+- **Putem početnog ekrana**:
  - Kliknite na **Secure Bitcoin Wallet** da biste pogledali **onchain** transakcije, ili na **Instant Payments Wallet** za **Liquid** i **Lightning** transakcije.
  - Istorija je prikazana direktno ispod ukupnog portfolija, filtrirana prema tipu Wallet koji je izabran.
 
@@ -815,7 +815,7 @@ Odvojite vreme da proverite sve parametre, posebno količinu i odredište Addres
 
 
 
-- Putem posvećenoj stranici** :
+- Putem **posvećene stranice**:
  - Na početnom ekranu kliknite na **simbol istorije** (ikona sata ili slična).
  - Pristupite stranici sa spiskom svih transakcija, sa filterima po tipu akcije: **Pošalji**, **Primi**, **Zameni**, **PayJoin**, **Prodaj**, **Kupi** (napomena: Prodaja i Kupovina su u razvoju i nisu dostupne u ovom trenutku, 20. jul 2025).
 
@@ -864,57 +864,57 @@ Stranica "Settings" može se direktno pristupiti sa početne stranice aplikacije
 
 
 
-- Wallet Backup**: Prikazuje frazu za oporavak portfolija za sigurno bekapovanje. Pogledajte odeljak 3. o kreiranju portfolija za najbolje prakse u upravljanju i čuvanju fraze za oporavak.
+- **Wallet Backup**: Prikazuje frazu za oporavak portfolija za sigurno bekapovanje. Pogledajte odeljak 3. o kreiranju portfolija za najbolje prakse u upravljanju i čuvanju fraze za oporavak.
 
 
 
 
 
-- Wallet Detalji** :
- - Pubkey**: Javni ključ povezan sa Wallet, koristi se za generate Bitcoin adrese prijema.
- - Derivation Path**: Derivation path used to generate Wallet addresses from the private key.
+- **Wallet Detalji**:
+- **Pubkey**: Javni ključ povezan sa Wallet, koristi se za generate Bitcoin adrese prijema.
+- **Derivation Path**: Derivation path used to generate Wallet addresses from the private key.
 
 
 
 
 
-- Electrum Server (Bitcoin Node)**: Postavite vezu sa prilagođenim Bitcoin čvorom za onchain transakcije.
+- **Electrum Server (Bitcoin Node)**: Postavite vezu sa prilagođenim Bitcoin čvorom za onchain transakcije.
 
 
 
 
 
-- PIN Kod**: Aktivirajte i/ili izmenite sigurnosni kod za zaštitu pristupa aplikaciji i funkcijama Wallet.
+- **PIN Kod**: Aktivirajte i/ili izmenite sigurnosni kod za zaštitu pristupa aplikaciji i funkcijama Wallet.
 
 
 
 
 
-- Valuta**: Izaberite da li želite prikazivanje iznosa u BTC ili Sats, i podrazumevanu fiat valutu (dolar, evro, itd.).
+- **Valuta**: Izaberite da li želite prikazivanje iznosa u BTC ili Sats, i podrazumevanu fiat valutu (dolar, evro, itd.).
 
 
 
 
 
-- Auto Swap Settings**: Funkcija _Auto Swap_ omogućava vam da automatizujete prenos vašeg BTC sa **Instant Payments Wallet (Liquid)** na vaš **Bitcoin On-Chain** Wallet, čim iznos dostigne prag koji smatrate dovoljno visokim da opravda trošak transakcije.
+- **Auto Swap Settings**: Funkcija _Auto Swap_ omogućava vam da automatizujete prenos vašeg BTC sa **Instant Payments Wallet (Liquid)** na vaš **Bitcoin On-Chain** Wallet, čim iznos dostigne prag koji smatrate dovoljno visokim da opravda trošak transakcije.
 
 
 
 
 
-- Logovi**: Pregledni dnevnici aktivnosti, koji se mogu deliti sa tehničkom podrškom radi olakšavanja rešavanja problema.
+- **Logovi**: Pregledni dnevnici aktivnosti, koji se mogu deliti sa tehničkom podrškom radi olakšavanja rešavanja problema.
 
 
 
 
 
-- Pristup Telegramu za podršku** : Direktan link ka zvaničnom Telegram kanalu za korisničku podršku.
+- **Pristup Telegramu za podršku**: Direktan link ka zvaničnom Telegram kanalu za korisničku podršku.
 
 
 
 
 
-- Github pristup** : Link ka [Bull Bitcoin Github repozitorijumu](https://github.com/SatoshiPortal) za pregled otvorenog koda ili prijavu problema.
+- **Github pristup**: Link ka [Bull Bitcoin Github repozitorijumu](https://github.com/SatoshiPortal) za pregled otvorenog koda ili prijavu problema.
 
 
 
@@ -956,8 +956,8 @@ Stranica "Settings" može se direktno pristupiti sa početne stranice aplikacije
 
 
 
-- Primi** (Address Supply): PayJoin je podrazumevano omogućen.
-- Pošalji** : Wallet automatski detektuje PayJoin URI i konfiguriše transakciju u skladu s tim, na primer:
+- **Primi** (Address Supply): PayJoin je podrazumevano omogućen.
+- **Pošalji**: Wallet automatski detektuje PayJoin URI i konfiguriše transakciju u skladu s tim, na primer:
 
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Poboljšana poverljivost**: PayJoin poništava pretpostavku da svi unosi u transakciji pripadaju jednom entitetu. Sa PayJoin, ulazi dolaze i od pošiljaoca i od primaoca, razbijajući ovu pretpostavku.
-- Količinsko maskiranje** : Stvarna količina razmenjena ne pojavljuje se direktno u izlazima. Izračunava se kao razlika između dolaznog i odlaznog UTXO primaoca, što analizu čini obmanjujućom.
+- **Poboljšana poverljivost**: PayJoin poništava pretpostavku da svi unosi u transakciji pripadaju jednom entitetu. Sa PayJoin, ulazi dolaze i od pošiljaoca i od primaoca, razbijajući ovu pretpostavku.
+- **Količinsko maskiranje**: Stvarna količina razmenjena ne pojavljuje se direktno u izlazima. Izračunava se kao razlika između dolaznog i odlaznog UTXO primaoca, što analizu čini obmanjujućom.
 
 
 
@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Rečnik](https://planb.network/fr/resources/glossary/PayJoin)
+- [Rečnik](https://planb.network/fr/resources/glossary/payjoin)
 - Poglavlje [Transakcije PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Rečnik](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Rečnik](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1038,15 +1038,15 @@ Da biste koristili **Bull Bitcoin Mobile** sigurno i efikasno, pratite ove prepo
 
 
 
-- Osigurajte svoju frazu za oporavak** :
- - Uputstvo: [Sačuvajte svoju Mnemonic frazu](https://planb.network/fr/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+- **Osigurajte svoju frazu za oporavak**:
+ - Uputstvo: [Sačuvajte svoju Mnemonic frazu](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Kurs [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
 
 
 
-- Koristite sigurnu autentifikaciju** :
+- **Koristite sigurnu autentifikaciju**:
  - Aktivirajte **jak PIN** ili **biometrijsku autentifikaciju** (otiska prsta ili prepoznavanje lica) kako biste zaštitili pristup aplikaciji.
  - Nikada ne delite svoj PIN ili biometrijske podatke.
 
@@ -1054,7 +1054,7 @@ Da biste koristili **Bull Bitcoin Mobile** sigurno i efikasno, pratite ove prepo
 
 
 
-- Zaštitite svoju privatnost** :
+- **Zaštitite svoju privatnost**:
  - generate novi Address za svaki onchain ili Liquid prijem kako bi se ograničilo praćenje na Blockchain.
  - Koristite PayJoin kada je dostupan da povećate poverljivost u vezi sa iznosom poslatim na lancu
  - Za maksimalnu poverljivost, povežite svoj Wallet sa sopstvenim Bitcoin čvorom putem Electrum servera umesto korišćenja javnog čvora.
@@ -1063,23 +1063,23 @@ Da biste koristili **Bull Bitcoin Mobile** sigurno i efikasno, pratite ove prepo
 
 
 
-- Izaberite mrežu koja najbolje odgovara vašim potrebama** :
- - Onchain**: Preferirano za dugoročno čuvanje ili transakcije velike vrednosti (naknade zanemarljive u odnosu na iznos).
- - Liquid**: Koristite za brze, niskobudžetne transfere sa poboljšanom poverljivošću.
- - Lightning**: Odaberite trenutne, niskotarifne transfere za male iznose. Ako ste dva Wallet Bull Bitcoin korisnika, izaberite Liquid da izbegnete Lightning <> Liquid naknade za zamenu putem Boltz.
+- **Izaberite mrežu koja najbolje odgovara vašim potrebama**:
+- **Onchain**: Preferirano za dugoročno čuvanje ili transakcije velike vrednosti (naknade zanemarljive u odnosu na iznos).
+- **Liquid**: Koristite za brze, niskobudžetne transfere sa poboljšanom poverljivošću.
+- **Lightning**: Odaberite trenutne, niskotarifne transfere za male iznose. Ako ste dva Wallet Bull Bitcoin korisnika, izaberite Liquid da izbegnete Lightning <> Liquid naknade za zamenu putem Boltz.
 
 
 
 
 
-- Uvek proverite adrese za dostavu** :
+- **Uvek proverite adrese za dostavu**:
  - Pre nego što pošaljete sredstva, pažljivo proverite Address. Sredstva poslana na pogrešan Address su zauvek izgubljena. Koristite kopiranje/lepljenje ili skeniranje QR koda, nikada ne kopirajte/modifikujte Address ručno.
 
 
 
 
 
-- Optimizujte troškove** :
+- **Optimizujte troškove**:
  - Za transakcije na lancu, izaberite odgovarajuće naknade (sporo, srednje, brzo) u skladu sa hitnošću i zagušenošću mreže.
  - Koristite Liquid, ili Lightning za male količine.
  - Aktivirajte Replace-by-fee (RBF) (pogledajte Dodatak 4) za onchain isporuke ako predviđate potrebu za ubrzanjem potvrde.
@@ -1099,18 +1099,18 @@ Da biste koristili **Bull Bitcoin Mobile** sigurno i efikasno, pratite ove prepo
 
 
 
-- Zvanični linkovi i podrška:**
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : support email
- - [Službena veb stranica Bull Bitcoin](https://bullbitcoin.com/) :** Informacije o uslugama Bull Bitcoin, kreiranju naloga, pristupu aplikaciji
- - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Pogledajte kod, evoluciju i plan puta, doprinesite razvoju...
- - [Account X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
- - Telegram** grupa za Wallet mobilni: grupni čet sa podrškom, pogledajte stranicu "Postavke".
+- **Zvanični linkovi i podrška:**
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : support email
+- [Službena veb stranica Bull Bitcoin](https://bullbitcoin.com/): **Informacije o uslugama Bull Bitcoin, kreiranju naloga, pristupu aplikaciji**
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Pogledajte kod, evoluciju i plan puta, doprinesite razvoju...**
+- [Account X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
+- **Telegram** grupa za Wallet mobilni: grupni čet sa podrškom, pogledajte stranicu "Postavke".
 
 
 
 
 
-- Blok istraživači :**
+- Blok istraživači:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Lightning: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -1119,7 +1119,7 @@ Da biste koristili **Bull Bitcoin Mobile** sigurno i efikasno, pratite ove prepo
 
 
 
-- Učenje i tutorijali:** **[Plan ₿ Network](https://planb.network/)** :
+- **Učenje i tutorijali:** **[Plan ₿ Network](https://planb.network/)**
  - Osiguravanje vaše fraze za oporavak
 
 
@@ -1133,8 +1133,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Rečnik](https://planb.network/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Rečnik](https://planb.network/resources/glossary/liquid-network)
 
 
 
@@ -1145,8 +1145,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Rečnik](https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Rečnik](https://planb.network/resources/glossary/lightning-network)
 
 
 
@@ -1184,31 +1184,31 @@ Bik Bitcoin se ističe po svojim Commitment do Cypherpunk principima i Bitcoin e
 
 
 
-- Ekskluzivni fokus na Bitcoin** : Platforma je verna viziji decentralizovane valute otporne na cenzuru.
+- **Ekskluzivni fokus na Bitcoin**: Platforma je verna viziji decentralizovane valute otporne na cenzuru.
 
 
 
 
 
-- Nekustodijan** : Korisnici zadržavaju potpunu kontrolu nad svojim Bitcoinima slanjem sredstava u svoje portfelje.
+- **Nekustodijan**: Korisnici zadržavaju potpunu kontrolu nad svojim Bitcoinima slanjem sredstava u svoje portfelje.
 
 
 
 
 
-- Poverljivost**: Minimizovano prikupljanje ličnih podataka, sa opcijama kupovine bez KYC za transakcije ispod 999 USD. Podaci su zaštićeni u skladu sa propisima (FINTRAC u Kanadi, AMF u Francuskoj).
+- **Poverljivost**: Minimizovano prikupljanje ličnih podataka, sa opcijama kupovine bez KYC za transakcije ispod 999 USD. Podaci su zaštićeni u skladu sa propisima (FINTRAC u Kanadi, AMF u Francuskoj).
 
 
 
 
 
-- Transparentnost**: Nema skrivenih naknada, troškovi su uključeni u spread (razlika između kupovne i prodajne cene).
+- **Transparentnost**: Nema skrivenih naknada, troškovi su uključeni u spread (razlika između kupovne i prodajne cene).
 
 
 
 
 
-- Finansijski suverenitet**: Bull Bitcoin promoviše nezavisnost od tradicionalnih bankarskih sistema i centralizovanih institucija.
+- **Finansijski suverenitet**: Bull Bitcoin promoviše nezavisnost od tradicionalnih bankarskih sistema i centralizovanih institucija.
 
 
 
@@ -1218,19 +1218,19 @@ Bik Bitcoin se ističe po svojim Commitment do Cypherpunk principima i Bitcoin e
 
 
 
-- Fiat deposit** : Korisnici mogu finansirati svoj Bull Bitcoin račun fiat valutom (CAD, EUR, itd.) putem bankovnog transfera ili gotovinom/debitnom karticom u odabranim kanadskim poštama.
+- **Fiat deposit**: Korisnici mogu finansirati svoj Bull Bitcoin račun fiat valutom (CAD, EUR, itd.) putem bankovnog transfera ili gotovinom/debitnom karticom u odabranim kanadskim poštama.
 
 
 
 
 
-- Kupovina Bitcoin** : Korisnici mogu kupiti Bitcoin koji se šalje direktno u njihov ne-depozitni portfolio, garantujući potpunu kontrolu nad njihovim sredstvima.
+- **Kupovina Bitcoin**: Korisnici mogu kupiti Bitcoin koji se šalje direktno u njihov ne-depozitni portfolio, garantujući potpunu kontrolu nad njihovim sredstvima.
 
 
 
 
 
-- Zakazana kupovina Bitcoin**: Bull Bitcoin nudi automatizovanu uslugu ponovljene kupovine (DCA - Dollar Cost Averaging) u redovnim intervalima, koristeći vaš raspoloživi saldo, sa direktnim prenosom Bitcoina na Wallet koji kontroliše korisnik, smanjujući uticaj cenovne volatilnosti.
+- **Zakazana kupovina Bitcoin**: Bull Bitcoin nudi automatizovanu uslugu ponovljene kupovine (DCA - Dollar Cost Averaging) u redovnim intervalima, koristeći vaš raspoloživi saldo, sa direktnim prenosom Bitcoina na Wallet koji kontroliše korisnik, smanjujući uticaj cenovne volatilnosti.
 
 
 
@@ -1241,37 +1241,37 @@ Imajte na umu da opcija pod nazivom "AutoBuy" omogućava konverziju vaših fiat 
 
 
 
-- Kupite Bitcoin po fiksnoj ceni 'Limit Order'**: Omogućava vam da kupite Bitcoin po ceni unapred određenoj od strane korisnika, koja se automatski izvršava kada cena indeksa Bull Bitcoin dostigne ili padne ispod postavljenog limita.
+- Kupite Bitcoin po fiksnoj ceni **'Limit Order'**: Omogućava vam da kupite Bitcoin po ceni unapred određenoj od strane korisnika, koja se automatski izvršava kada cena indeksa Bull Bitcoin dostigne ili padne ispod postavljenog limita.
 
 
 
 
 
-- Prodaja Bitcoin**: Korisnici mogu prodati svoje Bitcoine i primiti sredstva u fiat valuti direktno na svoj bankovni račun putem bankovnog ili SEPA transfera.
+- **Prodaja Bitcoin**: Korisnici mogu prodati svoje Bitcoine i primiti sredstva u fiat valuti direktno na svoj bankovni račun putem bankovnog ili SEPA transfera.
 
 
 
 
 
-- Plaćanja trećih strana**: Bull Bitcoin omogućava korisnicima da šalju fiat novac na bankovne račune iz svojih Bitcoina, potpuno transparentno za primaoca.
+- **Plaćanja trećih strana**: Bull Bitcoin omogućava korisnicima da šalju fiat novac na bankovne račune iz svojih Bitcoina, potpuno transparentno za primaoca.
 
 
 
 
 
-- Bull Bitcoin Prime**: Bull Bitcoin Prime je premijum usluga za klijente sa visokim neto vrednostima i preduzeća, koja nudi prilagođena rešenja i premijum podršku. Ovo uključuje pristup smanjenim naknadama, posvećenog menadžera naloga i prilagođene korporativne usluge. Ova usluga je namenjena institucijama, profesionalnim trgovcima i korporativnim klijentima koji traže dubinsku ekspertizu i prioritetni tretman.
+- **Bull Bitcoin Prime**: Bull Bitcoin Prime je premijum usluga za klijente sa visokim neto vrednostima i preduzeća, koja nudi prilagođena rešenja i premijum podršku. Ovo uključuje pristup smanjenim naknadama, posvećenog menadžera naloga i prilagođene korporativne usluge. Ova usluga je namenjena institucijama, profesionalnim trgovcima i korporativnim klijentima koji traže dubinsku ekspertizu i prioritetni tretman.
 
 
 
 
 
-- Mobilni Wallet**: Bull Bitcoin nudi open-source, samostalni mobilni Wallet, dostupan na Android i iOS, koji podržava onchain, Liquid i Lightning Network transakcije.
+- **Mobilni Wallet**: Bull Bitcoin nudi open-source, samostalni mobilni Wallet, dostupan na Android i iOS, koji podržava onchain, Liquid i Lightning Network transakcije.
 
 
 
 
 
-- Obrazovna podrška**: Besplatni vodiči i personalizovano mentorstvo kako bi se korisnicima pomoglo da kreiraju, osiguraju i upravljaju svojim Bitcoin portfolijima, jačajući finansijsku autonomiju.
+- **Obrazovna podrška**: Besplatni vodiči i personalizovano mentorstvo kako bi se korisnicima pomoglo da kreiraju, osiguraju i upravljaju svojim Bitcoin portfolijima, jačajući finansijsku autonomiju.
 
 
 
@@ -1281,10 +1281,10 @@ Imajte na umu da opcija pod nazivom "AutoBuy" omogućava konverziju vaših fiat 
 
 
 
-- Regulatory**: Registrovan kod FINTRAC (Kanada) i AMF (Francuska), Bull Bitcoin ispunjava KYC/AML zahteve.
+- **Regulatory**: Registrovan kod FINTRAC (Kanada) i AMF (Francuska), Bull Bitcoin ispunjava KYC/AML zahteve.
 
 
 
 
 
-- Sigurnost**: Korišćenje sigurnih portfolija i preporuke za offline skladištenje. Lični podaci su hostovani na Bull-ovoj Bitcoin infrastrukturi, koja je 100% samostalno hostovana i ne oslanja se na treće strane.
+- **Sigurnost**: Korišćenje sigurnih portfolija i preporuke za offline skladištenje. Lični podaci su hostovani na Bull-ovoj Bitcoin infrastrukturi, koja je 100% samostalno hostovana i ne oslanja se na treće strane.

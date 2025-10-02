@@ -1,6 +1,6 @@
 ---
-name: Browser Mullvad
-description: Cara menggunakan Mullvad Browser untuk privasi
+name: Mullvad Browser
+description: Cara menggunakan Peramban Mullvad untuk privasi
 ---
 
 ![cover](assets/cover.webp)
@@ -12,7 +12,25 @@ Di dunia di mana pengawasan digital menjadi merajalela, melindungi privasi onlin
 - **Tracking scripts**: kode JavaScript tak terlihat yang menganalisis perilaku penjelajahan Anda (klik, scrolling, waktu yang dihabiskan).
 - **Analisis alamat IP**: lokasi geografis dan identifikasi penyedia layanan Internet Anda.
 
-Data ini kemudian digabungkan untuk membuat profil terperinci dari perilaku online Anda dan dimonetisasi, sering kali tanpa sepengetahuan Anda. Realitas ini memunculkan pertanyaan mendasar: bagaimana Anda bisa menjelajah Internet sambil menjaga anonimitas dan kerahasiaan Anda?
+Di dunia di mana pengawasan digital menjadi sangat umum, melindungi privasi online Anda tidak pernah menjadi lebih penting. Perusahaan-perusahaan menggunakan teknik-teknik canggih untuk melacak Anda:
+
+
+
+
+
+- **Cookie pihak ketiga**: file kecil yang disimpan oleh situs eksternal untuk mengikuti Anda dari satu situs ke situs lainnya
+- **Sidik jari**: mengumpulkan karakteristik unik dari browser dan perangkat Anda (resolusi layar, font yang diinstal, plugin, dll.) untuk mengidentifikasi Anda tanpa cookie
+- **Skrip pelacakan**: kode JavaScript tak terlihat yang menganalisis perilaku penjelajahan Anda (klik, gulir, waktu yang dihabiskan)
+- **Analisis IP Address**: lokasi geografis dan identifikasi penyedia layanan Internet Anda
+
+
+
+Data ini kemudian digabungkan untuk membuat profil terperinci tentang perilaku online Anda dan menghasilkan uang, seringkali tanpa sepengetahuan Anda. Kenyataan ini menimbulkan pertanyaan mendasar: bagaimana Anda dapat menjelajahi Internet sambil menjaga anonimitas dan kerahasiaan Anda?
+
+
+
+Jawabannya sebagian besar terletak pada pilihan peramban web Anda. Alat yang kita gunakan setiap hari untuk mengakses informasi, melakukan pembelian, atau berkomunikasi ini memainkan peran penting dalam melindungi data pribadi kita. Sayangnya, peramban populer seperti Google Chrome (yang menguasai sekitar 65% pasar global) dirancang dengan model bisnis yang didasarkan pada pengumpulan data pengguna secara besar-besaran.
+
 
 Jawabannya sebagian besar terletak pada pilihan browser web Anda. Aplikasi ini, yang kita gunakan setiap hari untuk mengakses informasi, melakukan pembelian, atau berkomunikasi, memainkan peran yang menentukan dalam melindungi data pribadi kita. Sayangnya, browser populer seperti Google Chrome (yang memegang sekitar 65% dari pasar global) dirancang di sekitar model bisnis yang didasarkan pada pengumpulan data pengguna secara besar-besaran.
 
@@ -144,7 +162,7 @@ Mullvad Browser tersedia secara gratis untuk Windows, macOS dan Linux. Untuk men
 
 Klik tombol **"Download"** yang sesuai dengan sistem operasi Anda.
 
-Untuk Linux, Anda dapat memilih di antara format yang berbeda tergantung pada distribusi Anda. Setelah pengunduhan selesai :
+Untuk Linux, Anda dapat memilih di antara format yang berbeda tergantung pada distribusi Anda. Setelah pengunduhan selesai:
 
 ### Pada Windows
 
@@ -214,7 +232,47 @@ Mullvad Browser secara teknis memungkinkan Anda memasang ekstensi tambahan dari 
 
 Seperti yang dijelaskan Mullvad: _"Terkadang, tidak memiliki pertahanan khusus lebih baik daripada memilikinya. Dengan ingin meningkatkan privasi online, Anda memasang ekstensi yang pada akhirnya membuat Anda lebih terlihat."_
 
-Jika Anda tetap memilih untuk memasang ekstensi, ketahuilah bahwa Anda membuat fingerprint unik yang dapat digunakan untuk melacak Anda dari satu situs ke situs lain. Untuk perlindungan maksimal, yang terbaik adalah tetap menggunakan tiga ekstensi bawaan, yang identik untuk semua pengguna.
+Peramban Mullvad secara teknis memungkinkan anda untuk memasang ekstensi tambahan dari katalog Firefox, tetapi **penting untuk memahami implikasinya**. Setiap ekstensi yang ditambahkan akan mengubah jejak digital Anda dan membedakan Anda dari pengguna Peramban Mullvad lainnya, yang bertentangan dengan prinsip dasar peramban ini: membuat semua pengguna tampak identik.
+
+
+
+Seperti yang dijelaskan Mullvad: *"Terkadang, tidak memiliki pertahanan khusus lebih baik daripada memilikinya. Dengan ingin meningkatkan privasi online, Anda memasang ekstensi yang pada akhirnya membuat Anda semakin terlihat. "*
+
+
+
+Jika Anda tetap memilih untuk memasang ekstensi, ketahuilah bahwa Anda membuat sidik jari unik yang bisa digunakan untuk melacak Anda dari satu situs ke situs lainnya. Untuk perlindungan maksimal, sebaiknya tetap menggunakan tiga ekstensi yang sudah diinstal sebelumnya, yang identik untuk semua pengguna.
+
+
+
+## Praktik terbaik dengan Browser Mullvad
+
+
+
+1. **Selalu gunakan VPN**: Peramban Mullvad tidak menyamarkan IP Anda. VPN sangat penting untuk anonimitas sepenuhnya.
+
+
+
+2. **Jangan menyesuaikan peramban**: Hindari mengubah pengaturan atau menambahkan ekstensi, karena hal ini dapat membuat Anda mudah dikenali.
+
+
+
+3. **Gunakan tombol sesi baru**: Di antara aktivitas yang berbeda, gunakan fungsi reset untuk mempartisi sesi Anda.
+
+
+
+4. **Pilih tingkat keamanan yang paling sesuai dengan kebutuhan Anda**:
+
+
+
+
+- **Normal (disarankan)**: Untuk penjelajahan sehari-hari. Sudah menawarkan perlindungan yang sangat baik sekaligus menjaga situs web tetap berfungsi. Ini adalah keseimbangan terbaik untuk 95% pengguna.
+- **Lebih aman**: Jika Anda mengunjungi situs yang tidak dikenal atau berpotensi berbahaya, atau untuk perlindungan ekstra pada jaringan Wi-Fi publik. Beberapa situs mungkin tidak berfungsi.
+- **Paling aman**: Diperuntukkan bagi situasi berisiko tinggi (jurnalisme investigasi, komunikasi sensitif, lingkungan yang tidak bersahabat). Sebagian besar situs modern akan dibobol, tetapi itulah harga dari keamanan maksimum.
+
+
+
+5. **Periksa pembaruan secara teratur**: Selalu perbarui peramban Anda dengan patch keamanan terbaru.
+
 
 ## Pengalaman terbaik dengan Browser Mullvad
 

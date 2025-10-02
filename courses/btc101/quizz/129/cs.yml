@@ -1,10 +1,9 @@
-question: Co je Bitcoin blockchain?
-answer: Veřejná a neměnná účetní kniha všech Bitcoinových transakcí.
+question: Jak Bitcoinová síť zajišťuje, že je příliš nákladné jednat zákeřně v rámci Bitcoinového protokolu?
+answer: Prostřednictvím pravidel protokolu a ekonomických pobídek.
 wrong_answers:
-  - Soukromá a měnitelná účetní kniha všech Bitcoinových transakcí.
-  - Veřejná a měnitelná účetní kniha všech Bitcoinových transakcí.
-  - Soukromá a neměnná účetní kniha všech Bitcoinových transakcí.
+  - Prostřednictvím přísné regulace a dohledu.
+  - Použitím pokročilých bezpečnostních opatření.
+  - Přes hrozbu právních kroků.
 explanation: >-
-  Bitcoin blockchain je veřejná a neměnná účetní kniha všech Bitcoinových
-  transakcí. Jedná se o společnou účetní knihu pro všechny uživatele Bitcoinu.
+  Bitcoinová síť zajišťuje, že je příliš nákladné jednat zákeřně v rámci Bitcoinového protokolu prostřednictvím pravidel protokolu a ekonomických pobídek. To eliminuje potřebu důvěry v jakémkoli kroku převodu vlastnictví bitcoinů.
 reviewed: true

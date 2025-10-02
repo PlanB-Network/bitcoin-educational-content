@@ -1,11 +1,13 @@
-question: Co oznacza, że Bitcoin jest walutą neutralną?
-answer: Nie jest ona kontrolowana przez żaden podmiot ani instytucję.
+question: Czym jest Deklaracja Niepodległości Cyberprzestrzeni?
+answer: Tekst twierdzący, że cyberprzestrzeń jest odrębną sferą od sfery fizycznej i nie powinna podlegać tym samym prawom.
 wrong_answers:
-  - Jest on kontrolowany przez pojedynczy podmiot lub instytucję.
-  - Jest on regulowany przez rząd.
-  - Jest on używany tylko w przypadku dużych transakcji.
+  - Deklaracja stwierdzająca niezależność Bitcoin od tradycyjnych systemów finansowych.
+  - Tekst twierdzący, że cyberprzestrzeń powinna być kontrolowana przez rząd.
+  - Deklaracja, która gwarantuje niezależność ruchu pirackiego od jakichkolwiek regulacji.
 explanation: |
-  Bitcoin jest walutą neutralną, co oznacza, że nie jest kontrolowana
-  przez żaden podmiot ani instytucję, więc każdy użytkownik ma takie same
-  prawa. Jest to kluczowy aspekt jej decentralizacji.
+  Deklaracja Niepodległości Cyberprzestrzeni została
+  napisana przez Johna Perry'ego Barlowa w 1996 roku. Dokument ten stwierdza
+  że cyberprzestrzeń jest sferą odrębną od sfery fizycznej
+  sfery, więc rządy przemysłowe nie mogą egzekwować w niej
+  władzy.
 reviewed: true

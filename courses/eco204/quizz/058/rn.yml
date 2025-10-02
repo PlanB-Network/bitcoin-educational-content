@@ -1,0 +1,12 @@
+question: Ni igiki cari kidasanzwe mu mpapuro z’isezerano zashizweho ku kibanza c’ubudandaji c’i Anvers Stock Exchange mu kinjana ca 16?
+answer: Zari zifise amazina n'amatariki yo gukura .
+wrong_answers:
+  - Vyari bikozwe mu nzahabu .
+  - Ivyo vyasohowe na Banki y’i Amsterdam .
+  - Zari zishobora guhindurwa zikaba amaflorine .
+explanation: |
+  Isoko ry’i Anvers ryitwa Exchange ryarashizeho amakete y’isezerano yari afise amazina .
+  n’amatariki yo gukura. Ivyo vyatumye bagorwa no gushika ku Exchange imbere y’itariki y’uguherako. Ariko,
+  Exchange yashizeho umugenzo wo gugabanya ayo manoti imbere y’uko ashika .
+  itariki, bikabagira Liquid nyinshi kandi bikazana iciyumviro c’agaciro k’igihe k’amahera.
+reviewed: false

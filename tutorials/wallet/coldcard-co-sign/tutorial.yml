@@ -1,0 +1,25 @@
+id: 4ed0c269-29f9-4215-957d-e0deba3dcc8f
+
+project_id: 317a3aa2-d9e0-49e2-8bb7-620ea76e4ea1
+
+tags:
+  - wallets
+  - risks
+  - onchain
+
+category: hardware
+
+level: intermediate
+
+professor_id: c7108417-5ba9-455e-b467-775cac83c9b5
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-09-25
+    urgency: 1
+    contributor_names:
+      - Skyman21m
+    reward: 0

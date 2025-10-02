@@ -25,10 +25,10 @@ Ein großes Problem blieb jedoch zwischen den Bitcoin-Protokollschichten bestehe
 
 
 
-- on chain**: Die Hauptkette von Bitcoin, bei der Transaktionen im Durchschnitt alle 10 Minuten bestätigt werden, hat oft hohe Transaktionsgebühren, was nicht unbedingt den Bedürfnissen der Nutzer entspricht;
-- Lightning Network**: Das Bitcoin-Overlay für Sofortzahlungen zu niedrigen Gebühren, so dass das Bitcoin für tägliche Zahlungen verwendet werden kann;
-- Liquid Network**: ein von Blockstream geschaffenes Overlay für Bitcoin, das schnelle, Confidential Transactions und die Verwendung anderer Bitcoin-basierter Finanzinstrumente ermöglicht;
-- RootStock**: Eine Lösung für die Entwicklung intelligenter Verträge auf der Grundlage des Bitcoin-Protokolls.
+- **on chain**: Die Hauptkette von Bitcoin, bei der Transaktionen im Durchschnitt alle 10 Minuten bestätigt werden, hat oft hohe Transaktionsgebühren, was nicht unbedingt den Bedürfnissen der Nutzer entspricht;
+- **Lightning Network**: Das Bitcoin-Overlay für Sofortzahlungen zu niedrigen Gebühren, so dass das Bitcoin für tägliche Zahlungen verwendet werden kann;
+- **Liquid Network**: ein von Blockstream geschaffenes Overlay für Bitcoin, das schnelle, Confidential Transactions und die Verwendung anderer Bitcoin-basierter Finanzinstrumente ermöglicht;
+- **RootStock**: Eine Lösung für die Entwicklung intelligenter Verträge auf der Grundlage des Bitcoin-Protokolls.
 
 
 
@@ -54,7 +54,7 @@ Auf diese Weise behalten Sie die ständige Selbstverwahrung Ihrer Bitcoins, und 
 
 
 
-Ein atomarer Exchange arbeitet mit intelligenten Verträgen [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). Bei dieser Art von Contract wird der Betrag in einem Zwei-Wege-Kanal "gesperrt", und es wird eine zeitliche Beschränkung eingeführt, so dass der Saldo an den Einzahler zurückfällt, wenn die Transaktion nicht innerhalb einer bestimmten Zeit abgeschlossen wird. Dieser Mechanismus wird von der Boltz-Plattform verwendet.
+Ein atomarer Exchange arbeitet mit intelligenten Verträgen [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Bei dieser Art von Contract wird der Betrag in einem Zwei-Wege-Kanal "gesperrt", und es wird eine zeitliche Beschränkung eingeführt, so dass der Saldo an den Einzahler zurückfällt, wenn die Transaktion nicht innerhalb einer bestimmten Zeit abgeschlossen wird. Dieser Mechanismus wird von der Boltz-Plattform verwendet.
 
 
 

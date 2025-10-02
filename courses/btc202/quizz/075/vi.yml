@@ -1,0 +1,9 @@
+question: Tại sao kích thước của bộ UTXO có xu hướng tăng về mặt cấu trúc theo thời gian?
+answer: Mỗi khoản thanh toán thường tạo ra hai UTXO mới
+wrong_answers:
+  - Các khoản thanh toán thông thường không tiêu tốn UTXO đầu vào
+  - Mỗi Fork nhân số lượng UTXO hiện có
+  - Số lượng bitcoin có thể được tạo ra là vô hạn
+explanation: |
+  Một giao dịch thanh toán sử dụng một UTXO và thường tạo lại hai UTXO (thanh toán + Exchange), làm tăng kích thước tổng thể của tập hợp.
+reviewed: true

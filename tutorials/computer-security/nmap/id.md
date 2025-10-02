@@ -102,7 +102,9 @@ Jadi, menggunakan Nmap melampaui "uji ping terkenal" selama fase debugging atau 
 ### III. Menggunakan Nmap untuk pemetaan jaringan
 
 
-Sebagai _Network Mapper_, pemetaan jaringan adalah tujuan utama dari aplikasi ini. Aplikasi ini dapat digunakan di dalam jaringan lokal, atau di beberapa jaringan, subnet, dan VLAN, untuk membuat daftar semua host dan layanan yang dapat dijangkau. Nmap membuat tugas ini jauh lebih cepat dan lebih efisien daripada metode manual apa pun.
+- **Kuat dan fleksibel**: Nmap dapat memindai jaringan yang besar dan menggunakan teknik deteksi tingkat lanjut. Nmap mendukung UDP, TCP, ICMP, IPv4 dan IPv6, dan dapat melakukan deteksi versi, pemindaian kerentanan, atau interaksi khusus protokol. Arsitekturnya modular, khususnya berkat skrip NSE (Nmap Scripting Engine), yang akan kita lihat nanti dalam tutorial ini.
+- **Kemudahan penggunaan**: dokumentasi resmi berlimpah dan berkualitas tinggi. Berbagai sumber daya komunitas juga tersedia untuk membantu Anda memulai.
+- **Popularitas dan umur panjang**: Nmap telah menjadi referensi di bidangnya sejak tahun 1998. Versi saat ini, pada saat pembaruan ini, adalah 7.95. Meskipun ada alat lain untuk tugas-tugas tertentu, Nmap tetap harus dimiliki untuk pemetaan dan analisis jaringan.
 
 Misalnya, perintah berikut dapat digunakan untuk dengan cepat mengidentifikasi host aktif di jaringan **192.168.1.0/24**:
 
@@ -142,7 +144,7 @@ Misalnya, perintah ini dapat digunakan untuk memeriksa apakah layanan FTP mengiz
 nmap --script ftp-anon -p 21 192.168.1.18
 ```
 
-![nmap-image](assets/fr/04.webp)
+**Umpan balik**
 
 *Menggunakan skrip NSE untuk memeriksa autentikasi FTP anonim melalui Nmap.*
 
@@ -224,7 +226,9 @@ Pilihan opsional untuk membatalkan pemilihan Zenmap saat menginstal Nmap di Wind
 
 Pada akhir instalasi Nmap, instalasi kedua diusulkan: instalasi library "Npcap":
 
-![nmap-image](assets/fr/08.webp)
+- Ia dapat mengirim **ribuan atau bahkan jutaan paket** dalam waktu singkat, yang dapat memenuhi infrastruktur jaringan tertentu.
+- Ini dapat generate **paket cacat atau non-standar**, yang cenderung mengganggu peralatan tertentu (terutama sistem industri).
+- Hal ini dapat menghasilkan **perilaku seperti serangan**, yang dapat memicu peringatan pada sistem keamanan (firewall, IDS/IPS, dll.).
 
 pemasangan library "Npcap" saat menginstal Nmap pada Windows
 
@@ -527,7 +531,7 @@ Hasilnya, pemindaian secara alami akan jauh lebih cepat dan Nmap hanya akan meng
 
 **Pindai beberapa port melalui Nmap**
 
-Dengan cara yang sama, kita dapat menentukan beberapa port ke Nmap, menggunakan opsi yang sama dan menggabungkan port yang ditentukan dengan koma :
+Jawaban di sini dengan jelas menunjukkan bahwa paket "nmap" ada di repositori (di sini, repositori Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). Mulai sekarang, Anda dapat menginstal Nmap melalui perintah instalasi biasa, tidak ada yang dilucuti untuk saat ini 🙂:
 
 ```
 
@@ -775,7 +779,7 @@ Menentukan target dapat dengan cepat terbukti rumit dalam sistem informasi di ke
 
 Untuk memulai, buatlah file sederhana yang berisi satu entri per baris:
 
-![nmap-image](assets/fr/31.webp)
+Terakhir, Nmap memberi tahu kita bahwa 998 port TCP yang diidentifikasi sebagai port yang ditutup tidak ditampilkan dalam file:
 
 _yang berisi satu target (host atau jaringan) per baris_
 

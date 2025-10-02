@@ -1,10 +1,9 @@
-question: Hva er rytmen til Bitcoin-nettverket?
-answer: 10 minutter per blokk
+question: Hva er Bitcoin-blockchainen?
+answer: En offentlig og uforanderlig hovedbok over alle Bitcoin-transaksjoner.
 wrong_answers:
-  - 10 sekunder per blokk
-  - 10 minutter per transaksjon
-  - 10 sekunder per transaksjon
-explanation: |
-  Rytmen til Bitcoin-nettverket er 10 minutter per blokk. Dette er som
-  hjerteslaget til det monetære systemet til Bitcoin.
-reviewed: true
+  - En privat og foranderlig hovedbok over alle Bitcoin-transaksjoner.
+  - En offentlig og foranderlig hovedbok over alle Bitcoin-transaksjoner.
+  - En privat og uforanderlig hovedbok over alle Bitcoin-transaksjoner.
+explanation: >-
+  Bitcoin-blockchainen er en offentlig og uforanderlig hovedbok over alle Bitcoin-transaksjoner. Det er en felles hovedbok for alle Bitcoin-brukere.
+reviewed: false

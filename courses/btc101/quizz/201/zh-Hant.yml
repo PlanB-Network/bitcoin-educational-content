@@ -1,12 +1,10 @@
-question: KYC 法規的目的是什麼？
-answer: 打擊恐怖主義融資、逃稅和洗錢。
+question: 購買 Bitcoin 時，不遵守貴國規定的潛在後果之一是什麼？
+answer: 您可能會將自己置於危險之中。
 wrong_answers:
-  - 提高 Bitcoin 的價格，讓使用者繳納更多的稅金。
-  - 控制 Bitcoin 的 Supply。
-  - 防止人們購買 Bitcoin。
+  - 您可以提高 Bitcoin 的價格。
+  - 您可以控制 Bitcoin 的 Supply。
+  - 您可能會阻止他人購買 Bitcoin。
 explanation: |
-  課程內容說明「認識您的客戶」(KYC)
-  法規要求使用者提供身分證明，以
-  打擊恐怖主義融資、逃稅和洗錢。
-  洗錢。
+  課程中提到，在購買 Bitcoin 時，如果不遵守您所在國家的規定
+  購買 Bitcoin 可能會讓您有風險。
 reviewed: true

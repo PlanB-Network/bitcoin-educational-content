@@ -1,0 +1,9 @@
+question: Hva er nettverkets grunnleggende rolle i IT?
+answer: Aktiver data Exchange
+wrong_answers:
+  - Øker datamaskinens minne
+  - Opprett sikkerhetskopier
+  - Aktiver Exchange for datautstyr
+explanation: |
+  Et nettverk kobler sammen flere enheter slik at informasjon kan sirkulere og Exchange.
+reviewed: false

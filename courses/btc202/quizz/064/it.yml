@@ -1,0 +1,9 @@
+question: Qual è la ragione principale per installare un Block explorer locale come Mempool.Space su Umbrel?
+answer: Preservare la riservatezza e utilizzare i dati del proprio nodo
+wrong_answers:
+  - Accelerare la sincronizzazione iniziale del Bitcoin core
+  - Aumentare la capacità di archiviazione disponibile per i blocchi
+  - Ottenere i canali Lightning
+explanation: |
+  Un Block explorer locale impedisce le fughe di IP e si basa sui dati convalidati dall'utente, garantendo riservatezza e affidabilità.
+reviewed: true

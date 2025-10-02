@@ -73,7 +73,7 @@ Selles õpetuses valin oma maksete vastuvõtmiseks Lightning'i. Hariduslikel ees
 ![SWISS BITCOIN PAY](assets/notext/10.webp)
 Seejärel peate maksma 1 sat, et kinnitada oma Lightning aadress. Bitcoin aadressi puhul peate esitama allkirja, mis vastab sellele aadressile vastava privaatvõtmega.
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
-Lõpuks on teil võimalus lisada soovituskood. Kui soovite meid toetada, võite kasutada koodi "*DiscoverBitcoin*", nii et osa teie komisjonitasudest jagatakse meiega. Aitäh! :) ![SWISS BITCOIN PAY](assets/notext/12.webp)
+Lõpuks on teil võimalus lisada soovituskood. Kui soovite meid toetada, võite kasutada koodi "*DiscoverBitcoin*", nii et osa teie komisjonitasudest jagatakse meiega. Aitäh!:) ![SWISS BITCOIN PAY](assets/notext/12.webp)
 Kui kogu teave on sisestatud, klõpsake nuppu "*Saada*".
 ![SWISS BITCOIN PAY](assets/notext/13.webp)
 Ja ongi valmis! Teie Swiss Bitcoin Pay konto on nüüd valmis. Nüüd saate alustada Bitcoin maksete vastuvõtmist oma ettevõttele!

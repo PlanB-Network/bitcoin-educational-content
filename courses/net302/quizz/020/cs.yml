@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi protokoly TCP a UDP?
+answer: Protokol TCP je orientován na připojení, protokol UDP nikoli
+wrong_answers:
+  - Protokol TCP funguje pouze v místních sítích, protokol UDP v Internetu
+  - Protokol TCP vždy používá šifrování, protokol UDP nikdy
+  - Protokol TCP spravuje fragmentaci protokolu IP, protokol UDP se stará o kompresi
+explanation: |
+  Protokol TCP vyžaduje navázání a sledování spojení, zatímco protokol UDP odesílá pakety bez předchozího navázání nebo kontroly relace.
+reviewed: false

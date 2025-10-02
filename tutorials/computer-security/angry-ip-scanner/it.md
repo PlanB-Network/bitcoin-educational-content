@@ -1,5 +1,5 @@
 ---
-name: Scanner IP arrabbiato
+name: Angry IP Scanner
 description: Un modo semplice per scansionare la rete
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -34,11 +34,11 @@ Qui lo utilizzeremo su **Windows 11**, ma è perfettamente possibile utilizzarlo
 
 
 
-Meno completo di Nmap, **Angry IP** Scanner è comunque interessante per una rapida analisi di base della rete, ma anche perché è alla portata di tutti. Rileva gli host connessi alla rete** e identifica i **nomi degli host** e le **porte aperte**.
+Meno completo di Nmap, **Angry IP** Scanner è comunque interessante per una rapida analisi di base della rete, ma anche perché è alla portata di tutti. Rileva gli host connessi alla rete e identifica i **nomi degli host** e le **porte aperte**.
 
 
 
-Se volete approfondire, consultate il tutorial su Nmap :
+Se volete approfondire, consultate il tutorial su Nmap:
 
 
 
@@ -84,8 +84,8 @@ Al primo avvio, leggere le istruzioni della finestra "**Inizio**" per saperne di
 
 
 
-- Feeder**: modulo responsabile della generazione di elenchi di indirizzi IP da scansionare, a partire da un intervallo IP casuale o da un file con un elenco di indirizzi IP.
-- Fetcher**: un insieme di moduli per il recupero di informazioni sugli host della rete. Esistono, ad esempio, fetcher per rilevare gli indirizzi MAC, scansionare le porte, rilevare i nomi degli host o inviare richieste HTTP.
+- **Feeder**: modulo responsabile della generazione di elenchi di indirizzi IP da scansionare, a partire da un intervallo IP casuale o da un file con un elenco di indirizzi IP.
+- **Fetcher**: un insieme di moduli per il recupero di informazioni sugli host della rete. Esistono, ad esempio, fetcher per rilevare gli indirizzi MAC, scansionare le porte, rilevare i nomi degli host o inviare richieste HTTP.
 
 
 

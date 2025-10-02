@@ -1,0 +1,9 @@
+question: Ni igiki umuntu ategerezwa gushitsa kugira ngo uwuronse HTLC aronke ayo mahera?
+answer: Bategerezwa gutanga ibanga (preimage) kugira ngo bafungure amahera.
+wrong_answers:
+  - Bategerezwa kwemera amahera y’inzira y’umurongo w’ubuhuza wose.
+  - Bategerezwa gusinya urupapuro rushasha rwa Commitment Transaction.
+  - Bategerezwa kurindira ko igihe co gufunga kirangira imbere y’uko basubira kuronka ayo mahera.
+explanation: |
+  Kugira ngo umuntu aronke ayo mahera muri HTLC, ategerezwa gutanga ibanga ryihariye rituma ashobora gufungura amahera yishuwe na Hash.
+reviewed: false

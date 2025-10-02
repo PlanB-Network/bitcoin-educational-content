@@ -1,0 +1,9 @@
+question: 我们如何称呼运行 Bitcoin 实现并相互连接的一组机器？
+answer: Bitcoin 网络
+wrong_answers:
+  - Bitcoin 协议
+  - Bitcoin 货币
+  - Blockchain Bitcoin
+explanation: |
+  Bitcoin 网络由所有连接的节点组成，每个节点都运行不同的协议实施方案。
+reviewed: true

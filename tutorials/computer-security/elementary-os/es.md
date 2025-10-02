@@ -1,5 +1,5 @@
 ---
-name: Sistema operativo elemental
+name: Elementary OS
 description: El sustituto ideal de Windows y MacOS
 ---
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Simplicidad y facilidad de uso** : El Interface gráfico de Elementary OS está a medio camino entre los de MacOs y Windows. Esta familiaridad facilita su adopción, incluso para usuarios inexpertos.
+- **Simplicidad y facilidad de uso**: El Interface gráfico de Elementary OS está a medio camino entre los de MacOs y Windows. Esta familiaridad facilita su adopción, incluso para usuarios inexpertos.
 
 
 
 
 
-- Seguridad**: Como la mayoría de las distribuciones Linux, Elementary OS se beneficia de un alto nivel de seguridad. Las actualizaciones periódicas, la gestión de derechos y la ausencia de virus comunes lo convierten en un sistema fiable.
+- **Seguridad**: Como la mayoría de las distribuciones Linux, Elementary OS se beneficia de un alto nivel de seguridad. Las actualizaciones periódicas, la gestión de derechos y la ausencia de virus comunes lo convierten en un sistema fiable.
 
 
 
 
 
-- Rapidez**: Elementary OS es una distribución ligera. Requiere pocos recursos, por lo que es rápida y adecuada para ordenadores con configuraciones modestas.
+- **Rapidez**: Elementary OS es una distribución ligera. Requiere pocos recursos, por lo que es rápida y adecuada para ordenadores con configuraciones modestas.
 
 
 
 
 
-- Gratuito** : El sistema es completamente gratuito. Sin embargo, al descargarlo, puedes hacer una donación para apoyar a los desarrolladores.
+- **Gratuito**: El sistema es completamente gratuito. Sin embargo, al descargarlo, puedes hacer una donación para apoyar a los desarrolladores.
 
 
 
 
 
-- Comunidad activa** : La comunidad en torno a Elementary OS es diversa y receptiva. Si te encuentras con dificultades, puedes encontrar ayuda fácilmente en los foros o en las redes sociales.
+- **Comunidad activa**: La comunidad en torno a Elementary OS es diversa y receptiva. Si te encuentras con dificultades, puedes encontrar ayuda fácilmente en los foros o en las redes sociales.
 
 
 
@@ -61,7 +61,7 @@ Antes de iniciar la instalación, asegúrese de que dispone del siguiente equipo
 
 
 - Una **llave USB** de al menos 12 GB
-- Memoria RAM** de al menos 4 GB
+- **Memoria RAM** de al menos 4 GB
 - Un disco **Hard de 20 GB** o más para un uso cómodo
 
 

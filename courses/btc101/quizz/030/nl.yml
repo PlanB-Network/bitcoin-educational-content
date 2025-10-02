@@ -1,12 +1,12 @@
-question: Wat is het belangrijkste voordeel van fiatvaluta's?
-answer: Ze zijn gemakkelijk deelbaar.
+question: Welke entiteiten zijn verantwoordelijk voor de uitgifte van fiduciaire valuta?
+answer: Centrale banken.
 wrong_answers:
-  - Ze worden gecontroleerd door een centrale partij.
-  - Ze zijn niet gemakkelijk te vervoeren.
-  - Ze zijn effectief om waarde vast te houden in de tijd.
+  - Commerciële banken.
+  - Overheden.
+  - Particuliere instellingen.
 explanation: |
-  Fiatvaluta's, zoals de dollar en de euro, zijn erg
-  Liquid en gemakkelijk vervoerbaar omdat ze nu meestal
-  digitaal zijn. Hun waarde wordt echter voortdurend uitgehold door
-  monetaire inflatie.
+  Centrale banken zijn de entiteiten die verantwoordelijk zijn voor de uitgifte van een
+  fiduciaire valuta. Ze bepalen het monetaire beleid en
+  bepalen hoeveel geld er in omloop moet worden gebracht of
+  gedrukt.
 reviewed: true

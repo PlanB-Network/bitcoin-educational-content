@@ -1,5 +1,5 @@
 ---
-name: Blockstream-app - Onchain
+name: Blockstream App - Onchain
 description: Installera Blockstream App på mobilen och hantera onchain-transaktioner
 ---
 ![cover](assets/cover.webp)
@@ -30,8 +30,8 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Nybörjare**: Användare som vill hantera sina bitcoins med en intuitiv mobilapplikation.
-- Användare på mellannivå**: Personer som vill förstå onchain-funktionaliteter och integritetsalternativ som Tor eller SPV.
+- **Nybörjare**: Användare som vill hantera sina bitcoins med en intuitiv mobilapplikation.
+- **Användare på mellannivå**: Personer som vill förstå onchain-funktionaliteter och integritetsalternativ som Tor eller SPV.
 
 
 
@@ -41,14 +41,14 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alla namn på en applikation som installeras på en smartphone, dator eller annan internetansluten enhet och som gör det möjligt att hantera och säkra privata nycklar från en Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alla namn på en applikation som installeras på en smartphone, dator eller annan internetansluten enhet och som gör det möjligt att hantera och säkra privata nycklar från en Bitcoin Wallet.
 - Till skillnad från **hardware wallets**, även kända som **Cold wallets**, som isolerar nycklar offline, fungerar mjukvaruplånböcker i en uppkopplad miljö, vilket gör dem mer sårbara för cyberattacker.
 
 
 
 
 
-- Rekommenderad användning** :
+- **Rekommenderad användning**:
     - Idealisk för hantering av måttliga mängder Bitcoin, särskilt för dagliga transaktioner.
     - Lämplig för nybörjare eller användare med begränsade tillgångar, för vilka en Hardware Wallet kan verka överflödig.
 
@@ -56,7 +56,7 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Begränsningar**: Mindre säkert för förvaring av stora belopp eller långsiktiga besparingar. I så fall bör du välja en Hardware Wallet.
+- **Begränsningar**: Mindre säkert för förvaring av stora belopp eller långsiktiga besparingar. I så fall bör du välja en Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Blockstream App** är en mobil (iOS, Android) och stationär applikation för hantering av Bitcoin-portföljer och tillgångar på Liquid Network. Den förvärvades av [Blockstream] (https://blockstream.com/) 2016 och hette tidigare *Green Address* och sedan *Blockstream Green*.
-- Viktiga egenskaper** :
-    - Onchain**-transaktioner på Blockchain Bitcoin.
+- **Blockstream App** är en mobil (iOS, Android) och stationär applikation för hantering av Bitcoin-portföljer och tillgångar på Liquid Network. Den förvärvades av [Blockstream](https://blockstream.com/) 2016 och hette tidigare *Green Address* och sedan *Blockstream Green*.
+- **Viktiga egenskaper**:
+- Onchain-transaktioner på **Blockchain Bitcoin**.
     - Nätverkstransaktioner **Liquid** (Sidechain för snabba, konfidentiella utbyten).
-    - Watch-only**-portföljer för övervakning av fonder utan tillgång till nycklar.
+- **Watch-only**-portföljer för övervakning av fonder utan tillgång till nycklar.
     - Sekretessalternativ: anslutning via **Tor**, anslutning till en **personlig nod** via Electrum, eller **SPV**-verifiering för att minska beroendet av tredjepartsnoder.
     - Fungerar **Replace-by-fee (RBF)** för att påskynda obekräftade transaktioner.
-- Kompatibilitet**: Integrerar hårdvaruplånböcker som **Blockstream Jade**.
-- Interface**: Intuitiv för nybörjare, med avancerade alternativ för experter.
-- Obs**: Denna guide fokuserar på användning av onchain. Andra handledningar i bilagorna täcker Liquid, Watch-Only och skrivbordsversionen.
+- **Kompatibilitet**: Integrerar hårdvaruplånböcker som **Blockstream Jade**.
+- **Interface**: Intuitiv för nybörjare, med avancerade alternativ för experter.
+- **Obs**: Denna guide fokuserar på användning av onchain. Andra handledningar i bilagorna täcker Liquid, Watch-Only och skrivbordsversionen.
 
 
 
@@ -90,12 +90,12 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- För Android** :
+- För **Android**:
     - Ladda ner [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) från Google Play Store.
     - Alternativ: Installera via APK-filen som finns på [Blockstreams officiella GitHub] (https://github.com/Blockstream/green_android).
-- För iOS** :
+- För **iOS**:
     - Ladda ner [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) från App Store.
-- Obs**: Var noga med att ladda ner från officiella källor för att undvika bedrägliga applikationer.
+- **Obs**: Var noga med att ladda ner från officiella källor för att undvika bedrägliga applikationer.
 
 
 
@@ -105,7 +105,7 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Startskärm**: När programmet öppnas för första gången visas en skärm utan en konfigurerad Wallet. Skapade eller importerade portföljer kommer att visas här senare.
+- **Startskärm**: När programmet öppnas för första gången visas en skärm utan en konfigurerad Wallet. Skapade eller importerade portföljer kommer att visas här senare.
 
 
 
@@ -115,7 +115,7 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Anpassa inställningar**: Klicka på "Application settings", justera alternativen nedan, klicka på "Save", starta om applikationen och skapa din portfölj.
+- **Anpassa inställningar**: Klicka på "Application settings", justera alternativen nedan, klicka på "Save", starta om applikationen och skapa din portfölj.
 
 
 
@@ -129,8 +129,8 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Funktion**: Inaktiverar skärmdumpar, döljer förhandsvisningar av program i aktivitetshanteraren och låser åtkomsten när telefonen är låst.
-- Varför?** : Skyddar dina data mot obehörig fysisk åtkomst eller skadlig programvara som fångar skärmen.
+- **Funktion**: Inaktiverar skärmdumpar, döljer förhandsvisningar av program i aktivitetshanteraren och låser åtkomsten när telefonen är låst.
+- **Varför?**: Skyddar dina data mot obehörig fysisk åtkomst eller skadlig programvara som fångar skärmen.
 
 
 #### 3.2.2. Anslutning via Tor
@@ -139,10 +139,10 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Funktion**: Dirigera nätverkstrafik via **Tor**, ett anonymt nätverk som krypterar dina anslutningar.
-- Varför?**: Dölj din IP Address och skydda din integritet, perfekt om du inte litar på ditt nätverk (t.ex. offentligt Wi-Fi).
-- Nackdel**: Kan göra programmet långsammare på grund av kryptering.
-- Rekommendation**: Aktivera Tor om sekretess är en prioritet, men testa anslutningshastigheten.
+- **Funktion**: Dirigera nätverkstrafik via **Tor**, ett anonymt nätverk som krypterar dina anslutningar.
+- **Varför?**: Dölj din IP Address och skydda din integritet, perfekt om du inte litar på ditt nätverk (t.ex. offentligt Wi-Fi).
+- **Nackdel**: Kan göra programmet långsammare på grund av kryptering.
+- **Rekommendation**: Aktivera Tor om sekretess är en prioritet, men testa anslutningshastigheten.
 
 
 #### 3.2.3. Ansluta till en personlig nod
@@ -151,10 +151,10 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Funktion**: Ansluter applikationen till din egen **kompletta Bitcoin-nod** via en **Electrum**-server.
+- **Funktion**: Ansluter applikationen till din egen **kompletta Bitcoin-nod** via en **Electrum**-server.
 - Varför? Ger total kontroll över Blockchain-data, vilket eliminerar beroendet av Blockstream-servrar.
-- Förutsättning**: En konfigurerad Bitcoin-nod.
-- Rekommendation**: Avancerade användare som vill ha maximal suveränitet.
+- **Förutsättning**: En konfigurerad Bitcoin-nod.
+- **Rekommendation**: Avancerade användare som vill ha maximal suveränitet.
 
 
 #### 3.2.4. Verifiering av SPV
@@ -163,10 +163,10 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Funktion**: Använder **Simplified Payment Verification (SPV)** för att direkt verifiera vissa Blockchain-data utan att ladda ner hela kedjan.
-- Varför?**: Minskar beroendet av Blockstreams standardnod, samtidigt som den är lättviktig för mobila enheter.
-- Nackdel**: Mindre säker än en Full node, eftersom den förlitar sig på tredjepartsnoder för viss information.
-- Rekommendation**: Aktivera SPV om du inte kan använda en personlig nod, men föredrar en Full node för optimal säkerhet.
+- **Funktion**: Använder **Simplified Payment Verification (SPV)** för att direkt verifiera vissa Blockchain-data utan att ladda ner hela kedjan.
+- **Varför?**: Minskar beroendet av Blockstreams standardnod, samtidigt som den är lättviktig för mobila enheter.
+- **Nackdel**: Mindre säker än en Full node, eftersom den förlitar sig på tredjepartsnoder för viss information.
+- **Rekommendation**: Aktivera SPV om du inte kan använda en personlig nod, men föredrar en Full node för optimal säkerhet.
 
 
 
@@ -182,7 +182,7 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 
-- Varning**: Sätt upp din portfölj i en privat miljö, utan kameror eller observatörer.
+- **Varning**: Sätt upp din portfölj i en privat miljö, utan kameror eller observatörer.
 - Klicka på "Kom igång" på startsidan:
 
 
@@ -360,7 +360,7 @@ Lås åtkomsten till applikationen med en stark PIN-kod:
 
 
 
-- Tillval** :
+- **Tillval**:
     - (1) "Bitcoin": klicka för att välja en onchain- eller Liquid-försändelse och välj tillgången.
     - (2) Klicka på pilarna för att välja en annan ny Address som är kopplad till denna seed-mening.
     - (3) Du kan också välja en Address bland de som redan används/visas genom att klicka på de tre punkterna längst upp till höger och sedan på "List of Addresses"
@@ -376,7 +376,7 @@ Lås åtkomsten till applikationen med en stark PIN-kod:
 
 
 - Dela Address/URI genom att klicka på "**Share**", kopiera texten eller skanna QR-koden.
-- Verifiering**: Kontrollera Address som delas med mottagaren så långt det är möjligt för att undvika fel eller attacker (t.ex. skadlig kod som ändrar urklipp).
+- **Verifiering**: Kontrollera Address som delas med mottagaren så långt det är möjligt för att undvika fel eller attacker (t.ex. skadlig kod som ändrar urklipp).
 
 
 
@@ -396,7 +396,7 @@ Lås åtkomsten till applikationen med en stark PIN-kod:
 
 
 
-- Ange detaljer** :
+- **Ange detaljer**:
     - (1) Ange mottagarens **Address** genom att klistra på den eller skanna en QR-kod.
     - (2) Kontrollera tillgångarna och det konto från vilket medlen skickas.
     - (3) Ange det **belopp** som ska skickas. Du kan välja enhet: BTC, satoshis, USD, ...
@@ -420,7 +420,7 @@ Lägsta belopp (dush limit) den 20.03.2025 är 546 Sats.
 
 
 
-- Check** :
+- **Check**:
     - Kontrollera Address, belopp och avgifter på skärmen för sammanfattning.
     - Ett Address-fel kan leda till oåterkallelig förlust av pengar. Akta dig för skadlig kod som ändrar urklipp.
 
@@ -432,8 +432,8 @@ Lägsta belopp (dush limit) den 20.03.2025 är 546 Sats.
 
 
 
-- Bekräftelse**: Tryck på "Skicka"-knappen för att signera och distribuera transaktionen.
-- Uppföljning**: På fliken "Transact" i Wallet visas transaktionen som "väntande" tills den bekräftas (1 till 6 bekräftelser):
+- **Bekräftelse**: Tryck på "Skicka"-knappen för att signera och distribuera transaktionen.
+- **Uppföljning**: På fliken "Transact" i Wallet visas transaktionen som "väntande" tills den bekräftas (1 till 6 bekräftelser):
 
 
 
@@ -502,7 +502,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Ordlista] (https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Ordlista] (https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -517,7 +517,7 @@ Följ dessa rekommendationer för att använda **Blockstream App** på ett säke
 
 
 
-- Säkra din återställningsfras** :
+- **Säkra din återställningsfras**:
  - Självstudier: Spara din Mnemonic-fras
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Använd säker autentisering** :
+- **Använd säker autentisering**:
  - Aktivera en **stark PIN-kod** eller **biometrisk autentisering** (fingeravtryck eller ansiktsigenkänning) för att skydda åtkomsten till programmet.
  - Dela aldrig med dig av din PIN-kod eller biometriska data.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Skydda din integritet** :
+- **Skydda din integritet**:
  - generate en ny Address för varje onchain eller Liquid mottagning för att begränsa spårning på Blockchain.
  - Aktivera funktionerna "Enhanced Privacy", "Tor" och "SPV".
  - För maximal sekretess ska du ansluta din Wallet till din egen Bitcoin-nod via en Electrum-server istället för att använda den publika noden
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Välj det nätverk som passar bäst för dina behov** :
- - Onchain**: Företrädesvis för långvarig förvaring eller transaktioner med stora värden (avgifter försumbara i förhållande till beloppet).
- - Liquid**: Används för snabba, billiga överföringar med ökad sekretess.
- - Blixten**: Välj omedelbara överföringar till låg kostnad för små belopp.
+- **Välj det nätverk som passar bäst för dina behov**:
+- **Onchain**: Företrädesvis för långvarig förvaring eller transaktioner med stora värden (avgifter försumbara i förhållande till beloppet).
+- **Liquid**: Används för snabba, billiga överföringar med ökad sekretess.
+- **Blixten**: Välj omedelbara överföringar till låg kostnad för små belopp.
 
 
 
 
 
-- Kontrollera alltid leveransadresser** :
+- **Kontrollera alltid leveransadresser**:
  - Innan du skickar pengar, kontrollera Address noggrant. Pengar som skickas till fel Address är förlorade för alltid. Använd kopiera/klistra in eller QR-kodskanning, kopiera/ändra aldrig en Address för hand.
 
 
 
 
 
-- Optimera kostnaderna** :
+- **Optimera kostnaderna**:
  - För transaktioner i kedjan ska du välja lämpliga avgifter (långsam, medelhög, snabb) beroende på hur brådskande ärendet är och hur mycket nätverket är överbelastat.
  - Använd Liquid eller Lightning för små mängder.
 
@@ -581,16 +581,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Officiella länkar:**
- - [Officiell webbplats] (https://blockstream.com/)**
- - [Support för mobilapplikationen](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentation och chatt
- - [GitHub] (https://github.com/Blockstream/green_android)**
+- **Officiella länkar:**
+- [Officiell webbplats](https://blockstream.com/)
+- [Support för mobilapplikationen](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentation och chatt
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Blixten: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Utbildning och handledning:** **[Plan ₿ Network](https://planb.network/)** :
+- **Utbildning och handledning:** **[Plan ₿ Network](https://planb.network/)** :
  - Säkra din återställningsfras
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Ordlista] (https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Ordlista](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Ordlista] (https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Ordlista](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

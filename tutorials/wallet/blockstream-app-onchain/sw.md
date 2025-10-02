@@ -1,5 +1,5 @@
 ---
-name: Programu ya Blockstream - Onchain
+name: Blockstream App - Onchain
 description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala ya onchain
 ---
 ![cover](assets/cover.webp)
@@ -30,8 +30,8 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Wanaoanza**: Watumiaji wanaotaka kudhibiti bitcoins zao kwa kutumia programu angavu ya simu.
-- Watumiaji wa kati**: Watu wanaotafuta kuelewa utendakazi wa onchain na chaguo za faragha kama vile Tor au SPV.
+- **Wanaoanza**: Watumiaji wanaotaka kudhibiti bitcoins zao kwa kutumia programu angavu ya simu.
+- **Watumiaji wa kati**: Watu wanaotafuta kuelewa utendakazi wa onchain na chaguo za faragha kama vile Tor au SPV.
 
 
 
@@ -41,14 +41,14 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet simu**, **Software Wallet**: majina yote ya programu iliyosakinishwa kwenye simu mahiri, kompyuta au kifaa chochote kilichounganishwa na Mtandao, kuwezesha funguo za kibinafsi kutoka kwa Bitcoin Wallet kudhibitiwa na kulindwa.
+- **Hot Wallet**, **Software Wallet**, **Wallet simu**, **Software Wallet**: majina yote ya programu iliyosakinishwa kwenye simu mahiri, kompyuta au kifaa chochote kilichounganishwa na Mtandao, kuwezesha funguo za kibinafsi kutoka kwa Bitcoin Wallet kudhibitiwa na kulindwa.
 - Tofauti na **pochi za maunzi**, pia hujulikana kama **Cold wallet**, ambazo hutenga funguo nje ya mtandao, pochi za programu hufanya kazi katika mazingira yaliyounganishwa, na kuzifanya ziwe hatarini zaidi kwa mashambulizi ya mtandaoni.
 
 
 
 
 
-- Matumizi yanayopendekezwa** :
+- **Matumizi yanayopendekezwa**:
     - Inafaa kwa ajili ya kudhibiti kiasi cha wastani cha Bitcoin, hasa kwa shughuli za kila siku.
     - Inafaa kwa wanaoanza au watumiaji walio na vipengee vichache, ambao Hardware Wallet inaweza kuonekana kuwa ya kupita kiasi.
 
@@ -56,7 +56,7 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Vizuizi**: Usalama mdogo kwa kuhifadhi pesa nyingi au akiba ya muda mrefu. Katika kesi hii, chagua Hardware Wallet.
+- **Vizuizi**: Usalama mdogo kwa kuhifadhi pesa nyingi au akiba ya muda mrefu. Katika kesi hii, chagua Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Blockstream App** ni programu ya simu (iOS, Android) na eneo-kazi kwa ajili ya kudhibiti jalada na mali za Bitcoin kwenye Liquid Network. Ilinunuliwa na [Blockstream](https://blockstream.com/) mwaka wa 2016, awali iliitwa *Green Address* na kisha *Blockstream Green*.
+- **Blockstream App** ni programu ya simu (iOS, Android) na eneo-kazi kwa ajili ya kudhibiti jalada na mali za Bitcoin kwenye Liquid Network. Ilinunuliwa na [Blockstream](https://blockstream.com/) mwaka wa 2016, awali iliitwa *Green Address* na kisha *Blockstream Green*.
 - Vipengele muhimu ** :
-    - Shughuli za Onchain** kwenye Blockchain Bitcoin.
+- Shughuli za **Onchain** kwenye Blockchain Bitcoin.
     - Shughuli za mtandao **Liquid** (Sidechain kwa ubadilishanaji wa haraka na wa siri).
-    - Kuangalia pekee** kwingineko za ufuatiliaji wa fedha bila ufikiaji wa funguo.
+- Kuangalia pekee **kwingineko** za ufuatiliaji wa fedha bila ufikiaji wa funguo.
     - Chaguzi za faragha: muunganisho kupitia **Tor**, unganisho kwa **nodi ya kibinafsi** kupitia Electrum, au uthibitishaji wa **SPV** ili kupunguza utegemezi kwa nodi za watu wengine.
     - Kazi **Replace-by-fee (RBF)** ili kuharakisha miamala ambayo haijathibitishwa.
-- Utangamano**: Huunganisha pochi za maunzi kama vile **Blockstream Jade**.
-- Interface**: Intuitive kwa wanaoanza, na chaguo za kina kwa wataalam.
-- Kumbuka**: Mwongozo huu unazingatia matumizi ya onchain. Mafunzo mengine katika Viambatisho yanashughulikia Liquid, Kutazama Pekee na toleo la eneo-kazi.
+- **Utangamano**: Huunganisha pochi za maunzi kama vile **Blockstream Jade**.
+- **Interface**: Intuitive kwa wanaoanza, na chaguo za kina kwa wataalam.
+- **Kumbuka**: Mwongozo huu unazingatia matumizi ya onchain. Mafunzo mengine katika Viambatisho yanashughulikia Liquid, Kutazama Pekee na toleo la eneo-kazi.
 
 
 
@@ -90,12 +90,12 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Kwa Android** :
+- **Kwa Android**:
     - Pakua [Programu ya Blockstream](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) kutoka kwenye Duka la Google Play.
     - Mbadala: Sakinisha kupitia faili ya APK inayopatikana kwenye [GitHub rasmi ya Blockstream](https://github.com/Blockstream/green_android).
-- Kwa iOS** :
+- **Kwa iOS**:
     - Pakua [Programu ya Blockstream](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) kutoka kwa App Store.
-- Kumbuka**: Hakikisha umepakua kutoka kwa vyanzo rasmi ili kuepuka programu za ulaghai.
+- **Kumbuka**: Hakikisha umepakua kutoka kwa vyanzo rasmi ili kuepuka programu za ulaghai.
 
 
 
@@ -105,7 +105,7 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Skrini ya nyumbani**: Inapofunguliwa mara ya kwanza, programu inaonyesha skrini bila Wallet iliyosanidiwa. Kwingineko zilizoundwa au zilizoletwa zitaonekana hapa baadaye.
+- **Skrini ya nyumbani**: Inapofunguliwa mara ya kwanza, programu inaonyesha skrini bila Wallet iliyosanidiwa. Kwingineko zilizoundwa au zilizoletwa zitaonekana hapa baadaye.
 
 
 
@@ -115,7 +115,7 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Badilisha mipangilio kukufaa**: Bofya "Mipangilio ya programu", rekebisha chaguo zilizo hapa chini, bofya "Hifadhi", anzisha upya programu na uunde kwingineko yako.
+- **Badilisha mipangilio kukufaa**: Bofya "Mipangilio ya programu", rekebisha chaguo zilizo hapa chini, bofya "Hifadhi", anzisha upya programu na uunde kwingineko yako.
 
 
 
@@ -129,8 +129,8 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Kazi**: Huzima picha za skrini, huficha onyesho la kukagua programu kwenye kidhibiti cha kazi, na hufunga ufikiaji simu ikiwa imefungwa.
-- Kwa nini?** : Hulinda data yako dhidi ya ufikiaji wa kimwili usioidhinishwa au programu hasidi ya kunasa skrini.
+- **Kazi**: Huzima picha za skrini, huficha onyesho la kukagua programu kwenye kidhibiti cha kazi, na hufunga ufikiaji simu ikiwa imefungwa.
+- **Kwa nini?**: Hulinda data yako dhidi ya ufikiaji wa kimwili usioidhinishwa au programu hasidi ya kunasa skrini.
 
 
 #### 3.2.2. Uunganisho kupitia Tor
@@ -139,10 +139,10 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Kazi**: Zuia trafiki ya mtandao kupitia **Tor**, mtandao usiojulikana ambao husimba miunganisho yako kwa njia fiche.
-- Kwa nini?**: Ficha IP yako Address na ulinde faragha yako, vyema ikiwa huamini mtandao wako (kwa mfano, Wi-Fi ya umma).
-- Hasara**: Inaweza kupunguza kasi ya programu kutokana na usimbaji fiche.
-- Pendekezo**: Washa Tor ikiwa usiri ni kipaumbele, lakini jaribu kasi ya muunganisho.
+- **Kazi**: Zuia trafiki ya mtandao kupitia **Tor**, mtandao usiojulikana ambao husimba miunganisho yako kwa njia fiche.
+- **Kwa nini?**: Ficha IP yako Address na ulinde faragha yako, vyema ikiwa huamini mtandao wako (kwa mfano, Wi-Fi ya umma).
+- **Hasara**: Inaweza kupunguza kasi ya programu kutokana na usimbaji fiche.
+- **Pendekezo**: Washa Tor ikiwa usiri ni kipaumbele, lakini jaribu kasi ya muunganisho.
 
 
 #### 3.2.3. Kuunganisha kwa nodi ya kibinafsi
@@ -151,10 +151,10 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Kazi**: Huunganisha programu kwa **nodi yako kamili ya Bitcoin** kupitia seva ya **Electrum**.
-- Kwa nini?**: Hutoa udhibiti kamili wa data ya Blockchain, ikiondoa utegemezi kwenye seva za Blockstream.
-- Sharti**: Nodi ya Bitcoin iliyosanidiwa.
-- Pendekezo**: Watumiaji mahiri wanaotafuta uhuru wa juu zaidi.
+- **Kazi**: Huunganisha programu kwa **nodi yako kamili ya Bitcoin** kupitia seva ya **Electrum**.
+- **Kwa nini?**: Hutoa udhibiti kamili wa data ya Blockchain, ikiondoa utegemezi kwenye seva za Blockstream.
+- **Sharti**: Nodi ya Bitcoin iliyosanidiwa.
+- **Pendekezo**: Watumiaji mahiri wanaotafuta uhuru wa juu zaidi.
 
 
 #### 3.2.4. Uthibitishaji wa SPV
@@ -163,10 +163,10 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Kazi**: Hutumia **Uthibitishaji Rahisi wa Malipo (SPV)** ili kuthibitisha moja kwa moja data fulani ya Blockchain bila kupakua msururu mzima.
-- Kwa nini?**: Hupunguza utegemezi wa nodi chaguomsingi ya Blockstream, huku ikisalia kuwa nyepesi kwa vifaa vya mkononi.
-- Hasara**: Ni salama kidogo kuliko Full node, kwani inategemea nodi za wahusika wengine kwa taarifa fulani.
-- Pendekezo**: Washa SPV ikiwa huwezi kutumia nodi ya kibinafsi, lakini pendelea Full node kwa usalama bora zaidi.
+- **Kazi**: Hutumia **Uthibitishaji Rahisi wa Malipo (SPV)** ili kuthibitisha moja kwa moja data fulani ya Blockchain bila kupakua msururu mzima.
+- **Kwa nini?**: Hupunguza utegemezi wa nodi chaguomsingi ya Blockstream, huku ikisalia kuwa nyepesi kwa vifaa vya mkononi.
+- **Hasara**: Ni salama kidogo kuliko Full node, kwani inategemea nodi za wahusika wengine kwa taarifa fulani.
+- **Pendekezo**: Washa SPV ikiwa huwezi kutumia nodi ya kibinafsi, lakini pendelea Full node kwa usalama bora zaidi.
 
 
 
@@ -182,7 +182,7 @@ description: Sanidi Blockstream App kwenye simu ya mkononi na udhibiti miamala y
 
 
 
-- Tahadhari**: Sanidi kwingineko yako katika mazingira ya faragha, bila kamera au waangalizi.
+- **Tahadhari**: Sanidi kwingineko yako katika mazingira ya faragha, bila kamera au waangalizi.
 - Kutoka kwa skrini ya nyumbani, bonyeza "Anza":
 
 
@@ -360,7 +360,7 @@ Funga ufikiaji wa programu kwa nambari thabiti ya PIN:
 
 
 
-- Chaguzi** :
+- **Chaguzi** :
     - (1) "Bitcoin": bofya ili kuchagua usafirishaji wa onchain au Liquid, na uchague kipengee.
     - (2) Bofya kwenye mishale ili kuchagua Address nyingine mpya iliyounganishwa na sentensi hii ya seed.
     - (3) Unaweza pia kuchagua Address kutoka miongoni mwa zile ambazo tayari zimetumika/zinazoonyeshwa, kwa kubofya vitone vitatu kwenye sehemu ya juu kulia na kisha kwenye "Orodha ya Anwani"
@@ -376,7 +376,7 @@ Funga ufikiaji wa programu kwa nambari thabiti ya PIN:
 
 
 - Shiriki Address/URI kwa kubofya "**Shiriki**", kunakili maandishi au kuchanganua msimbo wa QR.
-- Uthibitishaji**: Angalia Address iliyoshirikiwa na mpokeaji kadiri uwezavyo ili kuepuka hitilafu au mashambulizi (k.m. programu hasidi kurekebisha ubao wa kunakili).
+- **Uthibitishaji**: Angalia Address iliyoshirikiwa na mpokeaji kadiri uwezavyo ili kuepuka hitilafu au mashambulizi (k.m. programu hasidi kurekebisha ubao wa kunakili).
 
 
 
@@ -396,7 +396,7 @@ Funga ufikiaji wa programu kwa nambari thabiti ya PIN:
 
 
 
-- Ingiza maelezo** :
+- **Ingiza maelezo**:
     - (1) Weka **Address ya mpokeaji** kwa kuibandika au kuchanganua msimbo wa QR.
     - (2) Angalia mali na akaunti ambayo fedha zinatumwa.
     - (3) Onyesha **kiasi** kitakachotumwa. Unaweza kuchagua kitengo: BTC, satoshis, USD, ...
@@ -420,7 +420,7 @@ Kiasi cha chini (kikomo cha dush) mnamo 03/08/2025 ni 546 Sats.
 
 
 
-- Angalia** :
+- **Angalia** :
     - Angalia Address, kiasi na malipo kwenye skrini ya muhtasari.
     - Hitilafu ya Address inaweza kusababisha hasara isiyoweza kutenduliwa ya fedha. Jihadhari na programu hasidi ambayo hurekebisha ubao wa kunakili.
 
@@ -432,8 +432,8 @@ Kiasi cha chini (kikomo cha dush) mnamo 03/08/2025 ni 546 Sats.
 
 
 
-- Uthibitishaji**: Telezesha kitufe cha "Tuma" ili kusaini na kusambaza muamala.
-- Ufuatiliaji**: Katika kichupo cha "Transact" cha Wallet, muamala unaonekana kama "unaosubiri" hadi uthibitisho (uthibitisho 1 hadi 6):
+- **Uthibitishaji**: Telezesha kitufe cha "Tuma" ili kusaini na kusambaza muamala.
+- **Ufuatiliaji**: Katika kichupo cha "Transact" cha Wallet, muamala unaonekana kama "unaosubiri" hadi uthibitisho (uthibitisho 1 hadi 6):
 
 
 
@@ -502,7 +502,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Faharasa](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Faharasa](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -517,7 +517,7 @@ Ili kutumia **Blockstream App** kwa usalama na kwa ustadi, fuata mapendekezo hay
 
 
 
-- Linda maneno yako ya urejeshi** :
+- Linda maneno yako ya **urejeshi**:
  - Mafunzo: Kuhifadhi maneno yako ya Mnemonic
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Tumia uthibitishaji salama** :
+- **Tumia uthibitishaji salama** :
  - Washa **PIN thabiti** au **uthibitishaji wa kibayometriki** (alama ya vidole au utambuzi wa uso) ili kulinda ufikiaji wa programu.
  - Usishiriki kamwe PIN au data ya kibayometriki.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Linda faragha yako** :
+- **Linda faragha yako**:
  - generate mpya Address kwa kila onchain au Liquid mapokezi ili kupunguza ufuatiliaji kwenye Blockchain.
  - Washa vitendaji vya "Faragha Iliyoimarishwa", "Tor" na "SPV".
  - Kwa usiri wa hali ya juu, unganisha Wallet yako na nodi yako ya Bitcoin kupitia seva ya Electrum badala ya kutumia nodi ya umma.
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Chagua mtandao unaofaa zaidi mahitaji yako** :
- - Onchain**: Inapendekezwa kwa uangalizi wa muda mrefu au miamala ya thamani kubwa (ada hazizingatiwi kuhusiana na kiasi).
- - Liquid**: Tumia kwa uhamisho wa haraka, wa gharama nafuu na usiri ulioimarishwa.
- - Umeme**: Chagua uhamisho wa papo hapo, wa gharama nafuu kwa kiasi kidogo.
+- **Chagua mtandao unaofaa zaidi mahitaji yako**:
+- **Onchain**: Inapendekezwa kwa uangalizi wa muda mrefu au miamala ya thamani kubwa (ada hazizingatiwi kuhusiana na kiasi).
+- **Liquid**: Tumia kwa uhamisho wa haraka, wa gharama nafuu na usiri ulioimarishwa.
+- **Umeme**: Chagua uhamisho wa papo hapo, wa gharama nafuu kwa kiasi kidogo.
 
 
 
 
 
-- Angalia anwani za usafirishaji kila wakati** :
+- **Angalia anwani za usafirishaji kila wakati**:
  - Kabla ya kutuma pesa, angalia Address kwa uangalifu. Fedha zilizotumwa kwa Address zisizo sahihi zinapotea milele. Tumia nakala/bandika au kuchanganua msimbo wa QR, usiwahi kunakili/urekebishe Address kwa mkono.
 
 
 
 
 
-- Boresha gharama** :
+- **Boresha gharama** :
  - Kwa miamala ya mtandaoni, chagua ada zinazofaa (polepole, kati, haraka) kulingana na dharura na msongamano wa mtandao.
  - Tumia Liquid, au Umeme kwa kiasi kidogo.
 
@@ -581,10 +581,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Viungo rasmi:**
- - [Tovuti rasmi](https://blockstream.com/)**
- - [Msaada wa programu ya simu](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : uwekaji kumbukumbu na gumzo
- - [GitHub](https://github.com/Blockstream/green_android)**
+- Viungo rasmi:
+- [Tovuti rasmi](https://blockstream.com/)
+- [Msaada wa programu ya simu](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/) : uwekaji kumbukumbu na gumzo
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Mafunzo na mafunzo:** **[Plan ₿ Network](https://planb.network/)** :
+- Mafunzo na mafunzo: **[Plan ₿ Network](https://planb.network/)**
  - Inalinda kifungu chako cha urejeshi
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Kamusi](https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Kamusi](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Kamusi](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Kamusi](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

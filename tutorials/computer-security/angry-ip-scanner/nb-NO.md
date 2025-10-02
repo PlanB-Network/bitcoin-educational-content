@@ -1,5 +1,5 @@
 ---
-name: Sint IP-skanner
+name: Angry IP Scanner
 description: En enkel måte å skanne nettverket ditt på
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -38,7 +38,7 @@ Her bruker vi det på **Windows 11**, men det er fullt mulig å bruke det på an
 
 
 
-Hvis du vil gå videre, kan du se veiledningen om Nmap :
+Hvis du vil gå videre, kan du se veiledningen om Nmap:
 
 
 
@@ -84,8 +84,8 @@ Ved første gangs oppstart bør du ta deg tid til å lese instruksjonene i vindu
 
 
 
-- Feeder**: Modul som genererer lister over IP-adresser som skal skannes, fra et tilfeldig IP-område eller en fil med en liste over IP-adresser.
-- Fetcher**: et sett med moduler for å hente informasjon om verter i nettverket. Det finnes for eksempel hentere for å finne MAC-adresser, skanne porter, finne vertsnavn eller sende HTTP-forespørsler.
+- **Feeder**: Modul som genererer lister over IP-adresser som skal skannes, fra et tilfeldig IP-område eller en fil med en liste over IP-adresser.
+- **Fetcher**: et sett med moduler for å hente informasjon om verter i nettverket. Det finnes for eksempel hentere for å finne MAC-adresser, skanne porter, finne vertsnavn eller sende HTTP-forespørsler.
 
 
 
@@ -101,7 +101,7 @@ For å skanne et IP-undernett skriver du ganske enkelt inn **start IP Address** 
 
 
 
-Noen titalls sekunder senere vil resultatet være synlig i programvarens Interface. **For hver IP Address i det analyserte området ser du om Angry IP Scanner har oppdaget en host eller ikke, og det vises også et sammendrag på skjermen som angir antall aktive hosts (i dette tilfellet 6) og antall hosts med åpne porter.
+Noen titalls sekunder senere vil resultatet være synlig i programvarens Interface. **For hver IP Address i det analyserte området ser du om Angry IP Scanner har oppdaget en host eller ikke, og det vises også et sammendrag på skjermen som angir antall aktive hosts (i dette tilfellet 6) og antall hosts med åpne porter.**
 
 
 

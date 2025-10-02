@@ -1,11 +1,11 @@
-question: Mikä on solmujen ensisijainen tehtävä Bitcoin-verkossa?
-answer: Bitcoin-lohkoketjun kopion ylläpitäminen, tapahtumien vahvistaminen, tiedon välittäminen muille solmuille ja Bitcoin-protokollan sääntöjen noudattaminen.
+question: Mistä oli kyse vuoden 2017 lohkosodassa?
+answer: Konfliktista siitä, pitäisikö lohkon kokoa kasvattaa siirtojen kapasiteetin laajentamiseksi.
 wrong_answers:
-  - Bitcoin-lohkoketjun kopion ylläpitäminen, tapahtumien vahvistaminen, tiedon välittäminen hallitukselle ja Bitcoin-protokollan sääntöjen muuttaminen.
-  - Vain Bitcoin-lohkoketjun kopion ylläpitäminen.
-  - Vain tiedon välittäminen muille solmuille.
-explanation: >-
-  Solmut Bitcoin-verkossa suorittavat useita kriittisiä toimintoja, mukaan lukien
-  Bitcoin-lohkoketjun kopion ylläpitäminen, tapahtumien vahvistaminen, tiedon
-  välittäminen muille solmuille ja Bitcoin-protokollan sääntöjen noudattaminen.
+  - Konfliktista siitä, pitäisikö lohkon kokoa pienentää siirtojen kapasiteetin vähentämiseksi.
+  - Konfliktista siitä, pitäisikö lohkopalkkiota kasvattaa louhijoiden kannustamiseksi.
+  - Konfliktista siitä, pitäisikö lohkopalkkiota pienentää louhijoiden kannustamisen vähentämiseksi.
+explanation: |
+  Vuoden 2017 lohkosota oli konflikti siitä, pitäisikö
+  Bitcoinia muokata kasvattamalla lohkon kokoa siirtojen
+  kapasiteetin laajentamiseksi.
 reviewed: true

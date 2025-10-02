@@ -34,31 +34,31 @@ Fedora zawiera również środowisko graficzne, które jest Interface, za pomoc�
 
 
 
-Wśród wielu dostępnych dystrybucji Linuksa, Fedora wyróżnia się w szczególności :
+Wśród wielu dostępnych dystrybucji Linuksa, Fedora wyróżnia się w szczególności:
 
 
 
 
 
-- Modułowość**: Kompatybilna z różnymi architekturami procesorów, Fedora może być zainstalowana na większości komputerów, nawet tych o niskiej mocy, dostosowując się idealnie do Twoich potrzeb.
+- **Modułowość**: Kompatybilna z różnymi architekturami procesorów, Fedora może być zainstalowana na większości komputerów, nawet tych o niskiej mocy, dostosowując się idealnie do Twoich potrzeb.
 
 
 
 
 
-- Prosty, intuicyjny Interface**: Fedora łączy nowoczesny graficzny Interface z potężnym Interface wiersza poleceń, dzięki czemu jest łatwy w użyciu dla wszystkich profili.
+- Prosty, intuicyjny **Interface**: Fedora łączy nowoczesny graficzny Interface z potężnym Interface wiersza poleceń, dzięki czemu jest łatwy w użyciu dla wszystkich profili.
 
 
 
 
 
-- Stabilność jądra**: Fedora, oparta na Red Hat, jest znana z niezawodności swoich aktualizacji, zwłaszcza aktualizacji jądra, które są przeprowadzane bez większych błędów dzięki bezpłatnemu wkładowi dużej społeczności.
+- **Stabilność jądra**: Fedora, oparta na Red Hat, jest znana z niezawodności swoich aktualizacji, zwłaszcza aktualizacji jądra, które są przeprowadzane bez większych błędów dzięki bezpłatnemu wkładowi dużej społeczności.
 
 
 
 
 
-- Szybka i łatwa instalacja**: dzięki rozmiarowi obrazu wynoszącemu zaledwie 3 GB instalacja jest szybka i łatwa, nawet na komputerach z ograniczonymi zasobami.
+- **Szybka i łatwa instalacja**: dzięki rozmiarowi obrazu wynoszącemu zaledwie 3 GB instalacja jest szybka i łatwa, nawet na komputerach z ograniczonymi zasobami.
 
 
 
@@ -66,25 +66,25 @@ Wśród wielu dostępnych dystrybucji Linuksa, Fedora wyróżnia się w szczegó
 
 
 
-W zależności od profilu i sposobu użytkowania, Fedora oferuje edycje dostosowane do potrzeb użytkownika. Dostępne są głównie :
+W zależności od profilu i sposobu użytkowania, Fedora oferuje edycje dostosowane do potrzeb użytkownika. Dostępne są głównie:
 
 
 
 
 
-- Fedora Workstation**: Idealna do użytku osobistego i/lub profesjonalnego na komputerach, ta edycja jest instalowana z ogólnymi narzędziami, takimi jak przeglądarki, pakiet biurowy (edytory tekstu) i oprogramowanie do odtwarzania multimediów.
+- **Fedora Workstation**: Idealna do użytku osobistego i/lub profesjonalnego na komputerach, ta edycja jest instalowana z ogólnymi narzędziami, takimi jak przeglądarki, pakiet biurowy (edytory tekstu) i oprogramowanie do odtwarzania multimediów.
 
 
 
 
 
-- Fedora Server**: Ta edycja jest poświęcona zarządzaniu serwerami. Fedora Server zawiera szereg narzędzi ułatwiających wdrażanie i zarządzanie serwerami na własną skalę.
+- **Fedora Server**: Ta edycja jest poświęcona zarządzaniu serwerami. Fedora Server zawiera szereg narzędzi ułatwiających wdrażanie i zarządzanie serwerami na własną skalę.
 
 
 
 
 
-- Fedora CoreOS**: Chcesz łatwo uruchamiać i wdrażać aplikacje chmurowe? Fedora CoreOS to edycja, która zapewnia narzędzia do tworzenia i zarządzania obrazami, na przykład za pomocą Docker i Kubernets.
+- **Fedora CoreOS**: Chcesz łatwo uruchamiać i wdrażać aplikacje chmurowe? Fedora CoreOS to edycja, która zapewnia narzędzia do tworzenia i zarządzania obrazami, na przykład za pomocą Docker i Kubernets.
 
 
 
@@ -103,7 +103,7 @@ Instalacja Fedora Workstation wymaga następującej konfiguracji sprzętowej:
 
 - Klucz USB o pojemności co najmniej **8 GB** do uruchomienia systemu operacyjnego.
 - Co najmniej **40 GB wolnego miejsca** na dysku Hard komputera.
-- 4 GB pamięci RAM** dla płynnego działania.
+- 4 GB pamięci **RAM** dla płynnego działania.
 
 
 
@@ -156,7 +156,7 @@ Włącz komputer, a następnie uzyskaj dostęp do BIOS-u podczas uruchamiania, n
 
 
 
-W opcjach rozruchu wybierz klucz USB jako główne urządzenie rozruchowe. Po potwierdzeniu tego wyboru komputer uruchomi się ponownie i automatycznie uruchomi instalator Fedory** znajdujący się na kluczu USB.
+W opcjach rozruchu wybierz klucz USB jako główne urządzenie rozruchowe. Po potwierdzeniu tego wyboru komputer uruchomi się ponownie i automatycznie uruchomi **instalator Fedory** znajdujący się na kluczu USB.
 
 
 
@@ -169,7 +169,7 @@ Na tym etapie dostępne są następujące opcje:
 
 
 
-- Testuj nośnik**: Ta opcja umożliwia sprawdzenie integralności pamięci USB i upewnienie się, że wszystkie zależności wymagane do prawidłowej instalacji są obecne. Jest to krok opcjonalny, ale zalecany w przypadku jakichkolwiek wątpliwości dotyczących pamięci USB.
+- **Testuj nośnik**: Ta opcja umożliwia sprawdzenie integralności pamięci USB i upewnienie się, że wszystkie zależności wymagane do prawidłowej instalacji są obecne. Jest to krok opcjonalny, ale zalecany w przypadku jakichkolwiek wątpliwości dotyczących pamięci USB.
 
 
 
@@ -183,7 +183,7 @@ Na tym etapie dostępne są następujące opcje:
 
 
 
-- Uruchom Fedorę**: Uruchamia Fedorę w trybie "live", bez instalacji.
+- **Uruchom Fedorę**: Uruchamia Fedorę w trybie "live", bez instalacji.
 
 
 
@@ -205,7 +205,7 @@ Pierwszym krokiem jest wybranie **języka instalacji** i **układu klawiatury** 
 
 
 
-- Wybór dysku instalacyjnego :
+- Wybór dysku instalacyjnego:
 
 
 
@@ -223,7 +223,7 @@ Jeśli dysk jest pusty, Fedora automatycznie wykorzysta całą dostępną przest
 
 
 
-- Szyfrowanie :
+- Szyfrowanie:
 
 
 
@@ -368,9 +368,9 @@ Fedora domyślnie zawiera pakiet biurowy **LibreOffice**, który oferuje kilka p
 
 
 
-- Writer** do przetwarzania tekstu.
-- Calc** dla arkuszy kalkulacyjnych.
-- Impress** do tworzenia prezentacji.
+- **Writer** do przetwarzania tekstu.
+- **Calc** dla arkuszy kalkulacyjnych.
+- **Impress** do tworzenia prezentacji.
 
 
 ## Instalowanie aplikacji
@@ -415,7 +415,7 @@ Po zainstalowaniu aktualizacji może być wymagany **restart**.
 
 
 
-- Otwórz terminal i zacznij od aktualizacji **repozytoriów**, aby upewnić się, że masz najnowsze wersje :
+- Otwórz terminal i zacznij od aktualizacji **repozytoriów**, aby upewnić się, że masz najnowsze wersje:
 
 
 

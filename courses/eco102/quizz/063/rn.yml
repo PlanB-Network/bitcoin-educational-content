@@ -1,0 +1,9 @@
+question: Ni iciyumviro nyamukuru ikihe Margaret Thatcher afise ku bijanye n’umurongo wa Laffer?
+answer: Imisoro ikwiye kugabanywa kugira ngo ubutunzi butere imbere .
+wrong_answers:
+  - Imisoro ku batunzi ikwiye kwongerwa .
+  - Imisoro myinshi ikwiye kugumaho kugira ngo ibikorwa vya Leta bifashe
+  - Imisoro yose ikwiye kugumaho .
+explanation: |
+  Margaret Thatcher, ahumekewe n’ivyo Laffer yavuga, yarasavye ko imisoro yogabanywa kugira ngo ubutunzi butere imbere.
+reviewed: false

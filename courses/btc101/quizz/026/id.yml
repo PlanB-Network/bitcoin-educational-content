@@ -1,11 +1,9 @@
-question: Mengapa emas tidak dapat mengikuti perkembangan di dunia global dan digital?
-answer: Emas memerlukan entitas pusat untuk membuatnya dapat dibagi dan ditukar dengan mudah
+question: Mengapa Bitcoin merupakan bentuk uang baru?
+answer: Karena ini adalah uang digital tanpa entitas pusat
 wrong_answers:
-  - Emas tidak cukup berharga
-  - Emas tidak cukup langka
-  - Emas terkikis seiring waktu
-explanation: |
-  Emas tidak dapat mengikuti perkembangan di dunia global dan digital karena memerlukan
-  entitas pusat untuk membuatnya dapat dibagi dan ditukar dengan mudah. Hal ini membuatnya kurang
-  praktis untuk digunakan di dunia di mana transaksi semakin digital dan terdesentralisasi.
+  - Karena ini adalah mata uang digital yang didukung oleh emas
+  - Karena ini adalah mata uang yang memerlukan blockchain
+  - Karena Federal Reserve mengatakan demikian
+explanation: >-
+  Bitcoin dapat dilihat sebagai bentuk uang baru, karena muncul dari jaringan peer-to-peer tanpa entitas pusat.
 reviewed: true

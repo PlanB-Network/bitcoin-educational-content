@@ -76,10 +76,10 @@ Programu kisha inatoa kazi zake kuu kupitia safu ya skrini za utangulizi:
 
 
 
-- Risiti ya malipo iliyofumwa**: Watumiaji wanaweza kupokea malipo ya Bitcoin hata wakati programu imefungwa, hivyo basi kuhakikishia kutegemewa na urahisi.
-- Anwani zisizodhibitiwa za Umeme**: Lipa sasa inaauni anwani za umeme zisizodhibitiwa, kuboresha faragha na usalama kwa kuwapa watumiaji udhibiti kamili wa bitcoins zao.
-- Udhibiti wa data ya uchanganuzi** : Kwa uwazi na usiri kuu, watumiaji wanaweza kuangalia aina za data iliyokusanywa na kuchagua mapendeleo yao ya kushiriki.
-- Tuma kupitia nambari ya simu**: Hakuna haja ya anwani changamano - chagua tu anwani, weka kiasi, na utume bitcoins moja kwa moja kwa nambari yao ya simu.
+- **Risiti ya malipo iliyofumwa**: Watumiaji wanaweza kupokea malipo ya Bitcoin hata wakati programu imefungwa, hivyo basi kuhakikishia kutegemewa na urahisi.
+- **Anwani zisizodhibitiwa za Umeme**: Lipa sasa inaauni anwani za umeme zisizodhibitiwa, kuboresha faragha na usalama kwa kuwapa watumiaji udhibiti kamili wa bitcoins zao.
+- **Udhibiti wa data ya uchanganuzi**: Kwa uwazi na usiri kuu, watumiaji wanaweza kuangalia aina za data iliyokusanywa na kuchagua mapendeleo yao ya kushiriki.
+- **Tuma kupitia nambari ya simu**: Hakuna haja ya anwani changamano - chagua tu anwani, weka kiasi, na utume bitcoins moja kwa moja kwa nambari yao ya simu.
 
 
 Programu pia inanufaika kutokana na uboreshaji unaoendelea katika suala la uthabiti, usalama na kutegemewa, ili kuhakikisha matumizi bora ya mtumiaji.
@@ -96,10 +96,10 @@ Interface ya Lipa imepangwa karibu na vichupo 4 vikuu vinavyopatikana kupitia up
 
 
 
-- Nyumbani**: Inaonyesha salio lako la sasa na historia ya muamala
-- Kichanganuzi**: Hukuruhusu kuchanganua misimbo ya QR ili kufanya malipo
-- Ramani**: Inaonyesha ramani shirikishi ya biashara zinazokubali Bitcoin katika eneo lako
-- Mipangilio**: Ufikiaji wa mipangilio ya programu, chelezo na mapendeleo
+- **Nyumbani**: Inaonyesha salio lako la sasa na historia ya muamala
+- **Kichanganuzi**: Hukuruhusu kuchanganua misimbo ya QR ili kufanya malipo
+- **Ramani**: Inaonyesha ramani shirikishi ya biashara zinazokubali Bitcoin katika eneo lako
+- **Mipangilio**: Ufikiaji wa mipangilio ya programu, chelezo na mapendeleo
 
 
 Menyu ya ziada inaweza kufikiwa kwa kubomoa skrini ya nyumbani:

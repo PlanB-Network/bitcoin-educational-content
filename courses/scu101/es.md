@@ -306,8 +306,12 @@ Con un gestor de contraseñas, ya no tienes que preocuparte por olvidar tus cont
 - Bitwarden: Es una herramienta de código abierto, lo que significa que puedes revisar su código para verificar su seguridad. Aunque Bitwarden ofrece un servicio de alojamiento, también permite a los usuarios de conservar localmente sus propios datos (self-hosting), lo que significa que puedes controlar dónde se almacenan tus contraseñas, ofreciendo potencialmente más seguridad y control.
 
 - KeePass: Es una solución de código abierto que está principalmente destinada al alojamiento propio. Tus datos se almacenan localmente de forma predeterminada, pero puedes sincronizar la base de datos de contraseñas utilizando diferentes métodos si lo deseas. KeePass es ampliamente reconocido por su seguridad y flexibilidad, aunque puede ser un poco menos intuitivo para los principiantes.
-  ![](assets/notext/18.webp)
-  (Nota: Elegir entre un servicio de terceros o un servicio de autohospedaje depende de tu nivel de comodidad tecnológica y de cómo priorices el control frente a la conveniencia. Los servicios de terceros suelen ser más convenientes para la mayoría de las personas, mientras que el autohospedaje requiere más conocimientos técnicos pero puede ofrecer más control y tranquilidad en términos de seguridad.)
+
+![](assets/notext/18.webp)
+
+Para soluciones autoalojadas como KeePass, es posible sincronizar su base de datos entre varios dispositivos sin utilizar servicios centralizados de terceros. Herramientas como **Syncthing** permiten una sincronización cifrada y descentralizada directamente entre sus dispositivos. Este enfoque mantiene sus datos bajo su control mientras garantiza su disponibilidad en todos sus dispositivos.
+
+(Nota: Elegir entre un servicio de terceros o un servicio de autohospedaje depende de tu nivel de comodidad tecnológica y de cómo priorices el control frente a la conveniencia. Los servicios de terceros suelen ser más convenientes para la mayoría de las personas, mientras que el autohospedaje requiere más conocimientos técnicos pero puede ofrecer más control y tranquilidad en términos de seguridad.)
 
 ### ¿Qué es una buena contraseña?
 

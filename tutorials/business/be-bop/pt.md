@@ -1,5 +1,5 @@
 ---
-name: ser-BOP
+name: be-BOP
 description: Guia prático para rentabilizar o seu negócio com o be-BOP
 ---
 
@@ -7,7 +7,7 @@ description: Guia prático para rentabilizar o seu negócio com o be-BOP
 
 
 
-*a *be-BOP** é uma plataforma de comércio eletrónico concebida para empreendedores que pretendam vender online e offline, com total autonomia, aceitando pagamentos em Bitcoin, através de uma conta bancária e em Dinheiro. A solução é também útil para qualquer tipo de organização que pretenda recolher donativos ou rentabilizar as suas diversas actividades.
+*A **be-BOP** é uma plataforma de comércio eletrónico concebida para empreendedores que pretendam vender online e offline, com total autonomia, aceitando pagamentos em Bitcoin, através de uma conta bancária e em Dinheiro. A solução é também útil para qualquer tipo de organização que pretenda recolher donativos ou rentabilizar as suas diversas actividades.*
 
 
 
@@ -15,7 +15,7 @@ A solução é simples, leve e autónoma. Permite a criação de uma loja online
 
 
 
-Neste tutorial, vamos guiá-lo passo a passo através do :
+Neste tutorial, vamos guiá-lo passo a passo através do:
 
 
 
@@ -44,7 +44,7 @@ Antes de iniciar a instalação do be-BOP, certifique-se de que possui a seguint
 
 
 
-o be-BOP utiliza um sistema de armazenamento para gerir ficheiros (como imagens de produtos). Isto requer acesso a um serviço S3, como o :
+o be-BOP utiliza um sistema de armazenamento para gerir ficheiros (como imagens de produtos). Isto requer acesso a um serviço S3, como o:
 
 
 
@@ -62,10 +62,10 @@ Terá de configurar um balde e fornecer as seguintes informações:
 
 
 
-- S3_BUCKET**: nome do balde
-- S3_ENDPOINT_URL**: ligação de acesso ao seu serviço S3
-- S3_KEY_ID** e S3_KEY_SECRET: os seus códigos de acesso
-- S3_REGION**: a região do seu serviço S3
+- **S3_BUCKET**: nome do balde
+- **S3_ENDPOINT_URL**: ligação de acesso ao seu serviço S3
+- **S3_KEY_ID** e **S3_KEY_SECRET**: os seus códigos de acesso
+- **S3_REGION**: a região do seu serviço S3
 
 
 
@@ -94,8 +94,8 @@ São necessárias as seguintes variáveis:
 
 
 
-- MONGODB_URL**: ligação à base de dados Address
-- MONGODB_DB**: nome da base de dados
+- **MONGODB_URL**: ligação à base de dados Address
+- **MONGODB_DB**: nome da base de dados
 
 
 
@@ -294,7 +294,7 @@ Terá então de introduzir **a palavra-passe ou a autenticação token** que o l
 
 
 
-**Pagamento do Bitcoin suíço
+**Pagamento do Bitcoin suíço**
 
 
 
@@ -302,7 +302,7 @@ Se não quiser gerir um nó Lightning, o **Swiss Bitcoin Pay** é uma solução 
 
 
 
-Etapas de configuração :
+Etapas de configuração:
 
 
 
@@ -330,7 +330,7 @@ Para além do Bitcoin, a be-BOP também permite aceitar pagamentos em dinheiro a
 
 
 
-Etapas de configuração :
+Etapas de configuração:
 
 
 
@@ -467,15 +467,15 @@ A configuração **Top Bar** permite-lhe personalizar a identidade visual do seu
 
 
 
-#### Etapas de configuração :
+#### Etapas de configuração:
 
 
 
 
 
 - No campo "Nome da marca", introduza o nome da sua empresa, organização ou produto. Este nome aparecerá no topo do Interface e representará a sua principal identidade visual.
-- Indicar o título do sítio Web**: o título escolhido deve resumir o objetivo da plataforma. Este título pode aparecer no cabeçalho ou no separador do navegador.
-- Adicionar descrição do sítio Web**: é aqui que introduz uma breve descrição da sua iniciativa. Esta descrição ajuda a contextualizar a ferramenta para os utilizadores e também pode ser utilizada para fins de SEO.
+- **Indicar o título do sítio Web**: o título escolhido deve resumir o objetivo da plataforma. Este título pode aparecer no cabeçalho ou no separador do navegador.
+- **Adicionar descrição do sítio Web**: é aqui que introduz uma breve descrição da sua iniciativa. Esta descrição ajuda a contextualizar a ferramenta para os utilizadores e também pode ser utilizada para fins de SEO.
 
 
 
@@ -491,16 +491,16 @@ A secção `Links` da Barra de Topo permite-lhe adicionar atalhos para páginas 
 
 
 
-#### Etapas de configuração :
+#### Etapas de configuração:
 
 
 
 
 
-- Introduzir o nome da hiperligação (Texto)**: no campo `Texto`, introduza o nome ou a etiqueta da hiperligação tal como aparecerá (por exemplo, Página inicial, Contacto, Ajuda...).
-- Indicar link Address (Url)**: no campo `Url`, introduzir o Address completo da página de destino (interna ou externa).
-- Adicionar outros links se necessário**: cada linha de configuração permite-lhe adicionar um link adicional utilizando os campos `Text` e `Url`.
-- Guardar ligações**: quando todas as ligações tiverem sido introduzidas, clique no botão "Adicionar ligação à barra superior" para as guardar.
+- Introduzir o nome da hiperligação **(Texto)**: no campo `Texto`, introduza o nome ou a etiqueta da hiperligação tal como aparecerá (por exemplo, Página inicial, Contacto, Ajuda...).
+- Indicar link Address (Url): no campo `Url`, introduzir o Address completo da página de destino (interna ou externa).
+- **Adicionar outros links se necessário**: cada linha de configuração permite-lhe adicionar um link adicional utilizando os campos `Text` e `Url`.
+- **Guardar ligações**: quando todas as ligações tiverem sido introduzidas, clique no botão "Adicionar ligação à barra superior" para as guardar.
 
 
 
@@ -522,10 +522,10 @@ A secção **Navbar** permite-lhe configurar o menu de navegação principal do 
 
 
 
-- Introduzir o nome da ligação (`Texto`)**: na linha de configuração, comece por preencher o campo `Texto`. Este corresponde ao nome da ligação apresentada na barra de navegação (exemplos: *Dashboard*, *Users*, *Settings*...).
-- Introduzir o Address do link (`Url`)**: ao lado do campo `Texto`, encontra-se o campo `Url`. Neste campo, introduza o Address da página para a qual o link deve redirecionar. Pode ser uma rota interna ou uma ligação a uma página externa.
-- Adicionar várias ligações, se necessário**: por baixo da primeira linha, estão disponíveis novos campos `Texto` e `Url` para adicionar tantas ligações quantas as necessárias. Cada linha representa uma ligação de navegação adicional.
-- Guardar ligações**: depois de ter introduzido todos os Elements, clique no botão `Adicionar ligação à barra de navegação` para guardar e apresentar os resultados na barra de navegação.
+- Introduzir o nome da ligação (`Texto`): na linha de configuração, comece por preencher o campo `Texto`. Este corresponde ao nome da ligação apresentada na barra de navegação (exemplos: *Dashboard*, *Users*, *Settings*...).
+- Introduzir o Address do link (`Url`): ao lado do campo `Texto`, encontra-se o campo `Url`. Neste campo, introduza o Address da página para a qual o link deve redirecionar. Pode ser uma rota interna ou uma ligação a uma página externa.
+- **Adicionar várias ligações, se necessário**: por baixo da primeira linha, estão disponíveis novos campos `Texto` e `Url` para adicionar tantas ligações quantas as necessárias. Cada linha representa uma ligação de navegação adicional.
+- **Guardar ligações**: depois de ter introduzido todos os Elements, clique no botão `Adicionar ligação à barra de navegação` para guardar e apresentar os resultados na barra de navegação.
 
 
 
@@ -547,11 +547,11 @@ A secção **Footer** permite-lhe personalizar o rodapé do seu software, acresc
 
 
 
-- Ativar a exibição da etiqueta "Powered by be-BOP "**: ativar o botão `Display Powered by be-BOP` para exibir esta etiqueta no rodapé.
-- Introduzir o nome da ligação (`Texto`)**: preencher o campo `Texto`, que corresponde ao texto da ligação no rodapé (exemplos: *Termos*, *Privacidade*, *Contacto*...).
-- Indicar o Address da ligação (`Url`)**: no campo `Url`, introduzir o Address da página de destino (interna ou externa).
-- Adicione mais ligações se necessário**: utilize as linhas adicionais para criar tantas ligações quantas desejar.
-- Guardar ligações**: clique no botão "Adicionar ligação de rodapé" para guardar ligações.
+- Ativar a exibição da etiqueta **"Powered by be-BOP"**: ativar o botão `Display Powered by be-BOP` para exibir esta etiqueta no rodapé.
+- Introduzir o nome da ligação (**Texto**): preencher o campo `Texto`, que corresponde ao texto da ligação no rodapé (exemplos: *Termos*, *Privacidade*, *Contacto*...).
+- Indicar o Address da ligação (`Url`): no campo `Url`, introduzir o Address da página de destino (interna ou externa).
+- **Adicione mais ligações se necessário**: utilize as linhas adicionais para criar tantas ligações quantas desejar.
+- **Guardar ligações**: clique no botão "Adicionar ligação de rodapé" para guardar ligações.
 
 
 
@@ -641,8 +641,8 @@ Acessível através de `Administração > Identidade` (ou `Configurações > Ide
 
 
 
-- Nome da empresa**: nome oficial da empresa.
-- ID da empresa**: identificador legal ou número de registo (RCCM, SIRET...).
+- **Nome da empresa**: nome oficial da empresa.
+- **ID da empresa**: identificador legal ou número de registo (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ Acessível através de `Administração > Identidade` (ou `Configurações > Ide
 
 
 
-- Rua**: Address postal (rua, número...).
-- País**: país.
-- Estado**: província ou região.
-- Cidade**: cidade.
-- Código postal**: código postal.
+- **Rua**: Address postal (rua, número...).
+- **País**: país.
+- **Estado**: província ou região.
+- **Cidade**: cidade.
+- **Código postal**: código postal.
 
 
 
@@ -666,8 +666,8 @@ Acessível através de `Administração > Identidade` (ou `Configurações > Ide
 
 
 
-- Email**: email profissional Address.
-- Telefone**: número de telefone da empresa.
+- **Email**: email profissional Address.
+- **Telefone**: número de telefone da empresa.
 
 
 
@@ -677,10 +677,10 @@ Acessível através de `Administração > Identidade` (ou `Configurações > Ide
 
 
 
-- Nome do titular da conta**: nome do titular da conta.
-- Titular da conta Address**: Address do titular.
-- IBAN**: Número internacional de conta bancária.
-- BIC**: Código SWIFT/BIC.
+- **Nome do titular da conta**: nome do titular da conta.
+- **Titular da conta Address**: Address do titular.
+- **IBAN**: Número internacional de conta bancária.
+- **BIC**: Código SWIFT/BIC.
 
 
 
@@ -695,7 +695,7 @@ Acessível através de `Administração > Identidade` (ou `Configurações > Ide
 
 
 - Clique em `Preencher com as informações da loja principal` para pré-preencher os dados.
-- Informação do emitente no canto superior direito**: campo para informações jurídicas/fiscais visíveis nas facturas.
+- **Informação do emitente no canto superior direito**: campo para informações jurídicas/fiscais visíveis nas facturas.
 - Clique em `Update` para guardar as alterações.
 
 
@@ -742,9 +742,9 @@ Aceder a `Administração > Mercadoria > Produtos` para acrescentar ou modificar
 
 
 
-- Nome do produto**: nome do produto (por exemplo, *BOP T-shirt edição limitada*).
-- Slug**: Identificador de URL sem espaços (por exemplo, `tshirt-bop-edition-limitee`).
-- Alias** *(opcional)*: útil para uma adição rápida ao cesto através de um campo específico.
+- **Nome do produto**: nome do produto (por exemplo, *BOP T-shirt edição limitada*).
+- **Slug**: Identificador de URL sem espaços (por exemplo, `tshirt-bop-edition-limitee`).
+- **Alias** *(opcional)*: útil para uma adição rápida ao cesto através de um campo específico.
 
 
 
@@ -758,9 +758,9 @@ Aceder a `Administração > Mercadoria > Produtos` para acrescentar ou modificar
 
 
 
-- Preço Montante**: preço do produto (por exemplo, `25.00`).
-- Moeda do preço**: moeda (EUR, USD, BTC, etc.).
-- Produtos especiais** :
+- **Preço Montante**: preço do produto (por exemplo, `25.00`).
+- **Moeda do preço**: moeda (EUR, USD, BTC, etc.).
+- **Produtos especiais**:
   - este é um produto gratuito.
   - este é um produto do tipo "pague o que quiser".
 
@@ -772,14 +772,14 @@ Aceder a `Administração > Mercadoria > Produtos` para acrescentar ou modificar
 
 
 
-- Produto único (standalone)**: só é possível uma adição por encomenda (por exemplo, donativo, bilhete de entrada).
-- Produto com variações** :
+- **Produto único (standalone)**: só é possível uma adição por encomenda (por exemplo, donativo, bilhete de entrada).
+- **Produto com variações**:
   - Não verificar `Standalone`.
   - Marcar `Produto com ligeiras variações (sem diferença de stock)`.
-  - Adicionar :
-    - Nome** (por exemplo, *Tamanho*),
-    - Valores** (por exemplo: S, M, L, XL),
-    - Diferenças de preço** se aplicável (por exemplo: `+2 USD` para XL).
+  - Adicionar:
+- **Nome** (por exemplo, *Tamanho*),
+- **Valores** (por exemplo: S, M, L, XL),
+- **Diferenças de preço** se aplicável (por exemplo: `+2 USD` para XL).
 
 
 
@@ -803,14 +803,14 @@ Se o seu produto não estiver disponível em quantidades ilimitadas, selecione `
 
 
 
-O sistema gere :
+O sistema gere:
 
 
 
 
 
-- Existências reservadas** → produtos em cabazes ainda não pagos
-- Stock vendido** → produtos já comprados
+- **Existências reservadas** → produtos em cabazes ainda não pagos
+- **Stock vendido** → produtos já comprados
 
 
 
@@ -832,8 +832,8 @@ Marcar `O produto tem um componente físico que será enviado para o Address do 
 
 
 
-- Bilhete**: assinalar se o produto for um bilhete para um evento
-- Reserva**: verificar se se trata de uma faixa horária de reserva (por exemplo: sessão, marcação)
+- **Bilhete**: assinalar se o produto for um bilhete para um evento
+- **Reserva**: verificar se se trata de uma faixa horária de reserva (por exemplo: sessão, marcação)
 
 
 
@@ -872,7 +872,7 @@ Aceda a `Admin > Mercadoria > CMS`. Verá uma lista das páginas existentes e po
 
 
 
-As páginas CMS são importantes para :
+As páginas CMS são importantes para:
 
 
 
@@ -898,7 +898,7 @@ Pode acrescentar outras páginas, se necessário:
 
 
 
-**Dica: Clique em cada ligação ou ícone para modificar o **conteúdo**, o **título** ou a **visibilidade do site** de cada página.
+**Dica: Clique em cada ligação ou ícone para modificar o** **conteúdo**, **o** **título** **ou a** **visibilidade do site** **de cada página.**
 
 
 
@@ -906,7 +906,7 @@ Pode acrescentar outras páginas, se necessário:
 
 
 
-Aceder a : `Admin > Mercadoria > Layout`. Pode personalizar o visual Elements do seu site:
+Aceder a: `Admin > Mercadoria > Layout`. Pode personalizar o visual Elements do seu site:
 
 
 
@@ -932,7 +932,7 @@ Aceder a : `Admin > Mercadoria > Layout`. Pode personalizar o visual Elements do
 
 
 - Presente na área cinzenta por baixo da barra superior
-- Contém acesso rápido a : `Config`, `Configurações de pagamento`, `Transação`, `Gestão de nós`, `Widgets`, etc.
+- Contém acesso rápido a: `Config`, `Configurações de pagamento`, `Transação`, `Gestão de nós`, `Widgets`, etc.
 - Apenas diretores
 
 
@@ -956,7 +956,7 @@ Ir para: `Admin > Mercadorias > Imagens`
 
 
 
-Pode :
+Pode:
 
 
 
@@ -983,7 +983,7 @@ Também modificável em `Imagens`, permite-lhe apresentar um **resumo ou slogan*
 
 
 
-Os widgets** enriquecem as suas páginas CMS com Elements dinâmicos ou visuais.
+Os **widgets** enriquecem as suas páginas CMS com Elements dinâmicos ou visuais.
 
 
 
@@ -1001,14 +1001,14 @@ Exemplos de widgets disponíveis:
 
 
 
-- Challenges**: desafios ou missões
-- Etiquetas**: categorias ou palavras-chave
-- Sliders**: carrosséis de imagens
-- Especificações** : Tabelas de especificações
-- Formulários**: formulários (contacto, feedback, etc.)
-- Contagem decrescente**: temporizadores
-- Galerias**: galerias de imagens
-- Tabelas de classificação**: classificações dos utilizadores
+- **Challenges**: desafios ou missões
+- **Etiquetas**: categorias ou palavras-chave
+- **Sliders**: carrosséis de imagens
+- **Especificações**: Tabelas de especificações
+- **Formulários**: formulários (contacto, feedback, etc.)
+- **Contagem decrescente**: temporizadores
+- **Galerias**: galerias de imagens
+- **Tabelas de classificação**: classificações dos utilizadores
 
 
 
@@ -1033,7 +1033,7 @@ Utilize **códigos de acesso** no conteúdo das suas páginas CMS:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Parâmetros actuais** :
+**Parâmetros actuais**:
 
 
 
@@ -1046,7 +1046,7 @@ Utilize **códigos de acesso** no conteúdo das suas páginas CMS:
 
 
 
-**Vantagens** :
+**Vantagens**:
 
 
 
@@ -1103,7 +1103,7 @@ Estes filtros facilitam as pesquisas rápidas e a gestão direcionada.
 
 
 
-Ao clicar numa encomenda, pode aceder a um ficheiro completo que contém :
+Ao clicar numa encomenda, pode aceder a um ficheiro completo que contém:
 
 
 
@@ -1120,7 +1120,7 @@ Ao clicar numa encomenda, pode aceder a um ficheiro completo que contém :
 
 
 
-Pode :
+Pode:
 
 
 
@@ -1141,7 +1141,7 @@ Pode :
 
 
 
-Para aceder às estatísticas de vendas e pagamentos :
+Para aceder às estatísticas de vendas e pagamentos:
 
 
 administrador > Definições > Relatórios
@@ -1166,9 +1166,9 @@ Os relatórios estão divididos em secções:
 
 
 
-- Detalhe da encomenda**: número de encomendas, estado (confirmado, cancelado, pendente), evolução
-- Detalhe do produto**: produtos vendidos, quantidades, produtos populares
-- Detalhe do pagamento**: montantes cobrados, repartição por método de pagamento
+- **Detalhe da encomenda**: número de encomendas, estado (confirmado, cancelado, pendente), evolução
+- **Detalhe do produto**: produtos vendidos, quantidades, produtos populares
+- **Detalhe do pagamento**: montantes cobrados, repartição por método de pagamento
 
 
 
@@ -1176,7 +1176,7 @@ Os relatórios estão divididos em secções:
 
 
 
-Cada secção inclui um botão **Exportar CSV**, que lhe permite :
+Cada secção inclui um botão **Exportar CSV**, que lhe permite:
 
 
 
@@ -1217,7 +1217,7 @@ A plataforma suporta o protocolo **Nostr** para certas funções avançadas:
 
 
 
-Ir para :
+Ir para:
 
 
 admin > Gerenciamento de nós > Nostr
@@ -1262,7 +1262,7 @@ Uma vez configurado, estão disponíveis várias funções:
 
 
 
-**Administração de luz Interface
+**Administração de luz Interface**
 
 
 
@@ -1273,7 +1273,7 @@ Uma vez configurado, estão disponíveis várias funções:
 
 
 
-**Ligação sem palavra-passe
+**Ligação sem palavra-passe**
 
 
 
@@ -1304,15 +1304,15 @@ Aqui encontra todas as opções para **criar** e **configurar** um tema personal
 
 
 
-Ao criar ou modificar um tema, o utilizador pode definir :
+Ao criar ou modificar um tema, o utilizador pode definir:
 
 
 
 
 
-- Cores**: para botões, fundos, texto, ligações, etc.
-- Tipos de letra**: escolha de tipos de letra para títulos, parágrafos, menus
-- Estilos gráficos**: limites, margens, espaçamento, formas de blocos
+- **Cores**: para botões, fundos, texto, ligações, etc.
+- **Tipos de letra**: escolha de tipos de letra para títulos, parágrafos, menus
+- **Estilos gráficos**: limites, margens, espaçamento, formas de blocos
 
 
 
@@ -1326,9 +1326,9 @@ Cada parte do sítio pode ser ajustada de forma independente:
 
 
 
-- Cabeçalho**: barra de navegação superior
-- Corpo**: conteúdo principal
-- Rodapé** : fundo da página
+- **Cabeçalho**: barra de navegação superior
+- **Corpo**: conteúdo principal
+- **Rodapé**: fundo da página
 
 
 
@@ -1340,7 +1340,7 @@ Cada parte do sítio pode ser ajustada de forma independente:
 
 
 
-Quando o tema estiver configurado :
+Quando o tema estiver configurado:
 
 
 
@@ -1371,14 +1371,14 @@ A plataforma permite-lhe personalizar as mensagens de correio eletrónico enviad
 
 
 
-Cada correio eletrónico (confirmação de encomenda, palavra-passe esquecida, etc.) tem :
+Cada correio eletrónico (confirmação de encomenda, palavra-passe esquecida, etc.) tem:
 
 
 
 
 
-- Assunto**: o assunto da mensagem de correio eletrónico (por exemplo, "A sua encomenda foi validada")
-- Corpo HTML**: Conteúdo HTML apresentado na mensagem de correio eletrónico
+- **Assunto**: o assunto da mensagem de correio eletrónico (por exemplo, "A sua encomenda foi validada")
+- **Corpo HTML**: Conteúdo HTML apresentado na mensagem de correio eletrónico
 
 
 
@@ -1390,14 +1390,14 @@ Cada correio eletrónico (confirmação de encomenda, palavra-passe esquecida, e
 
 
 
-Para tornar as mensagens electrónicas dinâmicas, insira variáveis como :
+Para tornar as mensagens electrónicas dinâmicas, insira variáveis como:
 
 
 
 
 
-- `{orderNumber}}` : substituído pelo número de encomenda atual
-- `{invoiceLink}} : ligação para o Invoice
+- `{orderNumber}}`: substituído pelo número de encomenda atual
+- `{invoiceLink}}: ligação para o Invoice
 - `{websiteLink}}: URL do seu sítio web
 
 
@@ -1444,9 +1444,9 @@ Preencher os seguintes campos:
 
 
 
-- Nome da etiqueta**: nome da etiqueta apresentada
-- Slug**: identificador único (sem espaços ou acentos)
-- Família de etiquetas**: agrupa etiquetas por categoria
+- **Nome da etiqueta**: nome da etiqueta apresentada
+- **Slug**: identificador único (sem espaços ou acentos)
+- **Família de etiquetas**: agrupa etiquetas por categoria
 
 
 
@@ -1454,7 +1454,7 @@ Preencher os seguintes campos:
 
 
 
-#### Famílias disponíveis :
+#### Famílias disponíveis:
 
 
 
@@ -1479,9 +1479,9 @@ Estes campos podem ser utilizados para enriquecer uma etiqueta como se fosse uma
 
 - Título
 - Subtítulo
-- Conteúdo curto**
-- Conteúdo integral** (em francês)
-- CTAs** (botões de ação)
+- **Conteúdo curto**
+- **Conteúdo integral** (em francês)
+- **CTAs** (botões de ação)
 
 
 
@@ -1489,7 +1489,7 @@ Estes campos podem ser utilizados para enriquecer uma etiqueta como se fosse uma
 
 
 
-As etiquetas podem ser :
+As etiquetas podem ser:
 
 
 
@@ -1515,13 +1515,13 @@ Para oferecer documentos descarregáveis aos seus clientes: `Admin > Mercadoria 
 1. Clique em **Novo ficheiro**
 
 
-2. Informar :
+2. Informar:
 
 
 
 
-   - Nome do ficheiro** (por exemplo, *Guia de instalação*)
-   - Ficheiro a carregar** (PDF, imagem, Word...)
+- **Nome do ficheiro** (por exemplo, *Guia de instalação*)
+- **Ficheiro a carregar** (PDF, imagem, Word...)
 
 
 
@@ -1533,13 +1533,13 @@ Para oferecer documentos descarregáveis aos seus clientes: `Admin > Mercadoria 
 
 
 
-Esta ligação pode então ser inserida no :
+Esta ligação pode então ser inserida no:
 
 
 
 
 
-- Página CMS** (como ligação de texto ou botão)
+- Página **CMS** (como ligação de texto ou botão)
 - Um **cliente de correio eletrónico** (através de um modelo)
 - Uma **folha do produto** (por exemplo, descarregamento do manual)
 
@@ -1583,7 +1583,7 @@ Aceder a: Gestão de nós > Nostr
 
 
 - Ativar uma mensagem automática na **primeira interação do utilizador**
-- Ideal para :
+- Ideal para:
   - Apresentar o seu serviço
   - Enviar uma ligação útil (por exemplo, FAQ, contacto, encomenda)
 
@@ -1629,19 +1629,19 @@ Para o fazer, aceda a: `Configurações > Idioma`
 
 
 
-Os ficheiros de tradução estão em JSON. Pode :
+Os ficheiros de tradução estão em JSON. Pode:
 
 
 
 
 
-- Descarregar** ficheiros de línguas
-- Alterar** textos existentes
-- Adicionar** as suas próprias traduções
+- Descarregar **ficheiros de línguas**
+- **Alterar** textos existentes
+- Adicionar **as suas próprias traduções**
 
 
 
-Ligação aos ficheiros originais :
+Ligação aos ficheiros originais:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations] (https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,15 +1672,15 @@ Clique em **Criar uma função** para criar uma função (por exemplo, `Super Ad
 
 
 
-Cada função contém :
+Cada função contém:
 
 
 
 
 
-- acesso de escrita**: acesso de escrita
-- acesso de leitura**: acesso de leitura
-- acesso proibido**: secções interditas
+- **acesso de escrita**: acesso de escrita
+- **acesso de leitura**: acesso de leitura
+- **acesso proibido**: secções interditas
 
 
 
@@ -1688,7 +1688,7 @@ Cada função contém :
 
 
 
-No mesmo menu `Admin > Definições > ARM`, adicione um utilizador com :
+No mesmo menu `Admin > Definições > ARM`, adicione um utilizador com:
 
 
 
@@ -1709,7 +1709,7 @@ Atribuir uma função previamente definida.
 
 
 
-Os utilizadores só de leitura** verão os menus em *italic* e não poderão modificar o conteúdo.
+Os utilizadores **só de leitura** verão os menus em *italic* e não poderão modificar o conteúdo.
 
 
 
@@ -1760,7 +1760,7 @@ Em `/cart`, um campo permite-lhe adicionar um produto:
 
 
 
-POS suporta :
+POS suporta:
 
 
 
@@ -1779,8 +1779,8 @@ Estão disponíveis duas opções avançadas:
 
 
 
-- Isenção de IVA** : aplicável mediante justificação (ONG, estrangeiros...)
-- Desconto de oferta**: desconto excecional com comentário obrigatório
+- **Isenção de IVA**: aplicável mediante justificação (ONG, estrangeiros...)
+- **Desconto de oferta**: desconto excecional com comentário obrigatório
 
 
 

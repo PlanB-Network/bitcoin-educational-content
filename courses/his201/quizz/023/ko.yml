@@ -1,0 +1,9 @@
+question: Satoshi 나카모토는 2008년 10월 31일에 Bitcoin 백서를 어디에서 발행했나요?
+answer: 암호화 메일링 리스트
+wrong_answers:
+  - Reddit
+  - 트위터
+  - 해커뉴스
+explanation: |
+  사이퍼펑크 메일링 리스트의 후신인 이 이메일 메일링 리스트는 1996년부터 개발자 페리 메츠거가 관리하고 있습니다.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Vilka är de två viktigaste egenskaperna hos Bitcoin?
+answer: Bitcoin är både ett datorprotokoll och en monetär enhet.
+wrong_answers:
+  - Bitcoin är både en fysisk valuta och en digital Wallet.
+  - Bitcoin är både en typ av aktie och en typ av obligation.
+  - Bitcoin är både en centraliserad och en decentraliserad valuta.
+explanation: |
+  Bitcoin är både ett datorprotokoll som använder tekniker
+  som kryptografi och Blockchain, och även en monetär enhet som
+  monetär enhet som används för transaktioner.
+reviewed: true

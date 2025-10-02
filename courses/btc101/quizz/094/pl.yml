@@ -1,14 +1,11 @@
-question: Jakie jest ryzyko korzystania z Multisig Wallet?
-answer: Brak dostępu do wystarczającej liczby indywidualnych kluczy prywatnych lub komponentów kopii zapasowych.
+question: Jaka jest standardowa metoda przywracania Wallet?
+answer: Wprowadzanie frazy Mnemonic do dowolnego oprogramowania Wallet.
 wrong_answers:
-  - Posiadanie dostępu do wystarczającej liczby indywidualnych kluczy prywatnych lub komponentów kopii zapasowych.
-  - Udostępnianie kluczy prywatnych innym stronom.
-  - Udostępnianie kluczy publicznych innym stronom.
+  - Zapisywanie frazy Mnemonic w pliku cyfrowym.
+  - Zapisanie frazy Mnemonic na tablicy.
+  - Dzielenie się frazą Mnemonic z zaufanym przyjacielem.
 explanation: |
-  W przypadku korzystania z Multisig Wallet, każdy klucz prywatny
-  Multisig powinien być przechowywany w różnych lokalizacjach. Dzieje się tak
-  ponieważ Multisig wymaga wielu podpisów do przeprowadzenia
-  transakcji, więc potrzebna jest pewna liczba portfeli
-  portfeli. Zatem przechowywanie każdej części w innej lokalizacji
-  dodaje dodatkowy Layer bezpieczeństwa.
-reviewed: true
+  Standardową metodą tworzenia kopii zapasowej klucza prywatnego w urządzeniu
+  Bitcoin Wallet jest wprowadzenie frazy Mnemonic do dowolnego oprogramowania
+  Wallet. Umożliwia to przywrócenie Wallet.
+reviewed: false

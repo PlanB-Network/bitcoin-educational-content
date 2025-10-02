@@ -18,7 +18,7 @@ Peach je výměnná platforma P2P, která uživatelům umožňuje nakupovat a pr
 
 ### 2. Ochrana soukromí a shromažďování údajů
 
-**Jaké informace Peach shromažďuje?
+**Jaké informace Peach shromažďuje?**
 
 Společnost Peach se snaží ukládat naprosté minimum údajů o svých uživatelích. Zde je přehled údajů uložených na jejích serverech:
 
@@ -36,7 +36,7 @@ Připomínáme, že hash je podobně jako šifrování nerozpoznatelný údaj. S
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Kdo může vidět mé platební údaje?
+**Kdo může vidět mé platební údaje?**
 
 
 - Vaše platební údaje vidí pouze vaše protistrana
@@ -68,17 +68,17 @@ Aplikace Peach je uspořádána do čtyř hlavních obrazovek přístupných ze 
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Domů** : Hlavní obrazovka pro nákup a prodej bitcoinů. Zde můžete vytvářet nové transakce a přistupovat k dostupným nabídkám.
-- Peněženka**: Vaše integrovaná bitcoinová peněženka, která vám umožní :
+- **Domů**: Hlavní obrazovka pro nákup a prodej bitcoinů. Zde můžete vytvářet nové transakce a přistupovat k dostupným nabídkám.
+- **Peněženka**: Vaše integrovaná bitcoinová peněženka, která vám umožní :
  - Zkontrolujte si zůstatek
  - Přijímání bitcoinů
  - Odeslat bitcoiny
  - Zobrazení historie transakcí
-- Živnosti** : Vaše centrum pro správu obchodu, kde najdete :
+- **Živnosti**: Vaše centrum pro správu obchodu, kde najdete:
  - Vaše aktuální transakce
  - Kompletní historie vašich výměn
  - Stav každé transakce
-- Nastavení** : Konfigurační centrum vašeho účtu pro :
+- **Nastavení**: Konfigurační centrum vašeho účtu pro :
  - Správa platebních metod
  - Konfigurace zálohování
  - Přizpůsobení předvoleb
@@ -90,7 +90,7 @@ Aplikace Peach je uspořádána do čtyř hlavních obrazovek přístupných ze 
 
 Přístup k platebním metodám přes kartu Nastavení (obrázek 8)
 
-**Online platby
+**Online platby**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -149,7 +149,7 @@ Platební systémy specifické pro jednotlivé země :
 
 ### 4. Jak zabezpečit své portfolio
 
-**Pochopení účtu Peach
+**Pochopení účtu Peach**
 
 Účet Peach není tradiční účet s přihlašovacím jménem a heslem. Jedná se o soubor uložený lokálně v telefonu, což znamená, že Peach nepotřebuje ukládat vaše údaje ani znát vaši identitu: vy máte vše pod kontrolou. Tento soubor obsahuje všechny vaše údaje, od klíčů k bitcoinové peněžence až po platební údaje.
 
@@ -269,16 +269,16 @@ Pro optimální zabezpečení doporučujeme provádět oba typy zálohování.
 ### Výhody broskví
 
 
-- KYC není vyžadováno**: Zachovává důvěrnost informací o uživateli.
-- Žádný přístup k bankovním údajům**: Peach nemá přístup k vašim bankovním údajům ani k vaší identitě.
-- Intuitivní rozhraní**: Snadné použití pro středně pokročilé uživatele.
-- Open Source** : Zdrojový kód je veřejný a ověřitelný komunitou.
+- **KYC není vyžadováno**: Zachovává důvěrnost informací o uživateli.
+- **Žádný přístup k bankovním údajům**: Peach nemá přístup k vašim bankovním údajům ani k vaší identitě.
+- **Intuitivní rozhraní**: Snadné použití pro středně pokročilé uživatele.
+- **Open Source**: Zdrojový kód je veřejný a ověřitelný komunitou.
 
 ### Nevýhody broskví
 
 
-- Omezená likvidita**: Menší objem obchodů než u zavedenějších platforem.
-- Regulační riziko** : Aplikaci spravuje švýcarská společnost. Podléhá proto švýcarským předpisům, které se mohou vyvíjet a případně aplikaci cenzurovat.
+- **Omezená likvidita**: Menší objem obchodů než u zavedenějších platforem.
+- **Regulační riziko**: Aplikaci spravuje švýcarská společnost. Podléhá proto švýcarským předpisům, které se mohou vyvíjet a případně aplikaci cenzurovat.
 
 ## Užitečné zdroje
 

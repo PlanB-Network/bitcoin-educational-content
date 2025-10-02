@@ -1,5 +1,5 @@
 ---
-name: Blockstream Aplikacija - Onchain
+name: Blockstream App - Onchain
 description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte onchain transakcijama
 ---
 ![cover](assets/cover.webp)
@@ -30,8 +30,8 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Početnici**: Korisnici koji žele da upravljaju svojim bitkoinima putem intuitivne mobilne aplikacije.
-- Korisnici srednjeg nivoa**: Ljudi koji žele da razumeju funkcionalnosti na lancu i opcije privatnosti kao što su Tor ili SPV.
+- **Početnici**: Korisnici koji žele da upravljaju svojim bitkoinima putem intuitivne mobilne aplikacije.
+- **Korisnici srednjeg nivoa**: Ljudi koji žele da razumeju funkcionalnosti na lancu i opcije privatnosti kao što su Tor ili SPV.
 
 
 
@@ -41,14 +41,14 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: svi nazivi za aplikaciju instaliranu na pametnom telefonu, računaru ili bilo kojem uređaju povezanom na Internet, omogućavajući upravljanje i osiguranje privatnih ključeva sa Bitcoin Wallet.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: svi nazivi za aplikaciju instaliranu na pametnom telefonu, računaru ili bilo kojem uređaju povezanom na Internet, omogućavajući upravljanje i osiguranje privatnih ključeva sa Bitcoin Wallet.
 - Za razliku od **hardverskih novčanika**, poznatih i kao **Cold novčanici**, koji izoluju ključeve van mreže, softverski novčanici rade u povezanom okruženju, što ih čini podložnijim sajber napadima.
 
 
 
 
 
-- Preporučena upotreba** :
+- **Preporučena upotreba**:
     - Idealno za upravljanje umerenim količinama Bitcoin, posebno za dnevne transakcije.
     - Pogodan za početnike ili korisnike sa ograničenim sredstvima, za koje Hardware Wallet može delovati suvišno.
 
@@ -56,7 +56,7 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Ograničenja**: Manje siguran za čuvanje velikih sredstava ili dugoročnu štednju. U tom slučaju, izaberite Hardware Wallet.
+- **Ograničenja**: Manje siguran za čuvanje velikih sredstava ili dugoročnu štednju. U tom slučaju, izaberite Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Blockstream App** je mobilna (iOS, Android) i desktop aplikacija za upravljanje Bitcoin portfolijima i imovinom na Liquid Network. Kupljena od strane [Blockstream](https://blockstream.com/) 2016. godine, ranije je bila nazvana *Green Address* a zatim *Blockstream Green*.
-- Ključne karakteristike** :
-    - Onchain** transakcije na Blockchain Bitcoin.
+- **Blockstream App** je mobilna (iOS, Android) i desktop aplikacija za upravljanje Bitcoin portfolijima i imovinom na Liquid Network. Kupljena od strane [Blockstream](https://blockstream.com/) 2016. godine, ranije je bila nazvana *Green Address* a zatim *Blockstream Green*.
+- **Ključne karakteristike**:
+- **Onchain** transakcije na Blockchain Bitcoin.
     - Mrežne transakcije **Liquid** (Sidechain za brze, poverljive razmene).
-    - Portfelji samo za gledanje** za praćenje fondova bez pristupa ključevima.
+- **Portfelji samo za gledanje** za praćenje fondova bez pristupa ključevima.
     - Opcije privatnosti: povezivanje putem **Tor**-a, povezivanje na **lični čvor** putem Electrum-a, ili **SPV** verifikacija za smanjenje zavisnosti od čvorova trećih strana.
     - Funkcije **Replace-by-fee (RBF)** za ubrzavanje nepotvrđenih transakcija.
-- Kompatibilnost**: Integrira hardverske novčanike kao što je **Blockstream Jade**.
-- Interface**: Intuitivan za početnike, sa naprednim opcijama za stručnjake.
-- Napomena**: Ovaj vodič se fokusira na upotrebu na lancu. Drugi tutorijali u dodacima pokrivaju Liquid, samo za gledanje i desktop verziju.
+- **Kompatibilnost**: Integrira hardverske novčanike kao što je **Blockstream Jade**.
+- **Interface**: Intuitivan za početnike, sa naprednim opcijama za stručnjake.
+- **Napomena**: Ovaj vodič se fokusira na upotrebu na lancu. Drugi tutorijali u dodacima pokrivaju Liquid, samo za gledanje i desktop verziju.
 
 
 
@@ -90,12 +90,12 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Za Android** :
+- **Za Android**:
     - Preuzmite [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) sa Google Play Store-a.
     - Alternativa: Instalirajte putem APK datoteke dostupne na [Blockstream-ovom zvaničnom GitHub-u](https://github.com/Blockstream/green_android).
-- Za iOS** :
+- Za **iOS**:
     - Preuzmite [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) iz App Store-a.
-- Napomena**: Obavezno preuzmite sa zvaničnih izvora kako biste izbegli lažne aplikacije.
+- **Napomena**: Obavezno preuzmite sa zvaničnih izvora kako biste izbegli lažne aplikacije.
 
 
 
@@ -105,7 +105,7 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Početni ekran**: Kada se prvi put otvori, aplikacija prikazuje ekran bez konfigurisanog Wallet. Kreirani ili uvezeni portfoliji će se kasnije pojaviti ovde.
+- **Početni ekran**: Kada se prvi put otvori, aplikacija prikazuje ekran bez konfigurisanog Wallet. Kreirani ili uvezeni portfoliji će se kasnije pojaviti ovde.
 
 
 
@@ -115,7 +115,7 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Prilagodite postavke**: Kliknite na "Postavke aplikacije", prilagodite opcije ispod, kliknite na "Sačuvaj", restartujte aplikaciju i kreirajte svoj portfolio.
+- **Prilagodite postavke**: Kliknite na "Postavke aplikacije", prilagodite opcije ispod, kliknite na "Sačuvaj", restartujte aplikaciju i kreirajte svoj portfolio.
 
 
 
@@ -129,8 +129,8 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Funkcija**: Onemogućava snimke ekrana, skriva preglede aplikacija u upravitelju zadataka i zaključava pristup kada je telefon zaključan.
-- Zašto?** : Štiti vaše podatke od neovlašćenog fizičkog pristupa ili zlonamernog softvera za snimanje ekrana.
+- **Funkcija**: Onemogućava snimke ekrana, skriva preglede aplikacija u upravitelju zadataka i zaključava pristup kada je telefon zaključan.
+- **Zašto?**: Štiti vaše podatke od neovlašćenog fizičkog pristupa ili zlonamernog softvera za snimanje ekrana.
 
 
 #### 3.2.2. Povezivanje putem Tor-a
@@ -139,10 +139,10 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Funkcija**: Usmeravanje mrežnog saobraćaja putem **Tor**-a, anonimne mreže koja šifrira vaše veze.
-- Zašto?**: Sakrijte svoj IP Address i zaštitite svoju privatnost, idealno ako ne verujete svojoj mreži (na primer, javni Wi-Fi).
-- Nedostatak**: Može usporiti aplikaciju zbog enkripcije.
-- Preporuka**: Aktivirajte Tor ako je poverljivost prioritet, ali testirajte brzinu veze.
+- **Funkcija**: Usmeravanje mrežnog saobraćaja putem **Tor**-a, anonimne mreže koja šifruje vaše veze.
+- **Zašto?**: Sakrijte svoj IP Address i zaštitite svoju privatnost, idealno ako ne verujete svojoj mreži (na primer, javni Wi-Fi).
+- **Nedostatak**: Može usporiti aplikaciju zbog enkripcije.
+- **Preporuka**: Aktivirajte Tor ako je poverljivost prioritet, ali testirajte brzinu veze.
 
 
 #### 3.2.3. Povezivanje na lični čvor
@@ -151,10 +151,10 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Funkcija**: Povezuje aplikaciju sa vašim sopstvenim **kompletnim Bitcoin čvorom** putem **Electrum** servera.
-- Zašto?**: Pruža potpunu kontrolu nad Blockchain podacima, eliminišući zavisnost od Blockstream servera.
-- Preduslov**: Konfigurisani Bitcoin čvor.
-- Preporuka**: Napredni korisnici koji traže maksimalni suverenitet.
+- **Funkcija**: Povezuje aplikaciju sa vašim sopstvenim **kompletnim Bitcoin čvorom** putem **Electrum** servera.
+- **Zašto?**: Pruža potpunu kontrolu nad Blockchain podacima, eliminišući zavisnost od Blockstream servera.
+- **Preduslov**: Konfigurisani Bitcoin čvor.
+- **Preporuka**: Napredni korisnici koji traže maksimalni suverenitet.
 
 
 #### 3.2.4. SPV verifikacija
@@ -163,10 +163,10 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Funkcija**: Koristi **Simplified Payment Verification (SPV)** za direktnu verifikaciju određenih Blockchain podataka bez preuzimanja celog lanca.
-- Zašto?**: Smanjuje zavisnost od podrazumevanog čvora Blockstream-a, dok ostaje lagan za mobilne uređaje.
-- Nedostatak**: Manje siguran od Full node, jer se oslanja na čvorove trećih strana za neke informacije.
-- Preporuka**: Aktivirajte SPV ako ne možete koristiti lični čvor, ali preferirajte Full node za optimalnu sigurnost.
+- **Funkcija**: Koristi **Simplified Payment Verification (SPV)** za direktnu verifikaciju određenih Blockchain podataka bez preuzimanja celog lanca.
+- **Zašto?**: Smanjuje zavisnost od podrazumevanog čvora Blockstream-a, dok ostaje lagan za mobilne uređaje.
+- **Nedostatak**: Manje siguran od Full node, jer se oslanja na čvorove trećih strana za neke informacije.
+- **Preporuka**: Aktivirajte SPV ako ne možete koristiti lični čvor, ali preferirajte Full node za optimalnu sigurnost.
 
 
 
@@ -182,7 +182,7 @@ description: Postavite Blockstream aplikaciju na mobilni uređaj i upravljajte o
 
 
 
-- Upozorenje**: Postavite svoj portfolio u privatnom okruženju, bez kamera ili posmatrača.
+- **Upozorenje**: Postavite svoj portfolio u privatnom okruženju, bez kamera ili posmatrača.
 - Sa početnog ekrana, kliknite na "Get Started" :
 
 
@@ -360,7 +360,7 @@ Zaključajte pristup aplikaciji jakim PIN kodom:
 
 
 
-- Opcije** :
+- **Opcije**:
     - (1) "Bitcoin": kliknite da izaberete onchain ili Liquid pošiljku, i izaberite sredstvo.
     - (2) Kliknite na strelice da biste izabrali drugi novi Address povezan sa ovom seed rečenicom.
     - (3) Takođe možete izabrati Address među već korišćenim/prikazanim, klikom na tri tačke u gornjem desnom uglu, a zatim na "Lista adresa".
@@ -376,7 +376,7 @@ Zaključajte pristup aplikaciji jakim PIN kodom:
 
 
 - Podelite Address/URI klikom na "**Share**", kopiranjem teksta ili skeniranjem QR koda.
-- Verifikacija**: Proverite Address podeljen sa primaocem koliko god je moguće kako biste izbegli greške ili napade (npr. zlonamerni softver koji menja sadržaj međuspremnika).
+- **Verifikacija**: Proverite Address podeljen sa primaocem koliko god je moguće kako biste izbegli greške ili napade (npr. zlonamerni softver koji menja sadržaj međuspremnika).
 
 
 
@@ -396,7 +396,7 @@ Zaključajte pristup aplikaciji jakim PIN kodom:
 
 
 
-- Unesite detalje** :
+- Unesite **detalje**:
     - (1) Unesite **Address primaoca** lepljenjem ili skeniranjem QR koda.
     - (2) Proverite imovinu i račun sa kojeg se sredstva šalju.
     - (3) Naznačite **iznos** koji treba poslati. Možete izabrati jedinicu: BTC, satoshis, USD, ...
@@ -420,7 +420,7 @@ Minimalni iznos (dush limit) dana 03/08/2025 je 546 Sats.
 
 
 
-- Proveri** :
+- **Proveri**:
     - Proveri Address, iznos i troškove na ekranu sažetka.
     - Greška Address može rezultirati nepovratnim gubitkom sredstava. Pazite na zlonamerni softver koji menja sadržaj u međuspremniku.
 
@@ -432,8 +432,8 @@ Minimalni iznos (dush limit) dana 03/08/2025 je 546 Sats.
 
 
 
-- Potvrda**: Prevucite dugme "Pošalji" da potpišete i distribuirate transakciju.
-- Praćenje**: U Wallet kartici "Transact", transakcija se pojavljuje kao "na čekanju" dok se ne potvrdi (1 do 6 potvrda):
+- **Potvrda**: Prevucite dugme "Pošalji" da potpišete i distribuirate transakciju.
+- **Praćenje**: U Wallet kartici "Transact", transakcija se pojavljuje kao "na čekanju" dok se ne potvrdi (1 do 6 potvrda):
 
 
 
@@ -502,7 +502,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Rečnik](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Rečnik](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -517,7 +517,7 @@ Da biste koristili **Blockstream App** sigurno i efikasno, pratite ove preporuke
 
 
 
-- Osigurajte svoju frazu za oporavak** :
+- **Osigurajte svoju frazu za oporavak**:
  - Uputstvo: Čuvanje vaše Mnemonic fraze
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Koristite sigurnu autentifikaciju** :
+- **Koristite sigurnu autentifikaciju**:
  - Aktivirajte **jak PIN** ili **biometrijsku autentifikaciju** (otisak prsta ili prepoznavanje lica) kako biste zaštitili pristup aplikaciji.
  - Nikada ne delite svoj PIN ili biometrijske podatke.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Zaštitite svoju privatnost** :
+- **Zaštitite svoju privatnost**:
  - generate novi Address za svaki onchain ili Liquid prijem kako bi se ograničilo praćenje na Blockchain.
  - Aktiviraj funkcije "Enhanced Privacy", "Tor" i "SPV".
  - Za maksimalnu poverljivost, povežite svoj Wallet sa sopstvenim Bitcoin čvorom preko Electrum servera umesto korišćenja javnog čvora.
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Izaberite mrežu koja najbolje odgovara vašim potrebama** :
- - Onchain**: Preferirano za dugoročno čuvanje ili transakcije velike vrednosti (naknade zanemarljive u odnosu na iznos).
- - Liquid**: Koristite za brze, niskobudžetne transfere sa poboljšanom poverljivošću.
- - Lightning**: Odaberite trenutne, niskotarifne transfere za male iznose.
+- **Izaberite mrežu koja najbolje odgovara vašim potrebama**:
+- **Onchain**: Preferirano za dugoročno čuvanje ili transakcije velike vrednosti (naknade zanemarljive u odnosu na iznos).
+- **Liquid**: Koristite za brze, niskobudžetne transfere sa poboljšanom poverljivošću.
+- **Lightning**: Odaberite trenutne, niskotarifne transfere za male iznose.
 
 
 
 
 
-- Uvek proveravajte adrese za dostavu** :
+- **Uvek proveravajte adrese za dostavu**:
  - Pre nego što pošaljete sredstva, pažljivo proverite Address. Sredstva poslana na pogrešan Address su zauvek izgubljena. Koristite kopiranje/lepljenje ili skeniranje QR koda, nikada ne kopirajte/modifikujte Address ručno.
 
 
 
 
 
-- Optimizujte troškove** :
+- **Optimizujte troškove**:
  - Za transakcije na lancu, izaberite odgovarajuće naknade (sporo, srednje, brzo) u skladu sa hitnošću i zagušenošću mreže.
  - Koristite Liquid, ili Lightning za male količine.
 
@@ -581,16 +581,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Službeni linkovi:**
- - [Official website](https://blockstream.com/)**
- - [Podrška za mobilnu aplikaciju](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : dokumentacija i ćaskanje
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Službeni linkovi:**
+- [Official website](https://blockstream.com/)
+- [Podrška za mobilnu aplikaciju](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentacija i ćaskanje
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Blok istraživači :**
+- Blok istraživači:
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Lightning: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Učenje i tutorijali:** **[Plan ₿ Network](https://planb.network/)** :
+- **Učenje i tutorijali:** **[Plan ₿ Network](https://planb.network/)**
  - Osiguravanje vaše fraze za oporavak
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Rečnik](https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Rečnik](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Rečnik](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Rečnik](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

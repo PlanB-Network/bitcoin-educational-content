@@ -1,0 +1,9 @@
+question: Hva er den største begrensningen for Tor-kommunikasjon med noden din?
+answer: Langsomhet
+wrong_answers:
+  - Mangel på kryptering
+  - Søppelpost
+  - Umuligheten av å bruke RPC
+explanation: |
+  Tor-tilkoblinger er sikre, men langsommere enn alternativer som VPN.
+reviewed: true

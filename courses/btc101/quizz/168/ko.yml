@@ -1,0 +1,8 @@
+question: Bitcoin의 변동성을 완화하는 한 가지 방법은 무엇인가요?
+answer: 금융 헤지(스테이블코인).
+wrong_answers:
+  - Bitcoin에 모든 돈을 투자합니다.
+  - 시장 트렌드를 무시합니다.
+  - 가격이 떨어지면 Bitcoin를 더 구매합니다.
+explanation: >-
+reviewed: true

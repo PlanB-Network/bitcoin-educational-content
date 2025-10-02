@@ -1,6 +1,6 @@
 ---
-name: Kampuni ya Bitcoin
-description: Ninawezaje kununua bidhaa na huduma katika BTC na Kampuni ya Bitcoin?
+name: The Bitcoin Company
+description: Ninawezaje kununua bidhaa na huduma katika BTC na The Bitcoin company?
 ---
 ![cover](assets/cover.webp)
 
@@ -8,15 +8,15 @@ description: Ninawezaje kununua bidhaa na huduma katika BTC na Kampuni ya Bitcoi
 
 > Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Peer-to-Rika
 
-Hiyo ndiyo maana ya Bitcoin, kutumiwa rika-kwa-rika bila kuhitaji ruhusa ya mtu yeyote. Leo, wafanyabiashara wachache sana wanakubali Bitcoin katika Exchange kwa bidhaa na huduma zao (tuko mapema sana), na kufanya iwe vigumu kwa sisi ambao tunahitaji kutumia satoshis zetu. **Kampuni ya Bitcoin** iko hapa kusaidia kutatua tatizo hili, huku kuruhusu kutumia bitcoins zako **kununua kadi za zawadi**
+Hiyo ndiyo maana ya Bitcoin, kutumiwa rika-kwa-rika bila kuhitaji ruhusa ya mtu yeyote. Leo, wafanyabiashara wachache sana wanakubali Bitcoin katika Exchange kwa bidhaa na huduma zao (tuko mapema sana), na kufanya iwe vigumu kwa sisi ambao tunahitaji kutumia satoshi zetu. **The Bitcoin company** iko hapa kusaidia kutatua tatizo hili, huku kuruhusu kutumia bitcoins zako **kununua kadi za zawadi**
 
 
 
-Kuhusu somo hili, fupi kando ili kusisitiza umuhimu, kwa maoni yangu, wa kutumia Bitcoin kama njia ya malipo badala ya kuwa ghala la thamani pekee. Hakika, kama mistari hii inaandikwa, reflex ya Bitcoiners wengi sana, wakati wana fursa ya kutumia Sats yao ya thamani, ni kukataa kufanya hivyo, na badala yake kutumia euro / fiat shitcoin iliyowekwa juu yao.
+Kuhusu somo hili, fupi kando ili kusisitiza umuhimu, kwa maoni yangu, wa kutumia Bitcoin kama njia ya malipo badala ya kuwa ghala la thamani pekee. Hakika, kama mistari hii inaandikwa, reflex ya Bitcoiners wengi sana, wakati wana fursa ya kutumia Sats zao za thamani, ni kukataa kufanya hivyo, na badala yake kutumia euro / fiat shitcoin iliyowekwa juu yao.
 
 
 
-Kwa uso wake, hii inaweza kuonekana kuwa sawa, lakini inakufanya ushangae juu ya mantiki nyuma yake. Bitcoin imeundwa kutumika bila ruhusa. Je, si ni dhahiri, basi, kwamba biashara zaidi kwamba kukubali Bitcoin karibu na wewe, uchaguzi zaidi una kama Bitcoiner huru? Kwa maneno mengine, jinsi inavyokuwa rahisi kwako kutumia Sats yako bila kuomba ruhusa, ndivyo Bitcoins zako zinavyokuwa za thamani zaidi. Kwa hivyo kwa maana hii, unahitaji kuhimiza kuasili, kupendelea biashara zinazokubali Bitcoin ili kuwapa makali ya ushindani ambayo yatawahimiza wengine kufuata mfano wao.
+Kwa uso wake, hii inaweza kuonekana kuwa sawa, lakini inakufanya ushangae juu ya mantiki nyuma yake. Bitcoin imeundwa kutumika bila ruhusa. Je, si ni dhahiri, basi, kwamba biashara zaidi kwamba kukubali Bitcoin karibu na wewe, uchaguzi zaidi una kama Bitcoiner huru? Kwa maneno mengine, jinsi inavyokuwa rahisi kwako kutumia Sats zako bila kuomba ruhusa, ndivyo Bitcoins zako zinavyokuwa za thamani zaidi. Kwa hivyo kwa maana hii, unahitaji kuhimiza kuasili, kupendelea biashara zinazokubali Bitcoin ili kuwapa makali ya ushindani ambayo yatawahimiza wengine kufuata mfano wao.
 
 
 
@@ -32,11 +32,11 @@ Kwa kifupi, "tumia" & "badala" inaonekana kuwa njia ya mbele. Shiriki katika mae
 
 
 
-## Je! Kampuni ya Bitcoin ni nini?
+## Je! The Bitcoin company ni nini?
 
 
 
-**Kampuni ya Bitcoin** ni kama mshindani wake Bitrefill: ni njia ya kubadilishana bitcoins kwa kadi za zawadi za rejareja. Unaweza kuishi kwa "standard Bitcoin" shukrani kwa aina hii ya suluhisho, kwa kuunda akaunti rahisi.
+**The Bitcoin company** ni kama mshindani wake Bitrefill: ni njia ya kubadilishana bitcoins kwa kadi za zawadi za rejareja. Unaweza kuishi kwa "standard Bitcoin" shukrani kwa aina hii ya suluhisho, kwa kuunda akaunti rahisi.
 
 
 
@@ -54,7 +54,7 @@ Utapata uteuzi mpana wa wauzaji reja reja, kulingana na nchi unayotaka kununua.
 
 
 
-**Kampuni ya Bitcoin** inatoa anuwai ya bidhaa, kutoka kwa rejareja na vyakula vya haraka hadi mifumo ya utiririshaji, michezo ya mtandaoni, tovuti za biashara ya mtandaoni na nyongeza za simu.
+**The Bitcoin company** inatoa anuwai ya bidhaa, kutoka kwa rejareja na vyakula vya haraka hadi mifumo ya utiririshaji, michezo ya mtandaoni, tovuti za biashara ya mtandaoni na nyongeza za simu.
 
 
 
@@ -66,7 +66,7 @@ Ifuatayo ni uteuzi wa ishara kwa USA kama mfano:
 
 
 
-## Je, nitafunguaje akaunti ya Kampuni ya Bitcoin?
+## Je, nitafunguaje akaunti ya The Bitcoin company?
 
 
 
@@ -109,11 +109,11 @@ Mara baada ya kuchagua eneo, bonyeza "Ingia".
 
 
 
-Kisha utakuwa na chaguo kadhaa za kuingia. Aidha mchanganyiko wa kawaida wa barua pepe/nenosiri, au masuluhisho ambayo yanafaa zaidi kwa maoni yangu, kama vile kitambulisho kupitia Umeme Wallet yako.
+Kisha utakuwa na chaguo kadhaa za kuingia. Aidha mchanganyiko wa kawaida wa barua pepe/nenosiri, au suluhisho ambayo inafaa zaidi kwa maoni yangu, kama vile kitambulisho kupitia Umeme Wallet yako.
 
 
 
-Ikiwa unasoma shule ya zamani na unataka kujua jinsi ya kuunda kisanduku cha barua kilicho salama na kudhibiti manenosiri yako kwa urahisi, ninapendekeza uangalie mafunzo haya 2 mengine:
+Ikiwa unasoma shule ya zamani na unataka kujua jinsi ya kuunda kisanduku cha barua kilicho salama na kudhibiti maneno ya siri yako kwa urahisi, ninapendekeza uangalie mafunzo haya 2 mengine:
 
 
 
@@ -133,11 +133,11 @@ Katika ukurasa unaofuata, utaona msimbo wa QR ambao utahitaji kuchanganua kwa ku
 
 
 
-Kwa hivyo Umeme wako wa Wallet inakuwa njia yako ya kipekee ya utambulisho kwa tovuti zote zinazotumia itifaki hii, iitwayo LNURL-AUTH (kwa uthibitishaji).
+Kwa hivyo Umeme wako wa Wallet unakuwa njia yako ya kipekee ya utambulisho kwa tovuti zote zinazotumia itifaki hii, iitwayo LNURL-AUTH (kwa uthibitishaji).
 
 
 
-Huhitaji barua pepe ya Address au nenosiri kwa kila tovuti - Wallet yako inakutambulisha, na uwekaji kwenye keki ni kwamba utambulisho mpya unatolewa kwa kila tovuti inayotembelewa. Vitendo kutoka kwa mtazamo wa faragha.
+Hauhitaji barua pepe ya Address au nenosiri kwa kila tovuti - Wallet yako inakutambulisha, na uwekaji kwenye keki ni kwamba utambulisho mpya unatolewa kwa kila tovuti inayotembelewa. Vitendo kutoka kwa mtazamo wa faragha.
 
 
 
@@ -156,7 +156,7 @@ Kwa hivyo, tufungue Wallet Phoenix yetu, na tuchanganue msimbo wa QR ulioonyeshw
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-Papo hapo, unatambuliwa kupitia Umeme wako wa Wallet, ambayo inaweza kuwa Phoenix au nyingine bila shaka, kwa vile pochi nyingi kwenye soko hutumia kipengele hiki.
+Papo hapo, unatambuliwa kupitia Umeme wako wa Wallet, ambao unaweza kuwa Phoenix au nyingine bila shaka, kwa vile pochi nyingi kwenye soko hutumia kipengele hiki.
 
 
 
@@ -184,7 +184,7 @@ Hatimaye, hebu turudi kwenye ukurasa wa nyumbani kwa kubofya "Kadi za Zawadi" kw
 
 
 
-## Jinsi ya kununua kadi ya zawadi ya BTC kwenye Kampuni ya Bitcoin?
+## Jinsi ya kununua kadi ya zawadi ya BTC kwenye The Bitcoin company?
 
 
 
@@ -279,7 +279,7 @@ Hatimaye, unaweza kuona kadi zote za zawadi zilizonunuliwa kupitia akaunti hii w
 
 
 
-Hatimaye, ikiwa ungependa kutumia **kwenye simu ya mkononi** njia ya uthibitishaji wa Uthibitishaji wa LNURL ambayo tumeona katika mafunzo haya, utahitaji kufikia tovuti ya Kampuni ya Bitcoin kupitia kivinjari chako cha simu, kisha uongeze njia ya mkato kwenye skrini yako ya nyumbani. Programu rasmi inaruhusu tu uthibitishaji kwa barua pepe/nenosiri.
+Hatimaye, ikiwa ungependa kutumia **kwenye simu ya mkononi** njia ya Uthibitishaji wa LNURL ambayo tumeona katika mafunzo haya, utahitaji kufikia tovuti ya The Bitcoin company kupitia kivinjari chako cha simu, kisha uongeze njia ya mkato kwenye skrini yako ya nyumbani. Programu rasmi inaruhusu tu uthibitishaji kwa barua pepe/nenosiri.
 
 
 

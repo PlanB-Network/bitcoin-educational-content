@@ -52,7 +52,7 @@ Ili kufuata mradi wa Picocrypt, kuna Address moja tu:
 
 
 
-Programu ya usimbaji ya Picocrypt** inajiwasilisha kama **mbadala** kwa suluhu zingine zinazojulikana kama vile **VeraCrypt** na **Cryptomator** (*iliyoundwa kusimba data kwenye mazingira ya Wingu*), au **AxCrypt**. Kwa njia, kwenye GitHub rasmi ya Picocrypt, unaweza kupata kulinganisha na washindani wengine:
+Programu ya usimbaji ya **Picocrypt** inajiwasilisha kama **mbadala** kwa suluhu zingine zinazojulikana kama vile **VeraCrypt** na **Cryptomator** (*iliyoundwa kusimba data kwenye mazingira ya Wingu*), au **AxCrypt**. Kwa njia, kwenye GitHub rasmi ya Picocrypt, unaweza kupata kulinganisha na washindani wengine:
 
 
 
@@ -74,17 +74,17 @@ Programu ya usimbaji ya Picocrypt** inajiwasilisha kama **mbadala** kwa suluhu z
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Chanzo : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Chanzo: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt ni **nyepesi sana**, ina uzito wa **MB*3 tu, na haihitaji kusakinishwa: ni **programu inayobebeka** yenye manufaa ya kutohitaji haki za msimamizi! Walakini, haipuuzi usalama, kwani inategemea **algorithms thabiti na ya kuaminika** :
+Picocrypt ni **nyepesi sana**, ina uzito wa **MB 3** tu, na haihitaji kusakinishwa: ni **programu inayobebeka** yenye manufaa ya kutohitaji haki za msimamizi! Walakini, haipuuzi usalama, kwani inategemea **algorithms thabiti na ya kuaminika**:
 
 
 
 
 
-- XChaCha20** algoriti ya usimbaji fiche
+- **XChaCha20** algoriti ya usimbaji fiche
 - Utendakazi wa ufunguo wa kupita **Argon2**
 
 
@@ -159,11 +159,11 @@ Kabla ya kuzungumza juu ya usimbuaji wa data, hapa kuna habari kuhusu baadhi ya 
 
 
 
-- Hali ya Paranoid**: tumia kiwango cha juu zaidi cha usalama kinachotolewa na Picocrypt. Chombo hiki kitatumia algoriti kadhaa za usimbaji fiche (XChaCha20 na Serpent) na HMAC-SHA3 badala ya BLAKE2b kwa uthibitishaji wa data.
-- Reed-Solomon**: tumia *Reed-Solomon* misimbo ya kurekebisha makosa ili kuwezesha urekebishaji wa makosa kwenye data iliyoharibika. Hii hukuruhusu kuauni kiwango cha ufisadi cha karibu 3% ya faili yako.
-- Gawanya katika vipande** au **gawanya katika sehemu kadhaa**: ikiwa unasimba faili kubwa kwa njia fiche, unaweza kuomba Picocrypt iligawanye katika sehemu kadhaa. Hii inaweza kurahisisha kuhamisha faili.
-- Finya faili** au **Finya faili**: finya faili ili kupunguza ukubwa wa faili zilizosimbwa.
-- Faili zilizofutwa ** au **Fichiers supprimés**: futa faili za chanzo ili kuweka toleo lililosimbwa pekee
+- **Hali ya Paranoid**: tumia kiwango cha juu zaidi cha usalama kinachotolewa na Picocrypt. Chombo hiki kitatumia algoriti kadhaa za usimbaji fiche (XChaCha20 na Serpent) na HMAC-SHA3 badala ya BLAKE2b kwa uthibitishaji wa data.
+- **Reed-Solomon**: tumia *Reed-Solomon* misimbo ya kurekebisha makosa ili kuwezesha urekebishaji wa makosa kwenye data iliyoharibika. Hii hukuruhusu kuauni kiwango cha ufisadi cha karibu 3% ya faili yako.
+- **Gawanya katika vipande** au **gawanya katika sehemu kadhaa**: ikiwa unasimba faili kubwa kwa njia fiche, unaweza kuomba Picocrypt iligawanye katika sehemu kadhaa. Hii inaweza kurahisisha kuhamisha faili.
+- **Finya faili** au **Finya faili**: finya faili ili kupunguza ukubwa wa faili zilizosimbwa.
+- Faili zilizofutwa **au Fichiers supprimés**: futa faili za chanzo ili kuweka toleo lililosimbwa pekee
 
 
 

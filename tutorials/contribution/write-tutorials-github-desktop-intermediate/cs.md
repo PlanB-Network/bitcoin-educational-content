@@ -17,13 +17,13 @@ Už jste to udělali:
 V tomto tutoriálu se podíváme, jak přidat svůj tutoriál do sítě Plan ₿ nastavením místního prostředí pomocí aplikace GitHub Desktop. Pokud jste již zběhlí v práci se systémem Git, tento velmi podrobný návod pro vás nemusí být nutný. Doporučuji spíše konzultaci tohoto jiného tutoriálu, kde uvádím pouze hlavní pokyny, bez podrobného návodu krok za krokem:
 
 
-- Zkušení uživatelé**:
+- **Zkušení uživatelé**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Pokud nechcete nastavovat místní prostředí, postupujte podle tohoto dalšího návodu určeného pro začátečníky, kde změny provedeme přímo přes webové rozhraní GitHubu:
 
 
-- Pro začátečníky (webové rozhraní)**:
+- **Pro začátečníky (webové rozhraní)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Předpoklady
@@ -249,32 +249,32 @@ proofreading:
 
 Zde jsou povinná pole:
 
-- **id** : UUID (_Universally Unique Identifier_) umožňující jedinečně identifikovat tutoriál. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jedinou podmínkou je, aby toto UUID bylo náhodné, aby se zabránilo konfliktu s jiným UUID na platformě;
+- **id**: UUID (_Universally Unique Identifier_) umožňující jedinečně identifikovat tutoriál. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jedinou podmínkou je, aby toto UUID bylo náhodné, aby se zabránilo konfliktu s jiným UUID na platformě;
 
-- **project_id** : UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Network udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
+- **project_id**: UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Network udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
 
-- **tags** : 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Network (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Network (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Úroveň obtížnosti tutoriálu, vybraná z následujících možností:
+- **level**: Úroveň obtížnosti tutoriálu, vybraná z následujících možností:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Vaše `professor_id` (UUID), jak je zobrazeno na [vašem profesorském profilu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Vaše `professor_id` (UUID), jak je zobrazeno na [vašem profesorském profilu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Původní jazyk tutoriálu (například `fr`, `en`, atd.);
+- **original_language**: Původní jazyk tutoriálu (například `fr`, `en`, atd.);
 
-- **proofreading** : Informace o procesu korektury. Vyplňte první část, protože korektura vlastního tutoriálu se počítá jako první ověření:
-    - **language** : Kód jazyka korektury (například `fr`, `en`, atd.).
-    - **last_contribution_date** : Datum dne.
-    - **urgency** : 1
-    - **contributor_names** : Vaše GitHub ID.
-    - **reward** : 0
+- **proofreading**: Informace o procesu korektury. Vyplňte první část, protože korektura vlastního tutoriálu se počítá jako první ověření:
+    - **language**: Kód jazyka korektury (například `fr`, `en`, atd.).
+    - **last_contribution_date**: Datum dne.
+    - **urgency**: 1
+    - **contributor_names**: Vaše GitHub ID.
+    - **reward**: 0
 
-Další podrobnosti o ID učitele naleznete v příslušném výukovém kurzu :
+Další podrobnosti o ID učitele naleznete v příslušném výukovém kurzu:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -383,8 +383,8 @@ Vykřičník na začátku označuje, že se jedná o obrázek. Alternativní tex
 Pokud si chcete vytvořit vlastní diagramy, dbejte na dodržování grafické charty sítě Plan ₿, abyste zajistili vizuální konzistenci:
 
 
-- Písmo**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Barvy**:
+- **Písmo**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Barvy**:
  - Oranžová: #FF5C00
  - Černá barva: #000000
  - Bílá: #FFFFFF
@@ -448,5 +448,4 @@ Pokud chcete provést změny ve svém příspěvku poté, co jste již předlož
 - Pokud byl váš PR již sloučen s hlavní větví, musíte proces začít znovu vytvořením nové větve a následným odesláním nového PR. Před pokračováním se ujistěte, že je váš místní repozitář synchronizován se zdrojovým repozitářem sítě Plan ₿.
 
 Pokud se při odesílání výukového programu setkáte s technickými potížemi, neváhejte požádat o pomoc na [naší speciální skupině pro příspěvky na Telegramu](https://t.me/PlanBNetwork_ContentBuilder). Děkujeme!
-
 

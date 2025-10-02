@@ -1,11 +1,10 @@
-question: Které z následujících akcí mohou pomoci těm, kteří chtějí využívat Bitcoin v každodenním životě?
-answer: Mít seznam všech obchodníků, kteří přijímají Bitcoin.
+question: Jaký je jeden ze způsobů, jak získat bitcoiny bez KYC?
+answer: Bitcoinové bankomaty.
 wrong_answers:
-  - Zvýšit cenu Bitcoinu.
-  - Snížit počet Bitcoinů.
-  - Omezit používání Bitcoinu.
-explanation: >-
-  Jedním ze způsobů, jak usnadnit používání Bitcoinu v každodenních transakcích, je
-  vytvořit seznam všech obchodníků, kteří Bitcoin přijímají. To lze provést prostřednictvím platforem
-  jako je BTCMap.
+  - Brokerové platformy.
+  - DCA platformy.
+  - Bankovní převody.
+explanation: |
+  Text kurzu uvádí, že existuje několik způsobů, jak
+  získat Bitcoiny bez KYC, jedním z nich jsou bitcoinové bankomaty.
 reviewed: true

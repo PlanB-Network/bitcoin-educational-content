@@ -1,0 +1,9 @@
+question: Welke veiligheidsmaatregelen worden sterk aangeraden bij het aanmaken van een Umbrel-account?
+answer: 2FA activeren
+wrong_answers:
+  - Wachtwoord uitschakelen
+  - Een pincode gebruiken
+  - Alle verbindingen uitschakelen
+explanation: |
+  De 2FA voegt extra bescherming toe en wordt ten zeerste aanbevolen, vooral bij gebruik van een Lightning-node of gevoelige zelf-hosting.
+reviewed: true

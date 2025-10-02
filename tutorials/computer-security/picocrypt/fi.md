@@ -52,7 +52,7 @@ Täysin **vapaa ja avoimen lähdekoodin** PicoCrypt on saatavilla **Windowsille*
 
 
 
-Picocrypt**-salausohjelmisto on **vaihtoehto** muille tunnetuille ratkaisuille, kuten **VeraCrypt** ja **Cryptomator** (*suunniteltu salaamaan tietoja pilviympäristöissä*) tai **AxCrypt**. Picocryptin virallisesta GitHubista löytyy muuten vertailu joihinkin kilpailijoihin:
+Picocrypt-salausohjelmisto on **vaihtoehto** muille tunnetuille ratkaisuille, kuten **VeraCrypt** ja **Cryptomator** (*suunniteltu salaamaan tietoja pilviympäristöissä*) tai **AxCrypt**. Picocryptin virallisesta GitHubista löytyy muuten vertailu joihinkin kilpailijoihin:
 
 
 
@@ -74,17 +74,17 @@ Picocrypt**-salausohjelmisto on **vaihtoehto** muille tunnetuille ratkaisuille, 
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Lähde : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Lähde: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt on **erittäin kevyt**, vain **3 MB**, eikä sitä tarvitse asentaa: se on **kannettava sovellus**, jonka etuna on, ettei se vaadi järjestelmänvalvojan oikeuksia! Se ei kuitenkaan laiminlyö tietoturvaa, sillä se luottaa **kestäviin ja luotettaviin algoritmeihin** :
+Picocrypt on **erittäin kevyt**, vain **3 MB**, eikä sitä tarvitse asentaa: se on **kannettava sovellus**, jonka etuna on, ettei se vaadi järjestelmänvalvojan oikeuksia! Se ei kuitenkaan laiminlyö tietoturvaa, sillä se luottaa **kestäviin ja luotettaviin algoritmeihin**:
 
 
 
 
 
-- XChaCha20**-salausalgoritmi
+- **XChaCha20**-salausalgoritmi
 - Avaimen ohitustoiminto **Argon2**
 
 
@@ -93,7 +93,7 @@ Juuri mainittujen etujen lisäksi se, mikä todella viehättää, on ** sen help
 
 
 
-Se tarvitsee vain yhden asian: **mutta se on jo suunniteltu, kuten yllä olevasta vertailutaulukosta (viimeinen rivi) näkyy. Mutta koska se on avointa lähdekoodia, mikään ei estä sinua tutustumasta sen lähdekoodiin.
+Se tarvitsee vain yhden asian: **mutta se on jo suunniteltu, kuten yllä olevasta vertailutaulukosta (viimeinen rivi) näkyy.** Mutta koska se on avointa lähdekoodia, mikään ei estä sinua tutustumasta sen lähdekoodiin.
 
 
 
@@ -159,11 +159,11 @@ Ennen kuin puhumme tietojen salauksen purkamisesta, tässä on tietoa joistakin 
 
 
 
-- Paranoid-tila**: käytä Picocryptin tarjoamaa korkeinta turvallisuustasoa. Työkalu käyttää useita portaittaisia salausalgoritmeja (XChaCha20 ja Serpent) ja HMAC-SHA3:a BLAKE2b:n sijasta tietojen todentamiseen.
-- Reed-Solomon**: toteuttaa *Reed-Solomon*-virheenkorjauskoodit, jotka helpottavat virheenkorjausta vioittuneessa datassa. Näin voit tukea noin 3 %:n korruptoitumisastetta tiedostossasi.
-- Jaa palasiksi** tai **jakaa useisiin osiin**: Jos salaat suurta tiedostoa, voit pyytää Picocryptiä jakamaan sen useisiin osiin. Tämä voi helpottaa tiedoston siirtämistä.
-- Pakkaa tiedostot** tai **Pakkaa tiedostot**: Pakkaa tiedostot salattujen tiedostojen koon pienentämiseksi.
-- Poistetut tiedostot** tai **Fichiers supprimés**: poista lähdetiedostot ja säilytä vain salattu versio
+- **Paranoid-tila**: käytä Picocryptin tarjoamaa korkeinta turvallisuustasoa. Työkalu käyttää useita portaittaisia salausalgoritmeja (XChaCha20 ja Serpent) ja HMAC-SHA3:a BLAKE2b:n sijasta tietojen todentamiseen.
+- **Reed-Solomon**: toteuttaa *Reed-Solomon*-virheenkorjauskoodit, jotka helpottavat virheenkorjausta vioittuneessa datassa. Näin voit tukea noin 3 %:n korruptoitumisastetta tiedostossasi.
+- **Jaa palasiksi** tai **jakaa useisiin osiin**: Jos salaat suurta tiedostoa, voit pyytää Picocryptiä jakamaan sen useisiin osiin. Tämä voi helpottaa tiedoston siirtämistä.
+- **Pakkaa tiedostot** tai **Pakkaa tiedostot**: Pakkaa tiedostot salattujen tiedostojen koon pienentämiseksi.
+- **Poistetut tiedostot** tai **Fichiers supprimés**: poista lähdetiedostot ja säilytä vain salattu versio
 
 
 
@@ -191,7 +191,7 @@ Encrypted.zip ZIP-arkiston salaamaton versio antaa minulle nyt mahdollisuuden pa
 
 
 
-**Teitä on varoitettu: Picocrypt on erittäin helppokäyttöinen, ja se toimii! Vaikka Interface on minimalistinen, se sisältää joitakin erittäin hyödyllisiä vaihtoehtoja salauksen mukauttamiseen! Ja koska se on saatavana kannettavana versiona, voit ottaa sen mukaasi kaikkialle, jotta voit purkaa tietosi luottavaisin mielin****
+**Teitä on varoitettu: Picocrypt on erittäin helppokäyttöinen, ja se toimii! Vaikka Interface on minimalistinen, se sisältää joitakin erittäin hyödyllisiä vaihtoehtoja salauksen mukauttamiseen! Ja koska se on saatavana kannettavana versiona, voit ottaa sen mukaasi kaikkialle, jotta voit purkaa tietosi luottavaisin mielin**
 
 
 

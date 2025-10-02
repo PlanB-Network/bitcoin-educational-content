@@ -1,0 +1,9 @@
+question: Ishami ry’ubuhinga bwo gukingira amakuru rikoresha urufunguzo rwa bose n’urw’abantu ku giti cabo ryitwa iki?
+answer: Ubuhinga butaringaniye
+wrong_answers:
+  - Ububiko bw'ibanga buhuye
+  - Uburyo bumwe bwo gukingira amakuru
+  - Ugushiramwo amakuru y'ibanga
+explanation: |
+  Asymmetric cryptography ishingiye ku gukoresha urufunguzo rubiri, rwa bose n’urw’ibanga, rwemerera gupfuka ata gusangira urufunguzo rw’ibanga.
+reviewed: false

@@ -69,7 +69,7 @@ Jadi, **mode terakhir inilah yang akan saya gunakan**. Untuk alasan praktis, say
 
 Untuk probe, saya memilih komputer **Debian 11** dengan instalasi minimal.
 
-Langkah pertama, selalu sama, perbarui file :
+Langkah pertama, selalu sama, perbarui file:
 
 ```
 apt-get update && apt-get upgrade
@@ -171,7 +171,7 @@ Secara default, sumber paket hanya berisi paket-paket yang sesuai dengan DFSG (_
 - **contrib**: paket yang berisi perangkat lunak yang sesuai dengan DFSG, tetapi menggunakan dependensi yang bukan merupakan bagian dari cabang **main**.
 - **non-free**: berisi paket yang tidak sesuai dengan DFSG.
 
-Contoh baris di /etc/apt/sources.list :
+Contoh baris di /etc/apt/sources.list:
 
 ```
 deb http://deb.debian.org/debian/ bullseye main

@@ -33,7 +33,7 @@ Fedi Wallet adalah portofolio Bitcoin yang hadir dengan pendekatan baru untuk me
 
 
 
-- Kustodian**: Anda memutuskan untuk menempatkan kepercayaan Anda pada entitas eksternal, pengembang portofolio, yang akan menyimpan kata pemulihan untuk portofolio Anda untuk Anda. Anda tidak memiliki akses atau kemampuan untuk mengekspor portofolio Bitcoin Anda.
+- **Kustodian**: Anda memutuskan untuk menempatkan kepercayaan Anda pada entitas eksternal, pengembang portofolio, yang akan menyimpan kata pemulihan untuk portofolio Anda untuk Anda. Anda tidak memiliki akses atau kemampuan untuk mengekspor portofolio Bitcoin Anda.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Kustodian mandiri**: Aplikasi ini memberi Anda akses ke kata pemulihan segera setelah Anda membuat Wallet Anda. Jadi, Anda dapat dengan bebas mengekspor bitcoin Anda ke Wallet yang paling sesuai untuk Anda.
+- **Kustodian mandiri**: Aplikasi ini memberi Anda akses ke kata pemulihan segera setelah Anda membuat Wallet Anda. Jadi, Anda dapat dengan bebas mengekspor bitcoin Anda ke Wallet yang paling sesuai untuk Anda.
 
 
 
@@ -103,7 +103,7 @@ Pada menu **Federasi**, gulir ke bawah ke federasi, lalu klik **Detail Federasi*
 
 
 
-- Menerima bitcoin di Fedi**: Pada halaman beranda, pilih federasi yang ingin Anda gunakan untuk menerima bitcoin, lalu klik tombol **Terima** untuk membuat Lightning Invoice dengan jumlah yang akan diterima.
+- Menerima bitcoin di **Fedi**: Pada halaman beranda, pilih federasi yang ingin Anda gunakan untuk menerima bitcoin, lalu klik tombol **Terima** untuk membuat Lightning Invoice dengan jumlah yang akan diterima.
 
 
 
@@ -113,7 +113,7 @@ Pada menu **Federasi**, gulir ke bawah ke federasi, lalu klik **Detail Federasi*
 
 
 
-- Kirim bitcoin**: Di halaman beranda, klik tombol **Kirim** untuk mengirim bitcoin ke Lightning Address, untuk membayar Invoice atau melakukan pembayaran offline.
+- **Kirim bitcoin**: Di halaman beranda, klik tombol **Kirim** untuk mengirim bitcoin ke Lightning Address, untuk membayar Invoice atau melakukan pembayaran offline.
 
 
 
@@ -232,4 +232,3 @@ Anda baru saja mengikuti tur Fedi Wallet, sekarang Anda berada dalam posisi untu
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

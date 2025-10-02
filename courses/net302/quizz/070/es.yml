@@ -1,0 +1,9 @@
+question: ¿Quién puede fragmentar un paquete IPv6?
+answer: Sólo host de origen
+wrong_answers:
+  - Sólo el primer enrutador intermedio
+  - Sólo enrutador de destino
+  - Todos los routers
+explanation: |
+  En IPv6, la fragmentación la realiza exclusivamente el host de origen, nunca los routers intermedios.
+reviewed: false

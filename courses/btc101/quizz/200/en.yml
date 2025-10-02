@@ -1,12 +1,10 @@
-question: What is a spontaneous purchase?
-answer: Buying Bitcoin immediately to gain exposure.
+question: What is one of the potential risks of leaving your Bitcoin on an exchange platform?
+answer: The risks of hacking and fund blocking.
 wrong_answers:
-  - Buying Bitcoin at regular intervals.
-  - Buying Bitcoin only when the price drops.
-  - Buying Bitcoin only when the price rises.
-explanation: |
-  The course text explains that a spontaneous purchase is
-  used to immediately gain exposure to Bitcoin. For example,
-  it could mean buying during a crash or taking advantage of
-  a bonus.
+  - The risk of the platform increasing the price of Bitcoin.
+  - The risk of the platform controlling the supply of Bitcoin.
+  - The risk of Bitcoin being surpassed in price by a cryptocurrency.
+explanation: >-
+  The text mentions that leaving your Bitcoin on an exchange platform can
+  expose you to the risks of hacking and fund blocking.
 reviewed: true

@@ -15,23 +15,23 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Simplicity and ease of use** : Elementary OS's graphical Interface is midway between those of MacOs and Windows. This familiarity makes it easy to adopt, even for inexperienced users.
+- **Simplicity and ease of use**: Elementary OS's graphical Interface is midway between those of MacOs and Windows. This familiarity makes it easy to adopt, even for inexperienced users.
 
 
 
-- Security**: Like most Linux distributions, Elementary OS benefits from a high level of security. Regular updates, rights management and the absence of common viruses make it a reliable system.
+- **Security**: Like most Linux distributions, Elementary OS benefits from a high level of security. Regular updates, rights management and the absence of common viruses make it a reliable system.
 
 
 
-- Speed**: Elementary OS is a lightweight distribution. It requires few resources, making it fast and suitable for computers with modest configurations.
+- **Speed**: Elementary OS is a lightweight distribution. It requires few resources, making it fast and suitable for computers with modest configurations.
 
 
 
-- Free** : The system is completely free. However, when you download it, you can make a donation to support the developers.
+- **Free**: The system is completely free. However, when you download it, you can make a donation to support the developers.
 
 
 
-- Active community** : The community around Elementary OS is diverse and responsive. If you run into difficulties, you can easily find help on the forums or social networks.
+- **Active community**: The community around Elementary OS is diverse and responsive. If you run into difficulties, you can easily find help on the forums or social networks.
 
 
 ## Installation and configuration
@@ -44,7 +44,7 @@ Before starting installation, please ensure that you have the following equipmen
 
 
 - A **USB key** of at least 12 GB
-- RAM** memory of at least 4 GB
+- **RAM** memory of at least 4 GB
 - A **hard disk of 20 GB** or more for comfortable use
 
 

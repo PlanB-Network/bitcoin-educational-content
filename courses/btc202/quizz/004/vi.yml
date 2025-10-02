@@ -1,0 +1,9 @@
+question: Nút Bitcoin là gì?
+answer: Một máy tính chạy phần mềm triển khai giao thức Bitcoin
+wrong_answers:
+  - Một Hardware Wallet triển khai mạng Bitcoin
+  - Một Miner sản xuất các khối mới cho Bitcoin
+  - Một máy chủ trung tâm quản lý mạng Bitcoin và xác nhận giao dịch
+explanation: |
+  Nút Bitcoin là máy tính chạy phần mềm, chẳng hạn như Bitcoin core, thực hiện giao thức và tham gia vào mạng Bitcoin.
+reviewed: true

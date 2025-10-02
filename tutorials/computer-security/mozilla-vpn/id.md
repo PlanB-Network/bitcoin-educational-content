@@ -12,7 +12,11 @@ Di era digital pengumpulan data, privasi online telah menjadi isu utama bagi kit
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Berdasarkan prinsip ini, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) adalah layanan VPN open source yang dikembangkan pada tahun 2020 oleh Mozilla Foundation. Layanan ini tersedia di :
+Berdasarkan prinsip ini, [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) adalah layanan VPN sumber terbuka yang dikembangkan pada tahun 2020 oleh Mozilla Foundation. Layanan ini tersedia di:
+
+
+
+
 
 - Android,
 - iOS,
@@ -23,7 +27,9 @@ Berdasarkan prinsip ini, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/d
 
 ![download](assets/fr/01.webp)
 
-VPN ini tersedia di lebih dari 30 negara dan memiliki lebih dari 500 server yang bertanggung jawab untuk menyamarkan IP Address Anda untuk memindahkan Anda sambil memastikan kerahasiaan interaksi Anda di Internet. Mozilla VPN dibedakan dengan :
+
+
+VPN ini tersedia di lebih dari 30 negara dan memiliki lebih dari 500 server yang bertanggung jawab untuk menyamarkan IP Address Anda untuk memindahkan Anda sambil memastikan kerahasiaan interaksi Anda di Internet. Mozilla VPN dibedakan dengan:
 
 VPN ini tersedia di lebih dari 30 negara dan memiliki lebih dari 500 server yang bertugas menyamarkan alamat IP Anda untuk merelokasi Anda sambil memastikan kerahasiaan interaksi Anda di Internet. Mozilla VPN berbeda karena:
 

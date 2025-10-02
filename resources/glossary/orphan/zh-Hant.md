@@ -11,4 +11,4 @@ term: ORPHAN
 ![](../../dictionnaire/assets/9.webp)
 
 
-> ► *就我個人而言，我比較喜歡使用「Orphan block」一詞來談論沒有父區塊的區塊，而使用「stale block」一詞來指沒有子區塊的區塊。我覺得這更符合邏輯，也更容易理解，儘管大多數的 bitcoiners 並不遵循這種用法。
+> ► *就我個人而言，我比較喜歡使用「Orphan block」一詞來談論沒有父區塊的區塊，而使用「stale block」一詞來指沒有子區塊的區塊。我覺得這更符合邏輯，也更容易理解，儘管大多數的 bitcoiners 並不遵循這種用法。*

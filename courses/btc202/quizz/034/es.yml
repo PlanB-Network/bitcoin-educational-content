@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal diferencia entre una aplicación en bruto y un nodo en una caja?
+answer: La presencia de un Interface y de aplicaciones integradas
+wrong_answers:
+  - Compatibilidad con la red
+  - Tamaño de Blockchain almacenado en disco
+  - El protocolo y la moneda utilizados
+explanation: |
+  Una implementación en bruto sólo instala el software del nodo, mientras que un nodo en una caja añade un Interface, una App Store y servicios integrados.
+reviewed: true

@@ -1,10 +1,10 @@
-question: Hva er hovedbekymringen angående miljøkostnaden ved Bitcoin-mining?
-answer: Energiforbruket
+question: Hvordan kan Bitcoin potensielt bidra til den økologiske overgangen?
+answer: Den fremmer bruken av grønn energi
 wrong_answers:
-  - Produksjonen av ASICs
-  - Resirkuleringen av ASICs
-  - Kostnaden for elektrisitet
+  - Den reduserer produksjonen av varer
+  - Den regulerer forbruket av ressurser
+  - Den begrenser utslippet av drivhusgasser
 explanation: >-
-  Hovedmiljøbekymringen ved Bitcoin-mining er energiforbruket. Selv om ASICs hovedsakelig er laget av aluminium og kan resirkuleres eller gjenbrukes, er energien
-  som kreves for å drive disse maskinene, betydelig.
-reviewed: false
+  Bitcoin fremmer bruken av grønn energi, som potensielt kan hjelpe
+  med den økologiske overgangen. For eksempel kan flammene i oljebrønner, som brenner
+  metan for å forhindre forurensning, slukkes av Bitcoin-minere.

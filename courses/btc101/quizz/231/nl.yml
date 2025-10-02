@@ -1,10 +1,8 @@
-question: Wat is het gemiddelde tijdsinterval tussen het aanmaken van twee blokken in het Bitcoin protocol?
-answer: 10 minuten.
+question: Wat is het concept van geldstromen in de context van de Lightning Network?
+answer: Continue, realtime microbetalingen doen.
 wrong_answers:
-  - 5 minuten.
-  - 15 minuten.
-  - 20 minuten.
-explanation: |
-  Het gemiddelde tijdsinterval tussen het aanmaken van twee
-  blokken in het Bitcoin protocol is 10 minuten.
+  - Bitcoin omzetten in contant geld op een fysieke locatie via een geldautomaat.
+  - Streaming audio- of video-inhoud voor Bitcoin.
+  - Nieuwe bitcoins creëren door Mining operaties die in real-time plaatsvinden.
+explanation: >-
 reviewed: true

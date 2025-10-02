@@ -1,0 +1,9 @@
+question: Ni igiki ibendera ry'umubiri SIGHASH_NONE ryemera?
+answer: Guhindura ibisohoka inyuma yo gusinya
+wrong_answers:
+  - Guhindura ivyo winjije inyuma yo gusinya
+  - Gupfuka ivyinjizwa n'ibisohoka vyose
+  - Guhagarika impinduka ku gisohoka kimwe gusa
+explanation: |
+  SIGHASH_NONE ipfuka gusa ivyinjijwe, isiga ibisohoka bishobora guhindurwa inyuma yo gusinya.
+reviewed: false

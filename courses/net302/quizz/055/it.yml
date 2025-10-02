@@ -1,0 +1,9 @@
+question: Quale comando visualizza lo stato dettagliato di tutte le interfacce di rete in Linux?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  il comando "ip addr show" elenca tutte le interfacce di rete, con il loro stato, gli indirizzi e i parametri associati.
+reviewed: false

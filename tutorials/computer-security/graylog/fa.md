@@ -1,5 +1,5 @@
 ---
-name: گری‌لاگ
+name: Graylog
 description: به‌سادگی لاگ‌های خود را متمرکز و تحلیل کنید
 ---
 ![cover](assets/cover.webp)
@@ -43,7 +43,7 @@ Graylog یک ابزار تحلیل و نظارت است که شناسایی رف
 
 
 
-**توجه: نسخه رایگان، **Graylog Open**، مانند Wazuh یک SIEM نیست، به‌ویژه به دلیل عدم وجود عملکردهای واقعی تشخیص نفوذ.
+**توجه: نسخه رایگان، Graylog Open، مانند Wazuh یک SIEM نیست، به‌ویژه به دلیل عدم وجود عملکردهای واقعی تشخیص نفوذ.**
 
 
 
@@ -57,9 +57,9 @@ Graylog یک ابزار تحلیل و نظارت است که شناسایی رف
 
 
 
-- MongoDB 7**، نسخه فعلی توصیه‌شده برای Graylog (حداقل 5.0.7، حداکثر 7.x)
-- OpenSearch**، یک Fork متن‌باز از Elasticsearch که توسط آمازون ایجاد شده است (حداقل 1.1.x، حداکثر 2.15.x)
-- OpenJDK 17**
+- MongoDB 7، نسخه فعلی توصیه‌شده برای Graylog (حداقل 5.0.7، حداکثر 7.x)
+- **OpenSearch**، یک Fork متن‌باز از Elasticsearch که توسط آمازون ایجاد شده است (حداقل 1.1.x، حداکثر 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**توجه: **نصب OpenSearch اختیاری است** اگر از **گرایلگ دیتا نود** استفاده کنید.
+**توجه:** نصب OpenSearch اختیاری است اگر از **گرایلگ دیتا نود** استفاده کنید.
 
 
 
@@ -149,8 +149,8 @@ sudo apt-get install -y mongodb-org
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-حافظه پنهان بسته خود را به‌روزرسانی کنید :
+حافظه پنهان بسته خود را به‌روزرسانی کنید:
 
 
 
@@ -279,14 +279,14 @@ plugins.security.disabled: true
 
 
 
-- cluster.name: graylog** : این پارامتر نام کلاستر OpenSearch را با نام "**graylog**" تعیین می‌کند.
-- node.name: ${HOSTNAME}**: نام گره به صورت پویا تنظیم می‌شود تا با نام ماشین محلی لینوکس مطابقت داشته باشد. حتی اگر فقط یک گره داشته باشیم، مهم است که آن را به درستی نام‌گذاری کنیم.
-- مسیر path.data: /var/lib/opensearch**: این مسیر مشخص می‌کند که OpenSearch داده‌های خود را در کجا بر روی ماشین محلی ذخیره می‌کند، در این مورد در "**/var/lib/opensearch**".
-- مسیر path.logs: /var/log/opensearch**: این مسیر تعیین می‌کند که فایل‌های لاگ OpenSearch کجا ذخیره می‌شوند، در اینجا در "**/var/log/opensearch**".
-- discovery.type: single-node**: این پارامتر OpenSearch را برای کار با یک نود تنظیم می‌کند، بنابراین گزینه "**single-node**" انتخاب شده است.
-- network.host: 127.0.0.1**: این پیکربندی تضمین می‌کند که OpenSearch فقط به حلقه محلی Interface خود گوش می‌دهد، که کافی است زیرا روی همان سرور با Graylog قرار دارد.
-- action.auto_create_index: false**: با غیرفعال کردن ایجاد خودکار ایندکس، OpenSearch به‌طور خودکار ایندکس ایجاد نمی‌کند زمانی که یک سند بدون ایندکس موجود ارسال می‌شود.
-- plugins.security.disabled: true**: این گزینه افزونه امنیتی OpenSearch را غیرفعال می‌کند، به این معنی که هیچ احراز هویت، مدیریت دسترسی یا رمزگذاری ارتباطی وجود نخواهد داشت. این تنظیم در زمان راه‌اندازی Graylog صرفه‌جویی می‌کند، اما باید در محیط تولید از آن اجتناب شود (به [این صفحه](https://opensearch.org/docs/1.0/security-plugin/index/) مراجعه کنید).
+- cluster.name: **graylog**: این پارامتر نام کلاستر OpenSearch را با نام "**graylog**" تعیین می‌کند.
+- node.name: ${HOSTNAME}: نام گره به صورت پویا تنظیم می‌شود تا با نام ماشین محلی لینوکس مطابقت داشته باشد. حتی اگر فقط یک گره داشته باشیم، مهم است که آن را به درستی نام‌گذاری کنیم.
+- مسیر **path.data: /var/lib/opensearch**: این مسیر مشخص می‌کند که OpenSearch داده‌های خود را در کجا بر روی ماشین محلی ذخیره می‌کند، در این مورد در "**/var/lib/opensearch**".
+- مسیر path.logs: /var/log/opensearch: این مسیر تعیین می‌کند که فایل‌های لاگ OpenSearch کجا ذخیره می‌شوند، در اینجا در "**/var/log/opensearch**".
+- **discovery.type: single-node**: این پارامتر OpenSearch را برای کار با یک نود تنظیم می‌کند، بنابراین گزینه "**single-node**" انتخاب شده است.
+- network.host: 127.0.0.1: این پیکربندی تضمین می‌کند که OpenSearch فقط به حلقه محلی Interface خود گوش می‌دهد، که کافی است زیرا روی همان سرور با Graylog قرار دارد.
+- **action.auto_create_index: false**: با غیرفعال کردن ایجاد خودکار ایندکس، OpenSearch به‌طور خودکار ایندکس ایجاد نمی‌کند زمانی که یک سند بدون ایندکس موجود ارسال می‌شود.
+- **plugins.security.disabled: true**: این گزینه افزونه امنیتی OpenSearch را غیرفعال می‌کند، به این معنی که هیچ احراز هویت، مدیریت دسترسی یا رمزگذاری ارتباطی وجود نخواهد داشت. این تنظیم در زمان راه‌اندازی Graylog صرفه‌جویی می‌کند، اما باید در محیط تولید از آن اجتناب شود (به [این صفحه](https://opensearch.org/docs/1.0/security-plugin/index/) مراجعه کنید).
 
 
 
@@ -327,7 +327,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-با این خطوط :
+با این خطوط:
 
 
 
@@ -432,7 +432,7 @@ sudo apt-get install graylog-server
 
 
 - **password_secret**: این پارامتر برای تعریف یک کلید استفاده می‌شود که توسط Graylog برای ایمن‌سازی ذخیره‌سازی رمزهای عبور کاربران استفاده می‌شود (در راستای یک کلید نمک‌گذاری). این کلید باید **منحصر به فرد** و **تصادفی** باشد.
-- root_password_sha2** : این پارامتر مربوط به رمز عبور پیش‌فرض مدیر در Graylog است. این به صورت Hash SHA-256 ذخیره می‌شود.
+- **root_password_sha2**: این پارامتر مربوط به رمز عبور پیش‌فرض مدیر در Graylog است. این به صورت Hash SHA-256 ذخیره می‌شود.
 
 
 
@@ -574,7 +574,7 @@ tail -f /var/log/graylog-server/server.log
 
 
 
-**به Interface گری‌لاگ خوش آمدید!
+**به Interface گری‌لاگ خوش آمدید!**
 
 
 
@@ -661,7 +661,7 @@ tail -f /var/log/graylog-server/server.log
 ![Image](assets/fr/018.webp)
 
 
-**توجه: یک ورودی واحد می‌تواند برای ذخیره لاگ‌ها از چندین ماشین لینوکس استفاده شود.
+**توجه: یک ورودی واحد می‌تواند برای ذخیره لاگ‌ها از چندین ماشین لینوکس استفاده شود.**
 
 
 

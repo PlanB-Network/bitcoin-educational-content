@@ -17,11 +17,11 @@ Debian on vapaa GNU/Linux-jakelu, joka on tunnettu vankkuudestaan ja luotettavuu
 
 
 
-- Ilmainen ja avoin**: Debian on täysin avoimen lähdekoodin järjestelmä, joka takaa avoimuuden eikä lisenssimaksuja.
-- Vakaus ja turvallisuus**: Jokainen julkaisu käy läpi perusteellisen testausprosessin, mikä tekee Debianista yhden markkinoiden luotettavimmista ja turvallisimmista jakeluista.
-- Aktiivinen yhteisö**: laaja yhteisö ja laaja dokumentaatio ovat käytettävissäsi tukemaan sinua aina kun tarvitset sitä.
-- Kevyt ja skaalautuva**: voit asentaa Debianin koneisiin, joilla on vaatimattomat resurssit, ja säilyttää samalla hyvän suorituskyvyn.
-- Laaja ohjelmistoluettelo**: yli 50 000 virallista pakettia on saatavilla arkistojen kautta.
+- **Ilmainen ja avoin**: Debian on täysin avoimen lähdekoodin järjestelmä, joka takaa avoimuuden eikä lisenssimaksuja.
+- **Vakaus ja turvallisuus**: Jokainen julkaisu käy läpi perusteellisen testausprosessin, mikä tekee Debianista yhden markkinoiden luotettavimmista ja turvallisimmista jakeluista.
+- **Aktiivinen yhteisö**: laaja yhteisö ja laaja dokumentaatio ovat käytettävissäsi tukemaan sinua aina kun tarvitset sitä.
+- **Kevyt ja skaalautuva**: voit asentaa Debianin koneisiin, joilla on vaatimattomat resurssit, ja säilyttää samalla hyvän suorituskyvyn.
+- **Laaja ohjelmistoluettelo**: yli 50 000 virallista pakettia on saatavilla arkistojen kautta.
 
 
 
@@ -35,12 +35,12 @@ Debian tarjoaa useita työpöytäympäristöjä tarpeidesi mukaan:
 
 
 
-- GNOME**: moderni, intuitiivinen Interface, ihanteellinen aloittelijoille. Se tarjoaa sujuvan, helppokäyttöisen graafisen valikon sovellusten käyttämiseen.
-- XFCE**: kevyt ja nopea, täydellinen vähemmän tehokkaille koneille.
-- KDE Plasma**: hyvin muokattavissa, Windows-tyyppinen ulkoasu.
-- Cinnamon**: yksinkertainen, tyylikäs Interface, joka on saanut vaikutteita Windowsista.
-- LXDE / LXQt**: erittäin kevyt, sopii vanhemmille tietokoneille.
-- MATE**: yksinkertainen ja klassinen, lähellä vanhaa GNOMEa.
+- **GNOME**: moderni, intuitiivinen Interface, ihanteellinen aloittelijoille. Se tarjoaa sujuvan, helppokäyttöisen graafisen valikon sovellusten käyttämiseen.
+- **XFCE**: kevyt ja nopea, täydellinen vähemmän tehokkaille koneille.
+- **KDE Plasma**: hyvin muokattavissa, Windows-tyyppinen ulkoasu.
+- **Cinnamon**: yksinkertainen, tyylikäs Interface, joka on saanut vaikutteita Windowsista.
+- **LXDE / LXQt**: erittäin kevyt, sopii vanhemmille tietokoneille.
+- **MATE**: yksinkertainen ja klassinen, lähellä vanhaa GNOMEa.
 
 
 
@@ -61,9 +61,9 @@ Varmista ennen asennuksen aloittamista, että sinulla on seuraavat laitteet:
 
 
 
-- USB-avain**: vähintään 8 GB käynnistettävän ISO-kuvan tallentamiseen.
-- RAM-muisti (Random Access Memory)**: 4 GB sujuvan asennuksen ja käytön varmistamiseksi.
-- Levytila**: vähintään 15 Gt vapaata tilaa järjestelmää ja päivityksiä varten.
+- **USB-avain**: vähintään 8 GB käynnistettävän ISO-kuvan tallentamiseen.
+- **RAM-muisti (Random Access Memory)**: 4 GB sujuvan asennuksen ja käytön varmistamiseksi.
+- **Levytila**: vähintään 15 Gt vapaata tilaa järjestelmää ja päivityksiä varten.
 
 
 
@@ -77,9 +77,9 @@ Debian-kuvan valinta riippuu prosessoriarkkitehtuuristasi:
 
 
 
-- AMD64**: lataa "live hybrid" -versio [download]-luettelosta (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: hae DVD-kuva viralliselta [Debian]-sivustolta (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Muut arkkitehtuurit**: löydä arkkitehtuuriasi vastaava ISO [täältä](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: lataa "live hybrid" -versio [download]-luettelosta (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: hae DVD-kuva viralliselta [Debian]-sivustolta (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Muut arkkitehtuurit**: löydä arkkitehtuuriasi vastaava ISO [täältä](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Kun olet ladannut sopivan ISO-kuvan, voit luoda asennusmedian:
 
 
 
-- Lataa Balena Etcher** [viralliselta verkkosivustolta](https://etcher.balena.io/), hae sitten järjestelmääsi sopiva binääri ja asenna se.
+- Lataa **Balena Etcher** [viralliselta verkkosivustolta](https://etcher.balena.io/), hae sitten järjestelmääsi sopiva binääri ja asenna se.
 
 
 
@@ -106,9 +106,9 @@ Kun olet ladannut sopivan ISO-kuvan, voit luoda asennusmedian:
 
 
 
-- Käynnistä Etcher**: avaa ohjelmisto ja valitse aiemmin ladattu Debian-ISO-kuva.
-- Valitse USB-tietolevy**: määritä USB-tietolevy (8 Gt tai enemmän) kohteeksi.
-- Käynnistä flash**: napsauta **Flash!** ja odota, kunnes prosessi on valmis.
+- **Käynnistä Etcher**: avaa ohjelmisto ja valitse aiemmin ladattu Debian-ISO-kuva.
+- **Valitse USB-tietolevy**: määritä USB-tietolevy (8 Gt tai enemmän) kohteeksi.
+- Käynnistä **flash**: napsauta **Flash!** ja odota, kunnes prosessi on valmis.
 
 
 
@@ -128,15 +128,15 @@ USB-levysi on nyt valmis aloittamaan Debianin asentamisen.
 
 
 
-Asennuksen käynnistäminen USB-muistitikulta :
+Asennuksen käynnistäminen USB-muistitikulta:
 
 
 
 
-- Sammuta** tietokone kokonaan.
-- Käynnistä uudelleen** ja avaa BIOS/UEFI painamalla välittömästi `ESC`, `F2`, `F11` (tai erityistä näppäintä merkistä riippuen).
+- **Sammuta** tietokone kokonaan.
+- **Käynnistä uudelleen** ja avaa BIOS/UEFI painamalla välittömästi `ESC`, `F2`, `F11` (tai erityistä näppäintä merkistä riippuen).
 - Valitse käynnistysvalikosta **valitsemalla käynnistyslaitteeksi USB-levy**.
-- Vahvista** Enter-näppäimellä käynnistääksesi Debian-kuvan: tämä vie sinut asennusohjelman tervetuloruutuun.
+- **Vahvista** Enter-näppäimellä käynnistääksesi Debian-kuvan: tämä vie sinut asennusohjelman tervetuloruutuun.
 
 
 
@@ -144,7 +144,7 @@ Asennuksen käynnistäminen USB-muistitikulta :
 
 
 
-Aloitusnäyttö :
+Aloitusnäyttö:
 
 
 
@@ -157,9 +157,9 @@ Kun käynnistät USB-tikulta, Debianin tervetuliaisnäyttö tarjoaa useita vaiht
 
 
 
-- Live System**: käynnistää Debianin asentamatta sitä, ihanteellinen ympäristön testaamiseen.
-- Start Installer**: käynnistää asennuksen suoraan Hard-levylle.
-- Lisäasennusasetukset**: antaa sinulle pääsyn mukautettuihin asennustiloihin.
+- **Live System**: käynnistää Debianin asentamatta sitä, ihanteellinen ympäristön testaamiseen.
+- **Start Installer**: käynnistää asennuksen suoraan Hard-levylle.
+- **Lisäasennusasetukset**: antaa sinulle pääsyn mukautettuihin asennustiloihin.
 
 
 
@@ -173,7 +173,7 @@ Tutustu Debianiin live-tilassa valitsemalla **Live System** ja vahvistamalla **E
 
 
 
-- Kielen valinta** (valinnainen)
+- **Kielen valinta** (valinnainen)
 
 
 
@@ -187,7 +187,7 @@ Valitse luettelosta Debian-järjestelmäsi pääkieli ja napsauta sitten OK.
 
 
 
-- Aikavyöhyke** (GMT)
+- **Aikavyöhyke** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Valitse näppäimistön kieli ja asettelu. Tarkista sisäänrakennetun testikent
 
 
 
-- Erase disk**: Jos sinulla on oma osio, tämä vaihtoehto poistaa sen koko sisällön.
-- Manuaalinen osiointi**: Valitse tämä vaihtoehto, kun haluat luoda, muuttaa kokoa tai poistaa osioita tarpeen mukaan.
+- **Erase disk**: Jos sinulla on oma osio, tämä vaihtoehto poistaa sen koko sisällön.
+- **Manuaalinen osiointi**: Valitse tämä vaihtoehto, kun haluat luoda, muuttaa kokoa tai poistaa osioita tarpeen mukaan.
 
 
 
@@ -244,7 +244,7 @@ Kirjoita koko nimesi, tilisi nimi ja vahva salasana, jotta istuntosi on turvalli
 
 
 
-- Parametrien yhteenveto**
+- **Parametrien yhteenveto**
 
 
 
@@ -272,7 +272,7 @@ Napsauta **Asenna** aloittaaksesi tiedostojen kopioinnin ja järjestelmän mää
 
 
 
-- Uudelleenkäynnistys**
+- **Uudelleenkäynnistys**
 
 
 
@@ -334,7 +334,7 @@ Kirjoita salasanasi pyydettäessä (huomaa, että merkkejä ei näytetä, kun ki
 
 
 
-- Asenna käytettävissä olevat päivitykset :
+- Asenna käytettävissä olevat päivitykset:
 
 
 
@@ -380,7 +380,7 @@ Sovellusten asentaminen Debianiin voi tapahtua kahdella tavalla:
 
 
 
-### Graafinen menetelmä :
+### Graafinen menetelmä:
 
 
 
@@ -388,7 +388,7 @@ Voit etsiä ja asentaa sovelluksia helposti **ohjelmistohallinnan** avulla (graa
 
 
 
-### Komentorivin menetelmä :
+### Komentorivin menetelmä:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Korvaa `<nimi>` paketin nimellä. Asenna esimerkiksi `curl` :
+Korvaa `<nimi>` paketin nimellä. Asenna esimerkiksi `curl`:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Manuaalisesti ladatun paketin asentaminen :
+### Manuaalisesti ladatun paketin asentaminen:
 
 
 
@@ -439,7 +439,7 @@ On myös mahdollista vaihtaa työpöytäympäristöä (esim. XFCE:hen, KDE:hen j
 
 
 
-Jos haluat oppia lisää Debianista ja yleisemmin GNU/Linux-jakeluista, suosittelen tutustumaan tähän kurssiin :
+Jos haluat oppia lisää Debianista ja yleisemmin GNU/Linux-jakeluista, suosittelen tutustumaan tähän kurssiin:
 
 
 

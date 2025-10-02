@@ -152,13 +152,13 @@ För att lösa detta problem utvecklades *asymmetrisk* kryptografi, även känd 
 Denna typ av kryptografi gör det möjligt att implementera både krypteringsalgoritmer och signaturprocesser. Asymmetrisk kryptering innebär att den publika nyckeln används som krypteringsnyckel och den privata nyckeln som dekrypteringsnyckel. Användaren genererar ett nyckelpar, behåller den privata nyckeln och delar den publika nyckeln med sina korrespondenter så att de kan skicka meddelanden. Den här typen av kryptering kan liknas vid en brevlåda som mottagaren använder för att ta emot brev och som bara han eller hon har nyckeln till.
 
 
-![Asymmetric encryption](assets/en/01.webp)
+![Asymmetric encryption](assets/en/001.webp)
 
 
 Digitala signaturer bygger däremot på att den privata nyckeln används som signaturnyckel och den offentliga nyckeln som verifieringsnyckel. Användaren genererar ett nyckelpar, signerar ett meddelande med den privata nyckeln och skickar det till sina korrespondenter, som kan verifiera dess äkthet med hjälp av den publika nyckeln. De behöver alltså aldrig känna till den privata nyckeln.
 
 
-![Digital signature](assets/en/02.webp)
+![Digital signature](assets/en/002.webp)
 
 
 Flera forskare upptäckte oberoende av varandra asymmetrisk kryptografi under 1970-talet. De första att presentera vad de hade hittat var dock Whitfield Diffie och Martin Hellman, två kryptografer från Stanford University. I november 1976 publicerade de en artikel med titeln "[New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)" i tidskriften *IEEE Transactions on Information Theory*, som beskrev en Exchange-algoritm (avsedd för överföring av hemliga nycklar för symmetrisk kryptering) samt en process för digital signatur. I inledningen av detta dokument skrev de:
@@ -168,7 +168,7 @@ Flera forskare upptäckte oberoende av varandra asymmetrisk kryptografi under 19
 Här är ett fotografi från 1977, taget av Chuck Painter för Stanford News Service. På bilden ser du Whitfield Diffie (till höger) och Martin Hellman (i mitten). Personen till vänster är kryptografen Ralph Merkle, som var på väg att göra samma upptäckt.
 
 
-![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/03.webp)
+![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/003.webp)
 
 
 Artikeln av Diffie och Hellman banade väg för många innovationer. En av dessa var [RSA-kryptosystemet] (https://people.csail.mit.edu/rivest/Rsapaper.pdf), som utformades 1977 av kryptograferna Ronald Rivest, Adi Shamir och Leonard Adleman (som gav det sina namn) och patenterades av MIT 1983. Systemet möjliggör både kryptering och signering av meddelanden, tack vare att nycklarnas roller är utbytbara. RSA presenterades offentligt för första gången i en [artikel av Martin Gardner] (https://simson.net/ref/1977/Gardner_RSA.pdf) som publicerades i tidningen *Scientific American* i augusti 1977, med titeln "Mathematical Games: A new kind of cipher that would take millions of years to break."
@@ -186,7 +186,7 @@ De grundläggande kryptografiska Elements i Bitcoin härrör från denna forskni
 Denna revolution inom kryptografin inspirerade också den unge David Chaum, en datavetare från västkusten som då var doktorand vid University of Berkeley. Han blev snabbt passionerad för integritetsskydd och var mycket bekymrad över framtiden för frihet och sekretess i ett samhälle som blev alltmer datoriserat.
 
 
-![David Chaum in the 90s](assets/en/04.webp)
+![David Chaum in the 90s](assets/en/004.webp)
 
 David Chaum på 90-talet (källa: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
@@ -215,7 +215,7 @@ Tekniskt sett bygger eCash-modellen på blinda signaturer, vilket innebär att e
 Här är en illustration av de olika steg som ingår i skapandet och ersättandet av en Chaumianot (från *L'Élégance de Bitcoin*):
 
 
-![Creation and replacement of a Chaumian note](assets/en/05.webp)
+![Creation and replacement of a Chaumian note](assets/en/005.webp)
 
 
 Åtgärderna (som var och en motsvarar en matematisk operation eller en informationsöverföring) är följande:
@@ -254,7 +254,7 @@ Allt detta innebär att ingen bank i systemet kan koppla betalningen till Alice:
 År 1990 grundade David Chaum Digicash B.V., ett företag baserat i Amsterdam, Nederländerna, för att förverkliga sin idé om elektroniska kontanter. Detta företag innehade patenten för hans uppfinning. Vid den här tiden var Internet fortfarande i sin linda (webben var fortfarande under utveckling) och e-handel existerade inte, vilket innebar att eCash-modellen utgjorde en formidabel möjlighet.
 
 
-![DigiCash Logo](assets/en/06.webp)
+![DigiCash Logo](assets/en/006.webp)
 
 
 Det var dock inte David Chaums företag som först testade modellen, utan det var cypherpunks som implementerade den utan hänsyn till patenten och utan att be om tillstånd att göra det. Ett protokoll med namnet Magic Money [föreslogs] (https://cypherpunks.venona.com/date/1994/02/msg00247.html) på cypherpunks e-postlista den 4 februari 1994 av en anonym utvecklare som gick under namnet Pr0duct Cypher. Protokollet gjorde det möjligt att skapa sin egen valuta genom att använda en e-postserver som fungerade som en eCash-myntbank. Cypherpunkarna hade kul när de skapade alla möjliga kontoenheter som Tacky Tokens, GhostMarks, DigiFrancs och NexusBucks. Nyttan av dessa tokens var dock minimal, och utbyten var mycket sällsynta.
@@ -262,7 +262,7 @@ Det var dock inte David Chaums företag som först testade modellen, utan det va
 Efter några års utveckling presenterade DigiCash en prototyp (https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) i maj 1994 vid den första internationella konferensen om World Wide Web på CERN i Genève. Bolaget genomförde sedan ett test den 19 oktober samma år och gav ut enheter som kallades "CyberBucks", vilka inte backades upp av någon annan valuta. Olika handlare accepterade CyberBucks som en del av detta experiment. Cypherpunkarna tog också till sig den och använde den för att genomföra riktiga utbyten. På så sätt fick CyberBucks ett värde på marknaden. Detta värde kollapsade dock när eCash togs i bruk i det traditionella banksystemet.
 
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/07.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/en/007.webp)
 
 Foto (oskarpt) av DigiCash-teamet 1995: David Chaum är längst till vänster (källa: [Chaum.com](https://chaum.com/ecash/))
 
@@ -327,7 +327,7 @@ Situationen blev ännu mer begränsad efterhand. Centralbanken, kallad Federal R
 I och med att förbudet mot guldinnehav upphävdes och Internet började utvecklas på 1970-talet, dök idén om att använda privata valutor upp igen. Detta var fallet med Bernard von NotHaus, som lanserade Liberty Dollar 1998, en valuta baserad på guld och silver som kunde hittas i silvermynt och representativa sedlar. Systemet förvaltades av en ideell organisation vid namn NORFED (akronym för National Organization for the Repeal of the Federal Reserve and Internal Revenue Code). Från och med 2003 fanns Liberty Dollar även tillgänglig i digital form, genom ett kontosystem liknande e-gold (se följande avsnitt). Systemet upplevde en viss framgång. Förutom de cirkulerande mynten innehöll NORFED:s valv cirka 8 miljoner dollar i ädelmetaller för att säkerställa valutans konvertibilitet, varav 6 miljoner för att backa upp den digitala enheten.
 
 
-![2003 Silver Liberty Dollar](assets/en/08.webp)
+![2003 Silver Liberty Dollar](assets/en/008.webp)
 
 Liberty Dollar (10 dollar) i silver från 2003 (källa: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
@@ -345,7 +345,7 @@ Principen var att varje enhet av e-guld kunde omvandlas till äkta guld. Guldres
 E-gold-systemet drog nytta av den framväxande webben, särskilt den nya webbläsaren Netscape. Varje kund kunde komma åt sitt konto från webbplatsen, i stället för att behöva använda särskild programvara. För den tiden var plattformen mycket högpresterande och använde ett bruttoavvecklingssystem i realtid inspirerat av interbanköverföring. Så här såg det ut att skicka e-guld 2005 (bild från en [tutorial](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) från den tiden):
 
 
-![Sending on e-gold in 2005](assets/en/09.webp)
+![Sending on e-gold in 2005](assets/en/009.webp)
 
 
 E-goldsystemet blev en stor framgång: när det var som störst 2006 [garanterade](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) det 3,6 ton guld, värt mer än 80 miljoner dollar, [behandlade](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75.000 transaktioner per dag, för en årlig volym på 3 miljarder dollar, och hanterade mer än 2,7 miljoner konton.
@@ -362,7 +362,7 @@ Andra system skapades enligt samma modell. GoldMoney, som grundades av James Tur
 Ett annat exempel på ett centraliserat privat valutasystem är Liberty Reserve, som gjorde det möjligt för användare att inneha och överföra elektroniska valutor som var kopplade till US-dollar, euro eller guld. Systemet skapades av Arthur Budovsky, en amerikan med ukrainskt ursprung, och Vladimir Kats, en rysk invandrare från Sankt Petersburg. År 2006 utvandrade Arthur Budovsky till Costa Rica, som då ansågs vara ett skatteparadis, där han registrerade sitt företag Liberty Reserve S.A.
 
 
-![Liberty Reserve logo in 2009](assets/en/10.webp)
+![Liberty Reserve logo in 2009](assets/en/010.webp)
 
 Liberty Reserves logotyp 2009 (källa: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
@@ -392,7 +392,7 @@ Den ursprungliga visionen för PayPal var revolutionerande, i linje med Peter Th
 
 > "Det som vi kallar "bekvämt" för amerikanska användare kommer naturligtvis att vara revolutionerande för utvecklingsländerna. Många av dessa länders regeringar spelar snabbt och löst med sina valutor. De använder inflation och ibland stora valutadevalveringar, som vi såg i Ryssland och flera länder i Sydostasien förra året, för att ta rikedomar från sina medborgare. De flesta vanliga människor där har aldrig möjlighet att öppna ett offshore-konto eller att få tag på mer än några sedlar i en stabil valuta som amerikanska dollar. Så småningom kommer PayPal att kunna ändra på detta. I framtiden, när vi gör vår tjänst tillgänglig utanför USA och när Internetpenetrationen fortsätter att expandera till alla ekonomiska nivåer, kommer PayPal att ge medborgare över hela världen mer direkt kontroll över sina valutor än de någonsin haft tidigare. Det kommer att bli nästan omöjligt för korrupta regeringar att stjäla rikedomar från sina medborgare med de gamla metoderna, för om de försöker kommer medborgarna att byta till dollar, pund eller yen och i själva verket dumpa den värdelösa lokala valutan för något säkrare."
 
-![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/11.webp)
+![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/011.webp)
 
 Peter Thiel den 20 oktober 1999, under sitt tal i Oakland, Kalifornien för Independent Institute (källa: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
@@ -429,7 +429,7 @@ I det här kapitlet kommer vi att studera framväxten av olika grundläggande te
 I och med datorernas uppkomst på 1950-talet uppstod möjligheten att koppla samman dem. På så sätt bildades de första datornätverken, vilket ledde till utvecklingen av Internet, "nätverkens nätverk", på 1970-talet. Frågan om infrastrukturen för dessa nätverk uppstod oundvikligen. Det var därför den polsk-amerikanske datavetaren Paul Baran i sin grundläggande artikel från 1964 (som beskrev paketväxling) listade tre typer av nätverk: det centraliserade nätverket, som förlitar sig på en enda nod; det distribuerade nätverket, där varje punkt är en nod; det decentraliserade (icke-distribuerade) nätverket, som förlitar sig på ett distribuerat nätverk med flera noder.
 
 
-![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/12.webp)
+![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/012.webp)
 
 
 Två rena modeller kan härledas från dessa överväganden: klient-servermodellen, där en central server svarar på klienternas förfrågningar, och peer-to-peer-modellen, där varje nod har samma roll i systemet. Den sistnämnda modellen var särskilt användbar för fildelning under 2000-talet, då BitTorrent och andra liknande protokoll skapades. Tor-nätverket är decentraliserat, inte enbart peer-to-peer.
@@ -440,7 +440,7 @@ Ett problem som uppstår i distribuerade arkitekturer är frågan om distribuera
 Problemet är formulerat som en metafor där det bysantinska rikets armégeneraler belägrar en fiendestad med sina trupper, har för avsikt att anfalla och endast kan kommunicera via budbärare. Målet är att hitta en strategi (dvs. en algoritm) som kan hantera förekomsten av förrädare och se till att alla lojala generaler kommer överens om en stridsplan så att attacken blir framgångsrik. Här är en illustration (källa: *L'Élégance de Bitcoin*):
 
 
-![The Byzantine Generals Problem](assets/en/13.webp)
+![The Byzantine Generals Problem](assets/en/013.webp)
 
 
 Att lösa detta problem är viktigt för distribuerade system som hanterar en kontoenhet. Sådana system kräver att deltagarna är överens om Ownership för kontoenheter, det vill säga vem som äger vad.
@@ -462,7 +462,7 @@ Tidsstämpling är dock särskilt användbart i den digitala världen, där file
 År 1991 föreslogs en konfidentiell och säker tidsstämplingsteknik av Stuart Haber och Scott Stornetta, två forskare som arbetade för Bell Communications Research Inc (vanligen kallat "Bellcore"), ett FoU-konsortium i New Jersey. I [deras dokument] (http://www.staroceans.org/e-book/Haber_Stornetta.pdf), med titeln "How to time-stamp a digital document", beskrev de hur en certifierad tidsstämplingstjänst kunde använda en envägsfunktion (t.ex. MD4 Hash-funktionen) och en signaturalgoritm för att öka sekretessen för klientdokument och tillförlitligheten i certifieringen. Tanken var framför allt att kedja informationen genom att involvera den tidigare Timestamp i tillämpningen av envägsfunktionen.
 
 
-![Example of certified timestamping](assets/en/14.webp)
+![Example of certified timestamping](assets/en/014.webp)
 
 Exempel på certifierad tidsstämpling (källa: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
@@ -482,7 +482,7 @@ Proof of Work-konceptet beskrevs första gången 1992 av datavetarna Cynthia Dwo
 Med populariseringen av Internet på 1990-talet blev problemet med oönskade e-postmeddelanden alltmer angeläget, även på cypherpunks sändlista. Det var därför som Dwork och Naors koncept [implementerades](https://cypherpunks.venona.com/date/1997/03/msg00774.html) av den unge brittiske Cypherpunk Adam Back 1997 med Hashcash, en algoritm som producerar enkla bevis på arbete med hjälp av en Hash-funktion. Mer specifikt handlar det om att hitta en partiell kollision för den aktuella Hash-funktionen, det vill säga att få två meddelanden som har ett fotavtryck som börjar med samma databitar (obs: från version 1.0 som släpptes 2002 handlar det om att upptäcka en partiell kollision för nollavtrycket, det vill säga att hitta en förbild vars fotavtryck börjar med ett bestämt antal binära nollor). Eftersom Hash-funktionen är enkelriktad kan en sådan prestation endast uppnås genom att testa de olika möjligheterna individuellt, vilket kräver en energiförbrukning.
 
 
-![Adam Back in 2001](assets/en/15.webp)
+![Adam Back in 2001](assets/en/015.webp)
 
 Adam Back år 2001 (källa: [arkiv av Adam Backs personliga sida](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
@@ -512,7 +512,7 @@ Valutaskapandet var öppet för alla deltagare genom Proof of Work, som sände u
 Efter publiceringen på listan fick b-money cypherpunkarnas uppmärksamhet, och i synnerhet [Adam Backs](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Wei Dai implementerade dock aldrig sin modell, inte bara för att den var dysfunktionell, utan också på grund av kryptografens [desillusion](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) mot kryptoanarki. Trots detta citerades b-money i Bitcoin:s vitbok, vilket gör det till en av dess föregångare.
 
 
-![Citation of b-money in the Bitcoin white paper](assets/en/16.webp)
+![Citation of b-money in the Bitcoin white paper](assets/en/016.webp)
 
 
 ### bitguld: digitalt guld före Bitcoin
@@ -524,7 +524,7 @@ Den andra modellen som växte fram ur cypherpunkarnas idéer var idén om bitgul
 År 1994 skapade Nick Szabo en privat e-postlista som heter libtech-l. Som namnet antyder syftade den till att vara värd för diskussioner om frigörande tekniker, vilket gör det möjligt att skydda individuella friheter mot myndigheternas angrepp. Cypherpunks som Wei Dai och Hal Finney hade tillgång, liksom ekonomerna Larry White och George Selgin, förespråkare för hayekiansk valutakonkurrens och free banking.
 
 
-![Nick Szabo in 1997](assets/en/17.webp)
+![Nick Szabo in 1997](assets/en/017.webp)
 
 Nick Szabo 1997 (källa: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
@@ -557,7 +557,7 @@ Servern hanterade de återanvändbara Proof-of-Work-tokens och var ansvarig för
 Här är en illustration [designad](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) av Hal Finney själv:
 
 
-![Exchange in RPOW](assets/en/18.webp)
+![Exchange in RPOW](assets/en/018.webp)
 
 
 Hal Finney har inte bara utformat modellen utan också personligen implementerat den. Den 15 augusti 2004 [tillkännagav](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) han lanseringen av RPOW-systemet på cypherpunks e-postlista, och dokumenterade dessutom dess funktion på den särskilda webbplatsen (rpow.net). Han [presenterade] (https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) det sedan på konferensen CodeCon 2005 i San Francisco, där han diskuterade de potentiella användningsområdena för Proof-of-Work-tokens, nämligen: värdeöverföring, reglering av skräppost, handel med videospel, onlinespel som poker och anti-leeching på fildelningsprotokoll som BitTorrent.
@@ -579,7 +579,7 @@ Den faktiska användningen av RPOW var således anekdotisk. Hal Finney förtjän
 En annan mindre känd föregångare till Bitcoin, men som är viktig här, är det distribuerade kreditprotokollet Ripple, som designades av den kanadensiska utvecklaren Ryan Fugger 2004. Den unge kanadensaren inspirerades av konceptet [lokalt Exchange-handelssystem](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (LETS), något han hade upplevt i Vancouver innan han utformade sitt protokoll. Han publicerade Ripple [white paper] (https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf) den 14 april 2004. Sedan implementerade han det genom ett konceptbevis kallat RipplePay, som fungerade på en central server och gjorde det möjligt för användare att ansluta sig med bara ett e-postmeddelande Address.
 
 
-![Ryan Fugger circa 2010](assets/en/19.webp)
+![Ryan Fugger circa 2010](assets/en/019.webp)
 
 Ryan Fugger cirka 2010 (källa: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
@@ -653,7 +653,7 @@ Det var i augusti 2008 som Satoshi bestämde sig för att förbereda lanseringen
 Den 20 augusti [kontaktade] (https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) skaparen av Bitcoin, Adam Back, genom att skicka ett e-postmeddelande till honom där han bad om råd om hur han skulle citera sitt papper om Hashcash i vitboken. Det är Hard att inte se detta som en förevändning för att säkerställa att uppfinnaren av Hashcash blev medveten om hans nya system.
 
 
-![Adam Back in 2012](assets/en/20.webp)
+![Adam Back in 2012](assets/en/020.webp)
 
 Adam Back år 2012 (källa: [Adam Backs personliga sida](http://www.cypherspace.org/adam/))
 
@@ -697,7 +697,7 @@ Där anges också de viktigaste egenskaperna hos hans modell:
 I sitt e-postmeddelande inkluderar han en länk till vitboken, som redan finns på Bitcoin.org. Detta korta 9-sidiga dokument, som presenteras som en vetenskaplig artikel, beskriver det tekniska arbetet med Bitcoin och fokuserar på problemet med onlinebetalningar.
 
 
-![Title and summary of the first version of the white paper (October 2008)](assets/en/21.webp)
+![Title and summary of the first version of the white paper (October 2008)](assets/en/021.webp)
 
 
 Satoshi fick några reaktioner efter detta tillkännagivande, men de flesta var skeptiska. Han kritiseras framför allt för tre saker:
@@ -714,7 +714,7 @@ Satoshi fick några reaktioner efter detta tillkännagivande, men de flesta var 
 Även om skepticism är den dominerande inställningen på listan delas den inte av alla som prenumererar på e-postlistan. En person sticker ut från de andra med sin entusiasm: Hal Finney, som har en optimistisk syn på framtiden och aldrig gav upp tanken på elektroniska kontanter, trots misslyckandena på 90-talet. Han [uttalade](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) i denna fråga några år senare att "kryptografiska gråskägg [...] tenderar att bli cyniska" men att han "var mer idealistisk" och "alltid älskat kryptografi, dess mysterier och paradoxer" (*original: "Jag har märkt att kryptografiska gråskägg (jag var i mitten av 50-talet) tenderar att bli cyniska. I was more idealistic; I have always loved crypto, the mystery and the paradox of it."*) Den 7 november skrev han således i ett [email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) till listan att "Bitcoin seems to be a very promising idea" och jämförde Satoshi:s modell med Nick Szabos bitguld. (*original: "Bitcoin verkar vara en mycket lovande idé."*)
 
 
-![Hal Finney in 2007](assets/en/22.webp)
+![Hal Finney in 2007](assets/en/022.webp)
 
 Hal Finney år 2007
 
@@ -787,7 +787,7 @@ Från dessa utbyten mellan Satoshi och Hal Finney uppstod version 0.1.3, [public
 Men Hal Finney är inte den enda personen som försökte Bitcoin vid den tiden. Detta är också fallet för Dustin D. Trammell, en amerikansk datasäkerhetsforskare som då var intresserad av digitala valutor (och särskilt av den elektroniska versionen av Liberty Dollar), som upptäckte Bitcoin via e-postlistan. Den 11 januari kör han programvaran på en av sina arbetsmaskiner (men på grund av ett tekniskt problem bryter han inte sitt första [block] (https://Mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) förrän den 13 januari). Under natten mellan den 11 och 12 januari kommer han i kontakt med Satoshi, som han [kommunicerar](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) med under de följande dagarna. Den 15 januari [mottar](https://Mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) Dustin Trammell också 25 bitcoins från honom.
 
 
-![Dustin Trammell](assets/en/23.webp)
+![Dustin Trammell](assets/en/023.webp)
 
 Dustin Trammell (källa: [Dustin Trammells bloggarkiv](https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
@@ -843,7 +843,7 @@ Detta är rubriken i den brittiska tidningen *The Times* den dagen, som indikera
 - Å andra sidan anger den symboliskt vad Bitcoin står emot genom att hänvisa till den tidens monetära och finansiella sammanhang.
 
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
 
 
 Vid den här tiden kände världen av de fulla effekterna av den finanskris som började 2007 när subprime-bubblan sprack i USA. Regeringar räddade finansinstitut för att förhindra ytterligare konkurser efter investmentbanken Lehman Brothers fall den 15 september 2008, och centralbankerna genomförde kvantitativa lättnader genom att tillföra likviditet till finansmarknaderna. Denna användning av offentliga pengar som skapats för tillfället oroade ett antal medborgare som insåg att banksystemet i själva verket är ett system med privata vinster och socialiserade förluster.
@@ -893,7 +893,7 @@ Därefter, i samma e-postmeddelande, diskuterar Jonathan Thornburg ämnet zombie
 Slutligen kommer den sista kommentaren från John Gilmore, en av grundarna av cypherpunks och den som höll i rörelsens första e-postlista från 1992 till 1997. I ett e-postmeddelande som skickades den 25 januari belyser han de förmodade ekologiska konsekvenserna av Bitcoin och [skriver](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) att "det sista vi behöver är att distribuera ett system som är utformat för att bränna alla tillgängliga cykler, konsumera elektricitet och generera koldioxid, över hela Internet, för att producera små mängder bitbux för att få e-post eller spam igenom." Satoshi [svarar](https://mmalmi.github.io/Satoshi/#email-3) honom privat att "det skulle vara ironiskt att behöva välja mellan ekonomisk frihet och miljöskydd" Han tillägger att "Proof of Work är den enda lösningen [han har] hittat för att få ett elektroniskt peer-to-peer-kontantsystem att fungera" och att även om det skulle förbruka mycket energi "skulle det fortfarande slösa mindre än den arbets- och resursintensiva konventionella bankverksamhet som det skulle ersätta."
 
 
-![John Gilmore in 2007](assets/en/25.webp)
+![John Gilmore in 2007](assets/en/025.webp)
 
 John Gilmore år 2007 (källa: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
@@ -920,7 +920,7 @@ Den 11 februari publicerade Satoshi ett [introduktionsmeddelande](https://p2pfou
 
 Han påstår sig vara en japansk man på sin [profil] (https://p2pfoundation.ning.com/profile/SatoshiNakamoto), men det är inte allt. En Interface-uppdatering 2011 avslöjade hans ålder: 35 år gammal, vilket innebär att han var 32 eller 33 år gammal 2009. Sedan, 2014, [upptäcktes](https://www.reddit.com/r/Bitcoin/comments/229qvr/happy_birthday_satoshi_nakamoto/) att han hade angett ett specifikt födelsedatum: Den 5 april 1975. Detta till synes oskyldiga datum är sannolikt en sammansatt hänvisning till förbudet för amerikanska medborgare att äga guld mellan 1933 och 1975 i USA. Dagen den 5 april hänför sig till den dag då detta förbud infördes genom [Executive Order 6102] (https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) som undertecknades av president Franklin Delano Roosevelt den 5 april 1933, och året 1975 motsvarar dess upphävande genom [Public Law 93-373] (https://www.govtrack.us/congress/bills/93/s2665/text). Denna detalj är mycket viktig eftersom detta förbud avslutade den klassiska guldmyntfoten (där man kunde få guld i Exchange för en representativ sedel), möjliggjorde devalveringen av dollarn (genom Gold Reserve Act 1934) och underlättade inrättandet av det monetära system med flytande Exchange ränta som vi känner till efter Nixon-chocken 1971.
 
-![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/26.webp)
+![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/026.webp)
 
 
 Satoshi Nakamotos profil på P2P Foundation-forumet den 17 mars 2011 (källa: [forum capture](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
@@ -950,7 +950,7 @@ Satoshi:s kommunikationsstrategi bär gradvis frukt. I april 2009 började andra
 Den 12 april skickade Mike Hearn ett [email] (https://plan99.net/~mike/Satoshi-emails/thread1.html) till Satoshi och ställde en rad frågor om Bitcoin. Han noterade att "det är sällsynt att stöta på verkligt revolutionerande idéer" och underlät inte att nämna Ripple.
 
 
-![Mike Hearn](assets/en/27.webp)
+![Mike Hearn](assets/en/027.webp)
 
 
 Mike Hearn och Satoshi Nakamoto diskuterade olika aspekter av Bitcoin, såsom skalning, mikrobetalningar, hur programvaran fungerar och avsaknaden av återbetalningar. Mike Hearn frågade särskilt Satoshi varför han valde kvantiteten "24 miljoner" (*sic*) för det totala antalet bitcoins och om de kunde delas upp. Satoshi gav då följande förklaring:
@@ -972,7 +972,7 @@ Satoshi:s kommunikation uppmärksammades också av en ung finsk datavetenskapsst
 
 > "Systemet är anonymt och ingen regering kan beskatta eller förhindra transaktionerna. Det finns ingen centralbank som kan förringa valutan genom att skapa obegränsat med nya pengar. Ett utbrett införande av ett sådant system verkar vara något som skulle kunna ha en förödande effekt på statens förmåga att livnära sig på sina medborgare."
 
-![Martti Malmi in 2013](assets/en/28.webp)
+![Martti Malmi in 2013](assets/en/028.webp)
 
 Martti Malmi år 2013 (källa: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
@@ -1023,7 +1023,7 @@ Efter några diskussioner om vilken teknisk lösning som skulle användas [insta
 De första användarna börjar registrera sig i början av följande månad. Den 9 december visas det [första meddelandet](https://bitcointalk.org/index.php?topic=12.msg40#msg40) som postats av någon annan än Satoshi, vilket verkligen sätter igång diskussionerna. Som en illustration, här är en [skärmdump](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/) av forumet den 29 maj 2010:
 
 
-![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/29.webp)
+![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/029.webp)
 
 
 Lanseringen av det nya forumet var ett tillfälle att släppa [version 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) av programvaran, som Satoshi Nakamoto och Martti Malmi hade arbetat med i flera månader, vilket skedde den 16 december. Denna version innehåller förbättringar såsom minimering till aktivitetsfältet, automatisk start vid uppstart och multithreading för Mining produktion. Programvaran anpassades också för Linux, tack vare Malmis bidrag och tester som utfördes av det nystartade NewLibertyStandard (vars fall kommer att tas upp i nästa kapitel).
@@ -1099,7 +1099,7 @@ De två sista skälen är mycket mer betydelsefulla eftersom de motiverar männi
 I slutet av september 2009 upptäckte en person som använder pseudonymen NewLibertyStandard (som vi kommer att förkorta som NLS) Bitcoin. Han testar programvaran och startar Mining. Det första blocket han producerar är [block 23,940] (https://Mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). Han är Linux-användare och använder därför "emulatorn" Wine för att köra programvaran. Han är intresserad av politisk frihet och ädelmetaller, vilket framgår av hans [avatar](https://bitcointalk.org/index.php?action=profile;u=26) på forumet, som föreställer en amerikansk örn på vilken ordet "liberty" är inristat. Han ser således Bitcoin som en motsvarighet till guld i den digitala världen: på sin [personliga sida](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/) presenterar han Satoshi Nakamotos skapelse som "en ekonomisk revolution" och som "den digitala valutans guldstandard"
 
 
-![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/30.webp)
+![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/030.webp)
 
 
 I oktober 2009 etablerades den första valutatjänsten Exchange, som gjorde det möjligt för människor att konvertera sina dollar till bitcoins och sina bitcoins tillbaka till dollar. Skaparen registrerade sig på det Bitcoin-dedikerade forumet på SourceForge och tillkännagav öppnandet av sin tjänst där. För att uppskatta Exchange-priset baserade han det på den energikostnad som krävs för att få en enhet, med tanke på elpriset på hans plats och frekvensen av hans produktion. På sin sida [skrev han](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
@@ -1110,7 +1110,7 @@ I oktober 2009 etablerades den första valutatjänsten Exchange, som gjorde det 
 Här är de vägledande Exchange-priserna för NLS-tjänsten, som också publiceras på NLS personliga sida:
 
 
-![Indicative exchange rates of the NLS service](assets/en/31.webp)
+![Indicative exchange rates of the NLS service](assets/en/031.webp)
 
 
 Transaktioner avvecklas via e-post på newlibertystandard@gmail.com. Dollaröverföringar görs uteslutande via PayPal, och avgifter tas ut för operationen.
@@ -1143,7 +1143,7 @@ Samordningsinsatserna genomförs främst på forumet. Den 27 januari skapade en 
 Den 5 februari [föreslog] NLS(https://bitcointalk.org/index.php?topic=41.msg238#msg238) att Bitcoin, liksom valutor som handlas på den utländska Exchange marknaden, skulle anta tickersymbolen BTC och symbolen för den thailändska bahten (฿). Fram till dess fanns det ingen etablerad praxis: till exempel använde Satoshi och Martti bokstäverna "bc" för att beskriva enheter i sin [korrespondens] (https://mmalmi.github.io/Satoshi/#email-119). Användningen av BTC-symbolen blev snabbt standardiserad. Den 24 februari [designades] valutasymbolen (ett stort B korsat av två vertikala streck)(https://bitcointalk.org/index.php?topic=64.msg504#msg504) av Satoshi, som sedan skapade den första riktiga Bitcoin-logotypen.
 
 
-![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/32.webp)
+![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/032.webp)
 
 
 Så småningom började människor acceptera Bitcoin. Detta var fallet för användaren SmokeTooMuch i december 2009, som just hade anlänt och [rapporterat existensen](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65) av en paysafecard presentkortsförsäljningstjänst som heter BTC 2 PSC. Tjänsten [nämndes](https://mmalmi.github.io/Satoshi/#email-141) senare positivt av Satoshi den 4 februari 2010. Detta var också fallet för NLS som den 9 februari [öppnade](https://bitcointalk.org/index.php?topic=30.msg305#msg305) sin egen webbutik, Liberty Swap Variety Shop, där han erbjöd frimärken och klistermärken till försäljning.
@@ -1158,7 +1158,7 @@ Exchange med dollarn utvecklades också, och inom två månader öppnade inte mi
 - Bitcoin Market (bitcoinmarket.com), en peer-to-peer-marknadsplats som använder PayPal och som [lanserades] (https://bitcointalk.org/index.php?topic=20.msg726#msg726) av någon som heter dwdollar den 16 mars, och som kommer att nå betydande framgångar innan Mt. Gox dyker upp i juli.
 
 
-![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/33.webp)
+![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/033.webp)
 
 [Capture](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/) av Bitcoin Market Interface senare (augusti 2011)
 
@@ -1172,7 +1172,7 @@ Andra tjänster som accepterar Bitcoin dyker upp, till exempel voice over IP-tj�
 Den första dedikerade Bitcoin förvaringstjänsten visas också: MyBitcoin, en webbapplikation som möjliggör enkel och lugn användning av kryptovaluta, särskilt på mobilen. Tack vare den här tjänsten behöver användarna inte ladda ner hela kedjedatan för att skicka och ta emot transaktioner, och de behöver inte heller förvara sina bitcoins själva genom att spara sina privata nycklar.
 
 
-![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/34.webp)
+![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/034.webp)
 
 
 Vid den tiden fanns inte lättviktsplånböcker (kända som "SPV"), så Satoshi Nakamoto själv ansåg att det var acceptabelt att använda den här typen av programvara, även om denna användning stred mot principen om disintermediation som är kärnan i Bitcoin. Den 18 maj 2010 [skrev] han (https://bitcointalk.org/index.php?topic=125.msg1149#msg1149) på forumet:
@@ -1236,7 +1236,7 @@ Den allt högre efterfrågan på Bitcoin åtföljdes av en gradvis ökning av Mi
 Satoshi Nakamoto var mycket bekymrad över denna ökade svårighetsgrad och upprätthöll en [history](https://bitcointalk.org/index.php?topic=43.msg249#msg249) på forumet med början i februari 2010. Här är hur det såg ut:
 
 
-![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/35.webp)
+![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/035.webp)
 
 
 Trots denna entusiasm över den ökade datorkraften i nätverket ville Satoshi ändå sakta ner specialiseringen av Mining för att gynna distributionen av enheter. Fram till dess hade miners använt sina CPU:er (Central Processing Units) för att utvinna nya bitcoins. Dessa processorer visade sig dock vara ineffektiva för att utföra repetitiva operationer, jämfört med grafikprocessorenheter (GPU), som är mycket mer lämpade för denna typ av repetitiva beräkningar. Följaktligen visste alla, inklusive Satoshi själv, då att denna utveckling var oundviklig. Den 19 december 2009 [uppgav] han (https://bitcointalk.org/index.php?topic=12.msg54#msg54) följande:
@@ -1247,7 +1247,7 @@ Trots denna entusiasm över den ökade datorkraften i nätverket ville Satoshi �
 Några månader senare öppnades dock Pandoras ask. Bråkmakaren är Laszlo Hanyecz, en 28-årig amerikansk utvecklare av ungerskt ursprung som bor i Florida. Han upptäckte Bitcoin i april 2010. Den 9:e [förvärvade](https://Mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) han 3 300 bitcoins från NLS för cirka 20 USD och testade sedan systemet genom att göra några överföringar. Den 18:e försökte han överbelasta nätverket genom att multiplicera transaktioner från sin [offentliga Address](https://Mempool.space/Address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), men det höll.
 
 
-![Laszlo Hanyecz with his son in May 2018](assets/en/36.webp)
+![Laszlo Hanyecz with his son in May 2018](assets/en/036.webp)
 
 Laszlo Hanyecz med sin son i maj 2018 (källa: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1270,7 +1270,7 @@ Denna ökning i Mining fick också en betydande konsekvens: Satoshi slutade prod
 Satoshi:s Mining-aktivitet har ett tydligt mönster, vilket gör det möjligt att identifiera de block som han sannolikt hittade med några få falska positiva resultat. Utvecklaren Sergio Lerner lyfte fram detta Mining-mönster 2013 och kallade det Patoshi-mönstret.
 
 
-![Patoshi Pattern between blocks 0 and 50,000](assets/en/37.webp)
+![Patoshi Pattern between blocks 0 and 50,000](assets/en/037.webp)
 
 
 Patoshi-mönstret mellan block 0 och 50 000, enligt webbplatsen [satoshiblocks.info] (http://satoshiblocks.info/): varje punkt motsvarar ett block. De blå linjerna bildas av Satoshi:s block, och de andra linjerna representerar andra miners produktion.
@@ -1282,13 +1282,13 @@ Enligt en studie av Whale Alert som publicerades 2020 utvann Satoshi cirka 22.50
 I takt med att datorkraften ökade under hösten 2009 minskade gradvis andelen datorkraft i Satoshi i förhållande till den totala nätverkskraften. Den gick från 75 % i mars 2009 till 60 % i september, sedan ner till 15 % i december och nådde 0 % i maj. Nedan visas en graf som gjordes av [Organofcorti] (https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html) 2014:
 
 
-![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/38.webp)
+![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/038.webp)
 
 
 Satoshi:s minskning av Mining:s dominans är dessutom inte bara passiv: han saktar ner sin produktion under samma period. Satoshi:s uttalade mål är att alla ska delta: han minerar inte för ekonomisk vinning, utan för att säkerställa nätverkets drift tills incitamenten träder i kraft. Därför minskar han sin Hash-hastighet (antalet beräkningar som utförs varje sekund) tre gånger under denna Mining-period: första gången från 4,5 till 2,5 MH/s i juni 2009, andra gången från 2,5 till 1 MH/s i oktober och tredje gången från 1 till 0 MH/s i maj 2010. Här är ett diagram över hans Hash-hastighetsutveckling under denna period ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-Hashrate.html)):
 
 
-![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/39.webp)
+![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/039.webp)
 
 
 Satoshi:s Mining är därför avgjort altruistisk, som [Jameson Lopp påpekar](https://blog.lopp.net/was-Satoshi-a-greedy-Miner/). När han stoppar Mining den 3 maj 2010 (hans sista block är [block 54,316](https://Mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)) utgör det ytterligare ett framsteg i den långsamma utvecklingen av Bitcoin: ekonomiska aktörers övertagande av transaktionsbekräftelse.
@@ -1305,7 +1305,7 @@ En grundläggande händelse markerar också maj 2010: det första köpet av en f
 Efter fyra dagar accepterades erbjudandet. En ung kalifornier vid namn Jeremy Sturdivant accepterade Exchange på snabbmeddelandetjänsten IRC.
 
 
-![Jeremy Sturdivant in May 2018](assets/en/40.webp)
+![Jeremy Sturdivant in May 2018](assets/en/040.webp)
 
 Jeremy Sturdivant i maj 2018 (källa: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -1313,7 +1313,7 @@ Jeremy Sturdivant i maj 2018 (källa: [The Telegraph](https://www.telegraph.co.u
 Den 22 maj beställde han två pizzor från Papa John's, som levererades till Laszlo i Jacksonville, Florida. Han [fick](https://Mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10 000 bitcoins i Exchange, värda cirka 44 USD till Bitcoin:s marknadskurs. Här är ett fotografi av dessa två pizzor, [delat](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/) av Laszlo själv:
 
 
-![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/41.webp)
+![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/041.webp)
 
 
 Detta avslutar det första köpet av en fysisk vara med bitcoins, även om detta köp är indirekt. Laszlo gratuleras av [Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196), som skriver att "ett stort steg har tagits" NLS lägger också till en [positiv kommentar](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197) i denna fråga.
@@ -1336,7 +1336,7 @@ Han genomförde därmed flera andra transaktioner av samma typ, fram till den 4 
 Under denna period anlände också en nyckelperson i Bitcoin:s historia: Gavin Andresen, en 44-årig utvecklare född i Australien som [förvärvade](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) amerikanskt medborgarskap 2004 och som vid den tidpunkten bodde i Amherst, Massachusetts. När han återvände från en resa till Australien och var tillfälligt arbetslös upptäckte han Bitcoin i slutet av maj genom en [artikel](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) av Neil McAllister som publicerades på InfoWorld. I artikeln presenterades Satoshi Nakamotos projekt som en "innovation med öppen källkod"
 
 
-![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/42.webp)
+![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/042.webp)
 
 Gavin Andresen i Townsville, Queensland, Australien (källa: [CIO-arkiv](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/))
 
@@ -1429,7 +1429,7 @@ Den 11 juli 2010 publicerades en reviderad version av Teppys Bitcoin-presentatio
 
 > "Vad sägs om detta som en omvälvande teknik? Bitcoin är en peer-to-peer, nätverksbaserad digital valuta utan centralbank och utan transaktionsavgifter. Med hjälp av ett Proof-of-Work-koncept bränner noder CPU-cykler på att söka efter buntar av mynt och sänder sina fynd till nätverket. Analys av energianvändningen indikerar att marknadsvärdet för Bitcoins redan är högre än värdet på den energi som behövs för att generate dem, vilket tyder på en sund efterfrågan. Gemenskapen är hoppfull om att valutan kommer att förbli utom räckhåll för någon regering."
 
-![Slashdot Logo in 2010](assets/en/43.webp)
+![Slashdot Logo in 2010](assets/en/043.webp)
 
 
 Publiceringen uppmärksammades och nästan 500 kommentarer skrevs på några dagar. För Bitcoin ledde denna framgång till en massiv tillströmning av besökare till webbplatsen och forumet. Användningen av Blockchain ökade kraftigt: antalet transaktioner som utfördes i nätverket ökade från 42 den 10 juli till 1 641 den 12 juli och nådde 5 554 den 14 juli, vilket var rekordhögt. Systemet höll trots den ökade belastningen. Den 14:e skrev utvecklaren Gavin Andresen [https://bitcointalk.org/index.php?topic=286.msg2745#msg2745] på forumet:
@@ -1449,7 +1449,7 @@ En annan effekt av tillströmningen av människor från Slashdot är den ökade 
 Bland dem som upptäckte Bitcoin tack vare Slashdot fanns Jed McCaleb, en 35-årig amerikansk entreprenör och programmerare känd för att ha varit med och grundat och utvecklat peer-to-peer-fildelningsprogrammet eDonkey2000 på 2000-talet. Han insåg att det var svårt att få tag på Bitcoin i Exchange för dollar och bestämde sig "på ett infall" för att skapa en effektiv marknadsplats. För att göra detta återanvände han ett av sina gamla projekt som utvecklades 2007: Magic The Gathering Online Exchange (MTGOX), en webbplats som gjorde det möjligt att köpa och sälja kort till onlinespelet *Magic: The Gathering Online*. Han återanvände domännamnet för det här projektet (mtgox.com), som blev namnet på den nya plattformen: Mt. Gox, uttalas "Mount Gox".
 
 
-![Jed McCaleb in 2013](assets/en/44.webp)
+![Jed McCaleb in 2013](assets/en/044.webp)
 
 Jed McCaleb år 2013 (källa: Ariel Zambelich för [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
@@ -1457,7 +1457,7 @@ Jed McCaleb år 2013 (källa: Ariel Zambelich för [Wired](https://web.archive.o
 En vecka senare, den 18 juli, lanserade Jed McCaleb sin Exchange-plattform och [tillkännagav] (https://bitcointalk.org/index.php?topic=444.msg3866#msg3866) den på forumet. Tack vare sin expertis säkerställde han att plattformen fungerade som en automatiserad marknadsplats, liknande moderna online-börser. [Enligt honom](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891) skilde den sig från Bitcoin Market eftersom den "alltid var online, automatiserad", "webbplatsen var snabbare och hade dedikerad hosting" och "Interface var mer användarvänlig" Som ett resultat blev Mt. Gox snabbt det primära sättet att förvärva Bitcoin och etablerade sig som riktmärke för dollarnoteringar.
 
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/45.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/en/045.webp)
 
 Interface på Mt. Gox-plattformen i februari 2011 (källa: [Mt. Gox-arkivet](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 
@@ -1495,7 +1495,7 @@ Skaparen av Bitcoin arbetar dock inte ensam med koden. Han kan räkna med Gavin 
 Slutligen kan vi nämna Jeff Garzik (som använder pseudonymen jgarzik på forumet), en amerikansk utvecklare och bidragsgivare i världen av fri programvara, särskilt för Red Hat-distributionen, och en libertariansk anhängare av den österrikiska ekonomiska skolan. Han upptäckte Bitcoin genom artikeln på Slashdot och blev nästan omedelbart involverad i Bitcoin.
 
 
-![Jeff Garzik in 2013](assets/en/46.webp)
+![Jeff Garzik in 2013](assets/en/046.webp)
 
 Jeff Garzik 2013 (källa: [Benson Samuel](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
 
@@ -1557,7 +1557,7 @@ Denna parameter [lades till](https://sourceforge.net/p/Bitcoin/code/103/) diskre
 Slutligen påverkar förekomsten av denna parameter Jeff Garzik som [förklarar](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750) att han är "mycket mer bekymrad över skalbarhet än nedstängning av regeringen" och som [frågar](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107) hur det är möjligt att "sälja Bitcoin till seriösa investerare, med inbyggda begränsningar som gränsen på 463 transaktioner per minut." Följaktligen föreslår han den 3 oktober en patch på forumet för att öka blockstorleksgränsen till 7,168 MB för att "matcha PayPals genomsnittliga transaktionshastighet" Theymos svarar med att säga att "om du tillämpar den här patchen kommer du att bli inkompatibel med andra Bitcoin-klienter." Detta meddelande stöds av Satoshi Nakamoto som [rekommenderar](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139) att inte använda patchen och säger: "Vi kan fasa in en förändring senare om vi kommer närmare att behöva den." Den senare [förtydligar](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366) sina tankar nästa dag genom att vägleda hur man gör en sådan protokolländring.
 
 
-![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/47.webp)
+![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/047.webp)
 
 
 Denna diskussion markerar början på debatten om skalbarhet, som så småningom skulle leda till ett riktigt inbördeskrig mellan 2015 och 2017, känt som blockstorlekskriget.
@@ -1609,7 +1609,7 @@ Den här perioden var särskilt en gyllene era för Mining, som såg betydande f
 Efter att Bitcoin slashdotades i juli 2010 uppmuntrade den höga ekonomiska belöningen från prisökningen och möjligheten till framtida tillväxt individer att ägna sig åt att generera Bitcoin mer intensivt. Det är därför nätverkets [Hash rate] (https://bitinfocharts.com/comparison/Bitcoin-Hashrate.html#alltime), som låg på 0,22 GH/s den 11 juli, steg till 2,78 GH/s den 17 juli, sedan till 5,79 GH/s den 15 augusti, för att slutligen nå 9,94 GH/s den 19 september och slutligen 12,58 GH/s den 29 september.
 
 
-![Total network hash rate from July 11 to October 5, 2010](assets/en/48.webp)
+![Total network hash rate from July 11 to October 5, 2010](assets/en/048.webp)
 
 Total Hash-frekvens i nätverket från den 11 juli till den 5 oktober 2010 (källa: [CoinWarz](https://www.coinwarz.com/Mining/Bitcoin/Hashrate-chart))
 
@@ -1619,7 +1619,7 @@ Den största Miner under den här perioden var en tysk utvecklare som gick under
 Han började generera bitcoins den 19 juli. Den 25 juli, i en tråd som undersökte användare om deras Bitcoin-innehav, uppgav ArtForz (https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) att han hade genererat 1 700 bitcoins på 6 dagar, vilket motsvarar 4% av Hash-hastigheten, eller 80 MH/s. Gradvis byggde han en stor Mining-gård, som skulle bli känd som "ArtFarm" I augusti innehöll hans farm [included](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-Mining/) 6 ATI Radeon HD 5770, vilket gjorde att han kunde öka från 76 MH/s den 9 augusti till cirka 450 MH/s den 13 augusti.
 
 
-![ArtForz's mining production between August and October 2010](assets/en/49.webp)
+![ArtForz's mining production between August and October 2010](assets/en/049.webp)
 
 ArtForz Mining-produktion mellan augusti och oktober 2010 (källa: Blackburn et al., "[Samarbete mellan en anonym grupp skyddade Bitcoin under misslyckanden med decentralisering] (https://arxiv.org/pdf/2206.02871)")
 
@@ -1666,7 +1666,7 @@ Den 23 november lades en modifierad version av funktionen `getwork` till i [kode
 Den 27 november publicerade en ung tjeckisk utvecklare vid namn Marek Palatinus, under pseudonymen slush, [https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0] en beskrivning av "cooperative Mining" på forumet, en modell som utnyttjar `getwork` och Jeff Garziks logik. Denna modell baseras på de partiella bevis på arbete som produceras av gruvarbetarna (pay-per-share). Dagen därpå [godkände] Satoshi Nakamoto konceptet (https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119).
 
 
-![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/50.webp)
+![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/050.webp)
 
 Marek Palatinus (slush) vid Z-DAY-konferensen i Prag den 11 maj 2013
 
@@ -1683,7 +1683,7 @@ Under natten mellan den 15 och 16 december [lanserades] (https://bitcointalk.org
 Kooperativet skulle komma att bli ett riktmärke i Bitcoin Mining. Det [bar](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) flera namn genom åren: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, och slutligen Slush Pool, om dess skapare. Den blev Braiins Pool i september 2022.
 
 
-![Logo of Slush's cooperative in September 2011](assets/en/51.webp)
+![Logo of Slush's cooperative in September 2011](assets/en/051.webp)
 
 Logotypen för Slushs kooperativ i september 2011 (källa: [arkiv](https://web.archive.org/web/20110923151034/http://Mining.Bitcoin.cz:80/) på webbplatsen)
 
@@ -1724,13 +1724,15 @@ Det var med den franska gemenskapen som saker och ting förändrades, särskilt 
 Några dagar senare, den 30:e, publicerade han ett [pressmeddelande] (https://linuxfr.org/news/connaissez-vous-les-bitcoins) på franska på LinuxFr.org (DLFP). Detta pressmeddelande, med titeln "Do you know about bitcoins?", är förmodligen den första presentationen av Bitcoin som skrivits på Molières språk. Artikeln nådde ett stort antal människor och genererade nästan 350 kommentarer. Här är det första stycket som det [dök upp](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) vid den tidpunkten:
 
 
-![Do you know about bitcoins?](assets/en/52.webp)
+![Do you know about bitcoins?](assets/en/052.webp)
 
+
+> **Artiklar: Känner du till bitcoins?** Bitcoin är en elektronisk valuta som utformades 2009 av en viss Satoshi Nakamoto. Denna valuta skiljer sig från andra elektroniska valutor genom sin helt decentraliserade peer-to-peer-natur och sitt smarta utnyttjande av grundläggande kryptografiska koncept. Den bygger på programvara skriven i C++ och publicerad under den fria MIT-licensen.
 
 I synnerhet uppmärksammar detta utskick en viss Ploum, med det riktiga namnet Lionel Dricot, en 29-årig belgisk bloggare och förespråkare för fri programvara. Den 25 oktober [publicerade] han (https://ploum.net/monnaie-de-geek-monnaie-de-singe/) en artikel på sin blogg med rubriken "Geek Currency, Monkey Money?", där han förespråkar decentralisering och stöder principen om Bitcoin. Många fransktalande internetanvändare hörde talas om Bitcoin på detta sätt, däribland [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/), den utvecklare som skulle komma att skapa Bitcoin Cash 2017.
 
 
-![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/53.webp)
+![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/053.webp)
 
 Lionel Dricot (Ploum) 2012, då kandidat under Piratpartiets fana för de belgiska kommun- och provinsvalen (källa: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
@@ -1743,13 +1745,13 @@ Samma dag öppnade Ploum [diskussionstråden](https://bitcointalk.org/index.php?
 Förutom utvecklingen av språkgemenskaper finns det en viss innovation i de metoder som används för kommunikation om Bitcoin. Den 4 oktober lanserade en 38-årig australiensare under pseudonymen noagendamarket [https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217] ett initiativ som heter BitcoinMedia. Idén är att främja Bitcoin genom att skapa innehåll och annonsera det på platser som sannolikt kommer att locka en publik. Även om detta initiativ inte nådde den förväntade framgången har det förtjänsten att det ledde till produktionen av de första videorna som talar om Bitcoin. Kanalens första video, [publicerad](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) den 5 oktober, är en Google Search Story, skapad med hjälp av YouTube-verktyget (se skärmdumpen nedan). De andra videorna kommer att genereras med Xtranormal, ett enkelt verktyg för att skapa videosekvenser från en uppsättning fördesignade karaktärer och miljöer.
 
 
-![First video on Bitcoin (Google Search Story)](assets/en/54.webp)
+![First video on Bitcoin (Google Search Story)](assets/en/054.webp)
 
 
 Blogginläggen om Bitcoin duggar tätt under denna period. Detta är särskilt fallet för Jon Matonis, som driver bloggen *The Monetary Future* där han diskuterar digitala valutor, free banking och kryptografi. Han upptäckte Bitcoin i mars och [bytte](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-Satoshi/#entry514) med Satoshi, varefter han började skriva om ämnet. I oktober publicerar han en [tredje artikel](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html) där han talar om prisökningen och beskriver nyheterna i ekosystemet.
 
 
-![Profile picture of Jon Matonis in 2011](assets/en/55.webp)
+![Profile picture of Jon Matonis in 2011](assets/en/055.webp)
 
 Profilbild på Jon Matonis 2011 (källa: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
@@ -1757,7 +1759,7 @@ Profilbild på Jon Matonis 2011 (källa: [Forbes](https://www.forbes.com/sites/j
 Vid denna tidpunkt har en ny Bitcoin-logotyp också föreslagits. Den 1 november publicerade en forummedlem som använder pseudonymen bitboy [publicerad](https://bitcointalk.org/index.php?topic=1631.0) grafisk Elements för att markera kryptovalutan. En av dessa Elements är en orange logotyp med B överkorsad och något lutad:
 
 
-![Bitcoin logo designed by bitboy, November 2010](assets/en/56.webp)
+![Bitcoin logo designed by bitboy, November 2010](assets/en/056.webp)
 
 
 ### En växande ekonomi
@@ -1767,7 +1769,7 @@ Denna period präglas också av en anmärkningsvärd tillväxt av ekosystemet p�
 Alla dessa Elements leder till att priset ökar drastiskt. Medan det har stabiliserats runt 6 cent sedan augusti börjar det stiga i början av oktober. Det går till 10 ¢ och når 20 ¢ i slutet av månaden. Den 6 november överstiger det 50 ¢, vilket inte misslyckas med att [excite](https://bitcointalk.org/index.php?topic=1681.0) forummedlemmarna.
 
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/57.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/057.webp)
 
 BTC-pris mellan den 18 juli och den 18 oktober 2010 på Mt. Gox (källa: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
 
@@ -1792,7 +1794,7 @@ En sista faktor som tyder på Bitcoin:s framgång är att vissa försökte testa
 En viktig händelse i slutet av 2010 var Electronic Frontier Foundations godkännande av Bitcoin. Denna organisation är en internationell organisation för att skydda friheter på Internet och grundades år 1900 av Mitch Kapor, John Gilmore och John Perry Barlow. Detta var särskilt viktigt för de tidiga användarna av Bitcoin, som var cypherpunks i hjärtat. De var angelägna om att acceptera Bitcoin.
 
 
-![Logo of the Electronic Frontier Foundation](assets/en/58.webp)
+![Logo of the Electronic Frontier Foundation](assets/en/058.webp)
 
 
 Det var forummedlemmen Kiba som tog initiativet den 13 augusti 2010 genom att [föreslå](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) att kontakta EFF och föreslå att de skulle ta emot en donation, [insamlad](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578) från samhället. För detta ändamål inrättade han ett [konto](https://Mempool.space/Address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) på MyBitcoin där han samlade in medlen och ville överföra tillgången till EFF. Han utarbetade ett e-postmeddelande (korrigerat av gemenskapen) som han skickade i slutet av augusti.
@@ -1877,7 +1879,7 @@ Gavin, som står Satoshi nära men som också diskuterar med andra utvecklare, s
 Den utlösande händelsen för Satoshi:s avgång är WikiLeaks-affären. WikiLeaks är en icke-statlig organisation som grundades av Cypherpunk Julian Assange 2006, med syfte att ge visselblåsare och informationsläckor en röst samtidigt som deras källor skyddas. Under 2010 spreds de konfidentiella dokument som avslöjats av organisationen i stora medier och orsakade uppståndelse i den allmänna opinionen. Dokumenten rörde framför allt den amerikanska militärens överdrivna agerande, t.ex. civila dödsoffer och tortyr, i Afghanistan (Afghan War Diary) och Irak (Iraq War Logs).
 
 
-![WikiLeaks logo in November 2010](assets/en/59.webp)
+![WikiLeaks logo in November 2010](assets/en/059.webp)
 
 
 WikiLeaks finansiering bygger främst på donationer från allmänheten, så organisationen förlitar sig på betalningsförmedlare för att ta emot betalningar online. Efter dessa avslöjanden sätts dock press på dessa mellanhänder som fruktar tillsynsmyndighetens reaktion. Detta är anledningen till att onlinebetalningsföretaget Moneybookers [fryser] (https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) NGO:s konto den 14 oktober.
@@ -1886,7 +1888,7 @@ WikiLeaks finansiering bygger främst på donationer från allmänheten, så org
 Denna situation öppnar en kunglig väg för att använda Bitcoin, som inte förlitar sig på någon betrodd tredje part och skulle motstå finansiell censur mycket bättre. I november öppnade Amir Taaki, en 22-årig brittisk-iranier som använder pseudonymen genjix, hypotesen på forumet.
 
 
-![Amir Taaki in December 2012 in Bratislava](assets/en/60.webp)
+![Amir Taaki in December 2012 in Bratislava](assets/en/060.webp)
 
 Amir Taaki i december 2012 i Bratislava (källa: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
@@ -2057,25 +2059,25 @@ Men det är främst webbplatshanteringen som Martti behöver delegera. I slutet 
 Dess utseende förändrades också. I december 2010 såg webbplatsen fortfarande ut som den hade gjort under Satoshi-eran. Här är en [snapshot](https://web.archive.org/web/20101110005546/http://www.Bitcoin.org/) från den 5 december:
 
 
-![Snapshot of Bitcoin.org from December 5, 2010](assets/en/61.webp)
+![Snapshot of Bitcoin.org from December 5, 2010](assets/en/061.webp)
 
 
 Därför lades en färgklick till (https://web.archive.org/web/20110216125441/http://www.Bitcoin.org/) i början av 2011:
 
 
-![Snapshot of Bitcoin.org from February 16, 2011](assets/en/62.webp)
+![Snapshot of Bitcoin.org from February 16, 2011](assets/en/062.webp)
 
 
 I april ändrades webbplatsens layout på grund av en redesign [organiserad](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) av samhället. Så här [såg](https://web.archive.org/web/20110411071904/http://www.Bitcoin.org/) ut då:
 
 
-![Snapshot of Bitcoin.org from April 11, 2011](assets/en/63.webp)
+![Snapshot of Bitcoin.org from April 11, 2011](assets/en/063.webp)
 
 
 Slutligen, i september 2011, gjordes en ny ändring [made](https://buildingbitcoin.org/Bitcoin-dev/log-2011-08-31.html#l-691) av Nils Schneider. Ett nytt GitHub-arkiv [skapades](https://github.com/Bitcoin/Bitcoin.org) för tillfället. Den här designen skulle hålla längre: den skulle inte ändras förrän 2013. Här är den (notera att Bitcoin-the-software sedan beskrivs som "ett community-drivet open source-projekt"):
 
 
-![Snapshot of Bitcoin.org from September 23, 2011](assets/en/64.webp)
+![Snapshot of Bitcoin.org from September 23, 2011](assets/en/064.webp)
 
 
 När det gäller wikin baserades den ursprungligen på DokuWiki, en gratis motor som är integrerad i webbplatsen. I december 2010 skapade dock Mark Karpelès, en fransk utvecklare som bor i Japan och som använder pseudonymen MagicalTux på forumet, en ny wiki på Bitcoin.it. Denna wiki är baserad på MediaWiki-motorn, som han tycker är mer elegant och lättare att använda. Den ursprungliga tanken är inte att ersätta den befintliga dokumentationen utan, som Mark [uttrycker](https://buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) på IRC, att utveckla "en mindre formell, mer community-orienterad wiki"
@@ -2084,7 +2086,7 @@ När det gäller wikin baserades den ursprungligen på DokuWiki, en gratis motor
 Denna nya wiki tilltalar [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) och [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535), så de överväger snabbt att göra den till huvudwiki. Här är en [snapshot](https://web.archive.org/web/20110521044430/https://en.Bitcoin.it/wiki/Main_Page) tagen den 21 maj:
 
 
-![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/65.webp)
+![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/065.webp)
 
 
 Några dagar efter lanseringen pekar länken med titeln "wiki" på Bitcoin.org-hemsidan [pekar](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) till Bitcoin.it. Innehållet överförs gradvis från DokuWiki-versionen. Den 31 januari [anger](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) Martti på forumet att detta är den nya wikin.
@@ -2112,7 +2114,7 @@ I februari hölls också den [första filmade presentationen] (https://www.youtu
 Även om de första evenemangen ägde rum i USA lämnades inte den franska gemenskapen i sticket. Den 25 maj, med anledning av Gavin Andresens besök i Paris, anordnades en lunch i La Défense-distriktet, med deltagande av framstående personer som Lucien Grondin, David François och Jon Matonis (som också var på besök).
 
 
-![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/66.webp)
+![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/066.webp)
 
 Möte på La Défense i Paris med Gavin Andresen, i rosa skjorta (källa: [forumarkiv](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40))
 
@@ -2120,7 +2122,7 @@ Möte på La Défense i Paris med Gavin Andresen, i rosa skjorta (källa: [forum
 En månad senare, den 15 juni, ägde den första offentliga presentationen av Bitcoin på franska [rum](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831), återigen i Paris. Den genomfördes av Renaud Lifchitz (nono2357), en ung cybersäkerhetsexpert som hade upptäckt Bitcoin ett år tidigare. Det [presenterade innehållet](https://prezi.com/tikwkjt9ouey/Bitcoin-une-monnaie-electronique-pour-tous/) var av mycket hög kvalitet, och publikdeltagandet var så bra att rummet var fullsatt.
 
 
-![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/67.webp)
+![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/067.webp)
 
 Bitcoin presentation av Renaud Lifchitz den 15 juni 2011 (källa: [forumarkiv](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0))
 
@@ -2151,7 +2153,7 @@ För det första började videor om ämnet spridas på YouTube. Den 22 mars dök
 I april täcktes ämnet digital valuta av stora mainstream-tidningar som [The Atlantic] (https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine] (https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/) och [Forbes] (https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). I maj tog rörelsen fart och Bitcoin nämndes nästan överallt, särskilt i [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/Bitcoin-P2P-currency), på [Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), på [Gizmodo](https://gizmodo.com/what-is-Bitcoin-5803124) och [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/).
 
 
-![Gavin Andresen in Forbes in April 2011](assets/en/68.webp)
+![Gavin Andresen in Forbes in April 2011](assets/en/068.webp)
 
 Gavin Andresen i Forbes i april 2011 (källa: [Forbes arkiv](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
 
@@ -2168,7 +2170,7 @@ Radio användes också för att diskutera kryptovaluta. Ett avsnitt av en kanade
 Populariseringen av Bitcoin innebär att dess pris ökar betydligt. Medan det hade sjunkit till 20 cent i december 2010, nådde det paritet med dollarn den 9 februari 2011. Vid den tiden uttalade Hal Finney (https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307) att medlemmarna i samhället "verkligen har tur som befinner sig i början av ett eventuellt explosivt nytt fenomen" Han hade en bra instinkt, eftersom det som händer härnäst är blixtsnabbt.
 
 
-![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/69.webp)
+![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/069.webp)
 
 Fotografi publicerat av jimbobway på forumet dagen för paritet med dollarn (källa: [Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
@@ -2176,7 +2178,7 @@ Fotografi publicerat av jimbobway på forumet dagen för paritet med dollarn (k�
 Vårens mediala frenesi skapar faktiskt gradvis ett spekulativt fenomen utan motstycke. Efter att ha stagnerat på runt 1 dollar i flera månader steg priset och nådde 3 dollar i slutet av april. I maj låg det på 8 dollar. Den 8 juni nådde priset på Bitcoin slutligen en historisk topp på 32 dollar på Mt. Gox! Denna ökning motsvarar en 160-faldig ökning på sex månader.
 
 
-![Average price of BTC between January 1 and June 30, 2011](assets/en/70.webp)
+![Average price of BTC between January 1 and June 30, 2011](assets/en/070.webp)
 
 Genomsnittspriset för BTC mellan 1 januari och 30 juni 2011 (källa: [Bitbo.io](https://calendar.bitbo.io/price/))
 

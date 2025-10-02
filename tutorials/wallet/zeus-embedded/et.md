@@ -13,7 +13,7 @@ Kuid rakenduses on ka "Embedded node".
 
 
 
-**Es on see rakenduse tahk, mida me selles õpetuses uurime. See võimaldab igaühel omada oma välgussõlme mobiilis, ilma et oleks vaja spetsiaalset serverit, samamoodi nagu ACINQ pakub oma uskumatut Wallet välgussõlme Phoenix.
+**Es on see rakenduse tahk, mida me selles õpetuses uurime.** See võimaldab igaühel omada oma välgussõlme mobiilis, ilma et oleks vaja spetsiaalset serverit, samamoodi nagu ACINQ pakub oma uskumatut Wallet välgussõlme Phoenix.
 
 
 
@@ -248,7 +248,7 @@ Järgmisel ekraanil palutakse teil avada kanal koostöös **"Olympus by Zeus "**
 Selles õpetuses valime lihtsuse huvides selle võimaluse, kuid on täiesti võimalik avada kanaleid mis tahes võrgusõlme kaudu.
 
 
-On isegi võimalik avada mitu kanalit ühe tehinguga, valides "OPEN ADDITIONAL CHANNEL" (LISAKANALI AVAMINE). *Aga seda vaatame **Zeus Embedded**** õpetuse "edasijõudnute" versioonis.
+On isegi võimalik avada mitu kanalit ühe tehinguga, valides "OPEN ADDITIONAL CHANNEL" (LISAKANALI AVAMINE). *Aga seda vaatame **Zeus Embedded** õpetuse "edasijõudnute" versioonis.*
 
 
 

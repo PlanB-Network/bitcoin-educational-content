@@ -1,0 +1,9 @@
+question: Mikä on IP-protokollan tärkein tehtävä TCP/IP-mallissa?
+answer: Toimittaa datapaketteja isännältä toiselle
+wrong_answers:
+  - Hallitse verkkoviestinnän salausta
+  - Varmistetaan pysyvät yhteydet sovellusten välillä
+  - MAC-osoitteiden muuntaminen IP-osoitteiksi
+explanation: |
+  IP-protokolla huolehtii laitteiden loogisesta osoitteistosta ja varmistaa, että paketit reititetään toisiinsa liitetyissä verkoissa.
+reviewed: false

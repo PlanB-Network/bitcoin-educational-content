@@ -9,10 +9,14 @@ Arch Linux adalah distribusi yang terkenal karena ketahanan, kinerja, dan kemamp
 
 ## Mengapa memilih Arch Linux?
 
-- Gratis dan sumber terbuka**: Seperti kebanyakan distribusi Linux, Arch Linux benar-benar gratis. Tidak ada biaya lisensi, menjadikannya pilihan yang sangat baik untuk pelajar, pekerja lepas, atau penggemar.
-- Filosofi KISS**: Arch dirancang agar sederhana, ringan dan efisien. Ini hanya menyediakan hal-hal yang penting, memungkinkan Anda untuk membangun lingkungan Anda à la carte.
-- Manajer paket Pacman**: Pacman adalah pengelola paket yang cepat, andal, dan dirancang dengan baik. Ini memungkinkan instalasi dan pembaruan perangkat lunak yang efisien, dan mengelola ketergantungan dengan presisi.
-- Dokumentasi yang komprehensif dan komunitas yang aktif**: [Arch Wiki](https://wiki.archlinux.org) mungkin merupakan salah satu dokumentasi teknis terbaik di dunia Linux. Ini adalah tambang emas untuk memahami apa yang Anda lakukan. Komunitas yang sebagian besar terdiri dari profil-profil yang berpengalaman ini sangat aktif dan dapat membantu Anda jika Anda mengalami kebuntuan, asalkan Anda telah melakukan sedikit riset sebelumnya.
+
+
+
+
+- **Gratis dan sumber terbuka**: Seperti kebanyakan distribusi Linux, Arch Linux benar-benar gratis. Tidak ada biaya lisensi, menjadikannya pilihan yang sangat baik untuk pelajar, pekerja lepas, atau penggemar.
+- **Filosofi KISS**: Arch dirancang agar sederhana, ringan dan efisien. Ini hanya menyediakan hal-hal yang penting, memungkinkan Anda untuk membangun lingkungan Anda à la carte.
+- **Manajer paket Pacman**: Pacman adalah pengelola paket yang cepat, andal, dan dirancang dengan baik. Ini memungkinkan instalasi dan pembaruan perangkat lunak yang efisien, dan mengelola ketergantungan dengan presisi.
+- **Dokumentasi yang komprehensif dan komunitas yang aktif**: [Arch Wiki](https://wiki.archlinux.org) mungkin merupakan salah satu dokumentasi teknis terbaik di dunia Linux. Ini adalah tambang emas untuk memahami apa yang Anda lakukan. Komunitas yang sebagian besar terdiri dari profil-profil yang berpengalaman ini sangat aktif dan dapat membantu Anda jika Anda mengalami kebuntuan, asalkan Anda telah melakukan sedikit riset sebelumnya.
 
 - **Gratis dan Open Source**: Seperti kebanyakan distribusi Linux, Arch Linux benar-benar gratis. Tidak ada biaya lisensi, menjadikannya pilihan yang sangat baik untuk pelajar, pekerja lepas, atau penggemar.
 - **Filosofi KISS**: Arch dirancang untuk menjadi sederhana, ringan, dan efisien. Distribusi ini hanya menyediakan hal-hal penting, memungkinkan Anda untuk membangun lingkungan Anda secara à la carte.
@@ -39,7 +43,7 @@ Sejak 2017, Arch Linux tidak lagi mendukung arsitektur 32-bit. Hanya versi 64-bi
 
 ### Membuat Flash Drive yang dapat booting
 
-Untuk membuat flash drive USB yang dapat di-boot, Anda dapat menggunakan alat bantu seperti **Balena Etcher** :
+Untuk membuat flash drive USB yang dapat di-boot, Anda dapat menggunakan alat bantu seperti **Balena Etcher**:
 
 - Unduh Balena Etcher dari [situs web resmi](https://etcher.balena.io).
 - Jalankan perangkat lunak, pilih Iamge ISO Arch Linux.
@@ -69,7 +73,9 @@ Pada layar boot, pilih opsi pertama untuk menjalankan instalasi. Perhatikan bahw
 
 ### Konfigurasi keyboard
 
-Anda dapat menampilkan tata letak yang tersedia dengan :
+
+
+Anda dapat menampilkan tata letak yang tersedia dengan:
 
 ```shell
 localectl list-keymaps
@@ -77,7 +83,9 @@ localectl list-keymaps
 
 ![0_6](assets/fr/06.webp)
 
-Kemudian muat tata letak dengan :
+
+
+Kemudian muat tata letak dengan:
 
 ```shell
 loadkeys nom-disposition
@@ -91,13 +99,22 @@ Arch Linux menggunakan aplikasi `timedatectl` untuk mengelola jam sistem.
 
 ![0_7](assets/fr/07.webp)
 
-- Atur zona waktu Anda dengan :
-  
+
+
+
+
+- Atur zona waktu Anda dengan:
+
+
 ```shell
 timedatectl set-timezone Europe/Paris
 ```
 
-- Periksa apakah sinkronisasi otomatis diaktifkan dengan :
+
+
+
+
+- Periksa apakah sinkronisasi otomatis diaktifkan dengan:
 
 ```shell
 timedatectl status
@@ -114,7 +131,11 @@ Ini akan mengaktifkan NTP, protokol untuk sinkronisasi otomatis dengan server wa
 
 ### Partisi disk
 
-- Periksa apakah sistem Anda melakukan booting di **UEFI** atau **BIOS** dengan file :
+
+
+
+
+- Periksa apakah sistem Anda melakukan booting di **UEFI** atau **BIOS** dengan file:
 
 ```shell
 ls /sys/firmware/efi
@@ -130,7 +151,13 @@ lsblk
 
 ![0_8](assets/fr/08.webp)
 
-- Jalankan Pengelola Partisi :
+
+
+
+
+- Mulai Manajer Partisi:
+
+
 
 ```shell
 cfdisk /dev/nom-du-disque
@@ -172,7 +199,13 @@ swapon /dev/sda2
 mkfs.ext4 /dev/sda3
 ```
 
-- **BIOS** :
+
+
+
+
+- **BIOS**:
+
+
 
 ```shell
 mkswap /dev/sda1
@@ -186,13 +219,20 @@ mkfs.ext4 /dev/sda2
 
 Pasang partisi **root**:
 
-- Pada BIOS :
+
+
+
+
+- Pada BIOS:
 
 ```shell
 mount /dev/sda2 /mnt
 ```
 
-- di UEFI :
+
+
+
+- di UEFI:
 
 ```shell
 mount /dev/sda3 /mnt
@@ -222,13 +262,21 @@ arch-chroot /mnt
 
 ### Konfigurasi sistem
 
-- Instal editor teks untuk mengedit :
+
+
+
+
+- Instal editor teks untuk mengedit:
 
 ```shell
 pacman -S vim
 ```
 
-- Mengatur bahasa :
+
+
+
+
+- Mengatur bahasa:
 
 Ubah file `/etc/locale.gen` lalu hapus tanda komentar pada baris `en_US.UTF-8 UTF-8`
 
@@ -240,7 +288,11 @@ Ubah file `/etc/locale.gen` lalu hapus tanda komentar pada baris `en_US.UTF-8 UT
 echo nom_machine > /etc/hostname
 ```
 
-- Atur kata sandi root :
+
+
+
+
+- Atur kata sandi root:
 
 ```shell
 passwd
@@ -250,7 +302,9 @@ passwd
 
 ### Menginstal GRUB
 
-Instal file :
+
+
+Instal file:
 
 ```shell
 pacman -S grub
@@ -293,7 +347,11 @@ exit
 umount -R /mnt
 ```
 
-- Mulai ulang :
+
+
+
+
+- Mulai ulang:
 
 ```shell
 reboot
@@ -326,7 +384,7 @@ EOF
 
 ## Interface Grafis (GNOME)
 
-Secara default, **Arch Linux** tidak memiliki Interface grafis. Untuk menambahkannya :
+Secara default, **Arch Linux** tidak memiliki Interface grafis. Untuk menambahkannya:
 
 Perbarui sistem:
 
@@ -365,7 +423,11 @@ Sistem akan melakukan boot ulang secara otomatis dan Anda akan mendapatkan Inter
 
 Setelah berada di **Interface GNOME**, Anda perlu membuat pengguna baru untuk keamanan yang lebih baik dan penggunaan yang lebih aman dan bebas risiko. Masuk ke aplikasi dan pilih opsi "konsol" untuk meluncurkan terminal.
 
-- Menambahkan pengguna :
+
+
+
+
+- Menambahkan pengguna:
 
 ```shell
 useradd -m -G wheel -s /bin/bash nom_utilisateur
@@ -374,7 +436,11 @@ passwd nom_utilisateur
 
 ![0_22](assets/fr/22.webp)
 
-- Instal **sudo** :
+
+
+
+
+- Instal **sudo**:
 
 ```shell
 pacman -S sudo
@@ -406,13 +472,19 @@ Karena Arch Linux bersifat minimalis, banyak perangkat lunak yang tidak terinsta
 pacman -S nom_du_paquet_a_installe
 ```
 
-Contohnya, untuk menginstal editor teks **nano**, Anda bisa mengetikkan :
+
+
+Contohnya, untuk menginstal editor teks **nano**, Anda bisa mengetikkan:
 
 ```shell
 pacman -S nano
 ```
 
-Untuk menginstal browser web yang ringan seperti `firefox`, gunakan :
+
+
+Untuk menginstal peramban web yang ringan seperti `firefox`, gunakan:
+
+
 
 ```shell
 pacman -S firefox

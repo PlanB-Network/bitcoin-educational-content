@@ -1,0 +1,11 @@
+question: None ikibazo c’ubutatu ca Blockchain ni ikihe?
+answer: Itegeko rishingiye kuri Blockchain rishobora gusa gushitsa bibiri mu bipimo vy’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
+wrong_answers:
+  - Itegeko rishingiye kuri Blockchain rishobora gusa guhazwa n’umwe mu ngingo z’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
+  - Itegeko rishingiye kuri Blockchain rishobora gushitsa ibisabwa vyose vyo kwegereza ubutegetsi abaturage, umutekano, n’ugushobora gutera imbere.
+  - Itegeko rishingiye kuri Blockchain ntirishobora guhazwa n’imwe mu ngingo z’ugusenyura ubutegetsi, umutekano, n’ugushobora gutera imbere.
+explanation: |
+  Ico kibazo ca Blockchain kivuga ingorane umuntu
+  protocole ishingiye kuri Blockchain ishobora gusa guhazwa n’ingingo zibiri muri
+  kwegereza ubutegetsi abaturage, umutekano, n’ugushobora gutera imbere.
+reviewed: true

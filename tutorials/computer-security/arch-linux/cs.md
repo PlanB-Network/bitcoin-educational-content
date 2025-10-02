@@ -17,10 +17,10 @@ Arch Linux je distribuce proslulá svou robustností, výkonem a přizpůsobivos
 
 
 
-- Zdarma a s otevřeným zdrojovým kódem**: Arch Linux je stejně jako většina linuxových distribucí zcela zdarma. Neplatí se za něj žádné licenční poplatky, takže je vynikající volbou pro studenty, nezávislé pracovníky nebo nadšence.
-- Filozofie KISS**: Arch je navržen tak, aby byl jednoduchý, lehký a efektivní. Poskytuje pouze to nejnutnější a umožňuje vám vytvořit si prostředí à la carte.
-- Správce balíčků Pacman**: Pacman je rychlý, spolehlivý a dobře navržený správce balíčků. Umožňuje efektivní instalaci a aktualizaci softwaru a precizně spravuje závislosti.
-- Komplexní dokumentace a aktivní komunita**: [Arch Wiki](https://wiki.archlinux.org) je pravděpodobně jednou z nejlepších technických dokumentací ve světě Linuxu. Je to zlatý důl pro pochopení toho, co děláte. Komunita složená převážně ze zkušených profilů je velmi aktivní a může vám pomoci, pokud se zaseknete, za předpokladu, že jste si předtím udělali menší průzkum.
+- **Zdarma a s otevřeným zdrojovým kódem**: Arch Linux je stejně jako většina linuxových distribucí zcela zdarma. Neplatí se za něj žádné licenční poplatky, takže je vynikající volbou pro studenty, nezávislé pracovníky nebo nadšence.
+- **Filozofie KISS**: Arch je navržen tak, aby byl jednoduchý, lehký a efektivní. Poskytuje pouze to nejnutnější a umožňuje vám vytvořit si prostředí à la carte.
+- **Správce balíčků Pacman**: Pacman je rychlý, spolehlivý a dobře navržený správce balíčků. Umožňuje efektivní instalaci a aktualizaci softwaru a precizně spravuje závislosti.
+- **Komplexní dokumentace a aktivní komunita**: [Arch Wiki](https://wiki.archlinux.org) je pravděpodobně jednou z nejlepších technických dokumentací ve světě Linuxu. Je to zlatý důl pro pochopení toho, co děláte. Komunita složená převážně ze zkušených profilů je velmi aktivní a může vám pomoci, pokud se zaseknete, za předpokladu, že jste si předtím udělali menší průzkum.
 
 
 
@@ -39,7 +39,7 @@ Potřebné materiály:
 
 
 - Klíč USB o velikosti alespoň **8 GB**
-- minimálně 2 GB** RAM
+- minimálně 2 GB **RAM**
 - Počítač s alespoň 20 GB volného místa na disku
 
 
@@ -66,7 +66,7 @@ Od roku 2017 již Arch Linux nepodporuje 32bitové architektury. K dispozici jso
 
 
 
-K vytvoření bootovacího USB flash disku můžete použít nástroj, jako je **Balena Etcher** :
+K vytvoření bootovacího USB flash disku můžete použít nástroj, jako je **Balena Etcher**:
 
 
 
@@ -124,7 +124,7 @@ Na spouštěcí obrazovce vyberte první možnost pro spuštění instalace. Vš
 
 
 
-Dostupná rozložení můžete zobrazit pomocí :
+Dostupná rozložení můžete zobrazit pomocí:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Poté načtěte rozložení pomocí :
+Poté načtěte rozložení pomocí:
 
 
 
@@ -166,7 +166,7 @@ Arch Linux používá ke správě systémových hodin nástroj `timedatectl`.
 
 
 
-- Nastavení časového pásma pomocí :
+- Nastavení časového pásma pomocí:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Zkontrolujte, zda je povolena automatická synchronizace pomocí :
+- Zkontrolujte, zda je povolena automatická synchronizace pomocí:
 
 
 ```shell
@@ -208,7 +208,7 @@ Tím se aktivuje protokol NTP pro automatickou synchronizaci s časovými server
 
 
 
-- Zkontrolujte, zda se váš systém spouští v **UEFI** nebo **BIOS** s :
+- Zkontrolujte, zda se váš systém spouští v **UEFI** nebo **BIOS** s:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Spusťte Správce diskových oddílů :
+- Spusťte Správce diskových oddílů:
 
 
 
@@ -261,7 +261,7 @@ Pokud používáte UEFI, vyberte **GPT**, pokud používáte BIOS, vyberte **DOS
 
 
 
-- V režimu UEFI**
+- V režimu **UEFI**
 
 
 
@@ -294,7 +294,7 @@ Vyberte možnost **Zapsat**, zadejte **ano** a poté **Ukončit**.
 
 
 
-- UEFI** :
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- **BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Připojte **kořenový** oddíl:
 
 
 
-- V systému BIOS :
+- V systému BIOS:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- na UEFI :
+- na UEFI:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Nainstalujte si textový editor pro úpravu :
+- Nainstalujte si textový editor pro úpravu:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- Nastavení jazyka :
+- Nastavení jazyka:
 
 
 Upravte `/etc/locale.gen` a odkomentujte řádek `en_US.UTF-8 UTF-8`
@@ -423,7 +423,7 @@ Upravte `/etc/locale.gen` a odkomentujte řádek `en_US.UTF-8 UTF-8`
 
 
 
-- Nastavení názvu stroje :
+- Nastavení názvu stroje:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Nastavení hesla roota :
+- Nastavení hesla roota:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Nainstalujte :
+Nainstalujte:
 
 
 
@@ -472,7 +472,7 @@ Po stažení je třeba jej nainstalovat podle formátu diskového oddílu.
 
 
 
-- Pro systém **BIOS** :
+- Pro systém **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- Pro **UEFI** :
+- Pro **UEFI**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Restartování :
+- Restartování:
 
 
 ```shell
@@ -551,7 +551,7 @@ Při spuštění se přihlaste pomocí přihlašovacího jména a hesla **root**
 
 
 
-Může se stát, že při restartu nebude aktivní žádné síťové připojení. Rozhraní můžete vypsat pomocí :
+Může se stát, že při restartu nebude aktivní žádné síťové připojení. Rozhraní můžete vypsat pomocí:
 
 
 
@@ -581,7 +581,7 @@ EOF
 
 
 
-Ve výchozím nastavení neobsahuje **Arch Linux** grafický modul Interface. Chcete-li jej přidat :
+Ve výchozím nastavení neobsahuje **Arch Linux** grafický modul Interface. Chcete-li jej přidat:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Aktivujte správce **sekcí** :
+Aktivujte správce **sekcí**:
 
 
 
@@ -652,7 +652,7 @@ Jakmile se dostanete do prostředí **Interface GNOME**, musíte si vytvořit no
 
 
 
-- Přidání uživatele :
+- Přidání uživatele:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Instalace **sudo** :
+- Instalace **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Pak odkomentujte řádek :
+- Pak odkomentujte řádek:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Chcete-li například nainstalovat textový editor **nano**, můžete zadat příkaz :
+Chcete-li například nainstalovat textový editor **nano**, můžete zadat příkaz:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Chcete-li nainstalovat lehký webový prohlížeč, například `firefox`, použijte :
+Chcete-li nainstalovat lehký webový prohlížeč, například `firefox`, použijte:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Pokud chcete přidat základní síťové nástroje, jako je `net-tools`, příkaz bude :
+Pokud chcete přidat základní síťové nástroje, jako je `net-tools`, příkaz bude:
 
 
 

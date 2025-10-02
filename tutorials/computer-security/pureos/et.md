@@ -27,25 +27,25 @@ PureOS on Debianil põhinev operatsioonisüsteem, mille on välja töötanud Pur
 
 
 
-- Lihtne, intuitiivne Interface**: GNOME pakub selget Interface töölauda, mis on loodud nii, et seda oleks lihtne kasutada isegi inimestele, kes ei tunne end käsureaga mugavalt.
+- **Lihtne, intuitiivne Interface**: GNOME pakub selget Interface töölauda, mis on loodud nii, et seda oleks lihtne kasutada isegi inimestele, kes ei tunne end käsureaga mugavalt.
 
 
 
 
 
-- Tasuta**: nagu enamik Linuxi distributsioone, on ka PureOSi kasutamine täiesti tasuta. Siiski on arendajate toetamiseks saadaval igakuine tellimus.
+- **Tasuta**: nagu enamik Linuxi distributsioone, on ka PureOSi kasutamine täiesti tasuta. Siiski on arendajate toetamiseks saadaval igakuine tellimus.
 
 
 
 
 
-- Turvalisus ja stabiilsus**: PureOSi arhitektuur ja töörežiim muudavad selle väga turvaliseks distributsiooniks, mis tagab andmekaitse ja süsteemi stabiilsuse.
+- **Turvalisus ja stabiilsus**: PureOSi arhitektuur ja töörežiim muudavad selle väga turvaliseks distributsiooniks, mis tagab andmekaitse ja süsteemi stabiilsuse.
 
 
 
 
 
-- Dokumentatsioon ja aktiivne kogukond**: PureOSil on selge ja arusaadav dokumentatsioon ning pühendunud ja aktiivne kogukond, mis teeb probleemide lahendamise ja süsteemi samm-sammult õppimise lihtsaks.
+- **Dokumentatsioon ja aktiivne kogukond**: PureOSil on selge ja arusaadav dokumentatsioon ning pühendunud ja aktiivne kogukond, mis teeb probleemide lahendamise ja süsteemi samm-sammult õppimise lihtsaks.
 
 
 
@@ -181,7 +181,7 @@ Teil on kaks võimalust oma Hard ketta partitsioneerimiseks:
 
 
 
-- Ketta kustutamine**: PureOSi täielikuks paigaldamiseks, kustutades kõik eelnevalt Hard kettal olevad andmed.
+- **Ketta kustutamine**: PureOSi täielikuks paigaldamiseks, kustutades kõik eelnevalt Hard kettal olevad andmed.
 
 
 
@@ -191,7 +191,7 @@ Teil on kaks võimalust oma Hard ketta partitsioneerimiseks:
 
 
 
-- Käsitsi partitsioneerimine** oma partituuride loomiseks
+- **Käsitsi partitsioneerimine** oma partituuride loomiseks
 
 
 
@@ -260,7 +260,7 @@ Enne PureOSi kasutamise alustamist on oluline oma süsteemi uuendada. See võima
 
 
 
-- Uuendus Interface graafiku kaudu** :
+- **Uuendus Interface graafiku kaudu**:
 
 
 Avage rakendus **Tarkvara**, seejärel minge vahekaardile **Updates**. Saadaolevad uuendused kuvatakse automaatselt. Klõpsake **Laadi alla** ja seejärel **Installi**, kui allalaadimine on lõppenud.
@@ -269,7 +269,7 @@ Avage rakendus **Tarkvara**, seejärel minge vahekaardile **Updates**. Saadaolev
 
 
 
-- Uuendamine terminali kaudu** :
+- **Uuendamine terminali kaudu**:
 
 
 Avage terminal ja sisestage järgmine käsk, et uuendada olemasolevate pakettide nimekirja:
@@ -282,7 +282,7 @@ sudo apt update
 
 
 
-Sisestage oma parool ja kinnitage. Seejärel installige uuendused :
+Sisestage oma parool ja kinnitage. Seejärel installige uuendused:
 
 
 
@@ -325,15 +325,15 @@ PureOSi rakendused on loodud kohanduvaks: nad kohanduvad automaatselt vastavalt 
 
 
 
-PureOS sisaldab ka **LibreOffice** kontoripaketti, mis sisaldab :
+PureOS sisaldab ka **LibreOffice** kontoripaketti, mis sisaldab:
 
 
 
 
 
-- Writer**: täielik tekstiprotsessor dokumentide loomiseks ja redigeerimiseks.
-- Calc**: võimas tabelarvutusprogramm andmete ja arvutuste haldamiseks.
-- Impress**: vahend professionaalsete esitluste loomiseks.
+- **Writer**: täielik tekstiprotsessor dokumentide loomiseks ja redigeerimiseks.
+- **Calc**: võimas tabelarvutusprogramm andmete ja arvutuste haldamiseks.
+- **Impress**: vahend professionaalsete esitluste loomiseks.
 
 
 

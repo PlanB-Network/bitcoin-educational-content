@@ -17,11 +17,11 @@ Debian is een vrije GNU/Linux-distributie die bekend staat om zijn robuustheid e
 
 
 
-- Gratis en open**: Debian is volledig open source, waardoor transparantie en geen licentiekosten gegarandeerd zijn.
-- Stabiliteit en veiligheid**: elke release ondergaat een grondig testproces, waardoor Debian een van de meest betrouwbare en veilige distributies op de markt is.
-- Actieve community**: een uitgebreide community en uitgebreide documentatie zijn beschikbaar om je te ondersteunen wanneer je dat nodig hebt.
-- Lichtgewicht en schaalbaar**: u kunt Debian installeren op machines met bescheiden middelen met behoud van goede prestaties.
-- Uitgebreide software catalogus**: meer dan 50.000 officiële pakketten zijn beschikbaar via de repositories.
+- **Gratis en open**: Debian is volledig open source, waardoor transparantie en geen licentiekosten gegarandeerd zijn.
+- **Stabiliteit en veiligheid**: elke release ondergaat een grondig testproces, waardoor Debian een van de meest betrouwbare en veilige distributies op de markt is.
+- **Actieve community**: een uitgebreide community en uitgebreide documentatie zijn beschikbaar om je te ondersteunen wanneer je dat nodig hebt.
+- **Lichtgewicht en schaalbaar**: u kunt Debian installeren op machines met bescheiden middelen met behoud van goede prestaties.
+- **Uitgebreide software catalogus**: meer dan 50.000 officiële pakketten zijn beschikbaar via de repositories.
 
 
 
@@ -35,12 +35,12 @@ Debian biedt verschillende bureaubladomgevingen die aan uw wensen voldoen:
 
 
 
-- GNOME**: moderne, intuïtieve Interface, ideaal voor beginners. Het biedt een vloeiend, eenvoudig te gebruiken grafisch menu voor toegang tot toepassingen.
-- XFCE**: licht en snel, perfect voor minder krachtige machines.
-- KDE Plasma**: zeer aanpasbaar, met een Windows-achtig uiterlijk.
-- Cinnamon**: eenvoudige, elegante Interface, geïnspireerd op Windows.
-- LXDE / LXQt**: ultralicht, geschikt voor oudere computers.
-- MATE**: eenvoudig en klassiek, dicht bij het oude GNOME.
+- **GNOME**: moderne, intuïtieve Interface, ideaal voor beginners. Het biedt een vloeiend, eenvoudig te gebruiken grafisch menu voor toegang tot toepassingen.
+- **XFCE**: licht en snel, perfect voor minder krachtige machines.
+- **KDE Plasma**: zeer aanpasbaar, met een Windows-achtig uiterlijk.
+- **Cinnamon**: eenvoudige, elegante Interface, geïnspireerd op Windows.
+- **LXDE / LXQt**: ultralicht, geschikt voor oudere computers.
+- **MATE**: eenvoudig en klassiek, dicht bij het oude GNOME.
 
 
 
@@ -61,9 +61,9 @@ Controleer voordat u met de installatie begint of u over de volgende apparatuur 
 
 
 
-- USB-sleutel**: minimaal 8 GB voor het opstartbare ISO-image.
-- Random Access Memory (RAM)**: 4 GB voor probleemloze installatie en werking.
-- Schijfruimte**: minstens 15 GB vrije ruimte voor het systeem en updates.
+- **USB-sleutel**: minimaal 8 GB voor het opstartbare ISO-image.
+- **Random Access Memory (RAM)**: 4 GB voor probleemloze installatie en werking.
+- **Schijfruimte**: minstens 15 GB vrije ruimte voor het systeem en updates.
 
 
 
@@ -77,9 +77,9 @@ De keuze van het Debian image hangt af van de architectuur van uw processor:
 
 
 
-- AMD64**: download de "live hybride" editie van de [download] lijst (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: haal het DVD-image van de officiële [Debian] website (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Andere architecturen**: zoek de ISO die overeenkomt met jouw architectuur [hier] (https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: download de "live hybride" editie van de [download] lijst (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: haal het DVD-image van de officiële [Debian] website (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Andere architecturen**: zoek de ISO die overeenkomt met jouw architectuur [hier](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Zodra je de juiste ISO-image hebt gedownload, kun je doorgaan met het maken van 
 
 
 
-- Download Balena Etcher** van de [officiële website] (https://etcher.balena.io/), haal dan de binary voor jouw systeem op en installeer het.
+- Download **Balena Etcher** van de [officiële website](https://etcher.balena.io/), haal dan de binary voor jouw systeem op en installeer het.
 
 
 
@@ -106,9 +106,9 @@ Zodra je de juiste ISO-image hebt gedownload, kun je doorgaan met het maken van 
 
 
 
-- Start Etcher**: open de software en selecteer het eerder gedownloade Debian ISO-image.
-- Kies de USB-sleutel**: geef je sleutel (8 GB+) op als doel.
-- Start flash**: klik op **Flash!** en wacht tot het proces is voltooid.
+- **Start Etcher**: open de software en selecteer het eerder gedownloade Debian ISO-image.
+- Kies de USB-sleutel: geef je sleutel (8 GB+) op als doel.
+- **Start flash**: klik op **Flash!** en wacht tot het proces is voltooid.
 
 
 
@@ -128,15 +128,15 @@ Uw USB-stick is nu klaar om Debian te installeren.
 
 
 
-Om de installatie vanaf uw USB-sleutel te starten :
+Om de installatie vanaf uw USB-sleutel te starten:
 
 
 
 
-- Schakel** de computer volledig uit.
-- Herstart** en open BIOS/UEFI door onmiddellijk op `ESC`, `F2`, `F11` te drukken (of de speciale toets afhankelijk van je merk).
+- **Schakel** de computer volledig uit.
+- **Herstart** en open BIOS/UEFI door onmiddellijk op `ESC`, `F2`, `F11` te drukken (of de speciale toets afhankelijk van je merk).
 - Selecteer in het opstartmenu **uw USB-sleutel** als opstartapparaat.
-- Bevestig** met de Enter-toets om het Debian-image te starten: dit brengt u naar het welkomstscherm van het installatieprogramma.
+- **Bevestig** met de Enter-toets om het Debian-image te starten: dit brengt u naar het welkomstscherm van het installatieprogramma.
 
 
 
@@ -144,7 +144,7 @@ Om de installatie vanaf uw USB-sleutel te starten :
 
 
 
-Startscherm :
+Startscherm:
 
 
 
@@ -157,9 +157,9 @@ Bij het opstarten vanaf de USB-stick biedt het welkomstscherm van Debian verschi
 
 
 
-- Live Systeem**: start Debian op zonder het te installeren, ideaal om de omgeving te testen.
-- Start Installer**: start de installatie direct op de Hard schijf.
-- Geavanceerde installatieopties**: geeft je toegang tot aangepaste installatiemodi.
+- **Live Systeem**: start Debian op zonder het te installeren, ideaal om de omgeving te testen.
+- **Start Installer**: start de installatie direct op de Hard schijf.
+- **Geavanceerde installatieopties**: geeft je toegang tot aangepaste installatiemodi.
 
 
 
@@ -173,7 +173,7 @@ Om Debian in live modus te verkennen, selecteert u **Live System** en bevestigt 
 
 
 
-- Taalkeuze** (optioneel)
+- **Taalkeuze** (optioneel)
 
 
 
@@ -187,7 +187,7 @@ Selecteer de hoofdtaal van uw Debian-systeem uit de lijst en klik op OK.
 
 
 
-- Tijdzone** (GMT)
+- **Tijdzone** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Selecteer de taal en indeling van je toetsenbord. Gebruik het ingebouwde testvel
 
 
 
-- Schijf wissen**: als u een speciale partitie hebt, verwijdert deze optie alle inhoud.
-- Handmatig partitioneren**: kies deze optie om naar wens partities aan te maken, te verkleinen of te verwijderen.
+- **Schijf wissen**: als u een speciale partitie hebt, verwijdert deze optie alle inhoud.
+- **Handmatig partitioneren**: kies deze optie om naar wens partities aan te maken, te verkleinen of te verwijderen.
 
 
 
@@ -244,7 +244,7 @@ Voer je volledige naam, accountnaam en een sterk wachtwoord in om ervoor te zorg
 
 
 
-- Parameteroverzicht**
+- **Parameteroverzicht**
 
 
 
@@ -272,7 +272,7 @@ Klik op **Installeren** om te beginnen met het kopiëren van bestanden en het co
 
 
 
-- Herstart**
+- **Herstart**
 
 
 
@@ -334,7 +334,7 @@ Voer je wachtwoord in wanneer daarom wordt gevraagd (merk op dat er geen tekens 
 
 
 
-- Beschikbare updates installeren :
+- Beschikbare updates installeren:
 
 
 
@@ -380,7 +380,7 @@ Er zijn twee manieren om applicaties te installeren op Debian:
 
 
 
-### Grafische methode :
+### Grafische methode:
 
 
 
@@ -388,7 +388,7 @@ Je kunt de **software manager** (toegankelijk via de grafische Interface) gebrui
 
 
 
-### Opdrachtregelmethode :
+### Opdrachtregelmethode:
 
 
 
@@ -402,7 +402,7 @@ sudo apt install <name>
 
 
 
-Vervang `<name>` door de naam van het pakket. Om bijvoorbeeld `curl` te installeren :
+Vervang `<name>` door de naam van het pakket. Om bijvoorbeeld `curl` te installeren:
 
 
 
@@ -412,7 +412,7 @@ sudo apt install curl
 
 
 
-### Een handmatig gedownload pakket installeren :
+### Een handmatig gedownload pakket installeren:
 
 
 

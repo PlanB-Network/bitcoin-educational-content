@@ -91,9 +91,9 @@ BIP-85 le permite crear varias carteras Bitcoin a partir de una única frase pri
 
 
 
-- Escenario**: Usted utiliza un Wallet "Hot" (instalado en un dispositivo conectado a Internet), para las transacciones diarias.
-- Solución BIP-85**: Se crea una frase secundaria seed dedicada a esta cartera.
-- Ventaja sobre BIP-32**: No necesitas importar la frase primaria seed a tu teléfono, reduciendo el riesgo de hackeo. Sólo se compromete la frase secundaria de seed, protegiendo sus otros monederos. Con BIP-32, necesitas utilizar la frase principal seed y una ruta de bypass, exponiendo todos tus fondos.
+- **Escenario**: Usted utiliza un Wallet "Hot" (instalado en un dispositivo conectado a Internet), para las transacciones diarias.
+- **Solución BIP-85**: Se crea una frase secundaria seed dedicada a esta cartera.
+- **Ventaja sobre BIP-32**: No necesitas importar la frase primaria seed a tu teléfono, reduciendo el riesgo de hackeo. Sólo se compromete la frase secundaria de seed, protegiendo sus otros monederos. Con BIP-32, necesitas utilizar la frase principal seed y una ruta de bypass, exponiendo todos tus fondos.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 le permite crear varias carteras Bitcoin a partir de una única frase pri
 
 
 
-- Escenario**: Creas un Bitcoin Wallet para alguien cercano (por ejemplo, tu madre), pudiendo recuperarlo si lo pierde.
-- Solución BIP-85**: Creas una sentencia secundaria seed dedicada y compartes sólo ésta.
-- Ventaja sobre BIP-32**: Con BIP-32, crear una cuenta para un ser querido requiere o bien compartir su frase principal de seed, arriesgando todos sus fondos y complicando la gestión para su ser querido (gestión de rutas de ramificación), o bien crear una nueva frase de seed para guardar además de su frase principal de seed.
+- **Escenario**: Creas un Bitcoin Wallet para alguien cercano (por ejemplo, tu madre), pudiendo recuperarlo si lo pierde.
+- **Solución BIP-85**: Creas una sentencia secundaria seed dedicada y compartes sólo ésta.
+- **Ventaja sobre BIP-32**: Con BIP-32, crear una cuenta para un ser querido requiere o bien compartir su frase principal de seed, arriesgando todos sus fondos y complicando la gestión para su ser querido (gestión de rutas de ramificación), o bien crear una nueva frase de seed para guardar además de su frase principal de seed.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 le permite crear varias carteras Bitcoin a partir de una única frase pri
 
 
 
-- Escenario**: Usted separa sus bitcoins para diferentes propósitos (por ejemplo, ahorros a largo plazo, fondos no KYC).
-- Solución BIP-85**: Creas frases secundarias seed dedicadas a cada objetivo.
-- Ventaja sobre BIP-32**: Con BIP-32, todas las cuentas comparten la misma frase seed, lo que complica la gestión en carteras de terceros al tener que gestionar rutas de derivación como `m/44'/0'/0'`. Además, no es posible asignar una cuenta separada por dispositivo (por ejemplo, "ahorros en Coldcard", "diario en móvil", "vacaciones en Trezor"). BIP-85 asigna una única frase secundaria seed por objetivo, que es fácil de identificar e importar por separado en cada dispositivo.
+- **Escenario**: Usted separa sus bitcoins para diferentes propósitos (por ejemplo, ahorros a largo plazo, fondos no KYC).
+- **Solución BIP-85**: Creas frases secundarias seed dedicadas a cada objetivo.
+- **Ventaja sobre BIP-32**: Con BIP-32, todas las cuentas comparten la misma frase seed, lo que complica la gestión en carteras de terceros al tener que gestionar rutas de derivación como `m/44'/0'/0'`. Además, no es posible asignar una cuenta separada por dispositivo (por ejemplo, "ahorros en Coldcard", "diario en móvil", "vacaciones en Trezor"). BIP-85 asigna una única frase secundaria seed por objetivo, que es fácil de identificar e importar por separado en cada dispositivo.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 le permite crear varias carteras Bitcoin a partir de una única frase pri
 
 
 
-- Escenario**: Necesita una cartera temporal para una transacción puntual o para preservar la confidencialidad (por ejemplo: mezcla de fondos, interacción con un Exchange KYC, etc.).
-- Solución BIP-85**: Se crea una sentencia secundaria seed, se utiliza para la transacción y luego se destruye si es necesario, sabiendo que se puede regenerar.
-- Ventaja sobre BIP-32**: Con BIP-32, una cuenta temporal depende de la sentencia principal seed, exponiendo todos sus fondos si se ve comprometida.
+- **Escenario**: Necesita una cartera temporal para una transacción puntual o para preservar la confidencialidad (por ejemplo: mezcla de fondos, interacción con un Exchange KYC, etc.).
+- **Solución BIP-85**: Se crea una sentencia secundaria seed, se utiliza para la transacción y luego se destruye si es necesario, sabiendo que se puede regenerar.
+- **Ventaja sobre BIP-32**: Con BIP-32, una cuenta temporal depende de la sentencia principal seed, exponiendo todos sus fondos si se ve comprometida.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 le permite crear varias carteras Bitcoin a partir de una única frase pri
 
 
 
-- Hardware** (opcional)
+- **Hardware** (opcional)
  - Coldcard Mk4 o Q1
  - Tarjeta MicroSD
 
@@ -197,7 +197,7 @@ Encienda su tarjeta Coldcard, introduzca su código PIN.
 
 
 
-- 1. Si has aplicado una passphrase a tu seed principal:**
+- 1. Si has aplicado una passphrase a tu seed principal:
  - En la pantalla de inicio, vaya a `passphrase`.
     - Elija `Añadir palabra` e introduzca su contraseña.
     - Pulse "Aplicar".
@@ -246,7 +246,7 @@ Seleccione el formato de frase seed: 12, 18 ó 24 palabras. Compruebe el número
 
 
 
-- 5. Nota o exportación seed frase secundaria**
+- 5. Nota o exportación **seed frase secundaria**
 
 
 ColdCard muestra ahora una nueva frase secundaria seed. Puede :
@@ -421,7 +421,7 @@ Más recursos en los Anexos.
 - [BIP-85](https://planb.network/resources/glossary/bip0085)
 - [seed frase](https://planb.network/resources/glossary/recovery-phrase)
 - [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [Multisig](https://planb.network/resources/glossary/multisig)
 
 
 

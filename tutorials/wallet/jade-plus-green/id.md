@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Hijau
+name: Jade Plus - Green
 description: Konfigurasikan Jade Plus dengan mudah dengan Green
 ---
 ![cover](assets/cover.webp)
@@ -101,7 +101,7 @@ Klik tombol "*Lanjutkan*" untuk menampilkan frasa pemulihan baru Anda.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Jade Plus Anda akan menampilkan frasa mnemonik 12 kata. **Mnemonik ini memberikan Anda akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Jade Plus Anda. Frasa 12 kata ini akan mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Jade Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di lokasi yang aman.
+Jade Plus Anda akan menampilkan frasa mnemonik 12 kata. **Mnemonik ini memberikan Anda akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Jade Plus Anda. Frasa 12 kata ini akan mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Jade Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di lokasi yang aman.**
 
 Anda bisa menuliskannya pada karton yang disertakan dalam kotak, atau untuk keamanan tambahan, saya sarankan untuk mengukirnya pada dasar baja tahan karat untuk melindunginya dari kebakaran, banjir atau keruntuhan.
 
@@ -111,7 +111,7 @@ Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengel
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial
+**Tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial**
 
 Klik panah di sebelah kanan layar untuk menampilkan kata-kata berikut.
 
@@ -300,4 +300,5 @@ Selamat, sekarang Anda sudah mengetahui cara mengatur dan menggunakan Jade Plus 
 Untuk melangkah lebih jauh, saya merekomendasikan tutorial tentang Jade Plus ini, di mana kita mengonfigurasikannya dengan perangkat lunak Sparrow Wallet dalam mode QR. Anda juga akan mempelajari cara menggunakan pengaturan lanjutan dari dompet perangkat keras Anda:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

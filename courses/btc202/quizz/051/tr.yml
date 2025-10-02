@@ -1,0 +1,9 @@
+question: Bir kullanıcı ne zaman bir dizinleyici yüklemelidir?
+answer: Bir Block explorer çalıştırmak için
+wrong_answers:
+  - Kendi üzerindeki Mining blokları için
+  - Lightning Network'yi etkinleştirmek için
+  - İşlemleri imzalamak için
+explanation: |
+  Bir indeksleyici, yerel bir gezgin gibi gelişmiş kullanımlar için vazgeçilmez hale gelir.
+reviewed: true

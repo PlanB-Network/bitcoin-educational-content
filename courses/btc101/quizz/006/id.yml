@@ -1,0 +1,10 @@
+question: Apa itu Manifesto Cypherpunk?
+answer: Sebuah teks yang ditulis oleh Eric Hughes yang menegaskan bahwa privasi adalah hak asasi.
+wrong_answers:
+  - Sebuah buku yang ditulis oleh Julian Assange tentang masa depan teknologi.
+  - Sebuah dokumen yang menguraikan prinsip-prinsip Bitcoin.
+  - Sebuah manifesto yang ditulis oleh David Chaum tentang pentingnya mata uang digital.
+explanation: |
+  Manifesto Cypherpunk ditulis oleh Eric Hughes pada tahun 1993 dan menegaskan
+  bahwa privasi adalah hak asasi.
+reviewed: true

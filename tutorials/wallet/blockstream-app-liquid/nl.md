@@ -1,5 +1,5 @@
 ---
-name: Blockstream-app - Liquid
+name: Blockstream App - Liquid
 description: Hoe Blockstream App configureren en de Liquid Network gebruiken
 ---
 ![cover](assets/cover.webp)
@@ -26,8 +26,8 @@ description: Hoe Blockstream App configureren en de Liquid Network gebruiken
 
 
 
-- Beginners**: Gebruikers die hun bitcoins willen beheren met een intuïtieve mobiele applicatie die de Liquid Network integreert.
-- Intermediaire gebruikers**: Mensen die de onchain-functionaliteiten en privacyopties zoals Tor of SPV willen begrijpen.
+- **Beginners**: Gebruikers die hun bitcoins willen beheren met een intuïtieve mobiele applicatie die de Liquid Network integreert.
+- **Intermediaire gebruikers**: Mensen die de onchain-functionaliteiten en privacyopties zoals Tor of SPV willen begrijpen.
 
 
 
@@ -50,19 +50,19 @@ Een Sidechain is een onafhankelijke Blockchain die parallel werkt met Bitcoin, m
 
 
 
-- (1) Peg-in**: Bitcoins (BTC) worden door de Liquid federatie vastgezet op de Blockchain hoofdketen. In ruil daarvoor wordt een gelijkwaardige hoeveelheid Liquid-Bitcoins (L-BTC), die pariteit tussen de twee ketens garandeert, uitgegeven op Blockchain Liquid en naar de gebruiker gestuurd.
+- (1) **Peg-in**: Bitcoins (BTC) worden door de Liquid federatie vastgezet op de Blockchain hoofdketen. In ruil daarvoor wordt een gelijkwaardige hoeveelheid Liquid-Bitcoins (L-BTC), die pariteit tussen de twee ketens garandeert, uitgegeven op Blockchain Liquid en naar de gebruiker gestuurd.
 
 
 
 
 
-- (2) Onafhankelijke transacties** : Transacties kunnen gelijktijdig en onafhankelijk draaien op de hoofd Blockchain (BTC) en Sidechain Liquid (L-BTC), afhankelijk van de vereisten van de gebruiker.
+- (2) **Onafhankelijke transacties**: Transacties kunnen gelijktijdig en onafhankelijk draaien op de hoofd Blockchain (BTC) en Sidechain Liquid (L-BTC), afhankelijk van de vereisten van de gebruiker.
 
 
 
 
 
-- (3) Peg-out**: De gebruiker stuurt Liquid-bitcoins (L-BTC) terug naar de Liquid federatie. De federatie ontgrendelt dan een gelijkwaardige hoeveelheid bitcoins (BTC) op het hoofd Blockchain en draagt ze over aan de gebruiker.
+- (3) **Peg-out**: De gebruiker stuurt Liquid-bitcoins (L-BTC) terug naar de Liquid federatie. De federatie ontgrendelt dan een gelijkwaardige hoeveelheid bitcoins (BTC) op het hoofd Blockchain en draagt ze over aan de gebruiker.
 
 
 
@@ -80,15 +80,15 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Snelheid**: Transacties op Liquid worden bevestigd in ongeveer **1 minuut**, vergeleken met 10 minuten of meer voor onchain transacties, dankzij blokken die elke minuut worden gegenereerd door een federatie van validators.
-- Verbeterde vertrouwelijkheid**: Liquid gebruikt **Confidential Transactions**, dat de hoeveelheid en het type overgedragen activa verbergt, waardoor transacties meer privé worden (hoewel adressen zichtbaar blijven).
-- Lage kosten** : Transacties op Liquid zijn over het algemeen goedkoper, waardoor ze ideaal zijn voor frequente overschrijvingen of kleine bedragen.
-- Meerdere activa**: Naast L-BTC's ondersteunt Liquid de uitgifte van andere digitale activa, zoals stablecoins of tokens, voor gebruik in specifieke toepassingen.
-- Gebruikscases**: Liquid is bijzonder geschikt voor platformoverkoepelende uitwisselingen, snelle betalingen of toepassingen die slimme contracten vereisen, terwijl het gekoppeld blijft aan de beveiliging van Bitcoin.
+- **Snelheid**: Transacties op Liquid worden bevestigd in ongeveer **1 minuut**, vergeleken met 10 minuten of meer voor onchain transacties, dankzij blokken die elke minuut worden gegenereerd door een federatie van validators.
+- **Verbeterde vertrouwelijkheid**: Liquid gebruikt **Confidential Transactions**, dat de hoeveelheid en het type overgedragen activa verbergt, waardoor transacties meer privé worden (hoewel adressen zichtbaar blijven).
+- **Lage kosten**: Transacties op Liquid zijn over het algemeen goedkoper, waardoor ze ideaal zijn voor frequente overschrijvingen of kleine bedragen.
+- **Meerdere activa**: Naast L-BTC's ondersteunt Liquid de uitgifte van andere digitale activa, zoals stablecoins of tokens, voor gebruik in specifieke toepassingen.
+- **Gebruikscases**: Liquid is bijzonder geschikt voor platformoverkoepelende uitwisselingen, snelle betalingen of toepassingen die slimme contracten vereisen, terwijl het gekoppeld blijft aan de beveiliging van Bitcoin.
 
 
 
-**Opmerking: Deze tutorial richt zich op het gebruik van de Liquid via de Blockstream App. Voor een diepgaand begrip van de Liquid Network, vind je bronnen in de bijlage.
+**Opmerking: Deze tutorial richt zich op het gebruik van de Liquid via de Blockstream App. Voor een diepgaand begrip van de Liquid Network, vind je bronnen in de bijlage.**
 
 
 
@@ -98,14 +98,14 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle benamingen voor een applicatie die geïnstalleerd is op een smartphone, computer of elk ander apparaat dat verbonden is met het internet, waarmee privésleutels van een Bitcoin Wallet beheerd en beveiligd kunnen worden.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle benamingen voor een applicatie die geïnstalleerd is op een smartphone, computer of elk ander apparaat dat verbonden is met het internet, waarmee privésleutels van een Bitcoin Wallet beheerd en beveiligd kunnen worden.
 - In tegenstelling tot **hardware wallets**, ook bekend als **Cold wallets**, die sleutels offline isoleren, werken software wallets in een verbonden omgeving, waardoor ze kwetsbaarder zijn voor cyberaanvallen.
 
 
 
 
 
-- Aanbevolen gebruik** :
+- **Aanbevolen gebruik**:
     - Ideaal voor het beheren van gemiddelde hoeveelheden Bitcoin, vooral voor dagelijkse transacties.
     - Geschikt voor beginners of gebruikers met beperkte middelen, voor wie een Hardware Wallet overbodig lijkt.
 
@@ -113,7 +113,7 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Beperkingen**: Minder veilig voor het opslaan van grote bedragen of langetermijnsparen. Kies in dit geval voor een Hardware Wallet.
+- **Beperkingen**: Minder veilig voor het opslaan van grote bedragen of langetermijnsparen. Kies in dit geval voor een Hardware Wallet.
 
 
 
@@ -124,16 +124,16 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Blockstream App** is een mobiele (iOS, Android) en desktop applicatie voor het beheren van Bitcoin wallets en activa op de Liquid Network. Het werd in 2016 overgenomen door [Blockstream](https://blockstream.com/) en heette eerder *Green Address* en daarna *Blockstream Green*.
-- Belangrijkste kenmerken** :
-    - Onchain** transacties op Blockchain Bitcoin.
+- **Blockstream App** is een mobiele (iOS, Android) en desktop applicatie voor het beheren van Bitcoin wallets en activa op de Liquid Network. Het werd in 2016 overgenomen door [Blockstream](https://blockstream.com/) en heette eerder *Green Address* en daarna *Blockstream Green*.
+- **Belangrijkste kenmerken**:
+- **Onchain** transacties op Blockchain Bitcoin.
     - Transacties op het **Liquid** netwerk (Sidechain voor snelle, vertrouwelijke uitwisselingen).
-    - Watch-only** portefeuilles voor het monitoren van fondsen zonder toegang tot sleutels.
+- **Watch-only** portefeuilles voor het monitoren van fondsen zonder toegang tot sleutels.
     - Privacyopties: verbinding via **Tor**, verbinding met een **persoonlijk knooppunt** via Electrum, of **SPV** verificatie om de afhankelijkheid van knooppunten van derden te verminderen.
     - Functies **Replace-by-fee (RBF)** om onbevestigde transacties te versnellen.
-- Compatibiliteit**: Integreert hardware wallets zoals **Blockstream Jade**.
-- Interface**: Intuïtief voor beginners, met geavanceerde opties voor experts.
-- Opmerking**: Deze handleiding richt zich op het gebruik van Onchain. Andere tutorials in de bijlagen behandelen Onchain, Watch-Only en de desktopversie.
+- **Compatibiliteit**: Integreert hardware wallets zoals **Blockstream Jade**.
+- **Interface**: Intuïtief voor beginners, met geavanceerde opties voor experts.
+- **Opmerking**: Deze handleiding richt zich op het gebruik van Onchain. Andere tutorials in de bijlagen behandelen Onchain, Watch-Only en de desktopversie.
 
 
 
@@ -148,12 +148,12 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Voor Android** :
+- Voor **Android**:
     - Download [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) uit de Google Play Store.
     - Alternatief: Installeer via het APK-bestand dat beschikbaar is op [Blockstream's officiële GitHub] (https://github.com/Blockstream/green_android).
-- Voor iOS** :
+- Voor **iOS**:
     - Download [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) van de App Store.
-- Opmerking**: Zorg ervoor dat je downloadt van officiële bronnen om frauduleuze toepassingen te voorkomen.
+- **Opmerking**: Zorg ervoor dat je downloadt van officiële bronnen om frauduleuze toepassingen te voorkomen.
 
 
 
@@ -163,7 +163,7 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Beginscherm**: Bij de eerste keer openen toont de applicatie een scherm zonder een geconfigureerde Wallet. Aangemaakte of geïmporteerde portfolio's zullen hier later verschijnen.
+- **Beginscherm**: Bij de eerste keer openen toont de applicatie een scherm zonder een geconfigureerde Wallet. Aangemaakte of geïmporteerde portfolio's zullen hier later verschijnen.
 
 
 
@@ -173,7 +173,7 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Instellingen aanpassen**: Klik op "Toepassingsinstellingen", pas de onderstaande opties aan, klik op "Opslaan", start de toepassing opnieuw en maak je portfolio aan.
+- **Instellingen aanpassen**: Klik op "Toepassingsinstellingen", pas de onderstaande opties aan, klik op "Opslaan", start de toepassing opnieuw en maak je portfolio aan.
 
 
 
@@ -187,8 +187,8 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Functie**: Schakelt schermafbeeldingen uit, verbergt toepassingsvoorbeelden in het taakbeheer en vergrendelt de toegang wanneer de telefoon is vergrendeld.
-- Waarom?** : Beschermt uw gegevens tegen onbevoegde fysieke toegang of malware die het scherm buitmaakt.
+- **Functie**: Schakelt schermafbeeldingen uit, verbergt toepassingsvoorbeelden in het taakbeheer en vergrendelt de toegang wanneer de telefoon is vergrendeld.
+- **Waarom?**: Beschermt uw gegevens tegen onbevoegde fysieke toegang of malware die het scherm buitmaakt.
 
 
 
@@ -198,10 +198,10 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Functie**: Routeer netwerkverkeer via **Tor**, een anoniem netwerk dat je verbindingen versleutelt.
-- Waarom?**: Verberg je IP Address en bescherm je privacy, ideaal als je je netwerk niet vertrouwt (openbare Wi-Fi, bijvoorbeeld).
-- Nadeel**: Kan de toepassing vertragen door versleuteling.
-- Aanbeveling**: Activeer Tor als vertrouwelijkheid een prioriteit is, maar test de verbindingssnelheid.
+- **Functie**: Routeer netwerkverkeer via **Tor**, een anoniem netwerk dat je verbindingen versleutelt.
+- **Waarom?**: Verberg je IP Address en bescherm je privacy, ideaal als je je netwerk niet vertrouwt (openbare Wi-Fi, bijvoorbeeld).
+- **Nadeel**: Kan de toepassing vertragen door versleuteling.
+- **Aanbeveling**: Activeer Tor als vertrouwelijkheid een prioriteit is, maar test de verbindingssnelheid.
 
 
 
@@ -211,10 +211,10 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Functie**: Verbindt de applicatie met je eigen **complete Bitcoin node** via een **Electrum server**.
-- Waarom?**: Biedt totale controle over Blockchain gegevens, waardoor u niet meer afhankelijk bent van Blockstream servers.
-- Vereiste**: Een geconfigureerd Bitcoin knooppunt.
-- Aanbeveling**: Gevorderde gebruikers die maximale soevereiniteit willen.
+- **Functie**: Verbindt de applicatie met je eigen **complete Bitcoin node** via een **Electrum server**.
+- **Waarom?**: Biedt totale controle over Blockchain gegevens, waardoor u niet meer afhankelijk bent van Blockstream servers.
+- **Vereiste**: Een geconfigureerd Bitcoin knooppunt.
+- **Aanbeveling**: Gevorderde gebruikers die maximale soevereiniteit willen.
 
 
 
@@ -224,10 +224,10 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Functie**: Gebruikt **Simplified Payment Verification (SPV)** om bepaalde Blockchain gegevens direct te verifiëren zonder de hele keten te downloaden.
-- Waarom?**: Vermindert de afhankelijkheid van Blockstream's standaard node, terwijl het lichtgewicht blijft voor mobiele apparaten.
-- Nadeel**: Minder veilig dan een Full node, omdat het voor sommige informatie afhankelijk is van knooppunten van derden.
-- Aanbeveling**: Activeer SPV als je geen persoonlijk knooppunt kunt gebruiken, maar de voorkeur geeft aan een Full node voor optimale beveiliging.
+- **Functie**: Gebruikt **Simplified Payment Verification (SPV)** om bepaalde Blockchain gegevens direct te verifiëren zonder de hele keten te downloaden.
+- **Waarom?**: Vermindert de afhankelijkheid van Blockstream's standaard node, terwijl het lichtgewicht blijft voor mobiele apparaten.
+- **Nadeel**: Minder veilig dan een Full node, omdat het voor sommige informatie afhankelijk is van knooppunten van derden.
+- **Aanbeveling**: Activeer SPV als je geen persoonlijk knooppunt kunt gebruiken, maar de voorkeur geeft aan een Full node voor optimale beveiliging.
 
 
 
@@ -243,7 +243,7 @@ Liquid vertrouwt op een **federatie** van vertrouwde deelnemers (exchanges, erke
 
 
 
-- Let op**: Stel je portfolio op in een privéomgeving, zonder camera's of toeschouwers.
+- **Let op**: Stel je portfolio op in een privéomgeving, zonder camera's of toeschouwers.
 - Klik in het beginscherm op "Aan de slag" :
 
 
@@ -346,7 +346,7 @@ Om dit te doen, schrijven we een referentie op, verwijderen de Wallet, herstelle
 
 
 
-- Klik op het Wallet startscherm op het tabblad "Instellingen", dan op "Wallet Details", en kopieer de zPub ([extended public key](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- Klik op het Wallet startscherm op het tabblad "Instellingen", dan op "Wallet Details", en kopieer de zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 
@@ -434,7 +434,7 @@ Als alternatief, Exchange uw bitcoins onchain of via de Lightning Network voor L
 
 
 
-- Opties** :
+- **Opties**:
  - (1) Klik op de pijlen om nog een nieuwe Address te selecteren die aan deze seed zin is gekoppeld.
     - (2) Je kunt ook een Address kiezen uit de reeds gebruikte/weergegeven adressen, door te klikken op de drie puntjes rechtsboven en dan op "Lijst van adressen"
     - (3) Om een specifiek bedrag aan te vragen, klik op de drie puntjes rechtsboven, selecteer "Bedrag aanvragen" en voer het gewenste bedrag in. De QR wordt bijgewerkt en de Address wordt vervangen door een Bitcoin betalings-URI.
@@ -448,7 +448,7 @@ Als alternatief, Exchange uw bitcoins onchain of via de Lightning Network voor L
 
 
 - Deel de Address/URI door op "**Share**" te klikken, de tekst te kopiëren of de QR-code te scannen.
-- Verificatie**: Controleer de Address die gedeeld is met de ontvanger zoveel mogelijk om fouten of aanvallen te voorkomen (bijv. malware die het klembord wijzigt).
+- **Verificatie**: Controleer de Address die gedeeld is met de ontvanger zoveel mogelijk om fouten of aanvallen te voorkomen (bijv. malware die het klembord wijzigt).
 
 
 
@@ -468,7 +468,7 @@ Als alternatief, Exchange uw bitcoins onchain of via de Lightning Network voor L
 
 
 
-- Vul gegevens in** :
+- **Vul gegevens in**:
     - (1) Voer de **Address van de ontvanger** in door deze op te plakken of een QR-code te scannen.
     - (2) Controleer de activa en de rekening waarvan het geld wordt verstuurd.
     - (3) Geef het **bedrag** aan dat moet worden verzonden. Je kunt de eenheid kiezen: L-BTC, L-satoshis, USD, ...
@@ -481,7 +481,7 @@ Als alternatief, Exchange uw bitcoins onchain of via de Lightning Network voor L
 
 
 
-- Check** :
+- **Check**:
     - Controleer de Address, het bedrag en de kosten op het overzichtsscherm.
     - Een Address fout kan leiden tot onomkeerbaar verlies van geld. Pas op voor malware die het klembord wijzigt.
 
@@ -493,8 +493,8 @@ Als alternatief, Exchange uw bitcoins onchain of via de Lightning Network voor L
 
 
 
-- Bevestiging**: Schuif op de knop "Verzenden" om de transactie te ondertekenen en te distribueren.
-- Follow-up**: In het tabblad "Transactie" van Wallet verschijnt de transactie als "Onbevestigd", dan "Bevestigd", dan "Voltooid":
+- **Bevestiging**: Schuif op de knop "Verzenden" om de transactie te ondertekenen en te distribueren.
+- **Follow-up**: In het tabblad "Transactie" van Wallet verschijnt de transactie als "Onbevestigd", dan "Bevestigd", dan "Voltooid":
 
 
 
@@ -547,7 +547,7 @@ Volg deze aanbevelingen om **Blockstream App** veilig en efficiënt te gebruiken
 
 
 
-- Beveilig je herstelzin** :
+- **Beveilig je herstelzin**:
  - Handleiding: Uw Mnemonic zin opslaan
 
 
@@ -559,7 +559,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Gebruik beveiligde verificatie** :
+- Gebruik **beveiligde verificatie**:
  - Activeer een **sterke PIN** of **biometrische verificatie** (vingerafdruk of gezichtsherkenning) om de toegang tot de applicatie te beveiligen.
  - Deel nooit uw PIN- of biometrische gegevens.
 
@@ -567,7 +567,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Bescherm uw privacy** :
+- **Bescherm uw privacy** :
  - generate een nieuwe Address voor elke ontvangst aan de ketting of Liquid om het traceren op de Blockchain te beperken.
  - Activeer de functies "Verbeterde privacy", "Tor" en "SPV".
  - Voor maximale vertrouwelijkheid verbindt u uw Wallet met uw eigen Bitcoin knooppunt via een Electrum-server in plaats van het openbare knooppunt te gebruiken
@@ -576,23 +576,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kies het netwerk dat het beste bij uw behoeften past** :
- - Onchain**: Voorkeur voor langetermijnbewaring of transacties met een grote waarde (kosten te verwaarlozen in verhouding tot het bedrag).
- - Liquid**: Voor snelle, goedkope overdrachten met verbeterde vertrouwelijkheid.
- - Lightning**: Kies voor directe, goedkope overschrijvingen voor kleine bedragen.
+- **Kies het netwerk dat het beste bij uw behoeften past**:
+- **Onchain**: Voorkeur voor langetermijnbewaring of transacties met een grote waarde (kosten te verwaarlozen in verhouding tot het bedrag).
+- **Liquid**: Voor snelle, goedkope overdrachten met verbeterde vertrouwelijkheid.
+- **Lightning**: Kies voor directe, goedkope overschrijvingen voor kleine bedragen.
 
 
 
 
 
-- Controleer altijd de verzendadressen** :
+- Controleer altijd de **verzendadressen**:
  - Controleer de Address zorgvuldig voordat je geld verstuurt. Geld dat naar de verkeerde Address wordt gestuurd, is voor altijd verloren. Gebruik kopiëren/plakken of QR-code scannen, kopieer/wijzig nooit een Address met de hand.
 
 
 
 
 
-- Kosten optimaliseren** :
+- **Kosten optimaliseren**:
  - Kies voor onchain transacties de juiste tarieven (langzaam, gemiddeld, snel) op basis van urgentie en netwerkcongestie.
  - Gebruik Liquid of Lightning voor kleine hoeveelheden.
 
@@ -611,16 +611,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Officiële links:**
- - [Officiële website](https://blockstream.com/)**
- - [Ondersteuning voor de mobiele toepassing](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentatie en chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Officiële links:**
+- [Officiële website](https://blockstream.com/)
+- [Ondersteuning voor de mobiele toepassing](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): documentatie en chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Blokverkenners :**
+- **Blokverkenners:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Bliksem: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -629,7 +629,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Leren en tutorials:** **[Plan ₿ Network](https://planb.network/)** :
+- **Leren en tutorials:** **[Plan ₿ Network](https://planb.network/)**:
  - Je herstelzin beveiligen
 
 
@@ -641,8 +641,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Woordenlijst](https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Woordenlijst](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -652,8 +652,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Woordenlijst](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Woordenlijst](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

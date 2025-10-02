@@ -113,7 +113,7 @@ Karena ada banyak kemungkinan, antara router operator yang berbeda (yang tidak s
 
 Setelah ini selesai, jika ada perangkat yang telah dihidupkan sebelumnya, mereka akan mempertahankan pengaturan lama, jadi Anda perlu memulai ulang permintaan konfigurasi.
 
-Pada workstation Windows, dengan prompt perintah :
+Pada workstation Windows, dengan prompt perintah:
 
 ```
 ipconfig /renew
@@ -152,7 +152,7 @@ Dari sisi saya, saya akan menambahkan daftar pemblokiran. Seperti yang disebutka
 
 Untuk menambahkannya, pertama-tama masuk ke admin Interface: **http://<ip_du_PiHole>/admin**
 
-Kata sandi administrator telah dibuat (lihat tangkapan layar akhir instalasi), jadi Anda hanya perlu memasukkannya untuk mengakses Interface :
+Kata sandi administrator telah dibuat (lihat tangkapan layar akhir instalasi), jadi Anda hanya perlu memasukkannya untuk mengakses Interface:
 
 ![Image](assets/fr/030.webp)
 

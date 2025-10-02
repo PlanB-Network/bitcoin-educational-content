@@ -242,7 +242,7 @@ Voit kirjoittaa sen COLDCARD-kortin mukana toimitetulle kartongille, tai lisätu
 
 Kirjoita näytöllä olevat sanat haluamallesi fyysiselle välineelle. Turvallisuusstrategiastasi riippuen voit harkita useiden täydellisten fyysisten kopioiden tekemistä lauseesta (mutta ennen kaikkea älä jaa sitä). On tärkeää, että sanat ovat numeroituja ja juoksevassa järjestyksessä.
 
-On selvää, ettet saa koskaan jakaa näitä sanoja** Internetissä, toisin kuin tässä opetusohjelmassa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.
+On selvää, ettet saa koskaan jakaa näitä sanoja Internetissä, toisin kuin tässä opetusohjelmassa. Tätä esimerkkisalkkua käytetään vain **Testnetissä**, ja se poistetaan opetusohjelman päätyttyä.
 
 Kun olet kirjoittanut sanat ylös, paina "*ENTER*".
 

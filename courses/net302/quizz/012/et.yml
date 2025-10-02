@@ -1,0 +1,9 @@
+question: Mis on klassikalise Interneti-protokolli versiooni (IPv4) arvväärtus?
+answer: 4
+wrong_answers:
+  - 5
+  - 1
+  - 7
+explanation: |
+  IPv4 vastab väärtusele 4 IP-pealkirja väljal "Version".
+reviewed: false

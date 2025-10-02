@@ -1,5 +1,5 @@
 ---
-name: تندو
+name: Tando
 description: Bitcoin را در هر جای کنیا خرج کنید.
 ---
 
@@ -81,7 +81,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- اسکن کنید تا پرداخت کنید** :
+- **اسکن کنید تا پرداخت کنید** :
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- ارسال پول به کنیا** :
+- **ارسال پول به کنیا** :
 
 
 
@@ -121,7 +121,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- صورتحساب‌های خود را پرداخت کنید** :
+- **صورتحساب‌های خود را پرداخت کنید** :
 
 
 
@@ -135,7 +135,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- خرید کالا** :
+- **خرید کالا** :
 
 
 

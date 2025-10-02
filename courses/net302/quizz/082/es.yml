@@ -1,0 +1,9 @@
+question: ¿Qué herramienta moderna sustituye a arp en las distribuciones recientes de Linux?
+answer: relincho ip
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - ruta
+explanation: |
+  ip neigh, de la suite iproute2, sustituye a arp para la gestión de asociaciones IP/MAC en Linux moderno.
+reviewed: false

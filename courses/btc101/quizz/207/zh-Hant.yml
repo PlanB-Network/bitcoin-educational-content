@@ -1,8 +1,12 @@
-question: 將您的 Bitcoin 留在 Exchange 平台上的潛在風險之一是什麼？
-answer: 黑客入侵和資金封鎖的風險。
+question: Milton Friedman 在 1999 年預測了什麼？
+answer: 開發可靠的電子現金。
 wrong_answers:
-  - 平台提高 Bitcoin 價格的風險。
-  - 平台控制 Bitcoin 的 Supply 的風險。
-  - Bitcoin 價格被加密貨幣超越的風險。
-explanation: >-
+  - 實體貨幣的消亡。
+  - Bitcoin 的崛起。
+  - 政府對貨幣控制的終結。
+explanation: |
+  著名經濟學家 Milton Friedman 在 1999 年預言
+  可靠的電子現金將很快被開發出來，這種方法
+  在網際網路上，您可以將資金從 A 轉帳到 B、
+  A 不知道 B，反之亦然。
 reviewed: true

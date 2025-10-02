@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Jak skonfigurować i używać Nakamochi Bitcoin i Lightning node.
+description: Uruchamianie węzła w prosty sposób - Jak skonfigurować i używać węzła Nakamochi Bitcoin i Lightning.
 ---
+
+![image](assets/cover.webp)
 
 Uruchomienie własnego Bitcoin i Lightning Full node nie musi już być skomplikowanym zadaniem ograniczonym do ekspertów technicznych. Tradycyjnie konfigurowanie węzłów i zarządzanie nimi wymagało dogłębnej wiedzy z zakresu kryptografii, sieci i tworzenia oprogramowania. Nakamochi zmienia to, udostępniając węzły każdemu, niezależnie od zaplecza technicznego.
 
@@ -49,22 +51,22 @@ Węzłem Nakamochi można zarządzać za pośrednictwem aplikacji mobilnej [BitB
 
 ![image](assets/en/01.webp)
 
-podłącz zasilanie i zapisz 24-słowną frazę seed_
+_Podłącz do zasilania i zapisz swoją 24-wyrazową frazę seed_
 
 
 ![image](assets/en/02.webp)
 
-_Poczekaj, aż Blockchain dogoni_
+_Poczekaj, aż blockchain nadrobi zaległości_
 
 
 ![image](assets/en/03.webp)
 
-_Ustaw nowy Wallet w zakładce Lightning_
+_Skonfiguruj nowy portfel w zakładce Lightning_
 
 
 ![image](assets/en/04.webp)
 
-_Scan QR Code with Node Management App_
+_Zeskanuj kod QR za pomocą aplikacji do zarządzania węzłem_
 
 
 ![image](assets/en/05.webp)
@@ -72,12 +74,14 @@ _Scan QR Code with Node Management App_
 _Dla dodatkowego bezpieczeństwa ustaw kod PIN_
 
 
-**Uwaga:** _Pozwól węzłowi Nakamochi zsynchronizować się z Blockchain. Proces ten może zająć trochę czasu w zależności od połączenia internetowego
+**Uwaga:** _Pozwól swojemu węzłowi Nakamochi zsynchronizować się z blockchainem. Proces ten może potrwać pewien czas w zależności od twojego połączenia internetowego._
 
 
 
 ## Informacje o Lightning Network
 
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network rewolucjonizuje transakcje Bitcoin, czyniąc je szybszymi, tańszymi i bardziej wydajnymi. Jest idealny do codziennego użytku, umożliwiając niemal natychmiastowe płatności przy minimalnych opłatach, idealny do mikrotransakcji, takich jak zakup kawy lub obsługa częstych drobnych zakupów.
 
@@ -160,4 +164,4 @@ Zasadniczo zalecamy pozostawienie otwartych kanałów w celu obniżenia kosztów
 
 
 - [O Nakamochi](https://nakamochi.io/)
-- [Subskrybuj biuletyn Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Zapisz się do newslettera Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

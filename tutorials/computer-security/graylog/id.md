@@ -83,8 +83,8 @@ MongoDB tidak dapat diinstal karena ketergantungan hilang: **libssl1.1**. Kita h
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -192,7 +192,9 @@ Dengan konfigurasi yang diterapkan di sini, **OpenSearch akan dimulai dengan mem
 -Xmx1g
 ```
 
-Dengan garis-garis ini :
+
+
+Dengan garis-garis ini:
 
 ```
 -Xms4g
@@ -205,7 +207,9 @@ Berikut ini gambar modifikasi yang akan dilakukan:
 
 Tutup file ini setelah menyimpannya.
 
-Sebagai tambahan, kita perlu memeriksa konfigurasi parameter "**max_map_count**" pada kernel Linux. Parameter ini mendefinisikan batas area memori yang dipetakan per proses, untuk memenuhi kebutuhan aplikasi kita. **OpenSearch**, seperti Elasticsearch**, merekomendasikan untuk mengatur nilai ini ke "262144" untuk menghindari kesalahan manajemen memori.
+
+
+Sebagai tambahan, kita perlu memeriksa konfigurasi parameter "**max_map_count**" pada kernel Linux. Parameter ini mendefinisikan batas area memori yang dipetakan per proses, untuk memenuhi kebutuhan aplikasi kita. **OpenSearch**, seperti **Elasticsearch**, merekomendasikan untuk mengatur nilai ini ke "262144" untuk menghindari kesalahan manajemen memori.
 
 Pada prinsipnya, pada komputer Debian 12 yang baru diinstal, nilainya sudah benar. Tetapi mari kita periksa. Jalankan perintah ini:
 
@@ -447,7 +451,9 @@ Dalam direktori ini, kita akan membuat file bernama "**10-graylog.conf**" :
 sudo nano /etc/rsyslog.d/10-graylog.conf
 ```
 
-Dalam file ini, sisipkan baris ini :
+
+
+Dalam file ini, sisipkan baris ini:
 
 ```
 *.* @192.168.10.220:12514;RSYSLOG_SyslogProtocol23Format
@@ -524,7 +530,7 @@ Berikut ini adalah rangkuman hasil pada perangkat di mana saya menghasilkan bebe
 
 Upaya koneksi yang gagal dilakukan dari perangkat dengan IP Address "**192.168.10.199**". Jika Anda ingin tahu lebih banyak tentang aktivitas host ini, Anda dapat **mencari IP Address ini**. Graylog akan menampilkan semua log di mana IP Address ini direferensikan, pada semua host (yang pengiriman lognya dikonfigurasi).
 
-Dalam hal ini, filter yang akan digunakan dapat berupa :
+Dalam hal ini, filter yang akan digunakan dapat berupa:
 
 ```
 message:"192.168.10.199"

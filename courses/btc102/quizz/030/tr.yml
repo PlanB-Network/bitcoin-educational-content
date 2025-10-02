@@ -5,5 +5,5 @@ wrong_answers:
   - Temel protokolde hızlı yenilik
   - Temel protokolde olduğu gibi katmanlarda da aynı özelliklere sahip olması
 explanation: |
-  Katmanlı yaklaşım, temel protokolün güvenliğinden ve basitliğinden ödün vermeden işlevler eklenmesine olanak tanır.
+  Katmanlı yaklaşım, temel protokolün güvenliğinden ve basitliğinden ödün vermeden yeni işlevlerin eklenmesine olanak tanır.
 reviewed: false

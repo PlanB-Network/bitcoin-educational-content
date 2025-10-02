@@ -17,10 +17,10 @@ Arch Linux ni usambazaji unaojulikana kwa uimara, utendakazi na uwezo wake wa ku
 
 
 
-- Chanzo huria na huria**: Kama ugawaji mwingi wa Linux, Arch Linux ni bure kabisa. Hakuna ada za leseni, na kuifanya kuwa chaguo bora kwa wanafunzi, wafanyikazi wa kujitegemea au wapendaji.
-- Falsafa ya KISS**: Arch imeundwa kuwa rahisi, nyepesi na bora. Inatoa tu mambo muhimu, hukuruhusu kujenga mazingira yako à la carte.
-- Kidhibiti kifurushi cha Pacman**: Pacman ni meneja wa kifurushi wa haraka, anayetegemewa na iliyoundwa vizuri. Inawezesha usakinishaji na usasishaji bora wa programu, na kudhibiti utegemezi kwa usahihi.
-- Uhifadhi wa kina na jumuiya inayotumika**: [Arch Wiki](https://wiki.archlinux.org) pengine ni mojawapo ya hati bora zaidi za kiufundi katika ulimwengu wa Linux. Ni mgodi wa dhahabu kwa kuelewa unachofanya. Jumuiya, inayojumuisha wasifu wenye uzoefu, ina shughuli nyingi na inaweza kukusaidia ikiwa utakwama, mradi tu umefanya utafiti kidogo hapo awali.
+- **Chanzo huria na huria**: Kama ugawaji mwingi wa Linux, Arch Linux ni bure kabisa. Hakuna ada za leseni, na kuifanya kuwa chaguo bora kwa wanafunzi, wafanyikazi wa kujitegemea au wapendaji.
+- **Falsafa ya KISS**: Arch imeundwa kuwa rahisi, nyepesi na bora. Inatoa tu mambo muhimu, hukuruhusu kujenga mazingira yako à la carte.
+- **Kidhibiti kifurushi cha Pacman**: Pacman ni meneja wa kifurushi wa haraka, anayetegemewa na iliyoundwa vizuri. Inawezesha usakinishaji na usasishaji bora wa programu, na kudhibiti utegemezi kwa usahihi.
+- **Uhifadhi wa kina na jumuiya inayotumika**: [Arch Wiki](https://wiki.archlinux.org) pengine ni mojawapo ya hati bora zaidi za kiufundi katika ulimwengu wa Linux. Ni mgodi wa dhahabu kwa kuelewa unachofanya. Jumuiya, inayojumuisha wasifu wenye uzoefu, ina shughuli nyingi na inaweza kukusaidia ikiwa utakwama, mradi tu umefanya utafiti kidogo hapo awali.
 
 
 
@@ -39,7 +39,7 @@ Nyenzo zinazohitajika:
 
 
 - Kitufe cha USB cha angalau **8 GB**
-- 2 GB** kiwango cha chini cha RAM
+- **2 GB** kiwango cha chini cha RAM
 - Kompyuta iliyo na angalau GB 20 ya nafasi ya bure ya diski
 
 
@@ -66,7 +66,7 @@ Tangu 2017, Arch Linux haitumii tena usanifu wa 32-bit. Matoleo ya 64-bit pekee 
 
 
 
-Ili kuunda kiendeshi cha USB cha bootable, unaweza kutumia zana kama **Balena Etcher** :
+Ili kuunda kiendeshi cha USB cha bootable, unaweza kutumia zana kama **Balena Etcher**:
 
 
 
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Angalia kuwa ulandanishi otomatiki umewezeshwa na :
+- Angalia kuwa ulandanishi otomatiki umewezeshwa na:
 
 
 ```shell
@@ -261,7 +261,7 @@ Chagua **GPT** ikiwa uko kwenye UEFI, **DOS** ikiwa uko kwenye BIOS.
 
 
 
-- Katika hali ya UEFI**
+- Katika hali ya **UEFI**
 
 
 
@@ -294,7 +294,7 @@ Chagua **Andika**, chapa **ndiyo**, kisha **Toka**.
 
 
 
-- UEFI** :
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- **BIOS**:
 
 
 
@@ -472,7 +472,7 @@ Mara baada ya kupakuliwa, unahitaji kuiweka kulingana na muundo wa kugawanya dis
 
 
 
-- Kwa **BIOS** :
+- Kwa **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- Kwa **UEFI** :
+- Kwa **UEFI**:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Washa **kidhibiti kikao** :
+Washa **kidhibiti kikao**:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Sakinisha **sudo** :
+- Sakinisha **sudo**:
 
 
 ```shell
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Kwa mfano, ili kusakinisha **nano** kihariri maandishi, unaweza kuandika :
+Kwa mfano, ili kusakinisha **nano** kihariri maandishi, unaweza kuandika:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Ili kusakinisha kivinjari chepesi cha wavuti kama vile `firefox`, tumia :
+Ili kusakinisha kivinjari chepesi cha wavuti kama vile `firefox`, tumia:
 
 
 

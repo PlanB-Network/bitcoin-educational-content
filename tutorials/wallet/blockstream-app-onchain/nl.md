@@ -1,5 +1,5 @@
 ---
-name: Blockstream-app - Onchain
+name: Blockstream App - Onchain
 description: Blockstream App instellen op mobiel en onchain-transacties beheren
 ---
 ![cover](assets/cover.webp)
@@ -30,8 +30,8 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Beginners**: Gebruikers die hun bitcoins willen beheren met een intuïtieve mobiele applicatie.
-- Intermediaire gebruikers**: Mensen die de onchain-functionaliteiten en privacyopties zoals Tor of SPV willen begrijpen.
+- **Beginners**: Gebruikers die hun bitcoins willen beheren met een intuïtieve mobiele applicatie.
+- **Intermediaire gebruikers**: Mensen die de onchain-functionaliteiten en privacyopties zoals Tor of SPV willen begrijpen.
 
 
 
@@ -41,14 +41,14 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle namen voor een applicatie die geïnstalleerd is op een smartphone, computer of een ander apparaat met internetverbinding, waarmee privésleutels van een Bitcoin Wallet beheerd en beveiligd kunnen worden.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alle namen voor een applicatie die geïnstalleerd is op een smartphone, computer of een ander apparaat met internetverbinding, waarmee privésleutels van een Bitcoin Wallet beheerd en beveiligd kunnen worden.
 - In tegenstelling tot **hardware wallets**, ook bekend als **Cold wallets**, die sleutels offline isoleren, werken software wallets in een verbonden omgeving, waardoor ze kwetsbaarder zijn voor cyberaanvallen.
 
 
 
 
 
-- Aanbevolen gebruik** :
+- **Aanbevolen gebruik**:
     - Ideaal voor het beheren van gemiddelde hoeveelheden Bitcoin, vooral voor dagelijkse transacties.
     - Geschikt voor beginners of gebruikers met beperkte middelen, voor wie een Hardware Wallet overbodig lijkt.
 
@@ -56,7 +56,7 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Beperkingen**: Minder veilig voor het opslaan van grote bedragen of langetermijnsparen. Kies in dit geval voor een Hardware Wallet.
+- **Beperkingen**: Minder veilig voor het opslaan van grote bedragen of langetermijnsparen. Kies in dit geval voor een Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Blockstream App** is een mobiele (iOS, Android) en desktop applicatie voor het beheren van Bitcoin portefeuilles en activa op de Liquid Network. Het werd in 2016 overgenomen door [Blockstream](https://blockstream.com/) en heette eerder *Green Address* en daarna *Blockstream Green*.
-- Belangrijkste kenmerken** :
-    - Onchain** transacties op Blockchain Bitcoin.
+- **Blockstream App** is een mobiele (iOS, Android) en desktop applicatie voor het beheren van Bitcoin portefeuilles en activa op de Liquid Network. Het werd in 2016 overgenomen door [Blockstream](https://blockstream.com/) en heette eerder *Green Address* en daarna *Blockstream Green*.
+- **Belangrijkste kenmerken**:
+- **Onchain** transacties op Blockchain Bitcoin.
     - Netwerktransacties **Liquid** (Sidechain voor snelle, vertrouwelijke uitwisselingen).
-    - Watch-only** portefeuilles voor het monitoren van fondsen zonder toegang tot sleutels.
+- **Watch-only** portefeuilles voor het monitoren van fondsen zonder toegang tot sleutels.
     - Privacyopties: verbinding via **Tor**, verbinding met een **persoonlijk knooppunt** via Electrum, of **SPV** verificatie om de afhankelijkheid van knooppunten van derden te verminderen.
     - Functies **Replace-by-fee (RBF)** om onbevestigde transacties te versnellen.
-- Compatibiliteit**: Integreert hardware wallets zoals **Blockstream Jade**.
-- Interface**: Intuïtief voor beginners, met geavanceerde opties voor experts.
-- Opmerking**: Deze handleiding richt zich op het gebruik van de onchain. Andere tutorials in de bijlagen behandelen Liquid, Watch-Only en de desktopversie.
+- **Compatibiliteit**: Integreert hardware wallets zoals **Blockstream Jade**.
+- **Interface**: Intuïtief voor beginners, met geavanceerde opties voor experts.
+- **Opmerking**: Deze handleiding richt zich op het gebruik van de onchain. Andere tutorials in de bijlagen behandelen Liquid, Watch-Only en de desktopversie.
 
 
 
@@ -90,12 +90,12 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Voor Android** :
+- Voor **Android**:
     - Download [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) uit de Google Play Store.
     - Alternatief: Installeer via het APK-bestand dat beschikbaar is op [Blockstream's officiële GitHub] (https://github.com/Blockstream/green_android).
-- Voor iOS** :
+- Voor **iOS**:
     - Download [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) van de App Store.
-- Opmerking**: Zorg ervoor dat je downloadt van officiële bronnen om frauduleuze toepassingen te voorkomen.
+- **Opmerking**: Zorg ervoor dat je downloadt van officiële bronnen om frauduleuze toepassingen te voorkomen.
 
 
 
@@ -105,7 +105,7 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Beginscherm**: Wanneer de toepassing voor het eerst wordt geopend, toont het een scherm zonder een geconfigureerde Wallet. Aangemaakt of geïmporteerd portfolio zal hier later verschijnen. Aangemaakte of geïmporteerde portfolio's zullen hier later verschijnen.
+- **Beginscherm**: Wanneer de toepassing voor het eerst wordt geopend, toont het een scherm zonder een geconfigureerde Wallet. Aangemaakt of geïmporteerd portfolio zal hier later verschijnen. Aangemaakte of geïmporteerde portfolio's zullen hier later verschijnen.
 
 
 
@@ -115,7 +115,7 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Instellingen aanpassen**: Klik op "Toepassingsinstellingen", pas de onderstaande opties aan, klik op "Opslaan", start de toepassing opnieuw en maak je portfolio aan.
+- **Instellingen aanpassen**: Klik op "Toepassingsinstellingen", pas de onderstaande opties aan, klik op "Opslaan", start de toepassing opnieuw en maak je portfolio aan.
 
 
 
@@ -129,8 +129,8 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Functie**: Schakelt schermafbeeldingen uit, verbergt toepassingsvoorbeelden in het taakbeheer en vergrendelt de toegang wanneer de telefoon is vergrendeld.
-- Waarom?** : Beschermt uw gegevens tegen onbevoegde fysieke toegang of malware die het scherm buitmaakt.
+- **Functie**: Schakelt schermafbeeldingen uit, verbergt toepassingsvoorbeelden in het taakbeheer en vergrendelt de toegang wanneer de telefoon is vergrendeld.
+- **Waarom?**: Beschermt uw gegevens tegen onbevoegde fysieke toegang of malware die het scherm buitmaakt.
 
 
 #### 3.2.2. Verbinding via Tor
@@ -139,10 +139,10 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Functie**: Routeer netwerkverkeer via **Tor**, een anoniem netwerk dat je verbindingen versleutelt.
-- Waarom?**: Verberg je IP Address en bescherm je privacy, ideaal als je je netwerk niet vertrouwt (openbare Wi-Fi, bijvoorbeeld).
-- Nadeel**: Kan de toepassing vertragen door versleuteling.
-- Aanbeveling**: Activeer Tor als vertrouwelijkheid een prioriteit is, maar test de verbindingssnelheid.
+- **Functie**: Routeer netwerkverkeer via **Tor**, een anoniem netwerk dat je verbindingen versleutelt.
+- **Waarom?**: Verberg je IP Address en bescherm je privacy, ideaal als je je netwerk niet vertrouwt (openbare Wi-Fi, bijvoorbeeld).
+- **Nadeel**: Kan de toepassing vertragen door versleuteling.
+- **Aanbeveling**: Activeer Tor als vertrouwelijkheid een prioriteit is, maar test de verbindingssnelheid.
 
 
 #### 3.2.3. Verbinding maken met een persoonlijk knooppunt
@@ -151,10 +151,10 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Functie**: Verbindt de applicatie met je eigen **complete Bitcoin node** via een **Electrum** server.
-- Waarom?**: Biedt totale controle over Blockchain gegevens, waardoor u niet meer afhankelijk bent van Blockstream servers.
-- Vereiste**: Een geconfigureerd Bitcoin knooppunt.
-- Aanbeveling**: Gevorderde gebruikers die maximale soevereiniteit zoeken.
+- **Functie**: Verbindt de applicatie met je eigen **complete Bitcoin node** via een **Electrum** server.
+- **Waarom?**: Biedt totale controle over Blockchain gegevens, waardoor u niet meer afhankelijk bent van Blockstream servers.
+- **Vereiste**: Een geconfigureerd Bitcoin knooppunt.
+- **Aanbeveling**: Gevorderde gebruikers die maximale soevereiniteit zoeken.
 
 
 #### 3.2.4. SPV-verificatie
@@ -163,10 +163,10 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Functie**: Gebruikt **Simplified Payment Verification (SPV)** om bepaalde Blockchain gegevens direct te verifiëren zonder de hele keten te downloaden.
-- Waarom?**: Vermindert de afhankelijkheid van Blockstream's standaard node, terwijl het lichtgewicht blijft voor mobiele apparaten.
-- Nadeel**: Minder veilig dan een Full node, omdat het voor sommige informatie afhankelijk is van knooppunten van derden.
-- Aanbeveling**: Activeer SPV als u geen persoonlijk knooppunt kunt gebruiken, maar de voorkeur geeft aan een Full node voor optimale beveiliging.
+- **Functie**: Gebruikt **Simplified Payment Verification (SPV)** om bepaalde Blockchain gegevens direct te verifiëren zonder de hele keten te downloaden.
+- **Waarom?**: Vermindert de afhankelijkheid van Blockstream's standaard node, terwijl het lichtgewicht blijft voor mobiele apparaten.
+- **Nadeel**: Minder veilig dan een Full node, omdat het voor sommige informatie afhankelijk is van knooppunten van derden.
+- **Aanbeveling**: Activeer SPV als u geen persoonlijk knooppunt kunt gebruiken, maar de voorkeur geeft aan een Full node voor optimale beveiliging.
 
 
 
@@ -182,7 +182,7 @@ description: Blockstream App instellen op mobiel en onchain-transacties beheren
 
 
 
-- Let op**: Stel je portfolio op in een privéomgeving, zonder camera's of toeschouwers.
+- **Let op**: Stel je portfolio op in een privéomgeving, zonder camera's of toeschouwers.
 - Klik in het beginscherm op "Aan de slag" :
 
 
@@ -360,7 +360,7 @@ Vergrendel de toegang tot de applicatie met een sterke PIN-code:
 
 
 
-- Opties** :
+- **Opties**:
     - (1) "Bitcoin": klik om een onchain of Liquid zending te selecteren en kies het goed.
     - (2) Klik op de pijlen om een andere nieuwe Address te selecteren die is gekoppeld aan deze seed zin.
     - (3) U kunt ook een Address kiezen uit de reeds gebruikte/getoonde adressen, door te klikken op de drie puntjes rechtsboven en dan op "Lijst van adressen"
@@ -376,7 +376,7 @@ Vergrendel de toegang tot de applicatie met een sterke PIN-code:
 
 
 - Deel de Address/URI door op "**Share**" te klikken, de tekst te kopiëren of de QR-code te scannen.
-- Verificatie**: Controleer de Address die met de ontvanger is gedeeld zo goed mogelijk om fouten of aanvallen te voorkomen (bijv. malware die het klembord wijzigt).
+- **Verificatie**: Controleer de Address die met de ontvanger is gedeeld zo goed mogelijk om fouten of aanvallen te voorkomen (bijv. malware die het klembord wijzigt).
 
 
 
@@ -396,7 +396,7 @@ Vergrendel de toegang tot de applicatie met een sterke PIN-code:
 
 
 
-- Vul gegevens in** :
+- **Vul gegevens in**:
     - (1) Voer de **Address van de ontvanger** in door deze op te plakken of een QR-code te scannen.
     - (2) Controleer de activa en de rekening waarvan het geld wordt verstuurd.
     - (3) Geef het **bedrag** aan dat moet worden verzonden. Je kunt de eenheid kiezen: BTC, satoshis, USD, ...
@@ -420,7 +420,7 @@ Het minimumbedrag (dush-limiet) op 03/08/2025 is 546 Sats.
 
 
 
-- Check** :
+- **Check**:
     - Controleer de Address, het bedrag en de kosten op het overzichtsscherm.
     - Een Address fout kan leiden tot onomkeerbaar verlies van geld. Pas op voor malware die het klembord wijzigt.
 
@@ -432,8 +432,8 @@ Het minimumbedrag (dush-limiet) op 03/08/2025 is 546 Sats.
 
 
 
-- Bevestiging**: Schuif op de knop "Verzenden" om de transactie te ondertekenen en te distribueren.
-- Follow-up**: In het tabblad "Transactie" van Wallet verschijnt de transactie als "in behandeling" tot de bevestiging (1 tot 6 bevestigingen):
+- **Bevestiging**: Schuif op de knop "Verzenden" om de transactie te ondertekenen en te distribueren.
+- **Follow-up**: In het tabblad "Transactie" van Wallet verschijnt de transactie als "in behandeling" tot de bevestiging (1 tot 6 bevestigingen):
 
 
 
@@ -502,7 +502,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Woordenlijst](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Woordenlijst](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -517,7 +517,7 @@ Volg deze aanbevelingen om **Blockstream App** veilig en efficiënt te gebruiken
 
 
 
-- Beveilig je herstelzin** :
+- **Beveilig je herstelzin**:
  - Handleiding: Uw Mnemonic zin opslaan
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Gebruik beveiligde verificatie** :
+- Gebruik **beveiligde verificatie**:
  - Activeer een **sterke PIN** of **biometrische verificatie** (vingerafdruk of gezichtsherkenning) om de toegang tot de applicatie te beveiligen.
  - Deel nooit uw PIN- of biometrische gegevens.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Bescherm uw privacy** :
+- **Bescherm uw privacy** :
  - generate een nieuwe Address voor elke onchain of Liquid ontvangst om traceren op de Blockchain te beperken.
  - Activeer de functies "Verbeterde privacy", "Tor" en "SPV".
  - Voor maximale vertrouwelijkheid verbindt u uw Wallet met uw eigen Bitcoin knooppunt via een Electrum server in plaats van het openbare knooppunt te gebruiken
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Kies het netwerk dat het beste bij uw behoeften past** :
- - Onchain**: Voorkeur voor langetermijnbewaring of transacties met een grote waarde (kosten te verwaarlozen in verhouding tot het bedrag).
- - Liquid**: Gebruik voor snelle, goedkope overdrachten met verbeterde vertrouwelijkheid.
- - Lightning**: Kies voor directe, goedkope overschrijvingen voor kleine bedragen.
+- **Kies het netwerk dat het beste bij uw behoeften past**:
+- **Onchain**: Voorkeur voor langetermijnbewaring of transacties met een grote waarde (kosten te verwaarlozen in verhouding tot het bedrag).
+- **Liquid**: Gebruik voor snelle, goedkope overdrachten met verbeterde vertrouwelijkheid.
+- **Lightning**: Kies voor directe, goedkope overschrijvingen voor kleine bedragen.
 
 
 
 
 
-- Controleer altijd de verzendadressen** :
+- Controleer altijd de **verzendadressen**:
  - Controleer de Address zorgvuldig voordat je geld verstuurt. Geld dat naar de verkeerde Address wordt gestuurd, is voor altijd verloren. Gebruik kopiëren/plakken of QR-code scannen, kopieer/wijzig nooit een Address met de hand.
 
 
 
 
 
-- Kosten optimaliseren** :
+- **Kosten optimaliseren**:
  - Kies voor onchain transacties de juiste tarieven (langzaam, gemiddeld, snel) op basis van urgentie en netwerkcongestie.
  - Gebruik Liquid of Lightning voor kleine hoeveelheden.
 
@@ -581,16 +581,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Officiële links:**
- - [Officiële website](https://blockstream.com/)**
- - [Ondersteuning voor de mobiele toepassing](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : documentatie en chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Officiële links:**
+- [Officiële website](https://blockstream.com/)
+- [Ondersteuning voor de mobiele toepassing](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): documentatie en chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Blokverkenners :**
+- **Blokverkenners:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Bliksem: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Leren en tutorials:** **[Plan ₿ Network](https://planb.network/)** :
+- **Leren en tutorials:** **[Plan ₿ Network](https://planb.network/)**:
  - Je herstelzin beveiligen
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Woordenlijst](https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Woordenlijst](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Woordenlijst](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Woordenlijst](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

@@ -27,25 +27,25 @@ PureOS é um sistema operativo baseado em Debian desenvolvido pela Purism. O Pur
 
 
 
-- Interface** simples e intuitivo: O GNOME oferece um ambiente de trabalho Interface claro, concebido para ser fácil de utilizar, mesmo para pessoas que não se sentem confortáveis com a linha de comandos.
+- **Interface simples e intuitivo**: O GNOME oferece um ambiente de trabalho claro, concebido para ser fácil de utilizar, mesmo para pessoas que não se sentem confortáveis com a linha de comandos.
 
 
 
 
 
-- Gratuito**: tal como a maioria das distribuições Linux, o PureOS é de utilização totalmente gratuita. No entanto, está disponível uma subscrição mensal para apoiar os programadores.
+- **Gratuito**: tal como a maioria das distribuições Linux, o PureOS é de utilização totalmente gratuita. No entanto, está disponível uma subscrição mensal para apoiar os programadores.
 
 
 
 
 
-- Segurança e estabilidade**: A arquitetura e o modo de funcionamento do PureOS fazem dele uma distribuição altamente segura, garantindo a proteção dos dados e a estabilidade do sistema.
+- **Segurança e estabilidade**: A arquitetura e o modo de funcionamento do PureOS fazem dele uma distribuição altamente segura, garantindo a proteção dos dados e a estabilidade do sistema.
 
 
 
 
 
-- Documentação e comunidade ativa**: O PureOS tem uma documentação clara e acessível e uma comunidade empenhada e recetiva, facilitando a resolução de problemas e a aprendizagem do sistema passo a passo.
+- **Documentação e comunidade ativa**: O PureOS tem uma documentação clara e acessível e uma comunidade empenhada e recetiva, facilitando a resolução de problemas e a aprendizagem do sistema passo a passo.
 
 
 
@@ -181,7 +181,7 @@ Existem duas opções para particionar o disco Hard:
 
 
 
-- Apagar disco**: Para uma instalação completa do PureOS, eliminando todos os dados pré-existentes no seu disco Hard.
+- **Apagar disco**: Para uma instalação completa do PureOS, eliminando todos os dados pré-existentes no seu disco Hard.
 
 
 
@@ -191,7 +191,7 @@ Existem duas opções para particionar o disco Hard:
 
 
 
-- Particionamento manual** para criar as suas próprias partituras
+- **Particionamento manual** para criar as suas próprias partituras
 
 
 
@@ -260,7 +260,7 @@ Antes de começar a utilizar o PureOS, é essencial atualizar o seu sistema. Ist
 
 
 
-- Atualização através do gráfico Interface** :
+- Atualização através do gráfico **Interface**:
 
 
 Abra a aplicação **Software** e, em seguida, aceda ao separador **Atualizações**. As actualizações disponíveis são automaticamente apresentadas. Clique em **Download** e, em seguida, em **Instalar** quando o download estiver concluído.
@@ -269,7 +269,7 @@ Abra a aplicação **Software** e, em seguida, aceda ao separador **Atualizaçõ
 
 
 
-- Atualização através do terminal** :
+- **Atualização através do terminal**:
 
 
 Abra o terminal e introduza o seguinte comando para atualizar a lista de pacotes disponíveis:
@@ -282,7 +282,7 @@ sudo apt update
 
 
 
-Introduza a sua palavra-passe e confirme. Em seguida, instale as actualizações com :
+Introduza a sua palavra-passe e confirme. Em seguida, instale as actualizações com:
 
 
 
@@ -325,15 +325,15 @@ As aplicações PureOS foram concebidas para serem adaptativas: ajustam-se autom
 
 
 
-O PureOS também inclui a suite de escritório **LibreOffice**, que inclui :
+O PureOS também inclui a suite de escritório **LibreOffice**, que inclui:
 
 
 
 
 
-- Writer**: um processador de texto completo para criar e editar documentos.
-- Calc**: um poderoso programa de folha de cálculo para gerir os seus dados e cálculos.
-- Impress**: uma ferramenta para criar apresentações profissionais.
+- **Writer**: um processador de texto completo para criar e editar documentos.
+- **Calc**: um poderoso programa de folha de cálculo para gerir os seus dados e cálculos.
+- **Impress**: uma ferramenta para criar apresentações profissionais.
 
 
 

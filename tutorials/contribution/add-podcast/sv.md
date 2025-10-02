@@ -80,24 +80,24 @@ Här är de uppgifter som ska fyllas i för varje fält:
 
 
 
-- `namn`**: Ange namnet på din podcast.
-- `host`**: Lista namnen eller pseudonymerna på podcastens talare eller värd. Varje namn ska separeras med ett kommatecken.
-- `språk`**: Ange språkkoden för det språk som talas i din podcast. Till exempel, för engelska, notera `en`, för italienska `it`...
+- **`namn`**: Ange namnet på din podcast.
+- **`host`**: Lista namnen eller pseudonymerna på podcastens talare eller värd. Varje namn ska separeras med ett kommatecken.
+- **`språk`**: Ange språkkoden för det språk som talas i din podcast. Till exempel, för engelska, notera `en`, för italienska `it`...
 
 
 
-- `länkar`**: Tillhandahåller länkar till ditt innehåll. Du har två alternativ:
+- **`länkar`**: Tillhandahåller länkar till ditt innehåll. Du har två alternativ:
  - `podcast`: länken till din podcast,
  - `twitter`: länken till Twitter-profilen för podcasten eller den organisation som producerar den,
  - `webbplats`: länken till webbplatsen för podcasten eller den organisation som producerar den.
 
 
 
-- `Beskrivning`**: Lägg till ett kort stycke som beskriver din podcast. Beskrivningen måste vara på samma språk som anges i fältet `language:`.
+- `Beskrivning`: Lägg till ett kort stycke som beskriver din podcast. Beskrivningen måste vara på samma språk som anges i fältet `language:`.
 
 
 
-- `taggar`**: Lägg till två taggar som är kopplade till din podcast. Exempel:
+- `taggar`**: Lägg till två taggar som är kopplade till din podcast. Exempel:**
     - `Bitcoin`
     - teknik
     - ekonomi
@@ -105,7 +105,7 @@ Här är de uppgifter som ska fyllas i för varje fält:
 
 
 
-- bidragsgivare**: Ange ditt bidragsgivar-ID om du har ett sådant.
+- **bidragsgivare**: Ange ditt bidragsgivar-ID om du har ett sådant.
 
 
 Din YAML-fil kan till exempel se ut så här:

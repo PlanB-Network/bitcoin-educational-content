@@ -1,0 +1,8 @@
+question: BTCMap ni iki?
+answer: Urubuga rufise urutonde rw'abacuruzi bose bemera Bitcoin.
+wrong_answers:
+  - Ikarata y’amamine yose ya Bitcoin kw’isi yose.
+  - Ikarata y’ibibanza vyose vy’ubudandaji vya Bitcoin kw’isi yose.
+  - Ikarata y’abakoresha Bitcoin bose kw’isi yose.
+explanation: >-
+reviewed: true

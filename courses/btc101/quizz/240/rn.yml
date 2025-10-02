@@ -1,0 +1,8 @@
+question: Ni kimwe mu bibazo nyamukuru vyavyuwe ku bijanye n’akazoza k’ivy’ubutunzi ni ikihe?
+answer: Ni nde akwiye gufata, kwemerera no gukurikirana amahera dukoresha?
+wrong_answers:
+  - None twokuraho gute amahera burundu?
+  - None twomenya gute ko bose bafise amahera angana?
+  - None twotuma gute amahera adakoreshwa?
+explanation: >-
+reviewed: true

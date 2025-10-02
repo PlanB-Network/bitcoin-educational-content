@@ -1,5 +1,5 @@
 ---
-name: Snelheid Wallet - PoS
+name: Speed Wallet - POS
 description: Integreer eenvoudig Bitcoin en stablecoin betalingen in uw bedrijf
 ---
 ![cover](assets/cover.webp)
@@ -22,31 +22,31 @@ De wereldwijde adoptie van Bitcoin is gebaseerd op tastbare gebruikssituaties in
 
 
 
-Speed heeft een groot aantal functies voor de financiële aspecten van je bedrijf. Je vindt :
+Speed heeft een groot aantal functies voor de financiële aspecten van je bedrijf. Je vindt:
 
 
 
 
 
-- Online betalingsconfiguratie**: Ontvang betalingen van je klanten waar ze ook zijn, dankzij je website.
+- **Online betalingsconfiguratie**: Ontvang betalingen van je klanten waar ze ook zijn, dankzij je website.
 
 
 
 
 
-- Betalingen ter plaatse**: Ideaal voor winkels en bedrijven die contant geld innen in de winkel.
+- **Betalingen ter plaatse**: Ideaal voor winkels en bedrijven die contant geld innen in de winkel.
 
 
 
 
 
-- Geldopnames**: Neem je tegoeden probleemloos op en gebruik je bitcoins om je klanten en salarissen terug te betalen.
+- **Geldopnames**: Neem je tegoeden probleemloos op en gebruik je bitcoins om je klanten en salarissen terug te betalen.
 
 
 
 
 
-- Verbinding met andere platforms**: Gebruik je externe tools om je betalingen te beheren? Speed biedt je de mogelijkheid om ze te koppelen aan zijn platform, voor een alles-in-één ecosysteem dat jouw bedrijf weerspiegelt.
+- **Verbinding met andere platforms**: Gebruik je externe tools om je betalingen te beheren? Speed biedt je de mogelijkheid om ze te koppelen aan zijn platform, voor een alles-in-één ecosysteem dat jouw bedrijf weerspiegelt.
 
 
 
@@ -94,7 +94,7 @@ Wanneer u de testmodus deactiveert, moet u uw Wallet opnemen configureren.
 
 
 
-Als je nog geen Bitcoin en/of Lightning Wallet hebt, raden we je aan onze [mobiele portemonnees] tutorials te bekijken (https://planb.network/tutorials/Wallet).
+Als je nog geen Bitcoin en/of Lightning Wallet hebt, raden we je aan onze [mobiele portemonnees] tutorials te bekijken (https://planb.network/tutorials/wallet).
 
 
 
@@ -265,13 +265,13 @@ In het menu **Betalingen verzenden** vind je alle opties die speed te bieden hee
 
 
 
-- Directe betalingen**: Met de Instant Send optie kun je veilig en direct bitcoins versturen vanaf je zakelijke account.
+- **Directe betalingen**: Met de Instant Send optie kun je veilig en direct bitcoins versturen vanaf je zakelijke account.
 
 
 
 
 
-- generate opnamelinks** waarmee je partners en leveranciers hun betaling op een later tijdstip kunnen inzien zonder dat je online aanwezig hoeft te zijn.
+- generate **opnamelinks** waarmee je partners en leveranciers hun betaling op een later tijdstip kunnen inzien zonder dat je online aanwezig hoeft te zijn.
 
 
 
@@ -289,7 +289,7 @@ Maak in de optie **Opnamekoppelingen** een nieuwe opnamekoppeling en configureer
 
 
 
-- Uitbetalingen**: In het menu Uitbetalingen kun je opnames initiëren van je Speed Business-saldo naar je persoonlijke Wallet.
+- **Uitbetalingen**: In het menu Uitbetalingen kun je opnames initiëren van je Speed Business-saldo naar je persoonlijke Wallet.
 
 
 
@@ -299,7 +299,7 @@ Maak in de optie **Opnamekoppelingen** een nieuwe opnamekoppeling en configureer
 
 
 
-- Kortingen**: Moedig je vaste klanten aan door kortingsopties in te stellen om bonussen te verdienen.
+- **Kortingen**: Moedig je vaste klanten aan door kortingsopties in te stellen om bonussen te verdienen.
 
 
 

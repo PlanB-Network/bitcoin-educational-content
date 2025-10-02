@@ -17,10 +17,10 @@ Arch Linux è una distribuzione rinomata per la sua robustezza, le sue prestazio
 
 
 
-- Libero e open source**: Come la maggior parte delle distribuzioni Linux, Arch Linux è totalmente gratuito. Non ci sono costi di licenza, il che la rende una scelta eccellente per studenti, freelance o appassionati.
-- Filosofia KISS**: Arch è stato progettato per essere semplice, leggero ed efficiente. Fornisce solo l'essenziale, consentendo di costruire il proprio ambiente à la carte.
-- Gestore di pacchetti Pacman**: Pacman è un gestore di pacchetti veloce, affidabile e ben progettato. Consente un'installazione e un aggiornamento efficienti del software e gestisce le dipendenze con precisione.
-- Documentazione completa e una comunità attiva**: il [Arch Wiki](https://wiki.archlinux.org) è probabilmente una delle migliori documentazioni tecniche del mondo Linux. È una miniera d'oro per capire cosa si sta facendo. La comunità, composta per lo più da profili esperti, è molto attiva e può aiutarvi se vi bloccate, a patto che abbiate fatto un po' di ricerca in precedenza.
+- **Libero e open source**: Come la maggior parte delle distribuzioni Linux, Arch Linux è totalmente gratuito. Non ci sono costi di licenza, il che la rende una scelta eccellente per studenti, freelance o appassionati.
+- **Filosofia KISS**: Arch è stato progettato per essere semplice, leggero ed efficiente. Fornisce solo l'essenziale, consentendo di costruire il proprio ambiente à la carte.
+- **Gestore di pacchetti Pacman**: Pacman è un gestore di pacchetti veloce, affidabile e ben progettato. Consente un'installazione e un aggiornamento efficienti del software e gestisce le dipendenze con precisione.
+- **Documentazione completa e una comunità attiva**: il [Arch Wiki](https://wiki.archlinux.org) è probabilmente una delle migliori documentazioni tecniche del mondo Linux. È una miniera d'oro per capire cosa si sta facendo. La comunità, composta per lo più da profili esperti, è molto attiva e può aiutarvi se vi bloccate, a patto che abbiate fatto un po' di ricerca in precedenza.
 
 
 
@@ -39,7 +39,7 @@ Materiali necessari:
 
 
 - Una chiave USB di almeno **8 GB**
-- 2 GB** di RAM minimo
+- **2 GB** di RAM minimo
 - Un computer con almeno 20 GB di spazio libero su disco
 
 
@@ -66,7 +66,7 @@ Dal 2017, Arch Linux non supporta più le architetture a 32 bit. Sono disponibil
 
 
 
-Per creare una chiavetta USB avviabile, è possibile utilizzare uno strumento come **Balena Etcher** :
+Per creare una chiavetta USB avviabile, è possibile utilizzare uno strumento come **Balena Etcher**:
 
 
 
@@ -124,7 +124,7 @@ Nella schermata di avvio, scegliere la prima opzione per avviare l'installazione
 
 
 
-È possibile visualizzare i layout disponibili con :
+È possibile visualizzare i layout disponibili con:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Quindi caricare un layout con :
+Quindi caricare un layout con:
 
 
 
@@ -166,7 +166,7 @@ Arch Linux utilizza lo strumento `timedatectl` per gestire l'orologio di sistema
 
 
 
-- Impostare il fuso orario con :
+- Impostare il fuso orario con:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Verificare che la sincronizzazione automatica sia attivata con :
+- Verificare che la sincronizzazione automatica sia attivata con:
 
 
 ```shell
@@ -208,7 +208,7 @@ Questo attiva l'NTP, il protocollo per la sincronizzazione automatica con i serv
 
 
 
-- Verificare se il sistema si avvia in **UEFI** o **BIOS** con :
+- Verificare se il sistema si avvia in **UEFI** o **BIOS** con:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Avviare Partition Manager :
+- Avviare Partition Manager:
 
 
 
@@ -261,7 +261,7 @@ Scegliere **GPT** se si è in UEFI, **DOS** se si è in BIOS.
 
 
 
-- In modalità UEFI**
+- In modalità **UEFI**
 
 
 
@@ -294,7 +294,7 @@ Selezionare **Scrittura**, digitare **Sì**, quindi **Esci**.
 
 
 
-- UEFI** :
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- **BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Montare la partizione **root**:
 
 
 
-- Nel BIOS :
+- Nel BIOS:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- su UEFI :
+- su UEFI:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Installare un editor di testo per modificare i file :
+- Installare un editor di testo per modificare i file:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- Impostare la lingua :
+- Impostare la lingua:
 
 
 Modificare `/etc/locale.gen` e decommentare la riga `en_US.UTF-8 UTF-8`
@@ -423,7 +423,7 @@ Modificare `/etc/locale.gen` e decommentare la riga `en_US.UTF-8 UTF-8`
 
 
 
-- Impostare il nome della macchina :
+- Impostare il nome della macchina:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Impostare la password di root :
+- Impostare la password di root:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Installare l'interfaccia :
+Installare l'interfaccia:
 
 
 
@@ -472,7 +472,7 @@ Una volta scaricato, è necessario installarlo in base al formato della partizio
 
 
 
-- Per **BIOS** :
+- Per **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- Per **UEFI** :
+- Per **UEFI**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Riavvio :
+- Riavvio:
 
 
 ```shell
@@ -551,7 +551,7 @@ All'avvio, accedere con il login e la password di **root**.
 
 
 
-Può accadere che al riavvio non sia attiva alcuna connessione di rete. È possibile elencare le interfacce con :
+Può accadere che al riavvio non sia attiva alcuna connessione di rete. È possibile elencare le interfacce con:
 
 
 
@@ -581,7 +581,7 @@ EOF
 
 
 
-Per impostazione predefinita, **Arch Linux** non contiene alcuna Interface grafica. Per aggiungerne uno :
+Per impostazione predefinita, **Arch Linux** non contiene alcuna Interface grafica. Per aggiungerne uno:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Attivare il **gestore di sessione** :
+Attivare il **gestore di sessione**:
 
 
 
@@ -652,7 +652,7 @@ Una volta entrati in **Interface GNOME**, è necessario creare un nuovo utente p
 
 
 
-- Aggiungere un utente :
+- Aggiungere un utente:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Installare **sudo** :
+- Installare **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Quindi decommentare la riga :
+- Quindi decommentare la riga:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Ad esempio, per installare l'editor di testo **nano**, si può digitare :
+Ad esempio, per installare l'editor di testo **nano**, si può digitare:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-Per installare un browser web leggero come `firefox`, utilizzare :
+Per installare un browser web leggero come `firefox`, utilizzare:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Infine, se si vogliono aggiungere strumenti di rete essenziali come `net-tools`, il comando sarà :
+Infine, se si vogliono aggiungere strumenti di rete essenziali come `net-tools`, il comando sarà:
 
 
 

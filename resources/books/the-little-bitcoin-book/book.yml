@@ -1,23 +1,19 @@
-id: 10d7a78f-b293-436b-bede-2cfc06a4b579
-author: Timi Ajiboye, Luis Buenaventura, Alex Gladstein, Lily Liu, Alexander Lloyd, Alejandro Machado, Jimmy Song, Alena Vranova
+id: 51bfbbc4-cb74-4039-a002-ad2cdb43cd4a
+author: Alena Vranova, Jimmy Song, Luis Buenaventura, Alejandro Machado, Timi Ajiboye, Alexander Lloyd, Alex Gladstein
 level: beginner
+tags:
+  - finance
+  - adoption
+  - easy-explain
+
+# Proofreading metadata
 original_language: en
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.22
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.19
   - language: en
-    last_contribution_date: 2024-09-01
+    last_contribution_date: 2025-09-10
     urgency: 1
     contributor_names:
-      - Asi0Flammeus
+      - PaoloFoti
     reward: 0.09
   - language: es
     last_contribution_date:
@@ -114,9 +110,13 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.19
-tags:
-  - user-friendly
-  - high-level
-  - easy-explain
-contributor_names:
-  - Rogzy-DB
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.22
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.25

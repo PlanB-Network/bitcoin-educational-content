@@ -1,0 +1,9 @@
+question: 사이버 보안 분야에서 전 세계적으로 인정받는 인증에는 어떤 것이 있나요?
+answer: CISSP
+wrong_answers:
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  CISSP 자격증은 사이버 보안 분야에서 가장 국제적으로 인정받는 자격증 중 하나입니다.
+reviewed: false

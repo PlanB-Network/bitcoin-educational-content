@@ -17,13 +17,13 @@ Te olete juba:
 Selles õpetuses näeme, kuidas lisada oma õpetus Plan ₿ võrgustikku, luues oma lokaalse keskkonna GitHubi töölaua abil. Kui te juba oskate Git'i, ei pruugi see väga üksikasjalik õpetus teile vajalik olla. Ma soovitan pigem tutvuda selle teise õpetusega, kus ma esitan ainult peamised suunised, ilma üksikasjalike samm-sammuliste juhenditeta:
 
 
-- Kogenud kasutajad**:
+- **Kogenud kasutajad**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Kui te ei soovi oma lokaalset keskkonda luua, järgige seda teist, algajatele mõeldud õpetust, kus me teeme muudatused otse GitHubi veebiliidese kaudu:
 
 
-- Algajad (veebiliides)**:
+- **Algajad (veebiliides)**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Eeltingimused
@@ -249,32 +249,32 @@ proofreading:
 
 Siin on kohustuslikud väljad:
 
-- **id** : UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
+- **id**: UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
 
-- **project_id** : Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
+- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
 
-- **tags** : 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Õpetuse sisule vastav alamosa Plan ₿ Networki saidi struktuuri järgi (näiteks rahakottide jaoks: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Õpetuse sisule vastav alamosa Plan ₿ Networki saidi struktuuri järgi (näiteks rahakottide jaoks: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Õpetuse raskusaste, valitud järgmistest tasemetest:
+- **level**: Õpetuse raskusaste, valitud järgmistest tasemetest:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Õpetuse algne keel (näiteks `fr`, `en`, jne);
+- **original_language**: Õpetuse algne keel (näiteks `fr`, `en`, jne);
 
-- **proofreading** : Teave korrektuuriprotsessi kohta. Täitke esimene osa, kuna oma õpetuse korrektuur loetakse esimeseks valideerimiseks:
-    - **language** : Keelekood korrektuuri jaoks (näiteks `fr`, `en`, jne).
-    - **last_contribution_date** : Käesoleva päeva kuupäev.
-    - **urgency** : 1
-    - **contributor_names** : Teie GitHub ID.
-    - **reward** : 0
+- **proofreading**: Teave korrektuuriprotsessi kohta. Täitke esimene osa, kuna oma õpetuse korrektuur loetakse esimeseks valideerimiseks:
+    - **language**: Keelekood korrektuuri jaoks (näiteks `fr`, `en`, jne).
+    - **last_contribution_date**: Käesoleva päeva kuupäev.
+    - **urgency**: 1
+    - **contributor_names**: Teie GitHub ID.
+    - **reward**: 0
 
-Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist :
+Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -383,8 +383,8 @@ Hüüumärk alguses näitab, et tegemist on pildiga. Alternatiivne tekst, mis ai
 Kui soovite luua oma diagrammid, järgige kindlasti Plan ₿ Network'i graafilist põhikirja, et tagada visuaalne järjepidevus:
 
 
-- Font**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Värvid**:
+- **Font**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Värvid**:
  - Oranž: #FF5C00
  - Must: #000000
  - Valge: #FFFFFF
@@ -448,5 +448,4 @@ Kui soovite oma panust muuta pärast seda, kui olete oma PR-i juba esitanud, sõ
 - Kui teie PR on juba ühendatud põhiharuga, peate alustama protsessi uuesti, luues uue haru ja esitades seejärel uue PR-i. Veenduge, et teie kohalik repositoorium on enne jätkamist sünkroniseeritud Plan ₿ võrgu lähtekoodide repositooriumiga.
 
 Kui teil tekib tehnilisi raskusi oma õpetuse esitamisel, siis ärge kartke abi küsida [meie spetsiaalses Telegram-grupis](https://t.me/PlanBNetwork_ContentBuilder). Aitäh!
-
 

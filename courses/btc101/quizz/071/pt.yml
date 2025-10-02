@@ -1,12 +1,12 @@
-question: Em que ano ocorrerá o 7º halving?
-answer: 2036
+question: Qual destas opções é falsa sobre perder o dispositivo no qual você tem sua carteira Bitcoin?
+answer: Você pode recriar sua carteira e gastar seus bitcoins redefinindo sua senha.
 wrong_answers:
-  - 2032
-  - 2028
-  - 2048
+  - Você perde todos os seus Bitcoins se não tiver a frase mnemônica.
+  - Você pode verificar com suas chaves públicas que seus bitcoins não foram gastos.
+  - Você pode recriar sua carteira e gastar seus bitcoins usando a frase mnemônica.
 explanation: |
-  O 7º halving deve acontecer em 2036, e o número estimado
-  de bitcoins em circulação será de 20.835.937,5,
-  o que corresponderá aproximadamente a 99,22% do total
-  da oferta.
+  Perder o dispositivo no qual você tem sua carteira não significa
+  necessariamente a perda dos seus Bitcoins. O que permite
+  recriar sua carteira e gastar seus bitcoins é a
+  frase mnemônica.
 reviewed: true

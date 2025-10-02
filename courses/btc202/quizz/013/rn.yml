@@ -1,0 +1,9 @@
+question: Ni ibikoresho vy’ubwoko ubuhe bikoreshwa muri iki gihe kugira ngo umuntu acukure neza Bitcoin?
+answer: ASIC.
+wrong_answers:
+  - CPU ya kera
+  - GPU
+  - FPGA
+explanation: |
+  Ubu, Bitcoin Mining ikoreshwa hakoreshejwe ama ASIC. Ivyo ni ibice vy’ubuhinga bwihariye vy’ubuhinga bwa SHA-256.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Bitcoin 프로토콜의 주요 특징 중 하나는 무엇인가요?
+answer: 모든 사용자에 대해 중립적입니다.
+wrong_answers:
+  - 특정 사용자를 다른 사용자보다 선호합니다.
+  - 특정 사용자에게 편향되어 있습니다.
+  - 일부 사용자 그룹에게만 혜택이 제공됩니다.
+explanation: >-
+reviewed: true

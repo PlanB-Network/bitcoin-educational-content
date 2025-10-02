@@ -15,7 +15,7 @@ Sistem operasi (OS) adalah perangkat lunak utama yang mengelola semua sumber day
 - **Komunitas yang besar**: Komunitas pengguna yang siap membantu melalui forum dan tutorial
 - **Menghargai privasi**: Sistem open source untuk transparansi yang lebih baik
 - **Kesederhanaan**: tampilan yang ramah pengguna dan mudah digunakan
-- **Ekosistem yang kaya** : Katalog perangkat lunak open source yang luas
+- **Ekosistem yang kaya**: Katalog perangkat lunak open source yang luas
 - **Dukungan reguler**: Pembaruan yang aman dari Canonical
 
 ## Instalasi dan konfigurasi
@@ -38,7 +38,7 @@ Sistem operasi (OS) adalah perangkat lunak utama yang mengelola semua sumber day
 
 ### 3. Membuat Flash Drive USB yang dapat di-boot
 
-Anda dapat menggunakan beberapa alat bantu, seperti Balena Etcher :
+Anda dapat menggunakan beberapa alat bantu, seperti Balena Etcher:
 
 - Unduh dan instal [Balena Etcher](https://etcher.balena.io/)
 
@@ -148,7 +148,7 @@ sudo apt update
 ```
 
 - Masukkan kata sandi Anda saat diminta
-- Untuk menginstal pembaruan, ketik :
+- Untuk menginstal pembaruan, ketik:
 
 ```bash
 sudo apt upgrade
@@ -177,7 +177,7 @@ Anda dapat membuat, mengedit, dan menyimpan dokumen dalam berbagai format (terma
 
 Manajer perangkat lunak (disebut "Perangkat Lunak Ubunt / Ubuntu Software"): tampilan grafis untuk mencari dan menginstal aplikasi.
 
-Dari Terminal, gunakan perintah :
+Dari Terminal, gunakan perintah:
 
 ```bash
 sudo apt install nom-du-paquet

@@ -30,7 +30,7 @@ pfSense är ett kostnadsfritt operativsystem med öppen källkod som förvandlar
 
 
 
-Dess huvudfunktioner har utvecklats avsevärt under åren och har förbättrats med varje ny version. Hittills erbjuder pfSense :
+Dess huvudfunktioner har utvecklats avsevärt under åren och har förbättrats med varje ny version. Hittills erbjuder pfSense:
 
 
 
@@ -63,7 +63,7 @@ Slutligen är det värt att komma ihåg att pfSense kräver minst två fysiska n
 
 
 
-Den senaste stabila versionen av pfSense, vid tidpunkten för att skriva denna handledning, är 2.8 (släppt i juni 2025). Du kan ladda ner ISO-bilden eller installationsfilen som är anpassad till din hårdvarumiljö direkt från den officiella webbplatsen :
+Den senaste stabila versionen av pfSense, vid tidpunkten för att skriva denna handledning, är 2.8 (släppt i juni 2025). Du kan ladda ner ISO-bilden eller installationsfilen som är anpassad till din hårdvarumiljö direkt från den officiella webbplatsen:
 
 
 
@@ -73,7 +73,7 @@ Den senaste stabila versionen av pfSense, vid tidpunkten för att skriva denna h
 
 
 
-Nedladdningsportalen gör att du kan välja :
+Nedladdningsportalen gör att du kan välja:
 
 
 
@@ -105,15 +105,15 @@ I det här exemplet utförs installationen på en virtuell maskin som kör Virtu
 
 
 
-För en standarddistribution rekommenderar vi :
+För en standarddistribution rekommenderar vi:
 
 
 
 
 
-- minst 1 GB RAM** (2 GB eller mer rekommenderas för att aktivera ytterligare paket eller ZFS-stöd).
-- 8 GB diskutrymme** (20 GB eller mer är att föredra för mer avancerade konfigurationer, särskilt om du installerar en proxy-cache, IDS/IPS eller detaljerade loggar).
-- Minst två virtuella nätverksgränssnitt** (ett för WAN och ett för LAN). I VirtualBox lägger du till dem i VM-inställningarna före start.
+- minst 1 GB RAM (2 GB eller mer rekommenderas för att aktivera ytterligare paket eller ZFS-stöd).
+- 8 GB diskutrymme (20 GB eller mer är att föredra för mer avancerade konfigurationer, särskilt om du installerar en proxy-cache, IDS/IPS eller detaljerade loggar).
+- Minst två virtuella nätverksgränssnitt (ett för WAN och ett för LAN). I VirtualBox lägger du till dem i VM-inställningarna före start.
 
 
 
@@ -221,7 +221,7 @@ Den första frågan gäller konfigurationen av VLAN. I det här skedet, för en 
 
 
 
-pfSense uppmanar dig sedan att definiera vilken Interface som ska användas för WAN (Internetåtkomst). Du kan välja mellan :
+pfSense uppmanar dig sedan att definiera vilken Interface som ska användas för WAN (Internetåtkomst). Du kan välja mellan:
 
 
 
@@ -304,13 +304,13 @@ I din webbläsare går du till den Address som anges av konsolen (som standard `
 
 
 
-Inloggningsskärmen visas. Standardautentiseringsuppgifterna är :
+Inloggningsskärmen visas. Standardautentiseringsuppgifterna är:
 
 
 
 
-- Användarnamn:** `admin`
-- Lösenord:** `pfsense`
+- **Användarnamn:** `admin`
+- **Lösenord:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Vid första anslutningen uppmanar pfSense dig att följa dess **Setup Wizard**. 
 
 
 
-Du kan :
+Du kan:
 
 
 
@@ -352,7 +352,7 @@ Ange tidszonen för din webbplats så att loggar och scheman är konsekventa (t.
 
 
 
-Konfigurera WAN-anslutningen :
+Konfigurera WAN-anslutningen:
 
 
 
@@ -383,7 +383,7 @@ Säkra din pfSense genom att omedelbart ställa in ett starkt lösenord för anv
 
 
 
-Innan du installerar brandväggen ska du se till att du har den senaste versionen av :
+Innan du installerar brandväggen ska du se till att du har den senaste versionen av:
 
 
 
@@ -423,16 +423,16 @@ För verksamhetskritiska miljöer bör du överväga automatisk säkerhetskopier
 
 
 
-För att avsluta din utplacering med sinnesfrid :
+För att avsluta din utplacering med sinnesfrid:
 
 
 
 
 
-- Ändra brandväggsregler**: som standard tillåter pfSense all utgående trafik på LAN och blockerar inkommande trafik på WAN. Justera dessa regler efter behov.
-- Konfigurera säker fjärråtkomst**: om så krävs, aktivera åtkomst till Interface webb från WAN endast via VPN eller med IP-begränsningar.
-- Enable notifications**: konfigurera en SMTP-server för att ta emot aviseringar (fel, uppdateringar, fel).
-- Installera användbara tillägg**: t.ex. IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtrering (pfBlockerNG).
+- **Ändra brandväggsregler**: som standard tillåter pfSense all utgående trafik på LAN och blockerar inkommande trafik på WAN. Justera dessa regler efter behov.
+- **Konfigurera säker fjärråtkomst**: om så krävs, aktivera åtkomst till Interface webb från WAN endast via VPN eller med IP-begränsningar.
+- **Enable notifications**: konfigurera en SMTP-server för att ta emot aviseringar (fel, uppdateringar, fel).
+- Installera användbara tillägg: t.ex. IDS/IPS (Snort, Suricata), proxy (Squid), DNS-filtrering (pfBlockerNG).
 
 
 

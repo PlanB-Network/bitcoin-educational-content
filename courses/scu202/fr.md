@@ -984,7 +984,7 @@ Chaque dépôt est divisé en sections. Ubuntu active par défaut quatre section
 * **main** : les logiciels libres officiellement maintenus par Canonical. Exemples : Firefox, LibreOffice, bash...
 * **restricted** : les logiciels non libres, mais indispensables pour le bon fonctionnement matériel. Exemples : pilotes NVIDIA, firmware Wi-Fi, codecs propriétaires...
 * **universe** : les logiciels libres maintenus par la communauté. Exemples : GIMP, Inkscape, Audacity…
-* **multiverse** : les logiciels soumis à des restrictions légales (brevets, licences non libres). Leur disponibilité peut varier selon les pays. Exemples : certains codecs audio/vidéo, Steam…
+**multiverse** : les logiciels soumis à des restrictions légales (brevets, licences non libres). Leur disponibilité peut varier selon les pays. Exemples : certains codecs audio/vidéo, Steam…
 
 Chaque composant peut ensuite être décliné en plusieurs canaux ou pockets : `release`, `security`, `updates`, `backports`, etc., qui correspondent à la nature des mises à jour.
 
@@ -1495,6 +1495,8 @@ Thunderbird est le client de messagerie open source de référence, développé 
 ```bash
 sudo apt install thunderbird
 ```
+
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 #### Suite bureautique
 
@@ -2961,6 +2963,8 @@ Firefox est un navigateur open source, distribué sous licence MPL (*Mozilla Pub
 
 Firefox demeure une référence incontournable en matière de sécurité et de protection de la vie privée, malgré un léger retard technique sur certains aspects de performance face aux navigateurs basés sur Blink. Cela peut être un très bon navigateur, à condition de bien le paramétrer.
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+
 #### Tor Browser
 
 [Tor Browser](https://www.torproject.org/download/) est un navigateur basé sur Firefox ESR. Il constitue l’une des solutions les plus solides pour l’anonymat en ligne. Il redirige le trafic à travers le réseau Tor, et empêche donc toute corrélation directe entre l'utilisateur et la destination web.
@@ -3010,7 +3014,7 @@ D’un point de vue sécurité et vie privée, Zen intègre un blocage natif des
 
 Zen Browser est donc une alternative intéressante si vous êtes à la recherche d’un environnement de navigation Gecko à la fois libre, innovant, épuré et respectueux de votre vie privée.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Navigateurs basés sur WebKit
 
@@ -3035,6 +3039,8 @@ Orion se distingue de Safari par plusieurs éléments techniques :
 - Il intègre des fonctions intéressantes comme le mode *Focus* (navigation sans interface), le mode basse consommation, ou encore la gestion verticale des onglets.
 
 Orion est entièrement développé par l’équipe de Kagi (connue pour son moteur de recherche sans publicité). Son développement est financé uniquement par ses utilisateurs via l’offre *Orion+* qui donne accès à quelques avantages.
+
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 
 ### Navigateurs sans moteur de rendu
 
@@ -3107,11 +3113,11 @@ Pour atténuer ces risques, les éditeurs de navigateurs publient des mises à j
 
 Il est donc impératif :
 * d’activer les mises à jour automatiques de votre navigateur et de vérifier régulièrement à la main qu'aucune mise à jour n'est disponible ;
-* ou, si vous utilisez une version packagée manuellement (par exemple via `apt`, `flatpak` ou `snap` sous Linux), de mettre à jour régulièrement l’ensemble du système via votre gestionnaire de paquets.
+*ou, si vous utilisez une version packagée manuellement (par exemple via `apt`, `flatpak` ou `snap` sous Linux), de mettre à jour régulièrement l'ensemble du système via votre gestionnaire de paquets.*
 
 Pour vérifier manuellement la version et déclencher une mise à jour :
 * dans Firefox : `Menu > Settings > Firefox Updates` ;
-* en ligne de commande sous Linux (paquets `apt`) :
+**en ligne de commande sous Linux (paquets `apt`) :**
 
 ```bash
 sudo apt update && sudo apt upgrade firefox
@@ -3218,23 +3224,23 @@ Dans la majorité des cas, l’attaque consiste à imiter l’apparence d’un s
 
 Pour éviter ces attaques lors de votre navigation en ligne, il convient de respecter certains principes de base :
 
-* **Analysez l’URL** : les attaquants utilisent souvent des adresses très proches de l’originale (par exemple `micr0soft-support.com`, `paypal-verif.net`, etc.). Certains substituent des caractères visuellement similaires, en exploitant des alphabets Unicode. Vérifiez que l’adresse correspond exactement au site attendu, sans préfixe ou suffixe suspect.
+**Analysez l'URL** : les attaquants utilisent souvent des adresses très proches de l'originale (par exemple `micr0soft-support.com`, `paypal-verif.net`, etc.). Certains substituent des caractères visuellement similaires, en exploitant des alphabets Unicode. Vérifiez que l'adresse correspond exactement au site attendu, sans préfixe ou suffixe suspect.
 
-* **Évitez les liens raccourcis** : des services comme `bit.ly` ou `t.co` peuvent masquer l’adresse finale. Si vous recevez un lien raccourci, méfiez-vous ou utilisez un service d’expansion d’URL pour vérifier sa destination.
+**Évitez les liens raccourcis** : des services comme `bit.ly` ou `t.co` peuvent masquer l'adresse finale. Si vous recevez un lien raccourci, méfiez-vous ou utilisez un service d'expansion d'URL pour vérifier sa destination.
 
-* **Méfiez-vous des messages alarmistes** : les tentatives de phishing exploitent souvent des émotions fortes (urgence, menace, récompense, curiosité...). Un e-mail prétendant que votre compte va être bloqué ou qu’un colis ne peut être livré est suspect par nature.
+**Méfiez-vous des messages alarmistes** : les tentatives de phishing exploitent souvent des émotions fortes (urgence, menace, récompense, curiosité...). Un e-mail prétendant que votre compte va être bloqué ou qu'un colis ne peut être livré est suspect par nature.
 
-* **Ne transmettez jamais d'informations sensibles via un lien reçu** : Une institution légitime ne vous demandera jamais un mot de passe, un code d’authentification ou un scan de pièce d’identité via un simple e-mail ou SMS.
+**Ne transmettez jamais d'informations sensibles via un lien reçu** : Une institution légitime ne vous demandera jamais un mot de passe, un code d'authentification ou un scan de pièce d'identité via un simple e-mail ou SMS.
 
 Et voici également quelques mesures de prévention à mettre en place directement dans votre navigateur afin de réduire au maximum les risques de phishing :
 
-* **Accédez aux sites critiques via vos favoris** :
+**Accédez aux sites critiques via vos favoris** :
 
 Pour les services importants (banque, impôts, e-mail...), et plus largement pour tous les sites que vous utilisez de manière régulière, enregistrez l’URL officielle dans vos favoris et n’utilisez jamais un moteur de recherche ou un lien externe pour vous y rendre.
 
 Vous avez reçu un e-mail du service des impôts contenant un lien ? Ne cliquez pas dessus. Rendez-vous plutôt directement sur votre espace personnel en utilisant l’URL que vous avez enregistrée dans vos favoris. Aujourd’hui, tous les navigateurs modernes proposent une barre de favoris avec la possibilité d’organiser vos liens dans des dossiers. Prenez le temps de le faire une fois, en vérifiant soigneusement l’URL ainsi que le certificat SSL/TLS, et vous naviguerez ensuite en toute tranquillité.
 
-* **Respectez les bonnes pratiques liées à l'authentification** :
+**Respectez les bonnes pratiques liées à l'authentification** :
 
 Il est également essentiel de suivre les bonnes pratiques liées à l’authentification pour limiter l’impact potentiel d’une attaque par phishing. Les deux règles les plus importantes sont l’usage de mots de passe uniques pour chaque service et l’activation du 2FA.
 
@@ -3242,7 +3248,7 @@ Prenons un exemple : si un attaquant parvient à obtenir le mot de passe de votr
 
 En complément de ces mesures, l’utilisation d’un bon gestionnaire de mots de passe sous forme d’extension de navigateur peut également vous protéger contre les faux sites. En effet, la plupart de ces extensions détecteront une URL suspecte et refuseront d’auto-remplir vos identifiants, voire vous le signalerons, ce qui vous évitera ainsi de divulguer vos accès par inadvertance.
 
-* **Inspectez les certificats SSL/TLS** : 
+**Inspectez les certificats SSL/TLS** :
 
 La présence du cadenas dans la barre d’adresse indique une connexion chiffrée, mais ne garantit pas la légitimité du site. Cliquez dessus pour examiner le certificat (organisation, domaine, autorité de certification). Cela reste utile en cas de doute sur une URL.
 
@@ -3731,7 +3737,7 @@ Telegram est une messagerie très populaire grâce à son ergonomie et à ses fo
 
 Telegram peut ainsi accéder techniquement aux contenus de la majorité des conversations non protégées explicitement. Même si l'entreprise affiche une position ferme vis-à-vis des autorités gouvernementales, Telegram ne constitue pas une solution optimale pour les échanges confidentiels ou sensibles, sauf à utiliser explicitement ses "échanges secrets", nettement moins pratiques au quotidien.
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -3882,6 +3888,8 @@ K-9 Mail est un client mail open source Android, récemment intégré à l’éc
 Thunderbird Mobile est la version mobile du célèbre client de messagerie open source développé par la Mozilla Foundation. Fidèle à la philosophie du projet, l'application met l'accent sur la confidentialité, la transparence du code et l'absence de télémétrie intrusive. Thunderbird Mobile est basée sur l'application K-9 Mail, dont elle est le successeur officiel sur Android. Elle permet une gestion avancée des comptes IMAP et POP, le chiffrement des courriels (via OpenPGP), et dispose d'une interface sobre et efficace.
 
 ![Image](assets/fr/157.webp)
+
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 - [Tuta](https://tuta.com/)
 
@@ -4094,6 +4102,8 @@ Aegis est une application open source très complète. Elle chiffre votre base d
 
 Ente Auth est une solution moderne, open source, multiplateforme et dotée de sauvegardes chiffrées de bout en bout. Elle permet de synchroniser vos codes 2FA sur mobile, desktop et web de manière sécurisée. Vous pouvez également l’utiliser en mode hors ligne, sans sauvegarde cloud, ni création de compte.
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+
 Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation par tags, icônes personnalisées pour chaque service, notes, favoris, recherche intégrée, partage sécurisé de codes en équipe...
 
 ![Image](assets/fr/176.webp)
@@ -4103,6 +4113,8 @@ Ente Auth offre de nombreuses fonctionnalités supplémentaires : organisation p
 Authy propose la synchronisation 2FA sur plusieurs appareils, ce qui peut être pratique, mais l’application n’est pas open source et nécessite un numéro de téléphone à l’inscription. Elle reste toutefois plus complète que Google Authenticator pour les débutants, notamment grâce à sa fonction de sauvegarde cloud.
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
 Si vous souhaitez en savoir plus sur les gestionnaires de mots de passe, l'authentification 2FA et les VPN, je vous conseille de lire les chapitres dédiés dans la formation SCU 101 :
 
@@ -4348,6 +4360,8 @@ Disponible sur F-Droid et entièrement open source, Chrono propose une interface
 
 L'application intègre également un minuteur et un chronomètre, avec enregistrement des tours (laps), statistiques, comparaisons de temps, et une gestion multi-timers. Vous pouvez configurer plusieurs fuseaux horaires, personnaliser le thème (couleurs, styles, animations), et même organiser vos alarmes et minuteurs avec des étiquettes.
 
+Pour approfondir le sujet, je vous recommande de visiter le site [*Awesome Privacy*](https://awesome-privacy.xyz/), qui recense les meilleures alternatives respectueuses de la vie privée aux logiciels que vous utilisez au quotidien.
+
 ___
 
 ⚠️ ***Attention** : bien que les alternatives présentées dans ce chapitre soient majoritairement open source et orientées protection de la vie privée, elles ne sont pas sans limites ou sans risques. Certaines peuvent cesser d’être maintenues, comporter des vulnérabilités non corrigées, devenir propriétaires ou même, potentiellement, être des logiciels malveillants. Certaines peuvent également être illégales selon votre juridiction locale. J’ai rédigé ce chapitre en juin 2025, mais il est possible que la situation de ces applications ait évolué depuis.*
@@ -4528,11 +4542,19 @@ Il est important de privilégier un équipement moderne, maintenu par son fabric
 
 Un routeur compatible Wi-Fi 6, Wi-Fi 6E ou Wi-Fi 7 vous donnera des débits améliorés et surtout un support natif des technologies de sécurité modernes. À l’inverse, les équipements très anciens, notamment ceux qui ne reçoivent plus de mises à jour logicielles, peuvent comporter des vulnérabilités connues et non corrigées. Ils représentent donc un risque pour l’ensemble de votre réseau, même si vous les configurez correctement. Comparé aux téléphones portables ou aux ordinateurs, le routeur est un équipement que l’on a tendance à conserver pendant de nombreuses années. Pourtant, il peut être pertinent de le remplacer plus régulièrement, afin de bénéficier d’un modèle plus moderne et mieux sécurisé.
 
+**Attention** : En règle générale, les routeurs fournis par les fournisseurs d’accès à Internet peuvent être dépourvus de la fonction essentielle de mise à jour ainsi que des capacités de personnalisation. Dans certains cas, les fournisseurs peuvent également avoir un accès illimité au réseau interne de l’utilisateur final.
+
 Aussi, veillez à appliquer systématiquement les mises à jour du firmware de votre routeur. Ces mises à jour corrigent des failles, ajoutent de nouvelles fonctionnalités et renforcent la stabilité générale du système. Certains fabricants proposent une mise à jour automatique, mais dans certains cas, il faudra effectuer une vérification manuelle via l’interface d’administration du routeur. Tout comme pour votre téléphone, votre ordinateur, votre système d’exploitation ou vos logiciels, il est donc très important de mettre régulièrement à jour votre routeur. Vous pouvez d’ailleurs intégrer cette vérification dans une routine hebdomadaire, par exemple chaque dimanche, en dressant une liste de tous les éléments à contrôler et à maintenir à jour.
 
-Si votre routeur n’est plus maintenu mais fonctionne correctement d’un point de vue matériel, vous pouvez installer un firmware alternatif open source, comme :
+Vous pouvez également activer les mises à jour automatiques ou au moins le balayage automatique des nouvelles mises à jour du firmware si vous préférez agir manuellement. Bien que la fonction de mise à jour automatique puisse toujours représenter une menace pour la sécurité, ne pas mettre régulièrement à jour le firmware du routeur exposera votre réseau local à des vulnérabilités publiquement connues.
+
+**Exemple**: Lors de l'achat de votre propre routeur, il peut être judicieux de rechercher des entreprises établies dans le secteur qui fournissent des routeurs sur le marché depuis longtemps. Par exemple, les routeurs Fritz!Box ont une réputation de longue date en tant qu'appareils plug-and-play, bien adaptés à une utilisation en milieu familial comme en petite entreprise. Leur politique de mises à jour logicielles s'étend généralement sur plusieurs années.
+
+Si votre routeur n'est plus maintenu mais fonctionne toujours correctement du point de vue matériel, vous pourrez peut-être installer un firmware open-source alternatif, tel que:
 - **OpenWrt**, une distribution Linux spécialisée dans les routeurs, qui offre une grande flexibilité et des mises à jour régulières ;
 - **pfSense** et **OPNsense**, deux systèmes basés sur FreeBSD (type Unix) pour les pare-feux et routeurs x86.
+
+**Remarque** : Certains fournisseurs d'accès (ISP) fournissent à leurs clients des routeurs en gros fabriqués par une seule entreprise qui dessert simultanément de nombreux ISP différents dans le monde. Vous pouvez constater que, pour installer l'un des firmwares alternatifs sur le routeur, quelqu'un d'autre a peut‑être déjà découvert comment le faire, même s'il se trouve à l'autre bout du monde.
 
 ![Image](assets/fr/196.webp)
 
@@ -4659,6 +4681,8 @@ Concrètement, ce chiffrement DNS et changement de serveur peut être mis en pla
 
 ![Image](assets/fr/198.webp)
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+
 - Au niveau du système d’exploitation : certains OS intègrent nativement le support de DNS chiffré (DoT ou DoH), ce qui permet de sécuriser l’ensemble des requêtes DNS qui passent par la pile réseau du système. Cela ne sécurise donc pas l’ensemble de l’ordinateur ou du téléphone : les applications peuvent contourner ce paramétrage si elles sont configurées pour utiliser un autre résolveur DNS ou un protocole différent.
 
 - Au niveau du réseau : il est possible d'appliquer le chiffrement DNS à l’échelle de tout le réseau local via la configuration du routeur. Encore une fois, un routeur configuré en DoH/DoT ne voit que le trafic qui lui est effectivement envoyé. Donc un navigateur configuré pour contacter directement un résolveur distant échappe à ce contrôle. Pour réduire ces échappatoires, il faut bloquer le port 53 en clair et restreindre les destinations DoH/DoT non autorisées via le pare-feu du routeur.
@@ -4746,4 +4770,5 @@ En suivant ces quelques étapes, vous construisez un environnement réseau robus
 ## Conclusion
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+
 

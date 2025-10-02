@@ -30,8 +30,8 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Einsteiger**: Benutzer, die ihre Bitcoins mit einer intuitiven mobilen Anwendung verwalten möchten.
-- Fortgeschrittene Nutzer**: Personen, die die Onchain-Funktionen und Datenschutzoptionen wie Tor oder SPV verstehen wollen.
+- **Einsteiger**: Benutzer, die ihre Bitcoins mit einer intuitiven mobilen Anwendung verwalten möchten.
+- **Fortgeschrittene Nutzer**: Personen, die die Onchain-Funktionen und Datenschutzoptionen wie Tor oder SPV verstehen wollen.
 
 
 
@@ -41,14 +41,14 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alles Bezeichnungen für eine Anwendung, die auf einem Smartphone, einem Computer oder einem beliebigen Gerät mit Internetanschluss installiert ist und die Verwaltung und Sicherung privater Schlüssel von einem Bitcoin Wallet ermöglicht.
+- **Hot Wallet**, **Software Wallet**, **Wallet mobile**, **Software Wallet**: alles Bezeichnungen für eine Anwendung, die auf einem Smartphone, einem Computer oder einem beliebigen Gerät mit Internetanschluss installiert ist und die Verwaltung und Sicherung privater Schlüssel von einem Bitcoin Wallet ermöglicht.
 - Im Gegensatz zu **Hardware-Geldbörsen**, auch bekannt als **Cold-Geldbörsen**, die Schlüssel offline isolieren, arbeiten Software-Geldbörsen in einer vernetzten Umgebung, was sie anfälliger für Cyberangriffe macht.
 
 
 
 
 
-- Empfohlene Verwendung** :
+- **Empfohlene Verwendung**:
     - Ideal für die Verwaltung moderater Mengen von Bitcoin, insbesondere für tägliche Transaktionen.
     - Geeignet für Anfänger oder Nutzer mit begrenztem Vermögen, denen ein Hardware Wallet überflüssig erscheint.
 
@@ -56,7 +56,7 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Beschränkungen**: Weniger sicher für die Aufbewahrung großer Geldbeträge oder langfristiger Ersparnisse. Wählen Sie in diesem Fall eine Hardware Wallet.
+- **Beschränkungen**: Weniger sicher für die Aufbewahrung großer Geldbeträge oder langfristiger Ersparnisse. Wählen Sie in diesem Fall eine Hardware Wallet.
 
 
 
@@ -67,16 +67,16 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung für die Verwaltung von Bitcoin-Portfolios und Assets auf dem Liquid Network. Sie wurde 2016 von [Blockstream] (https://blockstream.com/) übernommen und hieß zuvor *Green Address* und dann *Blockstream Green*.
-- Hauptmerkmale** :
-    - Onchain**-Transaktionen auf Blockchain Bitcoin.
+- **Blockstream App** ist eine mobile (iOS, Android) und Desktop-Anwendung für die Verwaltung von Bitcoin-Portfolios und Assets auf dem Liquid Network. Sie wurde 2016 von [Blockstream] (https://blockstream.com/) übernommen und hieß zuvor *Green Address* und dann *Blockstream Green*.
+- **Hauptmerkmale**:
+- **Onchain-Transaktionen** auf Blockchain Bitcoin.
     - Netzwerktransaktionen **Liquid** (Sidechain für schnellen, vertraulichen Datenaustausch).
-    - Watch-only**-Portfolios zur Überwachung von Fonds ohne Zugang zu Schlüsseln.
+- **Watch-only**-Portfolios zur Überwachung von Fonds ohne Zugang zu Schlüsseln.
     - Datenschutzoptionen: Verbindung über **Tor**, Verbindung zu einem **persönlichen Knoten** über Electrum oder **SPV**-Verifizierung, um die Abhängigkeit von Drittanbieter-Knoten zu verringern.
     - Funktionen **Replace-by-fee (RBF)** zur Beschleunigung unbestätigter Transaktionen.
-- Kompatibilität**: Integriert Hardware-Wallets wie z. B. **Blockstream Jade**.
-- Interface**: Intuitiv für Anfänger, mit erweiterten Optionen für Experten.
-- Anmerkung**: Dieser Leitfaden konzentriert sich auf die Verwendung der Onchain. Andere Anleitungen in den Anhängen behandeln Liquid, Watch-Only und die Desktop-Version.
+- **Kompatibilität**: Integriert Hardware-Wallets wie z. B. **Blockstream Jade**.
+- **Interface**: Intuitiv für Anfänger, mit erweiterten Optionen für Experten.
+- **Anmerkung**: Dieser Leitfaden konzentriert sich auf die Verwendung der Onchain. Andere Anleitungen in den Anhängen behandeln Liquid, Watch-Only und die Desktop-Version.
 
 
 
@@ -90,12 +90,12 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Für Android** :
+- **Für Android**:
     - Laden Sie [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) aus dem Google Play Store herunter.
     - Alternativ: Installieren Sie über die APK-Datei, die auf [Blockstreams offiziellem GitHub](https://github.com/Blockstream/green_android) verfügbar ist.
-- Für iOS** :
+- Für **iOS**:
     - Laden Sie [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) aus dem App Store herunter.
-- Hinweis**: Achten Sie darauf, von offiziellen Quellen herunterzuladen, um betrügerische Anwendungen zu vermeiden.
+- **Hinweis**: Achten Sie darauf, von offiziellen Quellen herunterzuladen, um betrügerische Anwendungen zu vermeiden.
 
 
 
@@ -105,7 +105,7 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Startbildschirm**: Beim ersten Öffnen zeigt die Anwendung einen Bildschirm ohne konfigurierte Wallet. Erstellte oder importierte Portfolios werden später hier angezeigt.
+- **Startbildschirm**: Beim ersten Öffnen zeigt die Anwendung einen Bildschirm ohne konfigurierte Wallet. Erstellte oder importierte Portfolios werden später hier angezeigt.
 
 
 
@@ -115,7 +115,7 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Einstellungen anpassen**: Klicken Sie auf "Anwendungseinstellungen", passen Sie die Optionen unten an, klicken Sie auf "Speichern", starten Sie die Anwendung neu und erstellen Sie Ihr Portfolio.
+- **Einstellungen anpassen**: Klicken Sie auf "Anwendungseinstellungen", passen Sie die Optionen unten an, klicken Sie auf "Speichern", starten Sie die Anwendung neu und erstellen Sie Ihr Portfolio.
 
 
 
@@ -129,8 +129,8 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Funktion**: Deaktiviert Bildschirmfotos, blendet die Anwendungsvorschau im Task-Manager aus und sperrt den Zugriff, wenn das Telefon gesperrt ist.
-- Warum?** : Schützt Ihre Daten vor unbefugtem physischen Zugriff oder Malware, die den Bildschirm abfängt.
+- **Funktion**: Deaktiviert Bildschirmfotos, blendet die Anwendungsvorschau im Task-Manager aus und sperrt den Zugriff, wenn das Telefon gesperrt ist.
+- **Warum?**: Schützt Ihre Daten vor unbefugtem physischen Zugriff oder Malware, die den Bildschirm abfängt.
 
 
 #### 3.2.2. Verbindung über Tor
@@ -139,10 +139,10 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Funktion**: Leiten Sie den Netzwerkverkehr über **Tor**, ein anonymes Netzwerk, das Ihre Verbindungen verschlüsselt.
-- Warum?**: Verbergen Sie Ihre IP Address und schützen Sie Ihre Privatsphäre, ideal, wenn Sie Ihrem Netzwerk nicht vertrauen (z. B. öffentliches WLAN).
-- Nachteil**: Kann die Anwendung aufgrund der Verschlüsselung verlangsamen.
-- Empfehlung**: Aktiviere Tor, wenn Vertraulichkeit eine Priorität ist, aber teste die Verbindungsgeschwindigkeit.
+- **Funktion**: Leiten Sie den Netzwerkverkehr über **Tor**, ein anonymes Netzwerk, das Ihre Verbindungen verschlüsselt.
+- **Warum?**: Verbergen Sie Ihre IP Address und schützen Sie Ihre Privatsphäre, ideal, wenn Sie Ihrem Netzwerk nicht vertrauen (z. B. öffentliches WLAN).
+- **Nachteil**: Kann die Anwendung aufgrund der Verschlüsselung verlangsamen.
+- **Empfehlung**: Aktiviere Tor, wenn Vertraulichkeit eine Priorität ist, aber teste die Verbindungsgeschwindigkeit.
 
 
 #### 3.2.3. Verbinden mit einem persönlichen Knoten
@@ -151,10 +151,10 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Funktion**: Verbindet die Anwendung mit Ihrem eigenen **kompletten Bitcoin-Knoten** über einen **Electrum**-Server.
-- Warum?**: Ermöglicht die vollständige Kontrolle über Blockchain-Daten und beseitigt die Abhängigkeit von Blockstream-Servern.
-- Voraussetzung**: Ein konfigurierter Bitcoin-Knoten.
-- Empfehlung**: Fortgeschrittene Benutzer, die maximale Souveränität anstreben.
+- **Funktion**: Verbindet die Anwendung mit Ihrem eigenen **kompletten Bitcoin-Knoten** über einen **Electrum**-Server.
+- **Warum?**: Ermöglicht die vollständige Kontrolle über Blockchain-Daten und beseitigt die Abhängigkeit von Blockstream-Servern.
+- **Voraussetzung**: Ein konfigurierter Bitcoin-Knoten.
+- **Empfehlung**: Fortgeschrittene Benutzer, die maximale Souveränität anstreben.
 
 
 #### 3.2.4. SPV-Überprüfung
@@ -163,10 +163,10 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Funktion**: Verwendet **Simplified Payment Verification (SPV)**, um bestimmte Blockchain-Daten direkt zu überprüfen, ohne die gesamte Kette herunterzuladen.
-- Warum?**: Verringert die Abhängigkeit vom Standardknoten von Blockstream und bleibt gleichzeitig leichtgewichtig für mobile Geräte.
-- Nachteil**: Weniger sicher als ein Full node, da es für einige Informationen auf Knotenpunkte Dritter angewiesen ist.
-- Empfehlung**: Aktivieren Sie SPV, wenn Sie keinen persönlichen Knoten verwenden können, aber einen Full node für optimale Sicherheit bevorzugen.
+- **Funktion**: Verwendet **Simplified Payment Verification (SPV)**, um bestimmte Blockchain-Daten direkt zu überprüfen, ohne die gesamte Kette herunterzuladen.
+- **Warum?**: Verringert die Abhängigkeit vom Standardknoten von Blockstream und bleibt gleichzeitig leichtgewichtig für mobile Geräte.
+- **Nachteil**: Weniger sicher als ein Full node, da es für einige Informationen auf Knotenpunkte Dritter angewiesen ist.
+- **Empfehlung**: Aktivieren Sie SPV, wenn Sie keinen persönlichen Knoten verwenden können, aber einen Full node für optimale Sicherheit bevorzugen.
 
 
 
@@ -182,7 +182,7 @@ description: Blockstream App auf dem Handy einrichten und Onchain-Transaktionen 
 
 
 
-- Vorsicht**: Legen Sie Ihr Portfolio in einer privaten Umgebung an, ohne Kameras oder Beobachter.
+- **Vorsicht**: Legen Sie Ihr Portfolio in einer privaten Umgebung an, ohne Kameras oder Beobachter.
 - Klicken Sie auf dem Startbildschirm auf "Erste Schritte":
 
 
@@ -360,7 +360,7 @@ Sperren Sie den Zugriff auf die Anwendung mit einem starken PIN-Code:
 
 
 
-- Optionen** :
+- **Optionen**:
     - (1) "Bitcoin": Klicken Sie auf , um eine Onchain- oder Liquid-Sendung auszuwählen, und wählen Sie die Anlage.
     - (2) Klicken Sie auf die Pfeile, um einen weiteren neuen Address auszuwählen, der mit diesem seed-Satz verbunden ist.
     - (3) Sie können auch einen Address aus den bereits verwendeten/angezeigten Adressen auswählen, indem Sie auf die drei Punkte oben rechts und dann auf "Liste der Adressen" klicken
@@ -376,7 +376,7 @@ Sperren Sie den Zugriff auf die Anwendung mit einem starken PIN-Code:
 
 
 - Teilen Sie den Address/URI, indem Sie auf "**Teilen**" klicken, den Text kopieren oder den QR-Code scannen.
-- Verifizierung**: Überprüfen Sie die mit dem Empfänger geteilten Address so weit wie möglich, um Fehler oder Angriffe zu vermeiden (z. B. Malware, die die Zwischenablage verändert).
+- **Verifizierung**: Überprüfen Sie die mit dem Empfänger geteilten Address so weit wie möglich, um Fehler oder Angriffe zu vermeiden (z. B. Malware, die die Zwischenablage verändert).
 
 
 
@@ -396,7 +396,7 @@ Sperren Sie den Zugriff auf die Anwendung mit einem starken PIN-Code:
 
 
 
-- Details eingeben** :
+- **Details eingeben**:
     - (1) Geben Sie den **Address des Empfängers** ein, indem Sie ihn aufkleben oder einen QR-Code scannen.
     - (2) Überprüfen Sie die Vermögenswerte und das Konto, von dem die Gelder überwiesen werden.
     - (3) Geben Sie den zu überweisenden **Betrag** an. Sie können die Einheit wählen: BTC, Satoshis, USD, ...
@@ -420,7 +420,7 @@ Der Mindestbetrag (Dush-Limit) am 03/08/2025 beträgt 546 Sats.
 
 
 
-- Prüfen** :
+- **Prüfen**:
     - Überprüfen Sie die Address, den Betrag und die Gebühren auf dem Übersichtsbildschirm.
     - Ein Address-Fehler kann zu einem unwiderruflichen Verlust von Geldern führen. Hüten Sie sich vor Malware, die die Zwischenablage modifiziert.
 
@@ -432,8 +432,8 @@ Der Mindestbetrag (Dush-Limit) am 03/08/2025 beträgt 546 Sats.
 
 
 
-- Bestätigen**: Klicken Sie auf die Schaltfläche "Senden", um die Transaktion zu unterzeichnen und zu verteilen.
-- Folgemaßnahmen**: Auf der Registerkarte Wallet "Transaktion" wird die Transaktion bis zur Bestätigung (1 bis 6 Bestätigungen) als "ausstehend" angezeigt:
+- **Bestätigen**: Klicken Sie auf die Schaltfläche "Senden", um die Transaktion zu unterzeichnen und zu verteilen.
+- **Folgemaßnahmen**: Auf der Registerkarte Wallet "Transaktion" wird die Transaktion bis zur Bestätigung (1 bis 6 Bestätigungen) als "ausstehend" angezeigt:
 
 
 
@@ -502,7 +502,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Glossar](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Glossar](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -517,7 +517,7 @@ Um **Blockstream App** sicher und effizient zu nutzen, befolgen Sie diese Empfeh
 
 
 
-- Sichern Sie Ihre Wiederherstellungsphrase** :
+- **Sichern Sie Ihre Wiederherstellungsphrase**:
  - Anleitung: Speichern des Mnemonic-Satzes
 
 
@@ -529,7 +529,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Verwenden Sie eine sichere Authentifizierung** :
+- **Verwenden Sie eine sichere Authentifizierung**:
  - Aktivieren Sie eine **starke PIN** oder **biometrische Authentifizierung** (Fingerabdruck oder Gesichtserkennung), um den Zugang zur Anwendung zu schützen.
  - Geben Sie niemals Ihre PIN oder biometrischen Daten weiter.
 
@@ -537,7 +537,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Schützen Sie Ihre Privatsphäre** :
+- **Schützen Sie Ihre Privatsphäre** :
  - generate ein neues Address für jeden Onchain- oder Liquid-Empfang, um die Rückverfolgung auf dem Blockchain zu begrenzen.
  - Aktivieren Sie die Funktionen "Verbesserter Datenschutz", "Tor" und "SPV".
  - Für maximale Vertraulichkeit sollten Sie Ihren Wallet über einen Electrum-Server mit Ihrem eigenen Bitcoin-Knoten verbinden, anstatt den öffentlichen Knoten zu verwenden
@@ -546,23 +546,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Wählen Sie das für Ihre Bedürfnisse am besten geeignete Netz**:
- - Onchain**: Bevorzugt für langfristige Verwahrung oder Transaktionen mit hohem Wert (Gebühren im Verhältnis zum Betrag vernachlässigbar).
- - Liquid**: Für schnelle, kostengünstige Übertragungen mit erhöhter Vertraulichkeit.
- - Lightning**: Wählen Sie sofortige, kostengünstige Überweisungen für kleine Beträge.
+- Wählen Sie das für Ihre Bedürfnisse am besten geeignete **Netz**:
+- **Onchain**: Bevorzugt für langfristige Verwahrung oder Transaktionen mit hohem Wert (Gebühren im Verhältnis zum Betrag vernachlässigbar).
+- **Liquid**: Für schnelle, kostengünstige Übertragungen mit erhöhter Vertraulichkeit.
+- **Lightning**: Wählen Sie sofortige, kostengünstige Überweisungen für kleine Beträge.
 
 
 
 
 
-- Überprüfen Sie immer die Lieferadressen** :
+- **Überprüfen Sie immer die Lieferadressen**:
  - Überprüfen Sie das Address sorgfältig, bevor Sie Geldmittel senden. Gelder, die an einen falschen Address gesendet werden, sind für immer verloren. Verwenden Sie Kopieren/Einfügen oder QR-Code-Scannen, kopieren/verändern Sie niemals einen Address von Hand.
 
 
 
 
 
-- Kosten optimieren** :
+- **Kosten optimieren**:
  - Wählen Sie für Onchain-Transaktionen je nach Dringlichkeit und Netzüberlastung geeignete Gebühren (langsam, mittel, schnell).
  - Verwenden Sie Liquid oder Lightning für kleine Mengen.
 
@@ -581,16 +581,16 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Offizielle Links:**
- - [Offizielle Website](https://blockstream.com/)**
- - [Support für die mobile Anwendung](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)** : Dokumentation und Chat
- - [GitHub](https://github.com/Blockstream/green_android)**
+- **Offizielle Links:**
+- [Offizielle Website](https://blockstream.com/)
+- [Support für die mobile Anwendung](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): Dokumentation und Chat
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
 
 
-- Block Explorers :**
+- **Block Explorers:**
  - on chain : **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Blockstream Info](https://blockstream.info/Liquid)**
  - Blitzschlag: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -599,7 +599,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Lernen und Tutorien:** **[Plan ₿ Network](https://planb.network/)** :
+- Lernen und Tutorien: **[Plan ₿ Network](https://planb.network/)**
  - Sicherung des Wiederherstellungssatzes
 
 
@@ -611,8 +611,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Glossar](https://planb.network/fr/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Glossar](https://planb.network/fr/resources/glossary/liquid-network)
 
 
 
@@ -621,8 +621,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Glossar](https://planb.network/fr/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Glossar](https://planb.network/fr/resources/glossary/lightning-network)
 
 
 

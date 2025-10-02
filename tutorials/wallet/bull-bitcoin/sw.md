@@ -1,5 +1,5 @@
 ---
-name: Ng'ombe Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Jua jinsi ya kutumia Wallet Bull Bitcoin
 ---
 
@@ -29,9 +29,9 @@ Wallet inajibu changamoto kuu: Gharama za mtandao za Bitcoin hazifai kwa malipo 
 
 
 
-- Mtandao wa Bitcoin (onchain)**: Inafaa kwa uhifadhi wa muda wa kati hadi mrefu wa UTXO na miamala ya thamani kubwa, ambapo ada hazitozwi kiasi.
-- Liquid Network**: Imeundwa kwa haraka (~dakika 2), kwa siri zaidi (kiasi kilichofichwa), miamala ya bei ya chini, bora kwa kukusanya kiasi kidogo au kulinda faragha yako.
-- Mtandao wa umeme**: Imeboreshwa kwa malipo ya papo hapo, ya gharama nafuu, yanafaa kwa miamala ya kila siku ya bei ndogo hadi ya kati.
+- **Mtandao wa Bitcoin (onchain)**: Inafaa kwa uhifadhi wa muda wa kati hadi mrefu wa UTXO na miamala ya thamani kubwa, ambapo ada hazitozwi kiasi.
+- **Liquid Network**: Imeundwa kwa haraka (~dakika 2), kwa siri zaidi (kiasi kilichofichwa), miamala ya bei ya chini, bora kwa kukusanya kiasi kidogo au kulinda faragha yako.
+- **Mtandao wa umeme**: Imeboreshwa kwa malipo ya papo hapo, ya gharama nafuu, yanafaa kwa miamala ya kila siku ya bei ndogo hadi ya kati.
 
 
 
@@ -70,10 +70,10 @@ Kabla ya kuanza kutumia **Bull Bitcoin Mobile**, hakikisha una bidhaa zifuatazo:
 
 
 
-- Simu mahiri Inafaa**: Kifaa cha **iOS** (iPhone au iPad) au **Android**
+- **Simu mahiri Inafaa**: Kifaa cha **iOS** (iPhone au iPad) au **Android**
 - Muunganisho wa mtandao
-- Midia salama ya chelezo**: Andika **maneno yako ya kurejesha akaunti** (maneno 12) kwenye karatasi au chuma na uihifadhi mahali salama.
-- Maarifa ya kimsingi**: Uelewa wa chini zaidi wa dhana za Bitcoin (anwani, miamala, ada) ni muhimu, ingawa somo hili linafafanua kila hatua kwa wanaoanza.
+- **Midia salama ya chelezo**: Andika **maneno yako ya kurejesha akaunti** (maneno 12) kwenye karatasi au chuma na uihifadhi mahali salama.
+- **Maarifa ya kimsingi**: Uelewa wa chini zaidi wa dhana za Bitcoin (anwani, miamala, ada) ni muhimu, ingawa somo hili linafafanua kila hatua kwa wanaoanza.
 
 
 
@@ -83,10 +83,10 @@ Kabla ya kuanza kutumia **Bull Bitcoin Mobile**, hakikisha una bidhaa zifuatazo:
 
 
 
-- Pakua programu** :
- - [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Pakua kutoka kwa duka la programu kwa vifaa vya Android
- - [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Pakua APK ya vifaa vya Android moja kwa moja**
- - [iOS](https://testflight.apple.com/join/FJbE4JPN)** Pakua kupitia TestFlight kwa vifaa vya Apple
+- **Pakua programu** :
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Pakua kutoka kwa duka la programu kwa vifaa vya Android**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Pakua APK ya vifaa vya Android moja kwa moja**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Pakua kupitia TestFlight kwa vifaa vya Apple**
  - Angalia jina la msanidi programu (Bull Bitcoin) ili kuepuka programu za ulaghai.
  - Hakikisha kuwa toleo lililopakuliwa linalingana na toleo la hivi punde thabiti lililoonyeshwa kwenye GitHub.
  - Simu ya Bull Bitcoin ni **chanzo-wazi**. Ili kutazama msimbo: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ Programu hutumia maneno ya kipekee ya kurejesha maneno 12 kwa kwingineko zote mb
 
 
 
- - salama Bitcoin' Wallet**: Kwa miamala kwenye mtandao wa Bitcoin (onchain)
- - Malipo ya papo hapo' Wallet**: Kwa miamala ya papo hapo kwenye Liquid na mitandao ya Umeme
+- **salama Bitcoin Wallet**: Kwa miamala kwenye mtandao wa Bitcoin (onchain)
+- **Malipo ya papo hapo Wallet**: Kwa miamala ya papo hapo kwenye Liquid na mitandao ya Umeme
 
 
 
@@ -249,7 +249,7 @@ Kwenye Skrini ya kwanza, unaweza:
 
 
 
-- Mfano wa URI inayozalishwa kiotomatiki** :
+- **Mfano wa URI inayozalishwa kiotomatiki**:
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Matumizi**: Nakili URI ili kushiriki na mtumaji, au umruhusu achanganue msimbo wa QR.
+- **Matumizi**: Nakili URI ili kushiriki na mtumaji, au umruhusu achanganue msimbo wa QR.
 
 
 
@@ -297,7 +297,7 @@ Hata ukiweka kiasi au noti, hazitajumuishwa kwenye msimbo wa QR au nakala ya Add
 
 
 
-- Matumizi**: Nakili Address ili kuishiriki na mtumaji, au umruhusu achanganue msimbo wa QR.
+- **Matumizi**: Nakili Address ili kuishiriki na mtumaji, au umruhusu achanganue msimbo wa QR.
 
 
 
@@ -308,7 +308,7 @@ Hata ukiweka kiasi au noti, hazitajumuishwa kwenye msimbo wa QR au nakala ya Add
 
 
 - Kwa nini utumie Address mpya kwa kila muamala? Hii **inalinda faragha yako** kwa kuzuia malipo mengi yasiunganishwe na Address sawa, na kuweka mipaka ya uwezekano wa kufuatilia kwenye Blockchain.
- - Kwa chaguomsingi, Bull Bitcoin hutengeneza kiotomatiki Address isiyotumika.**
+- Kwa chaguomsingi, Bull Bitcoin hutengeneza kiotomatiki Address isiyotumika.
  - Unaweza kulazimisha kuundwa kwa Address mpya kwa kubofya **"Address Mpya"** chini ya skrini.
  - Anwani zako zote zimeunganishwa na maneno yako ya seed: haijalishi ni anwani ngapi unazotumia, kwingineko yako itaonyesha salio moja, na inaweza kuunganisha pesa kiotomatiki wakati usafirishaji unafanywa.
 
@@ -316,7 +316,7 @@ Hata ukiweka kiasi au noti, hazitajumuishwa kwenye msimbo wa QR au nakala ya Add
 
 
 
-- Kidokezo: Daima tumia Address** mpya iliyotolewa na Bull Bitcoin, isipokuwa kama una hitaji mahususi (k.m. Address ya umma ili kupokea michango).
+- Kidokezo: Daima tumia **Address** mpya iliyotolewa na Bull Bitcoin, isipokuwa kama una hitaji mahususi (k.m. Address ya umma ili kupokea michango).
 
 
 
@@ -412,29 +412,29 @@ Kwenye Skrini ya kwanza, unaweza:
 
 
 
-- Utaratibu**: Bull Bitcoin Wallet ni Wallet inayowezesha malipo kufanywa na kupokelewa kupitia Umeme. Pesa zinazopokelewa kupitia Umeme huhifadhiwa kwenye mtandao wa **Liquid** (katika Malipo ya Papo Hapo ya Wallet) kutokana na ubadilishanaji wa kiotomatiki kupitia **Boltz**. Hii inakupa uwezo wa kuingiliana na Umeme bila kulazimika kudhibiti njia za ukwasi, huku ukiendelea kujilinda.
+- **Utaratibu**: Bull Bitcoin Wallet ni Wallet inayowezesha malipo kufanywa na kupokelewa kupitia Umeme. Pesa zinazopokelewa kupitia Umeme huhifadhiwa kwenye mtandao wa **Liquid** (katika Malipo ya Papo Hapo ya Wallet) kutokana na ubadilishanaji wa kiotomatiki kupitia **Boltz**. Hii inakupa uwezo wa kuingiliana na Umeme bila kulazimika kudhibiti njia za ukwasi, huku ukiendelea kujilinda.
 
 
 
 
 
-- Vikomo:**
- - Kiasi cha chini** cha satoshi 100 (tangu 07/19/2025) unapotumia generate Invoice.
- - Unalipa gharama**, ambazo zitakatwa kutoka kwa kiasi kilichotumwa na mtumaji, tofauti na kupokea na Wallet Lightning native, ambapo ni mtumaji pekee ndiye anayelipa gharama za uhamisho pamoja na kiasi kilichotumwa. Kufikia tarehe 19/07/2025, 47 Sats zinakatwa kutoka kwa kiasi kilichotumwa.
+- **Vikomo:**
+- Kiasi cha chini cha satoshi 100 (tangu 07/19/2025) unapotumia generate Invoice.
+- Unalipa gharama, ambazo zitakatwa kutoka kwa kiasi kilichotumwa na mtumaji, tofauti na kupokea na Wallet Lightning native, ambapo ni mtumaji pekee ndiye anayelipa gharama za uhamisho pamoja na kiasi kilichotumwa. Kufikia tarehe 19/07/2025, 47 Sats zinakatwa kutoka kwa kiasi kilichotumwa.
 
 
 
 
 
-- Faida** :
- - Kujitunza**: Pesa zako zinasalia chini ya udhibiti wako, zimehifadhiwa kwenye Liquid Network.
- - Hakuna ada za juu za onchain**: Hifadhi kwenye Liquid huepuka amana za gharama kubwa za onchain ili kufungua chaneli yako ya Umeme au kuongeza ukwasi. Shughuli hizi zinaweza kufanywa baadaye, wakati kiasi kilichokusanywa kwenye Liquid kinahalalisha ada.
+- **Faida** :
+- **Kujitunza**: Pesa zako zinasalia chini ya udhibiti wako, zimehifadhiwa kwenye Liquid Network.
+- **Hakuna ada za juu za onchain**: Hifadhi kwenye Liquid huepuka amana za gharama kubwa za onchain ili kufungua chaneli yako ya Umeme au kuongeza ukwasi. Shughuli hizi zinaweza kufanywa baadaye, wakati kiasi kilichokusanywa kwenye Liquid kinahalalisha ada.
 
 
 
 
 
-- Kidokezo:** Ikiwa mtumaji ana Wallet Bull Bitcoin, tumia Liquid Network moja kwa moja ili kuepuka ada za kubadilishana.
+- **Kidokezo:** Ikiwa mtumaji ana Wallet Bull Bitcoin, tumia Liquid Network moja kwa moja ili kuepuka ada za kubadilishana.
 
 
 
@@ -456,13 +456,13 @@ Kwenye Skrini ya kwanza, unaweza:
 
 
 
-- Uhalali wa Invoice:** Umeme Invoice ni halali kwa **saa 12**. Baada ya muda huu, muda wake unaisha na hauwezi tena kulipwa. Invoice mpya lazima izalishwe.
+- **Uhalali wa Invoice:** Umeme Invoice ni halali kwa **saa 12**. Baada ya muda huu, muda wake unaisha na hauwezi tena kulipwa. Invoice mpya lazima izalishwe.
 
 
 
 
 
-- Matumizi**: Nakili Invoice ili kuishiriki na mtumaji, au umruhusu achanganue msimbo wa QR.
+- **Matumizi**: Nakili Invoice ili kuishiriki na mtumaji, au umruhusu achanganue msimbo wa QR.
 
 
 
@@ -563,27 +563,27 @@ Kisha unaweza kurekebisha vigezo:
 
 
 
-- Ada**: Unaweza kuchagua :
-  - Ama kasi ya utekelezaji** ya muamala wako, na ada zinazohusiana zitakadiriwa
-  - Ama ada**, katika ada Kabisa (ada ya jumla katika satoshis) au ada Husika (ada kwa kila baiti), na kasi ya ununuzi wako itakadiriwa.
+- **Ada**: Unaweza kuchagua :
+- Ama kasi ya utekelezaji ya muamala wako, na ada zinazohusiana zitakadiriwa
+- Ama **ada**, katika ada Kabisa (ada ya jumla katika satoshis) au ada Husika (ada kwa kila baiti), na kasi ya ununuzi wako itakadiriwa.
 
 
 
 
 
-- Mipangilio ya kina** :
+- Mipangilio ya **kina**:
 
 
 
 
 
- - Replace-by-fee (RBF)** : Imewashwa kwa chaguo-msingi, chaguo-msingi za kukokotoa huharakisha muamala kwa kulipa ada ya juu (angalia Kiambatisho cha 4 kwa maelezo zaidi).
+- **Replace-by-fee (RBF)**: Imewashwa kwa chaguo-msingi, chaguo-msingi za kukokotoa huharakisha muamala kwa kulipa ada ya juu (angalia Kiambatisho cha 4 kwa maelezo zaidi).
 
 
 
 
 
- - Uteuzi wenyewe wa UTXO**: Ikiwa pesa zako zimehifadhiwa katika anwani tofauti za Wallet, unaweza kuchagua anwani ambazo pesa hizo zitatumiwa. Kwa nini ufanye hivi? Kwa kuongezeka kwa kupitishwa kwa Bitcoin, ada za uhamisho zinaongezeka. Kutuma kutoka kwa anwani kadhaa na kiasi kidogo ni ghali zaidi kuliko kutuma kutoka kwa Address moja, lakini kufanya hivyo sasa huepuka kufanya hivyo baadaye, wakati ada zitakuwa kubwa zaidi. Hii inaitwa **ujumuishaji wa UTXO.**
+- Uteuzi wenyewe wa **UTXO**: Ikiwa pesa zako zimehifadhiwa katika anwani tofauti za Wallet, unaweza kuchagua anwani ambazo pesa hizo zitatumiwa. Kwa nini ufanye hivi? Kwa kuongezeka kwa kupitishwa kwa Bitcoin, ada za uhamisho zinaongezeka. Kutuma kutoka kwa anwani kadhaa na kiasi kidogo ni ghali zaidi kuliko kutuma kutoka kwa Address moja, lakini kufanya hivyo sasa huepuka kufanya hivyo baadaye, wakati ada zitakuwa kubwa zaidi. Hii inaitwa **ujumuishaji wa UTXO**.
 
 
 
@@ -593,7 +593,7 @@ Kisha unaweza kurekebisha vigezo:
 
 
 
-- Kutuma kwa PayJoin**: Ikiwa chaguo la kukokotoa limewashwa na mpokeaji aliyetoa URI, k.m. :
+- **Kutuma kwa PayJoin**: Ikiwa chaguo la kukokotoa limewashwa na mpokeaji aliyetoa URI, k.m. :
 
 
 
@@ -679,7 +679,7 @@ Chukua muda wa kuangalia vigezo vyote, hasa kiasi na marudio ya Address.
 
 
 
-- Ada**: Sawa na utata wa ununuzi, kwa ujumla kwa msingi wa 0.1 sat/vB, yaani satoshi 20-40 kwa muamala rahisi (33 Sats saa 07/22/2025).
+- **Ada**: Sawa na utata wa ununuzi, kwa ujumla kwa msingi wa 0.1 sat/vB, yaani satoshi 20-40 kwa muamala rahisi (33 Sats saa 07/22/2025).
 
 
 
@@ -750,29 +750,29 @@ Kumbuka: kiasi lazima kiwe zaidi ya 21 Sats tarehe 07/23/2025
 
 
 
-- Utaratibu**: Pesa hutolewa kutoka **Malipo ya Papo Hapo Wallet** (Liquid) na kubadilishwa kupitia **Liquid → Umeme** kubadilishana na **Boltz**.
+- **Utaratibu**: Pesa hutolewa kutoka **Malipo ya Papo Hapo Wallet** (Liquid) na kubadilishwa kupitia **Liquid → Umeme** kubadilishana na **Boltz**.
 
 
 
 
 
-- Vikomo:**
- - Kiwango cha chini zaidi** zaidi ya asili ya Wallet ya Umeme (tazama hapo juu)
- - Gharama** pamoja na Liquid → Ubadilishaji wa umeme kupitia Boltz
+- **Vikomo:**
+- Kiwango cha chini zaidi ya asili ya Wallet ya Umeme (tazama hapo juu)
+- **Gharama** pamoja na Liquid → Ubadilishaji wa umeme kupitia Boltz
 
 
 
 
 
-- Faida** :
- - Kujitunza**: Pesa zako zinasalia chini ya udhibiti wako, zimehifadhiwa kwenye Liquid Network, na zinaweza kuhamishwa kupitia Umeme ikihitajika.
- - Hakuna ada za juu za onchain**: Kuhifadhi kwenye Liquid kumeokoa amana za gharama kubwa za onchain ili kufungua chaneli yako ya Umeme au kuongeza ukwasi. Shughuli hizi zinaweza kufanywa baadaye, wakati kiasi kilichokusanywa kwenye Liquid kinahalalisha ada.
+- **Faida** :
+- **Kujitunza**: Pesa zako zinasalia chini ya udhibiti wako, zimehifadhiwa kwenye Liquid Network, na zinaweza kuhamishwa kupitia Umeme ikihitajika.
+- **Hakuna ada za juu za onchain**: Kuhifadhi kwenye Liquid kumeokoa amana za gharama kubwa za onchain ili kufungua chaneli yako ya Umeme au kuongeza ukwasi. Shughuli hizi zinaweza kufanywa baadaye, wakati kiasi kilichokusanywa kwenye Liquid kinahalalisha ada.
 
 
 
 
 
-- Kidokezo:** Ikiwa mpokeaji ana Wallet Bull Bitcoin, tumia Liquid Network moja kwa moja ili kuepuka gharama za kubadilishana.
+- **Kidokezo:** Ikiwa mpokeaji ana Wallet Bull Bitcoin, tumia Liquid Network moja kwa moja ili kuepuka gharama za kubadilishana.
 
 
 
@@ -803,7 +803,7 @@ Chukua muda wa kuangalia vigezo vyote, hasa kiasi na marudio ya Address.
 
 
 
-- Kupitia skrini ya nyumbani** :
+- Kupitia skrini ya nyumbani:
  - Bofya kwenye **Secure Bitcoin Wallet** ili kutazama shughuli za **onchain**, au kwenye **Malipo ya Papo Hapo Wallet** kwa shughuli za **Liquid** na **Umeme**.
  - Historia inaonyeshwa moja kwa moja chini ya jumla ya kwingineko, iliyochujwa kulingana na aina ya Wallet iliyochaguliwa.
 
@@ -815,7 +815,7 @@ Chukua muda wa kuangalia vigezo vyote, hasa kiasi na marudio ya Address.
 
 
 
-- Kupitia ukurasa maalum** :
+- Kupitia ukurasa **maalum**:
  - Kwenye Skrini ya kwanza, bofya kwenye **ishara ya historia** (ikoni ya saa au sawa).
  - Fikia ukurasa unaoorodhesha miamala yote, ukiwa na vichujio kulingana na aina ya kitendo: **Tuma**, **Pokea**, **Badilisha**, **PayJoin**, **Uza**, **Nunua** (kumbuka: Uza na Ununue zinatengenezwa na hazipatikani kwa wakati huu, Julai 20, 2025).
 
@@ -864,57 +864,57 @@ Ukurasa wa "Mipangilio" unaweza kufikiwa moja kwa moja kutoka kwa ukurasa wa nyu
 
 
 
-- Hifadhi Nakala ya Wallet**: Huonyesha maneno ya kurejesha akaunti ya kwingineko kwa ajili ya kuhifadhi nakala salama. Tazama sehemu ya 3. kuhusu uundaji wa kwingineko kwa mbinu bora za kudhibiti na kuhifadhi maneno ya kurejesha akaunti.
+- **Hifadhi Nakala ya Wallet**: Huonyesha maneno ya kurejesha akaunti ya kwingineko kwa ajili ya kuhifadhi nakala salama. Tazama sehemu ya 3. kuhusu uundaji wa kwingineko kwa mbinu bora za kudhibiti na kuhifadhi maneno ya kurejesha akaunti.
 
 
 
 
 
-- Maelezo ya Wallet** :
- - Pubkey**: Ufunguo wa umma unaohusishwa na Wallet, unaotumika kwa anwani za mapokezi za generate Bitcoin.
- - Njia ya Utoaji**: Njia ya utokezi inayotumiwa kwa anwani za generate Wallet kutoka kwa ufunguo wa faragha.
+- **Maelezo ya Wallet** :
+- **Pubkey**: Ufunguo wa umma unaohusishwa na Wallet, unaotumika kwa anwani za mapokezi za generate Bitcoin.
+- **Njia ya Utoaji**: Njia ya utokezi inayotumiwa kwa anwani za generate Wallet kutoka kwa ufunguo wa faragha.
 
 
 
 
 
-- Seva ya Electrum (Njia ya Bitcoin)**: Sanidi muunganisho kwenye nodi maalum ya Bitcoin kwa miamala ya onchain.
+- **Seva ya Electrum (Njia ya Bitcoin)**: Sanidi muunganisho kwenye nodi maalum ya Bitcoin kwa miamala ya onchain.
 
 
 
 
 
-- Msimbo wa PIN**: Washa na/au urekebishe msimbo wa usalama ili kulinda ufikiaji wa programu na vitendaji vya Wallet.
+- **Msimbo wa PIN**: Washa na/au urekebishe msimbo wa usalama ili kulinda ufikiaji wa programu na vitendaji vya Wallet.
 
 
 
 
 
-- Sarafu**: Chagua ikiwa utaonyesha kiasi katika BTC au Sats, na sarafu chaguo-msingi ya fiat (dola, euro, n.k.).
+- **Sarafu**: Chagua ikiwa utaonyesha kiasi katika BTC au Sats, na sarafu chaguo-msingi ya fiat (dola, euro, n.k.).
 
 
 
 
 
-- Mipangilio ya Kubadilishana Kiotomatiki**: Chaguo za _Kubadilishana Kiotomatiki_ hukuruhusu kugeuza kiotomati uhamishaji wa BTC yako kutoka kwa **Malipo ya Papo Hapo Wallet (Liquid)** hadi **Bitcoin On-Chain** Wallet yako, mara tu kiasi hicho kinapofika kiwango ambacho unaona kuwa ni ada ya juu ya kuhalalisha muamala.
+- **Mipangilio ya Kubadilishana Kiotomatiki**: Chaguo za *Kubadilishana Kiotomatiki* hukuruhusu kugeuza kiotomati uhamishaji wa BTC yako kutoka kwa **Malipo ya Papo Hapo Wallet (Liquid)** hadi **Bitcoin On-Chain** Wallet yako, mara tu kiasi hicho kinapofika kiwango ambacho unaona kuwa ni ada ya juu ya kuhalalisha muamala.
 
 
 
 
 
-- Kumbukumbu**: Kumbukumbu za shughuli zinazoweza kuonekana, ambazo zinaweza kushirikiwa na usaidizi wa kiufundi ili kuwezesha utatuzi.
+- **Kumbukumbu**: Kumbukumbu za shughuli zinazoweza kuonekana, ambazo zinaweza kushirikiwa na usaidizi wa kiufundi ili kuwezesha utatuzi.
 
 
 
 
 
-- Ufikiaji wa msaada wa telegramu** : Kiungo cha moja kwa moja kwa chaneli rasmi ya Telegramu kwa usaidizi wa mtumiaji.
+- **Ufikiaji wa msaada wa telegramu**: Kiungo cha moja kwa moja kwa chaneli rasmi ya Telegramu kwa usaidizi wa mtumiaji.
 
 
 
 
 
-- Ufikiaji wa Github** : Unganisha kwa [hazina ya Bull Bitcoin Github](https://github.com/SatoshiPortal) ili kuona msimbo wa chanzo huria au kuripoti matatizo.
+- **Ufikiaji wa Github**: Unganisha kwa [hazina ya Bull Bitcoin Github](https://github.com/SatoshiPortal) ili kuona msimbo wa chanzo huria au kuripoti matatizo.
 
 
 
@@ -956,8 +956,8 @@ Ukurasa wa "Mipangilio" unaweza kufikiwa moja kwa moja kutoka kwa ukurasa wa nyu
 
 
 
-- Pokea** (Address Supply): PayJoin imewashwa kwa chaguomsingi.
-- Tuma** : Wallet hutambua kiotomatiki URI ya PayJoin na kusanidi muamala ipasavyo, kwa mfano:
+- **Pokea** (Address Supply): PayJoin imewashwa kwa chaguomsingi.
+- **Tuma**: Wallet hutambua kiotomatiki URI ya PayJoin na kusanidi muamala ipasavyo, kwa mfano:
 
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Usiri ulioimarishwa**: PayJoin inabatilisha dhana kwamba maingizo yote katika shughuli ya malipo ni ya huluki moja. Kwa PayJoin, pembejeo hutoka kwa mtumaji na mpokeaji, na kuvunja dhana hii.
-- Ufichaji wa kiasi** : Kiasi halisi kilichobadilishwa hakionekani moja kwa moja kwenye matokeo. Inakokotolewa kama tofauti kati ya UTXO ya mpokeaji inayoingia na kutoka, na kufanya uchanganuzi kuwa wa kupotosha.
+- **Usiri ulioimarishwa**: PayJoin inabatilisha dhana kwamba maingizo yote katika shughuli ya malipo ni ya huluki moja. Kwa PayJoin, pembejeo hutoka kwa mtumaji na mpokeaji, na kuvunja dhana hii.
+- **Ufichaji wa kiasi**: Kiasi halisi kilichobadilishwa hakionekani moja kwa moja kwenye matokeo. Inakokotolewa kama tofauti kati ya UTXO ya mpokeaji inayoingia na kutoka, na kufanya uchanganuzi kuwa wa kupotosha.
 
 
 
@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Faharasa](https://planb.network/fr/resources/glossary/PayJoin)
+- [Faharasa](https://planb.network/fr/resources/glossary/payjoin)
 - Chapitre [Les transactions PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26f1)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Faharasa](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Faharasa](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1038,15 +1038,15 @@ Ili kutumia **Bull Bitcoin Mobile** kwa usalama na kwa ustadi, fuata mapendekezo
 
 
 
-- Linda maneno yako ya urejeshi** :
- - Mafunzo: [Hifadhi maneno yako ya Mnemonic](https://planb.network/fr/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+- Linda maneno yako ya **urejeshi**:
+ - Mafunzo: [Hifadhi maneno yako ya Mnemonic](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Kozi [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
 
 
 
-- Tumia uthibitishaji salama** :
+- **Tumia uthibitishaji salama** :
  - Washa **PIN thabiti** au **uthibitishaji wa kibayometriki** (alama ya vidole au utambuzi wa uso) ili kulinda ufikiaji wa programu.
  - Usiwahi kushiriki PIN au data ya kibayometriki.
 
@@ -1054,7 +1054,7 @@ Ili kutumia **Bull Bitcoin Mobile** kwa usalama na kwa ustadi, fuata mapendekezo
 
 
 
-- Linda faragha yako** :
+- **Linda faragha yako**:
  - generate mpya Address kwa kila onchain au Liquid mapokezi ili kupunguza ufuatiliaji kwenye Blockchain.
  - Tumia PayJoin inapopatikana ili kuongeza usiri kuhusu kiasi kinachotumwa kwenye mnyororo
  - Kwa usiri wa hali ya juu, unganisha Wallet yako na nodi yako ya Bitcoin kupitia seva ya Electrum badala ya kutumia nodi ya umma.
@@ -1063,23 +1063,23 @@ Ili kutumia **Bull Bitcoin Mobile** kwa usalama na kwa ustadi, fuata mapendekezo
 
 
 
-- Chagua mtandao unaofaa zaidi mahitaji yako** :
- - Onchain**: Inapendekezwa kwa uangalizi wa muda mrefu au miamala ya thamani kubwa (ada hazizingatiwi kuhusiana na kiasi).
- - Liquid**: Tumia kwa uhamisho wa haraka, wa gharama nafuu na usiri ulioimarishwa.
- - Umeme**: Chagua uhamisho wa papo hapo, wa gharama nafuu kwa kiasi kidogo. Ikiwa wewe ni watumiaji wawili wa Wallet Bull Bitcoin, chagua Liquid ili kuepuka ada za kubadilishana za Umeme <> Liquid kupitia Boltz.
+- **Chagua mtandao unaofaa zaidi mahitaji yako**:
+- **Onchain**: Inapendekezwa kwa uangalizi wa muda mrefu au miamala ya thamani kubwa (ada hazizingatiwi kuhusiana na kiasi).
+- **Liquid**: Tumia kwa uhamisho wa haraka, wa gharama nafuu na usiri ulioimarishwa.
+- **Umeme**: Chagua uhamisho wa papo hapo, wa gharama nafuu kwa kiasi kidogo. Ikiwa wewe ni watumiaji wawili wa Wallet Bull Bitcoin, chagua Liquid ili kuepuka ada za kubadilishana za Umeme <> Liquid kupitia Boltz.
 
 
 
 
 
-- Angalia anwani za usafirishaji kila wakati** :
+- **Angalia anwani za usafirishaji kila wakati**:
  - Kabla ya kutuma pesa, angalia Address kwa uangalifu. Fedha zilizotumwa kwa Address zisizo sahihi zinapotea milele. Tumia nakala/bandika au kuchanganua msimbo wa QR, usiwahi kunakili/urekebishe Address kwa mkono.
 
 
 
 
 
-- Boresha gharama** :
+- **Boresha gharama** :
  - Kwa miamala ya onchain, chagua ada zinazofaa (polepole, kati, haraka) kulingana na dharura na msongamano wa mtandao.
  - Tumia Liquid, au Umeme kwa kiasi kidogo.
  - Washa Replace-by-fee (RBF) (ona Kiambatisho 4) kwa usafirishaji wa mnyororo ikiwa unatarajia hitaji la kuongeza kasi ya uthibitishaji.
@@ -1099,12 +1099,12 @@ Ili kutumia **Bull Bitcoin Mobile** kwa usalama na kwa ustadi, fuata mapendekezo
 
 
 
-- Viungo na usaidizi rasmi:**
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : barua pepe ya usaidizi
- - [Tovuti rasmi ya Bull Bitcoin](https://bullbitcoin.com/) :** Taarifa kuhusu huduma za Bull Bitcoin, kuunda akaunti, ufikiaji wa programu
- - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Tazama kanuni, mageuzi na ramani ya barabara, huchangia maendeleo...
- - [Akaunti X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
- - Kikundi cha Telegram** cha simu ya mkononi ya Wallet: gumzo la kikundi na usaidizi, angalia ukurasa wa "Mipangilio".
+- Viungo na usaidizi rasmi:
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : barua pepe ya usaidizi
+- [Tovuti rasmi ya Bull Bitcoin](https://bullbitcoin.com/): **Taarifa kuhusu huduma za Bull Bitcoin, kuunda akaunti, ufikiaji wa programu**
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Tazama kanuni, mageuzi na ramani ya barabara, huchangia maendeleo...**
+- [Akaunti X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
+- Kikundi cha **Telegram** cha simu ya mkononi ya Wallet: gumzo la kikundi na usaidizi, angalia ukurasa wa "Mipangilio".
 
 
 
@@ -1119,7 +1119,7 @@ Ili kutumia **Bull Bitcoin Mobile** kwa usalama na kwa ustadi, fuata mapendekezo
 
 
 
-- Mafunzo na mafunzo:** **[Plan ₿ Network](https://planb.network/)** :
+- Mafunzo na mafunzo: **[Plan ₿ Network](https://planb.network/)**
  - Inalinda kifungu chako cha urejeshi
 
 
@@ -1133,8 +1133,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Liquid Network** :
- - [Kamusi](https://planb.network/resources/glossary/Liquid-network)**
+- **Liquid Network** :
+- [Kamusi](https://planb.network/resources/glossary/liquid-network)
 
 
 
@@ -1145,8 +1145,8 @@ https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-- Lightning Network** :
- - [Kamusi](https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Kamusi](https://planb.network/resources/glossary/lightning-network)
 
 
 
@@ -1184,31 +1184,31 @@ Bull Bitcoin ni bora zaidi kwa kanuni zake za Commitment hadi Cypherpunk na maad
 
 
 
-- Mtazamo wa kipekee kwenye Bitcoin** : Mfumo huu ni kweli kwa dira ya sarafu iliyogatuliwa, inayostahimili udhibiti.
+- **Mtazamo wa kipekee kwenye Bitcoin**: Mfumo huu ni kweli kwa dira ya sarafu iliyogatuliwa, inayostahimili udhibiti.
 
 
 
 
 
-- Wasio mlinzi** : Watumiaji hubakia na udhibiti kamili wa Bitcoins zao kwa kutuma pesa kwenye portfolio zao.
+- **Wasio mlinzi**: Watumiaji hubakia na udhibiti kamili wa Bitcoins zao kwa kutuma pesa kwenye portfolio zao.
 
 
 
 
 
-- Usiri**: Ukusanyaji mdogo wa data ya kibinafsi, na chaguo za ununuzi bila KYC kwa miamala ya chini ya 999 USD. Data inalindwa kwa mujibu wa kanuni (FINTRAC nchini Kanada, AMF nchini Ufaransa).
+- **Usiri**: Ukusanyaji mdogo wa data ya kibinafsi, na chaguo za ununuzi bila KYC kwa miamala ya chini ya 999 USD. Data inalindwa kwa mujibu wa kanuni (FINTRAC nchini Kanada, AMF nchini Ufaransa).
 
 
 
 
 
-- Uwazi**: Hakuna ada zilizofichwa, gharama zinajumuishwa katika uenezaji (tofauti kati ya bei za ununuzi na mauzo).
+- **Uwazi**: Hakuna ada zilizofichwa, gharama zinajumuishwa katika uenezaji (tofauti kati ya bei za ununuzi na mauzo).
 
 
 
 
 
-- Mamlaka ya kifedha**: Bull Bitcoin inakuza uhuru kutoka kwa mifumo ya jadi ya benki na taasisi kuu.
+- **Mamlaka ya kifedha**: Bull Bitcoin inakuza uhuru kutoka kwa mifumo ya jadi ya benki na taasisi kuu.
 
 
 
@@ -1218,19 +1218,19 @@ Bull Bitcoin ni bora zaidi kwa kanuni zake za Commitment hadi Cypherpunk na maad
 
 
 
-- Amana ya Fiat** : Watumiaji wanaweza kufadhili akaunti yao ya Bull Bitcoin kwa kutumia sarafu ya fiat (CAD, EUR, n.k.) kupitia uhamisho wa benki au kadi ya pesa/debit katika ofisi za posta zilizochaguliwa za Kanada.
+- **Amana ya Fiat**: Watumiaji wanaweza kufadhili akaunti yao ya Bull Bitcoin kwa kutumia sarafu ya fiat (CAD, EUR, n.k.) kupitia uhamisho wa benki au kadi ya pesa/debit katika ofisi za posta zilizochaguliwa za Kanada.
 
 
 
 
 
-- Ununuzi wa Bitcoin** : Watumiaji wanaweza kununua Bitcoin ambayo inatumwa moja kwa moja kwenye jalada lao lisilo la kuweka, ikihakikisha udhibiti kamili wa fedha zao.
+- **Ununuzi wa Bitcoin**: Watumiaji wanaweza kununua Bitcoin ambayo inatumwa moja kwa moja kwenye jalada lao lisilo la kuweka, ikihakikisha udhibiti kamili wa fedha zao.
 
 
 
 
 
-- Ununuzi ulioratibiwa wa Bitcoin**: Bull Bitcoin inatoa huduma ya ununuzi unaorudiwa kiotomatiki (DCA - Wastani wa Gharama ya Dola) mara kwa mara, ikitegemea salio lako linalopatikana, na uhamishaji wa moja kwa moja wa Bitcoins hadi Wallet inayodhibitiwa na mtumiaji, na hivyo kupunguza athari za kubadilika kwa bei.
+- **Ununuzi ulioratibiwa wa Bitcoin**: Bull Bitcoin inatoa huduma ya ununuzi unaorudiwa kiotomatiki (DCA - Wastani wa Gharama ya Dola) mara kwa mara, ikitegemea salio lako linalopatikana, na uhamishaji wa moja kwa moja wa Bitcoins hadi Wallet inayodhibitiwa na mtumiaji, na hivyo kupunguza athari za kubadilika kwa bei.
 
 
 
@@ -1241,37 +1241,37 @@ Kumbuka kuwa chaguo linaloitwa "AutoBuy" hukuruhusu kubadilisha fiti zako mara t
 
 
 
-- Nunua Bitcoin kwa bei maalum 'Agizo la Kikomo'**: Inakuruhusu kununua Bitcoin kwa bei iliyobainishwa mapema na mtumiaji, ambayo inatekelezwa kiotomatiki wakati bei ya faharasa ya Bull Bitcoin inapofikia au kushuka chini ya kikomo kilichowekwa.
+- Nunua Bitcoin kwa bei maalum **'Agizo la Kikomo'**: Inakuruhusu kununua Bitcoin kwa bei iliyobainishwa mapema na mtumiaji, ambayo inatekelezwa kiotomatiki wakati bei ya faharasa ya Bull Bitcoin inapofikia au kushuka chini ya kikomo kilichowekwa.
 
 
 
 
 
-- Kuuza Bitcoin**: Watumiaji wanaweza kuuza Bitcoins zao na kupokea fedha kwa sarafu ya fiat moja kwa moja kwenye akaunti yao ya benki kupitia uhamisho wa benki au SEPA.
+- **Kuuza Bitcoin**: Watumiaji wanaweza kuuza Bitcoins zao na kupokea fedha kwa sarafu ya fiat moja kwa moja kwenye akaunti yao ya benki kupitia uhamisho wa benki au SEPA.
 
 
 
 
 
-- Malipo ya watu wengine**: Bull Bitcoin huwezesha watumiaji kutuma pesa za fiat kwa akaunti za benki kutoka kwa Bitcoins zao, kwa uwazi kabisa kwa mpokeaji.
+- **Malipo ya watu wengine**: Bull Bitcoin huwezesha watumiaji kutuma pesa za fiat kwa akaunti za benki kutoka kwa Bitcoins zao, kwa uwazi kabisa kwa mpokeaji.
 
 
 
 
 
-- Bull Bitcoin Prime**: Bull Bitcoin Prime ni huduma inayolipishwa kwa wateja wenye thamani ya juu na biashara, inayotoa suluhu zilizobinafsishwa na usaidizi unaolipishwa. Hii ni pamoja na ufikiaji wa ada zilizopunguzwa, msimamizi wa akaunti aliyejitolea, na huduma za kampuni zilizowekwa maalum. Huduma hii inalenga taasisi, wafanyabiashara wa kitaalamu na wateja wa makampuni wanaotafuta utaalamu wa kina na matibabu ya kipaumbele.
+- **Bull Bitcoin Prime**: Bull Bitcoin Prime ni huduma inayolipishwa kwa wateja wenye thamani ya juu na biashara, inayotoa suluhu zilizobinafsishwa na usaidizi unaolipishwa. Hii ni pamoja na ufikiaji wa ada zilizopunguzwa, msimamizi wa akaunti aliyejitolea, na huduma za kampuni zilizowekwa maalum. Huduma hii inalenga taasisi, wafanyabiashara wa kitaalamu na wateja wa makampuni wanaotafuta utaalamu wa kina na matibabu ya kipaumbele.
 
 
 
 
 
-- Simu ya Wallet**: Bull Bitcoin inatoa chanzo huria, Wallet ya simu inayojidhibiti, inayopatikana kwenye Android na iOS, inayoauni miamala ya onchain, Liquid na Lightning Network.
+- **Simu ya Wallet**: Bull Bitcoin inatoa chanzo huria, Wallet ya simu inayojidhibiti, inayopatikana kwenye Android na iOS, inayoauni miamala ya onchain, Liquid na Lightning Network.
 
 
 
 
 
-- Usaidizi wa kielimu**: Miongozo isiyolipishwa na ufundishaji unaobinafsishwa ili kuwasaidia watumiaji kuunda, kulinda na kudhibiti portfolio zao za Bitcoin, kuimarisha uhuru wa kifedha.
+- **Usaidizi wa kielimu**: Miongozo isiyolipishwa na ufundishaji unaobinafsishwa ili kuwasaidia watumiaji kuunda, kulinda na kudhibiti portfolio zao za Bitcoin, kuimarisha uhuru wa kifedha.
 
 
 
@@ -1281,10 +1281,10 @@ Kumbuka kuwa chaguo linaloitwa "AutoBuy" hukuruhusu kubadilisha fiti zako mara t
 
 
 
-- Udhibiti**: Imesajiliwa na FINTRAC (Kanada) na AMF (Ufaransa), Bull Bitcoin inatii mahitaji ya KYC/AML.
+- **Udhibiti**: Imesajiliwa na FINTRAC (Kanada) na AMF (Ufaransa), Bull Bitcoin inatii mahitaji ya KYC/AML.
 
 
 
 
 
-- Usalama**: Matumizi ya portfolio salama na mapendekezo ya hifadhi ya nje ya mtandao. Data ya kibinafsi inapangishwa kwenye miundombinu ya Bitcoin ya Bull, ambayo inajisimamia yenyewe kwa 100% na haitegemei wahusika wengine.
+- **Usalama**: Matumizi ya portfolio salama na mapendekezo ya hifadhi ya nje ya mtandao. Data ya kibinafsi inapangishwa kwenye miundombinu ya Bitcoin ya Bull, ambayo inajisimamia yenyewe kwa 100% na haitegemei wahusika wengine.

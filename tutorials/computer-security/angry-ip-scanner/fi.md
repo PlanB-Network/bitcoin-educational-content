@@ -1,5 +1,5 @@
 ---
-name: Vihainen IP-skanneri
+name: Angry IP Scanner
 description: Yksinkertainen tapa skannata verkko
 ---
 ![cover](assets/cover.webp)
@@ -38,7 +38,7 @@ Tässä käytämme sitä **Windows 11**:ssä, mutta sitä on täysin mahdollista
 
 
 
-Jos haluat mennä pidemmälle, katso Nmapin opetusohjelma :
+Jos haluat mennä pidemmälle, katso Nmapin opetusohjelma:
 
 
 
@@ -84,8 +84,8 @@ Kun käynnistät työkalun ensimmäistä kertaa, lue ohjeet "**Aloittaminen**"-i
 
 
 
-- Feeder**: moduuli, joka vastaa skannattavien IP-osoitteiden luetteloiden luomisesta satunnaisesta IP-alueesta tai IP-osoitteiden luettelon sisältävästä tiedostosta.
-- Fetcher**: joukko moduuleja, joilla haetaan tietoa verkossa olevista isännistä. On esimerkiksi noutajia MAC-osoitteiden havaitsemiseen, porttien skannaamiseen, isännän nimien havaitsemiseen tai HTTP-pyyntöjen lähettämiseen.
+- **Feeder**: moduuli, joka vastaa skannattavien IP-osoitteiden luetteloiden luomisesta satunnaisesta IP-alueesta tai IP-osoitteiden luettelon sisältävästä tiedostosta.
+- **Fetcher**: joukko moduuleja, joilla haetaan tietoa verkossa olevista isännistä. On esimerkiksi noutajia MAC-osoitteiden havaitsemiseen, porttien skannaamiseen, isännän nimien havaitsemiseen tai HTTP-pyyntöjen lähettämiseen.
 
 
 

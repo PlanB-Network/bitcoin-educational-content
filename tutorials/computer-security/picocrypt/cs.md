@@ -52,7 +52,7 @@ PicoCrypt je zcela **zdarma a s otevřeným zdrojovým kódem** a je k dispozici
 
 
 
-Šifrovací software Picocrypt** se prezentuje jako **alternativa** k jiným známým řešením, jako jsou **VeraCrypt** a **Cryptomator** (*určené k šifrování dat v cloudových prostředích*) nebo **AxCrypt**. Mimochodem, na oficiálním GitHubu Picocryptu najdete srovnání s některými konkurenty:
+Šifrovací software **Picocrypt** se prezentuje jako **alternativa** k jiným známým řešením, jako jsou **VeraCrypt** a **Cryptomator** (*určené k šifrování dat v cloudových prostředích*) nebo **AxCrypt**. Mimochodem, na oficiálním GitHubu Picocryptu najdete srovnání s některými konkurenty:
 
 
 
@@ -74,17 +74,17 @@ PicoCrypt je zcela **zdarma a s otevřeným zdrojovým kódem** a je k dispozici
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Zdroj : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Zdroj: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 
-Picocrypt je **velmi lehký**, váží pouhé **3 MB** a nemusí se instalovat: je to **přenosná aplikace**, jejíž výhodou je, že nevyžaduje práva správce! Nezanedbává však bezpečnost, protože se spoléhá na **odolné a spolehlivé algoritmy** :
+Picocrypt je **velmi lehký**, váží pouhé **3 MB** a nemusí se instalovat: je to **přenosná aplikace**, jejíž výhodou je, že nevyžaduje práva správce! Nezanedbává však bezpečnost, protože se spoléhá na **odolné a spolehlivé algoritmy**:
 
 
 
 
 
-- Šifrovací algoritmus XChaCha20**
+- **Šifrovací algoritmus XChaCha20**
 - Funkce obcházení kláves **Argon2**
 
 
@@ -93,7 +93,7 @@ Kromě právě zmíněných výhod vás zaujme především **jeho snadné použ
 
 
 
-Potřebuje jen jednu věc: **Jak je vidět z výše uvedené srovnávací tabulky (poslední řádek), je to v plánu. Ale protože se jedná o open source, nic vám nebrání podívat se na jeho zdrojový kód.
+Potřebuje jen jednu věc: **Jak je vidět z výše uvedené srovnávací tabulky (poslední řádek), je to v plánu. Ale protože se jedná o open source, nic vám nebrání podívat se na jeho zdrojový kód.**
 
 
 
@@ -159,11 +159,11 @@ Než si povíme něco o dešifrování dat, uvedeme si několik informací o ně
 
 
 
-- Paranoidní režim**: použijte nejvyšší úroveň zabezpečení, kterou Picocrypt nabízí. Nástroj použije několik kaskádových šifrovacích algoritmů (XChaCha20 a Serpent) a HMAC-SHA3 místo BLAKE2b pro ověřování dat.
-- Reed-Solomon**: implementace *Reed-Solomon* kódů pro opravu chyb, které usnadňují opravu chyb u poškozených dat. To umožňuje podporovat úroveň poškození přibližně 3 % souboru.
-- Rozdělit na části** nebo **rozdělit na několik částí**: pokud šifrujete velký soubor, můžete Picocrypt požádat, aby jej rozdělil na několik částí. To může usnadnit přenos souboru.
-- Komprimovat soubory** nebo **Komprimovat soubory**: komprese souborů pro snížení velikosti šifrovaných souborů.
-- Odstraněné soubory** nebo **Fichiers supprimés**: odstranění zdrojových souborů, aby zůstala pouze zašifrovaná verze
+- **Paranoidní režim**: použijte nejvyšší úroveň zabezpečení, kterou Picocrypt nabízí. Nástroj použije několik kaskádových šifrovacích algoritmů (XChaCha20 a Serpent) a HMAC-SHA3 místo BLAKE2b pro ověřování dat.
+- **Reed-Solomon**: implementace *Reed-Solomon* kódů pro opravu chyb, které usnadňují opravu chyb u poškozených dat. To umožňuje podporovat úroveň poškození přibližně 3 % souboru.
+- **Rozdělit na části** nebo **rozdělit na několik částí**: pokud šifrujete velký soubor, můžete Picocrypt požádat, aby jej rozdělil na několik částí. To může usnadnit přenos souboru.
+- **Komprimovat soubory** nebo **Komprimovat soubory**: komprese souborů pro snížení velikosti šifrovaných souborů.
+- **Odstraněné soubory** nebo **Fichiers supprimés**: odstranění zdrojových souborů, aby zůstala pouze zašifrovaná verze
 
 
 

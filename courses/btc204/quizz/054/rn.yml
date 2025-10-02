@@ -1,0 +1,10 @@
+question: Izina ry’ubuhinga bwo gukingira amakuru bukoreshwa mu kwishura mu gacerere kugira ngo hashingwe ibanga rusangi hagati y’uwuronka n’uwutanga?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+explanation: |
+  Igiharuro ca ECDH (Elliptic-Curve Diffie-Hellman) gikoreshwa mu kwishura mu gacerere hagati y’imfunguruzo zibiri z’uwuronka n’umubare w’imfunguruzo zibiri z’uwurungitse kugira ngo haboneke ibanga ry’abantu bose rizotuma habaho ugukura kw’inyungu yihariye Address.
+  
+reviewed: false

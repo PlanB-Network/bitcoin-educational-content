@@ -1,0 +1,9 @@
+question: Kwa nini saizi ya seti ya UTXO inaelekea kukua kimuundo baada ya muda?
+answer: Kila malipo kwa ujumla huunda UTXO mpya mbili
+wrong_answers:
+  - Malipo ya kawaida hayatumii UTXO katika pembejeo
+  - Kila Fork huzidisha idadi ya UTXO zilizopo
+  - Idadi ya bitcoins ambayo inaweza kuundwa haina mwisho
+explanation: |
+  Muamala wa malipo hutumia UTXO moja na mara nyingi huunda mbili (malipo + Exchange), ikiongeza saizi ya jumla ya seti.
+reviewed: true

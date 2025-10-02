@@ -34,31 +34,31 @@ O Fedora também inclui um ambiente de trabalho, que é o Interface através do 
 
 
 
-Entre a multiplicidade de distribuições Linux disponíveis, o Fedora destaca-se em particular por :
+Entre a multiplicidade de distribuições Linux disponíveis, o Fedora destaca-se em particular por:
 
 
 
 
 
-- Modularidade**: Compatível com diferentes arquitecturas de processadores, o Fedora pode ser instalado na maioria dos computadores, mesmo os de baixa potência, adaptando-se perfeitamente às suas necessidades.
+- **Modularidade**: Compatível com diferentes arquitecturas de processadores, o Fedora pode ser instalado na maioria dos computadores, mesmo os de baixa potência, adaptando-se perfeitamente às suas necessidades.
 
 
 
 
 
-- Um Interface simples e intuitivo**: O Fedora combina um Interface gráfico moderno com um poderoso Interface de linha de comando, tornando-o fácil de usar para todos os perfis.
+- **Um Interface simples e intuitivo**: O Fedora combina um Interface gráfico moderno com um poderoso Interface de linha de comando, tornando-o fácil de usar para todos os perfis.
 
 
 
 
 
-- Estabilidade do kernel**: Baseado no Red Hat, o Fedora é conhecido pela fiabilidade das suas actualizações, especialmente as actualizações do kernel, que são efectuadas sem grandes bugs graças às contribuições gratuitas de uma grande comunidade.
+- **Estabilidade do kernel**: Baseado no Red Hat, o Fedora é conhecido pela fiabilidade das suas actualizações, especialmente as actualizações do kernel, que são efectuadas sem grandes bugs graças às contribuições gratuitas de uma grande comunidade.
 
 
 
 
 
-- Instalação rápida e fácil**: com um tamanho de imagem de apenas 3 GB, a instalação é rápida e fácil, mesmo em máquinas com recursos limitados.
+- **Instalação rápida e fácil**: com um tamanho de imagem de apenas 3 GB, a instalação é rápida e fácil, mesmo em máquinas com recursos limitados.
 
 
 
@@ -66,25 +66,25 @@ Entre a multiplicidade de distribuições Linux disponíveis, o Fedora destaca-s
 
 
 
-Dependendo do seu perfil e utilização, o Fedora oferece edições que se adaptam às suas necessidades. Encontrará principalmente :
+Dependendo do seu perfil e utilização, o Fedora oferece edições que se adaptam às suas necessidades. Encontrará principalmente:
 
 
 
 
 
-- Fedora Workstation**: Ideal para utilização pessoal e/ou profissional nos seus computadores, esta edição é instalada com utilitários genéricos, tais como browsers, uma suite de escritório (editores de texto) e software de reprodução de multimédia.
+- **Fedora Workstation**: Ideal para utilização pessoal e/ou profissional nos seus computadores, esta edição é instalada com utilitários genéricos, tais como browsers, uma suite de escritório (editores de texto) e software de reprodução de multimédia.
 
 
 
 
 
-- Servidor Fedora**: Esta edição é dedicada à gestão de servidores. O Fedora Server inclui uma variedade de ferramentas para o ajudar a implementar e gerir servidores à sua própria escala.
+- **Servidor Fedora**: Esta edição é dedicada à gestão de servidores. O Fedora Server inclui uma variedade de ferramentas para o ajudar a implementar e gerir servidores à sua própria escala.
 
 
 
 
 
-- Fedora CoreOS**: Quer executar e implementar facilmente aplicações na nuvem? O Fedora CoreOS é a edição que lhe dá as ferramentas para criar e gerir imagens com Docker e Kubernetes, por exemplo.
+- **Fedora CoreOS**: Quer executar e implementar facilmente aplicações na nuvem? O Fedora CoreOS é a edição que lhe dá as ferramentas para criar e gerir imagens com Docker e Kubernetes, por exemplo.
 
 
 
@@ -103,7 +103,7 @@ A instalação da estação de trabalho Fedora requer a seguinte configuração 
 
 - Uma chave USB de pelo menos **8 GB** para arrancar o sistema operativo.
 - Pelo menos **40 GB de espaço livre** no disco Hard do seu computador.
-- 4 GB de RAM** para uma experiência suave.
+- 4 GB de RAM para uma experiência suave.
 
 
 
@@ -156,7 +156,7 @@ Ligue o computador e aceda à BIOS durante o arranque, premindo as teclas `F2`, 
 
 
 
-Nas opções de arranque, selecione a sua chave USB como o dispositivo de arranque principal. Ao confirmar esta escolha, o seu computador irá reiniciar e iniciar automaticamente o instalador do Fedora** presente na chave USB.
+Nas opções de arranque, selecione a sua chave USB como o dispositivo de arranque principal. Ao confirmar esta escolha, o seu computador irá reiniciar e iniciar automaticamente o instalador do **Fedora** presente na chave USB.
 
 
 
@@ -169,7 +169,7 @@ Nesta fase, tem as seguintes opções:
 
 
 
-- Testar media**: Esta opção permite-lhe verificar a integridade da pen USB e garantir que todas as dependências necessárias para uma instalação correta estão presentes. Este é um passo opcional, mas recomendado se tiver dúvidas sobre a pen USB.
+- **Testar media**: Esta opção permite-lhe verificar a integridade da pen USB e garantir que todas as dependências necessárias para uma instalação correta estão presentes. Este é um passo opcional, mas recomendado se tiver dúvidas sobre a pen USB.
 
 
 
@@ -183,7 +183,7 @@ Nesta fase, tem as seguintes opções:
 
 
 
-- Iniciar o Fedora**: Isto lança o Fedora em modo "live", sem instalação.
+- **Iniciar o Fedora**: Isto lança o Fedora em modo "live", sem instalação.
 
 
 
@@ -205,7 +205,7 @@ O primeiro passo é selecionar o **idioma de instalação** e o **esquema do tec
 
 
 
-- Selecionar o disco de instalação :
+- Selecionar o disco de instalação:
 
 
 
@@ -223,7 +223,7 @@ Se o disco estiver vazio, o Fedora utilizará automaticamente todo o espaço dis
 
 
 
-- Encriptação :
+- Encriptação:
 
 
 
@@ -368,9 +368,9 @@ O Fedora inclui o pacote de escritório **LibreOffice** por defeito, que oferece
 
 
 
-- Writer** para processamento de texto.
-- Calc** para folhas de cálculo.
-- Impress** para criar apresentações.
+- **Writer** para processamento de texto.
+- **Calc** para folhas de cálculo.
+- **Impress** para criar apresentações.
 
 
 ## Instalar aplicações
@@ -415,7 +415,7 @@ Poderá ser necessário **reiniciar** depois de as actualizações terem sido in
 
 
 
-- Abra um terminal e comece por atualizar os **repositórios** para se certificar de que tem as versões mais recentes do :
+- Abra um terminal e comece por atualizar os **repositórios** para se certificar de que tem as versões mais recentes do:
 
 
 

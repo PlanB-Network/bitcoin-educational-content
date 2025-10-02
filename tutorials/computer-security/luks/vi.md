@@ -131,7 +131,7 @@ Bây giờ chúng ta sẽ xóa toàn bộ dữ liệu trên ổ USB. Thao tác n
 
 
 
-**Hãy đảm bảo bạn nhắm đúng tệp thiết bị!
+**Hãy đảm bảo bạn nhắm đúng tệp thiết bị!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Tại đây, lệnh phụ "`luksFormat`" sẽ khởi tạo và định dạng thiết bị để sử dụng mã hóa LUKS. Bạn sẽ được nhắc xác nhận thao tác này bằng cách nhập `YES` bằng chữ in hoa, sau đó định nghĩa *passphrase*. **Hãy chọn *passphrase* mạnh mẽ để đảm bảo rằng, trong trường hợp mất dữ liệu, kẻ tấn công không thể phát hiện ra nó bằng các cuộc tấn công brute-force.
+Tại đây, lệnh phụ "`luksFormat`" sẽ khởi tạo và định dạng thiết bị để sử dụng mã hóa LUKS. Bạn sẽ được nhắc xác nhận thao tác này bằng cách nhập `YES` bằng chữ in hoa, sau đó định nghĩa *passphrase*. **Hãy chọn** *passphrase* **mạnh mẽ để đảm bảo rằng, trong trường hợp mất dữ liệu, kẻ tấn công không thể phát hiện ra nó bằng các cuộc tấn công brute-force.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Ở đây, vị trí mục tiêu** được chỉ định là "**/dev/mappe/usbkey1**"**, tại sao?
+**Ở đây, vị trí mục tiêu** được chỉ định là "**/dev/mappe/usbkey1**", tại sao?
 
 
 

@@ -1,0 +1,9 @@
+question: Kích thước tối đa của tệp blkNNNNN.dat trước khi tệp mới được tạo là bao nhiêu?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256 GiB
+  - 128 GiB
+explanation: |
+  Các tệp blkNNNNN.dat lưu trữ các khối theo trình tự và đạt kích thước khoảng 128 MiB trước khi Bitcoin core mở khối tiếp theo.
+reviewed: true

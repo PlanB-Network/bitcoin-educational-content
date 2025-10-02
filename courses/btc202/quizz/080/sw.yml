@@ -1,0 +1,9 @@
+question: Ni nini thamani chaguo-msingi ya paramu ya uunganisho mkubwa katika Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections huweka vikwazo kwa jumla ya idadi ya miunganisho inayoingia na kutoka. Thamani chaguo-msingi ni 125.
+reviewed: true

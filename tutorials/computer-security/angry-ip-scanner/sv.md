@@ -38,7 +38,7 @@ Här kommer vi att använda det på **Windows 11**, men det är fullt möjligt a
 
 
 
-Om du vill gå vidare kan du läsa handledningen om Nmap :
+Om du vill gå vidare kan du läsa handledningen om Nmap:
 
 
 
@@ -84,8 +84,8 @@ Ta dig tid att läsa instruktionerna i fönstret "**Getting Started**" vid förs
 
 
 
-- Feeder**: modul som genererar listor med IP-adresser som ska skannas, från ett slumpmässigt IP-intervall eller en fil med en lista med IP-adresser.
-- Fetcher**: en uppsättning moduler för att hämta information om värdar i nätverket. Det finns t.ex. fetchers för att upptäcka MAC-adresser, skanna portar, upptäcka värdnamn eller skicka HTTP-begäranden.
+- **Feeder**: modul som genererar listor med IP-adresser som ska skannas, från ett slumpmässigt IP-intervall eller en fil med en lista med IP-adresser.
+- **Fetcher**: en uppsättning moduler för att hämta information om värdar i nätverket. Det finns t.ex. fetchers för att upptäcka MAC-adresser, skanna portar, upptäcka värdnamn eller skicka HTTP-begäranden.
 
 
 

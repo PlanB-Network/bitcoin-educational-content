@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -43,7 +43,7 @@ Graylog to narzędzie do analizy i monitorowania, które ułatwia identyfikację
 
 
 
-**Uwaga: darmowa wersja, **Graylog Open**, nie jest SIEM-em takim jak Wazuh, zwłaszcza że brakuje jej prawdziwych funkcji wykrywania włamań.
+**Uwaga: darmowa wersja, Graylog Open, nie jest SIEM-em takim jak Wazuh, zwłaszcza że brakuje jej prawdziwych funkcji wykrywania włamań.**
 
 
 
@@ -57,9 +57,9 @@ Graylog to narzędzie do analizy i monitorowania, które ułatwia identyfikację
 
 
 
-- MongoDB 7**, aktualna zalecana wersja dla Graylog (minimum 5.0.7, maksimum 7.x)
-- OpenSearch**, open source Fork Elasticsearch stworzony przez Amazon (minimum 1.1.x, maksimum 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, aktualna zalecana wersja dla Graylog (minimum 5.0.7, maksimum 7.x)
+- **OpenSearch**, open source Fork Elasticsearch stworzony przez Amazon (minimum 1.1.x, maksimum 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Uwaga: **Instalacja OpenSearch jest opcjonalna** w przypadku korzystania z **Graylog Data Node**.
+**Uwaga:** Instalacja OpenSearch jest opcjonalna w przypadku korzystania z **Graylog Data Node**.
 
 
 
@@ -132,7 +132,7 @@ echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg] http://repo.mo
 
 
 
-Następnie zaktualizujemy pamięć podręczną pakietów i spróbujemy zainstalować MongoDB :
+Następnie zaktualizujemy pamięć podręczną pakietów i spróbujemy zainstalować MongoDB:
 
 
 
@@ -149,8 +149,8 @@ Nie można zainstalować MongoDB, ponieważ brakuje zależności: **libssl1.1**.
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -279,14 +279,14 @@ Ta konfiguracja OpenSearch jest przeznaczona do konfiguracji pojedynczego węzł
 
 
 
-- cluster.name: graylog** : ten parametr określa nazwę klastra OpenSearch o nazwie "**graylog**".
-- node.name: ${HOSTNAME}**: nazwa węzła jest ustawiana dynamicznie, aby pasowała do nazwy lokalnej maszyny z systemem Linux. Nawet jeśli mamy tylko jeden węzeł, ważne jest, aby nazwać go poprawnie.
-- path.data: /var/lib/opensearch**: ta ścieżka określa, gdzie OpenSearch przechowuje swoje dane na komputerze lokalnym, w tym przypadku w "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: ta ścieżka określa, gdzie przechowywane są pliki dziennika OpenSearch, tutaj w "**/var/log/opensearch**".
-- discovery.type: single-node**: ten parametr konfiguruje OpenSearch do pracy z pojedynczym węzłem, stąd wybór opcji "**single-node**".
-- network.host: 127.0.0.1**: ta konfiguracja zapewnia, że OpenSearch nasłuchuje tylko na lokalnej pętli Interface, co jest wystarczające, ponieważ znajduje się na tym samym serwerze co Graylog.
-- action.auto_create_index: false**: wyłączając automatyczne tworzenie indeksu, OpenSearch nie będzie automatycznie tworzyć indeksu, gdy dokument zostanie wysłany bez istniejącego indeksu.
-- plugins.security.disabled: true**: ta opcja dezaktywuje wtyczkę bezpieczeństwa OpenSearch, co oznacza, że nie będzie uwierzytelniania, zarządzania dostępem ani szyfrowania komunikacji. To ustawienie oszczędza czas podczas konfigurowania Graylog, ale należy go unikać w produkcji (patrz [ta strona](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: ten parametr określa nazwę klastra OpenSearch o nazwie "**graylog**".
+- node.name: ${HOSTNAME}: nazwa węzła jest ustawiana dynamicznie, aby pasowała do nazwy lokalnej maszyny z systemem Linux. Nawet jeśli mamy tylko jeden węzeł, ważne jest, aby nazwać go poprawnie.
+- path.data: /var/lib/opensearch: ta ścieżka określa, gdzie OpenSearch przechowuje swoje dane na komputerze lokalnym, w tym przypadku w "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: ta ścieżka określa, gdzie przechowywane są pliki dziennika OpenSearch, tutaj w "**/var/log/opensearch**".
+- discovery.type: single-node: ten parametr konfiguruje OpenSearch do pracy z pojedynczym węzłem, stąd wybór opcji "**single-node**".
+- network.host: 127.0.0.1: ta konfiguracja zapewnia, że OpenSearch nasłuchuje tylko na lokalnej pętli Interface, co jest wystarczające, ponieważ znajduje się na tym samym serwerze co Graylog.
+- **action.auto_create_index: false**: wyłączając automatyczne tworzenie indeksu, OpenSearch nie będzie automatycznie tworzyć indeksu, gdy dokument zostanie wysłany bez istniejącego indeksu.
+- **plugins.security.disabled: true**: ta opcja dezaktywuje wtyczkę bezpieczeństwa OpenSearch, co oznacza, że nie będzie uwierzytelniania, zarządzania dostępem ani szyfrowania komunikacji. To ustawienie oszczędza czas podczas konfigurowania Graylog, ale należy go unikać w produkcji (patrz [ta strona](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Przy wdrożonej tutaj konfiguracji **OpenSearch uruchomi się z 4 GB przydzielonej pamięci i może wzrosnąć do 4 GB**, więc nie będzie żadnych zmian pamięci podczas pracy. W tym przypadku konfiguracja uwzględnia fakt, że maszyna wirtualna ma łącznie **8 GB pamięci RAM**. Oba parametry muszą mieć taką samą wartość. Oznacza to zastąpienie linii :
+Przy wdrożonej tutaj konfiguracji **OpenSearch uruchomi się z 4 GB przydzielonej pamięci i może wzrosnąć do 4 GB**, więc nie będzie żadnych zmian pamięci podczas pracy. W tym przypadku konfiguracja uwzględnia fakt, że maszyna wirtualna ma łącznie **8 GB pamięci RAM**. Oba parametry muszą mieć taką samą wartość. Oznacza to zastąpienie linii:
 
 
 
@@ -327,7 +327,7 @@ Przy wdrożonej tutaj konfiguracji **OpenSearch uruchomi się z 4 GB przydzielon
 
 
 
-Z tymi liniami :
+Z tymi liniami:
 
 
 
@@ -350,7 +350,7 @@ Po zapisaniu pliku należy go zamknąć.
 
 
 
-Ponadto musimy sprawdzić konfigurację parametru "**max_map_count**" w jądrze Linux. Określa on limit obszarów pamięci mapowanych na proces, w celu zaspokojenia potrzeb naszej aplikacji. **OpenSearch**, podobnie jak Elasticsearch**, zaleca ustawienie tej wartości na "262144", aby uniknąć błędów zarządzania pamięcią.
+Ponadto musimy sprawdzić konfigurację parametru "**max_map_count**" w jądrze Linux. Określa on limit obszarów pamięci mapowanych na proces, w celu zaspokojenia potrzeb naszej aplikacji. **OpenSearch**, podobnie jak **Elasticsearch**, zaleca ustawienie tej wartości na "262144", aby uniknąć błędów zarządzania pamięcią.
 
 
 
@@ -431,8 +431,8 @@ Zacznijmy od skonfigurowania tych dwóch opcji:
 
 
 
-- password_secret**: ten parametr jest używany do zdefiniowania klucza używanego przez Graylog do zabezpieczenia przechowywania haseł użytkowników (w duchu klucza solenia). Klucz ten musi być **unikalny** i **losowy**.
-- root_password_sha2** : ten parametr odpowiada domyślnemu hasłu administratora w Graylog. Jest ono przechowywane jako Hash SHA-256.
+- **password_secret**: ten parametr jest używany do zdefiniowania klucza używanego przez Graylog do zabezpieczenia przechowywania haseł użytkowników (w duchu klucza solenia). Klucz ten musi być **unikalny** i **losowy**.
+- **root_password_sha2**: ten parametr odpowiada domyślnemu hasłu administratora w Graylog. Jest ono przechowywane jako Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Następnie trzeba było ponowić próbę połączenia z użytkownikiem "**admin*
 
 
 
-**To już nie ma miejsca. Wszystko, co musisz zrobić, to zalogować się przy użyciu konta administratora i hasła skonfigurowanego w wierszu poleceń
+**To już nie ma miejsca. Wszystko, co musisz zrobić, to zalogować się przy użyciu konta administratora i hasła skonfigurowanego w wierszu poleceń**
 
 
 
@@ -574,7 +574,7 @@ Następnie trzeba było ponowić próbę połączenia z użytkownikiem "**admin*
 
 
 
-**Witamy na Interface Grayloga!
+**Witamy na Interface Grayloga!**
 
 
 
@@ -661,7 +661,7 @@ Nowe wejście zostało utworzone i jest teraz aktywne. Graylog może teraz odbie
 ![Image](assets/fr/018.webp)
 
 
-**Uwaga: pojedynczy Input może być używany do przechowywania logów z kilku maszyn z systemem Linux.
+**Uwaga: pojedynczy Input może być używany do przechowywania logów z kilku maszyn z systemem Linux.**
 
 
 
@@ -669,7 +669,7 @@ Nowe wejście zostało utworzone i jest teraz aktywne. Graylog może teraz odbie
 
 
 
-Musimy utworzyć indeks w Graylog, aby przechowywać logi z maszyn z systemem Linux. Indeks** w Graylog to struktura przechowywania, która zawiera otrzymane logi, tj. otrzymane wiadomości. Graylog używa OpenSearch jako silnika pamięci masowej, a wiadomości są indeksowane, aby umożliwić szybkie i wydajne wyszukiwanie.
+Musimy utworzyć indeks w Graylog, aby przechowywać logi z maszyn z systemem Linux. **Indeks** w Graylog to struktura przechowywania, która zawiera otrzymane logi, tj. otrzymane wiadomości. Graylog używa OpenSearch jako silnika pamięci masowej, a wiadomości są indeksowane, aby umożliwić szybkie i wydajne wyszukiwanie.
 
 
 
@@ -701,7 +701,7 @@ Aby utworzyć nowy strumień, kliknij "**Strumienie**" w menu głównym Graylog.
 
 
 
-**Uwaga: wiadomości odpowiadające temu strumieniowi będą również zawarte w "**Default Stream**", chyba że zaznaczysz opcję "**Remove matches from 'Default Stream'**".
+**Uwaga: wiadomości odpowiadające temu strumieniowi będą również zawarte w "Default Stream", chyba że zaznaczysz opcję "Remove matches from 'Default Stream'".**
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-W tym pliku wstaw ten wiersz :
+W tym pliku wstaw ten wiersz:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Jeśli masz kilka serwerów i chcesz przeanalizować dzienniki określonego serwera, określ jego nazwę dodatkowo :
+Jeśli masz kilka serwerów i chcesz przeanalizować dzienniki określonego serwera, określ jego nazwę dodatkowo:
 
 
 
@@ -939,7 +939,7 @@ Nieudane próby połączenia są podejmowane z maszyny o adresie IP Address "**1
 
 
 
-W takim przypadku używany filtr może być :
+W takim przypadku używany filtr może być:
 
 
 

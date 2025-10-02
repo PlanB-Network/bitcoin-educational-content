@@ -1,0 +1,9 @@
+question: 在 Bitcoin core 中，dbcache 参数能做什么？
+answer: 分配 RAM 以加速 IBD
+wrong_answers:
+  - 确定 Blockchain 尺寸
+  - 调整 Mining 的最大难度
+  - 限制连接的同行者数量
+explanation: |
+  dbcache 参数可增加用于临时存储 UTXO 集的内存空间，从而加快初始同步过程。
+reviewed: true

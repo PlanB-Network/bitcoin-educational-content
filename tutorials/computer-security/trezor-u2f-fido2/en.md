@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Strengthen your online security with Trezor
 ---
 ![cover](assets/cover.webp)
@@ -17,7 +17,7 @@ This method is based on asymmetrical cryptography: no secret data is transmitted
 In addition to U2F, which enables two-factor authentication, Trezors also support FIDO2 (*Fast IDentity Online 2.0*), an evolution of U2F. This is a standardized authentication protocol from 2018, which extends the logic of U2F and aims to completely replace passwords. It is based on two components: *WebAuthn* (browser side) and *CTAP2* (physical key side). FIDO2 enables "passwordless" authentication: users identify themselves solely via their Trezor device, which acts as a unique cryptographic token, with no additional password. This protocol is now compatible with a number of online services, particularly those geared towards the enterprise.
 
 
-In addition to "passwordless*" functionality, FIDO2 also enables two-factor authentication in a similar way to U2F.
+In addition to "passwordless" functionality, FIDO2 also enables two-factor authentication in a similar way to U2F.
 
 
 FIDO2 also introduces the notion of resident credentials, i.e. identifiers stored directly in the Trezor, which include both the private key enabling connection and the user's identification information. This mechanism enables truly password-free authentication: simply plug in your Trezor and confirm access, without entering either ID or password. Conversely, non-resident credentials, which are more conventional, store only the private key in the device; the user ID remains stored on the server side, and must therefore be entered at each connection. We'll look at how to save them with your Trezor later on.
@@ -101,7 +101,7 @@ On Bitwarden, for example, you can access this code by clicking on "*View recove
 I recommend that you keep this code in a different place from where you store your main password, to prevent them being stolen together. For example, if your password is saved in a password manager, keep your 2FA emergency code on paper, separately.
 
 
-This approach offers you two levels of backup in the event of loss of your Trezor for 2FA authentication: a first backup using the mnemonic phrase for all your accounts, and a second one specific to each account with the emergency codes. However, it is important **not to confuse the role of the mnemonic with that of the emergency code** :
+This approach offers you two levels of backup in the event of loss of your Trezor for 2FA authentication: a first backup using the mnemonic phrase for all your accounts, and a second one specific to each account with the emergency codes. However, it is important **not to confuse the role of the mnemonic with that of the emergency code**:
 
 
 - The 12- or 24-word mnemonic phrase gives you access not only to the keys used for 2FA on all your accounts, but also to your bitcoins secured with your Trezor ;
@@ -247,7 +247,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 ```
 
 
-Simply replace `<CREDENTIAL_ID>` with one of your identifiers. For example, in my case, this would give :
+Simply replace `<CREDENTIAL_ID>` with one of your identifiers. For example, in my case, this would give:
 
 
 ```shell

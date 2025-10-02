@@ -1,0 +1,9 @@
+question: Welches ist die am weitesten verbreitete Bitcoin-Knoten-Implementierung?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Klassisch
+  - Bcoin
+explanation: |
+  Mit etwa 9 von 10 Knoten im Netz ist Bitcoin core der Hauptkunde.
+reviewed: true

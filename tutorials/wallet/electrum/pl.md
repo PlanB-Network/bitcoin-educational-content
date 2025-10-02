@@ -1,19 +1,19 @@
 ---
 name: Electrum
 
-description: Pełny przewodnik po Electrum, od 0 do bohatera
+description: Pełny przewodnik Electrum, od zera do eksperta
 ---
 
 ![cover](assets/cover.webp)
 
 
-Poniżej znajduje się kilka źródeł opisu Electrum:
+Poniżej znajdziesz kilka źródeł opisu dla Electrum:
 
 
 
 - [X](https://twitter.com/ElectrumWallet)
-- [Strona internetowa Electrum](https://electrum.org/)
-- [Dokumentacja Electrum](https://electrum.readthedocs.io/)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 Oto co Rogzy sądzi o tym samouczku:

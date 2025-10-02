@@ -1,0 +1,9 @@
+question: 引入 IPv6 的主要目的是什么？
+answer: 提供几乎无限的 Address 空间
+wrong_answers:
+  - 将以太网吞吐量提高 4 倍
+  - 逐步用 UDP 取代 TCP
+  - 减少每个数据包的字节数
+explanation: |
+  IPv6 的主要目的是通过大规模扩展 Address 空间来解决 IP 地址短缺的问题。
+reviewed: false

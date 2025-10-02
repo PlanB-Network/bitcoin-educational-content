@@ -17,13 +17,13 @@ Olette jo:
 Tässä oppaassa katsotaan, miten voit lisätä oppaasi Plan ₿ -verkkoon perustamalla paikallisen ympäristön GitHub Desktopin avulla. Jos hallitset jo Gitin, tämä hyvin yksityiskohtainen opetusohjelma ei ehkä ole sinulle tarpeen. Suosittelen pikemminkin tutustumaan tähän toiseen opetusohjelmaan, jossa esittelen vain tärkeimmät suuntaviivat ilman yksityiskohtaisia vaihe vaiheelta annettavia ohjeita:
 
 
-- Kokeneet käyttäjät**:
+- **Kokeneet käyttäjät**:
 
 https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Jos et halua perustaa paikallista ympäristöä, seuraa tätä toista aloittelijoille suunnattua ohjetta, jossa teemme muutokset suoraan GitHubin web-käyttöliittymän kautta:
 
 
-- Aloittelijoille (verkkokäyttöliittymä)**:
+- Aloittelijoille (verkkokäyttöliittymä):
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Edellytykset
@@ -249,32 +249,32 @@ proofreading:
 
 Tässä ovat pakolliset kentät:
 
-- **id** : UUID (_Universally Unique Identifier_), joka yksilöi tutoriaalin. Voit luoda sen käyttämällä [verkkotyökalua](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämä UUID on satunnainen, jotta vältytään ristiriidoilta toisen UUID:n kanssa alustalla;
+- **id**: UUID (_Universally Unique Identifier_), joka yksilöi tutoriaalin. Voit luoda sen käyttämällä [verkkotyökalua](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämä UUID on satunnainen, jotta vältytään ristiriidoilta toisen UUID:n kanssa alustalla;
 
-- **project_id** : Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
+- **project_id**: Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
 
-- **tags** : 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category** : Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Network -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Network -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level** : Tutoriaalin vaikeustaso, valittavissa seuraavista:
+- **level**: Tutoriaalin vaikeustaso, valittavissa seuraavista:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : Sinun `professor_id` (UUID), joka näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Sinun `professor_id` (UUID), joka näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language** : Oppaan alkuperäinen kieli (esimerkiksi `fr`, `en`, jne.);
+- **original_language**: Oppaan alkuperäinen kieli (esimerkiksi `fr`, `en`, jne.);
 
-- **proofreading** : Tietoja oikolukuprosessista. Täytä ensimmäinen osa, koska oman oppaan oikoluku lasketaan ensimmäiseksi tarkistukseksi:
-    - **language** : Oikoluvun kielikoodi (esimerkiksi `fr`, `en`, jne.).
-    - **last_contribution_date** : Tämän päivän päivämäärä.
-    - **urgency** : 1
-    - **contributor_names** : Sinun GitHub ID.
-    - **reward** : 0
+- **proofreading**: Tietoja oikolukuprosessista. Täytä ensimmäinen osa, koska oman oppaan oikoluku lasketaan ensimmäiseksi tarkistukseksi:
+    - **language**: Oikoluvun kielikoodi (esimerkiksi `fr`, `en`, jne.).
+    - **last_contribution_date**: Tämän päivän päivämäärä.
+    - **urgency**: 1
+    - **contributor_names**: Sinun GitHub ID.
+    - **reward**: 0
 
-Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta :
+Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta:
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -383,8 +383,8 @@ Huutomerkki alussa osoittaa, että kyseessä on kuva. Vaihtoehtoinen teksti, jok
 Jos haluat luoda omia kaavioita, varmista, että noudatat Plan ₿ Networkin graafista ohjesääntöä visuaalisen yhdenmukaisuuden varmistamiseksi:
 
 
-- Fontti**: IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Värit**:
+- **Fontti**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Värit**:
  - Oranssi: #FF5C00
  - Musta: #000000
  - Valkoinen: #FFFFFF
@@ -448,5 +448,4 @@ Jos haluat tehdä muutoksia osallistumiseen sen jälkeen, kun olet jo lähettän
 - Jos PR:si on jo yhdistetty päähaaraan, sinun on aloitettava prosessi alusta luomalla uusi haara ja lähettämällä uusi PR. Varmista, että paikallinen arkistosi on synkronoitu Plan ₿ Network -lähdekoodivaraston kanssa ennen kuin jatkat.
 
 Jos kohtaat teknisiä ongelmia tutoriaalin lähettämisessä, älä epäröi pyytää apua [omassa Telegram-ryhmässämme](https://t.me/PlanBNetwork_ContentBuilder). Kiitos!
-
 

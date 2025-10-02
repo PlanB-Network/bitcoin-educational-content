@@ -18,11 +18,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 在这篇面向资深 Git 用户的教程中，我们将简要总结提供新计划 ₿ 网络教程的关键步骤和基本准则。如果您对 Git 和 GitHub 不熟悉，我建议您参考另外两本更详细的教程，它们将一步一步地指导您：
 
 
-- 中级（GitHub 桌面）** ：
+- **中级（GitHub 桌面）**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- 初学者（网络界面）** ：
+- **初学者（网络界面）**：
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -31,30 +31,30 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 用于编辑 Markdown 文件 ：
 
 
-- 黑曜石**（免费，非开源）
-- 标记文本** （免费、开源）
-- Zettlr** （免费，开源）
-- Typora**（付费软件，~15 欧元，非开源）
+- **黑曜石**（免费，非开源）
+- **标记文本** （免费、开源）
+- **Zettlr** （免费，开源）
+- **Typora**（付费软件，~15 欧元，非开源）
 
 用于 Git ：
 
 
-- Git**（免费、开源）
-- GitHub 桌面**（免费、开源）
-- Sourcetree** （免费，非开源）
+- **Git**（免费、开源）
+- GitHub 桌面**（免费、开源）**
+- **Sourcetree** （免费，非开源）
 
 用于编辑 YAML 文件 ：
 
 
-- Visual Studio Code**（免费，开源）
-- Sublime Text**（免费但有限制，非开源）
+- **Visual Studio Code**（免费，开源）
+- **Sublime Text**（免费但有限制，非开源）
 
 创建图表和视觉效果
 
 
-- Canva**（免费，有付费选项，非开源）
-- Inkscape**（免费，开源）
-- Penpot**（免费、开源）
+- **Canva**（免费，有付费选项，非开源）
+- **Inkscape**（免费，开源）
+- **Penpot**（免费、开源）
 
 ## 工作流程
 
@@ -123,9 +123,9 @@ mkdir green-wallet
 cd green-wallet
 # Créez le sous-dossier 'assets'
 mkdir -p assets
-# Créez le sous-dossier pour le code de la langue d’origine (exemple : 'en' pour l’anglais)
+# Créez le sous-dossier pour le code de la langue d’origine (exemple: 'en' pour l’anglais)
 mkdir -p assets/en
-# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple : 'en.md' pour l’anglais)
+# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple: 'en.md' pour l’anglais)
 touch tutorial.yml en.md
 ```
 
@@ -164,30 +164,30 @@ proofreading:
 
 以下是必填字段：
 
-- **id** : 一个 UUID (_Universally Unique Identifier_) 用于唯一标识教程。您可以使用 [在线工具](https://www.uuidgenerator.net/version4) 生成它。唯一的要求是这个 UUID 是随机生成的，以避免与平台上的其他 UUID 冲突；
+- **id**: 一个 UUID (_Universally Unique Identifier_) 用于唯一标识教程。您可以使用 [在线工具](https://www.uuidgenerator.net/version4) 生成它。唯一的要求是这个 UUID 是随机生成的，以避免与平台上的其他 UUID 冲突；
 
-- **project_id** : 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Network 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
+- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Network 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
 
-- **tags** : 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Network 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
+- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Network 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
 
-- **category** : 对应于教程内容的子类别，根据 Plan ₿ Network 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
+- **category**: 对应于教程内容的子类别，根据 Plan ₿ Network 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
 
-- **level** : 教程的难度级别，可从以下选项中选择：
+- **level**: 教程的难度级别，可从以下选项中选择：
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id** : 您的 `professor_id` (UUID)，如在 [您的教授资料](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) 中显示；
+- **professor_id**: 您的 `professor_id` (UUID)，如在 [您的教授资料](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors) 中显示；
 
-- **original_language** : 教程的原始语言（例如 `fr`、`en` 等）；
+- **original_language**: 教程的原始语言（例如 `fr`、`en` 等）；
 
-- **proofreading** : 有关校对过程的信息。请填写第一部分，因为自己校对教程也算作第一次验证：
-    - **language** : 校对的语言代码（例如 `fr`、`en` 等）。
-    - **last_contribution_date** : 当前日期。
-    - **urgency** : 1
-    - **contributor_names** : 您的 GitHub ID。
-    - **reward** : 0
+- **proofreading**: 有关校对过程的信息。请填写第一部分，因为自己校对教程也算作第一次验证：
+    - **language**: 校对的语言代码（例如 `fr`、`en` 等）。
+    - **last_contribution_date**: 当前日期。
+    - **urgency**: 1
+    - **contributor_names**: 您的 GitHub ID。
+    - **reward**: 0
 
 有关教师 ID 的详细信息，请参阅相应的教程 ：
 
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## 内容创建标准
 
 
-- 平台支持的格式** ：
+- **平台支持的格式**：
     - 经典 Markdown：列表、链接、图片、引号、粗体、斜体等。
     - LaTeX（仅限块，非内联）：以 `$$` 分隔。
     - 内联代码：带有单个回车键的语法。
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- 插图和图表** ：
+- **插图和图表**：
     - 所有图片必须为 WebP 格式。如有需要，请使用此免费工具进行转换：[ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - 用 2 或 3 个数字为视觉效果命名（如 `001.webp`、`002.webp`）。
     - 对于手机或硬件钱包教程，请使用模型。
     - 仅使用自制或免版税的视觉效果。
     - 确保它们具有相关性和高质量。
-- 图形章程** ：
+- **图形章程**：
     - 字体：[IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - 颜色计划 ₿ 网络 ：
         - 橙色：`#FF5C00

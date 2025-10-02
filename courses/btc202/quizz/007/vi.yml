@@ -1,0 +1,9 @@
+question: Wallet cần làm gì để xem trạng thái của Blockchain?
+answer: Kết nối với một nút cục bộ hoặc từ xa
+wrong_answers:
+  - Hỏi các ví khác trong mạng
+  - Phỏng vấn thợ đào mạng
+  - Kết nối với nền tảng Exchange trực tuyến
+explanation: |
+  Wallet phải kết nối với một nút để truy cập trạng thái Blockchain và phát các giao dịch của nó.
+reviewed: true

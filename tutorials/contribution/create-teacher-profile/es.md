@@ -55,13 +55,13 @@ git push -u origin add-professor-loic-morel
 
 ### 3 - Cree su perfil de profesor
 
-Ve a la carpeta `scripts/tutorial-related/data-creator/` en tu clon local. Asegúrate de haber instalado todas las dependencias necesarias para el software, habiendo instalado primero Python :
+Ve a la carpeta `scripts/tutorial-related/data-creator/` en tu clon local. Asegúrate de haber instalado todas las dependencias necesarias para el software, habiendo instalado primero Python:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-A continuación, inicie el software con el comando :
+A continuación, inicie el software con el comando:
 
 ```bash
 python3 main.py
@@ -73,7 +73,7 @@ A continuación, haga clic en el botón "*Nuevo profesor*".
 
 ![Image](assets/fr/01.webp)
 
-Rellene la información requerida (tenga en cuenta que toda esta información será pública tanto en nuestra plataforma como en GitHub) :
+Rellene la información requerida (tenga en cuenta que toda esta información será pública tanto en nuestra plataforma como en GitHub):
 
 
 - Nombre de su expediente de profesor (utilice su nombre y apellidos o un seudónimo, en minúsculas) ;
@@ -116,7 +116,7 @@ Una vez fusionado el PR, puede eliminar su rama de trabajo.
 
 Si ya dominas el uso de Git, modifica tu perfil de profesor creando una nueva rama y editando el archivo correspondiente directamente en la carpeta existente. Los cambios pueden realizarse en el archivo `professor.yml` o en el archivo markdown, en función de la información que deba corregirse. Una vez que hayas hecho los cambios localmente, envíalos a tu Fork y envía un PR.
 
-Para los principiantes, recomiendo hacer la modificación directamente a través de la web Interface de GitHub. Asegúrate de tener una cuenta en GitHub. Si no sabes cómo crear una, sigue este tutorial :
+Para los principiantes, recomiendo hacer la modificación directamente a través de la web Interface de GitHub. Asegúrate de tener una cuenta en GitHub. Si no sabes cómo crear una, sigue este tutorial:
 
 https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Vaya a [el repositorio GitHub de Plan ₿ Network dedicado a los datos](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).

@@ -1,5 +1,5 @@
 ---
-name: Stupnice ocasu
+name: Tailscale
 description: Pokročilý výukový kurz Tailscale
 ---
 ![cover](assets/cover.webp)
@@ -72,7 +72,7 @@ Tato architektura je však závislá na společnosti Tailscale Inc., která zaji
 
 
 
-**Pro podrobné vysvětlení vnitřního fungování Tailscale, včetně správy řídicí roviny, překonávání NAT a relé DERP, doporučujeme vynikající článek [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) na oficiálním blogu. Tento článek podrobně vysvětluje technické koncepty, díky nimž je Tailscale tak výkonný.
+**Pro podrobné vysvětlení vnitřního fungování Tailscale, včetně správy řídicí roviny, překonávání NAT a relé DERP, doporučujeme vynikající článek** [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) **na oficiálním blogu. Tento článek podrobně vysvětluje technické koncepty, díky nimž je Tailscale tak výkonný.**
 
 
 
@@ -139,7 +139,7 @@ Po vytvoření účtu můžete do svých zařízení nainstalovat aplikaci Tails
 
 
 
-- V systémech Windows a macOS:** Stačí stáhnout grafickou aplikaci z oficiálních webových stránek Tailscale a nainstalovat ji (soubor .msi v systému Windows, soubor .dmg v systému Mac). Po instalaci aplikace spustí grafický nástroj Interface, který vám umožní připojit se (prostřednictvím prohlížeče) k účtu Tailscale a ověřit počítač.
+- **V systémech Windows a macOS:** Stačí stáhnout grafickou aplikaci z oficiálních webových stránek Tailscale a nainstalovat ji (soubor .msi v systému Windows, soubor .dmg v systému Mac). Po instalaci aplikace spustí grafický nástroj Interface, který vám umožní připojit se (prostřednictvím prohlížeče) k účtu Tailscale a ověřit počítač.
 
 
 
@@ -159,7 +159,7 @@ Po vytvoření účtu můžete do svých zařízení nainstalovat aplikaci Tails
 
 
 
-- V systému Linux (Debian, Ubuntu atd.):** Máte několik možností. Nejjednodušší je spustit oficiální instalační skript: například v Debianu/Ubuntu :
+- V systému Linux (Debian, Ubuntu atd.): **Máte několik možností. Nejjednodušší je spustit oficiální instalační skript: například v Debianu/Ubuntu:**
 
 
 
@@ -175,13 +175,13 @@ Tento skript přidá oficiální repozitář Tailscale a nainstaluje balíček. 
 
 
 
-- Na systémech založených na ARM (Raspberry Pi atd.):** Většinou používáme Linux, takže stejný přístup jako výše (skript nebo balíček). Všimněte si, že Tailscale bez problémů podporuje architekturu ARM32/ARM64. Mnoho uživatelů instaluje Tailscale na operační systém Raspberry Pi prostřednictvím apt nebo na odlehčené distribuce (DietPi atd.), aby měli přístup ke svému Pi všude.
+- Na systémech založených na ARM (Raspberry Pi atd.): **Většinou používáme Linux, takže stejný přístup jako výše (skript nebo balíček). Všimněte si, že Tailscale bez problémů podporuje architekturu ARM32/ARM64. Mnoho uživatelů instaluje Tailscale na operační systém Raspberry Pi prostřednictvím apt nebo na odlehčené distribuce (DietPi atd.), aby měli přístup ke svému Pi všude.**
 
 
 
 
 
-- Pro iOS a Android:** Tailscale poskytuje **oficiální** mobilní aplikace. Stačí si nainstalovat *Tailscale* z [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) nebo [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- **Pro iOS a Android:** Tailscale poskytuje **oficiální** mobilní aplikace. Stačí si nainstalovat *Tailscale* z [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) nebo [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 
@@ -261,13 +261,13 @@ Webová konzola pro správu umožňuje zobrazit a spravovat všechna připojená
 
 
 
-- Interface Web (Admin Console)** : tato webová konzola, přístupná na adrese [https://login.tailscale.com](https://login.tailscale.com), je centrálním ovládacím panelem pro vaši síť Tailscale. Obsahuje seznam všech zařízení (*Stroje*), jejich stav online/offline, jejich IP adresy Tailscale a další informace. Můžete zde **spravovat zařízení** (přejmenovat, vymazat klíče, autorizovat trasy, zakázat uzel), **spravovat uživatele** (v organizačním kontextu) a definovat bezpečnostní pravidla (ACL). Zde také konfigurujete globální volby, jako je MagicDNS, značky nebo autentizační klíče (autentizační klíče před vydáním verze generate pro automatické přidávání zařízení). Web Interface je velmi užitečný pro získání přehledu a aplikaci změn, které se budou prostřednictvím koordinačního serveru šířit do všech uzlů. *Příklad:* Aktivace **subnet route** nebo **exit node** se provádí jediným kliknutím v konzoli, jakmile se příslušný uzel jako takový ohlásí.
+- **Interface Web (Admin Console)**: tato webová konzola, přístupná na adrese [https://login.tailscale.com](https://login.tailscale.com), je centrálním ovládacím panelem pro vaši síť Tailscale. Obsahuje seznam všech zařízení (*Stroje*), jejich stav online/offline, jejich IP adresy Tailscale a další informace. Můžete zde **spravovat zařízení** (přejmenovat, vymazat klíče, autorizovat trasy, zakázat uzel), **spravovat uživatele** (v organizačním kontextu) a definovat bezpečnostní pravidla (ACL). Zde také konfigurujete globální volby, jako je MagicDNS, značky nebo autentizační klíče (autentizační klíče před vydáním verze generate pro automatické přidávání zařízení). Web Interface je velmi užitečný pro získání přehledu a aplikaci změn, které se budou prostřednictvím koordinačního serveru šířit do všech uzlů. *Příklad:* Aktivace **subnet route** nebo **exit node** se provádí jedin
 
 
 
 
 
-- Příkazový řádek Interface (CLI):** Příkaz `tailscale` je k dispozici v CLI na každém zařízení, kde je nainstalován Tailscale. Tento příkaz CLI umožňuje provádět vše lokálně: připojovat se (`tailscale up`), kontrolovat stav (`tailscale status`, abyste viděli, kteří kolegové jsou připojeni), ladit (`tailscale ping <ip>`) atd. Některé funkce jsou dokonce **exkluzivní pro CLI** nebo pokročilejší, např:
+- **Příkazový řádek Interface (CLI):** Příkaz `tailscale` je k dispozici v CLI na každém zařízení, kde je nainstalován Tailscale. Tento příkaz CLI umožňuje provádět vše lokálně: připojovat se (`tailscale up`), kontrolovat stav (`tailscale status`, abyste viděli, kteří kolegové jsou připojeni), ladit (`tailscale ping <ip>`) atd. Některé funkce jsou dokonce **exkluzivní pro CLI** nebo pokročilejší, např:
 
 
 
@@ -289,7 +289,7 @@ CLI je velmi užitečný na serverech bez grafiky Interface a pro skriptování 
 
 
 
-Umbrel je oblíbená platforma pro samoobslužné hostování (používá se zejména pro uzly Bitcoin/Lightning a další samoobslužné služby prostřednictvím obchodu s aplikacemi). Pro instalaci a konfiguraci platformy Umbrel doporučujeme postupovat podle našeho specializovaného návodu :
+Umbrel je oblíbená platforma pro samoobslužné hostování (používá se zejména pro uzly Bitcoin/Lightning a další samoobslužné služby prostřednictvím obchodu s aplikacemi). Pro instalaci a konfiguraci platformy Umbrel doporučujeme postupovat podle našeho specializovaného návodu:
 
 
 
@@ -305,7 +305,7 @@ Zvláště zajímavým případem použití je společné použití Umbrelu a Ta
 
 
 
-- Instalace aplikace Tailscale do aplikace Umbrel:** Umbrel má ve svém App Store oficiální aplikaci Tailscale. Instalace nemůže být jednodušší:
+- **Instalace aplikace Tailscale do aplikace Umbrel:** Umbrel má ve svém App Store oficiální aplikaci Tailscale. Instalace nemůže být jednodušší:
 
 
 
@@ -379,15 +379,15 @@ Přístup je pozoruhodně jednoduchý: namísto použití souboru `umbrel.local`
 
 
 
-- Hlavní deštník Interface**: Přístup k ovládacímu panelu Umbrel získáte jednoduše zadáním `http://100.x.y.z` do prohlížeče
-- Uzel Bitcoin**: Správa uzlu Bitcoin bez zpoždění, zobrazení synchronizace a statistik
-- Bleskový uzel**: Použijte ThunderHub, RTL nebo jiná rozhraní pro správu Lightning s okamžitou odezvou
-- Mempool**: Zobrazení transakcí Bitcoin a Mempool bez zpoždění Tor
-- noStrudel**: Přístup ke službám Nostr hostovaným na serveru Umbrel
+- **Hlavní deštník Interface**: Přístup k ovládacímu panelu Umbrel získáte jednoduše zadáním `http://100.x.y.z` do prohlížeče
+- **Uzel Bitcoin**: Správa uzlu Bitcoin bez zpoždění, zobrazení synchronizace a statistik
+- **Bleskový uzel**: Použijte ThunderHub, RTL nebo jiná rozhraní pro správu Lightning s okamžitou odezvou
+- **Mempool**: Zobrazení transakcí Bitcoin a Mempool bez zpoždění Tor
+- **noStrudel**: Přístup ke službám Nostr hostovaným na serveru Umbrel
 
 
 
-**Připojení externích peněženek k uzlům Bitcoin nebo Lightning prostřednictvím Tailscale :**
+**Připojení externích peněženek k uzlům Bitcoin nebo Lightning prostřednictvím Tailscale:**
 
 
 
@@ -397,7 +397,7 @@ Tailscale také umožňuje, aby se vaše peněženky Bitcoin a Lightning nainsta
 
 
 
-- Sparrow wallet (Bitcoin)**: Tento externí Wallet Bitcoin se může připojit přímo k serveru Electrum společnosti Umbrel pomocí Tailscale IP Address:
+- **Sparrow wallet (Bitcoin)**: Tento externí Wallet Bitcoin se může připojit přímo k serveru Electrum společnosti Umbrel pomocí Tailscale IP Address:
 
 
 
@@ -424,7 +424,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-- Zeus (Blesk)**: Tento mobilní blesk Wallet se může připojit k vašemu bleskovému uzlu na Umbrelu. Místo konfigurace koncového bodu jako `.onion' jednoduše nastavte IP adresu Tailscale vašeho Umbrelu a port rozhraní Lightning API. Připojení bude ve srovnání s Tor okamžité.
+- **Zeus (Blesk)**: Tento mobilní blesk Wallet se může připojit k vašemu bleskovému uzlu na Umbrelu. Místo konfigurace koncového bodu jako `.onion` jednoduše nastavte IP adresu Tailscale vašeho Umbrelu a port rozhraní Lightning API. Připojení bude ve srovnání s Tor okamžité.
 
 
 
@@ -435,13 +435,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Chcete-li nakonfigurovat Zeus s uzlem Lightning, podívejte se na náš podrobný návod :
+Chcete-li nakonfigurovat Zeus s uzlem Lightning, podívejte se na náš podrobný návod:
 
 
 
 https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-Další informace o systému Lightning Network a jeho fungování v systému Umbrel naleznete na adrese :
+Další informace o systému Lightning Network a jeho fungování v systému Umbrel naleznete na adrese:
 
 
 
@@ -483,7 +483,7 @@ Komunikace je šifrována (WireGuard) kromě šifrování, které již vaše slu
 
 ---
 
-Závěrem této části lze říci, že integrace Tailscale do Umbrelu zabere jen několik kliknutí a **výrazně zlepší dostupnost** vašeho samostatně hostovaného uzlu. Budete moci spravovat Umbrel a jeho služby odkudkoli, bezpečně a efektivně, stejně jako byste byli doma. Jedná se o obzvláště užitečné řešení pro aplikace pracující v reálném čase (Lightning), které trpí zpožděním Toru, nebo obecněji pro všechny selfhostery, kteří hledají jednoduché privátní připojení. To vše bez vystavení jediného portu** na vašem boxu a bez složité konfigurace sítě.
+Závěrem této části lze říci, že integrace Tailscale do Umbrelu zabere jen několik kliknutí a **výrazně zlepší dostupnost** vašeho samostatně hostovaného uzlu. Budete moci spravovat Umbrel a jeho služby odkudkoli, bezpečně a efektivně, stejně jako byste byli doma. Jedná se o obzvláště užitečné řešení pro aplikace pracující v reálném čase (Lightning), které trpí zpožděním Toru, nebo obecněji pro všechny selfhostery, kteří hledají jednoduché privátní připojení. To vše **bez vystavení jediného portu** na vašem boxu a bez složité konfigurace sítě.
 
 
 
@@ -507,7 +507,7 @@ Závěrem této části lze říci, že integrace Tailscale do Umbrelu zabere je
 
 
 
-**Sdílení zařízení umožňuje pozvat někoho k přístupu k určitému počítači, aniž by mu byl umožněn přístup k celé síti.
+**Sdílení zařízení umožňuje pozvat někoho k přístupu k určitému počítači, aniž by mu byl umožněn přístup k celé síti.**
 
 
 
@@ -531,7 +531,7 @@ Závěrem této části lze říci, že integrace Tailscale do Umbrelu zabere je
 
 
 
-**Přímý konkurent ZeroTier pracuje na Layer 2 (Ethernet) a umožňuje vysílání/multicast, zatímco Tailscale pracuje na Layer 3 (IP). ZeroTier nabízí větší flexibilitu sítě, zatímco Tailscale upřednostňuje jednoduchost použití.
+**Přímý konkurent ZeroTier pracuje na Layer 2 (Ethernet) a umožňuje vysílání/multicast, zatímco Tailscale pracuje na Layer 3 (IP). ZeroTier nabízí větší flexibilitu sítě, zatímco Tailscale upřednostňuje jednoduchost použití.**
 
 
 
@@ -557,8 +557,8 @@ Na závěr lze říci, že Tailscale se prezentuje jako moderní řešení zamě
 
 
 
-- Jednoduchost a výkon** - Rychlá instalace na všech platformách bez složité konfigurace sítě. Provoz probíhá nejpřímější cestou mezi vašimi počítači (síť P2P), s výkonem protokolu WireGuard a bez centrálního serveru, který by omezoval propustnost.
-- Zabezpečení a flexibilita** - Koncové šifrování, omezený prostor pro útoky a pokročilé funkce (ACL, ověřování SSO/MFA). Funguje i za NAT nebo na cestách, díky podsíťovým směrovačům a výstupním uzlům lze síť přizpůsobit vašim potřebám.
+- **Jednoduchost a výkon** - Rychlá instalace na všech platformách bez složité konfigurace sítě. Provoz probíhá nejpřímější cestou mezi vašimi počítači (síť P2P), s výkonem protokolu WireGuard a bez centrálního serveru, který by omezoval propustnost.
+- **Zabezpečení a flexibilita** - Koncové šifrování, omezený prostor pro útoky a pokročilé funkce (ACL, ověřování SSO/MFA). Funguje i za NAT nebo na cestách, díky podsíťovým směrovačům a výstupním uzlům lze síť přizpůsobit vašim potřebám.
 
 
 
@@ -568,16 +568,16 @@ Na závěr lze říci, že Tailscale se prezentuje jako moderní řešení zamě
 
 
 
-- Externí závislost** - Ve své standardní verzi se služba spoléhá na infrastrukturu společnosti Tailscale Inc.. Tuto závislost lze obejít prostřednictvím služby Headscale (alternativa pro vlastní hosting).
-- Další omezení** - Částečně uzavřený zdrojový kód, omezení bezplatné verze pro určitá pokročilá použití, žádná podpora Layer 2 (broadcast/multicast) a nutnost přístupu k internetu pro navázání připojení.
+- **Externí závislost** - Ve své standardní verzi se služba spoléhá na infrastrukturu společnosti Tailscale Inc.. Tuto závislost lze obejít prostřednictvím služby Headscale (alternativa pro vlastní hosting).
+- **Další omezení** - Částečně uzavřený zdrojový kód, omezení bezplatné verze pro určitá pokročilá použití, žádná podpora Layer 2 (broadcast/multicast) a nutnost přístupu k internetu pro navázání připojení.
 
 
 
-**Tailscale je ideální pro samostatné hostitele a malé týmy, vývojáře, kteří potřebují přístup k rozptýleným zdrojům, začátečníky v oblasti VPN a mobilní uživatele. Pro společnosti vyžadující úplnou kontrolu mohou být vhodnější jiná řešení, například Headscale nebo přímo WireGuard.
+**Tailscale je ideální pro samostatné hostitele a malé týmy, vývojáře, kteří potřebují přístup k rozptýleným zdrojům, začátečníky v oblasti VPN a mobilní uživatele. Pro společnosti vyžadující úplnou kontrolu mohou být vhodnější jiná řešení, například Headscale nebo přímo WireGuard.**
 
 
 
-** Prozkoumejte Headscale pro plný selfhosting, API a integraci DevOps (Terraform) nebo alternativy jako Innernet (podobný, ale plně selfhostingový) a Netmaker.
+**Prozkoumejte Headscale pro plný selfhosting, API a integraci DevOps (Terraform) nebo alternativy jako Innernet (podobný, ale plně selfhostingový) a Netmaker.**
 
 
 
@@ -595,9 +595,9 @@ Tailscale je díky své jednoduchosti a efektivitě základním nástrojem pro s
 
 
 
-- Dokumentační středisko Tailscale**: [docs.tailscale.com](https://docs.tailscale.com) - Kompletní dokumentace v angličtině, instalační příručky, návody a technické reference.
-- Jak funguje Tailscale**: [Jak funguje Tailscale](https://tailscale.com/blog/how-tailscale-works) - Podrobný článek vysvětlující vnitřní fungování Tailscale.
-- Seznam změn**: [tailscale.com/changelog](https://tailscale.com/changelog) - Sledování aktualizací a nových funkcí.
+- **Dokumentační středisko Tailscale**: [docs.tailscale.com](https://docs.tailscale.com) - Kompletní dokumentace v angličtině, instalační příručky, návody a technické reference.
+- **Jak funguje Tailscale**: [Jak funguje Tailscale](https://tailscale.com/blog/how-tailscale-works) - Podrobný článek vysvětlující vnitřní fungování Tailscale.
+- **Seznam změn**: [tailscale.com/changelog](https://tailscale.com/changelog) - Sledování aktualizací a nových funkcí.
 
 
 
@@ -607,9 +607,9 @@ Tailscale je díky své jednoduchosti a efektivitě základním nástrojem pro s
 
 
 
-- Výukové programy Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifické návody pro selfhosting.
-- Konfigurace uzlu Exit** : [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Podrobný průvodce konfigurací výstupních uzlů.
-- Použijte Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Přenos souborů mezi zařízeními Tailscale.
+- **Výukové programy Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Specifické návody pro selfhosting.
+- **Konfigurace uzlu Exit**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Podrobný průvodce konfigurací výstupních uzlů.
+- Použijte **Taildrop**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Přenos souborů mezi zařízeními Tailscale.
 
 
 
@@ -619,7 +619,7 @@ Tailscale je díky své jednoduchosti a efektivitě základním nástrojem pro s
 
 
 
-- Tailscale vs. jiná řešení**: [tailscale.com/compare](https://tailscale.com/compare) - Podrobné srovnání s jinými VPN a síťovými řešeními (ZeroTier, OpenVPN atd.).
+- **Tailscale vs. jiná řešení**: [tailscale.com/compare](https://tailscale.com/compare) - Podrobné srovnání s jinými VPN a síťovými řešeními (ZeroTier, OpenVPN atd.).
 
 
 
@@ -629,9 +629,9 @@ Tailscale je díky své jednoduchosti a efektivitě základním nástrojem pro s
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Diskuze, dotazy a zpětná vazba.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - zdrojový kód zákazníka, kde lze sledovat vývoj a hlásit problémy.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Komunita uživatelů a vývojářů.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Diskuze, dotazy a zpětná vazba.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - zdrojový kód zákazníka, kde lze sledovat vývoj a hlásit problémy.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Komunita uživatelů a vývojářů.
 
 
 

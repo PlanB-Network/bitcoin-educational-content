@@ -1,8 +1,8 @@
-question: Lightning Network tarafından sağlanan bazı potansiyel iş fırsatları nelerdir?
-answer: Tüketicilerin içerik için tükettiklerine göre ödeme yaptığı yeni ekonomik modeller.
+question: Bankacılık sistemine ilişkin temel endişe kaynağı ne olabilir?
+answer: Bankacılık oyununun kuralları şeffaf ve herkes tarafından anlaşılabilir değildir.
 wrong_answers:
-  - Tüketicilerin farklı kripto para birimleri kullanarak ödeme yaptığı yeni ekonomik modeller.
-  - Tüketicilerin kişiselleştirilmiş blok zincirleri kullandığı yeni ekonomik modeller.
-  - Tüketicilerin herhangi bir içerik için ödeme yapmadığı yeni ekonomik modeller.
+  - Bankacılık sistemini anlamak çok kolay.
+  - Bankacılık sistemi çok şeffaf.
+  - Bankacılık sistemi çok merkezsizleşmiş durumda.
 explanation: >-
 reviewed: true

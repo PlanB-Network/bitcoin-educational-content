@@ -1,0 +1,8 @@
+question: seed에서 마스터 개인키를 도출하는 데 사용되는 상수는 무엇인가요?
+answer: Bitcoin seed
+wrong_answers:
+  - 마스터 키
+  - HD Wallet seed
+  - Blockchain 루트
+explanation: |
+  Bitcoin seed 상수는 마스터 개인 키와 마스터 chain code을 도출하기 위해 HMAC-SHA512 함수에서 키로 사용됩니다.

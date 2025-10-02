@@ -1,0 +1,9 @@
+question: What is scholastic philosophy?
+answer: A Christian philosophy of the Middle Ages.
+wrong_answers:
+  - A political movement.
+  - An anarchist philosophy.
+  - A rational philosophy.
+explanation: |
+  Scholastic philosophy was a Christian philosophy of the Middle Ages that dominated European universities. It sought to harmonize the Christian faith with Aristotelian philosophy.
+reviewed: false

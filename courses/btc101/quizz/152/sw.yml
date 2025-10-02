@@ -1,8 +1,8 @@
-question: Hashrate ni nini?
-answer: Idadi ya mahesabu ya Hash ambayo kifaa cha Mining kinaweza kufanya kwa sekunde kutatua Proof of Work.
+question: Je, kuna umuhimu gani wa matumizi ya nishati katika Bitcoin Mining?
+answer: Matumizi ya nishati ni muhimu ili kutoa habari, lakini uthibitishaji wa habari una gharama kidogo. Asymmetry hii inahakikisha usalama wa mtandao.
 wrong_answers:
-  - Kasi ambayo kifaa cha Mining kinaweza kutatua Proof of Work.
-  - Jumla ya wachimbaji madini katika mtandao wa Bitcoin.
-  - Jumla ya bitcoins kuchimbwa kwa kufanya idadi fulani ya majaribio kwa sekunde kutatua Proof of Work.
+  - Gharama ya nishati ni muhimu ili kuimarisha mashine za ASIC zinazotumiwa katika Mining, na uthibitishaji wa habari una gharama kubwa.
+  - Matumizi ya nishati ni muhimu ili kudumisha mtandao wa Bitcoin, na uthibitishaji wa habari una gharama tofauti.
+  - Gharama ya nishati sio lazima kuunda bitcoins mpya.
 explanation: >-
-reviewed: true
+reviewed: false

@@ -60,7 +60,7 @@ Anza kwa kusakinisha Umeme unaoendana na Wallet. Hapa kuna mapendekezo yetu ya k
 
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Bora kwa Kompyuta
   - Intuitive, ya kisasa ya Interface
   - Sio chini ya ulinzi (unaendelea kudhibiti pesa zako)
@@ -74,7 +74,7 @@ Chini ni kiungo cha mafunzo ya Wallet hii:
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Rahisi na ya kuaminika
   - Usanidi wa kituo kiotomatiki
   - Usaidizi asilia wa ankara za BOLT11
@@ -88,7 +88,7 @@ Chini ni kiungo cha mafunzo ya Wallet hii:
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Kiufundi zaidi lakini kamili sana
   - Chaguzi za usanidi wa hali ya juu
   - Ni kamili kwa watumiaji wenye uzoefu
@@ -109,9 +109,9 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 
 
-- Wallet ya Satoshi**: Inafanya kazi vizuri kwa kupokea Sats, lakini inaweza kuwa na ucheleweshaji wa kusasisha salio ikiwa mauzo yataghairiwa.
-- Muun**: Haipendekezwi kwani malipo yanaweza kushindwa kwa sababu ya vikomo vya ada ya uelekezaji wa roboti (kiwango cha juu cha 0.2%).
-- Aqua**: Inafanya kazi ili kupokea Sats, lakini inaweza kuwa na ucheleweshaji wa muda mrefu (hadi saa 48) kwa masasisho ya salio katika tukio la kughairiwa kwa mauzo.
+- **Wallet ya Satoshi**: Inafanya kazi vizuri kwa kupokea Sats, lakini inaweza kuwa na ucheleweshaji wa kusasisha salio ikiwa mauzo yataghairiwa.
+- **Muun**: Haipendekezwi kwani malipo yanaweza kushindwa kwa sababu ya vikomo vya ada ya uelekezaji wa roboti (kiwango cha juu cha 0.2%).
+- **Aqua**: Inafanya kazi ili kupokea Sats, lakini inaweza kuwa na ucheleweshaji wa muda mrefu (hadi saa 48) kwa masasisho ya salio katika tukio la kughairiwa kwa mauzo.
 
 
 💡 **Kidokezo**: Kwa matumizi bora zaidi, chagua pochi zinazopendekezwa (Breez, Phoenix au Blixt).
@@ -207,7 +207,7 @@ Vinjari matoleo katika [@p2plightning](https://t.me/p2plightning) na ubofye kitu
 Mara baada ya Invoice kutumwa, bot inakuwezesha kuwasiliana na muuzaji.
 
 
-**4. Mawasiliano na muuzaji **
+**4. Mawasiliano na muuzaji**
 
 
 ![Chat privé](assets/fr/04.webp)
@@ -216,7 +216,7 @@ Mara baada ya Invoice kutumwa, bot inakuwezesha kuwasiliana na muuzaji.
 Bofya jina la utani la muuzaji ili kufungua chaneli ya faragha ya gumzo ambapo unaweza kupata maelezo ya malipo ya Exchange.
 
 
-**5. Uthibitisho wa malipo
+**5. Uthibitisho wa malipo**
 
 
 ![Confirmation du paiement](assets/fr/05.webp)
@@ -261,7 +261,7 @@ Bot itakuongoza hatua kwa hatua:
 💡 **Kidokezo**: Malipo hukuruhusu kurekebisha bei yako kulingana na bei ya soko. Kwa mfano, malipo ya -1% yanamaanisha kuwa unauza kwa 1% chini ya bei ya soko.
 
 
-**2. Uthibitisho wa kuunda agizo **
+**2. Uthibitisho wa kuunda agizo**
 
 
 ![Confirmation de l'ordre de vente](assets/fr/07.webp)
@@ -353,11 +353,11 @@ Lnp2pbot ina faida na hasara kadhaa juu ya suluhu zingine za P2P Exchange kama v
 
 
 
-- Hakuna KYC inayohitajika** : Tofauti na baadhi ya mifumo, Lnp2pbot haihitaji uthibitishaji wa utambulisho, hivyo basi kuhifadhi usiri wa mtumiaji.
-- Shughuli za haraka**: Shukrani kwa Lightning Network, miamala ni karibu mara moja.
-- Ada za chini** : Gharama za muamala ni ndogo kuliko za ubadilishanaji wa kawaida.
-- Upatikanaji wa simu**: LNP2PBot inapatikana kupitia Telegram, na kuifanya iwe rahisi kutumia kwenye vifaa vya mkononi.
-- Rahisi kutumia** : Interface angavu ya Lnp2pbot hurahisisha kutumia, hata kwa watumiaji wenye uzoefu mdogo.
+- **Hakuna KYC inayohitajika** : Tofauti na baadhi ya mifumo, Lnp2pbot haihitaji uthibitishaji wa utambulisho, hivyo basi kuhifadhi usiri wa mtumiaji.
+- **Shughuli za haraka**: Shukrani kwa Lightning Network, miamala ni karibu mara moja.
+- **Ada za chini** : Gharama za muamala ni ndogo kuliko za ubadilishanaji wa kawaida.
+- **Upatikanaji wa simu**: LNP2PBot inapatikana kupitia Telegram, na kuifanya iwe rahisi kutumia kwenye vifaa vya mkononi.
+- **Rahisi kutumia** : Interface angavu ya Lnp2pbot hurahisisha kutumia, hata kwa watumiaji wenye uzoefu mdogo.
 
 
 ### Hasara za Lnp2pbot
@@ -365,8 +365,8 @@ Lnp2pbot ina faida na hasara kadhaa juu ya suluhu zingine za P2P Exchange kama v
 
 
 
-- Utegemezi wa Telegramu**: Kutumia Lnp2pbot kunahitaji akaunti ya Telegramu, ambayo inaweza kuwa haifai kwa watumiaji wote.
-- Kiwango cha chini cha ukwasi**: Ikilinganishwa na mifumo imara zaidi kama Bisq, ukwasi unaweza kuwa mdogo zaidi.
+- **Utegemezi wa Telegramu**: Kutumia Lnp2pbot kunahitaji akaunti ya Telegramu, ambayo inaweza kuwa haifai kwa watumiaji wote.
+- **Kiwango cha chini cha ukwasi**: Ikilinganishwa na mifumo imara zaidi kama Bisq, ukwasi unaweza kuwa mdogo zaidi.
 
 
 Kwa kulinganisha, suluhu kama vile Bisq hutoa ukwasi mkubwa na eneo-kazi la Interface, lakini linaweza kuhusisha ada za juu na muda mrefu zaidi wa ununuzi. HodlHodl na Robosat, wakati huo huo, pia hutoa biashara bila malipo ya KYC, lakini kwa miundo na miingiliano tofauti ya ada.

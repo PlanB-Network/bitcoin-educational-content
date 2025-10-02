@@ -1,0 +1,9 @@
+question: Ni akarusho akahe nyamukuru amahera y’impapuro afise ku biceri mu buryo bwa kera bwo kwishura?
+answer: Kwongerekana kw'ugutwara n'ubushobozi
+wrong_answers:
+  - Agaciro k'imbere kongerewe biciye ku vyuma vy'agaciro
+  - Igenzura ry'ubucuruzi bwose
+  - Gukuraho burundu ingorane z'ibinyoma
+explanation: |
+  Amahera y’impapuro, kubera ko yari aremereye kandi yoroshe gutwara kuruta ibiceri, vyatuma haba ubudandaji bwiza cane ku nzira ndende kandi bikagabanya ingorane zo gutwara ibintu.
+reviewed: false

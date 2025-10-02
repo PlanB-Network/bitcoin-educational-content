@@ -11,13 +11,13 @@ Operatsioonisüsteem (OS) on peamine tarkvara, mis haldab kõiki arvuti ressurss
 ### Miks Ubuntu?
 
 
-- Tõhustatud turvalisus** : Linuxi distributsioonid on tuntud oma turvalisuse ja töökindluse poolest
-- Nullkulu**: Ubuntu ja enamik Linuxi distributsioone on tasuta
-- Suur kogukond**: Kasutajate kogukond, kes on valmis aitama foorumite ja õpetuste kaudu
-- Eraelu puutumatuse austamine**: Avatud lähtekoodiga süsteem suurema läbipaistvuse tagamiseks
-- Lihtsus**: Kasutajasõbralik kasutajaliides ja kasutusmugavus
-- Rikkalik ökosüsteem** : Ulatuslik avatud lähtekoodiga tarkvara kataloog
-- Regulaarne toetus**: Turvalised uuendused Canonicalilt
+- **Tõhustatud turvalisus**: Linuxi distributsioonid on tuntud oma turvalisuse ja töökindluse poolest
+- **Nullkulu**: Ubuntu ja enamik Linuxi distributsioone on tasuta
+- **Suur kogukond**: Kasutajate kogukond, kes on valmis aitama foorumite ja õpetuste kaudu
+- **Eraelu puutumatuse austamine**: Avatud lähtekoodiga süsteem suurema läbipaistvuse tagamiseks
+- **Lihtsus**: Kasutajasõbralik kasutajaliides ja kasutusmugavus
+- **Rikkalik ökosüsteem**: Ulatuslik avatud lähtekoodiga tarkvara kataloog
+- **Regulaarne toetus**: Turvalised uuendused Canonicalilt
 
 ## Paigaldamine ja konfigureerimine
 
@@ -42,7 +42,7 @@ Operatsioonisüsteem (OS) on peamine tarkvara, mis haldab kõiki arvuti ressurss
 
 ### 3. Looge käivitatav USB-klahv
 
-Saate kasutada mitmeid vahendeid, näiteks Balena Etcher :
+Saate kasutada mitmeid vahendeid, näiteks Balena Etcher:
 
 
 - Lae alla ja paigalda [Balena Etcher](https://etcher.balena.io/)
@@ -77,19 +77,19 @@ USB-mäluseadmest käivitamisel näete seda ekraani, mis võimaldab teil Ubuntut
 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
-**Valik keel
+**Valik keel**
 
 Valige paigaldamise ja süsteemi eelistatud keel.
 
 ![Sélection de la langue](assets/fr/07.webp)
 
-**Kättesaadavuse valikud
+**Kättesaadavuse valikud**
 
 Konfigureerige vajaduse korral ligipääsetavuse valikud (ekraanilugeja, kõrge kontrastsus jne).
 
 ![Options d'accessibilité](assets/fr/08.webp)
 
-**Tahvli konfigureerimine
+**Tahvli konfigureerimine**
 
 Valige oma klaviatuuri paigutus. Kontrollimiseks, et klahvid vastaksid teie konfiguratsioonile, on saadaval testväli.
 
@@ -101,31 +101,31 @@ Uuenduste allalaadimiseks installimise ajal ühenduge Wi-Fi- või traadiga võrk
 
 ![Configuration réseau](assets/fr/10.webp)
 
-**Tüüpi paigaldus
+**Tüüpi paigaldus**
 
 Valige kas "Proovi Ubuntu" (testimiseks ilma installimiseta) või "Installi Ubuntu".
 
 ![Choix du type d'installation](assets/fr/11.webp)
 
-**Installatsioonimeetod
+**Installatsioonimeetod**
 
 Valige interaktiivne paigaldus.
 
 ![Mode d'installation](assets/fr/12.webp)
 
-**Valikatsioonivalik
+**Valikatsioonivalik**
 
 Valige kas vaikimisi paigaldus või laiendatud valik rakendusi.
 
 ![Sélection des applications](assets/fr/13.webp)
 
-**Kolmanda osapoole rakendused
+**Kolmanda osapoole rakendused**
 
 Otsustage, kas paigaldada täiendavaid draivereid ja patenteeritud tarkvara või mitte.
 
 ![Installation applications tierces](assets/fr/14.webp)
 
-**Tüüpi partitsioneerimine
+**Tüüpi partitsioneerimine**
 
 Teil on kaks peamist võimalust:
 
@@ -135,13 +135,13 @@ Teil on kaks peamist võimalust:
 
 ![Choix du partitionnement](assets/fr/15.webp)
 
-**Kasutajakonto loomine
+**Kasutajakonto loomine**
 
 Määrake oma Ubuntu konto kasutajanimi ja parool.
 
 ![Création du compte](assets/fr/16.webp)
 
-**Ajavöönd
+**Ajavöönd**
 
 Valige oma geograafiline piirkond, et määrata süsteemi kellaaeg.
 
@@ -164,7 +164,7 @@ Süsteemi uuendamine on oluline samm pärast uut paigaldamist. Teil on kaks või
 - Rakendus otsib automaatselt olemasolevaid uuendusi
 - Järgige uuenduste installimiseks ekraanil kuvatavaid juhiseid
 
-**Võimalus 2: Terminali kaudu
+**Võimalus 2: Terminali kaudu**
 
 
 - Avage terminal (Ctrl + Alt + T)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Sisestage oma parool, kui seda küsitakse
-- Uuenduste installimiseks sisestage :
+- Uuenduste installimiseks sisestage:
 
 ```bash
 sudo apt upgrade
@@ -187,7 +187,7 @@ sudo apt upgrade
 
 ### 5. Põhiülesannete avastamine
 
-**5.1 Internetis surfamine
+**5.1 Internetis surfamine**
 
 Vaikimisi leiate Firefoxi sageli käivitamisribalt.
 
@@ -195,19 +195,19 @@ Käivitage Firefox ja alustage sirvimist.
 
 Teisi brausereid (Chrome, Brave jne) saab paigaldada Tarkvarahalduri või .deb-pakettide kaudu.
 
-**5.2 Tekstitöötlus
+**5.2 Tekstitöötlus**
 
 Ubuntu tuleb koos LibreOffice'i paketiga (Writer tekstitöötluseks).
 
-Selle avamiseks : Tegevused > Otsi "LibreOffice Writer" või klõpsa ikoonil, kui see ilmub ribale.
+Selle avamiseks: Tegevused > Otsi "LibreOffice Writer" või klõpsa ikoonil, kui see ilmub ribale.
 
 Saate luua, redigeerida ja salvestada dokumente erinevates vormingutes (sh .docx).
 
-**5.3 Rakenduste paigaldamine
+**5.3 Rakenduste paigaldamine**
 
 Tarkvarahaldur (nimega "Ubuntu tarkvara"): graafiline kasutajaliides rakenduste otsimiseks ja installimiseks.
 
-Kasutage terminalist käsku :
+Kasutage terminalist käsku:
 
 ```bash
 sudo apt install nom-du-paquet

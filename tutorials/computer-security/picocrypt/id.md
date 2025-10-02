@@ -45,7 +45,7 @@ Benar-benar **gratis dan open source**, PicoCrypt tersedia untuk **Windows,** **
 | Sistem Telemetri      | ✅ Tidak ada                                                                             | ✅ Tidak ada      | ✅ Tidak ada    | ❓ Tidak diketahui  | ✅ Tidak ada      |
 | Teraudit          | ✅ [Ya](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Ya       | ❌ Tidak      | ❓ Tidak diketahui  | ✅ Ya       |
 
-Sumber : [Github.com](https://github.com/Picocrypt/Picocrypt)
+Sumber: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 Picocrypt **sangat ringan**, dengan ukuran hanya **3 MB**, dan tidak perlu diinstal: ini adalah **aplikasi portabel** dengan keuntungan tidak memerlukan hak administrator! Namun, aplikasi ini tidak mengabaikan keamanan, karena mengandalkan **algoritma yang kuat dan dapat diandalkan**:
 

@@ -52,10 +52,10 @@ LibreWolf heeft als doel de bescherming tegen tracking en fingerprinting te maxi
 
 
 
-- Alle telemetrie en gegevensverzameling** in Firefox elimineren
-- Functies uitschakelen die indruisen tegen de vrijheid van de gebruiker**, zoals propriëtaire DRM-modules
-- Privacy-/beveiligingsinstellingen** en specifieke patches vanaf het begin toepassen
-- Gemeenschapsontwikkeling garandeert transparantie en onafhankelijkheid** van commerciële belangen
+- Alle telemetrie en gegevensverzameling in Firefox elimineren
+- Functies uitschakelen die indruisen tegen de vrijheid van de gebruiker, zoals propriëtaire DRM-modules
+- **Privacy-/beveiligingsinstellingen** en specifieke patches vanaf het begin toepassen
+- Gemeenschapsontwikkeling garandeert **transparantie en onafhankelijkheid** van commerciële belangen
 
 
 
@@ -75,7 +75,7 @@ LibreWolf biedt vanaf het begin een reeks privacy-georiënteerde functies:
 
 
 
-**LibreWolf integreert de uBlock Origin extensie, een van de beste ad blockers en trackers op de markt. Standaard filtert LibreWolf agressief alles wat je online zou kunnen volgen (opdringerige advertenties, tracking scripts, cryptocurrency Mining).
+**LibreWolf integreert de uBlock Origin extensie, een van de beste ad blockers en trackers op de markt. Standaard filtert LibreWolf agressief alles wat je online zou kunnen volgen (opdringerige advertenties, tracking scripts, cryptocurrency Mining).**
 
 
 
@@ -90,7 +90,7 @@ LibreWolf biedt vanaf het begin een reeks privacy-georiënteerde functies:
 ![LIBREWOLF](assets/fr/07.webp)
 
 
-*EFF-testpagina [Cover Your Tracks] (https://coveryourtracks.eff.org/) met de knop TEST YOUR BROWSER. Deze pagina wordt gebruikt om de bescherming tegen trackers en fingerprinting te evalueren
+**EFF-testpagina [Cover Your Tracks]** (https://coveryourtracks.eff.org/) met de knop TEST YOUR BROWSER. Deze pagina wordt gebruikt om de bescherming tegen trackers en fingerprinting te evalueren
 
 
 
@@ -101,7 +101,7 @@ LibreWolf biedt vanaf het begin een reeks privacy-georiënteerde functies:
 
 
 
-**LibreWolf activeert standaard strenge beveiligingsinstellingen. Firefox's Verbeterde Trackingbescherming wordt op het niveau Streng gezet om duizenden trackers, cookies van derden en schadelijke inhoud te blokkeren. Het activeert ook site- en cookie-isolatie (*Total Cookie Protection*) om gegevens voor elk domein te partitioneren, en beperkt WebRTC (beperking van *ICE-kandidaten* en routering via proxy wanneer een proxy aanwezig is) om het risico van IP Address-lekkage te beperken.
+**LibreWolf activeert standaard strenge beveiligingsinstellingen.** Firefox's Verbeterde Trackingbescherming wordt op het niveau Streng gezet om duizenden trackers, cookies van derden en schadelijke inhoud te blokkeren. Het activeert ook site- en cookie-isolatie (*Total Cookie Protection*) om gegevens voor elk domein te partitioneren, en beperkt WebRTC (beperking van *ICE-kandidaten* en routering via proxy wanneer een proxy aanwezig is) om het risico van IP Address-lekkage te beperken.
 
 
 
@@ -119,37 +119,37 @@ LibreWolf biedt vanaf het begin een reeks privacy-georiënteerde functies:
 
 
 
-- Geen telemetrie of ongewenste verbindingen:** LibreWolf verzendt geen gebruiksgegevens, waardoor uw privacy volledig wordt gerespecteerd.
+- **Geen telemetrie of ongewenste verbindingen:** LibreWolf verzendt geen gebruiksgegevens, waardoor uw privacy volledig wordt gerespecteerd.
 
 
 
 
 
-- Open-source en gebaseerd op de gemeenschap:** Het project is 100% open-source en wordt onderhouden door vrijwilligers. Deze onafhankelijkheid garandeert dat geen enkel reclamemodel de ontwikkeling zal beïnvloeden.
+- **Open-source en gebaseerd op de gemeenschap:** Het project is 100% open-source en wordt onderhouden door vrijwilligers. Deze onafhankelijkheid garandeert dat geen enkel reclamemodel de ontwikkeling zal beïnvloeden.
 
 
 
 
 
-- Vooraf geconfigureerd voor privacy:** LibreWolf bespaart u kostbare tijd: u hoeft geen uren te besteden aan het harden van Firefox-instellingen, alles is al gedaan.
+- **Vooraf geconfigureerd voor privacy:** LibreWolf bespaart u kostbare tijd: u hoeft geen uren te besteden aan het harden van Firefox-instellingen, alles is al gedaan.
 
 
 
 
 
-- Native ad blocker/tracker:** uBlock Origin is standaard geïntegreerd, dus je hoeft niets te doen om jezelf te beschermen tegen advertenties en bugs.
+- **Native ad blocker/tracker:** uBlock Origin is standaard geïntegreerd, dus je hoeft niets te doen om jezelf te beschermen tegen advertenties en bugs.
 
 
 
 
 
-- Uitstekende bescherming tegen vingerafdrukken:** Dankzij RFP en talrijke privacy-instellingen vermindert LibreWolf drastisch je unieke digitale voetafdruk op het web.
+- **Uitstekende bescherming tegen vingerafdrukken:** Dankzij RFP en talrijke privacy-instellingen vermindert LibreWolf drastisch je unieke digitale voetafdruk op het web.
 
 
 
 
 
-- Verbeterde prestaties en lichter gewicht:** Door telemetrie en bepaalde niet-essentiële functies te verwijderen, kan LibreWolf iets sneller en minder energieverslindend zijn dan standaard Firefox.
+- **Verbeterde prestaties en lichter gewicht:** Door telemetrie en bepaalde niet-essentiële functies te verwijderen, kan LibreWolf iets sneller en minder energieverslindend zijn dan standaard Firefox.
 
 
 
@@ -159,31 +159,31 @@ LibreWolf biedt vanaf het begin een reeks privacy-georiënteerde functies:
 
 
 
-- Geen ingebouwde automatische updates:** LibreWolf werkt zichzelf niet bij. Het is aan jou om nieuwe versies te installeren zodra ze uitkomen, om veilig te blijven.
+- **Geen ingebouwde automatische updates:** LibreWolf werkt zichzelf niet bij. Het is aan jou om nieuwe versies te installeren zodra ze uitkomen, om veilig te blijven.
 
 
 
 
 
-- Verminderde compatibiliteit met bepaalde diensten:** Door de zeer strikte instellingen kan LibreWolf problemen ondervinden op bepaalde websites. Netflix en Disney+ streaming platforms zullen niet werken, omdat LibreWolf standaard de Widevine DRM uitschakelt.
+- **Verminderde compatibiliteit met bepaalde diensten:** Door de zeer strikte instellingen kan LibreWolf problemen ondervinden op bepaalde websites. Netflix en Disney+ streaming platforms zullen niet werken, omdat LibreWolf standaard de Widevine DRM uitschakelt.
 
 
 
 
 
-- Geen ingebouwd anoniem netwerk:** In tegenstelling tot Tor Browser routeert LibreWolf zelf geen verkeer via Tor of een VPN. Als je netwerkanonimiteit nodig hebt, moet je handmatig een proxy/VPN configureren.
+- **Geen ingebouwd anoniem netwerk:** In tegenstelling tot Tor Browser routeert LibreWolf zelf geen verkeer via Tor of een VPN. Als je netwerkanonimiteit nodig hebt, moet je handmatig een proxy/VPN configureren.
 
 
 
 
 
-- Niet-persistente cookies en sessies (standaard):** Om redenen van vertrouwelijkheid verwijdert LibreWolf cookies, geschiedenis en sitegegevens elke keer dat u uw browser sluit. U moet elke keer dat u inlogt opnieuw inloggen op uw accounts.
+- **Niet-persistente cookies en sessies (standaard):** Om redenen van vertrouwelijkheid verwijdert LibreWolf cookies, geschiedenis en sitegegevens elke keer dat u uw browser sluit. U moet elke keer dat u inlogt opnieuw inloggen op uw accounts.
 
 
 
 
 
-- Geen mobiele versie of cloudsynchronisatie:** LibreWolf is alleen beschikbaar op de desktop (Windows, Linux, macOS). Er is geen mobiele applicatie en dus ook geen synchronisatie van accounts of bladwijzers via een cloud.
+- **Geen mobiele versie of cloudsynchronisatie:** LibreWolf is alleen beschikbaar op de desktop (Windows, Linux, macOS). Er is geen mobiele applicatie en dus ook geen synchronisatie van accounts of bladwijzers via een cloud.
 
 
 
@@ -224,7 +224,7 @@ De installatie verschilt afhankelijk van je besturingssysteem:
 ### Op Linux
 
 
-LibreWolf biedt builds voor veel distributies. Op Debian/Ubuntu en afgeleiden is een officiële APT repository beschikbaar. Als alternatief is LibreWolf gepubliceerd in Flatpak op Flathub :
+LibreWolf biedt builds voor veel distributies. Op Debian/Ubuntu en afgeleiden is een officiële APT repository beschikbaar. Als alternatief is LibreWolf gepubliceerd in Flatpak op Flathub:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Op Windows
 
 
-Download het installatieprogramma (.exe) van de officiële website of gebruik de :
+Download het installatieprogramma (.exe) van de officiële website of gebruik de:
 
 
 
 
-- Chocolade :** `choco install librewolf`
-- WinGet :** `winget installeer librewolf`
+- **Chocolade:** `choco install librewolf`
+- **WinGet:** `winget install librewolf`
 
 
 
@@ -265,7 +265,7 @@ Bij de eerste keer opstarten zul je de bekende Firefox Interface opmerken, behal
 ![LIBREWOLF](assets/fr/04.webp)
 
 
-*LibreWolf startpagina met extensies en menu. Een blauwe pijl in de rechterbovenhoek geeft het menupictogram aan (drie horizontale balken)
+*LibreWolf startpagina met extensies en menu. Een blauwe pijl in de rechterbovenhoek geeft het menupictogram aan (drie horizontale balken)*
 
 
 
@@ -277,7 +277,7 @@ LibreWolf laadt uw pagina's automatisch in "strikte" (anti-tracking) modus, en d
 
 
 
-LibreWolf is al optimaal geconfigureerd voor privacy. In Menu → Opties → Privacy & Beveiliging zie je dat LibreWolf is ingesteld op de modus Verbeterde Trackingbescherming: Strict. Deze modus blokkeert :
+LibreWolf is al optimaal geconfigureerd voor privacy. In Menu → Opties → Privacy & Beveiliging zie je dat LibreWolf is ingesteld op de modus Verbeterde Trackingbescherming: Strict. Deze modus blokkeert:
 
 
 
@@ -325,8 +325,8 @@ Uit principe raadt LibreWolf het toevoegen van onnodige extensies af, omdat elke
 
 
 
-- Firefox Multi-Account Containers** (door Mozilla) voor gecompartimenteerd browsen
-- Decentraleyes** of **LocalCDN** om gemeenschappelijke bibliotheken lokaal te bedienen
+- **Firefox Multi-Account Containers** (door Mozilla) voor gecompartimenteerd browsen
+- **Decentraleyes** of **LocalCDN** om gemeenschappelijke bibliotheken lokaal te bedienen
 
 
 
@@ -402,7 +402,7 @@ LibreWolf maakt deel uit van de "gereedschapskist" van privacy-georiënteerde br
 
 
 
-**Brave gebruikt Chrome/Chromium-code en integreert een bedrijfsmodel via zijn optionele advertentieprogramma. LibreWolf is een Fork gemeenschap voor Firefox, behoudt Mozilla's vrije ecosysteem en heeft geen banden met Google.
+**Brave gebruikt Chrome/Chromium-code en integreert een bedrijfsmodel via zijn optionele advertentieprogramma. LibreWolf is een Fork gemeenschap voor Firefox, behoudt Mozilla's vrije ecosysteem en heeft geen banden met Google.**
 
 
 

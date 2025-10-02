@@ -1,0 +1,9 @@
+question: 什麼是 IPv6 環回 Address，相當於 IPv4 中的 127.0.0.1？
+answer: "::1"
+wrong_answers:
+  - "::0"
+  - "fe80::1"
+  - "fd00::1"
+explanation: |
+  ::1/128 "Address是迴路 Address，用於內部機器測試。
+reviewed: false

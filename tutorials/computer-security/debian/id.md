@@ -77,7 +77,7 @@ Untuk menjalankan penginstalan dari flash drive USB Anda:
 
 ### Menjalankan penginstalan
 
-Layar mulai :
+Layar mulai:
 
 ![starting](assets/fr/04.webp)
 
@@ -165,7 +165,11 @@ sudo apt update
 
 Masukkan kata sandi Anda saat diminta (perhatikan bahwa tidak ada karakter yang akan ditampilkan saat Anda mengetik - ini normal).
 
-- Untuk menginstal pembaruan yang tersedia :
+
+
+
+
+- Untuk menginstal pembaruan yang tersedia:
 
 ```shell
 sudo apt full-upgrade
@@ -189,11 +193,15 @@ Paket **LibreOffice** terinstal secara default pada Debian.
 
 Ada dua cara untuk menginstal aplikasi pada Debian:
 
-### Metode grafis :
+
+
+### Metode grafis:
 
 Anda dapat menggunakan **software manager** (dapat diakses melalui Interface grafis) untuk mencari dan menginstal aplikasi dengan mudah.
 
-### Metode baris perintah :
+
+
+### Metode baris perintah:
 
 Jika aplikasi yang Anda cari tidak muncul di Interface grafis, atau jika Anda lebih suka terminal, gunakan perintah berikut:
 
@@ -201,13 +209,17 @@ Jika aplikasi yang Anda cari tidak muncul di Interface grafis, atau jika Anda le
 sudo apt install <name>
 ```
 
-Ganti `<nama>` dengan nama paket. Misalnya, untuk menginstal `curl` :
+
+
+Ganti `<nama>` dengan nama paket. Misalnya, untuk menginstal `curl`:
 
 ```shell
 sudo apt install curl
 ```
 
-### Menginstal paket yang diunduh secara manual :
+
+
+### Menginstal paket yang diunduh secara manual:
 
 Jika Anda telah mengunduh file `.deb` (paket Debian), Anda dapat menginstalnya dengan perintah berikut:
 

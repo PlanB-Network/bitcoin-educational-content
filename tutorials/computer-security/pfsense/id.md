@@ -164,7 +164,7 @@ Hubungkan komputer ke port LAN (atau Interface LAN virtual di hypervisor Anda) d
 
 Di browser Anda, buka alamat yang ditunjukkan oleh konsol (secara default `https://192.168.1.1`). Perlu diketahui bahwa pfSense memerlukan HTTPS bahkan untuk koneksi pertama, jadi Anda akan mendapatakan peringatan sertifikat yang ditandatangani sendiri (self-signed certificate), yang dapat Anda abaikan dengan menambahkan pengecualian.
 
-Layar login muncul. Kredensial default adalah :
+Layar login muncul. Kredensial default adalah:
 
 - **Nama pengguna:** `admin`
 - **Kata sandi:** `pfsense`

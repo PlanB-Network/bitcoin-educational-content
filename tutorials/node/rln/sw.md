@@ -1,5 +1,5 @@
 ---
-name: Njia ya Umeme ya RGB
+name: RGB Lightning Node
 description: Je, ninawezaje kuzindua nodi ya Umeme inayoendana na RGB na RLN?
 ---
 ![cover](assets/cover.webp)
@@ -96,7 +96,7 @@ Ili kufanya kazi, nodi ya `RGB-umeme` daemon inahitaji uwepo na usanidi wa :
 
 
 
-- Nodi ya `bitcoind`**
+- Nodi ya `bitcoind`
 
 
 Kila mfano wa RLN utahitaji kuwasiliana na `bitcoind` ili kutangaza na kufuatilia miamala yake ya On-Chain. Uthibitishaji (kuingia/nenosiri) na URL (mwenyeji/mlango) utahitaji kutolewa kwa daemon.

@@ -30,7 +30,7 @@ WireGuard är en relativt ny lösning, som har funnits tillgänglig som en stabi
 
 
 
-Några viktiga punkter om WireGuard :
+Några viktiga punkter om WireGuard:
 
 
 
@@ -95,15 +95,15 @@ I det här exemplet kommer jag att fokusera på följande fall: **från min Wind
 
 
 
-I termer av IP-adresser ger detta :
+I termer av IP-adresser ger detta:
 
 
 
 
 
-- Hemnätverk**: 192.168.1.0/24
-- Företagsnätverk**: 192.168.100.0/24
-- WireGuard tunnel nätverk**: 192.168.110.0/24
+- **Hemnätverk**: 192.168.1.0/24
+- **Företagsnätverk**: 192.168.100.0/24
+- **WireGuard tunnel nätverk**: 192.168.110.0/24
 
 
 + IP Address för Peer 1 (Windows) i tunneln: 192.168.110.2/24
@@ -117,7 +117,7 @@ Det är allt som finns att säga! Låt oss komma igång med konfigurationen!
 
 
 
-**Anmärkning: som standard arbetar WireGuard i UDP-läge på **port 51820**.
+**Anmärkning: som standard arbetar WireGuard i UDP-läge på port 51820.**
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Värdet på den publika nyckeln kommer att returneras i konsolen. I WireGuards konfigurationsfil måste vi **lägga till värdet för vår privata nyckel**. För att hämta detta värde, ange kommandot nedan och kopiera värdet :
+Värdet på den publika nyckeln kommer att returneras i konsolen. I WireGuards konfigurationsfil måste vi **lägga till värdet för vår privata nyckel**. För att hämta detta värde, ange kommandot nedan och kopiera värdet:
 
 
 
@@ -219,10 +219,10 @@ Avsnittet `[Interface]` används för att deklarera serverdelen. Här är lite i
 
 
 
-- Address**: IP Address för Interface WireGuard inom VPN-tunneln (annat subnät än fjärr-LAN:et)
-- SaveConfig**: konfigurationen lagras (och skyddas) så länge Interface är aktiv
-- LyssnaPort**: WireGuards lyssningsport. I det här fallet är 51820 standardporten, men du är välkommen att anpassa den
-- PrivateKey**: värdet på vår servers privata nyckel (*wg-private.key*)
+- **Address**: IP Address för Interface WireGuard inom VPN-tunneln (annat subnät än fjärr-LAN:et)
+- **SaveConfig**: konfigurationen lagras (och skyddas) så länge Interface är aktiv
+- **LyssnaPort**: WireGuards lyssningsport. I det här fallet är 51820 standardporten, men du är välkommen att anpassa den
+- **PrivateKey**: värdet på vår servers privata nyckel (*wg-private.key*)
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Om du listar IP-adresserna på din Debian 11-server ser du en ny Interface med namnet "wg0" med IP Address som definieras i konfigurationsfilen :
+Om du listar IP-adresserna på din Debian 11-server ser du en ny Interface med namnet "wg0" med IP Address som definieras i konfigurationsfilen:
 
 
 
@@ -264,7 +264,7 @@ sudo wg show wg0
 
 
 
-Slutligen måste vi aktivera den automatiska uppstarten av vår Interface wg0 WireGuard :
+Slutligen måste vi aktivera den automatiska uppstarten av vår Interface wg0 WireGuard:
 
 
 
@@ -286,7 +286,7 @@ För att vår Debian 11-maskin ska kunna **dirigera paket mellan olika nätverk 
 
 
 
-Ändra denna konfigurationsfil :
+Ändra denna konfigurationsfil:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Lägg till följande direktiv i slutet av filen och spara :
+Lägg till följande direktiv i slutet av filen och spara:
 
 
 
@@ -318,7 +318,7 @@ För att vår server ska kunna dirigera paket korrekt och för att det lokala fj
 
 
 
-Om du inte redan har UFW och vill konfigurera det (du kan också använda Nftables), börja med att installera :
+Om du inte redan har UFW och vill konfigurera det (du kan också använda Nftables), börja med att installera:
 
 
 
@@ -372,7 +372,7 @@ Lägg till dessa rader i slutet av filen för att **aktivera IP-maskerad på Int
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-Bilden visar :
+Bilden visar:
 
 
 
@@ -475,7 +475,7 @@ Börja med att öppna programvaran för att skapa en ny tunnel. Detta gör du ge
 
 
 
-Ett konfigurationsfönster öppnas. Varje gång en ny tunnelkonfiguration skapas genererar WireGuard ett privat/offentligt nyckelpar som är specifikt för denna konfiguration. **I den här konfigurationen måste vi ange "peer", dvs. fjärrservern:
+Ett konfigurationsfönster öppnas. Varje gång en ny tunnelkonfiguration skapas genererar WireGuard ett privat/offentligt nyckelpar som är specifikt för denna konfiguration. **I den här konfigurationen måste vi ange "peer", dvs. fjärrservern:**
 
 
 
@@ -490,7 +490,7 @@ Vi måste slutföra den här konfigurationen, i synnerhet för att deklarera IP 
 
 
 
-Vi börjar med blocket `[Interface]` och lägger till IP Address "**192.168.110.2**"; kom ihåg att servern har IP Address "**192.168.110.121**" i det här nätverkssegmentet. Detta ger :
+Vi börjar med blocket `[Interface]` och lägger till IP Address "**192.168.110.2**"; kom ihåg att servern har IP Address "**192.168.110.121**" i det här nätverkssegmentet. Detta ger:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-I bilder :
+I bilder:
 
 
 
@@ -523,15 +523,15 @@ I bilder :
 
 
 
-**Några förklaringar om [Peer]-blocket:
+**Några förklaringar om [Peer]-blocket:**
 
 
 
 
 
-- PublicKey**: detta är den publika nyckeln för WireGuard Debian 11-servern (du kan få fram dess värde med kommandot "*sudo wg*")
-- AllowedIPs**: detta är de IP-adresser/undernät som är tillgängliga via detta WireGuard VPN-nätverk, i detta fall det undernät som är specifikt för mitt WireGuard VPN (*192.168.110.0/24*) och mitt fjärr-LAN (*192.168.100.0/24*)
-- Endpoint**: detta är IP Address för Debian 11-värden, eftersom detta är vår WireGuard-anslutningspunkt (du måste ange den offentliga IP Address)
+- **PublicKey**: detta är den publika nyckeln för WireGuard Debian 11-servern (du kan få fram dess värde med kommandot "*sudo wg*")
+- **AllowedIPs**: detta är de IP-adresser/undernät som är tillgängliga via detta WireGuard VPN-nätverk, i detta fall det undernät som är specifikt för mitt WireGuard VPN (*192.168.110.0/24*) och mitt fjärr-LAN (*192.168.100.0/24*)
+- **Endpoint**: detta är IP Address för Debian 11-värden, eftersom detta är vår WireGuard-anslutningspunkt (du måste ange den offentliga IP Address)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Nu när konfigurationen är klar kan vi initiera den från Windows PC. För att göra detta, i "**WireGuard**" -klienten, klicka på "**Activate**" -knappen: anslutningen kommer ** att ändras från "Off" till "On"**, men det betyder inte att den kommer att fungera. Allt beror på om din konfiguration är korrekt eller inte. **När anslutningen är upprättad kommunicerar våra två maskiner via Interface WireGuard som konfigurerats på vardera sidan!
+Nu när konfigurationen är klar kan vi initiera den från Windows PC. För att göra detta, i "**WireGuard**" -klienten, klicka på "**Activate**" -knappen: anslutningen kommer **att ändras från "Off" till "On"**, men det betyder inte att den kommer att fungera. Allt beror på om din konfiguration är korrekt eller inte. **När anslutningen är upprättad kommunicerar våra två maskiner via Interface WireGuard som konfigurerats på vardera sidan!**
 
 
 
@@ -663,7 +663,7 @@ Från min fjärrdator kan jag pinga IP Address för min Interface WireGuard på 
 
 
 
-Från min fjärr-PC ansluten till min WireGuard VPN kunde jag komma åt en filserver och överföra en fil via [SMB] (https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), för att se överföringshastigheten. ** Med WireGuard maxar jag till cirka 45 Mb/s, vilket är bra eftersom jag är på WiFi
+Från min fjärr-PC ansluten till min WireGuard VPN kunde jag komma åt en filserver och överföra en fil via [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), för att se överföringshastigheten. **Med WireGuard maxar jag till cirka 45 Mb/s, vilket är bra eftersom jag är på WiFi.**
 
 
 
@@ -691,7 +691,7 @@ Med den nuvarande konfigurationen flödar en del av trafiken genom VPN och reste
 
 
 
-Först måste du installera paketet "resolvconf" på :
+Först måste du installera paketet "resolvconf" på:
 
 
 
@@ -722,7 +722,7 @@ DNS = 192.168.100.11
 
 
 
-Spara filen och starta sedan om Interface :
+Spara filen och starta sedan om Interface:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Slutligen, i tunnelkonfigurationen på Windows 10-arbetsstationen, måste du ändra avsnittet "AllowedIPs" för att ange att allt måste passera genom tunneln. Ersätta :
+Slutligen, i tunnelkonfigurationen på Windows 10-arbetsstationen, måste du ändra avsnittet "AllowedIPs" för att ange att allt måste passera genom tunneln. Ersätta:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Av :
+Av:
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Du kan se att detta även aktiverar alternativet "**Kill switch*".
+Du kan se att detta även aktiverar alternativet "**Kill switch**".
 
 
 
@@ -772,7 +772,7 @@ WireGuards konfiguration är ganska enkel och lätt att förstå, och framför a
 
 
 
-Ytterligare dokumentation :
+Ytterligare dokumentation:
 
 
 
@@ -783,4 +783,4 @@ Ytterligare dokumentation :
 
 
 
-**Ditt WireGuard VPN är igång och fungerar! Vi gratulerar dig!
+**Ditt WireGuard VPN är igång och fungerar! Vi gratulerar dig!**

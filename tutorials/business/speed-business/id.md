@@ -1,5 +1,5 @@
 ---
-name: Kecepatan Wallet - PoS
+name: Speed Wallet - POS
 description: Integrasikan pembayaran Bitcoin dan stablecoin ke dalam bisnis Anda dengan mudah
 ---
 ![cover](assets/cover.webp)
@@ -22,31 +22,31 @@ Adopsi Bitcoin di seluruh dunia didasarkan pada kasus penggunaan yang nyata dala
 
 
 
-Speed memiliki berbagai fitur untuk mencakup aspek keuangan bisnis Anda. Anda akan menemukan :
+Speed memiliki berbagai fitur untuk mencakup aspek keuangan bisnis Anda. Anda akan menemukan:
 
 
 
 
 
-- Konfigurasi pembayaran online**: Terima pembayaran dari pelanggan Anda di mana pun mereka berada, berkat situs web Anda.
+- **Konfigurasi pembayaran online**: Terima pembayaran dari pelanggan Anda di mana pun mereka berada, berkat situs web Anda.
 
 
 
 
 
-- Pembayaran di tempat**: Ideal untuk toko dan bisnis yang mengumpulkan uang tunai di dalam toko.
+- **Pembayaran di tempat**: Ideal untuk toko dan bisnis yang mengumpulkan uang tunai di dalam toko.
 
 
 
 
 
-- Penarikan**: Tarik aset Anda dengan lancar dan gunakan bitcoin Anda untuk membayar pelanggan dan gaji Anda.
+- **Penarikan**: Tarik aset Anda dengan lancar dan gunakan bitcoin Anda untuk membayar pelanggan dan gaji Anda.
 
 
 
 
 
-- Koneksi dengan platform lain**: Apakah Anda menggunakan alat eksternal untuk mengelola pembayaran Anda? Speed menawarkan Anda kemungkinan untuk menghubungkan mereka ke platformnya, untuk ekosistem lengkap yang mencerminkan bisnis Anda.
+- **Koneksi dengan platform lain**: Apakah Anda menggunakan alat eksternal untuk mengelola pembayaran Anda? Speed menawarkan Anda kemungkinan untuk menghubungkan mereka ke platformnya, untuk ekosistem lengkap yang mencerminkan bisnis Anda.
 
 
 
@@ -265,13 +265,13 @@ Di menu **Kirim Pembayaran**, Anda akan menemukan semua opsi kecepatan transfer 
 
 
 
-- Pembayaran instan**: Dengan opsi Kirim Instan, kirim bitcoin dengan aman secara instan dari akun pedagang Anda.
+- **Pembayaran instan**: Dengan opsi Kirim Instan, kirim bitcoin dengan aman secara instan dari akun pedagang Anda.
 
 
 
 
 
-- Tautan penarikan generate** untuk memungkinkan mitra dan pemasok Anda mengakses pembayaran mereka di kemudian hari tanpa memerlukan kehadiran Anda secara online.
+- Tautan penarikan **generate** untuk memungkinkan mitra dan pemasok Anda mengakses pembayaran mereka di kemudian hari tanpa memerlukan kehadiran Anda secara online.
 
 
 
@@ -289,7 +289,7 @@ Pada opsi **Tautan Penarikan**, buat tautan penarikan baru, lalu konfigurasikan 
 
 
 
-- Pembayaran**: Di menu Pembayaran, lakukan penarikan dari saldo Speed Business ke Wallet pribadi Anda.
+- **Pembayaran**: Di menu Pembayaran, lakukan penarikan dari saldo Speed Business ke Wallet pribadi Anda.
 
 
 
@@ -299,7 +299,7 @@ Pada opsi **Tautan Penarikan**, buat tautan penarikan baru, lalu konfigurasikan 
 
 
 
-- Diskon**: Dorong pelanggan tetap Anda dengan menyiapkan opsi rabat untuk mendapatkan bonus.
+- **Diskon**: Dorong pelanggan tetap Anda dengan menyiapkan opsi rabat untuk mendapatkan bonus.
 
 
 
@@ -436,4 +436,3 @@ Anda telah memahami dengan baik tentang Speed, mengintegrasikan Bitcoin ke dalam
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

@@ -1,0 +1,9 @@
+question: Milline IPv4 Address vahemik on reserveeritud kohalikuks loopback-testimiseks?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Vahemikku 127.0.0.0/8 kasutatakse kohalikuks tagasipöördumiseks. Iga taotlus sellele vahemikule jääb algse masina piires.
+reviewed: false

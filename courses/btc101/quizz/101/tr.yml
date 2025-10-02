@@ -1,11 +1,11 @@
-question: Wallet'ınızı geri yüklemek için standart bir yöntem nedir?
-answer: Mnemonic ifadenizin herhangi bir Wallet yazılımına girilmesi.
+question: Bitcoin Wallet'in amacı nedir?
+answer: Bitcoin işlemlerini yapmak için özel anahtarları saklamak.
 wrong_answers:
-  - Mnemonic cümlenizi dijital bir dosyaya kaydetme.
-  - Mnemonic cümlenizi bir beyaz tahtaya yazmak.
-  - Mnemonic ifadenizi güvendiğiniz bir arkadaşınızla paylaşmak.
+  - Cihaz kaynaklarını bitcoin madenciliği yapmak için kullanmak.
+  - Açık anahtar aracılığıyla bitcoin satın almak için.
+  - Bitcoinleri bir cihazda saklamak için.
 explanation: |
-  Özel anahtarı yedeklemenin standart yöntemi
-  Bitcoin Wallet, Mnemonic ifadenizi herhangi bir
-  Wallet yazılımı. Bu, Wallet'inizi geri yüklemenizi sağlar.
-reviewed: false
+  Bitcoin cüzdanları, aşağıdakileri yapmak için kullanılan bir yazılım türüdür
+  işlem yapmanızı sağlayan özel anahtarları depolar
+  bitcoins.
+reviewed: true

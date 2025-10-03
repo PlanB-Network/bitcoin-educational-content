@@ -101,29 +101,29 @@ Se lo desideri, potrai anche personalizzare la tua dashboard per evidenziare le 
 
 ![bitfinex](https://youtu.be/z2YlJr9sF20)
 
-Per depositare euro sul vostro conto Bitfinex, accedete al sottomenu "*Deposit*" nel menu "*Wallet*" nella parte superiore dell'interfaccia.
+Per depositare euro sul tuo conto Bitfinex, accedi nel menu "*Wallet*" sottomenu "*Deposit*" nella parte superiore dell'interfaccia.
 
 ![BITFINEX](assets/fr/12.webp)
 
-Selezionare "*Trasferimento bancario*" o "*Carta di credito/debito*" per effettuare un deposito in euro (o in qualsiasi altra valuta fiat).
+Seleziona "*Trasferimento bancario*" o "*Carta di credito/debito*" per effettuare un deposito in euro (o in qualsiasi altra valuta fiat).
 
 ![BITFINEX](assets/fr/13.webp)
 
-Scegliete la valuta fiat da inviare, ad esempio l'euro. Se si utilizzano solo le funzioni di base di "*Trading*", cliccare su "*Scambio*". Indicate anche l'importo che desiderate depositare e il paese della vostra banca.
+Scegli la valuta fiat da inviare, ad esempio euro. Se utilizzi solo le funzioni base di "*Trading*", clicca su "*Scambio*". Indica l'importo che desideri depositare e il paese della tua banca.
 
 ![BITFINEX](assets/fr/14.webp)
 
-Effettuare un bonifico dal proprio conto bancario al conto bancario indicato da Bitfinex.
+Effettua un bonifico dal tuo conto bancario al conto bancario indicato da Bitfinex.
 
-Per prelevare i fondi, la procedura è simile: andare al sottomenu "*Prelievi*".
+Per prelevare i fondi, la procedura è simile: accedi al sottomenu "*Prelievi*".
 
 ![BITFINEX](assets/fr/15.webp)
 
-Cliccate su "*Trasferimento bancario*".
+Clicca su "*Trasferimento bancario*".
 
 ![BITFINEX](assets/fr/16.webp)
 
-Selezionare la valuta fiat che si desidera prelevare, il conto da addebitare a Bitfinex ("*Exchange*" se si utilizzano solo le funzioni di base) e l'importo da prelevare.
+Seleziona la valuta fiat che desideri prelevare, il conto da addebitare a Bitfinex ("*Exchange*" se utilizzi solo le funzionalità di base) e l'importo da prelevare.
 
 ![BITFINEX](assets/fr/17.webp)
 
@@ -139,51 +139,51 @@ Per depositare bitcoin su Bitfinex, accedere al sottomenu "*Deposit*".
 
 ![BITFINEX](assets/fr/19.webp)
 
-Cliccate su "*Criptovalute*".
+Clicca su "*Criptovalute*".
 
 ![BITFINEX](assets/fr/13.webp)
 
-Scegliere "*BTC*". Apparirà un indirizzo di ricezione. Copiate questo indirizzo e utilizzatelo dal vostro portafoglio di autodeposito o da un'altra piattaforma per inviare i vostri BTC.
+Scegli "*BTC*". Apparirà un indirizzo di ricezione. Copia questo indirizzo e utilizzalo nel tuo portafoglio di autodeposito o da un'altra piattaforma per inviare i tuoi BTC.
 
 ![BITFINEX](assets/fr/20.webp)
 
-Per prelevare bitcoin, accedere al sottomenu "*Prelievo*".
+Per prelevare bitcoin, accedi nel sottomenu "*Prelievo*".
 
 ![BITFINEX](assets/fr/21.webp)
 
-Cliccate su "*Criptovalute*".
+Clicca su "*Criptovalute*".
 
 ![BITFINEX](assets/fr/22.webp)
 
-Selezionare "*BTC*". Scegliere il conto Bitfinex da addebitare per il prelievo ("*Exchange*" per le funzioni di base). Inserire l'importo e l'indirizzo di destinazione dei bitcoin. Assicuratevi di controllare l'indirizzo di prelievo per evitare errori.
+Seleziona "*BTC*". Scegli il conto Bitfinex da addebitare per il prelievo ("*Exchange*" per le funzioni di base). Inserisci l'importo e l'indirizzo di destinazione dei bitcoin. Assicurati di controllare l'indirizzo di prelievo per evitare errori.
 
 ![BITFINEX](assets/fr/23.webp)
 
-Dopo la conferma, i bitcoin saranno trasferiti. Si prega di notare che le commissioni e i ritardi possono variare a seconda della congestione di mempool.
+Dopo la conferma, i bitcoin saranno trasferiti. Si prega di notare che le commissioni e i ritardi possono variare a seconda della congestione di rete mempool.space.
 
 Bitfinex offre anche opzioni di deposito e prelievo tramite la rete Lightning, consentendo transazioni più rapide ed economiche.
 
 ![BITFINEX](assets/fr/24.webp)
 
-Se siete interessati alla rete Lightning, abbiamo anche un corso di formazione completo per aiutarvi a capire come funziona:
+Se sei interessato alla rete Lightning, abbiamo anche un corso di formazione completo per aiutarvi a capire come funziona:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Dopo aver acquistato i primi bitcoin, avete ovviamente la possibilità di lasciarli sulla piattaforma, ma vi consiglio vivamente di trasferirli in un portafoglio personale in autocustodia. Se non sapete ancora come usare un portafoglio Bitcoin, vi invito a esplorare [la sezione "Portafoglio" del Piano ₿ Network](https://planb.network/tutorials/wallet).
+Dopo aver acquistato i primi bitcoin, hai ovviamente la possibilità di lasciarli sulla piattaforma, ma ti consiglio vivamente di trasferirli in un portafoglio personale in autocustodia. Se non sai ancora come usare un portafoglio Bitcoin, vi invito a esplorare [la sezione "Portafoglio" del Plan ₿ Network](https://planb.network/tutorials/wallet).
 
 ## 6 - Comprare e vendere bitcoin su Bitfinex
 
-Bitfinex offre diverse modalità di trading. Per una maggiore facilità d'uso, optate per il classico mercato spot, noto anche come "*Trading*" o "*Exchange*". Qui è possibile piazzare ordini di acquisto o di vendita al prezzo di mercato o impostare un prezzo limite.
+Bitfinex offre diverse modalità di trading. Per una maggiore facilità d'uso, scegli il mercato classico spot, noto anche come "*Trading*" o "*Exchange*". Qui è possibile piazzare ordini di acquisto o di vendita al prezzo di mercato o impostare un prezzo limite.
 
-Nel menu superiore, fare clic su "*Trading*".
+Nel menu superiore, fai clic su "*Trading*".
 
 ![BITFINEX](assets/fr/25.webp)
 
-Selezionate la coppia "*BTC/EUR*" se volete acquistare o vendere BTC in cambio di euro, ad esempio.
+Seleziona la coppia "*BTC/EUR*" se vuoi acquistare o vendere BTC in cambio di euro, ad esempio.
 
 ![BITFINEX](assets/fr/26.webp)
 
-L'interfaccia mostra un grafico dei prezzi al centro, il portafoglio ordini in basso e il modulo di inserimento ordini a sinistra. Nella sezione di inserimento ordini, è possibile scegliere tra un ordine "*Mercato*" (eseguito immediatamente al miglior prezzo disponibile) o un ordine "*Limite*" (si definisce il prezzo). Indicate la quantità di BTC da acquistare o vendere, oppure selezionate una percentuale del vostro saldo. Quindi cliccate su "*Acquista*" per acquistare o "*Vendi*" per vendere.
+L'interfaccia mostra un grafico dei prezzi al centro, il portafoglio ordini in basso e il modulo di inserimento ordini a sinistra. Nella sezione di inserimento ordini, è possibile scegliere tra un ordine "*Mercato*" (eseguito immediatamente al miglior prezzo disponibile) o un ordine "*Limite*" (si definisce il prezzo). Indica la quantità di BTC da acquistare o vendere, oppure seleziona una percentuale dal tuo saldo. Quindi clicca su "*Acquista*" per acquistare o "*Vendi*" per vendere.
 
 ![BITFINEX](assets/fr/27.webp)
 

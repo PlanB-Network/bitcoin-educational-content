@@ -229,22 +229,22 @@ Kies een naam voor de map die speciaal voor je tutorial is gemaakt. De naam van 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-De `project_id` is de UUID van het bedrijf of de organisatie achter de tool die in de tutorial behandeld wordt, beschikbaar [in de lijst van projecten] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Bijvoorbeeld, voor een tutorial over Sparrow wallet, kun je de `project_id` vinden in het bestand: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van bedrijven en organisaties die actief zijn in Bitcoin of gerelateerde projecten. Door de bijbehorende `project_id` toe te voegen, koppel je je inhoud aan de relevante entiteit.
+Het `project_id` is de UUID van het bedrijf of de organisatie achter de tool die in de tutorial behandeld wordt, beschikbaar [in de lijst van projecten] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Bijvoorbeeld, voor een tutorial over Sparrow wallet, kun je het `project_id` vinden in het bestand: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van bedrijven en organisaties die actief zijn in Bitcoin of gerelateerde projecten. Door het bijbehorende `project_id` toe te voegen, koppel je je inhoud aan de relevante entiteit.
 
 
-***Update:*** In de nieuwe versie van het script hoef je niet langer handmatig de `project_id` in te voeren. Er is een zoekfunctie toegevoegd om het project op naam te vinden en automatisch de bijbehorende `project_id` op te halen. Typ het begin van de naam van het project in het veld "Projectnaam" om het te zoeken en selecteer vervolgens het gewenste bedrijf in het vervolgkeuzemenu. De `project_id` wordt automatisch ingevuld in het onderstaande veld. U kunt het indien nodig ook handmatig invoeren.
+***Update:*** In de nieuwe versie van het script hoef je niet langer handmatig het `project_id` in te voeren. Er is een zoekfunctie toegevoegd om het project op naam te vinden en automatisch de bijbehorende `project_id` op te halen. Typ het begin van de naam van het project in het veld "Project Name" om het te zoeken en selecteer vervolgens het gewenste bedrijf in het vervolgkeuzemenu. Het `project_id` wordt automatisch ingevuld in het onderstaande veld. Je kunt het indien nodig ook handmatig invoeren.
 
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-Voor tags selecteert u 2 of 3 relevante trefwoorden die verband houden met de inhoud van uw tutorial en kiest u uitsluitend uit [de Plan ₿ Network taglijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). De software biedt ook een zoekfunctie voor trefwoorden met een vervolgkeuzelijst.
+Voor tags selecteer je 2 of 3 relevante trefwoorden die verband houden met de inhoud van je tutorial en kies je uitsluitend uit [de Plan ₿ Network taglijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). De software biedt ook een zoekfunctie voor trefwoorden met een vervolgkeuzelijst.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
 
-Zodra alle informatie is ingevoerd en gecontroleerd, klik je op "Create Tutorial" om de aanmaak van je tutorialbestanden te bevestigen. Dit zal generate je tutorialmap en alle benodigde bestanden in de geselecteerde categorie lokaal maken.
+Zodra alle informatie is ingevoerd en gecontroleerd, klik je op "Create Tutorial" om de aanmaak van je tutorialbestanden te bevestigen. Dit zal je tutorialmap en alle benodigde bestanden in de geselecteerde categorie lokaal aanmaken.
 
 
 ![DATA-CREATOR-PY](assets/fr/48.webp)
@@ -253,7 +253,7 @@ Zodra alle informatie is ingevoerd en gecontroleerd, klik je op "Create Tutorial
 Je kunt nu de subsectie "Zonder mijn Python script" overslaan, evenals stap 3, "Vul het YAML-bestand in", aangezien het script deze handelingen al voor je heeft uitgevoerd. Ga direct door naar stap 4 en begin met het schrijven van je tutorial.
 
 
-Voor meer informatie over dit Python-script kunt u ook de [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) bekijken.
+Voor meer informatie over dit Python-script kun je ook de [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) bekijken.
 
 
 ### Zonder mijn Python-script
@@ -262,7 +262,7 @@ Voor meer informatie over dit Python-script kunt u ook de [README](https://githu
 Open je bestandsbeheerder en navigeer naar de `Bitcoin-educational-content` map, die de lokale kloon van je repository representeert. Je kunt deze map normaal gesproken vinden onder `Documents\GitHub\Bitcoin-educational-content`.
 
 
-In deze map moet je de juiste submap vinden om je tutorial in te plaatsen. De mapindeling weerspiegelt de verschillende secties van de Plan ₿ Network website. In ons voorbeeld, omdat we een tutorial over Sparrow wallet willen toevoegen, moeten we naar het volgende pad navigeren: gW-39-educational-content\tutorialsWallet`, wat overeenkomt met de `Wallet` sectie op de website:
+In deze map moet je de juiste submap vinden om je tutorial in te plaatsen. De mapindeling weerspiegelt de verschillende secties van de Plan ₿ Network website. In ons voorbeeld, omdat we een tutorial over Sparrow wallet willen toevoegen, moeten we naar het volgende pad navigeren: `bitcoin-educational-content\tutorials\wallet`, wat overeenkomt met de `Wallet` sectie op de website:
 
 
 ![TUTO](assets/fr/12.webp)
@@ -274,13 +274,13 @@ Binnen de `Wallet` map moet je een nieuwe map maken die specifiek gewijd is aan 
 ![TUTO](assets/fr/13.webp)
 
 
-In deze nieuwe submap, gewijd aan je tutorial, moeten verschillende Elements worden toegevoegd:
+In deze nieuwe submap, gewijd aan je tutorial, moeten verschillende elementen worden toegevoegd:
 
 
 - Maak een map `assets` aan voor alle illustraties die nodig zijn voor je tutorial;
-- Binnen deze `assets` map moet je een submap maken met de naam van de oorspronkelijke taalcode van de tutorial. Als de handleiding bijvoorbeeld in het Engels geschreven is, moet deze submap `en` heten. Plaats daar al het beeldmateriaal van de handleiding (diagrammen, afbeeldingen, screenshots, enz.).
+- Binnen deze `assets` map moet je een submap maken met de naam van de oorspronkelijke taalcode van de tutorial. Als de tutorial bijvoorbeeld in het Engels geschreven is, moet deze submap `en` heten. Plaats daar al het beeldmateriaal van de tutorial (diagrammen, afbeeldingen, screenshots, enz.).
 - Een `tutorial.yml` bestand moet aangemaakt worden om de details van je tutorial op te slaan;
-- Er moet een markdown-bestand worden aangemaakt om de feitelijke inhoud van je tutorial te schrijven. Dit bestand moet een titel krijgen die overeenkomt met de taalcode van de tekst. Bijvoorbeeld, voor een bijles geschreven in het Frans, moet het bestand `fr.md` heten.
+- Er moet een markdown-bestand worden aangemaakt om de feitelijke inhoud van je tutorial te schrijven. Dit bestand moet een titel krijgen die overeenkomt met de taalcode van de tekst. Bijvoorbeeld, voor een tutorial geschreven in het Frans, moet het bestand `fr.md` heten.
 
 
 ![TUTO](assets/fr/14.webp)
@@ -340,11 +340,11 @@ Dit zijn de verplichte velden:
 
 
 
-- **id**: Een UUID (_Universally Unique Identifier_) die de tutorial uniek identificeert. Je kunt het generate met behulp van [een online tool](https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
+- **id**: Een UUID (_Universally Unique Identifier_) die de tutorial uniek identificeert. Je kunt dit genereren met behulp van [een online tool](https://www.uuidgenerator.net/version4). De enige vereiste is dat deze UUID willekeurig is om conflicten met een andere UUID op het platform te vermijden;
 
 
 
-- **project_id**: De UUID van het bedrijf of de organisatie achter het gereedschap dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die werken op Bitcoin of gerelateerde projecten. Door de `project_id` van de entiteit die gelinkt is aan je tutorial toe te voegen, creëer je een link tussen de twee Elements;
+- **project_id**: De UUID van het bedrijf of de organisatie achter de tool die in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je het overeenstemmend `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Network een database bijhoudt van alle bedrijven en organisaties die werken aan Bitcoin of gerelateerde projecten. Door het `project_id` van de entiteit die gelinkt is aan je tutorial toe te voegen, creëer je een link tussen de twee elementen;
 
 
 
@@ -352,35 +352,35 @@ Dit zijn de verplichte velden:
 
 
 
-- **categorie**: De subcategorie die overeenkomt met de tutorialinhoud, volgens de Plan ₿ Network websitestructuur (bijvoorbeeld voor wallets: `desktop`, `hardware`, `mobiel`, `backup`);
+- **category**: De subcategorie die overeenkomt met de tutorialinhoud, volgens de Plan ₿ Network websitestructuur (bijvoorbeeld voor wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
 - **level**: De moeilijkheidsgraad van de tutorial, gekozen uit:
-    - beginner
-    - gemiddeld
-    - geavanceerd
-    - `expert`
+  - `beginner`
+  - `intermediair`
+  - `geavanceerd`
+  - `expert`
 
 
 
-- **professor_id**: Uw `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: je `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
-- **oorspronkelijke_taal**: De oorspronkelijke taal van de tutorial (bijv. `fr`, `en`, enz.);
+- **original_language**: De oorspronkelijke taal van de tutorial (bijv. `fr`, `en`, enz.);
 
 
 
-- **proeflezen**: Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen tutorial telt als een eerste validatie:
-- **language**: Taalcode van het proeflezen (bijv. `fr`, `en`, enz.).
-- **last_contribution_date**: Datum van de dag.
-- **urgentie**: 1
-- **contributor_names**: Je GitHub ID.
-- **beloning**: 0
+- **proofreading**: Informatie over het proefleesproces. Maak het eerste deel af, want het proeflezen van je eigen tutorial telt als een eerste validatie:
+  - **language**: Taalcode van het proeflezen (bijv. `fr`, `en`, enz.).
+  - **last_contribution_date**: Datum van de dag.
+  - **urgency**: 1
+  - **contributor_names**: Je GitHub ID.
+  - **reward**: 0
 
 
-Raadpleeg de bijbehorende handleiding voor meer informatie over je leraren-ID:
+Raadpleeg de bijbehorende handleiding voor meer informatie over je docenten-ID:
 
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
@@ -414,13 +414,13 @@ reward: 0
 ```
 
 
-Als je klaar bent met het aanpassen van je `tutorial.yml` bestand, sla dan je document op door te klikken op `Bestand > Opslaan`:
+Als je klaar bent met het aanpassen van je `tutorial.yml` bestand, sla je document dan op door te klikken op `File > Save` (Bestand > Opslaan):
 
 
 ![TUTO](assets/fr/16.webp)
 
 
-U kunt nu uw code editor sluiten.
+Je kunt nu je code editor sluiten.
 
 
 ## 4 - Vul het Markdown-bestand in
@@ -438,7 +438,7 @@ Klik op het bestand om het te openen:
 ![TUTO](assets/fr/19.webp)
 
 
-We beginnen met het invullen van het gedeelte `Eigenschappen` bovenaan het document.
+We beginnen met het invullen van het gedeelte `Properties` (Eigenschappen) bovenaan het document.
 
 
 ![TUTO](assets/fr/20.webp)
@@ -481,7 +481,7 @@ Deze syntaxis is handig wanneer je een afbeelding aan je tutorial moet toevoegen
 ## 5 - Logo en omslag toevoegen
 
 
-In de map `assets` moet je een bestand met de naam `logo.webp` toevoegen, dat zal dienen als thumbnail voor je artikel. Deze afbeelding moet in `.webp` formaat zijn en moet een vierkante afmeting hebben om te harmoniëren met de Interface van de gebruiker. Je bent vrij om het logo van de software in de tutorial of een andere relevante afbeelding te kiezen, mits deze vrij is van rechten. Voeg daarnaast ook een afbeelding met de titel `cover.webp` toe op dezelfde plaats. Deze afbeelding wordt bovenaan de handleiding weergegeven. Zorg ervoor dat deze afbeelding, net als het logo, de gebruiksrechten respecteert en geschikt is voor de context van je handleiding:
+In de map `assets` moet je een bestand met de naam `logo.webp` toevoegen, dat zal dienen als thumbnail voor je artikel. Deze afbeelding moet in `.webp` formaat zijn en moet een vierkante afmeting hebben om te passen in de gebruikersinterface. Je bent vrij om het logo van de software in de tutorial of een andere relevante afbeelding te kiezen, mits deze vrij is van rechten. Voeg daarnaast ook een afbeelding met de titel `cover.webp` toe op dezelfde plaats. Deze afbeelding wordt bovenaan de tutorial weergegeven. Zorg ervoor dat deze afbeelding, net als het logo, de gebruiksrechten respecteert en geschikt is voor de context van je tutorial:
 
 ## 6 - De tutorial schrijven en afbeeldingen toevoegen
 
@@ -507,7 +507,7 @@ Je afbeeldingen moeten uitsluitend in `.webp` formaat zijn. Indien nodig kun je 
 ![TUTO](assets/fr/26.webp)
 
 
-Om een diagram in je document in te voegen, gebruik je de volgende Markdown opdracht, waarbij je ervoor zorgt dat je de juiste alternatieve tekst en het juiste pad van de afbeelding opgeeft:
+Om een diagram in je document in te voegen, gebruik je de volgende markdown opdracht, waarbij je ervoor zorgt dat je de juiste alternatieve tekst en het juiste pad van de afbeelding opgeeft:
 
 
 ```
@@ -521,11 +521,11 @@ Het uitroepteken aan het begin geeft aan dat het om een afbeelding gaat. De alte
 Als je je eigen diagrammen wilt maken, zorg er dan voor dat je je houdt aan het grafische handvest van Plan ₿ Network om visuele consistentie te garanderen:
 
 
-- **Lettertype**: Gebruik [Rubik](https://fonts.google.com/specimen/Rubik);
-- **Kleuren**:
- - Oranje: #FF5C00
- - Zwart: #000000
- - Wit: #FFFFFF
+- **Font**: Gebruik [Rubik](https://fonts.google.com/specimen/Rubik);
+- **Colors**:
+  - Orange: #FF5C00
+  - Black: #000000
+  - White: #FFFFFF
 
 
 **Het is noodzakelijk dat alle afbeeldingen die je in je tutorials opneemt vrij zijn van rechten of de licentie van het bronbestand respecteren**. Ook worden alle diagrammen die op Plan ₿ Network gepubliceerd zijn, beschikbaar gesteld onder de CC-BY-SA-licentie, op dezelfde manier als de tekst.
@@ -535,16 +535,16 @@ Als je je eigen diagrammen wilt maken, zorg er dan voor dat je je houdt aan het 
 ## 7 - De tutorial opslaan en verzenden
 
 
-Zodra je klaar bent met het schrijven van je handleiding in de taal van je keuze, is de volgende stap het indienen van een **Trekverzoek**. De beheerder zal er dan voor zorgen dat de ontbrekende vertalingen van je handleiding worden toegevoegd, dankzij onze geautomatiseerde vertaalmethode met menselijke controle.
+Zodra je klaar bent met het schrijven van je handleiding in de taal van je keuze, is de volgende stap het indienen van een **Pull Request** (PR). De beheerder zal er dan voor zorgen dat de ontbrekende vertalingen van je handleiding worden toegevoegd, dankzij onze geautomatiseerde vertaalmethode met menselijke controle.
 
 
-Om verder te gaan met de Pull Request, open je de GitHub Desktop software. De software zou automatisch de wijzigingen moeten detecteren die je lokaal op je branch hebt gemaakt, vergeleken met de originele repository. Voordat je verder gaat, controleer zorgvuldig aan de linkerkant van de Interface of deze wijzigingen overeenkomen met wat je verwachtte:
+Om verder te gaan met de Pull Request, open je de GitHub Desktop software. De software zou automatisch de wijzigingen moeten detecteren die je lokaal op je branch hebt gemaakt, vergeleken met de originele repository. Voordat je verder gaat, controleer zorgvuldig aan de linkerkant van de interface of deze wijzigingen overeenkomen met wat je verwachtte:
 
 
 ![TUTO](assets/fr/28.webp)
 
 
-Voeg een titel toe voor je commit, klik dan op de blauwe `Commit to [your branch]` knop om deze wijzigingen te valideren:
+Voeg een titel toe voor je commit, klik dan op de blauwe knop `Commit to [jouw branch]`  om deze wijzigingen te valideren:
 
 
 ![TUTO](assets/fr/29.webp)
@@ -553,13 +553,13 @@ Voeg een titel toe voor je commit, klik dan op de blauwe `Commit to [your branch
 Een commit is een opslag van de wijzigingen die in de branch zijn aangebracht, vergezeld van een beschrijvend bericht, waardoor de evolutie van een project in de loop van de tijd gevolgd kan worden. Het is een soort tussentijds controlepunt.
 
 
-Klik dan op de `Push origin` knop. Dit zal je commit naar je fork sturen:
+Klik dan op de knop `Push origin`. Dit zal je commit naar je fork sturen:
 
 
 ![TUTO](assets/fr/30.webp)
 
 
-Als je je tutorial nog niet af hebt, kun je er later op terugkomen en nieuwe commits maken. Als je je wijzigingen voor deze branch hebt voltooid, klik dan nu op de `Preview Pull Request` knop:
+Als je je tutorial nog niet af hebt, kun je er later op terugkomen en nieuwe commits maken. Als je je wijzigingen voor deze branch hebt voltooid, klik dan nu op de knop `Preview Pull Request`:
 
 
 ![TUTO](assets/fr/31.webp)
@@ -571,7 +571,7 @@ Je kunt nog een laatste keer controleren of je wijzigingen correct zijn en dan o
 ![TUTO](assets/fr/32.webp)
 
 
-Een Pull Request is een verzoek om de wijzigingen van jouw branch te integreren in de hoofdbranch van het Plan ₿ Network repository, waardoor de wijzigingen bekeken en besproken kunnen worden voordat ze samengevoegd worden.
+Een Pull Request is een verzoek om de wijzigingen van jouw branch te integreren in de hoofdbranch van de Plan ₿ Network repository, waardoor de wijzigingen bekeken en besproken kunnen worden voordat ze samengevoegd worden.
 
 
 Je wordt automatisch doorgestuurd naar je browser op GitHub naar de voorbereidingspagina van je Pull Request:
@@ -579,18 +579,18 @@ Je wordt automatisch doorgestuurd naar je browser op GitHub naar de voorbereidin
 
 ![TUTO](assets/fr/33.webp)
 
-Geef een titel op die kort de wijzigingen samenvat die je wilt samenvoegen met het bronrepository. Voeg een korte opmerking toe die deze wijzigingen beschrijft (als je een issue nummer hebt dat geassocieerd is met het maken van je tutorial, vergeet dan niet om in de opmerking `Houdt #{issue nummer}` te vermelden), klik dan op de Green `Create pull request` knop om het samenvoeg verzoek te bevestigen:
+Geef een titel op die kort de wijzigingen samenvat die je wilt samenvoegen met het bronrepository. Voeg een korte opmerking toe die deze wijzigingen beschrijft (als je een issue nummer hebt dat geassocieerd is met het maken van je tutorial, vergeet dan niet om in de opmerking `Closes #{issue nummer}` te vermelden), klik dan op de groene knop `Create pull request` om het samenvoeg verzoek te bevestigen:
 
 ![TUTO](assets/fr/34.webp)
 
 
-Uw PR zal dan zichtbaar zijn op het tabblad `Pull Request` van het Plan ₿ Network repository. U hoeft alleen maar te wachten tot een beheerder contact met u opneemt om de samenvoeging van uw bijdrage te bevestigen of om aanvullende wijzigingen aan te vragen.
+Je PR zal dan zichtbaar zijn op het tabblad `Pull Request` van de Plan ₿ Network repository. Je hoeft alleen maar te wachten tot een beheerder contact met je opneemt om de samenvoeging van je bijdrage te bevestigen of om aanvullende wijzigingen aan te vragen.
 
 
 ![TUTO](assets/fr/35.webp)
 
 
-Nadat je PR is samengevoegd met de hoofdbranch, wordt het aangeraden om je werktak (`tuto-Sparrow-Wallet`) te verwijderen om een schone geschiedenis op je fork te behouden. GitHub zal je deze optie automatisch aanbieden op je PR pagina:
+Nadat je PR is samengevoegd met de hoofdbranch, wordt het aangeraden om je werkbranch (`tuto-Sparrow-Wallet`) te verwijderen om een schone geschiedenis op je fork te behouden. GitHub zal je deze optie automatisch voorstellen op je PR pagina:
 
 
 ![TUTO](assets/fr/36.webp)
@@ -606,7 +606,7 @@ Als je je bijdrage wilt wijzigen nadat je je PR al hebt ingediend, hangt de proc
 
 
 - Als je PR nog open is en nog niet samengevoegd, voer de wijzigingen dan lokaal door terwijl je op dezelfde branch blijft. Als de wijzigingen afgerond zijn, gebruik dan de `Push origin` knop om een nieuwe commit toe te voegen aan je nog open PR;
-- Als uw PR al samengevoegd is met de hoofdbranch, dan moet u het proces opnieuw beginnen door een nieuwe branch aan te maken en dan een nieuw PR in te dienen. Zorg ervoor dat uw lokale repository gesynchroniseerd is met de Plan ₿ Network broncode repository voordat u verder gaat.
+- Als je PR al samengevoegd is met de hoofdbranch, dan moet je het proces opnieuw beginnen door een nieuwe branch aan te maken en dan een nieuw PR in te dienen. Zorg ervoor dat je lokale repository gesynchroniseerd is met de Plan ₿ Network broncode repository voordat je verder gaat.
 
 
 Als je technische problemen ondervindt bij het indienen van je tutorial, aarzel dan niet om hulp te vragen op [onze speciale Telegram-groep voor bijdragen](https://t.me/PlanBNetwork_ContentBuilder). Hartelijk dank!

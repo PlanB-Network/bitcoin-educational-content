@@ -15,48 +15,48 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.38
+    reward: 19.62
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.56
+    reward: 14.74
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.56
+    reward: 14.74
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.56
+    reward: 14.74
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.38
+    reward: 19.62
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 7.28
+    reward: 7.37
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.56
+    reward: 14.74
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.02
+    reward: 29.38
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.56
+    reward: 14.74
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -71,13 +71,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.38
+    reward: 19.62
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 12.1
+    reward: 12.25
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -87,17 +87,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.38
+    reward: 19.62
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.84
+    reward: 34.26
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.38
+    reward: 19.62
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
@@ -118,7 +118,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.38
+    reward: 19.62
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -128,7 +128,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 19.38
+    reward: 19.62
   - language: tr
     last_contribution_date:
     urgency: 1

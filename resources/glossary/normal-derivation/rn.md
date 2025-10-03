@@ -1,0 +1,5 @@
+---
+term: IBIKOMOKA BISAZWE
+---
+
+Inzira yo gutanga imfunguruzo z’abana mu bikoresho vya HD. Ivyiyumviro bisanzwe bikoresha urufunguzo rwa bose rw'umuvyeyi nk'inyungu y'igikorwa ca `HMAC-SHA512`, bishoboza guhingura urufunguzo rwa bose rw'abana kuva ku rufunguzo rwa bose rw'umuvyeyi n'umuvyeyi chain code. Ivyo birimwo gufatanya urufunguzo rwa bose rw'umuvyeyi n'urutonde ruri munsi ya $2^{31}$, hanyuma hakurikirwa ugukoresha `HMAC-SHA512` n'umuvyeyi chain code. Ico gisubizo kigabanywamwo ibice bibiri: ibice 256 vya mbere vyongerwa ku rufunguzo rw'ibanga rw'umuvyeyi kugira ngo uronke urufunguzo rw'ibanga rw'umwana, mu gihe ibice 256 bisigaye bikora umwana chain code. Ubu buryo buratuma urufunguzo rwa bose rwagutse rushobora gukoreshwa mu gukuraho urufunguzo rwa bose rw'abana. Mu gukuraho ibintu bisanzwe, gukuraho ibintu bisanzwe bikoreshwa ku nzego zose z’ugukuraho ibintu biva ku burebure bw’inkuru. Mu kwandika inzira z'inkomoko, inkomoko isanzwe imenyekana iyo hariho gusa urutonde ata n'akarongo `'`.

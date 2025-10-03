@@ -1,5 +1,5 @@
 question: HTTPS protokolünün amacı nedir?
-answer: Kullanıcı ile web sitesi arasında güvenli Exchange sağlamak için web sitelerindeki verileri şifreler.
+answer: Kullanıcı ile web sitesi arasında güvenli bilgi takası sağlamak için web sitelerindeki verileri şifreler.
 wrong_answers:
   - Kullanıcıların banka veya kredi kartı ile ödeme yaparken coğrafi kısıtlamaları atlamasına olanak tanır.
   - Kullanıcıların çevrimiçi reklamları kısmen engellemesine olanak tanır.
@@ -7,6 +7,5 @@ wrong_answers:
 explanation: |
   HTTPS protokolü web sitelerindeki verileri şifreler,
   kullanıcı ve sistem arasında değiş tokuş edilen verilerin
-  web sitesi güvenlidir. Bu, üçüncü taraflara karşı korunmaya yardımcı olur
-  verileri ele geçirmek.
+  güvenli olmasını sağlar. Bu, üçüncü taraflara karşı korunmaya yardımcı olur.
 reviewed: true

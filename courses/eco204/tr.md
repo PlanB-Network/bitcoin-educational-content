@@ -715,20 +715,20 @@ Bu düşünce bizi geleneksel hiperenflasyon tanımının katılığını sorgul
 
 Peki, toplamda kaç tane hiperenflasyon vakası var?
 
-Kagan tarafından öne sürülen ve aylık enflasyon oranını %50 olarak ifade eden tanım gibi yaygın hiperenflasyon tanımları bazen kafa karıştırıcı veya aşırı basitleştirilmiş olabilir. Örneğin, yıllık enflasyon oranları %1,000 ve %3,000 olan iki ülke, bu enflasyonun aylık dağılımına bağlı olarak farklı algılanabilir. Kagan'ın tanımına göre hiçbir ay %50 eşiğini aşmıyorsa, bu ülkeler hiperenflasyon durumunda olmayacaktır. Dolayısıyla bu yaklaşım, özellikle yıl içindeki kümülatif enflasyonları karşılaştırırken hiperenflasyon sınıflandırmasında anormalliklere yol açabilir.
+Cagan tarafından öne sürülen ve aylık enflasyon oranını %50 olarak ifade eden tanım gibi yaygın hiperenflasyon tanımları bazen kafa karıştırıcı veya aşırı basitleştirilmiş olabilir. Örneğin, yıllık enflasyon oranları %1,000 ve %3,000 olan iki ülke, bu enflasyonun aylık dağılımına bağlı olarak farklı algılanabilir. Cagan'ın tanımına göre hiçbir ay %50 eşiğini aşmıyorsa, bu ülkeler hiperenflasyon durumunda olmayacaktır. Dolayısıyla bu yaklaşım, özellikle yıl içindeki kümülatif enflasyonları karşılaştırırken hiperenflasyon sınıflandırmasında anormalliklere yol açabilir.
 
 
 ![image](assets/fr/038.webp)
 
 
 
-- Kagan'ın "Monetary Dynamics of Hyperinflation" adlı çalışması hiperenflasyonun temel bir analizini sunmaktadır.
-- Bernold'un 30 farklı hiperenflasyon dönemini inceleyen kitabı, böylece analizin kapsamını genişletiyor.
+- Cagan'ın "Monetary Dynamics of Hyperinflation" adlı çalışması hiperenflasyonun temel bir analizini sunmaktadır.
+- Bernholz'un 30 farklı hiperenflasyon dönemini inceleyen kitabı, böylece analizin kapsamını genişletiyor.
 - David'in 36 hiperenflasyon dönemine ait banknotlardan oluşan kişisel koleksiyonu, somut ve tarihsel bir anlayışa olanak sağlıyor.
-- Hanky Cross tablosu (2012 versiyonu, 2016'da Venezuela ile güncellenmiştir), Kagan'ın tanımına göre 57 hiperenflasyon dönemini listelemektedir.
+- Hanky Cross tablosu (2012 versiyonu, 2016'da Venezuela ile güncellenmiştir), Cagan'ın tanımına göre 57 hiperenflasyon dönemini listelemektedir.
 
 
-Bazı tarihi yüksek enflasyon dönemlerinin, genellikle katı sınıflandırma kriterleri nedeniyle klasik hiperenflasyon tablolarına dahil edilmediği unutulmamalıdır. Örneğin, Kasım 1779'daki Amerikan Bağımsızlık Savaşı ve Mart 1864'teki Amerikan İç Savaşı sırasında aylık enflasyon oranları sırasıyla %47,4 ve %40 olmuştur. Bu oranlar yüksek olmakla birlikte, Kagan tarafından öngörülen %50 eşiğini aşmamakta, dolayısıyla bu dönemler hiperenflasyon vakası olarak sınıflandırılmamaktadır. Bu ihmal, katı tanımların sınırlarını göstermekte ve hiperenflasyonu tüm karmaşıklığıyla anlamak için daha incelikli bir yaklaşıma duyulan ihtiyacı vurgulamaktadır.
+Bazı tarihi yüksek enflasyon dönemlerinin, genellikle katı sınıflandırma kriterleri nedeniyle klasik hiperenflasyon tablolarına dahil edilmediği unutulmamalıdır. Örneğin, Kasım 1779'daki Amerikan Bağımsızlık Savaşı ve Mart 1864'teki Amerikan İç Savaşı sırasında aylık enflasyon oranları sırasıyla %47,4 ve %40 olmuştur. Bu oranlar yüksek olmakla birlikte, Cagan tarafından öngörülen %50 eşiğini aşmamakta, dolayısıyla bu dönemler hiperenflasyon vakası olarak sınıflandırılmamaktadır. Bu ihmal, katı tanımların sınırlarını göstermekte ve hiperenflasyonu tüm karmaşıklığıyla anlamak için daha incelikli bir yaklaşıma duyulan ihtiyacı vurgulamaktadır.
 
 
 ## Weimar ile Zimbabve arasındaki benzerlikler
@@ -1130,7 +1130,7 @@ Slaytta, solda, yeniden değerlemenin yapıldığı yıllar, yeni para biriminin
 ![image](assets/fr/052.webp)
 
 
-Slaydın sağ tarafında bir enflasyon grafiği yer almaktadır. Kırmızı oklar, Kagan'ın kriterine göre aylık %50 enflasyon oranı olarak tanımlanan hiperenflasyon yıllarını temsil etmektedir. Bu kriter bazen yüksek enflasyon oranlarına sahip olan ancak hiperenflasyonun kesin tanımını karşılamayan yıllarla birlikte belirsiz yorumlara yol açabilir.
+Slaydın sağ tarafında bir enflasyon grafiği yer almaktadır. Kırmızı oklar, Cagan'ın kriterine göre aylık %50 enflasyon oranı olarak tanımlanan hiperenflasyon yıllarını temsil etmektedir. Bu kriter bazen yüksek enflasyon oranlarına sahip olan ancak hiperenflasyonun kesin tanımını karşılamayan yıllarla birlikte belirsiz yorumlara yol açabilir.
 
 Enflasyon dönemlerinde yeniden değerlenmenin hükümetler tarafından alınan yaygın bir önlem olduğu unutulmamalıdır. Ancak bu, enflasyon veya hiperenflasyonun altında yatan sorunu çözmez. Bu sadece para birimini yeniden adlandırmanın ve sıfırları kaldırmanın bir yoludur, hiperenflasyonun temel nedenini gerçekten ele almadan: para Supply'in genişlemesi. Daha sonraki bir videoda, Address'e yönelik gerçek çözümleri tartışacağız ve hiperenflasyon sorununu çözeceğiz. Bu seride, yeterli reformlar yapılmadan basit bir yeniden değerlemenin sonuçlarını vurgulayacağız: enflasyon devam ediyor.
 
@@ -1279,7 +1279,7 @@ Sonuç olarak, hiperenflasyon ekonomik zorlukların sadece bir yönüdür. Yüks
 ### Ilımlı ve yüksek enflasyon nasıl sona erdirilir
 
 
-Bahsedilen sonuçlar Bernold'un "Parasal Rejim ve Enflasyon" adlı kitabından alınmıştır. Bernold'a göre enflasyonu sona erdirmenin tek yolu parasal bir reform gerçekleştirmek ve hükümete kısıtlamalar getirmektir. Bu kısıtlamalar, merkez bankası gibi hükümetin siyasi kararlarından bağımsız çalışan bir kurumun kurulmasını içerir. Yüksek ve hiperenflasyon genellikle bütçe açıklarının parasal yaratım yoluyla finanse edilmesinin sonucudur. Enflasyonu Address ılımlı hale getirmek için paranın Supply büyümesini azaltmak esastır. Bernold ayrıca bu parasal büyümenin komşu ülkelere göre olması gerektiğini öne sürmektedir. Şaşırtıcı bir nokta, yüksek ya da hiperenflasyon dönemlerinde paranın toplam değerinin Supply aslında düşebilmesidir. Bu duruma çarpıcı bir örnek Zimbabwe'dir.
+Bahsedilen sonuçlar Bernholz'un "Parasal Rejim ve Enflasyon" adlı kitabından alınmıştır. Bernholz'a göre enflasyonu sona erdirmenin tek yolu parasal bir reform gerçekleştirmek ve hükümete kısıtlamalar getirmektir. Bu kısıtlamalar, merkez bankası gibi hükümetin siyasi kararlarından bağımsız çalışan bir kurumun kurulmasını içerir. Yüksek ve hiperenflasyon genellikle bütçe açıklarının parasal yaratım yoluyla finanse edilmesinin sonucudur. Enflasyonu Address ılımlı hale getirmek için paranın Supply büyümesini azaltmak esastır. Bernholz ayrıca bu parasal büyümenin komşu ülkelere göre olması gerektiğini öne sürmektedir. Şaşırtıcı bir nokta, yüksek ya da hiperenflasyon dönemlerinde paranın toplam değerinin Supply aslında düşebilmesidir. Bu duruma çarpıcı bir örnek Zimbabwe'dir.
 
 
 ### Sezgisel Çözümler
@@ -1288,10 +1288,10 @@ Bahsedilen sonuçlar Bernold'un "Parasal Rejim ve Enflasyon" adlı kitabından a
 Zimbabwe incelenirken, Supply parasının 10 trilyon biriminin tüm değerini kaybettiği fark edildi. Weimar'da, 65 milyar birim Supply parasının toplam nominal değerinin üçte ikisini tek bir günde basmak mümkündü. Bu, Supply parasının değerinin nasıl düşürülebileceğini göstermektedir. Bu durumu düzeltmek için, Supply parasının uygun bir seviyeye ulaşması için önemli ölçüde arttırılması gerekmektedir. O halde parasal bir reform kaçınılmazdır. Yüksek enflasyon durumunda bu reform kaçınılmazdır, ancak dolaşımda yeterli para olmasını sağlamalıdır. Bu adımdan sonra hükümete kısıtlamalar getirilebilir.
 
 
-Bernold'un gözlemlerine göre, enflasyon sorunlarının çözümü söz konusu olduğunda, IMF ve Dünya Bankası gibi kurumlar her zaman doğru stratejiyi benimsemiyor. Bazı durumlarda, bir ülkenin para Supply'sini arttırması gerekirken, bu kurumlar bunu azaltmaya çalışmaktadır. Önemli olan, yeterli bir parasal seviyeye ulaşmak ve ardından büyümesine sınırlar getirmek, böylece hükümet harcamalarını para yaratarak finanse etmekten kaçınmaktır.
+Bernholz'un gözlemlerine göre, enflasyon sorunlarının çözümü söz konusu olduğunda, IMF ve Dünya Bankası gibi kurumlar her zaman doğru stratejiyi benimsemiyor. Bazı durumlarda, bir ülkenin para Supply'sini arttırması gerekirken, bu kurumlar bunu azaltmaya çalışmaktadır. Önemli olan, yeterli bir parasal seviyeye ulaşmak ve ardından büyümesine sınırlar getirmek, böylece hükümet harcamalarını para yaratarak finanse etmekten kaçınmaktır.
 
 
-Bernold tarafından dile getirilen ilginç bir husus, bir para reformunun başarısının sadece teknik açıdan uygunluğuna değil, aynı zamanda halkın buna duyduğu güvene de bağlı olduğudur. İyi tasarlanmış bazı reformlar halk onlara güvenmediği için başarısız olabilirken, kötü tasarlanmış diğerleri halk onlara güvendiği için başarılı olabilir. Bu nedenle algı ve kamu güveni, bir para reformunun başarısı ya da başarısızlığında temel Elements unsurlarıdır.
+Bernholz tarafından dile getirilen ilginç bir husus, bir para reformunun başarısının sadece teknik açıdan uygunluğuna değil, aynı zamanda halkın buna duyduğu güvene de bağlı olduğudur. İyi tasarlanmış bazı reformlar halk onlara güvenmediği için başarısız olabilirken, kötü tasarlanmış diğerleri halk onlara güvendiği için başarılı olabilir. Bu nedenle algı ve kamu güveni, bir para reformunun başarısı ya da başarısızlığında temel Elements unsurlarıdır.
 
 
 

@@ -1,0 +1,29 @@
+id: 409cc93b-db7f-4e9e-ba50-0ef5ff154698
+
+topic: social studies
+subtopic: economy
+type: theory
+level: beginner
+hours: 10
+
+professors_id:
+  - aa19b8be-5958-4c45-8be8-a1582dd5a90b
+contributor_names:
+  - jramos0
+
+test_only: true
+
+published_at: 2025-09-29
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-10-01
+    urgency: 1
+    contributor_names:
+      - jramos0
+    reward: 0
+tags:
+  - historical
+  - market-trends
+  - case-studies

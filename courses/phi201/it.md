@@ -877,18 +877,18 @@ Il liberalismo economico è spesso associato a una tradizione anglosassone che d
 
 ![immagine](assets/4/img-069.webp)
 
-Fu in reazione al mercantilismo e, più in generale, alle idee dell'Ancien Régime che nacque la scienza economica in Francia. Con l'Illuminismo venne un periodo in cui i filosofi iniziarono a chiamarsi "economisti", questi erano i fisiocratici.
+Fu in risposta al mercantilismo e, più in generale, alle idee dell'Ancien Régime che nacque la scienza economica in Francia. Con l'Illuminismo venne un periodo in cui i filosofi iniziarono a chiamarsi "economisti". Questi vennero definiti fisiocratici.
 
 Essi gettarono le basi dell'economia liberale. I principali rappresentanti della scuola fisiocratica sono François Quesnay, il Marchese de Mirabeau, Lemercier de la Rivière, l'Abbé Nicolas Baudeau, Louis-Paul Abeille e Pierre-Samuel Dupont de Nemours.
 
 > L'economia politica, riassume Dupont de Nemours, è la scienza del diritto naturale applicata alle società civili. (_Corrispondenza con J.-B. Say_).
 
-Essi sostenevano il "Laissez-faire", che raccomanda che lo Stato non dovrebbe intervenire nell'economia.
+Essi sostenevano il "Laissez-faire", che raccomanda che lo Stato non intervenga nell'economia.
 
 Da questo punto, iniziarono a emergere due concezioni molto diverse all'interno dell'Illuminismo:
 
 - Da un lato, ci sono coloro che credono che questa armonia sociale debba essere raggiunta artificialmente e attraverso il vincolo dello Stato; queste sono le teorie del contratto.
-- Dall'altro lato, ci sono coloro che credono che la governance possa essere raggiunta attraverso gli interessi, nel senso di permettere agli interessi individuali di armonizzarsi all'interno del quadro di regole del gioco che sono conosciute e accettate da tutti: queste sono le teorie del mercato.
+- Dall'altro lato, alcuni ritengono che la governance possa essere realizzata attraverso gli interessi, cioè consentendo agli interessi individuali di armonizzarsi nel quadro di regole del gioco conosciute e accettate da tutti; sono queste le teorie di mercato.
 
 ### Contro il colbertismo
 

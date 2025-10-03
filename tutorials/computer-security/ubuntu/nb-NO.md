@@ -11,13 +11,13 @@ Et operativsystem (OS) er den viktigste programvaren som administrerer alle data
 ### Hvorfor Ubuntu?
 
 
-- Forbedret sikkerhet** : Linux-distribusjoner er kjent for sin sikkerhet og robusthet
-- Ingen kostnader**: Ubuntu og de fleste Linux-distribusjoner er gratis
-- Stort fellesskap**: Et fellesskap av brukere som står klare til å hjelpe deg via forum og opplæringsprogrammer
-- Respekt for personvernet**: Åpen kildekode for større åpenhet
-- Enkelhet**: Brukervennlig grensesnitt og enkel bruk
-- Rikt økosystem** : Omfattende katalog med programvare med åpen kildekode
-- Regelmessig støtte**: Sikre oppdateringer fra Canonical
+- **Forbedret sikkerhet**: Linux-distribusjoner er kjent for sin sikkerhet og robusthet
+- **Ingen kostnader**: Ubuntu og de fleste Linux-distribusjoner er gratis
+- **Stort fellesskap**: Et fellesskap av brukere som står klare til å hjelpe deg via forum og opplæringsprogrammer
+- **Respekt for personvernet**: Åpen kildekode for større åpenhet
+- **Enkelhet**: Brukervennlig grensesnitt og enkel bruk
+- **Rikt økosystem**: Omfattende katalog med programvare med åpen kildekode
+- **Regelmessig støtte**: Sikre oppdateringer fra Canonical
 
 ## Installasjon og konfigurasjon
 
@@ -42,7 +42,7 @@ Et operativsystem (OS) er den viktigste programvaren som administrerer alle data
 
 ### 3. Opprett en oppstartbar USB-nøkkel
 
-Du kan bruke flere verktøy, for eksempel Balena Etcher :
+Du kan bruke flere verktøy, for eksempel Balena Etcher:
 
 
 - Last ned og installer [Balena Etcher] (https://etcher.balena.io/)
@@ -77,19 +77,19 @@ Når du starter opp fra USB-nøkkelen, ser du dette skjermbildet, som lar deg st
 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
-**Valg av språk
+**Valg av språk**
 
 Velg ønsket språk for installasjonen og systemet.
 
 ![Sélection de la langue](assets/fr/07.webp)
 
-**Tilgjengelighetsalternativer
+**Tilgjengelighetsalternativer**
 
 Konfigurer tilgjengelighetsalternativer om nødvendig (skjermleser, høy kontrast osv.).
 
 ![Options d'accessibilité](assets/fr/08.webp)
 
-**Tastaturkonfigurasjon
+**Tastaturkonfigurasjon**
 
 Velg tastaturoppsettet ditt. Et testfelt er tilgjengelig for å kontrollere at tastene samsvarer med konfigurasjonen din.
 
@@ -101,31 +101,31 @@ Koble til Wi-Fi- eller kabelbasert nettverk for å laste ned oppdateringer under
 
 ![Configuration réseau](assets/fr/10.webp)
 
-**Type installasjon
+**Type installasjon**
 
 Velg mellom "Prøv Ubuntu" (for å teste uten å installere) eller "Installer Ubuntu".
 
 ![Choix du type d'installation](assets/fr/11.webp)
 
-**Installasjonsmetode
+**Installasjonsmetode**
 
 Velg interaktiv installasjon.
 
 ![Mode d'installation](assets/fr/12.webp)
 
-**Valg av applikasjon
+**Valg av applikasjon**
 
 Velg mellom standardinstallasjonen eller et utvidet utvalg av programmer.
 
 ![Sélection des applications](assets/fr/13.webp)
 
-**Tredjepartsapplikasjoner
+**Tredjepartsapplikasjoner**
 
 Avgjør om du vil installere ekstra drivere og proprietær programvare eller ikke.
 
 ![Installation applications tierces](assets/fr/14.webp)
 
-**Type partisjonering
+**Type partisjonering**
 
 Du har to hovedalternativer:
 
@@ -135,13 +135,13 @@ Du har to hovedalternativer:
 
 ![Choix du partitionnement](assets/fr/15.webp)
 
-**Opprettelse av brukerkonto
+**Opprettelse av brukerkonto**
 
 Angi brukernavn og passord for Ubuntu-kontoen din.
 
 ![Création du compte](assets/fr/16.webp)
 
-**Tidssone
+**Tidssone**
 
 Velg ditt geografiske område for å stille inn systemtiden.
 
@@ -164,7 +164,7 @@ Oppdatering av systemet er et viktig skritt etter en ny installasjon. Du har to 
 - Programmet vil automatisk se etter tilgjengelige oppdateringer
 - Følg instruksjonene på skjermen for å installere oppdateringene
 
-**Alternativ 2: Via terminal
+**Alternativ 2: Via terminal**
 
 
 - Åpne terminal (Ctrl + Alt + T)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Skriv inn passordet ditt når du blir bedt om det
-- For å installere oppdateringer, skriv inn :
+- For å installere oppdateringer, skriv inn:
 
 ```bash
 sudo apt upgrade
@@ -187,7 +187,7 @@ sudo apt upgrade
 
 ### 5. Oppdage grunnleggende oppgaver
 
-**5.1 Surfe på Internett
+**5.1 Surfe på Internett**
 
 Som standard finner du ofte Firefox i oppstartslinjen.
 
@@ -195,7 +195,7 @@ Start Firefox og begynn å surfe.
 
 Andre nettlesere (Chrome, Brave osv.) kan installeres via Software Manager eller via .deb-pakker.
 
-**5.2 Tekstbehandling
+**5.2 Tekstbehandling**
 
 Ubuntu leveres med LibreOffice-pakken (Writer for tekstbehandling).
 
@@ -203,11 +203,11 @@ Slik åpner du den: Aktiviteter > Søk etter "LibreOffice Writer", eller klikk p
 
 Du kan opprette, redigere og lagre dokumenter i en rekke ulike formater (inkludert .docx).
 
-**5.3 Installere applikasjoner
+**5.3 Installere applikasjoner**
 
 Programvarebehandling (kalt "Ubuntu Software"): grafisk grensesnitt for å søke etter og installere programmer.
 
-Fra Terminal bruker du kommandoen :
+Fra Terminal bruker du kommandoen:
 
 ```bash
 sudo apt install nom-du-paquet

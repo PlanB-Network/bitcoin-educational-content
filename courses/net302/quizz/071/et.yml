@@ -1,0 +1,9 @@
+question: Millist märkust kasutatakse IPv6 Address eesliite suuruse märkimiseks?
+answer: CIDR
+wrong_answers:
+  - Tärniline kümnendsüsteemi võrgumask
+  - Kuueksajoonis, eraldatud koolonitega
+  - ICANN
+explanation: |
+  CIDR-märgistus määrab kindlaks fikseeritud prefiksi bittide arvu pärast kaldkriipsu, nagu IPv4-s.
+reviewed: false

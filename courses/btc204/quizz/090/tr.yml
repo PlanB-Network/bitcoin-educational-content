@@ -1,0 +1,10 @@
+question: Diğer CoinJoin uygulamalarına kıyasla Whirlpool'daki remiksler hakkında benzersiz olan nedir?
+answer: Tamamen ücretsizdirler.
+wrong_answers:
+  - Sadece Mining ücretlerinin ödenmesi gerekmektedir.
+  - Kullanıcı başına bir adet ile sınırlıdır.
+  - Sadece hizmet ücretlerinin ödenmesini gerektirirler.
+explanation: |
+  Whirlpool remiksleri %100 ücretsizdir: ek hizmet ücreti veya Mining ücreti gerekmez.
+  
+reviewed: false

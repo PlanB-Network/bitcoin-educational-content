@@ -1,0 +1,9 @@
+question: Zaman kilidi HTLC'lerin çalışmasında nasıl bir rol oynar?
+answer: İptalden önce ödemenin tamamlanması için bir zaman dilimi sağlar
+wrong_answers:
+  - Kullanılan kanalın kapasitesini artırır
+  - İşleme bir Layer gizlilik katar
+  - Her aracı düğüm için ek ücretler uygular
+explanation: |
+  Zaman kilidi, bir HTLC'i tamamlamak için bir zaman dilimi uygular ve işlemin başarılı olmaması durumunda, bu süreden sonra ödemeyi iptal ederek fonların geri alınmasına olanak tanır.
+reviewed: false

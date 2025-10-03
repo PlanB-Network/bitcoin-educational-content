@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste functie van de MAC Address in een lokaal netwerk?
+answer: Een uniek netwerk identificeren Interface
+wrong_answers:
+  - Vertaal een domeinnaam naar een IP Address
+  - Dynamisch een IP Address toewijzen aan een host
+  - Bepaal de snelheid van je internetverbinding
+explanation: |
+  De MAC Address dient als een unieke hardware-identificatie voor elk netwerk Interface, waardoor apparaten fysiek kunnen worden onderscheiden op een lokaal netwerk.
+reviewed: false

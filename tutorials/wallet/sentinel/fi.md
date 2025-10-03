@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Mikä on Watch-Only lompakko ja miten sitä käytetään?
 ---
 ![kansi](assets/cover.webp)

@@ -1,12 +1,9 @@
-question: Apa itu transaksi Bitcoin?
-answer: Transfer kepemilikan Bitcoin, menggunakan kriptografi.
+question: Apa proses yang dilakukan oleh penambang untuk memvalidasi transaksi dan memasukkannya ke dalam sebuah blok?
+answer: Proof of work
 wrong_answers:
-  - Pertukaran fisik Bitcoin, menggunakan notaris.
-  - Transfer kepemilikan Bitcoin, menggunakan alamat fisik.
-  - Transfer kepemilikan Bitcoin, menggunakan alamat email.
-explanation: |
-  Transaksi Bitcoin adalah transfer digital kepemilikan Bitcoin,
-  menggunakan alamat Bitcoin yang diperoleh berkat kriptografi Kurva Eliptik.
-  Alamat ini unik untuk dompet Bitcoin dari orang
-  yang menerima Bitcoin tersebut.
-reviewed: true
+  - Proof of stake
+  - Proof of authority
+  - Proof of burn
+explanation: >-
+  Penambang memvalidasi transaksi dan memasukkannya ke dalam sebuah blok melalui proses yang disebut proof of work. Ini melibatkan penyelesaian sebuah teka-teki kriptografi.
+  direview: false

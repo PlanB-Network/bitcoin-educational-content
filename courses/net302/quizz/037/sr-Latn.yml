@@ -1,0 +1,9 @@
+question: Koja je svrha posebne IPv4 notacije 0.0.0.0?
+answer: Da označite sve interfejse ili nedodeljeni Address
+wrong_answers:
+  - Da pošaljete poruku svim mrežama
+  - Da testirate lokalnu vezu uređaja
+  - Da označi grešku u adresiranju ili povezivanju na lokalnom ruteru
+explanation: |
+  Notacija 0.0.0.0 se lokalno koristi za predstavljanje odsustva dodeljenog Address ili za slušanje na svim interfejsima.
+reviewed: false

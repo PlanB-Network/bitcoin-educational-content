@@ -24,11 +24,11 @@ Complete the required information: enter your business email address and your co
 
 ![BITFINEX](assets/fr/02.webp)
 
-For tips on using and safeguarding strong, unique passwords, see also this tutorial :
+For tips on using and safeguarding strong, unique passwords, see also this tutorial:
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-We're now going to configure the 2FA to secure the account. Use an authentication application on your smartphone, such as Google Authenticator or Authy for example. You'll find a tutorial on this tool here :
+We're now going to configure the 2FA to secure the account. Use an authentication application on your smartphone, such as Google Authenticator or Authy for example. You'll find a tutorial on this tool here:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
@@ -64,7 +64,7 @@ Under "*Account Type*", select "*Corporate*". In my case, I'm upgrading to "*Int
 
 ![BITFINEX](assets/fr/09.webp)
 
-Complete the steps by providing :
+Complete the steps by providing:
 
 
 - Company information (company name, contact details, business sector, etc.) ;
@@ -77,14 +77,14 @@ Once your application has been completed and submitted, it may take several days
 
 ## 3 - Quick introduction to the Bitfinex interface
 
-Once logged in, you'll see a navigation bar at the top of the interface with: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex offers a wide range of functionalities, including :
+Once logged in, you'll see a navigation bar at the top of the interface with: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. Bitfinex offers a wide range of functionalities, including:
 
 
-- Trading**: "*classic*" market where you can place orders to buy and sell cryptocurrencies (including bitcoin) ;
-- OTC**: Over-The-Counter service for trading large volumes directly with another player, outside the public order books;
-- Funding**: Area dedicated to lending and margin funding;
-- Derivatives**: Section for derivatives (futures, etc.), intended for experienced traders;
-- P2P**: Allows you to buy or sell cryptos from other users on a peer-to-peer basis.
+- **Trading**: "*classic*" market where you can place orders to buy and sell cryptocurrencies (including bitcoin);
+- **OTC**: Over-The-Counter service for trading large volumes directly with another player, outside the public order books;
+- **Funding**: Area dedicated to lending and margin funding;
+- **Derivatives**: Section for derivatives (futures, etc.), intended for experienced traders;
+- **P2P**: Allows you to buy or sell cryptos from other users on a peer-to-peer basis.
 
 For standard use (buying/selling bitcoins, deposits/withdrawals and cash management), you'll mainly use the "*Trading*" tab, as well as the "*Wallet*", "*Deposit*" and "*Withdraw*" sections.
 
@@ -239,6 +239,6 @@ Depending on your company's objectives and structure, the use of Bitfinex may va
 - Keep bitcoins on the platform or withdraw them for self-custody. You can also withdraw euros to your bank account;
 - Export transaction histories as required.
 
-For a more in-depth look at this topic, I recommend this comprehensive training course on integrating bitcoin into businesses, which covers in detail adding to cash flow, accepting bitcoin payments, and accounting :
+For a more in-depth look at this topic, I recommend this comprehensive training course on integrating bitcoin into businesses, which covers in detail adding to cash flow, accepting bitcoin payments, and accounting:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

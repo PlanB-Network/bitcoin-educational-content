@@ -1,0 +1,9 @@
+question: 如今使用哪种设备来高效开采 Bitcoin？
+answer: ASIC
+wrong_answers:
+  - 经典 CPU
+  - GPU
+  - FPGA
+explanation: |
+  如今，Bitcoin Mining 是通过 ASIC 实现的。这些是用于 SHA-256 算法的专用芯片。
+reviewed: true

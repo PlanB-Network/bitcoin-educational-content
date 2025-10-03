@@ -1,0 +1,9 @@
+question: Was ist ein Datagramm im Zusammenhang mit dem IP-Protokoll?
+answer: Ein in sich geschlossener Datenblock, der über das Netz übertragen wird
+wrong_answers:
+  - Eine verschlüsselte Nachricht, die für ein einzelnes Gerät bestimmt ist
+  - Ein in UDP eingekapseltes TCP-Segment
+  - Ein physikalisches Signal vom Netzzugang Layer
+explanation: |
+  IP-Daten werden in Form von Datagrammen übertragen, unabhängigen Blöcken, die alle für die Zustellung erforderlichen Informationen enthalten.
+reviewed: false

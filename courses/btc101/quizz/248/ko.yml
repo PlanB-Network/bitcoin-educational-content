@@ -1,0 +1,10 @@
+question: Bitcoin이 만들어진 주된 이유 중 하나는 무엇인가요?
+answer: 금융 시스템의 변화를 제안합니다.
+wrong_answers:
+  - 돈의 제거를 제안합니다.
+  - 새로운 형태의 AI 기술 개발을 제안합니다.
+  - 전 세계 인구의 통제를 제안합니다.
+explanation: |
+  이 텍스트에는 Satoshi 나카모토가 2008년에 Bitcoin을 만들었다고 언급되어 있습니다
+  2008년에 금융 시스템의 변화를 제안했습니다.
+reviewed: true

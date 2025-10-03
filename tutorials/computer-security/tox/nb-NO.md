@@ -58,7 +58,7 @@ Du kan bruke Tox-protokollen via en direktemeldingsklient som du kan laste ned f
 
 
 
-Avhengig av operativsystemet ditt kan du laste ned og installere en Tox-klient som samsvarer med :
+Avhengig av operativsystemet ditt kan du laste ned og installere en Tox-klient som samsvarer med:
 
 
 
@@ -224,7 +224,7 @@ Du kan også tilpasse konfigurasjonene for fildeling for hver diskusjon du har. 
 
 
 
-Fra Interface-detaljer kan du administrere autorisasjonene du gir til mottakeren for :
+Fra Interface-detaljer kan du administrere autorisasjonene du gir til mottakeren for:
 
 
 

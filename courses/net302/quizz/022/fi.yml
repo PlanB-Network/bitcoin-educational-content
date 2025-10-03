@@ -1,0 +1,9 @@
+question: Mikä on TCP-segmentin ACK-lipputunnisteen tarkoitus?
+answer: Segmenttien vastaanottoilmoitus
+wrong_answers:
+  - Yhteyden sulkemisen aloittaminen
+  - Vaihdetun tietovirran salaaminen
+  - Käytetyn palveluportin tunnistaminen
+explanation: |
+  Kun ACK-lippu on asetettu, se vahvistaa, että segmentti on vastaanotettu onnistuneesti, ja määrittää seuraavan odotetun järjestysnumeron.
+reviewed: false

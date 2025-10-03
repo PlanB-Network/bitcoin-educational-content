@@ -15,7 +15,7 @@ El segundo principio esencial es la fortaleza de la contraseña. Se considera qu
 Aplicar estos dos principios de seguridad de contraseñas (unicidad y robustez) puede resultar difícil en la vida cotidiana, ya que es casi imposible memorizar una contraseña única, aleatoria y fuerte para todas nuestras cuentas. Aquí es donde entra en juego el gestor de contraseñas.
 
 Un gestor de contraseñas genera y almacena de forma segura contraseñas fuertes, permitiéndote acceder a todas tus cuentas en línea sin la necesidad de memorizarlas individualmente. Solo necesitas recordar una contraseña, la contraseña maestra, que te da acceso a todas tus contraseñas guardadas en el gestor. Usar un gestor de contraseñas mejora tu seguridad en línea porque previene la reutilización de contraseñas y genera sistemáticamente contraseñas aleatorias. Pero también simplifica tu uso diario de tus cuentas centralizando el acceso a tu información sensible.
-En este tutorial, aprenderemos cómo configurar y usar un gestor de contraseñas local para mejorar tu seguridad en línea. Aquí, te presentaré KeePass. Sin embargo, si eres principiante y te gustaría tener un gestor de contraseñas en línea capaz de sincronizarse a través de múltiples dispositivos, te recomiendo seguir nuestro tutorial sobre Bitwarden:
+En este tutorial, aprenderemos cómo configurar y usar un gestor de contraseñas local para mejorar tu seguridad en línea. Aquí, te presentaremos KeePass. Sin embargo, si eres principiante y te gustaría tener un gestor de contraseñas en línea capaz de sincronizarse a través de múltiples dispositivos, te recomiendamos seguir nuestro tutorial sobre Bitwarden:
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
@@ -61,7 +61,7 @@ Haz clic en el archivo descargado para ejecutarlo, luego sigue las instrucciones
 
 Para usuarios de macOS, la instalación es un poco más compleja. Si deseas usar la versión original de KeePass como en Windows, sigue las instrucciones a continuación. De lo contrario, puedes optar por [KeePassXC](https://keepassxc.org/), una versión alternativa compatible con macOS, que ofrece una interfaz ligeramente diferente.
 
-Para usar KeePass, necesitarás un entorno de ejecución para aplicaciones .NET. Recomiendo instalar Mono para esto. Ve a la [página oficial de Mono](https://www.mono-project.com/download/stable/#download-mac) en la sección "*macOS*", y haz clic en el enlace para descargar el paquete de instalación (`.pkg`).
+Para usar KeePass, necesitarás un entorno de ejecución para aplicaciones .NET. Recomendamos instalar Mono para esto. Ve a la [página oficial de Mono](https://www.mono-project.com/download/stable/#download-mac) en la sección "*MacOS*", y haz clic en el enlace para descargar el paquete de instalación (`.pkg`).
 ![KEEPASS](assets/notext/03.webp)
 Abre el archivo `.pkg` descargado y sigue las instrucciones para instalar Mono en tu Mac.
 ![KEEPASS](assets/notext/04.webp)
@@ -81,7 +81,7 @@ mono KeePass.exe
 
 ## ¿Cómo instalar KeePass?
 
-En el primer lanzamiento, puedes elegir el idioma de la interfaz.
+Al abrirlo por primera vez, puedes elegir el idioma de la interfaz.
 ![KEEPASS](assets/notext/06.webp)
 Acepta los términos de la licencia.
 ![KEEPASS](assets/notext/07.webp)
@@ -104,7 +104,7 @@ Luego en el menú "*Nuevo*".
 ![KEEPASS](assets/notext/15.webp)
 El software creará una nueva base de datos donde se almacenarán tus contraseñas. Necesitas seleccionar la ubicación para esta carpeta. Elige un lugar que sea fácilmente accesible.
 ![KEEPASS](assets/notext/16.webp)
-Después, deberías pensar en hacer copias de seguridad de esta carpeta regularmente para evitar perder tus credenciales en caso de pérdida, daño o robo de tu computadora. Por ejemplo, podrías copiar la base de datos en una memoria USB cada semana. El archivo que contiene tu base de datos se llama `Database.kdbx` (el documento está cifrado con tu contraseña maestra). Para más consejos sobre las mejores prácticas de respaldo, también recomiendo consultar este otro tutorial:
+Después, deberías pensar en hacer copias de seguridad de esta carpeta regularmente para evitar perder tus credenciales en caso de pérdida, daño o robo de tu computadora. Por ejemplo, podrías copiar la base de datos en una memoria USB cada semana. El archivo que contiene tu base de datos se llama `Database.kdbx` (el documento está cifrado con tu contraseña maestra). Para más consejos sobre las mejores prácticas de respaldo, te recomendamos consultar este otro tutorial:
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
@@ -112,15 +112,15 @@ A continuación, viene la elección de tu contraseña maestra.
 ![KEEPASS](assets/notext/17.webp)
 Como vimos en la introducción, esta contraseña es muy importante, ya que te da acceso a todas tus otras contraseñas guardadas en la base de datos. Esta contraseña se utilizará para cifrar la base de datos `Database.kdbx`. Presenta dos riesgos principales: pérdida y compromiso. Si pierdes acceso a esta contraseña, ya no podrás acceder a todas tus credenciales. Si tu contraseña es robada, además de la base de datos cifrada, el atacante podrá acceder a todas tus cuentas.
 
-Para minimizar el riesgo de pérdida, recomiendo hacer una copia de seguridad física de tu contraseña maestra en papel y almacenarla en un lugar seguro. Si es posible, sella esta copia de seguridad en un sobre seguro para asegurarte regularmente de que nadie más ha accedido a ella.
+Para minimizar el riesgo de pérdida, recomendamos hacer una copia de seguridad física de tu contraseña maestra en papel y almacenarla en un lugar seguro. Si es posible, sella esta copia de seguridad en un sobre seguro para asegurarte regularmente de que nadie más ha accedido a ella.
 
-Para prevenir el compromiso de tu contraseña maestra, debe ser extremadamente robusta. Debe ser lo más larga posible, usar una amplia variedad de caracteres y ser elegida al azar. En 2024, las recomendaciones mínimas para una contraseña segura son 13 caracteres incluyendo números, letras minúsculas y mayúsculas, así como símbolos, siempre que la contraseña sea verdaderamente aleatoria. Sin embargo, recomiendo optar por una contraseña de al menos 20 caracteres, incluyendo todos los tipos posibles de caracteres, para asegurar su seguridad por más tiempo.
+Para prevenir que tu contraseña maestra sea comprometida, debe ser extremadamente robusta. Debe ser lo más larga posible, usar una amplia variedad de caracteres y ser elegida al azar. En 2024, las recomendaciones mínimas para una contraseña segura son 13 caracteres incluyendo números, letras minúsculas y mayúsculas, así como símbolos, siempre que la contraseña sea verdaderamente aleatoria. Sin embargo, recomendamos optar por una contraseña de al menos 20 caracteres, incluyendo todos los tipos posibles de caracteres, para asegurar su seguridad por más tiempo.
 
 Ingresa tu contraseña maestra en el cuadro dedicado y confírmala en el siguiente cuadro, luego haz clic en "*OK*".
 ![KEEPASS](assets/notext/18.webp)
 Nombra tu base de datos y añade una descripción si es necesario. Esto puede ayudarte a distinguir entre diferentes bases de datos si creas varias, por ejemplo, una para uso personal y otra para uso profesional.
 ![KEEPASS](assets/notext/19.webp)
-Para otros ajustes, recomiendo mantener las opciones predeterminadas. Luego haz clic en el botón "*OK*".
+Para otros ajustes, recomendamos mantener las opciones predeterminadas. Luego haz clic en el botón "*OK*".
 ![KEEPASS](assets/notext/20.webp)KeePass entonces ofrece imprimir una hoja de emergencia.
 ![KEEPASS](assets/notext/21.webp)
 En esta hoja, encontrarás la ubicación de tu base de datos en tus archivos, un espacio para escribir manualmente tu contraseña maestra, así como instrucciones para acceder a ella. Esta hoja debe ser confiada a personas de confianza, ya que permite la recuperación del acceso a tus credenciales en caso de un problema.
@@ -129,9 +129,9 @@ Sin embargo, dado que esta hoja proporciona acceso a tus contraseñas al revelar
 ![KEEPASS](assets/notext/22.webp)
 Luego puedes acceder a tu gestor de contraseñas.
 ![KEEPASS](assets/notext/23.webp)
-Antes de comenzar a guardar tus credenciales, recomiendo cambiar la configuración de generación de contraseñas. Para hacer esto, ve a la pestaña "*Herramientas*" y selecciona "*Generar Contraseña...*".
+Antes de comenzar a guardar tus credenciales, recomendamos cambiar la configuración de generación de contraseñas. Para hacer esto, ve a la pestaña "*Herramientas*" y selecciona "*Generar Contraseña...*".
 ![KEEPASS](assets/notext/24.webp)
-Aquí, te aconsejo aumentar la longitud de las contraseñas generadas a 40 caracteres. Ahora que tienes un gestor de contraseñas para recordarlas por ti, no hay necesidad de escatimar en el número de caracteres. Además, no necesitarás escribir las contraseñas a mano, ya que puedes copiarlas y pegarlas. Por lo tanto, no te hace ninguna diferencia tener contraseñas muy largas de 40 caracteres, sin embargo, su seguridad se mejora enormemente. Te aconsejo hacer esto, y también marcar la casilla de caracteres especiales.
+Aquí, te aconsejamos aumentar la longitud de las contraseñas generadas a 40 caracteres. Ahora que tienes un gestor de contraseñas para recordarlas por ti, no hay necesidad de escatimar en el número de caracteres. Además, no necesitarás escribir las contraseñas a mano, ya que puedes copiarlas y pegarlas. Por lo tanto, no te hace ninguna diferencia tener contraseñas muy largas de 40 caracteres, sin embargo, tu seguridad se mejora enormemente. Te aconsejamos hacer esto, y también marcar la casilla de caracteres especiales.
 ![KEEPASS](assets/notext/25.webp)
 Confirma haciendo clic en el pequeño icono de guardar.
 ![KEEPASS](assets/notext/26.webp)
@@ -148,6 +148,6 @@ Otro método para localizar una contraseña es usar la función de búsqueda. Es
 Si dejas KeePass abierto en segundo plano, el software no se cerrará por defecto. Sin embargo, si cierras KeePass o apagas tu computadora, necesitarás ingresar tu contraseña maestra para descifrar tu base de datos al reabrir el software. ![KEEPASS](assets/notext/44.webp)
 Eso cubre las características básicas de KeePass. Por supuesto, este tutorial dirigido a principiantes solo ha rozado la superficie de las muchas opciones disponibles con este software. Hay una multitud de características adicionales por explorar, sin mencionar [todos los complementos desarrollados por la comunidad](https://keepass.info/plugins.html) que pueden ampliar aún más las capacidades de KeePass.
 
-Si estás interesado en aprender cómo mejorar drásticamente la seguridad de tus cuentas en línea para evitar hackeos con 2FA, también te recomiendo revisar este otro tutorial:
+Si estás interesado en aprender cómo mejorar drásticamente la seguridad de tus cuentas en línea para evitar hackeos con 2FA, también te recomendamos revisar este otro tutorial:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7

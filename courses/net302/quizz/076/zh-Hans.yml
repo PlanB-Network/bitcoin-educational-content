@@ -1,0 +1,9 @@
+question: 当一个名称同时具有两种类型的 Address 时，哪种算法或文件规定了 IPv4 和 IPv6 之间的选择？
+answer: RFC 6724
+wrong_answers:
+  - RFC 1918
+  - RFC 4861
+  - RFC 1035
+explanation: |
+  RFC 6724 定义了当同一主机名有 IPv4 或 IPv6 Address 时，用于决定使用 IPv4 或 IPv6 Address 的算法。
+reviewed: false

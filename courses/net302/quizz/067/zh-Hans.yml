@@ -1,0 +1,9 @@
+question: 在 IPv6 中使用随机 Interface 标识符而非 MAC Address 的主要动机是什么？
+answer: 保护隐私
+wrong_answers:
+  - 减少数据包大小
+  - 加快 DNS 解析
+  - 提高 ARP 兼容性
+explanation: |
+  使用随机 Interface 标识符有助于防止基于 MAC Address 的设备跟踪。
+reviewed: false

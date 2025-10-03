@@ -1,11 +1,9 @@
-question: Hvilket år vil det 7. halvering skje?
-answer: 2036
+question: Hvilket av disse alternativene er feil når du mister enheten som har din Bitcoin-lommebok?
+answer: Du kan gjenskape lommeboken din og bruke dine bitcoin ved å tilbakestille passordet ditt
 wrong_answers:
-  - 2032
-  - 2028
-  - 2048
+  - Du mister alle dine Bitcoins hvis du ikke har den mnemoniske frasen
+  - Du kan verifisere med dine offentlige nøkler at dine bitcoins ikke har blitt flyttet ennå
+  - Du kan gjenskape lommeboken din og bruke dine bitcoin med den mnemoniske frasen
 explanation: |
-  Den 7. halveringen bør skje i 2036, og det anslåtte antallet bitcoin i
-  omløp vil være 20,835,937.5 btc, eller 99.22% av det totale tilbudet.
-  bitcoins i omløp.
+  Å miste enheten som har lommeboken din betyr ikke nødvendigvis at du mister dine Bitcoins. Det som gjør at du kan gjenskape lommeboken din og bruke dine bitcoin, er den mnemoniske frasen.
 reviewed: true

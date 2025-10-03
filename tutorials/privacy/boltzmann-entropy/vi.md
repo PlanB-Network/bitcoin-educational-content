@@ -1,5 +1,5 @@
 ---
-name: Máy Tính Boltzmann
+name: Boltzmann Calculator
 description: Hiểu về khái niệm entropy và cách sử dụng Boltzmann
 ---
 ![cover](assets/cover.webp)

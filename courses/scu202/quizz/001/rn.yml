@@ -1,0 +1,9 @@
+question: Ni ibikorwa ibihe bihambaye kugira ngo amakuru yawe ntamenyekane igihe uriko urakoresha Internet?
+answer: Gukuraho amakuru y'ivya kera
+wrong_answers:
+  - Bika ibikuki vyose
+  - Guhagarika uburyo bwihariye bwa mucukumbuzi
+  - Gukoresha umucukumbuzi wa kera
+explanation: |
+  Gukuraho canke guhagarika amakuru bigabanya ugukurikirana kwamamaza no kuzigama ubuzima bwite mu gihe co gusura urubuga.
+reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - Le compte bancaire
   - La surcouche RGB
 explanation: |
-  Lightning offre la possibilité de réaliser des transactions rapides et à faible coût pour les achats quotidiens. Il s'agit de l'outil idéal pour l'utilisateur actif.
-reviewed: false
+  Le Lightning offre la possibilité de réaliser des transactions rapides et à faible coût pour les achats quotidiens. Il s'agit de l'outil idéal pour l'utilisateur actif.
+reviewed: true 

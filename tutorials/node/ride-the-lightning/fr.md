@@ -9,13 +9,13 @@ description: Utiliser Ride The Lightning (RTL) pour gérer son nœud Lightning
 
 **Pourquoi utiliser RTL ?** Sans interface graphique, la gestion d'un nœud Lightning se fait via des commandes CLI peu conviviales. RTL simplifie ces opérations avec une interface ergonomique. Voici les **cas d'usage principaux** :
 
-* **Visualiser ses canaux et son nœud** – Le tableau de bord affiche le solde on-chain, la liquidité Lightning (locale/distante), l'état de synchronisation, l'alias du nœud, etc. Vous pouvez voir la liste de vos canaux, leur capacité, la répartition local/distante et leur état. RTL propose des tableaux de bord contextuels pour analyser l'activité selon différents angles.
+**Visualiser ses canaux et son nœud** – Le tableau de bord affiche le solde on-chain, la liquidité Lightning (locale/distante), l'état de synchronisation, l'alias du nœud, etc. Vous pouvez voir la liste de vos canaux, leur capacité, la répartition local/distante et leur état. RTL propose des tableaux de bord contextuels pour analyser l'activité selon différents angles.
 
-* **Gérer les canaux Lightning** – Ouvrir/fermer des canaux se fait en quelques clics. RTL permet de se connecter à un pair et d'ouvrir un canal sans commande. Vous pouvez ajuster les frais de routage, visualiser le score d'équilibre, ou initier un rebalance circulaire pour rééquilibrer les fonds entre canaux.
+**Gérer les canaux Lightning** – Ouvrir/fermer des canaux se fait en quelques clics. RTL permet de se connecter à un pair et d'ouvrir un canal sans commande. Vous pouvez ajuster les frais de routage, visualiser le score d'équilibre, ou initier un rebalance circulaire pour rééquilibrer les fonds entre canaux.
 
-* **Suivre et effectuer des paiements** – RTL gère les transactions Lightning : envoi de paiements via factures (invoices), génération de factures pour recevoir, suivi des transactions (paiements, routage) avec historique détaillé. L'interface analyse aussi le routage pour voir les paiements transitant par votre nœud.
+**Suivre et effectuer des paiements** – RTL gère les transactions Lightning : envoi de paiements via factures (invoices), génération de factures pour recevoir, suivi des transactions (paiements, routage) avec historique détaillé. L'interface analyse aussi le routage pour voir les paiements transitant par votre nœud.
 
-* **Gestion du wallet on-chain et sauvegardes** – L'onglet on-chain permet de générer des adresses et d'envoyer des transactions. RTL facilite la sauvegarde des canaux en exportant le fichier SCB pour LND, avec mise à jour automatique à chaque modification de canal.
+**Gestion du wallet on-chain et sauvegardes** – L'onglet on-chain permet de générer des adresses et d'envoyer des transactions. RTL facilite la sauvegarde des canaux en exportant le fichier SCB pour LND, avec mise à jour automatique à chaque modification de canal.
 
 En résumé, RTL est un **tableau de bord puissant pour le Lightning Network**, offrant une interface pédagogique pour piloter son nœud au quotidien. Ce tutoriel vous guidera dans son installation et son utilisation pour gérer vos canaux et paiements.
 
@@ -29,9 +29,9 @@ Avant de passer à la pratique, il est utile de comprendre brièvement **comment
 
 * Avec **LND**, RTL utilise l'API REST de LND (port 8080) pour exécuter les commandes Lightning. La connexion est sécurisée par TLS et nécessite le fichier **macaroon d'admin** de LND pour s'authentifier.
 
-* Avec **Core Lightning (CLN)**, RTL utilise soit l'API REST fournie par *c-lightning-REST*, soit un **rune d'accès** via le plugin `commando`. Les solutions comme Umbrel configurent automatiquement ces éléments.
+**Avec Core Lightning (CLN)**, RTL utilise soit l'API REST fournie par *c-lightning-REST*, soit un **rune d'accès** via le plugin `commando`. Les solutions comme Umbrel configurent automatiquement ces éléments.
 
-* Avec **Eclair**, RTL se connecte à l'API REST d'Eclair en utilisant le mot de passe d'authentification configuré.
+**Avec Eclair**, RTL se connecte à l'API REST d'Eclair en utilisant le mot de passe d'authentification configuré.
 
 **Configuration et sécurité :** RTL se configure via un fichier JSON (`RTL-Config.json`) où vous définissez le port web, le mot de passe d'accès, et les informations de connexion à votre nœud. L'interface web est protégée par un login/mot de passe (par défaut `password` à changer) et supporte la 2FA. Par défaut, RTL s'exécute en HTTP local (`http://localhost:3000`), mais pour un accès distant, utilisez toujours une connexion sécurisée (HTTPS via reverse-proxy, Tor, ou VPN).
 
@@ -156,10 +156,10 @@ Si vous utilisez [Umbrel](https://getumbrel.com), l'installation de RTL est beau
 **Important :** Après l'installation, RTL affiche un écran avec le mot de passe par défaut. **Copiez et sauvegardez ce mot de passe** - il vous sera nécessaire pour vous connecter à l'interface RTL. Ce mot de passe s'affichera à chaque démarrage de RTL jusqu'à ce que vous cochiez l'option "Don't show it again". 
 
 Umbrel s'occupe automatiquement de :
-* Télécharger et configurer RTL
-* Configurer les accès au nœud Lightning
-* Gérer les mises à jour
-* Sécuriser l'accès à l'interface
+**Télécharger et configurer RTL**
+**Configurer les accès au nœud Lightning**
+**Gérer les mises à jour**
+**Sécuriser l'accès à l'interface**
 
 Une fois installée, l'application apparaît dans votre menu *Apps* sur Umbrel. Cliquez sur **Ride The Lightning** pour la lancer.
 

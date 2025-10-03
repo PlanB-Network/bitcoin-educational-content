@@ -1,5 +1,5 @@
 ---
-name: Utsending
+name: Envoy
 description: Sette opp og bruke et pass med Envoy-applikasjonen
 ---
 ![cover](assets/cover.webp)

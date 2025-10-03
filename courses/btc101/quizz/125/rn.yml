@@ -1,0 +1,12 @@
+question: Ni akamaro akahe k’ugukwiragira kw’ibihimba vya Bitcoin mu karere?
+answer: Bituma hafi bidashoboka gusenyura kopi zose za Blockchain.
+wrong_answers:
+  - Ni ryo rigena igiciro ca Bitcoin mu turere dutandukanye.
+  - Bigira ico bikoze ku muvuduko w’ibikorwa vya Bitcoin.
+  - Igena umubare w’ama bitcoins ashobora gucukurwa mu karere.
+explanation: |
+  Ugukwiragizwa kw’ibice vya Bitcoin bituma .
+  biragoye cane gusenyura amakopi yose y’ico gitabu .
+  Blockchain. Kubera ko utugingo ngengabuzima dusanzwe, biragoye
+  mu buryo bw’umubiri abafate bose.
+reviewed: true

@@ -1,11 +1,14 @@
-question: Qual è il ruolo dei miner nella rete Bitcoin?
-answer: I miner proteggono la rete e aggiungono transazioni ai blocchi.
+question: Cos'è il Problema dei Generali Bizantini?
+answer: È un problema di coordinamento delle informazioni in un sistema in cui i vari attori non possono essere considerati affidabili.
 wrong_answers:
-  - I miner creano nuovi bitcoin.
-  - I miner verificano l'identità degli utenti Bitcoin.
-  - I miner stabiliscono il prezzo del Bitcoin.
-explanation: >-
-  I miner utilizzano la loro potenza computazionale per risolvere problemi matematici complessi,
-  il che consente loro di aggiungere nuove transazioni alla blockchain. Questo processo protegge
-  la rete e ne mantiene l'integrità.
+  - È un problema di verifica delle transazioni in una rete decentralizzata.
+  - È un problema di prevenzione del doppio pagamento in una valuta digitale.
+  - È un problema di mantenimento del consenso in una rete centralizzata.
+explanation: |
+  Il Problema dei Generali Bizantini è un classico problema nel
+  calcolo distribuito, che coinvolge il raggiungimento del consenso
+  in una rete dove alcuni dei nodi possono essere difettosi o
+  malevoli. Bitcoin risolve questo problema attraverso l'uso di una
+  blockchain basata sull'algoritmo Proof of Work, che assicura che tutti i
+  nodi concordino sullo stato della cronologia delle transazioni.
 reviewed: true

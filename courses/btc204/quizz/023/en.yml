@@ -6,4 +6,4 @@ wrong_answers:
   - The UTXOs in inputs came from 2 different users, and the one in output still belongs to these 2 users.
 explanation: |
   We are likely in the presence of a consolidation. Therefore, there is a common ownership of the inputs and the output.
-reviewed: false
+reviewed: true

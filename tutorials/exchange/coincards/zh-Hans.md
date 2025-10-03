@@ -1,5 +1,5 @@
 ---
-name: 硬币卡
+name: Coincards
 description: 如何使用 Coincards 以 BTC 购买商品和服务？
 ---
 ![cover](assets/cover.webp)
@@ -67,7 +67,7 @@ Coincards 致力于保护您的隐私。他们不仅允许您使用 Bitcoin、On
 
 
 
-有关 Lightning 主要产品组合（Phoenix、Breez、BitKit、Zeus......）的精选教程可在此处找到：[Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+有关 Lightning 主要产品组合（Phoenix、Breez、BitKit、Zeus......）的精选教程可在此处找到：[Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

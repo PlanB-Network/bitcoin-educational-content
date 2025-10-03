@@ -1,0 +1,8 @@
+question: Ni kuki yitwa Dupont de Nemours naho yavutse yitwa Pierre-Samuel Du Pont?
+answer: Kugira ngo bamutandukanye n’abandi ba Dupont bo mu nama y’umwaka w’1789 .
+wrong_answers:
+  - Ni umunyacubahiro kubera inkomoko
+  - Yarongoye umukobwakazi de Nemours .
+  - Ryari izina ry'ikaramu
+explanation: |
+  "de Nemours" yongewe kw'izina rya Pierre-Samuel Dupont kugira ngo amutandukanye n'abandi ba Dupont bicaye mu nama nkuru y'igihugu mu 1789.

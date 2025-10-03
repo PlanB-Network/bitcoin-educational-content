@@ -1,0 +1,9 @@
+question: Kıtlık neden iyi bir para biriminin önemli bir özelliği olarak kabul edilir?
+answer: Çünkü sınırlı Supply, değerini aşırı üretimle seyreltilmekten korur.
+wrong_answers:
+  - Çünkü herkesin kendi para birimini kolayca basabilmesini sağlar.
+  - Çünkü para biriminin tanınmasını zorlaştırır.
+  - Çünkü uzun mesafeli ticarette para kullanımını caydırır.
+explanation: |
+  Kontrollü kıtlığa sahip bir para birimi zaman içinde satın alma gücünü korur. Kıtlık olmadan, aşırı ihraç enflasyona yol açarak para biriminin değerini aşındırabilir.
+reviewed: false

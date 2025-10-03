@@ -1,0 +1,9 @@
+question: LinuxシステムでアクティブなTCPおよびUDP接続を分析するために推奨されるコマンドはどれか。
+answer: 勾配
+wrong_answers:
+  - アープ
+  - IPリンク
+  - イフアップ
+explanation: |
+  ssコマンドはnetstatに代わって、すべてのアクティブなネットワーク接続を素早く表示する。
+reviewed: false

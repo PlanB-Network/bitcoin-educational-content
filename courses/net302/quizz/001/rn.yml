@@ -1,0 +1,9 @@
+question: Ni topologie iyihe ihuza ibikoresho vyose ku ntumbero imwe hagati?
+answer: Inyenyeri
+wrong_answers:
+  - Impeta
+  - Bisi
+  - Urusenga
+explanation: |
+  Mu nzira y’inyenyeri, igikoresho cose gifatanye n’igikoresho co hagati, bikaba vyorosha gucunga no gucungera.
+reviewed: false

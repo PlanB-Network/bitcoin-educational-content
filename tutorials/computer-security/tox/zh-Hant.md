@@ -1,5 +1,5 @@
 ---
-name: 毒素
+name: Tox
 description: 在分散式 Tox 通訊協定上開啟無中介的對話
 ---
 ![cover](assets/cover.webp)

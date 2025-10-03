@@ -1,0 +1,9 @@
+question: Was macht das IP-Protokoll, wenn ein Datagramm die MTU eines Netzes überschreitet, das es durchläuft?
+answer: Er zerlegt es in mehrere Teile
+wrong_answers:
+  - Es verschlüsselt das gesamte Datagramm vor dem Versand
+  - Er lehnt sie immer ab und sendet eine Fehlermeldung
+  - Er komprimiert sie vor der Übermittlung
+explanation: |
+  Wenn die Größe des Datagramms die MTU überschreitet, fragmentiert der Router es in mehrere kleinere Pakete, die in das Zielnetz passen.
+reviewed: false

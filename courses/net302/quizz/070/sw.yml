@@ -1,0 +1,9 @@
+question: Nani anaruhusiwa kugawanya pakiti ya IPv6?
+answer: Mwenyeji wa chanzo pekee
+wrong_answers:
+  - Router ya kwanza tu ya kati
+  - Kipanga njia lengwa pekee
+  - Vipanga njia vyote
+explanation: |
+  Katika IPv6, ugawaji unafanywa na seva pangishi ya chanzo pekee, kamwe na vipanga njia vya kati.
+reviewed: false

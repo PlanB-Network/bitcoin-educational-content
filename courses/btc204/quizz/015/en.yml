@@ -6,4 +6,4 @@ wrong_answers:
   - Data collection, random selection, and denunciation.
 explanation: |
   Blockchain analysis first involves accessing Bitcoin blockchain data, then attempting to identify characteristics in this data, and finally making plausible interpretations.
-reviewed: false
+reviewed: true

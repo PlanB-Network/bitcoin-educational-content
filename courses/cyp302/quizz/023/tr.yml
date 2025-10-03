@@ -1,0 +1,9 @@
+question: Modulo işleminin kaydırmalı şifrelemedeki rolü nedir?
+answer: Harflerin 26'yı aştığında alfabenin başına dönmesini sağlar
+wrong_answers:
+  - Harf değerlerini anahtar ile çarpar
+  - Alfabenin harflerini ters çevirir
+  - Z harfinden sonraki harfleri siler
+explanation: |
+  Modulo 26 işlemi, şifrelenmiş her harfin alfabenin 26 harfi içinde kalmasını sağlamak için harflerin Z'den sonra geri dönmesini sağlar.
+reviewed: false

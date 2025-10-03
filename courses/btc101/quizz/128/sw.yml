@@ -1,11 +1,8 @@
-question: Unapounda mpango wa urithi, ni nini ambacho sio lazima kujumuisha?
-answer: Jina la Bitcoin Wallet unalotumia kawaida.
+question: Je, ni kazi gani ya kurekebisha ugumu katika mtandao wa Bitcoin?
+answer: Inahakikisha kuwa kizuizi kinaongezwa kwa Blockchain takriban kila dakika kumi.
 wrong_answers:
-  - Barua iliyoandikwa kwa mkono inayoorodhesha mali yako.
-  - Maelezo ya jinsi ya kupata pesa zako.
-  - Maelezo ya mawasiliano ya watu wanaoaminika.
-explanation: |
-  kuunda mpango wa urithi ni hatua muhimu ili kuhakikisha kuwa bitcoins zako zitasimamiwa ipasavyo baada ya kifo chako.
-  Mpango huu unaweza kujumuisha barua iliyoandikwa kwa mkono inayoorodhesha mali yako,
-  njia zao za kufikia, na maelezo ya mawasiliano ya watu wanaoaminika wa kuwasiliana nao
+  - Huamua bei ya Bitcoin.
+  - Inasimamia idadi ya bitcoins ambazo zinaweza kuchimbwa katika Blockchain.
+  - Inaamua ukubwa wa block.
+explanation: >-
 reviewed: true

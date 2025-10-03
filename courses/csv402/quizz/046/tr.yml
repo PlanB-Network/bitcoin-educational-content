@@ -1,0 +1,9 @@
+question: Hangi RGB standardı benzersiz varlıklar veya "NFT'ler" oluşturmanıza olanak tanır?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  RGB21 standardı, özel meta verilerin NFT'lerle ilişkilendirilmesini sağlayarak benzersiz varlıkları yönetmek için tasarlanmıştır.
+reviewed: false

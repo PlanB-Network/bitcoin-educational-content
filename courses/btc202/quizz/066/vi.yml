@@ -1,0 +1,9 @@
+question: Những biện pháp bảo mật nào được khuyến nghị mạnh mẽ để bảo vệ quyền truy cập vào Umbrel của bạn?
+answer: Mật khẩu dài và kích hoạt 2FA
+wrong_answers:
+  - Lưu trữ SSD kép
+  - Mở cổng RPC bằng văn bản thuần túy
+  - Mật khẩu dài và kích hoạt SSH
+explanation: |
+  Sự kết hợp giữa mật khẩu mạnh và xác thực hai yếu tố (2FA) giúp bảo vệ hiệu quả quyền truy cập vào Interface Umbrel.
+reviewed: true

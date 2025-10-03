@@ -1,0 +1,9 @@
+question: Jaki mechanizm umożliwia dostęp do usługi wewnętrznej z zewnątrz poprzez NAT?
+answer: Przekierowanie portów
+wrong_answers:
+  - Fragmentacja pakietów
+  - Routing RIP
+  - Kompresja NAT
+explanation: |
+  Przekierowanie portów umożliwia przekierowanie połączenia zewnętrznego do określonego hosta wewnętrznego za pośrednictwem bramy NAT.
+reviewed: false

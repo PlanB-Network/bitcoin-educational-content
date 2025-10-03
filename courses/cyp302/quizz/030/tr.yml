@@ -1,0 +1,9 @@
+question: Rastgele bir dizge ile sözde rastgele bir dizge arasındaki temel fark nedir?
+answer: Rastgele bir dize saf rastgele bir süreçten gelirken, sözde rastgele bir dize bir seed'dan bir algoritma tarafından üretilir.
+wrong_answers:
+  - Bir sözde rastgele dize yalnızca 1 bit kullanır.
+  - Rastgele bir dizge her zaman sözde rastgele bir dizgeden daha uzundur çünkü üzerinde doğal bir eylem vardır.
+  - Bir sözde rasgele dize kesinlikle ikili bir modelle tanımlanırken, rasgele bir dize kesinlikle onaltılık bir modelle tanımlanır.
+explanation: |
+  Rastgele bir dize doğrudan rastgele bir süreçten gelirken, sözde rastgele bir dize bir genişletme algoritması ve bir başlangıç seed kullanılarak üretilir.
+reviewed: false

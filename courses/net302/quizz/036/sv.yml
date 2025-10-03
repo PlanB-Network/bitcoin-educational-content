@@ -1,0 +1,9 @@
+question: Varför blev det nödvändigt att gå över till IPv6?
+answer: IPv4 Address uttömning
+wrong_answers:
+  - Fel i NAT-protokollet på IPv4
+  - Inkompatibilitet med subnätmask
+  - Slut på DHCP-stöd
+explanation: |
+  När IPv4-adresserna tog slut skedde övergången till IPv6, som ger ett betydligt större Address-utrymme.
+reviewed: false

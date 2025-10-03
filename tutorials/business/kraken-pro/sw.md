@@ -87,8 +87,8 @@ Baada ya akaunti yako kuthibitishwa, utafikia jukwaa ambapo utapewa violesura vi
 
 
 
-- Kraken**: Interface iliyorahisishwa inayotoa utendaji muhimu.
-- Kraken Pro**: Interface ya hali ya juu iliyo na vipengele vya ziada, haswa kwa biashara.
+- **Kraken**: Interface iliyorahisishwa inayotoa utendaji muhimu.
+- **Kraken Pro**: Interface ya hali ya juu iliyo na vipengele vya ziada, haswa kwa biashara.
 
 
 Ikiwa lengo lako ni kununua na kuuza Bitcoin pekee, chagua Interface iliyorahisishwa. Utakuwa na chaguo la kubadilisha hadi Interface ya hali ya juu baadaye ikiwa ni lazima.
@@ -228,14 +228,14 @@ Unaweza pia Exchange bitcoins zako kwa fedha nyinginezo za siri, kama vile stabl
 Chagua kiasi, chagua sarafu ya crypto unayotaka kupata, kisha uthibitishe muamala.
 
 
-Kwa miamala hii, unaweza kuchagua kati ya aina tofauti za agizo: *Soko*, *Limit*, au *Stop-Loss* :
+Kwa miamala hii, unaweza kuchagua kati ya aina tofauti za agizo: *Soko*, *Limit*, au *Stop-Loss*:
 
 
 
 
-- Market* : Inaruhusu ununuzi wa mara moja kwa bei ya sasa ya soko;
-- Kikomo*: Hukuruhusu kubainisha bei ya ununuzi, na agizo litatekelezwa tu ikiwa bei ya soko itafikia kiasi hiki;
-- Simamisha-Hasara* : Inauzwa kiotomatiki bei inapofikia kiwango fulani.
+- **Market**: Inaruhusu ununuzi wa mara moja kwa bei ya sasa ya soko;
+- **Kikomo**: Hukuruhusu kubainisha bei ya ununuzi, na agizo litatekelezwa tu ikiwa bei ya soko itafikia kiasi hiki;
+- **Simamisha-Hasara**: Inauzwa kiotomatiki bei inapofikia kiwango fulani.
 
 
 ## 7 - Usimamizi wa shughuli na uhasibu
@@ -317,7 +317,7 @@ Kulingana na malengo na muundo wa kampuni yako, matumizi ya Kraken yanaweza kuto
 - Hamisha historia za miamala inavyohitajika.
 
 
-Kwa mtazamo wa kina zaidi wa mada hii, ninapendekeza kozi hii ya kina ya mafunzo ya kuunganisha Bitcoin katika biashara, ambayo inashughulikia kwa kina kuongeza mtiririko wa pesa, kukubali malipo ya Bitcoin, na uhasibu :
+Kwa mtazamo wa kina zaidi wa mada hii, ninapendekeza kozi hii ya kina ya mafunzo ya kuunganisha Bitcoin katika biashara, ambayo inashughulikia kwa kina kuongeza mtiririko wa pesa, kukubali malipo ya Bitcoin, na uhasibu:
 
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

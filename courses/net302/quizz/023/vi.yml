@@ -1,0 +1,9 @@
+question: Tên của quy trình thiết lập kết nối nhiều bước trong TCP là gì?
+answer: Bắt tay ba chiều
+wrong_answers:
+  - Bắt tay bốn chiều
+  - Cửa sổ trượt
+  - Quá trình kiểm tra tổng
+explanation: |
+  Bắt tay ba chiều đồng bộ hóa số thứ tự giữa máy khách và máy chủ trước bất kỳ Exchange nào của dữ liệu tải trọng.
+reviewed: false

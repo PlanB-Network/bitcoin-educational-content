@@ -1,0 +1,9 @@
+question: IP/MAC eşlemesi geçerli ve yeni olduğunda ip komşu önbelleğindeki bir girdinin durumu nedir?
+answer: ULAŞILABİLİR
+wrong_answers:
+  - BAĞLI
+  - GEÇERLİ
+  - STALE
+explanation: |
+  REACHABLE durumu, IP/MAC eşlemesinin komşu önbelleğinde bilindiği ve işlevsel olduğu anlamına gelir.
+reviewed: false

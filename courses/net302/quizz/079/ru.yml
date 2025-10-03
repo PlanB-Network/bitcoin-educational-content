@@ -1,0 +1,9 @@
+question: Какой тип записи DNS используется для сопоставления доменного имени с IPv6 Address?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  Тип AAAA (quad-A) используется для сопоставления доменного имени с IPv6 Address, в то время как тип A зарезервирован для IPv4.
+reviewed: false

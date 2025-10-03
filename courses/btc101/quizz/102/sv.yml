@@ -1,12 +1,11 @@
-question: Vad är en metod för att säkra dina bitcoins på lång sikt?
-answer: Gravera din Mnemonic-fras på ett motståndskraftigt material som stål.
+question: Vilken betydelse har det individuella ansvaret i Bitcoin?
+answer: Det är viktigt eftersom det är du som ansvarar för säkerhetskopiorna.
 wrong_answers:
-  - Förvara dem i en Hot Wallet.
-  - Håller dem på en Exchange-plattform.
-  - Dela din Mnemonic-fras med en kollega.
+  - Det är viktigt eftersom du måste bryta bitcoins.
+  - Det är viktigt att köpa bitcoins.
+  - Det är avgörande eftersom du är ansvarig för Wallet-temat.
 explanation: |
-  Genom att gravera din Mnemonic-fras på ett motståndskraftigt material som
-  stål skapar en fysisk säkerhetskopia av dina nycklar som är
-  motståndskraftig mot både vattenskador och eld, vilket säkerställer din
-  bitcoins på lång sikt.
+  I Bitcoin går ekonomisk suveränitet hand i hand med
+  individuellt ansvar, eftersom du måste självförvara
+  dina medel genom att följa rekommenderade säkerhetskopieringsförfaranden.
 reviewed: true

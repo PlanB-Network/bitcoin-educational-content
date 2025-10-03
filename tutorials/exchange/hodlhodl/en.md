@@ -12,9 +12,8 @@ Hodl Hodl is a decentralized Bitcoin exchange that prioritizes user control and 
 
 https://hodlhodl.com/pages/faq_help
 
-## Writing Guide:
+## Start your journey on Hodl Hodl
 
-Initiating Your Journey with HodlHodl: A Step-by-Step Guide
 
 ![image](assets/5.webp)
 
@@ -47,43 +46,43 @@ In order to commence BTC trading, you'll need to provide your BTC address first.
 
 Guide by Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
-1. Visit hodlhodl.com and create your account. The only details you need to provide is a username and email address. You will then be met with the home page.
+- Visit hodlhodl.com and create your account. The only details you need to provide is a username and email address. You will then be met with the home page.
 
 ![cover](assets/11.webp)
 
-2. Click ‘Buy BTC’ in the website header.
+- Click ‘Buy BTC’ in the website header.
 
 ![cover](assets/12.webp)
 
-3. Select your desired payment type and method. You can also specify a specific amount here if necessary.
+- Select your desired payment type and method. You can also specify a specific amount here if necessary.
 
 ![cover](assets/13.webp)
 
-4. Select your desired offer. You can then review the trade details and also read the peer’s activity reports and ratings.
+- Select your desired offer. You can then review the trade details and also read the peer’s activity reports and ratings.
 
 ![cover](assets/14.webp)
 
-5. Once you are happy, you can specify how much you want to buy, enter in the address you would like the bitcoin sent to and specify confirm the payment method advertised by the seller. Click ‘Accept offer and create contract’.
+- Once you are happy, you can specify how much you want to buy, enter in the address you would like the bitcoin sent to and specify confirm the payment method advertised by the seller. Click ‘Accept offer and create contract’.
 
 ![cover](assets/15.webp)
 
-6. You now have your contract created and need to hit ‘Generate Escrow’ where you will be prompted to create a payment password. The payment password is an encryption key for the user’s escrow key pair. It is used in order to deposit or release Bitcoin to or from escrow.
+- You now have your contract created and need to hit ‘Generate Escrow’ where you will be prompted to create a payment password. The payment password is an encryption key for the user’s escrow key pair. It is used in order to deposit or release Bitcoin to or from escrow.
 
 ![cover](assets/16.webp)
 
-7. Now you need to wait for the seller to deposit their bitcoin into the escrow wallet. After starting the contract you can chat with the seller using the chat box on the right side of the page.
+- Now you need to wait for the seller to deposit their bitcoin into the escrow wallet. After starting the contract you can chat with the seller using the chat box on the right side of the page.
 
 ![cover](assets/17.webp)
 
-8. Once the seller has deposited their funds to the escrow you will see this screen advising you not to send your money until there has been sufficient number of blockchain confirmations (this varies depending on the trade conditions). You can check on the progress of the sellers deposit transaction by clicking on the blue link ‘Deposit Transaction ID’.
+- Once the seller has deposited their funds to the escrow you will see this screen advising you not to send your money until there has been sufficient number of blockchain confirmations (this varies depending on the trade conditions). You can check on the progress of the sellers deposit transaction by clicking on the blue link ‘Deposit Transaction ID’.
 
 ![cover](assets/18.webp)
 
-9. Once confirmed you will be notified and you can then send the funds to the seller to the details they will provide you. Once you have done this click ‘Ive Sent The Payment’.
+- Once confirmed you will be notified and you can then send the funds to the seller to the details they will provide you. Once you have done this click ‘Ive Sent The Payment’.
 
 ![cover](assets/19.webp)
 
-10. You will then need to wait for the seller to confirm they have received the funds, at which point the bitcoin will be released into the address you specified at the start of the contract. You will also be given the opportunity to rate your peer.
+- You will then need to wait for the seller to confirm they have received the funds, at which point the bitcoin will be released into the address you specified at the start of the contract. You will also be given the opportunity to rate your peer.
 
 ![cover](assets/20.webp)
 
@@ -183,3 +182,4 @@ Reach us
 - Reddit: hodlhodl.reddit.com
 - Facebook: facebook.com/HHodl
 - Youtube: youtube.com/c/HodlHodl
+

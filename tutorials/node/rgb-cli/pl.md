@@ -318,8 +318,8 @@ W większości przypadków interakcja między uczestnikami Contract (np. Alicją
 
 
 
-- Alice** (emitent Invoice) ;
-- Bob** (który odbiera i wykonuje Invoice).
+- **Alice** (emitent Invoice) ;
+- **Bob** (który odbiera i wykonuje Invoice).
 
 
 W przeciwieństwie do innych ekosystemów, RGB Invoice nie ogranicza się do pojęcia płatności. Może zawierać dowolne żądanie powiązane z Contract: odwołanie klucza, głosowanie, utworzenie grawerunku (*grawerunek*) na NFT itp. Odpowiednia operacja może być opisana w Contract Interface. Odpowiednia operacja może być opisana w Contract Interface.

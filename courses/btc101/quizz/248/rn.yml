@@ -1,0 +1,10 @@
+question: Ni iyihe mpamvu nyamukuru yatumye Bitcoin iremwa?
+answer: Gutanga iciyumviro co guhindura uburyo bw’ivy’ubutunzi.
+wrong_answers:
+  - Gusaba ko amahera akurwaho.
+  - Gutanga iciyumviro co kurema uburyo bushasha bw’ubuhinga bwa none.
+  - Gutanga iciyumviro co kugenzura abantu bo kw’isi.
+explanation: |
+  Ico canditswe kivuga ko Satoshi Nakamoto yaremye Bitcoin mu 1990.
+  2008 kugira ngo bashireho ihinduka ry’uburyo bw’ivy’ubutunzi.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Keynesyen doktrine göre merkez bankalarının temel sorumluluğu nedir?
+answer: Paranın üretimi ve yönetimi
+wrong_answers:
+  - Parasal gücün ademi merkezileştirilmesi
+  - Büyüme ve insan rasyonalitesine ilişkin ölçülü bir vizyonun teşvik edilmesi
+  - Yukarıdakilerin hiçbiri
+explanation: |
+  Bu bölümde Keynesyen doktrine göre,
+  paranın üretimi ve yönetimi
+  merkez bankalarının sorumluluğundadır.
+reviewed: true

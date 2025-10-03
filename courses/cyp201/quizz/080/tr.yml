@@ -1,0 +1,9 @@
+question: SegWit v0 adreslerini temsil etmek için hangi kodlama kullanılır?
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  P2WPKH ve P2WSH için olanlar gibi SegWit v0 adresleri, SegWit ile tanıtılan bech32 kodlamasını kullanır.
+reviewed: false

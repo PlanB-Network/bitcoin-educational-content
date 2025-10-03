@@ -1,0 +1,11 @@
+question: Talep Çekme ve Maliyet İtme enflasyonu arasındaki fark nedir?
+answer: Talep Çekişli enflasyon, ekonomideki talebin mevcut üretimi aştığı bir durumken, Maliyet İtişli enflasyon ise üretim maliyetlerindeki artıştan kaynaklanmaktadır.
+wrong_answers:
+  - Talep Çekişli enflasyon üretim maliyetlerindeki artıştan kaynaklanırken, Maliyet İtişli enflasyon ekonomideki talebin mevcut üretimi aştığı bir durumdur.
+  - Talep Çekişli ve Maliyet İtişli enflasyon aynıdır, her ikisi de ekonomideki talebin mevcut üretimi aştığı bir durumu ifade eder.
+  - Talep Çekişli ve Maliyet İtişli enflasyon aynıdır, her ikisi de üretim maliyetlerindeki artışı ifade eder.
+explanation: |
+  Bu bölümde Talep Çekişli enflasyonun genellikle şu şekilde açıklandığı belirtilmektedir
+  ekonomideki talebin mevcut üretimi aştığı bir durum. Diğer taraftan
+  el, Maliyet İtici enflasyonu üretim maliyetlerindeki artışa bağlanmaktadır.
+reviewed: false

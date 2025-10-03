@@ -1,5 +1,5 @@
 ---
-name: कॉइनकार्ड
+name: Coincards
 description: मैं कॉइनकार्ड्स के साथ बीटीसी में सामान और सेवाएं कैसे खरीद सकता हूं?
 ---
 ![cover](assets/cover.webp)
@@ -67,7 +67,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-मुख्य लाइटनिंग पोर्टफोलियो (फीनिक्स, ब्रीज़, बिटकिट, ज़ीउस...) पर ट्यूटोरियल का चयन यहां पाया जा सकता है: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+मुख्य लाइटनिंग पोर्टफोलियो (फीनिक्स, ब्रीज़, बिटकिट, ज़ीउस...) पर ट्यूटोरियल का चयन यहां पाया जा सकता है: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

@@ -30,7 +30,7 @@ USB-pulga krüpteerimine on hea viis oma tundlike andmete kaitsmiseks. **Selles 
 
 
 
-Selle õpetuse järgimiseks on vaja :
+Selle õpetuse järgimiseks on vaja:
 
 
 
@@ -131,7 +131,7 @@ Nüüd kustutame kõik andmed meie USB-pulgalt. Operatsioon seisneb selles, et t
 
 
 
-**Vajuta, et sihtmärgiks on õige seadmefail!
+**Vajuta, et sihtmärgiks on õige seadmefail!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Siin initsialiseerib ja vormindab seade LUKS-krüpteerimise kasutamiseks alamkäsuga "`luksFormat`". Teil palutakse seda toimingut kinnitada, kirjutades suurtähtedega `YES`, seejärel defineerige *passphrase*. **Valige tugev *passphrase*, et tagada, et ründaja ei saaks kaotsimineku korral seda brute-force rünnakute abil avastada.
+Siin initsialiseerib ja vormindab seade LUKS-krüpteerimise kasutamiseks alamkäsuga "`luksFormat`". Teil palutakse seda toimingut kinnitada, kirjutades suurtähtedega `YES`, seejärel defineerige *passphrase*. **Valige tugev** ***passphrase***, **et tagada, et ründaja ei saaks kaotsimineku korral seda brute-force rünnakute abil avastada.**
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Siin on "**usbkey1**" nimi, mille ma annan oma kontekstis partitsiooni mount'ile. Te võite valida, mis teile meeldib. Seejärel peame selle LUKS partitsioonis sisalduva partitsiooni vormindama, siin näiteks kui **ext4** :
+Siin on "**usbkey1**" nimi, mille ma annan oma kontekstis partitsiooni mount'ile. Te võite valida, mis teile meeldib. Seejärel peame selle LUKS partitsioonis sisalduva partitsiooni vormindama, siin näiteks kui **ext4**:
 
 
 
@@ -237,11 +237,11 @@ done
 
 
 
-**See, sihtkoha** on määratud kui "**/dev/mappe/usbkey1**"**, miks?
+**See, sihtkoha** on määratud kui "**/dev/mappe/usbkey1**", miks?
 
 
 
-"**/dev/mapper/usbkey1**" on "otsetee", mille me oleme andnud meie USB-klahvile ("**/dev/mapper**" on Linuxi jaoks üldine kaardistamiseks). Seega annab see ligipääsu meie dekrüpteeritud partitsioonile. Siin on see, mida te nüüd peaksite nägema :
+"**/dev/mapper/usbkey1**" on "otsetee", mille me oleme andnud meie USB-klahvile ("**/dev/mapper**" on Linuxi jaoks üldine kaardistamiseks). Seega annab see ligipääsu meie dekrüpteeritud partitsioonile. Siin on see, mida te nüüd peaksite nägema:
 
 
 
@@ -353,7 +353,7 @@ See tähendab, et me saame oma USB-pulgal olevatele andmetele vabalt ja läbipai
 
 
 
-Kui meie operatsioon on lõppenud, ärge unustage kõike korralikult sulgeda, et me ei rikuks meie mahtu. Esimene samm on eemaldada :
+Kui meie operatsioon on lõppenud, ärge unustage kõike korralikult sulgeda, et me ei rikuks meie mahtu. Esimene samm on eemaldada:
 
 
 

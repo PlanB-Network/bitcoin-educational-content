@@ -1,0 +1,9 @@
+question: Co łączyło oryginalne oprogramowanie Bitcoin w 2009 roku?
+answer: Wallet, łuk i mniejsze
+wrong_answers:
+  - Węzeł, Miner i Block explorer
+  - Wallet, rozdrabniacz i Miner
+  - Miner i Mining pool
+explanation: |
+  Oryginalne oprogramowanie Bitcoin integrowało funkcje Wallet, węzła i Miner w jednym programie.
+reviewed: true

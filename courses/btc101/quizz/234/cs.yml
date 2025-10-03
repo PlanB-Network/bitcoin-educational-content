@@ -1,12 +1,13 @@
-question: Jaké je jedno z potenciálních využití Lightning Network v každodenním životě?
-answer: Okamžité fakturování v obchodě.
+question: Co je to platforma DCA?
+answer: Služba, která umožňuje uživatelům investovat pevnou částku peněz do aktiva v pravidelných intervalech.
 wrong_answers:
-  - Těžba nových Bitcoinů.
-  - Vytváření nových kryptoměn.
-  - Zvyšování hodnoty Bitcoinu.
-explanation: >-
-  Lightning Network otevírá dveře široké škále potenciálních aplikací
-  pro Bitcoin, které byly dříve nedosažitelné kvůli omezením nutným
-  pro zajištění bezpečnosti a decentralizace Bitcoinu. Mezi tyto aplikace v
-  každodenním životě můžeme zmínit okamžité fakturování v obchodě.
+  - Typ kryptoměnové burzy, která umožňuje obchodování pouze s Bitcoinem.
+  - Finanční služba, která poskytuje půjčky investorům pro obchodování s marží.
+  - Softwarový nástroj, který sleduje ceny akcií v reálném čase bez jakýchkoli investičních funkcí.
+explanation: |
+  Platforma DCA odkazuje na platformu, která usnadňuje
+  Průměrování nákladů v dolarech (DCA), investiční strategii, kde
+  jednotlivec investuje pevnou částku peněz do
+  konkrétního aktiva v pravidelných intervalech, bez ohledu na
+  cenu aktiva.
 reviewed: true

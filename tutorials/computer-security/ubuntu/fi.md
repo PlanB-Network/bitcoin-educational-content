@@ -11,13 +11,13 @@ Käyttöjärjestelmä (OS) on tärkein ohjelmisto, joka hallinnoi kaikkia tietok
 ### Miksi Ubuntu?
 
 
-- Parannettu turvallisuus** : Linux-jakelut ovat tunnettuja turvallisuudestaan ja kestävyydestään
-- Ei kustannuksia**: Ubuntu ja useimmat Linux-jakelut ovat maksuttomia
-- Suuri yhteisö**: Käyttäjäyhteisö, joka on valmis auttamaan foorumeilla ja opetusohjelmissa
-- Yksityisyyden kunnioittaminen**: Avoimen lähdekoodin järjestelmä lisää avoimuutta
-- Yksinkertaisuus**: Käyttäjäystävällinen käyttöliittymä ja helppokäyttöisyys
-- Rikas ekosysteemi** : Laaja avoimen lähdekoodin ohjelmistoluettelo
-- Säännöllinen tuki**: Turvalliset päivitykset Canonicalilta
+- **Parannettu turvallisuus**: Linux-jakelut ovat tunnettuja turvallisuudestaan ja kestävyydestään
+- **Ei kustannuksia**: Ubuntu ja useimmat Linux-jakelut ovat maksuttomia
+- **Suuri yhteisö**: Käyttäjäyhteisö, joka on valmis auttamaan foorumeilla ja opetusohjelmissa
+- **Yksityisyyden kunnioittaminen**: Avoimen lähdekoodin järjestelmä lisää avoimuutta
+- **Yksinkertaisuus**: Käyttäjäystävällinen käyttöliittymä ja helppokäyttöisyys
+- **Rikas ekosysteemi**: Laaja avoimen lähdekoodin ohjelmistoluettelo
+- **Säännöllinen tuki**: Turvalliset päivitykset Canonicalilta
 
 ## Asennus ja konfigurointi
 
@@ -42,7 +42,7 @@ Käyttöjärjestelmä (OS) on tärkein ohjelmisto, joka hallinnoi kaikkia tietok
 
 ### 3. Luo käynnistettävä USB-levy
 
-Voit käyttää useita työkaluja, kuten Balena Etcher :
+Voit käyttää useita työkaluja, kuten Balena Etcher:
 
 
 - Lataa ja asenna [Balena Etcher](https://etcher.balena.io/)
@@ -77,19 +77,19 @@ Kun käynnistät USB-muistista, näet tämän näytön, josta voit käynnistää
 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
-**Kielen valinta
+**Kielen valinta**
 
 Valitse haluamasi kieli asennusta ja järjestelmää varten.
 
 ![Sélection de la langue](assets/fr/07.webp)
 
-**Saavutettavuusvaihtoehdot
+**Saavutettavuusvaihtoehdot**
 
 Määritä tarvittaessa saavutettavuusasetukset (ruudunlukuohjelma, suuri kontrasti jne.).
 
 ![Options d'accessibilité](assets/fr/08.webp)
 
-**Näppäimistön konfigurointi
+**Näppäimistön konfigurointi**
 
 Valitse näppäimistöasettelu. Käytettävissä on testikenttä, jolla voit tarkistaa, että näppäimet vastaavat kokoonpanoasi.
 
@@ -101,31 +101,31 @@ Muodosta yhteys Wi-Fi- tai langalliseen verkkoon päivitysten lataamiseksi asenn
 
 ![Configuration réseau](assets/fr/10.webp)
 
-**Asennustyyppi
+**Asennustyyppi**
 
 Valitse joko "Kokeile Ubuntua" (testaa ilman asennusta) tai "Asenna Ubuntu".
 
 ![Choix du type d'installation](assets/fr/11.webp)
 
-**Asennusmenetelmä
+**Asennusmenetelmä**
 
 Valitse interaktiivinen asennus.
 
 ![Mode d'installation](assets/fr/12.webp)
 
-**Hakemuksen valinta
+**Hakemuksen valinta**
 
 Voit valita oletusasennuksen tai laajennetun sovellusvalikoiman.
 
 ![Sélection des applications](assets/fr/13.webp)
 
-**Kolmannen osapuolen sovellukset
+**Kolmannen osapuolen sovellukset**
 
 Päätä, asennatko lisäajureita ja omia ohjelmistoja vai et.
 
 ![Installation applications tierces](assets/fr/14.webp)
 
-**Tyyppinen osiointi
+**Tyyppinen osiointi**
 
 Sinulla on kaksi päävaihtoehtoa:
 
@@ -135,13 +135,13 @@ Sinulla on kaksi päävaihtoehtoa:
 
 ![Choix du partitionnement](assets/fr/15.webp)
 
-**Käyttäjätilin luominen
+**Käyttäjätilin luominen**
 
 Aseta Ubuntu-tilisi käyttäjätunnus ja salasana.
 
 ![Création du compte](assets/fr/16.webp)
 
-**Aikavyöhyke
+**Aikavyöhyke**
 
 Valitse maantieteellinen alue järjestelmän kellonajan asettamista varten.
 
@@ -164,7 +164,7 @@ Järjestelmän päivittäminen on tärkeä vaihe uuden asennuksen jälkeen. Sinu
 - Sovellus tarkistaa automaattisesti saatavilla olevat päivitykset
 - Asenna päivitykset noudattamalla näytön ohjeita
 
-**Vaihtoehto 2: Päätelaitteen kautta
+**Vaihtoehto 2: Päätelaitteen kautta**
 
 
 - Avaa pääte (Ctrl + Alt + T)
@@ -176,7 +176,7 @@ sudo apt update
 
 
 - Syötä salasanasi pyydettäessä
-- Asenna päivitykset kirjoittamalla :
+- Asenna päivitykset kirjoittamalla:
 
 ```bash
 sudo apt upgrade
@@ -187,7 +187,7 @@ sudo apt upgrade
 
 ### 5. Perustehtävien löytäminen
 
-**5.1 Internetin selaaminen
+**5.1 Internetin selaaminen**
 
 Oletusarvoisesti Firefox löytyy usein käynnistyspalkista.
 
@@ -195,19 +195,19 @@ Käynnistä Firefox ja aloita selailu.
 
 Muut selaimet (Chrome, Brave jne.) voidaan asentaa Software Managerin tai .deb-pakettien kautta.
 
-**5.2 Tekstinkäsittely
+**5.2 Tekstinkäsittely**
 
 Ubuntun mukana tulee LibreOffice-paketti (Writer tekstinkäsittelyyn).
 
-Sen avaaminen : Toiminnot > Etsi "LibreOffice Writer" tai napsauta kuvaketta, jos se näkyy palkissa.
+Sen avaaminen: Toiminnot > Etsi "LibreOffice Writer" tai napsauta kuvaketta, jos se näkyy palkissa.
 
 Voit luoda, muokata ja tallentaa asiakirjoja eri muodoissa (myös .docx-muodossa).
 
-**5.3 Sovellusten asentaminen
+**5.3 Sovellusten asentaminen**
 
 Ohjelmistohallinta (nimeltään "Ubuntu Software"): graafinen käyttöliittymä sovellusten etsimiseen ja asentamiseen.
 
-Käytä päätteestä komentoa :
+Käytä päätteestä komentoa:
 
 ```bash
 sudo apt install nom-du-paquet

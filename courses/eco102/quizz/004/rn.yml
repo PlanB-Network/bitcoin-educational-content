@@ -1,0 +1,9 @@
+question: Ni kubera iki muri iki gihe Frédéric Bastiat yemerwa ko ari umuntu afise akosho kanini mu vyiyumviro, naho nyene atamenyekana cane?
+answer: Yari yiteze imbere y’igihe ivyiyumviro vyo muri iki gihe ku bijanye n’isoko rya politike be n’ugusahura bishingiye ku mategeko.
+wrong_answers:
+  - Yarateye imbere inyigisho za bose kuri bose.
+  - Yanditse igitabu kivuga ibijanye n’amahinduka yo muri iki gihe.
+  - Yaragize ico akoze ata guca ku ruhande ku bijanye no kurema ubwiteganyirize bw’abantu mu Bufaransa.
+explanation: |
+  Bastiat asubira kuvumburwa kubera ivyiyumviro vyiwe ku vyerekeye umwidegemvyo, uburenganzira bw’itunga, n’ukuntu anegura ubusahuzi bushingiye ku mategeko, bikaba bihuye n’ingorane zo muri iki gihe.
+reviewed: false

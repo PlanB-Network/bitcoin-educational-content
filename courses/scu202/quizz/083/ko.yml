@@ -1,0 +1,9 @@
+question: 전화번호나 영구 로그인 없이 완전히 익명으로 등록할 수 있는 메시징 서비스는 무엇인가요?
+answer: SimpleX 채팅
+wrong_answers:
+  - 신호
+  - 텔레그램
+  - WhatsApp
+explanation: |
+  SimpleX 채팅은 고유 식별자라는 개념을 없애고 임시 링크나 QR 코드를 통해 연락처를 추가하며 개인 데이터가 필요하지 않습니다.
+reviewed: false

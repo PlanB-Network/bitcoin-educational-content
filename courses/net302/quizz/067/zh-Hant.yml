@@ -1,0 +1,9 @@
+question: 在 IPv6 中使用隨機 Interface 識別碼而非 MAC Address 的主要動機是什麼？
+answer: 保護隱私
+wrong_answers:
+  - 減少封包大小
+  - 加速 DNS 解析
+  - 改善 ARP 相容性
+explanation: |
+  使用隨機 Interface 識別碼有助於防止基於 MAC Address 的裝置追蹤。
+reviewed: false

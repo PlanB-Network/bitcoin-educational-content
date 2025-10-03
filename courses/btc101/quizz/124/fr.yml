@@ -1,10 +1,12 @@
-question: Quelle est la version du premier logiciel Bitcoin publié ?
-answer: Bitcoin-0.1.0.
+question: Quel est le rôle d'un nœud Bitcoin dans le réseau Bitcoin ?
+answer: Il valide les nouveaux blocs et les transactions incluses.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
-  Le premier logiciel Bitcoin publié était Bitcoin-0.1.0. Il a été annoncé
-  par Satoshi Nakamoto le 8 janvier 2009.
+  - Il crée de nouveaux Bitcoins et les place dans les blocs.
+  - Il régule le prix du Bitcoin.
+  - Il gère le réseau Bitcoin.
+explanation: |
+  Un nœud Bitcoin dans le réseau Bitcoin s'occupe de
+  la validation des nouveaux blocs et des transactions incluses. C'est
+  ce réseau de nœuds Bitcoin qui le rend véritablement
+  décentralisé.
 reviewed: true

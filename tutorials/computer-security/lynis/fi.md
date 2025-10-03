@@ -22,7 +22,7 @@ ___
 
 
 
-**Tässä ohjeessa opettelemme, miten Linux-koneen tietoturvatarkastus tehdään Lynisin avulla! Niille teistä, jotka eivät tunne **Lynistä,** se on pieni komentorivin apuohjelma, joka analysoi palvelimesi kokoonpanon ja antaa suosituksia koneesi tietoturvan **parantamiseksi.**
+**Tässä ohjeessa opettelemme, miten Linux-koneen tietoturvatarkastus tehdään Lynisin avulla! Niille teistä, jotka eivät tunne Lynistä,** se on pieni komentorivin apuohjelma, joka analysoi palvelimesi kokoonpanon ja antaa suosituksia koneesi tietoturvan **parantamiseksi.**
 
 
 
@@ -51,7 +51,7 @@ Työkalua käyttävät laajalti erilaiset käyttäjät, kuten järjestelmänvalv
 
 
 
-Projekti on saatavilla tässä Address:ssa **Githubissa** :
+Projekti on saatavilla tässä Address:ssa **Githubissa**:
 
 
 
@@ -82,7 +82,7 @@ Tämän asennustavan avulla voit käyttää komentoa **lynis** mistä tahansa j�
 
 
 
-Ota yhteys palvelimeen SSH:n kautta ja asenna Lynis seuraavilla komennoilla :
+Ota yhteys palvelimeen SSH:n kautta ja asenna Lynis seuraavilla komennoilla:
 
 
 
@@ -209,7 +209,7 @@ Voit näyttää käytettävissä olevat komennot kirjoittamalla seuraavan komenn
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Saat tämän:
 
 
 
-Jos haluat näyttää kaikki vaihtoehdot, sinun on kirjoitettava :
+Jos haluat näyttää kaikki vaihtoehdot, sinun on kirjoitettava:
 
 
 
@@ -321,10 +321,10 @@ Seuraavaksi Lynis luettelee joukon kohtia, jotka vastaavat kaikkea sitä, mitä 
 
 
 
-- Punainen**, kun kriittistä Elements:tä tai parhaita käytäntöjä ei noudateta (esimerkiksi puuttuva paketti), eli palvelimesi ei noudata tätä kohtaa
-- Keltainen** suosituksen ehdotuksille tai osittaiselle noudattamiselle (sanotaan, että tällä värillä korostetun kohdan noudattaminen on plussaa (ei-prioriteetti))
-- Green** kohdissa, joissa palvelinkokoonpano on vaatimustenmukainen
-- Valkoinen**, kun neutraali
+- **Punainen**, kun kriittistä Elements:tä tai parhaita käytäntöjä ei noudateta (esimerkiksi puuttuva paketti), eli palvelimesi ei noudata tätä kohtaa
+- **Keltainen** suosituksen ehdotuksille tai osittaiselle noudattamiselle (sanotaan, että tällä värillä korostetun kohdan noudattaminen on plussaa (ei-prioriteetti))
+- **Green** kohdissa, joissa palvelinkokoonpano on vaatimustenmukainen
+- **Valkoinen**, kun neutraali
 
 
 
@@ -336,7 +336,7 @@ Täältä näemme, että Lynis suosittelee **fail2ban**-asennusta:
 
 
 
-Osiossa "**Boot and services**" (käynnistys ja palvelut**) näemme, että *systemd:n* kautta tapahtuvaa palvelusuojausta voitaisiin parantaa. Positiivista on, että Grub2 on läsnä eikä ongelmia ole :
+Osiossa "**Boot and services**" (käynnistys ja palvelut) näemme, että *systemd:n* kautta tapahtuvaa palvelusuojausta voitaisiin parantaa. Positiivista on, että Grub2 on läsnä eikä ongelmia ole:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Joitakin tietoja asennetuista paketeista :
+Joitakin tietoja asennetuista paketeista:
 
 
 
 
 
-- Clamav** on virustorjuntaohjelma.
-- unattend-upgrades** mahdollistaa päivitysten automaattisen hallinnan ja jopa koneen uudelleenkäynnistyksen tai vanhojen pakettien automaattisen poistamisen, se on täysin konfiguroitavissa.
-- rkhunter** on anti-rootkit, joka skannaa tiedostojärjestelmän.
-- Fail2ban** käyttää lokitiedostojasi sen mukaan, mitä annat sen lukea, ja se toimii **iptables**:n kanssa esimerkiksi kieltääkseen IP-osoitteet, jotka yrittävät "murtaa" palvelimesi SSH:lla.
+- **Clamav** on virustorjuntaohjelma.
+- **unattend-upgrades** mahdollistaa päivitysten automaattisen hallinnan ja jopa koneen uudelleenkäynnistyksen tai vanhojen pakettien automaattisen poistamisen, se on täysin konfiguroitavissa.
+- **rkhunter** on anti-rootkit, joka skannaa tiedostojärjestelmän.
+- **Fail2ban** käyttää lokitiedostojasi sen mukaan, mitä annat sen lukea, ja se toimii **iptables**:n kanssa esimerkiksi kieltääkseen IP-osoitteet, jotka yrittävät "murtaa" palvelimesi SSH:lla.
 
 
 
@@ -623,7 +623,7 @@ Katsotaanpa SSH-suosituksia. Ne on lueteltu alla. Älä huoli, selitämme heti, 
 
 
 
-Katsotaanpa tarkemmin nykyistä **SSH**-konfiguraatiotani tiedostossa :**/etc/ssh/sshd_config**
+Katsotaanpa tarkemmin nykyistä **SSH**-konfiguraatiotani tiedostossa:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Jäljempänä ehdotettua kokoonpanoa voidaan vielä optimoida, mutta se antaa hy
 
 
 
-Me :
+Me:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Säilytä salasanan todennus :
+- Säilytä salasanan todennus:
 
 
 
@@ -804,7 +804,7 @@ On syytä huomata, että joillakin lainkäyttöalueilla viestin lähettäminen e
 
 
 
-Kuvissa tämä antaa :
+Kuvissa tämä antaa:
 
 
 
@@ -820,7 +820,7 @@ Kuvissa tämä antaa :
 
 
 
-**Mikä korkeampi pistemäärä, sen parempi! Sinun on siis parannettava kokoonpanoasi, jotta saavutat mahdollisimman korkean pistemäärän, mutta samalla koneesi ja isännöidyt palvelut voivat toimia normaalisti (mikä tarkoittaa toiminnallisten testien suorittamista).
+**Mitä korkeampi pistemäärä, sen parempi!** Sinun on siis parannettava kokoonpanoasi, jotta saavutat mahdollisimman korkean pistemäärän, mutta samalla koneesi ja isännöidyt palvelut voivat toimia normaalisti (mikä tarkoittaa toiminnallisten testien suorittamista).
 
 
 
@@ -896,4 +896,4 @@ Lopuksi voit myös verrata **Lynistä** muihin työkaluihin, joita on useita. Jo
 
 
 
-**Tämä opetusohjelma on ohi, pidä hauskaa Lynisin kanssa!
+**Tämä opetusohjelma on ohi, pidä hauskaa Lynisin kanssa!**

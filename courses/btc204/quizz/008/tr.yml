@@ -1,0 +1,9 @@
+question: Bir işlemde girdi olarak 5.000 Sats'lık 2 UTXO ve çıktı olarak 3.000 Sats'lık 3 UTXO varsa, işlem ücretleri nedir?
+answer: 1.000 Sats
+wrong_answers:
+  - 1.500 Sats
+  - 2,500 Sats
+  - 3,000 Sats
+explanation: |
+  Bir işlemin ücretleri, toplam girdiler ile toplam çıktılar arasındaki farkı temsil eder. Tüm girdileri tükettikten ve tüm çıktıları oluşturduktan sonra geriye kalan şeydir. Bu nedenle hesaplama şöyledir; ücretler = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

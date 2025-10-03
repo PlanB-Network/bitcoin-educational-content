@@ -1,0 +1,9 @@
+question: Kdo smí fragmentovat paket IPv6?
+answer: Pouze zdrojový hostitel
+wrong_answers:
+  - Pouze první zprostředkující směrovač
+  - Pouze cílový směrovač
+  - Všechny směrovače
+explanation: |
+  V protokolu IPv6 provádí fragmentaci výhradně zdrojový hostitel, nikdy ne zprostředkující směrovače.
+reviewed: false

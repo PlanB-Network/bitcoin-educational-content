@@ -1,0 +1,9 @@
+question: Siapa yang diizinkan untuk memecah paket IPv6?
+answer: Hanya host sumber
+wrong_answers:
+  - Hanya router perantara pertama
+  - Hanya router tujuan
+  - Semua router
+explanation: |
+  Pada IPv6, fragmentasi dilakukan secara eksklusif oleh host sumber, tidak pernah oleh router perantara.
+reviewed: false

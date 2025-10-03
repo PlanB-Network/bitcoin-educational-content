@@ -1,0 +1,9 @@
+question: Vad är skillnaden mellan konsensusregler och reläregler?
+answer: Konsensus definierar giltighet och förmedlar spridning av transaktioner
+wrong_answers:
+  - Konsensus definierar avgifter, relä definierar adresser
+  - Konsensus hanterar Blockchain, relä hanterar privata nycklar
+  - Konsensus väljer gruvarbetare, relä väljer handlare
+explanation: |
+  Consensus-reglerna avgör vad som gäller i Bitcoin, medan reläreglerna hanterar transaktioner mellan noderna.
+reviewed: true

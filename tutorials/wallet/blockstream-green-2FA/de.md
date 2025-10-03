@@ -26,7 +26,7 @@ Green ist eine besonders einfach zu bedienende Anwendung, was sie auch für Anf�
 
 Blockstream Green unterstützt auch das Liquid-Netzwerk, eine von Blockstream entwickelte Bitcoin-Sidechain für schnelle, vertrauliche Transaktionen außerhalb der Hauptblockchain. In diesem Tutorial konzentrieren wir uns ausschließlich auf Bitcoin, aber ich habe auch ein weiteres Tutorial erstellt, um zu lernen, wie man Liquid auf Green verwendet:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2-Multisig-Option (2FA)
 
@@ -46,7 +46,7 @@ Ein weiterer Nachteil dieser Sicherheitsmethode ist, dass Sie Skriptvorlagen von
 
 Wenn Sie es vorziehen, die 2FA-Option nicht zu nutzen und einfach eine "*singlesig*"-Brieftasche auf Green einrichten möchten, lade ich Sie ein, dieses andere Tutorial zu lesen:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Installieren und Konfigurieren der Blockstream Green Software
 
@@ -60,7 +60,7 @@ Android-Benutzer können die Anwendung auch über die .apk-Datei [verfügbar auf
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
-Starten Sie die Anwendung und markieren Sie das Feld "Ich akzeptiere die Bedingungen...*".
+Starten Sie die Anwendung und markieren Sie das Feld "Ich akzeptiere die Bedingungen...".
 
 ![GREEN 2FA MULTISIG](assets/fr/05.webp)
 
@@ -166,7 +166,7 @@ Fügen Sie in Ihrer Authentifizierungsanwendung einen neuen Code hinzu und scann
 
 ![GREEN 2FA MULTISIG](assets/fr/26.webp)
 
-*Natürlich dürfen Sie diesen Schlüssel und QR-Code niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Diese Beispiel-Geldbörse wird nur im Testnet verwendet und am Ende des Tutorials gelöscht
+*Natürlich dürfen Sie diesen Schlüssel und QR-Code niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Diese Beispiel-Geldbörse wird nur im Testnet verwendet und am Ende des Tutorials gelöscht.*
 
 Klicken Sie auf die Schaltfläche "*Fortfahren*".
 
@@ -270,4 +270,4 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unt
 
 Ich empfehle Ihnen auch dieses andere umfassende Tutorial über die mobile Anwendung Blockstream Green, um eine Liquid-Wallet einzurichten:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

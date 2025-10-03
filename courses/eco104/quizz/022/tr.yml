@@ -1,0 +1,11 @@
+question: Sabit coinler havalelerle ilişkili maliyetleri azaltmaya nasıl yardımcı olur?
+answer: Geleneksel hizmetlerden daha düşük ücretler sunarak
+wrong_answers:
+  - Ücretsiz para transferi hizmetleri sunarak
+  - Bireylere geleneksel hizmetlerden daha iyi Exchange oranları sunarak
+  - Fiat para birimlerini dijitalleştirerek
+explanation: |
+  Stablecoinler, geleneksel para transferi hizmetlerinin aksine, önemli ölçüde
+  daha düşük ücretler çünkü banka veya para gibi aracılara ihtiyaç duymazlar
+  transfer hizmetleri.
+reviewed: true

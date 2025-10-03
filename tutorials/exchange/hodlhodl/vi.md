@@ -12,9 +12,8 @@ Hodl Hodl là một sàn giao dịch Bitcoin phi tập trung ưu tiên quyền k
 
 https://hodlhodl.com/pages/faq_help
 
-## hướng dẫn viết:
+## Bắt đầu hành trình của bạn trên Hodl Hodl
 
-Bắt đầu hành trình của bạn với HodlHodl: Hướng dẫn từng bước
 
 ![image](assets/5.webp)
 
@@ -45,43 +44,43 @@ Việc tùy chỉnh hồ sơ của bạn nên bao gồm:
 
 Hướng dẫn từ Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
-1. Truy cập hodlhodl.com và tạo tài khoản của bạn. Bạn chỉ cần cung cấp tên người dùng và địa chỉ email. Sau đó, bạn sẽ được chuyển đến trang chủ.
+- Truy cập hodlhodl.com và tạo tài khoản của bạn. Bạn chỉ cần cung cấp tên người dùng và địa chỉ email. Sau đó, bạn sẽ được chuyển đến trang chủ.
 
 ![cover](assets/11.webp)
 
-2. Nhấp vào ‘Mua BTC’ trên tiêu đề trang web.
+- Nhấp vào ‘Mua BTC’ trên tiêu đề trang web.
 
 ![cover](assets/12.webp)
 
-3. Chọn loại và phương thức thanh toán mong muốn của bạn. Bạn cũng có thể chỉ định một số lượng cụ thể ở đây nếu cần.
+- Chọn loại và phương thức thanh toán mong muốn của bạn. Bạn cũng có thể chỉ định một số lượng cụ thể ở đây nếu cần.
 
 ![cover](assets/13.webp)
 
-4. Chọn ưu đãi mong muốn của bạn. Sau đó, bạn có thể xem lại chi tiết giao dịch và cũng đọc các báo cáo hoạt động và đánh giá của đối tác.
+- Chọn ưu đãi mong muốn của bạn. Sau đó, bạn có thể xem lại chi tiết giao dịch và cũng đọc các báo cáo hoạt động và đánh giá của đối tác.
 
 ![cover](assets/14.webp)
 
-5. Một khi bạn đã hài lòng, bạn có thể chỉ định số lượng bạn muốn mua, nhập địa chỉ bạn muốn gửi bitcoin đến và xác nhận phương thức thanh toán được quảng cáo bởi người bán. Nhấp vào ‘Chấp nhận ưu đãi và tạo hợp đồng’.
+- Một khi bạn đã hài lòng, bạn có thể chỉ định số lượng bạn muốn mua, nhập địa chỉ bạn muốn gửi bitcoin đến và xác nhận phương thức thanh toán được quảng cáo bởi người bán. Nhấp vào ‘Chấp nhận ưu đãi và tạo hợp đồng’.
 
 ![cover](assets/15.webp)
 
-6. Bây giờ bạn đã tạo hợp đồng và cần nhấp vào ‘Tạo Escrow’ nơi bạn sẽ được yêu cầu tạo mật khẩu thanh toán. Mật khẩu thanh toán là khóa mã hóa cho cặp khóa escrow của người dùng. Nó được sử dụng để gửi hoặc nhận Bitcoin từ escrow.
+- Bây giờ bạn đã tạo hợp đồng và cần nhấp vào ‘Tạo Escrow’ nơi bạn sẽ được yêu cầu tạo mật khẩu thanh toán. Mật khẩu thanh toán là khóa mã hóa cho cặp khóa escrow của người dùng. Nó được sử dụng để gửi hoặc nhận Bitcoin từ escrow.
 
 ![cover](assets/16.webp)
 
-7. Bây giờ bạn cần chờ người bán gửi bitcoin của họ vào ví escrow. Sau khi bắt đầu hợp đồng, bạn có thể trò chuyện với người bán sử dụng hộp chat ở bên phải trang.
+- Bây giờ bạn cần chờ người bán gửi bitcoin của họ vào ví escrow. Sau khi bắt đầu hợp đồng, bạn có thể trò chuyện với người bán sử dụng hộp chat ở bên phải trang.
 
 ![cover](assets/17.webp)
 
-8. Một khi người bán đã gửi tiền vào escrow, bạn sẽ thấy màn hình này khuyên bạn không gửi tiền cho đến khi có đủ số lượng xác nhận blockchain (số lượng này thay đổi tùy thuộc vào điều kiện giao dịch). Bạn có thể kiểm tra tiến trình giao dịch gửi tiền của người bán bằng cách nhấp vào liên kết màu xanh ‘ID Giao Dịch Gửi Tiền’.
+- Một khi người bán đã gửi tiền vào escrow, bạn sẽ thấy màn hình này khuyên bạn không gửi tiền cho đến khi có đủ số lượng xác nhận blockchain (số lượng này thay đổi tùy thuộc vào điều kiện giao dịch). Bạn có thể kiểm tra tiến trình giao dịch gửi tiền của người bán bằng cách nhấp vào liên kết màu xanh ‘ID Giao Dịch Gửi Tiền’.
 
 ![cover](assets/18.webp)
 
-9. Một khi được xác nhận, bạn sẽ được thông báo và sau đó bạn có thể gửi tiền cho người bán theo chi tiết họ cung cấp cho bạn. Sau khi bạn đã làm điều này, nhấp vào ‘Tôi Đã Gửi Tiền’.
+- Một khi được xác nhận, bạn sẽ được thông báo và sau đó bạn có thể gửi tiền cho người bán theo chi tiết họ cung cấp cho bạn. Sau khi bạn đã làm điều này, nhấp vào ‘Tôi Đã Gửi Tiền’.
 
 ![cover](assets/19.webp)
 
-10. Sau đó, bạn cần chờ người bán xác nhận họ đã nhận được tiền, tại thời điểm đó bitcoin sẽ được chuyển vào địa chỉ bạn đã chỉ định ở đầu hợp đồng. Bạn cũng sẽ có cơ hội đánh giá đối tác của mình.
+- Sau đó, bạn cần chờ người bán xác nhận họ đã nhận được tiền, tại thời điểm đó bitcoin sẽ được chuyển vào địa chỉ bạn đã chỉ định ở đầu hợp đồng. Bạn cũng sẽ có cơ hội đánh giá đối tác của mình.
 
 ![cover](assets/20.webp)
 

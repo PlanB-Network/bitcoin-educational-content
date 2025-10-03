@@ -1,0 +1,10 @@
+question: P2P taşıma V2, düğümler arasındaki iletişimin gizliliğini ve güvenliğini nasıl artırır?
+answer: Fırsatçı şifrelemeyi entegre ederek
+wrong_answers:
+  - Kimlik doğrulamayı entegre ederek
+  - Ek röleler kullanarak
+  - Tor kullanarak
+explanation: |
+  P2P taşıma V2, düğümler arasındaki iletişimin gizliliğini ve güvenliğini artırmak için bir Layer fırsatçı şifreleme içerir.
+  
+reviewed: false

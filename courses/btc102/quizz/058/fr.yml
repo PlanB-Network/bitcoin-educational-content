@@ -6,4 +6,4 @@ wrong_answers:
   - Hardware wallet closed-source généraliste
 explanation: |
   Le paranoïaque privilégie un stockage hors ligne avec des solutions open-source pour limiter les risques d'exposition.
-reviewed: false
+reviewed: true 

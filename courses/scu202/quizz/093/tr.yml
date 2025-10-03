@@ -1,0 +1,9 @@
+question: İnternet üzerindeki her bir ekipmanı tanımlamak için temel olarak hangi protokol kullanılır?
+answer: IP
+wrong_answers:
+  - DNS
+  - HTTP
+  - SMTP
+explanation: |
+  İnternet Protokolü (IP) her cihaza benzersiz bir Address atar ve veri paketlerinin yönlendirilmesini sağlar.
+reviewed: false

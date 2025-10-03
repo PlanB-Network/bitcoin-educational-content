@@ -1,0 +1,9 @@
+question: Vilken notation används för att infoga en IPv6 Address i en URL?
+answer: IPv6 Address är innesluten i hakparenteser
+wrong_answers:
+  - IPv6 Address är innesluten inom parentes
+  - IPv6 Address anges inom citationstecken
+  - IPv6 Address är skriven rå
+explanation: |
+  Hakparenteser används för att skilja IPv6 Address från porten i en URL, för att undvika tvetydigheter.
+reviewed: false

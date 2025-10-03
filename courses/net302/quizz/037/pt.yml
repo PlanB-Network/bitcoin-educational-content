@@ -1,0 +1,9 @@
+question: Qual é o objetivo da notação especial IPv4 0.0.0.0?
+answer: Para designar todas as interfaces ou um Address não atribuído
+wrong_answers:
+  - Para enviar uma mensagem para todas as redes
+  - Para testar a ligação local de um dispositivo
+  - Para indicar um erro de endereçamento ou de ligação no router local
+explanation: |
+  A notação 0.0.0.0 é usada localmente para representar a ausência de um Address atribuído ou para escutar em todas as interfaces.
+reviewed: false

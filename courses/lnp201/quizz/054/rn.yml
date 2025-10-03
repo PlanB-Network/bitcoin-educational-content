@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bw’amahera umugurisha kuri Lightning Network ategerezwa gushobora mbere na mbere kugira ngo yemere kwishurwa?
+answer: Amafaranga yinjira
+wrong_answers:
+  - Amafaranga asohoka
+  - Ubushobozi bwose bw'umuyoboro burengeye
+  - Uburinganire bwinshi bwa On-Chain
+explanation: |
+  Kugira ngo uwugurisha aronke amahera, arakeneye kugira amahera yinjira, bisobanura ko amahera ategerezwa kuba ari ku ruhande rumwe rw’umuhora kugira ngo yemere amahera.
+reviewed: false

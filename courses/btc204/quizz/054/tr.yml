@@ -1,0 +1,10 @@
+question: Sessiz Ödemelerde alıcı ve ödeyici arasında paylaşılan bir sır oluşturmak için kullanılan kriptografik algoritmanın adı nedir?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+explanation: |
+  ECDH (Eliptik-Eğri Diffie-Hellman) algoritması, Sessiz Ödemelerde alıcının tarama anahtar çifti ile göndericinin anahtar çiftinin toplamı arasında, benzersiz ödeme Address'ın türetilmesine izin verecek paylaşılan sırrı oluşturmak için kullanılır.
+  
+reviewed: false

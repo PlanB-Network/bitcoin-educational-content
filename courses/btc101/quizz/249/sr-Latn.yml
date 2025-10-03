@@ -1,8 +1,8 @@
-question: Koja je jedna od potencijalnih prednosti prihvatanja novih tehnologija kao što je Bitkoin?
-answer: To bi moglo generate masivne ekonomije obima širom sveta.
+question: Koja je jedna od glavnih posledica Bitkoina na bankarski sistem?
+answer: Omogućava emancipaciju od bankarskog sistema.
 wrong_answers:
-  - To bi moglo dovesti do globalnog ekonomskog kolapsa.
-  - To bi moglo izazvati smanjenje ljudske inteligencije.
-  - To bi moglo dovesti do eliminacije svih poslova.
+  - Omogućava kontrolu bankarskog sistema.
+  - Omogućava eliminaciju bankarskog sistema.
+  - Omogućava korupciju bankarskog sistema.
 explanation: >-
 reviewed: true

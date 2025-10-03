@@ -1,0 +1,9 @@
+question: Dushingiye ku ciyumviro ca Euler, ni igiki kiva mu gutera imbere a^φ(N) mod N ku mibare ibiri yose a na N ari coprime?
+answer: 1 mod N
+wrong_answers:
+  - 0 mod N
+  - N mod a
+  - mod N
+explanation: |
+  Iciyumviro ca Euler kivuga ko ku mibare ibiri yuzuye a na N ari coprime, igiharuro a^φ(N) mod N cama kingana na 1 mod N, ikintu gikoreshwa mu gukora amakuru y’ibanga.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Myntkort
+name: Coincards
 description: Hur kan jag köpa varor och tjänster i BTC med Coincards?
 ---
 ![cover](assets/cover.webp)
@@ -67,7 +67,7 @@ Detta är ett tillfälle att påminna dem som vill betala för sina presentkort 
 
 
 
-Ett urval av handledningar om de viktigaste Lightning-portföljerna (Phoenix, Breez, BitKit, Zeus ...) finns här: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+Ett urval av handledningar om de viktigaste Lightning-portföljerna (Phoenix, Breez, BitKit, Zeus ...) finns här: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 

@@ -1,0 +1,14 @@
+question: 셀프 양육권을 행사할 때 분실 위험을 최소화하기 위해 가장 먼저 해야 할 일은 무엇인가요?
+answer: Wallet 복구 seed 문구 백업하기
+wrong_answers:
+  - 신뢰할 수 있는 상대방과 개인 키 공유
+  - 복구 seed 문구를 메모하여 컴퓨터에 저장하세요
+  - 2단계 인증(2FA) 비활성화하기
+explanation: |
+  무엇보다도, 셀프 커스터디를 할 때는 Wallet을 백업하세요.
+  하드웨어 지갑에는 복구 seed 문구가 포함되어 있습니다
+  장치를 분실하거나 손상된 경우 개인 키를 복구하는 데 사용할 수 있습니다.
+  이 seed 문구의 금속 [seed 플레이트](https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/)와 같은 물리적 사본을 생성하고
+  안전한 곳에 보관하세요. 이 복구 seed 문구를 안전하게 보관하는 것이 중요합니다.
+  절대로 다른 사람과 공유하지 마세요.
+reviewed: true

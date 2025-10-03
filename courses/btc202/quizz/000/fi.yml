@@ -1,0 +1,9 @@
+question: Mikä on Satoshi Nakamoton vuonna 2008 julkaiseman valkoisen kirjan nimi?
+answer: Bitcoin Peer-to-Peer sähköinen käteisrahajärjestelmä
+wrong_answers:
+  - Bitcoin Hajautettu digitaalinen kultajärjestelmä
+  - Bitcoin Rahan tulevaisuus
+  - Bitcoin Blockchain-pohjainen maksujenvälitysverkko
+explanation: |
+  Satoshi Nakamoton valkoinen kirja, Bitcoin A Peer-to-Peer Electronic Cash System, julkaistiin vuonna 2008.
+reviewed: true

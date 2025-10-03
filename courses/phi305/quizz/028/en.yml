@@ -1,0 +1,9 @@
+question: Whose motto is "think for yourself"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  "Think for yourself" (sapere aude) is Immanuel Kant's motto and the watchword of the Enlightenment. It's about having the courage to use one's own understanding without the tutelage of others.
+reviewed: false

@@ -25,7 +25,7 @@ Bisq 2 é a nova versão da popular bolsa descentralizada Bisq, lançada em 2024
 
 Este guia centra-se exclusivamente no "Bisq Easy", o único protocolo atualmente disponível. O Bisq Easy foi concebido especificamente para novos utilizadores de Bitcoin. Este protocolo permite aos utilizadores comprar e vender Bitcoins contra moedas fiduciárias numa plataforma descentralizada peer-to-peer. As transacções são limitadas ao equivalente a 600 USD (com um mínimo de 6 USD) e a segurança da troca depende da reputação dos vendedores de BTC. A Bisq Easy não tem taxas de transação ou requisitos de depósito de segurança. Espera-se que a Bisq Easy substitua a Bisq 1 nas transacções em numerário inferiores a 600 USD (ou equivalente).
 
-**Principais caraterísticas
+**Principais caraterísticas**
 
 
 - Aplicação de ambiente de trabalho multiplataforma
@@ -37,7 +37,7 @@ Este guia centra-se exclusivamente no "Bisq Easy", o único protocolo atualmente
 
 ### Diferenças com Bisq 1
 
-**Para os compradores
+**Para os compradores**
 
 
 - Não é necessário depósito de segurança
@@ -46,7 +46,7 @@ Este guia centra-se exclusivamente no "Bisq Easy", o único protocolo atualmente
 - Segurança baseada na reputação do fornecedor
 - Limites de negociação mais baixos (equivalente a 600 USD)
 
-**Para os vendedores
+**Para os vendedores**
 
 
 - Não é necessário depósito de segurança
@@ -137,7 +137,7 @@ O Bisq 2 permite-lhe criar várias identidades. Cada identidade pode ser utiliza
 
 ### Como comprar Bitcoins
 
-**Opção 1: Tirar partido de uma oferta existente
+**Opção 1: Tirar partido de uma oferta existente**
 
 
 - No ecrã principal, selecione "Bisq Easy", o separador "Getting started" e, em seguida, clique em "Start trade wizard"
@@ -175,7 +175,7 @@ O Bisq 2 permite-lhe criar várias identidades. Cada identidade pode ser utiliza
 
 ![Récapitulatif du trade](assets/fr/14.webp)
 
-**Opção 2: Criar a sua própria oferta
+**Opção 2: Criar a sua própria oferta**
 
 
 - Selecionar "Bisq Easy" e depois "Offerbook"
@@ -224,7 +224,7 @@ Uma vez iniciada a troca :
 
 O processo de venda no Bisq 2 segue uma lógica semelhante à da compra, com os mesmos passos principais, mas na ordem inversa. Podes criar a tua própria oferta de venda ou responder a uma oferta de compra existente. Segue-se uma descrição das várias opções e fases do processo:
 
-**Opção 1: Criar uma oferta de venda
+**Opção 1: Criar uma oferta de venda**
 
 
 - Selecionar "Bisq Easy" e depois "Offerbook"
@@ -236,7 +236,7 @@ O processo de venda no Bisq 2 segue uma lógica semelhante à da compra, com os 
  - Definir o seu preço (fixo ou % do mercado)
 - Verificar os pormenores e publicar a oferta
 
-**Opção 2: Aceitar uma oferta existente
+**Opção 2: Aceitar uma oferta existente**
 
 
 - Procurar ofertas no separador "Livro de ofertas
@@ -244,7 +244,7 @@ O processo de venda no Bisq 2 segue uma lógica semelhante à da compra, com os 
 - Selecione uma oferta que lhe convenha
 - Verificar os pormenores e aceitar a oferta
 
-**Processo de venda
+**Processo de venda**
 
 Uma vez iniciada a troca :
 
@@ -274,7 +274,7 @@ Finalização :
 
 ### Conselhos de segurança
 
-**Para os compradores
+**Para os compradores**
 
 
 - Comece com pequenas quantidades
@@ -286,7 +286,7 @@ Finalização :
 - Conservar o comprovativo de pagamento
 - Nunca enviar informações sensíveis
 
-**Para os vendedores
+**Para os vendedores**
 
 
 - Cuidado com as novas contas
@@ -327,37 +327,37 @@ Para melhorar a sua reputação como vendedor no Bisq, efectue transacções reg
 ### Vantagens de Bisq 2
 
 
-- Máxima confidencialidade**: Sem KYC, utilização do Tor
-- Descentralização**: Sem servidor central
-- Segurança**: Código de fonte aberta, sem custódia
-- Interface intuitiva**: mais simples do que o Bisq 1
-- Flexibilidade**: Múltiplos protocolos de intercâmbio
+- **Máxima confidencialidade**: Sem KYC, utilização do Tor
+- **Descentralização**: Sem servidor central
+- **Segurança**: Código de fonte aberta, sem custódia
+- **Interface intuitiva**: mais simples do que o Bisq 1
+- **Flexibilidade**: Múltiplos protocolos de intercâmbio
 
 ### Desvantagens do Bisq 2
 
 
-- Liquidez limitada** (de momento) :
+- **Liquidez limitada** (de momento) :
  - Novo protocolo em fase de arranque
  - Poucas ofertas de venda disponíveis
  - Tempos de espera potencialmente longos para encontrar um comprador
-- Limites de transação**: Máximo de 600 USD por transação (com Bisq easy)
-- Apenas para computador**: Sem aplicação móvel
+- **Limites de transação**: Máximo de 600 USD por transação (com Bisq easy)
+- **Apenas para computador**: Sem aplicação móvel
 
 ## Protocolos futuros
 
 Embora o Bisq Easy seja atualmente o único protocolo disponível, estão a ser desenvolvidos vários outros protocolos para o Bisq 2 :
 
 
-- Bisq Lightning**: Protocolo de troca baseado num sistema de garantia que utiliza criptografia de computação multipartidária na rede Lightning.
-- Bisq MuSig**: Migração do protocolo principal do Bisq 1 para o Bisq 2, utilizando um multisig 2 em 2 com depósitos de segurança.
-- Swaps de BSQ**: Swaps atómicos instantâneos entre BSQ e BTC.
-- Liquid Swaps**: Troca de activos na rede Liquid (USDT, BTC-L) através de swaps atómicos.
-- Swaps Monero**: Trocas atómicas entre Bitcoin e Monero.
-- Liquid MuSig**: Versão do protocolo multisig que utiliza L-BTC para reduzir os custos e aumentar a confidencialidade.
-- Swaps submarinos**: Trocas entre Bitcoin na rede Lightning e Bitcoin on-chain.
-- Stablecoin Swaps**: Trocas atómicas entre stablecoins de Bitcoin e USD.
-- Opções Multisig**: Criação de opções de compra e venda P2P com bloqueio de BTC numa transação multisig on-chain.
-- Contratos Abertos Multisig**: Permite a criação de contratos condicionais personalizados usando um sistema multisig 2 em 3 com arbitragem.
+- **Bisq Lightning**: Protocolo de troca baseado num sistema de garantia que utiliza criptografia de computação multipartidária na rede Lightning.
+- **Bisq MuSig**: Migração do protocolo principal do Bisq 1 para o Bisq 2, utilizando um multisig 2 em 2 com depósitos de segurança.
+- **Swaps de BSQ**: Swaps atómicos instantâneos entre BSQ e BTC.
+- **Liquid Swaps**: Troca de activos na rede Liquid (USDT, BTC-L) através de swaps atómicos.
+- **Swaps Monero**: Trocas atómicas entre Bitcoin e Monero.
+- **Liquid MuSig**: Versão do protocolo multisig que utiliza L-BTC para reduzir os custos e aumentar a confidencialidade.
+- **Swaps submarinos**: Trocas entre Bitcoin na rede Lightning e Bitcoin on-chain.
+- **Stablecoin Swaps**: Trocas atómicas entre stablecoins de Bitcoin e USD.
+- **Opções Multisig**: Criação de opções de compra e venda P2P com bloqueio de BTC numa transação multisig on-chain.
+- **Contratos Abertos Multisig**: Permite a criação de contratos condicionais personalizados usando um sistema multisig 2 em 3 com arbitragem.
 
 Estes protocolos estão atualmente em desenvolvimento e serão progressivamente integrados no Bisq 2, oferecendo maior flexibilidade aos utilizadores de acordo com as suas necessidades específicas.
 

@@ -1,11 +1,11 @@
-question: ¿Cuál es uno de los aspectos que deberías considerar al elegir una plataforma DCA?
-answer: Disponibilidad en tu país.
+question: ¿Qué acción fuerza Bitcoin a realizar a empresas, universidades, reguladores e individuos?
+answer: Tomarlo en cuenta.
 wrong_answers:
-  - El color del logotipo de la plataforma.
-  - El número de usuarios en la plataforma.
-  - La antigüedad de la plataforma.
-explanation: |
-  Este texto del curso menciona que al elegir una
-  plataforma DCA, la elección correcta dependerá más de su
-  disponibilidad en tu país.
+  - Ignorarlo.
+  - Prohibirlo.
+  - Criminalizarlo.
+explanation: >-
+  El auge de Bitcoin obliga a empresas, universidades, reguladores e individuos
+  a tomar en cuenta esta nueva tecnología. Se necesitan crear nuevas herramientas, los servicios
+  deben adaptarse y la innovación debe continuar para asegurar su supervivencia.
 reviewed: true

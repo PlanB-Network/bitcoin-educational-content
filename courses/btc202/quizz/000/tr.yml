@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto'nun 2008 yılında yayınladığı Beyaz Kitap'ın başlığı nedir?
+answer: Bitcoin Eşler Arası Elektronik Nakit Sistemi
+wrong_answers:
+  - Bitcoin Merkezi Olmayan Dijital Altın Sistemi
+  - Bitcoin Paranın Geleceği
+  - Bitcoin Blockchain Tabanlı Bir Ödeme Ağı
+explanation: |
+  Satoshi Nakamoto'nun Beyaz Kitabı, Bitcoin A Peer-to-Peer Electronic Cash System, 2008 yılında yayınlanmıştır.
+reviewed: true

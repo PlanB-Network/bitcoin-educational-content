@@ -1,0 +1,9 @@
+question: ElectrsとFulcrumがウォレットの接続に使用しているプロトコルは何ですか？
+answer: エレクトラム
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - ライトニングgRPC
+explanation: |
+  これらのソフトウェアパッケージは、SparrowやElectrum Walletのような多くのウォレットで使用されているElectrumサーバーを公開します。
+reviewed: true

@@ -1,0 +1,10 @@
+question: Ni igiki ca mbere ca Bitcoin canditswe?
+answer: Ivyo bikaba vyatumye habaho ugucuruza kw’amahera 10 BTC hagati ya Satoshi Nakamoto na Hal Finney.
+wrong_answers:
+  - Igiciro c’amahera 10.000 BTC ku pizza 2.
+  - Ivyo bikaba vyatumye habaho ugucuruza kw’amahera 1 BTC hagati ya Satoshi Nakamoto na Hal Finney.
+  - Ivyo bikaba vyatumye Laszlo Hanyecz na Hal Finney bashobora gucuruza amafaranga 10.000 BTC.
+explanation: |
+  Igicuruzwa ca mbere ca Bitcoin canditswe cari igicuruzwa ca 1990.
+  10 BTC hagati ya Satoshi Nakamoto na Hal Finney.
+reviewed: true

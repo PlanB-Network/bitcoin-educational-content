@@ -296,8 +296,12 @@ Với trình quản lý mật khẩu, bạn không còn phải lo lắng về vi
 - Bitwarden: Là một công cụ mã nguồn mở, có nghĩa là bạn có thể xem xét mã nguồn của nó để xác minh tinhs bảo mật. Mặc dù Bitwarden cung cấp một dịch vụ lưu trữ hộ, họ cũng cho phép người dùng tự lưu trữ, có nghĩa là bạn có thể kiểm soát nơi mật khẩu của mình được lưu trữ, có thể mạng lại sự bảo mật và kiểm soát cao hơn.
 
 - KeePass: Là một giải pháp mã nguồn mở chủ yếu dành cho tự lưu trữ. Dữ liệu của bạn được lưu trữ cục bộ theo mặc định, nhưng bạn có thể đồng bộ hóa cơ sở dữ liệu mật khẩu bằng các phương pháp khác nếu bạn muốn. KeePass được công nhận rộng rãi vì khả năng bảo mật và sự linh hoạt của nó, mặc dù nó có thể ít thân thiện với người mới bắt đầu.
-  ![](assets/notext/18.webp)
-  (Note: Việc lựa chọn giữa một dịch vụ của bên thứ ba hoặc một dịch vụ tự lưu trữ phụ thuộc vào mức độ thoải mái và kỹ năng về công nghệ của bạn cũng như thứ tự ưu tiên của bạn giữa sự kiểm soát và tính tiện ích. Dịch vụ của bên thứ ba thường tiện lợi hơn đối với hầu hết mọi người, trong khi tự lưu trữ đòi hỏi kiến thức kỹ thuật cao hơn nhưng có thể mang lại quyền kiểm soát và sự bảo mật cao hơn.)
+
+![](assets/notext/18.webp)
+
+Đối với các giải pháp tự lưu trữ như KeePass, bạn có thể đồng bộ cơ sở dữ liệu của mình giữa nhiều thiết bị mà không cần sử dụng dịch vụ tập trung của bên thứ ba. Các công cụ như **Syncthing** cho phép đồng bộ hóa được mã hóa và phi tập trung trực tiếp giữa các thiết bị của bạn. Cách tiếp cận này giữ dữ liệu của bạn dưới sự kiểm soát của bạn đồng thời đảm bảo tính sẵn có của chúng trên tất cả các thiết bị của bạn.
+
+(Note: Việc lựa chọn giữa một dịch vụ của bên thứ ba hoặc một dịch vụ tự lưu trữ phụ thuộc vào mức độ thoải mái và kỹ năng về công nghệ của bạn cũng như thứ tự ưu tiên của bạn giữa sự kiểm soát và tính tiện ích. Dịch vụ của bên thứ ba thường tiện lợi hơn đối với hầu hết mọi người, trong khi tự lưu trữ đòi hỏi kiến thức kỹ thuật cao hơn nhưng có thể mang lại quyền kiểm soát và sự bảo mật cao hơn.)
 
 ### Điều gì tạo nên một mật khẩu tốt:
 
@@ -331,7 +335,9 @@ Bước thứ hai này có thể là:
 - Một mã tạm thời được gửi qua SMS.
 - Một mã được tạo bởi một ứng dụng như Google Authenticator hoặc Authy.
 - Một khóa bảo mật vật lý mà bạn cắm vào máy tính của mình.
+
   ![](assets/notext/19.webp)
+
   Với 2FA, ngay cả khi một hacker có được mật khẩu của bạn, họ cũng không thể nào truy cập vào tài khoản của bạn mà không có yếu tố xác minh thứ hai này. Điều này làm cho 2FA trở nên rất thiết yếu trong việc bảo vệ các tài khoản trực tuyến của bạn nhằm tránh việc truy cập trái phép.
 
 ### Lựa chọn phương án nào?
@@ -341,8 +347,12 @@ Các lựa chọn khác nhau mang lại các mức độ bảo mật khác nhau.
 - SMS không được coi là lựa chọn tốt nhất vì nó chỉ cung cấp bằng chứng về việc sở hữu một số điện thoại.
 - 2FA (xác thực hai yếu tố) an toàn hơn vì nó sử dụng nhiều loại bằng chứng, như kiến thức, sở hữu và nhận dạng. Mật khẩu một lần (HOTP và TOTP) an toàn hơn SMS vì chúng yêu cầu tính toán mật mã và được lưu trữ cục bộ thay vì trong bộ nhớ.
 - Các token phần cứng, như khóa USB hoặc thẻ thông minh, cung cấp mức độ bảo mật tối ưu bằng cách tạo ra một khóa riêng biệt duy nhất cho mỗi trang web và xác minh URL trước khi cho phép kết nối.
-  Để đảm bảo an ninh tối ưu với xác thực mạnh, bạn được khuyến nghị sử dụng địa chỉ email an toàn, trình quản lý mật khẩu an toàn và áp dụng 2FA sử dụng YubiKeys. Cũng nên mua hai YubiKeys để phòng trường hợp mất mát hoặc trộm cắp, ví dụ, giữ một bản sao lưu tại nhà và một thì mang theo bên mình.
-  Sinh trắc học có thể được sử dụng như một phương án thay thế, nhưng nó kém an toàn hơn so với sự kết hợp của kiến thức và sở hữu. Dữ liệu sinh trắc học nên được giữ lại trên thiết bị xác thực và không được tiết lộ trực tuyến. Quan trọng là phải xem xét các hình thức đe dọa liên quan đến các phương pháp xác thực khác nhau và điều chỉnh các hành vi sử dụng cho phù hợp.
+
+Để đảm bảo an ninh tối ưu với xác thực mạnh, bạn được khuyến nghị sử dụng địa chỉ email an toàn, trình quản lý mật khẩu an toàn và áp dụng 2FA sử dụng YubiKeys. Cũng nên mua hai YubiKeys để phòng trường hợp mất mát hoặc trộm cắp, ví dụ, giữ một bản sao lưu tại nhà và một thì mang theo bên mình.
+
+Về các mối đe dọa tiềm ẩn đối với xác thực hai yếu tố (2FA) qua SIM, một ví dụ phổ biến là cuộc tấn công hoán đổi SIM, trong đó kẻ tấn công đánh cắp số điện thoại của người dùng bằng cách liên kết nó với một thẻ SIM do kẻ tấn công kiểm soát. Có nhiều cách mà kẻ tấn công có thể thực hiện cuộc tấn công; tuy nhiên, mối đe dọa này thường chỉ là mối quan tâm lớn đối với những cá nhân có uy tín cao và những người được quan tâm.
+
+Sinh trắc học có thể được sử dụng như một phương án thay thế, nhưng nó kém an toàn hơn so với sự kết hợp của kiến thức và sở hữu. Dữ liệu sinh trắc học nên được giữ lại trên thiết bị xác thực và không được tiết lộ trực tuyến. Quan trọng là phải xem xét các hình thức đe dọa liên quan đến các phương pháp xác thực khác nhau và điều chỉnh các hành vi sử dụng cho phù hợp.
 
 ### Kết luận:
 

@@ -1,0 +1,9 @@
+question: Ni uruhe rutonde rugereranya uruhererekane rw’inyuma rwa konti mu nzira y’ugukomoka?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  Uruzitiro rw’inyuma rumenyekana n’urutonde /0/ ku burebure bwa 4 bw’inzira y’inkomoko.
+reviewed: false

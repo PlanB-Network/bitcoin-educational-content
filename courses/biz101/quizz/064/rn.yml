@@ -1,0 +1,9 @@
+question: Ni ikihe kintu gituma umuti wa Swiss Bitcoin Pay ubereye cane cane ubucuruzi buto buto buri mu rwego rw’ingenzi?
+answer: PoS ikoreshwa neza
+wrong_answers:
+  - Ibirango vy'ubucuruzi bw'amafaranga menshi
+  - Uburongozi bwa Wallet bufise umukono mwinshi
+  - Ugushiramwo isesengura ryose rya Blockchain
+explanation: |
+  Swiss Bitcoin Pay yakozwe n’i PoS Interface igororotse yorosha ibikorwa vya misi yose.
+reviewed: false

@@ -59,7 +59,7 @@ Ili kupakua VirtualBox kwa usakinishaji kwenye mashine ya Windows, kuna Address 
 
 
 
-Kusakinisha VirtualBox** ni moja kwa moja, na mchakato ni sawa kwa matoleo yote ya Windows. Anza kwa kuzindua VirtualBox inayoweza kutekelezwa ambayo umepakua, kisha ubofye "**Inayofuata**".
+Kusakinisha **VirtualBox** ni moja kwa moja, na mchakato ni sawa kwa matoleo yote ya Windows. Anza kwa kuzindua VirtualBox inayoweza kutekelezwa ambayo umepakua, kisha ubofye "**Inayofuata**".
 
 
 
@@ -73,9 +73,9 @@ Ufungaji huu unaweza kubinafsishwa, lakini ninapendekeza usakinishe vipengele vy
 
 
 
-- Usaidizi wa USB wa VirtualBox** ili kuwezesha VirtualBox kutumia vifaa vya USB
-- VirtualBox Bridged Network** ili kuunganisha usaidizi wa mtandao katika hali ya "Bridge" (mashine pepe inaweza kuunganisha moja kwa moja kwenye mtandao wako wa karibu)
-- VirtualBox Host-only Network** ili kujumuisha usaidizi wa mtandao katika hali ya "Mpangishi-Pekee" (mashine pepe inaweza tu kuwasiliana na seva pangishi yako ya Windows 11 na mashine zingine pepe katika hali hii)
+- **Usaidizi wa USB wa VirtualBox** ili kuwezesha VirtualBox kutumia vifaa vya USB
+- **VirtualBox Bridged Network** ili kuunganisha usaidizi wa mtandao katika hali ya "Bridge" (mashine pepe inaweza kuunganisha moja kwa moja kwenye mtandao wako wa karibu)
+- **VirtualBox Host-only Network** ili kujumuisha usaidizi wa mtandao katika hali ya "Mpangishi-Pekee" (mashine pepe inaweza tu kuwasiliana na seva pangishi yako ya Windows 11 na mashine zingine pepe katika hali hii)
 
 
 
@@ -165,10 +165,10 @@ Ili kuunda mashine mpya pepe kwenye VirtualBox, bofya tu kitufe cha "**Mpya**" i
 
 
 
-- Mipangilio**: usanidi wa jumla wa VirtualBox (folda chaguo-msingi ya VM, usimamizi wa sasisho, lugha, mitandao ya NAT, viendelezi, n.k.)
-- Ingiza**: leta kifaa pepe katika umbizo la OVF
-- Hamisha**: Hamisha mashine iliyopo katika umbizo la OVF ili kuunda kifaa pepe
-- Ongeza**: ongeza mashine pepe iliyopo kwenye orodha yako ya VirtualBox, katika umbizo la kawaida la VirtualBox (.vbox) au umbizo la XML.
+- **Mipangilio**: usanidi wa jumla wa VirtualBox (folda chaguo-msingi ya VM, usimamizi wa sasisho, lugha, mitandao ya NAT, viendelezi, n.k.)
+- **Ingiza**: leta kifaa pepe katika umbizo la OVF
+- **Hamisha**: Hamisha mashine iliyopo katika umbizo la OVF ili kuunda kifaa pepe
+- **Ongeza**: ongeza mashine pepe iliyopo kwenye orodha yako ya VirtualBox, katika umbizo la kawaida la VirtualBox (.vbox) au umbizo la XML.
 
 
 
@@ -184,16 +184,16 @@ Upande wa kushoto, sehemu ya "**Zana**" inatoa ufikiaji wa **vitendaji vya hali 
 
 
 
-**Kama ukumbusho, VirtualBox inasaidia mifumo mingi ya uendeshaji, ikijumuisha Windows, Linux na BSD. Katika mfano huu, nitaunda mashine pepe ya Windows 11. Sehemu kadhaa zinahitaji kujazwa:
+**Kama ukumbusho, VirtualBox inasaidia mifumo mingi ya uendeshaji, ikijumuisha Windows, Linux na BSD. Katika mfano huu, nitaunda mashine pepe ya Windows 11. Sehemu kadhaa zinahitaji kujazwa:**
 
 
 
 
 
-- Jina**: jina la mashine (hili ndilo jina litakaloonyeshwa kwenye VirtualBox)
-- Folda ya mashine**: mahali pa kuhifadhi mashine ya kawaida, ukijua kuwa folda ndogo iliyo na jina la VM itaundwa mahali hapa.
-- Aina**: aina ya mfumo wa uendeshaji, kulingana na OS unayotaka kusakinisha
-- Toleo**: toleo la mfumo unaotaka kusakinisha, katika kesi hii Windows 11, kwa hivyo "**Windows11_64**"
+- **Jina**: jina la mashine (hili ndilo jina litakaloonyeshwa kwenye VirtualBox)
+- **Folda ya mashine**: mahali pa kuhifadhi mashine ya kawaida, ukijua kuwa folda ndogo iliyo na jina la VM itaundwa mahali hapa.
+- **Aina**: aina ya mfumo wa uendeshaji, kulingana na OS unayotaka kusakinisha
+- **Toleo**: toleo la mfumo unaotaka kusakinisha, katika kesi hii Windows 11, kwa hivyo "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Bofya "**Inayofuata**" ili kuendelea.
 
 
 
-Kulingana na mfumo wa uendeshaji uliochagua katika hatua ya awali, **VirtualBox hutoa mapendekezo juu ya rasilimali za kugawia mashine pepe**. Hapa, tunazungumza juu ya RAM unayotaka kutenga kwa VM. Wacha tuchukue GB 4, kwa sababu hii inapendekezwa kwa Windows 11, lakini ikiwa huna rasilimali, taja 2 GB badala yake. **Endelea
+Kulingana na mfumo wa uendeshaji uliochagua katika hatua ya awali, **VirtualBox hutoa mapendekezo juu ya rasilimali za kugawia mashine pepe**. Hapa, tunazungumza juu ya RAM unayotaka kutenga kwa VM. Wacha tuchukue GB 4, kwa sababu hii inapendekezwa kwa Windows 11, lakini ikiwa huna rasilimali, taja 2 GB badala yake. **Endelea**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox inasaidia fomati tatu tofauti za diski za Hard, ambayo ni tofauti kub
 
 
 
-- VDI**, umbizo rasmi la VirtualBox
-- VHD**, ambayo ni umbizo rasmi la Hyper-V, ingawa umbizo jipya la VHDX linatumika mara nyingi zaidi siku hizi
-- VMDX** ni umbizo rasmi la VMware kwa VMware Workstation na VMware ESXi
+- **VDI**, umbizo rasmi la VirtualBox
+- **VHD**, ambayo ni umbizo rasmi la Hyper-V, ingawa umbizo jipya la VHDX linatumika mara nyingi zaidi siku hizi
+- **VMDX** ni umbizo rasmi la VMware kwa VMware Workstation na VMware ESXi
 
 
 
@@ -273,7 +273,7 @@ Kwa wakati huu, VM iko kwenye orodha yetu, imesanidiwa, lakini mfumo wa uendesha
 
 
 
-Ili kusakinisha Windows 11, au mfumo mwingine wowote, tunahitaji vyanzo vya usakinishaji. Mara nyingi, tunatumia picha ya disk katika muundo wa ISO ili kufunga mfumo wa uendeshaji. **Ni muhimu kupakia picha ya Windows 11 ya ISO kwenye kiendeshi chetu cha DVD cha VM
+Ili kusakinisha Windows 11, au mfumo mwingine wowote, tunahitaji vyanzo vya usakinishaji. Mara nyingi, tunatumia picha ya disk katika muundo wa ISO ili kufunga mfumo wa uendeshaji. **Ni muhimu kupakia picha ya Windows 11 ya ISO kwenye kiendeshi chetu cha DVD cha VM.**
 
 
 
@@ -333,7 +333,7 @@ Kwa upande wangu, mashine ya kawaida ina wasindikaji 2 wa kawaida:
 
 
 
-**Usisite kuangalia sehemu zingine za menyu ya usanidi.
+**Usisite kuangalia sehemu zingine za menyu ya usanidi.**
 
 
 
@@ -390,10 +390,10 @@ Kwenye mwenyeji wetu wa Windows 11, ambapo VirtualBox imewekwa, tunaweza kuona k
 
 
 
-- Faili ya VBOX** (katika umbizo la XML) inayolingana na usanidi wa VM (RAM, CPU, n.k.)
-- Faili ya VBOX-PREV** ni chelezo ya usanidi uliopita
-- Faili ya VDI** inalingana na diski halisi ya Hard katika hali ya nguvu, kwa hiyo kwa sasa ni GB 13 tu, ambapo ukubwa wake wa juu ni 64 GB.
-- Faili ya NVRAM** ina hali ya BIOS ya mashine pepe, ambayo ni sawa na kumbukumbu isiyo tete ya mashine halisi.
+- Faili ya **VBOX** (katika umbizo la XML) inayolingana na usanidi wa VM (RAM, CPU, n.k.)
+- Faili ya **VBOX-PREV** ni chelezo ya usanidi uliopita
+- Faili ya **VDI** inalingana na diski halisi ya Hard katika hali ya nguvu, kwa hiyo kwa sasa ni GB 13 tu, ambapo ukubwa wake wa juu ni 64 GB.
+- Faili ya **NVRAM** ina hali ya BIOS ya mashine pepe, ambayo ni sawa na kumbukumbu isiyo tete ya mashine halisi.
 
 
 

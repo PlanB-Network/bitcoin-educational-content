@@ -1,0 +1,9 @@
+question: DNSサーバーは通常、Linuxシステムのどこに設定されていますか？
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  etc/resolv.confファイルは、名前解決のためのDNSサーバーと検索ドメインを指定する。
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: HODL HODL
+name: Hodl Hodl
 
 description: Steg för steg-guide för HODLHODL
 ---
@@ -16,10 +16,9 @@ HODL HODL är en decentraliserad Bitcoin Exchange som prioriterar användarkontr
 https://hodlhodl.com/pages/faq_help
 
 
-## Skrivguide:
+## Börja din resa på Hodl Hodl
 
 
-Inleda din resa med HodlHodl: En steg-för-steg-guide
 
 
 ![image](assets/5.webp)
@@ -68,61 +67,61 @@ För att kunna påbörja BTC-handel måste du först ange din BTC Address. Detta
 Guide av Bitcoiner Frågor och svar https://bitcoiner.guide/hodlhodl/
 
 
-1. Besök hodlhodl.com och skapa ditt konto. De enda uppgifter du behöver ange är användarnamn och e-post Address. Du kommer sedan att mötas av startsidan.
+- Besök hodlhodl.com och skapa ditt konto. De enda uppgifter du behöver ange är användarnamn och e-post Address. Du kommer sedan att mötas av startsidan.
 
 
 ![cover](assets/11.webp)
 
 
-2. Klicka på "Buy BTC" i webbplatsens rubrik.
+- Klicka på "Buy BTC" i webbplatsens rubrik.
 
 
 ![cover](assets/12.webp)
 
 
-3. Välj önskad betalningstyp och betalningsmetod. Du kan också ange ett specifikt belopp här om det behövs.
+- Välj önskad betalningstyp och betalningsmetod. Du kan också ange ett specifikt belopp här om det behövs.
 
 
 ![cover](assets/13.webp)
 
 
-4. Välj önskat erbjudande. Du kan sedan granska handelsinformationen och även läsa peerens aktivitetsrapporter och betyg.
+- Välj önskat erbjudande. Du kan sedan granska handelsinformationen och även läsa peerens aktivitetsrapporter och betyg.
 
 
 ![cover](assets/14.webp)
 
 
-5. När du är nöjd kan du ange hur mycket du vill köpa, ange den Address du vill att Bitcoin ska skickas till och ange bekräfta den betalningsmetod som annonseras av säljaren. Klicka på "Acceptera erbjudandet och skapa Contract".
+- När du är nöjd kan du ange hur mycket du vill köpa, ange den Address du vill att Bitcoin ska skickas till och ange bekräfta den betalningsmetod som annonseras av säljaren. Klicka på "Acceptera erbjudandet och skapa Contract".
 
 
 ![cover](assets/15.webp)
 
 
-6. Du har nu skapat din Contract och behöver trycka på "generate Escrow" där du kommer att uppmanas att skapa ett betalningslösenord. Betalningslösenordet är en krypteringsnyckel för användarens escrow-nyckelpar. Det används för att deponera eller frigöra Bitcoin till eller från escrow.
+- Du har nu skapat din Contract och behöver trycka på "generate Escrow" där du kommer att uppmanas att skapa ett betalningslösenord. Betalningslösenordet är en krypteringsnyckel för användarens escrow-nyckelpar. Det används för att deponera eller frigöra Bitcoin till eller från escrow.
 
 
 ![cover](assets/16.webp)
 
 
-7. Nu måste du vänta på att säljaren ska sätta in sin Bitcoin i spärren Wallet. När du har startat Contract kan du chatta med säljaren med hjälp av chattrutan till höger på sidan.
+- Nu måste du vänta på att säljaren ska sätta in sin Bitcoin i spärren Wallet. När du har startat Contract kan du chatta med säljaren med hjälp av chattrutan till höger på sidan.
 
 
 ![cover](assets/17.webp)
 
 
-8. När säljaren har satt in sina pengar på spärren kommer du att se denna skärm där du uppmanas att inte skicka dina pengar förrän det har kommit ett tillräckligt antal Blockchain-bekräftelser (detta varierar beroende på handelsvillkoren). Du kan kontrollera hur säljarens insättningstransaktion fortskrider genom att klicka på den blå länken "Insättning transaction ID".
+- När säljaren har satt in sina pengar på spärren kommer du att se denna skärm där du uppmanas att inte skicka dina pengar förrän det har kommit ett tillräckligt antal Blockchain-bekräftelser (detta varierar beroende på handelsvillkoren). Du kan kontrollera hur säljarens insättningstransaktion fortskrider genom att klicka på den blå länken "Insättning transaction ID".
 
 
 ![cover](assets/18.webp)
 
 
-9. När du har bekräftat kommer du att meddelas och du kan sedan skicka pengarna till säljaren till de uppgifter de kommer att ge dig. När du har gjort detta klickar du på "Jag har skickat betalningen".
+- När du har bekräftat kommer du att meddelas och du kan sedan skicka pengarna till säljaren till de uppgifter de kommer att ge dig. När du har gjort detta klickar du på "Jag har skickat betalningen".
 
 
 ![cover](assets/19.webp)
 
 
-10. Du måste sedan vänta på att säljaren bekräftar att de har tagit emot pengarna, varvid Bitcoin kommer att släppas in i Address som du angav i början av Contract. Du kommer också att ges möjlighet att betygsätta din kollega.
+- Du måste sedan vänta på att säljaren bekräftar att de har tagit emot pengarna, varvid Bitcoin kommer att släppas in i Address som du angav i början av Contract. Du kommer också att ges möjlighet att betygsätta din kollega.
 
 
 ![cover](assets/20.webp)

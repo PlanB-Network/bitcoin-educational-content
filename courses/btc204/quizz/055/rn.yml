@@ -1,0 +1,10 @@
+question: Bitcoin yakira Address ni iki?
+answer: Uruzitiro rw’ibimenyetso vyakoreshwa mu kwakira amafaranga y’ibiceri.
+wrong_answers:
+  - Kode ikoreshwa mu kohereza ama bitcoins.
+  - Igiharuro c’amahera y’ibiceri Mining.
+  - Smart contract.
+explanation: |
+  Address yakira ikoreshwa mu kwakira bitcoins muri Wallet.
+  
+reviewed: false

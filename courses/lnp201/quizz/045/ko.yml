@@ -1,0 +1,9 @@
+question: LNURL-Withdraw 기능을 통해 사용자는 무엇을 할 수 있나요?
+answer: QR 코드를 스캔하여 서비스에서 자금 인출하기
+wrong_answers:
+  - 라우팅 수수료 없이 직접 결제하기
+  - 비밀번호 없이 Lightning Wallet 연결하기
+  - 수취인 확인 없이 자금 보내기
+explanation: |
+  LNURL-Withdraw를 사용하면 QR 코드를 스캔하여 서비스에서 자금을 출금할 수 있으므로 출금 절차가 간소화됩니다.
+reviewed: true

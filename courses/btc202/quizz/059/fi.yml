@@ -1,0 +1,9 @@
+question: Mikä on paras tapa käyttää Bitcoin core:ta etänä?
+answer: RPC-portin paljastaminen
+wrong_answers:
+  - Torin käyttö
+  - VPN:n käyttäminen
+  - Electrum-palvelimen paljastaminen
+explanation: |
+  RPC-portin paljastaminen salaamattomana on suuri tietoturvariski. Tor tai VPN on suositeltavampi vaihtoehto.
+reviewed: true

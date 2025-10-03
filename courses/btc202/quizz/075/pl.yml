@@ -1,0 +1,9 @@
+question: Dlaczego rozmiar zestawu UTXO ma tendencję do strukturalnego wzrostu w czasie?
+answer: Każda płatność generalnie tworzy dwa nowe UTXO
+wrong_answers:
+  - Konwencjonalne płatności nie zużywają UTXO na wejściu
+  - Każdy Fork mnoży liczbę istniejących UTXO
+  - Liczba bitcoinów, które można utworzyć, jest nieskończona
+explanation: |
+  Transakcja płatnicza zużywa jeden UTXO i często odtwarza dwa (płatność + Exchange), zawyżając całkowity rozmiar zestawu.
+reviewed: true

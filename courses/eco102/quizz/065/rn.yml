@@ -1,0 +1,9 @@
+question: Ni igiki gihuriyeko Tartuffe n’ivyiyumviro vy’ubutunzi bitari vyo nk’uko Bastiat abivuga?
+answer: Inyishu zose ni ukuri
+wrong_answers:
+  - Bompi bakoresha uburyarya kugira ngo bakoreshe abandi .
+  - Bavuga ko bakora ku neza ya bose mu gihe barondera inyungu zabo gusa .
+  - Bakoresha ubugoyagoye bw’ubwenge bw’umuntu .
+explanation: |
+  Bastiat arahuza Tartuffe n’ivyiyumviro vy’ubutunzi bitari vyo, ashimika ku vy’uko bikoresha abantu biciye ku buryarya kandi bikakoresha intege nke z’abantu kugira ngo bikoreshe inyungu zabo bwite.
+reviewed: false

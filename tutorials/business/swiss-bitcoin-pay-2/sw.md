@@ -1,5 +1,5 @@
 ---
-name: Uswisi Bitcoin Pay
+name: Swiss Bitcoin Pay
 description: Jinsi ya kukubali malipo ya Bitcoin kwa urahisi?
 ---
 ![cover](assets/cover.webp)
@@ -123,7 +123,7 @@ Kisha utahitaji kulipa sati 1 ili uthibitishe Umeme wako wa Address. Kwa upande 
 
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
 
-Hatimaye, una chaguo la kuongeza msimbo wa rufaa. Ikiwa ungependa kutuunga mkono, unaweza kutumia msimbo "*DiscoverBitcoin*" ili sehemu ya tume zako ishirikiwe nasi. Asante! :)![SWISS Bitcoin PAY](mali/notext/12.webp)
+Hatimaye, una chaguo la kuongeza msimbo wa rufaa. Ikiwa ungependa kutuunga mkono, unaweza kutumia msimbo "*DiscoverBitcoin*" ili sehemu ya tume zako ishirikiwe nasi. Asante!:)![SWISS Bitcoin PAY](mali/notext/12.webp)
 
 Mara tu habari yote imejazwa, bofya kitufe cha "*Tuma*".
 
@@ -168,7 +168,7 @@ Sasa umeunganishwa kwenye mfumo wa PoS kama mfanyakazi, kumaanisha kuwa mashine 
 
 ![SWISS BITCOIN PAY](assets/notext/22.webp)
 
-Ukipenda, unaweza kubadilisha jina la PoS linaloonekana wakati wa malipo katika akaunti yako ya msimamizi. Unaweza kutaja terminal kulingana na eneo lake maalum (kwa mfano, "*Bar Mezzanine*", "*Hifadhi ya Huduma*", "*Mhudumu Mkuu wa Mraba No. 3*", "*Msaidizi wa Chumba Nambari 2*", "*Daftari la Fedha No. 7*", "*Terrace*", "*Express Checkout*", "*Mapokezi*", "*Tumia Mfanyakazi*" au "Tunamtumia* Mfanyakazi. Ili kufanya hivyo, bofya jina la sasa la PoS lililo chini ya jina la kampuni iliyo juu ya skrini. ![SWISS Bitcoin PAY](mali/notext/23.webp)
+Ukipenda, unaweza kubadilisha jina la PoS linaloonekana wakati wa malipo katika akaunti yako ya msimamizi. Unaweza kutaja terminal kulingana na eneo lake maalum (kwa mfano, "**Bar Mezzanine**", "**Hifadhi ya Huduma**", "**Mhudumu Mkuu wa Mraba No. 3**", "**Msaidizi wa Chumba Nambari 2**", "**Daftari la Fedha No. 7**", "**Terrace**", "**Express Checkout**", "**Mapokezi**", "**Tumia Mfanyakazi**" au "**Tunamtumia Mfanyakazi**". Ili kufanya hivyo, bofya jina la sasa la PoS lililo chini ya jina la kampuni iliyo juu ya skrini. ![SWISS Bitcoin PAY](mali/notext/23.webp)
 
 Kumbuka jina jipya la kichakataji hiki cha malipo, kisha ubofye kitufe cha "*Tuma*".
 

@@ -52,7 +52,7 @@ Coincards is committed to preserving your privacy. They allow you to pay in Bitc
 This is an opportunity to remind those who would like to pay for their gift cards in Bitcoin, while enjoying good privacy protection, to opt for Lightning Network to do so.
 
 
-A selection of tutorials on the main Lightning portfolios (Phoenix, Breez, BitKit, Zeus...) can be found here: [Plan ₿ Network - Wallet](https://planb.network/tutorials/Wallet)
+A selection of tutorials on the main Lightning wallets (Phoenix, Breez, BitKit, Zeus...) can be found here: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
 
 
 If you'd like to learn more about how the Lightning Network works, a comprehensive training course is available.

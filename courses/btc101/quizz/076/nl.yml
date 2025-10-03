@@ -1,10 +1,12 @@
-question: Wat is de rol van de publieke sleutel in een Bitcoin Wallet?
-answer: Het wordt gebruikt om generate Bitcoin adressen en dus geld te ontvangen.
+question: Wat is de analogie die in deze cursus wordt gebruikt om uit te leggen hoe je bitcoins kunt ontvangen zonder dat de verzender jouw geld kan stelen?
+answer: Een brievenbus.
 wrong_answers:
-  - Het wordt gebruikt om Bitcoin transacties te versleutelen.
-  - Deze wordt gebruikt om toegang te krijgen tot de Bitcoin Wallet.
-  - Het wordt gebruikt als back-up voor de Bitcoin Wallet.
+  - Een bankrekening.
+  - Een kluis.
+  - Een huis.
 explanation: |
-  De publieke sleutel is afgeleid van de private sleutel en wordt gebruikt
-  om generate Bitcoin adressen te gebruiken om geld te ontvangen.
+  De analogie die wordt gebruikt om uit te leggen hoe u Bitcoins kunt ontvangen
+  zonder dat de verzender uw geld kan stelen is een
+  brievenbus. Mensen deponeren er geld in, maar u bent de enige
+  die hem kan openen.
 reviewed: true

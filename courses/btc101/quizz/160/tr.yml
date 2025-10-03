@@ -1,0 +1,13 @@
+question: Mevcut finansal sistemin çevre ile ilgili temel sorunu nedir?
+answer: Aşırı tüketimi ve borcu teşvik eder.
+wrong_answers:
+  - Fosil yakıtların kullanımını teşvik eder.
+  - Yenilenebilir enerjiye yatırım yapmıyor.
+  - Malların üretimini düzenlemez.
+explanation: |
+  Mevcut finansal sistem aşağıdakileri teşvik ettiği için eleştirilmektedir
+  aşırı tüketim ve borçlanma, ciddi bir sorun teşkil etmektedir
+  çevresel sorunlar. Bu, aşağıdakilere kolay erişimden kaynaklanmaktadır
+  kredi, bankalar tarafından para ihracı ve bankaların
+  kısmi rezerv bankacılığı.
+reviewed: true

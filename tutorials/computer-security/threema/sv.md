@@ -276,7 +276,7 @@ Här hittar du två alternativ för säkerhetskopiering av dina data:
 
 
 
-"Threema Safe* sparar all din kontoinformation, förutom dina konversationer, på Threemas servrar. Dessa uppgifter krypteras med det lösenord som du valde när du skapade ditt konto, vilket säkerställer att Threema inte har tillgång till dem. Säkerhetskopior görs automatiskt och regelbundet.
+"**Threema Safe** sparar all din kontoinformation, förutom dina konversationer, på Threemas servrar. Dessa uppgifter krypteras med det lösenord som du valde när du skapade ditt konto, vilket säkerställer att Threema inte har tillgång till dem. Säkerhetskopior görs automatiskt och regelbundet.
 
 
 
@@ -436,7 +436,7 @@ Grattis, du har nu kommit igång med att använda Threema messaging, ett bra alt
 
 
 
-Jag rekommenderar också den här andra handledningen, där jag introducerar dig till Proton Mail, ett mycket mer integritetsvänligt alternativ till Gmail :
+Jag rekommenderar också den här andra handledningen, där jag introducerar dig till Proton Mail, ett mycket mer integritetsvänligt alternativ till Gmail:
 
 
 

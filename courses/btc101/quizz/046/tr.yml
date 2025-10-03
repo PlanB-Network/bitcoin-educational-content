@@ -1,0 +1,11 @@
+question: Günlük enflasyon oranının %100'e eşit olduğu tarihsel bir vaka var; bu nerede ve ne zaman oldu?
+answer: Zimbabwe'de, 2007.
+wrong_answers:
+  - Macaristan'da, 1945'te.
+  - Çin'de, 1940.
+  - Bu aslında gerçekleşmesi mümkün olmayan gerçekçi olmayan bir durumdur.
+explanation: |
+  Günlük %100 enflasyon oranı gerçekçi bir senaryodur
+  2007'de Zimbabwe'de oldu, para değeri kabaca
+  her 24 saatte bir ikiye katlanır.
+reviewed: true

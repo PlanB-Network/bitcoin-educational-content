@@ -1,0 +1,9 @@
+question: Tocqueville'e göre, koşulların eşitlenmesinin sonucu nedir?
+answer: Bireyler daha kırılgan ve izole hale gelir.
+wrong_answers:
+  - Bireyler daha özerk ve bağımsız hale gelir.
+  - Bireyler daha varlıklı ve daha müreffeh hale gelir.
+  - Daha az şiddet var.
+explanation: |
+  Tocqueville, koşulların eşitlenmesinin bireylerin kendi içlerine kapanmalarına yol açabileceğini, daha önce geleneksel hiyerarşiler tarafından sağlanan sosyal bağları ve kolektif desteği kaybettikleri için onları daha savunmasız ve izole hale getirebileceğini gözlemler.
+reviewed: true

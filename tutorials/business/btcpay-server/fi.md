@@ -1,5 +1,5 @@
 ---
-name: BTCpay Server
+name: BTCPay Server
 
 description: Opas BTCPay-palvelimesi pystyttämiseen ja hallintaan
 

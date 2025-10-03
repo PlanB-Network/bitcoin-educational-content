@@ -1,0 +1,11 @@
+question: Ni ubuhe buryo busanzwe intwaro zakoresha kugira ngo zigumye zisa n’izisanzwe mu gihe ubutunzi bwari busenyutse?
+answer: Guhatira abacuruzi kuguma bafunguye amaduka yabo.
+wrong_answers:
+  - Guhimiriza abanyamahanga gushiramwo amafaranga.
+  - Kugabanya imisoro.
+  - Kwongerekana kw’amahera Leta ikoresha.
+explanation: |
+  Iyo ubutunzi busenyutse kandi amafaranga akabura agaciro, intwaro .
+  birashobora gufata ingingo zikomeye kugira ngo bigume bisa n’ibisanzwe. Imwe muri izo ngero .
+  ni uguhatira abacuruzi kuguma bafunguye amaduka yabo.
+reviewed: false

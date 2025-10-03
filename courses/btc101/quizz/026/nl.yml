@@ -1,13 +1,10 @@
-question: Waarom kan goud niet goed presteren in een geglobaliseerde en digitale wereld?
-answer: Omdat het een centrale entiteit nodig heeft om het deelbaar en gemakkelijk uitwisselbaar te maken.
+question: Waarom wordt Bitcoin beschouwd als een nieuwe vorm van geld?
+answer: Omdat het digitaal geld is zonder centrale entiteit.
 wrong_answers:
-  - Omdat het niet waardevol genoeg is.
-  - Omdat het niet zeldzaam genoeg is.
-  - Omdat het na verloop van tijd erodeert.
+  - Omdat het een digitale valuta is die wordt ondersteund door goud.
+  - Omdat het een valuta is waarvoor de bank Blockchain nodig heeft.
+  - Omdat de Federal Reserve dat zegt.
 explanation: |
-  Goud kan niet bijblijven in een geglobaliseerde en digitale wereld
-  omdat het een centrale entiteit nodig heeft om het deelbaar en
-  gemakkelijk uitwisselbaar te maken. Dit maakt het minder praktisch om te gebruiken in
-  een wereld waar transacties steeds meer digitaal en
-  gedecentraliseerd.
+  Bitcoin kan gezien worden als een nieuwe vorm van geld, omdat het voortkomt uit een peer-to-peernetwerk zonder centrale entiteit
+  uit een peer-to-peer netwerk zonder centrale entiteit.
 reviewed: true

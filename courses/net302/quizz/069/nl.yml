@@ -1,0 +1,9 @@
+question: Wat is de typische grootte van de netwerk prefix die gebruikt wordt in een IPv6 Address op een lokaal netwerk?
+answer: 64-bits
+wrong_answers:
+  - 32-bits
+  - 48 bits
+  - 8 bits
+explanation: |
+  De eerste 64 bits van een IPv6 Address zijn over het algemeen gereserveerd voor het subnetprefix.
+reviewed: false

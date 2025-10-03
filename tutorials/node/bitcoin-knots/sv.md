@@ -1,5 +1,5 @@
 ---
-name: Bitcoin knopar
+name: Bitcoin Knots
 description: Hur startar jag en nod med den alternativa klienten Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)
@@ -31,8 +31,8 @@ Det finns två huvudsakliga skäl till att använda en alternativ klient som Kno
 
 
 
-- Tekniska**: Dessa klienter erbjuder ofta olika alternativ till Core, särskilt när det gäller Mempool-hantering, genom att bestämma vilka transaktioner som accepteras och sänds av din nod.
-- Policy**: En del människor föredrar att använda alternativa klienter som Knots av icke-tekniska skäl, framför allt för att stödja ett alternativ till Core och därmed minska dess monopol. Om Core någonsin skulle äventyras skulle det vara användbart att inte bara ha solida, väl underhållna alternativa klienter, utan också att veta hur man använder dem. Andra använder Knots i protestsyfte, eftersom de har tappat förtroendet för Core-utvecklarna eller ogillar majoritetsklientens hantering.
+- **Tekniska**: Dessa klienter erbjuder ofta olika alternativ till Core, särskilt när det gäller Mempool-hantering, genom att bestämma vilka transaktioner som accepteras och sänds av din nod.
+- **Policy**: En del människor föredrar att använda alternativa klienter som Knots av icke-tekniska skäl, framför allt för att stödja ett alternativ till Core och därmed minska dess monopol. Om Core någonsin skulle äventyras skulle det vara användbart att inte bara ha solida, väl underhållna alternativa klienter, utan också att veta hur man använder dem. Andra använder Knots i protestsyfte, eftersom de har tappat förtroendet för Core-utvecklarna eller ogillar majoritetsklientens hantering.
 
 
 ## Hur installerar jag Bitcoin Knots?

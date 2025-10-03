@@ -1,0 +1,9 @@
+question: ECash 전자 화폐 모델은 어떤 프로세스를 기반으로 하나요?
+answer: 블라인드 서명
+wrong_answers:
+  - 그룹 서명
+  - 링 서명
+  - 임계값 서명
+explanation: |
+  전자 현금은 서명자가 서명하는 내용을 보지 않고 서명할 수 있는 블라인드 서명 프로세스를 기반으로 합니다.
+reviewed: true

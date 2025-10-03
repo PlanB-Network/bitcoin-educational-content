@@ -1,0 +1,14 @@
+question: Gusura mu bwiherero ni iki?
+answer: Ikintu kibuza abakoresha interineti kubika amateka y’ivyo bakoresheje, amadosiye ya interineti y’igihe gito, amakuru y’amafomu, amakuru y’ibanga, n’amazina y’abakoresha n’amajambo banga.
+wrong_answers:
+  - Igikoresho gihisha igikorwa cawe co kuri Internet ku muntu aguha interineti.
+  - Igikoresho kigufasha guca kuri internet ata wuzi.
+  - Igikoresho kirinda igikoresho cawe ama virusi n’ibindi bikoresho bibi.
+explanation: |
+  Gusura mu buryo bwihariye ni ikintu kibuza interineti
+  umucukumbuzi kuva mu kubika amateka y'umucukumbuzi, interineti y'igihe gito
+  dosiye, amakuru y’ifomu, amakuru, n’amazina y’abakoresha n’amajambobanga.
+  Ariko rero, ntibihisha igikorwa cawe co kuri Internet ku .
+  umutanga serivisi ya interineti canke akakwemerera gusura
+  internet ata wuzi.
+reviewed: true

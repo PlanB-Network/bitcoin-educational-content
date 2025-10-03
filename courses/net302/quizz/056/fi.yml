@@ -1,0 +1,9 @@
+question: Mikä on verkkoyhteyden päätarkoitus?
+answer: Useiden fyysisten verkkoliitäntöjen yhdistäminen
+wrong_answers:
+  - Lisää virtuaalisia IP-osoitteita lähiverkkoon
+  - Wi-Fi-sillan luominen
+  - RJ45-kaapelin pakettikoon pienentäminen
+explanation: |
+  Verkon yhdistäminen yhdistää useita fyysisiä liitäntöjä yhdeksi loogiseksi liitännäksi, mikä tarjoaa redundanssia tai lisää kaistanleveyttä.
+reviewed: false

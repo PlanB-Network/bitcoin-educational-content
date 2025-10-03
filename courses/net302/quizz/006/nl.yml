@@ -1,0 +1,9 @@
+question: Welke organisatie houdt toezicht op het technisch beheer van internetprotocollen?
+answer: Internet Architecture Board
+wrong_answers:
+  - Internetgemeenschap
+  - World Wide Web Consortium
+  - Instituut van elektrotechnische ingenieurs
+explanation: |
+  De Internet Architecture Board (IAB) houdt toezicht op het technisch bestuur en coördineert de evolutie van internetprotocollen.
+reviewed: false

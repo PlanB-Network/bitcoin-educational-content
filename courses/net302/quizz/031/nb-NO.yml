@@ -1,0 +1,9 @@
+question: Hvilket IPv4 Address-område er reservert for lokal loopback-testing?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Området 127.0.0.0/8 brukes for lokal loopback. Alle forespørsler til dette området forblir innenfor den opprinnelige maskinen.
+reviewed: false

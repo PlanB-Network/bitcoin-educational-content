@@ -1,0 +1,9 @@
+question: 하나의 입력과 모든 출력을 커버하여 크라우드 펀딩을 허용하는 해시 플래그는 무엇인가요?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - Sighash_none | sighash_anyonecanpay
+  - Sighash_single | sighash_anyonecanpay
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL을 SIGHASH_ANYONECANPAY와 결합하면 출력을 수정하지 않고도 입력을 추가할 수 있습니다.
+reviewed: false

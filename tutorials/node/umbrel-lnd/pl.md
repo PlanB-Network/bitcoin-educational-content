@@ -154,7 +154,7 @@ Do wyboru jest utworzenie nowego węzła lub przywrócenie węzła z kopii zapas
 
 
 
-**Uwaga: W najnowszych wersjach Umbrel instalacja aplikacji Lightning zapewnia to 24-słowne seed (sam węzeł Bitcoin Umbrel nie).
+**Uwaga: W najnowszych wersjach Umbrel instalacja aplikacji Lightning zapewnia to 24-słowne seed (sam węzeł Bitcoin Umbrel nie).**
 
 
 
@@ -489,18 +489,18 @@ Węzeł Lightning Umbrel wymaga dwóch rodzajów kopii zapasowych:
 
 
 
-*plik *Static Channel Backup (SCB)**
+**Static Channel Backup (SCB)**
 
 
 
 
 - Zawiera informacje o kanale Lightning
 - Umożliwia wymuszone zamknięcie kanału w przypadku awarii
-- Ważne:** Nigdy nie zapisuj pliku `channel.db` ręcznie (ryzyko kar)
+- **Ważne:** Nigdy nie zapisuj pliku `channel.db` ręcznie (ryzyko kar)
 
 
 
-**Ręczna procedura tworzenia kopii zapasowej
+**Ręczna procedura tworzenia kopii zapasowej**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Aktualizacje oprogramowania:** Aktualizuj Umbrel i LND (poprawki bezpieczeństwa)
-- Ochrona sprzętu:** Używaj stabilnego systemu (Raspberry Pi z dyskiem SSD, mini-PC) i zasilacza UPS
-- Bezpieczeństwo sieci:** Zachowaj domyślną konfigurację Tora, zmień hasło administratora Umbrel (domyślnie: "moneyprintergobrrr")
-- Szyfrowanie:** Włącz szyfrowanie dysku, jeśli to możliwe
+- **Aktualizacje oprogramowania:** Aktualizuj Umbrel i LND (poprawki bezpieczeństwa)
+- **Ochrona sprzętu:** Używaj stabilnego systemu (Raspberry Pi z dyskiem SSD, mini-PC) i zasilacza UPS
+- **Bezpieczeństwo sieci:** Zachowaj domyślną konfigurację Tora, zmień hasło administratora Umbrel (domyślnie: "moneyprintergobrrr")
+- **Szyfrowanie:** Włącz szyfrowanie dysku, jeśli to możliwe
 
 
 
@@ -691,10 +691,10 @@ RTL to kompletny "szwajcarski scyzoryk" do administrowania węzłem Lightning z 
 
 
 
-- Lightning Shell** : Wiersz poleceń (lncli) przez przeglądarkę
-- BTC RPC Explorer & Mempool** : Monitorowanie Blockchain
-- LNmetrics & Torq**: Analiza wydajności routingu
-- Amboss & 1ML**: "Społecznościowe" zarządzanie węzłem (aliasy, kontakty, analiza sieci)
+- **Lightning Shell**: Wiersz poleceń (lncli) przez przeglądarkę
+- **BTC RPC Explorer & Mempool**: Monitorowanie Blockchain
+- **LNmetrics & Torq**: Analiza wydajności routingu
+- **Amboss & 1ML**: "Społecznościowe" zarządzanie węzłem (aliasy, kontakty, analiza sieci)
 
 
 

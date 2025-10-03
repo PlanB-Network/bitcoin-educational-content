@@ -1,0 +1,9 @@
+question: What nationality was the philosopher Immanuel Kant?
+answer: German.
+wrong_answers:
+  - English.
+  - Polish.
+  - Dutch.
+explanation: |
+  Immanuel Kant (1724-1804) was a German philosopher, considered one of the most important thinkers of the Enlightenment. He developed a critical philosophy that sought to reconcile rationalism and empiricism.
+reviewed: false

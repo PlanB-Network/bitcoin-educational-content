@@ -1,0 +1,9 @@
+question: Welche Technik ermöglicht es mehreren internen Rechnern, eine einzige öffentliche IP Address für den Internetzugang zu nutzen?
+answer: NAT (Network Address Translation)
+wrong_answers:
+  - ARP (Address-Auflösungsprotokoll)
+  - DHCP (Dynamisches Host-Konfigurationsprotokoll)
+  - CIDR (Classless Inter-Domain Routing)
+explanation: |
+  NAT übersetzt private interne Adressen in eine öffentliche IP Address, so dass mehrere Geräte dieselbe externe Verbindung nutzen können.
+reviewed: false

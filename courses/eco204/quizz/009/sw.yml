@@ -1,12 +1,12 @@
 question: Kuna uhusiano gani kati ya mfumuko wa bei na kushuka kwa bei katika uchumi?
-answer: Mfumuko wa bei na mfumuko wa bei ni kama vyombo vya mawasiliano katika uchumi. Kuongezeka kwa uzalishaji kunaweza kusababisha kupungua kwa bei, lakini ikiwa fedha za Supply zinaongezeka wakati huo huo, athari ya deflationary imefutwa, na kusababisha mfumuko wa bei.
+answer: Mfumuko wa bei ni kama vyombo vya mawasiliano katika uchumi. Kuongezeka kwa uzalishaji kunaweza kusababisha kupungua kwa bei, lakini ikiwa fedha za Supply zinaongezeka wakati huo huo, athari ya deflationary imefutwa, na kusababisha mfumuko wa bei.
 wrong_answers:
-  - Mfumuko wa bei na mfumuko wa bei ni huru kutoka kwa kila mmoja katika uchumi.
+  - Mfumuko wa bei ni huru kutoka kwa kila mmoja katika uchumi.
   - Mfumuko wa bei daima husababisha kushuka kwa bei katika uchumi.
   - Deflation daima husababisha mfumuko wa bei katika uchumi.
 explanation: |
-  Sura hiyo inaeleza kuwa mfumuko wa bei na mfumuko wa bei ni kama kuwasiliana
+  Sura hiyo inaeleza kuwa mfumuko wa bei ni kama kuwasiliana kwa
   vyombo katika uchumi. Kuongezeka kwa uzalishaji kunaweza kusababisha kupungua kwa bei, lakini ikiwa
-  pesa Supply inaongezeka wakati huo huo, athari ya deflationary imefutwa,
+  pesa za Supply zinaongezeka wakati huo huo, athari ya deflationary imefutwa,
   kusababisha mfumuko wa bei.
-reviewed: false
+reviewed: true

@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+---
+
+Bir Bitcoin işlem girişindeki `nSequence` alanı, bu girişin zamana nasıl kilitlendiğini belirtmek için kullanılır. Başlangıçta, Lightning'e benzer bir ödeme sistemi katmanını etkinleştirmek için mempool'lardaki işlemlerin dinamik olarak değiştirilmesine izin vermesi amaçlanmıştır. Ancak, kullanımı BIP68 aracılığıyla göreceli zaman kilidinin kullanılmaya başlanmasıyla birlikte gelişmiştir. Artık `nSequence` alanı, bir işlemin bir bloğa dahil edilmesinden önce göreceli bir gecikme belirtebilir. Bu gecikme blok sayısı cinsinden ya da 512 saniyenin katı (yani gerçek zaman) olarak tanımlanabilir. NSequence` alanının bu yeni yorumunun yalnızca `nVersion` alanının `2`den büyük veya eşit olması durumunda geçerli olduğuna dikkat etmek önemlidir. NSequence` alanının bu yorumu Bitcoin'in mutabakat kuralları düzeyindedir. Ayrıca, standardizasyon kuralları düzeyinde, bu alan RBF (Replace-by-fee) sinyali için de kullanılır. Bir işlem `0xfffffffe`den daha düşük bir `nSequence` içeriyorsa, bu politikayı izleyen düğümlerde RBF aracılığıyla değiştirilebilir.

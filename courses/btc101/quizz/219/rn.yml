@@ -1,0 +1,8 @@
+question: Ni uruja n’uruza uruhe Lightning Network irema?
+answer: Urubuga rw’imihora yo kwishura.
+wrong_answers:
+  - Urubuga rw’ibihimba vya Mining.
+  - Urubuga rw’ibihimba vya Blockchain.
+  - Urubuga rw’amahera y’ivy’ubuhinga bwa none.
+explanation: >-
+reviewed: true

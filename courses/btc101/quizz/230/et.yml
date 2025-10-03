@@ -1,10 +1,11 @@
-question: Mida võimaldab Lightning Network?
-answer: Tehingute sooritamine isikute vahel, kellel ei ole otsest kanaliühendust.
+question: Kuidas võib Lightning Network muuta olemasolevaid ärimudeleid videomängude tööstuses?
+answer: See võimaldab mängijatel mängides panustada väga väikeseid rahasummasid
 wrong_answers:
-  - Tehingute sooritamine ainult isikute vahel, kellel on otsest kanaliühendust.
-  - Tehingute sooritamine isikute vahel, kellel on otsest kanaliühendust ja kolmas osapool.
-  - Tehingute sooritamine isikute vahel, kellel on otsest kanaliühendust ja mitu kolmandat osapoolt.
-explanation: |
-  Lightning Network võimaldab sooritada tehinguid isikute vahel,
-  kellel ei ole otsest kanaliühendust.
+  - See võimaldab mängijatel mängides kaevandada Bitcoini
+  - See võimaldab mänguarendajatel aktsepteerida Bitcoini oma mängude eest maksmisel
+  - See võimaldab mängijatel osta mängusiseseid esemeid Bitcoiniga
+explanation: >-
+  Lightning Network võimaldab mängijatel panustada mängides väga väikeseid rahasummasid,
+  näiteks mõned satoshid. See võimaldab luua panuse, mis stimuleerib konkurentsi, samal ajal oluliselt suurendades
+  bottide kasutuselevõtu kulu.
 reviewed: false

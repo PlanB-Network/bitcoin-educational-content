@@ -361,7 +361,7 @@ Richard Stallman secara terbuka mengkritik penggunaan istilah "open source", men
 
 ![Image](assets/fr/015.webp)
 
-*Sumber: Nathaniel Welch
+*Sumber: Nathaniel Welch*
 
 Perbedaan filosofis antara kedua istilah tersebut terletak pada motivasi yang mendasarinya: gerakan free software pada dasarnya mempromosikan filosofi kebebasan individu dan kolektif terhadap perangkat lunak, sementara open source terutama menghargai efisiensi teknis, transparansi, dan kolaborasi sebagai sarana untuk menghasilkan produk yang lebih baik.
 
@@ -4616,6 +4616,8 @@ Jika router Anda tidak lagi dirawat tetapi masih berfungsi dengan benar dari sud
 
 - OpenWrt, distribusi Linux yang berspesialisasi dalam router, menawarkan fleksibilitas yang luar biasa dan pembaruan rutin
 - pfSense dan OPNsense, dua sistem berbasis FreeBSD (Unix-like) untuk firewall dan router x86
+
+**Catatan**: Beberapa ISP memasok pelanggan mereka dengan router massal yang dibuat oleh satu perusahaan yang secara bersamaan memasok banyak ISP berbeda di seluruh dunia. Anda mungkin menemukan bahwa untuk memasang salah satu firmware alternatif pada router, orang lain mungkin sudah menemukan caranya, bahkan jika mereka berada di belahan dunia yang lain.
 
 ![Image](assets/fr/196.webp)
 

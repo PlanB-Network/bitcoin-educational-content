@@ -1,0 +1,9 @@
+question: Safari'yi donatmak için KHTML'nin bir Fork'ından hangi işleme motoru oluşturuldu?
+answer: WebKit
+wrong_answers:
+  - Trident
+  - Gecko
+  - Göz kırpma
+explanation: |
+  WebKit, Apple tarafından 2003'ten itibaren Safari için seçilen ve daha sonra birçok tarayıcı tarafından benimsenen bir KHTML Fork'idir.
+reviewed: false

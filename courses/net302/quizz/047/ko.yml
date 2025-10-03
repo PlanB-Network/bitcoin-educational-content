@@ -1,0 +1,9 @@
+question: MAC Address의 처음 3바이트를 나타내는 용어는 무엇인가요?
+answer: OUI(조직 고유 식별자)
+wrong_answers:
+  - SID(세션 식별자)
+  - LUI(로컬 고유 식별자)
+  - PAN(물리적 Address 번호)
+explanation: |
+  OUI는 IEEE에서 할당하며 MAC Address에서 네트워크 카드 제조업체를 식별합니다.
+reviewed: false

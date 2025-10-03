@@ -1,0 +1,9 @@
+question: Ni irihe shirahamwe ricungera ugutanga ama blocs ya IPv6 Address kw’isi yose?
+answer: IANA
+wrong_answers:
+  - NIST
+  - NCC YEZE
+  - ARIN
+explanation: |
+  IANA yicara hejuru y’uburongozi bw’ugutanga, itanga amabuye ya IPv6 ku bigo bitanu vy’akarere vy’Internet (RIRs).
+reviewed: false

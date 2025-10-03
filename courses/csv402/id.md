@@ -30,15 +30,15 @@ Kursus ini didasarkan pada seminar langsung yang diselenggarakan oleh Fulgur'Ven
 
 Halo semuanya, dan selamat datang di kursus pelatihan yang didedikasikan untuk RGB, sebuah sistem kontrak pintar yang divalidasi di sisi klien yang berjalan di Bitcoin dan Lightning Network. Struktur kursus ini dirancang untuk memungkinkan eksplorasi mendalam tentang subjek yang kompleks ini. Berikut adalah bagaimana kursus ini diatur:
 
-**Bagian 1: Teori
+**Bagian 1: Teori**
 
 Bagian pertama didedikasikan untuk konsep teoritis yang diperlukan untuk memahami dasar-dasar validasi sisi klien dan RGB. Seperti yang akan Anda temukan dalam kursus ini, RGB memperkenalkan sejumlah konsep teknis yang biasanya tidak terlihat dalam Bitcoin. Di bagian ini, Anda juga akan menemukan glosarium yang memberikan definisi untuk semua istilah khusus untuk protokol RGB.
 
-**Bagian 2: Latihan
+**Bagian 2: Latihan**
 
 Bagian kedua akan berfokus pada penerapan konsep teoretis yang terlihat di bagian 1. Kita akan belajar cara membuat dan memanipulasi kontrak RGB. Kita juga akan melihat cara memprogram dengan alat-alat ini. Dua bagian pertama ini disajikan oleh Maxim Orlovsky.
 
-**Bagian 3: Aplikasi
+**Bagian 3: Aplikasi**
 
 Bagian terakhir dipandu oleh pembicara lain yang menyajikan aplikasi berbasis RGB yang konkret, untuk menyoroti kasus penggunaan dalam kehidupan nyata.
 
@@ -51,11 +51,11 @@ Dalam kursus ini, kita akan fokus pada minggu kedua bootcamp, yang berfokus pada
 
 **Minggu 1 - LNP402:**
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 **Minggu 2 - Pelatihan saat ini CSV402:**
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 Terima kasih banyak kepada penyelenggara kursus langsung ini dan kepada 3 pengajar yang ikut serta:
 
@@ -98,16 +98,16 @@ Komputasi terdistribusi, sebuah cabang ilmu komputer yang spesifik, mempelajari 
 Secara khusus, pengertian **konsensus** dalam sistem terdistribusi mencakup dua aspek:
 
 
-- Pengakuan keabsahan** perubahan status (sesuai dengan aturan protokol);
+- **Pengakuan keabsahan** perubahan status (sesuai dengan aturan protokol);
 - Kesepakatan mengenai urutan perubahan status ini, yang membuatnya tidak mungkin untuk menulis ulang atau membalikkan operasi yang telah divalidasi secara a posteriori (hal ini juga dikenal dalam Bitcoin sebagai "proteksi pembelanjaan ganda").
 
 Implementasi mekanisme konsensus terdistribusi yang fungsional dan bebas izin pertama kali diperkenalkan oleh Satoshi Nakamoto dengan Bitcoin, berkat penggunaan gabungan struktur data blockchain dan algoritma Proof-of-Work (PoW). Dalam sistem ini, kredibilitas riwayat blok bergantung pada daya komputasi yang dicurahkan oleh node (penambang). Oleh karena itu, Bitcoin merupakan contoh utama dan bersejarah dari sistem konsensus terdistribusi yang terbuka untuk semua orang (*permissionless*).
 
-Dalam dunia blockchain dan komputasi terdistribusi, kita dapat membedakan dua paradigma mendasar: ***blockchain*** dalam pengertian tradisional, dan **state channels***, contoh terbaiknya adalah Lightning Network. Blockchain didefinisikan sebagai daftar peristiwa yang diurutkan secara kronologis, direplikasi oleh konsensus dalam jaringan terbuka dan bebas izin. Di sisi lain, state channel adalah saluran peer-to-peer yang memungkinkan dua (atau lebih) peserta untuk mempertahankan state yang diperbarui di luar rantai, menggunakan blockchain hanya ketika membuka dan menutup saluran ini.
+Dalam dunia blockchain dan komputasi terdistribusi, kita dapat membedakan dua paradigma mendasar: **blockchain** dalam pengertian tradisional, dan **state channels**, contoh terbaiknya adalah Lightning Network. Blockchain didefinisikan sebagai daftar peristiwa yang diurutkan secara kronologis, direplikasi oleh konsensus dalam jaringan terbuka dan bebas izin. Di sisi lain, state channel adalah saluran peer-to-peer yang memungkinkan dua (atau lebih) peserta untuk mempertahankan state yang diperbarui di luar rantai, menggunakan blockchain hanya ketika membuka dan menutup saluran ini.
 
 Dalam konteks Bitcoin, Anda tentu sudah tidak asing lagi dengan prinsip-prinsip penambangan, desentralisasi, dan finalitas transaksi pada blockchain, serta cara kerja saluran pembayaran. Dengan RGB, kami memperkenalkan paradigma baru yang disebut **Validasi Sisi Klien**, yang tidak seperti blockchain atau Lightning, terdiri dari penyimpanan dan validasi secara lokal (sisi klien) untuk memvalidasi transisi status kontrak pintar. Ini juga berbeda dari teknik "DeFi" lainnya (_rollups_, _plasma_, _ARK_, dll.), karena Validasi Sisi Klien bergantung pada blockchain untuk mencegah pengeluaran ganda dan memiliki sistem stempel waktu, sambil tetap menyimpan daftar status dan transisi off-chain, hanya dengan peserta yang bersangkutan.
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 Selanjutnya, kami juga akan memperkenalkan istilah penting: gagasan "**stash**", yang mengacu pada sekumpulan data sisi klien yang diperlukan untuk mempertahankan status kontrak, karena data ini tidak direplikasi secara global di seluruh jaringan. Terakhir, kita akan melihat alasan di balik RGB, sebuah protokol yang memanfaatkan Validasi Sisi Klien, dan mengapa protokol ini melengkapi pendekatan yang sudah ada (blockchain dan state channel).
 
@@ -116,55 +116,55 @@ Selanjutnya, kami juga akan memperkenalkan istilah penting: gagasan "**stash**",
 Untuk memahami bagaimana Validasi Sisi Klien dan RGB mengatasi masalah yang tidak dapat diselesaikan oleh blockchain dan Lightning, mari kita temukan 3 "trilema" utama dalam komputasi terdistribusi:
 
 
-- Skalabilitas, Desentralisasi, Privasi**;
-- Teorema CAP** (Konsistensi, Ketersediaan, Toleransi Partisi);
-- Trilema CIA** (Kerahasiaan, Integritas, Ketersediaan).
+- **Skalabilitas, Desentralisasi, Privasi**;
+- **Teorema CAP** (Konsistensi, Ketersediaan, Toleransi Partisi);
+- Trilema **CIA** (Kerahasiaan, Integritas, Ketersediaan).
 
 #### 1. Skalabilitas, desentralisasi, dan kerahasiaan
 
 
-- Blockchain (Bitcoin)**
+- **Blockchain (Bitcoin)**
 
 Blockchain sangat terdesentralisasi, tetapi tidak terlalu terukur. Terlebih lagi, karena semuanya berada dalam daftar publik global, kerahasiaan menjadi terbatas. Kita dapat mencoba meningkatkan kerahasiaan dengan teknologi tanpa pengetahuan (transaksi rahasia, skema mimblewimble, dll.), tetapi rantai publik tidak dapat menyembunyikan grafik transaksi.
 
 
-- Saluran petir/Saluran negara**
+- **Saluran petir/Saluran negara**
 
 Saluran negara (seperti halnya Lightning Network) lebih terukur dan lebih privat daripada blockchain, karena transaksi terjadi di luar rantai. Akan tetapi, kewajiban untuk mengumumkan elemen-elemen tertentu (transaksi pendanaan, topologi jaringan) dan pemantauan lalu lintas jaringan dapat membahayakan kerahasiaan. Desentralisasi juga menderita: perutean bersifat padat modal, dan node utama dapat menjadi titik sentralisasi. Inilah fenomena yang mulai kita lihat di Lightning.
 
 
-- Validasi Sisi Klien (RGB)**
+- **Validasi Sisi Klien (RGB)**
 
 Paradigma baru ini bahkan lebih terukur dan lebih rahasia, karena kita tidak hanya dapat mengintegrasikan teknik proof-of-knowledge tanpa pengungkapan, tetapi juga tidak ada grafik transaksi global, karena tidak ada yang memegang seluruh register. Di sisi lain, ini juga menyiratkan kompromi tertentu pada desentralisasi: penerbit kontrak pintar dapat memiliki peran sentral (seperti "penyebar kontrak" di Ethereum). Akan tetapi, tidak seperti blockchain, dengan Validasi Sisi Klien, Anda hanya menyimpan dan memvalidasi kontrak yang Anda minati, yang meningkatkan skalabilitas dengan menghindari kebutuhan untuk mengunduh dan memverifikasi semua status yang ada.
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 #### 2. Teorema CAP (Konsistensi, Ketersediaan, Toleransi partisi)
 
 Teorema CAP menekankan bahwa sistem terdistribusi tidak mungkin memenuhi konsistensi (*Konsistensi*), ketersediaan (*Ketersediaan*), dan toleransi partisi (*Toleransi partisi*) secara bersamaan.
 
 
-- Blockchain**
+- **Blockchain**
 
 Blockchain mendukung konsistensi dan ketersediaan, tetapi tidak bekerja dengan baik dengan partisi jaringan: jika Anda tidak dapat melihat sebuah blok, Anda tidak dapat bertindak dan memiliki pandangan yang sama dengan seluruh jaringan.
 
 
-- Petir** (dalam bahasa Prancis)
+- **Petir** (dalam bahasa Prancis)
 
 Sebuah sistem state channel memiliki ketersediaan dan toleransi partisi (karena dua node dapat tetap terhubung satu sama lain walaupun jaringan terfragmentasi), tetapi konsistensi secara keseluruhan bergantung pada pembukaan dan penutupan channel pada blockchain.
 
 
-- Validasi Sisi Klien (RGB)**
+- **Validasi Sisi Klien (RGB)**
 
 Sistem seperti RGB menawarkan konsistensi (setiap peserta memvalidasi datanya secara lokal, tanpa ambiguitas) dan toleransi partisi (Anda menyimpan data Anda secara mandiri), tetapi tidak menjamin ketersediaan global (setiap orang harus memastikan bahwa mereka memiliki bagian yang relevan dari sejarah, dan beberapa peserta mungkin tidak mempublikasikan apa pun atau berhenti berbagi informasi tertentu).
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 #### 3. Trilema CIA (Kerahasiaan, Integritas, Ketersediaan)
 
 Trilema ini mengingatkan kita bahwa kerahasiaan, integritas, dan ketersediaan tidak dapat dioptimalkan secara bersamaan. Blockchain, Lightning, dan Validasi Sisi Klien berada pada posisi yang berbeda dalam keseimbangan ini. Idenya adalah bahwa tidak ada satu sistem pun yang dapat menyediakan segalanya; perlu untuk menggabungkan beberapa pendekatan (time-stamping blockchain, pendekatan sinkron Lightning, dan validasi lokal dengan RGB) untuk mendapatkan paket yang koheren yang menawarkan jaminan yang baik di setiap dimensi.
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 ### Peran blockchain dan gagasan sharding
 
@@ -181,15 +181,15 @@ Untuk smart contract tipe RGB, kami melakukan shard sesuai dengan kontrak itu se
 Oleh karena itu, kita dapat membayangkan ekosistem sebagai berikut:
 
 
-- Blockchain (Bitcoin)** sebagai fondasi yang memastikan replikasi lengkap dari daftar minimal dan berfungsi sebagai lapisan pencatat waktu;
-- Lightning Network** untuk transaksi yang cepat dan rahasia, masih berdasarkan pada keamanan dan penyelesaian akhir blockchain Bitcoin;
-- RGB dan Validasi Sisi Klien** untuk menambahkan logika smart contract yang lebih kompleks, tanpa mengacaukan blockchain atau kehilangan kerahasiaan.
+- **Blockchain (Bitcoin)** sebagai fondasi yang memastikan replikasi lengkap dari daftar minimal dan berfungsi sebagai lapisan pencatat waktu;
+- **Lightning Network** untuk transaksi yang cepat dan rahasia, masih berdasarkan pada keamanan dan penyelesaian akhir blockchain Bitcoin;
+- **RGB dan Validasi Sisi Klien** untuk menambahkan logika smart contract yang lebih kompleks, tanpa mengacaukan blockchain atau kehilangan kerahasiaan.
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 Ketiga elemen ini membentuk satu kesatuan segitiga, bukan tumpukan linear "lapisan 2", "lapisan 3", dan seterusnya. Lightning dapat terhubung langsung ke Bitcoin, atau dikaitkan dengan transaksi Bitcoin yang menggunakan data RGB. Demikian pula, penggunaan "BiFi" (keuangan pada Bitcoin) dapat dibuat dengan blockchain, dengan Lightning dan dengan RGB sesuai dengan kebutuhan kerahasiaan, skalabilitas, atau logika kontrak.
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 ### Gagasan tentang transisi negara bagian
 
@@ -197,7 +197,7 @@ Dalam sistem terdistribusi, tujuan dari mekanisme validasi adalah untuk dapat **
 
 Untuk memahami bagaimana validasi ini bekerja dalam konteks **Bitcoin** dan, secara umum, untuk memahami filosofi di balik Validasi Sisi Klien, pertama-tama mari kita lihat kembali mekanisme blockchain Bitcoin, sebelum melihat bagaimana Validasi Sisi Klien berbeda dengan mekanisme tersebut dan pengoptimalan apa yang dimungkinkan.
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 Dalam kasus blockchain Bitcoin, validasi transaksi didasarkan pada sebuah aturan sederhana:
 
@@ -206,15 +206,15 @@ Dalam kasus blockchain Bitcoin, validasi transaksi didasarkan pada sebuah aturan
 - Mereka memvalidasi transaksi-transaksi ini untuk memverifikasi evolusi yang benar dari set UTXO (semua output yang tidak terpakai);
 - Mereka menyimpan data ini (dalam bentuk blok) sehingga riwayat dapat diputar ulang jika perlu.
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 Namun demikian, model ini memiliki dua kelemahan utama:
 
 
-- Skalabilitas**: karena setiap node harus memproses, memverifikasi, dan mengarsipkan transaksi setiap orang, ada batasan yang jelas untuk kapasitas transaksi, khususnya terkait dengan ukuran blok maksimum (rata-rata 1 MB dalam waktu 10 menit untuk Bitcoin, tidak termasuk cookie);
-- Privasi**: semuanya disiarkan dan disimpan secara publik (jumlah, alamat tujuan, dll.), yang membatasi kerahasiaan pertukaran.
+- **Skalabilitas**: karena setiap node harus memproses, memverifikasi, dan mengarsipkan transaksi setiap orang, ada batasan yang jelas untuk kapasitas transaksi, khususnya terkait dengan ukuran blok maksimum (rata-rata 1 MB dalam waktu 10 menit untuk Bitcoin, tidak termasuk cookie);
+- **Privasi**: semuanya disiarkan dan disimpan secara publik (jumlah, alamat tujuan, dll.), yang membatasi kerahasiaan pertukaran.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 Pada praktiknya, model ini berfungsi untuk Bitcoin sebagai lapisan dasar (Lapisan 1), tetapi mungkin tidak mencukupi untuk penggunaan yang lebih kompleks yang secara bersamaan membutuhkan throughput transaksi yang tinggi dan tingkat kerahasiaan tertentu.
 
@@ -224,7 +224,7 @@ Validasi sisi klien didasarkan pada ide yang berlawanan: daripada mengharuskan s
 - Ketika seseorang menerima sebuah aset (atau properti digital lainnya), mereka hanya perlu mengetahui dan memverifikasi rantai operasi (transisi status) yang mengarah ke aset tersebut dan membuktikan keabsahannya;
 - Urutan operasi ini, dari ***Genesis*** (edisi awal) hingga transaksi terbaru, membentuk graf berarah siklik (DAG) atau pecahan, yaitu sebagian kecil dari keseluruhan riwayat.
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 Pada saat yang sama, agar seluruh jaringan (atau lebih tepatnya, lapisan yang mendasari, seperti Bitcoin) dapat mengunci keadaan akhir tanpa melihat rincian data ini, Validasi Sisi Klien bergantung pada gagasan ***komitmen***.
 
@@ -245,12 +245,12 @@ Secara konkret, berikut ini cara kerja transisi status RGB:
 - Anda menghasilkan komitmen kriptografi untuk transisi ini dan memasukkannya ke dalam transaksi Bitcoin (komitmen ini disebut "*anchors*" dalam protokol RGB);
 - Mitra pengimbang (penerima) mengambil riwayat sisi pelanggan yang terkait dengan aset ini dan memvalidasi konsistensi ujung ke ujung, mulai dari asal mula smart contract hingga transisi yang Anda kirimkan ke aset tersebut.
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 Validasi dari sisi klien menawarkan dua manfaat utama:
 
 
-- Skalabilitas:**
+- **Skalabilitas:**
 
 Komitmen (*commitments*) yang disertakan dalam blockchain berukuran kecil (sekitar beberapa puluh byte). Hal ini memastikan bahwa ruang blok tidak jenuh, karena hanya hash yang perlu disertakan. Hal ini juga memungkinkan protokol off-chain untuk berkembang, karena setiap pengguna hanya perlu menyimpan fragmen riwayatnya (_stash_).
 
@@ -263,13 +263,13 @@ Dalam sebuah sistem seperti RGB, beberapa transisi status dari kontrak yang berb
 
 Pada praktiknya, ketika transaksi Bitcoin ini divalidasi, transaksi ini secara permanen "mengunci" keadaan kontrak yang mendasarinya, karena tidak mungkin untuk mengubah hash yang telah tertulis dalam blockchain.
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 ### Konsep simpanan
 
 Stash adalah sekumpulan data sisi klien yang harus disimpan oleh peserta untuk menjaga integritas dan riwayat kontrak pintar RGB. Tidak seperti saluran Lightning, di mana status tertentu dapat direkonstruksi secara lokal dari informasi yang dibagikan, simpanan kontrak RGB tidak direplikasi di tempat lain: jika Anda kehilangannya, tidak ada yang bisa mengembalikannya kepada Anda, karena Anda bertanggung jawab atas bagian sejarah Anda. Inilah sebabnya mengapa Anda perlu mengadopsi sistem dengan prosedur pencadangan yang dapat diandalkan di RGB.
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 ### Segel sekali pakai: asal-usul dan pengoperasian
 
@@ -287,11 +287,11 @@ Untuk mencegah penggunaan ganda token RGB, kami menggunakan mekanisme yang diseb
 
 Segel sekali pakai adalah primitif kriptografi, yang diusulkan pada tahun 2016 oleh Peter Todd, mirip dengan konsep segel fisik: setelah segel ditempatkan pada wadah, menjadi tidak mungkin untuk membuka atau memodifikasinya tanpa merusak segel secara permanen.
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 Pendekatan ini, yang dialihkan ke dunia digital, memungkinkan untuk membuktikan bahwa rangkaian peristiwa memang telah terjadi, dan tidak dapat lagi diubah secara a posteriori. Segel sekali pakai dengan demikian melampaui logika sederhana `hash + cap waktu`, menambahkan gagasan segel yang dapat ditutup **hanya sekali**.
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 Agar Segel Sekali Pakai dapat berfungsi, Anda membutuhkan media bukti publikasi yang mampu membuktikan ada atau tidaknya publikasi, dan sulit (jika bukan tidak mungkin) untuk dipalsukan setelah informasi tersebut disebarkan. Sebuah **blockchain** (seperti Bitcoin) dapat mengisi peran ini, seperti halnya koran dengan sirkulasi publik, misalnya. Idenya adalah sebagai berikut:
 
@@ -309,9 +309,9 @@ Tidak seperti _komitmen_ (hash) atau stempel waktu yang sederhana, yang membukti
 Perbandingan berikut ini membantu untuk memahami prinsip ini:
 
 
-- Komitmen kriptografi (hash)**: Dengan fungsi hash, Anda dapat berkomitmen pada sepotong data (angka) dengan menerbitkan hash-nya. Data tetap rahasia sampai Anda mengungkapkan pra-gambar, tetapi Anda dapat membuktikan bahwa Anda sudah mengetahuinya sebelumnya;
-- Stempel waktu (blockchain)**: Dengan memasukkan hash ini ke dalam blockchain, kita juga membuktikan bahwa kita mengetahuinya pada saat yang tepat (saat dimasukkan ke dalam blok);
-- Segel sekali pakai**: Dengan segel sekali pakai, kami melangkah lebih jauh dengan membuat komitmen yang unik. Dengan satu hash, Anda dapat membuat beberapa komitmen yang bertentangan secara paralel (masalah dokter yang mengumumkan "*Ini anak laki-laki*" kepada keluarga dan "*Ini anak perempuan*" dalam buku harian pribadinya). Segel Sekali Pakai menghilangkan kemungkinan ini dengan menghubungkan komitmen ke media bukti publikasi, seperti blockchain Bitcoin, sehingga pengeluaran UTXO secara definitif menyegel komitmen tersebut. Setelah dibelanjakan, UTXO yang sama tidak dapat dibelanjakan kembali untuk menggantikan komitmen.
+- **Komitmen kriptografi (hash)**: Dengan fungsi hash, Anda dapat berkomitmen pada sepotong data (angka) dengan menerbitkan hash-nya. Data tetap rahasia sampai Anda mengungkapkan pra-gambar, tetapi Anda dapat membuktikan bahwa Anda sudah mengetahuinya sebelumnya;
+- **Stempel waktu (blockchain)**: Dengan memasukkan hash ini ke dalam blockchain, kita juga membuktikan bahwa kita mengetahuinya pada saat yang tepat (saat dimasukkan ke dalam blok);
+- **Segel sekali pakai**: Dengan segel sekali pakai, kami melangkah lebih jauh dengan membuat komitmen yang unik. Dengan satu hash, Anda dapat membuat beberapa komitmen yang bertentangan secara paralel (masalah dokter yang mengumumkan "*Ini anak laki-laki*" kepada keluarga dan "*Ini anak perempuan*" dalam buku harian pribadinya). Segel Sekali Pakai menghilangkan kemungkinan ini dengan menghubungkan komitmen ke media bukti publikasi, seperti blockchain Bitcoin, sehingga pengeluaran UTXO secara definitif menyegel komitmen tersebut. Setelah dibelanjakan, UTXO yang sama tidak dapat dibelanjakan kembali untuk menggantikan komitmen.
 
 |                                                                                  | Komitmen sederhana (digest/hash) | Timestamps | Segel sekali pakai |
 | -------------------------------------------------------------------------------- | -------------------------------- | ---------- | ------------------ |
@@ -328,7 +328,7 @@ Segel sekali pakai bekerja dalam tiga tahap utama:
 - Alice mendefinisikan terlebih dahulu aturan untuk menerbitkan segel (kapan, di mana, dan bagaimana pesan akan diterbitkan);
 - Bob menerima atau mengetahui ketentuan-ketentuan ini.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 **Penutupan Segel :**
 
@@ -336,7 +336,7 @@ Segel sekali pakai bekerja dalam tiga tahap utama:
 - Pada saat runtime, Alice menutup segel dengan mempublikasikan pesan yang sebenarnya (biasanya dalam bentuk _commitment_, misalnya hash);
 - Segel ini juga menyediakan **saksi** (bukti kriptografi) yang membuktikan bahwa segel tersebut tertutup dan tidak dapat dibatalkan.
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 **Verifikasi Segel :**
 
@@ -384,19 +384,19 @@ Keunikan ini penting untuk Validasi Sisi Klien: ketika Anda memvalidasi transisi
 
 Sebuah kontrak pintar RGB mungkin perlu menggunakan beberapa Segel Sekali Pakai (beberapa UTXO) secara bersamaan. Terlebih lagi, satu transaksi Bitcoin dapat merujuk ke beberapa kontrak yang berbeda, masing-masing menyegel transisi statusnya sendiri. Hal ini membutuhkan mekanisme **multi-komitmen** untuk membuktikan, secara pasti dan unik, bahwa tidak ada komitmen yang ada dalam bentuk ganda. Di sinilah gagasan tentang **anchor** berperan dalam RGB: sebuah struktur khusus yang menghubungkan transaksi Bitcoin dan satu atau lebih komitmen dari sisi klien (state transition), yang masing-masing berpotensi menjadi bagian dari kontrak yang berbeda. Kita akan melihat lebih dekat konsep ini di bab selanjutnya.
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 Dua repositori GitHub utama proyek ini (di bawah organisasi LNPBP) mengelompokkan implementasi dasar dari konsep-konsep yang telah dipelajari di bab pertama:
 
 
-- client_side_validation** : Berisi primitif Rust untuk validasi lokal;
-- segel sekali pakai**: Menerapkan logika untuk menentukan dan menutup segel ini dengan aman.
+- **client_side_validation** : Berisi primitif Rust untuk validasi lokal;
+- **segel sekali pakai**: Menerapkan logika untuk menentukan dan menutup segel ini dengan aman.
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 Perlu dicatat bahwa batu bata perangkat lunak ini bersifat agnostik terhadap Bitcoin; secara teori, batu bata ini dapat diterapkan pada media bukti publikasi lainnya (registri lain, jurnal, dan lain-lain). Dalam praktiknya, RGB bergantung pada Bitcoin karena ketangguhan dan konsensus yang luas.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 ### Pertanyaan dari masyarakat
 
@@ -443,12 +443,12 @@ Seperti yang telah kita lihat pada bab pertama kursus ini, Segel Sekali Pakai ad
 Untuk memahami logikanya, mari kita ingat kembali prinsip dasarnya: untuk menutup _segel sekali pakai_, kita menghabiskan area yang disegel dengan memasukkan _komitmen_ pada pesan yang diberikan. Dalam Bitcoin, hal ini dapat dilakukan dengan beberapa cara:
 
 
-- Gunakan kunci atau alamat publik**
+- Gunakan kunci atau alamat **publik**
 
 Kita dapat memutuskan bahwa kunci atau alamat publik tertentu adalah _segel sekali pakai_. Segera setelah kunci atau alamat ini muncul secara berantai dalam sebuah transaksi, ini berarti segel tersebut ditutup dengan pesan tertentu.
 
 
-- Menggunakan hasil transaksi Bitcoin**
+- Menggunakan hasil transaksi **Bitcoin**
 
 Ini berarti bahwa segel sekali pakai didefinisikan sebagai _outpoint_ yang tepat (pasangan nomor TXID + nomor keluaran). Segera setelah _outpoint_ ini dihabiskan, segel ditutup.
 
@@ -467,11 +467,11 @@ Ketika mengerjakan RGB, kami mengidentifikasi setidaknya 4 cara berbeda untuk me
 | PkI         | Nilai Kunci Publik       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Identitas berbasis Bitcoin | Sigtweak, witweak                 |
 | TxO1        | Keluaran Transaksi       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Belum ada saat ini        | Sigtweak, witweak                 |
 
-Kita tidak akan membahas secara detail mengenai masing-masing konfigurasi ini, karena dalam RGB kita telah memilih untuk menggunakan _outpoint_ sebagai definisi seal**, dan menempatkan _commitment_ pada keluaran transaksi yang menggunakan _outpoint_ ini. Oleh karena itu, kita dapat memperkenalkan konsep-konsep berikut untuk sekuelnya:
+Kita tidak akan membahas secara detail mengenai masing-masing konfigurasi ini, karena dalam RGB kita telah memilih untuk menggunakan _outpoint_ sebagai definisi **seal**, dan menempatkan _commitment_ pada keluaran transaksi yang menggunakan _outpoint_ ini. Oleh karena itu, kita dapat memperkenalkan konsep-konsep berikut untuk sekuelnya:
 
 
 - "Definisi segel "** : Titik _output_ yang diberikan (diidentifikasi oleh TXID + no. output);
-- "Penutupan segel "**: Transaksi yang menghabiskan _outpoint_ ini, di mana _komitmen_ ditambahkan ke pesan.
+- **"Penutupan segel"**: Transaksi yang menghabiskan _outpoint_ ini, di mana _komitmen_ ditambahkan ke pesan.
 
 Skema ini dipilih karena kompatibilitasnya dengan arsitektur RGB, tetapi konfigurasi lainnya dapat berguna untuk penggunaan yang berbeda.
 
@@ -481,11 +481,11 @@ Skema ini dipilih karena kompatibilitasnya dengan arsitektur RGB, tetapi konfigu
 
 Sebagai pengingat, mendefinisikan _single-use seal_ tidak selalu membutuhkan penerbitan transaksi on-chain. Alice, misalnya, cukup memiliki UTXO yang tidak terpakai. Dia dapat memutuskan: "Titik keluar ini (yang sudah ada) sekarang menjadi segel saya". Dia mencatat ini secara lokal (_sisi-klien_), dan sampai UTXO ini dibelanjakan, segel dianggap terbuka.
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 Pada hari ketika ia ingin menutup segel (untuk menandakan sebuah peristiwa, atau untuk menambatkan pesan tertentu), ia akan menggunakan UTXO ini dalam sebuah transaksi baru (transaksi ini sering disebut dengan "_witness transaction_" (tidak ada hubungannya dengan _segwit_, ini hanyalah istilah yang kami berikan). Transaksi baru ini akan berisi _commitment_ untuk pesan tersebut.
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 Perhatikan, bahwa dalam contoh ini :
 
@@ -499,15 +499,15 @@ Oleh karena itu, Alice memiliki UTXO tertentu, di mana status atau data tertentu
 
 Alice memberi tahu Bob bahwa jika UTXO ini dibelanjakan, sebuah peristiwa tertentu akan dianggap telah terjadi. Dari luar, yang kita lihat hanyalah sebuah transaksi Bitcoin; tetapi Bob tahu bahwa pengeluaran ini memiliki makna tersembunyi.
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 Ketika Alice membelanjakan UTXO ini, ia menutup segel pada pesan yang menunjukkan kunci barunya, atau hanya pencabutan kunci lama. Dengan cara ini, siapa pun yang memonitor on-chain akan melihat bahwa UTXO telah dihabiskan, tetapi hanya mereka yang memiliki bukti lengkap yang akan mengetahui bahwa yang terjadi adalah pencabutan kunci PGP.
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 Agar Bob atau siapa pun yang terlibat dapat memeriksa pesan tersembunyi tersebut, Alice harus memberinya informasi di luar rantai.
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 Oleh karena itu, Alice harus memberikan Bob dengan :
 
@@ -515,31 +515,31 @@ Oleh karena itu, Alice harus memberikan Bob dengan :
 - Pesan itu sendiri (misalnya, kunci PGP yang baru);
 - Bukti kriptografi bahwa pesan tersebut terlibat dalam transaksi (dikenal sebagai _bukti transaksi tambahan_ atau _anchor_).
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 Pihak ketiga tidak memiliki informasi ini. Mereka hanya melihat bahwa UTXO telah dibelanjakan. Oleh karena itu, kerahasiaan terjamin.
 
 Untuk memperjelas strukturnya, mari kita rangkum prosesnya dalam dua transaksi:
 
 
-- Transaksi 1**: Ini berisi _definisi segel_, yaitu _titik akhir_ yang akan berfungsi sebagai segel.
+- **Transaksi 1**: Ini berisi _definisi segel_, yaitu _titik akhir_ yang akan berfungsi sebagai segel.
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
-- Transaksi 2**: Menghabiskan _outpoint_ ini. Ini menutup segel dan, dalam transaksi yang sama, memasukkan _komitmen_ pada pesan.
+- **Transaksi 2**: Menghabiskan _outpoint_ ini. Ini menutup segel dan, dalam transaksi yang sama, memasukkan _komitmen_ pada pesan.
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 Oleh karena itu, kami menyebut transaksi kedua sebagai "transaksi saksi".
 
 Untuk mengilustrasikan hal ini dari sudut pandang yang lain, kita bisa menggambarkannya dalam dua lapisan:
 
 
-- Lapisan teratas (blockchain, publik)**: semua orang melihat transaksi dan mengetahui bahwa sebuah _outpoint_ telah dibelanjakan;
-- Lapisan bawah (sisi klien, privat)**: hanya Alice (atau orang yang bersangkutan) yang tahu bahwa pengeluaran ini berhubungan dengan pesan ini dan itu, melalui bukti kriptografi dan pesan yang dia simpan secara lokal.
+- **Lapisan teratas (blockchain, publik)**: semua orang melihat transaksi dan mengetahui bahwa sebuah _outpoint_ telah dibelanjakan;
+- **Lapisan bawah (sisi klien, privat)**: hanya Alice (atau orang yang bersangkutan) yang tahu bahwa pengeluaran ini berhubungan dengan pesan ini dan itu, melalui bukti kriptografi dan pesan yang dia simpan secara lokal.
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 Tetapi ketika menutup segel, muncul pertanyaan di mana _commitment_ harus dimasukkan
 
@@ -554,19 +554,19 @@ Transaksi _witness_ menghabiskan UTXO yang terkenal (atau _seal definition_) dan
 Apapun metodenya (PkO, TxO2, dll.), _commitment_ dapat disisipkan:
 
 
-- Dalam sebuah Input** melalui :
-    - Sigtweak** (memodifikasi komponen `r` dari tanda tangan ECDSA, mirip dengan prinsip "Tanda tangan-ke-kontrak");
-    - Witweak** (data _segregated witness_ transaksi dimodifikasi).
-- Dalam sebuah Output** melalui :
-    - Keytweak** (kunci publik penerima "diutak-atik" dengan pesan);
-    - Opret** (pesan ditempatkan dalam output yang tidak dapat dihabiskan `OP_RETURN`);
-    - Tapret** (atau _Taptweak_), yang bergantung pada taproot untuk menyisipkan komitmen ke dalam bagian skrip dari kunci taproot, sehingga memodifikasi kunci publik secara deterministik.
+- Dalam sebuah **Input** melalui :
+- **Sigtweak** (memodifikasi komponen `r` dari tanda tangan ECDSA, mirip dengan prinsip "Tanda tangan-ke-kontrak");
+- **Witweak** (data _segregated witness_ transaksi dimodifikasi).
+- Dalam sebuah **Output** melalui :
+- **Keytweak** (kunci publik penerima "diutak-atik" dengan pesan);
+- **Opret** (pesan ditempatkan dalam output yang tidak dapat dihabiskan `OP_RETURN`);
+- **Tapret** (atau _Taptweak_), yang bergantung pada taproot untuk menyisipkan komitmen ke dalam bagian skrip dari kunci taproot, sehingga memodifikasi kunci publik secara deterministik.
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 Berikut ini adalah rincian dari masing-masing metode:
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 ***Sig tweak (tanda tangan untuk kontrak) :***
 
@@ -627,7 +627,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 Opsi terakhir adalah penggunaan **Taproot** (diperkenalkan dengan BIP341) dengan skema *Tapret*. *Tapret* adalah bentuk komitmen deterministik yang lebih kompleks, yang membawa peningkatan dalam hal jejak pada blockchain dan kerahasiaan untuk operasi kontrak. Ide utamanya adalah untuk menyembunyikan komitmen di bagian `Script Path Spend` dari [transaksi taproot] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 Sebelum menjelaskan bagaimana komitmen dimasukkan ke dalam transaksi taproot, mari kita lihat **bentuk yang tepat** dari komitmen, yang harus **secara imperatif** sesuai dengan string 64-byte [constructed] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) sebagai berikut:
 
@@ -658,7 +658,7 @@ Mari kita cermati lebih dekat masing-masing dari kedua skenario ini.
 
 Dalam kasus pertama ini, kita mulai dari kunci keluaran taproot (*Kunci Keluaran Taproot*) `Q` yang hanya berisi kunci publik internal `P` *(Kunci Internal*), tanpa jalur skrip yang terkait (*Jalur Skrip*):
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 - `P`: kunci publik internal untuk _Key Path Spend_.
@@ -667,7 +667,7 @@ Dalam kasus pertama ini, kita mulai dari kunci keluaran taproot (*Kunci Keluaran
 
 Untuk menyertakan komitmen **Tapret**, tambahkan **Skrip Jalur Pengeluaran** dengan **skrip unik**, sebagai berikut:
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 - t = tH_TWEAK(P || Script_root)` kemudian menjadi faktor tweak yang baru, termasuk **Script_root**.
@@ -677,9 +677,9 @@ Bukti inklusi dan keunikan dalam pohon akar tunggang di sini bermuara pada kunci
 
 #### Integrasi Tapret ke dalam Jalur Skrip yang sudah ada sebelumnya
 
-Skenario kedua menyangkut keluaran `Q` taproot** yang lebih kompleks, yang sudah berisi beberapa skrip. Sebagai contoh, kita memiliki sebuah pohon yang terdiri dari 3 skrip:
+Skenario kedua menyangkut keluaran `Q` **taproot** yang lebih kompleks, yang sudah berisi beberapa skrip. Sebagai contoh, kita memiliki sebuah pohon yang terdiri dari 3 skrip:
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 - tH_LEAF(x)` menunjuk fungsi hash tag yang dinormalisasi dari skrip daun.
@@ -687,7 +687,7 @@ Skenario kedua menyangkut keluaran `Q` taproot** yang lebih kompleks, yang sudah
 
 Untuk menambahkan komitmen Tapret, kita perlu menyisipkan *script yang tidak dapat dihabiskan* pada tingkat pertama dari pohon, menggeser script yang ada satu tingkat ke bawah. Secara visual, pohon tersebut menjadi :
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 - tHABC` mewakili hash yang ditandai dari pengelompokan tingkat atas `A, B, C`.
@@ -697,15 +697,15 @@ Menurut aturan akar tunggang, setiap cabang/daun harus digabungkan menurut uruta
 
 
 - `tHT` > `tHABC`: komitmen Tapret bergerak ke sebelah kanan pohon. Bukti keunikan hanya membutuhkan `tHABC` dan `P`;
-- tHT` < `tHABC`**: komitmen Tapret ditempatkan di sebelah kiri. Untuk membuktikan bahwa tidak ada komitmen Tapret lain di sebelah kanan, `tHAB` dan `tHC` harus diungkap untuk menunjukkan tidak adanya skrip lain.
+- **tHT` < `tHABC`**: komitmen Tapret ditempatkan di sebelah kiri. Untuk membuktikan bahwa tidak ada komitmen Tapret lain di sebelah kanan, `tHAB` dan `tHC` harus diungkap untuk menunjukkan tidak adanya skrip lain.
 
 Contoh visual untuk kasus pertama (`tHABC < tHT`):
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 Contoh untuk kasus kedua (`tHABC > tHT`):
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 #### Optimalisasi dengan nonce
 
@@ -793,11 +793,11 @@ Analisis menunjukkan bahwa, pada kenyataannya, metode lain (key tweak, sig tweak
 - Entah ada ketidakcocokan radikal dengan kode dompet yang ada;
 - Solusi tersebut tidak dapat digunakan dalam multisig non-kooperatif.
 
-Untuk RGB, ada dua metode yang menonjol: ***Opret*** dan **Tapret***, keduanya diklasifikasikan sebagai "Output Transaksi", dan kompatibel dengan mode TxO2 yang digunakan oleh protokol.
+Untuk RGB, ada dua metode yang menonjol: **Opret** dan **Tapret**, keduanya diklasifikasikan sebagai "Output Transaksi", dan kompatibel dengan mode TxO2 yang digunakan oleh protokol.
 
 ### Komitmen Multi Protokol - MPC
 
-Pada bagian ini, kita akan melihat bagaimana **RGB** menangani agregasi beberapa kontrak (atau, lebih tepatnya, _bundel transisi_) dalam satu komitmen (*komitmen_) yang dicatat dalam transaksi Bitcoin melalui skema deterministik (menurut `Opret` atau `Tapret`). Untuk mencapai hal ini, urutan Merkelisasi dari berbagai kontrak dilakukan dalam sebuah struktur yang disebut **MPC Tree** (Pohon Komitmen Multi Protokol). Pada bagian ini, kita akan melihat konstruksi dari Pohon MPC ini, bagaimana mendapatkan akarnya, dan bagaimana beberapa kontrak dapat berbagi transaksi yang sama secara rahasia dan jelas.
+Pada bagian ini, kita akan melihat bagaimana **RGB** menangani agregasi beberapa kontrak (atau, lebih tepatnya, *bundel transisi*) dalam satu komitmen (**komitmen**) yang dicatat dalam transaksi Bitcoin melalui skema deterministik (menurut `Opret` atau `Tapret`). Untuk mencapai hal ini, urutan Merkelisasi dari berbagai kontrak dilakukan dalam sebuah struktur yang disebut **MPC Tree** (Pohon Komitmen Multi Protokol). Pada bagian ini, kita akan melihat konstruksi dari Pohon MPC ini, bagaimana mendapatkan akarnya, dan bagaimana beberapa kontrak dapat berbagi transaksi yang sama secara rahasia dan jelas.
 
 Multi Protocol Commitment (MPC) dirancang untuk memenuhi dua kebutuhan:
 
@@ -807,7 +807,7 @@ Multi Protocol Commitment (MPC) dirancang untuk memenuhi dua kebutuhan:
 
 Secara konkret, setiap _bundel transisi_ adalah milik kontrak tertentu. Semua informasi ini dimasukkan ke dalam **MPC Tree**, yang akarnya (`mpc::Root`) kemudian di-hash lagi untuk menghasilkan `mpc::Commitment`. Hash terakhir inilah yang ditempatkan dalam transaksi Bitcoin (_witness transaction_), sesuai dengan metode deterministik yang dipilih.
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 #### Hash Akar MPC
 
@@ -825,7 +825,7 @@ di mana:
 - kofaktor` (16 bit, dalam Little Endian) adalah sebuah parameter yang digunakan untuk mempromosikan keunikan posisi yang ditetapkan untuk setiap kontrak dalam pohon;
 - `mpc::Root` adalah akar dari *MPC Tree*, dihitung menurut proses yang dijelaskan pada bagian berikutnya.
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 #### Konstruksi pohon MPC
 
@@ -910,7 +910,7 @@ Untuk mengilustrasikan hal ini, mari kita bayangkan sebuah contoh di mana `C=3` 
 
 Hasil akhirnya adalah **mpc::Root**, lalu `mpc::Commitment`.
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 #### Pemeriksaan poros MPC
 
@@ -918,7 +918,7 @@ Ketika seorang verifier ingin memastikan bahwa kontrak `c_i` (dan `BundleId`-nya
 
 Pada contoh, verifier `c_2` hanya membutuhkan hash perantara (`tH_MPC_LEAF(D)`), dua buah `tH_MPC_BRANCH(...)`, bukti posisi `pos(c_2)`, dan nilai `cofactor`. Kemudian ia dapat merekonstruksi root secara lokal, lalu menghitung ulang `mpc::Commitment` dan membandingkannya dengan yang ditulis dalam transaksi Bitcoin (dalam `Opret` atau `Tapret`).
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 Mekanisme ini memastikan bahwa :
 
@@ -928,7 +928,7 @@ Mekanisme ini memastikan bahwa :
 
 #### Ringkasan struktur MPC
 
-Multi Protocol Commitment* (MPC) adalah prinsip yang memungkinkan RGB untuk menggabungkan beberapa kontrak ke dalam satu transaksi Bitcoin, dengan tetap menjaga keunikan komitmen dan kerahasiaan terhadap partisipan lainnya. Berkat konstruksi pohon yang deterministik, setiap kontrak diberikan posisi yang unik, dan adanya daun "dummy" (*Entropy Leaves*) menutupi sebagian jumlah total kontrak yang berpartisipasi dalam transaksi.
+Multi Protocol Commitment (MPC) adalah prinsip yang memungkinkan RGB untuk menggabungkan beberapa kontrak ke dalam satu transaksi Bitcoin, dengan tetap menjaga keunikan komitmen dan kerahasiaan terhadap partisipan lainnya. Berkat konstruksi pohon yang deterministik, setiap kontrak diberikan posisi yang unik, dan adanya daun "dummy" (*Entropy Leaves*) menutupi sebagian jumlah total kontrak yang berpartisipasi dalam transaksi.
 
 Seluruh pohon Merkle tidak pernah disimpan pada klien. Kami hanya membuat _Merkle path_ untuk setiap kontrak yang bersangkutan, untuk dikirimkan ke penerima (yang kemudian dapat memvalidasi komitmen). Dalam beberapa kasus, Anda mungkin memiliki beberapa aset yang telah melewati UTXO yang sama. Anda kemudian dapat menggabungkan beberapa _Merkle path_ ke dalam apa yang disebut _block komitmen multi-protokol_, untuk menghindari duplikasi data yang terlalu banyak.
 
@@ -976,18 +976,18 @@ Kemudian, skema merkelisasi deterministik digunakan untuk menggabungkan semua da
 
 Kolom ketiga, **ETP**, bergantung pada jenis komitmen yang digunakan. Jika komitmennya bertipe `Opret`, tidak ada bukti tambahan yang diperlukan. Validator memeriksa keluaran `OP_RETURN` pertama dari transaksi dan menemukan `mpc::Commitment` secara langsung di sana.
 
-**Jika komitmennya berjenis `Tapret`, bukti tambahan yang disebut *Bukti Transaksi Ekstra - ETP* harus disediakan. Ini berisi :
+**Jika komitmennya berjenis `Tapret`, bukti tambahan yang disebut *Bukti Transaksi Ekstra - ETP* harus disediakan.** Ini berisi :
 
 
 - Kunci publik internal (`P`) dari keluaran akar tunggang di mana *komitmen* disematkan;
 - Node mitra dari `Skrip Path Spend` (ketika Tapret *commitment* disisipkan dalam skrip), untuk membuktikan lokasi yang tepat dari skrip ini dalam pohon akar tunggang:
- - Jika *komitmen `Tapret` berada di cabang sebelah kanan, kita memperlihatkan simpul sebelah kiri (misalnya `tHABC`),
+- Jika komitmen *Tapret* berada di cabang sebelah kanan, kita memperlihatkan simpul sebelah kiri (misalnya `tHABC`),
  - Jika *komitmen `Tapret` ada di sebelah kiri, Anda perlu mengungkapkan 2 node (mis. `tHAB` dan `tHC`) untuk membuktikan bahwa tidak ada *komitmen lain di sebelah kanan.
 - `nonce` dapat digunakan untuk "menambang" konfigurasi terbaik, yang memungkinkan *komitmen* ditempatkan di sebelah kanan pohon (pengoptimalan bukti).
 
 Bukti tambahan ini penting karena, tidak seperti `Opret`, komitmen `Tapret` diintegrasikan ke dalam struktur skrip taproot, yang membutuhkan pengungkapan bagian dari pohon taproot untuk memvalidasi lokasi *komitmen* dengan benar.
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 Oleh karena itu, **Anchor** merangkum semua informasi yang diperlukan untuk memvalidasi komitmen Bitcoin dalam konteks RGB. Mereka menunjukkan transaksi yang relevan (`Txid`) dan bukti posisi kontrak (`MPC Proof`), sambil mengelola bukti tambahan (`ETP`) dalam kasus `Tapret`. Dengan cara ini, Anchor melindungi integritas dan keunikan keadaan off-chain dengan memastikan bahwa transaksi yang sama tidak dapat ditafsirkan ulang untuk data kontrak lainnya.
 
@@ -1004,7 +1004,7 @@ Dalam bab ini, kita akan membahas :
 
 Dalam praktiknya, implementasi teknis dibagi antara beberapa peti khusus Rust (dalam _client_side_validation_, _commit-verify_, _bp_core_, dan lain-lain). Gagasan mendasarnya ada di sana:
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 Pada bab selanjutnya, kita akan melihat komponen off-chain murni dari RGB, yaitu logika kontrak. Kita akan melihat bagaimana kontrak RGB, yang diorganisir sebagai _finite state machine_ yang direplikasi sebagian, mencapai ekspresi yang jauh lebih tinggi daripada skrip Bitcoin, sambil menjaga kerahasiaan datanya.
 
@@ -1022,7 +1022,7 @@ Tujuan RGB adalah menyediakan infrastruktur untuk mengimplementasikan kontrak pi
 
 Otomatisasi ini menimbulkan pertanyaan tentang desentralisasi: bagaimana kita dapat membebaskan diri kita dari registri terpusat (mis. platform atau basis data pusat) untuk mengelola kepemilikan dan kinerja kontrak? Ide awalnya, yang diambil oleh RGB, adalah untuk kembali ke mode kepemilikan yang dikenal sebagai "instrumen pembawa". Secara historis, sekuritas tertentu (obligasi, saham, dll.) diterbitkan dalam bentuk pembawa, memungkinkan siapa pun yang secara fisik memiliki dokumen tersebut untuk menegakkan hak-haknya.
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 RGB menerapkan konsep ini ke dunia digital: hak (dan kewajiban) dikemas dalam data yang dimanipulasi di luar rantai, dan status data ini divalidasi oleh para partisipan itu sendiri. Hal ini memungkinkan, secara apriori, tingkat kerahasiaan dan kemandirian yang jauh lebih besar daripada yang ditawarkan oleh pendekatan lain yang didasarkan pada register publik.
 
@@ -1034,14 +1034,14 @@ Kontrak pintar dalam RGB dapat dilihat sebagai mesin negara, yang didefinisikan 
 - A **State**, yaitu sekumpulan informasi yang mencerminkan konfigurasi kontrak saat ini;
 - Sebuah **Business Logic** (seperangkat aturan), yang menjelaskan dalam kondisi apa dan oleh siapa status dapat dimodifikasi.
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 Penting untuk dipahami bahwa kontrak-kontrak ini tidak terbatas pada transfer token yang sederhana. Kontrak ini dapat mewujudkan berbagai macam aplikasi: mulai dari aset tradisional (token, saham, obligasi) hingga mekanisme yang lebih kompleks (hak penggunaan, ketentuan komersial, dll.). Tidak seperti blockchain lainnya, di mana kode kontrak dapat diakses dan dieksekusi oleh semua orang, pendekatan RGB mengkotak-kotakan akses dan pengetahuan tentang kontrak kepada para peserta ("***peserta kontrak***"). Ada beberapa peran:
 
 
-- Penerbit** atau pembuat kontrak, yang mendefinisikan Kejadian kontrak dan variabel awalnya;
-- Pihak yang memiliki hak** (*kepemilikan*) atau kemampuan penegakan hukum lainnya;
-- Pengamat**, berpotensi terbatas untuk melihat informasi tertentu, tetapi tidak dapat memicu modifikasi.
+- **Penerbit** atau pembuat kontrak, yang mendefinisikan Kejadian kontrak dan variabel awalnya;
+- Pihak yang memiliki **hak** (*kepemilikan*) atau kemampuan penegakan hukum lainnya;
+- **Pengamat**, berpotensi terbatas untuk melihat informasi tertentu, tetapi tidak dapat memicu modifikasi.
 
 Pemisahan peran ini berkontribusi pada ketahanan terhadap sensor, dengan memastikan bahwa hanya orang yang berwenang yang dapat berinteraksi dengan status kontrak. Hal ini juga memberikan RGB kemampuan untuk menskalakan secara horizontal: sebagian besar validasi terjadi di luar blockchain, dan hanya jangkar kriptografi (*komitmen*) yang tertulis di Bitcoin.
 
@@ -1058,7 +1058,7 @@ Pada saat yang sama, **Kondisi Kontrak** sering kali terbagi menjadi dua kompone
 
 
 - A **Global State**: bagian publik, berpotensi dapat diamati oleh semua orang (tergantung konfigurasi);
-- Owned States**: bagian pribadi, dialokasikan secara khusus kepada pemilik melalui UTXO yang dirujuk dalam logika kontrak.
+- **Owned States**: bagian pribadi, dialokasikan secara khusus kepada pemilik melalui UTXO yang dirujuk dalam logika kontrak.
 
 Seperti yang akan kita lihat pada bab-bab selanjutnya, setiap pembaruan status (*Contract Operation*) harus terhubung dengan _commitment_ Bitcoin (melalui `Opret` atau `Tapret`) dan sesuai dengan skrip *Business Logic* agar dianggap valid.
 
@@ -1072,7 +1072,7 @@ Di alam semesta RGB, ***Operasi Kontrak*** adalah peristiwa apa pun yang menguba
 - Kami mengaitkan modifikasi melalui _commitment_ baru pada blockchain, menutup satu _segel sekali pakai_ dan membuat yang lain;
 - Pemegang hak yang bersangkutan memvalidasi secara lokal (*sisi klien*) bahwa transisi tersebut sesuai dengan *Skema* dan bahwa transaksi Bitcoin yang terkait didaftarkan secara on-chain.
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 Hasil akhirnya adalah sebuah kontrak yang telah diperbarui, dengan status yang berbeda. Transisi ini tidak mengharuskan seluruh jaringan Bitcoin untuk memperhatikan detailnya, karena hanya sidik jari kriptografi kecil (_commitment_) yang dicatat dalam blockchain. Urutan Segel Sekali Pakai mencegah pengeluaran ganda atau penggunaan ganda dari State.
 
@@ -1085,7 +1085,7 @@ Untuk menempatkan ini ke dalam perspektif, kontrak pintar RGB dimulai dengan **G
 - Urutan kronologis dijamin dengan dimasukkannya setiap transisi ke dalam jangkar Bitcoin, yang dicap waktu dan tidak dapat diubah berkat konsensus oleh Proof-of-Work ;
 - Ketika tidak ada lagi operasi yang sedang berlangsung, **Terminal State** tercapai: kondisi kontrak yang paling baru dan lengkap.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 Topologi DAG ini (bukan rantai linear sederhana) mencerminkan kemungkinan bahwa bagian-bagian yang berbeda dari kontrak dapat berkembang secara paralel, selama mereka tidak bertentangan satu sama lain. RGB kemudian menghindari ketidakkonsistenan dengan melakukan verifikasi *sisi-klien* terhadap setiap peserta yang terlibat.
 
@@ -1094,9 +1094,9 @@ Topologi DAG ini (bukan rantai linear sederhana) mencerminkan kemungkinan bahwa 
 Kontrak pintar di RGB memperkenalkan model instrumen pembawa digital, terdesentralisasi tetapi berlabuh di Bitcoin untuk penanda waktu dan menjamin urutan transaksi. Eksekusi otomatis dari kontrak-kontrak ini didasarkan pada :
 
 
-- Status Kontrak*, yang menunjukkan konfigurasi kontrak saat ini (hak, saldo, variabel, dll.);
+- **Status Kontrak**, yang menunjukkan konfigurasi kontrak saat ini (hak, saldo, variabel, dll.);
 - Logika Bisnis (*Skema*), yang mendefinisikan transisi mana yang diperbolehkan dan bagaimana transisi tersebut harus divalidasi;
-- Operasi Kontrak**, yang memperbarui status ini selangkah demi selangkah, berkat komitmen yang ditambatkan pada transaksi Bitcoin.
+- **Operasi Kontrak**, yang memperbarui status ini selangkah demi selangkah, berkat komitmen yang ditambatkan pada transaksi Bitcoin.
 
 Pada bab selanjutnya, kita akan membahas lebih detail mengenai representasi konkret dari ***state*** dan ***state transition*** pada tingkat off-chain, dan bagaimana mereka berhubungan dengan UTXO dan Segel Sekali Pakai yang tertanam pada Bitcoin. Ini akan menjadi kesempatan untuk melihat bagaimana mekanisme internal RGB, berdasarkan validasi sisi klien, berhasil menjaga konsistensi kontrak pintar sambil menjaga kerahasiaan data.
 
@@ -1118,19 +1118,19 @@ Untuk mengilustrasikan proses *Transisi Status* (yang merupakan salah satu ***Op
 
 Alice memiliki ***stash RGB*** data yang divalidasi secara lokal (*sisi klien*). Stash ini merujuk pada salah satu UTXO-nya di Bitcoin. Ini berarti bahwa _seal definition_ dalam data ini menunjuk pada UTXO milik Alice. Idenya adalah untuk memungkinkannya mentransfer hak digital tertentu yang terkait dengan aset (misalnya token RGB) kepada Bob.
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 **Bob juga memiliki UTXO :**
 
 Bob, di sisi lain, memiliki setidaknya satu UTXO miliknya sendiri, tanpa hubungan langsung dengan Alice. Jika Bob tidak memiliki UTXO, masih memungkinkan untuk melakukan transfer kepadanya menggunakan *transaksi saksi* itu sendiri: hasil dari transaksi ini kemudian akan menyertakan komitmen (_komitmen_) dan secara implisit mengasosiasikan kepemilikan kontrak baru dengan Bob.
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 **Pembangunan properti baru (*Negara Bagian Baru*) :**
 
 Bob mengirimkan informasi kepada Alice yang dikodekan dalam bentuk ***invoice*** (kita akan membahas lebih detail tentang konstruksi invoice di bab selanjutnya), memintanya untuk membuat state baru yang sesuai dengan aturan kontrak. State ini akan menyertakan *definisi segel* baru yang menunjuk ke salah satu UTXO milik Bob. Dengan cara ini, Bob diberikan kepemilikan atas aset yang didefinisikan dalam state baru ini, misalnya sejumlah token RGB.
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 **Persiapan transaksi sampel:**
 
@@ -1148,13 +1148,13 @@ Sebelum menyiarkan transaksi, Alice mengirimi Bob sebuah ***Konsinyasi*** yang b
 
 Jika Bob puas, dia dapat memberikan persetujuannya (misalnya, dengan menandatangani *konsinyasi*). Alice kemudian dapat menyiarkan transaksi sampel yang telah disiapkan. Setelah dikonfirmasi, hal ini akan menutup segel yang sebelumnya dipegang oleh Alice dan meresmikan kepemilikan oleh Bob. Keamanan anti-pembelanjaan ganda kemudian didasarkan pada mekanisme yang sama seperti pada Bitcoin: UTXO dibelanjakan, membuktikan bahwa Alice tidak dapat lagi menggunakannya kembali.
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 Status baru sekarang merujuk pada UTXO milik Bob, memberikan Bob kepemilikan yang sebelumnya dipegang oleh Alice. Keluaran Bitcoin di mana data RGB ditambatkan menjadi bukti yang tidak dapat dibatalkan dari transfer kepemilikan.
 
 Sebuah contoh DAG minimal (*Directed Acyclic Graph*) yang terdiri dari dua operasi kontrak (**Genesis** kemudian ***State Transition***) dapat mengilustrasikan bagaimana state RGB (*lapisan sisi-klien, berwarna merah) terhubung ke blockchain Bitcoin (*lapisan Komitmen, berwarna oranye).
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 Ini menunjukkan bahwa sebuah Genesis mendefinisikan sebuah seal (*seal definition*), kemudian sebuah *State Transition* menutup seal ini untuk membuat seal baru di UTXO lain.
 
@@ -1162,15 +1162,15 @@ Dalam konteks ini, berikut ini beberapa pengingat terminologi:
 
 
 - Sebuah ***Penugasan*** menggabungkan :
-    - Definisi Segel*** (yang menunjuk ke UTXO);
-    - Status Kepemilikan**, yaitu data yang terkait dengan kepemilikan (misalnya, jumlah token yang ditransfer).
+- Definisi **Segel** (yang menunjuk ke UTXO);
+- **Status Kepemilikan**, yaitu data yang terkait dengan kepemilikan (misalnya, jumlah token yang ditransfer).
 - Sebuah **Negara Global** menyatukan sifat-sifat umum dari kontrak, yang dapat dilihat oleh semua orang, dan memastikan konsistensi evolusi global.
 
-State Transition**, yang dijelaskan pada bab sebelumnya, adalah bentuk utama operasi kontrak. Mereka mengacu pada satu atau lebih state sebelumnya (dari Genesis atau State Transition lain) dan memperbaruinya ke state baru.
+**State Transition**, yang dijelaskan pada bab sebelumnya, adalah bentuk utama operasi kontrak. Mereka mengacu pada satu atau lebih state sebelumnya (dari Genesis atau State Transition lain) dan memperbaruinya ke state baru.
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
-Diagram ini menunjukkan bagaimana, dalam *State Transition Bundle*, beberapa segel dapat ditutup dalam satu transaksi sampel, sementara secara bersamaan membuka segel baru. Memang, fitur yang menarik dari protokol RGB adalah kemampuannya untuk menskalakan: beberapa transisi dapat digabungkan ke dalam Transition Bundle, setiap agregasi dikaitkan dengan daun yang berbeda dari pohon *MPC* (pengenal bundel yang unik). Berkat mekanisme *Deterministic Bitcoin Commitment* (DBC), seluruh pesan dimasukkan ke dalam output `Tapret` atau `Opret`, sambil menutup segel sebelumnya dan mungkin mendefinisikan segel baru. Jangkar (Anchor) berfungsi sebagai penghubung langsung antara komitmen yang tersimpan dalam blockchain dan struktur validasi sisi klien (*client-side).
+Diagram ini menunjukkan bagaimana, dalam **State Transition Bundle**, beberapa segel dapat ditutup dalam satu transaksi sampel, sementara secara bersamaan membuka segel baru. Memang, fitur yang menarik dari protokol RGB adalah kemampuannya untuk menskalakan: beberapa transisi dapat digabungkan ke dalam Transition Bundle, setiap agregasi dikaitkan dengan daun yang berbeda dari pohon **MPC** (pengenal bundel yang unik). Berkat mekanisme **Deterministic Bitcoin Commitment** (DBC), seluruh pesan dimasukkan ke dalam output `Tapret` atau `Opret`, sambil menutup segel sebelumnya dan mungkin mendefinisikan segel baru. Jangkar (Anchor) berfungsi sebagai penghubung langsung antara komitmen yang tersimpan dalam blockchain dan struktur validasi sisi klien (*client-side*).
 
 Pada bab-bab berikutnya, kita akan melihat semua komponen dan proses yang terlibat dalam membangun dan memvalidasi State Transition. Sebagian besar elemen ini merupakan bagian dari konsensus RGB, yang diimplementasikan dalam **RGB Core Library**.
 
@@ -1215,13 +1215,13 @@ Dengan mereferensikan setiap entri hanya satu kali dan dengan cara yang teratur,
 Oleh karena itu, State Transitions dapat digunakan untuk mentransfer kepemilikan aset dari satu orang ke orang lain. Namun, mereka bukan satu-satunya operasi yang memungkinkan dalam protokol RGB. Protokol ini mendefinisikan tiga **Operasi Kontrak**:
 
 
-- Transisi Negara** ;
-- Kejadian** ;
-- Perpanjangan Negara**.
+- **Transisi Negara**;
+- **Kejadian**;
+- Perpanjangan Negara.
 
 Di antaranya, **Genesis** dan **State Extension** kadang-kadang disebut "*Operasi Pembuatan State*", karena mereka membuat state baru tanpa langsung menutup state yang lain. Ini adalah poin yang sangat penting: **Genesis** dan **State Extension** tidak melibatkan penutupan segel. Melainkan, mereka mendefinisikan sebuah segel baru, yang kemudian harus dihabiskan oleh **Transisi Negara** berikutnya untuk benar-benar divalidasi dalam sejarah blockchain.
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 Status **Active State** dari sebuah kontrak sering kali didefinisikan sebagai sekumpulan status terbaru yang dihasilkan dari riwayat (DAG) transaksi, dimulai dari Genesis dan mengikuti semua jangkar dalam blockchain Bitcoin. Status lama yang sudah tidak aktif (yaitu yang melekat pada UTXO yang sudah habis) tidak lagi dianggap aktif, tetapi tetap penting untuk memeriksa konsistensi riwayat.
 
@@ -1247,7 +1247,7 @@ State Extensions** menawarkan sebuah fitur orisinil untuk smart contract. Mereka
 
 Secara teknis, State Extension mereferensikan *Redeem* (jenis input RGB tertentu) yang sesuai dengan *Valency* yang didefinisikan sebelumnya (misalnya, dalam Genesis atau State Transition lainnya). Ini mendefinisikan segel baru, tersedia untuk orang atau kondisi yang mendapatkan manfaat darinya. Agar segel ini menjadi efektif, segel ini harus dihabiskan oleh State Transition berikutnya.
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 Sebagai contoh: Genesis menciptakan hak penerbitan (*Valency*). Ini dapat dilakukan oleh aktor yang berwenang, yang kemudian membangun Ekstensi Negara :
 
@@ -1317,17 +1317,17 @@ Jika kita melihat diagram di atas, kita dapat melihat bahwa Operasi Kontrak menc
 Elemen-elemen dari **Negara Baru** adalah :
 
 
-- Penugasan**, yang di dalamnya didefinisikan :
+- **Penugasan**, yang di dalamnya didefinisikan :
  - Definisi Segel **Definisi Segel**;
- - Negara yang Dimiliki**.
+- Negara yang **Dimiliki**.
 - Status **Global**, yang dapat dimodifikasi atau diperkaya;
-- Valuta**, mungkin didefinisikan dalam Transisi Negara atau Kejadian.
+- **Valuta**, mungkin didefinisikan dalam Transisi Negara atau Kejadian.
 
 Status **Lama** direferensikan melalui :
 
 
-- Input**, yang menunjuk ke *Penugasan* dari transisi status sebelumnya (tidak ada di Genesis);
-- Penukaran**, yang mengacu pada Valuta yang telah ditentukan sebelumnya (hanya dalam Ekstensi Negara).
+- **Input**, yang menunjuk ke *Penugasan* dari transisi status sebelumnya (tidak ada di Genesis);
+- **Penukaran**, yang mengacu pada Valuta yang telah ditentukan sebelumnya (hanya dalam Ekstensi Negara).
 
 Selain itu, Operasi Kontrak mencakup bidang-bidang yang lebih umum yang spesifik untuk operasi tersebut:
 
@@ -1348,23 +1348,23 @@ Kontrak RGB kemudian diidentifikasi oleh `ContractId`, yang berasal dari Genesis
 
 ### Metode dan aturan pembaruan status
 
-Status Kontrak** mewakili sekumpulan informasi yang harus dilacak oleh protokol RGB untuk kontrak tertentu. Ini terdiri dari :
+**Status Kontrak** mewakili sekumpulan informasi yang harus dilacak oleh protokol RGB untuk kontrak tertentu. Ini terdiri dari :
 
 
-- Satu Global State**: ini adalah bagian global yang bersifat publik dan dapat dilihat oleh semua orang;
-- Satu atau lebih Owned State**: setiap Owned State dikaitkan dengan segel unik (dan oleh karena itu merupakan UTXO pada Bitcoin). Perbedaan dibuat antara :
+- **Satu Global State**: ini adalah bagian global yang bersifat publik dan dapat dilihat oleh semua orang;
+- Satu atau lebih **Owned State**: setiap Owned State dikaitkan dengan segel unik (dan oleh karena itu merupakan UTXO pada Bitcoin). Perbedaan dibuat antara :
     - Negara-negara yang dimiliki oleh publik,
     - Negara yang Dimiliki oleh **swasta**.
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 Negara Bagian Global* secara langsung disertakan dalam *Operasi Kontrak* sebagai satu blok. Negara Bagian yang Dimiliki* didefinisikan dalam setiap *Penugasan*, di samping *Definisi Segel*.
 
 Fitur utama RGB adalah cara di mana Status Global dan Status Milik dimodifikasi. Pada umumnya ada dua jenis perilaku:
 
 
-- Dapat berubah**: ketika sebuah elemen state dideskripsikan sebagai dapat berubah, setiap operasi baru akan menggantikan state sebelumnya dengan state yang baru. Data lama kemudian dianggap usang;
-- Akumulasi**: ketika elemen status didefinisikan sebagai akumulasi, setiap operasi baru menambahkan informasi baru ke status sebelumnya, tanpa menimpanya. Hasilnya adalah semacam akumulasi sejarah.
+- **Dapat berubah**: ketika sebuah elemen state dideskripsikan sebagai dapat berubah, setiap operasi baru akan menggantikan state sebelumnya dengan state yang baru. Data lama kemudian dianggap usang;
+- **Akumulasi**: ketika elemen status didefinisikan sebagai akumulasi, setiap operasi baru menambahkan informasi baru ke status sebelumnya, tanpa menimpanya. Hasilnya adalah semacam akumulasi sejarah.
 
 Jika, dalam kontrak, sebuah elemen state tidak didefinisikan sebagai dapat diubah atau kumulatif, elemen ini akan tetap kosong untuk operasi selanjutnya (dengan kata lain, tidak ada versi baru untuk bidang ini). Skema kontrak (yaitu logika bisnis yang dikodekan) yang menentukan apakah sebuah state (Global atau Owned) dapat berubah, kumulatif, atau tetap. Setelah Genesis didefinisikan, properti ini hanya dapat dimodifikasi jika kontrak itu sendiri mengizinkannya, misalnya melalui State Extension tertentu.
 
@@ -1416,42 +1416,42 @@ The *Assignment* adalah struktur dasar untuk mendefinisikan :
 
 Sebuah *Assignment* dapat dilihat sebagai analog dari hasil transaksi Bitcoin, namun dengan fleksibilitas yang lebih tinggi. Di sinilah letak logika transfer properti: *Assignment* mengasosiasikan jenis aset atau hak tertentu (`AssignmentType`) dengan segel. Siapa pun yang memiliki kunci pribadi UTXO yang terhubung dengan segel ini (atau siapa pun yang dapat membelanjakan UTXO ini) dianggap sebagai pemilik dari *State Milik* ini.
 
-Salah satu kekuatan besar RGB terletak pada kemampuannya untuk menyingkap (*reveal*) atau menyembunyikan (*conceal*) bidang *Seal Definition* dan *Owned State* sesuka hati. Hal ini menawarkan kombinasi yang kuat antara kerahasiaan dan selektivitas. Sebagai contoh, Anda dapat membuktikan bahwa sebuah transisi valid tanpa mengungkapkan semua data, dengan memberikan versi yang terungkap kepada orang yang harus memvalidasinya, sementara pihak ketiga hanya melihat versi tersembunyi (hash). Dalam praktiknya, `OpId` dari sebuah transisi selalu dihitung dari data yang *disembunyikan.
+Salah satu kekuatan besar RGB terletak pada kemampuannya untuk menyingkap (*reveal*) atau menyembunyikan (*conceal*) bidang *Seal Definition* dan *Owned State* sesuka hati. Hal ini menawarkan kombinasi yang kuat antara kerahasiaan dan selektivitas. Sebagai contoh, Anda dapat membuktikan bahwa sebuah transisi valid tanpa mengungkapkan semua data, dengan memberikan versi yang terungkap kepada orang yang harus memvalidasinya, sementara pihak ketiga hanya melihat versi tersembunyi (hash). Dalam praktiknya, `OpId` dari sebuah transisi selalu dihitung dari data yang *disembunyikan*.
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 #### Definisi Segel
 
 Definisi Segel, dalam bentuknya yang terungkap, memiliki empat bidang dasar: `txptr`, `vout`, `blinding` dan `method` :
 
 
-- txptr**: ini adalah referensi ke UTXO pada Bitcoin:
+- **txptr**: ini adalah referensi ke UTXO pada Bitcoin:
     - Dalam kasus **Segel Genesis**, segel ini menunjuk langsung ke UTXO yang ada (yang terkait dengan Genesis);
     - Dalam kasus **Graph seal**, kita dapat memiliki :
         - Sebuah `txid` sederhana, jika menunjuk ke UTXO tertentu,
         - Atau `WitnessTx`, yang menunjukkan referensi mandiri: segel menunjuk ke transaksi itu sendiri. Ini sangat berguna ketika tidak ada UTXO eksternal yang tersedia, misalnya dalam transaksi pembukaan saluran Lightning, atau jika penerima tidak memiliki UTXO.
-- vout** : nomor keluaran dari transaksi yang ditunjukkan oleh `txptr`. Hanya ada untuk segel Graph standar (bukan untuk `WitnessTx`);
-- blinding**: angka acak 8 byte, untuk memperkuat kerahasiaan dan mencegah upaya brute force pada identitas UTXO;
-- method** : menunjukkan metode penahan yang digunakan (`Tapret` atau `Opret`).
+- **vout** : nomor keluaran dari transaksi yang ditunjukkan oleh `txptr`. Hanya ada untuk segel Graph standar (bukan untuk `WitnessTx`);
+- **blinding**: angka acak 8 byte, untuk memperkuat kerahasiaan dan mencegah upaya brute force pada identitas UTXO;
+- **method** : menunjukkan metode penahan yang digunakan (`Tapret` atau `Opret`).
 
 Bentuk *disembunyikan* dari Definisi Segel adalah hash SHA256 (ditandai) dari gabungan 4 bidang ini, dengan tag khusus untuk RGB.
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 #### Negara Bagian yang Dimiliki
 
 Komponen kedua dari *Penugasan* adalah Status Milik. Tidak seperti Global State, ini bisa ada dalam bentuk publik atau privat:
 
 
-- Negara Milik Publik**: semua orang mengetahui data yang terkait dengan segel. Misalnya, gambar publik;
-- Status Milik Pribadi**: data disembunyikan, hanya diketahui oleh pemiliknya (dan mungkin validator jika diperlukan). Misalnya, jumlah token yang dimiliki.
+- **Negara Milik Publik**: semua orang mengetahui data yang terkait dengan segel. Misalnya, gambar publik;
+- **Status Milik Pribadi**: data disembunyikan, hanya diketahui oleh pemiliknya (dan mungkin validator jika diperlukan). Misalnya, jumlah token yang dimiliki.
 
 RGB mendefinisikan empat jenis status yang mungkin (*StateTypes*) untuk Status Milik:
 
 
-- Deklaratif**: tidak berisi data numerik, hanya hak deklaratif (misalnya hak untuk memilih). Bentuk yang tersembunyi dan yang terungkap adalah identik;
-- Fungible**: mewakili kuantitas yang dapat dipertukarkan (seperti token). Dalam bentuk terbuka, kita memiliki `jumlah` dan `kebodohan`. Dalam bentuk tersembunyi, kita memiliki satu *komitmen Pedersen* yang menyembunyikan jumlah dan blinding;
-- Terstruktur**: menyimpan data terstruktur (hingga 64 kB). Dalam bentuk yang terlihat, ini adalah gumpalan data. Dalam bentuk tersembunyi, ini adalah hash yang ditandai dari gumpalan ini:
+- **Deklaratif**: tidak berisi data numerik, hanya hak deklaratif (misalnya hak untuk memilih). Bentuk yang tersembunyi dan yang terungkap adalah identik;
+- **Fungible**: mewakili kuantitas yang dapat dipertukarkan (seperti token). Dalam bentuk terbuka, kita memiliki `jumlah` dan `kebodohan`. Dalam bentuk tersembunyi, kita memiliki satu *komitmen Pedersen* yang menyembunyikan jumlah dan blinding;
+- **Terstruktur**: menyimpan data terstruktur (hingga 64 kB). Dalam bentuk yang terlihat, ini adalah gumpalan data. Dalam bentuk tersembunyi, ini adalah hash yang ditandai dari gumpalan ini:
 
 ```txt
 SHA-256(SHA-256(tag_data) || SHA-256(tag_data) || blob)
@@ -1464,7 +1464,7 @@ tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 ```
 
 
-- Lampiran**: menautkan berkas (audio, gambar, biner, dll.) ke Status Milik, menyimpan hash berkas `file_hash`, tipe MIME `tipe media` dan garam kriptografi `salt`. File itu sendiri dihosting di tempat lain. Dalam bentuk tersembunyi, file tersebut merupakan hash yang ditandai dengan tiga item data sebelumnya:
+- **Lampiran**: menautkan berkas (audio, gambar, biner, dll.) ke Status Milik, menyimpan hash berkas `file_hash`, tipe MIME `tipe media` dan garam kriptografi `salt`. File itu sendiri dihosting di tempat lain. Dalam bentuk tersembunyi, file tersebut merupakan hash yang ditandai dengan tiga item data sebelumnya:
 
 ```txt
 SHA-256(SHA-256(tag_attachment) || SHA-256(tag_attachment) || file_hash || media_type || salt)
@@ -1533,7 +1533,7 @@ Bidang **Metadata** dapat berukuran hingga 64 KiB dan digunakan untuk menyertaka
 
 ### Valuta
 
-Valensi** adalah mekanisme protokol RGB asli. Mereka dapat ditemukan di Genesis, State Transitions atau State Extensions. Mereka mewakili hak numerik yang dapat diaktifkan oleh State Extension (melalui *Redeems*), kemudian diselesaikan oleh Transisi berikutnya. Setiap Valensi diidentifikasi oleh `ValencyType` (16 bit). Semantiknya (hak penerbitan ulang, pertukaran token, hak bakar, dll.) didefinisikan dalam Skema.
+**Valensi** adalah mekanisme protokol RGB asli. Mereka dapat ditemukan di Genesis, State Transitions atau State Extensions. Mereka mewakili hak numerik yang dapat diaktifkan oleh State Extension (melalui *Redeems*), kemudian diselesaikan oleh Transisi berikutnya. Setiap Valensi diidentifikasi oleh `ValencyType` (16 bit). Semantiknya (hak penerbitan ulang, pertukaran token, hak bakar, dll.) didefinisikan dalam Skema.
 
 Secara konkret, kita dapat membayangkan sebuah Genesis yang mendefinisikan valensi "hak untuk menerbitkan kembali". Sebuah State Extension akan mengkonsumsinya (*Redeem*) jika kondisi tertentu terpenuhi, untuk memperkenalkan jumlah token yang baru. Kemudian, sebuah State Transition yang berasal dari pemegang segel yang telah dibuat dapat mentransfer token-token baru ini.
 
@@ -1552,7 +1552,7 @@ Contoh: Penukaran dapat berhubungan dengan eksekusi CoinSwap, tergantung pada ap
 Sekarang, kita akan mencermati beberapa karakteristik keadaan mendasar dalam RGB. Khususnya, kita akan mencermati :
 
 
-- Sistem Ketik Ketat**, yang menerapkan pengaturan data yang tepat dan diketik;
+- **Sistem Ketik Ketat**, yang menerapkan pengaturan data yang tepat dan diketik;
 - Pentingnya memisahkan **validasi** dari **kepemilikan**;
 - Sistem **evolusi konsensus** dalam RGB, yang mencakup gagasan *cepat-maju* dan *mundur-mundur*.
 
@@ -1608,14 +1608,14 @@ Batas ini menjamin :
 Salah satu inovasi utama RGB adalah pemisahan yang tegas antara dua konsep:
 
 
-- Validasi**: memeriksa apakah transisi keadaan mematuhi aturan kontrak (logika bisnis, riwayat, dll.);
+- **Validasi**: memeriksa apakah transisi keadaan mematuhi aturan kontrak (logika bisnis, riwayat, dll.);
 - Kepemilikan (ownership): fakta kepemilikan Bitcoin UTXO yang memungkinkan Segel Sekali Pakai untuk digunakan (atau ditutup), dan dengan demikian transisi negara terjadi.
 
-Validasi** terjadi pada tingkat tumpukan perangkat lunak RGB (pustaka, protokol *komitmen*, dll.). Perannya adalah untuk memastikan bahwa aturan internal kontrak (jumlah, izin, dll.) dihormati. Pengamat atau peserta lain juga dapat memvalidasi riwayat data.
+**Validasi** terjadi pada tingkat tumpukan perangkat lunak RGB (pustaka, protokol *komitmen*, dll.). Perannya adalah untuk memastikan bahwa aturan internal kontrak (jumlah, izin, dll.) dihormati. Pengamat atau peserta lain juga dapat memvalidasi riwayat data.
 
-Kepemilikan**, di sisi lain, sepenuhnya bergantung pada keamanan Bitcoin. Memiliki private key dari UTXO berarti mengendalikan kemampuan untuk meluncurkan transisi baru (menutup Segel Sekali Pakai). Jadi, meskipun seseorang dapat melihat atau memvalidasi data, mereka tidak dapat mengubah status jika mereka tidak memiliki UTXO yang bersangkutan.
+**Kepemilikan**, di sisi lain, sepenuhnya bergantung pada keamanan Bitcoin. Memiliki private key dari UTXO berarti mengendalikan kemampuan untuk meluncurkan transisi baru (menutup Segel Sekali Pakai). Jadi, meskipun seseorang dapat melihat atau memvalidasi data, mereka tidak dapat mengubah status jika mereka tidak memiliki UTXO yang bersangkutan.
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 Pendekatan ini membatasi kerentanan klasik yang ditemukan pada blockchain yang lebih kompleks (di mana semua kode smart contract bersifat publik dan dapat dimodifikasi oleh siapa saja, yang terkadang menyebabkan peretasan). Pada RGB, seorang penyerang tidak dapat dengan mudah berinteraksi dengan status on-chain, karena hak untuk bertindak atas status tersebut (*kepemilikan*) dilindungi oleh lapisan Bitcoin.
 
@@ -1626,8 +1626,8 @@ Terlebih lagi, pemisahan ini memungkinkan RGB untuk berintegrasi secara alami de
 Selain versi kode semantik, RGB mencakup sistem untuk mengembangkan atau memperbarui aturan konsensus kontrak dari waktu ke waktu. Ada dua bentuk utama evolusi:
 
 
-- Maju cepat**
-- Dorong ke belakang** (dalam bahasa Prancis)
+- **Maju cepat**
+- **Dorong ke belakang** (dalam bahasa Prancis)
 
 Kemajuan cepat terjadi ketika aturan yang sebelumnya tidak valid menjadi valid. Misalnya, jika kontrak berevolusi untuk mengizinkan jenis baru `TipePenugasan` atau bidang baru:
 
@@ -1665,7 +1665,7 @@ Anchor mewakili sekumpulan data sisi klien yang digunakan untuk membuktikan peny
 
 - Pengidentifikasi transaksi Bitcoin (TXID) dari **transaksi saksi**;
 - Komitmen Multi Protokol (MPC);
-- Komitmen Bitcoin Deterministik (DBC) **;
+- Komitmen Bitcoin Deterministik (DBC);
 - Bukti Transaksi Ekstra (ETP) jika mekanisme komitmen **Tapret** digunakan (lihat bagian yang didedikasikan untuk model ini).
 
 Oleh karena itu, Anchor berfungsi untuk membuat hubungan yang dapat diverifikasi antara transaksi Bitcoin tertentu dengan data pribadi yang divalidasi oleh protokol RGB. Anchor menjamin bahwa data-data ini memang dimasukkan ke dalam blockchain, tanpa konten yang sebenarnya terekspos ke publik.
@@ -1699,13 +1699,13 @@ $$
 Mekanisme ini terdiri dari dua operasi utama:
 
 
-- Commit**: fungsi kriptografi diterapkan pada pesan `m` dan angka acak `r` untuk menghasilkan `C`;
-- Verify**: kita menggunakan `C`, pesan `m`, dan nilai `r` untuk memeriksa apakah komitmen ini benar. Fungsi ini mengembalikan `True` atau `False`.
+- **Commit**: fungsi kriptografi diterapkan pada pesan `m` dan angka acak `r` untuk menghasilkan `C`;
+- **Verify**: kita menggunakan `C`, pesan `m`, dan nilai `r` untuk memeriksa apakah komitmen ini benar. Fungsi ini mengembalikan `True` atau `False`.
 
 Sebuah komitmen harus menghormati dua sifat:
 
 
-- Pengikatan**: tidak mungkin menemukan dua pesan berbeda yang menghasilkan `C` yang sama:
+- **Pengikatan**: tidak mungkin menemukan dua pesan berbeda yang menghasilkan `C` yang sama:
 
 $$
 m' : \, | \, : m' \neq m \quad \text{and} \quad r' : \, | \, : r' \neq r \quad
@@ -1718,7 +1718,7 @@ $$
 $$
 
 
-- Menyembunyikan**: pengetahuan tentang `C` tidak boleh mengungkapkan isi `m`.
+- **Menyembunyikan**: pengetahuan tentang `C` tidak boleh mengungkapkan isi `m`.
 
 Dalam protokol RGB, sebuah komitmen disertakan dalam transaksi Bitcoin untuk membuktikan keberadaan sebuah informasi tertentu pada waktu tertentu, tanpa mengungkapkan informasi itu sendiri.
 
@@ -1727,8 +1727,8 @@ Dalam protokol RGB, sebuah komitmen disertakan dalam transaksi Bitcoin untuk mem
 Konsinyasi **Konsinyasi** mengelompokkan data yang dipertukarkan di antara kedua belah pihak, tunduk pada Validasi Sisi Klien di RGB. Ada dua kategori utama konsinyasi:
 
 
-- Konsinyasi Kontrak**: disediakan oleh *issuer* (penerbit kontrak), ini mencakup informasi inisialisasi seperti Skema, Kejadian, Antarmuka, dan Implementasi Antarmuka.
-- Konsinyasi Transfer**: disediakan oleh pihak yang membayar (*pembayar*). Ini berisi seluruh riwayat transisi status yang mengarah ke pengiriman terminal (yaitu status akhir yang diterima oleh pembayar).
+- **Konsinyasi Kontrak**: disediakan oleh *issuer* (penerbit kontrak), ini mencakup informasi inisialisasi seperti Skema, Kejadian, Antarmuka, dan Implementasi Antarmuka.
+- **Konsinyasi Transfer**: disediakan oleh pihak yang membayar (*pembayar*). Ini berisi seluruh riwayat transisi status yang mengarah ke pengiriman terminal (yaitu status akhir yang diterima oleh pembayar).
 
 Kiriman ini tidak dicatat secara publik di blockchain; mereka dipertukarkan secara langsung antara pihak-pihak yang bersangkutan melalui saluran komunikasi pilihan mereka.
 
@@ -1741,9 +1741,9 @@ Kontrak adalah seperangkat hak yang dieksekusi secara digital antara beberapa ak
 Operasi Kontrak adalah pembaruan status kontrak yang dilakukan sesuai dengan aturan Skema. Operasi-operasi berikut ini ada di RGB:
 
 
-- Transisi Negara** ;
-- Kejadian** ;
-- Perpanjangan Negara**.
+- **Transisi Negara**;
+- **Kejadian**;
+- Perpanjangan Negara.
 
 Setiap operasi memodifikasi status dengan menambahkan atau mengganti data tertentu (Status Global, Status Milik...).
 
@@ -1761,9 +1761,9 @@ Peserta Kontrak adalah aktor yang mengambil bagian dalam operasi yang berkaitan 
 Hak Kontrak mengacu pada berbagai hak yang dapat digunakan oleh mereka yang terlibat dalam kontrak RGB. Hak-hak tersebut terbagi dalam beberapa kategori:
 
 
-- Hak kepemilikan**, terkait dengan kepemilikan UTXO tertentu (melalui _Definisi Segel_);
-- Hak eksekutif**, yaitu kemampuan untuk membangun satu atau lebih transisi (Transisi Negara) sesuai dengan Skema ;
-- Hak publik**, ketika Skema mengizinkan penggunaan publik tertentu, misalnya pembuatan Ekstensi Negara melalui penukaran Valuta.
+- **Hak kepemilikan**, terkait dengan kepemilikan UTXO tertentu (melalui _Definisi Segel_);
+- **Hak eksekutif**, yaitu kemampuan untuk membangun satu atau lebih transisi (Transisi Negara) sesuai dengan Skema ;
+- Hak publik, ketika Skema mengizinkan penggunaan publik tertentu, misalnya pembuatan Ekstensi Negara melalui penukaran Valuta.
 
 #### Status Kontrak
 
@@ -1771,15 +1771,15 @@ Status Kontrak berhubungan dengan keadaan kontrak saat ini pada saat tertentu. S
 
 
 - Status **Global**, yang mencakup properti publik kontrak (diatur dalam Genesis atau ditambahkan melalui pembaruan resmi);
-- Negara Milik**, yang dimiliki oleh pemilik tertentu, yang diidentifikasi oleh UTXO mereka.
+- **Negara Milik**, yang dimiliki oleh pemilik tertentu, yang diidentifikasi oleh UTXO mereka.
 
 #### Komitmen Bitcoin Deterministik - DBC
 
 Deterministic Bitcoin Commitment (DBC) adalah seperangkat aturan yang digunakan untuk mendaftarkan sebuah _commitment_ dalam transaksi Bitcoin secara unik dan terbukti. Dalam protokol RGB, ada dua bentuk utama DBC:
 
 
-- Opret**
-- Tapret**
+- **Opret**
+- **Tapret**
 
 Mekanisme ini mendefinisikan dengan tepat bagaimana _komitmen_ dikodekan dalam output atau struktur transaksi Bitcoin, untuk memastikan bahwa komitmen ini dapat dilacak dan diverifikasi secara pasti.
 
@@ -1946,12 +1946,12 @@ Modularitas ini merupakan fitur menarik dari RGB, karena memungkinkan berbagai k
 Singkatnya, setiap kontrak terdiri dari :
 
 
-- Genesis**, yang merupakan kondisi awal kontrak (dan dapat disamakan dengan transaksi khusus yang mendefinisikan kepemilikan pertama suatu aset, hak, atau data lain yang dapat diparameterkan);
-- Skema**, yang menjelaskan logika bisnis kontrak (tipe data, aturan validasi, dll.);
-- Antarmuka**, yang menyediakan lapisan semantik untuk dompet dan pengguna manusia, memperjelas pembacaan dan eksekusi transaksi;
-- Antarmuka Implementasi**, yang menjembatani kesenjangan antara logika bisnis dan presentasi, untuk memastikan bahwa definisi kontrak konsisten dengan pengalaman pengguna.
+- **Genesis**, yang merupakan kondisi awal kontrak (dan dapat disamakan dengan transaksi khusus yang mendefinisikan kepemilikan pertama suatu aset, hak, atau data lain yang dapat diparameterkan);
+- **Skema**, yang menjelaskan logika bisnis kontrak (tipe data, aturan validasi, dll.);
+- **Antarmuka**, yang menyediakan lapisan semantik untuk dompet dan pengguna manusia, memperjelas pembacaan dan eksekusi transaksi;
+- **Antarmuka Implementasi**, yang menjembatani kesenjangan antara logika bisnis dan presentasi, untuk memastikan bahwa definisi kontrak konsisten dengan pengalaman pengguna.
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 Penting untuk diperhatikan bahwa agar dompet dapat mengelola aset RGB (baik itu token yang dapat dipertukarkan atau hak dalam bentuk apa pun), dompet harus memiliki semua elemen ini: *Skema*, *Interface*, *Implementasi Interface*, dan *Genesis*. Ini ditransmisikan melalui ***kiriman kontrak***, yaitu paket data yang berisi semua yang diperlukan untuk memvalidasi kontrak sisi klien.
 
@@ -1989,7 +1989,7 @@ Skema dapat disamakan dengan "kelas" dalam pemrograman berorientasi objek (OOP).
 
 
 - Berbagai jenis Status Milik dan Penugasan ;
-- Valuta, yaitu hak khusus yang dapat dipicu (*ditukarkan) untuk operasi tertentu;
+- Valuta, yaitu hak khusus yang dapat dipicu (*ditukarkan*) untuk operasi tertentu;
 - Bidang Status Global, yang menjelaskan properti global, publik, dan bersama dari kontrak;
 - Struktur Genesis (operasi pertama yang mengaktifkan kontrak) ;
 - Bentuk-bentuk Transisi State dan Ekstensi State yang diizinkan, dan bagaimana operasi ini dapat memodifikasi file ;
@@ -1997,7 +1997,7 @@ Skema dapat disamakan dengan "kelas" dalam pemrograman berorientasi objek (OOP).
 - Aturan yang menentukan bagaimana data kontrak internal dapat berkembang (misalnya, apakah suatu bidang dapat diubah atau kumulatif);
 - Urutan operasi yang dianggap valid: misalnya, urutan transisi yang harus dipatuhi atau serangkaian kondisi logis yang harus dipenuhi.
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 Ketika *penerbit* aset di RGB menerbitkan kontrak, ia menyediakan Genesis dan Skema yang terkait dengannya. Pengguna atau dompet yang ingin berinteraksi dengan aset mengambil Skema ini untuk memahami logika di balik kontrak, dan untuk dapat memverifikasi nanti bahwa transisi yang akan mereka ikuti adalah sah.
 
@@ -2055,12 +2055,12 @@ Sebelum masuk ke dalam kode, ada baiknya kita mengingat kembali struktur umum Sk
 
 - Kemungkinan `SchemaId` yang menunjukkan penggunaan Skema dasar lain sebagai templat;
 - Negara Global** dan Negara Milik** (dengan tipe-tipe yang ketat);
-- Nilai tukar** (jika ada);
+- **Nilai tukar** (jika ada);
 - Operasi **Operasi** (Kejadian, Transisi Keadaan, Ekstensi Keadaan) yang dapat merujuk keadaan dan valensi ini;
 - Sistem **Strict Type System** digunakan untuk mendeskripsikan dan memvalidasi data;
-- Skrip validasi** (dijalankan melalui AluVM).
+- **Skrip validasi** (dijalankan melalui AluVM).
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 Kode di bawah ini menunjukkan definisi lengkap dari Skema Karat. Kami akan mengomentari bagian demi bagian, mengikuti anotasi (1) hingga (9) di bawah ini:
 
@@ -2129,12 +2129,12 @@ EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET,
 ```
 
 
-- (1) - Tajuk fungsi dan SubSkema**
+- (1) - **Tajuk fungsi dan SubSkema**
 
 Fungsi `nia_schema()` mengembalikan sebuah `SubSchema`, yang mengindikasikan bahwa Skema ini dapat mewarisi sebagian dari skema yang lebih umum. Dalam ekosistem RGB, fleksibilitas ini memungkinkan untuk menggunakan kembali elemen standar tertentu dari skema master, dan kemudian mendefinisikan aturan khusus untuk kontrak yang bersangkutan. Di sini, kita memilih untuk tidak mengaktifkan pewarisan, karena `subset_of` akan menjadi `None`.
 
 
-- (2) - Properti umum: ffv, subset_of, type_system**
+- (2) - Properti umum: ffv, subset_of, **type_system**
 
 Properti `ffv` berhubungan dengan versi kontrak *fast-forward*. Nilai `zero!()` di sini menunjukkan bahwa kita berada di versi 0 atau versi awal skema ini. Jika Anda kemudian ingin menambahkan fungsi baru (jenis operasi baru, dll.), Anda dapat meningkatkan versi ini untuk menunjukkan perubahan konsensus.
 
@@ -2159,7 +2159,7 @@ Kata kunci `sekali(...)` berarti bahwa setiap bidang ini hanya dapat muncul satu
 Di dalam `owned_types`, kita mendeklarasikan `OS_ASSET`, yang menggambarkan sebuah kondisi yang dapat dipertukarkan. Kita menggunakan `StateSchema::Fungible(FungibleType::Unsigned64Bit)`, yang mengindikasikan bahwa jumlah aset (token) disimpan sebagai bilangan bulat tidak bertanda tangan 64-bit. Dengan demikian, setiap transaksi akan mengirimkan sejumlah unit token ini, yang akan divalidasi sesuai dengan struktur numerik yang diketik secara ketat ini.
 
 
-- (5) - Nilai tukar**
+- (5) - **Nilai tukar**
 
 Kami mengindikasikan `valency_types: none!()`, yang berarti tidak ada Valensi dalam skema ini, dengan kata lain tidak ada hak khusus atau tambahan (seperti penerbitan ulang, pembakaran bersyarat, dll.). Jika sebuah skema memiliki hak khusus, maka hak khusus tersebut akan dideklarasikan di bagian ini.
 
@@ -2196,7 +2196,7 @@ Dalam `transisi`, kita mendefinisikan jenis operasi `TS_TRANSFER`. Kami menjelas
 Ini memodelkan perilaku transfer dasar, yang mengkonsumsi token pada UTXO, kemudian menciptakan Status Milik baru yang mendukung penerima, dan dengan demikian menjaga kesetaraan jumlah total antara input dan output.
 
 
-- (9) - Skrip AluVM dan Titik Masuk** (dalam bahasa Prancis)
+- (9) - **Skrip AluVM dan Titik Masuk** (dalam bahasa Prancis)
 
 Terakhir, kita mendeklarasikan skrip AluVM (`Skrip::AluVM(AluScript {... })`). Skrip ini berisi file :
 
@@ -2225,7 +2225,7 @@ Tidak seperti Skema, yang murni deklaratif dan dikompilasi ke dalam file biner y
 - Mengakses nama dan nilai dari setiap bidang, sehingga dapat ditampilkan (misalnya untuk token, cari tahu ticker, jumlah maksimum, dll.);
 - Menafsirkan dan membangun Operasi Kontrak (Genesis, State Transition, atau State Extension) dengan mengaitkan data dengan nama yang dapat dimengerti (misalnya, melakukan transfer dengan menyebutkan "jumlah" secara jelas, bukan dengan pengenal biner).
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 Berkat Antarmuka, Anda dapat, misalnya, menulis kode dalam dompet yang, alih-alih memanipulasi bidang, secara langsung memanipulasi label seperti "jumlah token", "nama aset", dll. Dengan cara ini, mengelola kontrak menjadi lebih intuitif. Dengan cara ini, manajemen kontrak menjadi lebih intuitif.
 
@@ -2234,17 +2234,17 @@ Berkat Antarmuka, Anda dapat, misalnya, menulis kode dalam dompet yang, alih-ali
 Metode ini memiliki banyak keuntungan:
 
 
-- Standardisasi:**
+- **Standardisasi:**
 
 Jenis kontrak yang sama dapat didukung oleh sebuah Antarmuka standar, yang digunakan bersama oleh beberapa implementasi dompet. Hal ini memfasilitasi kompatibilitas dan penggunaan ulang kode.
 
 
-- Pemisahan yang jelas antara Skema dan Antarmuka:**
+- **Pemisahan yang jelas antara Skema dan Antarmuka:**
 
 Dalam desain RGB, Skema (logika bisnis) dan Antarmuka (presentasi dan manipulasi) adalah dua entitas independen. Pengembang yang menulis logika kontrak dapat berkonsentrasi pada Schema, tanpa mengkhawatirkan ergonomi atau representasi data, sementara tim lain (atau tim yang sama, tetapi pada jadwal yang berbeda) dapat mengembangkan Antarmuka.
 
 
-- Evolusi yang fleksibel:**
+- **Evolusi yang fleksibel:**
 
 Antarmuka dapat dimodifikasi atau ditambahkan setelah aset diterbitkan, tanpa harus mengubah kontrak itu sendiri. Ini adalah perbedaan utama dari beberapa sistem smart contract on-chain, di mana Antarmuka (sering kali dicampur dengan kode eksekusi) dibekukan dalam blockchain.
 
@@ -2253,7 +2253,7 @@ Antarmuka dapat dimodifikasi atau ditambahkan setelah aset diterbitkan, tanpa ha
 
 Kontrak yang sama dapat diekspos melalui Antarmuka yang berbeda yang disesuaikan dengan kebutuhan yang berbeda: Antarmuka sederhana untuk pengguna akhir, Antarmuka lain yang lebih canggih untuk penerbit yang perlu mengelola operasi konfigurasi yang kompleks. Dompet kemudian dapat memilih Antarmuka mana yang akan diimpor, tergantung pada penggunaannya.
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 Dalam praktiknya, ketika dompet mengambil kontrak RGB (melalui file `.rgb` atau `.rgba`), dompet juga mengimpor Antarmuka yang terkait, yang juga dikompilasi. Pada saat runtime, dompet dapat, misalnya, membuat file :
 
@@ -2298,18 +2298,18 @@ Sebagai contoh, Antarmuka RGB20 dapat dihubungkan ke skema **Non-Inflatable Asse
 - Dukungan terintegrasi untuk penyertaan file secara langsung (hingga 16 MB) dalam kontrak (untuk pengambilan dari sisi klien);
 - Kemungkinan bagi pemilik untuk memasukkan "*ukiran*" dalam riwayat untuk membuktikan kepemilikan NFT di masa lalu.
 
-**RGB25** adalah standar hibrida yang menggabungkan aspek yang dapat dipertukarkan dan yang tidak dapat dipertukarkan. Ini dirancang untuk aset yang dapat dipertukarkan sebagian, seperti tokenisasi real estat, di mana Anda ingin memisahkan properti sambil mempertahankan tautan ke satu aset root (dengan kata lain, Anda memiliki potongan rumah yang dapat dipertukarkan, yang ditautkan ke rumah yang tidak dapat dipertukarkan). Secara teknis, antarmuka ini dapat ditautkan ke skema **Collectible Fungible Asset* (CFA), yang memperhitungkan gagasan pemisahan sambil melacak aset asli.
+**RGB25** adalah standar hibrida yang menggabungkan aspek yang dapat dipertukarkan dan yang tidak dapat dipertukarkan. Ini dirancang untuk aset yang dapat dipertukarkan sebagian, seperti tokenisasi real estat, di mana Anda ingin memisahkan properti sambil mempertahankan tautan ke satu aset root (dengan kata lain, Anda memiliki potongan rumah yang dapat dipertukarkan, yang ditautkan ke rumah yang tidak dapat dipertukarkan). Secara teknis, antarmuka ini dapat ditautkan ke skema **Collectible Fungible Asset** (CFA), yang memperhitungkan gagasan pemisahan sambil melacak aset asli.
 
 #### Antarmuka yang sedang dikembangkan
 
 Antarmuka lain direncanakan untuk penggunaan yang lebih khusus, tetapi belum tersedia:
 
 
-- RGB22**, didedikasikan untuk identitas digital, untuk mengelola pengidentifikasi dan profil on-chain dalam ekosistem RGB;
-- RGB23**, untuk stempel waktu tingkat lanjut, menggunakan sebagian ide *Opentimestamps*, tetapi dengan fitur penelusuran;
-- RGB24**, yang bertujuan untuk setara dengan sistem nama domain terdesentralisasi (DNS) yang mirip dengan *Ethereum Name Service*;
-- RGB26**, dirancang untuk mengelola DAO (*Decentralized Autonomous Organization*) dalam format yang lebih kompleks (tata kelola, pemungutan suara, dll.);
-- RGB30**, sangat mirip dengan RGB20 tetapi dengan kekhususan memperhitungkan penerbitan awal yang terdesentralisasi dan menggunakan Ekstensi Negara. Ini akan digunakan untuk aset yang penerbitan ulangnya dikelola oleh beberapa entitas, atau tunduk pada kondisi yang lebih baik.
+- **RGB22**, didedikasikan untuk identitas digital, untuk mengelola pengidentifikasi dan profil on-chain dalam ekosistem RGB;
+- **RGB23**, untuk stempel waktu tingkat lanjut, menggunakan sebagian ide *Opentimestamps*, tetapi dengan fitur penelusuran;
+- **RGB24**, yang bertujuan untuk setara dengan sistem nama domain terdesentralisasi (DNS) yang mirip dengan *Ethereum Name Service*;
+- **RGB26**, dirancang untuk mengelola DAO (*Decentralized Autonomous Organization*) dalam format yang lebih kompleks (tata kelola, pemungutan suara, dll.);
+- **RGB30**, sangat mirip dengan RGB20 tetapi dengan kekhususan memperhitungkan penerbitan awal yang terdesentralisasi dan menggunakan Ekstensi Negara. Ini akan digunakan untuk aset yang penerbitan ulangnya dikelola oleh beberapa entitas, atau tunduk pada kondisi yang lebih baik.
 
 Tentu saja, tergantung pada tanggal Anda membaca kursus ini, antarmuka-antarmuka ini mungkin sudah beroperasi dan dapat diakses.
 
@@ -2499,7 +2499,7 @@ Pada bagian `global_state`, kita dapat menemukan kolom seperti `spec` (deskripsi
 Pada bagian `penugasan`, kami mendefinisikan berbagai peran atau hak. Sebagai contoh:
 
 
-- `PemilikAset` berhubungan dengan kepemilikan token (ini adalah *Status Milik yang dapat dipertukarkan);
+- `PemilikAset` berhubungan dengan kepemilikan token (ini adalah *Status Milik yang dapat dipertukarkan*);
 - `burnRight` berhubungan dengan kemampuan untuk membakar token;
 - updateRight` berhubungan dengan hak untuk mengganti nama aset.
 
@@ -2638,12 +2638,12 @@ Sebagai pengingat, **Owned States** dalam RGB merujuk pada UTXO Bitcoin. Oleh ka
 Bob kemudian perlu mengambil data kontrak yang dia minati. Data ini dapat beredar melalui saluran apa pun: situs web, email, aplikasi perpesanan... Dalam praktiknya, data-data tersebut dikelompokkan bersama dalam sebuah ***konsinyasi***, yaitu sebuah paket kecil data yang berisi file :
 
 
-- Genesis**, yang mendefinisikan keadaan awal kontrak;
+- **Genesis**, yang mendefinisikan keadaan awal kontrak;
 - **Skema**, yang menjelaskan logika bisnis (tipe yang ketat, skrip validasi, dll.);
 - Antarmuka **Interface**, yang mendefinisikan lapisan presentasi (nama bidang, operasi yang dapat diakses);
 - Implementasi Antarmuka, yang secara konkret menghubungkan Skema ke Antarmuka.
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 Ukuran totalnya biasanya hanya beberapa kilobyte, karena setiap komponen umumnya memiliki berat kurang dari 200 byte. Kiriman ini juga dapat disiarkan di Base58, melalui saluran yang tahan sensor (seperti Nostr atau melalui Lightning Network, misalnya), atau sebagai kode QR.
 
@@ -2681,7 +2681,7 @@ Kita akan mencermati lebih dekat struktur faktur RGB di akhir bab ini.
 
 Faktur yang dibuat (misalnya sebagai URL: `rgb:2WBcas9.../RGB20/100+utxob:...`) berisi semua informasi yang dibutuhkan Alice untuk mempersiapkan transfer. Seperti halnya kiriman, ini dapat dikodekan secara ringkas (Base58 atau format lain) dan dikirim melalui aplikasi perpesanan, email, Nostr...
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 #### 6) Persiapan transaksi di sisi Alice
 
@@ -2724,7 +2724,7 @@ bob$ rgb accept consignment.rgb
 sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 #### 9) Opsi: Bob mengirimkan konfirmasi kembali ke Alice (*slip gaji*)
 
@@ -2750,28 +2750,28 @@ alice$ rgb check <sig>
 alice$ wallet sign —publish tx.psbt
 ```
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 Setelah dikonfirmasi, transaksi ini menandai berakhirnya transfer. Bob menjadi pemilik baru aset tersebut: dia sekarang memiliki Status Milik yang menunjuk ke UTXO yang dia kendalikan, dibuktikan dengan adanya komitmen dalam transaksi.
 
 Sebagai rangkuman, berikut ini adalah proses transfer secara lengkap:
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 ### Keuntungan dari transfer RGB
 
 
-- Kerahasiaan** :
+- **Kerahasiaan** :
 
 Hanya Alice dan Bob yang memiliki akses ke semua data State Transition. Mereka bertukar informasi ini di luar blockchain, melalui pengiriman. Komitmen kriptografi dalam transaksi Bitcoin tidak mengungkapkan jenis aset atau jumlahnya, yang menjamin kerahasiaan yang jauh lebih besar daripada sistem token on-chain lainnya.
 
 
-- Validasi dari sisi pelanggan**:
+- **Validasi dari sisi pelanggan**:
 
 Bob dapat memeriksa konsistensi transfer dengan membandingkan *kiriman* dengan *pengirim* dalam blockchain Bitcoin. Dia tidak memerlukan validasi pihak ketiga. Alice tidak perlu mempublikasikan riwayat lengkap pada blockchain, yang mengurangi beban pada protokol dasar dan meningkatkan kerahasiaan.
 
 
-- Atomisitas yang disederhanakan**:
+- **Atomisitas yang disederhanakan**:
 
 Pertukaran yang kompleks (pertukaran atomik antara BTC dan aset RGB, misalnya) dapat dilakukan dalam satu transaksi, sehingga tidak memerlukan skrip HTLC atau PTLC. Jika perjanjian tidak disiarkan, semua orang dapat menggunakan kembali UTXO mereka dengan cara lain.
 
@@ -2787,7 +2787,7 @@ Sebelum melihat faktur secara lebih detail, berikut ini adalah diagram ringkasan
 - Alice mempublikasikan transaksi tersebut di jaringan Bitcoin;
 - Konfirmasi transaksi membuat transfer menjadi resmi.
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 Transfer ini menggambarkan semua kekuatan dan fleksibilitas protokol RGB: pertukaran pribadi, divalidasi di sisi klien, berlabuh secara minimal dan diam-diam di blockchain Bitcoin, dan mempertahankan keamanan protokol yang terbaik (tidak ada risiko pembelanjaan ganda). Hal ini membuat RGB menjadi ekosistem yang menjanjikan untuk transfer nilai yang lebih rahasia dan terukur daripada blockchain yang dapat diprogram secara on-chain.
 
@@ -2847,10 +2847,10 @@ Mari kita analisis URL ini:
 
 
 - `rgb:`** (awalan): mengindikasikan sebuah tautan yang menggunakan protokol RGB (analog dengan `http:` atau `bitcoin:` dalam konteks lain);
-- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: merepresentasikan `ContractId` token yang ingin Anda manipulasi;
-- `/RGB20/100`**: mengindikasikan bahwa antarmuka `RGB20` digunakan dan 100 unit aset diminta. Sintaksnya adalah: `/Interface/jumlah` ;
+- **`2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: merepresentasikan `ContractId` token yang ingin Anda manipulasi;
+- `/RGB20/100`: mengindikasikan bahwa antarmuka `RGB20` digunakan dan 100 unit aset diminta. Sintaksnya adalah: `/Interface/jumlah` ;
 - `+utxob:`**: menentukan bahwa informasi tentang UTXO penerima (atau, lebih tepatnya, definisi Segel Sekali Pakai) ditambahkan;
-- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**: ini adalah UTXO yang *dibutakan* (atau definisi segel). Dengan kata lain, Bob telah menutupi UTXO yang sebenarnya, sehingga pengirim (Alice) tidak tahu alamat yang sebenarnya. Dia hanya tahu bahwa ada segel yang valid yang mengacu pada UTXO yang dikendalikan oleh Bob.
+- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`: ini adalah UTXO yang *dibutakan* (atau definisi segel). Dengan kata lain, Bob telah menutupi UTXO yang sebenarnya, sehingga pengirim (Alice) tidak tahu alamat yang sebenarnya. Dia hanya tahu bahwa ada segel yang valid yang mengacu pada UTXO yang dikendalikan oleh Bob.
 
 Fakta bahwa semuanya dapat dimasukkan ke dalam satu URL membuat hidup lebih mudah bagi pengguna: klik atau pindai sederhana di dompet, dan operasi siap dijalankan.
 
@@ -2878,10 +2878,10 @@ Di sini kita lihat :
 
 
 - `rgb:`**: Awalan URL ;
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: ID Kontrak (NFT);
-- rGB21**: antarmuka untuk aset yang tidak dapat dipertukarkan (NFT);
-- `DbwzvSu-4BZU81jEp-...`**: referensi eksplisit ke bagian unik NFT, misalnya hash dari gumpalan data (media, metadata...);
-- `+utxob:egXsFnw-...`**: definisi segel.
+- **`7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: ID Kontrak (NFT);
+- **rGB21**: antarmuka untuk aset yang tidak dapat dipertukarkan (NFT);
+- **`DbwzvSu-4BZU81jEp-...`**: referensi eksplisit ke bagian unik NFT, misalnya hash dari gumpalan data (media, metadata...);
+- **`+utxob:egXsFnw-...`**: definisi segel.
 
 Idenya sama: mengirimkan sebuah tautan unik yang dapat ditafsirkan oleh wallet, dengan jelas mengidentifikasi aset unik yang akan ditransfer.
 
@@ -2901,7 +2901,7 @@ Di sini kami menemukan :
 - `/RGB20/issue/100000`: mengindikasikan bahwa Anda ingin menggunakan transisi "*Issue*" untuk membuat 100.000 token tambahan;
 - `+utxob:`: definisi segel.
 
-Sebagai contoh, dompet tersebut mungkin bertuliskan: "Saya telah diminta untuk melakukan operasi `masalah` dari antarmuka `RGB20`, dengan kontrak ini dan itu, untuk 100.000 unit, untuk kepentingan Segel Sekali Pakai ini dan itu.*"
+Sebagai contoh, dompet tersebut mungkin bertuliskan: "Saya telah diminta untuk melakukan operasi `masalah` dari antarmuka `RGB20`, dengan kontrak ini dan itu, untuk 100.000 unit, untuk kepentingan Segel Sekali Pakai ini dan itu."
 
 Sekarang, setelah kita melihat elemen utama pemrograman RGB, saya akan mengajak Anda membaca bab berikutnya mengenai cara menyusun kontrak RGB.
 
@@ -2939,7 +2939,7 @@ rgb
 
 Menjalankan `rgb` (tanpa argumen) akan menampilkan daftar sub-perintah yang tersedia, seperti `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, dan lain-lain. Anda dapat mengubah direktori penyimpanan lokal (tempat penyimpanan yang menyimpan semua log, skema dan implementasi), memilih jaringan (testnet, mainnet) atau mengkonfigurasi server Electrum Anda.
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 #### Gambaran umum pertama tentang kontrol
 
@@ -2967,7 +2967,7 @@ Kemudian, impor antarmuka pilihan Anda:
 rgb import interfaces/RGB20.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 Di sisi lain, kami diberitahu bahwa belum ada skema yang diimpor ke dalam perangkat lunak. Juga tidak ada kontrak dalam simpanan. Untuk melihatnya, jalankan perintah :
 
@@ -2981,7 +2981,7 @@ Anda kemudian dapat mengkloning repositori untuk mengambil skema tertentu:
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 Repositori ini berisi, dalam direktori `src/`, beberapa file Rust (misalnya `nia.rs`) yang mendefinisikan skema (NIA untuk "*Non Inflatable Asset*", UDA untuk "*Unique Digital Asset*", dll.). Untuk mengkompilasi, Anda kemudian dapat menjalankan file :
 
@@ -3000,7 +3000,7 @@ Anda sekarang dapat mengimpor skematik ke dalam `rgb`:
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 Ini akan menambahkannya ke simpanan lokal. Jika kita menjalankan perintah berikut, kita akan melihat bahwa skemanya sekarang muncul:
 
@@ -3047,7 +3047,7 @@ seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804
 amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 Kemudian, jalankan saja perintah :
 
@@ -3055,7 +3055,7 @@ Kemudian, jalankan saja perintah :
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 Dalam kasus saya, pengenal skema unik (harus diapit dengan tanda kutip tunggal) adalah `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` dan saya tidak mencantumkan penerbit apa pun. Jadi pesanan saya adalah :
 
@@ -3075,7 +3075,7 @@ CLI menjawab bahwa sebuah kontrak baru telah diterbitkan dan ditambahkan ke dala
 rgb contracts
 ```
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
 Kemudian, perintah selanjutnya menampilkan status global (nama, ticker, pasokan...) dan daftar Status Milik, yaitu alokasi (misalnya, 1 juta token `PBN` yang didefinisikan dalam UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
@@ -3083,7 +3083,7 @@ Kemudian, perintah selanjutnya menampilkan status global (nama, ticker, pasokan.
 rgb state '<ContractId>'
 ```
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 ### Ekspor, impor, dan validasi
 
@@ -3093,7 +3093,7 @@ Untuk berbagi kontrak ini dengan pengguna lain, kontrak ini dapat diekspor dari 
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 File `myContractPBN.rgb` dapat diteruskan ke pengguna lain, yang dapat menambahkannya ke simpanannya dengan perintah :
 
@@ -3117,7 +3117,7 @@ Sebagai pengingat, stash adalah inventaris lokal dari skema, antarmuka, implemen
 rgb dump
 ```
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 Ini akan menghasilkan folder dengan rincian seluruh simpanan.
 
@@ -3130,8 +3130,8 @@ Untuk melakukan transfer, Anda perlu memanipulasi dompet Bitcoin lokal untuk men
 Dalam banyak kasus, interaksi antara peserta dalam kontrak (misalnya Alice dan Bob) terjadi melalui pembuatan faktur. Jika Alice ingin Bob melakukan sesuatu (transfer token, penerbitan ulang, tindakan dalam DAO, dll.), Alice membuat faktur yang merinci instruksinya kepada Bob. Jadi, kita memiliki :
 
 
-- Alice** (penerbit faktur);
-- Bob** (yang menerima dan melaksanakan faktur).
+- **Alice** (penerbit faktur);
+- **Bob** (yang menerima dan melaksanakan faktur).
 
 Tidak seperti ekosistem lainnya, faktur RGB tidak terbatas pada pengertian pembayaran. Faktur ini dapat menyematkan permintaan apa pun yang terkait dengan kontrak: mencabut kunci, memberikan suara, membuat ukiran (*engraving*) pada NFT, dll. Operasi yang sesuai dapat dijelaskan dalam antarmuka kontrak. Operasi yang sesuai dapat dijelaskan dalam antarmuka kontrak.
 
@@ -3224,7 +3224,7 @@ Untuk membuat saluran Lightning yang membawa aset RGB, kita memerlukan dua eleme
 
 Dalam istilah Bitcoin, transaksi pendanaan harus ada untuk menentukan referensi UTXO, meskipun hanya berisi sejumlah kecil satoshi (ini hanya masalah setiap output dalam transaksi komitmen di masa depan tetap berada di atas batas debu). Misalnya, Alice dapat memutuskan untuk menyediakan 10 ribu sat dan 500 USDT (diterbitkan sebagai aset RGB). Pada transaksi pendanaan, kita menambahkan komitmen (`Opret` atau `Tapret`) yang mengaitkan transisi status RGB.
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 Setelah transaksi pendanaan disiapkan (tetapi belum disiarkan), transaksi komitmen dibuat sehingga salah satu pihak dapat menutup saluran secara sepihak kapan saja. Transaksi ini menyerupai transaksi komitmen klasik Lightning, kecuali bahwa kami menambahkan output tambahan yang berisi jangkar RGB (OP_RETURN atau Taproot) yang terhubung ke transisi status baru.
 
@@ -3232,11 +3232,11 @@ Transisi keadaan RGB kemudian memindahkan aset dari multisig 2/2 dari pendanaan 
 
 Oleh karena itu, transaksi komitmen yang ditandatangani oleh Alice dan dikirim ke Bob akan terlihat seperti ini:
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 Dan transaksi komitmen yang menyertainya, yang ditandatangani oleh Bob dan dikirim ke Alice, akan terlihat seperti ini:
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 ### Pembaruan saluran
 
@@ -3246,17 +3246,17 @@ Sebagai contoh, jika Alice mentransfer 30 USDT ke Bob di dalam channel, transisi
 
 Transaksi komitmen yang ditandatangani oleh Alice, siap didistribusikan oleh Bob:
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 Transaksi komitmen yang ditandatangani oleh Bob, siap didistribusikan oleh Alice:
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 ### Manajemen HTLC
 
 Pada kenyataannya, Lightning Network memungkinkan pembayaran untuk dirutekan melalui beberapa saluran, menggunakan HTLC (*Hashed Time-Locked Contracts*). Sama halnya dengan RGB: untuk setiap pembayaran yang transit melalui saluran, output HTLC ditambahkan ke transaksi yang dilakukan, dan alokasi RGB yang terkait dengan HTLC ini. Dengan demikian, siapa pun yang membelanjakan output HTLC (berkat rahasia atau setelah berakhirnya timelock) akan mendapatkan kembali sat dan aset RGB yang terkait. Di sisi lain, Anda tentu saja harus memiliki cukup uang tunai di jalan dalam hal sat dan aset RGB.
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 Oleh karena itu, pengoperasian RGB pada Lightning harus dipertimbangkan secara paralel dengan pengoperasian Lightning Network itu sendiri. Jika Anda ingin mempelajari subjek ini lebih dalam, saya sangat menyarankan Anda untuk melihat kursus pelatihan komprehensif lainnya:
 
@@ -3266,92 +3266,92 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Terakhir, sebelum beralih ke bagian berikutnya, saya ingin memberikan gambaran umum tentang kode yang digunakan dalam RGB. Protokol ini didasarkan pada seperangkat pustaka Rust dan spesifikasi sumber terbuka. Berikut ini adalah gambaran umum dari repositori dan crate utama:
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 #### Validasi Sisi Klien
 
 
-- Repositori**: [validasi_sisi_klien](https://github.com/LNP-BP/client_side_validation)
-- Peti ** : [validasi sisi klien](https://crates.io/crates/client_side_validation), [segel sekali pakai](https://crates.io/crates/single_use_seals)
+- **Repositori**: [validasi_sisi_klien](https://github.com/LNP-BP/client_side_validation)
+- Peti: [validasi sisi klien](https://crates.io/crates/client_side_validation), [segel sekali pakai](https://crates.io/crates/single_use_seals)
 
 Manajemen validasi off-chain dan logika Segel Sekali Pakai.
 
 #### Komitmen Bitcoin Deterministik (DBC)
 
 
-- Repositori**: [bp-core](https://github.com/BP-WG/bp-core)
-- Peti**: [bp-dbc](https://crates.io/crates/bp-dbc)
+- **Repository**: [bp-core](https://github.com/BP-WG/bp-core)
+- **Peti**: [bp-dbc](https://crates.io/crates/bp-dbc)
 
 Manajemen penahan deterministik dalam transaksi Bitcoin (Tapret, OP_RETURN, dll.).
 
 #### Komitmen Multi Protokol (MPC)
 
 
-- Repositori**: [validasi_sisi_klien](https://github.com/LNP-BP/client_side_validation)
-- Peti ** : [commit_verify](https://crates.io/crates/commit_verify)
+- **Repositori**: [validasi_sisi_klien](https://github.com/LNP-BP/client_side_validation)
+- **Peti**: [commit_verify](https://crates.io/crates/commit_verify)
 
 Kombinasi dan integrasi berbagai keterlibatan dengan protokol yang berbeda.
 
 #### Tipe Ketat & Pengkodean Ketat
 
 
-- Spesifikasi**: [situs web strict-types.org](https://www.strict-types.org/)
-- Repositori**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
-- Peti ** : [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
+- **Spesifikasi**: [situs web strict-types.org](https://www.strict-types.org/)
+- **Repositori**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
+- Peti: [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
 
 Sistem pengetikan yang ketat dan serialisasi deterministik yang digunakan untuk validasi sisi klien.
 
 #### Inti RGB
 
 
-- Repositori**: [rgb-core](https://github.com/RGB-WG/rgb-core)
-- Peti**: [rgb-core](https://crates.io/crates/rgb-core)
+- **Repositori**: [rgb-core](https://github.com/RGB-WG/rgb-core)
+- **Peti**: [rgb-core](https://crates.io/crates/rgb-core)
 
 Inti protokol, yang mencakup logika utama validasi RGB.
 
 #### Perpustakaan & Dompet Standar RGB
 
 
-- Repositori**: [rgb-std](https://github.com/RGB-WG/rgb-std)
-- Peti ** : [rgb-std](https://crates.io/crates/rgb-std)
+- **Repository**: [rgb-std](https://github.com/RGB-WG/rgb-std)
+- **Peti**: [rgb-std](https://crates.io/crates/rgb-std)
 
 Implementasi standar, manajemen simpanan dan dompet.
 
 #### RGB CLI
 
 
-- Repositori**: [rgb](https://github.com/RGB-WG/rgb)
-- Peti**: [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
+- **Repositori**: [rgb](https://github.com/RGB-WG/rgb)
+- **Peti**: [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
 
 CLI `rgb` dan dompet peti, untuk manipulasi baris perintah pada kontrak.
 
 #### Skema RGB
 
 
-- Repositori**: [rgb-schemata](https://github.com/RGB-WG/rgb-schemata/)
+- **Repository**: [rgb-schemata](https://github.com/RGB-WG/rgb-schemata/)
 
 Berisi contoh-contoh skema (NIA, UDA, dll.) dan implementasinya.
 
 #### ALuVM
 
 
-- Info** : [aluvm.org](https://www.aluvm.org/)
-- Repositori**: [aluvm-spec](https://github.com/AluVM/aluvm-spec), [alure](https://github.com/AluVM/alure)
-- Peti **: [aluvm](https://crates.io/crates/aluvm), [aluasm](https://crates.io/crates/aluasm)
+- **Info**: [aluvm.org](https://www.aluvm.org/)
+- **Repositori**: [aluvm-spec](https://github.com/AluVM/aluvm-spec), [alure](https://github.com/AluVM/alure)
+- Peti: [aluvm](https://crates.io/crates/aluvm), [aluasm](https://crates.io/crates/aluasm)
 
 Mesin virtual berbasis registri yang digunakan untuk menjalankan skrip validasi.
 
 #### Protokol Bitcoin - BP
 
 
-- Repositori** : [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-wallet](https://github.com/BP-WG/bp-wallet)
+- **Repositori**: [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-wallet](https://github.com/BP-WG/bp-wallet)
 
 Pengaya untuk mendukung protokol Bitcoin (transaksi, bypass, dll.).
 
 #### Komputasi Deterministik di Mana-mana - UBIDECO
 
 
-- Repositori**: [UBIDECO](https://github.com/UBIDECO)
+- **Repositori**: [UBIDECO](https://github.com/UBIDECO)
 
 Ekosistem yang terkait dengan pengembangan deterministik sumber terbuka.
 
@@ -3415,7 +3415,7 @@ Perusahaan di balik Bitmask tidak membatasi diri pada pengembangan dompet yang s
 
 - Sebuah **pasar** untuk menukar token, terutama dalam bentuk **RGB21**;
 - Kompatibilitas dengan dompet lain (seperti *Iris Wallet*);
-- Teknik transfer batching**, yaitu kemungkinan untuk menyertakan beberapa transfer RGB yang berurutan dalam satu transaksi.
+- Teknik **transfer batching**, yaitu kemungkinan untuk menyertakan beberapa transfer RGB yang berurutan dalam satu transaksi.
 
 Pada saat yang sama, kami sedang mengerjakan **WebBTC** atau **WebLN** (standar yang memungkinkan situs web untuk meminta dompet untuk menandatangani transaksi Bitcoin atau Lightning), serta kemampuan untuk "teleburn" entri Ordinals (jika kami ingin memulangkan Ordinals ke format RGB yang lebih bijaksana dan fleksibel).
 
@@ -3562,7 +3562,7 @@ Proses ini mengambil dan mempraktikkan semua konsep yang telah dibahas dalam bab
 
 ### Memperkenalkan rgb-lightning-node
 
-Proyek **`rgb-lightning-node`` adalah sebuah daemon Rust yang didasarkan pada garpu `rust-lightning` (LDK) yang dimodifikasi untuk memperhitungkan keberadaan aset RGB dalam sebuah saluran. Ketika sebuah saluran dibuka, keberadaan aset dapat ditentukan, dan setiap kali status saluran diperbarui, transisi RGB dibuat, yang mencerminkan distribusi aset dalam output Lightning. Hal ini memungkinkan :
+Proyek **`rgb-lightning-node`** adalah sebuah daemon Rust yang didasarkan pada garpu `rust-lightning` (LDK) yang dimodifikasi untuk memperhitungkan keberadaan aset RGB dalam sebuah saluran. Ketika sebuah saluran dibuka, keberadaan aset dapat ditentukan, dan setiap kali status saluran diperbarui, transisi RGB dibuat, yang mencerminkan distribusi aset dalam output Lightning. Hal ini memungkinkan :
 
 
 - Buka saluran Lightning dalam USDT, misalnya;
@@ -3579,7 +3579,7 @@ Untuk mengkompilasi dan menginstal biner `rgb-lightning-node`, kita mulai dengan
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
 ```
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 - Opsi `--recurse-submodules` juga mengkloning sub-perangkat yang diperlukan (termasuk versi modifikasi dari `rust-lightning`);
@@ -3591,7 +3591,7 @@ Dari root proyek, jalankan perintah berikut untuk mengkompilasi dan menginstal b
 cargo install --locked --debug --path .
 ```
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 - `--locked` memastikan bahwa versi dependensi benar-benar dihormati;
@@ -3605,17 +3605,17 @@ Pada akhir perintah ini, sebuah eksekusi `rgb-lightning-node` akan tersedia pada
 Agar dapat berfungsi, daemon `rgb-lightning-node` memerlukan keberadaan dan konfigurasi :
 
 
-- Sebuah simpul `bitcoind`**
+- Sebuah simpul `bitcoind`
 
 Setiap instance RLN perlu berkomunikasi dengan `bitcoind` untuk menyiarkan dan memonitor transaksi on-chain. Otentikasi (login/kata sandi) dan URL (host/port) harus disediakan untuk daemon.
 
 
-- Pengindeks** (Electrum atau Esplora)
+- **Pengindeks** (Electrum atau Esplora)
 
 Daemon harus dapat membuat daftar dan menjelajahi transaksi on-chain, khususnya untuk menemukan UTXO tempat sebuah aset ditambatkan. Anda harus menentukan URL server Electrum atau Esplora Anda.
 
 
-- Proksi RGB**
+- **Proksi RGB**
 
 Seperti yang terlihat pada bab-bab sebelumnya, **server proxy** adalah sebuah komponen (opsional, tetapi sangat disarankan) untuk menyederhanakan pertukaran *kiriman* di antara rekan-rekan Lightning. Sekali lagi, sebuah URL harus ditentukan.
 
@@ -3625,7 +3625,7 @@ ID dan URL dimasukkan ketika daemon dibuka kuncinya melalui API. Lebih lanjut te
 
 Untuk penggunaan sederhana, ada skrip `regtest.sh` yang secara otomatis memulai, melalui Docker, serangkaian layanan: `bitcoind`, `electrs` (pengindeks), `rgb-proxy-server`.
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 Hal ini memungkinkan Anda untuk meluncurkan lingkungan lokal, terisolasi, dan telah dikonfigurasi sebelumnya. Ini membuat dan menghancurkan kontainer dan direktori data pada setiap reboot. Kita akan mulai dengan memulai file :
 
@@ -3640,7 +3640,7 @@ Skrip ini akan :
 - Jalankan `bitcoind` di regtest, serta pengindeks `electrs` dan `rgb-proxy-server`;
 - Tunggu sampai semuanya siap digunakan.
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 Selanjutnya, kita akan meluncurkan beberapa node RLN. Pada shell terpisah, jalankan, misalnya (untuk meluncurkan 3 node RLN) :
 
@@ -3656,7 +3656,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network regtest
 ```
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 - Parameter `--network regtest` mengindikasikan penggunaan konfigurasi regtest;
@@ -3678,7 +3678,7 @@ curl -X POST http://localhost:3001/address
 
 Jawabannya akan memberi Anda sebuah alamat.
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 Pada Regtest `bitcoind`, kita akan menambang beberapa bitcoin. Jalankan:
 
@@ -3686,7 +3686,7 @@ Pada Regtest `bitcoind`, kita akan menambang beberapa bitcoin. Jalankan:
 ./regtest.sh mine 101
 ```
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 Kirim dana ke alamat node yang dibuat di atas:
 
@@ -3694,7 +3694,7 @@ Kirim dana ke alamat node yang dibuat di atas:
 ./regtest.sh sendtoaddress <address> <amount>
 ```
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 Kemudian lakukan penambangan blok untuk mengonfirmasi transaksi:
 
@@ -3702,7 +3702,7 @@ Kemudian lakukan penambangan blok untuk mengonfirmasi transaksi:
 ./regtest.sh mine 1
 ```
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 ### Peluncuran Testnet (tanpa Docker)
 
@@ -3749,7 +3749,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/createutxos
 ```
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 Anda tentu saja dapat menyesuaikan pesanan. Untuk mengonfirmasi transaksi, kami menambang file :
 
@@ -3772,7 +3772,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/issueassetnia
 ```
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 Tanggapannya mencakup ID aset yang baru dibuat. Ingatlah untuk mencatat pengenal ini. Dalam kasus saya, ini adalah :
 
@@ -3780,7 +3780,7 @@ Tanggapannya mencakup ID aset yang baru dibuat. Ingatlah untuk mencatat pengenal
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 Anda kemudian dapat mentransfernya secara on-chain, atau mengalokasikannya dalam saluran Lightning. Itulah yang akan kita lakukan di bagian selanjutnya.
 
@@ -3800,7 +3800,7 @@ Perintah ini mengembalikan kunci publik dari simpul saya n°2:
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
 ```
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
 Selanjutnya, kita akan membuka channel dengan menentukan aset yang relevan (`PBN`). Perintah `/openchannel` memungkinkan Anda menentukan ukuran saluran di satoshi dan memilih untuk menyertakan aset RGB. Tergantung pada apa yang ingin Anda buat, tetapi dalam kasus saya, perintahnya adalah :
 
@@ -3831,7 +3831,7 @@ Cari tahu lebih lanjut di sini:
 - `asset_id`: Pengidentifikasi unik dari aset RGB yang terlibat dalam saluran;
 - `public`: Menunjukkan apakah saluran harus dibuat publik untuk perutean di jaringan.
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 Untuk mengonfirmasi transaksi, 6 blok ditambang:
 
@@ -3839,7 +3839,7 @@ Untuk mengonfirmasi transaksi, 6 blok ditambang:
 ./regtest.sh mine 6
 ```
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
 Saluran Lightning sekarang terbuka dan juga berisi 500 token `PBN` di sisi node n°1. Jika node n°2 ingin menerima token `PBN`, ia harus membuat faktur. Berikut cara melakukannya:
 
@@ -3868,7 +3868,7 @@ Sebagai tanggapan, Anda akan mendapatkan faktur RGB (seperti yang dijelaskan dal
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
 ```
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
 Sekarang kita akan membayar faktur ini dari node pertama, yang menyimpan uang tunai yang diperlukan dengan token `PBN`:
 
@@ -3880,7 +3880,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/sendpayment
 ```
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 Pembayaran telah dilakukan. Hal ini dapat diverifikasi dengan menjalankan perintah :
 
@@ -3890,7 +3890,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 Berikut ini adalah cara menggunakan simpul Lightning yang dimodifikasi untuk membawa aset RGB. Demonstrasi ini didasarkan pada :
 

@@ -1,0 +1,9 @@
+question: Mitä merkintää käytetään IPv6 Address:n etuliitteen koon ilmoittamiseen?
+answer: CIDR
+wrong_answers:
+  - Pistemäinen desimaalinen verkkomerkki
+  - Heksadesimaaliluku kaksoispisteillä erotettuna
+  - ICANN
+explanation: |
+  CIDR-merkintätapa määrittää kiinteän etuliitteen bittien määrän vinoviivan jälkeen, aivan kuten IPv4:ssä.
+reviewed: false

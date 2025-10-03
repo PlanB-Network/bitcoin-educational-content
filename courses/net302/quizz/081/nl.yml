@@ -1,0 +1,9 @@
+question: Welk commandoregelprogramma vangt netwerkverkeer op voor real-time analyse?
+answer: tcpdump
+wrong_answers:
+  - graven
+  - nmap
+  - ethtool
+explanation: |
+  tcpdump vangt en logt pakketten die op een netwerk Interface circuleren voor analyse.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er den maksimale teoretiske størrelsen på et IP-datagram?
+answer: 65 536 byte
+wrong_answers:
+  - 1 500 byte
+  - 512 byte
+  - 255 byte
+explanation: |
+  Den maksimale størrelsen på et IP-datagram er 65 536 byte, som bestemmes av grensen for det totale lengdefeltet i IP-hodet.
+reviewed: false

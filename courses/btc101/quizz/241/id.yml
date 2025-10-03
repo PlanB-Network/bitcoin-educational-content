@@ -1,8 +1,10 @@
-question: Apa salah satu implikasi potensial dari Lightning Network bagi pengguna?
-answer: Mereka hanya perlu membayar untuk konten yang mereka konsumsi
+question: Apa salah satu karakteristik utama dari Bitcoin?
+answer: Dapat ditukarkan di mana saja di dunia tanpa perlu otorisasi dari entitas manapun.
 wrong_answers:
-  - Mereka harus membayar lebih untuk konten
-  - Mereka harus membayar biaya langganan bulanan
-  - Mereka harus membayar konten di muka
+  - Hanya dapat digunakan oleh sekelompok orang tertentu.
+  - Memerlukan otorisasi dari otoritas pusat untuk digunakan.
+  - Hanya dapat digunakan di negara-negara tertentu.
 explanation: >-
-  Dengan Lightning Network, pengguna hanya perlu membayar untuk konten yang mereka konsumsi, sehingga mengeliminasi biaya langganan di muka.
+  Teks menyebutkan bahwa Bitcoin bersifat pseudonim dan dapat ditukarkan di mana saja
+  di dunia tanpa perlu otorisasi dari entitas manapun.
+reviewed: false

@@ -33,7 +33,7 @@ Fedi Wallet er en Bitcoin-mappe som kommer med en ny måte å lagre søkeordene 
 
 
 
-- Depotforvalter**: Du bestemmer deg for å plassere din tillit hos en ekstern enhet, porteføljeutvikleren, som vil oppbevare gjenopprettingsordene for porteføljen din for deg. Du har verken tilgang til eller mulighet til å eksportere Bitcoin-porteføljen din.
+- **Depotforvalter**: Du bestemmer deg for å plassere din tillit hos en ekstern enhet, porteføljeutvikleren, som vil oppbevare gjenopprettingsordene for porteføljen din for deg. Du har verken tilgang til eller mulighet til å eksportere Bitcoin-porteføljen din.
 
 
 
@@ -43,7 +43,7 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-- Selvforvaring** : Applikasjonen gir deg tilgang til gjenopprettingsord så snart du oppretter din Wallet. Så du kan fritt eksportere dine bitcoins til den Wallet som passer deg best.
+- **Selvforvaring**: Applikasjonen gir deg tilgang til gjenopprettingsord så snart du oppretter din Wallet. Så du kan fritt eksportere dine bitcoins til den Wallet som passer deg best.
 
 
 
@@ -103,7 +103,7 @@ I menyen **Føderasjoner** blar du ned til en føderasjon, og klikker deretter p
 
 
 
-- Motta bitcoins på Fedi**: På hjemmesiden velger du føderasjonen du ønsker å bruke til å motta bitcoins, og klikker deretter på **Motta**-knappen for å opprette en Lightning Invoice med et beløp du ønsker å motta.
+- **Motta bitcoins på Fedi**: På hjemmesiden velger du føderasjonen du ønsker å bruke til å motta bitcoins, og klikker deretter på **Motta**-knappen for å opprette en Lightning Invoice med et beløp du ønsker å motta.
 
 
 
@@ -113,7 +113,7 @@ I menyen **Føderasjoner** blar du ned til en føderasjon, og klikker deretter p
 
 
 
-- Send bitcoins**: På hjemmesiden kan du klikke på **Send**-knappen for å sende bitcoins til en Lightning Address, for å betale en Invoice eller foreta en offline-betaling.
+- **Send bitcoins**: På hjemmesiden kan du klikke på **Send**-knappen for å sende bitcoins til en Lightning Address, for å betale en Invoice eller foreta en offline-betaling.
 
 
 
@@ -232,4 +232,3 @@ Du har nettopp tatt en omvisning i Fedi Wallet, og du er nå i stand til å utny
 
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-

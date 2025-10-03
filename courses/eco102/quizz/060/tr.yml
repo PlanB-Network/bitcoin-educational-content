@@ -1,0 +1,9 @@
+question: Bastiat'ya göre kamu harcamalarıyla ilgili temel sorun nedir?
+answer: Genellikle boşa harcanır
+wrong_answers:
+  - Çok fazla istihdam yaratıyor
+  - En zenginler için adil değil
+  - Toplumun işleyebilmesi için gereklidir
+explanation: |
+  Bastiat kamu harcamalarını bir israf kaynağı olarak görmektedir çünkü bireylerden el konulan fonlar genellikle devlet tarafından kötüye kullanılmaktadır.
+reviewed: false

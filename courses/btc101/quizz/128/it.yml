@@ -1,11 +1,11 @@
-question: Quando si crea un piano di eredità, cosa non è necessario includere?
-answer: Il nome del wallet Bitcoin che si usa solitamente.
+question: Qual è la funzione dell'aggiustamento della difficoltà nella rete Bitcoin?
+answer: Garantisce che un blocco venga aggiunto alla blockchain ogni dieci minuti circa.
 wrong_answers:
-  - Una lettera scritta a mano che elenca i tuoi beni.
-  - Una descrizione di come accedere ai tuoi fondi.
-  - Le informazioni di contatto delle persone di fiducia.
-explanation: |
-  Creare un piano di eredità è un passo cruciale per assicurare che i tuoi bitcoin saranno gestiti correttamente dopo la tua morte.
-  Questo piano può includere una lettera scritta a mano che elenca i tuoi beni,
-  i metodi di accesso e i recapiti delle persone di fiducia da contattare.
-reviewed: true
+  - Determina il prezzo di Bitcoin.
+  - Regola il numero di bitcoin che possono essere minati nella blockchain.
+  - Determina la dimensione di un blocco.
+explanation: >-
+  L'aggiustamento della difficoltà nella rete Bitcoin garantisce che un blocco
+  venga aggiunto circa ogni dieci minuti. Questo fa parte delle regole del protocollo
+  della rete Bitcoin.
+reviewed: vero

@@ -1,8 +1,8 @@
-question: Hur kan Lightning Network potentiellt förändra de befintliga affärsmodellerna inom videospelsbranschen?
-answer: Det gör att spelarna kan satsa mycket små belopp när de spelar spel.
+question: Vad är ett sätt att testa Lightning Network för dig själv?
+answer: Genom att prova podcastapplikationen Fountain.
 wrong_answers:
-  - Det gör det möjligt för spelare att bryta Bitcoin samtidigt som de spelar spel.
-  - Det gör det möjligt för spelutvecklare att acceptera Bitcoin som betalning för sina spel.
-  - Det gör det möjligt för spelare att köpa föremål i spelet med Bitcoin.
+  - Av Mining Bitcoin med hjälp av en persondator.
+  - Genom att köpa Bitcoin från banken.
+  - Genom att skapa en ny kryptovaluta.
 explanation: >-
 reviewed: true

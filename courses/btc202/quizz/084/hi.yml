@@ -1,0 +1,9 @@
+question: Bitcoin core नोड द्वारा बनाए गए आउटगोइंग कनेक्शनों की डिफ़ॉल्ट संख्या क्या है?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core डिफ़ॉल्ट रूप से 10 आउटगोइंग कनेक्शन (8 पूर्ण-रिले और 2 ब्लॉक-रिले-केवल) बनाए रखता है।
+reviewed: true

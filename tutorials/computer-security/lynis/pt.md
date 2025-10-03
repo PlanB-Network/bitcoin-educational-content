@@ -1,5 +1,5 @@
 ---
-name: Lince
+name: Lynis
 description: Efetuar uma auditoria de segurança a uma máquina Linux com o Lynis
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*Este tutorial é baseado no conteúdo original de Fares CHELLOUG publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original
+*Este tutorial é baseado no conteúdo original de Fares CHELLOUG publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original.*
 
 
 
@@ -22,7 +22,7 @@ ___
 
 
 
-**Neste tutorial, vamos aprender a fazer uma auditoria de segurança numa máquina Linux usando o Lynis! Para aqueles que não conhecem o **Lynis**, ele é um pequeno utilitário de linha de comando que irá analisar a configuração do seu servidor e fazer recomendações para **melhorar a segurança da sua máquina**
+**Neste tutorial, vamos aprender a fazer uma auditoria de segurança numa máquina Linux usando o Lynis! Para aqueles que não conhecem o Lynis, ele é um pequeno utilitário de linha de comando que irá analisar a configuração do seu servidor e fazer recomendações para melhorar a segurança da sua máquina**
 
 
 
@@ -51,7 +51,7 @@ A ferramenta é amplamente utilizada por uma vasta gama de utilizadores, incluin
 
 
 
-O projeto está disponível neste Address no **Github** :
+O projeto está disponível neste Address no **Github**:
 
 
 
@@ -82,7 +82,7 @@ Este modo de instalação permite-lhe utilizar o comando **lynis** a partir de q
 
 
 
-Ligue-se ao seu servidor através de SSH e introduza os seguintes comandos para instalar o Lynis :
+Ligue-se ao seu servidor através de SSH e introduza os seguintes comandos para instalar o Lynis:
 
 
 
@@ -209,7 +209,7 @@ Para visualizar os comandos disponíveis, basta introduzir o seguinte comando:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Isto é o que se obtém:
 
 
 
-Para visualizar todas as opções, é necessário introduzir :
+Para visualizar todas as opções, é necessário introduzir:
 
 
 
@@ -321,10 +321,10 @@ De seguida, o Lynis vai listar um conjunto de pontos correspondentes a tudo o qu
 
 
 
-- Vermelho** para Elements crítico ou melhores práticas não respeitadas (um pacote em falta, por exemplo), ou seja, o seu servidor não respeita este ponto
-- Amarelo** para sugestões ou cumprimento parcial da recomendação (digamos que é uma vantagem cumprir um ponto destacado com esta cor (não prioritário))
-- Green** para pontos em que a configuração do seu servidor é compatível
-- Branco**, quando neutro
+- **Vermelho** para Elements crítico ou melhores práticas não respeitadas (um pacote em falta, por exemplo), ou seja, o seu servidor não respeita este ponto
+- **Amarelo** para sugestões ou cumprimento parcial da recomendação (digamos que é uma vantagem cumprir um ponto destacado com esta cor (não prioritário))
+- **Green** para pontos em que a configuração do seu servidor é compatível
+- **Branco**, quando neutro
 
 
 
@@ -336,7 +336,7 @@ Aqui, podemos ver que Lynis recomenda a instalação do **fail2ban**:
 
 
 
-Na secção "**Boot and services**", vemos que a proteção dos serviços através do *systemd* poderia ser melhorada. No lado positivo, o Grub2 está presente e não há problemas com permissões no :
+Na secção "**Boot and services**", vemos que a proteção dos serviços através do *systemd* poderia ser melhorada. No lado positivo, o Grub2 está presente e não há problemas com permissões no:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Algumas informações sobre os pacotes instalados :
+Algumas informações sobre os pacotes instalados:
 
 
 
 
 
-- O Clamav** é um antivírus.
-- unattend-upgrades** permitir-lhe-á gerir as suas actualizações automaticamente e até reiniciar a máquina ou limpar automaticamente pacotes antigos, é totalmente configurável.
-- o rkhunter** é um anti-rootkit que analisa o seu sistema de ficheiros.
-- O Fail2ban** basear-se-á nos seus ficheiros de registo de acordo com o que lhe der a ler e funcionará com o **iptables**, por exemplo, para banir endereços IP que tentem fazer "força bruta" no seu servidor em SSH.
+- O **Clamav** é um antivírus.
+- **unattend-upgrades** permitir-lhe-á gerir as suas actualizações automaticamente e até reiniciar a máquina ou limpar automaticamente pacotes antigos, é totalmente configurável.
+- o **rkhunter** é um anti-rootkit que analisa o seu sistema de ficheiros.
+- O **Fail2ban** basear-se-á nos seus ficheiros de registo de acordo com o que lhe der a ler e funcionará com o **iptables**, por exemplo, para banir endereços IP que tentem fazer "força bruta" no seu servidor em SSH.
 
 
 
@@ -623,7 +623,7 @@ Vamos dar uma olhadela às recomendações do SSH. Elas estão listadas abaixo. 
 
 
 
-Vamos dar uma olhada mais de perto na minha configuração **SSH** atual em :**/etc/ssh/sshd_config**
+Vamos dar uma olhada mais de perto na minha configuração **SSH** atual em:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ A configuração sugerida abaixo ainda pode ser optimizada, mas dá-lhe uma boa 
 
 
 
-Iremos :
+Iremos:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Manter a autenticação da palavra-passe :
+- Manter a autenticação da palavra-passe:
 
 
 
@@ -804,7 +804,7 @@ Banner none
 
 
 
-Em imagens, isto dá :
+Em imagens, isto dá:
 
 
 
@@ -820,7 +820,7 @@ Finalmente, não nos esqueçamos de verificar a **pontuação de auditoria do Ly
 
 
 
-**Por outras palavras, quanto maior for a pontuação, melhor! Por conseguinte, é necessário trabalhar na sua configuração para obter a pontuação mais elevada possível, permitindo ao mesmo tempo que a sua máquina e os serviços alojados funcionem normalmente (o que significa efetuar testes funcionais).
+**Por outras palavras, quanto maior for a pontuação, melhor!** Por conseguinte, é necessário trabalhar na sua configuração para obter a pontuação mais elevada possível, permitindo ao mesmo tempo que a sua máquina e os serviços alojados funcionem normalmente (o que significa efetuar testes funcionais).
 
 
 
@@ -840,7 +840,7 @@ Vejamos os resultados no meu segundo servidor, onde passei um pouco mais de temp
 
 
 
-*o *Lynis** também oferece a opção de executar as suas verificações através de uma tarefa agendada. Existe, de facto, a opção **"--cronjob "**, que executa todos os testes do Lynis sem necessidade de validação ou ação do utilizador. Pode então, de forma muito simples, criar um script que correrá o **Lynis** e colocará a saída num ficheiro com data e hora com o nome do servidor em questão. Aqui está um ficheiro deste tipo que pode ser colocado na pasta */etc/cron.daily*:
+O **Lynis** também oferece a opção de executar as suas verificações através de uma tarefa agendada. Existe, de facto, a opção **"--cronjob "**, que executa todos os testes do Lynis sem necessidade de validação ou ação do utilizador. Pode então, de forma muito simples, criar um script que correrá o **Lynis** e colocará a saída num ficheiro com data e hora com o nome do servidor em questão. Aqui está um ficheiro deste tipo que pode ser colocado na pasta */etc/cron.daily*:
 
 
 
@@ -896,4 +896,4 @@ Finalmente, pode também comparar o **Lynis** com outras ferramentas, que são v
 
 
 
-**Este tutorial chegou ao fim, divirtam-se com a Lynis!
+**Este tutorial chegou ao fim, divirtam-se com a Lynis!**

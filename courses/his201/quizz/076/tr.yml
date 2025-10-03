@@ -1,0 +1,9 @@
+question: Bitcoin'ın iyileştirilmesini koordine etmeyi amaçlayan bir süreç olan Bitcoin İyileştirme Önerileri sistemini Eylül 2011'de kim başlattı?
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+explanation: |
+  Bu sistem, Python programlama diline özgü Python Geliştirme Önerileri (PEP) temel alınarak modellenmiştir.
+reviewed: true

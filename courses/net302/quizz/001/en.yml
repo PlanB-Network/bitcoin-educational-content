@@ -1,0 +1,9 @@
+question: What topology links all equipment to a single central point?
+answer: Star
+wrong_answers:
+  - Ring
+  - Bus
+  - Mesh
+explanation: |
+  In a star topology, each device is connected to a central device, facilitating management and maintenance.
+reviewed: false

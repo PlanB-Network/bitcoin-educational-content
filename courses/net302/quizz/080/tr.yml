@@ -1,0 +1,9 @@
+question: Yakalanan ağ paketlerinin ayrıntılı bir eğitim analizini sağlamak için hangi grafik yazılımı kullanılabilir?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Rota
+explanation: |
+  Wireshark, yakalanan ağ trafiğinin derinlemesine incelenmesi için grafiksel bir paket analizörüdür.
+reviewed: false

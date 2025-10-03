@@ -1,5 +1,5 @@
 ---
-name: 加入市场
+name: JoinMarket
 
 description: 如何使用 JoinMarket 通过命令行在 Bitcoin 上执行 CoinJoin 的指南和教程
 ---

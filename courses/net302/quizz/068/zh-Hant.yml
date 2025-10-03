@@ -1,0 +1,9 @@
+question: 什麼機制可將 MAC Address 轉換為 64 位元識別碼，以產生 IPv6 Address？
+answer: EUI-64
+wrong_answers:
+  - NAT64
+  - PPPoE-64
+  - DNSSEC64
+explanation: |
+  EUI-64 機制可將 48 位元 MAC Address 轉換為 64 位元識別碼，用於 IPv6 自動組態。
+reviewed: false

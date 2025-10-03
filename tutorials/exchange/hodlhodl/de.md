@@ -12,9 +12,8 @@ Hodl Hodl ist eine dezentralisierte Bitcoin-Börse, die Benutzerkontrolle und Si
 
 https://hodlhodl.com/pages/faq_help
 
-## Schreibanleitung:
+## Starten Sie Ihre Reise auf Hodl Hodl
 
-Ihre Reise mit HodlHodl beginnen: Eine Schritt-für-Schritt-Anleitung
 
 ![image](assets/5.webp)
 
@@ -48,43 +47,43 @@ Um mit dem BTC-Handel zu beginnen, müssen Sie zuerst Ihre BTC-Adresse angeben. 
 
 Anleitung von Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
-1. Besuchen Sie hodlhodl.com und erstellen Sie Ihr Konto. Die einzigen Details, die Sie angeben müssen, sind ein Benutzername und eine E-Mail-Adresse. Sie gelangen dann zur Startseite.
+- Besuchen Sie hodlhodl.com und erstellen Sie Ihr Konto. Die einzigen Details, die Sie angeben müssen, sind ein Benutzername und eine E-Mail-Adresse. Sie gelangen dann zur Startseite.
 
 ![cover](assets/11.webp)
 
-2. Klicken Sie auf "BTC kaufen" in der Website-Navigation.
+- Klicken Sie auf "BTC kaufen" in der Website-Navigation.
 
 ![cover](assets/12.webp)
 
-3. Wählen Sie Ihren gewünschten Zahlungstyp und -methode aus. Hier können Sie auch einen bestimmten Betrag angeben, falls erforderlich.
+- Wählen Sie Ihren gewünschten Zahlungstyp und -methode aus. Hier können Sie auch einen bestimmten Betrag angeben, falls erforderlich.
 
 ![cover](assets/13.webp)
 
-4. Wählen Sie Ihr gewünschtes Angebot aus. Sie können dann die Handelsdetails überprüfen und auch die Aktivitätsberichte und Bewertungen der Teilnehmer lesen.
+- Wählen Sie Ihr gewünschtes Angebot aus. Sie können dann die Handelsdetails überprüfen und auch die Aktivitätsberichte und Bewertungen der Teilnehmer lesen.
 
 ![cover](assets/14.webp)
 
-5. Sobald Sie zufrieden sind, können Sie angeben, wie viel Sie kaufen möchten, die Adresse eingeben, an die Sie die Bitcoin senden möchten, und die vom Verkäufer beworbene Zahlungsmethode bestätigen. Klicken Sie auf "Angebot annehmen und Vertrag erstellen".
+- Sobald Sie zufrieden sind, können Sie angeben, wie viel Sie kaufen möchten, die Adresse eingeben, an die Sie die Bitcoin senden möchten, und die vom Verkäufer beworbene Zahlungsmethode bestätigen. Klicken Sie auf "Angebot annehmen und Vertrag erstellen".
 
 ![cover](assets/15.webp)
 
-6. Sie haben jetzt Ihren Vertrag erstellt und müssen auf "Escrow generieren" klicken, wo Sie aufgefordert werden, ein Zahlungspasswort zu erstellen. Das Zahlungspasswort ist ein Verschlüsselungsschlüssel für das Escrow-Schlüsselpaar des Benutzers. Es wird verwendet, um Bitcoin in Escrow einzuzahlen oder freizugeben.
+- Sie haben jetzt Ihren Vertrag erstellt und müssen auf "Escrow generieren" klicken, wo Sie aufgefordert werden, ein Zahlungspasswort zu erstellen. Das Zahlungspasswort ist ein Verschlüsselungsschlüssel für das Escrow-Schlüsselpaar des Benutzers. Es wird verwendet, um Bitcoin in Escrow einzuzahlen oder freizugeben.
 
 ![cover](assets/16.webp)
 
-7. Jetzt müssen Sie darauf warten, dass der Verkäufer seine Bitcoin in die Escrow-Wallet einzahlt. Nachdem Sie den Vertrag gestartet haben, können Sie über das Chat-Fenster auf der rechten Seite der Seite mit dem Verkäufer chatten.
+- Jetzt müssen Sie darauf warten, dass der Verkäufer seine Bitcoin in die Escrow-Wallet einzahlt. Nachdem Sie den Vertrag gestartet haben, können Sie über das Chat-Fenster auf der rechten Seite der Seite mit dem Verkäufer chatten.
 
 ![cover](assets/17.webp)
 
-8. Sobald der Verkäufer seine Mittel in die Escrow eingezahlt hat, sehen Sie diesen Bildschirm, der Sie darauf hinweist, Ihr Geld nicht zu senden, bis eine ausreichende Anzahl von Blockchain-Bestätigungen vorliegt (dies variiert je nach Handelsbedingungen). Sie können den Fortschritt der Einzahlungstransaktion des Verkäufers über den blauen Link "Einzahlungstransaktions-ID" überprüfen.
+- Sobald der Verkäufer seine Mittel in die Escrow eingezahlt hat, sehen Sie diesen Bildschirm, der Sie darauf hinweist, Ihr Geld nicht zu senden, bis eine ausreichende Anzahl von Blockchain-Bestätigungen vorliegt (dies variiert je nach Handelsbedingungen). Sie können den Fortschritt der Einzahlungstransaktion des Verkäufers über den blauen Link "Einzahlungstransaktions-ID" überprüfen.
 
 ![cover](assets/18.webp)
 
-9. Sobald bestätigt, werden Sie benachrichtigt und können dann die Gelder an den Verkäufer senden, gemäß den von ihm bereitgestellten Informationen. Sobald Sie dies getan haben, klicken Sie auf "Ich habe die Zahlung gesendet".
+- Sobald bestätigt, werden Sie benachrichtigt und können dann die Gelder an den Verkäufer senden, gemäß den von ihm bereitgestellten Informationen. Sobald Sie dies getan haben, klicken Sie auf "Ich habe die Zahlung gesendet".
 
 ![cover](assets/19.webp)
 
-10. Sie müssen dann darauf warten, dass der Verkäufer bestätigt, dass er die Gelder erhalten hat. Zu diesem Zeitpunkt wird die Bitcoin an die Adresse freigegeben, die Sie zu Beginn des Vertrags angegeben haben. Sie haben auch die Möglichkeit, Ihren Teilnehmer zu bewerten.
+- Sie müssen dann darauf warten, dass der Verkäufer bestätigt, dass er die Gelder erhalten hat. Zu diesem Zeitpunkt wird die Bitcoin an die Adresse freigegeben, die Sie zu Beginn des Vertrags angegeben haben. Sie haben auch die Möglichkeit, Ihren Teilnehmer zu bewerten.
 
 ![cover](assets/20.webp)
 
@@ -181,3 +180,4 @@ Erreichen Sie uns
 - Reddit: hodlhodl.reddit.com
 - Facebook: facebook.com/HHodl
 - Youtube: youtube.com/c/HodlHodl
+

@@ -1,0 +1,9 @@
+question: Apa yang dilakukan protokol IP jika datagram melebihi MTU jaringan yang dilaluinya?
+answer: Dia memecahnya menjadi beberapa bagian
+wrong_answers:
+  - Ini mengenkripsi seluruh datagram sebelum mengirim
+  - Selalu menolaknya dan mengirimkan pesan kesalahan
+  - Dia mengompresnya sebelum mentransmisikannya
+explanation: |
+  Jika ukuran datagram melebihi MTU, router akan memecahnya menjadi beberapa paket yang lebih kecil yang sesuai dengan jaringan target.
+reviewed: false

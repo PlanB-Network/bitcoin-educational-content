@@ -1,0 +1,9 @@
+question: Quali sono i passaggi da completare prima di poter installare UmbrelOS?
+answer: Creare una chiavetta USB avviabile con l'immagine
+wrong_answers:
+  - Compilazione del codice sorgente di Bitcoin core
+  - Formattazione del Blockchain
+  - Creare un account su umbrel.com
+explanation: |
+  L'installazione inizia preparando una chiave USB avviabile con UmbrelOS tramite Balena Etcher.
+reviewed: true

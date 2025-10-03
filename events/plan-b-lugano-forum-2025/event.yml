@@ -10,7 +10,8 @@ type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Lugano's Plan ₿ Forum is the premier Bitcoin conference bringing together
+description: |
+  Lugano's Plan ₿ Forum is the premier Bitcoin conference bringing together
   world leaders, technologists, and entrepreneurs to discuss Bitcoin adoption, economics,
   financial freedom, and freedom of speech.
 language:

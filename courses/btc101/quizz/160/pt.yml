@@ -1,13 +1,13 @@
-question: O que acontece em um ataque de 51% na rede Bitcoin?
-answer: Um agente possui mais da metade do hashrate e pode tentar modificar o blockchain.
+question: Qual é o principal problema do sistema financeiro atual em relação ao meio ambiente?
+answer: Ele incentiva o consumo excessivo e a dívida.
 wrong_answers:
-  - Um agente ganha controle sobre mais da metade dos bitcoins em circulação.
-  - Um agente ganha controle sobre mais da metade dos nós na rede Bitcoin.
-  - Um agente ganha controle sobre mais da metade das pools de mineração na rede Bitcoin.
+  - Ele promove o uso de combustíveis fósseis.
+  - Ele não investe em energia renovável.
+  - Ele não regula a produção de bens.
 explanation: |
-  Em um ataque de 51%, um agente com mais da metade do
-  hashrate da rede poderia potencialmente manipular o
-  blockchain criando uma cadeia alternativa de blocos.
-  No entanto, tal ataque seria extremamente custoso e
-  improvável de ser lucrativo, tornando-o um cenário improvável.
+  O sistema financeiro atual é criticado por incentivar
+  o consumo excessivo e a dívida, o que representa sérios
+  problemas ambientais. Isso se deve ao fácil acesso ao
+  crédito, à emissão monetária pelos bancos e ao uso
+  do sistema de reserva fracionária.
 reviewed: true

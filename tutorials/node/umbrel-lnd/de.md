@@ -1,5 +1,5 @@
 ---
-name: Regenschirm LND
+name: Umbrel LND
 description: Erweiterte Anleitung zur Installation und Konfiguration von Lightning Network Daemon (LND) auf Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -154,7 +154,7 @@ Sie haben die Wahl zwischen der Erstellung eines neuen Knotens oder der Wiederhe
 
 
 
-**Hinweis: Bei neueren Versionen von Umbrel liefert die Installation der Lightning-App dieses 24-Wörter-seed (der Bitcoin Umbrel-Knoten selbst tut dies nicht).
+**Hinweis: Bei neueren Versionen von Umbrel liefert die Installation der Lightning-App dieses 24-Wörter-seed (der Bitcoin Umbrel-Knoten selbst tut dies nicht).**
 
 
 
@@ -496,11 +496,11 @@ Ihr Lightning Umbrel-Knoten benötigt zwei Arten von Backups:
 
 - Enthält Lightning-Kanal-Informationen
 - Ermöglicht das erzwungene Schließen des Kanals im Falle eines Absturzes
-- Wichtig:** Speichern Sie die Datei `channel.db` niemals manuell (Risiko von Strafen)
+- **Wichtig:** Speichern Sie die Datei `channel.db` niemals manuell (Risiko von Strafen)
 
 
 
-**Manuelles Sicherungsverfahren
+**Manuelles Sicherungsverfahren**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Software-Updates:** Halten Sie Umbrel und LND auf dem neuesten Stand (Sicherheitskorrekturen)
-- Hardware-Schutz:** Verwenden Sie ein stabiles System (Raspberry Pi mit SSD, Mini-PC) und eine USV
-- Netzwerksicherheit:** Behalte die Standard-Tor-Konfiguration bei, ändere das Umbrel-Administrator-Passwort (Standard: "moneyprintergobrrr")
-- Verschlüsselung:** Aktivieren Sie die Festplattenverschlüsselung, wenn möglich
+- **Software-Updates:** Halten Sie Umbrel und LND auf dem neuesten Stand (Sicherheitskorrekturen)
+- **Hardware-Schutz:** Verwenden Sie ein stabiles System (Raspberry Pi mit SSD, Mini-PC) und eine USV
+- **Netzwerksicherheit:** Behalte die Standard-Tor-Konfiguration bei, ändere das Umbrel-Administrator-Passwort (Standard: "moneyprintergobrrr")
+- **Verschlüsselung:** Aktivieren Sie die Festplattenverschlüsselung, wenn möglich
 
 
 
@@ -691,10 +691,10 @@ RTL ist ein komplettes "Schweizer Taschenmesser" für die Verwaltung eines Light
 
 
 
-- Lightning Shell** : Befehlszeile (lncli) über Browser
-- BTC RPC Explorer & Mempool** : Überwachung Blockchain
-- LNmetrics und Torq**: Analyse der Routingleistung
-- Amboss & 1ML**: "Soziale" Verwaltung Ihres Knotens (Pseudonyme, Kontakte, Netzwerkanalyse)
+- **Lightning Shell**: Befehlszeile (lncli) über Browser
+- **BTC RPC Explorer & Mempool**: Überwachung Blockchain
+- **LNmetrics und Torq**: Analyse der Routingleistung
+- **Amboss & 1ML**: "Soziale" Verwaltung Ihres Knotens (Pseudonyme, Kontakte, Netzwerkanalyse)
 
 
 

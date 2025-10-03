@@ -1,0 +1,9 @@
+question: Welche Sicherheitsmaßnahmen werden dringend empfohlen, um den Zugang zu Ihrem Umbrel zu schützen?
+answer: Langes Passwort und 2FA-Aktivierung
+wrong_answers:
+  - Dualer SSD-Speicher
+  - RPC-Anschluss im Klartext öffnen
+  - Langes Passwort und SSH-Aktivierung
+explanation: |
+  Die Kombination aus einem starken Passwort und einer Zwei-Faktor-Authentifizierung (2FA) schützt den Zugang zum Interface Umbrel effektiv.
+reviewed: true

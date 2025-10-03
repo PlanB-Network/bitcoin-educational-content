@@ -1,0 +1,9 @@
+question: Bu kursun amacı nedir?
+answer: Yukarıdakilerin hepsi
+wrong_answers:
+  - Özgürlük mücadelesine damgasını vuran tarihi olayları incelemek
+  - Bugün daha iyi hareket edebilmek için fikirler ve olaylar arasındaki ilişkiyi anlamak
+  - Özgürlükle ilgili felsefi kavramları tanımlayabilme
+explanation: |
+  Bu dersin amacı çok yönlüdür: özgürlük mücadelesinde etkili olan tarihsel olayları incelemek, güncel eylemlerimize ışık tutmak için fikirler ve olaylar arasındaki bağlantıyı analiz etmek ve özgürlükle ilgili felsefi kavramları açıklığa kavuşturmak.
+reviewed: true

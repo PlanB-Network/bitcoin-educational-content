@@ -318,8 +318,8 @@ rgb dump
 
 
 
-- Alice** （Invoice 的發行人） ；
-- 鮑勃**（接收並執行 Invoice）。
+- **Alice** （Invoice 的發行人） ；
+- 鮑勃**（接收並執行 Invoice）**。
 
 
 與其他生態系統不同，RGB Invoice 並不局限於付款的概念。它可以嵌入與 Contract 相關聯的任何請求：撤銷金鑰、投票、在 NFT 上建立雕刻 (*engraving*) 等。相應的操作可以在 Contract Interface 中描述。相應的操作可在 Contract Interface 中描述。

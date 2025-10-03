@@ -276,7 +276,7 @@ Hier finden Sie zwei Möglichkeiten, Ihre Daten zu sichern:
 
 
 
-"Threema Safe* speichert alle Ihre Kontoinformationen, mit Ausnahme Ihrer Gespräche, auf den Servern von Threema. Diese Daten werden mit dem Passwort verschlüsselt, das Sie bei der Erstellung Ihres Kontos gewählt haben, so dass Threema keinen Zugriff auf sie hat. Die Backups werden automatisch und regelmäßig erstellt.
+"**Threema Safe** speichert alle Ihre Kontoinformationen, mit Ausnahme Ihrer Gespräche, auf den Servern von Threema. Diese Daten werden mit dem Passwort verschlüsselt, das Sie bei der Erstellung Ihres Kontos gewählt haben, so dass Threema keinen Zugriff auf sie hat. Die Backups werden automatisch und regelmäßig erstellt.
 
 
 
@@ -436,7 +436,7 @@ Herzlichen Glückwunsch, Sie sind jetzt auf dem Laufenden, was die Verwendung vo
 
 
 
-Ich empfehle auch dieses andere Tutorial, in dem ich Ihnen Proton Mail vorstelle, eine viel datenschutzfreundlichere Alternative zu Gmail :
+Ich empfehle auch dieses andere Tutorial, in dem ich Ihnen Proton Mail vorstelle, eine viel datenschutzfreundlichere Alternative zu Gmail:
 
 
 

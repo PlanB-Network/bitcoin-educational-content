@@ -1,0 +1,9 @@
+question: Mikä on väylätopologian tärkein etu?
+answer: Alhaiset asennuskustannukset
+wrong_answers:
+  - Korkea redundanssi
+  - Alhainen viive
+  - Korkea saatavuus
+explanation: |
+  Väylä perustuu yhteen fyysiseen välineeseen, mikä alentaa asennuskustannuksia mutta aiheuttaa myös yhden vikapisteen.
+reviewed: false

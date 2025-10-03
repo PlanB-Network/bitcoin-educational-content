@@ -93,23 +93,23 @@ Jedna od posebnih karakteristika Blitz Wallet je da podržava različite mreže 
 
 
 
-- Lightning Network** : Jedan od Bitcoin slojeva koji vam omogućava da izvršite mikrotransakcije trenutno.
+- **Lightning Network**: Jedan od Bitcoin slojeva koji vam omogućava da izvršite mikrotransakcije trenutno.
 
 
 
 
 
-- Bitcoin Mainnet** : Glavni lanac Bitcoin protokola, pogodan za transakcije velike vrednosti.
+- **Bitcoin Mainnet**: Glavni lanac Bitcoin protokola, pogodan za transakcije velike vrednosti.
 
 
 
 
 
-- Liquid Network**: Paralelni lanac za Bitcoin Mainnet koji je razvio BlockStream i koristi Liquid bitkoine za brzo obavljanje, Confidential Transactions.
+- **Liquid Network**: Paralelni lanac za Bitcoin Mainnet koji je razvio BlockStream i koristi Liquid bitkoine za brzo obavljanje, Confidential Transactions.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Podrazumevano, sve vaše transakcije će biti na Liquid Network, ali Blitz vam omogućava da definišete mrežu na kojoj želite da primate satoshije klikom na dugme **Choose format**.
 
@@ -169,7 +169,7 @@ Pored Bitcoin transfer operacija, Blitz Wallet vam nudi prodavnicu gde možete k
 
 
 
-- Pristup AI uslugama**: Koristite generativne modele veštačke inteligencije kao što su: Claude 3-5 sonet, gpt-4o, gpt-4o-mini gemini-flash-1.5 i plaćajte direktno u bitkoinima.
+- **Pristup AI uslugama**: Koristite generativne modele veštačke inteligencije kao što su: Claude 3-5 sonet, gpt-4o, gpt-4o-mini gemini-flash-1.5 i plaćajte direktno u bitkoinima.
 
 
 
@@ -179,7 +179,7 @@ Pored Bitcoin transfer operacija, Blitz Wallet vam nudi prodavnicu gde možete k
 
 
 
-- Šaljite tekstualne poruke bilo gde u svetu**: U Blitz prodavnici, imate pristup GSM usluzi koja vam omogućava da anonimno šaljete tekstualne poruke bilo gde u svetu, sa direktnim naplatom u Bitcoin.
+- **Šaljite tekstualne poruke bilo gde u svetu**: U Blitz prodavnici, imate pristup GSM usluzi koja vam omogućava da anonimno šaljete tekstualne poruke bilo gde u svetu, sa direktnim naplatom u Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ Pored Bitcoin transfer operacija, Blitz Wallet vam nudi prodavnicu gde možete k
 
 
 
-- Surfujte u potpunoj poverljivosti**: Platite pretplatu za WireGuard VPN (Virtual Private Network) u Wallet Blitz prodavnici sa vašim bitcoinima.
+- **Surfujte u potpunoj poverljivosti**: Platite pretplatu za WireGuard VPN (Virtual Private Network) u Wallet Blitz prodavnici sa vašim bitcoinima.
 
 
 
@@ -249,7 +249,7 @@ Aktiviranjem Lightning režima, kada je glavni uslov ispunjen (saldo od 500.000 
 
 
 
-- Prihvatite Bitcoin u vašoj prodavnici** :
+- **Prihvatite Bitcoin u vašoj prodavnici**:
 
 
 

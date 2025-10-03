@@ -1,0 +1,9 @@
+question: Özgür yazılım hareketi ile açık kaynak arasındaki temel fark nedir?
+answer: Özgürlüğe veya teknik verimliliğe verilen öncelik
+wrong_answers:
+  - C veya assembly dili kullanımı
+  - Yerel veya PC mobil uygulama geliştirme
+  - Uluslararası toplumun varlığı ya da yokluğu
+explanation: |
+  Özgür yazılım kullanıcı özgürlüğüyle ilgilidir; açık kaynak ise şeffaflık ve teknik verimlilikle ilgilidir.
+reviewed: false

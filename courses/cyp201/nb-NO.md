@@ -34,23 +34,51 @@ Målet med denne opplæringen er å gi deg nøklene til å mestre verktøyene du
 
 Før vi dykker ned i detaljene om konstruksjonen og driften av Bitcoin-lommebøker, vil vi starte med noen kapitler om de kryptografiske primitivene å vite for det som følger.
 Vi starter med kryptografiske hash-funksjoner, grunnleggende for både lommebøker og Bitcoin-protokollen selv. Du vil oppdage deres viktigste egenskaper, de spesifikke funksjonene brukt i Bitcoin, og i et mer teknisk kapittel, vil du lære i detalj om arbeidet til dronningen av hash-funksjoner: SHA256.
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/001.webp)
 
 Deretter vil vi diskutere driften av digitale signaturalgoritmer som du bruker hver dag for å sikre dine UTXOer. Bitcoin bruker to: ECDSA og Schnorr-protokollen. Du vil lære hvilke matematiske primitiver som ligger til grunn for disse algoritmene og hvordan de sikrer transaksjonenes sikkerhet.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 Når vi har en god forståelse av disse elementene av kryptografi, vil vi endelig gå videre til hjertet av opplæringen: deterministiske og hierarkiske lommebøker! Først er det en seksjon dedikert til mnemoniske fraser, disse sekvensene av 12 eller 24 ord som lar deg opprette og gjenopprette lommebøkene dine. Du vil oppdage hvordan disse ordene genereres fra en kilde til entropi og hvordan de letter bruken av Bitcoin.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/003.webp)
 Opplæringen vil fortsette med studiet av BIP39-passfrasen, seeden (ikke å forveksle med den mnemoniske frasen), hovedkjedekoden og hovednøkkelen. Vi vil se i detalj hva disse elementene er, deres respektive roller, og hvordan de beregnes.
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/004.webp)
 
 Til slutt, fra hovednøkkelen, vil vi oppdage hvordan kryptografiske nøkkelpar er avledet på en deterministisk og hierarkisk måte opp til mottaksadressene.
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 Denne opplæringen vil gjøre deg i stand til å bruke lommebokprogramvaren din med tillit, samtidig som du forbedrer dine ferdigheter til å identifisere og redusere risikoer. Forbered deg på å bli en ekte ekspert på Bitcoin-lommebøker!
+
+Denne tabellen gir deg en oversettelse av de viktigste engelske termene som brukes, for å gjøre det lettere for deg å forstå skjemaene og de tekniske dokumentene som brukes i kurset CYP 201.
+
+| Engelsk         | Oversettelse / Forklaring                                                                          |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Offentlig nøkkel-hash (brukes til å generere en Bitcoin-adresse).                                   |
+| *public key*    | Offentlig nøkkel (brukes til å motta midler, avledet fra den private nøkkelen).                     |
+| *signature*     | Digital signatur (kryptografisk bevis på at en melding kommer fra innehaveren av en privat nøkkel). |
+| *scriptPubKey*  | Låseskript (definerer betingelsene for å bruke en utgang).                                          |
+| *scriptSig*     | Åpneskript (gir dataene for å oppfylle *scriptPubKey*).                                             |
+| *Stack*         | Stakk (datastruktur brukt av *Bitcoin Script*).                                                    |
+| *input*         | Transaksjonsinngang (referanse til en tidligere utgang brukt som kilde).                            |
+| *output*        | Transaksjonsutgang (definerer mottakeren og beløpet).                                               |
+| *transaction*   | Bitcoin-transaksjon (sett av innganger og utganger som validerer en overføring).                    |
+| *XOR*           | Logisk operator "eksklusiv ELLER", brukt i enkelte kryptografiske ordninger.                       |
+| *HMAC*          | Meldingsautentiseringskode basert på en hash og en hemmelig nøkkel.                                 |
+| *ECDSA*         | Digital signaturalgoritme med elliptiske kurver.                                                   |
+| *hash*          | Hash (unik og fast fingeravtrykk av data).                                                          |
+| *SigHash*       | Type signatur-hash (definerer hvilke deler av en transaksjon som signeres).                        |
+| *HD Wallet*     | Hierarkisk deterministisk lommebok (genererer flere nøkler fra ett frø).                            |
+| *Random Number* | Tilfeldig tall (brukes til å generere sikre private nøkler).                                        |
+| *State*         | Tilstand (mellomverdi i en kryptografisk prosess).                                                  |
+| *Entropy*       | Entropi (mål på tilfeldighet, brukt til å generere frø til lommebøker).                             |
+| *Mnemonic*      | Mnemonisk (rekke ord som forenkler sikkerhetskopiering og gjenoppretting av et frø).                |
+| *Wordlist*      | Ordsliste (forhåndsdefinert sett brukt til å generere BIP39-mnemonikker).                          |
+| *Seed*          | Frø (initialverdi som gjør det mulig å avlede alle nøklene i en HD-lommebok).                      |
+| *Address*       | Bitcoin-adresse (lesbart identifikator for å motta midler, avledet fra den offentlige nøkkelen).   |
+| *Leaf*          | Blad (endeknute i et avlednings-tre).                                                               |
 
 # Hashfunksjoner
 
@@ -73,7 +101,7 @@ For eksempel produserer SHA256-hashfunksjonen en hash av en fast lengde på 256 
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 ### Egenskaper ved Hashfunksjoner
 
@@ -90,7 +118,7 @@ Irreversibilitet betyr at det er enkelt å beregne hash fra inndata, men at den 
 
 I det gitte eksemplet er det enkelt og raskt å oppnå hashen `24f1b9…` ved å kjenne inndataen "_PlanB_". Imidlertid er det umulig å finne meldingen "_PlanB_" ved kun å kjenne `24f1b9…`.
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 Derfor er det umulig å finne et preimage $m$ for en hash $h$ slik at $h = \text{HASH}(m)$, hvor $\text{HASH}$ er en kryptografisk hashfunksjon.
 
@@ -109,7 +137,7 @@ Hvis vi gjør en veldig liten endring til inngangen ved å bruke "_Planb_" denne
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 Denne egenskapen sikrer at selv en mindre endring av den opprinnelige meldingen umiddelbart er oppdagbar, da den ikke bare endrer en liten del av hashen, men hele hashen. Dette kan være av interesse i ulike felt for å verifisere integriteten til meldinger, programvare eller til og med Bitcoin-transaksjoner.
 
@@ -121,7 +149,7 @@ $$
 \text{HASH}(m_1) = \text{HASH}(m_2)
 $$
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 I virkeligheten er det matematisk uunngåelig at kollisjoner eksisterer for hash-funksjoner, fordi størrelsen på inngangene kan være større enn størrelsen på utgangene. Dette er kjent som Dirichlets skuffprinsipp: hvis $n$ objekter distribueres i $m$ skuffer, med $m < n$, så vil minst en skuff nødvendigvis inneholde to eller flere objekter. For en hash-funksjon gjelder dette prinsippet fordi antallet mulige meldinger er (nesten) uendelig, mens antallet mulige hasher er endelig ($2^{256}$ i tilfellet med SHA256).
 
@@ -138,7 +166,7 @@ $$
 
 Derfor er motstand mot sekundært prebilde noe lik kollisjonsresistens, bortsett fra at her er angrepet vanskeligere fordi angriperen ikke fritt kan velge $m_1$.
 
-![CYP201](assets/fr/005.webp)
+![CYP201](assets/en/010.webp)
 
 ### Bruk av Hashfunksjoner i Bitcoin
 
@@ -230,7 +258,7 @@ Denne padding-størrelsen legges til etter bit-paddingen. Derfor består melding
 - En bit `1` etterfulgt av flere bits `0` for å danne bit-paddingen;
 - En 64-bits representasjon av lengden på $M$ for å danne paddingen med størrelsen.
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 ### Initialisering av Variabler
 
@@ -346,7 +374,7 @@ $$
 
 Skjematisk kan høyre skiftoperasjonen ses slik:
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 En annen operasjon brukt i SHA256 for bitmanipulasjon er den høyre sirkulære rotasjonen, betegnet $RotR_n(x)$, som skifter bitsene til $x$ til høyre med $n$ posisjoner, og setter de skiftede bitsene inn igjen i begynnelsen av strengen.
 For eksempel, for $x = 101100001$ (over 9 bits) og $n = 4$:
 
@@ -356,7 +384,7 @@ $$
 
 Skjematisk kan den høyre sirkulære skiftoperasjonen ses slik:
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 ### Kompresjonsfunksjon
 
@@ -383,7 +411,7 @@ I dette tilfellet er $x$ lik $W_{i-15}$ for $\sigma_0(x)$ og $W_{i-2}$ for $\sig
 
 Når vi har bestemt alle ordene $W_i$ for vår 512-bits del, kan vi gå videre til kompresjonsfunksjonen, som består av å utføre 64 runder.
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 For hver runde $i$ fra 0 til 63, har vi tre forskjellige typer inndata. Først, $W_i$ som vi nettopp har bestemt, delvis bestående av vår meldingsdel $P_n$. Deretter, de 64 konstantene $K_i$. Til slutt bruker vi tilstandsvariablene $A$, $B$, $C$, $D$, $E$, $F$, $G$ og $H$, som vil utvikle seg gjennom hashingsprosessen og bli modifisert med hver kompresjonsfunksjon. Men for den første delen $P_1$, bruker vi de opprinnelige konstantene gitt tidligere.
 Vi utfører deretter følgende operasjoner på våre inndata:
 
@@ -442,7 +470,7 @@ $$
 
 Følgende diagram representerer en runde av SHA256-komprimeringsfunksjonen slik vi nettopp har beskrevet:
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 - Pilene indikerer dataflyten;
 - Boksene representerer operasjonene som utføres;
@@ -536,7 +564,7 @@ HMAC er en kryptografisk algoritme som beregner en autentiseringskode basert på
 
 Her er dens generelle driftsskjema med $m$ som inngangsmeldingen og $K$ en hemmelig nøkkel:
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 La oss studere mer i detalj hva som skjer i denne HMAC-SHA512 svarte boksen. HMAC-SHA512-funksjonen med:
 
@@ -572,7 +600,7 @@ Denne ligningen brytes ned i følgende trinn:
 
 Disse trinnene kan oppsummeres skjematisk som følger:
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 HMAC brukes i Bitcoin spesielt for nøkkelavledning i HD (Hierarchical Deterministic) lommebøker (vi vil snakke mer om dette i kommende kapitler) og som en komponent av PBKDF2.
 
@@ -594,7 +622,7 @@ PBKDF2-prosessen er som følger, med:
 
 Skjematisk kan PBKDF2 representeres som følger:
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 I dette kapittelet har vi utforsket HMAC-SHA512 og PBKDF2-funksjonene, som bruker hash-funksjoner for å sikre integriteten og sikkerheten til nøkkelavledninger i Bitcoin-protokollen. I neste del vil vi se nærmere på digitale signaturer, en annen kryptografisk metode som er mye brukt i Bitcoin.
 
@@ -629,7 +657,7 @@ En viktig egenskap ved disse kurvene er at de er symmetriske med hensyn til x-ak
 
 Her er en representasjon av en elliptisk kurve over feltet av reelle tall:
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 Hver elliptisk kurve er definert av en ligning på formen:
 
@@ -648,7 +676,7 @@ y^2 = x^3 + 7
 $$
 
 Dens grafiske representasjon over feltet av reelle tall ser slik ut:
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 I kryptografi jobber vi med endelige tallmengder. Mer spesifikt jobber vi på det endelige feltet $\mathbb{F}_p$, som er feltet av heltall modulo et primtall $p$.
 **Definisjon**: Et primtall er et naturlig heltall større enn eller lik 2 som kun har to distinkte positive heltallsdivisorer: 1 og seg selv. For eksempel er tallet 7 et primtall siden det kun kan deles av 1 og 7. På den andre siden er tallet 8 ikke et primtall fordi det kan deles av 1, 2, 4, og 8.
 I Bitcoin er primtallet $p$ som brukes til å definere det endelige feltet veldig stort. Det er valgt på en slik måte at ordenen til feltet (dvs. antallet elementer i $\mathbb{F}_p$) er tilstrekkelig stort for å sikre kryptografisk sikkerhet.
@@ -673,7 +701,7 @@ $$
 
 Gitt at denne kurven er definert over det endelige feltet $\mathbb{F}_p$, ligner den ikke lenger en kontinuerlig kurve, men heller et diskret sett med punkter. For eksempel, her er hvordan kurven som brukes i Bitcoin ser ut for et veldig lite $p = 17$:
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 I dette eksemplet har jeg med vilje begrenset det endelige feltet til $p = 17$ av pedagogiske årsaker, men man må forestille seg at den som brukes i Bitcoin er enormt større, nesten $2^{256}$.
 
@@ -723,11 +751,11 @@ hvor:
 
 Det faktum at dette punktet $G$ er felles for alle offentlige nøkler på Bitcoin, gjør at vi kan være sikre på at den samme private nøkkelen $k$ alltid vil gi oss den samme offentlige nøkkelen $K$:
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 Hovedkarakteristikken til denne operasjonen er at det er en enveisfunksjon. Det er enkelt å beregne den offentlige nøkkelen $K$ ved å kjenne den private nøkkelen $k$ og generatorelementet $G$, men det er praktisk talt umulig å beregne den private nøkkelen $k$ ved å kun kjenne den offentlige nøkkelen $K$ og generatorelementet $G$. Å finne $k$ fra $K$ og $G$ tilsvarer å løse det diskrete logaritmeproblemet på elliptiske kurver, et matematisk vanskelig problem for hvilket det ikke er kjent noen effektiv algoritme. Selv de kraftigste nåværende kalkulatorene er ute av stand til å løse dette problemet på en rimelig tid.
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 ### Addisjon og Dobling av Punkter på Elliptiske Kurver
 
@@ -739,7 +767,7 @@ $$
 
 Grafisk kan dette representeres som følger:
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 For dobling av et punkt, det vil si operasjonen $P + P$, tegner vi tangenten til kurven ved punkt $P$. Denne tangenten krysser kurven ved et annet punkt $S'$. Vi tar deretter speilbildet av dette punktet med hensyn til x-aksen for å få punktet $S$, som er resultatet av doblingen:
 
@@ -749,7 +777,7 @@ $$
 
 Grafisk vises dette som:
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 Ved å bruke disse operasjonene av addisjon og dobling, kan vi utføre den skalar multiplikasjonen av et punkt med et heltall $k$, betegnet $kP$, ved å utføre gjentatte doblinger og addisjoner.
 
@@ -764,7 +792,7 @@ Grafisk tilsvarer dette å utføre en serie av addisjoner og doblinger:
 - Beregn $2G$ ved å doble $G$.
 - Beregn $4G$ ved å doble $2G$.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 Hvis vi for eksempel ønsker å beregne punktet $3G$, må vi først beregne punktet $2G$ ved å doble punktet $G$, deretter legge til $G$ og $2G$. For å legge til $G$ og $2G$, tegner man enkelt linjen som forbinder disse to punktene, henter det unike punktet $-3G$ ved krysset mellom denne linjen og den elliptiske kurven, og deretter bestemmer $3G$ som motsatt av $-3G$.
 
@@ -779,7 +807,7 @@ $$
 $$
 
 Grafisk ville dette bli representert som følger:
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 
 ### Enveiskryptering
 
@@ -932,7 +960,7 @@ $$
 
 Det første steget for å generere en signatur er å hashe meldingen. Men i motsetning til ECDSA, gjøres det med andre verdier og en merket hashfunksjon brukes for å unngå kollisjoner i forskjellige kontekster. En merket hashfunksjon innebærer ganske enkelt å legge til en vilkårlig etikett til hashfunksjonens inndata sammen med meldingsdataene.
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 I tillegg til meldingen, blir $x$-koordinaten til den offentlige nøkkelen $K_x$, samt et punkt $R$ beregnet fra noncen $r$ ($R=r \cdot G$) som i seg selv er et unikt heltall for hver signatur, beregnet deterministisk fra den private nøkkelen og meldingen for å unngå sårbarheter relatert til gjenbruk av nonce, også passert inn i den merkede funksjonen. Akkurat som for den offentlige nøkkelen, beholdes kun $x$-koordinaten til nonsepunktet $R_x$ for å beskrive punktet.
 
@@ -995,11 +1023,11 @@ $$
 
 Schnorr-signaturskjemaet tilbyr flere fordeler for Bitcoin over den opprinnelige ECDSA-algoritmen. Først tillater Schnorr aggregasjon av nøkler og signaturer. Dette betyr at flere offentlige nøkler kan kombineres til en enkelt nøkkel.
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 Og på samme måte kan flere signaturer aggregeres til en enkelt gyldig signatur. Dermed, i tilfellet med en multisignaturtransaksjon, kan et sett med deltakere signere med en enkelt signatur og en enkelt aggregert offentlig nøkkel. Dette reduserer betydelig lagrings- og beregningskostnader for nettverket, ettersom hver node bare trenger å verifisere en enkelt signatur.
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 I tillegg forbedrer signaturaggregering personvernet. Med Schnorr blir det umulig å skille en multisignaturtransaksjon fra en standard enkeltsignaturtransaksjon. Denne homogeniteten gjør kjedeanalyse vanskeligere, da den begrenser evnen til å identifisere lommebokavtrykk.
 Til slutt tilbyr Schnorr også muligheten for samtidig verifisering. Ved å verifisere flere signaturer samtidig, kan noder oppnå effektivitet, spesielt for blokker som inneholder mange transaksjoner. Denne optimaliseringen reduserer tiden og ressursene som trengs for å validere en blokk. I tillegg er ikke Schnorr-signaturer formbare, i motsetning til signaturer produsert med ECDSA. Dette betyr at en angriper ikke kan modifisere en gyldig signatur for å skape en annen gyldig signatur for samme melding og samme offentlige nøkkel. Denne sårbarheten var tidligere til stede på Bitcoin og forhindret spesielt den sikre implementeringen av Lightning Network. Det ble løst for ECDSA med SegWit-softforken i 2017, som innebærer å flytte signaturene til en separat database fra transaksjonene for å forhindre deres formbarhet.
@@ -1029,29 +1057,29 @@ På Bitcoin er det først og fremst 3 grunnleggende sighash-flagg:
 
 - `SIGHASH_ALL` (`0x01`): Signaturen gjelder for alle inndataene og alle utdataene i transaksjonen. Transaksjonen er dermed helt dekket av signaturen og kan ikke lenger modifiseres. `SIGHASH_ALL` er det mest brukte sighash-flagget i daglige transaksjoner når man enkelt ønsker å gjennomføre en transaksjon uten at den kan modifiseres.
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 I alle diagrammene i dette kapittelet representerer oransje farge elementene dekket av signaturen, mens svart farge indikerer de som ikke er det.
 
 - `SIGHASH_NONE` (`0x02`): Signaturen dekker alle inndataene, men ingen av utdataene, noe som tillater modifikasjon av utdataene etter signaturen. I praksis er dette lik en blank sjekk. Signataren låser opp UTXOene i inndataene, men etterlater feltet for utdata helt modifiserbart. Enhver som kjenner til denne transaksjonen kan dermed legge til utdataene av sitt valg, for eksempel ved å spesifisere en mottaksadresse for å samle inn midlene som brukes av inndataene, og deretter kringkaste transaksjonen for å gjenopprette bitcoinene. Signaturen til eieren av inndataene vil ikke bli ugyldiggjort, ettersom den bare dekker inndataene.
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 - `SIGHASH_SINGLE` (`0x03`): Signaturen dekker alle inndata samt et enkelt utdata, som tilsvarer indeksen til det signerte inndataet. For eksempel, hvis signaturen låser opp _scriptPubKey_ for inndata #0, dekker den også utdata #0. Signaturen beskytter også alle andre inndata, som ikke lenger kan modifiseres. Imidlertid kan hvem som helst legge til et ekstra utdata uten å ugyldiggjøre signaturen, forutsatt at utdata #0, som er det eneste som er dekket av den, ikke er modifisert.
-  ![CYP201](assets/fr/028.webp)
+  ![CYP201](assets/en/033.webp)
 
 I tillegg til disse tre sighash-flaggene finnes det også modifikatoren `SIGHASH_ANYONECANPAY` (`0x80`). Denne modifikatoren kan kombineres med et grunnleggende sighash-flagg for å skape tre nye sighash-flagg:
 
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): Signaturen dekker et enkelt inndata mens den inkluderer alle utdataene i transaksjonen. Dette kombinerte sighash-flagget tillater for eksempel opprettelsen av en crowdfunding-transaksjon. Organisatoren forbereder utdataet med sin adresse og målbeløpet, og hver investor kan deretter legge til inndata for å finansiere dette utdataet. Når tilstrekkelige midler er samlet i inndataene for å tilfredsstille utdataet, kan transaksjonen kringkastes.
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Signaturen dekker et enkelt inndata, uten å forplikte seg til noe utdata;
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Signaturen dekker et enkelt inngangspunkt samt utgangspunktet som har samme indeks som dette inngangspunktet. For eksempel, hvis signaturen låser opp _scriptPubKey_ for inngang #3, vil den også dekke utgang #3. Resten av transaksjonen forblir modifiserbar, både med hensyn til andre innganger og andre utganger.
-  ![CYP201](assets/fr/031.webp)
+  ![CYP201](assets/en/036.webp)
 
 ### Prosjekter for å legge til nye Sighash-flagg
 
@@ -1059,7 +1087,7 @@ For øyeblikket (2024) er kun de sighash-flaggene som er presentert i forrige se
 
 Disse to sighash-flaggene ville tilby en ekstra mulighet på Bitcoin: å skape signaturer som ikke dekker noen spesifikk inngang i transaksjonen.
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 Denne ideen ble opprinnelig formulert av Joseph Poon og Thaddeus Dryja i Lightning White Paper. Før den ble omdøpt, ble dette sighash-flagget kalt `SIGHASH_NOINPUT`.
 Hvis dette sighash-flagget integreres i Bitcoin, vil det muliggjøre bruk av covenants, men det er også en obligatorisk forutsetning for å implementere Eltoo, et generelt protokoll for andre lag som definerer hvordan man felles kan håndtere eierskapet av en UTXO. Eltoo ble spesifikt designet for å løse problemene forbundet med mekanismene for å forhandle om tilstanden til Lightning-kanaler, det vil si mellom åpning og lukking.
@@ -1091,7 +1119,7 @@ UTXOer representerer dermed fragmenter av bitcoins, i varierende størrelser, so
 
 De første lommebøkene som ble brukt på Bitcoin, var JBOK (_Just a Bunch Of Keys_) lommebøker, som grupperte sammen privat genererte nøkler uavhengig og uten noen kobling mellom dem. Disse lommebøkene opererte på en enkel modell hvor hver privat nøkkel kunne låse opp en unik Bitcoin mottaksadresse.
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 Hvis man ønsket å bruke flere private nøkler, var det da nødvendig å lage like mange sikkerhetskopier for å sikre tilgang til midler i tilfelle problemer med enheten som hoster lommeboken. Hvis man bruker en enkelt privat nøkkel, kan denne lommebokstrukturen være tilstrekkelig, siden en enkelt sikkerhetskopi er nok. Dette stiller imidlertid et problem: på Bitcoin, er det sterkt frarådet å alltid bruke den samme private nøkkelen. Faktisk er en privat nøkkel assosiert med en unik adresse, og Bitcoin mottaksadresser er normalt designet for engangsbruk. Hver gang du mottar midler, bør du generere en ny tom adresse.
 
@@ -1104,7 +1132,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### HD Lommebøker (_Hierarchical Deterministic_)
 
 For å adressere begrensningen av JBOK-lommebøker, ble en ny lommebokstruktur senere tatt i bruk. I 2012 introduserte Pieter Wuille en forbedring med BIP32, som introduserer hierarkiske deterministiske lommebøker. Prinsippet med en HD-lommebok er å avlede alle private nøkler fra en enkelt informasjonskilde, kalt et frø, på en deterministisk og hierarkisk måte. Dette frøet genereres tilfeldig når lommeboken opprettes og utgjør en unik sikkerhetskopi som tillater gjenoppretting av alle lommebokens private nøkler. Dermed kan brukeren generere et svært stort antall private nøkler for å unngå adressegjenbruk og bevare sitt personvern, samtidig som det kun er nødvendig å lage en enkelt sikkerhetskopi av lommeboken via frøet.
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 I HD-lommebøker utføres nøkkelavledning i henhold til en hierarkisk struktur som tillater nøkler å bli organisert i avledningssubrom, hvert subspace kan videre deles opp, for å lette fondshåndtering og interoperabilitet mellom forskjellige lommebokprogramvarer. I dag er denne standarden adoptert av det store flertallet av Bitcoin-brukere. Av denne grunn vil vi undersøke den i detalj i de følgende kapitlene.
 
@@ -1135,7 +1163,7 @@ Den innledende entropien som brukes for en HD-lommebok er generelt 128 bits elle
 
 I de fleste tilfeller genereres dette tilfeldige nummeret automatisk av lommebokprogramvaren ved hjelp av en PRNG (_Pseudo-Random Number Generator_). PRNG-er er en kategori algoritmer som brukes til å generere sekvenser av tall fra en innledende tilstand, som har egenskaper som nærmer seg det til et tilfeldig tall, uten faktisk å være ett. En god PRNG må ha egenskaper som utgangsuniformitet, uforutsigbarhet og motstand mot prediktive angrep. I motsetning til ekte tilfeldige tallgeneratorer (TRNG), er PRNG-er deterministiske og reproduserbare.
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 Et alternativ er å manuelt generere entropien, som tilbyr bedre kontroll, men er også mye risikofylt. Jeg fraråder sterkt å generere entropien for din HD-lommebok selv.
 
@@ -1167,7 +1195,7 @@ $$
 
 Når sjekksummen er beregnet, blir den konkatenert med entropien for å oppnå en utvidet bitsekvens notert $\text{ENT} \Vert \text{CS}$ ("konkatenere" betyr å sette ende-til-ende).
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 ### Korrespondanse mellom Entropien og den Mnemoniske Frasen
 
@@ -1197,17 +1225,17 @@ For eksempel, for en entropi på 256 bits, er resultatet $\text{ENT} \Vert \text
 
 Bitsekvensen $\text{ENT} \Vert \text{CS}$ deles deretter inn i segmenter på 11 bits. Hvert 11-bits segment, når det er konvertert til desimal, tilsvarer et tall mellom 0 og 2047, som angir posisjonen til et ord [i en liste over 2048 ord standardisert av BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 For eksempel, for en 128-bit entropi, er kontrollsummen 4 bit, og dermed måler den totale sekvensen 132 bit. Den er delt inn i 12 segmenter på 11 bit (de oransje bitene betegner kontrollsummen):
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 Hvert segment konverteres deretter til et desimaltall som representerer et ord i listen. For eksempel er det binære segmentet `01011010001` ekvivalent i desimal til `721`. Ved å legge til 1 for å justere seg med listens indeksering (som starter på 1 og ikke 0), gir dette ordets rang `722`, som er "*focus*" i listen.
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 Denne korrespondansen gjentas for hvert av de 12 segmentene, for å oppnå en 12-ords frase.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 ### Egenskaper ved BIP39 ordlisten
 
@@ -1251,7 +1279,7 @@ Vær forsiktig, passfrasen bør ikke forveksles med PIN-koden til din maskinvare
 
 Passfrasen fungerer i tandem med den mnemoniske frasen, og endrer frøet som nøklene genereres fra. Så selv om noen får tak i din 12 eller 24-ords frase, uten passfrasen, kan de ikke få tilgang til midlene dine. Bruk av en passfrase skaper i hovedsak en ny lommebok med distinkte nøkler. Å endre (selv litt) passfrasen vil generere en annen lommebok.
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 ### Hvorfor bør du bruke en passfrase?
 
@@ -1263,7 +1291,7 @@ Til slutt er bruken av en passfrase interessant når man ønsker å kontrollere 
 
 For at passfrasen skal være effektiv, må den være tilstrekkelig lang og tilfeldig. Som med et sterkt passord, anbefaler jeg å velge en passfrase som er så lang og tilfeldig som mulig, med en mangfoldighet av bokstaver, tall og symboler for å gjøre ethvert brute force-angrep umulig.
 Det er også viktig å lagre denne passfrasen på riktig måte, på samme måte som den mnemoniske frasen. **Å miste den betyr å miste tilgangen til dine bitcoins**. Jeg råder sterkt mot å bare huske den i hodet, da dette urimelig øker risikoen for tap. Det ideelle er å skrive den ned på et fysisk medium (papir eller metall) separat fra den mnemoniske frasen. Denne sikkerhetskopien må åpenbart oppbevares på et annet sted enn der din mnemoniske frase er lagret for å forhindre at begge blir kompromittert samtidig.
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 I den følgende seksjonen vil vi oppdage hvordan disse to elementene som er grunnlaget for lommeboken din — den mnemoniske frasen og passfrasen — brukes til å utlede nøkkelparene som brukes i *scriptPubKey* som låser dine UTXOer.
 
@@ -1275,7 +1303,7 @@ I den følgende seksjonen vil vi oppdage hvordan disse to elementene som er grun
 
 Når den mnemoniske frasen og den valgfrie passfrasen er generert, kan prosessen med å utlede en Bitcoin HD-lommebok begynne. Den mnemoniske frasen konverteres først til en seed som utgjør grunnlaget for alle nøklene i lommeboken.
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 ### Seedet til en HD-lommebok
 
@@ -1298,7 +1326,7 @@ s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 Verdien av seedet er dermed påvirket av verdien av den mnemoniske frasen og passfrasen. Ved å endre passfrasen, oppnås et annet seed. Men, med samme mnemoniske frase og passfrase, genereres det samme seedet alltid, siden PBKDF2 er en deterministisk funksjon. Dette sikrer at de samme parene av nøkler kan hentes gjennom våre sikkerhetskopier.
 
@@ -1337,7 +1365,7 @@ C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 ### Rollen til den Mesterlige Nøkkelen og Kjedekoden
 
@@ -1352,7 +1380,7 @@ Før vi fortsetter med utledningen av HD-lommeboken med de følgende elementene,
 
 En utvidet nøkkel er ganske enkelt sammensetningen av en nøkkel (enten privat eller offentlig) og dens assosierte kjedekode. Denne kjedekoden er essensiell for utledningen av barnenøkler fordi, uten den, er det umulig å utlede barnenøkler fra en foreldrenøkkel, men vi vil oppdage denne prosessen mer presist i neste kapittel. Disse utvidede nøklene tillater dermed å aggregere all nødvendig informasjon for å utlede barnenøkler, og forenkler dermed kontoadministrasjonen innenfor en HD-lommebok.
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 Den utvidede nøkkelen består av to deler:
 - Nyttelasten, som inneholder den private eller offentlige nøkkelen samt den assosierte kjedekoden;
@@ -1374,7 +1402,7 @@ For det følgende vil vi adoptere følgende notasjon:
 - $K_{\text{CHD}}^h$: en "hardened" barn offentlig nøkkel;
 - $k_{\text{CHD}}^h$: en "hardened" barn privat nøkkel.
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 ### Konstruksjon av en Utvidet Nøkkel
 
@@ -1468,7 +1496,7 @@ Utledningen av barne-nøkkelpar i Bitcoin HD-lommebøker er avhengig av en hiera
 
 Alle disse utledningene starter med hovednøkkelen og hovedkjedekoden, som er de første foreldrene på dybdenivå 0. De er, på en måte, Adam og Eva til nøklene i lommeboken din, felles forfedre til alle utledede nøkler.
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 La oss utforske hvordan denne deterministiske utledningen fungerer.
 
@@ -1486,7 +1514,7 @@ Derivasjonen av hver barnenøkkel er basert på HMAC-SHA512-funksjonen, som vi d
 
 I alle våre beregninger vil jeg betegne $\text{hash}$ utdataen fra HMAC-SHA512-funksjonen.
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 #### Derivasjon av en Barn Privat Nøkkel fra en Forelder Privat Nøkkel
 
@@ -1539,7 +1567,7 @@ $$
 
 Her er en skjematisk representasjon av den totale derivasjonen:
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 For en **hardened barnenøkkel** ($i \geq 2^{31}$), er beregningen av $\text{hash}$ som følger:
 
@@ -1585,7 +1613,7 @@ $$
 
 Her er en skjematisk representasjon av den totale derivasjonen:
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 Vi kan se at normal derivasjon og hardened derivasjon fungerer på samme måte, med denne forskjellen: normal derivasjon bruker den overordnede offentlige nøkkelen som inndata til HMAC-funksjonen, mens hardened derivasjon bruker den overordnede private nøkkelen.
 
@@ -1640,7 +1668,7 @@ $$
 
 Her er en skjematisk representasjon av den samlede utledningen:
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 ### Korrespondanse mellom offentlige og private nøkler for barn
 
@@ -1711,7 +1739,7 @@ Hver konto definert på dybde 3 er deretter strukturert inn i to kjeder:
 
 **Dybde 5: Adresseindeks (BIP32)**
 Til slutt representerer dybde 5 det siste trinnet i derivasjonen i lommeboken. Selv om det teknisk sett er mulig å fortsette på ubestemt tid, stopper nåværende standarder her. På denne siste dybden blir parene av nøkler som faktisk vil bli brukt til å låse og låse opp UTXOene, avledet. Hvert indeks gjør det mulig å skille mellom søsken nøkkelpar: dermed vil den første mottaksadressen bruke indeksen $/0/$, den andre indeksen $/1/$, og så videre.
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 ### Notasjon av Derivasjonsveier
 
@@ -1768,7 +1796,7 @@ Hovedfordelen med descriptors ligger i deres evne til å innkapsle all den essen
 
 En descriptor består av flere elementer:
 * Skriptfunksjoner som `pk` (*Pay-to-PubKey*), `pkh` (*Pay-to-PubKey-Hash*), `wpkh` (*Pay-to-Witness-PubKey-Hash*), `sh` (*Pay-to-Script-Hash*), `wsh` (*Pay-to-Witness-Script-Hash*), `tr` (*Pay-to-Taproot*), `multi` (*Multisignatur*), og `sortedmulti` (*Multisignatur med sorterte nøkler*);
-* Avledningsveier, for eksempel `[d34db33f/44h/0h/0h]` som indikerer en avledet kontovei og et spesifikt hovednøkkelfingeravtrykk;
+**Avledningsveier**, for eksempel `[d34db33f/44h/0h/0h]` som indikerer en avledet kontovei og et spesifikt hovednøkkelfingeravtrykk;
 * Nøkler i ulike formater som heksadesimale offentlige nøkler eller utvidede offentlige nøkler (`xpub`);
 * En sjekksum, forutgått av et hash-tegn, for å verifisere integriteten til descriptor.
 For eksempel kan en beskrivelse for en P2WPKH (SegWit v0) lommebok se slik ut:
@@ -1788,7 +1816,7 @@ Beskrivelsen inkluderer også den utvidede offentlige nøkkelen brukt i denne lo
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Deretter spesifiserer notasjonen `/<0;1>/*` at beskrivelsen kan generere adresser fra den eksterne kjeden (`0`) og den interne kjeden (`1`), med et jokertegn (`*`) som tillater sekvensiell avledning av flere adresser på en konfigurerbar måte, lik håndtering av en "gap-grense" på tradisjonell lommebokprogramvare.
+Notasjonen `/<0;1>/*` indikerer at deskriptoren kan generere adresser fra både den eksterne kjeden (`0`) og den interne kjeden (`1`). Jokertegnet (`*`) på slutten av stien betyr at man sekvensielt kan derivere alle ikke-forsterkede («*unhardened*») undernøkler fra denne posisjonen, enten det gjelder eksterne eller interne adresser. Denne syntaksen innebærer ikke direkte konseptet *gap limit*, som er en del av en lommebokspesifikk mekanisme for adressegjenkjenning, men brukes her kun til å indikere at alle mulige derivasjoner på dette stedet tas med i betraktningen.
 Til slutt representerer `#jy0l7nr4` sjekksummen for å verifisere integriteten til beskrivelsen.
 Du vet nå alt om driften av HD-lommeboken på Bitcoin og prosessen med å avlede nøkkelpar. Imidlertid begrenset vi oss i de siste kapitlene til generering av private og offentlige nøkler, uten å adressere konstruksjonen av mottaksadresser. Dette vil nettopp være temaet for neste kapittel!
 
@@ -1801,7 +1829,7 @@ Mottaksadresser er informasjonsbiter innebygd i *scriptPubKey* for å låse nyli
 
 Som forklart tidligere, er en transaksjons rolle å overføre eierskapet av bitcoins fra innganger til utganger. Denne prosessen involverer å forbruke UTXOer som innganger mens man skaper nye UTXOer som utganger. Disse UTXOene sikres av skript, som definerer de nødvendige betingelsene for å låse opp midlene.
 Når en bruker mottar bitcoins, oppretter avsenderen en utdata UTXO og låser den med en *scriptPubKey*. Dette skriptet inneholder reglene som vanligvis spesifiserer signaturene og offentlige nøkler som kreves for å låse opp denne UTXOen. For å bruke denne UTXOen i en ny transaksjon, må brukeren gi den etterspurte informasjonen via en *scriptSig*. Utførelsen av *scriptSig* i kombinasjon med *scriptPubKey* må returnere "true" eller `1`. Hvis denne betingelsen er oppfylt, kan UTXOen brukes til å skape en ny UTXO, som selv er låst av en ny *scriptPubKey*, og så videre.
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 Det er nettopp i *scriptPubKey* at mottaksadressene finnes. Imidlertid varierer bruken av dem avhengig av hvilken skriptstandard som er vedtatt. Her er en oppsummeringstabell over informasjonen som er inneholdt i *scriptPubKey* i henhold til standarden som brukes, samt informasjonen som forventes i *scriptSig* for å låse opp *scriptPubKey*.
 
@@ -1835,33 +1863,33 @@ Utførelsen av skriptet jeg nettopp ga som et eksempel følger denne prosessen:
 
 - Vi har *scriptSig*, *ScriptPubKey*, og stacken:
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 - *scriptSig* blir pushet på stacken:
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 - `OP_DUP` dupliserer den offentlige nøkkelen som er oppgitt i *scriptSig* på stacken:
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 - `OP_HASH160` returnerer hashen av den offentlige nøkkelen som nettopp ble duplisert:
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 - `OP_PUSHBYTES_20 <pubKeyHash>` pusher Bitcoin-adressen som er inneholdt i *scriptPubKey* på stacken:
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 - `OP_EQUALVERIFY` verifiserer at den hashede offentlige nøkkelen matcher den oppgitte mottaksadressen:
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 `OP_CHECKSIG` sjekker signaturen som er inneholdt i *scriptSig* ved hjelp av den offentlige nøkkelen. Denne opcode utfører i hovedsak en signaturverifisering som vi beskrev i del 3 av denne opplæringen:
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 - Hvis `1` forblir på stacken, da er skriptet gyldig:
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 Derfor, for å oppsummere, dette skriptet tillater å verifisere, med hjelp av den digitale signaturen, at brukeren som hevder eierskap til denne UTXO og ønsker å bruke den, faktisk besitter den private nøkkelen assosiert med mottaksadressen som ble brukt under opprettelsen av denne UTXO.
 
@@ -1896,7 +1924,7 @@ P2TR-modellen ble introdusert med implementeringen av Taproot i november 2021. D
 Teknisk sett låser et P2TR-skript bitcoins på en unik Schnorr offentlig nøkkel, betegnet som $Q$. Denne nøkkelen $Q$ er faktisk en aggregering av en offentlig nøkkel $P$ og en offentlig nøkkel $M$, sistnevnte beregnet fra Merkel-roten av en liste over *scriptPubKey*. Bitcoins låst med denne typen skript kan brukes på to måter:
 - Ved å publisere en signatur for den offentlige nøkkelen $P$ (*nøkkelsti*).
 - Ved å tilfredsstille ett av skriptene inneholdt i Merkel-treet (*skriptsti*).
-P2TR tilbyr dermed stor fleksibilitet, ettersom det tillater å låse bitcoins enten med en unik offentlig nøkkel, med flere valgte skript, eller begge deler samtidig. Fordelen med denne Merkle-trestrukturen er at kun det brukte utgiftsskriptet avsløres under transaksjonen, men alle andre alternative skript forblir hemmelige. ![CYP201](assets/fr/063.webp)
+P2TR tilbyr dermed stor fleksibilitet, ettersom det tillater å låse bitcoins enten med en unik offentlig nøkkel, med flere valgte skript, eller begge deler samtidig. Fordelen med denne Merkle-trestrukturen er at kun det brukte utgiftsskriptet avsløres under transaksjonen, men alle andre alternative skript forblir hemmelige. ![CYP201](assets/en/068.webp)
 
 P2TR tilsvarer versjon 1 SegWit-utdata, noe som betyr at signaturene for P2TR-inndata lagres i transaksjonens *Witness*-seksjon, og ikke i *scriptSig*. P2TR-adresser bruker *bech32m*-kodingen og starter med `bc1p`, men de er ganske unike fordi de ikke bruker en hash-funksjon for sin konstruksjon. Faktisk representerer de direkte den offentlige nøkkelen $Q$ som ganske enkelt er formatert med metadata. Det er derfor en skriptmodell nær P2PK.
 
@@ -1917,7 +1945,7 @@ Det første trinnet er å komprimere den offentlige nøkkelen $K$. For å forst�
 En offentlig nøkkel på Bitcoin er et punkt $K$ som ligger på en elliptisk kurve. Den representeres i formen $(x, y)$, hvor $x$ og $y$ er koordinatene til punktet. I sin ukomprimerte form måler denne offentlige nøkkelen 520 bits: 8 bits for et prefiks (innledende verdi av `0x04`), 256 bits for $x$-koordinaten, og 256 bits for $y$-koordinaten.
 Imidlertid har elliptiske kurver en symmetriegenskap med hensyn til x-aksen: for en gitt $x$-koordinat, er det bare to mulige verdier for $y$: $y$ og $-y$. Disse to punktene ligger på hver sin side av x-aksen. Med andre ord, hvis vi kjenner $x$, er det tilstrekkelig å spesifisere om $y$ er partall eller oddetall for å identifisere det eksakte punktet på kurven.
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 For å komprimere en offentlig nøkkel, kodes bare $x$, som opptar 256 bits, og et prefiks legges til for å spesifisere pariteten til $y$. Denne metoden reduserer størrelsen på den offentlige nøkkelen til 264 bits i stedet for de opprinnelige 520. Prefikset `0x02` indikerer at $y$ er partall, og prefikset `0x03` indikerer at $y$ er oddetall.
 La oss ta et eksempel for å forstå godt, med en rå offentlig nøkkel i ukomprimert representasjon:
 
@@ -2105,7 +2133,7 @@ Det spesielle med dette _bech32_-alfabetet er at det inkluderer alle alfanumeris
 
 For å oppsummere, her er avledningsprosessen:
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 Dette er hvordan man avleder en P2WPKH (SegWit v0) mottaksadresse fra et par nøkler. La oss nå gå videre til P2TR (SegWit v1 / Taproot) adresser og oppdage deres genereringsprosess.
 
@@ -2180,7 +2208,7 @@ $$
 
 Vi fortsetter deretter med å konkatenere resultatene to og to, og sender dem gjennom den merkede hash-funksjonen `TapBranch` ved hvert steg, til vi oppnår Merkle-treets rot:
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 Når Merkle-roten $h_{\text{root}}$ er beregnet, kan vi beregne tweaken. For å gjøre dette, kobles den interne offentlige nøkkelen til lommeboken $P$ med roten $h_{\text{root}}$, og resultatet kjøres gjennom den merkede hash-funksjonen `TapTweak`:
 

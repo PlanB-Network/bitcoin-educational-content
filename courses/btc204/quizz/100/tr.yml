@@ -1,0 +1,10 @@
+question: Bitcoin üzerindeki zincir analizi bağlamında entropi neye işaret eder?
+answer: Analistlerin işlemin tam konfigürasyonu hakkında bilgi eksikliği.
+wrong_answers:
+  - Bir işlem hakkındaki bilginin ağ üzerinde yayılma hızı.
+  - İşlemde kullanılan dijital imzaların kriptografik güvenlik seviyesi.
+  - Bir Coin'in gizlendiği özdeş UTXO'lar grubunun boyutu.
+explanation: |
+  Entropi, analistlerin işlemin tam konfigürasyonu hakkındaki bilgi eksikliğini ölçmek için kullanılır. Başka bir deyişle, entropi ne kadar yüksek olursa, analistlerin girdiler ve çıktılar arasındaki bitcoin akışlarını tespit etmeleri o kadar zorlaşır.
+  
+reviewed: false

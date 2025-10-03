@@ -1,13 +1,9 @@
-question: Koja je preporučena upotreba mobilnog novčanika?
-answer: Čuvanje dnevnih troškova.
+question: Šta se dešava ako vaš privatni ključ bude otkriven trećoj strani?
+answer: Treća strana može potrošiti vaše bitkoine.
 wrong_answers:
-  - Čuvanje dugoročnih ušteda.
-  - Čuvanje srednjoročnih ušteda.
-  - Skladištenje velikih količina.
+  - Treća strana može samo da pregleda vašu istoriju transakcija.
+  - Treća strana može promeniti vaš privatni ključ.
+  - Treća strana može pristupiti vašim ličnim informacijama.
 explanation: |
-  Mobilni novčanik se preporučuje za dnevne troškove jer je
-  lako obavljati transakcije s njim. Međutim, ne
-  preporučuje se za čuvanje velikih iznosa ili za
-  dugoročne uštede jer je potencijalno ranjiv na
-  online pretnje.
+  Ako vaš privatni ključ bude otkriven trećoj strani, povezani fondovi više nisu sigurni, jer privatni ključ omogućava pristup vašim fondovima.
 reviewed: true

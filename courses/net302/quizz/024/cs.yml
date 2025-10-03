@@ -1,0 +1,9 @@
+question: Jaká je hlavní role protokolu TCP v modelu TCP/IP?
+answer: Zajištění spolehlivého a řádného přenosu dat
+wrong_answers:
+  - Šifrování síťové komunikace
+  - Přiřazení IP adres počítačům
+  - Fragmentace datagramů na fyzické úrovni
+explanation: |
+  Protokol TCP zajišťuje spolehlivý přenos dat tím, že ověřuje integritu, udržuje pořádek a zajišťuje obnovu v případě ztráty.
+reviewed: false

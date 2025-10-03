@@ -28,8 +28,8 @@ Med andra ord, med denna implementering kan du :
 
 
 
-- Interagera med Lightning Network**: Du kan använda kommandorader för att skapa Lightning-plånböcker, hantera betalningskanaler och -vägar och mycket mer, direkt från din maskinterminal.
-- Länka en avlägsen Bitcoin-nod eller din egen Bitcoin Core-instans**: Med LND kan du länka en Bitcoin-instans och använda den som din backend. För att använda den här implementeringen behöver du inte köra en Bitcoin Core-instans på din maskin.
+- **Interagera med Lightning Network**: Du kan använda kommandorader för att skapa Lightning-plånböcker, hantera betalningskanaler och -vägar och mycket mer, direkt från din maskinterminal.
+- **Länka en avlägsen Bitcoin-nod eller din egen Bitcoin Core-instans**: Med LND kan du länka en Bitcoin-instans och använda den som din backend. För att använda den här implementeringen behöver du inte köra en Bitcoin Core-instans på din maskin.
 
 
 
@@ -57,10 +57,10 @@ På så sätt ökar säkerheten och integriteten för dina data när du kör en 
 
 
 
-- Total kontroll**: Hantera dina egna betalningskanaler, bli din egen bank och var herre över dina tillgångar.
-- Konfidentialitet**: Transaktioner utan att förlita dig på att tredje part skyddar din integritet.
-- Lärande och självständighet**: Tack vare kommandona `lncli` kan du bättre förstå Lightnings underliggande processer genom att själv tillämpa dem från din terminal.
-- Decentralisering**: Spela en aktiv roll i att stärka och decentralisera Bitcoin / Lightning Network.
+- **Total kontroll**: Hantera dina egna betalningskanaler, bli din egen bank och var herre över dina tillgångar.
+- **Konfidentialitet**: Transaktioner utan att förlita dig på att tredje part skyddar din integritet.
+- **Lärande och självständighet**: Tack vare kommandona `lncli` kan du bättre förstå Lightnings underliggande processer genom att själv tillämpa dem från din terminal.
+- **Decentralisering**: Spela en aktiv roll i att stärka och decentralisera Bitcoin / Lightning Network.
 
 
 
@@ -83,7 +83,7 @@ Eftersom LND är skriven i Go måste du se till att du har GoLang-miljön och de
 
 
 
-- Krav på hårdvara:**
+- **Krav på hårdvara:**
 
 
 För en smidig och sömlös upplevelse måste din maskin ha den kapacitet som krävs för att köra din LND Lightning-nod.
@@ -105,7 +105,7 @@ Du kommer att behöva :
 
 
 
-- Installera användbara beroenden:**
+- Installera användbara **beroenden:**
 
 
 Med kommandot nedan kan du installera de verktyg du behöver för att köra LND på din maskin. Du behöver bland annat installera `Git`, ett versionshanteringsverktyg, och `make`, som kan exekvera och bygga LND-implementationen från källkod.
@@ -124,11 +124,11 @@ sudo apt install -y build-essential git make
 
 
 
-- Installera GoLang på din Linux-maskin**
+- **Installera GoLang på din Linux-maskin**
 
 
 
-Från och med datumet för denna handledning kräver LND version 1.23.6 av Go*** för installation.
+Från och med datumet för denna handledning kräver LND version **1.23.6** av Go för installation.
 
 
 
@@ -156,7 +156,7 @@ sudo tar -C /usr/local -xzf go1.23.6.linux-amd64.tar.gz
 
 
 
-- Konfiguration av Go**-miljön
+- Konfiguration av **Go-miljön**
 
 
 I filen `~/.bashrc` initialiserar du följande miljövariabler för att lägga till Go i ditt Linux-system.
@@ -178,7 +178,7 @@ source ~/.bashrc
 
 
 
-- Kontroll av installationen** (på franska)
+- **Kontroll av installationen** (på franska)
 
 
 ```bash
@@ -239,7 +239,7 @@ make install
 
 
 
-- Kontrollera din installation** (på franska)
+- **Kontrollera din installation** (på franska)
 
 
 
@@ -334,37 +334,37 @@ Baserat på innehållet i filen `~/.LND/LND.conf`, här är detaljerna för fäl
 
 
 
-- noseedbackup**: Gör att du kan välja om du vill att LND ska utföra automatiska säkerhetskopior av dina plånböcker.  Om du ställer in den här egenskapen till "0" kan du manuellt spara återställningsinformation på en personligt vald säker plats.
+- **noseedbackup**: Gör att du kan välja om du vill att LND ska utföra automatiska säkerhetskopior av dina plånböcker. Om du ställer in den här egenskapen till "0" kan du manuellt spara återställningsinformation på en personligt vald säker plats.
 
 
 
 
 
-- felsökningsnivå**: Ger dig möjlighet att definiera detaljnivån för fel och loggar i händelse av fel som uppstår under en åtgärd.
+- **felsökningsnivå**: Ger dig möjlighet att definiera detaljnivån för fel och loggar i händelse av fel som uppstår under en åtgärd.
 
 
 
 
 
-- Bitcoin.aktiv**: Instruerar LND att fungera som en Bitcoin-nod och interagera med Bitcoin-nätverket.
+- **Bitcoin.aktiv**: Instruerar LND att fungera som en Bitcoin-nod och interagera med Bitcoin-nätverket.
 
 
 
 
 
-- Bitcoin.Mainnet**: Anger att LND ska ansluta till Bitcoin:s huvudnätverk (Mainnet), du kan ange värdena `bitcoind.signet` och `bitcoind.regtest` för nätverken Bitcoin Signet respektive Bitcoin Regtest
+- **Bitcoin.Mainnet**: Anger att LND ska ansluta till Bitcoin:s huvudnätverk (Mainnet), du kan ange värdena `bitcoind.signet` och `bitcoind.regtest` för nätverken Bitcoin Signet respektive Bitcoin Regtest
 
 
 
 
 
-- Bitcoin.nod**: Anger vilken typ av Bitcoin-nod som LND ska ansluta till.
+- **Bitcoin.nod**: Anger vilken typ av Bitcoin-nod som LND ska ansluta till.
 
 
 
 
 
-- Bitcoin.rpcuser** och **Bitcoin.rpcpassword** : Representera.
+- **Bitcoin.rpcuser** och **Bitcoin.rpcpassword** : Representera.
 
 
 respektive inloggningarna (användare, lösenord) för att ansluta till din Bitcoin-nod
@@ -373,7 +373,7 @@ respektive inloggningarna (användare, lösenord) för att ansluta till din Bitc
 
 
 
-- bitcoind.zmqpubrawblock** och **bitcoind.zmqpubrawtx**: definierar ZeroMQ-slutpunkter för att ta emot meddelanden om nya block och transaktioner i Bitcoin-nätverket.
+- **bitcoind.zmqpubrawblock** och **bitcoind.zmqpubrawtx**: definierar ZeroMQ-slutpunkter för att ta emot meddelanden om nya block och transaktioner i Bitcoin-nätverket.
 
 
 
@@ -492,9 +492,9 @@ För att ansluta till en peer (Lightning-nod) behöver du tre uppgifter:
 
 
 
-- Nodens publika nyckel**: Detta är nodens unika identifierare i Bitcoin-nätverket;
-- IP** : IP-adressen för den maskin som noden är installerad på;
-- PORT** :  Den port som är öppen på den maskin som tillåter kommunikation med denna nod.
+- **Nodens publika nyckel**: Detta är nodens unika identifierare i Bitcoin-nätverket;
+- **IP** : IP-adressen för den maskin som noden är installerad på;
+- **PORT** :  Den port som är öppen på den maskin som tillåter kommunikation med denna nod.
 
 
 
@@ -519,25 +519,25 @@ Se till att du ansluter till **tillförlitliga noder** för att bevara integrite
 
 
 
-- Geografisk diversifiering**: Anslut till noder i olika regioner.
+- **Geografisk diversifiering**: Anslut till noder i olika regioner.
 
 
 
 
 
-- Rykte**: Välj noder med god tillgänglighet.
+- **Rykte**: Välj noder med god tillgänglighet.
 
 
 
 
 
-- Kapacitet**: Välj knutar med god likviditet.
+- **Kapacitet**: Välj knutar med god likviditet.
 
 
 
 
 
-- Avgifter**: Checkroutingavgifter.
+- **Avgifter**: Checkroutingavgifter.
 
 
 ### Öppna en betalningskanal
@@ -590,7 +590,7 @@ Det finns två sätt att stänga en aktiv kanal på din aktuella nod.
 
 
 
-- Stängning av kooperativ**: Detta signalerar att din nod vill dra sig ur betalningskanalen, vilket säkerställer att pågående uppgifter slutförs och att data säkerhetskopieras för att undvika förlust av medel.
+- **Stängning av kooperativ**: Detta signalerar att din nod vill dra sig ur betalningskanalen, vilket säkerställer att pågående uppgifter slutförs och att data säkerhetskopieras för att undvika förlust av medel.
 
 
 ```
@@ -600,7 +600,7 @@ lncli closechannel <ID_CANAL>
 
 
 
-- Tvingad stängning**: ⚠️ Bör undvikas om möjligt, eftersom denna åtgärd avbryter pågående processer i din betalningskanal och ökar risken för att du förlorar pengar.
+- **Tvingad stängning**: ⚠️ Bör undvikas om möjligt, eftersom denna åtgärd avbryter pågående processer i din betalningskanal och ökar risken för att du förlorar pengar.
 
 
 ```
@@ -653,9 +653,9 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-- bitcoind anslutningsfel** : Kontrollera dina inloggningsuppgifter för RPC
-- Synkronisering blockerad** : Kontrollera din Internet-anslutning
-- Fel i behörigheten**: Kontrollera rättigheterna för mappen `~/.LND`
+- **bitcoind anslutningsfel**: Kontrollera dina inloggningsuppgifter för RPC
+- **Synkronisering blockerad**: Kontrollera din Internet-anslutning
+- **Fel i behörigheten**: Kontrollera rättigheterna för mappen `~/.LND`
 
 
 

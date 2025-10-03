@@ -44,7 +44,7 @@ Théo; bijdrage
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 
-**Doel: Werk je beveiligingsvaardigheden bij !**
+**Doel: Werk je beveiligingsvaardigheden bij!**
 
 
 Welkom bij dit educatieve programma over digitale beveiliging. Deze training is voor iedereen toegankelijk, dus voorkennis van informatica is niet vereist. Ons belangrijkste doel is om je de kennis en vaardigheden bij te brengen die je nodig hebt om veiliger door de digitale wereld te navigeren.
@@ -66,7 +66,7 @@ Je digitale hygiëne is cruciaal in een wereld die steeds digitaler wordt. Ondan
 
 In deze training proberen we niet om je een expert, anoniem of onkwetsbaar te maken, want dat is onmogelijk. In plaats daarvan bieden we je een aantal eenvoudige en toegankelijke oplossingen voor iedereen om je online gewoonten te veranderen en weer controle te krijgen over je digitale soevereiniteit.
 
-Als je op zoek bent naar meer geavanceerde vaardigheden over dit onderwerp, dan zijn onze bronnen, tutorials of andere cyberbeveiligingstrainingen er voor jou. In de tussentijd volgt hier een kort overzicht van ons programma voor de komende paar uur samen.
+Als je op zoek bent naar meer geavanceerde vaardigheden over dit onderwerp, dan zijn onze bronnen, tutorials of andere cyberbeveiligingstrainingen er voor jou. In de tussentijd is hier een kort overzicht van ons programma voor de komende paar uur samen.
 
 
 **Sectie 1: Alles wat je moet weten over online surfen**
@@ -173,7 +173,7 @@ Privénavigatie verbergt het browsen niet voor uw internetprovider, maar zorgt e
 Een geavanceerder alternatief is het TOR-netwerk (The Onion Router), dat anonimiteit biedt door het IP Address van de gebruiker te maskeren en toegang te verlenen tot het Darknet. TOR Browser is een browser die speciaal is ontworpen om het TOR-netwerk te gebruiken. Hiermee kun je zowel conventionele websites als .onion websites bezoeken, die meestal door individuen worden beheerd en in verband kunnen worden gebracht met illegale activiteiten.
 
 
-TOR is een legaal en veelgebruikt hulpmiddel voor journalisten, vrijheidsactivisten en anderen die censuur in autoritaire landen willen omzeilen. Het is echter belangrijk om te begrijpen dat TOR de bezochte sites of de computer zelf niet beveiligt. Daarnaast kan het gebruik van TOR de internetverbinding vertragen, omdat gegevens door drie computers van andere mensen gaan voordat ze hun bestemming bereiken. Het is ook belangrijk op te merken dat TOR geen waterdichte oplossing is om 100% anonimiteit te garanderen en dat het niet voor illegale activiteiten mag worden gebruikt.
+TOR is een legaal en veelgebruikt hulpmiddel voor journalisten, vrijheidsactivisten en anderen die censuur in autoritaire landen willen omzeilen. Het is echter belangrijk om te begrijpen dat TOR de bezochte sites of de computer zelf niet beveiligt. Daarnaast kan het gebruik van TOR de internetverbinding vertragen, omdat de gegevens door drie computers van anderen gaan voordat ze hun bestemming bereiken. Het is ook belangrijk op te merken dat TOR geen waterdichte oplossing is om 100% anonimiteit te garanderen en dat het niet voor illegale activiteiten mag worden gebruikt.
 
 ![](assets/notext/7.webp)
 
@@ -227,7 +227,7 @@ Om online oplichting te voorkomen, is het cruciaal om de identiteit van de site 
 
 ![](assets/en/10.webp)
 
-Samengevat kan het gebruik van een VPN de online veiligheid voor zowel bedrijven als individuele gebruikers sterk verbeteren. Bovendien kan het aanleren van goede surfgewoonten bijdragen aan een betere digitale hygiëne. In het volgende deel van deze cursus behandelen we computerbeveiliging, inclusief updates, antivirussoftware en wachtwoordbeheer.
+Samengevat kan het gebruik van een VPN de online veiligheid voor zowel bedrijven als individuele gebruikers sterk verbeteren. Bovendien kan het aanleren van goede surfgewoonten bijdragen aan een betere digitale hygiëne. In het volgende deel van deze cursus behandelen we computerbeveiliging, waaronder updates, antivirussoftware en wachtwoordbeheer.
 
 
 # Beste praktijken voor computergebruik
@@ -341,7 +341,7 @@ De gouden regel hier is om zorgvuldig de volledige naam van de afzender en de he
 ### Ransomware en soorten cyberaanvallen:
 
 
-Ransomware is een soort kwaadaardige software die gegevens van gebruikers versleutelt en losgeld eist om ze te ontsleutelen. Dit soort aanvallen komt steeds vaker voor en kan erg lastig zijn voor zowel bedrijven als particulieren. Om jezelf te beschermen is het noodzakelijk om back-ups te maken van de meest gevoelige bestanden! Dit zal de ransomware niet stoppen, maar het zal je wel in staat stellen om het te negeren.
+Ransomware is een soort kwaadaardige software die gegevens van gebruikers versleutelt en losgeld eist om ze te ontsleutelen. Dit soort aanvallen komt steeds vaker voor en kan erg lastig zijn voor zowel bedrijven als individuen. Om jezelf te beschermen is het noodzakelijk om back-ups te maken van de meest gevoelige bestanden! Dit zal de ransomware niet stoppen, maar het zal je wel in staat stellen om het te negeren.
 
 ![](assets/notext/14.webp)
 
@@ -463,30 +463,24 @@ Met een wachtwoordmanager hoeft u zich geen zorgen meer te maken dat u uw wachtw
 
 ![](assets/notext/18.webp)
 
-(Opmerking: De keuze tussen een dienst van derden of een zelf gehoste dienst hangt af van je niveau van technologisch comfort en hoe je controle tegenover gemak stelt. Diensten van derden zijn over het algemeen handiger voor de meeste mensen, terwijl zelf hosten meer technische kennis vereist maar meer controle en gemoedsrust kan bieden op het gebied van beveiliging)
+Voor zelfgehoste oplossingen zoals KeePass is het mogelijk om uw database te synchroniseren tussen meerdere apparaten zonder gebruik te maken van gecentraliseerde diensten van derden. Hulpmiddelen zoals **Syncthing** maken versleutelde en gedecentraliseerde synchronisatie rechtstreeks tussen uw apparaten mogelijk. Deze aanpak houdt uw gegevens onder uw controle en zorgt tegelijkertijd voor beschikbaarheid op al uw apparaten.
 
+(Opmerking: De keuze tussen een dienst van derden of een zelf gehoste dienst hangt af van je niveau van technologisch comfort en hoe je controle tegenover gemak stelt. Diensten van derden zijn over het algemeen handiger voor de meeste mensen, terwijl zelf hosten meer technische kennis vereist maar meer controle en gemoedsrust kan bieden op het gebied van beveiliging)
 
 ### Wat is een goed wachtwoord?
 
-
 Een goed wachtwoord is over het algemeen:
-
-
 
 - Lang: minstens 12 tekens.
 - Complex: een mix van hoofdletters en kleine letters, cijfers en symbolen.
 - Uniek: gebruik hetzelfde wachtwoord niet opnieuw voor verschillende accounts.
 - Niet gebaseerd op persoonlijke informatie: vermijd geboortedata, namen, enz.
 
-
 Om de veiligheid van je account te garanderen, is het cruciaal om sterke en veilige wachtwoorden te maken. De lengte van het wachtwoord is niet genoeg om de veiligheid te garanderen. De tekens moeten volledig willekeurig zijn om brute force aanvallen te weerstaan. De onafhankelijkheid van gebeurtenissen is ook belangrijk om de meest waarschijnlijke combinaties te vermijden. Veelgebruikte wachtwoorden zoals "wachtwoord" worden gemakkelijk gecompromitteerd.
-
 
 Om een sterk wachtwoord te maken, wordt het aanbevolen om een groot aantal willekeurige tekens te gebruiken, zonder voorspelbare woorden of patronen te gebruiken. Het is ook essentieel om cijfers en speciale tekens te gebruiken. Het is echter de moeite waard om op te merken dat sommige websites het gebruik van bepaalde speciale tekens kunnen beperken. Wachtwoorden die niet willekeurig worden gegenereerd, zijn gemakkelijk te raden. Variaties of toevoegingen aan wachtwoorden zijn niet veilig. Websites kunnen de veiligheid van wachtwoorden die door gebruikers zijn gekozen niet garanderen.
 
-
 Willekeurig gegenereerde wachtwoorden bieden een hoger beveiligingsniveau, hoewel ze moeilijker te onthouden kunnen zijn. Wachtwoordbeheerders kunnen veiligere willekeurige wachtwoorden ontwikkelen. Door een wachtwoordmanager te gebruiken, hoeft u niet al uw wachtwoorden te onthouden. Het is essentieel om geleidelijk je oude wachtwoorden te vervangen door wachtwoorden die zijn gegenereerd door de manager, omdat ze sterker en veiliger zijn. Zorg ervoor dat het hoofdwachtwoord van uw wachtwoordmanager ook sterk en veilig is.
-
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -494,19 +488,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 ## Authenticatie met twee factoren
 
-
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
-
 
 ### Waarom 2FA implementeren
 
-
 Tweefactorauthenticatie (2FA) is een extra Layer van beveiliging die ervoor zorgt dat de persoon die toegang probeert te krijgen tot een online account, is wie hij/zij beweert te zijn. In plaats van alleen een gebruikersnaam en wachtwoord in te voeren, vereist 2FA een extra vorm van verificatie.
 
-
 Deze tweede stap kan zijn:
-
-
 
 - Een tijdelijke code die via sms wordt verzonden.
 - Een code gegenereerd door een applicatie zoals Google Authenticator of Authy.
@@ -756,7 +744,7 @@ Wachtwoorden, hoewel alomtegenwoordig, hebben verschillende nadelen, waaronder h
 Passkeys bieden bijvoorbeeld versleutelde willekeurige sleutels in combinatie met een lokale factor (zoals biometrische gegevens of een pincode), die een provider host maar buiten zijn bereik blijft. Hoewel hiervoor websites moeten worden bijgewerkt, maakt deze aanpak wachtwoorden overbodig en biedt zo een hoog beveiligingsniveau zonder de beperkingen die traditionele wachtwoorden met zich meebrengen of het probleem van het beheren van een digitale kluis.
 
 
-Passkiz is een ander haalbaar en veilig alternatief voor wachtwoordbeheer. Er blijft echter een grote vraag: de beschikbaarheid in het geval van een providerstoring. Het zou daarom wenselijk zijn dat internetgiganten systemen voorstellen om deze beschikbaarheid te garanderen.
+Passkiz is een ander haalbaar en veilig alternatief voor wachtwoordbeheer. Er blijft echter een belangrijke vraag: de beschikbaarheid in het geval van een providerstoring. Het zou daarom wenselijk zijn dat internetgiganten systemen voorstellen om deze beschikbaarheid te garanderen.
 
 
 Directe authenticatie bij de betreffende dienst is een haalbare optie die een derde partij overbodig maakt. De Single Sign-On (SSO) die door internetgiganten wordt aangeboden, levert echter ook problemen op in termen van beschikbaarheid en risico's op censuur. Om datalekken te voorkomen, is het cruciaal om de hoeveelheid informatie die tijdens het authenticatieproces wordt verzameld te minimaliseren.

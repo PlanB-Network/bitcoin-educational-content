@@ -1,0 +1,9 @@
+question: Která americká agentura stála za projektem ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  Agentura ARPA (Advanced Research Projects Agency) iniciovala vznik sítě ARPANET, která položila základy pro vývoj protokolu TCP/IP. V roce 1972 byla agentura přejmenována na DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

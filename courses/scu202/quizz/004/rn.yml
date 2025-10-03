@@ -1,0 +1,9 @@
+question: Ni igitero ikihe co kuri orodinateri gikoresha ubutumwa bw’ubuhendanyi kugira ngo gikuremwo amakuru?
+answer: Guhenda
+wrong_answers:
+  - Porogaramu y'incungu
+  - DDoS
+  - urushinge rwa SQL
+explanation: |
+  Ubuhendanyi bukoresha ubutumwa bwo kuri e-mail canke ubutumwa bwo guhenda abantu kugira ngo bamenyeshe amakuru y’ibanga canke ngo bashiremwo porogarama mbi.
+reviewed: false

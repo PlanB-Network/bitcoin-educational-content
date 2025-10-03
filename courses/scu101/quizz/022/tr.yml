@@ -1,0 +1,11 @@
+question: Bilgisayarınıza bir USB anahtarı takarken önerilen nedir?
+answer: Bilinmeyen veya şüpheli USB anahtarları takmayın.
+wrong_answers:
+  - Kontrol etmeden herhangi bir USB anahtarı takın.
+  - USB anahtarını takmadan önce her zaman biçimlendirin.
+  - USB anahtarını takın ve ardından virüsleri kontrol edin.
+explanation: |
+  Bilinmeyen veya şüpheli USB anahtarlarının takılması
+  sistemi otomatik olarak başlayan kötü amaçlı programlara
+  maruz bırakabilir. USB anahtarını yerleştirdikten sonra kontrol etmek bir işe yaramayacaktır.
+reviewed: true

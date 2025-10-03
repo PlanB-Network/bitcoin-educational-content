@@ -1,0 +1,9 @@
+question: Ni sababu gani huamua ushawishi wa nodi kwenye sheria za makubaliano?
+answer: Uzito wake wa kiuchumi
+wrong_answers:
+  - Idadi yake ya miunganisho inayotoka
+  - Umri katika mtandao
+  - Hakuna, kwa sababu kila nodi ina kura moja
+explanation: |
+  Ushawishi juu ya sheria za makubaliano hutegemea shughuli za kiuchumi zinazoungwa mkono na nodi, sio idadi yake.
+reviewed: true

@@ -1,0 +1,9 @@
+question: MTU 值在網路中代表什麼？
+answer: 在沒有分片的情況下傳輸的最大訊框大小
+wrong_answers:
+  - 路由器在沒有分片的情況下的最大儲存容量
+  - 網路中沒有分片的最大主機數量
+  - 沒有分片的最小 IP 標頭長度
+explanation: |
+  MTU (Maximum Transmission Unit，最大傳輸單位) 定義了可在網段上傳輸而不需要分片的最大訊框大小。
+reviewed: false

@@ -284,4 +284,4 @@ Om du tyckte att den här handledningen var användbar skulle jag vara tacksam o
 Jag rekommenderar också att du kollar in den här andra omfattande handledningen om Blockstream Green-mobilappen, som är en annan intressant lösning för att ställa in din Liquid Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

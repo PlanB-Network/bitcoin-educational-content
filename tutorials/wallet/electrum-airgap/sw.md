@@ -1,6 +1,6 @@
 ---
-name: Airgap ya umeme
-description: Hatua ya kwanza kuelekea usalama, Cold Wallet yenye Electrum
+name: Electrum Airgap
+description: Hatua ya kwanza kuelekea usalama, cold wallet na Electrum
 ---
 ![cover](assets/cover.webp)
 
@@ -54,7 +54,7 @@ Ili kupakua Electrum, ninapendekeza ufuate hatua za kwanza kwenye somo hili:
 
 
 
-https://planb.network/it/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Baada ya kupakua kila mara thibitisha toleo kabla ya kulisakinisha, kisha endelea na usanidi wa "Seva Moja", kama utakavyopata katika sehemu ya usaidizi, chini ya `Anza na Dummy Wallet`.
 
@@ -390,7 +390,7 @@ Kutoka kwenye menyu ya chini kushoto, chagua _Shiriki_ tena kisha _Hifadhi kweny
 
 
 
-Sasa faili ina kiendelezi tofauti: **badala ya `.PSBT` sasa muamala una kiendelezi `.txn`. Kuanzia sasa hivi ndivyo Electrum itakuruhusu kutambua miamala iliyotiwa saini kutoka kwa wale ambao hawajasaini.
+Sasa faili ina kiendelezi tofauti: **badala ya `.PSBT` sasa muamala una kiendelezi `.txn`**. Kuanzia sasa hivi ndivyo Electrum itakuruhusu kutambua miamala iliyotiwa saini kutoka kwa wale ambao hawajasaini.
 
 
 

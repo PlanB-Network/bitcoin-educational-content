@@ -1,0 +1,9 @@
+question: Wofür werden die reservierten Ports im TCP/IP-Modell verwendet?
+answer: Abhören von Anfragen zu bestimmten Diensten
+wrong_answers:
+  - Zu generate automatische Datagrammkapselung
+  - So leiten Sie Netzwerkrahmen physisch weiter
+  - So steuern Sie die Fragmentierung von UDP-Paketen
+explanation: |
+  Ports sind logische Abhörpunkte, die es Netzwerkanwendungen ermöglichen, zwischen verschiedenen Diensten, die auf demselben Host laufen, zu unterscheiden.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ijambo diffusion risobanura iki mu bijanye n’ugushiramwo amakuru y’ibanga rya AES?
+answer: Ihinduka ry'inyandiko rusangi rituma haba ihinduka rikomeye mu nyandiko y'ibanga .
+wrong_answers:
+  - Ivyanditswe vy'ibanga vyama bifise uburebure bumwe
+  - Urufunguzo bytes zigabanywa ku rugero rungana
+  - Amakuru y'agaciro arashirwa mu gice cose c'inyandiko y'ibanga
+explanation: |
+  Gukwiragira bisigura ko uguhinduka gutoyi kw’inyandiko yoroshe bituma haba ihinduka rikomeye mu nyandiko y’ibanga, bikaba bigora uwutera gusobanura inyandiko yoroshe.
+reviewed: false

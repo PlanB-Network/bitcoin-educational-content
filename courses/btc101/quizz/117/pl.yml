@@ -1,10 +1,8 @@
-question: Kiedy zniknął Satoshi Nakamoto?
-answer: W 2010 r
+question: Jaka jest wersja pierwszego wydanego oprogramowania Bitcoin?
+answer: Bitcoin-0.1.0.
 wrong_answers:
-  - W 2008 r
-  - W 2009 r
-  - W 2023 r
-explanation: |
-  Satoshi Nakamoto zniknął w 2010 roku, pozostawiając swoje dzieło w rękach społeczności
-  w rękach społeczności.
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
+explanation: >-
 reviewed: true

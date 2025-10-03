@@ -1,0 +1,9 @@
+question: Soyut cebirin temeli ne tür bir cebirsel yapıdır?
+answer: Grup
+wrong_answers:
+  - Saha
+  - Yüzük
+  - Matris
+explanation: |
+  Grup, soyut cebirin dayandığı temel cebirsel yapıdır ve bir dizi Elements ve belirli özelliklere uyan ikili bir işlemle tanımlanır.
+reviewed: false

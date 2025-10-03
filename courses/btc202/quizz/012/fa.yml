@@ -1,0 +1,9 @@
+question: کدام مرحله بخشی از نقش یک خردسال است؟
+answer: ساخت یک بلوک کاندید از Mempool
+wrong_answers:
+  - اعتبارسنجی کامل Blockchain از Mempool
+  - ایجاد آدرس‌های Bitcoin برای کاربران
+  - کلیدهای خصوصی کیف پول‌ها را ذخیره کنید
+explanation: |
+  یک Miner تراکنش‌ها را از Mempool انتخاب می‌کند و یک بلوک کاندید می‌سازد که تلاش می‌کند آن را توسط Proof of Work اعتبارسنجی کند.
+reviewed: true

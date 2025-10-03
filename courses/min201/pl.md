@@ -93,7 +93,7 @@ Gotowi na odkrycie świata Bitcoin Mining i podjęcie praktycznego wyzwania Atta
 Aby wyjaśnić koncepcję Mining w uproszczony sposób, można użyć odpowiedniej analogii: układanki. Podobnie jak puzzle, Mining jest złożonym zadaniem do wykonania, ale łatwym do zweryfikowania po jego zakończeniu. W kontekście Bitcoin Mining górnicy starają się szybko rozwiązać cyfrową łamigłówkę. Pierwszy Miner, który rozwiąże łamigłówkę, przedstawia swoje rozwiązanie całej sieci, która może następnie łatwo zweryfikować jego poprawność. Pomyślna weryfikacja umożliwia Miner zatwierdzenie nowego bloku i dodanie go do łańcucha Bitcoin Timechain. W uznaniu ich pracy, która wiąże się ze znacznymi kosztami, Miner jest nagradzany określoną liczbą bitcoinów. Nagroda ta służy jako zachęta finansowa dla górników do kontynuowania pracy polegającej na walidacji transakcji i zabezpieczaniu sieci Bitcoin.
 
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 
 Początkowo w sieci Bitcoin przyznawana nagroda wynosiła 50 bitcoinów co dziesięć minut, równolegle do odkrywania bloku średnio co dziesięć minut przez górników. Nagroda ta podlega Halving co 210 000 bloków, mniej więcej co cztery lata. Wynagrodzenie to służy jako silna zachęta do zachęcania górników do udziału w procesie Mining pomimo kosztów energii. Bez nagrody energochłonny Mining zostałby porzucony, zagrażając bezpieczeństwu i stabilności całej sieci Bitcoin.
@@ -110,7 +110,7 @@ Proces Mining polega na znalezieniu prawidłowego Hash, który jest akceptowalny
 Na początku dominowała era CPU, w której górnicy wykorzystywali swoje komputery osobiste do Bitcoin Mining. Odkrycie zalet GPU (kart graficznych) w tym zadaniu stanowiło punkt zwrotny, znacznie zwiększając Hashrate i zmniejszając zużycie energii. Postęp nie zatrzymał się na tym, wraz z późniejszym wprowadzeniem układów FPGA (programowalnych macierzy bramek). FPGA posłużyły jako platforma do rozwoju układów ASIC (układów scalonych specyficznych dla aplikacji).
 
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 
 Układy ASIC to układy porównywalne z układami CPU, jednak zostały one opracowane w celu wykonywania tylko jednego określonego typu obliczeń w możliwie najbardziej wydajny sposób. Innymi słowy, procesor jest w stanie wykonać wiele różnych typów obliczeń, nie będąc szczególnie zoptymalizowanym pod kątem jednego lub drugiego typu obliczeń, podczas gdy ASIC będzie w stanie wykonać tylko jeden typ obliczeń, ale bardzo wydajnie. W przypadku układów ASIC Bitcoin są one przeznaczone do obliczania algorytmu SHA256.
@@ -118,7 +118,7 @@ Układy ASIC to układy porównywalne z układami CPU, jednak zostały one oprac
 Obecnie górnicy używają wyłącznie układów ASIC dedykowanych tej operacji, zoptymalizowanych pod kątem testowania maksymalnej liczby kombinacji przy jak najmniejszym zużyciu energii i tak szybko, jak to możliwe. Komputery te, niezdolne do wykonywania zadań innych niż Bitcoin Mining, są namacalnym świadectwem ciągłej ewolucji i rosnącej specjalizacji branży Bitcoin Mining. Ta ciągła ewolucja odzwierciedla wewnętrzną dynamikę Bitcoin, gdzie dostosowanie trudności zapewnia produkcję bloku co dziesięć minut, pomimo wykładniczego wzrostu wydajności Mining.
 
 
-Aby zilustrować intensywność tego procesu, rozważmy typowy Miner zdolny do osiągnięcia 14 TeraHash na sekundę lub 14 bilionów prób w każdej sekundzie, aby znaleźć prawidłowy Hash. W skali sieci Bitcoin osiągamy teraz około 300 HexaHash na sekundę, podkreślając zbiorową moc zmobilizowaną w Bitcoin Mining.
+Aby zilustrować intensywność tego procesu, rozważmy typowy Miner zdolny do osiągnięcia 14 TeraHash na sekundę lub 14 bilionów prób w każdej sekundzie, aby znaleźć prawidłowy Hash. W skali sieci Bitcoin osiągamy teraz około 300 ExaHash na sekundę, podkreślając zbiorową moc zmobilizowaną w Bitcoin Mining.
 
 
 ### Dostosowanie trudności
@@ -127,7 +127,7 @@ Aby zilustrować intensywność tego procesu, rozważmy typowy Miner zdolny do o
 Regulacja trudności jest kluczowym mechanizmem w działaniu sieci Bitcoin, zapewniając, że bloki są wydobywane średnio co 10 minut. Czas ten jest średnią, ponieważ proces Mining jest w rzeczywistości grą prawdopodobieństwa, podobną do rzucania kośćmi w nadziei na uzyskanie liczby niższej niż liczba określona przez trudność. Co 2016 bloków sieć dostosowuje trudność Mining w oparciu o średni czas wymagany do wydobycia poprzednich bloków. Jeśli średni czas jest dłuższy niż 10 minut, trudność jest zmniejszana i odwrotnie, jeśli średni czas jest krótszy, trudność jest zwiększana. Ten mechanizm regulacji zapewnia, że czas Mining dla nowych bloków pozostaje stały w czasie, niezależnie od liczby górników lub ogólnej mocy obliczeniowej sieci. Właśnie dlatego Bitcoin Blockchain jest również nazywany Timechain.
 
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 
 
@@ -145,7 +145,7 @@ Jeśli chodzi o ewolucję maszyn Bitcoin Mining, należy zauważyć, że konteks
 W obliczu ciągłego postępu technologicznego w dziedzinie Mining, profesjonaliści muszą zająć strategiczną pozycję. Branża Mining podlega ciągłym innowacjom, czego dowodem jest niedawna premiera wersji J modelu S19 i przewidywana premiera modelu S19 XP, oferującego znacznie wyższe możliwości Mining. Co więcej, ulepszenia nie są związane wyłącznie z surową wydajnością maszyn. Na przykład nowy model S19 XP wykorzystuje system chłodzenia Liquid, modyfikację techniczną, która pozwala na znaczną poprawę efektywności energetycznej. Chociaż innowacje pozostają niezmienne, przyszły wzrost wydajności będzie prawdopodobnie mniejszy w porównaniu do tych obserwowanych do tej pory, ze względu na osiągnięcie pewnego progu innowacji technologicznych.
 
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 
 Podsumowując, branża Bitcoin Mining nadal się dostosowuje i rozwija, a gracze branżowi muszą przewidywać malejący wzrost wydajności w przyszłości i odpowiednio dostosowywać swoje strategie. Przyszłe postępy technologiczne, choć nadal obecne, prawdopodobnie będą miały miejsce na mniejszą skalę, odzwierciedlając rosnącą dojrzałość sektora.
@@ -163,7 +163,7 @@ Podsumowując, branża Bitcoin Mining nadal się dostosowuje i rozwija, a gracze
 Obecnie Bitcoin Mining ewoluował w poważną i znaczącą branżę, z wieloma publicznie znanymi graczami i rosnącą liczbą znaczących górników. Ewolucja ta sprawiła, że Mining stał się prawie niedostępny dla małych graczy ze względu na wysokie koszty związane z zakupem nowych maszyn Mining. Rodzi to pytanie o dystrybucję Hashrate wśród różnych graczy rynkowych. Sytuacja jest złożona, ponieważ konieczne jest zbadanie zarówno dystrybucji Hashrate między różnymi firmami, jak i między różnymi pulami Mining.
 
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 
 Mining pool to grupa górników, którzy łączą swoje zasoby obliczeniowe, aby zwiększyć swoje szanse na Mining. Współpraca ta jest konieczna, ponieważ odizolowana mała maszyna Mining konkuruje z gigantami branży, zmniejszając swoje szanse na sukces do znikomego poziomu. Mining działa na zasadzie loterii, a szanse na wygranie bloku (a tym samym nagrody Bitcoin) co dziesięć minut są niezwykle niskie dla pojedynczego małego Miner. Łącząc się, górnicy mogą łączyć swoją moc obliczeniową, częściej znajdować bloki, a następnie rozdzielać nagrody proporcjonalnie do wkładu każdego Miner do puli.
@@ -210,7 +210,7 @@ Centralizacja Mining jest traktowana jako główne wyzwanie. Duzi gracze, tacy j
 Podkreśla się, że gdyby kraj taki jak Stany Zjednoczone zdecydował się uregulować lub zakazać niektórych transakcji Bitcoin, mogłoby to mieć znaczący wpływ na sieć, zwłaszcza jeśli duża część mocy hashowania jest scentralizowana w tym kraju.
 
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 
 Aby zwalczyć tę centralizację, omawiane są różne strategie:
@@ -248,7 +248,7 @@ Inicjatywa Attakai wywodzi się z osobistego eksperymentu Mining przeprowadzoneg
 Po zaprezentowaniu swojego projektu społeczności Bitcoin i zobaczeniu zainteresowania, jakie wzbudził, twórcy Attakai zdecydowali się opublikować szczegółowe przewodniki na platformie Découvre Bitcoin, umożliwiając każdemu odtworzenie ich domowego doświadczenia Mining. Teraz planują rozszerzyć tę koncepcję poza środowisko domowe. Celem jest zademonstrowanie, w jaki sposób zmodyfikowany Miner można przekształcić w cichy grzejnik pomocniczy przydatny zimą, oferując płynne przejście do drugiej części szkolenia, skoncentrowanej na praktycznym wdrożeniu tych modyfikacji, zilustrowanych filmami wyjaśniającymi. Pozostaje jednak pytanie, czy inicjatywa ta może zostać rozszerzona na większą skalę, oferując realistyczną i zrównoważoną alternatywę dla obecnych scentralizowanych struktur Mining.
 
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 
 ### Ograniczenie tej decentralizacji?
@@ -284,7 +284,7 @@ Jeśli chodzi o kwestię tego, co powinien zawierać blok Bitcoin, kluczowe znac
 Wraz z oczekiwanym rozwojem Lightning Network i wynikającym z tego wzrostem liczby otwarć i zamknięć kanałów, przestrzeń w blokach Bitcoin będzie coraz cenniejsza. Społeczność Bitcoin już teraz ceni sobie zachowanie tej przestrzeni, uznając jej nieodłączne ograniczenia. Świadomość ta doprowadziła do dyskusji na temat uzasadnionego wykorzystania przestrzeni blokowej, z obawami o "spam" na Blockchain z transakcji uznanych za nieistotne.
 
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 
 Spekuluje się na temat przyszłego wykorzystania przestrzeni blokowej, ale ogólnie przyjmuje się, że jest to rzadki zasób, który powinien być mądrze wykorzystywany. Nawet jeśli istnieje chęć jej zapełnienia, konieczne jest jej zachowanie, aby zapewnić długoterminową rentowność sieci Bitcoin, przewidując przyszły wzrost zapotrzebowania na przestrzeń blokową. Jak na każdym wolnym rynku, Supply i popyt będą regulować wykorzystanie przestrzeni blokowej. Przy ograniczonej ilości Supply interesariusze będą musieli dokonywać świadomych wyborów dotyczących wykorzystania tej cennej przestrzeni, aby zapewnić długoterminową wydajność i bezpieczeństwo sieci Bitcoin.
@@ -305,7 +305,7 @@ Rola górników w sieci Bitcoin była przedmiotem intensywnej debaty podczas woj
 Podczas wojen o wielkość bloków wielu górników sprzeciwiało się pewnym zmianom w sieci, podkreślając napięcie między różnymi podmiotami w ekosystemie. Pozostaje pytanie, jak zrównoważyć władzę wśród górników, węzłów i użytkowników, aby zapewnić długoterminowe bezpieczeństwo Bitcoin.
 
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 
 Dylemat bezpieczeństwa Bitcoin opiera się na delikatnej równowadze. Podczas gdy górnicy odgrywają kluczową rolę w walidacji i tworzeniu bloków, węzły utrzymują integralność poprzez weryfikację i walidację transakcji i bloków. Nieprawidłowy lub fałszywy blok zostanie odrzucony przez węzły, cenzurując w ten sposób Miner i zachowując bezpieczeństwo sieci. Władza jest również w posiadaniu węzłów i użytkowników sieci Bitcoin. Węzły mają moc weryfikacji i walidacji, podczas gdy użytkownicy mają moc wyboru Blockchain do użycia. Taki podział uprawnień zapewnia dystrybucję i integralność sieci Bitcoin.
@@ -323,7 +323,7 @@ Ostatecznie odpowiedzialność spoczywa na wszystkich uczestnikach sieci Bitcoin
 Elegancka teoria gier Satoshi Nakamoto stworzyła sytuację, w której każdy uczestnik sieci Bitcoin jest zachęcany do prawidłowego działania w celu ochrony zarówno własnych interesów, jak i interesów innych uczestników. Tworzy to równowagę, w której złe zachowanie może zostać upomniane, zwiększając w ten sposób bezpieczeństwo i stabilność całego systemu. Pomimo tej równowagi, państwa pozostają potencjalnym zagrożeniem. Jak wskazano w prezentacji Surfing Bitcoin 2022, państwa mogą próbować atakować branżę Mining, narażając sieć Bitcoin na ryzyko centralizacji i ataku. Hipotetyczne scenariusze, takie jak atak wojskowy na zakłady produkujące sprzęt Mining, podkreślają znaczenie dywersyfikacji geograficznej i przemysłowej dla odporności sieci Bitcoin.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 
 Centralizacja produkcji sprzętu Mining w Chinach stwarza kolejne ryzyko. Odmowa eksportu maszyn Mining lub nagromadzenie Hashrate na potrzeby potencjalnego ataku 51% przez Chiny podkreśla potrzebę dywersyfikacji produkcji sprzętu Mining. W odpowiedzi na te zagrożenia społeczność Bitcoin aktywnie poszukuje rozwiązań. Firmy takie jak Intel rozważają produkcję sprzętu Mining w Stanach Zjednoczonych, przyczyniając się do dystrybucji produkcji. Inne inicjatywy, takie jak open-source'owy Mining Development Kit (MDK) firmy Block, mają na celu zmniejszenie monopolu na projektowanie i produkcję sprzętu Mining, umożliwiając szerszą dystrybucję Hashrate. W samym sercu tych dyskusji leży podstawowa misja Bitcoin: bycie odporną na cenzurę wartościową siecią Exchange. Społeczność Bitcoin nieustannie dąży do wzmocnienia dystrybucji, odporności na cenzurę i niestabilności sieci, odrzucając propozycje takie jak przejście na proof of stake, które nie są zgodne z tymi podstawowymi zasadami.
@@ -335,7 +335,7 @@ Centralizacja produkcji sprzętu Mining w Chinach stwarza kolejne ryzyko. Odmowa
 Proof of Work (PoW) jest niezbędny, ponieważ reprezentuje fizyczne połączenie między światem rzeczywistym a Bitcoin. Chociaż bitcoiny są niematerialne, ich produkcja wymaga namacalnej energii, ustanawiając w ten sposób bezpośrednie połączenie ze światem fizycznym i rzeczywistym. To połączenie zapewnia, że produkcja i walidacja bitcoinów i bloków ma rzeczywisty koszt energii, tym samym zakotwiczając sieć Bitcoin w rzeczywistości fizycznej i zapobiegając jej całkowitej dominacji przez potężne podmioty. PoW działa jako bastion przeciwko centralizacji, zapewniając, że uczestnictwo w sieci i walidacja transakcji wymagają inwestycji w zasoby materialne. Zapobiega to monopolizacji sieci przez podmioty, które w przeciwnym razie mogłyby przejąć kontrolę bez znaczącej bariery wejścia, zapewniając w ten sposób bardziej sprawiedliwy podział władzy i wpływów w sieci Bitcoin.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 
 ### Ograniczenia Proof of Stake
@@ -365,7 +365,7 @@ Obecny kurs Hash, pomimo ceny Bitcoin na poziomie 30 000 USD w porównaniu do po
 Sytuacja ta ilustruje również odporność Bitcoin, często ocenianą na podstawie jego ceny. Jednak głębsza analiza kondycji Bitcoin wymaga zbadania jego wskaźnika Hash, który mierzy obliczenia na sekundę w sieci Bitcoin. Podczas gdy cena Bitcoin ulega wahaniom, jego koszt, związany z energią elektryczną potrzebną do obsługi maszyn Mining, pozostaje kluczowy dla zrozumienia dynamiki rynku. Koncentrując się na kosztach, a nie na cenie, uzyskuje się bardziej spójną perspektywę stabilności i długoterminowej rentowności Bitcoin. Ogólnie rzecz biorąc, koszt Bitcoin jest proporcjonalny do jego ceny, zapewniając lepsze zrozumienie wahań cen i przyszłych perspektyw.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 
 ### Hash stawka i nagroda
@@ -419,7 +419,7 @@ Mining oferuje jednak unikalne możliwości zaangażowania się w ekosystem Bitc
 Pomimo tych opcji, Mining stanowi poważne wyzwanie. Znane w świecie kryptowalut powiedzenie "Nie twoje klucze, nie twoje Bitcoiny" znajduje podobny oddźwięk w świecie Mining: "Nie twój Hashrate, nie twoja nagroda" Historie o rozczarowaniach i odłączonych maszynach są powszechne, a wielu graczy obiecuje wyjątkowe wyniki, ale ich nie osiąga. Problemy z energią elektryczną Supply i awarie maszyn mogą pozostawić inwestorów bezsilnymi, z drogim sprzętem, którego nie kontrolują. W tym kontekście ostrożność i dogłębne zrozumienie sektora Mining mają kluczowe znaczenie przed podjęciem w nim działalności. Chociaż istnieją możliwości osiągnięcia zysków, ryzyko jest znaczne, a świadome i przemyślane podejście jest niezbędne do poruszania się po tym złożonym i często nieprzewidywalnym obszarze. Dlatego ważne jest, aby przeprowadzić dokładne badania i starannie rozważyć zalety i wady przed zaangażowaniem się w Bitcoin Mining.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/013.webp)
 
 
 ### Bitcoiny Virgin
@@ -440,7 +440,7 @@ W tym kontekście wybór autonomicznego i wyedukowanego podejścia do Mining wyd
 W związku z potencjalnym zakazem stosowania Mining w Europie, dyskusje na temat regulacji stają się coraz bardziej istotne. Zmienny krajobraz regulacyjny może rzeczywiście znacząco wpłynąć na branżę Bitcoin Mining. Zakaz stosowania Mining w Europie jest możliwym scenariuszem, zwłaszcza biorąc pod uwagę precedensy w Chinach. Chociaż operacje Mining są kontynuowane w Chinach pomimo zakazu, Europa może podążać podobną ścieżką. Szersza dystrybucja Hashrate w różnych regionach może pomóc wzmocnić społeczność Mining w Europie, umożliwiając jej skuteczne przeciwdziałanie nieporozumieniom i błędnym przekonaniom na temat Mining, jego wpływu na środowisko i jego wpływu na sieć elektryczną.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 
 W obliczu kampanii takich jak te prowadzone przez Greenpeace i często wprowadzających w błąd danych z niektórych badań, najlepszą bronią pozostaje prawdziwa informacja. Niezbędne jest informowanie opinii publicznej i decydentów o rzeczywistości Mining, jego złożoności i niuansach, zamiast pozwalać im polegać na stereotypach i niedokładnych informacjach. Im więcej osób jest poinformowanych i świadomych tego, czym naprawdę jest Mining, tym lepiej branża może bronić się przed potencjalnymi restrykcyjnymi regulacjami.
@@ -522,7 +522,7 @@ Kwestia ta może stać się problematyczna i stanowi poważne zagrożenie dla ne
 Kiedy Miner wychodzi z fabryki, nie nadaje się do użytku jako grzejnik w domu, ze względu na dwa główne problemy: nadmierny hałas i brak regulacji. Problemy te można jednak łatwo rozwiązać za pomocą modyfikacji sprzętu i oprogramowania, co pozwala na uzyskanie znacznie cichszego Miner, który można skonfigurować i zautomatyzować jak nowoczesne grzejniki elektryczne.
 
 
-**Attakaï to inicjatywa edukacyjna, która uczy, jak zmodernizować Antminer S9 w najbardziej opłacalny sposób
+**Attakaï to inicjatywa edukacyjna, która uczy, jak zmodernizować Antminer S9 w najbardziej opłacalny sposób**
 
 
 Jest to doskonała okazja, aby uczyć się poprzez praktykę, a jednocześnie być nagradzanym za udział w satoshis bez KYC.
@@ -546,7 +546,7 @@ Antminer S9 występuje w kilku wariantach (i, j), które wprowadzają drobne mod
 Cena układów ASIC różni się w zależności od wielu czynników, takich jak cena Bitcoin, trudność sieci, wydajność maszyny i koszt energii elektrycznej. W związku z tym trudno jest podać dokładne szacunki dotyczące zakupu używanej maszyny. W lutym 2023 r. oczekiwana cena we Francji wynosiła od 100 do 200 euro, ale ceny te mogą szybko ulec zmianie.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 
 Antminer S9 składa się z następujących części:
@@ -556,54 +556,54 @@ Antminer S9 składa się z następujących części:
 - 3 hashboardy, które zawierają chipy generujące moc mieszania.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 
 
 - Płyta sterująca, która zawiera gniazdo na kartę SD, port Ethernet oraz złącza dla hashboardów i wentylatorów. To jest mózg twojego ASIC.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 
 
 - 3 kable danych łączące tablice mieszające z płytą sterowania.
 
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 
 
 - Moc Supply, która działa na 220V i może być podłączona jak zwykłe urządzenie gospodarstwa domowego.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 
 
 - 2 wentylatory 120 mm.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 
 
 - Męski kabel C13.
 
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 
 Przy zakupie używanej maszyny ważne jest sprawdzenie, czy wszystkie części są dołączone i sprawne. Podczas Exchange należy poprosić sprzedawcę o włączenie maszyny, aby sprawdzić jej prawidłowe działanie. Ważne jest, aby sprawdzić, czy urządzenie włącza się prawidłowo, a następnie sprawdzić łączność z Internetem, podłączając kabel Ethernet i uzyskując dostęp do loginu Bitmain Interface za pośrednictwem przeglądarki internetowej w tej samej sieci lokalnej. IP Address można znaleźć, łącząc się z routerem internetowym Interface i szukając podłączonych urządzeń. Ten Address powinien mieć następujący format: 192.168.x.x
 
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 
 
 Sprawdź również, czy działają domyślne poświadczenia (nazwa użytkownika: root, hasło: root). Jeśli domyślne poświadczenia nie działają, konieczne będzie zresetowanie urządzenia.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 
 Po podłączeniu powinieneś być w stanie zobaczyć status każdej tablicy hashboard na pulpicie nawigacyjnym. Jeśli Miner jest podłączony do puli, powinieneś zobaczyć wszystkie działające hashboardy. Ważne jest, aby pamiętać, że górnicy wytwarzają dużo hałasu, co jest normalne. Należy również upewnić się, że wentylatory działają prawidłowo.
@@ -614,7 +614,7 @@ Następnie można usunąć Mining pool poprzedniego właściciela, aby później
 Po zapoznaniu się z tymi wszystkimi punktami, możesz kupić swoją maszynę z dużym stopniem pewności. W razie wątpliwości należy skonsultować się ze społecznością.
 
 
-Podsumowując ten przewodnik w jednym zdaniu: **"Nie ufaj, weryfikuj"
+Podsumowując ten przewodnik w jednym zdaniu: **"Nie ufaj, weryfikuj"**
 
 
 [Można również zwrócić się do profesjonalistów w dziedzinie regeneracji maszyn Mining, takich jak nasz partner 21energy. Oferują oni przetestowane maszyny S9, wyczyszczone i z zainstalowanym oprogramowaniem BraiiinOS+. Z kodem partnerskim "decouvre" otrzymasz 10% zniżki na zakup S9, wspierając jednocześnie projekt Attakai](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
@@ -638,19 +638,19 @@ Jeśli jesteś doświadczonym majsterkowiczem i chcesz przekształcić Miner w g
 Oryginalne wentylatory Antminer S9 są zbyt głośne, aby używać Antminera jako grzałki. Rozwiązaniem jest zastąpienie ich cichszymi wentylatorami. Nasz zespół przetestował kilka modeli marki Noctua i wybrał Noctua NF-A14 iPPC-2000 PWM jako najlepszy kompromis. Pamiętaj, aby wybrać wersję 12V wentylatorów. Ten 140-milimetrowy wentylator może wytworzyć do 1200 W ciepła przy zachowaniu teoretycznego poziomu hałasu 31 dB. Aby zainstalować te wentylatory 140 mm, należy użyć adaptera 140 mm na 120 mm, który można znaleźć w sklepie DécouvreBitcoin. Dodamy również 140-milimetrowe kratki ochronne.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/024.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/26.webp)
+![image](assets/en/026.webp)
 
 
 Wentylator Supply jest również dość głośny i wymaga wymiany. Zalecamy wentylator Noctua NF-A6x25 PWM. Należy pamiętać, że złącza wentylatorów Noctua nie są takie same jak oryginalne, więc do ich podłączenia potrzebny będzie adapter. Dwa będą wystarczające. Ponownie, upewnij się, że wybrałeś wersję 12V wentylatora.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/027.webp)
 
-![image](assets/en/28.webp)
+![image](assets/en/028.webp)
 
 
 2. Dodanie mostka WIFI/Ethernet
@@ -659,9 +659,9 @@ Wentylator Supply jest również dość głośny i wymaga wymiany. Zalecamy went
 Zamiast używać kabla Ethernet, można podłączyć Antminer przez WIFI, dodając mostek WIFI/Ethernet. Wybraliśmy vonets vap11g-300, ponieważ umożliwia on łatwe pobieranie sygnału WIFI ze skrzynki internetowej i przesyłanie go do Antminera przez Ethernet bez tworzenia podsieci. Jeśli masz umiejętności elektryczne, możesz zasilać go bezpośrednio z zasilacza Antminer Supply bez konieczności dodawania ładowarki USB. W tym celu potrzebny będzie żeński wtyk jack 5,5 mm x 2,1 mm.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/029.webp)
 
-![image](assets/en/30.webp)
+![image](assets/en/030.webp)
 
 
 3. Opcjonalnie: dodaj inteligentną wtyczkę
@@ -670,7 +670,7 @@ Zamiast używać kabla Ethernet, można podłączyć Antminer przez WIFI, dodaj�
 Jeśli chcesz włączać/wyłączać Antminera ze smartfona i monitorować zużycie energii, możesz dodać inteligentną wtyczkę. Przetestowaliśmy wtyczkę ANTELA w wersji 16A, kompatybilną z aplikacją smartlife. Ta inteligentna wtyczka umożliwia przeglądanie dziennego i miesięcznego zużycia energii i łączy się bezpośrednio z routerem internetowym przez WiFi.
 
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 
 Lista sprzętu i linki
@@ -719,19 +719,19 @@ Zasil mostek, podłączając go przez USB.
 Z komputera połącz się z siecią WIFI VONETS\_**\*\*** za pomocą hasła 12345678.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 
 Zaloguj się przy użyciu nazwy użytkownika "admin" i hasła "admin".
 
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 
 Wybierz Kreator.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 
 Wybierz sieć WIFI, do której chcesz podłączyć Miner, a następnie kliknij Next.
@@ -740,7 +740,7 @@ Wybierz sieć WIFI, do której chcesz podłączyć Miner, a następnie kliknij N
 UWAGA: Mostek Vonet działa tylko na częstotliwości 2,4 GHz. Obecnie routery zwykle oferują dwie sieci WIFI, jedną na częstotliwości 2,4 GHz i jedną na częstotliwości 5 GHz.
 
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 
 Wprowadź hasło do sieci WIFI w polu "Source WIFI hotspot password". Jeśli nie chcesz używać mostka Vonet do rozszerzenia sieci WIFI, zaznacz pole "Disable Hotspot". W przeciwnym razie pozostaw to pole niezaznaczone.
@@ -771,7 +771,7 @@ Metoda ta może być stosowana od 2 do 10 minut po uruchomieniu Miner.
 2 minuty po włączeniu Miner naciśnij przycisk "Reset" przez 5 sekund, a następnie zwolnij go. Miner zostanie przywrócony do ustawień fabrycznych w ciągu 4 minut i uruchomi się ponownie automatycznie (nie trzeba go wyłączać).
 
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 
 ## Instalacja systemu BraiinsOS+ na urządzeniu Antminer S9
@@ -796,13 +796,13 @@ Tutaj zobaczymy, jak łatwo zainstalować Braiins OS+ bezpośrednio w pamięci A
 3. Rozpakuj pobrany plik i otwórz plik bos-toolbox.bat. Wybierz język, a po kilku chwilach zobaczysz to okno:
 
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 
 4. Bos toolbox pozwoli ci łatwo znaleźć IP Address twojego Antminera i zainstalować BraiinsOS+. Jeśli znasz już adres IP Address swojego urządzenia, możesz przejść do kroku 8. W przeciwnym razie przejdź do zakładki skanowania.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 
 5. Zazwyczaj w sieciach domowych zakres adresów IP Address wynosi od 192.168.1.1 do 192.168.1.255, dlatego w polu zakresu adresów IP należy wpisać "192.168.1.0/24". Jeśli sieć jest inna, należy odpowiednio zmienić te adresy. Następnie kliknij "Start".
@@ -814,7 +814,7 @@ Tutaj zobaczymy, jak łatwo zainstalować Braiins OS+ bezpośrednio w pamięci A
 7. W tym miejscu powinny pojawić się wszystkie Antminery w sieci, a adres IP Address to 192.168.1.37.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 
 8. Kliknij "Wstecz", a następnie zakładkę "Zainstaluj", wprowadź wcześniej znaleziony adres IP Address i kliknij "Start".
@@ -822,7 +822,7 @@ Tutaj zobaczymy, jak łatwo zainstalować Braiins OS+ bezpośrednio w pamięci A
 
 > Jeśli instalacja nie powiedzie się, konieczne może być wykonanie resetu i ponowna próba (patrz poprzednia sekcja).
 
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 
 9. Po kilku chwilach Antminer uruchomi się ponownie i będzie można uzyskać dostęp do Braiins OS+ Interface pod określonym adresem IP Address, tutaj 192.168.1.37, bezpośrednio w pasku Address przeglądarki. Domyślna nazwa użytkownika to "root" i nie ma domyślnego hasła.
@@ -854,7 +854,7 @@ Następnie zostaniesz powitany przez pulpit nawigacyjny Brains OS+.
 ### Pulpit nawigacyjny
 
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 
 Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rzeczywistym.
@@ -866,7 +866,7 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 - Poniżej prędkość wentylatora jako procent prędkości maksymalnej i liczba obrotów na minutę.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 
 
@@ -879,19 +879,19 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 ### Konfiguracja
 
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 
 ### System
 
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 
 ### Szybkie działania
 
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 
 # Attakai - Modyfikacja wentylatora
@@ -908,7 +908,7 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 
 > OSTRZEŻENIE: Niezbędne jest wcześniejsze zainstalowanie systemu Braiins OS+ na Miner lub jakiegokolwiek innego oprogramowania, które może zmniejszyć wydajność urządzenia. Środek ten ma kluczowe znaczenie, ponieważ w celu zmniejszenia hałasu zainstalujemy wentylatory o mniejszej mocy, które mogą rozpraszać mniej ciepła.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Wymagane materiały
@@ -921,88 +921,88 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 
 > OSTRZEŻENIE: Przede wszystkim przed uruchomieniem upewnij się, że odłączyłeś Miner od zasilania, aby uniknąć ryzyka porażenia prądem.
 
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 
 Najpierw należy odkręcić 6 śrub z boku obudowy, które utrzymują ją zamkniętą. Po usunięciu śrub ostrożnie otwórz obudowę, aby usunąć plastikową osłonę zakrywającą komponenty.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/048.webp)
 
-![image](assets/en/49.webp)
+![image](assets/en/049.webp)
 
 
 Następnie nadszedł czas, aby usunąć oryginalny wentylator, uważając, aby nie uszkodzić innych komponentów. W tym celu należy odkręcić śruby, które utrzymują go na miejscu i delikatnie odkleić biały klej otaczający złącze. Ważne jest, aby postępować ostrożnie, aby uniknąć uszkodzenia przewodów lub złączy.
 
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 
 Po usunięciu oryginalnego wentylatora można zauważyć, że złącza nowego wentylatora Noctua nie pasują do złączy oryginalnego wentylatora. Rzeczywiście, nowy wentylator ma 3 przewody, w tym żółty przewód, który umożliwia sterowanie prędkością. Jednak ten przewód nie będzie używany w tym konkretnym przypadku. Aby podłączyć nowy wentylator, zaleca się zatem użycie specjalnego adaptera. Należy jednak pamiętać, że adapter ten może być czasami trudny do znalezienia.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 
 Jeśli nie posiadasz tego adaptera, nadal możesz podłączyć nowy wentylator za pomocą cukru elektrycznego. W tym celu należy przeciąć kable starego i nowego wentylatora.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/052.webp)
 
-![image](assets/en/53.webp)
+![image](assets/en/053.webp)
 
 
 W przypadku nowego wentylatora należy użyć noża i ostrożnie przeciąć kontury głównej osłony w odległości 1 cm bez przecinania osłon kabli znajdujących się pod spodem.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 
 Następnie, ciągnąc główną osłonę w dół, przetnij osłony czerwonego i czarnego kabla w taki sam sposób jak poprzednio. Odetnij również żółty kabel.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 
 W przypadku starego wentylatora przecięcie głównej osłony bez uszkodzenia osłon czerwonego i czarnego przewodu jest bardziej delikatne. W tym celu użyliśmy igły, którą wsunęliśmy między główną osłonę a czerwony i czarny przewód.
 
 
-![image](assets/en/56.webp)
+![image](assets/en/056.webp)
 
-![image](assets/en/57.webp)
+![image](assets/en/057.webp)
 
 
 Po odsłonięciu czerwonego i czarnego przewodu należy ostrożnie przeciąć osłony, aby uniknąć uszkodzenia przewodów elektrycznych.
 
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 
 Następnie połącz kable za pomocą cukru, czarny przewód z czarnym, a czerwony z czerwonym. Można również dodać taśmę izolacyjną.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/059.webp)
 
-![image](assets/en/60.webp)
+![image](assets/en/060.webp)
 
 
 Po wykonaniu połączenia nadszedł czas, aby zainstalować nowy wentylator Noctua z kratką i starymi śrubami. Nowe śruby w pudełku zostaną ponownie użyte później. Upewnij się, że umieściłeś go we właściwej orientacji. Po jednej stronie wentylatora znajduje się strzałka wskazująca kierunek przepływu powietrza. Ważne jest, aby ustawić wentylator tak, aby strzałka była skierowana do wnętrza obudowy. Następnie ponownie podłącz wentylator.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/061.webp)
 
-![image](assets/en/62.webp)
+![image](assets/en/062.webp)
 
 
 > Opcjonalnie: Jeśli masz wiedzę na temat elektryczności, możesz bezpośrednio dodać żeńskie złącze jack 5,5 mm do wyjścia zasilania 12 V, które będzie bezpośrednio zasilać mostek Wi-Fi Vonet. Jeśli jednak nie masz pewności co do swoich umiejętności elektrycznych, najlepiej jest użyć złącza USB z ładowarką typu smartfon, aby uniknąć ryzyka zwarcia lub uszkodzenia elektrycznego.
 
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 
 Po wykonaniu połączeń umieść plastikową osłonę na plastikowej obudowie, a nie wewnątrz.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 
 Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub po bokach, aby utrzymać wszystko na miejscu. I gotowe, obudowa Supply jest teraz wyposażona w nowy wentylator.
@@ -1016,7 +1016,7 @@ Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub p
 
 > OSTRZEŻENIE: Niezbędne jest wcześniejsze zainstalowanie systemu Braiins OS+ na Miner lub jakiegokolwiek innego oprogramowania, które może zmniejszyć wydajność urządzenia. Środek ten ma kluczowe znaczenie, ponieważ w celu zmniejszenia hałasu zainstalujemy wentylatory o mniejszej mocy, które będą rozpraszać mniej ciepła.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Wymagane materiały
@@ -1033,15 +1033,15 @@ Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub p
 1. Najpierw odłącz wentylatory i odkręć je.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 
 2. Złącza nowych wentylatorów Noctua nie pasują do oryginalnych, ale nie martw się! Wyjmij nożyk i ostrożnie wytnij małe plastikowe wypustki, aby złącza idealnie pasowały do Miner.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/066.webp)
 
-![image](assets/en/67.webp)
+![image](assets/en/067.webp)
 
 
 3. Czas zainstalować części 3D!
@@ -1049,7 +1049,7 @@ Na koniec umieść pokrywę obudowy z powrotem na miejscu i przykręć 6 śrub p
 Przymocuj je po obu stronach Miner za pomocą śrub usuniętych z wentylatorów. Przykręć je, aż łeb śruby zrówna się z częścią 3D i będzie bezpiecznie na miejscu. Uważaj, aby nie dokręcić zbyt mocno, ponieważ możesz zdeformować część, a jedna ze śrub może dotknąć kondensatora!
 
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 
 4. Przejdźmy teraz do fanów.
@@ -1058,31 +1058,31 @@ Przymocuj je po obu stronach Miner za pomocą śrub usuniętych z wentylatorów.
 Przymocuj je do części 3D za pomocą śrub dostarczonych w pudełku. Zwróć uwagę na kierunek przepływu powietrza, strzałki po bokach wentylatorów wskażą kierunek, w którym należy podążać. Przejdź od strony portu Ethernet na drugą stronę. Patrz zdjęcie poniżej.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/069.webp)
 
-![image](assets/en/70.webp)
+![image](assets/en/070.webp)
 
-![image](assets/en/71.webp)
+![image](assets/en/071.webp)
 
 
 5. Ostatni krok: podłącz wentylatory i przymocuj kratki na górze za pomocą śrub, które nie były używane w obudowie wentylatora Supply. Masz ich tylko 4, ale wystarczą 2 na kratkę w przeciwległych rogach. W razie potrzeby można również poszukać podobnych śrub w sklepie z narzędziami.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/072.webp)
 
-![image](assets/en/73.webp)
+![image](assets/en/073.webp)
 
 
 W oczekiwaniu na możliwość zaoferowania bardziej stylowej obudowy dla nowego grzejnika, można przymocować obudowę i zasilanie Supply za pomocą opasek kablowych dla elektryków.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 
 Na koniec należy podłączyć mostek Vonet do portu Ethernet i zasilania Supply.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 
 No i proszę, gratulacje! Właśnie wymieniłeś całą część mechaniczną Miner. Teraz powinieneś słyszeć znacznie mniej hałasu.
@@ -1129,7 +1129,7 @@ Model wynagradzania, który nas interesuje, to PPS, co oznacza "pay-per-share". 
 Aby skonfigurować pulę w Braiins OS+, należy utworzyć konto w jednej z wybranych pul. Tutaj weźmiemy przykład Linecoin:
 
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 
 Po utworzeniu konta kliknij przycisk Połącz z pulą
@@ -1138,13 +1138,13 @@ Po utworzeniu konta kliknij przycisk Połącz z pulą
 Następnie skopiuj Stratum Address i swoją nazwę użytkownika:
 
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 
 Możesz teraz wrócić do Braiins OS+ Interface, aby wprowadzić te dane uwierzytelniające. W przypadku hasła pole można pozostawić puste.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 
 ## Optymalizacja wydajności urządzenia Antminer S9

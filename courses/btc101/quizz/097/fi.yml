@@ -1,11 +1,12 @@
-question: Mitä tapahtuu, jos yksityinen avaimesi paljastuu kolmannelle osapuolelle?
-answer: Kolmas osapuoli voi käyttää bitcoinejasi.
+question: Mikä ei ole muistisana Bitcoinin kontekstissa?
+answer: Salasana Bitcoin-lompakkoosi.
 wrong_answers:
-  - Kolmas osapuoli voi vain tarkastella tapahtumahistoriaasi.
-  - Kolmas osapuoli voi muuttaa yksityistä avaimesi.
-  - Kolmas osapuoli voi päästä käsiksi henkilökohtaisiin tietoihisi.
+  - 12 sanan lista tietyistä sanakirjasta.
+  - 24 sanan lista tietyistä sanakirjasta.
+  - Salaisuus päästäksesi käsiksi bitcoin-varoihisi.
 explanation: |
-  Jos yksityinen avaimesi paljastuu kolmannelle osapuolelle, siihen
-  liittyvät varat eivät ole enää turvassa, koska yksityinen
-  avain mahdollistaa heille pääsyn varoihisi.
+  Muistisana Bitcoinin kontekstissa on 12 tai 24 sanan lista,
+  jonka avulla voit palauttaa lompakkosi mihin tahansa
+  Bitcoin-lompakko sovellukseen. Kuka tahansa, jolla on pääsy
+  tähän listaan, voi myös päästä käsiksi bitcoineihisi.
 reviewed: true

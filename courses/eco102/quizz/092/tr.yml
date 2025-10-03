@@ -1,0 +1,8 @@
+question: Eğer mülkiyet Rousseau'nun inandığı gibi genel irade tarafından oluşturulan bir kurum ise, bunun sonucu nedir?
+answer: Yasa koyucu mülkiyeti düzenleyebilir, değiştirebilir ve hatta ortadan kaldırabilir
+wrong_answers:
+  - Yasa koyucu bu sözleşmeyle bağlıdır ve mülkiyete dokunamaz
+  - Genel irade asla mülke dokunmak istemez
+  - Yasa koyucu istisnasız olarak mülkiyeti korumakla yükümlüdür
+explanation: |
+  Rousseau'ya göre, mülkiyet genel iradeden kaynaklandığı için, yasa koyucu tarafından aynı iradeye uygun olarak değiştirilebilir veya ortadan kaldırılabilir.

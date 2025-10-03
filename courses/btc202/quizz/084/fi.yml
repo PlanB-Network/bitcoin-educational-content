@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin core-solmun ylläpitämien lähtevien yhteyksien oletusmäärä?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core ylläpitää oletusarvoisesti 10 lähtevää yhteyttä (8 full-relay ja 2 block-relay-only).
+reviewed: true

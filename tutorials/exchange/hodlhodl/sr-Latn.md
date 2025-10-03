@@ -1,5 +1,5 @@
 ---
-name: HODL HODL
+name: Hodl Hodl
 
 description: Vodič korak po korak za HODLHODL
 ---
@@ -16,10 +16,9 @@ HODL HODL je decentralizovani Bitcoin Exchange koji daje prioritet kontroli kori
 https://hodlhodl.com/pages/faq_help
 
 
-## Vodič za pisanje:
+## Započnite svoje putovanje na Hodl Hodl
 
 
-Pokretanje vašeg putovanja sa HodlHodl: Vodič korak po korak
 
 
 ![image](assets/5.webp)
@@ -68,61 +67,61 @@ Da biste započeli trgovanje BTC-om, prvo ćete morati da obezbedite svoj BTC Ad
 Vodič od Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 
-1. Posetite hodlhodl.com i kreirajte svoj nalog. Jedini podaci koje treba da unesete su korisničko ime i email Address. Zatim ćete biti preusmereni na početnu stranicu.
+- Posetite hodlhodl.com i kreirajte svoj nalog. Jedini podaci koje treba da unesete su korisničko ime i email Address. Zatim ćete biti preusmereni na početnu stranicu.
 
 
 ![cover](assets/11.webp)
 
 
-2. Kliknite ‘Buy BTC’ u zaglavlju vebsajta.
+- Kliknite ‘Buy BTC’ u zaglavlju vebsajta.
 
 
 ![cover](assets/12.webp)
 
 
-3. Izaberite željeni tip i metod plaćanja. Ovde takođe možete navesti određeni iznos ako je potrebno.
+- Izaberite željeni tip i metod plaćanja. Ovde takođe možete navesti određeni iznos ako je potrebno.
 
 
 ![cover](assets/13.webp)
 
 
-4. Izaberite željenu ponudu. Zatim možete pregledati detalje trgovine i takođe pročitati izveštaje o aktivnostima i ocene partnera.
+- Izaberite željenu ponudu. Zatim možete pregledati detalje trgovine i takođe pročitati izveštaje o aktivnostima i ocene partnera.
 
 
 ![cover](assets/14.webp)
 
 
-5. Kada budete zadovoljni, možete navesti koliko želite da kupite, uneti u Address na koji želite da Bitcoin bude poslat i potvrditi način plaćanja koji je oglasio prodavac. Kliknite na ‘Prihvati ponudu i kreiraj Contract’.
+- Kada budete zadovoljni, možete navesti koliko želite da kupite, uneti u Address na koji želite da Bitcoin bude poslat i potvrditi način plaćanja koji je oglasio prodavac. Kliknite na ‘Prihvati ponudu i kreiraj Contract’.
 
 
 ![cover](assets/15.webp)
 
 
-6. Sada imate kreiran Contract i treba da pritisnete ‘generate Escrow’ gde će vam biti zatraženo da kreirate lozinku za plaćanje. Lozinka za plaćanje je ključ za enkripciju korisnikovog para ključeva za escrow. Koristi se za deponovanje ili oslobađanje Bitcoin u ili iz escrow-a.
+- Sada imate kreiran Contract i treba da pritisnete ‘generate Escrow’ gde će vam biti zatraženo da kreirate lozinku za plaćanje. Lozinka za plaćanje je ključ za enkripciju korisnikovog para ključeva za escrow. Koristi se za deponovanje ili oslobađanje Bitcoin u ili iz escrow-a.
 
 
 ![cover](assets/16.webp)
 
 
-7. Sada treba da sačekate da prodavac deponuje svoj Bitcoin u escrow Wallet. Nakon pokretanja Contract možete razgovarati sa prodavcem koristeći chat box na desnoj strani stranice.
+- Sada treba da sačekate da prodavac deponuje svoj Bitcoin u escrow Wallet. Nakon pokretanja Contract možete razgovarati sa prodavcem koristeći chat box na desnoj strani stranice.
 
 
 ![cover](assets/17.webp)
 
 
-8. Kada prodavac položi svoja sredstva u escrow, videćete ovaj ekran koji vas savetuje da ne šaljete svoj novac dok ne bude dovoljan broj Blockchain potvrda (ovo varira u zavisnosti od uslova trgovine). Možete proveriti napredak transakcije depozita prodavca klikom na plavi link 'Deposit transaction ID'.
+- Kada prodavac položi svoja sredstva u escrow, videćete ovaj ekran koji vas savetuje da ne šaljete svoj novac dok ne bude dovoljan broj Blockchain potvrda (ovo varira u zavisnosti od uslova trgovine). Možete proveriti napredak transakcije depozita prodavca klikom na plavi link 'Deposit transaction ID'.
 
 
 ![cover](assets/18.webp)
 
 
-9. Kada bude potvrđeno, bićete obavešteni i tada možete poslati sredstva prodavcu na podatke koje će vam oni dostaviti. Kada to uradite, kliknite na 'Ive Sent The Payment'.
+- Kada bude potvrđeno, bićete obavešteni i tada možete poslati sredstva prodavcu na podatke koje će vam oni dostaviti. Kada to uradite, kliknite na 'Ive Sent The Payment'.
 
 
 ![cover](assets/19.webp)
 
 
-10. Zatim ćete morati da sačekate da prodavac potvrdi da je primio sredstva, nakon čega će Bitcoin biti pušten u Address koji ste naveli na početku Contract. Takođe ćete imati priliku da ocenite svog partnera.
+- Zatim ćete morati da sačekate da prodavac potvrdi da je primio sredstva, nakon čega će Bitcoin biti pušten u Address koji ste naveli na početku Contract. Takođe ćete imati priliku da ocenite svog partnera.
 
 
 ![cover](assets/20.webp)

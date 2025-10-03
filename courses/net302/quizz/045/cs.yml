@@ -1,0 +1,9 @@
+question: Co znamená umělá úprava MAC Address?
+answer: MAC Spoofing
+wrong_answers:
+  - Phishing MAC
+  - Čmuchání MAC
+  - Protokolování kláves v počítači Mac
+explanation: |
+  MAC spoofing je změna hardwarového kódu Address síťového kódu Interface, často z důvodů ochrany soukromí nebo za účelem obejití omezení.
+reviewed: false

@@ -111,7 +111,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 On the Trezor, select the total number of shares you wish to configure. The most common configurations are 2-de-3 and 3-de-5. For this example, I'll create a 2-de-3, so I'll select 3 shares. Each share will represent a 20-word mnemonic phrase.
 
 
-*For Safe 5 users, although the screen will say "*Tap to continue*", you'll actually need to swipe up to confirm
+*For Safe 5 users, although the screen will say "Tap to continue", you'll actually need to swipe up to confirm*
 
 
 ![Image](assets/fr/07.webp)
@@ -132,7 +132,7 @@ I recommend that you note down each share on a separate medium and carefully man
 You can see at the top of the screen which share you are currently viewing.
 
 
-of course, you must never share these words on the Internet, as I'm doing in this tutorial. This example wallet will be used only on the Testnet and will be deleted at the end of the tutorial.**_
+of course, you must never share these words on the Internet, as I'm doing in this tutorial. This example wallet will be used only on the Testnet and will be deleted at the end of the tutorial.
 
 
 ![Image](assets/fr/09.webp)

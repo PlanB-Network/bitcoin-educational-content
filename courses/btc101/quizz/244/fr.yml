@@ -1,11 +1,9 @@
-question: Quelle est une manière de tester le Lightning Network par vous-même ?
-answer: En essayant l'application de podcast appelée Fountain.
+question: Quel est l'un des principaux problèmes liés à la censure ?
+answer: Elle peut détruire la liberté d'expression et le droit de réunion.
 wrong_answers:
-  - En minant du Bitcoin avec un ordinateur personnel.
-  - En achetant du Bitcoin auprès d'une banque.
-  - En créant une nouvelle cryptomonnaie.
+  - Elle peut conduire à l'application de la liberté d'expression.
+  - Elle peut conduire à davantage de soutien pour le droit de réunion.
+  - Elle peut entraîner une diminution de l'innovation.
 explanation: >-
-  Une manière de tester le Lightning Network par vous-même est d'essayer
-  l'application de podcast Fountain, qui vous permet d'être récompensé avec quelques sats pour
-  l'écoute de vos podcasts préférés.
+  Tolérer la censure peut détruire la liberté d'expression et le droit de réunion.
 reviewed: true

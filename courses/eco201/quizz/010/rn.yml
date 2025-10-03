@@ -1,0 +1,13 @@
+question: None banki y’ububiko bw’imice ni iki?
+answer: Fractional reserve banking ni ubuhinga bwo gukoresha amabanki aho amabanki adasabwa kugira amafaranga menshi nk’ayo aronka mu bizigamirwa, bikaba bituma ashobora kurema ubushobozi bushasha bwo kugura igihe atanga inguzanyo.
+wrong_answers:
+  - Ivy’ububiko bw’amabanki ni ubuhinga bwo gukoresha amabanki aho amabanki asabwa kugira amafaranga menshi kuruta ayo aronka mu bizigamirwa.
+  - Amabanki y’ububiko bw’ibice ni umugenzo w’amabanki aho amabanki atemerewe gutanga inguzanyo.
+  - Fractional reserve banking ni ubuhinga bwo gukoresha amabanki aho amabanki asabwa kugira amafaranga angana neza na neza n’ayo abona mu bizigamirwa.
+explanation: |
+  Amabanki y'ububiko bw'imice ni uburyo amabanki afise
+  agace gatoyi gusa k’amahera y’ababitse mu bibanza vyabo,
+  gutizanya ibindi. Uwo murongo utuma amabanki ashobora kurema .
+  amahera mashasha mu buryo bw’inguzanyo, ivyo bikaba bituma muri rusangi .
+  amafaranga Supply mu bukungu.
+reviewed: true

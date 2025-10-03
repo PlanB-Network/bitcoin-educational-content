@@ -1,0 +1,8 @@
+question: 다음 중 일상 생활에서 Bitcoin을 사용하려는 사람들에게 도움이 될 수 있는 조치는 무엇인가요?
+answer: Bitcoin을 허용하는 모든 판매자 목록을 준비합니다.
+wrong_answers:
+  - Bitcoin의 가격을 인상합니다.
+  - 비트코인 수를 줄입니다.
+  - Bitcoin의 사용을 제한합니다.
+explanation: >-
+reviewed: true

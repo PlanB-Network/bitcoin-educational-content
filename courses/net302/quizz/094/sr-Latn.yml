@@ -1,0 +1,9 @@
+question: Koja komanda se može koristiti za upit DNS servera kako bi se dobila IP adresa Address domena?
+answer: nslookup
+wrong_answers:
+  - netstat
+  - nmap
+  - ss
+explanation: |
+  nslookup je DNS alat za upit koji služi za razrešavanje domena u IP adrese.
+reviewed: false

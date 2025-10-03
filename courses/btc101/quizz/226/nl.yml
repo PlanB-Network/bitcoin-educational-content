@@ -1,8 +1,8 @@
-question: Wat voor netwerk creëert Lightning Network?
-answer: Een netwerk van betaalkanalen.
+question: Wat is het belangrijkste doel van de Lightning Network?
+answer: Om microtransacties mogelijk te maken.
 wrong_answers:
-  - Een netwerk van Mining knooppunten.
-  - Een netwerk van Blockchain knooppunten.
-  - Een netwerk van cryptocurrency-beurzen.
+  - Om de waarde van Bitcoin te verhogen.
+  - Om het Bitcoin protocol te vervangen.
+  - Een nieuwe cryptocurrency maken.
 explanation: >-
 reviewed: true

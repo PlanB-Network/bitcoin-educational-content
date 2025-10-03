@@ -1,0 +1,9 @@
+question: Vilket typiskt CIDR-intervall representerar storleken på ett IPv4-block som tilldelats av IANA till en RIR?
+answer: /8
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA delar in IPv4-utrymmet i block av storleken /8, som var och en innehåller 2^24 adresser.
+reviewed: false

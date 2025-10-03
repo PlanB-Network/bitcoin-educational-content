@@ -1,0 +1,9 @@
+question: Bastiat'ya göre Devlet hangi işlevleri yerine getirmelidir?
+answer: İç güvenlik, dış güvenlik ve adalet
+wrong_answers:
+  - Düzenleme, yeniden dağıtım ve adalet
+  - Güvenlik, adalet ve eşitlik
+  - Eğitim, sağlık ve adalet
+explanation: |
+  Bastiat, Devletin rolünün, bireylerin doğal haklarını korumak için iç ve dış güvenlik ve adalet işlevleriyle sınırlı olmasını savunur.
+reviewed: false

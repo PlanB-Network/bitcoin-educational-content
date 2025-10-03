@@ -6,4 +6,4 @@ wrong_answers:
   - Bénéficier des mêmes caractéristiques sur les surcouches que le protocole de base
 explanation: |
   L'approche en couches permet d'ajouter des fonctionnalités sans altérer la sécurité et la simplicité du protocole de base.
-reviewed: false
+reviewed: true 

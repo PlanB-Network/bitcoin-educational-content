@@ -1,0 +1,9 @@
+question: Giá trị MTU biểu thị điều gì trong mạng?
+answer: Kích thước khung tối đa có thể truyền mà không bị phân mảnh
+wrong_answers:
+  - Dung lượng lưu trữ tối đa của bộ định tuyến không bị phân mảnh
+  - Số lượng máy chủ tối đa trên một mạng không bị phân mảnh
+  - Độ dài tiêu đề IP tối thiểu không bị phân mảnh
+explanation: |
+  MTU (Đơn vị truyền tối đa) xác định kích thước tối đa của một khung có thể được truyền trên một phân đoạn mà không cần phân mảnh.
+reviewed: false

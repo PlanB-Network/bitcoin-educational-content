@@ -1,0 +1,10 @@
+question: 통합의 모든 입력을 연결하는 데 사용할 수 있는 휴리스틱은 무엇인가요?
+answer: CIOH.
+wrong_answers:
+  - Address 재사용.
+  - 가장 큰 출력.
+  - 라운드 결제.
+explanation: |
+  외부 관찰자는 CIOH를 적용하여 통합의 모든 입력이 동일한 엔터티에 속한다는 가설을 세울 수 있습니다.
+  
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Olvido
+name: Olvid
 description: Mensagens privadas para todos
 ---
 ![cover](assets/cover.webp)
@@ -244,7 +244,7 @@ Parabéns, agora estás a par da utilização do Olvid messaging, uma excelente 
 
 
 
-Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail :
+Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail:
 
 
 

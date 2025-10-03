@@ -1,5 +1,5 @@
 ---
-name: 雙節棍
+name: Nunchuk
 description: Wallet 移動式適用於所有
 ---
 ![cover](assets/cover.webp)
@@ -98,7 +98,7 @@ Nunchuk 於 2020 年末問世，它有一個明確的理念：讓多重簽章成
 您可以找到 Sparrow wallet 的指南，下載此 Software Wallet
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 然後，您可以將 `.apk` 檔案從電腦傳輸至手機
 

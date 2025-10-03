@@ -317,11 +317,11 @@ Dal XVII secolo al XIX secolo, in molti paesi occidentali, ci sono stati periodi
 
 ![immagine](assets/1/img-029.webp)
 
-Per Rothbard, l'ordine sociale può prevalere se è il prodotto della generalizzazione delle procedure contrattuali per il libero scambio di diritti di proprietà, privatizzando tutte le attività economiche e persino le funzioni sovrane (banca centrale, tribunali) e ricorrendo alla concorrenza tra agenzie di protezione.
+Per Rothbard, l'ordine sociale può prevalere se è il risultato di procedure contrattuali per il libero scambio dei diritti di proprietà. Per fare questo, è necessario privatizzare tutte le attività economiche e persino le funzioni sovrane (come le banche centrali e i tribunali) e ricorrere alla concorrenza tra agenzie di protezione.
 
-E aggiunge:
+Rothbard aggiunge inoltre:
 
-> Abbiamo ormai sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. In tutto il mondo occidentale, all'inizio del XX secolo, imprenditori, politici e intellettuali iniziarono a sostenere un "nuovo" sistema economico misto, caratterizzato dal dominio statale, in sostituzione del relativo laissez-faire (che significa "lasciateci fare") del secolo precedente. Nuove panacee, a prima vista attraenti, come il socialismo, lo stato corporativo, lo stato assistenziale-militare, ecc., sono state sperimentate e tutte hanno palesemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come appelli a un sistema invecchiato, esausto e fallito. Cosa resta da provare se non la libertà?
+> Abbiamo ormai sperimentato tutte le varianti dello statalismo, e tutte hanno fallito. In tutto il mondo occidentale, all'inizio del XX secolo, imprenditori, politici e intellettuali iniziarono a sostenere un "nuovo" sistema economico misto, caratterizzato dal dominio statale, in sostituzione del relativo laissez-faire (che significa "lasciateci fare") del secolo precedente. Nuove panacee, a prima vista attraenti, come il socialismo, lo Stato corporativo, lo Stato assistenziale-militare, ecc., sono state sperimentate e tutte hanno palesemente fallito. Gli argomenti a favore del socialismo e della pianificazione statale appaiono ora come appelli a un sistema invecchiato, esausto e fallito. Cosa resta da provare se non la libertà?
 >
 > (_Etica della libertà_)
 
@@ -373,7 +373,7 @@ Per Aristotele, la tirannia è l'obbedienza a un uomo, e la libertà è l'obbedi
 Secondo lui, le leggi, essendo impersonali e permanenti, garantiscono giustizia e uguaglianza per tutti i cittadini.
 
 Cicerone, il famoso oratore e filosofo romano del I secolo a.C., riprese questa idea: "Siamo schiavi delle leggi affinché possiamo essere liberi" (_De Republica_, Libro III, capitolo 13). In questo passaggio, Cicerone sviluppa un argomento a favore di una repubblica governata dalle leggi, piuttosto che da un uomo solo o da un piccolo gruppo di uomini.
-L'idea della repubblica è una che proviene dalla filosofia greca. È stata spesso contrapposta alla democrazia, ritenuta troppo rischiosa. Platone intitolò la sua principale opera di filosofia politica: _La Repubblica_, e giudica molto severamente la democrazia. Quando il popolo governa, c'è un forte rischio di imporre la legge dei propri desideri e di confondere il bene con il piacevole. Da qui la tragica morte di Socrate, condannato a morte da una giuria popolare, manipolata dai sofisti. Platone trasse tutte le lezioni da questo.
+L'idea della repubblica proviene dalla filosofia greca. È stata spesso contrapposta alla democrazia, ritenuta troppo rischiosa. Platone intitolò la sua principale opera di filosofia politica: _La Repubblica_, e giudica molto severamente la democrazia. Quando il popolo governa, c'è un forte rischio di imporre la legge dei propri desideri e di confondere il bene con il piacevole. Da qui la tragica morte di Socrate, condannato a morte da una giuria popolare, manipolata dai sofisti. Platone trasse tutte le lezioni da questo.
 
 ![immagine](assets/2/img-111.webp)
 
@@ -398,7 +398,7 @@ Erodoto è convinto che un popolo di uomini liberi è un popolo che obbedisce a 
 
 Allontanandosi dal pensiero mitologico, Talete, Anassimandro, Anassimene e, più tardi, Democrito ed Empedocle, furono i primi a cercare di comprendere la phusis (natura) attraverso la ragione e non attraverso entità soprannaturali.
 
-Il principio fondamentale posto da questi primi filosofi presocratici è che gli elementi del kosmos (l'universo) si mantengono in posizione perché sono tutti ugualmente soggetti alla stessa "legge della natura" (phusis) che può essere enunciata in modo universale e necessario. L'universo è razionale, costituisce un tutto strutturato, che l'uomo può scoprire con la sua ragione (il "logos" in opposizione al "mutos", il mito).
+Il principio fondamentale postulato da questi primi filosofi presocratici è che gli elementi del kosmos (l'universo) sussistono perché sono tutti ugualmente soggetti alla stessa "legge di natura" (phusis). L'universo è razionale; costituisce un tutto strutturato, che l'uomo può scoprire con la sua ragione (il "logos" in contrapposizione al "mutos", il mito).
 
 Secondo Karl Popper, dobbiamo ai filosofi dell'antica Grecia, in particolare ai Presocratici, l'invenzione del razionalismo critico, ovvero la tradizione occidentale della discussione critica, fonte del pensiero scientifico e del pluralismo. Lo spiega in un capitolo di _Congetture e confutazioni_ intitolato "Ritorno ai Presocratici":
 
@@ -416,7 +416,7 @@ L'unico mezzo che abbiamo per avvicinarci alla verità sono la critica e la disc
 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
-L'Impero Romano era un'entità cosmopolita vasta. Al suo apice, intorno al 117 d.C., era uno stato immenso, multi-etnico e multilingue:
+L'Impero Romano era un'entità cosmopolita vasta. Al suo apice, intorno al 117 d.C., era uno Stato immenso, multi-etnico e multilingue:
 
 - Ad ovest, si estendeva dalla Gran Bretagna (l'attuale Inghilterra) alla Spagna, passando per la Gallia (l'attuale Francia) e il nord dell'Africa.
 - A nord, raggiungeva il Reno e il Danubio, abbracciando parti della Germania, dei Paesi Bassi, della Svizzera, dell'Austria, dell'Ungheria, della Romania e della Bulgaria.

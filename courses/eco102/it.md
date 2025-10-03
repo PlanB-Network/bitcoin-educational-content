@@ -112,8 +112,6 @@ Nel 1825, ereditò una tenuta agricola da suo nonno, che gestì come un "gentilu
 
 ![image](assets/en/008.webp)
 
-![image](assets/en/008.webp)
-
 
 Sviluppò rapidamente una passione per l'economia politica e studiò le opere di Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer e Charles Comte. Leggeva giornali inglesi, e fu lì che apprese dell'esistenza di una lega inglese per il libero scambio.
 
@@ -136,16 +134,12 @@ Il primo incontro si svolse a Bordeaux il 23 febbraio 1846, durante il quale fu 
 
 ![image](assets/en/005.webp)
 
-![image](assets/en/005.webp)
-
 
 La Rivoluzione di Febbraio del 1848 rovesciò la monarchia di Luigi Filippo, nota come la Monarchia di Luglio (1830-1848), e vide l'avvento della Seconda Repubblica. Bastiat fu allora eletto membro dell'assemblea legislativa come deputato per le Landes. Sedette al centro-sinistra, con Alexis de Tocqueville, tra i monarchici e i socialisti. Lì, si adoperò per difendere le libertà individuali come le libertà civili e si oppose a tutte le politiche restrittive, provenissero dalla destra o dalla sinistra. Fu eletto vicepresidente della Commissione Finanze e si adoperò costantemente per ricordare ai suoi colleghi deputati questa semplice verità, spesso dimenticata nei parlamenti:
 
 >Non si può dare ad alcuni, per legge, senza essere obbligati a prendere da altri con un'altra legge.
 
 Quasi tutti i suoi libri e saggi furono scritti negli ultimi sei anni della sua vita, dal 1844 al 1850. Nel 1850, Bastiat scrisse due delle sue opere più famose: _La Legge_ e una serie di opuscoli intitolati _Ciò che si vede e ciò che non si vede_. La Legge è stata tradotta in molte lingue straniere, tra cui inglese, tedesco, spagnolo, russo e italiano.
-
-![image](assets/en/012.webp)
 
 ![image](assets/en/012.webp)
 
@@ -308,8 +302,6 @@ Adottano da Benjamin Constant la distinzione tra gli Antichi e i Moderni, caratt
 
 ![image](assets/en/034.webp)
 
-![image](assets/en/034.webp)
-
 Questa nuova teoria sociale contiene uno degli elementi che diventerà la pietra angolare del socialismo scientifico di Marx ed Engels: la lotta di classe. Ma in cosa consiste la teoria liberale della lotta di classe, e in che modo differisce dal marxismo?
 
 Parte dall'individuo che agisce per soddisfare i propri bisogni e desideri. Dal momento in cui si crea, ovvero si aumenta l'utilità delle cose, valorizzandone il valore, ci si impegna nell'industria. Qui, un industriale non è un proprietario di industria, come il linguaggio corrente potrebbe suggerire, ma un produttore, indipendentemente dal campo in cui lavora. Ecco perché la loro teoria è chiamata industrialismo. Postula che l'obiettivo della società sia la creazione di utilità in senso lato, ovvero beni e servizi utili agli esseri umani.
@@ -355,8 +347,6 @@ La Lega può essere paragonata a un'università itinerante, che educava economic
 Un oratore affascinante e formidabile, aveva un dono prodigioso nell'inventare frasi incisive e concise, lontane dai discorsi astratti degli economisti.
 
 >Cos'è il monopolio del pane? esclamò. È la scarsità di pane. Rimarrete sorpresi nell'apprendere che la legislazione di questo paese, su questa materia, non ha altro scopo se non quello di produrre la massima scarsità possibile di pane. Eppure non è altro che questo. La legislazione può raggiungere il suo obiettivo solo attraverso la scarsità.
-
-![image](assets/en/041.webp)
 
 ![image](assets/en/041.webp)
 
@@ -778,8 +768,6 @@ Tutti conoscono Tartuffo o l'Impostore, la commedia di Molière in cui un astuto
 
 ![image](assets/en/090.webp)
 
-![image](assets/en/090.webp)
-
 
 Bastiat nota che ci sono due modi per porre fine a questo tipo di impostura: correggere Tartuffo o illuminare Orgon. Naturalmente, ci saranno sempre dei Tartuffi, ma il loro potere di nuocere sarebbe molto ridotto se ci fossero meno Orgon disposti ad ascoltarli.
 
@@ -1154,8 +1142,6 @@ La falsa filantropia, dice Bastiat, è una delle principali cause della perversi
 Sanno meglio cosa è bene per gli altri e imporranno la loro concezione del bene a tutti; questi sono i filantropi. Hanno creato falsi diritti che oggi vengono chiamati diritti sociali. I diritti sociali non sono altro che diritti sul lavoro altrui, diritti di disporre della proprietà altrui, del frutto del proprio lavoro: il diritto all'abitazione, il diritto alla salute, all'istruzione, al lavoro, al salario minimo, ecc.
 
 Cos'è il saccheggio? È l'esatto opposto della proprietà, ci dice Bastiat. Saccheggiare deriva dal latino _spoliare_, che significa spogliare. Abbiamo visto che l'uomo può vivere solo appropriandosi delle cose, applicando le sue capacità alle cose, cioè lavorando. Ahimè, può anche appropriarsi del prodotto delle capacità del suo simile, cioè saccheggiarlo.
-
-![image](assets/en/128.webp)
 
 ![image](assets/en/128.webp)
 

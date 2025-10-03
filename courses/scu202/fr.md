@@ -340,7 +340,7 @@ Très rapidement, ce noyau, initialement baptisé Freax puis renommé Linux (con
 
 À mesure que Linux gagne en popularité dans les années 1990, un débat idéologique émerge autour des termes "logiciel libre" et "open source", notamment à cause de la double signification du terme "*free*" en anglais.
 
-Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*free as in freedom*"; in FR:*Libre, comme dans « liberté »*"), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
+Tandis que Richard Stallman et la FSF militent fermement pour l’idée du logiciel libre fondée sur des principes éthiques ("*free as in freedom*"; en FR:*Libre, comme dans « liberté »*), d’autres acteurs privilégient une approche plus pragmatique orientée sur l'ingénierie et centrée sur la transparence et l’efficacité technique du modèle ouvert. C’est en 1998 qu’est créée l’Open Source Initiative (OSI), qui introduit le terme "open source" afin de séduire davantage les entreprises en mettant en avant les bénéfices économiques et techniques plutôt que des considérations idéologiques.
 
 Richard Stallman critique ouvertement l’usage du terme "open source", qu’il juge trop neutre, voire dépolitisé. Il insiste sur le terme "logiciel libre" pour souligner que la question centrale n’est pas technique, mais sociale : celle de la liberté des utilisateurs.
 

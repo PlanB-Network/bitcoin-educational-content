@@ -1,0 +1,9 @@
+question: 표준 IPv4 Address의 길이(비트)는 얼마인가요?
+answer: 32비트
+wrong_answers:
+  - 8비트
+  - 128비트
+  - 16비트
+explanation: |
+  IPv4 Address은 32비트로 인코딩되며, 각각 8비트씩 4바이트로 나뉩니다.
+reviewed: false

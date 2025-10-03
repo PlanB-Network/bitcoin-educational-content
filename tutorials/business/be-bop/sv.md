@@ -15,7 +15,7 @@ Lösningen är enkel, lätt och autonom. Den gör det möjligt att skapa en onli
 
 
 
-I den här handledningen kommer vi att ta dig steg för steg genom :
+I den här handledningen kommer vi att ta dig steg för steg genom:
 
 
 
@@ -44,7 +44,7 @@ Innan du börjar installera be-BOP ska du se till att du har följande tekniska 
 
 
 
-be-BOP använder ett lagringssystem för att hantera filer (t.ex. produktbilder). Detta kräver tillgång till en S3-tjänst, till exempel :
+be-BOP använder ett lagringssystem för att hantera filer (t.ex. produktbilder). Detta kräver tillgång till en S3-tjänst, till exempel:
 
 
 
@@ -62,10 +62,10 @@ Du måste konfigurera en bucket och ange följande information:
 
 
 
-- S3_BUCKET**: namn på skopan
-- S3_ENDPOINT_URL**: länk till din S3-tjänst
-- S3_KEY_ID** och S3_KEY_SECRET: dina åtkomstkoder
-- S3_REGION**: regionen för din S3-tjänst
+- **S3_BUCKET**: namn på skopan
+- **S3_ENDPOINT_URL**: länk till din S3-tjänst
+- **S3_KEY_ID** och **S3_KEY_SECRET**: dina åtkomstkoder
+- **S3_REGION**: regionen för din S3-tjänst
 
 
 
@@ -94,8 +94,8 @@ Du kommer att behöva följande variabler:
 
 
 
-- MONGODB_URL**: databasanslutning Address
-- MONGODB_DB**: databasens namn
+- **MONGODB_URL**: databasanslutning Address
+- **MONGODB_DB**: databasens namn
 
 
 
@@ -115,7 +115,7 @@ Vissa resurser (t.ex. stora bilder) hanteras via Git LFS (Large File Storage). S
 
 
 
-**En teknisk guide till programvarudistribution finns tillgänglig i en separat handledning.
+**En teknisk guide till programvarudistribution finns tillgänglig i en separat handledning.**
 
 
 
@@ -302,7 +302,7 @@ Om du inte vill hantera en Lightning-nod själv är **Swiss Bitcoin Pay** en fä
 
 
 
-Konfigurationssteg :
+Konfigurationssteg:
 
 
 
@@ -330,7 +330,7 @@ Förutom Bitcoin kan du med be-BOP också ta emot kontantbetalningar via PayPal,
 
 
 
-Konfigurationssteg :
+Konfigurationssteg:
 
 
 
@@ -348,7 +348,7 @@ Konfigurationssteg :
 
 
 
-**Du måste ha ett PayPal-företagskonto för att kunna använda generate för dessa identifierare. Du kan få dem via [developer]-portalen (https://developer.paypal.com)
+**Du måste ha ett PayPal-företagskonto för att kunna använda generate för dessa identifierare. Du kan få dem via [developer]-portalen** (https://developer.paypal.com)
 
 
 
@@ -467,15 +467,15 @@ Med konfigurationen **Top Bar** kan du anpassa din programvaras visuella identit
 
 
 
-#### Konfigurationssteg :
+#### Konfigurationssteg:
 
 
 
 
 
 - I fältet "Varumärke" anger du namnet på ditt företag, din organisation eller din produkt. Detta namn kommer att visas högst upp på Interface och kommer att representera din huvudsakliga visuella identitet.
-- Ange webbplatsens titel**: den valda titeln bör sammanfatta syftet med plattformen. Denna titel kan visas i sidhuvudet eller i webbläsarfliken.
-- Add Website description**: här kan du skriva en kort beskrivning av ditt initiativ. Beskrivningen hjälper användarna att sätta verktyget i ett sammanhang och kan även användas för SEO-ändamål.
+- **Ange webbplatsens titel**: den valda titeln bör sammanfatta syftet med plattformen. Denna titel kan visas i sidhuvudet eller i webbläsarfliken.
+- Add Website description: här kan du skriva en kort beskrivning av ditt initiativ. Beskrivningen hjälper användarna att sätta verktyget i ett sammanhang och kan även användas för SEO-ändamål.
 
 
 
@@ -491,16 +491,16 @@ I Top Bars avsnitt "Länkar" kan du lägga till genvägar till viktiga sidor i d
 
 
 
-#### Konfigurationssteg :
+#### Konfigurationssteg:
 
 
 
 
 
-- Ange länknamn (Text)**: i fältet "Text" anger du namnet eller etiketten på länken så som den kommer att visas (t.ex. Hem, Kontakt, Hjälp...).
-- Ange länk Address (Url)**: i fältet `Url` anger du hela Address för målsidan (intern eller extern).
-- Lägg till andra länkar vid behov**: på varje konfigurationsrad kan du lägga till en ytterligare länk med hjälp av fälten "Text" och "URL".
-- Spara länkar**: När alla länkar har angetts klickar du på knappen "Add top bar link" för att spara dem.
+- **Ange länknamn (Text)**: i fältet "Text" anger du namnet eller etiketten på länken så som den kommer att visas (t.ex. Hem, Kontakt, Hjälp...).
+- Ange länk **Address (Url)**: i fältet `Url` anger du hela Address för målsidan (intern eller extern).
+- **Lägg till andra länkar vid behov**: på varje konfigurationsrad kan du lägga till en ytterligare länk med hjälp av fälten "Text" och "URL".
+- **Spara länkar**: När alla länkar har angetts klickar du på knappen "Add top bar link" för att spara dem.
 
 
 
@@ -522,10 +522,10 @@ I avsnittet **Navbar** kan du konfigurera be-BOP:s huvudmeny för navigering, so
 
 
 
-- Ange länknamn (`Text`)**: På konfigurationsraden börjar du med att fylla i fältet `Text`. Detta motsvarar namnet på den länk som visas i navigeringsfältet (exempel: *Dashboard*, *Users*, *Settings*...).
-- Ange länkens Address (`Url`)**: bredvid fältet `Text` hittar du fältet `Url`. I det här fältet anger du Address för den sida som länken ska omdirigera till. Detta kan vara en intern rutt eller en länk till en extern sida.
-- Lägg till flera länkar om det behövs**: under den första raden finns nya fält för "Text" och "URL" där du kan lägga till så många länkar som behövs. Varje rad representerar ytterligare en navigeringslänk.
-- Spara länkar**: När du har angett alla Elements klickar du på knappen "Lägg till länk i navigeringsfältet" för att spara och visa resultaten i navigeringsfältet.
+- Ange länknamn (`Text`): På konfigurationsraden börjar du med att fylla i fältet `Text`. Detta motsvarar namnet på den länk som visas i navigeringsfältet (exempel: *Dashboard*, *Users*, *Settings*...).
+- Ange länkens Address (`Url`): bredvid fältet `Text` hittar du fältet `Url`. I det här fältet anger du Address för den sida som länken ska omdirigera till. Detta kan vara en intern rutt eller en länk till en extern sida.
+- **Lägg till flera länkar om det behövs**: under den första raden finns nya fält för "Text" och "URL" där du kan lägga till så många länkar som behövs. Varje rad representerar ytterligare en navigeringslänk.
+- **Spara länkar**: När du har angett alla Elements klickar du på knappen "Lägg till länk i navigeringsfältet" för att spara och visa resultaten i navigeringsfältet.
 
 
 
@@ -547,11 +547,11 @@ I avsnittet **Footer** kan du anpassa sidfoten i din programvara och lägga till
 
 
 
-- Aktivera visning av etiketten "Powered by be-BOP"**: aktivera knappen `Display Powered by be-BOP` för att visa denna etikett i sidfoten.
-- Ange namnet på länken (`Text`)**: fyll i fältet `Text`, som motsvarar länkens ordalydelse i sidfoten (exempel: *Villkor*, *Privacy*, *Kontakt*...).
-- Ange länkens Address (`Url`)**: i fältet `Url` anger du målsidans Address (intern eller extern).
-- Lägg till fler länkar om det behövs**: använd de extra raderna för att skapa så många länkar som du vill.
-- Spara länkar**: klicka på knappen "Add footer link" för att spara länkar.
+- Aktivera visning av etiketten "Powered by be-BOP": aktivera knappen `Display Powered by be-BOP` för att visa denna etikett i sidfoten.
+- Ange namnet på länken (`Text`): fyll i fältet `Text`, som motsvarar länkens ordalydelse i sidfoten (exempel: *Villkor*, *Privacy*, *Kontakt*...).
+- Ange länkens Address (`Url`): i fältet `Url` anger du målsidans Address (intern eller extern).
+- **Lägg till fler länkar om det behövs**: använd de extra raderna för att skapa så många länkar som du vill.
+- **Spara länkar**: klicka på knappen "Add footer link" för att spara länkar.
 
 
 
@@ -641,8 +641,8 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 
-- Företagsnamn**: officiellt företagsnamn.
-- Företagsidentifikation**: juridisk identifikation eller registreringsnummer (RCCM, SIRET...).
+- **Företagsnamn**: officiellt företagsnamn.
+- **Företagsidentifikation**: juridisk identifikation eller registreringsnummer (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 
-- Street**: postnummer Address (gata, nummer ...).
-- Land**: land.
-- Delstat**: provins eller region.
-- Stad**: stad.
-- Postnummer**: postnummer.
+- **Street**: postnummer Address (gata, nummer ...).
+- **Land**: land.
+- **Delstat**: provins eller region.
+- **Stad**: stad.
+- **Postnummer**: postnummer.
 
 
 
@@ -666,8 +666,8 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 
-- E-post**: professionell e-post Address.
-- Phone**: företagets telefonnummer.
+- **E-post**: professionell e-post Address.
+- **Phone**: företagets telefonnummer.
 
 
 
@@ -677,10 +677,10 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 
-- Kontohavarens namn**: Kontohavarens namn.
-- Kontohavare Address**: innehavarens Address.
-- IBAN**: Internationellt bankkontonummer.
-- BIC**: SWIFT/BIC-kod.
+- **Kontohavarens namn**: Kontohavarens namn.
+- **Kontohavare Address**: innehavarens Address.
+- **IBAN**: Internationellt bankkontonummer.
+- **BIC**: SWIFT/BIC-kod.
 
 
 
@@ -695,12 +695,12 @@ I det här avsnittet, som nås via `Admin > Identity` (eller `Settings > Identit
 
 
 - Klicka på "Fyll i information om huvudbutiken" för att fylla i uppgifterna.
-- Information om utställaren**: fält för juridisk information/skatteinformation som visas på fakturor.
+- **Information om utställaren**: fält för juridisk information/skatteinformation som visas på fakturor.
 - Klicka på `Uppdatera` för att spara ändringarna.
 
 
 
-**Du kan också ange ytterligare information som ska visas på Invoice, beroende på dina behov.
+**Du kan också ange ytterligare information som ska visas på Invoice, beroende på dina behov.**
 
 
 
@@ -742,9 +742,9 @@ Gå till `Admin > Merch > Products` för att lägga till eller ändra en produkt
 
 
 
-- Produktnamn**: Produktens namn (t.ex. *BOP T-shirt limited edition*).
-- Slug**: URL-identifierare utan mellanslag (t.ex. `tshirt-bop-edition-limitee`).
-- Alias** *(valfritt)*: användbart för att snabbt lägga till i korgen via ett särskilt fält.
+- **Produktnamn**: Produktens namn (t.ex. *BOP T-shirt limited edition*).
+- **Slug**: URL-identifierare utan mellanslag (t.ex. `tshirt-bop-edition-limitee`).
+- **Alias** *(valfritt)*: användbart för att snabbt lägga till i korgen via ett särskilt fält.
 
 
 
@@ -758,9 +758,9 @@ Gå till `Admin > Merch > Products` för att lägga till eller ändra en produkt
 
 
 
-- Prisbelopp**: produktpris (t.ex. "25,00").
-- Prisvaluta**: valuta (EUR, USD, BTC, etc.).
-- Specialprodukter** :
+- **Prisbelopp**: produktpris (t.ex. "25,00").
+- **Prisvaluta**: valuta (EUR, USD, BTC, etc.).
+- **Specialprodukter**:
   - detta är en gratis produkt.
   - detta är en betala-vad-du-vill-produkt.
 
@@ -772,14 +772,14 @@ Gå till `Admin > Merch > Products` för att lägga till eller ändra en produkt
 
 
 
-- Enkel produkt (`standalone`)**: endast ett tillägg möjligt per beställning (t.ex. donation, inträdesbiljett).
-- Produkt med variationer** :
+- **Enkel produkt (`standalone`)**: endast ett tillägg möjligt per beställning (t.ex. donation, inträdesbiljett).
+- **Produkt med variationer**:
   - Kolla inte "Standalone".
   - Markera `Produkten har lätta variationer (ingen lagerskillnad)`.
-  - Lägg till :
-    - Namn** (t.ex. *Storlek*),
-    - Värden** (t.ex.: S, M, L, XL),
-    - Prisskillnader** om tillämpligt (t.ex.: `+2 USD` för XL).
+  - Lägg till:
+- **Namn** (t.ex. *Storlek*),
+- **Värden** (t.ex.: S, M, L, XL),
+- **Prisskillnader** om tillämpligt (t.ex.: `+2 USD` för XL).
 
 
 
@@ -803,14 +803,14 @@ Om din produkt inte finns tillgänglig i obegränsade kvantiteter, markera `Prod
 
 
 
-Systemet hanterar :
+Systemet hanterar:
 
 
 
 
 
-- Reserverat lager** → produkter i korgar som ännu inte har betalats
-- Sålt lager** → redan köpta produkter
+- **Reserverat lager** → produkter i korgar som ännu inte har betalats
+- **Sålt lager** → redan köpta produkter
 
 
 
@@ -832,8 +832,8 @@ Markera `Produkten har en fysisk komponent som kommer att skickas till kundens A
 
 
 
-- Ticket**: kryssa i om produkten är en biljett till ett evenemang
-- Bokning**: kontrollera om detta är en bokningsplats (t.ex.: session, möte)
+- **Ticket**: kryssa i om produkten är en biljett till ett evenemang
+- **Bokning**: kontrollera om detta är en bokningsplats (t.ex.: session, möte)
 
 
 
@@ -872,7 +872,7 @@ Gå till `Admin > Merch > CMS`. Du kommer att se en lista över befintliga sidor
 
 
 
-CMS-sidor är viktiga för :
+CMS-sidor är viktiga för:
 
 
 
@@ -898,7 +898,7 @@ Du kan lägga till andra sidor efter behov:
 
 
 
-**Tips: Klicka på varje länk eller ikon för att ändra **innehåll**, **titel** eller **seo synlighet** för varje sida.
+**Tips: Klicka på varje länk eller ikon för att ändra** innehåll, titel eller seo synlighet **för varje sida.**
 
 
 
@@ -906,7 +906,7 @@ Du kan lägga till andra sidor efter behov:
 
 
 
-Gå till : administratör > Merch > Layout. Du kan anpassa den visuella Elements på din webbplats:
+Gå till: administratör > Merch > Layout. Du kan anpassa den visuella Elements på din webbplats:
 
 
 
@@ -932,7 +932,7 @@ Gå till : administratör > Merch > Layout. Du kan anpassa den visuella Elements
 
 
 - Finns i det grå området under det övre fältet
-- Innehåller snabb åtkomst till : `Config`, `Payment Settings`, `Transaction`, `Node Management`, `Widgets`, etc.
+- Innehåller snabb åtkomst till: `Config`, `Payment Settings`, `Transaction`, `Node Management`, `Widgets`, etc.
 - Endast styrelseledamöter
 
 
@@ -956,7 +956,7 @@ Gå till: `Admin > Merch > Bilder`
 
 
 
-Du kan :
+Du kan:
 
 
 
@@ -983,7 +983,7 @@ Den kan också ändras i `Pictures` och gör att du kan visa en **sammanfattning
 
 
 
-Widgets** berikar dina CMS-sidor med dynamiska eller visuella Elements.
+**Widgets** berikar dina CMS-sidor med dynamiska eller visuella element.
 
 
 
@@ -1001,14 +1001,14 @@ Exempel på tillgängliga widgets:
 
 
 
-- Utmaningar**: utmaningar eller uppdrag
-- Taggar**: kategorier eller nyckelord
-- Sliders**: bildkaruseller
-- Specifikationer** : Specifikationer tabeller
-- Formulär**: formulär (kontakt, feedback, etc.)
-- Nedräkningar**: timers
-- Gallerier**: bildgallerier
-- Ledartavlor**: användarnas ranking
+- **Utmaningar**: utmaningar eller uppdrag
+- **Taggar**: kategorier eller nyckelord
+- **Sliders**: bildkaruseller
+- **Specifikationer**: Specifikationer tabeller
+- **Formulär**: formulär (kontakt, feedback, etc.)
+- **Nedräkningar**: timers
+- **Gallerier**: bildgallerier
+- **Ledartavlor**: användarnas ranking
 
 
 
@@ -1033,7 +1033,7 @@ Använd **shortcodes** i innehållet på dina CMS-sidor:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Aktuella parametrar** :
+**Aktuella parametrar**:
 
 
 
@@ -1046,7 +1046,7 @@ Använd **shortcodes** i innehållet på dina CMS-sidor:
 
 
 
-**Fördelar** :
+**Fördelar**:
 
 
 
@@ -1103,7 +1103,7 @@ Dessa filter underlättar snabba sökningar och målinriktad hantering.
 
 
 
-Genom att klicka på en order kan du få tillgång till en komplett fil som innehåller :
+Genom att klicka på en order kan du få tillgång till en komplett fil som innehåller:
 
 
 
@@ -1120,7 +1120,7 @@ Genom att klicka på en order kan du få tillgång till en komplett fil som inne
 
 
 
-Du kan :
+Du kan:
 
 
 
@@ -1141,7 +1141,7 @@ Du kan :
 
 
 
-För att få tillgång till försäljnings- och betalningsstatistik :
+För att få tillgång till försäljnings- och betalningsstatistik:
 
 
 administratör > Inställningar > Rapportering
@@ -1166,9 +1166,9 @@ Rapporterna är indelade i avsnitt:
 
 
 
-- Order Detail**: antal order, status (bekräftad, avbokad, pågående), utveckling
-- Produktdetaljer**: sålda produkter, kvantiteter, populära produkter
-- Payment Detail**: inkasserade belopp, uppdelning per betalningsmetod
+- **Order Detail**: antal order, status (bekräftad, avbokad, pågående), utveckling
+- **Produktdetaljer**: sålda produkter, kvantiteter, populära produkter
+- **Payment Detail**: inkasserade belopp, uppdelning per betalningsmetod
 
 
 
@@ -1176,7 +1176,7 @@ Rapporterna är indelade i avsnitt:
 
 
 
-Varje avsnitt innehåller en **Export CSV**-knapp, som gör att du kan :
+Varje avsnitt innehåller en **Export CSV**-knapp, som gör att du kan:
 
 
 
@@ -1189,7 +1189,7 @@ Varje avsnitt innehåller en **Export CSV**-knapp, som gör att du kan :
 
 
 
-**Perfekt för resultatuppföljning, redovisning och presentationer.
+**Perfekt för resultatuppföljning, redovisning och presentationer.**
 
 
 
@@ -1217,7 +1217,7 @@ Plattformen stöder **Nostr**-protokollet för vissa avancerade funktioner:
 
 
 
-Gå till :
+Gå till:
 
 
 admin > Node Management > Nostr
@@ -1304,15 +1304,15 @@ Här hittar du alla alternativ för att **skapa** och **konfigurera** ett anpass
 
 
 
-När du skapar eller ändrar ett tema kan du definiera :
+När du skapar eller ändrar ett tema kan du definiera:
 
 
 
 
 
-- Färger**: för knappar, bakgrunder, text, länkar etc.
-- Typsnitt**: val av typsnitt för rubriker, stycken, menyer
-- Grafiska stilar**: ramar, marginaler, avstånd, blockformer
+- **Färger**: för knappar, bakgrunder, text, länkar etc.
+- **Typsnitt**: val av typsnitt för rubriker, stycken, menyer
+- **Grafiska stilar**: ramar, marginaler, avstånd, blockformer
 
 
 
@@ -1326,9 +1326,9 @@ Varje del av anläggningen kan justeras oberoende av varandra:
 
 
 
-- Header**: övre navigeringsfältet
-- Body**: huvudinnehåll
-- Sidfot** : längst ner på sidan
+- **Header**: övre navigeringsfältet
+- **Body**: huvudinnehåll
+- **Sidfot**: längst ner på sidan
 
 
 
@@ -1340,7 +1340,7 @@ Varje del av anläggningen kan justeras oberoende av varandra:
 
 
 
-När temat är konfigurerat :
+När temat är konfigurerat:
 
 
 
@@ -1351,7 +1351,7 @@ När temat är konfigurerat :
 
 
 
-**Det aktiva temat är det som kommer att vara synligt för besökare.
+**Det aktiva temat är det som kommer att vara synligt för besökare.**
 
 
 
@@ -1371,18 +1371,18 @@ Med plattformen kan du anpassa de e-postmeddelanden som skickas automatiskt till
 
 
 
-Varje e-postmeddelande (orderbekräftelse, glömt lösenord etc.) har :
+Varje e-postmeddelande (orderbekräftelse, glömt lösenord etc.) har:
 
 
 
 
 
-- Ämne**: ämnet för e-postmeddelandet (t.ex. "Din order har validerats")
-- HTML-kod**: HTML-innehåll som visas i e-postmeddelandet
+- **Ämne**: ämnet för e-postmeddelandet (t.ex. "Din order har validerats")
+- **HTML-kod**: HTML-innehåll som visas i e-postmeddelandet
 
 
 
-**Du kan infoga text, bilder, länkar etc. efter behov.
+**Du kan infoga text, bilder, länkar etc. efter behov.**
 
 
 
@@ -1390,14 +1390,14 @@ Varje e-postmeddelande (orderbekräftelse, glömt lösenord etc.) har :
 
 
 
-För att göra e-postmeddelanden dynamiska kan du infoga variabler som :
+För att göra e-postmeddelanden dynamiska kan du infoga variabler som:
 
 
 
 
 
-- `{orderNumber}}` : ersätts av det faktiska ordernumret
-- röstlänk : länk till Invoice
+- `{orderNumber}}`: ersätts av det faktiska ordernumret
+- röstlänk: länk till Invoice
 - `{webbplatslänk}}`: URL till din webbplats
 
 
@@ -1444,9 +1444,9 @@ Fyll i följande fält:
 
 
 
-- Taggens namn**: taggens namn visas
-- Slug**: unik identifierare (inga mellanslag eller accenter)
-- Taggfamilj**: grupperar taggar efter kategori
+- **Taggens namn**: taggens namn visas
+- **Slug**: unik identifierare (inga mellanslag eller accenter)
+- **Taggfamilj**: grupperar taggar efter kategori
 
 
 
@@ -1454,7 +1454,7 @@ Fyll i följande fält:
 
 
 
-#### Tillgängliga familjer :
+#### Tillgängliga familjer:
 
 
 
@@ -1479,9 +1479,9 @@ Dessa fält kan användas för att berika en tagg som om den vore en innehållss
 
 - Titel
 - Undertitel
-- Kort** innehåll
-- Fullständigt innehåll** (på franska)
-- CTA** (åtgärdsknappar)
+- **Kort** innehåll
+- **Fullständigt innehåll** (på franska)
+- **CTA** (åtgärdsknappar)
 
 
 
@@ -1489,7 +1489,7 @@ Dessa fält kan användas för att berika en tagg som om den vore en innehållss
 
 
 
-Etiketter kan vara :
+Etiketter kan vara:
 
 
 
@@ -1515,13 +1515,13 @@ För att erbjuda nedladdningsbara dokument till dina kunder: `Admin > Merch > Fi
 1. Klicka på **Ny fil**
 
 
-2. Informera :
+2. Informera:
 
 
 
 
-   - Filnamn** (t.ex. *Installationsguide*)
-   - Fil att ladda upp** (PDF, bild, Word...)
+- **Filnamn** (t.ex. *Installationsguide*)
+- **Fil att ladda upp** (PDF, bild, Word...)
 
 
 
@@ -1533,13 +1533,13 @@ För att erbjuda nedladdningsbara dokument till dina kunder: `Admin > Merch > Fi
 
 
 
-Denna länk kan sedan sättas in i :
+Denna länk kan sedan sättas in i:
 
 
 
 
 
-- CMS**-sida (som textlänk eller knapp)
+- **CMS**-sida (som textlänk eller knapp)
 - En **e-postklient** (via en mall)
 - Ett **produktblad** (t.ex. nedladdning av bruksanvisning)
 
@@ -1557,7 +1557,7 @@ Plattformen erbjuder avancerad integration med **Nostr**-protokollet via en auto
 
 
 
-Gå till : nodhantering > Nostr
+Gå till: nodhantering > Nostr
 
 
 
@@ -1583,7 +1583,7 @@ Gå till : nodhantering > Nostr
 
 
 - Aktivera ett automatiskt meddelande vid **första användarinteraktionen**
-- Idealisk för :
+- Idealisk för:
   - Presentera din tjänst
   - Skicka en användbar länk (t.ex. FAQ, kontakt, beställning)
 
@@ -1629,19 +1629,19 @@ För att göra detta, gå till: `Inställningar > Språk`
 
 
 
-Översättningsfilerna är i JSON-format. Du kan :
+Översättningsfilerna är i JSON-format. Du kan:
 
 
 
 
 
-- Ladda ner** språkfiler
-- Ändra** befintliga texter
-- Lägg till** dina egna översättningar
+- Ladda ner **språkfiler**
+- **Ändra** befintliga texter
+- Lägg till **dina egna översättningar**
 
 
 
-Länk till originalfiler :
+Länk till originalfiler:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,15 +1672,15 @@ Klicka på **Create a role** för att skapa en roll (t.ex. `Super Admin`, `POS`,
 
 
 
-Varje roll innehåller :
+Varje roll innehåller:
 
 
 
 
 
-- skrivbehörighet**: skrivbehörighet
-- läsbehörighet**: läsbehörighet
-- förbjudet tillträde**: sektioner interdites
+- **skrivbehörighet**: skrivbehörighet
+- **läsbehörighet**: läsbehörighet
+- **förbjudet tillträde**: sektioner interdites
 
 
 
@@ -1688,7 +1688,7 @@ Varje roll innehåller :
 
 
 
-I samma meny `Admin > Inställningar > ARM` lägger du till en användare med :
+I samma meny `Admin > Inställningar > ARM` lägger du till en användare med:
 
 
 
@@ -1709,7 +1709,7 @@ Tilldela en tidigare definierad roll.
 
 
 
-Skrivskyddade** användare ser menyerna i *italic* och kan inte ändra innehållet.
+**Skrivskyddade** användare ser menyerna i *italic* och kan inte ändra innehållet.
 
 
 
@@ -1760,7 +1760,7 @@ I `/cart` finns ett fält där du kan lägga till en produkt:
 
 
 
-POS stöder :
+POS stöder:
 
 
 
@@ -1779,8 +1779,8 @@ Två avancerade alternativ finns tillgängliga:
 
 
 
-- Momsbefrielse**: tillämplig på motivering (icke-statliga organisationer, utlänningar...)
-- Presentrabatt**: exceptionell rabatt med obligatorisk kommentar
+- **Momsbefrielse**: tillämplig på motivering (icke-statliga organisationer, utlänningar...)
+- **Presentrabatt**: exceptionell rabatt med obligatorisk kommentar
 
 
 

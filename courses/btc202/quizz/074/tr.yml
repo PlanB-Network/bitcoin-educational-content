@@ -1,0 +1,9 @@
+question: Bir bloktaki işlemleri özetleyen veri yapısı hangisidir?
+answer: Merkle Tree
+wrong_answers:
+  - Hash UTXO tablosu
+  - Peers.dat dosyası
+  - Assumeutxo kaydı
+explanation: |
+  Bir bloktaki işlemler, bloğun bütünlüğünü sağlamak için kökü blok başlığına dahil edilen bir Merkle Tree'e işlenir.
+reviewed: true

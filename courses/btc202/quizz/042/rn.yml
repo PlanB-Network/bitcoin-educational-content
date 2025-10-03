@@ -1,0 +1,9 @@
+question: Ni uruhusha uruhe umbrelOS itangazwa?
+answer: PolyForm idakora ubucuruzi 1.0
+wrong_answers:
+  - MIT
+  - GPLv3
+  - Apache 2.0
+explanation: |
+  umbrelOS isohotse hakurikijwe uruhusha rwa PolyForm Noncommercial 1.0, rwemerera gukoresha umuntu ku giti ciwe ariko rukabuza gukoresha mu bucuruzi.
+reviewed: true

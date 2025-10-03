@@ -1,0 +1,9 @@
+question: Kriptografik taahhütler (Taproot veya OP_RETURN aracılığıyla) RGB'de nasıl kullanılır?
+answer: Blockchain'teki Anchor durum geçişleri
+wrong_answers:
+  - Contract verilerini Blockchain üzerinde depolarlar
+  - Client-side Validation'yi On-Chain Smart contract infazıyla değiştirdiler
+  - İşlem doğrulama için düğümler oluştururlar
+explanation: |
+  Taahhütler, bilginin kendisini ifşa etmeden belirli bir zamanda belirli bir bilgi parçasının varlığını kanıtlamak için durum güncellemelerinin güvenli bir şekilde bir UTXO'a bağlanmasını sağlar.
+reviewed: false

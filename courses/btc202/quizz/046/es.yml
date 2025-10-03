@@ -1,0 +1,9 @@
+question: ¿Qué puede hacer el parámetro dbcache en Bitcoin core?
+answer: Asignar RAM para acelerar el IBD
+wrong_answers:
+  - Definir el tamaño de Blockchain
+  - Ajustar la dificultad máxima de Mining
+  - Limitar el número de pares conectados
+explanation: |
+  El parámetro dbcache aumenta el espacio de memoria utilizado para almacenar temporalmente el conjunto UTXO, lo que puede acelerar el proceso de sincronización inicial.
+reviewed: true

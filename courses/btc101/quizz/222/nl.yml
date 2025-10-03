@@ -1,8 +1,8 @@
-question: Wat is het schaalbaarheidsprobleem van Bitcoin?
-answer: De uitdaging om een monetair systeem te implementeren dat een steeds groter aantal transacties per seconde kan uitvoeren naarmate het systeem wordt overgenomen.
+question: Hoe zijn transacties op de Lightning Network beveiligd?
+answer: Via cryptografie en indirect via de energie die miners verbruiken op Bitcoin.
 wrong_answers:
-  - De moeilijkheid om Mining nieuwe Bitcoins te maken met een stijgende waarde na verloop van tijd.
-  - De volatiliteit van de prijs van Bitcoin die na elke Halving zal stijgen.
-  - Het gebrek aan regelgeving voor Bitcoin waardoor transacties illegaal worden.
+  - Alleen door het gebruik van privésleutels.
+  - Alleen door het gebruik van openbare sleutels.
+  - Alleen door het gebruik van zowel private als publieke sleutels.
 explanation: >-
 reviewed: true

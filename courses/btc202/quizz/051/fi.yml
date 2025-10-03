@@ -1,0 +1,9 @@
+question: Milloin käyttäjän on asennettava indeksoija?
+answer: Block explorer:n suorittaminen
+wrong_answers:
+  - Mining-lohkojen osalta itse
+  - Lightning Network:n aktivointi
+  - Tapahtumien allekirjoittaminen
+explanation: |
+  Indeksointiohjelmasta tulee välttämätön edistyneissä käyttötarkoituksissa, kuten paikallisessa etsinnässä.
+reviewed: true

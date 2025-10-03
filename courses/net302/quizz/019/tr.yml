@@ -1,0 +1,9 @@
+question: IP protokolünün TCP/IP modelindeki ana rolü nedir?
+answer: Veri paketlerini bir ana bilgisayardan diğerine iletme
+wrong_answers:
+  - Ağ iletişimlerinin şifrelenmesini yönetme
+  - Uygulamalar arasında kalıcı bağlantılar sağlayın
+  - MAC adreslerini IP adreslerine çevirme
+explanation: |
+  IP protokolü cihazların mantıksal adreslemesini yapar ve paketlerin birbirine bağlı ağlar arasında yönlendirilmesini sağlar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis aastal võeti kasutusele esimene ARPANETi segment?
+answer: 1969
+wrong_answers:
+  - 1972
+  - 1962
+  - 1961
+explanation: |
+  Esimene ARPANETi segment võeti kasutusele 1969. aasta oktoobris, ühendades UCLA ja Stanfordi.
+reviewed: false

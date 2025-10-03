@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo ubuhinga bw’amahera y’ubuhinga bwa none bwa eCash bushingiyeko?
+answer: Imikono y'impumyi
+wrong_answers:
+  - Imikono y'umugwi
+  - Imikono y'impeta
+  - Imikono y'imbere
+explanation: |
+  eCash ishingiye ku nzira yo gusinya ataco abona, ivyo bikaba bituma uwusinya ashobora gusinya ku kintu atabona ico ariko arasinya.
+reviewed: true

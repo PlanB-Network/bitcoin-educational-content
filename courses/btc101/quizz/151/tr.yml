@@ -1,0 +1,8 @@
+question: Proof of Work'ın Bitcoin ağındaki amacı nedir?
+answer: Proof of Work, üçüncü bir tarafa güvenmeden bilginin doğruluğunu sağlar.
+wrong_answers:
+  - Proof of Work, üçüncü bir tarafa güvenerek yeni bitcoinler yaratmak için kullanılır.
+  - Proof of Work, üçüncü bir tarafa güvenerek Bitcoin işlemlerini doğrulamak için kullanılır.
+  - Proof of Work, üçüncü bir tarafa güvenmeden Bitcoin protokolünü değiştirmek için kullanılır.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Igishushanyo c’ikimenyetso ca Linux citwa irihe?
+answer: Tux
+wrong_answers:
+  - Duke
+  - Igikoko
+  - daemon
+explanation: |
+  Tux ni yo yari ikimenyetso c'umurongo wa Linux kuva mu 1996, cakozwe na Larry Ewing.
+reviewed: false

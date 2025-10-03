@@ -11,13 +11,13 @@ Ein Betriebssystem (OS) ist die wichtigste Software, die alle Ressourcen Ihres C
 ### Warum Ubuntu?
 
 
-- Verbesserte Sicherheit** : Linux-Distributionen sind bekannt für ihre Sicherheit und Robustheit
-- Keine Kosten**: Ubuntu und die meisten Linux-Distributionen sind kostenlos
-- Große Gemeinschaft**: Eine Gemeinschaft von Nutzern, die über Foren und Tutorials hilfsbereit sind
-- Wahrung der Privatsphäre**: Open-Source-System für mehr Transparenz
-- Einfachheit**: Benutzerfreundliche Oberfläche und einfache Bedienung
-- Reichhaltiges Ökosystem** : Umfangreicher Katalog von Open-Source-Software
-- Regelmäßige Unterstützung**: Sichere Updates von Canonical
+- **Verbesserte Sicherheit**: Linux-Distributionen sind bekannt für ihre Sicherheit und Robustheit
+- **Keine Kosten**: Ubuntu und die meisten Linux-Distributionen sind kostenlos
+- **Große Gemeinschaft**: Eine Gemeinschaft von Nutzern, die über Foren und Tutorials hilfsbereit sind
+- **Wahrung der Privatsphäre**: Open-Source-System für mehr Transparenz
+- **Einfachheit**: Benutzerfreundliche Oberfläche und einfache Bedienung
+- **Reichhaltiges Ökosystem**: Umfangreicher Katalog von Open-Source-Software
+- **Regelmäßige Unterstützung**: Sichere Updates von Canonical
 
 ## Installation und Konfiguration
 
@@ -42,7 +42,7 @@ Ein Betriebssystem (OS) ist die wichtigste Software, die alle Ressourcen Ihres C
 
 ### 3. Einen bootfähigen USB-Stick erstellen
 
-Sie können verschiedene Tools verwenden, wie z. B. Balena Etcher :
+Sie können verschiedene Tools verwenden, wie z. B. Balena Etcher:
 
 
 - [Balena Etcher] herunterladen und installieren (https://etcher.balena.io/)
@@ -77,19 +77,19 @@ Wenn Sie vom USB-Stick booten, sehen Sie diesen Bildschirm, über den Sie Ubuntu
 
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
-**Wahl der Sprache
+**Wahl der Sprache**
 
 Wählen Sie Ihre bevorzugte Sprache für die Installation und das System.
 
 ![Sélection de la langue](assets/fr/07.webp)
 
-**Zugänglichkeitsoptionen
+**Zugänglichkeitsoptionen**
 
 Konfigurieren Sie ggf. die Zugänglichkeitsoptionen (Screenreader, hoher Kontrast usw.).
 
 ![Options d'accessibilité](assets/fr/08.webp)
 
-**Tastaturkonfiguration
+**Tastaturkonfiguration**
 
 Wählen Sie Ihr Tastaturlayout. Es gibt ein Testfeld, mit dem Sie überprüfen können, ob die Tasten mit Ihrer Konfiguration übereinstimmen.
 
@@ -101,31 +101,31 @@ Verbinden Sie sich mit Ihrem Wi-Fi- oder kabelgebundenen Netzwerk, um während d
 
 ![Configuration réseau](assets/fr/10.webp)
 
-**Art der Anlage
+**Art der Anlage**
 
 Wählen Sie zwischen "Ubuntu ausprobieren" (um zu testen, ohne zu installieren) oder "Ubuntu installieren".
 
 ![Choix du type d'installation](assets/fr/11.webp)
 
-**Installationsmethode
+**Installationsmethode**
 
 Wählen Sie die interaktive Installation.
 
 ![Mode d'installation](assets/fr/12.webp)
 
-**Auswahl der Anwendungen
+**Auswahl der Anwendungen**
 
 Wählen Sie zwischen der Standardinstallation oder einer erweiterten Auswahl an Anwendungen.
 
 ![Sélection des applications](assets/fr/13.webp)
 
-**Drittanbieter-Anwendungen
+**Drittanbieter-Anwendungen**
 
 Entscheiden Sie, ob Sie zusätzliche Treiber und firmeneigene Software installieren wollen oder nicht.
 
 ![Installation applications tierces](assets/fr/14.webp)
 
-**Typ der Aufteilung
+**Typ der Aufteilung**
 
 Sie haben zwei Hauptoptionen:
 
@@ -135,13 +135,13 @@ Sie haben zwei Hauptoptionen:
 
 ![Choix du partitionnement](assets/fr/15.webp)
 
-**Erstellung eines Benutzerkontos
+**Erstellung eines Benutzerkontos**
 
 Legen Sie Ihren Benutzernamen und Ihr Passwort für Ihr Ubuntu-Konto fest.
 
 ![Création du compte](assets/fr/16.webp)
 
-**Zeitzone
+**Zeitzone**
 
 Wählen Sie Ihr geografisches Gebiet, um die Systemzeit einzustellen.
 
@@ -164,7 +164,7 @@ Die Aktualisierung Ihres Systems ist ein wichtiger Schritt nach einer Neuinstall
 - Die Anwendung sucht automatisch nach verfügbaren Updates
 - Folgen Sie den Anweisungen auf dem Bildschirm, um die Updates zu installieren
 
-**Option 2: Über Terminal
+**Option 2: Über Terminal**
 
 
 - Terminal öffnen (Strg + Alt + T)
@@ -187,7 +187,7 @@ sudo apt upgrade
 
 ### 5. Entdeckung der grundlegenden Aufgaben
 
-**5.1 Surfen im Internet
+**5.1 Surfen im Internet**
 
 Standardmäßig finden Sie Firefox oft in der Startleiste.
 
@@ -195,7 +195,7 @@ Starten Sie Firefox und beginnen Sie zu surfen.
 
 Andere Browser (Chrome, Brave, etc.) können über den Software-Manager oder über .deb-Pakete installiert werden.
 
-**5.2 Textverarbeitung
+**5.2 Textverarbeitung**
 
 Ubuntu wird mit der LibreOffice-Suite (Writer für Textverarbeitung) geliefert.
 
@@ -203,11 +203,11 @@ So öffnen Sie es: Aktivitäten > Suchen Sie nach "LibreOffice Writer" oder klic
 
 Sie können Dokumente in einer Vielzahl von Formaten (einschließlich .docx) erstellen, bearbeiten und speichern.
 
-**5.3 Installation von Anwendungen
+**5.3 Installation von Anwendungen**
 
 Software-Manager (genannt "Ubuntu Software"): grafische Oberfläche zum Suchen und Installieren von Anwendungen.
 
-Verwenden Sie im Terminal den Befehl :
+Verwenden Sie im Terminal den Befehl:
 
 ```bash
 sudo apt install nom-du-paquet

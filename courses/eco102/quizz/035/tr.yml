@@ -1,0 +1,9 @@
+question: Bastiat'ya göre klasik çalışmalar hangi yanılgıya dayanmaktadır?
+answer: Yasa koyucunun her şeye gücü yettiği fikri
+wrong_answers:
+  - Platon'un İdealar teorisi
+  - Nihai neden fikri
+  - Organik toplum kavramı
+explanation: |
+  Bastiat klasik eğitimi, yasa koyucunun her şeye kadir olduğu ve toplumu şekillendirmesi gerektiği fikrine vurgu yaptığı için eleştirir ki bu onun bireysel özgürlük ilkelerine aykırı bir görüştür.
+reviewed: false

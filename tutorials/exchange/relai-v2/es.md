@@ -16,21 +16,21 @@ Relai destaca por su sencillez, accesibilidad y enfoque en el ahorro Bitcoin a l
 ### Paso 1: Descargar la aplicación Relai
 
 
-- Dónde encontrarla:** La aplicación está disponible tanto en App Store (iOS) como en Google Play Store (Android). Busca "Relai" y descárgatela gratis.
-- Configuración rápida:** Una vez instalada, abre la aplicación y sigue el proceso de configuración guiado.
+- **Dónde encontrarla:** La aplicación está disponible tanto en App Store (iOS) como en Google Play Store (Android). Busca "Relai" y descárgatela gratis.
+- **Configuración rápida:** Una vez instalada, abre la aplicación y sigue el proceso de configuración guiado.
 
 ### Paso 2: Cree su cuenta
 
 
-- Obligatorio KYC:** Relai ahora requiere una verificación de Conozca a su Cliente (KYC). Prepare un documento de identidad válido y un comprobante de domicilio.
-- Proceso de verificación:** Sube tus documentos, hazte un selfie para confirmar tu identidad y espera la aprobación (normalmente en 24 horas).
-- ¿Por qué KYC?:** Garantiza el cumplimiento de la normativa financiera y mejora la seguridad de todos los usuarios.
+- **Obligatorio KYC:** Relai ahora requiere una verificación de Conozca a su Cliente (KYC). Prepare un documento de identidad válido y un comprobante de domicilio.
+- **Proceso de verificación:** Sube tus documentos, hazte un selfie para confirmar tu identidad y espera la aprobación (normalmente en 24 horas).
+- **¿Por qué KYC?:** Garantiza el cumplimiento de la normativa financiera y mejora la seguridad de todos los usuarios.
 
 ### Paso 3: Proteja su cartera
 
 
-- Autocustodia:** Relai ofrece un monedero sin custodia, lo que significa que tú controlas tus claves privadas.
-- Haga una copia de seguridad de sus claves:** Escriba su frase de recuperación de 12 palabras en papel (no digitalmente) y guárdela de forma segura. Esto es crucial para acceder a tus fondos si pierdes o te roban el teléfono.
+- **Autocustodia:** Relai ofrece un monedero sin custodia, lo que significa que tú controlas tus claves privadas.
+- **Haga una copia de seguridad de sus claves:** Escriba su frase de recuperación de 12 palabras en papel (no digitalmente) y guárdela de forma segura. Esto es crucial para acceder a tus fondos si pierdes o te roban el teléfono.
 
 ---
 ## Cómo crear un plan de ahorro Bitcoin
@@ -123,11 +123,11 @@ Relai mostrará las tarifas de red aplicables.
 ## Consejos para una gestión segura de Bitcoin
 
 
-- Mantenga su frase de recuperación segura:** Guárdela sin conexión y evite compartirla con nadie.
-- Active la seguridad de la aplicación:** Utilice un PIN seguro o autenticación biométrica.
-- Diversificar el almacenamiento:** Considere la posibilidad de utilizar un monedero de hardware para grandes cantidades de Bitcoin.
-- Actualice regularmente la aplicación:** Manténgase protegido con los últimos parches de seguridad y funciones.
-- Evita las redes Wi-Fi públicas:** Accede a tu monedero sólo en redes seguras.
+- **Mantenga su frase de recuperación segura:** Guárdela sin conexión y evite compartirla con nadie.
+- **Active la seguridad de la aplicación:** Utilice un PIN seguro o autenticación biométrica.
+- **Diversificar el almacenamiento:** Considere la posibilidad de utilizar un monedero de hardware para grandes cantidades de Bitcoin.
+- **Actualice regularmente la aplicación:** Manténgase protegido con los últimos parches de seguridad y funciones.
+- **Evita las redes Wi-Fi públicas:** Accede a tu monedero sólo en redes seguras.
 
 ---
 ## Relai Cuentas de empresa
@@ -135,10 +135,10 @@ Relai mostrará las tarifas de red aplicables.
 Relai también ayuda a las empresas que desean invertir en Bitcoin. Las características incluyen:
 
 
-- Planes de ahorro personalizados:** Planes adaptados a las necesidades de la empresa.
-- Acceso multiusuario:** Permite que varios miembros del equipo gestionen la cuenta de forma segura.
-- Límites ampliados:** Invierta importes mayores en comparación con las cuentas personales.
-- Asistencia dedicada:** Acceda a un servicio de atención al cliente prioritario para las empresas.
+- **Planes de ahorro personalizados:** Planes adaptados a las necesidades de la empresa.
+- **Acceso multiusuario:** Permite que varios miembros del equipo gestionen la cuenta de forma segura.
+- **Límites ampliados:** Invierta importes mayores en comparación con las cuentas personales.
+- **Asistencia dedicada:** Acceda a un servicio de atención al cliente prioritario para las empresas.
 
 Para crear una cuenta de empresa, ponte en contacto con el equipo de asistencia de Relai a través de su sitio web.
 
@@ -148,9 +148,9 @@ Para crear una cuenta de empresa, ponte en contacto con el equipo de asistencia 
 Relai ofrece un interesante programa de referidos con el que puedes ganar Bitcoin invitando a tus amigos a usar la aplicación. Así es como funciona:
 
 
-- Comparte tu código de referencia:** Cada usuario de Relai obtiene un código de referencia único. Compártelo con tus amigos.
-- Gana el 10% de las comisiones:** Ganarás el 10% de las comisiones de las transacciones de tus amigos cuando utilicen tu código.
-- Ingresos pasivos de Bitcoin:** Mientras tus amigos sigan operando en Relai, tú seguirás ganando Bitcoin. Es un ganar-ganar tanto para ti como para tus amigos.
+- **Comparte tu código de referencia:** Cada usuario de Relai obtiene un código de referencia único. Compártelo con tus amigos.
+- **Gana el 10% de las comisiones:** Ganarás el 10% de las comisiones de las transacciones de tus amigos cuando utilicen tu código.
+- **Ingresos pasivos de Bitcoin:** Mientras tus amigos sigan operando en Relai, tú seguirás ganando Bitcoin. Es un ganar-ganar tanto para ti como para tus amigos.
 
 ¡Empieza a compartir tu código hoy mismo y haz crecer tu pila Bitcoin sin esfuerzo!
 
@@ -161,7 +161,7 @@ Relai ofrece un interesante programa de referidos con el que puedes ganar Bitcoi
 
 
 - Relai cobra una comisión competitiva del 1% por transacción, o del 0,9% si utiliza un código de referencia como `REL361712`. Las comisiones se muestran de forma transparente antes de confirmar la compra.
-- Cero comisiones:** Las transacciones de hasta 100 euros o 100 francos suizos están totalmente exentas de comisiones.
+- **Cero comisiones:** Las transacciones de hasta 100 euros o 100 francos suizos están totalmente exentas de comisiones.
 
 ### ¿Puedo poner en pausa mi plan de ahorro?
 

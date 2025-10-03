@@ -1,10 +1,11 @@
-question: What is the second phase of the hyperinflation phenomenon?
-answer: Currency collapse & price increase.
+question: What is the name of the event when the reward for mining is halved?
+answer: Halving
 wrong_answers:
-  - Loss of Confidence.
-  - The vicious circle of money printing.
-  - A new currency emerges.
+  - Doubling
+  - Quartering
+  - Tripling
 explanation: |
-  The second phase of hyperinflation is currency collapse &
-  price increase, just after the Loss of Confidence Phase.
+  The event when the reward for mining is halved is called
+  halving. This event gives the monetary issuance curve a
+  stair-like shape.
 reviewed: true

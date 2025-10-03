@@ -81,14 +81,15 @@ Quando fu eletto deputato, fu durante la Seconda Repubblica, e da quel momento i
 
 ![image](assets/en/006.webp)
 
+
 ---
 
->**LABORATORI NAZIONALI**  
->**AGENDA.**
->Considerando che i lavoratori iscritti ai laboratori nazionali hanno giustamente chiesto che i lavori disponibili siano distribuiti tra di loro il più equamente possibile;
->Considerando che il lavoro esiste solo per 16.000 uomini, e il numero di uomini iscritti supera i 50.000;
->È convenuto che, fino ad un ulteriore avviso e in attesa di migliori accordi, ogni società lavora due giorni alla settimana a partire da lunedì 17.
->_Il Commissario della Repubblica, Direttore dei laboratori nazionali,_
+>**OFFICINE NAZIONALI**  
+>**ORDINE DEL GIORNO.**  
+>Considerato che gli operai iscritti alle Officine Nazionali hanno giustamente richiesto che il lavoro disponibile sia distribuito tra loro nel modo più equo e giusto possibile;  
+>Considerato che vi è lavoro soltanto per 16.000 uomini, mentre il numero degli iscritti supera i 50.000;  
+>Si stabilisce che, fino a nuovo avviso e in attesa di migliori disposizioni, ciascuna compagnia lavorerà due giorni alla settimana a partire da lunedì 17.  
+>_Il Commissario della Repubblica, Direttore delle Officine Nazionali,_  
 >**Émile THOMAS.**
 
 ---
@@ -111,6 +112,9 @@ Nel 1825, ereditò una tenuta agricola da suo nonno, che gestì come un "gentilu
 
 ![image](assets/en/008.webp)
 
+![image](assets/en/008.webp)
+
+
 Sviluppò rapidamente una passione per l'economia politica e studiò le opere di Adam Smith, Jean-Baptiste Say, Destutt de Tracy, Charles Dunoyer e Charles Comte. Leggeva giornali inglesi, e fu lì che apprese dell'esistenza di una lega inglese per il libero scambio.
 
 ![image](assets/en/009.webp)
@@ -120,7 +124,8 @@ Al suo ritorno dall'Inghilterra, scrisse un articolo intitolato: "Sull'influenza
 
 ![image](assets/en/010.webp)
 
-Il Journal des Économistes gli chiese quindi altri articoli, e diversi membri della Società di Economia Politica, in particolare Horace Say, figlio di Jean-Baptiste Say, e Michel Chevalier, un rinomato professore, si congratularono, incoraggiandolo a continuare insieme a loro nel lavoro di diffusione delle verità economiche. Questo segnò l'inizio di una nuova vita a Parigi.
+
+Il Journal des Économistes gli chiese quindi altri articoli, e diversi membri della Società di Economia Politica, in particolare Horace Say, figlio di Jean-Baptiste Say, e Michel Chevalier, un rinomato professore, lo congratularono, incoraggiandolo a continuare con loro nel lavoro di diffusione delle verità economiche. Questo segnò l'inizio di una nuova vita a Parigi.
 
 Pubblicò inizialmente la serie iniziale di Sofismi economici, in cui attaccava i protezionisti con audacia e ironia. A Parigi, iniziò anche un corso di economia politica in una sala privata, frequentato con entusiasmo dall'élite studentesca.
 
@@ -131,11 +136,16 @@ Il primo incontro si svolse a Bordeaux il 23 febbraio 1846, durante il quale fu 
 
 ![image](assets/en/005.webp)
 
+![image](assets/en/005.webp)
+
+
 La Rivoluzione di Febbraio del 1848 rovesciò la monarchia di Luigi Filippo, nota come la Monarchia di Luglio (1830-1848), e vide l'avvento della Seconda Repubblica. Bastiat fu allora eletto membro dell'assemblea legislativa come deputato per le Landes. Sedette al centro-sinistra, con Alexis de Tocqueville, tra i monarchici e i socialisti. Lì, si adoperò per difendere le libertà individuali come le libertà civili e si oppose a tutte le politiche restrittive, provenissero dalla destra o dalla sinistra. Fu eletto vicepresidente della Commissione Finanze e si adoperò costantemente per ricordare ai suoi colleghi deputati questa semplice verità, spesso dimenticata nei parlamenti:
 
 >Non si può dare ad alcuni, per legge, senza essere obbligati a prendere da altri con un'altra legge.
 
 Quasi tutti i suoi libri e saggi furono scritti negli ultimi sei anni della sua vita, dal 1844 al 1850. Nel 1850, Bastiat scrisse due delle sue opere più famose: _La Legge_ e una serie di opuscoli intitolati _Ciò che si vede e ciò che non si vede_. La Legge è stata tradotta in molte lingue straniere, tra cui inglese, tedesco, spagnolo, russo e italiano.
+
+![image](assets/en/012.webp)
 
 ![image](assets/en/012.webp)
 
@@ -181,6 +191,17 @@ Quello che Adam Smith dimostra è che si può servire il proprio interesse solo 
 
 ---
 
+![image](assets/en/017.webp)
+
+---
+
+>«Il naturale sforzo di ogni individuo di migliorare la propria condizione... è così potente che, da solo e senza alcun aiuto, non solo è capace di condurre la società alla ricchezza e alla prosperità, ma anche di superare cento fastidiose ostruzioni con cui la follia delle leggi umane troppo spesso ne intralcia le operazioni.»  
+>_La Ricchezza delle Nazioni_  
+>_Libro IV, Capitolo V_
+
+---
+
+
 Lo scambio è un gioco a somma positiva. Ciò che uno guadagna, guadagna anche l'altro. Si differenzia così dalla redistribuzione politica dove c'è sempre un vincitore e un perdente. Se consideriamo la scuola inglese, per Smith, per Ricardo e per Locke prima di loro, il valore è legato al lavoro. Per Marx, è lo stesso.
 
 ![image](assets/en/018.webp)
@@ -193,7 +214,8 @@ L'economia obbedisce a una serie di leggi semplici derivate dal comportamento um
 
 ![image](assets/en/019.webp)
 
-Infatti, i prodotti sono acquistati solo in previsione dei servizi che l'acquirente si aspetta: compro un disco per la musica che ascolterò, compro un biglietto del cinema per il film che vedrò. E in uno scambio, ogni parte decide perché giudica che può derivare un migliore servizio da ciò che acquisisce rispetto a ciò che cede. In questo contesto, il denaro è solo una merce intermediaria, compensa per un servizio reso e apre ad altri servizi.
+
+Infatti, i prodotti sono acquistati solo in previsione dei servizi che l'acquirente si aspetta: compro un disco per la musica che ascolterò, compro un biglietto del cinema per il film che vedrò. E in uno scambio, ogni parte decide perché giudica che può derivare più servizi da ciò che acquisisce rispetto a ciò che cede. In questo contesto, il denaro è solo una merce intermediaria, compensa per un servizio reso e apre ad altri servizi.
 
 Per Bastiat, l'economia degli scambi, cioè dei servizi reciproci liberamente offerti e accettati, è ciò che sottende la pace e la prosperità, consentendo l'armonia degli interessi.
 
@@ -286,6 +308,8 @@ Adottano da Benjamin Constant la distinzione tra gli Antichi e i Moderni, caratt
 
 ![image](assets/en/034.webp)
 
+![image](assets/en/034.webp)
+
 Questa nuova teoria sociale contiene uno degli elementi che diventerà la pietra angolare del socialismo scientifico di Marx ed Engels: la lotta di classe. Ma in cosa consiste la teoria liberale della lotta di classe, e in che modo differisce dal marxismo?
 
 Parte dall'individuo che agisce per soddisfare i propri bisogni e desideri. Dal momento in cui si crea, ovvero si aumenta l'utilità delle cose, valorizzandone il valore, ci si impegna nell'industria. Qui, un industriale non è un proprietario di industria, come il linguaggio corrente potrebbe suggerire, ma un produttore, indipendentemente dal campo in cui lavora. Ecco perché la loro teoria è chiamata industrialismo. Postula che l'obiettivo della società sia la creazione di utilità in senso lato, ovvero beni e servizi utili agli esseri umani.
@@ -333,6 +357,9 @@ Un oratore affascinante e formidabile, aveva un dono prodigioso nell'inventare f
 >Cos'è il monopolio del pane? esclamò. È la scarsità di pane. Rimarrete sorpresi nell'apprendere che la legislazione di questo paese, su questa materia, non ha altro scopo se non quello di produrre la massima scarsità possibile di pane. Eppure non è altro che questo. La legislazione può raggiungere il suo obiettivo solo attraverso la scarsità.
 
 ![image](assets/en/041.webp)
+
+![image](assets/en/041.webp)
+
 
 Nel 1845, Bastiat pubblicò a Parigi il suo libro Cobden e la Lega, con le sue traduzioni accompagnate da commenti. Il libro si apre con un'introduzione sulla situazione economica dell'Inghilterra, sulla storia dell'origine e del progresso della Lega. Dal 1815, il protezionismo era molto sviluppato in Inghilterra. Vi erano, in particolare, leggi che limitavano l'importazione di grano che avevano conseguenze molto dure per il popolo. Infatti, il grano era necessario per fare il pane, una merce vitale all'epoca. Inoltre, questo sistema favoriva l'aristocrazia, cioè i grandi proprietari terrieri, che ne ricavavano rendite.
 
@@ -486,8 +513,6 @@ L'argomento della protezione dei posti di lavoro è ciò che Bastiat chiama una 
 Immaginate un coltello inglese che si vende nel nostro paese per 2 euro, e un coltello prodotto in Francia invece ne costa 3€. Se lasciamo che il consumatore acquisti liberamente il coltello che desidera, risparmia un euro, che può investire altrove (in un libro, o una matita).
 
 Se vietiamo il prodotto inglese, il consumatore pagherà un euro in più per il suo coltello. Il protezionismo risulta quindi in un profitto per un'industria nazionale e due perdite, una per un'altra industria (quella delle matite) e l'altra per il consumatore. Al contrario, il libero scambio rende due felici vincitori.
-
-![immagine](assets/en/059.webp)
 
 Il protezionismo è anche una forma di lotta di classe. Secondo Bastiat, è un sistema basato sull'egoismo e l'avidità dei produttori. Per aumentare la loro remunerazione, agricoltori o industriali richiedono tasse per chiudere il mercato ai prodotti stranieri, costringendo così i consumatori a pagare di più per i loro prodotti.
 
@@ -687,6 +712,8 @@ La vera ricchezza, secondo Bastiat, è quindi l'insieme delle cose utili che pro
 
 > Quando i ricchi perdono peso, i poveri muoiono.
 
+![image](assets/en/083.webp)
+
 Questa citazione, attribuita a Lao-Tzu, descrive la conseguenza inevitabile di un sistema di tassazione che mira a colpire più duramente i ricchi rispetto agli altri.
 
 Eppure, avete mai sentito dire:
@@ -750,6 +777,9 @@ Disse questo rivolgendosi ai socialisti.
 Tutti conoscono Tartuffo o l'Impostore, la commedia di Molière in cui un astuto devoto tenta di sedurre Elmire e truffare suo marito Orgon. Come si può proteggersi dagli inganni di un tale ipocrita che finge di volerti bene mentre trama contro di te?
 
 ![image](assets/en/090.webp)
+
+![image](assets/en/090.webp)
+
 
 Bastiat nota che ci sono due modi per porre fine a questo tipo di impostura: correggere Tartuffo o illuminare Orgon. Naturalmente, ci saranno sempre dei Tartuffi, ma il loro potere di nuocere sarebbe molto ridotto se ci fossero meno Orgon disposti ad ascoltarli.
 
@@ -895,7 +925,6 @@ _(Alan Greenspan, Presidente della FED, la banca centrale americana, dal 1987 al
 
 Per anni, i leader della politica monetaria hanno spiegato che se i profitti sono privatizzati quando tutto va bene, le perdite saranno mutualizzate in caso di fallimento (salvataggi, piani di soccorso, manipolazione dei tassi di interesse, stampa di denaro, ecc.). Facendo ciò, hanno creato un rischio morale, hanno facilitato la presa di rischi irragionevoli e hanno incoraggiato il mondo finanziario a comportarsi in modo irresponsabile. Hanno così precipitato la finanza nella crisi che abbiamo vissuto.
 
-![immagine](assets/en/104.webp)
 
 E il fenomeno si ripeterà all'infinito finché le banche rimarranno sotto il dominio delle autorità centrali che dovrebbero proteggerle rimuovendo ogni autonomia di decisione e operazione.
 
@@ -974,11 +1003,9 @@ Deve essere chiarito che questo sviluppo del progresso attraverso la responsabil
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![image](assets/en/113.webp)
 
 Frédéric Bastiat, nel suo famoso opuscolo "La Legge", denuncia la perversione della legge che consiste nel legalizzare, sotto il nome di "solidarietà", ciò che deve effettivamente essere chiamato saccheggio. Infatti, c'è una contraddizione nel voler imporre la fraternità attraverso la legge, ciò che oggi chiameremmo "giustizia sociale" o solidarietà.
 
-![image](assets/en/114.webp)
 
 Perché la moralità è definita come comportamento volontario. Quando a un individuo è costretto a dare qualcosa che non vuole dare, è sempre vittima di furto.
 
@@ -1029,6 +1056,8 @@ Infatti, la solidarietà intrafamiliare, la solidarietà locale o la filantropia
 Spesso è di moda lamentarsi dell'"egoismo" che prevalerebbe nelle società liberali. Ma è vero esattamente il contrario. Quando una società è gravata dalle tasse e gli individui non possiedono più la loro proprietà, non sono incoraggiati a dare, ma piuttosto a ritirarsi in se stessi.
 
 ![image](assets/en/119.webp)
+
+
 
 Nella realtà, una società civile libera non si basa sull'egoismo: l'economia di mercato opera sulla base del servizio al prossimo e della reciprocità. Si può servire il proprio interesse solo servendo l'interesse di un altro, offrendo all'altro una controparte che porta a uno scambio reciprocamente vantaggioso. In altre parole, è lo scambio volontario che crea la vera solidarietà.
 
@@ -1128,6 +1157,8 @@ Cos'è il saccheggio? È l'esatto opposto della proprietà, ci dice Bastiat. Sac
 
 ![image](assets/en/128.webp)
 
+![image](assets/en/128.webp)
+
 L'intera missione della legge è prevenire questo saccheggio extra-legale, ovvero difendere la proprietà e la libertà, due cose inseparabili.
 
 Non appena si ammette in principio che la legge può essere deviata dalla sua vera missione, che può violare le proprietà invece di garantirle, ne consegue necessariamente una lotta di classe, sia per difendersi dal saccheggio sia per organizzarlo anche a proprio vantaggio.
@@ -1199,6 +1230,7 @@ In sintesi, quando un governo oltrepassa la sua missione di difendere persone e 
 > Lo Stato è la grande finzione attraverso la quale tutti cercano di vivere a spese di tutti gli altri.
 
 Scrisse Frédéric Bastiat in un breve opuscolo intitolato Lo Stato.
+
 
 ## L'eredità di Frédéric Bastiat
 

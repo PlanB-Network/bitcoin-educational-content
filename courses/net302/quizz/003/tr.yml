@@ -1,0 +1,9 @@
+question: Bir veri yolu topolojisinde, ana avantaj nedir?
+answer: Düşük kurulum maliyeti
+wrong_answers:
+  - Yüksek yedeklilik
+  - Düşük gecikme süresi
+  - Yüksek kullanılabilirlik
+explanation: |
+  Veri yolu, kurulum maliyetlerini düşüren ancak aynı zamanda tek bir arıza noktası ortaya çıkaran tek bir fiziksel ortama dayanır.
+reviewed: false

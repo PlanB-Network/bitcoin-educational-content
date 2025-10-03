@@ -1,5 +1,5 @@
 ---
-name: Kasi ya Wallet - PoS
+name: Speed Wallet - PoS
 description: Jumuisha malipo ya Bitcoin na stablecoin kwenye biashara yako kwa urahisi
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ Kupitishwa duniani kote kwa Bitcoin kunatokana na matukio ya matumizi yanayoonek
 
 
 
-## Kuanza na Biashara ya Kasi
+## Kuanza na speed business 
 
 
 
@@ -28,25 +28,25 @@ Kasi ina anuwai ya vipengele vya kufunika vipengele vya kifedha vya biashara yak
 
 
 
-- Mipangilio ya malipo ya mtandaoni**: Pokea malipo kutoka kwa wateja wako popote walipo, shukrani kwa tovuti yako.
+- **Mipangilio ya malipo ya mtandaoni**: Pokea malipo kutoka kwa wateja wako popote walipo, shukrani kwa tovuti yako.
 
 
 
 
 
-- Malipo ya tovuti**: Yanafaa kwa maduka na biashara zinazokusanya pesa dukani.
+- **Malipo ya tovuti**: Yanafaa kwa maduka na biashara zinazokusanya pesa dukani.
 
 
 
 
 
-- Uondoaji**: Toa mali yako vizuri na utumie bitcoins zako kulipa wateja wako na mishahara.
+- **Uondoaji**: Toa mali yako vizuri na utumie bitcoins zako kulipa wateja wako na mishahara.
 
 
 
 
 
-- Muunganisho na mifumo mingine**: Je, unatumia zana za nje kudhibiti malipo yako? Kasi hukupa uwezekano wa kuziunganisha kwenye jukwaa lake, kwa mfumo ikolojia wa kila mmoja unaoakisi biashara yako.
+- **Muunganisho na mifumo mingine**: Je, unatumia zana za nje kudhibiti malipo yako? Kasi hukupa uwezekano wa kuziunganisha kwenye jukwaa lake, kwa mfumo ikolojia wa kila mmoja unaoakisi biashara yako.
 
 
 
@@ -66,7 +66,7 @@ Toa maelezo kwa Speed ​​Wallet ili aweze kukusaidia kurahisisha jukwaa kulin
 
 
 
-Kasi huja na vifaa vya ukuzaji programu ambavyo hukuruhusu kubinafsisha muunganisho wako, na kiendelezi cha ujumuishaji wa kawaida.
+speed huja na vifaa vya ukuzaji programu ambavyo hukuruhusu kubinafsisha muunganisho wako, na kiendelezi cha ujumuishaji wa kawaida.
 
 
 
@@ -94,7 +94,7 @@ Unapozima hali ya jaribio, lazima usanidi kwingineko yako ya uondoaji.
 
 
 
-Ikiwa bado humiliki Bitcoin na/au Lightning Wallet, tunapendekeza uangalie mafunzo yetu ya [pochi ya rununu](https://planb.network/tutorials/wallet).
+Ikiwa bado humiliki Bitcoin na/au Lightning Wallet, tunapendekeza uangalie mafunzo yetu ya [wallet ya rununu](https://planb.network/tutorials/wallet).
 
 
 
@@ -110,7 +110,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-Kisha thibitisha nyongeza ya kwingineko yako kwa kutumia barua pepe ya uthibitishaji iliyotumwa na Kasi.
+Kisha thibitisha nyongeza ya kwingineko yako kwa kutumia barua pepe ya uthibitishaji iliyotumwa na speed.
 
 
 
@@ -162,7 +162,7 @@ Bidhaa hizi hukuwezesha kupata viungo vya malipo vya generate ili wateja wako wa
 
 
 
-Kasi ya Wallet inakupa chaguo la kutumia mbinu nyingi kupokea malipo ya mtandaoni au kwenye tovuti katika biashara yako.
+Speed Wallet inakupa chaguo la kutumia mbinu nyingi kupokea malipo ya mtandaoni au kwenye tovuti katika biashara yako.
 
 
 
@@ -202,7 +202,7 @@ Unaweza kupata orodha ya viungo vya malipo ulivyoweka katika akaunti yako kwenye
 
 
 
-- Ankara: Kasi hukuruhusu nukuu na ankara za generate kwa wateja wako.
+- Invoice: speed hukuruhusu nukuu na Invoice za kugenerate kwa wateja wako.
 
 
 
@@ -229,7 +229,7 @@ Unaweza kutuma Invoice hii katika umbizo la PDF, kwa barua pepe, au generate kiu
 
 
 
-- Menyu ya **Anwani za Malipo** hukuruhusu kusanidi Lightning Address ambayo unaweza kupokea malipo mengi ya viwango tofauti.
+- Menyu ya **Address za Malipo** hukuruhusu kusanidi Lightning Address ambayo unaweza kupokea malipo mengi ya viwango tofauti.
 
 
 
@@ -237,7 +237,7 @@ Unaweza kutuma Invoice hii katika umbizo la PDF, kwa barua pepe, au generate kiu
 
 
 
-⚠️ Unaweza kuongeza na kutumia majina ya vikoa isipokuwa ya Kasi. Hata hivyo, kwa matumizi yako ya kwanza, tunapendekeza utumie usanidi wa kawaida ili kufaidika na utaalamu wote wa usaidizi wa kiufundi wa biashara ya Kasi.
+⚠️ Unaweza kuongeza na kutumia majina ya vikoa isipokuwa ya speed. Hata hivyo, kwa matumizi yako ya kwanza, tunapendekeza utumie usanidi wa kawaida ili kufaidika na utaalamu wote wa usaidizi wa kiufundi wa biashara ya Kasi.
 
 
 
@@ -265,13 +265,13 @@ Katika menyu ya **Tuma Malipo**, utapata chaguo zote za kuhamisha pesa kwa kasi.
 
 
 
-- Malipo ya papo hapo**: Ukiwa na chaguo la Kutuma Papo Hapo, tuma bitcoins kwa usalama papo hapo kutoka kwa akaunti yako ya mfanyabiashara.
+- **Malipo ya papo hapo**: Ukiwa na chaguo la Kutuma Papo Hapo, tuma bitcoins kwa usalama papo hapo kutoka kwa akaunti yako ya mfanyabiashara.
 
 
 
 
 
-- Viungo vya uondoaji vya generate** ili kuwezesha washirika na wasambazaji wako kufikia malipo yao baadaye bila kuhitaji uwepo wako mtandaoni.
+- **Viungo vya uondoaji vya generate** ili kuwezesha washirika na wasambazaji wako kufikia malipo yao baadaye bila kuhitaji uwepo wako mtandaoni.
 
 
 
@@ -289,7 +289,7 @@ Katika chaguo la **Viungo vya Kutoa **, tengeneza kiungo kipya cha uondoaji, kis
 
 
 
-- Malipo**: Katika menyu ya Malipo, anzisha uondoaji kutoka kwa salio lako la Kasi ya Biashara hadi Wallet yako ya kibinafsi.
+- **Malipo**: Katika menyu ya Malipo, anzisha uondoaji kutoka kwa salio lako la Kasi ya Biashara hadi Wallet yako ya kibinafsi.
 
 
 
@@ -299,7 +299,7 @@ Katika chaguo la **Viungo vya Kutoa **, tengeneza kiungo kipya cha uondoaji, kis
 
 
 
-- Punguzo**: Watie moyo wateja wako wa kawaida kwa kuweka chaguo za punguzo ili kupata bonasi.
+- **Punguzo**: Watie moyo wateja wako wa kawaida kwa kuweka chaguo za punguzo ili kupata bonasi.
 
 
 
@@ -359,7 +359,7 @@ Katika menyu ya **Washirika**, waalike wafanyabiashara waanzishe biashara zao kw
 
 
 
-## Unganisha Kasi kwenye tovuti yako ya biashara
+## Unganisha speed kwenye tovuti yako ya biashara
 
 
 
@@ -405,7 +405,7 @@ Katika sehemu ya **Mipangilio ya Biashara**:
 
 
 
-- Bainisha pochi zako za uondoaji katika menyu ya **Pochi za Malipo** na uziweke kwenye menyu ya **Kuratibu Malipo**.
+- Bainisha Wallet zako za uondoaji katika menyu ya **Wallet za Malipo** na uziweke kwenye menyu ya **Kuratibu Malipo**.
 
 
 
@@ -436,4 +436,3 @@ Una ufahamu mzuri wa Kasi, unganisha Bitcoin kwenye biashara yako na uendeleze u
 
 
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-

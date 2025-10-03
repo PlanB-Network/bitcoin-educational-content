@@ -1,10 +1,11 @@
-question: Qual è un'alternativa consigliata all'uso della carta per memorizzare la frase mnemonica?
-answer: Inciderla su una piastra metallica.
+question: Perché la privacy è importante nel contesto di Bitcoin?
+answer: Per minimizzare il rischio che i fondi vengano tracciati.
 wrong_answers:
-  - Memorizzarla in un file digitale.
-  - Scriverla su una lavagna.
-  - Salvarla come contatto nel telefono.
+  - Per diminuire il valore dei propri bitcoin.
+  - Per prevenire il furto dei propri bitcoin.
+  - Per pagare le tasse sui propri bitcoin.
 explanation: |
-  Una delle alternative alla carta, consigliata per memorizzare
-  la frase mnemonica, è inciderla su una piastra metallica. Questa
-  soluzione è più stabile e resistente.
+  La privacy è importante nel contesto di Bitcoin per minimizzare
+  i rischi che i fondi vengano tracciati, cosa che può facilitare
+  la sorveglianza.
+reviewed: true

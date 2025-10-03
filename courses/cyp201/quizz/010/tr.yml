@@ -1,0 +1,9 @@
+question: Gizli bir anahtara dayalı bir kimlik doğrulama kodunu hesaplamak için hangi türetme algoritması kullanılır?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512, bir kimlik doğrulama kodunu hesaplamak için bir Hash işlevini ve bir gizli anahtarı birleştiren bir algoritmadır.
+reviewed: false

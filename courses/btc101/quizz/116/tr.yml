@@ -1,0 +1,11 @@
+question: İlk Bitcoin işleminin blok numarası nedir?
+answer: Blok 170.
+wrong_answers:
+  - Blok 1.
+  - Blok 17.
+  - Blok 1700.
+explanation: |
+  İlk Bitcoin işlemi, ki bu işlem
+  10 BTC, Satoshi Nakamoto ve Hal Finney arasında kaydedildi
+  170. blokta.
+reviewed: true

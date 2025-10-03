@@ -1,5 +1,5 @@
 ---
-name: seed Potpisnik
+name: SeedSigner
 
 description: Postavljanje vašeg seed potpisivača
 ---

@@ -145,7 +145,7 @@ Na urządzeniu Trezor wybierz całkowitą liczbę udziałów, które chcesz skon
 
 
 
-*W przypadku użytkowników Safe 5, mimo że na ekranie pojawi się komunikat "*Tap to continue*", w celu potwierdzenia należy przesunąć palcem w górę
+**W przypadku użytkowników Safe 5, mimo że na ekranie pojawi się komunikat "Tap to continue", w celu potwierdzenia należy przesunąć palcem w górę**
 
 
 

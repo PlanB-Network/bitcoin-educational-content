@@ -1,0 +1,9 @@
+question: Basis data mana yang digunakan dalam blok/indeks/ untuk menyimpan metadata blok?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core menggunakan LevelDB dalam blok/indeks/ untuk mengindeks blok, mempercepat pencarian dan layanannya kepada rekan-rekan.
+reviewed: true

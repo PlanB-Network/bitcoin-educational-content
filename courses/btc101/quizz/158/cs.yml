@@ -1,12 +1,13 @@
-question: Jaký je účel Proof of Work v síti Bitcoin?
-answer: Proof of Work zajišťuje pravdivost informací bez důvěry ve třetí stranu.
+question: Jak protokol Bitcoinu udržuje konstantní průměrný čas mezi vytvořením dvou bloků?
+answer: Obtížnost nalezení platného hash se upravuje každých 2016 bloků.
 wrong_answers:
-  - Proof of Work se používá k vytváření nových bitcoinů s důvěrou ve třetí stranu.
-  - Proof of Work se používá k ověřování transakcí Bitcoinu s důvěrou ve třetí stranu.
-  - Proof of Work se používá ke změně protokolu Bitcoinu bez důvěry ve třetí stranu.
-explanation: >-
-  Proof of Work je konsenzuální algoritmus používaný v síti Bitcoin
-  k ověřování transakcí a vytváření nových bloků. Vyžaduje od těžařů řešení složitých
-  matematických problémů, což zajišťuje autentičnost informací v síti
-  bez potřeby důvěryhodné třetí strany.
+  - Počet těžařů je regulován na pevný počet.
+  - Velikost bloků je upravena na 10 megabajtů.
+  - Odmena za nalezení platného hash je zvýšena.
+explanation: |
+  Protokol Bitcoinu zajišťuje, že průměrný čas mezi
+  dvěma bloky zůstává konstantní tím, že upravuje obtížnost
+  nalezení platného hash každých 2016 bloků. Tato událost se děje
+  bez ohledu na počet těžařů a jejich výpočetní
+  výkon.
 reviewed: true

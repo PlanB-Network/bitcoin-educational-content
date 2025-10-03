@@ -1,8 +1,10 @@
-question: Bidang apa saja yang menimbulkan pertanyaan terkait Bitcoin?
-answer: Kriptografi, teori permainan, ekonomi dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi
+question: Apa yang memungkinkan oleh Lightning Network?
+answer: Transaksi Bitcoin instan dengan biaya rendah.
 wrong_answers:
-  - Hanya ilmu komputer dan ekonomi
-  - Hanya kriptografi dan teori permainan
-  - Hanya filsafat dan energi
+  - Transaksi Bitcoin instan dengan biaya tinggi.
+  - Transaksi Bitcoin tertunda dengan biaya rendah.
+  - Transaksi Bitcoin tertunda dengan biaya tinggi.
 explanation: >-
-  Bitcoin adalah objek multidisiplin yang menimbulkan pertanyaan terkait berbagai bidang, termasuk kriptografi, teori permainan, ekonomi dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi.
+  Lightning Network memungkinkan transaksi Bitcoin instan dengan biaya rendah,
+  sehingga menyelesaikan masalah skalabilitas Bitcoin.
+reviewed: false

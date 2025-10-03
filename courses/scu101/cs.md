@@ -288,8 +288,12 @@ Se správcem hesel se již nemusíte obávat zapomenutí vašich hesel nebo jeji
 - Bitwarden: Jedná se o open-source nástroj, což znamená, že můžete zkontrolovat jeho kód, abyste ověřili jeho bezpečnost. Ačkoliv Bitwarden nabízí hostovanou službu, umožňuje také uživatelům samostatné hostování, což znamená, že můžete kontrolovat, kde jsou vaše hesla uložena, což potenciálně nabízí větší bezpečnost a kontrolu.
 
 - KeePass: Jedná se o open-source řešení, které je primárně určeno pro samostatné hostování. Vaše data jsou výchozí uložena lokálně, ale pokud si přejete, můžete synchronizovat databázi hesel různými metodami. KeePass je široce uznáván pro svou bezpečnost a flexibilitu, ačkoliv pro začátečníky může být mírně méně uživatelsky přívětivý.
-  ![](assets/notext/18.webp)
-  (Poznámka: Výběr mezi službou třetí strany nebo samostatným hostováním závisí na vaší úrovni technologického komfortu a na tom, jak prioritizujete kontrolu oproti pohodlí. Služby třetí strany jsou obecně pohodlnější pro většinu lidí, zatímco samostatné hostování vyžaduje více technických znalostí, ale může nabídnout větší kontrolu a klid v otázkách bezpečnosti.)
+
+![](assets/notext/18.webp)
+
+Pro řešení s vlastním hostováním, jako je KeePass, je možné synchronizovat vaši databázi mezi několika zařízeními bez použití centralizovaných služeb třetích stran. Nástroje jako **Syncthing** umožňují šifrovanou a decentralizovanou synchronizaci přímo mezi vašimi zařízeními. Tento přístup uchovává vaše data pod vaší kontrolou a zároveň zajišťuje jejich dostupnost na všech vašich zařízeních.
+
+(Poznámka: Výběr mezi službou třetí strany nebo samostatným hostováním závisí na vaší úrovni technologického komfortu a na tom, jak prioritizujete kontrolu oproti pohodlí. Služby třetí strany jsou obecně pohodlnější pro většinu lidí, zatímco samostatné hostování vyžaduje více technických znalostí, ale může nabídnout větší kontrolu a klid v otázkách bezpečnosti.)
 
 ### Co dělá heslo dobrým:
 

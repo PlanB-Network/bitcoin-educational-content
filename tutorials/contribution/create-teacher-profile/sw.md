@@ -71,7 +71,7 @@ git push -u origin add-professor-loic-morel
 ### 3 - Unda wasifu wako wa mwalimu
 
 
-Nenda kwenye folda ya `scripts/tutorial-related/data-creator/` kwenye clone yako ya karibu. Hakikisha umeweka utegemezi wote unaohitajika kwa programu, baada ya kusakinisha kwanza Python :
+Nenda kwenye folda ya `scripts/tutorial-related/data-creator/` kwenye clone yako ya karibu. Hakikisha umeweka utegemezi wote unaohitajika kwa programu, baada ya kusakinisha kwanza Python:
 
 
 ```bash
@@ -96,7 +96,7 @@ Kisha bonyeza kitufe cha "*Profesa Mpya*".
 ![Image](assets/fr/01.webp)
 
 
-Jaza maelezo yanayohitajika (tafadhali kumbuka kuwa maelezo haya yote yatakuwa hadharani kwenye jukwaa letu na pia kwenye GitHub) :
+Jaza maelezo yanayohitajika (tafadhali kumbuka kuwa maelezo haya yote yatakuwa hadharani kwenye jukwaa letu na pia kwenye GitHub):
 
 
 

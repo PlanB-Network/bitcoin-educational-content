@@ -1,5 +1,5 @@
 ---
-name: Ammiccamento
+name: Blink
 description: Esercitazione completa su Blink Wallet - Inviare, ricevere e utilizzare il Bitcoin con facilità
 ---
 
@@ -57,7 +57,7 @@ Prima di iniziare, è necessario
 Ecco cosa ha sconvolto molti utenti: L'installazione di Blink è più veloce della creazione di un account di social media, perché non ci sono documenti, né upload di documenti d'identità, né attese. Semplicemente veloce e facile.
 
 
-**L'intero processo
+**L'intero processo**
 
 
 - Scaricare Blink Wallet

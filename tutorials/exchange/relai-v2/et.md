@@ -16,21 +16,21 @@ Relai paistab silma oma lihtsuse, ligipääsetavuse ja pikaajalise Bitcoini sä�
 ### Samm 1: Lae alla Relai rakendus
 
 
-- Kust seda leida:** Rakendus on saadaval nii App Store'is (iOS) kui ka Google Play Store'is (Android). Otsige "Relai" ja laadige see tasuta alla.
-- Kiire seadistamine:** Pärast installimist avage rakendus ja järgige juhendatud seadistamisprotsessi.
+- **Kust seda leida:** Rakendus on saadaval nii App Store'is (iOS) kui ka Google Play Store'is (Android). Otsige "Relai" ja laadige see tasuta alla.
+- **Kiire seadistamine:** Pärast installimist avage rakendus ja järgige juhendatud seadistamisprotsessi.
 
 ### 2. samm: konto loomine
 
 
-- Kohustuslik KYC:** Relai nõuab nüüd kliendiandmete kontrollimist (KYC). Valmistage ette kehtiv isikut tõendav dokument ja aadressi tõendav dokument.
-- Kontrollimisprotsess:** Laadige oma dokumendid üles, tehke isikusamasuse kinnitamiseks selfie ja oodake kinnitust (tavaliselt 24 tunni jooksul).
-- Miks KYC?:** See tagab finantseeskirjade täitmise ja suurendab kõigi kasutajate turvalisust.
+- **Kohustuslik KYC:** Relai nõuab nüüd kliendiandmete kontrollimist (KYC). Valmistage ette kehtiv isikut tõendav dokument ja aadressi tõendav dokument.
+- **Kontrollimisprotsess:** Laadige oma dokumendid üles, tehke isikusamasuse kinnitamiseks selfie ja oodake kinnitust (tavaliselt 24 tunni jooksul).
+- **Miks KYC?** See tagab finantseeskirjade täitmise ja suurendab kõigi kasutajate turvalisust.
 
 ### 3. samm: Turvaline rahakott
 
 
-- Self-Custody:** Relai pakub mittehaldatavat rahakotti, mis tähendab, et teie kontrollib oma isiklikke võtmeid.
-- Varundage oma võtmed:** Kirjutage oma 12-sõnaline taastumisfraas paberile (mitte digitaalselt) ja säilitage see turvaliselt. See on väga oluline, et pääseda ligi oma rahalistele vahenditele, kui teie telefon on kadunud või varastatud.
+- **Self-Custody:** Relai pakub mittehaldatavat rahakotti, mis tähendab, et teie kontrollib oma isiklikke võtmeid.
+- Varundage oma võtmed: Kirjutage oma 12-sõnaline taastumisfraas paberile (mitte digitaalselt) ja säilitage see turvaliselt. See on väga oluline, et pääseda ligi oma rahalistele vahenditele, kui teie telefon on kadunud või varastatud.
 
 ---
 ## Kuidas luua Bitcoini säästukava
@@ -123,11 +123,11 @@ Relai kuvab kohaldatavad võrgutasud.
 ## Näpunäiteid turvalise Bitcoini haldamise kohta
 
 
-- Hoidke oma taastamislauset turvaliselt:** Hoidke seda võrguühenduseta ja vältige selle jagamist kellegagi.
-- Rakenduse turvalisuse sisselülitamine:** Kasutage tugevat PIN-koodi või biomeetrilist autentimist.
-- Hoiustamise mitmekesistamine:** Kaaluge riistvaralise rahakoti kasutamist suurte koguste Bitcoini jaoks.
-- Uuendage rakendust regulaarselt:** Jääge kaitstud viimaste turvaparanduste ja funktsioonidega.
-- Vältige avalikku WiFi-ühendust:** Juurdepääs rahakotile toimub ainult turvalistes võrkudes.
+- **Hoidke oma taastamislauset turvaliselt:** Hoidke seda võrguühenduseta ja vältige selle jagamist kellegagi.
+- **Rakenduse turvalisuse sisselülitamine:** Kasutage tugevat PIN-koodi või biomeetrilist autentimist.
+- **Hoiustamise mitmekesistamine:** Kaaluge riistvaralise rahakoti kasutamist suurte koguste Bitcoini jaoks.
+- **Uuendage rakendust regulaarselt:** Jääge kaitstud viimaste turvaparanduste ja funktsioonidega.
+- **Vältige avalikku WiFi-ühendust:** Juurdepääs rahakotile toimub ainult turvalistes võrkudes.
 
 ---
 ## Relai ärikontod
@@ -135,10 +135,10 @@ Relai kuvab kohaldatavad võrgutasud.
 Relai toetab ka ettevõtteid, kes soovivad investeerida Bitcoini. Omadused on järgmised:
 
 
-- Kohandatud säästuplaanid:** Ettevõtte vajadustele kohandatud plaanid.
-- Mitme kasutaja juurdepääs:** Võimaldab mitmel meeskonnaliikmel kontot turvaliselt hallata.
-- Suurendatud piirmäärad:** Investeeri suuremaid summasid võrreldes isiklike kontodega.
-- Spetsiaalne tugiteenus:** Prioriteetne klienditeenindus ettevõtetele.
+- **Kohandatud säästuplaanid:** Ettevõtte vajadustele kohandatud plaanid.
+- **Mitme kasutaja juurdepääs:** Võimaldab mitmel meeskonnaliikmel kontot turvaliselt hallata.
+- **Suurendatud piirmäärad:** Investeeri suuremaid summasid võrreldes isiklike kontodega.
+- **Spetsiaalne tugiteenus:** Prioriteetne klienditeenindus ettevõtetele.
 
 Ärikonto loomiseks pöörduge Relai klienditoe poole nende veebisaidi kaudu.
 
@@ -148,9 +148,9 @@ Relai toetab ka ettevõtteid, kes soovivad investeerida Bitcoini. Omadused on j�
 Relai pakub põnevat viitamisprogrammi, kus saate teenida Bitcoini, kui kutsute oma sõpru kasutama rakendust. See toimib järgmiselt:
 
 
-- Jagage oma soovituskoodi:** Iga Relai kasutaja saab unikaalse soovituskoodi. Jagage seda oma sõpradega.
-- Teeni 10% tasudest:** Teenid 10% oma sõprade tehingute tasudest, kui nad kasutavad sinu koodi.
-- Passiivne Bitcoini tulu:** Kuna teie sõbrad jätkavad Relai'ga kauplemist, teenite te jätkuvalt Bitcoini. See on kasulik nii teile kui ka teie sõpradele.
+- **Jagage oma soovituskoodi:** Iga Relai kasutaja saab unikaalse soovituskoodi. Jagage seda oma sõpradega.
+- **Teeni 10% tasudest:** Teenid 10% oma sõprade tehingute tasudest, kui nad kasutavad sinu koodi.
+- **Passiivne Bitcoini tulu:** Kuna teie sõbrad jätkavad Relai'ga kauplemist, teenite te jätkuvalt Bitcoini. See on kasulik nii teile kui ka teie sõpradele.
 
 Alusta oma koodi jagamist juba täna ja kasvata oma Bitcoini virna vaevata!
 
@@ -161,7 +161,7 @@ Alusta oma koodi jagamist juba täna ja kasvata oma Bitcoini virna vaevata!
 
 
 - Relai küsib konkurentsivõimelist tasu 1% tehingu kohta või 0,9%, kui kasutate soovituskoodi nagu "REL361712". Tasud kuvatakse läbipaistvalt enne ostu kinnitamist.
-- Null tasud:** Kuni 100 euro või 100 CHF tehingud on täiesti tasuta.
+- **Null tasud:** Kuni 100 euro või 100 CHF tehingud on täiesti tasuta.
 
 ### Kas ma võin oma säästukava peatada?
 

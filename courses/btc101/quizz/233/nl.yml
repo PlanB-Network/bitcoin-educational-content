@@ -1,8 +1,13 @@
-question: Wat is het belangrijkste doel van de Lightning Network?
-answer: Om microtransacties mogelijk te maken.
+question: Wat is een van de potentiële voordelen van de Lightning Network voor contentmakers?
+answer: Ze zouden gestimuleerd worden om inhoud van goede kwaliteit te produceren om de aandacht van gebruikers vast te houden.
 wrong_answers:
-  - Om de waarde van Bitcoin te verhogen.
-  - Om het Bitcoin protocol te vervangen.
-  - Een nieuwe cryptocurrency maken.
-explanation: >-
+  - Ze zouden meer kunnen vragen voor hun inhoud.
+  - Ze zouden een breder publiek kunnen bereiken.
+  - Ze zouden sneller inhoud kunnen produceren om de aandacht van gebruikers vast te houden.
+explanation: |
+  Met de Lightning Network zouden makers van inhoud
+  gestimuleerd om inhoud van goede kwaliteit te produceren om de aandacht van
+  om de aandacht van gebruikers vast te houden. Gebruikers betalen op hun beurt alleen voor de inhoud die ze consumeren
+  inhoud die ze consumeren, waardoor abonnementskosten vooraf komen te vervallen
+  kosten.
 reviewed: true

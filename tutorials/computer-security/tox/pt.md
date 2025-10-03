@@ -58,7 +58,7 @@ Pode utilizar o protocolo Tox através de um cliente de mensagens instantâneas 
 
 
 
-Dependendo do seu sistema operativo, pode descarregar e instalar um cliente Tox que corresponda ao :
+Dependendo do seu sistema operativo, pode descarregar e instalar um cliente Tox que corresponda ao:
 
 
 
@@ -224,7 +224,7 @@ Também pode personalizar as configurações de partilha de ficheiros para cada 
 
 
 
-A partir dos detalhes do Interface, pode gerir as autorizações que concede ao seu destinatário para :
+A partir dos detalhes do Interface, pode gerir as autorizações que concede ao seu destinatário para:
 
 
 

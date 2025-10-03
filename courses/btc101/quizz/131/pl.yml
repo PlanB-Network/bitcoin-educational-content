@@ -1,12 +1,8 @@
-question: Jaka jest rola węzła Bitcoin w sieci Bitcoin?
-answer: Weryfikuje nowe bloki i zawarte transakcje.
+question: Jaka jest podstawowa funkcja węzłów w sieci Bitcoin?
+answer: Utrzymywanie kopii Bitcoin Blockchain, zatwierdzanie transakcji, przekazywanie informacji do innych węzłów i egzekwowanie zasad protokołu Bitcoin.
 wrong_answers:
-  - Tworzy nowe Bitcoiny i umieszcza je w blokach.
-  - Reguluje on cenę Bitcoin.
-  - Zarządza on siecią Bitcoin.
-explanation: |
-  Węzeł Bitcoin w sieci Bitcoin obsługuje
-  walidację nowych bloków i zawartych transakcji. To właśnie
-  ta sieć węzłów Bitcoin sprawia, że jest ona prawdziwie
-  zdecentralizowana.
+  - Utrzymywanie kopii Bitcoin Blockchain, zatwierdzanie transakcji, przekazywanie informacji do rządu i zmiana zasad protokołu Bitcoin.
+  - Utrzymywanie wyłącznie kopii Bitcoin Blockchain.
+  - Tylko przesyłanie informacji do innych węzłów.
+explanation: >-
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mục đích của cờ "ACK" trong phân đoạn TCP là gì?
+answer: Để xác nhận việc nhận các phân đoạn
+wrong_answers:
+  - Để bắt đầu đóng kết nối
+  - Để mã hóa luồng dữ liệu được trao đổi
+  - Để xác định cổng dịch vụ được sử dụng
+explanation: |
+  Khi được đặt, cờ ACK xác nhận rằng một phân đoạn đã được nhận thành công và chỉ định số thứ tự dự kiến tiếp theo.
+reviewed: false

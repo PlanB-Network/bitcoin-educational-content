@@ -1,13 +1,11 @@
-question: Wat is een DCA-platform?
-answer: Een dienst waarmee gebruikers op regelmatige tijdstippen een vast bedrag kunnen investeren in een actief.
+question: Wat is een van de belangrijkste kenmerken van Bitcoin?
+answer: Het kan overal ter wereld worden uitgewisseld zonder toestemming van enige entiteit.
 wrong_answers:
-  - Een type cryptocurrency Exchange waarbij alleen Bitcoin verhandeld mag worden.
-  - Een financiële dienst die leningen verstrekt aan beleggers voor margehandel.
-  - Een softwaretool die aandelenkoersen in realtime volgt zonder beleggingsfuncties.
+  - Het kan alleen worden gebruikt door een geselecteerde groep mensen.
+  - Het vereist autorisatie van een centrale autoriteit om gebruikt te kunnen worden.
+  - Het kan alleen in bepaalde landen worden gebruikt.
 explanation: |
-  Een DCA-platform verwijst naar een platform dat het volgende faciliteert
-  Dollar-Cost Averaging (DCA), een beleggingsstrategie waarbij
-  een individu een vast bedrag investeert in een
-  bepaalde activa met regelmatige tussenpozen, ongeacht de
-  prijs van de activa.
+  De tekst vermeldt dat Bitcoin pseudoniem is en overal ter wereld kan worden
+  overal ter wereld kan worden uitgewisseld zonder de toestemming
+  van een entiteit.
 reviewed: true

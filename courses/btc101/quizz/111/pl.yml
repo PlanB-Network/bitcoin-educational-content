@@ -1,13 +1,12 @@
-question: Co oznacza skrót KYC?
-answer: Poznaj swojego klienta.
+question: Jaka jest wiadomość zawarta w pierwszym bloku Bitcoin Blockchain?
+answer: 03/jan/2009 Kanclerz na krawędzi drugiego ratunku dla banków.
 wrong_answers:
-  - Zatrzymaj swoją gotówkę.
-  - Kluczowanie kodów.
-  - Zgodność z przepisami.
+  - Możemy wygrać główną bitwę w wyścigu zbrojeń i zyskać nowe terytorium wolności na kilka lat.
+  - Rządy są dobre w odcinaniu głów centralnie kontrolowanym sieciom, takim jak Napster, ale czyste sieci P2P, takie jak Gnutella i Tor, wydają się trzymać na powierzchni.
+  - Żadne z powyższych.
 explanation: |
-  KYC lub Know Your Customer odnosi się do procedury, którą
-  firmy przyjmują w celu weryfikacji tożsamości swoich klientów.
-  Zazwyczaj ma to na celu zapewnienie zgodności z
-  przepisami i zapobieganie nielegalnym działaniom, takim jak
-  pranie pieniędzy lub oszustwa.
+  Pierwszy blok Bitcoin Blockchain, znany również jako blok
+  blok Genesis, zawiera wiadomość 03/jan/2009
+  Kanclerz na krawędzi drugiego ratunku dla banków, co jest
+  tytuł Czasu tego dnia do Timestamp bloku Genesis.
 reviewed: true

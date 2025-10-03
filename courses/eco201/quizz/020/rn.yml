@@ -1,0 +1,13 @@
+question: Nk’uko abahinga mu vy’ubutunzi bo muri Otirishiya babivuga, ni igiki kiva ku bantu ku giti cabo bize cane igikorwa cabo kandi bagakora ibikorwa vyo guhanahana amakuru?
+answer: Abantu ku giti cabo bama barushiriza kugira neza.
+wrong_answers:
+  - Abantu ku giti cabo bama ari babi kuruta.
+  - Nta mpinduka ibaho mu mibereho y’abantu ku giti cabo.
+  - Ico bivamwo kiratandukanye bivanye n’umuntu ku giti ciwe.
+explanation: |
+  Nk’uko abahinga mu vy’ubutunzi bo muri Otirishiya babivuga, ingaruka z’abantu ku giti cabo .
+  kwihariza cane igikorwa cabo no kwifatanya mu guhanahana amakuru ni .
+  ko bama bafise ivyiza kuruta. Ivyo ni kubera ko .
+  ubuhinga bwihariye na Exchange bituma abantu bashobora gushika ku rugero rwo hejuru
+  akamaro kavyo k’umuntu ku giti ciwe.
+reviewed: true

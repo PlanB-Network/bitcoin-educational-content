@@ -1,0 +1,9 @@
+question: Ni igiki gishobora gushika ku rugero rwo hejuru rwa Supply rw’ama bitcoins ariko arakoreshwa?
+answer: miliyoni 21
+wrong_answers:
+  - miliyoni 10
+  - miliyoni 47
+  - miliyoni 150
+explanation: |
+  Bitcoin itegekanijwe kugira Supply ifise aho igarukira y’ama bitcoins agera ku miriyoni 21.
+reviewed: false

@@ -1,0 +1,2 @@
+description: |
+  StashPay 是基於 Breez Liquid SDK 的極簡 Lightning Wallet，可實現無縫交易。它的設計簡單易用，無論是初學者還是有經驗的用戶都可以使用。使用 StashPay，用戶只需輕敲幾下，即可透過 Lightning Network 傳送和接收 Bitcoin，而無需複雜的配置或技術知識。

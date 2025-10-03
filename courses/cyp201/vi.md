@@ -34,24 +34,52 @@ Mục tiêu của khóa học này là cung cấp cho bạn chìa khóa để n�
 
 Trước khi đi sâu vào chi tiết cấu trúc và hoạt động của ví Bitcoin, chúng ta sẽ bắt đầu với một số chương về các nguyên tắc mã hóa cần biết cho phần sau.
 Chúng ta sẽ bắt đầu với hàm băm mã hóa, cơ bản cho cả ví và chính giao thức Bitcoin. Bạn sẽ khám phá các đặc điểm chính, các hàm cụ thể được sử dụng trong Bitcoin, và trong một chương kỹ thuật hơn, bạn sẽ học chi tiết về cách thức hoạt động của hàm băm hàng đầu: SHA256.
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/001.webp)
 
 Tiếp theo, chúng ta sẽ thảo luận về cách thức hoạt động của các thuật toán chữ ký số mà bạn sử dụng hàng ngày để bảo vệ UTXOs của mình. Bitcoin sử dụng hai loại: ECDSA và giao thức Schnorr. Bạn sẽ học về các nguyên tắc toán học đằng sau các thuật toán này và cách chúng đảm bảo an toàn cho giao dịch.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 Một khi chúng ta đã hiểu rõ về những yếu tố này của mã hóa, chúng ta cuối cùng sẽ chuyển sang trọng tâm của khóa học: ví xác định và phân cấp! Đầu tiên, có một phần dành riêng cho cụm từ ghi nhớ, những chuỗi từ 12 hoặc 24 từ giúp bạn tạo và khôi phục ví của mình. Bạn sẽ khám phá cách những từ này được tạo ra từ một nguồn entropy và làm thế nào chúng giúp việc sử dụng Bitcoin trở nên dễ dàng.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/003.webp)
 Khóa học sẽ tiếp tục với việc nghiên cứu về cụm từ BIP39, hạt giống (không nên nhầm lẫn với cụm từ ghi nhớ), mã chuỗi chủ, và khóa chủ. Chúng ta sẽ xem chi tiết những yếu tố này là gì, vai trò tương ứng của chúng, và cách chúng được tính toán.
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/004.webp)
 
 Cuối cùng, từ khóa chủ, chúng ta sẽ khám phá cách các cặp khóa mật mã được tạo ra một cách có hệ thống và phân cấp đến các địa chỉ nhận.
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 Khóa học này sẽ giúp bạn sử dụng phần mềm ví của mình một cách tự tin, đồng thời nâng cao kỹ năng của bạn trong việc nhận diện và giảm thiểu rủi ro. Chuẩn bị trở thành một chuyên gia thực thụ về ví Bitcoin!
+
+Bảng này cung cấp cho bạn bản dịch các thuật ngữ tiếng Anh chính được sử dụng, nhằm giúp bạn dễ dàng hiểu các sơ đồ và tài liệu kỹ thuật được sử dụng trong khuôn khổ khóa học CYP 201.
+
+| Tiếng Anh       | Dịch / Giải thích                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Băm khóa công khai (dùng để tạo địa chỉ Bitcoin).                                                  |
+| *public key*    | Khóa công khai (dùng để nhận tiền, được dẫn xuất từ khóa riêng).                                    |
+| *signature*     | Chữ ký số (bằng chứng mật mã rằng một thông điệp đến từ chủ sở hữu khóa riêng).                      |
+| *scriptPubKey*  | Script khóa (xác định điều kiện để chi tiêu một đầu ra).                                            |
+| *scriptSig*     | Script mở khóa (cung cấp dữ liệu để thỏa mãn *scriptPubKey*).                                       |
+| *Stack*         | Ngăn xếp (cấu trúc dữ liệu được *Bitcoin Script* sử dụng).                                          |
+| *input*         | Đầu vào giao dịch (tham chiếu đến một đầu ra trước đó được sử dụng làm nguồn).                      |
+| *output*        | Đầu ra giao dịch (xác định người nhận và số tiền).                                                  |
+| *transaction*   | Giao dịch Bitcoin (tập hợp các đầu vào và đầu ra xác thực một khoản chuyển).                        |
+| *XOR*           | Toán tử logic "HOẶC loại trừ", được sử dụng trong một số sơ đồ mật mã.                              |
+| *HMAC*          | Mã xác thực thông điệp dựa trên hàm băm và khóa bí mật.                                             |
+| *ECDSA*         | Thuật toán chữ ký số đường cong elliptic.                                                           |
+| *hash*          | Băm (dấu vân tay duy nhất và cố định của dữ liệu).                                                  |
+| *SigHash*       | Loại băm chữ ký (xác định phần nào của giao dịch được ký).                                          |
+| *HD Wallet*     | Ví xác định phân cấp (tạo nhiều khóa từ một hạt giống duy nhất).                                    |
+| *Random Number* | Số ngẫu nhiên (dùng để tạo khóa riêng an toàn).                                                     |
+| *State*         | Trạng thái (giá trị trung gian trong một quá trình mật mã).                                         |
+| *Entropy*       | Entropy (thước đo độ ngẫu nhiên, dùng để tạo hạt giống ví).                                         |
+| *Mnemonic*      | Ghi nhớ (chuỗi từ giúp dễ dàng sao lưu và khôi phục hạt giống).                                    |
+| *Wordlist*      | Danh sách từ (tập hợp được xác định trước dùng để tạo ghi nhớ BIP39).                               |
+| *Seed*          | Hạt giống (giá trị ban đầu cho phép dẫn xuất tất cả các khóa trong một ví HD).                     |
+| *Address*       | Địa chỉ Bitcoin (định danh có thể đọc được để nhận tiền, được dẫn xuất từ khóa công khai).           |
+| *Leaf*          | Lá (nút cuối trong cây dẫn xuất).                                                                   |
 
 # Hàm Băm
 
@@ -74,7 +102,7 @@ Ví dụ, hàm băm SHA256 tạo ra một băm có độ dài cố định 256 b
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 ### Đặc điểm của Hàm Băm
 
@@ -91,7 +119,7 @@ Tính không thể đảo ngược có nghĩa là rất dễ tính toán hàm b�
 
 Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "_PlanB_" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "_PlanB_" chỉ bằng cách biết `24f1b9…` là không thể.
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 Do đó, không thể tìm ra một ảnh trước $m$ cho một băm $h$ sao cho $h = \text{HASH}(m)$, nơi $\text{HASH}$ là một hàm băm mật mã.
 
@@ -110,7 +138,7 @@ Nếu chúng ta thực hiện một thay đổi rất nhỏ đối với đầu 
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 Tính chất này đảm bảo rằng ngay cả một sự thay đổi nhỏ của thông điệp gốc cũng có thể được phát hiện ngay lập tức, vì nó không chỉ thay đổi một phần nhỏ của băm, mà là toàn bộ băm. Điều này có thể quan trọng trong nhiều lĩnh vực để xác minh tính toàn vẹn của thông điệp, phần mềm, hoặc thậm chí là các giao dịch Bitcoin.
 
@@ -122,7 +150,7 @@ $$
 \text{HASH}(m_1) = \text{HASH}(m_2)
 $$
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 Trên thực tế, việc tồn tại va chạm cho các hàm băm là điều không thể tránh khỏi về mặt toán học, bởi vì kích thước của đầu vào có thể lớn hơn kích thước của đầu ra. Điều này được biết đến như nguyên lý ngăn kéo của Dirichlet: nếu $n$ đối tượng được phân phối vào $m$ ngăn kéo, với $m < n$, thì ít nhất một ngăn kéo sẽ chứa hai hoặc nhiều đối tượng. Đối với một hàm băm, nguyên lý này áp dụng bởi vì số lượng thông điệp có thể là (gần như) vô hạn, trong khi số lượng băm có thể là hữu hạn ($2^{256}$ trong trường hợp của SHA256).
 
@@ -139,7 +167,7 @@ $$
 
 Do đó, khả năng chống preimage thứ hai tương tự như khả năng chống va chạm, ngoại trừ ở đây, cuộc tấn công khó hơn bởi vì kẻ tấn công không thể tự do chọn $m_1$.
 
-![CYP201](assets/fr/005.webp)
+![CYP201](assets/en/010.webp)
 
 ### Ứng Dụng của Hàm Băm trong Bitcoin
 
@@ -232,7 +260,7 @@ Kích thước đệm này được thêm vào theo sau phần đệm bit. Do đ
 - Một bit `1` theo sau bởi nhiều bit `0` để tạo thành phần đệm bit;
 - Một biểu diễn 64-bit của độ dài của $M$ để tạo thành phần đệm với kích thước.
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 ### Khởi Tạo Biến
 
@@ -346,7 +374,7 @@ $$
 
 Một cách hình ảnh, phép dịch phải có thể được thấy như sau:
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 Một phép toán khác được sử dụng trong SHA256 cho việc thao tác bit là phép xoay phải vòng tròn, ký hiệu là $RotR_n(x)$, dịch các bit của $x$ sang phải $n$ vị trí, chèn lại các bit đã dịch vào đầu chuỗi.
 Ví dụ, với $x = 101100001$ (trên 9 bit) và $n = 4$:
 
@@ -356,7 +384,7 @@ $$
 
 Một cách hình ảnh, phép xoay phải vòng tròn có thể được thấy như sau:
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 ### Hàm Nén
 
@@ -384,7 +412,7 @@ Trong trường hợp này, $x$ bằng $W_{i-15}$ cho $\sigma_0(x)$ và $W_{i-2}
 
 Một khi chúng ta đã xác định tất cả các từ $W_i$ cho mảnh 512-bit của mình, chúng ta có thể chuyển sang hàm nén, bao gồm việc thực hiện 64 vòng.
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 Đối với mỗi vòng $i$ từ 0 đến 63, chúng ta có ba loại đầu vào khác nhau. Đầu tiên, $W_i$ mà chúng ta vừa xác định, một phần bao gồm mảnh thông điệp của chúng ta $P_n$. Tiếp theo, 64 hằng số $K_i$. Cuối cùng, chúng ta sử dụng các biến trạng thái $A$, $B$, $C$, $D$, $E$, $F$, $G$, và $H$, sẽ phát triển trong suốt quá trình băm và được sửa đổi với mỗi hàm nén. Tuy nhiên, đối với mảnh đầu tiên $P_1$, chúng ta sử dụng các hằng số ban đầu đã được cung cấp trước đó.
 Sau đó, chúng ta thực hiện các thao tác sau đây trên các đầu vào của mình:
 
@@ -443,7 +471,7 @@ $$
 
 Sơ đồ sau đây đại diện cho một vòng của hàm nén SHA256 như chúng tôi vừa mô tả:
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 - Các mũi tên chỉ dòng chảy của dữ liệu;
 - Các hộp biểu diễn các phép toán được thực hiện;
@@ -542,7 +570,7 @@ HMAC là một thuật toán mật mã tính toán một mã xác thực dựa t
 
 Dưới đây là sơ đồ hoạt động chung của nó với $m$ là thông điệp đầu vào và $K$ là khóa bí mật:
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 Hãy nghiên cứu chi tiết hơn về những gì xảy ra trong hộp đen HMAC-SHA512 này. Hàm HMAC-SHA512 với:
 - $m$: thông điệp kích thước tùy ý do người dùng chọn (đầu vào đầu tiên);
@@ -582,7 +610,7 @@ Phương trình này được chia thành các bước sau:
 
 Các bước này có thể được tóm tắt một cách sơ đồ như sau:
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 HMAC được sử dụng trong Bitcoin đáng chú ý cho việc phát sinh khóa trong ví HD (Hierarchical Deterministic) (chúng ta sẽ nói về điều này chi tiết hơn trong các chương tiếp theo) và là một thành phần của PBKDF2.
 
@@ -605,7 +633,7 @@ $$
 
 Một cách biểu đồ, PBKDF2 có thể được mô tả như sau:
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 Trong chương này, chúng ta đã khám phá các hàm HMAC-SHA512 và PBKDF2, sử dụng các hàm băm để đảm bảo tính toàn vẹn và an ninh của việc tạo khóa trong giao thức Bitcoin. Trong phần tiếp theo, chúng ta sẽ tìm hiểu về chữ ký số, một phương pháp mật mã khác được sử dụng rộng rãi trong Bitcoin.
 
@@ -638,7 +666,7 @@ Một tính chất quan trọng của các đường cong này là chúng đối
 
 Dưới đây là biểu diễn của một đường cong elliptic trên trường số thực:
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 Mỗi đường cong elliptic được xác định bởi một phương trình dạng:
 
@@ -663,7 +691,7 @@ y^2 = x^3 + 7
 $$
 
 Biểu diễn đồ họa của nó trên trường số thực trông như thế này:
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 Tuy nhiên, trong mật mã học, chúng ta làm việc với các tập hợp số hữu hạn. Cụ thể hơn, chúng ta làm việc trên trường hữu hạn $\mathbb{F}_p$, đó là trường của các số nguyên modulo một số nguyên tố $p$.
 **Định nghĩa**: Một số nguyên tố là một số nguyên tự nhiên lớn hơn hoặc bằng 2 chỉ có hai ước số nguyên dương phân biệt: 1 và chính nó. Ví dụ, số 7 là một số nguyên tố vì nó chỉ có thể chia hết cho 1 và 7. Ngược lại, số 8 không phải là số nguyên tố vì nó có thể chia hết cho 1, 2, 4 và 8.
 Trong Bitcoin, số nguyên tố $p$ được sử dụng để định nghĩa trường hữu hạn là rất lớn. Nó được chọn theo cách mà thứ tự của trường (tức là số lượng phần tử trong $\mathbb{F}_p$) đủ lớn để đảm bảo an ninh mật mã.
@@ -694,7 +722,7 @@ $$
 
 Xét đường cong này được định nghĩa trên trường hữu hạn $\mathbb{F}_p$, nó không còn giống một đường cong liên tục nữa mà giống như một tập hợp rời rạc các điểm. Ví dụ, đây là hình dạng của đường cong được sử dụng trong Bitcoin với $p = 17$ rất nhỏ:
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 Trong ví dụ này, tôi đã cố ý giới hạn trường hữu hạn là $p = 17$ vì mục đích giáo dục, nhưng người ta phải tưởng tượng rằng cái được sử dụng trong Bitcoin lớn hơn rất nhiều, gần như $2^{256}$.
 
@@ -743,11 +771,11 @@ nơi:
 
 Việc điểm $G$ này chung cho tất cả các khóa công khai trên Bitcoin cho phép chúng ta chắc chắn rằng cùng một khóa riêng $k$ sẽ luôn cho chúng ta cùng một khóa công khai $K$:
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 Đặc điểm chính của phép toán này là nó là một hàm một chiều. Việc tính toán khóa công khai $K$ khi biết khóa riêng $k$ và điểm sinh $G$ là dễ dàng, nhưng việc tính toán khóa riêng $k$ khi chỉ biết khóa công khai $K$ và điểm sinh $G$ là gần như không thể. Tìm $k$ từ $K$ và $G$ tương đương với việc giải quyết vấn đề logarit rời rạc trên đường cong elliptic, một vấn đề toán học khó mà không có thuật toán hiệu quả nào được biết đến. Ngay cả những máy tính mạnh mẽ nhất hiện nay cũng không thể giải quyết vấn đề này trong một khoảng thời gian hợp lý.
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 ### Phép Cộng và Nhân Đôi Điểm trên Đường Cong Elliptic
 
@@ -762,7 +790,7 @@ $$
 
 Một cách hình ảnh, điều này có thể được biểu diễn như sau:
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 Đối với phép nhân đôi một điểm, tức là phép toán $P + P$, chúng ta vẽ tiếp tuyến của đường cong tại điểm $P$. Tiếp tuyến này cắt đường cong tại một điểm khác $S'$. Sau đó, chúng ta lấy ảnh phản chiếu của điểm này qua trục x để thu được điểm $S$, là kết quả của phép nhân đôi:
 
@@ -775,7 +803,7 @@ $$
 
 Một cách hình ảnh, điều này được thể hiện như sau:
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 Bằng cách sử dụng các phép toán cộng và nhân đôi này, chúng ta có thể thực hiện phép nhân vô hướng của một điểm với một số nguyên $k$, ký hiệu là $kP$, bằng cách thực hiện lặp lại phép nhân đôi và cộng.
 
@@ -792,7 +820,7 @@ Một cách hình ảnh, điều này tương ứng với việc thực hiện m
 - Tính $2G$ bằng cách nhân đôi $G$.
 - Tính $4G$ bằng cách nhân đôi $2G$.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 Nếu chúng ta muốn, ví dụ, tính toán điểm $3G$, trước tiên chúng ta phải tính điểm $2G$ bằng cách nhân đôi điểm $G$, sau đó cộng $G$ và $2G$. Để cộng $G$ và $2G$, chỉ cần vẽ đường thẳng nối hai điểm này, lấy điểm duy nhất $-3G$ tại giao điểm giữa đường thẳng này và đường cong elliptic, và sau đó xác định $3G$ là điểm đối diện của $-3G$.
 
@@ -813,7 +841,7 @@ $$
 $$
 
 Một cách hình ảnh, điều này sẽ được biểu diễn như sau:
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 ### Hàm Một Chiều
 
 Nhờ những phép toán này, chúng ta có thể hiểu tại sao việc suy ra khóa công khai từ khóa riêng là dễ dàng, nhưng ngược lại thì gần như không thể.
@@ -965,7 +993,7 @@ $$
 
 Bước đầu tiên để tạo ra một chữ ký là băm thông điệp. Nhưng không giống như ECDSA, nó được thực hiện với các giá trị khác và một hàm băm có nhãn được sử dụng để tránh xung đột trong các bối cảnh khác nhau. Một hàm băm có nhãn đơn giản chỉ bao gồm việc thêm một nhãn tùy ý vào đầu vào của hàm băm cùng với dữ liệu thông điệp.
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 Ngoài thông điệp, tọa độ $x$ của khóa công khai $K_x$, cũng như một điểm $R$ được tính từ nonce $r$ ($R=r \cdot G$) - đây là một số nguyên duy nhất cho mỗi chữ ký, được tính một cách xác định từ khóa riêng và thông điệp để tránh các lỗ hổng liên quan đến việc tái sử dụng nonce, cũng được truyền vào hàm có nhãn. Giống như đối với khóa công khai, chỉ tọa độ $x$ của điểm nonce $R_x$ được giữ lại để mô tả điểm.
 
@@ -1031,11 +1059,11 @@ $$
 
 Chữ ký Schnorr mang lại một số ưu điểm cho Bitcoin so với thuật toán ECDSA ban đầu. Đầu tiên, Schnorr cho phép tổng hợp khóa và chữ ký. Điều này có nghĩa là nhiều khóa công khai có thể được kết hợp thành một khóa duy nhất.
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 Tương tự, nhiều chữ ký có thể được tổng hợp thành một chữ ký hợp lệ duy nhất. Do đó, trong trường hợp của một giao dịch đa chữ ký, một nhóm người tham gia có thể ký với một chữ ký duy nhất và một khóa công khai tổng hợp duy nhất. Điều này giảm đáng kể chi phí lưu trữ và tính toán cho mạng, vì mỗi nút chỉ cần xác minh một chữ ký duy nhất.
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 Hơn nữa, tổng hợp chữ ký cải thiện quyền riêng tư. Với Schnorr, việc phân biệt một giao dịch đa chữ ký với một giao dịch chữ ký đơn trở nên không thể. Sự đồng nhất này làm cho việc phân tích chuỗi khó khăn hơn, vì nó hạn chế khả năng xác định dấu vân tay ví.
 Cuối cùng, Schnorr cũng mang lại khả năng xác minh hàng loạt. Bằng cách xác minh nhiều chữ ký cùng một lúc, các nút có thể tăng hiệu quả, đặc biệt là đối với các khối chứa nhiều giao dịch. Tối ưu hóa này giảm thời gian và nguồn lực cần thiết để xác thực một khối. Ngoài ra, chữ ký Schnorr không bị biến dạng, không giống như chữ ký được tạo ra bằng ECDSA. Điều này có nghĩa là một kẻ tấn công không thể chỉnh sửa một chữ ký hợp lệ để tạo ra một chữ ký hợp lệ khác cho cùng một thông điệp và cùng một khóa công khai. Lỗ hổng này trước đây có mặt trên Bitcoin và đặc biệt ngăn cản việc triển khai an toàn của Lightning Network. Nó đã được giải quyết cho ECDSA với bản cập nhật mềm SegWit vào năm 2017, bao gồm việc chuyển chữ ký sang một cơ sở dữ liệu riêng biệt từ các giao dịch để ngăn chặn sự biến dạng của chúng.
@@ -1066,29 +1094,29 @@ Trên Bitcoin, trước hết và quan trọng nhất là có 3 cờ sighash cơ
 
 - `SIGHASH_ALL` (`0x01`): Chữ ký áp dụng cho tất cả các đầu vào và tất cả các đầu ra của giao dịch. Giao dịch do đó hoàn toàn được bảo vệ bởi chữ ký và không thể được chỉnh sửa. `SIGHASH_ALL` là cờ sighash được sử dụng phổ biến nhất trong các giao dịch hàng ngày khi ai đó chỉ muốn thực hiện một giao dịch mà không muốn nó có thể bị chỉnh sửa.
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 Trong tất cả các sơ đồ của chương này, màu cam đại diện cho các yếu tố được bảo vệ bởi chữ ký, trong khi màu đen chỉ ra những yếu tố không được bảo vệ.
 
 - `SIGHASH_NONE` (`0x02`): Chữ ký bao gồm tất cả các đầu vào nhưng không bao gồm bất kỳ đầu ra nào, do đó cho phép chỉnh sửa các đầu ra sau khi ký. Cụ thể, điều này giống như một chiếc séc trắng. Người ký mở khóa các UTXOs trong đầu vào nhưng để trường đầu ra hoàn toàn có thể chỉnh sửa. Bất kỳ ai biết giao dịch này có thể thêm đầu ra của họ chọn, ví dụ bằng cách chỉ định một địa chỉ nhận để thu thập các quỹ tiêu thụ bởi các đầu vào, và sau đó phát sóng giao dịch để thu hồi bitcoin. Chữ ký của chủ sở hữu các đầu vào sẽ không bị vô hiệu, vì nó chỉ bao gồm các đầu vào.
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 - `SIGHASH_SINGLE` (`0x03`): Chữ ký bao gồm tất cả các đầu vào cũng như một đầu ra duy nhất, tương ứng với chỉ số của đầu vào đã ký. Ví dụ, nếu chữ ký mở khóa _scriptPubKey_ của đầu vào #0, thì nó cũng bao gồm đầu ra #0. Chữ ký cũng bảo vệ tất cả các đầu vào khác, không thể được chỉnh sửa. Tuy nhiên, bất kỳ ai cũng có thể thêm một đầu ra bổ sung mà không làm mất hiệu lực chữ ký, miễn là đầu ra #0, là đầu ra duy nhất được bảo vệ bởi nó, không được chỉnh sửa.
-  ![CYP201](assets/fr/028.webp)
+  ![CYP201](assets/en/033.webp)
 
 Ngoài ba cờ sighash này, còn có bổ sung `SIGHASH_ANYONECANPAY` (`0x80`). Bổ sung này có thể kết hợp với một cờ sighash cơ bản để tạo ra ba cờ sighash mới:
 
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): Chữ ký bao gồm một đầu vào duy nhất trong khi bao gồm tất cả các đầu ra của giao dịch. Cờ sighash kết hợp này cho phép, ví dụ, tạo một giao dịch gây quỹ. Người tổ chức chuẩn bị đầu ra với địa chỉ của họ và số tiền mục tiêu, và mỗi nhà đầu tư sau đó có thể thêm các đầu vào để tài trợ cho đầu ra này. Một khi đủ quỹ được tập hợp trong các đầu vào để đáp ứng đầu ra, giao dịch có thể được phát sóng.
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Chữ ký bao gồm một đầu vào, không cam kết với bất kỳ đầu ra nào;
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Chữ ký này chỉ bao gồm một đầu vào cũng như đầu ra có cùng chỉ số với đầu vào này. Ví dụ, nếu chữ ký mở khóa _scriptPubKey_ của đầu vào số 3, nó cũng sẽ bao gồm đầu ra số 3. Phần còn lại của giao dịch vẫn có thể được thay đổi, cả về các đầu vào khác và các đầu ra khác.
-  ![CYP201](assets/fr/031.webp)
+  ![CYP201](assets/en/036.webp)
 
 ### Dự án Thêm Cờ Sighash Mới
 
@@ -1096,7 +1124,7 @@ Hiện tại (2024), chỉ có các cờ sighash được trình bày trong ph�
 
 Hai cờ sighash này sẽ cung cấp một khả năng bổ sung trên Bitcoin: tạo chữ ký không bao gồm bất kỳ đầu vào cụ thể nào của giao dịch.
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 Ý tưởng này ban đầu được Joseph Poon và Thaddeus Dryja đề xuất trong Bản Trắng Lightning. Trước khi được đổi tên, cờ sighash này được gọi là `SIGHASH_NOINPUT`.
 Nếu cờ sighash này được tích hợp vào Bitcoin, nó sẽ cho phép sử dụng các covenant, nhưng cũng là một tiền đề bắt buộc cho việc triển khai Eltoo, một giao thức chung cho các lớp thứ hai định nghĩa cách quản lý chung quyền sở hữu của một UTXO. Eltoo được thiết kế đặc biệt để giải quyết các vấn đề liên quan đến cơ chế thương lượng trạng thái của các kênh Lightning, tức là giữa việc mở và đóng.
@@ -1128,7 +1156,7 @@ UTXOs vì thế đại diện cho các phân đoạn của bitcoin, với kích 
 
 Các ví đầu tiên được sử dụng trên Bitcoin là ví JBOK (_Just a Bunch Of Keys_), tổng hợp các khóa riêng được tạo ra một cách độc lập và không có liên kết nào giữa chúng. Các ví này hoạt động trên một mô hình đơn giản nơi mỗi khóa riêng có thể mở khóa một địa chỉ nhận Bitcoin duy nhất.
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 Nếu muốn sử dụng nhiều khóa riêng, sau đó cần phải tạo nhiều bản sao lưu để đảm bảo quyền truy cập vào quỹ trong trường hợp có vấn đề với thiết bị lưu trữ ví. Nếu sử dụng một khóa riêng duy nhất, cấu trúc ví này có thể đủ, vì một bản sao lưu duy nhất là đủ. Tuy nhiên, điều này gây ra một vấn đề: trên Bitcoin, việc luôn sử dụng cùng một khóa riêng được khuyến cáo mạnh mẽ là không nên. Thực tế, một khóa riêng được liên kết với một địa chỉ duy nhất, và địa chỉ nhận Bitcoin thường được thiết kế để sử dụng một lần. Mỗi lần bạn nhận quỹ, bạn nên tạo một địa chỉ trống mới.
 
@@ -1141,7 +1169,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### Ví HD (_Hierarchical Deterministic_)
 
 Để giải quyết hạn chế của ví JBOK, một cấu trúc ví mới sau đó được sử dụng. Vào năm 2012, Pieter Wuille đã giới thiệu một cải tiến với BIP32, giới thiệu ví phân cấp xác định (HD wallets). Nguyên tắc của một ví HD là phái sinh tất cả các khóa riêng từ một nguồn thông tin duy nhất, được gọi là hạt giống, theo một cách xác định và phân cấp. Hạt giống này được tạo ngẫu nhiên khi ví được tạo và tạo thành một bản sao lưu duy nhất cho phép tái tạo tất cả các khóa riêng của ví. Do đó, người dùng có thể tạo ra một số lượng rất lớn các khóa riêng để tránh tái sử dụng địa chỉ và bảo vệ sự riêng tư của họ, trong khi chỉ cần thực hiện một bản sao lưu duy nhất của ví thông qua hạt giống.
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 Trong ví HD, việc phái sinh khóa được thực hiện theo một cấu trúc phân cấp cho phép các khóa được tổ chức vào các không gian phái sinh con, mỗi không gian con có thể được chia nhỏ hơn nữa, để tạo thuận lợi cho việc quản lý quỹ và tương thích giữa các phần mềm ví khác nhau. Ngày nay, tiêu chuẩn này được đa số người dùng Bitcoin chấp nhận. Vì lý do này, chúng ta sẽ xem xét nó chi tiết trong các chương tiếp theo.
 
@@ -1173,7 +1201,7 @@ Entropy ban đầu được sử dụng cho một ví HD thường là 128 bit h
 
 Trong hầu hết các trường hợp, số ngẫu nhiên này được tạo ra tự động bởi phần mềm ví sử dụng một PRNG (_Pseudo-Random Number Generator_ - Máy Phát Số Ngẫu Nhiên Giả). PRNGs là một loại thuật toán được sử dụng để tạo ra các chuỗi số từ một trạng thái ban đầu, có các đặc tính tiếp cận với số ngẫu nhiên, mặc dù không thực sự là số ngẫu nhiên. Một PRNG tốt phải có các đặc tính như đồng nhất đầu ra, không dự đoán được, và kháng lại các cuộc tấn công dự đoán. Khác với máy phát số ngẫu nhiên thực sự (TRNG), PRNGs là xác định và có thể tái tạo.
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 Một phương án khác là tự tạo entropy, điều này mang lại quyền kiểm soát tốt hơn nhưng cũng rủi ro hơn nhiều. Tôi khuyên bạn mạnh mẽ không tự tạo entropy cho ví HD của mình.
 
@@ -1205,7 +1233,7 @@ $$
 
 Một khi checksum được tính toán, nó được nối với entropy để thu được một chuỗi bit mở rộng được ghi là $\text{ENT} \Vert \text{CS}$ ("nối" có nghĩa là đặt liền nhau).
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 ### Sự Tương Ứng giữa Entropy và Cụm Từ Ghi Nhớ
 
@@ -1235,18 +1263,18 @@ Ví dụ, đối với một entropy 256-bit, kết quả $\text{ENT} \Vert \tex
 
 Chuỗi bit $\text{ENT} \Vert \text{CS}$ sau đó được chia thành các phân đoạn 11 bit. Mỗi phân đoạn 11 bit, một khi được chuyển đổi sang thập phân, tương ứng với một số từ 0 đến 2047, chỉ vị trí của một từ [trong danh sách 2048 từ được chuẩn hóa bởi BIP39](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 Ví dụ, đối với một entropy 128-bit, checksum là 4 bit, và do đó, chuỗi tổng cộng là 132 bit. Nó được chia thành 12 phân đoạn 11 bit (các bit màu cam chỉ checksum):
 
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 Mỗi phân đoạn sau đó được chuyển đổi thành một số thập phân đại diện cho một từ trong danh sách. Ví dụ, phân đoạn nhị phân `01011010001` tương đương trong hệ thập phân là `721`. Bằng cách cộng thêm 1 để căn chỉnh với chỉ mục của danh sách (bắt đầu từ 1 chứ không phải 0), điều này cho ra từ thứ hạng `722`, tức là "*focus*" trong danh sách.
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 Sự tương ứng này được lặp lại cho mỗi trong số 12 phân đoạn, nhằm thu được một cụm từ gồm 12 từ.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 ### Đặc điểm của Danh Sách Từ BIP39
 
@@ -1290,7 +1318,7 @@ Hãy cẩn thận, cụm từ bí mật không nên bị nhầm lẫn với mã 
 
 Cụm từ bí mật hoạt động cùng với cụm từ ghi nhớ, thay đổi hạt giống từ đó các khóa được tạo ra. Như vậy, ngay cả khi ai đó có được cụm từ 12 hoặc 24 từ của bạn, mà không có cụm từ bí mật, họ không thể truy cập vào quỹ của bạn. Sử dụng một cụm từ bí mật cơ bản tạo ra một ví mới với các khóa khác biệt. Thay đổi (ngay cả một chút) cụm từ bí mật sẽ tạo ra một ví khác nhau.
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 ### Tại sao bạn nên sử dụng cụm từ bí mật?
 
@@ -1302,7 +1330,7 @@ Cuối cùng, việc sử dụng cụm từ bí mật là thú vị khi người
 
 Để cụm từ bí mật có hiệu quả, nó phải đủ dài và ngẫu nhiên. Giống như một mật khẩu mạnh, tôi khuyên bạn nên chọn một cụm từ bí mật càng dài và ngẫu nhiên càng tốt, với sự đa dạng của chữ cái, số và biểu tượng để làm cho bất kỳ cuộc tấn công bằng lực brút không thể xảy ra.
 Cũng rất quan trọng khi lưu cụm từ bí mật này một cách đúng đắn, giống như cách bạn lưu cụm từ ghi nhớ. **Mất nó có nghĩa là mất quyền truy cập vào bitcoin của bạn**. Tôi khuyên bạn không nên chỉ nhớ nó bằng trái tim, vì điều này làm tăng một cách không hợp lý nguy cơ mất mát. Lý tưởng nhất là ghi nó ra một phương tiện vật lý (giấy hoặc kim loại) tách biệt khỏi cụm từ ghi nhớ. Bản sao lưu này rõ ràng phải được lưu trữ ở một nơi khác với nơi bạn lưu cụm từ ghi nhớ để ngăn chặn việc cả hai bị xâm phạm cùng một lúc.
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 Trong phần tiếp theo, chúng ta sẽ khám phá cách hai yếu tố này tại cơ sở của ví của bạn — cụm từ ghi nhớ và cụm từ bí mật — được sử dụng để suy ra các cặp khóa được sử dụng trong *scriptPubKey* khóa UTXO của bạn.
 
@@ -1314,7 +1342,7 @@ Trong phần tiếp theo, chúng ta sẽ khám phá cách hai yếu tố này t�
 
 Một khi cụm từ ghi nhớ và cụm từ bí mật tùy chọn được tạo ra, quá trình suy ra một ví HD Bitcoin có thể bắt đầu. Cụm từ ghi nhớ đầu tiên được chuyển đổi thành hạt giống, là cơ sở cho tất cả các khóa của ví.
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 ### Hạt Giống của một Ví HD
 
@@ -1337,7 +1365,7 @@ s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 Giá trị của hạt giống do đó bị ảnh hưởng bởi giá trị của cụm từ ghi nhớ và cụm từ bí mật. Bằng cách thay đổi cụm từ bí mật, một hạt giống khác nhau được thu được. Tuy nhiên, với cùng một cụm từ ghi nhớ và cụm từ bí mật, cùng một hạt giống luôn được tạo ra, vì PBKDF2 là một hàm định hình. Điều này đảm bảo rằng cùng một cặp khóa có thể được truy xuất thông qua các bản sao lưu của chúng ta.
 
@@ -1376,7 +1404,7 @@ C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 ### Vai Trò của Chìa Khóa Chính và Mã Chuỗi
 
@@ -1391,7 +1419,7 @@ Trước khi tiếp tục với việc phái sinh ví HD với các thành phầ
 
 Một khóa mở rộng đơn giản là sự kết hợp của một khóa (dù là riêng tư hay công khai) và mã chuỗi liên kết với nó. Mã chuỗi này rất quan trọng cho việc phái sinh khóa con vì, không có nó, việc phái sinh khóa con từ một khóa cha là không thể, nhưng chúng ta sẽ khám phá quy trình này một cách chính xác hơn trong chương tiếp theo. Những khóa mở rộng do đó cho phép tổng hợp tất cả thông tin cần thiết để phái sinh khóa con, qua đó đơn giản hóa quản lý tài khoản trong một ví HD.
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 Khóa mở rộng bao gồm hai phần:
 - Phần payload, chứa khóa riêng tư hoặc công khai cũng như mã chuỗi liên kết;
@@ -1414,7 +1442,7 @@ Nhưng dù sao đi nữa, khóa công khai mở rộng không cho phép suy ra c
 - $K_{\text{CHD}}^h$: một khóa công khai con cứng;
 - $k_{\text{CHD}}^h$: một khóa riêng con cứng.
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 ### Cấu Trúc của một Khóa Mở Rộng
 
@@ -1508,7 +1536,7 @@ Việc tạo ra cặp khóa con trong ví HD Bitcoin dựa trên một cấu tr�
 
 Tất cả những việc tạo ra này bắt đầu với khóa chính và mã chuỗi chính, đó là cha mẹ đầu tiên ở mức độ sâu 0. Chúng, theo một cách nào đó, là Adam và Eva của các khóa trong ví của bạn, tổ tiên chung của tất cả các khóa được tạo ra.
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 Hãy khám phá cách hoạt động xác định này.
 
@@ -1526,7 +1554,7 @@ Việc suy rộng mỗi khóa con dựa trên hàm HMAC-SHA512, mà chúng tôi 
 
 Trong tất cả các phép tính của chúng tôi, tôi sẽ ký hiệu $\text{hash}$ là đầu ra của hàm HMAC-SHA512.
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 #### Suy Rộng Khóa Riêng Tư Con từ Khóa Riêng Tư Cha
 
@@ -1579,7 +1607,7 @@ $$
 
 Dưới đây là biểu đồ mô tả tổng quan quá trình suy ra:
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 Đối với **khóa con cứng** ($i \geq 2^{31}$), phép tính của $\text{hash}$ như sau:
 
@@ -1625,7 +1653,7 @@ $$
 
 Dưới đây là biểu đồ mô tả tổng quan quá trình suy ra:
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 Chúng ta có thể thấy rằng quá trình suy ra bình thường và quá trình suy ra cứng hoạt động theo cùng một cách, với điểm khác biệt này: quá trình suy ra bình thường sử dụng khóa công khai của cha làm đầu vào cho hàm HMAC, trong khi quá trình suy ra cứng sử dụng khóa riêng của cha.
 
@@ -1681,7 +1709,7 @@ $$
 
 Dưới đây là biểu đồ mô tả tổng quan về quá trình suy ra:
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 ### Sự tương ứng giữa khóa công khai và khóa riêng của con
 
@@ -1754,7 +1782,7 @@ Mỗi tài khoản được xác định tại độ sâu 3 sau đó được c�
 
 **Độ Sâu 5: Chỉ Mục Địa Chỉ (BIP32)**
 Cuối cùng, độ sâu 5 đại diện cho bước cuối cùng của quá trình phát sinh trong ví. Mặc dù kỹ thuật có thể tiếp tục vô hạn, nhưng các tiêu chuẩn hiện tại dừng lại ở đây. Tại độ sâu cuối cùng này, các cặp khóa sẽ thực sự được sử dụng để khóa và mở khóa các UTXO được phát sinh. Mỗi chỉ số cho phép phân biệt giữa các cặp khóa anh em: do đó, địa chỉ nhận đầu tiên sẽ sử dụng chỉ số $/0/$, địa chỉ thứ hai sử dụng chỉ số $/1/$, và cứ thế tiếp tục.
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 ### Ký Hiệu Của Đường Dẫn Phát Sinh
 
@@ -1831,7 +1859,7 @@ Mô tả cũng bao gồm khóa công khai mở rộng được sử dụng trong
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Tiếp theo, ký hiệu `/<0;1>/*` chỉ ra rằng mô tả có thể tạo ra địa chỉ từ chuỗi bên ngoài (`0`) và chuỗi bên trong (`1`), với một ký tự đại diện (`*`) cho phép phái sinh tuần tự nhiều địa chỉ theo cách có thể cấu hình, tương tự như quản lý "giới hạn khoảng trống" trên phần mềm ví truyền thống.
+Ký hiệu `/<0;1>/*` cho biết rằng bộ mô tả có thể tạo địa chỉ từ cả chuỗi bên ngoài (`0`) và chuỗi bên trong (`1`). Ký tự đại diện (`*`) ở cuối đường dẫn có nghĩa là có thể tuần tự dẫn xuất tất cả các khóa con không được làm cứng (“*unhardened*”) từ vị trí này, dù đó là địa chỉ bên ngoài hay bên trong. Cú pháp này không trực tiếp ngụ ý khái niệm *gap limit*, vốn là một phần của cơ chế cụ thể của ví để phát hiện địa chỉ, mà ở đây chỉ nhằm chỉ ra rằng tất cả các dẫn xuất có thể tại vị trí này đều được tính đến.
 Cuối cùng, `#jy0l7nr4` đại diện cho checksum để xác minh tính toàn vẹn của mô tả.
 Bây giờ bạn đã biết mọi thứ về hoạt động của ví HD trên Bitcoin và quá trình phái sinh cặp khóa. Tuy nhiên, trong những chương cuối, chúng tôi chỉ giới hạn ở việc tạo ra khóa riêng và khóa công khai, mà không đề cập đến việc xây dựng địa chỉ nhận. Đây chính xác sẽ là chủ đề của chương tiếp theo!
 
@@ -1844,7 +1872,7 @@ Bây giờ bạn đã biết mọi thứ về hoạt động của ví HD trên 
 
 Như đã giải thích trước đó, vai trò của một giao dịch là chuyển quyền sở hữu bitcoin từ đầu vào sang đầu ra. Quá trình này bao gồm việc tiêu thụ UTXOs làm đầu vào trong khi tạo ra UTXOs mới làm đầu ra. Những UTXOs này được bảo vệ bởi kịch bản, định nghĩa các điều kiện cần thiết để mở khóa quỹ.
 Khi một người dùng nhận được bitcoin, người gửi tạo ra một đầu ra UTXO và khóa nó bằng một *scriptPubKey*. Script này chứa các quy tắc thường chỉ định các chữ ký và khóa công khai cần thiết để mở khóa UTXO này. Để chi tiêu UTXO này trong một giao dịch mới, người dùng phải cung cấp thông tin được yêu cầu thông qua một *scriptSig*. Việc thực thi *scriptSig* kết hợp với *scriptPubKey* phải trả về "true" hoặc `1`. Nếu điều kiện này được đáp ứng, UTXO có thể được chi tiêu để tạo ra một UTXO mới, chính nó được khóa bởi một *scriptPubKey* mới, và cứ thế tiếp tục.
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 Chính xác thì trong *scriptPubKey* là nơi tìm thấy các địa chỉ nhận. Tuy nhiên, việc sử dụng của chúng thay đổi tùy thuộc vào tiêu chuẩn script được áp dụng. Dưới đây là bảng tóm tắt thông tin chứa trong *scriptPubKey* theo tiêu chuẩn được sử dụng, cũng như thông tin được mong đợi trong *scriptSig* để mở khóa *scriptPubKey*.
 
@@ -1878,33 +1906,33 @@ Quá trình thực thi kịch bản mà tôi vừa đưa ra làm ví dụ tuân 
 
 - Chúng ta có *scriptSig*, *ScriptPubKey*, và stack:
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 - *scriptSig* được đẩy vào stack:
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 - `OP_DUP` nhân bản khóa công khai được cung cấp trong *scriptSig* trên stack:
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 - `OP_HASH160` trả về băm của khóa công khai vừa được nhân bản:
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 - `OP_PUSHBYTES_20 <pubKeyHash>` đẩy địa chỉ Bitcoin chứa trong *scriptPubKey* vào stack:
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 - `OP_EQUALVERIFY` xác minh rằng khóa công khai đã băm khớp với địa chỉ nhận được cung cấp:
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 `OP_CHECKSIG` kiểm tra chữ ký chứa trong *scriptSig* sử dụng khóa công khai. Opcode này cơ bản thực hiện một quá trình xác minh chữ ký như chúng tôi đã mô tả trong phần 3 của khóa học này:
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 - Nếu `1` còn lại trên stack, thì kịch bản là hợp lệ:
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 Vì vậy, để tóm tắt, kịch bản này cho phép xác minh, với sự giúp đỡ của chữ ký số, rằng người dùng tuyên bố sở hữu UTXO này và muốn chi tiêu nó thực sự sở hữu khóa riêng liên kết với địa chỉ nhận được sử dụng trong quá trình tạo UTXO này.
 
@@ -1943,7 +1971,7 @@ Về mặt kỹ thuật, một kịch bản P2TR khóa bitcoins trên một khó
 - Bằng cách thỏa mãn một trong các kịch bản chứa trong cây Merkle (*script path*).
 P2TR do đó mang lại sự linh hoạt lớn, khi nó cho phép khóa bitcoin bằng một khóa công khai duy nhất, với nhiều script tùy chọn, hoặc cả hai cùng một lúc. Lợi ích của cấu trúc cây Merkle này là chỉ có script sử dụng để chi tiêu được tiết lộ trong giao dịch, nhưng tất cả các script thay thế khác vẫn được giữ bí mật.
 
-![CYP201](assets/fr/063.webp)
+![CYP201](assets/en/068.webp)
 
 P2TR tương ứng với đầu ra SegWit phiên bản 1, điều này có nghĩa là chữ ký cho các đầu vào P2TR được lưu trữ trong phần *Witness* của giao dịch, và không phải trong *scriptSig*. Địa chỉ P2TR sử dụng mã hóa *bech32m* và bắt đầu với `bc1p`, nhưng chúng khá đặc biệt vì không sử dụng hàm băm cho việc xây dựng của chúng. Thực tế, chúng trực tiếp đại diện cho khóa công khai $Q$ được định dạng đơn giản với metadata. Do đó, đây là một mô hình script gần với P2PK.
 
@@ -1964,7 +1992,7 @@ Bước đầu tiên là nén khóa công khai $K$. Để hiểu rõ quá trình
 Một khóa công khai trên Bitcoin là một điểm $K$ nằm trên một đường cong elliptic. Nó được biểu diễn dưới dạng $(x, y)$, nơi $x$ và $y$ là tọa độ của điểm. Trong dạng không nén, khóa công khai này có kích thước 520 bit: 8 bit cho tiền tố (giá trị ban đầu là `0x04`), 256 bit cho tọa độ $x$, và 256 bit cho tọa độ $y$.
 Tuy nhiên, đường cong elliptic có tính chất đối xứng đối với trục x: cho một tọa độ $x$ cụ thể, chỉ có hai giá trị có thể cho $y$: $y$ và $-y$. Hai điểm này nằm ở hai bên của trục x. Nói cách khác, nếu chúng ta biết $x$, chỉ cần chỉ rõ $y$ là chẵn hay lẻ để xác định chính xác điểm trên đường cong.
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 
 Để nén một khóa công khai, chỉ cần mã hóa $x$, chiếm 256 bit, và thêm một tiền tố để chỉ định tính chẵn lẻ của $y$. Phương pháp này giảm kích thước của khóa công khai xuống còn 264 bit thay vì 520 bit ban đầu. Tiền tố `0x02` chỉ ra rằng $y$ là số chẵn, và tiền tố `0x03` chỉ ra rằng $y$ là số lẻ.
 Hãy lấy một ví dụ để hiểu rõ hơn, với một khóa công khai chưa nén:
@@ -2153,7 +2181,7 @@ bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 
 Tóm lại, đây là quy trình suy ra:
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 Đây là cách để suy ra một địa chỉ nhận P2WPKH (SegWit v0). Bây giờ chúng ta hãy chuyển sang địa chỉ P2TR (SegWit v1 / Taproot) và khám phá quy trình tạo ra chúng.
 
@@ -2233,7 +2261,7 @@ $$
 
 Chúng ta tiếp tục bằng cách nối kết quả thành từng cặp, đưa chúng qua hàm băm có gắn thẻ `TapBranch` ở mỗi bước, cho đến khi chúng ta thu được gốc của cây Merkle:
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 Sau khi tính toán được gốc Merkle $h_{\text{root}}$, chúng ta có thể tính toán tweak. Để làm điều này, khóa công khai nội bộ của ví $P$ được nối với gốc $h_{\text{root}}$, và kết quả được đưa qua hàm băm có gắn thẻ `TapTweak`:
 

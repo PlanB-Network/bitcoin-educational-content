@@ -18,7 +18,7 @@ _Den här handledningen tillhandahålls endast i utbildnings- och informationssy
 
 > *Bryt länken som dina mynt lämnar efter sig*
 
-Det här är en fråga som jag ofta får. **När man gör coinjoins med Whirlpool, hur många remixer ska man göra för att uppnå tillfredsställande resultat?
+Det här är en fråga som jag ofta får. **När man gör coinjoins med Whirlpool, hur många remixer ska man göra för att uppnå tillfredsställande resultat?**
 
 
 Syftet med CoinJoin är att erbjuda en trovärdig förnekelse genom att blanda ditt mynt med en grupp mynt som inte går att skilja från varandra. Målet med denna åtgärd är att bryta spårbarhetslänkarna, både från det förflutna till nutid och från nutid till det förflutna. Med andra ord bör en analytiker som känner till din initiala transaktion vid ingången av CoinJoin-cyklerna inte definitivt kunna identifiera din UTXO vid utgången av remixcyklerna (analys från ingångscykler till utgångscykler).
@@ -80,7 +80,7 @@ Det är därför jag anser att användningen av Whirlpool är särskilt relevant
 Jag hoppas att detta svar har kastat lite ljus över Whirlpool-modellen. Om du vill lära dig mer om hur coinjoins fungerar på Bitcoin rekommenderar jag att du läser min omfattande artikel om detta ämne:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Externa resurser:**
 

@@ -1,0 +1,9 @@
+question: Ni itegeko irihe ryerekana inzira amapakete afata kugira ngo ashike aho IP ija?
+answer: gukurikirana inzira
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  traceroute yerekana buri nzira iri hagati y'uwurungitse n'uwuyirungitse, ikoresheje TTL.
+reviewed: false

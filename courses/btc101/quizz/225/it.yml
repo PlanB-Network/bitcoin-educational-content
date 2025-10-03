@@ -1,9 +1,9 @@
-question: Quando è stata approvata e implementata per la prima volta Lightning Network?
-answer: 2017
+question: Qual è la dimensione del blocco nel protocollo Bitcoin?
+answer: 4MB.
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: |
-  Lightning Network è stata approvata e implementata per la prima volta nel 2017.
+  - 1MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
+  La dimensione del blocco nel protocollo Bitcoin è di 4MB.
 reviewed: vero

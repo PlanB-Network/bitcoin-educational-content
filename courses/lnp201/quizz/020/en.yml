@@ -6,4 +6,4 @@ wrong_answers:
   - Blocking the transaction with an inappropriate timelock
 explanation: |
   The main risk is that a party may attempt to cheat by publishing an old commitment transaction, which could allow them to reclaim funds they no longer have.
-reviewed: false
+reviewed: true

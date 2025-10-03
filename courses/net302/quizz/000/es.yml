@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel fundamental de una red en TI?
+answer: Habilitar datos Exchange
+wrong_answers:
+  - Aumentar la memoria del ordenador
+  - Crear copias de seguridad
+  - Habilitar el Exchange de equipos informáticos
+explanation: |
+  Una red conecta múltiples dispositivos para permitir la circulación y Exchange de información.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was denkt Spinoza über den Zufall?
+answer: Das gibt es nicht.
+wrong_answers:
+  - Sie existiert.
+  - Er setzt sie mit Fatalismus gleich.
+  - Er hält es für Aberglauben.
+explanation: |
+  Für Spinoza gibt es so etwas wie den Zufall nicht. Alles im Universum folgt notwendigen und determinierten Gesetzen. Was uns als Zufall erscheint, ist lediglich das Ergebnis unserer Unkenntnis der wahren Ursachen.
+reviewed: false

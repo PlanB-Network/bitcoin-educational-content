@@ -1,0 +1,9 @@
+question: Bir istifçi öncelikle hangi yatırım stratejisini kullanır?
+answer: Dolar Maliyet Ortalaması
+wrong_answers:
+  - Günlük ticaret
+  - Arbitraj
+  - Götürü Toplam
+explanation: |
+  DCA (DMA, Dolar Maliyet Ortalaması), piyasa oynaklığının kişinin portföyü üzerindeki etkisini azaltmak için düzenli olarak sabit bir miktar yatırım yapmayı içerir.
+reviewed: false

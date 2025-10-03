@@ -1,12 +1,12 @@
-question: What is the main advantage of fiat currencies?
-answer: They are easily divisible.
+question: What are the entities in charge of issuing fiduciary currencies?
+answer: Central banks.
 wrong_answers:
-  - They are controlled by a central party.
-  - They are not easily transportable.
-  - They are effective to hold value across time.
+  - Commercial banks.
+  - Governments.
+  - Private Institutions.
 explanation: |
-  Fiat currencies, such as the dollar and the euro, are very
-  liquid and easily transportable because they are now mostly
-  digital. However, their value is constantly eroded by
-  monetary inflation.
+  Central banks are the entities in charge of issuing a
+  fiduciary currency. They decide the monetary policy and
+  determine how much money should be put into circulation or
+  printed.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni intambwe iyihe itari mu kimenyamenya c’umutekano c’umugambi wo gukingira amakuru wo muri iki gihe?
+answer: Gushinga umukoresha Interface.
+wrong_answers:
+  - Kuvuga insobanuro z'umutekano
+  - Ivyiyumviro vy'imibare bigoranye
+  - Iyerekanwa ry'imibare ry'umutekano
+explanation: |
+  Ikimenyamenya c’umutekano mu buhinga bwa none bw’ubuhinga bwo gukingira amakuru bwibanda ku ntumbero n’ivyiyumviro vy’imibare, hatarimwo imice nk’iy’ukoresha Interface, idafitaniye isano n’umutekano w’ubuhinga bwa none.
+reviewed: false

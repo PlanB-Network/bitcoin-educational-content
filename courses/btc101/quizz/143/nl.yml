@@ -1,11 +1,8 @@
-question: Wat zou er gebeuren als een gebruiker van een knooppunt ervoor kiest om andere regels te volgen die in tegenspraak zijn met de bestaande consensusregels?
-answer: Het knooppunt zal niet langer deel uitmaken van het Bitcoin netwerk.
+question: Wat is de rol van mijnwerkers in het Bitcoin netwerk?
+answer: Miners beveiligen het netwerk en voegen transacties toe aan de blokken.
 wrong_answers:
-  - Het knooppunt wordt onderdeel van een ander Bitcoin netwerk.
-  - Het knooppunt wordt gestraft door het Bitcoin netwerk.
-  - Het knooppunt wordt beloond door het Bitcoin netwerk.
-explanation: |
-  Als een gebruiker van een knooppunt besluit om andere regels te volgen die
-  die de huidige consensusregels ongeldig maken, dan zou dit knooppunt
-  niet langer deel uitmaken van het Bitcoin netwerk.
+  - Miners creëren nieuwe bitcoins.
+  - Miners verifiëren de identiteit van Bitcoin gebruikers.
+  - Mijnwerkers bepalen de prijs van Bitcoin.
+explanation: >-
 reviewed: true

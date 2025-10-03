@@ -1,0 +1,9 @@
+question: Ni kuki router itegerezwa kuguma itanga neza amahera mu mihora yayo?
+answer: Kugira ngo yongere umubare w'amahera yishurwa ishobora gutuma
+wrong_answers:
+  - Kugabanya amafaranga y'ugucuruza
+  - Kugira twirinde gufungura imirongo mishasha .
+  - Kugira ngo hagabanuke ikoreshwa rya Bitcoin Blockchain.
+explanation: |
+  Router ifise intumbero yo gutuma amafaranga menshi ashoboka kugira ngo umuntu ashobore gutora amafaranga, ivyo bikaba bisaba ko amafaranga agabanywa neza ku mpande zompi z’imirongo kugira ngo habeho ubushobozi bwo gutanga amafaranga.
+reviewed: false

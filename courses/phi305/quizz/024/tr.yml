@@ -1,0 +1,9 @@
+question: Skolastisizm mi?
+answer: Bir Orta Çağ felsefesi.
+wrong_answers:
+  - Modern çağın felsefesi.
+  - Eski bir felsefe.
+  - Ateist bir felsefe.
+explanation: |
+  Skolastisizm, Hıristiyan inancı ile Aristoteles felsefesini uzlaştırmaya çalışan bir Ortaçağ felsefesiydi. Modern felsefenin ortaya çıkışından önce Avrupa üniversitelerine hakim olmuştur.
+reviewed: false

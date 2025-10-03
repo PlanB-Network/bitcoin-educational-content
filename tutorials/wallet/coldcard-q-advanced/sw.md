@@ -1,5 +1,5 @@
 ---
-name: COLDCARD Q - Advanced
+name: COLDCARD Q - Mtaalamu
 description: Kwa kutumia chaguo za kina za COLDCARD Q
 ---
 ![cover](assets/cover.webp)
@@ -39,7 +39,7 @@ Kwenye COLDCARD, una chaguo mbili za kudhibiti passphrase yako:
 1. **Ingizo la kawaida:** Unaingiza passphrase wewe mwenyewe kila wakati unapotumia Hardware Wallet yako, kama vile unavyofanya na pochi zingine za maunzi. COLDCARD Q hurahisisha kazi hii kwa kibodi yake kamili.
 
 
-2. **Unaweza kuchagua kusimba passphrase yako na kuihifadhi kwenye kadi ya microSD. Katika hali hii, utahitaji kuingiza microSD kwenye COLDCARD Q kila wakati unapoitumia. Kumbuka kuwa microSD hii itafanya kazi kwenye COLDCARD Q yako pekee na sio nakala rudufu. Kwa hivyo ni muhimu sana pia kuweka nakala ya passphrase yako kwenye nyenzo halisi, kama vile karatasi au chuma.
+2. **Unaweza kuchagua kusimba passphrase yako na kuihifadhi kwenye kadi ya microSD. Katika hali hii, utahitaji kuingiza microSD kwenye COLDCARD Q kila wakati unapoitumia. Kumbuka kuwa microSD hii itafanya kazi kwenye COLDCARD Q yako pekee na sio nakala rudufu. Kwa hivyo ni muhimu sana pia kuweka nakala ya passphrase yako kwenye nyenzo halisi, kama vile karatasi au chuma.**
 
 
 Ili kuweka BIP39 passphrase yako, fikia menyu ya "*passphrase*".
@@ -136,7 +136,7 @@ Kisha chagua kitendo kitakachofanywa kiotomatiki kila unapoingiza PIN hii ya Uja
 
 
 
-- "*Brick Self*: Kitendo hiki kitaharibu chip zote mbili za COLDCARD Q ikiwa PIN ya Ujanja itawekwa, hivyo basi kufanya kifaa kisitumike kabisa. Kisha haitawezekana kukiuza tena, kukitumia tena au hata kukirejesha kwa Coinkite. Kifaa kitapitwa na wakati kabisa. Kipengele hiki kinaweza kutumika katika tukio la wizi ili kumshawishi mvamizi kuwa na uwezo wa kufikia nakala yako ya mtandaoni bila data yoyote.* **P kumbuka kuwa hatawahi kupata chelezo yako ya bitcoin. ya maneno yako ya Mnemonic na passphrase yoyote, bitcoins zako zitapotea kabisa.
+- **Brick Self**: Kitendo hiki kitaharibu chip zote mbili za COLDCARD Q ikiwa PIN ya Ujanja itawekwa, hivyo basi kufanya kifaa kisitumike kabisa. Kisha haitawezekana kukiuza tena, kukitumia tena au hata kukirejesha kwa Coinkite. Kifaa kitapitwa na wakati kabisa. Kipengele hiki kinaweza kutumika katika tukio la wizi ili kumshawishi mvamizi kuwa na uwezo wa kufikia nakala yako ya mtandaoni bila data yoyote. **Kumbuka kuwa hatawahi kupata chelezo yako ya bitcoin. ya maneno yako ya Mnemonic na passphrase yoyote, bitcoins zako zitapotea kabisa.**
 
 
 ![CCQ](assets/fr/14.webp)

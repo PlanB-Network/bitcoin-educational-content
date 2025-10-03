@@ -1,0 +1,9 @@
+question: Wie groß ist die IPv6-Blockgröße, die die IANA in der Regel den einzelnen regionalen Internet-Registern (RIR) zuweist?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Seit 2006 erhält jedes RIR in der Regel einen /12-Block von IPv6, was eine sehr große Reserve für die regionale Zuteilung darstellt.
+reviewed: false

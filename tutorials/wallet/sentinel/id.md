@@ -1,5 +1,5 @@
 ---
-name: Sentinel Watch-Only
+name: Sentinel
 description: Apa itu dompet Watch-Only dan bagaimana cara menggunakannya?
 ---
 ![cover](assets/cover.webp)

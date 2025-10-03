@@ -91,7 +91,7 @@ Klikk på "*Setup Jade*".
 
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
-Velg "Avansert oppsett*".
+Velg "Avansert oppsett".
 
 ![Image](assets/fr/07.webp)
 
@@ -103,7 +103,7 @@ Klikk på "*Fortsett*"-knappen for å vise den nye gjenopprettingsfrasen.
 
 ![Image](assets/fr/09.webp)
 
-Jade Plus viser din 12-ord lange huskeregel. **Denne huskeregelen gir deg full, ubegrenset tilgang til alle bitcoinsene dine. Alle som er i besittelse av denne frasen kan stjele pengene dine, selv uten fysisk tilgang til din Jade Plus. Frasen på 12 ord gjenoppretter tilgangen til bitcoinsene dine i tilfelle tap, tyveri eller ødeleggelse av din Jade. Det er derfor svært viktig å lagre den nøye og oppbevare den på et sikkert sted.
+Jade Plus viser din 12-ord lange huskeregel. **Denne huskeregelen gir deg full, ubegrenset tilgang til alle bitcoinsene dine. Alle som er i besittelse av denne frasen kan stjele pengene dine, selv uten fysisk tilgang til din Jade Plus. Frasen på 12 ord gjenoppretter tilgangen til bitcoinsene dine i tilfelle tap, tyveri eller ødeleggelse av din Jade. Det er derfor svært viktig å lagre den nøye og oppbevare den på et sikkert sted.**
 
 Du kan skrive det på pappen som følger med i esken, eller for ekstra sikkerhet anbefaler jeg å gravere det på en sokkel i rustfritt stål for å beskytte det mot brann, oversvømmelse eller kollaps.
 

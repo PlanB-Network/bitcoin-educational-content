@@ -187,7 +187,7 @@ SimpleX then generates a single-use link. You can forward it to your contact by 
 ![Image](assets/fr/15.webp)
 
 
-You can also choose which profile to associate with this invitation link. To do so, click on your profile just below the QR code. You will then be able to :
+You can also choose which profile to associate with this invitation link. To do so, click on your profile just below the QR code. You will then be able to:
 
 
 - select one of your existing profiles (we'll see how to create several profiles in the next section);
@@ -239,7 +239,7 @@ You can now freely exchange messages, calls and files with Bob, depending on the
 One of SimpleX's most powerful features is the ability to manage several completely separate user profiles, all accessible from the same local account. This allows you to separate your different identities neatly, without complicating message management.
 
 
-For example, you could create :
+For example, you could create:
 
 
 - A profile with your real name and a real photo for your professional exchanges;

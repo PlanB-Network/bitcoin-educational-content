@@ -1,12 +1,9 @@
-question: Mikä on yksi mahdollisista hyödyistä, joita Lightning Network tarjoaa sisällöntuottajille?
-answer: Heitä kannustettaisiin tuottamaan laadukasta sisältöä pitääkseen käyttäjien huomion.
+question: Mikä on yksi pääkysymyksistä rahoituksen tulevaisuutta koskien?
+answer: Kuka pitäisi hallita, valtuuttaa ja jäljittää käyttämämme rahat?
 wrong_answers:
-  - He voisivat veloittaa sisällöstään enemmän.
-  - He voisivat tavoittaa laajemman yleisön.
-  - He voisivat tuottaa sisältöä nopeammin pitääkseen käyttäjien huomion.
-explanation: |
-  Lightning Networkin avulla sisällöntuottajia kannustettaisiin
-  tuottamaan laadukasta sisältöä pitääkseen käyttäjien huomion.
-  Käyttäjät puolestaan maksaisivat vain kuluttamastaan
-  sisällöstä, mikä poistaisi etukäteen maksettavat tilausmaksut.
+  - Miten voimme poistaa rahan kokonaan käytöstä?
+  - Miten voimme varmistaa, että jokaisella on sama määrä rahaa?
+  - Miten voimme tehdä rahasta tarpeettoman?
+explanation: >-
+  Teksti nostaa esiin useita kysymyksiä rahoituksen tulevaisuudesta, joista yksi on kuka pitäisi hallita, valtuuttaa ja jäljittää käyttämämme rahat.
 reviewed: true

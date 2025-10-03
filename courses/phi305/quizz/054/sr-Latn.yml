@@ -1,0 +1,9 @@
+question: Koji filozof je razvio koncept nihilizma?
+answer: Niče.
+wrong_answers:
+  - Kant.
+  - Šopenhauer.
+  - Spinoza.
+explanation: |
+  Friedrich Nietzsche (1844-1900) konstruisao je i razvio koncept nihilizma. Za njega, nihilizam predstavlja devalvaciju vrhovnih vrednosti i gubitak smisla u zapadnoj kulturi.
+reviewed: false

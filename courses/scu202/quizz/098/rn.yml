@@ -1,0 +1,9 @@
+question: Ni igiki gikoreshwa cane mu gucapura urubuga rushingiye kuri VLAN mu rubuga rwo muhira?
+answer: Gutandukanya ubwoko butandukanye bw'ibikoresho canke ikoreshwa
+wrong_answers:
+  - Kwongera urutonde rwa Wi-Fi ku bikoresho
+  - Gushiramwo amakuru y'urubuga ku giti cabo kuri buri gikoresho
+  - Gushoboza WPA3 ubwavyo
+explanation: |
+  VLANs zishobora gukoreshwa mu gucapura ibikoresho, bikagabanya ukwiragira kw’igitero hagati y’ibice.
+reviewed: false

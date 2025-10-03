@@ -1,11 +1,10 @@
-question: Was ist das Blockchain-Trilemma?
-answer: Ein auf einer Blockchain basierendes Protokoll kann nur zwei der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
+question: Was ermöglicht das Lightning-Netzwerk?
+answer: Transaktionen zwischen Personen, die keine direkte Kanalverbindung haben.
 wrong_answers:
-  - Ein auf einer Blockchain basierendes Protokoll kann nur eines der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
-  - Ein auf einer Blockchain basierendes Protokoll kann alle Kriterien der Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
-  - Ein auf einer Blockchain basierendes Protokoll kann keines der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
+  - Nur direkte Kanalverbindungen mit zentralisierten Börsen zu erstellen.
+  - Kanalverbindungen zu erstellen, die für jede Transaktion mehrere Bestätigungen erfordern.
+  - Direkte Kanalverbindungen zu etablieren, die nur auf große Transaktionen beschränkt sind.
 explanation: |
-  Das Blockchain-Trilemma bezieht sich auf die Herausforderung, dass
-  ein auf einer Blockchain basierendes Protokoll nur zwei Kriterien aus
-  Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen kann.
+  Das Lightning-Netzwerk ermöglicht es, Transaktionen zwischen
+  Personen durchzuführen, die keine direkte Kanalverbindung haben.
 reviewed: true

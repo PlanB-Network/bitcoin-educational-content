@@ -1,5 +1,5 @@
 ---
-name: Deštník LND
+name: Umbrel LND
 description: Pokročilý návod na instalaci a konfiguraci Lightning Network Daemon (LND) v systému Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -154,7 +154,7 @@ Můžete si vybrat mezi vytvořením nového uzlu nebo obnovením uzlu ze záloh
 
 
 
-**Poznámka: V nejnovějších verzích Umbrelu poskytuje instalace aplikace Lightning toto 24slovo seed (samotný uzel Umbrel Bitcoin nikoli).
+**Poznámka: V nejnovějších verzích Umbrelu poskytuje instalace aplikace Lightning toto 24slovo seed (samotný uzel Umbrel Bitcoin nikoli).**
 
 
 
@@ -496,11 +496,11 @@ Uzel Lightning Umbrel vyžaduje dva typy záloh:
 
 - Obsahuje informace o kanálu Lightning
 - Umožňuje nucené uzavření kanálu v případě havárie
-- Důležité:** Nikdy neukládejte soubor `channel.db` ručně (riziko sankcí)
+- **Důležité:** Nikdy neukládejte soubor `channel.db` ručně (riziko sankcí)
 
 
 
-**Ruční postup zálohování
+**Ruční postup zálohování**
 
 
 
@@ -620,10 +620,10 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 
 
 
-- Aktualizace softwaru:** Udržujte Umbrel a LND v aktuálním stavu (opravy zabezpečení)
-- Hardwarová ochrana:** Použijte stabilní systém (Raspberry Pi s SSD, mini-PC) a UPS
-- Zabezpečení sítě:** Ponechte výchozí konfiguraci Toru, změňte heslo správce Umbrel (výchozí: "moneyprintergobrrr")
-- Šifrování:** Pokud je to možné, zapněte šifrování disku
+- **Aktualizace softwaru:** Udržujte Umbrel a LND v aktuálním stavu (opravy zabezpečení)
+- **Hardwarová ochrana:** Použijte stabilní systém (Raspberry Pi s SSD, mini-PC) a UPS
+- **Zabezpečení sítě:** Ponechte výchozí konfiguraci Toru, změňte heslo správce Umbrel (výchozí: "moneyprintergobrrr")
+- **Šifrování:** Pokud je to možné, zapněte šifrování disku
 
 
 
@@ -691,10 +691,10 @@ RTL je kompletní "švýcarský armádní nůž" pro správu uzlu Lightning s od
 
 
 
-- Lightning Shell** : Příkazový řádek (lncli) přes prohlížeč
-- BTC RPC Explorer a Mempool** : Monitorování Blockchain
-- LNmetrics & Torq**: Analýza výkonu směrování
-- Amboss a 1ML**: "Sociální" správa vašeho uzlu (aliasy, kontakty, analýza sítě)
+- **Lightning Shell**: Příkazový řádek (lncli) přes prohlížeč
+- **BTC RPC Explorer a Mempool**: Monitorování Blockchain
+- **LNmetrics & Torq**: Analýza výkonu směrování
+- **Amboss a 1ML**: "Sociální" správa vašeho uzlu (aliasy, kontakty, analýza sítě)
 
 
 

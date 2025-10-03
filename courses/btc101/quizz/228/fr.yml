@@ -1,10 +1,10 @@
-question: Les frais pour les transactions sur le Lightning Network sont extrêmement bas, souvent inférieurs à... ?
-answer: 0,5 %
+question: Quelle est l'unité de Bitcoin utilisée dans le Lightning Network ?
+answer: Sats
 wrong_answers:
-  - 1 %
-  - 2 %
-  - 3 %
-explanation: >-
-  Les frais pour les transactions sur le Lightning Network sont extrêmement bas, souvent
-  inférieurs à 0,5 %.
+  - Block
+  - Ether
+  - Litecoin
+explanation: |
+  Le Lightning Network utilise des satoshis (également appelés sats), le
+  décimal de bitcoin, pour fonctionner.
 reviewed: true

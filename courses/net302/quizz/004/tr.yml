@@ -1,0 +1,9 @@
+question: Bir bilgisayar ağında "topoloji" ne anlama gelir?
+answer: Cihazlar birbirine nasıl bağlanır?
+wrong_answers:
+  - İnternet bağlantı hızı
+  - İletişim için kullanılan protokol türü
+  - Bir ağ üzerinde kullanılan yönlendiricilerin markasına
+explanation: |
+  Topoloji, bir ağın fiziksel veya mantıksal yapısını ve bileşenlerinin nasıl bağlandığını ifade eder.
+reviewed: false

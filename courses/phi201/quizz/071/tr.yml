@@ -1,0 +1,9 @@
+question: Fizyokratların sloganı nedir?
+answer: Laissez-faire, laissez passer.
+wrong_answers:
+  - Devlet aynı anda hem bankacı, hem tüccar hem de tedarikçidir.
+  - Fransa ancak İngiltere ve Hollanda'nın mahvolmasıyla zenginleşebilir.
+  - Dupont de Nemours tarafından özetlendiği üzere ekonomi politik, medeni toplumlara uygulanan doğal hukuk bilimidir.
+explanation: |
+  Fizyokratların "Laissez-faire, laissez passer" sloganı, ekonominin devlet müdahalesinden uzak olduğunda geliştiğine ve piyasanın doğal güçlerinin serbestçe dengelenmesine izin verdiğine olan inançlarını ifade eder.
+reviewed: true

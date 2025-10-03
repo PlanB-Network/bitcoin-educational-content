@@ -29,8 +29,8 @@ Flash relies on the Lightning network, a Bitcoin overlay, to carry out bitcoin t
 There are two main services offered by the platform:
 
 
-- FlashX**: Exchange bitcoins with Mobile Money.
-- FlashPayment**: Use Bitcoin for everyday services.
+- **FlashX**: Exchange bitcoins with Mobile Money.
+- **FlashPayment**: Use Bitcoin for everyday services.
 
 
 With these two services, Flash aims to democratize the use of Bitcoin, to change the vision of those who see Bitcoin only as a safe haven, and to demonstrate that Bitcoin is a means of exchange compatible with African realities.
@@ -54,9 +54,9 @@ Flash operates its transactions using local Mobile Money. Depending on your loca
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Orange.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Orange.
 
 
 Buying bitcoins on Flash involves three steps.
@@ -117,10 +117,10 @@ In addition to buying and selling bitcoins, Flash offers its community contextua
 
 
 
-- GSM** units;
-- Internet packages**;
-- Calling packages**;
-- A combination of call and Internet package**.
+- **GSM** units;
+- **Internet packages**;
+- Calling **packages**;
+- A combination of call and Internet package.
 
 
 In the daily service access section, select the **Purchase unit** option.
@@ -152,4 +152,3 @@ If you found this tutorial helpful in getting to grips with Flash, please give u
 
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-

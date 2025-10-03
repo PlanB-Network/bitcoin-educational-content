@@ -1,0 +1,14 @@
+question: Ni iyihe ntumbero nyamukuru y’igikorwa c’ubutunzi nk’uko Carl Menger abivuga?
+answer: Intumbero nyamukuru y’igikorwa c’ubutunzi ni ugukoresha.
+wrong_answers:
+  - Intumbero nyamukuru y’igikorwa c’ubutunzi ni uguhingura.
+  - Intumbero nyamukuru y’igikorwa c’ubutunzi ni ukuzigama.
+  - Intumbero nyamukuru y’igikorwa c’ubutunzi ni ugushiramwo amahera.
+explanation: |
+  Nk’uko Carl Menger abivuga, ibintu bifatwa gusa .
+  ivy'ubutunzi (bifise agaciro) kuko bikora nk'uburyo bwo gushika ku ntumbero
+  gutoranywa kandi guhabwa agaciro n’abantu ku giti cabo. Ku bw’ivyo rero, kuri Menger, .
+  intango y’isesengura ry’ubutunzi ni ibicuruzwa vy’abaguzi,
+  canke ibintu vy’iherezo, kuko bigereranya intumbero nyamukuru y’
+  igikorwa c’ubutunzi.
+reviewed: true

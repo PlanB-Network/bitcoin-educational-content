@@ -1,5 +1,5 @@
 ---
-name: Pelabelan UTXO
+name: Labelling UTXO
 description: Bagaimana cara melabeli UTXO Anda dengan tepat?
 ---
 ![cover](assets/cover.webp)

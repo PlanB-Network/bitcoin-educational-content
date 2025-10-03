@@ -1,0 +1,13 @@
+question: Hiperenflasyonun üstesinden nasıl gelinebileceğine ilişkin konferanstan çıkarılacak temel sonuç nedir?
+answer: Hiperenflasyonun üstesinden gelmek için çeşitli stratejiler vardır, ancak bunlar yalnızca halkın bunlara güvenmesi ve hükümete katı kısıtlamalar getirilmesi halinde işe yarayacaktır.
+wrong_answers:
+  - Hiperenflasyonun üstesinden gelmenin tek yolu dolarizasyondur
+  - Hiperenflasyonun üstesinden gelmenin tek yolu yeni bir para birimini devreye sokmaktır
+  - Hiperenflasyonun üstesinden sadece para miktarını artırarak gelinebilir-0
+explanation: |
+  Konferansta bunun üstesinden gelmek için çeşitli stratejiler önerilmektedir
+  hiperenflasyon,
+  dolarizasyon veya yeni bir para biriminin getirilmesi gibi. Ancak, bu çözümler
+  ancak halkın kendilerine güvenmesi ve katı kısıtlamalar getirilmesi halinde işe yarar
+  hükümet üzerinde.
+reviewed: false

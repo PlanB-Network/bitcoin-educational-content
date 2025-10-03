@@ -1,0 +1,9 @@
+question: Mida tähendab "topoloogia" arvutivõrgus?
+answer: Kuidas seadmed on omavahel ühendatud
+wrong_answers:
+  - Interneti-ühenduse kiirus
+  - Sidepidamiseks kasutatava protokolli tüüp
+  - Võrgus kasutatavate marsruuterite tootemargi kohta
+explanation: |
+  Topoloogia viitab võrgu füüsilisele või loogilisele struktuurile ja sellele, kuidas selle komponendid on ühendatud.
+reviewed: false

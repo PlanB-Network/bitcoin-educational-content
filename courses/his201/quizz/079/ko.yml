@@ -1,0 +1,9 @@
+question: 2010년 12월에 누가 Bitcoin.it 위키를 만들었나요?
+answer: 마크 카펠레스(매지컬턱스)
+wrong_answers:
+  - 마이클 마쿼트(Theymos)
+  - 마르티 말미 (sirius-m)
+  - 아미르 타키(genjix)
+explanation: |
+  덜 형식적이고 커뮤니티에 초점을 맞춘 위키를 개발하자는 아이디어(https: //buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848)가 있었습니다.
+reviewed: true

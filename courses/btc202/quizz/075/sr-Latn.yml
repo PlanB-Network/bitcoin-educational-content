@@ -1,0 +1,9 @@
+question: Zašto veličina UTXO skupa teži da strukturalno raste tokom vremena?
+answer: Svaka uplata obično stvara dva nova UTXO-a
+wrong_answers:
+  - Konvencionalna plaćanja ne troše UTXO u ulazu
+  - Svaki Fork množi broj postojećih UTXO-a
+  - Broj bitkoina koji se može stvoriti je beskonačan
+explanation: |
+  Transakcija plaćanja troši jedan UTXO i često rekreira dva (plaćanje + Exchange), povećavajući ukupnu veličinu skupa.
+reviewed: true

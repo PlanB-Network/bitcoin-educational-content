@@ -1,0 +1,9 @@
+question: UmbrelOS hangi lisans altında dağıtılmaktadır?
+answer: PolyForm Ticari Olmayan 1.0
+wrong_answers:
+  - MIT
+  - GPLv3
+  - Apache 2.0
+explanation: |
+  umbrelOS, kişisel kullanıma izin veren ancak ticari kullanımı yasaklayan PolyForm Noncommercial 1.0 lisansı altında yayınlanmaktadır.
+reviewed: true

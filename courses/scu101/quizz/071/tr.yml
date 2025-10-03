@@ -1,0 +1,11 @@
+question: Bir parola yöneticisinin ana parolasını yönetmek için önerilen uygulama nedir?
+answer: Bunu bir kağıda yazın ve güvenli bir yerde saklayın.
+wrong_answers:
+  - E-postanızda saklayın.
+  - Tüm hesaplar için aynı parolayı kullanın.
+  - Ezberleyin.
+explanation: |
+  Bir parola yöneticisinin ana parolasının kağıda yazılması ve gizli ve güvenli bir yerde saklanması tavsiye edilir. 
+  Bunun nedeni, hard disk (sabit disk) şifrelenmiş ve bilgisayar kilitli olguğunda, bir hırsızlık durumunda bile şifrenin
+  erişililebilir olmamasıdır.
+reviewed: true

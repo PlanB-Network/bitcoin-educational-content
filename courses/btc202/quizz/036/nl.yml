@@ -1,0 +1,9 @@
+question: Wat is het voordeel van een speciale laptop ten opzichte van een mini-pc?
+answer: De batterij werkt als een omvormer
+wrong_answers:
+  - Het is stiller
+  - Het gaat langer mee
+  - Het verbruikt minder energie
+explanation: |
+  De batterij van een laptop werkt als een natuurlijke UPS en voorkomt plotselinge onderbrekingen in het geval van een stroomstoring.
+reviewed: true

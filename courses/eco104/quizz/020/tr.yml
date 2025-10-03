@@ -1,0 +1,12 @@
+question: Tether'in çeşitli sabit coinleri istikrarsız ekonomilerdeki bireyler için finansal özgürlüğe nasıl katkıda bulunur?
+answer: İstikrarlı Exchange oranlarına sahip para birimlerine erişim sağlayarak
+wrong_answers:
+  - Fiziksel nakit ihtiyacını ortadan kaldırarak
+  - Tasarruflara daha yüksek faiz oranları sunarak
+  - Anında küresel işlemlere olanak sağlayarak
+explanation: |
+  Tether'in çeşitli sabit coinleri ABD gibi istikrarlı varlıklara sabitlenmiştir
+  dolar veya altın. Bu istikrar, istikrarsız ekonomilerdeki bireylerin
+  paralarını aynı kurallara tabi olmayan bir para birimine taşımak için
+  enflasyon oranları, birikimlerinin değerini korumalarına yardımcı olur.
+reviewed: true

@@ -87,8 +87,8 @@ När ditt konto har verifierats kommer du att få tillgång till plattformen dä
 
 
 
-- Kraken**: En förenklad Interface med viktiga funktioner.
-- Kraken Pro**: En avancerad Interface med ytterligare funktioner, särskilt för handel.
+- **Kraken**: En förenklad Interface med viktiga funktioner.
+- **Kraken Pro**: En avancerad Interface med ytterligare funktioner, särskilt för handel.
 
 
 Om ditt mål enbart är att köpa och sälja Bitcoin ska du välja den förenklade Interface. Du kommer alltid att ha möjlighet att byta till den avancerade Interface senare om det behövs.
@@ -112,7 +112,7 @@ I 2FA-alternativen kan du välja att använda en fysisk säkerhetsnyckel som en 
 ![KRAKEN](assets/fr/11.webp)
 
 
-För mer information om hur du använder den här typen av enhet, se vår dedikerade handledning :
+För mer information om hur du använder den här typen av enhet, se vår dedikerade handledning:
 
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
@@ -129,7 +129,7 @@ För att aktivera denna metod, skanna QR-koden med den applikation du väljer p�
 ![KRAKEN](assets/fr/13.webp)
 
 
-För mer information om autentiseringsapplikationer kan du också läsa denna handledning :
+För mer information om autentiseringsapplikationer kan du också läsa denna handledning:
 
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
@@ -139,7 +139,7 @@ Därunder har du också tillgång till avancerade inställningar, inklusive möj
 
 
 
-- Huvudnyckeln** fungerar som en återställningsmekanism som ska användas om du inte kan komma åt din vanliga 2FA-metod för att logga in;
+- **Huvudnyckeln** fungerar som en återställningsmekanism som ska användas om du inte kan komma åt din vanliga 2FA-metod för att logga in;
 - **2FA för finansiering** kräver ytterligare autentisering för alla uttagstransaktioner eller när du skapar en insättning Address, vilket stärker säkerheten för dina medel;
 - Med **2FA för handel** införs en 2FA för varje transaktion som utförs på kontot.
 
@@ -233,9 +233,9 @@ För dessa transaktioner kan du välja mellan olika ordertyper: *Marknad*, *Limi
 
 
 
-- Marknad* : Tillåter omedelbart köp till aktuellt marknadspris;
-- Begränsa*: Låter dig ange ett inköpspris, och ordern kommer endast att utföras om marknadspriset når detta belopp;
-- Stop-Loss* : Säljer automatiskt när kursen når ett visst tröskelvärde.
+- **Marknad**: Tillåter omedelbart köp till aktuellt marknadspris;
+- **Begränsa**: Låter dig ange ett inköpspris, och ordern kommer endast att utföras om marknadspriset når detta belopp;
+- **Stop-Loss**: Säljer automatiskt när kursen når ett visst tröskelvärde.
 
 
 ## 7 - Transaktionshantering och redovisning
@@ -317,7 +317,7 @@ Beroende på ditt företags mål och struktur kan användningen av Kraken varier
 - Exportera transaktionshistorik efter behov.
 
 
-För en mer djupgående titt på detta ämne rekommenderar jag denna omfattande utbildningskurs om att integrera Bitcoin i företag, som i detalj täcker att lägga till kassaflöde, acceptera Bitcoin-betalningar och redovisning :
+För en mer djupgående titt på detta ämne rekommenderar jag denna omfattande utbildningskurs om att integrera Bitcoin i företag, som i detalj täcker att lägga till kassaflöde, acceptera Bitcoin-betalningar och redovisning:
 
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

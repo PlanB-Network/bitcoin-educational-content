@@ -975,7 +975,7 @@ x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
 
-(det största primtal som är mindre än $2^{256}$). Koordinaten $x$ är den privata nyckeln och koordinaten $y$ är din offentliga nyckel.
+(som är det största primtalet mindre än $2^{256}$).
 
 
 Transaktioner i Bitcoin innebär vanligtvis att utgångar låses till en eller flera publika nycklar på något sätt. Värdet från dessa transaktioner kan sedan låsas upp genom att göra digitala signaturer med motsvarande privata nycklar.

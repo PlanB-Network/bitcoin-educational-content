@@ -1,0 +1,9 @@
+question: Marx'a göre insan haklarının temel sınırlaması nedir?
+answer: Sadece biçimsel ve soyut bir özgürlüğü korurlar.
+wrong_answers:
+  - Bunlar doğal haklardır.
+  - Bunlar isteğe bağlı haklardır.
+  - Devrimi önlüyorlar.
+explanation: |
+  Marx insan haklarını, kapitalist toplumdaki sömürünün maddi koşullarını fiilen dönüştürmeden soyut bir bireysel özgürlüğü garanti ettikleri için biçimsel olarak adlandırarak eleştirir.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ShR과 RotR 운영의 주요 차이점은 무엇인가요?
+answer: ShR은 0을 추가하여 비트를 이동하고, RotR은 이동된 비트를 다시 삽입합니다
+wrong_answers:
+  - ShR은 시프트된 비트를 제거하고, RotR은 해당 값을 곱합니다
+  - ShR은 왼쪽으로, RotR은 오른쪽으로 이동합니다
+  - ShR은 논리 연산, RotR은 산술 연산입니다
+explanation: |
+  ShR은 0을 추가하여 비트를 오른쪽으로 이동하는 반면, RotR은 비트를 원형으로 회전합니다.
+reviewed: false

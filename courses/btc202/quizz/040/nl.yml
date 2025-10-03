@@ -1,0 +1,9 @@
+question: Waar is de meest actieve Umbrel-gemeenschap?
+answer: Op Discord en het online forum
+wrong_answers:
+  - Op Instagram
+  - Op LinkedIn en het online forum
+  - Op IRC
+explanation: |
+  Umbrel heeft een zeer actieve community op Discord en op het online forum, waar gebruikers Exchange hulp en ondersteuning bieden.
+reviewed: true

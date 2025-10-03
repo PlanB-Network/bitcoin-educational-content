@@ -1,0 +1,10 @@
+question: Muri izo nzira, ni iyihe itari uburyo bwo guhitamwo igice bwite?
+answer: Ukwishyura mu gacerere
+wrong_answers:
+  - Ishami-n'Imbohe
+  - FIFO
+  - Umufuko wo gutorera umuti
+explanation: |
+  Udakunze izindi nzira zitatu, Silent Payments si uburyo bwo guhitamwo ibice, ahubwo ni umurongo wo gukoresha amaderesi adahinduka.
+  
+reviewed: false

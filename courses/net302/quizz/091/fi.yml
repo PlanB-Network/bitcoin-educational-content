@@ -1,0 +1,9 @@
+question: Mitä komentoa käytetään isännän avointen porttien skannaamiseen ja käytettävissä olevien palvelujen tunnistamiseen?
+answer: nmap
+wrong_answers:
+  - dig
+  - ethtool
+  - ip neigh
+explanation: |
+  nmap havaitsee avoimet portit, altistuneet palvelut ja joskus myös etäkäyttöjärjestelmän tyypin.
+reviewed: false

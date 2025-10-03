@@ -1,0 +1,9 @@
+question: Какой конфигурационный файл определяет статическую сеть Interface в системе типа RHEL?
+answer: ifcfg-[Interface]
+wrong_answers:
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/network/interfaces
+explanation: |
+  В RHEL, CentOS и подобных системах каждый Interface имеет свой собственный файл ifcfg-*, расположенный в /etc/sysconfig/network-scripts/.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: リアーナ
+name: Liana
 description: Lianaでのウォレットの設定と使用
 ---
 ![cover](assets/cover.webp)
@@ -65,7 +65,7 @@ Wizardsardineの公式サイトにアクセスし、https://wizardsardine.com/li
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-ソフトウェアをマシンにインストールし、起動します。Create a new Liana wallet*"オプションを選択し、ウォレットを設定します。
+ソフトウェアをマシンにインストールし、起動します。**Create a new Liana wallet**オプションを選択し、ウォレットを設定します。
 
 ![Accueil Liana](assets/fr/03.webp)
 
@@ -91,7 +91,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 ![Choisir le type de descripteur](assets/fr/07.webp)
 
-次に、主キー（*primary key*）を設定する。このキー（というより、このキーのセット）は、現在の資金支出に使用され、いかなるタイミング条件にも左右されない。Set*」をクリックすると、対応する*署名デバイス*を選択できる。私たちのケースでは、Ledger Nano S Plusハードウェアウォレットを選択しました。
+次に、主キー（*primary key*）を設定する。このキー（というより、このキーのセット）は、現在の資金支出に使用され、いかなるタイミング条件にも左右されない。「Set」をクリックすると、対応する*署名デバイス*を選択できる。私たちのケースでは、Ledger Nano S Plusハードウェアウォレットを選択しました。
 
 デバイスからの拡張公開鍵の共有を許可する。この鍵に意味のある名前を付けます（この場合は「Nano S+」）。デバイスにインストールされているすべてのアプリケーションは正常に機能し続けることに注意してください。
 
@@ -105,7 +105,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 ![Configurer temps de verrouillage](assets/fr/09.webp)
 
-最後に、遺産キーを設定する。この鍵（というより鍵のセット）は、あなたが失踪した場合に資金を回収するために使用される。Set*」をクリックし、署名デバイスを選択し、拡張公開鍵の共有を検証する。
+最後に、遺産キーを設定する。この鍵（というより鍵のセット）は、あなたが失踪した場合に資金を回収するために使用される。**Set**をクリックし、署名デバイスを選択し、拡張公開鍵の共有を検証する。
 
 このチュートリアルでは、Jadeを選びました。キーには、連想させるような名前（ここでは "Jade"）を付けてください。最初のデバイスと同様に、従来のアカウントは機能し続けます。
 
@@ -187,7 +187,7 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 ![Vérifier solde](assets/fr/23.webp)
 
-コイン*」タブで資金の有効期限を確認できます。このタブには、あなたのウォレット内の異なるコイン（UTXO）が表示されます。ここでは、私たちの取引で作成された50,000 satoshisコインの有効期限が同日（1時間後）であることがわかります。
+コイン」タブで資金の有効期限を確認できます。このタブには、あなたのウォレット内の異なるコイン（UTXO）が表示されます。ここでは、私たちの取引で作成された50,000 satoshisコインの有効期限が同日（1時間後）であることがわかります。
 
 ![Obtenir informations pièce](assets/fr/24.webp)
 
@@ -293,7 +293,7 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 ![Récupération des pièces](assets/fr/42.webp)
 
-Sign*」をクリックして取引に署名し、ハードウェアウォレットで取引を検証します。
+**Sign**」をクリックして取引に署名し、ハードウェアウォレットで取引を検証します。
 
 ![Signer transaction clé de récupération](assets/fr/43.webp)
 
@@ -324,7 +324,7 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 - `[3689a8e7/48'/0'/0'/2']`:この要素には、メイン・ハードウェア・ウォレット(この場合は Nano S Plus)のマスターキーの*フィンガープリント*と、リンクされた拡張秘密鍵(他のすべての秘密鍵はここから派生する)への派生パスが含まれる。
 - xpub6FKY ...WQa`：これはメイン・ハードウェア・ポートフォリオ（ここでは Nano S Plus）にリンクされた拡張公開鍵である。
 - `/<0;1>/*`:0`は受信用、`1`は内部操作(*change*)用で、「ワイルドカード」(`*`)を使用することで、古典的なポートフォリオ・ソフトウェアの「ギャップ制限」管理に似た、設定可能な方法で複数のアドレスを順次派生させることができる。
-- and_v`：and_v`: これは論理演算子で、出費を認めるには以下の2つの*条件を満たさなければならないことを示します（`_v`は特定の構文を示します）。
+- and_v`：and_v`: これは論理演算子で、出費を認めるには以下の2つの**条件**を満たさなければならないことを示します（`_v`は特定の構文を示します）。
 - v:pkh`（*verify: public key hash*の略）：この演算子は、与えられた署名と公開鍵を、その後に続く公開鍵ハッシュ (*hash*) に対して検証する。これは基本的に P2PKH や P2WPKH スクリプトと同じチェックである。
 - `[42e629dd/48'/0'/0'/2']`:これは上記と同じ要素（トレースと派生パスからなる）であるが、ハードウェア・リカバリ・ポート フォリオのマスターキー（この場合は Jade）のトレースが示されている。
 - xpub6DpQ ...WQd`：ハードウェア・リカバリー・ウォレット（ここでは Jade）にリンクされている拡張公開鍵である。

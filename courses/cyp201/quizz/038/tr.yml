@@ -1,0 +1,9 @@
+question: Bir Bitcoin Address'ın yeniden kullanılması neden önerilmez?
+answer: İşlemlerin üçüncü taraflarca izlenmesini kolaylaştırır
+wrong_answers:
+  - Nonce nedeniyle özel anahtarı ortaya çıkarır
+  - İşlemleri daha pahalı hale getirir
+  - Dijital imzaları geçersiz kılar
+explanation: |
+  Bir Address'ün yeniden kullanılması, gözlemcilerin farklı işlemleri aynı kullanıcıya kolayca bağlamasına olanak tanıyarak gizliliklerini tehlikeye atar.
+reviewed: false

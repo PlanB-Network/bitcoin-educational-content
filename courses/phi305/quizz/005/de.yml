@@ -1,0 +1,9 @@
+question: Welcher Wissenschaftler glaubt, dass die Mathematik die Sprache des Universums ist?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Kopernikus.
+explanation: |
+  Galilei ist berühmt für seine Behauptung, dass "das Buch der Natur in mathematischer Sprache geschrieben ist". Diese Vision hatte einen tiefgreifenden Einfluss auf die moderne Wissenschaft und die rationalistische Philosophie, einschließlich derjenigen von Spinoza.
+reviewed: false

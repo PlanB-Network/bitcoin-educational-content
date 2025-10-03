@@ -1,0 +1,9 @@
+question: Mida tuleb lisada NATile, et võrk oleks korralikult kaitstud?
+answer: Tulemüür
+wrong_answers:
+  - Kohalik DNS-server
+  - HTTP-proxy
+  - Viirusetõrje
+explanation: |
+  NATist üksi ei piisa pahatahtliku liikluse filtreerimiseks: seda tuleb täiendada tulemüürireeglitega, et kontrollida liiklust peenelt.
+reviewed: false

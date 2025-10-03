@@ -1,11 +1,12 @@
-question: Jaka jest data ostatniej znanej prywatnej wiadomości Satoshi Nakamoto za pośrednictwem poczty elektronicznej?
-answer: 23 kwietnia 2011 r.
+question: Jakie znaczenie ma geograficzne rozmieszczenie węzłów Bitcoin?
+answer: Praktycznie uniemożliwia to zniszczenie wszystkich kopii Blockchain.
 wrong_answers:
-  - 12 grudnia 2010 r.
-  - 8 stycznia 2009 r.
-  - 31 października 2008 r.
+  - Określa cenę Bitcoin w różnych regionach.
+  - Wpływa to na szybkość transakcji Bitcoin.
+  - Określa on liczbę bitcoinów, które można wydobyć w danym regionie.
 explanation: |
-  Data ostatniej znanej prywatnej wiadomości Satoshi
-  Nakamoto za pośrednictwem poczty elektronicznej to 23 kwietnia 2011 roku. Została ona wysłana do
-  dewelopera Mike'a Hearna.
+  Rozmieszczenie geograficzne węzłów Bitcoin sprawia, że
+  praktycznie niemożliwe do zniszczenia wszystkich kopii
+  Blockchain. Ponieważ węzły są rozproszone, trudno jest
+  fizycznie przejąć je wszystkie.
 reviewed: true

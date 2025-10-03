@@ -1,0 +1,9 @@
+question: Vad innebär det att på konstgjord väg ändra sin MAC Address?
+answer: MAC-spoofing
+wrong_answers:
+  - MAC-phishing
+  - MAC-sniffning
+  - Keylogging på Mac
+explanation: |
+  MAC-spoofing innebär att man ändrar hårdvaran Address i ett nätverk Interface, ofta av integritetsskäl eller för att kringgå restriktioner.
+reviewed: false

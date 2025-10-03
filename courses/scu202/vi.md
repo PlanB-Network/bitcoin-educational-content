@@ -156,7 +156,7 @@ Bạn đã sẵn sàng kiểm soát hoàn toàn bảo mật CNTT, củng cố ch
 
 
 
-*Lưu ý: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa
+*Lưu ý: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa*
 
 
 
@@ -572,7 +572,7 @@ Unix có thể được xem là một sự tiến hóa và phản ứng lại h�
 
 
 
-Chính tại thời điểm này, Unix đã ra đời, ban đầu được đặt tên là "*UNICS*" (viết tắt của "UNiplexed Information and Computing Service*), trái ngược hoàn toàn với "*MULTiplexed Information and Computing Service*", viết tắt của Multics. Cách tiếp cận mới này đề cao sự đơn giản, tính mô-đun và hiệu quả, trái ngược với sự phức tạp quá mức của Multics.
+Chính tại thời điểm này, Unix đã ra đời, ban đầu được đặt tên là "*UNICS*" (viết tắt của "*UNiplexed Information and Computing Service*"), trái ngược hoàn toàn với "*MULTiplexed Information and Computing Service*", viết tắt của Multics. Cách tiếp cận mới này đề cao sự đơn giản, tính mô-đun và hiệu quả, trái ngược với sự phức tạp quá mức của Multics.
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman công khai chỉ trích việc sử dụng thuật ngữ "ngu�
 
 
 
-*Nguồn: Nathaniel Welch
+**Nguồn:** Nathaniel Welch
 
 
 
@@ -794,7 +794,7 @@ Những nỗ lực ban đầu này đánh dấu sự ra đời của các bản 
 
 
 
-- Tháng 2 năm 1992: MCC Interim Linux**
+- Tháng 2 năm 1992: **MCC Interim Linux**
 
 
 
@@ -804,7 +804,7 @@ Những nỗ lực ban đầu này đánh dấu sự ra đời của các bản 
 
 
 
-- Tháng 5 năm 1992: Hệ thống Linux Softlanding (SLS)**
+- Tháng 5 năm 1992: Hệ thống Linux Softlanding (SLS)
 
 
 
@@ -826,7 +826,7 @@ SLS hiện không còn tồn tại nữa. Phiên bản cuối cùng được bi�
 
 
 
-- Tháng 7 năm 1993: Slackware**
+- Tháng 7 năm 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware vẫn được duy trì cho đến ngày nay, khiến nó trở thành
 
 
 
-- Tháng 8 năm 1993: Debian**
+- Tháng 8 năm 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Do đó, Debian đã trở thành một trong những trụ cột về mặt k�
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -962,7 +962,7 @@ Các bản phân phối quan trọng khác từ họ này bao gồm Oracle Linux
 
 
 
-Dòng Arch Linux nổi bật với triết lý hoàn toàn trái ngược với các bản phân phối sẵn có. Chúng tối giản và được thiết kế theo nguyên tắc "*KISS*" ("Giữ mọi thứ đơn giản, đồ ngốc*"). Arch Linux cung cấp một hệ thống cơ bản, gọn gàng, mà người dùng phải tự xây dựng theo nhu cầu của mình.
+Dòng Arch Linux nổi bật với triết lý hoàn toàn trái ngược với các bản phân phối sẵn có. Chúng tối giản và được thiết kế theo nguyên tắc "*KISS*" ("Giữ mọi thứ đơn giản, đồ ngốc"). Arch Linux cung cấp một hệ thống cơ bản, gọn gàng, mà người dùng phải tự xây dựng theo nhu cầu của mình.
 
 
 
@@ -1050,7 +1050,7 @@ Việc lựa chọn bản phân phối Linux phụ thuộc vào nhu cầu cụ t
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1066,7 +1066,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1086,7 +1086,7 @@ Mint nổi bật nhờ tính đơn giản, mặc định tích hợp sẵn codec
 
 
 
-- Hệ điều hành Zorin**:
+- Hệ điều hành **Zorin**:
 
 
 
@@ -1104,7 +1104,7 @@ Quá trình cài đặt diễn ra suôn sẻ, các phần mềm thiết yếu đ
 
 
 
-- hệ điều hành cơ bản**:
+- **hệ điều hành cơ bản**:
 
 Ra mắt năm 2011, Elementary OS là một bản phân phối dựa trên Ubuntu, tập trung chủ yếu vào thiết kế và tính nhất quán của Interface. Môi trường desktop Pantheon của nó, lấy cảm hứng từ macOS, mang phong cách tối giản, thanh lịch và mượt mà. Tuy nhiên, hệ thống vẫn còn ít tùy chỉnh hơn so với các bản phân phối khác, và một số người dùng nâng cao có thể cảm thấy bị giới hạn bởi các lựa chọn của Interface và cấu trúc cố định của nó. Nó rất phù hợp với những người dùng yêu thích thẩm mỹ, đang tìm kiếm một hệ thống đơn giản, mạch lạc cho nhu cầu sử dụng hàng ngày.
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Hệ điều hành Pop!OS**:
+- Hệ điều hành **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Fedora** (Máy trạm hoặc KDE Plasma):
+- **Fedora** (Máy trạm hoặc KDE Plasma):
 
 
 
@@ -1154,7 +1154,7 @@ Fedora là một bản phân phối được Red Hat hỗ trợ, hướng đến
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed hoặc Leap):
+- **openSUSE** (Tumbleweed hoặc Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE có sẵn dưới dạng bản phát hành liên tục hoặc bản ph�
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,7 +1182,7 @@ Debian tồn tại ở nhiều nhánh, bao gồm *Ổn định* (phần mềm r�
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Dựa trên Arch, Manjaro giúp Arch Linux dễ tiếp cận hơn. Bản phân p
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### Phân phối chuyên biệt
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux là một bản phân phối dựa trên Debian được thiết kế cho mục đích kiểm tra xâm nhập và kiểm tra bảo mật. Nó bao gồm hàng trăm công cụ kiểm tra thâm nhập. Tuy nhiên, bản phân phối này không thực sự phù hợp để làm hệ thống chính cho mục đích sử dụng hàng ngày.
 
@@ -1224,7 +1224,7 @@ Kali Linux là một bản phân phối dựa trên Debian được thiết kế
 
 
 
-- Hệ điều hành Parrot**:
+- Hệ điều hành **Parrot**:
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS cũng được phát triển từ Debian. Nó cung cấp một môi tr
 
 
 
-- Đuôi**:
+- **Đuôi**:
 
 
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Hệ điều hành Qubes**:
+- Hệ điều hành **Qubes**:
 
 
 
@@ -1272,7 +1272,7 @@ Hệ điều hành Qubes dựa trên Fedora và sử dụng hệ thống ảo h�
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch là một phần mở rộng hướng đến kiểm thử thâm nhập
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1300,9 +1300,9 @@ PureOS là một bản phân phối dựa trên Debian do Purism phát triển, 
 
 
 
-- Hệ điều hành Raspberry Pi**:
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-
+- **Hệ điều hành Raspberry Pi**:
 
 Raspberry Pi OS (trước đây là Raspbian) là một bản phân phối được tối ưu hóa cho máy vi tính Raspberry Pi. Hệ điều hành này dựa trên Debian, với các gói được biên dịch lại cho kiến trúc ARM. Nó có thể được sử dụng cho các dự án giáo dục, thử nghiệm điện tử hoặc máy chủ cá nhân nhỏ.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (trước đây là Raspbian) là một bản phân phối đư�
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1326,36 +1326,23 @@ Whonix kết hợp Debian với mạng Tor trong kiến trúc hai máy ảo (gat
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Toàn cảnh này cung cấp cho bạn cái nhìn tổng quan về hệ sinh thái phân phối Linux hiện tại, cho phép bạn lựa chọn bản phân phối phù hợp nhất với mục tiêu và hồ sơ kỹ thuật của mình.
-
-
 
 Trong chương tiếp theo của SCU202, chúng ta sẽ xem xét kỹ hơn môi trường Linux thực tế, bắt đầu với môi trường đồ họa tạo thành nền tảng cho các tương tác hàng ngày của bạn với hệ thống.
 
-
-
 ## Môi trường máy tính để bàn Linux
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 Trong hệ thống GNU/Linux, môi trường desktop đóng một trong những vai trò quan trọng nhất trong trải nghiệm người dùng. Chính Layer đồ họa cho phép tương tác với hệ thống, dựa trên các biểu diễn trực quan quen thuộc: cửa sổ, menu, biểu tượng, bảng điều khiển và các ứng dụng được cài đặt sẵn.
-
-
 
 Trong chương này, tôi sẽ khám phá cấu trúc và vai trò của môi trường máy tính để bàn, các thành phần điển hình, các họ chính có sẵn, tiêu chí lựa chọn và cách tích hợp chúng vào các bản phân phối Linux phổ biến nhất.
 
-
-
 ### Môi trường văn phòng là gì?
 
-
-
 Môi trường máy tính để bàn (hay "*DE*" viết tắt của *Môi trường Máy tính để bàn*) là tập hợp các chương trình tạo nên Interface đồ họa hoàn chỉnh của một hệ điều hành. Trên Windows và macOS, một môi trường máy tính để bàn duy nhất được cung cấp theo mặc định, được tích hợp vào hệ thống, không có khả năng chỉnh sửa toàn bộ (chỉ có một số shell nhất định có thể chỉnh sửa một phần Interface). Mặt khác, các hệ thống Linux mang tính mô-đun hơn nhiều, coi môi trường máy tính để bàn như một thành phần độc lập có thể được thay thế tự do.
-
-
 
 Trong Linux, điều quan trọng là phải phân biệt rõ ràng giữa tất cả các lớp: nhân (quản lý tương tác với phần cứng), máy chủ hiển thị (đóng vai trò trung gian giữa các ứng dụng, trình điều khiển đồ họa và phần cứng thông qua nhân), và cuối cùng là môi trường máy tính để bàn, dựa trên cơ sở hạ tầng này để cung cấp giao diện đồ họa Interface nhất quán cho người dùng. Sự phân biệt này đôi khi có thể không rõ ràng, vì nhiều bản phân phối Linux được cài đặt sẵn một môi trường máy tính để bàn, đôi khi bao gồm cả trình soạn thảo Wayland riêng, sau đó hoạt động như một máy chủ hiển thị.
 
@@ -1375,55 +1362,55 @@ Môi trường máy tính để bàn trong bản phân phối Linux không phả
 
 
 
-- Trình quản lý cửa sổ**: vẽ đường viền cửa sổ, quản lý vị trí, thay đổi kích thước và hiệu ứng chuyển tiếp... Ví dụ: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Trình quản lý cửa sổ**: vẽ đường viền cửa sổ, quản lý vị trí, thay đổi kích thước và hiệu ứng chuyển tiếp... Ví dụ: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Trình quản lý tệp**: cho phép bạn điều hướng qua cây thư mục, sao chép, di chuyển hoặc xóa tệp một cách trực quan. Ví dụ: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Trình quản lý tệp**: cho phép bạn điều hướng qua cây thư mục, sao chép, di chuyển hoặc xóa tệp một cách trực quan. Ví dụ: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Trung tâm cấu hình**: đây là một bộ công cụ cho phép người dùng sửa đổi các thông số hệ thống mà không cần thông qua dòng lệnh: giao diện, hình nền, quản lý người dùng, mạng, thiết bị ngoại vi...
+- **Trung tâm cấu hình**: đây là một bộ công cụ cho phép người dùng sửa đổi các thông số hệ thống mà không cần thông qua dòng lệnh: giao diện, hình nền, quản lý người dùng, mạng, thiết bị ngoại vi...
 
 
 
 
 
-- Các ứng dụng hệ thống**: đây là các biểu tượng nhỏ và mô-đun tương tác trên thanh tác vụ (hoặc "bảng điều khiển"), chẳng hạn như điều khiển âm thanh, mức pin, kết nối mạng, đồng hồ...
+- **Các ứng dụng hệ thống**: đây là các biểu tượng nhỏ và mô-đun tương tác trên thanh tác vụ (hoặc "bảng điều khiển"), chẳng hạn như điều khiển âm thanh, mức pin, kết nối mạng, đồng hồ...
 
 
 
 
 
-- Bảng điều khiển**: thanh hiển thị, thường ở trên cùng hoặc dưới cùng của màn hình, chứa menu chính, ứng dụng hệ thống, phím tắt, vùng thông báo, v.v.
+- **Bảng điều khiển**: thanh hiển thị, thường ở trên cùng hoặc dưới cùng của màn hình, chứa menu chính, ứng dụng hệ thống, phím tắt, vùng thông báo, v.v.
 
 
 
 
 
-- Trình quản lý phiên**: chạy khi khởi động, hiển thị màn hình đăng nhập và khởi chạy phiên đồ họa đã chọn. Ví dụ: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Trình quản lý phiên**: chạy khi khởi động, hiển thị màn hình đăng nhập và khởi chạy phiên đồ họa đã chọn. Ví dụ: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Trình quản lý thông báo**: quản lý việc hiển thị thông báo hệ thống (tin nhắn, cảnh báo, cập nhật, v.v.). Ví dụ: dunst, Plasma-notifier, xfce4-notifyd.
+- **Trình quản lý thông báo**: quản lý việc hiển thị thông báo hệ thống (tin nhắn, cảnh báo, cập nhật, v.v.). Ví dụ: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- Trình soạn thảo X11 (tùy chọn)**: thêm hiệu ứng hình ảnh (bóng đổ, độ trong suốt, hoạt ảnh) vào các môi trường mà trình quản lý cửa sổ không hỗ trợ soạn thảo. Ví dụ: compton, picom.
+- **Trình soạn thảo X11 (tùy chọn)**: thêm hiệu ứng hình ảnh (bóng đổ, độ trong suốt, hoạt ảnh) vào các môi trường mà trình quản lý cửa sổ không hỗ trợ soạn thảo. Ví dụ: compton, picom.
 
 
 
 
 
-- Máy chủ hiển thị**: đây là phần mềm xử lý giao tiếp giữa hệ thống (thông qua kernel và trình điều khiển đồ họa) và các ứng dụng đồ họa. Nó hiển thị các cửa sổ trên màn hình và quản lý các thao tác nhập liệu bằng bàn phím và chuột. Máy chủ hiển thị thường là một thành phần riêng biệt của môi trường máy tính để bàn, nhưng ngày càng nhiều hệ thống áp dụng Wayland, một giao thức hiện đại cho phép trình quản lý cửa sổ (ví dụ: Mutter trong GNOME hoặc KWin trong KDE) đảm nhiệm vai trò máy chủ hiển thị. Điều này được gọi là "sắp xếp Wayland".
+- **Máy chủ hiển thị**: đây là phần mềm xử lý giao tiếp giữa hệ thống (thông qua kernel và trình điều khiển đồ họa) và các ứng dụng đồ họa. Nó hiển thị các cửa sổ trên màn hình và quản lý các thao tác nhập liệu bằng bàn phím và chuột. Máy chủ hiển thị thường là một thành phần riêng biệt của môi trường máy tính để bàn, nhưng ngày càng nhiều hệ thống áp dụng Wayland, một giao thức hiện đại cho phép trình quản lý cửa sổ (ví dụ: Mutter trong GNOME hoặc KWin trong KDE) đảm nhiệm vai trò máy chủ hiển thị. Điều này được gọi là "sắp xếp Wayland".
 
 
 
@@ -1890,7 +1877,7 @@ Sau khi khởi động Ubuntu, trình hướng dẫn cài đặt sẽ hướng d
 
 
 
-- Cài đặt cùng với Windows (*khởi động kép*)**
+- Cài đặt cùng với Windows (*khởi động kép*)
 
 
 
@@ -1915,7 +1902,7 @@ Chọn tùy chọn này nếu bạn muốn giữ Windows cho một số ứng d�
 
 
 
-- Thay thế hoàn toàn Windows**
+- Thay thế hoàn toàn **Windows**
 
 
 
@@ -2033,10 +2020,10 @@ Mỗi kho lưu trữ được chia thành nhiều phần. Theo mặc định, Ub
 
 
 
-- main**: phần mềm miễn phí được Canonical chính thức bảo trì. Ví dụ: Firefox, LibreOffice, bash
-- bị hạn chế**: phần mềm không miễn phí nhưng cần thiết cho phần cứng hoạt động bình thường. Ví dụ: trình điều khiển NVIDIA, phần mềm Wi-Fi, codec độc quyền
-- universe**: phần mềm miễn phí do cộng đồng duy trì. Ví dụ: GIMP, Inkscape, Audacity
-- multiverse**: phần mềm chịu sự hạn chế của pháp luật (bằng sáng chế, giấy phép không miễn phí). Tính khả dụng có thể khác nhau tùy theo quốc gia. Ví dụ: một số codec âm thanh/video, Steam
+- **main**: phần mềm miễn phí được Canonical chính thức bảo trì. Ví dụ: Firefox, LibreOffice, bash
+- **bị hạn chế**: phần mềm không miễn phí nhưng cần thiết cho phần cứng hoạt động bình thường. Ví dụ: trình điều khiển NVIDIA, phần mềm Wi-Fi, codec độc quyền
+- **universe**: phần mềm miễn phí do cộng đồng duy trì. Ví dụ: GIMP, Inkscape, Audacity
+- **multiverse**: phần mềm chịu sự hạn chế của pháp luật (bằng sáng chế, giấy phép không miễn phí). Tính khả dụng có thể khác nhau tùy theo quốc gia. Ví dụ: một số codec âm thanh/video, Steam
 
 
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Bộ ứng dụng văn phòng
 
 
@@ -3553,7 +3541,7 @@ Ngay cả khi hệ thống của bạn đã bật tính năng cập nhật tự 
 
 
 
-- Hệ điều hành Windows*
+- Hệ điều hành *Windows*
 
 
 
@@ -3577,7 +3565,7 @@ Settings → Windows Update → Check for updates
 
 
 
-- Hệ điều hành Linux*
+- Hệ điều hành Linux
 
 
 
@@ -3630,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- Hệ điều hành MacOS*
+- Hệ điều hành MacOS
 
 
 
@@ -3666,25 +3654,25 @@ Một số phần mềm nhạy cảm hơn những phần mềm khác vì chúng 
 
 
 
-- Trình duyệt web*: chúng là tuyến đầu của các cuộc tấn công, vì chúng xử lý nội dung chưa được xác minh theo thời gian thực và có bề mặt tấn công đặc biệt lớn. Hơn nữa, chúng đóng vai trò trung tâm trong việc bảo vệ dữ liệu cá nhân của bạn. Và trên hết, chúng có xu hướng thay thế nhiều ứng dụng phần mềm trước đây được sử dụng cục bộ (ứng dụng email, bộ ứng dụng văn phòng, trình phát đa phương tiện...). Tuy nhiên, chúng ta sẽ quay lại vấn đề này trong phần tiếp theo của khóa học SCU202;
+- **Trình duyệt web**: chúng là tuyến đầu của các cuộc tấn công, vì chúng xử lý nội dung chưa được xác minh theo thời gian thực và có bề mặt tấn công đặc biệt lớn. Hơn nữa, chúng đóng vai trò trung tâm trong việc bảo vệ dữ liệu cá nhân của bạn. Và trên hết, chúng có xu hướng thay thế nhiều ứng dụng phần mềm trước đây được sử dụng cục bộ (ứng dụng email, bộ ứng dụng văn phòng, trình phát đa phương tiện...). Tuy nhiên, chúng ta sẽ quay lại vấn đề này trong phần tiếp theo của khóa học SCU202;
 
 
 
 
 
-- Máy khách thư*: họ nhận được tệp đính kèm hoặc liên kết từ các nguồn bên ngoài không thể kiểm soát và do đó có rủi ro;
+- Máy khách thư: họ nhận được tệp đính kèm hoặc liên kết từ các nguồn bên ngoài không thể kiểm soát và do đó có rủi ro;
 
 
 
 
 
-- Các công cụ giao tiếp* (TeamViewer, Zoom, Signal, Teams...): do tính chất tương tác, chúng là mục tiêu của các cuộc tấn công gián điệp hoặc các nỗ lực điều khiển từ xa. Tương tự như các ứng dụng email, các công cụ giao tiếp có thể bị lợi dụng làm phương tiện cho các nỗ lực lừa đảo hoặc phát tán tệp đính kèm độc hại;
+- Các công cụ giao tiếp (TeamViewer, Zoom, Signal, Teams...): do tính chất tương tác, chúng là mục tiêu của các cuộc tấn công gián điệp hoặc các nỗ lực điều khiển từ xa. Tương tự như các ứng dụng email, các công cụ giao tiếp có thể bị lợi dụng làm phương tiện cho các nỗ lực lừa đảo hoặc phát tán tệp đính kèm độc hại;
 
 
 
 
 
-- Phần mềm diệt vi-rút, tường lửa và các giải pháp phát hiện khác*: các công cụ này thường được hưởng quyền cao hơn vì chúng liên tục quét các tệp, quy trình và kết nối mạng của bạn. Cơ sở dữ liệu chữ ký lỗi thời, cấu hình kém hoặc lỗ hổng trong chính phần mềm có thể khiến phần mềm độc hại không bị phát hiện, hoặc thậm chí có được quyền cao hơn.
+- Phần mềm diệt vi-rút, tường lửa và các giải pháp phát hiện khác: các công cụ này thường được hưởng quyền cao hơn vì chúng liên tục quét các tệp, quy trình và kết nối mạng của bạn. Cơ sở dữ liệu chữ ký lỗi thời, cấu hình kém hoặc lỗ hổng trong chính phần mềm có thể khiến phần mềm độc hại không bị phát hiện, hoặc thậm chí có được quyền cao hơn.
 
 
 
@@ -3905,7 +3893,7 @@ Như đã thấy ở phần trước, Windows trước đây dễ bị tấn cô
 
 
 
-- Microsoft Defender*: Trên Windows, việc sở hữu một phần mềm diệt virus tốt là điều kiện tiên quyết. Trong nhiều năm, Microsoft Defender (trước đây là Windows Defender), phần mềm diệt virus tích hợp sẵn của hệ thống, bị coi là không đáng tin cậy và người ta khuyên dùng các giải pháp của bên thứ ba. Tuy nhiên, phần mềm này đã được cải thiện đáng kể theo thời gian, và theo tôi, hiện tại, nó đủ khả năng bảo vệ cơ bản cho mục đích sử dụng cá nhân. Tuy nhiên, chúng ta không nên đánh giá quá cao vai trò của phần mềm diệt virus: trên hết, chính các hoạt động kỹ thuật số của bạn mới là yếu tố đảm bảo an ninh cho bạn. Một trong những ưu điểm của Defender là khả năng tích hợp sẵn với Windows. Bên cạnh khả năng bảo vệ theo thời gian thực, nó còn cung cấp các chế độ quét toàn diện mà bạn có thể lên lịch hàng tuần hoặc chạy thủ công theo định kỳ.
+- **Microsoft Defender**: Trên Windows, việc sở hữu một phần mềm diệt virus tốt là điều kiện tiên quyết. Trong nhiều năm, Microsoft Defender (trước đây là Windows Defender), phần mềm diệt virus tích hợp sẵn của hệ thống, bị coi là không đáng tin cậy và người ta khuyên dùng các giải pháp của bên thứ ba. Tuy nhiên, phần mềm này đã được cải thiện đáng kể theo thời gian, và theo tôi, hiện tại, nó đủ khả năng bảo vệ cơ bản cho mục đích sử dụng cá nhân. Tuy nhiên, chúng ta không nên đánh giá quá cao vai trò của phần mềm diệt virus: trên hết, chính các hoạt động kỹ thuật số của bạn mới là yếu tố đảm bảo an ninh cho bạn. Một trong những ưu điểm của Defender là khả năng tích h
 
 
 
@@ -3915,12 +3903,12 @@ Như đã thấy ở phần trước, Windows trước đây dễ bị tấn cô
 
 
 
-- Sysinternals Suite*: đây là bộ công cụ tiên tiến hơn nhiều do Microsoft cung cấp để chẩn đoán, giám sát và khắc phục sự cố Windows. Dưới đây là các công cụ chính trong bộ công cụ này:
-    - Process Monitor*: cho phép bạn quan sát các tiến trình đang hoạt động, truy cập tệp, sổ đăng ký, v.v. theo thời gian thực;
-    - Autoruns*: hiển thị tất cả các chương trình được khởi chạy khi khởi động, giúp bạn nhanh chóng phát hiện phần mềm độc hại dai dẳng hoặc các ứng dụng không nên chạy;
-    - Process Explorer*: giám sát các tiến trình và phát hiện hành vi đáng ngờ;
-    - TCPView*: trực quan hóa các kết nối mạng đang hoạt động (phát hiện các kết nối bất thường);
-    - Sigcheck*: kiểm tra chữ ký số trên các tệp để tìm mã độc hại.
+- **Sysinternals Suite**: đây là bộ công cụ tiên tiến hơn nhiều do Microsoft cung cấp để chẩn đoán, giám sát và khắc phục sự cố Windows. Dưới đây là các công cụ chính trong bộ công cụ này:
+- **Process Monitor**: cho phép bạn quan sát các tiến trình đang hoạt động, truy cập tệp, sổ đăng ký, v.v. theo thời gian thực;
+- **Autoruns**: hiển thị tất cả các chương trình được khởi chạy khi khởi động, giúp bạn nhanh chóng phát hiện phần mềm độc hại dai dẳng hoặc các ứng dụng không nên chạy;
+- **Process Explorer**: giám sát các tiến trình và phát hiện hành vi đáng ngờ;
+- **TCPView**: trực quan hóa các kết nối mạng đang hoạt động (phát hiện các kết nối bất thường);
+- **Sigcheck**: kiểm tra chữ ký số trên các tệp để tìm mã độc hại.
 
 
 
@@ -3930,7 +3918,7 @@ Như đã thấy ở phần trước, Windows trước đây dễ bị tấn cô
 
 
 
-- GlassWire*: một công cụ giám sát mạng. Công cụ này theo dõi các kết nối đến và đi theo thời gian thực và cảnh báo bạn về các hoạt động bất thường.
+- **GlassWire**: một công cụ giám sát mạng. Công cụ này theo dõi các kết nối đến và đi theo thời gian thực và cảnh báo bạn về các hoạt động bất thường.
 
 
 
@@ -3948,7 +3936,7 @@ Trên một máy Linux được bảo trì tốt và sử dụng cho mục đíc
 
 
 
-- Fail2ban*: giám sát nhật ký hệ thống để phát hiện các lần truy cập không thành công (chẳng hạn như các lần đăng nhập SSH bằng phương pháp brute-force). Khi phát hiện hành vi đáng ngờ, hệ thống sẽ tạm thời cấm IP Address vi phạm thông qua `iptables`;
+- **Fail2ban**: giám sát nhật ký hệ thống để phát hiện các lần truy cập không thành công (chẳng hạn như các lần đăng nhập SSH bằng phương pháp brute-force). Khi phát hiện hành vi đáng ngờ, hệ thống sẽ tạm thời cấm IP Address vi phạm thông qua `iptables`;
 
 
 
@@ -3958,7 +3946,7 @@ Trên một máy Linux được bảo trì tốt và sử dụng cho mục đíc
 
 
 
-- Lynis*: một công cụ kiểm tra bảo mật toàn diện, phân tích hệ thống của bạn để tìm ra các cấu hình sai, điểm yếu đã biết hoặc sai lệch so với thông lệ tốt nhất. Công cụ này tạo ra một báo cáo dễ đọc, kèm theo điểm bảo mật và các khuyến nghị.
+- **Lynis**: một công cụ kiểm tra bảo mật toàn diện, phân tích hệ thống của bạn để tìm ra các cấu hình sai, điểm yếu đã biết hoặc sai lệch so với thông lệ tốt nhất. Công cụ này tạo ra một báo cáo dễ đọc, kèm theo điểm bảo mật và các khuyến nghị.
 
 
 
@@ -3977,7 +3965,7 @@ macOS nổi tiếng về tính bảo mật, đặc biệt nhờ các chính sác
 
 
 
-- KnockKnock*: quét tất cả Elements được cấu hình để chạy khi khởi động (agent, daemon, mô-đun hạt nhân...) và xác định những chương trình có khả năng đáng ngờ, chưa được ký hoặc chưa xác định. Tính năng này cho phép bạn nhanh chóng xác định sự tồn tại dai dẳng của mã độc trên hệ thống.
+- **KnockKnock**: quét tất cả Elements được cấu hình để chạy khi khởi động (agent, daemon, mô-đun hạt nhân...) và xác định những chương trình có khả năng đáng ngờ, chưa được ký hoặc chưa xác định. Tính năng này cho phép bạn nhanh chóng xác định sự tồn tại dai dẳng của mã độc trên hệ thống.
 
 
 
@@ -4561,7 +4549,7 @@ Mã hóa toàn bộ giống như một ổ khóa: chừng nào mật khẩu chư
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4820,7 +4808,7 @@ Cuối cùng, nhấp vào nút hình mũi tên ở góc trên bên phải để 
 
 
 
-- Cửa sổ:**
+- **Cửa sổ:**
 
 
 
@@ -4866,7 +4854,7 @@ Sau khi FileVault được kích hoạt, bạn sẽ cần chọn phương pháp 
 Đối với phương tiện lưu trữ ngoài (đĩa Hard, USB, v.v.), mã hóa được thực hiện bằng tiện ích đĩa. Bạn sẽ cần định dạng lại hoàn toàn ổ đĩa:
 
 - Chọn thiết bị, nhấp vào "*Xóa*"
-- Chọn sơ đồ "Bảng phân vùng GUID*"
+- Chọn sơ đồ "Bảng phân vùng GUID"
 - Sau đó chọn định dạng hệ thống tệp được mã hóa (*APFS* hoặc *Mac OS mở rộng*)
 - Chọn một mật khẩu mạnh
 - Nhấp vào "*Xóa*" rồi "*OK*" và quá trình mã hóa hoàn tất
@@ -4946,7 +4934,7 @@ Gói này cài đặt `exiftool`, sau đó bạn có thể sử dụng trực ti
 
 
 
-- Bước 2: Xem siêu dữ liệu tệp** (bằng tiếng Pháp)
+- Bước 2: Xem siêu dữ liệu tệp (bằng tiếng Pháp)
 
 
 
@@ -5692,7 +5680,7 @@ Trình duyệt dựa trên Blink cũng bao gồm một số trình duyệt cận
 
 
 
-- Cung**:
+- **Cung**:
 
 
 
@@ -5710,7 +5698,7 @@ Về mặt kỹ thuật, Arc dựa trên Chromium, nhưng vẫn là phần mềm
 
 
 
-- Polypane** :
+- **Polypane** :
 
 
 
@@ -5754,6 +5742,7 @@ Firefox vẫn là chuẩn mực về bảo mật và quyền riêng tư, mặc d
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Trình duyệt Tor
 
 
@@ -5774,15 +5763,11 @@ Nhược điểm là hiệu suất giảm đáng kể (độ trễ cao) và kh�
 
 #### Trình duyệt Mullvad
 
-
-
 [Trình duyệt Mullvad](https://mullvad.net/en/browser) là kết quả hợp tác giữa Tor Foundation và Mullvad VPN. Trình duyệt này dựa trên trình duyệt Tor, vốn cũng được phát triển từ Firefox ESR. Mullvad Browser được thiết kế để tối đa hóa quyền riêng tư của người dùng. Theo mặc định, trình duyệt này bao gồm các tính năng bảo vệ nâng cao chống lại dấu vân tay, trình theo dõi và tập lệnh của bên thứ ba.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Trình duyệt này sở hữu hầu hết các tính năng bảo mật và quyền riêng tư mà Tor Browser cung cấp, với một điểm khác biệt: nó không chuyển hướng lưu lượng truy cập qua mạng Tor. Để tránh rò rỉ IP Address, bạn có thể sử dụng kết hợp với VPN (lý tưởng nhất là Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Theo mặc định, LibreWolf kích hoạt các thiết lập bảo mật nâng 
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Trình duyệt Zen
-
-
 
 [Zen Browser](https://zen-browser.app/) là trình duyệt mã nguồn mở miễn phí dựa trên Firefox (công cụ Gecko), ra mắt vào năm 2024. Mục tiêu của trình duyệt này là mang đến trải nghiệm duyệt web hiện đại, thanh lịch, có khả năng tùy chỉnh cao và trên hết là chú trọng đến quyền riêng tư mà không phụ thuộc vào Chromium.
 
-
-
 Zen nổi bật với cách tiếp cận triệt để đối với Interface và khả năng sử dụng, phần lớn lấy cảm hứng từ trình duyệt Arc, nhưng được tách biệt khỏi trình duyệt này nhờ bản chất mã nguồn mở và công cụ Gecko. Zen bao gồm:
-
-
-
 
 - Một Interface tối giản, dạng mô-đun, có thanh bên dọc cho các tab, chế độ xem chia đôi và hệ thống *không gian làm việc* để nhóm các tập hợp tab theo dự án;
 - Một hệ thống các mẫu Interface có thể tùy chỉnh (*Zen Mods*) có thể được sử dụng để sửa đổi sâu sắc giao diện của trình duyệt;
 - Một chức năng gốc có tên là *Glance*, mở liên kết trong một cửa sổ tạm thời nhẹ, tránh sự lộn xộn của các tab...
 
-
-
 Zen cũng hỗ trợ tiện ích mở rộng của Firefox cũng như đồng bộ hóa thông qua tài khoản Mozilla.
-
-
 
 Về mặt bảo mật và quyền riêng tư, Zen có tính năng chặn trình theo dõi của bên thứ ba. Trình duyệt không tự thu thập bất kỳ dữ liệu nào và cũng cho phép tắt tính năng đo từ xa của Mozilla. Nó cũng tự động từ chối các chứng chỉ SSL lỗi thời hoặc không tuân thủ.
 
-
-
 Zen Browser là một lựa chọn thay thế thú vị nếu bạn đang tìm kiếm một môi trường duyệt web Gecko miễn phí, sáng tạo, gọn gàng và tôn trọng quyền riêng tư của bạn.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Trình duyệt dựa trên WebKit
 
-
-
 #### Cuộc đi săn
-
-
 
 Trình duyệt chính vẫn sử dụng công cụ kết xuất WebKit (không phải Fork như Blink) là Safari. [Safari](https://www.apple.com/safari/) là trình duyệt độc quyền của Apple dành cho macOS. Nó tích hợp tuyệt vời với hệ sinh thái Apple, hiệu suất cao và hiện được trang bị khả năng bảo vệ mạnh mẽ hơn chống lại việc theo dõi và lấy dấu vân tay.
 
-
-
 Tuy nhiên, Safari vẫn đóng, chỉ giới hạn ở macOS cho phiên bản máy tính để bàn và phụ thuộc vào hệ sinh thái Apple. Mặc dù Apple có chính sách bảo mật chặt chẽ, với mô hình kinh doanh chủ yếu dựa vào bán phần cứng hơn là quảng cáo, nhưng vẫn chưa rõ ràng về một số hoạt động nội bộ.
-
-
 
 Ở đây, chúng tôi tập trung vào các trình duyệt máy tính để bàn, nhưng điều quan trọng cần lưu ý là trên iOS, Apple yêu cầu tất cả các trình duyệt phải sử dụng công cụ kết xuất WebKit (tuy nhiên, một hạn chế có thể sớm thay đổi do một số quy định của châu Âu). Điều này có nghĩa là các trình duyệt như Chrome, Firefox hoặc Brave trên iOS phải cung cấp ứng dụng dựa trên WebKit, chứ không phải công cụ kết xuất thông thường của chúng.
 
@@ -5889,6 +5855,7 @@ Orion được phát triển hoàn toàn bởi đội ngũ Kagi (nổi tiếng v
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Trình duyệt không có công cụ kết xuất
 
 
@@ -6223,25 +6190,25 @@ Trong hầu hết các trường hợp, cuộc tấn công bao gồm việc bắ
 
 
 
-- Phân tích URL**: kẻ tấn công thường sử dụng các địa chỉ rất giống với địa chỉ gốc (ví dụ: `micr0soft-support.com`, `paypal-verif.net`, v.v.). Một số kẻ tấn công còn thay thế các ký tự trông tương tự, khai thác các ký tự Unicode. Hãy kiểm tra xem Address có tương ứng chính xác với trang web dự kiến, không có tiền tố hoặc hậu tố đáng ngờ nào không.
+- **Phân tích URL**: kẻ tấn công thường sử dụng các địa chỉ rất giống với địa chỉ gốc (ví dụ: `micr0soft-support.com`, `paypal-verif.net`, v.v.). Một số kẻ tấn công còn thay thế các ký tự trông tương tự, khai thác các ký tự Unicode. Hãy kiểm tra xem Address có tương ứng chính xác với trang web dự kiến, không có tiền tố hoặc hậu tố đáng ngờ nào không.
 
 
 
 
 
-- Tránh các liên kết rút gọn**: các dịch vụ như `bit.ly` hoặc `t.co` có thể che giấu mã Address cuối cùng. Nếu bạn nhận được một liên kết rút gọn, hãy cảnh giác hoặc sử dụng dịch vụ mở rộng URL để kiểm tra đích đến của liên kết đó.
+- **Tránh các liên kết rút gọn**: các dịch vụ như `bit.ly` hoặc `t.co` có thể che giấu mã Address cuối cùng. Nếu bạn nhận được một liên kết rút gọn, hãy cảnh giác hoặc sử dụng dịch vụ mở rộng URL để kiểm tra đích đến của liên kết đó.
 
 
 
 
 
-- Hãy cẩn thận với những tin nhắn gây hoang mang**: các nỗ lực lừa đảo thường lợi dụng những cảm xúc mạnh mẽ (tính cấp bách, đe dọa, phần thưởng, sự tò mò...). Một email thông báo rằng tài khoản của bạn sắp bị khóa hoặc bưu kiện không thể giao được chắc chắn là đáng ngờ.
+- Hãy cẩn thận với những tin nhắn gây hoang mang: các nỗ lực lừa đảo thường lợi dụng những cảm xúc mạnh mẽ (tính cấp bách, đe dọa, phần thưởng, sự tò mò...). Một email thông báo rằng tài khoản của bạn sắp bị khóa hoặc bưu kiện không thể giao được chắc chắn là đáng ngờ.
 
 
 
 
 
-- Không bao giờ truyền thông tin nhạy cảm qua liên kết nhận được**: Một tổ chức hợp pháp sẽ không bao giờ yêu cầu bạn cung cấp mật khẩu, mã xác thực hoặc bản sao quét ID của bạn qua email hoặc tin nhắn SMS đơn giản.
+- **Không bao giờ truyền thông tin nhạy cảm qua liên kết nhận được**: Một tổ chức hợp pháp sẽ không bao giờ yêu cầu bạn cung cấp mật khẩu, mã xác thực hoặc bản sao quét ID của bạn qua email hoặc tin nhắn SMS đơn giản.
 
 
 
@@ -6251,7 +6218,7 @@ Và đây là một số biện pháp phòng ngừa bạn có thể thực hiệ
 
 
 
-- Truy cập các trang web quan trọng thông qua dấu trang của bạn**:
+- Truy cập các trang web quan trọng thông qua **dấu trang của bạn**:
 
 
 
@@ -6265,7 +6232,7 @@ Bạn đã nhận được email từ cơ quan thuế có chứa liên kết ch�
 
 
 
-- Tôn trọng các thực hành xác thực tốt**:
+- **Tôn trọng các thực hành xác thực tốt**:
 
 
 
@@ -6283,7 +6250,7 @@ Ngoài những biện pháp này, việc sử dụng trình quản lý mật kh�
 
 
 
-- Kiểm tra chứng chỉ SSL/TLS**:
+- **Kiểm tra chứng chỉ SSL/TLS**:
 
 
 
@@ -6329,19 +6296,19 @@ Mục đích rất đơn giản: ngăn chặn sự cố liên quan đến một 
 
 
 
-- Sử dụng nhiều trình duyệt riêng biệt**: ví dụ: Firefox cho mục đích cá nhân, Tor hoặc Mullvad cho các hoạt động nhạy cảm và Chromium cho các tác vụ chuyên nghiệp. Mỗi trình duyệt sử dụng một phiên bản lưu trữ riêng, giúp cô lập hoàn toàn cookie, phiên làm việc và tiện ích mở rộng. Điều này cũng cho phép bạn tùy chỉnh cài đặt trình duyệt cho phù hợp với từng trường hợp sử dụng cụ thể.
+- **Sử dụng nhiều trình duyệt riêng biệt**: ví dụ: Firefox cho mục đích cá nhân, Tor hoặc Mullvad cho các hoạt động nhạy cảm và Chromium cho các tác vụ chuyên nghiệp. Mỗi trình duyệt sử dụng một phiên bản lưu trữ riêng, giúp cô lập hoàn toàn cookie, phiên làm việc và tiện ích mở rộng. Điều này cũng cho phép bạn tùy chỉnh cài đặt trình duyệt cho phù hợp với từng trường hợp sử dụng cụ thể.
 
 
 
 
 
-- Tạo nhiều hồ sơ trong cùng một trình duyệt**: một số trình duyệt cho phép bạn tạo các hồ sơ độc lập, mỗi hồ sơ có lịch sử, phiên truy cập, tiện ích mở rộng và cài đặt riêng. Đây là giải pháp ít hạn chế hơn so với việc sử dụng nhiều trình duyệt riêng biệt, nhưng vẫn kém hiệu quả hơn.
+- **Tạo nhiều hồ sơ trong cùng một trình duyệt**: một số trình duyệt cho phép bạn tạo các hồ sơ độc lập, mỗi hồ sơ có lịch sử, phiên truy cập, tiện ích mở rộng và cài đặt riêng. Đây là giải pháp ít hạn chế hơn so với việc sử dụng nhiều trình duyệt riêng biệt, nhưng vẫn kém hiệu quả hơn.
 
 
 
 
 
-- Sử dụng container tích hợp**: Firefox cung cấp tiện ích mở rộng [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), cho phép bạn mở các tab riêng biệt, mỗi tab có thông tin đăng nhập và cookie riêng. Bạn cũng có thể tự động gán một số trang web nhất định vào một container cụ thể để giữ chúng tách biệt mỗi khi mở.
+- **Sử dụng container tích hợp**: Firefox cung cấp tiện ích mở rộng [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), cho phép bạn mở các tab riêng biệt, mỗi tab có thông tin đăng nhập và cookie riêng. Bạn cũng có thể tự động gán một số trang web nhất định vào một container cụ thể để giữ chúng tách biệt mỗi khi mở.
 
 
 
@@ -6351,7 +6318,7 @@ Mục đích rất đơn giản: ngăn chặn sự cố liên quan đến một 
 
 
 
-- Sử dụng môi trường hệ thống bị cô lập**: Đối với những mục đích sử dụng đặc biệt nhạy cảm, bạn cũng có thể chạy trình duyệt của mình trong máy ảo hoặc vùng chứa Docker để tách biệt hoàn toàn với môi trường chính.
+- **Sử dụng môi trường hệ thống bị cô lập**: Đối với những mục đích sử dụng đặc biệt nhạy cảm, bạn cũng có thể chạy trình duyệt của mình trong máy ảo hoặc vùng chứa Docker để tách biệt hoàn toàn với môi trường chính.
 
 
 
@@ -7075,7 +7042,7 @@ Telegram là một dịch vụ nhắn tin rất phổ biến nhờ tính tiện 
 Do đó, về mặt kỹ thuật, Telegram có thể truy cập nội dung của phần lớn các cuộc trò chuyện không được bảo vệ rõ ràng. Ngay cả khi công ty có lập trường cứng rắn đối với các cơ quan chính phủ, Telegram vẫn không phải là giải pháp tối ưu cho các trao đổi bí mật hoặc nhạy cảm, trừ khi bạn sử dụng rõ ràng "trao đổi bí mật" của họ, vốn kém thực tế hơn nhiều trong cuộc sống hàng ngày.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile là phiên bản di động của ứng dụng email mã ngu�
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis là một ứng dụng mã nguồn mở toàn diện. Ứng dụng này m�
 Ente Auth là một giải pháp hiện đại, mã nguồn mở, đa nền tảng với các bản sao lưu được mã hóa đầu cuối. Giải pháp này cho phép bạn đồng bộ hóa mã 2FA một cách an toàn trên thiết bị di động, máy tính để bàn và web. Bạn cũng có thể sử dụng ngoại tuyến, không cần sao lưu đám mây hoặc tạo tài khoản.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth cung cấp nhiều tính năng bổ sung: Sắp xếp theo thẻ, biểu tượng tùy chỉnh cho từng dịch vụ, ghi chú, mục yêu thích, tìm kiếm tích hợp, chia sẻ mã nhóm an toàn.
 
 
@@ -7642,6 +7611,7 @@ Authy cung cấp tính năng đồng bộ hóa 2FA trên nhiều thiết bị, r
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Nếu bạn muốn tìm hiểu thêm về trình quản lý mật khẩu, xác thực 2FA và VPN, tôi khuyên bạn nên đọc các chương chuyên sâu trong khóa học SCU-101:
 
 
@@ -8035,6 +8005,7 @@ Có sẵn trên F-Droid và hoàn toàn mã nguồn mở, Chrono cung cấp mộ
 Ứng dụng cũng tích hợp bộ đếm thời gian và đồng hồ bấm giờ, với tính năng ghi lại vòng chạy, thống kê, so sánh thời gian và quản lý nhiều bộ đếm thời gian. Bạn có thể cấu hình nhiều múi giờ, tùy chỉnh giao diện (màu sắc, kiểu dáng, hình động) và thậm chí sắp xếp báo thức và bộ đếm thời gian bằng nhãn.
 
 
+Để tìm hiểu sâu hơn về chủ đề, tôi khuyên bạn nên truy cập trang web [*Awesome Privacy*](https://awesome-privacy.xyz/), nơi liệt kê những lựa chọn thay thế thân thiện với quyền riêng tư tốt nhất cho các phần mềm bạn sử dụng hàng ngày.
 ___
 
 
@@ -8099,8 +8070,8 @@ Cơ sở hạ tầng Internet chủ yếu dựa trên hai giao thức:
 
 
 
-- IP** (*Giao thức Internet*) Xác định từng thiết bị được kết nối và định tuyến các gói dữ liệu.
-- TCP** (*Giao thức điều khiển truyền dẫn*) Phân đoạn luồng, kiểm tra lỗi và sắp xếp lại các phân đoạn.
+- **IP** (*Giao thức Internet*) Xác định từng thiết bị được kết nối và định tuyến các gói dữ liệu.
+- **TCP** (*Giao thức điều khiển truyền dẫn*) Phân đoạn luồng, kiểm tra lỗi và sắp xếp lại các phân đoạn.
 
 
 → Đối với các mục đích sử dụng thời gian thực mà độ tin cậy không quan trọng bằng độ trễ (VoIP, DNS, phát trực tuyến, v.v.), một giao thức truyền tải khác thường được sử dụng thay cho TCP: UDP (*Giao thức dữ liệu người dùng*).
@@ -8134,14 +8105,14 @@ Thiết bị này kết hợp 2 chức năng chính:
 
 
 
-- Vai trò của modem**
+- Vai trò của **modem**
 
 
 Modem (viết tắt của "*modulator-demodulator*") là thiết bị kết nối mạng ISP với nhà bạn. Nó chuyển đổi tín hiệu điện hoặc quang nhận được (qua cáp quang, cáp đồng trục, ADSL hoặc mạng di động) thành tín hiệu số mà thiết bị của bạn có thể hiểu được. Ngược lại, nó chuyển đổi dữ liệu từ thiết bị của bạn sang định dạng có thể truyền qua cơ sở hạ tầng của nhà cung cấp dịch vụ. Bước này rất quan trọng nếu mạng gia đình của bạn muốn kết nối với Internet.
 
 
 
-- Vai trò của bộ định tuyến**
+- **Vai trò của bộ định tuyến**
 
 
 Bộ định tuyến là trái tim của mạng cục bộ. Nó phân phối kết nối Internet đến tất cả các thiết bị của bạn: máy tính, điện thoại thông minh, các thiết bị được kết nối, máy in, v.v. Nó gán cho mỗi thiết bị một địa chỉ IP cục bộ Address (khác với địa chỉ IP công cộng của bạn hiển thị trên Internet). Sau đó, bộ định tuyến sẽ sắp xếp lưu lượng đến và đi, đảm bảo dữ liệu đến đúng thiết bị. Nó cũng có thể tích hợp tường lửa, lọc các gói tin mạng hoặc quản lý các quy tắc chuyển tiếp cổng. NAT che giấu mạng cục bộ của bạn khỏi Internet, sử dụng một địa chỉ IP công cộng duy nhất Address để đại diện cho tất cả các thiết bị. Chỉ bộ định tuyến mới biết thiết bị cục bộ nào đã khởi tạo yêu cầu nào.
@@ -8311,16 +8282,24 @@ Bảo mật mạng gia đình của bạn bắt đầu từ việc lựa chọn 
 Bộ định tuyến tương thích với Wi-Fi 6, Wi-Fi 6E hoặc Wi-Fi 7 sẽ mang lại tốc độ tốt hơn và trên hết là khả năng hỗ trợ sẵn có cho các công nghệ bảo mật hiện đại. Ngược lại, thiết bị rất cũ, đặc biệt là những thiết bị không còn được cập nhật phần mềm, có thể chứa các lỗ hổng đã biết nhưng chưa được vá. Do đó, chúng tiềm ẩn rủi ro cho toàn bộ mạng của bạn, ngay cả khi bạn cấu hình chúng đúng cách. So với điện thoại di động hoặc máy tính, bộ định tuyến là thiết bị mà chúng ta thường sử dụng trong nhiều năm. Tuy nhiên, việc thay thế chúng thường xuyên hơn có thể là một ý tưởng hay để tận hưởng lợi ích từ một mô hình hiện đại và an toàn hơn.
 
 
+**Chú ý**: Theo nguyên tắc chung, các bộ định tuyến do nhà cung cấp dịch vụ internet cung cấp có thể thiếu tính năng cập nhật cần thiết cũng như khả năng cá nhân hóa. Trong một số trường hợp, nhà cung cấp dịch vụ cũng có thể có quyền truy cập không hạn chế vào mạng nội bộ của người dùng cuối.
+
 Vì vậy, hãy đảm bảo bạn cập nhật firmware cho bộ định tuyến một cách có hệ thống. Các bản cập nhật này sẽ khắc phục các lỗ hổng, bổ sung các tính năng mới và tăng cường tính ổn định tổng thể của hệ thống. Một số nhà sản xuất cung cấp bản cập nhật tự động, nhưng trong một số trường hợp, bạn sẽ cần kiểm tra thủ công thông qua công cụ quản trị Interface của bộ định tuyến. Cũng như điện thoại, máy tính, hệ điều hành và phần mềm, việc cập nhật bộ định tuyến thường xuyên là rất quan trọng. Bạn có thể biến việc này thành thói quen hàng tuần - ví dụ như vào mỗi Chủ nhật - bằng cách lập danh sách tất cả các mục cần kiểm tra và cập nhật.
 
 
-Nếu bộ định tuyến của bạn không còn được bảo trì nhưng vẫn hoạt động bình thường về mặt phần cứng, bạn có thể cài đặt phần mềm nguồn mở thay thế, chẳng hạn như:
+Ngoài ra, bạn có thể bật tự động cập nhật hoặc ít nhất bật quét tự động để tìm các bản cập nhật firmware mới nếu bạn muốn thao tác thủ công. Mặc dù tính năng tự động cập nhật vẫn có thể là một mối đe dọa bảo mật, việc không cập nhật firmware của router thường xuyên sẽ khiến mạng cục bộ của bạn dễ bị các lỗ hổng đã được công khai biết đến.
+
+**Ví dụ**: Khi mua router cho riêng bạn, có thể là ý tưởng tốt khi tìm các công ty đã được thiết lập trong ngành, những công ty đã cung cấp router trên thị trường trong một thời gian dài. Ví dụ, router Fritz!Box có danh tiếng lâu đời là các thiết bị plug-and-play, phù hợp sử dụng cả trong gia đình lẫn các công ty quy mô nhỏ. Chính sách cập nhật phần mềm của họ thường kéo dài trong nhiều năm.
+
+Nếu router của bạn không còn được duy trì nhưng vẫn hoạt động đúng về mặt phần cứng, bạn có thể cài đặt firmware mã nguồn mở thay thế, chẳng hạn như:
 
 
 
 - OpenWrt, một bản phân phối Linux chuyên về bộ định tuyến, cung cấp tính linh hoạt cao và các bản cập nhật thường xuyên
 - pfSense và OPNsense, hai hệ thống dựa trên FreeBSD (giống Unix) dành cho tường lửa và bộ định tuyến x86
 
+
+**Lưu ý**: Một số nhà cung cấp dịch vụ Internet (ISP) cung cấp cho khách hàng của họ các bộ định tuyến số lượng lớn do một công ty duy nhất sản xuất, công ty này đồng thời cung cấp cho nhiều ISP khác nhau trên khắp thế giới. Bạn có thể thấy rằng để cài đặt một trong các firmware thay thế trên bộ định tuyến, người khác có thể đã phát hiện ra cách thực hiện, ngay cả khi họ ở nửa kia của thế giới.
 
 ![Image](assets/fr/196.webp)
 
@@ -8385,21 +8364,21 @@ Một số tính năng nên tránh hoặc vô hiệu hóa một cách có hệ t
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Chức năng này cho phép các thiết bị trong mạng của bạn yêu cầu bộ định tuyến tự động mở cổng. Mặc dù điều này tạo điều kiện thuận lợi cho một số mục đích sử dụng nhất định (trò chơi trực tuyến, camera được kết nối, v.v.), nhưng nó cũng mở đường cho các ứng dụng độc hại có khả năng sửa đổi cấu hình mạng mà không được bạn cho phép. UPnP là một trong những nguyên nhân chính khiến các dịch vụ nội bộ bị lộ ra ngoài một cách vô tình.
 
 
 
-- WPS (*Cài đặt bảo vệ Wi-Fi*)**:
+- **WPS (*Cài đặt bảo vệ Wi-Fi*)**:
 
 
 Ban đầu được thiết kế để đơn giản hóa việc kết nối thiết bị với Wi-Fi mà không cần nhập mật khẩu, hệ thống này dựa trên mã PIN thường yếu và dễ bị tấn công bằng phương pháp tấn công vũ phu. Tôi khuyên bạn nên tắt tính năng này.
 
 
 
-- Truy cập từ xa (*Quản lý từ xa*)**:
+- Truy cập từ xa (**Quản lý từ xa**):
 
 
 Một số bộ định tuyến cho phép bạn kết nối với bộ quản trị Interface từ bên ngoài, thông qua Internet. Tính năng này làm tăng đáng kể nguy cơ tấn công vào bộ định tuyến của bạn. Hãy tắt hoàn toàn tính năng này, trừ khi bạn có nhu cầu cụ thể về quản lý từ xa. Ngay cả khi đó, hãy luôn sử dụng VPN.
@@ -8408,14 +8387,14 @@ Một số bộ định tuyến cho phép bạn kết nối với bộ quản tr
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Giao thức lỗi thời hoặc không an toàn**:
+- **Giao thức lỗi thời hoặc không an toàn**:
 
 
 Tắt bất kỳ dịch vụ quản trị nào sử dụng giao thức văn bản thuần túy như Telnet, FTP, HTTP không được mã hóa hoặc SMBv1. Các giao thức này không đảm bảo tính bảo mật hoặc tính toàn vẹn của dữ liệu được trao đổi và thường là mục tiêu của phần mềm độc hại. Nếu bạn cần truy cập cục bộ hoặc từ xa, chỉ sử dụng kết nối qua HTTPS (Interface được mã hóa), SSH hoặc SFTP, tùy trường hợp.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Một số bộ định tuyến mặc định phản hồi các yêu cầu ICMP được gửi từ bên ngoài (lệnh `ping`). Điều này cho phép kẻ tấn công kiểm tra xem mạng của bạn có đang hoạt động và có thể truy cập được hay không. Nếu không cần, hãy tắt phản hồi này trong tường lửa của bộ định tuyến.
@@ -8504,15 +8483,15 @@ Tiếp theo, hãy kích hoạt giao thức mã hóa truy vấn DNS để ngăn c
 
 
 
-- DoH (*DNS qua HTTPS*)**: Đóng gói các yêu cầu DNS trong giao thức HTTPS, khiến chúng không thể phân biệt được với lưu lượng truy cập web được mã hóa thông thường
+- DoH (**DNS qua HTTPS**): Đóng gói các yêu cầu DNS trong giao thức HTTPS, khiến chúng không thể phân biệt được với lưu lượng truy cập web được mã hóa thông thường
 
 
 
-- DoT (*DNS qua TLS*)**: Tạo một kênh được mã hóa cụ thể giữa thiết bị của bạn và máy chủ DNS
+- DoT (**DNS qua TLS**): Tạo một kênh được mã hóa cụ thể giữa thiết bị của bạn và máy chủ DNS
 
 
 
-- DoQ (*DNS over QUIC*)**: Truyền các yêu cầu DNS qua giao thức QUIC dựa trên UDP
+- DoQ (**DNS over QUIC**): Truyền các yêu cầu DNS qua giao thức QUIC dựa trên UDP
 
 
 Trên thực tế, mã hóa DNS và chuyển đổi máy chủ có thể được triển khai ở nhiều cấp độ khác nhau:
@@ -8526,6 +8505,7 @@ Trên thực tế, mã hóa DNS và chuyển đổi máy chủ có thể đượ
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Ở cấp độ hệ điều hành: Một số hệ điều hành tích hợp sẵn hỗ trợ DNS được mã hóa (DoT hoặc DoH), giúp bảo mật tất cả các yêu cầu DNS đi qua ngăn xếp mạng của hệ thống. Tuy nhiên, điều này không bảo mật toàn bộ máy tính hoặc điện thoại: Các ứng dụng có thể bỏ qua cài đặt này nếu chúng được cấu hình để sử dụng trình phân giải DNS hoặc giao thức khác.
 
 
@@ -8626,3 +8606,4 @@ Bằng cách làm theo một số bước sau, bạn sẽ xây dựng được m
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

@@ -1,5 +1,5 @@
 ---
-name: Paramétrer un BitAxe
+name: Bitaxe
 description: Comment paramétrer un BitAxe ?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)

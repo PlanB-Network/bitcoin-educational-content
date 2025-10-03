@@ -1,0 +1,9 @@
+question: Tocqueville'e göre, Amerikan Devrimi'nin başarısına katkıda bulunan ana faktörlerden biri nedir?
+answer: Daha yüksek bir yasaya saygı.
+wrong_answers:
+  - Gücün merkezileşmesi.
+  - Baskın bir dinin olmaması.
+  - Güçlü bir monarşinin varlığı.
+explanation: |
+  Tocqueville, Amerikan Devrimi'nin başarısını, kolonicilerin bireysel özgürlükleri çerçeveleyen ve toplumun örgütlenmesi için sağlam bir ahlaki ve yasal temel sağlayan daha yüksek bir yasaya saygı duymalarına bağlamaktadır.
+reviewed: true

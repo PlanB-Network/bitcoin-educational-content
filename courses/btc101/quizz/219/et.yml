@@ -1,9 +1,9 @@
-question: Mida tekst vihjab Bitcoini tuleviku kohta?
-answer: See ei kao kuhugi
+question: Milleks toimib Lightning Network?
+answer: Maksekanalite võrgustikuna.
 wrong_answers:
-  - Selle asendab parem tehnoloogia
-  - Selle keelustatakse ülemaailmselt
-  - See kaotab oma väärtuse
+  - Kaevandamissõlmede võrgustikuna.
+  - Plokiahela sõlmede võrgustikuna.
+  - Krüptovaluuta vahetuste võrgustikuna.
 explanation: >-
-  Tekst vihjab, et Bitcoin ei kao kuhugi. Vastupidi, revolutsioon on alles algusjärgus.
+  Lightning Network toimib maksekanalite võrgustikuna, võimaldades saatjal teostada koheseid tehinguid madalate tasudega.
 reviewed: false

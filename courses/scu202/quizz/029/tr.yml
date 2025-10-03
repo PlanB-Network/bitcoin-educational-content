@@ -1,0 +1,9 @@
+question: Yeni başlayanlar için kararlılığı ve destek süresi açısından Ubuntu'nun hangi sürümü önerilir?
+answer: LTS (Uzun Vadeli Destek)
+wrong_answers:
+  - Rolling Release
+  - İlk versiyon
+  - Alfa Yayın
+explanation: |
+  Ubuntu'nun LTS sürümü beş yıl boyunca korunur ve daha fazla kararlılık sunar, bu da onu acemi kullanıcılar için ideal hale getirir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er den største risikoen ved opphopning av Dust i mini-PC-en din?
+answer: Prosessorgrossling
+wrong_answers:
+  - Sletting av Blockchain-blokk
+  - Diskkorrupsjon
+  - Redusert RAM-kapasitet
+explanation: |
+  Dust blokkerer ventilasjonen, forårsaker overoppheting og fører til struping, noe som reduserer prosessorens effektivitet.
+reviewed: true

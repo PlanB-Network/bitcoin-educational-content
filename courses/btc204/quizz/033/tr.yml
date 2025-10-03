@@ -1,0 +1,9 @@
+question: Basit bir ödeme işleminde bir çıktının yuvarlak bir tutara sahip olduğunu gözlemlersek, bundan nasıl bir yorum çıkarabiliriz?
+answer: Tur çıktısı artık giriş kullanıcısının mülkiyetinde değildir.
+wrong_answers:
+  - Yuvarlak çıktı, işlem ücretleri için tasarlanmıştır.
+  - Yuvarlak çıktı hala giriş kullanıcısına aittir.
+  - Yuvarlak çıkış bir yedek Address'dır.
+explanation: |
+  Basit bir ödeme modeliyle (1 girdi ve 2 çıktı) karşılaşıldığında, çıktılardan biri yuvarlak bir miktar harcarsa, o zaman ödemeyi temsil eder. Böylece giriş kullanıcısının mülkiyetinden çıkar.
+reviewed: false

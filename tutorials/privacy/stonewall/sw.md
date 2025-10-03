@@ -1,5 +1,5 @@
 ---
-name: Ukuta wa mawe
+name: Stonewall
 description: Kuelewa na kutumia miamala ya Stonewall
 ---
 ![cover stonewall](assets/cover.webp)
@@ -16,24 +16,24 @@ _Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi a
 
 ---
 
-> *Vunja mawazo ya uchanganuzi wa Blockchain ukiwa na shaka ya kihisabati kati ya mtumaji na mpokeaji wa miamala yako.*
+>*Vunja mawazo kuhusu Chainalysis ukiwa na shaka ya kihisabati kati ya mtumaji na mpokeaji wa miamala yako.*
 
 ## Muamala wa Stonewall ni nini?
 
 Stonewall ni aina mahususi ya muamala wa Bitcoin unaolenga kuongeza faragha ya mtumiaji wakati wa muamala kwa kuiga CoinJoin kati ya pande mbili, bila kuwa mmoja. Kwa kweli, muamala huu haushirikiani. Mtumiaji anaweza kuijenga peke yake, akihusisha tu UTXO zao kama pembejeo. Kwa hivyo, unaweza kuunda muamala wa Stonewall kwa hafla yoyote bila kuhitaji kuratibu na mtumiaji mwingine.
 
 
-Uendeshaji wa shughuli ya Stonewall ni kama ifuatavyo: kama ingizo, mtumaji hutumia UTXO 2 ambazo ni zake. Kama pato, muamala hutoa matokeo 4, pamoja na 2 ambayo yatakuwa kiasi sawa. Nyingine 2 zitakuwa mabadiliko. Kati ya matokeo 2 ya kiasi sawa, moja tu ndiyo yataenda kwa mpokeaji malipo.
+Uendeshaji wa muamala wa Stonewall ni kama ifuatavyo: kama ingizo, mtumaji hutumia UTXO 2 ambazo ni zake. Kama pato, muamala hutoa matokeo 4, pamoja na 2 ambayo yatakuwa kiasi sawa. Nyingine 2 zitakuwa mabadiliko. Kati ya matokeo 2 ya kiasi sawa, moja tu ndiyo yataenda kwa mpokeaji malipo.
 
 
-Kuna majukumu 2 pekee katika shughuli ya Stonewall:
+Kuna majukumu 2 pekee katika muamala waa Stonewall:
 
 
 - Mtumaji, ambaye hufanya malipo halisi;
 - Mpokeaji, ambaye huenda hajui aina mahususi ya muamala na anatarajia tu malipo kutoka kwa mtumaji.
 
 
-Hebu tuchukue mfano ili kuelewa muundo huu wa shughuli. Alice yuko dukani kununua baguette yake, ambayo inagharimu `4,000 Sats`. Anataka kulipa kwa bitcoins huku akidumisha kiwango fulani cha faragha katika malipo yake. Kwa hivyo, anaamua kuunda shughuli ya Stonewall kwa malipo.
+Hebu tuchukue mfano ili kuelewa muundo huu wa muamala. Alice yuko dukani kununua baguette yake, ambayo inagharimu `4,000 Sats`. Anataka kulipa kwa bitcoins huku akidumisha kiwango fulani cha faragha katika malipo yake. Kwa hivyo, anaamua kuunda muamala wa Stonewall kwa malipo.
 
 ![transaction stonewall bakery](assets/en/1.webp)
 
@@ -45,10 +45,9 @@ Katika mfano huu, niliacha kwa makusudi ada za Mining ili kuwezesha uelewaji. Kw
 
 ## Kuna tofauti gani kati ya Stonewall na Stonewall x2?
 
-Muamala wa Stonewall unafanya kazi kwa njia sawa na muamala wa StonewallX2, tofauti pekee ikiwa kwamba mwisho huo unahitaji ushirikiano, tofauti na shughuli ya kawaida ya Stonewall, kwa hivyo jina la "x2". Hakika, shughuli ya Stonewall inaweza kutekelezwa bila kuhitaji ushirikiano wa nje: mtumaji anaweza kuifanya bila usaidizi wa mtu mwingine. Walakini, kwa shughuli ya Stonewall x2, mshiriki wa ziada, anayeitwa "mshiriki," anajiunga na mchakato. Mshiriki huchangia bitcoins zake kama ingizo, kando na zile za mtumaji, na hupokea jumla yote kama pato (ondoa ada za Mining).
+Muamala wa Stonewall unafanya kazi kwa njia sawa na muamala wa StonewallX2, tofauti pekee ikiwa kwamba mwisho huo unahitaji ushirikiano, tofauti na shughuli ya kawaida ya Stonewall, kwa hivyo jina la "x2". Hakika, shughuli ya Stonewall inaweza kutekelezwa bila kuhitaji ushirikiano wa nje: mtumaji anaweza kuifanya bila usaidizi wa mtu mwingine. Walakini, kwa shughuli ya Stonewall x2, mshiriki wa ziada, anayeitwa "mshiriki," anajiunga na mchakato. Mshiriki huchangia bitcoins zake kama ingizo, kando na zile za mtumaji, na hupokea jumla yote kama pato (ondoa ada za Mining)
 
-
-Wacha tuangalie tena mfano wetu na Alice kwenye duka la mkate. Ikiwa angetaka kufanya muamala wa Stonewall x2, Alice angelazimika kushirikiana na Bob (mtu wa tatu) wakati wa kuunda muamala. Kila mmoja angetoa pembejeo UTXO. Bob basi angepokea kiasi kamili cha mchango wake kama pato. Mwokaji angepokea malipo ya baguette yake kwa njia sawa na katika shughuli ya Stonewall, wakati Alice angepokea salio lake la awali, ukiondoa gharama ya baguette.
+Wacha tuangalie tena mfano wetu na Alice kwenye duka la mkate. Ikiwa angetaka kufanya muamala wa Stonewall x2, Alice angelazimika kushirikiana na Bob (mtu wa tatu) wakati wa kuunda muamala. Kila mmoja angetoa pembejeo UTXO. Bob basi angepokea kiasi kamili cha mchango wake kama pato. Mwokaji angepokea malipo ya baguette yake kwa njia sawa na katika muamala wa Stonewall, wakati Alice angepokea salio lake la awali, ukiondoa gharama ya baguette.
 
 ![transaction stonewall x2](assets/en/2.webp)
 
@@ -58,22 +57,22 @@ Kwa mtazamo wa nje, muundo wa muamala ungebaki sawa kabisa.
 ![Stonewall or Stonewall x2 ?](assets/en/3.webp)
 
 
-Kwa muhtasari, miamala ya Stonewall na Stonewall x2 inashiriki muundo sawa. Tofauti kati ya hizi mbili iko katika asili yao ya ushirikiano. Muamala wa Stonewall unatengenezwa kibinafsi, bila hitaji la ushirikiano. Kinyume chake, shughuli ya Stonewall x2 inategemea ushirikiano kati ya watu wawili kwa utekelezaji wake.
+Kwa muhtasari, miamala ya Stonewall na Stonewall x2 inashiriki muundo sawa. Tofauti kati ya hizi mbili iko katika asili yao ya ushirikiano. Muamala wa Stonewall unatengenezwa kibinafsi, bila hitaji la ushirikiano. Kinyume chake, muamala wa Stonewall x2 unategemea ushirikiano kati ya watu wawili kwa utekelezaji wake.
 
 
-[**-> Pata maelezo zaidi kuhusu shughuli za Stonewall x2**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Pata maelezo zaidi kuhusu miamala ya Stonewall x2**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 ## Madhumuni ya muamala wa Stonewall ni nini?
 
-Muundo wa Stonewall huongeza kiasi kikubwa cha entropy kwenye shughuli na huficha uchanganuzi wa mnyororo. Kwa mtazamo wa nje, shughuli kama hiyo inaweza kufasiriwa kama CoinJoin ndogo kati ya watu wawili. Lakini katika hali halisi, kama vile shughuli ya Stonewall x2, ni malipo. Kwa hiyo njia hii inajenga kutokuwa na uhakika katika uchanganuzi wa minyororo, na inaweza hata kusababisha miongozo ya uwongo.
+Muundo wa Stonewall huongeza kiasi kikubwa cha entropy kwenye shughuli na huficha uchanganuzi wa mnyororo. Kwa mtazamo wa nje, shughuli kama hiyo inaweza kufasiriwa kama CoinJoin ndogo kati ya watu wawili. Lakini katika hali halisi, kama vile shughuli ya Stonewall x2, ni malipo. Kwa hiyo njia hii inajenga kutokuwa na uhakika katika chain analysis, na inaweza hata kusababisha miongozo ya uwongo.
 
 
 Wacha tuangalie tena mfano wa Alice kwenye duka la mkate. Muamala kwenye Blockchain utaonekana kama ifuatavyo:
 
 ![Stonewall or Stonewall x2 ?](assets/en/4.webp)
 
-Mtazamaji wa nje anayetegemea heuristic ya uchanganuzi wa mnyororo wa kawaida anaweza kuhitimisha kimakosa kwamba "*watu wawili wamefanya CoinJoin ndogo, na UTXO moja kila moja kama pembejeo na UTXO mbili kila moja kama matokeo*".
+Mtazamaji wa nje anayetegemea heuristic ya Chainalysis ya kawaida anaweza kuhitimisha kimakosa kwamba "*watu wawili wamefanya CoinJoin ndogo, na UTXO moja kila moja kama pembejeo na UTXO mbili kila moja kama matokeo*".
 
 ![Stonewall or Stonewall x2 ?](assets/en/5.webp)
 
@@ -82,23 +81,22 @@ Ufafanuzi huu sio sahihi kwa sababu, kama unavyojua, UTXO ilitumwa kwa mwokaji, 
 
 ![transaction stonewall baker](assets/en/1.webp)
 
-Hata kama mwangalizi wa nje ataweza kutambua muundo wa shughuli ya Stonewall, hatakuwa na taarifa zote. Hawataweza kubainisha ni ipi kati ya UTXO mbili za kiasi sawa inalingana na malipo. Zaidi ya hayo, hawataweza kubainisha ikiwa UTXO mbili katika ingizo zinatoka kwa watu wawili tofauti au ikiwa ni za mtu mmoja aliyeziunganisha. Jambo hili la mwisho linatokana na ukweli kwamba miamala ya Stonewall x2, ambayo tulizungumza juu yake hapo juu, inafuata muundo sawa na shughuli za Stonewall. Kutoka nje na bila maelezo ya ziada kuhusu muktadha, haiwezekani kutofautisha muamala wa Stonewall kutoka kwa shughuli ya Stonewall x2. Hata hivyo, ya awali si shughuli shirikishi, ambapo mwisho ni. Hii inaongeza mashaka zaidi kuhusu matumizi haya.
+Hata kama mwangalizi wa nje ataweza kutambua muundo wa muamala wa Stonewall, hatakuwa na taarifa zote. Hawataweza kubainisha ni ipi kati ya UTXO mbili zenye thamani sawa inayolingana na malipo. Zaidi ya hayo, hawataweza kubainisha ikiwa UTXO mbili katika ingizo zinatoka kwa watu wawili tofauti au ikiwa ni za mtu mmoja aliyeziunganisha. Jambo hili la mwisho linatokana na ukweli kwamba muamala wa Stonewall x2, uliojadiliwa hapo juu, unafuata muundo sawa na muamala wa Stonewall. Kutoka nje na bila maelezo ya ziada kuhusu muktadha, haiwezekani kutofautisha muamala wa Stonewall na muamala wa Stonewall x2. Hata hivyo, muamala wa awali sio muamala wa ushirikiano, tofauti na muamala huo wa ushirikiano. Hii inaongeza mashaka zaidi kuhusu matumizi haya.
 
 ![Stonewall or Stonewall x2 ?](assets/en/3.webp)
 
-## Jinsi ya kufanya shughuli ya Stonewall kwenye Samourai Wallet?
+## Jinsi ya kufanya muamala wa Stonewall kwenye Samourai Wallet?
 
-Tofauti na shughuli za Stowaway au Stonewall x2 (cahoots), muamala wa Stonewall hauhitaji matumizi ya Paynyms. Inaweza kufanyika moja kwa moja, bila hatua yoyote ya maandalizi. Ili kufanya hivyo, fuata mafunzo yetu ya video kwenye Samourai Wallet:
+Tofauti na Muamala wa Stowaway au Stonewall x2 (cahoots), muamala wa Stonewall hauhitaji matumizi ya Paynyms. Inaweza kufanyika moja kwa moja, bila hatua yoyote ya maandalizi. Ili kufanya hivyo, fuata mafunzo yetu ya video kwenye Samourai Wallet:
 
 ![Stonewall Tutorial - Samourai Wallet](https://youtu.be/mlRtZvWGuk0?si=e_lSKJLvybWUna1j)
 
 
-## Jinsi ya kufanya shughuli ya Stonewall kwenye Sparrow Wallet?
+## Jinsi ya kufanya muamala wa Stonewall kwenye Sparrow Wallet?
 
-Tofauti na shughuli za Stowaway au Stonewall x2 (cahoots), muamala wa Stonewall hauhitaji matumizi ya Paynyms. Inaweza kufanyika moja kwa moja, bila hatua yoyote ya maandalizi. Ili kufanya hivyo, fuata mafunzo yetu ya video kwenye Sparrow Wallet:
+Tofauti na miamala ya Stowaway au Stonewall x2 (cahoots), muamala wa Stonewall hauhitaji matumizi ya Paynyms. Inaweza kufanyika moja kwa moja, bila hatua yoyote ya maandalizi. Ili kufanya hivyo, fuata mafunzo yetu ya video kwenye Sparrow Wallet:
 
 ![Stonewall Tutorial - Sparrow Wallet](https://youtu.be/su89ljkV_OI?si=1jNaSJGvECUYe6Or)
-
 
 
 **Nyenzo za Nje:**

@@ -1,0 +1,9 @@
+question: Czy René Descartes wierzył w wolną wolę?
+answer: Nigdy.
+wrong_answers:
+  - Tylko dla dorosłych.
+  - Tylko gdybyśmy studiowali filozofię.
+  - Pod pewnymi warunkami.
+explanation: |
+  René Descartes nigdy nie wierzył w wolną wolę. Utrzymywał, że wszystkie nasze działania są zdeterminowane przez wcześniejsze przyczyny, chociaż starał się zachować pewną formę wolności woli.
+reviewed: false

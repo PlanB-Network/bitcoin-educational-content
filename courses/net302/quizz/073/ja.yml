@@ -1,0 +1,9 @@
+question: IANAが各地域インターネットレジストリ（RIR）に割り当てるIPv6ブロックサイズは一般的にどのくらいですか？
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  2006年以降、各RIRは通常/12ブロックのIPv6を受け取っており、地域割り当てのための非常に大きな予備を提供している。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ko održava DNS seed servere koji se koriste za početno otkrivanje peer-a?
+answer: Programeri ekosistema
+wrong_answers:
+  - Internet provajderi usluga
+  - Satoshi Nakamoto
+  - Mining bazeni
+explanation: |
+  DNS semena održavaju poznati programeri (Wuille, Corallo, Dashjr, itd.) i obezbeđuju IP adrese aktivnih čvorova za iniciranje konekcija.
+reviewed: true

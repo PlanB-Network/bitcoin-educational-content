@@ -1,0 +1,10 @@
+question: Mu nyishu zikurikira, ni iyihe idashobora guhenda ubuhinga bwo gusesangura uruhererekane?
+answer: Igihe cose ukoresheje Address nyene.
+wrong_answers:
+  - Guhingura ihinduka rifise agaciro kari hafi y’ukwishyura.
+  - Gukora ibisohoka vy’amahera adasanzwe, atari azunguruka.
+  - Gutanga ukwiragira kw’ibikorwa vy’ubudandaji umusi wose.
+explanation: |
+  Umuntu canecane ntakwiye gukoresha Address yakira incuro nyinshi. Ibindi bisubizo vyose bituma umuntu yirinda ubuhinga bwo gusesangura uruhererekane.
+  
+reviewed: false

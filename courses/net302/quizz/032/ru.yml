@@ -1,0 +1,9 @@
+question: Какова длина стандартного IPv4 Address в битах?
+answer: 32-бит
+wrong_answers:
+  - 8 бит
+  - 128-бит
+  - 16 бит
+explanation: |
+  IPv4 Address кодируется 32 битами, разделенными на четыре байта по 8 бит каждый.
+reviewed: false

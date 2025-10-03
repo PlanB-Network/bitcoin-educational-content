@@ -1,0 +1,9 @@
+question: 为什么必须向 IPv6 迁移？
+answer: IPv4 Address 耗尽
+wrong_answers:
+  - IPv4 上的 NAT 协议失效
+  - 子网掩码不兼容
+  - DHCP 支持结束
+explanation: |
+  IPv4 地址的耗尽推动了向 IPv6 的过渡，而 IPv6 提供了更大的 Address 空间。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat is de functie van de parameter assumevalid in Bitcoin core?
+answer: Scriptverificatie negeren vóór een referentieblok
+wrong_answers:
+  - Proof-of-Work verificatie negeren vóór een referentieblok
+  - Kopverificatie negeren vóór een referentieblok
+  - Tor forceren voor peer discovery
+explanation: |
+  Assumevalid versnelt IBD door scriptverificatie voor een bekend blok te negeren, terwijl alle andere validaties behouden blijven.
+reviewed: true

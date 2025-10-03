@@ -73,7 +73,7 @@ Banxaas veb platforma je minimalistička i intuitivna, omogućavajući vam da za
 
 
 
-- Od CFA franka do satoshija** :
+- **Od CFA franka do satoshija**:
 
 
 
@@ -114,7 +114,7 @@ Potvrdite svoju transakciju klikom na dugme **Troc** da kupite bitkoine iz svoje
 
 
 
-- Od Satoshija do CFA Franaka**
+- Od Satoshija do CFA Franaka
 
 
 

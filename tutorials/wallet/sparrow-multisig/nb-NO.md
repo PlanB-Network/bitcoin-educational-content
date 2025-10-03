@@ -1,5 +1,5 @@
 ---
-name: Spurv Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: Opprett en portefølje med flere signaturer på Sparrow
 ---
 ![cover](assets/cover.webp)

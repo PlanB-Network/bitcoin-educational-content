@@ -1,0 +1,9 @@
+question: Kdy se používá volba -u v příkazu lsof?
+answer: Filtrování podle uživatele
+wrong_answers:
+  - Vynucení rozlišení DNS
+  - Zobrazení otevřených portů
+  - Zadání serveru DNS
+explanation: |
+  Volba -u v příkazu lsof omezuje výstup na soubory otevřené určitým uživatelem nebo UID.
+reviewed: false

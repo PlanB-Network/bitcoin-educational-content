@@ -1,5 +1,5 @@
 ---
-name: Hastighet Wallet - PoS
+name: Speed Wallet - POS
 description: Integrera enkelt betalningar med Bitcoin och stablecoin i din verksamhet
 ---
 ![cover](assets/cover.webp)
@@ -22,31 +22,31 @@ Den världsomspännande användningen av Bitcoin baseras på konkreta användnin
 
 
 
-Speed har ett brett utbud av funktioner för att täcka de ekonomiska aspekterna av ditt företag. Du kommer att hitta :
+Speed har ett brett utbud av funktioner för att täcka de ekonomiska aspekterna av ditt företag. Du kommer att hitta:
 
 
 
 
 
-- Konfiguration av onlinebetalningar**: Ta emot betalningar från dina kunder var de än befinner sig, tack vare din webbplats.
+- **Konfiguration av onlinebetalningar**: Ta emot betalningar från dina kunder var de än befinner sig, tack vare din webbplats.
 
 
 
 
 
-- Betalningar på plats**: Perfekt för butiker och företag som tar emot kontanter i butiken.
+- **Betalningar på plats**: Perfekt för butiker och företag som tar emot kontanter i butiken.
 
 
 
 
 
-- Uttag**: Ta ut dina tillgångar smidigt och använd dina bitcoins för att betala tillbaka dina kunder och löner.
+- **Uttag**: Ta ut dina tillgångar smidigt och använd dina bitcoins för att betala tillbaka dina kunder och löner.
 
 
 
 
 
-- Koppling till andra plattformar**: Använder du externa verktyg för att hantera dina betalningar? Speed erbjuder dig möjligheten att ansluta dem till sin plattform, för ett allt-i-ett-ekosystem som speglar din verksamhet.
+- **Koppling till andra plattformar**: Använder du externa verktyg för att hantera dina betalningar? Speed erbjuder dig möjligheten att ansluta dem till sin plattform, för ett allt-i-ett-ekosystem som speglar din verksamhet.
 
 
 
@@ -265,13 +265,13 @@ I menyn **Sänd betalningar** hittar du alla alternativ för överföring av pen
 
 
 
-- Omedelbara betalningar**: Med alternativet Instant Send kan du skicka bitcoins direkt från ditt handelskonto på ett säkert sätt.
+- **Omedelbara betalningar**: Med alternativet Instant Send kan du skicka bitcoins direkt från ditt handelskonto på ett säkert sätt.
 
 
 
 
 
-- generate uttagslänkar** för att göra det möjligt för dina partners och leverantörer att få tillgång till sin betalning vid ett senare tillfälle utan att du behöver vara närvarande online.
+- generate **uttagslänkar** för att göra det möjligt för dina partners och leverantörer att få tillgång till sin betalning vid ett senare tillfälle utan att du behöver vara närvarande online.
 
 
 
@@ -289,7 +289,7 @@ I alternativet **Withdrawal Links** skapar du en ny uttagslänk och konfigurerar
 
 
 
-- Utbetalningar**: I menyn Utbetalningar initierar du uttag från ditt Speed Business-saldo till din personliga Wallet.
+- **Utbetalningar**: I menyn Utbetalningar initierar du uttag från ditt Speed Business-saldo till din personliga Wallet.
 
 
 
@@ -299,7 +299,7 @@ I alternativet **Withdrawal Links** skapar du en ny uttagslänk och konfigurerar
 
 
 
-- Rabatter**: Uppmuntra dina stamkunder genom att ställa in rabattalternativ för att tjäna bonusar.
+- **Rabatter**: Uppmuntra dina stamkunder genom att ställa in rabattalternativ för att tjäna bonusar.
 
 
 

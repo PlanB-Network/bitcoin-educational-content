@@ -1,0 +1,9 @@
+question: Miks muutus üleminek IPv6-le vajalikuks?
+answer: IPv4 Address ammendumine
+wrong_answers:
+  - NAT-protokolli ebaõnnestumine IPv4 puhul
+  - Alamvõrgu maski kokkusobimatus
+  - DHCP toetuse lõppemine
+explanation: |
+  IPv4-aadresside ammendumine tingis ülemineku IPv6-le, mis pakub tunduvalt suuremat Address ruumi.
+reviewed: false

@@ -1,9 +1,11 @@
 ---
-name: LAPP bitcoin
-description: Tutorial pour développer votre première LApp
+name: Lightning App
+description: Tutoriel pour développer votre première application Lightning (LAPP)
 ---
 
-Apprenez à coder votre première application Lightning
+![cover](assets/cover.webp)
+
+## Apprenez à coder votre première application lightning
 
 Exigences:
 
@@ -18,6 +20,8 @@ Pour construire notre application Lightning, nous utiliserons les technologies s
 
 - Express pour notre serveur web
 - Modèles Pug + bootstrap pour notre frontend
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Système d'exploitation
 

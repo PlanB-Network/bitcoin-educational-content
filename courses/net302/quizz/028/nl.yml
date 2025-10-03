@@ -1,0 +1,9 @@
+question: Wat is de eenheid van data die door de Transport Layer voor TCP stroomt?
+answer: Segment
+wrong_answers:
+  - Datagram
+  - Frame
+  - Stroom
+explanation: |
+  Op de Transport Layer met TCP wordt de data-eenheid een segment genoemd, terwijl UDP de term pakket gebruikt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tarih ve felsefe arasındaki fark nedir?
+answer: Diğer tüm cevaplar
+wrong_answers:
+  - Tarih geçmişi anlatırken felsefe onu yargılar
+  - Tarih olgusaldır, felsefe ise normatiftir
+  - Tarih olaylara odaklanırken, felsefe kavramlara odaklanır
+explanation: |
+  Tarih ve felsefe arasındaki fark, yaklaşımlarında yatmaktadır: tarih geçmiş olayları tanımlamaya ve analiz etmeye odaklanırken, felsefe soyut kavramlara dayalı olarak yargılama, yorumlama ve normlar oluşturma arayışındadır.
+reviewed: true

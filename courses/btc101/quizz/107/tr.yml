@@ -1,0 +1,11 @@
+question: Bitcoin dünyaya ilk kez ne zaman sunuldu?
+answer: 31 Ekim 2008.
+wrong_answers:
+  - 3 Ocak 2009.
+  - 22 Kasım 2009.
+  - 12 Aralık 2010.
+explanation: |
+  Bitcoin ilk olarak 31 Ekim'de dünyaya tanıtıldı,
+  2008, Satoshi Nakamoto Cypherpunk'e bir e-posta gönderdiğinde
+  gW-2 Beyaz Kitabını içeren e-posta listesi.
+reviewed: true

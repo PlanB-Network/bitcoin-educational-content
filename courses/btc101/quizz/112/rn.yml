@@ -1,0 +1,11 @@
+question: BitcoinIkiganiro ni iki?
+answer: Ikibanza c’ibiganiro ku bakoresha Bitcoin.
+wrong_answers:
+  - Porogarama ya Bitcoin Mining.
+  - A Bitcoin Wallet.
+  - Inama ya Bitcoin.
+explanation: |
+  Ihuriro rya BitcoinTalk ni ahantu h’ibiganiro vya Bitcoin.
+  abakoresha. Yaremwe na Satoshi Nakamoto kw’igenekerezo rya 22 Ugushyingo 2019.
+  2009.
+reviewed: true

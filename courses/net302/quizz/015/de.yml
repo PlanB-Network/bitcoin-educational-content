@@ -1,0 +1,9 @@
+question: Wie groß ist die theoretische Maximalgröße eines IP-Datagramms?
+answer: 65.536 Bytes
+wrong_answers:
+  - 1.500 Bytes
+  - 512 Bytes
+  - 255 Bytes
+explanation: |
+  Die maximale Größe eines IP-Datagramms beträgt 65.536 Bytes, die durch die Grenze des Feldes für die Gesamtlänge im IP-Header bestimmt wird.
+reviewed: false

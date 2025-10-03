@@ -430,14 +430,14 @@ Lorsque le dividende ou le diviseur est négatif, les opérations modulo peuvent
 
 Vous rencontrerez certainement des cas avec un dividende négatif en cryptographie. Dans ces cas, l'approche typique est la suivante :
 
-* Déterminez d'abord la valeur la plus proche **inférieure ou égale** au dividende dans laquelle le diviseur se divise avec un reste nul. Appelez cette valeur $p$.
+**Déterminez d'abord la valeur la plus proche inférieure ou égale** au dividende dans laquelle le diviseur se divise avec un reste nul. Appelez cette valeur $p$.
 * Si le dividende est $x$, alors le résultat de l'opération modulo est la valeur de $x – p$.
 
 Par exemple, supposons que le dividende soit $–20$ et le diviseur $3$. La valeur la plus proche inférieure ou égale à $–20$ dans laquelle $3$ se divise exactement est $–21$. La valeur de $x – p$ dans ce cas est $–20 – (–21)$. Cela équivaut à $1$, et donc $–20 \mod 3$ est égal à $1$. De la même manière, nous pouvons évaluer les expressions ci-dessous :
 
-* $–8 \mod 5 = 2$
-* $–19 \mod 16 = 13$
-* $–14 \mod 6 = 4$
+$-8 \mod 5 = 2$
+**$–19 \mod 16 = 13$**
+**$–14 \mod 6 = 4$**
 
 En ce qui concerne la notation, vous verrez généralement des expressions de ce type : $x = [y \mod z]$. En raison des crochets, l'opération modulo dans ce cas ne s'applique qu'au côté droit de l'expression. Si $y$ vaut $25$ et $z$ vaut $4$, par exemple, alors $x$ vaut $1$.
 
@@ -470,11 +470,11 @@ Supposons que vous ayez sélectionné uniformément une clé ayant la valeur de 
 
 Le chiffrement complet du mot « DOG » avec une clé de valeur $17$ est le suivant :
 
-* Message = DOG = D, O, G = 3, 15, 6  
-* $c_0 = [(3 + 17) \mod 26] = 20 = U$
-* $c_1 = [(15 + 17) \mod 26] = 6 = G$
-* $c_2 = [(6 + 17) \mod 26] = 23 = X$
-* $c = UGX$
+**Message = DOG = D, O, G = 3, 15, 6**
+$c_0 = [(3 + 17) \mod 26] = 20 = U$
+$c_1 = [(15 + 17) \mod 26] = 6 = G$
+$c_2 = [(6 + 17) \mod 26] = 23 = X$
+*c = UGX*
 
 Tout le monde peut comprendre intuitivement comment fonctionne le chiffre de décalage et probablement l'utiliser lui-même. Cependant, pour progresser en cryptographie, il est important de commencer à se familiariser avec la formalisation, car les schémas deviendront beaucoup plus complexes. C'est pourquoi les étapes du chiffre de décalage ont été formalisées.
 
@@ -503,9 +503,9 @@ Par exemple, supposons que vous ayez tapé un e-mail dans votre application de m
 Une opération mathématique essentielle à comprendre pour la cryptographie moderne, en plus de l'opération modulo, est celle de l’**opération XOR** ou « ou exclusif ». Cette opération prend en entrée deux bits et produit en sortie un autre bit. L'opération XOR sera simplement notée "XOR". Elle produit $0$ si les deux bits sont identiques et $1$ s'ils sont différents. Vous pouvez voir les quatre possibilités ci-dessous. Le symbole $\oplus$ représente "XOR" :
 
 * $0 \oplus 0 = 0$
-* $0 \oplus 1 = 1$
-* $1 \oplus 0 = 1$
-* $1 \oplus 1 = 0$
+$0 \oplus 1 = 1$
+$1 \oplus 0 = 1$
+*$1 \oplus 1 = 0$*
 
 Pour illustrer, supposons que vous ayez un message $m_1$ ($01111001$) et un message $m_2$ ($01011001$). L'opération XOR de ces deux messages est montrée ci-dessous :
 
@@ -519,10 +519,10 @@ Une opération XOR sur deux chaînes de longueurs différentes peut avoir des in
 
 Une opération XOR est équivalente au cas particulier de l'exécution d'une opération modulo sur l'addition de bits lorsque le diviseur est $2$. Vous pouvez voir l'équivalence dans les résultats suivants :
 
-* $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
-* $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
-* $(0 + 1) \mod 2 = 0 \oplus 1 = 1$
-* $(1 + 1) \mod 2 = 1 \oplus 1 = 0$
+$(0 + 0) \mod 2 = 0 \oplus 0 = 0$
+$(1 + 0) \mod 2 = 1 \oplus 0 = 1$
+$(0 + 1) \mod 2 = 0 \oplus 1 = 1$
+$(1 + 1) \mod 2 = 1 \oplus 1 = 0$
 
 
 ## Pseudoaléatoire
@@ -636,7 +636,7 @@ Si nous permettons aux nombres réels de faire partie de notre ensemble, alors c
 
 Certains groupes respectent une cinquième condition générale, connue sous le nom de **condition de commutativité**. Cette condition est formulée comme suit :
 
-* Supposons un groupe $G$ avec un ensemble **S** et un opérateur binaire $\circ$. Supposons que $a$ et $b$ sont des éléments de **S**. Si pour n'importe quels deux éléments $a$ et $b$ de **S**, on a $a \circ b = b \circ a$, alors $G$ respecte la condition de commutativité.
+*Supposons un groupe $G$ avec un ensemble **S** et un opérateur binaire $\circ$. Supposons que $a$ et $b$ sont des éléments de **S**. Si pour n'importe quels deux éléments $a$ et $b$ de **S**, on a $a \circ b = b \circ a$, alors $G$ respecte la condition de commutativité.*
 
 Tout groupe qui respecte la condition de commutativité est appelé un **groupe commutatif**, ou un **groupe abélien** (d’après Niels Henrik Abel). Il est facile de vérifier que l'ensemble des nombres réels muni de l’addition et l'ensemble des entiers muni de l’addition sont tous deux des groupes abéliens. En revanche, l'ensemble des entiers muni de la multiplication n'est pas un groupe du tout, donc il ne peut pas être un groupe abélien. L'ensemble des nombres réels non nuls muni de la multiplication, en revanche, est également un groupe abélien.
 
@@ -656,7 +656,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(qui est le plus grand nombre premier inférieur à $2^{256}$). La coordonnée $x$ représente la clé privée, et la coordonnée $y$ représente la clé publique.
+(qui est le plus grand nombre premier inférieur à $2^{256}$).
 
 Les transactions en Bitcoin consistent généralement à verrouiller des sorties (outputs) sur une ou plusieurs clés publiques d'une certaine manière. La valeur de ces transactions peut alors être déverrouillée en créant des signatures numériques avec les clés privées correspondantes.
 
@@ -682,33 +682,33 @@ Prenons par exemple $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Ce groupe
 
 Examinons maintenant l'exponentiation de l’élément $2$ de ce groupe. Les calculs jusqu’à $2^{12}$ sont présentés ci-dessous. Notez que, dans cet exemple particulier, l'exponentiation de groupe correspond effectivement à l'exponentiation arithmétique sur le côté droit de l’équation (mais cela pourrait aussi impliquer, par exemple, une addition). Pour plus de clarté, j'ai détaillé l'opération répétée au lieu d'utiliser la forme exponentielle sur la partie droite.
 
-* $2^1 = 2 \mod 11$
+$2^1 = 2 \mod 11$
 * $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
 * $2^3 = 2 \cdot 2 \cdot 2 \mod 11 = 8 \mod 11$
 * $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5 \mod 11$
 * $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 32 \mod 11 = 10 \mod 11$
 * $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 64 \mod 11 = 9 \mod 11$
 * $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 128 \mod 11 = 7 \mod 11$
-* $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3 \mod 11$
-* $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 512 \mod 11 = 6 \mod 11$
-* $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 1024 \mod 11 = 1 \mod 11$
-* $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
-* $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
+$2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3 \mod 11$
+$2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 512 \mod 11 = 6 \mod 11$
+$2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 1024 \mod 11 = 1 \mod 11$
+$2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
+$2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
 
 En examinant attentivement, on constate que l’exponentiation de l’élément $2$ parcourt tous les éléments de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ dans l’ordre suivant : $2, 4, 8, 5, 10, 9, 7, 3, 6, 1$. Après $2^{10}$, l’exponentiation continue de l’élément $2$ parcourt à nouveau tous les éléments, dans le même ordre. Par conséquent, l’élément $2$ est un **générateur** dans $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
 Bien que $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ possède plusieurs générateurs, tous les éléments de ce groupe ne sont pas des générateurs. Prenons par exemple l’élément $3$. En parcourant les dix premières exponentiations, sans montrer les calculs détaillés, on obtient les résultats suivants :
 
-* $3^1 = 3 \mod 11$
-* $3^2 = 9 \mod 11$
-* $3^3 = 5 \mod 11$
-* $3^4 = 4 \mod 11$
-* $3^5 = 1 \mod 11$
-* $3^6 = 3 \mod 11$
-* $3^7 = 9 \mod 11$
-* $3^8 = 5 \mod 11$
-* $3^9 = 4 \mod 11$
-* $3^{10} = 1 \mod 11$
+$3^1 = 3 \mod 11$
+$3^2 = 9 \mod 11$
+$3^3 = 5 \mod 11$
+$3^4 = 4 \mod 11$
+$3^5 = 1 \mod 11$
+$3^6 = 3 \pmod{11}$
+$3^7 = 9 \mod 11$
+**$3^8 = 5 \mod 11$**
+$3^9 = 4 \mod 11$
+**$3^{10} = 1 \mod 11$**
 
 Au lieu de parcourir toutes les valeurs de $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, l’exponentiation de l’élément $3$ ne produit qu’un sous-ensemble de ces valeurs : $3, 9, 5, 4,$ et $1$. Après la cinquième exponentiation, ces valeurs commencent à se répéter.
 
@@ -728,7 +728,7 @@ Dans le cas où $N$ est lui-même un nombre premier, tous les entiers de $1$ à 
 
 Ensuite, la fonction $\phi(N)$ calcule le nombre d’entiers qui sont copremiers avec un nombre $N$, et elle est connue sous le nom de **fonction Phi d’Euler**. [1] Selon le **théorème d’Euler**, lorsque deux entiers $a$ et $N$ sont copremiers, la relation suivante est vérifiée :
 
-* $a^{\phi(N)} \mod N = 1 \mod N$
+$a^{\phi(N)} \mod N = 1 \mod N$
 
 Cela a une implication importante pour la classe de groupes $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ où $N$ est premier. Pour ces groupes, l'exponentiation d’éléments de groupe correspond à l’exponentiation arithmétique. C'est-à-dire que $a^{\phi(N)} \mod N$ représente l'opération arithmétique $a^{\phi(N)} \mod N$. Comme tout élément $a$ dans ces groupes multiplicatifs est copremier avec $N$, cela signifie que $a^{\phi(N)} \mod N = a^{N - 1} \mod N = 1 \mod N$.
 
@@ -820,9 +820,9 @@ L'ensemble **S** serait donc : $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x
 
 La première opération sur l'ensemble **S** ($\circ$) peut être définie comme l’**addition polynomiale standard modulo 2**. Il suffit d’additionner les polynômes normalement, puis d’appliquer le modulo 2 à chacun des coefficients du polynôme résultant. Voici quelques exemples :
 
-* $[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$
-* $[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
-* $[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
+$[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$
+$[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
+$[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
 
 La deuxième opération sur l'ensemble **S** ($\diamond$) nécessaire pour créer le corps est plus complexe. Il s’agit d’une sorte de multiplication, mais pas de la multiplication standard en arithmétique. Au lieu de cela, chaque élément doit être considéré comme un vecteur, et l’opération doit être comprise comme une **multiplication de vecteurs modulo un polynôme irréductible**.
 
@@ -849,16 +849,16 @@ Pour notre exemple, supposons que nous sélectionnons le polynôme $x^3 + x + 1$
 Travaillons maintenant sur un exemple de la deuxième opération en utilisant le polynôme $x^3 + x + 1$ comme diviseur pour illustrer comment cela fonctionne. Supposons que vous multipliez les éléments $x^2 + 1$ avec $x^2 + x$ dans notre ensemble **S**. Nous devons alors calculer l’expression suivante :
 
 * $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
-* $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$
-* $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$
+*$[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$*
+**$[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$**
 
 Nous savons que $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ peut être réduit car le dividende a un degré supérieur ($4$) au diviseur ($3$).
 
 Pour commencer, vous pouvez constater que l'expression $x^3 + x + 1$ divise $x^4 + x^3 + x^2 + x$ un total de $x$ fois. Vous pouvez vérifier cela en multipliant $x^3 + x + 1$ par $x$, ce qui donne $x^4 + x^2 + x$. Comme ce terme est du même degré que le dividende, à savoir $4$, nous savons que cela fonctionne. Vous pouvez calculer le reste de cette division par $x$ comme suit :
 
-* $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
-* $[x^3] \mod x^3 + x + 1 =$
-* $x^3$
+$[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
+*$[x^3] \mod x^3 + x + 1 =$*
+*$x^3$*
 
 Après avoir divisé $x^4 + x^3 + x^2 + x$ par $x^3 + x + 1$ un total de $x$ fois, il reste un reste de $x^3$. Ce reste peut-il être divisé davantage par $x^3 + x + 1$ ?
 
@@ -1040,8 +1040,8 @@ On ne peut jamais affirmer de manière non équivoque qu'un schéma cryptographi
 
 Bien que nous n'entrions pas dans tous les détails des différentes notions de sécurité cryptographique, vous devez savoir que deux hypothèses sont omniprésentes dans toutes les notions modernes de sécurité cryptographique relatives aux schémas symétriques et asymétriques (et sous une forme ou une autre pour d'autres primitives cryptographiques) :
 
-* Les connaissances de l'attaquant sur le schéma sont conformes au **principe de Kerckhoffs**.
-* L’attaquant ne peut pas réaliser de manière réaliste une attaque par force brute contre le schéma. Plus précisément, les modèles de menace des notions de sécurité cryptographiques supposent généralement que les attaques par force brute ne sont pas une considération pertinente.
+**Les connaissances de l'attaquant sur le schéma sont conformes au principe de Kerckhoffs.**
+*L'attaquant ne peut pas réaliser de manière réaliste une attaque par force brute contre le schéma. Plus précisément, les modèles de menace des notions de sécurité cryptographiques supposent généralement que les attaques par force brute ne sont pas une considération pertinente.*
 
 **Notes :**
 
@@ -1852,7 +1852,7 @@ Vous trouverez ci-dessous la sortie SHA-256 d'un message que j'ai rédigé. Pour
 
 Mais je ne vais pas vous laisser dans l'expectative jusqu'à ce que SHA-256 devienne plus faible. Le message original que j'ai écrit était le suivant :
 
-* « Ceci est un message très aléatoire, ou plutôt, en quelque sorte aléatoire. Cette première partie ne l'est pas, mais je vais terminer par quelques caractères relativement aléatoires pour assurer un message très imprévisible. XLWz4dVG3BxUWm7zQ9qS ».
+*« Ceci est un message très aléatoire, ou plutôt, en quelque sorte aléatoire. Cette première partie ne l'est pas, mais je vais terminer par quelques caractères relativement aléatoires pour assurer un message très imprévisible. XLWz4dVG3BxUWm7zQ9qS ».*
 
 Une manière courante d'utiliser des fonctions de hachage possédant la propriété de masquage est la gestion des mots de passe (la résistance aux collisions est également importante pour cette application). Tout service en ligne basé sur un compte décent, comme Facebook ou Google, ne stockera pas vos mots de passe directement pour gérer l'accès à votre compte. Au lieu de cela, il ne stockera qu'un hachage de ce mot de passe. Chaque fois que vous saisissez votre mot de passe sur un navigateur, un hachage est d'abord calculé. Seul ce hachage est envoyé au serveur du prestataire de services et comparé au hachage stocké dans la base de données du serveur. La propriété de masquage permet de garantir que les attaquants ne peuvent pas retrouver le mot de passe à partir de la valeur de hachage.
 
@@ -1893,7 +1893,7 @@ Il y a environ 2 500 ans, le mathématicien grec Euclide d'Alexandrie a découve
 La seconde partie de cette affirmation signifie simplement que vous pouvez prendre n'importe quel entier non premier $N$ supérieur à 1, et l'écrire comme une multiplication de nombres premiers. Voici plusieurs exemples d'entiers non premiers écrits comme produit de facteurs premiers.
 
 * $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
-* $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
+$84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
 * $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
 
 Pour tous ces exemples, calculer leurs facteurs premiers est relativement simple, même si vous ne disposez que de $N$. Vous commencez par le plus petit nombre premier, c'est-à-dire 2, et vous voyez combien de fois l'entier $N$ est divisible par celui-ci. Ensuite, vous passez à tester la divisibilité de $N$ par 3, 5, 7, et ainsi de suite. Vous poursuivez ce processus jusqu'à ce que votre entier $N$ soit écrit comme produit uniquement de nombres premiers.
@@ -1909,18 +1909,18 @@ Supposons maintenant que $N$ soit très grand. Quelle serait la difficulté de r
 
 Cela dépend vraiment de $N$. Supposons, par exemple, que $N$ soit égal à 50 450 400. Bien que ce nombre semble intimidant, les calculs ne sont pas si compliqués et peuvent facilement être effectués à la main. Comme ci-dessus, vous commencez simplement par 2 et continuez. Vous trouverez ci-dessous le résultat de ce processus de manière similaire à l'exemple précédent.
 
-* 2 : 25 225 200 	($50 450 400 = 2 \cdot 25 225 200$)  
-* 2 : 12 612 600 	($50 450 400 = 2^2 \cdot 12 612 600$)  
-* 2 : 6 306 300 	($50 450 400 = 2^3 \cdot 6 306 300$)  
-* 2 : 3 153 150 	($50 450 400 = 2^4 \cdot 3 153 150$)  
-* 2 : 1 576 575 	($50 450 400 = 2^5 \cdot 1 576 575$)  
-* 3 : 525 525 	($50 450 400 = 2^5 \cdot 3 \cdot 525 525$)  
-* 3 : 175 175 	($50 450 400 = 2^5 \cdot 3^2 \cdot 175 175$)  
-* 5 : 35 035 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35 035$)  
-* 5 : 7 007 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 007$)  
-* 7 : 1 001 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1 001$)  
-* 7 : 143 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)  
-* 11 : 13 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)  
+**2 : 25 225 200** ($50 450 400 = 2 \cdot 25 225 200$)
+**2**: 12 612 600 ($50 450 400 = 2^2 \cdot 12 612 600$)
+**2 : 6 306 300** ($50 450 400 = 2^3 \cdot 6 306 300$)
+**2 : 3 153 150** ($50 450 400 = 2^4 \cdot 3 153 150$)
+**2 : 1 576 575** ($50 450 400 = 2^5 \cdot 1 576 575$)
+**3 : 525 525** ($50 450 400 = 2^5 \cdot 3 \cdot 525 525$)
+**3**: 175 175 ($50 450 400 = 2^5 \cdot 3^2 \cdot 175 175$)
+*5 : 35 035* ($50 450 400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35 035$)
+*5 : 7 007* ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 007$)
+**7 : 1 001** ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1 001$)
+*7 : 143* ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+*11 : 13* ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 * Comme 13 est un nombre premier, le résultat est $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
 
 Réaliser cette décomposition en facteurs premiers à la main prend un certain temps. Un ordinateur, bien sûr, pourrait effectuer tous ces calculs en une fraction de seconde. En fait, un ordinateur peut fréquemment factoriser des entiers extrêmement grands en une fraction de seconde.
@@ -1931,7 +1931,7 @@ Pour être concret, disons que $p$ et $q$ sont tous deux des nombres premiers de
 
 Il est important de comprendre à quel point $p$ et $q$ sont grands s'ils sont sélectionnés selon les conditions ci-dessus. Par exemple, voici un nombre premier aléatoire qui nécessite au moins 1024 bits pour être représenté :
 
-* 14,752,173,874,503,595,484,930,006,383,670,759,559,764,562,721,397,166,747,289,220,945,457,932,666,751,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,049,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484,558,332,897,443,152,653,214,483,870,992,618,171,825,921,582,253,023,974,514,209,142,520,026,807,636,589.
+**14,752,173,874,503,595,484,930,006,383,670,759,559,764,562,721,397,166,747,289,220,945,457,932,666,751,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,049,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484,558,332,897,443,152,653,214,483,870,992,618,171,825,921,582,253,023,974,514,209,142,520,026,807,636,589.**
 
 Supposons maintenant qu'après avoir sélectionné aléatoirement les nombres premiers $p$ et $q$, nous les multiplions pour obtenir un entier $N$. Ce dernier entier est donc un nombre de 2048 bits qui nécessite au moins 2048 bits pour être représenté. Il est beaucoup, beaucoup plus grand que $p$ ou $q$.
 
@@ -2021,8 +2021,8 @@ On dit qu'un entier $a$ est **inversible modulo $N$**, s'il existe au moins un e
 
 Supposons, par exemple, que $a = 5$ et $N = 11$. Il existe plusieurs entiers par lesquels vous pouvez multiplier 5, de sorte que $5 \cdot b \mod 11 = 1 \mod 11$. Considérons, par exemple, les entiers 20 et 31. Il est facile de vérifier que ces deux entiers sont des inverses de 5 pour une réduction modulo 11.
 
-* $5 \cdot 20 \mod 11 = 100 \mod 11 = 1 \mod 11$
-* $5 \cdot 31 \mod 11 = 155 \mod 11 = 1 \mod 11$
+$5 \cdot 20 \mod 11 = 100 \mod 11 = 1 \mod 11$
+$5 \cdot 31 \mod 11 = 155 \mod 11 = 1 \mod 11$
 
 Bien que 5 ait de nombreux inverses en réduction modulo 11, vous pouvez démontrer qu'il n'existe qu'un seul inverse positif de 5 qui soit inférieur à 11. En fait, ce résultat est valable de manière générale.
 
@@ -2052,7 +2052,7 @@ Supposons que $a = 5$ et $N = 7$. Ces deux nombres sont effectivement copremiers
 
 Le théorème d'Euler indique maintenant que $5^6 \mod 7$ doit être égal à $1 \mod 7$. Voici les calculs qui montrent que cela est effectivement vrai.
 
-* $5^6 \mod 7 = 15,625 \mod 7 = 1 \mod N$
+$5^6 \mod 7 = 15,625 \mod 7 = 1 \mod N$
 
 L'entier 7 divise 15 624 un total de 2 233 fois. Par conséquent, le reste de la division de 15 625 par 7 est 1.
 
@@ -2066,7 +2066,7 @@ Le théorème d'Euler, associé à la **Proposition 5**, a des implications impo
 
 * $a^{2 \cdot \phi(N)} \mod N = a^{\phi(N)} \cdot a^{\phi(N)} \mod N = 1 \cdot 1 \mod N = 1 \mod N$
 * $a^{\phi(N) + 1} \mod N = a^{\phi(N)} \cdot a^1 \mod N = 1 \cdot a^1 \mod N = a \mod N$
-* $a^{8 \cdot \phi(N) + 3} \mod N = a^{8 \cdot \phi(N)} \cdot a^3 \mod N = 1 \cdot a^3 \mod N = a^3 \mod N$
+$a^{8 \cdot \phi(N) + 3} \mod N = a^{8 \cdot \phi(N)} \cdot a^3 \mod N = 1 \cdot a^3 \mod N = a^3 \mod N$
 
 Ainsi, la combinaison du théorème d'Euler et de la **Proposition 5** permet de simplifier le calcul d'un certain nombre d'expressions. En général, nous pouvons résumer ce principe par la **Proposition 6**.
 
@@ -2121,19 +2121,19 @@ L'étape 4 exige maintenant que nous calculions une valeur $d$ telle que $103 \c
 
 Bien que je ne montre pas ici la procédure, elle donne la valeur 7 lorsque $e = 103$. Vous pouvez vérifier que la paire de valeurs 103 et 7 satisfait bien la condition générale $e \cdot d \mod \phi(n) = 1$ grâce aux calculs suivants :
 
-* $103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$
+$103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$
 
 Il est important de noter qu'étant donné la *Proposition 4*, nous savons qu'aucun autre entier compris entre 1 et 360 pour $d$ ne produira le résultat $103 \cdot d = 1 \mod 360$. De plus, la proposition implique que la sélection d'une valeur différente pour $e$ donnera une valeur unique différente pour $d$.
 
 À l'étape 5 du problème RSA, nous devons sélectionner un entier positif $y$ qui est un copremier de 403. Supposons que nous fixions $y = 2^{103}$. L'exponentiation de 2 par 103 donne le résultat suivant :
 
-* $2^{103} \mod 403 = 10,141,204,801,825,835,211,973,625,643,008 \mod 403 = 349 \mod 403$
+$2^{103} \mod 403 = 10,141,204,801,825,835,211,973,625,643,008 \mod 403 = 349 \mod 403$
 
 Le problème RSA dans cet exemple particulier est maintenant le suivant : On vous fournit $N = 403$, $e = 103$ et $y = 349 \mod 403$. Vous devez maintenant calculer $x$ tel que $x^{103} = 349 \mod 403$. Autrement dit, vous devez trouver que la valeur d'origine avant l'exponentiation par 103 était 2.
 
 Il serait facile (pour un ordinateur du moins) de calculer $x$ si nous savions que $d = 7$. Dans ce cas, vous pourriez déterminer $x$ comme suit :
 
-* $x = y^7 \mod 403 = 349^7 \mod 403 = 630,634,881,591,804,949 \mod 403 = 2 \mod 403$
+$x = y^7 \mod 403 = 349^7 \mod 403 = 630,634,881,591,804,949 \mod 403 = 2 \mod 403$
 
 Le problème est que vous n'avez pas reçu l'information que $d = 7$. Vous pourriez bien sûr calculer $d$ à partir du fait que $103 \cdot d = 1 \mod 360$. Le problème est que vous ne disposez pas non plus de l'information que l'ordre de $N = 360$. Enfin, vous pourriez aussi calculer l'ordre de 403 en déterminant le produit : $(p - 1) \cdot (q - 1)$. Mais on ne vous a pas dit que $p = 13$ et $q = 31$.
 
@@ -2175,7 +2175,6 @@ Cependant, en ajoutant une certaine complexité astucieuse, le problème RSA peu
 ## Conclusion
 <chapterId>f1905f78-8cf7-5031-949a-dfa8b76079b4</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
-
 
 
 

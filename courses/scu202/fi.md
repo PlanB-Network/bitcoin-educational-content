@@ -156,7 +156,7 @@ Oletko valmis ottamaan tietoturvan täysin haltuun, vahvistamaan henkilökohtais
 
 
 
-*HUOM: Jos kurssin aikana tulee vastaan tuntemattomia termejä, katso määritelmät [sanastosta] (https://planb.network/resources/glossary)
+**HUOM:** Jos kurssin aikana tulee vastaan tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.network/resources/glossary)
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman kritisoi avoimesti termin "avoin lähdekoodi" käyttöä pitäe
 
 
 
-*Lähde: Nathaniel Welch
+**Lähde:** Nathaniel Welch
 
 
 
@@ -794,7 +794,7 @@ Nämä varhaiset ponnistelut merkitsivät Linux-jakeluiden syntyä:
 
 
 
-- Helmikuu 1992: MCC Interim Linux**
+- Helmikuu 1992: **MCC Interim Linux**
 
 
 
@@ -804,7 +804,7 @@ Manchesterin yliopistossa kehitettyä MCC Interim Linuxia pidetään ensimmäise
 
 
 
-- Toukokuu 1992: Softlanding Linux System (SLS)**
+- Toukokuu 1992: **Softlanding Linux System (SLS)**
 
 
 
@@ -826,7 +826,7 @@ SLS:ää ei ole enää olemassa. Sen viimeinen tunnettu versio on peräisin vuod
 
 
 
-- Heinäkuu 1993: Slackware**
+- Heinäkuu 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackwarea ylläpidetään edelleen, joten se on vanhin yhä käytössä oleva L
 
 
 
-- Elokuu 1993: Debian**
+- Elokuu 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ Debianista tuli näin yksi GNU/Linux-maailman teknisistä ja ideologisista tukip
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -1050,7 +1050,7 @@ Linux-jakelun valinta riippuu erityistarpeistasi, teknisestä tasostasi ja käyt
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1066,7 +1066,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1086,7 +1086,7 @@ Mint erottuu edukseen yksinkertaisuudellaan, multimediakoodekkien oletusarvoisel
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,7 +1104,7 @@ Asennus on sujuva, olennaiset ohjelmistot on esiasennettu, ja Lite-version avull
 
 
 
-- peruskäyttöjärjestelmä**:
+- **peruskäyttöjärjestelmä**:
 
 Vuonna 2011 lanseerattu elementary OS on Ubuntu-pohjainen jakelu, joka keskittyy ennen kaikkea Interface:n suunnitteluun ja johdonmukaisuuteen. Sen Pantheon-työpöytäympäristö, joka on saanut vaikutteita macOS:stä, on minimalistinen, tyylikäs ja sujuva. Järjestelmä on kuitenkin edelleen vähemmän muokattavissa kuin muut jakelut, ja jotkut edistyneet käyttäjät saattavat tuntea Interface:n valintojen ja sen tarkoituksellisesti lukitun rakenteen rajoittavan heitä. Se sopii hyvin esteettisesti herkille käyttäjille, jotka etsivät yksinkertaista, yhtenäistä järjestelmää jokapäiväiseen käyttöön.
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Amerikkalaisen System76-yrityksen kehittämä Pop!OS perustuu myös Ubuntuun. Se
 
 
 
-- Fedora** (työasema tai KDE Plasma):
+- **Fedora** (työasema tai KDE Plasma):
 
 
 
@@ -1154,7 +1154,7 @@ Fedora on Red Hatin tukema jakelu, joka on suunnattu uusimpiin teknologioihin (W
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed tai Leap):
+- **openSUSE** (Tumbleweed tai Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE on saatavana jatkuvana julkaisuna tai vakaana jakeluna. Se sisältää 
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1182,7 +1182,7 @@ Debianilla on useita haaroja, kuten *Stable* (erittäin luotettava, mutta vanhem
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Archiin perustuva Manjaro tekee Arch Linuxista helppokäyttöisen. Tämä jakelu
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1212,7 +1212,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 #### Erikoistunut jakelu
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux on Debian-pohjainen jakelu, joka on suunniteltu penetraatiotestaukseen ja tietoturvatarkastukseen. Se sisältää satoja pentestityökaluja. Tämä jakelu ei oikein sovellu pääjärjestelmäksi jokapäiväiseen käyttöön.
 
@@ -1224,7 +1224,7 @@ Kali Linux on Debian-pohjainen jakelu, joka on suunniteltu penetraatiotestauksee
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS on myös johdettu Debianista. Se tarjoaa ympäristön pentestejä, hy�
 
 
 
-- Häntä**:
+- **Häntä**:
 
 
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Qubes-käyttöjärjestelmä perustuu Fedoraan ja käyttää Xen-virtualisointij�
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch on Pentest-painotteinen laajennus Arch Linuxille (kuten Kali Debianill
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1300,9 +1300,9 @@ PureOS on Purismin kehittämä Debianista johdettu jakelu, täysin ilmainen (FSF
 
 
 
-- Raspberry Pi OS**:
+https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (aiemmin Raspbian) on Raspberry Pi -mikrotietokoneille optimoitu jakelu. Se perustuu Debianiin, ja paketit on käännetty uudelleen ARM-arkkitehtuuria varten. Sitä voidaan käyttää koulutusprojekteihin, elektroniikan testaukseen tai pieniin henkilökohtaisiin palvelimiin.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (aiemmin Raspbian) on Raspberry Pi -mikrotietokoneille optimoitu
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1326,36 +1326,23 @@ Whonix yhdistää Debianin ja Tor-verkon kahden VM:n arkkitehtuurissa (yhdyskäy
 
 
 
+https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+
 Tämä yleiskuva antaa sinulle yleiskuvan nykyisestä Linux-jakelujen ekosysteemistä, jonka avulla voit valita tekniseen profiiliisi ja tavoitteisiisi parhaiten sopivan jakelun.
-
-
 
 SCU202:n seuraavassa luvussa tarkastelemme lähemmin käytännön Linux-ympäristöä, alkaen graafisista ympäristöistä, jotka muodostavat perustan päivittäiselle vuorovaikutukselle järjestelmän kanssa.
 
-
-
 ## Linux-työpöytäympäristöt
-
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-
-
 GNU/Linux-järjestelmässä työpöytäympäristöllä on yksi tärkeimmistä rooleista käyttäjäkokemuksen kannalta. Se on graafinen Layer, joka mahdollistaa vuorovaikutuksen järjestelmän kanssa ja perustuu tuttuihin visuaalisiin esityksiin: ikkunoihin, valikoihin, kuvakkeisiin, paneeleihin ja esiasennettuihin sovelluksiin.
-
-
 
 Tässä luvussa tarkastelen työpöytäympäristön rakennetta ja roolia, sen tyypillisiä komponentteja, tärkeimpiä saatavilla olevia perheitä, valintaperusteita ja niiden integrointia suosituimpiin Linux-jakeluihin.
 
-
-
 ### Mikä on toimistoympäristö?
 
-
-
 Työpöytäympäristöllä (tai *DE*, *Desktop Environment*) tarkoitetaan ohjelmia, jotka muodostavat käyttöjärjestelmän koko graafisen Interface:n. Windowsissa ja macOS:ssä tarjotaan oletusarvoisesti yksi työpöytäympäristö, joka on integroitu järjestelmään, eikä sitä ole mahdollista muuttaa kokonaan (vain tietyillä kuorilla on mahdollista muuttaa Interface:ää osittain). Linux-järjestelmät sen sijaan ovat paljon modulaarisempia, ja niissä työpöytäympäristöä pidetään itsenäisenä komponenttina, joka voidaan vaihtaa vapaasti.
-
-
 
 Linuxissa on tärkeää erottaa selvästi toisistaan kaikki kerrokset: ydin (joka hallinnoi vuorovaikutusta laitteiston kanssa), näyttöpalvelin (joka toimii välittäjänä sovellusten, grafiikka-ajurien ja laitteiston välillä ytimen kautta) ja lopuksi itse työpöytäympäristö, joka tukeutuu tähän infrastruktuuriin tarjotakseen käyttäjälle johdonmukaisen graafisen Interface:n. Tämä infrastruktuuri on myös tärkeä osa työpöytäympäristöä. Tämä ero voi joskus olla epäselvä, sillä monissa Linux-jakeluissa on esiasennettu työpöytäympäristö, joka joskus sisältää oman Wayland-sävellystoiminnon, joka toimii näyttöpalvelimena.
 
@@ -1375,55 +1362,55 @@ Linux-jakelun työpöytäympäristö ei ole yksittäinen sovellus, vaan yhtenäi
 
 
 
-- Ikkunanhallinta**: piirtää ikkunan rajat, hallitsee niiden sijoittelua, koon muuttamista ja siirtymäefektejä... Esimerkiksi: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Ikkunanhallinta**: piirtää ikkunan rajat, hallitsee niiden sijoittelua, koon muuttamista ja siirtymäefektejä... Esimerkiksi: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Tiedostonhallinta**: voit navigoida hakemistopuussa ja kopioida, siirtää tai poistaa tiedostoja visuaalisesti. Esimerkkejä: Esimerkkejä: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Tiedostonhallinta**: voit navigoida hakemistopuussa ja kopioida, siirtää tai poistaa tiedostoja visuaalisesti. Esimerkkejä: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Konfiguraatiokeskus**: tämä on joukko työkaluja, joiden avulla käyttäjä voi muokata järjestelmän parametreja ilman komentoriviä: ulkoasu, taustakuva, käyttäjähallinta, verkko, oheislaitteet...
+- **Konfiguraatiokeskus**: tämä on joukko työkaluja, joiden avulla käyttäjä voi muokata järjestelmän parametreja ilman komentoriviä: ulkoasu, taustakuva, käyttäjähallinta, verkko, oheislaitteet...
 
 
 
 
 
-- Järjestelmäsovellukset**: nämä ovat tehtäväpalkin (tai "paneelin") pieniä kuvakkeita ja interaktiivisia moduuleja, kuten äänen säätö, akun varaustaso, verkkoyhteys, kello....
+- **Järjestelmäsovellukset**: nämä ovat tehtäväpalkin (tai "paneelin") pieniä kuvakkeita ja interaktiivisia moduuleja, kuten äänen säätö, akun varaustaso, verkkoyhteys, kello....
 
 
 
 
 
-- Paneeli tai kojelauta**: näkyvä palkki, usein näytön ylä- tai alareunassa, joka sisältää päävalikon, järjestelmäsovellukset, pikakuvakkeet, ilmoitusalueen jne.
+- **Paneeli tai kojelauta**: näkyvä palkki, usein näytön ylä- tai alareunassa, joka sisältää päävalikon, järjestelmäsovellukset, pikakuvakkeet, ilmoitusalueen jne.
 
 
 
 
 
-- Istunnonhallinta**: käynnistyy käynnistyksen yhteydessä, näyttää kirjautumisnäytön ja käynnistää valitun graafisen istunnon. Esim: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Istunnonhallinta**: käynnistyy käynnistyksen yhteydessä, näyttää kirjautumisnäytön ja käynnistää valitun graafisen istunnon. Esim: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Ilmoitustenhallinta**: hallitsee järjestelmäilmoitusten (viestit, hälytykset, päivitykset jne.) näyttämistä. Esimerkiksi: dunst, Plasma-notifier, xfce4-notifyd.
+- **Ilmoitustenhallinta**: hallitsee järjestelmäilmoitusten (viestit, hälytykset, päivitykset jne.) näyttämistä. Esimerkiksi: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 compositor (valinnainen)**: lisää visuaalisia efektejä (varjot, läpinäkyvyys, animaatiot) ympäristöissä, joissa ikkunanhallinta ei tue compositingia. Esimerkiksi: compton, picom.
+- **X11 compositor (valinnainen)**: lisää visuaalisia efektejä (varjot, läpinäkyvyys, animaatiot) ympäristöissä, joissa ikkunanhallinta ei tue compositingia. Esimerkiksi: compton, picom.
 
 
 
 
 
-- Näyttöpalvelin**: tämä on ohjelmisto, joka hoitaa järjestelmän (ytimen ja grafiikka-ajurien kautta) ja grafiikkasovellusten välisen viestinnän. Se näyttää ikkunat näytöllä ja hallinnoi näppäimistö- ja hiirisyötteitä. Näyttöpalvelin on usein työpöytäympäristön eri osa, mutta yhä useammat järjestelmät ottavat käyttöön Waylandin, joka on nykyaikainen protokolla, jossa näyttöpalvelimen roolin voi ottaa suoraan ikkunanhallinta (esim. Mutter GNOME:ssa tai KWin KDE:ssä). Tätä kutsutaan tällöin "Wayland compositingiksi".
+- **Näyttöpalvelin**: tämä on ohjelmisto, joka hoitaa järjestelmän (ytimen ja grafiikka-ajurien kautta) ja grafiikkasovellusten välisen viestinnän. Se näyttää ikkunat näytöllä ja hallinnoi näppäimistö- ja hiirisyötteitä. Näyttöpalvelin on usein työpöytäympäristön eri osa, mutta yhä useammat järjestelmät ottavat käyttöön Waylandin, joka on nykyaikainen protokolla, jossa näyttöpalvelimen roolin voi ottaa suoraan ikkunanhallinta (esim. Mutter GNOME:ssa tai KWin KDE:ssä). Tätä kutsutaan tällöin "Wayland compositingiksi".
 
 
 
@@ -1890,7 +1877,7 @@ Kun olet käynnistänyt Ubuntun, asennusvelho opastaa sinua askel askeleelta. Se
 
 
 
-- Asennus Windowsin rinnalle (*kaksoiskäynnistys*)**)
+- Asennus Windowsin rinnalle (**kaksoiskäynnistys**)
 
 
 
@@ -1915,7 +1902,7 @@ Jotta tämä onnistuisi kunnolla, suosittelen, että luot ensin varaamattoman os
 
 
 
-- Windowsien täydellinen vaihto**
+- Windowsien täydellinen vaihto
 
 
 
@@ -2033,10 +2020,10 @@ Kukin arkisto on jaettu osiin. Oletusarvoisesti Ubuntu aktivoi neljä pääosiot
 
 
 
-- main**: Canonicalin virallisesti ylläpitämä vapaa ohjelmisto. Esimerkkejä: Firefox, LibreOffice, bash
-- rajoitettu**: ei-vapaat ohjelmistot, jotka ovat välttämättömiä laitteiston moitteettoman toiminnan kannalta. Esimerkkejä: NVIDIA-ajurit, Wi-Fi-firmware, omat koodekit
-- universe**: yhteisön ylläpitämät vapaat ohjelmistot. Esimerkkejä: GIMP, Inkscape, Audacity
-- multiverse**: ohjelmistot, joihin sovelletaan oikeudellisia rajoituksia (patentit, ei-vapaat lisenssit). Saatavuus voi vaihdella maittain. Esimerkkejä: tietyt audio/videokoodekit, Steam
+- **main**: Canonicalin virallisesti ylläpitämä vapaa ohjelmisto. Esimerkkejä: Firefox, LibreOffice, bash
+- **rajoitettu**: ei-vapaat ohjelmistot, jotka ovat välttämättömiä laitteiston moitteettoman toiminnan kannalta. Esimerkkejä: NVIDIA-ajurit, Wi-Fi-firmware, omat koodekit
+- **universe**: yhteisön ylläpitämät vapaat ohjelmistot. Esimerkkejä: GIMP, Inkscape, Audacity
+- **multiverse**: ohjelmistot, joihin sovelletaan oikeudellisia rajoituksia (patentit, ei-vapaat lisenssit). Saatavuus voi vaihdella maittain. Esimerkkejä: tietyt audio/videokoodekit, Steam
 
 
 
@@ -2990,6 +2977,7 @@ sudo apt install thunderbird
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Toimistopaketti
 
 
@@ -3553,7 +3541,7 @@ Vaikka automaattiset päivitykset olisivatkin käytössä järjestelmässäsi, o
 
 
 
-- Windows*-käyttöjärjestelmä
+- **Windows**-käyttöjärjestelmä
 
 
 
@@ -3577,7 +3565,7 @@ Settings → Windows Update → Check for updates
 
 
 
-- Linux*-käyttöjärjestelmä
+- **Linux**-käyttöjärjestelmä
 
 
 
@@ -3630,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- MacOS*-käyttöjärjestelmä
+- **MacOS**-käyttöjärjestelmä
 
 
 
@@ -3666,25 +3654,25 @@ Jotkin ohjelmistot ovat arkaluontoisempia kuin toiset, koska ne ovat suoraan vuo
 
 
 
-- Verkkoselaimet*: ne ovat hyökkäysten etulinjassa, koska ne käsittelevät tarkistamatonta sisältöä reaaliajassa ja niillä on erityisen suuri hyökkäyspinta. Lisäksi niillä on keskeinen rooli henkilötietojesi suojaamisessa. Ja ennen kaikkea ne korvaavat monet aiemmin paikallisesti käytetyt ohjelmistot (sähköpostiohjelmat, toimistopaketit, mediasoittimet jne.). Mutta palaamme tähän asiaan SCU202-kurssin seuraavassa osassa;
+- **Verkkoselaimet**: ne ovat hyökkäysten etulinjassa, koska ne käsittelevät tarkistamatonta sisältöä reaaliajassa ja niillä on erityisen suuri hyökkäyspinta. Lisäksi niillä on keskeinen rooli henkilötietojesi suojaamisessa. Ja ennen kaikkea ne korvaavat monet aiemmin paikallisesti käytetyt ohjelmistot (sähköpostiohjelmat, toimistopaketit, mediasoittimet jne.). Mutta palaamme tähän asiaan SCU202-kurssin seuraavassa osassa;
 
 
 
 
 
-- Sähköpostiohjelmat*: ne vastaanottavat ulkoisista lähteistä liitetiedostoja tai linkkejä, joita ei voida valvoa ja jotka ovat siksi riskialttiita;
+- **Sähköpostiohjelmat**: ne vastaanottavat ulkoisista lähteistä liitetiedostoja tai linkkejä, joita ei voida valvoa ja jotka ovat siksi riskialttiita;
 
 
 
 
 
-- Viestintätyökalut* (TeamViewer, Zoom, Signal, Teams...): vuorovaikutteisen luonteensa vuoksi ne ovat vakoiluhyökkäysten tai etähallintayritysten kohteita. Samoin kuin sähköpostiohjelmia, viestintätyökaluja voidaan käyttää phishing-yritysten tai haitallisten liitetiedostojen levittämisen vektoreina;
+- **Viestintätyökalut** (TeamViewer, Zoom, Signal, Teams...): vuorovaikutteisen luonteensa vuoksi ne ovat vakoiluhyökkäysten tai etähallintayritysten kohteita. Samoin kuin sähköpostiohjelmia, viestintätyökaluja voidaan käyttää phishing-yritysten tai haitallisten liitetiedostojen levittämisen vektoreina;
 
 
 
 
 
-- Virustorjunta-, palomuuri- ja muut tunnistusratkaisut*: Näillä työkaluilla on yleensä korkeammat oikeudet, sillä ne tarkistavat jatkuvasti tiedostoja, prosesseja ja verkkoyhteyksiä. Vanhentunut allekirjoituskanta, huono konfigurointi tai haavoittuvuus itse ohjelmistossa voi mahdollistaa haittaohjelmien jäämisen huomaamatta tai jopa korkeampien oikeuksien saamisen.
+- **Virustorjunta-, palomuuri- ja muut tunnistusratkaisut**: Näillä työkaluilla on yleensä korkeammat oikeudet, sillä ne tarkistavat jatkuvasti tiedostoja, prosesseja ja verkkoyhteyksiä. Vanhentunut allekirjoituskanta, huono konfigurointi tai haavoittuvuus itse ohjelmistossa voi mahdollistaa haittaohjelmien jäämisen huomaamatta tai jopa korkeampien oikeuksien saamisen.
 
 
 
@@ -3905,7 +3893,7 @@ Kuten edellisessä jaksossa todettiin, Windows on perinteisesti ollut alttiimpi 
 
 
 
-- Microsoft Defender*: Windowsissa hyvä virustorjuntaohjelma on perustarve. Järjestelmän sisäänrakennettua virustorjuntaohjelmaa, Microsoft Defenderiä (entinen Windows Defender), pidettiin monien vuosien ajan epäluotettavana, ja sen sijaan suositeltiin kolmannen osapuolen ratkaisuja. Tämä ohjelmisto on kuitenkin parantunut huomattavasti ajan mittaan, ja nyt se on mielestäni riittävä perussuoja henkilökohtaiseen käyttöön. Virustentorjuntaohjelmiston roolia ei kuitenkaan pidä yliarvioida: ennen kaikkea omat digitaaliset käytänteesi takaavat turvallisuutesi. Yksi Defenderin eduista on sen natiivi integrointi Windowsiin. Reaaliaikaisen suojauksen lisäksi se tarjoaa kattavat tarkistukset, jotka voit ajoittaa viikoittain tai suorittaa manuaalisesti säännöllisin väliajoin.
+- **Microsoft Defender**: Windowsissa hyvä virustorjuntaohjelma on perustarve. Järjestelmän sisäänrakennettua virustorjuntaohjelmaa, Microsoft Defenderiä (entinen Windows Defender), pidettiin monien vuosien ajan epäluotettavana, ja sen sijaan suositeltiin kolmannen osapuolen ratkaisuja. Tämä ohjelmisto on kuitenkin parantunut huomattavasti ajan mittaan, ja nyt se on mielestäni riittävä perussuoja henkilökohtaiseen käyttöön. Virustentorjuntaohjelmiston roolia ei kuitenkaan pidä yliarvioida: ennen kaikkea omat digitaaliset käytänteesi takaavat turvallisuutesi. Yksi Defenderin eduista on sen natiivi integrointi Windowsiin. Reaaliaikaisen suojauksen lisäksi se tarjoaa kattavat tarkistukset, jotka voit ajoittaa viikoittain tai suorittaa manuaalisesti säännöllisin väliajoin.
 
 
 
@@ -3915,12 +3903,12 @@ Kuten edellisessä jaksossa todettiin, Windows on perinteisesti ollut alttiimpi 
 
 
 
-- Sysinternals Suite*: Tämä on paljon kehittyneempi joukko Microsoftin tarjoamia työkaluja Windowsin diagnosointiin, valvontaan ja vianmääritykseen. Tässä ovat tämän paketin tärkeimmät työkalut:
-    - Process Monitor*: voit tarkkailla aktiivisia prosesseja, tiedostojen käyttöä, rekistereitä jne. reaaliajassa;
-    - Autoruns*: näyttää kaikki käynnistyksen yhteydessä käynnistetyt ohjelmat, mikä auttaa sinua havaitsemaan nopeasti pysyvät haittaohjelmat tai sovellukset, joiden ei pitäisi olla käynnissä;
-    - Process Explorer*: valvoo prosesseja ja havaitsee epäilyttävän käyttäytymisen;
-    - TCPView*: visualisoi aktiiviset verkkoyhteydet (epänormaalien yhteyksien havaitseminen) ;
-    - Sigcheck*: Tarkistaa tiedostojen digitaaliset allekirjoitukset haittakoodin varalta.
+- **Sysinternals Suite**: Tämä on paljon kehittyneempi joukko Microsoftin tarjoamia työkaluja Windowsin diagnosointiin, valvontaan ja vianmääritykseen. Tässä ovat tämän paketin tärkeimmät työkalut:
+- **Process Monitor**: voit tarkkailla aktiivisia prosesseja, tiedostojen käyttöä, rekistereitä jne. reaaliajassa;
+- **Autoruns**: näyttää kaikki käynnistyksen yhteydessä käynnistetyt ohjelmat, mikä auttaa sinua havaitsemaan nopeasti pysyvät haittaohjelmat tai sovellukset, joiden ei pitäisi olla käynnissä;
+- **Process Explorer**: valvoo prosesseja ja havaitsee epäilyttävän käyttäytymisen;
+- **TCPView**: visualisoi aktiiviset verkkoyhteydet (epänormaalien yhteyksien havaitseminen) ;
+- **Sigcheck**: Tarkistaa tiedostojen digitaaliset allekirjoitukset haittakoodin varalta.
 
 
 
@@ -3930,7 +3918,7 @@ Kuten edellisessä jaksossa todettiin, Windows on perinteisesti ollut alttiimpi 
 
 
 
-- GlassWire*: verkonvalvontatyökalu. Se seuraa saapuvia ja lähteviä yhteyksiä reaaliajassa ja hälyttää epätavallisesta toiminnasta.
+- **GlassWire**: verkonvalvontatyökalu. Se seuraa saapuvia ja lähteviä yhteyksiä reaaliajassa ja hälyttää epätavallisesta toiminnasta.
 
 
 
@@ -3948,7 +3936,7 @@ Hyvin huolletussa Linux-koneessa, jota käytetään henkilökohtaisiin tarkoituk
 
 
 
-- Fail2ban*: valvoo järjestelmän lokitietoja epäonnistuneista pääsyyrityksistä (kuten SSH-kirjautumisyrityksistä). Kun epäilyttävää käyttäytymistä havaitaan, se kieltää tilapäisesti loukkaavan IP Address:n `iptablesin` kautta;
+- **Fail2ban**: valvoo järjestelmän lokitietoja epäonnistuneista pääsyyrityksistä (kuten SSH-kirjautumisyrityksistä). Kun epäilyttävää käyttäytymistä havaitaan, se kieltää tilapäisesti loukkaavan IP Address:n `iptablesin` kautta;
 
 
 
@@ -3958,7 +3946,7 @@ Hyvin huolletussa Linux-koneessa, jota käytetään henkilökohtaisiin tarkoituk
 
 
 
-- Lynis*: kattava tietoturvatarkastustyökalu, joka analysoi järjestelmääsi vääränlaisten asetusten, tunnettujen heikkouksien tai parhaista käytännöistä poikkeamisen varalta. Se tuottaa helppolukuisen raportin, jossa on turvallisuuspisteet ja suositukset.
+- **Lynis**: kattava tietoturvatarkastustyökalu, joka analysoi järjestelmääsi vääränlaisten asetusten, tunnettujen heikkouksien tai parhaista käytännöistä poikkeamisen varalta. Se tuottaa helppolukuisen raportin, jossa on turvallisuuspisteet ja suositukset.
 
 
 
@@ -3977,7 +3965,7 @@ macOS on tunnettu turvallisuudestaan erityisesti sovellusten allekirjoituskäyt�
 
 
 
-- KnockKnock*: skannaa kaikki Elements:t, jotka on määritetty käynnistyksen yhteydessä suoritettaviksi (agentit, daemonit, ytimen moduulit...) ja tunnistaa ne, jotka ovat mahdollisesti epäilyttäviä, allekirjoittamattomia tai tuntemattomia. Sen avulla voit nopeasti tunnistaa järjestelmässä olevat haitalliset pysyvyydet.
+- **KnockKnock**: skannaa kaikki Elements:t, jotka on määritetty käynnistyksen yhteydessä suoritettaviksi (agentit, daemonit, ytimen moduulit...) ja tunnistaa ne, jotka ovat mahdollisesti epäilyttäviä, allekirjoittamattomia tai tuntemattomia. Sen avulla voit nopeasti tunnistaa järjestelmässä olevat haitalliset pysyvyydet.
 
 
 
@@ -4189,7 +4177,7 @@ Lopuksi tarvitset kehittäjän julkisen avaimen PGP-allekirjoituksen vahvistamis
 
 
 
-Sparrow wallet*:n tapauksessa voit löytää kehittäjän julkisen avaimen [Craig Raw Keybase-sivustolla](https://keybase.io/craigraw). Voit ladata sen suoraan terminaalista suorittamalla seuraavan komennon:
+Sparrow wallet:n tapauksessa voit löytää kehittäjän julkisen avaimen [Craig Raw Keybase-sivustolla](https://keybase.io/craigraw). Voit ladata sen suoraan terminaalista suorittamalla seuraavan komennon:
 
 
 
@@ -4561,7 +4549,7 @@ Täydellinen salaus on kuin lukko: niin kauan kuin salasanaa ei anneta, tietoja 
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
@@ -4820,7 +4808,7 @@ Napsauta lopuksi oikeassa yläkulmassa olevaa nuolen muotoista painiketta, jotta
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4866,7 +4854,7 @@ Kun FileVault on aktivoitu, sinun on valittava palautusmenetelmä salasanan mene
 Ulkoisten tallennusvälineiden (Hard-levyt, USB-muistitikut jne.) salaus suoritetaan levyapuohjelman avulla. Sinun on alustettava tietoväline kokonaan uudelleen:
 
 - Valitse laite ja napsauta "*Poista*"
-- Valitse "GUID*-osiointitaulukko" -järjestelmä
+- Valitse **GUID-osiointitaulukko** -järjestelmä
 - Valitse sitten salattu tiedostojärjestelmäformaatti (*APFS* tai *Mac OS extended*)
 - Valitse vahva salasana
 - Napsauta "*Poista*" ja sitten "*OK*" ja salaus on valmis
@@ -4946,7 +4934,7 @@ Tämä paketti asentaa `exiftoolin`, jota voit käyttää suoraan komentorivilt�
 
 
 
-- Vaihe 2: Tiedoston metatietojen tarkastelu** (ranskaksi)
+- Vaihe 2: **Tiedoston metatietojen tarkastelu** (ranskaksi)
 
 
 
@@ -5692,7 +5680,7 @@ Blink-pohjaisiin selaimiin kuuluu myös joukko marginaalisempia selaimia, jotka 
 
 
 
-- Arc** :
+- **Arc**:
 
 
 
@@ -5710,7 +5698,7 @@ Teknisesti Arc perustuu Chromiumiin, mutta se on edelleen oma ohjelmisto. Se ei 
 
 
 
-- Polypaani** :
+- **Polypaani** :
 
 
 
@@ -5754,6 +5742,7 @@ Firefox on edelleen turvallisuuden ja yksityisyydensuojan vertailukohde, vaikka 
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-selain
 
 
@@ -5774,15 +5763,11 @@ Huonona puolena on suorituskyvyn merkittävä heikkeneminen (suuri viive) ja raj
 
 #### Mullvad selain
 
-
-
 [Mullvad Browser](https://mullvad.net/en/browser) on Tor-säätiön ja Mullvad VPN:n yhteistyön tulos. Se perustuu Tor-selaimeen, joka on puolestaan johdettu Firefox ESR:stä. Mullvad Browser on suunniteltu maksimoimaan käyttäjän yksityisyys. Se sisältää oletusarvoisesti kehittyneen suojan sormenjälkiä, seurantalaitteita ja kolmannen osapuolen skriptejä vastaan.
 
-
+https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Siinä on suurin osa Tor Browserin tarjoamista turvallisuus- ja yksityisyysominaisuuksista yhdellä erolla: se ei ohjaa liikennettä Tor-verkon kautta. Jos haluat välttää IP Address -vuodot, voit käyttää sitä yhdessä VPN:n kanssa (mieluiten Mullvad VPN).
-
-
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5810,52 +5795,33 @@ Oletusarvoisesti LibreWolf aktivoi Firefoxin kehittyneet tietoturva-asetukset (k
 
 
 
+https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+
 #### Zen-selain
-
-
 
 [Zen Browser] (https://zen-browser.app/) on ilmainen ja avoimen lähdekoodin selain, joka perustuu Firefoxiin (Gecko-moottori) ja julkaistiin vuonna 2024. Sen tavoitteena on tarjota moderni, tyylikäs, hyvin muokattavissa oleva ja ennen kaikkea yksityisyyden suojaan keskittyvä selauskokemus ilman riippuvuutta Chromiumista.
 
-
-
 Zen erottuu edukseen radikaalin Interface- ja käytettävyyslähestymistapansa vuoksi, joka on pitkälti Arc-selaimen innoittama, mutta vapautuu siitä avoimen lähdekoodin ja Gecko-moottorin ansiosta. Se sisältää :
-
-
-
 
 - Minimalistinen, modulaarinen Interface, jossa on pystysuora sivupalkki välilehtiä varten, jaettu näkymä ja *työtila*-järjestelmä välilehtien ryhmittelyyn projekteittain;
 - Muokattavien Interface-mallien (*Zen Mods*) järjestelmä, jonka avulla selaimen ulkoasua voidaan muokata perusteellisesti;
 - Alkuperäinen toiminto nimeltä *Glance*, joka avaa linkin kevyeen väliaikaiseen ikkunaan, välttäen välilehtien sekamelskaa....
 
-
-
 Zen tukee myös Firefox-laajennuksia sekä synkronointia Mozilla-tilin kautta.
-
-
 
 Turvallisuuden ja yksityisyyden näkökulmasta Zenissä on natiivisti estetty kolmannen osapuolen seurantalaitteet. Selain ei kerää itse mitään tietoja, ja se mahdollistaa myös Mozillan telemetrian poistamisen käytöstä. Se myös hylkää automaattisesti vanhentuneet tai vaatimustenvastaiset SSL-varmenteet.
 
-
-
 Zen Browser on mielenkiintoinen vaihtoehto, jos etsit Gecko-selainympäristöä, joka on ilmainen, innovatiivinen, selkeä ja yksityisyyttäsi kunnioittava.
 
-
+https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-pohjaiset selaimet
 
-
-
 #### Safari
-
-
 
 Tärkein selain, joka käyttää edelleen WebKit-selainta (ei Fork:ää kuten Blink), on Safari. [Safari](https://www.apple.com/safari/) on Applen yksinomainen selain macOS:lle. Se integroituu erinomaisesti Applen ekosysteemiin, on erittäin suorituskykyinen ja sisältää nyt vahvemmat suojaukset jäljittämistä ja sormenjälkiä vastaan.
 
-
-
 Safari on kuitenkin edelleen suljettu, sen työpöytäversio on rajoitettu macOS-käyttöjärjestelmään ja se on riippuvainen Applen ekosysteemistä. Vaikka Applella on vahva tietosuojakäytäntö, ja sen liiketoimintamalli perustuu ensisijaisesti laitteistomyyntiin eikä mainontaan, sen tietyt sisäiset käytännöt ovat edelleen epäselviä.
-
-
 
 Tässä keskitymme työpöytäselaimiin, mutta on tärkeää huomata, että iOS:ssä Apple edellyttää, että kaikki selaimet käyttävät WebKit-selainta (tämä rajoitus saattaa kuitenkin pian muuttua tiettyjen eurooppalaisten säädösten vuoksi). Tämä tarkoittaa, että Chrome-, Firefox- tai Brave-selaimien kaltaisten selainten on iOS:ssä tarjottava WebKitiin perustuva sovellus eikä niiden tavanomaiseen renderöintimoottoriin perustuvaa sovellusta.
 
@@ -5889,6 +5855,7 @@ Orion on täysin Kagi-tiimin (joka tunnetaan mainoksettomasta hakukoneestaan) ke
 
 
 
+https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Selaimet ilman renderöintimoottoreita
 
 
@@ -6223,25 +6190,25 @@ Näiden hyökkäysten välttämiseksi on tärkeää noudattaa tiettyjä peruskä
 
 
 
-- Analysoi URL-osoite**: Hyökkääjät käyttävät usein osoitteita, jotka ovat hyvin lähellä alkuperäistä (esim. `micr0soft-support.com`, `paypal-verif.net` jne.). Jotkut myös korvaavat visuaalisesti samankaltaisia merkkejä hyödyntäen Unicode-merkkejä. Tarkista, että Address vastaa täsmälleen odotettua sivustoa, eikä siinä ole epäilyttäviä etu- tai loppuliitteitä.
+- **Analysoi URL-osoite**: Hyökkääjät käyttävät usein osoitteita, jotka ovat hyvin lähellä alkuperäistä (esim. `micr0soft-support.com`, `paypal-verif.net` jne.). Jotkut myös korvaavat visuaalisesti samankaltaisia merkkejä hyödyntäen Unicode-merkkejä. Tarkista, että Address vastaa täsmälleen odotettua sivustoa, eikä siinä ole epäilyttäviä etu- tai loppuliitteitä.
 
 
 
 
 
-- Vältä lyhennettyjä linkkejä**: palvelut, kuten `bit.ly` tai `t.co`, voivat peittää lopullisen Address:n. Jos saat lyhennetyn linkin, ole epäluuloinen tai tarkista sen kohde URL-osoitteen laajentamispalvelun avulla.
+- **Vältä lyhennettyjä linkkejä**: palvelut, kuten `bit.ly` tai `t.co`, voivat peittää lopullisen Address:n. Jos saat lyhennetyn linkin, ole epäluuloinen tai tarkista sen kohde URL-osoitteen laajentamispalvelun avulla.
 
 
 
 
 
-- Varo hälyttäviä viestejä**: phishing-yritykset hyödyntävät usein voimakkaita tunteita (kiire, uhka, palkkio, uteliaisuus jne.). Sähköpostiviesti, jossa väitetään, että tilisi on sulkemassa tai että pakettia ei voida toimittaa, on luonnollisesti epäilyttävä.
+- **Varo hälyttäviä viestejä**: phishing-yritykset hyödyntävät usein voimakkaita tunteita (kiire, uhka, palkkio, uteliaisuus jne.). Sähköpostiviesti, jossa väitetään, että tilisi on sulkemassa tai että pakettia ei voida toimittaa, on luonnollisesti epäilyttävä.
 
 
 
 
 
-- Älä koskaan lähetä arkaluonteisia tietoja vastaanotetun linkin kautta**: Laillinen laitos ei koskaan pyydä sinulta salasanaa, tunnistautumiskoodia tai skannattua kopiota henkilöllisyystodistuksestasi yksinkertaisen sähköpostin tai tekstiviestin välityksellä.
+- Älä koskaan lähetä arkaluonteisia tietoja vastaanotetun linkin kautta: Laillinen laitos ei koskaan pyydä sinulta salasanaa, tunnistautumiskoodia tai skannattua kopiota henkilöllisyystodistuksestasi yksinkertaisen sähköpostin tai tekstiviestin välityksellä.
 
 
 
@@ -6251,7 +6218,7 @@ Ja tässä on muutamia ennaltaehkäiseviä toimenpiteitä, joita voit toteuttaa 
 
 
 
-- Pääset kriittisiin sivustoihin kirjanmerkkisi kautta**:
+- Pääset kriittisiin sivustoihin kirjanmerkkisi kautta:
 
 
 
@@ -6265,7 +6232,7 @@ Oletko saanut verotoimistolta sähköpostiviestin, jossa on linkki? Älä klikka
 
 
 
-- Noudata hyviä todennuskäytäntöjä** :
+- **Noudata hyviä todennuskäytäntöjä**:
 
 
 
@@ -6283,7 +6250,7 @@ Näiden toimenpiteiden lisäksi hyvän salasanahallintaohjelman käyttö selaime
 
 
 
-- Tarkasta SSL/TLS**-varmenteet:
+- Tarkasta **SSL/TLS-varmenteet**:
 
 
 
@@ -6329,19 +6296,19 @@ Tavoite on yksinkertainen: estää tiettyä toimintaa (kuten evästevuotoa, hyö
 
 
 
-- Käytä useita eri selaimia**: esimerkiksi Firefoxia henkilökohtaiseen käyttöön, Toria tai Mullvadia arkaluontoisiin toimintoihin ja Chromiumia ammattikäyttöön. Jokainen selain käyttää omaa tallennustilaa, joka eristää evästeet, istunnot ja laajennukset täysin. Näin voit myös räätälöidä selaimen asetukset omiin käyttötilanteisiisi sopiviksi.
+- **Käytä useita eri selaimia**: esimerkiksi Firefoxia henkilökohtaiseen käyttöön, Toria tai Mullvadia arkaluontoisiin toimintoihin ja Chromiumia ammattikäyttöön. Jokainen selain käyttää omaa tallennustilaa, joka eristää evästeet, istunnot ja laajennukset täysin. Näin voit myös räätälöidä selaimen asetukset omiin käyttötilanteisiisi sopiviksi.
 
 
 
 
 
-- Luo useita profiileja yhdessä selaimessa**: Joissakin selaimissa voit luoda itsenäisiä profiileja, joilla kullakin on oma historiansa, istuntonsa, laajennuksensa ja asetuksensa. Tämä on hieman vähemmän rajoittava ratkaisu kuin useiden erillisten selainten käyttö, mutta silti vähemmän tehokas.
+- **Luo useita profiileja yhdessä selaimessa**: Joissakin selaimissa voit luoda itsenäisiä profiileja, joilla kullakin on oma historiansa, istuntonsa, laajennuksensa ja asetuksensa. Tämä on hieman vähemmän rajoittava ratkaisu kuin useiden erillisten selainten käyttö, mutta silti vähemmän tehokas.
 
 
 
 
 
-- Käytä sisäänrakennettuja säiliöitä**: Firefox tarjoaa [Multi-Account Containers] -laajennuksen (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), jonka avulla voit avata erilliset välilehdet, joilla kullakin on oma kirjautuminen ja evästeet. Voit myös määrittää tietyt sivustot automaattisesti tiettyyn konttiin, jotta ne pysyvät erillään joka kerta, kun ne avataan.
+- **Käytä sisäänrakennettuja säiliöitä**: Firefox tarjoaa [Multi-Account Containers] -laajennuksen (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), jonka avulla voit avata erilliset välilehdet, joilla kullakin on oma kirjautuminen ja evästeet. Voit myös määrittää tietyt sivustot automaattisesti tiettyyn konttiin, jotta ne pysyvät erillään joka kerta, kun ne avataan.
 
 
 
@@ -6351,7 +6318,7 @@ Tavoite on yksinkertainen: estää tiettyä toimintaa (kuten evästevuotoa, hyö
 
 
 
-- Käytä eristettyä järjestelmäympäristöä**: Voit käyttää selainta myös virtuaalikoneessa tai Docker-säiliössä, jotta se pysyy täysin erillään pääympäristöstäsi.
+- **Käytä eristettyä järjestelmäympäristöä**: Voit käyttää selainta myös virtuaalikoneessa tai Docker-säiliössä, jotta se pysyy täysin erillään pääympäristöstäsi.
 
 
 
@@ -7075,7 +7042,7 @@ Telegram on erittäin suosittu viestipalvelu ergonomiansa ja ominaisuuksiensa an
 Telegram voi siis teknisesti päästä käsiksi suurimpaan osaan keskusteluista, joita ei ole nimenomaisesti suojattu. Vaikka yhtiö suhtautuu tiukasti viranomaisiin, Telegram ei ole optimaalinen ratkaisu luottamuksellisiin tai arkaluonteisiin keskusteluihin, ellei nimenomaisesti käytetä sen "salaisia vaihtoja", jotka ovat paljon vähemmän käytännöllisiä päivittäisessä käytössä.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7293,6 +7260,7 @@ Thunderbird Mobile on Mozilla Foundationin kehittämän suositun avoimen lähdek
 
 
 
+https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7627,6 +7595,7 @@ Aegis on kattava avoimen lähdekoodin sovellus. Se salaa 2FA-tietokantasi salasa
 Ente Auth on nykyaikainen, avoimen lähdekoodin monialustaratkaisu, jossa on päästä päähän salatut varmuuskopiot. Sen avulla voit synkronoida 2FA-koodisi turvallisesti mobiilissa, työpöydällä ja verkossa. Voit käyttää sitä myös offline-tilassa ilman pilvivarmistusta tai tilin luomista.
 
 
+https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth tarjoaa monia lisäominaisuuksia: Muistiinpanot, suosikit, integroitu haku, turvallinen tiimikoodin jakaminen.
 
 
@@ -7642,6 +7611,7 @@ Authy tarjoaa 2FA-synkronoinnin useisiin laitteisiin, mikä voi olla kätevää,
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Jos haluat lisätietoja salasanahallinnasta, 2FA-todennuksesta ja VPN:stä, suosittelen lukemaan SCU-101-kurssin omat luvut:
 
 
@@ -8035,6 +8005,7 @@ F-Droidissa saatavilla oleva ja täysin avoimen lähdekoodin Chrono tarjoaa mode
 Sovellus sisältää myös ajastimen ja sekuntikellon, jossa on kierrosten tallennus, tilastoja, aikavertailuja ja usean ajastimen hallinta. Voit määrittää useita aikavyöhykkeitä, muokata teemaa (värit, tyylit, animaatiot) ja jopa järjestää hälytykset ja ajastimet tarroilla.
 
 
+Aiheeseen perehtyäksesi suosittelen vierailemaan sivustolla [*Awesome Privacy*](https://awesome-privacy.xyz/), joka listaa parhaat yksityisyyttä kunnioittavat vaihtoehdot ohjelmistoille, joita käytät päivittäin.
 ___
 
 
@@ -8099,8 +8070,8 @@ Internetin infrastruktuuri perustuu pääasiassa kahteen protokollaan:
 
 
 
-- IP** (*Internet Protocol*) Tunnistaa jokaisen liitetyn laitteen ja reitittää datapaketit.
-- TCP** (*Transmission Control Protocol*) Segmentoi virran, tarkistaa virheet ja asettaa segmentit takaisin järjestykseen.
+- **IP** (*Internet Protocol*) Tunnistaa jokaisen liitetyn laitteen ja reitittää datapaketit.
+- **TCP** (*Transmission Control Protocol*) Segmentoi virran, tarkistaa virheet ja asettaa segmentit takaisin järjestykseen.
 
 
 → Reaaliaikaisissa käyttötarkoituksissa, joissa luotettavuus ei ole yhtä tärkeää kuin viive (VoIP, DNS, suoratoisto jne.), käytetään usein TCP:n sijasta toista siirtoprotokollaa: UDP:tä (*User Datagram Protocol*).
@@ -8134,14 +8105,14 @@ Tässä laitteessa yhdistyvät 2 päätoimintoa:
 
 
 
-- Modeemin rooli**
+- **Modeemin rooli**
 
 
 Modeemi (lyhenne sanoista "*modulaattori-demodulaattori*") on komponentti, joka yhdistää Internet-palveluntarjoajan verkon kotiisi. Se muuntaa vastaanotetut sähköiset tai optiset signaalit (valokuidun, koaksiaalikaapelin, ADSL:n tai matkapuhelinverkon kautta) digitaalisiksi signaaleiksi, joita laitteesi voivat ymmärtää. Vastaavasti se muuntaa laitteistasi tulevat tiedot muotoon, joka voidaan siirtää operaattorin infrastruktuurin kautta. Tämä vaihe on välttämätön, jos kotiverkkosi on yhteydessä Internetiin.
 
 
 
-- Reitittimen rooli**
+- **Reitittimen rooli**
 
 
 Reititin on lähiverkkosi sydän. Se jakaa Internet-yhteyden kaikille laitteillesi: Tietokoneet, älypuhelimet, liitetyt esineet, tulostimet jne. Se määrittää jokaiselle laitteelle paikallisen IP-osoitteen Address (joka eroaa Internetissä näkyvästä julkisesta IP-osoitteestasi). Tämän jälkeen reititin järjestää saapuvan ja lähtevän liikenteen ja varmistaa, että tiedot saapuvat oikeaan laitteeseen. Se voi myös integroida palomuurin, suodattaa verkkopaketteja tai hallita porttien välityssääntöjä. NAT peittää lähiverkkosi Internetin silmiltä ja käyttää yhtä julkista IP-osoitetta Address edustamaan kaikkia laitteitasi. Vain reititin tietää, mikä paikallinen laite on käynnistänyt minkä pyynnön.
@@ -8311,16 +8282,24 @@ On tärkeää valita nykyaikaiset laitteet, jotka valmistaja on huoltanut ja jot
 Wi-Fi 6, Wi-Fi 6E tai Wi-Fi 7 -yhteensopiva reititin tarjoaa paremmat nopeudet ja ennen kaikkea natiivin tuen nykyaikaisille turvatekniikoille. Sitä vastoin hyvin vanhoissa laitteissa, erityisesti sellaisissa, joihin ei enää tule ohjelmistopäivityksiä, voi olla tunnettuja, korjaamattomia haavoittuvuuksia. Ne ovat siksi riski koko verkollesi, vaikka määrittäisitkin ne oikein. Matkapuhelimiin tai tietokoneisiin verrattuna reitittimet ovat laitteita, joita säilytämme yleensä useita vuosia. Saattaa kuitenkin olla hyvä ajatus vaihtaa ne säännöllisemmin, jotta voit hyödyntää nykyaikaisempaa ja turvallisempaa mallia.
 
 
+**Huomio**: Yleisenä nyrkkisääntönä internet-palveluntarjoajien tarjoamista reitittimistä saattaa puuttua olennainen päivitysominaisuus sekä mukauttamismahdollisuudet. Joissakin tapauksissa palveluntarjoajilla voi myös olla rajoittamaton pääsy loppukäyttäjän sisäiseen verkkoon.
+
 Varmista siis, että päivität reitittimesi laiteohjelmiston järjestelmällisesti. Nämä päivitykset korjaavat haavoittuvuuksia, lisäävät uusia ominaisuuksia ja parantavat järjestelmän yleistä vakautta. Jotkin valmistajat tarjoavat automaattisia päivityksiä, mutta joissakin tapauksissa sinun on tarkistettava ne manuaalisesti reitittimesi Interface-hallintatyökalun avulla. Kuten puhelimen, tietokoneen, käyttöjärjestelmän ja ohjelmistojen, myös reitittimen on tärkeää päivittää säännöllisesti. Voit tehdä tästä osan viikkorutiineistasi - esimerkiksi joka sunnuntai - laatimalla luettelon kaikista tarkistettavista ja päivitettävistä asioista.
 
 
-Jos reititintäsi ei enää huolleta, mutta se toimii edelleen oikein laitteiston kannalta, voit asentaa vaihtoehtoisen avoimen lähdekoodin laiteohjelmiston, kuten esim:
+Vaihtoehtoisesti voit ottaa käyttöön automaattiset päivitykset tai ainakin automaattisen tarkistuksen uusista laiteohjelmistopäivityksistä, jos haluat toimia manuaalisesti. Vaikka automaattinen päivitystoiminto saattaa edelleen muodostaa tietoturvariskin, reitittimen laiteohjelmiston säännöllisen päivittämättä jättäminen altistaa paikallisen verkon julkisesti tunnetuille haavoittuvuuksille.
+
+**Esimerkki**: Oman reitittimen oston yhteydessä voi olla hyvä idea etsiä alan vakiintuneita yrityksiä, jotka ovat toimittaneet reitittimiä markkinoille pitkään. Esimerkiksi Fritz!Box-reitittimillä on pitkä maine plug-and-play-laitteina, jotka sopivat sekä perhekäyttöön että pienyrityksiin. Niiden ohjelmistopäivityskäytäntö yleensä ulottuu useiden vuosien ajalle.
+
+Jos reititintäsi ei enää ylläpidetä mutta se toimii laitteiston kannalta oikein, saatat pystyä asentamaan vaihtoehtoisen avoimen lähdekoodin laiteohjelmiston, kuten:
 
 
 
 - OpenWrt, reitittimiin erikoistunut Linux-jakelu, joka tarjoaa suurta joustavuutta ja säännöllisiä päivityksiä
 - pfSense ja OPNsense, kaksi FreeBSD-pohjaista (Unixin kaltaista) järjestelmää x86-palomuureja ja -reitittimiä varten
 
+
+**Huom**: Jotkut ISP:t tarjoavat asiakkailleen tukkureitittimiä, joita valmistaa yksi yritys, joka samanaikaisesti palvelee monia eri ISP:itä ympäri maailmaa. Saatat huomata, että vaihtoehtoisen laiteohjelmiston asentamiseksi reitittimeen joku muu on jo selvittänyt, miten se tehdään, vaikka hän olisi maailman toisella puolella.
 
 ![Image](assets/fr/196.webp)
 
@@ -8385,21 +8364,21 @@ Joitakin ominaisuuksia tulisi välttää tai ne tulisi poistaa järjestelmällis
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Tämän toiminnon avulla verkon laitteet voivat pyytää reititintä avaamaan portit automaattisesti. Vaikka tämä helpottaa tiettyjä käyttötarkoituksia (verkkopelit, liitetyt kamerat jne.), se avaa myös oven haitallisille sovelluksille, jotka voivat muuttaa verkon kokoonpanoa ilman lupaa. UPnP on yksi tärkeimmistä syistä sisäisten palvelujen tahattomaan altistumiseen ulkomaailmalle.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- **WPS (*Wi-Fi Protected Setup*)**:
 
 
 Järjestelmä on alun perin suunniteltu helpottamaan laitteiden liittämistä Wi-Fi-yhteyteen ilman salasanan syöttämistä, mutta se perustuu PIN-koodiin, joka on usein heikko ja johon on helppo hyökätä raa'alla voimalla. Suosittelen poistamaan sen käytöstä.
 
 
 
-- Etäkäyttö (*Edänhallinta*)**:
+- Etäkäyttö (**Edänhallinta**):
 
 
 Jotkin reitittimet mahdollistavat yhteyden muodostamisen Interface:n hallintalaitteeseen ulkopuolelta Internetin kautta. Tämä ominaisuus lisää kohtuuttomasti reitittimen hyökkäyspintaa. Poista se kokonaan käytöstä, ellei sinulla ole erityistä tarvetta etähallintaan. Käytä silloinkin aina VPN:ää.
@@ -8408,14 +8387,14 @@ Jotkin reitittimet mahdollistavat yhteyden muodostamisen Interface:n hallintalai
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Vanhentuneet tai epävarmat protokollat**:
+- **Vanhentuneet tai epävarmat protokollat**:
 
 
 Poista käytöstä kaikki hallintapalvelut, jotka käyttävät selkokielisiä protokollia, kuten Telnet, FTP, salaamaton HTTP tai SMBv1. Nämä protokollat eivät takaa vaihdettujen tietojen luottamuksellisuutta tai eheyttä, ja ne ovat usein haittaohjelmien kohteena. Jos tarvitset paikallista tai etäyhteyttä, käytä vain HTTPS- (salattu Interface), SSH- tai SFTP-yhteyksiä tarpeen mukaan.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Jotkin reitittimet vastaavat oletusarvoisesti ulkopuolelta lähetettyihin ICMP-pyyntöihin (`ping`-komento). Näin hyökkääjä voi tarkistaa, että verkko on aktiivinen ja että siihen pääsee käsiksi. Jos et tarvitse sitä, poista tämä vastaus käytöstä reitittimen palomuurissa.
@@ -8504,15 +8483,15 @@ Aktivoi seuraavaksi DNS-kyselyn salausprotokolla, jotta DNS-kyselyjä ei voida s
 
 
 
-- DoH (*DNS over HTTPS*)**: Kapseloi DNS-pyynnöt HTTPS-protokollaan, jolloin niitä ei voi erottaa tavanomaisesta salatusta verkkoliikenteestä
+- DoH (*DNS over HTTPS*): Kapseloi DNS-pyynnöt HTTPS-protokollaan, jolloin niitä ei voi erottaa tavanomaisesta salatusta verkkoliikenteestä
 
 
 
-- DoT (*DNS over TLS*)**: Luo erityisen salatun kanavan laitteen ja DNS-palvelimen välille
+- DoT (**DNS over TLS**): Luo erityisen salatun kanavan laitteen ja DNS-palvelimen välille
 
 
 
-- DoQ (*DNS over QUIC*)**: Siirtää DNS-pyynnöt UDP-pohjaisen QUIC-protokollan kautta
+- **DoQ (*DNS over QUIC*)**: Siirtää DNS-pyynnöt UDP-pohjaisen QUIC-protokollan kautta
 
 
 Käytännössä DNS-salaus ja palvelimen vaihto voidaan toteuttaa eri tasoilla:
@@ -8526,6 +8505,7 @@ Käytännössä DNS-salaus ja palvelimen vaihto voidaan toteuttaa eri tasoilla:
 
 
 
+https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - Käyttöjärjestelmätasolla: Tämä suojaa kaikki DNS-pyynnöt, jotka kulkevat järjestelmän verkkopinon läpi. Tämä ei kuitenkaan suojaa koko tietokonetta tai puhelinta: Sovellukset voivat ohittaa tämän asetuksen, jos ne on määritetty käyttämään eri DNS-resolveria tai -protokollaa.
 
 
@@ -8626,3 +8606,4 @@ Seuraamalla näitä muutamia ohjeita voit rakentaa vankan ja turvallisen verkkoy
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

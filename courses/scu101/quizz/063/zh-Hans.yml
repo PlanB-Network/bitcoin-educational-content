@@ -1,9 +1,9 @@
-question: 在网络安全中使用的密码学有哪些方面？
-answer: SSL/TLS、对称/非对称加密
+question: 在网络安全领域，什么认证是世界公认的？
+answer: CISSP
 wrong_answers:
-  - RSA、DSA、ECC
-  - AES、DES、3DES
-  - MD5、SHA-1、SHA-256
-explanation:
-  本章列出了SSL/TLS和对称/非对称加密作为网络安全中使用的密码学的一些方面。
-reviewed: true
+  - PMP
+  - ITIL
+  - SHA2
+explanation: |
+  CISSP 认证是网络安全领域最受国际认可的认证之一。
+reviewed: false

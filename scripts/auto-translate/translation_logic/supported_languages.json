@@ -73,6 +73,12 @@
       "code_translator": "JA"
     },
     {
+      "code": "ko",
+      "name": "Korean",
+      "translator": "deepl",
+      "code_translator": "KO"
+    },
+    {
       "code": "nb-NO",
       "name": "Norwegian",
       "translator": "deepl",
@@ -143,6 +149,12 @@
       "name": "Thai",
       "translator": "openai",
       "code_translator": "Thai"
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "translator": "deepl",
+      "code_translator": "TR"
     },
     {
       "code": "vi",

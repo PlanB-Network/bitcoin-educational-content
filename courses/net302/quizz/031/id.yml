@@ -1,0 +1,9 @@
+question: Rentang IPv4 Address mana yang dicadangkan untuk pengujian loopback lokal?
+answer: 127.0.0.0/8
+wrong_answers:
+  - 10.0.0.0/8
+  - 172.16.0.0/12
+  - 192.168.0.0/16
+explanation: |
+  Kisaran 127.0.0.0/8 digunakan untuk loopback lokal. Setiap permintaan ke rentang ini tetap berada di dalam mesin asal.
+reviewed: false

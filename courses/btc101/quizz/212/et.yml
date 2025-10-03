@@ -1,10 +1,9 @@
-question: Kuidas on Bitcoin tekstis kirjeldatud?
-answer: Mitme distsipliini objekt
+question: Mida tekst vihjab Bitcoini tuleviku kohta?
+answer: See ei kao kuhugi
 wrong_answers:
-  - Lihtne objekt
-  - Keeruline objekt
-  - Ühe distsipliini objekt
+  - Selle asendab parem tehnoloogia
+  - Selle keelustatakse ülemaailmselt
+  - See kaotab oma väärtuse
 explanation: >-
-  Bitcoini kirjeldatakse mitme distsipliini objektina, kuna see tõstatab küsimusi, mis on seotud mitmete valdkondadega, sealhulgas krüptograafia, mänguteooria, majandus
-  ja rahapoliitika, arvutiteadus, filosoofia, energia, seadused ja regulatsioonid.
+  Tekst vihjab, et Bitcoin ei kao kuhugi. Vastupidi, revolutsioon on alles algusjärgus.
 reviewed: false

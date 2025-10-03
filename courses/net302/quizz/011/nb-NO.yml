@@ -1,0 +1,9 @@
+question: Hva er hovedgrunnen til at IPv5 aldri har blitt tatt i bruk i stor skala?
+answer: Det forble eksperimentelt
+wrong_answers:
+  - Utplasseringen var for kostbar
+  - Den var ikke kompatibel med IPv6
+  - Den hadde store sikkerhetsbrister
+explanation: |
+  IPv5 ble bare implementert eksperimentelt. Den ble aldri standardisert eller tatt i bruk i stor skala, og ble til slutt forlatt til fordel for IPv6.
+reviewed: false

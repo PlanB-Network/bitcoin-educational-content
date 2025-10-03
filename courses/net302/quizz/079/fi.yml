@@ -1,0 +1,9 @@
+question: Minkä tyyppistä DNS-tietuetta käytetään verkkotunnuksen ja IPv6 Address:n yhdistämiseen?
+answer: AAAA
+wrong_answers:
+  - A
+  - PTR
+  - MX
+explanation: |
+  AAAA-tyyppiä (quad-A) käytetään verkkotunnuksen ja IPv6 Address:n yhdistämiseen, kun taas tyyppi A on varattu IPv4:lle.
+reviewed: false

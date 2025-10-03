@@ -1,10 +1,12 @@
-question: Mikä maa on julistanut Bitcoinin lailliseksi maksuvälineeksi?
-answer: El Salvador.
+question: Millä aloilla Bitcoin herättää kysymyksiä?
+answer: Kryptografia, peliteoria, taloustiede ja rahapolitiikka, tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.
 wrong_answers:
-  - Yhdysvallat.
-  - Kiina.
-  - Intia.
-explanation: >-
-  El Salvador on ottanut rohkean askeleen omaksuessaan Bitcoinin kokonaisuudessaan,
-  julistaen sen lailliseksi maksuvälineeksi.
+  - Vain tietojenkäsittelytiede ja taloustiede
+  - Vain kryptografia ja peliteoria.
+  - Vain filosofia ja energia.
+explanation: |
+  Bitcoin on monitieteellinen aihe, joka herättää
+  kysymyksiä liittyen useille aloille, mukaan lukien
+  kryptografia, peliteoria, taloustiede ja rahapolitiikka,
+  tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.
 reviewed: true

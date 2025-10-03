@@ -1,11 +1,11 @@
-question: Mikä on yksi riskeistä, jotka liittyvät Bitcoinin ostamiseen?
-answer: Sen hinta voi laskea nollaan.
+question: Mikä on yksi seikoista, jotka sinun tulisi ottaa huomioon valitessasi DCA-alustaa?
+answer: Saatavuus omassa maassasi.
 wrong_answers:
-  - Sen voi varastaa helposti.
-  - Sen voi kopioida.
-  - Sen voi menettää fyysisesti.
+  - Alustan logon väri.
+  - Käyttäjien määrä alustalla.
+  - Alustan ikä.
 explanation: |
-  Kurssitekstissä mainitaan, että Bitcoin on erittäin volatiili
-  finanssiomaisuus, ja sen hinta voi laskea nollaan, mikä on yksi
-  riskeistä, jotka liittyvät Bitcoinin ostamiseen.
+  Tämän kurssitekstin mukaan DCA-alustaa valittaessa
+  oikea valinta riippuu enemmän sen saatavuudesta
+  omassa maassasi.
 reviewed: true

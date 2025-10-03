@@ -1,9 +1,9 @@
-question: Apa itu trilema blockchain?
-answer: Sebuah protokol berbasis blockchain hanya dapat memenuhi dua dari tiga aspek; desentralisasi, keamanan, dan skalabilitas.
+question: Apa yang dimungkinkan oleh Lightning Network?
+answer: Melakukan transaksi antar individu yang tidak memiliki koneksi saluran langsung.
 wrong_answers:
-  - Sebuah protokol berbasis blockchain hanya dapat memenuhi satu dari desentralisasi, keamanan, dan skalabilitas.
-  - Sebuah protokol berbasis blockchain dapat memenuhi semua aspek desentralisasi, keamanan, dan skalabilitas.
-  - Sebuah protokol berbasis blockchain tidak dapat memenuhi aspek desentralisasi, keamanan, dan skalabilitas sama sekali.
+  - Melakukan transaksi antar individu yang hanya memiliki koneksi saluran langsung.
+  - Melakukan transaksi antar individu yang memiliki koneksi saluran langsung dan pihak ketiga.
+  - Melakukan transaksi antar individu yang memiliki koneksi saluran langsung dan beberapa pihak ketiga.
 explanation: |
-  Trilema blockchain merujuk pada tantangan bahwa sebuah protokol berbasis blockchain hanya dapat memenuhi dua dari tiga aspek: desentralisasi, keamanan, dan skalabilitas.
-reviewed: false
+  Lightning Network memungkinkan transaksi antar individu
+  yang tidak memiliki koneksi saluran langsung.

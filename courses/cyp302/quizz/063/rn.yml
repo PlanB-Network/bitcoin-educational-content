@@ -1,0 +1,9 @@
+question: Ni kubera iki ingero z’ubuhinga bwo gukingira amakuru akenshi zikoresha inyuguti Alice na Bob?
+answer: Kugira ngo yerekane ingingo ngenderwako z’ubuhinga bwo gukingira amakuru mu buryo bworoshe .
+wrong_answers:
+  - Kubera ko Alice na Bob ari amajambo y’ubuhinga mu buhinga bwo gukingira amakuru .
+  - Kuko niyo mazina azwi kw’isi yose .
+  - Kubera ko zigereranya ubuhinga bwa orodinateri .
+explanation: |
+  Alice na Bob zikoreshwa cane mu gukora amakuru y’ibanga nk’ibimenyetso vy’ibinyoma kugira ngo vyerekane uguhana ubutumwa n’ingingo ngenderwako z’ibanga mu buryo bworoshe kandi buteye igomwe.
+reviewed: false

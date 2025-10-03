@@ -73,7 +73,7 @@ In the window that pops up, you will find fields to "fill in": choose the _Brows
 
 You can find the guide to Sparrow wallet to download this Software Wallet
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 You can then transfer the `.apk` file from your computer to your phone
 

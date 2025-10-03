@@ -1,0 +1,10 @@
+question: Ni gute igice c’uruti gikora mu masezerano ya Dandelion?
+answer: Ivyo bicuruzwa birungikwa biciye mu nzira y’ibihimba vy’umubiri.
+wrong_answers:
+  - Ivyo bicuruzwa bica bimenyeshwa ku bagenzi bose b’uruzitiro rw’inkomoko.
+  - Ivyo bicuruzwa bibikwa mu gihe gito mu gice co hagati imbere y’uko bimenyeshwa.
+  - Ivyo bicuruzwa birashirwa mu buryo bugenda buragwira ku ntambwe yose y’ugutangaza.
+explanation: |
+  Dandelion ibanza gukoresha igice c’uruti aho igikorwa coherezwa biciye mu nzira y’ibihimba. Ivyo bica bimenyeshwa ku rubuga rwose mu gihe c’ugutera imbere.
+  
+reviewed: false

@@ -1,7 +1,9 @@
 ---
 name: Nakamochi
-description: Node Running Made Easy - Kuidas luua ja kasutada Nakamochi Bitcoini ja Lightning sõlme.
+description: Sõlme käitamine lihtsaks tehtud - Kuidas seadistada ja kasutada Nakamochi Bitcoini ja Lightning sõlme.
 ---
+![image](assets/cover.webp)
+
 Oma Bitcoini ja Lightning'i täisnoodide käivitamine ei pea enam olema keeruline ülesanne, mis piirdub vaid tehniliste ekspertidega. Traditsiooniliselt on sõlmede loomine ja haldamine nõudnud põhjalikke teadmisi krüptograafiast, võrgutamisest ja tarkvaraarendusest. Nakamochi muudab seda, tehes sõlmed kättesaadavaks kõigile, sõltumata tehnilisest taustast.
 
 Nakamochi abil saab igaüks luua ja hallata sõlme kodust, võimaldades täielikku privaatsust ja rahalist sõltumatust. Täieliku sõlme käitamine ei taga mitte ainult teie enda tehingute turvalisust, vaid aitab ka kaasa Bitcoini võrgu tugevusele. Detsentraliseeritud ja paindlik Bitcoini võrk tugineb oma turvalisuse ja sõltumatuse tagamiseks sõlmede laiale jaotusele.
@@ -36,27 +38,29 @@ Teie Nakamochi-sõlme hallatakse mobiilirakenduse [BitBanana (Android)](https://
 
 ![image](assets/en/01.webp)
 
-_Connect to power and write down your 24-word seed phrase_
+_Ühendage vooluvõrku ja kirjutage üles oma 24-sõnaline seemnefraas_
 
 ![image](assets/en/02.webp)
 
-_Oota, kuni Blockchain on järele jõudnud_
+_Oodake, kuni plokiahel on järele jõudnud_
 
 ![image](assets/en/03.webp)
 
-_Uue rahakoti loomine välklambilehel_
+_Seadistage uus rahakott Lightning vahekaardil_
 
 ![image](assets/en/04.webp)
 
-_Skaneeri QR-kood koos Node Management Appiga_
+_Skaneeri QR-kood sõlme haldusrakendusega_
 
 ![image](assets/en/05.webp)
 
-_Seadke lisaturvalisuse tagamiseks PIN-kood_
+_Lisaturvalisuse huvides seadistage PIN-kood_
 
-**Märkus:** _Luba oma Nakamochi sõlme sünkroniseerida plokiahelaga. See protsess võib võtta aega, sõltuvalt teie internetiühendusest._
+**Märkus:** _Laske oma Nakamochi sõlmel plokiahelaga sünkroonida. See protsess võib võtta aega sõltuvalt teie internetiühendusest._
 
 ## Lightning Networki kohta
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoini välkuvõrk muudab Bitcoini tehingud revolutsiooniliselt kiiremaks, odavamaks ja tõhusamaks. See sobib ideaalselt igapäevaseks kasutamiseks, võimaldades peaaegu koheseid makseid minimaalsete tasudega, mis on ideaalne mikrotehingute jaoks, näiteks kohvi ostmiseks või sagedaste väikeostude tegemiseks.
 
@@ -108,7 +112,7 @@ Lisateave: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 _Bitbanana Screenshot_
 
-Lisateave: [BitBanana](https://bitbanana.com)
+Lisateabe saamiseks: [BitBanana](https://bitbanana.com)
 
 Kui teie kanal on avatud, saab selle kaudu suunata makseid teistele võrgus osalejatele. Saldod kohanduvad väljaspool ahelat, mis tagab, et tehingud on peaaegu kohesed ja nende eest tuleb maksta minimaalselt.
 
@@ -120,4 +124,4 @@ Kui te ei vaja kanalit enam, võite selle sulgeda. See toiming arveldab teie ja 
 
 
 - [Nakamochist](https://nakamochi.io/)
-- [Tellige Nakamochi uudiskiri](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Telli Nakamochi uudiskiri](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

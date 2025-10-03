@@ -1,0 +1,9 @@
+question: Mikä on DNS:n tärkein rooli Internetin arkkitehtuurissa?
+answer: Verkkotunnusten yhdistäminen IP-osoitteisiin
+wrong_answers:
+  - Reitittimien välisen viestinnän salaaminen
+  - MAC-osoitteiden dynaaminen määrittäminen laitteille
+  - Verkkopalvelimien käyttöoikeuksien valvonta
+explanation: |
+  DNS (Domain Name System) muuntaa ihmisen luettavissa olevat verkkotunnukset numeerisiksi IP-osoitteiksi, joita tarvitaan reitityksessä.
+reviewed: false

@@ -1,14 +1,12 @@
-question: Khái niệm skin in the game trong ngành công nghiệp trò chơi điện tử là gì?
-answer: Có một phần vốn đầu tư vào kết quả của một trò chơi.
+question: Những cơ hội kinh doanh tiềm năng nào được cung cấp bởi Lightning Network?
+
+answer: Các mô hình kinh tế mới nơi người tiêu dùng trả tiền cho nội dung dựa trên những gì họ tiêu thụ.
+
 wrong_answers:
-  - Tùy chỉnh nhân vật với các skin độc đáo giúp tăng cường trải nghiệm chơi game.
-  - Mua vật phẩm trong trò chơi bằng tiền thật.
-  - Bán skin trong trò chơi để đổi lấy tiền thật.
-explanation: |
-  Khái niệm skin in the game là một ý tưởng đã
-  gần đây trở nên phổ biến trong ngành công nghiệp trò chơi điện tử. Nó
-  cơ bản đề cập đến ý tưởng rằng các nhà phát triển và
-  các bên liên quan có một khoản đầu tư cá nhân hoặc một phần vốn đầu tư vào
-  sự thành công của một trò chơi, điều này làm cho lợi ích của họ trùng khớp với
-  việc cung cấp một sản phẩm chất lượng.
+  - Các mô hình kinh tế mới nơi người tiêu dùng trả tiền bằng các loại tiền điện tử khác nhau.
+  - Các mô hình kinh tế mới nơi người tiêu dùng sử dụng blockchain cá nhân hóa.
+  - Các mô hình kinh tế mới nơi người tiêu dùng không trả tiền cho bất kỳ nội dung nào.
+
+explanation: Lightning Network mở ra một loạt các trường hợp sử dụng thú vị cho người dùng Bitcoin. Các mô hình kinh tế và cơ hội kinh doanh kết quả là rất nhiều và đa dạng, bao gồm các mô hình kinh tế mới nơi người tiêu dùng trả tiền cho nội dung dựa trên những gì họ tiêu thụ.
+
 reviewed: true

@@ -1,11 +1,10 @@
-question: Hur ser Bitcoin:s adoption ut enligt beskrivningen i den här kursen?
-answer: Viral.
+question: När validerades och implementerades Lightning Network för första gången?
+answer: 2017
 wrong_answers:
-  - Långsamt och stadigt.
-  - Snabb och okontrollerbar.
-  - Sporadisk och oförutsägbar.
+  - 2015
+  - 2016
+  - 2018
 explanation: |
-  I kurslitteraturen beskrivs Bitcoin:s spridning som viral,
-  vilket antyder att det sprids snabbt och brett från en person till en annan
-  person till en annan, ungefär som ett virus, men ett bra sådant.
+  Lightning Network validerades och implementerades för första gången
+  under 2017.
 reviewed: true

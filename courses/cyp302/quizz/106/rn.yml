@@ -1,0 +1,9 @@
+question: Ni uburyo ubuhe bubuza ibitero vyo kwiyumvira mu guhanahana amakuru ata nkomanzi?
+answer: Kwongerako ikimenyetso kidasanzwe kuri buri wese yitavye
+wrong_answers:
+  - Kwongera uburebure bw'urufunguzo
+  - Gukoresha imfunguruzo nyinshi ku butumwa bwose
+  - Kwongera urufunguzo rw'inyongera muri buri butumwa
+explanation: |
+  Kwongerako ikimenyetso kidasanzwe ku muntu wese ari mu butumwa bushizwemwo amakuru bibuza ibitero vy’uguzirikana, kuko bituma umuntu ashobora gutandukanya inkomoko y’ubutumwa.
+reviewed: false

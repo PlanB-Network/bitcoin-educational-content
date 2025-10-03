@@ -6,4 +6,4 @@ wrong_answers:
   - An encryption algorithm for Bitcoin.
 explanation: |
   A UTXO is an unspent transaction output, so it is essentially a “piece of bitcoin”.
-reviewed: false
+reviewed: true

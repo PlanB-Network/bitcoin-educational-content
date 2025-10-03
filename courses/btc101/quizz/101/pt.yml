@@ -1,11 +1,11 @@
-question: Qual é o método padrão para restaurar sua carteira?
-answer: Inserir sua frase mnemônica em qualquer software de carteira.
+question: Qual é o propósito de uma carteira Bitcoin?
+answer: Armazenar chaves privadas para realizar transações com bitcoins.
 wrong_answers:
-  - Salvar sua frase mnemônica em um arquivo digital.
-  - Escrever sua frase mnemônica em um quadro branco.
-  - Compartilhar sua frase mnemônica com um amigo de confiança.
+  - Usar recursos do dispositivo para minerar bitcoins.
+  - Comprar bitcoins através da chave pública.
+  - Armazenar bitcoins em um dispositivo.
 explanation: |
-  O método padrão de fazer backup da chave privada em uma
-  carteira Bitcoin é inserindo sua frase mnemônica em qualquer
-  software de carteira. Isso permite que você restaure sua carteira.
-reviewed: false
+  Carteiras Bitcoin são um tipo de software que é usado para
+  armazenar as chaves privadas que permitem a você realizar transações
+  com seus bitcoins.
+reviewed: true

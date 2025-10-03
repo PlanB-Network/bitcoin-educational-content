@@ -1,0 +1,9 @@
+question: 2025'te Bitcoin Core'da kaç bakım görevlisi olacak?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  2025 yılında beş bakım görevlisi bulunmaktadır: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao ve Ryan Ofsky.
+reviewed: false

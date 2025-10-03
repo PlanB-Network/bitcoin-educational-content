@@ -1,0 +1,9 @@
+question: Was ist der Hauptunterschied zwischen einem öffentlichen IPv4 Address und einem privaten IPv4 Address?
+answer: Ein öffentlicher Address ist einzigartig und kann im Internet geroutet werden
+wrong_answers:
+  - Ein privater Address ist einzigartig und kann im Internet geroutet werden
+  - Ein öffentlicher Address wird immer per DHCP zugewiesen
+  - Ein privater Address wird immer per DHCP zugewiesen
+explanation: |
+  Ein öffentlicher IPv4 Address ist weltweit eindeutig und kann im Internet geroutet werden, während ein privater Address nur innerhalb eines lokalen Netzes gültig ist.
+reviewed: false

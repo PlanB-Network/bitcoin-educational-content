@@ -1,9 +1,9 @@
-question: Giao dịch coinbase là gì?
-answer: Giao dịch đầu tiên của khối bao gồm phần thưởng của người đào.
+question: Vai trò của các thợ mỏ trong giao thức Bitcoin là gì?
+answer: Họ bảo vệ mạng lưới hiện tại và lịch sử.
 wrong_answers:
-  - Một giao dịch được thực hiện trên sàn giao dịch Coinbase.
-  - Giao dịch thứ hai của khối bao gồm phí cao nhất.
-  - Một giao dịch được thực hiện bởi người đào sau khi anh ta nhận được phần thưởng.
-explanation: >-
-  Giao dịch coinbase luôn là giao dịch đầu tiên của một khối. Nó bao gồm phần thưởng của người đào cho việc thực hiện công việc của người xác thực.
+  - Họ điều chỉnh giá của Bitcoin.
+  - Họ kiểm soát nguồn cung của Bitcoin.
+  - Họ quản lý giao dịch giữa người dùng.
+explanation: |
+  Các thợ mỏ trong giao thức Bitcoin bảo vệ cả mạng lưới hiện tại và lịch sử. Họ không điều chỉnh giá của Bitcoin, kiểm soát nguồn cung của nó, cũng không quản lý giao dịch giữa người dùng.
 reviewed: true

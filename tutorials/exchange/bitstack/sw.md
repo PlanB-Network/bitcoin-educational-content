@@ -28,7 +28,7 @@ Ada za muamala za Bitstack hutofautiana kulingana na kiasi kilichouzwa katika si
 - Zaidi ya €500,000: 0.49
 
 
-Shughuli nyingine zote kwenye jukwaa ni bila malipo, ikiwa ni pamoja na uondoaji wa Bitcoin (na uondoaji wa chini uliowekwa kwenye 100,000 Sats). Kwa hivyo, tofauti na majukwaa mengine ya Exchange, kujiondoa, sema, 0.01 BTC kutoka kwa programu ili kuihamisha kwenye ulinzi wa kibinafsi hakuwezi generate huduma yoyote au ada za Mining, kukuwezesha kupokea 0.01 BTC kwenye kupokea kwako Address.
+Shughuli zingine zote kwenye jukwaa ni bila malipo, ikiwa ni pamoja na uondoaji wa Bitcoin (na uondoaji wa chini uliowekwa kwenye 100,000 Sats). Kwa hivyo, tofauti na majukwaa mengine ya Exchange, kujiondoa, sema, 0.01 BTC kutoka kwa programu ili kuihamisha kwenye ulinzi wa kibinafsi hakuwezi generate huduma yoyote au ada za Mining, kukuwezesha kupokea 0.01 BTC kwenye kupokea kwako Address.
 
 
 ## Pakua programu
@@ -184,7 +184,7 @@ Muamala wako sasa umethibitishwa.
 ### Kuanzisha DCA
 
 
-Wastani wa Gharama ya Dola* (DCA) ni mkakati wa kuvutia wa uwekezaji wa kukusanya Bitcoin huku ukipunguza hatari zinazohusiana na tete yake. Kwa kununua mara kwa mara kiasi kisichobadilika, bila kujali bei, unaweza kulainisha gharama yako ya upataji na kuepuka kufanya maamuzi kwa msukumo. DCA husaidia kupunguza upendeleo wa kitabia kama vile hofu ya kukosa fursa au hofu iwapo bei itashuka, na hivyo kukuwezesha kudhibiti uokoaji wako wa Bitcoin kwa utulivu na nidhamu.
+**Wastani wa Gharama ya Dola** (DCA) ni mkakati wa kuvutia wa uwekezaji wa kukusanya Bitcoin huku ukipunguza hatari zinazohusiana na tete yake. Kwa kununua mara kwa mara kiasi kisichobadilika, bila kujali bei, unaweza kulainisha gharama yako ya upataji na kuepuka kufanya maamuzi kwa msukumo. DCA husaidia kupunguza upendeleo wa kitabia kama vile hofu ya kukosa fursa au hofu iwapo bei itashuka, na hivyo kukuwezesha kudhibiti uokoaji wako wa Bitcoin kwa utulivu na nidhamu.
 
 
 Ili kusanidi ununuzi unaorudiwa (DCA) kwenye Bitstack, nenda kwenye sehemu ya "*Hifadhi*" ya ukurasa wa nyumbani na uchague "*Inayojirudia*". Kisha bonyeza "*Endelea*".
@@ -199,7 +199,7 @@ Bainisha kiasi cha ununuzi unaorudiwa na njia ya kulipa.
 ![Image](assets/fr/22.webp)
 
 
-Chagua tarehe ya kuanza na marudio ya DCA yako, na chaguo kuanzia kila saa hadi mwezi. Thibitisha kwa kubofya "* Ratiba*".
+Chagua tarehe ya kwanza na marudio ya DCA yako, na chaguo kuanzia kila saa hadi mwezi. Thibitisha kwa kubofya "* Ratiba*".
 
 
 ![Image](assets/fr/23.webp)

@@ -1,10 +1,9 @@
-question: Mitkä ovat tyypillisiä kustannuksia louhijalle?
-answer: Sähkönkulutus ja laitteiston hankinta.
+question: Mikä on yksi tapa, jolla Bitcoin on entisestään integroitunut perinteiseen markkinaan?
+answer: Bitcoin ETF; ien tulo.
 wrong_answers:
-  - Vain laitteiston hankinta.
-  - Siirtomaksut.
-  - Sähkönkulutus ja siirtomaksut.
-explanation: >-
-  Bitcoinin louhiminen vaatii merkittävää laskentatehoa, mikä puolestaan kuluttaa sähköä.
-  Lisäksi louhijoiden on investoitava erikoistuneeseen laitteistoon voidakseen louhia sitä tehokkaasti.
-reviewed: false
+  - Bitcoinin kieltäminen.
+  - Kaikkien kryptovaluuttojen katoaminen.
+  - Bitcoinin luominen.
+explanation: |
+  Bitcoin jatkaa eloonjäämistään ja kasvuaan integroitumalla yhä enemmän perinteiseen markkinaan. Bitcoin ETF: ien tulo, selkeämpi sääntely ja paremmat varastointityökalujen hankintamahdollisuudet vain edistävät tätä suuntausta.
+reviewed: true

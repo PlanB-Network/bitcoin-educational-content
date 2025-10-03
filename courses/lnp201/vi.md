@@ -539,12 +539,12 @@ Ví dụ, cho một kênh giữa Alice và Suzie, chúng ta có thể có:
 Đối với cùng một khoản thanh toán **40,000 satoshis** cho Bob, Alice sẽ phải gửi một chút nhiều hơn, vì mỗi nút trung gian sẽ trừ phí của mình:
 
 - **Carol** trừ 1.04 satoshis trên kênh với Bob:
-  $$ f*{\text{Carol-Bob}} = \text{phí cơ bản} + \left(\frac{\text{ppm} \times \text{số lượng}}{10^6}\right) $$
-  $$ f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
+$$ f_{\text{Carol-Bob}} = \text{phí cơ bản} + \left(\frac{\text{ppm} \times \text{số lượng}}{10^6}\right) $$
+$$ f_{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0.04 = 1.04 \text{ sats} $$
 
 - **Suzie** trừ 8 satoshis phí trên kênh với Carol:
-  $$ f*{\text{Suzie-Carol}} = \text{phí cơ bản} + \left(\frac{\text{ppm} \times \text{số lượng}}{10^6}\right) $$
-  $$ f*{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
+$$ f_{\text{Suzie-Carol}} = \text{phí cơ bản} + \left(\frac{\text{ppm} \times \text{số lượng}}{10^6}\right) $$
+$$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \approx 8 \text{ sats} $$
 
 Tổng số phí cho khoản thanh toán này trên con đường này do đó là **9.04 satoshis**. Do đó, Alice phải gửi **40,009.04 satoshis** để Bob nhận chính xác **40,000 satoshis**.
 

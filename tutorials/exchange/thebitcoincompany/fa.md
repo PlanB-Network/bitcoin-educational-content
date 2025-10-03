@@ -1,5 +1,5 @@
 ---
-name: شرکت Bitcoin
+name: The Bitcoin Company
 description: چگونه می‌توانم کالاها و خدمات را با BTC از شرکت Bitcoin خریداری کنم؟
 ---
 ![cover](assets/cover.webp)

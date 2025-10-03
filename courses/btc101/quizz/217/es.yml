@@ -1,12 +1,10 @@
-question: ¿En qué campos plantea preguntas Bitcoin?
-answer: Criptografía, teoría de juegos, economía y política monetaria, ciencias de la computación, filosofía, energía, leyes y regulación.
+question: ¿Qué permite la Red Lightning?
+answer: Transacciones de Bitcoin instantáneas y de bajo costo.
 wrong_answers:
-  - Solo ciencias de la computación y economía
-  - Solo criptografía y teoría de juegos.
-  - Solo filosofía y energía.
-explanation: |
-  Bitcoin es un tema multidisciplinario que plantea
-  preguntas relacionadas con varios campos, incluyendo
-  criptografía, teoría de juegos, economía y política monetaria,
-  ciencias de la computación, filosofía, energía, leyes y regulación.
+  - Transacciones de Bitcoin instantáneas y de alto costo.
+  - Transacciones de Bitcoin retrasadas y de bajo costo.
+  - Transacciones de Bitcoin retrasadas y de alto costo.
+explanation: >-
+  La Red Lightning permite transacciones de Bitcoin instantáneas y de bajo costo,
+  resolviendo así el problema de escalabilidad de Bitcoin.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Lightning, ödeme kesinliği konusunda satıcılara ne gibi avantajlar sunuyor?
+answer: Lightning'deki ödemeler neredeyse anında sonuçlanır ve tersine çevirme veya dolandırıcılık riskini azaltır.
+wrong_answers:
+  - Fonların harcanabilir hale gelmesi için 24 saat beklenmesi gerekir.
+  - Müşterilerin ödemelerini istedikleri zaman geri almalarına olanak tanır.
+  - İşlemleri 90 güne kadar tamamen tersine çevrilebilir hale getirir.
+explanation: |
+  Lightning ile, bir ödeme ağ üzerinden yönlendirilip kapatıldıktan sonra nihai hale gelir. Bu, geleneksel ödeme sistemlerinde görülen ters ibraz senaryolarını ortadan kaldırır.
+reviewed: false

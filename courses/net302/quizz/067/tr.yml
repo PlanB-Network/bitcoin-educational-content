@@ -1,0 +1,9 @@
+question: IPv6'da MAC Address yerine rastgele Interface tanımlayıcıları kullanmanın ana motivasyonu nedir?
+answer: Mahremiyetin korunması
+wrong_answers:
+  - Paket boyutunu küçültme
+  - DNS çözümlemesini hızlandırma
+  - ARP uyumluluğunun iyileştirilmesi
+explanation: |
+  Rastgele Interface tanımlayıcılarının kullanılması, MAC Address'e dayalı cihaz takibine karşı korumaya yardımcı olur.
+reviewed: false

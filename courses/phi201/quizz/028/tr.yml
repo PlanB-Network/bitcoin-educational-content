@@ -1,0 +1,9 @@
+question: Aristoteles'e göre özgürlük nedir?
+answer: Şehir kanunlarına itaat
+wrong_answers:
+  - Herhangi bir kısıtlamanın olmaması
+  - Kişinin her istediğini yapabilme gücü
+  - Diğer tüm cevaplar doğrudur.
+explanation: |
+  Aristoteles'e göre özgürlük, ortak yarar için konulmuş olan kent yasalarına uymaktan ibarettir. Gerçek özgürlük vatandaşlık ve siyasi hayata katılım çerçevesinde gerçekleşir.
+reviewed: true

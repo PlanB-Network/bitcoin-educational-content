@@ -1,0 +1,9 @@
+question: RGB의 Consignment에는 무엇이 포함되나요?
+answer: 전환을 검증하는 데 필요한 고객 측 데이터
+wrong_answers:
+  - Bitcoin Blockchain의 전체 사본
+  - Bitcoin의 공개 약속 목록
+  - State Transition 참가자의 공개 키
+explanation: |
+  Consignment에는 수신자가 Contract 규칙에 따라 State Transition의 유효성을 검사할 수 있는 RGB 정보가 포함되어 있습니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Czy Immanuel Kant był?
+answer: Niemiecki filozof oświeceniowy.
+wrong_answers:
+  - Angielski filozof i uczeń Newtona
+  - XVII-wieczny filozof.
+  - Chrześcijański filozof.
+explanation: |
+  Immanuel Kant (1724-1804) był niemieckim filozofem epoki oświecenia. Rozwinął filozofię krytyczną, która wywarła głęboki wpływ na współczesną myśl, zwłaszcza dzięki "Krytyce czystego rozumu".
+reviewed: false

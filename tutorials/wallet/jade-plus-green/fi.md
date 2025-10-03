@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - vihreä
+name: Jade Plus - Green
 description: Helppo konfiguroida Jade Plus Greenin kanssa
 ---
 ![cover](assets/cover.webp)
@@ -101,7 +101,7 @@ Napsauta "*Jatka*"-painiketta näyttääksesi uuden palautuslausekkeen.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Jade Plus näyttää 12-sanaisen muistisanan. **Tämä muistisana antaa sinulle täyden, rajoittamattoman pääsyn kaikkiin bitcoineihisi. Kuka tahansa, jolla on hallussaan tämä lauseke, voi varastaa varojasi, vaikka hänellä ei olisi fyysistä pääsyä Jade Plus -laitteeseesi. 12-sanainen lauseke palauttaa pääsyn bitcoineihisi, jos Jade häviää, varastetaan tai rikkoutuu. Siksi on erittäin tärkeää tallentaa se huolellisesti ja säilyttää se turvallisessa paikassa.
+Jade Plus näyttää 12-sanaisen muistisanan. **Tämä muistisana antaa sinulle täyden, rajoittamattoman pääsyn kaikkiin bitcoineihisi. Kuka tahansa, jolla on hallussaan tämä lauseke, voi varastaa varojasi, vaikka hänellä ei olisi fyysistä pääsyä Jade Plus -laitteeseesi. 12-sanainen lauseke palauttaa pääsyn bitcoineihisi, jos Jade häviää, varastetaan tai rikkoutuu. Siksi on erittäin tärkeää tallentaa se huolellisesti ja säilyttää se turvallisessa paikassa.**
 
 Voit kirjoittaa sen laatikossa olevaan pahviin, tai jos haluat lisätä turvallisuutta, suosittelen kaiverrusta ruostumattomasta teräksestä valmistettuun alustaan, joka suojaa sitä tulipalolta, tulvalta tai romahdukselta.
 
@@ -111,7 +111,7 @@ Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaa
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Ei näitä sanoja saa tietenkään koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä
+**Ei näitä sanoja saa tietenkään koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä**
 
 Napsauta näytön oikeassa reunassa olevaa nuolta näyttääksesi seuraavat sanat.
 
@@ -300,4 +300,5 @@ Onneksi olkoon, tiedät nyt, miten Jade Plus -laite asetetaan ja käytetään Bl
 Jos haluat edetä askeleen pidemmälle, suosittelen tätä Jade Plus -ohjetta, jossa konfiguroimme sen Sparrow Wallet -ohjelmiston kanssa QR-tilassa. Opit myös käyttämään laitteiston lompakon lisäasetuksia:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

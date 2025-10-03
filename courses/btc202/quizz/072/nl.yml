@@ -1,0 +1,9 @@
+question: Welk mechanisme kan gebruikt worden om een snapshot van de UTXO set te laden om een knooppunt snel bruikbaar te maken?
+answer: neem aanutxo
+wrong_answers:
+  - neemchainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo laadt een snapshot van de UTXO set om het knooppunt snel aan de praat te krijgen, terwijl de complete UTXO set op de achtergrond wordt herbouwd.
+reviewed: true

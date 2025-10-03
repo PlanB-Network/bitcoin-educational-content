@@ -1,0 +1,9 @@
+question: Kimin bir IPv6 paketini parçalamasına izin verilir?
+answer: Yalnızca kaynak ana bilgisayar
+wrong_answers:
+  - Yalnızca ilk ara yönlendirici
+  - Yalnızca hedef yönlendirici
+  - Tüm yönlendiriciler
+explanation: |
+  IPv6'da parçalama işlemi yalnızca kaynak ana bilgisayar tarafından gerçekleştirilir, ara yönlendiriciler tarafından asla gerçekleştirilmez.
+reviewed: false

@@ -1,0 +1,9 @@
+question: I, Pencil kitabının yazarı ve Bastiat'nın The Law kitabını İngilizceye çeviren kişi kimdir?
+answer: Leonard Read
+wrong_answers:
+  - Leonard Nimoy
+  - Leonard Cohen
+  - Milton Friedman
+explanation: |
+  Leonard Read, Bastiat'nın Kanun adlı eserini İngilizceye çevirmesi ve İktisadi Eğitim Vakfı aracılığıyla Bastiat'nın çalışmalarını yaygınlaştırmasıyla tanınmaktadır.
+reviewed: false

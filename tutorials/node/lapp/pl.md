@@ -1,9 +1,11 @@
 ---
-name: LAPP Bitcoin
-description: Samouczek tworzenia pierwszej aplikacji LApp
+name: Lightning App
+description: Samouczek do stworzenia swojej pierwszej aplikacji Lightning (LAPP)
 ---
 
-Naucz się kodować swoją pierwszą aplikację Lightning
+![cover](assets/cover.webp)
+
+## Naucz się programować swoją pierwszą aplikację lightning
 
 
 Wymagania:
@@ -27,6 +29,8 @@ Aby zbudować naszą aplikację Lightning, będziemy korzystać z następującyc
 - Express dla naszego serwera internetowego
 - Szablony Pug + bootstrap dla naszego frontendu
 
+
+https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## System operacyjny
 

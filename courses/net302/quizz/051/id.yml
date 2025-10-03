@@ -1,0 +1,9 @@
+question: Mekanisme apa yang memungkinkan layanan internal diakses secara eksternal melalui NAT?
+answer: Penerusan port
+wrong_answers:
+  - Fragmentasi paket
+  - Perutean RIP
+  - Kompresi NAT
+explanation: |
+  Port forwarding memungkinkan koneksi eksternal diteruskan ke host internal tertentu melalui gateway NAT.
+reviewed: false

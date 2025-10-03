@@ -1,0 +1,9 @@
+question: Phiên bản Bitcoin core nào giới thiệu mô hình Ultraprune?
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  Kể từ phiên bản 0.8.0, Bitcoin core không còn sử dụng chỉ mục toàn cục nữa mà trực tiếp duy trì tập hợp UTXO nhờ Ultraprune.
+reviewed: true

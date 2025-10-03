@@ -1,10 +1,7 @@
-question: Lightning Network ilithibitishwa na kutekelezwa lini kwa mara ya kwanza?
-answer: 2017
+question: Saizi ya block ni kubwa kiasi gani katika itifaki ya Bitcoin?
+answer: 4MB.
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: |
-  Lightning Network ilithibitishwa kwanza na kutekelezwa
-  mwaka 2017.
+  - 1MB.
+  - 2MB.
+  - 3MB.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Wie heeft het concept van vereenvoudigde betalingsverificatie (SPV) uitgevonden?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Terug
+  - Pieter Wuille
+explanation: |
+  De SPV wordt gepresenteerd in deel 8 van het witboek van Satoshi Nakamoto.
+reviewed: true

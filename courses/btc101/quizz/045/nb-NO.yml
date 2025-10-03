@@ -1,11 +1,10 @@
-question: Hva er den viktigste egenskapen til Bitcoin som skiller den fra fiatvalutaer?
-answer: Dens pengepolitikk håndheves av en generell konsensus.
+question: Hva er effekten av 20% inflasjon på kjøpekraften over 3 år?
+answer: Du mister 50% av din kjøpekraft
 wrong_answers:
-  - Den kan trykkes i ubegrensede mengder av sentralbanker.
-  - Den er støttet av en fysisk vare som gull eller sølv.
-  - Den er regulert av en sentralbank.
+  - Du mister 100% av din kjøpekraft
+  - Du mister 60% av din kjøpekraft
+  - Du mister 30% av din kjøpekraft
 explanation: |
-  Bitcoin, gjennom sin desentraliserte og kryptografiske natur, kan ikke blant annet
-  forfalskes og er begrenset til 21 millioner enheter. Dette er en nøkkelegenskap som skiller
-  den fra fiatvalutaer, hvis pengepolitikk kan endres av sentralbanker.
+  Med 20% inflasjon, mister du nesten halvparten av din kjøpekraft i
+  løpet av 3 år.
 reviewed: true

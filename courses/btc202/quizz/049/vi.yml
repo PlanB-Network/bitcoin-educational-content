@@ -1,0 +1,9 @@
+question: Giá trị mặc định của tham số dbcache trong Bitcoin core là gì?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Theo mặc định, Bitcoin core phân bổ 450 MiB (472 MB) cho bộ nhớ đệm.
+reviewed: true

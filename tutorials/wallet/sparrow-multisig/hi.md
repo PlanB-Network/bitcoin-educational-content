@@ -1,5 +1,5 @@
 ---
-name: स्पैरो Wallet - Multisig
+name: Sparrow Wallet - Multisig
 description: स्पैरो पर एक मल्टी-सिग्नेचर पोर्टफोलियो बनाएं
 ---
 ![cover](assets/cover.webp)

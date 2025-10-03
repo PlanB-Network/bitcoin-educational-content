@@ -1,0 +1,8 @@
+question: Mirabeau hangi kitap yüzünden hapse atılmıştı?
+answer: Vergilendirme Teorisi
+wrong_answers:
+  - L'Ami des Hommes
+  - Genel olarak ticaretin doğası üzerine deneme
+  - Sosyal Contract
+explanation: |
+  Mirabeau, Fransız vergi sistemini eleştirdiği "La Théorie de l'Impôt" adlı eseri nedeniyle hapsedildi.

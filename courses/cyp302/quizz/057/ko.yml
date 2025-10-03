@@ -1,0 +1,9 @@
+question: 아벨리안 그룹이란 무엇인가요?
+answer: 연산이 통용되는 그룹
+wrong_answers:
+  - 고유한 생성기가 있는 그룹
+  - 정수로 제한된 그룹
+  - 중립 요소가 없는 그룹
+explanation: |
+  아벨리안 그룹은 연산에서 Elements의 순서가 결과에 영향을 주지 않는 그룹으로, 정류성을 준수한다는 의미입니다.
+reviewed: false

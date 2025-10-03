@@ -1,5 +1,5 @@
 ---
-name: Gió Mờ Sương
+name: Misty Breez
 description: Lightning Wallet không có bát.
 ---
 

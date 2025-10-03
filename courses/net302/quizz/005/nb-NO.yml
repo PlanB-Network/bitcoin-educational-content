@@ -1,0 +1,9 @@
+question: Hvilket dokument fungerer som teknisk referanse for TCP/IP-protokollspesifikasjoner?
+answer: RFC
+wrong_answers:
+  - Hvitbok
+  - ISO
+  - IIP
+explanation: |
+  RFC-er (Request For Comments) er referansedokumentene som definerer spesifikasjonene for TCP/IP-protokoller.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Какая опция сервера Sparrow wallet соответствует соединению RPC?
+answer: Bitcoin core
+wrong_answers:
+  - Публичный сервер
+  - Личный электрум
+  - Удаленный API
+explanation: |
+  В Sparrow опция Bitcoin core соответствует прямому подключению к узлу через RPC.
+reviewed: true

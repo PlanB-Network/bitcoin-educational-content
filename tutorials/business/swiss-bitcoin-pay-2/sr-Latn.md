@@ -123,7 +123,7 @@ Zatim ćete morati platiti 1 sat da biste verifikovali svoj Lightning Address. U
 
 ![SWISS BITCOIN PAY](assets/notext/11.webp)
 
-Konačno, imate opciju da dodate referal kod. Ako želite da nas podržite, možete koristiti kod "*DiscoverBitcoin*" kako bi deo vaših provizija bio podeljen sa nama. Hvala vam! :)![SWISS Bitcoin PAY](assets/notext/12.webp)
+Konačno, imate opciju da dodate referal kod. Ako želite da nas podržite, možete koristiti kod "*DiscoverBitcoin*" kako bi deo vaših provizija bio podeljen sa nama. Hvala vam!:)![SWISS Bitcoin PAY](assets/notext/12.webp)
 
 Kada su svi podaci popunjeni, kliknite na dugme "*Pošalji*".
 

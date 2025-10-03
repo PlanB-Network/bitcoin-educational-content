@@ -1,0 +1,9 @@
+question: Co odróżnia węzeł pruned od Full node?
+answer: Stopniowo eliminuje stare bloki
+wrong_answers:
+  - Nie weryfikuje starszych transakcji
+  - Nie może przekazywać całych bloków
+  - Nie przechowuje żadnej lokalnej kopii Blockchain, tylko zestaw UTXO
+explanation: |
+  Węzeł pruned waliduje cały łańcuch, ale zachowuje tylko ostatnią część bloków, aby ograniczyć jego przechowywanie.
+reviewed: true

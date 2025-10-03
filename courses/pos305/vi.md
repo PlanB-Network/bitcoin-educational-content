@@ -577,7 +577,7 @@ Quản trị viên có thể không muốn sử dụng cài đặt này. Bằng 
 
 ```
 BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCLUDE_FRAGMENTS;opt-mempoolfullrbf"
-. btcpay-setup.sh -i**
+. btcpay-setup.sh -i
 ```
 
 ### Cài đặt ví BTCPay Server
@@ -1700,7 +1700,7 @@ Bảng dưới đây liệt kê và mô tả các trạng thái hóa đơn tiêu
 | Processing (paidOver) - Đang xử lý (trả quá số tiền)          | Trả nhiều hơn số tiền trên hóa đơn, chưa nhận đủ số xác nhận cần thiết                                              | Chờ được thanh toán sau đó liên hệ với người mua để sắp xếp hoàn trả số tiền thừa, hoặc tùy chọn chờ người mua liên hệ với bạn                        |
 | Settled - Đã tất toán                        | Đã trả đủ tiền, nhận đủ số xác nhận cần thiết trong cửa hàng                                                        | Hoàn tất đơn hàng                                                                                                                                   |
 | Settled (marked) - Đã tất toán (được đánh dấu)         | Trạng thái đã được thay đổi thủ công thành đã thanh toán từ trạng thái đang xử lý hoặc không hợp lệ                       | Quản trị viên cửa hàng đã đánh dấu thanh toán là đã được hoàn tất                                                                                  |
-| Invalid - Không hợp lệ\*                        | Đã trả tiền, nhưng không nhận đủ số xác nhận cần thiết trong thời gian quy định của cài đặt cửa hàng                | Kiểm tra giao dịch trên trình duyệt blockchain, nếu nó nhận đủ xác nhận, đánh dấu là đã hoàn tất                                                   |
+| Invalid - Không hợp lệ                        | Đã trả tiền, nhưng không nhận đủ số xác nhận cần thiết trong thời gian quy định của cài đặt cửa hàng                | Kiểm tra giao dịch trên trình duyệt blockchain, nếu nó nhận đủ xác nhận, đánh dấu là đã hoàn tất                                                   |
 | Invalid (marked) - Không hợp lệ (được đánh dấu)          | Trạng thái đã được thay đổi thủ công thành không hợp lệ từ trạng thái đã hoàn tất hoặc hết hạn                          | Quản trị viên cửa hàng đã đánh dấu thanh toán là không hợp lệ                                                                                         |
 | Invalid (paidOver) - Không hợp lệ (trả quá số tiền)        | Trả nhiều hơn số tiền trên hóa đơn, nhưng không nhận đủ số xác nhận cần thiết trong thời gian quy định của cửa hàng | Kiểm tra giao dịch trên trình duyệt blockchain, nếu nó nhận đủ số xác nhận, đánh dấu là đã hoàn tất                                                    |
 

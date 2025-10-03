@@ -205,7 +205,7 @@ Poniżej znajduje się kilka przykładów kwestii formatu, na które należy zwr
 
 
 
-- Zwróć uwagę na dziwne znaki interpunkcyjne, takie jak `\*\*` lub ``**``, które mogą reprezentować złe renderowanie pogrubionego symbolu. Na poniższym obrazku widać, że gwiazdki znajdują się tylko po prawej stronie słowa, co wygląda dziwnie.
+- Zwróć uwagę na dziwne znaki interpunkcyjne, takie jak `**` lub `**`, które mogą reprezentować złe renderowanie pogrubionego symbolu. Na poniższym obrazku widać, że gwiazdki znajdują się tylko po prawej stronie słowa, co wygląda dziwnie.
 
 
 
@@ -234,8 +234,6 @@ Upewnij się, że sprawdziłeś oryginalny plik językowy (często EN lub FR), a
 
 ![REVIEW](assets/en/11.webp)
 
-
-
 ## Korekta quizów
 
 
@@ -245,11 +243,20 @@ Czy wiesz, że możesz również sprawdzać pytania quizowe w każdym kursie? Na
 Ponownie, upewnij się, że jesteś w dedykowanym oddziale, który otwierasz specjalnie w tym celu i zawsze informuj o tym koordynatora.
 
 
-Po sprawdzeniu pytania upewnij się, że zmieniłeś status "sprawdzone" z "fałszywe" na "prawdziwe", jak pokazano na poniższym obrazku.
-
+Ważną rzeczą, o której należy pamiętać podczas korekty tego typu plików _yml_, jest unikanie dodawania dwukropków ``:`` wewnątrz tekstu. W rzeczywistości dwukropek jest **tylko** używany do oddzielania par klucz-wartość, takich jak "wrong_answers" od reszty. Przykład można zobaczyć na poniższym obrazku:
 
 
 ![REVIEW](assets/en/12.webp)
+
+
+Po sprawdzeniu pytania upewnij się, że zmieniłeś status "sprawdzone" z "fałszywe" na "prawdziwe", jak pokazano na poniższym obrazku. Upewnij się, że te słowa statusu są w języku angielskim, bez względu na język, w którym pracujesz!
+
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Jeśli brakuje linii statusu "reviewed:true", upewnij się, że **dodałeś ją na końcu quizu**.
 
 
 ## Korekta słowniczka
@@ -258,7 +265,35 @@ Po sprawdzeniu pytania upewnij się, że zmieniłeś status "sprawdzone" z "fał
 Podobnie jak w przypadku quizów, możesz również sprawdzić słowniczek. Oryginalny słowniczek został napisany w języku francuskim, więc znajdziesz w nim zdania takie jak: "W języku francuskim wyrażenie to można przetłumaczyć na..."
 
 
-W takich przypadkach prosimy o dostosowanie tego zdania do języka docelowego lub angielskiego.
+W takich przypadkach należy dostosować zdanie do języka docelowego lub angielskiego. Na przykład można napisać "W języku angielskim wyrażenie to...".
+
+Jeśli tytuł jest w języku angielskim, możesz dostosować zdanie do swojego języka: "W języku suahili wyrażenie to..."
+
+
+Dodatkowo, upewnij się, że tytuły są pisane WIELKIMI LITERAMI.
+
+
+![REVIEW](assets/en/14.webp)
+
+
+## Tytuł i opis PR
+
+
+Kiedy wysyłasz swój PR, byłoby wspaniale, gdybyś nazwał go w tym formacie: [KOREKTA] NAZWA TREŚCI - JĘZYK:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Poza tym, w sekcji **komentarza PR** możesz wpisać "zamyka" + numer sprawy, którą koordynator wysłał ci, gdy rozpocząłeś zadanie korekty, poprzedzony ``#``.
+
+Na przykład, jeśli właśnie wysłałeś PR z korektą cyp201 + quizy, możesz napisać "zamyka [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
+
+
+W ten sposób PR i wydanie zostaną połączone, a każdy, kto czyta publiczne repozytorium Github, może łatwo znaleźć informacje.
+
 
 
 ## Inne najlepsze praktyki
@@ -269,7 +304,7 @@ W takich przypadkach prosimy o dostosowanie tego zdania do języka docelowego lu
 
 
 
-![REVIEW](assets/en/13.webp)
+![REVIEW](assets/en/15.webp)
 
 
 
@@ -283,23 +318,35 @@ Zawsze dokładnie sprawdzaj wszystkie hiperłącza w tekście, aby upewnić się
 
 
 
-![REVIEW](assets/en/14.webp)
+![REVIEW](assets/en/16.webp)
 
 
 
 
-- Kontynuując temat, jeśli autor wstawi link odnoszący się do kursu Plan ₿ Network lub samouczka (**nie** w nawiasie), strona automatycznie utworzy "kartę" pokazującą powiązaną miniaturę. W związku z tym zawsze upewnij się, że **masz spację między tekstem a samym linkiem**, w przeciwnym razie na stronie może pojawić się następujący błąd.
+- Kontynuując temat, jeśli autor wstawi link odnoszący się do kursu Plan ₿ Network lub samouczka (**nie** w nawiasie), strona automatycznie utworzy "kartę" pokazującą powiązaną miniaturę. W związku z tym zawsze upewnij się, że **dodałeś nową linię między tekstem a samym linkiem**, w przeciwnym razie możesz zobaczyć następujący błąd na stronie.
 
 
 
-![REVIEW](assets/en/15.webp)
+![REVIEW](assets/en/17.webp)
 
 
+To samo dzieje się z "kodami obrazów", takimi jak ten ``[IMAGE](asset/fr/001.webp)``: upewnij się, że zawsze dodajesz nową linię między kodem obrazu a tekstem. Przykład poniżej:
 
 
+```
+WRONG CONFIGURATION:
+- to start translating, click on the button `Translate`: ![language](assets/08.webp)
+To save, click on `save`!
 
-- Wreszcie, inną najlepszą praktyką, którą należy zastosować po zakończeniu zadania korekty i wysłaniu PR, jest powrót do pierwotnego zgłoszenia otwartego przez koordynatora i skomentowanie go słowami "Korekta zakończona". **Upewnij się, że wstawiłeś tam również link do swojego PR**.
 
+RIGHT CONFIGURATION:
+
+- to start translating, click on the button `Translate`:
+
+![language](assets/08.webp)
+
+To save, click on `save`!
+```
 
 
 ## Wnioski
@@ -309,6 +356,9 @@ Podsumowując, świadomość typowych błędów korektorskich może naprawdę po
 
 
 Zawsze pamiętaj, że początkujący mogą czytać te kursy i samouczki, więc naszym obowiązkiem jest upewnienie się, że w pełni je rozumieją. Jako korektor jesteś nauczycielem!
+
+
+Teraz możesz rozpocząć korektę kursów, samouczków, quizów i słowniczków. Bądź na bieżąco, aby rozpocząć sprawdzanie obrazów i transkrypcji wideo ;)
 
 
 Dziękujemy za przeczytanie tego poradnika i życzymy miłej podróży!

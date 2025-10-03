@@ -1,0 +1,9 @@
+question: Kích thước khối IPv6 thường được IANA phân bổ cho mỗi Cơ quan đăng ký Internet khu vực (RIR) là bao nhiêu?
+answer: /12
+wrong_answers:
+  - /48
+  - /32
+  - /23
+explanation: |
+  Từ năm 2006, mỗi RIR thường nhận được một khối /12 IPv6, cung cấp một lượng dự trữ rất lớn cho việc phân bổ theo khu vực.
+reviewed: false

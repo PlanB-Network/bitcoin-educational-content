@@ -1,0 +1,9 @@
+question: Lightning Network'ın ana hedefi nedir?
+answer: Hızlı ve düşük maliyetli ödemeleri mümkün kılmak için Bitcoin'in ölçeklenebilirliğini geliştirmek
+wrong_answers:
+  - Bitcoin Blockchain üzerindeki işlem ücretlerini ortadan kaldırın
+  - Yüksek değerli ödemeler için Bitcoin'e bir alternatif oluşturun
+  - Farklı kripto para birimleri arasındaki alışverişleri basitleştirin
+explanation: |
+  Lightning Network, off-chain ödeme kanalları üzerinden hızlı ve ucuz işlemler yapılmasını sağlayarak Bitcoin'nin ölçeklenebilirliğini artırmayı amaçlamaktadır.
+reviewed: false

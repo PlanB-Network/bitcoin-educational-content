@@ -1,0 +1,9 @@
+question: RLN üzerinde "curl -X POST /issueassetnia" ne yapabilir?
+answer: Yeni bir değiştirilebilir, enflasyonist olmayan RGB varlığı yaratın
+wrong_answers:
+  - Yeni bir değiştirilemez RGB varlığı oluşturun
+  - Yeni bir değiştirilebilir enflasyonist RGB varlığı yaratın
+  - Yeni bir yarı-fungible RGB varlığı oluşturun
+explanation: |
+  "/issueassetnia" komutu yeni bir RGB NIA ("Şişirilebilir Olmayan Varlık") token çıkarmak için kullanılır.
+reviewed: false

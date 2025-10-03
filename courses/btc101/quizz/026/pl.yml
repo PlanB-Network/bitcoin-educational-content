@@ -1,13 +1,10 @@
-question: Dlaczego złoto nie radzi sobie dobrze w zglobalizowanym i cyfrowym świecie?
-answer: Ponieważ potrzebuje centralnej jednostki, aby była podzielna i łatwo wymienialna.
+question: Dlaczego Bitcoin jest uważany za nową formę pieniądza?
+answer: Ponieważ jest to pieniądz cyfrowy bez podmiotu centralnego.
 wrong_answers:
-  - Ponieważ nie jest wystarczająco wartościowy.
-  - Ponieważ nie jest wystarczająco rzadki.
-  - Ponieważ z czasem ulega erozji.
+  - Ponieważ jest to waluta cyfrowa wspierana przez złoto.
+  - Ponieważ jest to waluta, która wymaga banku Blockchain.
+  - Ponieważ Rezerwa Federalna tak twierdzi.
 explanation: |
-  Złoto nie może nadążyć w zglobalizowanym i cyfrowym świecie
-  ponieważ potrzebuje centralnego podmiotu, który uczyni je podzielnym i
-  łatwo wymienialne. To sprawia, że jest mniej praktyczne w użyciu w
-  świecie, w którym transakcje są coraz bardziej cyfrowe i
-  zdecentralizowane.
+  Bitcoin może być postrzegany jako nowa forma pieniądza, ponieważ wyłania się
+  z sieci peer-to-peer bez centralnego podmiotu.
 reviewed: true

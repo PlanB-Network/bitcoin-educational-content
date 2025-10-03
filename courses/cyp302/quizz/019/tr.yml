@@ -1,0 +1,9 @@
+question: Bayes teoreminin olasılıktaki rolü nedir?
+answer: Olayları tersine çevirerek koşullu olasılığın hesaplanmasına izin verir.
+wrong_answers:
+  - Tek bir olayın gerçekleşme olasılığını sağlar.
+  - Tüm olası olayların toplam olasılığını tanımlar.
+  - Yalnızca sürekli değişkenler için geçerlidir.
+explanation: |
+  Bayes teoremi, olasılıkları tersine çevirerek bir A olayının B'ye göre olasılığının hesaplanmasını sağlar ve olasılık teorisinde çok önemlidir.
+reviewed: false

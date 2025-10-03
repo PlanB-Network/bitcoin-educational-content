@@ -1,11 +1,11 @@
-question: When you create an inheritance plan, what is not necessary to include?
-answer: The name of the Bitcoin wallet you usually use.
+question: What is the function of the difficulty adjustment in the Bitcoin network?
+answer: It ensures that a block is added to the blockchain approximately every ten minutes.
 wrong_answers:
-  - An handwritten letter listing your assets.
-  - A description of how to access your funds.
-  - The contact information of trusted individuals.
-explanation: |
-  creating an inheritance plan is a crucial step to ensure that your bitcoins will be properly managed after your death. 
-  This plan can include a handwritten letter listing your assets, 
-  their access methods, and the contact information of trusted individuals to be contacted
+  - It determines the price of Bitcoin.
+  - It regulates the number of bitcoins that can be mined in the blockchain.
+  - It determines the size of a block.
+explanation: >-
+  The difficulty adjustment in the Bitcoin network ensures that a block
+  is added approximately every ten minutes. This is part of the protocol rules of
+  the Bitcoin network.
 reviewed: true

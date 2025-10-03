@@ -1,0 +1,12 @@
+question: None iyo nyigisho idondora gute Bitcoin?
+answer: Ivyigwa vy’inyigisho nyinshi.
+wrong_answers:
+  - Ikiganiro coroshe.
+  - Ikintu c’umubiri.
+  - Ivyigwa vy’indero imwe.
+explanation: |
+  Bitcoin idondorwa nk’icigwa gifise inyigisho nyinshi kubera ko .
+  biravyura ibibazo bijanye n’ibintu bitandukanye, harimwo n’ivyo .
+  ubuhinga bwo gukingira amakuru, inyigisho y'imikino, ubutunzi n'ingingo ngenderwako y'amahera,
+  ubuhinga bwa mudasobwa, filozofiya, inguvu, amategeko n’amabwirizwa.
+reviewed: true

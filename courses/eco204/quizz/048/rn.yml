@@ -1,0 +1,14 @@
+question: None uguhindura amadini menshi bigira ingaruka izihe ku bantu?
+answer: Gutakaza amahera yazigamye n’ingorane z’ibifungurwa.
+wrong_answers:
+  - Ukwongerekana kw’ubutunzi n’umusesekara w’ibifungurwa.
+  - Kwongerekana kw’amahera azigamiwe n’ukubura ivyo kurya.
+  - Kugabanya ubutunzi n’umusesekara w’ibifungurwa.
+explanation: |
+  Gusubiramwo izina incuro nyinshi, gukuraho zero, canke guhindura izina
+  yo
+  
+  iyo mafaranga iragira ingaruka zitaziguye ku bantu, kuva ku gutakaza .
+  
+  imfashanyo ku ngorane z’ibifungurwa.’
+reviewed: false

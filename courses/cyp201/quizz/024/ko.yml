@@ -1,0 +1,9 @@
+question: Bitcoin에서 사용되는 원시 개인키의 크기는 얼마인가요?
+answer: 256비트
+wrong_answers:
+  - 128비트
+  - 512비트
+  - 1024비트
+explanation: |
+  Bitcoin의 개인 키는 256비트 무작위 정수로, 보안을 보장하기에 충분히 큰 키 공간을 확보합니다.
+reviewed: false

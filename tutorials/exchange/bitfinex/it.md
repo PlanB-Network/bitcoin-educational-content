@@ -8,15 +8,15 @@ Fondata nel 2012, Bitfinex è una delle prime piattaforme di scambio di bitcoin 
 
 Oggi Bitfinex è una piattaforma completa, che consente sia il semplice acquisto di bitcoin sia l'utilizzo di funzioni di trading avanzate con strumenti di gestione del rischio. È disponibile in versione web e, per le transazioni più semplici, è disponibile anche un'applicazione mobile di facile utilizzo.
 
-Bitfinex sostiene attivamente lo sviluppo del Bitcoin, investendo in tecnologie come la Lightning Network e promuovendo soluzioni peer-to-peer per la libertà finanziaria.
+Bitfinex sostiene attivamente lo sviluppo di Bitcoin, investendo in tecnologie come Lightning Network e promuovendo soluzioni peer-to-peer per la libertà finanziaria.
 
 ## 1 - Creare un conto Bitfinex
 
-Andate su [il sito ufficiale di Bitfinex](https://www.bitfinex.com/). Nella pagina iniziale, trovare e fare clic sull'opzione "*Iscriviti*" per iniziare a creare il proprio account.
+Vai su [il sito ufficiale di Bitfinex](https://www.bitfinex.com/). Nella pagina iniziale, trova e clicca sull'opzione "Sign Up" (Iscriviti) per iniziare a creare il tuo account.
 
 ![BITFINEX](assets/fr/01.webp)
 
-Completare le informazioni richieste: inserire l'indirizzo e-mail e il paese di residenza. Scegliere un nome utente e una password sicuri, quindi fare clic su "*Iscriviti*" per confermare la registrazione.
+Completa le informazioni richieste: inserisci l'indirizzo e-mail e il paese di residenza. Scegli un nome utente e una password sicuri, quindi fai clic su "Sign up" (Iscriviti) per confermare la registrazione.
 
 ![BITFINEX](assets/fr/02.webp)
 
@@ -24,15 +24,15 @@ Per suggerimenti sull'uso e la salvaguardia di password forti e uniche, vedere a
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Ora configureremo il 2FA per proteggere l'account. Utilizzate un'applicazione di autenticazione sul vostro smartphone, come ad esempio Google Authenticator o Authy. Troverete un tutorial su questo strumento qui:
+Ora configura il 2FA per proteggere l'account. Utilizza un'applicazione di autenticazione sul tuo smartphone, come ad esempio Google Authenticator o Authy. Trovi un tutorial su questo strumento qui:
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Scansionare il codice QR con la propria app e inserire le 6 cifre fornite.
+Scansiona il codice QR con la tua app e inserisci le 6 cifre fornite.
 
 ![BITFINEX](assets/fr/03.webp)
 
-Se lo fate dall'applicazione sul vostro smartphone :
+Se lo fai dall’applicazione sul tuo smartphone:
 
 ![bitfinex](https://youtu.be/_Ah34kG6tng)
 
@@ -40,11 +40,11 @@ La registrazione è stata completata.
 
 ![BITFINEX](assets/fr/04.webp)
 
-Controllate la vostra casella di posta elettronica e cliccate sul link inviato da Bitfinex per confermare la vostra registrazione.
+Controllate la tua casella di posta elettronica e clicca sul link inviato da Bitfinex per confermare la vostra registrazione.
 
 ![BITFINEX](assets/fr/05.webp)
 
-Il vostro account è stato creato. Cliccate su "*Log in*" per accedere alla piattaforma.
+Il tuo account è stato creato. Clicca su "*Log in*" per accedere alla piattaforma.
 
 ![BITFINEX](assets/fr/06.webp)
 
@@ -54,17 +54,17 @@ Bitfinex applica un processo di verifica (KYC) conforme alle normative vigenti. 
 
 
 - **Basic** è una modalità di sola visualizzazione, che consente di consultare la piattaforma senza eseguire alcuna operazione;
-- **Basic Plus** consente di accedere alle funzioni essenziali, tra cui le transazioni sul mercato a pronti e alcune opzioni di deposito e prelievo;
+- **Basic Plus** consente di accedere alle funzioni essenziali, tra cui le transazioni sul mercato e alcune opzioni di deposito e prelievo;
 - **Intermediate** sblocca servizi avanzati come il margin trading, i prestiti, le transazioni P2P e OTC e offre scadenze ridotte per i depositi;
-- **Full** vi dà accesso ai trasferimenti bancari internazionali e a tutte le funzionalità della piattaforma.
+- **Full** Ti dà accesso ai trasferimenti bancari internazionali e a tutte le funzionalità della piattaforma.
 
 Per ogni livello sono richiesti ulteriori documenti di verifica. Per la maggior parte degli utenti, gli account *Basic Plus* o *Intermediate* sono generalmente sufficienti.
 
-Una volta creato l'account, una finestra pop-up suggerirà di verificare l'account. Fare clic su "*Verifica*".
+Una volta creato l'account, una finestra pop-up suggerirà di verificare l'account. Fai clic su "verify" "*Verifica*".
 
 ![BITFINEX](assets/fr/07.webp)
 
-Se questa finestra non appare, accedere al proprio profilo in alto a destra dell'interfaccia, quindi fare clic su "*Verifica*".
+Se questa finestra non appare, accedi al tuo profilo in alto a destra dell'interfaccia, quindi fai clic su "Verification" "*Verifica*".
 
 ![BITFINEX](assets/fr/08.webp)
 
@@ -72,11 +72,11 @@ In "*Tipo di account*", selezionare "*Individuale*". Nel mio caso, sto passando 
 
 ![BITFINEX](assets/fr/09.webp)
 
-Completate i passaggi fornendo le informazioni e i documenti richiesti. Una volta completata e presentata la domanda, Bitfinex verificherà il conto per sbloccare le funzionalità associate.
+Completa i passaggi fornendo le informazioni e i documenti richiesti. Una volta completata e presentata la domanda, Bitfinex verificherà il conto per sbloccare le funzionalità associate.
 
 ## 3 - Introduzione rapida all'interfaccia di Bitfinex
 
-Una volta effettuato l'accesso, vedrete una barra di navigazione nella parte superiore dell'interfaccia con: "*Trading*", "*Derivati*", "*Fondi*", "*OTC*", "*P2P*", "*Portafoglio*", ecc. Bitfinex offre un'ampia gamma di funzionalità, tra cui :
+Una volta effettuato l'accesso, vedrai una barra di navigazione nella parte superiore dell'interfaccia con: "*Trading*", "*Derivati*", "*Fondi*", "*OTC*", "*P2P*", "*Portafoglio*", ecc. Bitfinex offre un'ampia gamma di funzionalità, tra cui :
 
 
 - **Trading**: mercato "*classico*" dove è possibile inserire ordini di acquisto e vendita di criptovalute (incluso bitcoin);
@@ -93,7 +93,7 @@ Uno dei vantaggi di Bitfinex è la possibilità di creare dei sottoconti. Ciò s
 
 ![bitfinex](https://youtu.be/aOBXgcuJ5fI)
 
-Se lo desiderate, potete anche personalizzare la vostra dashboard per evidenziare le funzioni di cui avete bisogno:
+Se lo desideri, potrai anche personalizzare la tua dashboard per evidenziare le funzioni di cui hai bisogno:
 
 ![bitfinex](https://youtu.be/byIyWgLGejI)
 

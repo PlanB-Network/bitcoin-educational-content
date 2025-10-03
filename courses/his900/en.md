@@ -18,11 +18,6 @@ This course provides a comprehensive overview of Bitcoin and Blockchain technolo
 <partId>418c1769-ce45-4402-b8a0-8dbd3f092796</partId>
 
 
-## Introduction à l'Histoire de la monnaie
-<chapterId>ca53597e-be9a-5261-a55f-11fac8504a68</chapterId>
-
-![video](https://www.youtube.com/watch?v=jFK1ha2ALYE)
-
 ## The Importance Of Decentralization
 <chapterId>3805ed1e-7d6f-4531-b97a-bb29d892c96b</chapterId>
 

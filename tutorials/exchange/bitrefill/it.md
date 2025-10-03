@@ -6,9 +6,9 @@ description: Come acquistare beni e servizi con BTC utilizzando Bitrefill?
 
 Sebbene Bitcoin sia principalmente considerato oggi un mezzo di risparmio, rimane una valuta la cui utilità risiede nella sua capacità di circolare di mano in mano. Se i commercianti intorno a te accettano Bitcoin come metodo di pagamento, hai l'opzione di spenderlo direttamente con loro. Sfortunatamente, questa pratica non è ancora diffusa, e la maggior parte dei commercianti non accetta ancora BTC nativamente.
 
-La soluzione migliore rimane quella di "orange pill" i commercianti locali per farli accettare Bitcoin, spiegando i vantaggi di questo sistema. Puoi utilizzare i tutorial disponibili nella sezione ["*merchants*"](https://planb.network/tutorials/merchant) del nostro sito come supporto. Questa strategia può essere efficace con piccoli commercianti indipendenti, ma si rivela più complessa per le grandi catene nazionali, poiché i contatti sul posto generalmente non sono quelli che prendono decisioni riguardo ai metodi di pagamento.
+La soluzione migliore rimane quella di "orange pillare" i commercianti locali per farli accettare Bitcoin, spiegando i vantaggi di questo sistema. Puoi utilizzare i tutorial disponibili nella sezione ["*merchants*"](https://planb.network/tutorials/merchant) del nostro sito come supporto. Questa strategia può essere efficace con piccoli commercianti indipendenti, ma si rivela più complessa per le grandi catene nazionali, poiché i contatti sul posto generalmente non sono quelli che prendono decisioni riguardo ai metodi di pagamento.
 
-In attesa di un'adozione più massiccia da parte di queste catene, puoi spendere i tuoi bitcoin utilizzando un metodo di pagamento intermediario: le carte regalo. Ed è precisamente ciò che Bitrefill offre di fornirti.
+In attesa di un'adozione più massiccia da parte di queste catene, puoi spendere i tuoi bitcoin utilizzando un metodo di pagamento intermediario: le carte regalo. Ed è precisamente ciò che Bitrefill vuole offrirti.
 
 ## Cos'è Bitrefill?
 
@@ -16,7 +16,7 @@ Bitrefill è una piattaforma che ti permette di acquistare carte regalo con bitc
 
 Bitrefill offre una scelta molto ampia che va dal retail al fast food, includendo piattaforme di streaming, giochi online, siti di e-commerce e persino ricariche telefoniche.
 ![BITREFILL](assets/notext/01.webp)
-Bitrefill è molto facile da usare. Per aprire un account, è sufficiente fornire un indirizzo email. Quindi, non è necessario fornire la tua identità. Poi, selezioni semplicemente il tipo di carta regalo, scegli l'importo e effettui il pagamento in bitcoin. Una volta confermato il pagamento (quasi istantaneamente con Lightning), ti viene fornito il codice della carta regalo. Questo può essere utilizzato sia fisicamente in negozio sia online sul sito web del rivenditore.
+Bitrefill è molto facile da usare. Per aprire un account, è sufficiente fornire un indirizzo email. Quindi, non è necessario fornire la tua identità. Poi, selezioni semplicemente il tipo di carta regalo, scegli l'importo e effettui il pagamento in bitcoin. Una volta confermato il pagamento (quasi istantaneamente con Lightning Network), ti viene fornito il codice della carta regalo. Questo può essere utilizzato sia fisicamente in negozio sia online sul sito web del rivenditore.
 
 ## Come creare un account Bitrefill?
 Visita il [sito ufficiale di Bitrefill](https://www.bitrefill.com).![BITREFILL](assets/notext/02.webp)
@@ -49,7 +49,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 ## Come acquistare una carta regalo in BTC su Bitrefill?
 
 Sulla sinistra, puoi scegliere un dominio di prodotto o servizio.
-Scegli il marchio di tua scelta.
+Scegli il marchio che desiseri.
 Il primo passo da compiere sulla pagina della carta regalo è verificare la sua disponibilità in base ai paesi. Assicurati che la tua nazione sia supportata da questa carta.
 Ti consiglio poi di prenderti il tempo per consultare la sezione dei commenti per scoprire le opinioni della comunità riguardo questa carta regalo.
 In questa sezione, troverai spesso piccoli consigli da altri utenti.

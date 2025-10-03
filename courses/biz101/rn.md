@@ -107,22 +107,22 @@ kkintu gihambaye kugira habe ukwizera ubu buryo  bwirungika ni rungikwa .
 - **ataruhusha **: Kera, amafaranga nk'ibiceri ( ibingorongoro)  vy'inzahabu n'ivy'ifeza akenshi vyahingurwa( barabicura ) n'abantu ku giti cabo, nkabategetsi bo mu karere canke abacuruzi baba bafise uruhusha nubushobozi bwogucukura mubirombe izo nzahabu zitara hingurwa . Ubwoburyo bwakora rimwe rimwe bisunze amasezerano ni mpusha zatangwa numwami nyezina canke abatware bagace bashaka kuranguriramwo ivyo bikorwa . Uko ibihe vyagiye biragenda, Abami n'intwaro bagiye bariyegereza ivyobikorwa vyoguhingura ivyo biceri  kugira bashobore gukwirikirana no gucungera ubutunzi bushikamye  , amakori be n'uburyo  bw'amahera. Akarorero ka menyekanye cane ni  **thaler**, ifeza ryambere  ryatanguye gukoreshwa  mu 1518 mu **kiyaya ca Joachimsthal** (ubu ni Jáchymov muri Repubulika ya Tchèque) n'abacukuzi b'amabuye y'agaciro hamwe nabatware bako karere.Iryo zina  "thaler" rivuye mururimi rwiki dage  "Thal " bisigura  "umwomga"
 
 
-Mu bihe vya none, amafaranga yaraciye yemererwa bimwe bishitse mu gihe c’ubutegetsi bwa seigniorage, ivyo bikaba bisobanura ko ibigo vyemewe vyonyene—nk’amabanki akomeye canke ububiko bw’amahera—ari vyo vyari gushobora gukora ibiceri canke gucapura amanoti y’amahera. Abantu ku giti cabo ntibakiri bemerewe n’amategeko gukora amafaranga, bikaba ari vyo bituma habaho ubugenzuzi bumwe ku bijanye n’ugusohora amafaranga n’ama Supply.
+Ivyo biceri , bizwi cane kuri kamere  yavyo yifeza , vyaraguye imbibe bitangura kuza birakoreshwa hirya nohino mubice vyiburayi . uko imyaka yagiye irahera niko amahera yagiye arahindura amazina bivanye nururimmi canke agace ayo mahera akoreshwamwo ,  nkakarorero aho ya fashe izina nka  "dollar" ,  yakoreshwa na reta zunze ubumwe z'Amerika nkifaranga mugihugu cabo. Mu bihe vya none, amahera yaciye  yemerwa bimwe vyuzuye mu gisata  c’ubuhinga  bwa seigniorage, ivyo bikaba bisigura  ko ibigo vyemewe vyonyene—nk’amabanki akomeye canke ububiko bw’amahera ari vyo vyari vyemerewe gucura ivyo biceri canke gukora ayo mahera (inoti ) . Abantu ku giti cabo ntibari bakicemerewe n’amategeko gukora amafaranga, bikaba ari vyo bituma habaho ubugenzuzi bumwe ku bijanye ni sohoka ry'amahera hamwe niyinjira yayo.
 
 
-Ubu, ingingo ngenderwako y’ubutegetsi (seigniorage) iriko irashirwako umukono n’amahera y’ibanga Bitcoin, akora ata n’umwe ayigenzura. Bitcoin ni uburyo "butagira uruhusha" aho umuntu wese ashobora kugira uruhara mu gukoresha amafaranga atasavye uruhusha, kandi, biciye muri Mining, mu kuyarema. Ukwo kwegereza ubutegetsi abaturage gukuraho uburenganzira bwo gutanga amafaranga kuri Leta, bikavyura ibibazo ku bijanye n’ugusubira mu buryo bw’amafaranga y’isoko ry’uburenganzira.
-
-
-
-- **Unit of Account**: Ifaranga rikwiye gutanga ingero rusangi yo kugereranya agaciro k'ibicuruzwa n'ibikorwa. Ivyo birorosha ubudandaji kandi bikaba bituma ibiciro bigaragara kandi bihuye mu bikorwa vyose.
+Ubu, ingingo ngenderwako y’ubutegetsi (seigniorage) iriko iratuma inegurwa kubera iri koreshwa ryamafaranga ngurukana bumenyi ya bitcoin , akora atakigo canke umuntu ari genzura (nkarorero Amabanki). Bitcoin ni uburyo "budasaba  uruhusha" aho umuntu wese ashobora kugira uruhara mu gukoresha amafaranga atasavye uruhusha, kandi, biciye muri Mining, canke mukuyakora . Ukwo kutagenzurwa kwa bitcoin  buraka ububasha inzego (reta ) bwogukora mahera kuburyo reta ishaka  , kuko vyovyura ibibazo ku bijanye nihangana ryama faranga  kw’isoko ry’uburenganzira(marché libre).
 
 
 
-- **Durable**: Ifaranga ritegerezwa guhangana n'ugusaza n'ugushaza uko igihe kigenda kirarenga. Amafaranga y'umubiri, nk'ibiceri canke amanoti, akwiye kunanira kwonona, mu gihe amafaranga y'ubuhinga bwa none ategerezwa kuguma abitswe neza ata ngorane yo gutakaza amakuru.
+- **Unit of Account**: Ifaranga rikwiye gutanga ingero rusangi yo kugereranya agaciro k'ibicuruzwa n'ibikorwa. Ivyo birorosha urudandazwa kandi bikaba bituma ibiciro biba bizwi biciye mumu muco  kandi bihuye mu bikorwa vyose.
 
 
 
-- **Ishobora gutwara**: Ifaranga ritegerezwa kuba ryoroshe gutwara no gukoresha, bikaba bishoboka ko umuntu ashobora gucuruza mu ntambwe zitandukanye. Ivyo bishobora gushikako biciye ku gutwara ibintu (ibiceri canke amanota yoroshe) canke uburyo bwo gutanga amakuru ku buryo bwa digitale.
+- **Rikomeye**: Ifaranga ritegerezwa kuba ritononekara vyoroshe bivuye kugihe rimaze,  nkakarorero kagaciro kibidandazwa canke umushahara . Amafaranga dushobora gukorakoa , nk'ibiceri canke amanoti, ategezwa kuba ato nonekara vyoroshe,  amafaranga y'ubuhinga bwa none nayo ategerezwa kuguma abitswe neza mumutekano ntangere kuburyo atangorane yo gutakaza ama données( gutakaza ayo mahera munuryo abikwamwo"données").
+
+
+
+- **Ishobora gutwarwa**: Ifaranga ritegerezwa kuba ryoroshe gutwara no gukoresha, kugira bishobore nokorohereza ingene umuntu ashobora kuyohereza mumihingo itandukanye ya kure na kure . Ivyo bishobora gushikakwo biciye ku gutwara ayo mahera muburyo bufadika (ibiceri canke amanoti yoroshe) canke uburyo  budafadika ukoresheje ubuhinga bwa none bwa  digitale( lumicash).
 
 
 

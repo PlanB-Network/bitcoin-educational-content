@@ -11,7 +11,7 @@ objectives:
 
 Bienvenue dans ce cours consacré à l'histoire de la création de Bitcoin ! En tant qu'utilisateur, il est possible que vous vous soyez demandé d'où vient l'outil dont vous vous servez. De plus, vous pouvez ne pas comprendre les références parfois faites aux personnes et aux évènements qui ont marqué la courte histoire de la cryptomonnaie. Enfin, étudier cette histoire vous permettra de mieux comprendre Bitcoin en tant que tel, en exposant le contexte qui a façonné sa lente formation.
 
-Dans ce cours, vous découvrirez le cheminement de sa conception, de son lancement et de sa construction économique initiale. Dans une première partie, nous nous intéresserons au contexte technique dans lequel le concept de Bitcoin a émergé. Dans une seconde partie, nous nous concentrerons sur sa naissance et sur son amorçage. Dans une troisième partie, nous étudierons la façon dont Bitcoin a pris en ampleur tant au niveau de l'utilisation économique, de la production minière et du développement logiciel. Finalement, nous nous contenterons de suivre comment Satoshi Nakamoto, le créateur de Bitcoin, a progressivement disparu et comment la communauté a pris le relai, faisant de la cryptomonnaie un projet réellement collectif.
+Dans ce cours, vous découvrirez le cheminement de sa conception, de son lancement et de sa construction économique initiale. Dans une première partie, nous nous intéresserons au contexte technique dans lequel le concept de Bitcoin a émergé. Dans une seconde partie, nous nous concentrerons sur sa naissance et sur son amorçage. Dans une troisième partie, nous étudierons la façon dont Bitcoin a pris en ampleur tant au niveau de l'utilisation économique, de la production minière et du développement logiciel. Dans une quatrième partie, nous nous contenterons de suivre comment Satoshi Nakamoto, le créateur de Bitcoin, a progressivement disparu et comment la communauté a pris le relai, faisant de la cryptomonnaie un projet réellement collectif.
 
 Ce cours est bien évidemment centré sur la figure de Satoshi Nakamoto dont vous découvrirez les paroles et les actions, mais il fait aussi intervenir d'autres personnages ayant participé au développement de Bitcoin durant ses premières années d'existence. Vous pourrez ainsi apprendre à connaître des individus comme Hal Finney, Martti Malmi, Laszlo Hanyecz, Gavin Andresen, Jeff Garzik ou encore Amir Taaki, qui ont été des pionniers essentiels à cette croissance. En espérant que cette plongée dans l'histoire des débuts de Bitcoin vous soit profitable !
 
@@ -379,7 +379,7 @@ Après sa publication sur la liste, b-money a attiré l'attention des cypherpunk
 
 ### bit gold : l'or numérique avant Bitcoin
 
-Le deuxième modèle à avoir émergé des idées des cypherpunks était l'idée de bit gold imaginée par Nick Szabo en 1998. Celui-ci était un informaticien américain d'origine hongroise, qui avait notamment travaillé pour comme consultant pour DigiCash pendant six mois. Cypherpunk est connu pour avoir formalisé la notion de *smart contract* en 1995.
+Le deuxième modèle à avoir émergé des idées des cypherpunks était l'idée de bit gold imaginée par Nick Szabo en 1998. Celui-ci était un informaticien américain d'origine hongroise, qui avait notamment travaillé pour comme consultant pour DigiCash pendant six mois. Cypherpunk, il est connu pour avoir formalisé la notion de *smart contract* en 1995.
 
 En 1994, Nick Szabo avait créé une liste de diffusion privée appelée libtech-l, qui avait pour but, comme son nom l'indique, d'héberger des discussions sur les techniques libératoires, permettant de protéger les libertés individuelles face aux assauts des autorités. Y avaient accès des cypherpunks comme Wei Dai et Hal Finney, ainsi que les économistes Larry White et George Selgin, partisans de la concurrence des monnaies hayekienne et de la banque libre.
 
@@ -614,7 +614,7 @@ Il s'agit du titre de la une du quotidien britannique *The Times* de ce jour-là
 
 À l'époque, le monde subit en effet de plein fouet les effets de la crise financière amorcée en 2007 par le dégonflement de la bulle des subprimes aux États-Unis. Les États renflouent les institutions financières pour éviter de nouvelles faillites après la chute de la banque d'investissement Lehman Brothers survenue le 15 septembre 2008, et les banques centrales procèdent à des assouplissements quantitatifs en injectant des liquidités sur les marchés financiers. Cette utilisation d'argent public créé pour l'occasion, a pour effet de troubler un certain nombre de citoyens qui réalisent que le système bancaire est en réalité un système de profits privés et de pertes socialisées.
 
-Bitcoin, quant à lui, ne repose pas sur un tiers de confiance, et n'est par conséquent pas soumis à l'arbitraire d'une banque centrale. Il contraste ainsi avec les monnaies étatiques, telles que le dollar ou l'euro, dont la quantité peut être modifiée arbitrairement par ceux qui contrôlent la création monétaire ; la politique monétaire de bitcoin est en effet programmée à l'avance, inscrite dans le protocole, pour en théorie ne jamais être altérée.
+Bitcoin, quant à lui, ne repose pas sur un tiers de confiance, et n'est par conséquent pas soumis à l'arbitraire d'une banque centrale. Il contraste ainsi avec les monnaies étatiques, telles que le dollar ou l'euro, dont la quantité peut être modifiée arbitrairement par ceux qui contrôlent la création monétaire ; la politique monétaire du bitcoin est en effet programmée à l'avance, inscrite dans le protocole, pour en théorie ne jamais être altérée.
 
 ### La limite des 21 millions
 
@@ -1345,7 +1345,7 @@ Satoshi Nakamoto, lui, ne s'y connecte jamais, si bien que la parole y est plus 
 
 Satoshi est en effet le meneur attitré du projet, soit ce qu'on appelle dans le monde du logiciel libre un « [dictateur bienveillant à vie](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life) ». Son rôle est d'assurer la stabilité du développement ouvert en prenant les décisions pour tout le monde, ce qui limite le risque de rébellion et de scission. Comme l'[explique](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-528) Gavin Andresen, il est le « gardien » : « tout le code passe par lui ».
 
-Le code source de Bitcoin reste cependant libre, de sorte que n'importe qui puisse le copier et le modifier, ce qui empêche l'évolution du protocole d'être complètement arbitraire. Tel que l'[exprime](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538) Jeff Garzik le 19 novembre :
+Le code source de Bitcoin reste cependant libre, de sorte que n'importe qui peut le copier et le modifier, ce qui empêche l'évolution du protocole d'être complètement arbitraire. Tel que l'[exprime](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538) Jeff Garzik le 19 novembre :
 
 > « \[S\]atoshi a sorti des chiffres magiques de son chapeau, et nous soutenons collectivement cette direction. \[...\] À la minute où Satoshi fera quelque chose de fou qui n'est pas soutenu par la communauté, il y aura un véritable embranchement du protocole / de la base de code. »
 

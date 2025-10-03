@@ -17,7 +17,7 @@ L’objectif n’est pas seulement de connaître les bonnes pratiques : il s’a
 
 Au fil des modules, vous découvrirez comment vérifier l’intégrité des logiciels que vous installez, chiffrer efficacement vos données, utiliser votre navigateur et votre téléphone avec un minimum de fuite de données, et renforcer la sécurité de votre réseau domestique.
 
-Ce cours s’adresse aux utilisateurs intermédiaires qui souhaitent aller plus loin dans la maîtrise de leurs outils numériques. Elle repose sur une approche pragmatique, orientée autonomie et souveraineté, afin de construire un usage quotidien plus sûr et plus conscient de l'informatique, dans l'esprit du "*Ne fais pas confiance, vérifie*".
+Ce cours s’adresse aux utilisateurs intermédiaires qui souhaitent aller plus loin dans la maîtrise de leurs outils numériques. Elle repose sur une approche pragmatique, orientée autonomie et souveraineté, afin de construire un usage quotidien plus sûr et plus conscient de l'informatique, dans l'esprit du "Don't Trust, Verify" (FR-*Ne fais pas confiance, vérifie*).
 
 +++
 

@@ -8282,16 +8282,24 @@ Oluline on valida kaasaegsed seadmed, mida tootja hooldab ja mis vastavad uuemat
 Wi-Fi 6, Wi-Fi 6E või Wi-Fi 7-ga ühilduv ruuter tagab parema kiiruse ja eelkõige kaasaegsete turvatehnoloogiate omamaise toetuse. Seevastu väga vanad seadmed, eriti need, mis ei saa enam tarkvarauuendusi, võivad sisaldada teadaolevaid, parandamata haavatavusi. Seega kujutavad need endast ohtu kogu teie võrgule, isegi kui te need õigesti seadistate. Võrreldes mobiiltelefonide või arvutitega on ruuterid seadmed, mida me kipume hoidma aastaid. Siiski võib olla hea mõte neid korrapäraselt välja vahetada, et saada kasu kaasaegsematest ja turvalisematest mudelitest.
 
 
+**Tähelepanu**: Üldise rusikareeglina võivad internetiteenuse pakkujate antud ruuteritel puududa olulised uuendamise funktsioonid ning isikupärastamise võimalused. Mõnel juhul võivad teenusepakkujad omada piiramatut juurdepääsu lõppkasutaja sisevõrgule.
+
 Seega veenduge, et uuendate süstemaatiliselt oma ruuteri püsivara. Need uuendused parandavad haavatavusi, lisavad uusi funktsioone ja parandavad süsteemi üldist stabiilsust. Mõned tootjad pakuvad automaatseid uuendusi, kuid mõnel juhul peate neid käsitsi kontrollima ruuteri Interface haldusvahendi kaudu. Nagu telefoni, arvuti, operatsioonisüsteemi ja tarkvara puhul, on oluline ka ruuterit regulaarselt uuendada. Võite teha sellest osa oma iganädalasest rutiinist - näiteks igal pühapäeval -, koostades nimekirja kõigist elementidest, mida peate kontrollima ja ajakohastama.
 
 
-Kui teie ruuterit enam ei hooldata, kuid see töötab riistvara seisukohast endiselt korrektselt, võite paigaldada alternatiivse avatud lähtekoodiga püsivara, nt:
+Võimalik on ka lubada automaatsed värskendused või vähemalt automaatne skannimine uute püsivara värskenduste jaoks, kui eelistate tegutseda käsitsi. Kuigi automaatse värskenduse funktsioon võib endiselt kujutada turvaohtu, avab ruuteri püsivara ebaõige regulaarne värskendamine teie kohalikku võrku avalikult teadaolevatele haavatavustele.
+
+**Näide**: Oma ruuteri ostmisel võib olla hea mõte otsida tööstusharus tuntud ettevõtteid, kes on turul routereid pakkunud juba kaua. Näiteks on Fritz!Boxi ruuteritel pikaajaline maine plug-and-play seadmetena, mis sobivad nii perekeskkonda kui ka väikestesse ettevõtetesse. Nende tarkvara värskenduspoliitika kestab tavaliselt mitu aastat.
+
+Kui teie ruuterit enam ei hooldata, kuid see töötab riistvaraliselt endiselt õigesti, võite olla võimeline installima alternatiivse avatud lähtekoodiga püsivara, nagu näiteks:
 
 
 
 - OpenWrt, marsruuteritele spetsialiseerunud Linuxi distributsioon, mis pakub suurt paindlikkust ja regulaarseid uuendusi
 - pfSense ja OPNsense, kaks FreeBSD-põhist (Unixi-sarnast) süsteemi x86 tulemüüridele ja ruuteritele
 
+
+**Märkus**: Mõned Interneti-teenuse pakkujad varustavad oma kliente hulgi-ruuteritega, mida valmistab üks ettevõte, mis samal ajal teenindab mitmeid erinevaid ISP-sid üle maailma. Võib juhtuda, et alternatiivse püsivara installimiseks ruuterisse on keegi teine juba avastanud, kuidas seda teha, isegi kui ta asub maailma teises otsas.
 
 ![Image](assets/fr/196.webp)
 

@@ -1,0 +1,9 @@
+question: 与 blkNNNN.dat 文件一起存储的 revNNNN.dat 文件有什么作用？
+answer: 恢复重组时设置的 UTXO
+wrong_answers:
+  - 恢复 Hard Fork 期间设置的 UTXO
+  - 在 Hard Fork 期间恢复 Mempool
+  - 在重组期间恢复 Mempool
+explanation: |
+  每份 revNNNN.dat 文件都包含撤销 UTXO 数据集上某个数据块的影响所需的数据，从而使重组管理更加容易。
+reviewed: true

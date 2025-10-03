@@ -8282,16 +8282,24 @@ Ważne jest, aby wybrać nowoczesny sprzęt, utrzymywany przez producenta i zgod
 Router zgodny z Wi-Fi 6, Wi-Fi 6E lub Wi-Fi 7 zapewnia lepsze prędkości, a przede wszystkim natywną obsługę nowoczesnych technologii bezpieczeństwa. Z drugiej strony, bardzo stare urządzenia, zwłaszcza te, które nie otrzymują już aktualizacji oprogramowania, mogą zawierać znane, niezałatane luki w zabezpieczeniach. Stanowią one zatem zagrożenie dla całej sieci, nawet jeśli zostały poprawnie skonfigurowane. W porównaniu z telefonami komórkowymi czy komputerami, routery są sprzętem, który zwykle przechowujemy przez wiele lat. Dobrym pomysłem może być jednak ich regularna wymiana, aby korzystać z nowocześniejszych i bezpieczniejszych modeli.
 
 
+**Uwaga**: Zasadniczo routery dostarczane przez dostawców usług internetowych mogą nie mieć podstawowej funkcji aktualizacji ani możliwości personalizacji. W niektórych przypadkach dostawcy mogą również mieć nieograniczony dostęp do wewnętrznej sieci użytkownika końcowego.
+
 Upewnij się więc, że systematycznie aktualizujesz oprogramowanie sprzętowe routera. Aktualizacje te usuwają luki w zabezpieczeniach, dodają nowe funkcje i zwiększają ogólną stabilność systemu. Niektórzy producenci oferują automatyczne aktualizacje, ale w niektórych przypadkach konieczne będzie ręczne sprawdzenie za pomocą narzędzia administracyjnego Interface routera. Podobnie jak w przypadku telefonu, komputera, systemu operacyjnego i oprogramowania, ważne jest, aby regularnie aktualizować router. Można to uczynić częścią cotygodniowej rutyny - na przykład w każdą niedzielę - sporządzając listę wszystkich elementów, które należy sprawdzić i aktualizować.
 
 
-Jeśli twój router nie jest już obsługiwany, ale nadal działa poprawnie z punktu widzenia sprzętu, możesz zainstalować alternatywne oprogramowanie układowe typu open source, takie jak:
+Alternatywnie możesz włączyć automatyczne aktualizacje lub przynajmniej automatyczne skanowanie w poszukiwaniu nowych aktualizacji oprogramowania układowego, jeśli wolisz działać ręcznie. Chociaż funkcja automatycznych aktualizacji nadal może stanowić zagrożenie bezpieczeństwa, nieaktualizowanie regularnie oprogramowania układowego routera narazi Twoją sieć lokalną na publicznie znane podatności.
+
+**Przykład**: Przy zakupie własnego routera warto rozważyć poszukiwanie ugruntowanych firm w branży, które od dawna dostarczają routery na rynek. Na przykład routery Fritz!Box mają długą reputację jako urządzenia typu plug-and-play, odpowiednie zarówno do użytku domowego, jak i w małych firmach. Ich polityka aktualizacji oprogramowania zwykle obowiązuje przez kilka lat.
+
+Jeśli Twój router nie jest już utrzymywany, ale nadal działa poprawnie pod względem sprzętowym, możesz być w stanie zainstalować alternatywne otwarte oprogramowanie układowe, takie jak:
 
 
 
 - OpenWrt, dystrybucja Linuksa specjalizująca się w routerach, oferująca dużą elastyczność i regularne aktualizacje
 - pfSense i OPNsense, dwa systemy oparte na FreeBSD (uniksopodobne) dla firewalli i routerów x86
 
+
+**Uwaga**: Niektórzy dostawcy usług internetowych dostarczają swoim klientom hurtowe routery produkowane przez jedną firmę, która jednocześnie obsługuje wielu różnych ISP na całym świecie. Możesz odkryć, że aby zainstalować jedno z alternatywnych oprogramowań sprzętowych na routerze, ktoś inny mógł już odkryć, jak to zrobić, nawet jeśli znajduje się po drugiej stronie świata.
 
 ![Image](assets/fr/196.webp)
 

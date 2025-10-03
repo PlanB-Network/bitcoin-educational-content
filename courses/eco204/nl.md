@@ -715,20 +715,20 @@ Deze reflectie leidt ertoe dat we vraagtekens zetten bij de starheid van de trad
 
 Dus, hoeveel gevallen van hyperinflatie zijn er in totaal?
 
-Gangbare definities van hyperinflatie, zoals die van Kagan die uitgaat van een maandelijkse inflatie van 50%, kunnen soms verwarrend of te simpel zijn. Twee landen met een jaarlijkse inflatie van respectievelijk 1000% en 3000% kunnen bijvoorbeeld anders worden gezien, afhankelijk van de maandelijkse verdeling van deze inflatie. Als geen enkele maand de drempel van 50% overschrijdt, volgens de definitie van Kagan, zouden deze landen niet in een staat van hyperinflatie verkeren. Deze benadering kan daarom leiden tot anomalieën in de classificatie van hyperinflatie, vooral bij het vergelijken van cumulatieve inflaties over het jaar.
+Gangbare definities van hyperinflatie, zoals die van Cagan die uitgaat van een maandelijkse inflatie van 50%, kunnen soms verwarrend of te simpel zijn. Twee landen met een jaarlijkse inflatie van respectievelijk 1000% en 3000% kunnen bijvoorbeeld anders worden gezien, afhankelijk van de maandelijkse verdeling van deze inflatie. Als geen enkele maand de drempel van 50% overschrijdt, volgens de definitie van Cagan, zouden deze landen niet in een staat van hyperinflatie verkeren. Deze benadering kan daarom leiden tot anomalieën in de classificatie van hyperinflatie, vooral bij het vergelijken van cumulatieve inflaties over het jaar.
 
 
 ![image](assets/fr/038.webp)
 
 
 
-- Kagans werk "Monetary Dynamics of Hyperinflation", dat een fundamentele analyse van hyperinflatie geeft.
-- Bernolds boek, dat 30 verschillende perioden van hyperinflatie bestudeert, waardoor de reikwijdte van de analyse wordt vergroot.
+- Cagans werk "Monetary Dynamics of Hyperinflation", dat een fundamentele analyse van hyperinflatie geeft.
+- Bernholzs boek, dat 30 verschillende perioden van hyperinflatie bestudeert, waardoor de reikwijdte van de analyse wordt vergroot.
 - Davids persoonlijke verzameling bankbiljetten uit 36 periodes van hyperinflatie, waardoor een tastbaar en historisch begrip ontstaat.
-- De Hanky Cross tabel (versie 2012, bijgewerkt in 2016 met Venezuela), met 57 periodes van hyperinflatie volgens de definitie van Kagan.
+- De Hanky Cross tabel (versie 2012, bijgewerkt in 2016 met Venezuela), met 57 periodes van hyperinflatie volgens de definitie van Cagan.
 
 
-Opgemerkt moet worden dat bepaalde historische perioden van hoge inflatie niet zijn opgenomen in de klassieke tabellen van hyperinflatie, vaak vanwege strenge indelingscriteria. Bijvoorbeeld, tijdens de Amerikaanse Onafhankelijkheidsoorlog in november 1779 en tijdens de Amerikaanse Burgeroorlog in maart 1864 was de maandelijkse inflatie respectievelijk 47,4% en 40%. Hoewel deze percentages hoog zijn, overschrijden ze de door Kagan gestelde drempel van 50% niet, waardoor deze periodes niet worden geclassificeerd als hyperinflatie. Deze omissie illustreert de beperkingen van rigide definities en benadrukt de noodzaak van een meer genuanceerde benadering om hyperinflatie in al zijn complexiteit te begrijpen.
+Opgemerkt moet worden dat bepaalde historische perioden van hoge inflatie niet zijn opgenomen in de klassieke tabellen van hyperinflatie, vaak vanwege strenge indelingscriteria. Bijvoorbeeld, tijdens de Amerikaanse Onafhankelijkheidsoorlog in november 1779 en tijdens de Amerikaanse Burgeroorlog in maart 1864 was de maandelijkse inflatie respectievelijk 47,4% en 40%. Hoewel deze percentages hoog zijn, overschrijden ze de door Cagan gestelde drempel van 50% niet, waardoor deze periodes niet worden geclassificeerd als hyperinflatie. Deze omissie illustreert de beperkingen van rigide definities en benadrukt de noodzaak van een meer genuanceerde benadering om hyperinflatie in al zijn complexiteit te begrijpen.
 
 
 ## Weimar vs. Zimbabwe overeenkomsten
@@ -1128,7 +1128,7 @@ Op de dia staan links de jaren van redenominatie, de naam van de nieuwe valuta e
 ![image](assets/fr/052.webp)
 
 
-Aan de rechterkant van de dia staat een grafiek van de inflatie. De rode pijlen staan voor jaren van hyperinflatie, gedefinieerd volgens Kagans criterium als een inflatie van 50% per maand. Dit criterium kan soms leiden tot dubbelzinnige interpretaties, waarbij jaren met hoge inflatiecijfers niet voldoen aan de strikte definitie van hyperinflatie.
+Aan de rechterkant van de dia staat een grafiek van de inflatie. De rode pijlen staan voor jaren van hyperinflatie, gedefinieerd volgens Cagans criterium als een inflatie van 50% per maand. Dit criterium kan soms leiden tot dubbelzinnige interpretaties, waarbij jaren met hoge inflatiecijfers niet voldoen aan de strikte definitie van hyperinflatie.
 
 Opgemerkt moet worden dat redenominatie, tijdens perioden van inflatie, een gebruikelijke maatregel is die door overheden wordt genomen. Dit lost het onderliggende probleem van inflatie of hyperinflatie echter niet op. Het is slechts een manier om de munteenheid een andere naam te geven en nullen te verwijderen, zonder echt de hoofdoorzaak van hyperinflatie aan te pakken: de expansie van het geld Supply. In een latere video zullen we de echte oplossingen voor Address bespreken en het probleem van hyperinflatie oplossen. In deze serie belichten we de gevolgen van een eenvoudige redenominatie zonder adequate hervormingen: de inflatie houdt aan.
 
@@ -1277,7 +1277,7 @@ Tot slot is hyperinflatie slechts één aspect van economische uitdagingen. Hoge
 ### Hoe een einde maken aan gematigde en hoge inflatie
 
 
-De genoemde conclusies komen uit het boek "Monetary Regime and Inflation" van Bernold. Volgens Bernold is de enige methode om een einde te maken aan inflatie het doorvoeren van een monetaire hervorming en het opleggen van beperkingen aan de overheid. Deze beperkingen omvatten de oprichting van een instelling, zoals een centrale bank, die onafhankelijk van de politieke beslissingen van de regering opereert. Hoge en hyperinflatie zijn vaak het gevolg van het financieren van begrotingstekorten door monetaire creatie. Om de Address inflatie te matigen, is het essentieel om de groei van het geld Supply te verminderen. Bernold suggereert ook dat deze monetaire groei relatief moet zijn ten opzichte van de buurlanden. Een verrassend punt is dat in perioden van hoge of hyperinflatie, de totale waarde van het geld Supply juist kan afnemen. Een treffend voorbeeld van deze situatie is Zimbabwe.
+De genoemde conclusies komen uit het boek "Monetary Regime and Inflation" van Bernholz. Volgens Bernholz is de enige methode om een einde te maken aan inflatie het doorvoeren van een monetaire hervorming en het opleggen van beperkingen aan de overheid. Deze beperkingen omvatten de oprichting van een instelling, zoals een centrale bank, die onafhankelijk van de politieke beslissingen van de regering opereert. Hoge en hyperinflatie zijn vaak het gevolg van het financieren van begrotingstekorten door monetaire creatie. Om de Address inflatie te matigen, is het essentieel om de groei van het geld Supply te verminderen. Bernholz suggereert ook dat deze monetaire groei relatief moet zijn ten opzichte van de buurlanden. Een verrassend punt is dat in perioden van hoge of hyperinflatie, de totale waarde van het geld Supply juist kan afnemen. Een treffend voorbeeld van deze situatie is Zimbabwe.
 
 
 ### Contra-intuïtieve oplossingen
@@ -1286,10 +1286,10 @@ De genoemde conclusies komen uit het boek "Monetary Regime and Inflation" van Be
 Bij het bestuderen van Zimbabwe viel het op dat 10 biljoen eenheden van het geld Supply al hun waarde hadden verloren. In Weimar was het mogelijk om twee derde van de totale nominale waarde van 65 miljard eenheden van het geld Supply in één dag te drukken. Dit laat zien hoe het geld Supply gedevalueerd kan worden. Om deze situatie te verhelpen, is het noodzakelijk om het geld Supply aanzienlijk te verhogen om een passend niveau te bereiken. Dan is een monetaire hervorming onontbeerlijk. In een situatie van hoge inflatie is deze hervorming onvermijdelijk, maar ze moet ervoor zorgen dat er genoeg geld in omloop is. Na deze stap kunnen beperkingen worden opgelegd aan de overheid.
 
 
-Volgens Bernolds observaties volgen instellingen als het IMF en de Wereldbank niet altijd de juiste strategie bij het oplossen van inflatieproblemen. In sommige gevallen, wanneer een land zijn geld Supply moet verhogen, proberen deze instellingen het te verlagen. De sleutel is om een adequaat monetair niveau te bereiken en vervolgens grenzen te stellen aan de groei ervan, om zo te voorkomen dat overheidsuitgaven worden gefinancierd door monetaire creatie.
+Volgens Bernholzs observaties volgen instellingen als het IMF en de Wereldbank niet altijd de juiste strategie bij het oplossen van inflatieproblemen. In sommige gevallen, wanneer een land zijn geld Supply moet verhogen, proberen deze instellingen het te verlagen. De sleutel is om een adequaat monetair niveau te bereiken en vervolgens grenzen te stellen aan de groei ervan, om zo te voorkomen dat overheidsuitgaven worden gefinancierd door monetaire creatie.
 
 
-Een interessant aspect dat Bernold naar voren brengt, is dat het succes van een monetaire hervorming niet alleen afhangt van de technische relevantie, maar ook van het vertrouwen dat de bevolking erin heeft. Sommige goed ontworpen hervormingen kunnen mislukken omdat de bevolking er geen vertrouwen in heeft, terwijl andere, slecht ontworpen hervormingen kunnen slagen omdat de bevolking er wel vertrouwen in heeft. Perceptie en vertrouwen van het publiek zijn daarom essentiële Elements factoren voor het slagen of mislukken van een monetaire hervorming.
+Een interessant aspect dat Bernholz naar voren brengt, is dat het succes van een monetaire hervorming niet alleen afhangt van de technische relevantie, maar ook van het vertrouwen dat de bevolking erin heeft. Sommige goed ontworpen hervormingen kunnen mislukken omdat de bevolking er geen vertrouwen in heeft, terwijl andere, slecht ontworpen hervormingen kunnen slagen omdat de bevolking er wel vertrouwen in heeft. Perceptie en vertrouwen van het publiek zijn daarom essentiële Elements factoren voor het slagen of mislukken van een monetaire hervorming.
 
 
 

@@ -1,9 +1,9 @@
 question: Je, ni faida gani ya malipo ya Lightning Network kwa wafanyabiashara katika eneo la mauzo?
-answer: Malipo ya umeme hutulia karibu mara moja na hauhitaji wasuluhishi wengi, kupunguza ada na ucheleweshaji wa malipo.
+answer: Malipo ya Lightning hutulia karibu mara moja na hauhitaji wasuluhishi wengi, kupunguza ada na ucheleweshaji wa malipo.
 wrong_answers:
-  - Malipo ya umeme yanahitaji wiki ili kuthibitisha na kuhitaji karatasi nzito.
-  - Malipo ya umeme hutokea tu ikiwa yameidhinishwa na mamlaka ya benki kuu.
-  - Malipo ya umeme yanaweza kubadilishwa kwa mapenzi na mnunuzi baada ya kuuza.
+  - Malipo ya Lightning yanahitaji wiki ili kuthibitisha na kuhitaji karatasi nzito.
+  - Malipo ya Lightning hutokea tu ikiwa yameidhinishwa na mamlaka ya benki kuu.
+  - Malipo ya Lightning yanaweza kubadilishwa kwa mapenzi na mnunuzi baada ya kuuza.
 explanation: |
   Lightning Network hufanya miamala haraka na kwa bei nafuu kwa kuruhusu utatuzi wa off-chain. Wafanyabiashara wanaweza kupokea fedha karibu papo hapo, kwa ada ndogo, na bila kutegemea wapatanishi wa jadi wa malipo.
-reviewed: false
+reviewed: true

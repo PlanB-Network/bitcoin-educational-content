@@ -1,0 +1,9 @@
+question: 在 2023 年 Bitcoin core 的主要维护者角色被取消之前，谁是最后一位维护者？
+answer: 弗拉基米尔-J.-范德兰
+wrong_answers:
+  - 加文-安德烈森
+  - Pieter Wuille
+  - Satoshi 中本
+explanation: |
+  弗拉迪米尔-J-范德兰（Wladimir J. Van Der Laan）于 2014 年至 2023 年接替加文-安德烈森（Gavin Andresen），并在该职务终止之前担任这一职务。
+reviewed: true

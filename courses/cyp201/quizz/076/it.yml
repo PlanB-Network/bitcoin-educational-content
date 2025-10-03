@@ -1,4 +1,4 @@
-A cosa corrisponde la notazione **/<0;1>/** in un descriptor?
+question: A cosa corrisponde la notazione /<0;1>/* in un descriptor?
 answer: Alla chain esterna e interna con derivazione sequenziale
 wrong_answers:
   - A un indirizzo multisig ordinato

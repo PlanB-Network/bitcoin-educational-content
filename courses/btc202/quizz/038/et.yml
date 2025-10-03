@@ -1,0 +1,9 @@
+question: Miks ei soovitata Bitcoin-sõlme jaoks kõvaketast?
+answer: Kuna see aeglustab oluliselt IBD ja üldist kasutamist
+wrong_answers:
+  - Kuna see ei saa salvestada Blockchain faile
+  - Kuna see tarbib liiga vähe energiat ja võib plahvatada
+  - Kuna see ei ühildu Bitcoin corega
+explanation: |
+  Mehhaanilised kettad piiravad jõudlust, pikendavad oluliselt IBD-d ja kuluvad kiiresti sõlme koormuse all.
+reviewed: true

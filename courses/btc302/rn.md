@@ -82,7 +82,7 @@ Birumvikana ko iyo nkura ihambaye ifitaniye isano cane n’ibi:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/rn/001.webp)
 
 
 
@@ -227,7 +227,7 @@ Mu kwubaka "ibihome" vya mbere vy'ejo, **imiryango ya Bitcoin kw'isi yose irakor
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/rn/002.webp)
 
 
 
@@ -252,7 +252,7 @@ Amakoraniro aratanga ubumenyi bw’umuntu ku giti ciwe kandi bumuha ikaze kuruta
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/rn/003.webp)
 
 
 Amakoraniro ya Bitcoin arashobora gukora vyinshi:
@@ -314,7 +314,7 @@ Ushobora kuraba [btcmap.org](https://btcmap.org/imiryango/ikarita#0/0/0/), irimw
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/rn/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Bivanye n’ibintu (ibiganiro vy’ubuhinga canke amahugurwa y’ibikorwa), vyos
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/rn/005.webp)
 
 
 
@@ -516,7 +516,7 @@ Kugira ngo mbahe ivyiyumviro, ng’izi ingero nke z’ibimenyetso vy’umuryango
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/rn/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Kugira ngo mbahe ivyiyumviro, ng’izi ingero nke z’ibimenyetso vy’umuryango
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/rn/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Kugira ngo mbahe ivyiyumviro, ng’izi ingero nke z’ibimenyetso vy’umuryango
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/rn/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Kugira ngo mbahe ivyiyumviro, ng’izi ingero nke z’ibimenyetso vy’umuryango
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/rn/009.webp)
 
 
 
@@ -615,7 +615,7 @@ Aha niho hari ibigereranyo vya Canva vyiteguye ushobora kwisubiriza no kubihuza 
 - Igishushanyo c'itangazo ry'inama (ku mbuga ngurukanabumenyi no gucapura A4/A3): [ihuza](ihuriro)
 
 
-![image](assets/fr/010.webp)
+![image](assets/rn/010.webp)
 
 
 
@@ -637,7 +637,7 @@ Aha niho hari ibigereranyo vya Canva vyiteguye ushobora kwisubiriza no kubihuza 
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/rn/011.webp)
 
 
 
@@ -659,10 +659,10 @@ Aha niho hari ibigereranyo vya Canva vyiteguye ushobora kwisubiriza no kubihuza 
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/rn/012.webp)
 
 
-![image](assets/fr/013.webp)
+![image](assets/rn/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Niba ushaka guhingura ikimenyetso c'imbere c'ihuriro rya "Bitcoin London", ushob
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/rn/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Niba ibisubizo bine vyambere bidashoboka bihagije, nutunganye ivyo wasavye:
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/rn/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Kugira ngo uboneke neza, nk'ivyo gufatanya:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/rn/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Nk’akarorero, imiryango y’Abasuwisi ikoresha cane cane Telegram, Twitter, n�
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/rn/017.webp)
 
 
 
@@ -901,7 +901,7 @@ Nkako, **umurongo wa Telegram ni nk’igikoresho co gutangaza amakuru mu buryo b
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/rn/018.webp)
 
 
 
@@ -925,7 +925,7 @@ Ku rundi ruhande, **Ishirahamwe rya Telegram ni ryiza cane ku mibano**: Nka kury
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/rn/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Impanuro: Nuhuze ingingo zawe n’ivyo abantu bo mu kibano cawe bakeneye. Akaror
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/rn/020.webp)
 
 
 Zirikana ko **ama supergroups ya Telegram ashobora kuba ateye akaga gatoyi ku banywanyi bamwebamwe gukoresha**. Nk’akarorero, si bose bazi **ingene boronka ingingo zitandukanye** (bakeneye gusa gukora ku kimenyetso c’umugwi mu rutonde rwa Telegram kugira ngo babone urutonde rw’ingingo zose). Kurungika ifoto yihuta birashobora gufasha gukuraho urujijo urwo ari rwo rwose.
@@ -1053,7 +1053,7 @@ Ni vyiza cane **kwandika insobanuro itomoye y'ihuriro ryawe** igihe urema umugwi
 
 > Raba izindi mbuga zacu zo guhanahana amakuru: [LINK] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/rn/021.webp)
 
 
 
@@ -1106,7 +1106,7 @@ Ukoresheje **bot [@Itsinda ry'Ifashanyo](https://telegram.me/itsinda ry'Ifashany
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/rn/022.webp)
 
 
 
@@ -1232,7 +1232,7 @@ Ivyo nivyo umugwi wa FREE Madeira wakoze.
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/rn/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ Twitter yoroshe cane gukoresha, kandi kugira ngo utere imbere mu buzima bwite bw
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/rn/024.webp)
 
 
 
@@ -1328,7 +1328,7 @@ Ikindi, **ushobora gushiramwo tweet canke urudodo ku rubuga rwawe rwa Twitter ku
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/rn/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Ivyo kurya vy’i **Cercle du Coin** ni akandi karorero keza.
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/rn/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ Ivyo birimwo:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/rn/027.webp)
 
 
 Ibindi bibanza na vyo nyene birashobora gutuma urushiriza kugaragara. **[Meetup](https://www.meetup.com/)** ni kimwe murivyo, kandi ni urubuga (n’iporogarama yo kuri telefone) aho ushobora gukora umusi mukuru ugasanga n’abandi bari hafi.
@@ -1476,7 +1476,7 @@ Igikorwa kimeze nk'iki kiragufasha, ku rugero rwawe, **gukora ubutumwa bujanye n
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/rn/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ Aho gutora itariki wewe nyene, akenshi ni vyiza **gukora ubushakashatsi nk’imi
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/rn/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Igihe ihuriro ryanyu ririko riratangura, kenshi si co gihe ciza co gutanga ikiga
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/rn/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ Mu gihe ca mbere, naho nyene umuntu wese azirikana ivyo akunda, intumbero itomoy
 Mu gihe ca kabiri, ikintu ca kabiri co mu kwezi coshobora gushikirizwa insiguro yihariye, nk’ibiganiro vy’intango canke amahugurwa (Mining, Umuravyo, gushiramwo amanode, n’ibindi).
 
 
-![image](assets/fr/031.webp)
+![image](assets/rn/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ Vyongeye, ng’ibi ingingo zitatu zihambaye umuntu akwiye kuguma yibuka:
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/rn/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Baza aho uzokwakira uwo muhango maze uwubike ku mubare w’abantu ugereranywa.
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/rn/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Ehe ico wokora:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/rn/034.webp)
 
 
 
@@ -1762,7 +1762,7 @@ Kugira ngo umenye neza ko umuntu wese yumva ko ari mu birori vyawe, niwibande ku
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/rn/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ Urufunguruzo ni ukubimenya gusa.
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/rn/036.webp)
 
 
 
@@ -1905,7 +1905,7 @@ Bivanye n’uko ufise n’urugero rw’uruhara rwawe mu kibano cawe, urashobora 
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/rn/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Imbere yo gusaba, nuzirikane izi mpanuro:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/rn/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Niba ufise ishirahamwe kandi ushaka gushiramwo igice c’amahera yawe mu bikores
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/rn/039.webp)
 
 
 Kugira ngo dushigikire ibidukikije, **[umunyamakuru Consensus Network](https://konsensus.network/) waramaze guha amakoraniro mpuzamakungu ya Bitcoin n’imiryango igiciro c’ibitabu vyayo vyose kuva mu mpera z’umwaka w’2023, ku bijanye n’ugusaba ibitabu bitatu canke birenze**.
@@ -1997,7 +1997,7 @@ Aha niho akarorero k'inkomoko yuguruye ushobora gukoresha no guhindura:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/rn/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Akarorero kamwe ni [igitabu c'inkomoko yuzuye] (https://profedustream.substack.c
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/rn/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/rn/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ Mu Bufaransa no mu bindi bihugu bikeyi, hariho kandi "amasandugu y'ibitabu", utu
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/rn/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/rn/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Ehe [agatabu kashizwe mu masanduku y’ibitabu menshi cane mu gihugu cose. Igish
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/rn/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/rn/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Bamwe mu bacuruzi ba bitcoiners mbere barafashe ingingo yo guhindura neza ijambo
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/rn/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Akarorero kamwe ni [StreetCyberArt](https://twitter.com/streetcyber_art), umudag
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/rn/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Zirikana kandi yuko gucapura ivyo bimenyetso ku mashini y’umuntu ku giti ciwe 
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/rn/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Niba ushaka gusaba amakarita arenga 50 ya NFC, urashobora guhamagara iyo sosiyet
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/rn/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Uko uhisemwo kwose, nushireho amashusho yihariye kugira ngo umurongo wawe ukwege
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/rn/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Ivyitegererezo vyinshi vy’ibimenyetso bikoreshwa n’ishirahamwe Bitcoin Lille
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/rn/052.webp)
 
 
 
@@ -2400,7 +2400,7 @@ Ivyo bivuzwe, iki si igikorwa gisanzwe: gisaba ikintu kivyurirwa umutima, utwigo
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/rn/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Naho ari ukwo, birabereye kugerageza cane cane amasendika n’amashirahamwe y’
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/rn/054.webp)
 
 
 
@@ -2450,7 +2450,7 @@ Umucuruzi wese ni uwundi, kandi kubashira mu bwato biza n’ingorane zavyo:
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/rn/055.webp)
 
 
 
@@ -2500,7 +2500,7 @@ Bamaze kwinjira mu bwato:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/rn/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Menya, ibibazo bibazwa n’abamenyeshamakuru birashobora kuba uruyeri. Amajambo 
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/rn/057.webp)
 
 
 
@@ -2613,7 +2613,7 @@ Akarorero keza ni **[Igitabo c'amategeko ca Bitcoin ca Lille](https://bitcoinlil
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/rn/058.webp)
 
 
 
@@ -2700,7 +2700,7 @@ Koresha **ibikoresho vyo guhanahana amakuru bifise amakuru canke bitazwi** kugir
 Ku wa 5 Ndamukiza 1933, Franklin Roosevelt, Prezida wa 32 wa Leta Zunze Ubumwe za Amerika, yarasinye **Itegeko ry’Igihugu 6102**, rituma abantu ku giti cabo badashobora kugira ibiceri vy’inzahabu, ibiceri vy’agaciro canke ivyemezo aho hose mu gihugu.
 
 
-![image](assets/fr/059.webp)
+![image](assets/rn/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ Ntidukwiye kugwa mu vyiyumviro vy’umugambi mubisha. Ariko ntaco kitubuza kwite
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/rn/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Kubera ko umwanya wacu ari muto, ikintu nyamukuru ni ukuguma twicishije bugufi, 
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/rn/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ Ahubwo, **rondera imfashanyo ku ba bitcoiners bamaze kugenda mu nzira imwe, bato
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/rn/062.webp)
 
 
 
@@ -2897,7 +2897,7 @@ Ku bw’ivyo, tuzokoresha ubumenyi bw’imiryango yamaze kwiremera ibirori vyayo
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/rn/063.webp)
 
 
 

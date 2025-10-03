@@ -16,13 +16,13 @@ proofreading:
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 1
+    reward: 0.51
   - language: it
     last_contribution_date: 2025-08-03
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 1
+    reward: 0.51
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -133,6 +133,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.63
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.32
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.93
 tags:
   - regulation
   - business

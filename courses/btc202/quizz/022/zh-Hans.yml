@@ -1,0 +1,9 @@
+question: 根据渗流理论，超过临界阈值能确保什么？
+answer: 交易在整个网络中传播
+wrong_answers:
+  - 立即创建新区块
+  - 节点自动抑制成本
+  - 网络阻止交易
+explanation: |
+  一旦超过渗滤阈值，交易几乎会瞬间传播到整个 Bitcoin 网络。
+reviewed: true

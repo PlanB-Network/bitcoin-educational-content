@@ -1,0 +1,9 @@
+question: 如果區塊違反共識規則，會發生什麼情況？
+answer: 它會立即被節點拒絕
+wrong_answers:
+  - 儲存於 Mempool 等待驗證
+  - 它只由接受其他規則的節點中繼
+  - 它僅由錢包驗證
+explanation: |
+  節點有系統地拒絕任何不符合共識規則的區塊。
+reviewed: true

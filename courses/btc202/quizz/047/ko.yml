@@ -1,0 +1,9 @@
+question: 엄브렐 계정을 만들 때 어떤 보안 조치를 강력히 권장하나요?
+answer: 2FA 활성화
+wrong_answers:
+  - 비밀번호 비활성화
+  - PIN 코드 사용
+  - 모든 연결 비활성화
+explanation: |
+  2FA는 추가적인 보호 기능을 제공하며 특히 라이트닝 노드나 민감한 셀프 호스팅을 사용하는 경우 적극 권장합니다.
+reviewed: true

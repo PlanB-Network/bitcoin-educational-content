@@ -20,7 +20,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 0
+    reward: 1.35
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -136,3 +136,13 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 4.43
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.56
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.3

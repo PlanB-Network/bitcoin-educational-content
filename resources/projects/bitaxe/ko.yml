@@ -1,0 +1,3 @@
+description: |
+  BitAxe는 인기 있는 Antminer S19의 칩과 같이 용도가 변경된 ASIC 칩을 사용하여 저렴한 비용으로 Bitcoin Mining를 실험하도록 설계된 오픈 소스 프로젝트입니다. 채굴자의 요구에 맞춘 여러 모델을 제공하며 최대 3.3 TH/s의 성능을 제공합니다. NerdMiner와 같은 교육용 도구와 달리 BitAxe는 접근성과 구성이 가능한 상태에서 Mining 풀에서 generate 일반 Bitcoin 보상에 참여할 수 있습니다. Mining를 탐색하고자 하는 매니아에게 이상적인 도구입니다.
+  

@@ -1,0 +1,9 @@
+question: Je pojem "strojová zvířata" přisuzován?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Koncept strojových zvířat je připisován Descartovi. Podle této teorie jsou zvířata složité automaty bez duše a vědomí, fungující pouze na mechanických principech.
+reviewed: false

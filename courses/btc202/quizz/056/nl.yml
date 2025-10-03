@@ -1,0 +1,9 @@
+question: Wat is de makkelijkste manier om een mobiele Wallet aan te sluiten op Electrs via Umbrel?
+answer: Scan de Tor QR code
+wrong_answers:
+  - Een cookiebestand downloaden
+  - Particuliere sleutel importeren
+  - Kopieer het Wallet.dat-bestand
+explanation: |
+  Met Umbrel kun je direct de Tor QR-code scannen die door Electrs wordt geleverd om je mobiele verbinding te configureren.
+reviewed: true

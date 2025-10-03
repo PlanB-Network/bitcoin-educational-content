@@ -1,0 +1,9 @@
+question: Langkah-langkah keamanan apa yang sangat disarankan saat membuat akun Umbrel?
+answer: Mengaktifkan 2FA
+wrong_answers:
+  - Nonaktifkan kata sandi
+  - Menggunakan kode PIN
+  - Menonaktifkan semua koneksi
+explanation: |
+  2FA menambahkan perlindungan ekstra dan sangat direkomendasikan, terutama ketika menggunakan simpul Lightning atau hosting mandiri yang sensitif.
+reviewed: true

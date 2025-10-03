@@ -82,7 +82,7 @@ Ukuaji huu muhimu, bila shaka, unahusishwa kwa karibu na:
 
 
 
-![image](assets/fr/001.webp)
+![image](assets/sw/001.webp)
 
 
 
@@ -227,7 +227,7 @@ Kwa kujenga "ngome" za kwanza za kesho, **Jumuiya za Bitcoin ulimwenguni pote hu
 
 
 
-![image](assets/fr/002.webp)
+![image](assets/sw/002.webp)
 
 
 
@@ -252,7 +252,7 @@ Mikutano hutoa hali ya kibinafsi na ya kukaribisha zaidi kuliko simu za sauti au
 
 
 
-![image](assets/fr/003.webp)
+![image](assets/sw/003.webp)
 
 
 Mikutano ya Bitcoin inaweza kutumika kwa madhumuni mengi:
@@ -314,7 +314,7 @@ Unaweza kuangalia [btcmap.org](https://btcmap.org/communities/map#0/0/0/), ambay
 
 
 
-![image](assets/fr/004.webp)
+![image](assets/sw/004.webp)
 
 
 
@@ -395,7 +395,7 @@ Kulingana na mada (mazungumzo ya kiufundi au warsha za kushughulikia), inaweza h
 
 
 
-![image](assets/fr/005.webp)
+![image](assets/sw/005.webp)
 
 
 
@@ -516,7 +516,7 @@ Ili kukupa mawazo, hapa kuna mifano michache ya nembo za jumuiya ya Kifaransa:
 
 
 
-![image](assets/fr/006.webp)
+![image](assets/sw/006.webp)
 
 
 
@@ -526,7 +526,7 @@ Ili kukupa mawazo, hapa kuna mifano michache ya nembo za jumuiya ya Kifaransa:
 
 
 
-![image](assets/fr/007.webp)
+![image](assets/sw/007.webp)
 
 
 
@@ -536,7 +536,7 @@ Ili kukupa mawazo, hapa kuna mifano michache ya nembo za jumuiya ya Kifaransa:
 
 
 
-![image](assets/fr/008.webp)
+![image](assets/sw/008.webp)
 
 
 
@@ -546,7 +546,7 @@ Ili kukupa mawazo, hapa kuna mifano michache ya nembo za jumuiya ya Kifaransa:
 
 
 
-![image](assets/fr/009.webp)
+![image](assets/sw/009.webp)
 
 
 
@@ -615,7 +615,7 @@ Hapa kuna violezo vya Canva vilivyotengenezwa tayari unaweza kunakili na kurekeb
 - **Bango la tangazo la kukutana** (kwa mitandao ya kijamii na uchapishaji wa A4/A3): [kiungo](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
-![image](assets/fr/010.webp)
+![image](assets/sw/010.webp)
 
 
 
@@ -637,7 +637,7 @@ Hapa kuna violezo vya Canva vilivyotengenezwa tayari unaweza kunakili na kurekeb
 
 
 
-![image](assets/fr/011.webp)
+![image](assets/sw/011.webp)
 
 
 
@@ -659,10 +659,10 @@ Hapa kuna violezo vya Canva vilivyotengenezwa tayari unaweza kunakili na kurekeb
 
 
 
-![image](assets/fr/012.webp)
+![image](assets/sw/012.webp)
 
 
-![image](assets/fr/013.webp)
+![image](assets/sw/013.webp)
 
 
 
@@ -732,7 +732,7 @@ Ikiwa ungependa kubuni nembo ya siku zijazo kwa mkutano wa "Bitcoin London", una
 
 
 
-![image](assets/fr/014.webp)
+![image](assets/sw/014.webp)
 
 
 
@@ -745,7 +745,7 @@ Ikiwa matokeo manne ya kwanza si ya uhalisia vya kutosha, boresha ombi lako:
 
 
 
-![image](assets/fr/015.webp)
+![image](assets/sw/015.webp)
 
 
 
@@ -763,7 +763,7 @@ Kwa mwonekano safi, kama kibandiko:
 
 
 
-![image](assets/fr/016.webp)
+![image](assets/sw/016.webp)
 
 
 
@@ -816,7 +816,7 @@ Kwa mfano, jumuiya za Uswisi kimsingi hutumia Telegram, Twitter, na tovuti yao w
 
 
 
-![image](assets/fr/017.webp)
+![image](assets/sw/017.webp)
 
 
 
@@ -901,7 +901,7 @@ Hakika, **kituo cha Telegramu ni kama zana ya utangazaji ya njia moja kwa wasima
 
 
 
-![image](assets/fr/018.webp)
+![image](assets/sw/018.webp)
 
 
 
@@ -925,7 +925,7 @@ Kwa upande mwingine, **Kikundi cha Telegramu ni bora kwa jumuiya**: Kama vile pr
 
 
 
-![image](assets/fr/019.webp)
+![image](assets/sw/019.webp)
 
 
 
@@ -993,7 +993,7 @@ Kidokezo: Badilisha mada yako kulingana na mahitaji ya jumuiya yako. Mfano: Abid
 
 
 
-![image](assets/fr/020.webp)
+![image](assets/sw/020.webp)
 
 
 Kumbuka kwamba **Vikundi vikuu vya Telegraph vinaweza kuwa gumu kwa baadhi ya washiriki kutumia**. Kwa mfano, si kila mtu anajua **jinsi ya kufikia mada mbalimbali** (wanahitaji tu kugonga nembo ya kikundi katika menyu kuu ya Telegramu ili kuona orodha kamili ya mada). Kutuma picha ya skrini kwa haraka kunaweza kusaidia kuondoa utata wowote.
@@ -1053,7 +1053,7 @@ Inapendekezwa sana **kuandika maelezo wazi ya mkutano wako** unapounda kikundi c
 
 > Tazama mitandao yetu mingine ya kijamii: [LINK] 🌐
 
-![image](assets/fr/021.webp)
+![image](assets/sw/021.webp)
 
 
 
@@ -1106,7 +1106,7 @@ Kwa kutumia **kijibu [@GroupHelpBot](https://telegram.me/grouphelpbot)**, chaguo
 
 
 
-![image](assets/fr/022.webp)
+![image](assets/sw/022.webp)
 
 
 
@@ -1232,7 +1232,7 @@ Hicho ndicho kikundi cha FREE Madeira kimefanya.
 
 
 
-![image](assets/fr/023.webp)
+![image](assets/sw/023.webp)
 
 
 
@@ -1271,7 +1271,7 @@ Twitter ni rahisi sana kutumia, na ili kuboresha faragha yako, utahitaji kurekeb
 
 
 
-![image](assets/fr/024.webp)
+![image](assets/sw/024.webp)
 
 
 
@@ -1328,7 +1328,7 @@ Zaidi ya hayo, **unaweza kubandika tweet au mazungumzo kwenye wasifu wako wa Twi
 
 
 
-![image](assets/fr/025.webp)
+![image](assets/sw/025.webp)
 
 
 
@@ -1382,7 +1382,7 @@ Milo ya **Cercle du Coin** ni mfano mwingine mzuri.
 
 
 
-![image](assets/fr/026.webp)
+![image](assets/sw/026.webp)
 
 
 
@@ -1426,7 +1426,7 @@ Hizi ni pamoja na:
 
 
 
-![image](assets/fr/027.webp)
+![image](assets/sw/027.webp)
 
 
 Mifumo mingine pia inaweza kuongeza mwonekano wako. **[Meetup](https://www.meetup.com/)** ni mojawapo, na ni tovuti (na programu ya simu) ambapo unaweza kuunda tukio na kupata mengine karibu nawe.
@@ -1476,7 +1476,7 @@ Tukio kama hili hukuruhusu, kwa kipimo chako mwenyewe, **kuanzisha gumzo karibu 
 
 
 
-![image](assets/fr/028.webp)
+![image](assets/sw/028.webp)
 
 
 
@@ -1508,7 +1508,7 @@ Badala ya kuchagua tarehe wewe mwenyewe, kwa kawaida ni vyema **kuunda kura ya m
 
 
 
-![image](assets/fr/029.webp)
+![image](assets/sw/029.webp)
 
 
 
@@ -1536,7 +1536,7 @@ Wakati mkutano wako ndio kwanza unaanza, mara nyingi sio wakati unaofaa wa wasil
 
 
 
-![image](assets/fr/030.webp)
+![image](assets/sw/030.webp)
 
 
 
@@ -1570,7 +1570,7 @@ Katika kesi ya kwanza, huku tukizingatia mapendeleo ya kila mtu, lengo lililo wa
 Katika kesi ya pili, tukio la pili la kila mwezi linaweza kuwekwa kwa mada maalum, kama vile vikao vya wanaoanza au warsha (Mining, Umeme, usakinishaji wa nodi, n.k.).
 
 
-![image](assets/fr/031.webp)
+![image](assets/sw/031.webp)
 
 
 
@@ -1612,7 +1612,7 @@ Kwa kuongeza, hapa kuna mambo matatu muhimu ya kuzingatia:
 
 
 
-![image](assets/fr/032.webp)
+![image](assets/sw/032.webp)
 
 
 
@@ -1652,7 +1652,7 @@ Wasiliana na mahali ambapo utaandaa tukio na uihifadhi kwa makadirio ya idadi ya
 
 
 
-![image](assets/fr/033.webp)
+![image](assets/sw/033.webp)
 
 
 
@@ -1702,7 +1702,7 @@ Hapa kuna cha kufanya:
 
 
 
-![image](assets/fr/034.webp)
+![image](assets/sw/034.webp)
 
 
 
@@ -1762,7 +1762,7 @@ Ili kuhakikisha kuwa kila mtu anahisi kujumuishwa kwenye hafla zako, zingatia vi
 
 
 
-![image](assets/fr/035.webp)
+![image](assets/sw/035.webp)
 
 
 
@@ -1822,7 +1822,7 @@ Jambo kuu ni kufahamu tu.
 
 
 
-![image](assets/fr/036.webp)
+![image](assets/sw/036.webp)
 
 
 
@@ -1905,7 +1905,7 @@ Kulingana na upatikanaji wako na kiwango cha kuhusika katika jumuiya yako, unawe
 
 
 
-![image](assets/fr/037.webp)
+![image](assets/sw/037.webp)
 
 
 
@@ -1934,7 +1934,7 @@ Kabla ya kuagiza, kumbuka vidokezo hivi:
 
 
 
-![image](assets/fr/038.webp)
+![image](assets/sw/038.webp)
 
 
 
@@ -1973,7 +1973,7 @@ Ikiwa unaendesha shirika na ungependa kuwekeza sehemu ya fedha zako katika nyenz
 
 
 
-![image](assets/fr/039.webp)
+![image](assets/sw/039.webp)
 
 
 Ili kutumia mfumo wa ikolojia, **[mchapishaji wa Konsensus Network](https://konsensus.network/) imekuwa ikitoa mikutano ya kimataifa ya Bitcoin na jumuiya punguzo la 15% hadi 35% kwenye vitabu vyake vyote tangu mwishoni mwa 2023, kwa maagizo ya vitabu vitatu au zaidi**.
@@ -1997,7 +1997,7 @@ Hapa kuna mfano wa chanzo-wazi unaweza kutumia na kurekebisha:
 
 
 
-![image](assets/fr/040.webp)
+![image](assets/sw/040.webp)
 
 
 
@@ -2037,10 +2037,10 @@ Mfano mmoja ni [kipeperushi kamili cha chanzo](https://profedustream.substack.co
 
 
 
-![image](assets/fr/041.webp)
+![image](assets/sw/041.webp)
 
 
-![image](assets/fr/042.webp)
+![image](assets/sw/042.webp)
 
 
 
@@ -2051,10 +2051,10 @@ Huko Ufaransa na nchi zingine chache, pia kuna "masanduku ya vitabu", masanduku 
 
 
 
-![image](assets/fr/043.webp)
+![image](assets/sw/043.webp)
 
 
-![image](assets/fr/044.webp)
+![image](assets/sw/044.webp)
 
 
 
@@ -2081,10 +2081,10 @@ Hiki hapa [kijitabu kilichoshirikiwa miongoni mwa wanabitcoins wa Ufaransa](http
 
 
 
-![image](assets/fr/045.webp)
+![image](assets/sw/045.webp)
 
 
-![image](assets/fr/046.webp)
+![image](assets/sw/046.webp)
 
 
 
@@ -2120,7 +2120,7 @@ Baadhi ya bitcoiners hata walichukua hatua ya kutafsiri kikamilifu "Stranded" ha
 
 
 
-![image](assets/fr/047.webp)
+![image](assets/sw/047.webp)
 
 
 
@@ -2144,7 +2144,7 @@ Mfano mmoja ni [StreetCyberArt](https://twitter.com/streetcyber_art), mfanyabias
 
 
 
-![image](assets/fr/048.webp)
+![image](assets/sw/048.webp)
 
 
 
@@ -2157,7 +2157,7 @@ Pia kumbuka kuwa kuchapisha mabango haya kwenye kichapishi cha kibinafsi kwa kaw
 
 
 
-![image](assets/fr/049.webp)
+![image](assets/sw/049.webp)
 
 
 
@@ -2188,7 +2188,7 @@ Iwapo ungependa kuagiza zaidi ya kadi 50 za NFC, unaweza kuwasiliana na kampuni 
 
 
 
-![image](assets/fr/050.webp)
+![image](assets/sw/050.webp)
 
 
 
@@ -2253,7 +2253,7 @@ Chochote unachochagua, tengeneza taswira mahususi za jukwaa ili kufanya kituo ch
 
 
 
-![image](assets/fr/051.webp)
+![image](assets/sw/051.webp)
 
 
 
@@ -2331,7 +2331,7 @@ Violezo kadhaa vya beji vinavyotumiwa na chama cha Bitcoin Lille [vinapatikana k
 
 
 
-![image](assets/fr/052.webp)
+![image](assets/sw/052.webp)
 
 
 
@@ -2400,7 +2400,7 @@ Hiyo ilisema, hii sio kazi nyepesi: inahitaji motisha, bidii, na miunganisho sah
 
 
 
-![image](assets/fr/053.webp)
+![image](assets/sw/053.webp)
 
 
 
@@ -2424,7 +2424,7 @@ Bado, inafaa kujaribu, haswa na vyama vya wafanyikazi na vyama. Na nani anajua? 
 
 
 
-![image](assets/fr/054.webp)
+![image](assets/sw/054.webp)
 
 
 
@@ -2450,7 +2450,7 @@ Kila mfanyabiashara ni tofauti, na kuabiri kunakuja na seti yake ya changamoto:
 
 
 
-![image](assets/fr/055.webp)
+![image](assets/sw/055.webp)
 
 
 
@@ -2500,7 +2500,7 @@ Baada ya kupanda:
 
 
 
-![image](assets/fr/056.webp)
+![image](assets/sw/056.webp)
 
 
 
@@ -2552,7 +2552,7 @@ Fahamu, mahojiano ya vyombo vya habari yanaweza kuwa magumu. Maneno yanaweza kut
 
 
 
-![image](assets/fr/057.webp)
+![image](assets/sw/057.webp)
 
 
 
@@ -2613,7 +2613,7 @@ Mfano mzuri ni **[Kitabu cha kanuni huria cha Bitcoin Lille](https://bitcoinlill
 
 
 
-![image](assets/fr/058.webp)
+![image](assets/sw/058.webp)
 
 
 
@@ -2700,7 +2700,7 @@ Tumia **zana zilizosimbwa kwa njia fiche au za mawasiliano** ili kulinda faragha
 Mnamo Aprili 5, 1933, Franklin Roosevelt, Rais wa 32 wa Marekani, alitia saini **Agizo la Utendaji 6102**, na kuifanya kuwa haramu kwa watu binafsi kumiliki sarafu za dhahabu, bullion, au vyeti popote nchini.
 
 
-![image](assets/fr/059.webp)
+![image](assets/sw/059.webp)
 
 
 
@@ -2717,7 +2717,7 @@ Hatuhitaji kuangukia katika fikira za njama. Lakini hakuna kitu kinachotuzuia ku
 
 
 
-![image](assets/fr/060.webp)
+![image](assets/sw/060.webp)
 
 
 
@@ -2748,7 +2748,7 @@ Kwa kuwa wakati wetu ni mdogo, jambo kuu ni kuendelea kuwa wanyenyekevu, kujifun
 
 
 
-![image](assets/fr/061.webp)
+![image](assets/sw/061.webp)
 
 
 
@@ -2847,7 +2847,7 @@ Badala yake, **tafuta usaidizi kutoka kwa bitcoiners ambao tayari wametembea han
 
 
 
-![image](assets/fr/062.webp)
+![image](assets/sw/062.webp)
 
 
 
@@ -2897,7 +2897,7 @@ Kwa hili, tutachukua uzoefu wa jumuiya ambazo tayari zimeunda matukio na mawasil
 
 
 
-![image](assets/fr/063.webp)
+![image](assets/sw/063.webp)
 
 
 

@@ -16,9 +16,9 @@ _Nakala hii inatoka kwa tovuti ya nyaraka ya Breez: https://doc.breez.technology
 
 
 
-- **Umeme** ni mtandao wa malipo wa Bitcoin ambao hupunguza muda wa muamala kutoka dakika hadi milisekunde na ada za muamala kutoka dola kadhaa hadi senti chache au chini ya hapo. Umeme hubadilisha Bitcoin kutoka dhahabu ya dijiti hadi sarafu ya kidijitali huku ikihifadhi manufaa yote ambayo yanaifanya Bitcoin kuwa nzuri.
+- **Lightning** ni mtandao wa malipo wa Bitcoin ambao hupunguza muda wa muamala kutoka dakika hadi milisekunde na ada za muamala kutoka dola kadhaa hadi senti chache au chini ya hapo. Umeme hubadilisha Bitcoin kutoka dhahabu ya dijiti hadi sarafu ya kidijitali huku ikihifadhi manufaa yote ambayo yanaifanya Bitcoin kuwa nzuri.
 - **Isiyohifadhi** inamaanisha kuwa Breez hamiliki pesa za watumiaji. Programu nyingi za Umeme huchukua umiliki wa pesa za watumiaji wao. Kimsingi ni benki za Bitcoin. Kwa programu isiyo ya uhifadhi kama vile Breez, watumiaji wote ni benki zao wenyewe.
-- Huduma kamili inamaanisha kuwa Breez hushughulikia takriban shughuli zote za kiufundi kiotomatiki na chinichini. Mambo kama vile kuunda chaneli, ukwasi unaoingia, na uelekezaji hukaa chini ya kifuniko. (Lakini Breez pia ni chanzo huria, kwa hivyo wale wanaotaka kukagua teknolojia wanakaribishwa kufanya hivyo!)
+- **Huduma kamili** inamaanisha kuwa Breez hushughulikia takriban shughuli zote za kiufundi kiotomatiki na chinichini. Mambo kama vile kuunda chaneli, ukwasi unaoingia, na uelekezaji hukaa chini ya kifuniko. (Lakini Breez pia ni chanzo huria, kwa hivyo wale wanaotaka kukagua teknolojia wanakaribishwa kufanya hivyo!)
 
 
 **Breez POS** ni fupi kwa hali yetu ya kuuza. Kwa maneno mengine, Breez hufanya kazi kama rejista ya pesa dijitali kwa biashara na wafanyabiashara wanaotaka kukubali malipo ya Umeme (pamoja na hali yake ya "kawaida", ambayo ni kama toleo la dijitali la Wallet la ngozi la Bitcoin, na kicheza podikasti cha kizazi kijacho). Sasa hebu tuangalie jinsi ya kuweka Breez up kama rejista ya pesa ya Umeme kwa biashara yako.
@@ -42,7 +42,7 @@ _Nakala hii inatoka kwa tovuti ya nyaraka ya Breez: https://doc.breez.technology
 Ili kusanidi POS, bofya ikoni iliyo upande wa juu kushoto, kisha ubofye Sehemu ya Uuzaji > Mipangilio ya POS.
 
 
-### Nenosiri la Meneja
+### Password manager
 
 
 Katika Mipangilio ya POS, una chaguo la kuunda nenosiri la msimamizi. Nenosiri la msimamizi hufanya iwezekane kutuma malipo yanayotumwa kutoka kwa programu ya Breez bila idhini. Wafanyakazi wa mauzo wataweza tu kupokea malipo kutoka kwa kifaa. Kumbuka kuwa ikiwa unatumia chaguo hili, unaweza pia kutaka kuzuia ufikiaji wa nakala rudufu ya Breez, kwa hivyo kutumia akaunti ya nje ya WebDav (k.m. Nextcloud) inapendekezwa kwa hali hii ya utumiaji.
@@ -77,10 +77,10 @@ Thamani zinazoonyeshwa zinatoka kwenye yadio, kituo kinachoheshimiwa cha data ya
 Ili kutunga mpangilio, ama ongeza vipengee kutoka kwenye orodha ya bidhaa au ingiza tu jumla katika vitufe. Kisha bofya kwenye Chaji juu ya mwonekano mkuu wa POS. Kisha utaona msimbo wa QR ambao mteja anaweza kuchanganua kwa kutumia programu yake ya Umeme, ambayo unaweza kushiriki moja kwa moja kutoka kwa programu nyingine kwenye kifaa chako, au unaweza kunakili na kubandika inapohitajika.
 
 
-Unapochanganua msimbo huo au kubofya Invoice iliyoshirikiwa/iliyobandikwa, mteja ataona Invoice katika programu yake ya Umeme na atakuwa na chaguo la kuilipa na kusuluhisha muamala mara moja.
+Unapochanganua msimbo huo au kubofya Invoice iliyoshirikiwa/iliyobandikwa, mteja ataona Invoice katika programu yake ya Lightning na atakuwa na chaguo la kuilipa na kusuluhisha muamala mara moja.
 
 
-Mara tu utakapoona Malipo yameidhinishwa! uhuishaji katika programu ya Breez kwenye kifaa cha mfanyabiashara, unaweza kubofya aikoni ya kichapishi ili generate risiti kwa mteja. Ili kutumia kichapishi cha risiti kwenye Android, jaribu kutumia kiendeshi hiki. Kumbuka kuwa unaweza pia kuchapisha miamala ya awali kupitia skrini ya Miamala.
+Mara tu utakapoyaona Malipo yameidhinishwa kwenye programu ya Breez kwenye kifaa cha mfanyabiashara, unaweza kubofya aikoni ya kichapishi ili kutengeneza risiti kwa mteja. Ili kutumia kichapishi cha risiti kwenye Android, tumia kiendeshi kilichopendekezwa. Kumbuka unaweza pia kuchapisha miamala ya awali kupitia skrini ya Miamala.
 
 
 ### Ripoti ya mauzo
@@ -92,7 +92,7 @@ Ili kuona ripoti ya kila siku, ya kila wiki na/au ya kila mwezi ya mauzo yako (k
 ### Kusafirisha Miamala
 
 
-Ili kutazama orodha ya malipo yaliyopokelewa Breez, bofya aikoni iliyo upande wa juu kushoto, kisha ubofye kwenye Miamala. Bofya kwenye vitone vitatu kwenye sehemu ya juu kulia, kisha kwenye Hamisha ili kuhamisha orodha ya malipo yanayoingia katika umbizo la CSV. Ili kuzuia orodha kwa kipindi fulani cha wakati, bofya kwenye aikoni ya kalenda ili kuweka kipindi.
+Ili kutazama orodha ya malipo yaliyopokelewa kwenye Breez, bofya aikoni iliyo upande wa juu kushoto, kisha chagua Miamala. Bofya kwenye vitone vitatu vilivyo upande wa juu kulia, kisha chagua Hamisha ili kuhamisha orodha ya malipo yanayoingia katika umbizo la CSV. Ili kuzuia orodha kwa kipindi fulani, bofya aikoni ya kalenda ili kuweka kipindi.
 
 
 ### Stakabadhi za Uchapishaji

@@ -568,7 +568,7 @@ Deze verlaging van de rentetarieven heeft echter een prijs: kapitaal wordt gemak
 Deze evenwichtsoefening gaat niet helemaal zoals gepland..
 
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Figuur [Schuld vs BBP] (https://www.longtermtrends.net/us-debt-to-gdp/)
@@ -647,7 +647,7 @@ Figuur: Performance per activaklasse ([Aandelen](https://finance.yahoo.com/quote
 Met deze achterstand tussen lonen en activaprijzen hebben we een van de grootste overdrachten van rijkdom gezien van de lagere klasse naar de hogere klasse in de recente geschiedenis
 
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 Figuur: Aandeel in Totale [Netto Vermogen] (https://fred.stlouisfed.org/series/WFRBSN40188#0.)
@@ -1709,7 +1709,7 @@ Zoals Adanna's verhaal laat zien, is inflatie een pijnlijke realiteit voor tallo
 Om het effect van een inflatie met dubbele cijfers te illustreren: een inflatie van 10%, zoals Europa in oktober 2022 ervaart, zou een koopkrachtverlies van 61,5% betekenen over een periode van tien jaar.
 
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 
 _**Figuur:** Inflatie-effect op koopkracht(https://anilsaidso.gumroad.com/)_
@@ -2138,7 +2138,7 @@ Nu hebben energieproducenten echter een manier om te profiteren van deze gestran
 Ten slotte zijn Bitcoin mijnwerkers gemotiveerd om goedkope energiebronnen te zoeken, omdat hun winst afhangt van de energiekosten. Daarom gaan ze actief op zoek naar gestrande energie of andere vormen van energie die anders ongebruikt zouden blijven. Een opmerkelijk voorbeeld is afgefakkeld gas, dat vrijkomt wanneer aardoliemaatschappijen olie uit de grond halen. Afgefakkeld gas is een bijproduct van dit proces en wordt meestal verbrand vanwege de hoge kosten die gepaard gaan met het opvangen ervan. Deze praktijk, bekend als affakkelen, leidt niet alleen tot energieverspilling, maar zorgt er ook voor dat methaan en verschillende andere gassen vrijkomen in de atmosfeer.
 
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 
 _**Figuur:** Fakkel [Gas] (https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
@@ -2351,7 +2351,7 @@ In de afgelopen jaren heeft Bitcoin zich echter ontpopt als een krachtig instrum
 Terwijl de wereld vol afschuw toekeek hoe de Taliban in [1996] de controle over Afghanistan overnamen (https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), leefde dit jonge meisje Roya in het hart van het conflict. Ze was pas zeven jaar oud en raakte verstrikt in de onrust en onzekerheid van de oorlog toen haar geboortestad werd binnengevallen en bezet door de Taliban. Ondanks het gevaar en de tegenslagen waarmee ze werd geconfronteerd, en ondanks het feit dat ze niet naar school kon, weigerde Roya zich te laten verslaan. In plaats daarvan wendde ze zich tot het onderwijs als een manier om de beperkingen die haar door haar omstandigheden werden opgelegd te overwinnen.
 
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
 
 **Figuur:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
@@ -2439,7 +2439,7 @@ Eigenaar van een café, Vietnam
 "In mijn café in het district Binh Thanh richten we ons op een jonge klantenkring en incidentele toeristen en bieden we een verscheidenheid aan dranken, waaronder koffie, Soft-drankjes en cocktails. Tether is onze go-to-oplossing geworden voor het verwerken van betalingen van buitenlandse klanten die geen lokale valuta of bankrekening hebben. Hoewel de verkoop via Tether op dit moment misschien klein is, biedt het ons een handige manier om de valutakloof te overbruggen en onze internationale klanten van dienst te zijn. Klanten zijn vaak verbaasd over onze openheid om cryptocurrency-betalingen te accepteren, wat een blijvende indruk achterlaat op hun ervaring."
 
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 
 Parvinee Ratchaphokhinpiti
 
@@ -2449,7 +2449,7 @@ Gepensioneerd, Thailand
 "USDt betekende een revolutie voor mijn internationale geldtransfers. Als gepensioneerde was ik afhankelijk van trage bankoverschrijvingen. Dankzij USDt kan ik nu moeiteloos geld versturen via een digitaal activum Exchange. Binnen 30 minuten ontving mijn zus het geld. De tijdbesparende voordelen zijn van onschatbare waarde en zorgen voor snelle en probleemloze transacties."
 
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 
 Jamie Tran
 
@@ -2459,7 +2459,7 @@ Pianoleraar, Vietnam
 "Geld sturen naar mijn familie in het buitenland was vaak nodig, maar het omwisselen van valuta bij lokale wisselkantoren bleek tijdrovend en duur te zijn. Om Address aan deze uitdagingen het hoofd te bieden, liet ik mijn familie kennismaken met het gemak van USDt. Door deze eenvoudige overstap heeft ons gezin veel tijd en geld kunnen besparen bij onze financiële transacties. Met USDt genieten we nu van gestroomlijnde overboekingen naar het buitenland, waardoor we onze dierbaren efficiënt en kosteneffectief kunnen ondersteunen."
 
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 
 Romeins
 
@@ -2469,7 +2469,7 @@ Russische expat woont in Vietnam
 "Ik woon in Vietnam en stuur regelmatig Tether naar mijn familie en neven in Rusland. Geld overmaken naar het buitenland met Tether is probleemloos in vergelijking met traditionele bankmethoden. Er zijn geen bankbezoeken, notariële documenten of uitleg nodig. Met geen verzendlimieten, minimale kosten en snelle transacties wordt het geld binnen enkele minuten overgemaakt."
 
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 
 Luis Graterol
 
@@ -2479,7 +2479,7 @@ Audiovisueel, Venezuela
 "Mijn naam is Luis Graterol, en Tether heeft me geholpen om mijn spaargeld op een andere manier veilig te stellen. In Venezuela lijden we onder de hoge inflatie, en Tether heeft veel geholpen. De gebruiksvriendelijkheid is eenvoudig en in veel gevallen kun je transacties doen zonder kosten. USDt maakt mijn leven gemakkelijker! Het helpt me ook om het gebruik ervan aan te moedigen in de audiovisuele media; sinds ik het gemak ervan ontdekt heb, ontvang ik mijn betalingen per USDt en bespaar ik de vervelende lokale fiat waar velen van ons mee te maken hebben!"
 
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 
 Dubraska Villanloga
 
@@ -2489,7 +2489,7 @@ CEO Tu Cachapa Caricuao, Caracas, Venezuela
 "Ik kom uit Venezuela en run een klein bedrijfje dat ontbijt bezorgt. Tether USDt is voor mij een haalbare oplossing geweest voor het probleem van fysiek geld. USDt heeft me ook geholpen met mijn spaargeld, want als ik mijn zakelijke rekeningen in de Venezolaanse bolivar had aangehouden, had ik niet vooruit kunnen plannen met de inkoop van levensmiddelen vanwege de constante devaluatie."
 
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 
 Marcela Romero
 
@@ -2499,7 +2499,7 @@ Marketing- en PR-manager, Guanacaste, Costa Rica
 "Een paar jaar geleden verhuisde ik naar het land van mijn man. Door de pandemie kreeg ik te maken met een unieke migratievoorwaarde, waardoor ik lang moest wachten op een verblijfsvergunning of staatsburgerschap. Bijna drie jaar lang had ik geen toegang tot een bankrekening en kon ik niet legaal in het land werken. Door gebruik te maken van mijn online werkmogelijkheden en mijn salaris in USDt te ontvangen, kon ik mijn carrière op afstand voortzetten bij internationale bedrijven. Met Tether kan ik onmiddellijk geld naar huis sturen zonder hoge kosten of vertragingen. Tether heeft me in staat gesteld om mijn professionele doelen na te streven en financiële onafhankelijkheid te behouden ondanks de beperkingen van de overheid."
 
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 
 Simoneth Gomez
 
@@ -2509,7 +2509,7 @@ QA Engineer, Venezuela, woonachtig in Argentinië
 "Hallo, mijn naam is Simoneth Gomez. Ik kom uit Venezuela, maar ik woon momenteel in Buenos Aires, waar ik werk als software kwaliteitsanalist. Toen ik naar Argentinië kwam, was de afstand tussen mijn werk en de plek waar ik geld moest wisselen om naar mijn familie in Venezuela te sturen 12 km. Dus maakte ik kennis met USDt en begon ik het te gebruiken, want in plaats van die route te moeten afleggen voor 5 of 10 dollar in de bus, kon ik het vanaf mijn bureau in twee minuten oplossen."
 
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 
 Carlos Caballero
 
@@ -2519,7 +2519,7 @@ Psycholoog, Argentinië
 "Tether is de oplossing die mij in staat heeft gesteld mijn werk voort te zetten tijdens de jaren van de pandemie. Het feit dat het een valuta is die verankerd is aan de dollar zorgt ervoor dat het een internationale referentiewaarde heeft. En de stabiliteit en veiligheid tegen de volatiliteit van andere cryptocurrencies is de belangrijkste reden waarom ik ervoor heb gekozen."
 
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 
 Heloisa Passos
 
@@ -2529,7 +2529,7 @@ CEO Sp4ce Games, Brazilië
 "Ik werk nu ongeveer vijf jaar op afstand voor internationale bedrijven, en het grootste deel van die tijd had ik te lijden onder de hoge rentetarieven van de nationale banken, die een hoog percentage aanrekenen voor elke internationale overschrijving, naast de wachttijd voor het afhandelen van betalingen via het Swift-systeem (ongeveer 24 uur). Toen ik mijn salaris in Tether begon te ontvangen, besefte ik hoeveel tijd en geld ik begon te besparen door gewoon in USDt betaald te worden."
 
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 
 Samuel
 
@@ -2539,7 +2539,7 @@ Handelsmaatschappij, Nigeria
 "Het gebruik van USDt heeft ons bedrijf veel tijd bespaard, want als Nigeriaans bedrijf moeten we om USD te krijgen naar onze bank gaan en kostbare tijd besteden aan het invullen van formulieren en uren in de rij staan om geld op te nemen of over te maken. Met USDt kunnen we echter in minder dan 5 minuten Exchange gebruiken voor lokale valuta en elke transactie uitvoeren die we maar willen."
 
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 
 Joshua
 
@@ -2549,7 +2549,7 @@ Student, Nigeria
 "Tether heeft me op verschillende manieren geholpen. Verdienen in Tether heeft me geholpen om de spanning van de stijgende inflatie in het land te overwinnen, en het heeft me geholpen om verspillende uitgaven te beperken. Ook helpt het mijn spaargeld zijn waarde te behouden, omdat ik niet zwaar getroffen word door de devaluatie van de Naira."
 
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 
 Esther
 

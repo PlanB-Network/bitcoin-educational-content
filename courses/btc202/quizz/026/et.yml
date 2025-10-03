@@ -1,0 +1,9 @@
+question: Kes leiutas lihtsustatud maksete kontrollimise (SPV) mõiste?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  SPV on esitatud Satoshi Nakamoto valge raamatu 8. osas.
+reviewed: true

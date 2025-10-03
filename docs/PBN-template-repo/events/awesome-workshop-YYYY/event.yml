@@ -32,8 +32,8 @@ type: workshop
 
 # Description
 # Write the main description of the content
-description: The only knowledge game on Bitcoin and related subjects organised in
-  collaboration with Plan ₿ Network.
+description: |
+  The only knowledge game on Bitcoin and related subjects organised in collaboration with Plan ₿ Network.
 
 # Event Language
 # the main language spoken during the event

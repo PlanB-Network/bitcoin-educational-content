@@ -1,0 +1,9 @@
+question: Bir Wallet'in Blockchain'ın durumunu görüntülemek için ne yapması gerekir?
+answer: Yerel veya uzak bir düğüme bağlanma
+wrong_answers:
+  - Ağdaki diğer cüzdanlara sorun
+  - Ağ madencileriyle görüşme
+  - Çevrimiçi bir Exchange platformuna bağlanın
+explanation: |
+  Bir Wallet, Blockchain durumuna erişmek ve işlemlerini yayınlamak için bir düğüme bağlanmalıdır.
+reviewed: true

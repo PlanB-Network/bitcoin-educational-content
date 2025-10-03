@@ -1,0 +1,9 @@
+question: Byla etika zveřejněna?
+answer: Posmrtně.
+wrong_answers:
+  - Když byl naživu.
+  - Je sbírkou článků z tisku.
+  - S autorovou korespondencí.
+explanation: |
+  Etika, Spinozovo hlavní dílo, byla vydána posmrtně v roce 1677, několik měsíců po jeho smrti. Dílo bylo příliš kontroverzní na to, aby mohlo být vydáno ještě za jeho života, aniž by se vystavil riziku pronásledování.
+reviewed: false

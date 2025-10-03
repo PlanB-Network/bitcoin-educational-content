@@ -8286,16 +8286,24 @@ Det är viktigt att välja modern utrustning som underhålls av tillverkaren och
 En Wi-Fi 6-, Wi-Fi 6E- eller Wi-Fi 7-kompatibel router ger dig bättre hastigheter och framför allt inbyggt stöd för modern säkerhetsteknik. Omvänt kan mycket gammal utrustning, särskilt sådan som inte längre får programuppdateringar, innehålla kända sårbarheter som inte har åtgärdats. De utgör därför en risk för hela ditt nätverk, även om du konfigurerar dem korrekt. Jämfört med mobiltelefoner eller datorer är routrar utrustning som vi tenderar att behålla i många år. Det kan dock vara en bra idé att byta ut dem mer regelbundet för att dra nytta av en modernare och säkrare modell.
 
 
+**Observera**: Som en allmän tumregel kan routrar som tillhandahålls av internetleverantörer sakna den viktiga uppdateringsfunktionen samt möjligheter till anpassning. I vissa fall kan internetleverantörer också ha obegränsad åtkomst till slutanvändarens interna nätverk.
+
 Se därför till att du systematiskt uppdaterar routerns inbyggda programvara. Dessa uppdateringar korrigerar sårbarheter, lägger till nya funktioner och förbättrar den övergripande systemstabiliteten. Vissa tillverkare erbjuder automatiska uppdateringar, men i vissa fall måste du kontrollera manuellt via routerns administrationsverktyg Interface. Precis som med din telefon, dator, operativsystem och programvara är det viktigt att du uppdaterar din router regelbundet. Du kan göra detta till en del av din veckorutin - till exempel varje söndag - genom att upprätta en lista över alla de saker du behöver kontrollera och hålla uppdaterade.
 
 
-Om din router inte längre underhålls men fortfarande fungerar korrekt ur hårdvarusynpunkt kan du installera en alternativ firmware med öppen källkod, t.ex:
+Alternativt kan du aktivera automatiska uppdateringar eller åtminstone automatisk skanning efter nya firmwareuppdateringar om du föredrar att agera manuellt. Även om funktionen för automatisk uppdatering fortfarande kan utgöra ett säkerhetshot, kommer underlåtenhet att regelbundet uppdatera routerns firmware att utsätta ditt lokala nätverk för offentligt kända sårbarheter.
+
+**Exempel**: När du köper din egen router kan det vara en bra idé att leta efter etablerade företag i branschen som under lång tid levererat routrar på marknaden. Till exempel har Fritz!Box-routrar ett långt anseende som plug-and-play-enheter, lämpliga för användning både i familjemiljöer och i små företag. Deras policy för programvaruuppdateringar sträcker sig vanligtvis över flera år.
+
+Om din router inte längre underhålls men fortfarande fungerar korrekt ur hårdvarusynpunkt kan du kanske installera ett alternativt open-source-firmware, såsom:
 
 
 
 - OpenWrt, en Linux-distribution som är specialiserad på routrar och som erbjuder stor flexibilitet och regelbundna uppdateringar
 - pfSense och OPNsense, två FreeBSD-baserade (Unix-liknande) system för x86-brandväggar och routrar
 
+
+**Observera**: Vissa ISP levererar sina kunder bulkroutrar tillverkade av ett enda företag som samtidigt levererar till många olika ISP:er runt om i världen. Du kan upptäcka att för att installera en av de alternativa firmwares på routern kan någon annan redan ha listat ut hur man gör det, även om de befinner sig på andra sidan jordklotet.
 
 ![Image](assets/fr/196.webp)
 
@@ -8308,7 +8316,7 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 Dessa system möjliggör finare kontroll av brandväggsregler, utgående och inkommande anslutningar, nätverkssegmentering (VLAN) och DNS-hantering, men riktar sig mer till avancerade användare.
 
 
-** Sammanfattningsvis rekommenderar jag**:
+**Sammanfattningsvis rekommenderar jag**:
 
 
 

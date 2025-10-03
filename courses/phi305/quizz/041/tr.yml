@@ -1,0 +1,9 @@
+question: Saint-Augustin kimdir?
+answer: Kilise Babalarından biri.
+wrong_answers:
+  - Bir Aydınlanma filozofu.
+  - Bir astronom.
+  - Bir mucit.
+explanation: |
+  Aziz Augustine (354-430) Kilise Babalarından biridir. Bir filozof ve teolog olan Augustinus, İtiraflar ve Tanrı'nın Şehri gibi eserleriyle Batı Hıristiyan düşüncesini derinden etkilemiştir.
+reviewed: false

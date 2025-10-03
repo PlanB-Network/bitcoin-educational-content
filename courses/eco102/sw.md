@@ -393,7 +393,6 @@ Tathmini hii (1814-1819), iliyopewa jina la Le Censeur européen baada ya Siku M
 ![image](assets/en/031.webp)
 
 
-![image](assets/en/032.webp)
 
 
 Charles Comte, binamu wa Auguste Comte na mkwe wa Say, ndiye mwanzilishi wa ukaguzi huo. Muda si muda alijiunga na Charles Dunoyer, mwanasheria kama yeye, na kisha mwanahistoria kijana, Augustin Thierry, katibu wa zamani wa Saint Simon. Kauli mbiu yao kwenye ukurasa wa mbele wa kila toleo la mapitio ilikuwa "Amani na Uhuru".
@@ -490,7 +489,6 @@ Akiwa mzungumzaji wa kuvutia na mwenye kutisha, alikuwa na kipawa cha ajabu cha 
 Mnamo 1845, Bastiat alichapisha huko Paris kitabu chake Cobden and the League, na tafsiri zake zikiambatana na maoni. Kitabu hiki kinaanza na utangulizi wa hali ya kiuchumi ya Uingereza, juu ya historia ya asili na maendeleo ya Ligi. Tangu 1815, ulinzi uliendelezwa sana nchini Uingereza. Kulikuwa na, haswa, sheria zinazozuia uagizaji wa nafaka kutoka nje ambayo ilikuwa na matokeo mabaya sana kwa watu. Kwa kweli, ngano ilikuwa muhimu kwa kutengeneza mkate, bidhaa muhimu wakati huo. Zaidi ya hayo, mfumo huu ulipendelea utawala wa aristocracy, yaani, wamiliki wa ardhi wakubwa, ambao walipata kodi kutoka kwao.
 
 
-![image](assets/en/042.webp)
 
 
 > Kinachoishi Uingereza, Bastiat aliandika, ni idadi ndogo ya waporaji na idadi kubwa ya walioporwa, na hakuna haja ya kuwa mwanauchumi mkubwa ili kuhitimisha utajiri wa zamani na masaibu ya mwisho.
@@ -708,7 +706,6 @@ Hebu fikiria kisu cha Kiingereza ambacho kinauzwa katika nchi yetu kwa euro 2, n
 Ikiwa tutapiga marufuku bidhaa ya Kiingereza, mtumiaji atalipa kitengo kimoja zaidi kwa kisu chake. Ulinzi kwa hivyo husababisha faida kwa tasnia ya kitaifa na hasara mbili, moja kwa tasnia nyingine (ile ya penseli) na nyingine kwa watumiaji. Kinyume chake, biashara huria huwafanya washindi wawili wenye furaha.
 
 
-![image](assets/en/059.webp)
 
 
 Ulinzi pia ni aina ya mapambano ya kitabaka. Kulingana na Bastiat, ni mfumo unaozingatia ubinafsi na uchoyo wa wazalishaji. Ili kuongeza ujira wao, wakulima au wenye viwanda hudai kodi ili kufunga soko kwa bidhaa za nje, hivyo kuwalazimu walaji kulipia zaidi bidhaa zao.
@@ -778,7 +775,6 @@ Pierre-Joseph Proudhon ni mmoja wa wawakilishi wakuu wa ujamaa wa Ufaransa katik
 
 ![image](assets/en/064.webp)
 
-![image](assets/en/065.webp)
 
 
 Kuna jambo la kipuuzi kimantiki katika madai haya. Kwani kama kusingekuwa na mali iliyopatikana kihalali, kimantiki kusingeweza kuwa na kitendo kama vile wizi. Ndio maana Proudhon baadaye angefafanua kuwa ni mgawanyo halisi wa mali anaouona wizi, sio mali yenyewe, ambayo anaelezea kama msingi wa nguvu ya mapinduzi kwa jamii ya wanarchist.
@@ -790,7 +786,6 @@ Kuna jambo la kipuuzi kimantiki katika madai haya. Kwani kama kusingekuwa na mal
 Lakini Proudhon ni anarchist binafsi. Yeye haoni proletariat, wala serikali, kama vyanzo halali vya madaraka. Anakosoa vikali ukomunisti na kutetea kuheshimiana kwa wafanyakazi, aina ya mshikamano uliopangwa wa vyama vya ushirika, ambao ungetegemea kukusanya rasilimali kwa hiari kwa ajili ya kusaidiana. Haijulikani sana lakini Bastiat hakuwa kinyume kabisa na wazo hili kimsingi. Aliogopa tu kwamba serikali ingeigeuza kuwa utumishi wa umma wa ukiritimba. Historia ingemthibitisha kuwa sawa.
 
 
-![image](assets/en/067.webp)
 
 
 Kwa upande mwingine, inajulikana vyema kwamba katika "Umaskini wa Falsafa," Marx angemshambulia kwa jeuri Proudhon na ujamaa wake, aliouita "utopian," akipendelea ujamaa unaoitwa "kisayansi".
@@ -924,7 +919,6 @@ Mnamo 1840, Baraza la Manaibu lilipiga kura kwa sheria ya kuongeza ushuru wa bid
 
 _juu: Marine Le Pen, mwanasiasa Mfaransa_
 
-![image](assets/en/078.webp)
 
 
 Bastiat kisha akatunga maandishi ya kejeli ambayo baadaye yalikuja kuwa moja ya kazi zake maarufu: "ombi la watengeneza mishumaa". Inaonyesha jinsi vikundi fulani vya shinikizo vilivyopangwa vyema vya wazalishaji hupata marupurupu yasiyofaa kutoka kwa serikali, kwa madhara ya wananchi. Wakati huo huo, inaonyesha hali ya upuuzi na ya uharibifu ya sheria ya ulinzi.
@@ -984,7 +978,6 @@ Mkanganyiko huu wa njia na mwisho unapatikana katika kauli mbiu "fedha ni utajir
 Huu ndio mtazamo unaotawala sera ya fedha ya majimbo mengi. Hakika, ongezeko la bandia la kiasi cha fedha huruhusu mabenki kutoa mikopo kwa watu binafsi na mataifa kwa urahisi kulipa madeni yao, hii ndiyo "tunaona". Lakini "tusichokiona" ni kwamba uundaji huu wa pesa, sio msingi wa uundaji wa mali halisi, utasababisha mfumuko wa bei na uharibifu wa waokoaji.
 
 
-![image](assets/en/082.webp)
 
 
 Utajiri wa kweli, kulingana na Bastiat, kwa hivyo ni seti ya vitu muhimu ambavyo tunazalisha kupitia kazi ili kukidhi mahitaji yetu. Kwa hivyo pesa ni njia inayotumika tu ya Ubadilishanaji, ina jukumu la mpatanishi pekee.
@@ -1023,7 +1016,6 @@ Uchumi unaeleza athari nzuri au mbaya za maamuzi ya kisiasa katika maisha yetu. 
 
 > F.Bastiat
 
-![image](assets/en/084.webp)
 
 Tangu awali, anakanusha hoja ambayo bado imeenea kwamba matumizi ya umma yanayofadhiliwa na kodi hutengeneza ajira. Hakika, kodi haileti chochote kwani kile kinachotumiwa na serikali hakitumiwi tena na walipa kodi.
 
@@ -1031,7 +1023,6 @@ Tangu awali, anakanusha hoja ambayo bado imeenea kwamba matumizi ya umma yanayof
 Zaidi ya hayo, serikali inafuja zaidi kuliko watu binafsi. Hakika, anatukumbusha, serikali haimiliki kitu; haizai mali. Matumizi ya umma mara nyingi ni chanzo cha upotevu kwa sababu pesa nyingi zinazochukuliwa kutoka kwa watu binafsi huepuka wajibu wa wamiliki wao na hutumiwa badala yao na watendaji wa serikali, chini ya makundi ya shinikizo.
 
 
-![image](assets/en/085.webp)
 
 
 Bila shaka, kama malipo ya huduma sawa ya umma iliyopokelewa katika Ubadilishanaji, ushuru unaweza kulindwa kabisa. Lakini huko Ufaransa, serikali imetoa majukumu kadhaa kwa ushuru.
@@ -1043,7 +1034,6 @@ Hapo awali, ilitakiwa kufidia gharama za kawaida. Kisha, kodi pia zilipewa jukum
 Hatimaye, jukumu la kijamii lilipewa kodi. Walifanywa kuwa chombo cha haki ya kijamii. Kwa hivyo, ushuru haupaswi kugonga kila mtu kwa njia ile ile. Ushuru lazima ugawanywe tena, kutoka kwa "walio na zaidi" hadi wale "walio na kidogo."
 
 
-![image](assets/en/086.webp)
 
 
 Shida ni kwamba kodi, kama inavyotungwa, inakabiliwa na jeuri ya walio madarakani. Wanapendelea au hawapendi kategoria fulani za kijamii kulingana na kama mamlaka inatarajia kura kutoka kwao au la. Zaidi ya hayo, viwango vinavyoendelea vinazaa kidogo hazina ya umma. Hata hivyo, wanaruhusu walio wengi kuwanyang'anya wachache na kwa kawaida kuwa wanyang'anyi.
@@ -1144,7 +1134,6 @@ Uchumi wa Kisiasa, kwa hivyo, una matumizi dhahiri ya vitendo. Inafunua uharibif
 Kwa mara nyingine tena, kungekuwa na Tartuffes chache ikiwa kungekuwa na Orgons chache za kuwasikiliza. Hivi ndivyo Bastiat anasema juu ya suala hili:
 
 
-![image](assets/en/094.webp)
 
 
 > Basi maadili ya kidini yaguse mioyo ya Tartuffes kama inaweza. Kazi ya uchumi wa kisiasa ni kuwaangazia wadanganyifu wao. Kati ya njia hizi mbili, ni ipi inafanya kazi kwa ufanisi zaidi kwa maendeleo ya kijamii? Je, ni lazima kusemwa? Naamini ni ya pili. Ninahofia kwamba ubinadamu hauwezi kuepuka umuhimu wa kwanza kujifunza maadili ya kujihami.
@@ -1299,7 +1288,6 @@ _(Alan Greenspan, Mwenyekiti wa FED, benki kuu ya Marekani, kutoka 1987 hadi 200
 Kwa miaka mingi, viongozi wa sera za kifedha walieleza kwamba ikiwa faida itabinafsishwa wakati kila kitu kinakwenda vizuri, hasara itaunganishwa katika kesi ya kufilisika (bailouts, mipango ya uokoaji, udanganyifu wa kiwango cha riba, fedha za uchapishaji, nk). Kwa kufanya hivyo, waliunda hatari ya kimaadili, waliwezesha uchukuaji hatari usio na sababu, na walihimiza ulimwengu wa kifedha kuishi bila kuwajibika. Kwa hivyo waliingiza fedha katika mgogoro tuliopata.
 
 
-![image](assets/en/104.webp)
 
 
 Na jambo hilo litajirudia kwa muda usiojulikana mradi benki zitaendelea kuwa chini ya utawala wa mamlaka kuu zinazopaswa kuzilinda kwa kuondoa uhuru wote wa maamuzi na uendeshaji.
@@ -1413,13 +1401,11 @@ Ni lazima ifafanuliwe kwamba maendeleo haya kwa njia ya uwajibikaji sio moja kwa
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
 
-![image](assets/en/113.webp)
 
 
 Frédéric Bastiat, katika kijitabu chake maarufu "Sheria," analaani upotoshaji wa sheria unaojumuisha kuhalalisha, chini ya jina la "mshikamano," kile ambacho lazima kiitwe uporaji. Hakika, kuna mkanganyiko katika kutaka kulazimisha udugu kupitia sheria, kile tunachoweza kuita leo "haki ya kijamii" au mshikamano.
 
 
-![image](assets/en/114.webp)
 
 
 Kwa maana maadili hufafanuliwa kama tabia ya hiari. Wakati mtu binafsi analazimishwa kutoa kitu ambacho hataki kutoa, yeye huwa mwathirika wa wizi.
@@ -1482,7 +1468,6 @@ Kwa hakika, mshikamano wa ndani ya familia, mshikamano wa ndani, au ufadhili uli
 Mara nyingi ni mtindo kuomboleza "ubinafsi" ambao ungetawala katika jamii huria. Lakini kinyume kabisa ni kweli. Wakati jamii inaelemewa na kodi na watu binafsi hawamiliki mali zao tena, hawahimizwa kutoa bali kujitoa wenyewe.
 
 
-![image](assets/en/119.webp)
 
 
 Kwa kweli, jumuiya huru ya kiraia haitegemei ubinafsi: uchumi wa soko unafanya kazi kwa misingi ya huduma kwa jirani na usawa. Mtu anaweza tu kutumikia maslahi yake mwenyewe kwa kutumikia maslahi ya mwingine, kwa kumpa mwenzake mwenzake ambayo inaongoza kwa manufaa ya Ubadilishanaji. Kwa maneno mengine, ni ubadilishanaji wa hiari ambao unaunda mshikamano wa kweli.
@@ -1558,7 +1543,6 @@ Kwa Rousseau, mali sio kabla ya sheria; ni mkataba tu ulioanzishwa kwa utashi wa
 Kwa mfano: haki ya kufanya kazi au haki ya makazi.
 
 
-![image](assets/en/123.webp)
 
 
 Ili nipate kitu bila malipo, lazima mtu alipe kwa niaba yangu. Na ikiwa ni Serikali inayolipa, kwa kuwa haitoi utajiri, inaweza tu kufanya hivyo kwa kuchukua nyumba kutoka kwa mtu, au sawa na hiyo, ili kunipa mimi.
@@ -1575,7 +1559,6 @@ Katika mfumo wa uhuru wa asili, kuna sheria ya asili, isiyotegemea matakwa ya wa
 Hapa, Bastiat anajilinganisha na urithi wa Wanafiziokrati, na zaidi ya hapo, na mapokeo ya falsafa ya sheria ya Cicero na Aristotle. Sheria haileti haki. Dhamira yake ni kuwatetea na hivyo kutetea mali, mali ya mtu mwenyewe, uadilifu wa mtu, na mali ya matunda ya kazi ya mtu.
 
 
-![image](assets/en/124.webp)
 
 _(Cicero)_
 
@@ -1692,7 +1675,6 @@ Kwa hivyo Bastiat anatarajia, karne moja kabla, uchambuzi wa utendakazi wa soko 
 
 ![image](assets/en/135.webp)
 
-![image](assets/en/136.webp)
 
 
 Zaidi ya hayo, Bastiat anadai, Serikali haina haki ambazo hazipo kwanza kwa mtu binafsi. Kwa nini Serikali ina haki ya kudhamini, hata kwa nguvu, mali ya kila mtu binafsi? Kwa sababu tu haki hii ipo kwa mtu binafsi. Mtu hawezi kuwanyima watu haki ya kujilinda, haki ya kutumia nguvu ikiwa ni lazima kurudisha mashambulizi dhidi ya watu wao, uwezo wao na mali zao. Haki hii ya asili ya kujilinda, ambayo inakaa kwa wananchi wote, inaweza kuchukua fomu ya pamoja na kuhalalisha nguvu ya kawaida.
@@ -1731,7 +1713,6 @@ Kwa muhtasari, serikali inapovuka dhamira yake ya kutetea watu na mali, inahimiz
 Aliandika Frédéric Bastiat katika kijitabu kifupi kiitwacho Jimbo.
 
 
-![image](assets/en/138.webp)
 
 
 ## Urithi wa Frédéric Bastiat
@@ -1783,7 +1764,6 @@ Lakini kama Bastiat alivyoonyesha ipasavyo, uingiliaji kati wa serikali una atha
 Ikiwa tunaangalia mambo kutoka kwa pembe hii, Reagan alielezea wafanyakazi wa GE, miujiza inayoitwa ya matumizi ya serikali inaonekana kwa mwanga tofauti kabisa. Kwa sababu ushuru hukatisha tamaa uzalishaji, na utajiri unaotokana na matumizi ya umma hauwezi kufidia kikamilifu wale ambao walizuiwa kuzaliwa na ushuru unaotozwa kulipia gharama hizi.
 
 
-![image](assets/en/138.webp)
 
 Kimsingi, Reagan alichukua kutoka kwa Bastiat kadhaa muhimu vipengele vya maono huria ya jamii na mwanadamu: ukuu wa asasi za kiraia juu ya serikali, thamani ya uchaguzi na uwajibikaji wa mtu binafsi, umuhimu wa mfanyabiashara katika kuunda utajiri, umuhimu wa mfumo wa kisheria unaobadilika na mdogo, ambao unaruhusu uaminifu na heshima kwa mikataba, sheria ya msingi kwamba utajiri lazima uundwe kabla ya kugawanywa kwa kila mtu.
 

@@ -1,0 +1,9 @@
+question: Ni ingingo izihe zo gucungera umutekano zikenewe cane igihe umuntu akora konti ya Umbrel?
+answer: Gukoresha 2FA
+wrong_answers:
+  - Guhagarika ijambobanga
+  - Gukoresha kode ya PIN
+  - Guhagarika amahuzwa yose
+explanation: |
+  2FA yongerako uburinzi kandi iraremeshwa cane cane iyo ukoresheje urudodo rwa Lightning canke ukwiyakira gukomeye.
+reviewed: true

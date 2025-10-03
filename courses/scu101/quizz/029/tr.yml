@@ -1,9 +1,10 @@
-question: Verilerinizi fidye yazılımı saldırılarından korumak için basit bir çözüm nedir?
+question: Verilerinizi fidye yazılımı (ransomware) saldırılarından korumak için basit bir çözüm nedir?
 answer: Önemli verilerinizi düzenli olarak harici bir cihaza veya güvenli bir çevrimiçi depolama hizmetine yedekleyin.
 wrong_answers:
   - Bilgisayarınıza birden fazla antivirüs yazılım programı yükleyin ve periyodik taramalar yapın.
   - Bilgisayarınızı düzenli olarak değiştirin veya işletim sisteminizi (OS) yeniden yükleyin.
   - Cihazınızda gizleyecek bir şeyiniz yoksa herkese açık bir Wi-Fi ağı kullanabilirsiniz.
 explanation: |
-  Verilerinizi düzenli olarak yedeklemek, bir siber saldırı veya donanım arızası durumunda önemli bilgileri kaybetmeden verilerinizi kurtarmanıza olanak tanır.
+  Verilerinizi düzenli olarak yedeklemek, bir siber saldırı veya donanım arızası durumunda önemli bilgileri kaybetmeden 
+  verilerinizi kurtarmanıza olanak tanır.
 reviewed: true

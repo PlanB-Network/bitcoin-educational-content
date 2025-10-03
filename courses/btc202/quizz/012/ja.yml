@@ -1,0 +1,9 @@
+question: どの段階が未成年の役割の一部ですか？
+answer: Mempoolから候補ブロックを作る
+wrong_answers:
+  - MempoolからBlockchain全体を検証する
+  - ユーザー用のBitcoinアドレスを作成する
+  - ウォレットの秘密鍵を保管する
+explanation: |
+  MinerはMempoolからトランザクションを選択して候補ブロックを構築し、Proof of Workによる検証を試みる。
+reviewed: true

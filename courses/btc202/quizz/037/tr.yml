@@ -1,0 +1,9 @@
+question: Bitcoin ev düğümü için en iyi uzlaşma olarak ne tür bir makine sunuluyor?
+answer: NUC tipi bir mini-PC
+wrong_answers:
+  - Dizüstü bilgisayar
+  - Bir süper bilgisayar
+  - Bir oyun konsolu
+explanation: |
+  Mini-PC'ler (NUC, Tiny, OptiPlex Micro...) düşük güç tüketimi, güvenilir ve kolay adapte edilebilir olmaları nedeniyle ideal bir uzlaşmadır.
+reviewed: true

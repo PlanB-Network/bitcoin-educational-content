@@ -101,16 +101,16 @@ Untuk menyelesaikan masalah ini, kriptografi *asimetris*, juga dikenal sebagai k
 
 Jenis kriptografi ini memungkinkan implementasi baik algoritma enkripsi maupun proses tanda tangan. Enkripsi asimetris melibatkan penggunaan kunci publik sebagai kunci enkripsi dan kunci privat sebagai kunci dekripsi. Pengguna menghasilkan sepasang kunci, menyimpan kunci privat, dan membagikan kunci publik dengan koresponden mereka sehingga mereka dapat mengirim pesan. Jenis enkripsi ini analog dengan kotak surat yang digunakan penerima untuk menerima surat dan yang hanya mereka yang memiliki kuncinya.
 
-![Enkripsi Asimetris](assets/id/01.webp)
+![Enkripsi Asimetris](assets/en/001.webp)
 Tanda tangan digital, di sisi lain, bergantung pada penggunaan kunci privat sebagai kunci tanda tangan dan kunci publik sebagai kunci verifikasi. Pengguna menghasilkan sepasang kunci, menandatangani sebuah pesan dengan kunci privat, dan mengirimkannya kepada koresponden mereka, yang dapat memverifikasi keasliannya menggunakan kunci publik. Dengan demikian, mereka tidak perlu mengetahui kunci privat.
-![Tanda tangan digital](assets/id/02.webp)
+![Tanda tangan digital](assets/en/002.webp)
 
 Kriptografi asimetris ditemukan secara independen oleh beberapa peneliti selama tahun 1970-an. Namun, yang pertama kali mempresentasikan temuan mereka adalah Whitfield Diffie dan Martin Hellman, dua kriptografer dari Universitas Stanford. Pada November 1976, mereka menerbitkan sebuah makalah berjudul "[New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf)" dalam jurnal *IEEE Transactions on Information Theory*, yang mendeskripsikan algoritma pertukaran kunci (dimaksudkan untuk transmisi kunci rahasia untuk enkripsi simetris) serta proses tanda tangan digital. Dalam pengantar makalah ini, mereka menulis:
 > Hari ini kita berdiri di ambang revolusi dalam kriptografi. Perkembangan perangkat keras digital yang murah telah membebaskan keterbatasan desain komputasi mekanis dan menurunkan biaya perangkat kriptografi tingkat tinggi hingga dapat digunakan dalam aplikasi komersial seperti mesin kas jarak jauh dan terminal komputer. Pada gilirannya, aplikasi semacam itu menciptakan kebutuhan akan jenis sistem kriptografi baru yang meminimalkan kebutuhan akan saluran distribusi kunci yang aman dan menyediakan padanan tanda tangan tertulis. Pada saat yang sama, perkembangan teoretis dalam teori informasi dan ilmu komputer menunjukkan harapan untuk menyediakan sistem kriptografi yang terbukti aman, mengubah seni kuno ini menjadi sebuah ilmu pengetahuan.
 
 Berikut adalah sebuah foto dari tahun 1977, yang diambil oleh Chuck Painter untuk Layanan Berita Stanford, di mana Anda dapat melihat Whitfield Diffie (di sebelah kanan) dan Martin Hellman (di tengah). Orang di sebelah kiri adalah kriptografer Ralph Merkle, yang sedang berada di ambang penemuan yang sama.
 
-![Ralph Merkle, Martin Hellman, dan Whitfield Diffie pada tahun 1977](assets/id/03.webp)
+![Ralph Merkle, Martin Hellman, dan Whitfield Diffie pada tahun 1977](assets/en/003.webp)
 
 Artikel oleh Diffie dan Hellman membuka jalan bagi banyak inovasi. Salah satunya adalah [sistem kriptografi RSA](https://people.csail.mit.edu/rivest/Rsapaper.pdf), yang dirancang pada tahun 1977 oleh kriptografer Ronald Rivest, Adi Shamir, dan Leonard Adleman (yang memberikan nama mereka) dan dipatenkan oleh MIT pada tahun 1983. Sistem ini memungkinkan baik enkripsi maupun penandatanganan pesan, berkat pertukaran peran kunci. RSA dipresentasikan secara publik untuk pertama kalinya dalam [artikel oleh Martin Gardner](https://simson.net/ref/1977/Gardner_RSA.pdf) yang diterbitkan dalam majalah *Scientific American* pada Agustus 1977, yang berjudul "Mathematical Games: A new kind of cipher that would take millions of years to break."
 
@@ -121,7 +121,7 @@ Elemen kriptografi dasar Bitcoin berasal dari penelitian ini. Skema tanda tangan
 
 Revolusi di bidang kriptografi ini juga menginspirasi David Chaum yang masih muda, seorang ilmuwan komputer dari Pantai Barat dan saat itu mahasiswa doktoral di Universitas Berkeley. Ia dengan cepat menjadi bersemangat tentang perlindungan privasi. Ia memang sangat prihatin tentang masa depan kebebasan dan kerahasiaan dalam masyarakat yang semakin terkomputerisasi.
 
-![David Chaum di tahun 90an](assets/id/04.webp)
+![David Chaum di tahun 90an](assets/en/004.webp)
 David Chaum di tahun 90an (sumber: [Elixxir](https://www.youtube.com/watch?v=X45NmCBpYUw))
 
 Dalam [artikel dasarnya](https://www.cs.ru.nl/~jhh/pub/secsem/chaum1985bigbrother.pdf), "Security Without Identification: Transaction Systems to Make Big Brother Obsolete" yang diterbitkan pada tahun 1985 di *Communications of the ACM*, ia menulis:
@@ -141,7 +141,7 @@ Dalam pengoperasian teknisnya, model eCash didasarkan pada proses tanda tangan b
 
 Berikut adalah ilustrasi dari berbagai langkah yang terlibat dalam penciptaan dan penggantian catatan Chaumian (dari *L'Élégance de Bitcoin*):
 
-![Penciptaan dan penggantian catatan Chaumian](assets/id/05.webp)
+![Penciptaan dan penggantian catatan Chaumian](assets/en/005.webp)
 
 Aksi-aksi (masing-masing sesuai dengan operasi matematika atau transmisi informasi) adalah sebagai berikut:
 
@@ -164,13 +164,13 @@ Semua ini menyiratkan bahwa tidak ada bank dalam sistem yang dapat menghubungkan
 ### Implementasi eCash
 Pada tahun 1990, David Chaum mendirikan perusahaannya sendiri, DigiCash B.V., untuk mengimplementasikan idenya tentang uang elektronik. Perusahaan ini berbasis di Amsterdam, Belanda, dan memegang paten atas penemuannya. Pada saat itu, internet masih dalam tahap awal (Web masih dalam pengembangan) dan e-commerce belum ada; dengan demikian, model eCash merupakan peluang yang sangat besar.
 
-![Logo DigiCash](assets/id/06.webp)
+![Logo DigiCash](assets/en/006.webp)
 
 Namun, bukan perusahaan David Chaum yang pertama kali menguji model tersebut: melainkan para *cypherpunk* yang mengimplementasikannya tanpa menghiraukan paten dan tanpa meminta izin untuk melakukannya. Dengan demikian, sebuah protokol bernama Magic Money [diusulkan](https://cypherpunks.venona.com/date/1994/02/msg00247.html) lewat daftar email *cypherpunks* pada 4 Februari 1994, oleh seorang pengembang anonim dengan nama Product Cypher.  Protokol ini memungkinkan pembuatan mata uang sendiri dengan mengoperasikan server email yang berfungsi sebagai percetakan eCash. Para cypherpunk bergembira karena ini, menciptakan berbagai macam unit akun seperti Tacky Tokens, GhostMarks, DigiFrancs, dan NexusBucks. Namun, kegunaan token-token ini masih sedikit, dan pertukaran sangat jarang terjadi. 
 
 Di sisi DigiCash, setelah beberapa tahun pengembangan, sebuah prototipe [dipresentasikan](https://chaum.com/wp-content/uploads/2022/01/05-27-94-World_s-first-electronic-cash-payment-over-computer-networks.pdf) pada Mei 1994 di konferensi internasional pertama tentang World Wide Web di CERN di Jenewa. Perusahaan kemudian melakukan uji coba yang dimulai pada 19 Oktober tahun itu, dengan penerbitan unit yang disebut "CyberBucks" yang tidak didukung oleh mata uang lain. Berbagai pedagang menerima CyberBucks sebagai bagian dari eksperimen ini. Para cypherpunk juga mengikutinya, menggunakannya untuk melakukan pertukaran nyata. Dengan demikian, CyberBucks memperoleh nilai di pasar. Namun, nilai ini runtuh ketika eCash diterapkan dalam sistem perbankan tradisional.
 
-![Foto (blur) dari tim DigiCash pada tahun 1995](assets/id/07.webp)
+![Foto (blur) dari tim DigiCash pada tahun 1995](assets/en/007.webp)
 Foto (blur) dari tim DigiCash pada tahun 1995: David Chaum ada di paling kiri (sumber: [Chaum.com](https://chaum.com/ecash/))
 
 Pengenalan eCash ke dalam sistem perbankan dimulai pada Oktober 1995 dengan dimulainya kemitraan DigiCash dengan Mark Twain Bank, sebuah bank kecil di Missouri. Berbeda dengan kasus CyberBucks yang nilai tukarnya mengambang, unit akun ini didukung oleh dolar AS. Antara tahun 1996 dan 1998, enam bank mengikuti Mark Twain Bank: Merita Bank di Finlandia, Deutsche Bank di Jerman, Advance Bank di Australia, Bank Austria di Austria, Den norske Bank di Norwegia, dan Credit Suisse di Swiss. Pers kemudian menjanjikan masa depan yang cerah untuk sistem ini.
@@ -212,7 +212,7 @@ Acuan terhadap emas dalam sistem moneter akhirnya ditinggalkan pada tahun 1971 k
 
 Dengan dicabutnya larangan kepemilikan emas dan perkembangan internet yang dimulai pada tahun 1970-an, gagasan untuk menyebarkan mata uang privat muncul kembali. Inilah yang terjadi pada Bernard von NotHaus, yang meluncurkan Liberty Dollar pada tahun 1998, mata uang berbasis emas dan perak yang dapat ditemukan dalam bentuk koin perak dan nota representatif. Sistem ini dikelola oleh organisasi nirlaba bernama NORFED (akronim untuk National Organization for the Repeal of the Federal Reserve and Internal Revenue Code). Mulai tahun 2003, Liberty Dollar juga tersedia dalam bentuk digital, melalui sistem akun yang mirip dengan e-gold (lihat bagian selanjutnya). Sistem ini mengalami tingkat keberhasilan tertentu. Selain koin yang beredar, brankas NORFED berisi sekitar 8 juta dolar dalam logam mulia untuk memastikan konvertibilitas mata uang, termasuk 6 juta untuk mendukung unit digital.
 
-![2003 Silver Liberty Dollar](assets/id/08.webp)
+![2003 Silver Liberty Dollar](assets/en/008.webp)
 
 Liberty Dollar (10 dolar) dalam perak dari tahun 2003 (sumber: [Numista](https://en.numista.com/catalogue/exonumia242820.html))
 
@@ -225,7 +225,7 @@ Emas bukan satu-satunya logam yang terlibat; pengguna juga bisa memiliki dan men
 
 Sistem e-gold memanfaatkan sepenuhnya Web yang baru berkembang, terutama browser Netscape yang saat itu masih sangat baru. Setiap klien dapat mengakses akun mereka langsung dari situs web, tanpa perlu menginstal perangkat lunak khusus. Pada masa itu, platform ini memiliki performa yang sangat baik, menggunakan sistem penyelesaian bruto waktu nyata (real-time gross settlement) yang terinspirasi dari transfer antarbank. Beginilah tampilan proses pengiriman e-gold pada tahun 2005 (gambar dari [tutorial](https://www.geocities.ws/rizuan_mahrol/setpbystep.html) saat itu):
 
-![Mengirim di e-gold pada tahun 2005](assets/id/09.webp)
+![Mengirim di e-gold pada tahun 2005](assets/en/009.webp)
 
 Sistem e-gold meraih kesuksesan besar: pada puncaknya di tahun 2006, sistem ini [menjamin](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html) 3,6 ton emas, senilai lebih dari 80 juta dolar, [memproses](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) 75.000 transaksi per hari, dengan volume tahunan 3 miliar dolar, dan mengelola lebih dari 2,7 juta akun. Kesuksesan ini tiba-tiba terhenti menyusul intervensi dari Negara. Setelah penyelidikan yang dilakukan oleh Secret Service, Douglas Jackson, dua perusahaannya, dan rekan-rekannya [didakwa](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html) pada 27 April 2007, oleh Departemen Kehakiman karena memfasilitasi pencucian uang dan menjalankan bisnis transfer uang tanpa lisensi. Pada November 2008, Douglas Jackson dinyatakan bersalah dan dijatuhi hukuman 3 tahun masa percobaan, termasuk 6 bulan tahanan rumah di bawah pengawasan secara elektronik. Setelah upaya yang tidak berhasil untuk mendapatkan lisensi, e-gold terpaksa ditutup secara permanen pada November 2009.
 
@@ -235,7 +235,7 @@ Sistem lain juga diciptakan mengikuti model yang sama. Kita bisa menyebut GoldMo
 
 Contoh lain dari sistem mata uang privat terpusat adalah Liberty Reserve, yang memungkinkan penggunanya untuk menyimpan dan mentransfer mata uang elektronik yang dipatok pada Dolar AS, Euro, atau emas.Sistem ini diciptakan oleh Arthur Budovsky, seorang warga Amerika keturunan Ukraina, dan Vladimir Kats, seorang imigran Rusia dari Saint Petersburg. Pada tahun 2006, Arthur Budovsky pindah kewarganegaraan ke Kosta Rika, yang saat itu dianggap sebagai surga pajak, di mana ia mendaftarkan perusahaannya, Liberty Reserve S.A.
 
-![Logo Liberty Reserve pada tahun 2009](assets/id/10.webp)
+![Logo Liberty Reserve pada tahun 2009](assets/en/010.webp)
 
 Logo Liberty Reserve pada tahun 2009 (sumber: [Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
 
@@ -256,7 +256,7 @@ Visi awal PayPal yang revolusioner, sejalan dengan visi libertarian Peter Thiel.
 
 > Tentu saja, apa yang kita sebut 'nyaman' bagi pengguna Amerika akan menjadi revolusioner bagi negara-negara berkembang. Banyak pemerintah di negara-negara ini bermain-main dengan mata uang mereka secara sembarangan. Mereka menggunakan inflasi dan terkadang devaluasi mata uang secara besar-besaran, seperti yang kita lihat di Rusia dan beberapa negara Asia Tenggara tahun lalu, untuk mengambil kekayaan dari warganya. Sebagian besar orang biasa di sana tidak pernah memiliki kesempatan untuk membuka rekening luar negeri atau mendapatkan lebih dari beberapa lembar uang dari mata uang stabil seperti dolar AS. Akhirnya, PayPal akan dapat mengubah ini. Di masa depan, ketika kita menyediakan layanan kita di luar AS dan seiring dengan penetrasi Internet yang terus meluas ke semua lapisan ekonomi masyarakat, PayPal akan memberikan warga di seluruh dunia kendali yang lebih langsung atas mata uang mereka daripada yang pernah mereka miliki sebelumnya. Hampir tidak mungkin bagi pemerintah yang korup untuk mencuri kekayaan dari rakyatnya melalui cara-cara lama mereka, karena jika mereka mencoba, orang-orang akan beralih ke dolar, Pound, atau Yen, yang secara efektif membuang mata uang lokal yang tidak berharga demi sesuatu yang lebih aman.
 
-![Peter Thiel pada 20 Oktober 1999, selama pidatonya di Oakland, California untuk Independent Institute](assets/id/11.webp)
+![Peter Thiel pada 20 Oktober 1999, selama pidatonya di Oakland, California untuk Independent Institute](assets/en/011.webp)
 Peter Thiel pada 20 Oktober 1999, dalam pidatonya di Oakland, California untuk Independent Institute (sumber: [Youtube](https://www.youtube.com/watch?v=e-X8D1gOU1E))
 
 Namun, segalanya tidak berkembang sesuai keinginan, dan PayPal harus mematuhi segala macam regulasi keuangan, hingga layanan ini kini terkenal karena sensor pembayaran dan pembekuan akunnya di seluruh dunia. Adalah naif untuk percaya bahwa sistem seperti itu dapat menantang kekuasaan yang sudah ada.
@@ -286,14 +286,14 @@ Jaringan terpusat: Bergantung pada satu node tunggal.
 Jaringan terdistribusi: Setiap titik adalah node.
 Jaringan terdesentralisasi (non-terdistribusi): Bergantung pada jaringan terdistribusi dari beberapa node.
 
-![Jaringan terpusat, desentralisasi, dan terdistribusi menurut Paul Baran](assets/id/12.webp)
+![Jaringan terpusat, desentralisasi, dan terdistribusi menurut Paul Baran](assets/en/012.webp)
 
 Dua model utama dapat diturunkan dari pertimbangan ini: model client-server, di mana server pusat menanggapi permintaan klien, dan model peer-to-peer, di mana setiap node memiliki peran yang sama dalam sistem. Model terakhir ini sangat berguna untuk berbagi file di tahun 2000-an, dengan penciptaan BitTorrent dan protokol serupa lainnya. Jaringan Tor terdesentralisasi, bukan murni peer-to-peer.
 Masalah yang dihadapi dalam arsitektur terdistribusi adalah masalah konsensus terdistribusi, yang umumnya disebut Masalah Jenderal Bizantium (Byzantine Generals Problem). Masalah ini diformalkan oleh Leslie Lamport, Robert Shostak, dan Marshall Pease dalam sebuah [makalah] https://lamport.azurewebsites.net/pubs/byz.pdf)  makalah yang diterbitkan pada tahun 1982. Masalah ini membahas tantangan keandalan transmisi dan integritas peserta dalam sistem peer-to-peer, dan berlaku dalam kasus di mana komponen-komponen sistem komputer perlu mencapai kesepakatan.
 
 Masalah ini dinyatakan dalam bentuk metafora yang melibatkan para jenderal pasukan Kekaisaran Bizantium, yang mengepung kota musuh dengan pasukan mereka yang berniat menyerang. Para jenderal ini hanya dapat berkomunikasi melalui pembawa pesan. Tujuannya adalah menemukan strategi (yaitu, sebuah algoritma) yang dapat mengatasi keberadaan pengkhianat dan memastikan bahwa semua jenderal yang loyal menyepakati rencana pertempuran agar serangan berhasil. Berikut adalah ilustrasinya (sumber: L'Élégance de Bitcoin):
 
-![Masalah Jenderal Byzantine](assets/id/13.webp)
+![Masalah Jenderal Byzantine](assets/en/013.webp)
 
 Penyelesaian masalah ini penting untuk sistem terdistribusi yang akan mengelola unit akun. Sistem semacam itu memang mengharuskan para partisipan menyepakati kepemilikan unit akun, yaitu, siapa memiliki apa.
 
@@ -309,7 +309,7 @@ Namun, timestamping sangat berguna di dunia digital, di mana file (teks, gambar,
 Pada tahun 1991, sebuah teknik timestamping rahasia dan aman diusulkan oleh Stuart Haber dan Scott Stornetta, dua peneliti yang bekerja untuk Bell Communications Research Inc. (umumnya disebut "Bellcore"), sebuah konsorsium R&D yang berlokasi di New Jersey.
 Dalam [makalah mereka](http://www.staroceans.org/e-book/Haber_Stornetta.pdf) yang berjudul "How to time-stamp a digital document", mmereka menjelaskan bagaimana layanan timestamping bersertifikat dapat menggunakan fungsi satu arah (seperti fungsi hash MD4) dan algoritma tanda tangan untuk meningkatkan kerahasiaan dokumen klien dan keandalan sertifikasi. Secara khusus, idenya adalah untuk merantai informasi dengan melibatkan timestamp sebelumnya dalam penerapan fungsi satu arah.
 
-![Contoh penandaan waktu bersertifikat](assets/id/14.webp)
+![Contoh penandaan waktu bersertifikat](assets/en/014.webp)
 Contoh penandaan waktu bersertifikat (sumber: [Wikimedia](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg))
 
 Haber dan Stornetta mengimplementasikan ide mereka dengan menerbitkan sidik jari kriptografi (yang dihasilkan dari hashing data yang berguna) di kolom iklan baris New York Times mulai tahun 1992. Mereka kemudian mendirikan perusahaan mereka sendiri pada tahun 1994, Surety Technologies, dengan tujuan mendedikasikan diri sepenuhnya pada aktivitas ini. Mereka  [dikenal](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain) karena menciptakan rantai timestamp pertama, di mana sidik jari sebelumnya diperhitungkan dalam perhitungan sidik jari baru yang akan diterbitkan di surat kabar, yang merupakan cikal bakal blockchain Bitcoin.
@@ -325,7 +325,7 @@ Dengan semakin populernya Internet di tahun 1990-an, masalah email yang tidak di
 
 Lebih spesifik lagi, ini melibatkan pencarian tabrakan parsial dari fungsi hash yang dipertimbangkan, yaitu, mendapatkan dua pesan yang memiliki sidik jari yang dimulai dengan bit data yang sama (catatan: dari versi 1.0 yang dirilis pada tahun 2002, ini melibatkan penemuan tabrakan parsial untuk zero print, yaitu menemukan pre-image yang sidik jarinya dimulai dengan sejumlah bit nol biner yang ditentukan). Karena fungsi hash adalah satu arah, pencapaian seperti itu hanya dapat direalisasikan dengan menguji kemungkinan yang berbeda satu per satu, yang membutuhkan pengeluaran energi.
 
-![Adam Back pada tahun 2001](assets/id/15.webp)
+![Adam Back pada tahun 2001](assets/en/015.webp)
 
 Adam Back pada tahun 2001 (sumber: [arsip halaman pribadi Adam Back](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
@@ -346,14 +346,14 @@ Meskipun cukup cerdik, konsep b-money yang diajukan oleh Wei Dai tidak sepenuhny
 
 Setelah publikasi di milis, b-money menarik perhatian para cypherpunk, dan khususnya [perhatian Adam Back](https://cypherpunks.venona.com/date/1998/12/msg00203.html). Namun, Wei Dai tidak pernah mengimplementasikan modelnya, bukan hanya karena tidak berfungsi, tetapi juga karena [kekecewaan](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d) kriptografer tersebut terhadap anarkisme kripto. Meskipun demikian, b-money akhirnya dikutip dalam white paper Bitcoin, menjadikannya salah satu pendahulunya.
 
-![Penyebutan b-money dalam white paper Bitcoin](assets/id/16.webp)
+![Penyebutan b-money dalam white paper Bitcoin](assets/en/016.webp)
 
 ### bit gold: emas digital sebelum Bitcoin
 Model kedua yang muncul dari gagasan cypherpunk adalah ide bit gold yang diimpikan oleh Nick Szabo pada tahun 1998. Dia adalah seorang ilmuwan komputer Amerika keturunan Hongaria, yang pernah bekerja sebagai konsultan untuk DigiCash selama enam bulan. Seorang cypherpunk, ia dikenal karena telah memformalkan gagasan kontrak pintar (smart contract) pada tahun 1995.
 
 Pada tahun 1994, Nick Szabo telah membuat milis pribadi bernama libtech-l, yang bertujuan, seperti namanya, untuk menjadi wadah diskusi tentang teknik pembebasan, memungkinkan perlindungan kebebasan individu dari serangan otoritas. Para cypherpunk seperti Wei Dai dan Hal Finney memiliki akses ke milis ini, serta ekonom Larry White dan George Selgin, pendukung kompetisi mata uang Hayekian dan free banking.
 
-![Nick Szabo pada tahun 1997](assets/id/17.webp)
+![Nick Szabo pada tahun 1997](assets/en/017.webp)
 
 Nick Szabo pada tahun 1997 (sumber: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
 
@@ -376,7 +376,7 @@ Token proof of work yang dapat digunakan kembali dikelola oleh server, yang bert
 
 Berikut adalah ilustrasi [dirancang](https://nakamotoinstitute.org/finney/rpow/slides/slide004.html) oleh Hal Finney sendiri:
 
-![Pertukaran dalam RPOW](assets/id/18.webp)
+![Pertukaran dalam RPOW](assets/en/018.webp)
 
 Hal Finney tidak hanya merancang model tersebut tetapi juga secara pribadi mengimplementasikannya. Pada tanggal 15 Agustus 2004, ia [mengumumkan](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) peluncuran sistem RPOW di milis cypherpunks, selain mendokumentasikan operasinya di situs web khusus (rpow.net). Ia kemudian [mempresentasikannya](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) pada konferensi CodeCon 2005 yang diadakan di San Francisco, di mana ia membahas potensi penggunaan token proof-of-work, yaitu: transfer nilai, regulasi spam, perdagangan dalam video game, perjudian online seperti poker, dan anti-leeching pada protokol berbagi file seperti BitTorrent.
 
@@ -390,7 +390,7 @@ Dengan demikian, penggunaan RPOW yang sebenarnya bersifat anekdot, tetapi Hal Fi
 ### Ripple: Desentralisasi Kredit
 Model pendahulu Bitcoin lainnya yang kurang dikenal, namun tetap signifikan, adalah protokol kredit terdistribusi Ripple, yang dirancang oleh pengembang Kanada Ryan Fugger pada tahun 2004. Pemuda Kanada ini terinspirasi oleh konsep [sistem perdagangan pertukaran lokal](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local) (local exchange trading system - LETS), sesuatu yang ia alami di Vancouver sebelum merancang protokolnya. Ia menerbitkan [white paper](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf)  Ripple pada 14 April 2004, dan kemudian mengimplementasikannya melalui proof of concept yang disebut RipplePay, yang beroperasi pada server pusat dan memungkinkan pengguna untuk terhubung hanya dengan alamat email.
 
-![Ryan Fugger sekitar tahun 2010](assets/id/19.webp)
+![Ryan Fugger sekitar tahun 2010](assets/en/019.webp)
 
 Ryan Fugger sekitar tahun 2010 (sumber: [Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
@@ -438,7 +438,7 @@ Pada bulan Agustus 2008, Satoshi memutuskan untuk mempersiapkan peluncuran Bitco
 
 Pada tanggal 20 Agustus, pencipta Bitcoin [menghubungi](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf) Adam Back dengan mengiriminya email yang menanyakan saran tentang cara mengutip makalahnya tentang Hashcash di white paper. Sulit untuk tidak melihat ini sebagai dalih untuk memastikan bahwa penemu Hashcash menyadari sistem barunya.
 
-![Adam Back in 2012](assets/id/20.webp)
+![Adam Back in 2012](assets/en/020.webp)
 
 Adam Back pada tahun 2012 (sumber: [Halaman pribadi Adam Back](http://www.cypherspace.org/adam/))
 
@@ -469,7 +469,7 @@ Dia juga mencantumkan properti utama dari modelnya:
 
 Dalam emailnya, ia menyertakan tautan ke white paper, yang sudah di-host di Bitcoin.org. Dokumen tersebut adalah dokumen singkat setebal 9 halaman, disajikan sebagai artikel ilmiah, yang menjelaskan cara kerja teknis Bitcoin. Dokumen ini berfokus pada masalah pembayaran online.
 
-![Judul dan ringkasan dari versi pertama white paper (Oktober 2008)](assets/id/21.webp)
+![Judul dan ringkasan dari versi pertama white paper (Oktober 2008)](assets/en/021.webp)
 
 Setelah pengumuman ini, Satoshi menerima beberapa tanggapan, namun sebagian besar skeptis. Ia khususnya dikritik karena tiga hal:
 - Pertama, cypherpunk James A. Donald [mempertanyakan](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html)  skalabilitas sistem dengan mengatakan bahwa "itu tidak tampaknya dapat diskalakan ke ukuran yang diperlukan." Satoshi [menjawab](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) bahwa "bandwidth mungkin tidak serumit yang Anda pikirkan."
@@ -480,7 +480,7 @@ Setelah pengumuman ini, Satoshi menerima beberapa tanggapan, namun sebagian besa
 
 Meskipun skeptisisme adalah sikap yang dominan di milis, tetapi tidak ditunjukan oleh semua orang yang berlangganan milis tersebut. Secara khusus, satu orang menonjol dari yang lain dengan antusiasme mereka: Hal Finney, yang memiliki pandangan optimis tentang masa depan dan tidak pernah menyerah pada ide uang elektronik, meskipun ada kegagalan pada tahun 90-an. Ia [menyatakan](https://Bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) mengenai hal ini beberapa tahun kemudian bahwa "para kriptografer senior [...] cenderung menjadi sinis" tetapi ia "lebih idealistis" karena ia "selalu menyukai kriptografi, misterinya, dan paradoksnya." (asli: "I've noticed that cryptographic graybeards (I was in my mid 50's) tend to get cynical. I was more idealistic; I have always loved crypto, the mystery and the paradox of it.") Dengan demikian, pada 7 November, ia menulis dalam [email](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html) ke milis bahwa "Bitcoin tampaknya merupakan ide yang sangat menjanjikan" dan dibandingkan model Satoshi dengan bit gold milik Nick Szabo. (asli: "Bitcoin seems to be a very promising idea.")
 
-![Hal Finney pada tahun 2007](assets/id/22.webp)
+![Hal Finney pada tahun 2007](assets/en/022.webp)
 
 Hal Finney pada tahun 2007
 
@@ -540,7 +540,7 @@ Dari pertukaran antara Satoshi dan Hal Finney ini muncul versi 0.1.3, yang [dipu
 
 Namun, Hal Finney bukan satu-satunya orang yang mencoba Bitcoin pada saat itu. Ini juga terjadi pada Dustin D. Trammell, seorang peneliti keamanan komputer Amerika yang saat itu tertarik pada mata uang digital (dan khususnya pada versi elektronik Liberty Dollar) yang menemukan Bitcoin melalui milis. Pada tanggal 11 Januari, ia menjalankan perangkat lunak di salah satu mesin kerjanya (tetapi ia tidak menambang [blok](https://mempool.space/block/00000000d3ec2f50772c2d42d4afb054c283555766a0ca1d8da65b9b5058a49e) pertamanya hingga tanggal 13 karena masalah teknis). Selama malam tanggal 11 hingga 12 Januari, ia menghubungi Satoshi, yang dengannya ia [berkomunikasi](https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip) secara ekstensif selama beberapa hari berikutnya. Pada tanggal 15 Januari, Dustin Trammell juga [menerima](https://mempool.space/tx/d71fd2f64c0b34465b7518d240c00e83f6a5b10138a7079d1252858fe7e6b577) 25 Bitcoin darinya.
 
-![Dustin Trammell](assets/id/23.webp)Dustin Trammell (sumber: [Arsip blog Dustin Trammell]
+![Dustin Trammell](assets/en/023.webp)Dustin Trammell (sumber: [Arsip blog Dustin Trammell]
 
 (https://web.archive.org/web/20100419181845/http://blog.dustintrammell.com/))
 
@@ -578,7 +578,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 - Di satu sisi, ini mencegah pemalsuan tanggal peluncuran jaringan dengan membuktikan bahwa sistem tidak mungkin dimulai sebelum 3 Januari, karena Satoshi tidak mungkin mengetahui berita utama tersebut sebelum surat kabar diterbitkan;
 - Di sisi lain, ini secara simbolis menunjukkan apa yang dilawan oleh Bitcoin dengan merujuk pada konteks moneter dan keuangan pada waktu itu.
 
-![The Times: Chancellor on brink of second bailout for banks](assets/id/24.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/en/024.webp)
 
 Pada masa itu, dunia memang sedang merasakan dampak penuh dari krisis keuangan yang dimulai pada tahun 2007 dengan pecahnya gelembung subprime di Amerika Serikat. Pemerintah menyelamatkan lembaga keuangan untuk mencegah kebangkrutan lebih lanjut setelah jatuhnya bank investasi Lehman Brothers pada 15 September 2008, dan bank-bank sentral terlibat dalam pelonggaran kuantitatif dengan menyuntikkan likuiditas ke pasar keuangan. Penggunaan uang publik yang diciptakan untuk tujuan ini membuat sejumlah warga gelisah yang menyadari bahwa sistem perbankan sebenarnya adalah salah satu keuntungan pribadi dan kerugian yang ditanggung bersama.
 
@@ -612,7 +612,7 @@ Selanjutnya, dalam email yang sama, Jonathan Thornburg membahas topik jaringan k
 
 Terakhir, komentar terakhir datang dari John Gilmore, anggota pendiri cypherpunks dan penjaga milis pertama gerakan tersebut dari tahun 1992 hingga 1997. Dalam email yang dikirim pada tanggal 25 Januari, ia menyoroti konsekuensi ekologis Bitcoin dan [menulis](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) bahwa "hal terakhir yang kita butuhkan adalah menyebarkan sistem yang dirancang untuk membakar semua siklus yang tersedia, mengonsumsi listrik dan menghasilkan karbon dioksida, di seluruh Internet, untuk menghasilkan sejumlah kecil bitbux demi mendapatkan email atau spam." Satoshi [menjawabnya](https://mmalmi.github.io/satoshi/#email-3) secara pribadi bahwa "akan ironis jika harus memilih antara kebebasan ekonomi dan pelestarian lingkungan." Ia menambahkan bahwa "proof of work adalah satu-satunya solusi yang ia temukan untuk membuat sistem uang elektronik peer-to-peer berfungsi" dan bahwa, bahkan jika itu mengonsumsi banyak energi, "itu masih akan membuang lebih sedikit daripada aktivitas perbankan konvensional yang intensif tenaga kerja dan sumber daya yang akan digantikannya."
 
-![John Gilmore pada tahun 2007](assets/id/25.webp)
+![John Gilmore pada tahun 2007](assets/en/025.webp)
 
 John Gilmore pada tahun 2007 (sumber: [Flickr](https://www.flickr.com/photos/35034362831@N01/2115939762/))
 
@@ -630,7 +630,7 @@ Seperti yang telah kami katakan, meskipun komunikasi Satoshi awalnya terbatas pa
 
 Pada [profilnya](https://p2pfoundation.ning.com/profile/SatoshiNakamoto), ia mengaku sebagai seorang pria Jepang, tetapi bukan hanya itu. Pembaruan antarmuka pada tahun 2011 mengungkapkan usianya: 35 tahun, yang berarti ia berusia 32 atau 33 tahun pada tahun 2009. Kemudian, pada tahun 2014, ditemukan bahwa ia telah menunjukkan tanggal lahir tertentu: 5 April 1975. Tanggal ini, yang tampaknya tidak berbahaya, kemungkinan merupakan referensi gabungan untuk pelarangan warga negara Amerika untuk memiliki emas antara tahun 1933 dan 1975 di Amerika Serikat. Hari 5 April berkaitan dengan hari pelarangan ini ditetapkan oleh [Perintah Eksekutif 6102](https://www.presidency.ucsb.edu/documents/executive-order-6102-forbidding-the-hoarding-gold-coin-gold-bullion-and-gold-certificates) yang ditandatangani oleh Presiden Franklin Delano Roosevelt pada tanggal 5 April 1933, dan tahun 1975 sesuai dengan pencabutannya dengan diberlakukannya  [Undang-undang Publik 93-373](https://www.govtrack.us/congress/bills/93/s2665/text). Detail ini sangat penting karena pelarangan ini mengakhiri standar emas klasik (di mana seseorang dapat memperoleh emas sebagai ganti uang kertas representatif), memungkinkan devaluasi dolar (melalui Gold Reserve Act pada tahun 1934), dan memfasilitasi pembentukan rezim moneter nilai tukar mengambang yang kita alami hari ini setelah Nixon Shock tahun 1971.
 
-![Profil Satoshi Nakamoto di forum P2P Foundation, tertangkap pada 17 Maret 2011](assets/id/26.webp)
+![Profil Satoshi Nakamoto di forum P2P Foundation, tertangkap pada 17 Maret 2011](assets/en/026.webp)
 
 Profil Satoshi Nakamoto di forum P2P Foundation pada 17 Maret 2011 (sumber: [tangkapan forum](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto))
 
@@ -652,7 +652,7 @@ Strategi komunikasi Satoshi secara bertahap membuahkan hasil. Pada April 2009, o
 
 Pada tanggal 12 April, Mike Hearn mengirim [email](https://plan99.net/~mike/satoshi-emails/thread1.html) kepada Satoshi di mana ia mengajukan serangkaian pertanyaan tentang Bitcoin. Dia mencatat bahwa "jarang sekali menemukan ide-ide yang benar-benar revolusioner" dan tidak lupa menyebutkan Ripple.
 
-![Mike Hearn](assets/id/27.webp)
+![Mike Hearn](assets/en/027.webp)
 
 Mike Hearn dan Satoshi Nakamoto membahas berbagai aspek Bitcoin seperti penskalaan, pembayaran mikro, cara kerja perangkat lunak, dan tidak adanya chargeback. Secara khusus, Mike Hearn bertanya kepada Satoshi mengapa ia memilih kuantitas "24 juta" (sic) untuk jumlah total Bitcoin dan apakah Bitcoin tersebut dapat dibagi lagi. Satoshi kemudian memberikan penjelasan berikut:
 
@@ -668,7 +668,7 @@ Komunikasi Satoshi juga menarik perhatian seorang mahasiswa ilmu komputer Finlan
 
 > Sistem ini anonim, dan tidak ada pemerintah yang dapat memungut pajak atau mencegah transaksi. Tidak ada bank sentral yang dapat mendevaluasi mata uang dengan penciptaan uang baru tanpa batas. Adopsi luas sistem semacam itu tampaknya dapat memiliki efek merusak pada kemampuan negara untuk memeras warganya.
 
-![Martti Malmi pada tahun 2013](assets/id/28.webp)
+![Martti Malmi pada tahun 2013](assets/en/028.webp)
 
 Martti Malmi pada tahun 2013 (sumber: [Business Insider](https://www.businessinsider.com/Bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
@@ -711,7 +711,7 @@ Pengguna pertama mulai mendaftar di awal bulan berikutnya. Pada 9 Desember, [pes
 
 Pengguna pertama mulai mendaftar pada awal bulan berikutnya. Pada tanggal 9 Desember, [pesan pertama](https://Bitcointalk.org/index.php?topic=12.msg40#msg40) yang diposting oleh orang selain Satoshi muncul, yang benar-benar memulai diskusi. Sebagai ilustrasi, berikut adalah [tangkapan layar](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/) forum pada tanggal 29 Mei 2010:
 
-![Tangkapan layar forum Bitcoin dari 29 Mei 2010](assets/id/29.webp)
+![Tangkapan layar forum Bitcoin dari 29 Mei 2010](assets/en/029.webp)
 
 Peluncuran forum baru ini menjadi kesempatan untuk merilis [versi 0.2](https://Bitcointalk.org/index.php?topic=16.msg73#msg73) dari perangkat lunak, yang telah dikerjakan oleh Satoshi Nakamoto dan Martti Malmi selama berbulan-bulan, yang dilakukan pada 16 Desember. Versi ini mencakup peningkatan seperti minimisasi ke taskbar, startup otomatis saat peluncuran, atau multithreading untuk produksi mining. Perangkat lunak juga disesuaikan untuk Linux, berkat kontribusi Malmi dan pengujian yang dilakukan oleh NewLibertyStandard yang baru tiba (yang kasusnya akan dibahas di bab berikutnya).
 
@@ -767,7 +767,7 @@ Dua alasan terakhir jauh lebih signifikan karena memotivasi orang untuk menamban
 ### Layanan pertukaran pertama dan harga pertama
 Pada akhir September 2009, seorang individu yang menggunakan nama samaran NewLibertyStandard (yang akan kita singkat sebagai NLS) menemukan Bitcoin. Dia mencoba perangkat lunaknya dan mulai menambang. Blok pertama yang dia hasilkan adalah blok [blok 23,940](https://mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50). Dia adalah pengguna Linux dan oleh karena itu menggunakan "emulator" Wine untuk menjalankan perangkat lunak tersebut. Dia tertarik pada kebebasan politik dan logam mulia, seperti yang ditunjukkan oleh [avatarnya](https://Bitcointalk.org/index.php?action=profile;u=26) di forum yang menggambarkan Elang Amerika dengan tulisan "liberty". Dia melihat Bitcoin sebagai setara dengan emas di dunia digital: di [halaman pribadinya](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/) pribadinya, dia memperkenalkan ciptaan Satoshi Nakamoto sebagai "revolusi ekonomi" dan sebagai "standar emas mata uang digital."
 
-![Avatar dari NewLibertyStandard di forum Bitcoin menggambarkan Elang Amerika](assets/id/30.webp)
+![Avatar dari NewLibertyStandard di forum Bitcoin menggambarkan Elang Amerika](assets/en/030.webp)
 
 Pada Oktober 2009, layanan penukaran mata uang pertama didirikan, memungkinkan orang untuk mengubah dolar mereka menjadi Bitcoin dan Bitcoin mereka kembali menjadi dolar. Penciptanya mendaftar di forum khusus Bitcoin di SourceForge dan mengumumkan pembukaan layanannya di sana. Untuk memperkirakan nilai tukar, ia mendasarkannya pada biaya energi yang dibutuhkan untuk mendapatkan satu unit, dengan memperhitungkan harga listrik di lokasinya dan frekuensi produksinya sendiri. Di halamannya, ia [menulis](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
 
@@ -775,7 +775,7 @@ Pada Oktober 2009, layanan penukaran mata uang pertama didirikan, memungkinkan o
 
 Berikut adalah nilai tukar indikatif layanan NLS, yang juga diterbitkan di halaman pribadi NLS:
 
-![Nilai tukar indikatif dari layanan NLS](assets/id/31.webp)
+![Nilai tukar indikatif dari layanan NLS](assets/en/031.webp)
 
 Transaksi diselesaikan melalui email di newlibertystandard@gmail.com. Transfer dolar dilakukan secara eksklusif melalui PayPal, dan biaya dikenakan untuk operasi tersebut.
 
@@ -797,7 +797,7 @@ Upaya koordinasi terutama dilakukan di forum. Pada 27 Januari, seorang pengguna 
 
 Pada 5 Februari, NLS [menyarankan](https://Bitcointalk.org/index.php?topic=41.msg238#msg238) agar Bitcoin, seperti mata uang yang diperdagangkan di pasar valuta asing, mengadopsi simbol ticker BTC dan simbol baht Thailand (฿). Hingga saat itu, tidak ada praktik yang mapan: misalnya, Satoshi dan Martti menggunakan huruf 'bc' untuk menggambarkan unit dalam [korespondensi](https://mmalmi.github.io/satoshi/#email-119) mereka. Penggunaan simbol BTC dengan cepat menjadi standar. Pada 24 Februari, simbol mata uang (B kapital yang disilangkan oleh dua garis vertikal) [dirancang](https://Bitcointalk.org/index.php?topic=64.msg504#msg504) oleh Satoshi, yang kemudian menciptakan logo Bitcoin nyata pertama.
 
-![Logo Bitcoin pertama yang sebenarnya dirancang oleh Satoshi Nakamoto (2010)](assets/id/32.webp)
+![Logo Bitcoin pertama yang sebenarnya dirancang oleh Satoshi Nakamoto (2010)](assets/en/032.webp)
 
 Secara bertahap, orang-orang mulai menerima Bitcoin. Ini terjadi pada pengguna SmokeTooMuch pada Desember 2009, yang baru saja tiba dan[melaporkan keberadaan](https://web.archive.org/web/20191215200234/https://Bitcointalk.org/index.php?topic=15.msg65#msg65) layanan penjualan kartu hadiah paysafecard bernama BTC 2 PSC. Layanan ini kemudian [disebutkan](https://mmalmi.github.io/satoshi/#email-141) secara positif oleh Satoshi pada 4 Februari 2010. Hal ini juga terjadi pada NLS yang, pada 9 Februari, [membuka](https://Bitcointalk.org/index.php?topic=30.msg305#msg305) toko daringnya sendiri, Liberty Swap Variety Shop, di mana ia menawarkan prangko dan stiker untuk dijual.
 
@@ -807,7 +807,7 @@ Pertukaran dengan dolar juga berkembang, dan dalam dua bulan, tidak kurang dari 
 - BitcoinExchange (Bitcoinexchange.com), platform Martti Malmi, yang secara unik [mengukur](https://mmalmi.github.io/satoshi/#email-25) penawaran dan permintaan dengan mempertimbangkan euro dan Bitcoin yang didepositokan oleh pengguna, dan yang dibuka untuk umum pada 2 Maret 2010;
 - Bitcoin Market (Bitcoinmarket.com), sebuah pasar peer-to-peer menggunakan PayPal yang diluncurkan oleh seseorang bernama dwdollar pada 16 Maret, dan yang akan meraih kesuksesan signifikan sebelum munculnya Mt. Gox pada Juli.
   
-![Tangkapan layar antarmuka Pasar Bitcoin, 26 Agustus 2011](assets/id/33.webp)[Tangkapan](https://web.archive.org/web/20110826231728/https://www.Bitcoinmarket.com/market/trades/) antarmuka Pasar Bitcoin kemudian (Agustus 2011)
+![Tangkapan layar antarmuka Pasar Bitcoin, 26 Agustus 2011](assets/en/033.webp)[Tangkapan](https://web.archive.org/web/20110826231728/https://www.Bitcoinmarket.com/market/trades/) antarmuka Pasar Bitcoin kemudian (Agustus 2011)
 
 Pada 11 Maret, permainan poker pertama yang melibatkan Bitcoin [diselenggarakan](https://Bitcointalk.org/index.php?topic=80.msg781#msg781) oleh administrator BitcoinFX, mengawali hubungan kuat yang akan terjalin antara perjudian dan cryptocurrency. Permainan tersebut dimenangkan oleh dwdollar, yang mendapatkan [600 BTC](https://mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761).
 
@@ -815,7 +815,7 @@ Layanan lain yang menerima Bitcoin pun bermunculan, seperti layanan voice over I
 
 Layanan kustodian khusus Bitcoin pertama juga muncul: yaitu MyBitcoin, aplikasi web yang memungkinkan penggunaan cryptocurrency yang mudah dan nyaman, terutama di ponsel. Berkat layanan ini, pengguna memang tidak perlu mengunduh data rantai lengkap untuk mengirim dan menerima transaksi, juga tidak perlu menyimpan Bitcoin mereka sendiri dengan menyimpan 'private keys'(kunci privat) mereka.
 
-![Logo MyBitcoin dari arsip situs myBitcoin.com](assets/id/34.webp)
+![Logo MyBitcoin dari arsip situs myBitcoin.com](assets/en/034.webp)
 
 Pada saat itu, dompet ringan - Lightweight Wallets (dikenal sebagai "SPV") belum ada, sehingga Satoshi Nakamoto sendiri menganggapnya dapat diterima untuk menggunakan jenis perangkat lunak ini, meskipun penggunaan ini bertentangan dengan prinsip disintermediasi yang menjadi inti Bitcoin. Pada 18 Mei 2010, ia [menulis](https://Bitcointalk.org/index.php?topic=125.msg1149#msg1149) di forum:
 
@@ -856,13 +856,13 @@ Permintaan Bitcoin yang semakin tinggi diiringi dengan peningkatan bertahap dala
 Satoshi Nakamoto sangat prihatin tentang peningkatan kesulitan ini dan memelihara [sejarah](https://Bitcointalk.org/index.php?topic=43.msg249#msg249) di forum mulai Februari 2010. Inilah tampilannya:
 Satoshi Nakamoto sangat khawatir dengan peningkatan kesulitan ini dan memelihara [riwayat](https://Bitcointalk.org/index.php?topic=43.msg249#msg249) di forum mulai Februari 2010. Berikut adalah tampilannya:
 
-![Evolusi kesulitan seperti yang dijelaskan oleh Satoshi Nakamoto di forum](assets/id/35.webp)
+![Evolusi kesulitan seperti yang dijelaskan oleh Satoshi Nakamoto di forum](assets/en/035.webp)
 
 Meskipun terjadi antusiasme terhadap peningkatan daya komputasi di jaringan, Satoshi tetap ingin memperlambat spesialisasi mining untuk mendukung distribusi unit. Hingga saat itu, para penambang telah menggunakan unit pemrosesan pusat (CPU) mereka untuk mengekstrak Bitcoin baru. Namun, prosesor ini terbukti tidak efisien untuk melakukan operasi berulang, dibandingkan dengan unit pemrosesan grafis (GPU) yang jauh lebih cocok untuk jenis perhitungan berulang ini. Akibatnya, semua orang pada saat itu tahu bahwa evolusi ini tidak dapat dihindari, termasuk Satoshi sendiri. Pada 19 Desember 2009, ia [menyatakan](https://Bitcointalk.org/index.php?topic=12.msg54#msg54) sebagai berikut: "Kita harus memiliki kesepakatan bersama untuk menunda perlombaan senjata GPU selama kita bisa demi kebaikan jaringan. Jauh lebih mudah untuk membuat pengguna baru cepat beradaptasi jika mereka tidak perlu khawatir tentang driver GPU dan kompatibilitas. Sangat bagus bagi siapa pun yang hanya memiliki CPU dapat bersaing secara cukup adil saat ini."
 
 Namun, beberapa bulan kemudian, kotak Pandora terbuka. Pelakunya adalah Laszlo Hanyecz, seorang pengembang Amerika berusia 28 tahun keturunan Hungaria, yang tinggal di Florida. Ia menemukan Bitcoin pada April 2010. Pada tanggal 9 April, ia [mendapatkan](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1) 3.300 Bitcoin dari NLS seharga sekitar $20, lalu menguji sistem dengan melakukan beberapa transfer. Pada tanggal 18 April, ia mencoba membebani jaringan dengan melipatgandakan transaksi dari [alamat publiknya](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4), tetapi jaringan tersebut bertahan.
 
-![Laszlo Hanyecz bersama putranya pada Mei 2018](assets/id/36.webp)
+![Laszlo Hanyecz bersama putranya pada Mei 2018](assets/en/036.webp)
 
 Laszlo Hanyecz bersama putranya pada Mei 2018 (sumber: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
@@ -878,7 +878,7 @@ Peningkatan dalam mining ini juga memiliki konsekuensi penting: Satoshi berhenti
 
 Aktivitas mining Satoshi memiliki pola yang berbeda, memungkinkan untuk mengidentifikasi blok-blok yang kemungkinan besar ia temukan, dengan beberapa false positive. Pola mining ini disorot oleh pengembang Sergio Lerner pada tahun 2013 dan telah dinamai Patoshi Pattern.
 
-![Pola Patoshi antara blok 0 dan 50,000](assets/id/37.webp)
+![Pola Patoshi antara blok 0 dan 50,000](assets/en/037.webp)
 
 Pola Patoshi antara blok 0 dan 50.000 seperti yang diamati di situs web [satoshiblocks.info](http://satoshiblocks.info/): setiap titik berhubungan dengan blok, garis biru terbentuk dari blok Satoshi, garis lainnya mewakili keluaran penambang lain.
 
@@ -886,11 +886,11 @@ Menurut studi oleh Whale Alert yang diterbitkan pada tahun 2020, Satoshi menamba
 
 Dengan peningkatan daya komputasi pada musim gugur 2009, proporsi daya komputasi Satoshi relatif terhadap total daya jaringan secara bertahap menurun. Itu turun dari 75% pada Maret 2009 menjadi 60% pada September, kemudian turun menjadi 15% pada Desember, dan mencapai 0% pada Mei. Di bawah ini adalah grafik yang dibuat oleh [Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)  pada tahun 2014:
 
-![Estimasi proporsi kekuatan komputasi Satoshi relatif terhadap total kekuatan antara Januari 2009 dan Juli 2010](assets/id/38.webp)
+![Estimasi proporsi kekuatan komputasi Satoshi relatif terhadap total kekuatan antara Januari 2009 dan Juli 2010](assets/en/038.webp)
 
 Selain itu, penurunan dominasi mining Satoshi bukan hanya pasif: ia sendiri memperlambat produksinya selama periode yang sama. Memang, tujuan yang dinyatakan Satoshi adalah agar semua orang dapat berpartisipasi: ia tidak menambang untuk keuntungan finansial, tetapi untuk memastikan operasi jaringan sampai insentif berlaku. Dengan demikian, ia mengurangi hash rate-nya (jumlah perhitungan yang dilakukan setiap detik) tiga kali selama periode mining ini: pertama kali dari 4.5 menjadi 2.5 MH/s pada Juni 2009, kedua kali dari 2.5 menjadi 1 MH/s pada Oktober, dan ketiga kali dari 1 menjadi 0 MH/s pada Mei 2010. Berikut adalah grafik evolusi hash rate-nya selama periode ini ([Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)):
 
-![Estimasi hash rate Satoshi antara Januari 2009 dan Mei 2010](assets/id/39.webp)
+![Estimasi hash rate Satoshi antara Januari 2009 dan Mei 2010](assets/en/039.webp)
 
 Mining Satoshi karenanya bersifat altruistik, seperti yang ditunjukkan oleh [Jameson Lopp tunjukkan](https://blog.lopp.net/was-satoshi-a-greedy-miner/).. Ketika dia berhenti menambang pada 3 Mei 2010 (blok terakhirnya adalah [blok 54,316](https://mempool.space/block/000000000d1e2cf92a7e6afdbed6d34fc3ac2cc863d9a236ca4db394a94ece2e)), itu merupakan pencapaian lain dalam perkembangan Bitcoin yang lambat: pengambilalihan konfirmasi transaksi oleh pelaku ekonomi.
 
@@ -902,13 +902,13 @@ Mei 2010 juga ditandai dengan peristiwa penting: pembelian barang fisik pertama 
 
 Penawaran ini disetujui empat hari kemudian. Seorang pemuda California bernama Jeremy Sturdivant yang menerima pertukaran tersebut di layanan pesan instan IRC.
 
-![Jeremy Sturdivant pada Mei 2018](assets/id/40.webp)
+![Jeremy Sturdivant pada Mei 2018](assets/en/040.webp)
 
 Jeremy Sturdivant pada Mei 2018 (sumber: [The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-Bitcoin-pizza-purchase-today/))
 
 Pada 22 Mei, ia memesan dua pizza dari Papa John's yang diantar ke Laszlo di Jacksonville, Florida. Ia [menerima](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d) 10.000 Bitcoin sebagai imbalan, senilai sekitar $44 menurut nilai tukar Bitcoin Market. Berikut adalah foto kedua pizza tersebut, yang [dibagikan](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/Bitcoin/pizza/)  oleh Laszlo sendiri:
 
-![Pizza dari Papa John's yang dikirimkan ke Laszlo Hanyecz pada 22 Mei 2010](assets/id/41.webp)
+![Pizza dari Papa John's yang dikirimkan ke Laszlo Hanyecz pada 22 Mei 2010](assets/en/041.webp)
 
 Ini menandai pembelian barang fisik pertama dengan Bitcoin, meskipun pembelian ini tidak langsung. Laszlo mendapat ucapan selamat dari [Martti Malmi](https://Bitcointalk.org/index.php?topic=137.msg1196#msg1196) yang menulis bahwa "langkah besar telah diambil." NLS juga menambahkan komentar [positif](https://Bitcointalk.org/index.php?topic=137.msg1197#msg1197) mengenai hal ini.
 
@@ -926,7 +926,7 @@ Meskipun demikian, peningkatan daya beli mata uang kripto tidak mengurangi simbo
 
 Periode ini juga menyaksikan kedatangan tokoh kunci dalam sejarah Bitcoin: Gavin Andresen, seorang pengembang berusia 44 tahun kelahiran Australia yang [memperoleh](https://gavinthink.blogspot.com/2007/06/seven-years-ago-today.html) kewarganegaraan AS pada tahun 2004 dan saat itu tinggal di Amherst, Massachusetts. Kembali dari perjalanan ke Australia dan untuk sementara menganggur, ia menemukan Bitcoin pada akhir Mei melalui [artikel](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3) oleh Neil McAllister yang diterbitkan di InfoWorld. Artikel ini menyajikan proyek Satoshi Nakamoto sebagai "inovasi open-source."
 
-![Foto profil Gavin Andresen, diambil di Townsville, Queensland, Australia](assets/id/42.webp)
+![Foto profil Gavin Andresen, diambil di Townsville, Queensland, Australia](assets/en/042.webp)
 
 Gavin Andresen di Townsville, Queensland, Australia (sumber: [arsip CIO](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_Bitcoin_technical_lead_gavin_andresen/))
 
@@ -991,7 +991,7 @@ Pada 11 Juli 2010, versi revisi dari presentasi Bitcoin yang ditulis oleh Teppy 
 
 > Bagaimana dengan teknologi disruptif ini? Bitcoin adalah mata uang digital berbasis jaringan peer-to-peer tanpa bank sentral, dan tanpa biaya transaksi. Menggunakan konsep proof-of-work, node mengoperasikan CPU mencari paket koin, menyiarkan temuan mereka ke jaringan. Analisis penggunaan energi menunjukkan bahwa nilai pasar Bitcoin sudah di atas nilai energi yang dibutuhkan untuk menghasilkannya, menunjukkan permintaan yang sehat. Komunitas berharap mata uang ini akan tetap berada di luar jangkauan pemerintah mana pun.
 
-![Logo Slashdot pada tahun 2010](assets/id/43.webp)
+![Logo Slashdot pada tahun 2010](assets/en/043.webp)
 
 Publikasi itu menarik perhatian, dan hampir 500 komentar diposting dalam beberapa hari. Bagi Bitcoin, kesuksesan ini menyebabkan masuknya pengunjung secara massal ke situs dan forum. Penggunaan blockchain melonjak: jumlah transaksi yang dilakukan di jaringan meningkat dari 42 pada 10 Juli menjadi 1.641 pada tanggal 12, mencapai 5.554 pada tanggal 14, sebuah rekor tertinggi sepanjang masa. Sistem ini bertahan meskipun beban meningkat. Pada tanggal 14, pengembang Gavin Andresen menulis di forum:
 
@@ -1003,13 +1003,13 @@ Konsekuensi pertama dari masuknya pengunjung ini adalah harga Bitcoin mengalami 
 
 Di antara mereka yang menemukan Bitcoin berkat Slashdot adalah Jed McCaleb, seorang pengusaha dan programmer Amerika berusia 35 tahun yang dikenal karena ikut mendirikan dan mengembangkan perangkat lunak berbagi berkas peer-to-peer eDonkey2000 pada tahun 2000-an. Menyadari betapa sulitnya mendapatkan Bitcoin sebagai ganti dolar, ia memutuskan "secara tiba-tiba" untuk menciptakan pasar yang efisien. Untuk melakukan ini, ia menggunakan kembali salah satu proyek lamanya yang dikembangkan pada tahun 2007: Magic The Gathering Online eXchange (MTGOX), sebuah situs web yang memungkinkan pembelian dan penjualan kartu untuk permainan daring Magic: The Gathering Online. Ia menggunakan kembali nama domain proyek ini (mtgox.com), yang menjadi nama platform baru: Mt. Gox, diucapkan "Mount Gox".
 
-![Jed McCaleb pada tahun 2013](assets/id/44.webp)
+![Jed McCaleb pada tahun 2013](assets/en/044.webp)
 
 Jed McCaleb pada tahun 2013 (sumber: Ariel Zambelich untuk [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/))
 
 Satu minggu kemudian, pada 18 Juli, Jed McCaleb meluncurkan platform pertukarannya dan [mengumumkannya](https://Bitcointalk.org/index.php?topic=444.msg3866#msg3866) di forum. Berkat keahliannya, ia memastikan bahwa platform tersebut beroperasi sebagai pasar otomatis, mirip dengan bursa daring modern. [Menurutnya](https://Bitcointalk.org/index.php?topic=444.msg3891#msg3891), itu menonjol dari Bitcoin Market karena "selalu online, otomatis", "situs itu lebih cepat dan memiliki hosting khusus", dan "antarmukanya lebih ramah pengguna." Akibatnya, Mt. Gox dengan cepat menjadi sarana utama untuk memperoleh Bitcoin, memantapkan dirinya sebagai patokan untuk kuotasi dolar.
 
-![Antarmuka platform Mt. Gox pada Februari 2011](assets/id/45.webp)
+![Antarmuka platform Mt. Gox pada Februari 2011](assets/en/045.webp)
 
 Antarmuka platform Mt. Gox pada Februari 2011 (sumber: [Arsip Mt. Gox](https://web.archive.org/web/20110203031942/http://mtgox.com/))
 Awalnya, platform ini menerima pembayaran melalui PayPal. Namun, pada Oktober 2010, menyusul terlalu banyaknya permintaan chargeback, PayPal [memblokir](https://Bitcointalk.org/index.php?topic=1419.msg16421#msg16421) akun Jed McCaleb, yang memaksanya untuk sementara menangguhkan deposit dan penarikan di platform tersebut. Beberapa minggu kemudian, dia [mengembalikan](https://Bitcointalk.org/index.php?topic=1699.msg20700#msg20700) transfer dengan menambahkan Liberty Reserve sebagai metode pembayaran. Selanjutnya, dia juga menerima transaksi melalui [Paxum](https://Bitcointalk.org/index.php?topic=2052.msg27809#msg27809) atas permintaan, dan transfer bank [dalam dolar](https://Bitcointalk.org/index.php?topic=4187.msg60610#msg60610) (ACH) dan [dalam euro](https://Bitcointalk.org/index.php?topic=2515.msg34040#msg34040) (SEPA).
@@ -1035,7 +1035,7 @@ Namun, pencipta Bitcoin tidak bekerja sendiri dalam pengembangan kode. Ia dapat 
 
 Terakhir, kita bisa menyebut Jeff Garzik (menggunakan nama samaran jgarzik di forum), seorang pengembang Amerika, kontributor di dunia perangkat lunak bebas, terutama untuk distribusi Red Hat, dan seorang libertarian pengikut aliran ekonomi Austria. Ia menemukan Bitcoin melalui artikel yang diterbitkan di Slashdot dan hampir segera terlibat dalam Bitcoin.
 
-![Jeff Garzik pada tahun 2013](assets/id/46.webp)
+![Jeff Garzik pada tahun 2013](assets/en/046.webp)
 
 Jeff Garzik pada tahun 2013 (sumber: [Benson Samuel](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
 
@@ -1081,7 +1081,7 @@ Parameter ini [ditambahkan](https://sourceforge.net/p/Bitcoin/code/103/) secara 
 
 Meskipun Satoshi tidak menyebutkan keberadaan batas ukuran blok, beberapa orang memperhatikan keberadaannya dalam kode dari waktu ke waktu. Hal ini pun dicatat sejak 12 Agustus oleh anggota forum berbahasa Rusia yang menggunakan nama samaran throughput yang [menyatakan](https://Bitcointalk.org/index.php?topic=788.msg8873#msg8873), dengan nada yang relatif positif, bahwa "Aspek menarik lainnya adalah ukuran byte blok (jadi jumlah transaksi di dalamnya) dibatasi." Kemudian, pada 30 September, Theymos-lah yang [menunjukkan](https://Bitcointalk.org/index.php?topic=1314.msg14748#msg14748) kepada anggota lain bahwa "Bitcoin tidak akan mengizinkan blok di atas 1MB, jadi dengan asumsi ukuran transaksi rata-rata (agak kecil) 216 byte, Bitcoin hanya dapat menangani 4.629 transaksi setiap 10 menit." Akhirnya, keberadaan parameter ini memengaruhi Jeff Garzik yang [menyatakan](https://Bitcointalk.org/index.php?topic=1314.msg14750#msg14750) bahwa ia "jauh lebih peduli tentang skalabilitas daripada penutupan dari pemerintah" dan yang bertanya bagaimana mungkin untuk "menjual Bitcoin kepada investor serius, dengan batasan bawaan seperti batasan 463 transaksi per menit." Akibatnya, pada 3 Oktober, ia mengusulkan patch di forum untuk meningkatkan batas ukuran blok menjadi 7,168 MB untuk "menyesuaikan tingkat transaksi rata-rata PayPal." Theymos menanggapi dengan mengatakan bahwa "menerapkan patch ini akan membuat Anda tidak kompatibel dengan klien Bitcoin lainnya." Pesan ini didukung oleh Satoshi Nakamoto yang [merekomendasikan](https://Bitcointalk.org/index.php?topic=1347.msg15139#msg15139) untuk tidak menggunakan patch tersebut dan menyatakan: "Kita bisa secara bertahap melakukan perubahan nanti jika kita mendekati kebutuhan akan hal itu." Satoshi kemudian [memperjelas](https://Bitcointalk.org/index.php?topic=1347.msg15366#msg15366) pemikirannya keesokan harinya dengan memberikan panduan tentang cara melakukan perubahan protokol tersebut.
 
-![Pesan dari Satoshi Nakamoto yang mendeskripsikan peningkatan batas ukuran blok pada tahun 2010](assets/id/47.webp)
+![Pesan dari Satoshi Nakamoto yang mendeskripsikan peningkatan batas ukuran blok pada tahun 2010](assets/en/047.webp)
 
 Diskusi ini menandai awal mula perdebatan mengenai skalabilitas, yang pada akhirnya akan memicu "perang saudara" sungguhan antara tahun 2015 dan 2017, dikenal sebagai Perang Ukuran Blok (Blocksize War).
 
@@ -1114,13 +1114,13 @@ Pada bagian sebelumnya, kita telah mempelajari dampak dari publikasi presentasi 
 
 Setelah Bitcoin diberitakan di Slashdot pada Juli 2010, imbalan finansial yang tinggi yang didapat dari kenaikan harga dan kemungkinan pertumbuhan di masa depan mendorong individu untuk lebih giat dalam menghasilkan Bitcoin. Itulah mengapa [hash rate](https://bitinfocharts.com/comparison/Bitcoin-hashrate.html#alltime) jaringan, yang pada tanggal 11 Juli berada di 0,22 GH/s, naik menjadi 2,78 GH/s pada tanggal 17, kemudian menjadi 5,79 GH/s pada 15 Agustus, lalu akhirnya mencapai 9,94 GH/s pada 19 September dan 12,58 GH/s pada 29 September.
 
-![Total jaringan hash rate dari 11 Juli hingga 5 Oktober 2010](assets/id/48.webp)
+![Total jaringan hash rate dari 11 Juli hingga 5 Oktober 2010](assets/en/048.webp)
 
 Total jaringan hash rate dari 11 Juli hingga 5 Oktober 2010 (sumber: [CoinWarz](https://www.coinwarz.com/mining/Bitcoin/hashrate-chart))
 
 Miner terbesar pada periode ini adalah seorang pengembang Jerman yang menggunakan nama ArtForz. Setelah mengetahui tentang Bitcoin melalui Slashdot, ia dengan cepat terlibat dalam pengembangan perangkat lunak dan menghabiskan banyak waktu di saluran IRC #Bitcoin-dev. Secara khusus, ia mengembangkan algoritma penambangan GPU-nya sendiri dengan OpenCL, yang ia jalankan dengan kartu grafis komputernya. Ia mulai menghasilkan Bitcoin pada 19 Juli. Pada 25 Juli, dalam sebuah utas yang mensurvei pengguna tentang kepemilikan Bitcoin mereka, ArtForz [menyatakan](https://web.archive.org/web/20151121004205/https://Bitcointalk.org/index.php?topic=564.msg5617#msg5617) ia telah menghasilkan 1.700 Bitcoin dalam 6 hari, yang setara dengan 4% dari hash rate, atau 80 MH/s. Secara bertahap, ia membangun sebuah "farm mining" besar, yang kemudian dikenal sebagai "ArtFarm." Pada bulan Agustus, farm-nya [mencakup](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-Bitcoin-mining/)  6 ATI Radeon HD 5770, memungkinkannya untuk meningkatkan dari 76 MH/s pada 9 Agustus menjadi sekitar 450 MH/s pada tanggal 13.
 
-![Produksi penambangan ArtForz antara Agustus dan Oktober 2010](assets/id/49.webp)
+![Produksi penambangan ArtForz antara Agustus dan Oktober 2010](assets/en/049.webp)
 
 Produksi penambangan ArtForz antara Agustus dan Oktober 2010 (sumber: Blackburn et al., "[Kerjasama di antara grup anonim melindungi Bitcoin selama kegagalan desentralisasi](https://arxiv.org/pdf/2206.02871)")
 
@@ -1151,7 +1151,7 @@ Pada 23 November, versi modifikasi dari fungsi 'getwork' ditambahkan ke [kode](h
 
 Pada 27 November, seorang pengembang muda Ceko bernama Marek Palatinus, menggunakan nama samaran slush, [mempublikasikan](https://web.archive.org/web/20101206144824/http://www.Bitcoin.org/smf/index.php?topic=1976.0) deskripsi "mining kooperatif" di forum, sebuah model yang memanfaatkan 'getwork' dan logika Jeff Garzik. Model ini didasarkan pada partial proofs of work yang dihasilkan oleh para miner (pay-per-share). Keesokan harinya, Satoshi Nakamoto [menyetujui](https://Bitcointalk.org/index.php?topic=1976.msg25119#msg25119) konsep tersebut.
 
-![Marek Palatinus (slush) di konferensi Z-DAY di Praha pada 11 Mei 2013](assets/id/50.webp)
+![Marek Palatinus (slush) di konferensi Z-DAY di Praha pada 11 Mei 2013](assets/en/050.webp)
 
 Marek Palatinus (slush) pada konferensi Z-DAY di Praha pada 11 Mei 2013
 
@@ -1163,7 +1163,7 @@ Pada malam tanggal 15 hingga 16 Desember, kooperatif tersebut akhirnya [diluncur
 
 Kooperatif tersebut akan menjadi tolok ukur dalam mining Bitcoin. Kooperatif ini [menyandang](https://en.Bitcoin.it/w/index.php?title=Slush_Pool&action=history) beberapa nama selama bertahun-tahun: Bitcoin Pooled Mining (BPM), Bitcoin.cz Mining, dan akhirnya Slush Pool, sebagai referensi penciptanya. Kooperatif ini menjadi Braiins Pool pada September 2022.
 
-![Logo koperasi Slush pada September 2011](assets/id/51.webp)
+![Logo koperasi Slush pada September 2011](assets/en/051.webp)
 Logo koperasi Slush pada September 2011 (sumber: [arsip](https://web.archive.org/web/20110923151034/http://mining.Bitcoin.cz:80/) situs)
 
 ### Lompatan Besar dalam Mining
@@ -1194,11 +1194,13 @@ Beberapa hari kemudian, pada tanggal 30, dia mempublikasikan [siaran berita](htt
 
 Beberapa hari kemudian, pada tanggal 30 September, ia menerbitkan [siaran berita](https://linuxfr.org/news/connaissez-vous-les-Bitcoins) dalam bahasa Prancis di LinuxFr.org (DLFP). Siaran pers ini, berjudul "Tahukah Anda tentang Bitcoin?", mungkin merupakan presentasi Bitcoin pertama yang ditulis dalam bahasa Molière (bahasa Prancis). Artikel tersebut menjangkau banyak orang, menghasilkan hampir 350 komentar. Berikut adalah paragraf pertama seperti yang [muncul](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html) pada waktu itu:
 
-![Do you know about Bitcoins?](assets/id/52.webp)
+![Do you know about Bitcoins?](assets/en/052.webp)
+
+> **Artikel: Apakah Anda mengenal bitcoin?** Bitcoin adalah mata uang elektronik yang dirancang pada tahun 2009 oleh seseorang bernama Satoshi Nakamoto. Mata uang ini berbeda dari mata uang elektronik lainnya karena sifatnya yang sepenuhnya terdesentralisasi peer-to-peer dan penggunaan cerdas konsep kriptografi dasar. Mata uang ini bergantung pada perangkat lunak yang ditulis dalam C++ dan diterbitkan di bawah lisensi bebas MIT.
 
 Dalam konteks ini, publikasi tersebut memiliki efek menarik perhatian seorang Ploum, nama asli Lionel Dricot, seorang blogger Belgia berusia 29 tahun dan pendukung perangkat lunak bebas. Pada 25 Oktober, ia [menerbitkan](https://ploum.net/monnaie-de-geek-monnaie-de-singe/) sebuah artikel di blognya, berjudul "Mata Uang Geek, Uang Monyet?", di mana ia menganjurkan desentralisasi dan mendukung prinsip Bitcoin. Banyak pengguna internet berbahasa Prancis mendengar tentang Bitcoin melalui cara ini, termasuk [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_Bitcoin_abc/dml9h55/), pengembang yang kemudian akan menciptakan Bitcoin Cash pada tahun 2017.
 
-![Lionel Dricot (Ploum) pada tahun 2012, saat itu seorang kandidat di bawah bendera Partai Bajak Laut untuk pemilihan komunal dan provinsial Belgia](assets/id/53.webp)
+![Lionel Dricot (Ploum) pada tahun 2012, saat itu seorang kandidat di bawah bendera Partai Bajak Laut untuk pemilihan komunal dan provinsial Belgia](assets/en/053.webp)
 
 Lionel Dricot (Ploum) pada tahun 2012, saat itu seorang kandidat di bawah bendera Partai Bajak Laut untuk pemilihan komunal dan provinsial Belgia (sumber: [Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/))
 
@@ -1209,22 +1211,22 @@ Selain pengembangan komunitas linguistik, ada inovasi tertentu dalam metode yang
 
 Selain perkembangan komunitas linguistik, terdapat inovasi tertentu dalam metode komunikasi tentang Bitcoin. Pada 4 Oktober, seorang warga Australia berusia 38 tahun yang menggunakan nama samaran noagendamarket meluncurkan [meluncurkan](https://Bitcointalk.org/index.php?topic=1355.msg15217#msg15217) bernama BitcoinMedia. Idenya adalah mempromosikan Bitcoin dengan membuat berbagai konten dan mengiklankannya di tempat-tempat yang kemungkinan besar menarik audiens. Meskipun inisiatif ini tidak mencapai kesuksesan yang diharapkan, ia memiliki keunggulan karena menghasilkan video pertama yang berbicara tentang Bitcoin. Video pertama saluran tersebut, yang [dipublikasikan](https://Bitcointalk.org/index.php?topic=1355.msg15461#msg15461)  pada 5 Oktober, adalah Google Search Story, yang dibuat menggunakan alat Youtube (lihat tangkapan layar di bawah). Video-video lainnya akan dibuat dengan Xtranormal, alat yang mudah untuk membuat urutan video dari sekumpulan karakter dan latar yang sudah didesain sebelumnya.
 
-![Video pertama tentang Bitcoin (Google Search Story)](assets/id/54.webp)
+![Video pertama tentang Bitcoin (Google Search Story)](assets/en/054.webp)
 
 Di masa ini, postingan blog tentang Bitcoin memang menjamur. Hal ini terutama terlihat pada Jon Matonis, yang mengelola blog *The Monetary Future*. Di sana, ia membahas topik-topik terkait mata uang digital, free banking, dan kriptografi. Ia menemukan Bitcoin pada bulan Maret dan [berkomunikasi](https://web.archive.org/web/20140511100607/https://Bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514) dengan Satoshi, setelah itu ia mulai menulis tentang subjek tersebut. Pada bulan Oktober, ia menerbitkan [artikel ketiga](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html) di mana ia berbicara tentang kenaikan harga dan merinci kebaruan dalam ekosistem Bitcoin.
 
-![Foto profil Jon Matonis pada tahun 2011](assets/id/55.webp)
+![Foto profil Jon Matonis pada tahun 2011](assets/en/055.webp)
 
 Foto profil Jon Matonis pada tahun 2011 (sumber: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
 Pada masa inilah sebuah logo Bitcoin baru diusulkan. Pada 1 November, seorang anggota forum dengan nama samaran bitboy [menerbitkan](https://Bitcointalk.org/index.php?topic=1631.0) elemen grafis untuk menonjolkan mata uang kripto tersebut. Salah satu elemen ini adalah logo oranye dengan huruf B yang dicoret dan sedikit miring:
 
-![Logo Bitcoin yang dirancang oleh bitboy, November 2010](assets/id/56.webp)
+![Logo Bitcoin yang dirancang oleh bitboy, November 2010](assets/en/056.webp)
 
 ### Ekonomi yang Berkembang
 Periode ini juga ditandai dengan pertumbuhan luar biasa pada ekosistem Bitcoin di tingkat ekonomi. Selama musim gugur 2010, platform seperti Mt. Gox, Bitcoin Market, dan beberapa lainnya memang sudah ada, tetapi itu tidak cukup. Ini mendorong bursa pertukaran over-the-counter (OTC). Selain pertukaran yang dilakukan melalui pesan pribadi di forum, sebuah sistem yang sedikit lebih ketat mulai diterapkan: #Bitcoin-otc. Ini adalah saluran IRC di Freenode yang [dibuka](https://Bitcointalk.org/index.php?topic=1491.msg17508#msg17508) oleh pengguna bernama nanotube pada 18 Oktober. Buku pesanan di-hosting di [situs web terkait](https://web.archive.org/web/20101027090714/http://Bitcoin-otc.com/vieworderbook.php) terkait, dan pertukaran terjadi langsung antara para pihak, tanpa deposit escrow, melalui berbagai metode pembayaran (PayPal, Liberty Reserve). Jumlah layanan yang menerima Bitcoin juga meningkat, meskipun masih relatif rendah, seperti yang dibuktikan oleh halaman daftar di situs resmi. Semua elemen ini menyebabkan harga Bitcoin meningkat drastis. Meskipun harga stabil di sekitar 6 sen sejak Agustus, ia mulai naik pada awal Oktober. Harganya naik menjadi 10 sen, mencapai 20 sen pada akhir bulan. Pada 6 November, bahkan melampaui 50 sen, yang tentunya [membuat](https://Bitcointalk.org/index.php?topic=1681.0)  anggota forum sangat bersemangat.
 
-![Harga BTC antara 18 Juli dan 18 Oktober 2010 di Mt. Gox](assets/id/57.webp)
+![Harga BTC antara 18 Juli dan 18 Oktober 2010 di Mt. Gox](assets/en/057.webp)
 
 Harga BTC antara 18 Juli dan 18 Oktober 2010 di Mt. Gox (sumber: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html))
 
@@ -1242,7 +1244,7 @@ Satu elemen terakhir yang menunjukkan kesuksesan Bitcoin adalah fakta bahwa bebe
 
 Sebuah peristiwa penting pada akhir tahun 2010 adalah diterimanya Bitcoin oleh Electronic Frontier Foundation (EFF), sebuah organisasi internasional untuk perlindungan kebebasan di Internet, yang didirikan bersama pada tahun 1990 (bukan 1900) oleh Mitch Kapor, John Gilmore, dan John Perry Barlow. Hal ini sangat penting bagi para pengguna awal Bitcoin, yang pada dasarnya adalah cypherpunk. Mereka sangat ingin EFF menerima Bitcoin.
 
-![Logo Electronic Frontier Foundation](assets/id/58.webp)
+![Logo Electronic Frontier Foundation](assets/en/058.webp)
 
 Anggota forum bernama Kiba yang mengambil inisiatif pada 13 Agustus 2010, dengan [mengusulkan](https://Bitcointalk.org/index.php?topic=804.msg9021#msg9021) untuk menghubungi EFF dan menyarankan agar mereka menerima donasi yang [dikumpulkan](https://Bitcointalk.org/index.php?topic=778.msg8578#msg8578) dari komunitas. Untuk tujuan ini, ia membuat [akun](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt) di MyBitcoin tempat ia mengumpulkan dana dan ingin mentransfer aksesnya ke EFF. Ia menyusun email (yang dikoreksi oleh komunitas) yang ia kirim pada akhir Agustus.
 
@@ -1301,13 +1303,13 @@ Gavin, yang dekat dengan Satoshi tetapi juga berdiskusi dengan pengembang lain, 
 
 Pemicu kepergian Satoshi adalah masalah WikiLeaks. WikiLeaks adalah organisasi non-pemerintah yang didirikan oleh cypherpunk Julian Assange pada tahun 2006, bertujuan untuk memberikan suara kepada whistleblower dan membocorkan informasi sambil melindungi sumber mereka. Sepanjang tahun 2010, dokumen rahasia yang diungkap oleh NGO ini diberitakan oleh media-media besar dan menyebabkan kegemparan di opini publik. Dokumen-dokumen ini, secara khusus, membahas tindakan berlebihan militer Amerika, seperti jatuhnya korban sipil dan tindakan penyiksaan yang dilakukan di Afghanistan (Afghan War Diary) dan Irak (Iraq War Logs).
 
-![Logo WikiLeaks pada November 2010](assets/id/59.webp)
+![Logo WikiLeaks pada November 2010](assets/en/059.webp)
 
 Pendanaan WikiLeaks utamanya bergantung pada donasi publik, sehingga organisasi tersebut mengandalkan penyedia layanan pembayaran untuk menerima pembayaran daring. Namun, menyusul pengungkapan tersebut, tekanan diberikan pada perantara-perantara ini yang khawatir akan reaksi regulator. Inilah sebabnya mengapa perusahaan pembayaran daring Moneybookers [membekukan](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) akun NGO tersebut pada 14 Oktober.
 
 Situasi ini membuka jalan emas bagi penggunaan Bitcoin, yang tidak bergantung pada pihak ketiga tepercaya mana pun dan akan jauh lebih baik dalam menahan sensor finansial. Hipotesis ini diajukan di forum pada bulan November oleh Amir Taaki, seorang warga Inggris keturunan Iran berusia 22 tahun yang menggunakan nama samaran genjix.
 
-![Amir Taaki pada Desember 2012 di Bratislava](assets/id/60.webp)
+![Amir Taaki pada Desember 2012 di Bratislava](assets/en/060.webp)
 
 Amir Taaki pada Desember 2012 di Bratislava (sumber: [Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/))
 
@@ -1439,25 +1441,25 @@ Namun, yang utama adalah pengelolaan situs web Bitcoin.org yang perlu didelegasi
 Tampilannya juga berubah. Pada Desember 2010, situs web Bitcoin.org masih terlihat seperti pada era Satoshi. Berikut ini adalah [snapshot]
 (https://web.archive.org/web/20101110005546/http://www.Bitcoin.org/) dari 5 Desember:
 
-![Snapshot dari Bitcoin.org tanggal 5 Desember 2010](assets/id/61.webp)
+![Snapshot dari Bitcoin.org tanggal 5 Desember 2010](assets/en/061.webp)
 
 Kemudian, sentuhan warna [ditambahkan](https://web.archive.org/web/20110216125441/http://www.Bitcoin.org/) pada awal tahun 2011:
 
-![Snapshot dari Bitcoin.org tanggal 16 Februari 2011](assets/id/62.webp)
+![Snapshot dari Bitcoin.org tanggal 16 Februari 2011](assets/en/062.webp)
 
 Pada bulan April, menyusul perombakan desain yang [yang diorganisir](https://Bitcointalk.org/index.php?topic=4223.msg80581#msg80581) oleh komunitas, tata letak situs web berubah. Berikut adalah tampilannya saat [itu](https://web.archive.org/web/20110411071904/http://www.Bitcoin.org/):
 
-![Snapshot dari Bitcoin.org tanggal 11 April 2011](assets/id/63.webp)
+![Snapshot dari Bitcoin.org tanggal 11 April 2011](assets/en/063.webp)
 
 Akhirnya, pada September 2011, sebuah perubahan baru dilakukan](https://buildingBitcoin.org/Bitcoin-dev/log-2011-08-31.html#l-691) oleh Nils Schneider. Sebuah repositori GitHub baru [dibuat](https://github.com/Bitcoin/Bitcoin.org) khusus untuk kesempatan ini. Desain ini akan bertahan lebih lama: tidak akan diubah hingga tahun 2013. Berikut tampilannya (perhatikan bahwa Bitcoin-perangkat lunak kemudian digambarkan sebagai "proyek open source yang digerakkan oleh komunitas"):
 
-![Snapshot dari Bitcoin.org tanggal 23 September 2011](assets/id/64.webp)
+![Snapshot dari Bitcoin.org tanggal 23 September 2011](assets/en/064.webp)
 
 Mengenai wiki, awalnya ia didasarkan pada DokuWiki, sebuah mesin bebas yang terintegrasi ke dalam situs web. Namun, pada Desember 2010, Mark Karpelès, seorang pengembang Prancis yang tinggal di Jepang dan menggunakan nama samaran MagicalTux di forum, membuat wiki baru di alamat Bitcoin.it. Wiki ini didasarkan pada mesin MediaWiki, yang menurutnya lebih elegan dan mudah digunakan. Ide awalnya bukan untuk menggantikan dokumentasi yang sudah ada, melainkan, seperti yang [diungkapkan](https://buildingBitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) Mark di IRC, untuk mengembangkan "wiki yang kurang formal, lebih berorientasi komunitas."
 
 Wiki baru ini menarik perhatian [Martti Malmi](https://Bitcointalk.org/index.php?topic=2321.msg30873#msg30873) dan [Gavin Andresen](https://Bitcointalk.org/index.php?topic=2321.msg31535#msg31535), sehingga mereka dengan cepat mempertimbangkan untuk menjadikannya wiki utama. Berikut adalah [snapshot](https://web.archive.org/web/20110521044430/https://en.Bitcoin.it/wiki/Main_Page) yang diambil pada 21 Mei:
 
-![Snapshot dari Bitcoin.it wiki pada 21 Mei 2011](assets/id/65.webp)
+![Snapshot dari Bitcoin.it wiki pada 21 Mei 2011](assets/en/065.webp)
 
 Beberapa hari setelah peluncuran, tautan berjudul "wiki" di halaman beranda Bitcoin.org [mengarah](https://Bitcointalk.org/index.php?topic=2321.msg30872#msg30872) ke Bitcoin.it. Konten secara bertahap dipindahkan dari versi DokuWiki. Pada 31 Januari, Martti [menyatakan](https://Bitcointalk.org/index.php?topic=293.msg42789#msg42789) di forum bahwa ini adalah wiki yang baru.
 
@@ -1475,13 +1477,13 @@ Pertemuan pengguna Bitcoin pertama kali diprakarsai oleh Bruce Wagner, pembawa a
 
 Meskipun acara-acara pertama berlangsung di Amerika Serikat, komunitas Prancis tidak ketinggalan. Pada 25 Mei, untuk menandai kunjungan Gavin Andresen ke Paris, makan siang diselenggarakan di distrik La Défense, yang dihadiri oleh tokoh-tokoh terkemuka seperti Lucien Grondin, David François, dan Jon Matonis (yang juga sedang berkunjung).
 
-![Pertemuan di La Défense di Paris dengan Gavin Andresen, mengenakan kemeja merah muda](assets/id/66.webp)
+![Pertemuan di La Défense di Paris dengan Gavin Andresen, mengenakan kemeja merah muda](assets/en/066.webp)
 
 Pertemuan di La Défense di Paris dengan Gavin Andresen, mengenakan kemeja merah muda (sumber: [arsip forum](https://web.archive.org/web/20140715000000*/https://Bitcointalk.org/index.php?topic=5587.40))
 
 Sebulan kemudian, pada 15 Juni, presentasi publik Bitcoin pertama dalam bahasa Prancis [berlangsung](https://Bitcointalk.org/index.php?topic=11384.msg225831#msg225831), lagi-lagi di Paris. Presentasi ini dilakukan oleh Renaud Lifchitz (nono2357), seorang ahli keamanan siber muda yang telah menemukan Bitcoin setahun sebelumnya. [Konten yang disajikan](https://prezi.com/tikwkjt9ouey/Bitcoin-une-monnaie-electronique-pour-tous/) memiliki kualitas yang sangat tinggi, dan jumlah hadirin sangat banyak sehingga ruangan penuh sesak.
 
-![Presentasi Bitcoin oleh Renaud Lifchitz pada 15 Juni 2011](assets/id/67.webp)
+![Presentasi Bitcoin oleh Renaud Lifchitz pada 15 Juni 2011](assets/en/067.webp)
 
 Presentasi Bitcoin oleh Renaud Lifchitz pada 15 Juni 2011 (sumber: [arsip forum](https://web.archive.org/web/20140406141205/https://Bitcointalk.org/index.php?topic=11384.0))
 
@@ -1503,7 +1505,7 @@ Pertama, video-video tentang topik ini mulai bertebaran di YouTube. Pada 22 Mare
 
 Pada bulan April, topik mata uang digital diliput oleh outlet pers arus utama besar seperti [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/), dan [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-Bitcoins-gavin-andresen-crypto-currency.html). Pada bulan Mei, gerakan ini semakin momentum, dan Bitcoin disebutkan hampir di mana-mana, terutama di [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/Bitcoin-p2p-currency), di [Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), di [Gizmodo](https://gizmodo.com/what-is-Bitcoin-5803124), dan di [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/).
 
-![Gavin Andresen di Forbes pada April 2011](assets/id/68.webp)
+![Gavin Andresen di Forbes pada April 2011](assets/en/068.webp)
 
 Gavin Andresen di Forbes pada April 2011 (sumber: [Arsip Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-Bitcoins-gavin-andresen-crypto-currency.html))
 
@@ -1515,13 +1517,13 @@ Blogger individual juga tertarik. Ini adalah kasus Rick Falkvinge, pendiri Parta
 
 Popularisasi Bitcoin berarti harganya meningkat secara signifikan. Meskipun sempat turun menjadi 20 sen pada Desember 2010, harganya mencapai paritas dengan dolar pada 9 Februari 2011. Pada saat itu, Hal Finney [menyatakan](https://Bitcointalk.org/index.php?topic=2734.msg37307#msg37307) bahwa anggota komunitas "sangat beruntung berada di awal fenomena baru yang mungkin akan meledak." Instingnya bagus, karena apa yang terjadi selanjutnya sangat cepat.
 
-![Fotografi yang diposting oleh jimbobway di forum pada hari paritas dengan dolar](assets/id/69.webp)
+![Fotografi yang diposting oleh jimbobway di forum pada hari paritas dengan dolar](assets/en/069.webp)
 
 Fotografi yang diterbitkan oleh jimbobway di forum pada hari paritas dengan dolar (sumber: [Bitcointalk](https://Bitcointalk.org/index.php?topic=2734.msg37144#msg37144))
 
 Memang, kegilaan media pada musim semi menghasilkan fenomena spekulatif yang belum pernah terjadi sebelumnya. Setelah stagnan di sekitar $1 selama beberapa bulan, harganya naik dan mencapai $3 pada akhir April. Pada Mei, harganya mencapai $8. Akhirnya, pada 8 Juni, harga Bitcoin mencapai titik tertinggi sepanjang masa sebesar $32 di Mt. Gox! Kenaikan ini setara dengan peningkatan 160 kali lipat dalam 6 bulan.
 
-![Harga rata-rata BTC antara 1 Januari dan 30 Juni 2011](assets/id/70.webp)
+![Harga rata-rata BTC antara 1 Januari dan 30 Juni 2011](assets/en/070.webp)
 
 Harga rata-rata BTC antara 1 Januari dan 30 Juni 2011 (sumber: [Bitbo.io](https://calendar.bitbo.io/price/))
 

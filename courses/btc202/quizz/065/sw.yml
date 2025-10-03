@@ -1,0 +1,9 @@
+question: Je, ni hatua gani ya kwanza ya kuchukua iwapo kuna mdudu kwenye Umbrel?
+answer: generate kifurushi cha uchunguzi
+wrong_answers:
+  - Sakinisha tena Bitcoin core na ufanye upya IBD
+  - Futa akiba
+  - Zima 2FA
+explanation: |
+  Tatizo linapotokea, tunaanza kwa kutengeneza kifurushi cha uchunguzi katika sehemu ya utatuzi ili kuchanganua suala hilo na kudumisha rekodi.
+reviewed: true

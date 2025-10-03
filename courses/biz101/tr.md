@@ -52,6 +52,8 @@ Kurs, geleneksel para birimleri ve ödeme mekanizmalarının ayrıntılı bir in
 İşletmeler için Bitcoin dünyasına dalmaya hazır mısınız? Hadi başlayalım!
 
 
+**Not**: Kurs sırasında tanıdık olmayan terimlerle karşılaşırsanız, tanımlar için lütfen [sözlüğe](https://planb.network/resources/glossary) başvurun.
+
 # Para birimi, ödeme sistemleri ve Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -222,7 +224,7 @@ En iyi ağın kazanması muhtemeldir.
     - Kart kullanımı mevcuttur ancak yüksek ücretler ve işlem limitleri nedeniyle daha az yaygın olma eğilimindedir. Alacak/verecek hesap süreçlerini kolaylaştırmak ve otomatikleştirmek için entegre ödeme platformları gibi dijital çözümler ortaya çıkmaktadır.
 
 
-![BIZ101](assets/tr/01.webp)
+![BIZ101](assets/tr/001.webp)
 
 *Grafik: Satış Noktası (POS) Ödeme Yöntemlerinde Küresel Eğilimler (2023-2027), The Global Payments Report 2024, Worldpay.*
 
@@ -234,7 +236,7 @@ En iyi ağın kazanması muhtemeldir.
 Bir müşteri bir mağazada kredi kartı kullandığında, kart POS terminali tarafından okunur ve bu terminal işlem verilerini güvenli bir şekilde satıcının alıcı bankasına iletir. Alıcı banka bu bilgileri ilgili kart ağına (örneğin Visa veya Mastercard) iletir, o da talebi kartı veren bankaya (müşterinin kartını sağlayan banka) yönlendirir. Kartı veren banka müşterinin hesabını veya kredi limitini kontrol eder ve ağ ve alıcı banka aracılığıyla bir yetkilendirme göndererek satıcının ödemeyi kabul etmesine izin verir.
 
 
-![BIZ101](assets/tr/02.webp)
+![BIZ101](assets/tr/002.webp)
 
 
 Basit gibi görünen bu işlem aslında 15'ten fazla adım, 7 aracı içerir ve tüccarın fonları alması ortalama 48 saat ile 5 gün arasında sürer. Takip eden günlerde bir takas ve hesaplaşma süreci gerçekleşir. Kart ağı günün işlemlerini bir araya getirir ve alıcı ile kart çıkaran kuruluş arasındaki fon alışverişini koordine eder. Bir merkez bankası bu bankalar arası mutabakatların doğruluğunu ve istikrarını sağlar. Sonunda, üye işyerinin banka hesabı, alıcıdan alacaklandırılan net tutarı (ücretler hariç) alır ve böylece işlem yaşam döngüsü tamamlanır.
@@ -296,7 +298,7 @@ Bitcoin bir **eşler arası dijital para birimi Exchange sistemidir** (elektroni
 Bunlar birlikte Bitcoin'u bir **taşıyıcı varlık** ve **ihraççısı olmayan** bir dijital para birimi haline getirir. Ownership yalnızca **özel kriptografik anahtarın** tutulmasıyla güvence altına alınır ve **aracılar veya güvenilir üçüncü taraflar olmadan** tam kontrol sağlar. Transfer edildiğinde, Ownership **finality** anında gerçekleşir: yeni sahibi, koruma veya dönüştürülebilirlik için merkezi bir otoriteye güvenmeden tamamen ona sahip olur. İşlemler **değiştirilemez** - Blockchain'ye kaydedildikten sonra değiştirilemez veya silinemezler.
 
 
-![BIZ101](assets/tr/11.webp)
+![BIZ101](assets/tr/003.webp)
 
 
 Bitcoin'nin sabit bir para politikası vardır ve 21 milyon bitcoin'lik bir **kapağı** vardır ve bunun ~19,8 milyonu halihazırda dağıtılmıştır. Bu da onu **deflasyonist** hale getirmekte, kullanıcılar tasarruflarını ve üretkenlik kazançlarını içinde sakladıkça değeri zamanla artmaktadır.
@@ -305,7 +307,7 @@ Bitcoin'nin sabit bir para politikası vardır ve 21 milyon bitcoin'lik bir **ka
 Teknik özellikleri altın ve doların toplamını aşarak onu şimdiye kadar yaratılmış en zor finansal varlık haline getirmektedir. Bitcoin hem bir değer saklama aracı hem de Exchange'in bir aracıdır, yapım aşamasında bir para birimidir. Bir şirketin hazinesinden diğerine hızlı bir şekilde, aracılar olmadan, minimum maliyetle, sahtekarlık olmadan, 7/24 ve herhangi bir üçüncü taraf dahil olmadan değer aktardığınızı hayal edin.
 
 
-![BIZ101](assets/tr/03.webp)
+![BIZ101](assets/tr/004.webp)
 
 
 Bitcoin etkin bir şekilde değerini korur çünkü Ledger kurcalanmaya karşı dayanıklıdır. Nadir ve sınırlı Supply ile artan kullanıcı sayısına bağlı olarak artan Exchange fırsatları nedeniyle değeri artar.
@@ -367,7 +369,7 @@ Lightning Network, Bitcoin'nın ana Blockchain ile minimum etkileşimle Bitcoin 
 - Kanal kapatma: Bir kullanıcı kanalını istediği zaman kapatabilir ve en son işlem durumunu yayınlayarak Bitcoin'ini geri alabilir. Bu, işlemlerin her an **"yayınlanabilir"** ancak gerekli olana kadar **"yayınlanamaz"** olması ilkesidir. Çıkış (kanal kapatma) tek taraflı (herhangi bir zamanda 2 taraftan herhangi biri tarafından kararlaştırılabilir) veya karşılıklı olarak kararlaştırılabilir (daha düşük On-Chain ücretleri ile sonuçlanır)
 
 
-![BIZ101](assets/tr/04.webp)
+![BIZ101](assets/tr/005.webp)
 
 
 Bu yaklaşım, her işlemi doğrudan Bitcoin'in ana Blockchain'sinde gerçekleştirmenin yavaşlığını ve karmaşıklığını önler, yalnızca nihai bakiyeleri kaydeder ve güvenliğini korur. Lightning Network, Bitcoin'in "üstünde" bir Layer'dur ancak ona bağlı kalır.
@@ -381,7 +383,7 @@ Protokol, kanalların evrensel bir ödeme sistemi oluşturduğu makinelerden olu
 Lightning Network, ışık hızında anında değer Exchange sağlar. Ödemelere uygulanan bir e-posta protokolü gibi: yeni nesil bir ödeme ağı. "Paranın" hareket etme şeklini kökten değiştirerek internetteki veri iletimi kadar ücretsiz ve hızlı hale getirir.
 
 
-![BIZ101](assets/tr/12.webp)
+![BIZ101](assets/tr/006.webp)
 
 
 **Anahtar Avantajlar:**
@@ -523,7 +525,7 @@ Balıkçı, mızrağı yapmaya başlamadan önce, yapım süreci boyunca geçimi
 Zamanını mızrağı inşa etmeye adarken, rezervlerine güvenir ve acil konforunun bir kısmını isteyerek geciktirir (**zaman tercihinin** bir yansıması). Birkaç gün süren Hard çalışmasının ardından sağlam bir mızrağı tamamlar.
 
 
-![BIZ101](assets/tr/05.webp)
+![BIZ101](assets/tr/007.webp)
 
 
 Mızrakla artık çok daha hızlı ve daha az çabayla balık yakalayabilir. Artık eskisi gibi kendini yormasına gerek kalmıyor ve hatta balık fazlası biriktirmeye başlıyor. Bu fazlalık yeni olasılıkların önünü açar: onu depolayabilir, paylaşabilir ya da adadaki diğer projelere yatırabilir. Anlık tüketimi erteleyerek ve sermayesini kullanarak, balıkçı verimliliğini ve gelecekteki beklentilerini önemli ölçüde artırmıştır."
@@ -624,7 +626,7 @@ Bitcoin, parasal enflasyonun yol açtığı erozyon olmaksızın uzun vadede ser
 - **Frédéric Bastiat**: 19. yüzyıl Fransız ekonomistlerinden Bastiat, serbest ticaret ve ekonomi politikalarının görünmeyen sonuçları üzerine yaptığı çalışmalarla Avusturya Okulu'nu etkilemiştir. Onun *Görülen ve Görülmeyen* adlı makalesi ekonomik liberalizmin temel metinlerinden biridir.
 
 
-![BIZ101](assets/tr/06.webp)
+![BIZ101](assets/tr/008.webp)
 
 
 *Atıf: Ludwig von Mises Enstitüsü*
@@ -702,7 +704,7 @@ Bununla birlikte, akılda tutulması gereken birkaç temel faktör vardır:
 İkincisi, Bitcoin şimdiye kadar **4 yıllık döngüler** yaşamıştır, yani 4 yıldan uzun bir zaman ufkunda bahis her zaman kârlı olmuştur. Bitcoin'i bir yatırım olarak görenler için kısa vadeli bir ufuk (<4 yıl) riskli olabilir.
 
 
-![BIZ101](assets/tr/07.webp)
+![BIZ101](assets/tr/009.webp)
 
 
 *MICHAEL SAYLOR: "En iyi Bitcoin fiyat sinyali 4 yıllık basit hareketli ortalamadır. "* Yukarıdaki grafiğe bakınız.
@@ -782,7 +784,7 @@ Tam olarak 1 Bitcoin satın almak zorunda değilsiniz, çünkü Bitcoin, anonim 
 Dahası, toplam 21 milyon bitcoin - ya da **2,1 katrilyon satoshi** - 64 bitlik bir tamsayı ile verimli bir şekilde temsil edilebilir. Bu da tüm Bitcoin başına yüksek bir fiyat olmasına rağmen, bölünebilirliği sayesinde geniş bir yatırımcı kitlesi için erişilebilir olduğu anlamına gelmektedir. Dolayısıyla, ağa katılmak veya bu dijital varlığa yatırım yapmak için bütün bir Bitcoin satın almanıza gerek yoktur.
 
 
-![BIZ101](assets/tr/08.webp)
+![BIZ101](assets/tr/010.webp)
 
 
 Hisse senetleri, altın veya gayrimenkul gibi diğer varlıklara kıyasla nispeten düşük toplam piyasa değerinin, değer kazanma kapasitesini sağlam bıraktığını hatırlayalım. Hâlâ çok düşük penetrasyon oranıyla (küresel nüfusun yaklaşık %1'i), yükselişinin yalnızca başlangıcında olduğumuz düşünülmektedir. Bu da onu **bizim neslimizin en asimetrik bahsi** haline getiriyor: şu anda çok düşük bir olasılıkla sıfıra düşecek ve güçlü bir olasılıkla da değer kazanmaya devam edecek.
@@ -834,7 +836,7 @@ Bu farklılıklar nedeniyle, **bazı işletme sahipleri Bitcoin'yi kurumsal yap�
 Bitcoin'yi edinmenin üç yolu vardır:
 
 
-![BIZ101](assets/tr/09.webp)
+![BIZ101](assets/tr/011.webp)
 
 
 
@@ -868,7 +870,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 Exchange veya eşler arası bitcoin edinme yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Exchange" bölümüne bakabilirsiniz] (https://planb.network/tutorials/exchange).
 
 
-![BIZ101](assets/tr/16.webp)
+![BIZ101](assets/tr/012.webp)
 
 
 ### Hangi Fiyatla?
@@ -904,7 +906,7 @@ Gerçekte, Bitcoin'in potansiyel değer kazanımı öyle ki, sadece birkaç yıl
 Gayrimenkul sektörü sık sık "satın almak için her zaman doğru zaman" ifadesini tekrarlarken, gayrimenkulün değer saklama işlevini yitirmesi halinde - Bitcoin gibi varlıklara geçerek - fiyatların kullanım değerine (barınak) yaklaşabileceğini unutmaktadır. Buna karşın Bitcoin, değer depolamaktan başka bir amaca hizmet etmiyor, bu da "satın almak için her zaman doğru zaman" anlamına gelebilir Bunu gelecek gösterecek.
 
 
-![BIZ101](assets/tr/13.webp)
+![BIZ101](assets/tr/013.webp)
 
 *Kredi: [Bitcoin Ofisi](https://Bitcoin.gob.sv/)*
 
@@ -939,13 +941,13 @@ Bu, Bitcoin'nın orijinal tasarımına uygun olduğu için gerçek Bitcoin merak
 Bunlar, Bitcoin'in kesirlerini temsil eden ve fiyat performansını kopyalayan geleneksel finansal araçlardır. Ürünün arkasındaki kurum teorik olarak temel Bitcoin'i satın alır ve elinde tutar. Katkılarınız ve para çekme işlemleriniz Bitcoin cinsinden değil, geleneksel para birimi (örneğin, dolar veya euro) cinsinden yapılır. Gerçek Bitcoin ile para çekmeye izin veren belirli ürünler dışında (bazı yargı bölgelerinde vergiye tabi bir olaydan kaçınmak için), bu araçlar yıllık yönetim ücretleri içerir. Burada, kurumun güvenliğine güvenirsiniz ve karşı taraf riskiyle karşı karşıya kalırsınız (örneğin, bir hükümet, 1933'te 6102 sayılı ABD İcra Emri uyarınca altınla olduğu gibi, kurumsal olarak tutulan tüm Bitcoin'e el koymaya karar verirse). Geleneksel finansal kanallar aracılığıyla dağıtıldıkları için birincil faydaları kolay erişimdir. Kriptografik anahtarları güvence altına alma ihtiyacını atlarlar ancak Bitcoin'in doğal özelliklerinden hiçbirini sunmazlar: Bitcoin ağını 7/24 izinsiz olarak serbestçe değer taşımak için kullanamazsınız. Bitcoin'in işlevselliğini ya da egemenliğini değil, yalnızca finansal performansını kopyalarlar.
 
 
-![BIZ101](assets/tr/15.webp)
+![BIZ101](assets/tr/014.webp)
 
 
 Buna ek olarak, Bitcoin'yi hangi biçimde tuttuğunuz kurumsal hazinenizi korumak için gereken güvenlik önlemlerini önemli ölçüde etkiler. İster anahtarlarınızın doğrudan kontrolünü sağlamak için tek imzalı veya çok imzalı donanım cüzdanları vb. kullanarak kendi kendinize saklamayı seçin, ister bu görevi üçüncü taraf saklama hizmetlerine veya ETF'lere devredin, her seçenek kendi risk profilini taşır. Örneğin, kendi kendine saklama tam erişim sağlar ancak sıkı dahili güvenlik protokolleri gerektirirken, üçüncü taraf çözümleri karşı taraf riski pahasına yönetim yükünü azaltır. Farklılıkları daha iyi göstermek için, bu grafik her bir saklama türünün güvenlik modelini özetleyerek kuruluşunuzun ihtiyaçlarına en uygun yaklaşımı seçmenize yardımcı olur:
 
 
-![BIZ101](assets/tr/14.webp)
+![BIZ101](assets/tr/015.webp)
 
 
 
@@ -1009,7 +1011,7 @@ Gerçek Bitcoin'i bir pazar yeri (Exchange) veya bir komisyoncu aracılığıyla
 Bitcoin, ilk uygulaması aracıları değer-paranın depolanmasından ve Exchange'dan çıkarmak olan bir güven altyapısıdır. Şu anda hayal bile edilemeyen diğer uygulamalar bu altyapı üzerinde ortaya çıkacaktır. Buradaki ilk varlığınız bir web sitesine sahip olmakla eşdeğerdir: eşler arası ödemeler ve değer değişimleri için bir ağ geçidi.
 
 
-![BIZ101](assets/tr/17.webp)
+![BIZ101](assets/tr/016.webp)
 
 
 Şimdi, ana faaliyetinin Bitcoin ile hiçbir ilgisi olmayan pratik bir işletmenin bakış açısını düşünün. Neden Bitcoin ödemelerini kabul etmeyi seçsin ki?
@@ -1158,7 +1160,7 @@ Karar verme sürecini basitleştirmek için dört farklı iş profili tanımlad�
 Başlangıç profili, Bitcoin ödemelerini önemli kaynaklar veya uzmanlık gerektirmeden keşfetmek isteyen işletmeler, içerik oluşturucular ve bireyler için tasarlanmıştır. Bunlar genellikle çok küçük hacimli işlemlerle (belki birkaç bahşiş, bağış veya ara sıra satış) ilgilenen ve Bitcoin ve Lightning Network ekosistemine basit, hafif bir giriş yapmak isteyen kişilerdir. Başlangıç yaklaşımının temel değeri, minimal kurulumunda yatmaktadır: çoğu durumda, gerekli olan tek şey temel Lightning uyumlu bir Wallet ile donatılmış bir akıllı telefon veya tablettir.
 
 
-![BIZ101-profiles](assets/tr/18.webp)
+![BIZ101-profiles](assets/tr/017.webp)
 
 
 Bu profilin belirleyici özelliklerinden biri, ayda nadiren birkaç yüz Euro veya doları aşan düşük hacimli ödemelere odaklanmasıdır. Bu mütevazı ölçek, daha yüksek hacimli dağıtımların doğasında bulunan karmaşıklıklar olmadan Bitcoin ile pazarı test etmek isteyen herkes için mükemmel bir seçimdir. Ayrıca, anında uygulamalı öğrenmeye olanak sağlar; daha az operasyonel baskı ve daha küçük parasal riskler olduğundan, hatalar kontrol altına alınabilir ve dersler hızlı bir şekilde öğrenilir. Hafta sonu fuarlarında el yapımı ürünler satan sanatçılardan tek seferlik bağış kabul eden kar amacı gütmeyen gruplara kadar bu kategorideki kullanıcılar genellikle gelişmiş işlevlerden ziyade erişilebilirlik ve kullanım kolaylığını vurgulamaktadır.
@@ -1167,7 +1169,7 @@ Bu profilin belirleyici özelliklerinden biri, ayda nadiren birkaç yüz Euro ve
 Starter profili için en yaygın iki Wallet kurulumu, gözetimli ve gözetimsiz çözümler arasında karar vermeyi içerir. Saklama amaçlı bir Wallet (Satoshi'in Wallet'sı veya Blink gibi), üçüncü taraf bir hizmetin özel anahtarları ve arka uç işlemlerini yönetmesine izin verir, böylece kullanıcı için teknik sorumlulukları azaltır. Bu düzenleme, her şeyden önce rahatlığa değer veren ve mümkün olan en basit ilk katılımı isteyen kişiler için özellikle caziptir. Öte yandan, emanetçi olmayan Lightning cüzdanları (Phoenix veya Breez gibi) özel anahtarları ve tam kontrolü işletme sahibinin ellerine bırakarak, biraz daha fazla başlangıç çabası karşılığında Exchange'te daha fazla özerklik ve gizlilik sunar. Her iki durumda da, modern arayüzler genellikle o kadar kullanıcı dostudur ki, herkes temel görevleri (QR kodu oluşturma, ödeme tutarı girme ve işlemleri onaylama) birkaç dakika içinde halledebilir.
 
 
-![BIZ101-profiles](assets/tr/19.webp)
+![BIZ101-profiles](assets/tr/018.webp)
 
 
 İşlemler küçük olduğunda güvenlik endişeleri daha az acil gibi görünse de, yine de temel koruyucu önlemlerin alınması çok önemlidir. Bitcoin ödemelerini almak için kullanılan tek bir akıllı telefon veya tablet bile bir şifre veya biyometrik güvenlik ile kilitlenmeli ve yedekleme prosedürleri (velayet altındaki bir Wallet için oturum açma kimlik bilgilerinin takip edilmesinden velayet altında olmayan bir seed ifadesinin korunmasına kadar) ciddiye alınmalıdır. Fiziksel bir ortamda işlem yapan personelin temel bilgileri bilmesi faydalı olacaktır: uygulamanın nasıl açılacağı, müşteriye QR kodunun nasıl sunulacağı ve ödemenin gerçekten gelip gelmediğinin nasıl kontrol edileceği.
@@ -1176,7 +1178,7 @@ Starter profili için en yaygın iki Wallet kurulumu, gözetimli ve gözetimsiz 
 Muhasebe ve raporlama, Starter profili altında nispeten basit olsa da, yine de dikkatli bir değerlendirme gerektirir. İşlem hacimleri asgari düzeyde olsa da, doğru kayıtların tutulması ileride karışıklığı önler ve mali denetimler veya vergi beyannameleri durumunda şeffaflığın korunmasına yardımcı olur. Birçok Wallet uygulaması, kullanıcıların temel bir işlem geçmişini CSV dosyası olarak dışa aktarmasına olanak tanır; küçük bir işletme veya tek bir girişimci için bu dosyaları düzenli olarak kaydetmek, hesapların mutabakatını çok daha kolay hale getirebilir. Ayrıca her işlemin alındığı andaki yaklaşık fiat değerini (örneğin avro veya dolar cinsinden) takip etmek akıllıca olacaktır. Bitcoin'nin fiyatı dalgalanabildiğinden, dönüşüm oranlarının kaydını tutmak defter tutma ve vergi uyumluluğu için çok değerlidir.
 
 
-![BIZ101-profiles](assets/tr/20.webp)
+![BIZ101-profiles](assets/tr/019.webp)
 
 
 Fiziksel veya yüz yüze ödemelerini çevrimiçi bağışlar veya bahşişlerle desteklemek isteyen işletmeler için, bir Lightning bahşiş düğmesini veya bağış widget'ını bir web sitesine veya bloga entegre etmek artık çok kolay. BTCPay Server gibi platformlar yapılandırması kolay ödeme düğmeleri sunarken, bazı sosyal medya ve canlı yayın hizmetleri adresli Lightning bahşişlerini zaten desteklemektedir. Sonuç olarak, bir Starter kuruluşu bile mütevazı ama küresel bir müşteri ağı oluşturabilir. Bu arada, Bitcoin'ü uzun vadeli tutmak istemeyenler, belirli saklama cüzdanlarını veya üçüncü taraf hizmetlerini kullanarak fiat para birimine kısmi veya otomatik dönüşümü keşfedebilirler. Bu seçenek ek ücretler ve olası KYC yükümlülükleri içerse de, işletmelerin Exchange kur oynaklığından kaçınmalarına ve mevcut finansal iş akışlarını en az kesintiyle sürdürmelerine yardımcı olur.
@@ -1227,13 +1229,13 @@ Başlangıç profilinin aksine, Temel işletmeler tipik olarak Bitcoin ödemeler
 Bu segmentteki teknoloji önerileri genellikle tüccarların Bitcoin ödemelerini kolayca kabul etmeleri için kolaylaştırılmış bir çözüm olan **Swiss Bitcoin Pay** üzerinde yoğunlaşmaktadır. Çalışanlar için teknik uzmanlık gerektirmeyen kullanıcı dostu bir PoS uygulamasına sahiptir. Standart Bitcoin cüzdanlarının aksine, yalnızca ödeme almaya odaklanır ve çalışanların cihazı güvenlik riski olmadan kullanmasına olanak tanır. Birden fazla PoS uygulaması aynı hesaba bağlanabilir, tabletlerde, kayıt cihazlarında, akıllı telefonlarda veya bilgisayarlar için Android ve iOS'u destekleyen bir web sürümü aracılığıyla kullanılabilir. Ayrıca, sattığınız ürünleri ve ilgili fiyatlarını içeren bir menü oluşturarak çalışanın PoS'ta müşteri için bir sepet ürün seçmesine ve ardından toplam tutarı tahsil etmesine olanak tanıyabilirsiniz.
 
 
-![BIZ101-profiles](assets/tr/21.webp)
+![BIZ101-profiles](assets/tr/020.webp)
 
 
 Ödemeler Bitcoin olarak belirli bir Address'ye çekilebilir veya fiat para birimine dönüştürülebilir ve günlük olarak bir banka hesabına yatırılabilir. Swiss Bitcoin Pay, Bitcoin ve Lightning Network ödemelerini manuel müdahale olmadan gerçekleştirerek süreci otomatikleştirir. Fonlar transferden önce en fazla 24 saat tutulur. BTCPay Server gibi tamamen gözetimsiz olmasa da, kolaylık ve güvenliği dengeler ve KYC gerektirmez.
 
 
-![BIZ101-profiles](assets/tr/22.webp)
+![BIZ101-profiles](assets/tr/021.webp)
 
 
 Ücretler rekabetçidir: ilk yıl için %0,21, daha sonra Bitcoin ödemeleri için %1 ve Bitcoin işlem maliyetleri dahil olmak üzere fiat dönüşüm ödemeleri için %1,5. Swiss Bitcoin Pay, Open Node gibi saklama çözümleri ile BTCPay Server gibi karmaşık kendi kendine barındırılan sistemler arasında pratik bir orta yol sunarak basitlik, güvenlik ve finansal özerkliğe öncelik veriyor.
@@ -1242,7 +1244,7 @@ Bu segmentteki teknoloji önerileri genellikle tüccarların Bitcoin ödemelerin
 Bu tür bir kurulum, yüz yüze işletmelerin generate ödeme faturalarını hızlı bir şekilde almalarını, QR kodlarını müşterilerine sunmalarını ve Lightning veya On-Chain işlemlerini minimum sürtünmeyle kabul etmelerini sağlar. Personelin bu ödemeleri gerçekleştirmek için yalnızca kısa bir oryantasyona ihtiyacı vardır; yöneticiler ise günlük satışların mutabakatını yapmak ve temel raporlara erişmek için çevrimiçi bir kontrol panelinde oturum açabilir. Kolaylaştırılmış bir yönetim konsolunun mevcudiyeti, daha küçük işletmelerin tek bir Interface'tan hem fiat hem de kripto gelirlerini takip etmelerine yardımcı olarak karışıklığı azaltır ve manuel defter tutma için harcanan zamanı azaltır.
 
 
-![BIZ101-profiles](assets/tr/23.webp)
+![BIZ101-profiles](assets/tr/022.webp)
 
 
 Essential yaklaşımının bir diğer önemli avantajı da hızlı kurulum ve minimum kesintiye verdiği önemdir. Swiss Bitcoin Pay gibi çözümler günler veya haftalar yerine birkaç saat içinde kurulabilir. Örneğin, mütevazı derecede yoğun bir restoranın sahibi veya yöneticisi için nihai hedef, kasada gecikmelere veya personel arasında karışıklığa neden olmadan Bitcoin kabulünü entegre etmektir. POS yapılandırıldıktan sonra, yönetici çalışanlara Invoice'in görüntülenmesi ve ödemenin yapıldığının doğrulanması konusunda hızlı talimatlar verebilir. En iyi senaryoda, bir müşterinin işlemi Lightning Network aracılığıyla neredeyse anında onaylanır ve işletmenin yönetim paneli aynı anda yeni bir ödemeyi gerçek zamanlı olarak kaydeder.
@@ -1251,7 +1253,7 @@ Essential yaklaşımının bir diğer önemli avantajı da hızlı kurulum ve mi
 Essential profili son derece sofistike muhasebe sistemleri gerektirmese de, yine de uygun işlem kayıtlarını tutmak akıllıca olacaktır. Swiss Bitcoin Pay gibi araçlar CSV dışa aktarma işlevleri sunarak yöneticilerin her bir Bitcoin satışının fiat eşdeğeri değerini yakalamasına ve diğer gelir kaynaklarıyla birlikte izlemesine olanak tanır. Bu düzeyde bir dokümantasyon çoğu küçük işletme için yeterlidir ve Exchange oranlarının temel düzeyde anlaşılması vergi beyannamesi ve genel mali gözetim konusunda yardımcı olacaktır.
 
 
-![BIZ101-profiles](assets/tr/24.webp)
+![BIZ101-profiles](assets/tr/023.webp)
 
 
 Profiliniz için en uygun hibrit çözüm muhtemelen Swiss Bitcoin Pay'dir:
@@ -1287,25 +1289,25 @@ Profesyonel profil, ara sıra veya düşük hacimli Bitcoin ödemelerinin ötesi
 Profesyonel tacirlerin belirleyici özelliklerinden biri, işlem hacimleri artarken bile verimliliği koruyan **gelişmiş özelliklere** ve **özelleştirilebilir çözümlere** ihtiyaç duymalarıdır. Bir akıllı telefon uygulamasına düzgün bir şekilde sığan aerodinamik bir araçtan memnun olabilecek Essential kullanıcılarının aksine, Profesyonel işletmeler genellikle ayrıntılı Invoice özelleştirmesi, sofistike raporlama panoları ve birden fazla yönetici rolü atama yeteneği gibi özellikler talep eder.
 
 
-![BIZ101-profiles](assets/tr/25.webp)
+![BIZ101-profiles](assets/tr/024.webp)
 
 
 Örneğin bir restoran grubunda faturalama ve stok yönetimine adanmış personel bulunurken, ayrı bir ekip ürün listelerini ve pazarlama kampanyalarını denetleyebilir. Bu ortamda, bir Bitcoin ödeme çözümü önceden var olan bu organizasyonel yapılarla uyumlu olmalıdır.
 
 
-![BIZ101-profiles](assets/tr/26.webp)
+![BIZ101-profiles](assets/tr/025.webp)
 
 
 Teknoloji ve araçlarla ilgili olarak, **BTCPay Server** gibi çözümler genellikle Profesyonel bir kurulumun çekirdeğini oluşturur. BTCPay Server, şirket içi veya bulut barındırma yoluyla dağıtılabilen ve web siteleri ve e-ticaret platformları için kapsamlı entegrasyon seçenekleri sunan açık kaynaklı bir platformdur. İşletmeler kendi örneklerini çalıştırarak, otomatik olarak oluşturulan ödeme sayfalarından ödeme onaylandıktan sonra dahili süreçleri tetikleyen bildirimlere kadar ödeme akışının her yönü üzerinde yüksek derecede kontrol sahibi olurlar.
 
 
-![BIZ101-profiles](assets/tr/27.webp)
+![BIZ101-profiles](assets/tr/026.webp)
 
 
 Ayrıca, [Zaprite](https://zaprite.com/) veya [Musqet](https://musqet.tech/) gibi araçlar ödeme deneyimini daha da iyileştirerek daha ayrıntılı özelleştirmeye (marka seçimlerinden sofistike raporlama yeteneklerine kadar) olanak tanıyabilir. Hepsi bir arada çevrimiçi perakende ortamını tercih edenler, kullanım kolaylığından ödün vermeden Bitcoin ödemelerini kolaylaştırmak için tasarlanmış bir e-mağaza çözümü olan [Be-BOP](https://be-bop.io/)'a yönelebilirler.
 
 
-![BIZ101-profiles](assets/tr/28.webp)
+![BIZ101-profiles](assets/tr/027.webp)
 
 
 Bu teknolojileri profesyonel bir ortamda uygulamak, **operasyonel karmaşıklığa** çok dikkat etmek anlamına gelir. Otomatik faturalama iş akışları, çoklu para birimi ekranları ve mevcut envanter sistemleriyle senkronizasyon, iyi entegre edilmiş bir platformun ayırt edici özellikleridir. İşlem verilerini (CSV dosyaları, doğrudan API çağrıları veya özelleştirilmiş formatlar olarak) tam olarak dışa aktarma yeteneği, işletmelerin Bitcoin satışlarını diğer gelir akışlarıyla verimli bir şekilde uzlaştırmasına yardımcı olur.
@@ -1317,7 +1319,7 @@ Güvenlik ve rol yönetimi, Profesyonel kullanıcılar için bir diğer önemli 
 Gerçek dünya örnekleri söz konusu olduğunda, teknoloji aksesuarları konusunda uzmanlaşmış orta ölçekli bir e-ticaret mağazasını düşünün. Şirket, BTCPay Server'ı mevcut çevrimiçi vitrinine entegre ederek ödeme sırasında otomatik olarak Bitcoin ödeme adresleri oluşturabilir. Müşteriler bir Lightning veya On-Chain Address tarayarak satın alma işlemlerini tamamlar ve mağazanın platformu ödemeyi anında onaylar. Aynı zamanda, dahili bir sistem sipariş durumunu günceller ve gönderim bildirimlerini tetikler. Gelişmiş raporlama özellikleri sayesinde, finans ekibi günlük Bitcoin satışlarını kolayca inceleyebilir, denetim için konsolide bir Ledger dışa aktarabilir ve şirketin elinde tutmaya karar verdiği BTC varlıklarının değerini takip edebilir.
 
 
-![BIZ101-profiles](assets/tr/29.webp)
+![BIZ101-profiles](assets/tr/028.webp)
 
 
 *[Kredi: Paris, Fransa'daki Bitcoin Bazar mağazası](https://bitcoinbazar.fr/)*
@@ -1423,7 +1425,7 @@ Yeni altyapılar daha verimli oldukları için başarılı olurlar ve erken beni
 - **Satıcı Benimseme Artışı:** BitRefill gibi satıcılar, aktif kullanıcıları arasında Bitcoin ödemelerinde bir artış olduğunu ve Lightning yerine Bitcoin'ye doğru net bir geçiş olduğunu bildiriyor. Ayrıca, Lightning'in ultra düşük ücretleri, onu küçük ödemeler için tercih edilen seçenek haline getiriyor (işlem başına ortalama 32 €).
 
 
-![BIZ101-profiles](assets/tr/30.webp)
+![BIZ101-profiles](assets/tr/029.webp)
 
 *[Kaynak: BTC Haritası](https://btcmap.org/)*
 
@@ -1442,7 +1444,7 @@ Yeni altyapılar daha verimli oldukları için başarılı olurlar ve erken beni
 Bitcoin ve Lightning Network **dijital Wallet devrimini** tamamlıyor. Yeni web hizmetleri artık **hesap oluşturmaya gerek kalmadan** işlem yapmaya izin veriyor - Wallet'unuz kimliğiniz oluyor! **Nostr Wallet Connect (NWC)** ve **LN-URL-AUTH** gibi protokollerle, cüzdanlar kullanıcıların kimliklerini sorunsuz bir şekilde doğrulayabilir ve geleneksel hesaplar olmadan işlem yapılmasını sağlayabilir. Basit satın alımlar veya abonelikler için hesap yorgunluğu günleri geride kaldı. Son olayların bize sık sık hatırlattığı gibi, hacklenebilecek ve dark web'de satılabilecek kişisel veya ödeme bilgilerini sağlamaya artık gerek yok.
 
 
-![BIZ101](assets/tr/10.webp)
+![BIZ101](assets/tr/030.webp)
 
 
 Yarının tüccarları bu yeniliği benimseyecek ve müşterilerine daha güvenli, daha sorunsuz (tek tıkla) ve aynı zamanda gizliliklerine saygılı bir deneyim sunacak.
@@ -1674,7 +1676,7 @@ Bir şirket Bitcoin'yı muhasebesine entegre etmeye karar verdiğinde, çeşitli
 Genellikle çeşitli platformlarda veya borsalarda birden fazla cüzdanı ve varlığı olan büyük kuruluşlar için akıllıca bir tamamlayıcıdır.
 
 
-![BIZ101](assets/tr/31.webp)
+![BIZ101](assets/tr/031.webp)
 
 
 Ancak, işlem geçmişini içeren basit bir `.csv` dosyası çoğu küçük işletme için genellikle yeterlidir. Amaç, her ödeme için tarih, tutar, avro/dolar cinsinden eşdeğer değer ve ilgili Bitcoin adreslerini belgelemektir. Bitcoin ödeme çözümlerinin (BTCPay Server, Swiss Bitcoin Pay, vb.) veya Exchange platformlarının (Bitfinex, Kraken, Coinbase, vb.) büyük çoğunluğu zaten işlem geçmişlerini dışa aktarmak için bir mekanizma sunmaktadır. Bu dosyayı bir muhasebeciye sağlayarak, veri girişini kolaylaştırmak ve Bitcoin ile ilgili gelen ve giden akışları net bir şekilde ayırt etmek mümkün hale gelir.

@@ -1,0 +1,9 @@
+question: 在 Umbrel 上安装类似 Mempool.Space 的本地 Block explorer 的主要原因是什么？
+answer: 保密并使用自己节点的数据
+wrong_answers:
+  - 加快初始 Bitcoin core 同步
+  - 增加区块的可用存储容量
+  - 获取闪电通道
+explanation: |
+  本地 Block explorer 可防止 IP 泄露，并依靠您自己的验证数据，从而保证保密性和可靠性。
+reviewed: true

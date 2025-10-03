@@ -1,0 +1,9 @@
+question: Apa yang bisa kita pelajari dari Copernicus?
+answer: Bahwa Bumi berputar mengelilingi Matahari.
+wrong_answers:
+  - Bahwa Bumi itu datar.
+  - Bahwa Bumi berada di pusat alam semesta.
+  - Persamaan Euclid itu salah.
+explanation: |
+  Nicolas Copernicus (1473-1543) terkenal karena telah menunjukkan bahwa Bumi berputar mengelilingi Matahari, merevolusi konsepsi kita tentang alam semesta. Penemuan ini memiliki pengaruh besar pada filsafat dan rasionalisme modern.
+reviewed: false

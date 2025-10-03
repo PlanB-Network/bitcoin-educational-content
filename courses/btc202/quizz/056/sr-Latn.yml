@@ -1,0 +1,9 @@
+question: Koji je najlakši način da povežete mobilni Wallet sa Electrs putem Umbrel-a?
+answer: Skeniraj Tor QR kod
+wrong_answers:
+  - Preuzmi datoteku kolačića
+  - Uvezi privatni ključ
+  - Kopiraj datoteku Wallet.dat
+explanation: |
+  Umbrel vam omogućava da direktno skenirate Tor QR kod koji pruža Electrs za konfiguraciju vaše mobilne veze.
+reviewed: true

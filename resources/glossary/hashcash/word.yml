@@ -7,7 +7,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
@@ -23,12 +23,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: et
     last_contribution_date:
     urgency: 1
@@ -44,12 +44,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.26
+    reward: 0.25
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -59,7 +59,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -75,7 +75,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.26
+    reward: 0.25
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -85,7 +85,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
+    reward: 0.67
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -115,7 +115,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: nl
     last_contribution_date:
     urgency: 1

@@ -1,0 +1,9 @@
+question: Какие приложения для самостоятельного хостинга можно установить через Umbrel?
+answer: Nextcloud
+wrong_answers:
+  - Google Диск
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel предлагает магазин приложений с сервисами для самостоятельного хостинга, такими как Nextcloud, для хранения и синхронизации файлов.
+reviewed: true

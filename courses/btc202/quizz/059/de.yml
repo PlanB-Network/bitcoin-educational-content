@@ -1,0 +1,9 @@
+question: Wie kann ich am besten aus der Ferne auf Bitcoin core zugreifen?
+answer: Freilegung des RPC-Anschlusses
+wrong_answers:
+  - Tor verwenden
+  - Verwendung eines VPN
+  - Einen Electrum-Server freilegen
+explanation: |
+  Der unverschlüsselte Zugang zum RPC-Port stellt ein großes Sicherheitsrisiko dar. Tor oder VPN sind vorzuziehen.
+reviewed: true

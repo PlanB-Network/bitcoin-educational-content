@@ -35,6 +35,8 @@ Ať už zastupujete malý podnik nebo velkou korporaci, cílem tohoto kurzu je v
 
 Připraveni ponořit se do světa Bitcoinu pro podniky? Jdeme na to!
 
+**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.network/resources/glossary) pro definice.
+
 # Měna, platební systémy a Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -141,7 +143,7 @@ Platební systémy jsou metody a infrastruktury, které umožňují převod fina
     - Důraz je často kladen na sledovatelnost, dokumentaci a schopnost zpracovávat větší hodnoty transakcí.
     - Používání karet existuje, ale bývá méně časté kvůli vyšším poplatkům a transakčním limitům. Objevují se digitální řešení, jako jsou integrované platební platformy, která zefektivňují a automatizují procesy pohledávek a závazků.
 
-![BIZ101](assets/cs/01.webp)
+![BIZ101](assets/cs/001.webp)
 
 *Grafika: Globální trendy v platebních metodách v místě prodeje (2023-2027), The Global Payments Report 2024, Worldpay.*
 
@@ -149,7 +151,7 @@ Platební systémy jsou metody a infrastruktury, které umožňují převod fina
 
 Když zákazník v obchodě použije kreditní kartu, je karta přečtena POS terminálem, který bezpečně předá údaje o transakci acquiringové bance obchodníka. Akviziční banka předá tyto informace příslušné kartové síti (např. Visa nebo Mastercard), která pak požadavek předá vydavateli - bance, která zákazníkovi poskytla kartu. Vydavatel zkontroluje účet nebo úvěrový rámec zákazníka a prostřednictvím sítě a acquirera zašle zpět autorizaci, která obchodníkovi umožní přijmout platbu.
 
-![BIZ101](assets/cs/02.webp)
+![BIZ101](assets/cs/002.webp)
 
 Tato zdánlivě jednoduchá transakce ve skutečnosti zahrnuje více než 15 kroků, 7 zprostředkovatelů a trvá v průměru 48 hodin až 5 dní, než obchodník obdrží finanční prostředky. V následujících dnech probíhá proces zúčtování a vypořádání. Karetní síť agreguje denní transakce a koordinuje výměnu finančních prostředků mezi nabyvatelem a vydavatelem. Přesnost a stabilitu těchto mezibankovních zúčtování zajišťuje centrální banka. Nakonec je na bankovní účet obchodníka připsána čistá částka (snížená o poplatky) od acquirera, čímž je životní cyklus transakce ukončen.
 
@@ -198,13 +200,13 @@ Bitcoin je **systém výměny digitální měny mezi partnery** (elektronické p
 
 Společně tvoří z bitcoinu **nosičové aktivum** a digitální měnu **bez emitenta**. Vlastnictví je zajištěno výhradně držením **privátního kryptografického klíče**, který poskytuje plnou kontrolu **bez zprostředkovatelů nebo důvěryhodných třetích stran**. Při převodu je **finalita vlastnictví** okamžitá: nový držitel ji plně vlastní, aniž by se spoléhal na ochranu nebo směnitelnost centrálním orgánem. Transakce jsou **nezměnitelné** - jakmile jsou zaznamenány v blockchainu, nelze je změnit ani smazat.
 
-![BIZ101](assets/cs/11.webp)
+![BIZ101](assets/cs/003.webp)
 
 Bitcoin má pevně stanovenou měnovou politiku s **kapacitou 21 milionů bitcoinů**, z nichž již bylo distribuováno ~19,8 milionu. Díky tomu je **deflační** a jeho hodnota v průběhu času roste, protože uživatelé do něj ukládají úspory a přírůstky produktivity.
 
 Svými technickými vlastnostmi překonává zlato a dolar dohromady, což z něj činí nejtvrdší finanční aktivum, jaké kdy bylo vytvořeno. Bitcoin je uchovatelem hodnoty i prostředkem směny, měnou ve stádiu vzniku. Představte si, že převádíte hodnotu z pokladny jedné společnosti do pokladny druhé rychle, bez prostředníků, s minimálními náklady, bez podvodů, 24 hodin denně, 7 dní v týdnu a bez účasti třetí strany.
 
-![BIZ101](assets/cs/03.webp)
+![BIZ101](assets/cs/004.webp)
 
 Bitcoin efektivně uchovává hodnotu, protože jeho účetní kniha je odolná proti manipulaci. Jeho hodnota roste díky vzácné a omezené nabídce v kombinaci s rostoucím počtem příležitostí ke směně, což je dáno rostoucím počtem uživatelů.
 
@@ -255,7 +257,7 @@ Lightning Network je **protokol a síť**, která usnadňuje transakce s bitcoin
 - Vypořádání v řetězci: V hlavním blockchainu Bitcoinu (**"on-chain"**) se zveřejňuje pouze **konečný zůstatek** transakcí v kanálu, což umožňuje, aby mezitím proběhlo mnoho transakcí. Toto sdružování více plateb snižuje zahlcení a tím i poplatky ve srovnání s prováděním mnoha transakcí on-chain.
 - Uzavření kanálu: Uživatel může kdykoli uzavřít svůj kanál a získat zpět své Bitcoiny zveřejněním posledního stavu transakce. Jedná se o princip, kdy jsou transakce **"publikovatelné"** v každém okamžiku, ale **"nepublikované"**, dokud to není nutné. Odchod (uzavření kanálu) může být jednostranný (rozhodne o něm kterákoli ze dvou stran kdykoli) nebo vzájemně dohodnutý (což vede k nižším poplatkům v řetězci)
 
-![BIZ101](assets/cs/04.webp)
+![BIZ101](assets/cs/005.webp)
 
 Tento přístup se vyhýbá pomalosti a složitosti provádění každé transakce přímo v hlavním blockchainu Bitcoinu, zaznamenává pouze konečné zůstatky a zachovává jeho bezpečnost. Lightning Network je vrstva "nad" Bitcoinem, ale zůstává s ním ukotvena.
 
@@ -265,7 +267,7 @@ Protokol vytváří **síť** strojů, jejichž kanály tvoří univerzální pl
 
 Síť Lightning Network umožňuje okamžitou výměnu hodnot rychlostí světla. Je to jako e-mailový protokol aplikovaný na platby: platební síť nové generace. Radikálně mění způsob pohybu "peněz" a činí jej stejně svobodným a rychlým jako přenos dat na internetu.
 
-![BIZ101](assets/cs/12.webp)
+![BIZ101](assets/cs/006.webp)
 
 **Klíčové výhody:**
 
@@ -374,7 +376,7 @@ Než začne s výrobou oštěpu, rozhodne se rybář odložit si nějaké ryby, 
 
 Zatímco věnuje svůj čas budování kopí, spoléhá na své rezervy a ochotně odkládá některé své bezprostřední pohodlí (což je odrazem jeho **časové preference**). Po několika dnech usilovné práce dokončí robustní kopí.
 
-![BIZ101](assets/cs/05.webp)
+![BIZ101](assets/cs/007.webp)
 
 Díky harpuně může nyní chytat ryby mnohem rychleji a s menší námahou. Už se nemusí vyčerpávat jako dřív a dokonce se mu začnou hromadit přebytky ryb. Tento přebytek mu otevírá nové možnosti: může ho skladovat, dělit se o něj nebo ho investovat do dalších projektů na ostrově. Tím, že rybář odložil okamžitou spotřebu a využil svůj kapitál, výrazně zlepšil svou efektivitu a vyhlídky do budoucna."
 
@@ -430,7 +432,7 @@ Bitcoin nabízí způsob, jak dlouhodobě akumulovat a uchovávat kapitál bez e
 - **Milton Friedman**: Friedman sice nebyl přímo spojován s rakouskou školou, ale podporoval mnoho protržních a liberálních myšlenek. Jeho monetaristická politika se liší od rakouského myšlení, ale sdílí jejich kritiku nadměrných státních zásahů do ekonomiky.
 - **Frédéric Bastiat**: Bastiat, francouzský ekonom 19. století, ovlivnil rakouskou školu svými pracemi o volném obchodu a neviditelných důsledcích hospodářské politiky. Jeho esej _Co je vidět a co není vidět_ je základním textem ekonomického liberalismu.
 
-![BIZ101](assets/cs/06.webp)
+![BIZ101](assets/cs/008.webp)
 
 *Připsání autorství: Ludwig von Mises Institute*
 
@@ -486,7 +488,7 @@ Zaprvé, **předchozí výkonnost nezaručuje budoucí výsledky**. Dokud bude b
 
 Za druhé, bitcoin dosud zažil **čtyřleté cykly**, což znamená, že v časovém horizontu delším než 4 roky byla sázka vždy zisková. Pro ty, kteří považují Bitcoin za investici, může být krátkodobý horizont (<4 roky) rizikový.
 
-![BIZ101](assets/cs/07.webp)
+![BIZ101](assets/cs/009.webp)
 
 *MICHAEL SAYLOR: "Nejlepší cenový signál pro Bitcoin je 4letý jednoduchý klouzavý průměr. "* Viz výše uvedený graf.
 
@@ -547,7 +549,7 @@ Nemusíte si koupit přesně 1 bitcoin, protože bitcoin je dělitelný na díl�
 
 Navíc celkový počet 21 milionů bitcoinů - neboli **2,1 kvadrilionu satošů** - lze efektivně reprezentovat 64bitovým celým číslem. To znamená, že i přes vysokou cenu za celý bitcoin zůstává díky své dělitelnosti dostupný širokému okruhu investorů. K účasti v síti nebo investici do tohoto digitálního aktiva tedy není třeba kupovat celé bitcoiny.
 
-![BIZ101](assets/cs/08.webp)
+![BIZ101](assets/cs/010.webp)
 
 Nezapomeňme, že jeho relativně nízká celková tržní kapitalizace ve srovnání s jinými aktivy, jako jsou akcie, zlato nebo nemovitosti, ponechává jeho schopnost zhodnocení nedotčenou. Vzhledem ke stále velmi nízkému rozšíření (kolem 1 % světové populace) se předpokládá, že jsme teprve na začátku jeho vzestupu. To z něj činí **nejasymetričtější sázku naší generace**: nyní existuje velmi nízká pravděpodobnost, že v tomto okamžiku klesne na nulu, a velká pravděpodobnost, že bude nadále získávat na síle.
 
@@ -584,7 +586,7 @@ Vzhledem k těmto rozdílům se **někteří majitelé firem rozhodnou nakupovat
 
 Bitcoin můžete získat třemi způsoby:
 
-![BIZ101](assets/cs/09.webp)
+![BIZ101](assets/cs/011.webp)
 
 
 - **Výměnou za zboží nebo služby:**
@@ -611,7 +613,7 @@ https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 Více informací o metodách získávání bitcoinů prostřednictvím burzy nebo peer-to-peer najdete [v sekci "burza" v našich návodech](https://planb.network/tutorials/exchange).
 
-![BIZ101](assets/cs/16.webp)
+![BIZ101](assets/cs/012.webp)
 
 ### Za jakou cenu?
 
@@ -635,7 +637,7 @@ Ve skutečnosti je potenciál zhodnocení bitcoinu takový, že i kdybyste zača
 
 Realitní průmysl často opakuje, že "vždy je ten správný čas na nákup", a zapomíná, že pokud by nemovitosti ztratily svou funkci uchovatele hodnoty - přesunuly by se k aktivům, jako je Bitcoin -, mohly by se jejich ceny vrátit blíže ke své užitné hodnotě (úkryt). Bitcoin naproti tomu neslouží k ničemu jinému než k uchovávání hodnoty, což by mohlo znamenat, že "vždy je ten správný čas na nákup" To ukáže až budoucnost.
 
-![BIZ101](assets/cs/13.webp)
+![BIZ101](assets/cs/013.webp)
 
 *Kredit: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
@@ -662,11 +664,11 @@ Například směnárna nebo nákupní služba vám může vytvořit účet, pře
 
 Jedná se o tradiční finanční nástroje, které představují zlomky bitcoinu a kopírují jeho cenovou výkonnost. Instituce, která za produktem stojí, teoreticky nakupuje a drží podkladový Bitcoin. Vaše příspěvky a výběry se provádějí v tradiční měně (např. v dolarech nebo eurech), nikoli v Bitcoinech. S výjimkou některých produktů, které umožňují výběr ve skutečných Bitcoinech (aby se předešlo zdanitelnému plnění v některých jurisdikcích), zahrnují tyto nástroje roční poplatky za správu. Zde se spoléháte na bezpečnost instituce a čelíte riziku protistrany (například pokud by se vláda rozhodla zabavit všechny institucionálně držené Bitcoiny, jako se to stalo se zlatem v roce 1933 na základě amerického nařízení 6102). Jejich hlavní výhodou je snadný přístup, protože jsou distribuovány tradičními finančními kanály. Obcházejí nutnost zabezpečení kryptografických klíčů, ale nenabízejí žádnou z vlastností, které jsou Bitcoinu vlastní: nemůžete používat síť Bitcoin 24 hodin denně, 7 dní v týdnu k volnému pohybu hodnoty bez povolení. Kopírují pouze finanční výkonnost, nikoli funkčnost nebo suverenitu samotného Bitcoinu.
 
-![BIZ101](assets/cs/15.webp)
+![BIZ101](assets/cs/014.webp)
 
 Forma, v níž držíte bitcoiny, navíc významně ovlivňuje bezpečnostní opatření potřebná k ochraně vaší firemní pokladny. Ať už se rozhodnete pro vlastní úschovu pomocí hardwarových peněženek s jedním nebo více podpisy atd. a budete si udržovat přímou kontrolu nad klíči, nebo tento úkol svěříte úschovným službám třetích stran nebo ETF, každá možnost s sebou nese vlastní rizikový profil. Například self-custody nabízí plný přístup, ale vyžaduje přísné interní bezpečnostní protokoly, zatímco řešení třetích stran snižují zátěž správy za cenu rizika protistrany. Pro další ilustraci rozdílů je v tomto grafu uveden bezpečnostní model pro každý typ úschovy, který vám pomůže vybrat přístup nejlépe vyhovující potřebám vaší organizace :
 
-![BIZ101](assets/cs/14.webp)
+![BIZ101](assets/cs/015.webp)
 
 ### Od koho nakupovat?
 
@@ -714,7 +716,7 @@ V počátcích umožnila internetová síť odstranit z komunikačních kanálů
 
 Bitcoin je infrastruktura důvěry, jejíž první aplikací je odstranění zprostředkovatelů z ukládání a výměny hodnot - peněz. Na této infrastruktuře vzniknou další, v současnosti nepředstavitelné aplikace. Vaše počáteční přítomnost zde je ekvivalentem existence webové stránky: brány pro peer-to-peer platby a výměnu hodnot.
 
-![BIZ101](assets/cs/17.webp)
+![BIZ101](assets/cs/016.webp)
 
 Nyní se podívejte na praktickou firmu, jejíž hlavní činnost nemá s bitcoinem nic společného. Proč by se rozhodl přijímat platby v bitcoinech?
 
@@ -840,19 +842,19 @@ V následujících kapitolách se podrobně seznámíme s jednotlivými podnikov
 
 Profil Starter je určen pro podniky, tvůrce a jednotlivce, kteří chtějí prozkoumat platby bitcoinem, aniž by museli vynaložit značné prostředky nebo odborné znalosti. Obvykle se jedná o ty, kteří zpracovávají velmi malý objem transakcí (možná několik spropitného, darů nebo příležitostných prodejů) a hledají jednoduchý, nenáročný úvod do ekosystému Bitcoinu a Lightning Network. Klíčová hodnota přístupu Starter spočívá v jeho minimálním nastavení: ve většině případů stačí chytrý telefon nebo tablet vybavený základní peněženkou kompatibilní s Lightning.
 
-![BIZ101-profiles](assets/cs/18.webp)
+![BIZ101-profiles](assets/cs/017.webp)
 
 Jedním z charakteristických rysů tohoto profilu je jeho zaměření na nízkoobjemové platby, které zřídkakdy přesahují několik set eur nebo dolarů měsíčně. Díky tomuto skromnému rozsahu je vynikající volbou pro každého, kdo si chce vyzkoušet trh s bitcoiny bez složitostí spojených s nasazením ve větším objemu. Navíc umožňuje okamžité praktické učení; protože je zde méně provozních tlaků a menší peněžní sázky, lze omezit chyby a rychle se poučit. Uživatelé v této kategorii, od umělců, kteří prodávají ručně vyráběné výrobky na víkendových jarmarcích, až po neziskové skupiny, které přijímají jednorázové dary, často kladou důraz na dostupnost a snadnost použití před pokročilými funkcemi.
 
 Dvě nejčastější nastavení peněženky pro profil Starter zahrnují rozhodování mezi řešením s úschovou a bez úschovy. Správcovská peněženka (například Wallet of Satoshi nebo Blink) umožňuje službě třetí strany spravovat soukromé klíče a backendové operace, čímž snižuje technické povinnosti uživatele. Toto uspořádání je atraktivní zejména pro ty, kteří si cení především pohodlí a chtějí co nejjednodušší onboarding. Na druhou stranu neúřední peněženky Lightning (jako Phoenix nebo Breez) svěřují soukromé klíče a plnou kontrolu do rukou majitele firmy a nabízejí větší autonomii a soukromí výměnou za o něco větší počáteční úsilí. V obou případech jsou moderní rozhraní obvykle natolik uživatelsky přívětivá, že základní úkony (vygenerování QR kódu, zadání částky platby a potvrzení transakce) zvládne každý během několika minut.
 
-![BIZ101-profiles](assets/cs/19.webp)
+![BIZ101-profiles](assets/cs/018.webp)
 
 Ačkoli se obavy o bezpečnost mohou zdát méně naléhavé, pokud jsou transakce malé, je přesto nezbytné zavést základní ochranná opatření. I jediný chytrý telefon nebo tablet používaný k přijímání plateb v bitcoinech by měl být uzamčen heslem nebo biometrickým zabezpečením a zálohovací postupy (od sledování přihlašovacích údajů pro úschovnou peněženku až po zabezpečení počáteční fráze pro neúschovnou peněženku) je třeba brát vážně. Zaměstnancům, kteří zpracovávají transakce ve fyzickém prostředí, by prospělo znát základy: jak otevřít aplikaci, jak předložit QR kód zákazníkovi a jak zkontrolovat, zda platba skutečně dorazila.
 
 Účetnictví a výkaznictví jsou sice v rámci profilu Starter relativně jednoduché, ale přesto je třeba je pečlivě zvážit. Přestože objem transakcí může být minimální, uchovávání přesných záznamů zabraňuje pozdějším zmatkům a pomáhá zachovat transparentnost v případě finančních auditů nebo daňových přiznání. Mnoho aplikací peněženek umožňuje uživatelům exportovat základní historii transakcí jako soubor CSV; pro malý podnik nebo jednoho podnikatele může pravidelné ukládání těchto souborů výrazně usnadnit odsouhlasení účtů. Je také rozumné sledovat přibližnou hodnotu fiatů (například v eurech nebo dolarech) v okamžiku přijetí každé transakce. Vzhledem k tomu, že cena bitcoinu může kolísat, je evidence převodních kurzů neocenitelná pro vedení účetnictví a dodržování daňových předpisů.
 
-![BIZ101-profiles](assets/cs/20.webp)
+![BIZ101-profiles](assets/cs/019.webp)
 
 Pro podniky, které chtějí doplnit své fyzické nebo osobní platby online dary nebo spropitným, je nyní snadné integrovat tlačítko Lightning tip nebo widget pro dárcovství do webových stránek nebo blogu. Platformy, jako je server BTCPay, nabízejí snadno konfigurovatelná platební tlačítka, zatímco některá sociální média a služby živého vysílání již podporují tipy Lightning s adresami. V důsledku toho může i podnik typu Starter vybudovat skromnou, ale globální síť mecenášů. Mezitím mohou ti, kteří raději nechtějí držet bitcoiny dlouhodobě, prozkoumat částečnou nebo automatickou konverzi na fiat měnu pomocí některých úschovných peněženek nebo služeb třetích stran. Ačkoli tato možnost zahrnuje další poplatky a možné povinnosti KYC, pomáhá podnikům vyhnout se volatilitě směnných kurzů a zachovat stávající finanční pracovní postupy s minimálním narušením.
 
@@ -890,23 +892,23 @@ Na rozdíl od profilu Starter považují základní podniky platby bitcoiny obvy
 
 Technologická doporučení v tomto segmentu se často zaměřují na **Swiss Bitcoin Pay**, zjednodušené řešení pro obchodníky, kteří mohou snadno přijímat platby v bitcoinech. Je vybaveno uživatelsky přívětivou aplikací PoS, která od zaměstnanců nevyžaduje žádné technické znalosti. Na rozdíl od standardních bitcoinových peněženek se zaměřuje výhradně na příjem plateb a umožňuje zaměstnancům používat zařízení bez bezpečnostních rizik. K jednomu účtu se může připojit více aplikací PoS, které lze používat na tabletech, registračních pokladnách, chytrých telefonech nebo prostřednictvím webové verze pro počítače, podporující systémy Android a iOS. Můžete také vytvořit nabídku s prodávanými položkami a jejich souvisejícími cenami, což umožní zaměstnanci jednoduše vybrat pro zákazníka košík položek na PoS a poté účtovat celkovou částku.
 
-![BIZ101-profiles](assets/cs/21.webp)
+![BIZ101-profiles](assets/cs/020.webp)
 
 Platby lze vybírat buď v bitcoinech na konkrétní adresu, nebo je lze denně převádět na fiat měnu a ukládat na bankovní účet. Swiss Bitcoin Pay tento proces automatizuje a zpracovává platby v Bitcoinech a Lightning Network bez manuálního zásahu. Finanční prostředky jsou před převodem zadržovány maximálně 24 hodin. Není sice plně bezobslužný jako server BTCPay, ale vyvažuje pohodlí a bezpečnost a nevyžaduje žádné KYC.
 
-![BIZ101-profiles](assets/cs/22.webp)
+![BIZ101-profiles](assets/cs/021.webp)
 
 Poplatky jsou konkurenceschopné: 0,21 % za první rok, pak 1 % za platby v bitcoinech a 1,5 % za platby v konverzi fiat, včetně transakčních nákladů v bitcoinech. Swiss Bitcoin Pay nabízí praktickou střední cestu mezi depozitními řešeními, jako je Open Node, a složitými samohostitelskými systémy, jako je BTCPay Server, přičemž upřednostňuje jednoduchost, bezpečnost a finanční autonomii.
 
 Tento typ nastavení umožňuje osobním podnikům rychle generovat platební faktury, předkládat svým zákazníkům kódy QR a přijímat bleskové transakce nebo transakce v řetězci s minimálním třením. Zaměstnanci potřebují pouze krátkou instruktáž, aby mohli tyto platby zpracovávat, zatímco manažeři se mohou přihlásit do online řídicího panelu a odsouhlasit denní tržby a získat přístup k základním přehledům. Dostupnost zjednodušené administrativní konzole také pomáhá menším provozovnám sledovat tržby z fiat i kryptoměn z jediného rozhraní, čímž se zmírní zmatky a sníží čas strávený manuálním vedením účetnictví.
 
-![BIZ101-profiles](assets/cs/23.webp)
+![BIZ101-profiles](assets/cs/022.webp)
 
 Další klíčovou výhodou přístupu Essential je důraz na rychlé nasazení a minimální narušení. Řešení, jako je Swiss Bitcoin Pay, lze nastavit během několika hodin, nikoli dnů či týdnů. Například pro majitele nebo manažera mírně vytížené restaurace je konečným cílem integrovat přijímání Bitcoinů, aniž by to způsobilo zdržení u pokladny nebo zmatek mezi zaměstnanci. Jakmile je pokladna nakonfigurována, může manažer jednoduše poskytnout zaměstnancům rychlé pokyny k zobrazení faktury a ověření, že platba byla uhrazena. V nejlepším případě je transakce zákazníka potvrzena téměř okamžitě prostřednictvím sítě Lightning Network a administrativní panel podniku současně zaregistruje novou platbu v reálném čase.
 
 Ačkoli profil Essential nevyžaduje vysoce sofistikované účetní systémy, je přesto rozumné vést řádnou evidenci transakcí. Nástroje, jako je Swiss Bitcoin Pay, nabízejí funkce exportu CSV, které manažerům umožňují zachytit hodnotu každého prodeje bitcoinů ve fiat ekvivalentu a sledovat ji spolu s dalšími zdroji příjmů. Tato úroveň dokumentace je pro většinu malých podniků dostatečná a základní znalosti směnných kurzů pomohou při vyplňování daňových přiznání a obecném finančním dohledu.
 
-![BIZ101-profiles](assets/cs/24.webp)
+![BIZ101-profiles](assets/cs/023.webp)
 
 Nejvhodnějším hybridním řešením pro váš profil je pravděpodobně Swiss Bitcoin Pay:
 
@@ -930,19 +932,19 @@ Profil Professional je určen pro podniky, které se již vymanily z příležit
 
 Jedním z charakteristických rysů profesionálního obchodníka je potřeba **pokročilých funkcí** a **přizpůsobitelných řešení**, která udržují efektivitu i při rostoucím objemu transakcí. Na rozdíl od uživatelů Essential, kteří se mohou spokojit se zjednodušeným nástrojem, který se úhledně vejde do aplikace pro chytré telefony, obchodníci Professional obvykle požadují funkce, jako je podrobné přizpůsobení faktur, sofistikované přehledy a možnost přiřazení více správcovských rolí.
 
-![BIZ101-profiles](assets/cs/25.webp)
+![BIZ101-profiles](assets/cs/024.webp)
 
 Například skupina restaurací může mít zaměstnance, kteří se věnují fakturaci a správě zásob, zatímco jiný tým dohlíží na seznamy produktů a marketingové kampaně. V takovém prostředí musí řešení pro platby bitcoiny dobře zapadat do těchto již existujících organizačních struktur.
 
-![BIZ101-profiles](assets/cs/26.webp)
+![BIZ101-profiles](assets/cs/025.webp)
 
 Pokud jde o technologie a nástroje, řešení jako **BTC Pay Server** často tvoří jádro profesionálního nastavení. BTC Pay Server je open-source platforma, kterou lze nasadit buď lokálně, nebo prostřednictvím cloudového hostingu a která nabízí rozsáhlé možnosti integrace pro webové stránky a platformy elektronického obchodování. Díky provozování vlastní instance si podniky zachovávají vysokou míru kontroly nad každým aspektem platebního toku, od automaticky generovaných pokladních stránek až po oznámení, která spouštějí interní procesy po potvrzení platby.
 
-![BIZ101-profiles](assets/cs/27.webp)
+![BIZ101-profiles](assets/cs/026.webp)
 
 Kromě toho mohou nástroje, jako je [Zaprite](https://zaprite.com/) nebo [Musqet](https://musqet.tech/), dále zdokonalit pokladní prostředí a umožnit podrobnější přizpůsobení (od volby značky až po sofistikované možnosti reportování). Ti, kteří dávají přednost online maloobchodnímu prostředí typu "vše v jednom", se mohou přiklonit k [Be-BOP](https://be-bop.io/), řešení pro e-shopy vytvořenému tak, aby usnadňovalo platby v bitcoinech, aniž by bylo obětováno snadné používání.
 
-![BIZ101-profiles](assets/cs/28.webp)
+![BIZ101-profiles](assets/cs/027.webp)
 
 Implementace těchto technologií v profesionálním prostředí znamená věnovat velkou pozornost **provozní složitosti**. Automatizované pracovní postupy fakturace, zobrazení více měn a synchronizace se stávajícími skladovými systémy jsou charakteristickými znaky dobře integrované platformy. Schopnost přesného exportu transakčních dat (ať už ve formě souborů CSV, přímých volání API nebo přizpůsobených formátů) pomáhá podnikům efektivně sladit bitcoinové prodeje s ostatními toky příjmů.
 
@@ -950,7 +952,7 @@ Dalším klíčovým aspektem pro uživatele Professional je zabezpečení a spr
 
 Pokud jde o reálné příklady, vezměte si za příklad středně velký e-shop specializovaný na technologické příslušenství. Společnost by mohla integrovat BTC Pay Server do svého stávajícího internetového obchodu a automaticky generovat adresy pro platby v bitcoinech během pokladny. Zákazníci dokončí nákup naskenováním adresy Lightning nebo on-chain a platforma obchodu okamžitě potvrdí platbu. Interní systém zároveň aktualizuje stav objednávky a spouští oznámení o odeslání. Díky pokročilým funkcím reportování může finanční tým snadno kontrolovat denní prodeje Bitcoinů, exportovat konsolidovanou účetní knihu pro audit a sledovat hodnotu všech BTC podílů, které se společnost rozhodne ponechat.
 
-![BIZ101-profiles](assets/cs/29.webp)
+![BIZ101-profiles](assets/cs/028.webp)
 
 *[Kredit: obchod Bitcoin Bazar v Paříži, Francie.](https://bitcoinbazar.fr/)*
 
@@ -1016,7 +1018,7 @@ Nové infrastruktury jsou úspěšné, protože jsou efektivnější, a ti, kdo 
 - **Vylepšená správa uzlů a kanálů:** Individuální i profesionální řešení pokročila. Například BTC Pay Server nyní podporuje řadu zásuvných modulů pro propojení s dalšími poskytovateli (poskytovatelé platebních služeb, zapínací a vypínací rampy atd.). Do výroby vstupují také noví poskytovatelé infrastruktury, jako jsou LightSpark a Alby Hub.
 - **Růst přijetí u obchodníků:** Obchodníci, jako je BitRefill, hlásí mezi svými aktivními uživateli nárůst plateb v bitcoinech, přičemž je zřejmý posun směrem k bitcoinu oproti Lightningu. Kromě toho je Lightning díky svým velmi nízkým poplatkům preferovanou volbou pro malé platby (průměrně 32 EUR za transakci).
 
-![BIZ101-profiles](assets/cs/30.webp)
+![BIZ101-profiles](assets/cs/029.webp)
 
 *[Zdroj: Mapa BTC](https://btcmap.org/)*
 
@@ -1028,7 +1030,7 @@ Nové infrastruktury jsou úspěšné, protože jsou efektivnější, a ti, kdo 
 
 Bitcoin a Lightning Network dokončují revoluci **digitálních peněženek**. Nové webové služby nyní umožňují **transakce bez nutnosti vytvářet účet** - vaše peněženka se stává vaší identitou! Díky protokolům jako **Nostr Wallet Connect (NWC)** a **LN-URL-AUTH** mohou peněženky bezproblémově ověřovat uživatele a umožňovat transakce bez tradičních účtů. Pryč jsou časy únavy z účtů při jednoduchých nákupech nebo předplatném. Už není třeba poskytovat osobní nebo platební údaje, které by mohly skončit hacknutím a prodejem na dark webu, jak nám až příliš často připomínají nedávné události.
 
-![BIZ101](assets/cs/10.webp)
+![BIZ101](assets/cs/030.webp)
 
 Obchodníci zítřka tuto inovaci využijí a nabídnou zákazníkům bezpečnější a bezproblémovější služby (na jedno kliknutí), které zároveň respektují jejich soukromí.
 
@@ -1201,7 +1203,7 @@ Když se společnost rozhodne integrovat bitcoin do svého účetnictví, různ�
 
 Často jsou rozumným doplňkem pro velké organizace s více peněženkami a aktivy na různých platformách nebo burzách.
 
-![BIZ101](assets/cs/31.webp)
+![BIZ101](assets/cs/031.webp)
 
 Většině malých firem však často postačí jednoduchý soubor `.csv` obsahující historii transakcí. Cílem je zdokumentovat u každé platby datum, částku, ekvivalentní hodnotu v eurech/dolárech a příslušné bitcoinové adresy. Převážná většina řešení pro platby bitcoiny (BTC Pay Server, Swiss Bitcoin Pay atd.) nebo směnných platforem (Bitfinex, Kraken, Coinbase atd.) již nabízí mechanismus pro export historie transakcí. Poskytnutím tohoto souboru účetní jednotce je možné zefektivnit zadávání údajů a jasně rozlišit příchozí a odchozí toky související s Bitcoinem.
 

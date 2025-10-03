@@ -1,0 +1,9 @@
+question: 哪个阶段属于未成年人的角色？
+answer: 从 Mempool 建立候选区块
+wrong_answers:
+  - 从 Mempool 验证整个 Blockchain
+  - 为用户创建 Bitcoin 地址
+  - 为钱包存储私钥
+explanation: |
+  Miner 从 Mempool 中选择事务并构建候选区块，然后尝试由 Proof of Work 验证。
+reviewed: true

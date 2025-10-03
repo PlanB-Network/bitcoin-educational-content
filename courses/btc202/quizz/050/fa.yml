@@ -1,0 +1,9 @@
+question: پروتکل مورد استفاده توسط Electrs و Fulcrum برای اتصال کیف‌پول‌ها چیست؟
+answer: الکتروم
+wrong_answers:
+  - RPC REST
+  - رابط برنامه‌نویسی کاربردی JSON
+  - لایتنینگ gRPC
+explanation: |
+  این بسته‌های نرم‌افزاری یک سرور Electrum را ارائه می‌دهند، استانداردی که توسط بسیاری از کیف‌پول‌ها مانند Sparrow یا Electrum Wallet استفاده می‌شود.
+reviewed: true

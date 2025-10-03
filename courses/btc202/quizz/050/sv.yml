@@ -1,0 +1,9 @@
+question: Vilket protokoll används av Electrs och Fulcrum för att ansluta plånböcker?
+answer: Elektrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - Blixtsnabb gRPC
+explanation: |
+  Dessa programvarupaket exponerar en Electrum-server, den standard som används av många plånböcker som Sparrow eller Electrum Wallet.
+reviewed: true

@@ -8282,16 +8282,24 @@ On tärkeää valita nykyaikaiset laitteet, jotka valmistaja on huoltanut ja jot
 Wi-Fi 6, Wi-Fi 6E tai Wi-Fi 7 -yhteensopiva reititin tarjoaa paremmat nopeudet ja ennen kaikkea natiivin tuen nykyaikaisille turvatekniikoille. Sitä vastoin hyvin vanhoissa laitteissa, erityisesti sellaisissa, joihin ei enää tule ohjelmistopäivityksiä, voi olla tunnettuja, korjaamattomia haavoittuvuuksia. Ne ovat siksi riski koko verkollesi, vaikka määrittäisitkin ne oikein. Matkapuhelimiin tai tietokoneisiin verrattuna reitittimet ovat laitteita, joita säilytämme yleensä useita vuosia. Saattaa kuitenkin olla hyvä ajatus vaihtaa ne säännöllisemmin, jotta voit hyödyntää nykyaikaisempaa ja turvallisempaa mallia.
 
 
+**Huomio**: Yleisenä nyrkkisääntönä internet-palveluntarjoajien tarjoamista reitittimistä saattaa puuttua olennainen päivitysominaisuus sekä mukauttamismahdollisuudet. Joissakin tapauksissa palveluntarjoajilla voi myös olla rajoittamaton pääsy loppukäyttäjän sisäiseen verkkoon.
+
 Varmista siis, että päivität reitittimesi laiteohjelmiston järjestelmällisesti. Nämä päivitykset korjaavat haavoittuvuuksia, lisäävät uusia ominaisuuksia ja parantavat järjestelmän yleistä vakautta. Jotkin valmistajat tarjoavat automaattisia päivityksiä, mutta joissakin tapauksissa sinun on tarkistettava ne manuaalisesti reitittimesi Interface-hallintatyökalun avulla. Kuten puhelimen, tietokoneen, käyttöjärjestelmän ja ohjelmistojen, myös reitittimen on tärkeää päivittää säännöllisesti. Voit tehdä tästä osan viikkorutiineistasi - esimerkiksi joka sunnuntai - laatimalla luettelon kaikista tarkistettavista ja päivitettävistä asioista.
 
 
-Jos reititintäsi ei enää huolleta, mutta se toimii edelleen oikein laitteiston kannalta, voit asentaa vaihtoehtoisen avoimen lähdekoodin laiteohjelmiston, kuten esim:
+Vaihtoehtoisesti voit ottaa käyttöön automaattiset päivitykset tai ainakin automaattisen tarkistuksen uusista laiteohjelmistopäivityksistä, jos haluat toimia manuaalisesti. Vaikka automaattinen päivitystoiminto saattaa edelleen muodostaa tietoturvariskin, reitittimen laiteohjelmiston säännöllisen päivittämättä jättäminen altistaa paikallisen verkon julkisesti tunnetuille haavoittuvuuksille.
+
+**Esimerkki**: Oman reitittimen oston yhteydessä voi olla hyvä idea etsiä alan vakiintuneita yrityksiä, jotka ovat toimittaneet reitittimiä markkinoille pitkään. Esimerkiksi Fritz!Box-reitittimillä on pitkä maine plug-and-play-laitteina, jotka sopivat sekä perhekäyttöön että pienyrityksiin. Niiden ohjelmistopäivityskäytäntö yleensä ulottuu useiden vuosien ajalle.
+
+Jos reititintäsi ei enää ylläpidetä mutta se toimii laitteiston kannalta oikein, saatat pystyä asentamaan vaihtoehtoisen avoimen lähdekoodin laiteohjelmiston, kuten:
 
 
 
 - OpenWrt, reitittimiin erikoistunut Linux-jakelu, joka tarjoaa suurta joustavuutta ja säännöllisiä päivityksiä
 - pfSense ja OPNsense, kaksi FreeBSD-pohjaista (Unixin kaltaista) järjestelmää x86-palomuureja ja -reitittimiä varten
 
+
+**Huom**: Jotkut ISP:t tarjoavat asiakkailleen tukkureitittimiä, joita valmistaa yksi yritys, joka samanaikaisesti palvelee monia eri ISP:itä ympäri maailmaa. Saatat huomata, että vaihtoehtoisen laiteohjelmiston asentamiseksi reitittimeen joku muu on jo selvittänyt, miten se tehdään, vaikka hän olisi maailman toisella puolella.
 
 ![Image](assets/fr/196.webp)
 

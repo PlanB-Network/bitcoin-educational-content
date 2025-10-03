@@ -1,0 +1,9 @@
+question: Czy Ethics zostało opublikowane?
+answer: Pośmiertnie.
+wrong_answers:
+  - Kiedy żył.
+  - Jest to zbiór artykułów prasowych.
+  - Z korespondencją autora.
+explanation: |
+  Etyka, główne dzieło Spinozy, została opublikowana pośmiertnie w 1677 roku, kilka miesięcy po jego śmierci. Dzieło to było zbyt kontrowersyjne, aby mogło zostać opublikowane za jego życia bez ryzyka prześladowań.
+reviewed: false
